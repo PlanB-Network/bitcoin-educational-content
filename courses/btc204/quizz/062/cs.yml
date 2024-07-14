@@ -1,0 +1,11 @@
+otázka: Mezi těmito možnostmi, která není metodou pro automatický výběr dílů?
+
+odpověď: Silent Payments
+
+špatné_odpovědi:
+  - Branch-and-Bound
+  - FIFO
+  - Knapsack Solver
+
+vysvětlení: |
+  Na rozdíl od ostatních tří možností, Silent Payments není metodou pro výběr dílů, ale protokolem pro používání statických adres.

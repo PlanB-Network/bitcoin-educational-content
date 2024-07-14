@@ -1,0 +1,9 @@
+otázka: Mezi těmito 4 způsoby získání bitcoinů, který vás nejméně vystavuje riziku identifikace klíče?
+odpověď: Koupě v P2P za hotovost
+špatné_odpovědi:
+  - Koupě prostřednictvím regulované platformy bez KYC
+  - Koupě prostřednictvím regulované platformy s KYC
+  - Koupě přes PayPal prostřednictvím platformy pro P2P párování
+vysvětlení: |
+  Koupě bitcoinů peer-to-peer za hotovost je metoda, která vás nejméně vystavuje rizikům identifikace klíče, protože nevyžaduje procházení regulovanou společností a nezanechává žádnou stopu v bankovním systému. Navíc tato metoda obecně nevyžaduje zveřejnění osobních informací.
+recenzováno: false

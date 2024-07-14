@@ -1,0 +1,13 @@
+otázka: Co je BCH32 v kontextu Bitcoinu?
+odpověď: Je to specifická varianta base 32 pro Bitcoin.
+špatné_odpovědi:
+  - Je to specifická varianta base 64 pro Bitcoin.
+  - Je to specifická varianta base 16 pro Bitcoin.
+  - Je to specifická varianta base 2 pro Bitcoin.
+vysvětlení: |
+  BCH32 je specifická varianta base 32 pro Bitcoin. Používá se při
+
+  konstrukci
+
+  Bitcoinových adres.
+recenzováno: false

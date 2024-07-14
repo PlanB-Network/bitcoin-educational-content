@@ -1,0 +1,12 @@
+question: Jaká je role důvěryhodných osob ve vašem plánu dědictví?
+answer: Pomáhat vaší rodině, když tu už nebudete, poskytováním rad ohledně správy klíčů a peněženek, pomáháním s pochopením bezpečného způsobu obnovy vašich tajných frází (semen) a poskytováním jistoty během transakce.
+wrong_answers:
+  - Převzít vaše kryptoaktiva po vaší smrti, spravovat vaše aktiva a rozdělit vaše aktiva mezi vaše dědice.
+  - Ukrást vaše kryptoaktiva předtím, než budou předána vašim blízkým, ohrozit vaše transakce a vyvolávat konflikty mezi vašimi dědici.
+  - Ignorovat vaši rodinu, když tu už nebudete, poskytovat zavádějící rady ohledně správy klíčů a peněženek a vyvolávat zmatek během transakce.
+explanation: |
+  Důvěryhodné osoby ve vašem plánu dědictví jsou zde, aby pomáhaly
+  vaší rodině, když tu už nebudete. Poskytují rady ohledně správy klíčů a peněženek,
+  pomáhají s pochopením, jak bezpečně obnovit vaše tajné fráze (semena), a poskytují jistotu
+  během transakce.
+reviewed: false

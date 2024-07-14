@@ -1,0 +1,11 @@
+otázka: V jakém scénáři může stablecoin obchodovat nad svou pevně stanovenou cenou?
+odpověď: Když poptávka po stablecoinech překročí kapacitu burzy
+špatné_odpovědi:
+  - Když vydavatel stablecoinu zmrazí prostředky
+  - Když je stablecoin plně krytý hotovostními rezervami
+  - Když je silný prodejní tlak ze strany uživatelů
+vysvětlení: |
+  Stablecoiny mohou obchodovat nad svou pevně stanovenou cenou, když 
+  poptávka po stablecoinech překročí kapacitu burzy 
+  uspokojit požadavky zákazníků, typicky na menších burzách.
+recenzováno: true

@@ -1,0 +1,11 @@
+otázka: Jaká je hlavní role těžařů v síti Bitcoin?
+odpověď: Zajišťují bezpečnost sítě prováděním procesů proof-of-work Bitcoinu
+špatné_odpovědi:
+  - Vytvářejí nové bitcoiny
+  - Regulují cenu Bitcoinu
+  - Kontrolují síť Bitcoinu
+vysvětlení: |
+  Obsah kapitoly vysvětluje, že těžaři jsou zodpovědní za zabezpečení
+  sítě Bitcoin. Používají elektřinu k provádění procesů proof-of-work Bitcoinu,
+  což vytváří nový blok.
+recenzováno: false

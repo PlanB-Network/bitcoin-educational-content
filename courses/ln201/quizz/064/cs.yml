@@ -1,0 +1,10 @@
+otázka: Co je Lightning Network?
+odpověď: Systém, který využívá HTLCs k zajištění bezpečných a ověřitelných plateb v transakcích s Bitcoinem.
+špatné_odpovědi:
+  - Typ kryptoměny.
+  - Metoda šifrování dat.
+  - Typ blockchainu.
+vysvětlení: |
+  Lightning Network je systém, který využívá Hash Time-Locked Contracts
+  (HTLCs) k zajištění bezpečných a ověřitelných plateb v transakcích s Bitcoinem.
+recenzováno: false

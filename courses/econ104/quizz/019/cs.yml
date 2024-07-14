@@ -1,0 +1,12 @@
+otázka: Jak stablecoiny, jako například USDt, dosahují relativní stability hodnoty?
+odpověď: Jsou vázány na stabilní aktivum nebo měnu.
+špatné_odpovědi:
+  - Jsou podporovány centrální autoritou nebo vládou.
+  - Spoléhají na technologii blockchain pro zabezpečené transakce.
+  - Jsou vystaveny kolísání podobně jako ostatní kryptoměny.
+vysvětlení: |
+  Stablecoiny udržují relativní stabilitu hodnoty tím, že jsou vázány 
+  na stabilnější aktivum nebo měnu, jako je americký dolar nebo zlato.
+  Toto vázání pomáhá zmírňovat volatilitu, která je často spojena s jinými 
+  digitálními aktivy jako Bitcoin.
+recenzováno: true

@@ -1,0 +1,9 @@
+otázka: Na čem budou těžaři záviset pro odměnu po vytvoření všech 21 milionů bitcoinů?
+odpověď: Těžaři budou záviset výhradně na transakčních poplatcích pro odměnu.
+špatné_odpovědi:
+  - Těžaři budou záviset výhradně na odměnách za blok pro odměnu.
+  - Těžaři budou záviset výhradně na potvrzeních transakcí pro odměnu.
+  - Těžaři budou záviset výhradně na síťových poplatcích pro odměnu.
+vysvětlení: |
+  Do roku 2140 nebudou vytvořeny žádné nové bitcoiny. V tomto okamžiku budou těžaři záviset výhradně na transakčních poplatcích pro odměnu.
+recenzováno: false

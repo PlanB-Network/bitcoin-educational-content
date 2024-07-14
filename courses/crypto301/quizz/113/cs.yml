@@ -1,0 +1,10 @@
+otázka: K čemu odpovídá Hloubka 0 ve struktuře HD peněženky?
+odpověď: Hlavní klíč a hlavní řetězový kód
+špatné_odpovědi:
+  - Dceřiné klíče a dceřiný řetězový kód
+  - Vnější a vnitřní řetězce
+  - Přijímací adresy ve standardní peněžence
+vysvětlení: |
+  Ve struktuře HD peněženky odpovídá Hloubka 0 hlavnímu klíči a
+  hlavnímu řetězovému kódu.
+recenzováno: false

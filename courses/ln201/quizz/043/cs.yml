@@ -1,0 +1,10 @@
+otázka: Kdo platí závěrečné poplatky při kooperativním uzavření?
+odpověď: Osoba, která kanál otevřela.
+špatné_odpovědi:
+  - Osoba, která kanál uzavřela.
+  - Obě strany rovně.
+  - Osoba s nejvíce SAT v kanálu.
+vysvětlení: |
+  Při kooperativním uzavření se obě strany dohodnou na konečném stavu
+  kanálu. Osoba, která kanál otevřela, platí závěrečné poplatky.
+recenzováno: false

@@ -1,0 +1,11 @@
+question: Jaký je hlavní účel aktualizace softwaru?
+answer: Opravit chyby a zlepšit bezpečnost vašeho softwaru
+wrong_answers:
+  - Přidat nové funkce
+  - Změnit uživatelské rozhraní softwaru
+  - Zvýšit velikost softwaru
+explanation: |
+  Ačkoliv aktualizace softwaru často přinášejí nové funkce, jejich hlavním účelem
+  je oprava chyb a zlepšení bezpečnosti softwaru. To je klíčové pro udržení
+  vašeho počítače v optimálním pracovním stavu.
+reviewed: false

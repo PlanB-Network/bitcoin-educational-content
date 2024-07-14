@@ -1,0 +1,13 @@
+question: Co je OP_RETURN v Bitcoinové transakci?
+
+answer: Opcode, který označuje výstup jako neplatný a umožňuje ukládání dat.
+
+wrong_answers:
+  - Opcode, který ověřuje platnost podpisu v Bitcoinové transakci.
+  - Opcode, který obsahuje odkaz na soubor uložený na IPFS.
+  - Příkaz, který maže transakci z Bitcoinového blockchainu.
+
+explanation: |
+  OP_RETURN je opcode, který signalizuje neplatný skript, čímž výstup, který obsahuje, činí prokazatelně nespotřebitelným. Uzly sítě tak mohou tento výstup odstranit ze své sady UTXO. OP_RETURN se často používá k zaznamenávání libovolných dat v blockchainu.
+
+reviewed: false

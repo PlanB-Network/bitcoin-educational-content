@@ -1,0 +1,11 @@
+otázka: Jaký je účel faktoru náhodnosti v procesu směrování Lightning Network?
+odpověď: Aby se neustále nepoužívaly stejné trasy.
+špatné_odpovědi:
+  - Zvýšit složitost sítě.
+  - Snížit rychlost transakcí.
+  - Ohrozit soukromí uživatelů.
+vysvětlení: |
+  Faktor náhodnosti v procesu směrování Lightning Network je používán
+  k tomu, aby se neustále nepoužívaly stejné trasy. To pomáhá rozložit zátěž
+  po celé síti a zvýšit šance na nalezení úspěšné trasy pro transakci.
+recenzováno: false

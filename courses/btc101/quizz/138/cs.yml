@@ -1,0 +1,9 @@
+otázka: Jaká je primární funkce uzlů v síti Bitcoin?
+odpověď: Udržování kopie blockchainu Bitcoinu, validace transakcí, přenos informací ostatním uzlům a vynucování pravidel protokolu Bitcoinu.
+špatné_odpovědi:
+  - Pouze validace transakcí
+  - Pouze udržování kopie blockchainu Bitcoinu
+  - Pouze přenos informací ostatním uzlům
+vysvětlení: >-
+  Uzly v síti Bitcoin plní několik klíčových funkcí, včetně udržování kopie blockchainu Bitcoinu, validace transakcí, přenosu informací ostatním uzlům a vynucování pravidel protokolu Bitcoinu.
+recenzováno: false

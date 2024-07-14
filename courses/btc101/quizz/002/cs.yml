@@ -1,0 +1,10 @@
+otázka: Co je Lightning Network?
+odpověď: Technologie, která umožňuje rychlé transakce s Bitcoinem.
+špatné_odpovědi:
+  - Technologie, která zpomaluje transakce s Bitcoinem.
+  - Technologie, která nemá žádný vliv na transakce s Bitcoinem.
+  - Technologie, která činí transakce s Bitcoinem méně bezpečnými.
+vysvětlení: |
+  Lightning Network je technologie, která může zlepšit transakce s Bitcoinem,
+  činí je rychlejšími a efektivnějšími. Jedná se o pokus vyřešit problém škálovatelnosti, kterému Bitcoin čelí.
+recenzováno: true

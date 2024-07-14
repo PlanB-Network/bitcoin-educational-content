@@ -1,0 +1,9 @@
+otázka: Jaký je konečný cíl kryptografické hašovací funkce?
+odpověď: Přeměnit informace libovolné velikosti na otisk pevné velikosti.
+špatné_odpovědi:
+  - Zašifrovat data pro bezpečný přenos.
+  - Generovat unikátní klíč pro každého uživatele.
+  - Kompresovat data pro efektivní uložení.
+vysvětlení: |
+  Konečným cílem kryptografické hašovací funkce je přeměnit informace libovolné velikosti na otisk pevné velikosti. Tento otisk je jedinečný pro vstupní data a dokonce malá změna ve vstupu povede k drasticky odlišnému otisku.
+posouzeno: false

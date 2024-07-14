@@ -1,0 +1,9 @@
+otázka: V kterém roce se předpokládá, že dojde k ukončení těžby bitcoinů?
+odpověď: 2140
+špatné_odpovědi:
+  - 2050
+  - 2030
+  - 2200
+vysvětlení: |
+  Díky mechanismu snižování odměn za těžbu (halving) lze matematicky předpovědět, že těžba bitcoinů skončí v roce 2140, kdy celkový počet bitcoinů dosáhne svého limitu 21 milionů.
+recenzováno: true

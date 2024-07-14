@@ -1,0 +1,10 @@
+otázka: Jaký je účel tajného S generovaného Bobem?
+odpověď: Používá se k odemčení HTLCs nastavených Alicí a Susie.
+špatné_odpovědi:
+  - Používá se k výpočtu hash r.
+  - Používá se k vytvoření nového HTLC.
+  - Používá se k uzavření kanálu.
+vysvětlení: |
+  Bob generuje tajné S a vypočítá hash r. Toto tajemství se používá
+  k odemčení HTLCs nastavených Alicí a Susie.
+recenzováno: false

@@ -1,0 +1,12 @@
+otázka: Jaká je hlavní výhoda používání neopatrovnických peněženek pro ukládání bitcoinů?
+odpověď: Zvýšená bezpečnost a soukromí
+špatné_odpovědi:
+  - Snadný přístup k bitcoinům
+  - Nižší transakční poplatky
+  - Není nutné heslo
+vysvětlení: |
+  Neopatrovnické peněženky jsou takové, kde jste jediným správcem svých prostředků,
+  což znamená, že máte úplnou kontrolu nad svými soukromými klíči. Proto
+  neopatrovnické peněženky nabízejí vyšší úroveň bezpečnosti a soukromí
+  oproti opatrovnickým peněženkám, jelikož jste jediný, kdo je zodpovědný za bezpečnost svých prostředků.
+posouzeno: true

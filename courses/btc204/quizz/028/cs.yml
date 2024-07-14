@@ -1,0 +1,9 @@
+question: Co je identifikace klíče?
+answer: Schopnost spojit aspekt identity uživatele s aktivitou na blockchainu.
+wrong_answers:
+  - Proces přiřazení veřejného klíče každé nové transakci na blockchainu.
+  - Schopnost sledovat transakce na blockchainu prostřednictvím heuristiky společného vlastnictví vstupů.
+  - Proces, pomocí kterého je odvozen veřejný klíč z privátního klíče.
+explanation: |
+  Identifikace klíče zahrnuje možnost propojení aspektu identity uživatele s aktivitou na blockchainu.
+reviewed: false

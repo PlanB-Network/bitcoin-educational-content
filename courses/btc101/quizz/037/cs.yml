@@ -1,0 +1,11 @@
+otázka: Která entita je zodpovědná za vydávání fiduciární měny?
+odpověď: Centrální banka
+špatné_odpovědi:
+  - Komerční banka
+  - Vláda
+  - Soukromé instituce
+vysvětlení: |
+  Centrální banky jsou entity, které mají na starosti vydávání fiduciární
+  měny. Rozhodují o měnové politice a určují, kolik peněz by mělo být
+  uvedeno do oběhu nebo vytištěno.
+posouzeno: true

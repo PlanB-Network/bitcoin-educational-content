@@ -1,0 +1,9 @@
+otázka: Jaké jsou 3 hlavní kroky analýzy blockchainu?
+odpověď: Pozorování blockchainu, identifikace charakteristik a odvozování hypotéz.
+nesprávné_odpovědi:
+  - Sběr dat, bezpečné ukládání a zpracování.
+  - Identifikace uživatelů, regulace směnáren a ochrana proti podvodům.
+  - Sběr dat, náhodný výběr a označení.
+vysvětlení: |
+  Analýza blockchainu nejprve zahrnuje přístup k datům Bitcoin blockchainu, poté pokus o identifikaci charakteristik v těchto datech a nakonec dělání pravděpodobných interpretací.
+recenzováno: false

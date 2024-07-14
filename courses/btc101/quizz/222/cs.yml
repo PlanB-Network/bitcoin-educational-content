@@ -1,0 +1,10 @@
+question: Jaký je problém se škálovatelností Bitcoinu?
+answer: Výzva spočívající v implementaci měnového systému schopného poskytovat stále rostoucí počet transakcí za sekundu, jak je přijímán.
+wrong_answers:
+  - Obtížnost těžby nových Bitcoinů.
+  - Volatilita ceny Bitcoinu.
+  - Nedostatek regulace pro Bitcoin.
+explanation: >-
+  Problém se škálovatelností odkazuje na výzvu spočívající v implementaci měnového
+  systému schopného poskytovat stále rostoucí počet transakcí za sekundu, jak je přijímán.
+reviewed: false

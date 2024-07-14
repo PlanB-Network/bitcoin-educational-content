@@ -1,0 +1,10 @@
+otázka: Co byl projekt DigiCash?
+odpověď: Pokus o vytvoření anonymní elektronické měny Davidem Chaumem.
+špatné_odpovědi:
+  - Projekt vytvoření digitální peněženky pro Bitcoin.
+  - Projekt digitalizace veškeré fyzické hotovosti.
+  - Projekt vytvoření kryptoměny založené na Bitcoinu.
+vysvětlení: |
+  David Chaum představil koncept anonymní elektronické měny se
+  svým projektem DigiCash v 80. letech.
+recenzováno: true

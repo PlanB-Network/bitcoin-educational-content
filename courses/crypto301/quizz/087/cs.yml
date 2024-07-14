@@ -1,0 +1,9 @@
+otázka: Jaký je vztah mezi hlavním soukromým klíčem a rozšířenými klíči peněženky?
+odpověď: Hlavní soukromý klíč je první soukromý klíč odvozený ze seedu a nemá žádnou spojitost s rozšířenými klíči peněženky.
+špatné_odpovědi:
+  - Hlavní soukromý klíč je odvozen z rozšířených klíčů peněženky.
+  - Hlavní soukromý klíč je totožný s rozšířenými klíči peněženky.
+  - Hlavní soukromý klíč se používá k generování rozšířených klíčů peněženky.
+vysvětlení: |
+  Hlavní soukromý klíč je první soukromý klíč odvozený ze seedu a nemá žádnou spojitost s rozšířenými klíči peněženky.
+recenzováno: false

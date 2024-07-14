@@ -1,0 +1,9 @@
+otázka: Jaký je účel hashovací funkce SHA-256 při generování dobrého náhodného čísla?
+odpověď: Redukuje velmi velký počáteční kus informací na 256 bitů.
+špatné_odpovědi:
+  - Zvyšuje velikost počátečních informací.
+  - Šifruje počáteční informace.
+  - Ověřuje pravost počátečních informací.
+vysvětlení: |
+  Hashovací funkce SHA-256 se používá k redukci velmi velkého počátečního kusu informací na 256 bitů. Tento proces pomáhá při generování dobrého náhodného čísla, což je klíčové pro zabezpečení soukromých klíčů a transakcí Bitcoinu.
+recenzováno: false

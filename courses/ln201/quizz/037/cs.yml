@@ -1,0 +1,12 @@
+otázka: Je možné podvádět publikováním starého stavu v transakci závazku?
+odpověď: "Ano"
+nesprávné_odpovědi:
+  - "Ne"
+  - Pouze pokud mají klíč pro zrušení.
+  - Pouze pokud transakci vytvořili s časovým zámkem.
+vysvětlení: |
+  Podvádět publikováním starého stavu v transakci závazku je možné,
+  protože oba účastníci mají před-podepsání nepublikované transakce.
+  Avšak, opatření jako časový zámek a klíč pro zrušení jsou na místě, aby
+  tomu zabránily.
+posouzeno: false

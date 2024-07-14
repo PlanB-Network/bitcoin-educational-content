@@ -1,0 +1,11 @@
+otázka: Co musí uživatelé Bitcoinu poskytnout odesílateli, když chtějí přijímat bitcoiny?
+odpověď: Přijímací adresu
+špatné_odpovědi:
+  - Svůj veřejný klíč
+  - Svůj soukromý klíč
+  - Heslo k jejich bitcoinové peněžence
+vysvětlení: |
+  Když uživatel Bitcoinu chce přijímat bitcoiny, poskytne odesílateli přijímací
+  adresu. Tato adresa je hashem jejich veřejného klíče, s určitým
+  formátem.
+recenzováno: false

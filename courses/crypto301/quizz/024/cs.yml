@@ -1,0 +1,10 @@
+otázka: Jaká je rovnice křivky secp256k1 používané v Bitcoinu?
+odpověď: "y² = x³ + 7 modulo n"
+špatné_odpovědi:
+  - "y² = x³ + ax + b"
+  - "y² = x³ + 7 modulo p"
+  - "y² = x³ + ax + b modulo n"
+vysvětlení: |
+  "Křivka secp256k1 používaná v Bitcoinu je definována parametry a=0\
+  \ a b=7, a její rovnice je y² = x³ + 7 modulo n, kde n představuje\
+  \ prvočíslo, které určuje řád křivky."

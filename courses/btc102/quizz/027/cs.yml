@@ -1,0 +1,10 @@
+question: Co znamená neměnnost Bitcoin blockchainu?
+answer: Nelze jej změnit v průběhu času
+wrong_answers:
+  - Nelze jej hacknout
+  - Nelze jej kopírovat
+  - Nelze jej smazat
+explanation: |
+  Neměnnost Bitcoin blockchainu znamená, že jakmile je transakce zaznamenána, nemůže být změněna nebo smazána. To zajišťuje integritu a
+  spolehlivost blockchainu.
+reviewed: false

@@ -1,0 +1,10 @@
+otázka: Kdo vytváří transakci s Timelockem?
+odpověď: Osoba, která posílá peníze.
+špatné_odpovědi:
+  - Osoba, která přijímá peníze.
+  - Obě strany vytvářejí transakci s Timelockem.
+  - Žádná ze stran nevytváří transakci s Timelockem.
+vysvětlení: |
+  Osoba, která posílá peníze, vytváří transakci s Timelockem.
+  To jim brání v okamžitém získání jejich peněz zpět.
+recenzováno: false

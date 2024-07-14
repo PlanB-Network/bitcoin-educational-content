@@ -1,0 +1,9 @@
+otázka: Co je likvidita kanálu v Lightning Network?
+odpověď: Množství satoshi, které mohou být přeneseny skrze kanál.
+špatné_odpovědi:
+  - Počet transakcí, které mohou být provedeny skrze kanál.
+  - Rychlost, s jakou mohou být transakce provedeny skrze kanál.
+  - Cena za provedení transakce skrze kanál.
+vysvětlení: |
+  V Lightning Network se likvidita kanálu vztahuje na množství satoshi, které mohou být přeneseny skrze kanál. Likvidita těchto kanálů nemůže být přenesena do jiných likvidních kanálů.
+recenzováno: false

@@ -1,0 +1,11 @@
+otázka: Jaký je účel Bitcoinových peněženek?
+odpověď: Posílat a přijímat bitcoiny
+špatné_odpovědi:
+  - Těžit bitcoiny
+  - Skladovat fyzické bitcoiny
+  - Převádět bitcoiny na jiné měny
+vysvětlení: |
+  Bitcoinové peněženky slouží k posílání a přijímání bitcoinů. Jsou to digitální
+  peněženky, které uchovávají digitální přihlašovací údaje potřebné pro přístup k bitcoinové adrese
+  a utrácení bitcoinů.
+recenzováno: false

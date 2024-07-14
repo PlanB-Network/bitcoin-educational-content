@@ -1,0 +1,12 @@
+otázka: Jaké faktory se zohledňují při odhadu nejpravděpodobnějších úspěšných tras v Lightning Network?
+odpověď: Poplatky, doba expirace HTLC, počet mezilehlých uzlů a faktor náhodnosti.
+špatné_odpovědi:
+  - Velikost transakce, výška bloku a poplatky za transakci.
+  - Poplatky za transakci, velikost bloku a čas potvrzení transakce.
+  - Čas potvrzení transakce, výška bloku a velikost transakce.
+vysvětlení: |
+  Při odhadu nejpravděpodobnějších úspěšných tras v Lightning Network
+  uzly zohledňují několik faktorů. Zahrnují poplatky spojené s každou trasou,
+  dobu expirace HTLC, počet mezilehlých uzlů a faktor náhodnosti
+  k vyhnutí se stálému používání stejných tras.
+recenzováno: false

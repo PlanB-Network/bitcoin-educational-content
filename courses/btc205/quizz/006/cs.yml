@@ -1,0 +1,14 @@
+otázka: Jaká je maximální denní částka pro nákup pro KYC light ve Švýcarsku?
+odpověď: 1000 eur
+špatné_odpovědi:
+  - 500 eur
+  - 1500 eur
+  - 2000 eur
+vysvětlení: |
+  KYC light ve Švýcarsku umožňuje nákup a prodej bitcoinů
+
+
+  bez nutnosti poskytnutí identifikace, pokud částka nákupu nepřesáhne
+
+
+  1000 eur za den.

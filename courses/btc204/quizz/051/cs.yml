@@ -1,0 +1,13 @@
+otázka: Jaká je nevýhoda Tichých plateb ve srovnání s BIP47?
+
+odpověď: Příjemce musí prohledat téměř celý blockchain.
+
+nesprávné_odpovědi:
+  - Generují vyšší transakční poplatky pro odesílatele.
+  - Omezují počet možných transakcí.
+  - Jsou méně anonymní.
+
+vysvětlení: |
+  Výměnou za vzdání se notifikační transakce musí příjemce prohledat všechny Bitcoinové transakce, které odpovídají standardu, v pokusu najít platby adresované jim.
+
+recenzováno: false

@@ -1,0 +1,11 @@
+otázka: Jaký byl dopad přecenění dluhů ve Výmarské republice?
+odpověď: Akcionáři obdrželi 2,5 procenta své původní investice za předpokladu, že byly zaplaceny všechny reparace.
+špatné_odpovědi:
+  - Vedlo to k dalšímu snížení hodnoty měny.
+  - Způsobilo to nárůst nezaměstnanosti.
+  - Mělo to za následek pokles zahraničních investic.
+vysvětlení: |
+  Ve Výmarské republice byly některé dluhy přeceněny, aby se kompenzoval dopad inflace.
+  Rozhodnutí přecenit státní půjčky se stalo zákonem v roce 1925, což vedlo k tomu, že akcionáři
+  obdrželi 2,5 procenta své původní investice za předpokladu, že byly zaplaceny všechny reparace.
+kontrolováno: false

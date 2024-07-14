@@ -1,0 +1,9 @@
+otázka: Kolik SAT má Bob po druhém převodu v příkladu?
+odpověď: 40 000 SAT.
+špatné_odpovědi:
+  - 30 000 SAT.
+  - 10 000 SAT.
+  - 0 SAT.
+vysvětlení: |
+  V příkladu, po druhém převodu, má Bob 40 000 SAT.
+recenzováno: false

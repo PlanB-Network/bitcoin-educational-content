@@ -1,0 +1,13 @@
+otázka: Která z následujících odpovědí neumožňuje oklamat heuristiky analýzy řetězce?
+
+odpověď: Vždy používat stejnou přijímací adresu.
+
+špatné_odpovědi:
+  - Vytvoření změny, jejíž hodnota je blízká platbě.
+  - Vytváření výstupů s nepravidelnými, nerovnými částkami.
+  - Rozložení transakcí během dne.
+
+vysvětlení: |
+  Zejména by se neměla používat přijímací adresa vícekrát. Všechny ostatní odpovědi umožňují vyhnout se heuristikám analýzy řetězce.
+
+recenzováno: false

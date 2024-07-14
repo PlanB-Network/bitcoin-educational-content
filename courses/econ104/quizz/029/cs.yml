@@ -1,0 +1,12 @@
+otázka: Jaká je jedna z motivací za tím, že Bitcoin spotřebovává energii prostřednictvím těžby?
+odpověď: Poskytnout silný obranný mechanismus proti centralizaci
+špatné_odpovědi:
+  - Zvýšit náklady na používání Bitcoinu
+  - Snížit jeho hodnotu zvýšením nákladů na energii
+  - Odradit nové uživatele od připojení k síti
+vysvětlení: |
+  Jedním z důvodů, proč Bitcoin spotřebovává energii prostřednictvím těžby, je 
+  poskytnutí silného obranného mechanismu proti centralizaci a 
+  neoprávněné manipulaci. Distribuovaná síť těžařů pomáhá zabránit 
+  centralizovaným subjektům v převzetí kontroly nad sítí nebo manipulaci s pravidly ve svůj prospěch.
+recenzováno: true

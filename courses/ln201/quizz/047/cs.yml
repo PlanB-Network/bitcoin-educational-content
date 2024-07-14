@@ -1,0 +1,9 @@
+otázka: Co se děje při kooperativním uzavření?
+odpověď: Dva partneři komunikují a dohodnou se na uzavření kanálu, ověří konečný stav kanálu a vytvoří transakci pro uzavření.
+špatné_odpovědi:
+  - Jeden partner vynutí uzavření kanálu.
+  - Jeden partner se pokusí podvést zveřejněním staré závazné transakce.
+  - Dva partneři se přou o zbývající SAT v kanálu.
+vysvětlení: |
+  Při kooperativním uzavření dva partneři komunikují a dohodnou se na uzavření kanálu. Zastaví veškeré transakce a ověří konečný stav kanálu. Poté vytvoří transakci pro uzavření.
+posouzeno: false

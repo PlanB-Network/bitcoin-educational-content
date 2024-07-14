@@ -1,0 +1,10 @@
+otázka: Je heslová fráze bezpečnější než jednoduché heslo?
+odpověď: "Ano"
+nesprávné_odpovědi:
+  - "Ne"
+  - Záleží na délce hesla
+  - Záleží na složitosti hesla
+vysvětlení: |
+  Heslová fráze je bezpečnější než jednoduché heslo. Ideální heslová fráze
+  je dlouhá, různorodá a náhodná. Může zvýšit bezpečnost peněženky nebo hot software.
+recenzováno: false

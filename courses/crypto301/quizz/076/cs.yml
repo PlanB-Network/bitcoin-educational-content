@@ -1,0 +1,11 @@
+otázka: Co se stane, pokud se změní heslo Bitcoin peněženky?
+odpověď: Bitcoin peněženka se stane zcela odlišnou
+špatné_odpovědi:
+  - Bitcoin peněženka se stane nedostupnou
+  - Bitcoin peněženka zůstane stejná
+  - Bitcoin peněženka přijde o všechny své bitcoiny
+vysvětlení: |
+  Pokud dojde ke změně hesla, Bitcoin peněženka se stane zcela odlišnou,
+  protože heslo hraje roli při konstrukci a výpočtu všech klíčů
+  peněženky.
+recenzováno: false

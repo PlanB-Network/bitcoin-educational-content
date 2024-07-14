@@ -1,0 +1,9 @@
+otázka: Jak se nazývá proces, který ověřuje transakce v síti Bitcoin?
+odpověď: Těžba
+nesprávné_odpovědi:
+  - Kopání
+  - Sklízení
+  - Farmaření
+vysvětlení: |
+  Proces, který ověřuje transakce v síti Bitcoin, se nazývá těžba. Těžaři provádějí kryptografický úkol a jsou za to odměněni vydáním nových bitcoinů.
+recenzováno: true

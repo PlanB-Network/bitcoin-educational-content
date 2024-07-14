@@ -1,0 +1,13 @@
+otázka: Jak můžeme minimalizovat dopady COIH při konsolidaci UTXO?
+
+odpověď: Konsolidací pouze UTXO ze stejného zdroje.
+
+špatné odpovědi:
+  - Posíláním UTXO na adresy třetích stran.
+  - Náhodným výběrem UTXO, aby se zabránilo rozpoznatelným vzorcům.
+  - Konsolidací UTXO v obdobích nízké aktivity.
+
+vysvětlení: |
+  Pokud potřebujete konsolidovat své bitcoiny, dejte přednost konsolidaci UTXO ze stejného zdroje jako první.
+
+recenzováno: false

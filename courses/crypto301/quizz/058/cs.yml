@@ -1,0 +1,11 @@
+otázka: Jaká je role entropie v Bitcoin HD peněžence?
+odpověď: Je základem každé HD peněženky a nezbytná pro její bezpečnost.
+špatné_odpovědi:
+  - Pomáhá při ověřování transakcí.
+  - Zvyšuje rychlost transakcí.
+  - Sníží velikost blockchainu.
+vysvětlení: |
+  Entropie, neboli náhodnost, je základem jakékoli HD peněženky. Je nezbytná
+  pro bezpečnost peněženky, protože zajišťuje nepředvídatelnost generovaných
+  soukromých klíčů.
+recenzováno: false

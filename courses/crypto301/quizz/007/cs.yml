@@ -1,0 +1,10 @@
+otázka: Jaká hashovací funkce je klíčovým prvkem protokolu Bitcoin?
+odpověď: SHA-256
+nesprávné_odpovědi:
+  - MD5
+  - SHA1
+  - SHA0
+vysvětlení: |
+  SHA-256 je klíčovým prvkem protokolu Bitcoin. Používá se k vytvoření
+  jedinečného a nevratného otisku transakčních dat, což je zásadní pro
+  bezpečnost a integritu sítě Bitcoin.

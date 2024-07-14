@@ -1,0 +1,13 @@
+otázka: Jaký je účel rozšíření HRP v Bitcoinové adrese?
+odpověď: Umožňuje izolovat posledních pět bitů každého znaku, čímž posiluje kontrolní součet.
+špatné_odpovědi:
+  - Zvyšuje velikost adresy.
+  - Šifruje adresu pro bezpečnostní účely.
+  - Umožňuje opravu chyb v adrese.
+vysvětlení: |
+  Rozšíření HRP zahrnuje kódování každého písmene do základu 2, přičemž se vezmou
+
+  první tři bity každého znaku vložením oddělovače 0 a poté se konkatenací
+
+  přidají posledních pět bitů každého znaku. Tento proces posiluje kontrolní součet.
+recenzováno: false

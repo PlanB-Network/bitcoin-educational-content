@@ -1,0 +1,13 @@
+otázka: Co označuje prefix XPUB u rozšířeného klíče?
+odpověď: Jedná se o rozšířený veřejný klíč.
+špatné_odpovědi:
+  - Jedná se o rozšířený soukromý klíč.
+  - Jedná se o hlavní klíč.
+  - Jedná se o dceřiný klíč.
+vysvětlení: |
+  Rozšířené klíče jsou identifikovány specifickými prefixy (XPRV, XPUB, YPUB,
+
+  ZPUB), které označují, zda se jedná o rozšířený soukromý nebo veřejný klíč, stejně jako
+
+  jejich konkrétní účel.
+recenzováno: false

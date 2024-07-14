@@ -1,0 +1,11 @@
+otázka: Jaké je hlavní riziko spojené s generováním vlastní mnemonické fráze pomocí kostek pro transakce s Bitcoinem?
+odpověď: Může představovat určitá rizika.
+špatné_odpovědi:
+  - Může vést k generování předvídatelných čísel.
+  - Může vést k generování duplicitních čísel.
+  - Může vést k generování neplatných čísel.
+vysvětlení: |
+  Generování vlastní mnemonické fráze pomocí kostek může představovat určitá rizika.
+  Doporučuje se proto použít náhodně generovanou heslovou frázi k minimalizaci těchto
+  rizik.
+recenzováno: false

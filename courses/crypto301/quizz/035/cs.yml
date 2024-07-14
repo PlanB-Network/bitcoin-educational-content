@@ -1,0 +1,9 @@
+otázka: Jaká je velikost veřejného klíče Bitcoinu?
+odpověď: 512bitové číslo
+špatné_odpovědi:
+  - 256bitové číslo
+  - 128bitové číslo
+  - 1024bitové číslo
+vysvětlení: |
+  V systému Bitcoinu je použit unikátní soukromý klíč k odvození 512bitového veřejného klíče.
+recenzováno: false

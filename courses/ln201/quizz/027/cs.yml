@@ -1,0 +1,10 @@
+otázka: Kdy je vykonána transakce výběru při převodu v Lightning Network?
+odpověď: Když je kanál uzavřen.
+špatné_odpovědi:
+  - Když je převod proveden.
+  - Když je kanál otevřen.
+  - Nikdy není provedena.
+vysvětlení: |
+  Transakce výběru, která reprezentuje stav kanálu,
+  není provedena, dokud není kanál uzavřen.
+recenzováno: false

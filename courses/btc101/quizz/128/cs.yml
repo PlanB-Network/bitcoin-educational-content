@@ -1,0 +1,9 @@
+otázka: Jaká je role těžařů v síti Bitcoin?
+odpověď: Ověřují transakce jejich zařazením do bloku.
+špatné_odpovědi:
+  - Vytvářejí nové Bitcoiny.
+  - Spravují síť Bitcoin.
+  - Regulují cenu Bitcoinu.
+vysvětlení: >-
+  Těžaři v síti Bitcoin mají za úkol ověřovat transakce jejich zařazením do bloku. Dělají to tak, že řeší kryptografickou hádanku v procesu nazývaném "důkaz práce".
+recenzováno: false

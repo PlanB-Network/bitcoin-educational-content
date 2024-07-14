@@ -1,0 +1,11 @@
+otázka: Co je řešení bez KYC v kontextu Bitcoinu?
+odpověď: Řešení, které umožňuje anonymní transakce s Bitcoinem
+špatné_odpovědi:
+  - Řešení, které umožňuje transakce s Bitcoinem bez internetu
+  - Řešení, které umožňuje transakce s Bitcoinem bez peněženky
+  - Řešení, které umožňuje transakce s Bitcoinem bez poplatků
+vysvětlení: |
+  Řešení bez KYC (Know Your Customer) je řešení, které umožňuje
+  anonymní transakce s Bitcoinem. Nevyžaduje od uživatele poskytnutí osobních
+  identifikačních informací.
+recenzováno: false

@@ -1,0 +1,9 @@
+otázka: Jaká je hlavní charakteristika "blockchainu" bez důkazu práce?
+odpověď: Nemá skutečnou hodnotu
+nesprávné_odpovědi:
+  - Je bezpečnější
+  - Je rychlejší
+  - Je více decentralizovaný
+vysvětlení: |
+  Obsah kapitoly uvádí, že bez důkazu práce "blockchain" nemá skutečnou hodnotu. To je klíčová charakteristika, která odlišuje Bitcoin od ostatních kryptoměn.
+posouzeno: false

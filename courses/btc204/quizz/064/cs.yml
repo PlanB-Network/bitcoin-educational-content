@@ -1,0 +1,13 @@
+otázka: Jak jsou štítky spojené s Bitcoinovou peněženkou uloženy?
+
+odpověď: Lokálně v softwaru peněženky.
+
+špatné_odpovědi:
+  - V centralizované databázi kontrolované vývojářem.
+  - Na Bitcoinovém blockchainu prostřednictvím OP_RETURN.
+  - Pouze v RAM během provozu softwaru.
+
+vysvětlení: |
+  Štítky jsou uloženy lokálně softwarovou peněženkou a nikdy nejsou přenášeny přes Bitcoinovou síť. Označování je tedy osobním nástrojem pro správu.
+
+recenzováno: false

@@ -1,0 +1,11 @@
+otázka: Jaký je účel webové stránky Have I Been Pwned?
+odpověď: Zkontrolovat, zda byla vaše e-mailová adresa kompromitována a být informován o budoucích únicích dat.
+špatné_odpovědi:
+  - Zkontrolovat, zda je vaše e-mailová adresa platná.
+  - Zkontrolovat, zda je vaše e-mailová adresa dostupná.
+  - Zkontrolovat, zda byla vaše e-mailová adresa zablokována.
+vysvětlení: |
+  Webová stránka Have I Been Pwned vám umožňuje zkontrolovat, zda byla vaše e-mailová adresa
+
+  kompromitována při úniku dat a být informován o budoucích únicích dat.
+recenzováno: false

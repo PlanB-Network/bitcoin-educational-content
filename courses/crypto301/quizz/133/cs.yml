@@ -1,0 +1,12 @@
+otázka: Jaká je role entropie v Hierarchické Deterministické (HD) peněžence s BIP32?
+odpověď: Používá se k generování mnemonické fráze z náhodného čísla.
+špatné_odpovědi:
+  - Používá se k generování seedu peněženky.
+  - Používá se k odvození dceřiných klíčů.
+  - Používá se k výpočtu kontrolního součtu.
+vysvětlení: |
+  V Hierarchické Deterministické (HD) peněžence s BIP32 hraje entropie
+  klíčovou roli, protože se používá k generování mnemonické fráze z náhodného čísla.
+  Tato mnemonická fráze pak může být zakódována do série snadno zapamatovatelných slov
+  pomocí seznamu 2048 slov poskytnutých v BIP39.
+recenzováno: false

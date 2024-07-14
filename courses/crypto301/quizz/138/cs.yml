@@ -1,0 +1,9 @@
+otázka: Jaký formátový zápis se používá pro standard segwit k získání adresy HD peněženky?
+odpověď: Formát bech32
+špatné_odpovědi:
+  - Formát base 58
+  - Formát SHA256
+  - Formát RIPMD160
+vysvětlení: |
+  Po výpočtu kontrolního součtu se pro standard legacy používá reprezentace ve formátu base 58, zatímco pro standard segwit se používá formát bech32 k získání adresy HD peněženky.
+recenzováno: false

@@ -1,0 +1,11 @@
+otázka: Jaké jsou charakteristiky účinného hesla pro Bitcoin peněženku?
+odpověď: Dlouhé (20 až 40 znaků) a rozmanité (používající velká písmena, malá písmena, čísla a symboly)
+špatné_odpovědi:
+  - Krátké a jednoduché
+  - Dlouhé a jednoduché
+  - Krátké a rozmanité
+vysvětlení: |
+  Účinné heslo by mělo být dlouhé (20 až 40 znaků) a rozmanité
+  (používající velká písmena, malá písmena, čísla a symboly). Nemělo by
+  být přímo spojeno s uživatelem nebo jeho prostředím.
+recenzováno: false

@@ -1,0 +1,9 @@
+question: Co je cherry-picking v kontextu ekonomie?
+answer: Cherry-picking zahrnuje selektivní výběr dat pro stanovení vztahů mezi proměnnými.
+wrong_answers:
+  - Cherry-picking zahrnuje ignorování veškerých dat a spoléhání se pouze na hypotézy.
+  - Cherry-picking zahrnuje použití veškerých dostupných dat bez jakéhokoli výběru.
+  - Cherry-picking zahrnuje použití pouze dat, která podporují politiky vlády.
+explanation: |
+  V ekonomii cherry-picking zahrnuje selektivní výběr dat pro stanovení vztahů mezi proměnnými. Je považován za nevědeckou a nedůslednou metodu.
+reviewed: false

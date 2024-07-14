@@ -1,0 +1,10 @@
+otázka: Jaký je účel technologie BCH (Bose-Chaudhuri-Hocquenghem) kontrolního součtu v Bitcoinových adresách?
+odpověď: Umožňuje detekci chyb a snižuje počet znaků potřebných k reprezentaci adresy.
+špatné_odpovědi:
+  - Šifruje adresu pro bezpečnostní účely.
+  - Zvyšuje počet znaků potřebných k reprezentaci adresy.
+  - Umožňuje opravu chyb v adrese.
+vysvětlení: |
+  Technologie BCH kontrolního součtu je používána v Bitcoinových adresách pro detekci chyb.
+
+  Také přispívá ke snížení počtu znaků potřebných k reprezentaci adresy, což ji činí snadněji použitelnou.

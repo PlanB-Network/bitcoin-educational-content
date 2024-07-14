@@ -1,0 +1,11 @@
+otázka: Co je Lightning Network?
+odpověď: Síť platebních kanálů.
+špatné_odpovědi:
+  - Typ kryptoměny.
+  - Technologie blockchainu.
+  - Digitální peněženka pro Bitcoin.
+vysvětlení: |
+  Lightning Network je síť platebních kanálů. Tisíce
+  vrstevníků se svými vlastními likvidními kanály jsou propojeni mezi sebou, a tak se
+  používají k provádění transakcí mezi nepropojenými vrstevníky.
+recenzováno: false

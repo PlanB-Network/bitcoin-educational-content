@@ -1,0 +1,12 @@
+question: Proč jsou panenské bitcoiny obzvláště vyhledávány velkými institucionálními hráči?
+answer: Mohou zaručit legitimitu svých digitálních aktiv regulačním orgánům.
+wrong_answers:
+  - Mohou je prodat za vyšší cenu.
+  - Mohou je použít pro nelegální aktivity.
+  - Mohou se vyhnout placení daní z nich.
+explanation: |
+  Panenské bitcoiny jsou obzvláště vyhledávány velkými institucionálními
+  hráči, protože mohou zaručit legitimitu svých digitálních aktiv regulačním
+  orgánům. Tyto bitcoiny nikdy nebyly "znečištěny", což poskytuje určitou záruku
+  proti odmítnutí regulátory nebo hlavními obchodními platformami.
+reviewed: false

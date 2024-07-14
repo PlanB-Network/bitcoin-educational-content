@@ -1,0 +1,10 @@
+otázka: Co je Lightning Network?
+odpověď: Druhovrstvá platební infrastruktura postavená na síti Bitcoin, která umožňuje rychlé a nízkonákladové transakce
+špatné_odpovědi:
+  - Typ Bitcoin peněženky
+  - Metoda těžby Bitcoinu
+  - Typ Bitcoin burzy
+vysvětlení: |
+  Lightning Network je druhovrstvá platební infrastruktura postavená
+  na síti Bitcoin, která umožňuje rychlé a nízkonákladové transakce.
+recenzováno: false

@@ -1,0 +1,10 @@
+otázka: Jaký je maximální počet bitcoinů, které mohou být kdy vytvořeny?
+odpověď: 21 milionů
+špatné_odpovědi:
+  - 18 milionů
+  - 25 milionů
+  - 30 milionů
+vysvětlení: |
+  Vytváření Bitcoinu je charakterizováno pevným limitem 21 milionů
+  jednotek.
+recenzováno: false

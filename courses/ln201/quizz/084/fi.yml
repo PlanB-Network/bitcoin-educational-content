@@ -1,0 +1,9 @@
+kysymys: Mikä on Atomic Swapin tarkoitus LN:n ja BTC:n välillä Lightning-verkossa?
+vastaus: Likviditeetin tasapainottaminen
+väärät_vastaukset:
+  - Kanavien avaaminen
+  - Muiden solmujen yhdistäminen
+  - Kanavien ostaminen
+selitys: |
+  Atomic Swap LN:n ja BTC:n välillä Lightning-verkossa käytetään likviditeetin tasapainottamiseen. Tämä tehdään lähettämällä likviditeettiä Loopin kautta toisen solmun kautta, joka sitten lähettää on-chain saldon takaisin alkuperäiselle solmulle.
+arvioitu: false

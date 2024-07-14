@@ -1,0 +1,9 @@
+kysymys: Mitä '1m' tarkoittaa 'lnbc1m' salamaverkon laskussa?
+vastaus: Se edustaa määrää milli Bitcoinissa (0,0001 BTC)
+väärät_vastaukset:
+  - Se edustaa Salamaverkon versionumeroa
+  - Se edustaa siirtomaksua
+  - Se edustaa lohkon korkeutta
+selitys: |
+  Salamaverkon laskussa '1m' edustaa määrää milli Bitcoinissa (0,0001 BTC). 'M' tarkoittaa milliä, joka on metrijärjestelmän etuliite ja tarkoittaa kertoimena 10^-3. Näin ollen '1m' on yhtä kuin 0,0001 BTC tai 100 000 satoshia.
+arvioitu: false

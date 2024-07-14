@@ -1,0 +1,11 @@
+kysymys: Mitä 'bc' tarkoittaa 'lnbc1m' merkinnässä Lightning Network -laskussa?
+vastaus: Bitcoin pääverkko
+väärät_vastaukset:
+  - Bitcoin Cash
+  - Lohkoketju
+  - Bitcoin Core
+selitys: |
+  Lightning Network -laskussa 'bc' tarkoittaa Bitcoin pääverkkoa. Tämä
+  osoittaa, että maksupyyntö on Bitcoin pääverkolle, eikä testiverkolle
+  tai muulle verkostolle.
+arvioitu: false

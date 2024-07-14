@@ -1,0 +1,14 @@
+kysymys: Mikä on KYC:n soveltamiseen liittyvä riski?
+vastaus: Henkilökohtaisia käyttäjätietoja sisältävien arkaluonteisten tietokantojen keskittäminen.
+vaarat_vastaukset:
+  - Henkilökohtaisia käyttäjätietoja sisältävien arkaluonteisten tietokantojen hajauttaminen.
+  - Henkilökohtaisia käyttäjätietoja sisältävien ei-arkaluonteisten tietokantojen keskittäminen.
+  - Henkilökohtaisia käyttäjätietoja sisältävien ei-arkaluonteisten tietokantojen hajauttaminen.
+selitys: |
+  KYC:n soveltaminen johtaa erittäin arkaluonteisten
+
+
+  henkilökohtaisia käyttäjätietoja sisältävien tietokantojen keskittämiseen. Tällä tiedolla, jolla on tietty
+
+
+  arvo, voidaan myydä pahantahtoisille tahoille.

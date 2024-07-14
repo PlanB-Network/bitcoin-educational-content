@@ -1,0 +1,12 @@
+kysymys: Mikä on mahdollinen haittapuoli louhimisessa voiton tavoittelun vuoksi?
+vastaus: Se voi johtaa laskentatehon keskittymiseen ja merkittäviin ympäristövaikutuksiin.
+väärät_vastaukset:
+  - Se voi johtaa Bitcoinin hinnan laskuun
+  - Se voi johtaa verkon hashraten laskuun
+  - Se voi johtaa aktiivisten solmujen määrän vähenemiseen verkossa
+selitys: |
+  Louhiminen voiton tavoittelun vuoksi voi johtaa laskentatehon keskittymiseen, jos
+  vain muutamat suuret yritykset pystyvät sijoittamaan huippuluokan louhintalaitteistoon. Lisäksi,
+  voiton tavoittelun vuoksi tapahtuvan louhinnan energiankulutuksella voi olla merkittäviä
+  ympäristövaikutuksia.
+arvioitu: false

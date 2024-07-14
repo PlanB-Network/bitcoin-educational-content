@@ -1,0 +1,12 @@
+kysymys: Mikä on Loopin rooli Lightning-verkossa?
+vastaus: Loop on erityinen solmu, joka tarjoaa palvelun LN/BTC:n tasapainottamiseksi.
+väärät_vastaukset:
+  - Loop on solmu, joka yhdistää ostajat ja kauppiaat.
+  - Loop on solmu, joka auttaa avaamaan kanavia.
+  - Loop on solmu, joka tallentaa kaikki transaktiot.
+selitys: |
+  Lightning-verkossa Loop on erityinen solmu, joka tarjoaa
+  ammattimaisen
+  palvelun LN/BTC:n tasapainottamiseksi. Tämä tehdään lähettämällä likviditeettiä Loopille toisen
+  solmun kautta, joka sitten lähettää on-chain saldon takaisin alkuperäiseen solmuun.
+arvioitu: false

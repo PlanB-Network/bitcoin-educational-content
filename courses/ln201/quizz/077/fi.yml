@@ -1,0 +1,11 @@
+kysymys: Mitä tarkoittaa 'ln' 'lnbc1m'-merkinnässä Lightning Network -laskussa?
+vastaus: Lightning
+vaarat_vastaukset:
+  - Litecoin
+  - Ledger Nano
+  - Pitkä numero
+selitys: |
+  Lightning Network -laskussa 'ln' tarkoittaa Lightningia, viitaten
+  Lightning Networkiin, joka on Bitcoinin toisen kerroksen ratkaisu, mahdollistaen nopeat, edulliset
+  transaktiot.
+arvioitu: false

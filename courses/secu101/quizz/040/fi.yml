@@ -1,0 +1,13 @@
+kysymys: Mikä on ero LastPassin ja Dashlanen välillä?
+vastaus: Molemmat ovat kolmannen osapuolen palveluita, mutta Dashlane tarjoaa lisäominaisuuksia, kuten luottokorttitietojen seurannan ja turvalliset muistiinpanot.
+väärät_vastaukset:
+  - LastPass on kolmannen osapuolen palvelu, kun taas Dashlane on itse isännöity palvelu.
+  - Dashlane on kolmannen osapuolen palvelu, kun taas LastPass on itse isännöity palvelu.
+  - Ei ole eroa, ne tarjoavat samat ominaisuudet.
+selitys: |
+  Sekä LastPass että Dashlane ovat kolmannen osapuolen palveluita, mikä tarkoittaa, että salasanasi
+  
+  säilytetään heidän palvelimillaan. Dashlane kuitenkin tarjoaa lisäominaisuuksia, kuten luottokorttitietojen seurannan
+  
+  ja turvalliset muistiinpanot.
+arvioitu: false

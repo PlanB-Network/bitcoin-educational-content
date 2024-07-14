@@ -1,0 +1,12 @@
+kysymys: Miten louhintapooli toimii ja miksi se on tarpeellinen?
+vastaus: Louhintapooli on louhijoiden ryhmä, joka yhdistää laskentatehonsa parantaakseen mahdollisuuksiaan louhia. Tämä yhteistyö on tarpeellista, koska yksittäinen pieni louhintakone kilpailee teollisuuden jättiläisiä vastaan, mikä vähentää sen menestymismahdollisuuksia merkityksettömälle tasolle. Yhdistämällä voimansa louhijat voivat yhdistää laskentatehonsa, löytää lohkoja useammin ja sitten jakaa palkkiot suhteellisesti kunkin louhijan panoksen mukaan poolissa.
+väärät_vastaukset:
+  - Louhintapooli on louhijoiden ryhmä, joka jakaa saman louhintakoneen parantaakseen mahdollisuuksiaan louhia. Tämä yhteistyö on tarpeellista, koska yksi louhintakone voi louhia vain rajallisen määrän Bitcoinia.
+  - Louhintapooli on louhijoiden ryhmä, joka jakaa saman louhintaohjelmiston parantaakseen mahdollisuuksiaan louhia. Tämä yhteistyö on tarpeellista, koska eri louhintaohjelmistoilla on erilaiset tehokkuudet.
+  - Louhintapooli on louhijoiden ryhmä, joka jakaa saman louhintapaikan parantaakseen mahdollisuuksiaan louhia. Tämä yhteistyö on tarpeellista, koska louhintatoiminnan sijainti voi vaikuttaa louhinnan tehokkuuteen.
+selitys: |
+  Luku selittää, että louhintapooli on louhijoiden ryhmä, joka yhdistää
+  laskentatehonsa parantaakseen mahdollisuuksiaan louhia. Tämä yhteistyö
+  on tarpeellista, koska yksittäinen pieni louhintakone kilpailee teollisuuden
+  jättiläisiä vastaan, mikä vähentää sen menestymismahdollisuuksia merkityksettömälle tasolle.
+arvioitu: false

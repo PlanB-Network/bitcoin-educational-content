@@ -1,0 +1,9 @@
+kysymys: Mikä on pääasiallinen haittapuoli automaattisissa pankkiautomaateissa (ATM)?
+vastaus: Usein erittäin korkeat maksut.
+väärät_vastaukset:
+  - Tarve nopealle internet-yhteydelle.
+  - Paikallisten valuuttojen tuki puuttuu.
+  - Transaktion turvallisuus ei taattu.
+selitys: |
+  Bitcoinien ostaminen automaatteja käyttäen on mielenkiintoinen ratkaisu käyttäjän yksityisyyden kannalta, mutta niiden pääasiallinen haittapuoli on, että ne veloittavat usein kohtuuttoman korkeita maksuja.
+arvioitu: false

@@ -1,0 +1,10 @@
+kysymys: Mikä ohjelmaa käytetään laskemaan tarkistussumma segwit-standardin tapauksessa?
+vastaus: BCH (Bose-Chaudhuri-Hocquenghem) -ohjelma
+väärät_vastaukset:
+  - Kahden SHA256-hajautuksen käyttö
+  - pbkdf2-funktio
+  - hmacha512-funktio
+selitys: |
+  BCH (Bose-Chaudhuri-Hocquenghem) -ohjelmaa käytetään laskemaan
+  tarkistussumma segwit-standardin tapauksessa.
+arvioitu: false

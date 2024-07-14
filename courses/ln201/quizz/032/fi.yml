@@ -1,0 +1,9 @@
+kysymys: Mitä tapahtuu, kun luodaan uusi sitoumustapahtuma?
+vastaus: Päätetään uusi salaisuus ja luodaan uusi kumoamisavain, ja edellinen sitoumustapahtuma on tuhottava antamalla kumoamissalaisuus.
+väärät_vastaukset:
+  - Edellinen sitoumustapahtuma säilytetään varmuuskopiona.
+  - Luodaan uusi aikalukko ja edellinen sitoumustapahtuma päivitetään.
+  - Edellinen sitoumustapahtuma päivitetään uudella salaisuudella ja kumoamisavaimella.
+selitys: |
+  Kun luodaan uusi sitoumustapahtuma, päätetään uusi salaisuus ja uusi kumoamisavain. Edellinen sitoumustapahtuma on tuhottava antamalla kumoamissalaisuus estääkseen kenenkään osapuolen huijaamisen julkaisemalla vanhan tilan.
+arvioitu: false

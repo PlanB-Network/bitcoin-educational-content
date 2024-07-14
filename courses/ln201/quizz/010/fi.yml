@@ -1,0 +1,10 @@
+kysymys: Mitä tapahtuu kaikille bitcoineille Bitcoin-siirrossa?
+vastaus: Ne kaikki täytyy siirtyä.
+väärät_vastaukset:
+  - Ne kaikki muunnetaan fiat-valuutaksi.
+  - Ne kaikki tallennetaan uuteen osoitteeseen.
+  - Ne jaetaan kaikki tasan osallistujien kesken.
+selitys: |
+  Bitcoin-siirrossa kaikkien bitcoinien täytyy siirtyä. Tätä kutsutaan
+  UTXO:ksi (Unspent Transaction Output), jossa bitcoinien bitit lähtevät liikkeelle vain
+  palatakseen omistajalleen myöhemmin.

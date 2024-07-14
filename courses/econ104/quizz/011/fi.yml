@@ -1,0 +1,17 @@
+kysymys: Mikä erottaa Bitcoinin perinteisistä keskuspankkien tai hallitusten hallitsemista valuutoista?
+vastaus: Kaikki ne
+väärät_vastaukset:
+  - Bitcoin vaatii yhteistyötä louhijoiden, solmujen ja kehittäjien kesken
+  - Bitcoin mahdollistaa kenen tahansa osallistumisen verkkoon ja avainroolien suorittamisen
+  - Bitcoin perustuu hajautettuun konsensusjärjestelmään
+selitys: |
+  Sen, mikä erottaa Bitcoinin perinteisistä fiat-valuutoista, muodostaa yhteistyö kolmen olennaisen roolin ja yhteisön välillä.
+  Solmut takaavat verkon eheyden ja turvallisuuden toimimalla portinvartijoina.
+  Louhijat ovat vastuussa transaktioiden käsittelystä ja lohkoketjun ylläpidosta.
+  Kehittäjät ovat Bitcoin-yhteisön erittäin taitavia jäseniä, jotka työskentelevät yhdessä
+  ylläpitääkseen ja parantaakseen verkoston toimintaa ohjaavaa ohjelmistoa.
+  Yhteisö, bitcoinin käytön kautta, on se, mikä antaa sille arvon.
+  Jokainen näistä rooleista on olennainen Bitcoinin toiminnallisuudelle ja menestykselle digitaalisena valuuttana. Luottamalla nämä kriittiset tehtävät avainpelaajille, Bitcoin voi
+  toimia hajautettuna, turvallisena, läpinäkyvänä ja vastuullisena vaihdon välineenä
+  kaikille käyttäjille, mikä tekee siitä merkittävästi erilaisen verrattuna tänään käyttämiimme keskitettyihin valuuttoihin.
+arvioitu: true

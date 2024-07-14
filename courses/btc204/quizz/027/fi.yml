@@ -1,0 +1,8 @@
+kysymys: Mikä tekniikka auttaa suojaamaan KYC:n aiheuttaman seurannan riskiltä?
+vastaus: Coinjoin-transaktiot
+väärät_vastaukset:
+  - VPN:n käyttö
+  - Täysnoden käyttö
+  - Todentaminen työn todistuksen kautta
+selitys: |
+  Coinjoinit katkaisevat kolikon historian, mikä auttaa sinua vastustamaan KYC:n aiheuttamaa seurannan riskiä.

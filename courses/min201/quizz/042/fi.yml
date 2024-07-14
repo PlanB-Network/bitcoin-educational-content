@@ -1,0 +1,11 @@
+kysymys: Mikä on kaivostoiminnan kiellon mahdollinen vaikutus alueella?
+vastaus: Se voi johtaa merkittävään laskuun Bitcoinin hashratessa ja hinnassa
+väärät_vastaukset:
+  - Se voi johtaa Bitcoinin hinnan nousuun
+  - Se voi johtaa verkon hashraten nousuun
+  - Se voi johtaa aktiivisten solmujen määrän lisääntymiseen verkossa
+selitys: |
+  Kaivostoiminnan kieltäminen alueella, kuten tapahtui Kiinassa, voi johtaa
+  merkittävään laskuun Bitcoinin hashratessa ja hinnassa. Nämä voivat kuitenkin nopeasti
+  palautua.
+arvioitu: false

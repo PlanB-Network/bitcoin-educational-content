@@ -1,0 +1,9 @@
+kysymys: Kuka maksaa siirtomaksut Lightning-verkossa?
+vastaus: Maksun lähettäjä.
+väärät_vastaukset:
+  - Maksun vastaanottaja.
+  - Välittäjät.
+  - Verkko itse.
+selitys: |
+  Lightning-verkossa maksun lähettäjä maksaa siirtomaksut. Nämä maksut veloitetaan solmuilta, joita käytetään siirron reitittämiseen.
+arvioitu: false

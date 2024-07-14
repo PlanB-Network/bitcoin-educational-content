@@ -1,0 +1,11 @@
+kysymys: Mikä on suositeltu käytäntö järjestelmänvalvojan tilin käyttöön Windowsissa?
+vastaus: Luo kaksi erillistä tiliä; järjestelmänvalvojan tili ja tili päivittäiseen käyttöön.
+väärät_vastaukset:
+  - Käytä järjestelmänvalvojan tiliä päivittäiseen käyttöön.
+  - Luo useita järjestelmänvalvojan tilejä.
+  - Älä luo järjestelmänvalvojan tiliä.
+selitys: |
+  Järjestelmänvalvojan tilin käyttäminen päivittäiseen käyttöön Windowsissa voi altistaa
+  järjestelmän suuremmille turvallisuusriskeille. On suositeltavaa luoda kaksi erillistä tiliä;
+  yksi hallinnollisia tehtäviä varten ja toinen päivittäiseen käyttöön.
+arvioitu: false

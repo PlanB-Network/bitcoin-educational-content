@@ -1,0 +1,9 @@
+kysymys: Kuka tahansa voi kopioida Bitcoinin koodin, tehden siitä arvottoman, oikein vai väärin?
+vastaus: Oikein
+väärät_vastaukset:
+  - Väärin
+selitys: |
+  Vaikka Bitcoinin koodi on avoimen lähdekoodin ja sen voi kopioida,
+  bitcoinin arvo ei johdu sen koodista. Sen arvo perustuu sen käyttäjien
+  verkostoon sekä luottamukseen ja hyväksyntään, jonka se on ajan myötä saavuttanut.
+arvioitu: true

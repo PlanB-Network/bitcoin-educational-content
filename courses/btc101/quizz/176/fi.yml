@@ -1,0 +1,8 @@
+kysymys: Mikä on Bitcoin-protokollan ainutlaatuinen ominaisuus?
+vastaus: Se toimii maailmanlaajuisesti 24 tuntia vuorokaudessa, 7 päivää viikossa.
+väärät_vastaukset:
+  - Se toimii vain työaikoina.
+  - Sitä kontrolloi keskitetty auktoriteetti.
+  - Sen voi helposti hakkeroida.
+selitys: >-
+  Bitcoin-protokolla on ainutlaatuinen, koska se toimii maailmanlaajuisesti 24 tuntia vuorokaudessa, 7 päivää viikossa, mikä tekee sen sääntelystä vaikeaa talousviranomaisille.

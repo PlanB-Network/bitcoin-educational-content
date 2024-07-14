@@ -1,0 +1,9 @@
+kysymys: Mikä on yksi seikoista, jotka sinun tulisi ottaa huomioon valitessasi DCA-alustaa?
+vastaus: Saatavuus omassa maassasi.
+väärät_vastaukset:
+  - Alustan logon väri.
+  - Käyttäjien määrä alustalla.
+  - Alustan ikä.
+selitys: >-
+  Tekstissä mainitaan, että DCA-alustaa valittaessa valinta riippuu enemmän saatavuudesta omassa maassasi.
+arvioitu: false

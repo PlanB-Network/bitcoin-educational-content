@@ -1,0 +1,11 @@
+kysymys: Mikä on klassisten hyperinflaatiotaulukoiden päärajoite?
+vastaus: Ne jättävät tiukkojen luokittelukriteerien vuoksi tietyt korkean inflaation historialliset jaksot huomiotta
+väärät_vastaukset:
+  - Ne sisältävät liian monta inflaatioepisodia, jotka eivät täytä hyperinflaation kriteereitä
+  - Ne ovat vanhentuneita eivätkä sovellu nykyaikaisiin talouksiin
+  - Ne eivät ota huomioon inflaation vaikutusta talouteen
+selitys: |
+  Klassiset hyperinflaatiotaulukot, kuten Hanke-Krus-taulukko, jättävät usein
+  tiukkojen luokittelukriteerien, kuten Caganin määritelmän mukaisen 50 %:n kuukausittaisen inflaation kynnyksen, vuoksi
+  tietyt korkean inflaation historialliset jaksot huomiotta.
+arvioitu: false

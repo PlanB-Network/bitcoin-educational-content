@@ -1,0 +1,10 @@
+kysymys: Mikä on Peach P2P-ratkaisun ainutlaatuinen ominaisuus?
+vastaus: Sen käyttö ei vaadi tilin luomista.
+väärät_vastaukset:
+  - Se käyttää DAO-järjestelmää.
+  - Se toimii TOR:n alaisuudessa.
+  - Se käyttää multisignia riidanratkaisussa.
+selitys: |
+  Luvussa mainitaan, että Peach erottuu yksinkertaisuudellaan, eikä vaadi
+  tilin luomista toimiakseen.
+arvioitu: false

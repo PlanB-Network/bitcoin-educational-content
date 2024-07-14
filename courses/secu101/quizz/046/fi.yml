@@ -1,0 +1,13 @@
+kysymys: Mikä on suurin haittapuoli itse isännöidyn salasanojen hallintajärjestelmän käytössä?
+vastaus: Sen käyttö vaatii enemmän teknistä tietämystä.
+väärät_vastaukset:
+  - Se on kalliimpi kuin kolmannen osapuolen palvelut.
+  - Se ei tarjoa yhtä monta ominaisuutta kuin kolmannen osapuolen palvelut.
+  - Se ei ole yhtä turvallinen kuin kolmannen osapuolen palvelut.
+selitys: |
+  Itse isännöidyn salasanojen hallintajärjestelmän käyttö vaatii enemmän teknistä tietämystä,
+
+  sillä sinun täytyy pystyttää ja hallinnoida omaa palvelintasi. Kuitenkin, se voi tarjota enemmän kontrollia
+
+  ja turvallisuutta.
+arvioitu: false

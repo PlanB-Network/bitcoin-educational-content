@@ -1,0 +1,11 @@
+kysymys: Mikä on Lightning Networkin tehtävä Bitcoin-ekosysteemissä?
+vastaus: Se mahdollistaa Bitcoinin laajentumisen ja lisäominaisuuksien saamisen toimimalla toisena kerroksena.
+väärät_vastaukset:
+  - Se on erillinen kryptovaluutta, joka kilpailee Bitcoinin kanssa.
+  - Se on työkalu Bitcoinin louhimiseen.
+  - Se on alusta Bitcoinin kaupankäyntiin.
+selitys: |
+  Lightning Network on toisen kerroksen teknologia, jota sovelletaan bitcoiniin
+  ja joka käyttää mikromaksukanavia skaalatakseen sen lohkoketjun kykyä suorittaa
+  transaktioita tehokkaammin.
+arvioitu: false

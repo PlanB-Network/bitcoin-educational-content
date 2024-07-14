@@ -1,0 +1,10 @@
+kysymys: Mitä tapahtuu, kun Alice yrittää huijata julkaisemalla vanhan sitoumustapahtuman?
+vastaus: Bob käyttää peruutusavainta rangaistakseen Alicea ja ottaakseen kaikki SAT:t kanavalta.
+väärät_vastaukset:
+  - Alicelle palkitaan hänen oveluudestaan.
+  - Alice ja Bob jakavat kanavalta tulleet SAT:t.
+  - Tapahtuma hylätään eikä mitään tapahdu.
+selitys: |
+  Lightning-verkossa on mekanismi huijauksen estämiseksi. Jos Alice yrittää
+  huijata julkaisemalla vanhan sitoumustapahtuman, Bob voi käyttää peruutusavainta
+  rangaistakseen Alicea ja ottaakseen kaikki SAT:t kanavalta.

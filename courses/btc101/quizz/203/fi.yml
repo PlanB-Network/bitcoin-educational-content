@@ -1,0 +1,11 @@
+kysymys: Mitä sinun tulisi tehdä ostaessasi Bitcoinia vaihtoalustalta?
+vastaus: Siirrä Bitcoin lompakkoosi.
+väärät_vastaukset:
+  - Jätä se alustalle.
+  - Myy se välittömästi.
+  - Siirrä se toiselle alustalle.
+selitys: >-
+  Tekstissä neuvotaan, että Bitcoinin ostamisen jälkeen on suositeltavaa
+  välittömästi
+  siirtää Bitcoin pois vaihtoalustoilta minimoimaan hakkeroinnin
+  ja varojen jäädyttämisen riskit.

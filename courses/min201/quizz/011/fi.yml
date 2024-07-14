@@ -1,0 +1,11 @@
+question: Mitä strategioita on keskusteltu Bitcoinin louhinnan keskittymisen torjumiseksi?
+answer: Bitcoinin louhinnan keskittymisen torjumiseksi keskustellut strategiat sisältävät kotilouhinnan, Stratum V2 -protokollan, louhintasovellusten avoimen lähdekoodin ja toimijoiden sekä maantieteellisen hajauttamisen.
+wrong_answers:
+  - Bitcoinin louhinnan keskittymisen torjumiseksi keskustellut strategiat sisältävät lohkokoon kasvattamisen, todistuspanoksen (proof of stake) käyttöönoton ja keskusviranomaisen luomisen louhinnan valvontaan.
+  - Bitcoinin louhinnan keskittymisen torjumiseksi keskustellut strategiat sisältävät lohkopalkkion pienentämisen, siirtomaksun käyttöönoton ja louhintaveron luomisen.
+  - Bitcoinin louhinnan keskittymisen torjumiseksi keskustellut strategiat sisältävät louhintavaikeuden kasvattamisen, louhintakaton käyttöönoton ja louhinta-arvonnan luomisen.
+explanation: |
+  Luvussa käsitellään useita strategioita Bitcoinin louhinnan keskittymisen torjumiseksi,
+  mukaan lukien kotilouhinta, Stratum V2 -protokolla, louhintasovellusten avoimen lähdekoodin
+  käyttö ja toimijoiden sekä maantieteellisen hajauttamisen edistäminen.
+reviewed: false

@@ -1,0 +1,10 @@
+kysymys: Kuinka monta kierrosta PBKDF2 suorittaa käyttäen HMAC SHA512?
+vastaus: 2048 kierrosta
+vaarat_vastaukset:
+  - 1024 kierrosta
+  - 512 kierrosta
+  - 4096 kierrosta
+selitys: |
+  PBKDF2:tä käytetään muuntamaan mnemoninen lause siemeneksi. Tämä algoritmi
+  suorittaa 2048 kierrosta käyttäen HMAC SHA512.
+arvioitu: false

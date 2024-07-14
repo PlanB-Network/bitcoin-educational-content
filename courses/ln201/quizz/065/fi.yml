@@ -1,0 +1,11 @@
+kysymys: Mitä tapahtuu kanavan yhteisöllisessä sulkemisessa?
+vastaus: Maksut keskeytyvät ja HTLC:t ratkaistaan, mikä on yleensä vähemmän kallista.
+väärät_vastaukset:
+  - Kaikki käynnissä olevat HTLC-siirrot julkaistaan, mikä voi tulla hyvin kalliiksi ja sekavaksi.
+  - Kanava suljetaan välittömästi ilman lisätoimenpiteitä.
+  - Kaikki käynnissä olevat HTLC-siirrot peruutetaan.
+selitys: |
+  Yhteisöllisessä sulkemisessa maksut keskeytyvät ja HTLC:t ratkaistaan.
+  Tämä on yleensä vähemmän kallista kuin pakotettu sulkeminen, jossa kaikki käynnissä olevat HTLC-siirrot
+  julkaistaan.
+arvioitu: false

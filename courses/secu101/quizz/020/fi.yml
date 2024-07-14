@@ -1,0 +1,10 @@
+kysymys: Mikä on Windowsin sisäänrakennettu virustorjunta?
+vastaus: Windows Defender
+väärät_vastaukset:
+  - Kaspersky
+  - Norton
+  - McAfee
+selitys: |
+  Windows Defender on Windowsin sisäänrakennettu virustorjunta. Se on turvallinen ja
+  tehokas ratkaisu järjestelmän suojaamiseksi uhkilta.
+arvioitu: false

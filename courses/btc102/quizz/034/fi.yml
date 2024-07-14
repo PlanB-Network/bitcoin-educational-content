@@ -1,0 +1,10 @@
+kysymys: Mikä on bitcoinien enimmäismäärä, joka tullaan koskaan luomaan?
+vastaus: 21 miljoonaa
+vaarat_vastaukset:
+  - 100 miljoonaa
+  - 1 miljardi
+  - Ei rajaa
+selitys: |
+  Luvussa todetaan, että bitcoineja ei tule koskaan olemaan enempää kuin 21 miljoonaa.
+  Tämä raja on asetettu Bitcoin-protokollassa Satoshi Nakamoton toimesta, eikä sitä voi muuttaa
+  nykyään.

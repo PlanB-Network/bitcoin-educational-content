@@ -1,0 +1,9 @@
+kysymys: Mikä on keskustelu Bitcoin-yhteisössä louhinnan osalta?
+vastaus: Tasapaino voiton tavoittelun ja panoksen antamisen Bitcoin-verkon turvallisuuden ja jakelun välillä
+väärät_vastaukset:
+  - Tasapaino hashraten kasvattamisen ja aktiivisten solmujen määrän vähentämisen välillä
+  - Tasapaino hinnan nostamisen ja kustannusten alentamisen välillä
+  - Tasapaino transaktioiden määrän lisäämisen ja energiankulutuksen vähentämisen välillä
+selitys: |
+  Keskustelu Bitcoin-yhteisössä louhinnasta pyörii voiton tavoittelun ja panoksen antamisen Bitcoin-verkon turvallisuuden ja jakelun tasapainon ympärillä. Keskustelussa on vahvoja argumentteja molemmin puolin.
+arvioitu: false

@@ -1,0 +1,11 @@
+kysymys: Mikä on tapa ostaa tai myydä bitcoineja ilman KYC-menettelyä?
+vastaus: Käyttämällä vertaisverkkoratkaisuja, kuten Peach.
+väärät_vastaukset:
+  - Käyttämällä hot walletia.
+  - Käyttämällä cold walletia.
+  - Käyttämällä laitteistolompakkoa.
+selitys: |
+  KYC eli Know Your Customer on prosessi, jota yritykset käyttävät asiakkaidensa
+  henkilöllisyyden varmistamiseen. Non-KYC-menetelmät, kuten vertaisverkkoratkaisut,
+  mahdollistavat käyttäjille bitcoinien ostamisen tai myymisen ilman henkilökohtaisten tietojen antamista.
+arvioitu: false

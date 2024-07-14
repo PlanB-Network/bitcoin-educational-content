@@ -1,0 +1,12 @@
+kysymys: Mikä on Proof of Stake:n mahdollinen uhka Bitcoin-verkossa?
+vastaus: Ne, jotka jo omistavat suuren määrän valuuttaa, saavat suhteettoman paljon valtaa, heijastaen olemassa olevia valtaepätasapainoja.
+väärät_vastaukset:
+  - Se vaatii merkittävän sisäänpääsykynnyksen.
+  - Se ei salli pienimuotoista osallistumista.
+  - Se ei vaadi konkreettisia resursseja.
+selitys: |
+  Proof of Stake -verkossa ne, jotka jo omistavat suuren määrän
+
+  valuuttaa, saavat suhteettoman paljon valtaa. Tämä dynamiikka voi potentiaalisesti
+
+  jatkaa keskittymistä ja vallan keskittymistä harvojen käsiin.

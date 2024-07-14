@@ -1,0 +1,11 @@
+kysymys: Mikä on lompakko Bitcoinin kontekstissa?
+vastaus: Digitaalinen tallelokero bitcoineillesi
+väärät_vastaukset:
+  - Fyysinen laite bitcoinien säilyttämiseen
+  - Ohjelmisto bitcoinien louhimiseen
+  - Alusta bitcoinien ostamiseen ja myymiseen
+selitys: |
+  Luvun sisältö selittää, että bitcoinit säilytetään niin kutsutussa
+  "lompakossa", joka on digitaalinen tallelokero rahoillesi. Vain avaimen haltija voi
+  päästä siihen käsiksi.
+arvioitu: false

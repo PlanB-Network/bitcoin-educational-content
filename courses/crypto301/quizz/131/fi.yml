@@ -1,0 +1,13 @@
+kysymys: Mikä on HRP:n laajentamisen tarkoitus Bitcoin-osoitteessa?
+vastaus: Sen avulla voidaan eristää kunkin merkin viimeiset viisi bittiä, vahvistaen näin tarkistussummaa.
+väärät_vastaukset:
+  - Se kasvattaa osoitteen kokoa.
+  - Se salaa osoitteen turvallisuussyistä.
+  - Sen avulla voidaan korjata virheitä osoitteessa.
+selitys: |
+  HRP:n laajentaminen tarkoittaa jokaisen kirjaimen koodaamista 2-kantaiseksi, ottamalla
+
+  kunkin merkin ensimmäiset kolme bittiä erottamalla ne 0-separoijalla, ja sitten yhdistämällä
+
+  kunkin merkin viimeiset viisi bittiä. Tämä prosessi vahvistaa tarkistussummaa.
+arvioitu: false

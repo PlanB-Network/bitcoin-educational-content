@@ -1,0 +1,13 @@
+kysymys: Mikä on hiljaisten maksujen pääetu verrattuna BIP47:ään?
+
+vastaus: Ne eivät vaadi ilmoitustransaktiota.
+
+väärät_vastaukset:
+  - Ne tarjoavat täydellisen transaktioprivatiteetin.
+  - Ne mahdollistavat palautuksen vastaanottajalta.
+  - Ne takaavat yhteensopivuuden kaikkien lompakoiden kanssa.
+
+selitys: |
+  Hiljaiset maksut toimivat ilman ilmoitustransaktiota, mikä säästää transaktiomaksuissa ja välttää lohkoketjun kuormittumisen.
+
+arvioitu: false

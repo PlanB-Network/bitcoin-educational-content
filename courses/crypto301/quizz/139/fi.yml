@@ -1,0 +1,10 @@
+kysymys: Mikä käytetään osoitteen johdattamiseen HD-lompakossa?
+vastaus: Tiivistetty julkinen avain
+väärät_vastaukset:
+  - Mnemoninen lauseke
+  - Salasana
+  - Lompakon siemen
+selitys: |
+  Osoitteen johdattamiseksi HD-lompakossa tiivistetty julkinen avain ensin
+  tiivistetään käyttäen SHA256:ta ja RIPMD160:ä, ja sen jälkeen lasketaan tarkistussumma.
+arvioitu: false

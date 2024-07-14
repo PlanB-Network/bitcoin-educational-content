@@ -1,0 +1,12 @@
+kysymys: Mikä on taloudellisen toiminnan lopullinen tarkoitus Carl Mengerin mukaan?
+vastaus: Taloudellisen toiminnan lopullinen tarkoitus on kulutus.
+väärät_vastaukset:
+  - Taloudellisen toiminnan lopullinen tarkoitus on tuotanto.
+  - Taloudellisen toiminnan lopullinen tarkoitus on säästäminen.
+  - Taloudellisen toiminnan lopullinen tarkoitus on investointi.
+selitys: |
+  Carl Mengerin mukaan hyödykkeitä pidetään taloudellisina hyödykkeinä (arvostettuina)
+  koska ne toimivat keinoja yksilöiden valitsemiin ja arvostamiin päämääriin. Siksi
+  Mengerille taloudellisen analyysin lähtökohta on kulutushyödykkeet eli lopputuotteet,
+  koska ne edustavat taloudellisen toiminnan lopullista tarkoitusta.
+arvioitu: false

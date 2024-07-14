@@ -1,0 +1,14 @@
+kysymys: Mikä on vaihtoehto täydelle KYC:lle Sveitsissä?
+vastaus: KYC light
+väärät_vastaukset:
+  - KYC heavy
+  - KYC medium
+  - KYC dark
+selitys: |
+  Sveitsissä vaihtoehto täydelle KYC:lle on "KYC light", joka mahdollistaa
+
+
+  bitcoinien ostamisen ja myymisen ilman henkilöllisyyden todistamista, kunhan
+
+
+  ostosumma ei ylitä 1000 euroa päivässä.

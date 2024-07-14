@@ -1,0 +1,8 @@
+kysymys: Kun etsitään kaavaa, mitä osaa transaktiosta tutkitaan?
+vastaus: Sen rakennetta
+vaarat_vastaukset:
+  - Sen metadataa
+  - Sen skriptejä
+  - Sen allekirjoitusta
+selitys: |
+  Transaktiokaava on yksinkertaisesti malli tai tyypillisen lohkoketjussa löytyvän transaktion yleinen rakenne, jonka todennäköinen tulkinta tunnetaan.

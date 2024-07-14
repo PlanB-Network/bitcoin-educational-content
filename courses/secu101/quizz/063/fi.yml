@@ -1,0 +1,10 @@
+kysymys: Mitkä ovat joitakin kryptografian osa-alueita kyberturvallisuudessa?
+vastaus: SSL/TLS, symmetrinen/asymmetrinen salaus
+väärät_vastaukset:
+  - RSA, DSA, ECC
+  - AES, DES, 3DES
+  - MD5, SHA-1, SHA-256
+selitys: |
+  Luku listaa SSL/TLS:n sekä symmetrisen/asymmetrisen salauksen
+  joiksi kryptografian osa-alueiksi kyberturvallisuudessa.
+arvioitu: false

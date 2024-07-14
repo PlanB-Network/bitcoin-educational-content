@@ -1,0 +1,9 @@
+kysymys: Mikä on yksi perustavanlaatuisista aksioomista Itävaltalaisessa taloustieteessä?
+vastaus: Yksi perustavanlaatuisista aksioomista on positiiviset aikamieltymykset, jotka perustuvat yksilöiden valintoihin hyödykkeistä tai palveluista tänään mieluummin kuin huomenna.
+väärät_vastaukset:
+  - Yksi perustavanlaatuisista aksioomista on korkotasojen mielivaltainen asettaminen.
+  - Yksi perustavanlaatuisista aksioomista on nojaaminen empiiriseen dataan.
+  - Yksi perustavanlaatuisista aksioomista on väliaikaisten kokeiden käyttö hypoteesien vahvistamiseen tai kumoamiseen.
+selitys: |
+  Itävaltalaisessa taloustieteessä yksi perustavanlaatuisista aksioomista on positiiviset aikamieltymykset, jotka perustuvat yksilöiden valintoihin hyödykkeistä tai palveluista tänään mieluummin kuin huomenna, tulevaisuuden epävarmuuden vuoksi.
+arvioitu: false

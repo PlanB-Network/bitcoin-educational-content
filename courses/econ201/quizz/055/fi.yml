@@ -1,0 +1,10 @@
+kysymys: Mikä on aksioiden rooli Itävaltalaisessa taloudellisessa päättelyssä?
+vastaus: Aksiot ovat perustavanlaatuisia elementtejä, joista loogisia päätelmiä voidaan tehdä.
+väärät_vastaukset:
+  - Aksiot ovat merkityksettömiä Itävaltalaisessa taloudellisessa päättelyssä.
+  - Aksioita käytetään muodostamaan suhteita muuttujien välille perustuen empiiriseen dataan.
+  - Aksioita käytetään vahvistamaan tai kumoamaan hypoteeseja väliaikaisten kokeiden kautta.
+selitys: |
+  Itävaltalaisessa taloudellisessa päättelyssä aksioilla on ratkaiseva rooli. Ne ovat
+  perustavanlaatuisia elementtejä, joista loogisia päätelmiä voidaan tehdä.
+arvioitu: false

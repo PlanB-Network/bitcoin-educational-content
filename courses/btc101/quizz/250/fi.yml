@@ -1,0 +1,9 @@
+kysymys: Mikä on yksi päähuolista pankkijärjestelmässä?
+vastaus: Pankkitoiminnan säännöt eivät ole läpinäkyviä eivätkä ymmärrettäviä kaikille.
+väärät_vastaukset:
+  - Pankkijärjestelmä on liian helppo ymmärtää.
+  - Pankkijärjestelmä on liian läpinäkyvä.
+  - Pankkijärjestelmä on liian hajautettu.
+selitys: >-
+  Tekstissä mainitaan, että kysymys siitä, kenen tulisi hallita pankkijärjestelmää, on ratkaiseva, koska pankkitoiminnan säännöt eivät ole läpinäkyviä eivätkä ymmärrettäviä kaikille.
+arvioitu: false

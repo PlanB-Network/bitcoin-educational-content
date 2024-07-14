@@ -1,0 +1,9 @@
+kysymys: Miten tarkistussumman koko määritetään luotaessa mnemonista fraasia Bitcoin-lompakkoa varten?
+vastaus: Jakamalla entropian koko 32:lla.
+väärät_vastaukset:
+  - Kertomalla entropian koko 32:lla.
+  - Lisäämällä 32 entropian kokoon.
+  - Vähentämällä 32 entropian koosta.
+selitys: |
+  Tarkistussumman koko määritetään jakamalla entropian koko 32:lla. Esimerkiksi 256-bittinen entropia tuottaa 8-bittisen tarkistussumman.
+arvioitu: false

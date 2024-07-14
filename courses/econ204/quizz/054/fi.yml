@@ -1,0 +1,10 @@
+kysymys: Mikä on virallinen kynnysarvo maan katsomiseksi hyperinflaation tilassa olevaksi?
+vastaus: 50% kuukaudessa
+vaarat_vastaukset:
+  - 10% kuukaudessa
+  - 25% kuukaudessa
+  - 75% kuukaudessa
+selitys: |
+  Vuonna 2007 Zimbabwen inflaatioaste saavutti 50% kuukausittaisen kynnyksen,
+  virallisesti merkiten maan olevan hyperinflaatiossa.
+arvioitu: false

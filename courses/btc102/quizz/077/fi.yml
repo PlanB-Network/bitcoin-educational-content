@@ -1,0 +1,9 @@
+kysymys: Mikä on satoshi Bitcoinin kontekstissa?
+vastaus: Bitcoinin pienin yksikkö
+väärät_vastaukset:
+  - Eräänlainen Bitcoin-lompakko
+  - Menetelmä ostaa Bitcoinia
+  - Bitcoin-vaihtoalusta
+selitys: |
+  Bitcoinin kontekstissa satoshi (tai SAT) on Bitcoinin pienin yksikkö.
+  Bitcoinin kerääjien tavoitteena on koota mahdollisimman monta satoshia.

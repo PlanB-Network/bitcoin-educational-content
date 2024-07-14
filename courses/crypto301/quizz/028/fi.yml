@@ -1,0 +1,9 @@
+kysymys: Mitä ovat UTXOt Bitcoinin kontekstissa?
+vastaus: Käyttämättömät transaktiotulosteet
+väärät_vastaukset:
+  - Jäljittämättömät transaktiotulosteet
+  - Vahvistamattomat transaktiotulosteet
+  - Vahvistamattomat transaktiotulosteet
+selitys: |
+  UTXOt eli "Käyttämättömät transaktiotulosteet" edustavat käyttäjälle kuuluvia käyttämättömiä transaktiotulosteita. Näiden bitcoinien käyttämiseksi on osoitettava omistajuus yksityisavaimella, joka vastaa kutakin UTXOon liitettyä julkista avainta.
+arvioitu: false

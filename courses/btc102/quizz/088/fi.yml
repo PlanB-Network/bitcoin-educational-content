@@ -1,0 +1,10 @@
+kysymys: Mikä on yksi etu käyttää vaihtoalustaa bitcoinien ostamiseen ja myymiseen?
+vastaus: Se mahdollistaa säännölliset transaktiot käyttäjän tarpeiden mukaan.
+väärät_vastaukset:
+  - Se mahdollistaa nimettömät transaktiot.
+  - Se kasvattaa Bitcoinin arvoa.
+  - Se tarjoaa alustan Bitcoinin louhintaan.
+selitys: |
+  Vaihtoalustat mahdollistavat käyttäjille bitcoinien ostamisen ja myymisen säännöllisesti ja
+  kätevästi heidän tarpeidensa mukaan.
+arvioitu: false

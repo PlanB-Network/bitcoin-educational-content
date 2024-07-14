@@ -1,0 +1,10 @@
+kysymys:
+  Rajoittaako Lightning-maksukanavan kapasiteetti kokonaisten transaktioiden määrää tai Bitcoinien kokonaismäärää, joka voidaan lähettää kanavan kautta?
+vastaus: Tämä on väärin
+vaarat_vastaukset:
+  - Tämä on totta
+  - Tämä on totta vain joissakin tapauksissa
+  - Se riippuu Bitcoin-verkosta
+selitys: |
+  Vaikka Lightning-maksukanavan kapasiteetti on kiinteä, se ei rajoita kokonaisten transaktioiden määrää tai Bitcoinien kokonaismäärää, joka voidaan lähettää kanavan kautta.
+arvioitu: false

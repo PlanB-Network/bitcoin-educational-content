@@ -1,0 +1,12 @@
+kysymys: Mikä on ensimmäinen askel kanavan avaamisessa Lightning-verkossa?
+vastaus: Kaksi vertaisosapuolta ilmaisee aikomuksensa avata kanavan.
+väärät_vastaukset:
+  - Alice lähettää rahaa Bobin julkiseen osoitteeseen.
+  - Alice luo 2/2 multi-sig osoitteen.
+  - Alice julkaisee transaktion Bitcoin-verkkoon.
+selitys: |
+  Ensimmäinen askel kanavan avaamisessa Lightning-verkossa on, että
+  kaksi vertaisosapuolta ilmaisee aikomuksensa avata kanavan. Esimerkiksi Alice saattaa
+  sanoa, "Hei, haluan avata kanavan!" ja Bob saattaa vastata, "Ok, tässä on minun julkinen
+  osoitteeni."
+arvioitu: false

@@ -1,0 +1,9 @@
+kysymys: Mikä on pisteen skalaarikertolasku n:llä elliptisellä käyrällä?
+vastaus: Vastaa pisteen lisäämistä itseensä n kertaa
+väärät_vastaukset:
+  - Vastaa pisteen vähentämistä itsestään n kertaa
+  - Vastaa pisteen kertomista itsellään n kertaa
+  - Vastaa pisteen jakamista itsellään n kertaa
+selitys: |
+  Pisteen skalaarikertolasku n:llä elliptisellä käyrällä vastaa pisteen lisäämistä itseensä n kertaa. Tämä toimenpide on perustana julkisten avainten laskemiselle Bitcoin-järjestelmässä.
+arvioitu: false

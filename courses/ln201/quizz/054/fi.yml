@@ -1,0 +1,11 @@
+kysymys: Mikä on kanavan likviditeetti Lightning-verkossa?
+vastaus: Se määrä satosheja, joka voidaan siirtää kanavan kautta.
+väärät_vastaukset:
+  - Kanavan kautta tehtävien transaktioiden lukumäärä.
+  - Nopeus, jolla transaktioita voidaan tehdä kanavan kautta.
+  - Transaktion tekemisen kustannus kanavan kautta.
+selitys: |
+  Lightning-verkossa kanavan likviditeetti viittaa siihen määrään
+  satosheja, joka voidaan siirtää kanavan kautta. Näiden
+  kanavien likviditeettiä ei voida siirtää muihin likviditeettikanaviin.
+arvioitu: false

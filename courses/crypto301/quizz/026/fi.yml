@@ -1,0 +1,11 @@
+kysymys: Mikä on Bitcoinin pienin yksikkö?
+vastaus: Satoshi
+väärät_vastaukset:
+  - Bit
+  - Tavu
+  - Kolikko
+selitys: |
+  Bitcoin-järjestelmässä laskentayksikkönä toimii bitcoin (huomaa pieni
+  "b"). Se on jaettavissa kahdeksaan desimaalipaikkaan asti, ja pienin yksikkö on
+  satoshi.
+arvioitu: false

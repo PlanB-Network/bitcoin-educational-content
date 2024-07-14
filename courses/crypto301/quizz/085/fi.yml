@@ -1,0 +1,11 @@
+kysymys: Miksi HMAC SHA-512 -algoritmia käytetään pääyksityisavaimen ja pääketjukoodin luomisessa?
+vastaus: Koska SHA-512 -funktiota ei alun perin toteutettu Bitcoin-protokollassa.
+väärät_vastaukset:
+  - Koska se on ainoa algoritmi, joka voi tuottaa 512-bittisen numeron.
+  - Koska se on turvallisin algoritmi.
+  - Koska se on helpoin algoritmi käyttää.
+selitys: |
+  Alun perin SHA-512 -funktiota ei ollut toteutettu Bitcoin-protokollassa,
+  minkä vuoksi HMAC SHA-512:tä käytetään. Tämä algoritmi vaatii viestin ja avaimen
+  tuloksen tuottamiseksi.
+arvioitu: false

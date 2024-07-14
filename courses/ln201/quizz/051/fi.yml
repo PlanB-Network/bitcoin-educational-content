@@ -1,0 +1,9 @@
+kysymys: Mikä on sipulireititys Lightning-verkoston kontekstissa?
+vastaus: Menetelmä, jossa välittäjät eivät tiedä, kuka on lopullinen vastaanottaja tai kuka maksun lähettää.
+väärät_vastaukset:
+  - Menetelmä, jossa välittäjät tietävät sekä lähettäjän että vastaanottajan.
+  - Menetelmä, jossa vain lähettäjä tietää reitin ja hinnan.
+  - Menetelmä, jossa lopullinen vastaanottaja päättää reitin ennen maksun lähettämistä.
+selitys: |
+  Sipulireititys Lightning-verkostossa on menetelmä, jossa välittäjät eivät tiedä, kuka on lopullinen vastaanottaja tai kuka maksun lähettää. Solmun on pidettävä suunnitelmaa verkostosta löytääkseen reittinsä, mutta yksikään välittäjistä ei omaa mitään tietoa.
+arvioitu: false

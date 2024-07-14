@@ -1,0 +1,11 @@
+kysymys: Mikä on HASH160:n etu Bitcoin-protokollassa?
+vastaus: Se mahdollistaa SHA-256:n turvallisuuden säilyttämisen samalla kun se pienentää sormenjäljen kokoa.
+väärät_vastaukset:
+  - Se kasvattaa sormenjäljen kokoa lisäturvallisuuden saavuttamiseksi.
+  - Se on vastustuskykyisempi törmäyksille kuin SHA-256.
+  - Sen laskeminen on nopeampaa kuin SHA-256:n.
+selitys: |
+  HASH160 on edullinen Bitcoin-protokollassa, koska se säilyttää
+  SHA-256:n turvallisuuden samalla kun se pienentää sormenjäljen kokoa. Tämä tekee siitä
+  tehokkaamman kompromissoimatta turvallisuutta.
+arvioitu: false

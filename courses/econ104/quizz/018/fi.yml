@@ -1,0 +1,12 @@
+kysymys: Mikä oli merkittävä rajoitus, jota yksilöt kohtasivat Kreikan hallituksen vuoden 2015 konkurssikriisin aikana?
+vastaus: Hallituksen asettama liiallinen pankkiuudistus.
+väärät_vastaukset:
+  - Rajallinen pääsy digitaalisiin pankkipalveluihin
+  - Digitaalisten valuuttojen, kuten Bitcoinin, volatiliteetti
+  - Fyysisen valuutan (käteisen) puute
+selitys: |
+  Kreikan hallituksen vuoden 2015 konkurssikriisin aikana pankit suljettiin,
+  pankkiautomaattinostot rajoitettiin, ja merkittävä osa yksilöiden
+  pankkitalletuksista otettiin hallituksen toimesta käyttöön julkisen talouden vastuuttomuuden rahoittamiseen.
+  Tämä tapahtuma korosti riskejä, jotka liittyvät rahojen pitämiseen perinteisessä pankkijärjestelmässä.
+arvioitu: true

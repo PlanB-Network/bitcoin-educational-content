@@ -1,0 +1,11 @@
+kysymys: Mikä on ehdotettu ratkaisu toistuviin Bitcoin-ostoksiin ilman stressiä?
+vastaus: Käytä DCA-ratkaisua
+vaarat_vastaukset:
+  - Käytä hot walletia
+  - Käytä cold walletia
+  - Käytä ei-KYC ratkaisua
+selitys: |
+  Ehdotettu ratkaisu toistuviin Bitcoin-ostoksiin ilman stressiä
+  on DCA (Dollar Cost Averaging) ratkaisun käyttö. Tämä strategia käsittää
+  sijoitettavan kokonaissumman jakamisen periodisiin ostoksiin volatiliteetin vaikutuksen vähentämiseksi.
+arvioitu: false

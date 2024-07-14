@@ -1,0 +1,10 @@
+kysymys: Mitä sinun tulisi tehdä, jos havaitset viruksen tietokoneellasi?
+vastaus: Katkaise yhteys internetiin, suorita täysi virustarkistus ja poista tartunnan saaneet tiedostot.
+väärät_vastaukset:
+  - Jatka tietokoneen käyttöä normaalisti.
+  - Sammuta tietokone ja jätä se pois päältä muutamaksi tunniksi.
+  - Poista kaikki tiedostot tietokoneelta.
+selitys: |
+  Jos havaitset viruksen tietokoneellasi, sinun tulisi katkaista yhteys internetiin estääksesi viruksen leviämisen tai kommunikoinnin hakkerin kanssa.
+  Sen jälkeen suorita täysi virustarkistus ja poista tartunnan saaneet tiedostot.
+arvioitu: false

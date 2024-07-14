@@ -1,0 +1,11 @@
+kysymys: Mihin Bitcoinin omaksumiskäyrä on samankaltainen?
+vastaus: S-käyrä
+väärät_vastaukset:
+  - U-käyrä
+  - V-käyrä
+  - W-käyrä
+selitys: >-
+  Bitcoinin omaksuminen, kuten minkä tahansa uuden teknologian, noudattaa S-käyrää.
+  Tämä on yleinen kaava uusien teknologioiden omaksumiselle, jossa omaksuminen alkaa
+  hitaasti, sitten kiihtyy ennen kuin hidastuu tyydyttyessä.
+arvioitu: false

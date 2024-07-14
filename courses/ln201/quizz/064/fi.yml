@@ -1,0 +1,10 @@
+kysymys: Mikä on Lightning Network?
+vastaus: Järjestelmä, joka käyttää HTLC-sopimuksia varmistaakseen turvallisen ja todennettavan maksun Bitcoin-siirroissa.
+väärät_vastaukset:
+  - Eräänlainen kryptovaluutta.
+  - Menetelmä datan salaamiseen.
+  - Eräänlainen lohkoketju.
+selitys: |
+  Lightning Network on järjestelmä, joka käyttää Hash Time-Locked Contracts
+  (HTLC-sopimuksia) varmistaakseen turvallisen ja todennettavan maksun Bitcoin-siirroissa.
+arvioitu: false

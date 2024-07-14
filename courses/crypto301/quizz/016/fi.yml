@@ -1,0 +1,9 @@
+kysymys: Mikä on SHA256:n esikäsittelyn toisen vaiheen tarkoitus?
+vastaus: Lisätä alkuperäisen viestin koon binääriesitys bitteinä
+väärät_vastaukset:
+  - Lisätä täytebittejä syötteeseen
+  - Jakaa syöte eri 512-bittisiin viestilohkoihin
+  - Suorittaa 64 laskentakierrosta tiivistysfunktiossa
+selitys: |
+  SHA256:n esikäsittelyn toinen vaihe sisältää alkuperäisen viestin koon binääriesityksen lisäämisen bitteinä. Tämä tehdään käyttämällä edellisessä vaiheessa varattuja 64 bittiä.
+arvioitu: false

@@ -1,0 +1,9 @@
+kysymys: Mitä tapahtuu, jos salaussummafunktiolle annetaan hieman poikkeava syöte?
+vastaus: Se muuttaa merkittävästi lopullista tiivistettä.
+vaarat_vastaukset:
+  - Se tuottaa saman tiivisteen.
+  - Se saa tiivistefunktion epäonnistumaan.
+  - Se hidastaa tiivisteen laskentaa.
+selitys: |
+  Salaussummafunktiot on suunniteltu siten, että jopa pieni poikkeama syötteessä muuttaa merkittävästi lopullista tiivistettä. Tämä ominaisuus on ratkaisevan tärkeä tiivistefunktion turvallisuuden kannalta, sillä se tekee erittäin vaikeaksi löytää toisen syötteen, joka tuottaisi saman tiivisteen.
+arvioitu: false

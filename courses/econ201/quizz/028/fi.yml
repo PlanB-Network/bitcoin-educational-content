@@ -1,0 +1,9 @@
+kysymys: Mikä on aikapreferenssin ja korkotasojen välinen suhde taloudessa, jossa pääomamarkkinoita ei ole manipuloitu?
+vastaus: Korkotason nousu johtuu suhteellisesta kysynnän kasvusta pääomaan verrattuna tarjontaan, mikä osoittaa korkeampia aikapreferenssejä. Päinvastoin, korkotason lasku tapahtuu säästöjen lisääntymisen seurauksena, mikä on pääoman tarjonnan kasvua, osoittaen aikapreferenssien vähenemistä.
+väärät_vastaukset:
+  - Korkotason nousu osoittaa aikapreferenssien vähenemistä, kun taas korkotason lasku osoittaa aikapreferenssien kasvua.
+  - Aikapreferenssi ja korkotasot ovat kääntäen verrannollisia.
+  - Aikapreferenssillä ja korkotasoilla ei ole suoraa yhteyttä.
+selitys: |
+  Taloudessa, jossa pääomamarkkinoita ei ole manipuloitu, viitekorkotasot määräytyvät pääoman tarjonnan ja kysynnän leikkauspisteessä. Siksi nämä korot edustavat koko talouden aikapreferenssien tilaa. Korkotason nousu johtuu suhteellisesta kysynnän kasvusta pääomaan verrattuna tarjontaan, mikä osoittaa korkeampia aikapreferenssejä. Päinvastoin, korkotason lasku tapahtuu säästöjen lisääntymisen seurauksena, mikä on pääoman tarjonnan kasvua, osoittaen aikapreferenssien vähenemistä.
+arvioitu: false

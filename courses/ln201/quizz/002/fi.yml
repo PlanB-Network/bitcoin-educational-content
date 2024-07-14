@@ -1,0 +1,9 @@
+kysymys: Mikä muuttaa kapasiteetin jakautumista Lightning-maksukanavassa?
+vastaus: Kanavan sisäiset transaktiot
+väärät_vastaukset:
+  - Muutokset Bitcoinin vaihtokurssissa
+  - Muutokset kanavan kokonaiskapasiteetissa
+  - Muutokset Bitcoin-verkossa
+selitys: |
+  Kanavan sisäiset transaktiot eivät muuta kanavan kokonaiskapasiteettia, mutta ne muuttavat tuon kapasiteetin jakautumista käyttäjien välillä.
+arvioitu: false

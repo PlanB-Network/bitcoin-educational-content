@@ -1,0 +1,12 @@
+kysymys: Mikä on päähaaste likviditeetin hallinnassa Lightning Networkissa?
+vastaus: Likviditeetin ylläpitäminen
+väärät_vastaukset:
+  - Kanavien avaaminen
+  - Muiden solmujen kanssa yhdistäminen
+  - Kanavien ostaminen
+selitys: |
+  Vaikka kanavien avaaminen, muiden solmujen kanssa yhdistäminen ja kanavien ostaminen
+  ovat kaikki osa likviditeetin hallintaa Lightning Networkissa, päähaaste
+  on likviditeetin ylläpitäminen. Tämä sisältää likviditeetin tasapainon ylläpitämisen molemmilla puolilla
+  reitityssolmuille ja tulevan likviditeetin varmistamisen kauppiaille.
+arvioitu: false

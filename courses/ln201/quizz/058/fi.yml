@@ -1,0 +1,8 @@
+kysymys: Mitä tapahtuu HTLC:lle, jos Bob ei koskaan hanki salaisuutta?
+vastaus: HTLC vanhenee tietyn määrän lohkojen jälkeen.
+väärät_vastaukset:
+  - HTLC peruutetaan välittömästi.
+  - HTLC siirretään Alicelle.
+  - HTLC siirretään Susielle.
+selitys: |
+  Jos Bob ei koskaan hanki salaisuutta, HTLC vanhenee tietyn määrän lohkojen jälkeen. Tämä on sisäänrakennettu mekanismi varmistamaan, että sopimus ei jää määrittelemättömäksi ajaksi limboon.

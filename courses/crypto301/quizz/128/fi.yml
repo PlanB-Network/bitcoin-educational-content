@@ -1,0 +1,12 @@
+kysymys: Mitä etuliite 0,3 tarkoittaa Bitcoinin julkisessa avaimessa?
+vastaus: Se osoittaa y:n arvon olevan pariton.
+väärät_vastaukset:
+  - Se osoittaa y:n arvon olevan parillinen.
+  - Se osoittaa julkisen avaimen version.
+  - Se osoittaa julkisen avaimen koon.
+selitys: |
+  Esimerkissä, joka koskee Satoshi Nakamoton julkista avainta, etuliite
+
+  0,3 osoittaa y:n arvon olevan pariton. Tämä on osa prosessia, jossa julkinen
+
+  avain tiivistetään Bitcoinissa.

@@ -1,0 +1,10 @@
+kysymys: Mikä on salaisuuden S tarkoitus, jonka Bob luo?
+vastaus: Sitä käytetään avaamaan Alicen ja Susien asettamat HTLC:t.
+väärät_vastaukset:
+  - Sitä käytetään laskemaan hajautusarvo r.
+  - Sitä käytetään luomaan uusi HTLC.
+  - Sitä käytetään kanavan sulkemiseen.
+selitys: |
+  Bob luo salaisuuden S ja laskee hajautusarvon r. Tätä salaisuutta käytetään
+  avaamaan Alicen ja Susien asettamat HTLC:t.
+arvioitu: false

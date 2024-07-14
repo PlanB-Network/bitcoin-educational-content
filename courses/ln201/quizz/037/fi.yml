@@ -1,0 +1,12 @@
+kysymys: Voiko sitoutumistransaktiossa huijata julkaisemalla vanhan tilan?
+vastaus: "Kyllä"
+vaarat_vastaukset:
+  - "Ei"
+  - Vain, jos heillä on peruutusavain.
+  - Vain, jos he loivat transaktion aikalukituksella.
+selitys: |
+  Huijaaminen on mahdollista julkaisemalla vanha tila sitoutumistransaktiossa,
+  koska molemmilla osapuolilla on ennakkoon allekirjoitettu versio julkaisemattomasta transaktiosta.
+  Kuitenkin toimenpiteet, kuten aikalukitus ja peruutusavain, ovat olemassa
+  tämän estämiseksi.
+arvioitu: false

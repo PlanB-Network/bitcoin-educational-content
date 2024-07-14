@@ -1,0 +1,11 @@
+kysymys: Miksi suositellaan avoimen lähdekoodin lompakoiden käyttöä Bitcoin-siirtoihin?
+vastaus: Ne mahdollistavat satunnaislukujen tuottamisen tarkistamisen.
+väärät_vastaukset:
+  - Ne ovat halvempia kuin suljetun lähdekoodin lompakot.
+  - Ne ovat nopeampia kuin suljetun lähdekoodin lompakot.
+  - Ne ovat turvallisempia kuin suljetun lähdekoodin lompakot.
+selitys: |
+  Avoimen lähdekoodin lompakot mahdollistavat käyttäjien tarkistaa satunnaislukujen
+  tuottamisen, mikä on ratkaisevan tärkeää yksityisavainten ja Bitcoin-siirtojen
+  turvallisuuden varmistamisessa.
+arvioitu: false

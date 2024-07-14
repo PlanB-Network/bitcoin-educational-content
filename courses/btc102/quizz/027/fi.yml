@@ -1,0 +1,9 @@
+kysymys: Mitä Bitcoin-lohkoketjun muuttumattomuus tarkoittaa?
+vastaus: Sitä ei voi muuttaa ajan myötä
+vaarat_vastaukset:
+  - Sitä ei voi hakkeroida
+  - Sitä ei voi kopioida
+  - Sitä ei voi poistaa
+selitys: |
+  Bitcoin-lohkoketjun muuttumattomuus tarkoittaa sitä, että kun transaktio on kirjattu, sitä ei voi muuttaa tai poistaa. Tämä varmistaa lohkoketjun eheyden ja luotettavuuden.
+arvioitu: false

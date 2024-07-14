@@ -1,0 +1,11 @@
+kysymys: Mikä on suurin määrä Bitcoinia, joka voidaan siirtää Lightning-maksukanavassa milloin tahansa?
+vastaus: Käyttäjien etukäteen määrittelemä kiinteä kapasiteetti
+väärät_vastaukset:
+  - Kaksi käyttäjää omistaman Bitcoinin kokonaismäärä
+  - Koko Lightning-verkon Bitcoinin kokonaismäärä
+  - Kanavassa tähän mennessä siirrettyjen Bitcoinien kokonaismäärä
+selitys: |
+  Kun Lightning-maksukanava avataan, sille määritellään kiinteä kapasiteetti,
+  jonka käyttäjät ovat etukäteen määritelleet. Tämä kapasiteetti edustaa suurinta määrää
+  Bitcoinia, joka voidaan siirtää kanavassa milloin tahansa.
+arvioitu: false

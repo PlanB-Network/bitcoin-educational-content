@@ -1,0 +1,9 @@
+kysymys: Mikä on yksi motivaatioista Bitcoinin energiankulutuksen takana louhinnassa?
+vastaus: Tarjota tehokas puolustusmekanismi keskittämistä vastaan
+väärät_vastaukset:
+  - Tehdä Bitcoinin käytöstä kalliimpaa
+  - Vähentää sen arvoa kasvattamalla energiakustannuksia
+  - Estää uusia käyttäjiä liittymästä verkkoon
+selitys: |
+  Yksi syy, miksi Bitcoin kuluttaa energiaa louhinnassa, on tarjota tehokas puolustusmekanismi keskittämistä ja epäasiallista manipulaatiota vastaan. Hajautettu louhijoiden verkosto auttaa estämään keskitettyjä tahoja kaappaamasta verkkoa tai manipuloimasta sääntöjä omaksi edukseen.
+arvioitu: true

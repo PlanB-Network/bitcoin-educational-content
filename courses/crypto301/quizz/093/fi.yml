@@ -1,0 +1,10 @@
+kysymys: Mikä on kovennettujen johdannaisten aloitusindeksi?
+vastaus: 2^31
+väärät_vastaukset:
+  - 2^32
+  - 2^30
+  - 2^33
+selitys: |
+  Kovennetut johdannaiset alkavat indekseistä, jotka ovat kahden potensseja, erityisesti
+
+  2^31.

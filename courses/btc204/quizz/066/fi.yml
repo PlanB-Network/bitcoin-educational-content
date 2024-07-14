@@ -1,0 +1,13 @@
+kysymys: Mitä konsolidointi pitää sisällään?
+
+vastaus: Useiden syötteiden yhdistämisen luodakseen yhden suuremman.
+
+väärät_vastaukset:
+  - Suuren syötteen jakaminen useisiin pienempiin.
+  - Syötteiden siirtäminen useista lompakoista yhteen.
+  - Käyttämättömien syötteiden uudelleenosoittaminen uusiin osoitteisiin.
+
+selitys: |
+  Konsolidoinnin periaate on hyödyntää ajanjaksoja, jolloin Bitcoinin maksut ovat matalia, yhdistääkseen pienempiä UTXOja yhdeksi suuremmaksi.
+
+arvioitu: false

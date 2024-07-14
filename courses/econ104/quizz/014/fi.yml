@@ -1,0 +1,11 @@
+kysymys: Mikä on yksityisavainten rooli Bitcoin-siirroissa?
+vastaus: Niitä käytetään allekirjoittamaan ja valtuuttamaan siirrot.
+väärät_vastaukset:
+  - Niitä käytetään varmistamaan siirtojen aitouden.
+  - Niitä käytetään salaamaan siirtotiedot.
+  - Ne jaetaan julkisesti läpinäkyvyyden vuoksi.
+selitys: |
+  Yksityisavaimet ovat olennainen osa Bitcoin-siirtoja.
+  Niitä käytetään allekirjoittamaan ja valtuuttamaan siirrot, tarjoten omistajuuden todisteen 
+  ja varmistaen, että vain omistaja voi käyttää bitcoinejaan.
+arvioitu: true

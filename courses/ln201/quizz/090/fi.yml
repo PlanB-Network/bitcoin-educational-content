@@ -1,0 +1,9 @@
+kysymys: Mikä on yksi tapa lisätä vastaanottokapasiteettia Lightning-verkossa?
+vastaus: Tehdä maksuja
+väärät_vastaukset:
+  - Avata kanavia
+  - Yhdistää muihin solmuihin
+  - Ylläpitää likviditeetin tasapainoa molemmilla puolilla
+selitys: |
+  Lightning-verkossa yksi tapa lisätä vastaanottokapasiteettia on tehdä maksuja. Esimerkiksi, jos maksat 100 000 tietystä syystä, voit nyt vastaanottaa 100 000.
+arvioitu: false

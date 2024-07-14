@@ -1,0 +1,11 @@
+kysymys: Mikä on pakotettu sulkeminen?
+vastaus: Toinen osapuoli haluaa sulkea kanavan, mutta toinen osapuoli ei vastaa, joten ensimmäinen osapuoli julkaisee viimeisimmän sitoumusmaksutapahtuman.
+väärät_vastaukset:
+  - Molemmat osapuolet suostuvat sulkemaan kanavan ja luovat sulkemistapahtuman.
+  - Toinen osapuoli yrittää huijata julkaisemalla vanhan sitoumusmaksutapahtuman.
+  - Molemmat osapuolet taistelevat kanavan jäljellä olevista SAT:sta.
+selitys: |
+  Pakotettu sulkeminen tapahtuu, kun yksi osapuoli haluaa sulkea kanavan, mutta
+  toinen osapuoli ei vastaa, koska he ovat offline-tilassa. Ensimmäinen osapuoli julkaisee
+  silloin viimeisimmän sitoumusmaksutapahtuman.
+arvioitu: false

@@ -1,0 +1,9 @@
+kysymys: Mikä on Bitcoinin julkisen avaimen koko?
+vastaus: 512-bittinen numero
+vaarat_vastaukset:
+  - 256-bittinen numero
+  - 128-bittinen numero
+  - 1024-bittinen numero
+selitys: |
+  Bitcoin-järjestelmässä yksilöllisestä yksityisavaimesta johdetaan 512-bittinen julkinen avain.
+arvioitu: false

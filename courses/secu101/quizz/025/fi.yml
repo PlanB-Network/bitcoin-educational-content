@@ -1,0 +1,9 @@
+kysymys: Mikä on suositeltu käytäntö salausdatan salasanan säilyttämiseen?
+vastaus: Kirjoita salasana paperille ja säilytä se turvallisessa paikassa.
+väärät_vastaukset:
+  - Säilytä salasana tekstiedostossa tietokoneella.
+  - Jaa salasana luotettujen ystävien kanssa.
+  - Käytä yleistä salasanaa, joka on helppo muistaa.
+selitys: |
+  On suositeltavaa kirjoittaa salausdatan salasana paperille ja säilyttää se turvallisessa paikassa. Tämä estää pääsyn menettämisen salattuihin tietoihin.
+arvioitu: false

@@ -1,0 +1,12 @@
+kysymys: Mikä on peruutusavaimen tarkoitus sitoumustapahtumassa?
+vastaus: Se mahdollistaa toisen osapuolen siirtää varoja odottamatta aikalukon päättymistä, jos toinen yrittää huijata.
+väärät_vastaukset:
+  - Se mahdollistaa toisen osapuolen välittömästi saada rahansa takaisin.
+  - Se mahdollistaa toisen osapuolen luoda uuden sitoumustapahtuman.
+  - Se mahdollistaa toisen osapuolen pidentää aikalukkoa.
+selitys: |
+  Peruutusavain on turvatoimi sitoumustapahtumassa.
+  Jos toinen osapuoli yrittää huijata julkaisemalla vanhan tilan, toinen osapuoli voi käyttää
+  peruutusavainta siirtääkseen varoja odottamatta aikalukon päättymistä,
+  tehokkaasti rankaisten huijaria.
+arvioitu: false

@@ -1,0 +1,11 @@
+kysymys: Mikä on yksi mahdollisista Lightning Networkin sovelluksista arkielämässä?
+vastaus: Välitön laskutus kaupankäynnissä
+väärät_vastaukset:
+  - Uusien Bitcoinien louhiminen
+  - Uusien kryptovaluuttojen luominen
+  - Bitcoinin arvon kasvattaminen
+selitys: >-
+  Lightning Network avaa oven monille potentiaalisille
+  sovelluksille
+  Bitcoinille, jotka aiemmin olivat saavuttamattomissa Bitcoinin turvallisuuden ja hajautuksen varmistamiseksi tarvittavien rajoitusten vuoksi. Näiden sovellusten joukossa arkielämässä voimme mainita välittömän laskutuksen kaupankäynnissä.
+arvioitu: false

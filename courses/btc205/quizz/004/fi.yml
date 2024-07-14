@@ -1,0 +1,11 @@
+kysymys: Mikä on raja tunnistautumatta tehtäville nostoille Ranskan pankkiautomaateissa?
+vastaus: 500 euroa
+väärät_vastaukset:
+  - 1000 euroa
+  - 2000 euroa
+  - 3000 euroa
+selitys: |
+  Ranskan pankkiautomaatit ovat säänneltyjä ja vaativat tunnistautumisen
+
+
+  yli 500 euron nostoissa.

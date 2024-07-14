@@ -1,0 +1,10 @@
+kysymys: Mikä on Depth 3:n tarkoitus HD Wallet -rakenteessa?
+vastaus: Sitä käytetään lompakon järjestämiseen eri tileihin
+väärät_vastaukset:
+  - Sitä käytetään tiettyyn tarkoitukseen määriteltyjen ala-avainten johdannaisiin
+  - Sen avulla voidaan erottaa tilit eri kryptovaluutoille tai verkoille
+  - Se vastaa ulkoisia ja sisäisiä ketjuja
+selitys: |
+  HD Wallet -rakenteessa Depth 3:tta käytetään lompakon järjestämiseen
+  eri tileihin, mikä tarjoaa selkeämmän ja järjestäytyneemmän rakenteen.
+arvioitu: false

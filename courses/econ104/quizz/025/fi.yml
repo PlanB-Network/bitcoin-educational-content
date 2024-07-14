@@ -1,0 +1,9 @@
+kysymys: Miksi väite, että bitcoin on arvoton, koska sitä ei tue mikään, on virheellinen?
+vastaus: Arvo on subjektiivinen ja perustuu ihmisten uskomuksiin ja kokemuksiin.
+väärät_vastaukset:
+  - Bitcoinia tukee kulta, mikä antaa sille sisäsyntyisen arvon.
+  - Bitcoinin arvo määräytyy sen niukkuuden ja turvaominaisuuksien perusteella.
+  - Bitcoinin arvo perustuu sen hyväksyntään hallitusten ja pankkien toimesta.
+selitys: |
+  Arvo on subjektiivinen ja katsojan silmissä. Bitcoin on arvokas, koska ihmiset uskovat sen olevan, aivan kuten taide voi olla arvokasta, vaikka se on tehty kankaasta ja maalista. Väite siitä, että valuutan on oltava tuettu jollakin arvokkaalla, on virheellinen, sillä fiat-valuuttojen, kuten Yhdysvaltain dollarin, arvo perustuu luottamukseen ja uskoon samoin.
+arvioitu: true

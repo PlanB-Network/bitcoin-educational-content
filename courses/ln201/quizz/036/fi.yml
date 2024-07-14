@@ -1,0 +1,10 @@
+kysymys: Kuka omistaa peruutusavaimen Alicen sitoumustapahtumassa?
+vastaus: Vain Alice.
+vaarat_vastaukset:
+  - Vain Bob.
+  - Sekä Alice että Bob.
+  - Ei kumpikaan, Alice eikä Bob.
+selitys: |
+  Alicen sitoumustapahtumassa vain Alicella on peruutusavain.
+  Tämä mahdollistaa hänelle varojen siirtämisen odottamatta Timelockin päättymistä, jos
+  Bob yrittää huijata.

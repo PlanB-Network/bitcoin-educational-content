@@ -1,0 +1,12 @@
+kysymys: Mikä on siemenen rooli hierarkkisessa järjestelyssä ja HD-lompakon johdannaisuuden muodostamisessa?
+vastaus: Siemen toimii deterministisessä roolissa kaikkien muiden avainten johdannaisuuden muodostamisessa.
+väärät_vastaukset:
+  - Siementä käytetään lompakon salaamiseen.
+  - Siementä käytetään pääketjukoodin luomiseen.
+  - Siementä käytetään salkun palauttamiseen.
+selitys: |
+  Siemen, jonka pituus on 128–256 bittiä, luodaan satunnaisesti tai
+
+  salaisesta lauseesta. Se toimii deterministisessä roolissa kaikkien muiden
+
+  avainten johdannaisuuden muodostamisessa HD-lompakossa.

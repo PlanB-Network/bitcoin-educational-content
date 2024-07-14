@@ -1,0 +1,10 @@
+kysymys: Mitkä ovat kahdenlaiset lapsiavainparit HD-lompakossa?
+vastaus: Kovetetut parit ja normaalit parit.
+väärät_vastaukset:
+  - Julkiset parit ja yksityiset parit.
+  - Pääparit ja alaiset parit.
+  - Vanhemmat parit ja lapsiparit.
+selitys: |
+  HD-lompakossa on kaksi tyyppiä lapsiavainpareja; kovetetut parit
+
+  ja normaalit parit. Nämä parit eroavat toisistaan johdannaisprosessissaan ja indeksialueissaan.

@@ -1,8 +1,23 @@
 import os
 import shutil
+import sys
 import subprocess
 from pathlib import Path
+from functools import wraps
 
+
+def redirect_output_to_file(filepath):
+    def decorator(func):
+        @wraps(func)
+        def wrapper(*args, **kwargs):
+            original_stdout = sys.stdout
+            with open(filepath, 'w') as f:
+                sys.stdout = f
+                result = func(*args, **kwargs)
+            sys.stdout = original_stdout
+            return result
+        return wrapper
+    return decorator
 
 def prepare_git_branch():
 
@@ -152,8 +167,10 @@ def create_pull_request(target_branch, title, body=""):
     except subprocess.CalledProcessError as e:
         print(f"Failed to create pull request: {e}")
 
+
+@redirect_output_to_file('../../../pbn-auto-translate-logs.txt')
 def main():
-    # prepare_git_branch()
+    prepare_git_branch()
     languages = get_supported_languages()
     for lang in languages:
         create_txt_to_en_from(lang)

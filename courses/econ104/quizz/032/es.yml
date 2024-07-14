@@ -1,0 +1,11 @@
+pregunta: ¿En qué escenario podría una stablecoin cotizar por encima de su precio fijado?
+respuesta: Cuando la demanda de stablecoins supera la capacidad de una casa de cambio
+respuestas_incorrectas:
+  - Cuando el emisor de la stablecoin congela fondos
+  - Cuando la stablecoin está completamente respaldada por reservas de efectivo
+  - Cuando hay una fuerte presión de venta por parte de los usuarios
+explicación: |
+  Las stablecoins pueden cotizar por encima de su precio fijado cuando la 
+  demanda de stablecoins excede la capacidad de una casa de cambio para 
+  satisfacer las demandas de los clientes, típicamente en casas de cambio más pequeñas.
+revisado: true

@@ -1,0 +1,13 @@
+question: ¿Cuáles son los 2 riesgos de privacidad asociados con la selección de monedas?
+
+answer: El CIOH y la conexión entre entradas/identidad por el destinatario.
+
+wrong_answers:
+  - Seguimiento de la dirección IP y correlación de actividades.
+  - Seguimiento temporal y reutilización de direcciones.
+  - Reutilización de direcciones y la conexión entre entradas/identidad por un observador externo.
+
+explanation: |
+  Dos riesgos deben ser considerados al seleccionar monedas: la posibilidad de que el destinatario del pago pueda vincular una parte de tu identidad con los UTXOs utilizados como entradas y la capacidad de un observador externo para establecer conexiones entre todos los UTXOs consumidos como entradas (CIOH).
+
+reviewed: false

@@ -2817,3 +2817,791 @@ Progress: 100.00% of chunks translated.
 
 Translating in Portuguese done!
 Estimated time remaining: 0 hours, 0 minutes, and 0 seconds
+[auto-batch-translation dcdb6757] batch translation from en to pt
+ 99 files changed, 2472 insertions(+)
+ create mode 100644 courses/btc101/quizz/016/pt.yml
+ create mode 100644 courses/btc101/quizz/035/pt.yml
+ create mode 100644 courses/btc101/quizz/078/pt.yml
+ create mode 100644 courses/btc101/quizz/086/pt.yml
+ create mode 100644 courses/btc101/quizz/099/pt.yml
+ create mode 100644 courses/btc101/quizz/104/pt.yml
+ create mode 100644 courses/btc101/quizz/125/pt.yml
+ create mode 100644 courses/btc101/quizz/138/pt.yml
+ create mode 100644 courses/btc101/quizz/142/pt.yml
+ create mode 100644 courses/btc101/quizz/144/pt.yml
+ create mode 100644 courses/btc101/quizz/217/pt.yml
+ create mode 100644 courses/btc101/quizz/246/pt.yml
+ create mode 100644 courses/btc101/quizz/252/pt.yml
+ create mode 100644 courses/btc204/quizz/045/pt.yml
+ create mode 100644 courses/btc204/quizz/046/pt.yml
+ create mode 100644 courses/btc204/quizz/047/pt.yml
+ create mode 100644 courses/btc204/quizz/048/pt.yml
+ create mode 100644 courses/btc204/quizz/049/pt.yml
+ create mode 100644 courses/btc204/quizz/050/pt.yml
+ create mode 100644 courses/btc204/quizz/051/pt.yml
+ create mode 100644 courses/btc204/quizz/052/pt.yml
+ create mode 100644 courses/btc204/quizz/053/pt.yml
+ create mode 100644 courses/btc204/quizz/054/pt.yml
+ create mode 100644 courses/btc204/quizz/055/pt.yml
+ create mode 100644 courses/btc204/quizz/056/pt.yml
+ create mode 100644 courses/btc204/quizz/057/pt.yml
+ create mode 100644 courses/btc204/quizz/058/pt.yml
+ create mode 100644 courses/btc204/quizz/059/pt.yml
+ create mode 100644 courses/btc204/quizz/060/pt.yml
+ create mode 100644 courses/btc204/quizz/061/pt.yml
+ create mode 100644 courses/btc204/quizz/062/pt.yml
+ create mode 100644 courses/btc204/quizz/063/pt.yml
+ create mode 100644 courses/btc204/quizz/064/pt.yml
+ create mode 100644 courses/btc204/quizz/065/pt.yml
+ create mode 100644 courses/btc204/quizz/066/pt.yml
+ create mode 100644 courses/btc204/quizz/067/pt.yml
+ create mode 100644 courses/btc204/quizz/068/pt.yml
+ create mode 100644 courses/btc204/quizz/069/pt.yml
+ create mode 100644 courses/btc204/quizz/070/pt.yml
+ create mode 100644 courses/btc204/quizz/071/pt.yml
+ create mode 100644 courses/btc204/quizz/072/pt.yml
+ create mode 100644 courses/btc204/quizz/073/pt.yml
+ create mode 100644 courses/btc204/quizz/074/pt.yml
+ create mode 100644 courses/econ104/quizz/000/pt.yml
+ create mode 100644 courses/econ104/quizz/001/pt.yml
+ create mode 100644 courses/econ104/quizz/002/pt.yml
+ create mode 100644 courses/econ104/quizz/003/pt.yml
+ create mode 100644 courses/econ104/quizz/004/pt.yml
+ create mode 100644 courses/econ104/quizz/005/pt.yml
+ create mode 100644 courses/econ104/quizz/006/pt.yml
+ create mode 100644 courses/econ104/quizz/007/pt.yml
+ create mode 100644 courses/econ104/quizz/008/pt.yml
+ create mode 100644 courses/econ104/quizz/009/pt.yml
+ create mode 100644 courses/econ104/quizz/010/pt.yml
+ create mode 100644 courses/econ104/quizz/011/pt.yml
+ create mode 100644 courses/econ104/quizz/012/pt.yml
+ create mode 100644 courses/econ104/quizz/013/pt.yml
+ create mode 100644 courses/econ104/quizz/014/pt.yml
+ create mode 100644 courses/econ104/quizz/015/pt.yml
+ create mode 100644 courses/econ104/quizz/016/pt.yml
+ create mode 100644 courses/econ104/quizz/017/pt.yml
+ create mode 100644 courses/econ104/quizz/018/pt.yml
+ create mode 100644 courses/econ104/quizz/019/pt.yml
+ create mode 100644 courses/econ104/quizz/020/pt.yml
+ create mode 100644 courses/econ104/quizz/021/pt.yml
+ create mode 100644 courses/econ104/quizz/022/pt.yml
+ create mode 100644 courses/econ104/quizz/023/pt.yml
+ create mode 100644 courses/econ104/quizz/024/pt.yml
+ create mode 100644 courses/econ104/quizz/025/pt.yml
+ create mode 100644 courses/econ104/quizz/026/pt.yml
+ create mode 100644 courses/econ104/quizz/027/pt.yml
+ create mode 100644 courses/econ104/quizz/028/pt.yml
+ create mode 100644 courses/econ104/quizz/029/pt.yml
+ create mode 100644 courses/econ104/quizz/030/pt.yml
+ create mode 100644 courses/econ104/quizz/031/pt.yml
+ create mode 100644 courses/econ104/quizz/032/pt.yml
+ create mode 100644 courses/econ104/quizz/033/pt.yml
+ create mode 100644 resources/bet/21posters/pt.yml
+ create mode 100644 resources/bet/artist/pt.yml
+ create mode 100644 resources/bet/bitcoin-diploma/pt.yml
+ create mode 100644 resources/bet/book-cover/pt.yml
+ create mode 100644 resources/bet/btc-accepted-stickers/pt.yml
+ create mode 100644 resources/bet/btc-history/pt.yml
+ create mode 100644 resources/bet/hyperinflation-bill-collection/pt.yml
+ create mode 100644 resources/bet/infography-anil/pt.yml
+ create mode 100644 resources/bet/logos/pt.yml
+ create mode 100644 resources/bet/meme/pt.md
+ create mode 100644 resources/bet/poster-propaganda/pt.yml
+ create mode 100644 resources/bet/poster/pt.yml
+ create mode 100644 resources/bet/scam/pt.yml
+ create mode 100644 resources/books/bitcoin-and-the-trust-problem/pt.yml
+ create mode 100644 resources/builders/africa-free-routing/pt.yml
+ create mode 100644 resources/builders/bob-space/pt.yml
+ create mode 100644 tutorials/others/add-bet/pt.md
+ create mode 100644 tutorials/others/add-book/pt.md
+ create mode 100644 tutorials/others/add-builder/pt.md
+ create mode 100644 tutorials/others/add-podcast/pt.md
+ create mode 100644 tutorials/wallet/nunchuk/pt.md
+Translations in Progress: [0/97] 0.00%
+
+Translating in Spanish...
+Progress: 100.00% of chunks translated.
+
+Translating in Spanish done!
+Translations in Progress: [1/97] 1.03%
+
+Translating in Spanish...
+Progress: 100.00% of chunks translated.
+
+Translating in Spanish done!
+Estimated time remaining: 0 hours, 11 minutes, and 25 seconds
+Translations in Progress: [2/97] 2.06%
+
+Translating in Spanish...
+Progress: 100.00% of chunks translated.
+
+Translating in Spanish done!
+Estimated time remaining: 0 hours, 15 minutes, and 0 seconds
+Translations in Progress: [3/97] 3.09%
+
+Translating in Spanish...
+Progress: 100.00% of chunks translated.
+
+Translating in Spanish done!
+Estimated time remaining: 0 hours, 17 minutes, and 55 seconds
+Translations in Progress: [4/97] 4.12%
+
+Translating in Spanish...
+Progress: 100.00% of chunks translated.
+
+Translating in Spanish done!
+Estimated time remaining: 0 hours, 21 minutes, and 1 seconds
+Translations in Progress: [5/97] 5.15%
+
+Translating in Spanish...
+Progress: 100.00% of chunks translated.
+
+Translating in Spanish done!
+Estimated time remaining: 0 hours, 24 minutes, and 39 seconds
+Translations in Progress: [6/97] 6.19%
+
+Translating in Spanish...
+Progress: 100.00% of chunks translated.
+
+Translating in Spanish done!
+Estimated time remaining: 0 hours, 28 minutes, and 4 seconds
+Translations in Progress: [7/97] 7.22%
+
+Translating in Spanish...
+Progress: 100.00% of chunks translated.
+
+Translating in Spanish done!
+Estimated time remaining: 0 hours, 30 minutes, and 41 seconds
+Translations in Progress: [8/97] 8.25%
+
+Translating in Spanish...
+Progress: 100.00% of chunks translated.
+
+Translating in Spanish done!
+Estimated time remaining: 0 hours, 33 minutes, and 48 seconds
+Translations in Progress: [9/97] 9.28%
+
+Translating in Spanish...
+Progress: 100.00% of chunks translated.
+
+Translating in Spanish done!
+Estimated time remaining: 0 hours, 37 minutes, and 4 seconds
+Translations in Progress: [10/97] 10.31%
+
+Translating in Spanish...
+Progress: 100.00% of chunks translated.
+
+Translating in Spanish done!
+Estimated time remaining: 0 hours, 40 minutes, and 1 seconds
+Translations in Progress: [11/97] 11.34%
+
+Translating in Spanish...
+Progress: 100.00% of chunks translated.
+
+Translating in Spanish done!
+Estimated time remaining: 0 hours, 42 minutes, and 51 seconds
+Translations in Progress: [12/97] 12.37%
+
+Translating in Spanish...
+Progress: 100.00% of chunks translated.
+
+Translating in Spanish done!
+Estimated time remaining: 0 hours, 45 minutes, and 57 seconds
+Translations in Progress: [13/97] 13.40%
+
+Translating in Spanish...
+Progress: 100.00% of chunks translated.
+
+Translating in Spanish done!
+Estimated time remaining: 0 hours, 48 minutes, and 35 seconds
+Translations in Progress: [14/97] 14.43%
+
+Translating in Spanish...
+Progress: 100.00% of chunks translated.
+
+Translating in Spanish done!
+Estimated time remaining: 0 hours, 50 minutes, and 51 seconds
+Translations in Progress: [15/97] 15.46%
+
+Translating in Spanish...
+Progress: 100.00% of chunks translated.
+
+Translating in Spanish done!
+Estimated time remaining: 0 hours, 53 minutes, and 12 seconds
+Translations in Progress: [16/97] 16.49%
+
+Translating in Spanish...
+Progress: 100.00% of chunks translated.
+
+Translating in Spanish done!
+Estimated time remaining: 0 hours, 55 minutes, and 17 seconds
+Translations in Progress: [17/97] 17.53%
+
+Translating in Spanish...
+Progress: 100.00% of chunks translated.
+
+Translating in Spanish done!
+Estimated time remaining: 0 hours, 57 minutes, and 25 seconds
+Translations in Progress: [18/97] 18.56%
+
+Translating in Spanish...
+Progress: 100.00% of chunks translated.
+
+Translating in Spanish done!
+Estimated time remaining: 0 hours, 59 minutes, and 28 seconds
+Translations in Progress: [19/97] 19.59%
+
+Translating in Spanish...
+Progress: 100.00% of chunks translated.
+
+Translating in Spanish done!
+Estimated time remaining: 1 hours, 1 minutes, and 30 seconds
+Translations in Progress: [20/97] 20.62%
+
+Translating in Spanish...
+Progress: 100.00% of chunks translated.
+
+Translating in Spanish done!
+Estimated time remaining: 1 hours, 3 minutes, and 35 seconds
+Translations in Progress: [21/97] 21.65%
+
+Translating in Spanish...
+Progress: 100.00% of chunks translated.
+
+Translating in Spanish done!
+Estimated time remaining: 1 hours, 5 minutes, and 35 seconds
+Translations in Progress: [22/97] 22.68%
+
+Translating in Spanish...
+Progress: 100.00% of chunks translated.
+
+Translating in Spanish done!
+Estimated time remaining: 1 hours, 7 minutes, and 25 seconds
+Translations in Progress: [23/97] 23.71%
+
+Translating in Spanish...
+Progress: 100.00% of chunks translated.
+
+Translating in Spanish done!
+Estimated time remaining: 1 hours, 9 minutes, and 14 seconds
+Translations in Progress: [24/97] 24.74%
+
+Translating in Spanish...
+Progress: 100.00% of chunks translated.
+
+Translating in Spanish done!
+Estimated time remaining: 1 hours, 11 minutes, and 3 seconds
+Translations in Progress: [25/97] 25.77%
+
+Translating in Spanish...
+Progress: 100.00% of chunks translated.
+
+Translating in Spanish done!
+Estimated time remaining: 1 hours, 12 minutes, and 48 seconds
+Translations in Progress: [26/97] 26.80%
+
+Translating in Spanish...
+Progress: 100.00% of chunks translated.
+
+Translating in Spanish done!
+Estimated time remaining: 1 hours, 14 minutes, and 31 seconds
+Translations in Progress: [27/97] 27.84%
+
+Translating in Spanish...
+Progress: 100.00% of chunks translated.
+
+Translating in Spanish done!
+Estimated time remaining: 1 hours, 16 minutes, and 15 seconds
+Translations in Progress: [28/97] 28.87%
+
+Translating in Spanish...
+Progress: 100.00% of chunks translated.
+
+Translating in Spanish done!
+Estimated time remaining: 1 hours, 17 minutes, and 46 seconds
+Translations in Progress: [29/97] 29.90%
+
+Translating in Spanish...
+Progress: 100.00% of chunks translated.
+
+Translating in Spanish done!
+Estimated time remaining: 1 hours, 19 minutes, and 14 seconds
+Translations in Progress: [30/97] 30.93%
+
+Translating in Spanish...
+Progress: 100.00% of chunks translated.
+
+Translating in Spanish done!
+Estimated time remaining: 1 hours, 20 minutes, and 36 seconds
+Translations in Progress: [31/97] 31.96%
+
+Translating in Spanish...
+Progress: 100.00% of chunks translated.
+
+Translating in Spanish done!
+Estimated time remaining: 1 hours, 22 minutes, and 5 seconds
+Translations in Progress: [32/97] 32.99%
+
+Translating in Spanish...
+Progress: 100.00% of chunks translated.
+
+Translating in Spanish done!
+Estimated time remaining: 1 hours, 23 minutes, and 31 seconds
+Translations in Progress: [33/97] 34.02%
+
+Translating in Spanish...
+Progress: 100.00% of chunks translated.
+
+Translating in Spanish done!
+Estimated time remaining: 1 hours, 24 minutes, and 45 seconds
+Translations in Progress: [34/97] 35.05%
+
+Translating in Spanish...
+Progress: 100.00% of chunks translated.
+
+Translating in Spanish done!
+Estimated time remaining: 1 hours, 25 minutes, and 54 seconds
+Translations in Progress: [35/97] 36.08%
+
+Translating in Spanish...
+Progress: 100.00% of chunks translated.
+
+Translating in Spanish done!
+Estimated time remaining: 1 hours, 26 minutes, and 52 seconds
+Translations in Progress: [36/97] 37.11%
+
+Translating in Spanish...
+Progress: 100.00% of chunks translated.
+
+Translating in Spanish done!
+Estimated time remaining: 1 hours, 27 minutes, and 46 seconds
+Translations in Progress: [37/97] 38.14%
+
+Translating in Spanish...
+Progress: 100.00% of chunks translated.
+
+Translating in Spanish done!
+Estimated time remaining: 1 hours, 28 minutes, and 42 seconds
+Translations in Progress: [38/97] 39.18%
+
+Translating in Spanish...
+Progress: 100.00% of chunks translated.
+
+Translating in Spanish done!
+Estimated time remaining: 1 hours, 29 minutes, and 30 seconds
+Translations in Progress: [39/97] 40.21%
+
+Translating in Spanish...
+Progress: 100.00% of chunks translated.
+
+Translating in Spanish done!
+Estimated time remaining: 1 hours, 30 minutes, and 13 seconds
+Translations in Progress: [40/97] 41.24%
+
+Translating in Spanish...
+Progress: 100.00% of chunks translated.
+
+Translating in Spanish done!
+Estimated time remaining: 1 hours, 30 minutes, and 51 seconds
+Translations in Progress: [41/97] 42.27%
+
+Translating in Spanish...
+Progress: 25.00% of chunks translated.
+Progress: 50.00% of chunks translated.
+Progress: 75.00% of chunks translated.
+Progress: 100.00% of chunks translated.
+
+Translating in Spanish done!
+Estimated time remaining: 1 hours, 33 minutes, and 19 seconds
+Translations in Progress: [42/97] 43.30%
+
+Translating in Spanish...
+Progress: 100.00% of chunks translated.
+
+Translating in Spanish done!
+Estimated time remaining: 1 hours, 35 minutes, and 33 seconds
+Translations in Progress: [43/97] 44.33%
+
+Translating in Spanish...
+Progress: 100.00% of chunks translated.
+
+Translating in Spanish done!
+Estimated time remaining: 1 hours, 37 minutes, and 28 seconds
+Translations in Progress: [44/97] 45.36%
+
+Translating in Spanish...
+Progress: 100.00% of chunks translated.
+
+Translating in Spanish done!
+Estimated time remaining: 1 hours, 39 minutes, and 12 seconds
+Translations in Progress: [45/97] 46.39%
+
+Translating in Spanish...
+Progress: 100.00% of chunks translated.
+
+Translating in Spanish done!
+Estimated time remaining: 1 hours, 40 minutes, and 44 seconds
+Translations in Progress: [46/97] 47.42%
+
+Translating in Spanish...
+Progress: 100.00% of chunks translated.
+
+Translating in Spanish done!
+Estimated time remaining: 1 hours, 42 minutes, and 3 seconds
+Translations in Progress: [47/97] 48.45%
+
+Translating in Spanish...
+Progress: 100.00% of chunks translated.
+
+Translating in Spanish done!
+Estimated time remaining: 1 hours, 43 minutes, and 14 seconds
+Translations in Progress: [48/97] 49.48%
+
+Translating in Spanish...
+Progress: 25.00% of chunks translated.
+Progress: 50.00% of chunks translated.
+Progress: 75.00% of chunks translated.
+Progress: 100.00% of chunks translated.
+
+Translating in Spanish done!
+Estimated time remaining: 1 hours, 45 minutes, and 25 seconds
+Translations in Progress: [49/97] 50.52%
+
+Translating in Spanish...
+Progress: 100.00% of chunks translated.
+
+Translating in Spanish done!
+Estimated time remaining: 1 hours, 47 minutes, and 20 seconds
+Translations in Progress: [50/97] 51.55%
+
+Translating in Spanish...
+Progress: 100.00% of chunks translated.
+
+Translating in Spanish done!
+Estimated time remaining: 1 hours, 48 minutes, and 57 seconds
+Translations in Progress: [51/97] 52.58%
+
+Translating in Spanish...
+Progress: 100.00% of chunks translated.
+
+Translating in Spanish done!
+Estimated time remaining: 1 hours, 50 minutes, and 21 seconds
+Translations in Progress: [52/97] 53.61%
+
+Translating in Spanish...
+Progress: 100.00% of chunks translated.
+
+Translating in Spanish done!
+Estimated time remaining: 1 hours, 51 minutes, and 31 seconds
+Translations in Progress: [53/97] 54.64%
+
+Translating in Spanish...
+Progress: 100.00% of chunks translated.
+
+Translating in Spanish done!
+Estimated time remaining: 1 hours, 52 minutes, and 29 seconds
+Translations in Progress: [54/97] 55.67%
+
+Translating in Spanish...
+Progress: 100.00% of chunks translated.
+
+Translating in Spanish done!
+Estimated time remaining: 1 hours, 53 minutes, and 14 seconds
+Translations in Progress: [55/97] 56.70%
+
+Translating in Spanish...
+Progress: 100.00% of chunks translated.
+
+Translating in Spanish done!
+Estimated time remaining: 1 hours, 53 minutes, and 48 seconds
+Translations in Progress: [56/97] 57.73%
+
+Translating in Spanish...
+Progress: 100.00% of chunks translated.
+
+Translating in Spanish done!
+Estimated time remaining: 1 hours, 54 minutes, and 10 seconds
+Translations in Progress: [57/97] 58.76%
+
+Translating in Spanish...
+Progress: 100.00% of chunks translated.
+
+Translating in Spanish done!
+Estimated time remaining: 1 hours, 54 minutes, and 20 seconds
+Translations in Progress: [58/97] 59.79%
+
+Translating in Spanish...
+Progress: 100.00% of chunks translated.
+
+Translating in Spanish done!
+Estimated time remaining: 1 hours, 54 minutes, and 19 seconds
+Translations in Progress: [59/97] 60.82%
+
+Translating in Spanish...
+Progress: 100.00% of chunks translated.
+
+Translating in Spanish done!
+Estimated time remaining: 1 hours, 54 minutes, and 5 seconds
+Translations in Progress: [60/97] 61.86%
+
+Translating in Spanish...
+Progress: 100.00% of chunks translated.
+
+Translating in Spanish done!
+Estimated time remaining: 1 hours, 53 minutes, and 39 seconds
+Translations in Progress: [61/97] 62.89%
+
+Translating in Spanish...
+Progress: 100.00% of chunks translated.
+
+Translating in Spanish done!
+Estimated time remaining: 1 hours, 53 minutes, and 3 seconds
+Translations in Progress: [62/97] 63.92%
+
+Translating in Spanish...
+Progress: 100.00% of chunks translated.
+
+Translating in Spanish done!
+Estimated time remaining: 1 hours, 52 minutes, and 15 seconds
+Translations in Progress: [63/97] 64.95%
+
+Translating in Spanish...
+Progress: 100.00% of chunks translated.
+
+Translating in Spanish done!
+Estimated time remaining: 1 hours, 51 minutes, and 16 seconds
+Translations in Progress: [64/97] 65.98%
+
+Translating in Spanish...
+Progress: 100.00% of chunks translated.
+
+Translating in Spanish done!
+Estimated time remaining: 1 hours, 50 minutes, and 7 seconds
+Translations in Progress: [65/97] 67.01%
+
+Translating in Spanish...
+Progress: 33.33% of chunks translated.
+Progress: 66.67% of chunks translated.
+Progress: 100.00% of chunks translated.
+
+Translating in Spanish done!
+Estimated time remaining: 1 hours, 49 minutes, and 18 seconds
+Translations in Progress: [66/97] 68.04%
+
+Translating in Spanish...
+Progress: 100.00% of chunks translated.
+
+Translating in Spanish done!
+Estimated time remaining: 1 hours, 48 minutes, and 15 seconds
+Translations in Progress: [67/97] 69.07%
+
+Translating in Spanish...
+Progress: 100.00% of chunks translated.
+
+Translating in Spanish done!
+Estimated time remaining: 1 hours, 47 minutes, and 2 seconds
+Translations in Progress: [68/97] 70.10%
+
+Translating in Spanish...
+Progress: 100.00% of chunks translated.
+
+Translating in Spanish done!
+Estimated time remaining: 1 hours, 45 minutes, and 36 seconds
+Translations in Progress: [69/97] 71.13%
+
+Translating in Spanish...
+Progress: 100.00% of chunks translated.
+
+Translating in Spanish done!
+Estimated time remaining: 1 hours, 44 minutes, and 0 seconds
+Translations in Progress: [70/97] 72.16%
+
+Translating in Spanish...
+Progress: 100.00% of chunks translated.
+
+Translating in Spanish done!
+Estimated time remaining: 1 hours, 42 minutes, and 11 seconds
+Translations in Progress: [71/97] 73.20%
+
+Translating in Spanish...
+Progress: 100.00% of chunks translated.
+
+Translating in Spanish done!
+Estimated time remaining: 1 hours, 40 minutes, and 11 seconds
+Translations in Progress: [72/97] 74.23%
+
+Translating in Spanish...
+Progress: 100.00% of chunks translated.
+
+Translating in Spanish done!
+Estimated time remaining: 1 hours, 38 minutes, and 0 seconds
+Translations in Progress: [73/97] 75.26%
+
+Translating in Spanish...
+Progress: 100.00% of chunks translated.
+
+Translating in Spanish done!
+Estimated time remaining: 1 hours, 35 minutes, and 38 seconds
+Translations in Progress: [74/97] 76.29%
+
+Translating in Spanish...
+Progress: 100.00% of chunks translated.
+
+Translating in Spanish done!
+Estimated time remaining: 1 hours, 33 minutes, and 5 seconds
+Translations in Progress: [75/97] 77.32%
+
+Translating in Spanish...
+Progress: 100.00% of chunks translated.
+
+Translating in Spanish done!
+Estimated time remaining: 1 hours, 30 minutes, and 22 seconds
+Translations in Progress: [76/97] 78.35%
+
+Translating in Spanish...
+Progress: 100.00% of chunks translated.
+
+Translating in Spanish done!
+Estimated time remaining: 1 hours, 27 minutes, and 30 seconds
+Translations in Progress: [77/97] 79.38%
+
+Translating in Spanish...
+Progress: 100.00% of chunks translated.
+
+Translating in Spanish done!
+Estimated time remaining: 1 hours, 24 minutes, and 28 seconds
+Translations in Progress: [78/97] 80.41%
+
+Translating in Spanish...
+Progress: 100.00% of chunks translated.
+
+Translating in Spanish done!
+Estimated time remaining: 1 hours, 21 minutes, and 18 seconds
+Translations in Progress: [79/97] 81.44%
+
+Translating in Spanish...
+Progress: 100.00% of chunks translated.
+
+Translating in Spanish done!
+Estimated time remaining: 1 hours, 17 minutes, and 57 seconds
+Translations in Progress: [80/97] 82.47%
+
+Translating in Spanish...
+Progress: 100.00% of chunks translated.
+
+Translating in Spanish done!
+Estimated time remaining: 1 hours, 14 minutes, and 27 seconds
+Translations in Progress: [81/97] 83.51%
+
+Translating in Spanish...
+Progress: 100.00% of chunks translated.
+
+Translating in Spanish done!
+Estimated time remaining: 1 hours, 10 minutes, and 48 seconds
+Translations in Progress: [82/97] 84.54%
+
+Translating in Spanish...
+Progress: 33.33% of chunks translated.
+Progress: 66.67% of chunks translated.
+Progress: 100.00% of chunks translated.
+
+Translating in Spanish done!
+Estimated time remaining: 1 hours, 7 minutes, and 11 seconds
+Translations in Progress: [83/97] 85.57%
+
+Translating in Spanish...
+Progress: 100.00% of chunks translated.
+
+Translating in Spanish done!
+Estimated time remaining: 1 hours, 3 minutes, and 24 seconds
+Translations in Progress: [84/97] 86.60%
+
+Translating in Spanish...
+Progress: 100.00% of chunks translated.
+
+Translating in Spanish done!
+Estimated time remaining: 0 hours, 59 minutes, and 27 seconds
+Translations in Progress: [85/97] 87.63%
+
+Translating in Spanish...
+Progress: 100.00% of chunks translated.
+
+Translating in Spanish done!
+Estimated time remaining: 0 hours, 55 minutes, and 20 seconds
+Translations in Progress: [86/97] 88.66%
+
+Translating in Spanish...
+Progress: 100.00% of chunks translated.
+
+Translating in Spanish done!
+Estimated time remaining: 0 hours, 51 minutes, and 3 seconds
+Translations in Progress: [87/97] 89.69%
+
+Translating in Spanish...
+Progress: 100.00% of chunks translated.
+
+Translating in Spanish done!
+Estimated time remaining: 0 hours, 46 minutes, and 37 seconds
+Translations in Progress: [88/97] 90.72%
+
+Translating in Spanish...
+Progress: 100.00% of chunks translated.
+
+Translating in Spanish done!
+Estimated time remaining: 0 hours, 42 minutes, and 2 seconds
+Translations in Progress: [89/97] 91.75%
+
+Translating in Spanish...
+Progress: 100.00% of chunks translated.
+
+Translating in Spanish done!
+Estimated time remaining: 0 hours, 37 minutes, and 17 seconds
+Translations in Progress: [90/97] 92.78%
+
+Translating in Spanish...
+Progress: 100.00% of chunks translated.
+
+Translating in Spanish done!
+Estimated time remaining: 0 hours, 32 minutes, and 24 seconds
+Translations in Progress: [91/97] 93.81%
+
+Translating in Spanish...
+Progress: 100.00% of chunks translated.
+
+Translating in Spanish done!
+Estimated time remaining: 0 hours, 27 minutes, and 22 seconds
+Translations in Progress: [92/97] 94.85%
+
+Translating in Spanish...
+Progress: 100.00% of chunks translated.
+
+Translating in Spanish done!
+Estimated time remaining: 0 hours, 22 minutes, and 11 seconds
+Translations in Progress: [93/97] 95.88%
+
+Translating in Spanish...
+Progress: 100.00% of chunks translated.
+
+Translating in Spanish done!
+Estimated time remaining: 0 hours, 16 minutes, and 51 seconds
+Translations in Progress: [94/97] 96.91%
+
+Translating in Spanish...
+Progress: 100.00% of chunks translated.
+
+Translating in Spanish done!
+Estimated time remaining: 0 hours, 11 minutes, and 22 seconds
+Translations in Progress: [95/97] 97.94%
+
+Translating in Spanish...
+Progress: 100.00% of chunks translated.
+
+Translating in Spanish done!
+Estimated time remaining: 0 hours, 5 minutes, and 45 seconds
+Translations in Progress: [96/97] 98.97%
+
+Translating in Spanish...
+Progress: 100.00% of chunks translated.
+
+Translating in Spanish done!
+Estimated time remaining: 0 hours, 0 minutes, and 0 seconds

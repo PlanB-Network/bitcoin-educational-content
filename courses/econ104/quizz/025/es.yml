@@ -1,0 +1,13 @@
+pregunta: ¿Por qué es erróneo el argumento de que el bitcoin no vale nada porque no está respaldado por nada?
+respuesta: El valor es subjetivo y se basa en las creencias y experiencias de las personas.
+respuestas_incorrectas:
+  - Bitcoin está respaldado por oro, lo que le da un valor inherente.
+  - El valor de Bitcoin se determina por su escasez y características de seguridad.
+  - El valor de Bitcoin se basa en su aceptación por parte de gobiernos y bancos.
+explicación: |
+  El valor es subjetivo y está en el ojo del espectador. Bitcoin es valioso
+  porque la gente cree que lo es, al igual que el arte puede ser valioso a pesar
+  de estar hecho de lienzo y pintura. El argumento de que una moneda debe estar respaldada por
+  algo de valor es inexacto, ya que el valor de las monedas fiduciarias como el dólar estadounidense
+  se basa en la confianza y la creencia también.
+revisado: true

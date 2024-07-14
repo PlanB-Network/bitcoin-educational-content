@@ -3,20 +3,20 @@ name: Privacy su Bitcoin
 goal: Comprendere e padroneggiare i principi della protezione della privacy quando si utilizza Bitcoin
 objectives:
   - Definire le nozioni teoriche necessarie per comprendere le questioni legate alla protezione della privacy
-  - Sapere come identificare e mitigare i rischi associati alla perdita della privacy degli utenti su Bitcoin
+  - Sapere come identificare e mitigare i rischi associati alla perdita della privacy da parte degli utenti su Bitcoin
   - Utilizzare metodi e strumenti per proteggere la propria privacy su Bitcoin
-  - Comprendere i metodi di analisi della catena e sviluppare strategie di difesa
+  - Comprendere i metodi di analisi della blockchain e sviluppare strategie di difesa
 ---
 
 # Proteggi la tua privacy su Bitcoin
 
-In un mondo dove la privacy delle transazioni finanziarie sta gradualmente diventando un lusso, comprendere e padroneggiare i principi della protezione della privacy nel proprio uso di Bitcoin è essenziale. Questa formazione ti fornisce tutte le chiavi, sia teoriche che pratiche, per raggiungere questo obiettivo autonomamente.
+In un mondo dove la privacy delle transazioni finanziarie sta gradualmente diventando un lusso, comprendere e padroneggiare i principi della protezione della privacy nell'uso quotidiano di Bitcoin è essenziale. Questa formazione ti fornisce tutte le chiavi, sia teoriche che pratiche, per raggiungere questo obiettivo autonomamente.
 
-Oggi, su Bitcoin, esistono aziende specializzate nell'analisi della catena. Il loro core business è proprio quello di intrufolarsi nella tua sfera privata, al fine di compromettere la riservatezza delle tue transazioni. Infatti, il "diritto alla privacy" su Bitcoin non esiste. Spetta quindi a te, utente, affermare i tuoi diritti naturali e proteggere la riservatezza delle tue transazioni, perché nessun altro lo farà per te.
+Oggi, su Bitcoin, esistono aziende specializzate nell'analisi della blockchain. Il loro core business è proprio quello di intrufolarsi nella tua sfera privata, al fine di compromettere la riservatezza delle tue transazioni. Infatti, il "diritto alla privacy" su Bitcoin non esiste. Spetta quindi a te, utente, affermare i tuoi diritti naturali e proteggere la riservatezza delle tue transazioni, perché nessun altro lo farà per te.
 
 Questa formazione si presenta come un percorso completo e generalista. Ogni nozione tecnica è discussa in dettaglio e supportata da diagrammi esplicativi. L'obiettivo è rendere la conoscenza accessibile a tutti. BTC204 è quindi accessibile per utenti principianti e intermedi. Questa formazione offre anche un valore aggiunto ai bitcoiner più esperti, poiché approfondiamo alcuni concetti tecnici spesso sconosciuti.
 
-Unisciti a noi per trasformare il tuo uso di Bitcoin e diventare un utente informato, capace di comprendere le questioni legate alla riservatezza e proteggere la tua privacy.
+Unisciti a noi per migliorare le tue capacità d'uso di Bitcoin e diventare un utente informato, capace di comprendere le questioni legate alla riservatezza e proteggere la tua privacy.
 
 +++
 
@@ -26,10 +26,7 @@ Unisciti a noi per trasformare il tuo uso di Bitcoin e diventare un utente infor
 ## Introduzione alla Formazione
 <chapterId>08ba1933-f393-4fb5-8279-777d874caedb</chapterId>
 
-In un mondo dove la privacy delle transazioni finanziarie sta gradualmente diventando un lusso, comprendere e padroneggiare i principi della protezione della privacy nel proprio uso di Bitcoin è essenziale. Questa formazione ti fornisce tutte le chiavi, sia teoriche che pratiche, per raggiungere questo obiettivo autonomamente.
-Oggi, nell'ecosistema Bitcoin, esistono aziende specializzate nell'analisi della catena. Il loro core business è proprio quello di intrufolarsi nella tua sfera privata, compromettendo la riservatezza delle tue transazioni. In realtà, il "diritto alla privacy" su Bitcoin non esiste. Spetta quindi a te, utente, affermare i tuoi diritti naturali e proteggere la riservatezza delle tue transazioni, perché nessun altro lo farà per te.
-
-Bitcoin non è solo lì per il "Number Go Up" e la conservazione del valore dei risparmi. Grazie alle sue caratteristiche uniche e alla sua storia, è principalmente lo strumento dell'economia alternativa. Grazie a questa straordinaria invenzione, puoi gestire liberamente i tuoi soldi, spenderli e accumularli, senza che nessuno possa impedirtelo.
+Bitcoin non è solo lì per il "Number Go Up" e come strumento per conservare il valore dei propri risparmi. Grazie alle sue caratteristiche uniche e alla sua storia, è principalmente lo strumento dell'economia alternativa. Grazie a questa straordinaria invenzione, puoi gestire liberamente i tuoi soldi, spenderli e accumularli, senza che nessuno possa impedirtelo.
 
 Bitcoin offre una fuga pacifica dal giogo degli stati, permettendoti di godere pienamente dei tuoi diritti naturali, che non possono essere messi in discussione dalle leggi stabilite. Grazie all'invenzione di Satoshi Nakamoto, hai il potere di far rispettare il tuo diritto alla proprietà privata e riconquistare la libertà di contrattare.
 Tuttavia, Bitcoin non è anonimo per impostazione predefinita, il che può rappresentare un rischio per gli individui impegnati nell'economia sommersa, specialmente nelle regioni sotto regimi dispotici. Ma questo non è l'unico pericolo. Dato che bitcoin è un bene prezioso e non censurabile, può attirare l'avidità dei ladri. Pertanto, proteggere la propria privacy diventa anche una questione di sicurezza: può aiutarti a prevenire attacchi informatici e aggressioni fisiche.
@@ -43,15 +40,15 @@ L'obiettivo di questo corso non è rendervi completamente anonimi nell'uso di Bi
 Per iniziare, esamineremo insieme i principi fondamentali che governano il funzionamento di Bitcoin, per poi avvicinarci con calma alle nozioni legate alla privacy. È essenziale padroneggiare alcuni concetti di base, come UTXO, indirizzi di ricezione o script, prima di poter comprendere appieno i concetti che affronteremo nelle sezioni successive. Introdurremo anche il modello generale della privacy di Bitcoin, come immaginato da Satoshi Nakamoto, che ci permetterà di cogliere le questioni e i rischi associati.
 ![BTC204](assets/it/11/1.webp)
 
-### Sezione 2: Comprendere l'Analisi della Catena e Come Proteggersi
+### Sezione 2: Comprendere l'Analisi della Blockchain e Come Proteggersi
 
-Nella seconda sezione, studiamo le tecniche utilizzate dalle aziende di analisi della catena per tracciare la vostra attività su Bitcoin. Comprendere questi metodi è cruciale per migliorare la protezione della vostra privacy. Questa parte mira a esaminare le strategie degli attaccanti per comprendere meglio i rischi e gettare le basi per le tecniche che studieremo nelle sezioni successive. Analizzeremo i modelli di transazione, le euristiche interne ed esterne, così come le interpretazioni plausibili di questi modelli. Oltre a un componente teorico, impareremo ad usare un block explorer per eseguire analisi della catena, attraverso esempi pratici ed esercizi.
+Nella seconda sezione, studiamo le tecniche utilizzate dalle aziende di analisi della blockchain per tracciare la vostra attività su Bitcoin. Comprendere questi metodi è cruciale per migliorare la protezione della vostra privacy. Questa parte mira a esaminare le strategie degli attaccanti per comprendere meglio i rischi e gettare le basi per le tecniche che studieremo nelle sezioni successive. Analizzeremo i modelli di transazione, le euristiche interne ed esterne, così come le interpretazioni plausibili di questi modelli. Oltre ad una componente teorica, impareremo ad usare un block explorer per eseguire analisi della blockchain, attraverso esempi pratici ed esercizi.
 
 ![BTC204](assets/notext/11/2.webp)
 
 ### Sezione 3: Padronanza delle Migliori Pratiche per Proteggere la Propria Privacy
 
-Nella terza sezione del nostro corso, arriviamo al cuore della questione: la pratica! L'obiettivo è padroneggiare tutte le migliori pratiche essenziali che dovrebbero diventare riflessi naturali per qualsiasi utente Bitcoin. Copriremo l'uso di indirizzi freschi, l'etichettatura, la consolidazione, l'uso di nodi completi, così come i metodi KYC e di acquisizione. Lo scopo è fornirvi una panoramica completa delle insidie da evitare per stabilire solide fondamenta nella nostra ricerca della protezione della privacy. Per alcune di queste pratiche, sarete guidati a un tutorial specifico per implementarle.
+Nella terza sezione del nostro corso, arriviamo al cuore della questione: la pratica! L'obiettivo è padroneggiare tutte le migliori soluzioni, che dovrebbero diventare riflessi naturali per qualsiasi utente Bitcoin. Copriremo l'uso di indirizzi nuovi per ogni transazione, l'etichettatura, il consolidamento, l'uso di nodi completi, così come i metodi KYC e di acquisizione. Lo scopo è fornirvi una panoramica completa delle insidie da evitare per stabilire solide fondamenta nella nostra ricerca della protezione della privacy. Per alcune di queste pratiche, sarete guidati a un tutorial specifico per implementarle.
 
 ![BTC204](assets/it/11/3.webp)
 
@@ -96,7 +93,7 @@ Teoricamente, un UTXO può rappresentare qualsiasi valore in bitcoin, che varia 
 
 ### UTXO e Condizioni di Spesa
 
-Gli UTXO sono gli strumenti di scambio su Bitcoin. Ogni transazione comporta il consumo di UTXO come input e la creazione di nuovi UTXO come output. Quando viene effettuata una transazione, gli UTXO utilizzati come input sono considerati "spesi", e nuovi UTXO vengono generati e assegnati ai destinatari indicati negli output della transazione. Così, un UTXO rappresenta semplicemente un output di transazione non speso, e quindi una quantità di bitcoin appartenente a un utente in un dato momento.
+Gli UTXO sono gli strumenti di scambio su Bitcoin. Ogni transazione comporta il consumo di UTXO come input e la creazione di nuovi UTXO come output. Quando viene effettuata una transazione, gli UTXO utilizzati come input sono considerati "spesi", e nuovi UTXO vengono generati ed assegnati ai destinatari indicati negli output della transazione. Così, un UTXO rappresenta semplicemente un output di transazione non speso, e quindi una quantità di bitcoin appartenente a un utente in un dato momento.
 ![BTC204](assets/it/21/2.webp)
 Tutti gli UTXO sono protetti da script che definiscono le condizioni sotto le quali possono essere spesi. Per consumare un UTXO, un utente deve dimostrare alla rete di soddisfare le condizioni stabilite dallo script che protegge quell'UTXO. Generalmente, gli UTXO sono protetti da una chiave pubblica (o un indirizzo di ricezione che rappresenta questa chiave pubblica). Per spendere un UTXO associato a questa chiave pubblica, l'utente deve dimostrare di possedere la corrispondente chiave privata, fornendo una firma digitale realizzata con questa chiave. Questo è il motivo per cui si dice che il tuo portafoglio Bitcoin non contiene effettivamente bitcoin, ma piuttosto conserva le tue chiavi private, che a loro volta ti danno accesso ai tuoi UTXO e, per estensione, ai bitcoin che rappresentano.
 
@@ -124,7 +121,7 @@ Una transazione Bitcoin è un'operazione registrata sulla blockchain che consent
 Ogni transazione Bitcoin è quindi composta da uno o più input e uno o più output. Gli input sono UTXO consumati dalla transazione per generare gli output. Gli output sono nuovi UTXO che saranno utilizzabili come input per future transazioni.
 
 **> Lo sapevi?** Teoricamente, una transazione bitcoin potrebbe avere un numero infinito di input e output. Solo la dimensione massima di un blocco limita questo numero.
-Ogni input in una transazione Bitcoin fa riferimento a un precedente UTXO non speso. Per utilizzare un UTXO come input, il suo detentore deve dimostrare di essere il legittimo proprietario validando lo script associato ad esso, ovvero soddisfacendo la condizione di spesa imposta. Generalmente, ciò comporta la fornitura di una firma digitale prodotta con la chiave privata corrispondente alla chiave pubblica che inizialmente ha assicurato quell'UTXO. Lo script consiste quindi nel verificare che la firma corrisponda alla chiave pubblica utilizzata quando si ricevono i fondi.
+Ogni input in una transazione Bitcoin fa riferimento a un precedente UTXO non speso. Per utilizzare un UTXO come input, il suo detentore deve dimostrare di essere il legittimo proprietario validando lo script associato ad esso, ovvero soddisfacendo la condizione di spesa imposta. Generalmente, ciò comporta la prova di una firma digitale prodotta con la chiave privata corrispondente alla chiave pubblica che inizialmente ha assicurato quell'UTXO. Lo script consiste quindi nel verificare che la firma corrisponda alla chiave pubblica utilizzata quando si ricevono i fondi.
 
 Ogni output, d'altra parte, specifica la quantità di bitcoin da trasferire, così come il destinatario. Quest'ultimo è definito da un nuovo script che, in generale, blocca il nuovo UTXO creato con un indirizzo di ricezione o una nuova chiave pubblica.
 
@@ -160,7 +157,7 @@ Commissioni = 200
 Quando un minatore valida con successo un blocco, ha il diritto di riscuotere queste commissioni per tutte le transazioni incluse nel loro blocco, tramite la cosiddetta transazione "coinbase".
 
 ### La Creazione di UTXOs su Bitcoin
-Se avete seguito attentamente i paragrafi precedenti, ora sapete che gli UTXO possono essere creati solo consumando altri UTXO esistenti. Così, le monete su Bitcoin formano una catena continua. Tuttavia, potreste chiedervi come sono apparsi i primi UTXO in questa catena. Questo solleva un problema simile a quello dell'uovo e della gallina: da dove provengono questi UTXO originali?
+Se avete seguito attentamente i paragrafi precedenti, ora sapete che gli UTXO possono essere creati solo consumando altri UTXO esistenti. Così, le monete su Bitcoin formano una catena continua. Tuttavia, potreste chiedervi come sono apparsi i primi UTXO in questa blockchain. Questo solleva un problema simile a quello dell'uovo e della gallina: da dove provengono questi UTXO originali?
 La risposta risiede nella **transazione coinbase**.
 
 Il coinbase è un tipo specifico di transazione Bitcoin, unico per ogni blocco ed è sempre il primo. Consente al minatore che ha trovato una prova di lavoro valida di ricevere la sua ricompensa del blocco. Questa ricompensa consiste di due elementi: **il sussidio del blocco** e **le commissioni sulle transazioni** di cui abbiamo discusso nella parte precedente.
@@ -173,13 +170,13 @@ I bitcoin del sussidio del blocco sono nuovi BTC creati dal nulla, seguendo un c
 
 Per quanto riguarda la parte relativa alle commissioni sulle transazioni, sebbene rappresenti anche BTC appena creati, non devono superare la differenza tra gli input totali e gli output di tutte le transazioni in un blocco. Abbiamo visto in precedenza che queste commissioni rappresentano la parte degli input che non viene utilizzata negli output delle transazioni. Questa parte è tecnicamente "persa" durante la transazione, e il minatore ha il diritto di ricreare questo valore sotto forma di uno o più nuovi UTXO. Si tratta, quindi, di un trasferimento di valore dal mittente della transazione al minatore che lo aggiunge alla blockchain.
 
-**> Lo sapevate?** I bitcoin generati da una transazione coinbase sono soggetti a un periodo di maturazione di 100 blocchi durante il quale non possono essere spesi dal minatore. Questa regola è intesa a prevenire complicazioni legate all'uso di bitcoin appena creati su una catena che potrebbe in seguito essere resa obsoleta.
+**> Lo sapevate?** I bitcoin generati da una transazione coinbase sono soggetti a un periodo di maturazione di 100 blocchi durante il quale non possono essere spesi dal minatore. Questa regola è intesa a prevenire complicazioni legate all'uso di bitcoin appena creati su una blockchain che potrebbe in seguito essere resa obsoleta.
 
 ### Le implicazioni del modello UTXO
 
 In primo luogo, il modello UTXO influenza direttamente le commissioni sulle transazioni su Bitcoin. Dato che la capacità di ogni blocco è limitata, i minatori danno priorità alle transazioni che offrono le migliori commissioni rispetto allo spazio che occuperanno nel blocco. Infatti, più un'operazione include UTXO come input e output, più è pesante e, quindi, richiede commissioni più alte. Questo è uno dei motivi per cui spesso cerchiamo di ridurre il numero di UTXO nel nostro portafoglio, il che può anche influenzare la privacy, un argomento che discuteremo in dettaglio nella terza parte di questa formazione.
 
-Inoltre, come menzionato nelle parti precedenti, le monete su Bitcoin sono essenzialmente una catena di UTXO. Ogni transazione crea quindi un collegamento tra un UTXO passato e un UTXO futuro. Gli UTXO permettono quindi il tracciamento esplicito dei bitcoin dalla loro creazione alla loro attuale spesa. Questa trasparenza può essere percepita positivamente, poiché consente a ogni utente di verificare l'autenticità dei bitcoin ricevuti. Tuttavia, è anche su questo principio di tracciabilità e auditabilità che si basa l'analisi della catena, una pratica volta a compromettere la vostra privacy. Studieremo questa pratica in profondità nella seconda parte della formazione.
+Inoltre, come menzionato nelle parti precedenti, le monete su Bitcoin sono essenzialmente una catena di UTXO. Ogni transazione crea quindi un collegamento tra un UTXO passato e un UTXO futuro. Gli UTXO permettono quindi il tracciamento esplicito dei bitcoin dalla loro creazione alla loro attuale spesa. Questa trasparenza può essere percepita positivamente, poiché consente a ogni utente di verificare l'autenticità dei bitcoin ricevuti. Tuttavia, è anche su questo principio di tracciabilità e auditabilità che si basa l'analisi della blockchain, una pratica volta a compromettere la vostra privacy. Studieremo questa pratica in profondità nella seconda parte della formazione.
 
 ## Il modello di privacy di Bitcoin
 <chapterId>769d8963-3ed5-4094-b21d-9203c7d9e465</chapterId>
@@ -213,10 +210,10 @@ Tuttavia, assicurare l'assenza di doppia spesa è più complesso, poiché qualsi
 
 ### Prevenire la Doppia Spesa su Bitcoin
 L'unico modo per evitare la duplicazione di un bene digitale è essere a conoscenza di tutti gli scambi nel sistema. In questo modo, si può sapere chi possiede cosa e aggiornare il possesso di tutti in base alle transazioni effettuate. Questo è ciò che viene fatto, ad esempio, con il denaro scripturale nel sistema bancario. Quando paghi €10 a un commerciante con carta di credito, la banca registra questo scambio e aggiorna il registro contabile.
-Su Bitcoin, prevenire il doppio utilizzo si ottiene nello stesso modo. L'obiettivo è confermare l'assenza di una transazione che ha già speso le monete in questione. Se queste monete non sono mai state utilizzate, allora possiamo essere sicuri che non si verificherà alcun doppio utilizzo. Questo principio è stato descritto da Satoshi Nakamoto nel White Paper con questa famosa frase:
+Su Bitcoin, la prevenzionde della doppia spesa si ottiene nello stesso modo. L'obiettivo è confermare l'assenza di una transazione che ha già speso le monete in questione. Se queste monete non sono mai state utilizzate, allora possiamo essere sicuri che non si verificherà alcun doppio utilizzo. Questo principio è stato descritto da Satoshi Nakamoto nel White Paper con questa famosa frase:
 **"*L'unico modo per confermare l'assenza di una transazione è essere a conoscenza di tutte le transazioni.*"**
 
-Tuttavia, a differenza del modello bancario, non c'è il desiderio di dover fidarsi di un'entità centrale su Bitcoin. È necessario che tutti gli utenti possano confermare questa assenza di doppio utilizzo, senza fare affidamento su una terza parte. Così, tutti devono essere a conoscenza di tutte le transazioni Bitcoin. Questo è il motivo per cui le transazioni Bitcoin vengono trasmesse pubblicamente su tutti i nodi della rete e registrate in chiaro sulla blockchain.
+Tuttavia, a differenza del modello bancario, non c'è il desiderio di dover fidarsi di un'entità centrale su Bitcoin. È necessario che tutti gli utenti possano confermare l'assenza di doppia spesa, senza fare affidamento su una terza parte. Così, tutti devono essere a conoscenza di tutte le transazioni Bitcoin. Questo è il motivo per cui le transazioni Bitcoin vengono trasmesse pubblicamente su tutti i nodi della rete e registrate in chiaro sulla blockchain.
 
 È proprio questa diffusione pubblica delle informazioni che complica la protezione della privacy su Bitcoin. Nel sistema bancario tradizionale, in teoria, solo l'istituzione finanziaria è a conoscenza delle transazioni effettuate. D'altra parte, su Bitcoin, tutti gli utenti sono informati di tutte le transazioni, tramite i rispettivi nodi.
 
@@ -230,30 +227,30 @@ A causa del vincolo di diffusione pubblica delle transazioni che abbiamo visto n
 Ad esempio, se compri una baguette dal fornaio pagando in BTC, il tuo vicino, che possiede il proprio nodo completo, può vedere passare la tua transazione, così come può vedere tutte le altre transazioni nel sistema. Tuttavia, se i principi della privacy sono rispettati, non dovrebbero essere in grado di collegare questa specifica transazione alla tua identità.
 ![BTC204](assets/it/23/9.webp)
 
-Ma poiché le transazioni Bitcoin sono rese pubbliche, diventa comunque possibile stabilire collegamenti tra di esse per dedurre informazioni sulle parti coinvolte. Questa attività costituisce addirittura una specialità in sé chiamata "analisi della catena". Nella prossima parte del corso, ti invito a esplorare i fondamenti dell'analisi della catena per capire come vengono tracciate le tue bitcoin e sapere come difenderti meglio.
+Ma poiché le transazioni Bitcoin sono rese pubbliche, diventa comunque possibile stabilire collegamenti tra di esse per dedurre informazioni sulle parti coinvolte. Questa attività costituisce addirittura una specialità in sé chiamata "analisi della blockchain". Nella prossima parte del corso, ti invito a esplorare i fondamenti dell'analisi della blockchain per capire come vengono tracciate le tue bitcoin e sapere come difenderti meglio.
 
-# Comprendere l'Analisi della Catena e Come Proteggersi
+# Comprendere l'Analisi della blockchain e Come Proteggersi
 <partId>4739371e-9fef-45b0-bcaa-b7a4df6b4470</partId>
 
-## Cos'è l'Analisi della Catena su Bitcoin?
+## Cos'è l'Analisi della blockchain su Bitcoin?
 <chapterId>7d198ba6-4af2-4f24-86cb-3c79cb25627e</chapterId>
 
 ### Definizione e Funzionamento
-L'analisi della catena è una pratica che comprende tutti i metodi per tracciare il flusso di bitcoin sulla blockchain. Generalmente, l'analisi della catena si basa sull'osservazione delle caratteristiche in campioni di transazioni precedenti. Successivamente, comporta l'identificazione di queste stesse caratteristiche in una transazione che si desidera analizzare e la deduzione di interpretazioni plausibili. Questo metodo di risoluzione dei problemi da un approccio pratico, per trovare una soluzione sufficientemente buona, è ciò che viene chiamato "euristico".
-Per semplificare, l'analisi della catena si svolge in tre passaggi principali:
+L'analisi della blockchain è una pratica che comprende tutti i metodi per tracciare il flusso di bitcoin sulla blockchain. Generalmente, l'analisi della blockchain si basa sull'osservazione delle caratteristiche in campioni di transazioni precedenti. Successivamente, comporta l'identificazione di queste stesse caratteristiche in una transazione che si desidera analizzare e la deduzione di interpretazioni plausibili. Questo metodo di risoluzione dei problemi da un approccio pratico, per trovare una soluzione sufficientemente buona, è ciò che viene chiamato "euristico".
+Per semplificare, l'analisi della blockchain si svolge in tre passaggi principali:
 1. **Osservare la blockchain;**
 2. **Identificare le caratteristiche note;**
 3. **Dedurre ipotesi.**
 
 ![BTC204](assets/it/31/1.webp)
 
-L'analisi della catena può essere eseguita da chiunque. Richiede solo l'accesso alle informazioni pubbliche della blockchain tramite un nodo completo per osservare i movimenti delle transazioni e formulare ipotesi. Esistono anche strumenti gratuiti che facilitano questa analisi, come il sito web [OXT.me](https://oxt.me/) che esploreremo in dettaglio negli ultimi due capitoli di questa parte. Tuttavia, il principale rischio per la privacy proviene dalle aziende specializzate nell'analisi della catena. Queste aziende hanno portato l'analisi della catena su scala industriale e vendono i loro servizi a istituzioni finanziarie o governi. Tra queste aziende, Chainalysis è probabilmente la più conosciuta.
+L'analisi della blockchain può essere eseguita da chiunque. Richiede solo l'accesso alle informazioni pubbliche della blockchain tramite un nodo completo per osservare i movimenti delle transazioni e formulare ipotesi. Esistono anche strumenti gratuiti che facilitano questa analisi, come il sito web [OXT.me](https://oxt.me/) che esploreremo in dettaglio negli ultimi due capitoli di questa parte. Tuttavia, il principale rischio per la privacy proviene dalle aziende specializzate nell'analisi della blockchain. Queste aziende hanno portato l'analisi della blockchain su scala industriale e vendono i loro servizi a istituzioni finanziarie o governi. Tra queste aziende, Chainalysis è probabilmente la più conosciuta.
 
-### Gli Obiettivi dell'Analisi della Catena
-Uno degli obiettivi dell'analisi della catena è raggruppare varie attività su Bitcoin al fine di determinare l'unicità dell'utente che le ha eseguite. Successivamente, sarà possibile tentare di collegare questo insieme di attività a un'identità reale.
+### Gli Obiettivi dell'Analisi della blockchain
+Uno degli obiettivi dell'analisi della blockchain è raggruppare varie attività su Bitcoin al fine di determinare l'unicità dell'utente che le ha eseguite. Successivamente, sarà possibile tentare di collegare questo insieme di attività ad un'identità reale.
 ![BTC204](assets/notext/31/2.webp)
 
-Ricorda il capitolo precedente. Ho spiegato perché il modello di privacy di Bitcoin in origine si basava sulla separazione dell'identità dell'utente dalle loro transazioni. Pertanto, potrebbe essere allettante pensare che l'analisi della catena sia inutile, poiché anche se si riesce a raggruppare le attività onchain, queste non possono essere associate a un'identità reale.
+Ricorda il capitolo precedente. Ho spiegato perché il modello di privacy di Bitcoin in origine si basava sulla separazione dell'identità dell'utente dalle loro transazioni. Pertanto, potrebbe essere allettante pensare che l'analisi della blockchain sia inutile, poiché anche se si riesce a raggruppare le attività onchain, queste non possono essere associate a un'identità reale.
 
 Teoricamente, questa affermazione è accurata. Nella prima parte di questa formazione, abbiamo visto che le coppie di chiavi crittografiche sono utilizzate per stabilire condizioni sul UTXO. Di per sé, queste coppie di chiavi non rivelano alcuna informazione sull'identità dei loro detentori. Quindi, anche se si riesce a raggruppare attività associate a diverse coppie di chiavi, ciò non ci dice nulla sull'entità dietro queste attività.
 
@@ -261,15 +258,15 @@ Teoricamente, questa affermazione è accurata. Nella prima parte di questa forma
 
 Tuttavia, la realtà pratica è molto più complessa. Esiste una moltitudine di comportamenti che rischiano di collegare un'identità reale a un'attività onchain. Nell'analisi, questo è chiamato un punto di ingresso, e ce ne sono molti.
 
-Il più comune, ovviamente, è il KYC (*Know Your Customer*). Se ritiri i tuoi bitcoin da una piattaforma regolamentata a uno dei tuoi indirizzi di ricezione personali, allora alcune persone sono in grado di collegare la tua identità a questo indirizzo. Più in generale, un punto di ingresso può essere qualsiasi forma di interazione tra la tua vita reale e una transazione Bitcoin. Ad esempio, se pubblichi un indirizzo di ricezione sui tuoi social network, questo può costituire un punto di ingresso per l'analisi. Se effettui un pagamento in bitcoin al tuo panettiere, questi può associare il tuo volto (che fa parte della tua identità) a un indirizzo Bitcoin.
+Il più comune, ovviamente, è il KYC (*Know Your Customer*). Se ritiri i tuoi bitcoin da una piattaforma regolamentata ad uno dei tuoi indirizzi di ricezione personali, allora alcune persone saranno in grado di collegare la tua identità a questo indirizzo. Più in generale, un punto di ingresso può essere qualsiasi forma di interazione tra la tua vita reale e una transazione Bitcoin. Ad esempio, se pubblichi un indirizzo di ricezione sui tuoi social network, questo può costituire un punto di ingresso per l'analisi. Se effettui un pagamento in bitcoin al tuo panettiere, questi può associare il tuo volto (che fa parte della tua identità) a un indirizzo Bitcoin.
 
 Questi punti di ingresso sono quasi inevitabili nell'uso di Bitcoin. Anche se si può cercare di limitarne la portata, rimarranno presenti. Ecco perché è cruciale combinare metodi volti a preservare la tua privacy. Sebbene mantenere una separazione tra la tua identità reale e le tue transazioni sia un approccio interessante, rimane insufficiente oggi. Infatti, se tutte le tue attività onchain possono essere raggruppate, allora il minimo punto di ingresso è probabile che comprometta l'unico strato di privacy che avevi stabilito.
 
 ![BTC204](assets/notext/31/4.webp)
 
-### Difendersi dall'Analisi della Catena
+### Difendersi dall'Analisi della blockchain
 
-Pertanto, è necessario anche essere in grado di affrontare l'analisi della blockchain nel nostro uso di Bitcoin. Procedendo in questo modo, possiamo minimizzare l'aggregazione delle nostre attività e limitare l'impatto di un punto di ingresso sulla nostra privacy.
+Pertanto, è necessario anche essere in grado di affrontare l'analisi della blockchain nell' uso quotidiano di Bitcoin. Procedendo in questo modo, possiamo minimizzare l'aggregazione delle nostre attività e limitare l'impatto di un punto di ingresso sulla nostra privacy.
 
 Infatti, per contrastare meglio l'analisi della blockchain, quale approccio migliore se non familiarizzare con i metodi utilizzati nell'analisi della blockchain? Se vuoi sapere come migliorare la tua privacy su Bitcoin, devi comprendere questi metodi. Questo ti permetterà di comprendere meglio tecniche come [Coinjoin](https://planb.network/it/tutorials/privacy/coinjoin-samourai-wallet) o [Payjoin](https://planb.network/it/tutorials/privacy/payjoin) (tecniche che studieremo nelle ultime parti del corso), e di ridurre gli errori che potresti commettere.
 
@@ -287,13 +284,13 @@ Queste famose euristiche possono essere raggruppate in diverse categorie che det
 - **Euristiche esterne alla transazione.**
 
 ### Satoshi Nakamoto e l'analisi della blockchain
-Vale la pena notare che le prime due euristiche per l'analisi della catena sono state scoperte dallo stesso Satoshi Nakamoto. Egli le discute nella parte 10 del White Paper di Bitcoin. Queste sono:
+Vale la pena notare che le prime due euristiche per l'analisi della blockchain sono state scoperte dallo stesso Satoshi Nakamoto. Egli le discute nella parte 10 del White Paper di Bitcoin. Queste sono:
 - l'Euristica di Proprietà di Input Comune (CIOH);
 - e il riutilizzo degli indirizzi.
 
 Fonte: S. Nakamoto, "Bitcoin: A Peer-to-Peer Electronic Cash System", https://bitcoin.org/bitcoin.pdf, 2009.
 
-Nei capitoli seguenti, esploreremo di cosa si tratta, ma è già interessante notare che queste due euristiche mantengono ancora oggi una preminenza nell'analisi della catena.
+Nei capitoli seguenti, esploreremo di cosa si tratta, ma è già interessante notare che queste due euristiche mantengono ancora oggi una preminenza nell'analisi della blockchain.
 
 ## Modelli di Transazione
 <chapterId>d365a101-2d37-46a5-bfb9-3c51e37bf96b</chapterId>
@@ -301,13 +298,13 @@ Nei capitoli seguenti, esploreremo di cosa si tratta, ma è già interessante no
 Un modello di transazione è semplicemente un modello o una struttura complessiva di una transazione tipica che può essere trovata sulla blockchain, la cui interpretazione è presumibilmente nota. Quando studiamo i modelli, ci concentreremo su una singola transazione che analizzeremo ad alto livello.
 In altre parole, ci concentreremo solo sul numero di UTXO negli input e sul numero di UTXO negli output, senza soffermarci sui dettagli più specifici o sull'ambiente della transazione. Dall'osservazione del modello, saremo in grado di interpretare la natura della transazione. Cercheremo quindi le caratteristiche della sua struttura e ne dedurremo un'interpretazione.
 
-In questa parte, scopriremo insieme i principali modelli di transazione che possono essere incontrati nell'analisi di catena, e per ogni modello, vi darò l'interpretazione probabile di questa struttura, insieme a un esempio concreto.
+In questa parte, scopriremo insieme i principali modelli di transazione che possono essere incontrati nell'analisi di blockchain, e per ogni modello, vi darò l'interpretazione probabile di questa struttura, insieme a un esempio concreto.
 
 ### Invio Semplice (o Pagamento Semplice)
 
 Iniziamo con un modello molto diffuso, poiché è quello che appare nella maggior parte dei pagamenti in bitcoin. Il modello di pagamento semplice è caratterizzato dal consumo di uno o più UTXO negli input e dalla produzione di 2 UTXO negli output. Questo modello apparirà quindi così:
 
-Quando individuiamo questa struttura di transazione sulla blockchain, possiamo già trarre un'interpretazione. Come suggerisce il nome, questo modello indica che ci troviamo di fronte a una transazione di invio o pagamento. L'utente ha consumato il proprio UTXO negli input per soddisfare negli output un UTXO di pagamento e un UTXO di resto (resto che ritorna allo stesso utente).
+Quando individuiamo questa struttura di transazione sulla blockchain, possiamo già trarre un'interpretazione. Come suggerisce il nome, questo modello indica che ci troviamo di fronte a una transazione di invio o pagamento. L'utente ha consumato il proprio UTXO negli input per soddisfare negli output un UTXO di pagamento e un UTXO di resto (che ritorna allo stesso utente).
 
 Sappiamo quindi che l'utente osservato probabilmente non è più in possesso di uno dei due UTXO negli output (quello di pagamento), ma è ancora in possesso dell'altro UTXO (quello di resto).
 Al momento, è impossibile per noi specificare quale output rappresenti quale UTXO, poiché questo non è l'obiettivo dello studio dei modelli. Raggiungeremo questo obiettivo affidandoci alle euristiche che studieremo nelle parti seguenti. In questa fase, il nostro obiettivo è limitato all'identificazione della natura della transazione in questione, che in questo caso è un invio semplice.
@@ -327,9 +324,9 @@ Ora che capite cosa sia un modello, passiamo agli altri modelli esistenti.
 ### Sweeping
 
 Questo secondo modello è caratterizzato dal consumo di un singolo UTXO in input e dalla produzione di un singolo UTXO in output.
-L'interpretazione di questo modello è che ci troviamo di fronte a un auto-trasferimento. L'utente ha trasferito i suoi bitcoin a se stesso, su un altro indirizzo di sua proprietà. Poiché non c'è cambio nella transazione, è molto improbabile che ci troviamo di fronte a un pagamento. Infatti, quando viene effettuato un pagamento, è quasi impossibile che il pagante abbia un UTXO che corrisponde esattamente all'importo richiesto dal venditore, più le commissioni di transazione. Generalmente, il pagante è quindi costretto a produrre un output di resto.
+L'interpretazione di questo modello è che ci troviamo di fronte ad un auto-trasferimento. L'utente ha trasferito i suoi bitcoin a se stesso, su un altro indirizzo di sua proprietà. Poiché non c'è cambio nella transazione, è molto improbabile che ci troviamo di fronte a un pagamento. Infatti, quando viene effettuato un pagamento, è quasi impossibile che il pagante abbia un UTXO che corrisponde esattamente all'importo richiesto dal venditore, più le commissioni di transazione. Generalmente, il pagante è quindi costretto a produrre un output di resto.
 
-Sappiamo quindi che l'utente osservato è probabilmente ancora in possesso di questo UTXO. Nel contesto di un'analisi della catena, se sappiamo che l'UTXO utilizzato in input della transazione appartiene ad Alice, possiamo supporre che l'UTXO in output appartenga anche a lei. Ciò che diventerà interessante in seguito è trovare euristiche interne alla transazione che potrebbero rafforzare questa ipotesi (studieremo queste euristiche nel capitolo 3.3).
+Sappiamo quindi che l'utente osservato è probabilmente ancora in possesso di questo UTXO. Nel contesto di un'analisi della blockchain, se sappiamo che l'UTXO utilizzato in input della transazione appartiene ad Alice, possiamo supporre che l'UTXO in output appartenga anche a lei. Ciò che diventerà interessante in seguito è trovare euristiche interne alla transazione che potrebbero rafforzare questa ipotesi (studieremo queste euristiche nel capitolo 3.3).
 
 Per esempio, ecco una transazione Bitcoin che adotta il modello di sweeping:
 
@@ -364,7 +361,7 @@ Per esempio, ecco una transazione Bitcoin che adotta il modello di consolidament
 ![BTC204](assets/it/32/07.webp)
 
 Fonte: [Mempool.space](https://mempool.space/it/tx/77c16914211e237a9bd51a7ce0b1a7368631caed515fe51b081d220590589e94)
-Nel contesto di un'analisi della catena, questo modello può rivelare molte informazioni. Ad esempio, se sappiamo che uno degli input appartiene ad Alice, possiamo supporre che tutti gli altri input e l'output di questa transazione appartengano anche a lei. Questa ipotesi ci permetterebbe quindi di risalire attraverso le precedenti catene di transazioni per scoprire e analizzare altre transazioni probabilmente associate ad Alice.
+Nel contesto di un'analisi della blockchain, questo modello può rivelare molte informazioni. Ad esempio, se sappiamo che uno degli input appartiene ad Alice, possiamo supporre che tutti gli altri input e l'output di questa transazione appartengano anche a lei. Questa ipotesi ci permetterebbe quindi di risalire attraverso le precedenti catene di transazioni per scoprire e analizzare altre transazioni probabilmente associate ad Alice.
 ![BTC204](assets/it/32/08.webp)
 
 ### Spesa Aggregata
@@ -427,7 +424,7 @@ Questa euristica coinvolge lo studio delle somiglianze tra gli input e gli outpu
 La caratteristica più ovvia è il riutilizzo di un indirizzo di ricezione nella stessa transazione.
 
 ![BTC204](assets/en/33/02.webp)
-Questa euristica lascia poco spazio ai dubbi. A meno che la chiave privata di qualcuno non sia stata hackerata, lo stesso indirizzo di ricezione rivela inevitabilmente l'attività di un singolo utente. L'interpretazione che ne segue è che il resto della transazione è l'output con lo stesso indirizzo dell'input. Questo permette il tracciamento continuato dell'individuo basato su questo resto.
+Questa euristica lascia poco spazio ai dubbi. A meno che la chiave privata di qualcuno non sia stata hackerata, lo stesso indirizzo di ricezione rivela inevitabilmente l'attività di un singolo utente. L'interpretazione che ne segue è che il resto della transazione è l'output con lo stesso indirizzo dell'input. Questo permette il tracciamento continuo dell'individuo basato su questo resto.
 Per esempio, ecco una transazione dove questa euristica può ragionevolmente essere applicata:
 
 ```plaintext
@@ -543,7 +540,7 @@ Oltre al riutilizzo degli indirizzi, esistono molte altre euristiche che consent
 Prima di tutto, un analista può beneficiare delle somiglianze nell'uso degli script. Ad esempio, certi script minoritari come multisig possono essere identificati più facilmente rispetto agli script SegWit V0. Più grande è il gruppo in cui ci nascondiamo, più difficile è essere individuati. Questo è particolarmente il motivo per cui, nei buoni protocolli Coinjoin, tutti i partecipanti utilizzano esattamente lo stesso tipo di script.
 Più in generale, un analista può anche concentrarsi sulle impronte digitali caratteristiche di un portafoglio. Si tratta di processi specifici di un uso che si potrebbe cercare di identificare per sfruttarli come euristiche di tracciamento. In altre parole, se si osserva un'accumulazione delle stesse caratteristiche interne su transazioni attribuite all'entità tracciata, si può tentare di identificare queste stesse caratteristiche su altre transazioni.
 
-Ad esempio, può essere identificato che l'utente tracciato invia sistematicamente il suo resto agli indirizzi P2TR (`bc1p…`). Se questo processo si ripete, può essere utilizzato come euristica per la continuazione della nostra analisi. Altre impronte digitali possono essere utilizzate, come l'ordine degli UTXO, il posizionamento del resto negli output, la segnalazione di RBF (Replace-by-Fee), o anche, il numero di versione, il campo `nSequence` e il campo `nLockTime`.
+Ad esempio, può essere identificato che l'utente tracciato invia sistematicamente il suo resto agli indirizzi P2TR (`bc1p…`). Se questo processo si ripete, può essere utilizzato come euristica per il continuo della nostra analisi. Altre impronte digitali possono essere utilizzate, come l'ordine degli UTXO, il posizionamento del resto negli output, la segnalazione di RBF (Replace-by-Fee), o anche, il numero di versione, il campo `nSequence` e il campo `nLockTime`.
 
 ![BTC204](assets/it/34/04.webp)
 Come [@LaurentMT](https://twitter.com/LaurentMT) specifica in [Space Kek #19](https://podcasters.spotify.com/pod/show/decouvrebitcoin/episodes/SpaceKek-19---Analyse-de-chane--anonsets-et-entropie-e1vfuji) (un podcast francofono), l'utilità delle impronte digitali dei portafogli nell'analisi delle catene aumenta significativamente nel tempo. Infatti, il crescente numero di tipi di script e il dispiegamento sempre più graduale di queste nuove funzionalità da parte del software dei portafogli accentuano le differenze. Può persino accadere che si possa identificare con precisione il software utilizzato dall'entità tracciata. È quindi importante comprendere che lo studio dell'impronta digitale di un portafoglio è particolarmente rilevante per le transazioni recenti, più che per quelle avviate nei primi anni 2010.
@@ -581,17 +578,17 @@ Fonte: [Mempool.space](https://mempool.space/tx/20618e63b6eed056263fa52a2282c889
 
 ### Dati Offchain
 
-Ovviamente, l'analisi della catena non è limitata esclusivamente ai dati onchain. Qualsiasi dato proveniente da analisi precedenti o accessibile su internet può essere utilizzato per affinare un'analisi. Ad esempio, se si osserva che le transazioni tracciate vengono costantemente trasmesse dallo stesso nodo Bitcoin e è possibile identificarne l'indirizzo IP, potrebbe essere possibile individuare altre transazioni dalla stessa entità, oltre a determinare una parte dell'identità del mittente. Sebbene questa pratica non sia facilmente realizzabile, poiché richiede l'operatività di molti nodi, è possibile che alcune aziende specializzate in analisi della catena la impieghino.
+Ovviamente, l'analisi della blockchain non è limitata esclusivamente ai dati onchain. Qualsiasi dato proveniente da analisi precedenti o accessibile su internet può essere utilizzato per affinare un'analisi. Ad esempio, se si osserva che le transazioni tracciate vengono costantemente trasmesse dallo stesso nodo Bitcoin e è possibile identificarne l'indirizzo IP, potrebbe essere possibile individuare altre transazioni dalla stessa entità, oltre a determinare una parte dell'identità del mittente. Sebbene questa pratica non sia facilmente realizzabile, poiché richiede l'operatività di molti nodi, è possibile che alcune aziende specializzate in analisi della blockchain la impieghino.
 
 L'analista ha anche l'opzione di fare affidamento su analisi precedentemente rese open-source, o sulle proprie analisi precedenti. Forse sarà possibile trovare un output che punta a un cluster di indirizzi che era già stato identificato. A volte, è anche possibile fare affidamento su output che puntano verso una piattaforma di scambio, essendo gli indirizzi di queste aziende generalmente noti.
 
 Allo stesso modo, può essere condotta un'analisi per eliminazione. Ad esempio, se durante l'analisi di una transazione con due output, uno di essi è collegato a un cluster di indirizzi noto, ma distinto dall'entità tracciata, allora si può interpretare che l'altro output rappresenti probabilmente il resto.
 
-L'analisi della catena include anche una parte più generale di OSINT (*Open Source Intelligence*) con ricerche su internet. Questo è il motivo per cui si sconsiglia di pubblicare indirizzi di ricezione direttamente sui social media o su un sito web, sia sotto pseudonimo che no.
+L'analisi della blockchain include anche una parte più generale di OSINT (*Open Source Intelligence*) con ricerche su internet. Questo è il motivo per cui si sconsiglia di pubblicare indirizzi di ricezione direttamente sui social media o su un sito web, sia sotto pseudonimo che no.
 
 ### Modelli Temporali
 
-È meno considerato, ma alcuni comportamenti umani sono riconoscibili onchain. Il più utile in un'analisi potrebbe essere il tuo modello di sonno! Sì, quando stai dormendo, presumibilmente non stai trasmettendo transazioni Bitcoin. E, in genere, dormi nelle stesse ore. Pertanto, è comune utilizzare analisi temporali nell'analisi della catena. Questo comporta semplicemente la registrazione degli orari in cui le transazioni di una data entità vengono trasmesse alla rete Bitcoin. Analizzare questi modelli temporali ci consente di dedurre numerose informazioni.
+È meno considerato, ma alcuni comportamenti umani sono riconoscibili onchain. Il più utile in un'analisi potrebbe essere il tuo modello di sonno! Sì, quando stai dormendo, presumibilmente non stai trasmettendo transazioni Bitcoin. E, in genere, dormi nelle stesse ore. Pertanto, è comune utilizzare analisi temporali nell'analisi della blockchain. Questo comporta semplicemente la registrazione degli orari in cui le transazioni di una data entità vengono trasmesse alla rete Bitcoin. Analizzare questi modelli temporali ci consente di dedurre numerose informazioni.
 
 Prima di tutto, un'analisi temporale a volte consente di identificare la natura dell'entità tracciata. Se si osserva che le transazioni vengono trasmesse costantemente nel corso delle 24 ore, allora ciò rivelerà una forte attività economica. L'entità dietro queste transazioni è probabilmente un'azienda, potenzialmente internazionale e forse con procedure automatizzate internamente.
 Ad esempio, avevo riconosciuto questo modello alcuni mesi fa analizzando [la transazione che aveva erroneamente allocato 19 bitcoin in commissioni](https://mempool.space/tx/d5392d474b4c436e1c9d1f4ff4be5f5f9bb0eb2e26b61d2781751474b7e870fd). Una semplice analisi temporale mi aveva permesso di ipotizzare che stavamo trattando con un servizio automatizzato, e quindi probabilmente con un'entità grande come una piattaforma di scambio.
@@ -618,10 +615,10 @@ In un registro diverso, è anche un'analisi temporale di questo tipo che ha perm
 <chapterId>6493cf2f-225c-405f-9375-c4304f1087ed</chapterId>
 
 In questo capitolo finale, applicheremo concretamente i concetti finora studiati. Vi presenterò esempi di reali transazioni Bitcoin, e dovrete estrarre le informazioni che vi chiedo.
-Idealmente, per questi esercizi, sarebbe preferibile l'uso di uno strumento professionale di analisi della catena. Tuttavia, dall'arresto dei creatori di Samourai Wallet, l'unico strumento di analisi gratuito, OXT.me, non è più disponibile. Pertanto, opteremo per un classico block explorer per questi esercizi. Vi consiglio di utilizzare [Mempool.space](https://mempool.space/) per le sue numerose funzionalità e gamma di strumenti di analisi della catena, ma potete anche scegliere un altro explorer come [Bitcoin Explorer](https://bitcoinexplorer.org/).
+Idealmente, per questi esercizi, sarebbe preferibile l'uso di uno strumento professionale di analisi della blockchain. Tuttavia, dall'arresto dei creatori di Samourai Wallet, l'unico strumento di analisi gratuito, OXT.me, non è più disponibile. Pertanto, opteremo per un classico block explorer per questi esercizi. Vi consiglio di utilizzare [Mempool.space](https://mempool.space/) per le sue numerose funzionalità e gamma di strumenti di analisi della blockchain, ma potete anche scegliere un altro explorer come [Bitcoin Explorer](https://bitcoinexplorer.org/).
 Per iniziare, presenterò gli esercizi. Utilizzate il vostro block explorer per completarli e scrivete le vostre risposte su un foglio di carta. Poi, alla fine di questo capitolo, fornirò le risposte così potrete controllare e correggere i vostri risultati.
 
-*Le transazioni selezionate per questi esercizi sono state scelte esclusivamente per le loro caratteristiche in modo alquanto casuale. Questo capitolo è destinato esclusivamente a scopi educativi e informativi. Voglio chiarire che non sostengo o incoraggio l'uso di questi strumenti per scopi malevoli. L'obiettivo è insegnarvi come proteggervi dall'analisi della catena, non condurre analisi per esporre informazioni private di altri.*
+*Le transazioni selezionate per questi esercizi sono state scelte esclusivamente per le loro caratteristiche in modo alquanto casuale. Questo capitolo è destinato esclusivamente a scopi educativi e informativi. Voglio chiarire che non sostengo o incoraggio l'uso di questi strumenti per scopi malevoli. L'obiettivo è insegnarvi come proteggervi dall'analisi della blockchain, non condurre analisi per esporre informazioni private di altri.*
 
 ### Esercizio 1
 
@@ -858,11 +855,11 @@ Il fuso orario UTC-7 è particolarmente rilevante in estate, poiché include sta
 Queste informazioni suggeriscono che Loïc potrebbe plausibilmente risiedere sulla costa occidentale degli Stati Uniti o del Canada.
 
 ***Esercizio 8:***
-L'analisi di questa transazione rivela 5 input e un singolo output, il che sembra indicare una consolidazione. L'applicazione dell'euristica CIOH suggerisce che tutti gli UTXO negli input sono detenuti da una singola entità, e che anche l'UTXO in output appartiene a questa entità. Sembra che l'utente abbia scelto di raggruppare diversi UTXO di sua proprietà per formare un singolo UTXO in output, con l'obiettivo di consolidare le proprie monete. Questo approccio è stato probabilmente motivato dal desiderio di approfittare delle basse commissioni di transazione del momento al fine di ridurre le commissioni future.
+L'analisi di questa transazione rivela 5 input e un singolo output, il che sembra indicare una consolidamento. L'applicazione dell'euristica CIOH suggerisce che tutti gli UTXO negli input sono detenuti da una singola entità, e che anche l'UTXO in output appartiene a questa entità. Sembra che l'utente abbia scelto di raggruppare diversi UTXO di sua proprietà per formare un singolo UTXO in output, con l'obiettivo di consolidare i propri UTXO. Questo approccio è stato probabilmente motivato dal desiderio di approfittare delle basse commissioni di transazione del momento al fine di ridurre le commissioni future.
 
-*Per la stesura di questa parte 3 sull'analisi della catena, mi sono affidato alle seguenti risorse:*
+*Per la stesura di questa parte 3 sull'analisi della blockchain, mi sono affidato alle seguenti risorse:*
 - *La serie di quattro articoli intitolata: [Understanding Bitcoin Privacy with OXT](https://medium.com/oxt-research/understanding-bitcoin-privacy-with-oxt-part-1-4-8177a40a5923), prodotta da Samourai Wallet nel 2021;*
-- *I vari rapporti di [OXT Research](https://medium.com/oxt-research), così come il loro strumento gratuito di analisi della catena (che al momento non è più disponibile a seguito dell'arresto dei fondatori di Samourai Wallet);*
+- *I vari rapporti di [OXT Research](https://medium.com/oxt-research), così come il loro strumento gratuito di analisi della blockchain (che al momento non è più disponibile a seguito dell'arresto dei fondatori di Samourai Wallet);*
 - *Più in generale, le mie conoscenze provengono dai diversi tweet e contenuti di [@LaurentMT](https://twitter.com/LaurentMT) e [@ErgoBTC](https://twitter.com/ErgoBTC);*
 - *Il [Space Kek #19](https://podcasters.spotify.com/pod/show/decouvrebitcoin/episodes/SpaceKek-19---Analyse-de-chane--anonsets-et-entropie-e1vfuji) a cui ho partecipato insieme a [@louneskmt](https://twitter.com/louneskmt), [@TheoPantamis](https://twitter.com/TheoPantamis), [@Sosthene___](https://twitter.com/Sosthene___), e [@LaurentMT](https://twitter.com/LaurentMT).*
 
@@ -898,7 +895,7 @@ Questo capitolo è attualmente in fase di scrittura e verrà pubblicato a breve!
 
 KYC sta per "Know Your Customer" (Conosci il Tuo Cliente), che è una procedura normativa implementata da alcune aziende operanti nel settore Bitcoin. Questa procedura mira a verificare e registrare l'identità dei loro clienti con lo scopo dichiarato di combattere il riciclaggio di denaro e il finanziamento del terrorismo.
 
-Specificamente, il KYC comporta la raccolta di vari dati personali del cliente, che possono variare a seconda delle giurisdizioni ma generalmente includono un documento d'identità, una fotografia e una prova di residenza. Queste informazioni vengono poi verificate e conservate per un uso futuro.
+Specificamente, il KYC comporta la raccolta di svariati dati personali del cliente, che possono variare a seconda delle giurisdizioni ma generalmente includono un documento d'identità, una fotografia e una prova di residenza. Queste informazioni vengono poi verificate e conservate per un uso futuro.
 
 Questa procedura è diventata obbligatoria per tutte le piattaforme di scambio regolamentate nella maggior parte dei paesi occidentali. Ciò significa che chiunque desideri scambiare valute fiat con bitcoin attraverso queste piattaforme deve rispettare i requisiti KYC.
 
@@ -906,9 +903,9 @@ Questa procedura non è priva di rischi per la privacy e la sicurezza degli uten
 
 ### Facilitare la Tracciabilità Onchain
 
-Il primo rischio associato al KYC è che fornisce un punto di ingresso privilegiato per l'analisi della catena. Come abbiamo visto nella parte precedente, gli analisti possono raggruppare e tracciare le attività sulla blockchain utilizzando schemi di transazione ed euristiche. Una volta che sono riusciti a raggruppare l'attività onchain di un utente, trovare solo un punto di ingresso tra tutte le loro transazioni e chiavi è sufficiente per compromettere completamente la loro privacy.
+Il primo rischio associato al KYC è che fornisce un punto di ingresso privilegiato per l'analisi della blockchain. Come abbiamo visto nella parte precedente, gli analisti possono raggruppare e tracciare le attività sulla blockchain utilizzando schemi di transazione ed euristiche. Una volta che sono riusciti a raggruppare l'attività onchain di un utente, trovare solo un punto di ingresso tra tutte le loro transazioni e chiavi è sufficiente per compromettere completamente la loro privacy.
 
-Quando effettui un KYC, fornisci un punto di ingresso di altissima qualità per l'analisi della catena perché colleghi i tuoi indirizzi di ricezione usati quando ritiri i tuoi bitcoin da una piattaforma di scambio alla tua identità completa e verificata. In teoria, questi dettagli sono noti solo dall'azienda a cui li hai forniti, ma, come vedremo più avanti, il rischio di perdita di dati è reale. Inoltre, il solo fatto che un'azienda detenga queste informazioni può essere problematico, anche se non le condivide.
+Quando effettui un KYC, fornisci un punto di ingresso di altissima qualità per l'analisi della blockchain perché colleghi i tuoi indirizzi di ricezione usati quando ritiri i tuoi bitcoin da una piattaforma di scambio alla tua identità completa e verificata. In teoria, questi dettagli sono noti solo dall'azienda a cui li hai forniti, ma, come vedremo più avanti, il rischio di perdita di dati è reale. Inoltre, il solo fatto che un'azienda detenga queste informazioni può essere problematico, anche se non le condivide.
 
 Così, se non prendi altre misure per limitare il raggruppamento delle tue attività sulla blockchain, chiunque sia a conoscenza di questo punto di ingresso, il KYC, può potenzialmente collegare tutta la tua attività su Bitcoin alla tua identità. Dal punto di vista di questa azienda, l'uso di Bitcoin perde quindi ogni riservatezza.
 
@@ -946,7 +943,7 @@ Oltre ai rischi specifici legati a Bitcoin, è necessario considerare anche i pe
 
 È importante sfatare alcuni fraintendimenti sul KYC che si trovano frequentemente su Twitter o nei nostri scambi tra bitcoiners.
 
-Primo, è errato pensare che proteggere la propria privacy per i bitcoin acquisiti tramite KYC sia inutile. Gli strumenti e i metodi di privacy su Bitcoin sono vari e servono a scopi diversi. Utilizzare transazioni coinjoin su bitcoin ottenuti tramite KYC, ad esempio, non è una cattiva idea. Naturalmente, è necessario essere cauti con le piattaforme di scambio regolamentate per evitare il congelamento o il ban del proprio account, ma da un punto di vista strettamente tecnico, queste pratiche non sono incompatibili. Coinjoin ha l'effetto di interrompere la storia di una moneta, il che ti aiuta a contrastare alcuni dei rischi di analisi della catena associati al KYC. Anche se non elimina tutti i rischi, rappresenta già un vantaggio significativo.
+Primo, è errato pensare che proteggere la propria privacy per i bitcoin acquisiti tramite KYC sia inutile. Gli strumenti e i metodi di privacy su Bitcoin sono vari e servono a scopi diversi. Utilizzare transazioni coinjoin su bitcoin ottenuti tramite KYC, ad esempio, non è una cattiva idea. Naturalmente, è necessario essere cauti con le piattaforme di scambio regolamentate per evitare il congelamento o il ban del proprio account, ma da un punto di vista strettamente tecnico, queste pratiche non sono incompatibili. Coinjoin ha l'effetto di interrompere la storia di una moneta, il che ti aiuta a contrastare alcuni dei rischi di analisi della blockchain associati al KYC. Anche se non elimina tutti i rischi, rappresenta già un vantaggio significativo.
 
 ![BTC204](assets/notext/45/3.webp)
 
@@ -958,7 +955,7 @@ Al contrario, acquisire bitcoin tramite un metodo non-KYC non garantisce una per
 Mi viene talvolta chiesto se sia possibile "tornare indietro" dopo aver eseguito un KYC e, come potete immaginare dai paragrafi precedenti, la risposta è sfumata. Per evitare i rischi associati al KYC, il metodo più semplice è non utilizzarlo quando si acquisiscono bitcoin. Approfondiremo questo argomento nel prossimo capitolo. Tuttavia, se il KYC è già stato eseguito e sono stati acquistati bitcoin, esistono modi per mitigare i rischi incorso?
 
 Per quanto riguarda il rischio di tracciabilità delle tue transazioni, l'utilizzo di coinjoin è una soluzione. Discuteremo questo metodo in dettaglio più avanti nella formazione, ma è importante sapere che coinjoin può interrompere la storia di una moneta e prevenire la sua tracciabilità passato-presente e presente-passato. Anche per i BTC ottenuti tramite una piattaforma regolamentata, questa tecnica può prevenire la loro tracciabilità.
-Tuttavia, coinjoin non elimina il secondo rischio associato a KYC: il fatto che lo stato sia informato del tuo possesso di bitcoin. Infatti, anche se le tue monete non sono più rintracciabili, lo stato, a seconda della giurisdizione, può avere accesso alle tue dichiarazioni di smaltimento di cripto-attivi. Poiché questo rischio non è tecnico ma amministrativo, non esistono soluzioni specifiche per Bitcoin per eliminarlo, se non evitare inizialmente di esporsi a KYC. L'unico approccio legale per mitigare questo rischio è vendere i tuoi bitcoin acquisiti tramite piattaforme regolamentate su piattaforme regolamentate e poi riacquistarli tramite metodi non-KYC. Vendendo e dichiarando lo smaltimento, l'amministrazione dovrebbe notare che non li possiedi più. Riguardo al rischio di perdita dei tuoi dati personali e documenti d'identità, è un pericolo esterno a Bitcoin, e non esiste una soluzione tecnica per evitarlo. Una volta che i tuoi dati sono stati rivelati, è difficile invertire questa operazione. Puoi provare a chiudere il tuo account sulla piattaforma, ma ciò non garantisce l'eliminazione dei tuoi dati KYC, specialmente quando la verifica dell'identità è esternalizzata. Verificare la completa eliminazione delle tue informazioni è impossibile. Pertanto, non esiste una soluzione per prevenire completamente questo rischio e garantire che non esista più.
+Tuttavia, coinjoin non elimina il secondo rischio associato a KYC: il fatto che lo stato sia informato del tuo possesso di bitcoin. Infatti, anche se le tue monete non sono più rintracciabili, lo stato, a seconda della giurisdizione, può avere accesso alle tue dichiarazioni di smaltimento di cripto-attività. Poiché questo rischio non è tecnico ma amministrativo, non esistono soluzioni specifiche per Bitcoin per eliminarlo, se non evitare inizialmente di esporsi a KYC. L'unico approccio legale per mitigare questo rischio è vendere i tuoi bitcoin acquisiti tramite piattaforme regolamentate su piattaforme regolamentate e poi riacquistarli tramite metodi non-KYC. Vendendo e dichiarando lo smaltimento, l'amministrazione dovrebbe notare che non li possiedi più. Riguardo al rischio di perdita dei tuoi dati personali e documenti d'identità, è un pericolo esterno a Bitcoin, e non esiste una soluzione tecnica per evitarlo. Una volta che i tuoi dati sono stati rivelati, è difficile invertire questa operazione. Puoi provare a chiudere il tuo account sulla piattaforma, ma ciò non garantisce l'eliminazione dei tuoi dati KYC, specialmente quando la verifica dell'identità è esternalizzata. Verificare la completa eliminazione delle tue informazioni è impossibile. Pertanto, non esiste una soluzione per prevenire completamente questo rischio e garantire che non esista più.
 
 ### La differenza tra KYC e identificazione chiave
 
@@ -987,11 +984,11 @@ Dopo aver letto il capitolo precedente, potresti chiederti come comprare o vende
 Come abbiamo visto, il metodo migliore in termini di privacy rimane lo scambio P2P (persona a persona) con regolamento in contanti. Questo metodo ti consente di minimizzare le tracce lasciate e riduce significativamente la possibilità di identificazione chiave, sia che tu sia un acquirente che un venditore.
 
 ![BTC204](assets/notext/46/01.webp)
-Tuttavia, questa pratica comporta rischi per la sicurezza personale. Il principale pericolo risiede nel fatto che durante lo scambio, la controparte saprà che detieni una somma significativa, sia in contanti che in bitcoin. Questa informazione può attirare l'attenzione di individui malintenzionati. Infatti, è generalmente consigliato mantenere discreta la propria possessione di bitcoin. Questo consiglio potrebbe essere applicato anche ai contanti. Tuttavia, durante uno scambio di persona, è inevitabile rivelare di possedere bitcoin, il che può suscitare la cupidigia.
+Tuttavia, questa pratica comporta rischi per la sicurezza personale. Il principale pericolo risiede nel fatto che durante lo scambio, la controparte saprà che detieni una somma significativa, sia in contanti che in bitcoin. Questa informazione può attirare l'attenzione di individui malintenzionati. Infatti, è generalmente consigliata discrezione. Questo consiglio potrebbe essere applicato anche ai contanti. Tuttavia, durante uno scambio di persona, è inevitabile rivelare di possedere bitcoin, il che può suscitare la cupidigia.
 
 ![BTC204](assets/notext/46/02.webp)
 
-Per limitare questo rischio, ti consiglio di privilegiare le transazioni in contanti con persone di fiducia, come membri della famiglia o amici intimi. In alternativa, potresti anche considerare di partecipare a scambi presso [incontri Bitcoin locali](https://btcmap.org/communities/map) dopo aver partecipato diverse volte. Questo ti permetterà di conoscere meglio gli altri partecipanti e di non essere solo durante lo scambio fisico. Tuttavia, è importante riconoscere che lo scambio in contanti P2P comporta intrinsecamente rischi per la tua sicurezza personale che non esistono quando si effettuano acquisti tramite una piattaforma regolamentata e il tuo conto in banca.
+Per limitare questo rischio, ti consiglio di privilegiare le transazioni in contanti con persone di fiducia, come membri della famiglia o amici intimi. In alternativa, potresti anche considerare di partecipare a scambi presso [incontri Bitcoin locali](https://btcmap.org/communities/map) dopo aver partecipato diverse volte. Questo ti permetterà di conoscere meglio gli altri partecipanti e di non essere solo durante lo scambio fisico. Tuttavia, è importante riconoscere che lo scambio in contanti P2P comporta intrinsecamente rischi per la tua sicurezza personale che non esistono quando si effettuano acquisti tramite una piattaforma regolamentata attraverso il tuo conto in banca.
 
 Inoltre, a seconda di dove vivi, trasportare e conservare grandi somme di denaro può comportare rischi, sia che si tratti di bitcoin o contanti.
 
@@ -1038,7 +1035,7 @@ Tuttavia, in termini di sicurezza personale, l'utilizzo di queste piattaforme è
 
 Un'altra opzione per comprare o vendere bitcoin senza KYC sono gli ATM per criptovalute (ATM). Personalmente, non ho mai avuto l'opportunità di testare questa soluzione, poiché nel mio paese non ce ne sono. Ma questo metodo può essere molto interessante a seconda di dove vivi.
 
-L'issue con gli ATM è che sono proibiti in alcuni paesi o pesantemente regolamentati in altri. Se un ATM richiede una procedura di verifica dell'identità, è quindi esposto agli stessi rischi di quelli inerenti alle piattaforme KYC regolamentate. Tuttavia, se l'ATM consente transazioni senza verifica dell'identità per piccole somme, allora il suo utilizzo può offrire un livello di privacy paragonabile a quello di uno scambio P2P in contanti, evitando la maggior parte dei rischi associati a questo tipo di scambio.
+Il problema con gli ATM è che sono proibiti in alcuni paesi o pesantemente regolamentati in altri. Se un ATM richiede una procedura di verifica dell'identità, è quindi esposto agli stessi rischi di quelli inerenti alle piattaforme KYC regolamentate. Tuttavia, se l'ATM consente transazioni senza verifica dell'identità per piccole somme, allora il suo utilizzo può offrire un livello di privacy paragonabile a quello di uno scambio P2P in contanti, evitando la maggior parte dei rischi associati a questo tipo di scambio.
 Il principale svantaggio degli ATM risiede nelle loro spesso alte commissioni di cambio, che variano da qualche percento a volte fino al 15% dell'importo scambiato.
 
 ### Carte Regalo
@@ -1134,7 +1131,7 @@ BIP47 non migliora direttamente la privacy dell'utente, poiché un pagamento BIP
 Inizialmente, BIP47 era una proposta formulata per essere integrata in Bitcoin Core, ma non è mai stata adottata. Alcuni software hanno comunque scelto di implementarla a livello applicativo. Così, i team di Samourai Wallet hanno sviluppato la loro implementazione di BIP47 denominata "PayNym".
 
 ### Principio Generale di BIP47 e PayNym
-BIP47 mira a consentire la ricezione di numerosi pagamenti senza risultare in un riutilizzo dell'indirizzo. Si basa sull'uso di un codice di pagamento riutilizzabile, che consente a diversi mittenti di inviare più pagamenti a un singolo codice posseduto da un altro utente. Così, il destinatario non deve fornire un nuovo indirizzo inutilizzato per ogni transazione, facilitando notevolmente i loro scambi pur preservando la loro privacy.
+BIP47 mira a consentire la ricezione di numerosi pagamenti senza riutilizzare indirizzi. Si basa sull'uso di un codice di pagamento riutilizzabile, che consente a diversi mittenti di inviare più pagamenti a un singolo codice posseduto da un altro utente. Così, il destinatario non deve fornire un nuovo indirizzo inutilizzato per ogni transazione, facilitando notevolmente i loro scambi pur preservando la loro privacy.
 
 Un utente può quindi condividere liberamente il proprio codice di pagamento, sia sui social media sia sul proprio sito web, senza rischiare una perdita di privacy, a differenza di quanto accadrebbe con un indirizzo di ricezione tradizionale o una chiave pubblica.
 
@@ -1177,18 +1174,18 @@ Il codice di pagamento di 80 byte si suddivide come segue:
 - **Byte `0`: La versione**. Per la prima versione del BIP47, questo byte è impostato su `0x01`;
 - **Byte `1`: Il campo di bit**. Questo spazio è riservato per integrare indicazioni aggiuntive durante usi specifici. Per l'uso standard con PayNym, questo byte è definito come `0x00`;
 - **Byte `2`: La parità di `y`**. Questo byte è `0x02` o `0x03`, indicando se l'ordinata della chiave pubblica è pari o dispari, poiché viene utilizzata una chiave pubblica compressa;
-- **Dal byte `3` al byte `34`: Il valore di `x`**. Questi byte rappresentano l'ascissa della chiave pubblica. La concatenazione di `x` e la parità di `y` forma la chiave pubblica compressa completa.
-- **Dal byte `35` al byte `66`: Il codice catena**. Questo spazio contiene il codice catena associato alla chiave pubblica;
+- **Dal byte `3` al byte `34`: Il valore di `x`**. Questi byte rappresentano l'ascissa della chiave pubblica. La conblockchainzione di `x` e la parità di `y` forma la chiave pubblica compressa completa.
+- **Dal byte `35` al byte `66`: Il codice blockchain**. Questo spazio contiene il codice blockchain associato alla chiave pubblica;
 - **Dal byte `67` al byte `79`: Il riempimento**. Quest'area è destinata a possibili sviluppi futuri. Per la versione attuale, vengono semplicemente posizionati degli zeri qui per raggiungere la dimensione richiesta di 80 byte per un output `OP_RETURN`.
 
 Ecco la rappresentazione esadecimale del mio codice di pagamento riutilizzabile già presentato nella sezione precedente:
 ```plaintext
-Durante il processo di creazione del codice di pagamento, utilizziamo una chiave pubblica compressa così come un codice catena. Entrambi sono derivati da una derivazione deterministica e gerarchica dal seme del portafoglio. Il percorso di derivazione utilizzato per ottenere ciò è:
+Durante il processo di creazione del codice di pagamento, utilizziamo una chiave pubblica compressa così come un codice blockchain. Entrambi sono derivati da una derivazione deterministica e gerarchica dal seme del portafoglio. Il percorso di derivazione utilizzato per ottenere ciò è:
 ```plaintext
 m/47'/0'/0'/
 ```
 
-Specificamente, per generare la chiave pubblica compressa e il codice catena associato al codice di pagamento riutilizzabile, iniziamo calcolando la chiave privata principale dal seme del portafoglio. Procediamo poi a derivare una coppia di chiavi figlie utilizzando l'indice `47 + 2^31` (derivazione rinforzata). Questo passaggio è seguito da due ulteriori derivazioni successive di coppie di chiavi figlie, ciascuna utilizzando l'indice `2^31` (derivazione rinforzata).
+Specificamente, per generare la chiave pubblica compressa e il codice blockchain associato al codice di pagamento riutilizzabile, iniziamo calcolando la chiave privata principale dal seme del portafoglio. Procediamo poi a derivare una coppia di chiavi figlie utilizzando l'indice `47 + 2^31` (derivazione rinforzata). Questo passaggio è seguito da due ulteriori derivazioni successive di coppie di chiavi figlie, ciascuna utilizzando l'indice `2^31` (derivazione rinforzata).
 
 ### Lo Scambio di Chiavi Elliptic-Curve Diffie-Hellman (ECDH)
 Il protocollo crittografico al centro di BIP47 è indicato con l'acronimo ECDH, per *Elliptic-Curve Diffie-Hellman*. Questo metodo è una variante dell'originale scambio di chiavi Diffie-Hellman.
@@ -1365,7 +1362,7 @@ Il codice di pagamento in sé non rappresenta un rischio diretto per la privacy.
 
 Infatti, il codice di pagamento non viene utilizzato per derivare direttamente gli indirizzi che ricevono pagamenti BIP47. Questi indirizzi sono invece generati attraverso l'applicazione di ECDH tra le chiavi derivate dai codici di pagamento delle due parti coinvolte.
 
-Quindi, un codice di pagamento in sé non porta direttamente a una perdita di privacy poiché solo l'indirizzo di notifica è derivato da esso. Sebbene questo indirizzo possa rivelare alcune informazioni, normalmente non consente di scoprire le parti con cui si sta effettuando la transazione, a meno che non si effettui un'analisi approfondita della catena. Infatti, se il mittente utilizza UTXO che possono essere collegati alla loro identità per eseguire la transazione di notifica, allora diventa possibile dedurre che la loro identità è probabilmente collegata ai pagamenti BIP47 al tuo codice di pagamento. Questo non rivelerà le transazioni sottostanti, ma indicherà la loro probabile esistenza.
+Quindi, un codice di pagamento in sé non porta direttamente a una perdita di privacy poiché solo l'indirizzo di notifica è derivato da esso. Sebbene questo indirizzo possa rivelare alcune informazioni, normalmente non consente di scoprire le parti con cui si sta effettuando la transazione, a meno che non si effettui un'analisi approfondita della blockchain. Infatti, se il mittente utilizza UTXO che possono essere collegati alla loro identità per eseguire la transazione di notifica, allora diventa possibile dedurre che la loro identità è probabilmente collegata ai pagamenti BIP47 al tuo codice di pagamento. Questo non rivelerà le transazioni sottostanti, ma indicherà la loro probabile esistenza.
 
 Pertanto, è essenziale mantenere questa stretta separazione tra i codici di pagamento degli utenti. Verso questo obiettivo, il passo iniziale di comunicazione del codice è un momento critico per la privacy dei pagamenti, eppure obbligatorio per il corretto funzionamento del protocollo. Se uno dei codici di pagamento può essere ottenuto pubblicamente (come su un sito web), il secondo codice, quello del mittente, non deve in nessun caso essere collegato al primo.
 
@@ -1373,7 +1370,7 @@ Prendiamo un esempio concreto: desidero fare una donazione a un movimento politi
 - L'organizzazione ha reso pubblico il suo codice di pagamento sul suo sito web o tramite i suoi social network;
 - Questo codice è quindi collegato al movimento politico;
 - Recupero questo codice di pagamento;
-- Prima di procedere con un invio, devo assicurarmi che siano a conoscenza del mio proprio codice di pagamento, che è anche collegato alla mia identità poiché lo uso per ricevere transazioni sui miei social network.
+- Prima di procedere con un invio, devo assicurarmi che siano a conoscenza del mio codice di pagamento, che è anche collegato alla mia identità poiché lo uso per ricevere transazioni sui miei social network.
 Come posso trasmettere il mio codice senza rischi? L'utilizzo di mezzi di comunicazione convenzionali potrebbe portare a una perdita di informazioni e, di conseguenza, associarmi a questo movimento politico. La transazione di notifica offre una soluzione attraverso uno strato di crittografia che impedisce precisamente questa associazione tra due codici. Sebbene non sia l'unico metodo per trasmettere segretamente il codice di pagamento del mittente, si dimostra molto efficace.
 Nel diagramma qui sotto, le linee arancioni indicano i punti in cui il flusso di informazioni deve essere interrotto e le frecce nere mostrano le connessioni che potrebbero essere osservate da terze parti:
 
@@ -1421,16 +1418,16 @@ f = HMAC-SHA512(o, x)
 f = f1 || f2
 ```
 
-- Alice calcola l'`x'` criptato dell'ascissa della chiave pubblica `x` del suo codice di pagamento, e il `c'` criptato del suo codice catena `c` separatamente. `f1` e `f2` agiscono rispettivamente come chiavi di crittografia. L'operazione utilizzata è il `XOR` (o esclusivo).
+- Alice calcola l'`x'` criptato dell'ascissa della chiave pubblica `x` del suo codice di pagamento, e il `c'` criptato del suo codice blockchain `c` separatamente. `f1` e `f2` agiscono rispettivamente come chiavi di crittografia. L'operazione utilizzata è il `XOR` (o esclusivo).
 
 ```plaintext
 x' = x XOR f1
 c' = c XOR f2
 ```
-- Alice sostituisce i valori reali della coordinata x della chiave pubblica `x` e del codice catena `c` nel suo codice di pagamento con i valori criptati `x'` e `c'`.
+- Alice sostituisce i valori reali della coordinata x della chiave pubblica `x` e del codice blockchain `c` nel suo codice di pagamento con i valori criptati `x'` e `c'`.
 4. Alice ora ha il suo codice di pagamento con un payload criptato. Costruirà e trasmetterà una transazione che coinvolge la sua chiave pubblica `A` come input, un output all'indirizzo di notifica di Bob, e un output `OP_RETURN` consistente nel suo codice di pagamento con il payload criptato. **Questa transazione è la transazione di notifica**.
 
-Un `OP_RETURN` è un opcode che segna un output di una transazione Bitcoin come non valido. Oggi, è utilizzato per trasmettere o ancorare informazioni sulla blockchain di Bitcoin. Fino a 80 byte di dati possono essere memorizzati, che sono scritti sulla catena e quindi visibili a tutti gli altri utenti.
+Un `OP_RETURN` è un opcode che segna un output di una transazione Bitcoin come non valido. Oggi, è utilizzato per trasmettere o ancorare informazioni sulla blockchain di Bitcoin. Fino a 80 byte di dati possono essere memorizzati, che sono scritti sulla blockchain e quindi visibili a tutti gli altri utenti.
 
 Come abbiamo visto nelle sezioni precedenti, ECDH è utilizzato per generare un segreto condiviso tra due utenti che comunicano su una rete non sicura, potenzialmente osservata da attaccanti. In BIP47, ECDH è utilizzato per abilitare la comunicazione sulla rete Bitcoin, che per sua natura è una rete di comunicazione trasparente osservata da molti attaccanti. Il segreto condiviso calcolato attraverso lo scambio di chiavi ECDH è poi utilizzato per criptare le informazioni segrete da trasmettere: il codice di pagamento del mittente (di Alice).
 

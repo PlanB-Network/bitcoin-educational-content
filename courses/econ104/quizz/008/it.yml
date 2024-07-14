@@ -1,0 +1,12 @@
+domanda: Come vengono creati e introdotti in circolazione i nuovi bitcoin?
+risposta: Attraverso il mining come ricompensa per l'aggiunta di nuove transazioni alla blockchain
+risposte_errate:
+  - Attraverso l'emissione da parte di un'autorità centralizzata
+  - Acquistandoli da scambi di Bitcoin
+  - Ricevendoli come commissioni per le transazioni
+spiegazione: |
+  I nuovi bitcoin vengono introdotti in circolazione attraverso un processo chiamato mining. 
+  I minatori competono tra loro per aggiungere nuove transazioni alla blockchain. 
+  In cambio del loro lavoro, ai minatori vengono ricompensati con bitcoin appena creati. 
+  Questo processo verifica e assicura anche le transazioni sulla rete Bitcoin.
+revisionato: true

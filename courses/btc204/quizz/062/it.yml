@@ -1,0 +1,13 @@
+domanda: Tra queste opzioni, quale non è un metodo per la selezione automatica dei componenti?
+
+risposta: Pagamenti Silenziosi
+
+risposte_errate:
+  - Branch-and-Bound
+  - FIFO
+  - Risolutore dello Zaino
+
+spiegazione: |
+  A differenza delle altre tre opzioni, Pagamenti Silenziosi non è un metodo per la selezione dei componenti, ma un protocollo per l'utilizzo di indirizzi statici.
+
+revisionato: false

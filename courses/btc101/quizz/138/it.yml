@@ -1,0 +1,8 @@
+domanda: Qual è la funzione principale dei nodi nella rete Bitcoin?
+risposta: Mantenere una copia della blockchain di Bitcoin, validare le transazioni, trasmettere informazioni ad altri nodi e far rispettare le regole del protocollo Bitcoin.
+risposte_errate:
+  - Solo validare le transazioni
+  - Solo mantenere una copia della blockchain di Bitcoin
+  - Solo trasmettere informazioni ad altri nodi
+spiegazione: I nodi nella rete Bitcoin svolgono diverse funzioni cruciali, inclusi il mantenimento di una copia della blockchain di Bitcoin, la validazione delle transazioni, la trasmissione di informazioni ad altri nodi e l'applicazione delle regole del protocollo Bitcoin.
+recensito: false

@@ -1,0 +1,10 @@
+question: Comment les stablecoins aident-ils à réduire les coûts associés aux transferts de fonds internationaux ?
+answer: En proposant des frais plus bas que les services traditionnels
+wrong_answers:
+  - En fournissant des services de transfert d'argent gratuits
+  - En offrant aux individus de meilleurs taux de change que les services traditionnels
+  - En numérisant les monnaies fiduciaires
+explanation: |
+  Les stablecoins, contrairement aux services traditionnels de transfert d'argent, ont des frais nettement 
+  inférieurs car ils ne nécessitent pas d'intermédiaires tels que les banques ou les services de transfert d'argent.
+reviewed: true

@@ -1,0 +1,13 @@
+question: Quel est l'impact de l'impression de plus d'argent sur le pouvoir d'achat d'une monnaie ?
+answer: Une détérioration du pouvoir d'achat de la monnaie
+wrong_answers:
+  - Une hausse du pouvoir d'achat de la monnaie
+  - Aucun impact
+  - Plus d'argent = plus grand pouvoir d'achat
+explanation: |
+  Lorsque les banques centrales décident d'imprimer de l'argent, elles ne peuvent pas simplement créer plus de valeur.
+  Pour que cet argent fraîchement imprimé ait de la valeur, elle doit provenir des détenteurs de la monnaie précédente.
+  Pensez à la masse monétaire comme à une pizza, et imaginez-la coupée en quatre parts.
+  Doubler la masse monétaire ne serait pas équivalent à doubler la quantité de pizza.
+  Au lieu de cela, cela serait équivalent à couper ces quatre parts en deux pour en créer huit. Nous n'avons pas obtenu de pizza supplémentaire. Nous avons juste plus de parts, chacune plus petite en taille. Par conséquent, lorsque nous imprimons plus d'argent, nous dévaluons l'argent qui est déjà en existence.
+reviewed: true

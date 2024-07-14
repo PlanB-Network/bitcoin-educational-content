@@ -1,0 +1,10 @@
+question: Qu'est-ce que le b-money de Wei Dai ?
+answer: Une idée de monnaie numérique anonyme où la détection de fraude était effectuée par une communauté d'évaluateurs plutôt que par une autorité centrale.
+wrong_answers:
+  - Une monnaie numérique qui était largement utilisée avant Bitcoin.
+  - Une forme de monnaie numérique qui a été créée par la CIA.
+  - Une monnaie numérique qui a été créée par Wei Dai comme un concurrent de Bitcoin.
+explanation: |
+  Le b-money de Wei Dai était l'idée d'une monnaie numérique anonyme sans entité centrale,
+  qui a grandement inspiré Bitcoin, comme il est cité dans le livre blanc de Bitcoin.
+reviewed: true

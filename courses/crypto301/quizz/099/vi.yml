@@ -1,0 +1,10 @@
+câu hỏi: Các tiền tố được sử dụng phổ biến nhất cho các khóa mở rộng là gì?
+câu trả lời: xpub và zpub
+câu trả lời sai:
+  - xprv và zprv
+  - ypub và zpub
+  - xpub và ypub
+giải thích: |
+  Các tiền tố được sử dụng phổ biến nhất là xpub và zpub, tương ứng với
+
+  chuẩn legacy và segwit v1 cũng như segwit v0.

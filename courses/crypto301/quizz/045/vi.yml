@@ -1,0 +1,12 @@
+câu hỏi: Mục đích của thuật toán ECDSA trong bối cảnh giao dịch Bitcoin là gì?
+câu trả lời: Để xác thực chữ ký số.
+câu trả lời sai:
+  - Để mã hóa dữ liệu giao dịch.
+  - Để tạo địa chỉ Bitcoin.
+  - Để khai thác Bitcoin mới.
+giải thích: |
+  Thuật toán ECDSA (Elliptic Curve Digital Signature Algorithm) được sử dụng trong
+  bối cảnh giao dịch Bitcoin để xác thực chữ ký số. Điều này cho phép
+  người nhận của một giao dịch xác nhận tính xác thực của thông điệp đã ký mà không
+  cần khóa riêng tư của người gửi.
+đã xem xét: false

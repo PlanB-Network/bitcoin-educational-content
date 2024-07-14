@@ -1,0 +1,9 @@
+câu hỏi: Tại sao SHA0, SHA1 và MD5 lại được coi là các hàm băm lỗi thời?
+câu trả lời: Chúng đã mất khả năng chống va chạm.
+câu trả lời sai:
+  - Chúng tính toán quá chậm.
+  - Chúng tạo ra các dấu vân tay quá lớn.
+  - Chúng không phải là không thể đảo ngược.
+giải thích: |
+  SHA0, SHA1 và MD5 được coi là các hàm băm lỗi thời vì chúng đã mất khả năng chống va chạm. Điều này có nghĩa là tương đối dễ dàng để tìm thấy hai đầu vào khác nhau mà tạo ra cùng một đầu ra, đây là một lỗi an ninh lớn.
+đã xem xét: false

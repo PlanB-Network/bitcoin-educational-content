@@ -1,0 +1,11 @@
+câu hỏi: Điều gì xảy ra trong việc đóng kênh hợp tác?
+câu trả lời: Các giao dịch thanh toán bị gián đoạn và HTLCs được giải quyết, điều này thường ít tốn kém hơn.
+câu trả lời sai:
+  - Tất cả các giao dịch HTLC đang diễn ra được công bố, có thể trở nên rất tốn kém và rối rắm.
+  - Kênh được đóng ngay lập tức mà không cần bất kỳ bước bổ sung nào.
+  - Tất cả các giao dịch HTLC đang diễn ra được hủy bỏ.
+giải thích: |
+  Trong việc đóng kênh hợp tác, các giao dịch thanh toán bị gián đoạn và HTLCs được giải quyết.
+  Điều này thường ít tốn kém hơn so với việc đóng cưỡng chế, nơi tất cả các giao dịch HTLC đang diễn ra
+  được công bố.
+đã xem xét: false

@@ -1,0 +1,10 @@
+câu hỏi: Thuật toán nào được Bitcoin sử dụng để liên kết khóa riêng và khóa công khai?
+câu trả lời: Elliptic Curve Digital Signature Algorithm (ECDSA)
+câu trả lời sai:
+  - Advanced Encryption Standard (AES)
+  - Rivest-Shamir-Adleman (RSA)
+  - Secure Hash Algorithm 2 (SHA-2)
+giải thích: |
+  Bitcoin sử dụng Elliptic Curve Digital Signature Algorithm (ECDSA)
+  để liên kết khóa riêng và khóa công khai.
+đã xem xét: false

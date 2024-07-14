@@ -1,0 +1,11 @@
+câu hỏi: Mục đích của khóa mở rộng trong ví HD là gì?
+câu trả lời: Chúng được sử dụng để tạo ra các khóa con.
+câu trả lời sai:
+  - Chúng được sử dụng để tạo ra khóa chính.
+  - Chúng được sử dụng để mã hóa ví.
+  - Chúng được sử dụng để xác minh các giao dịch.
+giải thích: |
+  Khóa mở rộng được sử dụng để tạo ra các khóa con và yêu cầu cả khóa cha
+
+  và mã chuỗi tương ứng.'
+đã xem xét: false

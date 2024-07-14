@@ -1,0 +1,8 @@
+câu hỏi: Depth 0 tương ứng với gì trong cấu trúc ví HD?
+câu trả lời: khóa chính và mã chuỗi chính
+câu trả lời sai:
+  - Các khóa con và mã chuỗi con
+  - Chuỗi ngoại và chuỗi nội
+  - Các địa chỉ nhận trong một ví tiêu chuẩn
+giải thích: |
+  Trong cấu trúc ví HD, Depth 0 tương ứng với khóa chính và mã chuỗi chính.

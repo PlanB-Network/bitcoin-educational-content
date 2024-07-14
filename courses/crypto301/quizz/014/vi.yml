@@ -1,0 +1,10 @@
+câu hỏi: Có bao nhiêu vòng tính toán được thực hiện trong hàm nén của SHA256?
+câu trả lời: 64
+câu trả lời sai:
+  - 32
+  - 128
+  - 256
+giải thích: |
+  Trong hàm nén của SHA256, 64 vòng tính toán được thực hiện.
+  Giống như trong một cuộc đua xe đạp, mỗi vòng đua cải thiện vị trí của hàm.
+đã xem xét: false

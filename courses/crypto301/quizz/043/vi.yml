@@ -1,0 +1,11 @@
+câu hỏi: Thứ tự của đường cong secp256k1 được sử dụng trong Bitcoin là gì?
+câu trả lời: 2^256 - 432420386565659656852420866394968145599
+câu trả lời sai:
+  - 2^256
+  - 2^256 - 1
+  - 2^256 - 432420386565659656852420866394968145598
+giải thích: |
+  Thứ tự của đường cong secp256k1 được sử dụng trong Bitcoin là 2^256 -
+  432420386565659656852420866394968145599.
+  Đây là số điểm trên đường cong.
+đã xem xét: false

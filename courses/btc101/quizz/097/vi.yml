@@ -1,0 +1,9 @@
+câu hỏi: Điều gì xảy ra nếu khóa riêng của bạn bị tiết lộ cho một bên thứ ba?
+câu trả lời: Các quỹ liên quan không còn được bảo mật
+câu trả lời sai:
+  - Bên thứ ba chỉ có thể xem lịch sử giao dịch của bạn
+  - Bên thứ ba có thể thay đổi khóa riêng của bạn
+  - Bên thứ ba có thể truy cập thông tin cá nhân của bạn
+giải thích: |
+  Nếu khóa riêng của bạn bị tiết lộ cho một bên thứ ba, các quỹ liên quan không còn được bảo mật. Điều này là bởi vì khóa riêng đại diện cho quyền truy cập vào quỹ của bạn.
+đã xem xét: true

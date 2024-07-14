@@ -1,0 +1,11 @@
+câu hỏi: Vai trò của entropy trong ví Bitcoin HD là gì?
+câu trả lời: Đó là nền tảng của bất kỳ ví HD nào và cần thiết cho an ninh của nó.
+câu trả lời sai:
+  - Nó giúp trong việc xác minh các giao dịch.
+  - Nó tăng tốc độ của các giao dịch.
+  - Nó giảm kích thước của blockchain.
+giải thích: |
+  Entropy, hay sự ngẫu nhiên, là nền tảng của bất kỳ ví HD nào. Nó cần thiết
+  cho an ninh của ví vì nó đảm bảo sự không dự đoán được của các khóa riêng tư
+  được tạo ra.
+đã xem xét: false

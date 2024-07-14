@@ -1,0 +1,11 @@
+câu hỏi: Trong hóa đơn Lightning Network, '1m' trong 'lnbc1m' đại diện cho điều gì?
+câu trả lời: Nó đại diện cho số lượng tính bằng milli Bitcoin (0.0001 BTC)
+câu trả lời sai:
+  - Nó đại diện cho phiên bản của Lightning Network
+  - Nó đại diện cho phí giao dịch
+  - Nó đại diện cho chiều cao của khối
+giải thích: |
+  Trong một hóa đơn Lightning Network, '1m' đại diện cho số lượng tính bằng milli Bitcoin
+  (0.0001 BTC). 'M' là viết tắt của milli, là tiền tố mét chỉ một yếu tố của
+  10^-3. Do đó, '1m' tương đương với 0.0001 BTC hoặc 100,000 satoshis.
+đã xem xét: false

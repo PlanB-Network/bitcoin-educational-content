@@ -1,0 +1,9 @@
+câu hỏi: Tại sao các thiết bị mã hóa vật lý, như USB key hoặc thẻ thông minh, được coi là cung cấp mức độ bảo mật tối ưu cho 2FA?
+câu trả lời: Chúng tạo ra một khóa riêng biệt duy nhất cho mỗi trang web và xác minh URL trước khi cho phép kết nối.
+câu trả lời sai:
+  - Chúng khó bị đánh cắp hơn về mặt vật lý
+  - Chúng đắt tiền hơn, vì vậy chúng phải tốt hơn
+  - Chúng là công nghệ mới hơn, vì vậy chúng phải tốt hơn
+giải thích: |
+  Các thiết bị mã hóa vật lý cung cấp mức độ bảo mật tối ưu vì chúng tạo ra một khóa riêng biệt duy nhất cho mỗi trang web và xác minh URL trước khi cho phép kết nối. Điều này làm cho việc hacker đạt được quyền truy cập trái phép trở nên khó khăn hơn nhiều.
+đã xem xét: false

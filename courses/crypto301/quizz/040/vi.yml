@@ -1,0 +1,11 @@
+câu hỏi: Ý nghĩa của việc sử dụng một nonce duy nhất trong thuật toán ECDSA là gì?
+câu trả lời: Nó giúp tránh được các cuộc tấn công về mặt bảo mật.
+câu trả lời sai:
+  - Nó tăng tốc độ của thuật toán.
+  - Nó giảm độ phức tạp tính toán.
+  - Nó là yêu cầu để thuật toán hoạt động.
+giải thích: |
+  Việc sử dụng một nonce duy nhất trong thuật toán ECDSA là rất quan trọng để duy trì
+  an ninh. Việc tái sử dụng nonce có thể dẫn đến các lỗ hổng, như được minh họa bởi vụ hack
+  PlayStation 3, đã bị xâm phạm do tái sử dụng nonce.
+đã xem xét: false

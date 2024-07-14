@@ -1,0 +1,11 @@
+câu hỏi: Keysend trong bối cảnh của Mạng Lưới Lightning là gì?
+câu trả lời: Nó cho phép người dùng gửi tiền mà không cần có yêu cầu từ người nhận
+câu trả lời sai:
+  - Đó là một loại mã hóa được sử dụng trong Mạng Lưới Lightning
+  - Đó là một phương pháp để tạo ra các địa chỉ Bitcoin mới
+  - Đó là một công cụ để theo dõi các giao dịch trên Mạng Lưới Lightning
+giải thích: |
+  Keysend trong bối cảnh của Mạng Lưới Lightning cho phép người dùng gửi
+  tiền mà không cần có yêu cầu từ người nhận. Người gửi lấy ID của người nhận,
+  tạo ra một preimage mà không cần hỏi người nhận, và bao gồm nó trong khoản thanh toán.
+đã xem xét: false

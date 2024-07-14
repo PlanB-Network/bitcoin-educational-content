@@ -1,0 +1,10 @@
+câu hỏi: Mục đích của chữ ký số trong bối cảnh giao dịch Bitcoin là gì?
+câu trả lời: Để chứng minh bạn là người giữ khóa riêng mà không tiết lộ nó.
+câu trả lời sai:
+  - Để mã hóa dữ liệu giao dịch.
+  - Để lưu trữ dữ liệu giao dịch.
+  - Để truyền dữ liệu giao dịch.
+giải thích: |
+  Trong bối cảnh giao dịch Bitcoin, chữ ký số được sử dụng để chứng minh bạn là người giữ khóa riêng mà không tiết lộ nó. Điều này được thực hiện
+  sử dụng thuật toán ECDSA.
+đã xem xét: false

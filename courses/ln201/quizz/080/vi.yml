@@ -1,0 +1,11 @@
+câu hỏi: Mục đích của việc hash preimage trong một hóa đơn của Lightning Network là gì?
+câu trả lời: Nó được sử dụng để mở khóa thanh toán
+câu trả lời sai:
+  - Nó được sử dụng để mã hóa dữ liệu hóa đơn
+  - Nó được sử dụng để xác minh danh tính của người nhận
+  - Nó được sử dụng để tính phí giao dịch
+giải thích: |
+  Hash của preimage trong một hóa đơn của Lightning Network được sử dụng để mở khóa
+  thanh toán. Người nhận thanh toán phải cung cấp preimage phù hợp
+  với hash để nhận được số tiền.
+đã xem xét: false

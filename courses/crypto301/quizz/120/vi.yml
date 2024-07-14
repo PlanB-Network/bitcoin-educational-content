@@ -1,0 +1,10 @@
+câu hỏi: Kích thước ban đầu của thông tin khóa công khai trong Bitcoin là bao nhiêu?
+câu trả lời: 512 bit
+câu trả lời sai:
+  - 256 bit
+  - 1024 bit
+  - 128 bit
+giải thích: |
+  Kích thước ban đầu của thông tin khóa công khai trong Bitcoin là 512 bit.
+  Việc sử dụng địa chỉ nhận giúp giảm kích thước này.
+đã xem xét: false

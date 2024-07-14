@@ -1,0 +1,13 @@
+câu hỏi: Tiền tố XPUB trong một khóa mở rộng chỉ ra điều gì?
+câu trả lời: Đó là một khóa công khai mở rộng.
+câu trả lời sai:
+  - Đó là một khóa riêng mở rộng.
+  - Đó là một khóa chính.
+  - Đó là một khóa con.
+giải thích: |
+  Các khóa mở rộng được xác định bởi các tiền tố cụ thể (XPRV, XPUB, YPUB,
+
+  ZPUB) chỉ ra liệu đó là một khóa riêng mở rộng hay khóa công khai mở rộng, cũng như
+
+  mục đích cụ thể của nó.'
+đã xem xét: false

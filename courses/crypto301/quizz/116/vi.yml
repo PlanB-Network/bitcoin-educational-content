@@ -1,0 +1,10 @@
+câu hỏi: Lý do chính để sử dụng địa chỉ nhận thay vì khóa công khai trong giao dịch Bitcoin là gì?
+câu trả lời: Nó giảm kích thước của thông tin khóa công khai.
+câu trả lời sai:
+  - Nó cho phép đảo ngược từ địa chỉ về khóa công khai.
+  - Nó tiết kiệm không gian trong các khối.
+  - Nó dễ nhớ hơn so với khóa công khai.
+giải thích: |
+  Lý do chính để sử dụng địa chỉ nhận thay vì khóa công khai trong giao dịch Bitcoin là để giảm kích thước của thông tin khóa công khai,
+  ban đầu là 512 bit. Điều này không phải để tiết kiệm không gian trong các khối, mà là để làm cho dữ liệu giao dịch dễ quản lý hơn.
+đã xem xét: false

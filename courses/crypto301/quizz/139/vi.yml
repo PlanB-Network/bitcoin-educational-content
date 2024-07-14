@@ -1,0 +1,10 @@
+câu hỏi: Cái gì được sử dụng để tạo ra một địa chỉ trong ví HD?
+câu trả lời: Khóa công khai nén
+câu trả lời sai:
+  - Cụm từ ghi nhớ
+  - Cụm từ bí mật
+  - Hạt giống của ví
+giải thích: |
+  Để tạo ra một địa chỉ trong ví HD, khóa công khai nén đầu tiên được
+  băm sử dụng SHA256 và RIPMD160, sau đó một mã kiểm tra được tính toán.
+đã xem xét: false

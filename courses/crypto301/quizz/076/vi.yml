@@ -1,0 +1,11 @@
+câu hỏi: Điều gì xảy ra nếu cụm mật khẩu của một ví Bitcoin được thay đổi?
+câu trả lời: Ví Bitcoin trở nên hoàn toàn khác biệt
+câu trả lời sai:
+  - Ví Bitcoin trở nên không thể truy cập
+  - Ví Bitcoin vẫn giữ nguyên như cũ
+  - Ví Bitcoin mất hết bitcoin
+giải thích: |
+  Nếu cụm mật khẩu được thay đổi, ví Bitcoin trở nên hoàn toàn khác biệt
+  vì cụm mật khẩu đóng vai trò trong việc xây dựng và tính toán tất cả các
+  khóa của ví.
+đã xem xét: false

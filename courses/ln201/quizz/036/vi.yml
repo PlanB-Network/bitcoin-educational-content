@@ -1,0 +1,10 @@
+Câu hỏi: Ai sở hữu chìa khóa thu hồi trong giao dịch cam kết của Alice?
+Câu trả lời: Chỉ có Alice.
+Câu trả lời sai:
+  - Chỉ có Bob.
+  - Cả Alice và Bob.
+  - Không có Alice cũng không có Bob.
+Giải thích: |
+  Trong giao dịch cam kết của Alice, chỉ có Alice sở hữu chìa khóa thu hồi.
+  Điều này cho phép cô ấy di chuyển các khoản tiền mà không cần phải chờ đợi hết thời gian Timelock nếu
+  Bob cố gắng gian lận.

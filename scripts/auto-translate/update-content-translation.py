@@ -182,7 +182,7 @@ def main():
             copy_from_repo_to_LLM_Translator(lang, input_list_path, destination_base_path)
 
             source_path = f"pbn-from-{lang}-to-en"
-            # run_LLM_Translator(lang, 'en', source_path)
+            run_LLM_Translator(lang, 'en', source_path)
             print('llm translator from lang to en running')
             copy_from_LLM_Translator_to_repo(lang, source_path)
 
@@ -198,7 +198,7 @@ def main():
             copy_from_repo_to_LLM_Translator('en', input_list_path, destination_base_path)
 
             source_path = f"pbn-from-en-to-{lang}"
-            # run_LLM_Translator('en', lang, source_path)
+            run_LLM_Translator('en', lang, source_path)
             print('llm runs from en to lang')
             copy_from_LLM_Translator_to_repo(lang, source_path)
             

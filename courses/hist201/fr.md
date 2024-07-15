@@ -48,13 +48,15 @@ Le projet Bitcoin est enfin l'héritier de l'éthos du mouvement des cypherpunks
 
 Toutes les dates et les heures sont données selon le fuseau horaire UTC (correspondant au méridien de Greenwich) et peuvent ainsi différer des dates américaines. Il est vraisemblable que Satoshi Nakamoto se trouvait aux États-Unis lorsqu'il travaillait sur son projet. Toutefois, Bitcoin est un projet international, auquel a notamment contribué le développeur finlandais Martti Malmi (heure d'Europe de l'Est, UTC+2 / UTC+3), et nous nous référerons donc au fuseau universel. Ainsi, nous dirons que le lancement effectif du réseau principal a eu lieu le 9 janvier à 2 heures 54 du matin, plutôt que le 8 janvier à 18 heures 54, qui correspond au fuseau horaire de la côte Est (heure du pacifique, UTC-8 / UTC-7).
 
-Le contenu est partiellement adapté du livre [*L'Élégance de Bitcoin*](https://bitcoinbook.shop/products/lelegance-de-bitcoin) (2024), écrit par l'auteur de cette formation. En plus des sources directes archivées sur Internet, nous nous basons sur un certain nombre d'ouvrages de référence. En voici les principaux :
+Le contenu est partiellement adapté du livre [*L'Élégance de Bitcoin*](https://bitcoinbook.shop/products/lelegance-de-bitcoin) (2024), écrit par l'auteur de ce cours. En plus des sources directes archivées sur Internet, nous nous basons sur un certain nombre d'ouvrages de référence. En voici les principaux :
 
 - [*The Genesis Book*](https://store.bitcoinmagazine.com/products/the-genesis-book) d'Aaron van Wirdum, publié en 2024 ;
 - [*Digital Gold*](https://www.amazon.com/Digital-Gold-Bitcoin-Millionaires-Reinvent/dp/006236250X) de Nathaniel Popper, publié en 2014 ;
 - [*The Book of Satoshi*](https://www.bookofsatoshi.com/) de Phil Champagne, publié en 2014 ;
 - [*Digital Cash*](https://press.princeton.edu/books/hardcover/9780691179490/digital-cash) de Finn Brunton, publié en 2019 ;
 - [*This Machine Kills Secrets*](https://penguinrandomhouselibrary.com/book/?isbn=9780142180495) d'Andy Greenberg, publié en 2012.
+
+La plupart des citations proviennent de l'anglais américain et ont été traduites pour l'occasion.
 
 # Aux origines de Bitcoin
 

@@ -1197,6 +1197,8 @@ Le réseau n'a cependant pas échappé à un incident majeur, le *value overflow
 
 Durant les mois qui ont suivi, les améliorations techniques, économiques et minières ont continué à fleurir, transformant peu à peu Bitcoin en projet collectif. C'est ce que nous étudierons dans le prochain chapitre.
 
+# La communauté de Bitcoin
+
 ## L'automne du succès (sept. 2010 -- déc. 2010)
 
 Dans les précédents chapitres, nous avons étudié l'effet qu'a eu la publication de la présentation de Bitcoin sur Slashdot (*slashdotting*) et la façon dont les premiers ennuis techniques ont été gérés par Satoshi et par ses auxiliaires. À la fin de l'été, le projet avait tenu le choc et était prêt à accueillir un nombre croissant de personnes. L'automne 2010 a ainsi été une période de succès pour Bitcoin.
@@ -1325,9 +1327,9 @@ Logo de la coopération de Slush en septembre 2011 (source : [archive](https://
 
 ### Le retour de Hal Finney (nov. 2010 -- déc. 2010)
 
-Après s'être éloigné de Bitcoin en avril 2009, Hal Finney a rapidement appris qu'il était atteint de la maladie de Charcot, [diagnostic](https://www.lesswrong.com/posts/bshZiaLefDejvPKuS/dying-outside) qui tombe en août 2009. Il adapte sa manière de vivre en conséquence, mais sa motricité se réduit progressivement.
+Après s'être éloigné de Bitcoin en avril 2009, Hal Finney a rapidement appris qu'il était atteint de la maladie de Charcot, le [diagnostic](https://www.lesswrong.com/posts/bshZiaLefDejvPKuS/dying-outside) ayant été fait en août 2009. Il adapte sa manière de vivre en conséquence, mais sa motricité se réduit progressivement.
 
-Le 30 novembre, il s'inscrit sur le forum et commence à participer aux discussions, notamment celle concernant le projet BitDNS. Il n'hésite pas à faire des petits dons aux divers projets qui fleurissent dans l'écosystème.
+Le 30 novembre, il s'inscrit sur le forum de Bitcoin et commence à participer aux discussions, notamment celle concernant le projet BitDNS. Il n'hésite pas à faire des petits dons aux divers projets qui fleurissent dans l'écosystème.
 
 De plus, il étudie le code à nouveau et s'aperçoit de tout le travail qui a été fait depuis le lancement. Cet élément le pousse à [écrire](https://bitcointalk.org/index.php?topic=2188.msg29223#msg29223) le commentaire suivant sur le forum le 11 décembre :
 
@@ -1349,9 +1351,13 @@ Au cours de l'automne 2010, l'écosystème autour de Bitcoin a évolué de mani�
 
 À la fin de l'année 2010, il semblait donc que Bitcoin était prêt à voler de ses propres ailes. Et c'est précisément ce moment-là que Satoshi a choisi pour disparaître et laisser les rênes du projet à la communauté.
 
-# La communauté de Bitcoin
-
 ## La disparition de Satoshi (déc. 2010 -- avr. 2011)
+
+### Communauté et contestation
+
+Dictateur bienveillant à vie (*benevolent dictator for life*). Stabilité d'un projet dans le monde du logiciel libre.
+
+https://bitcoinmagazine.com/technical/what-happened-when-bitcoin-creator-satoshi-nakamoto-disappeared.
 
 ### L'affaire WikiLeaks (oct. 2010 -- déc. 2010)
 

@@ -1,0 +1,40 @@
+## Conference's Characteristic
+
+# Complete name of the Conference 
+# with year to avoid duplication
+name: Adopting Bitcoin 2021
+
+# Year-Month 
+# Define when was the conference
+# format: YYYY-MM
+year: 2021-11
+
+# Associate to a builder
+# Should correspond to exactly the complete name of a builder 
+# cf. /builder folder
+# (will be soon changed to an associated uuid)
+builder: Galoy
+
+# Conference Location
+# format: Town, Country
+location: San Salvador, El Salvador
+
+# Community Language
+# Define the language spoken during the conference
+# format: use code langugage (see https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2)
+language: 
+  - en
+  - es 
+
+# links
+# list releated online presence like twitter and/or website
+links:
+  website: https://adoptingbitcoin.org
+  twitter: https://twitter.com/AdoptingBTC
+  
+# tags
+# List the associated tags to the author
+# The list of tags is composed of 21 items that can be found here (list not yet available) 
+tags: 
+  - Bitcoiner
+  - lightning network

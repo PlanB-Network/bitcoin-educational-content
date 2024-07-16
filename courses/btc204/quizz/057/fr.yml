@@ -1,0 +1,13 @@
+question: Quelle est la principale menace liée à la réutilisation d'adresse ?
+
+answer: Elle permet d'établir des liens déterministes entre différentes transactions et une propriété commune des UTXOs concernés.
+
+wrong_answers:
+  - Elle expose l'adresse IP de l'utilisateur à d'autres participants du réseau lors de la validation des transactions.
+  - Elle réduit l'efficacité des mécanismes de signature numérique, ce qui affaiblit la sécurité des transactions.
+  - Elle entraîne une augmentation des frais de transaction en raison de la congestion causée par la réutilisation d'adresses.
+
+explanation: |
+  Si une même adresse est utilisée pour plusieurs transactions, il devient possible de déduire que tous les bitcoins associés à cette adresse appartiennent à une même personne.
+
+reviewed: false

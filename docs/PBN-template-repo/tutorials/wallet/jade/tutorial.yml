@@ -1,0 +1,13 @@
+builder: Blockstream
+
+level: intermediary
+
+category: hardware
+
+tags:
+  - self-custodial
+  - Open-source
+
+credits:
+  professor: rebuild-kiss
+  link: https://armantheparman.com/jade/

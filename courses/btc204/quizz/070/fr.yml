@@ -1,0 +1,13 @@
+question: Quels risques sont associés à l'utilisation d'un nœud tiers ?
+
+answer: Censure et observation des activités.
+
+wrong_answers:
+  - Perte des bitcoins.
+  - Augmentation des frais transaction.
+  - Vol des bitcoins et traçage.
+
+explanation: |
+  Si vous utilisez un nœud qui ne vous appartient pas, vous prenez le risque de vous faire bloquer la diffusion de vos transactions et de vous faire observer par l'opérateur.
+
+reviewed: false

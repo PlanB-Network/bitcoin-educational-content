@@ -1,0 +1,13 @@
+question: Qu'est-ce que la poussière (dust) dans le contexte des UTXOs ?
+
+answer: Des UTXOs dont la valeur est trop faible pour couvrir les frais nécessaires pour les dépenser.
+
+wrong_answers:
+  - Des UTXOs générés par des erreurs de transaction et qui ne peuvent être confirmés sur la blockchain.
+  - Des UTXOs qui sont marqués comme suspects ou liés à des activités illicites sur le réseau.
+  - Des UTXOs qui sont stockés dans des adresses non utilisées depuis longtemps et considérés comme perdus.
+
+explanation: |
+  La poussière désigne les UTXOs dont la valeur en sats est si faible qu'elle ne suffit pas à couvrir les frais de transaction nécessaires pour les dépenser.
+
+reviewed: false

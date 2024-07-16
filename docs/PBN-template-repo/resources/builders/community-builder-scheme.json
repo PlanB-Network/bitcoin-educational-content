@@ -1,0 +1,79 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "community-builder-characteristics",
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string",
+      "description": "Complete name of the community builder."
+    },
+    "category": {
+      "type": "string",
+      "enum": ["communities"],
+      "description": "The builder category can only be 'communities'."
+    },
+    "address": {
+      "type": "object",
+      "properties": {
+        "address_line_1": {
+          "type": "string",
+          "description": "Line 1 of the address, more precise, name of the place."
+        },
+        "address_line_2": {
+          "type": "string",
+          "description": "Line 2 of the address, street name."
+        },
+        "address_line_3": {
+          "type": "string",
+          "description": "Line 3 of the address, city and country."
+        }
+      },
+      "required": ["address_line_1", "address_line_2", "address_line_3"],
+      "additionalProperties": false
+    },
+    "language": {
+      "type": "array",
+      "description": "Defines the spoken languages of the community, using ISO 639-1 language codes.",
+      "items": {
+        "type": "string"
+      },
+      "minItems": 1
+    },
+    "links": {
+      "type": "object",
+      "properties": {
+        "website": {
+          "type": "string",
+          "description": "URL of the builder's main website."
+        },
+        "twitter": {
+          "type": "string",
+          "description": "URL of the builder's Twitter profile."
+        },
+        "github": {
+          "type": "string",
+          "format": "uri",
+          "description": "URL of the builder's GitHub profile."
+        },
+        "youtube": {
+          "type": "string",
+          "format": "uri",
+          "description": "URL of the builder's YouTube channel."
+        }
+      },
+      "required": ["website"],
+      "additionalProperties": false
+    },
+    "tags": {
+      "type": "array",
+      "description": "List of associated tags to the builder. Specific list of tags to be defined.",
+      "items": {
+        "type": "string"
+      },
+      "minItems": 1
+    }
+  },
+  "required": ["name", "category", "address", "language", "links", "tags"],
+  "additionalProperties": false
+}
+

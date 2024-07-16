@@ -1,0 +1,68 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "course",
+  "type": "object",
+  "properties": {
+    "level": {
+      "type": "string",
+      "description": "Level of the course",
+      "enum": ["beginner", "intermediate", "expert", "wizard"]
+    },
+    "hours": {
+      "type": "integer",
+      "description": "Number of hours required to complete the course",
+      "minimum": 1
+    },
+    "professors": {
+      "type": "array",
+      "description": "List of professors involved in the course, defined by their UUID",
+      "items": {
+        "type": "string"
+      },
+      "minItems": 1
+    },
+    "contributors": {
+      "type": "array",
+      "description": "List of contributors to the course, defined by their UUID",
+      "items": {
+        "type": "string"
+      },
+      "minItems": 1
+    },
+    "topic": {
+      "type": "string",
+      "description": "Main topic of the course",
+      "enum": ["Bitcoin", "Business", "Mining", "Protocol", "Security", "Sociology", "Sovereignty"]
+    },
+    "subtopic": {
+      "type": "string",
+      "description": "Subtopic of the course, depending on the main topic",
+      "oneOf": [
+        {
+          "enum": ["Bitcoin"]
+        },
+        {
+          "enum": ["Business", "Accounting", "Data Analysis", "Entrepreneurship", "Finance", "Point of Sales"]
+        },
+        {
+          "enum": ["Mining", "Energy"]
+        },
+        {
+          "enum": ["Protocol", "Client Side Validation", "Script", "SideChain", "Lightning", "Network"]
+        },
+        {
+          "enum": ["Security", "Cryptography"]
+        },
+        {
+          "enum": ["Sociology", "Economy", "History", "Philosophy"]
+        },
+        {
+          "enum": ["Sovereignty", "Do It Yourself", "Open-Source"]
+        }
+      ]
+    }
+  },
+  "required": ["level", "hours", "professors", "contributors", "topic", "subtopic"],
+  "additionalProperties": false
+}
+

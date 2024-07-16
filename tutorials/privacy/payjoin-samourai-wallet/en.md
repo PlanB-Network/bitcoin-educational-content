@@ -4,7 +4,7 @@ description: How to perform a Payjoin transaction on Samourai Wallet?
 ---
 ![samourai payjoin cover](assets/cover.webp)
 
-***WARNING:** Following the arrest of the founders of Samourai Wallet and the seizure of their servers on April 24th, Payjoins Stowaway now only function by manually exchanging PSBTs between the concerned parties, provided both users are connected to their own Dojo. However, it is possible that these tools might be relaunched in the coming weeks. In the meantime, you can still consult this article to understand the theoretical operation of Stowaway.*
+***ATTENTION:** Following the arrest of the founders of Samourai Wallet and the seizure of their servers on April 24th, Payjoins Stowaway on Samourai Wallet only function by manually exchanging PSBT between the concerned parties, provided that both users are connected to their own Dojo. As for Sparrow, Payjoins via BIP78 still work. However, it is possible that these tools will be relaunched in the coming weeks. In the meantime, you can still read this article to understand the theoretical functioning of Stowaway.*
 
 _If you plan to perform a Stowaway manually, the procedure is very similar to that described in this tutorial. The main difference lies in the choice of the type of Stowaway transaction: instead of selecting `Online`, click on `In Person / Manual`. Then, you will need to manually exchange the PSBTs to construct the Stowaway transaction. If you are physically close to your collaborator, you can scan the QR codes successively. If you are at a distance, JSON files can be exchanged via a secure communication channel. The rest of the tutorial remains unchanged._
 

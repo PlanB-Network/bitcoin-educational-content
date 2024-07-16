@@ -4,7 +4,7 @@ description: Kuinka suorittaa Payjoin-maksutapahtuma Samourai Walletissa?
 ---
 ![samourai payjoin cover](assets/cover.webp)
 
-***VAROITUS:** Samourai Walletin perustajien pidätyksen ja heidän palvelimiensa takavarikoinnin jälkeen 24. huhtikuuta, Payjoins Stowaway toimii nyt vain manuaalisesti vaihtamalla PSBT-tiedostoja asianomaisten osapuolten kesken, edellyttäen, että molemmat käyttäjät ovat yhteydessä omaan Dojoonsa. On kuitenkin mahdollista, että nämä työkalut saatetaan käynnistää uudelleen tulevina viikkoina. Sillä välin voit silti tutustua tähän artikkeliin ymmärtääksesi Stowawayn teoreettisen toiminnan.*
+***HUOMIO:** Samourai Walletin perustajien pidätyksen ja heidän palvelimiensa takavarikoinnin jälkeen 24. huhtikuuta, Payjoins Stowaway Samourai Walletissa toimii vain, kun PSBT:t vaihdetaan manuaalisesti asianomaisten osapuolten välillä, edellyttäen, että molemmat käyttäjät ovat yhteydessä omaan Dojoonsa. Sparrowin osalta Payjoins BIP78:n kautta toimivat edelleen. On kuitenkin mahdollista, että nämä työkalut käynnistetään uudelleen tulevien viikkojen aikana. Sillä välin voit lukea tämän artikkelin ymmärtääksesi Stowawayn teoreettisen toiminnan.*
 
 _Jos aiot suorittaa Stowawayn manuaalisesti, menettely on hyvin samankaltainen kuin tässä oppaassa kuvattu. Pääero on Stowaway-maksutapahtuman tyypin valinnassa: sen sijaan, että valitsisit `Online`, klikkaa `In Person / Manual`. Sen jälkeen sinun tulee manuaalisesti vaihtaa PSBT-tiedostot Stowaway-maksutapahtuman rakentamiseksi. Jos olet fyysisesti lähellä yhteistyökumppaniasi, voit skannata QR-koodeja peräkkäin. Jos olet etäällä, JSON-tiedostoja voidaan vaihtaa turvallisen viestintäkanavan kautta. Loput oppaasta pysyvät muuttumattomina._
 

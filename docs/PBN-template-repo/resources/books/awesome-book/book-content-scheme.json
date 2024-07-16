@@ -1,0 +1,38 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "book-content-characteristics",
+  "type": "object",
+  "properties": {
+    "title": {
+      "type": "string",
+      "description": "The complete title of the book."
+    },
+    "publication_year": {
+      "type": "integer",
+      "description": "The year when the book was published."
+    },
+    "cover": {
+      "type": "string",
+      "description": "The corresponding cover file for the translated cover."
+    },
+    "original": {
+      "type": "boolean",
+      "description": "Indicates if the language used in this file is the original language of the book."
+    },
+    "description": {
+      "type": "string",
+      "description": "A description of the book."
+    },
+    "contributors": {
+      "type": "array",
+      "description": "List of contributors who helped format, review, or translate the book, identified by their UUID.",
+      "items": {
+        "type": "string"
+      },
+      "minItems": 1
+    }
+  },
+  "required": ["title", "publication_year", "cover", "original", "description", "contributors"],
+  "additionalProperties": false
+}
+

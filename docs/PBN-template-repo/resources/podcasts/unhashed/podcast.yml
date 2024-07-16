@@ -1,0 +1,14 @@
+name: The Unhashed Podcast
+host: Ruben Somsen - Mario Gibnet - Bryan Aulds 
+language: en
+links:
+  podcast: https://podcasts.apple.com/us/podcast/the-unhashed-podcast/id1439833799?mt=2
+  website: https://www.unhashedpodcast.com/
+description: | 
+  Hello and welcome to the Unhashed Podcast, the show where we bring Bitcoin down to earth and cut through all the blockchain bullshit. We love Bitcoin, but don't treat it like a holy cow. We joke around about the latest news, but also explain complex technical topics. Joins us, to laugh and learn!
+
+tags:
+  - bitcoin
+  - technology
+contributors:
+  - rabbit-hole

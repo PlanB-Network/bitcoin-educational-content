@@ -1,0 +1,14 @@
+builder: RoboSats
+
+level: intermediate
+
+tags:
+  - open-source
+  - peer-to-peer
+  - bitcoin-only
+
+category: peer-to-peer
+
+credits:
+  professor: cover-brother
+  link: https://bitcoiner.guide/robosats/

@@ -91,7 +91,7 @@ Ora che il ramo di lavoro è stato creato, è il momento di integrare il tuo nuo
 	- Deve essere creato un file in formato markdown per scrivere il contenuto effettivo del tuo tutorial. Questo file deve essere intitolato secondo il codice della lingua della scrittura. Ad esempio, per un tutorial scritto in francese, il file dovrebbe essere chiamato `fr.md`.
 ![tutorial](assets/14.webp)
 - Per riassumere, ecco la gerarchia dei file da creare:
-```css
+```plaintext
 sovereign-university-data/
 └── tutorials/
     └── wallet/ (da modificare con la categoria giusta)

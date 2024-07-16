@@ -1,0 +1,13 @@
+question: Quel est le rôle de la transaction de notification dans le BIP47 ?
+
+answer: Transmettre le code de paiement au destinataire et signaler que des paiements vont venir.
+
+wrong_answers:
+  - Valider l'adresse de réception Bitcoin pour les futures transactions via les codes de paiement.
+  - Confirmer la réception des bitcoins par le destinataire avec le BIP47.
+  - Envoyer les clés privées éphémères de l'expéditeur au destinataire pour qu'il puisse dépenser les bitcoins.
+
+explanation: |
+  La transaction de notification permet de transmettre le code de paiement de l'envoyeur au destinataire, afin que ce dernier soit en capacité de le connaitre et de le retrouver plus tard uniquement à partir de sa seed en cas de récupération du portefeuille. Comme son nom l'indique, elle joue aussi un rôle de notification.
+
+reviewed: false

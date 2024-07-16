@@ -1,0 +1,10 @@
+builder: Bisq
+
+level: advanced
+
+category: peer-to-peer
+
+tags:
+  - peer-to-peer
+  - open-source
+  - bitcoin-only

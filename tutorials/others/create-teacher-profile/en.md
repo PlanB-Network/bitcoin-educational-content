@@ -105,7 +105,7 @@ Let's discover together how to add a new professor in this tutorial!
 
 - Your professor folder should thus look like this:
 ![tutorial](assets/23.webp)
-```bash
+```plaintext
 first-name-last-name/
 ├── fr.yml
 ├── it.yml

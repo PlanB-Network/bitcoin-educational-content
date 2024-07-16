@@ -1,0 +1,14 @@
+builder: payjoin
+
+category: bitcoin
+
+tags:
+  - privacy
+  - education
+  - payjoin
+  - P2EP
+
+level: advanced
+
+credits:
+  professor: pretty-private

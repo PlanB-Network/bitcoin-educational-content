@@ -104,14 +104,14 @@ Digita il comando `echo`, seguito dalla tua entropia generata in precedenza, ass
 ![mnemonic](assets/notext/17.webp)
 
 Aggiungi uno spazio aggiuntivo, poi inserisci il seguente comando, utilizzando un *pipe* (`|`):
-```bash
+```plaintext
 | shasum -a 256 -0
 ```
 
 ![mnemonic](assets/notext/18.webp)
 
 Nell'esempio con la mia entropia, il comando completo è il seguente:
-```bash
+```plaintext
 echo 11010111000110111011000011000010011000100111000001000000001001011011001010111111001010011111110001010100000101110010010011011010 | shasum -a 256 -0
 ```
 
@@ -128,7 +128,7 @@ Dopo aver attentamente controllato che la tua sequenza binaria non contenga erro
 ![mnemonic](assets/notext/19.webp)
 
 Per ora, l'hash è espresso in formato esadecimale (base 16). Ad esempio, il mio è:
-```bash
+```plaintext
 a27abf1aff70311917a59a43ce86fa45a62723a00dd2f9d3d059aeac9b4b13d8
 ```
 
@@ -176,14 +176,14 @@ Per convertire ogni linea binaria in un numero decimale, useremo un metodo che f
 - 11° bit: `1`.
 
 Per ogni linea, sommeremo i valori corrispondenti alle cifre `1` per ottenere il numero decimale equivalente del numero binario. Prendiamo l'esempio di una linea binaria uguale a:
-```bash
+```plaintext
 1010 1101 101
 ```
 
 La conversione sarebbe la seguente:
 ![mnemonic](assets/notext/21.webp)
 Il risultato sarebbe quindi:
-```bash
+```plaintext
 1389
 ```
 
@@ -201,7 +201,7 @@ Dopo questo aggiustamento, hai il rango di ogni parola all'interno della lista. 
 [**-> Stampa la lista BIP39 in formato A4.**](https://github.com/DecouvreBitcoin/sovereign-university-data/tree/dev/tutorials/others/generate-mnemonic-phrase/assets/BIP39-WORDLIST.pdf)
 
 Per esempio, se il numero derivato dalla prima linea è 1721, la parola corrispondente sarà la 1721esima sulla lista:
-```bash
+```plaintext
 1721. strike
 ```
 ![mnemonic](assets/notext/25.webp)

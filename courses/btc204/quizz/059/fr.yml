@@ -1,0 +1,13 @@
+question: À environ quel niveau se trouve le taux global de réutilisations d'adresses sur Bitcoin ?
+
+answer: Environ 50 %
+
+wrong_answers:
+  - Environ 5 %
+  - Environ 15 %
+  - Environ 40 %
+
+explanation: |
+  Depuis le début des années 2010, le taux global de réutilisations d'adresses sur Bitcoin fluctue autour de 50 %.
+
+reviewed: false

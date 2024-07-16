@@ -199,7 +199,7 @@ Dopo aver effettuato queste copie di sicurezza, sarai indirizzato all'interfacci
 Ti viene offerto di ottenere il tuo PayNym Bot. Puoi richiederlo se lo desideri, anche se non è essenziale per il nostro tutorial.
 
 Prima di procedere a ricevere bitcoin su questo nuovo portafoglio, è fortemente consigliato ricontrollare la validità delle copie di sicurezza del tuo portafoglio (la passphrase e la frase di recupero). Per verificare la passphrase, puoi selezionare l'icona del tuo PayNym Bot situata in alto a sinistra dello schermo, poi seguire il percorso:
-```bash
+```plaintext
 Impostazioni > Risoluzione problemi > Test passphrase/backup
 ```
 
@@ -208,7 +208,7 @@ Inserisci la tua passphrase per eseguire la verifica.
 Samourai confermerà se è valida.
 
 Per verificare il tuo backup della frase di recupero, accedi all'icona del tuo PayNym Bot, situata in alto a sinistra dello schermo, e segui questo percorso:
-```bash
+```plaintext
 Impostazioni > Portafoglio > Mostra frase di recupero da 12 parole
 ```
 

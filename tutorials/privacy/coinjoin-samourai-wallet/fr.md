@@ -229,7 +229,7 @@ Il vous est proposé d'obtenir votre PayNym Bot. Vous pouvez le demander si vous
 ![samourai](assets/notext/15.webp)
 
 Avant de procéder à la réception de bitcoins sur ce nouveau portefeuille, il est fortement recommandé de vérifier de nouveau la validité des sauvegardes de votre portefeuille (la passphrase et la phrase de récupération). Pour vérifier la passphrase, vous pouvez sélectionner l'icône de votre PayNym Bot située en haut à gauche de l'écran, puis en suivre le chemin :
-```bash
+```plaintext
 Paramètres > Dépannage > Passphrase/test sauvegarde 
 ```
 
@@ -242,7 +242,7 @@ Samourai vous confirmera si celle-ci est valide.
 ![samourai](assets/notext/17.webp)
 
 Pour vérifier votre sauvegarde de la phrase de récupération, accédez à l'icône de votre PayNym Bot, située en haut à gauche de l'écran, et suivez ce chemin :
-```bash
+```plaintext
 Paramètres > Portefeuille > Afficher la phrase de récupération de 12 mots
 ```
 

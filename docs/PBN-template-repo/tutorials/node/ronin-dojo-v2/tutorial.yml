@@ -1,0 +1,15 @@
+builder: Ronin Dojo v2
+
+tags:
+  - node
+  - Raspberry Pi
+  - privacy
+  - whirlpool
+  - Coinjoin
+
+category: bitcoin
+
+level: advanced
+
+credits:
+  professor: pretty-private

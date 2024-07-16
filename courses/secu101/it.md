@@ -40,8 +40,8 @@ Questa formazione è uno sforzo congiunto di tre dei nostri professori:
 - Théo Pantamis, dottore in matematica applicata
 - Rogzy, CEO di DécouvreBitcoin
 
-La tua igiene digitale è cruciale in un mondo sempre più digitale. Nonostante un costante aumento dei casi di hacking e sorveglianza di massa, non è mai troppo tardi per fare il primo passo e proteggerti.
-Dans questa formazione, non cerchiamo di renderti un esperto, anonimo o inattaccabile, ciò è impossibile. Invece, ti offriamo alcune soluzioni semplici e accessibili per tutti per iniziare a trasformare le tue abitudini online e riprendere il controllo della tua sovranità digitale.
+La tua igiene digitale è cruciale in un mondo sempre più digitale. Nonostante il costante aumento di casi di hacking e sorveglianza di massa, non è mai troppo tardi per fare il primo passo e proteggerti.
+Con questo percorso di formazione, non cerchiamo di renderti un esperto, anonimo o inattaccabile, ciò è impossibile. Invece, ti offriamo alcune soluzioni semplici e accessibili per tutti per iniziare a trasformare le tue abitudini online e riprendere il controllo della tua sovranità digitale.
 Se stai cercando competenze più avanzate sull'argomento, le nostre risorse, tutorial o altri corsi sulla sicurezza informatica sono qui per te. Nel frattempo, ecco una breve panoramica del nostro programma per le prossime ore insieme.
 
 ### Sezione 1: Tutto ciò che devi sapere sulla navigazione online
@@ -72,7 +72,7 @@ Prima di tutto, vedremo come proteggere la tua casella di posta, essenziale per 
 
 ### Sezione Bonus: Intervista con Pantamis e Renaud
 
-En bonus, vi proponiamo un'intervista esclusiva con Pantamis e Renaud, i nostri esperti di sicurezza informatica. Condivideranno le loro conoscenze approfondite e consigli aggiuntivi per rafforzare la vostra igiene digitale. L'idea è imparare di più da questi professionisti esperti.
+Come bonus, vi proponiamo un'intervista esclusiva con Pantamis e Renaud, i nostri esperti di sicurezza informatica. Condivideranno le loro conoscenze approfondite e consigli aggiuntivi per rafforzare la vostra igiene digitale. L'idea è imparare di più da questi professionisti esperti.
 
 Questo programma di formazione è offerto gratuitamente con una licenza redistribuibile CC BY SA. Desideriamo esprimere la nostra gratitudine ai nostri Patreons e al nostro team di ripresa per il loro indispensabile supporto nella realizzazione di questa formazione. Ringraziamo anche tutti i nostri donatori e sostenitori che ci permettono di continuare a produrre contenuti educativi gratuiti a livello mondiale.
 
@@ -86,7 +86,7 @@ Durante la navigazione su internet, è importante evitare alcuni errori comuni p
 
 ### Attenzione ai download di software:
 
-Si consiglia di scaricare software dal sito ufficiale dell'editore anziché da siti generici.
+Si consiglia di scaricare software dal sito ufficiale anziché da siti generici.
 Esempio: Utilizzare www.signal.org/download e non www.logicieltelechargement.fr/signal.
 ![](assets/notext/4.webp)
 
@@ -104,7 +104,7 @@ I cookie sono file creati dai siti web per memorizzare informazioni sul vostro d
 ### Browser web: scelta, sicurezza
 
 Esistono due grandi famiglie di browser: quelli basati su Chrome e quelli basati su Firefox.
-Anche se entrambe le famiglie offrono un livello di sicurezza simile, si consiglia di evitare il browser Chrome di Google a causa dei suoi tracker. Possono essere preferite alternative più leggere di Chrome, come Chromium o Brave. Brave è particolarmente consigliato per il suo bloccatore di pubblicità integrato. Potrebbe essere necessario utilizzare più browser per accedere a determinati siti.
+Anche se entrambe le famiglie offrono un livello di sicurezza simile, si consiglia di evitare il browser Chrome di Google a causa dei suoi tracker. Possono essere preferite alternative più leggere di Chrome, come Chromium o Brave. Brave è particolarmente consigliato per la sua capacità di bloccare le pubblicità. Potrebbe essere necessario utilizzare più browser per accedere a determinati siti.
 ![](assets/notext/6.webp)
 ### La navigazione privata, TOR e altre alternative per una navigazione più sicura e anonima
 
@@ -125,7 +125,7 @@ TOR è legale ed è utilizzato da giornalisti, attivisti per la libertà e altre
 
 La protezione della propria connessione Internet è un aspetto cruciale della sicurezza online e l'utilizzo di reti private virtuali (VPN) è un metodo efficace per migliorare questa sicurezza, sia per le aziende che per gli utenti individuali.
 
-I VPN sono strumenti che crittografano i dati trasmessi su Internet, rendendo così la connessione più sicura. In un contesto professionale, i VPN consentono ai dipendenti di accedere in modo sicuro alla rete interna dell'azienda da remoto. I dati scambiati sono crittografati, rendendo molto più difficile l'intercettazione da parte di terzi. Oltre a garantire l'accesso a una rete interna, l'uso di un VPN può consentire a un utente di far passare la propria connessione Internet attraverso la rete interna dell'azienda, dando l'impressione che la connessione provenga dall'azienda stessa. Ciò può essere particolarmente utile per accedere a servizi online che sono geograficamente limitati.
+Le VPN sono strumenti che crittografano i dati trasmessi su Internet, rendendo così la connessione più sicura. In un contesto professionale, le VPN consentono ai dipendenti di accedere in modo sicuro alla rete interna dell'azienda da remoto. I dati scambiati sono crittografati, rendendo molto più difficile l'intercettazione da parte di terzi. Oltre a garantire l'accesso a una rete interna, l'uso di una VPN può consentire a un utente di far passare la propria connessione Internet attraverso la rete interna dell'azienda, dando l'impressione che la connessione provenga dall'azienda stessa. Ciò può essere particolarmente utile per accedere a servizi online che sono geograficamente limitati.
 ![](assets/it/8.webp)
 
 ### Tipi di VPN
@@ -142,9 +142,9 @@ In materia di sicurezza online, è essenziale comprendere che la connessione 4G 
 
 Nell'Unione europea, la protezione dei dati è regolamentata dal Regolamento generale sulla protezione dei dati (GDPR). È quindi più sicuro utilizzare fornitori europei di punti di accesso Wi-Fi, come la SNCF, che non rivendono i dati di connessione degli utenti. Tuttavia, il semplice fatto che un sito mostri un lucchetto non garantisce la sua autenticità. È importante verificare la chiave pubblica del sito utilizzando un sistema di certificati per confermarne l'autenticità. Sebbene la crittografia dei dati impedisca a terzi di intercettare i dati scambiati, è comunque possibile per un individuo malintenzionato fingersi il sito e trasferire i dati in chiaro.
 
-Per evitare truffe online, è fondamentale verificare l'identità del sito su cui stai navigando, controllando in particolare l'estensione e il nome di dominio. Inoltre, fai attenzione agli truffatori che utilizzano lettere simili negli URL per ingannare gli utenti.
+Per evitare truffe online, è fondamentale verificare l'identità del sito su cui stai navigando, controllando in particolare l'estensione e il nome di dominio. Inoltre, fai attenzione ai truffatori che utilizzano lettere simili negli URL per ingannare gli utenti.
 ![](assets/it/10.webp)
-In sintesi, l'utilizzo di una VPN può migliorare notevolmente la sicurezza online, sia per le aziende che per gli utenti individuali. Inoltre, l'adozione di buone abitudini di navigazione può contribuire a una migliore igiene digitale. Nel prossimo segmento di questo corso, affronteremo la sicurezza del computer, inclusi gli aggiornamenti, l'antivirus e la gestione delle password.
+In sintesi, l'utilizzo di una VPN può migliorare notevolmente la sicurezza online, sia per le aziende che per gli utenti individuali. Inoltre, l'adozione di buone abitudini di navigazione può contribuire a una migliore igiene digitale. Nella prossima sezione di questo corso, affronteremo la sicurezza del computer, inclusi gli aggiornamenti, l'antivirus e la gestione delle password.
 
 ### Tutorial: IVPN
 
@@ -179,7 +179,7 @@ Su Windows 10, gli aggiornamenti sono quasi continui ed è cruciale non bloccarl
 
 La regola si applica praticamente a tutti i software. Infatti, gli aggiornamenti non hanno lo scopo di rendere obsoleta o lenta la tua macchina, ma di proteggerla dalle nuove minacce. Alcuni aggiornamenti sono considerati importanti e senza di essi il tuo computer corre seri rischi di essere sfruttato.
 
-Per darti un esempio concreto di errore: un software crackato che non può essere aggiornato rappresenta una doppia minaccia potenziale. L'arrivo del virus durante il suo download illegale da un sito sospetto e un utilizzo non sicuro di fronte alle nuove forme di attacco.
+Per darti un esempio concreto di errore: un software crackato che non può essere aggiornato rappresenta una doppia minaccia potenziale. Infatti, non avrai mai la certezza che il software stesso sia esente da virus, ne la possibilità di aggiornarlo per tutelarti da future vulnerabilità. 
 
 ### Antivirus
 
@@ -193,7 +193,7 @@ Nota: Linux e Mac, grazie al loro sistema di separazione dei diritti degli utent
 
 Infine, ecco alcune buone pratiche per la sicurezza del tuo computer e dei tuoi dati. È importante scegliere un antivirus efficace e piacevole da utilizzare. È anche cruciale adottare buone pratiche sul proprio computer, come non inserire chiavi USB sconosciute o trovate in luoghi sospetti. Queste chiavi USB potrebbero contenere programmi dannosi che si avviano automaticamente una volta inserite. Il controllo della chiave USB non servirà a nulla una volta che sarà stata inserita. Alcune aziende sono state vittime di hacking a causa di chiavi USB lasciate in modo negligente in zone accessibili, come un parcheggio.
 
-Tratta il tuo computer come faresti con la tua casa: rimani vigile, effettua regolarmente gli aggiornamenti, elimina i file inutili e utilizza una password sicura per la sicurezza. È cruciale crittografare i dati su laptop e smartphone per prevenire furti o perdite di dati. BitLocker per Windows, LUKS per Linux e l'opzione integrata per Mac sono soluzioni per la crittografia dei dati. È consigliabile attivare senza esitazione la crittografia dei dati e annotare la password su un foglio da conservare in un luogo sicuro.
+Tratta il tuo computer come faresti con la tua casa: rimani vigile, effettua regolarmente gli aggiornamenti, elimina i file inutili e utilizza una password sicura per la sicurezza. È cruciale crittografare i dati su laptop e smartphone per prevenire furti o perdite di dati. BitLocker per Windows, LUKS per Linux e FileVault per Mac sono soluzioni per la crittografia dei dati. È consigliabile attivare senza esitazione la crittografia dei dati e annotare la password su un foglio da conservare in un luogo sicuro. Sì!, meglio un foglio (meglio una doppia copia) piuttosto che un file digitale. 
 
 In conclusione, è fondamentale optare per un sistema operativo adatto alle proprie esigenze e tenerlo aggiornato regolarmente, così come le applicazioni installate. È anche essenziale utilizzare un antivirus efficace e piacevole da utilizzare e adottare buone pratiche per la sicurezza del tuo computer e dei tuoi dati.
 
@@ -266,7 +266,7 @@ Nella scelta di un provider di posta e nella creazione di una password, è essen
 
 ### Dovrei cambiare casella di posta?
 
-Si consiglia di utilizzare il sito Have I Been Pwned (Sei stato violato) - https://haveibeenpwned.com/ - per verificare se il nostro indirizzo email è stato compromesso e per essere avvisati di future violazioni dei dati. Un database violato potrebbe essere sfruttato da hacker per inviare email di phishing o riutilizzare password compromesse.
+Si consiglia di utilizzare il sito Have I Been Pwned (Sono stato violato) - https://haveibeenpwned.com/ - per verificare se il tuo indirizzo email è stato compromesso e per essere avvisati di future violazioni dei dati. Un database violato potrebbe essere sfruttato da hacker per inviare email di phishing o riutilizzare password compromesse.
 ![](assets/notext/16.webp)
 
 In generale, iniziare a utilizzare un nuovo indirizzo email più sicuro non è una pratica sbagliata e addirittura necessaria se si desidera ripartire da basi sane.
@@ -293,20 +293,20 @@ Con un gestore di password, non è più necessario preoccuparsi di dimenticare l
 ![](assets/notext/17.webp)
 ### Auto-hosting per un maggiore controllo:
 
-- Bitwarden: È uno strumento open source, il che significa che è possibile esaminare il suo codice per verificare la sua sicurezza. Sebbene Bitwarden offra un servizio di hosting, consente anche agli utenti di auto-hosting, il che significa che è possibile controllare dove vengono memorizzate le vostre password, offrendo potenzialmente maggiore sicurezza e controllo.
+- Bitwarden: È uno strumento open source, il che significa che è possibile esaminare il suo codice per verificare la sua sicurezza. Sebbene Bitwarden offra un servizio di hosting, consente anche agli utenti di selh-hostare la propria istanza, il che significa che è possibile controllare dove vengono memorizzate le vostre password, offrendo potenzialmente maggiore sicurezza e controllo.
 
-- KeePass: È una soluzione open source che è principalmente destinata all'auto-hosting. I vostri dati sono memorizzati localmente per impostazione predefinita, ma è possibile sincronizzare il database delle password utilizzando diversi metodi se lo si desidera. KeePass è ampiamente riconosciuto per la sua sicurezza e flessibilità, anche se potrebbe essere un po' meno user-friendly per i principianti.
+- KeePass: È una soluzione open source che è principalmente destinata al self-hosting. I vostri dati sono memorizzati localmente per impostazione predefinita, ma è possibile sincronizzare il database delle password utilizzando diversi metodi se lo si desidera. KeePass è ampiamente riconosciuto per la sua sicurezza e flessibilità, anche se potrebbe essere un po' meno user-friendly per i principianti.
 ![](assets/notext/18.webp)
-(Nota: La scelta tra un servizio di terze parti o un servizio di auto-hosting dipende dal vostro livello di comfort tecnologico e da come priorizzate il controllo rispetto alla comodità. I servizi di terze parti sono generalmente più convenienti per la maggior parte delle persone, mentre l'auto-hosting richiede una maggiore conoscenza tecnica ma può offrire maggiore controllo e tranquillità in termini di sicurezza.)
+(Nota: La scelta tra un servizio di terze parti o un servizio di slef-hosting dipende dal vostro livello di comfort tecnologico e da come priorizzate il controllo rispetto alla comodità. I servizi di terze parti sono generalmente più convenienti per la maggior parte delle persone, mentre il self-hosting richiede una maggiore conoscenza tecnica ma può offrire maggiore controllo e tranquillità in termini di sicurezza.)
 
 ### Cosa è una buona password:
 
-Un buon password è generalmente:
+Un buona password è generalmente:
 
-- Lungo: almeno 12 caratteri.
-- Complesso: una combinazione di lettere maiuscole e minuscole, numeri e simboli.
-- Unico: non riutilizzare lo stesso password per diversi account.
-- Non basato su informazioni personali: evitare date di nascita, nomi, ecc.
+- Lunga: almeno 12 caratteri.
+- Complessa: una combinazione di lettere maiuscole e minuscole, numeri e simboli.
+- Unico: non riutilizzare la stesso password per diversi account.
+- Non basata su informazioni personali: evitare date di nascita, nomi, ecc.
 
 Per garantire la sicurezza del tuo account, è fondamentale creare password forti e sicure. La lunghezza della password non è sufficiente per garantirne la sicurezza. I caratteri devono essere completamente casuali per resistere agli attacchi di forza bruta. L'indipendenza degli eventi è anche importante per evitare le combinazioni più probabili. Password comuni come "password" sono facilmente compromesse.
 
@@ -351,7 +351,7 @@ Le diverse opzioni per l'autenticazione forte offrono livelli di sicurezza varia
 
 Per una sicurezza ottimale con l'autenticazione forte, si consiglia di utilizzare un indirizzo email sicuro, un gestore di password sicuro e di adottare il 2FA utilizzando YubiKey. È anche consigliabile acquistare due YubiKey per prevenire la perdita o il furto, ad esempio conservando una copia di backup sia a casa che con sé.
 
-La biometria può essere utilizzata come sostituto, ma è meno sicura della combinazione di conoscenza e possesso. I dati biometrici devono rimanere sull'apparecchio di autenticazione e non devono essere divulgati online. È importante considerare il modello di minaccia associato ai diversi metodi di autenticazione e adattare la propria pratica di conseguenza.
+La biometria può essere utilizzata come sostituto, ma è meno sicura della combinazione di conoscenza e possesso. I dati biometrici devono rimanere sull'apparecchio di autenticazione e non devono essere divulgati online. È importante considerare il modello di minaccia associato ai diversi metodi di autenticazione e adattare la propria scelta di conseguenza.
 
 ### Conclusioni della formazione:
 
@@ -463,7 +463,7 @@ L'autenticazione diretta sul servizio in questione rappresenta un'opzione intere
 La sicurezza informatica può essere compromessa da pratiche semplici e dall'uso di password predefinite, come "admin". Non sempre sono necessari attacchi sofisticati per mettere a rischio la sicurezza informatica. Ad esempio, le password degli amministratori di un canale YouTube erano scritte nel codice sorgente privato di un'azienda. Le vulnerabilità di sicurezza sono spesso il risultato della negligenza umana.
 
 È importante notare anche che Internet è molto centralizzato e ampiamente controllato dagli Stati Uniti. Il server DNS può essere soggetto a censura e spesso utilizza DNS falsi per bloccare l'accesso a determinati siti. Il DNS è un protocollo vecchio e insufficientemente sicuro, il che può causare problemi di sicurezza. Nuovi protocolli, come DNSsec, sono emersi ma sono ancora poco utilizzati. Per aggirare la censura e il blocco degli annunci, è possibile scegliere fornitori DNS alternativi.
-Des alternative alle pubblicità invasive includono Google DNS, OpenDNS e altri servizi indipendenti. Il protocollo DNS standard lascia le richieste DNS visibili al provider di servizi Internet. DOH (DNS over HTTPS) e DOT (DNS over TLS) consentono di crittografare la connessione DNS, offrendo maggiore privacy e sicurezza. Questi protocolli sono ampiamente utilizzati in ambito aziendale per la loro sicurezza migliorata e sono nativamente supportati da Windows, Android e iPhone. Per utilizzare DOH e DOT, è necessario inserire un nome host TLS al posto di un indirizzo IP. I provider gratuiti di DOH e DOT sono disponibili online. DOH e DOT migliorano la privacy e la sicurezza evitando attacchi di tipo "man in the middle". Altre considerazioni chiave
+Alcune alternative alle pubblicità invasive includono Google DNS, OpenDNS e altri servizi indipendenti. Il protocollo DNS standard lascia le richieste DNS visibili al provider di servizi Internet. DOH (DNS over HTTPS) e DOT (DNS over TLS) consentono di crittografare la connessione DNS, offrendo maggiore privacy e sicurezza. Questi protocolli sono ampiamente utilizzati in ambito aziendale per la migliore sicurezza e sono nativamente supportati da Windows, Android e iPhone. Per utilizzare DOH e DOT, è necessario inserire un nome host TLS al posto di un indirizzo IP. I provider gratuiti di DOH e DOT sono disponibili online. DOH e DOT migliorano la privacy e la sicurezza evitando attacchi di tipo "man in the middle". Altre considerazioni chiave
 
 Nel contesto del modulo di formazione "Sicurezza 101" di Découvre Bitcoin sull'Accademia, abbiamo anche discusso dell'autenticazione Lightning. Questo sistema genera un identificatore diverso per ogni servizio, senza la necessità di fornire un indirizzo email o informazioni personali. È possibile avere identità decentralizzate controllate dall'utente, ma manca una normalizzazione e standardizzazione nei progetti di identità decentralizzata. I gestori di pacchetti come Nuget e Chocolaté, che consentono di scaricare software open source al di fuori del Microsoft Store, sono consigliati per evitare attacchi maligni. In sintesi, il DNS è cruciale per la sicurezza online, ma è necessario rimanere vigili di fronte a potenziali attacchi ai server DNS.
 

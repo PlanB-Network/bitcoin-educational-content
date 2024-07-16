@@ -103,7 +103,7 @@ Hãy cùng khám phá cách thêm một giáo sư mới trong hướng dẫn nà
 
 - Thư mục giáo sư của bạn do đó sẽ trông như thế này:
 ![hướng dẫn](assets/23.webp)
-```bash
+```plaintext
 first-name-last-name/
 ├── fr.yml
 ├── it.yml

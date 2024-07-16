@@ -107,12 +107,12 @@ Bạn sẽ đến một cửa sổ lệnh mới trống.
 Gõ lệnh `echo`, theo sau là entropy bạn đã tạo trước đó, đảm bảo chèn một khoảng trắng giữa `echo` và chuỗi số nhị phân của bạn.
 
 Thêm một khoảng trắng nữa, sau đó nhập lệnh sau, sử dụng một *ống* (`|`):
-```bash
+```plaintext
 | shasum -a 256 -0
 ```
 
 Trong ví dụ với entropy của tôi, lệnh tổng cộng như sau:
-```bash
+```plaintext
 echo 11010111000110111011000011000010011000100111000001000000001001011011001010111111001010011111110001010100000101110010010011011010 | shasum -a 256 -0
 ```
 
@@ -127,7 +127,7 @@ Trong lệnh này:
 Sau khi kiểm tra cẩn thận rằng chuỗi nhị phân của bạn không chứa bất kỳ lỗi đánh máy nào, nhấn phím `Enter` để thực thi lệnh. Cửa sổ lệnh sau đó sẽ hiển thị băm SHA256 của entropy bạn.
 
 Bây giờ, băm được biểu diễn ở định dạng thập lục phân (cơ số 16). Ví dụ, của tôi là:
-```bash
+```plaintext
 a27abf1aff70311917a59a43ce86fa45a62723a00dd2f9d3d059aeac9b4b13d8
 ```
 
@@ -168,14 +168,14 @@ Cụm từ ghi nhớ của bạn giờ đây đã hoàn chỉnh, nhưng nó ở 
 - Bit thứ 11: `1`.
 
 Đối với mỗi dòng, chúng ta sẽ cộng dồn các giá trị tương ứng với các chữ số `1` để thu được số thập phân tương đương với số nhị phân. Hãy lấy ví dụ về một dòng nhị phân bằng:
-```bash
+```plaintext
 1010 1101 101
 ```
 
 Việc chuyển đổi sẽ như sau:
 ![mnemonic](assets/notext/21.webp)
 Kết quả sẽ là:
-```bash
+```plaintext
 1389
 ```
 
@@ -193,7 +193,7 @@ Sau khi điều chỉnh này, bạn sẽ có thứ hạng của từng từ tron
 [**-> In danh sách BIP39 ở định dạng A4.**](https://github.com/DecouvreBitcoin/sovereign-university-data/tree/dev/tutorials/others/generate-mnemonic-phrase/assets/BIP39-WORDLIST.pdf)
 
 Ví dụ, nếu số thu được từ dòng đầu tiên là 1721, từ tương ứng sẽ là từ thứ 1721 trong danh sách:
-```bash
+```plaintext
 1721. strike
 ```
 ![mnemonic](assets/notext/25.webp)

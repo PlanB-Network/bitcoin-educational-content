@@ -54,7 +54,7 @@ Khi một giao dịch trình bày một số lượng lớn các kết hợp có
 Trên thực tế, entropy tiết lộ liệu, từ góc độ của một người quan sát bên ngoài, một giao dịch có trình bày nhiều giải thích có thể dựa trên số lượng các input và output mà không cần xem xét các mô hình và quy tắc ngoại vi hoặc nội bộ khác hay không. Entropy cao sau đó đồng nghĩa với việc bảo mật tốt hơn cho giao dịch.
 
 Entropy được định nghĩa là logarit nhị phân của số lượng các kết hợp có thể. Dưới đây là công thức được sử dụng:
-```bash
+```plaintext
 E: entropy của giao dịch
 C: số lượng các kết hợp có thể cho giao dịch
 
@@ -64,19 +64,19 @@ E = log2(C)
 Trong toán học, logarit nhị phân (logarit cơ số 2) tương ứng với phép toán ngược của việc lũy thừa 2. Nói cách khác, logarit nhị phân của `x` là số mũ mà `2` phải được nâng lên để thu được `x`. Chỉ số này do đó được biểu thị bằng bit.
 
 Hãy lấy ví dụ về việc tính entropy cho một giao dịch coinjoin được cấu trúc theo mô hình Whirlpool 5x5, mà như đã đề cập trước đó, cung cấp một số lượng các kết hợp có thể là `1,496`:
-```bash
+```plaintext
 C = 1,496
 E = log2(1,496)
 E = 10.5469 bit
 ```
 Như vậy, giao dịch coinjoin này hiển thị một entropy là `10.5469 bit`, được coi là rất thỏa đáng. Giá trị này càng cao, giao dịch chấp nhận càng nhiều giải thích khác nhau, do đó tăng cường mức độ riêng tư của nó.
 Đối với một giao dịch coinjoin 8x8 trình bày `9,934,563` giải thích, entropy sẽ là:
-```bash
+```plaintext
 C = 9,934,563
 E = log2(9,934,563)
 E = 23.244 bit
 ```
-Hãy xem xét một ví dụ khác với một giao dịch truyền thống hơn, bao gồm một đầu vào và hai đầu ra: [1b1b0c3f0883a99f1161c64da19471841ed12a1f78e77fab128c69a5f578ccce](https://mempool.space/tx/1b1b0c3f0883a99f1161c64da19471841ed12a1f78e77fab128c69a5f578ccce) Trong trường hợp của giao dịch này, chỉ có một cách giải thích có thể: `(In.0) > (Out.0 ; Out.1)`. Do đó, entropy của nó được xác định là `0`:```bash
+Hãy xem xét một ví dụ khác với một giao dịch truyền thống hơn, bao gồm một đầu vào và hai đầu ra: [1b1b0c3f0883a99f1161c64da19471841ed12a1f78e77fab128c69a5f578ccce](https://mempool.space/tx/1b1b0c3f0883a99f1161c64da19471841ed12a1f78e77fab128c69a5f578ccce) Trong trường hợp của giao dịch này, chỉ có một cách giải thích có thể: `(In.0) > (Out.0 ; Out.1)`. Do đó, entropy của nó được xác định là `0`:```plaintext
 C = 1
 E = log2(1)
 E = 0 bit
@@ -88,7 +88,7 @@ Chỉ số thứ ba được cung cấp bởi Máy Tính Boltzmann được gọ
 Điều này dẫn chúng ta đến khái niệm entropy tối đa, tương ứng với entropy cao nhất mà một cấu trúc giao dịch cụ thể có thể lý thuyết đạt được. Hiệu suất của giao dịch sau đó được tính toán bằng cách so sánh entropy tối đa này với entropy thực tế của giao dịch được phân tích.
 
 Công thức sử dụng như sau:
-```bash
+```plaintext
 ER: entropy thực tế của giao dịch được biểu thị bằng bit
 EM: entropy tối đa có thể có cho một cấu trúc giao dịch nhất định được biểu thị bằng bit
 Ef: hiệu suất của giao dịch được biểu thị bằng bit
@@ -97,14 +97,14 @@ Ef = ER - EM
 ```
 
 Ví dụ, đối với cấu trúc coinjoin loại Whirlpool 5x5, entropy tối đa được thiết lập là `10.5469`:
-```bash
+```plaintext
 ER = 10.5469
 EM = 10.5469
 Ef = 10.5469 - 10.5469 = 0 bit
 ```
 
 Chỉ số này cũng được biểu thị dưới dạng phần trăm, công thức của nó sau đó là:
-```bash
+```plaintext
 CR: số lượng tổ hợp có thể thực tế
 CM: số lượng tổ hợp tối đa có thể với cùng một cấu trúc
 Ef: hiệu suất được biểu thị dưới dạng phần trăm
@@ -118,7 +118,7 @@ Một hiệu suất `100%` do đó chỉ ra rằng giao dịch tối đa hóa ti
 
 ### Mật Độ Entropy:
 Chỉ số thứ tư là mật độ entropy, được ghi chú trên công cụ là `Mật Độ Entropy`. Nó cung cấp một cái nhìn về entropy tương đối cho mỗi đầu vào hoặc đầu ra của giao dịch. Chỉ số này hữu ích để đánh giá và so sánh hiệu suất của các giao dịch có kích thước khác nhau. Để tính toán nó, chỉ cần chia tổng entropy của giao dịch cho tổng số đầu vào và đầu ra tham gia:
-```bash
+```plaintext
 ED: mật độ entropy được biểu thị bằng bit
 E: entropy của giao dịch được biểu thị bằng bit
 T: tổng số đầu vào và đầu ra trong giao dịch
@@ -127,14 +127,14 @@ ED = E / T
 ```
 
 Hãy lấy ví dụ về một coinjoin Whirlpool 5x5:
-```bash
+```plaintext
 T = 5 + 5 = 10
 E = 10.5469
 ED = 10.5469 / 10 = 1.054 bit
 ```
 
 Hãy cũng tính mật độ entropy cho một coinjoin Whirlpool 8x8:
-```bash
+```plaintext
 T = 8 + 8 = 16
 E = 23.244
 ED = 23.244 / 16 = 1.453 bit
@@ -154,7 +154,7 @@ Lấy ví dụ về một Whirlpool coinjoin một lần nữa, bảng xác su�
 
 Ở đây, chúng ta có thể thấy rõ ràng rằng mỗi đầu vào có cơ hội ngang nhau được liên kết với bất kỳ đầu ra nào, điều này tăng cường tính bảo mật của giao dịch.
 Tính điểm Boltzmann bao gồm việc chia số lượng giải thích mà một sự kiện nhất định xảy ra cho tổng số lượng giải thích có sẵn. Do đó, để xác định điểm liên kết đầu vào số 0 với đầu ra số 3 (`512` giải thích), quy trình sau được sử dụng:
-```bash
+```plaintext
 Giải thích (IN.0 > OUT.3) = 512
 Tổng số Giải thích = 1496
 Điểm = 512 / 1496 = 34%

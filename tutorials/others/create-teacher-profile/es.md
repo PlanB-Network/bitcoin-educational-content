@@ -103,7 +103,7 @@ Si previamente has contribuido a la Red PlanB, es probable que ya tengas un ID d
 
 - Tu carpeta de profesor debería lucir así:
 ![tutorial](assets/23.webp)
-```bash
+```plaintext
 first-name-last-name/
 ├── fr.yml
 ├── it.yml

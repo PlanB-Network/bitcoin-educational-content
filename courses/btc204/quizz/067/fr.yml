@@ -1,0 +1,13 @@
+question: Quelle heuristique peut être utilisée pour faire un lien entre tous les inputs d'une consolidation ?
+
+answer: La CIOH.
+
+wrong_answers:
+  - La réutilisation d'adresse.
+  - L'output le plus gros.
+  - Le paiement rond.
+
+explanation: |
+  Un observateur extérieur peut appliquer la CIOH pour émettre l'hypothèse que tous les inputs d'une consolidation appartiennent à une même entité.
+
+reviewed: false

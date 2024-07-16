@@ -1,0 +1,8 @@
+title: "Unix-ohjelmoinnin taito"
+publication_year: 2003
+cover: cover_en.webp
+original: true
+description: |
+  Unix-ohjelmoinnin taito, jonka on kirjoittanut Eric S. Raymond, on keskitason opas, joka tutkii Unix-ohjelmoinnin filosofiaa, suunnitteluperiaatteita ja käytännön näkökohtia. Se kattaa aiheita, kuten Unix-ohjelmointiympäristön, kuoriskriptauksen, järjestelmäkutsut ja prosessien välisen kommunikaation. Selkeiden selitysten ja esimerkkien avulla kirja esittelee Unixin voiman ja joustavuuden ohjelmointialustana korostaen samalla yksinkertaisuutta ja modulaarista suunnittelua. Se käsittelee myös Unixin kehityksen historiaa ja yhteistyöluonteista luonnetta. Kaiken kaikkiaan se tarjoaa arvokkaita oivalluksia kehittäjille, jotka haluavat parantaa Unix-ohjelmointitaitojaan.
+contributors:
+  - rabbit-hole

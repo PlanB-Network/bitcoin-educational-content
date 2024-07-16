@@ -1,0 +1,32 @@
+## Caractéristiques du contenu du livre
+
+# titre
+# Citez le titre complet du livre
+title: "Ceci est un titre génial"
+
+# année_de_publication
+# Indiquez l'année de publication de ce livre
+publication_year: 2009
+
+# couverture
+# Attribuez le fichier de couverture correspondant. Ceci est pour la couverture traduite
+cover: cover_fr.webp
+
+# original
+# Définissez si la langue utilisée dans ce fichier est la langue originale du livre
+original: false
+
+# description
+# Rédigez une description du livre
+description: |
+  Voici une description de ce faux livre génial. La description peut être aussi longue que vous le souhaitez.
+  Elle peut également être sur plusieurs lignes, comme je le fais en ce moment.
+  Génial, n'est-ce pas ?
+
+# contributeurs
+# Liste des contributeurs qui aident à formater, réviser,
+# traduire le cours.
+# Ils sont identifiés par leur UUID
+# Actuellement, il n'y a pas d'enregistrement partagé de ces UUIDs
+contributors:
+  - another-satoshi

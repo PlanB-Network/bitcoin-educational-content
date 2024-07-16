@@ -1,0 +1,58 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "conference-characteristics",
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string",
+      "description": "Complete name of the conference including the year to avoid duplication."
+    },
+    "year": {
+      "type": "string",
+      "pattern": "^[0-9]{4}-[0-9]{2}$",
+      "description": "The year and month when the conference was held, format: YYYY-MM."
+    },
+    "builder": {
+      "type": "string",
+      "description": "The name of the builder associated with the conference. This will be changed to a UUID in the future."
+    },
+    "location": {
+      "type": "string",
+      "description": "The location of the conference, format: Town, Country."
+    },
+    "language": {
+      "type": "array",
+      "description": "Defines the languages spoken during the conference, using ISO 639-1 language codes.",
+      "items": {
+        "type": "string"
+      },
+      "minItems": 1
+    },
+    "links": {
+      "type": "object",
+      "properties": {
+        "website": {
+          "type": "string",
+          "description": "URL of the conference's main website."
+        },
+        "twitter": {
+          "type": "string",
+          "description": "URL of the conference's Twitter profile."
+        }
+      },
+      "required": ["website"],
+      "additionalProperties": false
+    },
+    "tags": {
+      "type": "array",
+      "description": "List of associated tags with the conference. Specific list of tags to be defined.",
+      "items": {
+        "type": "string"
+      },
+      "minItems": 1
+    }
+  },
+  "required": ["name", "year", "builder", "location", "language", "links", "tags"],
+  "additionalProperties": false
+}
+

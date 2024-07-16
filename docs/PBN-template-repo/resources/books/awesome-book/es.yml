@@ -1,0 +1,32 @@
+## Características del contenido del libro
+
+# título
+# Cita el título completo del libro
+title: "Este es un título impresionante"
+
+# año_de_publicación
+# Indica el año en que se publicó este libro
+publication_year: 2009
+
+# portada
+# Asigna el archivo de portada correspondiente. Esto es para la portada traducida
+cover: cover_es.webp
+
+# original
+# Define si el idioma utilizado en este archivo es el idioma original del libro
+original: false
+
+# descripción
+# Escribe una descripción del libro
+description: |
+  Esta es una descripción de este increíble libro ficticio. La descripción puede ser tan extensa como desees.
+  También puede estar en múltiples líneas, como estoy haciendo ahora mismo.
+  ¿Impresionante, verdad?
+  
+# colaboradores
+# Lista quiénes son los colaboradores que ayudan a formatear, revisar,
+# traducir el curso.
+# Se identifican por su UUID
+# Actualmente, no hay un registro compartido de estos UUIDs
+contributors:
+  - another-satoshi

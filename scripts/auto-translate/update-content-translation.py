@@ -50,6 +50,7 @@ def create_txt_to_en_from(lang):
     base_dirs = ["../../courses", "../../resources", "../../tutorials"]
     output_file = f"./translate-to-en/{lang}.txt"
     skip_dirs = ["btc205",
+                 "econ102"
                  ]
     file_written = False
 

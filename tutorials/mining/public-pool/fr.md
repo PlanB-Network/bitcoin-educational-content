@@ -1,3 +1,8 @@
+---
+name: Public Pool
+description: Introdcution à Public Pool
+---
+
 ![signup](assets/cover.webp)
 
 **Public Pool** n’est pas une pool comme les autres, c'est ce qu'on appelle également une **Solo Pool**. Si votre mineur réussit à miner un bloc, alors vous récupérez toute la récompense de bloc, elle n'est pas partagée avec les autres participants de la pool ni avec la pool elle-même.
@@ -25,15 +30,17 @@ Si vous avez plusieurs mineurs, vous pouvez entrer la même adresse sur tous pou
 Enfin, pour le champ **password**, utilisez **‘x’**.
 
 Exemple : Si votre adresse **Bitcoin** est **‘bc1q2ed8zxq8njqsznkp7gj84n0xwl9dp224uha2fv’** et que vous souhaitez nommer votre mineur **« Brrrr »**, alors vous devrez renseigner les informations suivantes dans l’interface de votre mineur :
-* **URL** : stratum+tcp://public-pool.io:21496
-* **USER** : **‘bc1q2ed8zxq8njqsznkp7gj84n0xwl9dp224uha2fv.Brrrr’**
-* **Password** : **‘x’**
+
+- **URL** : stratum+tcp://public-pool.io:21496
+- **USER** : **‘bc1q2ed8zxq8njqsznkp7gj84n0xwl9dp224uha2fv.Brrrr’**
+- **Password** : **‘x’**
 
 Si votre mineur est un **Bitaxe**, les champs sont un peu différents, mais les informations restent les mêmes :
-* **URL** : public-pool.io (ici, il faut supprimer la partie au début **‘stratum+tcp://’** et la partie à la fin **‘:21496’** qui sera reportée dans le champ port)
-* **Port** : 21496
-* **User** : **‘bc1q2ed8zxq8njqsznkp7gj84n0xwl9dp224uha2fv.Brrrr’**
-* **Password** : **‘x’**
+
+- **URL** : public-pool.io (ici, il faut supprimer la partie au début **‘stratum+tcp://’** et la partie à la fin **‘:21496’** qui sera reportée dans le champ port)
+- **Port** : 21496
+- **User** : **‘bc1q2ed8zxq8njqsznkp7gj84n0xwl9dp224uha2fv.Brrrr’**
+- **Password** : **‘x’**
 
 ![signup](assets/3.webp)
 

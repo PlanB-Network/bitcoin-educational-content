@@ -2108,12 +2108,6 @@ Ce chapitre est en cours de rédaction, et sera publié très prochainement !
 ### L'échange pair-à-pair
 
 
-
-# Découvrir les propositions d'amélioration du protocole en lien avec la confidentialité
-<partId>a7827171-3a2f-4399-99d1-9b822b565792</partId>
-
-
-
 ## La confidentialité sur le réseau P2P
 <chapterId>04a2467b-db84-4076-a9ff-919be5135106</chapterId>
 
@@ -3240,15 +3234,6 @@ Puisque cette fonctionnalité est récente, il est conseillé de faire preuve de
 
 *Pour créer ce chapitre sur les Silent Payments, j'ai utilisé [le site d'explication des Silent Payments](https://silentpayments.xyz/) et [le document d'explication du BIP352](https://github.com/bitcoin/bips/blob/master/bip-0352.mediawiki).*
 
-## Le soft fork Taproot
-<chapterId>f6baa32e-f292-448c-a543-0635d3a7329e</chapterId>
-
-Ce Chapitre est en cours de rédaction est sera publié très prochainement !
-
-### Les bénéfices à moyen et long terme
-
-
-### Les inconvénients à court terme
 
 
 

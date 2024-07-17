@@ -2013,11 +2013,11 @@ L'utilité du coinjoin réside dans sa capacité à produire du déni plausible,
 
 Autrement dit, un analyste connaissant votre transaction initiale (`Tx0`) à l'entrée des cycles de coinjoins ne devrait pas être en mesure d'identifier avec certitude votre UTXO à la sortie des cycles de remix (analyse entrée de cycles vers sortie de cycles).
 
-01
+![BTC204](assets/fr/55/01.webp)
 
 Inversement, il faut qu'un analyste connaissant votre UTXO à la sortie des cycles de coinjoin se trouve dans l'incapacité de déterminer la transaction originelle à l'entrée des cycles (analyse sortie de cycles vers entrée de cycles).
 
-02
+![BTC204](assets/fr/55/02.webp)
 
 Pour évaluer la difficulté pour un analyste de lier le passé au présent et vice-versa, il faut quantifier la taille des groupes de pièces homogènes au sein desquels votre pièce est dissimulée. Cette mesure nous indique le nombre d'analyses possédant une probabilité identique. Ainsi, si l'analyse correcte est noyée parmi 3 autres analyses de probabilité égale, votre niveau de dissimulation est très faible. En revanche, si l'analyse correcte se trouve au sein d'un ensemble de 20 000 analyses toutes aussi probables les unes que les autres, votre pièce est très bien cachée. Et justement, la taille de ces groupes représente des indicateurs que l'on appelle les "anonsets".
 
@@ -2037,31 +2037,37 @@ L'anonset prospectif indique la taille du groupe parmi lequel se cache l'UTXO é
 
 Cet indicateur permet de mesurer la résistance de la confidentialité de la pièce face à une analyse passé vers présent (entrée vers sortie).
 
-03
+![BTC204](assets/fr/55/03.webp)
 
 Cette métrique permet d'estimer dans quelle mesure votre UTXO est protégé contre les tentatives de reconstitution de son historique depuis son point d'entrée jusqu'à son point de sortie dans le processus de coinjoin. 
 
 Par exemple, si votre transaction a participé à son premier cycle de coinjoin et que deux autres cycles descendants ont été réalisés, l'anonset prospectif de votre pièce s'élèverait à `13` :
 
-04
+![BTC204](assets/notext/55/04.webp)
 
 Par exemple, imaginons que notre pièce en entrée de cycle de coinjoin bénéficie d'un anonset prospectif de `86 871`. Concrètement, cela signifie qu'elle se dissimule parmi `86 871` pièces indiscernables. Pour un observateur externe connaissant cette pièce au début des cycles de coinjoin et tentant de retracer sa sortie, il sera confronté à `86 871` UTXOs possibles, chacun ayant une probabilité identique d'être la pièce recherchée.
 
-05
+![BTC204](assets/fr/55/05.webp)
 
 ### L'anonset rétrospectif
 
 L'anonset rétrospectif indique le nombre de sources possibles pour une pièce donnée, sachant l'UTXO en sortie de cycle. Cet indicateur permet de mesurer la résistance de la confidentialité de la pièce face à une analyse présent vers passé (sortie vers entrée), c'est-à-dire à quel point il est difficile pour un analyste de remonter à l'origine de votre pièce, avant les cycles de coinjoins. En anglais, le nom de cet indicateur est « *backward anonset* », ou « *backward-looking metrics* ».
 
-06
+![BTC204](assets/fr/55/06.webp)
 
  En connaissant votre UTXO à la sortie des cycles, l'anonset rétrospectif détermine le nombre de transactions Tx0 potentielles qui auraient pu constituer votre entrée dans les cycles de coinjoins. Sur le schéma ci-dessous, cela correspond à l'addition de toutes les bulles orange.
  
-07
+![BTC204](assets/notext/55/07.webp)
 
 Par exemple, imaginons que notre pièce en sortie de cycle de coinjoin bénéficie d'un anonset rétrospectif de `42 185`. Concrètement, cela signifie qu'il existe `42 185` sources potentielles pour cet UTXO. Si un observateur externe identifie cette pièce à la fin des cycles et cherche à en retrouver l'origine, il se trouvera face à `42 185` sources possibles, toutes avec une probabilité égale d'être l'origine recherchée.
 
-08
+![BTC204](assets/fr/55/08.webp)
+
+### Comment calculer les anonsets concrètement ?
+
+Il est possible de calculer manuellement ses anonsets avec un explorateur de blocs pour des ensembles de petite taille. Toutefois, pour des anonsets plus conséquents, l'usage d'un outil spécialisé devient impératif. À ma connaissance, le seul logiciel capable de réaliser cette tâche est *Whirlpool Stats Tool*, un outil Python développé par les équipes de Samourai et d'OXT. Malheureusement, cet outil est actuellement hors service suite à l'arrestation des fondateurs de Samourai et l'interruption d'OXT, qui était utilisé pour extraire les données de la blockchain.
+
+![BTC204](assets/notext/55/09.webp)
 
 Comme nous avons vu dans ce chapitre, les anonset ne peuvent être calculés que s'il existe une certaine homogénéité dans la structure des coinjoins. Et justement, nous allons découvrir dans le prochain chapitre comment quantifier cette homogénéité sur une transaction Bitcoin, qu'il s'agisse d'un coinjoin ou d'une transaction plus classique.
 

@@ -1263,9 +1263,7 @@ Le même jour, Ploum ouvre le [fil de discussion](https://bitcointalk.org/index.
 
 ### Un écosystème florissant (oct. 2010 -- nov. 2010)
 
-Tout d'abord, la communication au sujet de Bitcoin se met en place. Le 4 octobre, un Australien de 38 ans utilisant le pseudonyme noagendamarket, inscrit depuis le 5 juin d'après son [profil](https://web.archive.org/web/20101221210556/http://www.bitcoin.org/smf/index.php?action=profile;u=240), [lance](https://bitcointalk.org/index.php?topic=1355.msg15217#msg15217) une initiative portant le nom de BitcoinMedia. L'idée est de promouvoir Bitcoin en créant divers contenus et d'en faire la publicité à des endroits susceptibles d'attirer un public. Bien que cette initiative ne rencontre pas le succès escompté, elle a le mérite de mener à la production des premières vidéos parlant de Bitcoin. La première vidéo, [publiée](https://bitcointalk.org/index.php?topic=1355.msg15461#msg15461) le 5 octobre, est une *Google Search Story*, créée grâce à l'outil Youtube. La deuxième (publiée le 16 novembre) est une vidéo concernant Bitcoin et l'*Electronic Frontier Foundation*, créée avec Xtranormal, un outil facile de réalisation de séquences vidéo à partir d'un ensemble de personnages et de décors préconçus. (L'idée sera même [reprise](https://www.dailymotion.com/video/xglotj_bitcoin-fr_tech) par la communauté française en janvier 2011.)
-
-![Vidéo "Bitcoin and the EFF"](https://www.youtube.com/watch?v=AiGCuyRJe8s)
+Tout d'abord, la communication au sujet de Bitcoin se met en place. Le 4 octobre, un Australien de 38 ans utilisant le pseudonyme noagendamarket, inscrit depuis le 5 juin d'après son [profil](https://web.archive.org/web/20101221210556/http://www.bitcoin.org/smf/index.php?action=profile;u=240), [lance](https://bitcointalk.org/index.php?topic=1355.msg15217#msg15217) une initiative portant le nom de BitcoinMedia. L'idée est de promouvoir Bitcoin en créant divers contenus et d'en faire la publicité à des endroits susceptibles d'attirer un public. Bien que cette initiative ne rencontre pas le succès escompté, elle a le mérite de mener à la production des premières vidéos parlant de Bitcoin. La première vidéo de la chaîne, [publiée](https://bitcointalk.org/index.php?topic=1355.msg15461#msg15461) le 5 octobre, est une *Google Search Story*, créée grâce à l'outil Youtube. Les autres vidéos seront générées avec Xtranormal, un outil facile de réalisation de séquences vidéo à partir d'un ensemble de personnages et de décors préconçus.
 
 Les billets de blog à propos de Bitcoin se multiplient durant cette période. C'est notamment le cas de Jon Matonis, qui tient le blog *The Monetary Future* où il traite de sujets liés aux monnaies numériques, à la banque libre et à la cryptographie. Il a découvert Bitcoin en mars et a [échangé](https://web.archive.org/web/20140511100607/https://bitcoinfoundation.org/forum/index.php?/topic/54-my-first-message-to-satoshi/#entry514) avec Satoshi, suite à quoi il s'est mis à écrire sur le sujet. En octobre, il publie un [troisième article](https://themonetaryfuture.blogspot.com/2010/10/rally-in-bitcoin.html) où il parle de la hausse du prix et détaille les nouveautés de l'écosystème.
 
@@ -1294,6 +1292,38 @@ On commence également à mesurer les choses, que ce soit au niveau du prix, de 
 - Bitcoin Monitor ([bitcoinmonitor.com](https://web.archive.org/web/20110605105433/http://www.bitcoinmonitor.com/)), un outil de visualisation en temps réel des transactions, des blocs et des opérations de change, [mis en ligne](https://bitcointalk.org/index.php?topic=3218.msg45150#msg45150) par Jan Vornberger (jav) le 6 février 2011.
 
 Un dernier élément indiquant le succès de Bitcoin est le fait que certains se mettent à le tester. Entre le 15 et le 26 novembre, un individu s'amuse en effet à créer un flot de transactions, qui se comptent en milliers chaque jour. Cette activité exceptionnelle est [signalée](https://bitcointalk.org/index.php?topic=1850.msg22870#msg22870) le 19 par Jeff Garzik. Cela contraint alors Satoshi à mettre en place des mesures, en restaurant l'interface des frais de transaction et en ajoutant des limites sur les transactions gratuites.
+
+### L'Eletronic Frontier Foudation accepte le bitcoin (nov. 2010)
+
+Un évènement marquant est l'acceptation du bitcoin par l'*Electronic Frontier Foundation*...
+
+[10/8](https://bitcointalk.org/index.php?topic=778.msg8578#msg8578) : don collectif à l'EFF
+
+[13/8](https://bitcointalk.org/index.php?topic=804.msg9021#msg9021) : lettre à l'EFF, proposant de faire un don en bitcoins
+
+[28/8](https://bitcointalk.org/index.php?topic=804.msg11511#msg11511) : envoi de la lettre
+
+[14/9](https://bitcointalk.org/index.php?topic=804.msg12671#msg12671) : courriel de BrightAnarchist
+
+[7/10](https://bitcointalk.org/index.php?topic=804.msg15949#msg15949) : réponse positive
+
+Le 9 novembre,
+
+L'adresse apparaît sur la [page de donation](https://web.archive.org/web/20101130105838/http://www.eff.org/helpout).
+
+MM https://bitcointalk.org/index.php?topic=778.msg8596#msg8596
+
+![Logo de l'Electronic Frontier Foundation](assets/img/ch10/eff-logo-2010.webp)
+
+Un [billet de blog](https://web.archive.org/web/20101117060233/http://www.bitcoinblogger.com/2010/11/bitcoin-gains-legal-protection-through.html) est écrit à ce sujet par jimbobway. Il est retranscrit en vidéo par BitcoinMedia quelques jours plus tard, au moyen de Xtranormal.
+
+![Vidéo "Bitcoin and the EFF."](https://www.youtube.com/watch?v=AiGCuyRJe8s)
+
+Le 6 janvier, Satoshi [écrira](https://mmalmi.github.io/satoshi/#email-254) le commentaire suivant dans un courriel adressé à Gavin Andresen :
+
+> « L'EFF est très importante. &nbsp;Nous voulons entretenir de bonnes relations avec elle. &nbsp;Nous sommes le type de projet qu'ils apprécient ; ils ont aidé le projet TOR et ont fait beaucoup pour protéger le partage de fichiers en P2P. »
+>
+> original: "EFF is really important. &nbsp;We want to have a good relationship with them. &nbsp;We're the type of project they like; they've helped the TOR project and done a lot to protect P2P file sharing."
 
 ### Les premières coopératives de minage (oct. 2010 -- déc. 2010)
 
@@ -1379,7 +1409,7 @@ https://bitcoinmagazine.com/technical/what-happened-when-bitcoin-creator-satoshi
 
 ### L'affaire WikiLeaks (oct. 2010 -- déc. 2010)
 
-L'élément déclencheur du départ de Satoshi est l'affaire WikiLeaks. WikiLeaks est une organisation non gouvernementale fondée par le cypherpunk Julian Assange en 2006, ayant pour but de donner une audience aux lanceurs d'alertes et aux fuites d'information, tout en protégeant leurs sources. Au cours de l'année 2010, les documents confidentiels révélés de l'ONG sont relayés par les grands médias et font du bruit dans l'opinion publique. Ceux-ci concernent notamment les agissements excessifs de l'armée américaine, comme le nombre de victimes civiles et les actes de torture perpétrés, en Afghanistan (Afghan War Diary) et en Irak (Iraq War Logs).
+L'élément déclencheur du départ de Satoshi est l'affaire WikiLeaks. WikiLeaks est une organisation non gouvernementale fondée par le cypherpunk Julian Assange en 2006, ayant pour but de donner une audience aux lanceurs d'alertes et aux fuites d'information, tout en protégeant leurs sources. Au cours de l'année 2010, les documents confidentiels révélés de l'ONG sont relayés par les grands médias et font du bruit dans l'opinion publique. Ceux-ci concernent notamment les agissements excessifs de l'armée américaine, comme les victimes civiles et les actes de torture perpétrés, en Afghanistan (Afghan War Diary) et en Irak (Iraq War Logs).
 
 Le financement de WikiLeaks repose essentiellement sur les dons du public, de sorte que l'organisation repose sur les processeurs de paiement permettant de recevoir des paiements en ligne. Toutefois, suite à ces révélations, la pression est mise sur ces tiers qui craignent la réaction du régulateur. C'est pourquoi la société de paiement en ligne Moneybookers [gèle](https://www.theguardian.com/media/2010/oct/14/wikileaks-says-funding-is-blocked) le compte de l'ONG le 14 octobre.
 
@@ -1409,9 +1439,9 @@ Cette évolution de la situation renforce le débat. Un individu est particuliè
 >
 > *original: "Basically, bring it on.  Let's encourage Wikileaks to use Bitcoins and I'm willing to face any risk or fallout from that act."*
 
-### Le retrait progressif de Satoshi (déc. 2010)
+### Le départ précipité de Satoshi (déc. 2010)
 
-Opposition à WikiLeaks. Le 5 décembre, il [répond](https://bitcointalk.org/index.php?topic=1735.msg26999#msg26999) à Richard Horning de manière cassante :
+Satoshi n'est pas du tout de l'avis de Robert Horning et s'oppose à l'idée de promouvoir Bitcoin auprès de WikiLeaks. Comme l'attestent ses propos et ses actes, il fait preuve d'une grande prudence vis-à-vis des autorités étatiques, qui va parfois jusqu'à la [paranoïa](https://mmalmi.github.io/satoshi/#email-158). Par conséquent, le 5 décembre, il réagit à cette ébullition en [répondant](https://bitcointalk.org/index.php?topic=1735.msg26999#msg26999) de manière cassante au principal promoteur :
 
 > « Non, pas de "allons-y".
 >
@@ -1425,28 +1455,35 @@ Opposition à WikiLeaks. Le 5 décembre, il [répond](https://bitcointalk.org/in
 >
 > I make this appeal to WikiLeaks not to try to use Bitcoin. &nbsp;Bitcoin is a small beta community in its infancy. &nbsp;You would not stand to get more than pocket change, and the heat you would bring would likely destroy us at this stage."*
 
-Dans les jours qui suivent, c'est un véritable blocus financier qui s'organise contre WikiLeaks, auquel participent Mastercard et Visa, mais aussi Western Union, Bank of America et d'autres acteurs, ce qui [met en péril](https://wikileaks.org/Banking-Blockade.html) la survie financière de l'ONG. Cette offensive poussera naturellement la voie de Bitcoin.
+Dans les jours qui suivent, c'est un véritable blocus financier qui s'organise contre WikiLeaks, auquel participent Mastercard et Visa, mais aussi Western Union, Bank of America et d'autres acteurs, ce qui [met en péril](https://wikileaks.org/Banking-Blockade.html) la survie financière de l'ONG. Cette offensive rend l'acceptation du bitcoin encore plus pertinente et l'idée se répand naturellement.
 
-Le 11 décembre, un article est [publié](https://www.pcworld.com/article/499375/could_wikileaks_scandal_lead_to_new_virtual_currency.html) sur PC World pour mettre en avant la possibilité d'un usage de Bitcoin par WikiLeaks. Cet article est rapidement évoqué sur le forum et la réaction de Satoshi est sans
-appel. Il écrit :
+Le 11 décembre, un article mettant en avant la possibilité d'une utilisation de Bitcoin par WikiLeaks est [publié](https://www.pcworld.com/article/499375/could_wikileaks_scandal_lead_to_new_virtual_currency.html) sur PC World, l'un des plus grands sites web américains consacrés à l'informatique. Ce texte, écrit par le journaliste [Keir Thomas](https://www.keirthomas.com/how-i-caused-the-bitcoin-guy-to-go-into-hiding/), s'intitule « *Could the Wikileaks Scandal Lead to New Virtual Currency?* ». La boîte de Pandore est ouverte : l'article de PC World sera lu par de nombreuses personnes, dont probablement les responsables de WikiLeaks, ce qui poussera l'ONG à envisager ce moyen de paiement. L'article est rapidement évoqué sur le forum et la réaction du créateur de Bitcoin est sans appel. Ce dernier [écrit](https://bitcointalk.org/index.php?topic=2216.msg29280#msg29280) :
 
 > « Il aurait été bon d'attirer cette attention dans un tout autre contexte. &nbsp;WikiLeaks a donné un coup de pied dans le nid de frelons, et l'essaim se dirige maintenant vers nous. »
 >
 > *original: "It would have been nice to get this attention in any other context. &nbsp;WikiLeaks has kicked the hornet's nest, and the swarm is headed towards us."*
 
-Le lendemain, Satoshi [publie](https://bitcointalk.org/index.php?topic=2228.msg29479#msg29479) son dernier message public sur le forum annonçant la sortie de la version 0.3.19 du logiciel qui améliore notamment la gestion des attaques par déni de service. Puis, il se retire du feu des projecteurs, ne communiquant plus qu'en privé avec ses plus proches collaborateurs.
+Le lendemain, Satoshi [publie](https://bitcointalk.org/index.php?topic=2228.msg29479#msg29479) son dernier message public sur le forum, qui annonce la sortie de la version 0.3.19 du logiciel améliorant notamment la gestion des attaques par déni de service. Puis, il se retire du feu des projecteurs, ne communiquant plus qu'en privé avec ses plus proches collaborateurs.
 
 ### La transmission des accès et derniers courriels (déc. 2010 -- mai 2011)
 
+Dès le début du mois de décembre, Satoshi organise sa succession. S'il compte partir (ou au moins se mettre en retrait), il doit transmettre les différentes responsabilités aux personnes à qui il fait confiance, en l'occurrence Martti Malmi et Gavin Andresen. Toutefois, il ne le leur indique jamais son intention.
 
-
-Page de contact, Gavin Andresen, Martti Malmi, Mike Hearn
-
-Le 7 décembre, il [envoie](https://mmalmi.github.io/satoshi/#email-245) un courriel à Martti Malmi lui demandant s'il peut l'« ajouter à la liste de développeurs du projet sur la page de contact », chose que ce dernier accepte. Le créateur de Bitcoin fait la même demande à Gavin, qui [déclarera](https://www.huffingtonpost.co.uk/entry/gavin-andresen-bitcoin_n_3093316) quelques années plus tard :
+Tout d'abord, il tient à ajouter leurs adresses de courriel à la [page de contact](https://web.archive.org/web/20101215111454/http://www.bitcoin.org/contact) du site. Le 7 décembre, il [envoie](https://mmalmi.github.io/satoshi/#email-245) un courriel à Martti Malmi lui demandant s'il peut l'« ajouter à la liste de développeurs du projet sur la page de contact », chose que le jeune Finlandais accepte. Le créateur de Bitcoin fait la même demande à Gavin, qui accepte également. Satoshi ajoute leurs adresses à la page et retire la sienne. Gavin Andresen [déclarera](https://www.huffingtonpost.co.uk/entry/gavin-andresen-bitcoin_n_3093316) quelques années plus tard :
 
 > « \[Satoshi\] a fini par me rouler dans la farine en me demandant s'il pouvait mettre mon adresse de courrier électronique sur la page d'accueil de bitcoin, et j'ai dit oui, sans me rendre compte que, lorsqu'il mettrait mon adresse, il enlèverait la sienne. »
 >
 > *original: "And eventually, he pulled a fast one on me because he asked me if it'd be OK if he put my email address on the bitcoin homepage, and I said yes, not realizing that when he put my email address there, he'd take his away"*
+
+Mais ce n'est pas tout. Satoshi souhaite également transmettre son contrôle sur le logiciel à Gavin Andresen. Il lui donne donc accès au dépôt sur SourceForge. Gavin, plus à l'aise avec git, crée également un nouveau dépôt sur GitHub le 19 décembre.
+
+Le 19 décembre, Gavin Andresen [crée](https://api.github.com/repos/bitcoin/bitcoin) le dépôt sur GitHub, étant probablement plus à l'aise avec Git. Le même jour, il écrit un long message sur le forum expliquant qu'il va s'impliquer plus dans le développement. Il [annonce](https://bitcointalk.org/index.php?topic=2367.msg31651#msg31651) :
+
+> « Avec la bénédiction de Satoshi, et avec beaucoup de réticence, je vais commencer à gérer le projet Bitcoin de manière plus active. »
+>
+> *original: "With Satoshi's blessing, and with great reluctance, I'm going to start doing more active project management for bitcoin."*
+
+Satoshi transmet le contrôle sur le site web, le forum et le wiki à Martti Malmi, qui co-gérait la chose depuis la fin de l'année 2009.
 
 Satoshi se volatilise définitivement durant le printemps 2011.
 
@@ -1459,6 +1496,8 @@ Satoshi se volatilise définitivement durant le printemps 2011.
 > « J'aimerais que tu évites de parler de moi comme d'une personnalité sombre et mystérieuse, la presse tourne simplement ça sous l'angle d'une monnaie pirate. &nbsp;Peut-être que tu devrais plutôt parler du projet open source et donner plus de crédit aux développeurs qui contribuent : cela aide à les motiver. »
 >
 > *original: "I wish you wouldn't keep talking about me as a mysterious shadowy figure, the press just turns that into a pirate currency angle. &nbsp;Maybe instead make it about the open source project and give more credit to your dev contributors; it helps motivate them."*
+
+Il lui transmet également la clé d'alerte, permettant d'avertir le réseau en cas de problème technique.
 
 Début mai, il écrit à Martti Malmi :
 
@@ -1482,7 +1521,7 @@ La visite de Gavin dans les locaux de la CIA [se passe](https://twitter.com/gavi
 
 L'*Electronic Frontier Foundation*, 20/6 : https://www.eff.org/deeplinks/2011/06/eff-and-bitcoin
 
-
+Un article a été [publié](https://www.eff.org/deeplinks/2011/01/bitcoin-step-toward-censorship-resistant) le 20 janvier : « Bitcoin - un pas en avant vers la monnaie numérique résistante à la censure » (original: "Bitcoin - a Step Toward Censorship-Resistant Digital Currency")
 
 ### Le mystère Satoshi
 
@@ -1504,11 +1543,13 @@ L'*Electronic Frontier Foundation*, 20/6 : https://www.eff.org/deeplinks/2011/0
 
 ### Le développement communautaire
 
-Bitcoin Improvement Proposals (BIP), liste de diffusion bitcoin-dev, canal IRC, Amir Taaki et Gavin Andresen, [liste des développeurs](https://web.archive.org/web/20110623010047/http://bitcoin.sourceforge.net/?page_id=8)
+Migration du wiki de dokuwiki vers Mediawiki, grâce à Mark Karpelès : https://bitcointalk.org/index.php?topic=2321.0 https://en.bitcoin.it/wiki/Mark_Karpel%C3%A8s#Bitcoin_Wiki
+
+New wiki : https://bitcointalk.org/index.php?topic=293.msg42789#msg42789
+
+Bitcoin Improvement Proposals (BIP), liste de diffusion bitcoin-dev, canal IRC, Amir Taaki et Gavin Andresen, [liste des développeurs](https://web.archive.org/web/20110530221415/http://www.bitcoin.org:80/)
 
 gmaxwell
-
-Migration du wiki de dokuwiki vers Mediawiki, grâce à Mark Karpelès : https://en.bitcoin.it/wiki/Mark_Karpel%C3%A8s#Bitcoin_Wiki
 
 Premières vidéos sur Bitcoin : https://www.youtube.com/watch?v=Akgw7XghFFc
 

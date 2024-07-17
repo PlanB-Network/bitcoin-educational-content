@@ -1805,7 +1805,7 @@ Whirlpool se distingue des autres méthodes de coinjoin par l'utilisation de tra
 
 Cette approche restrictive sur les inputs confère aux transactions coinjoin de Whirlpool une caractéristique unique : l'absence totale de liens déterministes entre les inputs et les outputs. Autrement dit, chaque output possède une probabilité égale d'être attribué à n'importe quel participant, par rapport à tous les autres outputs de la transaction.
 
-01
+![BTC204](assets/notext/54/01.webp)
 
 ### Le fonctionnement général de Whirlpool
 
@@ -1814,18 +1814,19 @@ Initialement, le nombre de participants à chaque coinjoin Whirlpool était limi
 Ainsi, les transactions Whirlpool se caractérisent par un nombre identique d'inputs et d'outputs, pouvant être de :
 - 5 inputs et 5 outputs ;
 
-02
+![BTC204](assets/notext/54/02.webp)
 
 - 6 inputs et 6 outputs ;
 
-03
+![BTC204](assets/notext/54/03.webp)
 
 - 7 inputs et 7 outputs ;
 
-04
+![BTC204](assets/notext/54/04.webp)
 
 - 8 inputs et 8 outputs.
 
+![BTC204](assets/notext/54/05.webp)
 
 Le modèle proposé par Whirlpool est ainsi établi sur de petites transactions coinjoin. À la différence de Wabisabi et JoinMarket, où la robustesse des anonsets repose sur le volume de participants sur un cycle unique (ou sur peu de cycles), Whirlpool mise sur l'enchainement de plusieurs cycles de petite taille.
 
@@ -1833,7 +1834,7 @@ Dans ce modèle, l'utilisateur s'acquitte des frais uniquement lors de son entr�
 
 À chaque coinjoin supplémentaire auquel participe une pièce, ainsi que ses pairs rencontrés par le passé, les anonsets vont croitre exponentiellement. L'objectif est donc de profiter de ces remixages gratuits qui, à chaque occurrence, contribuent à renforcer la densité des anonsets associés à chaque pièce mixée.
 
-05
+![BTC204](assets/notext/54/06.webp)
 
 Whirlpool a été conçu en prenant en compte deux exigences importantes :
 - L'accessibilité de l'implémentation sur appareils mobiles, étant donné que Samourai Wallet est avant tout une application de smartphone ;
@@ -1879,9 +1880,7 @@ Ces frais fonctionnent essentiellement comme un billet d'entrée pour la pool ch
 
 Avant de procéder aux coinjoins Whirlpool, l'utilisateur a donc le choix entre 2 stratégies : 
 - Opter pour une pool plus petite afin de minimiser les frais de service, sachant qu'il obtiendra en retour plusieurs petits UTXOs ;
-- Ou bien privilégier une pool de plus grande taille, acceptant de régler des frais plus élevés pour finalement se retrouver avec un nombre réduit d'UTXOs de plus grande valeur. 
-
-06
+- Ou bien privilégier une pool de plus grande taille, acceptant de régler des frais plus élevés pour finalement se retrouver avec un nombre réduit d'UTXOs de plus grande valeur.
 
 Il est généralement déconseillé de fusionner plusieurs UTXOs mixés après les cycles de coinjoins, car cela pourrait compromettre la confidentialité acquise, en particulier en raison de l'heuristique de possession commune des entrées (CIOH : *Common-Input-Ownership-Heuristic*). Par conséquent, il peut être judicieux de choisir une pool plus importante, même si cela implique de payer davantage, pour éviter d'avoir trop d'UTXOs de petites valeurs en sortie. L'utilisateur doit évaluer ces compromis pour choisir la pool qu'il préfère.
 
@@ -1889,7 +1888,7 @@ Outre les frais de service, les frais de minage propres à toute transaction Bit
 
 En effet, dans chaque coinjoin Whirlpool, 2 utilisateurs parmi les inputs sont des nouveaux entrants. Les autres inputs proviennent de remixeurs. De ce fait, les frais de minage pour l'ensemble des participants de la transaction sont pris en charge par ces 2 nouveaux participants, qui pourront ensuite bénéficier, eux aussi, de remixages gratuits :
 
-07
+![BTC204](assets/fr/54/07.webp)
 
 Grâce à ce système de frais, Whirlpool se différencie réellement des autres implémentations de coinjoin puisque les anonsets des UTXOs ne sont pas proportionnels au prix payé par l'utilisateur. Ainsi, il est possible d'atteindre des niveaux d'anonymat considérablement élevés en ne s'acquittant que des frais d'entrée de la pool et des frais de minage pour 2 transactions (la `Tx0` et le mix initial).
 
@@ -1899,7 +1898,7 @@ Il est important de noter que l'utilisateur devra également prendre en charge l
 
 Pour réaliser un coinjoin via Whirlpool, le portefeuille doit générer plusieurs comptes distincts. C'est le principe du protocole ZeroLink. Un compte, dans le contexte d'un portefeuille HD (*Hierarchical Deterministic*), constitue une section entièrement isolée des autres, cette séparation intervenant au niveau de la troisième profondeur de hiérarchie du portefeuille, c'est-à-dire au niveau des `xpub`.
 
-08
+![BTC204](assets/fr/54/08.webp)
 
 Un portefeuille HD peut théoriquement dériver jusqu'à `2^(32/2)` comptes différents. Le compte initial, utilisé par défaut sur tous les portefeuilles Bitcoin, correspond à l'index `0'`.
 
@@ -1923,7 +1922,7 @@ La `Tx0` représente la première étape du processus de mixage de Whirlpool. El
 
 Cette transaction initiale `Tx0` sert aussi à régler les frais de service dus au coordinateur de coinjoin. Contrairement aux étapes suivantes, cette transaction n'est pas collaborative ; l'utilisateur doit donc assumer l'intégralité des frais de minage :
 
-09
+![BTC204](assets/fr/54/09.webp)
 
 Dans cet exemple d'une transaction `Tx0`, un input de `372 000 sats` issu de notre compte **dépôt** est divisé en plusieurs UTXOs en sortie, qui se répartissent comme suit :
 - Un montant de `5 000 sats` destiné au coordinateur pour les frais de service, correspondant à l'entrée dans la pool de `100 000 sats` ;
@@ -1933,7 +1932,7 @@ Dans cet exemple d'une transaction `Tx0`, un input de `372 000 sats` issu de not
 
 Par exemple, voici une vraie Tx0 Whirlpool (qui ne provient pas de moi) : [edef60744f539483d868caff49d4848e5cc6e805d6cdc8d0f9bdbbaedcb5fc46](https://mempool.space/fr/tx/edef60744f539483d868caff49d4848e5cc6e805d6cdc8d0f9bdbbaedcb5fc46)
 
-10
+![BTC204](assets/notext/54/10.webp)
 
 ### Le doxxic change
 
@@ -1941,7 +1940,7 @@ Le surplus n'ayant pas pu intégrer la pool, ici équivalent à `40 000 sats`, e
 
 Cet UTXO est dangereux pour la confidentialité de l'utilisateur, car non seulement il est toujours attaché à son passé, et donc éventuellement à l'identité de son propriétaire, mais en plus, il est noté comme appartenant à un utilisateur qui a fait un coinjoin.
 
-11
+![BTC204](assets/notext/54/11.webp)
 
 Si cet UTXO est fusionné avec des outputs mixés, ces derniers perdront toute la confidentialité gagnée durant les cycles de coinjoins, notamment à cause de la CIOH (*Common-Input-Ownership-Heuristic*). S'il est fusionné avec d'autres doxxic changes, l'utilisateur risque de perdre en confidentialité puisque cela viendra faire un lien entre les différentes entrées des cycles de coinjoins. Il faut donc le traiter avec prudence. Nous parlerons plus en détail de la gestion de ces UTXOs doxxic dans la dernière section de ce chapitre.
 
@@ -1951,7 +1950,7 @@ Après la réalisation de la `Tx0`, les UTXOs égalisés sont envoyés sur le co
 
 Au terme de ces premiers mixe, le compte **premix** sera vide, tandis que nos pièces, ayant acquitté les frais de minage pour ce premier coinjoin, seront ajustées exactement au montant défini par la pool choisie. Dans notre exemple, nos UTXOs initiaux de `108 000 sats` auront été réduits à exactement `100 000 sats`.
 
-12
+![BTC204](assets/notext/54/12.webp)
 
 ### Les remixages
 
@@ -1969,7 +1968,7 @@ Certains utilisateurs pourraient envisager de transférer leurs bitcoins mixés 
 
 La fusion d'UTXOs constitue l'erreur la plus fréquemment commise. Il faut éviter de combiner dans une même transaction des UTXOs mixés avec des UTXOs non mixés, afin d'éviter la CIOH (*Common-Input-Ownership-Heuristic*). Cela nécessite une gestion minutieuse de vos UTXOs au sein de votre portefeuille, notamment au niveau de l'étiquetage.
 
-13
+![BTC204](assets/notext/54/13.webp)
 
 Il faut également être vigilant sur la consolidation d'UTXOs mixés entre eux. Des consolidations modérées sont envisageables si vos UTXOs mixés disposent d'anonsets significatifs, mais cela viendra forcément diminuer la confidentialité de vos pièces. Veillez à ce que les consolidations ne soient ni trop importantes, ni réalisées après un nombre insuffisant de remixages, au risque d'établir des liens déductibles entre vos UTXOs avant et après les cycles de coinjoins. En cas de doute sur ces manipulations, la meilleure pratique est de ne pas consolider les UTXOs postmix, et de les transférer un à un vers votre hardware wallet, en générant à chaque fois une nouvelle adresse vierge. Encore une fois, pensez à bien étiqueter chaque UTXO reçu.
 
@@ -1995,7 +1994,7 @@ Voici différentes stratégies à envisager pour les utiliser :
 
 Suite à l'arrestation des fondateurs de Samourai Wallet et à la saisie de leurs serveurs le 24 avril 2024, l'outil Whirlpool ne fonctionne plus, même pour les personnes qui disposent de leur propre Dojo. Auparavant, il était disponible sur Samourai Wallet et Sparrow Wallet.
 
-14
+![BTC204](assets/notext/54/14.webp)
 
 Il reste cependant possible que cet outil soit remis en service dans les semaines à venir, en fonction de l'issue des procès, ou relancé d'une manière différente. Dans tous les cas, je pense d'une part que le marché du coinjoin sur Bitcoin ne restera pas bien longtemps sans offre, car la demande est bien présente. De plus, le modèle de Whirlpool étant celui le plus avancé en termes de confidentialité, il sera sûrement à l'avenir pour d'autres implémentations.
 

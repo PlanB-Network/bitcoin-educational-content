@@ -75,7 +75,7 @@ Dans la cinquième section, nous ferons un tour d'horizon de toutes les autres t
 
 Alors que les sections précédentes se concentraient sur les solutions de confidentialité applicatives, cette sixième section se penchera sur les enjeux au niveau de Bitcoin Core pour la vie privée des utilisateurs. Nous aborderons la confidentialité au niveau du réseau de nœuds et de la diffusion des transactions. Nous discuterons également des différents protocoles qui ont été proposés au fil des années pour renforcer la confidentialité des utilisateurs sur Bitcoin, notamment les protocoles d'adresses statiques. Pour conclure, nous examinerons les impacts sur la confidentialité, tant positifs que négatifs, du dernier grand soft fork de Bitcoin, Taproot.
 
-![BTC204](assets/notext/73/07.webp)
+![BTC204](assets/notext/66/07.webp)
 
 # Définitions et concepts clés
 <partId>b9bbbde3-34c0-4851-83e8-e2ffb029cf31</partId>
@@ -1025,7 +1025,7 @@ Pour ce qui est de la construction des adresses de réception, cela dépend éga
 - Pour les adresses `P2SH` et `P2WSH`, la charge utile représente le hachage d'un script ;
 - Quant aux adresses `P2TR`, la charge utile est une clé publique tweakée. Les outputs `P2TR` combinent des aspects de _Pay-to-PubKey_ et de _Pay-to-Script_. La clé publique tweakée est le résultat de l'addition d'une clé publique de dépense classique avec un "tweak", dérivé de la racine de Merkle d'un ensemble de scripts pouvant aussi être utilisés pour dépenser les bitcoins.
 
-![BTC204](assets/fr/73/01.webp)
+![BTC204](assets/fr/66/01.webp)
 
 Les adresses affichées sur vos logiciels de portefeuille incluent aussi un HRP (*Human-Readable Part*), typiquement `bc` pour les adresses post-SegWit, un séparateur `1`, et un numéro de version `q` pour SegWit V0 et `p` pour Taproot/SegWit V1. Une somme de contrôle est également ajoutée pour garantir l'intégrité et la validité de l'adresse lors de sa transmission.
 
@@ -2126,11 +2126,11 @@ Ce chapitre est en cours de rédaction, et sera publié très prochainement !
 
 Comme nous l'avons vu dans la partie 3, la réutilisation d'adresses constitue un sérieux obstacle à la confidentialité des utilisateurs sur le protocole Bitcoin. Pour pallier ces risques, il est vivement recommandé de générer une adresse de réception vierge pour chaque nouveau paiement reçu dans un portefeuille. Bien que générer une nouvelle adresse soit aujourd'hui simplifié par l'emploi de logiciels modernes et de portefeuilles déterministes hiérarchiques, cette pratique peut sembler contre-intuitive.
 
-![BTC204](assets/notext/72/1.webp)
+![BTC204](assets/notext/65/1.webp)
 
 Dans le système bancaire traditionnel, par exemple, nous sommes habitués à partager notre IBAN, qui reste toujours identique. Une fois communiqué à quelqu'un, celui-ci peut nous adresser de multiples paiements sans avoir à interagir de nouveau avec nous. Les néo-banques offrent également des possibilités plus modernes comme l'utilisation d'adresses email uniques sur PayPal ou de RevTags sur Revolut. Même en dehors du domaine financier, nos identifiants quotidiens tels que notre adresse postale, notre numéro de téléphone et notre adresse email sont également uniques et permanents. Nous n'avons pas à les renouveler à chaque nouvelle interaction. 
 
-![BTC204](assets/notext/72/2.webp)
+![BTC204](assets/notext/65/2.webp)
 
 Cependant, le fonctionnement de Bitcoin est différent : il est impératif de générer une nouvelle adresse de réception pour chaque transaction entrante. Ce compromis entre praticité d'utilisation et confidentialité remonte à l'origine même du White Paper de Bitcoin. Dès la publication de la première version de son document fin 2008, Satoshi Nakamoto nous alertait déjà sur ce risque :
 
@@ -2138,7 +2138,7 @@ Cependant, le fonctionnement de Bitcoin est différent : il est impératif de g�
 
 Il existe de nombreuses méthodes permettant de recevoir plusieurs paiements sur un identifiant unique sans entraîner de réutilisation d'adresse. Chacune présente ses propres compromis et inconvénients. Parmi ces méthodes, il y a le BIP47, une proposition élaborée par Justus Ranvier et publiée en 2015. Cette proposition vise à créer des codes de paiement réutilisables qui permettent d'effectuer plusieurs transactions envers une même personne, tout en évitant la réutilisation d'adresses. En somme, le BIP47 cherche à offrir un système de paiement aussi intuitif qu'un identifiant unique, tout en préservant la confidentialité des transactions.
 
-![BTC204](assets/notext/72/3.webp)
+![BTC204](assets/notext/65/3.webp)
 
 Le BIP47 n'améliore pas directement la confidentialité des utilisateurs, car un paiement BIP47 offre le même niveau de confidentialité qu'une transaction Bitcoin classique utilisant des adresses vierges. Toutefois, il rend l'utilisation de Bitcoin plus pratique et intuitive, une facilité qui, normalement, devrait compromettre la confidentialité. Grâce au BIP47, cette facilité d'utilisation atteint le même niveau de confidentialité qu'une transaction classique. C'est en ça que le BIP47 est un outil précieux pour la préservation de la vie privée.
 
@@ -2148,7 +2148,7 @@ Initialement, le BIP47 était une proposition formulée pour être intégrée da
 
 Le BIP47 a pour objectif de permettre la réception de nombreux paiements sans produire de réutilisation d'adresse. Il repose sur l'utilisation d'un code de paiement réutilisable, qui permet à différents émetteurs d'envoyer plusieurs paiements vers un seul et même code appartenant à un autre utilisateur. Ainsi, le destinataire n'a pas à fournir une nouvelle adresse vierge pour chaque transaction, ce qui facilite grandement ses échanges tout en préservant sa confidentialité.
 
-![BTC204](assets/fr/72/4.webp)
+![BTC204](assets/fr/65/4.webp)
 
 Un utilisateur peut donc partager son code de paiement en toute liberté, que ce soit sur les réseaux sociaux ou sur son site web, sans risquer de perdre en confidentialité, contrairement à ce qui se passerait avec une adresse de réception classique ou une clé publique.
 
@@ -2158,7 +2158,7 @@ L'association des codes de paiements des deux utilisateurs permet de générer d
 
 Le code de paiement sert ainsi d'identifiant virtuel issu de la graine du portefeuille. Dans la structure de dérivation hiérarchique du portefeuille, le code de paiement est positionné au niveau 3, c'est-à-dire au niveau des comptes.
 
-![BTC204](assets/fr/72/5.webp)
+![BTC204](assets/fr/65/5.webp)
 
 L'objectif de dérivation pour le BIP47 est identifié par l'index `47'` (`0x8000002F`), faisant référence au BIP47. Un exemple de chemin de dérivation pour un code de paiement réutilisable serait le suivant :
 ```plaintext
@@ -2181,7 +2181,7 @@ Concernant les PayNym Bots, ces robots que l'on aperçoit parfois sur Twitter, i
 
 Ces avatars peuvent aussi être représentés sous forme d'images :
 
-![BTC204](assets/notext/72/6.webp)
+![BTC204](assets/notext/65/6.webp)
 
 Bien que ces robots n'aient pas de fonctionnalité technique spécifique dans le cadre du BIP47, ils jouent un rôle dans la facilitation des interactions entre utilisateurs en offrant une identité visuelle facilement reconnaissable.
 
@@ -2206,7 +2206,7 @@ Voici la représentation hexadécimale de mon code de paiement réutilisable dé
 0x010002a0716529bae6b36c5c9aa518a52f9c828b46ad8d907747f0d09dcd4d9a39e97c3c5f37c470c390d842f364086362f6122f412e2b0c7e7fc6e32287e364a7a36a00000000000000000000000000
 ```
 
-![BTC204](assets/fr/72/7.webp)
+![BTC204](assets/fr/65/7.webp)
 
 Ensuite, il faut également ajouter au début l'octet du préfixe `P` pour indiquer clairement qu'il s'agit d'un code de paiement. Cet octet est représenté par `0x47` :
 ```plaintext
@@ -2218,7 +2218,7 @@ Enfin, pour assurer l'intégrité du code de paiement, on procède à un calcul 
 0x47010002a0716529bae6b36c5c9aa518a52f9c828b46ad8d907747f0d09dcd4d9a39e97c3c5f37c470c390d842f364086362f6122f412e2b0c7e7fc6e32287e364a7a36a00000000000000000000000000567080c4
 ```
 
-![BTC204](assets/fr/72/8.webp)
+![BTC204](assets/fr/65/8.webp)
 
 Une fois ces étapes complétées, le code de paiement est prêt. Il ne reste plus qu'à le convertir en base 58 pour obtenir sa version finale :
 ```plaintext
@@ -2232,7 +2232,7 @@ m/47'/0'/0'/
 
 Concrètement, pour générer la clé publique compressée et le code de chaîne associés au code de paiement réutilisable, nous commençons par calculer la clé privée maîtresse à partir de la graine du portefeuille. Nous procédons ensuite à la dérivation d'une paire de clés filles en utilisant l'indice `47 + 2^31` (dérivation renforcée). Cette étape est suivie de deux autres dérivations successives de paires filles, chacune utilisant l'indice `2^31` (dérivation renforcée).
 
-![BTC204](assets/notext/72/9.webp)
+![BTC204](assets/notext/65/9.webp)
 
 ### L'échange de clés Diffie-Hellman établi sur les courbes elliptiques (ECDH)
 
@@ -2240,11 +2240,11 @@ Le protocole cryptographique au cœur du BIP47 est désigné sous l'acronyme ECD
 
 Introduit en 1976, Diffie-Hellman est un protocole d'accord de clés qui permet à deux parties, munies chacune d'une paire de clés (publique et privée), de convenir d'un secret commun, même en communiquant uniquement via un canal public et non sécurisé.
 
-![BTC204](assets/fr/72/10.webp)
+![BTC204](assets/fr/65/10.webp)
 
 Ce secret commun (ici la clé bleue), peut alors servir à d'autres opérations. Typiquement, on peut utiliser ce secret partagé pour chiffrer et déchiffrer une communication sur un réseau non sécurisé :
 
-![BTC204](assets/notext/72/11.webp)
+![BTC204](assets/notext/65/11.webp)
 
 Pour réussir cet échange, Diffie-Hellman utilise l'arithmétique modulaire afin de calculer le secret partagé. Voici son fonctionnement vulgarisé :
 - Alice et Bob s'accordent sur une couleur commune, ici le jaune, qui constitue une donnée publique (les attaquants connaissent cette couleur) ;
@@ -2254,7 +2254,7 @@ Pour réussir cet échange, Diffie-Hellman utilise l'arithmétique modulaire afi
 - En mélangeant le vert de Bob à sa propre couleur secrète, Alice produit du marron ;
 - Bob, faisant de même avec l'orange d'Alice et son bleu secret, obtient également du marron.
 
-![BTC204](assets/fr/72/12.webp)
+![BTC204](assets/fr/65/12.webp)
 
 Dans cette vulgarisation, la couleur marron représente le secret partagé entre Alice et Bob. Il faut imaginer qu'en réalité, il est impossible pour l'attaquant de séparer les couleurs orange et verte, afin de retrouver les couleurs secrètes d'Alice ou de Bob.
 
@@ -2346,7 +2346,7 @@ $$
 
 Grâce à la distributivité de l'opérateur modulo, Alice et Bob obtiennent exactement la même valeur $z$. Ce nombre représente leur secret commun, équivalent à **la couleur marron** dans la vulgarisation précédente avec les pots de peinture. Ils peuvent maintenant utiliser ce secret commun pour chiffrer leurs communications de manière symétrique sur un réseau non sécurisé.
 
-![BTC204](assets/notext/72/13.webp)
+![BTC204](assets/notext/65/13.webp)
 
 Un attaquant, même en possession de $p$, $g$, $A$ et $B$ (les valeurs publiques), ne pourra pas calculer $a$, $b$ ou $z$ (les valeurs privées). Pour y parvenir, il faudrait inverser l'exponentiation, une opération impossible sans essayer toutes les possibilités une par une, car cela revient à calculer le logarithme discret, c'est-à-dire la réciproque de l'exponentielle dans un groupe cyclique fini.
 
@@ -2414,7 +2414,7 @@ TLS est notamment responsable du `s` dans `https` ainsi que du cadenas visible d
 
 Comme nous l'avons vu dans la partie précédente, ECDH est une variante de l'échange Diffie-Hellman utilisant des paires de clés établies sur une courbe elliptique. Cela tombe bien, nous possédons déjà de nombreuses paires de clés respectant ce standard dans nos portefeuilles Bitcoin ! L'idée du BIP47 est d'utiliser les paires de clés des portefeuilles déterministes hiérarchiques Bitcoin des deux parties pour établir des secrets partagés et éphémères entre elles. Dans le cadre du BIP47, on utilise donc plutôt ECDHE (*Elliptic Curve Diffie-Hellman **Ephemeral***).
 
-![BTC204](assets/notext/72/14.webp)
+![BTC204](assets/notext/65/14.webp)
 
 ECDHE est utilisé une première fois dans le BIP47 pour transmettre le code de paiement de l'expéditeur vers le destinataire. C'est la fameuse **transaction de notification**. Cette étape est essentielle car pour que le BIP47 fonctionne efficacement, les deux parties impliquées (l'expéditeur et le destinataire) doivent connaître le code de paiement de l'autre. Cette connaissance permet la dérivation des clés publiques éphémères et, par conséquent, des adresses de réception vierges associées.
 
@@ -2422,7 +2422,7 @@ Avant cet échange, l'expéditeur est logiquement déjà en connaissance du code
 
 En effet, contrairement aux adresses conventionnelles, les adresses BIP47 ne sont pas dérivées directement depuis la graine du destinataire — utiliser une `xpub` serait plus simple dans ce cas — mais résultent d'un calcul combinant les deux codes de paiement : celui de l'expéditeur et celui du destinataire. Ainsi, si le destinataire perd son portefeuille et tente de le restaurer à partir de sa graine, il récupérera son propre code de paiement, qui est directement dérivé de sa graine. Cependant, pour retrouver les adresses éphémères, il lui sera indispensable de disposer également des codes de paiement de tous ceux qui lui ont envoyé des bitcoins via le BIP47. D'où l'importance de la transaction de notification qui permet de sauvegarder ces informations sur la blockchain de Bitcoin, tout en pouvant le retrouver très facilement sans avoir à chercher dans le milliard de transactions exécutées depuis son lancement en 2009.
 
-![BTC204](assets/fr/72/15.webp)
+![BTC204](assets/fr/65/15.webp)
 
 Il serait donc possible de mettre en œuvre le BIP47 sans recourir à la transaction de notification, à condition que chaque utilisateur conserve une sauvegarde des codes de paiement de ses pairs. Cependant, cette méthode se révèle complexe à gérer tant qu'une solution simple, robuste et efficace pour réaliser, stocker et actualiser ces sauvegardes n'est pas développée. Dans l'état actuel des choses, la transaction de notification s'avère donc presque incontournable.
 
@@ -2452,7 +2452,7 @@ Comment leur transmettre mon code sans risque ? L'utilisation de moyens de commu
 
 Dans le schéma ci-dessous, les traits oranges indiquent les points où le flux d'information doit être interrompu, et les flèches noires montrent les connexions potentiellement observables par des tiers :
 
-![BTC204](assets/fr/72/16.webp)
+![BTC204](assets/fr/65/16.webp)
 
 En réalité, dans le modèle de confidentialité traditionnel de Bitcoin, il est souvent complexe de dissocier complètement le flux d'information entre la paire de clés et l'utilisateur, surtout lors de transactions à distance. Par exemple, dans le cadre d'une campagne de donation, le bénéficiaire doit inévitablement divulguer une adresse ou une clé publique via son site web ou ses réseaux sociaux. L'emploi correct du BIP47, notamment avec la transaction de notification, permet de contourner ce problème grâce à l'ECDHE et à la couche de chiffrement que nous étudierons plus loin.
 
@@ -2515,13 +2515,13 @@ Je récapitule les étapes que l'on vient de voir ensemble pour réaliser une tr
 - Elle utilise ce facteur aveuglant pour chiffrer la charge utile de son code de paiement personnel ;
 - Elle utilise une sortie de transaction `OP_RETURN` pour communiquer le code de paiement masqué à Bob.
 
-![BTC204](assets/fr/72/17.webp)
+![BTC204](assets/fr/65/17.webp)
 
 ### Transaction de notification : étude concrète
 
 Afin de comprendre plus en détail son fonctionnement, et notamment l'utilisation de l'`OP_RETURN`, étudions ensemble une vraie transaction de notification. J'ai effectué une transaction de ce type sur le testnet que vous pouvez retrouver [en cliquant ici](https://mempool.space/fr/testnet/tx/0e2e4695a3c49272ef631426a9fd2dae6ec3a469e3a39a3db51aa476cd09de2e).
 
-![BTC204](assets/notext/72/18.webp)
+![BTC204](assets/notext/65/18.webp)
 
 En observant cette transaction, on peut déjà voir qu'elle dispose d'un seul input et de 4 outputs :
 - Le premier output est l'`OP_RETURN` qui contient mon code de paiement masqué ;
@@ -2716,7 +2716,7 @@ $$ A = a \cdot G $$
 
 $$ S = a \cdot B = a \cdot (b \cdot G) = (b \cdot a) \cdot G = b \cdot A $$
 
-![BTC204](assets/fr/72/19.webp)
+![BTC204](assets/fr/65/19.webp)
 
 Maintenant que Bob connait le code de paiement d'Alice, il va être en capacité de détecter les paiements BIP47 de celle-ci, et il pourra dériver les clés privées bloquant les bitcoins reçus.
 
@@ -2727,7 +2727,7 @@ Je récapitule les étapes que l'on vient de voir ensemble pour réceptionner et
 - Il utilise ce point secret pour calculer un HMAC qui est le facteur aveuglant ;
 - Il utilise ce facteur aveuglant pour déchiffrer la charge utile du code de paiement d'Alice contenu dans l'OP_RETURN.
 
-![BTC204](assets/fr/72/20.webp)
+![BTC204](assets/fr/65/20.webp)
 
 ### La transaction de paiement BIP47
 
@@ -2777,11 +2777,11 @@ Je récapitule les étapes que l'on vient de voir ensemble pour envoyer un paiem
 - Elle obtient une nouvelle clé publique éphémère pour laquelle seul Bob dispose de la clé privée associée ;
 - Alice peut faire une transaction classique vers Bob avec l'adresse de réception éphémère dérivée.
 
-![BTC204](assets/fr/72/21.webp)
+![BTC204](assets/fr/65/21.webp)
 
 Si Alice veut effectuer un second paiement, elle suivra les mêmes étapes que précédemment, à l'exception qu'elle sélectionnera cette fois la deuxième clé publique dérivée du code de paiement de Bob. Plus précisément, elle utilisera la prochaine clé inutilisée. Elle obtiendra ainsi une nouvelle adresse de réception appartenant à Bob, désignée $K1$ :
 
-![BTC204](assets/fr/72/22.webp)
+![BTC204](assets/fr/65/22.webp)
 
 Elle peut continuer ainsi de suite et dériver jusqu'à `2^32` adresses vierges appartenant à Bob.
 
@@ -2793,7 +2793,7 @@ D'un point de vue extérieur, en observant la blockchain, il est en théorie imp
 
 Cela ressemble à une transaction classique avec un input consommé, un output de paiement et un change :
 
-![BTC204](assets/notext/72/23.webp)
+![BTC204](assets/notext/65/23.webp)
 
 ### Réception du paiement BIP47 et dérivation de la clé privée
 
@@ -2840,15 +2840,15 @@ Je récapitule les étapes que l'on vient de voir ensemble pour réceptionner un
 - Il obtient une nouvelle clé publique éphémère, celle vers laquelle Alice va envoyer son premier paiement ;
 - Bob calcule la clé privée associée à cette clé publique éphémère en additionnant sa clé privée fille dérivée depuis son code de paiement et le secret partagé.
 
-![BTC204](assets/fr/72/24.webp)
+![BTC204](assets/fr/65/24.webp)
 
 Puisque Alice ne peut pas obtenir $b$ (la clé privée de Bob), elle est incapable de déterminer $k0$ (la clé privée associée à l'adresse de réception BIP47 de Bob). Schématiquement, nous pouvons représenter le calcul du secret partagé $S$ comme cela :
 
-![BTC204](assets/fr/72/19.webp)
+![BTC204](assets/fr/65/19.webp)
 
 Une fois le secret partagé trouvé avec ECDH, Alice et Bob calculent la clé publique de paiement BIP47 $K0$, et Bob calcule également la clé privée associée $k0$ :
 
-![BTC204](assets/fr/72/25.webp)
+![BTC204](assets/fr/65/25.webp)
 
 ### Remboursement du paiement BIP47
 
@@ -2858,7 +2858,7 @@ La fonctionnalité de remboursement est spécifique au BIP47 et constitue l'un d
 
 Bob peut alors rembourser Alice de la même manière qu'elle lui a envoyé des paiements. Les rôles s'inversent :
 
-![BTC204](assets/fr/72/26.webp)
+![BTC204](assets/fr/65/26.webp)
 
 *Un grand merci à [Fanis Michalakis](https://x.com/FanisMichalakis) pour sa relecture et ses précieux conseils d'expert sur l'article qui a inspiré la rédaction de ce chapitre !*
 
@@ -2897,7 +2897,7 @@ Vous pouvez donc voir pourquoi le BIP47 et les Silent Payments, bien qu'ils vise
 
 Avant de commencer, il est important de préciser que les Silent Payments reposent sur l'utilisation de types de scripts P2TR (*Pay to Taproot*) exclusivement. À la différence du BIP47, il n'est pas nécessaire de dériver des adresses de réception à partir de clés publiques enfants en les hachant. En effet, dans le standard P2TR, la clé publique tweakée est utilisée directement et en clair dans l'adresse. Ainsi, une adresse de réception Taproot est essentiellement une clé publique assortie de quelques métadonnées. Cette clé publique tweakée est l'agrégation de deux autres clés publiques : l'une permettant une dépense directe et traditionnelle via une simple signature, et l'autre représentant la racine de Merkle du MAST, qui autorise la dépense sous réserve de la satisfaction de l'une des conditions potentiellement inscrites dans l'arbre de Merkle.
 
-![BTC204](assets/fr/73/01.webp)
+![BTC204](assets/fr/66/01.webp)
 
 La décision de limiter les Silent Payments exclusivement à Taproot est motivée par deux raisons principales :
 - Premièrement, cela facilite considérablement l'implémentation et les futures mises à jour dans les logiciels de portefeuille, puisqu'un seul standard est à respecter ;
@@ -2944,7 +2944,7 @@ $$  p = (b + \text{hash}(b \cdot A)) \bmod n  $$
 
 Comme vous pouvez le voir, pour calculer cette clé privée $p$, il faut obligatoirement disposer de la clé privée $b$. Seul Bob dispose de cette clé privée $b$. Il sera donc bien le seul à pouvoir dépenser les bitcoins envoyés sur son adresse de Silent Payments.
 
-![BTC204](assets/notext/73/02.webp)
+![BTC204](assets/notext/66/02.webp)
 *Légende :*
 - $B$ : La clé publique / adresse statique publiée par Bob
 - $b$ : La clé privée de Bob
@@ -2991,7 +2991,7 @@ $$
 p_1 = (b + \text{hash}(b \cdot A \text{ ‖ } 1)) \bmod n 
  $$
 
-![BTC204](assets/notext/73/03.webp)
+![BTC204](assets/notext/66/03.webp)
 
 *Légende :*
 - $B$ : La clé publique / adresse statique publiée par Bob
@@ -3033,7 +3033,7 @@ $$
 p_0 = (b + \text{hash}(\text{inputHash} \cdot b \cdot A \text{ ‖ } 0)) \bmod n
  $$
 
-![BTC204](assets/notext/73/04.webp)
+![BTC204](assets/notext/66/04.webp)
 
 *Légende :*
 - $B$ : La clé publique / adresse statique publiée par Bob
@@ -3057,7 +3057,7 @@ Par exemple, imaginons que la transaction d'Alice dispose de 3 inputs, chacun s�
 - $a_1$ permet de sécuriser l'input #1 ;
 - $a_2$ permet de sécuriser l'input #2.
 
-![BTC204](assets/notext/73/05.webp)
+![BTC204](assets/notext/66/05.webp)
 
 Si l'on suit la méthode précédemment décrite, Alice devrait choisir une unique paire de clés parmi $a_0$, $a_1$, et $a_2$ pour calculer le secret ECDH et générer l'adresse de paiement unique $P$ à partir de l'adresse statique de Bob $B$. Cependant, cette approche impose à Bob de tester chaque possibilité séquentiellement, en commençant par $a_0$, puis $a_1$, et ainsi de suite, jusqu'à identifier une paire générant une adresse $P$ valide. Ce processus exige de Bob qu'il exécute le calcul ECDH sur tous les inputs de toutes les transactions, ce qui augmente considérablement la charge opérationnelle du scanning.
 
@@ -3107,7 +3107,7 @@ Comme vous pouvez le voir, jusqu'ici, Bob n'a pas eu besoin d'utiliser $b_{\text
 
 $$ p_0 = (b_{\text{spend}} + \text{hash}(\text{inputHash} \cdot b_{\text{scan}} \cdot A \text{ ‖ } 0)) \bmod n $$
 
-![BTC204](assets/notext/73/06.webp)
+![BTC204](assets/notext/66/06.webp)
 
 *Légende :*
 - $B_{\text{scan}}$ : La clé publique de scan de Bob (adresse statique)
@@ -3166,7 +3166,7 @@ Grâce à cette méthode, Bob peut utiliser une multitude d'adresses statiques (
 
 Attention toutefois, cette séparation des adresses statiques vaut uniquement d'un point de vue de gestion personnelle du portefeuille, mais ne permet pas de séparer les identités. Puisqu'elles disposent toutes du même $B_{\text{scan}}$, il est très facile d'associer toutes les adresses statiques ensemble et de déduire qu'elles appartiennent à une unique entité.
 
-![BTC204](assets/notext/73/07.webp)
+![BTC204](assets/notext/66/07.webp)
 
 *Légende :*
 - $B_{\text{scan}}$ : La clé publique de scan de Bob (adresse statique)

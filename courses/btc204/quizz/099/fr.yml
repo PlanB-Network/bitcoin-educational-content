@@ -1,0 +1,13 @@
+question: Que mesure l'anonset rétrospectif ?
+
+answer: La résistance de la confidentialité face à une analyse présent vers passé.
+
+wrong_answers:
+  - La résistance de la confidentialité face à une analyse passé vers futur.
+  - La résistance de la confidentialité face à une analyse présent vers futur.
+  - La résistance de la confidentialité face à une analyse passé vers présent.
+
+explanation: |
+  L'anonset rétrospectif permet de mesurer la résistance de la confidentialité de la pièce face à une analyse présent vers passé (sortie vers entrée).
+
+reviewed: false

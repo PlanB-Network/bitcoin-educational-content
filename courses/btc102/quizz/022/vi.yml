@@ -1,11 +1,11 @@
-Câu hỏi: Sự khác biệt giữa giao dịch và đầu tư trong bối cảnh của Bitcoin là gì?
+question: Sự khác biệt giữa giao dịch và đầu tư trong bối cảnh của Bitcoin là gì?
 
 Câu trả lời: Giao dịch bao gồm các hợp đồng ngắn hạn với rủi ro cao, trong khi đầu tư bao gồm việc mua BTC cho thời gian ngắn đến trung hạn với rủi ro hạn chế.
 
-Câu trả lời sai:
+wrong_answers:
   - Giao dịch bao gồm việc mua BTC cho thời gian ngắn đến trung hạn, trong khi đầu tư bao gồm các hợp đồng ngắn hạn với rủi ro cao.
   - Giao dịch bao gồm việc mua BTC cho thời gian dài hạn, trong khi đầu tư bao gồm các hợp đồng ngắn hạn với rủi ro cao.
   - Giao dịch bao gồm việc mua BTC cho thời gian ngắn đến trung hạn, trong khi đầu tư bao gồm việc mua BTC cho thời gian dài hạn.
 
-Giải thích:
+explanation:
   Trong bối cảnh của Bitcoin, giao dịch bao gồm các hợp đồng ngắn hạn với rủi ro cao, trong khi đầu tư bao gồm việc mua BTC cho thời gian ngắn đến trung hạn với rủi ro hạn chế.

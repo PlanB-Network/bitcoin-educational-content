@@ -1,10 +1,10 @@
-Câu hỏi: Những công cụ nào được sử dụng trong lĩnh vực an ninh mạng?
+question: Những công cụ nào được sử dụng trong lĩnh vực an ninh mạng?
 Câu trả lời: Wireshark, Metasploit, Nmap
-Câu trả lời sai:
+wrong_answers:
   - Photoshop, Illustrator, InDesign
   - Excel, PowerPoint, Word
   - AutoCAD, SolidWorks, Revit
-Giải thích: |
+explanation: |
   Chương này liệt kê Wireshark, Metasploit, và Nmap là một số công cụ
 
 

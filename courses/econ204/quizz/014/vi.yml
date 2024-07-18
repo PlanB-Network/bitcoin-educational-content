@@ -1,15 +1,15 @@
-Câu hỏi: Sự khác biệt giữa lạm phát kéo theo nhu cầu và lạm phát đẩy chi phí là gì?
+question: Sự khác biệt giữa lạm phát kéo theo nhu cầu và lạm phát đẩy chi phí là gì?
 
 Câu trả lời: Lạm phát kéo theo nhu cầu là tình huống nơi nhu cầu trong nền kinh tế vượt quá sản lượng có sẵn, trong khi lạm phát đẩy chi phí được quy cho sự tăng lên của chi phí sản xuất.
 
-Câu trả lời sai:
+wrong_answers:
   - Lạm phát kéo theo nhu cầu được quy cho sự tăng lên của chi phí sản xuất, trong khi lạm phát đẩy chi phí là tình huống nơi nhu cầu trong nền kinh tế vượt quá sản lượng có sẵn.
   - Lạm phát kéo theo nhu cầu và lạm phát đẩy chi phí giống nhau, cả hai đều chỉ tình huống nơi nhu cầu trong nền kinh tế vượt quá sản lượng có sẵn.
   - Lạm phát kéo theo nhu cầu và lạm phát đẩy chi phí giống nhau, cả hai đều chỉ sự tăng lên của chi phí sản xuất.
 
-Giải thích: |
+explanation: |
   Chương này giải thích rằng lạm phát kéo theo nhu cầu thường được giải thích là
   tình huống nơi nhu cầu trong nền kinh tế vượt quá sản lượng có sẵn. Mặt khác,
   lạm phát đẩy chi phí được quy cho sự tăng lên của chi phí sản xuất.
 
-Đã xem xét: false
+reviewed: false

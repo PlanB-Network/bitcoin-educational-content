@@ -1,9 +1,9 @@
-Câu hỏi: Ba chức năng cơ bản của tiền tệ là gì?
+question: Ba chức năng cơ bản của tiền tệ là gì?
 Câu trả lời: Lưu trữ giá trị, Phương tiện trao đổi, Đơn vị kế toán
-Câu trả lời sai:
+wrong_answers:
   - Lưu trữ giá trị, Phương tiện trao đổi, Phương tiện sản xuất
   - Lưu trữ giá trị, Phương tiện sản xuất, Đơn vị kế toán
   - Phương tiện trao đổi, Phương tiện sản xuất, Đơn vị kế toán
-Giải thích: |
+explanation: |
   Theo Aristotle, tiền tệ đảm nhận ba chức năng: nó là một phương tiện lưu trữ giá trị, một phương tiện trao đổi, và một đơn vị kế toán. Mặc dù ngày nay, người ta rộng rãi công nhận rằng phương tiện trao đổi xuất hiện trước hai chức năng khác.
-Đã xem xét: true
+reviewed: true

@@ -1,9 +1,9 @@
-Câu hỏi: Quy trình được gọi là gì để xác minh các giao dịch trên mạng Bitcoin?
+question: Quy trình được gọi là gì để xác minh các giao dịch trên mạng Bitcoin?
 Câu trả lời: Đào
-Câu trả lời sai:
+wrong_answers:
   - Đào bới
   - Thu hoạch
   - Trồng trọt
-Giải thích: |
+explanation: |
   Quy trình xác minh các giao dịch trên mạng Bitcoin được gọi là đào. Các thợ đào thực hiện một nhiệm vụ mã hóa và được thưởng bằng việc phát hành bitcoin mới.
-Đã xem xét: true
+reviewed: true

@@ -1,9 +1,9 @@
-Câu hỏi: Hai thành phần chính trong cơ chế bảo mật của giao thức Bitcoin là gì?
+question: Hai thành phần chính trong cơ chế bảo mật của giao thức Bitcoin là gì?
 Câu trả lời: Các thuật toán HMAC và PBKDF2
-Câu trả lời sai:
+wrong_answers:
   - Các hàm băm SHA-256 và RIPEMD-160
   - Thuật toán Chữ ký Số Đường cong Elliptic (ECDSA) và hàm băm SHA-256
   - RSA và trao đổi khóa Diffie-Hellman
-Giải thích: |
+explanation: |
   Các thuật toán HMAC và PBKDF2 là các thành phần chính trong cơ chế bảo mật của giao thức Bitcoin. Chúng ngăn chặn nhiều loại tấn công tiềm ẩn và đảm bảo tính toàn vẹn của ví Bitcoin.
-Đã xem xét: false
+reviewed: false

@@ -1,11 +1,11 @@
-Câu hỏi: Tại sao Bitcoin được coi là công cụ không hiệu quả cho việc rửa tiền?
+question: Tại sao Bitcoin được coi là công cụ không hiệu quả cho việc rửa tiền?
 
 Câu trả lời: Bởi vì nó là một cơ sở dữ liệu có thể theo dõi hoàn toàn.
 
-Câu trả lời sai:
+wrong_answers:
   - Bởi vì nó không được chấp nhận rộng rãi.
   - Bởi vì nó có tính biến động cao.
   - Bởi vì nó không được quản lý.
 
-Giải thích:
+explanation:
   Bitcoin, với tư cách là một cơ sở dữ liệu có thể theo dõi hoàn toàn, làm cho việc rửa tiền trở nên đặc biệt khó khăn. Việc sử dụng Bitcoin bởi các tội phạm có thể được theo dõi.

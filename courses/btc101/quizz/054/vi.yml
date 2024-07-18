@@ -1,10 +1,10 @@
-Câu hỏi: Giai đoạn thứ hai của lạm phát cực kỳ là gì?
+question: Giai đoạn thứ hai của lạm phát cực kỳ là gì?
 Câu trả lời: Sụp đổ của tiền tệ & tăng giá.
-Câu trả lời sai:
+wrong_answers:
   - Mất lòng tin.
   - Vòng luẩn quẩn của việc in tiền.
   - Một loại tiền tệ mới xuất hiện.
-Giải thích: |
+explanation: |
   Giai đoạn thứ hai của lạm phát cực kỳ là sụp đổ của tiền tệ & tăng giá,
   ngay sau Giai đoạn Mất lòng tin.
 Đã được xem xét: true

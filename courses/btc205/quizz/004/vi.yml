@@ -1,10 +1,10 @@
-Câu hỏi: Giới hạn giao dịch không cần xác minh danh tính tại các máy ATM ở Pháp là bao nhiêu?
+question: Giới hạn giao dịch không cần xác minh danh tính tại các máy ATM ở Pháp là bao nhiêu?
 Câu trả lời: 500 euro
-Câu trả lời sai:
+wrong_answers:
   - 1000 euro
   - 2000 euro
   - 3000 euro
-Giải thích: |
+explanation: |
   Các máy ATM ở Pháp được quản lý và yêu cầu xác minh danh tính cho các giao dịch
 
 

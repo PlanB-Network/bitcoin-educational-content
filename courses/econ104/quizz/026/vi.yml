@@ -1,13 +1,13 @@
-Câu hỏi: Blockchain trilemma trong lĩnh vực tiền mã hóa là gì?
+question: Blockchain trilemma trong lĩnh vực tiền mã hóa là gì?
 
 Câu trả lời: Sự đánh đổi giữa khả năng mở rộng, an ninh và phi tập trung trong tiền mã hóa
 
-Câu trả lời sai:
+wrong_answers:
   - Một đặc điểm của Bitcoin ưu tiên phi tập trung và an ninh hơn là khả năng mở rộng
   - Khó khăn trong việc xác định quỹ đạo và giá trị của tiền mã hóa
   - Hạn chế của công nghệ Bitcoin so với các loại tiền mã hóa khác
 
-Giải thích:
+explanation:
   Khái niệm về blockchain trilemma là ý tưởng rằng tiền mã hóa phải ưu tiên hai trong ba đặc điểm quan trọng; khả năng mở rộng, an ninh và phi tập trung. Bitcoin ưu tiên phi tập trung và an ninh, điều này ảnh hưởng đến khả năng mở rộng của nó, nhưng nó vẫn đạt được điều này thông qua các phương tiện thay thế.
 
-Đã xem xét: đúng
+reviewed: đúng

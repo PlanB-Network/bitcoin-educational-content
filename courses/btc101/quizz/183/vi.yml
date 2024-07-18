@@ -1,10 +1,10 @@
-Câu hỏi: Một trong những lý do giá Bitcoin có thể giảm 10-20 hoặc thậm chí 50% trong vài ngày là gì?
+question: Một trong những lý do giá Bitcoin có thể giảm 10-20 hoặc thậm chí 50% trong vài ngày là gì?
 
 Câu trả lời: Biến động thị trường và các giai đoạn thị trường tăng giá (bullish) và giảm giá (bearish).
 
-Câu trả lời sai:
+wrong_answers:
   - Số lượng người sử dụng internet.
   - Thời tiết.
   - Giá của vàng.
 
-Giải thích: Giá của Bitcoin thường được đặc trưng bởi sự biến động lớn, có thể được ảnh hưởng bởi biến động thị trường và các giai đoạn thị trường tăng giá (bullish) và giảm giá (bearish).
+explanation: Giá của Bitcoin thường được đặc trưng bởi sự biến động lớn, có thể được ảnh hưởng bởi biến động thị trường và các giai đoạn thị trường tăng giá (bullish) và giảm giá (bearish).

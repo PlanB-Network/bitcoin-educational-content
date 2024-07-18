@@ -1,4 +1,4 @@
-Câu hỏi: Trong các yếu tố sau, yếu tố nào là cần thiết cho một giao dịch thành công trong hệ thống trao đổi hàng hóa?
+question: Trong các yếu tố sau, yếu tố nào là cần thiết cho một giao dịch thành công trong hệ thống trao đổi hàng hóa?
 
 Câu trả lời: Sự trùng khớp kép về nhu cầu
 
@@ -7,7 +7,7 @@ Các wrong_answers:
   - Một cơ quan ngân hàng trung ương
   - Yêu cầu số dư tối thiểu
 
-Giải thích:
+explanation:
   Trong hệ thống trao đổi hàng hóa, các giao dịch diễn ra trực tiếp giữa hai bên mà không sử dụng tiền mặt để trao đổi hàng hóa hoặc dịch vụ. Một giao dịch thành công yêu cầu sự trùng khớp kép về nhu cầu, nghĩa là cả hai bên đều phải có thứ mà bên kia muốn trao đổi.
 
-Đã xem xét: đúng
+reviewed: đúng

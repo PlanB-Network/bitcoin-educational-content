@@ -1,9 +1,9 @@
-Câu hỏi: Khi tất cả 21 triệu bitcoin đã được tạo ra, các thợ đào sẽ dựa vào cái gì để nhận thù lao?
+question: Khi tất cả 21 triệu bitcoin đã được tạo ra, các thợ đào sẽ dựa vào cái gì để nhận thù lao?
 Câu trả lời: Các thợ đào sẽ hoàn toàn dựa vào phí giao dịch để nhận thù lao.
-Câu trả lời sai:
+wrong_answers:
   - Các thợ đào sẽ hoàn toàn dựa vào phần thưởng khối để nhận thù lao.
   - Các thợ đào sẽ hoàn toàn dựa vào xác nhận giao dịch để nhận thù lao.
   - Các thợ đào sẽ hoàn toàn dựa vào phí mạng để nhận thù lao.
-Giải thích:
+explanation:
   Đến năm 2140, không còn bitcoin mới nào được tạo ra nữa. Tại thời điểm này, các thợ đào sẽ hoàn toàn dựa vào phí giao dịch để nhận thù lao.
-Đã xem xét: false
+reviewed: false

@@ -1,13 +1,13 @@
-Câu hỏi: Hạn chế đáng kể mà cá nhân phải đối mặt trong cuộc khủng hoảng phá sản của chính phủ Hy Lạp năm 2015 là gì?
+question: Hạn chế đáng kể mà cá nhân phải đối mặt trong cuộc khủng hoảng phá sản của chính phủ Hy Lạp năm 2015 là gì?
 
 Câu trả lời: Cải cách ngân hàng gắt gao được chính phủ áp đặt.
 
-Câu trả lời sai:
+wrong_answers:
   - Hạn chế truy cập vào dịch vụ ngân hàng số
   - Sự biến động của các đồng tiền số như Bitcoin
   - Thiếu hụt tiền mặt (tiền tệ vật lý)
 
-Giải thích:
+explanation:
   Trong cuộc khủng hoảng phá sản của chính phủ Hy Lạp năm 2015, các ngân hàng đã đóng cửa, việc rút tiền từ ATM bị hạn chế, và một phần đáng kể tiền gửi của người dân trong ngân hàng đã bị chính phủ rút ra để tài trợ cho sự bất cẩn tài chính. Sự kiện này đã làm nổi bật các rủi ro liên quan đến việc giữ tiền trong hệ thống ngân hàng truyền thống.
 
-Đã xem xét: đúng
+reviewed: đúng

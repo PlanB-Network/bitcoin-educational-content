@@ -1,11 +1,11 @@
-Câu hỏi: Cypherpunks là ai?
+question: Cypherpunks là ai?
 Câu trả lời: Một nhóm người bắt đầu đặt câu hỏi sâu sắc về vai trò của quyền riêng tư và tự do trong kỷ nguyên số.
-Câu trả lời sai:
+wrong_answers:
   - Một nhóm hacker đánh cắp thông tin từ chính phủ.
   - Một nhóm người đã phát minh ra Bitcoin.
   - Một nhóm người phản đối việc sử dụng công nghệ.
-Giải thích: |
+explanation: |
   Cypherpunks là một nhóm cá nhân tin rằng mật mã học
   có thể phục vụ như một công cụ để bảo vệ quyền cá nhân chống lại sự can thiệp từ chính phủ
   và các tập đoàn lớn.
-Đã xem xét: true
+reviewed: true

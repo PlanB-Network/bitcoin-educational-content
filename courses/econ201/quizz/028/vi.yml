@@ -1,17 +1,17 @@
-Câu hỏi: Mối quan hệ giữa sở thích thời gian và lãi suất trong một nền kinh tế với thị trường vốn không bị can thiệp là gì?
+question: Mối quan hệ giữa sở thích thời gian và lãi suất trong một nền kinh tế với thị trường vốn không bị can thiệp là gì?
 
 Câu trả lời: Sự tăng lên của lãi suất là kết quả của sự tăng cầu vốn so với cung, cho thấy sở thích thời gian cao hơn. Ngược lại, sự giảm lãi suất xảy ra do sự tăng tiết kiệm, là sự tăng cung vốn, cho thấy sự giảm sở thích thời gian.
 
-Câu trả lời sai:
+wrong_answers:
   - Sự tăng lãi suất chỉ ra sự giảm sở thích thời gian, trong khi sự giảm lãi suất chỉ ra sự tăng sở thích thời gian.
   - Sở thích thời gian và lãi suất có mối quan hệ nghịch đảo.
   - Sở thích thời gian và lãi suất không có mối quan hệ trực tiếp.
 
-Giải thích: |
+explanation: |
   Trong một nền kinh tế với thị trường vốn không bị can thiệp, lãi suất tham chiếu
   được xác định tại điểm giao nhau của cung và cầu vốn. Do đó,
   các tỷ lệ này đại diện cho trạng thái sở thích thời gian của toàn bộ nền kinh tế. Sự tăng
   lãi suất là kết quả của sự tăng cầu vốn so với cung, cho thấy sở thích thời gian cao hơn. Ngược lại, sự giảm lãi suất
   xảy ra do sự tăng tiết kiệm, là sự tăng cung vốn, cho thấy sự giảm sở thích thời gian.
 
-Đã xem xét: false
+reviewed: false

@@ -1,13 +1,13 @@
-Câu hỏi: Tác động của việc tăng lượng tiền lưu thông đối với lạm phát và giảm phát trong một hệ thống tiền tệ cố định là gì?
+question: Tác động của việc tăng lượng tiền lưu thông đối với lạm phát và giảm phát trong một hệ thống tiền tệ cố định là gì?
 
 Câu trả lời: Việc tăng lượng tiền lưu thông sẽ loại bỏ khả năng giảm phát do tăng sản xuất gây ra.
 
-Câu trả lời sai:
+wrong_answers:
   - Việc tăng lượng tiền lưu thông dẫn đến giảm phát.
   - Việc tăng lượng tiền lưu thông không có ảnh hưởng đến lạm phát hoặc giảm phát.
   - Việc tăng lượng tiền lưu thông dẫn đến giảm sản xuất.
 
-Giải thích:
+explanation:
   Chương này giải thích rằng trong một hệ thống tiền tệ cố định, việc tăng sản xuất theo lý thuyết sẽ dẫn đến giảm phát, tức là giảm giá cả, vì sẽ có nhiều hàng hóa và dịch vụ hơn. Tuy nhiên, trong hệ thống tiền tệ fiat hiện tại, việc tăng lượng tiền lưu thông sẽ loại bỏ khả năng giảm phát do tăng sản xuất gây ra.
 
-Đã xem xét: false
+reviewed: false

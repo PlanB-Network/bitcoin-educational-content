@@ -1,10 +1,10 @@
-Câu hỏi: Lời chỉ trích chính đối với hệ thống tài chính hiện tại liên quan đến môi trường là gì?
+question: Lời chỉ trích chính đối với hệ thống tài chính hiện tại liên quan đến môi trường là gì?
 
 Câu trả lời: Nó khuyến khích tiêu dùng quá mức và nợ nần
 
-Câu trả lời sai:
+wrong_answers:
   - Nó thúc đẩy việc sử dụng nhiên liệu hóa thạch
   - Nó không đầu tư vào năng lượng tái tạo
   - Nó không quản lý việc sản xuất hàng hóa
 
-Giải thích: Hệ thống tài chính hiện tại bị chỉ trích vì khuyến khích tiêu dùng quá mức và nợ nần, điều này gây ra các vấn đề môi trường nghiêm trọng. Điều này là do việc dễ dàng tiếp cận tín dụng, việc phát hành tiền tệ bởi các ngân hàng, và việc sử dụng hệ thống dự trữ một phần.
+explanation: Hệ thống tài chính hiện tại bị chỉ trích vì khuyến khích tiêu dùng quá mức và nợ nần, điều này gây ra các vấn đề môi trường nghiêm trọng. Điều này là do việc dễ dàng tiếp cận tín dụng, việc phát hành tiền tệ bởi các ngân hàng, và việc sử dụng hệ thống dự trữ một phần.

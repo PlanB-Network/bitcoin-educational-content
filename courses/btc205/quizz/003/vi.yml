@@ -1,8 +1,8 @@
-Câu hỏi: Vai trò của AMF ở Pháp là gì?
+question: Vai trò của AMF ở Pháp là gì?
 Câu trả lời: Nó quản lý thị trường tài chính.
-Câu trả lời sai:
+wrong_answers:
   - Nó quản lý hệ thống giáo dục.
   - Nó quản lý hệ thống y tế.
   - Nó quản lý hệ thống giao thông.
-Giải thích:
+explanation:
   "AMF (Autorité des marchés financiers) là cơ quan quản lý thị trường tài chính của Pháp."

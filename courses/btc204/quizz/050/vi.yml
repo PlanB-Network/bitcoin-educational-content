@@ -1,13 +1,13 @@
-Câu hỏi: Ưu điểm chính của Thanh toán Ẩn danh so với BIP47 là gì?
+question: Ưu điểm chính của Thanh toán Ẩn danh so với BIP47 là gì?
 
 Câu trả lời: Chúng không yêu cầu một giao dịch thông báo.
 
-Câu trả lời sai:
+wrong_answers:
   - Chúng cung cấp sự riêng tư hoàn toàn cho giao dịch.
   - Chúng cho phép hoàn tiền từ người nhận.
   - Chúng đảm bảo tính tương thích với tất cả ví.
 
-Giải thích: |
+explanation: |
   Thanh toán Ẩn danh hoạt động mà không cần giao dịch thông báo, giúp tiết kiệm phí giao dịch và tránh làm quá tải blockchain.
 
-Đã xem xét: false
+reviewed: false

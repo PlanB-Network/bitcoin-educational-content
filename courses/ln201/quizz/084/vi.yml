@@ -1,11 +1,11 @@
-Câu hỏi: Mục đích của việc Thực hiện Atomic Swap giữa LN và BTC trong Mạng Lưới Lightning là gì?
+question: Mục đích của việc Thực hiện Atomic Swap giữa LN và BTC trong Mạng Lưới Lightning là gì?
 
 Câu trả lời: Để cân bằng lại tính thanh khoản
 
-Câu trả lời sai:
+wrong_answers:
   - Để mở kênh
   - Để kết nối với các nút khác
   - Để mua kênh
 
-Giải thích:
+explanation:
   Việc Thực hiện Atomic Swap giữa LN và BTC trong Mạng Lưới Lightning được sử dụng để cân bằng lại tính thanh khoản. Điều này được thực hiện bằng cách gửi tính thanh khoản đến một Loop qua một nút khác, sau đó gửi lại số dư trên chuỗi cho nút gốc.

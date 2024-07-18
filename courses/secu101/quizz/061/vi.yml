@@ -1,10 +1,10 @@
-Câu hỏi: Những ngôn ngữ lập trình nào được sử dụng trong lĩnh vực an ninh mạng?
+question: Những ngôn ngữ lập trình nào được sử dụng trong lĩnh vực an ninh mạng?
 Câu trả lời: Python, C, Java
-Câu trả lời sai:
+wrong_answers:
   - HTML, CSS, JavaScript
   - Swift, Kotlin, Ruby
   - PHP, Perl, Lua
-Giải thích: |
+explanation: |
   Chương này liệt kê Python, C, và Java là một số ngôn ngữ lập trình
 
 

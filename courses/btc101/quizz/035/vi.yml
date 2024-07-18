@@ -1,9 +1,9 @@
-Câu hỏi: Lựa chọn nào sau đây không phải là một lợi ích của tiền tệ fiat?
+question: Lựa chọn nào sau đây không phải là một lợi ích của tiền tệ fiat?
 Câu trả lời: Chúng chịu ảnh hưởng của lạm phát tiền tệ
-Câu trả lời sai:
+wrong_answers:
   - Chúng dễ dàng vận chuyển
   - Chúng dễ dàng chia nhỏ
   - Chúng được tất cả các quốc gia chấp nhận
-Giải thích: |
+explanation: |
   Tiền tệ fiat, như đô la và euro, rất dễ thanh khoản và dễ dàng vận chuyển vì chúng hiện nay chủ yếu là dạng số. Tuy nhiên, giá trị của chúng liên tục bị ảnh hưởng bởi lạm phát tiền tệ.
-Đã xem xét: true
+reviewed: true

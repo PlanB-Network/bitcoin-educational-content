@@ -1,11 +1,11 @@
-Frage: Welche dieser Optionen ist kein Vorteil von Fiat-Währungen?
-Antwort: Sie unterliegen der monetären Inflation.
-Falsche Antworten:
+question: Welche dieser Optionen ist kein Vorteil von Fiat-Währungen?
+answer: Sie unterliegen der monetären Inflation.
+wrong_answers:
   - Sie sind leicht transportierbar
   - Sie sind leicht teilbar
   - Sie werden von allen Ländern akzeptiert
-Erklärung: |
+explanation: |
   Fiat-Währungen, wie der Dollar und der Euro, sind sehr liquide und
   leicht transportierbar, da sie mittlerweile größtenteils digital sind. Allerdings wird ihr Wert
   ständig durch monetäre Inflation erodiert.
-Überprüft: true
+reviewed: false

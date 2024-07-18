@@ -1,10 +1,10 @@
-domanda: Qual è il requisito necessario per una transazione di successo in un sistema di baratto?
-risposta: Una doppia coincidenza dei bisogni
-risposte_errate:
+question: Qual è il requisito necessario per una transazione di successo in un sistema di baratto?
+answer: Una doppia coincidenza dei bisogni
+wrong_answers:
   - Una unità comune di conto
   - Un'autorità bancaria centrale
   - Un requisito di saldo minimo
-spiegazione: |
+explanation: |
   In un sistema di baratto, le transazioni avvengono direttamente tra due parti che scambiano beni o 
   servizi senza l'uso del denaro. Una transazione di successo richiede una doppia coincidenza dei 
   bisogni, il che significa che entrambe le parti devono avere qualcosa che l'altra desidera scambiare.

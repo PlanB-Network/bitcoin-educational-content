@@ -1,14 +1,14 @@
-pregunta: ¿Cuál es la primera acción que debes realizar para minimizar el riesgo de pérdida al tomar auto-custodia?
-respuesta: Hacer una copia de seguridad de tu frase semilla de recuperación de la cartera
+question: ¿Cuál es la primera acción que debes realizar para minimizar el riesgo de pérdida al tomar auto-custodia?
+answer: Hacer una copia de seguridad de tu frase semilla de recuperación de la cartera
 respuestas_erróneas:
   - Compartir tus claves privadas con una parte de confianza
   - Tomar nota de tu frase semilla de recuperación y almacenarla en tu computadora
   - Desactivar la autenticación de dos factores (2FA)
-explicación: |
+explanation: |
   Lo primero y más importante al tomar auto-custodia es hacer una copia de seguridad de tu cartera.
   Las carteras de hardware vienen con una frase semilla de recuperación, un conjunto de palabras que
   se pueden utilizar para recuperar tus claves privadas en caso de que tu dispositivo se pierda o dañe.
   Crea una copia física, como una [placa semilla](https://coincodex.com/article/23147/best-metal-crypto-wallets-for-seed-phrase-storage/) de metal, de esta frase semilla y
   guárdala en un lugar seguro. Es importante mantener esta frase semilla de recuperación segura.
   NUNCA la compartas con nadie.
-revisado: true
+reviewed: false

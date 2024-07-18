@@ -1,15 +1,15 @@
-Frage: In welchem Szenario könnte ein Stablecoin über seinem gebundenen Preis gehandelt werden?
+question: In welchem Szenario könnte ein Stablecoin über seinem gebundenen Preis gehandelt werden?
 
-Antwort: Wenn die Nachfrage nach Stablecoins die Kapazität einer Börse übersteigt
+answer: Wenn die Nachfrage nach Stablecoins die Kapazität einer Börse übersteigt
 
-Falsche Antworten:
+wrong_answers:
   - Wenn der Herausgeber des Stablecoins Mittel einfriert
   - Wenn der Stablecoin vollständig durch Bargeldreserven gedeckt ist
   - Wenn es starken Verkaufsdruck von Nutzern gibt
 
-Erklärung: |
+explanation: |
   Stablecoins können über ihrem gebundenen Preis gehandelt werden, wenn 
   die Nachfrage nach Stablecoins die Kapazität einer Börse übersteigt, 
   um den Kundenanforderungen gerecht zu werden, typischerweise auf kleineren Börsen.
 
-Überprüft: true
+reviewed: false

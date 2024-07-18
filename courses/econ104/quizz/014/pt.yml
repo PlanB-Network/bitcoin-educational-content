@@ -8,4 +8,4 @@ explicação: |
   As chaves privadas são um componente essencial das transações de Bitcoin.
   Elas são usadas para assinar e autorizar transações, fornecendo prova
   de propriedade e garantindo que apenas o proprietário possa gastar seus bitcoins.
-revisado: true
+reviewed: false

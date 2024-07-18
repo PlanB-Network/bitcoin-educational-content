@@ -1,10 +1,10 @@
-domanda: Cos'è il Halving nel contesto di Bitcoin?
-risposta: Una funzionalità nel codice di Bitcoin che dimezza la ricompensa del mining ogni quattro anni
-risposte_errate:
+question: Cos'è il Halving nel contesto di Bitcoin?
+answer: Una funzionalità nel codice di Bitcoin che dimezza la ricompensa del mining ogni quattro anni
+wrong_answers:
   - Un processo di aumento dell'adozione globale di Bitcoin
   - Un meccanismo che impedisce il crollo del valore di bitcoin
   - Un termine usato per descrivere l'evento in cui il prezzo di bitcoin schizza alle stelle
-spiegazione: |
+explanation: |
   Il halving è una funzionalità nel codice di Bitcoin che riduce la 
   ricompensa del mining di metà circa ogni quattro anni. Questo evento 
   influisce sulle entrate dei minatori ed esercita una pressione al rialzo 

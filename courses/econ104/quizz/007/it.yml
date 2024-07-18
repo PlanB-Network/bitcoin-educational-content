@@ -1,10 +1,10 @@
-domanda: Qual è l'impatto della stampa di più denaro sul potere d'acquisto di una valuta?
-risposta: Un deterioramento del potere d'acquisto della valuta
-risposte_errate:
+question: Qual è l'impatto della stampa di più denaro sul potere d'acquisto di una valuta?
+answer: Un deterioramento del potere d'acquisto della valuta
+wrong_answers:
   - Un aumento del potere d'acquisto della valuta
   - Nessun impatto
   - Più denaro = maggiore potere d'acquisto
-spiegazione: |
+explanation: |
   Quando le banche centrali decidono di stampare denaro, non possono semplicemente creare più valore.
   Perché questo denaro appena stampato abbia un valore, deve derivare dai detentori precedenti della valuta.
   Pensate all'offerta di denaro come a una pizza, e immaginate che sia tagliata in quattro fette.

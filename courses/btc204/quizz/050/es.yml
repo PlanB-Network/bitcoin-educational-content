@@ -1,13 +1,13 @@
-pregunta: ¿Cuál es la principal ventaja de los Pagos Silenciosos en comparación con BIP47?
+question: ¿Cuál es la principal ventaja de los Pagos Silenciosos en comparación con BIP47?
 
-respuesta: No requieren una transacción de notificación.
+answer: No requieren una transacción de notificación.
 
-respuestas_incorrectas:
+wrong_answers:
   - Ofrecen privacidad completa en las transacciones.
   - Permiten un reembolso por parte del receptor.
   - Aseguran compatibilidad con todas las carteras.
 
-explicación: |
+explanation: |
   Los Pagos Silenciosos funcionan sin una transacción de notificación, lo que ahorra en tarifas de transacción y evita sobrecargar la blockchain.
 
 revisado: false

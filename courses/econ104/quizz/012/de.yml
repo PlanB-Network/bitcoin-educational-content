@@ -1,16 +1,16 @@
-Frage: Welchen Vorteil bietet das Netzwerk von Bitcoin gegenüber traditionellen Finanzsystemen?
+question: Welchen Vorteil bietet das Netzwerk von Bitcoin gegenüber traditionellen Finanzsystemen?
 
-Antwort: Dezentralisierung und Sicherheit
+answer: Dezentralisierung und Sicherheit
 
-Falsche Antworten:
+wrong_answers:
   - Erhöhte Inflationsraten
   - Abhängigkeit von Zwischenhändlern
   - Zentralisierte Kontrolle über Transaktionen
 
-Erklärung: |
+explanation: |
   Das dezentralisierte Netzwerk von Bitcoin bietet eine sichere und effiziente Möglichkeit, 
   Transaktionen ohne die Notwendigkeit von Zwischenhändlern oder Drittparteien durchzuführen. 
   Dies reduziert das Risiko von Zensur und unautorisierten Änderungen an Transaktionen,
   sowie erhöht die Privatsphäre.
 
-Überprüft: true
+reviewed: false

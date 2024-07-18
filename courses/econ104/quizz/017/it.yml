@@ -1,10 +1,10 @@
-domanda: Quali sono i principali tipi di stablecoin menzionati nel testo?
-risposta: Stablecoin supportate da valute fiat, stablecoin supportate da materie prime e stablecoin algoritmiche.
-risposte_errate:
+question: Quali sono i principali tipi di stablecoin menzionati nel testo?
+answer: Stablecoin supportate da valute fiat, stablecoin supportate da materie prime e stablecoin algoritmiche.
+wrong_answers:
   - Stablecoin digitali e fisiche
   - Stablecoin centralizzate e decentralizzate
   - Stablecoin supportate da banche e stablecoin supportate da individui
-spiegazione: |
+explanation: |
   Nei capitoli precedenti abbiamo visto tre principali tipi di stablecoin; 
   stablecoin supportate da valute fiat, che sono garantite da valute tradizionali 
   come il dollaro statunitense; stablecoin supportate da materie prime, che sono garantite da 

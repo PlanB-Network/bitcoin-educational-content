@@ -1,10 +1,10 @@
-domanda: Quando si assume la custodia diretta, qual è la prima cosa da fare per ridurre al minimo il rischio di perdita?
-risposta: Effettuare il backup della frase segreta di recupero del portafoglio
-risposte_errate:
+question: Quando si assume la custodia diretta, qual è la prima cosa da fare per ridurre al minimo il rischio di perdita?
+answer: Effettuare il backup della frase segreta di recupero del portafoglio
+wrong_answers:
   - Condividere le proprie chiavi private con una parte di fiducia
   - Prendere nota della propria frase segreta di recupero e conservarla sul proprio computer
   - Disabilitare l'autenticazione a due fattori (2FA)
-spiegazione: |
+explanation: |
   Prima di tutto, effettuare il backup del proprio portafoglio quando si assume la custodia diretta.
   I portafogli hardware sono dotati di una frase segreta di recupero, un insieme di parole che
   può essere utilizzato per recuperare le proprie chiavi private in caso di smarrimento o danneggiamento del dispositivo.

@@ -504,7 +504,7 @@ Detto ciò, se non fosse stato per un individuo... o un gruppo (non lo sappiamo 
 
 #### Satoshi Nakamoto
 
-Sebbene Bitcoin abbia catturato le menti di milioni con il suo potenziale dirompente e la tecnologia unica, nonostante la sua popolarità, le sue origini misteriose continuano a affascinare e confondere le persone. Satoshi Nakamoto, il creatore di Bitcoin, rimane sconosciuto fino ad oggi, nonostante numerosi tentativi di scoprire la sua vera identità. Anche se è passato più di un decennio dall'emergere di Bitcoin, siamo ancora lontani dal risolvere la domanda: Chi è Satoshi Nakamoto? Tuttavia, data la natura decentralizzata di Bitcoin, ha davvero importanza?
+Sebbene Bitcoin abbia catturato le menti di milioni con il suo potenziale dirompente e la tecnologia unica, nonostante la sua popolarità, le sue origini misteriose continuano a affascinare e confondere le persone. Satoshi Nakamoto, il creatore di Bitcoin, rimane sconosciuto fino ad oggi, nonostante numerosi tentativi di scoprire la sua vera identità. Anche se è passato più di un decennio dall'emergere di Bitcoin, siamo ancora lontani dal risolvere la question: Chi è Satoshi Nakamoto? Tuttavia, data la natura decentralizzata di Bitcoin, ha davvero importanza?
 
 In ogni caso, diamo un'occhiata al mito e alla leggenda.
 Satoshi Nakamoto è emerso su internet nel 2008 con un'idea rivoluzionaria: il contante elettronico peer-to-peer. Ha condiviso la sua visione in un [documento di nove pagine](https://bitcoin.org/bitcoin.pdf) intitolato "Bitcoin: A Peer-to-Peer Electronic Cash System" con la mailing list dei cypherpunk. Nonostante il disinteresse iniziale della maggior parte dei membri della mailing list, l'idea ha suscitato abbastanza curiosità in un membro, Hal Finney, che alla fine ha contattato Satoshi. Il coinvolgimento di Hal nello sviluppo di Bitcoin si è rivelato un punto di svolta, portando più persone a offrire il loro supporto.
@@ -851,7 +851,7 @@ Durante questa crisi, le banche furono chiuse, i prelievi agli ATM furono limita
 
 Sebbene il contante possa offrire una soluzione alternativa a una tale crisi, fare affidamento sulla valuta fisica in un mondo dove le transazioni digitali sono una necessità non è una soluzione a lungo termine praticabile.
 
-Questo solleva la domanda: Data l'attrito con il sistema bancario tradizionale e considerando che la volatilità a breve termine di Bitcoin può essere vista come un ostacolo per coloro con risparmi minimi, come possiamo effettuare transazioni in modo sicuro nell'era digitale senza affrontare questi rischi e limitazioni?
+Questo solleva la question: Data l'attrito con il sistema bancario tradizionale e considerando che la volatilità a breve termine di Bitcoin può essere vista come un ostacolo per coloro con risparmi minimi, come possiamo effettuare transazioni in modo sicuro nell'era digitale senza affrontare questi rischi e limitazioni?
 
 Abbiamo bisogno di una valuta legata a qualcosa di valore relativo, nativamente digitale e disponibile ogni volta che ne abbiamo bisogno, indipendentemente dall'ora o dal giorno della settimana.
 
@@ -1062,7 +1062,7 @@ Ancora una volta, è qui che le offerte di stablecoin di Tether possono fare una
 
 Poiché le loro stablecoin sono ancorate al valore di un bene sottostante, come il dollaro statunitense o l'oro, il loro prezzo è relativamente stabile rispetto ad altre valute che sperimentano un'inflazione sfrenata. Di conseguenza, offrono un'alternativa valida per le persone che vivono in paesi con valute instabili. Forniscono a questi individui un modo per spostare i loro soldi in una valuta che non è soggetta agli stessi tassi di inflazione della loro valuta locale. Questo può aiutarli a mantenere il valore dei loro risparmi e proteggersi dall'erosione del potere d'acquisto causata dall'inflazione.
 
-Tuttavia, ciò solleva una domanda: Cosa succede quando valute come il dollaro statunitense stanno sperimentando un'inflazione elevata?
+Tuttavia, ciò solleva una question: Cosa succede quando valute come il dollaro statunitense stanno sperimentando un'inflazione elevata?
 Oltre al USDt ancorato al dollaro statunitense, Tether offre XAUt—supportato dall'oro—offrendo un'alternativa ancora più robusta per le persone che cercano di sfuggire ai tassi di inflazione elevati. L'oro è stato un affidabile riserva di valore per secoli, grazie alla sua scarsità e stabilità dei prezzi. Tuttavia, fino a poco tempo fa, non era possibile utilizzare l'oro come mezzo di pagamento digitale. XAUt, supportato dall'oro, risolve questo problema fornendo un metodo per effettuare transazioni in oro senza la necessità di possederlo fisicamente. Di conseguenza, le persone possono proteggere il loro potere d'acquisto indipendentemente dal fatto che sia la loro valuta o il dollaro statunitense a sperimentare un'alta inflazione.
 
 Potresti dire: Ma che dire dell'e-gold negli anni '90?
@@ -1142,7 +1142,7 @@ Sebbene numerosi luoghi comuni circondino Bitcoin, tocciamo i nove più prominen
 8. Bitcoin consuma troppa energia
 
 Andiamo a esplorare…
-Questo solleva una domanda: cosa fa pensare alle persone che Bitcoin sia una bolla pronta a scoppiare? Nella storia, quando qualcosa ha sperimentato un aumento monumentale del prezzo, tende anche a vedere un crollo catastrofico, poiché questo prezzo è insostenibile e spesso alimentato da speculazione e avidità. Quindi, cosa rende Bitcoin diverso?
+Questo solleva una question: cosa fa pensare alle persone che Bitcoin sia una bolla pronta a scoppiare? Nella storia, quando qualcosa ha sperimentato un aumento monumentale del prezzo, tende anche a vedere un crollo catastrofico, poiché questo prezzo è insostenibile e spesso alimentato da speculazione e avidità. Quindi, cosa rende Bitcoin diverso?
 
 Primo, Bitcoin ha un'offerta limitata di 21 milioni di monete, il che significa che, a differenza delle valute fiat tradizionali, non può essere svalutato tramite l'espansione monetaria. Questa scarsità, combinata con l'adozione globale crescente di Bitcoin, ha portato a un aumento costante ma volatile del suo valore nel tempo. Questo è diverso da qualsiasi altro bene, in cui all'aumentare dei prezzi, aumenta anche l'offerta. Ciò significa che l'offerta supererà la domanda in un certo punto, e i prezzi dovranno crollare.
 

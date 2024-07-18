@@ -1,10 +1,10 @@
-Frage: In wie vielen Ländern weltweit ist es Frauen untersagt, Bankkonten auf ihren eigenen Namen zu eröffnen?
-Antwort: 72
-Falsche Antworten:
+question: In wie vielen Ländern weltweit ist es Frauen untersagt, Bankkonten auf ihren eigenen Namen zu eröffnen?
+answer: 72
+wrong_answers:
   - 36
   - 75
   - 100
-Erklärung: |
+explanation: |
   In 72 Ländern weltweit ist es Frauen nicht gestattet, 
   Bankkonten auf ihren eigenen Namen zu eröffnen.
-Überprüft: true
+reviewed: false

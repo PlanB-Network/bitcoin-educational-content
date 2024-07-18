@@ -1,10 +1,10 @@
-Frage: Was ist der Zweck von Knoten im Bitcoin-Netzwerk?
-Antwort: Die Blockchain aufrechtzuerhalten und zu sichern
+question: Was ist der Zweck von Knoten im Bitcoin-Netzwerk?
+answer: Die Blockchain aufrechtzuerhalten und zu sichern
 falsche_Antworten:
   - Transaktionen zu verarbeiten
   - Änderungen am Bitcoin-Codebase vorzuschlagen und umzusetzen
   - Mit anderen Minern zu konkurrieren
-Erklärung: |
+explanation: |
   Knoten sind entscheidend für die Integrität und Sicherheit des Bitcoin-Netzwerks.
   Sie fungieren als Wächter des Systems und stellen sicher, dass Transaktionen
   korrekt und gemäß den Regeln verarbeitet werden.

@@ -1,11 +1,11 @@
-Frage: Unter den folgenden Antworten, welche erlaubt es nicht, die Heuristiken der Kettenanalyse zu täuschen?
+question: Unter den folgenden Antworten, welche erlaubt es nicht, die Heuristiken der Kettenanalyse zu täuschen?
 
-Antwort: Immer die gleiche Empfangsadresse verwenden.
+answer: Immer die gleiche Empfangsadresse verwenden.
 
-Falsche Antworten:
+wrong_answers:
   - Eine Wechselgeldtransaktion erstellen, deren Wert nahe am Zahlungsbetrag liegt.
   - Ausgänge mit unregelmäßigen, nicht-runden Beträgen erzeugen.
   - Die Streuung der Transaktionen über den Tag verteilen.
 
-Erklärung: |
+explanation: |
   Man sollte insbesondere eine Empfangsadresse nicht mehrmals verwenden. Alle anderen Antworten ermöglichen es, die Heuristiken der Kettenanalyse zu umgehen.

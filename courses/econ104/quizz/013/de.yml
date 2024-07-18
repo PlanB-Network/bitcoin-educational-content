@@ -1,17 +1,17 @@
-Frage: Wie profitieren Einzelpersonen in kriegsgeplagten oder instabilen Ländern von Bitcoin?
+question: Wie profitieren Einzelpersonen in kriegsgeplagten oder instabilen Ländern von Bitcoin?
 
-Antwort: Es ermöglicht die Speicherung von Werten auf eine dezentralisierte und sichere Weise, die einen größeren Widerstand gegen Diebstahl bietet.
+answer: Es ermöglicht die Speicherung von Werten auf eine dezentralisierte und sichere Weise, die einen größeren Widerstand gegen Diebstahl bietet.
 
-Falsche Antworten:
+wrong_answers:
   - Es ermöglicht den Zugang zu traditionellen Bankdienstleistungen.
   - Es stellt ein physisches Gut zur Verfügung, das im Wert steigen kann.
   - Es bietet Schutz gegen Deflation.
 
-Erklärung: |
+explanation: |
   In kriegsgeplagten oder instabilen Ländern haben Einzelpersonen möglicherweise Schwierigkeiten, 
   traditionelle Bankdienstleistungen zu nutzen oder stehen vor dem Risiko des Diebstahls oder 
   der Beschlagnahmung von physischen Vermögenswerten. Bitcoin ermöglicht es Einzelpersonen, Werte 
   auf eine dezentralisierte und sichere Weise zu speichern, ohne die Notwendigkeit von Zwischenhändlern 
   oder physischen Vermögenswerten, die Risiken wie Inflation, Diebstahl oder Beschlagnahme ausgesetzt sind.
 
-Überprüft: true
+reviewed: false

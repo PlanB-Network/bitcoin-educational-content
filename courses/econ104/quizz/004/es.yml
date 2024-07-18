@@ -1,11 +1,11 @@
-pregunta: ¿Cuál es una razón por la que la moneda fiduciaria conduce a un control centralizado?
-respuesta: Permite a los gobiernos controlar la oferta monetaria y las tasas de interés.
-respuestas_incorrectas:
+question: ¿Cuál es una razón por la que la moneda fiduciaria conduce a un control centralizado?
+answer: Permite a los gobiernos controlar la oferta monetaria y las tasas de interés.
+wrong_answers:
   - Está respaldada por commodities físicos como el oro y la plata.
   - Es resistente a la inflación.
   - Fomenta sistemas financieros descentralizados.
-explicación: |
+explanation: |
   La moneda fiduciaria otorga a los gobiernos el poder de controlar la oferta monetaria y
   las tasas de interés, permitiéndoles influir en la actividad económica y resultando
   en un control centralizado.
-revisado: true
+reviewed: false

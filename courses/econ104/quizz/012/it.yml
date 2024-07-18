@@ -1,12 +1,12 @@
-domanda: Qual è il vantaggio offerto dalla rete Bitcoin rispetto ai sistemi finanziari tradizionali?
-risposta: Decentralizzazione e sicurezza
-risposte_errate:
+question: Qual è il vantaggio offerto dalla rete Bitcoin rispetto ai sistemi finanziari tradizionali?
+answer: Decentralizzazione e sicurezza
+wrong_answers:
   - Tassi di inflazione aumentati
   - Dipendenza da intermediari
   - Controllo centralizzato sulle transazioni
-spiegazione: |
+explanation: |
   La rete decentralizzata di Bitcoin offre un modo sicuro ed efficiente per 
   effettuare transazioni senza la necessità di intermediari o terze parti. Questo 
   riduce il rischio di censura e di modifiche non autorizzate alle transazioni,
   oltre ad aumentare la privacy.
-revisionato: vero
+reviewed: false

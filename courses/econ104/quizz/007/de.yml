@@ -1,13 +1,13 @@
-Frage: Welche Auswirkungen hat das Drucken von mehr Geld auf die Kaufkraft einer Währung?
-Antwort: Eine Verschlechterung der Kaufkraft der Währung
-Falsche Antworten:
+question: Welche Auswirkungen hat das Drucken von mehr Geld auf die Kaufkraft einer Währung?
+answer: Eine Verschlechterung der Kaufkraft der Währung
+wrong_answers:
   - Ein Anstieg der Kaufkraft der Währung
   - Keine Auswirkungen
   - Mehr Geld = höhere Kaufkraft
-Erklärung: |
+explanation: |
   Wenn Zentralbanken beschließen, Geld zu drucken, können sie nicht einfach mehr Wert schaffen.
   Damit dieses neu gedruckte Geld etwas wert ist, muss sein Wert von den bisherigen Währungsinhabern kommen.
   Stellen Sie sich die Geldmenge wie eine Pizza vor und stellen Sie sich vor, sie wäre in vier Stücke geschnitten.
   Die Verdopplung der Geldmenge wäre nicht gleichbedeutend mit einer Verdopplung der Menge an Pizza.
   Stattdessen wäre es gleichbedeutend damit, diese vier Stücke in der Mitte durchzuschneiden, um acht Stücke zu erstellen. Wir haben keine zusätzliche Pizza gewonnen. Wir haben nur mehr Stücke, jedes kleiner in der Größe. Daher führt das Drucken von mehr Geld dazu, dass wir das Geld, das bereits existiert, entwerten.
-Überprüft: true
+reviewed: false

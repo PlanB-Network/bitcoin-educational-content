@@ -1,10 +1,10 @@
-domanda: Perché oggi è molto più difficile acquistare una casa rispetto agli anni '80?
-risposta: I tassi di interesse bassi rendono il debito più allettante e l'inflazione
-risposte_errate:
+question: Perché oggi è molto più difficile acquistare una casa rispetto agli anni '80?
+answer: I tassi di interesse bassi rendono il debito più allettante e l'inflazione
+wrong_answers:
   - Inflazione e tassi di affitto
   - L'aumento del costo della vita e la crescita della popolazione
   - Mancanza di proprietà e tassi di interesse bassi che rendono il debito più allettante
-spiegazione: |
+explanation: |
   Mentre l'inflazione sta svalutando il potere d'acquisto della nostra valuta, rendendo 
   più difficile risparmiare, i tassi di interesse bassi rendono il consumo di debito 
   più allettante. Quando il costo del capitale è così basso, le persone prendono in prestito 

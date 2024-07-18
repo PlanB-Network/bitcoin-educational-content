@@ -1,10 +1,10 @@
-domanda: Qual è uno dei principali vantaggi di Bitcoin per le persone senza un conto bancario?
-risposta: Bitcoin permette l'uguaglianza nelle transazioni, indipendentemente dallo status sociale o dalla posizione politica.
-risposte_errate:
+question: Qual è uno dei principali vantaggi di Bitcoin per le persone senza un conto bancario?
+answer: Bitcoin permette l'uguaglianza nelle transazioni, indipendentemente dallo status sociale o dalla posizione politica.
+wrong_answers:
   - Bitcoin permette disuguaglianza nelle transazioni.
   - Bitcoin beneficia solo le persone con un conto bancario.
   - Bitcoin beneficia solo le persone con uno status sociale elevato.
-spiegazione: >-
+explanation: >-
   Il testo menziona che ci sono 2,4 miliardi di persone nel mondo senza
   un conto bancario, e Bitcoin permette l'uguaglianza nelle transazioni, indipendentemente dallo status sociale o dalla posizione politica.
 revisionato: false

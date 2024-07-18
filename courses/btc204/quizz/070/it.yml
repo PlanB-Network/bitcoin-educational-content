@@ -1,13 +1,13 @@
-domanda: Quali rischi sono associati all'uso di un nodo di terze parti?
+question: Quali rischi sono associati all'uso di un nodo di terze parti?
 
-risposta: Censura e monitoraggio delle attività.
+answer: Censura e monitoraggio delle attività.
 
-risposte_errate:
+wrong_answers:
   - Perdita di bitcoin.
   - Aumento delle commissioni di transazione.
   - Furto di bitcoin e tracciamento.
 
-spiegazione: |
+explanation: |
   Se utilizzi un nodo che non ti appartiene, corri il rischio che le tue trasmissioni di transazioni vengano bloccate e di essere monitorato dall'operatore.
 
 revisionato: false

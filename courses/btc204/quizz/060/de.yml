@@ -1,11 +1,11 @@
-Frage: Welche Information sollte auf einem Etikett angegeben werden?
+question: Welche Information sollte auf einem Etikett angegeben werden?
 
-Antwort: Der Ursprung eines UTXO.
+answer: Der Ursprung eines UTXO.
 
-Falsche Antworten:
+wrong_answers:
   - Das Erstellungsdatum eines UTXO.
   - Die Größe eines UTXO.
   - Die mit der Erstellung eines UTXO verbundenen Gebühren.
 
-Erklärung: |
+explanation: |
   Die Beschriftung ist eine gute Praxis, die dabei hilft, sich an den Ursprung eines UTXO zu erinnern.

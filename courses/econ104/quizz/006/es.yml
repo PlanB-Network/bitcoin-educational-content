@@ -1,12 +1,12 @@
-pregunta: ¿Por qué es mucho más difícil comprar una casa hoy que en la década de 1980?
-respuesta: Las tasas de interés suprimidas hacen que la deuda sea más atractiva y la inflación
-respuestas_incorrectas:
+question: ¿Por qué es mucho más difícil comprar una casa hoy que en la década de 1980?
+answer: Las tasas de interés suprimidas hacen que la deuda sea más atractiva y la inflación
+wrong_answers:
   - La inflación y las tasas de alquiler
   - El creciente costo de vida y el crecimiento poblacional
   - La falta de propiedades y las tasas de interés suprimidas haciendo que la deuda sea más atractiva
-explicación: |
+explanation: |
   Mientras que la inflación está devaluando el poder adquisitivo de nuestra moneda, haciendo 
   más difícil ahorrar, las tasas de interés suprimidas están haciendo el consumo de deuda 
   más atractivo. Cuando el costo del capital es tan barato, la gente se endeuda más allá 
   de sus medios, canalizando más capital hacia los activos y elevando los precios.
-revisado: true
+reviewed: false

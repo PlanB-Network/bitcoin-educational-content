@@ -1,10 +1,10 @@
-domanda: Qual è la ragione principale della volatilità dei prezzi a breve termine nelle stablecoin?
-risposta: Bassi livelli di liquidità sugli scambi
-risposte_errate:
+question: Qual è la ragione principale della volatilità dei prezzi a breve termine nelle stablecoin?
+answer: Bassi livelli di liquidità sugli scambi
+wrong_answers:
   - Mancanza di riserve per soddisfare le richieste di prelievo
   - Attacchi informatici che compromettono la stablecoin
   - Scollegamento delle stablecoin dal loro valore di riferimento
-spiegazione: |
+explanation: |
   La volatilità dei prezzi a breve termine nelle stablecoin è spesso il risultato
   di problemi di liquidità, dove gli scambi più piccoli potrebbero non avere la capacità
   di soddisfare le richieste dei clienti, causando fluttuazioni temporanee dei prezzi.

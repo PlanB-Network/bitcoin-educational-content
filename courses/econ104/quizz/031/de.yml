@@ -1,15 +1,15 @@
-Frage: Was ist der Hauptgrund für kurzfristige Preisvolatilität bei Stablecoins?
+question: Was ist der Hauptgrund für kurzfristige Preisvolatilität bei Stablecoins?
 
-Antwort: Geringe Liquiditätsniveaus an Börsen
+answer: Geringe Liquiditätsniveaus an Börsen
 
-Falsche Antworten:
+wrong_answers:
   - Fehlende Reserven, um Auszahlungsanforderungen zu erfüllen
   - Hacks, die den Stablecoin gefährden
   - Abkopplung von Stablecoins
 
-Erklärung: |
+explanation: |
   Kurzfristige Preisvolatilität bei Stablecoins ist oft das Ergebnis 
   von Liquiditätsproblemen, bei denen kleinere Börsen möglicherweise nicht die Fähigkeit 
   haben, die Nachfrage der Kunden zu erfüllen, was zu vorübergehenden Preisschwankungen führt.
 
-Überprüft: true
+reviewed: false

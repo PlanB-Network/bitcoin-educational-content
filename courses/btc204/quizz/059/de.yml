@@ -1,13 +1,13 @@
-Frage: Auf welchem Niveau liegt ungefähr die Gesamtrate der Adresswiederverwendung bei Bitcoin?
+question: Auf welchem Niveau liegt ungefähr die Gesamtrate der Adresswiederverwendung bei Bitcoin?
 
-Antwort: Ungefähr 50%
+answer: Ungefähr 50%
 
-Falsche Antworten:
+wrong_answers:
   - Ungefähr 5%
   - Ungefähr 15%
   - Ungefähr 40%
 
-Erklärung: |
+explanation: |
   Seit den frühen 2010er Jahren hat die Gesamtrate der Adresswiederverwendung bei Bitcoin um die 50% geschwankt.
 
 Überprüft: false

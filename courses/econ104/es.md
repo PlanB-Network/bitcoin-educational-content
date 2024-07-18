@@ -845,7 +845,7 @@ Durante esta crisis, los bancos estuvieron cerrados, los retiros de los cajeros 
 
 Aunque el efectivo puede ofrecer una solución a tal crisis, depender de la moneda física en un mundo donde las transacciones digitales son una necesidad no es una solución viable a largo plazo.
 
-Esto plantea la pregunta: Dada la fricción con la banca tradicional y que la volatilidad a corto plazo de Bitcoin puede verse como un obstáculo para aquellos con ahorros mínimos, ¿cómo podemos realizar transacciones de manera segura en la era digital sin enfrentar estos riesgos y limitaciones?
+Esto plantea la question: Dada la fricción con la banca tradicional y que la volatilidad a corto plazo de Bitcoin puede verse como un obstáculo para aquellos con ahorros mínimos, ¿cómo podemos realizar transacciones de manera segura en la era digital sin enfrentar estos riesgos y limitaciones?
 
 Necesitamos una moneda vinculada a algo de valor relativo, nativamente digital y disponible siempre que la necesitemos, independientemente de la hora o el día de la semana.
 
@@ -1055,7 +1055,7 @@ Una vez más, aquí es donde las ofertas de stablecoin de Tether pueden marcar u
 
 Dado que sus stablecoins están vinculadas al valor de un activo subyacente, como el dólar estadounidense o el oro, su precio es relativamente estable en comparación con otras monedas que experimentan inflación desenfrenada. Como resultado, ofrecen una alternativa viable para las personas que viven en países con monedas inestables. Proporcionan a estas personas una manera de mover su dinero a una moneda que no está sujeta a las mismas tasas de inflación que su moneda local. Esto puede ayudarles a mantener el valor de sus ahorros y protegerse de la erosión del poder adquisitivo causada por la inflación.
 
-Sin embargo, esto plantea la pregunta: ¿Qué pasa cuando monedas como el dólar estadounidense están experimentando una inflación elevada?
+Sin embargo, esto plantea la question: ¿Qué pasa cuando monedas como el dólar estadounidense están experimentando una inflación elevada?
 Además del USDt, que está vinculado al USD, Tether ofrece XAUt—respaldado por oro—ofreciendo una alternativa aún más robusta para aquellas personas que buscan escapar de las altas tasas de inflación.
 El oro ha sido un depósito de valor de confianza durante siglos, gracias a su escasez y estabilidad de precio. Sin embargo, hasta hace poco, no era posible utilizar el oro como medio de pago digital. XAUt, respaldado por oro, resuelve este problema al proporcionar un método de transacción en oro sin la necesidad de posesión física. Como resultado, las personas pueden proteger su poder adquisitivo independientemente de si es su moneda o el USD el que experimenta alta inflación.
 
@@ -1137,7 +1137,7 @@ Aunque numerosos conceptos erróneos rodean a Bitcoin, toquemos los nueve más p
 8. Bitcoin consume demasiada energía
 
 Profundicemos…
-Esto plantea la pregunta: ¿Qué es lo que da a las personas la impresión de que Bitcoin es una burbuja a punto de estallar? A lo largo de la historia, cuando algo ha experimentado un aumento monumental en precio, también tiende a ver un colapso catastrófico, ya que este precio es insostenible y a menudo impulsado por la especulación y la codicia. Entonces, ¿qué hace diferente a Bitcoin?
+Esto plantea la question: ¿Qué es lo que da a las personas la impresión de que Bitcoin es una burbuja a punto de estallar? A lo largo de la historia, cuando algo ha experimentado un aumento monumental en precio, también tiende a ver un colapso catastrófico, ya que este precio es insostenible y a menudo impulsado por la especulación y la codicia. Entonces, ¿qué hace diferente a Bitcoin?
 
 Primero, bitcoin tiene un suministro limitado de 21 millones de monedas, lo que significa que, a diferencia de las monedas fiduciarias tradicionales, no puede ser devaluado por la expansión monetaria. Esta escasez, combinada con la adopción global creciente de Bitcoin, ha llevado a un aumento constante pero volátil en su valor a lo largo del tiempo. Esto es diferente a cualquier otro activo, donde a medida que los precios suben, también lo hace el suministro. Esto significa que el suministro superará la demanda en algún punto, y los precios tendrán que colapsar.
 

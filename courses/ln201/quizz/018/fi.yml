@@ -1,0 +1,11 @@
+kysymys: Mitä Alice tekee saatuaan Bobin julkisen osoitteen?
+vastaus: Hän luo 2/2 moniallekirjoitusosoitteen.
+väärät_vastaukset:
+  - Hän lähettää rahaa Bobin julkiseen osoitteeseen.
+  - Hän julkaisee siirron Bitcoin-verkkoon.
+  - Hän pyytää Bobilta tämän allekirjoitusta.
+selitys: |
+  Saatuaan Bobin julkisen osoitteen, Alice käyttää sitä yhdessä oman
+  julkisen osoitteensa kanssa luodakseen 2/2 moniallekirjoitusosoitteen. Tämä on osoite, johon hän
+  aikoo lähettää rahaa avatakseen kanavan.
+arvioitu: false

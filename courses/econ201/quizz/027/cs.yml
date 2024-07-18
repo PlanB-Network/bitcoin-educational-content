@@ -1,0 +1,11 @@
+question: Jakou roli hraje peníze v mezidobové koordinaci lidské činnosti?
+answer: Umožňují uchování hodnoty v současnosti a její přenos budoucímu já.
+wrong_answers:
+  - Umožňují uchování hodnoty v budoucnosti a její přenos současnému já.
+  - Umožňují uchování hodnoty v současnosti a její přenos jiným lidem.
+  - Umožňují uchování hodnoty v budoucnosti a její přenos jiným lidem.
+explanation: |
+  Ukládáním peněz, tj. spořením, jednotlivci chrání před budoucí nejistotou
+  a tím si umožňují směřovat své činy k delším časovým horizontům.
+  Toho však mohou dosáhnout pouze tehdy, pokud použité peníze představují uchovatele hodnoty.
+reviewed: false

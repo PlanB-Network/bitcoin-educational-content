@@ -1,0 +1,9 @@
+câu hỏi: Việc sử dụng địa chỉ Bitcoin có tiết kiệm không gian trong các khối không?
+câu trả lời: Điều này không đúng
+câu trả lời sai:
+  - Điều này đúng
+  - Chỉ khi địa chỉ được nén
+  - Chỉ khi địa chỉ được băm
+giải thích: |
+  Việc sử dụng địa chỉ Bitcoin không tiết kiệm không gian trong các khối. Lý do chính để sử dụng một địa chỉ là để giảm kích thước của thông tin khóa công khai.
+đã xem xét: false

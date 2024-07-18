@@ -1,0 +1,9 @@
+kysymys: Mitä Bitcoin-lompakko säilyttää?
+vastaus: Yksityiset avaimet, jotka ovat tarpeen bitcoinien omistajuuden todistamiseksi
+väärät_vastaukset:
+  - Itse bitcoinit
+  - Julkiset avaimet, jotka ovat tarpeen bitcoinien omistajuuden todistamiseksi
+  - Bitcoinien transaktiohistoria
+selitys: |
+  Todellisuudessa Bitcoin-lompakko säilyttää yksityiset avaimet, jotka ovat tarpeen bitcoinien omistajuuden todistamiseksi. Itse bitcoinit kirjataan lohkoketjuun, hajautettuun tietokantaan, joka arkistoi kaikki transaktiot.
+arvioitu: false

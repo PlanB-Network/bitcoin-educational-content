@@ -1,0 +1,10 @@
+otázka: Jaká je role jednotky bitcoinu v každodenním životě?
+odpověď: Používá se k nákupu a prodeji zboží a služeb.
+špatné_odpovědi:
+  - Používá se k těžbě nových bitcoinů.
+  - Používá se k regulaci ceny Bitcoinu.
+  - Používá se k ovládání protokolu Bitcoin.
+vysvětlení: |
+  V každodenním životě lidé používají jednotku Bitcoin k nákupu a prodeji zboží a
+  služeb. Spoléhá na protokol Bitcoin, aby fungoval.
+posouzeno: true

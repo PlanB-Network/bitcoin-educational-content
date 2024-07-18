@@ -1,0 +1,10 @@
+otázka: Jak Bitcoinový protokol zajišťuje svou necenzurovatelnost a nezastavitelnost?
+odpověď: Každá složka protokolu je geograficky distribuována po celém světě.
+špatné_odpovědi:
+  - Využívá decentralizovanou síť uzlů.
+  - Využívá složitý algoritmus pro ověřování transakcí.
+  - Využívá vysokou úroveň šifrování.
+vysvětlení: >-
+  Bitcoinový protokol zajišťuje svou necenzurovatelnost a nezastavitelnost, protože
+  každá složka protokolu je geograficky distribuována po celém světě. Například existuje přibližně 40 000 Bitcoinových uzlů na všech kontinentech.
+recenzováno: false

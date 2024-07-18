@@ -1,0 +1,9 @@
+question: Bitcoinにおける二要素認証（2FA）の目的は何ですか？
+answer: Bitcoin取引のセキュリティを強化すること。
+wrong_answers:
+  - 新しいBitcoinを採掘するため。
+  - Bitcoinを取引するため。
+  - Bitcoinを他の暗号通貨に変換するため。
+explanation: |
+  二要素認証（2FA）は、ユーザーが主張する身元を確認する方法で、彼らが知っているもの（パスワード）と、彼らが持っているものや彼ら自身のもの以外の第二の要素を利用します。これは、Bitcoin取引のセキュリティを強化するために使用されます。
+reviewed: false

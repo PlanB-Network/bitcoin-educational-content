@@ -1,0 +1,10 @@
+otázka: Jaký je vestavěný antivirový program ve Windows?
+odpověď: Windows Defender
+špatné_odpovědi:
+  - Kaspersky
+  - Norton
+  - McAfee
+vysvětlení: |
+  Windows Defender je vestavěný antivirový program ve Windows. Jedná se o bezpečné a
+  účinné řešení pro ochranu systému před hrozbami.
+recenzováno: false

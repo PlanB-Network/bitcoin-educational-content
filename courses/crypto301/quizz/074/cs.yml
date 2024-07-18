@@ -1,0 +1,9 @@
+otázka: Proč je zásadní zálohovat 24slovní obnovovací frázi Bitcoin peněženky?
+odpověď: Aby se předešlo jakékoli ztrátě prostředků.
+špatné_odpovědi:
+  - Ověřit přesnost obnovovací fráze.
+  - Generovat entropii pro peněženku.
+  - Šifrovat obnovovací frázi pro zvýšenou bezpečnost.
+vysvětlení: |
+  Zálohování 24slovní obnovovací fráze je zásadní, aby se předešlo jakékoli ztrátě prostředků.
+posouzeno: false

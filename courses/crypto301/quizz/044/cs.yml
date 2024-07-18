@@ -1,0 +1,12 @@
+otázka: Jaká je role generátorového bodu v eliptické křivce?
+odpověď: Používá se k výpočtu bodu na eliptické křivce.
+špatné_odpovědi:
+  - Používá se k generování nonce.
+  - Používá se k šifrování klíčů.
+  - Používá se k ukládání klíčů.
+vysvětlení: |
+  Generátorový bod je specifický bod na eliptické křivce, který se
+  používá při výpočtu dalších bodů na křivce. Používá se při generování
+  veřejných a soukromých klíčů, stejně jako při vytváření a ověřování digitálních
+  podpisů.
+recenzováno: false

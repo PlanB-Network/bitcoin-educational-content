@@ -1,0 +1,10 @@
+kysymys: Mikä on Lightning-maksukanava?
+vastaus: Eräänlainen "yksityinen kaista" kahden käyttäjän välillä, joka mahdollistaa nopeat ja toistuvat Bitcoin-siirrot
+vaarat_vastaukset:
+  - Eräänlainen Bitcoin-lompakko
+  - Menetelmä Bitcoinin louhimiseen
+  - Eräänlainen Bitcoin-vaihtopalvelu
+selitys: |
+  Lightning-maksukanava on eräänlainen "yksityinen kaista" kahden käyttäjän välillä,
+  joka mahdollistaa nopeat ja toistuvat Bitcoin-siirrot.
+arvioitu: false

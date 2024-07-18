@@ -1,0 +1,11 @@
+kysymys: Mikä on moniallekirjoitusosoitteiden tarkoitus Lightning-verkossa?
+vastaus: Ne vaativat kahden osapuolen suostumuksen varojen vapauttamiseen.
+väärät_vastaukset:
+  - Ne mahdollistavat nopeammat transaktioajat.
+  - Ne tarjoavat lisäsuojaa hakkeroinnilta.
+  - Ne mahdollistavat useiden kryptovaluuttojen käytön.
+selitys: |
+  Moniallekirjoitusosoitteet Lightning-verkossa vaativat kahden osapuolen
+  suostumuksen varojen vapauttamiseen. Tämä on turvatoimi, joka varmistaa, että varat
+  voidaan siirtää vain molempien osapuolten suostumuksella.
+arvioitu: false

@@ -1,0 +1,12 @@
+question: Quel est le trilemme de la blockchain dans le domaine des cryptomonnaies ?
+answer: Le compromis entre l'évolutivité, la sécurité et la décentralisation dans les cryptomonnaies
+wrong_answers:
+  - Une caractéristique de Bitcoin qui privilégie la décentralisation et la sécurité au détriment de l'évolutivité
+  - La difficulté à déterminer la trajectoire et les valeurs des cryptomonnaies
+  - La limitation de la technologie de Bitcoin par rapport à d'autres cryptomonnaies
+explanation: |
+  Le concept du trilemme de la blockchain est l'idée selon laquelle les cryptomonnaies
+  doivent privilégier deux caractéristiques importantes sur trois ; l'évolutivité,
+  la sécurité et la décentralisation. Bitcoin privilégie la décentralisation et la sécurité,
+  ce qui affecte son évolutivité, mais il parvient tout de même à l'atteindre par des moyens alternatifs.
+reviewed: true

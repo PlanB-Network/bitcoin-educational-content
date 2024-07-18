@@ -1,0 +1,10 @@
+kysymys: Mikä on keskimääräinen aika kahden lohkon luomisen välillä Bitcoin-protokollassa?
+vastaus: 10 minuuttia
+vaarat_vastaukset:
+  - 5 minuuttia
+  - 15 minuuttia
+  - 20 minuuttia
+selitys: >-
+  Keskimäärin lohko luodaan joka 10. minuutti Bitcoin-protokollassa.
+  Tämä aika pysyy vakiona riippumatta louhijoiden määrästä ja heidän laskentatehostaan.
+arvioitu: false

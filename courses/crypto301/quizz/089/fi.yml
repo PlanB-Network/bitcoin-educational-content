@@ -1,0 +1,11 @@
+kysymys: Mikä on siemen HD-lompakon kontekstissa?
+vastaus: 512-bittinen alfanumeerinen sekvenssi, joka toimii perustana lompakon avainten johdannaiselle.
+vaarat_vastaukset:
+  - Salasana, jota käytetään lompakon suojaamiseen.
+  - Ainutlaatuinen tunniste lompakolle.
+  - Koodi, jota käytetään muistisanojen luomiseen.
+selitys: |
+  Siemen on 512-bittinen alfanumeerinen sekvenssi, joka toimii perustana
+  lompakon avainten johdannaiselle. Se saadaan käyttämällä pbkdf2-funktiota yhdessä
+  muistisanalauseen ja salasanan kanssa.
+arvioitu: false

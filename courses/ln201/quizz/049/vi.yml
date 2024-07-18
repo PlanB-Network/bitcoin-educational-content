@@ -1,0 +1,11 @@
+câu hỏi: Vai trò của các nút trong Lightning Network trong một giao dịch là gì?
+câu trả lời: Chúng thu phí để đồng ý được sử dụng để định tuyến giao dịch.
+câu trả lời sai:
+  - Chúng hỗ trợ giao dịch mà không thu bất kỳ khoản phí nào.
+  - Chúng khởi xướng giao dịch.
+  - Chúng là người nhận cuối cùng của giao dịch.
+giải thích: |
+  Trong Lightning Network, các nút thu phí để đồng ý được sử dụng
+  để định tuyến giao dịch. Mức phí này khác nhau tùy thuộc vào vị trí của nguồn lực
+  lưu thông.
+đã xem xét: false

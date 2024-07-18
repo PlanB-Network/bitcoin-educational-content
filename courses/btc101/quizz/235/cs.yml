@@ -1,0 +1,9 @@
+otázka: Jaká je jednotka Bitcoinu používaná v Lightning Network?
+odpověď: Sats
+špatné_odpovědi:
+  - Bitcoin
+  - Ether
+  - Litecoin
+vysvětlení: >-
+  Lightning Network používá sats (desetinné části bitcoinu) pro svou funkci.
+recenzováno: false

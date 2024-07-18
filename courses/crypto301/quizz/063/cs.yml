@@ -1,0 +1,11 @@
+otázka: Jaký je význam zabezpečení soukromého klíče v ekosystému Bitcoinu?
+odpověď: Zajišťuje bezpečnost transakcí s Bitcoinem.
+špatné_odpovědi:
+  - Zajišťuje rychlost transakcí s Bitcoinem.
+  - Zajišťuje anonymitu transakcí s Bitcoinem.
+  - Zajišťuje legalitu transakcí s Bitcoinem.
+vysvětlení: |
+  Soukromé klíče jsou základním kamenem, který zajišťuje bezpečnost transakcí s Bitcoinem.
+  Musí být generovány zcela náhodným způsobem, aby se předešlo jakékoli zranitelnosti
+  spojené s předvídatelností.
+recenzováno: false

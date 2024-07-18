@@ -1,0 +1,12 @@
+otázka: Jaká je jedna výhoda centralizovaných stablecoinů navzdory jejich schopnosti zmrazit prostředky?
+odpověď: Mohou rychle reagovat na ochranu uživatelů v určitých scénářích
+špatné_odpovědi:
+  - Nabízejí úplnou decentralizaci a bezpečnost
+  - Nejsou předmětem žádných regulací nebo zásahů
+  - Fungují nezávisle na orgánech činných v trestním řízení
+vysvětlení: |
+  Centralizované stablecoiny mají schopnost zasáhnout,
+  když je to v nejlepším zájmu uživatelů a celkové stability
+  systému, jak ukazují příklady, kdy byly zmrazené prostředky použity
+  k ochraně spotřebitelů a zabránění hackerům v zisku.
+posouzeno: true

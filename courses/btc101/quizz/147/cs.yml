@@ -1,0 +1,13 @@
+otázka: Jaké by byly důsledky, pokud by bloky byly 100krát těžší?
+odpověď: Provozování Bitcoinového uzlu by nebylo dostupné pro průměrnou osobu, což by ohrozilo decentralizaci protokolu a neměnnost transakcí a pravidel konsensu.
+špatné_odpovědi:
+  - Provozování Bitcoinového uzlu by bylo dostupnější pro průměrnou osobu, což by zlepšilo decentralizaci protokolu a neměnnost transakcí a pravidel konsensu.
+  - Kapacita transakcí sítě by klesla.
+  - Odměna za blok pro těžaře by se zvýšila.
+vysvětlení: |
+  Pokud by bloky byly 100krát těžší, provozování Bitcoinového uzlu by vyžadovalo
+  50TB pevný disk, šířku pásma přes 500GB/měsíc a hardware schopný ověřovat
+  stovky tisíc transakcí za méně než 10 minut. To by učinilo provozování
+  Bitcoinového uzlu nedostupným pro průměrnou osobu, čímž by byla ohrožena decentralizace
+  protokolu a neměnnost transakcí a pravidel konsensu.
+reviewed: false

@@ -1,0 +1,9 @@
+kysymys: Mikä on perinnön suunnitelman luomisen tarkoitus bitcoineillesi?
+vastaus: Varmistaa, että bitcoinsi hallinnoidaan asianmukaisesti kuolemasi jälkeen
+väärät_vastaukset:
+  - Välttääkseen veroja bitcoineistasi
+  - Lisätäkseen bitcoiniesi arvoa
+  - Estääkseen bitcoiniesi varastamisen
+selitys: |
+  Perintösuunnitelma varmistaa, että bitcoinsi hallinnoidaan asianmukaisesti kuolemasi jälkeen. Se voi sisältää käsinkirjoitetun kirjeen, jossa kerrotaan omaisuudestasi, niiden käyttömenetelmistä ja luotettavien henkilöiden yhteystiedot, joihin tulee ottaa yhteyttä.
+arvioitu: true

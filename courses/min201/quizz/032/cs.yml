@@ -1,0 +1,9 @@
+question: Jaká je odměna pro těžaře v síti Bitcoin?
+answer: Nové bitcoiny a transakční poplatky.
+wrong_answers:
+  - Pouze nové bitcoiny.
+  - Pouze transakční poplatky.
+  - Těžaři nedostávají žádnou odměnu.
+explanation: |
+  Těžaři v síti Bitcoin jsou odměňováni novými bitcoiny a transakčními poplatky za svou práci na validaci a vytváření bloků.
+reviewed: false

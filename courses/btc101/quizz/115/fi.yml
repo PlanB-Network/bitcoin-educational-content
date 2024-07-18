@@ -1,0 +1,9 @@
+kysymys: Kuka oli ensimmäinen henkilö, joka liittyi Bitcoin-verkkoon Satoshi Nakamoton jälkeen?
+vastaus: Hal Finney
+väärät_vastaukset:
+  - Laszlo Hanyecz
+  - Phil Champagne
+  - Rogzy
+selitys: |
+  Hal Finney oli ensimmäinen henkilö, joka liittyi Bitcoin-verkkoon Satoshi Nakamoton jälkeen. Hän jopa twiittasi "Running Bitcoin" merkitäkseen tilaisuutta.
+arvioitu: true

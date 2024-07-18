@@ -1,0 +1,11 @@
+câu hỏi: Mục đích của giao dịch rút tiền trong một chuyển đổi Mạng Lưới Lightning là gì?
+câu trả lời: Nó đại diện cho trạng thái của kênh, đảm bảo ai sở hữu số tiền sau mỗi lần chuyển.
+câu trả lời sai:
+  - Đó là giao dịch di chuyển tiền từ một bên sang bên kia.
+  - Đó là giao dịch mở kênh.
+  - Đó là giao dịch đóng kênh.
+giải thích: |
+  Giao dịch rút tiền được cập nhật sau mỗi lần chuyển đổi Mạng Lưới Lightning
+  để phản ánh trạng thái hiện tại của kênh. Nó đảm bảo ai sở hữu số tiền sau
+  mỗi lần chuyển, nhưng nó không được thực hiện trừ khi kênh được đóng lại.
+đã xem xét: false

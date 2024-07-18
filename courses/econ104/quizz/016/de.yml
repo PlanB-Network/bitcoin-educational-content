@@ -1,0 +1,14 @@
+Frage: Was ist das Erste, was Sie tun sollten, um das Risiko eines Verlustes zu minimieren, wenn Sie die Selbstverwahrung übernehmen?
+Antwort: Sichern Sie Ihren Wallet-Wiederherstellungs-Seed-Phrase
+Falsche Antworten:
+  - Teilen Sie Ihre privaten Schlüssel mit einer vertrauenswürdigen Partei
+  - Notieren Sie Ihre Wiederherstellungs-Seed-Phrase und speichern Sie sie auf Ihrem Computer
+  - Deaktivieren Sie die Zwei-Faktor-Authentifizierung (2FA)
+Erklärung: |
+  Zuerst und vor allem sichern Sie Ihr Wallet, wenn Sie die Selbstverwahrung übernehmen.
+  Hardware-Wallets werden mit einer Wiederherstellungs-Seed-Phrase geliefert, einer Reihe von Wörtern, die 
+  verwendet werden können, um Ihre privaten Schlüssel wiederherzustellen, falls Ihr Gerät verloren geht oder beschädigt wird.
+  Erstellen Sie eine physische Kopie, wie eine Metall-[Seed-Platte](https://coincodex.com/article/23147/best-metal-crypto-wallets-for-seed-phrase-storage/), dieser Seed-Phrase und 
+  bewahren Sie sie an einem sicheren Ort auf. Es ist wichtig, diese Wiederherstellungs-Seed-Phrase sicher aufzubewahren. 
+  TEILEN Sie sie NIEMALS mit jemandem.
+Überprüft: true

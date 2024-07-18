@@ -1,0 +1,11 @@
+otázka: Jaký je účel Hloubky 2 ve struktuře HD peněženky?
+odpověď: Umožňuje rozlišení účtů pro různé kryptoměny nebo sítě
+špatné_odpovědi:
+  - Používá se k odvození dětských klíčů pro konkrétní účel
+  - Používá se pro přijímací adresy ve standardní peněžence
+  - Odpovídá vnějším a vnitřním řetězcům
+vysvětlení: |
+  Ve struktuře HD peněženky umožňuje Hloubka 2 rozlišení účtů
+  pro různé kryptoměny nebo sítě. To umožňuje organizovat peněženku
+  na základě různých zdrojů financí.
+recenzováno: false

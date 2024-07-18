@@ -1,0 +1,9 @@
+question: Bitcoinの文脈でホットウォレットとは何ですか？
+answer: Bitcoinを保管、送信、受信するためのデジタルウォレット
+wrong_answers:
+  - Bitcoinを保管するための物理的なウォレット
+  - Bitcoinを購入する方法
+  - Bitcoin交換プラットフォーム
+explanation: |
+  Bitcoinの文脈において、ホットウォレットはBitcoinを保管、送信、受信するためのデジタルウォレットです。通常、インターネットに接続されており、そのためコールドウォレットよりもセキュリティが低いとされています。
+reviewed: false

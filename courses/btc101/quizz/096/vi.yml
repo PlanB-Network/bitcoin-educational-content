@@ -1,0 +1,10 @@
+câu hỏi: Khóa riêng trong ví Bitcoin thường được biểu diễn bằng gì?
+câu trả lời: Một danh sách gồm 12 hoặc 24 từ
+câu trả lời sai:
+  - Một danh sách gồm 12 hoặc 48 từ
+  - Một danh sách gồm 32 từ
+  - Một danh sách gồm 64 từ
+giải thích: |
+  Trong ví Bitcoin, khóa riêng thường được biểu diễn bằng một danh sách
+  12 hoặc 24 từ, còn được biết đến là "hạt giống" hoặc "cụm từ ghi nhớ".
+đã xem xét: true

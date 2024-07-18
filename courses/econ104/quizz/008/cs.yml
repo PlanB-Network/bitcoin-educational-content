@@ -1,0 +1,12 @@
+otázka: Jak jsou vytvářeny nové bitcoiny a zařazeny do oběhu?
+odpověď: Těžbou jako odměnou za přidávání nových transakcí do blockchainu
+špatné_odpovědi:
+  - Prostřednictvím vydání centralizovanou autoritou
+  - Koupí od burz Bitcoinu
+  - Přijetím jako transakční poplatky
+vysvětlení: |
+  Nové bitcoiny jsou zařazeny do oběhu prostřednictvím procesu nazývaného těžba.
+  Těžaři soutěží mezi sebou o přidání nových transakcí do blockchainu.
+  Jako odměnu za svou práci jsou těžaři odměněni nově vytvořenými bitcoiny.
+  Tento proces také ověřuje a zabezpečuje transakce v síti Bitcoin.
+kontrolováno: true

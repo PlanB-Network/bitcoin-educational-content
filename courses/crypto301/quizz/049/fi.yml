@@ -1,0 +1,11 @@
+kysymys: Mikä on Bitcoin-parannusehdotusten (BIPs) tarkoitus?
+vastaus: Ne ovat päivitysehdotuksia, jotka parantavat HD-lompakoiden toiminnallisuutta ja turvallisuutta.
+väärät_vastaukset:
+  - Ne ovat ehdotuksia Bitcoinin arvon nostamiseksi.
+  - Ne ovat ehdotuksia Bitcoinin louhintaprosessin muuttamiseksi.
+  - Ne ovat ehdotuksia Bitcoinin käytön säätelyksi.
+selitys: |
+  Bitcoin-parannusehdotukset (BIPs) ovat protokollia, jotka pyrkivät parantamaan
+  HD-lompakoiden toiminnallisuutta ja turvallisuutta. Esimerkiksi BIP32 esitteli
+  käsitteen deterministisesti ja hierarkkisesti johdetuista avaimista.
+arvioitu: false

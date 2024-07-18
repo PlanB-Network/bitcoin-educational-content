@@ -1,0 +1,9 @@
+otázka: Jaké jsou dva klíčové komponenty v bezpečnostním mechanismu protokolu Bitcoin?
+odpověď: HMAC a PBKDF2 derivační algoritmy
+špatné_odpovědi:
+  - SHA-256 a RIPEMD-160 hashovací funkce
+  - Eliptická křivka digitálního podpisového algoritmu (ECDSA) a SHA-256 hashovací funkce
+  - RSA a výměna klíčů Diffie-Hellman
+vysvětlení: |
+  HMAC a PBKDF2 derivační algoritmy jsou klíčové komponenty v bezpečnostním mechanismu protokolu Bitcoin. Zabraňují řadě potenciálních útoků a zajišťují integritu Bitcoin peněženek.
+recenzováno: false

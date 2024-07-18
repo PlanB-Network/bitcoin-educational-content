@@ -1,0 +1,10 @@
+câu hỏi: Độ dài của seed trong ví HD là bao nhiêu?
+câu trả lời: Seed có độ dài từ 128 đến 256 bit.
+câu trả lời sai:
+  - Seed có độ dài từ 64 đến 128 bit.
+  - Seed có độ dài từ 256 đến 512 bit.
+  - Seed có độ dài từ 32 đến 64 bit.
+giải thích: |
+  Seed trong ví HD có độ dài từ 128 đến 256 bit. Nó được tạo ra
+
+  một cách ngẫu nhiên hoặc từ một cụm từ bí mật.

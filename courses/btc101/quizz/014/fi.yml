@@ -1,0 +1,10 @@
+kysymys: Mikä oli DigiCash-projekti?
+vastaus: Yritys luoda nimetöntä elektronista rahaa David Chaumin toimesta.
+väärät_vastaukset:
+  - Projekti digitaalisen lompakon luomiseksi Bitcoinille.
+  - Projekti kaiken fyysisen käteisen digitalisoimiseksi.
+  - Projekti kryptovaluutan luomiseksi Bitcoinin pohjalta.
+selitys: |
+  David Chaum esitteli nimettömän elektronisen rahan konseptin
+  hänen DigiCash-projektillaan 1980-luvulla.
+arvioitu: true

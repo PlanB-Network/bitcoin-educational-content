@@ -1,0 +1,11 @@
+question: Quelle est une raison pour laquelle il est important de réaliser une recherche approfondie avant de faire confiance à une stablecoin ?
+answer: Certaines stablecoins manquent de transparence et de diligence
+wrong_answers:
+  - Les stablecoins n'ont aucun risque associé
+  - Les stablecoins sont toujours entièrement soutenus par des réserves
+  - Certaines stablecoins sont régulées par le gouvernement
+explanation: |
+  Toutes les stablecoins n'offrent pas le même niveau de transparence.
+  Par conséquent, il est important de réaliser une recherche approfondie
+  avant de confier une richesse significative à une stablecoin en particulier.
+reviewed: true

@@ -1,0 +1,9 @@
+otázka: Kdokoli může zkopírovat kód Bitcoinu, čímž ho znehodnotí, správně nebo nesprávně?
+odpověď: Správně
+nesprávné_odpovědi:
+  - Nesprávně
+vysvětlení: |
+  I když je kód pro Bitcoin open source a může být zkopírován,
+  hodnota bitcoinu není odvozena od jeho kódu. Je odvozena
+  od jeho sítě uživatelů a důvěry a přijetí, které si vybudovalo během času.
+posouzeno: true

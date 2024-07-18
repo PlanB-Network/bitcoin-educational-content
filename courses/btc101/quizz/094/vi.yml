@@ -1,0 +1,9 @@
+câu hỏi: Rủi ro khi sử dụng ví multisig là gì?
+câu trả lời: Không có quyền truy cập vào đủ các phần riêng biệt của bản sao lưu multisig
+câu trả lời sai:
+  - Có quyền truy cập vào đủ các phần riêng biệt của bản sao lưu multisig
+  - Chia sẻ khóa với các bên khác
+  - Không chia sẻ khóa với các bên khác
+giải thích: |
+  Khi bạn sử dụng ví multisig, mỗi phần của multisig nên được lưu trữ ở các vị trí khác nhau. Điều này là bởi vì multisig yêu cầu nhiều chữ ký để thực hiện một giao dịch, vì vậy một số lượng ví nhất định là cần thiết, và việc lưu trữ mỗi phần ở một vị trí khác nhau tăng thêm một lớp bảo mật.
+đã xem xét: true

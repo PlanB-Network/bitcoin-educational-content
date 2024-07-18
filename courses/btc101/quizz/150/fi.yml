@@ -1,0 +1,11 @@
+kysymys: Mikä on louhijoiden rooli Bitcoin-verkossa?
+vastaus: Louhijat turvaavat verkon ja lisäävät transaktioita lohkoihin.
+väärät_vastaukset:
+  - Louhijat luovat uusia bitcoineja.
+  - Louhijat varmistavat Bitcoin-käyttäjien identiteetin.
+  - Louhijat määrittävät Bitcoinin hinnan.
+selitys: >-
+  Louhijat käyttävät laskentatehoaan monimutkaisten matemaattisten ongelmien ratkaisemiseen,
+  mikä mahdollistaa uusien transaktioiden lisäämisen lohkoketjuun. Tämä prosessi turvaa
+  verkon ja ylläpitää sen eheyttä.
+arvioitu: false

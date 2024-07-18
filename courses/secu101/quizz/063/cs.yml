@@ -1,0 +1,10 @@
+otázka: Jaké jsou některé aspekty kryptografie používané v kybernetické bezpečnosti?
+odpověď: SSL/TLS, symetrické/asymetrické šifrování
+špatné_odpovědi:
+  - RSA, DSA, ECC
+  - AES, DES, 3DES
+  - MD5, SHA-1, SHA-256
+vysvětlení: |
+  Kapitola uvádí SSL/TLS a symetrické/asymetrické šifrování jako některé
+  z aspektů kryptografie používané v kybernetické bezpečnosti.
+recenzováno: false

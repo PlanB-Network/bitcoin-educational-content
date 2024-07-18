@@ -1,0 +1,10 @@
+kysymys: Miten voit vahvistaa Bitcoin-lompakkosi oletusturvallisuutta?
+vastaus: Lisäämällä salasanan Bitcoin-lompakkoosi
+vaarat_vastaukset:
+  - Lisäämällä toisen yksityisen avaimen Bitcoin-lompakkoosi
+  - Lisäämällä toisen julkisen avaimen Bitcoin-lompakkoosi
+  - Lisäämällä toisen muistisäkeen Bitcoin-lompakkoosi
+selitys: |
+  Jos et ole tyytyväinen Bitcoin-lompakkosi oletusturvallisuuteen,
+  voit aina vahvistaa sitä lisäämällä salasanan Bitcoin-lompakkoosi.
+arvioitu: true

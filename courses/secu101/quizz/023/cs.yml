@@ -1,0 +1,9 @@
+otázka: Jaký je význam používání silného hesla pro počítačovou bezpečnost?
+odpověď: Aby se zabránilo neoprávněnému přístupu do systému.
+špatné_odpovědi:
+  - Aby systém běžel rychleji.
+  - Aby se zvýšila kapacita úložiště.
+  - Aby se zlepšilo uživatelské rozhraní.
+vysvětlení: |
+  Silné heslo je klíčové pro počítačovou bezpečnost, aby se zabránilo neoprávněnému přístupu do systému.
+recenzováno: false

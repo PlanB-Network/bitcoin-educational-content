@@ -1,0 +1,12 @@
+kysymys: Mikä on pääkritiikki Caganin hyperinflaation määritelmää kohtaan?
+vastaus: 50 prosentin kynnysarvo on mielivaltainen ja jättää tietyt korkean inflaation jaksot huomiotta
+väärät_vastaukset:
+  - Määritelmä on liian laaja ja sisältää liian monta inflaation jaksoa
+  - Määritelmä on vanhentunut eikä sovellu nykytalouksiin
+  - Määritelmä ei ota huomioon inflaation vaikutusta talouteen
+selitys: |
+  Caganin määritelmän kriitikot, kuten Bernholz, väittävät, että 50%
+  kynnysarvo
+  on mielivaltainen ja jättää tietyt korkean inflaation jaksot huomiotta, vaikka niillä on samat
+  laadulliset ominaisuudet kuin hyperinflaation jaksoilla.
+arvioitu: false

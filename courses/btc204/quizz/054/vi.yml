@@ -1,0 +1,13 @@
+câu hỏi: Tên của thuật toán mã hóa được sử dụng trong Thanh toán Ẩn danh để thiết lập một bí mật chung giữa người nhận và người thanh toán là gì?
+
+câu trả lời: ECDH
+
+câu trả lời sai:
+  - RSA
+  - DH
+  - SHA256
+
+giải thích: |
+  Thuật toán ECDH (Elliptic-Curve Diffie-Hellman) được sử dụng trong Thanh toán Ẩn danh giữa cặp khóa quét của người nhận và tổng của cặp khóa của người gửi để thiết lập bí mật chung, từ đó cho phép tạo ra địa chỉ thanh toán duy nhất.
+
+đã xem xét: false

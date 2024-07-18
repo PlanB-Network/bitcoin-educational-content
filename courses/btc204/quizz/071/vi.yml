@@ -1,0 +1,13 @@
+câu hỏi: Biện pháp trung gian nào có thể được áp dụng để ẩn kết nối khi bạn không sử dụng node Bitcoin của riêng mình?
+
+câu trả lời: Sử dụng Tor.
+
+câu trả lời sai:
+  - Sử dụng tường lửa.
+  - Sử dụng ví mã hóa.
+  - Sử dụng ví kép.
+
+giải thích: |
+  Để giảm thiểu nguy cơ bị quan sát, một giải pháp trung gian là sử dụng phần mềm ví cho phép bạn ẩn kết nối qua Tor.
+
+đã xem xét: false

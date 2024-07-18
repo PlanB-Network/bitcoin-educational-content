@@ -1,0 +1,9 @@
+otázka: Jaké je maximální množství jednotek Bitcoinu, které může kdy existovat?
+odpověď: 21 milionů jednotek
+špatné_odpovědi:
+  - 25 milionů jednotek
+  - 30 milionů jednotek
+  - 50 milionů jednotek
+vysvětlení: |
+  Počítačový kód Bitcoinu a konsensus všech uživatelů, kteří se na protokolu podílejí, určují, že maximální množství jednotek Bitcoinu, které může kdy existovat, je 21 milionů.
+recenzováno: true

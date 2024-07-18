@@ -1,0 +1,11 @@
+otázka: Jaká je role uzlů Lightning Network v transakci?
+odpověď: Účtují poplatek za souhlas s použitím pro směrování transakce.
+špatné_odpovědi:
+  - Umožňují transakci bez jakýchkoli poplatků.
+  - Iniciují transakci.
+  - Jsou konečnými příjemci transakce.
+vysvětlení: |
+  V Lightning Network uzly účtují poplatek za souhlas s použitím
+  pro směrování transakce. Tento poplatek se liší v závislosti na tom, kde je likvidita
+  umístěna.
+recenzováno: false

@@ -1,0 +1,9 @@
+câu hỏi: Các kênh thanh toán Lightning có hai chiều không?
+câu trả lời: "Có"
+câu trả lời sai:
+  - "Không"
+  - Chỉ trong một số trường hợp
+  - Tùy thuộc vào mạng Bitcoin
+giải thích: |
+  Các kênh thanh toán là hai chiều, nghĩa là chúng có hai "phía." Ví dụ, nếu Alice và Bob mở một kênh thanh toán, Alice có thể gửi Bitcoin cho Bob, và Bob cũng có thể gửi Bitcoin cho Alice.
+đã xem xét: false

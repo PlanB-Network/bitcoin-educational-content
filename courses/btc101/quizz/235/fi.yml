@@ -1,0 +1,9 @@
+kysymys: Mikä on Bitcoinin yksikkö, jota käytetään Lightning Networkissa?
+vastaus: Sats
+väärät_vastaukset:
+  - Bitcoin
+  - Ether
+  - Litecoin
+selitys: >-
+  Lightning Network käyttää sats-yksikköä (bitcoinin desimaali) toimiakseen.
+arvioitu: false

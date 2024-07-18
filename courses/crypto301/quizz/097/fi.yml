@@ -1,0 +1,10 @@
+kysymys: Mikä on laajennettujen avainten tarkoitus HD-lompakossa?
+vastaus: Niitä käytetään johdannaisten avainten luomiseen.
+vaarat_vastaukset:
+  - Niitä käytetään pääavaimen luomiseen.
+  - Niitä käytetään lompakon salaamiseen.
+  - Niitä käytetään tapahtumien vahvistamiseen.
+selitys: |
+  Laajennettuja avaimia käytetään johdannaisten avainten luomiseen, ja ne vaativat sekä vanhemman
+
+  avaimen että vastaavan ketjukoodin.

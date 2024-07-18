@@ -1,0 +1,9 @@
+kysymys: Mitkä ovat ne 2 elementtiä, jotka muodostavat lohkopalkkion coinbase-transaktiossa?
+vastaus: Lohkotuki ja transaktiomaksut.
+väärät_vastaukset:
+  - Lohkotuki ja nopeusbonukset.
+  - Päästöoikeudet ja turvallisuuslisät.
+  - Kaivososinkot ja verkon verot.
+selitys: |
+  Kun kaivostyöläinen löytää validin lohkon, hän on oikeutettu palkkioon, joka koostuu toisaalta lohkotuesta ja toisaalta transaktiomaksuista, jotka hän on sisällyttänyt lohkoonsa.
+arvioitu: false

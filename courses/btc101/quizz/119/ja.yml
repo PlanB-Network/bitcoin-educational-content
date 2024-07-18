@@ -1,0 +1,9 @@
+question: BitcoinTalkとは何ですか？
+answer: Bitcoinユーザーのための議論の場
+wrong_answers:
+  - Bitcoinのマイニングソフトウェア
+  - Bitcoinのウォレット
+  - Bitcoinのカンファレンス
+explanation: |
+  BitcoinTalkフォーラムは、Bitcoinユーザーのための議論の場です。これは、サトシ・ナカモトによって2009年11月22日に作成されました。
+reviewed: true

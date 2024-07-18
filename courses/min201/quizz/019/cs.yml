@@ -1,0 +1,11 @@
+otázka: Jaký význam má Lightning Network v kontextu těžby Bitcoinu?
+odpověď: Lightning Network má potenciál výrazně snížit transakční poplatky, čímž ovlivňuje příjmy těžařů.
+špatné_odpovědi:
+  - Lightning Network zvyšuje velikost bloku, čímž zvyšuje příjmy těžařů.
+  - Lightning Network snižuje energetickou náročnost těžby Bitcoinu.
+  - Lightning Network zvyšuje rychlost těžby Bitcoinu.
+vysvětlení: |
+  Lightning Network umožňuje rychlé a nízkonákladové transakce mimo
+  hlavní řetězec Bitcoinu. To má potenciál výrazně snížit transakční
+  poplatky, což by mohlo ovlivnit příjmy těžařů.
+recenzováno: false

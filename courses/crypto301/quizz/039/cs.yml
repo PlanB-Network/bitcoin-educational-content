@@ -1,0 +1,9 @@
+otázka: Na čem je založena bezpečnost veřejných a soukromých klíčů?
+odpověď: Na problému diskrétního logaritmu
+špatné_odpovědi:
+  - Na problému faktorizace prvočísel
+  - Na problému batohu
+  - Na problému obchodního cestujícího
+vysvětlení: |
+  Bezpečnost veřejných a soukromých klíčů spočívá na problému diskrétního logaritmu, což je složitá matematická otázka.
+recenzováno: false

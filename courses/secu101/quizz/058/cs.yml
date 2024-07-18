@@ -1,0 +1,11 @@
+otázka: Jaké nástroje se používají v kybernetické bezpečnosti?
+odpověď: Wireshark, Metasploit, Nmap
+špatné_odpovědi:
+  - Photoshop, Illustrator, InDesign
+  - Excel, PowerPoint, Word
+  - AutoCAD, SolidWorks, Revit
+vysvětlení: |
+  Kapitola uvádí Wireshark, Metasploit a Nmap jako některé z nástrojů
+
+
+  používaných v kybernetické bezpečnosti.

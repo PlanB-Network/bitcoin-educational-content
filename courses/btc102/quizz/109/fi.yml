@@ -1,0 +1,10 @@
+kysymys: Mikä on Lightning Network Bitcoinin kontekstissa?
+vastaus: Toinen kerroksen teknologia, joka tuo täysin uuden näkemyksen siitä, mikä Bitcoin on.
+väärät_vastaukset:
+  - Verkosto Bitcoin-louhijoista.
+  - Uuden tyyppinen Bitcoin.
+  - Bitcoin-kaupankäyntialusta.
+selitys: |
+  Lightning Network on "kerros 2" maksuprotokolla, joka toimii
+  lohkoketjupohjaisen kryptovaluutan (kuten Bitcoin) päällä. Se on suunniteltu mahdollistamaan
+  nopeat transaktiot osallistuvien solmujen kesken.

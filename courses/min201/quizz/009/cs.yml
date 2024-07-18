@@ -1,0 +1,12 @@
+otázka: Jaká je role softwaru při těžbě Bitcoinu a jak přispívá k efektivitě?
+odpověď: Software v těžbě Bitcoinu, jako například BrainsOS Plus, nahrazuje původní operační systém těžebního stroje, což umožňuje provádět stejné operace efektivněji. Může zvýšit efektivitu stroje o 25 %, což znamená, že při ekvivalentním množství elektrické energie může stroj vyprodukovat o 25 % více hashrate, čímž se zvyšují odměny přijímané těžařem.
+nesprávné_odpovědi:
+  - Software v těžbě Bitcoinu slouží k sledování množství vytěženého Bitcoinu a nepřispívá k efektivitě.
+  - Software v těžbě Bitcoinu slouží k připojení těžebního stroje k internetu a nepřispívá k efektivitě.
+  - Software v těžbě Bitcoinu slouží k ochlazení těžebního stroje a nepřispívá k efektivitě.
+vysvětlení: |
+  Kapitola vysvětluje, že software jako BrainsOS Plus může nahradit
+  původní operační systém těžebního stroje, což umožňuje provádět stejné operace
+  efektivněji. Tato optimalizace softwaru je zásadním prvkem konkurenceschopnosti
+  v těžbě Bitcoinu.
+recenzováno: false

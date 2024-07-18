@@ -1,0 +1,11 @@
+kysymys: Mikä on merkittävä esimerkki Bitcoinin kovasta haarautumisesta?
+vastaus: Bitcoin Cash (BCH)
+väärät_vastaukset:
+  - Ethereum (ETH)
+  - Litecoin (LTC)
+  - Ripple (XRP)
+selitys: |
+  Bitcoin on ajan myötä kokenut useita kovia haarautumisia, jotka ovat johtaneet erilaisiin
+  alkuperäisen valuutan vaihtoehtoisiin versioihin. Merkittäviä esimerkkejä näistä poikkeamista
+  ovat Bitcoin Cash (BCH) ja Bitcoin Satoshi Vision (BSV).
+arvioitu: false

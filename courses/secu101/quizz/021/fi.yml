@@ -1,0 +1,11 @@
+kysymys: Mikä on potentiaalinen uhka käytettäessä krakattua ohjelmistoa, jota ei voi päivittää?
+vastaus: Viruksen saapuminen sen laittoman latauksen aikana ja turvaton käyttö uusia hyökkäysmuotoja vastaan.
+väärät_vastaukset:
+  - Ohjelmisto lakkaa toimimasta tietyn ajan kuluttua.
+  - Ohjelmistoon ei tule uusia ominaisuuksia.
+  - Ohjelmisto kuluttaa enemmän järjestelmän resursseja.
+selitys: |
+  Krakattu ohjelmisto, jota ei voi päivittää, edustaa kaksinkertaista potentiaalista
+  uhkaa. Se voi tuoda viruksen sen laittoman latauksen aikana epäilyttävältä verkkosivustolta
+  ja se voi olla turvaton uusia hyökkäysmuotoja vastaan.
+arvioitu: false

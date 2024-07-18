@@ -1,0 +1,11 @@
+kysymys: Mikä on BTCMap?
+vastaus: Alusta, joka listaa kaikki kauppiaat, jotka hyväksyvät Bitcoinin
+väärät_vastaukset:
+  - Maailman kaikkien Bitcoin-kaivosten kartta
+  - Maailman kaikkien Bitcoin-vaihtojen kartta
+  - Maailman kaikkien Bitcoin-käyttäjien kartta
+selitys: >-
+  BTCMap on avoimen lähdekoodin ja yhteistyöhön perustuva projekti, joka listaa kaikki
+  kauppiaat, jotka hyväksyvät Bitcoinin sekä erilaiset Bitcoin-yhteisöt ympäri
+  maailmaa.
+arvioitu: false

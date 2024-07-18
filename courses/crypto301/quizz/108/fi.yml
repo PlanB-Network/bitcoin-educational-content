@@ -1,0 +1,11 @@
+kysymys: Mikä on ensimmäinen avain, joka johdetaan siemenestä HD-lompakossa?
+vastaus: Pääavain on ensimmäinen avain, joka johdetaan siemenestä.
+väärät_vastaukset:
+  - Lasten avain on ensimmäinen avain, joka johdetaan siemenestä.
+  - Vanhemman avain on ensimmäinen avain, joka johdetaan siemenestä.
+  - Yksityinen avain on ensimmäinen avain, joka johdetaan siemenestä.
+selitys: |
+  Pääavain on ensimmäinen avain, joka johdetaan siemenestä HD-lompakossa.
+
+  Sen avulla voidaan johtaa kaikki muut lasten avainparit.
+arvioitu: false

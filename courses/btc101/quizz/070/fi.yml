@@ -1,0 +1,9 @@
+kysymys: Mikä on BTC-palkkio neljännen puolittumisen jälkeen?
+vastaus: 3.125 BTC
+väärät_vastaukset:
+  - 1.5625 BTC
+  - 6.25 BTC
+  - 12.5 BTC
+selitys: >-
+  Neljännen puolittumisen, joka tapahtuu lohkokorkeudella 840,000, jälkeen BTC-palkkio louhinnasta on 3.125 BTC.
+arvioitu: true

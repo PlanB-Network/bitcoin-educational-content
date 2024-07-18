@@ -1,0 +1,11 @@
+kysymys: Mikä on Bitcoinin yhteys teknologian ja yhteiskunnan tulevaisuuteen?
+vastaus: Bitcoin on teknologinen vallankumous uudenlaisille suuren mittakaavan järjestelyille, mahdollistaen arvon vaihdon ilman luotettua kolmatta osapuolta.
+väärät_vastaukset:
+  - Bitcoin on muoto tekoälyteknologiasta.
+  - Bitcoin on työkalu maailman väestön hallintaan.
+  - Bitcoin on menetelmä hallituksille seurata kansalaistensa rahoitustransaktioita.
+selitys: >-
+  Teksti selittää, että Bitcoin, kuten internet viestintätapojen osalta,
+  on teknologinen vallankumous uudenlaisille suuren mittakaavan järjestelyille, tuoden
+  meille mahdollisuuden vaihtaa arvoa ilman luotettua kolmatta osapuolta.
+arvioitu: false

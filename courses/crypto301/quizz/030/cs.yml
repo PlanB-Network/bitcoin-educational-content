@@ -1,0 +1,11 @@
+otázka: Jaká rovnice definuje eliptickou křivku?
+odpověď: "y² = x³ + ax + b"
+špatné_odpovědi:
+  - "y² = x³ + ax"
+  - "y² = x³ + b"
+  - "y² = x³ + ax - b"
+vysvětlení: |
+  "Eliptická křivka je definována rovnicí y² = x³ + ax + b.\
+  \ Každý bod na této křivce má charakteristickou symetrii, která je klíčová pro její\
+  \ využití v kryptografii."
+recenzováno: false

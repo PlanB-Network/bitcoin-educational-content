@@ -1,0 +1,11 @@
+Frage: Welcher kryptografische Schlüsselaustausch-Algorithmus ist das Herzstück der Funktionsweise von BIP47?
+
+Antwort: ECDH
+
+Falsche Antworten:
+  - RSA
+  - ElGamal
+  - Diffie-Hellman
+
+Erklärung: |
+  Der verwendete Algorithmus ist ECDH (Elliptic Curve Diffie-Hellman). Es handelt sich um eine Variante des klassischen Diffie-Hellman-Algorithmus, der elliptische Kurven verwendet.

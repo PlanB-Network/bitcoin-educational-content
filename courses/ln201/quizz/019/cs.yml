@@ -1,0 +1,10 @@
+otázka: Jak Alice financuje kanál, který otevírá s Bobem?
+odpověď: Vytvoří transakci se 2 UTXO jako výstup.
+špatné_odpovědi:
+  - Přímo pošle peníze na veřejnou adresu Boba.
+  - Vytvoří transakci s 1 UTXO jako výstup.
+  - Požádá Boba, aby kanál financoval.
+vysvětlení: |
+  Aby Alice financovala kanál, který otevírá s Bobem, vytvoří transakci
+  se 2 UTXO jako výstup; jeden na 2/2 multi-sig adresu a jeden na jednu z jejích adres pro vrácení peněz.
+recenzováno: false

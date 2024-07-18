@@ -1,0 +1,11 @@
+kysymys: Mitkä ovat joitakin ratkaisuja tiedon salaamiseen eri käyttöjärjestelmissä?
+vastaus: BitLocker Windowsille, LUKS Linuxille ja sisäänrakennettu vaihtoehto Macille.
+väärät_vastaukset:
+  - BitLocker Linuxille, LUKS Macille ja sisäänrakennettu vaihtoehto Windowsille.
+  - BitLocker Macille, LUKS Windowsille ja sisäänrakennettu vaihtoehto Linuxille.
+  - LUKS kaikille käyttöjärjestelmille.
+selitys: |
+  Eri käyttöjärjestelmille on olemassa erilaisia ratkaisuja tiedon salaamiseen.
+  BitLocker on Windowsille, LUKS on Linuxille, ja Macilla on sisäänrakennettu vaihtoehto tiedon
+  salaamiseen.
+arvioitu: false

@@ -1,0 +1,13 @@
+kysymys: Mikä oli Yhdysvaltojen strategia dollarin arvon alentamiseksi vuosina 1933-1934?
+vastaus: Hallitus takavarikoi kansalaisten kultaa ja muutti pelin sääntöjä uudelleenarvostamalla kullan arvon valtion hyödyksi ja niiden vahingoksi, jotka alun perin vaihtoivat kultansa seteleihin.
+väärät_vastaukset:
+  - Hallitus lisäsi kullan tarjontaa ja muutti sitten pelin sääntöjä alentamalla kullan arvoa valtion hyödyksi ja niiden vahingoksi, jotka alun perin vaihtoivat kultansa seteleihin.
+  - Hallitus takavarikoi kansalaisten kultaa ja muutti sitten pelin sääntöjä alentamalla kullan arvoa valtion hyödyksi ja niiden vahingoksi, jotka alun perin vaihtoivat kultansa seteleihin.
+  - Hallitus lisäsi kullan tarjontaa ja muutti sitten pelin sääntöjä uudelleenarvostamalla kullan arvoa valtion hyödyksi ja niiden vahingoksi, jotka alun perin vaihtoivat kultansa seteleihin.
+selitys: |
+  Vuonna 1933 Yhdysvaltain hallitus takavarikoi kansalaisten kultaa. Sitten vuonna 1934 he
+  uudelleenarvostivat kullan hinnan 35 dollariin unssilta, 20,67 dollarin sijaan. Käytännössä hallitus
+  alensi ihmisten omistaman dollarin arvoa. Ostamalla kultaa väestöltä 20,67 dollarilla unssilta vuonna 1933 ja sitten
+  uudelleenarvostamalla kullan hinnan vuonna 1934, hallitus teki huomattavan voiton samalla kun se alensi kansalaistensa
+  säästöjen arvoa.'
+arvioitu: false

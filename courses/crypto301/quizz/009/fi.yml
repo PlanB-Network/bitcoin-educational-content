@@ -1,0 +1,9 @@
+kysymys: Mikä on täytemerkkien tarkoitus SHA256:n esikäsittelyvaiheessa?
+vastaus: Saada syötteen koko täydelliseksi monikerraksi 512 biteistä
+väärät_vastaukset:
+  - Kasvattaa syötteen kokoa 256 bittiin
+  - Lisätä monimutkaisuutta syötteeseen
+  - Pienentää syötteen kokoa 512 bittiin
+selitys: |
+  SHA256:n esikäsittelyvaiheessa syötteeseen lisätään täytemerkkejä, jotta sen koko saavuttaa täydellisen monikerran 512 biteistä. Tämä tehdään varmistamaan, että kaikki ainesosat sekoittuvat täydellisesti kryptografisessa reseptissä.
+arvioitu: false

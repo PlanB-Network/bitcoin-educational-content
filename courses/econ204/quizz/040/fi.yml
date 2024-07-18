@@ -1,0 +1,11 @@
+kysymys: Mikä on Kaganin kriteeri hyperinflaatiolle?
+vastaus: Inflaatiovauhti 50% kuukaudessa.
+väärät_vastaukset:
+  - Inflaatiovauhti 50% vuodessa.
+  - Inflaatiovauhti 25% kuukaudessa.
+  - Inflaatiovauhti 25% vuodessa.
+selitys: |
+  Kaganin kriteeri määrittelee hyperinflaation inflaatiovauhdiksi 50%
+  kuukaudessa. Tämä kriteeri voi joskus johtaa epäselviin tulkintoihin, joissa
+  vuosilla on korkeat inflaatiovauhdit, mutta ne eivät täytä hyperinflaation tiukkaa määritelmää.
+arvioitu: false

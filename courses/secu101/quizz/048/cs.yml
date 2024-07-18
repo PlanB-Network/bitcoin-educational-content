@@ -1,0 +1,11 @@
+otázka: Jaký je běžný druhý krok u 2FA?
+odpověď: Kód generovaný aplikací jako Google Authenticator nebo Authy.
+špatné_odpovědi:
+  - Telefonní hovor majiteli účtu
+  - Email majiteli účtu
+  - Dopis poslaný na domácí adresu majitele účtu
+vysvětlení: |
+  Druhým krokem u 2FA může být dočasný kód poslaný přes SMS, kód
+  generovaný
+  aplikací, nebo fyzický bezpečnostní klíč.
+recenzováno: false

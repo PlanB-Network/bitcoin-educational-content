@@ -1,0 +1,11 @@
+otázka: Jaká je výchozí doba expirace pro fakturu v Lightning Network?
+odpověď: 1 hodina
+špatné_odpovědi:
+  - 24 hodin
+  - 30 minut
+  - 2 hodiny
+vysvětlení: |
+  Výchozí doba expirace pro fakturu v Lightning Network je 1 hodina.
+  To znamená, že pokud není faktura zaplacena v tomto časovém rámci, stane se
+  neplatnou.
+recenzováno: false

@@ -1,0 +1,16 @@
+question: Qual é o impacto da impressão de mais dinheiro no poder de compra de uma moeda?
+answer: Uma deterioração no poder de compra da moeda
+wrong_answers:
+  - Um aumento no poder de compra da moeda
+  - Sem impacto
+  - Mais dinheiro = maior poder de compra
+explanation: |
+  Quando os bancos centrais decidem imprimir dinheiro, eles não podem simplesmente criar mais valor.
+  Para que esse dinheiro recém-impresso valha alguma coisa, seu valor deve vir dos
+  detentores anteriores da moeda.
+  Pense na oferta de dinheiro como uma pizza, e imagine-a cortada em quatro pedaços.
+  Dobrar a oferta de dinheiro não seria equivalente a dobrar a quantidade de pizza.
+  Em vez disso, seria equivalente a cortar esses quatro pedaços ao meio para criar
+  oito pedaços. Não ganhamos pizza adicional. Apenas temos mais pedaços, cada um menor em tamanho. Portanto, quando imprimimos mais dinheiro, desvalorizamos o dinheiro
+  que já existe.
+reviewed: true

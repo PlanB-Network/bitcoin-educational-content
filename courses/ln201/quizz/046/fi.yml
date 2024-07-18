@@ -1,0 +1,11 @@
+kysymys: Mikä on peruutusavaimen tarkoitus Lightning-verkossa?
+vastaus: Rangaista osallistujaa, joka yrittää huijata julkaisemalla vanhan sitoumustapahtuman.
+väärät_vastaukset:
+  - Palkita osallistujaa, joka onnistuu huijaamaan.
+  - Avata uusi kanava.
+  - Vahvistaa tapahtuma.
+selitys: |
+  Peruutusavain on mekanismi Lightning-verkossa estämään huijausta. Jos osallistuja yrittää huijata julkaisemalla vanhan sitoumustapahtuman,
+  toinen osallistuja voi käyttää peruutusavainta rangaistakseen huijaria ja ottaakseen
+  kaikki SATit kanavalta.
+arvioitu: false

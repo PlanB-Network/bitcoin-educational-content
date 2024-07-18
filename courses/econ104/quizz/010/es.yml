@@ -1,0 +1,11 @@
+pregunta: ¿Cuál es el propósito de los nodos en la red de Bitcoin?
+respuesta: Mantener y asegurar la blockchain
+respuestas_incorrectas:
+  - Procesar transacciones
+  - Proponer e implementar cambios en el código base de Bitcoin
+  - Competir con otros mineros
+explicación: |
+  Los nodos son esenciales para la integridad y seguridad de la red de Bitcoin.
+  Actúan como los guardianes del sistema, asegurando que las transacciones
+  se procesen de manera precisa y de acuerdo con las reglas.
+revisado: true

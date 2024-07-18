@@ -1,0 +1,12 @@
+kysymys: Mikä on kylmä lompakko?
+vastaus: Fyysinen lompakko, jossa avaimet säilytetään laitteella, joka ei ole yhdistetty internetiin
+väärät_vastaukset:
+  - Lompakko, joka on fyysisesti kylmä koskettaa
+  - Lompakko, joka ei ole suosittu Bitcoin-käyttäjien keskuudessa
+  - Lompakko, jota suositellaan pienten määrien bitcoinien säilyttämiseen
+selitys: |
+  Kylmä lompakko on termi, jota käytetään kuvaamaan Bitcoin-lompakkoa, joka on tallennettu
+  laitteelle, joka ei ole yhdistetty internetiin. Tämä tekee siitä vähemmän alttiin
+  online-uhille, mutta se myös tarkoittaa, että lompakko on vähemmän saavutettavissa päivittäisiin
+  transaktioihin.
+arvioitu: true

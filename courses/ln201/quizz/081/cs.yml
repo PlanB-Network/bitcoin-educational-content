@@ -1,0 +1,11 @@
+otázka: Co je Lightning Network?
+odpověď: Řešení druhé vrstvy pro Bitcoin, které umožňuje rychlé transakce s nízkými náklady
+špatné_odpovědi:
+  - Typ digitální peněženky pro ukládání Bitcoinu
+  - Metoda těžby Bitcoinu
+  - Záznam všech transakcí v síti Bitcoin
+vysvětlení: |
+  Lightning Network je řešení druhé vrstvy pro Bitcoin, které umožňuje
+  rychlé transakce s nízkými náklady. Funguje na vrcholu blockchainu Bitcoinu a umožňuje
+  transakce mimo hlavní řetězec, které jsou rychlejší a levnější než transakce na hlavním řetězci.
+recenzováno: false

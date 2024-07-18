@@ -1,0 +1,11 @@
+kysymys: Mikä on suositeltu käytäntö kertakäyttösalasanojen (OTPs) säilyttämiseen?
+vastaus: Säilytä OTP:t mobiililaitteellasi.
+väärät_vastaukset:
+  - Kirjoita ne paperille.
+  - Säilytä niitä sähköpostissasi.
+  - Opettele ne ulkoa.
+selitys: |
+  Optimaalisen turvallisuuden takaamiseksi on suositeltavaa säilyttää kertakäyttösalasanat (OTPs)
+  mobiililaitteellasi. Tämä johtuu siitä, että mobiililaitteet ovat yleisesti ottaen turvallisempia
+  ja vähemmän todennäköisesti kompromissien kohteena kuin muut säilytysmenetelmät.
+arvioitu: false

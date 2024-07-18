@@ -1,0 +1,9 @@
+kysymys: Mikä on pääsyy, miksi vainoharhainen Bitcoin-käyttäjä käyttäisi omaa LN-noodiaan?
+vastaus: Yksityisyyden ja turvallisuuden ylläpitämiseksi
+väärät_vastaukset:
+  - Välttääkseen KYC-prosessit
+  - Hallitakseen UTXO:itaan
+  - Sekoittaakseen kolikoitaan
+selitys: |
+  Luvussa mainitaan, että vainoharhainen Bitcoin-käyttäjä käyttäisi omaa LN-noodiaan keskittyessään turvallisuuteen. Vaikka KYC-prosessien välttäminen, UTXO:iden hallinta ja kolikoiden sekoittaminen ovat myös toimintoja, joita vainoharhainen Bitcoin-käyttäjä saattaisi harjoittaa, ne eivät ole suoraan yhteydessä LN-noodin käyttöön.
+arvioitu: false

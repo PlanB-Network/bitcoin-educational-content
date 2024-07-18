@@ -1,0 +1,9 @@
+otázka: Jaká je role těžařů v protokolu Bitcoinu?
+odpověď: Zajišťují bezpečnost současné i historické sítě
+nesprávné_odpovědi:
+  - Regulují cenu Bitcoinu
+  - Kontrolují nabídku Bitcoinu
+  - Spravují transakce mezi uživateli
+vysvětlení: >-
+  Těžaři v protokolu Bitcoinu zajišťují bezpečnost jak současné, tak i historické sítě. Nezabývají se regulací ceny Bitcoinu, kontrolou jeho nabídky, ani správou transakcí mezi uživateli.
+recenzováno: false

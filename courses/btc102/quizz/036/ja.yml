@@ -1,0 +1,9 @@
+question: 「Not your keys, not your Bitcoins」というフレーズは何を強調していますか？
+answer: Bitcoinウォレットのプライベートキーを所有することの重要性
+wrong_answers:
+  - 実際の鍵を持ってBitcoinにアクセスすることの重要性
+  - Bitcoinを安全な場所に保管することの重要性
+  - Bitcoinアカウントの詳細を共有しないことの重要性
+explanation: |
+  この章では、「Not your keys, not your Bitcoins」というフレーズがBitcoinウォレットのプライベートキーを所有することの重要性を強調していることを説明しています。プライベートキーを所有していることで、それが含むBitcoinを完全にコントロールできます。
+reviewed: false

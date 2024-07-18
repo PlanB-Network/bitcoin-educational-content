@@ -1,0 +1,10 @@
+kysymys: Mihin julkisten ja yksityisten avainten turvallisuus perustuu?
+vastaus: Diskreetin logaritmin ongelma
+vaarat_vastaukset:
+  - Alkulukujen tekijöihinjakoon
+  - Reppuongelma
+  - Kauppamatkustajan ongelma
+selitys: |
+  Julkisten ja yksityisten avainten turvallisuus perustuu diskreetin logaritmin
+  ongelmaan, monimutkaiseen matemaattiseen kysymykseen.
+arvioitu: false

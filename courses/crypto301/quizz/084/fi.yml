@@ -1,0 +1,12 @@
+kysymys: Mikä on pbkdf2-funktion tehtävä siemenen luomisessa?
+vastaus: Sitä käytetään yhdessä muistisanojen ja salasanan kanssa siemenen saamiseksi.
+väärät_vastaukset:
+  - Sitä käytetään pääyksityisavaimen luomiseen.
+  - Sitä käytetään johdettujen ala-avainparien luomiseen.
+  - Sitä käytetään pääketjukoodin luomiseen.
+selitys: |
+  pbkdf2-funktio (Password-Based Key Derivation Function 2) käytetään
+  yhdessä muistisanojen ja salasanan kanssa siemenen, 512-bittisen
+  alfanumeerisen sekvenssin, saamiseksi. Tämä sekvenssi toimii perustana lompakon avainten
+  johtamiselle.
+arvioitu: false

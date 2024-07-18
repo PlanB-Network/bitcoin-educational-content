@@ -1,0 +1,11 @@
+Câu hỏi: Trong những phương pháp sau, phương pháp nào không phải là một phương pháp lựa chọn phần tự động?
+
+Câu trả lời: Thanh toán Ẩn
+
+Các câu trả lời sai:
+  - Branch-and-Bound
+  - FIFO
+  - Knapsack Solver
+
+Giải thích: |
+  Khác với ba lựa chọn khác, Thanh toán Ẩn không phải là một phương pháp để lựa chọn các phần tử, mà là một giao thức sử dụng địa chỉ tĩnh.

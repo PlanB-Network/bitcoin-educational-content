@@ -1,0 +1,10 @@
+câu hỏi: Thời gian hết hạn mặc định cho một hóa đơn Lightning Network là bao lâu?
+câu trả lời: 1 giờ
+câu trả lời sai:
+  - 24 giờ
+  - 30 phút
+  - 2 giờ
+giải thích: |
+  Thời gian hết hạn mặc định cho một hóa đơn Lightning Network là 1 giờ.
+  Điều này có nghĩa là nếu hóa đơn không được thanh toán trong khoảng thời gian này, nó sẽ trở nên không hợp lệ.
+đã xem xét: false

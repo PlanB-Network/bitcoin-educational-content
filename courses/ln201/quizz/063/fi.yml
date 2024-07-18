@@ -1,0 +1,11 @@
+kysymys: Mikä on HTLC?
+vastaus: Maksusopimus, joka voidaan avata vain salaisuudella.
+väärät_vastaukset:
+  - Eräänlainen kryptovaluutta.
+  - Menetelmä datan salaamiseen.
+  - Eräänlainen lohkoketju.
+selitys: |
+  HTLC eli Hash Time-Locked Contract on maksusopimuksen tyyppi,
+  joka voidaan avata vain salaisuudella. Sitä käytetään Lightning Networkissa
+  varmistamaan turvallinen ja todennettavissa oleva maksu.
+arvioitu: false

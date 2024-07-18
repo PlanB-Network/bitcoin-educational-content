@@ -1,0 +1,9 @@
+otázka: Co se stane, když je vytvořena nová závazná transakce?
+odpověď: Je rozhodnuto o novém tajemství a je vytvořen nový klíč pro zrušení, přičemž předchozí závazná transakce musí být zničena předáním tajemství pro zrušení.
+špatné_odpovědi:
+  - Předchozí závazná transakce je ponechána jako záloha.
+  - Je vytvořen nový Časový zámek a předchozí závazná transakce je aktualizována.
+  - Předchozí závazná transakce je aktualizována novým tajemstvím a klíčem pro zrušení.
+vysvětlení: |
+  Když je vytvořena nová závazná transakce, je rozhodnuto o novém tajemství a novém klíči pro zrušení. Předchozí závazná transakce musí být zničena předáním tajemství pro zrušení, aby se zabránilo jakékoli straně v podvodu zveřejněním starého stavu.
+recenzováno: false

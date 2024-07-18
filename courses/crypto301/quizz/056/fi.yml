@@ -1,0 +1,10 @@
+kysymys: Mitä siemen tarkoittaa Bitcoin-lompakossa?
+vastaus: Se on satunnainen tai pseudo-satunnainen numero, josta luodaan useita avaimia.
+väärät_vastaukset:
+  - Se on salasana lompakon käyttöön.
+  - Se on ensimmäinen Bitcoin-siirto, joka on kirjattu lompakkoon.
+  - Se on lompakon omistajan digitaalinen allekirjoitus.
+selitys: |
+  Bitcoin-lompakon siemenen on tarkoitus olla satunnainen tai pseudo-satunnainen
+  numero. Tämä siemen mahdollistaa useiden avainten luomisen, jotka ovat olennaisia
+  kryptovaluutan omistamiselle.

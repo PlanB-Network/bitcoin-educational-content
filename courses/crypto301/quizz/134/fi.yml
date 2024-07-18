@@ -1,0 +1,12 @@
+kysymys: Mikä funktio käytetään generoimaan siemenlause mnemonic-lauseesta ja
+  salasanasta HD-lompakossa?
+vastaus: pbkdf2-funktio
+väärät_vastaukset:
+  - hmacha512-funktio
+  - SHA256-funktio
+  - RIPMD160-funktio
+selitys: |
+  pbkdf2-funktiota käytetään generoimaan siemenlause mnemonic-lauseesta
+  ja salasanasta, käyttäen hmacha512:ta ja 2048 iteraatiota. Tätä siemenlauseetta käytetään sitten johdattamaan
+  pääavain ja pääketjukoodi.
+arvioitu: false

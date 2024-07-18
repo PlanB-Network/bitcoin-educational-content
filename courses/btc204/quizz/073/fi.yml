@@ -1,0 +1,11 @@
+kysymys: Mikä seuraavista vastauksista ei mahdollista huijata ketjuanalyysin heuristiikkaa?
+
+vastaus: Aina saman vastaanotto-osoitteen käyttäminen.
+
+väärät_vastaukset:
+  - Muutoksen luominen, jonka arvo on lähellä maksua.
+  - Epäsäännöllisten, ei-pyöreiden määrien ulostulojen tekeminen.
+  - Transaktioiden leviämisen jakaminen pitkin päivää.
+
+selitys: |
+  Vastaanotto-osoitetta ei erityisesti tulisi käyttää useita kertoja. Kaikki muut vastaukset mahdollistavat ketjuanalyysin heuristiikan välttämisen.

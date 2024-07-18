@@ -1,0 +1,10 @@
+kysymys:
+  Onko suositeltavaa muistaa ulkoa Bitcoin-lompakon salasana tai muistisääntö?
+vastaus: Tämä on väärin
+väärät_vastaukset:
+  - Tämä on totta
+  - Se riippuu salasanan tai muistisäännön pituudesta
+  - Se riippuu salasanan tai muistisäännön monimutkaisuudesta
+selitys: |
+  Salasanan tai muistisäännön ulkoa muistamista ei suositella. On tärkeää huolehtia salasanan varmuuskopioinnista, jotta lompakkoon pääsyä ei menetetä.
+arvioitu: false

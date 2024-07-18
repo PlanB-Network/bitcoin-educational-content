@@ -1,0 +1,9 @@
+kysymys: Mikä on seuraus korkojen laskusta luoton lisääntymisen seurauksena Itävallan liiketoimintasyklin teorian mukaan?
+vastaus: Talous ajautuu taantumaan; omaisuuserien hinnat laskevat, reaalipalkat laskevat, kuluttajahinnat laskevat ja varastot kasautuvat.
+väärät_vastaukset:
+  - Talous siirtyy nousukauteen; omaisuuserien hinnat nousevat, reaalipalkat kasvavat, kuluttajahinnat nousevat ja varastot vähenevät.
+  - Talous ajautuu stagnaatioon; omaisuuserien hinnat pysyvät samoina, reaalipalkat pysyvät samoina, kuluttajahinnat pysyvät samoina ja varastot pysyvät samoina.
+  - Talous ajautuu deflaatioon; omaisuuserien hinnat laskevat, reaalipalkat kasvavat, kuluttajahinnat laskevat ja varastot lisääntyvät.
+selitys: |
+  Itävallan liiketoimintasyklin teorian mukaan, kun korkotasot laskevat luoton lisääntymisen seurauksena, talous ajautuu taantumaan; omaisuuserien hinnat laskevat, reaalipalkat laskevat, kuluttajahinnat laskevat ja varastot kasautuvat. Tämä johtuu siitä, että korkotasojen lasku johtaa pääoman väärinkäyttöön, mikä lopulta johtaa taantumaan.
+arvioitu: false

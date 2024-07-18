@@ -1,0 +1,9 @@
+otázka: Co se stane s HTLC, pokud si Bob nikdy nevyzvedne tajemství?
+odpověď: HTLC vyprší po určitém počtu bloků.
+špatné_odpovědi:
+  - HTLC bude okamžitě zrušeno.
+  - HTLC bude převedeno na Alici.
+  - HTLC bude převedeno na Susie.
+vysvětlení: |
+  Pokud si Bob nikdy nevyzvedne tajemství, HTLC vyprší po určitém počtu bloků. Jedná se o vestavěný mechanismus, který zajišťuje, že smlouva nebude nekonečně dlouho v nejistotě.
+kontrolováno: false

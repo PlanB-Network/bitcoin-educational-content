@@ -1,0 +1,10 @@
+kysymys: Miten stablecoinit auttavat vähentämään siirtojen kustannuksia?
+vastaus: Tarjoamalla alhaisempia maksuja kuin perinteiset palvelut
+väärät_vastaukset:
+  - Tarjoamalla ilmaisia rahansiirtopalveluita
+  - Tarjoamalla yksilöille parempia vaihtokursseja kuin perinteiset palvelut
+  - Digitalisoimalla fiat-valuuttoja
+selitys: |
+  Stablecoinit, toisin kuin perinteiset rahansiirtopalvelut, ovat merkittävästi 
+  edullisempia, koska ne eivät vaadi välittäjiä, kuten pankkeja tai rahansiirtopalveluita.
+arvioitu: true

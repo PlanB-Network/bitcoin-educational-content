@@ -1,0 +1,11 @@
+question: Co je hyperinflace?
+answer: Drastický nárůst množství peněz
+wrong_answers:
+  - Mírný nárůst množství peněz
+  - Drastický pokles množství peněz
+  - Mírný pokles množství peněz
+explanation: |
+  Hyperinflace je monetární jev,
+  charakterizuje ji drastický nárůst inflace prostřednictvím tisku peněz autoritami,
+  což vede k úplné ztrátě důvěry v měnu
+reviewed: true

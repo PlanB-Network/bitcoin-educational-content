@@ -1,0 +1,13 @@
+kysymys: Mitä tietoja vastaanottaja voi antaa lähettäjälle reitin haun helpottamiseksi Lightning-verkossa?
+vastaus: Summan, hänen osoitteensa, esikuvan hashin ja viitteet hänen kanaviinsa.
+väärät_vastaukset:
+  - Lähettäjän osoite, siirrettävä summa ja vastaanottajan yksityisavain.
+  - Vastaanottajan osoite, siirrettävä summa ja lähettäjän yksityisavain.
+  - Siirrettävä summa, vastaanottajan osoite ja esikuvan hash.
+selitys: |
+  Reitin haun helpottamiseksi Lightning-verkossa vastaanottaja
+  voi antaa lähettäjälle useita tietoja. Näihin kuuluvat siirrettävä
+  summa, vastaanottajan osoite, esikuvan hash (jota käytetään
+  HTLC:n luomiseen) ja viitteet vastaanottajan kanaviin (jotka voivat auttaa tunnistamaan
+  kanavia, joilla on riittävästi likviditeettiä).
+arvioitu: false

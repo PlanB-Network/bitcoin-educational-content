@@ -1,0 +1,13 @@
+kysymys: Mikä on Bitcoinin vastaanotto-osoite?
+
+vastaus: Merkkijono, jota käytetään bitcoinien vastaanottamiseen.
+
+vaarat_vastaukset:
+  - Koodi, jota käytetään bitcoinien lähettämiseen.
+  - Algoritmi bitcoineja louhimiseen.
+  - Älykäs sopimus.
+
+selitys: |
+  Vastaanotto-osoitetta käytetään bitcoinien vastaanottamiseen lompakkoon.
+
+arvioitu: false

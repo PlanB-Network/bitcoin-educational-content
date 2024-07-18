@@ -1,0 +1,14 @@
+otázka: Jaká je alternativa k plnému KYC ve Švýcarsku?
+odpověď: KYC light
+špatné_odpovědi:
+  - KYC heavy
+  - KYC medium
+  - KYC dark
+vysvětlení: |
+  Ve Švýcarsku je alternativou k plnému KYC "KYC light", které umožňuje
+
+
+  nákup a prodej bitcoinů bez nutnosti poskytnutí identifikace, pokud
+
+
+  částka nákupu nepřesahuje 1000 eur za den.

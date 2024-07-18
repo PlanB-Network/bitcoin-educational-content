@@ -1,0 +1,12 @@
+câu hỏi: Vai trò của hạt giống trong tổ chức phân cấp và suy ra của ví HD là gì?
+câu trả lời: Hạt giống đóng vai trò quyết định trong việc suy ra tất cả các khóa khác.
+câu trả lời sai:
+  - Hạt giống được sử dụng để mã hóa ví.
+  - Hạt giống được sử dụng để tạo ra mã chuỗi chính.
+  - Hạt giống được sử dụng để khôi phục danh mục đầu tư.
+giải thích: |
+  Hạt giống, với độ dài từ 128 đến 256 bit, được tạo ra một cách ngẫu nhiên hoặc
+
+  từ một cụm từ bí mật. Nó đóng vai trò quyết định trong việc suy ra tất cả các
+
+  khóa khác trong ví HD.

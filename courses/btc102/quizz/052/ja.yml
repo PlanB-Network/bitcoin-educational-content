@@ -1,0 +1,8 @@
+question: OpenNode、Swiss Bitcoin Pay、BTCPayのような企業のビットコインエコシステムにおける役割は何ですか？
+answer: 企業がビットコインを受け入れやすくするツールを提供します。
+wrong_answers:
+  - ビットコインを採掘します。
+  - ビットコインを規制します。
+  - ビットコインを発行します。
+explanation: |
+  OpenNode、Swiss Bitcoin Pay、BTCPayのような企業は、企業がビットコインを受け入れやすくするツールを提供し、その採用と日常取引での使用に貢献しています。

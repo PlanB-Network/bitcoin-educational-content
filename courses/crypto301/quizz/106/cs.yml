@@ -1,0 +1,12 @@
+otázka: Jaké jsou dva typy dětských klíčových párů v HD peněžence?
+odpověď: Zpevněné páry a normální páry.
+špatné_odpovědi:
+  - Veřejné páry a soukromé páry.
+  - Hlavní páry a podřízené páry.
+  - Rodičovské páry a dětské páry.
+vysvětlení: |
+  V HD peněžence existují dva typy dětských klíčových párů; zpevněné páry
+
+  a normální páry. Tyto páry se liší ve svém procesu derivace a v rozsahu
+
+  indexů.

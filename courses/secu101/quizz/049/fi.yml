@@ -1,0 +1,9 @@
+kysymys: Miksi SMS ei ole paras vaihtoehto kaksivaiheiselle tunnistautumiselle?
+vastaus: Se tarjoaa vain todisteen puhelinnumeron hallussapidosta.
+väärät_vastaukset:
+  - Se on liian kallis
+  - Se on liian hidas
+  - Sen käyttöönotto on liian monimutkaista
+selitys: |
+  SMS ei ole paras vaihtoehto kaksivaiheiselle tunnistautumiselle, koska se tarjoaa vain todisteen puhelinnumeron hallussapidosta, ei henkilöllisyyden todistamista.
+arvioitu: false

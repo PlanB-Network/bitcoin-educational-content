@@ -1,0 +1,9 @@
+otázka: Co je vězňovo dilema v kontextu dělby práce?
+odpověď: Jedná se o situaci, kde vzájemná spolupráce vede k suboptimálním ziskům pro jednotlivce, ale k maximálním ziskům pro skupinu.
+špatné_odpovědi:
+  - Jedná se o situaci, kdy jednotlivci odmítají spolupracovat, což vede k maximálním ziskům pro skupinu.
+  - Jedná se o situaci, kdy jednotlivci spolupracují, což vede k maximálním ziskům pro sebe, ale k suboptimálním ziskům pro skupinu.
+  - Jedná se o situaci, kdy jednotlivci odmítají spolupracovat, což vede k suboptimálním ziskům pro sebe i skupinu.
+vysvětlení: |
+  Vězňovo dilema je koncept v teorii her, kde jednotlivci mají podnět vybírat strategie, které maximalizují jejich individuální zisk, bez ohledu na strategie zvolené ostatními, i když je možné dosáhnout žádoucího rovnovážného stavu prostřednictvím koordinace/spolupráce.
+recenzováno: false

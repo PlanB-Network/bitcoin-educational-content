@@ -1,0 +1,11 @@
+otázka: Jaké je základní poslání Bitcoinu?
+odpověď: Být sítí pro výměnu hodnot odolnou vůči cenzuře.
+špatné_odpovědi:
+  - Nahradit tradiční měny.
+  - Umožnit anonymní transakce.
+  - Vytvořit novou formu investice.
+vysvětlení: |
+  Základním posláním Bitcoinu je být sítí pro výměnu hodnot odolnou vůči cenzuře. Komunita Bitcoinu neustále usiluje o posílení distribuce,
+
+  odolnosti vůči cenzuře a anti-křehkosti sítě.
+kontrolováno: false

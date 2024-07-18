@@ -1,0 +1,9 @@
+otázka: Co znamená index v cestě derivace v kontextu HD peněženky?
+odpověď: Hodnota použitá ve funkci HMAC
+špatné_odpovědi:
+  - Hodnota použitá ve funkci SHA-256
+  - Hodnota použitá ve funkci RSA
+  - Hodnota použitá ve funkci AES
+vysvětlení: |
+  V kontextu HD peněženky index v cestě derivace označuje hodnotu použitou ve funkci HMAC. To se používá k rozlišení mezi různými páry dětských klíčů ve stejné hloubce.
+recenzováno: false

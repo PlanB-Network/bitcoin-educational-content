@@ -1,0 +1,10 @@
+kysymys: Mikä on Bitcoin-yksikön päätarkoitus?
+vastaus: Bitcoin-yksikkö on valuutta, joka on tarpeen Bitcoin-protokollan asianmukaiseen toimintaan.
+väärät_vastaukset:
+  - Bitcoin-yksikköä käytetään Bitcoinin hinnan säätelyyn.
+  - Bitcoin-yksikköä käytetään Bitcoin-protokollan hallintaan.
+  - Bitcoin-yksikköä käytetään uusien bitcoinien luomiseen.
+selitys: |
+  Bitcoin-yksikkö on valuutta, joka on tarpeen Bitcoin-protokollan asianmukaiseen toimintaan.
+  Sitä käytetään transaktioihin ja se nojaa Bitcoin-protokollaan toimiakseen.
+arvioitu: true

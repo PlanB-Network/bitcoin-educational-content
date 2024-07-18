@@ -1,0 +1,10 @@
+otázka: Co musí kupující udělat pro správu likvidity na Lightning Network?
+odpověď: Otevřít kanály
+špatné_odpovědi:
+  - Připojit se k ostatním uzlům
+  - Udržovat bilanci likvidity na obou stranách
+  - Koupit kanály
+vysvětlení: |
+  Pro kupující na Lightning Network zahrnuje správa likvidity otevírání
+  kanálů. To jim poskytuje odchozí likviditu.
+recenzováno: false

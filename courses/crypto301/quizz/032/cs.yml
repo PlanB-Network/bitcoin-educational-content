@@ -1,0 +1,9 @@
+otázka: Jaký význam má nevratnost funkce ECDSA pro bezpečnost Bitcoin peněženky?
+odpověď: Je nemožné získat soukromý klíč z veřejného klíče
+špatné_odpovědi:
+  - Je možné získat soukromý klíč z veřejného klíče
+  - Je možné získat veřejný klíč ze soukromého klíče
+  - Je nemožné získat veřejný klíč ze soukromého klíče
+vysvětlení: |
+  Funkce ECDSA je nevratná, což znamená, že je nemožné získat soukromý klíč z veřejného klíče. Tato nevratnost je základním kamenem bezpečnosti Bitcoin peněženky.
+recenzováno: false

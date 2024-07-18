@@ -1,0 +1,9 @@
+kysymys: Mikä on kultainen sääntö suojautuaksesi huijausviesteiltä?
+vastaus: Tarkista huolellisesti lähettäjän koko nimi sekä sähköpostin alkuperä.
+väärät_vastaukset:
+  - Vastaa aina epäilyttäviin sähköposteihin.
+  - Avaa kaikki sähköpostiliitteet niiden sisällön tarkistamiseksi.
+  - Jaa henkilökohtaisia tietojasi vain tuntemiesi lähettäjien kanssa.
+selitys: |
+  Kultainen sääntö suojautuaksesi huijausviesteiltä on tarkistaa huolellisesti lähettäjän koko nimi sekä sähköpostin alkuperä. Epävarmuuden vallitessa, poista se!
+arvioitu: false

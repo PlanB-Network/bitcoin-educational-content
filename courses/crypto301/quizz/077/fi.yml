@@ -1,0 +1,11 @@
+kysymys: Mitkä ovat tehokkaan salalauseen ominaisuudet Bitcoin-lompakolle?
+vastaus: Pitkä (20–40 merkkiä) ja monipuolinen (käyttäen isoja kirjaimia, pieniä kirjaimia, numeroita ja symboleita)
+väärät_vastaukset:
+  - Lyhyt ja yksinkertainen
+  - Pitkä ja yksinkertainen
+  - Lyhyt ja monipuolinen
+selitys: |
+  Tehokkaan salalauseen tulisi olla pitkä (20–40 merkkiä) ja monipuolinen
+  (käyttäen isoja kirjaimia, pieniä kirjaimia, numeroita ja symboleita). Sen ei tulisi
+  olla suoraan yhteydessä käyttäjään tai heidän ympäristöönsä.
+arvioitu: false

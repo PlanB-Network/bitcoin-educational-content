@@ -1,0 +1,9 @@
+otázka: Jaký je účel hashe preimage v fakturaci Lightning Network?
+odpověď: Používá se k odemčení platby
+špatné_odpovědi:
+  - Používá se k šifrování dat faktury
+  - Používá se k ověření identity příjemce
+  - Používá se k výpočtu poplatku za transakci
+vysvětlení: |
+  Hash preimage v fakturaci Lightning Network se používá k odemčení platby. Příjemce platby musí poskytnout preimage, který odpovídá hashi, aby mohl přijmout prostředky.
+recenzováno: false

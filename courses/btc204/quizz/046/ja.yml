@@ -1,0 +1,13 @@
+質問: BIP47の運用の中心にある暗号鍵交換アルゴリズムは何ですか？
+
+回答: ECDH
+
+誤った回答:
+  - RSA
+  - ElGamal
+  - Diffie-Hellman
+
+説明: |
+  使用されているアルゴリズムはECDH（楕円曲線Diffie-Hellman）です。これは、楕円曲線を使用する古典的なDiffie-Hellmanアルゴリズムの変種です。
+
+レビュー済み: false

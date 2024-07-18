@@ -1,0 +1,11 @@
+otázka: Jaká je role těžařů ve vztahu k elektrárnám, které ještě nejsou připojeny k síti?
+odpověď: Jednají jako kupci poslední instance
+špatné_odpovědi:
+  - Poskytují elektrárnám elektrickou energii
+  - Připojují elektrárny k síti
+  - Regulují cenu elektřiny
+vysvětlení: >-
+  Těžaři jednají jako kupci poslední instance pro elektrárny, které ještě nejsou připojeny
+  k síti. To umožňuje elektrárnám získat financování ještě před připojením
+  k elektrické síti.
+recenzováno: false

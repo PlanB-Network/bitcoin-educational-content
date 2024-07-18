@@ -1,0 +1,10 @@
+otázka: Jakou peněženku se doporučuje pro začínajícího Hodlera?
+odpověď: Studenou peněženku, jako je Bitbox02, Trezor nebo Ledger.
+špatné_odpovědi:
+  - Mobilní aplikaci teplé peněženky.
+  - Fyzickou peněženku.
+  - Papírovou peněženku.
+vysvětlení: |
+  Pro Hodlera je doporučeno začít se studenou peněženkou, jako je Bitbox02,
+  Trezor nebo Ledger. Tyto zařízení nabízejí dlouhodobou bezpečnost pro bitcoiny.
+recenzováno: false

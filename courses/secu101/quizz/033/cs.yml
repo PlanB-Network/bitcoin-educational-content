@@ -1,0 +1,11 @@
+otázka: Jaké jsou potenciální nevýhody vytváření zálohy "v cloudu" pomocí služeb jako ProtonMail Drive, Sync nebo Google Drive?
+odpověď: Vaše data jsou potenciálně na internetu a držena důvěryhodnou třetí stranou.
+špatné_odpovědi:
+  - Tyto služby nejsou spolehlivé pro zálohování dat.
+  - Tyto služby často ztrácejí data uživatelů.
+  - Tyto služby neposkytují dostatek úložného prostoru.
+vysvětlení: |
+  Ačkoliv služby pro zálohování v cloudu poskytují pohodlný způsob, jak zálohovat vaše
+  data, znamená to také, že vaše data jsou potenciálně na internetu a držena
+  důvěryhodnou třetí stranou. To může vaše data vystavit dodatečným rizikům.
+recenzováno: false

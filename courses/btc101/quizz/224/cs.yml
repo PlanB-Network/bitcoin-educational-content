@@ -1,0 +1,10 @@
+otázka: Co umožňuje Lightning Network?
+odpověď: Okamžité, nízkonákladové transakce v Bitcoinu.
+špatné_odpovědi:
+  - Okamžité, vysokonákladové transakce v Bitcoinu.
+  - Zpožděné, nízkonákladové transakce v Bitcoinu.
+  - Zpožděné, vysokonákladové transakce v Bitcoinu.
+vysvětlení: >-
+  Lightning Network umožňuje okamžité, nízkonákladové transakce v Bitcoinu,
+  čímž řeší problém škálovatelnosti Bitcoinu.
+recenzováno: false

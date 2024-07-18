@@ -1,0 +1,10 @@
+otázka: Jaká je nevýhoda P2P řešení HodlHodl?
+odpověď: Uživatelova e-mailová adresa a digitální identita jsou uchovávány HodlHodlem.
+špatné_odpovědi:
+  - Neumožňuje nákup a prodej Bitcoinu.
+  - Vyžaduje vytvoření účtu pro provoz.
+  - Nenabízí širokou škálu možností výměny.
+vysvětlení: |
+  Podle kapitoly je jednou z nevýhod HodlHodlu to, že
+  e-mailová adresa a digitální identita uživatele jsou uchovávány HodlHodlem.
+recenzováno: false

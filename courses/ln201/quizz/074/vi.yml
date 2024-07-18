@@ -1,0 +1,11 @@
+câu hỏi: Mục đích của meta-protocol LNURL trong một hóa đơn Lightning Network là gì?
+câu trả lời: Nó cho phép cung cấp một lượng satoshi cụ thể thay vì tạo một yêu cầu
+câu trả lời sai:
+  - Nó mã hóa dữ liệu hóa đơn
+  - Nó xác minh danh tính của người nhận
+  - Nó tính phí giao dịch
+giải thích: |
+  Meta-protocol LNURL trong một hóa đơn Lightning Network cho phép cung cấp
+  một lượng satoshi cụ thể thay vì tạo một yêu cầu. Tính năng này cải thiện trải nghiệm người dùng
+  bằng cách làm cho quá trình thanh toán linh hoạt hơn.
+đã xem xét: false

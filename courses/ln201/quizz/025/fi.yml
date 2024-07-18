@@ -1,0 +1,9 @@
+kysymys: Mikä on sitoumustapahtuman rooli Lightning-verkossa?
+vastaus: Se päivittää kanavan saldon jokaisen siirron jälkeen.
+väärät_vastaukset:
+  - Se avaa kanavan.
+  - Se sulkee kanavan.
+  - Se siirtää varat.
+selitys: |
+  Sitoumustapahtuma on uudempi tapahtuma, joka päivittää kanavan saldon jokaisen siirron jälkeen. Sitä ei suoriteta, ellei kanavaa suljeta.
+arvioitu: false

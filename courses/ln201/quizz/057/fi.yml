@@ -1,0 +1,9 @@
+kysymys: Mikä on HTLC-outin tarkoitus Alicen sitoumustapahtumassa?
+vastaus: Se edustaa HTLC:tä, jonka Alice lähettää vastaanottajalle, Susielle.
+väärät_vastaukset:
+  - Se edustaa HTLC:tä, jonka Alice vastaanottaa Bobilta.
+  - Se edustaa HTLC:tä, jonka Alice lähettää Bobille.
+  - Se edustaa HTLC:tä, jonka Alice vastaanottaa Susielta.
+selitys: |
+  Annetussa skenaariossa Alice lähettää HTLC:n Susielle. Tämä esitetään
+  Alicen sitoumustapahtumassa HTLC-outina.

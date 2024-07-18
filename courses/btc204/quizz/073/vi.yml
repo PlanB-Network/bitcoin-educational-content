@@ -1,0 +1,13 @@
+câu hỏi: Trong các câu trả lời sau, đâu không cho phép lừa dối các phép phân tích chuỗi heuristics?
+
+câu trả lời: Luôn sử dụng cùng một địa chỉ nhận.
+
+câu trả lời sai:
+  - Tạo một sự thay đổi có giá trị gần với số tiền thanh toán.
+  - Tạo các đầu ra với số lượng không đều, không tròn.
+  - Phân bổ các giao dịch xuyên suốt ngày.
+
+giải thích: |
+  Người ta đặc biệt không nên sử dụng một địa chỉ nhận nhiều lần. Tất cả các câu trả lời khác cho phép tránh được các phép phân tích chuỗi heuristics.
+
+đã xem xét: false

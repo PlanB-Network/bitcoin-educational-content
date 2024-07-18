@@ -1,0 +1,11 @@
+kysymys: Mikä on Lightning Network -lasku?
+vastaus: Se on tiivis esitys maksupyyntöstä
+väärät_vastaukset:
+  - Se on kirjaus kaikista Lightning Networkin transaktioista
+  - Se on työkalu Bitcoinin louhimiseen
+  - Se on digitaalisen lompakon tyyppi Bitcoinin säilyttämiseen
+selitys: |
+  Lightning Network -lasku on tiivis esitys maksupyyntöstä.
+  Se sisältää keskeistä tietoa, kuten maksettavan summan, vastaanottajan, luontiajanhetken,
+  ja mahdollisesti muita tietoja, kuten esikuvan hashin, maksusalaisuuden, reititysvihjeet ja vanhentumisajan.
+arvioitu: false

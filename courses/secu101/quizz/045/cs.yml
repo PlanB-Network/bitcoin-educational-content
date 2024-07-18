@@ -1,0 +1,13 @@
+otázka: Jaká je hlavní výhoda používání správce hesel?
+odpověď: Pomáhá vám vytvářet silná hesla a pamatovat si je, takže nemusíte.
+špatné_odpovědi:
+  - Automaticky vás přihlašuje do vašich online účtů.
+  - Chrání váš počítač před viry.
+  - Ukládá všechna vaše hesla na jedno místo, což je činí snadněji naleznutelnými.
+vysvětlení: |
+  Správce hesel vám pomáhá vytvářet silná hesla a pamatovat si je,
+
+  takže nemusíte. Ukládá všechna vaše hesla bezpečným způsobem a generuje
+
+  pro vás silná hesla.
+recenzováno: false

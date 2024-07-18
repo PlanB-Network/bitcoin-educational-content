@@ -1,0 +1,10 @@
+kysymys: Mikä on tapahtuman nimi, kun Bitcoin-siirtojen louhinnasta saatu palkkio puolittuu?
+vastaus: Puolittuminen
+vaarat_vastaukset:
+  - Kahdentuminen
+  - Neljännekseen jakaminen
+  - Kolminkertaistuminen
+selitys: |
+  Ohjelmoitu louhintapalkkioiden vähentäminen, joka tapahtuu joka neljäs vuosi puolittumalla,
+  on tapahtuma, joka tunnetaan nimellä "puolittuminen".
+arvioitu: false

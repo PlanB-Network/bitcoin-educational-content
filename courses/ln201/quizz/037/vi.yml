@@ -1,0 +1,12 @@
+câu hỏi: Có thể gian lận bằng cách công bố một trạng thái cũ trong một giao dịch cam kết không?
+câu trả lời: "Có"
+câu trả lời sai:
+  - "Không"
+  - Chỉ khi họ có chìa khóa thu hồi.
+  - Chỉ khi họ tạo giao dịch với Timelock.
+giải thích: |
+  Người ta có thể gian lận bằng cách công bố một trạng thái cũ trong một giao dịch cam kết
+  vì cả hai bên tham gia đều có chữ ký trước của giao dịch chưa được công bố.
+  Tuy nhiên, các biện pháp như Timelock và chìa khóa thu hồi được đặt ra để ngăn chặn
+  điều này.
+đã xem xét: false

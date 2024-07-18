@@ -1,0 +1,9 @@
+kysymys: Mikä on kiristyshaittaohjelma?
+vastaus: Haittaohjelman tyyppi, joka salaa käyttäjän tiedot ja vaatii lunnaita niiden salauksen purkamiseksi.
+väärät_vastaukset:
+  - Haittaohjelman tyyppi, joka toimii virustorjuntaohjelmistona.
+  - Haittaohjelman tyyppi, jota käytetään tietojen palauttamiseen.
+  - Haittaohjelman tyyppi, jota käytetään tietojen varmuuskopiointiin.
+selitys: |
+  Kiristyshaittaohjelma on haittaohjelman tyyppi, joka salaa käyttäjän tiedot ja vaatii lunnaita niiden salauksen purkamiseksi. Se on yhä yleisempi ja voi aiheuttaa suuria ongelmia yritykselle tai yksityishenkilölle.
+arvioitu: false

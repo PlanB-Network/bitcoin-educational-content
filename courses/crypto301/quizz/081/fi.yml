@@ -1,0 +1,11 @@
+kysymys: Onko salalauseen käyttö Bitcoin-lompakossa pakollista?
+vastaus: Ei, sen käyttö on valinnaista
+vaarat_vastaukset:
+  - Kyllä, sen käyttö on pakollista
+  - Se riippuu lompakon tyypistä
+  - Se riippuu lompakossa olevien bitcoinien määrästä
+selitys: |
+  Salalause on lisäsalasana, joka voidaan integroida
+  Bitcoin-lompakkoon sen turvallisuuden lisäämiseksi. Sen käyttö on valinnaista ja jää
+  käyttäjän harkinnan varaan.
+arvioitu: false

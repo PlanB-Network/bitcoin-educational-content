@@ -1,0 +1,9 @@
+kysymys: Mikä on ero kaupankäynnin ja sijoittamisen välillä Bitcoinin kontekstissa?
+vastaus: Kaupankäynti sisältää lyhytaikaisia sopimuksia, joissa on korkea riski, kun taas sijoittaminen tarkoittaa BTC:n ostamista lyhyelle ja keskipitkälle aikavälille rajatulla riskillä.
+väärät_vastaukset:
+  - Kaupankäynti sisältää BTC:n ostamisen lyhyelle ja keskipitkälle aikavälille, kun taas sijoittaminen sisältää lyhytaikaisia sopimuksia, joissa on korkea riski.
+  - Kaupankäynti sisältää BTC:n ostamisen pitkäaikaisesti, kun taas sijoittaminen sisältää lyhytaikaisia sopimuksia, joissa on korkea riski.
+  - Kaupankäynti sisältää BTC:n ostamisen lyhyelle ja keskipitkälle aikavälille, kun taas sijoittaminen sisältää BTC:n ostamisen pitkäaikaisesti.
+selitys: |
+  Bitcoinin kontekstissa kaupankäynti sisältää lyhytaikaisia sopimuksia, joissa on korkea riski, kun taas sijoittaminen tarkoittaa BTC:n ostamista lyhyelle ja keskipitkälle aikavälille rajatulla riskillä.
+arvioitu: false

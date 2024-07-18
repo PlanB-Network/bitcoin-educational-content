@@ -1,0 +1,10 @@
+otázka: Co se stane při vynuceném uzavření kanálu?
+odpověď: Všechny probíhající HTLC transakce jsou zveřejněny, což může být velmi nákladné a komplikované.
+špatné_odpovědi:
+  - Platby jsou přerušeny a HTLC jsou vyřešeny, což je obecně méně nákladné.
+  - Kanál je okamžitě uzavřen bez jakýchkoli dalších kroků.
+  - Všechny probíhající HTLC transakce jsou zrušeny.
+vysvětlení: |
+  Při vynuceném uzavření jsou všechny probíhající HTLC transakce zveřejněny. To
+  může být velmi nákladné a komplikované kvůli složitosti a počtu zahrnutých transakcí.
+recenzováno: false

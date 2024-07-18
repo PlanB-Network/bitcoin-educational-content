@@ -1,0 +1,8 @@
+câu hỏi: Hai yếu tố thiết yếu nào là nền tảng mà ví HD dựa vào?
+câu trả lời: Cụm từ ghi nhớ và cụm từ bí mật.
+câu trả lời sai:
+  - Hạt giống và khóa riêng tư chính.
+  - Mã chuỗi chính và hạt giống.
+  - Cụm từ ghi nhớ và khóa riêng tư chính.
+giải thích: |
+  Nền tảng của ví HD dựa vào hai yếu tố thiết yếu; cụm từ ghi nhớ và cụm từ bí mật (mật khẩu bổ sung tùy chọn). Cả hai cùng tạo thành hạt giống, một chuỗi 512-bit bao gồm chữ và số, phục vụ làm cơ sở để suy ra các khóa của ví.

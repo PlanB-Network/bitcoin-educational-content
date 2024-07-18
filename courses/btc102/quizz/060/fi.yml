@@ -1,0 +1,10 @@
+kysymys: Mikä on hot wallet Bitcoinin kontekstissa?
+vastaus: Lompakko pienien Bitcoin-määrien säilyttämiseen verkossa
+vaarat_vastaukset:
+  - Lompakko, jota käytetään transaktioihin kuumissa ilmastoissa
+  - Lompakko, jota käytetään suurien Bitcoin-määrien säilyttämiseen
+  - Lompakko, jota käytetään Bitcoinien säilyttämiseen pitkän aikaa
+selitys: |
+  Hot wallet on lompakko pienien Bitcoin-määrien säilyttämiseen verkossa.
+  Sitä pidetään vähemmän turvallisena kuin cold wallet, koska se on alttiimpi hakkeroinnille.
+arvioitu: false

@@ -1,0 +1,11 @@
+câu hỏi: Hàm băm nào là yếu tố quan trọng trong giao thức Bitcoin?
+câu trả lời: SHA-256
+câu trả lời sai:
+  - MD5
+  - SHA1
+  - SHA0
+giải thích: |
+  SHA-256 là yếu tố quan trọng trong giao thức Bitcoin. Nó được sử dụng để tạo ra
+  một dấu vân tay duy nhất và không thể đảo ngược của dữ liệu giao dịch, điều này rất quan trọng cho
+  sự an toàn và toàn vẹn của mạng lưới Bitcoin.
+đã xem xét: false

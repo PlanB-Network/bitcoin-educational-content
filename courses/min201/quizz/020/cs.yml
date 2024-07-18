@@ -1,0 +1,9 @@
+otázka: Jaké jsou budoucí obavy týkající se využívání prostoru v blocích Bitcoinu?
+odpověď: Budoucí obava spočívá v tom, že s očekávaným růstem Lightning Network a následným zvýšením počtu otevírání a uzavírání kanálů se prostor v blocích Bitcoinu stane stále cennějším.
+špatné_odpovědi:
+  - Budoucí obava spočívá v tom, že velikost bloků Bitcoinu se stane příliš velkou na správu.
+  - Budoucí obava spočívá v tom, že počet bloků Bitcoinu překročí kapacitu sítě.
+  - Budoucí obava spočívá v tom, že složitost bloků Bitcoinu se zvýší, což je bude činit těžko zpracovatelnými.
+vysvětlení: |
+  S očekávaným růstem Lightning Network a následným zvýšením počtu otevírání a uzavírání kanálů se prostor v blocích Bitcoinu stane stále cennějším. To vedlo k diskusím o legitimním využívání prostoru v blocích, s obavami z "spamování" na blockchainu transakcemi, které jsou považovány za neesenciální.
+recenzováno: false

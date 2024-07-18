@@ -1,0 +1,8 @@
+câu hỏi: Hàm nào được sử dụng để tạo ra seed từ cụm mật khẩu trong ví Bitcoin?
+câu trả lời: pbkdf2
+câu trả lời sai:
+  - sha256
+  - md5
+  - bcrypt
+giải thích: |
+  Hàm pbkdf2 được sử dụng để tạo ra seed từ cụm mật khẩu trong ví Bitcoin. Seed này cho phép tạo ra tất cả các cặp khóa con của ví.

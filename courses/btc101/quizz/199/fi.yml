@@ -1,0 +1,10 @@
+kysymys: Mikä on Dollar Cost Average?
+vastaus: Pienien määrien Bitcoinin ostaminen säännöllisin väliajoin.
+väärät_vastaukset:
+  - Suuren määrän Bitcoinin ostaminen kerralla.
+  - Bitcoinin ostaminen vain, kun hinta laskee.
+  - Bitcoinin ostaminen vain, kun hinta nousee.
+selitys: >-
+  Teksti selittää, että Dollar Cost Average tarkoittaa pienten määrien Bitcoinin ostamista säännöllisin väliajoin. Tämä menetelmä tasoittaa hintaa ajan myötä ja
+  tarjoaa jatkuvaa kasvua omistetun Bitcoin-määrän suhteen.
+arvioitu: false

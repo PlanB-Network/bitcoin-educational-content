@@ -1,0 +1,13 @@
+question: Silent Paymentsによって独占的に使用されるスクリプトのタイプは何ですか？
+
+answer: P2TR
+
+wrong_answers:
+  - P2WPKH
+  - P2SP
+  - P2WSH
+
+explanation: |
+  このプロトコルの実装を容易にし、そのユーザーの匿名性セットを改善するために、Silent PaymentsはP2TR（Pay to Taproot）スクリプトにのみ依存しています。
+
+reviewed: false

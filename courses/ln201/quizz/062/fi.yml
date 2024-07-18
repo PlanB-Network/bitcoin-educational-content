@@ -1,0 +1,10 @@
+kysymys: Mikä on hajautusarvon r rooli HTLC:ssä?
+vastaus: Se sisältyy laskuun, jonka Bob lähettää Alicelle ja sitä käytetään HTLC:n perustamiseen.
+väärät_vastaukset:
+  - Sitä käytetään salaisuuden S laskemiseen.
+  - Sitä käytetään kanavan sulkemiseen.
+  - Sitä käytetään rahan siirtämiseen.
+selitys: |
+  Bob luo salaisuuden S ja laskee hajautusarvon r. Tämä hajautus sisältyy
+  laskuun, jonka Bob lähettää Alicelle ja sitä käytetään HTLC:n perustamiseen.
+arvioitu: false

@@ -1,0 +1,13 @@
+pergunta: Por que o operador XOR é usado no BIP47?
+
+resposta: Para criptografar simetricamente o payload do código de pagamento do remetente.
+
+respostas_erradas:
+  - Para criptografar assimetricamente o payload do código de pagamento do remetente.
+  - Para criptografar simetricamente os metadados do código de pagamento do remetente.
+  - Para criptografar assimetricamente os metadados do código de pagamento do remetente.
+
+explicação: |
+  O operador XOR é utilizado para criptografar simetricamente o payload do código de pagamento do remetente no BIP47.
+
+revisado: false

@@ -1,0 +1,9 @@
+kysymys: Mitä tapahtuu transaktion aikana
+vastaus: Transaktion salaisuus
+väärät_vastaukset:
+  - Transaktion salaisuus
+  - Uusi salaisuus päätetään ja uusi kumoamisavain luodaan.
+  - Edellinen sitoumustapahtuma päivitetään uudella salaisuudella ja kumoamisavaimella.
+selitys: |
+  Transaktion aikana
+arvioitu: false

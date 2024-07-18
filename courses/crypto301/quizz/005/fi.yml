@@ -1,0 +1,11 @@
+kysymys: Mikä on kryptografisen hajautusfunktion lopullinen tavoite?
+vastaus: Muuntaa mielivaltaisen kokoiset tiedot kiinteänkokoiseksi sormenjäljeksi.
+väärät_vastaukset:
+  - Salata tiedot turvallista siirtoa varten.
+  - Luoda jokaiselle käyttäjälle uniikki avain.
+  - Tiivistää tiedot tehokasta tallennusta varten.
+selitys: |
+  Kryptografisen hajautusfunktion lopullinen tavoite on muuntaa mielivaltaisen kokoiset
+  tiedot kiinteänkokoiseksi sormenjäljeksi. Tämä sormenjälki on yksilöllinen syötetiedoille,
+  ja jopa pieni muutos syötteessä johtaa merkittävästi erilaiseen sormenjälkeen.
+arvioitu: false

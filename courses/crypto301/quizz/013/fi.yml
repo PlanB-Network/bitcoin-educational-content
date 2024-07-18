@@ -1,0 +1,10 @@
+kysymys: Mikä on JA-operaattorin rooli SHA256:n tiivistysfunktiossa?
+vastaus: Palauttaa 1 vain, jos molemmat operandit ovat yhtä suuret kuin 1
+vaarat_vastaukset:
+  - Käsitellä bittejä yksi kerrallaan niiden arvon mukaan
+  - Palauttaa operandin vastakkaisen arvon
+  - Siirtää bitit oikealle valitun numeron verran
+selitys: |
+  SHA256:n tiivistysfunktiossa JA-operaattoria käytetään palauttamaan
+  1 vain, jos molemmat operandit ovat yhtä suuret kuin 1. Tämä tehdään käyttäen totuustaulua.
+arvioitu: false

@@ -1,0 +1,11 @@
+pergunta: Qual é o propósito dos nós na rede Bitcoin?
+resposta: Manter e proteger a blockchain
+respostas_erradas:
+  - Processar transações
+  - Propor e implementar mudanças no código-base do Bitcoin
+  - Competir com outros mineradores
+explicação: |
+  Os nós são essenciais para a integridade e segurança da rede Bitcoin.
+  Eles atuam como os guardiões do sistema, garantindo que as transações
+  sejam processadas de forma precisa e de acordo com as regras.
+revisado: true

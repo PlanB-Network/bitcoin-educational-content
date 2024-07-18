@@ -1,0 +1,11 @@
+kysymys: Mikä on puolittuminen Bitcoinin kontekstissa?
+vastaus: Ominaisuus Bitcoinin koodissa, joka puolittaa louhinnan palkkion joka neljäs vuosi
+väärät_vastaukset:
+  - Prosessi, joka lisää Bitcoinin globaalia hyväksyntää
+  - Mekanismi, joka estää bitcoinin arvon romahtamisen
+  - Termi, jota käytetään kuvaamaan tapahtumaa, kun bitcoinin hinta nousee jyrkästi
+selitys: |
+  Puolittuminen on ominaisuus Bitcoinin koodissa, joka leikkaa louhinnan 
+  palkkion puoleen suunnilleen joka neljäs vuosi. Tämä tapahtuma vaikuttaa 
+  louhijoiden tuloihin ja kohdistaa ylöspäin suuntautuvaa painetta bitcoinin hintaan.
+arvioitu: true

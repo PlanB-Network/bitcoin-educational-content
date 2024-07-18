@@ -1,0 +1,9 @@
+kysymys: Mikä algoritmi Bitcoin käyttää yhdistääkseen yksityiset ja julkiset avaimet?
+vastaus: Elliptic Curve Digital Signature Algorithm (ECDSA)
+vaarat_vastaukset:
+  - Advanced Encryption Standard (AES)
+  - Rivest-Shamir-Adleman (RSA)
+  - Secure Hash Algorithm 2 (SHA-2)
+selitys: |
+  Bitcoin hyödyntää Elliptic Curve Digital Signature Algorithm (ECDSA) -algoritmia yhdistääkseen yksityiset ja julkiset avaimet.
+arvioitu: false

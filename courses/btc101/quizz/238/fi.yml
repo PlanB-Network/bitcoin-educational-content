@@ -1,0 +1,11 @@
+kysymys: Mikä on käsite "rahan suoratoisto" Lightning-verkon kontekstissa?
+vastaus: Mikrotransaktioiden tekeminen joka minuutti
+vaarat_vastaukset:
+  - Videosisällön suoratoisto Bitcoinilla
+  - Äänisisällön suoratoisto Bitcoinilla
+  - Bitcoin-transaktioiden suoratoisto reaaliajassa
+selitys: >-
+  Lightning-verkon avulla voimme tehdä mikrotransaktioita joka minuutti,
+  mikä avaa ovet kokeilla taloudellisia malleja, joissa kuluttajat maksavat
+  sisällöstä sen mukaan mitä he kuluttavat.
+arvioitu: false

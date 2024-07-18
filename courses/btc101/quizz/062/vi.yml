@@ -1,0 +1,9 @@
+câu hỏi: Cơ chế nào đảm bảo một khối mới được thêm vào blockchain mỗi mười phút?
+câu trả lời: Điều chỉnh độ khó
+câu trả lời sai:
+  - Điều chỉnh tốc độ
+  - Điều chỉnh thời gian
+  - Điều chỉnh khối
+giải thích: |
+  Cơ chế đảm bảo một khối mới được thêm vào blockchain mỗi mười phút là điều chỉnh độ khó. Điều chỉnh này diễn ra mỗi 2016 khối, hoặc khoảng hai tuần.
+đã xem xét: true

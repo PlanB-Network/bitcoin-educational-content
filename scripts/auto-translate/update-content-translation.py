@@ -149,7 +149,7 @@ def copy_from_LLM_Translator_to_repo(lang, source_path):
 
 def git_commit(commit_message):
     try:
-        subprocess.run(['git', 'add', '.'], check=True)
+        subprocess.run(['git', 'add', '../../'], check=True)
         subprocess.run(['git', 'commit', '-m', commit_message], check=True)
         print("Changes committed successfully.")
     except subprocess.CalledProcessError as e:
@@ -182,7 +182,11 @@ def main():
             copy_from_repo_to_LLM_Translator(lang, input_list_path, destination_base_path)
 
             source_path = f"pbn-from-{lang}-to-en"
+<<<<<<< HEAD
             # run_LLM_Translator(lang, 'en', source_path)
+=======
+            run_LLM_Translator(lang, 'en', source_path)
+>>>>>>> 735dad80f79c2d4aee56fc56f88889d59b404e34
             print('llm translator from lang to en running')
             copy_from_LLM_Translator_to_repo(lang, source_path)
 
@@ -198,7 +202,11 @@ def main():
             copy_from_repo_to_LLM_Translator('en', input_list_path, destination_base_path)
 
             source_path = f"pbn-from-en-to-{lang}"
+<<<<<<< HEAD
             # run_LLM_Translator('en', lang, source_path)
+=======
+            run_LLM_Translator('en', lang, source_path)
+>>>>>>> 735dad80f79c2d4aee56fc56f88889d59b404e34
             print('llm runs from en to lang')
             copy_from_LLM_Translator_to_repo(lang, source_path)
             

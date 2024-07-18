@@ -1,0 +1,8 @@
+otázka: Jaké dovednosti jsou potřebné v kybernetické bezpečnosti?
+odpověď: Analýza logů, reakce na incidenty
+špatné_odpovědi:
+  - Grafický design, střih videa
+  - Prodej, marketing
+  - Vaření, pečení
+vysvětlení: |
+  Kapitola zmiňuje analýzu logů a reakci na incidenty jako některé z dovedností potřebných v kybernetické bezpečnosti.

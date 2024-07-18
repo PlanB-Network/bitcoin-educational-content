@@ -1,0 +1,13 @@
+kysymys: Mikä salausavainten vaihtoalgoritmi on BIP47:n toiminnan ytimessä?
+
+vastaus: ECDH
+
+vaarat_vastaukset:
+  - RSA
+  - ElGamal
+  - Diffie-Hellman
+
+selitys: |
+  Käytössä oleva algoritmi on ECDH (Elliptic Curve Diffie-Hellman). Se on klassisen Diffie-Hellman algoritmin variantti, joka käyttää elliptisiä käyriä.
+
+arvioitu: false

@@ -1,0 +1,11 @@
+otázka: Co je přijímací adresa v Bitcoinu?
+odpověď: Alfanumerická reprezentace komprimovaného veřejného klíče.
+nesprávné_odpovědi:
+  - Unikátní identifikátor pro každou Bitcoin transakci.
+  - Heslo pro přístup k Bitcoin peněžence.
+  - Digitální podpis pro Bitcoin transakce.
+vysvětlení: |
+  Přijímací adresa v Bitcoinu je alfanumerická reprezentace
+  
+  komprimovaného veřejného klíče. Používá se pro přijímání Bitcoin transakcí.
+recenzováno: false

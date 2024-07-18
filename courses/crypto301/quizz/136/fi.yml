@@ -1,0 +1,9 @@
+kysymys: Mikä on korkein elementti HD-lompakon hierarkiassa?
+vastaus: Pääyksityisavain ja pääketjukoodi
+vaarat_vastaukset:
+  - Mnemoninen lause ja salasana
+  - Alaiset avaimet
+  - Lompakon siemen
+selitys: |
+  Pääyksityisavain ja pääketjukoodi johdetaan lompakon siemenestä ja ovat korkeimmat elementit HD-lompakon hierarkiassa. Niitä käytetään alaisten avainten johtamiseen.
+arvioitu: false

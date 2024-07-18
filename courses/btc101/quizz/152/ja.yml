@@ -1,0 +1,9 @@
+question: HashRateとは何ですか？
+answer: Proof of Workで正しい番号を見つける試みの総量です。
+wrong_answers:
+  - マイナーがProof of Workを解決する速度。
+  - Bitcoinネットワークにおけるマイナーの総数。
+  - 採掘されたビットコインの総量。
+explanation: >-
+  HashRateは、マイナーがProof of Workを解決するために1秒間に行う試みの総数を指します。これはBitcoinネットワークの計算能力の尺度です。
+reviewed: false

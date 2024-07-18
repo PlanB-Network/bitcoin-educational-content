@@ -1,0 +1,10 @@
+otázka: Co znamená, že Bitcoin je neutrální měna?
+odpověď: Není kontrolován žádnou entitou nebo institucí.
+špatné_odpovědi:
+  - Je kontrolován jednou entitou nebo institucí.
+  - Je regulován vládou.
+  - Je používán pouze pro neutrální transakce.
+vysvětlení: |
+  Bitcoin je neutrální měna, což znamená, že není kontrolován žádnou entitou
+  nebo institucí a každý uživatel má stejná práva. To je klíčový aspekt jeho decentralizace.
+recenzováno: true

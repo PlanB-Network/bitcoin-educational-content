@@ -1,0 +1,11 @@
+kysymys: Mikä on ensimmäinen askel perintösuunnitelman luomisessa kyseisen luvun mukaan?
+vastaus: Valitse oikeat ihmiset auttamaan perillisiäsi.
+väärät_vastaukset:
+  - Kirjoita kirje.
+  - Suorita yksinkertainen ja nopea inventaario.
+  - Palkkaa lakimies.
+  - Luota kolmanteen osapuoleen.
+selitys: |
+  Ensimmäinen askel perintösuunnitelman luomisessa, kuten luvussa ehdotetaan,
+  on valita oikeat ihmiset auttamaan perillisiäsi.
+arvioitu: false

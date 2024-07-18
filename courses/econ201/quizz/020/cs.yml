@@ -1,0 +1,9 @@
+question: Podle rakouských ekonomů, jaký je výsledek, když se jednotlivci specializují ve své práci a zapojují do výměn?
+answer: Jednotlivci jsou vždy na tom lépe.
+wrong_answers:
+  - Jednotlivci jsou vždy na tom hůře.
+  - Ve situaci jednotlivců nedochází k žádné změně.
+  - Výsledek se liší v závislosti na jednotlivci.
+explanation: |
+  Podle rakouských ekonomů je výsledek, když se jednotlivci specializují ve své práci a zapojují do výměn, že jsou vždy na tom lépe. Důvodem je, že specializace a výměna umožňují jednotlivcům maximalizovat jejich subjektivní užitek.
+reviewed: false

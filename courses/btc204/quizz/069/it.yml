@@ -1,0 +1,13 @@
+domanda: Cosa influenza il peso di una transazione Bitcoin?
+
+risposta: Il numero di input e output.
+
+risposte_errate:
+  - La dimensione della blockchain.
+  - La quantità degli input e degli output.
+  - L'età degli UTXO utilizzati.
+
+spiegazione: |
+  Più input e output ha una transazione Bitcoin, più sarà pesante in vB.
+
+revisionato: false

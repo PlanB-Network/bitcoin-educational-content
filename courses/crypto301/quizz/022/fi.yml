@@ -1,0 +1,9 @@
+kysymys: Mitkä ovat kaksi keskeistä komponenttia Bitcoin-protokollan turvamekanismissa?
+vastaus: HMAC ja PBKDF2-johdannaisalgoritmit
+väärät_vastaukset:
+  - SHA-256 ja RIPEMD-160 hajautusfunktiot
+  - Elliptinen käyrän digitaalinen allekirjoitus algoritmi (ECDSA) ja SHA-256 hajautusfunktio
+  - RSA ja Diffie-Hellman avainvaihto
+selitys: |
+  HMAC ja PBKDF2-johdannaisalgoritmit ovat keskeisiä komponentteja Bitcoin-protokollan turvamekanismissa. Ne estävät monenlaisia mahdollisia hyökkäyksiä ja takaavat Bitcoin-lompakoiden eheyden.
+arvioitu: false

@@ -1,0 +1,8 @@
+câu hỏi: Phương pháp được khuyến nghị để lưu trữ mật khẩu cho việc mã hóa dữ liệu là gì?
+câu trả lời: Ghi mật khẩu ra giấy và cất giữ nơi an toàn.
+câu trả lời sai:
+  - Lưu mật khẩu trong một tệp văn bản trên máy tính.
+  - Chia sẻ mật khẩu với bạn bè đáng tin cậy.
+  - Sử dụng một mật khẩu phổ biến dễ nhớ.
+giải thích: |
+  Được khuyến nghị là ghi mật khẩu cho việc mã hóa dữ liệu ra giấy và cất giữ nơi an toàn. Điều này nhằm ngăn chặn việc mất quyền truy cập vào dữ liệu đã mã hóa.

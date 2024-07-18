@@ -1,0 +1,11 @@
+otázka: Kdo má klíč pro zrušení v závazkové transakci Alice?
+odpověď: Pouze Alice.
+špatné_odpovědi:
+  - Pouze Bob.
+  - Oba, Alice i Bob.
+  - Ani Alice, ani Bob.
+vysvětlení: |
+  V závazkové transakci Alice má klíč pro zrušení pouze Alice.
+  To jí umožňuje přesunout prostředky bez čekání na konec Timelocku, pokud
+  Bob se pokusí podvádět.
+recenzováno: false

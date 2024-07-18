@@ -1,0 +1,9 @@
+otázka: Kdo platí transakční poplatky v Lightning Network?
+odpověď: Odesílatel platby.
+špatné_odpovědi:
+  - Příjemce platby.
+  - Prostředníci.
+  - Síť samotná.
+vysvětlení: |
+  V Lightning Network platí transakční poplatky odesílatel platby. Tyto poplatky účtují uzly, které jsou použity k přesměrování transakce.
+recenzováno: false

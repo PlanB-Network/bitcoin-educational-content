@@ -1,0 +1,9 @@
+question: Jaký byl jedinečný rys směnek zavedených na Antverpské burze v 16. století?
+answer: Byly opatřeny jmény a daty splatnosti
+wrong_answers:
+  - Byly vyrobeny ze zlata
+  - Byly vydány Bankou Amsterdamu
+  - Dalo se je směnit za floriny
+explanation: |
+  Antverpská burza zavedla směnky, které byly opatřeny jmény a daty splatnosti. To je činilo obtížně směnitelnými před datem splatnosti. Avšak burza zavedla praxi diskontování těchto směnek před jejich datem splatnosti, čímž je učinila likvidnějšími a zavedla koncept časové hodnoty peněz.
+reviewed: false

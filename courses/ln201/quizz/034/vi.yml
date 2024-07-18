@@ -1,0 +1,8 @@
+câu hỏi: Mục đích của Timelock trong một giao dịch cam kết là gì?
+câu trả lời: Nó khóa các khoản tiền cho đến một khối nhất định.
+câu trả lời sai:
+  - Nó khóa giao dịch cho đến một khối nhất định.
+  - Nó khóa kênh cho đến một khối nhất định.
+  - Nó khóa khóa hủy bỏ cho đến một khối nhất định.
+giải thích: |
+  Timelock trong một giao dịch cam kết khóa các khoản tiền cho đến một khối nhất định. Điều này ngăn chặn bên tạo ra giao dịch khôi phục ngay lập tức số tiền của họ.

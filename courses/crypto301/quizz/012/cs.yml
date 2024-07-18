@@ -1,0 +1,10 @@
+otázka: Jaká je role operátoru XOR ve funkci komprese SHA256?
+odpověď: Zpracovávat bity jeden po druhém podle jejich pořadí
+špatné_odpovědi:
+  - Vrátit 1 pouze pokud oba operandy jsou rovny 1
+  - Vrátit opačnou hodnotu operandu
+  - Posunout bity doprava o zvolený počet
+vysvětlení: |
+  Ve funkci komprese SHA256 se operátor XOR používá k zpracování
+  bitů jeden po druhém podle jejich pořadí. To se provádí pomocí pravdivostní tabulky.
+recenzováno: false

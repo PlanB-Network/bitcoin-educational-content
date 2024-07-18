@@ -1,0 +1,8 @@
+kysymys: Mitkä ovat kolme päävaihetta lohkoketjuanalyysissä?
+vastaus: Lohkoketjun tarkkailu, ominaisuuksien tunnistaminen ja hypoteesien päätteleminen.
+väärät_vastaukset:
+  - Tiedonkeruu, turvallinen säilytys ja raportointi.
+  - Käyttäjien tunnistaminen, vaihtojen sääntely ja petosten estäminen.
+  - Tiedonkeruu, satunnainen valinta ja ilmianto.
+selitys: |
+  Lohkoketjuanalyysi alkaa ensin Bitcoin-lohkoketjun datan saavuttamisella, sitten pyritään tunnistamaan ominaisuuksia tässä datassa ja lopulta tekemään uskottavia tulkintoja.

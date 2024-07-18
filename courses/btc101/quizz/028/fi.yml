@@ -1,0 +1,10 @@
+kysymys: Mikä on valuutan kehityskaari?
+vastaus: Raakakivi -> Kolikko -> Seteli -> Pankkikortti -> Lohkoketju -> Salamaverkko
+väärät_vastaukset:
+  - Raakakivi -> Kolikko -> Seteli -> Lohkoketju -> Salamaverkko
+  - Raakakivi -> Kolikko -> Seteli -> Pankkikortti -> Salamaverkko
+  - Raakakivi -> Kolikko -> Seteli -> Pankkikortti -> Lohkoketju
+selitys: |
+  Valuutta, kuten mikä tahansa teknologia, on kehittynyt raakakivestä
+  metalliseen kolikkoon, siitä seteliin, pankkikorttiin ja lopulta vertaisverkkoihin Bitcoinin lohkoketjun ja Salamaverkon myötä.
+arvioitu: true

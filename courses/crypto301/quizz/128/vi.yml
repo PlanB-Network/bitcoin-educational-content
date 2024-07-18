@@ -1,0 +1,11 @@
+câu hỏi: Tiền tố 0,3 chỉ ra điều gì trong khóa công khai Bitcoin?
+câu trả lời: Nó chỉ ra giá trị lẻ của y.
+câu trả lời sai:
+  - Nó chỉ ra giá trị chẵn của y.
+  - Nó chỉ ra phiên bản của khóa công khai.
+  - Nó chỉ ra kích thước của khóa công khai.
+giải thích: |
+  Trong ví dụ về khóa công khai thuộc về Satoshi Nakamoto, tiền tố
+
+  0,3 chỉ ra một giá trị lẻ của y. Đây là một phần của quá trình nén khóa công khai trong Bitcoin.
+đã xem xét: false

@@ -1,0 +1,8 @@
+câu hỏi: Alice làm gì sau khi nhận được địa chỉ công khai của Bob?
+câu trả lời: Cô ấy tạo một địa chỉ multi-sig 2/2.
+câu trả lời sai:
+  - Cô ấy gửi tiền đến địa chỉ công khai của Bob.
+  - Cô ấy công bố một giao dịch lên mạng Bitcoin.
+  - Cô ấy yêu cầu chữ ký của Bob.
+giải thích: |
+  Sau khi nhận được địa chỉ công khai của Bob, Alice sử dụng nó cùng với địa chỉ công khai của mình để tạo ra một địa chỉ multi-sig 2/2. Đây là địa chỉ mà cô ấy sẽ gửi tiền để mở kênh.

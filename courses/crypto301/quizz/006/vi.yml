@@ -1,0 +1,9 @@
+câu hỏi: Hash trong ngữ cảnh của hàm băm mật mã là gì?
+câu trả lời: Một dấu vân tay số độc nhất và cố định được tạo ra bởi hàm băm.
+câu trả lời sai:
+  - Một loại thuật toán mã hóa.
+  - Một khóa được sử dụng để giải mã dữ liệu.
+  - Một phương pháp nén dữ liệu.
+giải thích: |
+  Trong ngữ cảnh của hàm băm mật mã, hash là một dấu vân tay số độc nhất và cố định được tạo ra bởi hàm băm. Nó đại diện cho dữ liệu đầu vào một cách độc nhất và không thể đảo ngược.
+đã xem xét: false

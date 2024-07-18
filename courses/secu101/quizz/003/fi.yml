@@ -1,0 +1,11 @@
+kysymys: Mikä on avoimen lähdekoodin ohjelmiston käytön pääetu?
+vastaus: Se mahdollistaa varmistuksen siitä, ettei ole piilotettua pääsyä varastamaan henkilökohtaisia tietojasi.
+vaarat_vastaukset:
+  - Se on aina ilmainen.
+  - Se on aina turvallisempi kuin suljettu lähdekoodi -ohjelmisto.
+  - Se on aina käyttäjäystävällisempi kuin suljettu lähdekoodi -ohjelmisto.
+selitys: |
+  Avoimen lähdekoodin ohjelmisto on ohjelmisto, jonka koodi on tunnettu ja kaikkien saavutettavissa.
+  Tämä mahdollistaa muun muassa varmistuksen siitä, ettei ole piilotettua pääsyä varastamaan henkilökohtaisia tietojasi. Se ei kuitenkaan ole aina ilmainen, turvallisempi,
+  tai käyttäjäystävällisempi kuin suljettu lähdekoodi -ohjelmisto.
+arvioitu: false

@@ -1,0 +1,9 @@
+kysymys: Mikä on pankkijärjestelmän yksityisyysmalli?
+vastaus: Vain pankilla on pääsy tapahtumatietoihin.
+väärät_vastaukset:
+  - Tapahtumat ovat julkisia, mutta käyttäjien henkilöllisyys ei ole tiedossa.
+  - Tapahtumat ovat nimettömiä ja piilossa kaikilta, myös pankilta.
+  - Vain hallituksilla on pääsy tapahtumatietoihin.
+selitys: |
+  Perinteisessä järjestelmässä jokainen pankkitili on yhdistetty henkilöllisyyteen. Tietovirta kuitenkin katkeaa pankin ja julkisen sektorin välillä.
+arvioitu: false

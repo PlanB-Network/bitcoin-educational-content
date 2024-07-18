@@ -1,0 +1,13 @@
+kysymys: Mikä on BIP47:n päätavoite?
+
+vastaus: Saada uniikki tunniste, jolla voi vastaanottaa BTC:tä ilman osoitteiden uudelleenkäyttöä.
+
+väärät_vastaukset:
+  - Kasvattaa lohkojen kokoa nopeampien transaktioiden mahdollistamiseksi.
+  - Mahdollistaa maksuttomat transaktiot Bitcoin-verkossa.
+  - Tehdä transaktioista täysin anonyymejä Bitcoinissa.
+
+selitys: |
+  BIP47:n tavoitteena on tarjota uniikki tunniste, joka mahdollistaa bitcoinien vastaanottamisen useita kertoja ja useilta eri ihmisiltä, mutta ilman osoitteiden uudelleenkäyttöä, sillä tämä on erittäin huono käytäntö käyttäjän yksityisyyden kannalta.
+
+arvioitu: false

@@ -1,0 +1,11 @@
+otázka: Je použití heslové fráze v Bitcoinové peněžence povinné?
+odpověď: Ne, její použití je volitelné
+špatné_odpovědi:
+  - Ano, její použití je povinné
+  - Záleží na typu peněženky
+  - Záleží na množství bitcoinů v peněžence
+vysvětlení: |
+  Heslová fráze je dodatečné heslo, které lze integrovat do
+  Bitcoinové peněženky za účelem zvýšení její bezpečnosti. Její použití je volitelné a je na uvážení
+  uživatele.
+recenzováno: false

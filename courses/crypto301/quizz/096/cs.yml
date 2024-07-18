@@ -1,0 +1,11 @@
+otázka: Jaká je velikost rozšířeného klíče?
+odpověď: 82 bajtů
+špatné_odpovědi:
+  - 65 bajtů
+  - 33 bajtů
+  - 512 bitů
+vysvětlení: |
+  Rozšířené klíče mají velikost 82 bajtů a jejich prefix je reprezentován
+
+  v base 58 prostřednictvím hexadecimální konverze.
+recenzováno: false

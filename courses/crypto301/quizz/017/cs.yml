@@ -1,0 +1,9 @@
+otázka: Jaká je hlavní výhoda hašovací funkce SHA256?
+odpověď: Její odolnost proti zjištění vstupu z haše, zatímco ověření haše pro daný vstup je mechanicky jednoduchá akce.
+špatné_odpovědi:
+  - Schopnost generovat 512bitový haš z vstupu proměnné velikosti
+  - Použití doplňkových bitů pro zvětšení velikosti vstupu
+  - Použití operátorů XOR, AND a NOT pro zpracování bitů
+vysvětlení: |
+  Hlavní výhodou hašovací funkce SHA256 je její odolnost proti zjištění vstupu z haše, zatímco ověření haše pro daný vstup je mechanicky jednoduchá akce. To ji činí preferovanou volbou pro zabezpečení mnoha digitálních systémů, zejména v rámci protokolu Bitcoin.
+reviewed: false

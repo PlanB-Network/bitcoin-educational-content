@@ -1,0 +1,11 @@
+kysymys: Mikä on satunnaislukugeneraattorin (RNG) päätarkoitus Bitcoin-siirroissa?
+vastaus: Varmistaa yksityisavainten eheys.
+väärät_vastaukset:
+  - Varmistaa siirtojen nopeus.
+  - Varmistaa siirtojen nimettömyys.
+  - Varmistaa siirtojen laillisuus.
+selitys: |
+  RNG:tä käytetään satunnaislukujen tuottamiseen, jotka ovat olennaisen tärkeitä
+  Bitcoin-siirtojen yksityisavainten eheyden kannalta. Tämä auttaa estämään minkä tahansa haavoittuvuuden,
+  joka liittyy ennustettavuuteen.
+arvioitu: false

@@ -1,0 +1,12 @@
+kysymys: Mikä oli yksi metallirahan edusta verrattuna tavararahaa?
+vastaus: Se oli kestävämpi
+väärät_vastaukset:
+  - Sillä oli suurempi sisäinen arvo
+  - Sitä oli helpompi kuljettaa
+  - Se ei ollut altis väärentämiselle
+selitys: |
+ Metalliraha, erityisesti kulta ja hopea, oli kestävämpää kuin tavararaha.
+ Jalometallit ovat vähemmän alttiita ajan myötä tapahtuvalle heikkenemiselle, mikä tekee niistä ihanteellisia
+ pitkäaikaiseen arvon säilyttämiseen. Tämä kestävyys myös edesauttoi niiden hyödyllisyyttä
+ vaihdon välineenä, laskentayksikkönä ja arvon säilyttäjänä.
+arvioitu: true

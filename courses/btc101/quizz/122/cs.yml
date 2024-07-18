@@ -1,0 +1,9 @@
+otázka: Jaký je rytmus sítě Bitcoin?
+odpověď: 10 minut na blok
+špatné_odpovědi:
+  - 10 sekund na blok
+  - 10 minut na transakci
+  - 10 sekund na transakci
+vysvětlení: |
+  Rytmus sítě Bitcoin je 10 minut na blok. To je jako tep srdce měnového systému Bitcoin.
+recenzováno: true

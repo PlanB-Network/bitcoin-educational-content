@@ -1,0 +1,11 @@
+otázka: Jaký je počáteční index pro zabezpečené derivace?
+odpověď: 2^31
+špatné_odpovědi:
+  - 2^32
+  - 2^30
+  - 2^33
+vysvětlení: |
+  Zabezpečené derivace začínají od indexů, které jsou mocniny čísla 2, konkrétně
+  
+  2^31.
+recenzováno: false

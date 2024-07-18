@@ -1,0 +1,9 @@
+kysymys: Minä vuonna ennustetaan, että bitcoinien luominen loppuu?
+vastaus: 2140
+vaarat_vastaukset:
+  - 2050
+  - 2030
+  - 2200
+selitys: |
+  Puoliintumismekanismin vuoksi voidaan matemaattisesti ennustaa, että bitcoinien luominen loppuu vuonna 2140, kun bitcoinien kokonaismäärä saavuttaa rajansa, joka on 21 miljoonaa.
+arvioitu: true

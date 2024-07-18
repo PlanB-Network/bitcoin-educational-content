@@ -1,0 +1,10 @@
+otázka: Kolik kol provádí PBKDF2 s použitím HMAC SHA512?
+odpověď: 2048 kol
+nesprávné_odpovědi:
+  - 1024 kol
+  - 512 kol
+  - 4096 kol
+vysvětlení: |
+  PBKDF2 se používá k převodu mnemonické fráze na seed. Tento algoritmus
+  provádí 2048 kol s použitím HMAC SHA512.
+posouzeno: false

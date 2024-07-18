@@ -1,0 +1,12 @@
+kysymys: Mikä etu Bitcoin-verkolla on perinteisiin rahoitusjärjestelmiin verrattuna?
+vastaus: Hajauttaminen ja turvallisuus
+väärät_vastaukset:
+  - Kasvaneet inflaatiotasot
+  - Riippuvuus välittäjistä
+  - Keskusjohtoinen kontrolli transaktioihin
+selitys: |
+  Bitcoinin hajautettu verkko tarjoaa turvallisen ja tehokkaan tavan 
+  suorittaa transaktioita ilman välittäjiä tai kolmansia osapuolia. Tämä 
+  vähentää sensuurin riskiä ja luvattomia muutoksia transaktioihin,
+  sekä lisää yksityisyyttä.
+arvioitu: true

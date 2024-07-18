@@ -1,0 +1,10 @@
+câu hỏi: Ai tạo giao dịch với Timelock?
+câu trả lời: Người gửi tiền.
+câu trả lời sai:
+  - Người nhận tiền.
+  - Cả hai bên tạo giao dịch với Timelock.
+  - Không có bên nào tạo giao dịch với Timelock.
+giải thích: |
+  Người gửi tiền là người tạo giao dịch với Timelock.
+  Điều này ngăn họ lấy lại tiền ngay lập tức.
+đã xem xét: false

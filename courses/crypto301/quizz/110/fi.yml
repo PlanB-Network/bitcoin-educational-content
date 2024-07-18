@@ -1,0 +1,10 @@
+kysymys: Mikä on Depth 1:n tarkoitus HD Wallet -rakenteessa?
+vastaus: Sitä käytetään johdettujen ala-avainten luomiseen tiettyyn tarkoitukseen
+väärät_vastaukset:
+  - Sen avulla voidaan erottaa eri kryptovaluuttojen tai verkkojen tilit
+  - Sitä käytetään vastaanotto-osoitteiden luomiseen tavallisessa lompakossa
+  - Se vastaa ulkoisia ja sisäisiä ketjuja
+selitys: |
+  HD Wallet -rakenteessa Depth 1:tä käytetään johdettujen ala-avainten luomiseen
+  tiettyyn tarkoitukseen, joka määräytyy indeksin perusteella.
+arvioitu: false

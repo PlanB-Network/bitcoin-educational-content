@@ -1,0 +1,12 @@
+kysymys: Mikä on Bitcoin-louhijoiden rooli energian maailmassa?
+vastaus: Bitcoin-louhijat etsivät jatkuvasti halvan sähkön lähteitä, usein sellaisia, jotka ovat hukkaan meneviä tai hyödyntämättömiä. He voivat toimia joustavana kysynnän lähteenä, valmiina kuluttamaan tätä "orvoksi jäänyttä" sähköä, auttaen siten kattamaan infrastruktuurikustannuksia.
+väärät_vastaukset:
+  - Bitcoin-louhijat etsivät jatkuvasti uusiutuvan energian lähteitä vähentääkseen hiilijalanjälkeään.
+  - Bitcoin-louhijat etsivät jatkuvasti ydinenergian lähteitä voimistaakseen louhintatoimintaansa.
+  - Bitcoin-louhijat etsivät jatkuvasti aurinkoenergian lähteitä voimistaakseen louhintatoimintaansa.
+selitys: |
+  Luku selittää, että Bitcoin-louhijat etsivät jatkuvasti halvan sähkön lähteitä,
+  usein sellaisia, jotka ovat hukkaan meneviä tai hyödyntämättömiä. He voivat toimia joustavana
+  kysynnän lähteenä, valmiina kuluttamaan tätä "orvoksi jäänyttä" sähköä, auttaen siten
+  kattamaan infrastruktuurikustannuksia.
+arvioitu: false

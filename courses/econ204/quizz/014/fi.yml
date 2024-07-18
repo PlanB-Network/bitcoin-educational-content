@@ -1,0 +1,9 @@
+kysymys: Mikä on ero kysynnän vetämän inflaation ja kustannusten työntämän inflaation välillä?
+vastaus: Kysynnän vetämä inflaatio on tilanne, jossa talouden kysyntä ylittää saatavilla olevan tuotannon, kun taas kustannusten työntämä inflaatio liittyy tuotantokustannusten nousuun.
+väärät_vastaukset:
+  - Kysynnän vetämä inflaatio liittyy tuotantokustannusten nousuun, kun taas kustannusten työntämä inflaatio on tilanne, jossa talouden kysyntä ylittää saatavilla olevan tuotannon.
+  - Kysynnän vetämä inflaatio ja kustannusten työntämä inflaatio ovat sama asia, molemmat viittaavat tilanteeseen, jossa talouden kysyntä ylittää saatavilla olevan tuotannon.
+  - Kysynnän vetämä inflaatio ja kustannusten työntämä inflaatio ovat sama asia, molemmat viittaavat tuotantokustannusten nousuun.
+selitys: |
+  Luku selittää, että kysynnän vetämää inflaatiota kuvataan usein tilanteena, jossa talouden kysyntä ylittää saatavilla olevan tuotannon. Toisaalta kustannusten työntämää inflaatiota liitetään tuotantokustannusten nousuun.
+arvioitu: false

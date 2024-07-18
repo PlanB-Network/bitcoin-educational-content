@@ -1,0 +1,10 @@
+otázka: Čím bývá soukromý klíč často reprezentován v Bitcoinové peněžence?
+odpověď: Seznamem 12 nebo 24 slov
+špatné_odpovědi:
+  - Seznamem 12 nebo 48 slov
+  - Seznamem 32 slov
+  - Seznamem 64 slov
+vysvětlení: |
+  V Bitcoinové peněžence bývá soukromý klíč často reprezentován seznamem
+  12 nebo 24 slov, který se také nazývá "seed" nebo "mnemonická fráze".
+recenzováno: true

@@ -1,0 +1,9 @@
+kysymys: Mitä matemaattisia toimenpiteitä käytetään julkisen avaimen johdattamiseen lapsen yksityisavaimesta Bitcoinissa?
+vastaus: Pisteiden lisäys ja kaksinkertaistaminen elliptisillä käyrillä.
+väärät_vastaukset:
+  - Kertolasku ja jakolasku parabolisilla käyrillä.
+  - Vähennyslasku ja kertolasku hyperbolisilla käyrillä.
+  - Lisäys ja vähennys lineaarisilla käyrillä.
+selitys: |
+  Bitcoinissa julkinen avain johdetaan lapsen yksityisavaimesta käyttämällä matemaattisia toimenpiteitä, kuten pisteiden lisäystä ja kaksinkertaistamista elliptisillä käyrillä. Tämä on keskeinen osa Bitcoinin kryptografista turvallisuutta.
+arvioitu: false

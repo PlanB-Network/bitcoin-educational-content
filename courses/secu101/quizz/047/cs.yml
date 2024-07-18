@@ -1,0 +1,11 @@
+otázka: Jaký je účel implementace 2FA?
+odpověď: Chránit vaše online účty před neautorizovaným přístupem.
+špatné_odpovědi:
+  - Ztížit vám přístup k vlastnímu účtu
+  - Sledovat vaše online aktivity
+  - Zvýšit rychlost vašeho internetového připojení
+vysvětlení: |
+  2FA přidává další vrstvu zabezpečení k vašim online účtům. I když
+  hacker získá vaše heslo, nebude schopen přistoupit k vašemu účtu bez
+  druhého ověřovacího faktoru.
+recenzováno: false

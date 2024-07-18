@@ -1,0 +1,11 @@
+câu hỏi:
+  Liệu khả năng của một kênh thanh toán Lightning có giới hạn tổng số lượng giao dịch hoặc tổng khối lượng Bitcoin có thể được truyền qua kênh không?
+câu trả lời: Điều này không đúng
+câu trả lời sai:
+  - Điều này đúng
+  - Điều này chỉ đúng trong một số trường hợp
+  - Nó phụ thuộc vào mạng lưới Bitcoin
+giải thích: |
+  Mặc dù khả năng của một kênh thanh toán Lightning là cố định, điều này không
+  giới hạn tổng số lượng giao dịch hoặc tổng khối lượng Bitcoin có thể được truyền qua kênh.
+đã xem xét: false

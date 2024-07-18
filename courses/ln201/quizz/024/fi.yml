@@ -1,0 +1,11 @@
+kysymys: Mitä tapahtuu nostotapahtumalle Lightning Network -siirron jälkeen?
+vastaus: Se päivitetään heijastamaan kanavan uutta saldoa.
+väärät_vastaukset:
+  - Se suoritetaan ja varat siirretään.
+  - Se hylätään ja luodaan uusi tapahtuma.
+  - Se pysyy samana.
+selitys: |
+  Lightning Network -siirron jälkeen nostotapahtuma päivitetään
+  heijastamaan kanavan uutta saldoa. Tätä tapahtumaa ei suoriteta, ellei
+  kanavaa suljeta.
+arvioitu: false

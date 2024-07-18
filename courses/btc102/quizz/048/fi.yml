@@ -1,0 +1,11 @@
+kysymys: Mikä on pääominaisuus "lohkoketjussa" ilman työn todistusta?
+vastaus: Sillä ei ole todellista arvoa
+vaarat_vastaukset:
+  - Se on turvallisempi
+  - Se on nopeampi
+  - Se on hajautetumpi
+selitys: |
+  Luvun sisältö toteaa, että ilman työn todistusta "lohkoketjulla"
+  ei ole todellista arvoa. Tämä on keskeinen ominaisuus, joka erottaa Bitcoinin muista
+  kryptovaluutoista.
+arvioitu: false

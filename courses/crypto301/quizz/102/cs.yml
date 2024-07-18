@@ -1,0 +1,11 @@
+otázka: Jak je získán veřejný klíč potomka při odvozování klíčů potomků?
+odpověď: Veřejný klíč potomka je získán vynásobením soukromého klíče potomka generátorem eliptické křivky.
+špatné_odpovědi:
+  - Veřejný klíč potomka je získán přičtením soukromého klíče potomka k generátoru eliptické křivky.
+  - Veřejný klíč potomka je získán odečtením soukromého klíče potomka od generátoru eliptické křivky.
+  - Veřejný klíč potomka je získán dělením soukromého klíče potomka generátorem eliptické křivky.
+vysvětlení: |
+  Veřejný klíč potomka je získán vynásobením soukromého klíče potomka
+  generátorem eliptické křivky. To je součástí matematických výpočtů
+  používaných při odvozování klíčů potomků.
+recenzováno: false

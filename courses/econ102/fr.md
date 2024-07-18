@@ -100,7 +100,7 @@ Une première réunion a lieu à Bordeaux, le 23 février 1846, dans laquelle l'
 
 La Révolution de février 1848 renverse la monarchie de Louis-Philippe, appelée monarchie de Juillet (1830-1848) et voit l’avènement de la Seconde république. Bastiat est alors élu membre de l’assemblée législative comme député des Landes. Il siège au centre-gauche, avec Alexis de Tocqueville, entre les monarchistes et les socialistes. Là, il s’emploie à défendre les libertés individuelles comme les libertés civiles et s’oppose à toutes les politiques restrictives, qu’elles viennent de droite ou de gauche. Il est élu vice-président du Comité des finances et s’efforce de rappeler constamment à ses collègues députés cette vérité simple, mais souvent oubliée dans les parlements :
 
-> on ne peut rien donner aux uns, par une loi, sans être obligés de prendre aux autres par une autre loi.
+> On ne peut rien donner aux uns, par une loi, sans être obligés de prendre aux autres par une autre loi.
 
 La quasi-totalité de ses livres et de ses essais seront écrits au cours des six dernières années de sa vie, de 1844 à 1850. En 1850, Bastiat écrit deux de ses œuvres les plus célèbres : La Loi et une série de pamphlets intitulée Ce qu’on voit et ce qu’on ne voit pas. La Loi a été traduite en de nombreuses langues étrangères, dont l’anglais, l’allemand, l’espagnol, le russe et l’italien.
 
@@ -159,7 +159,7 @@ Pour Bastiat, l’économie d’échanges, c’est-à-dire de services mutuels l
 
 Mais de Jean-Baptiste Say, Frédéric Bastiat hérite également d’un concept-clé, celui de spoliation. Car, dit-il en reprenant les termes de Say:
 
-> il n’y a que deux moyens de se procurer les choses nécessaires à la conservation, l’embelllissement et au perfectionnement de la vie : la production et la spoliation.
+> Il n’y a que deux moyens de se procurer les choses nécessaires à la conservation, l’embelllissement et au perfectionnement de la vie : la production et la spoliation.
 
 Les producteurs ont recours à la persuasion, à la négociation et au contrat, tandis que les spoliateurs ont recours à la force et à la ruse. Il appartient donc à la loi de réprimer la spoliation et de sécuriser le travail ainsi que la propriété. Comme l’avait déjà énoncé Adam Smith, garantir la sûreté des citoyens est la mission principale de l’autorité publique et c’est elle qui légitime le prélèvement de l’impôt.
 
@@ -211,7 +211,7 @@ Pour lui les impôts les meilleurs sont les plus modérés et il souhaite que le
 
 Enfin il ajoute cette recommandation qui n’a pas perdu de son actualité :
 
-     « que le gouvernement ne fasse et ne puisse faire des dettes qui engagent les générations ultérieures et conduisent toujours les États à leur ruine »
+> Que le gouvernement ne fasse et ne puisse faire des dettes qui engagent les générations ultérieures et conduisent toujours les États à leur ruine.
 
 En conclusion, les Idéologues ont eu une intuition profonde, à savoir que la production et les échanges sont la vraie solution aux problèmes politiques et la véritable alternative aux guerres. Les guerres sont toujours prédatrices qu'elles soient intérieures, comme sous la Révolution ou extérieures, comme celles menées par les anciens rois et par Napoléon.
 
@@ -331,7 +331,7 @@ C’est seulement après la mort de Bastiat, en 1866 , que Napoléon III signera
 
 ![image](assets/image/04/IMG17.webp)
 
-La question du libre-échange continue de se poser aujourd’hui. Les manuels de géographie dans les écoles prétendent que la mondialisation est coupable et que les pays pauvres auraient besoin de l'aide occidentale pour s'en sortir. Pourtant, l'extrême pauvreté a reculé de moitié en 20 ans. [2 secondes d’extrait de cette vidéo entre 0.24 et 0.26 secondes + 2 secondes de cette vidéo entre 1.22 et 1.24 + 2 secondes de cette vidéo entre 1.23 et 1.25 ] C’est en faisant le choix de l’ouverture que des pays comme l’Inde , la Chine ou Taïwan, ont pu sortir de la pauvreté, alors que la stagnation caractérise des pays fermés comme la Corée du Nord ou le Vénézuela. Selon l'ONU, 36% de l'humanité vivait dans le dénuement total en 1990. Ils ne sont plus « que » 18% en 2010. L'extrême pauvreté reste un défi majeur, mais elle recule
+La question du libre-échange continue de se poser aujourd’hui. Les manuels de géographie dans les écoles prétendent que la mondialisation est coupable et que les pays pauvres auraient besoin de l'aide occidentale pour s'en sortir. Pourtant, l'extrême pauvreté a reculé de moitié en 20 ans. C’est en faisant le choix de l’ouverture que des pays comme l’Inde , la Chine ou Taïwan, ont pu sortir de la pauvreté, alors que la stagnation caractérise des pays fermés comme la Corée du Nord ou le Vénézuela. Selon l'ONU, 36% de l'humanité vivait dans le dénuement total en 1990. Ils ne sont plus « que » 18% en 2010. L'extrême pauvreté reste un défi majeur, mais elle recule.
 
 # Les adversaires
 
@@ -374,7 +374,7 @@ Mais, c’est également à la loi de faire exister la propriété. Selon Rousse
 
 Dans son Discours sur l’origine et les fondements de l’inégalité, il écrit ce passage célèbre
 
-> Le premier qui ayant enclos un terrain s’avisa de dire : Ceci est à moi, et trouva des gens assez simples pour le croire, fut le vrai fondateur de la société civile. Que de crimes, de guerres, de meurtres, que de misères et d’horreurs n’eût point épargnés au genre humain celui qui, arrachant les pieux ou comblant le fossé, eût crié à ses semblables : “Gardez-vous d’écouter cet imposteur ; vous êtes perdus si vous oubliez que les fruits sont à tous et que la terre n’est à personne!”.
+> Le premier qui ayant enclos un terrain s’avisa de dire : Ceci est à moi, et trouva des gens assez simples pour le croire, fut le vrai fondateur de la société civile. Que de crimes, de guerres, de meurtres, que de misères et d’horreurs n’eût point épargnés au genre humain celui qui, arrachant les pieux ou comblant le fossé, eût crié à ses semblables : “Gardez-vous d’écouter cet imposteur ; vous êtes perdus si vous oubliez que les fruits sont à tous et que la terre n’est à personne!.
 
 ![image](assets/image/05/IMG05.webp)
 
@@ -476,7 +476,7 @@ Le 27 juin 1848, au lendemain d’une nouve lle sanglante insurrection à Paris,
 
 Et il ne cessera par la suite d’en analyser les effets pervers. En voici un par exemple, cité dans la lettre à Cobden :
 
-    « En vertu des penchants naturels du cœur humain, chacun s'est mis à réclamer pour lui, de l'État, une plus grande part de bien-être. C'est-à-dire que l'État ou le trésor public a été mis au pillage. Toutes les classes ont demandé à l'État, comme en vertu d'un droit, les moyens d'existence. Les efforts faits dans ce sens par l'État n'ont abouti qu'à des impôts et des entraves, et à l'augmentation de la misère. »
+> En vertu des penchants naturels du cœur humain, chacun s'est mis à réclamer pour lui, de l'État, une plus grande part de bien-être. C'est-à-dire que l'État ou le trésor public a été mis au pillage. Toutes les classes ont demandé à l'État, comme en vertu d'un droit, les moyens d'existence. Les efforts faits dans ce sens par l'État n'ont abouti qu'à des impôts et des entraves, et à l'augmentation de la misère.
 
 3° Bastiat ajoute qu’à ses yeux, le protectionnisme a été la première manifestation de ce désordre. Les capitalistesont commencé par demander l'intervention de la loi pour accroître leur part de richesse. Fatalement les ouvriers ont voulu faire de même.
 
@@ -658,13 +658,15 @@ Pourtant, ne vous est-il jamais arrivé d'entendre dire :
 
 En France, où il est admis que la dépense publique est un bienfait, les impôts sont plus élevés que dans d’autres pays. Mais Bastiat nous avertit d’emblée :
 
-> Dans toute dépense publique, derrière le bien apparent il y a un mal plus difficile à discerner”. « dans toute dépense publique, derrière le bien apparent il y a un mal plus difficile à discerner.
+> Dans toute dépense publique, derrière le bien apparent il y a un mal plus difficile à discerner.
 
-de quoi s’agit-il ?
+De quoi s’agit-il ?
 
 L’économie décrit les effets, bons ou mauvais, des décisions politiques sur nos vies. Or, selon Bastiat, l’économiste doit être attentif, non pas seulement à leurs effets à court terme sur un groupe particulier mais plutôt à leurs conséquences à long terme pour la société dans son ensemble.
 
-> Ce qu'on voit, c'est le travail et le profit permis par la cotisation sociale. Ce qu'on ne voit pas, ce sont les travaux auxquels donnerait lieu cette même cotisation si on la laissait aux contribuables. » « Ce qu'on voit, dit Bastiat, c'est le travail et le profit permis par la cotisation sociale. Ce qu'on ne voit pas, ce sont les travaux auxquels donnerait lieu cette même cotisation si on la laissait aux contribuables.
+> Ce qu'on voit, c'est le travail et le profit permis par la cotisation sociale. Ce qu'on ne voit pas, ce sont les travaux auxquels donnerait lieu cette même cotisation si on la laissait aux contribuables. Ce qu'on voit c'est le travail et le profit permis par la cotisation sociale. Ce qu'on ne voit pas, ce sont les travaux auxquels donnerait lieu cette même cotisation si on la laissait aux contribuables.
+>
+> F.Bastiat
 
 ![image](assets/image/11/IMG2.webp)
 
@@ -780,13 +782,13 @@ Bastiat prend quelques exemples pour illustrer les bienfaits de ce marché. L’
 Prenons un menuisier dans un village, dit-il et observons tous les services qu’il rend à la société et tous ceux qu’il en reçoit :
 
 > Tous les jours, en se levant il s’habille, et il n’a personnellement fait aucun de ses vêtements. Or, pour que ces vêtements soient à sa disposition, il faut qu’une énorme quantité de travail, d’industrie, de transports, d’inventions ingénieuses, ait été accomplie dans le monde entier.
-
-    Ensuite il déjeune. Pour que lepain qu’il mange arrive tous les matins sur sa table , il faut que des terres aient été défrichées, labourées; il faut que le fer, l’acier, le bois, la pierre aient été convertis en instruments de travail ; toutes choses dont chacune, prise isolément, suppose une masse incalculable de travail mise en jeu, non-seulement dans l’espace, mais dans le temps.
-
-    Cet homme enverra son fils à l’école, pour y recevoir une instruction qui suppose des recherches, de longues années d’études antérieures.
-    Il sort dehors : il trouve une rue pavée et éclairée.
-
-    On lui conteste une propriété : il trouvera des avocats pour défendre ses droits, des juges pour l’y maintenir, des officiers de justice pour faire exécuter la sentence; toutes choses qui supposent encore des connaissances acquises, par conséquent des lumières et des moyens d’existence. »
+>
+> Ensuite il déjeune. Pour que lepain qu’il mange arrive tous les matins sur sa table , il faut que des terres aient été défrichées, labourées; il faut que le fer, l’acier, le bois, la pierre aient été convertis en instruments de travail ; toutes choses dont chacune, prise isolément, suppose une masse incalculable de travail mise en jeu, non-seulement dans l’espace, mais dans le temps.
+>
+> Cet homme enverra son fils à l’école, pour y recevoir une instruction qui suppose des recherches, de longues années d’études antérieures.
+> Il sort dehors : il trouve une rue pavée et éclairée.
+>
+> On lui conteste une propriété : il trouvera des avocats pour défendre ses droits, des juges pour l’y maintenir, des officiers de justice pour faire exécuter la sentence; toutes choses qui supposent encore des connaissances acquises, par conséquent des lumières et des moyens d’existence.
 
 Bastiat décrit le marché comme un outil de coopération décentralisé et invisible. Par le système des prix, il transmet des informations sur les besoins et les compétences de chacun, il met en relation les hommes qui veulent coopérer en vue d’améliorer leur existence.
 
@@ -828,7 +830,7 @@ La planification économique, qui prétend faire mieux que le marché, conduit n
 
 Dans une lettre à Alphonse de Lamartine en 1845, Bastiat écrit que toute sa philosophie tient dans un seul et unique principe :
 
-> La liberté est la meilleure des organisations sociales... « la liberté est la meilleure des organisations sociales.
+> La liberté est la meilleure des organisations sociales.
 
 Mais il ajoute cependant une condition
 
@@ -864,7 +866,7 @@ Quand on dépense son propre argent, on fait attention à ne pas trop s’endett
 
 Mais d’où vient alors le phénomène de l’irresponsabilité ou de la déresponsabilisation ? Frédéric Bastiat nous indique une réponse à cette question, une réponse d’ordre politique. Il dit, je le cite :
 
-> L’intervention de l’État nous enlève le gouvernement de nous-même »: « l’intervention de l’État nous enlève le gouvernement de nous-même.
+> L’intervention de l’État nous enlève le gouvernement de nous-même.
 
 D’où vient la déresponsabilisation ?
 
@@ -1082,7 +1084,7 @@ La redistribution forcée n’a donc rien à voir avec la solidarité humaine au
 
 C'est donc sur le rôle de la loi que Bastiat s’oppose ici aux socialistes. Il écrit :
 
-> La loi peut forcer l'homme à rester juste, elle ne peut le forcer à être dévoué » « La loi peut forcer l'homme à rester juste, elle ne peut le forcer à être dévoué.
+> La loi peut forcer l'homme à rester juste, elle ne peut le forcer à être dévoué.
 
 La fausse solidarité des socialistes supprime le dévouement au profit de la coercition étatique pure, qui forme la base du totalitarisme.
 
@@ -1102,7 +1104,7 @@ Par propriété, il ne faut pas entendre ici le foncier. Il faut donc entendre �
 
 Ce point étant posé, pour comprendre le fondement moral de la propriété, Bastiat part d’un principe anthropologique simple que en partant du début l’homme doit travailler pour vivre et que le fruit de son travail est le prolongement de ses facultés, c’est-à-dire de sa personne.
 
-    « Personnalité, Liberté, Propriété, — voilà l’homme. C’est de ces trois choses qu’on peut dire, en dehors de toute subtilité démagogique, qu’elles sont antérieures et supérieures à toute législation humaine ».
+> Personnalité, Liberté, Propriété, — voilà l’homme. C’est de ces trois choses qu’on peut dire, en dehors de toute subtilité démagogique, qu’elles sont antérieures et supérieures à toute législation humaine.
 
 Entendu en ce sens, le droit de Propriété fait partie de ces droits qui ne dérivent pas de la loi positive, mais la précèdent et sont sa raison d'être. En effet,
 
@@ -1250,7 +1252,7 @@ Ecrit Bastiat dans La Loi, quelques temps avant de mourir.
 
 ![image](assets/image/18/IMG9.webp)
 
-Un siècle après la mort de Frédéric Bastiat, la spoliation légale apparaît en clair dans laDéclaration universelle des droits de l'homme de 1948, notamment dans ses articles 22 (« toute personne a droit à la sécurité sociale »), 23 (« toute personne a droit au travail »), 24 (« toute personne a droit au repos et aux loisirs »), 25 (« toute personne a droit à un niveau de vie suffisant »), 26 (« toute personne a droit à l'éducation »).
+Un siècle après la mort de Frédéric Bastiat, la spoliation légale apparaît en clair dans la Déclaration universelle des droits de l'homme de 1948, notamment dans ses articles 22 (« toute personne a droit à la sécurité sociale »), 23 (« toute personne a droit au travail »), 24 (« toute personne a droit au repos et aux loisirs »), 25 (« toute personne a droit à un niveau de vie suffisant »), 26 (« toute personne a droit à l'éducation »).
 
 ## Le rôle de la loi et de l’État
 
@@ -1325,7 +1327,7 @@ la théorie du public choice
 
 En résumé, lorsqu’un gouvernement outrepasse sa mission de défense des personnes et des biens, il incite les groupes d’intérêt à rechercher des privilèges et à influer sur le pouvoir pour obtenir des avantages au détriment des contribuables et des consommateurs.
 
-> L'État, c'est la grande fiction à travers laquelle tout le monde s'efforce de vivre aux dépens de tout le monde
+> L'État, c'est la grande fiction à travers laquelle tout le monde s'efforce de vivre aux dépens de tout le monde.
 
 Ecrit Frédéric Bastiat dans un court pamphlet intitulé L'État.
 

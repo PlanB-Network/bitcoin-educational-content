@@ -2084,15 +2084,15 @@ Le premier indicateur que l'on peut observer sur une transaction Bitcoin est le 
 
 À titre d'exemple, une transaction de paiement simple avec 1 input et 2 outputs présentera seulement une seule interprétation, à savoir que l'input #0 a permis de financer l'output #0 et l'output #1. Il n'y a aucune autre interprétation possible :
 
-01
+![BTC204](assets/notext/56/01.webp)
 
 En revanche, un coinjoin structuré selon le modèle Whirlpool 5x5 présente $1\,496$ combinaisons possibles :
 
-02
+![BTC204](assets/notext/56/02.webp)
 
 Un coinjoin Whirlpool Surge Cycle 8x8 présente lui $9\,934\,563$ interprétations possibles :
 
-03
+![BTC204](assets/notext/56/03.webp)
 
 ### L'entropie
 
@@ -2138,7 +2138,7 @@ $$
 
 Prenons un exemple supplémentaire avec une transaction de paiement classique, comportant 1 input et 2 outputs : [1b1b0c3f0883a99f1161c64da19471841ed12a1f78e77fab128c69a5f578ccce](https://mempool.space/tx/1b1b0c3f0883a99f1161c64da19471841ed12a1f78e77fab128c69a5f578ccce) 
 
-04
+![BTC204](assets/notext/56/04.webp)
 
 Dans le cas de cette transaction, l'unique interprétation possible est : `(In.0) > (Out.0 ; Out.1)`. Par conséquent, son entropie s'établit à $0$ :
 
@@ -2291,11 +2291,11 @@ Calculer ces indicateurs manuellement avec les équations que je vous ai fournie
 
 Auparavant, il existait un outil Python nommé _Boltzmann Calculator_, développé par les équipes d'OXT et de Samourai, qui permettait de calculer automatiquement tous ces indicateurs pour une transaction Bitcoin : 
 
-05
+![BTC204](assets/notext/56/05.webp)
 
 Il était aussi possible d'utiliser le site KYCP.org pour ces analyses :
 
-06
+![BTC204](assets/notext/56/06.webp)
 
 Hélas, suite à l'arrestation des fondateurs de Samourai, ces outils ne sont plus opérationnels pour l'instant.
 

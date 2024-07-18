@@ -17,9 +17,11 @@ Tässä korostamme hyperinflaation jaksoissa historian aikana esiintyviä trende
 +++
 
 # Johdanto
+
 <partId>6fe4d15d-f6e6-54be-9e04-0a75ac98df8b</partId>
 
 ## Johdanto
+
 <chapterId>9d1aba8d-0485-5020-9863-5de37e6db8e0</chapterId>
 
 Tämä ohjelma pyrkii tarjoamaan syvällisen ymmärryksen hyperinflaatioiden esiintymisestä Fiat-valuutan hallitsemassa maailmassa ja tutkimaan niiden merkittäviä seurauksia. Osallistujat tutkivat yksityiskohtaisesti hyperinflaatiokiertoja, analysoiden niiden syitä, laukaisevia tekijöitä sekä historiallisia ja nykyaikaisia esimerkkejä. He tutkivat myös hyperinflaatioiden konkreettista vaikutusta talouteen ja päivittäiseen elämään, tarkastellen seurauksia valuutan arvoon, ostovoimaan sekä yksilöiden ja yhteisöjen säästöihin.
@@ -55,13 +57,17 @@ Osa 4 - Miten tähän päädyttiin?
 Onnea matkaan!
 
 # Mikä on inflaatio?
+
 <partId>2b4f456c-3649-5cf9-b9b0-a5bffe92d962</partId>
 
 ## Rahailmiö
+
 <chapterId>b2cbc915-c4ec-52b5-860c-0958f58c91e4</chapterId>
 
 ### Inflaation määritelmät
+
 Inflaatio on käsite, jota usein väärinymmärretään sen monien määritelmien vuoksi. Inflaation käsitys vaihtelee eri ryhmien, kuten bitcoinien omistajien ja perinteisten taloustieteilijöiden kesken. Selvennetään ensin määritelmiä ennen kuin keskustelemme hyperinflaatiosta:
+
 - Robertin määritelmä: Inflaatio on maksuvälineiden (setelit, pääoma) liiallisen lisääntymisen aiheuttamaa hintojen nousua ja valuutan arvon alenemista.
 
 - Laroussen määritelmä: Inflaatio on ilmiö, jolle on ominaista yleisen hintatason jatkuva ja yleistynyt nousu. Tässä "yleistynyt" sana on ratkaisevan tärkeä.
@@ -116,6 +122,7 @@ Vaikka näinä aikoina koettiin merkittävää inflaatiota, ei saavutettu nykyai
 Tämän esityksen täydentämiseksi ideaalinen olisi kaavio, joka havainnollistaa näiden kolikoiden arvon alenemista ajan myötä. Vaikka tämän alustan kautta on vaikea visualisoida, kuvittele kaavio, joka näyttää denaarin arvon, sitten sen laskun 2. vuosisadan loppua kohti, korvattuna Antoninianuksella, jonka oli tarkoitus olla kahden denaarin arvoinen, mutta paljon pienemmällä hopeasisällöllä. Nämä esineet ovat hiljaisia todistajia menneiden sivilisaatioiden taloudellisista vaihteluista.
 
 #### 3. Espanjan Maravedi: Kohdennetun arvon alenemisen todistaja
+
 Maravedi, kuparivaluuttana, on erityisessä asemassa Espanjan valuutan historiassa. Kuten aiemmin mainittiin, Espanjan dollari oli alun perin kansainvälinen standardi, olennainen varantovaluutta Espanjalle. Kuitenkin kohdatessaan tiettyjä taloudellisia haasteita, Espanjan oli turvauduttava oveliin rahapolitiikan strategioihin.
 Rahan arvon alentaminen on työkalu, jota valtiot usein käyttävät kattaakseen menonsa tai elvyttääkseen taloutta. Espanja kuitenkin löysi itsensä hankalasta tilanteesta. Espanjan dollarin laimentaminen olisi vaarantanut sen aseman kansainvälisessä kaupassa. Tämän dilemman voittamiseksi Espanja kääntyi Maravedin puoleen.
 
@@ -207,11 +214,13 @@ Yleinen käsitys usein yhdistää valuutan valtion luomukseen, jossa sen liikkee
 ![kuva](assets/chapitre-2.1/18.webp)
 Esimerkki havainnollistetaan tutkimalla rahapainoa, joka vastasi kahdeksaa espanjalaista realia tai yhtä espanjalaista dollaria. Tämä paino, joka oli merkitty roomalaisella numerolla osoittamaan sen arvoa, käytettiin valuutanvaihtajien toimesta kolikoiden arvon arvioimiseen niiden painon perusteella, ei pelkästään niiden leimaamisen. Kolikoita punnitsemalla vaihtajat pystyivät määrittämään, oliko niitä muutettu tai vahingoitettu, mikä olisi voinut alentaa niiden arvoa. Tämä käytäntö korostaa, että vaikka valtion standardoima leimaaminen antoi tietyn nimellisarvon valuutalle, todellinen arvo oli arvometallin painossa, jota se sisälsi.
 Tämä analyysi osoittaa, että luottamus valuuttaan, ja sitä kautta sen arvoon, oli perustunut sen konkreettiseen aineeseen eikä pelkästään valtion väitteeseen. Se korostaa kaksinaisuutta valtion asettaman nimellisarvon ja jalometallin sisällön määräämän sisäisen arvon välillä. Näin ollen valuutta ylittää pelkän valtion välineen aseman, sillä sen perusarvo on olennaisesti sidoksissa konkreettisiin ja mitattavissa oleviin elementteihin.
+
 #### Johtopäätös
 
 Tämä tutkimus rahan arvon alenemisesta avaa oven syvälliselle ymmärrykselle inflaation mekanismeista, joita tullaan tutkimaan seuraavissa videoissa. Keskustelemme eri inflaatiotyypeistä ja siitä, missä vaiheessa ne siirtyvät korkeaan tai hyperinflaatioon. Tämä vankka perusta mahdollistaa inflaation monimutkaisuuksien käsittelyn tulevissa istunnoissa. Kiitos huomiostanne, ja nähdään seuraavassa videossa jatkaaksemme tämän rahatalouden dynamiikan tutkimista.
 
 ## Inflaation tyypit
+
 <chapterId>b438fe09-375e-5bb2-9196-7dd687b9f98c</chapterId>
 
 ### Inflaatio ei ole monitekijäinen ilmiö
@@ -249,6 +258,7 @@ Tämä keskustelu korostaa inflaation ja deflaation taustalla olevien mekanismie
 ### Miksi rahan painaminen ei aina aiheuta inflaatiota?
 
 #### Inflaatio ≠ CPI
+
 Inflaatio, vaikka se usein yhdistetään rahan määrän kasvuun, ei aina suoraan korreloi rahan painamisen kanssa, kuten 2008 talouskriisin jälkeinen aika osoitti. Huolimatta merkittävästä rahan painamisesta pankkien pelastamiseksi, seuraava vuosikymmen ei kokenut korkeaa inflaatiota, vaan inflaatio pysyi 0 ja 2 % välillä vuodessa. Tämä tilanne herättää kysymyksen: miksi massiivinen rahan painaminen ei johtanut suhteelliseen inflaatioon? Vastaus löytyy useista vivahteista, jotka liittyvät inflaation mittaamiseen ja Kuluttajahintaindeksiin (CPI).
 
 Ensimmäinen selitys löytyy siitä, miten inflaatiota mitataan. Kuluttajahintaindeksi (CPI), jota käytetään inflaation pääindikaattorina, sisältää tiettyjä rajoituksia. Esimerkiksi se ei kattavasti ota huomioon kiinteistöjen hintojen kehitystä. Vaikka CPI sisältää osan, joka liittyy vuokriin, merkittävä asuntojen hintojen arvonnousu ei täysin heijastu indeksiin. Tämän seurauksena merkittävät asumiskustannusten nousut voivat tapahtua ilman, että ne täysin tallentuvat CPI:hin, mahdollisesti aliarvioiden todellista inflaatiota.
@@ -367,6 +377,7 @@ Bernholz ehdottaa yksinkertaistettua mutta tarkkaa inflaation luokittelua kolmee
   Bernholzin luokittelu korostaa vaarallista etenemistä kohtuullisesta inflaatiosta hyperinflaatioon, korostaen raha- ja budjettikontrollin ratkaisevaa merkitystä tuhoisien inflaatiokierteiden estämisessä. Se myös osoittaa, että valtion rahoituksen haitalliset seuraukset voivat ilmetä hyvinkin ennen hyperinflaation vaihetta, tarjoten monipuolisen näkökulman inflaation vaikutuksista eri asteissa.
 
 ### Yhteenveto: Inflaatiotyypit
+
 Yhteenvetona olemme tutkineet erilaisia inflaatiotyyppejä, alkaen yleisesti tunnetuista termeistä kuten "hiipivä inflaatio", "kävelevä inflaatio" ja "laukkaava inflaatio", jotka kukin merkitsevät eri inflaatioprosentteja taloudessa. Kuitenkin syvällisessä tutkimuksessamme hyperinflaatiosta, kohtalaisen inflaation, korkean inflaation ja hyperinflaation luokat, kuten Bernholz kuvailee, osoittautuvat ratkaiseviksi vertailukohdiksi.
 
 - Kohtalainen inflaatio:
@@ -384,9 +395,11 @@ Tulevissa keskusteluissamme syvennymme hyperinflaatioon, tutkien sen määritelm
 Kiitos huomiostanne. Seuraava istunto on kokonaan omistettu hyperinflaation määrittelylle ja mysteerin poistamiselle, ottaen huomioon erilaiset akateemiset ja käytännölliset näkökulmat. Odotamme innolla tämän tutkimuksen jatkamista kanssanne seuraavassa tapaamisessamme.
 
 # Mikä on hyperinflaatio?
+
 <partId>3f541663-1e2f-5410-8ee0-f61c5d009fa5</partId>
 
 ## Hyperinflaation määritelmät
+
 <chapterId>d2a71a2e-5f36-58d9-993c-d431f4aa07fd</chapterId>
 
 ### Hyperinflaation määritelmät
@@ -431,9 +444,10 @@ Yleiset hyperinflaation määritelmät, kuten Kaganin esittämä 50 %:n kuukausi
 - Bernoldin kirja, joka tutkii 30 erillistä hyperinflaation kautta, laajentaen näin analyysin kattavuutta.
 - Davidin henkilökohtainen setelikokoelma 36 hyperinflaation kaudelta, mahdollistaen konkreettisen ja historiallisen ymmärryksen.
 - Hanky Cross -taulukko (2012 versio, päivitetty vuonna 2016 Venezuelan osalta), joka listaa 57 hyperinflaation jaksoa Kaganin määritelmän perusteella.
-On huomattava, että tietyt historialliset korkean inflaation kaudet eivät sisälly klassisiin hyperinflaation taulukoihin, usein tiukkojen luokittelukriteerien vuoksi. Esimerkiksi Yhdysvaltain itsenäisyyssodan aikana marraskuussa 1779 ja Yhdysvaltain sisällissodan aikana maaliskuussa 1864 kuukausittaiset inflaatioasteet olivat 47,4 % ja 40 % vastaavasti. Nämä asteet, vaikka korkeita, eivät ylitä Kaganin määrittelemää 50 %:n kynnystä, joten nämä jaksot jätetään luokittelematta hyperinflaation tapauksiksi. Tämä poisjättö havainnollistaa jäykkien määritelmien rajoituksia ja korostaa tarvetta hienovaraisemmalle lähestymistavalle ymmärtää hyperinflaatiota kaikessa monimutkaisuudessaan.
+  On huomattava, että tietyt historialliset korkean inflaation kaudet eivät sisälly klassisiin hyperinflaation taulukoihin, usein tiukkojen luokittelukriteerien vuoksi. Esimerkiksi Yhdysvaltain itsenäisyyssodan aikana marraskuussa 1779 ja Yhdysvaltain sisällissodan aikana maaliskuussa 1864 kuukausittaiset inflaatioasteet olivat 47,4 % ja 40 % vastaavasti. Nämä asteet, vaikka korkeita, eivät ylitä Kaganin määrittelemää 50 %:n kynnystä, joten nämä jaksot jätetään luokittelematta hyperinflaation tapauksiksi. Tämä poisjättö havainnollistaa jäykkien määritelmien rajoituksia ja korostaa tarvetta hienovaraisemmalle lähestymistavalle ymmärtää hyperinflaatiota kaikessa monimutkaisuudessaan.
 
 ## Weimarin ja Zimbabwen yhtäläisyydet
+
 <chapterId>11eef458-aab8-5c63-8523-264d0ba69f5d</chapterId>
 
 ### Kaksi aikakautta, kaksi katastrofia
@@ -469,7 +483,7 @@ Weimar: "Nykyinen kokonaisliikkeeseenlasku on 63 000 miljardia. Muutaman päivä
 Zimbabwe: "17. syyskuuta 2006 RBZ:n pääjohtaja Gideon Gono julisti: '10 biljoonaa on yhä ulkona, ja siitä on tullut lantaa.'"
 
 3. Setelit, jotka ovat arvottomampia kuin niiden painopaperi
-Tietyissä taloudellisissa olosuhteissa setelin sisäinen arvo voi muuttua alemmaksi kuin sen painopaperin arvo. Tämä jyrkkä arvon aleneminen muuttaa setelit, jotka ovat normaalisti arvon ja ostovoiman symboleita, pelkiksi arvottomiksi paperipaloiksi.
+   Tietyissä taloudellisissa olosuhteissa setelin sisäinen arvo voi muuttua alemmaksi kuin sen painopaperin arvo. Tämä jyrkkä arvon aleneminen muuttaa setelit, jotka ovat normaalisti arvon ja ostovoiman symboleita, pelkiksi arvottomiksi paperipaloiksi.
    > Weimar: "Koko markkasetelisarjat olivat lähes arvottomia heti tullessaan painokoneesta."
 
 > Zimbabwe: "Keskuspankki tuhlasi rahaa painamalla setelin, joka ei ollut painopaperinsa arvoinen. Toisin sanoen, sen arvo oli alempi kuin vessapaperin. Niin absurdilta kuin se kuulostaakin, oli halvempaa käyttää ZWD 100 biljoonan seteliä vessapaperina kuin ostaa oikeaa vessapaperia."
@@ -502,8 +516,8 @@ Weimar: "Inflaatioon spekulointiin kuului paperimarkkojen lainaaminen, niiden mu
 Zimbabwe: "Burner-preneurs"
 
 7. Rehellisyys ja kova työ menettävät viehätyksensä
-Epävakaissa taloudellisissa yhteyksissä perinteiset arvot, kuten ahkeruus, säästäväisyys ja rehellisyys, voivat jäädä nopean rikastumisen viehätyksen varjoon. Spekulointi ja valuuttakauppa tarjoavat usein paljon suurempia palkkioita kuin säännöllinen työ, aiheuttaen häiriöitä yhteiskunnallisiin prioriteetteihin.
-Weimar: "Kun vanhat hyveet, kuten säästäväisyys, rehellisyys ja ahkeruus, menettivät viehätyksensä, kaikki halusivat rikastua nopeasti, varsinkin kun valuutta- tai osakespekulaatio näytti ilmeisesti tuottavan paljon enemmän kuin työ."
+   Epävakaissa taloudellisissa yhteyksissä perinteiset arvot, kuten ahkeruus, säästäväisyys ja rehellisyys, voivat jäädä nopean rikastumisen viehätyksen varjoon. Spekulointi ja valuuttakauppa tarjoavat usein paljon suurempia palkkioita kuin säännöllinen työ, aiheuttaen häiriöitä yhteiskunnallisiin prioriteetteihin.
+   Weimar: "Kun vanhat hyveet, kuten säästäväisyys, rehellisyys ja ahkeruus, menettivät viehätyksensä, kaikki halusivat rikastua nopeasti, varsinkin kun valuutta- tai osakespekulaatio näytti ilmeisesti tuottavan paljon enemmän kuin työ."
 
 Zimbabwe: "Nämä käytännöt rikastuttivat muutamia yksilöitä, mutta köyhdyttivät kaupunkien työväenluokkaa ja maaseudun väestöä. Koulutus menetti arvonsa, sillä tätä kauppaa harjoittivat ihmiset, jotka eivät tarvinneet koulutusta tai ahkeruutta sen perustelemiseksi. Kaikki mitä he tarvitsivat, olivat yhteydet ja alkupääoma aloittaakseen helpon rahan liiketoimintansa."
 
@@ -546,7 +560,7 @@ Weimar: "Kaikki valtiota vastaan tehdyt rikokset, jokainen niistä eri asteissa,
 Zimbabwe: "Jokainen Zimbabwen asukas oli rikollinen. Vaikka se kuulostaa kovalta, se oli totta. Lukuisien pienten lakien hallitessa jokaista elämän osa-aluetta, oli väistämätöntä, että jokainen rikkoi lakia joka päivä. Ulkomaan valuutan omistaminen oli laitonta, 2004 julkaistun SI:n mukaan. Useiden pankkitilien pitäminen päivittäisen nostorajan kiertämiseksi oli laitonta. Auton oikeiden rekisterikilpien puuttuminen, tai auton radion luvan tai generaattoriluvan puuttuminen, olivat kaikki lakeja, joita joku, jossain rikkoi."
 
 13. Ulkomaan valuuttojen ostaminen hinnalla millä hyvänsä
-Ulkomaan valuuttojen epätoivoinen ostaminen on usein merkinnyt kriittistä käännekohtaa valuutan arvon alenemisessa, pahentaen sen sisäisen arvon laskua.
+    Ulkomaan valuuttojen epätoivoinen ostaminen on usein merkinnyt kriittistä käännekohtaa valuutan arvon alenemisessa, pahentaen sen sisäisen arvon laskua.
 
 > Weimar: "Mannheimer, pomonsa ohjeiden mukaan, lähti elokuussa 1921 ostamaan ulkomaan valuuttoja hinnalla millä hyvänsä - 'koska Saksalla oli loputtomasti paperimarkkoja mutta ei ulkomaan valuuttoja.' Tämä oli ensimmäinen merkki markan arvon täydellisestä romahduksesta."
 
@@ -582,6 +596,7 @@ Zimbabwe: "Nyt käytimme näitä arvoseteleitä vuokran maksuun vuokranantajille
 Tämä päättyy tähän videoon hyperinflaation aikojen yhtäläisyyksistä Zimbabwessa ja Weimarin tasavallassa. Seuraavassa videossa käsittelemme eroja ja nykyaikaisia paralleeleja. Kiitos.
 
 ## Weimar vs Zimbabwe: Eroja ja nykyaikaisia paralleeleja
+
 <chapterId>643f279c-d89f-5600-a2e2-b1bbbba0ab69</chapterId>
 
 Tässä luvussa tutkimme eroja ja nykyaikaisia paralleeleja menneiden ja nykyisten hyperinflaation aikakausien välillä, anekdootein ja relevanttein vertailuin tähän päivään.
@@ -595,8 +610,8 @@ Saksassa oli yleistä, että väestö syytti inflaatiota dollarin noususta pikem
 ![kuva](assets/chapitre-3.3/3.webp)
 
 2. Välttämättömyysvaluutta (Notgeld)
-Kohdatessaan rahataloudellisen ja taloudellisen kriisin, Saksa turvautui "Notgeldiin" (hätäraha). Nämä setelit, jotka kaupungit tai tietyt yritykset painoivat, oli suunniteltu puuttuvan yleisen valuutan korvaamiseen. Mielenkiintoisesti myös Ranska turvautui Notgeldiin, erityisesti 1920-luvulla. Tämä aloite ei ollut vain suoranainen seuraus hyperinflaatiosta, vaan sillä oli juurensa myös ensimmäisen maailmansodan aiheuttamissa häiriöissä. Sota ei ainoastaan epävakauttanut taloutta, vaan lisäsi myös metallien kustannuksia. Tämän seurauksena metallikolikoiden sisäinen arvo usein ylitti niiden nimellisarvon, mikä kannusti ihmisiä hamstraamaan niitä. Kolikoiden puuttuessa jotkut laitokset, kuten Lyonin kauppakamari, painoivat omaa Notgeldiaan.
-![kuva](assets/chapitre-3.3/0.webp)
+   Kohdatessaan rahataloudellisen ja taloudellisen kriisin, Saksa turvautui "Notgeldiin" (hätäraha). Nämä setelit, jotka kaupungit tai tietyt yritykset painoivat, oli suunniteltu puuttuvan yleisen valuutan korvaamiseen. Mielenkiintoisesti myös Ranska turvautui Notgeldiin, erityisesti 1920-luvulla. Tämä aloite ei ollut vain suoranainen seuraus hyperinflaatiosta, vaan sillä oli juurensa myös ensimmäisen maailmansodan aiheuttamissa häiriöissä. Sota ei ainoastaan epävakauttanut taloutta, vaan lisäsi myös metallien kustannuksia. Tämän seurauksena metallikolikoiden sisäinen arvo usein ylitti niiden nimellisarvon, mikä kannusti ihmisiä hamstraamaan niitä. Kolikoiden puuttuessa jotkut laitokset, kuten Lyonin kauppakamari, painoivat omaa Notgeldiaan.
+   ![kuva](assets/chapitre-3.3/0.webp)
 
 > "Mikä on tehtävä, on tehtävä." - paikallinen sanonta
 
@@ -626,8 +641,8 @@ Lisätietoja Saksan kriisin hallinnasta, myös tämä kirja on olennainen.
 
 1. Raha- ja talouspolitiikan manipulointi talouden ohjaamiseksi.
    Weimarin tasavallan historiassa on ilmeistä, että teollisuusjohtajat olivat haluttomia näkemään Markan arvostuksen nousua. Heidän kykynsä lainata ja maksaa velkansa takaisin voimakkaasti arvottomalla valuutalla antoi heille merkittävän edun. Tämä mekanismi mahdollisti valtavien teollisuuskompleksien rakentamisen lähes ilman kustannuksia. Nämä teollisuusjohtajat pelkäsivät Markan arvostuksen nousua, koska se haittasi heidän toimintaansa. Jotkut jopa pitivät rajua inflaatiota hyvänä asiana, uskoen sen takaavan työllisyyden väestölle. He eivät kuitenkaan ymmärtäneet tämän inflaation haitallista vaikutusta säästöihin ja talouteen yleensä. Näille talouden toimijoille rahan painaminen oli siunaus.
-Weimar: "Tämän vuoksi markan arvostuksen pelättiin nousevan suuresti, ja jopa Genovan jälkeiset muutamat viikot 'vakauden' aikana aiheuttivat liiketoiminnan pysähtymisen."
-Weimar: "Teollisuuspiireissä kohdattiin vaara, että käteinen muuttuisi arvokkaammaksi kuin tavarat, ja romahdus tapahtuisi, kun kaikki yrittivät muuttaa omaisuutensa käteiseksi."
+   Weimar: "Tämän vuoksi markan arvostuksen pelättiin nousevan suuresti, ja jopa Genovan jälkeiset muutamat viikot 'vakauden' aikana aiheuttivat liiketoiminnan pysähtymisen."
+   Weimar: "Teollisuuspiireissä kohdattiin vaara, että käteinen muuttuisi arvokkaammaksi kuin tavarat, ja romahdus tapahtuisi, kun kaikki yrittivät muuttaa omaisuutensa käteiseksi."
 
 Nykyajan rinnastus voidaan tehdä Christine Lagarden lausuntoihin, jotka viittaavat siihen, että kansalaisten tulisi priorisoida työllisyyden näkymiä säästöjensä suojelun sijaan. Aivan kuten Weimarin teollisuusmiehet, hän näyttää kannattavan rahan painamista työllisyyden stimuloimisen välineenä säästöjen arvon kustannuksella.
 
@@ -655,8 +670,8 @@ Zombiyritysten käsite ei ole uusi. Itse asiassa se oli läsnä jo Weimarin tasa
 Zombiyritysten ilmiö ei rajoitu vain Saksan jälkisodan historiaan. Jopa tänä päivänä monet suuret yritykset selviävät kiitos etuoikeutetun pääsyn erittäin matalakorkoiseen luottoon. Jos niiden pitäisi lainata tavallisemmilla koroilla, monet niistä lakkaisivat olemasta kannattavia. Tämä on erityisen relevanttia, koska olemme vuodessa 2023, ja pitkän lähes nollakorkojen kauden jälkeen, korot ovat alkaneet nousta. Tämä äskettäinen kehitys rahoitusmaisemassa on epäilemättä ratkaiseva testi näille yrityksille, joita kerran kutsuttiin "zombeiksi".
 
 5. Rikastu nopeasti!
-Historian saatossa on ollut hetkiä, jolloin yksilöt ovat pyrkineet rikastumaan nopeasti, kuten tapahtui Weimarissa ja Zimbabwessa arbitraasin kautta. Nykyään näemme samankaltaisen trendin tiettyjen kryptovaluuttojen esiinmarssissa. Ihmisiä houkuttelevat nopeat voitot, ottaen riskejä toivoen sijoituksensa eksponentiaalista moninkertaistumista. Tämä lähestymistapa voi muistuttaa sitä, mitä havaitaan hyperinflaation aikoina, jolloin arbitraasia käytetään nopeiden voittojen saamiseen, usein muiden kustannuksella.
-![kuva](assets/chapitre-3.3/6.webp)
+   Historian saatossa on ollut hetkiä, jolloin yksilöt ovat pyrkineet rikastumaan nopeasti, kuten tapahtui Weimarissa ja Zimbabwessa arbitraasin kautta. Nykyään näemme samankaltaisen trendin tiettyjen kryptovaluuttojen esiinmarssissa. Ihmisiä houkuttelevat nopeat voitot, ottaen riskejä toivoen sijoituksensa eksponentiaalista moninkertaistumista. Tämä lähestymistapa voi muistuttaa sitä, mitä havaitaan hyperinflaation aikoina, jolloin arbitraasia käytetään nopeiden voittojen saamiseen, usein muiden kustannuksella.
+   ![kuva](assets/chapitre-3.3/6.webp)
 
 6. Säästäminen, lääke epävarmuutta vastaan
 
@@ -668,6 +683,7 @@ Kuvittele skenaario, jossa sinulla on perhe tai läheisiä, joita haluat suojell
 Nykyään, ostovoiman heikentyessä, sijoittaminen ottaa vallan. Tämä lähestymistapa sisältää kuitenkin omat riskinsä. Säästäminen on aina ollut lääke epävarmuutta vastaan. Taloudellisten varantojen olemassaolo odottamattomien tilanteiden hallitsemiseksi edistää mielenrauhaa ja vahvistaa sosiaalista yhteenkuuluvuutta. Yhteenvetona voidaan todeta, että ostovoimamme suojeleminen on olennaista ylläpitääksemme sosiaalista ja yksilöllistä vakautta.
 
 ## Uudelleennimetys Latinalaisessa Amerikassa
+
 <chapterId>918eafd7-409d-5205-ad52-a52e63b23a64</chapterId>
 
 Tarkastelemme nyt eri aikakausia uudelleennimetysten osalta Latinalaisen Amerikan maissa.
@@ -681,6 +697,7 @@ Dialla vasemmalla puolella ovat uudelleennimetysvuodet, uuden valuutan nimi ja v
 Dian oikealla puolella on inflaation graafi. Punaiset nuolet edustavat hyperinflaation vuosia, jotka Kaganin kriteerin mukaan määritellään 50 %:n kuukausi-inflaatioksi. Tämä kriteeri voi joskus johtaa epäselviin tulkintoihin, vuosien ollessa korkean inflaation aikoja, mutta eivät täytä hyperinflaation tiukkaa määritelmää.
 On huomattava, että uudelleennimetys inflaation aikoina on yleinen toimenpide, jonka hallitukset toteuttavat. Se ei kuitenkaan ratkaise inflaation tai hyperinflaation perimmäistä ongelmaa. Se on vain tapa nimetä valuutta uudelleen ja poistaa nollia, osoittamatta todellista syytä hyperinflaation taustalla: rahan tarjonnan laajentumista. Myöhemmässä videossa keskustelemme todellisista ratkaisuista hyperinflaation ongelman käsittelemiseksi ja ratkaisemiseksi. Tässä sarjassa korostamme yksinkertaisen uudelleennimetys ilman asianmukaisia uudistuksia seurauksia: inflaatio jatkuu.
 Argentiinan jälkeen tutkimuksemme kattaa Brasilian, Bolivian, Perun, Nicaraguan ja Venezuelan. Tarkastelemme näissä maissa tapahtuneita uudelleenarvostuksia.
+
 ### Argentiina
 
 ![kuva](assets/chapitre-3.4/1.webp)
@@ -726,7 +743,7 @@ Peru esittää mielenkiintoisen tapauksen satunnaisen 50%:n säännön vaikutuks
 Tarkasteltaessa uudelleenarvostuskausia, vuotta 1988 pidetään hyperinflaation vuotena, erityisesti syyskuussa. Heinä-elokuussa 1990 koettiin myös hyperinflaation kausi. Vuonna 1988 vuotuinen inflaatioaste oli 667%, huipun ollessa 50% syyskuussa. Sen sijaan vuonna 1989 inflaatioaste oli 3000% ilman, että mikään kuukausi ylitti 50%, joten sitä ei luokiteltu hyperinflaatioksi. Vuonna 1990 inflaatio saavutti huippunsa 7481%. On selvää, että 50%:n sääntö voi olla satunnainen, sillä vuotta 1988 pidettiin hyperinflaation vuotena toisin kuin vuotta 1989. Jos tätä sääntöä harkittaisiin uudelleen, olisi ehkä viisasta laskea kynnystä sisällyttämään kaudet, kuten Perun kokema vuonna 1989.
 
 > Ymmärtäminen, mitä tapahtuu
-Valuutan uudelleenarvostuksista ymmärtämisen kannalta keskeistä on, että kun valuutan arvo saavuttaa astronomisia lukuja, kuten 5 tai 10 miljoonaa, se uudelleenarvostetaan. Tätä prosessia voidaan toistaa useita kertoja, mikä sisältää valuutan vaihdon. Seurauksena on, että yksilöiden säästöt voivat kärsiä merkittävästi, vaikka hyperinflaatiota ei olisikaan. Esimerkiksi, jos joku säästää 1 000 dollaria yhden vuoden aikana ja onnistuu säästämään 100 dollaria seuraavana vuonna, pienin setelinarvo voi olla 1 000 dollaria, mikä tekee aiemmin säästetystä 100 dollarista arvottoman. Tällainen säästöjen hupeneminen ei vaadi ilmeistä hyperinflaatiota. Vaikka henkilö olisi säästänyt 10 000 dollaria kymmenen vuoden aikana, tuo summa saattaa lopulta olla merkityksetön, eikä sillä saisi edes yksinkertaista vesipulloa. Tämä todellisuus on ilmeinen monissa maissa, jotka ovat kokeneet uudelleenarvostuksia, vaikka vain muutamat kuukaudet luokiteltaisiin hyperinflaatioksi. Toisaalta jotkut maat, kuten Nicaragua, ovat kokeneet peräkkäisiä hyperinflaation vuosia.
+> Valuutan uudelleenarvostuksista ymmärtämisen kannalta keskeistä on, että kun valuutan arvo saavuttaa astronomisia lukuja, kuten 5 tai 10 miljoonaa, se uudelleenarvostetaan. Tätä prosessia voidaan toistaa useita kertoja, mikä sisältää valuutan vaihdon. Seurauksena on, että yksilöiden säästöt voivat kärsiä merkittävästi, vaikka hyperinflaatiota ei olisikaan. Esimerkiksi, jos joku säästää 1 000 dollaria yhden vuoden aikana ja onnistuu säästämään 100 dollaria seuraavana vuonna, pienin setelinarvo voi olla 1 000 dollaria, mikä tekee aiemmin säästetystä 100 dollarista arvottoman. Tällainen säästöjen hupeneminen ei vaadi ilmeistä hyperinflaatiota. Vaikka henkilö olisi säästänyt 10 000 dollaria kymmenen vuoden aikana, tuo summa saattaa lopulta olla merkityksetön, eikä sillä saisi edes yksinkertaista vesipulloa. Tämä todellisuus on ilmeinen monissa maissa, jotka ovat kokeneet uudelleenarvostuksia, vaikka vain muutamat kuukaudet luokiteltaisiin hyperinflaatioksi. Toisaalta jotkut maat, kuten Nicaragua, ovat kokeneet peräkkäisiä hyperinflaation vuosia.
 
 ### Nicaragua
 
@@ -752,6 +769,7 @@ Eräs merkittävä seikka Venezuelasta on sen jäsenyys Latinalaisen rahaliiton 
 Tänä aikana Venezuelan 5 bolívarin kolikko oli samanpainoinen kuin Unionin jäsenmaiden kolikot, mukaan lukien Italia, Espanja, Belgia ja Ranska. Nämä bolívarit olivat hopeaa, ja eräs 1929 vuoden kolikko painoi 25 grammaa ja sen puhtaus oli 900 eli 90 % puhdasta hopeaa. Nykyisen hopean hinnan mukaan tämä kolikko on arvoltaan noin 17–18 Yhdysvaltain dollaria.
 
 Kelluvan vaihtokurssin omaksumisen jälkeen vuonna 1983 seurasi useita uudelleenarvostuksia:
+
 - Vuonna 2008: bolivar fuerte, eli "vahva bolivar", otettiin käyttöön, saavuttaen jopa 100 000 ennen uudelleenarvostusta tuhannesta yhteen. Vuonna 2018: Soberano otettiin käyttöön seteleillä, jotka saavuttivat 1 miljoonan. Vuonna 2021 se korvattiin digitaalisella bolivarilla, joka myös saavutti miljoonan, ennen uutta uudelleenarvostusta miljoonasta yhteen. Tänään 10 tai 20 setelin arvo vastaa 10 miljoonaa tai 20 miljoonaa Soberanossa.
   Tältä ajalta, alkaen vuodesta 2018, seteleitä jaetaan eri Bitcoin-konferensseissa Biarritzissa, Torontossa ja Miamissa. Nämä Soberano-setelit saavuttivat enimmäisarvon 1 miljoona. Sen jälkeen tehtiin uudelleenarvostus, joka alensi miljoonan arvon noin 3 senttiin. Tällä hetkellä 10 kpl 1 miljoonan seteleitä vastaa yhtä 10 seteliä. Vuodesta 2016 lähtien Venezuela on kokenut hyperinflaation, joka edustaa 57. jaksoa tietyssä taulukossa.
 
@@ -766,6 +784,7 @@ Perustuen 50 %:n inflaatioon kuukaudessa, useita jaksoja olisi voitu luokitella 
 Yhteenvetona voidaan todeta, että hyperinflaatio on vain yksi taloudellisten haasteiden näkökulma. Korkea inflaatio yksinään voi olla yhtä vahingollista. Seuraavassa osiossa tutkitaan mahdollisia ratkaisuja hyperinflaation voittamiseksi.
 
 ## Miten hyperinflaatio voitetaan
+
 <chapterId>e3484a31-a851-5f92-8af5-00eddae67db1</chapterId>
 
 ### Miten lopettaa kohtuullinen ja korkea inflaatio
@@ -773,6 +792,7 @@ Yhteenvetona voidaan todeta, että hyperinflaatio on vain yksi taloudellisten ha
 Mainitut johtopäätökset on vedetty kirjasta "Monetary Regime and Inflation" kirjoittanut Bernold. Bernoldin mukaan ainoa tapa lopettaa inflaatio on suorittaa rahauudistus ja asettaa rajoituksia hallitukselle. Nämä rajoitukset sisältävät laitoksen, kuten keskuspankin, perustamisen, joka toimii riippumattomasti hallituksen poliittisista päätöksistä. Korkea ja hyperinflaatio ovat usein seurausta budjettivajeiden rahoittamisesta rahan luomisella. Kohtuullisen inflaation käsittelemiseksi on olennaista vähentää rahan tarjonnan kasvua. Bernold ehdottaa myös, että tämän rahamäärän kasvun tulisi olla suhteessa naapurimaihin. Yllättävä seikka on, että korkean tai hyperinflaation aikana rahan kokonaisarvo voi itse asiassa vähentyä. Tämän tilanteen silmiinpistävä esimerkki on Zimbabwe.
 
 ### Vastaintuitiiviset ratkaisut
+
 Kun tutkittiin Zimbabwen tilannetta, havaittiin, että 10 biljoonaa yksikköä rahamäärästä oli menettänyt kaiken arvonsa. Weimarissa oli mahdollista painaa kahden kolmasosan kokonaisnimellisarvosta 65 miljardia yksikköä rahamäärästä yhden päivän aikana. Tämä osoittaa, kuinka rahamäärä voidaan devalvoida. Tämän tilanteen korjaamiseksi on tarpeen merkittävästi lisätä rahamäärää saavuttaakseen sopivan tason. Sen jälkeen rahauudistus on välttämätön. Korkean inflaation tilanteessa tämä uudistus on väistämätön, mutta on varmistettava, että liikkeessä on riittävästi rahaa. Tämän vaiheen jälkeen hallitukselle voidaan asettaa rajoituksia.
 
 Bernoldin havaintojen mukaan inflaatio-ongelmien ratkaisemisessa laitokset kuten IMF ja Maailmanpankki eivät aina omaksu oikeaa strategiaa. Joissakin tapauksissa, kun maan on lisättävä rahamääräänsä, nämä laitokset pyrkivät vähentämään sitä. Avain on saavuttaa riittävä rahamäärän taso ja sen jälkeen asettaa rajoituksia sen kasvulle, välttäen siten hallituksen menojen rahoittamista rahan luomisella.
@@ -801,6 +821,8 @@ Vuonna 2007 Zimbabwen inflaatiovauhti saavutti 50 % kuukausittaisen rajan, mikä
 
 ## Johtopäätös
 
+<chapterId>31864b6e-8848-5e74-81fa-4e88e1a59ae3</chapterId>
+
 Kirjassani nimeltä "Kaikki Bitcoinista" olen omistanut kokonaisen luvun Zimbabwen hyperinflaatiolle. Käsittelen merkittäviä tapahtumia, tarjoten erilaisia esimerkkejä siitä, miten maa lopulta sai hyperinflaation päätökseen.
 
 ![kuva](assets/chapitre-3.5/3.webp)
@@ -815,18 +837,26 @@ Tärkein opetus on, että hyperinflaation voittamiseen on useita strategioita. V
 
 ## Hyperinflaation setelikokoelman esittely
 
+<chapterId>f3ffbb47-3aeb-54bd-80a9-adccb0f419e2</chapterId>
+
 Skannattu kokoelma on saatavilla Bitcoin Educational Toolkitissa, joka on pääsy kohdasta Resources alustalla.
 
 # Miten tähän päädyttiin?
 
+<partId>f66ca17e-be9e-5d30-a098-f7affd8962a1</partId>
+
 ## Toisen rahan kerroksen ja keskuspankkien esiinmarssi
+
+<chapterId>0455ffe3-9d45-5a67-ac96-3f815dc507a1</chapterId>
 
 Transkriptio:
 
 Toisen rahan kerroksen ja ensimmäisten keskuspankkien esiinmarssi on kiehtova aihe. Tätä teemaa käsitellään laajasti kirjassa "Layered Money" kirjoittanut Nick Battia. Suosittelen sitä lämpimästi niille, jotka ovat kiinnostuneita rahajärjestelmämme kehityksestä ja monimutkaisuuksista. Tämän osion tavoitteena on ymmärtää rahan luomisen alkuperä ja miten se voisi johtaa hyperinflaatioon.
 
 ![kuva](assets/chapitre-4.1/1.webp)
+
 ### Pyramidiraha ja Keskuspankit
+
 #### Floriini
 
 Rahan historia ulottuu 1200-luvun Italiaan, tarkemmin sanottuna Firenzeen. Tuolloin yleisiä olivat floriini ja vaihtovelkakirjat. Merkittävä esimerkki on floriini, jota koristi Pyhän Johannes Kastajan kuva.
@@ -858,6 +888,7 @@ Antwerpenin pörssin jälkeen merkittävä virstanpylväs oli VOC:n, Hollannin I
 
 ![kuva](assets/chapitre-4.1/5.webp)
 VOC:n perustamisen jälkeen toinen merkittävä elementti rahahistoriassa oli Amsterdamin Pankin kultaisten kolikoiden käyttöönotto. Nämä kolikot, jotka ajoittuvat vuoteen 1722, olivat tehty hopeasta. Kuitenkin se, mikä todella mullisti rahoitusmaailman tuolloin, ei niinkään ollut itse kolikko, vaan näihin valuuttoihin Amsterdamin Pankissa liitetyt tilit. Nämä tilit tulivat kansainvälisen vaihdon pääasialliseksi välineeksi. Tapahtumat kirjattiin yksinkertaisesti rekistereihin tai tileihin. Tämän järjestelmän ansiosta Amsterdamista tuli maailmanlaajuinen talouskeskus. Ajan myötä Amsterdamin Pankki päätti määrätä näiden tilien käytöstä. Itsenäiset rahanvaihtajat velvoitettiin vaihtamaan kolikkonsa talletuksiin pankissa joka päivä.
+
 #### Englannin Pankin perustaminen sodan rahoittamiseksi
 
 Englannin Pankin perustaminen oli motivoitunut tarpeesta rahoittaa sotaa 1600-luvun lopussa. Kuten Amsterdamin Pankki, se määräsi talletukset asetuksella. Englannin Pankin erityispiirre oli yksityisten pankkien siirtäminen toissijaiseen asemaan rahajärjestelmässä, luoden näin mitä voitaisiin kutsua "kolmanneksi valuuttakerrokseksi".
@@ -875,6 +906,7 @@ Vuoden 1796 pankkipaniikin jälkeen tapahtui ilmiö, jossa kaikki yrittivät sii
 Keskuspankit ovat kehittyneet viimeisenä lainanantajana toimiviksi tahoiksi, keskeyttäen valuuttansa vaihdettavuuden kultaan. Vaikka tämä toimenpide oli alun perin tarkoitettu väliaikaiseksi ratkaisuksi, se lopulta muuttui pysyväksi, merkiten viimeisen lainanantajan käsitteen syntyä. Tämä muutos on muovannut keskuspankkeja, kuten me ne tänään tunnemme. Kuitenkin herkemmissä talouksissa tämä kyky painaa rahaa mielin määrin voi johtaa ei-toivottuihin seurauksiin, kuten hyperinflaatioon, jos sitä käytetään vastuuttomasti.
 
 ## Kirjat ja Resurssit
+
 <chapterId>c44e4519-0741-527b-b3b0-3f513e87147d</chapterId>
 
 Hyperinflaatio on kiehtova aihe, jota on tutkittu eri historiallisten tapahtumien kautta. Jos haluat syventyä tähän aiheeseen, tässä on lista 10 olennaisesta resurssista lukemiseen ja opiskeluun:
@@ -894,3 +926,4 @@ Hyperinflaatio on kiehtova aihe, jota on tutkittu eri historiallisten tapahtumie
 - "Rahan tuho: Saksan hyperinflaatio ja keskiluokan tuhoutuminen" Frederick Taylorin kirjoittama. Narratiivinen tutkimus hyperinflaation sosiaalisista ja taloudellisista vaikutuksista saksalaiseen yhteiskuntaan.
 
 - "Valuuttalautakunnat kehitysmaille: Käsikirja" Steve Hanken ja Kurt Schulerin kirjoittama. Vaikka keskitytään valuuttalautakuntiin, tämä kirja tarjoaa näkökulman hyperinflaatiotilanteiden välttämiseen.
+

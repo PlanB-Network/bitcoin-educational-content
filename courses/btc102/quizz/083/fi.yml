@@ -6,4 +6,4 @@ wrong_answers:
   - Se tarjoaa alustan Bitcoinin kaupankäynnille.
 explanation: |
   Lightning Network on "kerros 2" maksuprotokolla, joka toimii lohkoketjupohjaisen kryptovaluutan, kuten Bitcoinin, päällä. Se on suunniteltu mahdollistamaan nopeat, edulliset transaktiot.
-arvioitu: false
+reviewed: false

@@ -6,4 +6,4 @@ wrong_answers:
   - Litecoin
 explanation: >-
   Lightning Network käyttää sats-yksikköä (bitcoinin desimaali) toimiakseen.
-arvioitu: false
+reviewed: false

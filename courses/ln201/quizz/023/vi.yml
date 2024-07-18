@@ -8,4 +8,4 @@ explanation: |
   Giao dịch rút tiền được cập nhật sau mỗi lần chuyển đổi Mạng Lưới Lightning
   để phản ánh trạng thái hiện tại của kênh. Nó đảm bảo ai sở hữu số tiền sau
   mỗi lần chuyển, nhưng nó không được thực hiện trừ khi kênh được đóng lại.
-đã xem xét: false
+reviewed: false

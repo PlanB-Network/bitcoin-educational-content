@@ -7,4 +7,4 @@ vaarat_vastaukset:
   - Se riippuu Bitcoin-verkosta
 explanation: |
   Vaikka Lightning-maksukanavan kapasiteetti on kiinteä, se ei rajoita kokonaisten transaktioiden määrää tai Bitcoinien kokonaismäärää, joka voidaan lähettää kanavan kautta.
-arvioitu: false
+reviewed: false

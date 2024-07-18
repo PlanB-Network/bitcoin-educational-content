@@ -8,4 +8,4 @@ explanation: |
   Heslová fráze v HD peněžence funguje jako kryptografická sůl, která přidává
   další vrstvu ochrany peněžence. Používá se společně s mnemonickou
   frází k vygenerování seedu peněženky.
-recenzováno: false
+reviewed: false

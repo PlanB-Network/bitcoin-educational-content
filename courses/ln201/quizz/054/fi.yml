@@ -8,4 +8,4 @@ explanation: |
   Lightning-verkossa kanavan likviditeetti viittaa siihen määrään
   satosheja, joka voidaan siirtää kanavan kautta. Näiden
   kanavien likviditeettiä ei voida siirtää muihin likviditeettikanaviin.
-arvioitu: false
+reviewed: false

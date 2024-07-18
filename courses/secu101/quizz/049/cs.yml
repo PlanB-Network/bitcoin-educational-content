@@ -6,4 +6,4 @@ nesprávné_odpovědi:
   - Je to příliš složité na nastavení
 explanation: |
   SMS není považována za nejlepší možnost pro 2FA, protože poskytuje pouze důkaz o vlastnictví telefonního čísla, nikoli důkaz totožnosti.
-recenzováno: false
+reviewed: false

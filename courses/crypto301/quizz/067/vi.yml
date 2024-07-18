@@ -6,4 +6,4 @@ wrong_answers:
   - Bằng cách trừ 32 khỏi kích thước của entropy.
 explanation: |
   Kích thước của checksum được xác định bằng cách chia kích thước của entropy cho 32. Ví dụ, một entropy 256-bit sẽ tạo ra một checksum 8-bit.
-đã xem xét: false
+reviewed: false

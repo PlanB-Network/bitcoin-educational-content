@@ -6,4 +6,4 @@ wrong_answers:
   - Transakce je nedoplacena 2krát.
 explanation: |
   Při vynuceném uzavření protokol výchozí nastavení zvyšuje poplatky 5krát oproti aktuálním v době vytvoření transakce. Pokud je síťový poplatek 1 SAT v době uzavření, transakce je přeplacena 50krát.
-recenzováno: false
+reviewed: false

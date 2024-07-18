@@ -7,4 +7,4 @@ wrong_answers:
 explanation: |
   Pro optimální zabezpečení se doporučuje používat bezpečnou emailovou adresu,
   bezpečný správce hesel a zavést 2FA pomocí YubiKeys. Je také vhodné pořídit si dva YubiKeys, aby bylo možné předvídat ztrátu nebo krádež.
-recenzováno: false
+reviewed: false

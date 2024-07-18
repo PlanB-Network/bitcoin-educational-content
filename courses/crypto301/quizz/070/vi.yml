@@ -6,4 +6,4 @@ wrong_answers:
   - Nó xác minh độ chính xác của cụm từ khôi phục.
 explanation: |
   Entropy là nền tảng của bảo mật ví HD. Việc entropy này phải ngẫu nhiên hoặc giả ngẫu nhiên là cực kỳ quan trọng để đảm bảo an toàn cho ví.
-đã xem xét: false
+reviewed: false

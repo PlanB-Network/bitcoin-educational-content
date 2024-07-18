@@ -6,4 +6,4 @@ wrong_answers:
   - Dịch chuyển các bit sang phải một số lượng đã chọn
 explanation: |
   Trong hàm nén của SHA256, toán tử AND được sử dụng để chỉ trả về 1 nếu cả hai toán hạng đều bằng 1. Điều này được thực hiện thông qua một bảng chân lý.
-đã xem xét: false
+reviewed: false

@@ -6,4 +6,4 @@ wrong_answers:
   - Gần bằng số lượng nguyên tử có trong vũ trụ quan sát được
 explanation: |
   Tổng số khả năng cho một khóa riêng của Bitcoin gần bằng 1.158 x 10^77, tương đương với số lượng nguyên tử có trong vũ trụ quan sát được. Điều này là bởi vì một khóa riêng phải nằm giữa 1 và n-1, nơi n đại diện cho thứ tự của đường cong elliptic.
-đã xem xét: false
+reviewed: false

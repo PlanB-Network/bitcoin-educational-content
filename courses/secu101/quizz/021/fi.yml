@@ -8,4 +8,4 @@ explanation: |
   Krakattu ohjelmisto, jota ei voi päivittää, edustaa kaksinkertaista potentiaalista
   uhkaa. Se voi tuoda viruksen sen laittoman latauksen aikana epäilyttävältä verkkosivustolta
   ja se voi olla turvaton uusia hyökkäysmuotoja vastaan.
-arvioitu: false
+reviewed: false

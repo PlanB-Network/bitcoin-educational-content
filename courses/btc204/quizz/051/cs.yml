@@ -10,4 +10,4 @@ nesprávné_odpovědi:
 explanation: |
   Výměnou za vzdání se notifikační transakce musí příjemce prohledat všechny Bitcoinové transakce, které odpovídají standardu, v pokusu najít platby adresované jim.
 
-recenzováno: false
+reviewed: false

@@ -10,4 +10,4 @@ explanation: |
   joka sisältää yksimielisyyden saavuttamisen verkossa, jossa jotkut solmuista voivat olla viallisia
   tai ilkeämielisiä. Bitcoin ratkaisee tämän ongelman käyttämällä lohkoketjua,
   joka perustuu työn todistamiseen (Proof of Work), mikä varmistaa, että kaikki solmut ovat yhtä mieltä transaktiohistorian tilasta.
-arvioitu: false
+reviewed: false

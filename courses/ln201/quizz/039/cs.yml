@@ -6,4 +6,4 @@ nesprávné_odpovědi:
   - Předchozí závazná transakce je aktualizována novým tajemstvím a klíčem pro zrušení.
 explanation: |
   Během transakce
-recenzováno: false
+reviewed: false

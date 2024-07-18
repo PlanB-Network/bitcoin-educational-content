@@ -6,4 +6,4 @@ wrong_answers:
   - Chúng yêu cầu nhiều không gian lưu trữ.
 explanation: |
   Tiện ích mở rộng trình duyệt cho việc tự động điền mật khẩu có thể làm tăng nguy cơ người dùng bị tấn công phishing. Chúng cũng có xu hướng tăng diện tích tấn công và có thể làm chậm hiệu suất trình duyệt, do đó đại diện cho một rủi ro đáng kể.
-đã xem xét: false
+reviewed: false

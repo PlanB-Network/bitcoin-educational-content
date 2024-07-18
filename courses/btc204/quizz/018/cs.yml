@@ -6,4 +6,4 @@ wrong_answers:
   - Heuristiky externích transakcí.
 explanation: |
   Heuristiky používané v analýze blockchainu lze rozdělit do tří kategorií; vzory transakcí (nebo modely transakcí), heuristiky interních transakcí a heuristiky externích transakcí.
-recenzováno: false
+reviewed: false

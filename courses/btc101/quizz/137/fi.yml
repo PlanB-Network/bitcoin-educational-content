@@ -6,4 +6,4 @@ wrong_answers:
   - Antamalla heidän Bitcoin-osoitteensa vastaanottajalle.
 explanation: >-
   Käyttäjät Bitcoin-verkossa siirtävät omistusoikeuden rahoistaan digitaalisesti allekirjoittamalla siirrot heidän yksityisillä avaimillaan. Tämä varmistaa, että he ovat Bitcoinien, joita he haluavat siirtää, omistajia.
-arvioitu: false
+reviewed: false

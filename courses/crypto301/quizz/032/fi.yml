@@ -6,4 +6,4 @@ wrong_answers:
   - Julkisen avaimen saaminen yksityisestä avaimesta ei ole mahdollista
 explanation: |
   ECDSA-funktio on peruuttamaton, mikä tarkoittaa, että yksityistä avainta ei ole mahdollista saada julkisesta avaimesta. Tämä peruuttamattomuus on Bitcoin-lompakon turvallisuuden kulmakivi.
-arvioitu: false
+reviewed: false

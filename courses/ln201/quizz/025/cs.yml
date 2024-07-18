@@ -6,4 +6,4 @@ wrong_answers:
   - Převádí prostředky.
 explanation: |
   Transakce závazku je novější transakce, která aktualizuje zůstatek kanálu po každém převodu. Není provedena, pokud není kanál uzavřen.
-recenzováno: false
+reviewed: false

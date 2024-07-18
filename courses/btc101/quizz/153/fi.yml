@@ -10,4 +10,4 @@ explanation: >-
   verkon kokonaislaskentatehosta. Se säätää matemaattisen
   ongelman vaikeustasoa, jonka louhijoiden on ratkaistava, perustuen louhijoiden määrään
   verkossa.
-arvioitu: false
+reviewed: false

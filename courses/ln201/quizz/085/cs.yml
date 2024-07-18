@@ -6,4 +6,4 @@ wrong_answers:
   - Kupování kanálů pro obchodníky
 explanation: |
   Pro kupující na Lightning Network je nejjednodušším úkolem pro správu likvidity otevírání kanálů. To jim poskytuje odchozí likviditu.
-recenzováno: false
+reviewed: false

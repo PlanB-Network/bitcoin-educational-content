@@ -6,4 +6,4 @@ wrong_answers:
   - Peníze jsou převedeny třetí straně.
 explanation: |
   Pokud příjemce neodhalí tajemství během určitého časového období, HTLC vyprší a peníze jsou vráceny odesílateli.
-recenzováno: false
+reviewed: false

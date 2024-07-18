@@ -7,4 +7,4 @@ wrong_answers:
 explanation: |
   Luku selittää, että suhde rahan painamisen ja inflaation välillä on moduloitu sen mukaan, miten vasta luotu raha tuodaan talouteen.
   Jos tämä raha pysyy yksityispankkien taseissa lainaamatta sitä talouden toimijoille, se ei suoraan vaikuta reaalitalouteen ja siten ei johda inflaatioon.
-arvioitu: false
+reviewed: false

@@ -7,4 +7,4 @@ wrong_answers:
 explanation: |
   Lightning Network là một hệ thống sử dụng Hợp đồng Hash Thời gian Khóa
   (HTLCs) để đảm bảo thanh toán an toàn và có thể xác minh trong các giao dịch Bitcoin.
-đã xem xét: false
+reviewed: false

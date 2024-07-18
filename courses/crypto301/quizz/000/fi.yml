@@ -7,4 +7,4 @@ wrong_answers:
 explanation: |
   Laatikoiden periaate kryptografisten hajautusfunktioiden yhteydessä selittää, että lähtökokojen rajoituksen vuoksi törmäysten välttäminen on mahdotonta.
   Tämä johtuu siitä, että mahdollisia syötteitä on enemmän kuin lähtöjä, joten jotkin syötteet väistämättä jakavat saman lähdön.
-arvioitu: false
+reviewed: false

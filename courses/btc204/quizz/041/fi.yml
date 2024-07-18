@@ -6,4 +6,4 @@ wrong_answers:
   - Transaktion turvallisuus ei taattu.
 explanation: |
   Bitcoinien ostaminen automaatteja käyttäen on mielenkiintoinen ratkaisu käyttäjän yksityisyyden kannalta, mutta niiden pääasiallinen haittapuoli on, että ne veloittavat usein kohtuuttoman korkeita maksuja.
-arvioitu: false
+reviewed: false

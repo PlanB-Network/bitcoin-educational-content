@@ -8,4 +8,4 @@ explanation: |
   Optimaalisen turvallisuuden saavuttamiseksi suositellaan turvallisen sähköpostiosoitteen,
   turvallisen salasananhallintasovelluksen käyttöä sekä kaksivaiheisen tunnistautumisen (2FA) käyttöönottoa YubiKeyn avulla. On myös suositeltavaa
   hankkia kaksi YubiKeyta varautuakseen mahdolliseen katoamiseen tai varkauteen.
-arvioitu: false
+reviewed: false

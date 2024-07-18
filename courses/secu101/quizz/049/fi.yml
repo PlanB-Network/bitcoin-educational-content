@@ -6,4 +6,4 @@ wrong_answers:
   - Sen käyttöönotto on liian monimutkaista
 explanation: |
   SMS ei ole paras vaihtoehto kaksivaiheiselle tunnistautumiselle, koska se tarjoaa vain todisteen puhelinnumeron hallussapidosta, ei henkilöllisyyden todistamista.
-arvioitu: false
+reviewed: false

@@ -6,4 +6,4 @@ wrong_answers:
   - Ostaminen PayPalin kautta P2P-välitysalustalla
 explanation: |
   Bitcoinien ostaminen vertaisverkossa käteisellä on menetelmä, joka altistaa sinut vähiten avaintunnistuksen riskeille, koska se ei vaadi toimimista säännellyn yrityksen kautta ja jättää jälkiä pankkijärjestelmään. Lisäksi tämä menetelmä yleensä ei vaadi henkilötietojen paljastamista.
-arvioitu: false
+reviewed: false

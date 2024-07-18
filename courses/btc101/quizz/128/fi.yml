@@ -6,4 +6,4 @@ wrong_answers:
   - He säätelevät Bitcoinin hintaa.
 explanation: >-
   Louhijoiden rooli Bitcoin-verkossa on siirtojen vahvistaminen sisällyttämällä ne lohkoon. He tekevät tämän ratkaisemalla kryptografisen pulman prosessissa, jota kutsutaan "työn todistamiseksi".
-arvioitu: false
+reviewed: false

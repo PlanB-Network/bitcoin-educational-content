@@ -8,4 +8,4 @@ explanation: |
   HTLC eli Hash Time-Locked Contract on maksusopimuksen tyyppi,
   joka voidaan avata vain salaisuudella. Sitä käytetään Lightning Networkissa
   varmistamaan turvallinen ja todennettavissa oleva maksu.
-arvioitu: false
+reviewed: false

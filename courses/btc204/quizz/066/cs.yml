@@ -10,4 +10,4 @@ wrong_answers:
 explanation: |
   Princip konsolidace spočívá využití období, kdy jsou poplatky za Bitcoin nízké, k sloučení menších UTXO do jednoho většího.
 
-recenzováno: false
+reviewed: false

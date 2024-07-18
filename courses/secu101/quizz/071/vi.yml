@@ -6,4 +6,4 @@ wrong_answers:
   - Ghi nhớ nó.
 explanation: |
   Việc ghi mật khẩu chính của trình quản lý mật khẩu ra giấy và giữ nó ở một nơi kín đáo và an toàn được khuyến nghị. Điều này là bởi vì nếu ổ cứng được mã hóa và máy tính được khóa, mật khẩu sẽ không thể truy cập được, ngay cả trong trường hợp bị đột nhập.
-đã xem xét: false
+reviewed: false

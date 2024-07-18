@@ -6,4 +6,4 @@ wrong_answers:
   - 10 sekund na transakci
 explanation: |
   Rytmus sítě Bitcoin je 10 minut na blok. To je jako tep srdce měnového systému Bitcoin.
-recenzováno: true
+reviewed: true

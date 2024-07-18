@@ -8,4 +8,4 @@ explanation: |
   Lightning Network -siirron jälkeen nostotapahtuma päivitetään
   heijastamaan kanavan uutta saldoa. Tätä tapahtumaa ei suoriteta, ellei
   kanavaa suljeta.
-arvioitu: false
+reviewed: false

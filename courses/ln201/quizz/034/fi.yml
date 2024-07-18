@@ -6,4 +6,4 @@ wrong_answers:
   - Se lukitsee peruutusavaimen tiettyyn lohkoon asti.
 explanation: |
   Timelock sitoumustapahtumassa lukitsee varat tiettyyn lohkoon asti. Tämä estää tapahtuman luoneen osapuolen pääsemästä välittömästi käsiksi rahoihinsa.
-arvioitu: false
+reviewed: false

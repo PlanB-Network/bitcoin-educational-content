@@ -8,4 +8,4 @@ explanation: |
   Trong một đóng cửa hợp tác, hai bên đồng ý về trạng thái cuối cùng của
   kênh và tạo ra một giao dịch đóng. Giao dịch này khác với giao dịch cam kết
   vì nó không có Timelock và khóa thu hồi.
-đã xem xét: false
+reviewed: false

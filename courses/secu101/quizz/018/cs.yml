@@ -6,4 +6,4 @@ wrong_answers:
   - Nevytvářejte účet správce.
 explanation: |
   Používání účtu správce pro každodenní použití ve Windows může systém vystavit větším bezpečnostním rizikům. Doporučuje se vytvořit dva oddělené účty; jeden pro administrativní úkoly a druhý pro každodenní použití.
-recenzováno: false
+reviewed: false

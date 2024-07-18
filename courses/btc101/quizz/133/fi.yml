@@ -6,4 +6,4 @@ wrong_answers:
   - Polttamisen todistaminen
 explanation: >-
   Louhijat vahvistavat tapahtumat ja sisällyttävät ne lohkoon prosessin kautta, jota kutsutaan "työn todistamiseksi". Tämä sisältää kryptografisen pulman ratkaisemisen.
-arvioitu: false
+reviewed: false

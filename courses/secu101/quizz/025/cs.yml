@@ -6,4 +6,4 @@ wrong_answers:
   - Použít běžné heslo, které je snadno zapamatovatelné.
 explanation: |
   Doporučuje se zapsat heslo pro šifrování dat na papír a uchovat jej na bezpečném místě. To je proto, aby nedošlo ke ztrátě přístupu k šifrovaným datům.
-recenzováno: false
+reviewed: false

@@ -6,4 +6,4 @@ wrong_answers:
   - Sitä käytetään avainten lähettämiseen.
 explanation: |
   Elliptinen käyrä on matemaattinen rakennelma, jota käytetään turvallisten julkisten ja yksityisten avainten luomisessa. Satunnainen numero, jota usein kutsutaan nonceksi, valitaan yksityiseksi avaimiksi ja sitä käytetään elliptisen käyrän yhtälössä vastaavan julkisen avaimen luomiseen.
-arvioitu: false
+reviewed: false

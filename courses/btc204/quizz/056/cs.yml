@@ -10,4 +10,4 @@ answer: Jsou integrovány do ScriptPubKey
 explanation: |
   Když je provedena platba, transakce vytvoří nové UTXO jako výstup z UTXO spotřebovaných jako vstupy. Na tomto výstupu je umístěn skript, který definuje, jak lze toto UTXO později utratit. Tento skript je známý jako ScriptPubKey. Přijímací adresa je integrována do tohoto skriptu.
 
-recenzováno: false
+reviewed: false

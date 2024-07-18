@@ -6,4 +6,4 @@ wrong_answers:
   - P2P komunikace, Platební kanál, Ripple transakce
 explanation: |
   Síť Lightning Network má tři různé úrovně komunikace; P2P komunikace (protokol Lightning Network), Platební kanál (protokol Lightning Network) a Bitcoinová transakce (protokol Bitcoinu).
-recenzováno: false
+reviewed: false

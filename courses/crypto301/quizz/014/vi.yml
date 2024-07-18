@@ -7,4 +7,4 @@ wrong_answers:
 explanation: |
   Trong hàm nén của SHA256, 64 vòng tính toán được thực hiện.
   Giống như trong một cuộc đua xe đạp, mỗi vòng đua cải thiện vị trí của hàm.
-đã xem xét: false
+reviewed: false

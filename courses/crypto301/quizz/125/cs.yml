@@ -6,4 +6,4 @@ nesprávné_odpovědi:
   - 256 bitů
 explanation: |
   V Bitcoinu zabírá surový veřejný klíč 520 bitů. Díky symetrii použité eliptické křivky však můžeme veřejný klíč komprimovat a snížit jeho velikost z 520 na 264 bitů.
-recenzováno: false
+reviewed: false

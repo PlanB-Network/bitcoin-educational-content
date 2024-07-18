@@ -6,4 +6,4 @@ wrong_answers:
   - Giao dịch bị từ chối và không có gì xảy ra.
 explanation: |
   Mạng Lưới Lightning có một cơ chế để ngăn chặn gian lận. Nếu Alice cố gắng gian lận bằng cách công bố một giao dịch cam kết cũ, Bob có thể sử dụng khóa thu hồi để trừng phạt Alice và lấy tất cả SAT từ kênh.
-đã xem xét: false
+reviewed: false

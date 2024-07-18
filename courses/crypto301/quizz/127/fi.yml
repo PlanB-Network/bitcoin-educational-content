@@ -6,4 +6,4 @@ vaarat_vastaukset:
   - Digitaalinen allekirjoitus Bitcoin-siirroille.
 explanation: |
   Vastaanotto-osoite Bitcoinissa on alfanumeerinen esitys tiivistetystä julkisesta avaimesta. Sitä käytetään vastaanottamaan Bitcoin-siirtoja.
-arvioitu: false
+reviewed: false

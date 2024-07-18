@@ -6,4 +6,4 @@ wrong_answers:
   - Regulují cenu Bitcoinu.
 explanation: >-
   Těžaři v síti Bitcoin mají za úkol ověřovat transakce jejich zařazením do bloku. Dělají to tak, že řeší kryptografickou hádanku v procesu nazývaném "důkaz práce".
-recenzováno: false
+reviewed: false

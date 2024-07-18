@@ -6,4 +6,4 @@ wrong_answers:
   - Entropie 512 bitů.
 explanation: |
   Nejčastěji používaným standardem pro 24-slovnou obnovovací frázi je entropie 256 bitů.
-recenzováno: false
+reviewed: false

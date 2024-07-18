@@ -6,4 +6,4 @@ wrong_answers:
   - Těžaři jsou zodpovědní za kontrolu protokolu Bitcoin.
 explanation: >-
   Těžaři hrají klíčovou roli v síti Bitcoin, protože jsou zodpovědní za vytváření nových bitcoinů a zabezpečení sítě Bitcoin spotřebou elektrické energie pro hashování bloku transakcí.
-recenzováno: true
+reviewed: true

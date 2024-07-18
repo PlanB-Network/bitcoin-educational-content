@@ -6,4 +6,4 @@ vaarat_vastaukset:
   - 2^1024
 explanation: |
   Yksityisen avaimen teoreettinen mahdollisuuksien kokonaismäärä on 2^256, mutta todellisuudessa se on hieman vähemmän kuin tuo.
-arvioitu: false
+reviewed: false

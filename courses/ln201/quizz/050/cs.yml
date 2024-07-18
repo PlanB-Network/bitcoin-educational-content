@@ -6,4 +6,4 @@ wrong_answers:
   - Síťový poplatek a poplatek za kanál.
 explanation: |
   V síti Lightning Network existují dva typy poplatků; fixní poplatek bez ohledu na částku (výchozí je 1 SAT, ale lze upravit) a variabilní poplatek (standardně 0,01 %).
-recenzováno: false
+reviewed: false

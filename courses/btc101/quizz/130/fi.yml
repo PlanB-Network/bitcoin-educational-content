@@ -6,4 +6,4 @@ wrong_answers:
   - Mitä enemmän siirrolla on vahvistuksia, sitä vähemmän turvallinen se on.
 explanation: >-
   Bitcoin-siirron vahvistusten määrä kertoo, kuinka monta lohkoa on louhittu sen lohkon päälle, joka sisältää siirron. Mitä enemmän siirrolla on vahvistuksia, sitä muuttumattomammaksi se muuttuu.
-arvioitu: false
+reviewed: false

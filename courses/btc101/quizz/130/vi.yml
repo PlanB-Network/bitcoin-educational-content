@@ -6,4 +6,4 @@ wrong_answers:
   - Càng nhiều xác nhận mà một giao dịch có, nó càng kém an toàn.
 explanation: >-
   Số lượng xác nhận trong một giao dịch Bitcoin chỉ ra số lượng khối đã được khai thác trên cùng một khối chứa giao dịch đó. Càng nhiều xác nhận mà một giao dịch có, nó càng trở nên bất biến.
-đã xem xét: false
+reviewed: false

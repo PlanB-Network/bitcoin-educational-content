@@ -6,4 +6,4 @@ vaarat_vastaukset:
   - Likviditeetti kasvaa.
 explanation: |
   Lightning Networkissa, kun transaktio tehdään, likviditeetti jaetaan uudelleen reitin varrella kahden osapuolen välillä.
-arvioitu: false
+reviewed: false

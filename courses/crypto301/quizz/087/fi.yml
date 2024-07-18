@@ -6,4 +6,4 @@ wrong_answers:
   - Pääyksityisavainta käytetään lompakon laajennettujen avainten luomiseen.
 explanation: |
   Pääyksityisavain on ensimmäinen siemenestä johdettu yksityisavain, eikä sillä ole yhteyttä lompakon laajennettuihin avaimiin.
-arvioitu: false
+reviewed: false

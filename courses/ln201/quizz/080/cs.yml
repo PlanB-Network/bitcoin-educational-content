@@ -6,4 +6,4 @@ wrong_answers:
   - Používá se k výpočtu poplatku za transakci
 explanation: |
   Hash preimage v fakturaci Lightning Network se používá k odemčení platby. Příjemce platby musí poskytnout preimage, který odpovídá hashi, aby mohl přijmout prostředky.
-recenzováno: false
+reviewed: false

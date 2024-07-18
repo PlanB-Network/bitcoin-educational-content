@@ -8,4 +8,4 @@ explanation: |
   Bitcoin-järjestelmässä laskentayksikkönä toimii bitcoin (huomaa pieni
   "b"). Se on jaettavissa kahdeksaan desimaalipaikkaan asti, ja pienin yksikkö on
   satoshi.
-arvioitu: false
+reviewed: false

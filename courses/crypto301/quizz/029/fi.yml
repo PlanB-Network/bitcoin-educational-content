@@ -6,4 +6,4 @@ wrong_answers:
   - Lähettäjän henkilöllisyyden varmentamiseen
 explanation: |
   Bitcoin-protokollan ytimessä digitaalisia allekirjoituksia käytetään matemaattisina todisteina, jotka osoittavat tietyn julkisen avaimen yhteydessä olevan yksityisen avaimen hallussapidon.
-arvioitu: false
+reviewed: false

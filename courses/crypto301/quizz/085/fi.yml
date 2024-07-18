@@ -8,4 +8,4 @@ explanation: |
   Alun perin SHA-512 -funktiota ei ollut toteutettu Bitcoin-protokollassa,
   minkä vuoksi HMAC SHA-512:tä käytetään. Tämä algoritmi vaatii viestin ja avaimen
   tuloksen tuottamiseksi.
-arvioitu: false
+reviewed: false

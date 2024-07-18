@@ -6,4 +6,4 @@ wrong_answers:
   - RSA a výměna klíčů Diffie-Hellman
 explanation: |
   HMAC a PBKDF2 derivační algoritmy jsou klíčové komponenty v bezpečnostním mechanismu protokolu Bitcoin. Zabraňují řadě potenciálních útoků a zajišťují integritu Bitcoin peněženek.
-recenzováno: false
+reviewed: false

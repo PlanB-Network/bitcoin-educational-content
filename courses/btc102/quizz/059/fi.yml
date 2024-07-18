@@ -7,4 +7,4 @@ vaarat_vastaukset:
 explanation: |
   Kylmä lompakko on lompakko suurien Bitcoin-määrien säilyttämiseen offline-tilassa.
   Sitä pidetään turvallisempana kuin kuumaa lompakkoa, koska se on vähemmän altis hakkeroinnille.
-arvioitu: false
+reviewed: false

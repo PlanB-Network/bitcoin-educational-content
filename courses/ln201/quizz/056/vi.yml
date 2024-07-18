@@ -6,4 +6,4 @@ wrong_answers:
   - Chính mạng lưới.
 explanation: |
   Trong Mạng Lưới Lightning, người gửi tiền là người phải trả phí giao dịch. Những phí này được thu bởi các nút mà được sử dụng để định tuyến giao dịch.
-đã xem xét: false
+reviewed: false

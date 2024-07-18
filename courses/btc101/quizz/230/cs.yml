@@ -6,4 +6,4 @@ wrong_answers:
   - Umožňuje transakce mezi jednotlivci, kteří mají přímé spojení kanálu a více třetími stranami.
 explanation: |
   Lightning Network umožňuje transakce mezi jednotlivci, kteří nemají přímé spojení kanálu.
-recenzováno: false
+reviewed: false

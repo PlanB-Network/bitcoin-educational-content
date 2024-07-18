@@ -6,4 +6,4 @@ wrong_answers:
   - Žádný z nich.
 explanation: |
   Když je mezi dvěma výstupy v transakci v jednoduchém platebním modelu dostatečně velký rozdíl, dá se odhadnout, že větší výstup je pravděpodobně vrácení peněz.
-recenzováno: false
+reviewed: false

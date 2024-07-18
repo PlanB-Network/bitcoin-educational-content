@@ -6,4 +6,4 @@ nesprávné_odpovědi:
   - 1024 bitů
 explanation: |
   Hašovací funkce SHA256 generuje z proměnně velkého vstupu 256bitový hash. Proto se nazývá SHA256.
-recenzováno: false
+reviewed: false

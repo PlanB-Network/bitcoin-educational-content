@@ -7,4 +7,4 @@ wrong_answers:
 explanation: |
   Hierarkkisessa deterministisessä (HD) lompakossa BIP32:n kanssa entropialla on keskeinen rooli, sillä sitä käytetään mnemonisen lauseen luomiseen satunnaisluvusta.
   Tämä mnemoninen lause voidaan sitten koodata helposti muistettavien sanojen sarjaksi käyttäen BIP39:ssä tarjottua 2048 sanan listaa.
-arvioitu: false
+reviewed: false

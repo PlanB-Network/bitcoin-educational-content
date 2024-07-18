@@ -6,4 +6,4 @@ wrong_answers:
   - Ověřit transakci.
 explanation: |
   Revokační klíč je mechanismus v síti Lightning Network, který má zabránit podvádění. Pokud se účastník pokusí podvádět zveřejněním starého závazkového transakce, druhý účastník může použít revokační klíč k potrestání podvodníka a vzít si všechny SAT z kanálu.
-recenzováno: false
+reviewed: false

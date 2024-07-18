@@ -8,4 +8,4 @@ explanation: |
   "Elliptinen käyrä määritellään yhtälöllä y² = x³ + ax + b.\
   \ Jokaisella tämän käyrän pisteellä on erottuva symmetria, joka on avainasemassa sen hyödyllisyydessä\
   \ kryptografiassa."
-arvioitu: false
+reviewed: false

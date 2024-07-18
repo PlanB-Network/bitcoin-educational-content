@@ -10,4 +10,4 @@ wrong_answers:
 explanation: |
   Nếu bạn sử dụng một node không thuộc về bạn, bạn có nguy cơ bị chặn việc phát sóng giao dịch và bị chủ sở hữu node giám sát.
 
-đã xem xét: false
+reviewed: false

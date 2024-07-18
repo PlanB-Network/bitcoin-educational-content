@@ -6,4 +6,4 @@ wrong_answers:
   - 1024bitové číslo
 explanation: |
   V systému Bitcoinu je použit unikátní soukromý klíč k odvození 512bitového veřejného klíče.
-recenzováno: false
+reviewed: false

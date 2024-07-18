@@ -7,4 +7,4 @@ wrong_answers:
 explanation: |
   BIP43 và BIP44 đã chuẩn hóa cấu trúc và hệ thống phân cấp của ví HD,
   làm cho chúng dễ tiếp cận và dễ sử dụng hơn cho công chúng.
-đã xem xét: false
+reviewed: false

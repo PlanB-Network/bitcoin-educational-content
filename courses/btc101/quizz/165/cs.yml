@@ -6,4 +6,4 @@ wrong_answers:
   - Odmena za nalezení platného hash je zvýšena
 explanation: >-
   Protokol Bitcoinu zajistí, že průměrný čas mezi dvěma bloky zůstává konstantní tím, že upravuje obtížnost nalezení platného hash každých 2016 bloků. To se děje bez ohledu na počet těžařů a jejich výpočetní výkon.
-recenzováno: false
+reviewed: false

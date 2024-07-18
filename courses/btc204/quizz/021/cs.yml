@@ -6,4 +6,4 @@ wrong_answers:
   - 5 UTXO na vstupech a 5 UTXO na výstupech
 explanation: |
   U zjednodušené platby uživatel použije jedno nebo více UTXO jako vstupy, aby na výstupech realizoval platbu UTXO a změnové UTXO (tedy 2 UTXO).
-recenzováno: false
+reviewed: false

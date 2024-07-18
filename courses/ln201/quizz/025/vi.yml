@@ -6,4 +6,4 @@ wrong_answers:
   - Nó chuyển tiền.
 explanation: |
   Giao dịch cam kết là một giao dịch mới hơn cập nhật số dư của kênh sau mỗi lần chuyển tiền. Nó không được thực hiện trừ khi kênh được đóng.
-đã xem xét: false
+reviewed: false

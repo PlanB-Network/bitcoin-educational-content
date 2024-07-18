@@ -8,4 +8,4 @@ wrong_answers:
 explanation: |
   Mặc dù khả năng của một kênh thanh toán Lightning là cố định, điều này không
   giới hạn tổng số lượng giao dịch hoặc tổng khối lượng Bitcoin có thể được truyền qua kênh.
-đã xem xét: false
+reviewed: false

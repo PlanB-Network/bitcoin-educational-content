@@ -7,4 +7,4 @@ wrong_answers:
 explanation: |
   SMS không được coi là lựa chọn tốt nhất cho 2FA bởi vì nó chỉ cung cấp
   bằng chứng về việc sở hữu một số điện thoại, không phải bằng chứng về danh tính.
-đã xem xét: false
+reviewed: false

@@ -6,4 +6,4 @@ wrong_answers:
   - Alice voi välittömästi saada rahansa takaisin.
 explanation: |
   Jos Alice yrittää huijata julkaisemalla vanhan tilan, Bob voi käyttää peruutusavainta siirtääkseen varat odottamatta Timelockin päättymistä. Tämä rankaisee tehokkaasti Alicea yrittämisestä huijata.
-arvioitu: false
+reviewed: false

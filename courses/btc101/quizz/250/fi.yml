@@ -6,4 +6,4 @@ wrong_answers:
   - Pankkijärjestelmä on liian hajautettu.
 explanation: >-
   Tekstissä mainitaan, että kysymys siitä, kenen tulisi hallita pankkijärjestelmää, on ratkaiseva, koska pankkitoiminnan säännöt eivät ole läpinäkyviä eivätkä ymmärrettäviä kaikille.
-arvioitu: false
+reviewed: false

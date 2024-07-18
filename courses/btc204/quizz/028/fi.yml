@@ -6,4 +6,4 @@ vaarat_vastaukset:
   - Prosessi, jonka kautta julkinen avain johdetaan yksityisestä avaimesta.
 explanation: |
   Avaintunnistus sisältää mahdollisuuden linkittää käyttäjän identiteetin osa-alue lohkoketjuaktiviteettiin.
-arvioitu: false
+reviewed: false

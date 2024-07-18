@@ -8,4 +8,4 @@ explanation: |
   Trong mạng lưới Bitcoin, các nút duy trì tính toàn vẹn của mạng bằng cách
   xác minh và xác thực các giao dịch và khối. Một khối không chính xác hoặc gian lận
   sẽ bị các nút từ chối, bảo vệ an ninh của mạng.
-đã xem xét: false
+reviewed: false

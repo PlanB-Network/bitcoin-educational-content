@@ -8,4 +8,4 @@ explanation: |
   ASIC là các chip, có thể so sánh với chip CPU, tuy nhiên, chúng được phát triển
   để thực hiện chỉ một loại tính toán cụ thể một cách hiệu quả nhất có thể.
   Trong trường hợp của ASIC Bitcoin, chúng được thiết kế cho việc tính toán thuật toán SHA256.
-đã xem xét: false
+reviewed: false

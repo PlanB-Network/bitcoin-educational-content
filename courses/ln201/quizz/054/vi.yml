@@ -8,4 +8,4 @@ explanation: |
   Trong Mạng Lưới Lightning, tính thanh khoản của một kênh đề cập đến số lượng
   satoshis có thể được chuyển qua kênh. Tính thanh khoản của những
   kênh này không thể được chuyển đến các kênh thanh khoản khác.
-đã xem xét: false
+reviewed: false

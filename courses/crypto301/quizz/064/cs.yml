@@ -8,4 +8,4 @@ explanation: |
   RNG se používá k generování náhodných čísel, která jsou klíčová pro integritu
   soukromých klíčů v Bitcoinových transakcích. To pomáhá předcházet jakékoliv zranitelnosti
   související s předvídatelností.
-recenzováno: false
+reviewed: false

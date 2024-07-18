@@ -6,4 +6,4 @@ vaarat_vastaukset:
   - Se ei ole yhteensopiva kaikkien tietokonetyyppien kanssa.
 explanation: |
   Tietokoneet noudattavat asetettuja algoritmeja, mikä tekee todella satunnaisten lukujen tuottamisesta vaikeaa. Tämä on merkittävä haaste kryptografiassa, jossa satunnaisuus on olennaisen tärkeää yksityisavainten ja Bitcoin-siirtojen turvallisuuden kannalta.
-arvioitu: false
+reviewed: false

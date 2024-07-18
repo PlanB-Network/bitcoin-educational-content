@@ -6,4 +6,4 @@ wrong_answers:
   - Spravuje Bitcoinovou síť.
 explanation: >-
   Bitcoinový uzel v Bitcoinové síti se zabývá ověřováním nových bloků a zahrnutých transakcí. Právě prostřednictvím této sítě Bitcoinových uzlů je síť skutečně decentralizovaná.
-recenzováno: false
+reviewed: false

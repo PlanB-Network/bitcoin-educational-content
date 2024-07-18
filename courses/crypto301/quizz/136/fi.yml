@@ -6,4 +6,4 @@ vaarat_vastaukset:
   - Lompakon siemen
 explanation: |
   Pääyksityisavain ja pääketjukoodi johdetaan lompakon siemenestä ja ovat korkeimmat elementit HD-lompakon hierarkiassa. Niitä käytetään alaisten avainten johtamiseen.
-arvioitu: false
+reviewed: false

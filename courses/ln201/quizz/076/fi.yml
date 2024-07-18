@@ -8,4 +8,4 @@ explanation: |
   Lightning Network -laskun oletusvanhentumisaika on 1 tunti.
   Tämä tarkoittaa, että jos laskua ei makseta tässä aikarajassa, se muuttuu
   mitättömäksi.
-arvioitu: false
+reviewed: false

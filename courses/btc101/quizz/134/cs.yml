@@ -8,4 +8,4 @@ explanation: >-
   V kontextu těžby bloku v síti Bitcoin je platný "hash"
   unikátní otisk spojený s blokem, skládající se ze 256 znaků. Platnost
   tohoto hashe závisí na obtížnosti sítě Bitcoin.
-recenzováno: false
+reviewed: false

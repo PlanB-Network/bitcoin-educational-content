@@ -6,4 +6,4 @@ wrong_answers:
   - Haittaohjelman tyyppi, jota käytetään tietojen varmuuskopiointiin.
 explanation: |
   Kiristyshaittaohjelma on haittaohjelman tyyppi, joka salaa käyttäjän tiedot ja vaatii lunnaita niiden salauksen purkamiseksi. Se on yhä yleisempi ja voi aiheuttaa suuria ongelmia yritykselle tai yksityishenkilölle.
-arvioitu: false
+reviewed: false

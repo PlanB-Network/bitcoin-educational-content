@@ -10,4 +10,4 @@ wrong_answers:
 explanation: |
   Coin control je funkce, kterou najdete v kvalitním softwaru Bitcoin peněženky, která vám dává možnost ručně vybrat konkrétní UTXO k použití jako vstupy při provádění transakce.
 
-recenzováno: false
+reviewed: false

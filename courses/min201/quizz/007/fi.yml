@@ -6,4 +6,4 @@ wrong_answers:
   - Se pysyy samana
 explanation: |
   Bitcoin-verkon louhintapalkkio puolittuu joka 210 000 lohkon jälkeen, suunnilleen joka neljäs vuosi. Tämä palkkio toimii voimakkaana kannustimena rohkaista louhijoita osallistumaan louhintaprosessiin huolimatta sen energiakustannuksista.
-arvioitu: false
+reviewed: false

@@ -8,4 +8,4 @@ explanation: |
   Když je platební kanál Lightning otevřen, je mu přidělena pevná kapacita,
   která je definována předem uživateli. Tato kapacita představuje maximální množství
   Bitcoinu, které lze v daném kanálu v daném okamžiku přenést.
-recenzováno: false
+reviewed: false

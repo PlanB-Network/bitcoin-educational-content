@@ -9,4 +9,4 @@ explanation: |
   ovat kaikki osa likviditeetin hallintaa Lightning Networkissa, päähaaste
   on likviditeetin ylläpitäminen. Tämä sisältää likviditeetin tasapainon ylläpitämisen molemmilla puolilla
   reitityssolmuille ja tulevan likviditeetin varmistamisen kauppiaille.
-arvioitu: false
+reviewed: false

@@ -7,4 +7,4 @@ wrong_answers:
 explanation: |
   Ve funkci komprese SHA256 se operátor XOR používá k zpracování
   bitů jeden po druhém podle jejich pořadí. To se provádí pomocí pravdivostní tabulky.
-recenzováno: false
+reviewed: false

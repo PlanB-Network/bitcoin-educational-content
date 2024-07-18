@@ -6,4 +6,4 @@ wrong_answers:
   - Suorittaa 64 laskentakierrosta tiivistysfunktiossa
 explanation: |
   SHA256:n esikäsittelyn toinen vaihe sisältää alkuperäisen viestin koon binääriesityksen lisäämisen bitteinä. Tämä tehdään käyttämällä edellisessä vaiheessa varattuja 64 bittiä.
-arvioitu: false
+reviewed: false

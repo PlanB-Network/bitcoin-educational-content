@@ -6,4 +6,4 @@ wrong_answers:
   - Salatakseen tapahtumat turvallisuuden vuoksi.
 explanation: |
   Alice pyytää Bobilta allekirjoitusta hänen julkisella avaimellaan ennen tapahtumien julkaisemista. Tämä varmistaa, että hän voi palauttaa varansa yksin, jos jotain menee pieleen, koska hänellä on jo Bobin allekirjoitus.
-arvioitu: false
+reviewed: false

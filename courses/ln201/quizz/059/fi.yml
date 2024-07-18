@@ -6,4 +6,4 @@ wrong_answers:
   - Kaikki meneillään olevat HTLC-siirrot peruutetaan.
 explanation: |
   Pakotetussa sulkemisessa kaikki meneillään olevat HTLC-siirrot julkaistaan. Tämä voi tulla hyvin kalliiksi ja sekavaksi transaktioiden monimutkaisuuden ja määrän vuoksi.
-arvioitu: false
+reviewed: false

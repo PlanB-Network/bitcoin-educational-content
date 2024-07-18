@@ -8,4 +8,4 @@ explanation: |
   Transakce vybírání prostředků je aktualizována po každém převodu přes Lightning Network
   tak, aby odrážela aktuální stav kanálu. Zaručuje, kdo vlastní prostředky po
   každém převodu, ale není provedena, pokud není kanál uzavřen.
-recenzováno: false
+reviewed: false

@@ -6,4 +6,4 @@ wrong_answers:
   - Vastaa pisteen jakamista itsellään n kertaa
 explanation: |
   Pisteen skalaarikertolasku n:llä elliptisellä käyrällä vastaa pisteen lisäämistä itseensä n kertaa. Tämä toimenpide on perustana julkisten avainten laskemiselle Bitcoin-järjestelmässä.
-arvioitu: false
+reviewed: false

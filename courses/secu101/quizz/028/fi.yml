@@ -6,4 +6,4 @@ wrong_answers:
   - Pankkisivustot
 explanation: |
   Sähköpostit ovat hakkerien ensisijainen hyökkäysvektori. He käyttävät phishing-yrityksiä saadakseen arkaluonteisia tietoja, kuten käyttäjätunnuksesi ja salasanasi.
-arvioitu: false
+reviewed: false

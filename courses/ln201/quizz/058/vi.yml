@@ -6,4 +6,4 @@ wrong_answers:
   - HTLC sẽ được chuyển cho Susie.
 explanation: |
   Nếu Bob không bao giờ lấy được bí mật, HTLC sẽ hết hạn sau một số lượng khối nhất định. Đây là một cơ chế được tích hợp sẵn để đảm bảo rằng hợp đồng không bị bỏ lửng vô thời hạn.
-đã xem xét: false
+reviewed: false

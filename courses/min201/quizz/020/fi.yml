@@ -6,4 +6,4 @@ wrong_answers:
   - Tulevaisuuden huoli on, että Bitcoin-lohkojen monimutkaisuus kasvaa, mikä tekee niiden käsittelystä vaikeaa.
 explanation: |
   Odotetun Lightning Networkin kasvun ja siitä seuraavan kanavien avaamisten ja sulkemisten lisääntymisen myötä tila Bitcoin-lohkoissa muuttuu yhä arvokkaammaksi. Tämä on johtanut keskusteluihin lohkotilan legitiimistä käytöstä, huolena "roskapostin" esiintyminen lohkoketjussa transaktioista, joita pidetään ei-olennaisina.
-arvioitu: false
+reviewed: false

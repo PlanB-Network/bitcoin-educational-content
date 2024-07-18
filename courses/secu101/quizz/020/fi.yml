@@ -7,4 +7,4 @@ wrong_answers:
 explanation: |
   Windows Defender on Windowsin sisäänrakennettu virustorjunta. Se on turvallinen ja
   tehokas ratkaisu järjestelmän suojaamiseksi uhkilta.
-arvioitu: false
+reviewed: false

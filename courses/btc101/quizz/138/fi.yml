@@ -8,4 +8,4 @@ explanation: >-
   Solmut Bitcoin-verkossa suorittavat useita kriittisiä toimintoja, mukaan lukien
   Bitcoin-lohkoketjun kopion ylläpitäminen, transaktioiden vahvistaminen, tiedon
   välittäminen muihin solmuihin ja Bitcoin-protokollan sääntöjen noudattaminen.
-arvioitu: false
+reviewed: false

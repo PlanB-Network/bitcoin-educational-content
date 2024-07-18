@@ -6,4 +6,4 @@ wrong_answers:
   - Chúng không phải là không thể đảo ngược.
 explanation: |
   SHA0, SHA1 và MD5 được coi là các hàm băm lỗi thời vì chúng đã mất khả năng chống va chạm. Điều này có nghĩa là tương đối dễ dàng để tìm thấy hai đầu vào khác nhau mà tạo ra cùng một đầu ra, đây là một lỗi an ninh lớn.
-đã xem xét: false
+reviewed: false

@@ -6,4 +6,4 @@ wrong_answers:
   - Umožňuje hráčům kupovat předměty ve hře za Bitcoin
 explanation: >-
   Lightning Network umožňuje hráčům vsázet velmi malé částky peněz při hraní her, jako jsou například několik satoshi. To umožňuje zřízení sázky, která stimuluje soutěživost, zatímco výrazně zvyšuje náklady na nasazení botů.
-recenzováno: false
+reviewed: false

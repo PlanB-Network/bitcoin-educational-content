@@ -8,4 +8,4 @@ explanation: |
   Ověření veřejného klíče stránky pomocí certifikačního systému je důležité
   k potvrzení pravosti stránky. To pomáhá chránit před zlými jedinci,
   kteří se vydávají za stránku a přenášejí data v nešifrované podobě.
-recenzováno: false
+reviewed: false

@@ -10,4 +10,4 @@ wrong_answers:
 explanation: |
   Nguyên tắc của việc hợp nhất là tận dụng các khoảng thời gian khi phí trên Bitcoin thấp để gộp các UTXO nhỏ hơn vào một UTXO lớn hơn.
 
-đã xem xét: false
+reviewed: false

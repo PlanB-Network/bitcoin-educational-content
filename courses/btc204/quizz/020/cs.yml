@@ -6,4 +6,4 @@ nesprávné_odpovědi:
   - Její podpis
 explanation: |
   Vzor transakce je jednoduše model nebo celková struktura typické transakce, která může být nalezena na blockchainu, jejíž pravděpodobná interpretace je známá.
-recenzováno: false
+reviewed: false

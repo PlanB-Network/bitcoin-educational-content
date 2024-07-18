@@ -6,4 +6,4 @@ wrong_answers:
   - Alice có thể lấy lại tiền ngay lập tức.
 explanation: |
   Nếu Alice cố gắng gian lận bằng cách công bố một trạng thái cũ, Bob có thể sử dụng khóa thu hồi để di chuyển quỹ mà không cần chờ đợi đến cuối của Timelock. Điều này hiệu quả trong việc phạt Alice vì đã cố gắng gian lận.
-đã xem xét: false
+reviewed: false

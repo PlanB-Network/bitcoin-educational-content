@@ -8,4 +8,4 @@ explanation: |
   Veřejný klíč potomka je získán vynásobením soukromého klíče potomka
   generátorem eliptické křivky. To je součástí matematických výpočtů
   používaných při odvozování klíčů potomků.
-recenzováno: false
+reviewed: false

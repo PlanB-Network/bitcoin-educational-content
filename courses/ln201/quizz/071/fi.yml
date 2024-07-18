@@ -6,4 +6,4 @@ vaarat_vastaukset:
   - Käyttäjän yksityisyyden vaarantaminen.
 explanation: |
   Satunnaisuustekijää Lightning Networkin reititysprosessissa käytetään välttämään aina samojen reittien käyttämistä. Tämä auttaa jakamaan kuormaa verkossa ja lisää mahdollisuuksia löytää onnistunut reitti tapahtumalle.
-arvioitu: false
+reviewed: false

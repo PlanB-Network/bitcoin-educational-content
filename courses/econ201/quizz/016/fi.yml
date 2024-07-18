@@ -6,4 +6,4 @@ wrong_answers:
   - Halu jokaisesta lisäyksiköstä hyödykettä vaihtelee ennustamattomasti.
 explanation: |
   Laskevan rajahyödyn käsite toteaa, että jokainen lisäyksikkö hyödykettä halutaan vähemmän kuin edellinen. Tämä johtuu siitä, että mitä enemmän yksilö saa hyödykettä, sitä vähemmän hyötyä jokainen lisäyksikkö kyseistä hyödykettä tarjoaa.
-arvioitu: false
+reviewed: false

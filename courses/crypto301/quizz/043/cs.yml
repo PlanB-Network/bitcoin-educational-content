@@ -8,4 +8,4 @@ explanation: |
   Pořadí křivky secp256k1 používané v Bitcoinu je 2^256 -
   432420386565659656852420866394968145599.
   Jedná se o počet bodů na křivce.
-recenzováno: false
+reviewed: false

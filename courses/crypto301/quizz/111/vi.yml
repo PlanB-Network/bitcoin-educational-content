@@ -6,4 +6,4 @@ wrong_answers:
   - Nó tương ứng với các chuỗi bên ngoài và bên trong
 explanation: |
   Trong cấu trúc Ví HD, Depth 2 cho phép phân biệt các tài khoản cho các loại tiền điện tử hoặc mạng khác nhau. Điều này cho phép tổ chức ví dựa trên các nguồn quỹ khác nhau.
-đã xem xét: false
+reviewed: false

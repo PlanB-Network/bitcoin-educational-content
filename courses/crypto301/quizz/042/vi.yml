@@ -7,4 +7,4 @@ wrong_answers:
 explanation: |
   Trong bối cảnh giao dịch Bitcoin, chữ ký số được sử dụng để chứng minh bạn là người giữ khóa riêng mà không tiết lộ nó. Điều này được thực hiện
   sử dụng thuật toán ECDSA.
-đã xem xét: false
+reviewed: false

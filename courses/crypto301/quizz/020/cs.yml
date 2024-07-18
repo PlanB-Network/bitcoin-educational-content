@@ -6,4 +6,4 @@ wrong_answers:
   - 2048-bitové (256-bytové) bloky
 explanation: |
   V kontextu derivace HD peněženky se používá HMAC-SHA-512. Ten operuje s 1024-bitovými (128-bytovými) bloky a přizpůsobuje klíč podle toho.
-recenzováno: false
+reviewed: false

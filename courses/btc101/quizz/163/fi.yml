@@ -7,4 +7,4 @@ vaarat_vastaukset:
 explanation: >-
   Keskimäärin lohko luodaan joka 10. minuutti Bitcoin-protokollassa.
   Tämä aika pysyy vakiona riippumatta louhijoiden määrästä ja heidän laskentatehostaan.
-arvioitu: false
+reviewed: false

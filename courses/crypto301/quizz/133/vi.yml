@@ -6,4 +6,4 @@ wrong_answers:
   - Nó được sử dụng để tính toán checksum.
 explanation: |
   Trong ví Phân cấp Xác định (HD) với BIP32, entropy đóng một vai trò trung tâm khi nó được sử dụng để tạo ra cụm từ ghi nhớ từ một số ngẫu nhiên. Cụm từ ghi nhớ này sau đó có thể được mã hóa thành một loạt các từ dễ nhớ sử dụng danh sách 2048 từ được cung cấp trong BIP39.
-đã xem xét: false
+reviewed: false

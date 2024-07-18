@@ -8,4 +8,4 @@ explanation: |
   Peruutusavain on mekanismi Lightning-verkossa estämään huijausta. Jos osallistuja yrittää huijata julkaisemalla vanhan sitoumustapahtuman,
   toinen osallistuja voi käyttää peruutusavainta rangaistakseen huijaria ja ottaakseen
   kaikki SATit kanavalta.
-arvioitu: false
+reviewed: false

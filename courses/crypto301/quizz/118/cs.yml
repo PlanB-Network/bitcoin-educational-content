@@ -7,4 +7,4 @@ nesprávné_odpovědi:
   - Pouze z adresy na veřejný klíč
 explanation: |
   V Bitcoinu není možné provést reverzi z adresy na veřejný klíč, ani z veřejného klíče na soukromý klíč. To je klíčový aspekt kryptografického zabezpečení Bitcoinu.
-recenzováno: false
+reviewed: false

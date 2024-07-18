@@ -6,4 +6,4 @@ wrong_answers:
   - Số 1024-bit
 explanation: |
   Khóa riêng biệt độc nhất được sử dụng để tạo ra một khóa công khai 512-bit trong hệ thống Bitcoin.
-đã xem xét: false
+reviewed: false

@@ -6,4 +6,4 @@ wrong_answers:
   - Se standardisoi HD-lompakoiden rakenteen ja hierarkian.
 explanation: |
   BIP38 ehdotti lisäsalasanan lisäämistä vahvistamaan yksittäisten avainten turvallisuutta. Tämä on yksi monista parannuksista, jotka on tehty HD-lompakoiden turvallisuuden ja toiminnallisuuden parantamiseksi.
-arvioitu: false
+reviewed: false

@@ -7,4 +7,4 @@ wrong_answers:
 explanation: |
   Veřejný klíč je odvozen z privátního klíče a používá se k generování Bitcoinových adres
   za účelem přijímání peněz.
-recenzováno: true
+reviewed: true

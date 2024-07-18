@@ -8,4 +8,4 @@ explanation: >
   Lohkon louhinnan yhteydessä Bitcoin-verkossa kelvollinen "hash"
   on ainutlaatuinen sormenjälki, joka liittyy lohkoon ja koostuu 256 merkistä. Tämän
   hashin kelvollisuus riippuu Bitcoin-verkon vaikeustasosta.
-arvioitu: false
+reviewed: false

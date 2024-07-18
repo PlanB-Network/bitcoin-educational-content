@@ -6,4 +6,4 @@ wrong_answers:
   - Transakce musí být schválena Bitcoinovou sítí
 explanation: |
   Pro možnost transakce v platebním kanálu Lightning musí mít uživatel posílající prostředky dostatek Bitcoinů na své straně kanálu.
-recenzováno: false
+reviewed: false

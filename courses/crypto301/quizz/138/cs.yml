@@ -6,4 +6,4 @@ wrong_answers:
   - Formát RIPMD160
 explanation: |
   Po výpočtu kontrolního součtu se pro standard legacy používá reprezentace ve formátu base 58, zatímco pro standard segwit se používá formát bech32 k získání adresy HD peněženky.
-recenzováno: false
+reviewed: false

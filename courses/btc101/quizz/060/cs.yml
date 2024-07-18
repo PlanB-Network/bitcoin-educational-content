@@ -6,4 +6,4 @@ nesprávné_odpovědi:
   - Farmaření
 explanation: |
   Proces, který ověřuje transakce v síti Bitcoin, se nazývá těžba. Těžaři provádějí kryptografický úkol a jsou za to odměněni vydáním nových bitcoinů.
-recenzováno: true
+reviewed: true

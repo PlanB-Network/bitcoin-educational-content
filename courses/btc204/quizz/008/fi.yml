@@ -6,4 +6,4 @@ wrong_answers:
   - 3 000 satoshia
 explanation: |
   Transaktion maksut edustavat eroa kokonaissyötteiden ja kokonaisulostulojen välillä. Se on se, mikä jää jäljelle kaikkien syötteiden kuluttamisen ja kaikkien ulostulojen luomisen jälkeen. Laskelma on siis seuraava; maksut = (5000x2) - (3000x3) = 10000 - 9000 = 1000.
-arvioitu: false
+reviewed: false

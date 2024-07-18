@@ -6,4 +6,4 @@ wrong_answers:
   - Bitcoinin sääntelyn puute.
 explanation: >-
   Skaalautuvuusongelma viittaa haasteeseen toteuttaa rahajärjestelmä, joka kykenee käsittelemään yhä kasvavan määrän transaktioita sekunnissa sen käyttöönoton myötä.
-arvioitu: false
+reviewed: false

@@ -6,4 +6,4 @@ wrong_answers:
   - Paperilompakko.
 explanation: |
   Hodlerille on suositeltavaa aloittaa kylmällä lompakolla, kuten Bitbox02, Trezor tai Ledger. Nämä laitteet tarjoavat pitkäaikaista turvaa bitcoineille.
-arvioitu: false
+reviewed: false

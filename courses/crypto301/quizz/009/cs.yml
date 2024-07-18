@@ -8,4 +8,4 @@ explanation: |
   V předzpracovací fázi SHA256 jsou k vstupu přidány doplňkové bity,
   aby se jeho velikost dostala na dokonalý násobek 512 bitů. To se dělá proto, aby
   všechny složky dokonale zapadly do kryptografického receptu.
-recenzováno: false
+reviewed: false

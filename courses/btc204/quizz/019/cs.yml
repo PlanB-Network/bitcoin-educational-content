@@ -6,4 +6,4 @@ wrong_answers:
   - Analýza objemu a podobnosti skriptů.
 explanation: |
   V části 10 Bílé knihy o Bitcoinu Satoshi Nakamoto varuje uživatele před CIOH (Common Input Ownership Heuristic) a opakovaným používáním stejného páru klíčů.
-recenzováno: false
+reviewed: false

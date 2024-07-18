@@ -7,4 +7,4 @@ vaarat_vastaukset:
 explanation: |
   SHA256-tiivistefunktio tuottaa 256-bittisen tiivisteen muuttuvankokoisesta
   syötteestä. Tästä syystä sitä kutsutaan SHA256:ksi.
-arvioitu: false
+reviewed: false

@@ -6,4 +6,4 @@ wrong_answers:
   - Odečtením 32 od velikosti entropie.
 explanation: |
   Velikost kontrolního součtu se určuje dělením velikosti entropie číslem 32. Například 256bitová entropie generuje 8bitový kontrolní součet.
-recenzováno: false
+reviewed: false

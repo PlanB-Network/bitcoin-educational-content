@@ -6,4 +6,4 @@ vaarat_vastaukset:
   - 1024-bittinen numero
 explanation: |
   Bitcoin-järjestelmässä yksilöllisestä yksityisavaimesta johdetaan 512-bittinen julkinen avain.
-arvioitu: false
+reviewed: false

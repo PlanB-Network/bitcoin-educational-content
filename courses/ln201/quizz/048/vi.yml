@@ -8,4 +8,4 @@ explanation: |
   Đóng cưỡng bức xảy ra khi một bên muốn đóng kênh, nhưng
   bên kia không phản hồi vì họ đang ngoại tuyến. Bên đầu tiên sau đó công bố
   giao dịch cam kết gần nhất.
-đã xem xét: false
+reviewed: false

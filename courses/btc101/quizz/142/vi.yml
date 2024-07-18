@@ -7,4 +7,4 @@ wrong_answers:
 explanation: >-
   Một node gọt tỉa trong ngữ cảnh của Bitcoin là một node chỉ giữ lại
   N khối cuối cùng trong bộ nhớ.
-đã xem xét: false
+reviewed: false

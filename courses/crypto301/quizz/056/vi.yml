@@ -6,4 +6,4 @@ wrong_answers:
   - Đó là chữ ký số của chủ sở hữu ví.
 explanation: |
   Hạt giống trong ví Bitcoin được cho là một số ngẫu nhiên hoặc giả ngẫu nhiên. Hạt giống này cho phép tạo ra nhiều khóa, là yếu tố thiết yếu cho việc sở hữu tiền mã hóa.
-đã xem xét: false
+reviewed: false

@@ -6,4 +6,4 @@ wrong_answers:
   - Vain yksityisten ja julkisten avainten yhteiskäytön kautta.
 explanation: >-
   Lightning Network -verkon transaktiot turvataan kryptografian avulla ja välillisesti Bitcoinin louhijoiden käyttämän energian kautta.
-arvioitu: false
+reviewed: false

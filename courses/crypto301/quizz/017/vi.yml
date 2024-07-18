@@ -6,4 +6,4 @@ wrong_answers:
   - Việc sử dụng các toán tử XOR, AND, và NOT để xử lý các bit
 explanation: |
   Lợi thế chính của hàm băm SHA256 là độ bền vững trong việc tìm ra đầu vào từ giá trị băm, trong khi việc xác minh giá trị băm cho một đầu vào cho trước là một hành động cơ học đơn giản. Điều này làm cho nó trở thành lựa chọn ưu tiên để bảo vệ nhiều hệ thống số, đặc biệt là trong giao thức Bitcoin.
-đã xem xét: false
+reviewed: false

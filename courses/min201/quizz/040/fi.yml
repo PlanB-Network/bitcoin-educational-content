@@ -7,4 +7,4 @@ wrong_answers:
 explanation: |
   Louhinta määrittää Bitcoinille alarajan hinnan, jonka alapuolella louhijat
   myisivät tappiolla. Louhinnan kustannukset vaikuttavat merkittävästi Bitcoinin hintaan.
-arvioitu: false
+reviewed: false

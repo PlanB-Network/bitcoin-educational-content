@@ -6,4 +6,4 @@ vaarat_vastaukset:
   - Se parantaa laillisuutta.
 explanation: |
   Uuden avainparin käyttäminen jokaisessa siirrossa parantaa Bitcoin-siirtojen turvallisuutta. Se kuitenkin monimutkaistaa niiden varmuuskopiointia ja säilyttää vain osittain luottamuksellisuuden.
-arvioitu: false
+reviewed: false

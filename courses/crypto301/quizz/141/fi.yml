@@ -8,4 +8,4 @@ explanation: |
   Alaisen avaimen johdannaisuus riippuu useista tekijöistä, mukaan lukien
   vanhemman avain ja vastaava ketjukoodi. Laajennettu avain saadaan yhdistämällä
   vanhemman avain sen ketjukoodin kanssa.
-arvioitu: false
+reviewed: false

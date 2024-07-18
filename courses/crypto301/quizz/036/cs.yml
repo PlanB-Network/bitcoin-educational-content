@@ -6,4 +6,4 @@ wrong_answers:
   - Bod O
 explanation: |
   Bod G je výchozím bodem pro výpočet veškerých veřejných klíčů uživatelů v systému Bitcoin.
-recenzováno: false
+reviewed: false

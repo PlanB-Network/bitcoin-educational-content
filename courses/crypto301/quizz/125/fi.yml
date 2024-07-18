@@ -6,4 +6,4 @@ wrong_answers:
   - 256 bittiä
 explanation: |
   Bitcoinissa raaka julkinen avain vie 520 bittiä. Kiitos kuitenkin käytetyn elliptisen käyrän symmetrian, voimme pakata julkisen avaimen pienentääksemme sen kokoa 520 bitistä 264 bittiin.
-arvioitu: false
+reviewed: false

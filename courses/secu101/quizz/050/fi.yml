@@ -6,4 +6,4 @@ wrong_answers:
   - Ne ovat helpompi muistaa
 explanation: |
   Kertakäyttöiset salasanat (HOTP ja TOTP) ovat turvallisempia kuin SMS-viestit, koska ne vaativat kryptografista laskentaa ja tallennetaan paikallisesti eikä muistiin.
-arvioitu: false
+reviewed: false

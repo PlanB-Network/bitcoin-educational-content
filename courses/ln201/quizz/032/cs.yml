@@ -6,4 +6,4 @@ wrong_answers:
   - Předchozí závazná transakce je aktualizována novým tajemstvím a klíčem pro zrušení.
 explanation: |
   Když je vytvořena nová závazná transakce, je rozhodnuto o novém tajemství a novém klíči pro zrušení. Předchozí závazná transakce musí být zničena předáním tajemství pro zrušení, aby se zabránilo jakékoli straně v podvodu zveřejněním starého stavu.
-recenzováno: false
+reviewed: false

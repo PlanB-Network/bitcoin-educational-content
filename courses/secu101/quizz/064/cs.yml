@@ -6,4 +6,4 @@ wrong_answers:
   - Vyžadují hodně úložného prostoru.
 explanation: |
   Prohlížečová rozšíření pro automatické vyplňování hesel mohou uživatele více vystavit riziku phishingových útoků. Také mají tendenci zvyšovat riziko útoku a mohou zpomalit výkon prohlížeče, což představuje významné riziko.
-recenzováno: false
+reviewed: false

@@ -8,4 +8,4 @@ explanation: |
   HASH160 on edullinen Bitcoin-protokollassa, koska se säilyttää
   SHA-256:n turvallisuuden samalla kun se pienentää sormenjäljen kokoa. Tämä tekee siitä
   tehokkaamman kompromissoimatta turvallisuutta.
-arvioitu: false
+reviewed: false

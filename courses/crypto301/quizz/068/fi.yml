@@ -6,4 +6,4 @@ wrong_answers:
   - Se generoidaan satunnaisesti.
 explanation: |
   Entropian koosta riippuen palautuslause koostuu 12 sanasta 128 bitin kohdalla, 15 sanasta 160 bitin kohdalla ja 24 sanasta 256 bitin kohdalla.
-arvioitu: false
+reviewed: false

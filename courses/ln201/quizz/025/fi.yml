@@ -6,4 +6,4 @@ wrong_answers:
   - Se siirtää varat.
 explanation: |
   Sitoumustapahtuma on uudempi tapahtuma, joka päivittää kanavan saldon jokaisen siirron jälkeen. Sitä ei suoriteta, ellei kanavaa suljeta.
-arvioitu: false
+reviewed: false

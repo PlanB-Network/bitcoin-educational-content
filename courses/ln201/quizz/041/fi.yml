@@ -6,4 +6,4 @@ wrong_answers:
   - Sulkeutumistransaktio on kalliimpi kuin sitoutumistransaktio.
 explanation: |
   Yhteistyöllisessä sulkemisessa kaksi osapuolta sopivat kanavan lopullisesta tilasta ja luovat sulkeutumistransaktion. Tämä transaktio eroaa sitoutumistransaktioista, koska sillä ei ole aikalukkoa eikä kumoamisavainta.
-arvioitu: false
+reviewed: false

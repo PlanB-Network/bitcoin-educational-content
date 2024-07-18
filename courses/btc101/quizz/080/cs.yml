@@ -7,4 +7,4 @@ wrong_answers:
 explanation: >-
   Díky kryptografii použité při vytváření peněženky je pravděpodobnost, že někdo náhodně uhodne váš seznam 12 nebo 24 slov, astronomicky nízká.
   Je to jako najít "správné" číslo mezi 1 a $2^256$, což je téměř ekvivalentní s nalezením určitého atomu ve vesmíru.
-recenzováno: true
+reviewed: true

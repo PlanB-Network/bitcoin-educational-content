@@ -9,4 +9,4 @@ explanation: |
   na různých místech. To je proto, že multisig vyžaduje více podpisů
   pro provedení transakce, takže je potřeba určitý počet peněženek, a ukládání každé části na jiné místo přidává
   další vrstvu zabezpečení.
-recenzováno: true
+reviewed: true

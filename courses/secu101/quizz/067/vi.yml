@@ -10,4 +10,4 @@ wrong_answers:
 explanation: |
   Single Sign-On (SSO) do các gã khổng lồ internet cung cấp gây ra các vấn đề về khả năng sẵn có và nguy cơ kiểm duyệt. Điều này là bởi vì nếu nhà cung cấp SSO gặp sự cố hoặc quyết định chặn một người dùng, người dùng có thể mất quyền truy cập vào tất cả các dịch vụ sử dụng SSO đó để xác thực.
 
-đã xem xét: false
+reviewed: false

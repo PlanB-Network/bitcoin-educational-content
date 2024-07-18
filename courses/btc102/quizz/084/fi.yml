@@ -6,4 +6,4 @@ wrong_answers:
   - Louhia uusia bitcoineja.
 explanation: |
   Kylmä lompakko on Bitcoin-lompakon tyyppi, joka ei ole yhteydessä internetiin, mikä tekee siitä vähemmän alttiin hakkeroinnille ja varkauksille. Sitä käytetään tyypillisesti säilyttämään bitcoineja, joita ei tarvita päivittäisissä transaktioissa.
-arvioitu: false
+reviewed: false

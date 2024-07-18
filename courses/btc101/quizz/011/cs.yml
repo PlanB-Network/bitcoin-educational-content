@@ -6,4 +6,4 @@ wrong_answers:
   - Využívá důvěryhodné uživatele pro vytvoření federální rezervy bitcoinu.
 explanation: |
   Lightning Network s využitím platebních kanálů umožňuje směrování transakcí mimo hlavní blockchain za nižší náklady a rychleji.
-recenzováno: true
+reviewed: true

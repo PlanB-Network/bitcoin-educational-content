@@ -6,4 +6,4 @@ wrong_answers:
   - Koska maksut ovat arvaamattomia pakotetussa sulkemisessa.
 explanation: |
   Pakotetussa sulkemisessa maksut päätettiin, kun transaktio luotiin menneisyydessä. Verkko on muuttunut siitä lähtien, joten protokolla olettaa oletusarvoisesti maksujen olevan 5 kertaa korkeammat kuin nykyiset, kun transaktio luotiin. Tämä tekee pakotetusta sulkemisesta riskialttiimman maksujen ja mahdollisen louhijoiden validoinnin kannalta.
-arvioitu: false
+reviewed: false

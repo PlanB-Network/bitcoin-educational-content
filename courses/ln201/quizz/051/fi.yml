@@ -6,4 +6,4 @@ wrong_answers:
   - Menetelmä, jossa lopullinen vastaanottaja päättää reitin ennen maksun lähettämistä.
 explanation: |
   Sipulireititys Lightning-verkostossa on menetelmä, jossa välittäjät eivät tiedä, kuka on lopullinen vastaanottaja tai kuka maksun lähettää. Solmun on pidettävä suunnitelmaa verkostosta löytääkseen reittinsä, mutta yksikään välittäjistä ei omaa mitään tietoa.
-arvioitu: false
+reviewed: false

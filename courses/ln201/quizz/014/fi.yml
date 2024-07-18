@@ -6,4 +6,4 @@ wrong_answers:
   - Sitä käytetään varojen siirtämiseen Alicelta Bobille.
 explanation: |
   Vetäytymistransaktio luodaan Alicen toimesta ennen varojen talletuksen julkaisemista moniallekirjoitusosoitteeseen. Tämä transaktio mahdollistaa Alicen käyttää varoja moniallekirjoitusosoitteesta hänen omaan osoitteeseensa. Tämä tehdään varmistamaan, että hän voi palauttaa varansa, jos jotain menee pieleen.
-arvioitu: false
+reviewed: false

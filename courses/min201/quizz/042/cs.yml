@@ -6,4 +6,4 @@ wrong_answers:
   - Může dojít k nárůstu počtu aktivních uzlů v síti.
 explanation: |
   Zákaz těžby v regionu, jako se to stalo v Číně, může vést k významnému poklesu hashrate a ceny Bitcoinu. Tyto hodnoty se ovšem mohou rychle zotavit.
-recenzováno: false
+reviewed: false

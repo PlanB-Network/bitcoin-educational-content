@@ -7,4 +7,4 @@ vaarat_vastaukset:
 explanation: |
   Kun kanava avataan, sille määritetään kiinteä kapasiteetti, joka on määritelty
   etukäteen käyttäjien toimesta.
-arvioitu: false
+reviewed: false

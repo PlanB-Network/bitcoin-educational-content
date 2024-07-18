@@ -8,4 +8,4 @@ explanation: >-
   Trong bối cảnh đào một khối trong mạng Bitcoin, một "hash" hợp lệ
   là một dấu vân tay độc nhất vô nhị liên kết với khối, bao gồm 256 ký tự. Sự
   hợp lệ của hash này phụ thuộc vào độ khó của mạng Bitcoin.
-đã xem xét: false
+reviewed: false

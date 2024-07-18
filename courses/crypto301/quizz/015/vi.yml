@@ -6,4 +6,4 @@ wrong_answers:
   - 1024 bit
 explanation: |
   Hàm băm SHA256 tạo ra một băm 256-bit từ một đầu vào có kích thước biến đổi. Đó là lý do tại sao nó được gọi là SHA256.
-đã xem xét: false
+reviewed: false

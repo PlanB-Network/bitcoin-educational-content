@@ -6,4 +6,4 @@ wrong_answers:
   - Cô ấy giữ nó trong địa chỉ của chính mình.
 explanation: |
   Khi Alice mở một kênh với Bob, cô ấy tạo một giao dịch với 2 UTXO làm đầu ra. Một UTXO 0.0013 BTC được gửi đến địa chỉ multi-sig 2/2, và UTXO khác 0.0007 BTC được gửi đến một trong những địa chỉ thay đổi của cô ấy.
-đã xem xét: false
+reviewed: false

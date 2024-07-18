@@ -8,4 +8,4 @@ explanation: |
   Kun Alice avaa kanavan Bobin kanssa, hän luo transaktion, jossa on 2
   UTXO:ta lähtönä. Yksi UTXO, 0,0013 BTC, menee 2/2 moniallekirjoitusosoitteeseen, ja
   toinen UTXO, 0,0007 BTC, menee yhteen hänen vaihto-osoitteistaan.
-arvioitu: false
+reviewed: false

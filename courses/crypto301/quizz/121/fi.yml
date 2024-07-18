@@ -7,4 +7,4 @@ wrong_answers:
 explanation: |
   Skriptityyppi, joka mahdollistaa bitcoinien lukitsemisen julkiseen avaimeseen, on nimeltään
   Pay2PublicKey. Käyttäjät kuitenkin yleensä suosivat vastaanotto-osoitteiden käyttämistä tämän skriptin sijaan.
-arvioitu: false
+reviewed: false

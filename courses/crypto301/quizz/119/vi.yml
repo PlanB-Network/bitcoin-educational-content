@@ -6,4 +6,4 @@ wrong_answers:
   - Một script khóa bitcoin vào một khóa công khai.
 explanation: |
   Địa chỉ nhận Bitcoin là một bản hash của khóa công khai, với một định dạng cụ thể. Nó được sử dụng để nhận tiền trên một đồng xu và được tạo ra từ các cặp khóa riêng tư và khóa công khai.
-đã xem xét: false
+reviewed: false

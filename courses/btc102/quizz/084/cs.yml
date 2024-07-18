@@ -6,4 +6,4 @@ wrong_answers:
   - Těžit nové bitcoiny.
 explanation: |
   Studená peněženka je typ Bitcoinové peněženky, která není připojena k internetu, což ji činí méně náchylnou k hackování a krádeži. Typicky se používá pro uchování bitcoinů, které nejsou potřebné pro denní transakce.
-recenzováno: false
+reviewed: false

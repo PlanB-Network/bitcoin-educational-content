@@ -8,4 +8,4 @@ explanation: |
   Původně nebyla funkce SHA-512 implementována v protokolu Bitcoin,
   a proto se používá HMAC SHA-512. Tento algoritmus vyžaduje zprávu a klíč k
   vygenerování výsledku.
-recenzováno: false
+reviewed: false

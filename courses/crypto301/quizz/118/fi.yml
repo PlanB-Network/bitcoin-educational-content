@@ -7,4 +7,4 @@ wrong_answers:
   - Vain osoitteesta julkiseen avaimen
 explanation: |
   Bitcoinissa ei ole mahdollista palauttaa osoitteesta julkiseen avaimen, eikä julkisesta avaimesta yksityiseen avaimen. Tämä on keskeinen osa Bitcoinin kryptografista turvallisuutta.
-arvioitu: false
+reviewed: false

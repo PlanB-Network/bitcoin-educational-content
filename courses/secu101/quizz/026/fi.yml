@@ -6,4 +6,4 @@ vaarat_vastaukset:
   - Vain Mac tarvitsee virustorjuntaa.
 explanation: |
   Linux ja Mac eivät usein tarvitse virustorjuntaa kiitos käyttäjäoikeuksien erottelujärjestelmänsä.
-arvioitu: false
+reviewed: false

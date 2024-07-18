@@ -6,4 +6,4 @@ wrong_answers:
   - Změny v síti Bitcoin
 explanation: |
   Transakce uvnitř kanálu nemění celkovou kapacitu kanálu, ale mění distribuci této kapacity mezi uživatele.
-recenzováno: false
+reviewed: false

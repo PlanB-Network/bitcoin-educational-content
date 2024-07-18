@@ -10,4 +10,4 @@ wrong_answers:
 explanation: |
   Kiểm soát tiền xu là một tính năng được tìm thấy trong phần mềm ví Bitcoin tốt, cho phép bạn tự chọn cụ thể các UTXO để sử dụng làm đầu vào khi thực hiện một giao dịch.
 
-đã xem xét: false
+reviewed: false

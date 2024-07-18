@@ -7,4 +7,4 @@ vaarat_vastaukset:
 explanation: |
   HD-lompakon johdannan yhteydessä käytetään HMAC-SHA-512:tä. Jälkimmäinen
   toimii 1024-bittisten (128-tavuisten) lohkojen kanssa ja mukauttaa avaimen sen mukaisesti.
-arvioitu: false
+reviewed: false

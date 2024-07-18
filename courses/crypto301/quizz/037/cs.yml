@@ -7,4 +7,4 @@ nesprávné_odpovědi:
 explanation: |
   Bitcoin využívá Elliptic Curve Digital Signature Algorithm (ECDSA)
   pro propojení soukromých a veřejných klíčů.
-recenzováno: false
+reviewed: false

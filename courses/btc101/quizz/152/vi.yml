@@ -6,4 +6,4 @@ wrong_answers:
   - Tổng lượng bitcoin đã được khai thác.
 explanation: >-
   HashRate đề cập đến tổng số lần thử mà các thợ mỏ thực hiện mỗi giây để giải quyết Bằng chứng Công việc. Đó là một phép đo về sức mạnh tính toán của mạng lưới Bitcoin.
-đã xem xét: false
+reviewed: false

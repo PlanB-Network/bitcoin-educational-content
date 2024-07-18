@@ -6,4 +6,4 @@ wrong_answers:
   - Nó làm chậm quá trình tính toán bản băm.
 explanation: |
   Các hàm băm mật mã được thiết kế theo cách mà ngay cả một sự lệch lạc nhỏ trong đầu vào cũng thay đổi đáng kể bản băm cuối cùng. Tính chất này rất quan trọng đối với sự an toàn của hàm băm, vì nó làm cho việc tìm ra một đầu vào khác tạo ra cùng một bản băm trở nên cực kỳ khó khăn.
-đã xem xét: false
+reviewed: false

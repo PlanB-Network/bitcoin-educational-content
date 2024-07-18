@@ -8,4 +8,4 @@ explanation: |
   Faktor náhodnosti v procesu směrování Lightning Network je používán
   k tomu, aby se neustále nepoužívaly stejné trasy. To pomáhá rozložit zátěž
   po celé síti a zvýšit šance na nalezení úspěšné trasy pro transakci.
-recenzováno: false
+reviewed: false

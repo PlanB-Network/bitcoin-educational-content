@@ -6,4 +6,4 @@ wrong_answers:
   - Ylläpitää likviditeetin tasapainoa molemmilla puolilla
 explanation: |
   Lightning-verkossa yksi tapa lisätä vastaanottokapasiteettia on tehdä maksuja. Esimerkiksi, jos maksat 100 000 tietystä syystä, voit nyt vastaanottaa 100 000.
-arvioitu: false
+reviewed: false

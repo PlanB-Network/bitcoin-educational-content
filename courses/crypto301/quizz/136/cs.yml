@@ -8,4 +8,4 @@ explanation: |
   Hlavní soukromý klíč a hlavní řetězový kód jsou odvozeny ze semínka peněženky
   a jsou nejvyššími prvky v hierarchii HD peněženky. Používají se k odvození
   dědičných klíčů.
-recenzováno: false
+reviewed: false

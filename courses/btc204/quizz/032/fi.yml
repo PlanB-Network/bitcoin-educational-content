@@ -6,4 +6,4 @@ wrong_answers:
   - Se, jossa on ei-standardi skriptityyppi.
 explanation: |
   Jos tapahtumassa esiintyy version uudelleenkäyttöä, on järkevää olettaa, että käyttäjällä on yhä hallussaan kyseinen UTXO. Siksi lähtö, jossa on sama skriptiversio kuin syötteessä, on todennäköisesti vaihtoraha.
-arvioitu: false
+reviewed: false

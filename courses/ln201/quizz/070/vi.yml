@@ -10,4 +10,4 @@ explanation: |
   các yếu tố như phí, thời gian hết hạn HTLC, số lượng nút trung gian,
   và một yếu tố ngẫu nhiên. Đồng thời, hệ thống được thiết kế để bảo vệ sự
   riêng tư của người dùng bằng cách không tiết lộ sự phân bố chính xác của thanh khoản.
-đã xem xét: false
+reviewed: false

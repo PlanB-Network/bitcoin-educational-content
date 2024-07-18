@@ -9,4 +9,4 @@ explanation: |
   saatavuuden ja sensuurin riskien osalta. Tämä johtuu siitä, että jos SSO-tarjoaja
   kokee katkoksen tai päättää estää käyttäjän, käyttäjä saattaa menettää pääsyn kaikkiin
   palveluihin, jotka käyttävät kyseistä SSO:ta autentikointiin.
-arvioitu: false
+reviewed: false

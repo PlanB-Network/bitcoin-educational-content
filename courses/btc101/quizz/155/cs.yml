@@ -6,4 +6,4 @@ wrong_answers:
   - Těžaři jsou odměňováni novými bitcoiny.
 explanation: >-
   Když těžař úspěšně vytěží blok, obdrží odměnu ve formě nových bitcoinů. Tato odměna je zahrnuta v bloku, který vytěžili. Kromě toho těžaři také dostávají transakční poplatky z transakcí zahrnutých v bloku.
-recenzováno: false
+reviewed: false

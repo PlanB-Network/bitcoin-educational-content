@@ -6,4 +6,4 @@ wrong_answers:
   - Rekisteröintimaksut, tiukat säännökset ja heikko turvallisuus.
 explanation: |
   Bitcoinit, jotka myydään P2P-alustoilla, ovat yleensä kalliimpia kuin ne, jotka ovat peräisin säännellyiltä alustoilta. Tämä hintalisä johtuu useista tekijöistä: myyjä ottaa enemmän riskejä, heidän on myös katettava lisäkustannukset, ja vaihtopalvelu tarjoaa ostajalle korkeamman tason yksityisyyttä.
-arvioitu: false
+reviewed: false

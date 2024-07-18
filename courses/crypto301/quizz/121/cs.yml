@@ -8,4 +8,4 @@ explanation: |
   Typ skriptu, který umožňuje uzamknout bitcoiny na veřejný klíč, se nazývá
   Pay2PublicKey. Uživatelé však obecně dávají přednost používání přijímacích adres místo
   tohoto skriptu.
-recenzováno: false
+reviewed: false

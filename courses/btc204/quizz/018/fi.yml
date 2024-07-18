@@ -6,4 +6,4 @@ wrong_answers:
   - Ulkoiset transaktioheuristiikat.
 explanation: |
   Ketjuanalyysissä käytetyt heuristiikat voidaan ryhmitellä kolmeen luokkaan; transaktiokuvioihin (tai transaktiomalleihin), sisäisiin transaktioheuristiikkoihin ja ulkoisiin transaktioheuristiikkoihin.
-arvioitu: false
+reviewed: false

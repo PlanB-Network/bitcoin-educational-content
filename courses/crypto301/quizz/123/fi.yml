@@ -6,4 +6,4 @@ vaarat_vastaukset:
   - Vain jos osoite on hajautettu
 explanation: |
   Bitcoin-osoitteen käyttäminen ei säästä tilaa lohkoissa. Pääsyy osoitteen käyttöön on julkisen avaimen tiedon koon pienentäminen.
-arvioitu: false
+reviewed: false

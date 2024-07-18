@@ -8,4 +8,4 @@ explanation: |
   Když uživatel Bitcoinu chce přijímat bitcoiny, poskytne odesílateli přijímací
   adresu. Tato adresa je hashem jejich veřejného klíče, s určitým
   formátem.
-recenzováno: false
+reviewed: false

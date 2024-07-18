@@ -6,4 +6,4 @@ wrong_answers:
   - Suuren määrän Bitcoinin ostaminen kerralla
 explanation: |
   Bitcoin-sijoittajan päätavoite sijoituspäätöksissä on kerätä mahdollisimman paljon satosheja. Tämä saavutetaan Dollar-Cost Averaging (DCA) -suunnitelman laatimisella ja muiden ratkaisujen etsimisellä satoshien kerryttämiseksi.
-arvioitu: false
+reviewed: false

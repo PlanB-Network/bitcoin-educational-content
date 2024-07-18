@@ -6,4 +6,4 @@ wrong_answers:
   - Để mã hóa các giao dịch cho an ninh.
 explanation: |
   Alice yêu cầu Bob ký tên bằng khóa công khai của mình trước khi công bố các giao dịch. Điều này nhằm đảm bảo rằng cô ấy có thể tự mình khôi phục lại quỹ nếu có điều gì đó không đúng, vì cô ấy đã có chữ ký của Bob.
-đã xem xét: false
+reviewed: false

@@ -7,4 +7,4 @@ wrong_answers:
 explanation: |
   Việc đào thiết lập một mức giá sàn cho Bitcoin, dưới mức này các thợ đào sẽ
   bán lỗ. Chi phí đào ảnh hưởng đáng kể đến giá của Bitcoin.
-đã xem xét: false
+reviewed: false

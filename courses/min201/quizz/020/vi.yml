@@ -6,4 +6,4 @@ wrong_answers:
   - Mối quan tâm về tương lai là độ phức tạp của các khối Bitcoin sẽ tăng lên, làm cho chúng khó xử lý hơn.
 explanation: |
   Với sự phát triển dự kiến của Mạng Lưới Lightning và sự tăng lên tương ứng trong việc mở và đóng kênh, không gian trong các khối Bitcoin sẽ trở nên ngày càng có giá trị. Điều này đã dẫn đến các cuộc thảo luận về việc sử dụng hợp lệ của không gian khối, với những lo ngại về "spam" trên blockchain từ các giao dịch được coi là không thiết yếu.
-đã xem xét: false
+reviewed: false

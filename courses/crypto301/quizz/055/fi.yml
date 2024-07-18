@@ -6,4 +6,4 @@ vaarat_vastaukset:
   - Vain Joukko Koodeja (VJK)
 explanation: |
   Yksityisten kryptografisten avainten kokoelmaa, jotka on johdettu yhdestä pääavaimesta Bitcoin-lompakossa, kutsutaan joskus hieman karkeammalla nimellä "Vain Joukko Avaimia" (VJA).
-arvioitu: false
+reviewed: false

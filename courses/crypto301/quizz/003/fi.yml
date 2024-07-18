@@ -8,4 +8,4 @@ explanation: |
   SHA0, SHA1 ja MD5 katsotaan vanhentuneiksi hajautusfunktioiksi, koska ne
   ovat menettäneet vastustuskykynsä törmäyksille. Tämä tarkoittaa, että on suhteellisen helppoa
   löytää kaksi erilaista syötettä, jotka tuottavat saman tuloksen, mikä on merkittävä turvallisuuspuute.
-arvioitu: false
+reviewed: false

@@ -6,4 +6,4 @@ wrong_answers:
   - Ověření prostřednictvím proof of work
 explanation: |
   Coinjoin má za účinek přerušení historie mince, což vám pomáhá čelit riziku sledování spojenému s KYC.
-recenzováno: false
+reviewed: false

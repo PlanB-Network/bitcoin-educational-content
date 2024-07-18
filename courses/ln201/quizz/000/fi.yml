@@ -8,4 +8,4 @@ explanation: |
   Kun Lightning-maksukanava avataan, sille määritellään kiinteä kapasiteetti,
   jonka käyttäjät ovat etukäteen määritelleet. Tämä kapasiteetti edustaa suurinta määrää
   Bitcoinia, joka voidaan siirtää kanavassa milloin tahansa.
-arvioitu: false
+reviewed: false

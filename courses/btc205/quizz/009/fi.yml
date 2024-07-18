@@ -6,4 +6,4 @@ wrong_answers:
   - Kaikissa on DAO-järjestelmä.
 explanation: |
   Luku käsittelee erilaisia P2P-ratkaisuja Bitcoinin ostamiseen, mutta kaikilla niillä ei ole samoja ominaisuuksia. Yhteinen piirre niiden kesken on, että ne mahdollistavat Bitcoinin ostamisen ja myymisen.
-arvioitu: false
+reviewed: false

@@ -6,4 +6,4 @@ wrong_answers:
   - Nó được sử dụng để mã hóa ví.
 explanation: |
   Mã chuỗi chính rất cần thiết để khôi phục danh mục từ hạt giống. Tất cả các khóa được suy ra từ cùng một hạt giống sẽ có cùng mã chuỗi chính.
-đã xem xét: false
+reviewed: false

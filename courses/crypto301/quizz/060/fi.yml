@@ -8,4 +8,4 @@ explanation: |
   HD-lompakot mahdollistavat deterministisen ja hierarkkisen lapsiavainparien luonnin
   yhdestä tiedonpalasta. Tämä tekee avainten luonnin ja hallinnan helpommaksi samalla
   ylläpitäen korkeaa turvallisuustasoa.
-arvioitu: false
+reviewed: false

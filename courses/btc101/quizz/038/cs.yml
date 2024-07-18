@@ -6,4 +6,4 @@ wrong_answers:
   - Neexistuje žádný limit
 explanation: |
   Celková nabídka Bitcoinu je omezena na 21 milionů jednotek. To je klíčová vlastnost Bitcoinu, která ho odlišuje od fiduciárních měn, jež mohou být centrálními bankami tištěny v neomezeném množství.
-recenzováno: true
+reviewed: true

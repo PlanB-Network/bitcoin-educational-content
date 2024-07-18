@@ -6,4 +6,4 @@ vaarat_vastaukset:
   - Se on lompakon digitaalinen allekirjoitus.
 explanation: |
   Mnemonic-lause luodaan varmistamaan Bitcoin-lompakon varmuuskopioinnin.
-arvioitu: false
+reviewed: false

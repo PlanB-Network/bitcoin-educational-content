@@ -6,4 +6,4 @@ wrong_answers:
   - Nó mã hóa cụm từ khôi phục để tăng cường bảo mật.
 explanation: |
   Checksum được thu được bằng cách đưa entropy qua hàm SHA256 và lấy 8 bit đầu tiên của hash. Nếu không có checksum này, một lỗi trong cụm từ có thể dẫn đến việc tạo ra một ví khác và do đó là mất mát tiền bạc.
-đã xem xét: false
+reviewed: false

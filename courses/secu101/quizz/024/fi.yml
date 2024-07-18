@@ -8,4 +8,4 @@ explanation: |
   Eri käyttöjärjestelmille on olemassa erilaisia ratkaisuja tiedon salaamiseen.
   BitLocker on Windowsille, LUKS on Linuxille, ja Macilla on sisäänrakennettu vaihtoehto tiedon
   salaamiseen.
-arvioitu: false
+reviewed: false

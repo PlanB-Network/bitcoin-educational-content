@@ -6,4 +6,4 @@ wrong_answers:
   - Để đảm bảo Bitcoin của bạn luôn sẵn có.
 explanation: >-
   Văn bản đề cập rằng việc tổng hợp các UTXO trong ví của bạn từ thời gian này sang thời gian khác là cần thiết để quản lý hiệu quả bitcoin của bạn và tránh những phí không cần thiết trong quá trình giao dịch.
-đã xem xét: false
+reviewed: false

@@ -8,4 +8,4 @@ explanation: |
   Bitcoinin kontekstissa hot wallet on digitaalinen lompakko, jota käytetään
   Bitcoinin säilyttämiseen, lähettämiseen ja vastaanottamiseen. Se on tyypillisesti yhdistetty internetiin
   ja on siksi vähemmän turvallinen kuin cold wallet.
-arvioitu: false
+reviewed: false

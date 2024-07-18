@@ -7,4 +7,4 @@ wrong_answers:
 explanation: |
   Klassinen esimerkki tämän tyyppisestä huijauksesta on tarjous, joka väittää kaksinkertaistavansa
   tai moninkertaistavansa lähettämäsi bitcoinit. On tärkeää ymmärtää, että oikotietä rikastumiseen ei ole olemassa.
-arvioitu: false
+reviewed: false

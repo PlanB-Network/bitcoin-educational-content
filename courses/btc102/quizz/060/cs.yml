@@ -7,4 +7,4 @@ wrong_answers:
 explanation: |
   Hot wallet je peněženka pro ukládání malých částek Bitcoinu online.
   Je považována za méně bezpečnou než cold wallet, protože je více náchylná k hackování.
-recenzováno: false
+reviewed: false

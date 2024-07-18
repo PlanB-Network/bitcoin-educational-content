@@ -7,4 +7,4 @@ vaarat_vastaukset:
 explanation: |
   SHA256:n tiivistysfunktiossa JA-operaattoria käytetään palauttamaan
   1 vain, jos molemmat operandit ovat yhtä suuret kuin 1. Tämä tehdään käyttäen totuustaulua.
-arvioitu: false
+reviewed: false

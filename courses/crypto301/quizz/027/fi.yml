@@ -6,4 +6,4 @@ wrong_answers:
   - Bitcoinien transaktiohistoria
 explanation: |
   Todellisuudessa Bitcoin-lompakko säilyttää yksityiset avaimet, jotka ovat tarpeen bitcoinien omistajuuden todistamiseksi. Itse bitcoinit kirjataan lohkoketjuun, hajautettuun tietokantaan, joka arkistoi kaikki transaktiot.
-arvioitu: false
+reviewed: false

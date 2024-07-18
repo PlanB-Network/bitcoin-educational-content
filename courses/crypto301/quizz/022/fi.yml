@@ -6,4 +6,4 @@ wrong_answers:
   - RSA ja Diffie-Hellman avainvaihto
 explanation: |
   HMAC ja PBKDF2-johdannaisalgoritmit ovat keskeisiä komponentteja Bitcoin-protokollan turvamekanismissa. Ne estävät monenlaisia mahdollisia hyökkäyksiä ja takaavat Bitcoin-lompakoiden eheyden.
-arvioitu: false
+reviewed: false

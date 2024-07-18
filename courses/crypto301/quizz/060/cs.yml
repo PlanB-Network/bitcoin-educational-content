@@ -8,4 +8,4 @@ explanation: |
   HD peněženky umožňují deterministické a hierarchické generování
   dceřiných klíčových párů z jednoho kusu informace. To zjednodušuje generování a
   správu klíčů, přičemž udržuje vysokou úroveň bezpečnosti.
-recenzováno: false
+reviewed: false

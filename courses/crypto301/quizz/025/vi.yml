@@ -8,4 +8,4 @@ explanation: |
   Bậc của đường cong (n) cho đường cong secp256k1 là số điểm trên
   đường cong, bao gồm cả điểm tại vô cực. Đối với secp256k1, n bằng 2^256 -
   432420386565659656852420866394968145599 trong hệ thập phân.
-đã xem xét: false
+reviewed: false

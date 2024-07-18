@@ -6,4 +6,4 @@ wrong_answers:
   - Hodnota použitá ve funkci AES
 explanation: |
   V kontextu HD peněženky index v cestě derivace označuje hodnotu použitou ve funkci HMAC. To se používá k rozlišení mezi různými páry dětských klíčů ve stejné hloubce.
-recenzováno: false
+reviewed: false

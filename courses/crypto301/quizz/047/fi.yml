@@ -6,4 +6,4 @@ wrong_answers:
   - Sitä käytetään siirtotietojen lähettämiseen.
 explanation: |
   Bitcoin-siirtojen yhteydessä noncea käytetään digitaalisen allekirjoituksen luomisessa. Tarkemmin sanottuna sitä käytetään tietyn luvun V ja kahdesta osasta, S1 ja S2, koostuvan digitaalisen allekirjoituksen laskemisessa.
-arvioitu: false
+reviewed: false

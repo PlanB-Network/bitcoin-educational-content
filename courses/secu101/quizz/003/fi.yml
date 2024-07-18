@@ -8,4 +8,4 @@ explanation: |
   Avoimen lähdekoodin ohjelmisto on ohjelmisto, jonka koodi on tunnettu ja kaikkien saavutettavissa.
   Tämä mahdollistaa muun muassa varmistuksen siitä, ettei ole piilotettua pääsyä varastamaan henkilökohtaisia tietojasi. Se ei kuitenkaan ole aina ilmainen, turvallisempi,
   tai käyttäjäystävällisempi kuin suljettu lähdekoodi -ohjelmisto.
-arvioitu: false
+reviewed: false

@@ -6,4 +6,4 @@ wrong_answers:
   - Oikeustoimien uhkan kautta.
 explanation: >-
   Bitcoin-verkko varmistaa, että sen sisäisessä protokollassa pahantahtoisesti toimiminen on liian kallista protokollasääntöjen ja taloudellisten kannustimien kautta. Tämä poistaa tarpeen luottamukselle missään bitcoinien omistuksensiirron vaiheessa.
-arvioitu: false
+reviewed: false

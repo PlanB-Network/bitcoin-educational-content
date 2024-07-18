@@ -6,4 +6,4 @@ wrong_answers:
   - Heidän on ostettava kanavia
 explanation: |
   Kauppiaiden osalta Lightning Networkissa likviditeetin hallinta tarkoittaa saapuvan likviditeetin tarvetta muilta solmuilta ja toimijoilta. Tämä tarkoittaa, että heillä täytyy olla yhteyksiä muihin ihmisiin.
-arvioitu: false
+reviewed: false

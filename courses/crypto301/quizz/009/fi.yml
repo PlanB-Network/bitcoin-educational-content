@@ -6,4 +6,4 @@ wrong_answers:
   - Pienentää syötteen kokoa 512 bittiin
 explanation: |
   SHA256:n esikäsittelyvaiheessa syötteeseen lisätään täytemerkkejä, jotta sen koko saavuttaa täydellisen monikerran 512 biteistä. Tämä tehdään varmistamaan, että kaikki ainesosat sekoittuvat täydellisesti kryptografisessa reseptissä.
-arvioitu: false
+reviewed: false

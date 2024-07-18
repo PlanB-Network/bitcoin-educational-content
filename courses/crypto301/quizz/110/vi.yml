@@ -7,4 +7,4 @@ wrong_answers:
 explanation: |
   Trong cấu trúc Ví HD, Depth 1 được sử dụng để tạo ra các khóa con cho
   một mục đích cụ thể, được xác định bởi chỉ mục.
-đã xem xét: false
+reviewed: false

@@ -6,4 +6,4 @@ wrong_answers:
   - Mechanismus ověření identity.
 explanation: |
   Tyto platformy typicky používají ochranný mechanismus, kde jsou bitcoiny drženy do doby, než prodávající potvrdí platbu ve fiat měně. Tento mechanismus držení třetí stranou představuje to, co je známo jako escrow.
-recenzováno: false
+reviewed: false

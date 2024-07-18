@@ -8,4 +8,4 @@ explanation: |
   Käyrän järjestysluku (n) secp256k1-käyrälle on käyrän pisteiden määrä,
   mukaan lukien äärettömyydessä oleva piste. secp256k1-käyrälle n on yhtä suuri kuin 2^256 -
   432420386565659656852420866394968145599 desimaalilukuna.
-arvioitu: false
+reviewed: false

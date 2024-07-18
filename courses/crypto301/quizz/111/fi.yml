@@ -6,4 +6,4 @@ vaarat_vastaukset:
   - Se vastaa ulkoisia ja sisäisiä ketjuja
 explanation: |
   HD Wallet -rakenteessa Depth 2 mahdollistaa eri kryptovaluuttojen tai verkkojen tilien erottamisen toisistaan. Tämä mahdollistaa lompakon järjestämisen eri rahoituslähteiden mukaan.
-arvioitu: false
+reviewed: false

@@ -6,4 +6,4 @@ wrong_answers:
   - Ne vastaavat ulkoisia ja sisäisiä ketjuja
 explanation: |
   HD-lompakon rakenteessa kovennettuja indeksejä käytetään tietyissä johdannaisissa apostrofin kanssa.
-arvioitu: false
+reviewed: false

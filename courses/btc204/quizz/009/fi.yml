@@ -6,4 +6,4 @@ wrong_answers:
   - Kaivososinkot ja verkon verot.
 explanation: |
   Kun kaivostyöläinen löytää validin lohkon, hän on oikeutettu palkkioon, joka koostuu toisaalta lohkotuesta ja toisaalta transaktiomaksuista, jotka hän on sisällyttänyt lohkoonsa.
-arvioitu: false
+reviewed: false

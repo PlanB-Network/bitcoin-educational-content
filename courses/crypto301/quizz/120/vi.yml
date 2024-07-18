@@ -7,4 +7,4 @@ wrong_answers:
 explanation: |
   Kích thước ban đầu của thông tin khóa công khai trong Bitcoin là 512 bit.
   Việc sử dụng địa chỉ nhận giúp giảm kích thước này.
-đã xem xét: false
+reviewed: false

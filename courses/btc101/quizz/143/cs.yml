@@ -8,4 +8,4 @@ wrong_answers:
 explanation: >-
   Pokud se uživatel rozhodne následovat jiná pravidla, která zneplatní současná
   konsenzuální pravidla, pak tento uzel již nebude součástí Bitcoinové sítě.
-recenzováno: false
+reviewed: false

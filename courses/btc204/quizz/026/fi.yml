@@ -6,4 +6,4 @@ wrong_answers:
   - Tietovuodon riski
 explanation: |
   KYC sisältää tietovuodon riskin, koska tietosi tallennetaan, valtion valvonnan altistumisen riskin, koska tietosi voidaan siirtää tai takavarikoida, ja jäljityksen riskin, koska KYC voi toimia sisäänkäyntipisteenä. KYC ei kuitenkaan vähennä ostettujen bitcoinien vaihdettavuutta.
-arvioitu: false
+reviewed: false

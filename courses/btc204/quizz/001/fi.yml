@@ -6,4 +6,4 @@ wrong_answers:
   - Salausalgoritmi Bitcoinille.
 explanation: |
   UTXO on käyttämätön siirtotapahtuman tuotos, joten se on käytännössä "pala bitcoinia".
-arvioitu: false
+reviewed: false

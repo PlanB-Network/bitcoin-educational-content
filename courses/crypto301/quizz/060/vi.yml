@@ -6,4 +6,4 @@ wrong_answers:
   - Chúng cho phép tạo ra nhiều ví từ một cặp khóa duy nhất.
 explanation: |
   Ví HD cho phép việc tạo ra các cặp khóa con một cách xác định và phân cấp từ một mẩu thông tin duy nhất. Điều này làm cho việc tạo và quản lý các khóa trở nên dễ dàng hơn trong khi vẫn duy trì mức độ an ninh cao.
-đã xem xét: false
+reviewed: false

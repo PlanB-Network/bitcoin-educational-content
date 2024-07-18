@@ -9,4 +9,4 @@ explanation: |
   solmut ottavat huomioon useita tekijöitä. Näihin kuuluvat kunkin reitin
   liittyvät maksut, HTLC:ien vanhentumisaika, välisolmujen määrä ja satunnaisuustekijä
   välttääkseen aina samojen reittien käyttämistä.
-arvioitu: false
+reviewed: false

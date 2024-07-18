@@ -8,4 +8,4 @@ explanation: |
   Výsledkem HMAC SHA-512 je 512bitové číslo, rozdělené na dvě části;
   levých 256 bitů představuje hlavní soukromý klíč, zatímco pravých 256
   bitů představuje hlavní řetězový kód.
-recenzováno: false
+reviewed: false

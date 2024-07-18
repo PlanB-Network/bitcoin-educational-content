@@ -8,4 +8,4 @@ explanation: |
   Řádová křivka (n) pro křivku secp256k1 je počet bodů na
   křivce, včetně bodu v nekonečnu. Pro secp256k1 je n rovno 2^256 -
   432420386565659656852420866394968145599 v desítkové soustavě.
-recenzováno: false
+reviewed: false

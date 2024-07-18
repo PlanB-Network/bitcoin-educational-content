@@ -7,4 +7,4 @@ vaarat_vastaukset:
 explanation: |
   Bitcoin-lohkoketju on tietokanta, joka tallentaa kaikki Bitcoin-siirrot.
   Sen ylläpitävät louhijat, jotka lisäävät uusia siirtoja lohkoketjuun.
-arvioitu: false
+reviewed: false

@@ -6,4 +6,4 @@ wrong_answers:
   - Nén dữ liệu để lưu trữ hiệu quả.
 explanation: |
   Mục tiêu cuối cùng của một hàm băm mật mã là biến đổi thông tin kích thước tùy ý thành một dấu vân tay cố định. Dấu vân tay này là duy nhất đối với dữ liệu đầu vào, và ngay cả một thay đổi nhỏ trong dữ liệu đầu vào cũng sẽ dẫn đến một dấu vân tay hoàn toàn khác biệt.
-đã xem xét: false
+reviewed: false

@@ -6,4 +6,4 @@ wrong_answers:
   - Společná transakce
 explanation: |
   Interpretace tohoto vzoru je, že se jedná o dávkové výdaje. Tato struktura umožňuje subjektům, jako jsou platformy pro směnu, ušetřit na poplatcích tím, že seskupí své výdaje do jediné transakce.
-recenzováno: false
+reviewed: false

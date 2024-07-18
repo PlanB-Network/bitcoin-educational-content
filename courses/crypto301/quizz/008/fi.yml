@@ -6,4 +6,4 @@ vaarat_vastaukset:
   - Se hidastaa tiivisteen laskentaa.
 explanation: |
   Salaussummafunktiot on suunniteltu siten, että jopa pieni poikkeama syötteessä muuttaa merkittävästi lopullista tiivistettä. Tämä ominaisuus on ratkaisevan tärkeä tiivistefunktion turvallisuuden kannalta, sillä se tekee erittäin vaikeaksi löytää toisen syötteen, joka tuottaisi saman tiivisteen.
-arvioitu: false
+reviewed: false

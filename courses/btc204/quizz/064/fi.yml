@@ -10,4 +10,4 @@ wrong_answers:
 explanation: |
   Tunnisteet tallennetaan paikallisesti lompakko-ohjelmiston toimesta, eikä niitä koskaan lähetetä Bitcoin-verkon yli. Tunnistaminen on siis henkilökohtainen hallintatyökalu.
 
-arvioitu: false
+reviewed: false

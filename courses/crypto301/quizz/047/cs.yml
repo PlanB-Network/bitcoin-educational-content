@@ -8,4 +8,4 @@ explanation: |
   V kontextu Bitcoinových transakcí se nonce používá při vytváření
   digitálního podpisu. Konkrétně se používá při výpočtu specifického
   čísla V a digitálního podpisu složeného ze dvou částí, S1 a S2.
-recenzováno: false
+reviewed: false

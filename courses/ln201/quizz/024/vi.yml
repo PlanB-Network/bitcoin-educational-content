@@ -8,4 +8,4 @@ explanation: |
   Sau một chuyển khoản qua Lightning Network, giao dịch rút tiền được cập nhật
   để phản ánh số dư mới của kênh. Giao dịch này không được thực hiện trừ khi
   kênh được đóng lại.
-đã xem xét: false
+reviewed: false

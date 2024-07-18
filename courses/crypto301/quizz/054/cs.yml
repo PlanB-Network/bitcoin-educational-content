@@ -7,4 +7,4 @@ wrong_answers:
 explanation: |
   BIP43 a BIP44 standardizovaly strukturu a hierarchii HD peněženek,
   čímž je učinily přístupnějšími a snadněji použitelnými pro širokou veřejnost.
-recenzováno: false
+reviewed: false

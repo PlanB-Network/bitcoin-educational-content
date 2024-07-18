@@ -8,4 +8,4 @@ explanation: |
   Osoitteen johdannaisessa tiivistetään ensin pakattu julkinen avain käyttäen
   SHA256 ja RIPMD160 -hash-funktioita, ja sen jälkeen lasketaan tarkistussumma. Kahden SHA256 hashauksen menetelmä on
   käytössä tarkistussumman laskemiseen vanhan standardin tapauksessa.
-arvioitu: false
+reviewed: false

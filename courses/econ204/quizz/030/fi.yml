@@ -7,4 +7,4 @@ wrong_answers:
 explanation: |
   Tietyissä taloudellisissa olosuhteissa, kuten hyperinflaatiossa, setelin sisäinen arvo voi muuttua pienemmäksi kuin sen painamiseen käytetyn paperin arvo.
   Tämä jyrkkä arvon aleneminen muuttaa setelit, jotka normaalisti ovat arvon ja ostovoiman symboleita, pelkiksi arvottomiksi paperinpalasiksi.
-arvioitu: false
+reviewed: false

@@ -8,4 +8,4 @@ explanation: |
   Po převodu přes Lightning Network je transakce výběru aktualizována,
   aby odrážela nový zůstatek kanálu. Tato transakce není provedena, pokud
   není kanál uzavřen.
-recenzováno: false
+reviewed: false

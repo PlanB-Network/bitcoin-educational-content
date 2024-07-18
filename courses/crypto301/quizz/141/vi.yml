@@ -6,4 +6,4 @@ wrong_answers:
   - Nó được sử dụng để tính toán mã kiểm tra.
 explanation: |
   Việc tạo ra một khóa con phụ thuộc vào nhiều yếu tố, bao gồm khóa cha và mã chuỗi tương ứng. Một khóa mở rộng được tạo ra bằng cách nối khóa cha với mã chuỗi của nó.
-đã xem xét: false
+reviewed: false

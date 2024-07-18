@@ -6,4 +6,4 @@ vaarat_vastaukset:
   - Validin hashin löytämisestä saatavaa palkkiota kasvatetaan
 explanation: >-
   Bitcoin-protokolla varmistaa, että kahden lohkon välinen keskimääräinen aika pysyy vakiona säätämällä löydettävän validin hashin vaikeustasoa joka 2016. lohkon jälkeen. Tämä tapahtuu riippumatta kaivostyöläisten määrästä ja heidän laskentatehostaan.
-arvioitu: false
+reviewed: false

@@ -8,4 +8,4 @@ explanation: |
   V rámci kooperativního uzavření se obě strany dohodnou na konečném stavu
   kanálu a vytvoří uzavírací transakci. Tato transakce se liší od závazkových
   transakcí tím, že nemá časový zámek (Timelock) ani klíč pro zrušení.
-recenzováno: false
+reviewed: false

@@ -6,4 +6,4 @@ vaarat_vastaukset:
   - Sitä käytetään siirtotietojen salaamiseen.
 explanation: |
   Bitcoin-siirrossa lähettäjä käyttää omaa yksityistä avaintaan siirron allekirjoittamiseen, mikä käytännössä vapauttaa bitcoinit niissä säilytysosoitteessa. Tämä on kriittinen osa siirtoprosessia, sillä se varmistaa, että vain bitcoinien omistaja voi käyttää niitä.
-arvioitu: false
+reviewed: false

@@ -6,4 +6,4 @@ wrong_answers:
   - Giao dịch bị trả thiếu 2 lần.
 explanation: |
   Trong một trường hợp đóng cưỡng chế, giao thức mặc định áp dụng mức phí cao hơn 5 lần so với mức phí hiện tại khi giao dịch được tạo ra. Nếu phí mạng là 1 SAT vào thời điểm đóng, giao dịch bị trả quá 50 lần.
-đã xem xét: false
+reviewed: false

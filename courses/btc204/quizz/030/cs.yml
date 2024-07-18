@@ -6,4 +6,4 @@ wrong_answers:
   - Identifikovat klastr patřící stejné entitě.
 explanation: |
   Interní heuristiky nám umožňují identifikovat burzu s cílem sledovat uživatele v následujících transakcích.
-recenzováno: false
+reviewed: false

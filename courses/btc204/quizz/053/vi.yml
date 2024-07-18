@@ -10,4 +10,4 @@ wrong_answers:
 explanation: |
   Nhãn được sử dụng để tạo ra nhiều địa chỉ tĩnh từ địa chỉ tĩnh chính, điều này giúp tổ chức ví dễ dàng hơn. Tuy nhiên, một quan sát viên bên ngoài có thể dễ dàng thiết lập một liên kết giữa các địa chỉ tĩnh có nhãn này, vì khóa quét công khai là giống nhau cho tất cả.
 
-đã xem xét: false
+reviewed: false

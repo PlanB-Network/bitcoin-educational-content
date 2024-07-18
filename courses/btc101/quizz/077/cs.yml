@@ -8,4 +8,4 @@ explanation: |
   Sdílení veřejného klíče představuje rizika pro soukromí, ale ne pro bezpečnost.
   To je proto, že veřejný klíč se používá k generování Bitcoin adres a tedy k přijímání
   peněz, ale neznamená vlastnictví Bitcoinů.
-recenzováno: true
+reviewed: true

@@ -8,4 +8,4 @@ nesprávné_odpovědi:
 explanation: >-
   Pokud uvažujeme 1 blok o velikosti 1MB každých 10 minut, provoz Bitcoinového uzlu vyžaduje
   přibližně 5GB šířky pásma za měsíc.
-recenzováno: false
+reviewed: false

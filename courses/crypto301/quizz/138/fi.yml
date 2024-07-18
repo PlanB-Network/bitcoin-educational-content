@@ -6,4 +6,4 @@ vaarat_vastaukset:
   - RIPMD160-formaatti
 explanation: |
   Tarkistussumman laskemisen jälkeen base 58 -formaatin esitystapaa käytetään perinteisessä standardissa, kun taas segwit-standardissa käytetään bech32-formaattia HD-lompakon osoitteen saamiseksi.
-arvioitu: false
+reviewed: false

@@ -7,4 +7,4 @@ wrong_answers:
 explanation: |
   Payload của một khóa mở rộng bao gồm mã chuỗi (32 byte)
   và khóa cha (33 byte), tổng cộng 65 byte.
-đã xem xét: false
+reviewed: false

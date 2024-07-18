@@ -6,4 +6,4 @@ wrong_answers:
   - Ověřovací kód pro zabezpečení transakce.
 explanation: |
   Každý vstup transakce je odkaz na UTXO, což znamená výstup z předchozí transakce.
-recenzováno: false
+reviewed: false

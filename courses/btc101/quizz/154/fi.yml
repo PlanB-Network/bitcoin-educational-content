@@ -8,4 +8,4 @@ explanation: >-
   ASICit (Application-Specific Integrated Circuits) ovat erikoistunutta laitteistoa,
   joka on suunniteltu nimenomaan Bitcoin-louhintaan. Ne on optimoitu suorittamaan SHA256-
   hajautusfunktio, joka on matemaattinen ongelma, jonka louhijoiden on ratkaistava Proof of Work:ssa.
-arvioitu: false
+reviewed: false

@@ -8,4 +8,4 @@ explanation: |
   Lightning Networkissa solmut veloittavat maksun suostuessaan toimimaan
   transaktion reitityksessä. Tämä maksu vaihtelee riippuen siitä, missä likviditeetti
   sijaitsee.
-arvioitu: false
+reviewed: false

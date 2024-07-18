@@ -7,4 +7,4 @@ wrong_answers:
 explanation: |
   Chương trình BCH (Bose-Chaudhuri-Hocquenghem) được sử dụng để tính toán
   giá trị kiểm tra trong trường hợp tiêu chuẩn segwit.
-đã xem xét: false
+reviewed: false

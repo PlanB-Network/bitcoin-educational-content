@@ -11,4 +11,4 @@ explanation: |
   laskutoimituksia olematta erityisesti optimoitu mihinkään tiettyyn laskutoimitukseen
   tai toiseen, kun taas ASIC pystyy suorittamaan vain yhdenlaisen laskutoimituksen, mutta
   erittäin tehokkaasti.
-arvioitu: false
+reviewed: false

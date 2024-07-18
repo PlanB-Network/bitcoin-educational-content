@@ -6,4 +6,4 @@ wrong_answers:
   - Sen avulla työntekijät voivat käyttää julkista Wi-Fiä turvallisesti.
 explanation: |
   Ammattikontekstissa VPN:iä käytetään ensisijaisesti turvallisen etäyhteyden tarjoamiseen yrityksen sisäiseen verkkoon. Tämä saavutetaan salaamalla työntekijän ja yrityksen verkon välillä vaihdettavat tiedot, mikä tekee kolmansien osapuolien väliintulon vaikeaksi.
-arvioitu: false
+reviewed: false

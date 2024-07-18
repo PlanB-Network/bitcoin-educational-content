@@ -7,4 +7,4 @@ nesprávné_odpovědi:
 explanation: |
   Počáteční velikost informací veřejného klíče v Bitcoinu je 512 bitů.
   Použití přijímací adresy pomáhá tuto velikost snížit.
-recenzováno: false
+reviewed: false

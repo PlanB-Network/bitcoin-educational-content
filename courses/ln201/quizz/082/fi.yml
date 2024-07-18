@@ -9,4 +9,4 @@ explanation: |
   ammattimaisen
   palvelun LN/BTC:n tasapainottamiseksi. Tämä tehdään lähettämällä likviditeettiä Loopille toisen
   solmun kautta, joka sitten lähettää on-chain saldon takaisin alkuperäiseen solmuun.
-arvioitu: false
+reviewed: false

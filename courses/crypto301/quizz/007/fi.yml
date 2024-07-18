@@ -8,4 +8,4 @@ explanation: |
   SHA-256 on keskeinen elementti Bitcoin-protokollassa. Sitä käytetään luomaan
   uniikki ja peruuttamaton sormenjälki transaktiodatasta, mikä on ratkaisevan tärkeää
   Bitcoin-verkon turvallisuuden ja eheyden kannalta.
-arvioitu: false
+reviewed: false

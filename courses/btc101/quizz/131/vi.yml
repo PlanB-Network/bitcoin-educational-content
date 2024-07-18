@@ -6,4 +6,4 @@ wrong_answers:
   - Nó quản lý mạng lưới Bitcoin.
 explanation: >-
   Một nút Bitcoin trong mạng lưới Bitcoin xử lý việc xác thực các khối mới và các giao dịch bao gồm. Chính thông qua mạng lưới các nút Bitcoin này mà mạng lưới thực sự được phân cấp.
-đã xem xét: false
+reviewed: false

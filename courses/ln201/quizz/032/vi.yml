@@ -6,4 +6,4 @@ wrong_answers:
   - Giao dịch cam kết trước đó được cập nhật với bí mật mới và chìa khóa thu hồi.
 explanation: |
   Khi một giao dịch cam kết mới được tạo ra, một bí mật mới và một chìa khóa thu hồi mới được quyết định. Giao dịch cam kết trước đó phải được hủy bỏ bằng cách cung cấp bí mật thu hồi để ngăn chặn bất kỳ bên nào gian lận bằng cách công bố một trạng thái cũ.
-đã xem xét: false
+reviewed: false

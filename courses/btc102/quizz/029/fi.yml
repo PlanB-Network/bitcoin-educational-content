@@ -6,4 +6,4 @@ vaarat_vastaukset:
   - Bitcoin-siirtojen määrä on rajattu
 explanation: |
   Bitcoinin niukkuus viittaa siihen, että bitcoineja tulee olemaan vain 21 miljoonaa. Tämä ominaisuus, joka on samankaltainen kuin kullalla, estää Bitcoinin arvon laimentumisen liiallisen rahan painamisen kautta.
-arvioitu: false
+reviewed: false

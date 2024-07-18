@@ -6,4 +6,4 @@ wrong_answers:
   - Bitcoinien muuntaminen muihin kryptovaluuttoihin.
 explanation: |
   Salasananhallintaohjelma on ohjelmistosovellus, jota käytetään henkilön salasanojen säilyttämiseen ja hallinnoimiseen eri online-tileillä. Bitcoinin kontekstissa sitä käytetään turvalliseen salasanojen säilyttämiseen ja hallintaan Bitcoin-siirtoja varten.
-arvioitu: false
+reviewed: false

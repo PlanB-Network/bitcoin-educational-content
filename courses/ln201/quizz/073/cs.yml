@@ -6,4 +6,4 @@ wrong_answers:
   - Znamená to výšku bloku
 explanation: |
   Na faktuře Lightning Network '1m' znamená množství v mili Bitcoinu (0.0001 BTC). 'M' značí milli, což je metrická předpona označující faktor 10^-3. Tedy '1m' se rovná 0.0001 BTC nebo 100 000 satoshi.
-recenzováno: false
+reviewed: false

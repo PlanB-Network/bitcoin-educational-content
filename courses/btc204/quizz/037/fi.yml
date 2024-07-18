@@ -6,4 +6,4 @@ wrong_answers:
   - Kun transaktio sisältää useita tulosteita, ne ovat todennäköisesti kaikki menossa eri toimijoille.
 explanation: |
   CIOH on heuristiikka, joka ehdottaa, että kun transaktio sisältää useita syötteitä, nämä syötteet todennäköisesti kaikki ovat peräisin yhdeltä toimijalta. Näin ollen niiden omistajuus on yhteinen.
-arvioitu: false
+reviewed: false

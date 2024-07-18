@@ -6,4 +6,4 @@ vaarat_vastaukset:
   - Ensimmäisten 64 alkuluvun kuutiojuurten desimaaliosien ensimmäiset 32 bittiä
 explanation: |
   SHA-256-funktion käsittelyssä alustusvektorit, A:sta H:een, ovat ensimmäisten 8 alkuluvun neliöjuurten desimaaliosien ensimmäiset 32 bittiä. Nämä toimivat perusaineina kryptografisessa reseptissä.
-arvioitu: false
+reviewed: false

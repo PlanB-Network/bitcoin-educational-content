@@ -10,4 +10,4 @@ wrong_answers:
 explanation: |
   Notifikační transakce umožňuje přenos platebního kódu od odesílatele k příjemci, aby ten jej mohl znát a později najít pouze ze svého seedu v případě obnovy peněženky. Jak název napovídá, hraje také roli notifikace.
 
-recenzováno: false
+reviewed: false

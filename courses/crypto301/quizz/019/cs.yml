@@ -7,4 +7,4 @@ wrong_answers:
 explanation: |
   PBKDF2 se používá k převodu mnemonické fráze na seed. Tento algoritmus
   provádí 2048 kol pomocí HMAC SHA512.
-recenzováno: false
+reviewed: false

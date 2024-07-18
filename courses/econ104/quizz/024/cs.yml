@@ -6,4 +6,4 @@ wrong_answers:
   - Termín používaný k popisu události, kdy cena bitcoinu prudce vzroste
 explanation: |
   Halving je funkce v kódu Bitcoinu, která přibližně každé čtyři roky snižuje odměnu za těžbu na polovinu. Tato událost ovlivňuje příjmy těžařů a vyvíjí tlak směrem nahoru na cenu bitcoinu.
-recenzováno: true
+reviewed: true

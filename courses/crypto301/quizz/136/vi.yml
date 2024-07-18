@@ -6,4 +6,4 @@ wrong_answers:
   - Hạt giống của ví
 explanation: |
   Khóa riêng tư chính và mã chuỗi chính được tạo ra từ hạt giống của ví và là các phần tử cao nhất trong hệ thống phân cấp ví HD. Chúng được sử dụng để tạo ra các khóa con.
-đã xem xét: false
+reviewed: false

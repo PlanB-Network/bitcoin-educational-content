@@ -6,4 +6,4 @@ wrong_answers:
   - Henkilö, jolla on eniten SATia kanavalla.
 explanation: |
   Yhteistyössä tapahtuvassa sulkemisessa kaksi osapuolta sopivat kanavan lopullisesta tilasta. Henkilö, joka avasi kanavan, maksaa päättämiskulut.
-arvioitu: false
+reviewed: false

@@ -8,4 +8,4 @@ explanation: |
   Lightning Network on kerros-2 ratkaisu Bitcoinille, joka mahdollistaa
   nopeat, edulliset transaktiot. Se toimii Bitcoinin lohkoketjun päällä ja mahdollistaa
   off-chain-transaktiot, jotka ovat nopeampia ja edullisempia kuin on-chain-transaktiot.
-arvioitu: false
+reviewed: false

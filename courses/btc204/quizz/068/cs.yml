@@ -10,4 +10,4 @@ answer: Konsolidací pouze UTXO ze stejného zdroje.
 explanation: |
   Pokud potřebujete konsolidovat své bitcoiny, dejte přednost konsolidaci UTXO ze stejného zdroje jako první.
 
-recenzováno: false
+reviewed: false

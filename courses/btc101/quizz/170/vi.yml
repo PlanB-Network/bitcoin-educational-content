@@ -7,4 +7,4 @@ wrong_answers:
 explanation: >-
   Các máy chuyên dụng SHA256, hay còn gọi là ASICS, tăng tỷ lệ băm trên mỗi joule
   trong việc đào Bitcoin. Điều này có nghĩa là số lần thử mỗi giây và mỗi lượng năng lượng tiêu thụ.
-đã xem xét: false
+reviewed: false

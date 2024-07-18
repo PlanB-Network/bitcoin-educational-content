@@ -8,4 +8,4 @@ explanation: |
   Đề xuất Cải tiến Bitcoin (BIPs) là các giao thức nhằm mục đích cải thiện
   chức năng và an ninh của ví HD. Ví dụ, BIP32 đã giới thiệu
   khái niệm về các khóa được tạo ra một cách có hệ thống và phân cấp.
-đã xem xét: false
+reviewed: false

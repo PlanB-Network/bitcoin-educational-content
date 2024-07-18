@@ -7,4 +7,4 @@ wrong_answers:
 explanation: |
   Bob generuje tajné S a vypočítá hash r. Toto tajemství se používá
   k odemčení HTLCs nastavených Alicí a Susie.
-recenzováno: false
+reviewed: false

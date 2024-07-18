@@ -6,4 +6,4 @@ wrong_answers:
   - Nó xác minh tính xác thực của thông tin ban đầu.
 explanation: |
   Hàm băm SHA-256 được sử dụng để giảm một khối thông tin ban đầu rất lớn xuống còn 256 bit. Quá trình này giúp tạo ra một số ngẫu nhiên tốt, điều này rất quan trọng cho việc bảo mật khóa riêng và giao dịch Bitcoin.
-đã xem xét: false
+reviewed: false

@@ -6,4 +6,4 @@ wrong_answers:
   - Kaikkien kyseiseen lohkoon sisältyvien transaktioiden transaktiomaksuilla
 explanation: >-
   Bitcoin-protokolla palkitsee louhijan, joka löytää seuraavaan lohkoon kelpaavan tiivisteen, palkinnolla, jonka määrä määritellään konsensus-säännöissä, sekä kaikkien kyseiseen lohkoon sisältyvien transaktioiden transaktiomaksuilla.
-arvioitu: false
+reviewed: false

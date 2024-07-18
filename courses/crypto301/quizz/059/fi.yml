@@ -7,4 +7,4 @@ wrong_answers:
 explanation: |
   SHA-256 -tiivistefunktiota käytetään pienentämään erittäin suuri alkuperäinen tietomäärä 256 bittiin. Tämä prosessi auttaa tuottamaan hyvän satunnaisluvun,
   mikä on ratkaisevan tärkeää yksityisavainten turvallisuuden ja Bitcoin-siirtojen kannalta.
-arvioitu: false
+reviewed: false

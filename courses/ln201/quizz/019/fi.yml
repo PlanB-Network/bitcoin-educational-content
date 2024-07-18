@@ -7,4 +7,4 @@ wrong_answers:
 explanation: |
   Kanavan rahoittamiseksi, jonka hän avaa Bobin kanssa, Alice luo transaktion,
   jossa on 2 UTXO:ta tuloksena; toinen 2/2 moniallekirjoitusosoitteeseen ja toinen yhteen hänen vaihto-osoitteistaan.
-arvioitu: false
+reviewed: false

@@ -7,4 +7,4 @@ wrong_answers:
 explanation: |
   Ostajille Lightning Networkissa yksinkertaisin likviditeetin hallintatehtävä
   on kanavien avaaminen. Tämä tarjoaa heille lähtevää likviditeettiä.
-arvioitu: false
+reviewed: false

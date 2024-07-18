@@ -8,4 +8,4 @@ explanation: |
   Bitcoinissa käytetyn secp256k1-käyrän järjestys on 2^256 -
   432420386565659656852420866394968145599.
   Tämä on käyrän pisteiden lukumäärä.
-arvioitu: false
+reviewed: false

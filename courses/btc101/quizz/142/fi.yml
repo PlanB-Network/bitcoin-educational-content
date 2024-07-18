@@ -6,4 +6,4 @@ vaarat_vastaukset:
   - Solmu, joka ainoastaan valvoo Bitcoin-protokollan sääntöjä
 explanation: >-
   Karsittu solmu Bitcoinin kontekstissa on solmu, joka säilyttää vain viimeiset N lohkoa muistissa.
-arvioitu: false
+reviewed: false

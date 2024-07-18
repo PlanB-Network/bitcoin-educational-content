@@ -10,4 +10,4 @@ vaarat_vastaukset:
 explanation: |
   Etikettejä käytetään luomaan useita staattisia osoitteita päästaattisesta osoitteesta, mikä helpottaa lompakon järjestämistä. Ulkopuolinen tarkkailija voisi kuitenkin helposti luoda yhteyden näiden etiketoitujen staattisten osoitteiden välille, koska skannaus julkinen avain on sama kaikille.
 
-arvioitu: false
+reviewed: false

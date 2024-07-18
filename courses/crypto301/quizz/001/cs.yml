@@ -8,4 +8,4 @@ explanation: |
   HASH160 v protokolu Bitcoin je výhodný, protože udržuje
   bezpečnost SHA-256 při snížení velikosti otisku. To z něj činí
   efektivnější bez kompromisu v bezpečnosti.
-recenzováno: false
+reviewed: false

@@ -6,4 +6,4 @@ wrong_answers:
   - Bitcoin je typ akcie nebo dluhopisu.
 explanation: |
   Jak je uvedeno v bílé knize, Bitcoin je počítačový protokol peer-to-peer, který zavádí měnový systém bez nutnosti důvěřovat třetím stranám.
-recenzováno: true
+reviewed: true

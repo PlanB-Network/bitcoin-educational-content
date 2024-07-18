@@ -6,4 +6,4 @@ wrong_answers:
   - Konsensuskerros
 explanation: |
   Bitcoin-verkon peruskerros, johon Lightning Network nojaa avatessaan ja sulkiessaan maksukanavia, on usein kutsuttu "selvityskerrokseksi".
-arvioitu: false
+reviewed: false

@@ -10,4 +10,4 @@ explanation: |
   první tři bity každého znaku vložením oddělovače 0 a poté se konkatenací
 
   přidají posledních pět bitů každého znaku. Tento proces posiluje kontrolní součet.
-recenzováno: false
+reviewed: false

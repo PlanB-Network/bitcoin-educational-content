@@ -7,4 +7,4 @@ wrong_answers:
 explanation: |
   Trong bối cảnh của Bitcoin, UTXO viết tắt của Unspent Transaction Output (Đầu Ra Giao Dịch Chưa Tiêu).
   Đây là thuật ngữ được sử dụng để mô tả đầu ra của một giao dịch mà người dùng có thể tiêu.
-đã xem xét: false
+reviewed: false

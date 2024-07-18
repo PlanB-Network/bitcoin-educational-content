@@ -10,4 +10,4 @@ vaarat_vastaukset:
 explanation: |
   Coin control on ominaisuus, joka löytyy hyvästä Bitcoin-lompakko-ohjelmistosta, ja se antaa sinulle mahdollisuuden manuaalisesti valita tiettyjä UTXOja käytettäväksi syötteinä tehdessäsi transaktiota.
 
-arvioitu: false
+reviewed: false

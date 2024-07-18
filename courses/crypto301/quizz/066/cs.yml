@@ -7,4 +7,4 @@ wrong_answers:
 explanation: |
   Kontrolní součet je získán předáním entropie funkcí SHA256
   a načtením prvních 8 bitů hash. Bez tohoto kontrolního součtu by chyba ve frázi mohla vést k vytvoření jiné peněženky a tím k ztrátě prostředků.
-recenzováno: false
+reviewed: false

@@ -10,4 +10,4 @@ wrong_answers:
 explanation: |
   Štítky jsou uloženy lokálně softwarovou peněženkou a nikdy nejsou přenášeny přes Bitcoinovou síť. Označování je tedy osobním nástrojem pro správu.
 
-recenzováno: false
+reviewed: false

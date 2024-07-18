@@ -6,4 +6,4 @@ vaarat_vastaukset:
   - Se laskee siirtomaksun
 explanation: |
   LNURL-metaprotokolla Lightning Network -laskussa mahdollistaa suoran satoshi-määrän tarjoamisen pyynnön tekemisen sijaan. Tämä ominaisuus parantaa käyttäjäkokemusta tekemällä maksuprosessista joustavamman.
-arvioitu: false
+reviewed: false

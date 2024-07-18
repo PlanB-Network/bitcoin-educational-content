@@ -7,4 +7,4 @@ wrong_answers:
 explanation: |
   Osoitteen johdattamiseksi HD-lompakossa tiivistetty julkinen avain ensin
   tiivistetään käyttäen SHA256:ta ja RIPMD160:ä, ja sen jälkeen lasketaan tarkistussumma.
-arvioitu: false
+reviewed: false

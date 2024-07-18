@@ -7,4 +7,4 @@ wrong_answers:
 explanation: |
   Při vynuceném uzavření jsou všechny probíhající HTLC transakce zveřejněny. To
   může být velmi nákladné a komplikované kvůli složitosti a počtu zahrnutých transakcí.
-recenzováno: false
+reviewed: false

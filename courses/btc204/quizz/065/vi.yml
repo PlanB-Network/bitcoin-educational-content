@@ -10,4 +10,4 @@ wrong_answers:
 explanation: |
   Dust ám chỉ các UTXOs có giá trị bằng sats quá thấp đến mức không đủ để chi trả các khoản phí giao dịch cần thiết để sử dụng chúng.
 
-đã xem xét: false
+reviewed: false

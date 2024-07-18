@@ -8,4 +8,4 @@ explanation: |
   Keysend Lightning Networkin kontekstissa mahdollistaa käyttäjän lähettää
   rahaa ilman vastaanottajan pyyntöä. Lähettäjä hakee vastaanottajan
   tunnuksen, luo esikuvan kysymättä vastaanottajalta ja sisällyttää sen maksuun.
-arvioitu: false
+reviewed: false

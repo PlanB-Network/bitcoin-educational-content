@@ -8,4 +8,4 @@ explanation: >-
   ASICy (Application-Specific Integrated Circuits - Integrované obvody pro specifické aplikace) jsou specializovaný hardware
   navržený speciálně pro těžbu Bitcoinu. Jsou optimalizovány pro provádění hashovací funkce SHA256,
   což je matematický problém, který musí těžaři vyřešit v Proof of Work.
-recenzováno: false
+reviewed: false

@@ -10,4 +10,4 @@ wrong_answers:
 explanation: |
   Konsolidoinnin periaate on hyödyntää ajanjaksoja, jolloin Bitcoinin maksut ovat matalia, yhdistääkseen pienempiä UTXOja yhdeksi suuremmaksi.
 
-arvioitu: false
+reviewed: false

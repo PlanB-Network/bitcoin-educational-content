@@ -6,4 +6,4 @@ wrong_answers:
   - Zvýšit důvěrnost transakcí Bitcoinu.
 explanation: |
   Jedním z cílů analýzy řetězce je seskupit různé aktivity na Bitcoinu za účelem určení jedinečnosti uživatele, který je provedl. Následně bude možné pokusit se tuto skupinu aktivit spojit s reálnou identitou.
-recenzováno: false
+reviewed: false

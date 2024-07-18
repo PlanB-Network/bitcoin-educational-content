@@ -6,4 +6,4 @@ wrong_answers:
   - Koupě kanálů
 explanation: |
   Atomic Swap mezi LN a BTC v Lightning Network slouží k vyvážení likvidity. To se provádí odesláním likvidity do smyčky přes jiný uzel, který poté pošle zůstatek na řetězci zpět původnímu uzlu.
-recenzováno: false
+reviewed: false

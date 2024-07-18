@@ -8,4 +8,4 @@ explanation: |
   Soukromé klíče jsou zásadní součástí Bitcoinových transakcí.
   Používají se k podepisování a autorizaci transakcí, poskytují důkaz
   vlastnictví a zajišťují, že jejich bitcoin může utratit pouze vlastník.
-recenzováno: true
+reviewed: true

@@ -10,4 +10,4 @@ explanation: |
   kunkin merkin ensimmäiset kolme bittiä erottamalla ne 0-separoijalla, ja sitten yhdistämällä
 
   kunkin merkin viimeiset viisi bittiä. Tämä prosessi vahvistaa tarkistussummaa.
-arvioitu: false
+reviewed: false

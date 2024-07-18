@@ -6,4 +6,4 @@ wrong_answers:
   - Noin 20GB kuukaudessa
 explanation: >-
   Ottaen huomioon 1 lohkon, joka on 1MB joka 10. minuutti, Bitcoin-noden ajamiseen tarvitaan noin 5GB kaistanleveyttä kuukaudessa.
-arvioitu: false
+reviewed: false

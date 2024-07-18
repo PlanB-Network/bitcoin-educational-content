@@ -7,4 +7,4 @@ vaarat_vastaukset:
 explanation: |
   Hot wallet on lompakko pienien Bitcoin-määrien säilyttämiseen verkossa.
   Sitä pidetään vähemmän turvallisena kuin cold wallet, koska se on alttiimpi hakkeroinnille.
-arvioitu: false
+reviewed: false

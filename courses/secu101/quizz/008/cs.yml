@@ -6,4 +6,4 @@ wrong_answers:
   - Síť, která vám umožňuje rychlejší prohlížení internetu.
 explanation: |
   Síť TOR (The Onion Router) je síť, která nabízí anonymitu tím, že maskuje IP adresu uživatele a umožňuje přístup na Darknet. Je využívána novináři, aktivisty za svobodu a dalšími, kteří se snaží vyhnout cenzuře v autoritářských zemích.
-recenzováno: false
+reviewed: false

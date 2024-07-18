@@ -6,4 +6,4 @@ wrong_answers:
   - Budoucí obava spočívá v tom, že složitost bloků Bitcoinu se zvýší, což je bude činit těžko zpracovatelnými.
 explanation: |
   S očekávaným růstem Lightning Network a následným zvýšením počtu otevírání a uzavírání kanálů se prostor v blocích Bitcoinu stane stále cennějším. To vedlo k diskusím o legitimním využívání prostoru v blocích, s obavami z "spamování" na blockchainu transakcemi, které jsou považovány za neesenciální.
-recenzováno: false
+reviewed: false

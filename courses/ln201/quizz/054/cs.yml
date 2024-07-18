@@ -6,4 +6,4 @@ wrong_answers:
   - Cena za provedení transakce skrze kanál.
 explanation: |
   V Lightning Network se likvidita kanálu vztahuje na množství satoshi, které mohou být přeneseny skrze kanál. Likvidita těchto kanálů nemůže být přenesena do jiných likvidních kanálů.
-recenzováno: false
+reviewed: false

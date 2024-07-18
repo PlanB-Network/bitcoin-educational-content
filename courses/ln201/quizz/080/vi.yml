@@ -8,4 +8,4 @@ explanation: |
   Hash của preimage trong một hóa đơn của Lightning Network được sử dụng để mở khóa
   thanh toán. Người nhận thanh toán phải cung cấp preimage phù hợp
   với hash để nhận được số tiền.
-đã xem xét: false
+reviewed: false

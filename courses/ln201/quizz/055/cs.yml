@@ -6,4 +6,4 @@ wrong_answers:
   - Likvidita se zvyšuje.
 explanation: |
   V Lightning Network, když je provedena transakce, likvidita je přerozdělena podél trasy mezi oběma stranami.
-recenzováno: false
+reviewed: false

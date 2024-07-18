@@ -7,4 +7,4 @@ wrong_answers:
 explanation: |
   Louhijat Bitcoin-verkossa ovat vastuussa siitä, että verkossa leviävät transaktiot
   kirjataan Bitcoin-lohkoketjuun. Tämä varmistaa transaktioiden lopullisuuden.
-arvioitu: false
+reviewed: false

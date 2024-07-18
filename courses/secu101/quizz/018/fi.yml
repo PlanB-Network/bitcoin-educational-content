@@ -8,4 +8,4 @@ explanation: |
   Järjestelmänvalvojan tilin käyttäminen päivittäiseen käyttöön Windowsissa voi altistaa
   järjestelmän suuremmille turvallisuusriskeille. On suositeltavaa luoda kaksi erillistä tiliä;
   yksi hallinnollisia tehtäviä varten ja toinen päivittäiseen käyttöön.
-arvioitu: false
+reviewed: false

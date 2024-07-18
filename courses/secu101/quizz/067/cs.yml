@@ -6,4 +6,4 @@ wrong_answers:
   - Není kompatibilní se všemi webovými stránkami.
 explanation: |
   Single Sign-On (SSO) nabízený internetovými giganty představuje problémy z hlediska dostupnosti a rizik cenzury. To je proto, že pokud poskytovatel SSO zažije výpadek nebo se rozhodne zablokovat uživatele, uživatel by mohl přijít o přístup ke všem službám, které toto SSO používají pro autentizaci.
-recenzováno: false
+reviewed: false

@@ -10,4 +10,4 @@ wrong_answers:
 explanation: |
   OP_RETURN là một mã lệnh báo hiệu một kịch bản không hợp lệ, làm cho đầu ra mà nó chứa trở nên không thể chi tiêu được một cách có thể chứng minh được. Do đó, các nút mạng có thể loại bỏ đầu ra này khỏi tập hợp UTXO của họ. OP_RETURN thường được sử dụng để ghi lại dữ liệu tùy ý trong blockchain.
 
-đã xem xét: false
+reviewed: false

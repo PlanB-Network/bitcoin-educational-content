@@ -6,4 +6,4 @@ wrong_answers:
   - Miten käyttää luottokorttia Bitcoinin ostamiseen verkossa
 explanation: |
   Luvussa mainitaan, että paranoidi Bitcoin-käyttäjä saattaisi opetella parhaita käytäntöjä, kuten kolikoiden sekoittamista ja UTXO-hallintaa osana heidän keskittymistään yksityisyyteen ja turvallisuuteen.
-arvioitu: false
+reviewed: false

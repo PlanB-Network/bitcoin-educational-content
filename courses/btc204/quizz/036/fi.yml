@@ -6,4 +6,4 @@ wrong_answers:
   - Koska Bitcoin-verkon solmut hylkäävät ne useammin.
 explanation: |
   Jos transaktioiden kokonaisryhmä, jossa yritämme piiloutua, samalla skriptityypillä on pieni, olemme helpommin tunnistettavissa kuin erittäin suuressa transaktioiden ryhmässä.
-arvioitu: false
+reviewed: false

@@ -6,4 +6,4 @@ wrong_answers:
   - Nó được sử dụng để truyền các khóa.
 explanation: |
   Đường cong elliptic là một cấu trúc toán học được sử dụng trong việc tạo ra khóa công khai và khóa riêng tư an toàn. Một số ngẫu nhiên, thường được gọi là nonce, được chọn làm khóa riêng tư và sử dụng trong phương trình của đường cong elliptic để tạo ra khóa công khai tương ứng.
-đã xem xét: false
+reviewed: false

@@ -6,4 +6,4 @@ vaarat_vastaukset:
   - Nopeuttaa internet-yhteytesi nopeutta
 explanation: |
   Kaksivaiheinen tunnistautuminen (2FA) lisää ylimääräisen turvakerroksen verkkotileihisi. Vaikka hakkeri saisi salasanasi, hän ei pysty pääsemään tilillesi ilman toista vahvistustekijää.
-arvioitu: false
+reviewed: false

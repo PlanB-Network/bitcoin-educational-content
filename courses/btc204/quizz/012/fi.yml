@@ -6,4 +6,4 @@ wrong_answers:
   - Rajoittamalla käyttäjäkohtaisten transaktioiden määrää.
 explanation: |
   Vahvistaakseen transaktion puuttumisen, ja siten välttääkseen kaksinkertaisen kulutuksen, on välttämätöntä, että jokainen käyttäjä on tietoinen kaikista aiemmista transaktioista.
-arvioitu: false
+reviewed: false

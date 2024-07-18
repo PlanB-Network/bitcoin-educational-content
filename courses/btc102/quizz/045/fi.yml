@@ -8,4 +8,4 @@ explanation: |
   Luvun sisältö selittää, että Bitcoin Core -kehittäjät ovat vastuussa
   Bitcoin-protokollan ja sen keskeisten ominaisuuksien pääkehityksestä. He eivät
   hallitse Bitcoin-verkkoa, luo uusia bitcoineja, tai säätele Bitcoinin hintaa.
-arvioitu: false
+reviewed: false

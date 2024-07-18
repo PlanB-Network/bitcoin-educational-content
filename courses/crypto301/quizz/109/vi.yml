@@ -6,4 +6,4 @@ wrong_answers:
   - Giá trị được sử dụng trong hàm AES
 explanation: |
   Trong bối cảnh của một Ví HD, chỉ số trong đường dẫn phái sinh chỉ ra giá trị được sử dụng trong hàm HMAC. Điều này được sử dụng để phân biệt giữa các cặp khóa con khác nhau ở cùng một độ sâu.
-đã xem xét: false
+reviewed: false

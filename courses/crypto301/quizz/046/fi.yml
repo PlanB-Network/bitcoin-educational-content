@@ -6,4 +6,4 @@ wrong_answers:
   - Äärettömyydessä olevaa pistettä käytetään avainten salaamiseen.
 explanation: |
   ECDSA-algoritmissa, jos elliptisellä käyrällä laskettu piste P on äärettömyydessä oleva piste, allekirjoitusta pidetään mitättömänä. Tämä on yksi tarkistuksista, jotka suoritetaan digitaalisen allekirjoituksen validoinnin aikana.
-arvioitu: false
+reviewed: false

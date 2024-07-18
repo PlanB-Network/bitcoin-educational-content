@@ -7,4 +7,4 @@ wrong_answers:
 explanation: |
   Když Alice otevře kanál s Bobem, vytvoří transakci s 2 UTXO jako výstup. Jedno UTXO 0.0013 BTC jde na 2/2 multi-sig adresu a
   druhé UTXO 0.0007 BTC jde na jednu z jejích adres pro vrácení drobných.
-recenzováno: false
+reviewed: false

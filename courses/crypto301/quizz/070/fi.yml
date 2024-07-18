@@ -6,4 +6,4 @@ vaarat_vastaukset:
   - Se varmistaa palautusfraasin tarkkuuden.
 explanation: |
   Entropia on HD-lompakon turvallisuuden peruskivi. On ratkaisevan tärkeää, että tämä entropia on satunnaista tai pseudosatunnaista lompakon turvallisuuden takaamiseksi.
-arvioitu: false
+reviewed: false

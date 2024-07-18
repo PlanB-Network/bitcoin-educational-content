@@ -6,4 +6,4 @@ wrong_answers:
   - Se on ohjelmisto, joka louhii uusia bitcoineja.
 explanation: |
   Bitcoin-lompakko, erityisesti Hierarkkinen Deterministinen Lompakko (HD-lompakko), on yksityisten kryptografisten avainten kokoelma, jotka on johdettu yhdestä pääavaimesta. Nämä avaimet ovat olennaisia kryptovaluutan omistajuuden kannalta.
-arvioitu: false
+reviewed: false

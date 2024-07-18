@@ -7,4 +7,4 @@ wrong_answers:
 explanation: |
   Ve kompresní funkci SHA256 se provádí 64 kol výpočtu.
   Podobně jako v cyklistickém závodě, každé kolo zlepšuje pozici funkce.
-recenzováno: false
+reviewed: false

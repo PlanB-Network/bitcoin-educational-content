@@ -8,4 +8,4 @@ explanation: |
   Pakotettu sulkeminen tapahtuu, kun yksi osapuoli haluaa sulkea kanavan, mutta
   toinen osapuoli ei vastaa, koska he ovat offline-tilassa. Ensimmäinen osapuoli julkaisee
   silloin viimeisimmän sitoumusmaksutapahtuman.
-arvioitu: false
+reviewed: false

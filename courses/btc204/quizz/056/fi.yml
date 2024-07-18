@@ -10,4 +10,4 @@ wrong_answers:
 explanation: |
   Kun maksu suoritetaan, transaktio luo uuden UTXOn lähtökohtana käytetyistä UTXOista syötteinä. Tähän lähtökohtaan sijoitetaan skripti, joka määrittelee, miten tätä UTXOa voidaan käyttää myöhemmin. Tätä skriptiä kutsutaan ScriptPubKeyksi. Vastaanottava osoite sisällytetään tähän skriptiin.
 
-arvioitu: false
+reviewed: false

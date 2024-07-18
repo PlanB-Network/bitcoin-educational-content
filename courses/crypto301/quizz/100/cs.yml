@@ -6,4 +6,4 @@ wrong_answers:
   - Používá se k šifrování peněženky.
 explanation: |
   Hlavní řetězový kód je nezbytný pro obnovu portfolia ze seedu. Všechny klíče odvozené ze stejného seedu budou mít stejný hlavní řetězový kód.
-recenzováno: false
+reviewed: false

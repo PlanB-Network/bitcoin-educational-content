@@ -6,4 +6,4 @@ wrong_answers:
   - Je to digitální podpis peněženky.
 explanation: |
   Mnemonická fráze je generována za účelem zajištění zálohy Bitcoin peněženky.
-recenzováno: false
+reviewed: false

@@ -7,4 +7,4 @@ wrong_answers:
 explanation: |
   PBKDF2:tä käytetään muuntamaan mnemoninen lause siemeneksi. Tämä algoritmi
   suorittaa 2048 kierrosta käyttäen HMAC SHA512:ta.
-arvioitu: false
+reviewed: false

@@ -6,4 +6,4 @@ wrong_answers:
   - Protože umožňují použití heuristiky společného vlastnictví vstupů.
 explanation: |
   Sdílení přijímacích adres Bitcoinu na internetu může sloužit jako vstupní bod pro analýzu řetězce tím, že propojí identitu (skutečnou nebo pseudonymní) s onchain aktivitou.
-recenzováno: false
+reviewed: false

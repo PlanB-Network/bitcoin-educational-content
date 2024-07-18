@@ -6,4 +6,4 @@ wrong_answers:
   - Jedná se o software, který těží nové bitcoiny.
 explanation: |
   Bitcoinová peněženka, konkrétně Hierarchická Deterministická Peněženka (HD peněženka), je sbírka soukromých kryptografických klíčů odvozených z jednoho hlavního klíče. Tyto klíče jsou nezbytné pro vlastnictví kryptoměny.
-recenzováno: false
+reviewed: false

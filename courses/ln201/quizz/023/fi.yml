@@ -8,4 +8,4 @@ explanation: |
   Vetäytymistransaktio päivitetään jokaisen Lightning Network -siirron jälkeen
   heijastamaan kanavan nykyistä tilaa. Se takaa, kuka omistaa varat
   jokaisen siirron jälkeen, mutta sitä ei suoriteta, ellei kanavaa suljeta.
-arvioitu: false
+reviewed: false

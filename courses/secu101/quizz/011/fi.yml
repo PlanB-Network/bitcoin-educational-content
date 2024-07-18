@@ -8,4 +8,4 @@ explanation: |
   HTTPS-protokollaa käytetään verkkosivustojen tietojen salaamiseen, varmistaen, että
   tiedonvaihto käyttäjän ja verkkosivuston välillä on turvallista. Tämä auttaa suojaamaan
   kolmansien osapuolien mahdolliselta tiedon kaappaamiselta.
-arvioitu: false
+reviewed: false

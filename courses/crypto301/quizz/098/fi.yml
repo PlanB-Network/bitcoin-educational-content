@@ -8,4 +8,4 @@ explanation: |
   Julkinen avain luodaan käyttämällä ECDSA (Elliptic Curve Digital Signature
 
   Algorithm) -algoritmia.
-arvioitu: false
+reviewed: false

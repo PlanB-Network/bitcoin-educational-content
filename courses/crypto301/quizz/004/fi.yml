@@ -6,4 +6,4 @@ wrong_answers:
   - Ne tuottavat uniikin avaimen jokaiselle lataukselle.
 explanation: |
   Kryptografiset hajautusfunktiot ovat keskeisessä roolissa ladatun ohjelmiston eheyden varmistamisessa. Vertaamalla ladatun tiedoston hajautusarvoa odotettuun hajautusarvoon, voidaan varmistaa, että tiedostoa ei ole manipuloitu.
-arvioitu: false
+reviewed: false

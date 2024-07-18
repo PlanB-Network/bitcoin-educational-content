@@ -6,4 +6,4 @@ vaarat_vastaukset:
   - Sitä ei voi poistaa
 explanation: |
   Bitcoin-lohkoketjun muuttumattomuus tarkoittaa sitä, että kun transaktio on kirjattu, sitä ei voi muuttaa tai poistaa. Tämä varmistaa lohkoketjun eheyden ja luotettavuuden.
-arvioitu: false
+reviewed: false

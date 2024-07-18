@@ -7,4 +7,4 @@ wrong_answers:
 explanation: |
   V Bitcoinové peněžence bývá soukromý klíč často reprezentován seznamem
   12 nebo 24 slov, který se také nazývá "seed" nebo "mnemonická fráze".
-recenzováno: true
+reviewed: true

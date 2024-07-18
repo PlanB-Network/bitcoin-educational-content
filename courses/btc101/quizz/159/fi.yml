@@ -6,4 +6,4 @@ wrong_answers:
   - Energiakustannukset ovat tarpeen uusien bitcoinien luomiseksi.
 explanation: >-
   Energiakustannukset Bitcoin-louhinnassa ovat keskeinen osa verkon turvallisuutta. Louhinnan korkea energiakustannus tekee lohkoketjun manipuloinnista erittäin kalliin toimenpiteen haitallisille toimijoille, kun taas transaktioiden varmentamisen alhainen kustannus varmistaa, että kuka tahansa voi osallistua verkkoon.
-arvioitu: false
+reviewed: false

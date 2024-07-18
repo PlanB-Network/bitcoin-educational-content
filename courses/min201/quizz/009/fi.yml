@@ -6,4 +6,4 @@ wrong_answers:
   - Bitcoin-louhinnassa käytettävä ohjelmisto on tarkoitettu louhintakoneen jäähdyttämiseen eikä se edistä tehokkuutta.
 explanation: |
   Luku selittää, että ohjelmistot kuten BrainsOS Plus voivat korvata louhintakoneen alkuperäisen käyttöjärjestelmän, mahdollistaen samojen toimintojen suorittamisen tehokkaammin. Tämä ohjelmistojen optimointi on olennainen kilpailukyvyn elementti Bitcoin-louhinnassa.
-arvioitu: false
+reviewed: false

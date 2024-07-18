@@ -6,4 +6,4 @@ wrong_answers:
   - 3 000 sat
 explanation: |
   Poplatky za transakci představují rozdíl mezi celkovými vstupy a celkovými výstupy. Jedná se o částku, která zůstane po použití všech vstupů a vytvoření všech výstupů. Výpočet je tedy následující; poplatky = (5000x2) - (3000x3) = 10000 - 9000 = 1000.
-recenzováno: false
+reviewed: false

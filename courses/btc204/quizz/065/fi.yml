@@ -10,4 +10,4 @@ wrong_answers:
 explanation: |
   Dust viittaa UTXOihin, joiden arvo satosheina on niin alhainen, ettei se riitä kattamaan transaktiokuluja, jotka vaaditaan niiden käyttämiseksi.
 
-arvioitu: false
+reviewed: false

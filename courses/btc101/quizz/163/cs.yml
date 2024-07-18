@@ -6,4 +6,4 @@ wrong_answers:
   - 20 minut
 explanation: >-
   V průměru je v protokolu Bitcoin vytvořen jeden blok každých 10 minut. Tento čas zůstává konstantní bez ohledu na počet těžařů a jejich výpočetní výkon.
-recenzováno: false
+reviewed: false

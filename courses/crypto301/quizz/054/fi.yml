@@ -7,4 +7,4 @@ vaarat_vastaukset:
 explanation: |
   BIP43 ja BIP44 standardisoivat HD-lompakoiden rakenteen ja hierarkian,
   tehden niistä helpommin saavutettavia ja käytettävämpiä suurelle yleisölle.
-arvioitu: false
+reviewed: false

@@ -10,4 +10,4 @@ wrong_answers:
 explanation: |
   Người ta đặc biệt không nên sử dụng một địa chỉ nhận nhiều lần. Tất cả các câu trả lời khác cho phép tránh được các phép phân tích chuỗi heuristics.
 
-đã xem xét: false
+reviewed: false

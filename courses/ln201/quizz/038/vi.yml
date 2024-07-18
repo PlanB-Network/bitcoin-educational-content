@@ -7,4 +7,4 @@ wrong_answers:
 explanation: |
   Người gửi tiền là người tạo giao dịch với Timelock.
   Điều này ngăn họ lấy lại tiền ngay lập tức.
-đã xem xét: false
+reviewed: false

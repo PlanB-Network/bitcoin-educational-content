@@ -6,4 +6,4 @@ wrong_answers:
   - Bankovní webové stránky
 explanation: |
   Emaily jsou prvním vektorem útoku pro hackery. Používají phishingové pokusy k získání citlivých informací, jako jsou vaše přihlašovací údaje a hesla.
-recenzováno: false
+reviewed: false

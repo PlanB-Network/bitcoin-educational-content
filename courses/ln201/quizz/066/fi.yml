@@ -10,4 +10,4 @@ explanation: |
   summa, vastaanottajan osoite, esikuvan hash (jota käytetään
   HTLC:n luomiseen) ja viitteet vastaanottajan kanaviin (jotka voivat auttaa tunnistamaan
   kanavia, joilla on riittävästi likviditeettiä).
-arvioitu: false
+reviewed: false

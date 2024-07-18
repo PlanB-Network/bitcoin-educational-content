@@ -7,4 +7,4 @@ wrong_answers:
 explanation: |
   Lightning Network on järjestelmä, joka käyttää Hash Time-Locked Contracts
   (HTLC-sopimuksia) varmistaakseen turvallisen ja todennettavan maksun Bitcoin-siirroissa.
-arvioitu: false
+reviewed: false

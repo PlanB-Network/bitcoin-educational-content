@@ -6,4 +6,4 @@ wrong_answers:
   - Můžete si ublížit, pokud špatně zacházíte s multisig peněženkami
 explanation: |
   Přílišná komplikace zabezpečení a přístupnosti vašich bitcoinů vás může poškodit, pokud například špatně zacházíte se zálohami vašich peněženek. To je proto, že jednoduché postupy zálohování jsou klíčové pro znovuzískání přístupu k vašim prostředkům v případě ztráty telefonu nebo počítače.
-recenzováno: true
+reviewed: true

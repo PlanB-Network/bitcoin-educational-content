@@ -6,4 +6,4 @@ wrong_answers:
   - Nó được tính toán nhanh hơn SHA-256.
 explanation: |
   HASH160 trong giao thức Bitcoin có lợi thế vì nó duy trì được độ an toàn của SHA-256 trong khi giảm kích thước của dấu vân tay. Điều này làm cho nó hiệu quả hơn mà không làm giảm an ninh.
-đã xem xét: false
+reviewed: false

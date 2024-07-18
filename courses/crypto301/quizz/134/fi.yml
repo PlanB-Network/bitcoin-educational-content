@@ -9,4 +9,4 @@ explanation: |
   pbkdf2-funktiota käytetään generoimaan siemenlause mnemonic-lauseesta
   ja salasanasta, käyttäen hmacha512:ta ja 2048 iteraatiota. Tätä siemenlauseetta käytetään sitten johdattamaan
   pääavain ja pääketjukoodi.
-arvioitu: false
+reviewed: false

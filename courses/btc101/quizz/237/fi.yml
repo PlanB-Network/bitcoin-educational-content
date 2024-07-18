@@ -6,4 +6,4 @@ wrong_answers:
   - Se mahdollistaa pelaajien ostaa pelinsisäisiä esineitä Bitcoinilla
 explanation: >-
   Lightning Network mahdollistaa pelaajien lyödä vetoa hyvin pienillä rahamäärillä pelatessaan pelejä, kuten muutamalla satoshilla. Tämä mahdollistaa panoksen asettamisen, joka stimuloi kilpailua samalla merkittävästi lisäten bottien käyttöönoton kustannuksia.
-arvioitu: false
+reviewed: false

@@ -6,4 +6,4 @@ wrong_answers:
   - Vain hallitukset pääsevät käsiksi transaktiotietoihin.
 explanation: |
   Bitcoinin tapauksessa, koska tiedonkulku transaktioiden ja julkisen alueen välillä ei katkea, yksityisyyden malli perustuu käyttäjän henkilöllisyyden ja transaktioiden erottamiseen.
-arvioitu: false
+reviewed: false

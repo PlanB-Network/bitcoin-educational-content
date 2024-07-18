@@ -6,4 +6,4 @@ wrong_answers:
   - UTXO na vstupu pocházely od 2 různých uživatelů a to na výstupu stále patří těmto 2 uživatelům.
 explanation: |
   Pravděpodobně jsme svědky konsolidace. Proto existuje společné vlastnictví vstupů a výstupu.
-recenzováno: false
+reviewed: false

@@ -7,4 +7,4 @@ wrong_answers:
 explanation: |
   Bob luo salaisuuden S ja laskee hajautusarvon r. Tämä hajautus sisältyy
   laskuun, jonka Bob lähettää Alicelle ja sitä käytetään HTLC:n perustamiseen.
-arvioitu: false
+reviewed: false

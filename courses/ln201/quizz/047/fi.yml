@@ -6,4 +6,4 @@ wrong_answers:
   - Kaksi vertaista riitelee jäljellä olevasta SAT:sta kanavassa.
 explanation: |
   Yhteistyöllisessä sulkemisessa kaksi vertaista kommunikoi ja sopii kanavan sulkemisesta. He pysäyttävät kaikki transaktiot ja vahvistavat kanavan lopullisen tilan. Sen jälkeen he luovat sulkemistransaktion.
-arvioitu: false
+reviewed: false

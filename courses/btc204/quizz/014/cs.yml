@@ -6,4 +6,4 @@ wrong_answers:
   - Pouze vlády mají přístup k detailům transakcí.
 explanation: |
   V případě Bitcoinu, protože tok informací mezi transakcemi a veřejnou doménou nelze přerušit, model soukromí spočívá v oddělení identity uživatele od transakcí.
-recenzováno: false
+reviewed: false

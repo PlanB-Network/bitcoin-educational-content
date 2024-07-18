@@ -6,4 +6,4 @@ wrong_answers:
   - Suunnilleen sama määrä atomeja kuin havaittavissa olevassa universumissa
 explanation: |
   Bitcoinin yksityisavaimen mahdollisuuksien kokonaismäärä on melkein yhtä suuri kuin 1,158 x 10^77, mikä on suunnilleen sama määrä atomeja kuin mitä havaittavissa olevassa universumissa on. Tämä johtuu siitä, että yksityisavaimen on oltava välillä 1 ja n-1, missä n edustaa elliptisen käyrän järjestystä.
-arvioitu: false
+reviewed: false

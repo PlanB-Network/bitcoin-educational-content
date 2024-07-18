@@ -6,4 +6,4 @@ wrong_answers:
   - Vähentämällä 32 entropian koosta.
 explanation: |
   Tarkistussumman koko määritetään jakamalla entropian koko 32:lla. Esimerkiksi 256-bittinen entropia tuottaa 8-bittisen tarkistussumman.
-arvioitu: false
+reviewed: false

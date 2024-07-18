@@ -6,4 +6,4 @@ wrong_answers:
   - Tùy thuộc vào mạng Bitcoin
 explanation: |
   Các kênh thanh toán là hai chiều, nghĩa là chúng có hai "phía." Ví dụ, nếu Alice và Bob mở một kênh thanh toán, Alice có thể gửi Bitcoin cho Bob, và Bob cũng có thể gửi Bitcoin cho Alice.
-đã xem xét: false
+reviewed: false

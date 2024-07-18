@@ -8,4 +8,4 @@ explanation: |
   "Eliptická křivka je definována rovnicí y² = x³ + ax + b.\
   \ Každý bod na této křivce má charakteristickou symetrii, která je klíčová pro její\
   \ využití v kryptografii."
-recenzováno: false
+reviewed: false

@@ -6,4 +6,4 @@ wrong_answers:
   - Pouze přenos informací ostatním uzlům
 explanation: >-
   Uzly v síti Bitcoin plní několik klíčových funkcí, včetně udržování kopie blockchainu Bitcoinu, validace transakcí, přenosu informací ostatním uzlům a vynucování pravidel protokolu Bitcoinu.
-recenzováno: false
+reviewed: false

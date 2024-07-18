@@ -6,4 +6,4 @@ wrong_answers:
   - Riziko úniku dat
 explanation: |
   KYC zahrnuje riziko úniku dat, protože vaše informace jsou uloženy, riziko expozice státnímu dohledu, protože vaše informace mohou být předány nebo zabaveny, a riziko sledování, jelikož KYC může sloužit jako vstupní bod. Avšak KYC nesnižuje fungibilitu zakoupených bitcoinů.
-recenzováno: false
+reviewed: false

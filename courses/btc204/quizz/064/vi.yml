@@ -10,4 +10,4 @@ wrong_answers:
 explanation: |
   Nhãn được lưu trữ cục bộ bởi phần mềm ví và không bao giờ được truyền qua mạng Bitcoin. Do đó, việc gắn nhãn là một công cụ quản lý cá nhân.
 
-đã xem xét: false
+reviewed: false

@@ -6,4 +6,4 @@ wrong_answers:
   - Protože jsou častěji odmítány uzly sítě Bitcoin.
 explanation: |
   Pokud je celková skupina transakcí se stejným typem skriptu, ve které se skrýváme, malá, jsme snáze identifikovatelní než ve velmi velké skupině transakcí.
-recenzováno: false
+reviewed: false

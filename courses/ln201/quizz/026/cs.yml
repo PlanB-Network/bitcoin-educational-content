@@ -7,4 +7,4 @@ wrong_answers:
 explanation: |
   Při převodu v Lightning Network se prostředky nepohnou. Místo toho je konečný
   zůstatek aktualizován prostřednictvím podepsané, ale nezveřejněné on-chain transakce.
-recenzováno: false
+reviewed: false

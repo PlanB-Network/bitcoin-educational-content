@@ -6,4 +6,4 @@ wrong_answers:
   - Kulatý výstup je rezervní adresa.
 explanation: |
   Když se setkáme s jednoduchým platebním vzorcem (1 vstup a 2 výstupy), pokud jeden z výstupů použije kulatou částku, pak to představuje platbu. Tím pádem opouští vlastnictví uživatele vstupu.
-recenzováno: false
+reviewed: false

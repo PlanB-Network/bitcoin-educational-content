@@ -6,4 +6,4 @@ vaarat_vastaukset:
   - Jokainen bitti yhdistetään sanaan 1024 sanan listalta.
 explanation: |
   Muuntaakseen bitit lauseiksi, jokainen segmentti yhdistetään sanaan 2048 sanan listalta.
-arvioitu: false
+reviewed: false

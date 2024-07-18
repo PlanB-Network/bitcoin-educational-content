@@ -8,4 +8,4 @@ explanation: |
   V Lightning Network je to uzlu odesílatele, který rozhoduje o trase
   před odesláním platby. Proto dochází k hledání nejlepší trasy a
   odesílatel je jediný, kdo zná trasu a cenu.
-recenzováno: false
+reviewed: false

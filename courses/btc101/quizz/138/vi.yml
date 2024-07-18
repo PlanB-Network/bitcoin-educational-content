@@ -6,4 +6,4 @@ wrong_answers:
   - Chỉ truyền đạt thông tin cho các nút khác
 explanation: >-
   Các nút trong mạng lưới Bitcoin thực hiện nhiều chức năng quan trọng, bao gồm duy trì một bản sao của blockchain Bitcoin, xác thực các giao dịch, truyền đạt thông tin cho các nút khác, và thực thi các quy tắc của giao thức Bitcoin.
-đã xem xét: false
+reviewed: false

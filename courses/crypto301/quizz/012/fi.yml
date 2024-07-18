@@ -7,4 +7,4 @@ vaarat_vastaukset:
 explanation: |
   SHA256:n tiivistysfunktiossa XOR-operaattoria käytetään käsittelemään
   bitit yksi kerrallaan niiden järjestyksen mukaan. Tämä tehdään käyttäen totuustaulua.
-arvioitu: false
+reviewed: false

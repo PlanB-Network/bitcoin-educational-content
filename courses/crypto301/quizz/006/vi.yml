@@ -6,4 +6,4 @@ wrong_answers:
   - Một phương pháp nén dữ liệu.
 explanation: |
   Trong ngữ cảnh của hàm băm mật mã, hash là một dấu vân tay số độc nhất và cố định được tạo ra bởi hàm băm. Nó đại diện cho dữ liệu đầu vào một cách độc nhất và không thể đảo ngược.
-đã xem xét: false
+reviewed: false

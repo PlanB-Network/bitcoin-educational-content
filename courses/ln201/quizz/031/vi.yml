@@ -9,4 +9,4 @@ explanation: |
   Nếu một bên cố gắng gian lận bằng cách công bố một trạng thái cũ, bên kia có thể sử dụng
   khóa thu hồi để di chuyển quỹ mà không cần chờ đợi hết thời gian của Timelock,
   hiệu quả trong việc trừng phạt kẻ gian lận.
-đã xem xét: false
+reviewed: false

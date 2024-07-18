@@ -6,4 +6,4 @@ wrong_answers:
   - Chúng cho phép xác minh các giao dịch.
 explanation: |
   Vai trò chính của địa chỉ nhận trong hệ thống Bitcoin là cho phép nhận tiền vào một đồng tiền. Chúng được tạo ra từ các cặp khóa riêng và khóa công khai.
-đã xem xét: false
+reviewed: false

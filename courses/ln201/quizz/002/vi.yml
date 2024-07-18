@@ -7,4 +7,4 @@ wrong_answers:
 explanation: |
   Giao dịch bên trong kênh không thay đổi tổng dung lượng của
   kênh, nhưng chúng thay đổi sự phân bố dung lượng đó giữa các người dùng.
-đã xem xét: false
+reviewed: false

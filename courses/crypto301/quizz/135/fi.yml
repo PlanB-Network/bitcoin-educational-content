@@ -6,4 +6,4 @@ wrong_answers:
   - Sitä käytetään tarkistussumman laskemiseen.
 explanation: |
   Salasana HD-lompakossa toimii kryptografisena suolana, joka lisää ylimääräisen suojakerroksen lompakkoon. Sitä käytetään yhdessä muistilauseen kanssa lompakon siemenen luomiseen.
-arvioitu: false
+reviewed: false

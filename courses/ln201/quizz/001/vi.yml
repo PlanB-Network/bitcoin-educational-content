@@ -6,4 +6,4 @@ wrong_answers:
   - Giao dịch phải được mạng lưới Bitcoin chấp thuận
 explanation: |
   Để một giao dịch có thể được thực hiện trong một kênh thanh toán Lightning, người gửi tiền phải có đủ Bitcoin ở phía của họ trong kênh.
-đã xem xét: false
+reviewed: false

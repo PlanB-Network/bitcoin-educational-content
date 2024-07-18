@@ -10,4 +10,4 @@ wrong_answers:
 explanation: |
   Ulkoinen osoitteen uudelleenkäyttö havaitaan, kun osoitetta käytetään uudelleen useissa eri transaktioissa, kun taas sisäinen uudelleenkäyttö koskee osoitetta, jota käytetään sekä saman transaktion syötteissä että tulosteissa.
 
-arvioitu: false
+reviewed: false

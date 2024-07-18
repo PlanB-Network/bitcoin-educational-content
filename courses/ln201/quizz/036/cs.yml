@@ -8,4 +8,4 @@ explanation: |
   V závazkové transakci Alice má klíč pro zrušení pouze Alice.
   To jí umožňuje přesunout prostředky bez čekání na konec Timelocku, pokud
   Bob se pokusí podvádět.
-recenzováno: false
+reviewed: false

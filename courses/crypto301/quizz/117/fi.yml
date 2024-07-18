@@ -6,4 +6,4 @@ wrong_answers:
   - Lisäys ja vähennys lineaarisilla käyrillä.
 explanation: |
   Bitcoinissa julkinen avain johdetaan lapsen yksityisavaimesta käyttämällä matemaattisia toimenpiteitä, kuten pisteiden lisäystä ja kaksinkertaistamista elliptisillä käyrillä. Tämä on keskeinen osa Bitcoinin kryptografista turvallisuutta.
-arvioitu: false
+reviewed: false

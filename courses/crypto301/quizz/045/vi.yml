@@ -9,4 +9,4 @@ explanation: |
   bối cảnh giao dịch Bitcoin để xác thực chữ ký số. Điều này cho phép
   người nhận của một giao dịch xác nhận tính xác thực của thông điệp đã ký mà không
   cần khóa riêng tư của người gửi.
-đã xem xét: false
+reviewed: false

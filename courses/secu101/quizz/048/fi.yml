@@ -6,4 +6,4 @@ vaarat_vastaukset:
   - Kirje lähetettynä tilin omistajan kotiosoitteeseen
 explanation: |
   Kaksivaiheisen tunnistautumisen toinen vaihe voi olla väliaikainen koodi, joka lähetetään SMS-viestillä, sovelluksen generoima koodi tai fyysinen turva-avain.
-arvioitu: false
+reviewed: false

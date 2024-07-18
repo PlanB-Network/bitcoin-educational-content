@@ -8,4 +8,4 @@ explanation: |
   Bitcoin-parannusehdotukset (BIPs) ovat protokollia, jotka pyrkivät parantamaan
   HD-lompakoiden toiminnallisuutta ja turvallisuutta. Esimerkiksi BIP32 esitteli
   käsitteen deterministisesti ja hierarkkisesti johdetuista avaimista.
-arvioitu: false
+reviewed: false

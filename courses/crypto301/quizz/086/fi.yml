@@ -8,4 +8,4 @@ explanation: |
   HMAC SHA-512:n tulos on 512-bittinen numero, jaettuna kahteen osaan;
   vasemmanpuoleiset 256 bittiä edustavat pääyksityisavainta, kun taas oikeanpuoleiset 256
   bittiä edustavat pääketjukoodia.
-arvioitu: false
+reviewed: false

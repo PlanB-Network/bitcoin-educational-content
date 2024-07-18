@@ -6,4 +6,4 @@ wrong_answers:
   - Mnemonická fráze a hlavní soukromý klíč.
 explanation: |
   Základ HD peněženky spočívá ve dvou základních prvcích; mnemonické frázi a heslové frázi (volitelné dodatečné heslo). Společně tvoří seed, 512bitovou alfanumerickou sekvenci, která slouží jako základ pro odvození klíčů peněženky.
-recenzováno: false
+reviewed: false

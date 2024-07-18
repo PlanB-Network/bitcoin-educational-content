@@ -6,4 +6,4 @@ wrong_answers:
   - Poskytuje platformu pro obchodování s Bitcoinem.
 explanation: |
   Lightning Network je protokol pro "vrstvu 2" plateb, který funguje na vrcholu blockchainové kryptoměny, jako je Bitcoin. Je navržen tak, aby umožňoval rychlé transakce s nízkými náklady.
-recenzováno: false
+reviewed: false

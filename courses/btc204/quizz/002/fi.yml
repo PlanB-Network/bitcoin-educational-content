@@ -6,4 +6,4 @@ wrong_answers:
   - Se duplikoi ne luodakseen uusia UTXOja.
 explanation: |
   Siirron syötteen UTXOt kulutetaan rahoittamaan lähdöt. Se on tavallaan rahan lähde.
-arvioitu: false
+reviewed: false

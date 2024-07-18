@@ -7,4 +7,4 @@ vaarat_vastaukset:
 explanation: |
   Lightning Network -siirrossa varat eivät liiku. Sen sijaan lopullinen
   saldo päivittyy allekirjoitetulla, mutta julkaisemattomalla on-chain siirrolla.
-arvioitu: false
+reviewed: false

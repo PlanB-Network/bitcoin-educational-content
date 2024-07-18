@@ -8,4 +8,4 @@ vaarat_vastaukset:
 explanation: |
   Pääyksityisavain lasketaan siemenestä ja fraasista "Bitcoin SEED". Tämä fraasi on identtinen kaikissa HD-lompakon johdannaisissa, varmistaen johdonmukaisuuden
   lompakoiden välillä.
-arvioitu: false
+reviewed: false

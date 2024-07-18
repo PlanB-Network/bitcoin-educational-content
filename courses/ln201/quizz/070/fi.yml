@@ -6,4 +6,4 @@ wrong_answers:
   - Vaarantaa käyttäjän yksityisyyden.
 explanation: |
   Lightning-verkon transaktioiden reitityksen tavoitteena on optimoida transaktioiden nopeus, turvallisuus ja tehokkuus. Tämä saavutetaan ottamalla huomioon erilaiset tekijät, kuten maksut, HTLC:n vanhentumisaika, välisolmujen määrä ja satunnaisuustekijä. Samalla järjestelmä on suunniteltu säilyttämään käyttäjän yksityisyys siten, että se ei paljasta tarkkaa likviditeetin jakautumista.
-arvioitu: false
+reviewed: false

@@ -7,4 +7,4 @@ wrong_answers:
 explanation: |
   Transakce výběru, která reprezentuje stav kanálu,
   není provedena, dokud není kanál uzavřen.
-recenzováno: false
+reviewed: false

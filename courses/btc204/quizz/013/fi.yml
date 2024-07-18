@@ -6,4 +6,4 @@ wrong_answers:
   - Vain hallituksilla on pääsy tapahtumatietoihin.
 explanation: |
   Perinteisessä järjestelmässä jokainen pankkitili on yhdistetty henkilöllisyyteen. Tietovirta kuitenkin katkeaa pankin ja julkisen sektorin välillä.
-arvioitu: false
+reviewed: false

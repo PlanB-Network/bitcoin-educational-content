@@ -8,4 +8,4 @@ explanation: |
   Siemen on 512-bittinen alfanumeerinen sekvenssi, joka toimii perustana
   lompakon avainten johdannaiselle. Se saadaan käyttämällä pbkdf2-funktiota yhdessä
   muistisanalauseen ja salasanan kanssa.
-arvioitu: false
+reviewed: false

@@ -6,4 +6,4 @@ wrong_answers:
   - Uzly nemají v síti Bitcoin žádnou roli.
 explanation: |
   V síti Bitcoin uzly udržují integritu sítě ověřováním a validací transakcí a bloků. Nesprávný nebo podvodný blok bude uzly zamítnut, čímž se zachová bezpečnost sítě.
-recenzováno: false
+reviewed: false

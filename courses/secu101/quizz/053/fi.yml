@@ -6,4 +6,4 @@ wrong_answers:
   - Biometrisen datan käyttöönotto on kalliimpaa
 explanation: |
   Biometrinen data on vähemmän turvallista, koska sen tulisi pysyä tunnistuslaitteessa eikä sitä tulisi paljastaa verkossa. Jos se paljastetaan verkossa, sitä voidaan varastaa ja käyttää luvattomaan pääsyyn.
-arvioitu: false
+reviewed: false

@@ -7,4 +7,4 @@ vaarat_vastaukset:
 explanation: |
   Julkisten ja yksityisten avainten turvallisuus perustuu diskreetin logaritmin
   ongelmaan, monimutkaiseen matemaattiseen kysymykseen.
-arvioitu: false
+reviewed: false

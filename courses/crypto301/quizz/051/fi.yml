@@ -9,4 +9,4 @@ explanation: |
   ja tallentamisen tavan, tuoden käyttöön deterministisesti ja hierarkkisesti johdettujen
   avainten konseptin. Tämä yksinkertaistaa suuresti näiden avainten tallentamisen prosessia,
   samalla ylläpitäen niiden turvallisuustasoa.
-arvioitu: false
+reviewed: false

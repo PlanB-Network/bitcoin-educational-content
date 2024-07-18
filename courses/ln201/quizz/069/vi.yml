@@ -6,4 +6,4 @@ wrong_answers:
   - Giao dịch được tự động chuyển hướng đến một kênh có đủ thanh khoản.
 explanation: |
   Trong Mạng Lưới Lightning, nếu một nỗ lực giao dịch thất bại do thiếu thanh khoản trong một kênh, nút sẽ thử một lộ trình khác. Quá trình này tiếp tục cho đến khi một giao dịch thành công được thực hiện. Cơ chế này đảm bảo rằng giao dịch có thể được hoàn thành ngay cả khi lộ trình ban đầu chọn không có đủ thanh khoản.
-đã xem xét: false
+reviewed: false

@@ -6,4 +6,4 @@ vaarat_vastaukset:
   - Arvo, jota käytetään AES-funktiossa
 explanation: |
   HD-lompakon kontekstissa johdannaispolun indeksi viittaa arvoon, jota käytetään HMAC-funktiossa. Tätä käytetään erottamaan eri lasten avainpareja samalla syvyydellä.
-arvioitu: false
+reviewed: false

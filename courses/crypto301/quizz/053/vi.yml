@@ -6,4 +6,4 @@ wrong_answers:
   - 1024 bit
 explanation: |
   Khóa riêng trong ví Bitcoin, là yếu tố thiết yếu cho việc sở hữu tiền mã hóa, có độ dài cố định là 256 bit.
-đã xem xét: false
+reviewed: false

@@ -6,4 +6,4 @@ wrong_answers:
   - Je nemožné získat veřejný klíč ze soukromého klíče
 explanation: |
   Funkce ECDSA je nevratná, což znamená, že je nemožné získat soukromý klíč z veřejného klíče. Tato nevratnost je základním kamenem bezpečnosti Bitcoin peněženky.
-recenzováno: false
+reviewed: false

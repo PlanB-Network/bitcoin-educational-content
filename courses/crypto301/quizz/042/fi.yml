@@ -6,4 +6,4 @@ wrong_answers:
   - Lähettää siirtotiedot.
 explanation: |
   Bitcoin-siirtojen yhteydessä digitaalista allekirjoitusta käytetään todistamaan, että olet yksityisen avaimen haltija paljastamatta sitä. Tämä saavutetaan käyttämällä ECDSA-algoritmia.
-arvioitu: false
+reviewed: false

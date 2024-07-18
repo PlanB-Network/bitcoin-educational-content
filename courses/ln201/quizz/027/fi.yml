@@ -7,4 +7,4 @@ vaarat_vastaukset:
 explanation: |
   Nostotapahtuma, joka edustaa kanavan tilaa,
   ei suoriteta, ellei kanavaa suljeta.
-arvioitu: false
+reviewed: false

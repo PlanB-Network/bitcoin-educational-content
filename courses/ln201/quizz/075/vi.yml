@@ -8,4 +8,4 @@ explanation: |
   Keysend trong bối cảnh của Mạng Lưới Lightning cho phép người dùng gửi
   tiền mà không cần có yêu cầu từ người nhận. Người gửi lấy ID của người nhận,
   tạo ra một preimage mà không cần hỏi người nhận, và bao gồm nó trong khoản thanh toán.
-đã xem xét: false
+reviewed: false

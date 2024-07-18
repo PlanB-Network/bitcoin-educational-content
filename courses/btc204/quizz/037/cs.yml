@@ -6,4 +6,4 @@ wrong_answers:
   - Když transakce zahrnuje více výstupů, pravděpodobně všechny směřují k různým entitám.
 explanation: |
   CIOH je heuristika naznačující, že když transakce zahrnuje více vstupů, tyto vstupy pravděpodobně všechny pocházejí od jediné entity. Následně je jejich vlastnictví společné.
-recenzováno: false
+reviewed: false

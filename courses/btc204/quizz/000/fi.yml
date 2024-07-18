@@ -6,4 +6,4 @@ wrong_answers:
   - Hyödyketokenin vaihtoehto
 explanation: |
   UTXO on transaktion tuotos, jota ei ole vielä käytetty.
-arvioitu: false
+reviewed: false

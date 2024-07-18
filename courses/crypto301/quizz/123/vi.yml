@@ -6,4 +6,4 @@ wrong_answers:
   - Chỉ khi địa chỉ được băm
 explanation: |
   Việc sử dụng địa chỉ Bitcoin không tiết kiệm không gian trong các khối. Lý do chính để sử dụng một địa chỉ là để giảm kích thước của thông tin khóa công khai.
-đã xem xét: false
+reviewed: false

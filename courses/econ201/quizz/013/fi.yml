@@ -6,4 +6,4 @@ wrong_answers:
   - Osittaisvarantojärjestelmän pääongelma on, että se estää pankkeja luomasta uutta rahaa.
 explanation: |
   Osittaisvarantojärjestelmässä pankit pitävät vain osan tallettajiensa varoista varantona, lainaten loput. Jos monet asiakkaat samanaikaisesti ryntäävät nostamaan varojaan, pankilla ei ehkä ole tarpeeksi varantoja näiden vaatimusten täyttämiseen, mikä mahdollisesti johtaa konkurssiin.
-arvioitu: false
+reviewed: false

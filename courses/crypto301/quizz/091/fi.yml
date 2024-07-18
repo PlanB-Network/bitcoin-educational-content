@@ -7,4 +7,4 @@ vaarat_vastaukset:
 explanation: |
   Laajennetun avaimen kuormitus koostuu ketjukoodista (32 tavua)
   ja vanhemman avaimen (33 tavua), yhteensä 65 tavua.
-arvioitu: false
+reviewed: false

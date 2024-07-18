@@ -8,4 +8,4 @@ explanation: |
   Trong quá trình mở một kênh, Alice tạo một địa chỉ 2/2 multi-sig
   sử dụng địa chỉ công cộng của cô ấy và của Bob. Sau đó, cô ấy thực hiện một giao dịch bitcoin để gửi
   tiền đến địa chỉ này để mở kênh.
-đã xem xét: false
+reviewed: false

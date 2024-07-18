@@ -6,4 +6,4 @@ vaarat_vastaukset:
   - Varmistuskoodi transaktion turvaamiseksi.
 explanation: |
   Jokainen transaktion syöte on viittaus UTXO:oon, tarkoittaen aiemman transaktion tulostetta.
-arvioitu: false
+reviewed: false

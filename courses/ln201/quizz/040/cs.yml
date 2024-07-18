@@ -6,4 +6,4 @@ wrong_answers:
   - Transakce je zamítnuta a nic se nestane.
 explanation: |
   Lightning Network má mechanismus, který zabraňuje podvádění. Pokud se Alice pokusí podvádět zveřejněním starého závazkového transakce, Bob může použít klíč pro zrušení, aby potrestal Alici a vzal si všechny SAT z kanálu.
-recenzováno: false
+reviewed: false

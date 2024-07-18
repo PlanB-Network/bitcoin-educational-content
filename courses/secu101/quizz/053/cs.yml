@@ -6,4 +6,4 @@ wrong_answers:
   - Biometrická data jsou dražší na implementaci
 explanation: |
   Biometrická data jsou méně bezpečná, protože by měla zůstat na ověřovacím zařízení a neměla by být zveřejňována online. Pokud jsou zveřejněna online, mohou být ukradena a použita pro neautorizovaný přístup.
-recenzováno: false
+reviewed: false

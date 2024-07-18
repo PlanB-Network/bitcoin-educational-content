@@ -6,4 +6,4 @@ wrong_answers:
   - Heslo je volitelné, zatímco mnemonická fráze je povinná
 explanation: |
   Pro odvození klíčů HD peněženky jsou nutné jak mnemonická fráze, tak heslo. Heslo je volné a může dosáhnout téměř nekonečné velikosti. Není součástí mnemonické fráze, která je standardizovaná a musí dodržovat určitá omezení velikosti, kontrolního součtu a kódování.
-recenzováno: false
+reviewed: false

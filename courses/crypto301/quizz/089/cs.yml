@@ -8,4 +8,4 @@ explanation: |
   Seed je 512bitová alfanumerická sekvence, která slouží jako základ
   pro odvození klíčů peněženky. Získává se použitím funkce pbkdf2 s
   mnemonickou frází a heslem.
-recenzováno: false
+reviewed: false

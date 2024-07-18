@@ -10,4 +10,4 @@ wrong_answers:
 explanation: |
   BIP47:n tavoitteena on tarjota uniikki tunniste, joka mahdollistaa bitcoinien vastaanottamisen useita kertoja ja useilta eri ihmisiltä, mutta ilman osoitteiden uudelleenkäyttöä, sillä tämä on erittäin huono käytäntö käyttäjän yksityisyyden kannalta.
 
-arvioitu: false
+reviewed: false

@@ -6,4 +6,4 @@ wrong_answers:
   - Provést 64 kol výpočtů v kompresní funkci
 explanation: |
   Druhá fáze předzpracování v SHA256 zahrnuje přidání binární reprezentace velikosti původní zprávy, v bitech. To se provádí pomocí 64 rezervovaných bitů z předchozího kroku.
-recenzováno: false
+reviewed: false

@@ -6,4 +6,4 @@ wrong_answers:
   - bitcoin-cli getnetworkinfo
 explanation: |
   Příkazem pro ověření množství bitcoinů v oběhu na Bitcoinovém uzlu je bitcoin-cli gettxoutsetinfo. Tento příkaz poskytuje transparentnost a ověřitelnost, čímž posiluje důvěru v systém Bitcoinu.
-recenzováno: true
+reviewed: true

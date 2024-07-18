@@ -7,4 +7,4 @@ wrong_answers:
 explanation: |
   Bitcoinin julkisen avaimen tiedon alkuperäinen koko on 512 bittiä.
   Vastaanotto-osoitteen käyttäminen auttaa vähentämään tätä kokoa.
-arvioitu: false
+reviewed: false

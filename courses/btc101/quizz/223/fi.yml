@@ -6,4 +6,4 @@ wrong_answers:
   - Protokolla, joka perustuu lohkoketjuun, ei voi täyttää mitään seuraavista: hajauttaminen, turvallisuus ja skaalautuvuus.
 explanation: |
   Lohkoketjun trilemma viittaa haasteeseen, jonka mukaan protokolla, joka perustuu lohkoketjuun, voi täyttää vain kaksi seuraavista: hajauttaminen, turvallisuus ja skaalautuvuus.
-arvioitu: false
+reviewed: false

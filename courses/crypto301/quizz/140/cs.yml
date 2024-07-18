@@ -6,4 +6,4 @@ wrong_answers:
   - Funkce hmacha512
 explanation: |
   Program BCH (Bose-Chaudhuri-Hocquenghem) se používá pro výpočet kontrolního součtu v případě standardu segwit.
-recenzováno: false
+reviewed: false

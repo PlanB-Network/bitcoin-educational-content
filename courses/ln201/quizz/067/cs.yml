@@ -9,4 +9,4 @@ explanation: |
   uzly zohledňují několik faktorů. Zahrnují poplatky spojené s každou trasou,
   dobu expirace HTLC, počet mezilehlých uzlů a faktor náhodnosti
   k vyhnutí se stálému používání stejných tras.
-recenzováno: false
+reviewed: false

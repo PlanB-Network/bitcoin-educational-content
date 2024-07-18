@@ -10,4 +10,4 @@ wrong_answers:
 explanation: |
   ECDH (Elliptic-Curve Diffie-Hellman) -algoritmia käytetään Hiljaisissa Maksuissa vastaanottajan skannausparin avainten ja lähettäjän avainparin summan välillä yhteisen salaisuuden luomiseen, joka mahdollistaa yksilöllisen maksuosoitteen johdannan.
 
-arvioitu: false
+reviewed: false

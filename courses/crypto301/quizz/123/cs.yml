@@ -6,4 +6,4 @@ nesprávné_odpovědi:
   - Pouze pokud je adresa hashována
 explanation: |
   Použití Bitcoinové adresy nešetří místo v blocích. Hlavním důvodem použití adresy je snížení velikosti informací o veřejném klíči.
-recenzováno: false
+reviewed: false

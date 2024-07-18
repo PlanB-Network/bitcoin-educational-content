@@ -6,4 +6,4 @@ wrong_answers:
   - Edellinen sitoumustapahtuma päivitetään uudella salaisuudella ja kumoamisavaimella.
 explanation: |
   Kun luodaan uusi sitoumustapahtuma, päätetään uusi salaisuus ja uusi kumoamisavain. Edellinen sitoumustapahtuma on tuhottava antamalla kumoamissalaisuus estääkseen kenenkään osapuolen huijaamisen julkaisemalla vanhan tilan.
-arvioitu: false
+reviewed: false

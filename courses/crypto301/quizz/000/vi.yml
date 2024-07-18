@@ -9,4 +9,4 @@ explanation: |
   giải thích rằng do giới hạn về kích thước đầu ra, việc tránh va chạm là không thể.
   Điều này là bởi vì có nhiều đầu vào có thể hơn số lượng đầu ra, vì vậy một số đầu vào
   không thể tránh khỏi việc chia sẻ cùng một đầu ra.
-đã xem xét: false
+reviewed: false

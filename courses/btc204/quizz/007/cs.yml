@@ -6,4 +6,4 @@ wrong_answers:
   - Je to akt spojení několika bloků v blockchainu.
 explanation: |
   Když uživatel nemá žádné UTXO větší nebo rovné částce, kterou si přeje poslat, musí použít několik svých UTXO, aby pokryl výstupy. Tato praxe se nazývá "merging".
-recenzováno: false
+reviewed: false

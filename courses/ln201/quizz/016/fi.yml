@@ -6,4 +6,4 @@ wrong_answers:
   - Se on osoite, josta Bob lähettää rahaa kanavan avaamiseksi.
 explanation: |
   Kanavan avaamisprosessissa Alice luo 2/2 multi-sig osoitteen käyttäen hänen ja Bobin julkisia osoitteita. Tämän jälkeen hän tekee bitcoin-siirron lähettääkseen rahaa tähän osoitteeseen kanavan avaamiseksi.
-arvioitu: false
+reviewed: false

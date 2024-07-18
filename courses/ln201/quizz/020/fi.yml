@@ -6,4 +6,4 @@ wrong_answers:
   - P2P-viestintä, Maksukanava, Ripple-siirto
 explanation: |
   Lightning-verkossa on kolme erilaista viestintätasoa; P2P-viestintä (Lightning-verkon protokolla), Maksukanava (Lightning-verkon protokolla) ja Bitcoin-siirto (Bitcoin-protokolla).
-arvioitu: false
+reviewed: false

@@ -8,4 +8,4 @@ explanation: |
   Tavallisten lasten avainten indeksialue on 0:sta 2 potenssiin
   31 miinus 1, kun taas kovennettujen lasten avainten indeksialue on 2 potenssiin
   31:stä 2 potenssiin 32 miinus 1.
-arvioitu: false
+reviewed: false

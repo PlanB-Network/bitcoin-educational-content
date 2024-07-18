@@ -10,4 +10,4 @@ wrong_answers:
 explanation: |
   Ilmoitustransaktio mahdollistaa maksukoodin välittämisen lähettäjältä vastaanottajalle, jotta jälkimmäinen voi tietää sen ja löytää sen myöhemmin vain siemenensä avulla lompakon palautuksen yhteydessä. Kuten sen nimi viittaa, sillä on myös ilmoitustehtävä.
 
-arvioitu: false
+reviewed: false

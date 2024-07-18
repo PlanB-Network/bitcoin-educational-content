@@ -8,4 +8,4 @@ explanation: |
   Kết quả của HMAC SHA-512 là một số 512-bit, được chia thành hai phần;
   256 bit bên trái nhất đại diện cho khóa riêng tư chính, trong khi 256 bit bên phải nhất
   đại diện cho mã chuỗi chính.
-đã xem xét: false
+reviewed: false

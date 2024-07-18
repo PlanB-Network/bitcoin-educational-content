@@ -10,4 +10,4 @@ wrong_answers:
 explanation: |
   Jos samaa osoitetta käytetään useissa transaktioissa, on mahdollista päätellä, että kaikki kyseiseen osoitteeseen liitetyt bitcoinit kuuluvat samalle henkilölle.
 
-arvioitu: false
+reviewed: false

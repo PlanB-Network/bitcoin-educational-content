@@ -6,4 +6,4 @@ wrong_answers:
   - Zašifrovat transakce pro zabezpečení.
 explanation: |
   Alice žádá Boba o podpis jeho veřejným klíčem před publikováním transakcí. To je proto, aby mohla sama obnovit své prostředky, pokud by se něco pokazilo, jelikož už má Bobův podpis.
-recenzováno: false
+reviewed: false

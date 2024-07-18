@@ -10,4 +10,4 @@ explanation: |
   který zahrnuje dosažení konsensu v síti, kde některé uzly mohou být chybné
   nebo zákeřné. Bitcoin tento problém řeší pomocí blockchainu založeného
   na důkazu práce (Proof of Work), což zajišťuje, že všechny uzly souhlasí se stavem historie transakcí.
-recenzováno: false
+reviewed: false

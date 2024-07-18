@@ -8,4 +8,4 @@ explanation: |
   Rozsah indexu normálních dětských klíčů je od 0 do 2 na mocninu
   31 mínus 1, zatímco rozsah indexu zpevněných dětských klíčů je od 2 na mocninu
   31 do 2 na mocninu 32 mínus 1.
-recenzováno: false
+reviewed: false

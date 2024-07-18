@@ -7,4 +7,4 @@ wrong_answers:
 explanation: |
   Ví nóng là một ví dùng để lưu trữ một lượng nhỏ Bitcoin trực tuyến.
   Nó được coi là kém an toàn hơn ví lạnh vì dễ bị hack hơn.
-đã xem xét: false
+reviewed: false

@@ -6,4 +6,4 @@ wrong_answers:
   - Vahvistamattomat transaktiotulosteet
 explanation: |
   UTXOt eli "Käyttämättömät transaktiotulosteet" edustavat käyttäjälle kuuluvia käyttämättömiä transaktiotulosteita. Näiden bitcoinien käyttämiseksi on osoitettava omistajuus yksityisavaimella, joka vastaa kutakin UTXOon liitettyä julkista avainta.
-arvioitu: false
+reviewed: false

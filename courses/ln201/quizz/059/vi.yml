@@ -6,4 +6,4 @@ wrong_answers:
   - Tất cả các giao dịch HTLC đang diễn ra được hủy bỏ.
 explanation: |
   Trong trường hợp đóng kênh bắt buộc, tất cả các giao dịch HTLC đang diễn ra được công bố. Điều này có thể trở nên rất tốn kém và rối rắm do sự phức tạp và số lượng giao dịch liên quan.
-đã xem xét: false
+reviewed: false

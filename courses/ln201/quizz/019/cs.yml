@@ -7,4 +7,4 @@ wrong_answers:
 explanation: |
   Aby Alice financovala kanál, který otevírá s Bobem, vytvoří transakci
   se 2 UTXO jako výstup; jeden na 2/2 multi-sig adresu a jeden na jednu z jejích adres pro vrácení peněz.
-recenzováno: false
+reviewed: false

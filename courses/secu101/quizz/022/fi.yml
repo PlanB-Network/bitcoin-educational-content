@@ -6,4 +6,4 @@ wrong_answers:
   - Liitä USB-tikku ja tarkista sitten virukset.
 explanation: |
   Tuntemattomien tai epäilyttävien USB-tikkujen liittäminen voi altistaa järjestelmän haittaohjelmille, jotka voivat käynnistyä automaattisesti liittämisen yhteydessä. USB-tikun tarkistaminen on hyödytöntä, kun se on jo liitetty.
-arvioitu: false
+reviewed: false

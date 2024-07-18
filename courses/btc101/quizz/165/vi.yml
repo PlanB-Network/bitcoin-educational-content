@@ -10,4 +10,4 @@ wrong_answers:
 explanation: >-
   Giao thức Bitcoin đảm bảo thời gian trung bình giữa hai khối luôn ổn định bằng cách điều chỉnh độ khó của việc tìm ra một hash hợp lệ sau mỗi 2016 khối. Điều này diễn ra bất kể số lượng người đào và sức mạnh tính toán của họ.
 
-đã xem xét: false
+reviewed: false

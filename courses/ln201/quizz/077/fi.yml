@@ -8,4 +8,4 @@ explanation: |
   Lightning Network -laskussa 'ln' tarkoittaa Lightningia, viitaten
   Lightning Networkiin, joka on Bitcoinin toisen kerroksen ratkaisu, mahdollistaen nopeat, edulliset
   transaktiot.
-arvioitu: false
+reviewed: false

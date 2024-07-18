@@ -6,4 +6,4 @@ wrong_answers:
   - Hromadné utrácení
 explanation: |
   Interpretací této struktury je, že jsme svědky operace typu "sweep", což znamená samopřevod bitcoinů.
-recenzováno: false
+reviewed: false

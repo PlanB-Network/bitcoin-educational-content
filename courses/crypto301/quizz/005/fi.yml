@@ -8,4 +8,4 @@ explanation: |
   Kryptografisen hajautusfunktion lopullinen tavoite on muuntaa mielivaltaisen kokoiset
   tiedot kiinteänkokoiseksi sormenjäljeksi. Tämä sormenjälki on yksilöllinen syötetiedoille,
   ja jopa pieni muutos syötteessä johtaa merkittävästi erilaiseen sormenjälkeen.
-arvioitu: false
+reviewed: false

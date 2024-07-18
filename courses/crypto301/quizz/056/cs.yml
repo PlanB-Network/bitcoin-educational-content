@@ -6,4 +6,4 @@ wrong_answers:
   - Je to digitální podpis majitele peněženky.
 explanation: |
   Seed v Bitcoinové peněžence má být náhodné nebo pseudonáhodné číslo. Tento seed umožňuje generování více klíčů, které jsou nezbytné pro vlastnictví kryptoměny.
-recenzováno: false
+reviewed: false

@@ -10,4 +10,4 @@ wrong_answers:
 explanation: |
   OP_RETURN on operaatiokoodi, joka ilmaisee kelvottoman skriptin, tehden sisältämästään tuloksesta todistettavasti käyttökelvottoman. Näin ollen, verkon solmut voivat poistaa tämän tuloksen UTXO-joukostaan. OP_RETURNia käytetään usein tallentamaan mielivaltaista dataa lohkoketjuun.
 
-arvioitu: false
+reviewed: false

@@ -10,4 +10,4 @@ wrong_answers:
 explanation: |
   Jos huomaat tarvitsevasi yhdistää bitcoinejasi, priorisoi ensisijaisesti samasta lähteestä peräisin olevien UTXO:jen yhdistäminen.
 
-arvioitu: false
+reviewed: false

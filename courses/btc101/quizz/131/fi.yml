@@ -6,4 +6,4 @@ vaarat_vastaukset:
   - Se hallinnoi Bitcoin-verkkoa.
 explanation: >-
   Bitcoin-solmu Bitcoin-verkossa käsittelee uusien lohkojen ja niissä olevien transaktioiden validoinnin. Juuri tämän Bitcoin-solmujen verkoston kautta verkko on todella hajautettu.
-arvioitu: false
+reviewed: false

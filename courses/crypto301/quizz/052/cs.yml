@@ -6,4 +6,4 @@ wrong_answers:
   - Standardizoval strukturu a hierarchii HD peněženek.
 explanation: |
   BIP38 navrhl přidání dalšího hesla pro posílení bezpečnosti jednotlivých klíčů. To je jedno z mnoha vylepšení učiněných pro zvýšení bezpečnosti a funkčnosti HD peněženek.
-recenzováno: false
+reviewed: false

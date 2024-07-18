@@ -6,4 +6,4 @@ wrong_answers:
   - Ověřuje přesnost fráze pro obnovu.
 explanation: |
   Entropie je základním kamenem bezpečnosti HD peněženky. Je zásadní, aby tato entropie byla náhodná nebo pseudonáhodná, aby byla zaručena bezpečnost peněženky.
-recenzováno: false
+reviewed: false

@@ -6,4 +6,4 @@ wrong_answers:
   - Chúng là công nghệ mới hơn, vì vậy chúng phải tốt hơn
 explanation: |
   Các thiết bị mã hóa vật lý cung cấp mức độ bảo mật tối ưu vì chúng tạo ra một khóa riêng biệt duy nhất cho mỗi trang web và xác minh URL trước khi cho phép kết nối. Điều này làm cho việc hacker đạt được quyền truy cập trái phép trở nên khó khăn hơn nhiều.
-đã xem xét: false
+reviewed: false

@@ -6,4 +6,4 @@ wrong_answers:
   - Để khai thác bitcoins mới.
 explanation: |
   Ví lạnh là một loại ví Bitcoin không được kết nối với internet, làm cho nó ít dễ bị hack và trộm cắp. Nó thường được sử dụng để lưu trữ bitcoins không cần thiết cho các giao dịch hàng ngày.
-đã xem xét: false
+reviewed: false

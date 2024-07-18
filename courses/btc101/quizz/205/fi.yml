@@ -6,4 +6,4 @@ wrong_answers:
   - Varmistaaksesi, että Bitcoinisi ovat aina saatavilla.
 explanation: >-
   Tekstissä mainitaan, että UTXO:idesi yhdistäminen lompakoissasi ajoittain on olennaista bitcoiniesi tehokkaan hallinnan kannalta ja tarpeettomien maksujen välttämiseksi transaktioiden aikana.
-arvioitu: false
+reviewed: false

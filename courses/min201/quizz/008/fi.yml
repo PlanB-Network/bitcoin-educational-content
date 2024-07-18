@@ -8,4 +8,4 @@ explanation: |
   ASICit ovat siruja, verrattavissa CPU-siruun, kuitenkin, ne on kehitetty
   suorittamaan vain yhtä tiettyä laskentatyyppiä mahdollisimman tehokkaasti.
   Bitcoin ASICien tapauksessa ne on suunniteltu SHA256-algoritmin laskentaan.
-arvioitu: false
+reviewed: false

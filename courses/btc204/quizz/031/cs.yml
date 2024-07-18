@@ -6,4 +6,4 @@ wrong_answers:
   - Ten s neznámou adresou.
 explanation: |
   Pokud dojde k opětovnému použití adresy v rámci téže transakce, je rozumné předpokládat, že uživatel stále vlastní přidružený UTXO. Proto je výstup se stejnou adresou jako vstup pravděpodobně vrácením peněz.
-recenzováno: false
+reviewed: false

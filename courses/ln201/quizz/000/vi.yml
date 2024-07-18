@@ -8,4 +8,4 @@ explanation: |
   Khi một kênh thanh toán Lightning được mở, nó được cấp một dung lượng cố định,
   được xác định trước bởi người dùng. Dung lượng này đại diện cho lượng Bitcoin tối đa
   có thể được chuyển trong kênh vào bất kỳ thời điểm nào.
-đã xem xét: false
+reviewed: false

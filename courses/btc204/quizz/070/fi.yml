@@ -10,4 +10,4 @@ wrong_answers:
 explanation: |
   Jos käytät solmua, joka ei kuulu sinulle, riskinä on, että transaktioiden lähetys estetään ja toimintaasi seurataan operaattorin toimesta.
 
-arvioitu: false
+reviewed: false

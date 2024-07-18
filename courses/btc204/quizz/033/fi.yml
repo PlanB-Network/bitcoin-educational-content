@@ -6,4 +6,4 @@ wrong_answers:
   - Pyöreä tuloste on varausosoite.
 explanation: |
   Kohdatessamme yksinkertaisen maksukaavan (1 syöte ja 2 tulostetta), jos toisessa tulosteessa käytetään pyöreää summaa, se edustaa maksua. Se siis poistuu syötteen käyttäjän hallusta.
-arvioitu: false
+reviewed: false

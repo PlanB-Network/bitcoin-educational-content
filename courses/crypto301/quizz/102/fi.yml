@@ -8,4 +8,4 @@ explanation: |
   Lapsen julkinen avain saadaan kertomalla lapsen yksityinen avain
   elliptisen käyrän generaattorilla. Tämä on osa matemaattisia laskelmia,
   joita käytetään lapsiavainten johdannassa.
-arvioitu: false
+reviewed: false

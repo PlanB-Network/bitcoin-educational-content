@@ -10,4 +10,4 @@ wrong_answers:
 explanation: |
   Thuật toán ECDH (Elliptic-Curve Diffie-Hellman) được sử dụng trong Thanh toán Ẩn danh giữa cặp khóa quét của người nhận và tổng của cặp khóa của người gửi để thiết lập bí mật chung, từ đó cho phép tạo ra địa chỉ thanh toán duy nhất.
 
-đã xem xét: false
+reviewed: false

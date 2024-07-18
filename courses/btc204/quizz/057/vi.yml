@@ -10,4 +10,4 @@ wrong_answers:
 explanation: |
   Nếu cùng một địa chỉ được sử dụng cho nhiều giao dịch, việc suy luận rằng tất cả bitcoin liên quan đến địa chỉ đó thuộc về cùng một người trở nên khả thi.
 
-đã xem xét: false
+reviewed: false

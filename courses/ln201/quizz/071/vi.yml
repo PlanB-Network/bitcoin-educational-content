@@ -8,4 +8,4 @@ explanation: |
   Yếu tố ngẫu nhiên trong quá trình định tuyến của Lightning Network được sử dụng
   để tránh việc luôn sử dụng cùng một lộ trình. Điều này giúp phân tán tải trọng trên
   mạng và tăng cơ hội tìm ra một lộ trình thành công cho một giao dịch.
-đã xem xét: false
+reviewed: false

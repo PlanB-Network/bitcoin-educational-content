@@ -7,4 +7,4 @@ wrong_answers:
 explanation: |
   Open-source peněženky umožňují uživatelům ověřit generování náhodného
   čísla, což je klíčový krok pro zajištění bezpečnosti soukromých klíčů a transakcí s Bitcoinem.
-recenzováno: false
+reviewed: false

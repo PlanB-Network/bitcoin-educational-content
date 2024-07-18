@@ -6,4 +6,4 @@ wrong_answers:
   - Vanhentunut laitteisto.
 explanation: |
   Tietoturva-aukot johtuvat usein ihmisen huolimattomuudesta, kuten oletussalasanojen käytöstä tai salasanojen kirjoittamisesta turvattomiin paikkoihin. Monimutkaiset hyökkäykset eivät aina ole tarpeen tietokoneturvallisuuden vaarantamiseksi.
-arvioitu: false
+reviewed: false

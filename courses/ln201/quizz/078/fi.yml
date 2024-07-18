@@ -8,4 +8,4 @@ explanation: |
   Lightning Network -lasku on tiivis esitys maksupyyntöstä.
   Se sisältää keskeistä tietoa, kuten maksettavan summan, vastaanottajan, luontiajanhetken,
   ja mahdollisesti muita tietoja, kuten esikuvan hashin, maksusalaisuuden, reititysvihjeet ja vanhentumisajan.
-arvioitu: false
+reviewed: false

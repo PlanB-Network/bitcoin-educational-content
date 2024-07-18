@@ -6,4 +6,4 @@ wrong_answers:
   - Ei kumpikaan.
 explanation: |
   Kun yksinkertaisessa maksutapahtumassa kahden ulostulon välillä on riittävän suuri ero, voidaan arvioida, että suurempi ulostulo on todennäköisesti vaihtoraha.
-arvioitu: false
+reviewed: false

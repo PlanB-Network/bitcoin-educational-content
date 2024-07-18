@@ -8,4 +8,4 @@ explanation: |
   Lightning Network -laskussa 'bc' tarkoittaa Bitcoin pääverkkoa. Tämä
   osoittaa, että maksupyyntö on Bitcoin pääverkolle, eikä testiverkolle
   tai muulle verkostolle.
-arvioitu: false
+reviewed: false

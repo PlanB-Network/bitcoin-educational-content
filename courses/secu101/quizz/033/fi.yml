@@ -8,4 +8,4 @@ wrong_answers:
 explanation: |
   Vaikka pilvivarmuuskopiointipalvelut tarjoavat kätevän tavan varmuuskopioida
   tietosi, ne myös tarkoittavat, että tietosi ovat mahdollisesti internetissä ja luotetun kolmannen osapuolen hallussa. Tämä voi mahdollisesti altistaa tietosi lisäriskeille.
-arvioitu: false
+reviewed: false

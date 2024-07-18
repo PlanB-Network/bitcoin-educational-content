@@ -7,4 +7,4 @@ wrong_answers:
 explanation: |
   Bob tạo ra một khóa bí mật S và tính toán hash r. Khóa bí mật này được sử dụng
   để mở khóa các HTLC được thiết lập bởi Alice và Susie.
-đã xem xét: false
+reviewed: false

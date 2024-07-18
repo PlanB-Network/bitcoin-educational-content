@@ -6,4 +6,4 @@ wrong_answers:
   - Bitcoinisi siirretään toiseen lompakkoon
 explanation: |
   Jos et omista Bitcoin-lompakkosi yksityistä avainta, bitcoinisi ovat alttiina riskeille, kuten hakkeroinnille, takavarikoinnille, sääntelylle tai konkurssille.
-arvioitu: false
+reviewed: false

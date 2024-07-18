@@ -6,4 +6,4 @@ wrong_answers:
   - 5 UTXOa syötteissä ja 5 UTXOa tulosteissa
 explanation: |
   Yksinkertaistetussa maksussa käyttäjä käyttää yhtä tai useampaa UTXOa syötteinä täyttääkseen tulosteissa maksu-UTXOn ja vaihtorahan UTXOn (eli 2 UTXOa).
-arvioitu: false
+reviewed: false

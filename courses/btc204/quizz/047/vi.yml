@@ -10,4 +10,4 @@ wrong_answers:
 explanation: |
   Giao dịch thông báo cho phép truyền đạt mã thanh toán từ người gửi đến người nhận, để người nhận có thể biết và tìm thấy mã đó sau này chỉ từ seed của họ trong trường hợp khôi phục ví. Như tên gọi của nó, nó cũng đóng vai trò thông báo.
 
-đã xem xét: false
+reviewed: false

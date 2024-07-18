@@ -6,4 +6,4 @@ wrong_answers:
   - Ne saattavat tulla hajautetummiksi.
 explanation: >-
   Perinteiset rahansiirtopalvelut kuten Western Union, keskuspankit, Visa ja Mastercard saattavat kadota, jos ne eivät omaksu Lightning Network -teknologiaa.
-arvioitu: false
+reviewed: false

@@ -10,4 +10,4 @@ explanation: |
   satoja tuhansia tapahtumia alle 10 minuutissa. Tämä tekisi Bitcoin-solmun pyörittämisestä
   keskiverto henkilölle saavuttamattoman, vaarantaen protokollan hajautuksen
   sekä tapahtumien ja konsensus sääntöjen muuttumattomuuden.
-arvioitu: false
+reviewed: false

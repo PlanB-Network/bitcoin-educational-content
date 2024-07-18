@@ -6,4 +6,4 @@ vaarat_vastaukset:
   - Secure Hash Algorithm 2 (SHA-2)
 explanation: |
   Bitcoin hyödyntää Elliptic Curve Digital Signature Algorithm (ECDSA) -algoritmia yhdistääkseen yksityiset ja julkiset avaimet.
-arvioitu: false
+reviewed: false

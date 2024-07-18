@@ -6,4 +6,4 @@ wrong_answers:
   - Käyttäjiä voitaisiin veloittaa tavaroiden kunnosta riippuen
 explanation: >-
   Lightning Networkin avulla on kuviteltavissa, että tätä järjestelmää voitaisiin käyttää tavaroiden vuokraamiseen. Käyttäjiä voitaisiin veloittaa minuutti- tai jopa sekuntikohtaisesti heidän käyttämänsä ajan mukaan.
-arvioitu: false
+reviewed: false

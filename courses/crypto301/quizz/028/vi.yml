@@ -6,4 +6,4 @@ wrong_answers:
   - Đầu Ra Giao Dịch Chưa Xác Nhận
 explanation: |
   UTXOs, hay "Đầu Ra Giao Dịch Chưa Tiêu," đại diện cho các đầu ra giao dịch chưa được tiêu của một người dùng. Để tiêu những bitcoin này, người ta phải chứng minh quyền sở hữu của khóa riêng tương ứng với khóa công khai liên kết với mỗi UTXO.
-đã xem xét: false
+reviewed: false

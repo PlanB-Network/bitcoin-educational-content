@@ -8,4 +8,4 @@ explanation: |
   Trong việc đóng kênh hợp tác, các giao dịch thanh toán bị gián đoạn và HTLCs được giải quyết.
   Điều này thường ít tốn kém hơn so với việc đóng cưỡng chế, nơi tất cả các giao dịch HTLC đang diễn ra
   được công bố.
-đã xem xét: false
+reviewed: false

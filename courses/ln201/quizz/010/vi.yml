@@ -6,4 +6,4 @@ wrong_answers:
   - Tất cả chúng đều được chia đều cho các bên tham gia.
 explanation: |
   Trong một giao dịch Bitcoin, tất cả bitcoin đều phải di chuyển. Điều này được gọi là UTXO (Unspent Transaction Output), nơi mà các bit của bitcoin sẽ rời đi chỉ để quay trở lại với chủ sở hữu sau đó.
-đã xem xét: false
+reviewed: false

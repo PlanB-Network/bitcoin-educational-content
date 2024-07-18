@@ -8,4 +8,4 @@ explanation: |
   Yhteisöllisessä sulkemisessa maksut keskeytyvät ja HTLC:t ratkaistaan.
   Tämä on yleensä vähemmän kallista kuin pakotettu sulkeminen, jossa kaikki käynnissä olevat HTLC-siirrot
   julkaistaan.
-arvioitu: false
+reviewed: false

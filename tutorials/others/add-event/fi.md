@@ -62,7 +62,7 @@ Esimerkiksi, YAML-tiedostosi voisi näyttää tältä:
   book_online: false
   book_in_person: false
   price_dollars: 0
-kuvaus: Ranskan suurin Bitcoin-konferenssi, jossa on yli 8 000 osallistujaa joka vuosi! kieli:
+description: Ranskan suurin Bitcoin-konferenssi, jossa on yli 8 000 osallistujaa joka vuosi! kieli:
     - fr
     - en
     - es
@@ -81,7 +81,7 @@ Jos organisaatiollasi ei vielä ole "*builder*" tunnistetta, voit lisätä sen [
 
 - Kun olet valmis tekemään muutoksia tähän tiedostoon, tallenna ne napsauttamalla `Commit changes...` -painiketta:
 ![tapahtuma](assets/10.webp)
-- Lisää otsikko muutoksillesi sekä lyhyt kuvaus:
+- Lisää otsikko muutoksillesi sekä lyhyt description:
 ![tapahtuma](assets/11.webp)
 - Napsauta vihreää `Propose changes` -painiketta:
 ![tapahtuma](assets/12.webp)

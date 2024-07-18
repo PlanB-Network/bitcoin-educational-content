@@ -28,7 +28,7 @@ Huomaa, että jos aiot suorittaa koko asiakirjan tarkistuksen ja tarkistamisen, 
 - Jos et ole aiemmin osallistunut PlanB Networkin sisällön luomiseen, sinun on luotava oma haarasi alkuperäisestä varastosta. Varaston haarauttaminen tarkoittaa kyseisen varaston kopion luomista omalle GitHub-tilillesi, mikä mahdollistaa projektissa työskentelyn alkuperäistä varastoa muuttamatta. Klikkaa `Fork this repository` -painiketta: ![typos](assets/08.webp)
 - Saavut sitten GitHubin muokkaussivulle: ![typot](assets/09.webp)- Tee tekstiisi tarvittavat muutokset korjataksesi havaitsemasi virheet. Älä pelkää, olet tällä hetkellä omassa haarassasi, joten tämä ei muuta mitään PlanB Network -sivustolla toistaiseksi. Esimerkiksi tässä, kuvitellaan, että muutin sanaa "entrées", koska siinä oli kirjoitusvirhe: ![typot](assets/10.webp)
 - Kun olet saanut dokumentin korjaukset valmiiksi, voit klikata vihreää `Commit Changes...` -painiketta. Commit on kuin välitön tilannekuva työstäsi tietyllä hetkellä, joka mahdollistaa muutosten historian säilyttämisen: ![typot](assets/11.webp)
-- Lisää otsikko muutoksillesi sekä lyhyt kuvaus: ![typot](assets/12.webp)
+- Lisää otsikko muutoksillesi sekä lyhyt description: ![typot](assets/12.webp)
 - Klikkaa vihreää `Propose changes` -painiketta: ![typot](assets/13.webp)
 - Saavut sitten sivulle, joka tiivistää kaikki tekemäsi muutokset: ![typot](assets/14.webp)
 - Vierittämällä alas voit nähdä tekemäsi tarkat muutokset: ![typot](assets/15.webp)

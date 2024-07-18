@@ -59,7 +59,7 @@ tags:
 ![kirja](assets/09.webp)
 - Kun olet valmis tekemään muutokset tähän tiedostoon, tallenna ne klikkaamalla `Commit changes...` -nappia:
 ![kirja](assets/10.webp)
-- Lisää muutoksillesi otsikko sekä lyhyt kuvaus: ![kirja](assets/11.webp)
+- Lisää muutoksillesi otsikko sekä lyhyt description: ![kirja](assets/11.webp)
 - Klikkaa vihreää `Ehdota muutoksia` -painiketta: ![kirja](assets/12.webp)
 - Tämän jälkeen päädyt sivulle, joka tiivistää kaikki tekemäsi muutokset: ![kirja](assets/13.webp)
 - Klikkaa GitHub-profiilikuvakettasi oikeassa yläkulmassa, sitten `Omat Repositoriot`: ![kirja](assets/14.webp)

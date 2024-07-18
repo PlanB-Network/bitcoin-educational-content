@@ -85,7 +85,7 @@ contributors:
 
 - Kun olet valmis tekemään muutoksia tähän tiedostoon, tallenna ne napsauttamalla `Commit changes...` -painiketta:
 ![podcast](assets/10.webp)
-- Lisää muutoksillesi otsikko sekä lyhyt kuvaus:
+- Lisää muutoksillesi otsikko sekä lyhyt description:
 ![podcast](assets/11.webp)
 - Napsauta vihreää `Propose changes` -painiketta:
 ![podcast](assets/12.webp)

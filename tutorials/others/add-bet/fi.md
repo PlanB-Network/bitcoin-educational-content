@@ -1,6 +1,6 @@
 ---
-nimi: Lisäämässä Opetusvälineitä
-kuvaus: Miten lisätä uusia opetusmateriaaleja PlanB-verkkoon?
+name: Lisäämässä Opetusvälineitä
+description: Miten lisätä uusia opetusmateriaaleja PlanB-verkkoon?
 ---
 ![tapahtuma](assets/cover.webp)
 
@@ -75,7 +75,7 @@ links:
 ![event](assets/09.webp)
 - Kun olet saanut tiedoston muokkaukset valmiiksi, tallenna ne napsauttamalla `Commit changes...` -painiketta:
 ![event](assets/10.webp)
-- Lisää otsikko muutoksillesi sekä lyhyt kuvaus:
+- Lisää otsikko muutoksillesi sekä lyhyt description:
 ![event](assets/11.webp)
 - Napsauta vihreää `Propose changes` -painiketta:
 ![event](assets/12.webp)
@@ -172,7 +172,7 @@ Mitä tässä teemme, on tulevan tiedostosi linkin ennakoiminen, kun ehdotuksesi
 ![tapahtuma](assets/48.webp)
 - Kun muutoksesi ovat valmiit, napsauta `Commit changes...` -painiketta:
 ![tapahtuma](assets/49.webp)
-- Lisää muutoksillesi otsikko sekä lyhyt kuvaus:
+- Lisää muutoksillesi otsikko sekä lyhyt description:
 ![tapahtuma](assets/50.webp)
 - Napsauta vihreää `Commit changes` -painiketta:
 ![tapahtuma](assets/51.webp)

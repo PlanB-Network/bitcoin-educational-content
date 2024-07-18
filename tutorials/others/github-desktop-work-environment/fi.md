@@ -1,6 +1,6 @@
 ---
-nimi: GitHub Desktop
-kuvaus: Miten pystytät paikallisen työympäristösi?
+name: GitHub Desktop
+description: Miten pystytät paikallisen työympäristösi?
 ---
 ![github](assets/cover.webp)
 

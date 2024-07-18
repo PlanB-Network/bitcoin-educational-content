@@ -1,6 +1,6 @@
 ---
-nimi: Osallistuminen - Oppaat
-kuvaus: Kuinka ehdottaa uutta opasta PlanB-verkostoon?
+name: Osallistuminen - Oppaat
+description: Kuinka ehdottaa uutta opasta PlanB-verkostoon?
 ---
 ![kansi](assets/cover.webp)
 

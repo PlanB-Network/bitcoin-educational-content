@@ -71,7 +71,7 @@ Tässä mitä kullekin avaimelle tulee täyttää:
 	- `manufacturer`.
 Esimerkiksi YAML-tiedostosi voisi näyttää tältä:
 ```yaml
-nimi: Bitcoin Baguette
+name: Bitcoin Baguette
 
 osoite_rivi_1: Pariisi, Ranska
 osoite_rivi_2:
@@ -98,7 +98,7 @@ kategoria: koulutus
 ![rakentaja](assets/09.webp)
 - Kun olet saanut muutokset valmiiksi tähän tiedostoon, tallenna ne napsauttamalla `Commit changes...` -painiketta:
 ![rakentaja](assets/10.webp)
-- Lisää muutoksillesi otsikko sekä lyhyt kuvaus:
+- Lisää muutoksillesi otsikko sekä lyhyt description:
 ![rakentaja](assets/11.webp)
 - Napsauta vihreää `Propose changes` -painiketta:
 ![rakentaja](assets/12.webp)

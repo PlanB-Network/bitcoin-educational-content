@@ -1,5 +1,5 @@
 question: Thực hành nào được khuyến nghị khi cắm USB vào máy tính của bạn?
-Câu trả lời: Không nên cắm USB không rõ nguồn gốc hoặc đáng ngờ.
+answer: Không nên cắm USB không rõ nguồn gốc hoặc đáng ngờ.
 wrong_answers:
   - Cắm bất kỳ USB nào mà không kiểm tra.
   - Luôn định dạng USB trước khi cắm.

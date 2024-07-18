@@ -1,5 +1,5 @@
 question: Nhiệm vụ đơn giản nhất để quản lý thanh khoản trên Mạng Lưới Lightning là gì?
-Câu trả lời: Mở kênh cho người mua
+answer: Mở kênh cho người mua
 wrong_answers:
   - Kết nối với các nút khác cho người bán
   - Duy trì một lượng thanh khoản cân bằng ở cả hai phía cho các nút định tuyến

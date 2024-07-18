@@ -1,6 +1,6 @@
 question: Số lượng từ trong cụm từ khôi phục được xác định như thế nào trong quá trình tạo cụm từ ghi nhớ cho ví Bitcoin?
 
-Câu trả lời: Nó phụ thuộc vào kích thước của entropy.
+answer: Nó phụ thuộc vào kích thước của entropy.
 
 wrong_answers:
   - Nó phụ thuộc vào kích thước của checksum.

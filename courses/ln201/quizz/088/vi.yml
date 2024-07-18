@@ -1,5 +1,5 @@
 question: Ba loại người trên Mạng Lưới Lightning là gì?
-Câu trả lời: Người mua, người bán hàng, và nút định tuyến
+answer: Người mua, người bán hàng, và nút định tuyến
 wrong_answers:
   - Người mua, người bán, và trung gian
   - Người dùng, người bán hàng, và nút

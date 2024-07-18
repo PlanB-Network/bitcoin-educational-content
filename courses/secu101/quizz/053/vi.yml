@@ -1,6 +1,6 @@
 question: Tại sao dữ liệu sinh trắc học được coi là kém an toàn hơn so với sự kết hợp của kiến thức và sở hữu trong 2FA?
 
-Câu trả lời: Dữ liệu sinh trắc học nên được giữ lại trên thiết bị xác thực và không được tiết lộ trực tuyến.
+answer: Dữ liệu sinh trắc học nên được giữ lại trên thiết bị xác thực và không được tiết lộ trực tuyến.
 
 wrong_answers:
   - Dữ liệu sinh trắc học dễ giả mạo hơn

@@ -1,6 +1,6 @@
 question: Ý nghĩa của điểm vô cực trong thuật toán ECDSA là gì?
 
-Câu trả lời: Nếu điểm P tính toán được là điểm vô cực, chữ ký được coi là không hợp lệ.
+answer: Nếu điểm P tính toán được là điểm vô cực, chữ ký được coi là không hợp lệ.
 
 wrong_answers:
   - Nếu điểm P tính toán được là điểm vô cực, chữ ký được coi là hợp lệ.

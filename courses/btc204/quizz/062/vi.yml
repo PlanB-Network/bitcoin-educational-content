@@ -1,6 +1,6 @@
 question: Trong những phương pháp sau, phương pháp nào không phải là một phương pháp lựa chọn phần tự động?
 
-Câu trả lời: Thanh toán Ẩn
+answer: Thanh toán Ẩn
 
 Các wrong_answers:
   - Branch-and-Bound

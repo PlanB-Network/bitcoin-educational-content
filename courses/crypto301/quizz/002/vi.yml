@@ -1,6 +1,6 @@
 question: Bốn đặc tính mà một hàm băm mật mã cần có để được công nhận là an toàn là gì?
 
-Câu trả lời: Khả năng không thể đảo ngược, khả năng chống giả mạo, khả năng chống va chạm, và khả năng chống tấn công hình ảnh thứ hai.
+answer: Khả năng không thể đảo ngược, khả năng chống giả mạo, khả năng chống va chạm, và khả năng chống tấn công hình ảnh thứ hai.
 
 wrong_answers:
   - Tốc độ, hiệu quả, khả năng chống va chạm, và khả năng không thể đảo ngược.

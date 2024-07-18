@@ -1,5 +1,5 @@
 question: Alice bắt đầu với bao nhiêu SAT trong ví dụ?
-Câu trả lời: 130,000 SAT.
+answer: 130,000 SAT.
 wrong_answers:
   - 100,000 SAT.
   - 90,000 SAT.

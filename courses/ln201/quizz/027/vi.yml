@@ -1,5 +1,5 @@
 question: Giao dịch rút tiền được thực hiện khi nào trong một chuyển khoản qua Lightning Network?
-Câu trả lời: Khi kênh được đóng.
+answer: Khi kênh được đóng.
 wrong_answers:
   - Khi chuyển khoản được thực hiện.
   - Khi kênh được mở.

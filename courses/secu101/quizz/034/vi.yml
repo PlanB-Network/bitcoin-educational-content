@@ -1,5 +1,5 @@
 question: Các tệp đính kèm và hình ảnh trong email có thể chứa gì?
-Câu trả lời: Malware
+answer: Malware
 wrong_answers:
   - Spam
   - Quảng cáo

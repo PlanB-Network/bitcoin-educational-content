@@ -1,5 +1,5 @@
 question: Sự khác biệt chính giữa duyệt web ẩn danh và sử dụng mạng TOR là gì?
-Câu trả lời: TOR che giấu địa chỉ IP của người dùng, trong khi duyệt web ẩn danh thì không.
+answer: TOR che giấu địa chỉ IP của người dùng, trong khi duyệt web ẩn danh thì không.
 wrong_answers:
   - Duyệt web ẩn danh và TOR là một.
   - Duyệt web ẩn danh che giấu địa chỉ IP của người dùng, trong khi TOR thì không.

@@ -1,6 +1,6 @@
 question: Mục tiêu chính của BIP47 là gì?
 
-Câu trả lời: Có một định danh duy nhất để nhận BTC mà không cần tái sử dụng địa chỉ.
+answer: Có một định danh duy nhất để nhận BTC mà không cần tái sử dụng địa chỉ.
 
 wrong_answers:
   - Tăng kích thước của các khối để giao dịch nhanh hơn.

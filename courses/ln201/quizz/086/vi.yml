@@ -1,5 +1,5 @@
 question: Các nhà buôn cần gì để quản lý tính thanh khoản trên Mạng Lưới Lightning?
-Câu trả lời: Họ cần tính thanh khoản đến từ các nút và diễn viên khác
+answer: Họ cần tính thanh khoản đến từ các nút và diễn viên khác
 wrong_answers:
   - Họ cần mở các kênh
   - Họ cần duy trì một cân bằng tính thanh khoản ở cả hai bên

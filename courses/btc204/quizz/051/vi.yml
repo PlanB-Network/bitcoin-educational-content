@@ -1,6 +1,6 @@
 question: Nhược điểm của Silent Payments so với BIP47 là gì?
 
-Câu trả lời: Người nhận phải quét gần như toàn bộ blockchain.
+answer: Người nhận phải quét gần như toàn bộ blockchain.
 
 wrong_answers:
   - Chúng tạo ra phí giao dịch cao hơn cho người gửi.

@@ -1,5 +1,5 @@
 question: Vai trò của điểm sinh trong đường cong elliptic là gì?
-Câu trả lời: Nó được sử dụng để tính toán điểm trên đường cong elliptic.
+answer: Nó được sử dụng để tính toán điểm trên đường cong elliptic.
 wrong_answers:
   - Nó được sử dụng để tạo nonce.
   - Nó được sử dụng để mã hóa các khóa.

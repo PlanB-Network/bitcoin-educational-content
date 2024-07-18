@@ -1,5 +1,5 @@
 question: Người dùng chuyển quyền sở hữu tiền của họ trong mạng lưới Bitcoin như thế nào?
-Câu trả lời: Bằng cách ký số các giao dịch bằng khóa riêng của họ.
+answer: Bằng cách ký số các giao dịch bằng khóa riêng của họ.
 wrong_answers:
   - Bằng cách trao đổi Bitcoin một cách vật lý.
   - Bằng cách gửi email cho người nhận.

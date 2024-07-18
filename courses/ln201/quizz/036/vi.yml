@@ -1,5 +1,5 @@
 question: Ai sở hữu chìa khóa thu hồi trong giao dịch cam kết của Alice?
-Câu trả lời: Chỉ có Alice.
+answer: Chỉ có Alice.
 wrong_answers:
   - Chỉ có Bob.
   - Cả Alice và Bob.

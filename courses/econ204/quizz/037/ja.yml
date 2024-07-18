@@ -1,9 +1,9 @@
-質問: 経済危機中にドイツで使用された緊急用のお金の用語は何ですか？
-回答: Notgeld
-誤った回答:
+question: 経済危機中にドイツで使用された緊急用のお金の用語は何ですか？
+answer: Notgeld
+wrong_answers:
   - Reichsmark
   - Euro
   - Deutsche Mark
-説明: |
+explanation: |
   ドイツの経済危機中には、「Notgeld」（緊急用のお金）が通常の通貨の不足に対処するために使用されました。
-レビュー済み: false
+reviewed: false

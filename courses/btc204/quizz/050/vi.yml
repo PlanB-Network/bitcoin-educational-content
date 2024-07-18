@@ -1,6 +1,6 @@
 question: Ưu điểm chính của Thanh toán Ẩn danh so với BIP47 là gì?
 
-Câu trả lời: Chúng không yêu cầu một giao dịch thông báo.
+answer: Chúng không yêu cầu một giao dịch thông báo.
 
 wrong_answers:
   - Chúng cung cấp sự riêng tư hoàn toàn cho giao dịch.

@@ -1,6 +1,6 @@
 question: Mục đích của việc Thực hiện Atomic Swap giữa LN và BTC trong Mạng Lưới Lightning là gì?
 
-Câu trả lời: Để cân bằng lại tính thanh khoản
+answer: Để cân bằng lại tính thanh khoản
 
 wrong_answers:
   - Để mở kênh

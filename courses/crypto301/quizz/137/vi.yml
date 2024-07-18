@@ -1,5 +1,5 @@
 question: Phương pháp nào được sử dụng để tính toán giá trị kiểm tra trong trường hợp của một tiêu chuẩn cũ?
-Câu trả lời: Băm SHA256 hai lần
+answer: Băm SHA256 hai lần
 wrong_answers:
   - Chương trình BCH
   - Hàm pbkdf2

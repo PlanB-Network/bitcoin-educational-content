@@ -1,8 +1,8 @@
-質問: サイバーセキュリティで使用されるプログラミング言語にはどのようなものがありますか？
-回答: Python, C, Java
-誤った回答:
+question: サイバーセキュリティで使用されるプログラミング言語にはどのようなものがありますか？
+answer: Python, C, Java
+wrong_answers:
   - HTML, CSS, JavaScript
   - Swift, Kotlin, Ruby
   - PHP, Perl, Lua
-説明: |
+explanation: |
   この章では、サイバーセキュリティで使用されるプログラミング言語としてPython、C、Javaを挙げています。

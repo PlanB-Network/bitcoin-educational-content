@@ -1,5 +1,5 @@
 question: Hai bên tham gia trong giao dịch Lightning Network trong ví dụ là ai?
-Câu trả lời: Alice và Bob.
+answer: Alice và Bob.
 wrong_answers:
   - Alice và Charlie.
   - Bob và Charlie.

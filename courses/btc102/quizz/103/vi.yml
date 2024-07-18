@@ -1,6 +1,6 @@
 question: Những hiểu lầm phổ biến về việc tạo kế hoạch thừa kế theo Pamela Morgan trong "Cryptoasset Inheritance Planning" là gì?
 
-Câu trả lời: Tôi cần thuê luật sư; Tôi cần tin tưởng một bên thứ ba; Việc lập kế hoạch sẽ làm cho tài sản của tôi dễ bị đánh cắp; Giá trị của tiền mã hóa của tôi quá thấp để lập kế hoạch; Người thừa kế của tôi sẽ tự tìm ra mọi thứ; Tất cả những điều này có thể được thực hiện với một hợp đồng thông minh đơn giản.
+answer: Tôi cần thuê luật sư; Tôi cần tin tưởng một bên thứ ba; Việc lập kế hoạch sẽ làm cho tài sản của tôi dễ bị đánh cắp; Giá trị của tiền mã hóa của tôi quá thấp để lập kế hoạch; Người thừa kế của tôi sẽ tự tìm ra mọi thứ; Tất cả những điều này có thể được thực hiện với một hợp đồng thông minh đơn giản.
 
 wrong_answers:
   - Tôi không cần thuê luật sư; Tôi không cần tin tưởng một bên thứ ba; Việc lập kế hoạch sẽ làm cho tài sản của tôi khó bị đánh cắp; Giá trị của tiền mã hóa của tôi quá cao để lập kế hoạch; Người thừa kế của tôi sẽ không tự tìm ra mọi thứ; Tất cả những điều này không thể được thực hiện với một hợp đồng thông minh đơn giản.

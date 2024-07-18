@@ -1,6 +1,6 @@
 question: Trong các yếu tố sau, yếu tố nào là cần thiết cho một giao dịch thành công trong hệ thống trao đổi hàng hóa?
 
-Câu trả lời: Sự trùng khớp kép về nhu cầu
+answer: Sự trùng khớp kép về nhu cầu
 
 Các wrong_answers:
   - Một đơn vị tính toán chung

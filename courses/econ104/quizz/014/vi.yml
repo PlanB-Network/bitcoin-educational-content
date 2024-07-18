@@ -1,5 +1,5 @@
 question: Vai trò của khóa riêng trong giao dịch Bitcoin là gì?
-Câu trả lời: Chúng được sử dụng để ký và ủy quyền cho giao dịch.
+answer: Chúng được sử dụng để ký và ủy quyền cho giao dịch.
 wrong_answers:
   - Chúng được sử dụng để xác minh tính xác thực của giao dịch.
   - Chúng được sử dụng để mã hóa dữ liệu giao dịch.

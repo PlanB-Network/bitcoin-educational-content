@@ -1,6 +1,6 @@
 question: Cụm từ nào được sử dụng với thuật toán HMAC SHA-512 để tính toán khóa riêng tư chính?
 
-Câu trả lời: Bitcoin SEED
+answer: Bitcoin SEED
 
 wrong_answers:
   - Bitcoin KEY

@@ -1,9 +1,9 @@
-質問: BTCMapとは何ですか？
-回答: Bitcoinを受け入れるすべての商人をリストアップしたプラットフォームです
-誤った回答:
+question: BTCMapとは何ですか？
+answer: Bitcoinを受け入れるすべての商人をリストアップしたプラットフォームです
+wrong_answers:
   - 世界中のすべてのBitcoin鉱山の地図
   - 世界中のすべてのBitcoin取引所の地図
   - 世界中のすべてのBitcoinユーザーの地図
-説明: >-
+explanation: >-
   BTCMapは、Bitcoinを受け入れるすべての商人と世界中の異なるBitcoinコミュニティをリストアップするオープンソースで共同のプロジェクトです。
-レビュー済み: false
+reviewed: false

@@ -1,5 +1,5 @@
 question: Khóa riêng trong ví Bitcoin là gì?
-Câu trả lời: Một khóa bí mật cho phép bạn ký các giao dịch của mình
+answer: Một khóa bí mật cho phép bạn ký các giao dịch của mình
 wrong_answers:
   - Một khóa công khai được sử dụng để tạo địa chỉ Bitcoin
   - Một danh sách bí mật các từ để phá hủy ví

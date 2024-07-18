@@ -1,6 +1,6 @@
 question: Lợi ích của việc sử dụng Passkeys như một phương án thay thế cho mật khẩu truyền thống là gì?
 
-Câu trả lời: Chúng cung cấp các khóa ngẫu nhiên được mã hóa kết hợp với một yếu tố cục bộ, được lưu trữ bởi một nhà cung cấp nhưng vẫn nằm ngoài tầm với của họ.
+answer: Chúng cung cấp các khóa ngẫu nhiên được mã hóa kết hợp với một yếu tố cục bộ, được lưu trữ bởi một nhà cung cấp nhưng vẫn nằm ngoài tầm với của họ.
 
 wrong_answers:
   - Chúng dễ nhớ hơn so với mật khẩu truyền thống.

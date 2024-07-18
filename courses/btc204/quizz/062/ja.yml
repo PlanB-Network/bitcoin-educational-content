@@ -1,11 +1,11 @@
-質問: これらの選択肢の中で、自動部品選択の方法ではないものはどれですか？
+question: これらの選択肢の中で、自動部品選択の方法ではないものはどれですか？
 
-回答: Silent Payments
+answer: Silent Payments
 
-誤った回答:
+wrong_answers:
   - Branch-and-Bound
   - FIFO
   - Knapsack Solver
 
-説明: |
+explanation: |
   他の3つの選択肢とは異なり、Silent Paymentsは部品を選択する方法ではなく、静的アドレスを使用するためのプロトコルです。

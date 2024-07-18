@@ -1,5 +1,5 @@
 question: Những khía cạnh nào của kiến thức mạng là cần thiết trong an ninh mạng?
-Câu trả lời: TCP/IP, VPN, tường lửa
+answer: TCP/IP, VPN, tường lửa
 wrong_answers:
   - HTTP, FTP, SMTP
   - POP3, IMAP, SSH

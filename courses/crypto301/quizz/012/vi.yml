@@ -1,5 +1,5 @@
 question: Vai trò của toán tử XOR trong hàm nén của SHA256 là gì?
-Câu trả lời: Để xử lý các bit một cách tuần tự theo thứ tự của chúng
+answer: Để xử lý các bit một cách tuần tự theo thứ tự của chúng
 wrong_answers:
   - Chỉ trả về 1 nếu cả hai toán hạng đều bằng 1
   - Trả về giá trị đối lập của một toán hạng

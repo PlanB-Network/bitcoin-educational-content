@@ -1,5 +1,5 @@
 question: Đơn vị nhỏ nhất của Bitcoin là gì?
-Câu trả lời: Satoshi
+answer: Satoshi
 wrong_answers:
   - Bit
   - Byte

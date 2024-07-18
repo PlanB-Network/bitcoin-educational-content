@@ -1,6 +1,6 @@
 question: Những yếu tố nào được xem xét khi ước lượng các tuyến đường thành công nhất có khả năng cao trong Mạng Lưới Lightning?
 
-Câu trả lời: Phí, thời gian hết hạn của HTLC, số lượng nút trung gian, và yếu tố ngẫu nhiên.
+answer: Phí, thời gian hết hạn của HTLC, số lượng nút trung gian, và yếu tố ngẫu nhiên.
 
 wrong_answers:
   - Kích thước giao dịch, chiều cao khối, và phí giao dịch.

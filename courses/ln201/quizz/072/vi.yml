@@ -1,5 +1,5 @@
 question: Vai trò của preimage hash trong quá trình định tuyến của Lightning Network là gì?
-Câu trả lời: Nó được người nhận sử dụng để lấy lại số tiền giao dịch bị khóa trong HTLC.
+answer: Nó được người nhận sử dụng để lấy lại số tiền giao dịch bị khóa trong HTLC.
 wrong_answers:
   - Nó được sử dụng để mã hóa dữ liệu giao dịch.
   - Nó được sử dụng để tính phí giao dịch.

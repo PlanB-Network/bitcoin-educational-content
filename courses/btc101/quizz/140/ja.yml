@@ -1,9 +1,9 @@
-質問: Bitcoinのブロックチェーンのサイズはどれくらいですか？
-回答: 約500GB
-誤った回答:
+question: Bitcoinのブロックチェーンのサイズはどれくらいですか？
+answer: 約500GB
+wrong_answers:
   - 約100GB
   - 約1TB
   - 約2TB
-説明: >-
+explanation: >-
   Bitcoinのブロックチェーンは、サイズが約500GBです。
-レビュー済み: false
+reviewed: false

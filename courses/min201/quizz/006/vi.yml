@@ -1,5 +1,5 @@
 question: Nhiệm vụ chính của các thợ đào trong mạng lưới Bitcoin là gì?
-Câu trả lời: Giải một câu đố số và xác thực một khối mới
+answer: Giải một câu đố số và xác thực một khối mới
 wrong_answers:
   - Tạo ra bitcoin mới
   - Kiểm soát giá của Bitcoin

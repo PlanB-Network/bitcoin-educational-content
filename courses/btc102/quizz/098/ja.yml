@@ -1,9 +1,9 @@
-質問: パラノイドなビットコイナーが使用するかもしれないウォレットにはどのようなものがありますか？
-回答: ホットウォレットにはSamouraiウォレット、コールドウォレットにはColdcardおよび/またはSeed Signer
-誤った回答:
+question: パラノイドなビットコイナーが使用するかもしれないウォレットにはどのようなものがありますか？
+answer: ホットウォレットにはSamouraiウォレット、コールドウォレットにはColdcardおよび/またはSeed Signer
+wrong_answers:
   - ホットウォレットにはCoinbaseウォレット、コールドウォレットにはLedger
   - ホットウォレットにはBinanceウォレット、コールドウォレットにはTrezor
   - ホットウォレットにはPayPal、コールドウォレットには銀行口座
-説明: |
+explanation: |
   この章では、パラノイドなビットコイナーが使用するかもしれないウォレットとして、ホットウォレットにSamouraiウォレット、コールドウォレットにColdcardおよび/またはSeed Signerを挙げています。
-レビュー済み: false
+reviewed: false

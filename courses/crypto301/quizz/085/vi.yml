@@ -1,6 +1,6 @@
 question: Tại sao thuật toán HMAC SHA-512 được sử dụng trong việc tạo ra khóa riêng tư chính và mã chuỗi chính?
 
-Câu trả lời: Bởi vì hàm SHA-512 không được triển khai ban đầu trong giao thức Bitcoin.
+answer: Bởi vì hàm SHA-512 không được triển khai ban đầu trong giao thức Bitcoin.
 
 wrong_answers:
   - Bởi vì đó là thuật toán duy nhất có thể tạo ra một số 512-bit.

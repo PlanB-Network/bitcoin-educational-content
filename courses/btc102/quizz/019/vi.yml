@@ -1,5 +1,5 @@
 question: Rủi ro liên quan đến việc lưu trữ Bitcoin trên một nền tảng giao dịch là gì?
-Câu trả lời: Nền tảng có thể phá sản, Bitcoin của bạn có thể bị tịch thu, hoặc nền tảng có thể bị hack.
+answer: Nền tảng có thể phá sản, Bitcoin của bạn có thể bị tịch thu, hoặc nền tảng có thể bị hack.
 wrong_answers:
   - Nền tảng có thể tăng phí, Bitcoin của bạn có thể mất giá, hoặc nền tảng có thể bị hack.
   - Nền tảng có thể phá sản, Bitcoin của bạn có thể tăng giá, hoặc nền tảng có thể bị hack.

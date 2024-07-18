@@ -1,8 +1,8 @@
-質問: Lightning Networkで使用されるBitcoinの単位は何ですか？
-回答: Sats
-誤った回答:
+question: Lightning Networkで使用されるBitcoinの単位は何ですか？
+answer: Sats
+wrong_answers:
   - Bitcoin
   - Ether
   - Litecoin
-説明: >-
+explanation: >-
   Lightning Networkは、ビットコインの小数単位であるsatsを使用して機能します。

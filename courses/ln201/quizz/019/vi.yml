@@ -1,5 +1,5 @@
 question: Alice tài trợ cho kênh mà cô ấy đang mở với Bob như thế nào?
-Câu trả lời: Cô ấy tạo một giao dịch với 2 UTXO làm đầu ra.
+answer: Cô ấy tạo một giao dịch với 2 UTXO làm đầu ra.
 wrong_answers:
   - Cô ấy gửi tiền trực tiếp đến địa chỉ công khai của Bob.
   - Cô ấy tạo một giao dịch với 1 UTXO làm đầu ra.

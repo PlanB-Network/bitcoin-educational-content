@@ -1,5 +1,5 @@
 question: Mục đích chính của chữ ký số trong giao thức Bitcoin là gì?
-Câu trả lời: Để chứng minh việc sở hữu một khóa riêng liên kết với một khóa công khai cụ thể
+answer: Để chứng minh việc sở hữu một khóa riêng liên kết với một khóa công khai cụ thể
 wrong_answers:
   - Để mã hóa dữ liệu giao dịch
   - Để tạo ra bitcoin mới

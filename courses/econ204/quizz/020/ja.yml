@@ -1,9 +1,9 @@
-質問: 最も認知されているハイパーインフレーションの定義を提案したのは誰ですか？
-回答: Philip Cagan
-誤った回答:
+question: 最も認知されているハイパーインフレーションの定義を提案したのは誰ですか？
+answer: Philip Cagan
+wrong_answers:
   - Bernholz
   - David
   - Hanke-Krus
-説明: |
+explanation: |
   ハイパーインフレーションの最も認知されている定義は、Philip Caganによって提案されました。彼は1956年の著作「The Monetary Dynamics of Hyperinflation」で、ハイパーインフレーションの定量的理解を提案しました。
-レビュー済み: false
+reviewed: false

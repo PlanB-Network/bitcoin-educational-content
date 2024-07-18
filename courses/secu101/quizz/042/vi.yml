@@ -1,5 +1,5 @@
 question: Tại sao việc sử dụng mật khẩu được tạo ngẫu nhiên lại quan trọng?
-Câu trả lời: Chúng cung cấp một mức độ bảo mật cao hơn và kháng cự tốt hơn với các cuộc tấn công bằng cách dùng lực br brute force.
+answer: Chúng cung cấp một mức độ bảo mật cao hơn và kháng cự tốt hơn với các cuộc tấn công bằng cách dùng lực br brute force.
 wrong_answers:
   - Chúng dễ nhớ hơn.
   - Chúng ngắn hơn và đơn giản hơn.

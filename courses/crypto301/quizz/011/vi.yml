@@ -1,5 +1,5 @@
 question: Các hằng số K đại diện cho điều gì trong quá trình xử lý của hàm SHA-256?
-Câu trả lời: 32 bit đầu tiên của phần thập phân của căn bậc ba của 64 số nguyên tố đầu tiên
+answer: 32 bit đầu tiên của phần thập phân của căn bậc ba của 64 số nguyên tố đầu tiên
 wrong_answers:
   - 32 bit đầu tiên của phần thập phân của căn bậc hai của 64 số nguyên tố đầu tiên
   - 32 bit đầu tiên của phần thập phân của căn bậc ba của 8 số nguyên tố đầu tiên

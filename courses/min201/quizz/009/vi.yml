@@ -1,6 +1,6 @@
 question: Vai trò của phần mềm trong việc đào Bitcoin là gì và nó góp phần như thế nào vào hiệu quả?
 
-Câu trả lời: Phần mềm trong việc đào Bitcoin, như BrainsOS Plus, thay thế hệ điều hành gốc của máy đào, cho phép thực hiện các thao tác một cách hiệu quả hơn. Nó có thể tăng hiệu suất của máy lên 25%, nghĩa là với lượng điện năng tương đương, máy có thể sản xuất thêm 25% hashrate, do đó tăng số phần thưởng mà người đào nhận được.
+answer: Phần mềm trong việc đào Bitcoin, như BrainsOS Plus, thay thế hệ điều hành gốc của máy đào, cho phép thực hiện các thao tác một cách hiệu quả hơn. Nó có thể tăng hiệu suất của máy lên 25%, nghĩa là với lượng điện năng tương đương, máy có thể sản xuất thêm 25% hashrate, do đó tăng số phần thưởng mà người đào nhận được.
 
 wrong_answers:
   - Phần mềm trong việc đào Bitcoin được sử dụng để theo dõi lượng Bitcoin đã đào và không góp phần vào hiệu quả.

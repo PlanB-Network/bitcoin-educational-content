@@ -1,0 +1,9 @@
+question: Jaký je dopad zvýšení peněžní zásoby na inflaci a deflaci v systému s pevnou peněžní zásobou?
+answer: Zvýšení peněžní zásoby eliminuje potenciální deflaci způsobenou zvýšením produkce.
+wrong_answers:
+  - Zvýšení peněžní zásoby vede k deflaci.
+  - Zvýšení peněžní zásoby nemá žádný dopad na inflaci ani deflaci.
+  - Zvýšení peněžní zásoby vede ke snížení produkce.
+explanation: |
+  Kapitola vysvětluje, že v systému s pevnou peněžní zásobou by teoreticky mělo zvýšení produkce vést k deflaci, tj. k poklesu cen, protože by bylo dostupnějších více zboží a služeb. Avšak v současném fiat měnovém systému zvýšení peněžní zásoby eliminuje potenciální deflaci způsobenou zvýšením produkce.
+reviewed: false

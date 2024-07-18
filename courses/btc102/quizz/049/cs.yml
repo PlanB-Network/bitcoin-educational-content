@@ -1,0 +1,11 @@
+question: Jaká je hlavní charakteristika peněženky typu DIY (Do It Yourself)?
+answer: Jedná se o 100% open source řešení, které lze vytvořit doma za účelem snížení rizik spojených s důvěrou vůči ostatním aktérům v řetězci produkce nebo tvorby.
+wrong_answers:
+  - Jedná se o hardwarové zařízení pro ukládání bitcoinů
+  - Jedná se o software pro těžbu bitcoinů
+  - Jedná se o platformu pro nákup a prodej bitcoinů
+explanation: |
+  Obsah kapitoly vysvětluje, že peněženky typu DIY (Do It Yourself) jsou 100%
+  open source řešení, která lze vytvořit doma za účelem snížení rizik spojených s důvěrou
+  vůči ostatním aktérům v řetězci produkce nebo tvorby.
+recenzováno: false

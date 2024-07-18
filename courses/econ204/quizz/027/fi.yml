@@ -1,0 +1,9 @@
+question: Mikä oli yleinen menetelmä, jota hallitukset käyttivät ylläpitääkseen normaaliuden vaikutelmaa talousromahduksen aikana?
+answer: Pakottamalla kauppiaat pitämään kauppansa auki.
+wrong_answers:
+  - Kannustamalla ulkomaista investointia.
+  - Verojen alentaminen.
+  - Julkisen menon lisääminen.
+explanation: |
+  Kun talous romahtaa ja valuutta menettää arvonsa, hallitukset voivat turvautua radikaaleihin toimenpiteisiin ylläpitääkseen normaaliuden vaikutelmaa. Yksi tällainen toimenpide on kauppiaiden pakottaminen pitämään kauppansa auki.
+arvioitu: false

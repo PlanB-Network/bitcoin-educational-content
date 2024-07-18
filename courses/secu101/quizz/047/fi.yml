@@ -1,0 +1,9 @@
+question: Mikä on kaksivaiheisen tunnistautumisen (2FA) tarkoitus?
+answer: Suojata verkkotilisi luvattomalta pääsyltä.
+vaarat_vastaukset:
+  - Vaikeuttaa sinun pääsyäsi omaan tilillesi
+  - Seurata verkkotoimintaasi
+  - Nopeuttaa internet-yhteytesi nopeutta
+explanation: |
+  Kaksivaiheinen tunnistautuminen (2FA) lisää ylimääräisen turvakerroksen verkkotileihisi. Vaikka hakkeri saisi salasanasi, hän ei pysty pääsemään tilillesi ilman toista vahvistustekijää.
+arvioitu: false

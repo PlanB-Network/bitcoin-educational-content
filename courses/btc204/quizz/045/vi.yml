@@ -1,0 +1,13 @@
+Câu hỏi: Mục tiêu chính của BIP47 là gì?
+
+Câu trả lời: Có một định danh duy nhất để nhận BTC mà không cần tái sử dụng địa chỉ.
+
+Câu trả lời sai:
+  - Tăng kích thước của các khối để giao dịch nhanh hơn.
+  - Cho phép giao dịch không mất phí trên mạng lưới Bitcoin.
+  - Làm cho giao dịch hoàn toàn ẩn danh trên Bitcoin.
+
+Giải thích: |
+  Mục tiêu của BIP47 là cung cấp một định danh duy nhất cho phép nhận bitcoin nhiều lần và từ nhiều người, nhưng mà không cần tái sử dụng địa chỉ, vì đây là một thực hành rất tồi tệ đối với quyền riêng tư của người dùng.
+
+Đã xem xét: false

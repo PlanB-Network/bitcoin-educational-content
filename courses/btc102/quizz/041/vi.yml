@@ -1,0 +1,9 @@
+question: Bitcoin bản địa thuộc về đâu?
+answer: Internet
+wrong_answers:
+  - Blockchain
+  - Hệ thống ngân hàng
+  - Thị trường chứng khoán
+explanation: |
+  Chương này nói rằng Bitcoin bản địa thuộc về internet, làm cho nó có thể truy cập được bởi bất kỳ ai có kết nối internet.
+đã xem xét: false

@@ -1,0 +1,11 @@
+question: Bitcoin thưởng cho người đào tìm ra hash hợp lệ cho khối tiếp theo như thế nào?
+answer: Với một phần thưởng được xác định bởi các quy tắc đồng thuận và phí giao dịch từ tất cả các giao dịch được bao gồm trong khối hợp lệ
+wrong_answers:
+  - Với một lượng Bitcoin cố định
+  - Với một phần trăm của tổng nguồn cung Bitcoin
+  - Với phí giao dịch từ tất cả các giao dịch được bao gồm trong khối hợp lệ
+explanation: >-
+  Giao thức Bitcoin thưởng cho người đào tìm ra hash hợp lệ cho
+  khối tiếp theo với một phần thưởng mà số lượng được xác định bởi các quy tắc đồng thuận, cũng
+  như phí giao dịch từ tất cả các giao dịch được bao gồm trong khối hợp lệ.
+đã xem xét: false

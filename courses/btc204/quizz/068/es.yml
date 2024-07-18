@@ -1,0 +1,13 @@
+pregunta: ¿Cómo podemos minimizar los impactos del COIH al consolidar UTXOs?
+
+respuesta: Consolidando solo UTXOs del mismo origen.
+
+respuestas_incorrectas:
+  - Enviando UTXOs a direcciones de terceros.
+  - Seleccionando UTXOs aleatoriamente para evitar patrones reconocibles.
+  - Consolidando UTXOs durante períodos de baja actividad.
+
+explicación: |
+  Si te encuentras en la necesidad de consolidar tus bitcoins, da prioridad a consolidar primero los UTXOs del mismo origen.
+
+revisado: false

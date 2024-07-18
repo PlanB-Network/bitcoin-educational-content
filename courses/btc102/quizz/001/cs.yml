@@ -1,0 +1,9 @@
+question: Jaký je běžný podvod související s online soutěžemi nebo darováním v kryptoměnovém sektoru?
+answer: Reklamy slibující zdarma bitcoiny.
+wrong_answers:
+  - Reklamy slibující fyzické zboží.
+  - Reklamy slibující zdarma fiat měnu.
+  - Reklamy slibující zdarma software.
+explanation: |
+  Podvody související s online soutěžemi nebo darováním jsou velmi běžné v kryptoměnovém sektoru. Reklamy slibující zdarma bitcoiny jsou často používány k oklamání nezkušených uživatelů.
+recenzováno: false

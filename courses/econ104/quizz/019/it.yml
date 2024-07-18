@@ -1,0 +1,12 @@
+domanda: Come fanno le stablecoin, come USDt, a mantenere una relativa stabilità di valore?
+risposta: Sono ancorate a un bene o valuta stabile.
+risposte_errate:
+  - Sono supportate da un'autorità centrale o un governo.
+  - Si affidano alla tecnologia blockchain per transazioni sicure.
+  - Sono soggette a fluttuazioni simili ad altre criptovalute.
+spiegazione: |
+  Le stablecoin mantengono una relativa stabilità di valore essendo ancorate 
+  a un bene o valuta più stabile, come il dollaro statunitense o l'oro.
+  Questo ancoraggio aiuta a mitigare la volatilità spesso associata ad altri 
+  asset digitali come Bitcoin.
+revisionato: true

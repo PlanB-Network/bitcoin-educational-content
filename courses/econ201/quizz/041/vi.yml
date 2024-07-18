@@ -1,0 +1,12 @@
+question: Vai trò của ngành ngân hàng trong việc kích hoạt một cuộc suy thoái theo Lý thuyết Chu kỳ Kinh doanh của Áo là gì?
+answer: Ngành ngân hàng kích hoạt một cuộc suy thoái khi quyết định giảm rủi ro của mình và do đó làm giảm dòng tín dụng.
+wrong_answers:
+  - Ngành ngân hàng kích hoạt một cuộc suy thoái khi quyết định tăng rủi ro của mình và do đó tăng dòng tín dụng.
+  - Ngành ngân hàng kích hoạt một cuộc suy thoái khi quyết định duy trì rủi ro của mình và do đó duy trì dòng tín dụng.
+  - Ngành ngân hàng không có vai trò trong việc kích hoạt một cuộc suy thoái theo Lý thuyết Chu kỳ Kinh doanh của Áo.
+explanation: |
+  Theo Lý thuyết Chu kỳ Kinh doanh của Áo, ngành ngân hàng
+  kích hoạt một cuộc suy thoái khi quyết định giảm rủi ro của mình và do đó làm giảm
+  dòng tín dụng. Điều này dẫn đến nhiều vụ phá sản, thắt chặt tín dụng, giảm
+  khả năng mua sắm có sẵn, và các cuộc khủng hoảng tài chính.
+đã xem xét: false

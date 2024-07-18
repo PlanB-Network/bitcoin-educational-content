@@ -1,0 +1,9 @@
+question: BitcoinマイニングにおけるASICの役割は何ですか？
+answer: ASICは、マイニングプロセスでSHA256アルゴリズムを適用するために特別に設計されたマシンです。
+wrong_answers:
+  - ASICはBitcoin取引の検証に使用されます。
+  - ASICは新しいbitcoinsを生成するために使用されます。
+  - ASICはBitcoinネットワークを保護するために使用されます。
+explanation: >-
+  ASIC（Application-Specific Integrated Circuits、アプリケーション特化型集積回路）は、Bitcoinマイニングのために特別に設計された専用ハードウェアです。これらはSHA256ハッシュ関数を実行するために最適化されており、これはマイナーがProof of Workで解決しなければならない数学的問題です。
+reviewed: false

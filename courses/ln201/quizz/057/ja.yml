@@ -1,0 +1,8 @@
+質問: AliceのコミットメントトランザクションにおけるHTLC-outの目的は何ですか？
+回答: それは、Aliceが受取人のSusieに送るHTLCを表しています。
+誤った回答:
+  - それは、AliceがBobから受け取るHTLCを表しています。
+  - それは、AliceがBobに送るHTLCを表しています。
+  - それは、AliceがSusieから受け取るHTLCを表しています。
+説明: |
+  このシナリオでは、AliceはSusieにHTLCを送ります。これはAliceのコミットメントトランザクションにおいてHTLC-outとして表されます。

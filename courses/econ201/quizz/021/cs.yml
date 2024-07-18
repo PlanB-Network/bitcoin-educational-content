@@ -1,0 +1,9 @@
+question: Podle Carla Mengera, jaká je podstata hodnoty?
+answer: Hodnota je subjektivní psychologický jev uvnitř jedince.
+wrong_answers:
+  - Hodnota je vnitřní vlastností zboží.
+  - Hodnota je objektivní a měřitelný jev.
+  - Hodnota je určena množstvím práce použité při výrobě.
+explanation: |
+  Podle Mengera je hodnota subjektivní psychologický jev uvnitř jedince. To znamená, že hodnota není vnitřní vlastností zboží, ale spíše pramení z názoru jedince na užitek, který mohou z těchto zboží získat.
+recenzováno: false

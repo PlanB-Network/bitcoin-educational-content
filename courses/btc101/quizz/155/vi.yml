@@ -1,0 +1,10 @@
+question: Các thợ đào được thưởng cho công việc của họ như thế nào?
+answer: Các thợ đào được thưởng thông qua phần thưởng được bao gồm trong khối và qua phí giao dịch.
+wrong_answers:
+  - Các thợ đào được trả tiền bởi mạng lưới Bitcoin.
+  - Các thợ đào nhận một mức lương cố định cho công việc của họ.
+  - Các thợ đào được thưởng bằng bitcoin mới.
+explanation: >-
+  Khi một thợ đào thành công trong việc khai thác một khối, họ nhận được phần thưởng dưới dạng bitcoin mới. Phần thưởng này được bao gồm trong khối mà họ đã khai thác. Ngoài ra,
+  các thợ đào cũng nhận được phí giao dịch từ các giao dịch được bao gồm trong khối.
+đã xem xét: false

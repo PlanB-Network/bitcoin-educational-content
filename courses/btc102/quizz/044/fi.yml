@@ -1,0 +1,11 @@
+question: Mikä on louhijoiden päärooli Bitcoin-verkossa?
+answer: He turvaavat verkon suorittamalla Bitcoinin proof-of-work -prosesseja
+vaarat_vastaukset:
+  - He luovat uusia bitcoineja
+  - He säätelevät Bitcoinin hintaa
+  - He hallitsevat Bitcoin-verkkoa
+explanation: |
+  Luvun sisältö selittää, että louhijat ovat vastuussa Bitcoin-verkon turvaamisesta.
+  He käyttävät sähköä suorittaakseen Bitcoinin proof-of-work -prosesseja,
+  mikä luo uuden lohkon.
+arvioitu: false

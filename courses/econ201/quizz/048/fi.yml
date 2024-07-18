@@ -1,0 +1,11 @@
+question: Mikä on Ludwig von Misesin ehdottama aksiomaattis-deduktiivinen menetelmä yhteiskuntatieteiden tutkimuksessa?
+answer: Tämä lähestymistapa perustuu peruspropositioihin, joita kutsutaan aksioomeiksi, samankaltaisiksi kuin ne, joita käytetään matematiikassa.
+wrong_answers:
+  - Tämä lähestymistapa perustuu empiirisiin tietoihin ja havaintoihin.
+  - Tämä lähestymistapa perustuu väliaikaisiin kokeisiin ja hypoteeseihin.
+  - Tämä lähestymistapa perustuu positivistiseen lähestymistapaan, jota usein käytetään yhteiskuntatieteissä.
+explanation: |
+  Ludwig von Misesin ehdottama aksiomaattis-deduktiivinen menetelmä perustuu
+  peruspropositioihin, joita kutsutaan aksioomeiksi, samankaltaisiksi kuin ne, joita käytetään matematiikassa.
+  Tätä menetelmää käytetään yhteiskuntatieteiden, mukaan lukien taloustieteen, tutkimiseen.
+arvioitu: false

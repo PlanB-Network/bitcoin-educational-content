@@ -1,0 +1,13 @@
+Frage: Was ist der Unterschied zwischen externer und interner Adresswiederverwendung in einer Transaktion?
+
+Antwort: Externe Wiederverwendung wird über mehrere Transaktionen hinweg beobachtet, während interne Wiederverwendung innerhalb derselben Transaktion beobachtet wird.
+
+Falsche Antworten:
+  - Externe Wiederverwendung betrifft öffentliche Adressen, während interne Wiederverwendung private Adressen betrifft, die in Transaktionsskripten verwendet werden.
+  - Interne Wiederverwendung wird über mehrere Transaktionen hinweg beobachtet, während externe Wiederverwendung innerhalb derselben Transaktion beobachtet wird.
+  - Interne Wiederverwendung betrifft öffentliche Adressen, während externe Wiederverwendung private Adressen betrifft, die in Transaktionsskripten verwendet werden.
+
+Erklärung: |
+  Externe Adresswiederverwendung wird beobachtet, wenn eine Adresse in mehreren verschiedenen Transaktionen wiederverwendet wird, während interne Wiederverwendung eine Adresse betrifft, die sowohl in den Eingängen als auch in den Ausgängen derselben Transaktion verwendet wird.
+
+Überprüft: false

@@ -1,0 +1,9 @@
+question: Lightning Networkは何を可能にしますか？
+answer: 直接的なチャネル接続を持たない個人間での取引。
+wrong_answers:
+  - 直接的なチャネル接続を持つ個人間での取引のみ。
+  - 直接的なチャネル接続と第三者を介した個人間での取引。
+  - 直接的なチャネル接続と複数の第三者を介した個人間での取引。
+explanation: |
+  Lightning Networkは、直接的なチャネル接続を持たない個人間での取引を可能にします。
+reviewed: false

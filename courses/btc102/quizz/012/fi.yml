@@ -1,0 +1,8 @@
+question: Mikä on pääsyy bitcoinien menettämiseen kyseisen luvun mukaan?
+answer: Heikko verkkoturvallisuuden hallinta
+vaarat_vastaukset:
+  - Kryptovaluuttahuijaukset
+  - Taloudelliset huijaukset
+  - Tietokoneen vika
+explanation: |
+  Luku mainitsee, että kryptovaluuttahuijausten ja taloudellisten huijausten lisäksi pääsyy bitcoinien menettämiseen liittyy heikkoon verkkoturvallisuuden hallintaan.

@@ -1,0 +1,10 @@
+question: Jaké jsou některé charakteristiky paranoidního Bitcoinera?
+answer: Ostražitost, nezávislost, nedůvěra, znalosti a pragmatismus
+wrong_answers:
+  - Důvěra, závislost, nevědomost a nepraktičnost
+  - Lenost, závislost, důvěra a nevědomost
+  - Důvěra, závislost, nedostatek znalostí a nepraktičnost
+explanation: |
+  Kapitola popisuje paranoidního Bitcoinera jako někoho, kdo je ostražitý,
+  nezávislý, nedůvěřivý, znalý a pragmatičtý.
+recenzováno: false

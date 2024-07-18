@@ -1,0 +1,9 @@
+question: Mikä on kurssin päätavoite?
+answer: Kurssin tavoitteena on tutkia Itävaltalaisen taloustieteen peruskäsitteitä.
+wrong_answers:
+  - Kurssin tavoitteena on edistää Keynesiläistä oppia.
+  - Kurssin tavoitteena on selittää keskuspankkien toimintaa.
+  - Kurssin tavoitteena on edistää rahavallan keskittämistä.
+explanation: |
+  Luvussa mainitaan, että kurssin tavoitteena on tutkia Itävaltalaisen taloustieteen peruskäsitteitä.
+arvioitu: false

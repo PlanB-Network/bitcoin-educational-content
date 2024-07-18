@@ -1,0 +1,10 @@
+question: Co je hot wallet v kontextu Bitcoinu?
+answer: Peněženka pro ukládání malých částek Bitcoinu online
+wrong_answers:
+  - Peněženka, která se používá pro transakce v horkém klimatu
+  - Peněženka, která se používá pro ukládání velkých částek Bitcoinu
+  - Peněženka, která se používá pro ukládání Bitcoinu na dlouhou dobu
+explanation: |
+  Hot wallet je peněženka pro ukládání malých částek Bitcoinu online.
+  Je považována za méně bezpečnou než cold wallet, protože je více náchylná k hackování.
+recenzováno: false

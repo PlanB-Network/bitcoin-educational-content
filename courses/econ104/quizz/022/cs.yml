@@ -1,0 +1,11 @@
+question: Jak stablecoiny pomáhají snižovat náklady spojené s převody peněz?
+answer: Nabízením nižších poplatků než tradiční služby
+wrong_answers:
+  - Poskytováním služeb převodu peněz zdarma
+  - Nabízením jednotlivcům lepších směnných kurzů než tradiční služby
+  - Digitalizací fiat měn
+explanation: |
+  Stablecoiny, na rozdíl od tradičních služeb převodu peněz, mají výrazně 
+  nižší poplatky, protože nevyžadují zprostředkovatele, jako jsou banky nebo 
+  služby převodu peněz.
+recenzováno: true

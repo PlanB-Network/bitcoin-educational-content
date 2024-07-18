@@ -1,0 +1,13 @@
+question: What does consolidation involve?
+
+answer: Merging several inputs to create a single larger one.
+
+wrong_answers:
+  - Splitting a large input into several smaller ones.
+  - Transferring inputs from multiple wallets to a single one.
+  - Reassigning unused inputs to new addresses.
+
+explanation: |
+  The principle of consolidation is to take advantage of periods when fees are low on Bitcoin to merge smaller UTXOs into a single larger one.
+
+reviewed: false

@@ -1,0 +1,11 @@
+Câu hỏi: Chỉ số bắt đầu cho các phái sinh cứng là bao nhiêu?
+Câu trả lời: 2^31
+Câu trả lời sai:
+  - 2^32
+  - 2^30
+  - 2^33
+Giải thích: |
+  Các phái sinh cứng bắt đầu từ các chỉ số là lũy thừa của 2, cụ thể là
+
+  2^31.
+Đã xem xét: false

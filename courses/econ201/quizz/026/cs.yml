@@ -1,0 +1,11 @@
+question: Co znamená, když má zboží vysokou prodejnost?
+answer: Mělo by být žádáno co největším počtem lidí, většinu času.
+wrong_answers:
+  - Mělo by být žádáno několika lidmi, většinu času.
+  - Mělo by být žádáno co největším počtem lidí, někdy.
+  - Mělo by být žádáno několika lidmi, někdy.
+explanation: |
+  Zboží s vysokou prodejností je takové, které je široce žádáno a může být
+  snadno vyměněno za jiné zboží nebo služby. To jej činí vhodným pro použití jako
+  peníze.
+recenzováno: false

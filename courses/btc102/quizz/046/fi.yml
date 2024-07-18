@@ -1,0 +1,11 @@
+question: Mikä on pääasiallinen riski jättää bitcoinit vaihtoalustalle?
+answer: Alusta voidaan hakkeroida, takavarikoida, mennä konkurssiin tai yksinkertaisesti kadota rahasi kanssa
+wrong_answers:
+  - Bitcoinin hinta voi äkillisesti laskea
+  - Alusta voi nostaa maksujaan
+  - Alusta voi rajoittaa ostamiesi tai myymiesi bitcoinien määrää
+explanation: |
+  Luvun sisältö varoittaa, että vaihtoalustat sisältävät merkittäviä
+  riskejä ja niitä tulisi välttää mahdollisuuksien mukaan. Ne voivat joutua hakkeroinnin kohteeksi, takavarikoida, mennä
+  konkurssiin tai yksinkertaisesti kadota rahasi kanssa.
+arvioitu: false

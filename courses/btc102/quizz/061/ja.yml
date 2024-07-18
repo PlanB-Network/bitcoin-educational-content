@@ -1,0 +1,9 @@
+question: Bitcoinの文脈で非KYCソリューションとは何ですか？
+answer: 匿名のBitcoin取引を可能にするソリューション
+wrong_answers:
+  - インターネットなしでBitcoin取引を可能にするソリューション
+  - ウォレットなしでBitcoin取引を可能にするソリューション
+  - 手数料なしでBitcoin取引を可能にするソリューション
+explanation: |
+  非KYC（Know Your Customer）ソリューションは、匿名のBitcoin取引を可能にするソリューションです。ユーザーが個人識別情報を提供する必要はありません。
+reviewed: false

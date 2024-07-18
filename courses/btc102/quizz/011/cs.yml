@@ -1,0 +1,14 @@
+question: Jaký je hlavní přínos používání VPN?
+answer: Chrání vaše soukromí maskováním vaší IP adresy
+nesprávné_odpovědi:
+  - Zrychluje vaše internetové připojení
+  - Poskytuje zdarma přístup k placeným službám
+  - Chrání váš počítač před viry
+explanation: |
+  VPN, neboli Virtuální Privátní Síť, chrání vaše soukromí maskováním
+  vaší
+
+  IP adresy. Ačkoliv vás to nedělá zcela anonymními, je to stále jednoduchý
+
+  a účinný krok ke zlepšení vašeho online soukromí.
+recenzováno: false

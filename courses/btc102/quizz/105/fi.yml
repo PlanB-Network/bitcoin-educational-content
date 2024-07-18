@@ -1,0 +1,10 @@
+question: Mikä on toinen askel perintösuunnitelman luomisessa kyseisen luvun mukaan?
+answer: Tee yksinkertainen ja nopea inventaario.
+wrong_answers:
+  - Kirjoita kirje.
+  - Valitse oikeat ihmiset auttamaan perillisiäsi.
+  - Palkkaa lakimies.
+  - Luota kolmanteen osapuoleen.
+explanation: |
+  Toisena askeleena perintösuunnitelman luomisessa, kuten luvussa ehdotetaan, on tehdä yksinkertainen ja nopea inventaario.
+arvioitu: false

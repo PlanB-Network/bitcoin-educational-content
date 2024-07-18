@@ -1,0 +1,11 @@
+question: Jaký byl hlavní důvod pro založení Bank of England?
+answer: Financování války na konci 17. století
+wrong_answers:
+  - Vydávat vlastní měnu
+  - Konkurovat Bank of Amsterdam
+  - Regulovat akciový trh
+explanation: |
+  Bank of England byla založena na konci 17. století s
+  primárním motivem financování války. Nařídila vklady dekretem a odsunula
+  soukromé banky na vedlejší pozici v měnovém systému.
+recenzováno: false

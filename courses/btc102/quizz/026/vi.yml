@@ -1,0 +1,10 @@
+question: Hai đặc điểm nào tạo nên Bitcoin như chúng ta biết ngày nay?
+answer: Mã nguồn mở và tính khan hiếm của nó
+wrong_answers:
+  - Tính ẩn danh và tính phi tập trung của nó
+  - Giá trị cao và tính biến động của nó
+  - Tính dễ sử dụng và sự chấp nhận toàn cầu của nó
+explanation: |
+  Hai đặc điểm chính định nghĩa Bitcoin là mã nguồn mở của nó, điều này làm cho nó trở nên minh bạch, có thể kiểm toán và sử dụng bởi bất kỳ ai, và tính khan hiếm của nó,
+  có nghĩa là sẽ chỉ có 21 triệu bitcoin trên thế giới.
+đã xem xét: false

@@ -1,0 +1,10 @@
+question: Satoshi là gì trong bối cảnh của Bitcoin?
+answer: Đơn vị nhỏ nhất của Bitcoin
+wrong_answers:
+  - Một loại ví Bitcoin
+  - Một phương pháp mua Bitcoin
+  - Một nền tảng giao dịch Bitcoin
+explanation: |
+  Trong bối cảnh của Bitcoin, satoshi (hoặc SAT) là đơn vị nhỏ nhất của
+  Bitcoin. Những người tích lũy Bitcoin luôn cố gắng tích lũy càng nhiều satoshi càng tốt.
+đã xem xét: false

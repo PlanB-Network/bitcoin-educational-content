@@ -1,0 +1,10 @@
+question: "Cuộc chiến block" năm 2017 là về vấn đề gì?
+answer: Một cuộc xung đột về việc có nên tăng kích thước block để tăng khả năng xử lý giao dịch hay không
+wrong_answers:
+  - Một cuộc xung đột về việc có nên giảm kích thước block để giảm khả năng xử lý giao dịch hay không
+  - Một cuộc xung đột về việc có nên tăng phần thưởng block để khuyến khích các thợ mỏ
+  - Một cuộc xung đột về việc có nên giảm phần thưởng block để làm giảm sự khuyến khích cho các thợ mỏ
+explanation: >-
+  "Cuộc chiến block" năm 2017 là một cuộc xung đột về việc có nên chỉnh sửa Bitcoin
+  bằng cách tăng kích thước block để tăng khả năng xử lý giao dịch hay không.
+đã xem xét: false

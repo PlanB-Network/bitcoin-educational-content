@@ -1,0 +1,13 @@
+question: Co ovlivňuje váhu Bitcoinové transakce?
+
+answer: Počet vstupů a výstupů.
+
+wrong_answers:
+  - Velikost blockchainu.
+  - Množství vstupů a výstupů.
+  - Stáří použitých UTXO.
+
+explanation: |
+  Čím více vstupů a výstupů Bitcoinová transakce má, tím těžší bude ve vB.
+
+reviewed: false

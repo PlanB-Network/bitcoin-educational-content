@@ -1,0 +1,9 @@
+question: Jaký je hlavní cíl bitcoinového stackera?
+answer: Akumulovat co nejvíce satoshi
+wrong_answers:
+  - Akumulovat co nejvíce bitcoinů
+  - Prodávat zboží nebo služby za bitcoiny
+  - Kupovat bitcoiny přímo v hotovosti s přáteli nebo členy bitcoinové komunity
+explanation: |
+  Hlavním cílem bitcoinového stackera je akumulovat co nejvíce satoshi. Toho je dosaženo nastavením plánu průměrování nákladů v dolarech (DCA) a hledáním dalších řešení pro akumulaci satoshi.
+recenzováno: false

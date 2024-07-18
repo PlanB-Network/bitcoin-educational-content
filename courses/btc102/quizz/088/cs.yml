@@ -1,0 +1,9 @@
+question: Jaká je jedna výhoda používání obchodní platformy pro nákup a prodej bitcoinů?
+answer: Umožňuje pravidelné transakce podle potřeb uživatele.
+wrong_answers:
+  - Umožňuje anonymní transakce.
+  - Zvyšuje hodnotu Bitcoinu.
+  - Poskytuje platformu pro těžbu Bitcoinu.
+explanation: |
+  Obchodní platformy umožňují uživatelům pravidelně a pohodlně kupovat a prodávat bitcoiny podle jejich potřeb.
+recenzováno: false

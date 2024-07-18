@@ -1,0 +1,12 @@
+question: Comment les stablecoins, tels que USDt, parviennent-ils à maintenir une stabilité relative de leur valeur ?
+answer: Ils sont adossés à un actif ou une monnaie stable.
+wrong_answers:
+  - Ils sont soutenus par une autorité centrale ou un gouvernement.
+  - Ils s'appuient sur la technologie blockchain pour des transactions sécurisées.
+  - Ils sont sujets à des fluctuations similaires à d'autres cryptomonnaies.
+explanation: |
+  Les stablecoins maintiennent une stabilité relative de leur valeur en étant adossés
+  à un actif ou une monnaie plus stable, comme le dollar américain ou l'or.
+  Cette indexation aide à atténuer la volatilité souvent associée à d'autres
+  actifs numériques comme le Bitcoin.
+reviewed: true

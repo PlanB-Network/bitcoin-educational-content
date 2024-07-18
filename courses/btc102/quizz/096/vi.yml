@@ -1,0 +1,10 @@
+question: UTXO là gì trong bối cảnh của Bitcoin?
+answer: Đầu Ra Giao Dịch Chưa Tiêu
+wrong_answers:
+  - Đầu Ra Giao Dịch Không Xác Định
+  - Đầu Ra Giao Dịch Không Thể Truy Vết
+  - Đầu Ra Giao Dịch Chưa Xác Minh
+explanation: |
+  Trong bối cảnh của Bitcoin, UTXO viết tắt của Unspent Transaction Output (Đầu Ra Giao Dịch Chưa Tiêu).
+  Đây là thuật ngữ được sử dụng để mô tả đầu ra của một giao dịch mà người dùng có thể tiêu.
+đã xem xét: false

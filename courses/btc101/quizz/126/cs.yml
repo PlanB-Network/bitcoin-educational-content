@@ -1,0 +1,12 @@
+question: Co je transakce Bitcoinu?
+answer: Převod vlastnictví Bitcoinů pomocí kryptografie.
+wrong_answers:
+  - Fyzická výměna Bitcoinů, s použitím notáře.
+  - Převod vlastnictví Bitcoinů, s použitím fyzické adresy.
+  - Převod vlastnictví Bitcoinů, s použitím emailové adresy.
+explanation: |
+  Transakce Bitcoinu je digitální převod vlastnictví Bitcoinů,
+  s použitím Bitcoinové adresy odvozené díky eliptické křivkové kryptografii.
+  Tato adresa je jedinečná pro Bitcoinovou peněženku osoby,
+  která Bitcoiny přijímá.
+recenzováno: true

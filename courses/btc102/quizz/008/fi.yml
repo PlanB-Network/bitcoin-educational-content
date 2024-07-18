@@ -1,0 +1,11 @@
+question: Mikä on ohjelmistopäivityksen päätarkoitus?
+answer: Korjata ohjelmistovirheitä ja parantaa ohjelmiston turvallisuutta
+vaarat_vastaukset:
+  - Lisätä uusia ominaisuuksia
+  - Muuttaa ohjelmiston käyttöliittymää
+  - Kasvattaa ohjelmiston kokoa
+explanation: |
+  Vaikka ohjelmistopäivitykset tuovatkin usein mukanaan uusia ominaisuuksia, niiden päätarkoitus
+  on korjata ohjelmistovirheitä ja parantaa ohjelmiston turvallisuutta. Tämä on ratkaisevan tärkeää,
+  jotta tietokoneesi pysyy optimaalisessa työkunnossa.
+arvioitu: false

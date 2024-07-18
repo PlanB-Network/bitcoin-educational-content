@@ -1,0 +1,11 @@
+question: Mikä on toistuvan ostoplanin perustamisen tarkoitus Hodlerille?
+answer: Jatkaa Bitcoinin ostamista ajoittain automaattisesti.
+wrong_answers:
+  - Myydä Bitcoin, kun sen hinta on korkea.
+  - Käydä Bitcoinilla kauppaa usein.
+  - Muuntaa Bitcoin muita kryptovaluuttoja.
+explanation: |
+  Hodler perustaa toistuvan ostoplanin jatkaakseen Bitcoinin ostamista
+  ajoittain automaattisesti, lyöden vetoa sen käytön lisääntymisestä ja
+  niukkuudesta tulevaisuudessa.
+arvioitu: false

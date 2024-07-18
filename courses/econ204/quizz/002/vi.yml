@@ -1,0 +1,9 @@
+question: Định nghĩa của lạm phát theo Robert là gì?
+answer: Lạm phát là sự tăng quá mức của các công cụ thanh toán khiến giá cả tăng lên và tiền tệ mất giá.
+wrong_answers:
+  - Lạm phát là sự giảm của các công cụ thanh toán khiến giá cả tăng lên và tiền tệ mất giá.
+  - Lạm phát là sự tăng quá mức của các công cụ thanh toán khiến giá cả giảm và tiền tệ mất giá.
+  - Lạm phát là sự tăng quá mức của các công cụ thanh toán khiến giá cả tăng lên và tiền tệ tăng giá.
+explanation: |
+  Theo Robert, lạm phát được định nghĩa là sự tăng quá mức của các công cụ thanh toán (tiền giấy, vốn) khiến giá cả tăng lên và tiền tệ mất giá.
+đã xem xét: false

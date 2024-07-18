@@ -1,0 +1,10 @@
+question: Jaký je dopad hyperinflace na hodnotu peněz?
+answer: Způsobuje rychlou ztrátu jejich hodnoty.
+wrong_answers:
+  - Způsobuje zvýšení hodnoty peněz.
+  - Nemá žádný vliv na hodnotu peněz.
+  - Způsobuje nepředvídatelné kolísání hodnoty peněz.
+explanation: |
+  V období hyperinflace rychle ztrácí peníze na hodnotě, což činí
+  dlouhodobé plánování obtížným.
+recenzováno: false

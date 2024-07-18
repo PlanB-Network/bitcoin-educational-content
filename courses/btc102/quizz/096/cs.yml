@@ -1,0 +1,10 @@
+question: Co je UTXO v kontextu Bitcoinu?
+answer: Nevyužitý výstup transakce
+wrong_answers:
+  - Neidentifikovaný výstup transakce
+  - Nezjistitelný výstup transakce
+  - Neověřený výstup transakce
+explanation: |
+  V kontextu Bitcoinu UTXO znamená Nevyužitý výstup transakce.
+  Jedná se o termín používaný k popisu výstupu transakce, který uživatel může utratit.
+recenzováno: false

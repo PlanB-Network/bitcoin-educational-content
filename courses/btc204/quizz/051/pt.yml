@@ -1,0 +1,11 @@
+question: Qual é a desvantagem dos Pagamentos Silenciosos comparados ao BIP47?
+
+answer: O receptor deve escanear quase todo o blockchain.
+
+wrong_answers:
+  - Eles geram taxas de transação mais altas para o remetente.
+  - Eles limitam o número de transações possíveis.
+  - Eles são menos anônimos.
+
+explanation: |
+  Em troca de renunciar à transação de notificação, o receptor deve escanear todas as transações Bitcoin que estejam em conformidade com o padrão na tentativa de encontrar pagamentos endereçados a eles.

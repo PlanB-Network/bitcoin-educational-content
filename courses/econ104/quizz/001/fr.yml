@@ -1,0 +1,11 @@
+question: Lequel des éléments suivants est nécessaire pour une transaction réussie dans un système de troc ?
+answer: Une double coïncidence des besoins
+wrong_answers:
+  - Une unité de compte commune
+  - Une autorité bancaire centrale
+  - Une exigence de solde minimum
+explanation: |
+  Dans un système de troc, les transactions ont lieu directement entre deux parties échangeant des biens ou 
+  des services sans utiliser d'argent. Une transaction réussie nécessite une double coïncidence des 
+  besoins, ce qui signifie que les deux parties doivent avoir quelque chose que l'autre souhaite échanger.
+reviewed: true

@@ -1,0 +1,11 @@
+question: Jaká je funkce Lightning Network v ekosystému Bitcoinu?
+answer: Umožňuje Bitcoinu rozšířit se a získat další funkce tím, že působí jako druhá vrstva.
+wrong_answers:
+  - Jedná se o samostatnou kryptoměnu, která konkuruje Bitcoinu.
+  - Je to nástroj pro těžbu Bitcoinu.
+  - Je to platforma pro obchodování s Bitcoinem.
+explanation: |
+  Lightning Network je technologie druhé vrstvy aplikovaná na bitcoin,
+  která využívá kanály mikroplateb k rozšíření schopnosti jeho blockchainu provádět
+  transakce efektivněji.
+recenzováno: false

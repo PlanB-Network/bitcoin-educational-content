@@ -1,0 +1,11 @@
+question: Khái niệm toán học nào dựa vào lý trí con người và được sử dụng trong Bitcoin?
+answer: Lý thuyết trò chơi
+wrong_answers:
+  - Lý thuyết xác suất
+  - Lý thuyết số
+  - Lý thuyết tập hợp
+explanation: |
+  Lý thuyết trò chơi là một khái niệm toán học dựa vào lý trí con người.
+  Trong Bitcoin, chính là người dùng thực thi các thay đổi giao thức, làm cho bất kỳ sửa đổi
+  nào đối với giao thức Bitcoin trở nên cực kỳ phức tạp.
+reviewed: false

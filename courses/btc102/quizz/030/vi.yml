@@ -1,0 +1,10 @@
+question: Bitcoin blockchain là gì?
+answer: Một cơ sở dữ liệu ghi lại tất cả các giao dịch Bitcoin
+wrong_answers:
+  - Một loại tiền tệ số
+  - Một mạng lưới người dùng Bitcoin
+  - Một phương pháp đào bitcoin
+explanation: |
+  Bitcoin blockchain là một cơ sở dữ liệu ghi lại tất cả các giao dịch Bitcoin.
+  Nó được duy trì bởi các thợ mỏ, những người thêm các giao dịch mới vào blockchain.
+đã xem xét: false

@@ -1,0 +1,11 @@
+question: Mikä on louhinnan keskittymisen mahdollinen riski Bitcoinissa?
+answer: Louhinnan keskittymisellä Bitcoinissa voi olla potentiaalisesti seurauksena transaktioiden sensurointi ja verkon haavoittuvuus hyökkäyksille, mukaan lukien 51% hyökkäys, jossa toimija tai ryhmä hallitsee yli 50% verkon laskentatehosta, mahdollistaen heidän hallita ja manipuloida verkkoa.
+vaarat_vastaukset:
+  - Louhinnan keskittymisellä Bitcoinissa voi potentiaalisesti johtaa Bitcoinin arvon laskuun ja tehdä verkon haavoittuvaksi inflaatiolle.
+  - Louhinnan keskittymisellä Bitcoinissa voi potentiaalisesti johtaa lohkopalkkion vähenemiseen ja tehdä verkon haavoittuvaksi pysähtyneisyydelle.
+  - Louhinnan keskittymisellä Bitcoinissa voi potentiaalisesti johtaa transaktioiden nopeuden vähenemiseen ja tehdä verkon haavoittuvaksi ruuhkautumiselle.
+explanation: |
+  Luku selittää, että louhinnan keskittymisellä Bitcoinissa voi potentiaalisesti
+  johtaa transaktioiden sensurointiin ja tehdä verkon haavoittuvaksi hyökkäyksille, mukaan lukien
+  51% hyökkäys.
+arvioitu: false

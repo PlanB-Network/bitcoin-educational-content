@@ -1,0 +1,12 @@
+question: Jaké je doporučené řešení pro pravidelné nákupy Bitcoinu bez stresu?
+answer: Použijte DCA řešení
+wrong_answers:
+  - Použijte hot wallet
+  - Použijte cold wallet
+  - Použijte řešení bez KYC
+explanation: |
+  Doporučené řešení pro pravidelné nákupy Bitcoinu bez stresu
+  je použití DCA (Dollar Cost Averaging) řešení. Tato strategie zahrnuje rozdělení
+  celkové částky, kterou chcete investovat, mezi pravidelné nákupy, aby se snížil dopad
+  volatility.
+recenzováno: false

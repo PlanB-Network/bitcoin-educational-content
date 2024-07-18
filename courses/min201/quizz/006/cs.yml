@@ -1,0 +1,9 @@
+question: Jaký je hlavní úkol těžařů v síti Bitcoin?
+answer: Vyřešit digitální hádanku a ověřit nový blok
+wrong_answers:
+  - Vytvořit nové bitcoiny
+  - Kontrolovat cenu Bitcoinu
+  - Ověřovat identitu uživatelů Bitcoinu
+explanation: |
+  V kontextu těžby Bitcoinu se těžaři snaží rychle vyřešit digitální hádanku. První těžař, který hádanku vyřeší, představí své řešení celé síti, která poté může snadno ověřit jeho platnost. Toto úspěšné ověření umožňuje těžaři ověřit nový blok a přidat ho do Bitcoinového časového řetězce.
+recenzováno: false

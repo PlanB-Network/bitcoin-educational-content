@@ -1,0 +1,11 @@
+question: Která z těchto možností není výhodou fiat měn?
+answer: Jsou předmětem měnové inflace
+wrong_answers:
+  - Jsou snadno přenosné
+  - Jsou snadno dělitelné
+  - Jsou akceptovány všemi zeměmi
+explanation: |
+  Fiat měny, jako je dolar a euro, jsou velmi likvidní a
+  snadno přenosné, protože jsou nyní většinou digitální. Nicméně, jejich hodnota je
+  neustále snižována měnovou inflací.
+recenzováno: true

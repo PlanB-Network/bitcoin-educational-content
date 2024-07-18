@@ -1,0 +1,10 @@
+pregunta: ¿En cuántos países del mundo se restringe a las mujeres abrir cuentas bancarias a su propio nombre?
+respuesta: 72
+respuestas_incorrectas:
+  - 36
+  - 75
+  - 100
+explicación: |
+  En 72 países del mundo, no se permite a las mujeres abrir 
+  cuentas bancarias a su propio nombre.
+revisado: true

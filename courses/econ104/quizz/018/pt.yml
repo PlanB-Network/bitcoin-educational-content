@@ -1,0 +1,12 @@
+question: Qual foi uma limitação significativa enfrentada por indivíduos durante a crise de falência do governo grego em 2015?
+answer: Reforma bancária opressiva imposta pelo governo.
+wrong_answers:
+  - Acesso limitado aos serviços de banco digital
+  - A volatilidade de moedas digitais como o Bitcoin
+  - Uma escassez de moeda física (dinheiro)
+explanation: |
+  Durante a crise de falência do governo grego em 2015, os bancos foram fechados,
+  saques em caixas eletrônicos foram limitados, e uma parte significativa dos depósitos bancários dos indivíduos
+  foi retirada pelo governo para financiar a irresponsabilidade fiscal.
+  Esse evento destacou os riscos associados a ter dinheiro mantido dentro do sistema bancário tradicional.
+reviewed: true

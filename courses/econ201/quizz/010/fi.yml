@@ -1,0 +1,11 @@
+question: Mikä on osittaisvarantopankkitoiminta?
+answer: Osittaisvarantopankkitoiminta on pankkikäytäntö, jossa pankeilta ei vaadita yhtä suurien varantojen pitämistä kuin mitä ne saavat talletuksina, mahdollistaen uuden ostovoiman luomisen myöntäessään lainoja.
+wrong_answers:
+  - Osittaisvarantopankkitoiminta on pankkikäytäntö, jossa pankeilta vaaditaan suurempien varantojen pitämistä kuin mitä ne saavat talletuksina.
+  - Osittaisvarantopankkitoiminta on pankkikäytäntö, jossa pankeilta ei sallita lainojen myöntämistä.
+  - Osittaisvarantopankkitoiminta on pankkikäytäntö, jossa pankeilta vaaditaan täsmälleen samansuuruisen varannon pitämistä kuin mitä ne saavat talletuksina.
+explanation: |
+  Osittaisvarantopankkitoiminta on järjestelmä, jossa pankit pitävät vain osan
+  tallettajiensa varoista varantona, lainaten loput. Tämä järjestelmä mahdollistaa
+  uuden rahan luomisen lainojen muodossa, mikä lisää koko talouden rahamäärää.
+arvioitu: false

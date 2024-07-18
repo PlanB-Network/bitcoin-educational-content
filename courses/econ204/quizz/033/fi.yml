@@ -1,0 +1,10 @@
+question: Mikä oli velkojen uudelleenarvostuksen vaikutus Weimarissa?
+answer: Osakkeenomistajat saivat 2,5 prosenttia alkuperäisestä sijoituksestaan edellyttäen, että kaikki korvaukset oli maksettu.
+wrong_answers:
+  - Se johti valuutan arvon edelleen alenemiseen.
+  - Se aiheutti työttömyyden nousun.
+  - Se johti ulkomaisen investoinnin vähenemiseen.
+explanation: |
+  Weimarissa jotkin velat arvostettiin uudelleen kompensoimaan inflaation vaikutusta.
+  Päätös valtion omistamien lainojen uudelleenarvostamisesta tuli laiksi vuonna 1925, mikä johti siihen, että osakkeenomistajat saivat 2,5 prosenttia alkuperäisestä sijoituksestaan edellyttäen, että kaikki korvaukset oli maksettu.
+arvioitu: false

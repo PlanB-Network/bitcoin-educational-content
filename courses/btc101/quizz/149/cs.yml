@@ -1,0 +1,10 @@
+question: Co je Lightning Network?
+answer: Okamžitá platební síť Bitcoinu využívající blockchain Bitcoinu
+wrong_answers:
+  - Samostatná blockchainová síť odlišná od blockchainu Bitcoinu
+  - Síť těžařů Bitcoinu
+  - Síť směnáren Bitcoinu
+explanation: >-
+  Lightning Network je okamžitá platební síť Bitcoinu, která využívá
+  blockchain Bitcoinu.
+recenzováno: false

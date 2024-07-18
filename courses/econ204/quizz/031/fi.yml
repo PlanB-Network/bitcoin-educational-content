@@ -1,0 +1,9 @@
+question: Mikä oli Saksan väestön käsitys hyperinflaation aikana Weimarin tasavallassa?
+answer: He syyttivät inflaatiota dollarin noususta pikemminkin kuin oman valuuttansa sisäisestä arvon alenemisesta.
+wrong_answers:
+  - He olivat täysin tietoisia hyperinflaation taustalla olevasta syystä.
+  - He syyttivät hallitusta taloudellisista vaikeuksistaan.
+  - He uskoivat, että hyperinflaatio johtui sotakorvauksista.
+explanation: |
+  Weimarin tasavallan aikana Saksan väestö syytti kokemaansa inflaatiota dollarin noususta, hyläten tunnustuksen taloudellisen vaikeutensa ja rahallisen arvon alenemisen välisestä yhteydestä, joka pääasiassa aiheutui liiallisesta rahan luomisesta.
+arvioitu: false

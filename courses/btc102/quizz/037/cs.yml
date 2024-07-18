@@ -1,0 +1,12 @@
+question: Co je Bitcoin podle hnutí kyberpunk?
+answer: Elektronický ekvivalent hotovosti
+wrong_answers:
+  - Forma digitálního zlata
+  - Nová forma kreditní karty
+  - Typ kryptoměny
+explanation: |
+  Kapitola uvádí, že z perspektivy kyberpunku se Bitcoin staví proti
+  společnosti bez hotovosti. Umožňuje vytváření zcela soukromých a bezprostředníků
+  volných digitálních finančních transakcí. Pro hnutí kyberpunk je Bitcoin elektronickým
+  ekvivalentem hotovosti.
+recenzováno: false

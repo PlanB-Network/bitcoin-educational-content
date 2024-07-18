@@ -1,0 +1,9 @@
+question: Jaká je nejtěžší část být Hodlerem podle kapitoly?
+answer: Nedělat nic a držet se Bitcoinu.
+wrong_answers:
+  - Koupě Bitcoinu.
+  - Nastavení studené peněženky.
+  - Nastavení plánu dědictví.
+explanation: |
+  Kapitola uvádí, že nejtěžší částí být Hodlerem je nedělat nic, tzn. odolávat pokušení prodat a držet se Bitcoinu na dlouhodobé bázi.
+posouzeno: false

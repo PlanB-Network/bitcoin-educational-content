@@ -1,0 +1,9 @@
+question: Mikä on vangin dilemma työnjaon kontekstissa?
+answer: Se on tilanne, jossa molemminpuolinen yhteistyö johtaa yksilöille suboptimaalisiin hyötyihin, mutta ryhmälle maksimaalisiin hyötyihin.
+vaarat_vastaukset:
+  - Se on tilanne, jossa yksilöt kieltäytyvät yhteistyöstä, mikä johtaa ryhmälle maksimaalisiin hyötyihin.
+  - Se on tilanne, jossa yksilöt tekevät yhteistyötä, mikä johtaa maksimaalisiin hyötyihin itselleen, mutta suboptimaalisiin hyötyihin ryhmälle.
+  - Se on tilanne, jossa yksilöt kieltäytyvät yhteistyöstä, mikä johtaa suboptimaalisiin hyötyihin sekä itselleen että ryhmälle.
+explanation: |
+  Vangin dilemma on käsitteenä peliteoriassa, jossa yksilöillä on kannustin valita strategioita, jotka maksimoivat heidän henkilökohtaisen hyötynsä riippumatta muiden valitsemista strategioista, vaikka toivottavampi tasapainotila koordinoinnin/yhteistyön kautta olisi mahdollinen.
+arvioitu: false

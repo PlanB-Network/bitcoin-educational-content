@@ -1,0 +1,9 @@
+question: Mikä on suositeltu lompakko aloittelevalle Hodlerille?
+answer: Kylmä lompakko, kuten Bitbox02, Trezor tai Ledger.
+wrong_answers:
+  - Kuuma lompakko mobiilisovelluksena.
+  - Fyysinen lompakko.
+  - Paperilompakko.
+explanation: |
+  Hodlerille on suositeltavaa aloittaa kylmällä lompakolla, kuten Bitbox02, Trezor tai Ledger. Nämä laitteet tarjoavat pitkäaikaista turvaa bitcoineille.
+arvioitu: false

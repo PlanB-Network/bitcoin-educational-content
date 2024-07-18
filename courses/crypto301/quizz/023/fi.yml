@@ -1,0 +1,11 @@
+question: Mitä HMAC tarkoittaa?
+answer: Hash-pohjainen viestin autentikointikoodi
+vaarat_vastaukset:
+  - Hierarkkinen pääautentikointikoodi
+  - Hashattu pääautentikointikoodi
+  - Hierarkkinen viestin autentikointikoodi
+explanation: |
+  HMAC tarkoittaa Hash-pohjaista viestin autentikointikoodia. Se on tyyppi
+  viestin autentikointikoodista (MAC), joka sisältää kryptografisen hajautusfunktion ja
+  salaisen kryptografisen avaimen.
+arvioitu: false

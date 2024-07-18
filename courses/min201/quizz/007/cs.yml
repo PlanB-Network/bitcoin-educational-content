@@ -1,0 +1,9 @@
+question: Co se stane s odměnou za těžbu v síti Bitcoin přibližně každé čtyři roky?
+answer: Dojde k jejímu snížení na polovinu
+wrong_answers:
+  - Zdvojnásobí se
+  - Ztrojnásobí se
+  - Zůstane stejná
+explanation: |
+  Odměna za těžbu v síti Bitcoin prochází snížením na polovinu každých 210 000 bloků, což je přibližně každé čtyři roky. Tato odměna slouží jako silný stimul pro těžaře, aby se zapojili do procesu těžby navzdory jejím energetickým nákladům.
+reviewed: false

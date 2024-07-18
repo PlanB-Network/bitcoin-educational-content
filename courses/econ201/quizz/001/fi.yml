@@ -1,0 +1,9 @@
+question: Mikä on itävaltalaisen taloustieteen pääpaino?
+answer: Itävaltalainen taloustiede korostaa maltillisempaa kasvunäkemystä ja ihmisen rationaalisuutta.
+wrong_answers:
+  - Itävaltalainen taloustiede keskittyy rahan painamiseen ja kuluttamiseen kasvun edistämiseksi.
+  - Itävaltalainen taloustiede korostaa rahan keskitetyn vallan merkitystä.
+  - Itävaltalainen taloustiede keskittyy keskuspankkien rahan tuotantoon ja hallintaan.
+explanation: |
+  Luku selittää, että itävaltalainen taloustiede korostaa maltillisempaa kasvunäkemystä ja ihmisen rationaalisuutta taloudessamme, eroen suuresti Keynesiläisestä oppisuunnasta.
+arvioitu: false

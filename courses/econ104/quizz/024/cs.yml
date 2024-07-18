@@ -1,0 +1,9 @@
+question: Co je Halving v kontextu Bitcoinu?
+answer: Funkce v kódu Bitcoinu, která každé čtyři roky snižuje odměnu za těžbu na polovinu
+wrong_answers:
+  - Proces zvyšování globální adopce Bitcoinu
+  - Mechanismus, který brání kolapsu hodnoty bitcoinu
+  - Termín používaný k popisu události, kdy cena bitcoinu prudce vzroste
+explanation: |
+  Halving je funkce v kódu Bitcoinu, která přibližně každé čtyři roky snižuje odměnu za těžbu na polovinu. Tato událost ovlivňuje příjmy těžařů a vyvíjí tlak směrem nahoru na cenu bitcoinu.
+recenzováno: true

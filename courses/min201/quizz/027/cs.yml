@@ -1,0 +1,14 @@
+question: Proč je Důkaz práce nezbytný v síti Bitcoin?
+answer: Představuje fyzické spojení mezi reálným světem a Bitcoinem, vyžaduje hmatatelnou energii pro produkci a validaci bitcoinů a bloků.
+wrong_answers:
+  - Umožňuje účast na malé škále.
+  - Zaručuje ochranu proti centralizaci.
+  - Odráží stávající nerovnosti v mocenském rozložení ve společnosti.
+explanation: |
+  Důkaz práce je v síti Bitcoin nezbytný, protože představuje
+
+  fyzické spojení mezi reálným světem a Bitcoinem. Produkce a validace
+
+  bitcoinů a bloků vyžaduje hmatatelnou energii, což zakotvuje síť Bitcoin
+
+  v fyzické realitě a brání její úplné dominanci mocnými subjekty.

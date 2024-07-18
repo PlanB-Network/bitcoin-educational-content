@@ -1,0 +1,9 @@
+question: Kuinka monta hyperinflaation jaksoa on dokumentoitu Hanke-Krus-taulukossa?
+answer: 56
+vaarat_vastaukset:
+  - 46
+  - 66
+  - 76
+explanation: |
+  Hanke-Krus-taulukko dokumentoi 56 hyperinflaation jaksoa. Se ei kuitenkaan kata kaikkia jaksoja, kuten Venezuelassa vuonna 2016 tapahtunutta, mikä nostaa kokonaismäärän 57:ään.
+arvioitu: false

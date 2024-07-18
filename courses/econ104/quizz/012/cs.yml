@@ -1,0 +1,12 @@
+question: Jakou výhodu nabízí síť Bitcoinu oproti tradičním finančním systémům?
+answer: Decentralizace a bezpečnost
+wrong_answers:
+  - Zvýšené inflační sazby
+  - Závislost na prostřednících
+  - Centralizovaná kontrola nad transakcemi
+explanation: |
+  Decentralizovaná síť Bitcoinu poskytuje bezpečný a efektivní způsob, jak 
+  provádět transakce bez nutnosti prostředníků nebo třetích stran. To 
+  snižuje riziko cenzury a neautorizovaných změn v transakcích,
+  stejně jako zvyšuje soukromí.
+recenzováno: true

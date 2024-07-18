@@ -1,0 +1,10 @@
+question: Co je Bitcoin blockchain?
+answer: Databáze, která zaznamenává všechny transakce s Bitcoinem
+wrong_answers:
+  - Typ digitální měny
+  - Síť uživatelů Bitcoinu
+  - Metoda těžby bitcoinů
+explanation: |
+  Bitcoin blockchain je databáze, která zaznamenává všechny transakce s Bitcoinem.
+  Je udržována těžaři, kteří přidávají nové transakce do blockchainu.
+recenzováno: false

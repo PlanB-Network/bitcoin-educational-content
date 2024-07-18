@@ -1,0 +1,9 @@
+question: Kuinka Tetherin erilaiset stablecoin-valuutat edistävät taloudellista vapautta epävakaissa talouksissa oleville ihmisille?
+answer: Tarjoamalla pääsyn valuuttoihin, joilla on vakaat vaihtokurssit
+wrong_answers:
+  - Poistamalla tarpeen fyysiselle käteiselle
+  - Tarjoamalla korkeampia korkoja säästöille
+  - Mahdollistamalla välittömät globaalit siirrot
+explanation: |
+  Tetherin erilaiset stablecoin-valuutat on sidottu vakaisiin hyödykkeisiin, kuten Yhdysvaltain dollariin tai kultaan. Tämä vakaus mahdollistaa yksilöiden epävakaissa talouksissa siirtää rahansa valuuttaan, joka ei ole alttiina samoille inflaatioasteille, auttaen heitä säilyttämään säästöjensä arvon.
+reviewed: false

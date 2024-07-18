@@ -1,0 +1,11 @@
+question: Lightning Network trong bối cảnh của Bitcoin là gì?
+answer: Một công nghệ tầng thứ hai mang lại một tầm nhìn hoàn toàn mới về Bitcoin.
+wrong_answers:
+  - Một mạng lưới của các thợ đào Bitcoin.
+  - Một loại Bitcoin mới.
+  - Một nền tảng giao dịch Bitcoin.
+explanation: |
+  Lightning Network là một giao thức thanh toán "tầng 2" hoạt động trên
+  cơ sở của một loại tiền mã hóa dựa trên blockchain (như Bitcoin). Nó được thiết kế để cho phép
+  các giao dịch nhanh chóng giữa các nút tham gia.
+đã xem xét: false

@@ -1,0 +1,9 @@
+question: Mikä strategia Espanja käytti valuuttansa arvon alentamiseen vaikuttamatta asemaansa kansainvälisessä kaupassa?
+answer: Espanja devalvoi valikoidusti Maravedin, paikallisen valuutan, samalla säilyttäen Espanjan dollarin arvon maailmanmarkkinoilla.
+wrong_answers:
+  - Espanja devalvoi valikoidusti Espanjan dollarin, paikallisen valuutan, samalla säilyttäen Maravedin arvon maailmanmarkkinoilla.
+  - Espanja nosti valikoidusti Maravedin, paikallisen valuutan, arvoa samalla säilyttäen Espanjan dollarin arvon maailmanmarkkinoilla.
+  - Espanja nosti valikoidusti Espanjan dollarin, paikallisen valuutan, arvoa samalla säilyttäen Maravedin arvon maailmanmarkkinoilla.
+explanation: |
+  Espanja oli herkässä tilanteessa. Espanjan dollarin arvon heikentäminen olisi vaarantanut sen aseman kansainvälisessä kaupassa. Tämän dilemman ratkaisemiseksi Espanja kääntyi Maravedin, pääasiassa paikallisväestön käyttämän kuparivaluutan, puoleen. Tätä valuuttaa kohdennettiin devalvoitavaksi.
+arvioitu: false

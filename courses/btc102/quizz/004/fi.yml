@@ -1,0 +1,10 @@
+question: Mikä on yleinen piirre huijauksissa kryptovaluutta-alalla?
+answer: Epärealististen tuottojen lupaaminen.
+wrong_answers:
+  - Fyysisten tuotteiden lupaaminen.
+  - Ohjelmistotuotteiden lupaaminen.
+  - Perinteisen valuutan lupaaminen.
+explanation: |
+  Huijaukset kryptovaluutta-alalla lupaavat usein epärealistisia tuottoja.
+  On ratkaisevan tärkeää olla sokeasti luottamatta, erityisesti internetin mainosbannerien kohdalla.
+arvioitu: false

@@ -1,0 +1,11 @@
+question: Kolik epizod hyperinflace je zdokumentováno v tabulce Hanke-Krus?
+answer: 56
+wrong_answers:
+  - 46
+  - 66
+  - 76
+explanation: |
+  Tabulka Hanke-Krus dokumentuje 56 epizod hyperinflace. Nicméně,
+  nezahrnuje všechny epizody, jako je například ta ve Venezuele v roce 2016, což celkový
+  počet zvyšuje na 57.
+recenzováno: false

@@ -1,0 +1,9 @@
+question: Mikä on Bitcoin-stackerin päätavoite?
+answer: Kerätä mahdollisimman paljon satosheja
+wrong_answers:
+  - Kerätä mahdollisimman paljon bitcoineja
+  - Myydä tavaroita tai palveluita Bitcoinissa
+  - Ostaa Bitcoinia suoraan käteisellä ystävien tai Bitcoin-yhteisön jäsenten kanssa
+explanation: |
+  Bitcoin-stackerin päätavoite on kerätä mahdollisimman paljon satosheja. Tämä saavutetaan perustamalla Dollar-Cost Averaging (DCA) -suunnitelma ja etsimällä muita ratkaisuja satoshien kerryttämiseen.
+arvioitu: false

@@ -1,0 +1,9 @@
+question: BitcoinネットワークにおけるBitcoinノードの役割は何ですか？
+answer: 新しいブロックとその中のトランザクションの検証を行います。
+wrong_answers:
+  - 新しいBitcoinを生成します。
+  - Bitcoinの価格を調整します。
+  - Bitcoinネットワークを管理します。
+explanation: >-
+  BitcoinネットワークにおけるBitcoinノードは、新しいブロックとその中のトランザクションの検証を行います。このBitcoinノードのネットワークを通じて、ネットワークは真に分散化されます。
+reviewed: false

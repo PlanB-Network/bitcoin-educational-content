@@ -1,0 +1,13 @@
+question: What influences the weight of a Bitcoin transaction?
+
+answer: The number of inputs and outputs.
+
+wrong_answers:
+  - The size of the blockchain.
+  - The amount of the inputs and outputs.
+  - The age of the UTXOs used.
+
+explanation: |
+  The more inputs and outputs a Bitcoin transaction has, the heavier it will be in vB.
+
+reviewed: false

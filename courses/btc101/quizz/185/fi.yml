@@ -1,0 +1,8 @@
+question: Miten Bitcoinia pidetään suhteessa fiat-valuuttoihin?
+answer: Rinnakkaisena taloutena
+wrong_answers:
+  - Korvaavana taloutena
+  - Toissijaisena taloutena
+  - Kolmannen asteen taloutena
+explanation: >-
+  Bitcoinia pidetään rinnakkaisena taloutena fiat-valuuttoihin nähden, mikä tarkoittaa, että se toimii perinteisten talouksien rinnalla ja sitä voidaan käyttää suorina transaktioina ilman, että tarvitsee käyttää vaihtoalustaa.

@@ -1,0 +1,12 @@
+question: Qual a vantagem da rede Bitcoin sobre os sistemas financeiros tradicionais?
+answer: Descentralização e segurança
+wrong_answers:
+  - Aumento das taxas de inflação
+  - Dependência de intermediários
+  - Controle centralizado sobre as transações
+explanation: |
+  A rede descentralizada do Bitcoin oferece uma maneira segura e eficiente de 
+  realizar transações sem a necessidade de intermediários ou terceiros. Isso 
+  reduz o risco de censura e alterações não autorizadas nas transações,
+  além de aumentar a privacidade.
+reviewed: true

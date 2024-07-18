@@ -1,0 +1,10 @@
+question: Ví nào được khuyến nghị cho người Hodler khi bắt đầu?
+answer: Một ví lạnh như Bitbox02, Trezor, hoặc Ledger.
+wrong_answers:
+  - Một ứng dụng ví nóng trên di động.
+  - Một ví vật lý.
+  - Một ví giấy.
+explanation: |
+  Đối với người Hodler, việc bắt đầu với một ví lạnh như Bitbox02,
+  Trezor, hoặc Ledger là lời khuyên đáng giá. Những thiết bị này cung cấp an ninh cho bitcoin trong dài hạn.
+đã xem xét: false

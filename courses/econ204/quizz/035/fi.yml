@@ -1,0 +1,9 @@
+question: Mikä on hyperinflaation vaikutus säästöihin?
+answer: Se heikentää pääoman ja tulojen arvoa, mikä vaikeuttaa pitkän aikavälin suunnittelua.
+wrong_answers:
+  - Se lisää säästöjen arvoa.
+  - Sillä ei ole vaikutusta säästöihin.
+  - Se kannustaa ihmisiä säästämään enemmän.
+explanation: |
+  Hyperinflaation aikana säästäminen muodostuu haasteeksi. Rahalla menettää nopeasti arvonsa, mikä vaikeuttaa pitkän aikavälin suunnittelua. Tämä taloudellinen epävakaus voi aiheuttaa stressiä ja ahdistusta.
+arvioitu: false

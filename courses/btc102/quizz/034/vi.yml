@@ -1,0 +1,11 @@
+question: Giới hạn số lượng bitcoin sẽ tồn tại là bao nhiêu?
+answer: 21 triệu
+wrong_answers:
+  - 100 triệu
+  - 1 tỷ
+  - Không giới hạn
+explanation: |
+  Chương này nói rằng sẽ không bao giờ có nhiều hơn 21 triệu bitcoin.
+  Giới hạn này được thiết lập trong giao thức Bitcoin bởi Satoshi và không thể thay đổi
+  ngày nay.
+đã xem xét: false

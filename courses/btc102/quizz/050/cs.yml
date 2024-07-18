@@ -1,0 +1,12 @@
+question: Jaká je hlavní charakteristika Bitcoinu, která jej odlišuje od ostatních kryptoměn?
+answer: Bitcoin je jediná skutečně decentralizovaná, odolná vůči cenzuře, svobodná a seriózní kryptoměna.
+wrong_answers:
+  - Bitcoin je jediná kryptoměna, která může být těžena.
+  - Bitcoin je jediná kryptoměna, která může být kupována nebo prodávána na obchodních platformách.
+  - Bitcoin je jediná kryptoměna, která může být uložena v peněžence.
+explanation: |
+  Obsah kapitoly uvádí, že Bitcoin je jediná skutečně decentralizovaná,
+  odolná vůči cenzuře, svobodná a seriózní kryptoměna, což ospravedlňuje tisíce
+  hodin práce. To je klíčová charakteristika, která Bitcoin odlišuje od ostatních
+  kryptoměn.
+reviewed: false

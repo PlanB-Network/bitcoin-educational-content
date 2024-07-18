@@ -1,0 +1,11 @@
+question: Ví nóng trong bối cảnh của Bitcoin là gì?
+answer: Một ví điện tử được sử dụng để lưu trữ, gửi và nhận Bitcoin
+wrong_answers:
+  - Một ví vật lý được sử dụng để lưu trữ Bitcoin
+  - Một phương pháp mua Bitcoin
+  - Một nền tảng giao dịch Bitcoin
+explanation: |
+  Trong bối cảnh của Bitcoin, ví nóng là một ví điện tử được sử dụng để
+  lưu trữ, gửi và nhận Bitcoin. Nó thường được kết nối với internet
+  và do đó ít an toàn hơn so với ví lạnh.
+đã xem xét: false

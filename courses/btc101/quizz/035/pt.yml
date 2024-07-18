@@ -1,0 +1,11 @@
+pergunta: Qual destas opções não é uma vantagem das moedas fiduciárias?
+resposta: Estão sujeitas à inflação monetária
+respostas_erradas:
+  - São facilmente transportáveis
+  - São facilmente divisíveis
+  - São aceitas por todos os países
+explicação: |
+  Moedas fiduciárias, como o dólar e o euro, são muito líquidas e
+  facilmente transportáveis porque agora são principalmente digitais. No entanto, seu valor é
+  constantemente corroído pela inflação monetária.
+revisado: true

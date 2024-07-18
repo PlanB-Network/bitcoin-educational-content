@@ -1,0 +1,10 @@
+question: Tại sao sự riêng tư lại quan trọng trong bối cảnh của Bitcoin?
+answer: Để giảm thiểu rủi ro của việc theo dõi quỹ của bạn
+wrong_answers:
+  - Để giảm giá trị của bitcoin của bạn
+  - Để ngăn chặn bitcoin của bạn bị đánh cắp
+  - Để nộp thuế cho bitcoin của bạn
+explanation: |
+  Sự riêng tư quan trọng trong bối cảnh của Bitcoin để giảm thiểu rủi ro
+  việc theo dõi quỹ của bạn có thể dẫn đến sự giám sát.
+reviewed: false

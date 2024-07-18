@@ -1,0 +1,11 @@
+question: Jaký je jeden důvod, proč fiat měna vede ke centralizované kontrole?
+answer: Umožňuje vládám kontrolovat peněžní zásobu a úrokové sazby.
+wrong_answers:
+  - Je kryta fyzickými komoditami jako zlato a stříbro.
+  - Je odolná vůči inflaci.
+  - Podporuje decentralizované finanční systémy.
+explanation: |
+  Fiat měna dává vládám moc kontrolovat peněžní zásobu a
+  úrokové sazby, což jim umožňuje ovlivňovat ekonomickou aktivitu a vede
+  ke centralizované kontrole.
+recenzováno: true

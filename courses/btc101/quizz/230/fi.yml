@@ -1,0 +1,10 @@
+question: Mitä Lightning-verkko mahdollistaa?
+answer: Siirtojen tekemisen yksilöiden välillä, joilla ei ole suoraa kanavayhteyttä.
+wrong_answers:
+  - Siirtojen tekemisen yksilöiden välillä, joilla on vain suora kanavayhteyttä.
+  - Siirtojen tekemisen yksilöiden välillä, joilla on suora kanavayhteyttä ja kolmas osapuoli.
+  - Siirtojen tekemisen yksilöiden välillä, joilla on suora kanavayhteyttä ja useita kolmansia osapuolia.
+explanation: |
+  Lightning-verkko mahdollistaa siirtojen tekemisen yksilöiden välillä,
+  joilla ei ole suoraa kanavayhteyttä.
+arvioitu: false

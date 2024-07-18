@@ -1,0 +1,9 @@
+question: Mikä oli kultaseppien rooli 1200-luvun Italiassa?
+answer: He antoivat vaihtovelkakirjoja talletettuja florineja vastaan
+wrong_answers:
+  - He loivat ensimmäisen pörssimarkkinan
+  - He toivat esille rahan aika-arvon käsitteen
+  - He estivät pääsyn Scheldt-jokeen
+explanation: |
+  1200-luvun Italiassa kultasepät antoivat vaihtovelkakirjoja talletettuja florineja vastaan. Nämä florinit säilytettiin huolellisesti heidän holveissaan, muodostaen rahan ensimmäisen kerroksen, kun taas vaihtovelkakirjat muodostivat toisen kerroksen.
+arvioitu: false

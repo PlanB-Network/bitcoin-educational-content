@@ -1,0 +1,10 @@
+question: Mitä funktiota käytetään johdettaessa lapsiavaimia?
+answer: HMAC-SHA512-funktiota käytetään johdettaessa lapsiavaimia.
+vaarat_vastaukset:
+  - SHA256-funktiota käytetään johdettaessa lapsiavaimia.
+  - MD5-funktiota käytetään johdettaessa lapsiavaimia.
+  - SHA1-funktiota käytetään johdettaessa lapsiavaimia.
+explanation: |
+  HMAC-SHA512-funktiota käytetään johdettaessa lapsiavaimia. Tämä
+
+  funktio käyttää vanhempaa avainta yhdistettynä indeksiin ja avainpariin liitettyyn ketjukoodiin.

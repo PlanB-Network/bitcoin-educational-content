@@ -1,0 +1,13 @@
+question: Mikä vaikuttaa Bitcoin-siirron painoon?
+
+answer: Syötteiden ja tulosteiden lukumäärä.
+
+vaarat_vastaukset:
+  - Lohkoketjun koko.
+  - Syötteiden ja tulosteiden määrä.
+  - Käytettyjen UTXO:iden ikä.
+
+explanation: |
+  Mitä enemmän syötteitä ja tulosteita Bitcoin-siirrossa on, sitä painavampi se on vB:ssä.
+
+arvioitu: false

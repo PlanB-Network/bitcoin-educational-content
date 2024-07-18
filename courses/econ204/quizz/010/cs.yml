@@ -1,0 +1,11 @@
+question: Jaký je dopad Indexu spotřebitelských cen (CPI) na měření inflace?
+answer: CPI může podcenit skutečnou inflaci, protože nezahrnuje komplexně vývoj cen nemovitostí a může kompenzovat nebo maskovat skutečné zvýšení cen.
+wrong_answers:
+  - CPI vždy přesně měří inflaci.
+  - CPI nadhodnocuje skutečnou inflaci.
+  - CPI nemá žádný dopad na měření inflace.
+explanation: |
+  Kapitola vysvětluje, že CPI, používaný jako hlavní ukazatel inflace,
+  má určitá omezení. Například nezahrnuje komplexně vývoj cen nemovitostí. Také výpočet CPI zahrnuje určité
+  metodologie, které mohou kompenzovat nebo maskovat skutečné zvýšení cen.
+recenzováno: false

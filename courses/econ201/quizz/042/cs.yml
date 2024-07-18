@@ -1,0 +1,12 @@
+question: Jaký je hlavní rozdíl mezi rakouskou analýzou a analýzou monetaristů a keynesiánů?
+answer: Rakouská analýza věnuje zvláštní pozornost různým fázím výroby a struktuře relativních cen, zatímco monetaristé a keynesiáni se zaměřují na agregované proměnné, jako jsou úrovně zaměstnanosti, HDP nebo index spotřebitelských cen.
+wrong_answers:
+  - Rakouská analýza se zaměřuje na agregované proměnné, jako jsou úrovně zaměstnanosti, HDP nebo index spotřebitelských cen, zatímco monetaristé a keynesiáni věnují zvláštní pozornost různým fázím výroby a struktuře relativních cen.
+  - Rakouská analýza a analýza monetaristů a keynesiánů jsou v podstatě stejné.
+  - Rakouská analýza se zaměřuje na vnější události a animal spirits, zatímco monetaristé a keynesiáni se zaměřují na endogenní dynamiku systému frakčních rezerv.
+explanation: |
+  Hlavní rozdíl mezi rakouskou analýzou a analýzou monetaristů
+  a keynesiánů spočívá v tom, že prvně jmenovaná věnuje zvláštní pozornost různým fázím
+  výroby a struktuře relativních cen, zatímco druhá se zaměřuje na
+  agregované proměnné, jako jsou úrovně zaměstnanosti, HDP nebo index spotřebitelských cen.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Thuật ngữ nào được dùng để chỉ một công ty tiếp tục hoạt động chủ yếu thông qua việc vay vốn với chi phí thấp, mặc dù đã không còn khả năng thanh toán hoặc gần như phá sản dưới điều kiện thị trường bình thường?
+answer: Công ty zombie
+wrong_answers:
+  - Công ty ma
+  - Công ty ma cà rồng
+  - Công ty ma quỷ
+explanation: |
+  Một công ty zombie là công ty mà, dưới điều kiện thị trường bình thường, sẽ không còn khả năng thanh toán hoặc gần như phá sản, nhưng tiếp tục hoạt động chủ yếu thông qua việc vay vốn với chi phí thấp.
+đã xem xét: false

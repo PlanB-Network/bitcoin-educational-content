@@ -1,0 +1,10 @@
+question: Jaký je běžný znak podvodů v oblasti kryptoměn?
+answer: Sliby nerealistických výnosů.
+wrong_answers:
+  - Sliby fyzických produktů.
+  - Sliby softwarových produktů.
+  - Sliby fiat měn.
+explanation: |
+  Podvody v oblasti kryptoměn často slibují nerealistické výnosy.
+  Je zásadní nevěřit slepě, obzvláště pokud jde o internetový banner.
+recenzováno: false

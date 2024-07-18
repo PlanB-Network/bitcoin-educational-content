@@ -1,0 +1,11 @@
+question: Giải pháp cho vấn đề trao đổi trực tiếp trong phân công lao động là gì?
+answer: Trao đổi gián tiếp được hỗ trợ bởi tiền tệ.
+wrong_answers:
+  - Trao đổi trực tiếp được hỗ trợ bởi barter.
+  - Trao đổi gián tiếp được hỗ trợ bởi barter.
+  - Trao đổi trực tiếp được hỗ trợ bởi tiền tệ.
+explanation: |
+  Tiền tệ cho phép trao đổi gián tiếp, nơi một cá nhân có thể mua từ
+  người khác, và người bán có thể sử dụng đơn vị tiền tệ đó ở nơi khác, vào thời điểm khác, và
+  với người khác.
+đã xem xét: false

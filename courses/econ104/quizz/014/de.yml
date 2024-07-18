@@ -1,0 +1,11 @@
+Frage: Was ist die Rolle von privaten Schlüsseln bei Bitcoin-Transaktionen?
+Antwort: Sie werden verwendet, um Transaktionen zu signieren und zu autorisieren.
+Falsche Antworten:
+  - Sie werden verwendet, um die Authentizität von Transaktionen zu überprüfen.
+  - Sie werden verwendet, um die Transaktionsdaten zu verschlüsseln.
+  - Sie werden öffentlich geteilt für Transparenz.
+Erklärung: |
+  Private Schlüssel sind ein wesentlicher Bestandteil von Bitcoin-Transaktionen.
+  Sie werden verwendet, um Transaktionen zu signieren und zu autorisieren, was den Beweis 
+  des Eigentums liefert und sicherstellt, dass nur der Besitzer seine Bitcoins ausgeben kann.
+Überprüft: true

@@ -1,0 +1,9 @@
+question: Jaký je hlavní důvod, proč by paranoidní bitcoinista používal vlastní LN uzel?
+answer: Aby si udržel soukromí a bezpečnost
+wrong_answers:
+  - Aby se vyhnul procesům KYC
+  - Aby spravoval své UTXO
+  - Aby míchal své mince
+explanation: |
+  Kapitola uvádí, že paranoidní bitcoinista by používal vlastní LN uzel jako součást svého zaměření na bezpečnost. Ačkoliv se vyhýbání procesům KYC, správa UTXO a míchání mincí také mohou jevit jako aktivity, které by paranoidní bitcoinista mohl provádět, tyto nejsou přímo spojeny s používáním LN uzlu.
+reviewed: false

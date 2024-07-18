@@ -1,0 +1,11 @@
+question: Mikä on Bitcoinin kustannusten ja sen hinnan välinen suhde?
+answer: Bitcoinin kustannukset ovat yleensä suhteessa sen hintaan
+wrong_answers:
+  - Bitcoinin kustannukset ovat kääntäen verrannollisia sen hintaan
+  - Bitcoinin kustannukset eivät liity sen hintaan
+  - Bitcoinin kustannukset ovat aina korkeammat kuin sen hinta
+explanation: |
+  Bitcoinin kustannukset, jotka liittyvät sähköön, jota tarvitaan louhintakoneiden käyttämiseen,
+  ovat yleensä suhteessa sen hintaan. Tämä suhde tarjoaa paremman ymmärryksen
+  hintavaihteluista ja tulevaisuuden näkymistä.
+arvioitu: false

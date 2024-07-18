@@ -1,0 +1,11 @@
+Câu hỏi: Các bit được biến đổi thành cụm từ như thế nào trong quá trình tạo ra cụm từ ghi nhớ cho ví Bitcoin?
+
+Câu trả lời: Mỗi phân đoạn được liên kết với một từ từ danh sách 2048 từ.
+
+Câu trả lời sai:
+  - Mỗi bit được liên kết với một từ từ danh sách 2048 từ.
+  - Mỗi phân đoạn được liên kết với một từ từ danh sách 1024 từ.
+  - Mỗi bit được liên kết với một từ từ danh sách 1024 từ.
+
+Giải thích:
+  Để biến đổi các bit thành cụm từ, mỗi phân đoạn được liên kết với một từ từ danh sách 2048 từ.

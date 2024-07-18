@@ -1,0 +1,9 @@
+question: Quy trình mà qua đó các thợ đào xác thực giao dịch và bao gồm chúng vào một khối là gì?
+answer: Bằng chứng công việc
+wrong_answers:
+  - Bằng chứng cổ phần
+  - Bằng chứng quyền lực
+  - Bằng chứng đốt
+explanation: >-
+  Các thợ đào xác thực giao dịch và bao gồm chúng vào một khối qua một quy trình gọi là "bằng chứng công việc". Điều này bao gồm việc giải một câu đố mật mã.
+đã xem xét: false

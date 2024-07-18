@@ -1,0 +1,9 @@
+question: Co předpověděl Milton Friedman v roce 1999?
+answer: Vývoj spolehlivé elektronické měny
+wrong_answers:
+  - Pád fyzických peněz
+  - Nástup Bitcoinu
+  - Konec kontroly peněz vládou
+explanation: >-
+  Milton Friedman, uznávaný ekonom, předpověděl v roce 1999, že brzy bude vyvinuta spolehlivá elektronická měna, metoda, která umožní na internetu převádět prostředky z bodu A do bodu B, aniž by A znal B nebo B znal A.
+recenzováno: false

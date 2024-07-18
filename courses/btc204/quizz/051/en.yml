@@ -1,0 +1,13 @@
+question: What is the disadvantage of Silent Payments compared to BIP47?
+
+answer: The receiver must scan almost the entire blockchain.
+
+wrong_answers:
+  - They generate higher transaction fees for the sender.
+  - They limit the number of possible transactions.
+  - They are less anonymous.
+
+explanation: |
+  In exchange for foregoing the notification transaction, the receiver must scan all Bitcoin transactions that comply with the standard in an attempt to find payments addressed to them.
+
+reviewed: false

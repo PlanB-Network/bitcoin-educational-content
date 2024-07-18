@@ -1,0 +1,11 @@
+question: Quelle est la connexion historique entre l'argent et des biens comme l'or ?
+answer: L'or est rare et largement accepté comme une réserve de valeur
+wrong_answers:
+  - L'or rend l'argent plus attrayant
+  - L'or est facilement divisible
+  - L'or est unique
+explanation: |
+  Étant donné la rareté globalisée de l'or dans la nature et l'investissement significatif requis
+  pour l'extraire, le raffiner et le stocker, l'or a constamment été échangé à une prime au-dessus
+  des autres formes d'argent.
+reviewed: true

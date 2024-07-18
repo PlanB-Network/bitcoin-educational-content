@@ -1,0 +1,10 @@
+question: Minkä tyyppinen käyttäjä todennäköisimmin tarvitsee sekä kuumaa että kylmää Bitcoin-lompakkoa?
+answer: Käyttäjä, joka tarvitsee käyttää Bitcoinia säännöllisesti.
+wrong_answers:
+  - Käyttäjä, joka käyttää Bitcoinia vain satunnaisesti.
+  - Käyttäjä, joka louhii Bitcoinia.
+  - Käyttäjä, joka sijoittaa Bitcoiniin vain pitkällä aikavälillä.
+explanation: |
+  Säännölliset Bitcoinin käyttäjät tarvitsevat kuumaa lompakkoa päivittäisiin transaktioihin ja
+  kylmää lompakkoa turvalliseen pitkäaikaiseen säilytykseen.
+arvioitu: false

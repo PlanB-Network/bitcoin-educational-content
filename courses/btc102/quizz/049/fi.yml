@@ -1,0 +1,10 @@
+question: Mikä on DIY (Tee Se Itse) -lompakon pääominaisuus?
+answer: Se on 100% avoimen lähdekoodin ratkaisu, jonka voi luoda kotona vähentääkseen luottamusriskiä muihin toimijoihin tuotanto- tai luomisketjussa
+wrong_answers:
+  - Se on laitteisto, jossa voi säilyttää bitcoineja
+  - Se on ohjelmisto bitcoinejen louhimiseen
+  - Se on alusta bitcoinien ostamiseen ja myymiseen
+explanation: |
+  Luvun sisältö selittää, että DIY (Tee Se Itse) -lompakot ovat 100%
+  avoimen lähdekoodin ratkaisuja, jotka voi luoda kotona vähentääkseen luottamusriskiä muihin toimijoihin tuotanto- tai luomisketjussa.
+arvioitu: false

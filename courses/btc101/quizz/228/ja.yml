@@ -1,0 +1,9 @@
+question: Lightning Networkでの取引手数料は、通常何％以下ですか？
+answer: 0.5%
+wrong_answers:
+  - 1%
+  - 2%
+  - 3%
+explanation: >-
+  Lightning Networkでの取引手数料は非常に低く、通常は0.5%以下です。
+reviewed: false

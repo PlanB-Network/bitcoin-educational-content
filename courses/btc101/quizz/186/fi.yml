@@ -1,0 +1,9 @@
+question: Mikä on yksi tapa saada bitcoineja ostamatta niitä?
+answer: Hyväksy ne maksuvälineenä tarjoamistasi tuotteista tai palveluista
+wrong_answers:
+  - Lainaa ne ystävältä
+  - Voita ne lotossa
+  - Löydä ne kadulta
+explanation: >-
+  Yksi tapa saada bitcoineja ostamatta niitä on hyväksyä ne maksuvälineenä tarjoamistasi tuotteista tai palveluista. Tämä mahdollistaa bitcoinien hankkimisen työsi kautta.
+arvioitu: false

@@ -1,0 +1,10 @@
+質問: 拡張キーで最も一般的に使用される接頭辞は何ですか？
+回答: xpub と zpub
+誤った回答:
+  - xprv と zprv
+  - ypub と zpub
+  - xpub と ypub
+説明: |
+  最も一般的に使用される接頭辞は xpub と zpub で、それぞれ
+
+  レガシーおよび segwit v1 と segwit v0 の標準に対応しています。

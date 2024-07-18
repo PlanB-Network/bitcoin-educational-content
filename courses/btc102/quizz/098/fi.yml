@@ -1,0 +1,10 @@
+question: Mitä lompakoita erityisen varovainen Bitcoin-käyttäjä saattaisi käyttää?
+answer: Samourai-lompakko kuumalle lompakolle, Coldcard ja/tai Seed Signer kylmälle lompakolle
+wrong_answers:
+  - Coinbase-lompakko kuumalle lompakolle, Ledger kylmälle lompakolle
+  - Binance-lompakko kuumalle lompakolle, Trezor kylmälle lompakolle
+  - PayPal kuumalle lompakolle, Pankkitili kylmälle lompakolle
+explanation: |
+  Luvussa mainitaan Samourai-lompakko kuumalle lompakolle ja Coldcard ja/tai
+  Seed Signer kylmälle lompakolle lompakkoina, joita erityisen varovainen Bitcoin-käyttäjä saattaisi käyttää.
+arvioitu: false

@@ -431,7 +431,7 @@ Hesla, ač všudypřítomná, mají mnoho nevýhod, včetně možnosti rizikové
 
 'Passkeys', například, nabízí šifrované náhodné klíče, kombinované s lokálním faktorem (biometrie nebo PIN), které jsou hostovány poskytovatelem, ale zůstávají mimo jejich dosah. Ačkoliv to vyžaduje aktualizaci webových stránek, přístup eliminuje potřebu hesel, čímž poskytuje vysokou úroveň bezpečnosti bez omezení spojených s tradičními hesly nebo problémem správy digitálního trezoru.
 
-Passkiz je další životaschopná a bezpečná alternativa pro správu hesel. Zůstává však zásadní otázka: dostupnost v případě selhání poskytovatele. Bylo by tedy žádoucí, aby internetoví giganti navrhli systémy zajišťující tuto dostupnost.
+Passkiz je další životaschopná a bezpečná alternativa pro správu hesel. Zůstává však zásadní question: dostupnost v případě selhání poskytovatele. Bylo by tedy žádoucí, aby internetoví giganti navrhli systémy zajišťující tuto dostupnost.
 
 Přímá autentizace k příslušné službě je zajímavou možností, jak již nezáviset na třetí straně. Nicméně Single Sign-On (SSO) nabízený internetovými giganty také představuje problémy z hlediska dostupnosti a rizik cenzury. Aby se předešlo únikům dat, je zásadní minimalizovat množství informací shromažďovaných během ověřovacího procesu.
 

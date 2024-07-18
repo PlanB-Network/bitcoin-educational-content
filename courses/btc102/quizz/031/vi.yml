@@ -1,0 +1,9 @@
+question: Mục đích của ví Bitcoin là gì?
+answer: Để gửi và nhận bitcoins
+wrong_answers:
+  - Để đào bitcoins
+  - Để lưu trữ bitcoins dưới dạng vật lý
+  - Để chuyển đổi bitcoins sang các loại tiền tệ khác
+explanation: |
+  Ví Bitcoin được sử dụng để gửi và nhận bitcoins. Chúng là ví điện tử lưu trữ các thông tin xác thực số cần thiết để truy cập vào địa chỉ bitcoin và tiêu bitcoins.
+đã xem xét: false

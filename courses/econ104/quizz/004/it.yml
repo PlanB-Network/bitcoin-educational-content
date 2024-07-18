@@ -1,0 +1,11 @@
+domanda: Qual è una ragione per cui la valuta fiat porta al controllo centralizzato?
+risposta: Permette ai governi di controllare l'offerta di denaro e i tassi di interesse.
+risposte_errate:
+  - È supportata da beni fisici come oro e argento.
+  - È resistente all'inflazione.
+  - Incoraggia sistemi finanziari decentralizzati.
+spiegazione: |
+  La valuta fiat dà ai governi il potere di controllare l'offerta di denaro e
+  i tassi di interesse, permettendo loro di influenzare l'attività economica e
+  risultando in un controllo centralizzato.
+revisionato: true

@@ -1,0 +1,9 @@
+question: Mikä on päähaaste satunnaislukujen tuottamisessa tietokoneilla Bitcoin-siirtoja varten?
+answer: Saadut tulokset eivät ole todella satunnaisia.
+vaarat_vastaukset:
+  - Prosessi on liian monimutkainen useimmille käyttäjille.
+  - Se vaatii paljon laskentatehoa.
+  - Se ei ole yhteensopiva kaikkien tietokonetyyppien kanssa.
+explanation: |
+  Tietokoneet noudattavat asetettuja algoritmeja, mikä tekee todella satunnaisten lukujen tuottamisesta vaikeaa. Tämä on merkittävä haaste kryptografiassa, jossa satunnaisuus on olennaisen tärkeää yksityisavainten ja Bitcoin-siirtojen turvallisuuden kannalta.
+arvioitu: false

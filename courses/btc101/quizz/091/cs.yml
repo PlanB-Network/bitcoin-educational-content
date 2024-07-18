@@ -1,0 +1,9 @@
+question: Jaké je doporučené použití offline, neboli studené, fyzické peněženky?
+answer: Pro uložení větších částek
+wrong_answers:
+  - Pro denní výdaje
+  - Pro malé částky
+  - Pro krátkodobé úspory
+explanation: |
+  Offline, neboli studená, fyzická peněženka je doporučena pro uložení větších částek, protože je méně náchylná k online hrozbám. Nicméně, pro denní výdaje není doporučena, protože není tak přístupná pro denní transakce.
+recenzováno: true

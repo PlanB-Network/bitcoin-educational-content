@@ -1,0 +1,9 @@
+question: Co je to koncept časové preference?
+answer: Časová preference je subjektivní hodnocení hodnoty budoucích statků ve srovnání se současnými statky. Za všech stejných podmínek jsou současné statky vždy upřednostňovány před budoucími statky.
+wrong_answers:
+  - Časová preference je objektivní hodnocení hodnoty budoucích statků ve srovnání se současnými statky.
+  - Časová preference je vrozená preference budoucích statků před současnými statky.
+  - Časová preference je subjektivní hodnocení hodnoty současných statků ve srovnání s budoucími statky.
+explanation: |
+  Časová preference je subjektivní hodnocení hodnoty budoucích statků ve srovnání se současnými statky. Jelikož jsme smrtelní a budoucnost je vždy nejistá, přirozeně upřednostňujeme mít přístup k statku nyní, než později. Ačkoliv se časová preference může mezi jednotlivci lišit kvůli celé řadě faktorů, jako je kultura, bohatství, vzdělání, fyziologie atd., časové preference jsou vždy kladné, což znamená, že za všech stejných podmínek vždy hodnotíme současné statky více než budoucí statky.
+reviewed: false

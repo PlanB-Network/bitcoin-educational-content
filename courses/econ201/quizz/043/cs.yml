@@ -1,0 +1,9 @@
+question: Jaký je hlavní argument Ludwiga von Misese ve svém článku "Economic Calculation in a Socialist Commonwealth"?
+answer: Racionální ekonomická organizace je bez cen pro meziprodukty výroby nemožná.
+wrong_answers:
+  - Socialismus je morálně nadřazený kapitalismu.
+  - Kapitalismus je jediným životaschopným ekonomickým systémem.
+  - Socialismus může produkovat jedince zbavené kapitalistických instinktů.
+explanation: |
+  Mises argumentoval, že bez trhu určujícího ceny pro meziprodukty výroby se stává nemožným racionalizovat použití zdrojů napříč průmyslovými odvětvími. To znamená, že i když existuje dokonalá organizace uvnitř každé firmy nebo podčásti ekonomiky, celá ekonomika nemůže efektivně reagovat na změny v dostupnosti zdrojů, podmínkách výroby a preferencích spotřebitelů.
+reviewed: false

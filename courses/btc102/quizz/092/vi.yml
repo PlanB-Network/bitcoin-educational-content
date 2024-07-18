@@ -1,0 +1,9 @@
+question: Lý do chính khiến một người dùng Bitcoin cẩn trọng muốn sử dụng node LN của riêng họ là gì?
+answer: Để duy trì sự riêng tư và an toàn
+wrong_answers:
+  - Để tránh quy trình KYC
+  - Để quản lý UTXOs của họ
+  - Để trộn các đồng tiền của họ
+explanation: |
+  Chương này đề cập rằng một người dùng Bitcoin cẩn trọng sẽ sử dụng node LN của riêng mình như một phần của việc tập trung vào an ninh. Mặc dù việc tránh quy trình KYC, quản lý UTXOs, và trộn các đồng tiền cũng là những hoạt động mà một người dùng Bitcoin cẩn trọng có thể tham gia, nhưng những hoạt động này không trực tiếp liên quan đến việc sử dụng một node LN.
+đã xem xét: false

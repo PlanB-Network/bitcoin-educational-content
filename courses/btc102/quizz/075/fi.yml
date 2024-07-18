@@ -1,0 +1,11 @@
+question: Mikä on paras ratkaisu aloittaa altistuminen Bitcoinille ilman merkittävää alkupääomaa?
+answer: Dollar Cost Averaging (DCA) -suunnitelman luominen
+wrong_answers:
+  - Suuren määrän Bitcoinin ostaminen kerralla
+  - Tavaroiden tai palveluiden myyminen Bitcoinissa
+  - Osallistuminen Bitcoin-ekosysteemiin
+explanation: |
+  Dollar Cost Averaging (DCA) -suunnitelman luominen on paras ratkaisu aloittaa
+  altistuminen Bitcoinille ilman merkittävää alkupääomaa. Tämä mahdollistaa
+  sijoittajan ostaa hieman joka viikko, riippumatta määrästä.
+arvioitu: false

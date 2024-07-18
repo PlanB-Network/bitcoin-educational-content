@@ -1,0 +1,13 @@
+question: Mikä on potentiaalinen riski käyttäjien, solmujen tai louhijoiden määrän vähenemisessä Bitcoin-verkossa?
+answer: Se voisi heikentää verkkoa, lisäten keskittymisen riskiä ja haavoittuvuutta hyökkäyksille.
+wrong_answers:
+  - Se voisi nostaa Bitcoinin hintaa.
+  - Se voisi vähentää transaktionopeutta.
+  - Se voisi lisätä louhintavaikeutta.
+explanation: |
+  Käyttäjien, solmujen tai louhijoiden määrän väheneminen voisi heikentää
+
+  Bitcoin-verkkoa. Tämä voisi lisätä keskittymisen riskiä ja tehdä verkosta
+
+  haavoittuvamman hyökkäyksille.
+arvioitu: false

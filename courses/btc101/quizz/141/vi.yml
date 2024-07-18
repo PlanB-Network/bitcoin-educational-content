@@ -1,0 +1,10 @@
+question: Chi phí để vận hành một nút Bitcoin trên Raspberry Pi 4 về mặt tiêu thụ điện năng hàng năm là bao nhiêu?
+answer: "Một chút ít hơn 10 euro mỗi năm"
+wrong_answers:
+  - "Khoảng 50 euro mỗi năm"
+  - "Khoảng 100 euro mỗi năm"
+  - "Khoảng 200 euro mỗi năm"
+explanation: >-
+  "Vận hành một nút Bitcoin trên Raspberry Pi 4 có chi phí một chút ít hơn\
+  \ 10 euro mỗi năm về mặt tiêu thụ điện năng."
+đã xem xét: false

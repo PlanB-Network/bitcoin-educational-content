@@ -1,0 +1,10 @@
+question: Jaký byl počáteční směnný kurz zimbabwského dolaru, když byl zaveden v roce 1980?
+answer: Dva zimbabwské dolary měly hodnotu přibližně 1,60 amerického dolaru
+wrong_answers:
+  - Jeden zimbabwský dolar měl hodnotu přibližně 1 americký dolar
+  - Jeden zimbabwský dolar měl hodnotu přibližně 2 americké dolary
+  - Dva zimbabwské dolary měly hodnotu přibližně 2 americké dolary
+explanation: |
+  Zimbabwe získalo nezávislost v roce 1980 a zavedlo zimbabwský dolar.
+  Původně dva zimbabwské dolary měly hodnotu přibližně 1,60 amerického dolaru.
+recenzováno: false

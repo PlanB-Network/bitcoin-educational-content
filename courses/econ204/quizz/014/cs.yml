@@ -1,0 +1,11 @@
+question: Jaký je rozdíl mezi inflací taženou poptávkou a inflací tlačenou náklady?
+answer: Inflace tažená poptávkou je situace, kdy poptávka v ekonomice převyšuje dostupnou produkci, zatímco inflace tlačená náklady je připisována nárůstu výrobních nákladů.
+wrong_answers:
+  - Inflace tažená poptávkou je připisována nárůstu výrobních nákladů, zatímco inflace tlačená náklady je situace, kdy poptávka v ekonomice převyšuje dostupnou produkci.
+  - Inflace tažená poptávkou a inflace tlačená náklady jsou stejné, obě se vztahují k situaci, kdy poptávka v ekonomice převyšuje dostupnou produkci.
+  - Inflace tažená poptávkou a inflace tlačená náklady jsou stejné, obě se vztahují k nárůstu výrobních nákladů.
+explanation: |
+  Kapitola vysvětluje, že inflace tažená poptávkou je často vysvětlována jako
+  situace, kdy poptávka v ekonomice převyšuje dostupnou produkci. Na druhé
+  straně, inflace tlačená náklady je připisována nárůstu výrobních nákladů.
+recenzováno: false

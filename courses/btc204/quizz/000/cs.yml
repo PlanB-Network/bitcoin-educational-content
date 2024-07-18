@@ -1,0 +1,9 @@
+question: Co znamená zkratka UTXO v angličtině?
+answer: Nevyužitý výstup transakce
+wrong_answers:
+  - Jednotný výstup transakce
+  - Pouze transakce uživatele
+  - Možnost výměny utility tokenu
+explanation: |
+  UTXO je výstup transakce, který ještě nebyl využit.
+reviewed: false

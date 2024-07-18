@@ -1,0 +1,11 @@
+question: Mikä on Lightning Network?
+answer: Maksuverkko, joka käyttää Bitcoin-protokollaa mahdollistaakseen salamannopeat transaktiot.
+wrong_answers:
+  - Uudenlainen kryptovaluutta.
+  - Bitcoinista erillinen lohkoketjuteknologia.
+  - Menetelmä Bitcoinin louhimiseen.
+explanation: >-
+  Lightning Network on maksuverkko, joka käyttää Bitcoin-protokollaa nopeiden
+  transaktioiden mahdollistamiseen. Se ei ole erillinen kryptovaluutta tai menetelmä
+  Bitcoinin louhimiseen.
+arvioitu: false

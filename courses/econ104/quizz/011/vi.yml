@@ -1,10 +1,10 @@
-câu hỏi: Điều gì làm cho Bitcoin khác biệt so với các loại tiền tệ truyền thống được kiểm soát bởi các ngân hàng trung ương hoặc chính phủ?
-câu trả lời: Tất cả các phương án
-câu trả lời sai:
+question: Điều gì làm cho Bitcoin khác biệt so với các loại tiền tệ truyền thống được kiểm soát bởi các ngân hàng trung ương hoặc chính phủ?
+answer: Tất cả các phương án
+wrong_answers:
   - Bitcoin yêu cầu sự hợp tác giữa các thợ đào, nút và nhà phát triển
   - Bitcoin cho phép bất kỳ ai tham gia vào mạng và thực hiện các vai trò quan trọng
   - Bitcoin dựa vào một hệ thống đồng thuận phi tập trung
-giải thích: |
+explanation: |
   Điều làm cho Bitcoin khác biệt so với các loại tiền tệ fiat truyền thống là nó là 
   một nỗ lực hợp tác giữa ba vai trò thiết yếu và cộng đồng.
   Các nút đảm bảo tính toàn vẹn và an ninh của mạng bằng cách đóng vai trò là cổng kiểm soát.
@@ -16,4 +16,4 @@ giải thích: |
   loại tiền tệ số. Bằng cách giao những nhiệm vụ quan trọng này cho các bên chủ chốt, Bitcoin có thể 
   hoạt động như một phương tiện trao đổi phi tập trung, an toàn, minh bạch và có trách nhiệm với 
   tất cả người dùng, làm cho nó khác biệt đáng kể so với các loại tiền tệ tập trung mà chúng ta sử dụng ngày nay.
-đã xem xét: true
+reviewed: false

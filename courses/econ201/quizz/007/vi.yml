@@ -1,9 +1,9 @@
-câu hỏi: Ai được cảm ơn vì đã sản xuất khóa học?
-câu trả lời: "Théo Mogenet"
-câu trả lời sai:
+question: Ai được cảm ơn vì đã sản xuất khóa học?
+answer: "Théo Mogenet"
+wrong_answers:
   - Descoupes Bitcoin
   - "Théo Boloré"
   - Không có câu trả lời nào ở trên
-giải thích: |
+explanation: |
   "Chương này nhắc đến việc Théo được cảm ơn vì đã sản xuất khóa học."
 đã xem xét: false

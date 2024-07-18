@@ -1,9 +1,9 @@
-câu hỏi: Phản ứng của Ngân hàng Anh đối với cuộc khủng hoảng ngân hàng năm 1796 là gì?
-câu trả lời: Nó đã tạm ngừng việc chuyển đổi tiền giấy của mình thành vàng
-câu trả lời sai:
+question: Phản ứng của Ngân hàng Anh đối với cuộc khủng hoảng ngân hàng năm 1796 là gì?
+answer: Nó đã tạm ngừng việc chuyển đổi tiền giấy của mình thành vàng
+wrong_answers:
   - Nó phát hành thêm tiền giấy
   - Nó đóng cửa
   - Nó tăng giá trị của tiền giấy của mình
-giải thích: |
+explanation: |
   Sau cuộc khủng hoảng ngân hàng năm 1796, Ngân hàng Anh đã tạm ngừng việc chuyển đổi tiền giấy của mình thành vàng để ngăn chặn khả năng giảm giá của dự trữ vàng. Việc tạm ngừng này, ban đầu được dự định là một biện pháp tạm thời, đã kéo dài trong một thời gian hai thập kỷ.
 đã xem xét: false

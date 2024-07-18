@@ -1,9 +1,9 @@
-câu hỏi: Một trong những lợi ích tiềm năng khi chấp nhận các công nghệ mới như Bitcoin là gì?
-câu trả lời: Nó có thể tạo ra quy mô kinh tế lớn trên toàn cầu.
-câu trả lời sai:
+question: Một trong những lợi ích tiềm năng khi chấp nhận các công nghệ mới như Bitcoin là gì?
+answer: Nó có thể tạo ra quy mô kinh tế lớn trên toàn cầu.
+wrong_answers:
   - Nó có thể dẫn đến sự sụp đổ kinh tế toàn cầu.
   - Nó có thể gây ra sự giảm sút về trí tuệ con người.
   - Nó có thể dẫn đến việc loại bỏ tất cả các công việc.
-giải thích: >-
+explanation: >-
   Văn bản gợi ý rằng việc chấp nhận những công nghệ mới này có thể tạo ra quy mô kinh tế lớn trên toàn cầu.
 đã xem xét: false

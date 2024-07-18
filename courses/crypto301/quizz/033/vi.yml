@@ -1,10 +1,10 @@
-câu hỏi: Phép nhân vô hướng của một điểm với n trên một đường cong elliptic là gì?
-câu trả lời: Tương đương với việc cộng điểm đó với chính nó n lần
-câu trả lời sai:
+question: Phép nhân vô hướng của một điểm với n trên một đường cong elliptic là gì?
+answer: Tương đương với việc cộng điểm đó với chính nó n lần
+wrong_answers:
   - Tương đương với việc trừ điểm đó khỏi chính nó n lần
   - Tương đương với việc nhân điểm đó với chính nó n lần
   - Tương đương với việc chia điểm đó cho chính nó n lần
-giải thích: |
+explanation: |
   Phép nhân vô hướng của một điểm với n trên một đường cong elliptic tương đương
   với việc cộng điểm đó với chính nó n lần. Thao tác này là cơ sở để tính toán
   khóa công khai trong hệ thống Bitcoin.

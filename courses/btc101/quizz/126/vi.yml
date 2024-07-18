@@ -1,12 +1,12 @@
-câu hỏi: Bitcoin transaction là gì?
-câu trả lời: Một sự chuyển giao quyền sở hữu Bitcoin, sử dụng mã hóa.
-câu trả lời sai:
+question: Bitcoin transaction là gì?
+answer: Một sự chuyển giao quyền sở hữu Bitcoin, sử dụng mã hóa.
+wrong_answers:
   - Một sự trao đổi vật lý Bitcoin, sử dụng công chứng.
   - Một sự chuyển giao quyền sở hữu Bitcoin, sử dụng địa chỉ vật lý.
   - Một sự chuyển giao quyền sở hữu Bitcoin, sử dụng địa chỉ email.
-giải thích: |
+explanation: |
   Một giao dịch Bitcoin là một sự chuyển giao quyền sở hữu Bitcoin theo hình thức số,
   sử dụng địa chỉ Bitcoin được tạo ra nhờ vào mã hóa Elliptic Curve. 
   Địa chỉ này là duy nhất với ví Bitcoin của người
   nhận Bitcoin.
-đã xem xét: true
+reviewed: false

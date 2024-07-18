@@ -1,10 +1,10 @@
-câu hỏi: Lợi ích chính của việc sử dụng VPN là gì?
-câu trả lời: Nó bảo vệ sự riêng tư của bạn bằng cách ẩn địa chỉ IP của bạn
-câu trả lời sai:
+question: Lợi ích chính của việc sử dụng VPN là gì?
+answer: Nó bảo vệ sự riêng tư của bạn bằng cách ẩn địa chỉ IP của bạn
+wrong_answers:
   - Nó tăng tốc độ kết nối internet của bạn
   - Nó cung cấp quyền truy cập miễn phí vào các dịch vụ trả phí
   - Nó bảo vệ máy tính của bạn khỏi virus
-giải thích: |
+explanation: |
   Một VPN, hay Mạng Riêng Ảo, bảo vệ sự riêng tư của bạn bằng cách ẩn
   địa chỉ IP của bạn. Mặc dù nó không làm cho bạn hoàn toàn ẩn danh, nhưng đây vẫn là một bước đơn giản
   và hiệu quả để cải thiện sự riêng tư trực tuyến của bạn.

@@ -789,7 +789,7 @@ Trải qua nhiều năm, các thợ mỏ đã trang bị cho mình phần cứng
 
 ![image](assets/en/chapter12/20.webp)
 
-Hashrate của mạng Bitcoin đại diện cho số lần thử tìm khối tiếp theo mỗi giây. Ngày nay, con số này là khoảng 400 TH/s, tức là 400,000 tỷ lần thử mỗi giây! Hashrate toàn cầu càng cao, thì việc một tác nhân xấu muốn độc quyền nguồn lực cần thiết để giành được đa số việc khai thác và thực hiện giao dịch kép càng khó khăn. Do đó, việc tuân theo các quy tắc của giao thức Bitcoin càng trở nên kinh tế hơn là hành động chống lại chúng. Điều này đặt ra một câu hỏi: làm thế nào các thợ mỏ được trả công?
+Hashrate của mạng Bitcoin đại diện cho số lần thử tìm khối tiếp theo mỗi giây. Ngày nay, con số này là khoảng 400 TH/s, tức là 400,000 tỷ lần thử mỗi giây! Hashrate toàn cầu càng cao, thì việc một tác nhân xấu muốn độc quyền nguồn lực cần thiết để giành được đa số việc khai thác và thực hiện giao dịch kép càng khó khăn. Do đó, việc tuân theo các quy tắc của giao thức Bitcoin càng trở nên kinh tế hơn là hành động chống lại chúng. Điều này đặt ra một question: làm thế nào các thợ mỏ được trả công?
 
 ![image](assets/en/chapter12/16.webp)
 

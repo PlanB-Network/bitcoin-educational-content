@@ -1,10 +1,10 @@
-câu hỏi: Trong hóa đơn Lightning Network, 'bc' trong 'lnbc1m' đại diện cho cái gì?
-câu trả lời: Bitcoin mainnet
-câu trả lời sai:
+question: Trong hóa đơn Lightning Network, 'bc' trong 'lnbc1m' đại diện cho cái gì?
+answer: Bitcoin mainnet
+wrong_answers:
   - Bitcoin Cash
   - Block chain
   - Bitcoin Core
-giải thích: |
+explanation: |
   Trong một hóa đơn Lightning Network, 'bc' đại diện cho Bitcoin mainnet. Điều này
   chỉ ra rằng yêu cầu thanh toán là cho Bitcoin mainnet, không phải cho một testnet
   hoặc mạng khác.

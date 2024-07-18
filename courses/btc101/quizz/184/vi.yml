@@ -1,9 +1,9 @@
-câu hỏi: Một trong những lý do Bitcoin không phải là bong bóng sẽ biến mất là gì?
-câu trả lời: Bởi vì đó là một loại tiền tệ thực sự được sử dụng khắp nơi trên thế giới.
-câu trả lời sai:
+question: Một trong những lý do Bitcoin không phải là bong bóng sẽ biến mất là gì?
+answer: Bởi vì đó là một loại tiền tệ thực sự được sử dụng khắp nơi trên thế giới.
+wrong_answers:
   - Bởi vì nó thực sự không được sử dụng ở bất cứ đâu.
   - Bởi vì nó được kiểm soát bởi một cơ quan trung ương.
   - Bởi vì nó dễ dàng bị làm giả.
-giải thích: >-
+explanation: >-
   Bitcoin không phải là bong bóng sẽ biến mất mà là một loại tiền tệ thực sự được sử dụng khắp nơi trên thế giới.
 đã xem xét: false

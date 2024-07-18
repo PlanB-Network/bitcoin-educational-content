@@ -1,10 +1,10 @@
-câu hỏi: Điều gì thay đổi sự phân bố dung lượng trong một kênh thanh toán Lightning?
-câu trả lời: Giao dịch bên trong kênh
-câu trả lời sai:
+question: Điều gì thay đổi sự phân bố dung lượng trong một kênh thanh toán Lightning?
+answer: Giao dịch bên trong kênh
+wrong_answers:
   - Thay đổi trong tỷ giá Bitcoin
   - Thay đổi trong tổng dung lượng của kênh
   - Thay đổi trong mạng lưới Bitcoin
-giải thích: |
+explanation: |
   Giao dịch bên trong kênh không thay đổi tổng dung lượng của
   kênh, nhưng chúng thay đổi sự phân bố dung lượng đó giữa các người dùng.
 đã xem xét: false

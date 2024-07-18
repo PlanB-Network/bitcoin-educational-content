@@ -1,8 +1,8 @@
-câu hỏi: Giải pháp P2P nào có thể truy cập qua Telegram để mua Bitcoin không cần KYC?
-câu trả lời: LNP2PBot
-câu trả lời sai:
+question: Giải pháp P2P nào có thể truy cập qua Telegram để mua Bitcoin không cần KYC?
+answer: LNP2PBot
+wrong_answers:
   - Bisq
   - RoboSat
   - Peach
-giải thích: |
+explanation: |
   Theo chương, LNP2PBot có thể truy cập qua Telegram để mua Bitcoin không cần KYC.

@@ -1,9 +1,9 @@
-câu hỏi: Một trong những hậu quả tiềm năng của Lightning Network đối với người dùng là gì?
-câu trả lời: Họ chỉ phải trả tiền cho nội dung mà họ tiêu thụ
-câu trả lời sai:
+question: Một trong những hậu quả tiềm năng của Lightning Network đối với người dùng là gì?
+answer: Họ chỉ phải trả tiền cho nội dung mà họ tiêu thụ
+wrong_answers:
   - Họ sẽ phải trả nhiều hơn cho nội dung
   - Họ sẽ phải trả phí đăng ký hàng tháng
   - Họ sẽ phải trả tiền cho nội dung trước
-giải thích: >-
+explanation: >-
   Với Lightning Network, người dùng chỉ phải trả tiền cho nội dung mà họ tiêu thụ, do đó loại bỏ phí đăng ký trả trước.
 đã xem xét: false

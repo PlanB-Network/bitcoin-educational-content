@@ -1,10 +1,10 @@
-câu hỏi: Mua sắm tự phát là gì?
-câu trả lời: Mua Bitcoin ngay lập tức để tăng tiếp xúc.
-câu trả lời sai:
+question: Mua sắm tự phát là gì?
+answer: Mua Bitcoin ngay lập tức để tăng tiếp xúc.
+wrong_answers:
   - Mua Bitcoin theo các khoảng thời gian đều đặn.
   - Chỉ mua Bitcoin khi giá giảm.
   - Chỉ mua Bitcoin khi giá tăng.
-giải thích: >-
+explanation: >-
   Văn bản giải thích rằng mua sắm tự phát được sử dụng để ngay lập tức
   tăng tiếp xúc với Bitcoin. Điều này có thể là mua trong thời gian giá cả sụt giảm hoặc tận dụng
   một ưu đãi nào đó.

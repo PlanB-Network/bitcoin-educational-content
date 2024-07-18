@@ -1,9 +1,9 @@
-câu hỏi: Lợi thế chính của vàng so với các hình thức tiền tệ khác là gì?
-câu trả lời: Sự hiếm có tự nhiên làm cho nó trở nên có giá trị, trong khi các tính chất hóa học của nó cho phép nó không bị ăn mòn theo thời gian
-câu trả lời sai:
+question: Lợi thế chính của vàng so với các hình thức tiền tệ khác là gì?
+answer: Sự hiếm có tự nhiên làm cho nó trở nên có giá trị, trong khi các tính chất hóa học của nó cho phép nó không bị ăn mòn theo thời gian
+wrong_answers:
   - Nó dễ dàng chia nhỏ và vận chuyển
   - Nó chịu sự lạm phát tiền tệ
   - Nó được chấp nhận rộng rãi trong thương mại
-giải thích: |
+explanation: |
   Lợi thế chính của vàng so với các hình thức tiền tệ khác là sự hiếm có tự nhiên của nó, làm cho nó trở nên có giá trị, và các tính chất hóa học của nó, cho phép nó không bị ăn mòn theo thời gian.
-đã xem xét: true
+reviewed: false

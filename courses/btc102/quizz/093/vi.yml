@@ -1,9 +1,9 @@
-câu hỏi: Đặc điểm nổi bật của một người Bitcoin hoài nghi là gì?
-câu trả lời: Không tin tưởng vào hệ thống tập trung và quy trình KYC
-câu trả lời sai:
+question: Đặc điểm nổi bật của một người Bitcoin hoài nghi là gì?
+answer: Không tin tưởng vào hệ thống tập trung và quy trình KYC
+wrong_answers:
   - Tin tưởng vào hệ thống tập trung
   - Ưu tiên chia sẻ thông tin cá nhân
   - Thiếu quan tâm đến quyền riêng tư và an ninh
-giải thích: |
+explanation: |
   Chương này mô tả một người Bitcoin hoài nghi là người có đặc điểm nổi bật là không tin tưởng vào hệ thống tập trung và quy trình KYC.
 đã xem xét: false

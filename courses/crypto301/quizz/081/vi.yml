@@ -1,10 +1,10 @@
-câu hỏi: Việc sử dụng cụm mật khẩu trong ví Bitcoin có bắt buộc không?
-câu trả lời: Không, việc sử dụng nó là tùy chọn
-câu trả lời sai:
+question: Việc sử dụng cụm mật khẩu trong ví Bitcoin có bắt buộc không?
+answer: Không, việc sử dụng nó là tùy chọn
+wrong_answers:
   - Có, việc sử dụng nó là bắt buộc
   - Tùy thuộc vào loại ví
   - Tùy thuộc vào số lượng bitcoin trong ví
-giải thích: |
+explanation: |
   Cụm mật khẩu là một mật khẩu bổ sung có thể được tích hợp vào
   ví Bitcoin để tăng cường bảo mật. Việc sử dụng nó là tùy chọn và tùy thuộc vào
   quyết định của người dùng.

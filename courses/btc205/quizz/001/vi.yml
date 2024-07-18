@@ -1,10 +1,10 @@
-câu hỏi: Phương án thay thế cho KYC đầy đủ ở Thụy Sĩ là gì?
-câu trả lời: KYC nhẹ
-câu trả lời sai:
+question: Phương án thay thế cho KYC đầy đủ ở Thụy Sĩ là gì?
+answer: KYC nhẹ
+wrong_answers:
   - KYC nặng
   - KYC trung bình
   - KYC tối
-giải thích: |
+explanation: |
   Ở Thụy Sĩ, một phương án thay thế cho KYC đầy đủ là "KYC nhẹ", cho phép
 
 

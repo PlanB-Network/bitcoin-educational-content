@@ -1,9 +1,9 @@
-câu hỏi: Mục đích của kế hoạch thừa kế trong Bitcoin là gì?
-câu trả lời: Để đảm bảo rằng người thân của bạn có thể truy cập vào Bitcoin của bạn sau khi bạn qua đời.
-câu trả lời sai:
+question: Mục đích của kế hoạch thừa kế trong Bitcoin là gì?
+answer: Để đảm bảo rằng người thân của bạn có thể truy cập vào Bitcoin của bạn sau khi bạn qua đời.
+wrong_answers:
   - Để khai thác Bitcoin mới.
   - Để giao dịch Bitcoin.
   - Để chuyển đổi Bitcoin sang các loại tiền điện tử khác.
-giải thích: |
+explanation: |
   Kế hoạch thừa kế trong Bitcoin là một kế hoạch đảm bảo rằng người thân của bạn có thể truy cập vào Bitcoin của bạn sau khi bạn qua đời. Nó không được sử dụng để khai thác Bitcoin mới, giao dịch Bitcoin, hoặc chuyển đổi Bitcoin sang các loại tiền điện tử khác.
 đã xem xét: false

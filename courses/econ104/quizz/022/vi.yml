@@ -1,9 +1,9 @@
-câu hỏi: Làm thế nào mà stablecoin giúp giảm chi phí liên quan đến việc chuyển tiền?
-câu trả lời: Bằng cách cung cấp mức phí thấp hơn so với các dịch vụ truyền thống
-câu trả lời sai:
+question: Làm thế nào mà stablecoin giúp giảm chi phí liên quan đến việc chuyển tiền?
+answer: Bằng cách cung cấp mức phí thấp hơn so với các dịch vụ truyền thống
+wrong_answers:
   - Bằng cách cung cấp dịch vụ chuyển tiền miễn phí
   - Bằng cách cung cấp tỷ giá hối đoái tốt hơn so với các dịch vụ truyền thống
   - Bằng cách số hóa tiền tệ fiat
-giải thích: |
+explanation: |
   Stablecoin, không giống như các dịch vụ chuyển tiền truyền thống, có mức phí đáng kể thấp hơn bởi vì chúng không yêu cầu các trung gian như ngân hàng hay dịch vụ chuyển tiền.
 đã được xem xét: true

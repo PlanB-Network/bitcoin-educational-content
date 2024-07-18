@@ -1,10 +1,10 @@
-câu hỏi: Vai trò của các thợ mỏ trong mạng lưới Bitcoin là gì?
-câu trả lời: Để ghi lại các giao dịch được lan truyền trong blockchain Bitcoin
-câu trả lời sai:
+question: Vai trò của các thợ mỏ trong mạng lưới Bitcoin là gì?
+answer: Để ghi lại các giao dịch được lan truyền trong blockchain Bitcoin
+wrong_answers:
   - Để tạo ra bitcoin mới
   - Để điều chỉnh giá trị của bitcoin
   - Để xác minh danh tính của người dùng Bitcoin
-giải thích: |
+explanation: |
   Các thợ mỏ trong mạng lưới Bitcoin có trách nhiệm ghi lại các giao dịch
   đã được lan truyền khắp mạng vào blockchain Bitcoin. Điều này đảm bảo
   tính chắc chắn của các giao dịch.

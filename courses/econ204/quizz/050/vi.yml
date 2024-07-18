@@ -1,10 +1,10 @@
-câu hỏi: Zimbabwe đã áp dụng giải pháp nào để chống lạm phát?
-câu trả lời: Đô la hóa
-câu trả lời sai:
+question: Zimbabwe đã áp dụng giải pháp nào để chống lạm phát?
+answer: Đô la hóa
+wrong_answers:
   - In thêm tiền
   - Giới thiệu một đồng tiền mới
   - Giảm lượng tiền lưu thông
-giải thích: |
+explanation: |
   Zimbabwe đã áp dụng đô la hóa để chống lạm phát. Điều này có nghĩa là họ
   đã chấp nhận đồng đô la Mỹ hoặc các đồng tiền khác từ các nước láng giềng, điều này ngăn chặn
   chính phủ in tiền tuỳ tiện.

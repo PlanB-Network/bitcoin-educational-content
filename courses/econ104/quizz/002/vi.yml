@@ -1,11 +1,11 @@
-câu hỏi: Mối liên hệ lịch sử giữa tiền tệ và các hàng hóa như vàng là gì?
-câu trả lời: Vàng khan hiếm và được chấp nhận rộng rãi như một khoản lưu trữ giá trị
-câu trả lời sai:
+question: Mối liên hệ lịch sử giữa tiền tệ và các hàng hóa như vàng là gì?
+answer: Vàng khan hiếm và được chấp nhận rộng rãi như một khoản lưu trữ giá trị
+wrong_answers:
   - Vàng làm cho tiền trở nên hấp dẫn hơn
   - Vàng dễ chia nhỏ
   - Vàng là duy nhất
-giải thích: |
+explanation: |
   Do sự khan hiếm toàn cầu của vàng trong tự nhiên và đầu tư đáng kể
   để khai thác, tinh chế và lưu trữ, vàng luôn được giao dịch với mức giá cao hơn
   so với các hình thức tiền tệ khác.
-đã xem xét: true
+reviewed: false

@@ -1,9 +1,9 @@
-câu hỏi: Chức năng chính của các nút trong mạng lưới Bitcoin là gì?
-câu trả lời: Duy trì một bản sao của blockchain Bitcoin, xác thực các giao dịch, truyền đạt thông tin cho các nút khác, và thực thi các quy tắc của giao thức Bitcoin.
-câu trả lời sai:
+question: Chức năng chính của các nút trong mạng lưới Bitcoin là gì?
+answer: Duy trì một bản sao của blockchain Bitcoin, xác thực các giao dịch, truyền đạt thông tin cho các nút khác, và thực thi các quy tắc của giao thức Bitcoin.
+wrong_answers:
   - Chỉ xác thực các giao dịch
   - Chỉ duy trì một bản sao của blockchain Bitcoin
   - Chỉ truyền đạt thông tin cho các nút khác
-giải thích: >-
+explanation: >-
   Các nút trong mạng lưới Bitcoin thực hiện nhiều chức năng quan trọng, bao gồm duy trì một bản sao của blockchain Bitcoin, xác thực các giao dịch, truyền đạt thông tin cho các nút khác, và thực thi các quy tắc của giao thức Bitcoin.
 đã xem xét: false

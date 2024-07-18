@@ -1,10 +1,10 @@
-câu hỏi: Tổng cộng có bao nhiêu bitcoin?
-câu trả lời: 21 triệu
-câu trả lời sai:
+question: Tổng cộng có bao nhiêu bitcoin?
+answer: 21 triệu
+wrong_answers:
   - 21 tỷ
   - 21 nghìn
   - 21 nghìn tỷ
-giải thích: |
+explanation: |
   Tổng cộng chỉ có 21 triệu bitcoin. Đây là một khía cạnh cơ bản
   trong thiết kế của Bitcoin và góp phần vào tính khan hiếm của nó.
 đã xem xét: false

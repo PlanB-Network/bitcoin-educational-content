@@ -1,10 +1,10 @@
-câu hỏi: Dollar Cost Average là gì?
-câu trả lời: Mua một lượng nhỏ Bitcoin tại các khoảng thời gian đều đặn.
-câu trả lời sai:
+question: Dollar Cost Average là gì?
+answer: Mua một lượng nhỏ Bitcoin tại các khoảng thời gian đều đặn.
+wrong_answers:
   - Mua một lượng lớn Bitcoin cùng một lúc.
   - Chỉ mua Bitcoin khi giá giảm.
   - Chỉ mua Bitcoin khi giá tăng.
-giải thích: >-
+explanation: >-
   Văn bản giải thích rằng Dollar Cost Average bao gồm việc mua một lượng nhỏ
   Bitcoin tại các khoảng thời gian đều đặn. Phương pháp này làm mịn giá theo thời gian và
   cung cấp sự tăng trưởng liên tục về lượng Bitcoin sở hữu.

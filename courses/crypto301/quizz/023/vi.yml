@@ -1,9 +1,9 @@
-câu hỏi: HMAC là viết tắt của từ gì?
-câu trả lời: Mã Xác Thực Tin Nhắn Dựa Trên Hàm Băm
-câu trả lời sai:
+question: HMAC là viết tắt của từ gì?
+answer: Mã Xác Thực Tin Nhắn Dựa Trên Hàm Băm
+wrong_answers:
   - Mã Xác Thực Chính Quyền Cấp Cao
   - Mã Xác Thực Chính Quyền Được Băm
   - Mã Xác Thực Tin Nhắn Cấp Cao
-giải thích: |
+explanation: |
   HMAC là viết tắt của Mã Xác Thực Tin Nhắn Dựa Trên Hàm Băm. Đây là một loại mã xác thực tin nhắn (MAC) bao gồm một hàm băm mật mã và một khóa mật mã bí mật.
 đã xem xét: false

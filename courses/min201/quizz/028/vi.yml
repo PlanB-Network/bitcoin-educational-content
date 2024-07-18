@@ -1,10 +1,10 @@
-câu hỏi: Rủi ro tiềm ẩn của việc tập trung sản xuất phần cứng đào ở Trung Quốc là gì?
-câu trả lời: Từ chối xuất khẩu máy đào hoặc tích lũy hashrate cho một cuộc tấn công 51% tiềm năng.
-câu trả lời sai:
+question: Rủi ro tiềm ẩn của việc tập trung sản xuất phần cứng đào ở Trung Quốc là gì?
+answer: Từ chối xuất khẩu máy đào hoặc tích lũy hashrate cho một cuộc tấn công 51% tiềm năng.
+wrong_answers:
   - Trung Quốc có thể độc quyền mạng lưới Bitcoin.
   - Trung Quốc có thể kiểm soát giá của Bitcoin.
   - Trung Quốc có thể cấm đào Bitcoin.
-giải thích: |
+explanation: |
   Việc tập trung sản xuất phần cứng đào ở Trung Quốc đặt ra rủi ro
 
   đối với mạng lưới Bitcoin. Nếu Trung Quốc từ chối xuất khẩu máy đào hoặc tích lũy

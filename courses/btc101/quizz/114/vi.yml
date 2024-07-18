@@ -1,9 +1,9 @@
-câu hỏi: Bitcoin lần đầu tiên được giới thiệu với thế giới vào thời gian nào?
-câu trả lời: 31 tháng 10, 2008
-câu trả lời sai:
+question: Bitcoin lần đầu tiên được giới thiệu với thế giới vào thời gian nào?
+answer: 31 tháng 10, 2008
+wrong_answers:
   - 3 tháng 1, 2009
   - 22 tháng 11, 2009
   - 12 tháng 12, 2010
-giải thích: |
+explanation: |
   Bitcoin lần đầu tiên được giới thiệu với thế giới vào ngày 31 tháng 10, 2008, khi Satoshi Nakamoto gửi một email đến danh sách gửi thư cypherpunk chứa Bản Trắng Bitcoin.
-đã xem xét: true
+reviewed: false

@@ -1,10 +1,10 @@
-câu hỏi: Nguyên nhân phổ biến của lỗ hổng bảo mật là gì?
-câu trả lời: Sự cẩu thả của con người.
-câu trả lời sai:
+question: Nguyên nhân phổ biến của lỗ hổng bảo mật là gì?
+answer: Sự cẩu thả của con người.
+wrong_answers:
   - Mất điện.
   - Tốc độ internet chậm.
   - Phần cứng lỗi thời.
-giải thích: |
+explanation: |
   Lỗ hổng bảo mật thường là kết quả của sự cẩu thả của con người, như
   sử dụng mật khẩu mặc định hoặc ghi chép mật khẩu ở những nơi không an toàn. Không
   nhất thiết phải sử dụng các cuộc tấn công tinh vi để đe dọa an ninh máy tính.

@@ -1,13 +1,13 @@
-câu hỏi: In thêm tiền sẽ ảnh hưởng như thế nào đến sức mua của một đồng tiền?
+question: In thêm tiền sẽ ảnh hưởng như thế nào đến sức mua của một đồng tiền?
 
-câu trả lời: Sự suy giảm trong sức mua của đồng tiền
+answer: Sự suy giảm trong sức mua của đồng tiền
 
-câu trả lời sai:
+wrong_answers:
   - Sự tăng lên trong sức mua của đồng tiền
   - Không ảnh hưởng
   - Nhiều tiền hơn = sức mua lớn hơn
 
-giải thích: |
+explanation: |
   Khi các ngân hàng trung ương quyết định in tiền, họ không thể đơn giản tạo ra nhiều giá trị hơn.
   Để số tiền mới in này có giá trị, giá trị của nó phải đến từ những người nắm giữ tiền trước đó.
   Hãy tưởng tượng nguồn tiền như là một chiếc pizza, và tưởng tượng nó được cắt thành bốn miếng.

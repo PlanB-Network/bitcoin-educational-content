@@ -1,10 +1,10 @@
-câu hỏi: Loại script nào cho phép khóa bitcoin vào một khóa công khai?
-câu trả lời: Pay2PublicKey
-câu trả lời sai:
+question: Loại script nào cho phép khóa bitcoin vào một khóa công khai?
+answer: Pay2PublicKey
+wrong_answers:
   - Pay2Address
   - Pay2PrivateKey
   - Pay2Hash
-giải thích: |
+explanation: |
   Loại script cho phép khóa bitcoin vào một khóa công khai được gọi là
   Pay2PublicKey. Tuy nhiên, người dùng thường thích sử dụng địa chỉ nhận
   thay vì sử dụng script này.

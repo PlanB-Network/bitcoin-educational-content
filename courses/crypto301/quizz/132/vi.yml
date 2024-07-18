@@ -1,10 +1,10 @@
-câu hỏi: BCH32 trong bối cảnh của Bitcoin là gì?
-câu trả lời: Đó là một biến thể cụ thể của Bitcoin dựa trên base 32.
-câu trả lời sai:
+question: BCH32 trong bối cảnh của Bitcoin là gì?
+answer: Đó là một biến thể cụ thể của Bitcoin dựa trên base 32.
+wrong_answers:
   - Đó là một biến thể cụ thể của Bitcoin dựa trên base 64.
   - Đó là một biến thể cụ thể của Bitcoin dựa trên base 16.
   - Đó là một biến thể cụ thể của Bitcoin dựa trên base 2.
-giải thích: |
+explanation: |
   BCH32 là một biến thể cụ thể của Bitcoin dựa trên base 32. Nó được sử dụng trong
 
   việc xây dựng

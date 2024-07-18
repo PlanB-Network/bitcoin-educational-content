@@ -1,9 +1,9 @@
-câu hỏi: Halving trong ngữ cảnh của Bitcoin là gì?
-câu trả lời: Một tính năng trong mã của Bitcoin giảm phần thưởng khai thác xuống một nửa mỗi bốn năm
-câu trả lời sai:
+question: Halving trong ngữ cảnh của Bitcoin là gì?
+answer: Một tính năng trong mã của Bitcoin giảm phần thưởng khai thác xuống một nửa mỗi bốn năm
+wrong_answers:
   - Quá trình tăng cường sự chấp nhận Bitcoin trên toàn cầu
   - Một cơ chế ngăn chặn giá trị của bitcoin sụp đổ
   - Thuật ngữ được sử dụng để mô tả sự kiện khi giá bitcoin tăng vọt
-giải thích: |
+explanation: |
   Halving là một tính năng trong mã của Bitcoin cắt giảm phần thưởng khai thác xuống một nửa khoảng mỗi bốn năm. Sự kiện này ảnh hưởng đến doanh thu của các thợ mỏ và tạo áp lực lên giá bitcoin.
-đã xem xét: true
+reviewed: false

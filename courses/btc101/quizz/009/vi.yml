@@ -1,10 +1,10 @@
-câu hỏi: Công nghệ nào được sử dụng trong giao thức Bitcoin?
-câu trả lời: Mật mã học, giao tiếp mạng và blockchain.
-câu trả lời sai:
+question: Công nghệ nào được sử dụng trong giao thức Bitcoin?
+answer: Mật mã học, giao tiếp mạng và blockchain.
+wrong_answers:
   - Trí tuệ nhân tạo, học máy và blockchain.
   - Tính toán lượng tử, giao tiếp mạng và blockchain.
   - Mật mã học, trí tuệ nhân tạo và blockchain.
-giải thích: >-
+explanation: >-
   Giao thức Bitcoin sử dụng các công nghệ cơ bản như mật mã học,
   giao tiếp mạng và blockchain.
-đã xem xét: true
+reviewed: false

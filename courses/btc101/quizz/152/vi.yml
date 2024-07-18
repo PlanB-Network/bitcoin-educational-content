@@ -1,9 +1,9 @@
-câu hỏi: HashRate là gì?
-câu trả lời: Tổng số lượng nỗ lực để tìm ra con số chính xác trong Bằng chứng Công việc (Proof of Work).
-câu trả lời sai:
+question: HashRate là gì?
+answer: Tổng số lượng nỗ lực để tìm ra con số chính xác trong Bằng chứng Công việc (Proof of Work).
+wrong_answers:
   - Tốc độ mà một thợ mỏ có thể giải quyết Bằng chứng Công việc.
   - Tổng số lượng thợ mỏ trong mạng lưới Bitcoin.
   - Tổng lượng bitcoin đã được khai thác.
-giải thích: >-
+explanation: >-
   HashRate đề cập đến tổng số lần thử mà các thợ mỏ thực hiện mỗi giây để giải quyết Bằng chứng Công việc. Đó là một phép đo về sức mạnh tính toán của mạng lưới Bitcoin.
 đã xem xét: false

@@ -1,10 +1,10 @@
-câu hỏi: Ví nóng được sử dụng để làm gì trong bối cảnh của Bitcoin?
-câu trả lời: Để thường xuyên gửi và nhận bitcoin cho việc sử dụng hàng ngày.
-câu trả lời sai:
+question: Ví nóng được sử dụng để làm gì trong bối cảnh của Bitcoin?
+answer: Để thường xuyên gửi và nhận bitcoin cho việc sử dụng hàng ngày.
+wrong_answers:
   - Để lưu trữ bitcoin một cách an toàn cho dài hạn.
   - Để khai thác bitcoin mới.
   - Để giao dịch bitcoin trên một nền tảng trao đổi.
-giải thích: |
+explanation: |
   Ví nóng là một loại ví Bitcoin được kết nối với internet,
   làm cho nó phù hợp cho các giao dịch hàng ngày. Tuy nhiên, nó dễ bị hack
   và trộm cắp hơn so với ví lạnh.

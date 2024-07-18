@@ -1,11 +1,11 @@
-câu hỏi: Trong tình huống nào một stablecoin có thể giao dịch với giá cao hơn giá được neo?
-câu trả lời: Khi nhu cầu về stablecoin vượt quá khả năng của sàn giao dịch
-câu trả lời sai:
+question: Trong tình huống nào một stablecoin có thể giao dịch với giá cao hơn giá được neo?
+answer: Khi nhu cầu về stablecoin vượt quá khả năng của sàn giao dịch
+wrong_answers:
   - Khi nhà phát hành stablecoin đóng băng tài sản
   - Khi stablecoin được đảm bảo hoàn toàn bằng dự trữ tiền mặt
   - Khi có áp lực bán mạnh từ người dùng
-giải thích: |
+explanation: |
   Stablecoin có thể giao dịch với giá cao hơn giá được neo khi 
   nhu cầu về stablecoin vượt quá khả năng của sàn giao dịch 
   để đáp ứng nhu cầu của khách hàng, thường xảy ra trên các sàn giao dịch nhỏ hơn.
-đã xem xét: true
+reviewed: false

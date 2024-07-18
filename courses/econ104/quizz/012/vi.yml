@@ -1,12 +1,12 @@
-câu hỏi: Lợi thế của mạng lưới Bitcoin so với các hệ thống tài chính truyền thống là gì?
-câu trả lời: Sự phân quyền và an ninh
-câu trả lời sai:
+question: Lợi thế của mạng lưới Bitcoin so với các hệ thống tài chính truyền thống là gì?
+answer: Sự phân quyền và an ninh
+wrong_answers:
   - Tăng tỷ lệ lạm phát
   - Phụ thuộc vào trung gian
   - Kiểm soát tập trung đối với giao dịch
-giải thích: |
+explanation: |
   Mạng lưới phân quyền của Bitcoin cung cấp một cách an toàn và hiệu quả để 
   thực hiện giao dịch mà không cần đến trung gian hoặc bên thứ ba. Điều này 
   giảm thiểu rủi ro kiểm duyệt và thay đổi không được phép đối với giao dịch,
   cũng như tăng cường sự riêng tư.
-đã xem xét: true
+reviewed: false

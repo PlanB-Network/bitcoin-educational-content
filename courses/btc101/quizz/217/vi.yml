@@ -1,10 +1,10 @@
-câu hỏi: Bitcoin đặt ra câu hỏi trong những lĩnh vực nào?
-câu trả lời: Mật mã học, lý thuyết trò chơi, kinh tế và chính sách tiền tệ, khoa học máy tính, triết học, năng lượng, luật pháp và quy định
-câu trả lời sai:
+question: Bitcoin đặt ra câu hỏi trong những lĩnh vực nào?
+answer: Mật mã học, lý thuyết trò chơi, kinh tế và chính sách tiền tệ, khoa học máy tính, triết học, năng lượng, luật pháp và quy định
+wrong_answers:
   - Chỉ khoa học máy tính và kinh tế
   - Chỉ mật mã học và lý thuyết trò chơi
   - Chỉ triết học và năng lượng
-giải thích: >-
+explanation: >-
   Bitcoin là một đối tượng đa ngành nghề, đặt ra các câu hỏi liên quan đến nhiều lĩnh vực, bao gồm mật mã học, lý thuyết trò chơi, kinh tế và chính sách tiền tệ,
   khoa học máy tính, triết học, năng lượng, luật pháp và quy định.
 đã xem xét: false

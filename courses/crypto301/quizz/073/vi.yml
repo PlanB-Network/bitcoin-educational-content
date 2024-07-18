@@ -1,9 +1,9 @@
-câu hỏi: Lựa chọn bổ sung nào để tăng cường bảo mật cho ví Bitcoin?
-câu trả lời: Thêm một cụm mật khẩu.
-câu trả lời sai:
+question: Lựa chọn bổ sung nào để tăng cường bảo mật cho ví Bitcoin?
+answer: Thêm một cụm mật khẩu.
+wrong_answers:
   - Thêm một cụm từ ghi nhớ thứ hai.
   - Thêm chữ ký số.
   - Thêm lịch sử giao dịch.
-giải thích: |
+explanation: |
   Thêm một cụm mật khẩu là một lựa chọn bổ sung để tăng cường bảo mật
   cho ví Bitcoin.

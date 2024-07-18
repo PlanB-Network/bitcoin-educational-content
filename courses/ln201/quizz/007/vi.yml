@@ -1,10 +1,10 @@
-câu hỏi: Sức chứa của một kênh thanh toán Lightning có cố định không?
-câu trả lời: "Có"
-câu trả lời sai:
+question: Sức chứa của một kênh thanh toán Lightning có cố định không?
+answer: "Có"
+wrong_answers:
   - "Không"
   - Chỉ trong một số trường hợp
   - Tùy thuộc vào mạng lưới Bitcoin
-giải thích: |
+explanation: |
   Khi một kênh được mở, nó được gán một sức chứa cố định, được xác định
   trước bởi người dùng.
 đã xem xét: false

@@ -1,10 +1,10 @@
-câu hỏi: Kênh thanh toán Lightning là gì?
-câu trả lời: Một loại "làn đường riêng" giữa hai người dùng cho phép thực hiện các giao dịch Bitcoin nhanh chóng và lặp đi lặp lại
-câu trả lời sai:
+question: Kênh thanh toán Lightning là gì?
+answer: Một loại "làn đường riêng" giữa hai người dùng cho phép thực hiện các giao dịch Bitcoin nhanh chóng và lặp đi lặp lại
+wrong_answers:
   - Một loại ví Bitcoin
   - Một phương pháp đào Bitcoin
   - Một loại sàn giao dịch Bitcoin
-giải thích: |
+explanation: |
   Kênh thanh toán Lightning là một loại "làn đường riêng" giữa hai người dùng
   cho phép thực hiện các giao dịch Bitcoin nhanh chóng và lặp đi lặp lại.
 đã xem xét: false

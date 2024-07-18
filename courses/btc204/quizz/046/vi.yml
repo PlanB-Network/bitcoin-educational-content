@@ -1,11 +1,11 @@
-câu hỏi: Thuật toán trao đổi khóa mật mã nào là trọng tâm của hoạt động BIP47?
+question: Thuật toán trao đổi khóa mật mã nào là trọng tâm của hoạt động BIP47?
 
-câu trả lời: ECDH
+answer: ECDH
 
-câu trả lời sai:
+wrong_answers:
   - RSA
   - ElGamal
   - Diffie-Hellman
 
-giải thích: |
+explanation: |
   Thuật toán được sử dụng là ECDH (Elliptic Curve Diffie-Hellman). Đây là một biến thể của thuật toán Diffie-Hellman cổ điển sử dụng đường cong elliptic.

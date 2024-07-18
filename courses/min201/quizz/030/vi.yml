@@ -1,8 +1,8 @@
-câu hỏi: Mối đe dọa tiềm tàng của Proof of Stake trong mạng lưới Bitcoin là gì?
-câu trả lời: Những người đã nắm giữ một lượng lớn tiền tệ có quyền lực không cân xứng, phản ánh sự bất bình đẳng quyền lực hiện hữu.
-câu trả lời sai:
+question: Mối đe dọa tiềm tàng của Proof of Stake trong mạng lưới Bitcoin là gì?
+answer: Những người đã nắm giữ một lượng lớn tiền tệ có quyền lực không cân xứng, phản ánh sự bất bình đẳng quyền lực hiện hữu.
+wrong_answers:
   - Nó đòi hỏi một rào cản nhập cảnh đáng kể.
   - Nó không cho phép sự tham gia quy mô nhỏ.
   - Nó không đòi hỏi nguồn lực hữu hình.
-giải thích: |
+explanation: |
   Trong một mạng lưới Proof of Stake, những người đã nắm giữ một lượng lớn tiền tệ có quyền lực không cân xứng. Động thái này có thể tiếp tục duy trì sự tập trung và tập quyền vào tay một số ít người.

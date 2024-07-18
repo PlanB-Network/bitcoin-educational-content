@@ -1,10 +1,10 @@
-câu hỏi: Phương thức mua hoặc bán bitcoin không cần KYC là gì?
-câu trả lời: Sử dụng các giải pháp ngang hàng như Peach.
-câu trả lời sai:
+question: Phương thức mua hoặc bán bitcoin không cần KYC là gì?
+answer: Sử dụng các giải pháp ngang hàng như Peach.
+wrong_answers:
   - Sử dụng ví nóng.
   - Sử dụng ví lạnh.
   - Sử dụng ví cứng.
-giải thích: |
+explanation: |
   KYC, hay Kiểm tra Khách hàng, là quy trình mà các doanh nghiệp sử dụng để xác minh
   danh tính của khách hàng của họ. Các phương thức không cần KYC, như giải pháp ngang hàng,
   cho phép người dùng mua hoặc bán bitcoin mà không cần cung cấp thông tin cá nhân.

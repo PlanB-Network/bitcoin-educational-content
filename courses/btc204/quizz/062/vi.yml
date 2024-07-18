@@ -2,7 +2,7 @@ Câu hỏi: Trong những phương pháp sau, phương pháp nào không phải 
 
 Câu trả lời: Thanh toán Ẩn
 
-Các câu trả lời sai:
+Các wrong_answers:
   - Branch-and-Bound
   - FIFO
   - Knapsack Solver

@@ -1,10 +1,10 @@
-câu hỏi: Tỷ lệ lạm phát ở Đức vào tháng 10 năm 1923 là bao nhiêu?
-câu trả lời: 29,50%.
-câu trả lời sai:
+question: Tỷ lệ lạm phát ở Đức vào tháng 10 năm 1923 là bao nhiêu?
+answer: 29,50%.
+wrong_answers:
   - 200.9%.
   - 50.51%.
   - 25.98%.
-giải thích: |
+explanation: |
   Tháng có tỷ lệ lạm phát cao nhất ở Đức là tháng 10 năm 1923, đạt đỉnh
   ở mức 29,50%.
-đã xem xét: true
+reviewed: false

@@ -1,10 +1,10 @@
-câu hỏi: Hạn chế chính của các bảng lập kế hoạch lạm phát cực kỳ cao truyền thống là gì?
-câu trả lời: Chúng loại trừ một số giai đoạn lịch sử có lạm phát cao do tiêu chí phân loại nghiêm ngặt
-câu trả lời sai:
+question: Hạn chế chính của các bảng lập kế hoạch lạm phát cực kỳ cao truyền thống là gì?
+answer: Chúng loại trừ một số giai đoạn lịch sử có lạm phát cao do tiêu chí phân loại nghiêm ngặt
+wrong_answers:
   - Chúng bao gồm quá nhiều đợt lạm phát không đủ điều kiện được coi là lạm phát cực kỳ cao
   - Chúng đã lỗi thời và không áp dụng được cho nền kinh tế hiện đại
   - Chúng không tính đến ảnh hưởng của lạm phát đối với nền kinh tế
-giải thích: |
+explanation: |
   Các bảng lập kế hoạch lạm phát cực kỳ cao truyền thống, như bảng Hanke-Krus, thường
   loại trừ một số giai đoạn lịch sử có lạm phát cao do tiêu chí phân loại nghiêm ngặt,
   như ngưỡng lạm phát hàng tháng 50% được quy định bởi định nghĩa của Cagan.

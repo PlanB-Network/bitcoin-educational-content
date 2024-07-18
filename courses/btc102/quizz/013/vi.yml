@@ -1,10 +1,10 @@
-câu hỏi: Biện pháp cơ bản nào giúp cải thiện thói quen bảo mật trực tuyến?
-câu trả lời: Kích hoạt xác thực hai yếu tố (2FA)
-câu trả lời sai:
+question: Biện pháp cơ bản nào giúp cải thiện thói quen bảo mật trực tuyến?
+answer: Kích hoạt xác thực hai yếu tố (2FA)
+wrong_answers:
   - Sử dụng cùng một mật khẩu cho tất cả các tài khoản
   - Không thường xuyên sao lưu dữ liệu
   - Chia sẻ mật khẩu của bạn
-giải thích: |
+explanation: |
   Kích hoạt xác thực hai yếu tố (2FA) là một trong những biện pháp cơ bản
 
   để cải thiện thói quen bảo mật trực tuyến. Nó cung cấp một lớp bảo mật bổ sung cho

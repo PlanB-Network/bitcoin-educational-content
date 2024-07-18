@@ -1,10 +1,10 @@
-câu hỏi: Hậu quả của lạm phát cực kỳ cao là gì?
-câu trả lời: Một sự giảm giá trị nghiêm trọng của đồng tiền
-câu trả lời sai:
+question: Hậu quả của lạm phát cực kỳ cao là gì?
+answer: Một sự giảm giá trị nghiêm trọng của đồng tiền
+wrong_answers:
   - Một sự giảm giá trị nhẹ nhàng của đồng tiền
   - Một sự tăng giá trị nghiêm trọng của đồng tiền
   - Một sự tăng giá trị nhẹ nhàng của đồng tiền
-giải thích: |
+explanation: |
   Do lạm phát cực kỳ cao, mọi người nhanh chóng mất hoàn toàn niềm tin vào đồng tiền
   dẫn đến một sự giảm giá trị nghiêm trọng của đồng tiền trong một khoảng thời gian ngắn.
-đã xem xét: true
+reviewed: false

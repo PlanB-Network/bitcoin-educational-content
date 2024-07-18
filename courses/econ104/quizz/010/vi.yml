@@ -1,11 +1,11 @@
-câu hỏi: Mục đích của các nút trong mạng Bitcoin là gì?
-câu trả lời: Để duy trì và bảo mật blockchain
-câu trả lời sai:
+question: Mục đích của các nút trong mạng Bitcoin là gì?
+answer: Để duy trì và bảo mật blockchain
+wrong_answers:
   - Để xử lý giao dịch
   - Để đề xuất và thực hiện thay đổi đối với mã nguồn Bitcoin
   - Để cạnh tranh với các thợ đào khác
-giải thích: |
+explanation: |
   Các nút là yếu tố thiết yếu đối với tính toàn vẹn và an ninh của mạng Bitcoin.
   Chúng đóng vai trò như những người giữ cổng của hệ thống, đảm bảo rằng các giao dịch
   được xử lý một cách chính xác và theo đúng quy tắc.
-đã xem xét: true
+reviewed: false

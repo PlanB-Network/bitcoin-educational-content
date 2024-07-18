@@ -1,9 +1,9 @@
-câu hỏi: Đặc điểm nào dưới đây mô tả một người dùng Bitcoin linh hoạt và thích nghi?
-câu trả lời: Họ sẵn lòng sử dụng nhiều giải pháp và nền tảng khác nhau để đáp ứng nhu cầu thay đổi của mình.
-câu trả lời sai:
+question: Đặc điểm nào dưới đây mô tả một người dùng Bitcoin linh hoạt và thích nghi?
+answer: Họ sẵn lòng sử dụng nhiều giải pháp và nền tảng khác nhau để đáp ứng nhu cầu thay đổi của mình.
+wrong_answers:
   - Họ chỉ sử dụng một loại ví Bitcoin.
   - Họ chỉ sử dụng Bitcoin cho đầu tư dài hạn.
   - Họ chỉ sử dụng Bitcoin trên một sàn giao dịch.
-giải thích: |
+explanation: |
   Người dùng Bitcoin linh hoạt và thích nghi sẵn lòng sử dụng đa dạng các giải pháp và nền tảng để đáp ứng nhu cầu của mình, có thể thay đổi theo thời gian.
 đã xem xét: false

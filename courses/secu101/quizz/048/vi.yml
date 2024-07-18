@@ -1,10 +1,10 @@
-câu hỏi: Bước thứ hai phổ biến trong 2FA là gì?
-câu trả lời: Một mã được tạo bởi ứng dụng như Google Authenticator hoặc Authy.
-câu trả lời sai:
+question: Bước thứ hai phổ biến trong 2FA là gì?
+answer: Một mã được tạo bởi ứng dụng như Google Authenticator hoặc Authy.
+wrong_answers:
   - Một cuộc gọi điện thoại đến chủ tài khoản
   - Một email gửi đến chủ tài khoản
   - Một lá thư được gửi đến địa chỉ nhà của chủ tài khoản
-giải thích: |
+explanation: |
   Bước thứ hai trong 2FA có thể là một mã tạm thời được gửi qua SMS, một mã
   được tạo
   bởi một ứng dụng, hoặc một chìa khóa bảo mật vật lý.

@@ -1,11 +1,11 @@
-câu hỏi: Thuật ngữ 'fiduciary' có ý nghĩa gì trong bối cảnh của tiền tệ?
-câu trả lời: Nó ám chỉ các loại tiền tệ không có giá trị nội tại và phụ thuộc vào sự tin tưởng vào các tổ chức quản lý chúng.
-câu trả lời sai:
+question: Thuật ngữ 'fiduciary' có ý nghĩa gì trong bối cảnh của tiền tệ?
+answer: Nó ám chỉ các loại tiền tệ không có giá trị nội tại và phụ thuộc vào sự tin tưởng vào các tổ chức quản lý chúng.
+wrong_answers:
   - Nó ám chỉ các loại tiền tệ được bảo đảm bằng vàng.
   - Nó ám chỉ các loại tiền tệ chỉ được sử dụng cho các giao dịch fiduciary.
   - Nó ám chỉ các loại tiền tệ chỉ được sử dụng trong một tổ chức cụ thể.
-giải thích: |
+explanation: |
   Các loại tiền tệ fiduciary là những loại tiền không được bảo đảm bởi một hàng hóa vật lý
   như vàng hay bạc. Giá trị của chúng được sinh ra từ sự tin tưởng và lòng tin mà mọi người
   có vào các tổ chức phát hành và quản lý chúng.
-đã xem xét: true
+reviewed: false

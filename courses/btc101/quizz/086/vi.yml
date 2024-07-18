@@ -1,11 +1,11 @@
-câu hỏi: Ví lạnh là gì?
-câu trả lời: Một ví vật lý mà chìa khóa của bạn được lưu trữ trên một thiết bị không kết nối với internet
-câu trả lời sai:
+question: Ví lạnh là gì?
+answer: Một ví vật lý mà chìa khóa của bạn được lưu trữ trên một thiết bị không kết nối với internet
+wrong_answers:
   - Một ví mà khi chạm vào cảm thấy lạnh
   - Một ví không phổ biến trong số người dùng Bitcoin
   - Một ví được khuyên dùng để lưu trữ một lượng nhỏ bitcoin
-giải thích: |
+explanation: |
   Ví lạnh là thuật ngữ được dùng để mô tả một ví Bitcoin được lưu trữ
   trên một thiết bị không kết nối với internet. Điều này làm cho nó ít dễ bị tổn thương
   trước các mối đe dọa trực tuyến, nhưng cũng có nghĩa là ví ít tiện lợi hơn cho các giao dịch hàng ngày.
-đã xem xét: true
+reviewed: false

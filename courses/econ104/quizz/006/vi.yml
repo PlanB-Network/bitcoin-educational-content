@@ -1,9 +1,9 @@
-câu hỏi: Tại sao việc mua nhà ngày nay lại khó khăn hơn nhiều so với những năm 1980?
-câu trả lời: Lãi suất bị kìm hãm làm cho việc vay nợ trở nên hấp dẫn hơn và lạm phát
-câu trả lời sai:
+question: Tại sao việc mua nhà ngày nay lại khó khăn hơn nhiều so với những năm 1980?
+answer: Lãi suất bị kìm hãm làm cho việc vay nợ trở nên hấp dẫn hơn và lạm phát
+wrong_answers:
   - Lạm phát và tỷ lệ thuê nhà
   - Chi phí sinh hoạt tăng và sự tăng trưởng dân số
   - Thiếu hụt bất động sản và lãi suất bị kìm hãm làm cho việc vay nợ trở nên hấp dẫn hơn
-giải thích: |
+explanation: |
   Trong khi lạm phát làm giảm sức mua của tiền tệ, khiến việc tiết kiệm trở nên khó khăn hơn, lãi suất bị kìm hãm lại làm cho việc tiêu thụ nợ trở nên hấp dẫn hơn. Khi chi phí vốn quá rẻ, mọi người vay vượt quá khả năng của mình, đổ thêm vốn vào tài sản và đẩy giá lên.
-đã xem xét: true
+reviewed: false

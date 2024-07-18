@@ -1,10 +1,10 @@
-câu hỏi: Thách thức chính trong việc quản lý tính thanh khoản trên Mạng Lưới Lightning là gì?
-câu trả lời: Duy trì tính thanh khoản
-câu trả lời sai:
+question: Thách thức chính trong việc quản lý tính thanh khoản trên Mạng Lưới Lightning là gì?
+answer: Duy trì tính thanh khoản
+wrong_answers:
   - Mở kênh
   - Kết nối với các nút khác
   - Mua kênh
-giải thích: |
+explanation: |
   Mặc dù việc mở kênh, kết nối với các nút khác, và mua kênh
   đều là một phần của việc quản lý tính thanh khoản trên Mạng Lưới Lightning, thách thức chính
   là duy trì tính thanh khoản. Điều này bao gồm việc giữ cân bằng tính thanh khoản ở cả hai bên

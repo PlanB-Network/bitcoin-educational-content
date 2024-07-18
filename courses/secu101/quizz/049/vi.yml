@@ -1,10 +1,10 @@
-câu hỏi: Tại sao SMS không được coi là lựa chọn tốt nhất cho 2FA?
-câu trả lời: Nó chỉ cung cấp bằng chứng về việc sở hữu một số điện thoại.
-câu trả lời sai:
+question: Tại sao SMS không được coi là lựa chọn tốt nhất cho 2FA?
+answer: Nó chỉ cung cấp bằng chứng về việc sở hữu một số điện thoại.
+wrong_answers:
   - Nó quá đắt
   - Nó quá chậm
   - Nó quá phức tạp để thiết lập
-giải thích: |
+explanation: |
   SMS không được coi là lựa chọn tốt nhất cho 2FA bởi vì nó chỉ cung cấp
   bằng chứng về việc sở hữu một số điện thoại, không phải bằng chứng về danh tính.
 đã xem xét: false

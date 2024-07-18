@@ -1,9 +1,9 @@
-câu hỏi: Tính sẵn có trực tuyến của Bitcoin là bao nhiêu?
-câu trả lời: 99.988%
-câu trả lời sai:
+question: Tính sẵn có trực tuyến của Bitcoin là bao nhiêu?
+answer: 99.988%
+wrong_answers:
   - 100%
   - 90.009%
   - 80.17%
-giải thích: |
+explanation: |
   Tính sẵn có trực tuyến của Bitcoin là 99.988% kể từ năm 2009.
-đã xem xét: true
+reviewed: false

@@ -1,10 +1,10 @@
-câu hỏi: Tiêu chí của Kagan về lạm phát cao là gì?
-câu trả lời: Tỷ lệ lạm phát 50% mỗi tháng.
-câu trả lời sai:
+question: Tiêu chí của Kagan về lạm phát cao là gì?
+answer: Tỷ lệ lạm phát 50% mỗi tháng.
+wrong_answers:
   - Tỷ lệ lạm phát 50% mỗi năm.
   - Tỷ lệ lạm phát 25% mỗi tháng.
   - Tỷ lệ lạm phát 25% mỗi năm.
-giải thích: |
+explanation: |
   Tiêu chí của Kagan định nghĩa lạm phát cao là tỷ lệ lạm phát 50%
   mỗi tháng. Tiêu chí này đôi khi dẫn đến những hiểu lầm, với
   những năm có tỷ lệ lạm phát cao nhưng không đáp ứng định nghĩa chặt chẽ của lạm phát cao.

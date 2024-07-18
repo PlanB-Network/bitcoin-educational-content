@@ -1,10 +1,10 @@
-câu hỏi: Rủi ro chính khi để bitcoin của bạn trên một nền tảng giao dịch là gì?
-câu trả lời: Nền tảng có thể bị hack, bị tịch thu, phá sản, hoặc đơn giản là biến mất cùng với tiền của bạn
-câu trả lời sai:
+question: Rủi ro chính khi để bitcoin của bạn trên một nền tảng giao dịch là gì?
+answer: Nền tảng có thể bị hack, bị tịch thu, phá sản, hoặc đơn giản là biến mất cùng với tiền của bạn
+wrong_answers:
   - Giá của Bitcoin có thể đột ngột giảm
   - Nền tảng có thể tăng phí của mình
   - Nền tảng có thể hạn chế số lượng bitcoin bạn có thể mua hoặc bán
-giải thích: |
+explanation: |
   Nội dung chương cảnh báo rằng các nền tảng giao dịch đều tiềm ẩn rủi ro đáng kể
   và nên tránh xa nếu có thể. Chúng có thể bị hack, bị tịch thu, phá sản, hoặc đơn giản là biến mất cùng với tiền của bạn.
 đã xem xét: false

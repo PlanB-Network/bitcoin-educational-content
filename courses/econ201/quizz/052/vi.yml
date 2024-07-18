@@ -1,10 +1,10 @@
-câu hỏi: Quan điểm của những người ủng hộ Lý thuyết Tiền tệ Hiện đại (MMT) về việc in tiền là gì?
-câu trả lời: Những người ủng hộ MMT đã ủng hộ việc in tiền để đạt được mục tiêu chính trị.
-câu trả lời sai:
+question: Quan điểm của những người ủng hộ Lý thuyết Tiền tệ Hiện đại (MMT) về việc in tiền là gì?
+answer: Những người ủng hộ MMT đã ủng hộ việc in tiền để đạt được mục tiêu chính trị.
+wrong_answers:
   - Những người ủng hộ MMT phản đối việc in tiền dưới mọi hoàn cảnh.
   - Những người ủng hộ MMT tin rằng việc in tiền nên được kiểm soát bởi ngân hàng trung ương.
   - Những người ủng hộ MMT tin rằng việc in tiền nên được tránh do nguy cơ lạm phát.
-giải thích: |
+explanation: |
   Những người ủng hộ Lý thuyết Tiền tệ Hiện đại (MMT) đã ủng hộ việc in tiền
   để đạt được mục tiêu chính trị, sử dụng việc không có lạm phát từ năm 2008 đến 2019
   làm luận điểm.

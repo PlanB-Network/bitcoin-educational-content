@@ -1,9 +1,9 @@
-câu hỏi: Việc sử dụng ví lạnh, hay ví vật lý ngoại tuyến, được khuyến nghị cho mục đích gì?
-câu trả lời: Để lưu trữ số lượng lớn
-câu trả lời sai:
+question: Việc sử dụng ví lạnh, hay ví vật lý ngoại tuyến, được khuyến nghị cho mục đích gì?
+answer: Để lưu trữ số lượng lớn
+wrong_answers:
   - Cho chi tiêu hàng ngày
   - Cho số lượng nhỏ
   - Cho tiết kiệm ngắn hạn
-giải thích: |
+explanation: |
   Ví lạnh, hay ví vật lý ngoại tuyến, được khuyến nghị để lưu trữ số lượng lớn vì nó ít dễ bị ảnh hưởng bởi các mối đe dọa trực tuyến. Tuy nhiên, nó không được khuyến nghị cho chi tiêu hàng ngày vì nó ít tiện lợi cho các giao dịch hàng ngày.
-đã xem xét: true
+reviewed: false

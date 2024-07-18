@@ -1,10 +1,10 @@
-câu hỏi: Hashrate đo lường điều gì trong mạng Bitcoin?
-câu trả lời: Số lượng phép tính mỗi giây
-câu trả lời sai:
+question: Hashrate đo lường điều gì trong mạng Bitcoin?
+answer: Số lượng phép tính mỗi giây
+wrong_answers:
   - Số lượng giao dịch mỗi giây
   - Số lượng nút hoạt động
   - Lượng điện tiêu thụ bởi mạng
-giải thích: |
+explanation: |
   Hashrate trong mạng Bitcoin đo lường số lượng phép tính
   có thể thực hiện mỗi giây. Đây là một chỉ số quan trọng về sức khỏe và an ninh
   của mạng.

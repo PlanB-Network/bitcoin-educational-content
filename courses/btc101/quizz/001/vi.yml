@@ -1,9 +1,9 @@
-câu hỏi: Vai trò của các thợ đào trong mạng lưới Bitcoin là gì?
-câu trả lời: Các thợ đào đóng vai trò thiết yếu trong việc tạo ra bitcoin mới và bảo vệ mạng lưới Bitcoin.
-câu trả lời sai:
+question: Vai trò của các thợ đào trong mạng lưới Bitcoin là gì?
+answer: Các thợ đào đóng vai trò thiết yếu trong việc tạo ra bitcoin mới và bảo vệ mạng lưới Bitcoin.
+wrong_answers:
   - Các thợ đào có trách nhiệm điều chỉnh giá của Bitcoin.
   - Các thợ đào có trách nhiệm tạo ví Bitcoin.
   - Các thợ đào có trách nhiệm kiểm soát giao thức Bitcoin.
-giải thích: >-
+explanation: >-
   Các thợ đào đóng vai trò quan trọng trong mạng lưới Bitcoin vì họ có trách nhiệm tạo ra bitcoin mới và bảo vệ mạng lưới Bitcoin bằng cách tiêu thụ điện năng để hash một khối giao dịch.
-đã xem xét: true
+reviewed: false

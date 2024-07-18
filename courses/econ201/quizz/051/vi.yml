@@ -1,9 +1,9 @@
-câu hỏi: Một trong những tiên đề cơ bản trong kinh tế học Áo là gì?
-câu trả lời: Một trong những tiên đề cơ bản là sở thích thời gian tích cực, dựa trên sự lựa chọn cá nhân của hàng hóa hoặc dịch vụ ngày hôm nay thay vì ngày mai.
-câu trả lời sai:
+question: Một trong những tiên đề cơ bản trong kinh tế học Áo là gì?
+answer: Một trong những tiên đề cơ bản là sở thích thời gian tích cực, dựa trên sự lựa chọn cá nhân của hàng hóa hoặc dịch vụ ngày hôm nay thay vì ngày mai.
+wrong_answers:
   - Một trong những tiên đề cơ bản là việc thiết lập lãi suất một cách tùy tiện.
   - Một trong những tiên đề cơ bản là sự phụ thuộc vào dữ liệu thực nghiệm.
   - Một trong những tiên đề cơ bản là việc sử dụng thí nghiệm tạm thời để xác nhận hoặc bác bỏ giả thuyết.
-giải thích: |
+explanation: |
   Trong kinh tế học Áo, một trong những tiên đề cơ bản là sở thích thời gian tích cực, dựa trên sự lựa chọn cá nhân của hàng hóa hoặc dịch vụ ngày hôm nay thay vì ngày mai, do lo ngại về sự không chắc chắn của tương lai.
 đã xem xét: false

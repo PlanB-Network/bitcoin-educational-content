@@ -1,10 +1,10 @@
-câu hỏi: Ai trả phí chốt sổ trong một đóng cửa hợp tác?
-câu trả lời: Người đã mở kênh.
-câu trả lời sai:
+question: Ai trả phí chốt sổ trong một đóng cửa hợp tác?
+answer: Người đã mở kênh.
+wrong_answers:
   - Người đã đóng kênh.
   - Cả hai bên đều trả một cách đồng đều.
   - Người có nhiều SAT nhất trong kênh.
-giải thích: |
+explanation: |
   Trong một đóng cửa hợp tác, hai bên đồng ý về trạng thái cuối cùng của
   kênh. Người đã mở kênh sẽ trả phí chốt sổ.
 đã xem xét: false

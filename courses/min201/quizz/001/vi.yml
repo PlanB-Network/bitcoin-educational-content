@@ -1,10 +1,10 @@
-câu hỏi: Mục đích của cơ chế điều chỉnh độ khó trong mạng lưới Bitcoin là gì?
-câu trả lời: Để đảm bảo rằng các khối được khai thác trung bình mỗi 10 phút
-câu trả lời sai:
+question: Mục đích của cơ chế điều chỉnh độ khó trong mạng lưới Bitcoin là gì?
+answer: Để đảm bảo rằng các khối được khai thác trung bình mỗi 10 phút
+wrong_answers:
   - Để tăng độ khó của việc khai thác theo thời gian
   - Để giảm độ khó của việc khai thác theo thời gian
   - Để đảm bảo rằng cùng một người khai thác không khai thác các khối liên tiếp
-giải thích: |
+explanation: |
   Điều chỉnh độ khó là một cơ chế quan trọng trong hoạt động của
   mạng lưới Bitcoin, đảm bảo rằng các khối được khai thác trung bình mỗi 10 phút. Cơ chế
   điều chỉnh này đảm bảo rằng thời gian khai thác cho các khối mới được giữ ổn định

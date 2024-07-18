@@ -1,11 +1,11 @@
-câu hỏi: Lạm phát ảnh hưởng như thế nào đến khả năng mua sắm của người lao động qua thời gian?
-câu trả lời: Lạm phát làm giảm sức mua vì lương thường tăng chậm hơn so với tỷ lệ lạm phát thực tế.
-câu trả lời sai:
+question: Lạm phát ảnh hưởng như thế nào đến khả năng mua sắm của người lao động qua thời gian?
+answer: Lạm phát làm giảm sức mua vì lương thường tăng chậm hơn so với tỷ lệ lạm phát thực tế.
+wrong_answers:
   - Lạm phát tăng khả năng mua sắm vì lương tăng nhanh hơn giá cả.
   - Lạm phát không ảnh hưởng đến khả năng mua sắm.
   - Lạm phát chỉ ảnh hưởng đến khả năng mua sắm của những người đầu tư vào thị trường tài chính.
-giải thích: |
+explanation: |
   Lạm phát dẫn đến sự tăng liên tục trong giá tiêu dùng, làm suy giảm khả năng mua sắm của người lao động vì lương của họ thường tăng chậm hơn so với tỷ lệ lạm phát thực tế.
   Điều này làm cho người lao động khó đạt được mục tiêu tiết kiệm dài hạn
   và duy trì mức sống của họ.
-đã xem xét: true
+reviewed: false

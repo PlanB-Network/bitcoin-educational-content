@@ -1,10 +1,10 @@
-câu hỏi: Mục đích của quy định KYC là gì?
-câu trả lời: Để chống tài trợ khủng bố, trốn thuế, và rửa tiền.
-câu trả lời sai:
+question: Mục đích của quy định KYC là gì?
+answer: Để chống tài trợ khủng bố, trốn thuế, và rửa tiền.
+wrong_answers:
   - Để tăng giá của Bitcoin.
   - Để kiểm soát nguồn cung của Bitcoin.
   - Để ngăn chặn mọi người mua Bitcoin.
-giải thích: >-
+explanation: >-
   Văn bản giải thích rằng quy định Biết Khách Hàng (KYC) yêu cầu người dùng
   cung cấp thông tin nhận dạng để chống tài trợ khủng bố, trốn thuế, và rửa tiền.
 đã xem xét: false

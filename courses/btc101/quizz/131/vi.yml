@@ -1,9 +1,9 @@
-câu hỏi: Vai trò của một nút Bitcoin trong mạng lưới Bitcoin là gì?
-câu trả lời: Nó xử lý việc xác thực các khối mới và các giao dịch bao gồm.
-câu trả lời sai:
+question: Vai trò của một nút Bitcoin trong mạng lưới Bitcoin là gì?
+answer: Nó xử lý việc xác thực các khối mới và các giao dịch bao gồm.
+wrong_answers:
   - Nó tạo ra Bitcoin mới.
   - Nó điều chỉnh giá của Bitcoin.
   - Nó quản lý mạng lưới Bitcoin.
-giải thích: >-
+explanation: >-
   Một nút Bitcoin trong mạng lưới Bitcoin xử lý việc xác thực các khối mới và các giao dịch bao gồm. Chính thông qua mạng lưới các nút Bitcoin này mà mạng lưới thực sự được phân cấp.
 đã xem xét: false

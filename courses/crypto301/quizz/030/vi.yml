@@ -1,10 +1,10 @@
-câu hỏi: Phương trình nào định nghĩa một đường cong elliptic?
-câu trả lời: "y² = x³ + ax + b"
-câu trả lời sai:
+question: Phương trình nào định nghĩa một đường cong elliptic?
+answer: "y² = x³ + ax + b"
+wrong_answers:
   - "y² = x³ + ax"
   - "y² = x³ + b"
   - "y² = x³ + ax - b"
-giải thích: |
+explanation: |
   "Một đường cong elliptic được định nghĩa bởi phương trình y² = x³ + ax + b.\
   \ Mọi điểm trên đường cong này đều có một tính đối xứng đặc trưng, là chìa khóa cho\
   \ sự hữu ích của nó trong mật mã học."

@@ -1,10 +1,10 @@
-câu hỏi: Đặc điểm nào sau đây là của một người Bitcoin hoài nghi?
-câu trả lời: Cảnh giác, độc lập, không tin tưởng, kiến thức, và thực dụng
-câu trả lời sai:
+question: Đặc điểm nào sau đây là của một người Bitcoin hoài nghi?
+answer: Cảnh giác, độc lập, không tin tưởng, kiến thức, và thực dụng
+wrong_answers:
   - Tin tưởng, phụ thuộc, không biết, và không thực tế
   - Lười biếng, phụ thuộc, tin tưởng, và không biết
   - Tin tưởng, phụ thuộc, thiếu kiến thức, và không thực tế
-giải thích: |
+explanation: |
   Chương này mô tả một người Bitcoin hoài nghi là người luôn cảnh giác,
   độc lập, không tin tưởng, có kiến thức, và thực dụng.
 đã xem xét: false

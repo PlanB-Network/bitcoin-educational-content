@@ -1,10 +1,10 @@
-câu hỏi: Tại sao việc tiến hành nghiên cứu kỹ lưỡng trước khi tin tưởng vào một stablecoin lại quan trọng?
-câu trả lời: Một số stablecoin thiếu minh bạch và sự cẩn trọng
-câu trả lời sai:
+question: Tại sao việc tiến hành nghiên cứu kỹ lưỡng trước khi tin tưởng vào một stablecoin lại quan trọng?
+answer: Một số stablecoin thiếu minh bạch và sự cẩn trọng
+wrong_answers:
   - Stablecoin không có rủi ro liên quan
   - Stablecoin luôn được bảo đảm hoàn toàn bởi dự trữ
   - Một số stablecoin được quản lý bởi chính phủ
-giải thích: |
+explanation: |
   Không phải tất cả stablecoin đều cung cấp cùng một mức độ minh bạch.
   Do đó, việc tiến hành nghiên cứu kỹ lưỡng trước khi giao phó tài sản đáng kể cho bất kỳ stablecoin cụ thể nào là rất quan trọng.
-đã xem xét: true
+reviewed: false

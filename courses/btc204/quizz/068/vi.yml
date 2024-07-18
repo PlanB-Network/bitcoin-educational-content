@@ -1,11 +1,11 @@
-câu hỏi: Làm thế nào chúng ta có thể giảm thiểu tác động của COIH khi gộp các UTXO?
+question: Làm thế nào chúng ta có thể giảm thiểu tác động của COIH khi gộp các UTXO?
 
-câu trả lời: Bằng cách chỉ gộp các UTXO từ cùng một nguồn.
+answer: Bằng cách chỉ gộp các UTXO từ cùng một nguồn.
 
-câu trả lời sai:
+wrong_answers:
   - Bằng cách gửi UTXO đến các địa chỉ của bên thứ ba.
   - Bằng cách chọn ngẫu nhiên các UTXO để tránh các mô hình nhận dạng.
   - Bằng cách gộp các UTXO vào những thời điểm hoạt động thấp.
 
-giải thích: |
+explanation: |
   Nếu bạn cần phải gộp các bitcoin của mình, hãy ưu tiên gộp các UTXO từ cùng một nguồn trước tiên.

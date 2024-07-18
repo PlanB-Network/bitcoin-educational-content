@@ -1,10 +1,10 @@
-câu hỏi: Tính bất biến của blockchain Bitcoin có ý nghĩa gì?
-câu trả lời: Nó không thể được thay đổi theo thời gian
-câu trả lời sai:
+question: Tính bất biến của blockchain Bitcoin có ý nghĩa gì?
+answer: Nó không thể được thay đổi theo thời gian
+wrong_answers:
   - Nó không thể bị hack
   - Nó không thể được sao chép
   - Nó không thể bị xóa
-giải thích: |
+explanation: |
   Tính bất biến của blockchain Bitcoin có nghĩa là một khi một giao dịch
   đã được ghi lại, nó không thể được thay đổi hoặc xóa bỏ. Điều này đảm bảo tính toàn vẹn và
   độ tin cậy của blockchain.

@@ -1,9 +1,9 @@
-câu hỏi: Phần trăm của tổng khối lượng giao dịch Bitcoin đã được sử dụng cho các hoạt động bất hợp pháp là bao nhiêu?
-câu trả lời: Dưới 1%
-câu trả lời sai:
+question: Phần trăm của tổng khối lượng giao dịch Bitcoin đã được sử dụng cho các hoạt động bất hợp pháp là bao nhiêu?
+answer: Dưới 1%
+wrong_answers:
   - 2-4%
   - Hơn 5%
   - Không rõ
-giải thích: |
+explanation: |
   Theo một báo cáo của Chainalysis vào năm 2020, hoạt động bất hợp pháp chỉ chiếm khoảng 0.34% tổng số giao dịch Bitcoin.
 đã được xem xét: true

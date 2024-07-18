@@ -1,10 +1,10 @@
-câu hỏi: Vai trò của hàng hóa vốn trong nền kinh tế là gì?
-câu trả lời: Hàng hóa vốn được sử dụng trong sản xuất các hàng hóa khác. Chúng giúp cá nhân có thể thu được hàng hóa tiêu dùng.
-câu trả lời sai:
+question: Vai trò của hàng hóa vốn trong nền kinh tế là gì?
+answer: Hàng hóa vốn được sử dụng trong sản xuất các hàng hóa khác. Chúng giúp cá nhân có thể thu được hàng hóa tiêu dùng.
+wrong_answers:
   - Hàng hóa vốn được sử dụng để tiêu dùng.
   - Hàng hóa vốn không có vai trò trong nền kinh tế.
   - Hàng hóa vốn được sử dụng để sản xuất các hàng hóa vốn khác.
-giải thích: |
+explanation: |
   Để sản xuất hàng hóa tiêu dùng, các doanh nhân kết hợp các hàng hóa trung gian
   với các yếu tố sản xuất ban đầu (lao động, đất đai và vốn) theo một mô hình tối ưu hóa
   sản lượng thu được. Tất cả các hàng hóa khác trong nền kinh tế,

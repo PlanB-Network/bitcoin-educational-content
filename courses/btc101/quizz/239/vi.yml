@@ -1,9 +1,9 @@
-câu hỏi: Mạng Lưới Lightning có thể thay đổi mô hình thanh toán như thế nào?
-câu trả lời: Người dùng có thể được tính phí theo phút, hoặc thậm chí theo giây, cho thời gian họ sử dụng dịch vụ
-câu trả lời sai:
+question: Mạng Lưới Lightning có thể thay đổi mô hình thanh toán như thế nào?
+answer: Người dùng có thể được tính phí theo phút, hoặc thậm chí theo giây, cho thời gian họ sử dụng dịch vụ
+wrong_answers:
   - Người dùng có thể được tính một khoản phí cố định khi sử dụng dịch vụ
   - Người dùng có thể được tính phí dựa trên lượng dữ liệu họ sử dụng
   - Người dùng có thể được tính phí dựa trên số lượng giao dịch họ thực hiện
-giải thích: >-
+explanation: >-
   Với Mạng Lưới Lightning, thay vì trả một khoản đăng ký hàng tháng cho một dịch vụ, người dùng có thể được tính phí theo phút, hoặc thậm chí theo giây, cho thời gian họ sử dụng dịch vụ.
 đã xem xét: false

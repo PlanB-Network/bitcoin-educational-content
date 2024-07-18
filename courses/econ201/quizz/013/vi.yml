@@ -1,10 +1,10 @@
-câu hỏi: Vấn đề chính của hệ thống dự trữ một phần là gì?
-câu trả lời: Vấn đề chính của hệ thống dự trữ một phần là việc rút tiền lớn từ một ngân hàng cụ thể có thể dẫn đến phá sản của ngân hàng đó.
-câu trả lời sai:
+question: Vấn đề chính của hệ thống dự trữ một phần là gì?
+answer: Vấn đề chính của hệ thống dự trữ một phần là việc rút tiền lớn từ một ngân hàng cụ thể có thể dẫn đến phá sản của ngân hàng đó.
+wrong_answers:
   - Vấn đề chính của hệ thống dự trữ một phần là nó ngăn cản các ngân hàng cho vay tiền.
   - Vấn đề chính của hệ thống dự trữ một phần là nó yêu cầu các ngân hàng phải giữ nhiều dự trữ hơn số tiền họ nhận được từ tiền gửi.
   - Vấn đề chính của hệ thống dự trữ một phần là nó ngăn cản các ngân hàng tạo ra tiền mới.
-giải thích: |
+explanation: |
   Trong hệ thống dự trữ một phần, các ngân hàng chỉ giữ lại một phần của
   tiền gửi của người gửi tiền dưới dạng dự trữ, cho vay phần còn lại. Nếu nhiều khách hàng cùng lúc vội vàng
   rút tiền của họ, ngân hàng có thể không có đủ dự trữ để đáp ứng những yêu cầu này,

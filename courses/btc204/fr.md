@@ -1393,8 +1393,6 @@ Plusieurs plateformes qui ne demandent pas de procédure KYC offrent la possibil
 
 ![BTC204](assets/notext/44/10.webp)
 
-__
-
 *Pour rédiger ce chapitre, je me suis servi de la formation [BTC205](https://planb.network/fr/courses/btc205) réalisée par [@pivi___](https://x.com/pivi___) sur PlanB Network (disponible uniquement en français pour le moment).*
 
 
@@ -1530,7 +1528,6 @@ Au-delà de toutes ces bonnes pratiques à adopter au quotidien, il existe des m
 
 # Comprendre les transactions coinjoin
 <partId>6d0bbf16-3714-4db1-9897-2d45019f6bdc</partId>
-
 
 ## C'est quoi une transaction coinjoin ?
 <chapterId>0862bc6b-1c48-4aa4-b76d-4f547b469008</chapterId>

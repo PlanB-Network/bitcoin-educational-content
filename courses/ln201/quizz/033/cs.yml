@@ -1,10 +1,10 @@
-otázka: Kdo může použít klíč pro zrušení před koncem Timelocku?
-odpověď: Osoba, která dostane peníze.
-špatné_odpovědi:
+question: Kdo může použít klíč pro zrušení před koncem Timelocku?
+answer: Osoba, která dostane peníze.
+wrong_answers:
   - Osoba, která vytvoří transakci s Timelockem.
   - Obě strany mohou použít klíč pro zrušení před koncem Timelocku.
   - Žádná ze stran nemůže použít klíč pro zrušení před koncem Timelocku.
-vysvětlení: |
+explanation: |
   Osoba, která dostane peníze, může použít klíč pro zrušení před
   koncem Timelocku v případě podvodu ze strany jedné na druhou stranu kanálu
   na Lightning Network.

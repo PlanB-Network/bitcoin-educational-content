@@ -1,10 +1,10 @@
-otázka: Jaké je myšlení paranoidního Bitcoinisty, pokud jde o používání Bitcoinu?
-odpověď: Opatrnost, bezpečnost a anonymita jsou na prvním místě
-špatné_odpovědi:
+question: Jaké je myšlení paranoidního Bitcoinisty, pokud jde o používání Bitcoinu?
+answer: Opatrnost, bezpečnost a anonymita jsou na prvním místě
+wrong_answers:
   - Důvěra, otevřenost a transparentnost jsou na prvním místě
   - Riskování, důvěra a otevřenost jsou na prvním místě
   - Nevědomost, důvěra a transparentnost jsou na prvním místě
-vysvětlení: |
+explanation: |
   Kapitola popisuje myšlení paranoidního Bitcoinisty jako takové, kde
   opatrnost, bezpečnost a anonymita jsou na prvním místě.
 recenzováno: false

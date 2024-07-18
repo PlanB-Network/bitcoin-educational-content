@@ -1,9 +1,9 @@
-otázka: Které P2P řešení je přístupné přes Telegram pro nákupy Bitcoinů bez KYC?
-odpověď: LNP2PBot
-špatné_odpovědi:
+question: Které P2P řešení je přístupné přes Telegram pro nákupy Bitcoinů bez KYC?
+answer: LNP2PBot
+wrong_answers:
   - Bisq
   - RoboSat
   - Peach
-vysvětlení: |
+explanation: |
   Podle kapitoly je LNP2PBot přístupný přes Telegram pro nákupy Bitcoinů bez KYC.
 recenzováno: false

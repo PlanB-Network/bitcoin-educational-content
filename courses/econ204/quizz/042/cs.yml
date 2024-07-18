@@ -1,10 +1,10 @@
-otázka: Jaká byla měna Argentiny před rokem 1826?
-odpověď: Španělský dolar.
-špatné_odpovědi:
+question: Jaká byla měna Argentiny před rokem 1826?
+answer: Španělský dolar.
+wrong_answers:
   - Argentinské peso.
   - Peso moneda nacional.
   - Peso real.
-vysvětlení: |
+explanation: |
   Před rokem 1826 používala Argentina španělský dolar. Po svém osamostatnění
 
   v roce 1816 zavedla vlastní měnu založenou na španělském realu, což vedlo k

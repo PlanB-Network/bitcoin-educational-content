@@ -1,9 +1,9 @@
-otázka: Jaká je velikost výstupu hašovací funkce SHA256?
-odpověď: 256 bitů
+question: Jaká je velikost výstupu hašovací funkce SHA256?
+answer: 256 bitů
 nesprávné_odpovědi:
   - 512 bitů
   - 128 bitů
   - 1024 bitů
-vysvětlení: |
+explanation: |
   Hašovací funkce SHA256 generuje z proměnně velkého vstupu 256bitový hash. Proto se nazývá SHA256.
 recenzováno: false

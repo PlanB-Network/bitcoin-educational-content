@@ -1,9 +1,9 @@
-otázka: Jaký je první vektor útoku hackerů?
-odpověď: Emaily
-špatné_odpovědi:
+question: Jaký je první vektor útoku hackerů?
+answer: Emaily
+wrong_answers:
   - Sociální média
   - Webové stránky pro online nakupování
   - Bankovní webové stránky
-vysvětlení: |
+explanation: |
   Emaily jsou prvním vektorem útoku pro hackery. Používají phishingové pokusy k získání citlivých informací, jako jsou vaše přihlašovací údaje a hesla.
 recenzováno: false

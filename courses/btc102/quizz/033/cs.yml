@@ -1,10 +1,10 @@
-otázka: Jaké jsou dvě protichůdné ideologie ve světě Bitcoinu?
-odpověď: Začlenit nebankovní do bankovního systému a vyjmout ty v bankovním systému z něj
-špatné_odpovědi:
+question: Jaké jsou dvě protichůdné ideologie ve světě Bitcoinu?
+answer: Začlenit nebankovní do bankovního systému a vyjmout ty v bankovním systému z něj
+wrong_answers:
   - Zbohatnout každého a zchudnout každého
   - Centralizovat moc a decentralizovat moc
   - Podporovat soukromí a podporovat transparentnost
-vysvětlení: |
+explanation: |
   Kapitola zmiňuje dvě protichůdné ideologie ve světě Bitcoinu.
   Jedna je začlenit miliardy lidí, kteří nejsou v bankovním systému, do něj.
   Druhá je vyjmout miliardy lidí, kteří jsou v bankovním systému, z něj.

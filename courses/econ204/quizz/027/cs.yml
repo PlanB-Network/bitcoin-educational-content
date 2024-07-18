@@ -1,10 +1,10 @@
-otázka: Jaká byla běžná metoda používaná vládami k udržení zdání normálnosti během ekonomického kolapsu?
-odpověď: Nutit obchodníky, aby drželi své obchody otevřené.
-špatné_odpovědi:
+question: Jaká byla běžná metoda používaná vládami k udržení zdání normálnosti během ekonomického kolapsu?
+answer: Nutit obchodníky, aby drželi své obchody otevřené.
+wrong_answers:
   - Podporování zahraničních investic.
   - Snížení daní.
   - Zvýšení veřejných výdajů.
-vysvětlení: |
+explanation: |
   Když ekonomika kolabuje a měna ztrácí svou hodnotu, vlády
   mohou sáhnout po drastických opatřeních, aby udržely zdání normálnosti. Jedním takovým opatřením
   je nutit obchodníky, aby drželi své obchody otevřené.

@@ -1,10 +1,10 @@
-otázka: Jaký je druhý krok při vytváření plánu dědictví podle kapitoly?
-odpověď: Provést jednoduchý a rychlý inventář.
-špatné_odpovědi:
+question: Jaký je druhý krok při vytváření plánu dědictví podle kapitoly?
+answer: Provést jednoduchý a rychlý inventář.
+wrong_answers:
   - Napsat dopis.
   - Vybrat správné lidi, kteří pomohou vašim dědicům.
   - Najmout právníka.
   - Důvěřovat třetí straně.
-vysvětlení: |
+explanation: |
   Druhým krokem při vytváření plánu dědictví, jak je navrženo v kapitole, je provést jednoduchý a rychlý inventář.
 recenzováno: false

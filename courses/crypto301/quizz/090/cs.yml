@@ -1,11 +1,11 @@
-otázka: Jaká fráze se používá s algoritmem HMAC SHA-512 pro výpočet
+question: Jaká fráze se používá s algoritmem HMAC SHA-512 pro výpočet
   hlavního soukromého klíče?
-odpověď: Bitcoin SEED
-špatné_odpovědi:
+answer: Bitcoin SEED
+wrong_answers:
   - Bitcoin KEY
   - Bitcoin WALLET
   - Bitcoin HASH
-vysvětlení: |
+explanation: |
   Hlavní soukromý klíč je vypočítán ze seedu a fráze "Bitcoin
   SEED". Tato fráze je identická pro všechny derivace HD peněženek, což zajišťuje konzistenci
   napříč peněženkami.

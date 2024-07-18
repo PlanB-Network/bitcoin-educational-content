@@ -1,10 +1,10 @@
-otázka: Jakým způsobem se můžete vyhnout online podvodům?
-odpověď: Ověřte identitu stránky, kterou prohlížíte, zejména kontrolou přípony a názvu domény.
-špatné_odpovědi:
+question: Jakým způsobem se můžete vyhnout online podvodům?
+answer: Ověřte identitu stránky, kterou prohlížíte, zejména kontrolou přípony a názvu domény.
+wrong_answers:
   - Používejte veřejné Wi-Fi sítě.
   - Používejte stránky, které nepoužívají protokol HTTPS.
   - Používejte stránky, které nemají zobrazenou ikonu zámku.
-vysvětlení: |
+explanation: |
   Abychom se vyhnuli online podvodům, je klíčové ověřit identitu stránky,
   kterou prohlížíme. Toho lze dosáhnout kontrolou přípony a názvu domény
   dané stránky.

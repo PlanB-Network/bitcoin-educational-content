@@ -1,10 +1,10 @@
-otázka: Jaký je cíl směrování transakcí v síti Lightning Network?
-odpověď: Optimalizovat rychlost, bezpečnost a efektivitu transakcí při zachování soukromí uživatele.
-špatné_odpovědi:
+question: Jaký je cíl směrování transakcí v síti Lightning Network?
+answer: Optimalizovat rychlost, bezpečnost a efektivitu transakcí při zachování soukromí uživatele.
+wrong_answers:
   - Zvětšit velikost blockchainu.
   - Snížit rychlost transakcí.
   - Ohrozit soukromí uživatele.
-vysvětlení: |
+explanation: |
   Cílem směrování transakcí v síti Lightning Network je optimalizovat
   rychlost, bezpečnost a efektivitu transakcí. Toho je dosaženo zohledněním
   různých faktorů, jako jsou poplatky, doba expirace HTLC, počet mezilehlých uzlů,

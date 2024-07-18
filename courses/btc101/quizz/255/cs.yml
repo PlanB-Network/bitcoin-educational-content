@@ -1,9 +1,9 @@
-otázka: Jaký je jeden z hlavních důvodů, proč byl Bitcoin vytvořen?
-odpověď: Navrhnout pokus o změnu finančního systému.
-špatné_odpovědi:
+question: Jaký je jeden z hlavních důvodů, proč byl Bitcoin vytvořen?
+answer: Navrhnout pokus o změnu finančního systému.
+wrong_answers:
   - Navrhnout pokus o zrušení peněz.
   - Navrhnout pokus o vytvoření nové formy technologie AI.
   - Navrhnout pokus o kontrolu světové populace.
-vysvětlení: >-
+explanation: >-
   Text uvádí, že Satoshi vytvořil Bitcoin v roce 2008 s návrhem pokusu o změnu finančního systému.
 recenzováno: false

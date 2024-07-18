@@ -1,10 +1,10 @@
-otázka: Jaká byla reakce Bank of England na bankovní paniku v roce 1796?
-odpověď: Pozastavila možnost směnit její bankovky za zlato
-špatné_odpovědi:
+question: Jaká byla reakce Bank of England na bankovní paniku v roce 1796?
+answer: Pozastavila možnost směnit její bankovky za zlato
+wrong_answers:
   - Vydala více bankovek
   - Ukončila činnost
   - Zvýšila hodnotu svých bankovek
-vysvětlení: |
+explanation: |
   Po bankovní panice v roce 1796 Bank of England pozastavila
 
   možnost směnit

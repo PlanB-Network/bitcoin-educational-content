@@ -1,10 +1,10 @@
-otázka: Jaká byla roční míra inflace v Bolívii v roce 1985?
-odpověď: 11 749 %
-špatné_odpovědi:
+question: Jaká byla roční míra inflace v Bolívii v roce 1985?
+answer: 11 749 %
+wrong_answers:
   - 12 800 %
   - 10 000 %
   - 15 000 %
-vysvětlení: |
+explanation: |
   V roce 1985 dosáhla roční míra inflace v Bolívii 11 749 %, což
 
   znamená, že téměř každý měsíc byla inflace blízko nebo překročila práh hyperinflace

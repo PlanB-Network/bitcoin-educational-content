@@ -1,9 +1,9 @@
-otázka: Jaká je délka soukromých klíčů v Bitcoinové peněžence?
-odpověď: 256 bitů
-špatné_odpovědi:
+question: Jaká je délka soukromých klíčů v Bitcoinové peněžence?
+answer: 256 bitů
+wrong_answers:
   - 128 bitů
   - 512 bitů
   - 1024 bitů
-vysvětlení: |
+explanation: |
   Soukromé klíče v Bitcoinové peněžence, které jsou nezbytné pro vlastnictví kryptoměny, mají pevnou délku 256 bitů.
 recenzováno: false

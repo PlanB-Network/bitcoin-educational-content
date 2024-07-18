@@ -1,10 +1,10 @@
-otázka: Jaká je hlavní výhoda fiat měn?
-odpověď: Jsou snadno dělitelné
-špatné_odpovědi:
+question: Jaká je hlavní výhoda fiat měn?
+answer: Jsou snadno dělitelné
+wrong_answers:
   - Jsou kontrolovány centrální stranou
   - Nejsou snadno přenosné
   - Jsou účinné pro uchování hodnoty v průběhu času
-vysvětlení: |
+explanation: |
   Fiat měny, jako jsou dolar a euro, jsou velmi likvidní a
   snadno přenosné, protože jsou nyní většinou digitální. Nicméně, jejich hodnota je
   neustále snižována měnovou inflací.

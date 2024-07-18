@@ -1,10 +1,10 @@
-otázka: Jakým způsobem můžete sami otestovat Lightning Network?
-odpověď: Vyzkoušením podcastové aplikace Fountain
-špatné_odpovědi:
+question: Jakým způsobem můžete sami otestovat Lightning Network?
+answer: Vyzkoušením podcastové aplikace Fountain
+wrong_answers:
   - Těžbou Bitcoinu
   - Nákupem Bitcoinu
   - Vytvořením nové kryptoměny
-vysvětlení: >-
+explanation: >-
   Jedním ze způsobů, jak můžete sami otestovat Lightning Network, je vyzkoušení
   podcastové aplikace Fountain, která vám umožní získat několik satoshi za poslech
   vašich oblíbených podcastů.

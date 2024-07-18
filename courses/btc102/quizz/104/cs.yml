@@ -1,10 +1,10 @@
-otázka: Jaký je první krok při vytváření plánu dědictví podle kapitoly?
-odpověď: Vybrat správné lidi, kteří pomohou vašim dědicům.
-špatné_odpovědi:
+question: Jaký je první krok při vytváření plánu dědictví podle kapitoly?
+answer: Vybrat správné lidi, kteří pomohou vašim dědicům.
+wrong_answers:
   - Napsat dopis.
   - Provést jednoduchý a rychlý inventář.
   - Najmout právníka.
   - Důvěřovat třetí straně.
-vysvětlení: |
+explanation: |
   Prvním krokem při vytváření plánu dědictví, jak je navrženo v kapitole, je vybrat správné lidi, kteří pomohou vašim dědicům.
 recenzováno: false

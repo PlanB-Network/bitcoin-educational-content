@@ -1,10 +1,10 @@
-otázka: Jaké je riziko, pokud nevlastníte soukromý klíč k vaší Bitcoin peněžence?
-odpověď: Vaše bitcoiny jsou vystaveny rizikům jako je hacking, zabavení, regulace nebo bankrot
-špatné_odpovědi:
+question: Jaké je riziko, pokud nevlastníte soukromý klíč k vaší Bitcoin peněžence?
+answer: Vaše bitcoiny jsou vystaveny rizikům jako je hacking, zabavení, regulace nebo bankrot
+wrong_answers:
   - Vaše bitcoiny budou automaticky převedeny na jinou kryptoměnu
   - Vaše bitcoiny ztratí svou hodnotu
   - Vaše bitcoiny budou převedeny do jiné peněženky
-vysvětlení: |
+explanation: |
   Pokud nevlastníte soukromý klíč k vaší Bitcoin peněžence, vaše bitcoiny
   jsou vystaveny rizikům jako je hacking, zabavení, regulace nebo bankrot.
 recenzováno: false

@@ -1,9 +1,9 @@
-otázka: Proč zlato nedokáže držet krok v globalizovaném a digitálním světě?
-odpověď: Vyžaduje centrální subjekt, který by jej učinil dělitelným a snadno směnitelným
-špatné_odpovědi:
+question: Proč zlato nedokáže držet krok v globalizovaném a digitálním světě?
+answer: Vyžaduje centrální subjekt, který by jej učinil dělitelným a snadno směnitelným
+wrong_answers:
   - Není dostatečně cenné
   - Není dostatečně vzácné
   - Časem se rozpadá
-vysvětlení: |
+explanation: |
   Zlato nedokáže držet krok v globalizovaném a digitálním světě, protože vyžaduje centrální subjekt, který by jej učinil dělitelným a snadno směnitelným. To jej činí méně praktickým pro použití ve světě, kde jsou transakce stále více digitální a decentralizované.
 recenzováno: true

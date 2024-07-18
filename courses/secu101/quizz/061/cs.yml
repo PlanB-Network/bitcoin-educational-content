@@ -1,10 +1,10 @@
-otázka: Jaké programovací jazyky se používají v kybernetické bezpečnosti?
-odpověď: Python, C, Java
-špatné_odpovědi:
+question: Jaké programovací jazyky se používají v kybernetické bezpečnosti?
+answer: Python, C, Java
+wrong_answers:
   - HTML, CSS, JavaScript
   - Swift, Kotlin, Ruby
   - PHP, Perl, Lua
-vysvětlení: |
+explanation: |
   Kapitola uvádí Python, C a Java jako některé z programovacích jazyků
 
 

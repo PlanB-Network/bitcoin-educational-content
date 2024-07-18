@@ -1,10 +1,10 @@
-otázka: Jaká byla míra inflace v Německu v říjnu 1923?
-odpověď: 29,50 %.
-špatné_odpovědi:
+question: Jaká byla míra inflace v Německu v říjnu 1923?
+answer: 29,50 %.
+wrong_answers:
   - 200,9 %.
   - 50,51 %.
   - 25,98 %.
-vysvětlení: |
+explanation: |
   Měsíc s nejvyšší inflací v Německu byl říjen 1923, kdy dosáhla vrcholu
   29,50 %.
-posouzeno: true
+reviewed: false

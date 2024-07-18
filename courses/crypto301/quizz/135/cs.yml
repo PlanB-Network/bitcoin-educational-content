@@ -1,10 +1,10 @@
-otázka: Jaký je účel heslové fráze v HD peněžence?
-odpověď: Funguje jako kryptografická sůl, která přidává další vrstvu ochrany peněžence.
-špatné_odpovědi:
+question: Jaký je účel heslové fráze v HD peněžence?
+answer: Funguje jako kryptografická sůl, která přidává další vrstvu ochrany peněžence.
+wrong_answers:
   - Používá se k vygenerování seedu peněženky.
   - Používá se k odvození dceřiných klíčů.
   - Používá se k výpočtu kontrolního součtu.
-vysvětlení: |
+explanation: |
   Heslová fráze v HD peněžence funguje jako kryptografická sůl, která přidává
   další vrstvu ochrany peněžence. Používá se společně s mnemonickou
   frází k vygenerování seedu peněženky.

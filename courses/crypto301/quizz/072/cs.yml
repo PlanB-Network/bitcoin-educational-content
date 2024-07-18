@@ -1,9 +1,9 @@
-otázka: Co je mnemonická fráze v kontextu Bitcoin peněženky?
-odpověď: Je to záloha peněženky.
-špatné_odpovědi:
+question: Co je mnemonická fráze v kontextu Bitcoin peněženky?
+answer: Je to záloha peněženky.
+wrong_answers:
   - Je to heslo k peněžence.
   - Je to historie transakcí peněženky.
   - Je to digitální podpis peněženky.
-vysvětlení: |
+explanation: |
   Mnemonická fráze je generována za účelem zajištění zálohy Bitcoin peněženky.
 recenzováno: false

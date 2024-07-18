@@ -1,10 +1,10 @@
-otázka: Co udělá Alice po obdržení veřejné adresy Boba?
-odpověď: Vytvoří 2/2 multi-sig adresu.
-špatné_odpovědi:
+question: Co udělá Alice po obdržení veřejné adresy Boba?
+answer: Vytvoří 2/2 multi-sig adresu.
+wrong_answers:
   - Pošle peníze na veřejnou adresu Boba.
   - Publikuje transakci do Bitcoinové sítě.
   - Požádá Boba o jeho podpis.
-vysvětlení: |
+explanation: |
   Po obdržení veřejné adresy Boba použije Alice tuto adresu společně se svou vlastní
   veřejnou adresou k vytvoření 2/2 multi-sig adresy. Na tuto adresu
   pošle peníze, aby otevřela kanál.

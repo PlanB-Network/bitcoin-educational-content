@@ -1,9 +1,9 @@
-otázka: Jaký je charakteristický rys paranoidního Bitcoinera?
-odpověď: Nedůvěra v centralizované systémy a procesy KYC
-špatné_odpovědi:
+question: Jaký je charakteristický rys paranoidního Bitcoinera?
+answer: Nedůvěra v centralizované systémy a procesy KYC
+wrong_answers:
   - Důvěra v centralizované systémy
   - Preference sdílení osobních informací
   - Nedostatek zájmu o soukromí a bezpečnost
-vysvětlení: |
+explanation: |
   Kapitola popisuje paranoidního Bitcoinera jako někoho, kdo má charakteristickou nedůvěru v centralizované systémy a procesy KYC.
 recenzováno: false

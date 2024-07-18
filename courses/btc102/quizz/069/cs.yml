@@ -1,10 +1,10 @@
-otázka: Jaký je hlavní důvod, proč Hodler věří v dlouhodobou hodnotu Bitcoinu?
-odpověď: Věří, že Bitcoin bude šířeji používán a tudíž bude vzácnější.
-špatné_odpovědi:
+question: Jaký je hlavní důvod, proč Hodler věří v dlouhodobou hodnotu Bitcoinu?
+answer: Věří, že Bitcoin bude šířeji používán a tudíž bude vzácnější.
+wrong_answers:
   - Věří, že Bitcoin bude nahrazen jinou kryptoměnou.
   - Věří, že hodnota Bitcoinu bude časem klesat.
   - Věří, že Bitcoin je krátkodobá investice.
-vysvětlení: |
+explanation: |
   Hodler věří v dlouhodobou hodnotu Bitcoinu, protože si myslí,
   že bude v budoucnu šířeji používán a tudíž bude vzácnější.
 recenzováno: false

@@ -1,9 +1,9 @@
-otázka: Co je koncept klesající mezní užitečnosti?
-odpověď: Každá další jednotka zboží je méně žádána než předchozí.
-špatné_odpovědi:
+question: Co je koncept klesající mezní užitečnosti?
+answer: Každá další jednotka zboží je méně žádána než předchozí.
+wrong_answers:
   - Každá další jednotka zboží je více žádána než předchozí.
   - Každá další jednotka zboží je stejně žádána jako předchozí.
   - Touha po každé další jednotce zboží se nepředvídatelně mění.
-vysvětlení: |
+explanation: |
   Koncept klesající mezní užitečnosti uvádí, že každá další jednotka zboží je méně žádána než předchozí. To je proto, že jak jedinec získává více zboží, tím méně užitečnosti každá další jednotka tohoto zboží poskytuje.
 recenzováno: false

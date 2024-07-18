@@ -1,10 +1,10 @@
-otázka: Jaké je klíčové poučení z přednášky o tom, jak překonat hyperinflaci?
-odpověď: Existuje několik strategií, jak překonat hyperinflaci, ale budou fungovat pouze v případě, že v ně obyvatelstvo věří a jsou na vládu uvalena přísná omezení.
-špatné_odpovědi:
+question: Jaké je klíčové poučení z přednášky o tom, jak překonat hyperinflaci?
+answer: Existuje několik strategií, jak překonat hyperinflaci, ale budou fungovat pouze v případě, že v ně obyvatelstvo věří a jsou na vládu uvalena přísná omezení.
+wrong_answers:
   - Jediný způsob, jak překonat hyperinflaci, je prostřednictvím dolarizace
   - Jediný způsob, jak překonat hyperinflaci, je zavedením nové měny
   - Hyperinflaci lze překonat jednoduše zvýšením peněžní zásoby
-vysvětlení: |
+explanation: |
   Přednáška naznačuje, že existuje několik strategií, jak překonat
   hyperinflaci,
   jako je dolarizace nebo zavedení nové měny. Tyto řešení však

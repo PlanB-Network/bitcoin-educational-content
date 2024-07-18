@@ -1,10 +1,10 @@
-otázka: Jaký je třetí krok při vytváření plánu dědictví podle kapitoly?
-odpověď: Napsat dopis.
-špatné_odpovědi:
+question: Jaký je třetí krok při vytváření plánu dědictví podle kapitoly?
+answer: Napsat dopis.
+wrong_answers:
   - Provést jednoduchou a rychlou inventuru.
   - Vybrat správné lidi, kteří pomohou vašim dědicům.
   - Najmout právníka.
   - Důvěřovat třetí straně.
-vysvětlení: |
+explanation: |
   Třetím krokem při vytváření plánu dědictví, jak je navrženo v kapitole, je napsat dopis.
 recenzováno: false

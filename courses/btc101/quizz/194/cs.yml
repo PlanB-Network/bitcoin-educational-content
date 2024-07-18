@@ -1,9 +1,9 @@
-otázka: Jaké je jedno řešení pro velké struktury nebo vášnivé příznivce bitcoinu, aby přijímali Bitcoin?
-odpověď: BTCpay Server
-špatné_odpovědi:
+question: Jaké je jedno řešení pro velké struktury nebo vášnivé příznivce bitcoinu, aby přijímali Bitcoin?
+answer: BTCpay Server
+wrong_answers:
   - Bitcoinová peněženka
   - Bitcoinová burza
   - Těžba bitcoinu
-vysvětlení: >-
+explanation: >-
   BTCpay Server je řešením pro velké struktury nebo vášnivé příznivce bitcoinu, aby přijímali Bitcoin. Další řešení zahrnují OpenNode pro jednoduché online podnikání a Swiss Bitcoin Pay pro amatérské obchodníky.
 recenzováno: false

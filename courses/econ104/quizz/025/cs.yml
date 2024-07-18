@@ -1,10 +1,10 @@
-otázka: Proč je argument, že bitcoin je bezcenný, protože není ničím podložen, chybný?
-odpověď: Hodnota je subjektivní a závisí na přesvědčeních a zkušenostech lidí.
+question: Proč je argument, že bitcoin je bezcenný, protože není ničím podložen, chybný?
+answer: Hodnota je subjektivní a závisí na přesvědčeních a zkušenostech lidí.
 wrong_answers:
   - Bitcoin je podložen zlatem, což mu dává vnitřní hodnotu.
   - Hodnota bitcoinu je určena jeho vzácností a bezpečnostními funkcemi.
   - Hodnota bitcoinu je založena na jeho akceptaci vládami a bankami.
-vysvětlení: |
+explanation: |
   Hodnota je subjektivní a záleží na pohledu pozorovatele. Bitcoin má hodnotu,
   protože lidé věří, že ji má, stejně jako umělecké dílo může být cenné, přestože
   je vyrobeno z plátna a barvy. Argument, že měna musí být podložena něčím hodnotným,

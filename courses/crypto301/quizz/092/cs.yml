@@ -1,10 +1,10 @@
-otázka: Jaká je velikost komprimovaného veřejného klíče?
-odpověď: 33 bajtů
+question: Jaká je velikost komprimovaného veřejného klíče?
+answer: 33 bajtů
 špatné odpovědi:
   - 32 bajtů
   - 82 bajtů
   - 512 bitů
-vysvětlení: |
+explanation: |
   Komprimované veřejné klíče mají velikost 33 bajtů. Zachovávají stejné
 
   informace jako nekomprimované klíče, ale s redukovanou velikostí.

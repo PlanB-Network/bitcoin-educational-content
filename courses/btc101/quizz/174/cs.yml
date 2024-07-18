@@ -1,10 +1,10 @@
-otázka: Jaký je jeden z faktorů, který může způsobit kolísání ceny Bitcoinu?
-odpověď: Tržní variace a fáze býčího a medvědího trhu.
+question: Jaký je jeden z faktorů, který může způsobit kolísání ceny Bitcoinu?
+answer: Tržní variace a fáze býčího a medvědího trhu.
 nesprávné_odpovědi:
   - Počet lidí používajících internet.
   - Počasí.
   - Cena zlata.
-vysvětlení: >-
+explanation: >-
   Cena Bitcoinu je často charakterizována významnou volatilitou,
   která může být ovlivněna tržními variacemi a fázemi býčího a medvědího trhu.
 recenzováno: false

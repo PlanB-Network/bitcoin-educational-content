@@ -1,10 +1,10 @@
-otázka: Jaký je důsledek opakovaných redenominací na populaci?
-odpověď: Ztráta úspor a problémy s potravinami.
-špatné_odpovědi:
+question: Jaký je důsledek opakovaných redenominací na populaci?
+answer: Ztráta úspor a problémy s potravinami.
+wrong_answers:
   - Zvýšení bohatství a hojnost potravin.
   - Zvýšení úspor a nedostatek potravin.
   - Snížení bohatství a hojnost potravin.
-vysvětlení: |
+explanation: |
   Opakované redenominace, odstraňování nul nebo změna názvu
   měny má přímé důsledky na populaci, od ztráty
   úspor po problémy s potravinami.

@@ -1,9 +1,9 @@
-otázka: Kolik SAT má Alice na začátku příkladu?
-odpověď: 130 000 SAT.
-špatné_odpovědi:
+question: Kolik SAT má Alice na začátku příkladu?
+answer: 130 000 SAT.
+wrong_answers:
   - 100 000 SAT.
   - 90 000 SAT.
   - 0 SAT.
-vysvětlení: |
+explanation: |
   V příkladu Alice otevře kanál s Bobem s 130 000 SAT na své straně.
 recenzováno: false

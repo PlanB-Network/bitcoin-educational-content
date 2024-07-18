@@ -1,10 +1,10 @@
-otázka: Jaká je nevýhoda řešení RoboSat P2P?
-odpověď: Protokol je křehký s jediným koordinátorem.
-špatné_odpovědi:
+question: Jaká je nevýhoda řešení RoboSat P2P?
+answer: Protokol je křehký s jediným koordinátorem.
+wrong_answers:
   - Vyžaduje účet pro provoz.
   - Nepoužívá Lightning Network.
   - Není open source.
-vysvětlení: |
+explanation: |
   Kapitola uvádí, že jednou z nevýhod RoboSatu je,
   že jeho protokol je křehký s jediným koordinátorem.
 recenzováno: false

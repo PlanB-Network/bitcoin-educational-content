@@ -1,9 +1,9 @@
-otázka: Jaká je role relativních cen v Rakouské teorii hospodářského cyklu?
-odpověď: Relativní ceny jsou důležité pro koordinaci ekonomických subjektů.
-špatné_odpovědi:
+question: Jaká je role relativních cen v Rakouské teorii hospodářského cyklu?
+answer: Relativní ceny jsou důležité pro koordinaci ekonomických subjektů.
+wrong_answers:
   - Relativní ceny jsou v Rakouské teorii hospodářského cyklu irelevantní.
   - Relativní ceny jsou důležité pro určení úrovně zaměstnanosti.
   - Relativní ceny jsou důležité pro určení úrovně HDP.
-vysvětlení: |
+explanation: |
   Rakouská škola zdůrazňuje význam relativních cen pro koordinaci ekonomických subjektů. Relativní ceny odrážejí skutečnou vzácnost výrobních faktorů a umožňují ekonomickým subjektům racionalizovat svá rozhodnutí.
 recenzováno: false

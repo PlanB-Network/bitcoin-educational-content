@@ -1,10 +1,10 @@
-otázka: Jaký je teoreticky celkový počet možností pro soukromý klíč?
-odpověď: 2^256
-špatné_odpovědi:
+question: Jaký je teoreticky celkový počet možností pro soukromý klíč?
+answer: 2^256
+wrong_answers:
   - 2^128
   - 2^512
   - 2^1024
-vysvětlení: |
+explanation: |
   Celkový počet možností pro soukromý klíč je teoreticky
   2^256, ale ve skutečnosti je to o něco méně.
 recenzováno: false

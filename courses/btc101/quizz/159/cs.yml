@@ -1,9 +1,9 @@
-otázka: Jaký význam má energetická náročnost při těžbě Bitcoinu?
-odpověď: Energetická náročnost je nezbytná pro produkci informací, ale ověření informací má zanedbatelnou cenu. Tato asymetrie zaručuje bezpečnost sítě.
-špatné_odpovědi:
+question: Jaký význam má energetická náročnost při těžbě Bitcoinu?
+answer: Energetická náročnost je nezbytná pro produkci informací, ale ověření informací má zanedbatelnou cenu. Tato asymetrie zaručuje bezpečnost sítě.
+wrong_answers:
   - Energetická náročnost je nezbytná pro napájení strojů ASIC používaných při těžbě.
   - Energetická náročnost je nezbytná pro udržení sítě Bitcoin.
   - Energetická náročnost je nezbytná pro vytváření nových bitcoinů.
-vysvětlení: >-
+explanation: >-
   Energetická náročnost při těžbě Bitcoinu je klíčovým aspektem bezpečnosti sítě. Vysoké energetické náklady na těžbu činí jakoukoliv manipulaci s blockchainem extrémně drahou pro zákeřné aktéry, zatímco nízké náklady na ověřování transakcí zajišťují, že se kdokoliv může zapojit do sítě.
 reviewed: false

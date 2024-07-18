@@ -1,10 +1,10 @@
-otázka: Jak vnímala německá populace období hyperinflace ve Výmarské republice?
-odpověď: Připisovali inflaci růstu dolaru spíše než vnitřní devalvaci vlastní měny.
-špatné_odpovědi:
+question: Jak vnímala německá populace období hyperinflace ve Výmarské republice?
+answer: Připisovali inflaci růstu dolaru spíše než vnitřní devalvaci vlastní měny.
+wrong_answers:
   - Byli plně vědomi skutečné příčiny hyperinflace, kterou zažívali.
   - Za své ekonomické potíže obviňovali vládu.
   - Věřili, že hyperinflace byla výsledkem válečných reparací.
-vysvětlení: |
+explanation: |
   Německá populace během Výmarské republiky připisovala inflaci, kterou zažívala, růstu dolaru, a ignorovala jakékoli uznání
   souvislosti mezi jejich ekonomickými potížemi a monetární devalvací, hlavně způsobenou nadměrnou tvorbou peněz.
 recenzováno: false

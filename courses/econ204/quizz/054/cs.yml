@@ -1,10 +1,10 @@
-otázka: Jaká je oficiální hranice pro zemi, aby byla považována za zemi s hyperinflací?
-odpověď: 50 % za měsíc
-špatné_odpovědi:
+question: Jaká je oficiální hranice pro zemi, aby byla považována za zemi s hyperinflací?
+answer: 50 % za měsíc
+wrong_answers:
   - 10 % za měsíc
   - 25 % za měsíc
   - 75 % za měsíc
-vysvětlení: |
+explanation: |
   V roce 2007 dosáhla míra inflace v Zimbabwe hranice 50 % za měsíc,
   což oficiálně označilo zemi za zemi s hyperinflací.
 recenzováno: false

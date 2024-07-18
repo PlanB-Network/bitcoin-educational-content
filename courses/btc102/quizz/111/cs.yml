@@ -1,10 +1,10 @@
-otázka: Jaký je účel Bitcoinového uzlu v kontextu Lightning Network?
-odpověď: Pomoci pochopit a prozkoumat nové aspekty Bitcoinu, které přinesla Lightning Network.
-špatné_odpovědi:
+question: Jaký je účel Bitcoinového uzlu v kontextu Lightning Network?
+answer: Pomoci pochopit a prozkoumat nové aspekty Bitcoinu, které přinesla Lightning Network.
+wrong_answers:
   - Těžit nové Bitcoiny.
   - Obchodovat s Bitcoiny.
   - Ukládat Bitcoiny.
-vysvětlení: |
+explanation: |
   Bitcoinový uzel v kontextu Lightning Network slouží k pochopení
   a prozkoumání nových aspektů Bitcoinu, které přinesla Lightning Network. Nejedná se
   o těžbu nových Bitcoinů, obchodování s Bitcoiny, ani ukládání Bitcoinů.

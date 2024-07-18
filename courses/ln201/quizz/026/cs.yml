@@ -1,10 +1,10 @@
-otázka: Co se stane s prostředky při převodu v Lightning Network?
-odpověď: Prostředky se nepohnou, ale konečný zůstatek je aktualizován.
-špatné_odpovědi:
+question: Co se stane s prostředky při převodu v Lightning Network?
+answer: Prostředky se nepohnou, ale konečný zůstatek je aktualizován.
+wrong_answers:
   - Prostředky jsou převedeny z jedné strany na druhou.
   - Prostředky jsou uzamčeny, dokud není kanál uzavřen.
   - Prostředky jsou odeslány do Bitcoinové sítě.
-vysvětlení: |
+explanation: |
   Při převodu v Lightning Network se prostředky nepohnou. Místo toho je konečný
   zůstatek aktualizován prostřednictvím podepsané, ale nezveřejněné on-chain transakce.
 recenzováno: false

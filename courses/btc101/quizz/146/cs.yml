@@ -1,10 +1,10 @@
-otázka: Proč je dostupná cena a přístupnost Bitcoinového uzlu důležitá?
-odpověď: Umožňuje decentralizaci sítě
-špatné_odpovědi:
+question: Proč je dostupná cena a přístupnost Bitcoinového uzlu důležitá?
+answer: Umožňuje decentralizaci sítě
+wrong_answers:
   - Zvyšuje kapacitu transakcí sítě
   - Sníží kapacitu transakcí sítě
   - Zvyšuje blokovou odměnu pro těžaře
-vysvětlení: >-
+explanation: >-
   Dostupná cena a přístupnost Bitcoinového uzlu jsou důležité,
   protože umožňují decentralizaci sítě.
 recenzováno: false

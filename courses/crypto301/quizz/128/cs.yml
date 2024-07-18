@@ -1,10 +1,10 @@
-otázka: Co značí prefix 0,3 u veřejného klíče Bitcoinu?
-odpověď: Značí lichou hodnotu y.
-špatné_odpovědi:
+question: Co značí prefix 0,3 u veřejného klíče Bitcoinu?
+answer: Značí lichou hodnotu y.
+wrong_answers:
   - Značí sudou hodnotu y.
   - Značí verzi veřejného klíče.
   - Značí velikost veřejného klíče.
-vysvětlení: |
+explanation: |
   V příkladu veřejného klíče patřícího Satoshi Nakamotovi prefix
 
   0,3 značí lichou hodnotu y. To je součást procesu komprese veřejného

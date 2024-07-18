@@ -1,10 +1,10 @@
-otázka: Co je HRP (Human Readable Part) v Bitcoinové adrese?
-odpověď: Je to část vstupních informací potřebných pro program BCH.
-špatné_odpovědi:
+question: Co je HRP (Human Readable Part) v Bitcoinové adrese?
+answer: Je to část vstupních informací potřebných pro program BCH.
+wrong_answers:
   - Je to hash veřejného klíče.
   - Je to kontrolní součet adresy.
   - Je to soukromý klíč spojený s adresou.
-vysvětlení: |
+explanation: |
   Program BCH vyžaduje několik vstupních informací, včetně HRP
 
   (Human Readable Part), který je potřeba rozšířit. To je součást procesu

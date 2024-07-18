@@ -277,7 +277,7 @@ Jak pokračujeme směrem k světu programovatelných peněz, Bitcoin zůstává 
 
 To řečeno, ačkoliv digitální měny představují novou hranici ve vývoji peněz, nabízejí vysoký stupeň bezpečnosti, soukromí a pohodlí, přinášejí také svá vlastní rizika a výzvy, které je nutné pečlivě zvážit před jejich přijetím jako formy peněz.
 
-Po prozkoumání různých forem peněz v průběhu historie, se nabízí zásadní otázka:
+Po prozkoumání různých forem peněz v průběhu historie, se nabízí zásadní question:
 
 ### Směřujeme správným směrem?
 Na této cestě jsme prozkoumali fascinující vývoj peněz, sledovali jsme jejich evoluci od barteru po současnou digitální éru. Viděli jsme různé měny vznikat a zanikat, od mušlí a korálků po drahé kovy a fiat peníze.

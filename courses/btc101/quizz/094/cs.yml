@@ -1,10 +1,10 @@
-otázka: Jaké je riziko používání multisig peněženky?
-odpověď: Nemít přístup k dostatečnému počtu rozdílných částí zálohy multisig
-špatné_odpovědi:
+question: Jaké je riziko používání multisig peněženky?
+answer: Nemít přístup k dostatečnému počtu rozdílných částí zálohy multisig
+wrong_answers:
   - Mít přístup k dostatečnému počtu rozdílných částí zálohy multisig
   - Sdílet klíče s dalšími stranami
   - Nesdílet klíče s dalšími stranami
-vysvětlení: |
+explanation: |
   Když používáte multisig peněženku, každá část multisigu by měla být uložena
   na různých místech. To je proto, že multisig vyžaduje více podpisů
   pro provedení transakce, takže je potřeba určitý počet peněženek, a ukládání každé části na jiné místo přidává

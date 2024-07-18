@@ -1,10 +1,10 @@
-otázka: Jaké je zlaté pravidlo kybernetické bezpečnosti?
-odpověď: Kybernetická bezpečnost je pohyblivým cílem, který se přizpůsobí vaší učící se cestě.
-špatné_odpovědi:
+question: Jaké je zlaté pravidlo kybernetické bezpečnosti?
+answer: Kybernetická bezpečnost je pohyblivým cílem, který se přizpůsobí vaší učící se cestě.
+wrong_answers:
   - Kybernetická bezpečnost je jednorázové nastavení
   - Kybernetická bezpečnost není nutná pro osobní účty
   - Kybernetická bezpečnost je pouze pro technicky zdatné lidi
-vysvětlení: |
+explanation: |
   Kybernetická bezpečnost je pohyblivým cílem, protože hrozby a bezpečnostní opatření
   se neustále vyvíjejí. Je důležité neustále se učit a přizpůsobovat své postupy.
 recenzováno: false

@@ -1,9 +1,9 @@
-otázka: Jaký je rozdíl mezi obchodováním, investováním a držením v kontextu Bitcoinu?
-odpověď: Obchodování zahrnuje krátkodobé kontrakty s vysokým rizikem, investování zahrnuje nákup BTC na krátkou až střednědobou dobu s omezeným rizikem a držení zahrnuje uchovávání BTC na velmi dlouhou dobu s omezeným rizikem.
-špatné_odpovědi:
+question: Jaký je rozdíl mezi obchodováním, investováním a držením v kontextu Bitcoinu?
+answer: Obchodování zahrnuje krátkodobé kontrakty s vysokým rizikem, investování zahrnuje nákup BTC na krátkou až střednědobou dobu s omezeným rizikem a držení zahrnuje uchovávání BTC na velmi dlouhou dobu s omezeným rizikem.
+wrong_answers:
   - Obchodování zahrnuje nákup BTC na dlouhou dobu, investování zahrnuje krátkodobé kontrakty s vysokým rizikem a držení zahrnuje uchovávání BTC na krátkou až střednědobou dobu s omezeným rizikem.
   - Obchodování zahrnuje nákup BTC na krátkou až střednědobou dobu, investování zahrnuje krátkodobé kontrakty s vysokým rizikem a držení zahrnuje uchovávání BTC na velmi dlouhou dobu s vysokým rizikem.
   - Obchodování zahrnuje nákup BTC na krátkou až střednědobou dobu, investování zahrnuje krátkodobé kontrakty s vysokým rizikem a držení zahrnuje uchovávání BTC na velmi dlouhou dobu s omezeným rizikem.
-vysvětlení: |
+explanation: |
   Obchodování, investování a držení jsou tři různé strategie používané na trhu s Bitcoinem. Obchodování zahrnuje krátkodobé kontrakty s vysokým rizikem, investování zahrnuje nákup BTC na krátkou až střednědobou dobu s omezeným rizikem a držení zahrnuje uchovávání BTC na velmi dlouhou dobu s omezeným rizikem.
 recenzováno: false

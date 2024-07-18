@@ -1,12 +1,12 @@
-otázka:
+question:
   Doporučuje se zapamatovat si heslovou frázi nebo mnemonickou frázi pro Bitcoin
   peněženku?
-odpověď: To není pravda
-špatné_odpovědi:
+answer: To není pravda
+wrong_answers:
   - To je pravda
   - Záleží na délce heslové fráze nebo mnemonické fráze
   - Záleží na složitosti heslové fráze nebo mnemonické fráze
-vysvětlení: |
+explanation: |
   Nedoporučuje se zapamatovat si heslovou frázi nebo mnemonickou frázi. Je
   zásadní pečovat o zálohy heslové fráze, aby nedošlo ke ztrátě přístupu k peněžence.
 recenzováno: false

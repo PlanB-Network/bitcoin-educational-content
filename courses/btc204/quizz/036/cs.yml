@@ -1,9 +1,9 @@
-otázka: Proč mohou být méně běžně používané typy skriptů snáze identifikovatelné než široce používané skripty?
-odpověď: Protože skupina transakcí se stejným typem skriptu je menší.
-špatné_odpovědi:
+question: Proč mohou být méně běžně používané typy skriptů snáze identifikovatelné než široce používané skripty?
+answer: Protože skupina transakcí se stejným typem skriptu je menší.
+wrong_answers:
   - Protože vyžadují více ověření těžaři.
   - Protože používají slabší šifrovací algoritmy.
   - Protože jsou častěji odmítány uzly sítě Bitcoin.
-vysvětlení: |
+explanation: |
   Pokud je celková skupina transakcí se stejným typem skriptu, ve které se skrýváme, malá, jsme snáze identifikovatelní než ve velmi velké skupině transakcí.
 recenzováno: false

@@ -1,9 +1,9 @@
-otázka: Jaké je jedno z potenciálních rizik ponechání vašeho Bitcoinu na burzovní platformě?
-odpověď: Rizika hackování a blokování prostředků.
-špatné_odpovědi:
+question: Jaké je jedno z potenciálních rizik ponechání vašeho Bitcoinu na burzovní platformě?
+answer: Rizika hackování a blokování prostředků.
+wrong_answers:
   - Riziko, že platforma zvýší cenu Bitcoinu.
   - Riziko, že platforma ovládne dodávky Bitcoinu.
   - Riziko, že platforma vám zabrání kupovat více Bitcoinu.
-vysvětlení: >-
+explanation: >-
   Text zmíní, že ponechání vašeho Bitcoinu na burzovní platformě vás může vystavit rizikům hackování a blokování prostředků.
 recenzováno: false

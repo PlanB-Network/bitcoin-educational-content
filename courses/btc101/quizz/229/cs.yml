@@ -1,10 +1,10 @@
-otázka: Jak jsou transakce v Lightning Network zabezpečeny?
-odpověď: Pomocí kryptografie a nepřímo prostřednictvím energie spotřebované těžaři na Bitcoinu.
-špatné_odpovědi:
+question: Jak jsou transakce v Lightning Network zabezpečeny?
+answer: Pomocí kryptografie a nepřímo prostřednictvím energie spotřebované těžaři na Bitcoinu.
+wrong_answers:
   - Pouze pomocí soukromých klíčů.
   - Pouze pomocí veřejných klíčů.
   - Pouze pomocí obou, soukromých a veřejných klíčů.
-vysvětlení: >-
+explanation: >-
   Transakce v Lightning Network jsou zabezpečeny pomocí kryptografie
   a nepřímo prostřednictvím energie spotřebované těžaři na Bitcoinu.
 recenzováno: false

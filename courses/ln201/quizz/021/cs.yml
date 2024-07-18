@@ -1,9 +1,9 @@
-otázka: Kdo zahajuje proces otevření kanálu v Lightning Network?
-odpověď: Alice
-špatné_odpovědi:
+question: Kdo zahajuje proces otevření kanálu v Lightning Network?
+answer: Alice
+wrong_answers:
   - Bob
   - Oba, Alice i Bob
   - Ani Alice ani Bob
-vysvětlení: |
+explanation: |
   V procesu otevření kanálu v Lightning Network je Alice ta, která proces zahajuje. Komunikuje svůj záměr otevřít kanál Bobovi, který jako odpověď poskytne svou veřejnou adresu.
 recenzováno: false

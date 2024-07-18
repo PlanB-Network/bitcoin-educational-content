@@ -1,9 +1,9 @@
-otázka: Jaká je role bankovního sektoru ve vyvolání recese podle Rakouské teorie hospodářského cyklu?
-odpověď: Bankovní sektor vyvolá recesi, když se rozhodne snížit své riziko a tím pádem omezí tok úvěrů.
-špatné_odpovědi:
+question: Jaká je role bankovního sektoru ve vyvolání recese podle Rakouské teorie hospodářského cyklu?
+answer: Bankovní sektor vyvolá recesi, když se rozhodne snížit své riziko a tím pádem omezí tok úvěrů.
+wrong_answers:
   - Bankovní sektor vyvolá recesi, když se rozhodne zvýšit své riziko a tím pádem zvýší tok úvěrů.
   - Bankovní sektor vyvolá recesi, když se rozhodne udržet své riziko a tím pádem udrží tok úvěrů.
   - Bankovní sektor nemá žádnou roli ve vyvolání recese podle Rakouské teorie hospodářského cyklu.
-vysvětlení: |
+explanation: |
   Podle Rakouské teorie hospodářského cyklu bankovní sektor vyvolá recesi, když se rozhodne snížit své riziko a tím pádem omezí tok úvěrů. To vede k mnoha bankrotům, zpřísnění úvěrových podmínek, poklesu dostupné kupní síly a finančním krizím.
 recenzováno: false

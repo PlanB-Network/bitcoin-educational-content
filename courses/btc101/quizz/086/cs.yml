@@ -1,12 +1,12 @@
-otázka: Co je to studená peněženka?
-odpověď: Fyzická peněženka, ve které jsou vaše klíče uloženy na zařízení, které není připojeno k internetu
-špatné_odpovědi:
+question: Co je to studená peněženka?
+answer: Fyzická peněženka, ve které jsou vaše klíče uloženy na zařízení, které není připojeno k internetu
+wrong_answers:
   - Peněženka, která je na dotek fyzicky studená
   - Peněženka, která není mezi uživateli Bitcoinu oblíbená
   - Peněženka, která je doporučena pro ukládání malých množství bitcoinů
-vysvětlení: |
+explanation: |
   Studená peněženka je termín používaný pro popis Bitcoinové peněženky, která je uložena
   na zařízení, které není připojeno k internetu. To ji činí méně zranitelnou
   vůči online hrozbám, ale zároveň to znamená, že peněženka je méně přístupná pro denní
   transakce.
-posouzeno: true
+reviewed: false

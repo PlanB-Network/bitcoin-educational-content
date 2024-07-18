@@ -1,10 +1,10 @@
-otázka: Jaká je výhoda použití HASH160 v protokolu Bitcoin?
-odpověď: Umožňuje zachovat bezpečnost SHA-256 při snížení velikosti otisku.
-špatné_odpovědi:
+question: Jaká je výhoda použití HASH160 v protokolu Bitcoin?
+answer: Umožňuje zachovat bezpečnost SHA-256 při snížení velikosti otisku.
+wrong_answers:
   - Zvyšuje velikost otisku pro zvýšenou bezpečnost.
   - Je odolnější vůči kolizím než SHA-256.
   - Je rychlejší k výpočtu než SHA-256.
-vysvětlení: |
+explanation: |
   HASH160 v protokolu Bitcoin je výhodný, protože udržuje
   bezpečnost SHA-256 při snížení velikosti otisku. To z něj činí
   efektivnější bez kompromisu v bezpečnosti.

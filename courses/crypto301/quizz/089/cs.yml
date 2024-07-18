@@ -1,10 +1,10 @@
-otázka: Co je seed v kontextu HD peněženky?
-odpověď: 512bitová alfanumerická sekvence, která slouží jako základ pro odvození klíčů peněženky.
-špatné_odpovědi:
+question: Co je seed v kontextu HD peněženky?
+answer: 512bitová alfanumerická sekvence, která slouží jako základ pro odvození klíčů peněženky.
+wrong_answers:
   - Heslo používané k zabezpečení peněženky.
   - Unikátní identifikátor peněženky.
   - Kód používaný k generování mnemonické fráze.
-vysvětlení: |
+explanation: |
   Seed je 512bitová alfanumerická sekvence, která slouží jako základ
   pro odvození klíčů peněženky. Získává se použitím funkce pbkdf2 s
   mnemonickou frází a heslem.

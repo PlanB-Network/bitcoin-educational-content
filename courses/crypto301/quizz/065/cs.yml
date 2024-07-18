@@ -1,10 +1,10 @@
-otázka: Jaká je hlavní výhoda používání nového páru klíčů pro každou Bitcoin transakci?
-odpověď: Zvyšuje bezpečnost.
+question: Jaká je hlavní výhoda používání nového páru klíčů pro každou Bitcoin transakci?
+answer: Zvyšuje bezpečnost.
 nesprávné_odpovědi:
   - Zvyšuje rychlost.
   - Zvyšuje anonymitu.
   - Zvyšuje legalitu.
-vysvětlení: |
+explanation: |
   Použití nového páru klíčů pro každou transakci zvyšuje bezpečnost Bitcoin
   transakcí. Avšak komplikuje jejich zálohování a pouze částečně zachovává
   důvěrnost.

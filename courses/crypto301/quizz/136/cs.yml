@@ -1,10 +1,10 @@
-otázka: Jaký je nejvyšší prvek v hierarchii HD peněženky?
-odpověď: Hlavní soukromý klíč a hlavní řetězový kód
-špatné_odpovědi:
+question: Jaký je nejvyšší prvek v hierarchii HD peněženky?
+answer: Hlavní soukromý klíč a hlavní řetězový kód
+wrong_answers:
   - Mnemonická fráze a heslo
   - Dědičné klíče
   - Semínko peněženky
-vysvětlení: |
+explanation: |
   Hlavní soukromý klíč a hlavní řetězový kód jsou odvozeny ze semínka peněženky
   a jsou nejvyššími prvky v hierarchii HD peněženky. Používají se k odvození
   dědičných klíčů.

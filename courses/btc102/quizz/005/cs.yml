@@ -1,9 +1,9 @@
-otázka: Na čem se tento univerzitní kurz zaměřuje?
-odpověď: Na vesmíru Bitcoinu.
-špatné_odpovědi:
+question: Na čem se tento univerzitní kurz zaměřuje?
+answer: Na vesmíru Bitcoinu.
+wrong_answers:
   - Na celosvětovém průmyslu kryptoměn.
   - Na průmyslu fintech.
   - Na průmyslu blockchainu.
-vysvětlení: |
+explanation: |
   Celé zaměření tohoto univerzitního kurzu je na vesmíru Bitcoinu, nikoli na krypto.
 posouzeno: false

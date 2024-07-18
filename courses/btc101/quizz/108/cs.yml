@@ -1,10 +1,10 @@
-otázka: Jaký je účel Bitcoinové peněženky?
-odpověď: Uložit soukromý klíč pro provedení transakcí s bitcoiny
-špatné_odpovědi:
+question: Jaký je účel Bitcoinové peněženky?
+answer: Uložit soukromý klíč pro provedení transakcí s bitcoiny
+wrong_answers:
   - Využít zdroje zařízení pro těžbu bitcoinů
   - Koupit bitcoiny s veřejným klíčem
   - Uložit bitcoiny na zařízení
-vysvětlení: |
+explanation: |
   Bitcoinové peněženky jsou software, který vám umožňuje ukládat soukromé klíče,
   jež vám umožňují provádět transakce s vašimi bitcoiny.
-posouzeno: true
+reviewed: false

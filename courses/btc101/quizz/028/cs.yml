@@ -1,10 +1,10 @@
-otázka: Jaký je vývoj měny?
-odpověď: Surový kámen -> Mince -> Bankovka -> Platební karta -> Blockchain -> Lightning Network
+question: Jaký je vývoj měny?
+answer: Surový kámen -> Mince -> Bankovka -> Platební karta -> Blockchain -> Lightning Network
 špatné odpovědi:
   - Surový kámen -> Mince -> Bankovka -> Blockchain -> Lightning Network
   - Surový kámen -> Mince -> Bankovka -> Platební karta -> Lightning Network
   - Surový kámen -> Mince -> Bankovka -> Platební karta -> Blockchain
-vysvětlení: |
+explanation: |
   Měna, jako každá technologie, se vyvíjela od surového kamene
   k kovové minci, poté k bankovce, platební kartě a nakonec k peer-to-peer sítím s Bitcoin blockchainem a Lightning Network.
 recenzováno: true

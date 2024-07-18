@@ -1,10 +1,10 @@
-otázka: Jaký je axiomatiko-deduktivní metod navržený Ludwigem von Misesem ve studiu společenských věd?
-odpověď: Tento přístup je založen na základních tvrzeních nazývaných axiomy, podobně jako ty, které se používají v matematice.
-špatné_odpovědi:
+question: Jaký je axiomatiko-deduktivní metod navržený Ludwigem von Misesem ve studiu společenských věd?
+answer: Tento přístup je založen na základních tvrzeních nazývaných axiomy, podobně jako ty, které se používají v matematice.
+wrong_answers:
   - Tento přístup je založen na empirických datech a pozorováních.
   - Tento přístup je založen na dočasných experimentech a hypotézách.
   - Tento přístup je založen na pozitivistickém přístupu často používaném ve společenských vědách.
-vysvětlení: |
+explanation: |
   Axiomatiko-deduktivní metoda navržená Ludwigem von Misesem je založena
   na základních tvrzeních nazývaných axiomy, podobně jako ty, které se používají v matematice.
   Tato metoda se používá ke studiu společenských věd, včetně ekonomie.

@@ -1,9 +1,9 @@
-otázka: Jaký je potenciální dopad zákazu těžby v regionu?
-odpověď: Může dojít k významnému poklesu hashrate a ceny Bitcoinu.
-špatné_odpovědi:
+question: Jaký je potenciální dopad zákazu těžby v regionu?
+answer: Může dojít k významnému poklesu hashrate a ceny Bitcoinu.
+wrong_answers:
   - Může dojít k nárůstu ceny Bitcoinu.
   - Může dojít k nárůstu hashrate sítě.
   - Může dojít k nárůstu počtu aktivních uzlů v síti.
-vysvětlení: |
+explanation: |
   Zákaz těžby v regionu, jako se to stalo v Číně, může vést k významnému poklesu hashrate a ceny Bitcoinu. Tyto hodnoty se ovšem mohou rychle zotavit.
 recenzováno: false

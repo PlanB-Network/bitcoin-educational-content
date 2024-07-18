@@ -1,9 +1,9 @@
-otázka: Jaký dopad má sekvenční povaha lidské činnosti na výrobní aktivity?
-odpověď: Jakákoli objížďka ve výrobě, tj. jakékoliv prodloužení výrobní struktury, vyžaduje předchozí úspory.
-špatné_odpovědi:
+question: Jaký dopad má sekvenční povaha lidské činnosti na výrobní aktivity?
+answer: Jakákoli objížďka ve výrobě, tj. jakékoliv prodloužení výrobní struktury, vyžaduje předchozí úspory.
+wrong_answers:
   - Sekvenční povaha lidské činnosti nemá žádný dopad na výrobní aktivity.
   - Sekvenční povaha lidské činnosti znamená, že výrobní aktivity musí být prováděny v určitém pořadí.
   - Sekvenční povaha lidské činnosti znamená, že výrobní aktivity musí být prováděny současně.
-vysvětlení: |
+explanation: |
   Kvůli sekvenční povaze lidské činnosti mají tyto mezidobové volby vždy důsledky pro sekvenci činností. Jinými slovy, krátkodobé akce, které člověk podniká, jsou podřízeny dlouhodobým cílům, které si stanoví, a jeho krátkodobé akce ovlivní, co bude moci dělat v budoucnu. Důsledek tohoto zřejmého bodu týkajícího se výrobních aktivit je, že jakákoli objížďka ve výrobě, tj. jakékoliv prodloužení výrobní struktury, vyžaduje předchozí úspory.
 reviewed: false

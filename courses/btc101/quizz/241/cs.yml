@@ -1,9 +1,9 @@
-otázka: Jaký je jeden z možných dopadů Lightning Network pro uživatele?
-odpověď: Budou platit pouze za obsah, který spotřebují
-špatné_odpovědi:
+question: Jaký je jeden z možných dopadů Lightning Network pro uživatele?
+answer: Budou platit pouze za obsah, který spotřebují
+wrong_answers:
   - Museli by platit více za obsah
   - Museli by platit měsíční poplatek za předplatné
   - Museli by platit za obsah předem
-vysvětlení: >-
+explanation: >-
   S Lightning Network by uživatelé platili pouze za obsah, který spotřebují, čímž by se eliminovaly poplatky za předplatné placené předem.
 recenzováno: false

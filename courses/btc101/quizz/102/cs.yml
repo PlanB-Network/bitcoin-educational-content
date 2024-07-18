@@ -1,10 +1,10 @@
-otázka: Jakým způsobem můžete dlouhodobě zabezpečit své bitcoiny?
-odpověď: Vyryjte svou mnemonickou frázi na odolný materiál, jako je ocel
-špatné_odpovědi:
+question: Jakým způsobem můžete dlouhodobě zabezpečit své bitcoiny?
+answer: Vyryjte svou mnemonickou frázi na odolný materiál, jako je ocel
+wrong_answers:
   - Uložte je do digitální peněženky
   - Nechte je na burzovní platformě
   - Sdílejte svou mnemonickou frázi s důvěryhodným přítelem
-vysvětlení: |
+explanation: |
   Vyrytím vaší mnemonické fráze na odolný materiál, jako je ocel, vytvoříte
   fyzickou zálohu vašich klíčů, která je odolná vůči poškození vodou i ohněm,
   čímž dlouhodobě zabezpečíte své bitcoiny.

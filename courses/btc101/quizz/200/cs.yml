@@ -1,9 +1,9 @@
-otázka: Co je impulzivní nákup?
-odpověď: Okamžitý nákup Bitcoinu pro získání expozice.
-špatné_odpovědi:
+question: Co je impulzivní nákup?
+answer: Okamžitý nákup Bitcoinu pro získání expozice.
+wrong_answers:
   - Nákup Bitcoinu v pravidelných intervalech.
   - Nákup Bitcoinu pouze tehdy, když cena klesá.
   - Nákup Bitcoinu pouze tehdy, když cena stoupá.
-vysvětlení: >-
+explanation: >-
   Text vysvětluje, že impulzivní nákup slouží k okamžitému získání expozice vůči Bitcoinu. To může zahrnovat nákup během propadu nebo využití bonusu.
 recenzováno: false

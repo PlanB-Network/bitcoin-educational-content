@@ -1,10 +1,10 @@
-otázka: Jaký je dopad tisku více peněz na kupní sílu měny?
-odpověď: Zhoršení kupní síly měny
-špatné_odpovědi:
+question: Jaký je dopad tisku více peněz na kupní sílu měny?
+answer: Zhoršení kupní síly měny
+wrong_answers:
   - Nárůst kupní síly měny
   - Žádný dopad
   - Více peněz = větší kupní síla
-vysvětlení: |
+explanation: |
   Když centrální banky rozhodnou tisknout peníze, nemohou jednoduše vytvořit více hodnoty.
   Aby tyto nově vytištěné peníze měly nějakou hodnotu, musí ji převzít od 
   předchozích držitelů měny.

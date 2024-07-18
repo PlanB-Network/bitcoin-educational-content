@@ -1,10 +1,10 @@
-otázka: Jaký je dopad rozvah bank a centrálních bank na inflaci?
-odpověď: Pokud nově vytvořené peníze zůstanou na rozvahách soukromých bank bez toho, aby byly půjčeny ekonomickým subjektům, nebudou mít přímý dopad na reálnou ekonomiku a tudíž to nezpůsobí inflaci.
-špatné_odpovědi:
+question: Jaký je dopad rozvah bank a centrálních bank na inflaci?
+answer: Pokud nově vytvořené peníze zůstanou na rozvahách soukromých bank bez toho, aby byly půjčeny ekonomickým subjektům, nebudou mít přímý dopad na reálnou ekonomiku a tudíž to nezpůsobí inflaci.
+wrong_answers:
   - Pokud nově vytvořené peníze zůstanou na rozvahách soukromých bank, vždy to povede k inflaci.
   - Rozvahy bank a centrálních bank nemají žádný vliv na inflaci.
   - Pokud jsou nově vytvořené peníze půjčeny ekonomickým subjektům, nezpůsobí to inflaci.
-vysvětlení: |
+explanation: |
   Kapitola vysvětluje, že vztah mezi tiskem peněz a inflací je modulován tím, jak jsou nově vytvořené peníze zaváděny do ekonomiky.
   Pokud tyto peníze zůstanou na rozvahách soukromých bank bez toho, aby byly půjčeny ekonomickým subjektům, nebudou mít přímý dopad na reálnou ekonomiku a tudíž to nezpůsobí inflaci.
 reviewed: false

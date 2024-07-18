@@ -1,10 +1,10 @@
-otázka: Jaká je hlavní kritika definice hyperinflace podle Cagana?
-odpověď: Práh 50 % je libovolný a vylučuje určité epizody vysoké inflace
-špatné_odpovědi:
+question: Jaká je hlavní kritika definice hyperinflace podle Cagana?
+answer: Práh 50 % je libovolný a vylučuje určité epizody vysoké inflace
+wrong_answers:
   - Definice je příliš široká a zahrnuje příliš mnoho epizod inflace
   - Definice je zastaralá a nepoužitelná pro moderní ekonomiky
   - Definice nebere v úvahu dopad inflace na ekonomiku
-vysvětlení: |
+explanation: |
   Kritici definice Cagana, jako například Bernholz, tvrdí, že práh 50 %
   je libovolný a vylučuje určité epizody vysoké inflace, které mají stejné
   kvalitativní charakteristiky jako epizody hyperinflace.

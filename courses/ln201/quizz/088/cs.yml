@@ -1,10 +1,10 @@
-otázka: Jaké jsou tři typy lidí v síti Lightning Network?
-odpověď: Kupující, obchodníci a směrovací uzly
-špatné_odpovědi:
+question: Jaké jsou tři typy lidí v síti Lightning Network?
+answer: Kupující, obchodníci a směrovací uzly
+wrong_answers:
   - Kupující, prodejci a zprostředkovatelé
   - Uživatelé, obchodníci a uzly
   - Kupující, obchodníci a těžaři
-vysvětlení: |
+explanation: |
   V síti Lightning Network existují tři typy lidí; kupující, kteří
   potřebují odchozí likviditu; obchodníci, kteří potřebují příchozí likviditu; a směrovací uzly,
   které si klade za cíl být vyvážené s likviditou na obou stranách.

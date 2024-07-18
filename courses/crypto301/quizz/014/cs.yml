@@ -1,10 +1,10 @@
-otázka: Kolik kol výpočtu se provádí ve kompresní funkci SHA256?
-odpověď: 64
-špatné_odpovědi:
+question: Kolik kol výpočtu se provádí ve kompresní funkci SHA256?
+answer: 64
+wrong_answers:
   - 32
   - 128
   - 256
-vysvětlení: |
+explanation: |
   Ve kompresní funkci SHA256 se provádí 64 kol výpočtu.
   Podobně jako v cyklistickém závodě, každé kolo zlepšuje pozici funkce.
 recenzováno: false

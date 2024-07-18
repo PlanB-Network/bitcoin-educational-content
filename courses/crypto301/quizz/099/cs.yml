@@ -1,10 +1,10 @@
-otázka: Jaké jsou nejčastěji používané prefixy pro rozšířené klíče?
-odpověď: xpub a zpub
-špatné_odpovědi:
+question: Jaké jsou nejčastěji používané prefixy pro rozšířené klíče?
+answer: xpub a zpub
+wrong_answers:
   - xprv a zprv
   - ypub a zpub
   - xpub a ypub
-vysvětlení: |
+explanation: |
   Nejčastěji používané prefixy jsou xpub a zpub, které odpovídají
 
   standardům legacy a segwit v1 a segwit v0, respektive.

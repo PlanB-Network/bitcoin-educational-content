@@ -1,10 +1,10 @@
-otázka: Jaký algoritmus používá Bitcoin pro propojení soukromých a veřejných klíčů?
-odpověď: Elliptic Curve Digital Signature Algorithm (ECDSA)
+question: Jaký algoritmus používá Bitcoin pro propojení soukromých a veřejných klíčů?
+answer: Elliptic Curve Digital Signature Algorithm (ECDSA)
 nesprávné_odpovědi:
   - Advanced Encryption Standard (AES)
   - Rivest-Shamir-Adleman (RSA)
   - Secure Hash Algorithm 2 (SHA-2)
-vysvětlení: |
+explanation: |
   Bitcoin využívá Elliptic Curve Digital Signature Algorithm (ECDSA)
   pro propojení soukromých a veřejných klíčů.
 recenzováno: false

@@ -1,10 +1,10 @@
-otázka: Jaká byla první zaznamenaná Bitcoin transakce?
-odpověď: Transakce 10 BTC mezi Satoshim a Hal Finneyem
-špatné_odpovědi:
+question: Jaká byla první zaznamenaná Bitcoin transakce?
+answer: Transakce 10 BTC mezi Satoshim a Hal Finneyem
+wrong_answers:
   - Transakce 10 000 BTC za 2 pizzy
   - Transakce 1 BTC mezi Satoshim a Hal Finneyem
   - Transakce 10 000 BTC mezi Laszlem Hanyeczem a Hal Finneyem
-vysvětlení: |
+explanation: |
   První zaznamenaná Bitcoin transakce byla transakce 10 BTC mezi
   Satoshi Nakamotem a Hal Finneym.
-posouzeno: true
+reviewed: false

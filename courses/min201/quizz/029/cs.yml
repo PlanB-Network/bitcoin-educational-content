@@ -1,10 +1,10 @@
-otázka: Jaká je role těžařů v síti Bitcoin?
-odpověď: Těžaři hrají zásadní roli při ověřování a vytváření bloků.
-špatné_odpovědi:
+question: Jaká je role těžařů v síti Bitcoin?
+answer: Těžaři hrají zásadní roli při ověřování a vytváření bloků.
+wrong_answers:
   - Těžaři pouze ověřují transakce.
   - Těžaři kontrolují cenu Bitcoinu.
   - Těžaři nemají v síti Bitcoin žádnou roli.
-vysvětlení: |
+explanation: |
   Těžaři hrají zásadní roli v síti Bitcoin tím, že ověřují a
 
   vytvářejí bloky. Posilují síť proti cenzuře použitím elektrické energie

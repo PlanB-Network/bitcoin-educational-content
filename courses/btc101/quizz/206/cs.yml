@@ -1,10 +1,10 @@
-otázka: Co jsou FOMO a FUD?
-odpověď: Emoce, které mohou vést k impulzivnímu a potenciálně škodlivému rozhodování.
-špatné_odpovědi:
+question: Co jsou FOMO a FUD?
+answer: Emoce, které mohou vést k impulzivnímu a potenciálně škodlivému rozhodování.
+wrong_answers:
   - Typy Bitcoin peněženek.
   - Strategie pro nákup Bitcoinu.
   - Regulace související s Bitcoinem.
-vysvětlení: >-
+explanation: >-
   Text vysvětluje, že FOMO (Strach z propásnutí příležitosti) a FUD (Strach, Nejistota,
   Pochybnosti) jsou emoce, které mohou vést k impulzivnímu a potenciálně škodlivému rozhodování
   při nákupu Bitcoinu.

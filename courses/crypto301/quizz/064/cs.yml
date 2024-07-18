@@ -1,10 +1,10 @@
-otázka: Jaký je hlavní účel Generátoru Náhodných Čísel (RNG) v Bitcoinových transakcích?
-odpověď: Zajistit integritu soukromých klíčů.
-špatné_odpovědi:
+question: Jaký je hlavní účel Generátoru Náhodných Čísel (RNG) v Bitcoinových transakcích?
+answer: Zajistit integritu soukromých klíčů.
+wrong_answers:
   - Zajistit rychlost transakcí.
   - Zajistit anonymitu transakcí.
   - Zajistit legalitu transakcí.
-vysvětlení: |
+explanation: |
   RNG se používá k generování náhodných čísel, která jsou klíčová pro integritu
   soukromých klíčů v Bitcoinových transakcích. To pomáhá předcházet jakékoliv zranitelnosti
   související s předvídatelností.

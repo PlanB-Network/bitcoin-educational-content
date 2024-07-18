@@ -1,9 +1,9 @@
-otázka: Jaký je jeden z potenciálních přínosů přijetí nových technologií jako je Bitcoin?
-odpověď: Mohlo by to generovat masivní ekonomiky rozsahu po celém světě.
-špatné_odpovědi:
+question: Jaký je jeden z potenciálních přínosů přijetí nových technologií jako je Bitcoin?
+answer: Mohlo by to generovat masivní ekonomiky rozsahu po celém světě.
+wrong_answers:
   - Mohlo by to vést k celosvětovému ekonomickému kolapsu.
   - Mohlo by to způsobit pokles lidské inteligence.
   - Mohlo by to vést k zániku všech pracovních míst.
-vysvětlení: >-
+explanation: >-
   Text naznačuje, že přijetí těchto nových technologií by mohlo generovat masivní ekonomiky rozsahu po celém světě.
 recenzováno: false

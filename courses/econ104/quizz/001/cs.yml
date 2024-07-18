@@ -1,10 +1,10 @@
-otázka: Který z následujících prvků je nezbytný pro úspěšnou transakci v systému směnného obchodu?
-odpověď: Dvojí shoda potřeb
-špatné_odpovědi:
+question: Který z následujících prvků je nezbytný pro úspěšnou transakci v systému směnného obchodu?
+answer: Dvojí shoda potřeb
+wrong_answers:
   - Společná jednotka účtu
   - Centrální bankovní autorita
   - Požadavek na minimální zůstatek
-vysvětlení: |
+explanation: |
   V systému směnného obchodu probíhají transakce přímo mezi dvěma stranami, které si vyměňují zboží nebo
   služby bez použití peněz. Úspěšná transakce vyžaduje dvojí shodu potřeb, což znamená, že obě strany musí mít něco, co si navzájem chtějí vyměnit.
-posouzeno: true
+reviewed: false

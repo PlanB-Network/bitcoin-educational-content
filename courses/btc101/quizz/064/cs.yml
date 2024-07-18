@@ -1,9 +1,9 @@
-otázka: Jaký příkaz ověří množství bitcoinů v oběhu na Bitcoinovém uzlu?
-odpověď: bitcoin-cli gettxoutsetinfo
-špatné_odpovědi:
+question: Jaký příkaz ověří množství bitcoinů v oběhu na Bitcoinovém uzlu?
+answer: bitcoin-cli gettxoutsetinfo
+wrong_answers:
   - bitcoin-cli getblockchaininfo
   - bitcoin-cli getwalletinfo
   - bitcoin-cli getnetworkinfo
-vysvětlení: |
+explanation: |
   Příkazem pro ověření množství bitcoinů v oběhu na Bitcoinovém uzlu je bitcoin-cli gettxoutsetinfo. Tento příkaz poskytuje transparentnost a ověřitelnost, čímž posiluje důvěru v systém Bitcoinu.
 recenzováno: true

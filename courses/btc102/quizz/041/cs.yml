@@ -1,10 +1,10 @@
-otázka: K čemu je Bitcoin původně určen?
-odpověď: Internet
-špatné_odpovědi:
+question: K čemu je Bitcoin původně určen?
+answer: Internet
+wrong_answers:
   - Blockchain
   - Bankovní systém
   - Akciový trh
-vysvětlení: |
+explanation: |
   Kapitola uvádí, že Bitcoin je původně určen pro internet, což jej činí
   dostupným pro každého, kdo má přístup k internetu.
 recenzováno: false

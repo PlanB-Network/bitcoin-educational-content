@@ -1,10 +1,10 @@
-otázka: Jaký je ekonomický podnět k použití Bitcoin těžaře místo jednoduchého elektrického ohřívače?
-odpověď: Těžař nejenže poskytuje teplo, ale také odměnu v podobě Bitcoinu.
-špatné_odpovědi:
+question: Jaký je ekonomický podnět k použití Bitcoin těžaře místo jednoduchého elektrického ohřívače?
+answer: Těžař nejenže poskytuje teplo, ale také odměnu v podobě Bitcoinu.
+wrong_answers:
   - Těžař spotřebuje méně elektřiny než jednoduchý elektrický ohřívač.
   - Těžař produkuje více tepla než jednoduchý elektrický ohřívač.
   - Těžař je levnější než jednoduchý elektrický ohřívač.
-vysvětlení: |
+explanation: |
   Rozdíl mezi použitím těžaře a jednoduchého elektrického ohřívače spočívá
   v tom, že těžař nejenže poskytuje teplo, ale také odměnu v podobě Bitcoinu. Tato
   dodatečná odměna by mohla pomoci zmírnit obavy z vysoké spotřeby energie

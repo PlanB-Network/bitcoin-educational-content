@@ -1,10 +1,10 @@
-otázka: Jaká byla měna Peru před 19. stoletím?
-odpověď: Španělské zlato.
-špatné_odpovědi:
+question: Jaká byla měna Peru před 19. stoletím?
+answer: Španělské zlato.
+wrong_answers:
   - Peruánský dolar.
   - Peruánský real.
   - Soldi oro.
-vysvětlení: |
+explanation: |
   Peru používalo španělské zlato až do 19. století. Peruánský dolar byl
 
   používán od roku 1822 do roku 1863.

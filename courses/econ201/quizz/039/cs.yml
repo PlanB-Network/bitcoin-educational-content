@@ -1,9 +1,9 @@
-otázka: Jaká je příčina deprese podle monetaristů a keynesiánů?
-odpověď: Nedostatečná agregátní poptávka
-špatné_odpovědi:
+question: Jaká je příčina deprese podle monetaristů a keynesiánů?
+answer: Nedostatečná agregátní poptávka
+wrong_answers:
   - Přeprodukce
   - Vysoké úrokové sazby
   - Vysoká inflace
-vysvětlení: |
+explanation: |
   Pro obě skupiny, monetaristy i keynesiány, je příčinou deprese nedostatečná agregátní poptávka. Věří, že poskytnutí podnětu pro expanzi úvěrů (snížení úrokových sazeb) a využití schopnosti státu generovat deficit k podpoře poptávky nastartuje oživení.
 recenzováno: false

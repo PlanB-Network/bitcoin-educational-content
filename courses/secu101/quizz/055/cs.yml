@@ -1,10 +1,10 @@
-otázka: Jaký je dobrý výchozí bod pro kariéru v kybernetické bezpečnosti?
-odpověď: Solidní vzdělání v oblasti informatiky, informačních systémů nebo v příbuzném oboru
-špatné_odpovědi:
+question: Jaký je dobrý výchozí bod pro kariéru v kybernetické bezpečnosti?
+answer: Solidní vzdělání v oblasti informatiky, informačních systémů nebo v příbuzném oboru
+wrong_answers:
   - Titul v oblasti umění a humanitních věd
   - Titul v oblasti podnikového managementu
   - Titul v oblasti tělesné výchovy
-vysvětlení: |
+explanation: |
   Kapitola uvádí, že solidní vzdělání v oblasti informatiky, informačních
 
 

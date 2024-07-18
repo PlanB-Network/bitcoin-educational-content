@@ -1,10 +1,10 @@
-otázka: Jaká je počáteční velikost informací veřejného klíče v Bitcoinu?
-odpověď: 512 bitů
+question: Jaká je počáteční velikost informací veřejného klíče v Bitcoinu?
+answer: 512 bitů
 nesprávné_odpovědi:
   - 256 bitů
   - 1024 bitů
   - 128 bitů
-vysvětlení: |
+explanation: |
   Počáteční velikost informací veřejného klíče v Bitcoinu je 512 bitů.
   Použití přijímací adresy pomáhá tuto velikost snížit.
 recenzováno: false

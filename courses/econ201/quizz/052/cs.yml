@@ -1,9 +1,9 @@
-otázka: Jaký je postoj zastánců Moderní monetární teorie (MMT) k tisku peněz?
-odpověď: Zastánci MMT podporují tisk peněz za účelem dosažení politických cílů.
-špatné_odpovědi:
+question: Jaký je postoj zastánců Moderní monetární teorie (MMT) k tisku peněz?
+answer: Zastánci MMT podporují tisk peněz za účelem dosažení politických cílů.
+wrong_answers:
   - Zastánci MMT jsou proti tisku peněz za jakýchkoli okolností.
   - Zastánci MMT věří, že tisk peněz by měl být kontrolován centrální bankou.
   - Zastánci MMT věří, že by se tisku peněz mělo vyhnout kvůli riziku inflace.
-vysvětlení: |
+explanation: |
   Zastánci Moderní monetární teorie (MMT) podporovali tisk peněz za účelem dosažení politických cílů, používajíce jako argument absenci inflace mezi lety 2008 a 2019.
 recenzováno: false

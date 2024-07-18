@@ -1,9 +1,9 @@
-otázka: Jaká je nejtěžší vlastnost k dosažení u digitální měny jako je bitcoin?
-odpověď: Absence dvojitého utrácení
-špatné_odpovědi:
+question: Jaká je nejtěžší vlastnost k dosažení u digitální měny jako je bitcoin?
+answer: Absence dvojitého utrácení
+wrong_answers:
   - Integrita
   - Autenticita
   - Pravdivost
-vysvětlení: |
+explanation: |
   U digitálních měn je zajištění absence dvojitého utrácení složitější, jelikož jakékoli digitální zboží je v podstatě informace. Na rozdíl od fyzických zboží se informace při výměnách nedělí, ale šíří jejich násobením.
 recenzováno: false

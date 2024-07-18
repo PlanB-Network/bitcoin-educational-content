@@ -1,10 +1,10 @@
-otázka: Jaký je vztah mezi úsporami a životní úrovní podle rakouských ekonomů?
-odpověď: Čím více šetříme, tím více kapitálu budeme schopni akumulovat, což se následně promítne do zisků z produktivity, které přinesou více zboží. Tímto způsobem je dosaženo vyšší životní úrovně.
-špatné_odpovědi:
+question: Jaký je vztah mezi úsporami a životní úrovní podle rakouských ekonomů?
+answer: Čím více šetříme, tím více kapitálu budeme schopni akumulovat, což se následně promítne do zisků z produktivity, které přinesou více zboží. Tímto způsobem je dosaženo vyšší životní úrovně.
+wrong_answers:
   - Čím více šetříme, tím nižší naše životní úroveň je.
   - Mezi úsporami a životní úrovní není žádný vztah.
   - Čím méně šetříme, tím vyšší naše životní úroveň je.
-vysvětlení: |
+explanation: |
   "Rakouští ekonomové považují snižování časových preferencí za\
   \ výchozí bod pro ctnostný cyklus úspor \u2013> více kapitálových statků\
   \ \uF0E0 více produktivity \uF0E0 více zboží = vyšší životní úroveň \u2013\

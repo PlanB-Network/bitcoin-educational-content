@@ -1,9 +1,9 @@
-otázka: Jaký je výchozí bod pro výpočet veřejných klíčů uživatelů v systému Bitcoin?
-odpověď: Bod G
-špatné_odpovědi:
+question: Jaký je výchozí bod pro výpočet veřejných klíčů uživatelů v systému Bitcoin?
+answer: Bod G
+wrong_answers:
   - Bod K
   - Bod U
   - Bod O
-vysvětlení: |
+explanation: |
   Bod G je výchozím bodem pro výpočet veškerých veřejných klíčů uživatelů v systému Bitcoin.
 recenzováno: false

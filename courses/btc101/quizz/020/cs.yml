@@ -1,10 +1,10 @@
-otázka: Jaká jsou kritéria pro efektivní měnu?
-odpověď: Směnitelná, Dělitelná, Likvidní
-špatné_odpovědi:
+question: Jaká jsou kritéria pro efektivní měnu?
+answer: Směnitelná, Dělitelná, Likvidní
+wrong_answers:
   - Směnitelná, Dělitelná, Kazivá
   - Směnitelná, Nedělitelná, Likvidní
   - Nesměnitelná, Dělitelná, Likvidní
-vysvětlení: |
+explanation: |
   Kritéria pro efektivní měnu jsou, že musí být směnitelná
   (vyměnitelná bez ztráty hodnoty), dělitelná (aby usnadnila transakce různých objemů),
   a likvidní (snadno přeměnitelná na zboží nebo služby).

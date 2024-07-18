@@ -1,10 +1,10 @@
-otázka: Jaká je role soukromých klíčů v Bitcoinových transakcích?
-odpověď: Používají se k podepisování a autorizaci transakcí.
-špatné_odpovědi:
+question: Jaká je role soukromých klíčů v Bitcoinových transakcích?
+answer: Používají se k podepisování a autorizaci transakcí.
+wrong_answers:
   - Používají se k ověření pravosti transakcí.
   - Používají se k šifrování dat transakce.
   - Jsou veřejně sdíleny pro transparentnost.
-vysvětlení: |
+explanation: |
   Soukromé klíče jsou zásadní součástí Bitcoinových transakcí.
   Používají se k podepisování a autorizaci transakcí, poskytují důkaz
   vlastnictví a zajišťují, že jejich bitcoin může utratit pouze vlastník.

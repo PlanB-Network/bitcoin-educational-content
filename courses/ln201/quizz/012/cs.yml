@@ -1,10 +1,10 @@
-otázka: Jaký je účel vícepodepisových adres v Lightning Network?
-odpověď: Vyžadují souhlas obou stran pro uvolnění prostředků.
-špatné_odpovědi:
+question: Jaký je účel vícepodepisových adres v Lightning Network?
+answer: Vyžadují souhlas obou stran pro uvolnění prostředků.
+wrong_answers:
   - Umožňují rychlejší časy transakcí.
   - Poskytují dodatečnou ochranu proti hackování.
   - Umožňují použití více kryptoměn.
-vysvětlení: |
+explanation: |
   Vícepodepisové adresy v Lightning Network vyžadují souhlas obou stran
   pro uvolnění prostředků. Jedná se o bezpečnostní opatření, které zajišťuje, že prostředky
   mohou být přesunuty pouze se souhlasem obou stran.

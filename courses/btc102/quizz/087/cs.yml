@@ -1,10 +1,10 @@
-otázka: Jaký typ uživatele nejpravděpodobněji potřebuje jak teplou, tak studenou Bitcoin peněženku?
-odpověď: Uživatel, který potřebuje Bitcoin pravidelně používat.
-špatné_odpovědi:
+question: Jaký typ uživatele nejpravděpodobněji potřebuje jak teplou, tak studenou Bitcoin peněženku?
+answer: Uživatel, který potřebuje Bitcoin pravidelně používat.
+wrong_answers:
   - Uživatel, který používá Bitcoin jen občas.
   - Uživatel, který těží Bitcoin.
   - Uživatel, který investuje do Bitcoinu pouze s dlouhodobým horizontem.
-vysvětlení: |
+explanation: |
   Pravidelní uživatelé Bitcoinu potřebují teplou peněženku pro denní transakce a
   studenou peněženku pro bezpečné dlouhodobé uchování.
 recenzováno: false

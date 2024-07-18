@@ -1,10 +1,10 @@
-otázka: Jaký je účel kontrolního součtu při generování mnemonické fráze pro Bitcoinovou peněženku?
-odpověď: Zajišťuje ověření přesnosti obnovovací fráze.
-špatné_odpovědi:
+question: Jaký je účel kontrolního součtu při generování mnemonické fráze pro Bitcoinovou peněženku?
+answer: Zajišťuje ověření přesnosti obnovovací fráze.
+wrong_answers:
   - Generuje entropii pro peněženku.
   - Určuje počet slov v obnovovací frázi.
   - Šifruje obnovovací frázi pro zvýšenou bezpečnost.
-vysvětlení: |
+explanation: |
   Kontrolní součet je získán předáním entropie funkcí SHA256
   a načtením prvních 8 bitů hash. Bez tohoto kontrolního součtu by chyba ve frázi mohla vést k vytvoření jiné peněženky a tím k ztrátě prostředků.
 recenzováno: false

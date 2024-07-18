@@ -1,9 +1,9 @@
-otázka: Co způsobuje ekonomické krize podle kurzu?
-odpověď: Ekonomické krize mohou být způsobeny lidskou neschopností, manipulací trhu nebo kolektivní euforií lidí.
-špatné_odpovědi:
+question: Co způsobuje ekonomické krize podle kurzu?
+answer: Ekonomické krize mohou být způsobeny lidskou neschopností, manipulací trhu nebo kolektivní euforií lidí.
+wrong_answers:
   - Ekonomické krize jsou výhradně způsobeny manipulací trhu.
   - Ekonomické krize jsou výhradně způsobeny lidskou neschopností.
   - Ekonomické krize jsou výhradně způsobeny kolektivní euforií lidí.
-vysvětlení: |
+explanation: |
   Kapitola uvádí, že kurz prozkoumá, jak mohou být ekonomické krize způsobeny lidskou neschopností, manipulací trhu nebo kolektivní euforií lidí.
 recenzováno: false

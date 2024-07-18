@@ -1,9 +1,9 @@
-otázka: Co se děje během transakce
-odpověď: Tajemství transakce
+question: Co se děje během transakce
+answer: Tajemství transakce
 nesprávné_odpovědi:
   - Tajemství transakce
   - Je rozhodnuto o novém tajemství a vytvořen nový klíč pro zrušení.
   - Předchozí závazná transakce je aktualizována novým tajemstvím a klíčem pro zrušení.
-vysvětlení: |
+explanation: |
   Během transakce
 recenzováno: false

@@ -1,10 +1,10 @@
-otázka: Jaké jsou náklady na provoz Bitcoin uzlu na Raspberry Pi 4 z hlediska spotřeby elektřiny za rok?
-odpověď: "Trochu méně než 10 € za rok"
-špatné_odpovědi:
+question: Jaké jsou náklady na provoz Bitcoin uzlu na Raspberry Pi 4 z hlediska spotřeby elektřiny za rok?
+answer: "Trochu méně než 10 € za rok"
+wrong_answers:
   - "Přibližně 50 € za rok"
   - "Přibližně 100 € za rok"
   - "Přibližně 200 € za rok"
-vysvětlení: >-
+explanation: >-
   "Provoz Bitcoin uzlu na Raspberry Pi 4 stojí trochu méně než\
   \ 10 € za rok z hlediska spotřeby elektřiny."
 recenzováno: false

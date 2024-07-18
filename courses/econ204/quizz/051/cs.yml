@@ -1,9 +1,9 @@
-otázka: Jaké řešení přijalo Německo k boji proti inflaci po první světové válce?
-odpověď: Vytvoření nové měny, Rentenmark
-špatné_odpovědi:
+question: Jaké řešení přijalo Německo k boji proti inflaci po první světové válce?
+answer: Vytvoření nové měny, Rentenmark
+wrong_answers:
   - Dolarizace
   - Tisk dalších peněz
   - Snížení peněžní zásoby
-vysvětlení: |
+explanation: |
   Německo vytvořilo novou měnu, Rentenmark, aby čelilo inflaci po první světové válce. Tato měna byla kryta teritoriálními aktivy Říše, a tato strategie se ukázala být účinná.
 recenzováno: false

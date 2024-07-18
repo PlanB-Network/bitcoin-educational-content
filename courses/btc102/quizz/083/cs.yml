@@ -1,9 +1,9 @@
-otázka: Jaký je hlavní důvod, proč by častý uživatel Bitcoinu zvolil peněženku založenou na Lightning Network pro každodenní transakce?
-odpověď: Zvyšuje efektivitu transakcí s Bitcoinem.
-špatné_odpovědi:
+question: Jaký je hlavní důvod, proč by častý uživatel Bitcoinu zvolil peněženku založenou na Lightning Network pro každodenní transakce?
+answer: Zvyšuje efektivitu transakcí s Bitcoinem.
+wrong_answers:
   - Zvyšuje hodnotu Bitcoinu.
   - Umožňuje anonymní transakce.
   - Poskytuje platformu pro obchodování s Bitcoinem.
-vysvětlení: |
+explanation: |
   Lightning Network je protokol pro "vrstvu 2" plateb, který funguje na vrcholu blockchainové kryptoměny, jako je Bitcoin. Je navržen tak, aby umožňoval rychlé transakce s nízkými náklady.
 recenzováno: false

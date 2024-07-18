@@ -1,10 +1,10 @@
-otázka: Co je hash v kontextu kryptografických hashovacích funkcí?
-odpověď: Unikátní a pevně velká digitální otisk vytvořený hashovací funkcí.
-špatné_odpovědi:
+question: Co je hash v kontextu kryptografických hashovacích funkcí?
+answer: Unikátní a pevně velká digitální otisk vytvořený hashovací funkcí.
+wrong_answers:
   - Typ šifrovacího algoritmu.
   - Klíč použitý k dešifrování dat.
   - Metoda komprese dat.
-vysvětlení: |
+explanation: |
   V kontextu kryptografických hashovacích funkcí je hash unikátní a
   pevně velký digitální otisk vytvořený hashovací funkcí. Reprezentuje
   vstupní data způsobem, který je unikátní a nevratný.

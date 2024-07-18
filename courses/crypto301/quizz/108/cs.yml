@@ -1,10 +1,10 @@
-otázka: Jaký je první klíč odvozený ze seedu v HD peněžence?
-odpověď: Hlavní klíč je první klíč odvozený ze seedu.
-špatné_odpovědi:
+question: Jaký je první klíč odvozený ze seedu v HD peněžence?
+answer: Hlavní klíč je první klíč odvozený ze seedu.
+wrong_answers:
   - Dětský klíč je první klíč odvozený ze seedu.
   - Rodičovský klíč je první klíč odvozený ze seedu.
   - Soukromý klíč je první klíč odvozený ze seedu.
-vysvětlení: |
+explanation: |
   Hlavní klíč je první klíč odvozený ze seedu v HD peněžence.
 
   Umožňuje odvození všech dalších dětských párů klíčů.

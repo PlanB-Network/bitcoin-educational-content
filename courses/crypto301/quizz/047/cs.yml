@@ -1,10 +1,10 @@
-otázka: Jaký je účel nonce v kontextu Bitcoinových transakcí?
-odpověď: Používá se při vytváření digitálního podpisu.
-špatné_odpovědi:
+question: Jaký je účel nonce v kontextu Bitcoinových transakcí?
+answer: Používá se při vytváření digitálního podpisu.
+wrong_answers:
   - Používá se k šifrování dat transakce.
   - Používá se k uložení dat transakce.
   - Používá se k přenosu dat transakce.
-vysvětlení: |
+explanation: |
   V kontextu Bitcoinových transakcí se nonce používá při vytváření
   digitálního podpisu. Konkrétně se používá při výpočtu specifického
   čísla V a digitálního podpisu složeného ze dvou částí, S1 a S2.

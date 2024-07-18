@@ -1,10 +1,10 @@
-otázka: Jaký je potenciální nevýhoda těžby za účelem zisku?
-odpověď: Může vést k centralizaci výpočetního výkonu a mít významný dopad na životní prostředí
-špatné_odpovědi:
+question: Jaký je potenciální nevýhoda těžby za účelem zisku?
+answer: Může vést k centralizaci výpočetního výkonu a mít významný dopad na životní prostředí
+wrong_answers:
   - Může vést ke snížení ceny Bitcoinu
   - Může vést ke snížení hashrate sítě
   - Může vést ke snížení počtu aktivních uzlů v síti
-vysvětlení: |
+explanation: |
   Těžba za účelem zisku může vést k centralizaci výpočetního výkonu, pokud si
   pouze několik velkých společností může dovolit investovat do špičkového těžebního zařízení. Kromě toho,
   spotřeba energie při těžbě za účelem zisku může mít významný dopad na životní

@@ -1,10 +1,10 @@
-otázka: Jaký je běžný důsledek hyperinflace, jak bylo vidět v případech Zimbabwe a Výmarské republiky?
-odpověď: Vnitřní hodnota bankovky se může stát nižší než hodnota papíru, na kterém je tištěna.
-špatné_odpovědi:
+question: Jaký je běžný důsledek hyperinflace, jak bylo vidět v případech Zimbabwe a Výmarské republiky?
+answer: Vnitřní hodnota bankovky se může stát nižší než hodnota papíru, na kterém je tištěna.
+wrong_answers:
   - Hodnota měny se zvyšuje.
   - Poptávka po bankovkách klesá.
   - Hodnota hmatatelných aktiv klesá.
-vysvětlení: |
+explanation: |
   V určitých ekonomických situacích, jako je hyperinflace, může vnitřní hodnota bankovky klesnout pod hodnotu papíru, na kterém je tištěna.
   Tato drastická devalvace proměňuje bankovky, které jsou obvykle symboly hodnoty a kupní síly, na pouhé kusy bezcenného papíru.
 recenzováno: false

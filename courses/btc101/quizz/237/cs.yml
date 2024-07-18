@@ -1,9 +1,9 @@
-otázka: Jak může Lightning Network potenciálně transformovat stávající obchodní modely v herním průmyslu?
-odpověď: Umožňuje hráčům vsázet velmi malé částky peněz při hraní her
-špatné_odpovědi:
+question: Jak může Lightning Network potenciálně transformovat stávající obchodní modely v herním průmyslu?
+answer: Umožňuje hráčům vsázet velmi malé částky peněz při hraní her
+wrong_answers:
   - Umožňuje hráčům těžit Bitcoin během hraní her
   - Umožňuje vývojářům her přijímat Bitcoin jako platbu za jejich hry
   - Umožňuje hráčům kupovat předměty ve hře za Bitcoin
-vysvětlení: >-
+explanation: >-
   Lightning Network umožňuje hráčům vsázet velmi malé částky peněz při hraní her, jako jsou například několik satoshi. To umožňuje zřízení sázky, která stimuluje soutěživost, zatímco výrazně zvyšuje náklady na nasazení botů.
 recenzováno: false

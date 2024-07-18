@@ -1,10 +1,10 @@
-otázka: Jaké peněženky by mohl používat paranoidní Bitcoiner?
-odpověď: Samourai peněženka pro hot wallet, Coldcard a/nebo Seed Signer pro cold wallet
-špatné_odpovědi:
+question: Jaké peněženky by mohl používat paranoidní Bitcoiner?
+answer: Samourai peněženka pro hot wallet, Coldcard a/nebo Seed Signer pro cold wallet
+wrong_answers:
   - Coinbase peněženka pro hot wallet, Ledger pro cold wallet
   - Binance peněženka pro hot wallet, Trezor pro cold wallet
   - PayPal pro hot wallet, Bankovní účet pro cold wallet
-vysvětlení: |
+explanation: |
   Kapitola zmiňuje Samourai peněženku pro hot wallet a Coldcard a/nebo
   Seed Signer pro cold wallet jako peněženky, které by mohl používat paranoidní Bitcoiner.
 recenzováno: false

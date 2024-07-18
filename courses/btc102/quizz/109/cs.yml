@@ -1,10 +1,10 @@
-otázka: Co je Lightning Network v kontextu Bitcoinu?
-odpověď: Technologie druhé vrstvy, která přináší zcela novou vizi toho, co Bitcoin je.
-špatné_odpovědi:
+question: Co je Lightning Network v kontextu Bitcoinu?
+answer: Technologie druhé vrstvy, která přináší zcela novou vizi toho, co Bitcoin je.
+wrong_answers:
   - Síť těžařů Bitcoinu.
   - Nový typ Bitcoinu.
   - Platforma pro obchodování s Bitcoinem.
-vysvětlení: |
+explanation: |
   Lightning Network je protokol pro platby "druhé vrstvy", který funguje
   na vrcholu blockchainové kryptoměny (jako je Bitcoin). Je navržen tak, aby umožňoval
   rychlé transakce mezi účastnickými uzly.

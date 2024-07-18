@@ -1,9 +1,9 @@
-otázka: Jaký význam má úprava obtížnosti v síti Bitcoin?
-odpověď: Zajišťuje, že blok je přidán přibližně každých deset minut.
-špatné_odpovědi:
+question: Jaký význam má úprava obtížnosti v síti Bitcoin?
+answer: Zajišťuje, že blok je přidán přibližně každých deset minut.
+wrong_answers:
   - Určuje cenu Bitcoinu.
   - Reguluje počet Bitcoinů, které mohou být těženy.
   - Určuje velikost bloku.
-vysvětlení: >-
+explanation: >-
   Úprava obtížnosti v síti Bitcoin zajišťuje, že blok je přidán přibližně každých deset minut. To je součást pravidel protokolu sítě Bitcoin.
 posouzeno: false

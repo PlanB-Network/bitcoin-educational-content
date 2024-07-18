@@ -1,8 +1,8 @@
-otázka: Jaká je role AMF ve Francii?
-odpověď: Reguluje finanční trhy.
-špatné_odpovědi:
+question: Jaká je role AMF ve Francii?
+answer: Reguluje finanční trhy.
+wrong_answers:
   - Reguluje vzdělávací systém.
   - Reguluje zdravotnický systém.
   - Reguluje dopravní systém.
-vysvětlení: |
+explanation: |
   "AMF (Autorité des marchés financiers) je francouzský regulační orgán pro trhy."

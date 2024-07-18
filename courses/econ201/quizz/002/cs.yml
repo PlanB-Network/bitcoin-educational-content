@@ -1,9 +1,9 @@
-otázka: Kdo je lektorem kurzu?
-odpověď: "Théo Mogenet"
-špatné_odpovědi:
+question: Kdo je lektorem kurzu?
+answer: "Théo Mogenet"
+wrong_answers:
   - "Théo Boloré"
   - Descoupes Bitcoin
   - Žádná z výše uvedených
-vysvětlení: |
+explanation: |
   "Kapitola uvádí, že lektorem kurzu je Théo Mogenet, vášnivý a kompetentní profesor rakouské ekonomie."
 recenzováno: false

@@ -1,9 +1,9 @@
-otázka: Co znamená heuristika společného vlastnictví vstupů (CIOH)?
-odpověď: Když transakce zahrnuje více vstupů, pravděpodobně všechny pocházejí od jediné entity.
-špatné_odpovědi:
+question: Co znamená heuristika společného vlastnictví vstupů (CIOH)?
+answer: Když transakce zahrnuje více vstupů, pravděpodobně všechny pocházejí od jediné entity.
+wrong_answers:
   - Když transakce zahrnuje více vstupů, pravděpodobně všechny pocházejí od různých entit.
   - Když transakce zahrnuje více výstupů, pravděpodobně všechny směřují k jediné entitě.
   - Když transakce zahrnuje více výstupů, pravděpodobně všechny směřují k různým entitám.
-vysvětlení: |
+explanation: |
   CIOH je heuristika naznačující, že když transakce zahrnuje více vstupů, tyto vstupy pravděpodobně všechny pocházejí od jediné entity. Následně je jejich vlastnictví společné.
 recenzováno: false

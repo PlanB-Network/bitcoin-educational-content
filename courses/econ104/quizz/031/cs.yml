@@ -1,9 +1,9 @@
-otázka: Jaký je hlavní důvod krátkodobé cenové volatility u stablecoinů?
-odpověď: Nízké úrovně likvidity na burzách
-špatné_odpovědi:
+question: Jaký je hlavní důvod krátkodobé cenové volatility u stablecoinů?
+answer: Nízké úrovně likvidity na burzách
+wrong_answers:
   - Nedostatek rezerv pro splnění požadavků na výběry
   - Hacky ohrožující stablecoin
   - Odpojení stablecoinů od základní hodnoty
-vysvětlení: |
+explanation: |
   Krátkodobá cenová volatilita u stablecoinů je často výsledkem problémů s likviditou, kdy menší burzy nemohou mít kapacitu splnit požadavky zákazníků, což způsobuje dočasné cenové fluktuace.
-posouzeno: true
+reviewed: false

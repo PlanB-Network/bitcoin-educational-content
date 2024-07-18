@@ -1,10 +1,10 @@
-otázka: Jaká je konečná vize pro Bitcoin podle metafory "Bitcoinové dálnice"?
-odpověď: Stane se dálnicí pro internetový provoz a pro 90% světové populace.
-špatné_odpovědi:
+question: Jaká je konečná vize pro Bitcoin podle metafory "Bitcoinové dálnice"?
+answer: Stane se dálnicí pro internetový provoz a pro 90% světové populace.
+wrong_answers:
   - Stane se luxusním zbožím dostupným pouze bohatým.
   - Stane se nástrojem pro ilegální aktivity.
   - Stane se zastaralým a bude nahrazen jinými kryptoměnami.
-vysvětlení: |
+explanation: |
   Metafora "Bitcoinové dálnice" představuje Bitcoin jako dálnici pro
   internetový provoz a pro 90% světové populace, s tím, že zboží a služby
   budou přímo dostupné na této dálnici.

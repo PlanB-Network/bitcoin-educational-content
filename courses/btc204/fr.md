@@ -2074,8 +2074,128 @@ Comme nous avons vu dans ce chapitre, les anonset ne peuvent être calculés que
 ## L'entropie
 <chapterId>e4fe289d-618b-49a2-84c9-68c562e708b4</chapterId>
 
+Comme nous l'avons vu dans cette partie sur les coinjoins, l'homogénéité des UTXOs en inputs et en outputs joue un rôle important dans l'amélioration de la confidentialité d'une transaction Bitcoin. Ce paramètre permet de créer un déni plausible face aux analyses de chaîne. Plusieurs méthodes permettent de mesurer cette homogénéité, mais l'une des plus efficaces est, à mon avis, l'utilisation des indicateurs fournis par l'outil *Boltzmann*, développé par les équipes d'OXT et de Samourai Wallet, et notamment l'entropie de la transaction. C'est ce que nous allons étudier en détail dans ce chapitre.
 
-Ce chapitre est en cours de rédaction, et sera publié très prochainement !
+Contrairement aux anonsets qui se calculent sur un ensemble de transactions, les indicateurs que nous allons présenter ici se concentrent uniquement sur une seule transaction, qu'il s'agisse d'un coinjoin ou d'une transaction plus classique.
+
+### Le nombre d'interprétations
+
+Le premier indicateur que l'on peut observer sur une transaction Bitcoin est le nombre total d'interprétations possibles face à une analyse d'un observateur extérieur. En prenant en compte les valeurs des UTXOs impliqués dans la transaction, cet indicateur indique le nombre de manières dont les inputs peuvent être associées aux outputs. Autrement dit, il détermine le nombre d'interprétations possibles qu'une transaction peut susciter dans les flux de bitcoins du point de vue d'un observateur extérieur qui l'analyse.
+
+À titre d'exemple, une transaction de paiement simple avec 1 input et 2 outputs présentera seulement une seule interprétation, à savoir que l'input #0 a permis de financer l'output #0 et l'output #1. Il n'y a aucune autre interprétation possible :
+
+01
+
+En revanche, un coinjoin structuré selon le modèle Whirlpool 5x5 présente $1\,496$ combinaisons possibles :
+
+02
+
+Un coinjoin Whirlpool Surge Cycle 8x8 présente lui $9\,934\,563$ interprétations possibles :
+
+03
+
+### L'entropie
+
+À partir du nombre d'interprétations d'une transaction Bitcoin, on va pouvoir calculer son entropie.
+
+Dans le contexte général de la cryptographie et de l'information, l'entropie est une mesure quantitative de l'incertitude ou de l'imprévisibilité associée à une source de données ou à un processus aléatoire. Autrement dit, l'entropie est une façon de mesurer à quel point une information est difficile à prévoir ou à deviner.
+
+Dans le contexte spécifique de l'analyse de chaîne, l'entropie est également le nom d'un indicateur, dérivé de l'entropie de Shannon et [inventé par LaurentMT](https://gist.github.com/LaurentMT/e758767ca4038ac40aaf), qui peut être calculé sur une transaction Bitcoin.
+
+Lorsqu'une transaction présente un nombre élevé d'interprétations possibles, il est souvent plus pertinent de se référer à son entropie. Cet indicateur permet de mesurer le manque de connaissance des analystes sur la configuration exacte de la transaction. Autrement dit, plus l'entropie est élevée, plus la tâche d'identification des flux de bitcoins entre les inputs et outputs devient difficile pour les analystes.
+
+En pratique, l'entropie révèle si, du regard d'un observateur externe, une transaction présente de multiples interprétations possibles, basées uniquement sur les montants des inputs et des outputs, sans prendre en compte d'autres paternes et heuristiques externes ou internes. Une grande entropie est alors synonyme d'une meilleure confidentialité pour la transaction.
+
+L'entropie est définie comme le logarithme binaire du nombre de combinaisons possibles. Voici la formule utilisée avec $E$ l'entropie de la transaction et $C$ le nombre d'interprétations possibles :
+
+$$
+E = \log_2(C)
+$$
+
+En mathématiques, le logarithme binaire (logarithme de base 2) correspond à l'opération inverse de l'exponentiation de 2. Autrement dit, le logarithme binaire de $x$ est l'exposant auquel $2$ doit être élevé pour obtenir $x$. Cet indicateur s'exprime donc en bits. 
+
+Prenons l'exemple du calcul de l'entropie pour une transaction coinjoin structurée selon le modèle Whirlpool 5x5, qui, comme mentionné dans la section précédente, présente un nombre d'interprétations possibles de $1\,496$ :
+
+$$
+\begin{align*}
+C &= 1\,496 \\
+E &= \log_2(1\,496) \\
+E &= 10.5469 \text{ bits}
+\end{align*}
+$$
+
+Ainsi, cette transaction coinjoin affiche une entropie de $10.5469$ bits, ce qui est considéré comme très satisfaisant. Plus cette valeur est élevée, plus la transaction admet d'interprétations différentes, renforçant par conséquent son niveau de confidentialité.
+
+Pour une transaction coinjoin 8x8 présentant $9\,934\,563$ interprétations, l'entropie serait :
+
+$$
+\begin{align*}
+C &= 9\,934\,563 \\
+E &= \log_2(9\,934\,563) \\
+E &= 23.244 \text{ bits}
+\end{align*}
+$$
+
+Prenons un exemple supplémentaire avec une transaction de paiement classique, comportant 1 input et 2 outputs : [1b1b0c3f0883a99f1161c64da19471841ed12a1f78e77fab128c69a5f578ccce](https://mempool.space/tx/1b1b0c3f0883a99f1161c64da19471841ed12a1f78e77fab128c69a5f578ccce) 
+
+04
+
+Dans le cas de cette transaction, l'unique interprétation possible est : `(In.0) > (Out.0 ; Out.1)`. Par conséquent, son entropie s'établit à $0$ :
+
+$$
+\begin{align*}
+C &= 1 \\
+E &= \log_2(1) \\
+E &= 0 \text{ bits}
+\end{align*}
+$$
+
+### L'efficacité
+
+À partir de l'entropie de la transaction, on va également pouvoir calculer son efficacité en terme de confidentialité. Cet indicateur évalue l'efficacité de la transaction en la comparant à la transaction optimale envisageable dans une configuration identique. 
+
+Cela nous amène à aborder le concept d'entropie maximale, qui correspond à l'entropie la plus élevée qu'une structure de transaction spécifique puisse théoriquement atteindre. L'efficacité de la transaction est alors calculée en confrontant cette entropie maximale à l'entropie réelle de la transaction analysée. 
+
+La formule utilisée est la suivante avec :
+- $E_R$ : l'entropie réelle de la transaction exprimée en bits ;
+- $E_M$ : l'entropie maximale possible pour une structure de transaction exprimée en bits également ;
+- $Ef$ : l'efficacité de la transaction en bits :
+
+$$
+Ef = E_R - E_M
+$$
+
+Par exemple, pour une structure de coinjoin de type Whirlpool 5x5, l'entropie maximale est de $10.5469$ :
+
+$$
+\begin{align*}
+E_R &= 10.5469 \\
+E_M &= 10.5469 \\
+Ef &= E_R - E_M \\
+Ef &= 10.5469 - 10.5469 \\
+Ef &= 0 \text{ bits}
+\end{align*}
+$$
+
+Cet indicateur est également exprimé en pourcentage. La formule utilisée est la suivante avec :
+- $C_R$ : le nombre d'interprétations possibles réelles ;
+- $C_M$ : le nombre d'interprétations possibles au maximum avec la même structure ;
+- $Ef$ : l'efficacité exprimée en pourcentage :
+
+$$
+\begin{align*}
+E_f &= \frac{C_R}{C_M} \\
+E_f &= \frac{1\,496}{1\,496} \\
+E_f &= 100 \%
+\end{align*}
+$$
+
+Une efficacité de $100 \%$ indique donc que la transaction exploite au maximum son potentiel de confidentialité en fonction de sa structure.
+
+
+
+
+
 
 
 

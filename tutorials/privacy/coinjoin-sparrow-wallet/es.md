@@ -15,7 +15,7 @@ _Este tutorial se proporciona únicamente con fines educativos e informativos. N
 En este tutorial, aprenderás qué es un coinjoin y cómo realizar uno usando el software Sparrow Wallet y la implementación Whirlpool.
 
 ## ¿Qué es un coinjoin en Bitcoin?
-**Un coinjoin es una técnica que rompe la trazabilidad de los bitcoins en la blockchain**. Se basa en una transacción colaborativa con una estructura específica del mismo nombre: la transacción coinjoin.
+**Un coinjoin es una técnica que rompe la trazabilidad de los bitcoins en la blockchain**. Se basa en una transacción colaborativa con una estructura específica del mismo name: la transacción coinjoin.
 
 Los coinjoins mejoran la privacidad de los usuarios de Bitcoin complicando el análisis de la cadena para observadores externos. Su estructura permite fusionar múltiples monedas de diferentes usuarios en una única transacción, difuminando así los rastros y dificultando determinar los vínculos entre direcciones de entrada y salida.
 

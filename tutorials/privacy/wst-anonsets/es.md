@@ -17,7 +17,7 @@ _Este tutorial se proporciona únicamente con fines educativos e informativos. N
 En este tutorial, estudiaremos el concepto de anonsets, indicadores que nos permiten estimar la calidad de un proceso de coinjoin en Whirlpool. Cubriremos el método de cálculo e interpretación de estos indicadores. Después de la parte teórica, pasaremos a la práctica aprendiendo a calcular los anonsets de una transacción específica usando la herramienta Python *Whirlpool Stats Tools* (WST).
 
 ## ¿Qué es un coinjoin en Bitcoin?
-**Coinjoin es una técnica que rompe la trazabilidad de los bitcoins en la blockchain**. Se basa en una transacción colaborativa con una estructura específica del mismo nombre: la transacción coinjoin.
+**Coinjoin es una técnica que rompe la trazabilidad de los bitcoins en la blockchain**. Se basa en una transacción colaborativa con una estructura específica del mismo name: la transacción coinjoin.
 
 Las transacciones coinjoin mejoran la privacidad de los usuarios de Bitcoin complicando el análisis de cadena para observadores externos. Su estructura permite fusionar múltiples monedas de diferentes usuarios en una sola transacción, oscureciendo así los rastros y dificultando determinar los enlaces entre direcciones de entrada y salida.
 

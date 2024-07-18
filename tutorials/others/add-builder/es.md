@@ -98,7 +98,7 @@ category: educación
 ![constructor](assets/09.webp)
 - Una vez que hayas terminado de hacer cambios en este archivo, guárdalos haciendo clic en el botón `Commit changes...`:
 ![constructor](assets/10.webp)
-- Agrega un título para tus cambios, junto con una breve descripción:
+- Agrega un título para tus cambios, junto con una breve description:
 ![constructor](assets/11.webp)
 - Haz clic en el botón verde `Propose changes`:
 ![constructor](assets/12.webp)

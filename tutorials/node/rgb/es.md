@@ -343,8 +343,8 @@ $ rgb1-cli fungible list -l
 - genesis: genesis1qyfe883hey6jrgj2xvk5g3dfmfqfzm7a4wez4pd2krf7ltsxffd6u6nrvjvvnc8vt9llmp7663pgututl9heuwaudet72ay9j6thc6cetuvhxvsqqya5xjt2w9y4u6sfkuszwwctnrpug5yjxnthmr3mydg05rdrpspcxysnqvvqpfvag2w8jxzzsz9pf8pjfwf0xvln5z7w93yjln3gcnyxsa04jsf2p8vu4sxgppfv0j9qerppqxhvztpqscnjsxvq5gdfy5v6j3wvpjxxqzcerxuglngnfvpxjkgqusct7cyx8zzezcfpqv3nxjxm2kjj4d0zu0ta6fjmpr8a0calk6h88h4ap5e4nucj0ch07aa73qsh3lj5sd89a32kwy0eq7tsa5zqqjpdqvqq5s46r0
   id: rgb1tadqzve7vwfh39sl6gvqenp8wegsrzreekhhu0dhthx08ppzj9wq8p0je6
   ticker: USDT'
-nombre: USD Tether
-descripción: ~
+name: USD Tether
+description: ~
 circulación conocida: 1000
 se emitió conocido: ~
 límite de emisión: 0
@@ -378,7 +378,7 @@ $ rgb0-cli fungible list -l
 
 - genesis: genesis1qyfe883hey6jrgj2xvk5g3dfmfqfzm7a4wez4pd2krf7ltsxffd6u6nrvjvvnc8vt9llmp7663pgututl9heuwaudet72ay9j6thc6cetuvhxvsqqya5xjt2w9y4u6sfkuszwwctnrpug5yjxnthmr3mydg05rdrpspcxysnqvvqpfvag2w8jxzzsz9pf8pjfwf0xvln5z7w93yjln3gcnyxsa04jsf2p8vu4sxgppfv0j9qerppqxhvztpqscnjsxvq5gdfy5v6j3wvpjxxqzcerxuglngnfvpxjkgqusct7cyx8zzezcfpqv3nxjxm2kjj4d0zu0ta6fjmpr8a0calk6h88h4ap5e4nucj0ch07aa73qsh3lj5sd89a32kwy0eq7tsa5zqqjpdqvqq5s46r0
 'id: rgb1tadqzve7vwfh39sl6gvqenp8wegsrzreekhhu0dhthx08ppzj9wq8p0je6  ticker: USDT\n  name: USD Tether\n  description: ~\n  knownCirculating: 1000\n  isIssuedKnown: ~\n  issueLimit: 0\n  chain: testnet\n  decimalPrecision: 0\n  date: "2022-02-23T20:53:26"\n  knownIssues:\n    - id: 5c912284f3cc5db73d7eafcd798801517627cc0c18d21f967893633e33015a5f\n      amount: 1000\n      origin: ~\n  knownInflation: {}\n  knownAllocations:\n    - nodeId: 5c912284f3cc5db73d7eafcd798801517627cc0c18d21f967893633e33015a5f\n      index: 0\n      outpoint: "4c1785210d8930959f530072cffea7f9606e0599b0de9e89aed60f2e9f133893:1"\n      revealedAmount:\n        value: 1000\n        blinding: "0000000000000000000000000000000000000000000000000000000000000001"\n\nPero como puedes ver, rgb-node-0 no puede ver el cambio de 900 activos que proporcionamos al comando de transferencia con el argumento -a. Para registrar el cambio, rgb-node-0 necesita aceptar la divulgación.\n\n```\n$ rgb0-cli fungible enclose disclosure.rgb\n\nDatos de divulgación cerrados con éxito.\n```\n\nSi rgb-node-0 tuvo éxito, puedes ver el cambio al listar el activo.\n\n```\n$ rgb0-cli fungible list -l\n\n- genesis: genesis1qyfe883hey6jrgj2xvk5g3dfmfqfzm7a4wez4pd2krf7ltsxffd6u6nrvjvvnc8vt9llmp7663pgututl9heuwaudet72ay9j6thc6cetuvhxvsqqya5xjt2w9y4u6sfkuszwwctnrpug5yjxnthmr3mydg05rdrpspcxysnqvvqpfvag2w8jxzzsz9pf8pjfwf0xvln5z7w93yjln3gcnyxsa04jsf2p8vu4sxgppfv0j9qerppqxhvztpqscnjsxvq5gdfy5v6j3wvpjxxqzcerxuglngnfvpxjkgqusct7cyx8zzezcfpqv3nxjxm2kjj4d0zu0ta6fjmpr8a0calk6h88h4ap5e4nucj0ch07aa73qsh3lj5sd89a32kwy0eq7tsa5zqqjpdqvqq5s46r0\n  id: rgb1tadqzve7vwfh39sl6gvqenp8wegsrzreekhhu0dhthx08ppzj9wq8p0je6\n  ticker: USDT\n  name: USD Tether'
-'descripción: ~  knownCirculating: 1000
+'description: ~  knownCirculating: 1000
   isIssuedKnown: ~
   issueLimit: 0
   chain: testnet

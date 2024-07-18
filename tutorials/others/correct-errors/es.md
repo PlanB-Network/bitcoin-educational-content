@@ -28,7 +28,7 @@ Ten en cuenta que si planeas realizar una revisión completa y revisión de un d
 - Si nunca has contribuido al contenido de la Red PlanB antes, necesitarás crear tu fork del repositorio original. Hacer un fork de un repositorio significa crear una copia de ese repositorio en tu propia cuenta de GitHub, lo que te permite trabajar en el proyecto sin afectar el repositorio original. Haz clic en el botón `Fork this repository`: ![typos](assets/08.webp)
 - Llegarás entonces a la página de edición de GitHub: ![typos](assets/09.webp)- Realiza las modificaciones de texto para corregir los errores que hayas detectado. No temas, actualmente estás en tu propio fork, así que esto no cambiará nada en el sitio de PlanB Network por el momento. Por ejemplo, aquí, imaginemos que modifiqué la palabra "entrées" porque tenía un error ortográfico: ![typos](assets/10.webp)
 - Una vez que hayas completado tus correcciones en este documento, puedes hacer clic en el botón verde `Commit Changes...`. Un commit es como una instantánea instantánea de tu trabajo en un momento dado, lo que permite mantener un historial de los cambios: ![typos](assets/11.webp)
-- Agrega un título para tus modificaciones, así como una breve descripción: ![typos](assets/12.webp)
+- Agrega un título para tus modificaciones, así como una breve description: ![typos](assets/12.webp)
 - Haz clic en el botón verde `Propose changes`: ![typos](assets/13.webp)
 - Llegarás entonces a una página que resume todos tus cambios: ![typos](assets/14.webp)
 - Desplazándote hacia abajo, puedes ver las modificaciones específicas que has realizado: ![typos](assets/15.webp)

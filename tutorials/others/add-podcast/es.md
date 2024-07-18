@@ -85,7 +85,7 @@ contributors:
 
 - Una vez que hayas terminado de hacer cambios en este archivo, guárdalos haciendo clic en el botón `Commit changes...`:
 ![podcast](assets/10.webp)
-- Añade un título para tus cambios, así como una breve descripción:
+- Añade un título para tus cambios, así como una breve description:
 ![podcast](assets/11.webp)
 - Haz clic en el botón verde `Propose changes`:
 ![podcast](assets/12.webp)

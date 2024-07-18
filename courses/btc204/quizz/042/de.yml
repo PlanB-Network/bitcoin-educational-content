@@ -1,0 +1,9 @@
+question: Welches dieser Risiken ist nicht mit Bargeld-P2P-Transaktionen verbunden?
+answer: Risiko des Datenlecks.
+wrong_answers:
+  - Risiko für die persönliche Sicherheit.
+  - Risiko des Diebstahls.
+  - Rechtliches Risiko.
+explanation: |
+  Bargeld-P2P-Transaktionen bergen viele Risiken, aber sie erfordern keine Durchführung einer KYC-Überprüfung. Daher besteht kein Risiko eines Datenlecks.
+reviewed: false

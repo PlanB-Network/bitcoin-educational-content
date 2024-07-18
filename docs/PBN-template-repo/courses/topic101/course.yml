@@ -1,0 +1,35 @@
+## Characteristics of the course
+
+# topic
+# Choose between Bitcoin, Business, Mining, Protocol, Security, Sociology, Sovereignty
+topic: bitcoin
+
+# subtopic
+# Depends on the chosen topic. Subtopics for 'Bitcoin' are limited to just 'Bitcoin'
+# For other topics, refer to https://github.com/orgs/DecouvreBitcoin/projects/3/views/7
+subtopic: bitcoin
+
+# level
+# Define the difficulty of the course
+# Choose between beginner, intermediate, expert, wizard
+level: beginner
+
+# hours
+# Evaluate the number of hours that it would take to
+# complete the whole course
+hours: 2
+
+# professors
+# List who is/are the professor(s)
+# They are identified by their UUID
+# See /professors folder for examples
+professors:
+  - another-satoshi
+
+# contributors
+# List who is/are the contributors who help format, review,
+# translate the course.
+# They are identified by their UUID
+# Currently, there are no shared record of these UUIDs
+contributors:
+  - another-satoshi

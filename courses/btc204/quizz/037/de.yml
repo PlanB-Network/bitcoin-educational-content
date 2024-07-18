@@ -1,0 +1,9 @@
+question: Was beinhaltet die Common Input Ownership Heuristic (CIOH)?
+answer: Wenn eine Transaktion mehrere Eingaben umfasst, stammen diese wahrscheinlich alle von einer einzigen Entität.
+wrong_answers:
+  - Wenn eine Transaktion mehrere Eingaben umfasst, stammen diese wahrscheinlich alle von verschiedenen Entitäten.
+  - Wenn eine Transaktion mehrere Ausgaben umfasst, gehen diese wahrscheinlich alle an eine einzige Entität.
+  - Wenn eine Transaktion mehrere Ausgaben umfasst, gehen diese wahrscheinlich alle an verschiedene Entitäten.
+explanation: |
+  Die CIOH ist eine Heuristik, die vorschlägt, dass, wenn eine Transaktion mehrere Eingaben umfasst, diese Eingaben wahrscheinlich alle von einer einzigen Entität stammen. Folglich ist ihr Besitz gemeinsam.
+reviewed: false

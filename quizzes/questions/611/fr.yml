@@ -1,9 +1,0 @@
-question: Quelle était la monnaie du Pérou avant le 19e siècle?
-answer: L'or espagnol.
-wrong_answers:
-  - Le dollar péruvien.
-  - Le réal péruvien.
-  - Le soldi oro.
-explanation: |
-  Le Pérou utilisait l'or espagnol jusqu'au 19e siècle. Le dollar péruvien était en circulation de 1822 à 1863.
-reviewed: false

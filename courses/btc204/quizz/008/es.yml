@@ -1,0 +1,9 @@
+question: Si una transacción tiene 2 UTXOs de 5,000 sats como entradas y 3 UTXOs de 3,000 sats como salidas, ¿cuáles son las comisiones de la transacción?
+answer: 1,000 sats
+wrong_answers:
+  - 1,500 sats
+  - 2,500 sats
+  - 3,000 sats
+explanation: |
+  Las comisiones de una transacción representan la diferencia entre el total de entradas y el total de salidas. Es lo que queda después de consumir todas las entradas y crear todas las salidas. Por lo tanto, el cálculo es; comisiones = (5000x2) - (3000x3) = 10000 - 9000 = 1000.
+reviewed: false

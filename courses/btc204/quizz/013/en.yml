@@ -1,0 +1,9 @@
+question: What is the privacy model of the banking system?
+answer: Only the bank has access to the transaction details.
+wrong_answers:
+  - The transactions are public, but the identity of the users is not known.
+  - The transactions are anonymous and hidden from everyone, including the bank.
+  - Only governments have access to the transaction details.
+explanation: |
+  In the traditional system, each bank account is linked to an identity. However, the flow of information is cut off between the bank and the public domain.
+reviewed: false

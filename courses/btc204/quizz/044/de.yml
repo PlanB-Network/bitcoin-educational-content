@@ -1,0 +1,9 @@
+question: Welcher Mechanismus wird von Online Peer-to-Peer (P2P) Matchmaking-Plattformen verwendet, um das Diebstahlrisiko zu verringern?
+answer: Ein Treuhandmechanismus.
+wrong_answers:
+  - Ein sicherer Matching-Algorithmus.
+  - Ein E-Mail-Verifizierungsmechanismus.
+  - Ein Identitätsverifizierungsmechanismus.
+explanation: |
+  Diese Plattformen verwenden typischerweise einen Schutzmechanismus, bei dem Bitcoins so lange gehalten werden, bis der Verkäufer die Zahlung in Fiat-Währung bestätigt. Dieser Mechanismus des Haltens durch eine dritte Partei repräsentiert das, was als Treuhand (Escrow) bekannt ist.
+reviewed: false

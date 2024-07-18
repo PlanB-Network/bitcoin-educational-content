@@ -1,0 +1,9 @@
+question: ¿Qué es un UTXO en Bitcoin?
+answer: Un fragmento de bitcoin que aún no ha sido gastado.
+wrong_answers:
+  - Una dirección de Bitcoin para recibir fondos.
+  - Un tipo especial de monedero de Bitcoin.
+  - Un algoritmo de cifrado para Bitcoin.
+explanation: |
+  Un UTXO es una salida de transacción no gastada, por lo tanto, es esencialmente un “fragmento de bitcoin”.
+reviewed: false

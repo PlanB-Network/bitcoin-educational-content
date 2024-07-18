@@ -1,0 +1,9 @@
+question: Bei einer einfachen Zahlungstransaktion, bei der eine Eingabe von 500.000 Sats in einen Ausgang von 47.500 Sats und einen weiteren von 451.000 Sats aufgeteilt wird, welches UTXO ist wahrscheinlich das Wechselgeld?
+answer: Das von 451.000 Sats.
+wrong_answers:
+  - Das von 500.000 Sats.
+  - Das von 47.500 Sats.
+  - Keines von beiden.
+explanation: |
+  Wenn bei einer Transaktion in einem einfachen Zahlungsmodell ein ausreichend großer Unterschied zwischen zwei Ausgängen besteht, kann geschätzt werden, dass der größere Ausgang wahrscheinlich das Wechselgeld ist.
+reviewed: false

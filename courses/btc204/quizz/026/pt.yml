@@ -1,0 +1,9 @@
+question: Entre estas respostas, qual delas não é um dos 3 principais riscos para o usuário ao passar pelo KYC?
+answer: A não-fungibilidade dos bitcoins comprados
+wrong_answers:
+  - Exposição à vigilância do estado
+  - Facilitação do rastreamento onchain
+  - O risco de vazamento de dados
+explanation: |
+  O KYC envolve um risco de vazamento de dados, uma vez que suas informações são armazenadas, um risco de exposição à vigilância do estado, uma vez que suas informações podem ser transmitidas ou apreendidas, e um risco de rastreamento, já que o KYC pode servir como um ponto de entrada. No entanto, o KYC não reduz a fungibilidade dos bitcoins comprados.
+reviewed: false

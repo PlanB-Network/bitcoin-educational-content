@@ -1,0 +1,9 @@
+question: How is double spending prevented on Bitcoin?
+answer: Through the public broadcasting of all system transactions.
+wrong_answers:
+  - By verifying the identity of users before each transaction.
+  - By periodically reviewing transactions by auditors.
+  - By limiting the number of transactions per user.
+explanation: |
+  To confirm the absence of a transaction, and thus avoid double spending, it is necessary for every user to be aware of all past transactions.
+reviewed: false

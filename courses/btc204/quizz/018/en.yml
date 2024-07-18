@@ -1,0 +1,9 @@
+question: Among the following answers, which one is not part of the 3 main categories of heuristics and characteristics used in chain analysis?
+answer: Cryptography models.
+wrong_answers:
+  - Transaction models.
+  - Internal transaction heuristics.
+  - External transaction heuristics.
+explanation: |
+  The heuristics used in chain analysis can be grouped into three categories; transaction patterns (or transaction models), internal transaction heuristics, and external transaction heuristics.
+reviewed: false

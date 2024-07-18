@@ -1,0 +1,9 @@
+question: What are the chain analysis heuristics mentioned by Satoshi Nakamoto in the Bitcoin White Paper? (only one answer possible)
+answer: The CIOH and address reuse.
+wrong_answers:
+  - Clustering by signature and time correlation.
+  - Round number payments and the large output.
+  - Volume analysis and script similarities.
+explanation: |
+  In part 10 of the Bitcoin White Paper, Satoshi Nakamoto warns users about the CIOH (Common Input Ownership Heuristic) and the reuse of the same pair of keys.
+reviewed: false

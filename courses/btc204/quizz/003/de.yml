@@ -1,0 +1,9 @@
+question: Welche Auswirkung hat eine Bitcoin-Transaktion auf die UTXOs in den Outputs?
+answer: Sie erzeugt sie, indem die UTXOs in den Inputs verbraucht werden.
+wrong_answers:
+  - Sie verbraucht sie, um die Inputs zu befriedigen.
+  - Sie verschlüsselt sie, um den Empfänger zu anonymisieren.
+  - Sie teilt sie vorübergehend für die Verifizierung.
+explanation: |
+  Die UTXOs in den Outputs der Transaktion werden durch das Verbrauchen der UTXOs in den Inputs erzeugt. Es ist gewissermaßen das Ziel des Geldes.
+reviewed: false

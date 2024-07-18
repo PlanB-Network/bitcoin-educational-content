@@ -1,0 +1,9 @@
+question: Si l'on observe une transaction avec 1 UTXO en input et 43 UTXOs en outputs, quel pattern peut-on reconnaitre ?
+answer: Une dépense groupée
+wrong_answers:
+  - Une consolidation
+  - Un paiement simplifié
+  - Une transaction collaborative
+explanation: |
+  L'interprétation de ce modèle est que nous sommes en présence d'une dépense groupée. Cette structure permet à des entités comme des plateformes d'échange d'économiser des frais en réunissant leurs dépenses dans une seule transaction.
+reviewed: false

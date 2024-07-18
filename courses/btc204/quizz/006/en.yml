@@ -1,0 +1,9 @@
+question: What does change represent in a transaction?
+answer: An output that returns to the original sender of the transaction.
+wrong_answers:
+  - A fee taken by the Bitcoin network.
+  - An output transferred to the recipient of the transaction.
+  - A bonus awarded to the sender for fast transactions.
+explanation: |
+  Change is an output that represents the portion of the inputs not used to fulfill the payment, and thus returns to the original sender of the transaction.
+reviewed: false

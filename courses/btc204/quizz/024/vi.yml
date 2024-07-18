@@ -1,0 +1,9 @@
+question: Nếu chúng ta quan sát một giao dịch với 1 UTXO ở đầu vào và 43 UTXO ở đầu ra, chúng ta có thể nhận ra mẫu nào?
+answer: Một lần chi tiêu theo lô
+wrong_answers:
+  - Một sự kết hợp
+  - Một thanh toán đơn giản
+  - Một giao dịch hợp tác
+explanation: |
+  Sự diễn giải của mẫu này là chúng ta đang xử lý một lần chi tiêu theo lô. Cấu trúc này cho phép các thực thể như các nền tảng giao dịch tiết kiệm phí bằng cách nhóm các khoản chi của họ vào một giao dịch duy nhất.
+reviewed: false

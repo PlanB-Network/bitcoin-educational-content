@@ -1,0 +1,9 @@
+question: Parmi ces réponses, laquelle ne fait partie des 3 principaux risques pour l'utilisateur qui réalise un KYC ?
+answer: La non-fongibilité des bitcoins achetés
+wrong_answers:
+  - L'exposition à la surveillance étatique
+  - La facilitation du traçage onchain
+  - Le risque de fuite de données
+explanation: |
+  Le KYC implique un risque de fuite de données puisque vos informations sont stockées, un risque d'exposition à la surveillance étatique puisque vos informations peuvent être transmises ou saisies et un risque de traçage, car le KYC peut constituer un point d'entrée. En revanche, le KYC ne réduit pas la fongibilité des bitcoins achetés.
+reviewed: false

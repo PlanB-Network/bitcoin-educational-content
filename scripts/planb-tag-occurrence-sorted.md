@@ -1,0 +1,852 @@
+- Bitcoin: 576
+- Lightning Network: 110
+- bitcoin: 99
+- technology: 69
+- economy: 54
+- bitcoin-only: 53
+- Mining: 53
+- privacy: 51
+- finance: 46
+- open-source: 42
+- Cryptography: 42
+- Cryptocurrency: 39
+- education: 38
+- Economics: 38
+- Hyperinflation: 36
+- HD Wallet: 35
+- Bitcoin Wallet: 33
+- Inflation: 29
+- history: 28
+- Security: 26
+- Bitcoin Protocol: 26
+- Bitcoin Basis: 25
+- self-custodial: 25
+- wallet: 24
+- Money History: 24
+- infrastructure: 23
+- Austrian Economics: 21
+- Cybersecurity: 21
+- Privacy: 16
+- exchange: 15
+- Wallet: 15
+- development: 14
+- lightning-network: 13
+- philosophy: 13
+- Wallets: 13
+- lightning: 12
+- Nodes: 12
+- Currency Basis: 12
+- Wallet security: 12
+- Money: 12
+- Passphrase: 12
+- politics: 11
+- Open-source: 11
+- Transactions: 11
+- ECDSA: 11
+- Transaction: 10
+- Investment: 10
+- Blockchain: 10
+- economics: 9
+- Education: 9
+- node: 9
+- HTLC: 9
+- 2FA: 9
+- Online browsing: 9
+- Hash Functions: 9
+- Private Key: 9
+- SHA256: 9
+- Hodler: 9
+- Online Security: 9
+- Estate planning: 9
+- Cryptoasset inheritance: 9
+- Bitcoin mining: 9
+- Commitment Transaction: 9
+- P2P solutions: 9
+- Monetary Policy: 9
+- Bitcoin Origins: 9
+- Austrian School: 9
+- Business Cycle: 9
+- lightning network: 8
+- security: 8
+- fiction: 8
+- multi-coin: 8
+- KYC: 8
+- lightning-infrastructure: 8
+- Payment Channels: 8
+- Monetary History: 8
+- Channel Opening: 8
+- Backup Procedure: 8
+- Computer security: 8
+- Online security: 8
+- mining: 7
+- trading: 7
+- Miners: 7
+- Mnemonic phrase: 7
+- Fiat Currencies: 7
+- Monetary Dynamics: 7
+- online security: 7
+- cryptography: 6
+- psychology: 6
+- business: 6
+- peer-to-peer: 6
+- bitcoi only: 6
+- DCA: 6
+- Decentralization: 6
+- Stacker: 6
+- Liquidity Management: 6
+- Proof of Work: 6
+- Public keys: 6
+- Halving: 6
+- Receiving addresses: 6
+- Austrian economics: 6
+- VPN: 6
+- Private key: 6
+- science: 5
+- science fiction: 5
+- self-help: 5
+- custodial: 5
+- Depth: 5
+- Public Key: 5
+- Invoice: 5
+- Self Custody: 5
+- Revocation Key: 5
+- Elliptic Curve: 5
+- Digital Signature: 5
+- Stablecoin: 5
+- rust: 4
+- investing: 4
+- Technology: 4
+- investment: 4
+- peer to peer: 4
+- privact: 4
+- Scams: 4
+- Government response: 4
+- Stablecoins: 4
+- Fiat Currency: 4
+- Currency devaluation: 4
+- Email Attacks: 4
+- Purchasing Power: 4
+- Regulation: 4
+- Seed: 4
+- Monetary history: 4
+- Difficulty Adjustment: 4
+- Network: 4
+- Exchange: 4
+- Subjective Value: 4
+- Currency: 4
+- Public key: 4
+- Centralization: 4
+- password manager: 4
+- Investing: 4
+- coinjoin: 4
+- Samourai: 4
+- cypherpunk: 3
+- RGB: 3
+- hacker: 3
+- entrepreneurship: 3
+- personal finance: 3
+- social issues: 3
+- environment: 3
+- management: 3
+- education;: 3
+- security-solution: 3
+- marchand: 3
+- Lightning: 3
+- OS: 3
+- Node: 3
+- Scalability: 3
+- Fiat currencies: 3
+- Monetary reform: 3
+- Bitcoin Culture: 3
+- Cypherpunks: 3
+- Economy: 3
+- Adoption: 3
+- Virgin Bitcoins: 3
+- Division of Labor: 3
+- Ransomware: 3
+- HMAC SHA-512 algorithm: 3
+- Cold Wallet: 3
+- UTXO: 3
+- Phishing: 3
+- Transaction fees: 3
+- Cheating: 3
+- Cooperative Closure: 3
+- Investment strategy: 3
+- Financial system: 3
+- Bank of England: 3
+- Mnemonic Phrase: 3
+- Protocol: 3
+- Risk: 3
+- Open source: 3
+- Censorship: 3
+- Banking: 3
+- RoboSat: 3
+- Characteristics: 3
+- Scarcity: 3
+- Network security: 3
+- Reward: 3
+- Blocks: 3
+- Forced Closure: 3
+- password: 3
+- Satoshi: 3
+- Antivirus: 3
+- Zimbabwe: 3
+- ASIC: 3
+- Redenomination: 3
+- Savings: 3
+- Gold: 3
+- Extended Keys: 3
+- Environment: 3
+- Division of labor: 3
+- point of sales: 3
+- DIY: 3
+- light-KYC: 3
+- mix: 3
+- payjoin: 3
+- P2EP: 3
+- Breeze: 2
+- cryptocurrency: 2
+- ethics: 2
+- banking: 2
+- biography: 2
+- art: 2
+- energy: 2
+- software development: 2
+- programming: 2
+- mathematics: 2
+- technology;: 2
+- internet: 2
+- evolution: 2
+- personal development: 2
+- law: 2
+- cyberpunk: 2
+- finance;: 2
+- anthropology: 2
+- Infrastructure: 2
+- layer-2: 2
+- Data: 2
+- nodes: 2
+- VC: 2
+- Cookies: 2
+- Bitcoin Adoption: 2
+- Misconception: 2
+- Email security: 2
+- Online safety: 2
+- Zombie Companies: 2
+- Blockchain Trilemma: 2
+- Attakai: 2
+- HTTPS: 2
+- Energy management: 2
+- Data Backup: 2
+- Banking system: 2
+- Switzerland: 2
+- Master Private Key: 2
+- Hot Wallet: 2
+- Block war: 2
+- Timelock: 2
+- Volatility: 2
+- BIP32: 2
+- Video games: 2
+- Central Planning: 2
+- Bitcoin Storage: 2
+- Self-Custody: 2
+- Bitcoin History: 2
+- Passwords: 2
+- PBKDF2: 2
+- Deflation: 2
+- FOMO: 2
+- Data encryption: 2
+- Operating systems: 2
+- Barter: 2
+- Multi-signature: 2
+- Human Rights: 2
+- Exchange platform: 2
+- Traditional Finance: 2
+- Germany: 2
+- HodlHodl: 2
+- Segwit Standard: 2
+- Axioms: 2
+- self-hosted password manager: 2
+- LNP2PBot: 2
+- Channel Closure: 2
+- Hashrate: 2
+- Consensus Rules: 2
+- Verification: 2
+- password strength: 2
+- Two-Factor Authentication: 2
+- Economic Calculation: 2
+- BTCMap: 2
+- Checksum: 2
+- Windows: 2
+- HRP: 2
+- Satoshi Nakamoto: 2
+- Password Management: 2
+- Carl Menger: 2
+- Liquidity: 2
+- Multidisciplinary: 2
+- Public trust: 2
+- AMF: 2
+- Hash: 2
+- Time Preference: 2
+- Interest Rates: 2
+- Transaction Routing: 2
+- Cyber Attacks: 2
+- Dollarization: 2
+- Asymetric Cryptography: 2
+- Block size: 2
+- Bitcoin Node: 2
+- Trading: 2
+- Online privacy: 2
+- password management: 2
+- Communication: 2
+- Central Banks: 2
+- Transaction Fees: 2
+- Wallet types: 2
+- Exchange Platform: 2
+- Business: 2
+- Merchant: 2
+- Software: 2
+- HMAC: 2
+- Consensus Algorithm: 2
+- Benefits: 2
+- Mining centralization: 2
+- France: 2
+- Child Keys: 2
+- ATMs: 2
+- Notgeld: 2
+- Weimar Republic: 2
+- Non-KYC: 2
+- Private keys: 2
+- Password manager: 2
+- Regulations: 2
+- merchant: 2
+- Full KYC: 2
+- whirlpool: 2
+- Coinjoin: 2
+- LND: 2
+- cahoots: 2
+- Hacker: 1
+- el salvador: 1
+- Rust: 1
+- educator: 1
+- activist: 1
+- youtuber: 1
+- merchants: 1
+- use cases: 1
+- macroeconomic: 1
+- developer: 1
+- accountability: 1
+- nostr: 1
+- crime: 1
+- religion: 1
+- sience fiction: 1
+- jason fried: 1
+- physics: 1
+- startups: 1
+- quantum computing: 1
+- dystopia: 1
+- marketing: 1
+- growth hacking: 1
+- wealth building: 1
+- psycology: 1
+- interviews: 1
+- poetry;: 1
+- anarchisme: 1
+- mathematique: 1
+- policy: 1
+- motivation: 1
+- creativity: 1
+- probability: 1
+- leadership: 1
+- programming;: 1
+- computer science: 1
+- deflation: 1
+- journalism: 1
+- social issues;: 1
+- strategy: 1
+- commodity: 1
+- social issue: 1
+- graphic novel: 1
+- principles: 1
+- autobiography: 1
+- economic: 1
+- inflation: 1
+- cyberculture: 1
+- biology: 1
+- genetics: 1
+- psychology;: 1
+- opensource: 1
+- open source: 1
+- programmation: 1
+- artificial intelligence: 1
+- sustainability: 1
+- ecology: 1
+- productivity: 1
+- hacking: 1
+- international relations: 1
+- geopolitics: 1
+- novel: 1
+- information theory: 1
+- money: 1
+- econimic: 1
+- hedge funds: 1
+- philosophy;: 1
+- paiement-solution: 1
+- centralize: 1
+- vpn: 1
+- lightning-market: 1
+- educatition: 1
+- books: 1
+- paiement solution: 1
+- conference: 1
+- tools: 1
+- developers: 1
+- podcast-solution: 1
+- Point of sale: 1
+- blog: 1
+- donateur: 1
+- Coach: 1
+- bitcoin-investment: 1
+- sociale media: 1
+- communication: 1
+- news: 1
+- lightning-managment: 1
+- exchanges: 1
+- non-kyc: 1
+- game: 1
+- lightning-wallet: 1
+- Bitcoin-investment: 1
+- research: 1
+- vc: 1
+- 3D printed: 1
+- Art: 1
+- LN wallet: 1
+- sociale: 1
+- life-style: 1
+- afrique: 1
+- Financial System: 1
+- Incentives: 1
+- Raspberry Pi 4: 1
+- Lightning Authentication: 1
+- Decentralized Identities: 1
+- Protection: 1
+- Private browsing: 1
+- Government restrictions: 1
+- Influencers: 1
+- Data breach: 1
+- HMAC-SHA512: 1
+- Course-related: 1
+- Nicaragua: 1
+- Cordoba: 1
+- Bitcoin Blockchain: 1
+- Monetary Decisions: 1
+- Central Bankers: 1
+- Bitcoin Security: 1
+- Address Derivation: 1
+- Compression: 1
+- Spontaneous purchase: 1
+- Password Manager: 1
+- Cyberpunk movement: 1
+- Digital world: 1
+- Browsing: 1
+- Absolute Advantage: 1
+- Revolution: 1
+- pbkdf2 function: 1
+- Seed Generation: 1
+- Concerns: 1
+- Economic Crises: 1
+- Network Knowledge: 1
+- Bank Balance Sheets: 1
+- Debate: 1
+- RNG: 1
+- Cap: 1
+- Course Instructor: 1
+- Trend: 1
+- Purchase Plan: 1
+- Economic Incentive: 1
+- SegWit: 1
+- Peach: 1
+- Dutch East India Company: 1
+- Child Key Pairs: 1
+- Milton Friedman: 1
+- Order books: 1
+- Makers: 1
+- Takers: 1
+- Legal tender: 1
+- Pay2PublicKey: 1
+- Confirmations: 1
+- Bubble: 1
+- Discretion: 1
+- Price Increase: 1
+- Onion routing: 1
+- Ideologies: 1
+- Investment planning: 1
+- Time Value of Money: 1
+- Mainstream Economics: 1
+- Generator Point: 1
+- Ponzi schemes: 1
+- Browser extensions: 1
+- BIP43: 1
+- BIP44: 1
+- Hierarchy: 1
+- Dice: 1
+- Money supply: 1
+- Programming Languages: 1
+- Comparative Advantage: 1
+- Bubbles: 1
+- FUD: 1
+- Master Chain Code: 1
+- Monetary expansion: 1
+- Keynesian Economics: 1
+- Elliptic curves: 1
+- Double coincidence of wants: 1
+- Mining pool: 1
+- Applications: 1
+- Transparency: 1
+- Content creators: 1
+- MMT: 1
+- Peer-to-peer: 1
+- Market Dynamics: 1
+- Sound Money: 1
+- LNURL: 1
+- Bisq: 1
+- Bitcoin Benefit: 1
+- Bolivia: 1
+- Freedom: 1
+- Users: 1
+- KYC light: 1
+- Community: 1
+- Network management: 1
+- Asymetric Cryptoraphy: 1
+- Fiat Bank: 1
+- Kagan's criterion: 1
+- Bankruptcy: 1
+- Rentenmark: 1
+- BCH Checksum: 1
+- Error Detection: 1
+- Energy Cost: 1
+- Fountain: 1
+- Time preferences: 1
+- Money Supply: 1
+- Metal Coin: 1
+- Commodity money: 1
+- Bitwarden: 1
+- KeePass: 1
+- Fractional Reserve System: 1
+- Financial Stability: 1
+- Bitcoin protocol: 1
+- Peer-to-Peer: 1
+- Dictatorial regimes: 1
+- Antwerp Stock Exchange: 1
+- Profit: 1
+- Equation: 1
+- Value: 1
+- Inheritance Plan: 1
+- Mindset: 1
+- HOTP: 1
+- TOTP: 1
+- Technological revolution: 1
+- Florin: 1
+- Price: 1
+- Internet: 1
+- Pragmatism: 1
+- Commitment: 1
+- ASICS: 1
+- Austrian Business Cycle Theory: 1
+- Economic Cycle: 1
+- Dark Web: 1
+- Tools: 1
+- 51% Attack: 1
+- Networking: 1
+- Marginal Utility: 1
+- Human Action: 1
+- Production Activities: 1
+- XPUB: 1
+- Peru: 1
+- Development: 1
+- Electricity: 1
+- Equipment: 1
+- Software update: 1
+- Enterprise VPN: 1
+- Consumer VPN: 1
+- Genesis Block: 1
+- Intertemporal coordination: 1
+- Blockchain Technology: 1
+- Bank accounts: 1
+- CPI: 1
+- Future of finance: 1
+- Browser Extensions: 1
+- Software efficiency: 1
+- ASICs: 1
+- Obtaining Bitcoins: 1
+- Compensation: 1
+- Money laundering: 1
+- Traceability: 1
+- Cloud Storage: 1
+- Base Layer: 1
+- Settlement Layer: 1
+- OpenNode: 1
+- Sats: 1
+- TOR network: 1
+- Interest rates: 1
+- Economic crises: 1
+- Receiving Address: 1
+- secp256k1: 1
+- The Reich's Banker: 1
+- Adoption curve: 1
+- Mining Pools: 1
+- Password Alternatives: 1
+- Passkeys: 1
+- Biometrics: 1
+- Entropy: 1
+- Incentive: 1
+- Creation: 1
+- Payment: 1
+- password replacement: 1
+- Hot wallet: 1
+- Bernholz: 1
+- Certificate System: 1
+- Public Keys: 1
+- Payment models: 1
+- Consumption: 1
+- Open-Source Wallet: 1
+- Monetary policy: 1
+- Economic challenges: 1
+- Economy Basis: 1
+- Keynesian economics: 1
+- Monetarist economics: 1
+- Immutability: 1
+- Methodology: 1
+- Social sciences: 1
+- Layer-2 Solution: 1
+- Public Debt: 1
+- Golden Rule: 1
+- Investment Strategy: 1
+- Practical Experience: 1
+- Capital Misallocation: 1
+- Wealth Inequality: 1
+- Voluntary Exchange: 1
+- Subjective Utility: 1
+- Learning resources: 1
+- Uncertainty: 1
+- Single Sign-On: 1
+- Internet Giants: 1
+- Bernold: 1
+- Keynesian Doctrine: 1
+- Money streaming: 1
+- Key Pair: 1
+- Master Password: 1
+- Physical Security: 1
+- Individual responsibility: 1
+- Regulation and electricity tariffs: 1
+- Modern Monetary Theory: 1
+- Money printing: 1
+- Political goals: 1
+- Goldsmiths: 1
+- Route Searching: 1
+- Legal Tender: 1
+- Course Production: 1
+- Swiss Bitcoin Pay: 1
+- Master Key: 1
+- Learning pace: 1
+- Wi-Fi: 1
+- GDPR: 1
+- Cost: 1
+- Green energy: 1
+- Standard of Living: 1
+- Fractional Reserve Banking: 1
+- Proof of Stake: 1
+- Business opportunities: 1
+- Software updates: 1
+- Economic Cycles: 1
+- CBDCs: 1
+- Financial Freedom: 1
+- Biometric data: 1
+- Receiving Capacity: 1
+- Linux: 1
+- Mac: 1
+- Economic impact: 1
+- Venezuela: 1
+- Digital bolivar: 1
+- BCH Program: 1
+- BIPs: 1
+- Issues: 1
+- Flexibility: 1
+- Adaptability: 1
+- Hardened Derivations: 1
+- Capitalism: 1
+- Entrepreneurs: 1
+- BCH32: 1
+- Base 32: 1
+- Bandwidth: 1
+- Distrust: 1
+- Random Number Generation: 1
+- Threat Monitoring: 1
+- Good Pratice: 1
+- Total supply: 1
+- Mission: 1
+- Censorship resistance: 1
+- Open-source software: 1
+- Traditional Market: 1
+- Bitcoin Incentives: 1
+- LastPass: 1
+- Dashlane: 1
+- Malware: 1
+- Virus: 1
+- USB keys: 1
+- Learning: 1
+- Adaptation: 1
+- Prices: 1
+- Market: 1
+- Route Estimation: 1
+- Brazil: 1
+- Consensus rules: 1
+- Purchase methods: 1
+- Economic Agents: 1
+- Marginal Theory of Value: 1
+- Pruned node: 1
+- BIP38: 1
+- Platforms: 1
+- Strategy: 1
+- One-Time Passwords: 1
+- Mobile Security: 1
+- Cherry-picking: 1
+- AI: 1
+- Future implications: 1
+- Price Drop: 1
+- Best practices: 1
+- User Types: 1
+- Zimbabwean dollar: 1
+- Exchange rate: 1
+- Index: 1
+- BIP39: 1
+- Andreas Antonopoulos: 1
+- Barack Obama: 1
+- Financial Crises: 1
+- Data backup: 1
+- Keysend: 1
+- Extended Private Key: 1
+- Economic reasoning: 1
+- Security Vulnerabilities: 1
+- Human Negligence: 1
+- Task: 1
+- Web browsers: 1
+- Nonce: 1
+- Inflation rate: 1
+- Future vision: 1
+- Exposure: 1
+- BTCpay Server: 1
+- Payment network: 1
+- Legal status: 1
+- Holding: 1
+- Bitcoin wallet: 1
+- Bitcoin Transaction: 1
+- Block Space: 1
+- TOR: 1
+- HashRate: 1
+- Uncensorability: 1
+- Dollar Cost Average: 1
+- DigiCash: 1
+- Skills: 1
+- Argentina: 1
+- Home Browsing: 1
+- Social Cooperation: 1
+- Micro-transactions: 1
+- Government: 1
+- Segwit: 1
+- Addresses: 1
+- Lottery principle: 1
+- Chain Code: 1
+- Mistakes: 1
+- SHA-256: 1
+- Hash Function: 1
+- DNS over HTTPS: 1
+- DNS over TLS: 1
+- Internet Security: 1
+- Preimage Hash: 1
+- Recovery phrase: 1
+- Challenges: 1
+- HMAC function: 1
+- Bitcoin Network: 1
+- Hardware tokens: 1
+- Course Goals: 1
+- Atomic Swap: 1
+- Discrete logarithm problem: 1
+- Transaction routing: 1
+- Anonymity: 1
+- Network integrity: 1
+- Demand Pull: 1
+- Cost Push: 1
+- Bitcoin Whitepaper: 1
+- Investment decisions: 1
+- Inheritance: 1
+- Notary: 1
+- brute force attack: 1
+- DCA platform: 1
+- Elliptic curve: 1
+- Scalar multiplication: 1
+- Salability: 1
+- Ban: 1
+- Forum: 1
+- Game Theory: 1
+- Energy: 1
+- UTXOs: 1
+- technical knowledge: 1
+- Software downloads: 1
+- Asymmetric Cryptography: 1
+- Future: 1
+- Remote Access: 1
+- Hard Fork: 1
+- Data Encryption: 1
+- Renting goods: 1
+- Key Generation: 1
+- Technological Competence: 1
+- SMS: 1
+- Coordination: 1
+- Limit: 1
+- Payment channels: 1
+- Socialism: 1
+- Economic Crisis: 1
+- Liquidity Distribution: 1
+- Capital Goods: 1
+- Prefix: 1
+- ICOs: 1
+- Rewards: 1
+- Randomness Factor: 1
+- Viruses: 1
+- Specialization: 1
+- JBOC: 1
+- Online Scams: 1
+- Domain Name: 1
+- Monetary system: 1
+- Extended Key: 1
+- HMAC-SHA-512: 1
+- Game theory: 1
+- Byzantine Generals' Problem: 1
+- Innovation: 1
+- Disruption: 1
+- Ecosystem: 1
+- infrasctructure: 1
+- POS: 1
+- non-KYC: 1
+- watch-only: 1
+- xpub: 1
+- timelocked: 1
+- multi-sig: 1
+- muli-sig: 1
+- do it yourself: 1
+- Dice Roll: 1
+- GitHub: 1
+- Obsidian: 1
+- PlanB Network: 1
+- full KYC: 1
+- full YC: 1
+- Raspberry Pi: 1
+- BIP: 1
+- WST: 1
+- Whirlpool: 1
+- entropy: 1
+- Boltzmann: 1
+- coin control: 1
+- analysis: 1
+- Sparrow: 1

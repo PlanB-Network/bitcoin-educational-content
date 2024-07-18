@@ -1,0 +1,9 @@
+question: Se in una semplice transazione di pagamento si osserva che lo stesso tipo di script viene utilizzato nell'input e in uno solo dei 2 output, quale output rappresenta probabilmente il resto?
+answer: Quello con lo stesso tipo di script dell'input.
+wrong_answers:
+  - Quello con il tipo di script più recente.
+  - Quello con un tipo di script diverso dall'input.
+  - Quello con un tipo di script non standard.
+explanation: |
+  Se si verifica un riutilizzo della versione dello script all'interno di una transazione, è ragionevole supporre che l'utente possieda ancora l'UTXO associato. Pertanto, l'output con la stessa versione dello script dell'input è probabilmente il resto.
+reviewed: false

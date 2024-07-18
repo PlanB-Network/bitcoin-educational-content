@@ -1,0 +1,9 @@
+question: What is key identification?
+answer: The ability to associate an aspect of a user's identity with an onchain activity.
+wrong_answers:
+  - The process of assigning a public key to each new onchain transaction.
+  - The ability to trace onchain transactions through the common ownership heuristic of inputs.
+  - The process by which a public key is derived from a private key.
+explanation: |
+  Key identification involves the possibility of linking an aspect of a user's identity to an onchain activity.
+reviewed: false

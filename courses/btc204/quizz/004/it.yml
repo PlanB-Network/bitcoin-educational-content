@@ -1,0 +1,9 @@
+question: Cosa assicura gli UTXO su Bitcoin?
+answer: Attraverso script che definiscono le condizioni di spesa.
+wrong_answers:
+  - Attraverso la verifica periodica da parte dei minatori.
+  - Attraverso un database centralizzato.
+  - Attraverso la verifica dell'identità dell'utente.
+explanation: |
+  Gli output di una transazione Bitcoin sono UTXO che sono assicurati con uno script. Questo script richiede che siano soddisfatte delle condizioni di spesa predefinite per poter spendere l'UTXO.
+reviewed: false

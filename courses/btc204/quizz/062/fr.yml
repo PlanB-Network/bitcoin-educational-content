@@ -1,0 +1,13 @@
+question: Parmi ces propositions, laquelle n'est pas une méthode de sélection automatique des pièces ?
+
+answer: Silent Payments
+
+wrong_answers:
+  - Branch-and-Bound
+  - FIFO
+  - Knapsack Solver
+
+explanation: |
+  Contrairement aux 3 autres propositions, Silent Payments n'est pas une méthode de sélection des pièces, mais un protocole pour utiliser des adresses statiques.
+
+reviewed: false

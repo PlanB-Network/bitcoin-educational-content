@@ -1,0 +1,9 @@
+question: Si l'on observe dans une transaction de paiement simple qu'un output dispose d'un montant rond, quelle interprétation vraisemblable pouvons-nous en tirer ?
+answer: L'output rond n'est plus en possession de l'utilisateur en input.
+wrong_answers:
+  - L'output rond est destiné aux frais de transaction.
+  - L'output rond appartient toujours à l'utilisateur en input.
+  - L'output rond est une adresse de réserve.
+explanation: |
+  Lorsque l'on se retrouve face à un pattern de paiement simple (1 input et 2 outputs), si un des outputs dépense un montant rond, alors celui-ci représente le paiement. Il quitte donc la possession de l'utilisateur en input.
+reviewed: false

@@ -1,0 +1,9 @@
+question: ¿Qué es la identificación de clave?
+answer: La capacidad de asociar un aspecto de la identidad de un usuario con una actividad en cadena.
+wrong_answers:
+  - El proceso de asignar una clave pública a cada nueva transacción en cadena.
+  - La capacidad de rastrear transacciones en cadena mediante la heurística de propiedad común de entradas.
+  - El proceso mediante el cual se deriva una clave pública de una clave privada.
+explanation: |
+  La identificación de clave implica la posibilidad de vincular un aspecto de la identidad de un usuario con una actividad en cadena.
+reviewed: false

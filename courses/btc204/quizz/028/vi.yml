@@ -1,0 +1,9 @@
+question: Khái niệm nhận diện khóa là gì?
+answer: Khả năng liên kết một khía cạnh của danh tính người dùng với hoạt động trên chuỗi.
+wrong_answers:
+  - Quy trình gán một khóa công khai cho mỗi giao dịch mới trên chuỗi.
+  - Khả năng theo dõi giao dịch trên chuỗi thông qua phép suy luận sở hữu chung của các đầu vào.
+  - Quy trình mà theo đó một khóa công khai được tạo ra từ một khóa riêng tư.
+explanation: |
+  Nhận diện khóa bao gồm khả năng liên kết một khía cạnh của danh tính người dùng với hoạt động trên chuỗi.
+reviewed: false

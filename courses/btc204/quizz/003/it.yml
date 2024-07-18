@@ -1,0 +1,9 @@
+question: Qual è l'effetto di una transazione Bitcoin sui UTXO negli output?
+answer: Li crea utilizzando i UTXO consumati negli input.
+wrong_answers:
+  - Li consuma per soddisfare gli input.
+  - Li cripta per rendere anonimo il destinatario.
+  - Li divide temporaneamente per la verifica.
+explanation: |
+  I UTXO negli output della transazione sono creati consumando i UTXO negli input. È, in un certo senso, la destinazione del denaro.
+reviewed: false

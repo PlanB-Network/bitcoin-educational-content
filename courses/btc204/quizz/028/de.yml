@@ -1,0 +1,9 @@
+question: Was ist Schlüsselidentifikation?
+answer: Die Fähigkeit, einen Aspekt der Identität eines Benutzers mit einer Onchain-Aktivität zu verknüpfen.
+wrong_answers:
+  - Der Prozess der Zuweisung eines öffentlichen Schlüssels zu jeder neuen Onchain-Transaktion.
+  - Die Fähigkeit, Onchain-Transaktionen durch die gemeinsame Besitzheuristik von Eingaben zurückzuverfolgen.
+  - Der Prozess, durch den ein öffentlicher Schlüssel aus einem privaten Schlüssel abgeleitet wird.
+explanation: |
+  Die Schlüsselidentifikation beinhaltet die Möglichkeit, einen Aspekt der Identität eines Benutzers mit einer Onchain-Aktivität zu verknüpfen.
+reviewed: false

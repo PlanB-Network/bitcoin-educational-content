@@ -17,14 +17,16 @@ Diese Denkschule hat bereits mehrere Jahrhunderte hinter sich und eine ganze Rei
 +++
 
 # Einführung in die Wirtschaftswissenschaften
+<partId>265aa8b0-dd89-5456-b72a-656e988013d5</partId>
 
 ## Einführung
+<chapterId>eae3de7b-cce6-516d-83d9-28fbd582c0ca</chapterId>
 
 Hallo zusammen und herzlich willkommen zu Econ 201: Einführung in die österreichische Wirtschaftswissenschaft.
 
 In diesem Kurs, der von Théo Mogenet angeboten wird, werden Sie diese Richtung der Wirtschaftswissenschaft entdecken, die sich stark von der keynesianischen Lehre unterscheidet. Bislang haben Sie möglicherweise gelernt, dass die Produktion und Verwaltung von Geld in der Verantwortung der Zentralbanken liegen, mit der Idee, dass Geldschöpfung und Ausgaben das Wachstum fördern. Es gibt jedoch eine andere wirtschaftswissenschaftliche Denkschule: die österreichische Wirtschaftswissenschaft. Mit über 200 Jahren Forschung und Entwicklung, philosophischen Reflexionen und Schriften renommierter Autoren betont dieser Ansatz eine nüchterne Vision des Wachstums und der menschlichen Rationalität in unserer Wirtschaft.
 
-In Wirklichkeit ist die Wirtschaftswissenschaft ein äußerst soziales und komplexes Feld, das aus einer Vielzahl von miteinander verbundenen kleinen Akteuren besteht, die zusammen dazu beitragen, ein kohärentes Ganzes zu bilden. Anstatt sich dieser Disziplin durch mathematische Gleichungen zu nähern, müssen wir sie aus der Perspektive der menschlichen Logik und Soziologie verstehen. In diesem Kurs werden wir die grundlegenden Konzepte der österreichischen Wirtschaftswissenschaft erkunden. Ihr Dozent, Théomo Jeunet, ist ein leidenschaftlicher und kompetenter Professor für österreichische Wirtschaftswissenschaft.
+In Wirklichkeit ist die Wirtschaftswissenschaft ein äußerst soziales und komplexes Feld, das aus einer Vielzahl von miteinander verbundenen kleinen Akteuren besteht, die zusammen dazu beitragen, ein kohärentes Ganzes zu bilden. Anstatt sich dieser Disziplin durch mathematische Gleichungen zu nähern, müssen wir sie aus der Perspektive der menschlichen Logik und Soziologie verstehen. In diesem Kurs werden wir die grundlegenden Konzepte der österreichischen Wirtschaftswissenschaft erkunden. Ihr Dozent, Théo Mogenet, ist ein leidenschaftlicher und kompetenter Professor für österreichische Wirtschaftswissenschaft.
 
 Zum Einstieg bieten wir Ihnen ein Bonusvideo an, das erklärt, wie unser derzeitiges Finanzsystem funktioniert. Sie werden erfahren, wie Geschäftsbanken und Zentralbanken interagieren und die Wirtschaft antreiben. Wir werden uns mit den Hauptakteuren unserer Finanzwelt befassen und wie diese Zentralisierung der Macht bei bestimmten wirtschaftlichen Institutionen zu Missbräuchen und Finanzkrisen führen kann.
 
@@ -37,6 +39,7 @@ Ich danke Théo herzlich für die Erstellung dieses Kurses und hoffe, dass er ei
 Wenn Sie bereit sind, sich auf dieses Abenteuer einzulassen, lade ich Sie ein, auf das folgende Video zu klicken und mit dem Bonusvideo über unser derzeitiges Finanzsystem zu beginnen. Ich übergebe jetzt das Wort an Théo. Vielen Dank an ihn für die Zusammenarbeit mit Descoupes Bitcoin bei der Realisierung dieses Videos. Ich werde euch bald wiedersehen. Auf Wiedersehen!
 
 ## Geld, Kredit, Banken und Zentralbanken
+<chapterId>29faebd9-9326-52de-8161-e4bb33033cd6</chapterId>
 
 > "Das grundlegende Problem mit konventioneller Währung ist das Vertrauen, das erforderlich ist, um sie funktionieren zu lassen. Der Zentralbank muss vertraut werden, dass sie die Währung nicht entwertet, aber die Geschichte der Fiat-Währungen ist voller Vertrauensbrüche. Den Banken muss vertraut werden, dass sie unser Geld halten und elektronisch übertragen, aber sie verleihen es in Wellen von Kreditblasen mit kaum einem Bruchteil als Reserve. Wir müssen ihnen in Bezug auf unsere Privatsphäre vertrauen, ihnen vertrauen, dass sie Identitätsdieben nicht erlauben, unsere Konten zu leeren."
 >
@@ -52,7 +55,7 @@ Wenn eine Finanzinstitution über eine Banklizenz verfügt, bedeutet dies im Wes
 
 Nach dem Kauf des Hauses weisen Sie Ihren Banker an, das Geld auf das Konto des Verkäufers zu überweisen. Wenn das Konto des Verkäufers bei einer anderen Bank ist, benachrichtigt Ihr Banker den entsprechenden Banker bei der anderen Institution, um sicherzustellen, dass das Konto des Verkäufers entsprechend gutgeschrieben wird, während Ihr Konto um den entsprechenden Betrag belastet wird.
 
-![image](assets/Image/1.png)
+![image](assets/Image/1.webp)
 
 Abbildung 1: Geldschöpfung als Buchungseinträge
 
@@ -70,7 +73,7 @@ Dieses Dilemma führte zur Entstehung der modernen Zentralbanken. Im 19. Jahrhun
 
 Zusätzlich zur Aufrechterhaltung der finanziellen Stabilität sind Zentralbanken für die Festlegung wichtiger Leitzinssätze verantwortlich. Diese Sätze bestimmen die Kosten, zu denen lizenzierte Banken Gelder von der Zentralbank leihen können und definieren im Wesentlichen die Kosten für Liquidität für die Finanzinstitute, die eine entscheidende Rolle bei der Kreditvergabe in unseren Volkswirtschaften spielen. Daher dienen diese Sätze als Benchmark für das gesamte Finanzsystem. Als Einzelperson setzen sich die Zinssätze, die Sie für Ihre Hypothek zahlen, aus dem Leitzins und der Marge der Bank zusammen.
 
-![image](assets/Image/2.png)
+![image](assets/Image/2.webp)
 
 Figure2: Lehman Borthers’ Bankruptcy (15/09/2008)
 
@@ -78,7 +81,7 @@ Während der großen Finanzkrise von 2008 erklärte die Investmentbank Lehman Br
 
 Diese Maßnahmen verhinderten zwar eine Kaskade von Insolvenzen, trugen jedoch wenig zur Linderung der anschließenden wirtschaftlichen Verlangsamung bei. Millionen verloren ihre Arbeitsplätze und Häuser, der Konsum brach ein, Unternehmen gingen pleite und Banken erlitten erhebliche Verluste. Trotz historisch niedriger Zinsen waren nur wenige bereit, Kredite aufzunehmen, was zu einem Teufelskreis führte, in dem die anfängliche Verringerung von Ausgaben und Investitionen sich selbst verstärkte. Infolgedessen unternahmen Zentralbanker weitere Schritte, indem sie quantitative Lockerungsprogramme (QE) umsetzten. Diese Programme beinhalteten den Kauf von Staatsanleihen und hypothekenbesicherten Wertpapieren durch Zentralbanken von Geschäftsbanken mit Zentralbankreserven.
 
-![image](assets/Image/3.png)
+![image](assets/Image/3.webp)
 
 Figure3 : Interest Rates Across Major Economies / Source: ECB
 
@@ -88,7 +91,7 @@ Im Gegensatz zu vielen Erwartungen belebten QE-Programme das Wirtschaftswachstum
 
 Dennoch kann aus dieser Episode ein wesentliches wirtschaftliches Prinzip abgeleitet werden: Wenn neues Geld geschaffen wird, profitieren zunächst diejenigen, die dem Geld am nächsten stehen, auf Kosten derjenigen, die weiter entfernt sind. Dieses wirtschaftliche Prinzip geht auf das 18. Jahrhundert zurück, als Richard Cantillon es in seinem "Essay über die Natur des Handels im Allgemeinen" beschrieb. Es wird heute umgangssprachlich als "Cantillon-Effekt" bezeichnet.
 
-![image](assets/Image/4.png)
+![image](assets/Image/4.webp)
 
 Figure4: Cantillon Effect in a Nutshell / Source: River Financial
 
@@ -96,7 +99,7 @@ In diesem Fall erhielten Banker, Bankvorstände, Aktien- und Anleihebesitzer, Im
 
 Im Wesentlichen ist das System verzerrt. Banken sind von Natur aus instabil, aber ihr Scheitern kann die gesamte Wirtschaft gefährden. Dieses moralische Risiko motiviert Bankvorstände dazu, übermäßige Risiken einzugehen, um die Einnahmen ihrer Bank zu maximieren, in dem Wissen, dass die Zentralbank sie letztendlich retten wird und die Kosten auf die Steuerzahler abwälzt. In solchen Szenarien schaffen Zentralbanker Bedingungen für einen massiven Transfer von Kaufkraft von fleißigen Menschen und Sparern zu Vermögensbesitzern und denen, die mit dem Finanzsystem verbunden sind, wodurch der Prozess der Vermögensschaffung von der Vermögensakkumulation entkoppelt wird.
 
-![image](assets/Image/5.png)
+![image](assets/Image/5.webp)
 
 Abbildung 5: Vermögensverteilung in China + Europa + den USA / Quelle: OECD
 
@@ -106,7 +109,7 @@ Während langer Zeiträume der Nullzinspolitik (ZIRP) haben Banken begrenzte Mö
 
 Eine weitere unbeabsichtigte Folge der ZIRP besteht darin, dass sie Regierungen dazu ermutigt, umfangreiche Ausgaben zu tätigen. Da Regierungen keine Kreditkosten haben und sich auf Zentralbanken verlassen können, um ihre Anleihen durch QE-Programme zu kaufen, haben sie einen natürlichen Anreiz, so viel wie möglich auszugeben, insbesondere in demokratischen Kontexten, in denen Ausgaben Wählerstimmen bringen können. Diese Tendenz ignoriert oft die langfristigen Folgen einer solchen fiskalischen Verschwendung, was zu einem erheblichen Anstieg der öffentlichen Verschuldung in den entwickelten Volkswirtschaften seit der globalen Finanzkrise (GFC) führt.
 
-![image](assets/Image/6.png)
+![image](assets/Image/6.webp)
 
 Abbildung 6: Öffentliche und private Verschuldung als % des BIP (Welt, gewichtet nach BIP pro Land) / Quelle: IWF
 
@@ -124,8 +127,10 @@ Um dieses Ziel zu erreichen, werden wir die grundlegenden Prinzipien der "Öster
 Im nächsten Kapitel werden wir uns mit dem grundlegenden Eckpfeiler jeder wirtschaftlichen Denkschule befassen: der Werttheorie. In den folgenden Kapiteln werden wir Geld als soziale Institution, die Kapital- und Konjunkturtheorie, die Herausforderung der wirtschaftlichen Berechnung sowie einen kurzen Überblick über die Geschichte und Methodik der Österreichischen Schule der Nationalökonomie untersuchen.
 
 # Theoretische Grundlagen
+<partId>86012c1b-cdf2-586f-8fe7-263f8287e950</partId>
 
 ## Die subjektive Werttheorie
+<chapterId>eb1608d4-5d36-56a0-bcfc-ed8c03dfa906</chapterId>
 
 > "Wert existiert nur im menschlichen Bewusstsein"
 >
@@ -139,7 +144,7 @@ Solche Fragen haben Ökonomen und Philosophen seit vielen Jahrhunderten beschäf
 
 Nachdem die physiokratische Theorie des Bodenwerts, die besagte, dass der Wert von allem aus dem Boden stammt, von der klassischen ökonomischen Arbeitswerttheorie widerlegt wurde, die postulierte, dass der Wert eines Gutes aus der Menge an Arbeit stammt, die in seine Produktion fließt, war es an der Zeit, dass die Grenznutzentheorie die letztere ablöste. In den 1870er Jahren, nach Marx, dem letzten der klassischen Ökonomen, entstanden fast zeitgleich drei neue Denkschulen der Wirtschaftswissenschaften rund um eine Grenznutzentheorie des Wertes: die Lausanner Schule mit Léon Walras, die moderne oder neoklassische Schule mit William Stanley Jevons und die Österreichische Schule mit Carl Menger. Diese Revolution in der Werttheorie stellte eine bedeutende Erneuerung des wirtschaftlichen Denkens dar.
 
-![image](assets/Image/7.png)
+![image](assets/Image/7.webp)
 
 Von links nach rechts: William Stanley Jevons, Carl Menger, Léon Walras
 
@@ -149,7 +154,7 @@ Es ist üblich, den Marginalismus dieser drei Schulen als ähnlich darzustellen.
 
 ### Subjektiver Wert
 
-![image](assets/Image/15.png)
+![image](assets/Image/15.webp)
 
 Der österreichische Ökonom widerlegt die Vorstellung der Nachfolger von Adam Smith und gibt die Idee auf, dass der Wert eines Gutes aus der Menge der in seiner Produktion verwendeten Arbeit stammt. Stattdessen favorisiert er die Vorstellung, dass der Wert durch das Individuum bestimmt wird, das in jedem Kontext einen geistigen Bewertungsakt in Bezug auf eine bestimmte Menge eines Gutes oder einer Dienstleistung durchführt. Dieser intellektuelle Sprung, den Menger gemacht hat, stellt die Objektivität des Wertes in Frage: Für ihn ist der Wert keine objektive Eigenschaft von Gütern; er ist lediglich das Ergebnis der Beziehung, die das Individuum zu diesem Ding hat: "Wert existiert nicht außerhalb des menschlichen Bewusstseins."
 
@@ -173,7 +178,7 @@ Diese subjektive Vorstellung von Wert, verstanden als eine psychologische Bezieh
 
 ### Die Arbeitsteilung
 
-![image](assets/Image/16.png)
+![image](assets/Image/16.webp)
 
 Besuch einer Nagelfabrik, Léonard Defrance (18. Jahrhundert)
 Jeder Mensch ist einzigartig und hat eine bestimmte persönliche Situation. Daher besitzt jeder eine überlegene Fähigkeit, bestimmte Aufgaben im Vergleich zu seinen Kollegen (absoluter Vorteil) oder bestimmte Aufgaben im Vergleich zu anderen (komparativer Vorteil) besser auszuführen. Es kann nicht anders sein; diese elementare Tatsache zu leugnen würde bedeuten, dass alle Menschen in allen Aspekten gleich sind.
@@ -206,6 +211,7 @@ Aufbauend auf den Erkenntnissen des subjektiven ordinalen Werts erklärte Menger
 Die folgenden Kapitel werden sich mit dem Entstehen von Geld als soziale Institution, der Theorie des Kapitals und des Zinses, die als Grundlage für die Theorie des Konjunkturzyklus dienen wird, und schließlich der Rolle der Preise für die wirtschaftliche Berechnung befassen.
 
 ## Das Entstehen von Geld als soziales Phänomen
+<chapterId>14ded794-0578-5478-ba5b-b2106c74f3ef</chapterId>
 
 Obwohl Individuen ein gemeinsames Interesse an Spezialisierung und Maximierung der Arbeitsteilung haben, gibt es dennoch Koordinationsprobleme, die diese Expansion begrenzen.
 
@@ -234,7 +240,7 @@ Dieses Spiel veranschaulicht ein Problem, das im wirklichen Leben häufig auftri
 
 ### Geld zur Lösung von Koordinationsproblemen
 
-![image](assets/Image/17.png)
+![image](assets/Image/17.webp)
 
 Dieses Problem hat in kleinen Gemeinschaften (z. B. Familie, Freundeskreise) weniger Auswirkungen, da in solchen Fällen jeder einander direkt kennt und sich an die Beiträge der anderen erinnern kann. Unter der Annahme, dass das Verlassen der Gemeinschaft (Desertion) mit Kosten verbunden ist, reicht ein Reputationssystem, das auf dem Gedächtnis einzelner Agenten basiert, in der Regel aus, um die Probleme des Gefangenendilemmas zu vermeiden.
 
@@ -254,7 +260,7 @@ In prähistorischer Zeit existierten diese Technologien nicht. Daher mussten uns
 
 ### Doppelte Übereinstimmung der Bedürfnisse und Verkäuflichkeit
 
-![image](assets/Image/18.png)
+![image](assets/Image/18.webp)
 
 Geld kann als die Lösung betrachtet werden, die unsere Vorfahren entdeckt haben, um das zu bewältigen, was Ökonomen als das Problem der "doppelten Übereinstimmung der Bedürfnisse" bezeichnen. Dieses Problem hat drei Dimensionen: räumlich, zeitlich und zwischenmenschlich.
 In einem direkten Austausch (Tauschhandel) zwischen Alice und Bob müssen sie beide etwas besitzen, das der andere zur gleichen Zeit und am gleichen Ort wünscht. Durch den Einsatz von indirektem Austausch, d.h. durch Geld, kann Alice von Bob kaufen und Bob kann diese Währungseinheit anderswo, zu einer anderen Zeit und mit jemand anderem verwenden (vorausgesetzt, die andere Person akzeptiert diese Form von Geld).
@@ -283,6 +289,7 @@ In diesem Zusammenhang spielt Geld eine entscheidende Rolle bei der intertempora
 Im nächsten Kapitel werden wir das Konzept der Zeitpräferenz genauer untersuchen und die österreichische Perspektive auf Zinsen und Kapital erläutern, die als Grundlage für das folgende Kapitel zur Theorie des Konjunkturzyklus dienen wird.
 
 ## Zeitpräferenz, Zinsen und Kapital
+<chapterId>37732a5c-4f66-5e2d-bc2c-cc8d29693af7</chapterId>
 
 ### Zeitpräferenz
 
@@ -294,14 +301,14 @@ Diese subjektive Bewertung des Werts zukünftiger Güter im Vergleich zu gegenw�
 
 Dieses Konzept der relativen Bewertung zukünftiger Güter gegenüber gegenwärtigen Gütern liegt dem Phänomen des Zinses zugrunde. Tatsächlich werden in einer Wirtschaft mit unmanipulierten Kapitalmärkten Referenzzinssätze (die als risikofrei von Zahlungsausfällen betrachtet werden) am Schnittpunkt von Kapitalangebot und -nachfrage bestimmt. Diese Zinssätze repräsentieren daher den Zustand der Zeitpräferenzen für die gesamte Wirtschaft: Ein Anstieg des Zinssatzes resultiert aus einem relativen Anstieg der Nachfrage nach Kapital im Vergleich zum Angebot, was auf höhere Zeitpräferenzen hinweist. Umgekehrt kommt es zu einem Rückgang der Zinssätze aufgrund einer Zunahme der Ersparnisse, d.h. einer Erhöhung des Kapitalangebots, was auf eine Verringerung der Zeitpräferenzen hinweist.
 
-![image](assets/Image/9.png)
+![image](assets/Image/9.webp)
 
 In einer Wirtschaft, in der die Zinssätze nicht von der Zentralbank manipuliert werden, beobachten wir tendenziell eine nach oben gerichtete Zinskurve: Je länger die Laufzeit der Schulden, desto höher der Zinssatz. Die umgekehrte Situation kann nicht eintreten, da dies bedeuten würde, dass die Zukunft sicherer ist als die Gegenwart, was eine logische Unmöglichkeit ist.
 Das Konzept der Zeitpräferenz und wie wir unsere eigene Zeitpräferenz durch Konsum und Sparen zum Ausdruck bringen, ist grundlegend für die Prozesse der Kapitalallokation und Produktion. Schauen wir uns die Kapitaltheorie von Eugen von Böhm-Bawerk, einem Schüler von Menger, an, um genau zu verstehen, wie die Zeitpräferenz die Organisation der Produktion beeinflusst.
 
 ### Kapitaltheorie
 
-![image](assets/Image/19.png)
+![image](assets/Image/19.webp)
 
 Am Anfang dieses Kurses haben wir gesehen, dass für Carl Menger Güter nur deshalb als wirtschaftliche Güter (wertvoll) betrachtet werden, weil sie als Mittel zu Zwecken dienen, die von Individuen gewählt und geschätzt werden. Nach dieser Ansicht dreht sich die gesamte wirtschaftliche Analyse um den Konsum, da er letztendlich das motivierende Ziel hinter allen wirtschaftlichen Aktivitäten ist. Daher ist für Menger der Ausgangspunkt der wirtschaftlichen Analyse der Konsumgüter oder Endgüter, da sie den ultimativen Zweck wirtschaftlicher Aktivitäten darstellen. Alle anderen Güter in der Wirtschaft, die wir "Zwischengüter" nennen können, haben nur deshalb einen Wert, weil sie es den Individuen ermöglichen, diese Konsumgüter zu erhalten: Sie sind Güter, die bei der Produktion anderer Güter verwendet werden.
 
@@ -317,13 +324,13 @@ Aufgrund der sequenziellen Natur menschlicher Handlungen haben diese intertempor
 
 Um diesen Punkt zu veranschaulichen, wollen wir das Beispiel von Böhm-Bawerk in seinem Werk "Kapital und Zins" noch einmal betrachten:
 
-![image](assets/Image/10.png)
+![image](assets/Image/10.webp)
 
 Eugen von Böhm-Bawerk (1851-1914)
 
 ### Robinson Crusoe und Produktionsumweg:
 
-![image](assets/Image/20.png)
+![image](assets/Image/20.webp)
 
 Robinson Crusoe landet Vorräte aus dem Wrack, John Alexander Gilfillan (1793-1864)
 
@@ -347,13 +354,15 @@ Wie im ersten Kapitel angedeutet, wurden die Zinssätze jahrzehntelang von Zentr
 
 Dies wird perfekt durch das folgende Diagramm veranschaulicht: Die langfristigen Zinssätze sind niedriger als die kurzfristigen Zinssätze. Zunächst ergibt dies absolut keinen Sinn, da dies bedeuten würde, dass die Zukunft sicherer ist als die Gegenwart. Zweitens wirft dies Fragen nach den Auswirkungen auf die Kapitalallokation auf: Wenn alle dazu angeregt werden, so zu handeln, als ob Ersparnisse im Überfluss vorhanden wären, während Sparer nicht belohnt werden, was könnte dies für die Wirtschaft bedeuten?
 
-![image](assets/Image/11.png)
+![image](assets/Image/11.webp)
 
 Dies werden wir im nächsten Kapitel, das der österreichischen Theorie des Konjunkturzyklus gewidmet ist, herausfinden!
 
 # Österreichische Wirtschaftsperspektiven
+<partId>ad0fce42-2556-56b8-a093-5b4fcacc7cf3</partId>
 
 ## Die österreichische Theorie des Konjunkturzyklus
+<chapterId>718afaa8-ce78-58aa-9477-073eef0bd137</chapterId>
 
 > "Je länger der Boom der inflationären Bankkredite anhält, desto größer ist der Umfang der Fehlinvestitionen in Sachkapital und desto größer ist die Notwendigkeit der Liquidation dieser unsoliden Investitionen. Wenn die Kreditausweitung stoppt, sich umkehrt oder sogar signifikant verlangsamt, werden die Fehlinvestitionen offenbart."
 >
@@ -370,7 +379,7 @@ Im Kontext des Fractional Reserve Banking erfordert eine Kreditausweitung keine 
 Um dieses Phänomen der zeitlichen Misskoordination und ihre Konsequenzen so klar wie möglich zu beschreiben, werden wir uns auf ein Modell der Produktionsstruktur stützen und beobachten, wie es erstens durch eine Verringerung der Zinssätze aufgrund einer Erhöhung der Ersparnisse und dann durch eine Verringerung der Zinssätze aufgrund einer Kreditausweitung beeinflusst wird.
 Um unsere Erklärung zu erleichtern, werden wir auf Mengers Klassifizierung von Gütern zurückgreifen und die Produktionsstruktur in einem Diagramm darstellen, das aus einer beliebigen Anzahl von Stufen besteht:
 
-![image](assets/Image/12.png)
+![image](assets/Image/12.webp)
 
 In dem obigen Diagramm durchlaufen die anfänglichen Ressourcen verschiedene Produktionsstufen, in denen sie Veränderungen durchlaufen, die sie dem Zustand der endgültigen Konsumgüter näher bringen (durch Interaktion mit den ursprünglichen Produktionsfaktoren: Zeit, Land, Arbeit). Die Höhe der rechten Seite des Dreiecks stellt schematisch das BIP dar, da es die Summe aller in einem Zeitraum verkauften Konsumgüter darstellt. Der Abstand zwischen jeder Säule entspricht dem Mehrwert (in monetären Begriffen), der von jeder Stufe des Prozesses generiert wird. Dieser Unterschied kann auch als das mit jeder Stufe verbundene Einkommen angesehen werden (Einnahmen - Kosten).
 
@@ -378,7 +387,7 @@ Wenn die Wirtschaftssubjekte auf aggregierter Ebene ihre Ersparnisse erhöhen, w
 
 Wir erhalten dann eine erweiterte Produktionsstruktur, eine Veränderung, die qualitativ durch das folgende Diagramm dargestellt werden kann:
 
-![image](assets/Image/13.png)
+![image](assets/Image/13.webp)
 
 Hier hat sich der monetäre Wert der nachgefragten Konsumgüter verringert, was Ressourcen für die Schaffung einer zusätzlichen Produktionsstufe freisetzt. In diesem Szenario, in dem die Verringerung der Zinssätze eine Folge des verringerten Konsums, d.h. erhöhter Ersparnisse, ist, bleibt der Bereich des Dreiecks, der die Menge des im Umlauf befindlichen Geldes darstellt, unverändert. Die Veränderung der Produktionsstruktur (Verlängerung) resultiert einfach aus einer Übertragung der Kaufkraft von einem Teil der Struktur auf einen anderen.
 
@@ -392,7 +401,7 @@ Wenn wir nun eine Verringerung der Zinssätze aufgrund einer Kreditausweitung du
 Mit niedrigeren Zinssätzen können Unternehmer mehr Ressourcen leihen und somit höhere Produktionsstufen schaffen. In diesem Fall führt eine solche Erweiterung der Produktionsstruktur nicht zu einem Rückgang des Konsums, da es keine Verzögerung des gegenwärtigen Konsums durch die Verbraucher gegeben hat. Mit anderen Worten, das BIP wächst. Folglich wird unser Dreieck länger, während seine Höhe ähnlich bleibt, was bedeutet, dass seine Fläche zunimmt.
 Beachten Sie, dass dies eine völlig logische Konsequenz der Kreditausweitung ist. Da Banken fiduziarische Medien durch Kreditvergabe erzeugen, sollte man natürlich eine insgesamt steigende Kaufkraft erwarten.
 
-![image](assets/Image/14.png)
+![image](assets/Image/14.webp)
 
 Wenn Kredit durch Darlehen an Unternehmer in die Wirtschaft gelangt, sollten wir eine Zunahme der Gewinne in den Produktionssektoren, die weit vom Konsum entfernt sind, und eine Abnahme der relativen Gewinne in Sektoren, die dem Konsum näher sind, beobachten. Diese höhere Rentabilität unterstützt dann eine Umverteilung des Kapitals in diese neuen, kapitalintensiveren Stufen (Schiffbau, Automobilbau, Bauwesen, fortschrittliche Technologien usw.) und eine Abnahme der Investitionen in Sektoren, die dem Konsum näher sind.
 
@@ -407,7 +416,7 @@ Im Allgemeinen wird die Rezession vom Bankensektor selbst ausgelöst. Solange de
 Eine solche Anpassung kann als eine Phase betrachtet werden, in der Unterkonsum und Unterinvestition erzwungen werden, um die fehlenden Ersparnisse wieder aufzubauen. Für Hayek ist diese depressive Phase, obwohl schmerzhaft, äußerst notwendig, da sie eine Erholung der wirtschaftlichen Aktivität auf der Grundlage einer Preisstruktur ermöglicht, die die tatsächliche Knappheit von Produktionsfaktoren widerspiegelt. Wenn diese Depression unterbrochen wird, kann die Wirtschaft nicht auf einen wünschenswerten Weg zurückkehren, denn in Abwesenheit eines Informationssystems, das es den Wirtschaftsakteuren ermöglicht, ihre Entscheidungen zu rationalisieren, wird die Fehlallokation von Ressourcen nur weitergehen.
 Leider wird dieser depressive Mechanismus oft durch politische Macht und Zentralbanken unterbrochen, die versuchen, die Wirtschaft durch Defizitausgaben und eine lockere Geldpolitik zu "stimulieren".
 
-![image](assets/Image/21.png)
+![image](assets/Image/21.webp)
 
 Sowohl Monetaristen als auch Keynesianer sind der Meinung, dass die Ursache der Depression eine unzureichende aggregierte Nachfrage ist, daher beachtet keiner von ihnen die Entwicklung der relativen Preise, die, wie wir gesehen haben, das Kernproblem darstellen. Daher glauben sie, dass die Bereitstellung eines Anreizes für die Kreditausweitung (Senkung der Zinssätze) und die Nutzung der Defizitkapazität des Staates zur Steigerung der Nachfrage eine Erholung in Gang setzen wird. Kurzfristig können solche Maßnahmen die gewünschten Effekte zu erzielen scheinen: Das Defizit unterstützt die Ausgaben, während die Senkung der Zinssätze zu höheren Vermögenspreisen führt, was wiederum die Vermögensinhaber dazu ermutigt, ihre Ausgaben zu erhöhen. Allerdings lässt eine solche Stimulierung letztendlich nach, während das strukturelle Problem bestehen bleibt oder sich sogar verschlimmert, da es aufgrund künstlich niedriger Zinssätze weiterhin zu einer Fehlallokation von Kapital kommt.
 
@@ -422,6 +431,7 @@ Mehr als jede andere Wirtschaftsschule besteht die Österreichische Schule auf d
 Dies wird das Thema des nächsten und letzten Kapitels dieses Kurses sein.
 
 ## Die Unmöglichkeit der wirtschaftlichen Berechnung im Sozialismus
+<chapterId>2578a9d8-90e9-58dd-a8c5-6366948564c7</chapterId>
 
 > "Wo es keine Marktpreise für die Produktionsfaktoren gibt, weil sie weder gekauft noch verkauft werden, ist es unmöglich, bei der Planung zukünftiger Handlungen und bei der Bestimmung des Ergebnisses vergangener Handlungen auf Berechnungen zurückzugreifen. Eine sozialistische Produktionsführung würde einfach nicht wissen, ob das, was sie plant und ausführt, das geeignetste Mittel ist, um die angestrebten Ziele zu erreichen. Sie wird gewissermaßen im Dunkeln operieren. Sie wird die knappen Produktionsfaktoren, sowohl materiell als auch menschlich (Arbeit), verschwenden. Chaos und Armut für alle werden zwangsläufig die Folge sein."
 >
@@ -443,7 +453,7 @@ Mit seinem Artikel führte Mises eine neue Dimension in die Debatte ein. Er lie�
 
 ### Die Unmöglichkeit der ökonomischen Berechnung erklären
 
-![image](assets/Image/24.png)
+![image](assets/Image/24.webp)
 
 Die meisten Missverständnisse über Mises' Argumente entstehen aus einem Missverständnis der Rollen, die Manager- und Unternehmerklassen in einer kapitalistischen Wirtschaft spielen. Mises hat die Fähigkeit von Managern, effiziente Produktionspläne innerhalb ihrer eigenen Betriebe zu entwerfen, nie abgestritten. Stattdessen betonte er die Bedeutung von Unternehmern und Aktionären, die als Eigentümer der Produktionsmittel Kapital in verschiedenen Branchen allozieren und so Preise bilden, die als Eingaben in den wirtschaftlichen Berechnungen der Manager dienen.
 
@@ -459,7 +469,7 @@ Dieser Prozess ist entscheidend, weil er die Effizienz verschiedener Aktivitäte
 
 Aus dieser Perspektive wird eine zentral geplante Wirtschaft zwangsläufig eine Fehlallokation von Kapital erfahren. Kurz- bis mittelfristig können solche Fehlallokationen unbemerkt bleiben, da es keine Marktpreise oder Konkurse gibt, die sie offenbaren. Aufgrund des Fehlens von Rückmeldungen (Preisen) und Umverteilungsmechanismen (Konkurse) werden sich jedoch Fehler ansammeln, bis die Verschwendung durch einen erheblichen Rückgang der Lebensbedingungen offensichtlich wird.
 
-![image](assets/Image/22.png)
+![image](assets/Image/22.webp)
 
 ### Die österreichische Perspektive und das Versagen anderer Wirtschaftsschulen
 
@@ -469,7 +479,7 @@ Trotz dieser beeindruckenden Prognosen und zahlreicher empirischer Nachweise fü
 
 ### Die österreichische Konjunkturtheorie als spezifischer Fall der Unmöglichkeit der wirtschaftlichen Berechnung unter dem Sozialismus
 
-![image](assets/Image/23.png)
+![image](assets/Image/23.webp)
 
 In einem früheren Kapitel haben wir die Dynamik von Überinvestitionen und Kapitalfehlallokationen aufgrund der Zinsmanipulation durch Zentralbanken erläutert. Im Wesentlichen kann das, was wir erklärt haben, als spezifischer Fall der Unmöglichkeit der wirtschaftlichen Berechnung unter dem Sozialismus betrachtet werden, angewendet auf den Bereich der Geldmärkte. Wenn Preise außerhalb ihrer Marktwerte festgelegt werden, werden Unternehmer und Kapitalallokatoren dazu angeregt, Investitionen einzugehen, die langfristig aufgrund eines Mangels an Ersparnissen nicht aufrechterhalten werden können. Durch Eingriffe in das Preissystem schaffen zentrale Planer (in diesem Fall Zentralbanker) eine Fehlkoordination zwischen den Wirtschaftssubjekten. In diesem Fall führt die intertemporale Fehlkoordination zu Überinvestitionen in höherwertige Investitionsgüter und zu Unterinvestitionen in niedrigerwertige Investitionsgüter, was eine spezifische Manifestation von Kapitalfehlallokationen zwischen Branchen darstellt.
 
@@ -488,6 +498,7 @@ Hauptstrom-Ökonomen und Zentralplaner mögen österreichische Ökonomen oft nic
 Die österreichische Tradition verkörpert einen bescheidenen Ansatz zum menschlichen Handeln und zieht tiefgreifende Schlussfolgerungen aus den Konzepten des subjektiven Wertes, der Unsicherheit, des freien Willens und der Komplexität. Sie erklärt, wie die Marktordnung, obwohl sie nicht das Produkt menschlichen Designs ist, als zentrale Institution für unsere Entwicklung und Wohlstand steht. Wenn es eine wichtige Erkenntnis aus diesem Kurs gibt, dann ist es, dass der Kapitalismus zum dominierenden Wirtschaftssystem wurde, weil er sich in einer dynamischen und unsicheren Welt, bevölkert von freien Individuen, an Veränderungen anpassen kann.
 
 ## Die österreichische Methodik
+<chapterId>419129c1-82ba-54e3-b385-95d4d89a447e</chapterId>
 
 Die österreichische Schule der Wirtschaft unterscheidet sich von anderen Schulen durch ihre axiomatisch-deduktive Methodik, die sich von dem positivistischen Ansatz unterscheidet, der in den Sozialwissenschaften häufig verwendet wird. Der positivistische Ansatz basiert auf Gesetzen, die aus empirischen Daten abgeleitet werden und eine ähnliche Methode wie die Naturwissenschaften verwenden. Er formuliert Hypothesen aus Beobachtungen, die dann durch vorübergehende Experimente bestätigt oder widerlegt werden. Die wissenschaftliche Methode besteht darin, die Hypothese beizubehalten, die die Daten am besten erklärt, und sie weiter zu erforschen, bis eine präzisere Hypothese gefunden wird.
 
@@ -506,8 +517,10 @@ Es ist wichtig zu beachten, dass das Cherry-Picking, bei dem selektiv Daten ausg
 Methodologie ist ein wesentlicher Aspekt in der Wirtschaft und den Sozialwissenschaften im Allgemeinen. Sie beeinflusst, wie Fragen gestellt, Hypothesen formuliert und Daten interpretiert werden. Das Verständnis der methodologischen Unterschiede zwischen ökonomischen Denkschulen kann uns helfen, vielfältige Perspektiven zu schätzen und unsere eigenen Meinungen zu den in früheren Episoden diskutierten Themen zu entwickeln.
 
 # Fazit
+<partId>ae828713-d133-559f-93c2-101cb5245fca</partId>
 
 ## Weitere Studien
+<chapterId>64faaed4-84b9-5b8c-9736-a959e8e6cd9d</chapterId>
 
 Herzlichen Glückwunsch zur Absolvierung dieses ECON 201 Kurses! Ich hoffe aufrichtig, dass Sie ihn genossen haben und sich neue Möglichkeiten für sich eröffnet haben. Ihre Entdeckung von Bitcoin steht erst am Anfang, und ich lade Sie ein, alle anderen Kurse an der Universität zu erkunden.
 

@@ -1,0 +1,9 @@
+question: Was sichert die UTXOs bei Bitcoin?
+answer: Durch Skripte, die die Ausgabebedingungen definieren.
+wrong_answers:
+  - Durch periodische Überprüfung durch Miner.
+  - Durch eine zentralisierte Datenbank.
+  - Durch die Überprüfung der Benutzeridentität.
+explanation: |
+  Die Ausgaben einer Bitcoin-Transaktion sind UTXOs, die mit einem Skript gesichert sind. Dieses Skript erfordert, dass vordefinierte Ausgabebedingungen erfüllt werden, um das UTXO ausgeben zu können.
+reviewed: false

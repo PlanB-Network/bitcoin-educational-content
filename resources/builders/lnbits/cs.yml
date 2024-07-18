@@ -1,0 +1,12 @@
+description: |
+  LNbits je bezplatný a open-source systém účtů Bitcoin Lightning s rozšířeními. Umožňuje vám provozovat vlastní systém účtů Lightning Network, ať už pro sebe, přátele a rodinu, nebo pro celý svět. LNbits podporuje různé zdroje financování Lightning Network, včetně LND, c-lightning, Spark, LNpay, OpenNode, lntxbot a další.
+
+  S LNbits můžete vytvářet více účtů nebo peněženek a přistupovat k široké škále rozšíření vytvořených přispěvateli. Tato rozšíření umožňují přidávat funkce, jako jsou kohoutky (faucets), platební odkazy (paylinks), sdílené body prodeje, platební brány (paywalls), vstupenky na akce, kostkové hry, serverové služby a dokonce sdílený jukebox, mezi mnoha dalšími. LNbits poskytuje jednoduché API, které se může připojit k více uzlům a zdrojům financování, což usnadňuje integraci do vašeho stávajícího systému.
+
+  Jednou z výhod LNbits je, že jej můžete okamžitě a přímo používat ve vašem prohlížeči, bez nutnosti stahovat jakékoli další aplikace. Pro své frontendové rozhraní využívá frameworky Quasar a VueJS, které poskytují vysoký výkon a responzivní uživatelská rozhraní. Na backendu LNbits využívá FastAPI, moderní a vysokovýkonný framework Python API.
+
+  Pro začátek s LNbits můžete navštívit jejich dokumentaci na GitHubu, tutoriály na YouTube a zdroj Awesome LNbits. Komunita LNbits je aktivní a podpůrná, nabízí skupinu na Telegramu pro uživatele a vývojáře k výměně nápadů, poskytování pomoci a přispívání k vývoji tohoto bezplatného a open-source softwaru.
+
+  LNbits nabízí flexibilní a rozšiřitelné řešení pro správu účtů Lightning Network a integraci různých funkcionalit prostřednictvím svého frameworku rozšíření.
+contributors:
+  - rabbit-hole

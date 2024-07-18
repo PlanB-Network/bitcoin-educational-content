@@ -1,0 +1,9 @@
+question: Perché si sconsiglia di pubblicare gli indirizzi di ricezione sui social media?
+answer: Perché possono essere utilizzati per collegare le attività onchain a un'identità reale.
+wrong_answers:
+  - Perché possono essere facilmente hackerati da hacker malevoli.
+  - Perché potrebbero attirare offerte fraudolente ed esporti a campagne di phishing.
+  - Perché possono permettere l'applicazione dell'euristica della proprietà comune dell'input.
+explanation: |
+  Condividere gli indirizzi Bitcoin di ricezione su internet può essere utilizzato come punto di ingresso per l'analisi della catena collegando un'identità (reale o pseudonima) con l'attività onchain.
+reviewed: false

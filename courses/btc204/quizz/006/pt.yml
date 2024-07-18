@@ -1,0 +1,9 @@
+question: O que representa o troco em uma transação?
+answer: Uma saída que retorna ao remetente original da transação.
+wrong_answers:
+  - Uma taxa cobrada pela rede Bitcoin.
+  - Uma saída transferida para o destinatário da transação.
+  - Um bônus concedido ao remetente por transações rápidas.
+explanation: |
+  O troco é uma saída que representa a parte dos inputs não utilizada para cumprir o pagamento, e, portanto, retorna ao remetente original da transação.
+reviewed: false

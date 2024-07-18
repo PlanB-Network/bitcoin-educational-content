@@ -1,0 +1,9 @@
+question: Unter diesen Antworten, welche gehört nicht zu den 3 Hauptgefahren für den Benutzer, der eine KYC-Überprüfung durchläuft?
+answer: Die Nicht-Fungibilität gekaufter Bitcoins
+wrong_answers:
+  - Exposition gegenüber staatlicher Überwachung
+  - Erleichterung der Onchain-Nachverfolgung
+  - Das Risiko eines Datenlecks
+explanation: |
+  KYC birgt das Risiko eines Datenlecks, da Ihre Informationen gespeichert werden, ein Risiko der Exposition gegenüber staatlicher Überwachung, da Ihre Informationen übermittelt oder beschlagnahmt werden können, und ein Risiko der Nachverfolgung, da KYC als Einstiegspunkt dienen kann. Allerdings reduziert KYC nicht die Fungibilität gekaufter Bitcoins.
+reviewed: false

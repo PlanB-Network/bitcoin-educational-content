@@ -1,0 +1,9 @@
+question: Que représente le change dans une transaction ?
+answer: Un output qui revient à l'émetteur initial de la transaction.
+wrong_answers:
+  - Une commission prélevée par le réseau Bitcoin.
+  - Un output transféré au destinataire de la transaction.
+  - Un bonus attribué à l'émetteur pour des transactions rapides.
+explanation: |
+  Le change est un output qui représente la partie des inputs non utilisée pour satisfaire le paiement, et qui revient donc à l'émetteur initial de la transaction.
+reviewed: false

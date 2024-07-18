@@ -1,0 +1,23 @@
+- start_date: 2024-04-06 12:30:00 
+  end_date: 2024-04-06 13:30:00
+  timezone:  US/Central
+  address_line_1: Austin, Texas (USA)
+  address_line_2: 621 E 6th St
+  address_line_3: 
+  name: LBbits workshop
+  builder: PlebLab
+  type: workshop
+  book_online: false
+  book_in_person: false
+  price_dollars: 0
+  description: workshop on programming nfc tags with lightning
+  language: 
+    - en
+  links:
+    website: https://www.meetup.com/pleb-lab/events/299939676
+    replay_url:
+    live_url :
+  tags: 
+    - Lightning
+    - Bitcoiner
+    - General

@@ -1,0 +1,9 @@
+question: 「KYC」とは何ですか？
+answer: 顧客の身元を確認し記録する手続きです。
+wrong_answers:
+  - 金融取引を保護するための暗号化システムです。
+  - 金融取引のための検証方法です。
+  - 顧客の行動を分析するマーケティング技術です。
+explanation: |
+  KYCは「Know Your Customer」の略です。これは、顧客の身元を確認するための規制手続きを指します。
+reviewed: false

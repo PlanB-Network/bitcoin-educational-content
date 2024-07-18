@@ -1,0 +1,9 @@
+question: En una transacción de pago simple donde hay una entrada de 500,000 sats dividida en una salida de 47,500 sats y otra de 451,000 sats, ¿cuál UTXO es probablemente el cambio?
+answer: La de 451,000 sats.
+wrong_answers:
+  - La de 500,000 sats.
+  - La de 47,500 sats.
+  - Ninguna de ellas.
+explanation: |
+  Cuando hay una diferencia suficientemente grande entre dos salidas en una transacción en un modelo de pago simple, se puede estimar que la salida más grande probablemente es el cambio.
+reviewed: false

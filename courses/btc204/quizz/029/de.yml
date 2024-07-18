@@ -1,0 +1,9 @@
+question: Unter diesen 4 Methoden, Bitcoins zu erwerben, welche setzt Sie am wenigsten dem Risiko der Schlüsselidentifikation aus?
+answer: Kauf in P2P mit Bargeld
+wrong_answers:
+  - Kauf über eine regulierte Plattform ohne KYC
+  - Kauf über eine regulierte Plattform mit KYC
+  - Kauf über PayPal durch eine P2P-Vermittlungsplattform
+explanation: |
+  Der Kauf von Bitcoins von Peer zu Peer mit Bargeld ist die Methode, die Sie am wenigsten den Risiken der Schlüsselidentifikation aussetzt, da sie nicht den Weg über ein reguliertes Unternehmen erfordert und keine Spuren im Bankensystem hinterlässt. Darüber hinaus erfordert diese Methode im Allgemeinen nicht die Offenlegung persönlicher Informationen.
+reviewed: false

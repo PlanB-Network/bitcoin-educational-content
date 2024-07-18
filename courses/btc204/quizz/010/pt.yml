@@ -1,0 +1,9 @@
+question: Em uma moeda, quais são os 3 critérios fundamentais que permitem a uma pessoa garantir que ela possa gastá-la posteriormente?
+answer: A moeda deve estar intacta, ser autêntica e não deve ter sido gasta duas vezes.
+wrong_answers:
+  - A moeda deve ser antiga, rara e em bom estado.
+  - A moeda deve ser universalmente aceita, legal e guardada em um banco.
+  - A moeda deve ser aprovada pelo estado, registrada e durável.
+explanation: |
+  Qualquer pessoa racional que queira aceitar uma moeda, seja digital ou física, garante que ela não foi alterada, que é de fato uma moeda real e que não pode ser reutilizada pelo emissor.
+reviewed: false

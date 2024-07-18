@@ -1,0 +1,9 @@
+question: Quel est le principal inconvénient des guichets automatiques (ATM) ?
+answer: Frais souvent très élevés.
+wrong_answers:
+  - Nécessité d'une connexion internet rapide.
+  - Manque de support pour les devises locales.
+  - Sécurité des transactions non garantie.
+explanation: |
+   L'achat de bitcoins via des ATM est une solution intéressante pour la confidentialité de l'utilisateur, mais leur principal inconvénient est qu'elles appliquent souvent des frais exorbitants.
+reviewed: false

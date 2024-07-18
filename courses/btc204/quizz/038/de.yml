@@ -1,0 +1,9 @@
+question: Welches Transaktionsmodell macht den Einsatz von CIOH ungültig?
+answer: Die kollaborative Transaktion.
+wrong_answers:
+  - Einfache Zahlung.
+  - Konsolidierung.
+  - Zusammenfassung.
+explanation: |
+  CIOH ist nicht anwendbar auf Transaktionen, die ein kollaboratives Muster annehmen, weil in diesem spezifischen Fall die Eingaben zwangsläufig von verschiedenen Entitäten kommen.
+reviewed: false

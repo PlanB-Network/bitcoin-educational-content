@@ -1,0 +1,9 @@
+question: Se observarmos em uma transação de pagamento simples que uma saída tem um valor arredondado, qual interpretação provável podemos tirar disso?
+answer: A saída arredondada não está mais na posse do usuário de entrada.
+wrong_answers:
+  - A saída arredondada destina-se a taxas de transação.
+  - A saída arredondada ainda pertence ao usuário de entrada.
+  - A saída arredondada é um endereço de reserva.
+explanation: |
+  Quando nos deparamos com um padrão de pagamento simples (1 entrada e 2 saídas), se uma das saídas gasta um valor arredondado, então ela representa o pagamento. Assim, deixa de estar na posse do usuário de entrada.
+reviewed: false

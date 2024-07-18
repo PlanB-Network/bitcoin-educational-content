@@ -1,0 +1,9 @@
+question: Sur une pièce de monnaie, quels sont les 3 critères fondamentaux qui permettent à une personne de s'assurer qu'elle pourra la dépenser ultérieurement ?
+answer: La pièce doit être intègre, authentique et elle ne doit pas être double dépensée.
+wrong_answers:
+  - La pièce doit être ancienne, rare et en bon état.
+  - La pièce doit être universellement acceptée, légale et conservée en banque.
+  - La pièce doit être approuvée par l'État, enregistrée et dure.
+explanation: |
+  Tout individu rationnel souhaitant accepter une pièce de monnaie, qu'elle soit numérique ou physique, s'assure qu'elle n'est pas altérée, qu'elle est bien une vraie pièce et qu'elle ne peut pas être réutilisée par l'émetteur.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Lorsque l'on recherche un pattern, quelle partie de la transaction va-t-on étudier ?
+answer: Sa structure
+wrong_answers:
+  - Ses métadonnées
+  - Ses scripts
+  - Sa signature
+explanation: |
+  Un pattern de transaction est simplement un modèle ou une structure globale de transaction typique, que l'on peut retrouver sur la blockchain, dont on connaît l'interprétation vraisemblable. 
+reviewed: false

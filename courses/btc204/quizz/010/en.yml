@@ -1,0 +1,9 @@
+question: On a coin, what are the 3 fundamental criteria that allow a person to ensure they can spend it later?
+answer: The coin must be intact, authentic, and it must not be double-spent.
+wrong_answers:
+  - The coin must be ancient, rare, and in good condition.
+  - The coin must be universally accepted, legal, and kept in a bank.
+  - The coin must be approved by the state, registered, and durable.
+explanation: |
+  Any rational individual wanting to accept a coin, whether digital or physical, ensures that it is not altered, that it is indeed a real coin, and that it cannot be reused by the issuer.
+reviewed: false

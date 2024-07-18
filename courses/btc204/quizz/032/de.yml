@@ -1,0 +1,9 @@
+question: Wenn bei einer einfachen Zahlungstransaktion beobachtet wird, dass der gleiche Skripttyp sowohl im Eingang als auch nur bei einem der 2 Ausgänge verwendet wird, welcher Ausgang stellt wahrscheinlich das Wechselgeld dar?
+answer: Derjenige mit dem gleichen Skripttyp wie der Eingang.
+wrong_answers:
+  - Derjenige mit dem neuesten Skripttyp.
+  - Derjenige mit einem anderen Skripttyp als der Eingang.
+  - Derjenige mit einem nicht-standardmäßigen Skripttyp.
+explanation: |
+  Wenn eine Versionierungswiederverwendung innerhalb einer Transaktion auftritt, ist es vernünftig anzunehmen, dass der Benutzer das zugehörige UTXO noch besitzt. Daher ist der Ausgang mit der gleichen Skriptversion wie der Eingang wahrscheinlich das Wechselgeld.
+reviewed: false

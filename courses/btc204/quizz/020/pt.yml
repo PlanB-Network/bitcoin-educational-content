@@ -1,0 +1,9 @@
+question: Ao buscar por um padrão, qual parte da transação estudaremos?
+answer: Sua estrutura
+wrong_answers:
+  - Seus metadados
+  - Seus scripts
+  - Sua assinatura
+explanation: |
+  Um padrão de transação é simplesmente um modelo ou uma estrutura geral de uma transação típica que pode ser encontrada na blockchain, cuja interpretação provável é conhecida.
+reviewed: false

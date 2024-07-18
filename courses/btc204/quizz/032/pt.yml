@@ -1,0 +1,9 @@
+question: Se, em uma simples transação de pagamento, for observado que o mesmo tipo de script é usado na entrada e em apenas uma das 2 saídas, qual saída provavelmente representa o troco?
+answer: A que tem o mesmo tipo de script que a entrada.
+wrong_answers:
+  - A que tem o tipo de script mais recente.
+  - A que tem um tipo de script diferente da entrada.
+  - A que tem um tipo de script não padrão.
+explanation: |
+  Se ocorrer uma reutilização de versão dentro de uma transação, é razoável assumir que o usuário ainda possui o UTXO associado. Portanto, a saída com a mesma versão de script que a entrada provavelmente é o troco.
+reviewed: false

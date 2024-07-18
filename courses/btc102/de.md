@@ -20,8 +20,10 @@ Um Ihnen den Einstieg in dieses Abenteuer zu erleichtern, habe ich diesen kosten
 +++
 
 # Einführung und Voraussetzungen zum Verständnis von Bitcoin
+<partId>008c49b7-5e17-5973-87f2-ba28429b2697</partId>
 
 ## Einführung in den BTC102-Kurs
+<chapterId>bfc96999-0ee1-5c41-8297-1b629f50cffc</chapterId>
 
 Willkommen bei BTC 102! Ein praxisorientierter Kurs, der Sie bei der Einrichtung Ihres Bitcoin-Plans begleiten wird! In diesem Kurs werden wir uns also darauf vorbereiten, Ihre ersten Bitcoins zu erhalten, sie ordnungsgemäß zu sichern und einen guten Einstieg in diese neue Branche zu gewährleisten.
 
@@ -42,6 +44,7 @@ Sie haben verstanden, dass dieses Training wirklich dazu dient, Sie von Anfang a
 Viel Glück :)
 
 ## Betrug und finanzielle Betrügereien
+<chapterId>8af2948b-2ab5-54c4-862c-3414b8a285a2</chapterId>
 
 Wir befinden uns in einer Branche, in der zwei Hauptzweige im Bereich "Kryptowährungen" entstehen:
 
@@ -63,11 +66,12 @@ Der Bereich der Kryptowährungen, einschließlich Bitcoin, ist immer noch relati
 - Passwortbetrug
 - SIM-Karten-Betrug
 
-![Betrug](assets/prerequis/6.JPG)
+![Betrug](assets/prerequis/6.webp)
 
 Im Bereich der Finanzinvestitionen zeichnen sich Schneeballsysteme und Ponzi-Schemata als illegale Modelle aus. Sie funktionieren, indem sie das Geld neuer Investoren verwenden, um die alten Teilnehmer zu bezahlen. Ihre Nicht-Nachhaltigkeit und ihre Abhängigkeit von neuen Teilnehmern, um das System am Laufen zu halten, machen sie jedoch anfällig für einen unvermeidlichen Zusammenbruch.
 
-![Ponzi-Schema](assets/prerequis/7.JPG)
+![Ponzi-Schema](assets/prerequis/7.webp)
+
 Diese Systeme werden oft durch zweifelhafte Elemente gekennzeichnet, wie zum Beispiel den Mangel an intrinsischem Wert, unrealistische Renditeversprechen und Marketingtaktiken, die Empfehlungen zur Anwerbung neuer Investoren fördern. Unveränderliche Auszahlungsfristen und die Verwendung gefälschter Profile in sozialen Netzwerken zur Werbung sind ebenfalls deutliche Anzeichen für diese Betrügereien. Aufgrund ihrer illegalen und unmoralischen Natur sowie des finanziellen Risikos, das sie darstellen, ist es wichtig, sie zu vermeiden.
 Letztendlich sind diese Systeme zum Scheitern verurteilt. Im Laufe der Zeit wird die Anforderung einer wachsenden Anzahl neuer Teilnehmer, um das System aufrechtzuerhalten, unüberwindbar. Wenn dieser Punkt erreicht ist, verschwindet die Illusion, das System bricht zusammen und die Investoren stehen oft ohne Möglichkeit zur Rückgewinnung ihrer Investition da.
 
@@ -79,7 +83,7 @@ Es sei darauf hingewiesen, dass der Inhalt dieses Kurses ausschließlich zu Bild
 
 Das Pump and Dump (P&D) ist eine berüchtigte Form der Finanzmanipulation, die erhebliche Störungen auf den Märkten verursachen kann. Es zeichnet sich durch koordinierte Angriffe aus, die darauf abzielen, den Preis eines Vermögenswerts künstlich zu erhöhen, indem verschiedene Mechanismen wie aggressives Marketing, die Verwendung von Algorithmen oder künstlicher Intelligenz eingesetzt werden. Das Ziel besteht darin, diese überbewerteten Vermögenswerte anschließend zu verkaufen und Gewinne zu erzielen.
 
-![Pump and Dump](assets/prerequis/8.JPG)
+![Pump and Dump](assets/prerequis/8.webp)
 
 Die Pump and Dump-Strategie folgt in der Regel einem festgelegten Muster:
 
@@ -90,13 +94,14 @@ Die Pump and Dump-Strategie folgt in der Regel einem festgelegten Muster:
 5. Der massive Verkauf führt zu einem abrupten Preisverfall des Vermögenswerts und hinterlässt viele Investoren mit erheblichen Verlusten.
 
 Es ist wichtig zu verstehen, dass die Teilnahme an solchen Strategien illegal ist und zu Klagen wegen Marktmanipulation führen kann. Darüber hinaus werden diese Strategien oft von einflussreichen Gruppen orchestriert, die Mitgliedschaftsgebühren verlangen. Obwohl einige Teilnehmer kurzfristige Gewinne erzielen können, sind Pump-and-Dump-Strategien in der Regel langfristig nicht rentabel.
+
 Daher wird empfohlen, sich auf finanzielle Bildung und verantwortungsbewusstes Investieren zu konzentrieren, anstatt sich von solchen manipulativen Taktiken verführen zu lassen. Der Erwerb solider Kenntnisse und die Annahme eines langfristigen Ansatzes sind entscheidende Schlüssel zum Erfolg in der Investmentwelt.
 
 Betrügereien im Zusammenhang mit Online-Wettbewerben oder Spenden sind im Kryptosektor sehr verbreitet. Anzeigen, die kostenlose Bitcoins versprechen, werden oft verwendet, um unerfahrene Benutzer zu täuschen. Wichtige Prinzipien, die im Hinterkopf behalten werden sollten, sind niemals Bitcoins zu senden und dabei zu erwarten, welche im Gegenzug zu erhalten, sowie Vorsicht vor unrealistischen Renditeversprechen. Es ist wichtig, nicht blind zu vertrauen, insbesondere wenn es um Banner im Internet geht.
 
 Ein klassisches Beispiel für diese Art von Betrug ist das Angebot, die gesendeten Bitcoins zu verdoppeln oder übermäßig zu multiplizieren. Es ist wichtig zu verstehen, dass es keine magische Lösung gibt, um sofort reich zu werden.
 
-![Spendenbetrug](assets/prerequis/9.JPG)
+![Spendenbetrug](assets/prerequis/9.webp)
 
 Eine weitere häufig verwendete Taktik ist das Verschenken von "Shitcoins" oder Kryptowährungen mit geringem Wert. Einige zentralisierte Kryptowährungsprojekte betreiben viel Marketing und bieten kostenlose Tokens als Geschenk an. Bei solchen Angeboten ist Vorsicht geboten, da entweder der Token keinen Wert hat oder das Geschenk lediglich dazu dient, Aufmerksamkeit zu erregen und den Handel, das Glücksspiel und andere Betrügereien zu fördern. Auch wenn diese Angebote nicht immer betrügerisch, illegal oder irreführend sind, ist Vorsicht geboten.
 Auf Twitter können Bots beispielsweise vorgeben, berühmte Persönlichkeiten zu sein und unglaubliche Angebote machen, um Menschen zu täuschen. Diese Konten verwenden denselben Namen und dasselbe Profilbild wie die betreffende Persönlichkeit und können so weniger erfahrene Benutzer täuschen. Stellen Sie immer sicher, dass Sie die Legitimität des Kontos überprüfen, bevor Sie damit interagieren.
@@ -120,7 +125,7 @@ Es ist erwähnenswert, dass einige dieser Abweichungen sehr gut finanziert sind 
 Die Welt der Kryptowährungen ist ein fruchtbarer Boden für alle Arten von Persönlichkeiten, die vom Potenzial erheblicher Gewinne angezogen werden. Leider gibt es darunter auch böswillige Individuen, die verschiedene Taktiken anwenden, um Investoren zu täuschen und zu betrügen.
 Diese Taktiken können die offene Förderung von Schneeballsystemen, die Identitätsusurpation des Bitcoin-Erfinders Satoshi Nakamoto, das Plagiat der Arbeit anderer oder die Herstellung falscher Versprechungen umfassen. Darüber hinaus erstellen einige dieser Individuen nutzlose Kryptowährungstoken und Initial Coin Offerings (ICO), um Investoren zu täuschen.
 
-![Spendenbetrug](assets/prerequis/11.JPG)
+![Spendenbetrug](assets/prerequis/11.webp)
 
 Die Bitcoin-Community mobilisiert sich oft, um diese Handlungen anzuprangern, aber es kann einige Zeit dauern, bis das Rechtssystem Maßnahmen gegen diese Individuen ergreift.
 
@@ -143,6 +148,7 @@ Es ist wichtig zu beachten, dass jeder ein eigenes Programm hat, auch ich. Ich g
 Behalten Sie immer im Hinterkopf, dass nicht jeder transparent über seine Absichten sein wird. Hinterfragen Sie immer das Ziel der Handlungen einer Person und vertrauen Sie nicht blindlings.
 
 ## Online-Sicherheit
+<chapterId>f0873bf2-6a6f-5485-bb7a-d84be14f404d</chapterId>
 
 Neben Betrügereien mit Kryptowährungen und Finanzangelegenheiten ist der Hauptgrund für den Verlust von Bitcoins eine schlechte Online-Sicherheitspraxis. Es kommt häufig vor, dass Menschen dasselbe Passwort für alle ihre Konten verwenden, vergessen, ihren Computer zu aktualisieren, und es versäumen, regelmäßig ihre Daten zu sichern. Wenn Sie sich von diesen Praktiken betroffen fühlen, machen Sie sich keine Sorgen, es ist immer möglich, Ihre Online-Sicherheitsgewohnheiten zu verbessern. Hier sind einige grundlegende Maßnahmen, die Sie ergreifen können:
 
@@ -165,12 +171,12 @@ Ein zusätzlicher Tipp: Erwägen Sie den Kauf einer externen Festplatte und erst
 
 Ein Passwort-Manager ist eine Software, die Ihre Passwörter speichert und verwaltet. Er hilft Ihnen dabei, niemals dasselbe Passwort zweimal zu verwenden, komplexe und sichere Passwörter zu wählen und erleichtert Ihnen die Verwaltung Ihrer Online-Sicherheit. Sie müssen sich nur an ein einziges Masterpasswort erinnern. Es handelt sich um ein kostenloses Tool, von dem jeder profitieren sollte. Sie können allmählich damit beginnen, es zu verwenden, und sobald Sie sich daran gewöhnt haben, werden Sie es als äußerst praktisch und einfach zu bedienen empfinden.
 
-![Passwort-Manager](assets/prerequis/12.JPG)
+![Passwort-Manager](assets/prerequis/12.webp)
 
 Die 2FA bietet einen zusätzlichen Sicherheitslayer für Ihre sensibelsten Konten, sei es Kryptowährungsplattformen, Google-/E-Mail-Konten, Banken oder Online-Shopping-Seiten. Eine zweite Identifizierung, in der Regel ein 6-stelliger Code, der von Ihrem Telefon aus zugänglich ist, ist erforderlich, um sich anzumelden. Vergessen Sie nicht, eine Sicherungskopie des Schlüssels an einem sicheren Ort aufzubewahren, falls Sie Ihr Telefon verlieren.
 
-![Passwort-Manager](assets/prerequis/3.JPG)
-![Passwort-Manager](assets/prerequis/4.JPG)
+![Passwort-Manager](assets/prerequis/3.webp)
+![Passwort-Manager](assets/prerequis/4.webp)
 
 Ein VPN, oder virtuelles privates Netzwerk, schützt Ihre Privatsphäre, indem es Ihre IP-Adresse maskiert. Obwohl es Sie nicht vollständig anonym macht, ist es dennoch ein einfacher und effektiver Schritt, um Ihre Online-Privatsphäre zu verbessern. Die Auswahl eines VPNs, das Herunterladen und die Verwendung sind einfach umzusetzende Prozesse.
 
@@ -186,6 +192,7 @@ Online-Anonymität ist für eine freie und wohlhabende Gesellschaft von entschei
 Wenn Sie sich für dieses Thema interessieren, steht Ihnen das SECU 101-Training zur Verfügung, um Sie zu begleiten.
 
 ## Tipps für Anfänger
+<chapterId>33134b3f-92c1-5185-afb6-88599e47e801</chapterId>
 
 Die formale Bildung lehrt uns nur wenig über Investitionen. Daher betreten wir oft alleine diese neue und komplexe Investitionslandschaft.
 
@@ -199,7 +206,7 @@ In diesem Abschnitt werden wir einige häufige Fehler betrachten, die Anfänger 
 - Die Bedeutung von Bescheidenheit und Diskretion.
 - Eine langfristige Perspektive einnehmen.
 
-![Passwort-Manager](assets/prerequis/0.JPG)
+![Passwort-Manager](assets/prerequis/0.webp)
 
 Bevor Sie in Bitcoin investieren, ist es wichtig, sich die Zeit zu nehmen, sich zu bilden.
 Es ist einfach, in der Bitcoin-Branche Fehler zu machen, und jeder Fehler kann teuer sein. Indem ich einige der Fallstricke teile, die ich auf meinem Investitionsweg erlebt habe, sowie diejenigen, die ich bei anderen beobachtet habe, hoffe ich, wertvolle Ratschläge zu geben, um in diesem Bereich zu navigieren. Zu diesen Fehlern gehören:
@@ -256,7 +263,7 @@ Und hier sind meine Ratschläge:
 - Eine langfristige Perspektive zu wählen, ist oft eine kluge Strategie. Den Markt ständig zu verfolgen kann komplex sein und erfordert ein Vollzeitengagement. Wie Warren Buffet sagte: "Wenn Sie nicht bereit sind, eine Aktie für zehn Jahre zu halten, ist es besser, sie überhaupt nicht zu halten, auch nicht für zehn Minuten".
 - Es ist äußerst wichtig, in Steuerangelegenheiten äußerst wachsam zu sein: Jedes Land hat seine eigenen Gesetze in Bezug auf Bitcoins. Es ist wichtig, sich über die geltende Gesetzgebung in Ihrem Land zu informieren, insbesondere in Bezug auf steuerliche Verpflichtungen. Eine schlechte Planung könnte dazu führen, dass Sie mehr Geld an das Finanzamt zurückzahlen müssen, als Sie verdient haben.
 
-  ![Steuerrecht](assets/prerequis/5.JPG)
+  ![Steuerrecht](assets/prerequis/5.webp)
 
 Das Erlernen von Investitionen ist normalerweise keine Sache, die in der Schule gelehrt wird. Daher betrachten viele Menschen Investitionen als riskante, verrückte und unzugängliche Aktivität. Um sich zu schützen, wenden sich viele an einen Banker... was sich als Fehler erweisen kann.
 
@@ -278,8 +285,10 @@ Wenn du deinen Schlüssel verlierst, verlierst du auch dein Geld. Es ist ratsam,
 Viel Glück! Ich hoffe, du begleitest mich in die Welt von Bitcoin und erlaubst mir, dich dabei zu unterstützen, deine ersten Bitcoins zu erwerben und zu sichern, ohne Risiken einzugehen!
 
 # Verständnis dessen, worauf wir uns einlassen
+<partId>a42355a3-9dd8-57ed-b590-32a333fe09ea</partId>
 
 ## Bitcoin in 5 Minuten
+<chapterId>ae122ad9-9b4d-5229-9038-e1b99d5cfc83</chapterId>
 
 In diesem Kurs möchten wir uns auf den Aktionsplan konzentrieren, um deine ersten Bitcoins zu erhalten. Wenn du eine ausführliche Erklärung der Grundlagen von Bitcoin wünschst, empfehlen wir dir BTC 101, das kostenlos auf dieser Plattform verfügbar ist.
 
@@ -287,19 +296,19 @@ Bitcoin ist ein Informatikprotokoll, das es ermöglicht, Wert ohne vertrauenswü
 
 Das berühmte Bitcoin, von dem du die ganze Zeit hörst, ist also diese digitale Währung. Bitcoin-Benutzer senden Bitcoins zwischen Wallets hin und her, und all dies funktioniert dank eines Netzwerks von Knoten (Bitcoin-Server), die die Transaktionen aller Benutzer untereinander verbreiten. Um die Endgültigkeit der Transaktionen zu gewährleisten, sind einige Akteure in diesem Netzwerk auch Miner (die berühmten Miner), deren Ziel es ist, die verbreiteten Transaktionen in die Bitcoin-Blockchain (noch berühmter) einzutragen.
 
-![in a nutshell](assets/section2/6.JPG)
+![in a nutshell](assets/section2/6.webp)
 
 Durch diesen ziemlich seltsamen Mechanismus erhalten wir eine Datenbank (die Blockchain), die zeitlich unveränderlich, räumlich dezentralisiert und weltweit ständig funktioniert.
 Dies ermöglicht es also zum ersten Mal in der Geschichte der Menschheit, ein dreifach eingebuchtes Buchführungssystem zu haben, das es jedem ermöglicht, ein alternatives Finanzsystem, das im Internet aufgebaut ist, ohne jemanden zur Kontrolle oder Zerstörung zu nutzen.
 
-![in a nutshell](assets/section2/8.JPG)
+![in a nutshell](assets/section2/8.webp)
 
 Neben seiner technischen Funktionsweise (BTC 101 erklärt es) gibt es zwei Merkmale, die Bitcoin nach 14 Jahren Existenz zu dem machen, was es heute ist:
 
 - Der erste Punkt ist, dass der Code von Bitcoin Open Source ist. Das bedeutet, dass jeder sehen kann, wie Bitcoin funktioniert, es ist transparent und daher überprüfbar. Jeder kann es also nutzen und das Protokoll ist für alle gleich, es kann keine Diskriminierung geben. Das macht Bitcoin äußerst interessant für die Verwendung als Wertübertragungssystem.
 - Der zweite Punkt liegt in seinen monetären Eigenschaften. Bitcoin ist tatsächlich selten. Es wird nur 21 Millionen davon auf der Welt geben und niemals mehr (und sogar weniger aufgrund von Verlusten). Dies ist auf die Natur des Protokolls selbst zurückzuführen, da seine monetären Eigenschaften (die Verteilungskurve der Bitcoins) von Anfang an festgelegt wurden und niemand einseitig Änderungen daran vornehmen kann. Diese Eigenschaft bedeutet, dass Bitcoin, wie Gold, nicht durch übermäßige Geldschöpfung verwässert werden kann.
 
-![in a nutshell](assets/section2/9.JPG)
+![in a nutshell](assets/section2/9.webp)
 
 Diese beiden Eigenschaften machen Bitcoin zu einem leistungsstarken technologischen und monetären Werkzeug, das nicht nur in unserer Welt innovativ ist, sondern auch Normen bricht.
 
@@ -308,9 +317,10 @@ Aufgrund dieser Eigenschaften sind viele Bitcoin-Nutzer, einschließlich mir sel
 Bitcoin ist also ein "0 zu 1", das unsere Normen und Gewohnheiten auf den Kopf stellt.
 Wenn dies für Sie neu ist, empfehle ich Ihnen dringend, BTC 101 zu verfolgen, bevor Sie sich weiterhin mit einer Technologie befassen, deren Rolle und Zweck Sie möglicherweise nicht gut verstehen.
 
-![in a nutshell](assets/section2/10.JPG)
+![in a nutshell](assets/section2/10.webp)
 
 ## Warum ist Bitcoin wichtig?
+<chapterId>d4327ac4-9ff8-5192-b542-cb78c0bd0aa7</chapterId>
 
 Warum ist die Bedeutung von Bitcoin so entscheidend? Das ist die zentrale Frage dieser Universität. Ob es um Ihr Studium oder Ihre Anlagestrategie geht, ohne ein klares Verständnis der Bedeutung von Bitcoin besteht die Gefahr, von Ihrem Aktionsplan abzuweichen. Das Ziel ist es daher, die Grundlagen von Bitcoin immer im Hinterkopf zu behalten, um sicherzustellen, dass Ihre Strategie mit Ihren Überzeugungen im Einklang bleibt.
 
@@ -324,7 +334,7 @@ Barack Obama beschrieb Bitcoin einmal als "eine Schweizer Bank in Ihrer Tasche".
 6. Keine Vermittler oder versteckten Gebühren.
 7. Bitcoin ist internetbasiert und somit für alle zugänglich, die Zugang zum Web haben.
 
-![in a nutshell](assets/section2/1.JPG)
+![in a nutshell](assets/section2/1.webp)
 
 Zusammenfassend kann Bitcoin als "Währung des Volkes" betrachtet werden.
 Philosophische Frage des Tages: In der Welt von Bitcoin stehen sich zwei Ideologien gegenüber. Möchten Sie die Milliarden von Menschen, die keinen Zugang zum Bankensystem haben, in dieses System integrieren? Oder möchten Sie die Milliarden von Menschen, die bereits im Bankensystem sind, daraus herausnehmen?
@@ -333,13 +343,13 @@ Diese Frage erfordert Nachdenken, und wir werden später darauf zurückkommen.
 
 Milliarden von Menschen leben unter den schädlichen Auswirkungen schlecht verwalteter Geldpolitik, die oft langfristig zu schweren Finanzkrisen führt. Diese Arten von Krisen sind in unserer Geschichte hunderte Male aufgetreten und werden dies weiterhin tun, solange der Wert von Geld und Zeit manipuliert wird. Diese Krisen können sich in Form von Hyperinflation, Währungskontrolle und Abwertung der Währung manifestieren.
 
-![in a nutshell](assets/section2/2.JPG)
+![in a nutshell](assets/section2/2.webp)
 
 Bitcoin bietet jedem Einzelnen die Möglichkeit, aus diesem System auszusteigen. Es ist eine ethische Entscheidung, die jeder irgendwann treffen wird. Bitcoin erleichtert den Übergang von Fiatgeld zu gesundem Geld aufgrund seiner Zensurresistenz, Teilbarkeit und Portabilität.
 
 Wussten Sie schon? In den letzten 100 Jahren gab es über 55 Fälle von Hyperinflation. Die meisten haben die Wirtschaft ihres Landes vollständig zerstört, die Ersparnisse der Bürger vernichtet und manchmal zu politischer Instabilität geführt, die zur Errichtung einer Diktatur führte (wie im Fall von Chile, Deutschland usw.). Die Zerstörung von Fiatwährungen ist kein neues Phänomen und wird weiterhin auftreten. Dank Bitcoin haben Sie jedoch jetzt die Möglichkeit, aus diesem System auszusteigen.
 
-![in a nutshell](assets/section2/3.JPG)
+![in a nutshell](assets/section2/3.webp)
 
 Die zunehmende Ungleichheit des Reichtums in der Welt hat zu einem Anstieg des Extremismus geführt, der manchmal zur Errichtung von Diktaturen geführt hat. Egal, wer Sie sind, eines Tages benötigen Sie möglicherweise Privatsphäre, um Ihre Familie, sich selbst und Ihre Ersparnisse zu schützen. Wo könnten Sie Ihre Vermögenswerte verstecken, wenn Sie politisch bedroht wären?
 
@@ -373,7 +383,7 @@ Um Ihre Souveränität zurückzugewinnen, ist es entscheidend, die Kontrolle üb
 
 Bitcoin bietet eine starke Alternative zu traditionellen Finanzsystemen. Es ermöglicht jedem, seine Privatsphäre zu wahren, sich gegen Inflation und Währungsabwertung zu schützen, autoritären Regimen auszuweichen und die Kontrolle über sein Geld zurückzugewinnen. Bitcoin ist eine gesunde Währung, die für alle unabhängig von Alter, Geschlecht, Religion oder Einkommen zugänglich ist. Indem Einzelpersonen Bitcoin annehmen, können sie für die Zukunft sparen, sich von der Kontrolle der Zentralbanken befreien und die Kontrolle über ihr finanzielles Leben zurückgewinnen. Es ist ein Werkzeug, das Machtverhältnisse ausgleicht und weltweit wirtschaftliche Freiheit fördert.
 
-![in a nutshell](assets/section2/11.JPG)
+![in a nutshell](assets/section2/11.webp)
 
 Bitcoin, eine politische Bewegung?
 
@@ -382,13 +392,14 @@ Die Hauptbefürworter von Bitcoin heute sind immer noch hauptsächlich Cyberpunk
 Bitcoin hat eine hochphilosophische, ethische und politische Dimension, ist aber völlig gleichgültig gegenüber diesen Überlegungen. Tatsächlich ist Bitcoin ein einfaches Protokoll, das den gleichen Prozess immer wieder reproduziert. Es sind seine Benutzer, die ihn zu einer Waffe der Befreiung gegen das aktuelle Finanzsystem gemacht haben. Aus der Sicht des Cyberpunk steht Bitcoin im Gegensatz zu einer bargeldlosen Gesellschaft. Es ermöglicht vollständig private und intermediärfreie digitale Finanztransaktionen. Für die Cyberpunk-Bewegung ist Bitcoin das elektronische Äquivalent von Bargeld.
 
 ## Die Bitcoin-Industrie verstehen
+<chapterId>e106c6f1-d75b-5a62-b245-0ea2e4d02ef8</chapterId>
 
 Mit der Einführung von Bitcoin im Jahr 2009 durch Satoshi Nakamoto entstand eine Milliarden-Dollar-Industrie. Diese Industrie hat trotz ihrer Jugend in den letzten zehn Jahren ein exponentielles Wachstum erlebt. Jeden Tag kommen neue Akteure mit großen Geldsummen hinzu und sind bereit, in diese neue Branche einzusteigen. Heute hat die Industrie einen Punkt erreicht, an dem Regierungen, Banken, Internetgiganten und andere mit allen möglichen Eingriffen in die Bewegung eingetreten sind.
 
 Bitcoin ist eine 0 zu 1. Es kann nicht rückgängig gemacht werden. Einige werden darin das Böse in Person sehen, die Büchse der Pandora ist geöffnet und nimmt ihnen nun ihre Macht und ihren Vorteil. Sie werden dagegen kämpfen. Andere werden in Bitcoin eine Möglichkeit sehen, Freiheit wiederzuerlangen, das System zu verändern und unsere Gesellschaft zu verbessern. Sie werden es umarmen.
 Bitcoin kümmert sich nicht darum, es existiert einfach.
 
-![Industrie](assets/industrie/2.JPG)
+![Industrie](assets/industrie/2.webp)
 
 In diesem Abschnitt werden wir einen schnellen Überblick über die Akteure geben, um besser zu verstehen, wie die Branche funktioniert, in die wir eintreten wollen.
 
@@ -428,11 +439,11 @@ Nach der ICO-Blase von 2017 begannen viele wichtige Akteure, ihre eigene Datenba
 
 Obwohl sie behaupten, mit Bitcoin zu konkurrieren, bleiben diese Projekte zentralisiert, um Kontrolle zu gewährleisten und lokale Vorschriften einzuhalten. Sie bieten keinen Datenschutz, sondern erhöhte Massenüberwachung. Das Facebook-Projekt "Libra" konkurrierte mit Banken, nicht mit Bitcoin. Außerdem hat eine "Blockchain" ohne Proof-of-Work keinen echten Wert. Es ist erwähnenswert, dass Libra seitdem aufgegeben wurde und derzeit keine echten privaten Blockchain-Projekte weltweit verwendet werden, im Gegensatz zu Bitcoin.
 
-![blockchain](assets/industrie/1.JPG)
+![blockchain](assets/industrie/1.webp)
 
 Das Bitcoin-Protokoll entzieht sich den Vorschriften. Nur die Akteure, die sich darum bewegen, können reguliert werden, und da Bitcoin dezentralisiert ist, variieren Gesetze, Steuern und Vorschriften von Land zu Land. China hat zum Beispiel die Verwendung von Bitcoin mehrmals verboten, während Länder wie Kanada, die Schweiz und Malta eine positivere Haltung dazu einnehmen. Die meisten Nationen haben Kryptografie-Arbeitsgruppen eingerichtet, um neue Regeln und Vorschriften zu entwickeln. Dieser Prozess ist jedoch langsam und die Regeln können sich recht häufig ändern. Trotz dieses langsamen Tempos sind Bitcoin und Kryptowährungen ein zentrales Thema in vielen Diskussionen.
 
-![blockchain](assets/industrie/3.JPG)
+![blockchain](assets/industrie/3.webp)
 
 Es wird empfohlen, gründliche Recherchen zur Situation in Ihrem Land durchzuführen. Banken sind auch in Bezug auf Bitcoin stark reguliert. Viele von ihnen schließen Konten und beschränken den Zugang zu Finanzdienstleistungen für Unternehmen, die mit Bitcoin handeln, während sie Forschungsteams einrichten, um diese neue Technologie zu erkunden und ihre eigene Infrastruktur zu verbessern. Kein Regulator, keine Bank oder Regierung möchte Macht verlieren, daher bereiten sie sich auf Bitcoin vor. Es ist wichtig zu beachten, dass Bitcoin als solches nicht von einer einzigen Entität geändert oder kontrolliert werden kann.
 
@@ -445,7 +456,7 @@ Die Handelsplattformen dienen als Verbindung zwischen Fiat-Währung (Regierungsw
 - Eine Option für automatische Käufe
 - Automatischer Rückzug von Bitcoins auf die eigene Wallet.
   Die meisten legalen Handelsplattformen halten sich an die geltenden Bankvorschriften. Sie haben auch strenge KYC (Know Your Customer)-Verfahren eingeführt, bei denen Sie zur Erstellung eines Kontos einen Identitätsnachweis vorlegen müssen. Daher muss die Branche der Kauflösungen in KYC- und Nicht-KYC-Lösungen unterteilt werden, wie wir bald im Detail erläutern werden.
-  ![blockchain](assets/industrie/4.JPG)
+  ![blockchain](assets/industrie/4.webp)
 
 **Vorsicht**: Der "Große Bruder" überwacht Sie angeblich zu Ihrer eigenen Sicherheit. Ihre Daten können von Ihrer Regierung verwendet werden, um Ihre Aktivitäten zu verfolgen.
 
@@ -498,13 +509,14 @@ Die Bitcoin-Entwickler können in verschiedene Abschnitte unterteilt werden:
 
 Jeder kann damit beginnen, zum Code beizutragen, aber es ist wichtig zu beachten, dass die tatsächliche Änderung des Bitcoin-Codes ein langer und komplexer Prozess ist. Darüber hinaus sind viele Bitcoin-Entwickler Enthusiasten, die viele Jahre damit verbringen, Bitcoin Improvement Proposals (BIPs) zu entwickeln, die möglicherweise nie verwendet werden. Es ist also eine komplexe und manchmal unvorhersehbare Branche. Wir werden diese Aspekte im Detail erkunden.
 
-![blockchain](assets/industrie/6.JPG)
+![blockchain](assets/industrie/6.webp)
 
 Unbegrenzte Macht? Nein. Die Hauptentwickler haben keine unbegrenzte Macht und können Bitcoin nicht alleine ändern oder kontrollieren. Die Knotenpunkte haben die Macht. Niemand kontrolliert Bitcoin.
 
-![blockchain](assets/industrie/5.JPG)
+![blockchain](assets/industrie/5.webp)
 
 ## Die Schichtenarchitektur von Bitcoin
+<chapterId>03017765-53cf-5f14-9682-e99ca02d2241</chapterId>
 
 Bitcoin, als Open-Source-Protokoll, kann von jedem mit zusätzlichen Protokoll-/Anwendungs-Schichten ergänzt und erweitert werden. Einige dieser Funktionen sind bedeutender als andere und schaffen ein dynamisches Ökosystem mit einer Vielzahl von Unternehmen, die zur Entwicklung der Infrastruktur beitragen. Beispiele für solche Projekte sind Sidechains (z.B. Liquid Chain von Blockstream), das Lightning Network von Lightning Labs und Identitätskonzepte (z.B. Microsoft ION). Diese Projekte sind wie zusätzliche Schichten, die dem ursprünglichen Bitcoin-Protokoll hinzugefügt werden.
 
@@ -533,8 +545,10 @@ Das ist die Zukunftsvision, die ich für Bitcoin habe. Es wird zu einer Autobahn
 Das ist, glaube ich, die Idee, die Andreas Antonopoulos mir vorgestellt hat. @aantonop
 
 # Umsetzung Ihres Plans
+<partId>3801faf6-7915-56fa-baf5-ee63ad03b7cf</partId>
 
 ## Wählen Sie Ihr Profil
+<chapterId>c5d87903-a5f2-5eec-887a-f662734ce49b</chapterId>
 
 Jetzt, da wir die grundlegenden Grundlagen überprüft und gelernt haben, wie man Betrügereien und Geldverluste vermeidet, können wir unseren Plan ausarbeiten. Der Plan wird zu Beginn recht einfach sein, aber es ist wichtig, loszulegen. Sie können ihn immer anpassen, während die Zeit vergeht.
 
@@ -561,6 +575,7 @@ Damit sollten Sie Ihren Bedürfnissen gerecht werden, den passenden Plan auswäh
 **Hinweis:** Wenn Sie den privaten Schlüssel (eine Liste von 24 Wörtern) nicht besitzen, ist eine dritte Partei für die Sicherheit Ihrer Bitcoins verantwortlich. Mit anderen Worten, Sie besitzen Ihre Bitcoins nicht mehr. Sie unterliegen denselben Risiken wie Handelsplattformen, wie z.B. Hacking, Beschlagnahmung, Regulierung oder Insolvenz.
 
 ## Der Hodler
+<chapterId>baf1adc2-3828-5265-8ee5-130be547585c</chapterId>
 
 Ob in Investitionen oder in Bitcoin, langfristige Anlagen sind in der Regel die Norm. Statistisch gesehen sind sie langfristig am rentabelsten und am einfachsten umzusetzen:
 
@@ -568,7 +583,7 @@ Man kauft und tut dann nichts mehr. (Beachten Sie, dass nichts zu tun der schwie
 
 In Bitcoin wird dieser Anlegertyp als Hodler bezeichnet, weil er Bitcoin langfristig "hodlt" (aufbewahrt). Diese Personen setzen sich also dem Risiko von Bitcoin aus, setzen darauf, dass BTC morgen mehr genutzt und daher seltener sein wird. Sie werden weiterhin gelegentlich automatisch kaufen und alles sicher in ihrer Cold Wallet aufbewahren.
 
-![hodl](assets/plan/0.JPG)
+![hodl](assets/plan/0.webp)
 
 ### Hier ist der Plan:
 
@@ -583,11 +598,16 @@ Für diesen Anlegertyp wird empfohlen, zu Beginn eine Cold Wallet wie den Bitbox
 
 Relevante Wallet-Tutorials:
 
-- Ledger; Bitbox02; Cold Card: Trezor
+- [Ledger](https://planb.network/tutorials/wallet/ledger)
+- [bitbox02](https://planb.network/tutorials/wallet/bitbox02)
+- [Cold card](https://planb.network/tutorials/wallet/coldcard)
+- [Trezor](https://planb.network/tutorials/wallet/trezor)
 
 Handelsplattformen:
 
-- Eine effiziente große Börse wie Bitstamp, Binance, Kraken
+- [bitstamp](https://planb.network/tutorials/exchange/bitstamp)
+- [bifinex](https://planb.network/tutorials/exchange/bitfinex)
+- [kraken](https://planb.network/tutorials/exchange/kraken)
 
 Wenn der Hodler weiter gehen möchte: Einrichtung eines DCA-Plans wie Stacker und eines Hot Wallets LN für den Gebrauch, um etwas Bitcoin auszugeben.
 
@@ -603,6 +623,7 @@ Hier ist ein kleines psychologisches Porträt des Hodlers, wenn Sie sich darin w
 
 - Selbstbeherrschung:
   Der Hodler ist äußerst diszipliniert. Wie bereits erwähnt, ist das Schwierigste, nichts zu tun, und das erfordert eine große Selbstdisziplin, um der Versuchung zu widerstehen, bei kurzfristigen Preisspitzen zu verkaufen.
+
 - Widerstandsfähigkeit:
   Angesichts von Preisrückgängen und Marktvolatilität bleibt der Hodler widerstandsfähig und behält den Glauben an seine Investition und das zukünftige Wachstum von Bitcoin.
 
@@ -612,8 +633,11 @@ Hier ist ein kleines psychologisches Porträt des Hodlers, wenn Sie sich darin w
 Insgesamt ist der Hodler ein geduldiger, disziplinierter und visionärer Investor, der fest an den langfristigen Wert von Bitcoin glaubt und bereit ist, kurzfristige Volatilität zu ertragen, um in Zukunft erhebliche Gewinne zu erzielen. Er ist methodisch in seiner Anlagestrategie und achtet auf Sicherheit und langfristige Planung.
 
 ## Der Stacker
+<chapterId>0daf450d-1b91-5d99-9c31-b52ab52a5e21</chapterId>
 
 In Bitcoin ist das Konzept des "Stackers" ziemlich bekannt. Die Idee ist einfach: Es gibt nur 21 Millionen Bitcoins, und jeder kleine Bitcoin zählt! Dieser kleine Bitcoin wird tatsächlich Satoshi (oder SAT) genannt. Der Stacker hat es sich zum Ziel gesetzt, so viele wie möglich anzusammeln.
+
+![image](assets/tuto/11.webp)
 
 ### Der Plan
 
@@ -627,11 +651,23 @@ Andere Lösungen könnten darin bestehen, damit zu beginnen, Waren oder Dienstle
 
 ### Tutorials:
 
-- Eine Hot Wallet, um schnell anzusammeln.
+Eine Hot Wallet, um schnell anzusammeln.
 
-- Eine Cold Wallet für langfristige Sicherheit.
+- [Blue Wallet](https://planb.network/tutorials/wallet/blue-wallet)
+- [Green Wallet](https://planb.network/tutorials/wallet/green-wallet)
+- [Phoenix](https://planb.network/tutorials/wallet/phoenix)
 
-- Eine DCA-Plattform zum Anhäufen von Bitcoin.
+Eine Cold Wallet für langfristige Sicherheit.
+
+- [Ledger](https://planb.network/tutorials/wallet/ledger)
+- [bitbox02](https://planb.network/tutorials/wallet/bitbox02)
+- [Cold card](https://planb.network/tutorials/wallet/coldcard)
+- [Trezor](https://planb.network/tutorials/wallet/trezor)
+
+Eine DCA-Plattform zum Anhäufen von Bitcoin.
+
+- [Relai](https://planb.network/tutorials/exchange/relai)
+- [Bull Bitcoin](https://planb.network/tutorials/exchange/bull-bitcoin)
 
 Ein solches Profil kann natürlich auch einen Broker nutzen, um einen großen Kauf auf einmal zu tätigen, wie ein Hodler, aber im Allgemeinen besteht das Stacking-Konzept darin, regelmäßig Satoshis zu seinem Portfolio hinzuzufügen. Ein häufigerer Ansatz wäre also, Bitcoin peer-to-peer zu nutzen und Bitcoin direkt mit Bargeld von Freunden oder Mitgliedern der Bitcoin-Community zu kaufen.
 
@@ -641,6 +677,7 @@ Psychologisches Porträt des Stackers
 
 - Strategisch und organisiert:
   Der Stacker ist in seinem Ansatz, Bitcoin anzusammeln, strategisch. Er plant sorgfältig seine Investitionen und ist organisiert bei der Umsetzung seines DCA-Plans.
+
 - Fokussiert auf Ziele:
   Sein Hauptziel ist klar: so viele Satoshis wie möglich anzusammeln. Diese Fokussierung leitet seine Handlungen und Investitionsentscheidungen, unabhängig davon, ob der Preis explodiert oder drastisch fällt.
 
@@ -653,8 +690,11 @@ Psychologisches Porträt des Stackers
 Der Stacker ist eine methodische und fokussierte Person mit einem klaren Plan, um seine Satoshis-Ansammlung zu maximieren. Er zeigt Proaktivität und finanzielles Verständnis, indem er ständig nach Möglichkeiten sucht, seine Bitcoin-Investitionen zu optimieren und abzusichern. Sein Ansatz zeichnet sich durch Regelmäßigkeit und eine fehlerlose Organisation aus und führt ihn auf den Weg zu einem stabilen und kontinuierlichen Wachstum seines Bitcoin-Portfolios.
 
 ## Der Benutzer
+<chapterId>e0a022ab-207c-571f-b4ad-c432214a756c</chapterId>
 
 Schließlich ist der letzte Typ von Bitcoiner, der in einem Einführungskurs erwähnt werden kann, der Bitcoiner, der Bitcoin regelmäßig nutzen muss. Ob aus beruflichen Verpflichtungen oder einfach aus dem Wunsch, das Ökosystem zu unterstützen, es ist notwendig, Lösungen für den häufigen Gebrauch vorzusehen.
+
+![image](assets/tuto/12.webp)
 
 ### Der Plan
 
@@ -672,12 +712,24 @@ Um sich Bitcoin auszusetzen, hat dieser Profiltyp mehrere Optionen:
 
 ### Tutorial
 
-- Hot Wallet LN
+Hot Wallet LN
 
-- Cold Wallet
+- [Phoenix](https://planb.network/tutorials/wallet/phoenix)
+- [Wallet of Satoshi](https://planb.network/tutorials/wallet/wallet-of-satoshi)
+- [Breez](https://planb.network/tutorials/wallet/breez)
 
-- Kaufplattform
-  **Bedarf:** Eine Lightning Wallet wie [Phoenix](https://phoenix.acinq.co/) oder [Wallet of Satoshi](https://www.walletofsatoshi.com/), eine Cold Wallet wie [Coldcard](https://coldcard.com/), [Trezor](https://trezor.io/), [Jade](https://blockstream.com/jade/), [Foundation](https://foundationdevices.com/), [Bitbox 02](https://bitcoin.org/en/wallets/hardware/bitbox/), [Ledger](https://www.ledger.com/) und eine schnelle Kauf-/Verkaufslösung wie [Kraken](https://www.kraken.com/) oder [Robosats](https://learn.robosats.com/).
+Cold Wallet
+
+- [Ledger](https://planb.network/tutorials/wallet/ledger)
+- [bitbox02](https://planb.network/tutorials/wallet/bitbox02)
+- [Cold card](https://planb.network/tutorials/wallet/coldcard)
+- [Trezor](https://planb.network/tutorials/wallet/trezor)
+
+Kaufplattform
+
+- [Robosats](https://planb.network/tutorials/exchange/robosats)
+- [kraken](https://planb.network/tutorials/exchange/kraken)
+
 
 ### Ist dies für Sie?
 
@@ -693,8 +745,11 @@ Um sich Bitcoin auszusetzen, hat dieser Profiltyp mehrere Optionen:
 Der Benutzer ist technisch versiert und aktiv in der Nutzung von Bitcoin engagiert. Er sucht ständig nach Möglichkeiten, die Effizienz und Sicherheit seiner Transaktionen und Bitcoin-Bestände zu verbessern. Seine Flexibilität und sein Engagement für das Ökosystem spiegeln sich in seiner Bereitschaft wider, verschiedene Lösungen von Lightning-Wallets bis hin zu schnellen Austauschlösungen zu nutzen. Obwohl er aktiv in Bitcoin-Transaktionen involviert ist, vernachlässigt er nicht die Sicherheit und achtet darauf, eine klare Trennung zwischen seinen Bitcoins für den täglichen Gebrauch und denen, die langfristig aufbewahrt werden, aufrechtzuerhalten.
 
 ## Der Paranoide
+<chapterId>5c624acd-662e-5134-ab7a-fb75cde7c3f8</chapterId>
 
 An dieser Stelle möchte ich den paranoiden Bitcoin-Nutzer hinzufügen. Diese Art von Person möchte sich nicht dem KYC (Know Your Customer) aussetzen, bevorzugt Anonymität und legt großen Wert auf ihre Privatsphäre. Der Paranoide wird auch LN über seinen eigenen Knoten verwenden und an seiner Sicherheit arbeiten.
+
+![image](assets/tuto/13.webp)
 
 ### Der Plan
 
@@ -708,9 +763,19 @@ Anschließend muss er lernen, seine Coins zu mischen, seine UTXOs (Unspent Trans
 
 ### Tutorial:
 
-- Hot Wallet: [Samourai Wallet](https://samouraiwallet.com/)
-- Cold Wallet: [Coldcard](https://coldcard.com/) und/oder [Seed Signer](https://seedsigner.com/) (DIY-Wallet)
-- Nicht-KYC-Kauf zwischen Privatpersonen: [Peach](https://peachbitcoin.com/), [Robosats](https://learn.robosats.com/), [Bisq](https://bisq.network/), [HodlHodl](https://hodlhodl.com/)
+Hot Wallet: 
+- [Samourai Wallet](https://planb.network/tutorials/wallet/samourai)
+
+Cold Wallet: 
+- [Coldcard](https://planb.network/tutorials/wallet/coldcard)  
+- [Seed Signer](https://planb.network/tutorials/wallet/seed-signer) (DIY-Wallet)
+
+Nicht-KYC-Kauf zwischen Privatpersonen:
+
+- [Peach](https://planb.network/tutorials/exchange/peach-wallet)
+- [Robosats](https://planb.network/tutorials/exchange/robosats)
+- [Bisq](https://planb.network/tutorials/exchange/bisq)
+- [HodlHodl](https://planb.network/tutorials/exchange/hodlhodl)
 
 ### Ist es für Sie?
 
@@ -732,8 +797,10 @@ Anschließend muss er lernen, seine Coins zu mischen, seine UTXOs (Unspent Trans
 Im Geiste des Paranoikers sind Vorsicht, Sicherheit und Anonymität von größter Bedeutung. Diese Prioritäten bestimmen einen bewussten und wohlüberlegten Ansatz für die Verwendung von Bitcoin, der Selbstständigkeit und Vorsicht fördert. Der Paranoiker ist bereit, Zeit und Mühe zu investieren, um die Sicherheit und Vertraulichkeit seiner Bitcoins zu gewährleisten und geschickt im Ökosystem zu navigieren, um unnötige Exposition zu vermeiden. Obwohl er für manche übermäßig vorsichtig erscheinen mag, betrachtet der Paranoiker seine Sorgfalt und Aufmerksamkeit für Details als wesentlich für eine erfolgreiche und sichere Teilnahme an der Welt von Bitcoin.
 
 # Die Zukunft mit Bitcoin
+<partId>98199b14-ad0f-5da7-ae99-8e5f5819f153</partId>
 
 ## Erstellung eines Nachlassplans
+<chapterId>233c88d3-2e8e-5eba-ac06-efe67a209038</chapterId>
 
 Stellen Sie sich das folgende dramatische Szenario vor.
 Ein Autounfall, BOOM, und du bist nicht mehr in dieser Welt. Du verschwindest und lässt deine Familie ohne ihren Bitcoin-Experten zurück. Sie wissen nicht, wo das Geld ist, erinnern sich aber daran, dass du ständig von Begriffen wie Schlüssel, Wortliste und der Unumkehrbarkeit von Bitcoin-Transaktionen gesprochen hast. Sie sind am Boden zerstört, verwirrt und müssen nun alles selbst verstehen. Obwohl diese Situation beängstigend erscheinen mag, ist sie eine reale Möglichkeit, die nicht vernachlässigt werden kann. Du hast dann zwei Möglichkeiten: Entweder widmest du 15 Minuten bis 1 Stunde, um einen Nachfolgeplan zu erstellen, oder du tust nichts. Niemand wird dich dafür verurteilen, aber wenn Menschen von dir abhängig sind, könnten diese 15 Minuten einen großen Unterschied an einem Tag machen. Die Entscheidung liegt bei dir.
@@ -752,7 +819,7 @@ Urheberrecht: Die nächste Lektion stammt nicht von mir...
 
 Die meisten Konzepte, Ideen und Handlungen, die in dieser Lektion (6.1 BRH) vorgeschlagen werden, stammen aus dem Buch von Pamela Morgan mit dem Titel "Cryptoasset Inheritance Planning". Dieses Buch bietet einen einfachen, schrittweisen Prozess, um schnell deinen Bitcoin-Nachfolgeplan aufzustellen. Dieser Prozess wurde von vielen Sicherheitsexperten der Branche validiert. Obwohl dies ein ausgezeichneter Ausgangspunkt für die Erstellung eines Nachfolgeplans ist, stellt er KEINE rechtliche Beratung dar und du solltest immer (wie immer) die Quellen überprüfen, Ideen konfrontieren und deine eigenen Recherchen durchführen. Pamela hat mir großzügigerweise erlaubt, ihre Arbeit zu nutzen. Dafür danke ich ihr herzlich.
 
-![pamela morgan](assets/heritage/0.JPG)
+![pamela morgan](assets/heritage/0.webp)
 
 In dieser Lektion werden wir uns nur auf den ersten Teil ihres Buches konzentrieren. Ich werde die Rolle eines typischen Bitcoin-Benutzers übernehmen, um seinen eigenen Nachfolgebrief zu erstellen. Der Prozess wird vorerst einfach sein, und wir werden später eine komplexere Version mit verschiedenen Arten von Profilen erstellen. Wir werden den Weg von Cédric verfolgen:
 
@@ -796,11 +863,13 @@ Es wird immer einen Kompromiss zwischen technischer Expertise, Verfügbarkeit un
 
 Aufteilung der Verantwortlichkeiten: Die Vertrauensperson sollte NIEMALS Zugriff auf Ihren privaten Schlüssel haben. Ihre einzige Aufgabe besteht darin, Ihren Angehörigen dabei zu helfen, das Sicherheitssystem Ihrer Bitcoins zu verstehen und Vertrauen aufzubauen. Deshalb wählen Sie zwei vertrauenswürdige Personen aus. Bei Bedarf können Sie auch auf eine Drittpartei (spezialisierter Anwalt oder Nachlassplanungsdienste) zurückgreifen.
 
-| Vertrauensperson      | Vertrauen        | BTC-Kenntnisse | Vertrauenswürdige Informationen | Hinweis                                                                                  |
-| --------------------- | ---------------- | -------------- | ------------------------------- | ---------------------------------------------------------------------------------------- | --- | ------------------ | ---- | ---------------- | ------------------- | ------------------------------------------------------------------------------------------------ |
-| Mein Bruder Bob       | Sehr groß        | Niedrig        | Telefon & E-Mail                | "Bob weiß nicht viel über BTC, aber wir können ihm zu 100% vertrauen, um zu helfen."     |     | Mein Cousin Nathan | Groß | Durchschnittlich | Telefon & Instagram | Die Nummer 1 der Personen, mit denen man sprechen kann. Er kann Ihnen helfen. Er ist informiert. |
-| Ricco (Crypto-Kumpel) | Durchschnittlich | Sehr groß      | Twitter & E-Mail & Foto         | Vertrauen Sie ihm bei technischen Fragen. Niemals mit Geld. Sie müssen ihn kontaktieren. |
-| YouTuber & Influencer | Niedrig          | Groß           | YouTube-Link                    | Bilden Sie sich weiter, indem Sie ihm folgen. Er kann Ihnen nicht direkt helfen.         |
+| Vertrauensperson         | Vertrauen      | BTC-Kenntnisse  | Vertrauenswürdige Informationen | Hinweis                                                                                      |
+|--------------------------|----------------|-----------------|---------------------------------|---------------------------------------------------------------------------------------------|
+| Mein Bruder Bob          | Sehr groß      | Niedrig         | Telefon & E-Mail                | "Bob weiß nicht viel über BTC, aber wir können ihm zu 100% vertrauen, um zu helfen."        |
+| Mein Cousin Nathan       | Groß           | Durchschnittlich| Telefon & Instagram             | "Die Nummer 1 der Personen, mit denen man sprechen kann. Er kann Ihnen helfen. Er ist informiert." |
+| Ricco (Crypto-Kumpel)    | Durchschnittlich| Sehr groß       | Twitter & E-Mail & Foto         | "Vertrauen Sie ihm bei technischen Fragen. Niemals mit Geld. Sie müssen ihn kontaktieren."  |
+| YouTuber & Influencer    | Niedrig        | Groß            | YouTube-Link                    | "Bilden Sie sich weiter, indem Sie ihm folgen. Er kann Ihnen nicht direkt helfen."          |
+
 
 ### Schritt 2: Machen Sie eine einfache und schnelle Bestandsaufnahme
 
@@ -841,7 +910,7 @@ Der Brief sollte klar und hilfreich sein. Es ist kein Testament, kein Brief, um 
 
 Hier ist ein Auszug aus dem Musterbrief an einen Angehörigen aus Anhang E des Buches von Pamela Morgan, "Cryptoasset Inheritance Planning". Um es an unser Beispiel anzupassen, habe ich einige Passagen geändert, die ich in Klammern gesetzt und blau markiert habe. Der Rest des Textes ist der Originaltext aus dem Buch. (Übersetzt von Découvre Bitcoin)
 
-![pamela morgan](assets/heritage/0.JPG)
+![pamela morgan](assets/heritage/0.webp)
 
 "Datum: 26/06/2020
 Liebe Liz & Maia,
@@ -892,8 +961,10 @@ _Cryptoasset Inheritance Planning, Ein einfacher Leitfaden für Besitzer, Pamela
 Sie sind die Besten :D Mein Team und meine Schüler danken Ihnen ebenfalls!
 
 # Dankeschön und weiterhin den Kaninchenbau erkunden
+<partId>2a6ec097-a3e7-5f1d-a1ec-ae2b0b199e40</partId>
 
 ## Herzlichen Glückwunsch! SIE GEHÖREN ZU DEN TOP 0,1%
+<chapterId>5f4cfab9-9af1-584b-a1fe-a0769a991f19</chapterId>
 
 Wenn Sie unserem Inhalt von Anfang an gefolgt sind, sind Sie jetzt ein echter Bürger des 21. Jahrhunderts und einer der erfahrensten im Bereich Bitcoin! Sie verwenden einen Passwort-Manager und die Zwei-Faktor-Authentifizierung (2FA). Sie verstehen, was Bitcoin ist und warum es wichtig ist. Sie besitzen Bitcoins und haben eine sichere Möglichkeit, mehr zu kaufen oder zu verdienen. Sie haben Ihre Bitcoins in einer "kalten" Brieftasche gespeichert und eine angemessene Schlüsselverwaltung eingerichtet. Sie haben einen Nachlassplan für Ihre Angehörigen erstellt. Sie sind jetzt sicher und können sich entspannen! Genießen Sie ein Bier und seien Sie stolz auf sich!
 
@@ -910,7 +981,6 @@ Ich bin wirklich stolz, dass Sie diesen Meilenstein erreicht haben. Ich meine es
 In jedem Fall bleiben alle unsere Schulungen kostenlos, und es stehen viele Ressourcen oder Tutorials auf unserer Plattform zur Verfügung, um Sie zu begleiten. Viel Erfolg bei Ihren Studien!## Beachten Sie die Schulung!
 
 ## Unterstützen Sie die Schulung!
+<chapterId>b082b8eb-dabc-5d79-94cf-eb8f48fc1968</chapterId>
 
 Dieser Kurs sowie der gesamte Inhalt dieser Universität werden Ihnen kostenlos von unserer Community zur Verfügung gestellt. Um uns zu unterstützen, können Sie ihn mit anderen teilen, Mitglied der Universität werden und sogar über GitHub zu ihrer Entwicklung beitragen. Im Namen des gesamten Teams, vielen Dank!
-
-## gehen Sie weiter

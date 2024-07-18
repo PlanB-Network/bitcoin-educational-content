@@ -1,0 +1,9 @@
+question: Unter den Antworten, welche repräsentiert eines der Hauptziele der Kettenanalyse?
+answer: Verschiedene Aktivitäten auf Bitcoin zusammenfassen, um die Einzigartigkeit des Benutzers zu bestimmen.
+wrong_answers:
+  - Die Mining-Leistung im Netzwerk optimieren.
+  - Gerechtigkeit im Protokoll verwalten, um das Gesetz gemäß den Gerichtsbarkeiten durchzusetzen.
+  - Die Vertraulichkeit von Bitcoin-Transaktionen erhöhen.
+explanation: |
+  Eines der Ziele der Kettenanalyse ist es, verschiedene Aktivitäten auf Bitcoin zusammenzufassen, um die Einzigartigkeit des Benutzers, der sie durchgeführt hat, zu bestimmen. Anschließend wird versucht, dieses Bündel von Aktivitäten mit einer realen Identität zu verknüpfen.
+reviewed: false

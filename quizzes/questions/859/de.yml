@@ -1,9 +1,0 @@
-question: Wer ist der Kursleiter des Kurses?
-answer: "Théomo Jeunet"
-wrong_answers:
-  - "Théo Mogenet"
-  - Descoupes Bitcoin
-  - Keiner der oben genannten
-explanation: |
-  "Im Kapitel wird erwähnt, dass der Kursleiter des Kurses Théomo Jeunet ist, ein leidenschaftlicher und kompetenter Professor für österreichische Wirtschaft."
-reviewed: false

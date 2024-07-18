@@ -1,0 +1,9 @@
+question: ¿Cuál es la principal desventaja de los Cajeros Automáticos (ATM)?
+answer: A menudo, tarifas muy altas.
+wrong_answers:
+  - Necesidad de una conexión a internet rápida.
+  - Falta de soporte para monedas locales.
+  - Seguridad de la transacción no garantizada.
+explanation: |
+  Comprar bitcoins a través de cajeros automáticos es una solución interesante para la privacidad del usuario, pero su principal desventaja es que a menudo cobran tarifas exorbitantes.
+reviewed: false

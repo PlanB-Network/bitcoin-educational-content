@@ -17,14 +17,16 @@ Cette école de pensée a déjà plusieurs siècles d'existence et compte de nom
 +++
 
 # Introduction à ECON
+<partId>265aa8b0-dd89-5456-b72a-656e988013d5</partId>
 
 ## Introduction
+<chapterId>eae3de7b-cce6-516d-83d9-28fbd582c0ca</chapterId>
 
 Bonjour à tous et bienvenue à l'Econ 201 : Introduction à l'économie autrichienne.
 
 Dans ce cours proposé par Théo Mogenet, vous découvrirez cette branche de l'économie qui diffère grandement de la doctrine keynésienne. Jusqu'à présent, vous avez peut-être appris que la production et la gestion de la monnaie étaient du ressort des banques centrales, avec l'idée que l'impression monétaire et les dépenses favorisent la croissance. Cependant, il existe une autre école de pensée économique : l'économie autrichienne. Avec plus de 200 ans de recherche et de développement, de réflexions philosophiques et d'écrits d'auteurs renommés, cette approche met l'accent sur une vision plus sobre de la croissance et de la rationalité humaine dans notre économie.
 
-En réalité, l'économie est un domaine extrêmement social et complexe, composé d'une myriade de petits acteurs interconnectés qui contribuent ensemble à former un ensemble cohérent. Plutôt que d'aborder cette discipline à travers des équations mathématiques, nous devons la comprendre du point de vue de la logique humaine et de la sociologie. Dans ce cours, nous explorerons les concepts fondamentaux de l'économie autrichienne. Votre instructeur, Théomo Jeunet, est un professeur passionné et compétent en économie autrichienne.
+En réalité, l'économie est un domaine extrêmement social et complexe, composé d'une myriade de petits acteurs interconnectés qui contribuent ensemble à former un ensemble cohérent. Plutôt que d'aborder cette discipline à travers des équations mathématiques, nous devons la comprendre du point de vue de la logique humaine et de la sociologie. Dans ce cours, nous explorerons les concepts fondamentaux de l'économie autrichienne. Votre instructeur, Théo Mogenet, est un professeur passionné et compétent en économie autrichienne.
 
 Pour commencer, nous vous proposons une vidéo bonus qui expliquera comment fonctionne notre système financier actuel. Vous découvrirez comment les banques commerciales et les banques centrales interagissent et stimulent l'économie. Nous aborderons les acteurs majeurs de notre monde financier et comment cette centralisation du pouvoir parmi certaines institutions économiques peut conduire à des abus et des crises financières.
 
@@ -36,6 +38,7 @@ Je remercie chaleureusement Théo d'avoir produit ce cours et j'espère qu'il se
 Si vous êtes prêt à vous lancer dans cette aventure, je vous invite à cliquer sur la vidéo suivante et à commencer par la vidéo bonus sur notre système financier actuel. Je laisse maintenant la parole à Théo. Merci à lui de collaborer avec Descoupes Bitcoin pour la réalisation de cette vidéo. Je vous reverrai très bientôt. Au revoir !
 
 ## L'argent, le crédit, les banques et les banques centrales
+<chapterId>29faebd9-9326-52de-8161-e4bb33033cd6</chapterId>
 
 ![Explication du système bancaire traditionnel](https://youtu.be/pz0RxlXNs7Y)
 
@@ -53,7 +56,7 @@ Lorsqu'une institution financière détient une licence bancaire, cela signifie 
 
 Lors de l'achat de la maison, vous demandez à votre banquier de transférer de l'argent sur le compte du vendeur. Si le compte du vendeur est dans une autre banque, votre banquier informe le banquier correspondant de l'autre institution pour s'assurer que le compte du vendeur est crédité du montant correspondant, tout en débitant votre compte du montant correspondant.
 
-![image](assets/Image/1.png)
+![image](assets/Image/1.webp)
 
 Figure 1 : Création d'argent sous forme d'entrées comptables
 
@@ -71,7 +74,7 @@ Ce dilemme a donné naissance aux banques centrales modernes. Au XIXe siècle en
 
 En plus de maintenir la stabilité financière, les banques centrales sont responsables de la fixation des taux d'intérêt clés. Ces taux déterminent le coût auquel les banques agréées peuvent emprunter des fonds auprès de la banque centrale, définissant essentiellement le coût de la liquidité pour les institutions financières qui jouent un rôle crucial dans les prêts dans nos économies. Par conséquent, ces taux servent de référence pour l'ensemble du système financier. En tant qu'individu, les taux d'intérêt que vous payez sur votre prêt hypothécaire peuvent être décomposés en taux de politique monétaire et marge de la banque.
 
-![image](assets/Image/2.png)
+![image](assets/Image/2.webp)
 
 Figure2: Faillite de Lehman Brothers (15/09/2008)
 
@@ -79,7 +82,7 @@ Lors de la crise financière majeure de 2008, Lehman Brothers, une grande banque
 
 Bien que ces mesures aient empêché une vague de faillites en cascade, elles n'ont guère atténué le ralentissement économique qui a suivi. Des millions de personnes ont perdu leur emploi et leur logement, les dépenses des consommateurs ont chuté, les entreprises ont fait faillite et les banques ont subi d'importantes pertes. Malgré des taux d'intérêt historiquement bas, peu de personnes étaient disposées à emprunter, ce qui a entraîné un cercle vicieux où la diminution initiale des dépenses et des investissements se renforçait. Par conséquent, les banquiers centraux ont pris des mesures supplémentaires en mettant en œuvre des programmes d'assouplissement quantitatif (QE). Ces programmes impliquaient que les banques centrales achètent des obligations gouvernementales et des titres adossés à des créances hypothécaires auprès des banques commerciales avec des réserves de banque centrale.
 
-![image](assets/Image/3.png)
+![image](assets/Image/3.webp)
 
 Figure3: Taux d'intérêt dans les principales économies / Source: BCE
 
@@ -89,14 +92,14 @@ Contrairement à de nombreuses attentes, les programmes d'assouplissement quanti
 
 Néanmoins, un principe économique essentiel peut être tiré de cet épisode : lorsque de l'argent neuf est créé, il profite initialement à ceux qui sont les plus proches de la source de l'argent, au détriment de ceux qui en sont plus éloignés. Cette notion économique remonte au XVIIIe siècle, lorsque Richard Cantillon l'a exposée dans son "Essai sur la nature du commerce en général". On l'appelle maintenant familièrement l'"effet Cantillon".
 
-![image](assets/Image/4.png)
+![image](assets/Image/4.webp)
 
 Figure4: L'effet Cantillon en un coup d'œil / Source: River Financial
 
 Dans ce cas, les banquiers, les dirigeants de banque, les propriétaires d'actions et d'obligations, les promoteurs immobiliers, les prêteurs immobiliers et toute personne détenant des actifs financiers ou immobiliers ont reçu une manne financière, tandis que le fardeau est tombé sur tout le monde. Cette situation a perduré pendant des années et explique en grande partie l'accroissement des inégalités de richesse, le sentiment de marginalisation chez les travailleurs acharnés et la hausse apparemment inexorable des prix des actifs malgré une croissance économique anémique.
 En essence, le système est biaisé. Les banques sont intrinsèquement instables, mais leur faillite peut mettre en péril l'ensemble de l'économie. Ce risque moral incite les dirigeants de banque à prendre des risques excessifs pour maximiser les revenus de leur banque, sachant que la banque centrale les renflouera ultimement, transférant ainsi le coût aux contribuables. Dans de tels scénarios, les banquiers centraux créent les conditions d'un transfert massif du pouvoir d'achat des travailleurs acharnés et des épargnants vers les propriétaires d'actifs et ceux qui sont liés au système financier, dissociant ainsi le processus de création de richesse de l'accumulation de richesse.
 
-![image](assets/Image/5.png)
+![image](assets/Image/5.webp)
 
 Figure 5 : Répartition de la richesse en Chine + Europe + États-Unis / Source : OCDE
 
@@ -106,7 +109,7 @@ Pendant de longues périodes de politiques de taux d'intérêt nuls (ZIRP), les 
 
 Une autre conséquence involontaire de la ZIRP est qu'elle encourage les gouvernements à engager des dépenses importantes. Étant donné que les gouvernements ne supportent aucun coût d'emprunt et peuvent compter sur les banques centrales pour acheter leurs obligations par le biais de programmes d'assouplissement quantitatif, ils ont une incitation naturelle à dépenser autant que possible, en particulier dans les contextes démocratiques où les dépenses peuvent rapporter des votes. Cette tendance néglige souvent les conséquences à long terme d'une telle prodigalité budgétaire, ce qui entraîne une augmentation significative du niveau de la dette publique dans les économies développées depuis la crise financière mondiale (GFC).
 
-![image](assets/Image/6.png)
+![image](assets/Image/6.webp)
 
 Figure 6 : Dette publique et privée en % du PIB (monde, pondéré par le PIB par pays) / Source : FMI
 
@@ -125,8 +128,10 @@ Pour atteindre cet objectif, nous expliquerons les principes fondamentaux de l'"
 Dans le prochain chapitre, nous nous pencherons sur la pierre angulaire fondamentale de toute école de pensée économique : la théorie de la valeur. Les chapitres suivants exploreront l'argent en tant qu'institution sociale, la théorie du capital et du cycle économique, le défi du calcul économique, ainsi qu'un bref aperçu de l'histoire et de la méthodologie de l'école autrichienne d'économie.
 
 # Fondements théoriques
+<partId>86012c1b-cdf2-586f-8fe7-263f8287e950</partId>
 
 ## La théorie subjective de la valeur
+<chapterId>eb1608d4-5d36-56a0-bcfc-ed8c03dfa906</chapterId>
 
 > "La valeur n'existe que dans la conscience humaine"
 >
@@ -142,7 +147,7 @@ Ces questions ont occupé les économistes et les philosophes pendant de nombreu
 
 Après que la théorie de la valeur foncière des physiocrates, postulant que toute valeur provient de la terre, ait été réfutée par la théorie de la valeur du travail des économistes classiques, postulant que la valeur d'un bien découle de la quantité de travail nécessaire à sa production, c'était au tour de la théorie marginale de la valeur de supplanter cette dernière. Dans les années 1870, à la suite de Marx, le dernier des économistes classiques, trois nouvelles écoles de pensée économique ont émergé presque simultanément autour d'une théorie marginale de la valeur : l'école de Lausanne avec Léon Walras, l'école moderne ou néoclassique avec William Stanley Jevons, et l'école autrichienne avec Carl Menger. Cette révolution dans la théorie de la valeur a constitué un renouvellement significatif de la pensée économique.
 
-![image](assets/Image/7.png)
+![image](assets/Image/7.webp)
 
 De gauche à droite : William Stanley Jevons, Carl Menger, Léon Walras
 
@@ -152,7 +157,7 @@ Il est courant de présenter le marginalisme de ces trois écoles comme similair
 
 ### Valeur subjective
 
-![image](assets/Image/15.png)
+![image](assets/Image/15.webp)
 
 L'économiste autrichien réfute la conception des successeurs d'Adam Smith et abandonne l'idée que la valeur d'un bien provient de la quantité de travail utilisée dans sa production, au profit de l'idée que sa valeur est déterminée par l'individu, qui, dans chaque contexte, effectue un acte mental d'évaluation concernant une quantité spécifique d'un bien ou d'un service. Ce saut intellectuel fait par Menger remet en question l'objectivité de la valeur : pour lui, la valeur n'est pas une propriété objective des biens ; elle est simplement le résultat de la relation que l'individu entretient avec cette chose : "la valeur n'existe pas en dehors de la conscience humaine".
 
@@ -176,7 +181,7 @@ Cette conception subjective de la valeur, comprise comme une relation psychologi
 
 ### La division du travail
 
-![image](assets/Image/16.png)
+![image](assets/Image/16.webp)
 
 Visite d'une fabrique de clous, Léonard Defrance (XVIIIe siècle)
 Chacun est unique et a une situation personnelle particulière. Par conséquent, chacun possède une capacité supérieure à accomplir certaines tâches par rapport à ses pairs (avantage absolu) ou une capacité supérieure à accomplir certaines tâches par rapport à d'autres (avantage comparatif). Il ne peut en être autrement ; nier ce fait élémentaire reviendrait à prétendre que tous les êtres humains sont égaux dans tous les aspects.
@@ -210,6 +215,7 @@ S'appuyant sur les idées de la valeur ordinale subjective, Menger a expliqué l
 Les chapitres suivants seront consacrés à l'émergence de l'argent en tant que phénomène social, à la théorie du capital et de l'intérêt, qui servira de base à la théorie du cycle économique, et enfin au rôle des prix dans le calcul économique.
 
 ## L'émergence de l'argent en tant que phénomène social
+<chapterId>14ded794-0578-5478-ba5b-b2106c74f3ef</chapterId>
 
 ![Argent](https://youtu.be/Dt8ounex2jg)
 
@@ -239,7 +245,7 @@ Ce jeu illustre un problème fréquemment rencontré dans la vie réelle : en l'
 
 ### L'argent pour résoudre les problèmes de coordination
 
-![image](assets/Image/17.png)
+![image](assets/Image/17.webp)
 
 Ce problème a moins d'impact dans les petites communautés (par exemple, la famille, les cercles d'amis) car, dans ces cas, tout le monde se connaît directement, ce qui permet de se souvenir des contributions de chacun. En supposant que quitter la communauté (la désertion) entraîne un coût, un système de réputation basé sur la mémoire des agents individuels est généralement suffisant pour éviter les pièges posés par le dilemme du prisonnier.
 
@@ -259,7 +265,7 @@ Aujourd'hui, malgré l'impraticabilité d'un tel système, nous pourrions utilis
 
 ### La double coïncidence des désirs et la monétisation
 
-![image](assets/Image/18.png)
+![image](assets/Image/18.webp)
 
 L'argent peut être considéré comme la solution découverte par nos ancêtres pour résoudre ce que les économistes appellent le problème de "double coïncidence des désirs". Ce problème a trois dimensions : spatiale, temporelle et interpersonnelle.
 
@@ -292,6 +298,7 @@ Cela découle directement de la rationalité humaine ; personne ne peut ignorer 
 Dans le prochain chapitre, nous approfondirons le concept de préférence temporelle et expliquerons la perspective autrichienne sur l'intérêt et le capital, qui servira de base pour le chapitre suivant sur la théorie du cycle économique.
 
 ## Préférence Temporelle, Intérêt et Capital
+<chapterId>37732a5c-4f66-5e2d-bc2c-cc8d29693af7</chapterId>
 
 ### Préférence Temporelle
 
@@ -303,7 +310,7 @@ Cette évaluation subjective de la valeur des biens futurs par rapport aux biens
 
 Ce concept de valorisation relative des biens futurs par rapport aux biens présents est à la base du phénomène de l'intérêt. En effet, dans une économie avec des marchés du capital non manipulés, les taux d'intérêt de référence (considérés comme sans risque de défaut) sont déterminés à l'intersection de l'offre et de la demande de capital. Par conséquent, ces taux représentent l'état des préférences temporelles pour l'ensemble de l'économie : une augmentation du taux d'intérêt résulte d'une augmentation relative de la demande de capital par rapport à l'offre, indiquant des préférences temporelles plus élevées. À l'inverse, une baisse des taux d'intérêt se produit en raison d'une augmentation de l'épargne, c'est-à-dire une augmentation de l'offre de capital, indiquant une réduction des préférences temporelles.
 
-![image](assets/Image/9.png)
+![image](assets/Image/9.webp)
 
 Dans une économie où les taux d'intérêt ne sont pas manipulés par la banque centrale, nous avons tendance à observer une courbe des rendements croissante : plus la maturité de la dette est longue, plus le taux d'intérêt est élevé. La situation inverse ne peut pas se produire car cela impliquerait que l'avenir est plus certain que le présent, ce qui est une impossibilité logique.
 
@@ -311,7 +318,7 @@ Le concept de préférence temporelle et la façon dont nous exprimons notre pro
 
 ### Théorie du Capital
 
-![image](assets/Image/19.png)
+![image](assets/Image/19.webp)
 
 Au début de ce cours, nous avons vu que, pour Carl Menger, les biens ne sont considérés comme des biens économiques (valorisés) que parce qu'ils servent de moyens aux fins choisies et valorisées par les individus. Selon cette vision, toute analyse économique tourne autour de la consommation car c'est finalement l'objectif motivant derrière toute activité économique. Par conséquent, pour Menger, le point de départ de l'analyse économique est les biens de consommation, ou biens finaux, car ils représentent le but ultime de l'activité économique. Tous les autres biens de l'économie, que nous pouvons appeler "biens intermédiaires", n'ont de valeur que parce qu'ils permettent aux individus d'obtenir ces biens de consommation : ce sont des biens utilisés dans la production d'autres biens.
 
@@ -327,13 +334,13 @@ En raison de la nature séquentielle de l'action humaine, ces choix intertempore
 
 Pour illustrer ce point, revenons à l'exemple donné par Böhm-Bawerk, dans son ouvrage "Capital and Interest":
 
-![image](assets/Image/10.png)
+![image](assets/Image/10.webp)
 
 Eugen von Böhm-Bawerk (1851-1914)
 
 ### Robinson Crusoe et le détour de production :
 
-![image](assets/Image/20.png)
+![image](assets/Image/20.webp)
 
 Robinson Crusoe débarquant des provisions du naufrage, John Alexander Gilfillan (1793-1864)
 
@@ -355,13 +362,15 @@ C'est un concept tentant, bien que simple : toute extension de la structure de p
 
 Maintenant, comme mentionné dans le premier chapitre, les taux d'intérêt ont été manipulés pendant des décennies par les banques centrales, tandis que les banques commerciales accordaient des crédits sans réserves préalables, ce qui signifie que les taux d'intérêt ne représentent pas notre préférence temporelle et donnent une illusion d'épargne abondante.
 Cela est parfaitement illustré par le graphique ci-dessous : les taux longs sont inférieurs aux taux courts. Tout d'abord, cela n'a absolument aucun sens, car cela impliquerait que l'avenir est plus certain que le présent. Deuxièmement, cela suscite une interrogation sur les conséquences pour l'allocation des capitaux : si tout le monde est incité à agir comme si l'épargne était abondante, alors que les épargnants sont introuvables car ils ne sont pas récompensés pour leur épargne, quelles conséquences cela pourrait-il avoir sur l'économie ?
-![image](assets/Image/11.png)
+![image](assets/Image/11.webp)
 
 C'est ce que nous découvrirons dans le prochain chapitre consacré à la théorie autrichienne du cycle économique !
 
 # Perspectives économiques autrichiennes
+<partId>ad0fce42-2556-56b8-a093-5b4fcacc7cf3</partId>
 
 ## La théorie autrichienne du cycle économique
+<chapterId>718afaa8-ce78-58aa-9477-073eef0bd137</chapterId>
 
 ![Cycles économiques pour l'école autrichienne](https://youtu.be/CrPE6mcOjx4)
 
@@ -383,7 +392,7 @@ Pour décrire ce phénomène de désynchronisation temporelle et ses conséquenc
 
 Pour faciliter notre explication, nous reviendrons à la classification des biens de Menger et représenterons la structure productive sur un diagramme composé d'un nombre arbitraire d'étapes:
 
-![image](assets/Image/12.png)
+![image](assets/Image/12.webp)
 
 Dans le diagramme ci-dessus, les ressources initiales passent par différentes étapes de production, subissant des transformations qui les rapprochent de l'état des biens de consommation finaux (par le biais de l'interaction avec les facteurs de production d'origine : le temps, la terre, le travail). La hauteur du côté droit du triangle représente schématiquement le PIB, car elle indique la somme de tous les biens de consommation vendus sur une période. L'écart entre chaque barre correspond à la valeur ajoutée (en termes monétaires) générée par chaque étape du processus. Cette différence peut également être considérée comme le revenu associé à chaque étape (revenus - coûts).
 
@@ -391,7 +400,7 @@ Si, au niveau agrégé, les agents économiques augmentent leur épargne, la qua
 
 Nous obtiendrons alors une structure de production étendue, un changement qui peut être représenté qualitativement par le diagramme suivant:
 
-![image](assets/Image/13.png)
+![image](assets/Image/13.webp)
 
 Ici, la valeur monétaire des biens de consommation demandés a diminué, libérant des ressources pour la création d'une étape supplémentaire de production. Dans ce scénario où la baisse des taux d'intérêt est une conséquence de la diminution de la consommation, c'est-à-dire de l'augmentation de l'épargne, la surface du triangle, représentant la quantité d'argent en circulation, reste inchangée. La transformation de la structure de production (allongement) résulte simplement d'un transfert du pouvoir d'achat d'une partie de la structure à une autre.
 
@@ -406,7 +415,7 @@ Avec des taux d'intérêt plus bas, les entrepreneurs peuvent emprunter davantag
 
 Notez que c'est une conséquence logique de l'expansion du crédit. Dans la mesure où les banques produisent des médias fiduciaires en accordant des prêts, on peut naturellement s'attendre à ce que le pouvoir d'achat global augmente.
 
-![image](assets/Image/14.png)
+![image](assets/Image/14.webp)
 
 Lorsque le crédit pénètre dans l'économie par le biais de prêts aux entrepreneurs, nous devrions observer une augmentation des profits dans les secteurs de production éloignés de la consommation, et une diminution des profits relatifs dans les secteurs plus proches de la consommation. Cette rentabilité accrue soutient alors une réaffectation du capital vers ces nouvelles étapes plus intensives en capital (construction navale, automobile, construction, technologies avancées, etc.) et une diminution des investissements dans les secteurs plus proches de la consommation.
 
@@ -422,7 +431,7 @@ Un tel ajustement peut être considéré comme une période pendant laquelle la 
 
 Malheureusement, ce mécanisme dépressif est souvent interrompu par le pouvoir politique et les banques centrales qui cherchent à "stimuler" l'économie par des dépenses déficitaires et une politique monétaire accommodante.
 
-![image](assets/Image/21.png)
+![image](assets/Image/21.webp)
 
 Pour les monétaristes et les keynésiens, la cause de la dépression est un manque de demande globale, ils ne prêtent donc pas attention à l'évolution des prix relatifs, qui est pourtant au cœur du problème. Ainsi, ils croient que stimuler l'expansion du crédit (en abaissant les taux d'intérêt) et utiliser la capacité de déficit de l'État pour stimuler la demande relancera l'économie. À court terme, de telles mesures peuvent sembler produire les effets souhaités : le déficit soutient les dépenses, tandis que la baisse des taux d'intérêt entraîne une hausse des prix des actifs, ce qui encourage à son tour les détenteurs d'actifs à augmenter leurs dépenses. Cependant, cet effet de stimulation finit par s'estomper, tandis que le problème structurel persiste, voire s'aggrave, car l'attribution erronée des capitaux se poursuit grâce à des taux d'intérêt artificiellement bas.
 
@@ -437,6 +446,7 @@ Plus que toute autre école d'économie, l'école autrichienne insiste sur l'imp
 Cela sera le sujet du prochain et dernier chapitre de ce cours.
 
 ## L'impossibilité du calcul économique sous le socialisme
+<chapterId>2578a9d8-90e9-58dd-a8c5-6366948564c7</chapterId>
 
 ![L'impossibilité du calcul économique dans un système socialiste](https://youtu.be/E-9Fl6eg-mo)
 
@@ -461,7 +471,7 @@ Avec son article, Mises a introduit une nouvelle dimension dans le débat. En me
 
 ### Explication de l'Impossibilité du Calcul Économique
 
-![image](assets/Image/24.png)
+![image](assets/Image/24.webp)
 
 La plupart des malentendus sur les arguments de Mises découlent d'une mauvaise compréhension des rôles joués par les classes dirigeantes et entrepreneuriales dans une économie capitaliste. Mises n'a jamais rejeté la capacité des gestionnaires à concevoir des plans de production efficaces au sein de leurs propres opérations. Au contraire, il a souligné l'importance des entrepreneurs et des actionnaires, qui, en tant que propriétaires des moyens de production, allouent des capitaux à différents secteurs, formant ainsi des prix qui servent d'inputs dans les calculs économiques des gestionnaires.
 
@@ -477,7 +487,7 @@ Ce processus est crucial car il valide ou invalide l'efficacité de diverses act
 
 De ce point de vue, une économie planifiée de manière centralisée connaîtra inévitablement une mauvaise allocation des capitaux. À court et moyen terme, de telles mauvaises allocations peuvent passer inaperçues car il n'y a pas de prix du marché ni de faillites pour les révéler. Cependant, en raison de l'absence de rétroaction (prix) et de mécanismes de réaffectation (faillites), les erreurs s'accumuleront jusqu'à ce que le gaspillage devienne apparent par une baisse significative des conditions de vie.
 
-![image](assets/Image/22.png)
+![image](assets/Image/22.webp)
 
 ### La perspective autrichienne et les échecs des autres écoles d'économie
 
@@ -487,7 +497,7 @@ Malgré cette impressionnante prévision et de nombreuses démonstrations empiri
 
 ### La Théorie autrichienne du cycle économique en tant que cas spécifique de l'impossibilité du calcul économique sous le socialisme
 
-![image](assets/Image/23.png)
+![image](assets/Image/23.webp)
 
 Dans un chapitre précédent, nous avons élucidé la dynamique de la surinvestissement et de la mauvaise allocation des capitaux résultant de la manipulation des taux d'intérêt par les banques centrales. Fondamentalement, ce que nous avons expliqué peut être considéré comme un cas spécifique de l'impossibilité du calcul économique sous le socialisme, appliqué au domaine des marchés monétaires. Lorsque les prix sont fixés en dehors de leurs valeurs marchandes, les entrepreneurs et les allocataires de capitaux sont incités à s'engager dans des investissements qui ne peuvent pas être soutenus à long terme en raison d'un manque d'épargne. En interférant avec le système des prix, les planificateurs centraux (dans ce cas, les banquiers centraux) créent une mauvaise coordination entre les agents économiques. Dans ce cas, la mauvaise coordination intertemporelle entraîne une surinvestissement dans les biens d'investissement de plus haut niveau et une sous-investissement dans les biens d'investissement de plus bas niveau, ce qui représente une manifestation spécifique de la mauvaise allocation des capitaux entre les industries.
 
@@ -506,6 +516,7 @@ Les économistes mainstream et les planificateurs centraux n'apprécient souvent
 La tradition autrichienne incarne une approche humble de l'action humaine, tirant des implications profondes des concepts de valeur subjective, d'incertitude, de libre arbitre et de complexité. Elle explique comment l'ordre du marché, bien qu'il ne soit pas le produit d'une conception humaine, est l'institution centrale de notre développement et de notre prospérité. Si vous ne deviez retenir qu'une seule chose de ce cours, c'est que le capitalisme est devenu le système économique dominant en raison de sa capacité à s'adapter aux changements dans un monde dynamique et incertain peuplé d'individus libres.
 
 ## La Méthodologie Autrichienne
+<chapterId>419129c1-82ba-54e3-b385-95d4d89a447e</chapterId>
 
 ![la méthodologie autrichienne](https://youtu.be/hMyYGwU76dI)
 
@@ -527,8 +538,10 @@ Il est important de noter que la sélection des données, qui consiste à choisi
 La méthodologie est un aspect essentiel en économie et en sciences sociales en général. Elle influence la façon dont les questions sont posées, les hypothèses sont formulées et les données sont interprétées. Comprendre les différences méthodologiques entre les écoles de pensée économique peut nous aider à apprécier les perspectives diverses et à développer nos propres opinions sur les sujets abordés dans les épisodes précédents.
 
 # Conclusion
+<partId>ae828713-d133-559f-93c2-101cb5245fca</partId>
 
 ## Études supplémentaires
+<chapterId>64faaed4-84b9-5b8c-9736-a959e8e6cd9d</chapterId>
 
 Félicitations pour avoir terminé ce cours ECON 201 ! J'espère sincèrement que vous l'avez apprécié et que vous vous êtes ouvert de nouvelles perspectives. Votre découverte du Bitcoin ne fait que commencer, et je vous invite à explorer tous les autres cours disponibles à l'université.
 

@@ -1,0 +1,9 @@
+question: Dans une transaction de paiement simple où l'on trouve un input de 500 000 sats divisé en un output de 47 500 sats et un autre de 451 000 sats, quel UTXO est vraisemblablement le change ?
+answer: Celui de 451 000 sats.
+wrong_answers:
+  - Celui de 500 000 sats.
+  - Celui de 47 500 sats.
+  - Aucun d'entre eux.
+explanation: |
+  Lorsque l'on repère un écart suffisamment large entre 2 outputs d'une transaction sur un modèle de paiement simple, on peut estimer que la sortie la plus grande est vraisemblablement le change.
+reviewed: false

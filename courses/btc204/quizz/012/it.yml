@@ -1,0 +1,9 @@
+question: Come viene prevenuto il doppio spesa su Bitcoin?
+answer: Attraverso la trasmissione pubblica di tutte le transazioni del sistema.
+wrong_answers:
+  - Verificando l'identità degli utenti prima di ogni transazione.
+  - Revisionando periodicamente le transazioni da parte di revisori.
+  - Limitando il numero di transazioni per utente.
+explanation: |
+  Per confermare l'assenza di una transazione, e quindi evitare il doppio spesa, è necessario che ogni utente sia a conoscenza di tutte le transazioni passate.
+reviewed: false

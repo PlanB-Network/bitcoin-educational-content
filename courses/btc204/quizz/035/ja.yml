@@ -1,0 +1,9 @@
+question: アドレス再利用の発見者は誰ですか？
+answer: Satoshi Nakamoto
+wrong_answers:
+  - Vitalik Buterin
+  - Hal Finney
+  - Gavin Andresen
+explanation: |
+  この概念について最初に議論したのは、ビットコインのホワイトペーパーのパート10でSatoshi Nakamotoでした。
+reviewed: false

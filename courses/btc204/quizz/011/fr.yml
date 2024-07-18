@@ -1,0 +1,9 @@
+question: Quelle est la caractéristique la plus difficile à obtenir sur une monnaie numérique comme le bitcoin ?
+answer: L'absence de double dépense
+wrong_answers:
+  - L'intégrité
+  - L'authenticité
+  - La véracité
+explanation: |
+  Pour les monnaies numériques, s'assurer de l'absence de double dépense est plus complexe, puisque tout bien numérique est en essence de l'information. Contrairement aux biens physiques, l'information ne se divise pas lors des échanges, mais se propage en se multipliant. 
+reviewed: false

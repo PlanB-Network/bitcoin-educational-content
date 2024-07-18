@@ -1,0 +1,9 @@
+question: Quale meccanismo viene utilizzato dalle piattaforme di matchmaking peer-to-peer (P2P) online per ridurre il rischio di furto?
+answer: Un meccanismo di escrow.
+wrong_answers:
+  - Un algoritmo di abbinamento sicuro.
+  - Un meccanismo di verifica dell'email.
+  - Un meccanismo di verifica dell'identità.
+explanation: |
+  Queste piattaforme utilizzano tipicamente un meccanismo di protezione in cui i bitcoin sono trattenuti fino a quando il venditore non conferma il pagamento in valuta fiat. Questo meccanismo di trattenuta da parte di un terzo rappresenta ciò che è noto come un escrow.
+reviewed: false

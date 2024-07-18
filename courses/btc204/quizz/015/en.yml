@@ -1,0 +1,9 @@
+question: What are the 3 main steps of a blockchain analysis?
+answer: Observing the blockchain, identifying characteristics, and deducing hypotheses.
+wrong_answers:
+  - Data collection, secure storage, and reporting.
+  - Identifying users, regulating exchanges, and protecting against fraud.
+  - Data collection, random selection, and denunciation.
+explanation: |
+  Blockchain analysis first involves accessing Bitcoin blockchain data, then attempting to identify characteristics in this data, and finally making plausible interpretations.
+reviewed: false

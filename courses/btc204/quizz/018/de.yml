@@ -1,0 +1,9 @@
+question: Unter den folgenden Antworten, welche gehört nicht zu den 3 Hauptkategorien von Heuristiken und Merkmalen, die in der Kettenanalyse verwendet werden?
+answer: Kryptographiemodelle.
+wrong_answers:
+  - Transaktionsmodelle.
+  - Interne Transaktionsheuristiken.
+  - Externe Transaktionsheuristiken.
+explanation: |
+  Die in der Kettenanalyse verwendeten Heuristiken können in drei Kategorien eingeteilt werden; Transaktionsmuster (oder Transaktionsmodelle), interne Transaktionsheuristiken und externe Transaktionsheuristiken.
+reviewed: false

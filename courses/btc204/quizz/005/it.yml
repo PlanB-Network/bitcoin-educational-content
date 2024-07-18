@@ -1,0 +1,9 @@
+question: Cos'è un input in una transazione?
+answer: Un riferimento a un precedente UTXO non speso.
+wrong_answers:
+  - Un segnale di conferma dai minatori.
+  - Un nuovo blocco aggiunto alla blockchain.
+  - Un codice di verifica per rendere sicura la transazione.
+explanation: |
+  Ogni input di una transazione è un riferimento a un UTXO, il che significa l'output di una transazione precedente.
+reviewed: false

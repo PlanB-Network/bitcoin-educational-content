@@ -1,0 +1,9 @@
+question: What is the goal of the internal transaction heuristics?
+answer: To identify the exchange.
+wrong_answers:
+  - To identify fraudulent transactions in real-time.
+  - To identify transaction patterns.
+  - To identify a cluster belonging to the same entity.
+explanation: |
+  The internal heuristics allow us to identify the exchange with the aim of observing the user in subsequent transactions.
+reviewed: false

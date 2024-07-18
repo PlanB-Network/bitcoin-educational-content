@@ -1,0 +1,9 @@
+question: KYCによって引き起こされる追跡のリスクから保護するのに役立つ技術は何ですか？
+answer: Coinjoinトランザクション
+wrong_answers:
+  - VPNの使用
+  - フルノードの使用
+  - プルーフ・オブ・ワークによる検証
+explanation: |
+  Coinjoinはコインの履歴を断ち切る効果があり、KYCに関連する追跡のリスクに対抗するのに役立ちます。
+reviewed: false

@@ -1,0 +1,9 @@
+question: Nếu trong một giao dịch thanh toán đơn giản, người ta quan sát thấy cùng một loại kịch bản được sử dụng trong đầu vào và chỉ trên một trong hai đầu ra, đầu ra nào có khả năng đại diện cho tiền thối?
+answer: Đầu ra có cùng loại kịch bản với đầu vào.
+wrong_answers:
+  - Đầu ra có loại kịch bản mới nhất.
+  - Đầu ra có loại kịch bản khác với đầu vào.
+  - Đầu ra có loại kịch bản không chuẩn.
+explanation: |
+  Nếu việc tái sử dụng phiên bản xảy ra trong một giao dịch, có thể giả định rằng người dùng vẫn sở hữu UTXO liên quan. Do đó, đầu ra có cùng phiên bản kịch bản với đầu vào có khả năng là tiền thối.
+reviewed: false

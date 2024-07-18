@@ -1,0 +1,9 @@
+question: Entre las respuestas, ¿cuál representa uno de los principales objetivos del análisis de cadena?
+answer: Agrupar diversas actividades en Bitcoin para determinar la singularidad del usuario.
+wrong_answers:
+  - Optimizar el rendimiento de minería en la red.
+  - Administrar justicia en el protocolo para hacer cumplir la ley según las jurisdicciones.
+  - Aumentar la confidencialidad de las transacciones de Bitcoin.
+explanation: |
+  Uno de los objetivos del análisis de cadena es agrupar diversas actividades en Bitcoin con el fin de determinar la singularidad del usuario que las llevó a cabo. Posteriormente, será posible intentar vincular este conjunto de actividades a una identidad real.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Wer hat die Heuristik der Adresswiederverwendung entdeckt?
+answer: Satoshi Nakamoto
+wrong_answers:
+  - Vitalik Buterin
+  - Hal Finney
+  - Gavin Andresen
+explanation: |
+  Die erste Person, die dieses Konzept diskutierte, war Satoshi Nakamoto in Teil 10 des Bitcoin-Whitepapers.
+reviewed: false

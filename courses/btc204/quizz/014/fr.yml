@@ -1,0 +1,9 @@
+question: Quel est le modèle de confidentialité du système Bitcoin ?
+answer: Les transactions sont publiques, mais l'identité des utilisateurs n'est pas connue.
+wrong_answers:
+  - Seul Satoshi Nakamoto a accès aux détails des transactions.
+  - Les transactions sont chiffrées et invisibles sur le réseau.
+  - Seuls les gouvernements ont accès aux détails des transactions.
+explanation: |
+  Dans le cas de Bitcoin, puisque le flux d'information ne peut pas être cassé entre les transactions et le domaine public, le modèle de confidentialité repose sur la séparation entre l'identité de l'utilisateur et les transactions.
+reviewed: false

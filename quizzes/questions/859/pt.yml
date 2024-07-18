@@ -1,9 +1,0 @@
-question: Quem é o instrutor do curso?
-answer: "Théomo Jeunet"
-wrong_answers:
-  - "Théo Mogenet"
-  - Descoupes Bitcoin
-  - Nenhum dos acima
-explanation: |
-  "O capítulo menciona que o instrutor do curso é Théomo Jeunet, um professor apaixonado e competente de economia austríaca."
-reviewed: false

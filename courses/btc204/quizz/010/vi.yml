@@ -1,0 +1,9 @@
+question: Trên một đồng tiền, ba tiêu chí cơ bản nào cho phép một người đảm bảo rằng họ có thể sử dụng nó sau này?
+answer: Đồng tiền phải còn nguyên vẹn, chính hãng và không được chi tiêu hai lần.
+wrong_answers:
+  - Đồng tiền phải cổ xưa, hiếm và trong tình trạng tốt.
+  - Đồng tiền phải được chấp nhận rộng rãi, hợp pháp và được giữ trong ngân hàng.
+  - Đồng tiền phải được nhà nước phê duyệt, đăng ký và bền bỉ.
+explanation: |
+  Bất kỳ cá nhân hợp lý nào muốn chấp nhận một đồng tiền, dù là kỹ thuật số hay vật lý, đều đảm bảo rằng nó không bị thay đổi, thực sự là một đồng tiền thật và không thể được người phát hành sử dụng lại.
+reviewed: false

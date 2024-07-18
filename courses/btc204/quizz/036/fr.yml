@@ -1,0 +1,9 @@
+question: Pourquoi les types de scripts peu utilisés peuvent-ils être plus facilement repérables que des scripts largement utilisés ?
+answer: Car le groupe de transactions avec le même type de script est plus petit.
+wrong_answers:
+  - Car ils nécessitent plus de validations par les mineurs.
+  - Car ils utilisent des algorithmes de chiffrement plus faibles.
+  - Car ils sont plus souvent rejetés par les nœuds du réseau Bitcoin.
+explanation: |
+  Si le groupe total de transactions avec le même type de script dans lequel nous nous cachons est petit, nous sommes plus facilement repérables que dans un très grand groupe de transactions.
+reviewed: false

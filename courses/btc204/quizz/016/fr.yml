@@ -1,0 +1,9 @@
+question: Parmi les réponses, laquelle représente un des objectifs majeurs de l'analyse de chaîne ?
+answer: Regrouper diverses activités sur Bitcoin pour déterminer l'unicité de l'utilisateur.
+wrong_answers:
+  - Optimiser les performances de minage sur le réseau.
+  - Faire la justice sur le protocole pour faire valoir le droit en fonction des juridictions.
+  - Augmenter la confidentialité des transactions Bitcoin.
+explanation: |
+  Un des objectifs de l'analyse de chaîne consiste à regrouper diverses activités sur Bitcoin en vue de déterminer l'unicité de l'utilisateur les ayant effectuées. Par la suite, il sera possible de tenter de rattacher ce faisceau d'activités à une identité réelle.
+reviewed: false

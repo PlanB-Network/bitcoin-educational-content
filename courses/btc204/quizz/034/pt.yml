@@ -1,0 +1,9 @@
+question: Em uma transação de pagamento simples onde há uma entrada de 500.000 sats dividida em uma saída de 47.500 sats e outra de 451.000 sats, qual UTXO provavelmente é o troco?
+answer: A de 451.000 sats.
+wrong_answers:
+  - A de 500.000 sats.
+  - A de 47.500 sats.
+  - Nenhuma delas.
+explanation: |
+  Quando há uma diferença suficientemente grande entre duas saídas em uma transação em um modelo de pagamento simples, pode-se estimar que a saída maior provavelmente é o troco.
+reviewed: false

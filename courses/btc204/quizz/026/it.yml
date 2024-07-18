@@ -1,0 +1,9 @@
+question: Tra queste risposte, quale non è uno dei 3 principali rischi per l'utente che si sottopone al KYC?
+answer: La non fungibilità dei bitcoin acquistati
+wrong_answers:
+  - Esposizione alla sorveglianza statale
+  - Facilitazione della tracciabilità onchain
+  - Il rischio di perdita di dati
+explanation: |
+  Il KYC comporta un rischio di perdita di dati poiché le tue informazioni sono memorizzate, un rischio di esposizione alla sorveglianza statale poiché le tue informazioni possono essere trasmesse o sequestrate, e un rischio di tracciabilità, poiché il KYC può servire come punto di ingresso. Tuttavia, il KYC non riduce la fungibilità dei bitcoin acquistati.
+reviewed: false

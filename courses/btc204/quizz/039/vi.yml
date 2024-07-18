@@ -1,0 +1,9 @@
+question: Tại sao lại không nên đăng địa chỉ nhận tiền lên mạng xã hội?
+answer: Bởi vì chúng có thể được sử dụng để liên kết các hoạt động trên chuỗi với một danh tính thực.
+wrong_answers:
+  - Bởi vì chúng có thể dễ dàng bị hacker tấn công.
+  - Bởi vì chúng có thể thu hút các đề nghị gian lận và phơi bày bạn trước các chiến dịch lừa đảo.
+  - Bởi vì chúng có thể cho phép áp dụng heuristics sở hữu đầu vào chung.
+explanation: |
+  Việc chia sẻ địa chỉ Bitcoin nhận tiền trên internet có thể được sử dụng làm điểm khởi đầu cho phân tích chuỗi bằng cách liên kết một danh tính (thực tế hoặc ẩn danh) với hoạt động trên chuỗi.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Among these 4 methods of acquiring bitcoins, which one exposes you the least to the risk of key identification?
+answer: Buying in P2P with cash
+wrong_answers:
+  - Buying through a regulated platform without KYC
+  - Buying through a regulated platform with KYC
+  - Buying via PayPal through a P2P matchmaking platform
+explanation: |
+  Buying bitcoins peer-to-peer with cash is the method that exposes you the least to the risks of key identification because it does not require going through a regulated company and leaves no trace in the banking system. Moreover, this method generally does not require the disclosure of personal information.
+reviewed: false

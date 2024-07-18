@@ -1,0 +1,9 @@
+question: What secures the UTXOs on Bitcoin?
+answer: Through scripts that define the spending conditions.
+wrong_answers:
+  - Through periodic verification by miners.
+  - Through a centralized database.
+  - Through user identity verification.
+explanation: |
+  The outputs of a Bitcoin transaction are UTXOs which are secured with a script. This script requires that predefined spending conditions be met in order to spend the UTXO.
+reviewed: false

@@ -1,0 +1,9 @@
+question: O que a sigla UTXO significa em inglês?
+answer: Unspent Transaction Output
+wrong_answers:
+  - Unified Transaction Output
+  - User Transaction Only
+  - Utility Token Exchange Option
+explanation: |
+  Um UTXO é uma saída de uma transação que ainda não foi gasta.
+reviewed: false

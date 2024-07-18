@@ -1,0 +1,9 @@
+question: ¿Cuál es el objetivo de las heurísticas de transacción interna?
+answer: Identificar el intercambio.
+wrong_answers:
+  - Identificar transacciones fraudulentas en tiempo real.
+  - Identificar patrones de transacción.
+  - Identificar un clúster perteneciente a la misma entidad.
+explanation: |
+  Las heurísticas internas nos permiten identificar el intercambio con el objetivo de observar al usuario en transacciones subsiguientes.
+reviewed: false

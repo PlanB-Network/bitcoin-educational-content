@@ -1,0 +1,23 @@
+- start_date: 2024-05-09 
+  end_date: 2024-05-12
+  address_line_1: Stadthagen, Germany
+  address_line_2: 
+  address_line_3: 
+  name: Die Bitcoin Zitadelle
+  builder: 
+  type: conference
+  book_online: false
+  book_in_person: false
+  price_dollars: 0
+  description: Wir finden, die perfekte Zitadelle!
+  language: 
+    - de
+  links:
+    website: https://zitadelle2024.einundzwanzig.space/
+    replay_url:
+    live_url :
+  tags: 
+    - bitcoiner
+    - General
+
+

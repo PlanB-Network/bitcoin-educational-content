@@ -1,0 +1,9 @@
+question: Trong một giao dịch, thay đổi đại diện cho điều gì?
+answer: Một đầu ra trả lại cho người gửi ban đầu của giao dịch.
+wrong_answers:
+  - Một khoản phí do mạng Bitcoin thu.
+  - Một đầu ra chuyển cho người nhận của giao dịch.
+  - Một phần thưởng dành cho người gửi vì giao dịch nhanh.
+explanation: |
+  Thay đổi là một đầu ra đại diện cho phần của các đầu vào không được sử dụng để thực hiện thanh toán, và do đó trả lại cho người gửi ban đầu của giao dịch.
+reviewed: false

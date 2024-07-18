@@ -1,0 +1,9 @@
+question: ¿Cómo se previene el doble gasto en Bitcoin?
+answer: A través de la difusión pública de todas las transacciones del sistema.
+wrong_answers:
+  - Verificando la identidad de los usuarios antes de cada transacción.
+  - Revisando periódicamente las transacciones por parte de auditores.
+  - Limitando el número de transacciones por usuario.
+explanation: |
+  Para confirmar la ausencia de una transacción, y así evitar el doble gasto, es necesario que cada usuario esté al tanto de todas las transacciones pasadas.
+reviewed: false

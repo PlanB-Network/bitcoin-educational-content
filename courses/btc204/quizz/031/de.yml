@@ -1,0 +1,9 @@
+question: Wenn bei einer einfachen Zahlungstransaktion die gleiche Adresse sowohl in einem Input als auch in einem der 2 Outputs verwendet wird, welcher Output stellt wahrscheinlich das Wechselgeld dar?
+answer: Derjenige mit der gleichen Adresse wie der Input.
+wrong_answers:
+  - Derjenige mit der neuesten Adresse.
+  - Derjenige mit einer anderen Adresse als der Input.
+  - Derjenige mit einer unbekannten Adresse.
+explanation: |
+  Wenn eine Adresswiederverwendung innerhalb derselben Transaktion auftritt, ist es vernünftig anzunehmen, dass der Benutzer noch immer den zugehörigen UTXO besitzt. Daher ist der Output mit der gleichen Adresse wie der Input wahrscheinlich das Wechselgeld.
+reviewed: false

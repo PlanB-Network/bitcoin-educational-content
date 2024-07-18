@@ -1,0 +1,9 @@
+question: Mô hình riêng tư của hệ thống Bitcoin là gì?
+answer: Các giao dịch là công khai, nhưng danh tính của người dùng không được biết.
+wrong_answers:
+  - Chỉ có Satoshi Nakamoto mới có quyền truy cập vào chi tiết giao dịch.
+  - Các giao dịch được mã hóa và không thể thấy trên mạng.
+  - Chỉ có chính phủ mới có quyền truy cập vào chi tiết giao dịch.
+explanation: |
+  Trong trường hợp của Bitcoin, vì dòng thông tin không thể bị ngắt quãng giữa các giao dịch và lĩnh vực công cộng, mô hình riêng tư dựa vào sự tách biệt giữa danh tính của người dùng và các giao dịch.
+reviewed: false

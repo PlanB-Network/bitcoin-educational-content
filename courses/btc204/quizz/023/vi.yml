@@ -1,0 +1,9 @@
+question: Nếu chúng ta quan sát một giao dịch với 6 UTXO làm đầu vào và chỉ một UTXO làm đầu ra, chúng ta có thể rút ra kết luận gì?
+answer: Tất cả các UTXO ở đầu vào đều thuộc về cùng một người dùng, và người dùng này vẫn đang sở hữu UTXO ở đầu ra.
+wrong_answers:
+  - Các UTXO ở đầu vào đến từ các người dùng khác nhau hợp tác cho một giao dịch duy nhất.
+  - Tất cả các UTXO ở đầu vào thuộc về cùng một người dùng, và UTXO ở đầu ra giờ đây thuộc về người dùng khác.
+  - Các UTXO ở đầu vào đến từ 2 người dùng khác nhau, và UTXO ở đầu ra vẫn thuộc về 2 người dùng này.
+explanation: |
+  Chúng ta có thể đang chứng kiến một quá trình tổng hợp. Do đó, có sự sở hữu chung đối với các đầu vào và đầu ra.
+reviewed: false

@@ -1,0 +1,9 @@
+question: In a simple payment transaction where there is an input of 500,000 sats divided into one output of 47,500 sats and another of 451,000 sats, which UTXO is likely the change?
+answer: The one of 451,000 sats.
+wrong_answers:
+  - The one of 500,000 sats.
+  - The one of 47,500 sats.
+  - None of them.
+explanation: |
+  When there is a sufficiently large difference between two outputs in a transaction on a simple payment model, it can be estimated that the larger output is likely the change.
+reviewed: false

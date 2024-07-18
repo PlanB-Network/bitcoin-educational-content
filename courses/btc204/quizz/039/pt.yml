@@ -1,0 +1,9 @@
+question: Por que é aconselhado não publicar endereços de recebimento nas redes sociais?
+answer: Porque eles podem ser usados para vincular atividades onchain a uma identidade real.
+wrong_answers:
+  - Porque eles podem ser facilmente hackeados por hackers maliciosos.
+  - Porque eles poderiam atrair ofertas fraudulentas e expor você a campanhas de phishing.
+  - Porque eles podem permitir a aplicação da heurística de posse de entrada comum.
+explanation: |
+  Compartilhar endereços de recebimento de Bitcoin na internet pode ser usado como um ponto de entrada para análise de cadeia ao vincular uma identidade (real ou pseudônima) com atividade onchain.
+reviewed: false

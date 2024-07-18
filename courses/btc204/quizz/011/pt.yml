@@ -1,0 +1,9 @@
+question: Qual é a característica mais difícil de alcançar com uma moeda digital como o bitcoin?
+answer: A ausência de gasto duplo
+wrong_answers:
+  - Integridade
+  - Autenticidade
+  - Veracidade
+explanation: |
+  Para moedas digitais, garantir a ausência de gasto duplo é mais complexo, uma vez que qualquer bem digital é essencialmente informação. Ao contrário de bens físicos, a informação não se divide durante as trocas, mas propaga-se multiplicando-se.
+reviewed: false

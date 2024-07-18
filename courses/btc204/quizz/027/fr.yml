@@ -1,0 +1,9 @@
+question: Quelle technique permet de se protéger face au risque de traçage induit par un KYC ?
+answer: Les transactions coinjoin
+wrong_answers:
+  - L'utilisation de VPN
+  - L'utilisation d'un nœud complet
+  - La validation par preuve de travail
+explanation: |
+  Les coinjoins ont pour effet de casser l'historique d'une pièce, ce qui vous aide ainsi à contrecarrer le risque de traçage associé au KYC.
+reviewed: false

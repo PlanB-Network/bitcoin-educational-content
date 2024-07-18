@@ -1,0 +1,24 @@
+- start_date: 2024-05-22 
+  end_date: 2024-05-25
+  address_line_1: Arnhem, Netherlands
+  address_line_2: Luxor Live theatre
+  address_line_3: 
+  name: Adopting Bitcoin Arnhem 2024
+  builder: Adopting Bitcoin
+  type: conference
+  book_online: false
+  book_in_person: false
+  price_dollars: 0
+  description: Bitcoin conference & satellite event in the Netherlands
+  language: 
+    - en
+  links:
+    website: https://www.adoptingbitcoinarnhem.com/
+    replay_url:
+    live_url :
+  tags: 
+    - International
+    - bitcoiner
+    - General
+
+

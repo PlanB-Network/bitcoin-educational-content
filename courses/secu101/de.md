@@ -23,8 +23,10 @@ Théo; Beitrag
 +++
 
 # Einführung
+<partId>534ab66c-b0e6-5757-a7dd-6ea04647edf2</partId>
 
 ## Kursvorstellung
+<chapterId>2f3d005d-8b49-5a3f-b90d-94c11f613407</chapterId>
 
 ### Ziel: Aktualisierung!
 
@@ -49,13 +51,14 @@ Wenn Sie fortgeschrittene Fähigkeiten zu diesem Thema suchen, stehen Ihnen unse
 - Kapitel 2 - Sicheres Surfen im Internet
 
 Zum Einstieg werden wir über die Bedeutung der Wahl eines Web-Browsers und deren Auswirkungen auf die Sicherheit sprechen. Anschließend werden wir uns mit den Besonderheiten von Browsern befassen, insbesondere in Bezug auf die Verwaltung von Cookies. Wir werden auch sehen, wie man durch Tools wie TOR sicherer und anonymer surfen kann. Danach werden wir uns auf die Verwendung von VPNs konzentrieren, um den Schutz Ihrer Daten zu stärken. Schließlich werden wir Empfehlungen zur sicheren Nutzung von WLAN-Verbindungen geben.
-
+![](assets/de/1.webp)
 ### Abschnitt 2: Gute Praktiken bei der Nutzung des Computers
 
 - Kapitel 3 - Computer-Nutzung
 - Kapitel 4 - Hacken & Backup-Management
 
 In diesem Abschnitt behandeln wir drei Schlüsselbereiche der Computersicherheit. Zunächst werden wir die verschiedenen Betriebssysteme - Mac, PC und Linux - erkunden und ihre Besonderheiten und Stärken hervorheben. Dann werden wir uns mit Methoden beschäftigen, um sich effektiv vor Hacking-Versuchen zu schützen und die Sicherheit Ihrer Geräte zu stärken. Schließlich werden wir die Bedeutung des regelmäßigen Schutzes und der Sicherung Ihrer Daten zur Vermeidung von Verlusten oder Ransomware hervorheben.
+![](assets/de/2.webp)
 
 ### Abschnitt 3: Implementierung von Lösungen
 
@@ -66,23 +69,26 @@ In diesem Abschnitt behandeln wir drei Schlüsselbereiche der Computersicherheit
 In diesem praktischen dritten Abschnitt werden wir zur praktischen Umsetzung Ihrer konkreten Lösungen übergehen.
 
 Zuerst werden wir besprechen, wie Sie Ihre E-Mail schützen können, die für Ihre Kommunikation unerlässlich ist und oft von Hackern ins Visier genommen wird. Dann werden wir Ihnen vorstellen, was ein Passwort-Manager ist: eine praktische Lösung, um Ihre Passwörter nicht mehr zu vergessen oder durcheinander zu bringen, während sie sicher bleiben. Schließlich werden wir eine zusätzliche Sicherheitsmaßnahme, die Zwei-Faktor-Authentifizierung, ansprechen, die eine zusätzliche Schutzschicht für Ihre Konten bietet. Alles wird klar und verständlich erklärt.
-
-### Bonusabschnitt: Interview mit Pantamis und Renaud
+![](assets/de/3.webp)
 
 # Alles über das Surfen im Internet
+<partId>b4b5379a-d8ef-59ae-94d3-a6e88959c149</partId>
 
 ## Online-Surfen
+<chapterId>3a935da9-fa6e-57eb-bf85-7b3ec35e6ee2</chapterId>
 
 Beim Surfen im Internet ist es wichtig, bestimmte häufige Fehler zu vermeiden, um Ihre Online-Sicherheit zu gewährleisten. Hier sind einige Tipps, um sie zu vermeiden:
 
 ### Achten Sie auf Software-Downloads:
 
 Es wird empfohlen, Software von der offiziellen Website des Herausgebers herunterzuladen, anstatt von generischen Websites.
-Beispiel: Verwenden Sie www.signal/download und nicht www.logicieltelechargement.fr/signal.
+Beispiel: Verwenden Sie www.signal.org/download und nicht www.logicieltelechargement.fr/signal.
+![](assets/notext/4.webp)
 
 Es wird auch empfohlen, Open-Source-Software zu bevorzugen, da sie oft sicherer ist und frei von bösartiger Software. Eine "Open-Source"-Software ist eine Software, deren Code allen bekannt und für alle zugänglich ist. Man kann also unter anderem überprüfen, ob es keine versteckten Zugriffe gibt, um Ihre persönlichen Daten zu stehlen.
 
 > Bonus: Open-Source-Software ist oft kostenlos! Diese Universität ist zu 100% Open Source, daher können Sie unseren Code auch über unser GitHub überprüfen.
+![](assets/notext/5.webp)
 
 ### Cookie-Verwaltung: Fehler und bewährte Praktiken
 
@@ -94,7 +100,7 @@ Cookies sind Dateien, die von Websites erstellt werden, um Informationen auf Ihr
 
 Es gibt zwei große Browserfamilien: diejenigen, die auf Chrome basieren, und diejenigen, die auf Firefox basieren.
 Obwohl beide Familien ein ähnliches Sicherheitsniveau bieten, wird empfohlen, den Google Chrome-Browser aufgrund seiner Tracker zu vermeiden. Leichtere Alternativen zu Chrome wie Chromium oder Brave können bevorzugt werden. Brave wird insbesondere aufgrund seines integrierten Werbeblockers empfohlen. Es kann erforderlich sein, mehrere Browser zu verwenden, um auf bestimmte Websites zuzugreifen.
-
+![](assets/notext/6.webp)
 ### Privates Surfen, TOR und andere Alternativen für sicheres und anonymes Surfen
 
 Das private Surfen verhindert zwar nicht, dass Ihr Internetdienstanbieter Ihre Aktivitäten verfolgt, hinterlässt jedoch keine lokalen Spuren auf Ihrem Computer. Cookies werden automatisch am Ende jeder Sitzung gelöscht, sodass alle Cookies akzeptiert werden können, ohne verfolgt zu werden. Das private Surfen kann beim Online-Einkauf nützlich sein, da Websites unsere Suchgewohnheiten verfolgen und die Preise entsprechend anpassen. Es ist jedoch wichtig zu beachten, dass das private Surfen für temporäre und spezifische Sitzungen empfohlen wird und nicht für die allgemeine Internetnutzung.
@@ -102,25 +108,27 @@ Das private Surfen verhindert zwar nicht, dass Ihr Internetdienstanbieter Ihre A
 Eine fortgeschrittenere Alternative ist das TOR-Netzwerk (The Onion Router), das Anonymität bietet, indem es die IP-Adresse des Benutzers maskiert und den Zugriff auf das Darknet ermöglicht. Der TOR-Browser ist ein speziell für die Nutzung des TOR-Netzwerks entwickelter Browser. Er ermöglicht den Besuch von herkömmlichen Websites sowie von .onion-Websites, die in der Regel von Einzelpersonen betrieben werden und illegal sein können.
 
 TOR ist legal und wird von Journalisten, Freiheitsaktivisten und anderen Personen verwendet, die der Zensur in autoritären Ländern entgehen möchten. Es ist jedoch wichtig zu verstehen, dass TOR die besuchten Websites oder den Computer selbst nicht absichert. Darüber hinaus kann die Verwendung von TOR die Internetverbindung verlangsamen, da die Daten über die Computer von drei anderen Personen geleitet werden, bevor sie ihr Ziel erreichen. Es ist auch wichtig zu beachten, dass TOR keine hundertprozentige Lösung zur Gewährleistung der Anonymität darstellt und nicht für illegale Aktivitäten verwendet werden sollte.
-
+![](assets/notext/7.webp)
 ### BRAVE
 
 **_Tutorial in Bearbeitung, um beizutragen oder es hinzuzufügen, können Sie GitHub verwenden_**
 
 ## VPN und Internetverbindung
+<chapterId>5aac83f4-a685-54b0-9759-d71bea7eeed2</chapterId>
 
 ### VPNs
 
 Der Schutz Ihrer Internetverbindung ist ein entscheidender Aspekt der Online-Sicherheit, und die Verwendung von virtuellen privaten Netzwerken (VPNs) ist eine effektive Methode, um diese Sicherheit sowohl für Unternehmen als auch für einzelne Benutzer zu verbessern.
 
 'VPN (Virtual Private Network) sind Tools, die Daten, die über das Internet übertragen werden, verschlüsseln und somit die Verbindung sicherer machen. Im geschäftlichen Kontext ermöglichen VPNs den Mitarbeitern einen sicheren Remote-Zugriff auf das interne Unternehmensnetzwerk. Die ausgetauschten Daten werden verschlüsselt, was ihre Interception durch Dritte erschwert. Neben der Sicherung des Zugangs zu einem internen Netzwerk kann die Verwendung eines VPNs einem Benutzer ermöglichen, seine Internetverbindung über das interne Unternehmensnetzwerk zu leiten und den Eindruck zu erwecken, dass seine Verbindung vom Unternehmen stammt. Dies kann besonders nützlich sein, um auf geografisch eingeschränkte Online-Dienste zuzugreifen.
+![](assets/de/8.webp)
 
 ### Arten von VPN
 
 Es gibt zwei Hauptarten von VPN: Unternehmens-VPNs und öffentliche VPNs wie NordVPN. Unternehmens-VPNs neigen dazu, teurer und komplexer zu sein, während öffentliche VPNs in der Regel zugänglicher und einfacher zu bedienen sind. Zum Beispiel ermöglicht NordVPN Benutzern, sich über einen Server in einem anderen Land mit dem Internet zu verbinden, was es ermöglichen kann, geografische Einschränkungen zu umgehen.
 
 Die Verwendung eines öffentlichen VPNs garantiert jedoch keine vollständige Anonymisierung. Viele VPN-Anbieter speichern Informationen über ihre Benutzer, was ihre Anonymität potenziell gefährden kann. Obwohl VPNs nützlich sein können, um die Online-Sicherheit zu verbessern, sind sie keine universelle Lösung. Sie sind effektiv für bestimmte spezifische Anwendungen wie den Zugriff auf geografisch eingeschränkte Dienste oder die Verbesserung der Sicherheit unterwegs, garantieren jedoch keine vollständige Sicherheit. Bei der Auswahl eines VPNs ist es wichtig, Zuverlässigkeit und technische Fähigkeiten höher zu bewerten als Popularität. VPN-Anbieter, die die geringsten persönlichen Informationen sammeln, sind in der Regel die sichersten. Dienste wie iVPN und Mullvad sammeln keine persönlichen Informationen und ermöglichen sogar Zahlungen mit Bitcoin für erhöhte Privatsphäre.
-
+![](assets/notext/9.webp)
 Schließlich kann ein VPN auch verwendet werden, um Online-Werbung zu blockieren und so ein angenehmeres und sichereres Browsing-Erlebnis zu bieten. Es ist jedoch wichtig, eigene Recherchen anzustellen, um das VPN zu finden, das am besten zu den spezifischen Bedürfnissen passt. Die Verwendung eines VPNs wird empfohlen, um die Sicherheit zu stärken, auch beim Surfen im Internet zu Hause. Dies trägt dazu bei, ein höheres Sicherheitsniveau für den Online-Datenaustausch zu gewährleisten. Vergewissern Sie sich abschließend, dass Sie die URLs und das kleine Schlosssymbol in der Adressleiste überprüfen, um zu bestätigen, dass Sie sich auf der von Ihnen beabsichtigten Website befinden.
 
 ### HTTPS & öffentliche WLAN-Netzwerke'
@@ -130,7 +138,7 @@ In Bezug auf die Online-Sicherheit ist es wichtig zu verstehen, dass 4G in der R
 In der Europäischen Union wird der Datenschutz durch die Datenschutz-Grundverordnung (DSGVO) geregelt. Es ist daher sicherer, europäische Anbieter von WLAN-Zugangspunkten wie die SNCF zu verwenden, die die Verbindungsdaten der Benutzer nicht weiterverkaufen. Dennoch garantiert allein das Vorhandensein eines Schlosssymbols auf einer Website nicht deren Authentizität. Es ist wichtig, den öffentlichen Schlüssel der Website mithilfe eines Zertifikatssystems zu überprüfen, um deren Authentizität zu bestätigen. Obwohl die Verschlüsselung von Daten verhindert, dass Dritte die ausgetauschten Daten abfangen, ist es immer noch möglich, dass ein bösartiger Einzelner sich als die Website ausgibt und die Daten im Klartext überträgt.
 
 Um Online-Betrug zu vermeiden, ist es entscheidend, die Identität der besuchten Website zu überprüfen, insbesondere die Erweiterung und den Domainnamen zu überprüfen. Seien Sie auch wachsam gegenüber Betrügern, die ähnliche Buchstaben in URLs verwenden, um Benutzer zu täuschen.
-
+![](assets/de/10.webp)
 Zusammenfassend kann die Verwendung eines VPN die Online-Sicherheit sowohl für Unternehmen als auch für einzelne Benutzer erheblich verbessern. Darüber hinaus kann das Einhalten guter Browsing-Gewohnheiten zu einer besseren digitalen Hygiene beitragen. Im nächsten Abschnitt dieses Kurses werden wir die Computersicherheit behandeln, einschließlich Updates, Antivirus und Passwortverwaltung.
 
 ### Tutorial: IVPN
@@ -138,8 +146,10 @@ Zusammenfassend kann die Verwendung eines VPN die Online-Sicherheit sowohl für 
 **_Tutorial in Bearbeitung, um beizutragen oder es hinzuzufügen, können Sie GitHub verwenden_**
 
 # Gute Computerpraktiken
+<partId>e6eac20b-ba24-5d9a-8d86-8e0164074457</partId>
 
 ## Computerbenutzung
+<chapterId>16745632-b56b-5423-9873-ddf70fdf1efd</chapterId>
 
 Die Sicherheit unserer Computer ist ein wichtiges Anliegen in der heutigen digitalen Welt. Heute werden wir drei Schlüsselpunkte behandeln:
 
@@ -150,9 +160,11 @@ Die Sicherheit unserer Computer ist ein wichtiges Anliegen in der heutigen digit
 ### Die Wahl des Computers und des Betriebssystems
 
 In Bezug auf die Wahl des Computers gibt es keine signifikanten Sicherheitsunterschiede zwischen alten und neuen Computern. Es gibt jedoch Sicherheitsunterschiede zwischen den Betriebssystemen: Windows, Linux und Mac.
+![](assets/notext/11.webp)
 'Concerning Windows, es wird empfohlen, nicht täglich ein Administrator-Konto zu verwenden, sondern zwei separate Konten zu erstellen: ein Administrator-Konto und ein Konto für den täglichen Gebrauch. Windows ist aufgrund seiner großen Anzahl von Benutzern und der einfachen Möglichkeit, vom Benutzer zum Administrator zu wechseln, oft anfälliger für schädliche Software. Auf der anderen Seite sind die Bedrohungen unter Linux und Mac weniger verbreitet.
 
 Die Wahl des Betriebssystems sollte entsprechend Ihren Bedürfnissen und Vorlieben getroffen werden. Linux-Systeme haben sich in den letzten Jahren erheblich weiterentwickelt und sind immer benutzerfreundlicher geworden. Ubuntu ist eine interessante Alternative für Anfänger mit einer benutzerfreundlichen grafischen Benutzeroberfläche. Es ist möglich, einen Computer zu partitionieren, um mit Linux zu experimentieren und gleichzeitig Windows beizubehalten, aber dies kann komplex sein. Es ist oft ratsam, einen dedizierten Computer, eine virtuelle Maschine oder einen USB-Stick zu haben, um Linux oder Ubuntu zu testen.
+![](assets/notext/12.webp)
 
 ### Software-Updates
 
@@ -171,6 +183,7 @@ Um Ihnen ein konkretes Beispiel für einen Fehler zu geben: Eine geknackte Softw
 
 Die Auswahl und Implementierung eines Antivirus-Programms ist wichtig. Windows Defender, der in Windows integrierte Virenschutz, ist eine sichere und effektive Lösung. Für eine kostenlose Lösung ist er außergewöhnlich gut und besser als viele kostenlose Lösungen, die online verfügbar sind. Es ist wichtig, vorsichtig mit Antivirenprogrammen zu sein, die aus dem Internet heruntergeladen werden, da sie schädlich oder veraltet sein können.'
 Für diejenigen, die in eine kostenpflichtige Antivirensoftware investieren möchten, wird empfohlen, eine Antivirensoftware zu wählen, die unbekannte und aufkommende Bedrohungen intelligent analysiert, wie zum Beispiel Kaspersky. Antiviren-Updates sind entscheidend, um sich vor neuen Bedrohungen zu schützen.
+![](assets/notext/13.webp)
 Hinweis: Linux und Mac benötigen aufgrund ihres Benutzerrechtesystems oft keine Antivirensoftware.
 
 Abschließend sind hier einige bewährte Sicherheitspraktiken für Ihren Computer und Ihre Daten. Es ist wichtig, eine effektive und benutzerfreundliche Antivirensoftware zu wählen. Es ist auch entscheidend, gute Praktiken auf Ihrem Computer zu befolgen, wie das Nicht-Einfügen unbekannter USB-Sticks oder das Auffinden an verdächtigen Orten. Diese USB-Sticks können schädliche Programme enthalten, die sich automatisch beim Einstecken starten können. Die Überprüfung des USB-Sticks ist nutzlos, sobald er eingesteckt wurde. Einige Unternehmen wurden Opfer von Hacks aufgrund von nachlässig liegengelassenen USB-Sticks an zugänglichen Orten wie einem Parkplatz.
@@ -184,6 +197,7 @@ Zusammenfassend ist es entscheidend, ein Betriebssystem zu wählen, das Ihren Be
 **_Tutorial in Bearbeitung, um beizutragen oder es hinzuzufügen, können Sie GitHub verwenden_**
 
 ## Hack & Backup-Management: Schutz Ihrer Daten
+<chapterId>9ddfcb6a-a253-5542-b7eb-df7222b46dc7</chapterId>
 
 ### Wie greifen Hacker an?
 
@@ -204,7 +218,7 @@ Die goldene Regel hier ist, den vollständigen Namen des Absenders und die Herku
 ### Ransomware und Arten von Cyberangriffen:
 
 Ransomware ist eine Art von schädlicher Software, die die Daten des Benutzers verschlüsselt und eine Lösegeldzahlung zur Entschlüsselung verlangt. Diese Art von Angriff wird immer häufiger und kann für ein Unternehmen oder eine Einzelperson sehr ärgerlich werden. Um sich zu schützen, ist es unerlässlich, Backups der sensibelsten Dateien zu erstellen! Dies wird die Ransomware nicht stoppen, ermöglicht es Ihnen jedoch, sie einfach zu ignorieren.
-
+![](assets/notext/14.webp)
 Sichern Sie regelmäßig Ihre wichtigen Daten auf einem externen Speichermedium oder einem sicheren Online-Speicherdienst. Auf diese Weise können Sie im Falle eines Cyberangriffs oder eines Hardwareausfalls Ihre Daten wiederherstellen, ohne wichtige Informationen zu verlieren.
 
 Einfache Lösung:
@@ -220,8 +234,10 @@ NEIN, es wird im Allgemeinen nicht empfohlen, Hacker bei Ransomware oder anderen
 Wenn Sie einen Virus auf Ihrem Computer entdecken, trennen Sie ihn vom Internet, führen Sie eine vollständige Antiviren-Analyse durch und entfernen Sie infizierte Dateien. Aktualisieren Sie dann Ihre Software und Ihr Betriebssystem und ändern Sie Ihre Passwörter, um weitere Eindringlinge zu vermeiden.
 
 # Implementierung von Lösungen.
+<partId>215ec902-ba05-5549-87fc-cb8d82665f7b</partId>
 
 ## Das Management von E-Mail-Postfächern
+<chapterId>dfceea33-8712-5557-ace1-6ba5598d33d8</chapterId>
 
 Wir beginnen nun Abschnitt 2 des Kurses. In diesem Abschnitt werden wir drei wichtige Themen behandeln, um die Sicherheit des Online-Zugriffs zu gewährleisten: das Management von E-Mails, die Verwendung eines Passwort-Managers und die Zwei-Faktor-Authentifizierung (2FA).
 
@@ -236,7 +252,7 @@ Obwohl wir alle bereits ein E-Mail-Konto haben, ist es wichtig, die Erstellung e
 ### Auswahl des E-Mail-Anbieters und Verwaltung der E-Mail-Adressen
 
 Die angemessene Verwaltung unserer E-Mail-Adressen ist entscheidend für die Sicherheit unseres Online-Zugriffs. Es ist wichtig, einen sicheren und datenschutzfreundlichen E-Mail-Anbieter zu wählen. Zum Beispiel ist ProtonMail ein sicherer und datenschutzfreundlicher E-Mail-Dienst.
-
+![](assets/notext/15.webp)
 Bei der Auswahl eines E-Mail-Anbieters und der Erstellung eines Passworts ist es unerlässlich, niemals dasselbe Passwort für verschiedene Online-Dienste zu verwenden. Es wird empfohlen, regelmäßig neue E-Mail-Adressen zu erstellen und die Verwendungszwecke durch Verwendung verschiedener E-Mail-Adressen zu trennen. Für kritische Konten ist es ratsam, einen sicheren E-Mail-Dienst zu wählen. Es ist auch zu beachten, dass einige Dienste die Passwortlänge begrenzen, daher ist es wichtig, auf diese Begrenzung zu achten. Es gibt auch Dienste zur Erstellung temporärer E-Mail-Adressen, die für zeitlich begrenzte Konten verwendet werden können.
 
 Es ist wichtig zu bedenken, dass alte E-Mail-Anbieter wie La Poste, Arobase, Wig, Hotmail immer noch verwendet werden, aber ihre Sicherheitspraktiken möglicherweise nicht so gut sind wie die von Gmail. Daher wird empfohlen, zwei separate E-Mail-Adressen zu haben, eine für allgemeine Kommunikation und eine andere für die Kontowiederherstellung, wobei letztere besser abgesichert sein sollte. Es ist ratsam, die E-Mail-Adresse nicht mit dem Mobilfunkanbieter oder Internetdienstanbieter zu verknüpfen, da dies ein Angriffsvektor darstellen kann.
@@ -244,6 +260,7 @@ Es ist wichtig zu bedenken, dass alte E-Mail-Anbieter wie La Poste, Arobase, Wig
 ### Sollte ich mein E-Mail-Konto wechseln?
 
 Es wird empfohlen, die Website "Have I Been Pwned" (Wurde ich gehackt) - https://haveibeenpwned.com/ - zu verwenden, um zu überprüfen, ob unsere E-Mail-Adresse kompromittiert wurde und um über zukünftige Datenlecks informiert zu werden. Eine gehackte Datenbank kann von Hackern genutzt werden, um Phishing-E-Mails zu versenden oder kompromittierte Passwörter erneut zu verwenden.
+![](assets/notext/16.webp)
 Im Allgemeinen ist es eine gute Praxis und sogar notwendig, eine neue, sicherere E-Mail-Adresse zu verwenden, wenn man einen Neuanfang machen möchte.
 
 Bonus Bitcoin: Es kann ratsam sein, eine spezielle E-Mail-Adresse für unsere Bitcoin-Aktivitäten (Erstellung von Börsenkonten) zu erstellen, um die Aktivitäten in unserem Leben wirklich zu trennen.
@@ -253,6 +270,7 @@ Bonus Bitcoin: Es kann ratsam sein, eine spezielle E-Mail-Adresse für unsere Bi
 **_Tutorial in Bearbeitung, um beizutragen oder es hinzuzufügen, können Sie GitHub verwenden_**
 
 ## Passwort-Manager
+<chapterId>0b3c69b2-522c-56c8-9fb8-1562bd55930f</chapterId>
 
 ### Was ist ein Passwort-Manager?
 
@@ -265,13 +283,13 @@ Mit einem Passwort-Manager müssen Sie sich keine Sorgen mehr machen, Ihre Passw
 - LastPass: Einer der beliebtesten Passwort-Manager. Es handelt sich um einen Drittanbieterdienst, was bedeutet, dass Ihre Passwörter auf ihren Servern gespeichert werden. Es bietet eine kostenlose und eine kostenpflichtige Version mit einer benutzerfreundlichen Oberfläche.
 
 - Dashlane: Auch dies ist ein Drittanbieterdienst mit einer intuitiven Benutzeroberfläche und zusätzlichen Funktionen wie der Verfolgung von Kreditkarteninformationen und sicheren Notizen.
-
+![](assets/notext/17.webp)
 ### Selbsthosting für mehr Kontrolle:
 
 - Bitwarden: Dies ist ein Open-Source-Tool, das bedeutet, dass Sie den Code überprüfen können, um seine Sicherheit zu überprüfen. Obwohl Bitwarden einen gehosteten Dienst anbietet, ermöglicht es Benutzern auch, selbst zu hosten, was bedeutet, dass Sie kontrollieren können, wo Ihre Passwörter gespeichert werden, was potenziell mehr Sicherheit und Kontrolle bietet.
 
 - KeePass: Dies ist eine Open-Source-Lösung, die hauptsächlich für das Selbsthosting gedacht ist. Ihre Daten werden standardmäßig lokal gespeichert, aber Sie können die Passwortdatenbank mit verschiedenen Methoden synchronisieren, wenn Sie möchten. KeePass ist weithin anerkannt für seine Sicherheit und Flexibilität, obwohl es für Anfänger etwas weniger benutzerfreundlich sein kann.
-
+![](assets/notext/18.webp)
 (Hinweis: Die Wahl zwischen einem Drittanbieterdienst und einem selbst gehosteten Dienst hängt von Ihrem technischen Komfortniveau und davon ab, wie Sie Kontrolle im Vergleich zur Bequemlichkeit priorisieren. Drittanbieterdienste sind in der Regel bequemer für die meisten Menschen, während das Selbsthosting mehr technisches Wissen erfordert, aber mehr Kontrolle und Sicherheit bieten kann.)
 
 ### Was macht ein gutes Passwort aus?
@@ -302,6 +320,7 @@ Zufällig generierte Passwörter bieten ein höheres Maß an Sicherheit, können
 **_Tutorial in Bearbeitung, um beizutragen oder es hinzuzufügen, können Sie GitHub verwenden_**
 
 ## Die 2-Faktor-Authentifizierung
+<chapterId>9391e02e-e61b-5a86-93e0-91a07f217d35</chapterId>
 
 ### Warum 2FA implementieren
 
@@ -312,7 +331,7 @@ Dieser zweite Schritt kann sein:
 - Ein temporärer Code, der per SMS gesendet wird.
 - Ein von einer Anwendung wie Google Authenticator oder Authy generierter Code.
 - Ein physischer Sicherheitsschlüssel, den Sie in Ihren Computer einstecken.
-
+![](assets/notext/19.webp)
 Mit 2FA kann ein Hacker selbst dann nicht auf Ihr Konto zugreifen, wenn er Ihr Passwort hat, ohne diesen zweiten Verifizierungsfaktor. Dies macht 2FA unerlässlich, um Ihre Online-Konten vor unbefugtem Zugriff zu schützen.
 
 ### Welche Option wählen?
@@ -340,13 +359,45 @@ Machen Sie weiterhin Fortschritte und setzen Sie nach und nach die richtigen Pra
 
 Goldene Regel: IT-Sicherheit ist ein sich ständig veränderndes Ziel, das sich an Ihren Lernfortschritt anpasst!
 
-### Tutorial: 2FA- und YubiKey-Lösungen
+# Praktischer Abschnitt
+<partId>98ccf14b-4053-5839-878c-7a73ff02eb95</partId>
 
-**_Tutorial in Bearbeitung, um beizutragen oder es hinzuzufügen, können Sie GitHub verwenden_**
+## Einrichtung eines Postfachs
+<chapterId>afc9ab5d-7664-5a9b-ab50-225ac9ba8f7c</chapterId>
 
+Beachten Sie, dass dieser Teil des Kurses derzeit nur Anleitungen auf Französisch enthält. Wir arbeiten gerade daran, das Video zu übersetzen, um es in Ihrer Sprache zu veröffentlichen. Wenn Sie uns beim Übersetzen helfen möchten, kontaktieren Sie uns über [GitHub](https://github.com/DecouvreBitcoin/sovereign-university-data).
+
+![video](https://youtu.be/vpYJYWhmEZg)
+
+## Absicherung mit 2FA
+<chapterId>09468ec1-95b7-56a4-a636-7618044568e1</chapterId>
+
+![video](https://youtu.be/mNcAKRDmz5o)
+
+## Erstellung eines Passwort-Managers
+<chapterId>ed579680-4e7b-5f65-8541-14e519a3b242</chapterId>
+
+![video](https://youtu.be/y7Xkv4E5YmU)
+
+## Absicherung Ihrer Konten
+<chapterId>7a774b34-aed0-57dd-b8f7-cf3be51c0d70</chapterId>
+
+![video](https://youtu.be/0JHZRALmGY0)
+
+## Einrichtung eines Back-ups
+<chapterId>01cfcde1-77cb-506c-8df1-fa18a2e8cc6b</chapterId>
+
+![video](https://youtu.be/wTJnlSUkDRI)
+
+## Browserwechsel & VPN
+<chapterId>8dc08feb-313c-5259-a54f-64aa68a07608</chapterId>
+
+![video](https://youtu.be/vc6-Ouca09g)
 # Gehen Sie weiter
+<partId>77113cad-a6d8-57e5-b903-50c223b277ba</partId>
 
 ## Wie man in dieser Cybersicherheitsbranche arbeitet
+<chapterId>aad1ae27-4280-5b07-b9ab-118ae013951a</chapterId>
 
 Die Cybersicherheit, ein aufstrebendes Gebiet, bietet zahlreiche Möglichkeiten für diejenigen, die sich für den Schutz von Systemen und Daten interessieren. Wenn Sie sich für diese Branche interessieren, finden Sie hier einige wichtige Schritte, um sich zu orientieren.
 
@@ -377,8 +428,9 @@ Die ständige Weiterentwicklung von Bedrohungen erfordert regelmäßige Überwac
 - Governance: ISO-Standards, GDPR/CCPA-Vorschriften.
 
 Indem Sie diese Fähigkeiten und Tools beherrschen, sind Sie gut gerüstet, um erfolgreich in der Welt der Cybersicherheit zu navigieren.
-
+![](assets/notext/20.webp)
 ## Interview mit Renaud
+<chapterId>7d83fd98-ce22-514e-b9e8-729fbf71ee6e</chapterId>
 
 ### Effizientes Passwortmanagement und Stärkung der Authentifizierung: ein akademischer Ansatz
 
@@ -387,7 +439,7 @@ Im Schulungsmodul "Sicherheit 101" von Découvre Bitcoin an der Akademie haben w
 Es wird im Allgemeinen davon abgeraten, Browsererweiterungen zur automatischen Passworteingabe zu verwenden. Diese Tools können den Benutzer anfälliger für Phishing-Angriffe machen. Renaud, ein anerkannter Experte für Cybersicherheit, bevorzugt eine manuelle Verwaltung mit KeePass, was eine manuelle Kopier- und Einfügeaktion des Passworts bedeutet. Erweiterungen neigen dazu, die Angriffsfläche zu vergrößern, können die Leistung des Browsers verlangsamen und stellen daher ein nicht zu vernachlässigendes Risiko dar. Daher wird empfohlen, den Einsatz von Erweiterungen im Browser auf ein Minimum zu beschränken.
 
 Passwortmanager fördern in der Regel die Verwendung zusätzlicher Authentifizierungsfaktoren wie der Zwei-Faktor-Authentifizierung. Für maximale Sicherheit wird empfohlen, die Einmalpasswörter (OTP) auf dem Mobilgerät zu speichern. AndoTP bietet eine Open-Source-Lösung zum Generieren und Speichern von OTP-Codes auf dem Telefon. Obwohl Google Authenticator das Exportieren von Authentifizierungscodes ermöglicht, ist das Vertrauen in die Sicherung auf einem Google-Konto begrenzt. Daher werden die Anwendungen OTI und AndoTP für eine eigenständige Verwaltung von OTPs empfohlen.
-
+![](assets/notext/21.webp)
 Die Frage des digitalen Erbes und der digitalen Trauer betont die Bedeutung eines Verfahrens zur Übertragung von Passwörtern nach dem Tod einer Person. Ein Passwortmanager erleichtert diesen Übergang, indem er alle digitalen Geheimnisse sicher an einem Ort speichert. Der Passwortmanager ermöglicht auch die Identifizierung aller geöffneten Konten und deren Schließung oder Übertragung. Es wird empfohlen, das Masterpasswort auf Papier zu notieren, aber es sollte an einem versteckten und sicheren Ort aufbewahrt werden. Wenn die Festplatte verschlüsselt und der Computer gesperrt ist, ist das Passwort selbst bei einem Einbruch nicht zugänglich.
 
 ### Auf dem Weg in eine post-Passwort-Ära: Erkundung glaubwürdiger Alternativen
@@ -412,6 +464,7 @@ Weitere Schlüsselüberlegungen
 Im Rahmen des Lernmoduls "Sicherheit 101" von Entdecke Bitcoin auf der Akademie haben wir auch über die Lightning-Authentifizierung diskutiert. Dieses System generiert für jeden Dienst eine andere Kennung, ohne dass eine E-Mail-Adresse oder persönliche Informationen angegeben werden müssen. Es ist möglich, dezentralisierte Identitäten zu haben, die vom Benutzer kontrolliert werden, aber es fehlt an Normierung und Standardisierung in dezentralisierten Identitätsprojekten. Paketmanager wie Nuget und Chocolaté, die das Herunterladen von Open-Source-Software außerhalb des Microsoft Stores ermöglichen, werden empfohlen, um böswillige Angriffe zu verhindern. Zusammenfassend lässt sich sagen, dass das DNS für die Online-Sicherheit von entscheidender Bedeutung ist, aber es ist notwendig, wachsam gegenüber potenziellen Angriffen auf DNS-Server zu bleiben.
 
 ## Danksagungen und graben Sie weiter im Kaninchenbau
+<chapterId>df3a962a-a96e-5006-b904-0dd9d4a072dd</chapterId>
 
 ### Bewerten Sie den Kurs & unterstützen Sie uns
 

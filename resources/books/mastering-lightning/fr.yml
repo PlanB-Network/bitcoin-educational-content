@@ -1,6 +1,6 @@
 title: "Mastering Lightning"
 publication_year: 2020
-cover: cover_en.jpeg
+cover: cover_en.webp
 original: true
 description: |
   "Maîtriser Lightning" par Andreas M. Antonopoulos et René Pickhardt est un livre de niveau intermédiaire sur le Lightning Network, une solution de mise à l'échelle de la couche 2 pour Bitcoin. Le livre couvre les détails techniques de fonctionnement du Lightning Network, ainsi que son impact potentiel sur la scalabilité et la confidentialité de Bitcoin. Les auteurs fournissent des instructions étape par étape sur la configuration d'un nœud Lightning et l'utilisation de portefeuilles Lightning, et ils discutent également des implications sociales et économiques de la technologie. Dans l'ensemble, le livre est une ressource précieuse pour toute personne intéressée à comprendre le Lightning Network et son rôle dans l'avenir de Bitcoin.

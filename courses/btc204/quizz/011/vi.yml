@@ -1,0 +1,9 @@
+question: Đặc điểm khó đạt được nhất với một loại tiền tệ số như bitcoin là gì?
+answer: Sự vắng mặt của việc chi tiêu gấp đôi
+wrong_answers:
+  - Tính toàn vẹn
+  - Tính xác thực
+  - Tính chân thực
+explanation: |
+  Với các loại tiền tệ số, việc đảm bảo không có việc chi tiêu gấp đôi trở nên phức tạp hơn, bởi vì bất kỳ hàng hóa số nào cơ bản cũng là thông tin. Khác với hàng hóa vật lý, thông tin không chia sẻ trong quá trình trao đổi mà lan truyền bằng cách nhân lên.
+reviewed: false

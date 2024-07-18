@@ -1,0 +1,9 @@
+question: Quel mécanisme est utilisé par les plateformes de mise en relation pour des échanges P2P en ligne afin de réduire les risques de vol ?
+answer: Un mécanisme de dépôt fiduciaire.
+wrong_answers:
+  - Un algorithme de matching sécurisé.
+  - Un mécanisme de vérification par e-mail.
+  - Un mécanisme de vérification d'identité.
+explanation: |
+   Ces plateformes utilisent généralement un mécanisme de protection où les bitcoins sont conservés jusqu'à la confirmation du paiement en monnaie fiat par le vendeur. Ce mécanisme de conservation par un tiers représente ce que l'on appelle un dépôt fiduciaire.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Hành động của một giao dịch Bitcoin đối với các UTXO đầu vào là gì?
+answer: Nó tiêu thụ chúng để đáp ứng các đầu ra.
+wrong_answers:
+  - Nó lưu trữ chúng trong blockchain để tham khảo trong tương lai.
+  - Nó mã hóa chúng để bảo mật giao dịch.
+  - Nó nhân bản chúng để tạo ra các UTXO mới.
+explanation: |
+  Các UTXO đầu vào trong một giao dịch được tiêu thụ để tài trợ cho các đầu ra. Nó, theo một cách nào đó, là nguồn của tiền.
+reviewed: false

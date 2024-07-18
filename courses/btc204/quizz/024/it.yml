@@ -1,0 +1,9 @@
+question: Se osserviamo una transazione con 1 UTXO in ingresso e 43 UTXO in uscita, quale schema possiamo riconoscere?
+answer: Una spesa raggruppata
+wrong_answers:
+  - Una consolidazione
+  - Un pagamento semplificato
+  - Una transazione collaborativa
+explanation: |
+  L'interpretazione di questo schema è che stiamo trattando con una spesa raggruppata. Questa struttura consente a entità come le piattaforme di scambio di risparmiare sulle commissioni raggruppando le loro spese in una singola transazione.
+reviewed: false

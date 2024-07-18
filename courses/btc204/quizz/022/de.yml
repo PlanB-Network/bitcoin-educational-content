@@ -1,0 +1,9 @@
+question: Wie lautet der Name des Musters, das aus einem einzelnen UTXO in der Eingabe und einem einzelnen UTXO in der Ausgabe besteht?
+answer: Sweeping
+wrong_answers:
+  - Konsolidierung
+  - Coinjoin
+  - Batch-Ausgaben
+explanation: |
+  Die Interpretation dieser Struktur ist, dass wir in der Gegenwart eines Sweeps sind, was eine Selbstübertragung von Bitcoins bedeutet.
+reviewed: false

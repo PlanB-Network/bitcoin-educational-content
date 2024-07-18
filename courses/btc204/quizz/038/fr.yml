@@ -1,0 +1,9 @@
+question: Quel modèle de transaction vient invalider l'utilisation de la CIOH ?
+answer: La transaction collaborative.
+wrong_answers:
+  - Le paiement simple.
+  - La consolidation.
+  - Le balayage.
+explanation: |
+   La CIOH n'est pas applicable sur les transactions qui adoptent un pattern collaboratif, car dans ce cas spécifique, les inputs proviennent forcément d'entités différentes.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Quelle est l'action d'une transaction Bitcoin sur les UTXOs en outputs ?
+answer: Elle les crée grâce aux UTXOs consommés en inputs.
+wrong_answers:
+  - Elle les consomme pour satisfaire les inputs.
+  - Elle les chiffre pour anonymiser le destinataire.
+  - Elle les divise temporairement pour vérification.
+explanation: |
+  Les UTXOs en outputs de la transaction sont créés grâce à la consommation des UTXOs en inputs. C'est en quelque sorte la destination de l'argent.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Qual è la caratteristica più difficile da ottenere con una valuta digitale come il bitcoin?
+answer: L'assenza di doppia spesa
+wrong_answers:
+  - Integrità
+  - Autenticità
+  - Veridicità
+explanation: |
+  Per le valute digitali, garantire l'assenza di doppia spesa è più complesso, poiché qualsiasi bene digitale è essenzialmente informazione. A differenza dei beni fisici, l'informazione non si divide durante gli scambi ma si propaga moltiplicandosi.
+reviewed: false

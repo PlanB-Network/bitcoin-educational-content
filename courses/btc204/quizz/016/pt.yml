@@ -1,0 +1,9 @@
+question: Entre as respostas, qual representa um dos principais objetivos da análise de cadeia?
+answer: Agrupar diversas atividades no Bitcoin para determinar a unicidade do usuário.
+wrong_answers:
+  - Otimizar o desempenho de mineração na rede.
+  - Administrar justiça no protocolo para fazer cumprir a lei de acordo com jurisdições.
+  - Aumentar a confidencialidade das transações Bitcoin.
+explanation: |
+  Um dos objetivos da análise de cadeia é agrupar diversas atividades no Bitcoin a fim de determinar a unicidade do usuário que as realizou. Posteriormente, será possível tentar vincular esse conjunto de atividades a uma identidade real.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Trong những rủi ro sau, đâu không phải là rủi ro liên quan đến giao dịch tiền mặt P2P?
+answer: Rủi ro rò rỉ dữ liệu.
+wrong_answers:
+  - Rủi ro đối với an toàn cá nhân.
+  - Rủi ro bị trộm.
+  - Rủi ro pháp lý.
+explanation: |
+  Giao dịch tiền mặt P2P mang lại nhiều rủi ro, nhưng chúng không yêu cầu thực hiện KYC. Do đó, không có rủi ro rò rỉ dữ liệu.
+reviewed: false

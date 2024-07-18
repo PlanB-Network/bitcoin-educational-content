@@ -1,0 +1,9 @@
+question: What mechanism is used by online peer-to-peer (P2P) matchmaking platforms to reduce the risk of theft?
+answer: An escrow mechanism.
+wrong_answers:
+  - A secure matching algorithm.
+  - An email verification mechanism.
+  - An identity verification mechanism.
+explanation: |
+  These platforms typically use a protection mechanism where bitcoins are held until the seller confirms the payment in fiat currency. This mechanism of holding by a third party represents what is known as an escrow.
+reviewed: false

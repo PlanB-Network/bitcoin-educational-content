@@ -1,0 +1,9 @@
+question: Quem descobriu a heurística do reuso de endereços?
+answer: Satoshi Nakamoto
+wrong_answers:
+  - Vitalik Buterin
+  - Hal Finney
+  - Gavin Andresen
+explanation: |
+  A primeira pessoa a discutir este conceito foi Satoshi Nakamoto na parte 10 do Bitcoin White Paper.
+reviewed: false

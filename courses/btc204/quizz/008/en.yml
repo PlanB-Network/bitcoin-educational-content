@@ -1,0 +1,9 @@
+question: If a transaction has 2 UTXOs of 5,000 sats as inputs and 3 UTXOs of 3,000 sats as outputs, what are the transaction fees?
+answer: 1,000 sats
+wrong_answers:
+  - 1,500 sats
+  - 2,500 sats
+  - 3,000 sats
+explanation: |
+  The fees of a transaction represent the difference between the total inputs and the total outputs. It's what remains after consuming all the inputs and creating all the outputs. The calculation is therefore; fees = (5000x2) - (3000x3) = 10000 - 9000 = 1000.
+reviewed: false

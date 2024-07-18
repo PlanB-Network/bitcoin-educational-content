@@ -1,0 +1,9 @@
+question: Si l'on observe dans une transaction de paiement simple qu'un même type de script est utilisé en input et sur seulement un des 2 outputs, quel output représente vraisemblablement le change ?
+answer: Celui avec le même type de script que l'input.
+wrong_answers:
+  - Celui avec le type de script le plus récent.
+  - Celui avec un type de script différent de l'input.
+  - Celui avec un type de script non standard.
+explanation: |
+  Si une réutilisation de versionnage se produit au sein d'une transaction, on peut vraisemblablement penser que l'utilisateur est toujours en possession de l'UTXO associé. L'output avec la même version de script que l'input est donc sûrement le change.
+reviewed: false

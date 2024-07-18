@@ -1,0 +1,9 @@
+question: Quando si cerca un modello, quale parte della transazione studieremo?
+answer: La sua struttura
+wrong_answers:
+  - I suoi metadati
+  - I suoi script
+  - La sua firma
+explanation: |
+  Un modello di transazione è semplicemente un modello o una struttura generale di una transazione tipica che può essere trovata sulla blockchain, la cui interpretazione probabile è nota.
+reviewed: false

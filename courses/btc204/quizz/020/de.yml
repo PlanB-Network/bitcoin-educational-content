@@ -1,0 +1,9 @@
+question: Wenn wir nach einem Muster suchen, welchen Teil der Transaktion werden wir untersuchen?
+answer: Ihre Struktur
+wrong_answers:
+  - Ihre Metadaten
+  - Ihre Skripte
+  - Ihre Signatur
+explanation: |
+  Ein Transaktionsmuster ist einfach ein Modell oder eine Gesamtstruktur einer typischen Transaktion, die auf der Blockchain gefunden werden kann, deren wahrscheinliche Interpretation bekannt ist.
+reviewed: false

@@ -1,0 +1,9 @@
+question: KYC là gì?
+answer: Một thủ tục để xác minh và ghi lại danh tính của khách hàng.
+wrong_answers:
+  - Một hệ thống mã hóa để bảo mật giao dịch tài chính.
+  - Một phương pháp xác thực cho giao dịch tài chính.
+  - Một kỹ thuật tiếp thị để phân tích hành vi của khách hàng.
+explanation: |
+  KYC viết tắt của Know Your Customer, thực sự là một thủ tục quy định để xác minh danh tính của khách hàng.
+reviewed: false

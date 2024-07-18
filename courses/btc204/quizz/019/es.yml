@@ -1,0 +1,9 @@
+question: ¿Cuáles son las heurísticas de análisis de cadena mencionadas por Satoshi Nakamoto en el Documento Técnico de Bitcoin? (solo una respuesta posible)
+answer: El CIOH y la reutilización de direcciones.
+wrong_answers:
+  - Agrupamiento por firma y correlación temporal.
+  - Pagos de número redondo y la gran salida.
+  - Análisis de volumen y similitudes de script.
+explanation: |
+  En la parte 10 del Documento Técnico de Bitcoin, Satoshi Nakamoto advierte a los usuarios sobre el CIOH (Heurística de Propiedad Común de Entrada) y la reutilización del mismo par de claves.
+reviewed: false

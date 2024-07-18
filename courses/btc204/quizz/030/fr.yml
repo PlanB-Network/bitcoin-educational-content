@@ -1,0 +1,9 @@
+question: Quel est l'objectif des heuristiques internes à la transaction ?
+answer: Identifier le change.
+wrong_answers:
+  - Identifier les transactions frauduleuses en temps réel.
+  - Identifier les modèles de transaction.
+  - Identifier un cluster appartenant à une même entité.
+explanation: |
+  Les heuristiques internes nous permettent d'identifier le change dans le but d'observer l'utilisateur sur les transactions suivantes.
+reviewed: false

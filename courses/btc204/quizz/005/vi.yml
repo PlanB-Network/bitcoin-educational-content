@@ -1,0 +1,9 @@
+question: Input trong một giao dịch là gì?
+answer: Một tham chiếu đến một UTXO chưa được tiêu trước đó.
+wrong_answers:
+  - Một tín hiệu xác nhận từ các thợ đào.
+  - Một khối mới được thêm vào blockchain.
+  - Một mã xác minh để bảo mật giao dịch.
+explanation: |
+  Mỗi input của giao dịch là một tham chiếu đến một UTXO, nghĩa là output của một giao dịch trước đó.
+reviewed: false

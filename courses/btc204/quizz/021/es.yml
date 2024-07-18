@@ -1,0 +1,9 @@
+question: ¿Cuál es el patrón de un pago simplificado en Bitcoin?
+answer: 1 o más UTXOs en entradas y 2 UTXOs en salidas.
+wrong_answers:
+  - 1 UTXO en entrada y 1 UTXO en salida
+  - Varios UTXOs en entrada y 1 UTXO en salida
+  - 5 UTXOs en entradas y 5 UTXOs en salidas
+explanation: |
+  En un pago simplificado, el usuario consume uno o más UTXOs como entradas para cumplir en las salidas un UTXO de pago y un UTXO de cambio (así 2 UTXOs).
+reviewed: false

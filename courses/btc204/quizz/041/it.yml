@@ -1,0 +1,9 @@
+question: Qual è il principale svantaggio dei Bancomat (ATM)?
+answer: Spesso le commissioni molto alte.
+wrong_answers:
+  - Necessità di una connessione internet veloce.
+  - Mancanza di supporto per le valute locali.
+  - Sicurezza delle transazioni non garantita.
+explanation: |
+  Acquistare bitcoin tramite ATM è una soluzione interessante per la privacy degli utenti, ma il loro principale svantaggio è che spesso applicano commissioni esorbitanti.
+reviewed: false

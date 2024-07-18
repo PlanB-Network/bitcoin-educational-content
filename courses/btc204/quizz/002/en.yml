@@ -1,0 +1,9 @@
+question: What is the action of a Bitcoin transaction on the input UTXOs?
+answer: It consumes them to satisfy the outputs.
+wrong_answers:
+  - It archives them in the blockchain for future reference.
+  - It encrypts them to secure the transaction.
+  - It duplicates them to create new UTXOs.
+explanation: |
+  The input UTXOs in a transaction are consumed in order to fund the outputs. It is, in a way, the source of the money.
+reviewed: false

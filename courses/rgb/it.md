@@ -9,9 +9,9 @@ objectives:
 
 # Un viaggio nel mondo di RGB
 
-In questo programma, ci immergeremo nel mondo di RGB, una soluzione rivoluzionaria a più livelli per la scalabilità di Bitcoin. RGB utilizza la convalida lato client per integrare i suoi smart contract in Bitcoin, consentendo contratti off-chain e casi d'uso scalabili del protocollo. Dal DeFi agli NFT alla creazione di asset, RGB è una tecnologia promettente che può abilitare molti nuovi casi d'uso immutabili.
+In questo programma, ci immergeremo nel mondo di RGB, una soluzione rivoluzionaria a più livelli per la scalabilità di Bitcoin. RGB utilizza la convalida lato client per integrare i suoi smart contract in Bitcoin, consentendo contratti off-chain e casi d'uso scalabili del protocollo. Dalla DeFi agli NFT alla creazione di asset, RGB è una tecnologia promettente che può abilitare nuovi e diversi casi d'uso immutabili.
 
-In questo corso, ci concentreremo prima sugli aspetti teorici, poi esploreremo il lato della programmazione e infine, analizzeremo alcuni esempi e esercizi concreti tratti dalla vita reale. Il corso ha origine da un seminario dal vivo organizzato da Fulgur'Ventures e tenuto da tre insegnanti rinomati ed esperti di RGB.
+In questo corso, ci concentreremo prima sugli aspetti teorici, poi esploreremo il lato della programmazione e infine, analizzeremo alcuni esempi ed esercizi concreti tratti dalla vita reale. Il corso ha origine da un seminario dal vivo organizzato da Fulgur'Ventures e tenuto da tre insegnanti rinomati ed esperti di RGB.
 
 Buon divertimento e buona fortuna con uno degli argomenti più avanzati di Bitcoin.
 

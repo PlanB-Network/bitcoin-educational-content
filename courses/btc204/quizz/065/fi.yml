@@ -1,4 +1,4 @@
-question: Mikä on "dust" UTXOjen kontekstissa?
+question: Mikä on dust UTXOjen kontekstissa?
 
 answer: UTXOt, joiden arvo on liian alhainen kattaakseen tarvittavat kulut niiden käyttämiseksi.
 
@@ -11,3 +11,4 @@ explanation: |
   Dust viittaa UTXOihin, joiden arvo satosheina on niin alhainen, ettei se riitä kattamaan transaktiokuluja, jotka vaaditaan niiden käyttämiseksi.
 
 reviewed: false
+

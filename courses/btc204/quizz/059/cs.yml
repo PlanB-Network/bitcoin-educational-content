@@ -2,7 +2,7 @@ question: Na jaké přibližné úrovni je celková míra opětovného použití
 
 answer: Asi 50%
 
-nesprávné_odpovědi:
+wrong_answers:
   - Asi 5%
   - Asi 15%
   - Asi 40%

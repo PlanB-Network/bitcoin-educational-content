@@ -1,6 +1,6 @@
 question: Jaký je průměrný čas mezi dvěma bloky v protokolu Bitcoin?
 answer: 10 minut
-nesprávné_odpovědi:
+wrong_answers:
   - 5 minut
   - 15 minut
   - 20 minut

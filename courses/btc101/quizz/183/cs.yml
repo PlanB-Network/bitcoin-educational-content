@@ -1,6 +1,6 @@
 question: Jaký je jeden z důvodů, proč může cena Bitcoinu klesnout o 10-20 nebo dokonce 50% během několika dnů?
 answer: Tržní variace a fáze býčího a medvědího trhu.
-nesprávné_odpovědi:
+wrong_answers:
   - Počet lidí používajících internet.
   - Počasí.
   - Cena zlata.

@@ -1,6 +1,6 @@
 question: Které z těchto rizik není spojeno s hotovostními P2P výměnami?
 answer: Riziko úniku dat.
-nesprávné_odpovědi:
+wrong_answers:
   - Riziko pro osobní bezpečnost.
   - Riziko krádeže.
   - Právní riziko.

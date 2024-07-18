@@ -1,6 +1,6 @@
 question: Jaká je hlavní psychologická vlastnost Hodlera?
 answer: Trpělivost.
-nesprávné_odpovědi:
+wrong_answers:
   - Impulzivnost.
   - Krátkodobé vidění.
   - Nedostatek disciplíny.

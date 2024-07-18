@@ -2,7 +2,7 @@ question: Jaká rizika jsou spojena s používáním uzlu třetí strany?
 
 answer: Cenzura a sledování aktivit.
 
-nesprávné_odpovědi:
+wrong_answers:
   - Ztráta bitcoinů.
   - Zvýšení poplatků za transakce.
   - Krádež bitcoinů a sledování.

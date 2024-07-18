@@ -1,6 +1,6 @@
 question: Jaká je hlavní charakteristika "blockchainu" bez důkazu práce?
 answer: Nemá skutečnou hodnotu
-nesprávné_odpovědi:
+wrong_answers:
   - Je bezpečnější
   - Je rychlejší
   - Je více decentralizovaný

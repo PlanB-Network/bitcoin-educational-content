@@ -1,6 +1,6 @@
 question: Kolik kol provádí PBKDF2 s použitím HMAC SHA512?
 answer: 2048 kol
-nesprávné_odpovědi:
+wrong_answers:
   - 1024 kol
   - 512 kol
   - 4096 kol

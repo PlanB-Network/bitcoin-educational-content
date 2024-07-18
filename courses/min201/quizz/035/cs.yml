@@ -1,6 +1,6 @@
 question: Co měří hashrate v síti Bitcoin?
 answer: Počet výpočtů za sekundu
-nesprávné_odpovědi:
+wrong_answers:
   - Počet transakcí za sekundu
   - Počet aktivních uzlů
   - Množství elektrické energie spotřebované sítí

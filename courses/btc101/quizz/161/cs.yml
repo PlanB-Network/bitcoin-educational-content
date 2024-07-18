@@ -1,6 +1,6 @@
 question: Jaké je hlavní obavy týkající se environmentálních nákladů těžby Bitcoinu?
 answer: Spotřeba energie
-nesprávné_odpovědi:
+wrong_answers:
   - Výroba ASICů
   - Recyklace ASICů
   - Cena elektřiny

@@ -1,6 +1,6 @@
 question: Je heslová fráze bezpečnější než jednoduché heslo?
 answer: "Ano"
-nesprávné_odpovědi:
+wrong_answers:
   - "Ne"
   - Záleží na délce hesla
   - Záleží na složitosti hesla

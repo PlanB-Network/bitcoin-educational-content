@@ -1,6 +1,6 @@
 question: Je možné podvádět publikováním starého stavu v transakci závazku?
 answer: "Ano"
-nesprávné_odpovědi:
+wrong_answers:
   - "Ne"
   - Pouze pokud mají klíč pro zrušení.
   - Pouze pokud transakci vytvořili s časovým zámkem.

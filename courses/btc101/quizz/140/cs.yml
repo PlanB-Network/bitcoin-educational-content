@@ -1,6 +1,6 @@
 question: Jaká je velikost blockchainu Bitcoinu?
 answer: Přibližně 500GB
-nesprávné_odpovědi:
+wrong_answers:
   - Přibližně 100GB
   - Přibližně 1TB
   - Přibližně 2TB

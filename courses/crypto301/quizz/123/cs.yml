@@ -1,6 +1,6 @@
 question: Ušetří použití Bitcoinové adresy místo v blocích?
 answer: To není pravda
-nesprávné_odpovědi:
+wrong_answers:
   - To je pravda
   - Pouze pokud je adresa komprimována
   - Pouze pokud je adresa hashována

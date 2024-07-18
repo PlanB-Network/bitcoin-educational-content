@@ -1,9 +1,10 @@
 question: Co je blockchainové trilema?
-answer: Protokol založený na blockchainu může splnit pouze dvě z vlastností: decentralizaci, bezpečnost a škálovatelnost.
+answer: Protokol založený na blockchainu může splnit pouze dvě z vlastností; decentralizaci, bezpečnost a škálovatelnost.
 wrong_answers:
-  - Protokol založený na blockchainu může splnit pouze jednu z vlastností: decentralizaci, bezpečnost a škálovatelnost.
-  - Protokol založený na blockchainu může splnit všechny vlastnosti: decentralizaci, bezpečnost a škálovatelnost.
-  - Protokol založený na blockchainu nemůže splnit žádnou z vlastností: decentralizaci, bezpečnost a škálovatelnost.
+  - Protokol založený na blockchainu může splnit pouze jednu z vlastností; decentralizaci, bezpečnost a škálovatelnost.
+  - Protokol založený na blockchainu může splnit všechny vlastnosti; decentralizaci, bezpečnost a škálovatelnost.
+  - Protokol založený na blockchainu nemůže splnit žádnou z vlastností; decentralizaci, bezpečnost a škálovatelnost.
 explanation: |
-  Blockchainové trilema odkazuje na výzvu, že protokol založený na blockchainu může splnit pouze dvě z vlastností: decentralizaci, bezpečnost a škálovatelnost.
+  Blockchainové trilema odkazuje na výzvu, že protokol založený na blockchainu může splnit pouze dvě z vlastností; decentralizaci, bezpečnost a škálovatelnost.
 reviewed: false
+

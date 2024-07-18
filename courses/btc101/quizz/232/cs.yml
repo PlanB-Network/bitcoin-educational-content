@@ -1,6 +1,6 @@
 question: Jaká je velikost bloku v protokolu Bitcoin?
 answer: 1MB
-nesprávné_odpovědi:
+wrong_answers:
   - 0.5MB
   - 2MB
   - 3MB

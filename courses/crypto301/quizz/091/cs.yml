@@ -1,6 +1,6 @@
 question: Jaká je velikost payloadu v rozšířeném klíči?
 answer: 65 bajtů
-nesprávné_odpovědi:
+wrong_answers:
   - 33 bajtů
   - 32 bajtů
   - 82 bajtů

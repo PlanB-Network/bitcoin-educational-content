@@ -1,4 +1,4 @@
-domanda: Cos'è la "polvere" nel contesto degli UTXO?
+domanda: Cos'è la polvere nel contesto degli UTXO?
 
 risposta: UTXO il cui valore è troppo basso per coprire le commissioni necessarie per spenderli.
 
@@ -11,3 +11,4 @@ spiegazione: |
   La polvere si riferisce agli UTXO il cui valore in satoshi è così basso che non è sufficiente a coprire le commissioni di transazione richieste per spenderli.
 
 revisionato: false
+

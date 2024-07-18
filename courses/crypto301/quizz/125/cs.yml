@@ -1,6 +1,6 @@
 question: Jaká je velikost komprimovaného veřejného klíče v Bitcoinu?
 answer: 264 bitů
-nesprávné_odpovědi:
+wrong_answers:
   - 520 bitů
   - 128 bitů
   - 256 bitů

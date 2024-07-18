@@ -1,6 +1,6 @@
 question: Potřebují Linux a Mac často antivirový program?
 answer: To není pravda
-nesprávné_odpovědi:
+wrong_answers:
   - To je pravda
   - Pouze Linux potřebuje antivirový program.
   - Pouze Mac potřebuje antivirový program.

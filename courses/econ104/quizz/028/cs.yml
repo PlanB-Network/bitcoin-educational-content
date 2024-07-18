@@ -1,6 +1,6 @@
 question: Kdokoli může zkopírovat kód Bitcoinu, čímž ho znehodnotí, správně nebo nesprávně?
 answer: Správně
-nesprávné_odpovědi:
+wrong_answers:
   - Nesprávně
 explanation: |
   I když je kód pro Bitcoin open source a může být zkopírován,

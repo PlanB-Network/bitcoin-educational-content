@@ -1,7 +1,7 @@
 question:
   Omezuje kapacita platebního kanálu Lightning celkový počet transakcí nebo celkový objem Bitcoinu, který může být přenesen skrze kanál?
 answer: To není pravda
-nesprávné_odpovědi:
+wrong_answers:
   - To je pravda
   - To je pravda pouze v některých případech
   - To závisí na síti Bitcoin

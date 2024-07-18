@@ -1,6 +1,6 @@
 question: Jaká technologie se používá v Bitcoin peněžence k zabezpečení prostředků určených k utrácení v Bitcoin peněžence?
 answer: Eliptická křivková kryptografie
-nesprávné_odpovědi:
+wrong_answers:
   - Symetrická kryptografie
   - Kvantová kryptografie
   - RSA kryptografie

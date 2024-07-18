@@ -1,6 +1,6 @@
 question: Jaké procento celkového objemu transakcí Bitcoinu bylo použito pro nelegální aktivity?
 answer: Méně než 1%
-nesprávné_odpovědi:
+wrong_answers:
   - 2-4%
   - Více než 5%
   - Je to neznámé

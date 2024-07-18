@@ -1,6 +1,6 @@
 question: Jaká je běžná taktika používaná krypto influencery nebo guru?
 answer: Propagace nespolehlivých kryptoměn.
-nesprávné_odpovědi:
+wrong_answers:
   - Propagace fyzických aktiv.
   - Propagace fiat měn.
   - Propagace softwarových produktů.

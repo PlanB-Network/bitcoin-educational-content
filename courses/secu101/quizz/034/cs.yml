@@ -1,6 +1,6 @@
 question: Co mohou obsahovat přílohy a obrázky v e-mailech?
 answer: Malware
-nesprávné_odpovědi:
+wrong_answers:
   - Spam
   - Reklamy
   - Propagační obsah

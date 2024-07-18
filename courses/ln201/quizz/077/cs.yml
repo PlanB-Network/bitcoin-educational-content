@@ -1,6 +1,6 @@
 question: Co znamená 'ln' v 'lnbc1m' na faktuře Lightning Network?
 answer: Lightning
-nesprávné_odpovědi:
+wrong_answers:
   - Litecoin
   - Ledger Nano
   - Dlouhé číslo

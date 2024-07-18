@@ -1,6 +1,6 @@
 question: Jak se nazývá proces, který ověřuje transakce v síti Bitcoin?
 answer: Těžba
-nesprávné_odpovědi:
+wrong_answers:
   - Kopání
   - Sklízení
   - Farmaření

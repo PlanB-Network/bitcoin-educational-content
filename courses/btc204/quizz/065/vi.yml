@@ -1,4 +1,4 @@
-question: "Dust" trong ngữ cảnh của UTXOs là gì?
+question: Dust trong ngữ cảnh của UTXOs là gì?
 
 answer: UTXOs có giá trị quá thấp để chi trả các khoản phí cần thiết để sử dụng chúng.
 
@@ -11,3 +11,4 @@ explanation: |
   Dust ám chỉ các UTXOs có giá trị bằng sats quá thấp đến mức không đủ để chi trả các khoản phí giao dịch cần thiết để sử dụng chúng.
 
 reviewed: false
+

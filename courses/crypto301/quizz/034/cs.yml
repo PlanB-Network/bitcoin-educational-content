@@ -1,6 +1,6 @@
 question: Jaká je velikost soukromého klíče Bitcoinu?
 answer: 256bitové číslo
-nesprávné_odpovědi:
+wrong_answers:
   - 512bitové číslo
   - 128bitové číslo
   - 1024bitové číslo

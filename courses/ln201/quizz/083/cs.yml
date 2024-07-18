@@ -1,6 +1,6 @@
 question: Jaká je hlavní výzva při správě likvidity na Lightning Network?
 answer: Udržování likvidity
-nesprávné_odpovědi:
+wrong_answers:
   - Otevírání kanálů
   - Připojování k ostatním uzlům
   - Kupování kanálů

@@ -1,4 +1,4 @@
-Frage: Was ist "Dust" im Kontext von UTXOs?
+Frage: Was ist Dust im Kontext von UTXOs?
 
 Antwort: UTXOs, deren Wert zu niedrig ist, um die notwendigen Gebühren für ihre Verwendung zu decken.
 
@@ -11,3 +11,4 @@ Erklärung: |
   Dust bezieht sich auf UTXOs, deren Wert in Sats so niedrig ist, dass er nicht ausreicht, um die für ihre Verwendung erforderlichen Transaktionsgebühren zu decken.
 
 Überprüft: false
+

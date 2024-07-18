@@ -1,6 +1,6 @@
 question: Když hledáme vzor, kterou část transakce budeme studovat?
 answer: Její strukturu
-nesprávné_odpovědi:
+wrong_answers:
   - Její metadata
   - Její skripty
   - Její podpis

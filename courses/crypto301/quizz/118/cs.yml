@@ -1,7 +1,7 @@
 question:
   Je možné provést reverzi z Bitcoinové adresy na veřejný klíč, nebo z veřejného klíče na soukromý klíč?
 answer: To není pravda
-nesprávné_odpovědi:
+wrong_answers:
   - To je pravda
   - Pouze z veřejného klíče na soukromý klíč
   - Pouze z adresy na veřejný klíč

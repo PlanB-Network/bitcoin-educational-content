@@ -1,6 +1,6 @@
 question: Jaká je hlavní nevýhoda bankomatů (ATM)?
 answer: Často velmi vysoké poplatky.
-nesprávné_odpovědi:
+wrong_answers:
   - Potřeba rychlého internetového připojení.
   - Nedostatek podpory pro lokální měny.
   - Zabezpečení transakce není zaručeno.

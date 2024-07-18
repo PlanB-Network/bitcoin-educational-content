@@ -1,6 +1,6 @@
 question: Kolik zemí po celém světě omezuje ženy v možnosti otevřít si bankovní účet na vlastní jméno?
 answer: 72
-nesprávné_odpovědi:
+wrong_answers:
   - 36
   - 75
   - 100

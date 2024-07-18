@@ -2,7 +2,7 @@ question: Jak se jmenuje kryptografický algoritmus používaný u Tichých plat
 
 answer: ECDH
 
-nesprávné_odpovědi:
+wrong_answers:
   - RSA
   - DH
   - SHA256

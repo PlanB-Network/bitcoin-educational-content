@@ -1,4 +1,4 @@
-question: O que é "dust" no contexto de UTXOs?
+question: O que é dust no contexto de UTXOs?
 
 answer: UTXOs cujo valor é muito baixo para cobrir as taxas necessárias para gastá-los.
 
@@ -11,3 +11,4 @@ explanation: |
   Dust refere-se a UTXOs cujo valor em sats é tão baixo que não é suficiente para cobrir as taxas de transação necessárias para gastá-los.
 
 reviewed: false
+

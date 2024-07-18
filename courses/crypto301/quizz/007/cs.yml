@@ -1,6 +1,6 @@
 question: Jaká hashovací funkce je klíčovým prvkem protokolu Bitcoin?
 answer: SHA-256
-nesprávné_odpovědi:
+wrong_answers:
   - MD5
   - SHA1
   - SHA0

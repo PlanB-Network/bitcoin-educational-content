@@ -2,7 +2,7 @@ question: Která heuristika může být použita pro propojení všech vstupů k
 
 answer: CIOH.
 
-nesprávné_odpovědi:
+wrong_answers:
   - Opětovné použití adresy.
   - Největší výstup.
   - Kulatá platba.

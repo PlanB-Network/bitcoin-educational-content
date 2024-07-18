@@ -1,4 +1,4 @@
-question: 'ln' trong 'lnbc1m' của một hóa đơn Lightning Network có nghĩa là gì?
+question: ln trong lnbc1m của một hóa đơn Lightning Network có nghĩa là gì?
 answer: Lightning
 wrong_answers:
   - Litecoin
@@ -7,3 +7,4 @@ wrong_answers:
 explanation: |
   Trong một hóa đơn Lightning Network, 'ln' có nghĩa là Lightning, ám chỉ
   đến Lightning Network, một giải pháp tầng 2 cho Bitcoin cho phép giao dịch nhanh chóng, chi phí thấp.
+

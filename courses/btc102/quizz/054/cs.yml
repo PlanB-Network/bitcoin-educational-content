@@ -1,6 +1,6 @@
 question: Kdo představil myšlenku "Bitcoinové dálnice"?
 answer: Andreas Antonopoulos
-nesprávné_odpovědi:
+wrong_answers:
   - Satoshi Nakamoto
   - Elon Musk
   - Vitalik Buterin

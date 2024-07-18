@@ -1,6 +1,6 @@
 question: Kdo popsal Bitcoin jako "švýcarskou banku ve vaší kapse"?
 answer: Barack Obama
-nesprávné_odpovědi:
+wrong_answers:
   - Donald Trump
   - Bill Gates
   - Elon Musk

@@ -2,7 +2,7 @@ question: Který skriptovací model se v roce 2024 doporučuje pro zvýšené so
 
 answer: P2TR
 
-nesprávné_odpovědi:
+wrong_answers:
   - P2PK
   - P2PKH
   - P2SH

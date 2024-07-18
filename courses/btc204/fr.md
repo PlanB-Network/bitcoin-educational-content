@@ -1707,7 +1707,7 @@ Zerolink est un protocole de mixage complet qui intègre des coinjoins chaumiens
 
 ![BTC204](assets/notext/52/14.webp)
 
-Comme son nom l'indique, le principe de Zerolink est de réaliser des transactions coinjoin qui assurent l'impossibilité de retracer les liens entre les intputs et les outputs. Cette caractéristique est obtenue en s'assurant que tous les outputs présentent des montants parfaitement identiques.
+Comme son nom l'indique, le principe de Zerolink est de réaliser des transactions coinjoin qui assurent l'impossibilité de retracer les liens entre les inputs et les outputs. Cette caractéristique est obtenue en s'assurant que tous les outputs présentent des montants parfaitement identiques.
 
 ![BTC204](assets/notext/52/11.webp)
 
@@ -2080,7 +2080,7 @@ Contrairement aux anonsets qui se calculent sur un ensemble de transactions, les
 
 ### Le nombre d'interprétations
 
-Le premier indicateur que l'on peut observer sur une transaction Bitcoin est le nombre total d'interprétations possibles face à une analyse d'un observateur extérieur. En prenant en compte les valeurs des UTXOs impliqués dans la transaction, cet indicateur indique le nombre de manières dont les inputs peuvent être associées aux outputs. Autrement dit, il détermine le nombre d'interprétations possibles qu'une transaction peut susciter dans les flux de bitcoins du point de vue d'un observateur extérieur qui l'analyse.
+Le premier indicateur que l'on peut observer sur une transaction Bitcoin est le nombre total d'interprétations possibles face à une analyse d'un observateur extérieur. En prenant en compte les valeurs des UTXOs impliqués dans la transaction, cet indicateur indique le nombre de manières dont les inputs peuvent être associés aux outputs. Autrement dit, il détermine le nombre d'interprétations possibles qu'une transaction peut susciter dans les flux de bitcoins du point de vue d'un observateur extérieur qui l'analyse.
 
 À titre d'exemple, une transaction de paiement simple avec 1 input et 2 outputs présentera seulement une seule interprétation, à savoir que l'input #0 a permis de financer l'output #0 et l'output #1. Il n'y a aucune autre interprétation possible :
 
@@ -2152,7 +2152,7 @@ $$
 
 ### L'efficacité
 
-À partir de l'entropie de la transaction, on va également pouvoir calculer son efficacité en terme de confidentialité. Cet indicateur évalue l'efficacité de la transaction en la comparant à la transaction optimale envisageable dans une configuration identique. 
+À partir de l'entropie de la transaction, on va également pouvoir calculer son efficacité en termes de confidentialité. Cet indicateur évalue l'efficacité de la transaction en la comparant à la transaction optimale envisageable dans une configuration identique. 
 
 Cela nous amène à aborder le concept d'entropie maximale, qui correspond à l'entropie la plus élevée qu'une structure de transaction spécifique puisse théoriquement atteindre. L'efficacité de la transaction est alors calculée en confrontant cette entropie maximale à l'entropie réelle de la transaction analysée. 
 
@@ -2194,7 +2194,7 @@ Une efficacité de $100 \%$ indique donc que la transaction exploite au maximum 
 
 ### La densité de l'entropie
 
-L'entropie est un bon indicateur pour mesurer la confidentialité d'une transaction, mais elle dépend en partie du nombre d'inputs et d'outputs dans la transaction. Pour pouvoir comparer l'entropie de 2 transactions différentes qui n'ont pas le même nombre d'inputs et d'output, on peut calculer la densité de l'entropie. Cet indicateur offre une perspective sur l'entropie relative à chaque intput ou output de la transaction. La densité s'avère utile pour évaluer et comparer l'efficacité de transactions de différentes tailles. 
+L'entropie est un bon indicateur pour mesurer la confidentialité d'une transaction, mais elle dépend en partie du nombre d'inputs et d'outputs dans la transaction. Pour pouvoir comparer l'entropie de 2 transactions différentes qui n'ont pas le même nombre d'inputs et d'output, on peut calculer la densité de l'entropie. Cet indicateur offre une perspective sur l'entropie relative à chaque input ou output de la transaction. La densité s'avère utile pour évaluer et comparer l'efficacité de transactions de différentes tailles. 
 
 Pour la calculer, on divise simplement l'entropie totale de la transaction par le nombre total d'inputs et d'outputs impliqués dans la transaction :
 - $E_D$ : la densité de l'entropie exprimée en bits ;
@@ -2229,11 +2229,11 @@ E_D &= 1.453 \text{ bits}
 \end{align*}
 $$
 
-En analysant la densité de l'entropie de ces deux types de coinjoins, il devient évident que, même en normalisant l'entropie par le nombre d'éléments, le coinjoin "Surge Cycle 8x8" génère davantage d'incertitudes pour l'analyse.
+En analysant la densité de l'entropie de ces deux types de coinjoins, il devient évident que, même en normalisant l'entropie par le nombre d'éléments, le coinjoin "Surge Cycle 8x8" génère davantage d'incertitude pour l'analyse.
 
 ### Le score de Boltzmann
 
-Une autre information que l'on analyser dans une transaction est le score Boltzmann de chaque élément relativement à un autre. C'est le tableau des probabilités de correspondance entre les inputs et les outputs. Ce tableau indique, à travers le score de Boltzmann, la probabilité conditionnelle qu'un input spécifique soit relié à un output donné. C'est donc une mesure quantitative de la probabilité conditionnelle qu'une association entre un input et un output dans une transaction se produise, basée sur le ratio du nombre d'occurrences favorables de cet événement par rapport au nombre total d'occurrences possibles, dans un ensemble d'interprétations.
+Une autre information que l'on analyse dans une transaction est le score Boltzmann de chaque élément relativement à un autre. C'est le tableau des probabilités de correspondance entre les inputs et les outputs. Ce tableau indique, à travers le score de Boltzmann, la probabilité conditionnelle qu'un input spécifique soit relié à un output donné. C'est donc une mesure quantitative de la probabilité conditionnelle qu'une association entre un input et un output dans une transaction se produise, établie sur le ratio du nombre d'occurrences favorables de cet événement par rapport au nombre total d'occurrences possibles, dans un ensemble d'interprétations.
 
 En reprenant l'exemple d'un coinjoin Whirlpool, le tableau des probabilités conditionnelles mettrait en lumière les chances de lien entre chaque input et output, ce qui offre une mesure quantitative de l'ambiguïté des associations dans la transaction :
 
@@ -2285,19 +2285,21 @@ On peut également calculer sur une transaction le nombre de liens déterministe
 
 Par exemple, une transaction coinjoin de type Whirlpool ne présente aucun lien déterministe entre les inputs et les outputs, et affiche par conséquent un indicateur de 0 lien et un ratio de 0 %. À l'inverse, dans notre seconde transaction de paiement simple examinée (avec un input et 2 outputs), l'indicateur nous indique qu'il existe 2 liens déterministes et le ratio atteint 100 %. Ainsi, un indicateur nul signale une excellente confidentialité grâce à l'absence de liaisons directes et incontestables entre les inputs et outputs.
 
+### Comment calculer ces indicateurs ?
 
+Calculer ces indicateurs manuellement avec les équations que je vous ai fournies est relativement simple. La difficulté réside principalement dans la détermination du nombre d'interprétations possibles d'une transaction. Pour une transaction classique, ce calcul peut être effectué à la main. Cependant, pour un coinjoin, la tâche est nettement plus complexe.
 
+Auparavant, il existait un outil Python nommé _Boltzmann Calculator_, développé par les équipes d'OXT et de Samourai, qui permettait de calculer automatiquement tous ces indicateurs pour une transaction Bitcoin : 
 
+05
 
+Il était aussi possible d'utiliser le site KYCP.org pour ces analyses :
 
+06
 
+Hélas, suite à l'arrestation des fondateurs de Samourai, ces outils ne sont plus opérationnels pour l'instant.
 
-
-
-
-
-
-
+Maintenant que nous avons abordé en détail les coinjoins, nous allons étudier les autres techniques de confidentialité disponibles sur Bitcoin dans la dernière section de notre formation. Nous examinerons les payjoins, les types de transactions spécifiques pseudo-coinjoins, les protocoles d'adresses statiques, ainsi que les mesures visant à renforcer la confidentialité non pas au niveau des transactions elles-mêmes, mais au niveau du réseau de nœuds.
 
 # Connaître les enjeux d'autres techniques de confidentialité avancées
 <partId>19989ae6-d608-4acf-b698-2cf1e7e5e6ae</partId>
@@ -2314,6 +2316,11 @@ Ce chapitre est en cours de rédaction, et sera publié très prochainement !
 
 
 Ce chapitre est en cours de rédaction, et sera publié très prochainement !
+
+
+## Les ricochets
+<chapterId>db9a20ac-a149-443d-884b-ea6c03f28499</chapterId>
+
 
 ## Les transferts secret de propriété
 <chapterId>a2067036-849c-4d6b-87d2-44235cfae7a1</chapterId>

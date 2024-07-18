@@ -72,7 +72,7 @@ Một khi mọi thứ đã sẵn sàng, và môi trường địa phương của
 - Nhấp vào nhánh này, sau đó nhấp vào nút `New Branch`:
 ![hướng dẫn](assets/8.webp)
 - Đảm bảo nhánh mới được dựa trên kho lưu trữ nguồn, tức là `DecouvreBitcoin/sovereign-university-data`.
-- Đặt tên cho nhánh của bạn sao cho tiêu đề rõ ràng về mục đích của nó, sử dụng dấu gạch ngang để phân cách từng từ. Ví dụ, giả sử mục tiêu của chúng ta là viết một hướng dẫn về việc sử dụng phần mềm Sparrow Wallet. Trong trường hợp này, nhánh làm việc dành riêng cho việc viết hướng dẫn này có thể được đặt tên: `tuto-sparrow-wallet-loic`. Sau khi nhập tên phù hợp, nhấp vào `Create branch` để xác nhận việc tạo nhánh:
+- Đặt tên cho nhánh của bạn sao cho tiêu đề rõ ràng về mục đích của nó, sử dụng dấu gạch ngang để phân cách từng từ. Ví dụ, giả sử mục tiêu của chúng ta là viết một hướng dẫn về việc sử dụng phần mềm Sparrow Wallet. Trong trường hợp này, nhánh làm việc dành riêng cho việc viết hướng dẫn này có thể được đặt name: `tuto-sparrow-wallet-loic`. Sau khi nhập tên phù hợp, nhấp vào `Create branch` để xác nhận việc tạo nhánh:
 ![hướng dẫn](assets/9.webp)
 - Bây giờ nhấp vào nút `Publish branch` để lưu nhánh làm việc mới của bạn trên bản fork trực tuyến trên GitHub:
 ![hướng dẫn](assets/10.webp)

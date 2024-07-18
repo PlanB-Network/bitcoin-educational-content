@@ -1,3 +1,3 @@
-tên: Bitcoin Memes
-mô tả: |
+name: Bitcoin Memes
+description: |
   Bộ sưu tập các meme trong ngành của chúng ta

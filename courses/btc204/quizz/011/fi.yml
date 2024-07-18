@@ -1,6 +1,6 @@
 question: Mikä on vaikein saavutettava ominaisuus digitaalisessa valuutassa, kuten bitcoinissa?
 answer: Kahdenkertaisen kulutuksen puuttuminen
-wrong_answer:
+wrong_answers:
   - Eheys
   - Aitous
   - Totuudenmukaisuus

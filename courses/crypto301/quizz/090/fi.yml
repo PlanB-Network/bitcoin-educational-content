@@ -1,7 +1,7 @@
 question: Mikä fraasi käytetään HMAC SHA-512 -algoritmin yhteydessä laskemaan
   pääyksityisavain?
 answer: Bitcoin SEED
-wrong_answer:
+wrong_answers:
   - Bitcoin KEY
   - Bitcoin WALLET
   - Bitcoin HASH

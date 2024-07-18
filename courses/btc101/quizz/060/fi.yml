@@ -1,6 +1,6 @@
 question: Mikä prosessi varmistaa transaktiot Bitcoin-verkossa?
 answer: Louhinta
-wrong_answer:
+wrong_answers:
   - Kaivaminen
   - Korjuu
   - Viljely

@@ -1,6 +1,6 @@
 question: Mikä on sijoittamisen kultainen sääntö?
 answer: Älä koskaan sijoita enemmän kuin mitä voit varaa menettää.
-wrong_answer:
+wrong_answers:
   - Sijoita aina siihen, mikä on muodikasta.
   - Sijoita aina lainarahalla.
   - Sijoita aina siihen, mitä et ymmärrä.

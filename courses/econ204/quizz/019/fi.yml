@@ -1,6 +1,6 @@
 question: Kuinka monta hyperinflaation jaksoa on dokumentoitu Hanke-Krus-taulukossa?
 answer: 56
-wrong_answer:
+wrong_answers:
   - 46
   - 66
   - 76

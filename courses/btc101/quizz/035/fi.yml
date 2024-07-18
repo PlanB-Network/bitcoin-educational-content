@@ -1,6 +1,6 @@
 question: Mikä näistä vaihtoehdoista ei ole fiat-valuuttojen etu?
 answer: Ne ovat alttiita rahalliselle inflaatiolle
-wrong_answer:
+wrong_answers:
   - Ne ovat helposti kuljetettavissa
   - Ne ovat helposti jaettavissa
   - Ne hyväksytään kaikissa maissa

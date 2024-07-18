@@ -1,6 +1,6 @@
 question: Mitä tarkoittaa 2FA?
 answer: Kaksivaiheinen tunnistautuminen
-wrong_answer:
+wrong_answers:
   - Kaksivaiheinen valtuutus
   - Kaksipiirteinen tunnistautuminen
   - Kaksitoiminto tunnistautuminen

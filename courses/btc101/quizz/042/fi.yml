@@ -1,6 +1,6 @@
 question: Mikä on mahdollinen keskuspankin digitaalisten valuuttojen (CBDCs) haittapuoli?
 answer: Ne voivat haitata yksilöiden taloudellista vapautta ja helpottaa autoritaarisen vallan väärinkäyttöä.
-wrong_answer:
+wrong_answers:
   - Ne voivat johtaa rahan määrän vähenemiseen.
   - Ne voivat johtaa Bitcoinin arvon laskuun.
   - Ne voivat johtaa kullan arvon laskuun.

@@ -1,6 +1,6 @@
 question: Mitä tarkoittaa 'ln' 'lnbc1m'-merkinnässä Lightning Network -laskussa?
 answer: Lightning
-wrong_answer:
+wrong_answers:
   - Litecoin
   - Ledger Nano
   - Pitkä numero

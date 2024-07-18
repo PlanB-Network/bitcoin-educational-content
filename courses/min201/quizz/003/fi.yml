@@ -1,6 +1,6 @@
 question: Mikä on pääasiallinen taloudellinen kannustin louhijoille osallistua Bitcoinin louhintaprosessiin?
 answer: Louhintapalkkio
-wrong_answer:
+wrong_answers:
   - Kyky hallita Bitcoin-verkkoa
   - Kyky luoda uusia bitcoineja mielensä mukaan
   - Kyky manipuloida Bitcoinin hintaa

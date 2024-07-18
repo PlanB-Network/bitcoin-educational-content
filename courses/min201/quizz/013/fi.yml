@@ -1,6 +1,6 @@
 question: Miten sääntely ja sähkön hinnat vaikuttavat Bitcoin-louhintaan?
 answer: Sääntely ja sähkön hinnat vaikuttavat merkittävästi Bitcoin-louhintaan. Louhijat etsivät jatkuvasti alhaisen sähkön hintaa maksimoidakseen voittonsa. Siksi korkean sähkön hinnan alueet eivät houkuttele louhijoita näille seuduille. Louhijat suuntaavat usein alueille, joilla on matalat sähkön hinnat, usein kehittyvissä maissa tai maissa, joilla on energiaa ylijäämässä.
-wrong_answer:
+wrong_answers:
   - Sääntely ja sähkön hinnat vaikuttavat Bitcoin-louhintaan määrittämällä, mitä louhintalaitteita voidaan käyttää.
   - Sääntely ja sähkön hinnat vaikuttavat Bitcoin-louhintaan määrittämällä, mitä louhintaohjelmistoa voidaan käyttää.
   - Sääntely ja sähkön hinnat vaikuttavat Bitcoin-louhintaan määrittämällä, kuinka suuren louhintapoolin voi muodostaa.

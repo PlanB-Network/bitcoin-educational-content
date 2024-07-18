@@ -1,6 +1,6 @@
 question: Mikä on lähtökohta kaikkien käyttäjien julkisten avainten laskemiselle Bitcoin-järjestelmässä?
 answer: Piste G
-wrong_answer:
+wrong_answers:
   - Piste K
   - Piste U
   - Piste O

@@ -1,6 +1,6 @@
 question: Minkä formaatin esitystapaa käytetään segwit-standardissa HD-lompakon osoitteen saamiseksi?
 answer: bech32-formaatti
-wrong_answer:
+wrong_answers:
   - base 58 -formaatti
   - SHA256-formaatti
   - RIPMD160-formaatti

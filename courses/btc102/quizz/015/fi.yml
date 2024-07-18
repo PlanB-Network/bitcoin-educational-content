@@ -1,6 +1,6 @@
 question: Mikä on salasananhallintaohjelman käytön päähyöty luvun mukaan?
 answer: Se auttaa sinua olemaan käyttämättä samaa salasanaa kahdesti
-wrong_answer:
+wrong_answers:
   - Se auttaa sinua muistamaan käyttäjätunnuksesi
   - Se suojaa tietokoneesi viruksilta
   - Se luo satunnaisia salasanoja

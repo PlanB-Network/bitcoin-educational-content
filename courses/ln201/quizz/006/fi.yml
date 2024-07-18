@@ -1,6 +1,6 @@
 question: Ovatko Lightning-maksukanavat kaksisuuntaisia?
 answer: "Kyllä"
-wrong_answer:
+wrong_answers:
   - "Ei"
   - Vain joissakin tapauksissa
   - Se riippuu Bitcoin-verkosta

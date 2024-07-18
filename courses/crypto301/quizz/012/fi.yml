@@ -1,6 +1,6 @@
 question: Mikä on XOR-operaattorin rooli SHA256:n tiivistysfunktiossa?
 answer: Käsittelemään bittejä yksi kerrallaan niiden järjestyksen mukaan
-wrong_answer:
+wrong_answers:
   - Palauttaa 1 vain, jos molemmat operandit ovat yhtä suuri kuin 1
   - Palauttaa operandin vastakkaisen arvon
   - Siirtää bitit oikealle valitun numeron verran

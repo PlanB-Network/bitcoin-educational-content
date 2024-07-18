@@ -1,6 +1,6 @@
 question: Mikä on keskuspankkien päävastuu Keynesiläisen oppisuunnan mukaan?
 answer: Rahantuotanto ja -hallinta
-wrong_answer:
+wrong_answers:
   - Rahoitusvallan hajauttaminen
   - Kasvun ja ihmisen rationaalisuuden maltillisen näkemyksen edistäminen
   - Ei mikään yllä olevista

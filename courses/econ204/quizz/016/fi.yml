@@ -1,6 +1,6 @@
 question: Mikä on hyperinflaation raja Philip Caganin määritelmän mukaan?
 answer: Kuukausi-inflaatio ylittää 50%
-wrong_answer:
+wrong_answers:
   - Kuukausi-inflaatio ylittää 40%
   - Kuukausi-inflaatio ylittää 60%
   - Kuukausi-inflaatio ylittää 70%

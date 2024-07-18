@@ -1,6 +1,6 @@
 question: Mikä on siemen HD-lompakon kontekstissa?
 answer: 512-bittinen alfanumeerinen sekvenssi, joka toimii perustana lompakon avainten johdannaiselle.
-wrong_answer:
+wrong_answers:
   - Salasana, jota käytetään lompakon suojaamiseen.
   - Ainutlaatuinen tunniste lompakolle.
   - Koodi, jota käytetään muistisanojen luomiseen.

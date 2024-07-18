@@ -1,6 +1,6 @@
 question: Mikä on mnemonic-lause Bitcoin-lompakon kontekstissa?
 answer: Se on lompakon varmuuskopio.
-wrong_answer:
+wrong_answers:
   - Se on lompakon salasana.
   - Se on lompakon tapahtumahistoria.
   - Se on lompakon digitaalinen allekirjoitus.

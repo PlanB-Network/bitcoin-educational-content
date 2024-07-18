@@ -1,6 +1,6 @@
 question: Mitä teksti vihjaa Bitcoinin tulevaisuudesta?
 answer: Se ei tule katoamaan
-wrong_answer:
+wrong_answers:
   - Sen korvaa parempi teknologia
   - Se kielletään maailmanlaajuisesti
   - Sen arvo laskee

@@ -1,7 +1,7 @@
 question:
   Rajoittaako Lightning-maksukanavan kapasiteetti kokonaisten transaktioiden määrää tai Bitcoinien kokonaismäärää, joka voidaan lähettää kanavan kautta?
 answer: Tämä on väärin
-wrong_answer:
+wrong_answers:
   - Tämä on totta
   - Tämä on totta vain joissakin tapauksissa
   - Se riippuu Bitcoin-verkosta

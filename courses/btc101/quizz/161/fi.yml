@@ -1,6 +1,6 @@
 question: Mikä on pääasiallinen huoli Bitcoin-louhinnan ympäristökustannuksista?
 answer: Energiankulutus
-wrong_answer:
+wrong_answers:
   - ASICien tuotanto
   - ASICien kierrätys
   - Sähkön hinta

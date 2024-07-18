@@ -1,6 +1,6 @@
 question: Mikä on useiden uudelleenarvostusten seuraus väestölle?
 answer: Säästöjen menetys ja ruokaongelmat.
-wrong_answer:
+wrong_answers:
   - Varallisuuden ja ruuan runsauden lisääntyminen.
   - Säästöjen lisääntyminen ja ruuan puute.
   - Varallisuuden väheneminen ja ruuan runsaus.

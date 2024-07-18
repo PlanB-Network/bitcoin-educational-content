@@ -1,6 +1,6 @@
 question: Mikä on AMF?
 answer: "Autorité des Marchés Financiers"
-wrong_answer:
+wrong_answers:
   - Amerikan Rahasto
   - Kaivoslaitosten Yhdistys
   - Automaattinen Rahavirta

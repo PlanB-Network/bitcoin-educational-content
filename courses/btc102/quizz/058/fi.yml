@@ -1,6 +1,6 @@
 question: Mitä tarkoittaa, jos sinulla ei ole yksityistä avainta Bitcoin-lompakkoosi?
 answer: Kolmas osapuoli vastaa bitcoinejesi turvallisuudesta
-wrong_answer:
+wrong_answers:
   - Olet menettänyt kaikki bitcoinit
   - Et voi enää tehdä transaktioita bitcoineillasi
   - Bitcoinisi muunnetaan automaattisesti toiseen kryptovaluuttaan

@@ -1,6 +1,6 @@
 question: Mikä hajautusfunktio on keskeinen elementti Bitcoin-protokollassa?
 answer: SHA-256
-wrong_answer:
+wrong_answers:
   - MD5
   - SHA1
   - SHA0

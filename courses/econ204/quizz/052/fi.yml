@@ -1,6 +1,6 @@
 question: Mikä on avaintekijä rahauudistuksen onnistumisessa tai epäonnistumisessa Bernoldin mukaan?
 answer: Luottamus, jonka väestö siihen asettaa
-wrong_answer:
+wrong_answers:
   - Liikkeessä olevan rahan määrä
   - Valuutan arvo
   - Hallituksen talouspolitiikka

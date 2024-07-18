@@ -1,6 +1,6 @@
 question: Mihin verrattuna Lightning Networkin transaktiomaksut ovat usein alle?
 answer: 0,5%
-wrong_answer:
+wrong_answers:
   - 1%
   - 2%
   - 3%

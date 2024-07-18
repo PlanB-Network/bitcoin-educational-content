@@ -1,6 +1,6 @@
 question: Mihin ensimmäinen valuutan muoto usein liitettiin?
 answer: Tärkeisiin hyödykkeisiin kuten viljaan, karjaan ja muihin tavaraeriin
-wrong_answer:
+wrong_answers:
   - Kulta ja hopea
   - Paperiset setelit
   - Digitaaliset varat

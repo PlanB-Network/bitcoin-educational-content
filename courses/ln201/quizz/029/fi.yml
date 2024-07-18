@@ -1,6 +1,6 @@
 question: Kuinka monta SAT:ta Alicella on alussa esimerkissä?
 answer: 130 000 SAT.
-wrong_answer:
+wrong_answers:
   - 100 000 SAT.
   - 90 000 SAT.
   - 0 SAT.

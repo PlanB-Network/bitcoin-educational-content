@@ -1,6 +1,6 @@
 question: Mikä on ketjukoodin tarkoitus laajennetussa avaimessa?
 answer: Sen avulla voidaan johtaa tiettyjä lapsiavaimia.
-wrong_answer:
+wrong_answers:
   - Sitä käytetään pääavaimen luomiseen.
   - Sitä käytetään laajennetun avaimen salaamiseen.
   - Sitä käytetään laajennetun avaimen aitouden varmistamiseen.

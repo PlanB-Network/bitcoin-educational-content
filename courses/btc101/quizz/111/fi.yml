@@ -1,6 +1,6 @@
 question: Mitä KYC tarkoittaa?
 answer: Tunne Asiakkaasi
-wrong_answer:
+wrong_answers:
   - Säilytä Käteisesi
   - Kirjoita Koodisi
   - Kohteliaasti Noudata Vaatimuksia

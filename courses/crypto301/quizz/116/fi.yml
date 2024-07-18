@@ -1,6 +1,6 @@
 question: Mikä on ensisijainen syy käyttää vastaanotto-osoitetta julkisen avaimen sijaan Bitcoin-siirroissa?
 answer: Se pienentää julkisen avaimen tiedon kokoa.
-wrong_answer:
+wrong_answers:
   - Se mahdollistaa palauttamisen osoitteesta julkiseen avaimeseen.
   - Se säästää tilaa lohkoissa.
   - Se on helpompi muistaa kuin julkinen avain.

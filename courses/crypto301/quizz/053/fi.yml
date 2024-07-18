@@ -1,6 +1,6 @@
 question: Mikä on Bitcoin-lompakon yksityisavainten pituus?
 answer: 256 bittiä
-wrong_answer:
+wrong_answers:
   - 128 bittiä
   - 512 bittiä
   - 1024 bittiä

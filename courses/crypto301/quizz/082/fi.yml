@@ -1,6 +1,6 @@
 question: Onko salalause turvallisempi kuin yksinkertainen salasana?
 answer: "Kyllä"
-wrong_answer:
+wrong_answers:
   - "Ei"
   - Riippuu salasanan pituudesta
   - Riippuu salasanan monimutkaisuudesta

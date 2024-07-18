@@ -1,6 +1,6 @@
 question: Mikä on Bitcoin-lohkoketjun koko?
 answer: Noin 500GB
-wrong_answer:
+wrong_answers:
   - Noin 100GB
   - Noin 1TB
   - Noin 2TB

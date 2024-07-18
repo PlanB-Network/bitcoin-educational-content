@@ -1,6 +1,6 @@
 question: Mikä viesti sisältyy Bitcoin-lohkoketjun ensimmäiseen lohkoon?
 answer: 03/tammi/2009 Valtiovarainministeri vaakalaudalla toisen pankkitukipaketin vuoksi.
-wrong_answer:
+wrong_answers:
   - Voimme voittaa merkittävän taistelun asevarustelussa ja saavuttaa uuden vapauden alueen useiksi vuosiksi.
   - Hallitukset ovat hyviä katkaisemaan keskitetysti ohjattujen verkostojen, kuten Napsterin, päitä, mutta puhtaasti P2P-verkostot, kuten Gnutella ja Tor, näyttävät pitävän puolensa.
   - Mikään yllä olevista

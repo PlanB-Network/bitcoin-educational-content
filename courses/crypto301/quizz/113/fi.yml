@@ -1,6 +1,6 @@
 question: Mihin Syvyys 0 viittaa HD-lompakon rakenteessa?
 answer: Pääavain ja pääketjukoodi
-wrong_answer:
+wrong_answers:
   - Lasten avaimet ja lasten ketjukoodi
   - Ulkoiset ja sisäiset ketjut
   - Vastaanotto-osoitteet tavallisessa lompakossa

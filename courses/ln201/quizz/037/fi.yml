@@ -1,6 +1,6 @@
 question: Voiko sitoutumistransaktiossa huijata julkaisemalla vanhan tilan?
 answer: "Kyllä"
-wrong_answer:
+wrong_answers:
   - "Ei"
   - Vain, jos heillä on peruutusavain.
   - Vain, jos he loivat transaktion aikalukituksella.

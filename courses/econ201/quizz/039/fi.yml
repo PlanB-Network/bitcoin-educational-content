@@ -1,6 +1,6 @@
 question: Mikä on laman syy sekä monetaristien että keynesiläisten mukaan?
 answer: Riittämätön kokonaiskysyntä
-wrong_answer:
+wrong_answers:
   - Ylituotanto
   - Korkeat korkotasot
   - Korkea inflaatio

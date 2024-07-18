@@ -1,6 +1,6 @@
 question: Milloin nostotapahtuma suoritetaan Lightning Network -siirrossa?
 answer: Kun kanava suljetaan.
-wrong_answer:
+wrong_answers:
   - Kun siirto tehdään.
   - Kun kanava avataan.
   - Sitä ei suoriteta koskaan.

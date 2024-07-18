@@ -1,6 +1,6 @@
 question: Säästääkö Bitcoin-osoitteen käyttäminen tilaa lohkoissa?
 answer: Tämä on väärin
-wrong_answer:
+wrong_answers:
   - Tämä on totta
   - Vain jos osoite on pakattu
   - Vain jos osoite on hajautettu

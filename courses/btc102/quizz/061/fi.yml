@@ -1,6 +1,6 @@
 question: Mikä on non-KYC ratkaisu Bitcoinin kontekstissa?
 answer: Ratkaisu, joka mahdollistaa nimettömät Bitcoin-siirrot
-wrong_answer:
+wrong_answers:
   - Ratkaisu, joka mahdollistaa Bitcoin-siirrot ilman internetiä
   - Ratkaisu, joka mahdollistaa Bitcoin-siirrot ilman lompakkoa
   - Ratkaisu, joka mahdollistaa Bitcoin-siirrot ilman maksuja

@@ -1,6 +1,6 @@
 question: Mikä on lohkon koko Bitcoin-protokollassa?
 answer: 1MB
-wrong_answer:
+wrong_answers:
   - 0.5MB
   - 2MB
   - 3MB

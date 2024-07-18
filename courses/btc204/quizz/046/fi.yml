@@ -2,7 +2,7 @@ question: Mikä salausavainten vaihtoalgoritmi on BIP47:n toiminnan ytimessä?
 
 answer: ECDH
 
-wrong_answer:
+wrong_answers:
   - RSA
   - ElGamal
   - Diffie-Hellman

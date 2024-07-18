@@ -1,6 +1,6 @@
 question: Mikä on BitcoinTalk?
 answer: Keskustelupaikka Bitcoin-käyttäjille
-wrong_answer:
+wrong_answers:
   - Bitcoin-louhintaohjelmisto
   - Bitcoin-lompakko
   - Bitcoin-konferenssi

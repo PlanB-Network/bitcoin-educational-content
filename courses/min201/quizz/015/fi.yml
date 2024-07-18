@@ -1,6 +1,6 @@
 question: Mikä on periaate, jolla Bitcoin-louhinta toimii?
 answer: Bitcoin-louhinta perustuu arpajaisperiaatteeseen, jossa yksittäisen pienen louhijan mahdollisuudet voittaa lohko (ja siten Bitcoin-palkkio) joka kymmenes minuutti ovat erittäin pienet.
-wrong_answer:
+wrong_answers:
   - Bitcoin-louhinta toimii ensin tulee, ensin palvelee -periaatteella, jossa ensimmäinen louhija, joka ratkaisee monimutkaisen matemaattisen ongelman, saa Bitcoin-palkkion.
   - Bitcoin-louhinta toimii tarjousperiaatteella, jossa korkeimman tarjouksen tehnyt louhija saa Bitcoin-palkkion.
   - Bitcoin-louhinta toimii vuorotteluperiaatteella, jossa jokainen louhija saa vuoronsa louhia lohkon ja saada Bitcoin-palkkion.

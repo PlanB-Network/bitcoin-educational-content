@@ -1,6 +1,6 @@
 question: Miten Bitcoin-protokolla varmistaa sensuroimattomuutensa ja pysäyttämättömyytensä?
 answer: Jokainen protokollan osa on jaettu maantieteellisesti ympäri maailmaa
-wrong_answer:
+wrong_answers:
   - Se käyttää hajautettua solmujen verkostoa
   - Se käyttää monimutkaista algoritmia transaktioiden vahvistamiseen
   - Se käyttää korkean tason salausta

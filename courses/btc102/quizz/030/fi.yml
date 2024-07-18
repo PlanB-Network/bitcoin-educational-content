@@ -1,6 +1,6 @@
 question: Mikä on Bitcoin-lohkoketju?
 answer: Tietokanta, joka tallentaa kaikki Bitcoin-siirrot
-wrong_answer:
+wrong_answers:
   - Digitaalisen valuutan tyyppi
   - Bitcoin-käyttäjien verkosto
   - Menetelmä bitcoinien louhimiseen

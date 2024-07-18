@@ -1,6 +1,6 @@
 question: Onko Lightning-maksukanavan kapasiteetti kiinteä?
 answer: "Kyllä"
-wrong_answer:
+wrong_answers:
   - "Ei"
   - Vain joissakin tapauksissa
   - Se riippuu Bitcoin-verkosta

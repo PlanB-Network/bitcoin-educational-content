@@ -1,6 +1,6 @@
 question: Mikä oli inflaatioaste Zimbabwessa marraskuussa 2008?
 answer: 79 600 000 000%
-wrong_answer:
+wrong_answers:
   - 796%
   - 79 600 000 000 000 000%
   - 100%

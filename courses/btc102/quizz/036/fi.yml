@@ -1,6 +1,6 @@
 question: Mitä lause "Ei sinun avaimiasi, ei sinun Bitcoinejasi" korostaa?
 answer: Oman yksityisen avaimen omistamisen tärkeyttä Bitcoin-lompakossa
-wrong_answer:
+wrong_answers:
   - Oman fyysisen avaimen tärkeys Bitcoineihin pääsyssä
   - Bitcoinien säilyttämisen tärkeys turvallisessa paikassa
   - Bitcoin-tilin tietojen jakamattomuuden tärkeys

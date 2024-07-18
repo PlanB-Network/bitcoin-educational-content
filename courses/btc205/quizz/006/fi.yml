@@ -1,6 +1,6 @@
 question: Mikä on KYC lightin maksimipäiväostosumma Sveitsissä?
 answer: 1000 euroa
-wrong_answer:
+wrong_answers:
   - 500 euroa
   - 1500 euroa
   - 2000 euroa

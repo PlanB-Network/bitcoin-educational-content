@@ -2,7 +2,7 @@ question: Mikä on Bitcoinin vastaanotto-osoite?
 
 answer: Merkkijono, jota käytetään bitcoinien vastaanottamiseen.
 
-wrong_answer:
+wrong_answers:
   - Koodi, jota käytetään bitcoinien lähettämiseen.
   - Algoritmi bitcoineja louhimiseen.
   - Älykäs sopimus.

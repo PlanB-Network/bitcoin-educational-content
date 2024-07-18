@@ -1,6 +1,6 @@
 question: Mikä on "KYC"?
 answer: Menettely asiakkaiden henkilöllisyyden vahvistamiseksi ja rekisteröimiseksi.
-wrong_answer:
+wrong_answers:
   - Salausjärjestelmä taloudellisten transaktioiden turvaamiseksi.
   - Vahvistusmenetelmä taloudellisille transaktioille.
   - Markkinointitekniikka asiakaskäyttäytymisen analysoimiseksi.

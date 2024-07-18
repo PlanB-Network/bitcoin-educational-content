@@ -1,6 +1,6 @@
 question: Mikä on vaikeinta Hodlerina olemisessa kyseisen luvun mukaan?
 answer: Ei tehdä mitään ja pitää kiinni Bitcoinista.
-wrong_answer:
+wrong_answers:
   - Bitcoinin ostaminen.
   - Kylmälompakon perustaminen.
   - Perintösuunnitelman tekeminen.

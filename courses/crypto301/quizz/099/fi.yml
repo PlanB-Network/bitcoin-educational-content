@@ -1,6 +1,6 @@
 question: Mitkä ovat yleisimmin käytetyt etuliitteet laajennetuille avaimille?
 answer: xpub ja zpub
-wrong_answer:
+wrong_answers:
   - xprv ja zprv
   - ypub ja zpub
   - xpub ja ypub

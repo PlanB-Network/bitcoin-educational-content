@@ -1,6 +1,6 @@
 question: Mikä on BCH32 Bitcoinin kontekstissa?
 answer: Se on Bitcoinille spesifinen base 32 -variantti.
-wrong_answer:
+wrong_answers:
   - Se on Bitcoinille spesifinen base 64 -variantti.
   - Se on Bitcoinille spesifinen base 16 -variantti.
   - Se on Bitcoinille spesifinen base 2 -variantti.

@@ -1,6 +1,6 @@
 question: Mitä HMAC tarkoittaa?
 answer: Hash-pohjainen viestin autentikointikoodi
-wrong_answer:
+wrong_answers:
   - Hierarkkinen pääautentikointikoodi
   - Hashattu pääautentikointikoodi
   - Hierarkkinen viestin autentikointikoodi

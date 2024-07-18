@@ -1,6 +1,6 @@
 question: Mikä on Bitcoinin tila joissakin maissa?
 answer: Kielletty ja kriminalisoitu
-wrong_answer:
+wrong_answers:
   - Täysin omaksuttu
   - Osittain omaksuttu
   - Sääntelemätön

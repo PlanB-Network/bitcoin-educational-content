@@ -1,6 +1,6 @@
 question: Mikä on "kylmän" lompakon tarkoitus Bitcoinissa?
 answer: Turvata Bitcoinien säilytys.
-wrong_answer:
+wrong_answers:
   - Louhia uusia Bitcoineja.
   - Käydä kauppaa Bitcoineilla.
   - Muuntaa Bitcoineja toisiin kryptovaluuttoihin.

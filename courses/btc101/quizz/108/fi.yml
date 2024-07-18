@@ -1,6 +1,6 @@
 question: Mikä on Bitcoin-lompakon tarkoitus?
 answer: Säilyttää yksityinen avain, jotta voi suorittaa bitcoin-siirtoja
-wrong_answer:
+wrong_answers:
   - Käyttää laitteen resursseja bitcoinien louhintaan
   - Ostaa bitcoineja julkisella avaimella
   - Säilyttää bitcoineja laitteella

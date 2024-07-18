@@ -1,6 +1,6 @@
 question: Onko salalauseen käyttö Bitcoin-lompakossa pakollista?
 answer: Ei, sen käyttö on valinnaista
-wrong_answer:
+wrong_answers:
   - Kyllä, sen käyttö on pakollista
   - Se riippuu lompakon tyypistä
   - Se riippuu lompakossa olevien bitcoinien määrästä

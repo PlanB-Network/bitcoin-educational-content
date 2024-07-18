@@ -1,6 +1,6 @@
 question: Mikä on virallinen kynnysarvo maan katsomiseksi hyperinflaation tilassa olevaksi?
 answer: 50% kuukaudessa
-wrong_answer:
+wrong_answers:
   - 10% kuukaudessa
   - 25% kuukaudessa
   - 75% kuukaudessa

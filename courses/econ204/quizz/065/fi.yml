@@ -1,6 +1,6 @@
 question: Mikä on pääidea rahan aika-arvon käsitteen takana?
 answer: Aika on arvokasta
-wrong_answer:
+wrong_answers:
   - Raha menettää arvoaan ajan myötä
   - Rahalla voi vaihtaa aikaa
   - Ajan voi vaihtaa rahaksi

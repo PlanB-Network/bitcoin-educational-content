@@ -1,6 +1,6 @@
 question: Mikä on verkkosivuston Have I Been Pwned tarkoitus?
 answer: Tarkistaa, onko sähköpostiosoitteesi vaarantunut ja saada ilmoituksia tulevista tietomurroista.
-wrong_answer:
+wrong_answers:
   - Tarkistaa, onko sähköpostiosoitteesi kelvollinen.
   - Tarkistaa, onko sähköpostiosoitteesi saatavilla.
   - Tarkistaa, onko sähköpostiosoitteesi estetty.

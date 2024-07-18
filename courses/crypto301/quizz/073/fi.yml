@@ -1,6 +1,6 @@
 question: Mikä on lisävaihtoehto Bitcoin-lompakon turvallisuuden parantamiseksi?
 answer: Salasanan lisääminen.
-wrong_answer:
+wrong_answers:
   - Toisen muistisäännön lisääminen.
   - Digitaalisen allekirjoituksen lisääminen.
   - Tapahtumahistorian lisääminen.

@@ -1,6 +1,6 @@
 question: Mihin julkisten ja yksityisten avainten turvallisuus perustuu?
 answer: Diskreetin logaritmin ongelma
-wrong_answer:
+wrong_answers:
   - Alkulukujen tekijöihinjakoon
   - Reppuongelma
   - Kauppamatkustajan ongelma

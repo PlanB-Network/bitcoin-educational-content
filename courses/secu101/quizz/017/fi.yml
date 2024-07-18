@@ -1,6 +1,6 @@
 question: Mikä on yksi tapa varmistaa, että olet haluamallasi sivustolla?
 answer: Tarkista URL-osoitteet ja pieni lukon kuva osoiterivillä.
-wrong_answer:
+wrong_answers:
   - Tarkista sivuston mainosten määrä.
   - Tarkista sivuston nopeus.
   - Tarkista sivuston värimaailma.

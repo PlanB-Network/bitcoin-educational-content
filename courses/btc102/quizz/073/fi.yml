@@ -1,6 +1,6 @@
 question: Mikä on Hodlerin pääuskomus voiton tavoittelun ulkopuolella?
 answer: He uskovat lohkoketjuteknologiaan ja Bitcoinin kykyyn tuoda positiivista muutosta maailmaan.
-wrong_answer:
+wrong_answers:
   - He uskovat perinteisten valuuttojen tuhoon.
   - He uskovat muiden kryptovaluuttojen ylivoimaan verrattuna Bitcoiniin.
   - He uskovat Bitcoin-markkinan epävakauteen.

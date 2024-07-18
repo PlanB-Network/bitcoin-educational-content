@@ -1,6 +1,6 @@
 question: Kuka löysi osoitteen uudelleenkäytön heuristiikan?
 answer: Satoshi Nakamoto
-wrong_answer:
+wrong_answers:
   - Vitalik Buterin
   - Hal Finney
   - Gavin Andresen

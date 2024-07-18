@@ -2192,6 +2192,104 @@ $$
 
 Une efficacité de $100 \%$ indique donc que la transaction exploite au maximum son potentiel de confidentialité en fonction de sa structure.
 
+### La densité de l'entropie
+
+L'entropie est un bon indicateur pour mesurer la confidentialité d'une transaction, mais elle dépend en partie du nombre d'inputs et d'outputs dans la transaction. Pour pouvoir comparer l'entropie de 2 transactions différentes qui n'ont pas le même nombre d'inputs et d'output, on peut calculer la densité de l'entropie. Cet indicateur offre une perspective sur l'entropie relative à chaque intput ou output de la transaction. La densité s'avère utile pour évaluer et comparer l'efficacité de transactions de différentes tailles. 
+
+Pour la calculer, on divise simplement l'entropie totale de la transaction par le nombre total d'inputs et d'outputs impliqués dans la transaction :
+- $E_D$ : la densité de l'entropie exprimée en bits ;
+- $E$ : l'entropie de la transaction exprimée en bits ;
+- $T$ : le nombre total d'inputs et d'outputs dans la transaction :
+
+$$
+E_D = \frac{E}{T}
+$$
+
+Prenons l'exemple d'un coinjoin de type Whirlpool 5x5 :
+
+$$
+\begin{align*}
+T &= 5 + 5 = 10 \\
+E &= 10.5469 \\
+E_D &= \frac{E}{T} \\
+E_D &= \frac{10.5469}{10} \\
+E_D &= 1.054 \text{ bits}
+\end{align*}
+$$
+
+Calculons également la densité de l'entropie d'un coinjoin Whirlpool 8x8 :
+
+$$
+\begin{align*}
+T &= 8 + 8 = 16 \\
+E &= 23.244 \\
+E_D &= \frac{E}{T} \\
+E_D &= \frac{23.244}{16} \\
+E_D &= 1.453 \text{ bits}
+\end{align*}
+$$
+
+En analysant la densité de l'entropie de ces deux types de coinjoins, il devient évident que, même en normalisant l'entropie par le nombre d'éléments, le coinjoin "Surge Cycle 8x8" génère davantage d'incertitudes pour l'analyse.
+
+### Le score de Boltzmann
+
+Une autre information que l'on analyser dans une transaction est le score Boltzmann de chaque élément relativement à un autre. C'est le tableau des probabilités de correspondance entre les inputs et les outputs. Ce tableau indique, à travers le score de Boltzmann, la probabilité conditionnelle qu'un input spécifique soit relié à un output donné. C'est donc une mesure quantitative de la probabilité conditionnelle qu'une association entre un input et un output dans une transaction se produise, basée sur le ratio du nombre d'occurrences favorables de cet événement par rapport au nombre total d'occurrences possibles, dans un ensemble d'interprétations.
+
+En reprenant l'exemple d'un coinjoin Whirlpool, le tableau des probabilités conditionnelles mettrait en lumière les chances de lien entre chaque input et output, ce qui offre une mesure quantitative de l'ambiguïté des associations dans la transaction :
+
+| %       | Output 0 | Output 1 | Output 2 | Output 3 | Output 4 |
+| ------- | -------- | -------- | -------- | -------- | -------- |
+| Input 0 | 34%      | 34%      | 34%      | 34%      | 34%      |
+| Input 1 | 34%      | 34%      | 34%      | 34%      | 34%      |
+| Input 2 | 34%      | 34%      | 34%      | 34%      | 34%      |
+| Input 3 | 34%      | 34%      | 34%      | 34%      | 34%      |
+| Input 4 | 34%      | 34%      | 34%      | 34%      | 34%      |
+
+On voit bien ici que chaque input présente une chance égale d'être associé à n'importe quel output, ce qui renforce la confidentialité de la transaction. 
+
+Le calcul du score de Boltzmann consiste à diviser le nombre d'interprétations dans lesquelles un certain événement se manifeste par le nombre total d'interprétations disponibles. Ainsi, pour déterminer le score associant l'input #0 à l'output #3 (évènement présent dans $512$ interprétations), on procède de la manière suivante :
+
+$$
+\begin{align*}
+\text{Interprétations (IN.0 > OUT.3)} &= 512 \\
+\text{Interprétations totales} &= 1496 \\
+\text{Score} &= \frac{512}{1496} \\
+\text{Score} &= 34 \%
+\end{align*}
+$$
+
+Si l'on reprend l'exemple d'un coinjoin Whirlpool 8x8 Surge Cycle, le tableau de Boltzmann ressemblerait à cela :
+
+|       | OUT.0 | OUT.1 | OUT.2 | OUT.3 | OUT.4 | OUT.5 | OUT.6 | OUT.7 |
+|-------|-------|-------|-------|-------|-------|-------|-------|-------|
+| IN.0  | 23%   | 23%   | 23%   | 23%   | 23%   | 23%   | 23%   | 23%   |
+| IN.1  | 23%   | 23%   | 23%   | 23%   | 23%   | 23%   | 23%   | 23%   |
+| IN.2  | 23%   | 23%   | 23%   | 23%   | 23%   | 23%   | 23%   | 23%   |
+| IN.3  | 23%   | 23%   | 23%   | 23%   | 23%   | 23%   | 23%   | 23%   |
+| IN.4  | 23%   | 23%   | 23%   | 23%   | 23%   | 23%   | 23%   | 23%   |
+| IN.5  | 23%   | 23%   | 23%   | 23%   | 23%   | 23%   | 23%   | 23%   |
+| IN.6  | 23%   | 23%   | 23%   | 23%   | 23%   | 23%   | 23%   | 23%   |
+| IN.7  | 23%   | 23%   | 23%   | 23%   | 23%   | 23%   | 23%   | 23%   |
+
+Cependant, dans le cas d'une transaction simple comportant un unique input et 2 outputs, la situation est différente :
+
+| %       | Output 0 | Output 1 |
+|---------|----------|----------|
+| Input 0 | 100%     | 100%     |
+
+Ici, on constate que la probabilité pour chaque output d'être issu de l'input #0 est de 100 %. Une probabilité plus faible traduit ainsi une plus grande confidentialité, en diluant les liens directs entre les inputs et les outputs.
+
+### Les liens déterministes
+
+On peut également calculer sur une transaction le nombre de liens déterministes. Cet indicateur révèle combien de connexions entre les inputs et les outputs dans la transaction analysée sont incontestables, avec une probabilité de 100 %. On peut ensuite complété cet indicateur par le calcul du ratio de liens déterministes. Le ratio offre une perspective sur le poids de ces liens déterministes au sein de l'ensemble des liens de la transaction.
+
+Par exemple, une transaction coinjoin de type Whirlpool ne présente aucun lien déterministe entre les inputs et les outputs, et affiche par conséquent un indicateur de 0 lien et un ratio de 0 %. À l'inverse, dans notre seconde transaction de paiement simple examinée (avec un input et 2 outputs), l'indicateur nous indique qu'il existe 2 liens déterministes et le ratio atteint 100 %. Ainsi, un indicateur nul signale une excellente confidentialité grâce à l'absence de liaisons directes et incontestables entre les inputs et outputs.
+
+
+
+
+
+
 
 
 

@@ -1,0 +1,9 @@
+question: Proč se problém koordinace při dělbě práce znovu objevuje ve větších komunitách?
+answer: Protože lidé jsou omezeni svými kognitivními kapacitami a společensky přijímané měření hodnoty příspěvků ve výměně je nelehký problém.
+wrong_answers:
+  - Protože lidi nezajímá práce ve větších skupinách a preferují menší komunity.
+  - Protože větší komunity mají více zdrojů, což vede k menší potřebě dělby práce.
+  - Protože ve větších komunitách je více konfliktů, což koordinaci ztěžuje.
+explanation: |
+  Ve větších komunitách je pro jednotlivce nemožné udržet a pamatovat si stabilní sociální vztahy s více než 150 jedinci, což znamená, že systém reputace není dostatečný k překonání problému vězňova dilematu na velkou škálu. Také hodnocení hodnoty příspěvků ve výměně je ve větších komunitách složitý problém.
+reviewed: false

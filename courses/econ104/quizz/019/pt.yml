@@ -1,0 +1,12 @@
+question: Como as stablecoins, como a USDt, conseguem manter uma estabilidade relativa no valor?
+answer: Elas são atreladas a um ativo ou moeda estável.
+wrong_answers:
+  - São respaldadas por uma autoridade central ou governo.
+  - Dependem da tecnologia blockchain para transações seguras.
+  - Estão sujeitas a flutuações semelhantes a outras criptomoedas.
+explanation: |
+  As stablecoins mantêm uma estabilidade relativa no valor ao serem atreladas
+  a um ativo ou moeda mais estável, como o dólar americano ou o ouro.
+  Esse atrelamento ajuda a mitigar a volatilidade frequentemente associada a outros
+  ativos digitais como o Bitcoin.
+reviewed: true

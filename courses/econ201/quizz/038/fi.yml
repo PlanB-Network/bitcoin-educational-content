@@ -1,0 +1,9 @@
+question: Mikä on suhteellisten hintojen rooli Itävaltalaisessa suhdanneteoriassa?
+answer: Suhteelliset hinnat ovat tärkeitä taloudellisten toimijoiden koordinoinnissa.
+wrong_answers:
+  - Suhteelliset hinnat ovat merkityksettömiä Itävaltalaisessa suhdanneteoriassa.
+  - Suhteelliset hinnat ovat tärkeitä työllisyyden tasoa määritettäessä.
+  - Suhteelliset hinnat ovat tärkeitä BKT:n tasoa määritettäessä.
+explanation: |
+  Itävaltalainen koulu korostaa suhteellisten hintojen tärkeyttä taloudellisten toimijoiden koordinoinnissa. Suhteelliset hinnat heijastavat tuotannontekijöiden todellista niukkuutta ja mahdollistavat taloudellisten toimijoiden päätösten rationalisoinnin.
+reviewed: false

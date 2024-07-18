@@ -1,0 +1,13 @@
+question: Jak se jmenuje kryptografický algoritmus používaný u Tichých plateb pro vytvoření sdíleného tajemství mezi příjemcem a plátcem?
+
+answer: ECDH
+
+wrong_answers:
+  - RSA
+  - DH
+  - SHA256
+
+explanation: |
+  Algoritmus ECDH (Elliptic-Curve Diffie-Hellman) je používán u Tichých plateb mezi párem klíčů příjemce a součtem páru klíčů odesílatele pro vytvoření sdíleného tajemství, které umožní odvození jedinečné platební adresy.
+
+reviewed: false

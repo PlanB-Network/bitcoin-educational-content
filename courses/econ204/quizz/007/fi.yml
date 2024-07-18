@@ -1,0 +1,13 @@
+question: Mikä on perustavanlaatuinen ero hinnannousun ja inflaation välillä?
+answer: Hinnannousu voi olla toimialakohtainen ja johtua erilaisista tekijöistä, kun taas inflaatio määritellään yleisenä hintojen nousuna eri hyödykkeiden ja palveluiden osalta.
+wrong_answers:
+  - Hinnannousu on yleinen hintojen nousu eri hyödykkeiden ja palveluiden osalta, kun taas inflaatio on toimialakohtainen ja johtuu erilaisista tekijöistä.
+  - Hinnannousu ja inflaatio ovat sama asia, molemmat viittaavat yleiseen hintojen nousuun eri hyödykkeiden ja palveluiden osalta.
+  - Hinnannousu viittaa hintojen laskuun, kun taas inflaatio viittaa hintojen nousuun.
+explanation: |
+  Luku selittää, että hinnannousu voi olla toimialakohtainen ja
+  johtua erilaisista tekijöistä, kuten OPEC:n tuotannon vähentämisestä öljyn osalta tai epäsuotuisista
+  sääolosuhteista vehnän kohdalla. Toisaalta inflaatio määritellään yleisenä
+  hintojen nousuna eri hyödykkeiden ja palveluiden osalta, ei pelkästään tietyssä
+  toimialassa.
+reviewed: false

@@ -1,0 +1,10 @@
+question: Mikä on hyperinflaation seuraus?
+answer: Valuutan arvon jyrkkä lasku
+wrong_answers:
+  - Valuutan arvon hienoinen lasku
+  - Valuutan arvon jyrkkä nousu
+  - Valuutan arvon hienoinen nousu
+explanation: |
+  Hyperinflaation vuoksi ihmiset menettävät nopeasti täysin luottamuksensa valuuttaan,
+  mikä johtaa valuutan arvon jyrkkään laskuun lyhyen ajan kuluessa.
+reviewed: false

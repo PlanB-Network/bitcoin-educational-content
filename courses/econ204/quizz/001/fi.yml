@@ -1,0 +1,9 @@
+question: Mitkä olivat kaksi päämenetelmää rahan määrän lisäämiseksi historiallisesti?
+answer: Rahan painaminen ja metallipitoisuuden vähentäminen
+wrong_answers:
+  - Rahan painaminen ja metallipitoisuuden lisääminen
+  - Rahan vähentäminen ja metallipitoisuuden lisääminen
+  - Rahan vähentäminen ja metallipitoisuuden vähentäminen
+explanation: |
+  Historiallisesti on ollut kaksi päämenetelmää rahan määrän lisäämiseksi; Rahan painaminen ja metallipitoisuuden vähentäminen.
+reviewed: false

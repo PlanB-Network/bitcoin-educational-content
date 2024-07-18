@@ -1,0 +1,16 @@
+question: Mikä on lisärahan painamisen vaikutus valuutan ostovoimaan?
+answer: Valuutan ostovoiman heikkeneminen
+wrong_answers:
+  - Valuutan ostovoiman nousu
+  - Ei vaikutusta
+  - Lisää rahaa = suurempi ostovoima
+explanation: |
+  Kun keskuspankit päättävät painaa lisää rahaa, ne eivät voi yksinkertaisesti luoda lisäarvoa.
+  Jotta tällä vastapainetulla rahalla olisi jotain arvoa, sen arvon on tultava 
+  aiemmilta valuutan haltijoilta.
+  Ajattele rahamäärää pizzana ja kuvittele se jaettuna neljään osaan.
+  Rahamäärän kaksinkertaistaminen ei vastaisi pizzan määrän kaksinkertaistamista.
+  Sen sijaan se vastaisi näiden neljän palan halkaisemista puoliksi kahdeksan palan aikaansaamiseksi.
+  Emme ole saaneet lisää pizzaa. Meillä on vain enemmän paloja, jotka ovat kooltaan pienempiä.
+  Siksi kun painamme lisää rahaa, alennamme jo olemassa olevan rahan arvoa.
+reviewed: false

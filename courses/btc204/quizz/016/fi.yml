@@ -1,0 +1,8 @@
+question: Vastausten joukossa, mikä edustaa yhtä ketjuanalyysin päätavoitteista?
+answer: Ryhmitellä erilaisia toimintoja Bitcoinissa käyttäjän yksilöllisyyden määrittämiseksi.
+wrong_answers:
+  - Optimoida louhinnan suorituskykyä verkossa.
+  - Hallinnoida oikeudenmukaisuutta protokollassa lain mukaisesti eri lainkäyttöalueiden mukaan.
+  - Lisätä Bitcoin-siirtojen luottamuksellisuutta.
+explanation: |
+  Yksi ketjuanalyysin tavoitteista on ryhmitellä erilaisia toimintoja Bitcoinissa, jotta voidaan määrittää suorittaneen käyttäjän yksilöllisyys. Tämän jälkeen on mahdollista yrittää yhdistää tämä toimintojen ryhmä todelliseen henkilöllisyyteen.

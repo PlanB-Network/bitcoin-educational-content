@@ -1,0 +1,9 @@
+question: Trong trường hợp nào, tỉ lệ lạm phát hàng ngày tương đương 100% đã được quan sát?
+answer: Ở Zimbabwe, năm 2007
+wrong_answers:
+  - Ở Hungary, năm 1945
+  - Ở Trung Quốc, năm 1940
+  - Đây là trường hợp không thực tế và không thể xảy ra
+explanation: |
+  Lạm phát 100% mỗi ngày là một kịch bản thực tế đã xảy ra ở Zimbabwe vào năm 2007, khi giá trị tiền tệ tăng gấp đôi khoảng mỗi 24 giờ.
+Đã được xem xét: true

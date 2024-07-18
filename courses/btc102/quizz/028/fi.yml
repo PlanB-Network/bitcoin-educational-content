@@ -1,0 +1,11 @@
+question: Mitä tarkoittaa, että Bitcoin on avoimen lähdekoodin?
+answer: Kuka tahansa voi tutkia, miten Bitcoin toimii, se on läpinäkyvä ja siksi tarkastettavissa
+wrong_answers:
+  - Kuka tahansa voi luoda oman versionsa Bitcoinista
+  - Bitcoinin käyttö on ilmaista
+  - Bitcoinin koodi on julkisesti saatavilla muokattavaksi
+explanation: |
+  Avoimen lähdekoodin oleminen tarkoittaa sitä, että Bitcoinin koodi on julkisesti saatavilla
+  kenen tahansa tarkasteltavaksi. Tämä tekee siitä läpinäkyvän ja tarkastettavan, varmistaen, että protokolla
+  on kaikille sama.
+reviewed: false

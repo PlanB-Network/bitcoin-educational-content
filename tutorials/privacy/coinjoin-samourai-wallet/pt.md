@@ -17,7 +17,7 @@ _Este tutorial é fornecido apenas para fins educativos e informativos. Não end
 Neste tutorial, você aprenderá o que é um coinjoin e como realizar um usando o software Samourai Wallet e a implementação Whirlpool.
 
 ## O que é um coinjoin no Bitcoin?
-**Coinjoin é uma técnica que quebra a rastreabilidade dos bitcoins na blockchain**. Ela depende de uma transação colaborativa com uma estrutura específica de mesmo nome: a transação coinjoin.
+**Coinjoin é uma técnica que quebra a rastreabilidade dos bitcoins na blockchain**. Ela depende de uma transação colaborativa com uma estrutura específica de mesmo name: a transação coinjoin.
 
 Coinjoins aumentam a privacidade dos usuários do Bitcoin ao complicar a análise de cadeia para observadores externos. Sua estrutura permite a fusão de múltiplas moedas de diferentes usuários em uma única transação, obscurecendo assim os rastros e tornando difícil determinar os vínculos entre endereços de entrada e saída.
 

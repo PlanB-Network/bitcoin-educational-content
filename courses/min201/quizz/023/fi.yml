@@ -1,0 +1,9 @@
+question: Mikä on suurin määrä bitcoineja, jotka voidaan koskaan luoda?
+answer: 21 miljoonaa
+wrong_answers:
+  - 18 miljoonaa
+  - 25 miljoonaa
+  - 30 miljoonaa
+explanation: |
+  Bitcoinin luominen on määritelty kiinteällä ylärajalla, joka on 21 miljoonaa yksikköä.
+reviewed: false

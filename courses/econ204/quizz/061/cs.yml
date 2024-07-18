@@ -1,0 +1,14 @@
+question: Jaký byl důsledek toho, že Bank of England snížila soukromé banky na vedlejší pozici v měnovém systému?
+answer: Byla vytvořena třetí vrstva měny
+wrong_answers:
+  - Bank of England zbankrotovala
+  - Hodnota zlata vzrostla
+  - Bank of Amsterdam se stala globálním ekonomickým centrem
+explanation: |
+  Když Bank of England snížila soukromé banky na vedlejší pozici
+
+  v měnovém systému, byla vytvořena třetí vrstva měny. Bankovky vydané
+
+  soukromými bankami již nebyly směnitelné za zlato, ale za papírovou měnu od
+
+  Bank of England, která sama byla směnitelná za zlato.

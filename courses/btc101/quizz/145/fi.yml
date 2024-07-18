@@ -1,0 +1,10 @@
+question: Mistä oli kyse lohkosodassa vuonna 2017?
+answer: Kiistasta, pitäisikö lohkon kokoa kasvattaa transaktiokapasiteetin lisäämiseksi
+wrong_answers:
+  - Kiistasta, pitäisikö lohkon kokoa pienentää transaktiokapasiteetin vähentämiseksi
+  - Kiistasta, pitäisikö lohkopalkkiota kasvattaa louhijoiden kannustamiseksi
+  - Kiistasta, pitäisikö lohkopalkkiota pienentää louhijoiden kannustamisen vähentämiseksi
+explanation: >-
+  Lohkosota vuonna 2017 oli kiista siitä, pitäisikö Bitcoinia muokata kasvattamalla lohkon kokoa transaktiokapasiteetin lisäämiseksi.
+reviewed: false
+

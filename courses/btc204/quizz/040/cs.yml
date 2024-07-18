@@ -1,0 +1,9 @@
+question: Proč jsou bitcoiny kupované přes P2P burzy často dražší než ty zakoupené na regulovaných platformách?
+answer: Dodatečná rizika, transakční poplatky a prémie za soukromí.
+wrong_answers:
+  - Tržní volatilita, rizika dvojitého výdaje a dodržování právních předpisů.
+  - Registrační poplatky, omezené možnosti a delší doba ověření.
+  - Registrační poplatky, přísné regulace a nízká bezpečnost.
+explanation: |
+  Bitcoiny prodávané na P2P platformách jsou obecně dražší než ty z regulovaných platforem. Tento přirážka je způsobena několika faktory: prodávající podstupuje větší rizika, musí také pokrýt dodatečné náklady a burza nabízí kupujícímu vyšší úroveň soukromí.
+reviewed: false

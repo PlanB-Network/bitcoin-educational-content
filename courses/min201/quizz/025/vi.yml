@@ -1,0 +1,8 @@
+question: Lớp cơ sở của mạng Bitcoin thường được gọi là gì?
+answer: Lớp thanh toán
+wrong_answers:
+  - Lớp giao dịch
+  - Lớp bảo mật
+  - Lớp đồng thuận
+explanation: |
+  Lớp cơ sở của mạng Bitcoin, mà Lightning Network dựa vào để mở và đóng các kênh thanh toán, thường được gọi là "lớp thanh toán".

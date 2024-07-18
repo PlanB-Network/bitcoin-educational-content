@@ -1,0 +1,9 @@
+question: Mitä Yhteisen Syötteen Omistajuuden Heuristiikka (CIOH) tarkoittaa?
+answer: Kun transaktio sisältää useita syötteitä, ne ovat todennäköisesti kaikki yhden toimijan omistuksessa.
+wrong_answers:
+  - Kun transaktio sisältää useita syötteitä, ne todennäköisesti tulevat eri toimijoilta.
+  - Kun transaktio sisältää useita tulosteita, ne ovat todennäköisesti kaikki menossa yhdelle toimijalle.
+  - Kun transaktio sisältää useita tulosteita, ne ovat todennäköisesti kaikki menossa eri toimijoille.
+explanation: |
+  CIOH on heuristiikka, joka ehdottaa, että kun transaktio sisältää useita syötteitä, nämä syötteet todennäköisesti kaikki ovat peräisin yhdeltä toimijalta. Näin ollen niiden omistajuus on yhteinen.
+reviewed: false

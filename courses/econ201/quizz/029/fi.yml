@@ -1,0 +1,9 @@
+question: Mikä on aikapreferenssin käsite?
+answer: Aikapreferenssi on tulevaisuuden hyödykkeiden arvon subjektiivinen arviointi verrattuna nykyisiin hyödykkeisiin. Kaikki muu ollessa samanlaista, nykyisiä hyödykkeitä suositaan luonnostaan tulevaisuuden hyödykkeiden sijaan.
+wrong_answers:
+  - Aikapreferenssi on tulevaisuuden hyödykkeiden arvon objektiivinen arviointi verrattuna nykyisiin hyödykkeisiin.
+  - Aikapreferenssi on luontainen mieltymys tulevaisuuden hyödykkeiden puolesta nykyisten hyödykkeiden sijaan.
+  - Aikapreferenssi on nykyisten hyödykkeiden arvon subjektiivinen arviointi verrattuna tulevaisuuden hyödykkeisiin.
+explanation: |
+  Aikapreferenssi on tulevaisuuden hyödykkeiden arvon subjektiivinen arviointi verrattuna nykyisiin hyödykkeisiin. Koska olemme kuolevaisia ja tulevaisuus on aina epävarma, luonnollisesti suosimme pääsyä hyödykkeeseen nyt mieluummin kuin myöhemmin. Vaikka aikapreferenssi voi vaihdella yksilöiden välillä monien tekijöiden, kuten kulttuurin, varallisuuden, koulutuksen, fysiologian jne. vuoksi, aikapreferenssit ovat aina positiivisia, mikä tarkoittaa, että kaikki muu ollessa samanlaista, arvostamme aina nykyisiä hyödykkeitä enemmän kuin tulevaisuuden hyödykkeitä.
+reviewed: false

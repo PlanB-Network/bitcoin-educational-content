@@ -1,0 +1,11 @@
+question: Jaké je historické spojení mezi penězi a komoditami jako je zlato?
+answer: Zlato je vzácné a je široce akceptováno jako uchovatel hodnoty
+wrong_answers:
+  - Zlato činí peníze atraktivnějšími
+  - Zlato je snadno dělitelné
+  - Zlato je jedinečné
+explanation: |
+  Vzhledem k celosvětové vzácnosti zlata v přírodě a významným investicím potřebným
+  k jeho těžbě, rafinaci a skladování, zlato konzistentně obchoduje za premium nad
+  ostatními formami peněz.
+reviewed: false

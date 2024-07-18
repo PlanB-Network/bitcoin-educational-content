@@ -1,0 +1,12 @@
+question: Co je Rakouská teorie hospodářského cyklu?
+answer: Rakouská teorie hospodářského cyklu je teorie, která vysvětluje ekonomické cykly jako endogenní dynamiku systému částečných rezerv v bankovnictví, zdůrazňující sekvenční povahu lidského jednání a dopad kolísání úrokových sazeb na mezidobovou koordinaci ekonomických subjektů.
+wrong_answers:
+  - Rakouská teorie hospodářského cyklu je teorie, která vysvětluje ekonomické cykly jako výsledek vnějších událostí a iracionálního chování.
+  - Rakouská teorie hospodářského cyklu je teorie, která vysvětluje ekonomické cykly jako výsledek změn v agregátní poptávce a nabídce.
+  - Rakouská teorie hospodářského cyklu je teorie, která vysvětluje ekonomické cykly jako výsledek změn v úrovni zaměstnanosti, HDP nebo indexu spotřebitelských cen.
+explanation: |
+  Rakouská teorie hospodářského cyklu, vyvinutá Ludwigem Von Misem
+  a Friedrichem Hayekem, vysvětluje ekonomické cykly jako endogenní dynamiku systému
+  částečných rezerv v bankovnictví. Zdůrazňuje sekvenční povahu lidského jednání a
+  dopad kolísání úrokových sazeb na mezidobovou koordinaci ekonomických subjektů.
+reviewed: false

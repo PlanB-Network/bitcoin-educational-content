@@ -1,0 +1,13 @@
+question: What is a Bitcoin receiving address?
+
+answer: A string of characters used to receive bitcoins.
+
+wrong_answers:
+  - A code used to send bitcoins.
+  - An algorithm for mining bitcoins.
+  - A smart contract.
+
+explanation: |
+  A receiving address is used to receive bitcoins into a wallet.
+
+reviewed: false

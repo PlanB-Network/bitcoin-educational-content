@@ -1,0 +1,11 @@
+question: Mitä tarkoittaa, että hyödykkeellä on korkea myytävyys?
+answer: Sen tulisi olla mahdollisimman monen ihmisen haluama suurimman osan ajasta.
+wrong_answers:
+  - Sen tulisi olla vain muutaman ihmisen haluama suurimman osan ajasta.
+  - Sen tulisi olla mahdollisimman monen ihmisen haluama vain osan ajasta.
+  - Sen tulisi olla vain muutaman ihmisen haluama vain osan ajasta.
+explanation: |
+  Hyödyke, jolla on korkea myytävyys, on laajalti haluttu ja sen voi
+  helposti vaihtaa muihin hyödykkeisiin tai palveluihin. Tämä tekee siitä sopivan käytettäväksi
+  rahana.
+reviewed: false

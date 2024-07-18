@@ -1,0 +1,10 @@
+question: Jak je Bitcoin popsán v textu?
+answer: Jako multidisciplinární objekt
+wrong_answers:
+  - Jako jednoduchý objekt
+  - Jako složitý objekt
+  - Jako objekt jedné disciplíny
+explanation: >-
+  Bitcoin je popsán jako multidisciplinární objekt, protože vyvolává otázky související s různými obory, včetně kryptografie, teorie her, ekonomie
+  a měnové politiky, informatiky, filozofie, energetiky, zákonů a regulace.
+reviewed: false

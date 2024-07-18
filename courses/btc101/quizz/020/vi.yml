@@ -1,0 +1,9 @@
+question: Tiêu chí nào cho một đồng tiền hiệu quả?
+answer: Có thể thay thế, Có thể chia nhỏ, Có tính thanh khoản
+wrong_answers:
+  - Có thể thay thế, Có thể chia nhỏ, Có thể hỏng
+  - Có thể thay thế, Không thể chia nhỏ, Có tính thanh khoản
+  - Không thể thay thế, Có thể chia nhỏ, Có tính thanh khoản
+explanation: |
+  Tiêu chí cho một đồng tiền hiệu quả là nó phải có thể thay thế (có thể đổi mà không mất giá trị), có thể chia nhỏ (để thuận tiện cho các giao dịch với các khối lượng khác nhau), và có tính thanh khoản (dễ dàng chuyển đổi thành hàng hóa hoặc dịch vụ).
+reviewed: false

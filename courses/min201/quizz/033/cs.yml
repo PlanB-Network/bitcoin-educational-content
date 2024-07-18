@@ -1,0 +1,9 @@
+question: Jaké je potenciální riziko poklesu počtu uživatelů, uzlů nebo těžařů v síti Bitcoin?
+answer: Mohlo by to oslabit síť, což zvyšuje riziko centralizace a zranitelnosti vůči útokům.
+wrong_answers:
+  - Mohlo by to zvýšit cenu Bitcoinu.
+  - Mohlo by to snížit rychlost transakcí.
+  - Mohlo by to zvýšit obtížnost těžby.
+explanation: |
+  Pokles počtu uživatelů, uzlů nebo těžařů by mohl oslabit síť Bitcoin. To by mohlo zvýšit riziko centralizace a učinit síť více zranitelnou vůči útokům.
+kontrolováno: false

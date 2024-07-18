@@ -1,0 +1,11 @@
+question: Co znamená termín 'fiduciary' v kontextu měn?
+answer: Odkazuje na měny, které nemají vnitřní hodnotu a spoléhají na důvěru v instituce, které je regulují.
+wrong_answers:
+  - Odkazuje na měny, které jsou kryté zlatem.
+  - Odkazuje na měny, které se používají pouze pro fiduciární transakce.
+  - Odkazuje na měny, které se používají pouze v rámci konkrétní instituce.
+explanation: |
+  Fiduciární měny jsou ty, které nejsou kryté fyzickou komoditou
+  jako zlato nebo stříbro. Jejich hodnota je odvozena z důvěry a jistoty, kterou
+  lidé mají v institucích, které je vydávají a regulují.
+reviewed: true

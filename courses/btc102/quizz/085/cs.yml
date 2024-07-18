@@ -1,0 +1,11 @@
+question: K čemu se používá hot wallet v kontextu Bitcoinu?
+answer: K pravidelnému odesílání a přijímání bitcoinů pro denní použití.
+wrong_answers:
+  - K bezpečnému ukládání bitcoinů na dlouhodobé období.
+  - K těžbě nových bitcoinů.
+  - K obchodování s bitcoiny na burzovní platformě.
+explanation: |
+  Hot wallet je typ Bitcoin peněženky, která je připojena k internetu,
+  což ji činí vhodnou pro denní transakce. Je však více náchylná k hackování
+  a krádeži než cold wallet.
+reviewed: false

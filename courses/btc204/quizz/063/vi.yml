@@ -1,0 +1,13 @@
+question: Hai rủi ro về quyền riêng tư liên quan đến việc chọn coin là gì?
+
+answer: CIOH và mối liên kết giữa đầu vào / danh tính bởi người nhận.
+
+wrong_answers:
+  - Theo dõi địa chỉ IP và liên kết hoạt động.
+  - Theo dõi theo thời gian và tái sử dụng địa chỉ.
+  - Tái sử dụng địa chỉ và mối liên kết giữa đầu vào / danh tính bởi một quan sát viên bên ngoài.
+
+explanation: |
+  Hai rủi ro cần được xem xét khi chọn coin: khả năng cho người nhận thanh toán liên kết một phần danh tính của bạn với các UTXO được sử dụng làm đầu vào và khả năng của một quan sát viên bên ngoài thiết lập các liên kết giữa tất cả các UTXO tiêu thụ như đầu vào (CIOH).
+
+reviewed: false

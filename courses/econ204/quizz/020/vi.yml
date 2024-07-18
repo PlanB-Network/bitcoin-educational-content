@@ -1,0 +1,11 @@
+question: Ai đã đề xuất định nghĩa được công nhận rộng rãi nhất về siêu lạm phát?
+answer: Philip Cagan
+wrong_answers:
+  - Bernholz
+  - David
+  - Hanke-Krus
+explanation: |
+  Định nghĩa được công nhận rộng rãi nhất về siêu lạm phát đến từ Philip Cagan,
+  người đã đề xuất một hiểu biết định lượng về siêu lạm phát trong công trình của ông năm 1956, "The
+  Monetary Dynamics of Hyperinflation."
+reviewed: false

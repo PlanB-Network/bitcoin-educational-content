@@ -1,0 +1,9 @@
+question: Cơ quan nào phụ trách việc phát hành tiền tín dụng?
+answer: Ngân hàng Trung ương
+wrong_answers:
+  - Ngân hàng Thương mại
+  - Chính phủ
+  - Cơ sở Tư nhân
+explanation: |
+  Ngân hàng Trung ương là cơ quan phụ trách việc phát hành tiền tín dụng. Họ quyết định chính sách tiền tệ và xác định lượng tiền nào nên được đưa vào lưu thông hoặc in ra.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Jaký je dopad hyperinflace na úspory?
+answer: Erozuje hodnotu kapitálu a příjmů, což ztěžuje dlouhodobé plánování.
+wrong_answers:
+  - Zvyšuje hodnotu úspor.
+  - Nemá žádný vliv na úspory.
+  - Podněcuje lidi k většímu spoření.
+explanation: |
+  V období hyperinflace se stává spoření výzvou. Peníze rychle ztrácejí svou hodnotu, což ztěžuje dlouhodobé plánování. Tato finanční nestabilita může způsobovat stres a úzkost.
+reviewed: false

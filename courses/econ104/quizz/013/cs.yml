@@ -1,0 +1,9 @@
+question: Jakým způsobem Bitcoin pomáhá jednotlivcům ve válečných nebo nestabilních zemích?
+answer: Umožňuje ukládání hodnoty decentralizovaným a bezpečným způsobem, který má vyšší odolnost proti krádeži
+wrong_answers:
+  - Umožňuje přístup k tradičním bankovním službám
+  - Poskytuje fyzický majetek, který může zvýšit svou hodnotu
+  - Nabízí ochranu proti deflaci
+explanation: |
+  Ve válečných nebo nestabilních zemích mohou jednotlivci čelit problémům s přístupem k tradičním bankovním službám nebo riziku krádeže či konfiskace fyzického majetku. Bitcoin umožňuje jednotlivcům ukládat hodnotu decentralizovaným a bezpečným způsobem bez nutnosti zprostředkovatelů nebo fyzického majetku, který je vystaven rizikům jako inflace, krádež nebo konfiskace.
+reviewed: true

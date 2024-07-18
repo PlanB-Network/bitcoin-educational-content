@@ -1,0 +1,13 @@
+pergunta: Quais são os riscos associados ao uso de um nó de terceiros?
+
+resposta: Censura e monitoramento das atividades.
+
+respostas_erradas:
+  - Perda de bitcoins.
+  - Aumento nas taxas de transação.
+  - Roubo de bitcoins e rastreamento.
+
+explicação: |
+  Se você usar um nó que não lhe pertence, corre o risco de ter suas transmissões de transações bloqueadas e ser monitorado pelo operador.
+
+revisado: false

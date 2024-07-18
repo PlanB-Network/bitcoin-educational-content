@@ -1,0 +1,11 @@
+question: Mikä oli ensimmäisen Cordoban suurin arvo Nicaraguassa?
+answer: 1 miljoona.
+wrong_answers:
+  - 500 000
+  - 10 miljoonaa
+  - 100 miljoonaa
+explanation: |
+  Nicaraguassa ensimmäisen Cordoban arvo nousi 1 miljoonaan. Toinen
+
+  Cordoba saavutti 10 miljoonan arvon.'
+reviewed: false

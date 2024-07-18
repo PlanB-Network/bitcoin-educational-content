@@ -1,0 +1,9 @@
+question: Jaká je jedna z hlavních charakteristik protokolu Bitcoin?
+answer: Je neutrální vůči všem svým uživatelům.
+wrong_answers:
+  - Upřednostňuje některé uživatele před ostatními.
+  - Je zaujatý vůči určitým uživatelům.
+  - Prospívá pouze vybrané skupině uživatelů.
+explanation: >-
+  Text uvádí, že protokol Bitcoin je neutrální vůči všem svým uživatelům.
+reviewed: false

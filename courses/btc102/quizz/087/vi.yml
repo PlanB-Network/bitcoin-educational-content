@@ -1,0 +1,10 @@
+question: Loại người dùng nào có khả năng cần cả ví Bitcoin nóng và lạnh?
+answer: Người dùng cần sử dụng Bitcoin thường xuyên.
+wrong_answers:
+  - Người dùng chỉ sử dụng Bitcoin thỉnh thoảng.
+  - Người dùng đào Bitcoin.
+  - Người dùng chỉ đầu tư vào Bitcoin với mục tiêu dài hạn.
+explanation: |
+  Người dùng Bitcoin thường xuyên cần một ví nóng cho các giao dịch hàng ngày và một
+  ví lạnh để lưu trữ an toàn lâu dài.
+reviewed: false

@@ -1,0 +1,8 @@
+question: Bạn nên làm gì sau khi lưu trữ phong bì theo chương?
+answer: Đảm bảo rằng người thừa kế của bạn biết rằng họ cần lấy phong bì này nếu cần thiết.
+wrong_answers:
+  - Đảm bảo rằng người thừa kế của bạn không biết rằng họ cần lấy phong bì này nếu cần thiết.
+  - Đảm bảo rằng người thừa kế của bạn biết rằng họ không cần lấy phong bì này nếu cần thiết.
+  - Đảm bảo rằng người thừa kế của bạn không biết rằng họ không cần lấy phong bì này nếu cần thiết.
+explanation: |
+  Sau khi lưu trữ phong bì, bạn nên đảm bảo rằng người thừa kế của bạn biết rằng họ cần lấy phong bì này nếu cần thiết, như được đề xuất trong chương.

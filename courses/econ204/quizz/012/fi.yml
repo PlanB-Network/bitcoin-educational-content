@@ -1,0 +1,10 @@
+question: Mikä on pankkien ja keskuspankkien taseiden vaikutus inflaatioon?
+answer: Jos vasta luotu raha pysyy yksityispankkien taseissa lainaamatta sitä talouden toimijoille, se ei suoraan vaikuta reaalitalouteen ja siten ei johda inflaatioon.
+wrong_answers:
+  - Jos vasta luotu raha pysyy yksityispankkien taseissa, se johtaa aina inflaatioon.
+  - Pankkien ja keskuspankkien taseilla ei ole vaikutusta inflaatioon.
+  - Jos vasta luotu raha lainataan talouden toimijoille, se ei johda inflaatioon.
+explanation: |
+  Luku selittää, että suhde rahan painamisen ja inflaation välillä on moduloitu sen mukaan, miten vasta luotu raha tuodaan talouteen.
+  Jos tämä raha pysyy yksityispankkien taseissa lainaamatta sitä talouden toimijoille, se ei suoraan vaikuta reaalitalouteen ja siten ei johda inflaatioon.
+reviewed: false

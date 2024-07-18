@@ -1,0 +1,9 @@
+question: Jak se nazývá nouzové peníze používané v Německu během ekonomické krize?
+answer: Notgeld
+wrong_answers:
+  - Reichsmark
+  - Euro
+  - Deutsche Mark
+explanation: |
+  Během ekonomické krize v Německu bylo používáno "Notgeld" (nouzové peníze) k řešení nedostatku běžné měny.
+reviewed: false

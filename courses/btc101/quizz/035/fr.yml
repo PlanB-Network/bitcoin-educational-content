@@ -1,0 +1,11 @@
+question: Laquelle de ces options n'est pas un avantage des monnaies fiduciaires ?
+answer: Elles sont sujettes à l'inflation monétaire
+wrong_answers:
+  - Elles sont facilement transportables
+  - Elles sont facilement divisibles
+  - Elles sont acceptées par tous les pays
+explanation: |
+  Les monnaies fiduciaires, telles que le dollar et l'euro, sont très liquides et
+  facilement transportables car elles sont désormais principalement numériques. Cependant, leur valeur est
+  constamment érodée par l'inflation monétaire.
+reviewed: true

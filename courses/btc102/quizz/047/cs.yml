@@ -1,0 +1,10 @@
+question: Co je peněženka v kontextu Bitcoinu?
+answer: Digitální trezor pro vaše bitcoiny
+wrong_answers:
+  - Fyzické zařízení pro ukládání bitcoinů
+  - Software pro těžbu bitcoinů
+  - Platforma pro nákup a prodej bitcoinů
+explanation: |
+  Obsah kapitoly vysvětluje, že bitcoiny jsou uloženy v tom, co se nazývá
+  "peněženka," což je digitální trezor pro vaše peníze. Přístup k ní má pouze držitel klíče.
+reviewed: false

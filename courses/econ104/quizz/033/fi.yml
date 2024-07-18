@@ -1,0 +1,12 @@
+question: Mikä on yksi keskitettyjen stablecoinien hyöty huolimatta niiden kyvystä jäädyttää varoja?
+answer: Ne voivat nopeasti reagoida suojellakseen käyttäjiä tietyissä tilanteissa
+wrong_answers:
+  - Ne tarjoavat täydellisen hajautuksen ja turvallisuuden
+  - Ne eivät ole minkään sääntelyn tai puuttumisen kohteena
+  - Ne toimivat riippumattomasti lainvalvonnasta
+explanation: |
+  Keskitetyillä stablecoineilla on kyky puuttua tilanteeseen,
+  kun se on käyttäjien ja koko järjestelmän vakauden kannalta parhaaksi,
+  kuten esimerkit osoittavat, missä jäädytetyt varat käytettiin kuluttajien suojelemiseen
+  ja estämään hakkerit hyötymästä.
+reviewed: false

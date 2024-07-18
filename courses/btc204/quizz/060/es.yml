@@ -1,0 +1,13 @@
+pregunta: ¿Qué información debe indicarse en una etiqueta?
+
+respuesta: El origen de un UTXO.
+
+respuestas_incorrectas:
+  - La fecha de creación de un UTXO.
+  - El tamaño de un UTXO.
+  - La cantidad de comisiones asociadas con la creación de un UTXO.
+
+explicación: |
+  Etiquetar es una buena práctica que ayuda a recordar el origen de un UTXO.
+
+revisado: false

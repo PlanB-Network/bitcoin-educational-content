@@ -1,0 +1,13 @@
+question: Co zahrnuje konsolidace?
+
+answer: Sloučení několika vstupů do jednoho většího.
+
+wrong_answers:
+  - Rozdělení velkého vstupu na několik menších.
+  - Převod vstupů z více peněženek do jedné.
+  - Přeřazení nepoužitých vstupů na nové adresy.
+
+explanation: |
+  Princip konsolidace spočívá využití období, kdy jsou poplatky za Bitcoin nízké, k sloučení menších UTXO do jednoho většího.
+
+reviewed: false

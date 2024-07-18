@@ -1,0 +1,13 @@
+question: Jaká je role kapitálových statků v ekonomice?
+answer: Kapitálové statky jsou používány při výrobě dalších statků. Umožňují jednotlivcům získávat spotřební zboží.
+wrong_answers:
+  - Kapitálové statky jsou používány pro spotřebu.
+  - Kapitálové statky nemají v ekonomice žádnou roli.
+  - Kapitálové statky jsou používány k výrobě dalších kapitálových statků.
+explanation: |
+  K výrobě spotřebního zboží podnikatelé kombinují různé meziprodukty
+  s původními faktory výroby (práce, půda a kapitál) podle
+  vzoru, který maximalizuje výslednou produkci. Všechny ostatní statky v ekonomice,
+  které můžeme nazvat "meziprodukty," mají hodnotu pouze proto, že umožňují jednotlivcům
+  získat tato spotřební zboží; jsou to statky používané při výrobě dalších statků.
+reviewed: false

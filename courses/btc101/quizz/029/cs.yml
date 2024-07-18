@@ -1,0 +1,11 @@
+question: Jaká je hlavní výhoda zlata oproti ostatním formám měny?
+answer: Jeho přirozená vzácnost ho činí cenným, zatímco jeho chemické vlastnosti mu umožňují nekorodovat časem
+wrong_answers:
+  - Je snadno dělitelné a přenosné
+  - Je předmětem měnové inflace
+  - Je široce akceptováno v obchodě
+explanation: |
+  Hlavní výhoda zlata oproti ostatním formám měny spočívá v jeho přirozené
+  vzácnosti, která ho činí cenným, a jeho chemických vlastnostech, které mu
+  umožňují nekorodovat časem.
+reviewed: false

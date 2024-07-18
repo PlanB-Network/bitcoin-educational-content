@@ -1,0 +1,13 @@
+question: ラベルにはどのような情報を記載するべきですか？
+
+answer: UTXOの起源。
+
+wrong_answers:
+  - UTXOの作成日。
+  - UTXOのサイズ。
+  - UTXOの作成に関連する手数料の額。
+
+explanation: |
+  ラベリングは、UTXOの起源を覚えておくのに役立つ良い習慣です。
+
+reviewed: false

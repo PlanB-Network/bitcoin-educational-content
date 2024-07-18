@@ -1,0 +1,13 @@
+question: OP_RETURN trong một giao dịch Bitcoin là gì?
+
+answer: Một mã lệnh đánh dấu đầu ra là không hợp lệ và cho phép lưu trữ dữ liệu.
+
+wrong_answers:
+  - Một mã lệnh xác minh tính hợp lệ của chữ ký trong một giao dịch Bitcoin.
+  - Một mã lệnh chứa một liên kết tới một tệp được lưu trữ trên IPFS.
+  - Một lệnh xóa một giao dịch khỏi blockchain Bitcoin.
+
+explanation: |
+  OP_RETURN là một mã lệnh báo hiệu một kịch bản không hợp lệ, làm cho đầu ra mà nó chứa trở nên không thể chi tiêu được một cách có thể chứng minh được. Do đó, các nút mạng có thể loại bỏ đầu ra này khỏi tập hợp UTXO của họ. OP_RETURN thường được sử dụng để ghi lại dữ liệu tùy ý trong blockchain.
+
+reviewed: false

@@ -1,0 +1,9 @@
+question: Mitä tapahtuu louhintapalkkiolle Bitcoin-verkossa suunnilleen joka neljäs vuosi?
+answer: Se puolittuu
+wrong_answers:
+  - Se kaksinkertaistuu
+  - Se kolminkertaistuu
+  - Se pysyy samana
+explanation: |
+  Bitcoin-verkon louhintapalkkio puolittuu joka 210 000 lohkon jälkeen, suunnilleen joka neljäs vuosi. Tämä palkkio toimii voimakkaana kannustimena rohkaista louhijoita osallistumaan louhintaprosessiin huolimatta sen energiakustannuksista.
+reviewed: false

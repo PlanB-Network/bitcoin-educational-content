@@ -1,0 +1,9 @@
+question: Jaká je role těžařů Bitcoinu ve světě energie?
+answer: Těžaři Bitcoinu neustále hledají zdroje levné elektřiny, často takové, které jsou plýtvány nebo nevyužité. Mohou působit jako flexibilní zdroj poptávky, připraveni spotřebovat tuto "opuštěnou" elektřinu, čímž pomáhají kompenzovat náklady na infrastrukturu.
+wrong_answers:
+  - Těžaři Bitcoinu neustále hledají zdroje obnovitelné energie, aby snížili svou uhlíkovou stopu.
+  - Těžaři Bitcoinu neustále hledají zdroje jaderné energie pro napájení svých těžebních operací.
+  - Těžaři Bitcoinu neustále hledají zdroje solární energie pro napájení svých těžebních operací.
+explanation: |
+  Kapitola vysvětluje, že těžaři Bitcoinu neustále hledají zdroje levné elektřiny, často takové, které jsou plýtvány nebo nevyužité. Mohou působit jako flexibilní zdroj poptávky, připraveni spotřebovat tuto "opuštěnou" elektřinu, čímž pomáhají kompenzovat náklady na infrastrukturu.
+reviewed: false

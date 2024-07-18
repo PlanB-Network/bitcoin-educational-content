@@ -1,0 +1,8 @@
+question: Co znamená DCA v kontextu Bitcoinu?
+answer: Průměrování nákladů v dolarech
+wrong_answers:
+  - Asociace digitálních měn
+  - Přímý přístup k hotovosti
+  - Decentralizovaný kryptoaktivum
+explanation: |
+  V kontextu Bitcoinu DCA znamená Průměrování nákladů v dolarech. Jedná se o strategii, kdy investor rozdělí celkovou částku určenou k investici mezi periodické nákupy, aby snížil dopad volatility na celkový nákup.

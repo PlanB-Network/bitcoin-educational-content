@@ -1,0 +1,11 @@
+question: Mikä on Ludwig von Misesin pääargumentti hänen artikkelissaan "Economic Calculation in a Socialist Commonwealth"?
+answer: Rationaalinen taloudellinen järjestäminen on mahdotonta ilman tuotannontekijöiden välisiä hintoja.
+wrong_answers:
+  - Sosialismi on moraalisesti ylivertainen kapitalismiin verrattuna.
+  - Kapitalismi on ainoa elinkelpoinen talousjärjestelmä.
+  - Sosialismi voi tuottaa yksilöitä, joilta puuttuvat kapitalistiset vaistot.
+explanation: |
+  Mises väitti, että ilman markkinoita määrittämässä hintoja tuotannontekijöiden välille, on mahdotonta rationalisoida resurssien käyttöä
+  teollisuudenalojen välillä. Tämä tarkoittaa, että vaikka jokaisessa yrityksessä tai talouden alaosassa olisi täydellinen järjestely,
+  koko talous ei pysty tehokkaasti sopeutumaan muutoksiin resurssien saatavuudessa, tuotanto-olosuhteissa ja kuluttajien mieltymyksissä.
+reviewed: false

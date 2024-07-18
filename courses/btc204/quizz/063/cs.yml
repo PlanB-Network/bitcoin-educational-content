@@ -1,0 +1,13 @@
+question: Jaká jsou 2 rizika související s ochranou soukromí při výběru mincí?
+
+answer: CIOH a spojení mezi vstupy / identitou příjemcem.
+
+wrong_answers:
+  - Sledování IP adresy a korelace aktivit.
+  - Časové sledování a opětovné použití adresy.
+  - Opětovné použití adresy a spojení mezi vstupy / identitou externím pozorovatelem.
+
+explanation: |
+  Při výběru mincí je třeba zvážit dvě rizika: možnost, že příjemce platby spojí část vaší identity s UTXOs použitými jako vstupy, a schopnost externího pozorovatele navázat spojení mezi všemi UTXOs spotřebovanými jako vstupy (CIOH).
+
+reviewed: false

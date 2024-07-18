@@ -1,0 +1,14 @@
+question: Mitkä ovat tekstissä mainitut päätyypit stablecoineista?
+answer: Fiat-tuettu, hyödyketuettu ja algoritmipohjainen stablecoinit.
+wrong_answers:
+  - Digitaaliset ja fyysiset stablecoinit
+  - Keskusjohtoiset ja hajautetut stablecoinit
+  - Pankkien tukemat stablecoinit ja yksilöiden tukemat stablecoinit
+explanation: |
+  Aiemmissa luvuissa olemme nähneet kolme päätyyppiä stablecoineista; 
+  fiat-tuetut stablecoinit, jotka ovat perinteisten valuuttojen 
+  kuten Yhdysvaltain dollarin tukemia; hyödyketuetut stablecoinit, jotka ovat 
+  hyödykkeiden kuten kullan tai öljyn tukemia; ja algoritmipohjaiset stablecoinit, jotka 
+  perustuvat joukkoon sääntöjä tai algoritmeja arvonsa ylläpitämiseksi. Kuitenkin, 
+  huomautetaan, että menestyksekkäitä algoritmipohjaisia stablecoineja ei vielä ole markkinoilla.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Která z následujících odpovědí nepatří mezi 3 hlavní kategorie heuristik a charakteristik používaných v analýze blockchainu?
+answer: Kryptografické modely.
+wrong_answers:
+  - Modely transakcí.
+  - Heuristiky interních transakcí.
+  - Heuristiky externích transakcí.
+explanation: |
+  Heuristiky používané v analýze blockchainu lze rozdělit do tří kategorií; vzory transakcí (nebo modely transakcí), heuristiky interních transakcí a heuristiky externích transakcí.
+reviewed: false

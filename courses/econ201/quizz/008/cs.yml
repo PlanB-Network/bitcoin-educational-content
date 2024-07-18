@@ -1,0 +1,13 @@
+question: Co je Cantillonův efekt?
+answer: Cantillonův efekt odkazuje na ekonomický princip, podle kterého, když je vytvořeno nové peníze, nejprve profitují ti, kteří jsou nejblíže zdroji peněz, na úkor těch, kteří jsou dále.
+wrong_answers:
+  - Cantillonův efekt odkazuje na ekonomický princip, podle kterého, když je vytvořeno nové peníze, rovnoměrně profituje každý v ekonomice.
+  - Cantillonův efekt odkazuje na ekonomický princip, podle kterého, když je vytvořeno nové peníze, nejprve profitují ti, kteří jsou nejdále od zdroje peněz, na úkor těch, kteří jsou blíže.
+  - Cantillonův efekt odkazuje na ekonomický princip, podle kterého, když je vytvořeno nové peníze, nemá to žádný dopad na distribuci bohatství v ekonomice.
+explanation: |
+  Cantillonův efekt, pojmenovaný po ekonomovi 18. století Richardu Cantillonovi,
+  popisuje, jak distribuce nových peněz v ekonomice může vést k rozdílům v bohatství.
+  Ti, kteří jsou nejblíže zdroji nových peněz (jako jsou bankéři a majitelé aktiv),
+  profitují jako první a nejvýrazněji, zatímco ti, kteří jsou dále (jako průměrní
+  pracovníci a spořitelé), vidí menší přínos nebo dokonce negativní efekty kvůli inflaci.
+reviewed: false

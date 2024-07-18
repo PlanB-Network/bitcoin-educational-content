@@ -1,0 +1,9 @@
+question: Pokud má transakce 2 UTXO o velikosti 5 000 sat jako vstupy a 3 UTXO o velikosti 3 000 sat jako výstupy, jaké jsou poplatky za transakci?
+answer: 1 000 sat
+wrong_answers:
+  - 1 500 sat
+  - 2 500 sat
+  - 3 000 sat
+explanation: |
+  Poplatky za transakci představují rozdíl mezi celkovými vstupy a celkovými výstupy. Jedná se o částku, která zůstane po použití všech vstupů a vytvoření všech výstupů. Výpočet je tedy následující; poplatky = (5000x2) - (3000x3) = 10000 - 9000 = 1000.
+reviewed: false

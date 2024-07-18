@@ -1,0 +1,13 @@
+domanda: Quale algoritmo di scambio chiavi crittografiche è al centro del funzionamento di BIP47?
+
+risposta: ECDH
+
+risposte_errate:
+  - RSA
+  - ElGamal
+  - Diffie-Hellman
+
+spiegazione: |
+  L'algoritmo utilizzato è ECDH (Elliptic Curve Diffie-Hellman). Si tratta di una variante del classico algoritmo Diffie-Hellman che utilizza curve ellittiche.
+
+revisionato: false

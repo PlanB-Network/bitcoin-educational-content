@@ -1,0 +1,12 @@
+question: Bitcoin mới được tạo ra và đưa vào lưu thông như thế nào?
+answer: Qua quá trình đào như một phần thưởng cho việc thêm giao dịch mới vào blockchain
+wrong_answers:
+  - Qua việc phát hành của một cơ quan trung ương
+  - Bằng cách mua chúng từ các sàn giao dịch Bitcoin
+  - Bằng cách nhận chúng như là phí giao dịch
+explanation: |
+  Bitcoin mới được đưa vào lưu thông qua một quá trình gọi là đào. 
+  Các thợ đào cạnh tranh với nhau để thêm giao dịch mới vào blockchain. 
+  Đổi lại công việc của họ, các thợ đào được thưởng bằng bitcoin mới tạo. 
+  Quá trình này cũng xác minh và bảo vệ các giao dịch trên mạng lưới Bitcoin.
+reviewed: false

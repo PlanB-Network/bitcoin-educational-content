@@ -481,7 +481,7 @@ OP_RETURN là một Opcode, là một script đánh dấu một đầu ra giao d
 
 Như chúng ta đã thấy trong phần trước, Diffie-Hellman được sử dụng để tạo ra một bí mật chung giữa hai người dùng giao tiếp qua mạng không an toàn, có thể được quan sát bởi kẻ tấn công. Trong BIP47, ECDH được sử dụng để giao tiếp trên mạng Bitcoin, bản chất là một mạng giao tiếp minh bạch được nhiều kẻ tấn công quan sát. Bí mật chung được tính toán thông qua trao đổi khóa Diffie-Hellman trên đường cong elliptic sau đó được sử dụng để mã hóa thông tin bí mật cần truyền đạt: mã thanh toán của người gửi (Alice).
 
-Dưới đây là một sơ đồ được trích từ BIP47 mô tả những gì chúng ta vừa mô tả:
+Dưới đây là một sơ đồ được trích từ BIP47 mô tả những gì chúng ta vừa description:
 
 ![Sơ đồ Alice gửi mã thanh toán được che giấu của mình đến địa chỉ thông báo của Bob](assets/16.webp)
 

@@ -1,0 +1,10 @@
+question: Mikä on AMF?
+answer: "Autorité des Marchés Financiers"
+wrong_answers:
+  - Amerikan Rahasto
+  - Kaivoslaitosten Yhdistys
+  - Automaattinen Rahavirta
+explanation: >-
+  "AMF, eli Autorité des Marchés Financiers, on ranskalainen
+  organisaatio, joka sääntelee alustoja, joissa bitcoineja voidaan ostaa."
+reviewed: false

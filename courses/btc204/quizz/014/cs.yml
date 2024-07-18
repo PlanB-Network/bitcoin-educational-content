@@ -1,0 +1,9 @@
+question: Jaký je model soukromí systému Bitcoin?
+answer: Transakce jsou veřejné, ale identita uživatelů není známa.
+wrong_answers:
+  - Pouze Satoshi Nakamoto má přístup k detailům transakcí.
+  - Transakce jsou šifrovány a na síti neviditelné.
+  - Pouze vlády mají přístup k detailům transakcí.
+explanation: |
+  V případě Bitcoinu, protože tok informací mezi transakcemi a veřejnou doménou nelze přerušit, model soukromí spočívá v oddělení identity uživatele od transakcí.
+reviewed: false

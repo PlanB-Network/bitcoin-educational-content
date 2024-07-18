@@ -1,0 +1,9 @@
+question: Co zabezpečuje UTXO na Bitcoinu?
+answer: Skrze skripty, které definují podmínky utracení.
+wrong_answers:
+  - Skrze periodickou verifikaci těžaři.
+  - Skrze centralizovanou databázi.
+  - Skrze ověření identity uživatele.
+explanation: |
+  Výstupy Bitcoinové transakce jsou UTXO, které jsou zabezpečeny skriptem. Tento skript vyžaduje, aby byly splněny předem definované podmínky utracení, aby bylo možné UTXO utratit.
+reviewed: false

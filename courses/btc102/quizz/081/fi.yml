@@ -1,0 +1,9 @@
+question: Mitä DCA tarkoittaa Bitcoinin kontekstissa?
+answer: Dollar-Cost Averaging
+wrong_answers:
+  - Digital Currency Association
+  - Direct Cash Access
+  - Decentralized Crypto Asset
+explanation: |
+  Bitcoinin kontekstissa DCA tarkoittaa Dollar-Cost Averagingia. Kyseessä on strategia, jossa sijoittaja jakaa sijoitettavan kokonaissumman useisiin ajoittaisiin ostoihin vähentääkseen volatiliteetin vaikutusta koko ostoon.
+reviewed: false

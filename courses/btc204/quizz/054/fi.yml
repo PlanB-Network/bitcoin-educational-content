@@ -1,0 +1,13 @@
+question: Mikä on salausalgoritmin nimi, jota käytetään Hiljaisissa Maksuissa yhteisen salaisuuden luomiseen vastaanottajan ja maksajan välille?
+
+answer: ECDH
+
+wrong_answers:
+  - RSA
+  - DH
+  - SHA256
+
+explanation: |
+  ECDH (Elliptic-Curve Diffie-Hellman) -algoritmia käytetään Hiljaisissa Maksuissa vastaanottajan skannausparin avainten ja lähettäjän avainparin summan välillä yhteisen salaisuuden luomiseen, joka mahdollistaa yksilöllisen maksuosoitteen johdannan.
+
+reviewed: false

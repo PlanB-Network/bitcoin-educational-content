@@ -1,0 +1,8 @@
+question: Ý nghĩa của sự khan hiếm của Bitcoin là gì?
+answer: Chỉ có 21 triệu bitcoin trên thế giới và không bao giờ có thêm
+wrong_answers:
+  - Giá trị của Bitcoin sẽ luôn tăng
+  - Bitcoin khó khai thác
+  - Số lượng giao dịch Bitcoin bị hạn chế
+explanation: |
+  Sự khan hiếm của Bitcoin đề cập đến việc chỉ có 21 triệu bitcoin tồn tại. Đặc điểm này, tương tự như vàng, ngăn chặn việc giảm giá trị của Bitcoin thông qua việc in tiền quá mức.

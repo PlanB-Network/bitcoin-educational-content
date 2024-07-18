@@ -1,0 +1,9 @@
+question: Jaký je běžný způsob používání Bitcoinu pro člověka, který hromadí Bitcoin?
+answer: V peer-to-peer způsobu
+wrong_answers:
+  - Přes makléře
+  - Prodejem zboží nebo služeb
+  - Zapojením do ekosystému Bitcoinu
+explanation: |
+  Běžný způsob používání Bitcoinu pro člověka, který hromadí Bitcoin, je v peer-to-peer způsobu. To znamená, že mohou kupovat Bitcoin přímo za hotovost s přáteli nebo členy komunity Bitcoinu.
+reviewed: false

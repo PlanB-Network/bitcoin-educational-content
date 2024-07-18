@@ -1,0 +1,8 @@
+question: Jos havaitsemme siirron, jossa on 1 UTXO syötteenä ja 43 UTXOa tulosteina, mikä kuvio tunnistetaan?
+answer: Eräajettu kulutus
+wrong_answers:
+  - Konsolidointi
+  - Yksinkertaistettu maksu
+  - Yhteistyöllinen siirto
+explanation: |
+  Tämän kuvion tulkinta on, että kyseessä on eräajettu kulutus. Tämä rakenne mahdollistaa toimijoille, kuten vaihtoalustoille, säästää maksuissa ryhmittelemällä kulunsa yhteen siirtoon.

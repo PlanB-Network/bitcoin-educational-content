@@ -1,0 +1,12 @@
+question: Mikä oli Argentiinan valuutta ennen vuotta 1826?
+answer: Espanjan dollari.
+wrong_answers:
+  - Argentiinan peso.
+  - Peso moneda nacional.
+  - Peso real.
+explanation: |
+  Ennen vuotta 1826 Argentiina käytti Espanjan dollaria. Itsenäistyttyään
+
+  vuonna 1816, se esitteli oman valuuttansa perustuen Espanjan realiin, mikä johti
+
+  samankaltaisen valuutan luomiseen.

@@ -1,0 +1,11 @@
+question: Quel est le rôle des clés privées dans les transactions Bitcoin ?
+answer: Elles sont utilisées pour signer et autoriser les transactions.
+wrong_answers:
+  - Elles sont utilisées pour vérifier l'authenticité des transactions.
+  - Elles sont utilisées pour chiffrer les données de la transaction.
+  - Elles sont partagées publiquement pour la transparence.
+explanation: |
+  Les clés privées sont un composant essentiel des transactions Bitcoin.
+  Elles sont utilisées pour signer et autoriser les transactions, fournissant une preuve
+  de propriété et assurant que seul le propriétaire peut dépenser ses bitcoins.
+reviewed: true

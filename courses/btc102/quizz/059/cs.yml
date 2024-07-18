@@ -1,0 +1,10 @@
+question: Co je cold wallet v kontextu Bitcoinu?
+answer: Peněženka pro ukládání velkých množství Bitcoinu offline
+wrong_answers:
+  - Peněženka, která se používá pro transakce v chladném klimatu
+  - Peněženka, která se používá pro ukládání malých množství Bitcoinu
+  - Peněženka, která se používá pro ukládání Bitcoinu po krátkou dobu
+explanation: |
+  Cold wallet je peněženka pro ukládání velkých množství Bitcoinu offline.
+  Je považována za bezpečnější než hot wallet, protože je méně náchylná k hackování.
+reviewed: false

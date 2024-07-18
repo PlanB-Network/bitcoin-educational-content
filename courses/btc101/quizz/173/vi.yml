@@ -1,0 +1,11 @@
+question: Một trong những lý do khiến Bitcoin thu hút một số nhóm người là gì?
+
+answer: Khả năng cung cấp các giải pháp như tiền mặt điện tử không cần tin cậy, khả năng chống kiểm duyệt, hoặc chính sách tiền tệ minh bạch và không thể thay đổi.
+
+wrong_answers:
+  - Dễ dàng làm giả.
+  - Được kiểm soát bởi một cơ quan trung ương.
+  - Không ẩn danh.
+
+explanation:
+  Bản chất phi tập trung, ẩn danh và khả năng chống kiểm duyệt của Bitcoin làm cho nó trở nên hấp dẫn đối với các nhóm như người yêu công nghệ, cypherpunks, tự do chủ nghĩa, và những người hâm mộ vàng.

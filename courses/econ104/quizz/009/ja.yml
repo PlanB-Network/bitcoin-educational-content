@@ -1,0 +1,9 @@
+question: 最初のBitcoinブロックにおける「The Times 03/Jan/2009 Chancellor on brink of second bailout for banks」という引用の意義は何ですか？
+answer: それは、私たちの金融システムが損失を社会化する能力を強調しています
+wrong_answers:
+  - サトシがThe Times新聞を高く評価していることを示しています
+  - ベイルアウトが私たちの社会にどのように利益をもたらしたかの素晴らしい例を示しています
+  - Bitcoinがブロックチェーンにメッセージを保存する能力を私たちに示しています
+explanation: |
+  これは、銀行がリスクの高い行動に従事しており、それに対してほとんど影響がなく、損失が通貨保有者の間で共有されることになるというサトシの懸念を反映したTimes新聞の[記事](https://www.thetimes.co.uk/article/chancellor-alistair-darling-on-brink-of-second-bailout-for-banks-n9l382mn62h)への言及です。
+確認済み: true

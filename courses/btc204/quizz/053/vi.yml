@@ -1,0 +1,13 @@
+question: Mục đích của Nhãn trong Thanh toán Ẩn danh là gì?
+
+answer: Để sử dụng nhiều địa chỉ tĩnh khác nhau mà không làm tăng không hợp lý gánh nặng quét.
+
+wrong_answers:
+  - Để mã hóa giao dịch Thanh toán Ẩn danh nhằm ẩn đi người nhận thực sự của giao dịch.
+  - Để sử dụng nhiều địa chỉ tĩnh khác nhau không thể được liên kết bởi một quan sát viên bên ngoài.
+  - Để đặt một nhãn hiển thị trên blockchain nhằm xác định Thanh toán Ẩn danh theo cách của một tham chiếu thanh toán.
+
+explanation: |
+  Nhãn được sử dụng để tạo ra nhiều địa chỉ tĩnh từ địa chỉ tĩnh chính, điều này giúp tổ chức ví dễ dàng hơn. Tuy nhiên, một quan sát viên bên ngoài có thể dễ dàng thiết lập một liên kết giữa các địa chỉ tĩnh có nhãn này, vì khóa quét công khai là giống nhau cho tất cả.
+
+reviewed: false

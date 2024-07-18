@@ -1,0 +1,12 @@
+question: Jaký byl směnný kurz digitálního bolívaru ve Venezuele v roce 2021?
+answer: Milion ku jedné.
+wrong_answers:
+  - Tisíc ku jedné.
+  - Deset tisíc ku jedné.
+  - Sto tisíc ku jedné.
+explanation: |
+  V roce 2021 byl digitální bolívar ve Venezuele nahrazen novou
+
+  redenominací
+
+  v poměru milion ku jedné.

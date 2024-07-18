@@ -1,0 +1,19 @@
+question: Co odlišuje Bitcoin od tradičních měn kontrolovaných centrálními bankami nebo vládami?
+answer: Všechny uvedené
+wrong_answers:
+  - Bitcoin vyžaduje spolupráci mezi těžaři, uzly a vývojáři
+  - Bitcoin umožňuje komukoli účastnit se sítě a plnit klíčové role
+  - Bitcoin spoléhá na decentralizovaný systém konsensu
+explanation: |
+  To, co odlišuje Bitcoin od tradičních fiat měn, je to, že je to 
+  společné úsilí mezi třemi zásadními rolemi a komunitou.
+  Uzly zajišťují integritu a bezpečnost sítě tím, že slouží jako brána.
+  Těžaři jsou zodpovědní za zpracování transakcí a udržování blockchainu.
+  Vývojáři jsou vysoce kvalifikovaní členové komunity Bitcoinu, kteří spolupracují 
+  na udržování a zlepšování softwaru, který síť pohání.
+  Komunita, prostřednictvím používání bitcoinu, je to, co mu dává hodnotu.
+  Každá z těchto rolí je zásadní pro funkčnost a úspěch Bitcoinu jako 
+  digitální měny. Tím, že tyto klíčové úkoly svěřuje klíčovým hráčům, může Bitcoin 
+  fungovat jako decentralizované, bezpečné, transparentní a odpovědné platidlo pro 
+  všechny uživatele, což ho výrazně odlišuje od centralizovaných měn, které dnes používáme.
+kontrolováno: true

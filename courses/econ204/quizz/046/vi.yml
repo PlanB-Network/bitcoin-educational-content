@@ -1,0 +1,10 @@
+question: Giá trị tối đa của Cordoba đầu tiên ở Nicaragua là bao nhiêu?
+answer: 1 triệu.
+wrong_answers:
+  - 500,000
+  - 10 triệu
+  - 100 triệu
+explanation: |
+  Ở Nicaragua, Cordoba đầu tiên đã đạt giá trị 1 triệu. Cordoba thứ hai
+
+  đã đạt 10 triệu.

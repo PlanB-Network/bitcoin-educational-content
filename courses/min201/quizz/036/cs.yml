@@ -1,0 +1,11 @@
+question: Jaký je vztah mezi cenou Bitcoinu a jeho cenou?
+answer: Cena Bitcoinu je obecně úměrná jeho ceně
+wrong_answers:
+  - Cena Bitcoinu je nepřímo úměrná jeho ceně
+  - Cena Bitcoinu není spojena s jeho cenou
+  - Cena Bitcoinu je vždy vyšší než jeho cena
+explanation: |
+  Cena Bitcoinu, která souvisí s elektřinou potřebnou k provozu
+  těžebních strojů, je obecně úměrná jeho ceně. Tento vztah poskytuje
+  lepší pochopení kolísání cen a budoucích vyhlídek.
+reviewed: false

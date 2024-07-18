@@ -1,0 +1,9 @@
+question: Các loại stablecoin chính được đề cập trong văn bản là gì?
+answer: Stablecoin được hỗ trợ bằng tiền tệ, được hỗ trợ bằng hàng hóa, và stablecoin thuật toán.
+wrong_answers:
+  - Stablecoin kỹ thuật số và vật lý
+  - Stablecoin tập trung và phi tập trung
+  - Stablecoin được ngân hàng hỗ trợ và stablecoin được cá nhân hỗ trợ
+explanation:
+  Trong các chương trước, chúng ta đã thấy ba loại stablecoin chính; stablecoin được hỗ trợ bằng tiền tệ, được hỗ trợ bởi các đồng tiền truyền thống như đô la Mỹ; stablecoin được hỗ trợ bằng hàng hóa, được hỗ trợ bởi các hàng hóa như vàng hoặc dầu; và stablecoin thuật toán, dựa vào một bộ quy tắc hoặc thuật toán để duy trì giá trị của chúng. Tuy nhiên, nó lưu ý rằng stablecoin thuật toán thành công vẫn chưa xuất hiện trên thị trường.
+reviewed: true

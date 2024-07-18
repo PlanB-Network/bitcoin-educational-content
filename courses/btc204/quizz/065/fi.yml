@@ -1,0 +1,14 @@
+question: Mikä on dust UTXOjen kontekstissa?
+
+answer: UTXOt, joiden arvo on liian alhainen kattaakseen tarvittavat kulut niiden käyttämiseksi.
+
+wrong_answers:
+  - UTXOt, jotka on tuotettu transaktiovirheiden seurauksena eivätkä ne voi vahvistua lohkoketjussa.
+  - UTXOt, jotka on merkitty epäilyttäviksi tai yhdistetty laittomiin toimintoihin verkossa.
+  - UTXOt, jotka on tallennettu osoitteisiin, joita ei ole käytetty pitkään aikaan ja katsotaan kadonneiksi.
+
+explanation: |
+  Dust viittaa UTXOihin, joiden arvo satosheina on niin alhainen, ettei se riitä kattamaan transaktiokuluja, jotka vaaditaan niiden käyttämiseksi.
+
+reviewed: false
+

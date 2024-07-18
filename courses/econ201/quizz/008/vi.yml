@@ -1,0 +1,13 @@
+question: Hiệu ứng Cantillon là gì?
+answer: Hiệu ứng Cantillon ám chỉ nguyên tắc kinh tế rằng khi tiền mới được tạo ra, nó ban đầu mang lại lợi ích cho những người gần nguồn tiền nhất, làm tổn thất đến những người xa hơn.
+wrong_answers:
+  - Hiệu ứng Cantillon ám chỉ nguyên tắc kinh tế rằng khi tiền mới được tạo ra, nó mang lại lợi ích ngang bằng cho mọi người trong nền kinh tế.
+  - Hiệu ứng Cantillon ám chỉ nguyên tắc kinh tế rằng khi tiền mới được tạo ra, nó ban đầu mang lại lợi ích cho những người xa nguồn tiền nhất, làm tổn thất đến những người gần hơn.
+  - Hiệu ứng Cantillon ám chỉ nguyên tắc kinh tế rằng khi tiền mới được tạo ra, nó không ảnh hưởng đến sự phân bổ của sự giàu có trong nền kinh tế.
+explanation: |
+  Hiệu ứng Cantillon, được đặt theo tên của nhà kinh tế học Richard Cantillon của thế kỷ 18,
+  mô tả cách phân phối tiền mới trong một nền kinh tế có thể dẫn đến sự chênh lệch về sự giàu có.
+  Những người gần nguồn tiền mới nhất (như các ngân hàng và chủ sở hữu tài sản)
+  được hưởng lợi đầu tiên và đáng kể nhất, trong khi những người xa hơn (như công nhân bình thường
+  và người tiết kiệm) nhận được ít lợi ích hơn hoặc thậm chí là những tác động tiêu cực do lạm phát.
+reviewed: false

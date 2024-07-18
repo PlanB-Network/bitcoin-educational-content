@@ -1,0 +1,9 @@
+question: Swiss Bitcoin Payとは何ですか？
+answer: アマチュアの商人がビットコインを受け入れるためのソリューション
+wrong_answers:
+  - ビットコインを受け入れるスイスの銀行
+  - スイスのビットコイン交換所
+  - スイスのビットコイン採掘会社
+explanation: >-
+  Swiss Bitcoin Payは、アマチュアの商人がビットコインを受け入れるためのソリューションです。他のソリューションには、シンプルなオンラインビジネス向けのOpenNodeや、大規模な構造または情熱的なビットコイナー向けのBTCpay Serverがあります。
+reviewed: false

@@ -1,0 +1,13 @@
+domanda: Tra le seguenti risposte, quale non consente di ingannare le euristiche di analisi della catena?
+
+risposta: Utilizzare sempre lo stesso indirizzo di ricezione.
+
+risposte_errate:
+  - Creare un resto il cui valore è vicino al pagamento.
+  - Effettuare output di importi irregolari, non arrotondati.
+  - Distribuire la diffusione delle transazioni durante il giorno.
+
+spiegazione: |
+  Non si dovrebbe mai utilizzare più volte lo stesso indirizzo di ricezione. Tutte le altre risposte permettono di evitare le euristiche di analisi della catena.
+
+revisionato: false

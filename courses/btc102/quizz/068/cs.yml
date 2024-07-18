@@ -1,0 +1,9 @@
+question: Jaký je účel nastavení opakovaného nákupního plánu pro Hodlera?
+answer: Automaticky čas od času pokračovat v nákupu Bitcoinu.
+wrong_answers:
+  - Prodat Bitcoin, když je cena vysoká.
+  - Často obchodovat s Bitcoinem.
+  - Převést Bitcoin na jiné kryptoměny.
+explanation: |
+  Hodler si nastaví opakovaný nákupní plán, aby mohl automaticky čas od času pokračovat v nákupu Bitcoinu, sází na jeho zvýšené využití a vzácnost v budoucnosti.
+posouzeno: false

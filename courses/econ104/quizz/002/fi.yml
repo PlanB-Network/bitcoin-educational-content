@@ -1,0 +1,11 @@
+question: Mikä on rahan ja hyödykkeiden, kuten kullan, historiallinen yhteys?
+answer: Kulta on harvinaista ja laajalti hyväksytty arvon säilyttäjä
+wrong_answers:
+  - Kulta tekee rahasta houkuttelevamman näköistä
+  - Kulta on helposti jaettavissa
+  - Kulta on ainutlaatuinen
+explanation: |
+  Ottaen huomioon kullan maailmanlaajuisen harvinaisuuden luonnossa ja merkittävät investoinnit, 
+  jotka vaaditaan kullan louhintaan, jalostukseen ja säilyttämiseen, kulta on johdonmukaisesti 
+  käynyt kaupaksi preemiohintaan verrattuna muihin rahamuotoihin.
+reviewed: false

@@ -1,0 +1,8 @@
+question: 誰でもBitcoinのコードを複製でき、それによって価値がなくなる、正しいか間違っているか？
+answer: 正しい
+wrong_answers:
+  - 間違っている
+explanation: |
+  Bitcoinのコードはオープンソースであり、コピーすることができますが、
+  bitcoinの価値はそのコードからではなく、ユーザーのネットワークと、時間をかけて築き上げた信頼と採用から来ています。
+reviewed: true

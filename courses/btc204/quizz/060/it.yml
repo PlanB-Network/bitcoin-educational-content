@@ -1,0 +1,13 @@
+domanda: Quali informazioni dovrebbero essere indicate su un'etichetta?
+
+risposta: L'origine di un UTXO.
+
+risposte_errate:
+  - La data di creazione di un UTXO.
+  - La dimensione di un UTXO.
+  - L'importo delle commissioni associate alla creazione di un UTXO.
+
+spiegazione: |
+  Etichettare è una buona pratica che aiuta a ricordare l'origine di un UTXO.
+
+revisionato: false

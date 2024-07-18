@@ -1,6 +1,6 @@
 question: Miten Lightning Network voisi mahdollisesti muuttaa maksutapoja?
 answer: Käyttäjiä voitaisiin veloittaa minuutin, tai jopa sekunnin, perusteella ajasta, jonka he käyttävät palvelua
-vaarat_vastaukset:
+wrong_answer:
   - Käyttäjiä voitaisiin veloittaa kiinteä maksu palvelun käytöstä
   - Käyttäjiä voitaisiin veloittaa käytetyn datamäärän perusteella
   - Käyttäjiä voitaisiin veloittaa tekemiensä transaktioiden määrän perusteella

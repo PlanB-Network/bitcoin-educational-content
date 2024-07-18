@@ -1,6 +1,6 @@
 question: Milloin Lightning Network vahvistettiin ja otettiin käyttöön?
 answer: 2017
-vaarat_vastaukset:
+wrong_answer:
   - 2015
   - 2016
   - 2018

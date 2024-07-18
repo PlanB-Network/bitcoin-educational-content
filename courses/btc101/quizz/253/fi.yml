@@ -1,6 +1,6 @@
 question: Mikä on yksi Bitcoin-protokollan pääominaisuuksista?
 answer: Se on neutraali kaikkia käyttäjiään kohtaan.
-vaarat_vastaukset:
+wrong_answer:
   - Se suosii tiettyjä käyttäjiä muiden yli.
   - Se on puolueellinen tiettyjen käyttäjien suhteen.
   - Se hyödyttää vain valikoitua käyttäjäryhmää.

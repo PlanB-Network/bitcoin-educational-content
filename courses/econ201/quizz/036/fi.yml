@@ -1,6 +1,6 @@
 question: Ketkä ovat Itävallan liiketoimintasyklin teorian pääpuolestapuhujat?
 answer: Ludwig Von Mises ja Friedrich Hayek
-vaarat_vastaukset:
+wrong_answer:
   - John Maynard Keynes ja Milton Friedman
   - Adam Smith ja David Ricardo
   - Karl Marx ja Friedrich Engels

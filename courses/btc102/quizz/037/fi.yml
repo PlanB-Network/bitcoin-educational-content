@@ -1,6 +1,6 @@
 question: Mikä on Bitcoin kyberpunk-liikkeen mukaan?
 answer: Käteisen sähköinen vastine
-vaarat_vastaukset:
+wrong_answer:
   - Digitaalisen kullan muoto
   - Uudenlainen luottokortti
   - Eräänlainen kryptovaluutta

@@ -1,6 +1,6 @@
 question: Mikä on vaikeustason säätömekanismin tarkoitus Bitcoin-verkossa?
 answer: Varmistaa, että lohkoja louhitaan keskimäärin joka 10. minuutti
-vaarat_vastaukset:
+wrong_answer:
   - Louhinnan vaikeustason kasvattaminen ajan myötä
   - Louhinnan vaikeustason vähentäminen ajan myötä
   - Varmistaa, että sama louhija ei louhi peräkkäisiä lohkoja

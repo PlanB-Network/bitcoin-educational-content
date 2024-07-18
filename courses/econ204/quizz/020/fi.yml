@@ -1,6 +1,6 @@
 question: Kuka esitti tunnetuimman määritelmän hyperinflaatiosta?
 answer: Philip Cagan
-vaarat_vastaukset:
+wrong_answer:
   - Bernholz
   - David
   - Hanke-Krus

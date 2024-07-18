@@ -1,6 +1,6 @@
 question: Mikä algoritmi käytetään julkisen avaimen luomiseen?
 answer: ECDSA (Elliptic Curve Digital Signature Algorithm)
-vaarat_vastaukset:
+wrong_answer:
   - "RSA (Rivest–Shamir–Adleman)"
   - SHA-256 (Secure Hash Algorithm 256)
   - AES (Advanced Encryption Standard)

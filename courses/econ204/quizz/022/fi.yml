@@ -1,6 +1,6 @@
 question: Mikä on hyperinflaation pääominaisuus Caganin määritelmän mukaan?
 answer: Erittäin korkea kuukausittainen inflaatioaste
-vaarat_vastaukset:
+wrong_answer:
   - Erittäin korkea vuosittainen inflaatioaste
   - Erittäin korkea viikoittainen inflaatioaste
   - Erittäin korkea päivittäinen inflaatioaste

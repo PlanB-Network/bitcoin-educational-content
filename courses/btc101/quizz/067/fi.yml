@@ -1,6 +1,6 @@
 question: Kuinka usein vaikeustason säätö tapahtuu?
 answer: Joka 2016 lohkon välein
-vaarat_vastaukset:
+wrong_answer:
   - Joka 1048 lohkon välein
   - Joka 512 lohkon välein
   - Joka 4032 lohkon välein

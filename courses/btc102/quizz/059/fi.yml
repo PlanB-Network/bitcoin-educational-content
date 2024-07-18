@@ -1,6 +1,6 @@
 question: Mikä on kylmä lompakko Bitcoinin kontekstissa?
 answer: Lompakko suurien Bitcoin-määrien säilyttämiseen offline-tilassa
-vaarat_vastaukset:
+wrong_answer:
   - Lompakko, jota käytetään transaktioihin kylmissä ilmastoissa
   - Lompakko, jota käytetään pienten Bitcoin-määrien säilyttämiseen
   - Lompakko, jota käytetään Bitcoinien säilyttämiseen lyhyen aikaa

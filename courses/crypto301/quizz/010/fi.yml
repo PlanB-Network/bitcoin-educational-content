@@ -1,6 +1,6 @@
 question: Mitkä ovat alustusvektorit SHA-256-funktion käsittelyssä?
 answer: Ensimmäisten 8 alkuluvun neliöjuurten desimaaliosien ensimmäiset 32 bittiä
-vaarat_vastaukset:
+wrong_answer:
   - Ensimmäisten 8 alkuluvun kuutiojuurten desimaaliosien ensimmäiset 32 bittiä
   - Ensimmäisten 64 alkuluvun neliöjuurten desimaaliosien ensimmäiset 32 bittiä
   - Ensimmäisten 64 alkuluvun kuutiojuurten desimaaliosien ensimmäiset 32 bittiä

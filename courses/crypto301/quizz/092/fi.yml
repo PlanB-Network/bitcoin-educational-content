@@ -1,6 +1,6 @@
 question: Mikä on pakatun julkisen avaimen koko?
 answer: 33 tavua
-vaarat_vastaukset:
+wrong_answer:
   - 32 tavua
   - 82 tavua
   - 512 bittiä

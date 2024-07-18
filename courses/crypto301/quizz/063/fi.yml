@@ -1,6 +1,6 @@
 question: Mikä on yksityisen avaimen turvallisuuden merkitys Bitcoin-ekosysteemissä?
 answer: Se varmistaa Bitcoin-siirtojen turvallisuuden.
-vaarat_vastaukset:
+wrong_answer:
   - Se varmistaa Bitcoin-siirtojen nopeuden.
   - Se varmistaa Bitcoin-siirtojen nimettömyyden.
   - Se varmistaa Bitcoin-siirtojen laillisuuden.

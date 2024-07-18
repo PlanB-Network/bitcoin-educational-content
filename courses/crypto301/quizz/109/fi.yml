@@ -1,6 +1,6 @@
 question: Mitä indeksi johdannaispolussa tarkoittaa HD-lompakon kontekstissa?
 answer: Arvo, jota käytetään HMAC-funktiossa
-vaarat_vastaukset:
+wrong_answer:
   - Arvo, jota käytetään SHA-256 -funktiossa
   - Arvo, jota käytetään RSA-funktiossa
   - Arvo, jota käytetään AES-funktiossa

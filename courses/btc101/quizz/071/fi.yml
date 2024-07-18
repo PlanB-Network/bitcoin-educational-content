@@ -1,6 +1,6 @@
 question: Minä vuonna seitsemäs puolitus tapahtuu?
 answer: 2036
-vaarat_vastaukset:
+wrong_answer:
   - 2032
   - 2028
   - 2048

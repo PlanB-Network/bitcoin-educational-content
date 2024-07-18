@@ -1,6 +1,6 @@
 question: Kuinka monta kierrosta PBKDF2 suorittaa käyttäen HMAC SHA512?
 answer: 2048 kierrosta
-vaarat_vastaukset:
+wrong_answer:
   - 1024 kierrosta
   - 512 kierrosta
   - 4096 kierrosta

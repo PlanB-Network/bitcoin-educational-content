@@ -1,6 +1,6 @@
 question: Mikä on lohkon koko, jota käytetään HMAC-SHA-512:ssa?
 answer: 1024-bittiset (128-tavuiset) lohkot
-vaarat_vastaukset:
+wrong_answer:
   - 512-bittiset (64-tavuiset) lohkot
   - 256-bittiset (32-tavuiset) lohkot
   - 2048-bittiset (256-tavuiset) lohkot

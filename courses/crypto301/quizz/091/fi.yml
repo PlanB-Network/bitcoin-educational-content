@@ -1,6 +1,6 @@
 question: Mikä on laajennetun avaimen kuormituksen koko?
 answer: 65 tavua
-vaarat_vastaukset:
+wrong_answer:
   - 33 tavua
   - 32 tavua
   - 82 tavua

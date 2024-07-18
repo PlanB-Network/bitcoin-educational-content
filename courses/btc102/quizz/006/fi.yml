@@ -1,6 +1,6 @@
 question: Mikä on yleinen huijaus rahoitusinvestointien alalla?
 answer: Pyramidimyyntijärjestelmät.
-vaarat_vastaukset:
+wrong_answer:
   - Fyysisten tavaroiden myynti.
   - Ohjelmistotuotteiden myynti.
   - Fiat-valuutan myynti.

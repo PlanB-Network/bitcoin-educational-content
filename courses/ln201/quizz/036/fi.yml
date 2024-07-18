@@ -1,6 +1,6 @@
 question: Kuka omistaa peruutusavaimen Alicen sitoumustapahtumassa?
 answer: Vain Alice.
-vaarat_vastaukset:
+wrong_answer:
   - Vain Bob.
   - Sekä Alice että Bob.
   - Ei kumpikaan, Alice eikä Bob.

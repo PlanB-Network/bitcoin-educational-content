@@ -1,6 +1,6 @@
 question: Mikä oli ainutlaatuinen piirre Antwerpenin pörssissä 1500-luvulla esitellyissä velkakirjoissa?
 answer: Niissä oli nimet ja eräpäivät
-vaarat_vastaukset:
+wrong_answer:
   - Ne oli tehty kullasta
   - Ne oli laskettu liikkeelle Amsterdamin pankin toimesta
   - Ne oli vaihdettavissa florineiksi

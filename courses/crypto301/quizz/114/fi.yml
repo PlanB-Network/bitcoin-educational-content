@@ -1,6 +1,6 @@
 question: Mikä on Depth 5:n tarkoitus HD-lompakon rakenteessa?
 answer: Sitä käytetään vastaanotto-osoitteiden luomiseen tavallisessa lompakossa
-vaarat_vastaukset:
+wrong_answer:
   - Sitä käytetään johdettujen ala-avainten luomiseen tiettyä tarkoitusta varten
   - Sen avulla voidaan erottaa eri kryptovaluuttojen tai verkkojen tilit
   - Se vastaa ulkoisia ja sisäisiä ketjuja

@@ -1,6 +1,6 @@
 question: Mikä on yksi dollarisaation seurauksista?
 answer: Omaehtoisen rahapolitiikan menetys
-vaarat_vastaukset:
+wrong_answer:
   - Inflaation kasvu
   - Rahan määrän kasvu
   - Luottamuksen väheneminen julkiseen sektoriin

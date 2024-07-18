@@ -1,6 +1,6 @@
 question: Mikä on tapahtuman nimi, kun Bitcoin-siirtojen louhinnasta saatu palkkio puolittuu?
 answer: Puolittuminen
-vaarat_vastaukset:
+wrong_answer:
   - Kahdentuminen
   - Neljännekseen jakaminen
   - Kolminkertaistuminen

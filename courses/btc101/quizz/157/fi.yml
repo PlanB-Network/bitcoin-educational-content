@@ -1,6 +1,6 @@
 question: Mikä on Bysantin kenraalien ongelma ja miten Bitcoin ratkaisee sen?
 answer: Kyseessä on ongelma tiedon koordinoinnissa järjestelmässä, jossa eri toimijoihin ei voida luottaa. Bitcoin ratkaisee sen käyttämällä lohkoketjua, joka perustuu työn todistamiseen (Proof of Work) ja jolla on vaihteleva vaikeusaste.
-vaarat_vastaukset:
+wrong_answer:
   - Kyseessä on ongelma transaktioiden vahvistamisessa hajautetussa verkossa. Bitcoin ratkaisee sen käyttämällä digitaalisia allekirjoituksia.
   - Kyseessä on ongelma kaksinkertaisen kulutuksen estämisessä digitaalisessa valuutassa. Bitcoin ratkaisee sen käyttämällä julkista kirjanpitoa.
   - Kyseessä on ongelma yksimielisyyden ylläpitämisessä hajautetussa verkossa. Bitcoin ratkaisee sen käyttämällä osakkuuden todistamisen algoritmia (Proof of Stake).

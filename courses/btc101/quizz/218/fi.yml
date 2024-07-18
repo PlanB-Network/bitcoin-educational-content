@@ -1,6 +1,6 @@
 question: Mikä on Bitcoinin omaksumisen luonne tekstin mukaan?
 answer: Viruksen kaltainen
-vaarat_vastaukset:
+wrong_answer:
   - Hidas ja tasainen
   - Nopea ja hallitsematon
   - Satunnainen ja ennustamaton

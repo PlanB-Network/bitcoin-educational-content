@@ -2,7 +2,7 @@ question: Mikä on hiljaisten maksujen haittapuoli verrattuna BIP47:ään?
 
 answer: Vastaanottajan on skannattava lähes koko lohkoketju.
 
-vaarat_vastaukset:
+wrong_answer:
   - Ne aiheuttavat lähettäjälle korkeampia siirtomaksuja.
   - Ne rajoittavat mahdollisten siirtojen määrää.
   - Ne ovat vähemmän anonyymejä.

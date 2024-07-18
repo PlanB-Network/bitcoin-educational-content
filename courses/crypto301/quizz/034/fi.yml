@@ -1,6 +1,6 @@
 question: Mikä on Bitcoinin yksityisavaimen koko?
 answer: 256-bittinen numero
-vaarat_vastaukset:
+wrong_answer:
   - 512-bittinen numero
   - 128-bittinen numero
   - 1024-bittinen numero

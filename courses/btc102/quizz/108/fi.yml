@@ -1,6 +1,6 @@
 question: Mitä sinun tulisi tehdä kirjekuoren säilyttämisen jälkeen luvun ohjeiden mukaan?
 answer: Varmista, että perillisesi tietävät tarvitsevansa hakea tämän kirjekuoren tarvittaessa.
-vaarat_vastaukset:
+wrong_answer:
   - Varmista, että perillisesi eivät tiedä tarvitsevansa hakea tätä kirjekuorta tarvittaessa.
   - Varmista, että perillisesi tietävät, etteivät he tarvitse hakea tätä kirjekuorta tarvittaessa.
   - Varmista, että perillisesi eivät tiedä, etteivät he tarvitse hakea tätä kirjekuorta tarvittaessa.

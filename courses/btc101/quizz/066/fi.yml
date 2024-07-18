@@ -1,6 +1,6 @@
 question: Minä vuonna ennustetaan, että bitcoinien luominen loppuu?
 answer: 2140
-vaarat_vastaukset:
+wrong_answer:
   - 2050
   - 2030
   - 2200

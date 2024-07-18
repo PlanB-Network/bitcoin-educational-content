@@ -1,6 +1,6 @@
 question: Mikä on merkittävää siinä, että Bitcoin on "0 to 1" -innovaatio?
 answer: Se mullistaa normimme ja tottumuksemme
-vaarat_vastaukset:
+wrong_answer:
   - Se on ensimmäinen digitaalinen valuutta
   - Sen arvo on noussut 0:sta 1:een
   - Se on ensimmäinen askel kohti käteisettömää yhteiskuntaa

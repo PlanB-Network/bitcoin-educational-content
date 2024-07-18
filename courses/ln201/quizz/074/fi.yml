@@ -1,6 +1,6 @@
 question: Mikä on LNURL-metaprotokollan tarkoitus Lightning Network -laskussa?
 answer: Sen avulla voidaan tarjota suora satoshi-määrä pyynnön tekemisen sijaan
-vaarat_vastaukset:
+wrong_answer:
   - Se salaa laskun tiedot
   - Se varmistaa vastaanottajan henkilöllisyyden
   - Se laskee siirtomaksun

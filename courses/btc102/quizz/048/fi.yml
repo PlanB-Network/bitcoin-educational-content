@@ -1,6 +1,6 @@
 question: Mikä on pääominaisuus "lohkoketjussa" ilman työn todistusta?
 answer: Sillä ei ole todellista arvoa
-vaarat_vastaukset:
+wrong_answer:
   - Se on turvallisempi
   - Se on nopeampi
   - Se on hajautetumpi

@@ -1,7 +1,7 @@
 question: Mikä on yksi yleisistä virheistä, joita aloittelevat sijoittajat tekevät astuessaan
   Bitcoinin maailmaan?
 answer: Ylisijoittaminen
-vaarat_vastaukset:
+wrong_answer:
   - Alisijoittaminen
   - Sijoittaminen pelkästään Bitcoiniin
   - Ei sijoittaminen Bitcoiniin ollenkaan

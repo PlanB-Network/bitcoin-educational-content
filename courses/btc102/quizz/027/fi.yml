@@ -1,6 +1,6 @@
 question: Mitä Bitcoin-lohkoketjun muuttumattomuus tarkoittaa?
 answer: Sitä ei voi muuttaa ajan myötä
-vaarat_vastaukset:
+wrong_answer:
   - Sitä ei voi hakkeroida
   - Sitä ei voi kopioida
   - Sitä ei voi poistaa

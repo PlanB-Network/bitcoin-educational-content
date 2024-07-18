@@ -1,6 +1,6 @@
 question: Mikä on ensimmäisen Bitcoin-siirron lohkon numero?
 answer: Lohko 170
-vaarat_vastaukset:
+wrong_answer:
   - Lohko 1
   - Lohko 17
   - Lohko 1700

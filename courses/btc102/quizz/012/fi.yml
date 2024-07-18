@@ -1,6 +1,6 @@
 question: Mikä on pääsyy bitcoinien menettämiseen kyseisen luvun mukaan?
 answer: Heikko verkkoturvallisuuden hallinta
-vaarat_vastaukset:
+wrong_answer:
   - Kryptovaluuttahuijaukset
   - Taloudelliset huijaukset
   - Tietokoneen vika

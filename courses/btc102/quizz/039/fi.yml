@@ -1,7 +1,7 @@
 question: Mikä on pääsyy diktatuuristen hallintojen perustamiselle
   kyseisen luvun mukaan?
 answer: Maailmanlaajuisesti pahenevat varallisuuserot
-vaarat_vastaukset:
+wrong_answer:
   - Maailman koulutuksen puute
   - Maailman resurssien puute
   - Maailman demokratian puute

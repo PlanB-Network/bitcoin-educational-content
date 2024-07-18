@@ -1,6 +1,6 @@
 question: Mikä on yksi suositelluista vaihtoehtoisista ratkaisuista paperille muistisanojen säilyttämiseen?
 answer: Kaivertaminen metallilevyyn
-vaarat_vastaukset:
+wrong_answer:
   - Säilyttäminen digitaalisessa tiedostossa
   - Kirjoittaminen valkotaululle
   - Tallentaminen yhteystiedoksi puhelimeesi

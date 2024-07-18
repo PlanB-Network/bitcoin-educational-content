@@ -1,6 +1,6 @@
 question: Mikä on Cypherpunk-manifesti?
 answer: Teksti, jonka on kirjoittanut Eric Hughes ja jossa todetaan, että yksityisyys on perusoikeus.
-vaarat_vastaukset:
+wrong_answer:
   - Kirja, jonka on kirjoittanut Julian Assange teknologian tulevaisuudesta.
   - Asiakirja, joka hahmottelee Bitcoinin periaatteita.
   - Manifesti, jonka on kirjoittanut David Chaum digitaalisen valuutan tärkeydestä.

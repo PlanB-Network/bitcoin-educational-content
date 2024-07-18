@@ -1,6 +1,6 @@
 question: Mikä on kolmas askel perintösuunnitelman luomisessa kyseisen luvun mukaan?
 answer: Kirjoita kirje.
-vaarat_vastaukset:
+wrong_answer:
   - Tee yksinkertainen ja nopea inventaario.
   - Valitse oikeat ihmiset auttamaan perillisiäsi.
   - Palkkaa lakimies.

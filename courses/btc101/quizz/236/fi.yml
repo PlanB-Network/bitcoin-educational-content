@@ -1,6 +1,6 @@
 question: Mikä on käsite "skin in the game" videopelialan kontekstissa?
 answer: Taloudellisen panoksen omaaminen pelin tulokseen
-vaarat_vastaukset:
+wrong_answer:
   - Sijoittaminen pelin kehitykseen
   - Oikean rahan käyttäminen pelin sisäisiin esineisiin
   - Pelinahkojen myyminen oikeasta rahasta

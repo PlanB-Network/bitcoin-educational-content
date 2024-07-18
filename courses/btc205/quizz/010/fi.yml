@@ -1,6 +1,6 @@
 question: Mikä luvussa käsitelty P2P-ratkaisu käyttää DAO-järjestelmää ja moniallekirjoitusta riidanratkaisussa?
 answer: Bisq
-vaarat_vastaukset:
+wrong_answer:
   - RoboSat
   - LNP2PBot
   - Peach

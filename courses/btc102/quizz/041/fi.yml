@@ -1,6 +1,6 @@
 question: Mihin Bitcoin on natiivi?
 answer: Internetiin
-vaarat_vastaukset:
+wrong_answer:
   - Lohkoketjuun
   - Pankkijärjestelmään
   - Osakemarkkinoille

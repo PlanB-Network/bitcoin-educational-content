@@ -1,6 +1,6 @@
 question: Mitä tarkoittaa, että Bitcoin on neutraali valuutta?
 answer: Sitä ei kontrolloi mikään taho tai instituutio.
-vaarat_vastaukset:
+wrong_answer:
   - Sitä kontrolloi yksittäinen taho tai instituutio.
   - Sitä säätelee hallitus.
   - Sitä käytetään vain neutraaleihin transaktioihin.

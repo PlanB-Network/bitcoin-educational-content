@@ -1,6 +1,6 @@
 question: Mikä on salalauseen rooli Bitcoin-lompakossa?
 answer: Se parantaa lompakon turvallisuutta
-vaarat_vastaukset:
+wrong_answer:
   - Se heikentää lompakon turvallisuutta
   - Sillä ei ole vaikutusta lompakon turvallisuuteen
   - Se tekee lompakosta käyttäjäystävällisemmän

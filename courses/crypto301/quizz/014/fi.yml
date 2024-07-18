@@ -1,6 +1,6 @@
 question: Kuinka monta laskentakierrosta suoritetaan SHA256:n tiivistysfunktiossa?
 answer: 64
-vaarat_vastaukset:
+wrong_answer:
   - 32
   - 128
   - 256

@@ -1,6 +1,6 @@
 question: Mikä oli korkein setelinimellisarvo Brasiliassa ennen sen viimeisintä uudelleenarvostusta vuonna 1994?
 answer: 500,000
-vaarat_vastaukset:
+wrong_answer:
   - 1,000,000
   - 250,000
   - 100,000

@@ -1,6 +1,6 @@
 question: Miksi on tärkeää säännöllisesti päivittää käyttöjärjestelmä ja sovellukset?
 answer: Suojautuakseen uusilta uhkilta ja haavoittuvuuksilta.
-vaarat_vastaukset:
+wrong_answer:
   - Tehdäkseen laitteesta vanhentuneen.
   - Hidastaakseen konetta.
   - Muuttaakseen käyttöliittymää.

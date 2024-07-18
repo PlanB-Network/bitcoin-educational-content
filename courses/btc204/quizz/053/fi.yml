@@ -2,7 +2,7 @@ question: Mikä on tarkoitus käyttää etikettejä hiljaisissa maksuissa?
 
 answer: Käyttääkseen useita erilaisia staattisia osoitteita kohtuuttomasti lisäämättä skannauskuormitusta.
 
-vaarat_vastaukset:
+wrong_answer:
   - Salata hiljaisten maksujen transaktiot piilottaakseen todellisen vastaanottajan.
   - Käyttää useita erilaisia staattisia osoitteita, joita ulkopuolinen tarkkailija ei voi yhdistää.
   - Asettaa näkyvän etiketin lohkoketjuun tunnistaakseen hiljaiset maksut maksuviitteen tavoin.

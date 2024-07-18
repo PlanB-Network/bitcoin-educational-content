@@ -1,6 +1,6 @@
 question: Mitä työkaluja käytetään kyberturvallisuudessa?
 answer: Wireshark, Metasploit, Nmap
-vaarat_vastaukset:
+wrong_answer:
   - Photoshop, Illustrator, InDesign
   - Excel, PowerPoint, Word
   - AutoCAD, SolidWorks, Revit

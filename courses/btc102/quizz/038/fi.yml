@@ -1,6 +1,6 @@
 question: Mitä Bitcoin tarjoaa jokaiselle yksilölle?
 answer: Mahdollisuuden poistua perinteisestä rahoitusjärjestelmästä
-vaarat_vastaukset:
+wrong_answer:
   - Mahdollisuuden rikastua nopeasti
   - Mahdollisuuden sijoittaa osakkeisiin
   - Mahdollisuuden avata pankkitili

@@ -1,6 +1,6 @@
 question: Mikä on AMF:n rooli Ranskassa?
 answer: Se säätelee rahoitusmarkkinoita.
-vaarat_vastaukset:
+wrong_answer:
   - Se säätelee koulutusjärjestelmää.
   - Se säätelee terveydenhuoltojärjestelmää.
   - Se säätelee liikennejärjestelmää.

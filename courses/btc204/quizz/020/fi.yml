@@ -1,6 +1,6 @@
 question: Kun etsitään kaavaa, mitä osaa transaktiosta tutkitaan?
 answer: Sen rakennetta
-vaarat_vastaukset:
+wrong_answer:
   - Sen metadataa
   - Sen skriptejä
   - Sen allekirjoitusta

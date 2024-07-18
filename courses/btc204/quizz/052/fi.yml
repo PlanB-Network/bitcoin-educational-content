@@ -2,7 +2,7 @@ question: Minkä tyyppistä skriptiä käytetään yksinomaan Silent Payments -m
 
 answer: P2TR
 
-vaarat_vastaukset:
+wrong_answer:
   - P2WPKH
   - P2SP
   - P2WSH

@@ -1,6 +1,6 @@
 question: Mikä on Lightning Network?
 answer: Kerros 2 -protokolla Bitcoinin päällä, joka mahdollistaa nopeammat transaktiot.
-vaarat_vastaukset:
+wrong_answer:
   - Eräänlainen kryptovaluutta.
   - Lohkoketjuselain.
   - Digitaalinen lompakko bitcoinejen säilyttämiseen.

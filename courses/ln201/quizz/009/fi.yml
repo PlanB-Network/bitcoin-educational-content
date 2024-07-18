@@ -1,6 +1,6 @@
 question: Mikä on yksityisen avaimen rooli Bitcoin-siirrossa?
 answer: Sitä käytetään siirron allekirjoittamiseen ja bitcoinien vapauttamiseen osoitteesta.
-vaarat_vastaukset:
+wrong_answer:
   - Sitä käytetään julkisen avaimen luomiseen.
   - Sitä käytetään Bitcoin-osoitteen luomiseen.
   - Sitä käytetään siirtotietojen salaamiseen.

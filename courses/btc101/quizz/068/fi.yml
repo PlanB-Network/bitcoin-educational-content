@@ -1,6 +1,6 @@
 question: Kuinka usein louhinnan palkkio puolittuu?
 answer: Joka 210 000 lohkon jälkeen
-vaarat_vastaukset:
+wrong_answer:
   - Joka 120 000 lohkon jälkeen
   - Joka 540 000 lohkon jälkeen
   - Joka 2 100 000 lohkon jälkeen

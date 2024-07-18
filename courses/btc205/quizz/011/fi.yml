@@ -1,6 +1,6 @@
 question: Mikä on RoboSat P2P -ratkaisun haittapuoli?
 answer: Protokolla on hauras yhden koordinaattorin kanssa.
-vaarat_vastaukset:
+wrong_answer:
   - Sen käyttö vaatii tilin.
   - Se ei käytä Lightning Networkia.
   - Se ei ole avoimen lähdekoodin.

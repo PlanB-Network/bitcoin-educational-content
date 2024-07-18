@@ -1,6 +1,6 @@
 question: Mikä on syöte transaktiossa?
 answer: Viittaus aiempaan käyttämättömään UTXO:oon.
-vaarat_vastaukset:
+wrong_answer:
   - Vahvistussignaali louhijoilta.
   - Uusi lohko lisätty lohkoketjuun.
   - Varmistuskoodi transaktion turvaamiseksi.

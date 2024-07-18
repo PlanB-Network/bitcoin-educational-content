@@ -1,6 +1,6 @@
 question: Mikä on Proof of Work (POW)?
 answer: Se on Bitcoin-protokollan turvallisuuskonsensus.
-vaarat_vastaukset:
+wrong_answer:
   - Se on prosessi uusien bitcoinien luomiseksi.
   - Se on menetelmä Bitcoin-siirtojen vahvistamiseksi.
   - Se on algoritmi, jota käytetään bitcoinien louhintaan.

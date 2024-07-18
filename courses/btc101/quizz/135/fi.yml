@@ -1,6 +1,6 @@
 question: Mikä on vaikeustason säätelyn merkitys Bitcoin-verkossa?
 answer: Se varmistaa, että lohko lisätään suunnilleen joka kymmenes minuutti.
-vaarat_vastaukset:
+wrong_answer:
   - Se määrittää Bitcoinin hinnan.
   - Se säätää louhittavissa olevien Bitcoinien määrää.
   - Se määrittää lohkon koon.

@@ -1,6 +1,6 @@
 question: Mikä on Bitcoinin niukkuuden merkitys?
 answer: Maailmassa tulee olemaan vain 21 miljoonaa bitcoinia eikä koskaan enempää
-vaarat_vastaukset:
+wrong_answer:
   - Bitcoinin arvo tulee aina kasvamaan
   - Bitcoinin louhiminen on vaikeaa
   - Bitcoin-siirtojen määrä on rajattu

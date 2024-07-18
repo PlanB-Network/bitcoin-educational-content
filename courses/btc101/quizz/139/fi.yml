@@ -1,6 +1,6 @@
 question: Mikä on suurin piirtein solmujen lukumäärä maailmanlaajuisesti syyskuun 2023 tilanteessa?
 answer: 45 000 solmua
-vaarat_vastaukset:
+wrong_answer:
   - 10 000 solmua
   - 100 000 solmua
   - 500 000 solmua

@@ -1,6 +1,6 @@
 question: Mikä on BCH (Bose-Chaudhuri-Hocquenghem) tarkistussummateknologian tarkoitus Bitcoin-osoitteissa?
 answer: Sen avulla voidaan havaita virheitä ja vähentää tarvittavien merkkien määrää osoitteen esittämiseen.
-vaarat_vastaukset:
+wrong_answer:
   - Se salaa osoitteen turvallisuussyistä.
   - Se lisää tarvittavien merkkien määrää osoitteen esittämiseen.
   - Sen avulla voidaan korjata virheitä osoitteessa.

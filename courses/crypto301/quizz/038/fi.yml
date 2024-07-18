@@ -1,6 +1,6 @@
 question: Mikä on teoreettinen mahdollisuuksien kokonaismäärä yksityiselle avaimelle?
 answer: 2^256
-vaarat_vastaukset:
+wrong_answer:
   - 2^128
   - 2^512
   - 2^1024

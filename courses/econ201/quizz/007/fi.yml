@@ -1,6 +1,6 @@
 question: Kenet kiitetään kurssin tuottamisesta?
 answer: "Théo Mogenet"
-vaarat_vastaukset:
+wrong_answer:
   - Descoupes Bitcoin
   - "Théo Boloré"
   - Ei mikään yllä olevista

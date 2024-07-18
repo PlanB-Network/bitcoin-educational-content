@@ -1,6 +1,6 @@
 question: Mitä XPUB-etuliite ilmaisee laajennetussa avaimessa?
 answer: Se on laajennettu julkinen avain.
-vaarat_vastaukset:
+wrong_answer:
   - Se on laajennettu yksityinen avain.
   - Se on pääavain.
   - Se on lapsiavain.

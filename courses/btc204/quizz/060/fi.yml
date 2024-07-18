@@ -2,7 +2,7 @@ question: Mitä tietoja tulisi merkitä etikettiin?
 
 answer: UTXO:n alkuperä.
 
-vaarat_vastaukset:
+wrong_answer:
   - UTXO:n luontipäivämäärä.
   - UTXO:n koko.
   - UTXO:n luomiseen liittyvät maksut.

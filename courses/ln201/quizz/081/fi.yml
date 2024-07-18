@@ -1,6 +1,6 @@
 question: Mikä on Lightning Network?
 answer: Kerros-2 ratkaisu Bitcoinille, joka mahdollistaa nopeat, edulliset transaktiot
-vaarat_vastaukset:
+wrong_answer:
   - Eräänlainen digitaalinen lompakko Bitcoinien säilyttämiseen
   - Menetelmä Bitcoinien louhimiseen
   - Kirjaus kaikista transaktioista Bitcoin-verkossa

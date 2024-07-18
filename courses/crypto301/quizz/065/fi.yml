@@ -1,6 +1,6 @@
 question: Mikä on pääasiallinen etu käyttää uutta avainparia jokaisessa Bitcoin-siirrossa?
 answer: Se parantaa turvallisuutta.
-vaarat_vastaukset:
+wrong_answer:
   - Se parantaa nopeutta.
   - Se parantaa anonyymiyttä.
   - Se parantaa laillisuutta.

@@ -1,6 +1,6 @@
 question: Kuinka monta SAT:ta Bobilla on jäljellä toisen siirron jälkeen esimerkissä?
 answer: 40 000 SAT.
-vaarat_vastaukset:
+wrong_answer:
   - 30 000 SAT.
   - 10 000 SAT.
   - 0 SAT.

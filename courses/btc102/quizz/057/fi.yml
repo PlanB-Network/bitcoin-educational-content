@@ -1,6 +1,6 @@
 question: Mitä DCA tarkoittaa Bitcoin-sijoittamisen yhteydessä?
 answer: Dollar Cost Averaging
-vaarat_vastaukset:
+wrong_answer:
   - Suora Valuutan Hankinta
   - Digitaalisen Kolikon Allokointi
   - Hajautettu Krypto-Omaisuus

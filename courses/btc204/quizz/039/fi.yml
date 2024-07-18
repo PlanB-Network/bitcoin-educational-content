@@ -1,6 +1,6 @@
 question: Miksi ei suositella vastaanotto-osoitteiden jakamista sosiaalisessa mediassa?
 answer: Koska niiden avulla voidaan yhdistää onchain-toiminnot todelliseen henkilöllisyyteen.
-vaarat_vastaukset:
+wrong_answer:
   - Koska ne voidaan helposti hakkeroida pahantahtoisesti toimivien hakkerien toimesta.
   - Koska ne voivat houkutella petollisia tarjouksia ja altistaa sinut phishing-kampanjoille.
   - Koska ne voivat mahdollistaa yleisen syötteen omistajuuden heuristiikan soveltamisen.

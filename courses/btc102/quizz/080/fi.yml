@@ -1,6 +1,6 @@
 question: Kuinka monta bitcoinia on yhteensä?
 answer: 21 miljoonaa
-vaarat_vastaukset:
+wrong_answer:
   - 21 miljardia
   - 21 tuhatta
   - 21 biljoonaa

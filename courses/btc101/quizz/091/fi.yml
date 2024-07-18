@@ -1,6 +1,6 @@
 question: Mikä on suositeltu käyttötarkoitus offline- eli kylmälle fyysiselle lompakolle?
 answer: Suurempien summien säilyttämiseen
-vaarat_vastaukset:
+wrong_answer:
   - Päivittäisiin menoihin
   - Pieniin summiin
   - Lyhytaikaiseen säästämiseen

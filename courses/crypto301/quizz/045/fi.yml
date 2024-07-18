@@ -1,6 +1,6 @@
 question: Mikä on ECDSA-algoritmin tarkoitus Bitcoin-siirtojen yhteydessä?
 answer: Vahvistaa digitaalisia allekirjoituksia.
-vaarat_vastaukset:
+wrong_answer:
   - Salaamaan siirtotietoja.
   - Generoimaan Bitcoin-osoitteita.
   - Louhimaan uusia Bitcoineja.

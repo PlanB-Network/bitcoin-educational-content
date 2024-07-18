@@ -1,6 +1,6 @@
 question: Mitä teksti vihjaa Bitcoinin oppimisen tahdista?
 answer: Kaiken omaksuminen kerralla on monimutkaista, joten ota aikasi
-vaarat_vastaukset:
+wrong_answer:
   - Kaiken oppiminen kerralla on helppoa
   - Kaiken Bitcoinista oppiminen on mahdotonta
   - Kaiken Bitcoinista oppiminen on tarpeetonta

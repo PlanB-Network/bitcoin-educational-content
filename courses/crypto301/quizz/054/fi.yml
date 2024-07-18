@@ -1,6 +1,6 @@
 question: Mikä on BIP43:n ja BIP44:n tarkoitus Bitcoin-ekosysteemissä?
 answer: Ne standardisoivat HD-lompakoiden rakenteen ja hierarkian.
-vaarat_vastaukset:
+wrong_answer:
   - Ne esittelivät 24-sanan mnemonic-lauseen.
   - Ne mullistivat avainten luonti- ja säilytystavan.
   - Ne ehdottivat lisäsalasanan lisäämistä vahvistamaan yksittäisten avainten turvallisuutta.

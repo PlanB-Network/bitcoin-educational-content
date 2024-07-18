@@ -1,7 +1,7 @@
 question: Mikä on mahdollinen seuraus liian nopeasta arvonalennuksesta tai luottamuksen menetyksestä
   luottamusvaluutassa?
 answer: Se voi johtaa hyperinflaatioon.
-vaarat_vastaukset:
+wrong_answer:
   - Se voi johtaa deflaatioon.
   - Se voi johtaa vakaaseen talouteen.
   - Se voi johtaa valuutan arvon nousuun.

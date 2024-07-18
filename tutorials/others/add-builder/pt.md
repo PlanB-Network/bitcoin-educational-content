@@ -98,7 +98,7 @@ category: educação
 ![builder](assets/09.webp)
 - Uma vez que você tenha terminado de fazer alterações neste arquivo, salve-as clicando no botão `Commit changes...`:
 ![builder](assets/10.webp)
-- Adicione um título para suas alterações, junto com uma breve descrição:
+- Adicione um título para suas alterações, junto com uma breve description:
 ![builder](assets/11.webp)
 - Clique no botão verde `Propose changes`:
 ![builder](assets/12.webp)

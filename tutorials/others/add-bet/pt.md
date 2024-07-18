@@ -74,7 +74,7 @@ links:
 ![event](assets/09.webp)
 - Uma vez que suas modificações neste arquivo estejam completas, salve-as clicando no botão `Commit changes...`:
 ![event](assets/10.webp)
-- Adicione um título para suas modificações, bem como uma breve descrição:
+- Adicione um título para suas modificações, bem como uma breve description:
 ![event](assets/11.webp)
 - Clique no botão verde `Propose changes`:
 ![event](assets/12.webp)
@@ -172,7 +172,7 @@ O que estamos fazendo aqui é antecipar o futuro link para o seu arquivo, uma ve
 ![evento](assets/48.webp)
 - Uma vez que suas alterações estejam completas, clique no botão `Commit changes...`:
 ![evento](assets/49.webp)
-- Adicione um título para suas mudanças, bem como uma breve descrição:
+- Adicione um título para suas mudanças, bem como uma breve description:
 ![evento](assets/50.webp)
 - Clique no botão verde `Commit changes`:
 ![evento](assets/51.webp)

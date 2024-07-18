@@ -81,7 +81,7 @@ Se você ainda não possui um identificador "*builder*" para sua organização, 
 
 - Uma vez que você tenha terminado de fazer alterações neste arquivo, salve-as clicando no botão `Commit changes...`:
 ![evento](assets/10.webp)
-- Adicione um título para suas alterações, bem como uma breve descrição:
+- Adicione um título para suas alterações, bem como uma breve description:
 ![evento](assets/11.webp)
 - Clique no botão verde `Propose changes`:
 ![evento](assets/12.webp)

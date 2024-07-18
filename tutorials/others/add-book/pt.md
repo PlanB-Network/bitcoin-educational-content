@@ -59,7 +59,7 @@ tags:
 ![book](assets/09.webp)
 - Uma vez que você tenha terminado de fazer alterações neste arquivo, salve-as clicando no botão `Commit changes...`:
 ![book](assets/10.webp)
-- Adicione um título para suas alterações, bem como uma breve descrição: ![livro](assets/11.webp)
+- Adicione um título para suas alterações, bem como uma breve description: ![livro](assets/11.webp)
 - Clique no botão verde `Propose changes` (Propor alterações):
 ![livro](assets/12.webp)
 - Você então chegará a uma página resumindo todas as suas alterações:

@@ -1,10 +1,10 @@
-kysymys: Mikä on HMAC:n tarkoitus Bitcoin-protokollassa?
-vastaus: Sitä käytetään estämään pituuden laajennushyökkäykset hierarkkisesti determinististen (HD) lompakoiden johdannassa.
-väärät_vastaukset:
+question: Mikä on HMAC:n tarkoitus Bitcoin-protokollassa?
+answer: Sitä käytetään estämään pituuden laajennushyökkäykset hierarkkisesti determinististen (HD) lompakoiden johdannassa.
+wrong_answers:
   - Sitä käytetään muuntamaan mnemoninen lause siemeneksi.
   - Sitä käytetään tuottamaan kiinteänkokoisen tulosteen.
   - Sitä käytetään lisäämään ylimääräinen entropian lähde avainjohdannassa.
-selitys: |
+explanation: |
   HMAC:ia käytetään ensisijaisesti estämään pituuden laajennushyökkäykset hierarkkisesti determinististen (HD) lompakoiden johdannassa. Se ottaa viestin ja avaimen syötteinä
   ja tuottaa kiinteänkokoisen tulosteen.
 arvioitu: false

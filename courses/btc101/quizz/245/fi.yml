@@ -1,9 +1,9 @@
-kysymys: Mikä on yksi mahdollinen seuraus tekoälyn teknologioiden kehittymisestä?
-vastaus: Yli 80% työpaikoista katoaa tekoälyn ja automaation vuoksi.
-väärät_vastaukset:
+question: Mikä on yksi mahdollinen seuraus tekoälyn teknologioiden kehittymisestä?
+answer: Yli 80% työpaikoista katoaa tekoälyn ja automaation vuoksi.
+wrong_answers:
   - Tekoälyteknologiat tekevät ihmisistä tarpeettomia.
   - Tekoälyteknologiat johtavat ihmisen älykkyyden laskuun.
   - Tekoälyteknologiat aiheuttavat maailmanlaajuisen talousromahduksen.
-selitys: >-
+explanation: >-
   Tekstissä mainitaan, että yksi mahdollinen seuraus tekoälyn teknologioiden kehittymisestä on se, että yli 80% työpaikoista katoaa tekoälyn ja automaation vuoksi.
 arvioitu: false

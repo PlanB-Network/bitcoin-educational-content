@@ -1,9 +1,9 @@
-kysymys: Mikä oli inflaatioaste Zimbabwessa marraskuussa 2008?
-vastaus: 79 600 000 000%
+question: Mikä oli inflaatioaste Zimbabwessa marraskuussa 2008?
+answer: 79 600 000 000%
 vaarat_vastaukset:
   - 796%
   - 79 600 000 000 000 000%
   - 100%
-selitys: |
+explanation: |
   Marraskuussa 2008 Zimbabwen valuutan kuukausittainen inflaatioaste kohosi 79 600 000 000%:iin, mikä murskasi Zimbabwen dollarin arvon täysin nollaan.
-arvioitu: true
+reviewed: false

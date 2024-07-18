@@ -1,9 +1,9 @@
-kysymys: Miten Bitcoin-protokolla varmistaa, että kahden lohkon välinen keskimääräinen aika pysyy vakiona?
-vastaus: Löydettävän validin hashin vaikeustaso säätyy joka 2016. lohkon jälkeen
+question: Miten Bitcoin-protokolla varmistaa, että kahden lohkon välinen keskimääräinen aika pysyy vakiona?
+answer: Löydettävän validin hashin vaikeustaso säätyy joka 2016. lohkon jälkeen
 vaarat_vastaukset:
   - Kaivostyöläisten määrää säännellään
   - Lohkojen kokoa säädetään
   - Validin hashin löytämisestä saatavaa palkkiota kasvatetaan
-selitys: >-
+explanation: >-
   Bitcoin-protokolla varmistaa, että kahden lohkon välinen keskimääräinen aika pysyy vakiona säätämällä löydettävän validin hashin vaikeustasoa joka 2016. lohkon jälkeen. Tämä tapahtuu riippumatta kaivostyöläisten määrästä ja heidän laskentatehostaan.
 arvioitu: false

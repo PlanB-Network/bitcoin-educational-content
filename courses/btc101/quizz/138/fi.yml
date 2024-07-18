@@ -1,10 +1,10 @@
-kysymys: Mikä on solmujen ensisijainen tehtävä Bitcoin-verkossa?
-vastaus: Bitcoin-lohkoketjun kopion ylläpitäminen, transaktioiden vahvistaminen, tiedon välittäminen muihin solmuihin ja Bitcoin-protokollan sääntöjen noudattaminen.
-väärät_vastaukset:
+question: Mikä on solmujen ensisijainen tehtävä Bitcoin-verkossa?
+answer: Bitcoin-lohkoketjun kopion ylläpitäminen, transaktioiden vahvistaminen, tiedon välittäminen muihin solmuihin ja Bitcoin-protokollan sääntöjen noudattaminen.
+wrong_answers:
   - Vain transaktioiden vahvistaminen
   - Vain Bitcoin-lohkoketjun kopion ylläpitäminen
   - Vain tiedon välittäminen muihin solmuihin
-selitys: >-
+explanation: >-
   Solmut Bitcoin-verkossa suorittavat useita kriittisiä toimintoja, mukaan lukien
   Bitcoin-lohkoketjun kopion ylläpitäminen, transaktioiden vahvistaminen, tiedon
   välittäminen muihin solmuihin ja Bitcoin-protokollan sääntöjen noudattaminen.

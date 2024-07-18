@@ -1,10 +1,10 @@
-kysymys: Mikä on Attakain periaate Bitcoin-louhinnan yhteydessä?
-vastaus: Attakain periaate viittaa Bitcoin-louhinnasta syntyvän lämmön hyödylliseen käyttöön.
-väärät_vastaukset:
+question: Mikä on Attakain periaate Bitcoin-louhinnan yhteydessä?
+answer: Attakain periaate viittaa Bitcoin-louhinnasta syntyvän lämmön hyödylliseen käyttöön.
+wrong_answers:
   - Attakain periaate viittaa uusiutuvien energialähteiden käyttöön Bitcoin-louhinnassa.
   - Attakain periaate viittaa edistyneiden jäähdytysjärjestelmien käyttöön Bitcoin-louhinnassa.
   - Attakain periaate viittaa vähäisen energiankulutuksen laitteiston käyttöön Bitcoin-louhinnassa.
-selitys: |
+explanation: |
   Attakain periaate viittaa ajatukseen louhinnan hajauttamisesta
   tuotetun lämmön hyödyllisen käytön kautta. Tämä käsite ehdottaa, että energiaintensiiviset
   laitokset voisivat hyötyä louhijoiden tuottamasta lämmöstä lämmittääkseen tilojaan.

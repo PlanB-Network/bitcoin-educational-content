@@ -1,10 +1,10 @@
-kysymys: Mikä on hyperinflaation taustalla oleva syy, jota redenominaatio ei käsittele?
-vastaus: Rahan määrän lisääntyminen.
-väärät_vastaukset:
+question: Mikä on hyperinflaation taustalla oleva syy, jota redenominaatio ei käsittele?
+answer: Rahan määrän lisääntyminen.
+wrong_answers:
   - Rahan määrän väheneminen.
   - Tavaroiden ja palveluiden kysynnän kasvu.
   - Tavaroiden ja palveluiden kysynnän väheneminen.
-selitys: |
+explanation: |
   Hyperinflaation juurisyy on rahan määrän lisääntyminen.
 
   Redenominaatio on yleinen toimenpide, johon hallitukset turvautuvat inflaation aikana,

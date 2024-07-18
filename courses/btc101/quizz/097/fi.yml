@@ -1,9 +1,9 @@
-kysymys: Mitä tapahtuu, jos yksityinen avaimesi paljastuu kolmannelle osapuolelle?
-vastaus: Liittyvät varat eivät ole enää turvassa
-väärät_vastaukset:
+question: Mitä tapahtuu, jos yksityinen avaimesi paljastuu kolmannelle osapuolelle?
+answer: Liittyvät varat eivät ole enää turvassa
+wrong_answers:
   - Kolmas osapuoli voi vain tarkastella tapahtumahistoriaasi
   - Kolmas osapuoli voi muuttaa yksityistä avaimesi
   - Kolmas osapuoli pääsee käsiksi henkilökohtaisiin tietoihisi
-selitys: |
+explanation: |
   Jos yksityinen avaimesi paljastuu kolmannelle osapuolelle, liittyvät varat eivät ole enää turvassa. Tämä johtuu siitä, että yksityinen avain mahdollistaa pääsyn varoihisi.
-arvioitu: true
+reviewed: false

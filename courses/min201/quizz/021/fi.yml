@@ -1,10 +1,10 @@
-kysymys: Mikä on taloudellinen kannustin käyttää Bitcoin-louhintalaitetta yksinkertaisen sähkölämmittimen sijaan?
-vastaus: Louhintalaite tarjoaa paitsi lämpöä myös Bitcoin-palkkion.
-väärät_vastaukset:
+question: Mikä on taloudellinen kannustin käyttää Bitcoin-louhintalaitetta yksinkertaisen sähkölämmittimen sijaan?
+answer: Louhintalaite tarjoaa paitsi lämpöä myös Bitcoin-palkkion.
+wrong_answers:
   - Louhintalaite käyttää vähemmän sähköä kuin yksinkertainen sähkölämmitin.
   - Louhintalaite tuottaa enemmän lämpöä kuin yksinkertainen sähkölämmitin.
   - Louhintalaite on halvempi kuin yksinkertainen sähkölämmitin.
-selitys: |
+explanation: |
   Ero louhintalaitteen ja yksinkertaisen sähkölämmittimen käytön välillä piilee siinä,
   että louhintalaite tarjoaa paitsi lämpöä myös Bitcoin-palkkion. Tämä
   lisäpalkkio voisi auttaa lievittämään huolia louhintalaitteiden korkeasta energiankulutuksesta.

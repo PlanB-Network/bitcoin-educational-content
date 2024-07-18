@@ -1,10 +1,10 @@
-kysymys: Mitä XPUB-etuliite ilmaisee laajennetussa avaimessa?
-vastaus: Se on laajennettu julkinen avain.
+question: Mitä XPUB-etuliite ilmaisee laajennetussa avaimessa?
+answer: Se on laajennettu julkinen avain.
 vaarat_vastaukset:
   - Se on laajennettu yksityinen avain.
   - Se on pääavain.
   - Se on lapsiavain.
-selitys: |
+explanation: |
   Laajennetut avaimet tunnistetaan erityisistä etuliitteistä (XPRV, XPUB, YPUB,
 
   ZPUB), jotka ilmaisevat onko kyseessä laajennettu yksityinen vai julkinen avain, sekä

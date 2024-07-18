@@ -1,9 +1,9 @@
-kysymys: Mikä on lähtökohta kaikkien käyttäjien julkisten avainten laskemiselle Bitcoin-järjestelmässä?
-vastaus: Piste G
+question: Mikä on lähtökohta kaikkien käyttäjien julkisten avainten laskemiselle Bitcoin-järjestelmässä?
+answer: Piste G
 vaarat_vastaukset:
   - Piste K
   - Piste U
   - Piste O
-selitys: |
+explanation: |
   Piste G on lähtökohta kaikkien käyttäjien julkisten avainten laskemiselle Bitcoin-järjestelmässä.
 arvioitu: false

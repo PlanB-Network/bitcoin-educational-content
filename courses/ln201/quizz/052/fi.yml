@@ -1,8 +1,8 @@
-kysymys: Kuka päättää reitin ennen maksun lähettämistä Lightning-verkossa?
-vastaus: Lähettäjän solmu.
-väärät_vastaukset:
+question: Kuka päättää reitin ennen maksun lähettämistä Lightning-verkossa?
+answer: Lähettäjän solmu.
+wrong_answers:
   - Vastaanottajan solmu.
   - Välittäjän solmu.
   - Verkko itse.
-selitys: |
+explanation: |
   Lightning-verkossa on lähettäjän solmu, joka päättää reitin ennen maksun lähettämistä. Siksi etsitään parasta reittiä ja vain lähettäjä tietää reitin ja hinnan.

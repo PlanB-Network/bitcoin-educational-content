@@ -1,9 +1,9 @@
-kysymys: Mikä on satunnaisuustekijän tarkoitus Lightning Networkin reititysprosessissa?
-vastaus: Välttääkseen aina samojen reittien käyttämisen.
+question: Mikä on satunnaisuustekijän tarkoitus Lightning Networkin reititysprosessissa?
+answer: Välttääkseen aina samojen reittien käyttämisen.
 vaarat_vastaukset:
   - Verkon monimutkaisuuden lisääminen.
   - Tapahtumien nopeuden vähentäminen.
   - Käyttäjän yksityisyyden vaarantaminen.
-selitys: |
+explanation: |
   Satunnaisuustekijää Lightning Networkin reititysprosessissa käytetään välttämään aina samojen reittien käyttämistä. Tämä auttaa jakamaan kuormaa verkossa ja lisää mahdollisuuksia löytää onnistunut reitti tapahtumalle.
 arvioitu: false

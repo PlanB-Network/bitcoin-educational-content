@@ -1,10 +1,10 @@
-kysymys: Mikä on KYC lightin maksimipäiväostosumma Sveitsissä?
-vastaus: 1000 euroa
+question: Mikä on KYC lightin maksimipäiväostosumma Sveitsissä?
+answer: 1000 euroa
 vaarat_vastaukset:
   - 500 euroa
   - 1500 euroa
   - 2000 euroa
-selitys: |
+explanation: |
   KYC light Sveitsissä mahdollistaa bitcoinien ostamisen ja myymisen
 
 

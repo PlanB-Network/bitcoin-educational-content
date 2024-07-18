@@ -1,11 +1,11 @@
-kysymys: Mikä fraasi käytetään HMAC SHA-512 -algoritmin yhteydessä laskemaan
+question: Mikä fraasi käytetään HMAC SHA-512 -algoritmin yhteydessä laskemaan
   pääyksityisavain?
-vastaus: Bitcoin SEED
+answer: Bitcoin SEED
 vaarat_vastaukset:
   - Bitcoin KEY
   - Bitcoin WALLET
   - Bitcoin HASH
-selitys: |
+explanation: |
   Pääyksityisavain lasketaan siemenestä ja fraasista "Bitcoin SEED". Tämä fraasi on identtinen kaikissa HD-lompakon johdannaisissa, varmistaen johdonmukaisuuden
   lompakoiden välillä.
 arvioitu: false

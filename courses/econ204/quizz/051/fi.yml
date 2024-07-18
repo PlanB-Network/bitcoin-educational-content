@@ -1,9 +1,9 @@
-kysymys: Mikä oli Saksan käyttämä ratkaisu inflaation vastustamiseen ensimmäisen maailmansodan jälkeen?
-vastaus: Uuden valuutan, Rentenmarkin, luominen
-väärät_vastaukset:
+question: Mikä oli Saksan käyttämä ratkaisu inflaation vastustamiseen ensimmäisen maailmansodan jälkeen?
+answer: Uuden valuutan, Rentenmarkin, luominen
+wrong_answers:
   - Dollarisaatio
   - Lisää rahan painaminen
   - Rahan määrän vähentäminen
-selitys: |
+explanation: |
   Saksa loi uuden valuutan, Rentenmarkin, vastustaakseen inflaatiota ensimmäisen maailmansodan jälkeen. Tämä valuutta oli tuettu valtakunnan alueellisilla omaisuuksilla, ja tämä strategia osoittautui tehokkaaksi.
 arvioitu: false

@@ -1,10 +1,10 @@
-kysymys: Mikä on yksi perustoimenpiteistä parantaa verkkoturvallisuustottumuksia?
-vastaus: Ota käyttöön kaksivaiheinen tunnistautuminen (2FA)
+question: Mikä on yksi perustoimenpiteistä parantaa verkkoturvallisuustottumuksia?
+answer: Ota käyttöön kaksivaiheinen tunnistautuminen (2FA)
 vaarat_vastaukset:
   - Käytä samaa salasanaa kaikille tileille
   - Älä säännöllisesti varmuuskopioi tietoja
   - Jaa salasanasi
-selitys: |
+explanation: |
   Kaksivaiheisen tunnistautumisen (2FA) käyttöönotto on yksi perustoimenpiteistä
 
   parantaa verkkoturvallisuustottumuksia. Se tarjoaa lisäkerroksen turvaa

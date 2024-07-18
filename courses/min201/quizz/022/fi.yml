@@ -1,9 +1,9 @@
-kysymys: Mistä louhijat saavat korvauksensa sen jälkeen, kun kaikki 21 miljoonaa bitcoinia on luotu?
-vastaus: Louhijat saavat korvauksensa ainoastaan transaktiomaksuista.
-väärät_vastaukset:
+question: Mistä louhijat saavat korvauksensa sen jälkeen, kun kaikki 21 miljoonaa bitcoinia on luotu?
+answer: Louhijat saavat korvauksensa ainoastaan transaktiomaksuista.
+wrong_answers:
   - Louhijat saavat korvauksensa ainoastaan lohkopalkkioista.
   - Louhijat saavat korvauksensa ainoastaan transaktiovahvistuksista.
   - Louhijat saavat korvauksensa ainoastaan verkkomaksuista.
-selitys: |
+explanation: |
   Vuoteen 2140 mennessä uusia bitcoineja ei luoda enää lisää. Tässä vaiheessa louhijat
   saavat korvauksensa ainoastaan transaktiomaksuista.

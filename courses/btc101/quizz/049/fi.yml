@@ -1,9 +1,9 @@
-kysymys: Mikä on hyperinflaation ensimmäinen vaihe?
-vastaus: Luottamuksen menetys
-väärät_vastaukset:
+question: Mikä on hyperinflaation ensimmäinen vaihe?
+answer: Luottamuksen menetys
+wrong_answers:
   - Valuutan romahdus & hinnannousu
   - Rahanpainamisen noidankehä
   - Uuden valuutan synty
-selitys: |
+explanation: |
   Hyperinflaation ensimmäinen vaihe on luottamuksen menetys valuuttaan.
-arvioitu: true
+reviewed: false

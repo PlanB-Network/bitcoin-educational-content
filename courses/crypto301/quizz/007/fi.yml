@@ -1,10 +1,10 @@
-kysymys: Mikä hajautusfunktio on keskeinen elementti Bitcoin-protokollassa?
-vastaus: SHA-256
+question: Mikä hajautusfunktio on keskeinen elementti Bitcoin-protokollassa?
+answer: SHA-256
 vaarat_vastaukset:
   - MD5
   - SHA1
   - SHA0
-selitys: |
+explanation: |
   SHA-256 on keskeinen elementti Bitcoin-protokollassa. Sitä käytetään luomaan
   uniikki ja peruuttamaton sormenjälki transaktiodatasta, mikä on ratkaisevan tärkeää
   Bitcoin-verkon turvallisuuden ja eheyden kannalta.

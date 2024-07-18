@@ -1,10 +1,10 @@
-kysymys: Mikä on salasananhallintaohjelma?
-vastaus: Työkalu, joka mahdollistaa salasanojesi tallentamisen, luomisen ja hallinnoinnin eri verkkotileille.
+question: Mikä on salasananhallintaohjelma?
+answer: Työkalu, joka mahdollistaa salasanojesi tallentamisen, luomisen ja hallinnoinnin eri verkkotileille.
 vaarat_vastaukset:
   - Työkalu, joka auttaa muistamaan kaikki salasanasi.
   - Työkalu, joka kirjaa sinut automaattisesti verkkotileillesi.
   - Työkalu, joka suojaa tietokoneesi viruksilta.
-selitys: |
+explanation: |
   Salasananhallintaohjelma on työkalu, joka mahdollistaa salasanojesi tallentamisen, luomisen ja
 
   hallinnoinnin eri verkkotileille. Se auttaa sinua luomaan vahvoja

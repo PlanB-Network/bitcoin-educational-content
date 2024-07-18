@@ -1,9 +1,9 @@
-kysymys: Mitä sinun tulisi tehdä kirjekuoren säilyttämisen jälkeen luvun ohjeiden mukaan?
-vastaus: Varmista, että perillisesi tietävät tarvitsevansa hakea tämän kirjekuoren tarvittaessa.
+question: Mitä sinun tulisi tehdä kirjekuoren säilyttämisen jälkeen luvun ohjeiden mukaan?
+answer: Varmista, että perillisesi tietävät tarvitsevansa hakea tämän kirjekuoren tarvittaessa.
 vaarat_vastaukset:
   - Varmista, että perillisesi eivät tiedä tarvitsevansa hakea tätä kirjekuorta tarvittaessa.
   - Varmista, että perillisesi tietävät, etteivät he tarvitse hakea tätä kirjekuorta tarvittaessa.
   - Varmista, että perillisesi eivät tiedä, etteivät he tarvitse hakea tätä kirjekuorta tarvittaessa.
-selitys: |
+explanation: |
   Kirjekuoren säilyttämisen jälkeen sinun tulisi varmistaa, että perillisesi tietävät tarpeen tullen hakevansa tämän kirjekuoren, kuten luvussa ehdotetaan.
 arvioitu: false

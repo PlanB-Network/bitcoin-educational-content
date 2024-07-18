@@ -1,9 +1,9 @@
-kysymys: Mikä aiheuttaa talouskriisejä kurssin mukaan?
-vastaus: Talouskriisit voivat johtua ihmisten osaamattomuudesta, markkinoiden manipuloinnista tai ihmisten kollektiivisesta euforiasta.
-väärät_vastaukset:
+question: Mikä aiheuttaa talouskriisejä kurssin mukaan?
+answer: Talouskriisit voivat johtua ihmisten osaamattomuudesta, markkinoiden manipuloinnista tai ihmisten kollektiivisesta euforiasta.
+wrong_answers:
   - Talouskriisit johtuvat pelkästään markkinoiden manipuloinnista.
   - Talouskriisit johtuvat pelkästään ihmisten osaamattomuudesta.
   - Talouskriisit johtuvat pelkästään ihmisten kollektiivisesta euforiasta.
-selitys: |
+explanation: |
   Luvussa mainitaan, että kurssi tutkii, miten talouskriisit voivat johtua ihmisten osaamattomuudesta, markkinoiden manipuloinnista tai ihmisten kollektiivisesta euforiasta.
 arvioitu: false

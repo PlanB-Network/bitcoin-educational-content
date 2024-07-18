@@ -1,9 +1,9 @@
-kysymys: Mikä on louhijoiden rooli Bitcoin-verkossa?
-vastaus: He vahvistavat siirtoja sisällyttämällä ne lohkoon.
-väärät_vastaukset:
+question: Mikä on louhijoiden rooli Bitcoin-verkossa?
+answer: He vahvistavat siirtoja sisällyttämällä ne lohkoon.
+wrong_answers:
   - He luovat uusia Bitcoineja.
   - He hallinnoivat Bitcoin-verkkoa.
   - He säätelevät Bitcoinin hintaa.
-selitys: >-
+explanation: >-
   Louhijoiden rooli Bitcoin-verkossa on siirtojen vahvistaminen sisällyttämällä ne lohkoon. He tekevät tämän ratkaisemalla kryptografisen pulman prosessissa, jota kutsutaan "työn todistamiseksi".
 arvioitu: false

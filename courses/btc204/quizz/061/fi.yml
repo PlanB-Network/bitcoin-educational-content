@@ -1,13 +1,13 @@
-kysymys: Mikä on "coin control" -toiminnon tarkoitus Bitcoin-lompakko-ohjelmistossa?
+question: Mikä on "coin control" -toiminnon tarkoitus Bitcoin-lompakko-ohjelmistossa?
 
-vastaus: Valita, mitkä UTXOt käytetään syötteinä transaktioissa.
+answer: Valita, mitkä UTXOt käytetään syötteinä transaktioissa.
 
 vaarat_vastaukset:
   - UTXOjen salaaminen lompakon turvallisuuden parantamiseksi.
   - Epäilyttävistä lähteistä tulevien UTXOjen havaitseminen ja estäminen.
   - Jokaisen UTXOn merkitseminen lompakossa.
 
-selitys: |
+explanation: |
   Coin control on ominaisuus, joka löytyy hyvästä Bitcoin-lompakko-ohjelmistosta, ja se antaa sinulle mahdollisuuden manuaalisesti valita tiettyjä UTXOja käytettäväksi syötteinä tehdessäsi transaktiota.
 
 arvioitu: false

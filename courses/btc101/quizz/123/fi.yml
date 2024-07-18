@@ -1,9 +1,9 @@
-kysymys: Mikä on ensimmäisen Bitcoin-siirron lohkon numero?
-vastaus: Lohko 170
+question: Mikä on ensimmäisen Bitcoin-siirron lohkon numero?
+answer: Lohko 170
 vaarat_vastaukset:
   - Lohko 1
   - Lohko 17
   - Lohko 1700
-selitys: |
+explanation: |
   Ensimmäinen Bitcoin-siirto, joka oli 10 BTC:n siirto Satoshi Nakamoton ja Hal Finneyn välillä, on kirjattu lohkoon 170.
-arvioitu: true
+reviewed: false

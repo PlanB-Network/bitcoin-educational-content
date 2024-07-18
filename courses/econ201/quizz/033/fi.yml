@@ -1,10 +1,10 @@
-kysymys: Mikä on säästämisen ja elintason välinen suhde itävaltalaisten taloustieteilijöiden mukaan?
-vastaus: Mitä enemmän säästämme, sitä enemmän pääomaa pystymme kerryttämään, mikä puolestaan johtaa tuottavuuden kasvuun tuottaen enemmän tavaroita. Näin saavutetaan korkeampi elintaso.
-väärät_vastaukset:
+question: Mikä on säästämisen ja elintason välinen suhde itävaltalaisten taloustieteilijöiden mukaan?
+answer: Mitä enemmän säästämme, sitä enemmän pääomaa pystymme kerryttämään, mikä puolestaan johtaa tuottavuuden kasvuun tuottaen enemmän tavaroita. Näin saavutetaan korkeampi elintaso.
+wrong_answers:
   - Mitä enemmän säästämme, sitä alhaisemmaksi elintasomme muuttuu.
   - Säästämisellä ja elintasolla ei ole mitään yhteyttä.
   - Mitä vähemmän säästämme, sitä korkeammaksi elintasomme muuttuu.
-selitys: |
+explanation: |
   "Itävaltalaiset taloustieteilijät pitävät ajan preferenssien alentamista\
   \ lähtökohtana hyveelliselle säästämisen kierrolle \u2013> enemmän pääomahyödykkeitä\
   \ \uF0E0 enemmän tuottavuutta \uF0E0 enemmän tavaroita = korkeampi elintaso \u2013\

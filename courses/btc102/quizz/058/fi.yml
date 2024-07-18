@@ -1,10 +1,10 @@
-kysymys: Mitä tarkoittaa, jos sinulla ei ole yksityistä avainta Bitcoin-lompakkoosi?
-vastaus: Kolmas osapuoli vastaa bitcoinejesi turvallisuudesta
+question: Mitä tarkoittaa, jos sinulla ei ole yksityistä avainta Bitcoin-lompakkoosi?
+answer: Kolmas osapuoli vastaa bitcoinejesi turvallisuudesta
 vaarat_vastaukset:
   - Olet menettänyt kaikki bitcoinit
   - Et voi enää tehdä transaktioita bitcoineillasi
   - Bitcoinisi muunnetaan automaattisesti toiseen kryptovaluuttaan
-selitys: |
+explanation: |
   Jos sinulla ei ole yksityistä avainta Bitcoin-lompakkoosi, se tarkoittaa,
   että kolmas osapuoli vastaa bitcoinejesi turvallisuudesta. Ne ovat alttiina
   samoille riskeille kuin vaihtoalustat, kuten hakkerointi, takavarikointi, säätely tai

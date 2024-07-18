@@ -1,10 +1,10 @@
-kysymys: Mitä tapahtuu, kun HTLC vanhenee?
-vastaus: Rahat palautetaan lähettäjälle.
-väärät_vastaukset:
+question: Mitä tapahtuu, kun HTLC vanhenee?
+answer: Rahat palautetaan lähettäjälle.
+wrong_answers:
   - Rahat siirretään vastaanottajalle.
   - Rahat katoavat.
   - Rahat siirretään kolmannelle osapuolelle.
-selitys: |
+explanation: |
   Jos vastaanottaja ei paljasta salaisuutta tietyn ajan kuluessa,
   HTLC vanhenee ja rahat palautetaan lähettäjälle.
 arvioitu: false

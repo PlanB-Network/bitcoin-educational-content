@@ -1,9 +1,9 @@
-kysymys: Mikä on yleinen taktiikka, jota kryptovaluuttojen vaikuttajat tai gurut käyttävät?
-vastaus: Epäluotettavien kryptovaluuttojen mainostaminen.
-väärät_vastaukset:
+question: Mikä on yleinen taktiikka, jota kryptovaluuttojen vaikuttajat tai gurut käyttävät?
+answer: Epäluotettavien kryptovaluuttojen mainostaminen.
+wrong_answers:
   - Fyysisten omaisuuksien mainostaminen.
   - Fiat-valuuttojen mainostaminen.
   - Ohjelmistotuotteiden mainostaminen.
-selitys: |
+explanation: |
   Kryptovaluuttojen vaikuttajilla tai guruilla on usein henkilökohtaisia tavoitteita, ja he saattavat olla mukana lukuisissa projekteissa, joita he pyrkivät mainostamaan, vaikka ne eivät aina olisikaan sijoittajien parhaaksi. Nämä vaikuttajat saattavat yrittää mainostaa epäluotettavia kryptovaluuttoja eli "shitcoineja".
 arvioitu: false

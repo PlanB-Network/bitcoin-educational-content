@@ -1,10 +1,10 @@
-kysymys: Miksi erityisesti suuret institutionaaliset toimijat tavoittelevat neitseellisiä bitcoineja?
-vastaus: Ne voivat taata digitaalisten omaisuuseriensa laillisuuden sääntelyviranomaisille.
-väärät_vastaukset:
+question: Miksi erityisesti suuret institutionaaliset toimijat tavoittelevat neitseellisiä bitcoineja?
+answer: Ne voivat taata digitaalisten omaisuuseriensa laillisuuden sääntelyviranomaisille.
+wrong_answers:
   - Ne voidaan myydä korkeammalla hinnalla.
   - Niitä voidaan käyttää laittomiin toimintoihin.
   - Niiden avulla voidaan välttää verojen maksaminen.
-selitys: |
+explanation: |
   Neitseelliset bitcoinit ovat erityisen haluttuja suurten institutionaalisten
   toimijoiden keskuudessa, koska ne voivat taata digitaalisten omaisuuseriensa laillisuuden sääntelyviranomaisille. Näitä bitcoineja ei ole koskaan "tahrattu", mikä tarjoaa jonkinasteisen takuun
   hylkäämisen estämiseksi sääntelijöiden tai suurten vaihtoalustojen toimesta.

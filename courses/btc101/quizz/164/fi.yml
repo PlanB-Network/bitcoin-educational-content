@@ -1,11 +1,11 @@
-kysymys: Mikä on Bitcoinin pääetu henkilöille, jotka elävät taloudellisen
+question: Mikä on Bitcoinin pääetu henkilöille, jotka elävät taloudellisen
   sorron tai diktatorisen hallinnon alaisuudessa?
-vastaus: Se tarjoaa taloudellista vapautta pakoilemalla sensuuria ja pankkirajoituksia
-väärät_vastaukset:
+answer: Se tarjoaa taloudellista vapautta pakoilemalla sensuuria ja pankkirajoituksia
+wrong_answers:
   - Se tarjoaa vakaan valuutan
   - Se mahdollistaa nimettömät transaktiot
   - Se tarjoaa korkeita tuottoja sijoitukselle
-selitys: >-
+explanation: >-
   Bitcoin tarjoaa taloudellista vapautta pakoilemalla sensuuria ja
   pankkirajoituksia. Tämä on erityisen hyödyllistä henkilöille, jotka elävät taloudellisen
   sorron tai diktatorisen hallinnon alaisuudessa.

@@ -1,9 +1,9 @@
-kysymys: Mikä on tämän yliopiston kurssin painopiste?
-vastaus: Bitcoin-universumi.
-väärät_vastaukset:
+question: Mikä on tämän yliopiston kurssin painopiste?
+answer: Bitcoin-universumi.
+wrong_answers:
   - Globaali kryptovaluuttateollisuus.
   - Fintech-teollisuus.
   - Lohkoketjuteollisuus.
-selitys: |
+explanation: |
   Tämän yliopiston koko painopiste on Bitcoin-universumissa, ei kryptovaluutoissa yleisesti.
 arvioitu: false

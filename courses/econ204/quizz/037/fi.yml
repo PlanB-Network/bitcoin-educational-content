@@ -1,9 +1,9 @@
-kysymys: Mikä termi tarkoittaa Saksassa talouskriisin aikana käytettyä hätärahaa?
-vastaus: Notgeld
+question: Mikä termi tarkoittaa Saksassa talouskriisin aikana käytettyä hätärahaa?
+answer: Notgeld
 vaarat_vastaukset:
   - Reichsmark
   - Euro
   - Deutsche Mark
-selitys: |
+explanation: |
   Saksan talouskriisin aikana käytettiin "Notgeldia" (hätärahaa) yleisen valuutan puutteen ratkaisemiseksi.
 arvioitu: false

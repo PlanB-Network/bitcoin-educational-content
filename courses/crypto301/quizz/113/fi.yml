@@ -1,10 +1,10 @@
-kysymys: Mihin Syvyys 0 viittaa HD-lompakon rakenteessa?
-vastaus: Pääavain ja pääketjukoodi
+question: Mihin Syvyys 0 viittaa HD-lompakon rakenteessa?
+answer: Pääavain ja pääketjukoodi
 vaarat_vastaukset:
   - Lasten avaimet ja lasten ketjukoodi
   - Ulkoiset ja sisäiset ketjut
   - Vastaanotto-osoitteet tavallisessa lompakossa
-selitys: |
+explanation: |
   HD-lompakon rakenteessa Syvyys 0 vastaa pääavainta ja
   pääketjukoodia.
 arvioitu: false

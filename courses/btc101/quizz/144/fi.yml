@@ -1,9 +1,9 @@
-kysymys: Mikä on kaistanleveysvaatimus Bitcoin-noden ajamiselle, kun otetaan huomioon 1 lohko joka on 1MB joka 10. minuutti?
-vastaus: Noin 5GB kuukaudessa
-väärät_vastaukset:
+question: Mikä on kaistanleveysvaatimus Bitcoin-noden ajamiselle, kun otetaan huomioon 1 lohko joka on 1MB joka 10. minuutti?
+answer: Noin 5GB kuukaudessa
+wrong_answers:
   - Noin 1GB kuukaudessa
   - Noin 10GB kuukaudessa
   - Noin 20GB kuukaudessa
-selitys: >-
+explanation: >-
   Ottaen huomioon 1 lohkon, joka on 1MB joka 10. minuutti, Bitcoin-noden ajamiseen tarvitaan noin 5GB kaistanleveyttä kuukaudessa.
 arvioitu: false

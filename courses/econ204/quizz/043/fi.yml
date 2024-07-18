@@ -1,10 +1,10 @@
-kysymys: Mikä oli korkein setelinimellisarvo Brasiliassa ennen sen viimeisintä uudelleenarvostusta vuonna 1994?
-vastaus: 500,000
+question: Mikä oli korkein setelinimellisarvo Brasiliassa ennen sen viimeisintä uudelleenarvostusta vuonna 1994?
+answer: 500,000
 vaarat_vastaukset:
   - 1,000,000
   - 250,000
   - 100,000
-selitys: |
+explanation: |
   Korkein setelinimellisarvo Brasiliassa saavutti 500,000, ja viimeinen
 
   uudelleenarvostus vuonna 1994 tehtiin suhteessa 2,750 to 1.

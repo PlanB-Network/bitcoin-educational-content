@@ -1,9 +1,9 @@
-kysymys: Mikä on suositeltu käyttötarkoitus mobiililompakolle?
-vastaus: Päivittäisiin menoihin
-väärät_vastaukset:
+question: Mikä on suositeltu käyttötarkoitus mobiililompakolle?
+answer: Päivittäisiin menoihin
+wrong_answers:
   - Pitkäaikaiseen säästämiseen
   - Keskipitkän aikavälin säästämiseen
   - Suuriin summiin
-selitys: |
+explanation: |
   Mobiililompakkoa suositellaan päivittäisiin menoihin, koska sillä on helppo suorittaa maksutapahtumia. Sitä ei kuitenkaan suositella suurten summien säilyttämiseen tai pitkäaikaiseen säästämiseen, koska se on mahdollisesti altis verkko-uhille.
-arvioitu: true
+reviewed: false

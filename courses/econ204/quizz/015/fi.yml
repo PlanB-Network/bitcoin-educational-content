@@ -1,9 +1,9 @@
-kysymys: Mikä on hyperinflaation määritelmä Bernholzin mukaan?
-vastaus: Hyperinflaatio on korkean inflaation jatkumo, jolle on ominaista suuret budjettialijäämät, jotka rahoitetaan luomalla rahaa.
+question: Mikä on hyperinflaation määritelmä Bernholzin mukaan?
+answer: Hyperinflaatio on korkean inflaation jatkumo, jolle on ominaista suuret budjettialijäämät, jotka rahoitetaan luomalla rahaa.
 vaarat_vastaukset:
   - Hyperinflaatio on rahan määrän vähenemistä.
   - Hyperinflaatio on kohtuullinen lisäys rahan määrässä.
   - Hyperinflaatio on tuotannon vähenemistä.
-selitys: |
+explanation: |
   Luvussa selitetään, että Bernholzin mukaan hyperinflaatio on korkean inflaation jatkumo, jolle on ominaista suuret budjettialijäämät, jotka rahoitetaan luomalla rahaa.
 arvioitu: false

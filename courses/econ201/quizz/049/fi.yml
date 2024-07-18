@@ -1,10 +1,10 @@
-kysymys: Mikä on hintojen rooli Itävaltalaisessa taloustieteessä?
-vastaus: Hinnat ovat ratkaisevassa asemassa yksilöiden rationaalisen järjestämisen kannalta, kun heillä on osittaista tietoa.
-väärät_vastaukset:
+question: Mikä on hintojen rooli Itävaltalaisessa taloustieteessä?
+answer: Hinnat ovat ratkaisevassa asemassa yksilöiden rationaalisen järjestämisen kannalta, kun heillä on osittaista tietoa.
+wrong_answers:
   - Hinnat ovat merkityksettömiä Itävaltalaisessa taloustieteessä.
   - Hinnat määräytyvät hallituksen toimesta Itävaltalaisessa taloustieteessä.
   - Hinnat ovat kiinteitä eivätkä muutu Itävaltalaisessa taloustieteessä.
-selitys: |
+explanation: |
   Itävaltalaisessa taloustieteessä hinnat ovat ratkaisevassa asemassa
   yksilöiden rationaalisen järjestämisen kannalta, kun heillä on osittaista tietoa. Ne auttavat tasapainottamaan
   pääoman tarjonnan ja kysynnän markkinoilla, edistäen siten taloutta.

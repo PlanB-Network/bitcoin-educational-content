@@ -1,9 +1,9 @@
-kysymys: Miksi Bitcoin on uudenlainen rahamuoto?
-vastaus: Koska se on digitaalinen raha ilman keskuselintä
+question: Miksi Bitcoin on uudenlainen rahamuoto?
+answer: Koska se on digitaalinen raha ilman keskuselintä
 vaarat_vastaukset:
   - Koska se on digitaalinen valuutta, jota tukee kulta
   - Koska se on valuutta, joka vaatii lohkoketjun
   - Koska Yhdysvaltain keskuspankki sanoo niin
-selitys: >-
+explanation: >-
   Bitcoinia voidaan pitää uudenlaisena rahamuotona, koska se syntyy vertaisverkosta ilman keskuselintä.
-arvioitu: true
+reviewed: false

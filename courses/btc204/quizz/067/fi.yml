@@ -1,13 +1,13 @@
-kysymys: Mikä heuristiikka voidaan käyttää yhdistämään kaikki konsolidoinnin syötteet?
+question: Mikä heuristiikka voidaan käyttää yhdistämään kaikki konsolidoinnin syötteet?
 
-vastaus: CIOH.
+answer: CIOH.
 
-väärät_vastaukset:
+wrong_answers:
   - Osoitteen uudelleenkäyttö.
   - Suurin ulostulo.
   - Pyöristetty maksu.
 
-selitys: |
+explanation: |
   Ulkopuolinen tarkkailija voi soveltaa CIOH:ta olettaakseen, että kaikki konsolidoinnin syötteet kuuluvat samalle entiteetille.
 
 arvioitu: false

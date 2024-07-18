@@ -1,10 +1,10 @@
-kysymys: Mikä on tietojenkalasteluyritysten tarkoitus?
-vastaus: Saada haltuunsa arkaluonteisia tietoja, kuten käyttäjätunnuksesi ja salasanasi.
+question: Mikä on tietojenkalasteluyritysten tarkoitus?
+answer: Saada haltuunsa arkaluonteisia tietoja, kuten käyttäjätunnuksesi ja salasanasi.
 vaarat_vastaukset:
   - Lähettää sinulle roskapostia.
   - Myydä sinulle tuotteita tai palveluita.
   - Kutsua sinut tapahtumiin tai webinaareihin.
-selitys: |
+explanation: |
   Tietojenkalasteluyritykset pyrkivät saamaan haltuunsa arkaluonteisia tietoja,
   kuten käyttäjätunnuksesi ja salasanasi. Hakkerit käyttävät erilaisia taktiikoita, kuten petollisia
   sähköposteja huijatakseen sinua paljastamaan tietojasi.

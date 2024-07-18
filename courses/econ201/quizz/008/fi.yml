@@ -1,10 +1,10 @@
-kysymys: Mikä on Cantillonin vaikutus?
-vastaus: Cantillonin vaikutus viittaa taloudelliseen periaatteeseen, jonka mukaan uuden rahan luominen hyödyttää aluksi niitä, jotka ovat lähimpänä rahan lähdettä, niiden kustannuksella, jotka ovat kauempana.
-väärät_vastaukset:
+question: Mikä on Cantillonin vaikutus?
+answer: Cantillonin vaikutus viittaa taloudelliseen periaatteeseen, jonka mukaan uuden rahan luominen hyödyttää aluksi niitä, jotka ovat lähimpänä rahan lähdettä, niiden kustannuksella, jotka ovat kauempana.
+wrong_answers:
   - Cantillonin vaikutus viittaa taloudelliseen periaatteeseen, jonka mukaan uuden rahan luominen hyödyttää tasapuolisesti kaikkia taloudessa.
   - Cantillonin vaikutus viittaa taloudelliseen periaatteeseen, jonka mukaan uuden rahan luominen hyödyttää aluksi niitä, jotka ovat kauimpana rahan lähteestä, niiden kustannuksella, jotka ovat lähempänä.
   - Cantillonin vaikutus viittaa taloudelliseen periaatteeseen, jonka mukaan uuden rahan luominen ei vaikuta varallisuuden jakautumiseen taloudessa.
-selitys: |
+explanation: |
   Cantillonin vaikutus, joka on nimetty 1700-luvun taloustieteilijä Richard Cantillonin mukaan,
   kuvailee, miten uuden rahan jakautuminen taloudessa voi johtaa varallisuuseroihin.
   Ne, jotka ovat lähimpänä uuden rahan lähdettä (kuten pankkiirit ja omaisuuden omistajat),

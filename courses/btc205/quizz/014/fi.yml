@@ -1,10 +1,10 @@
-kysymys: Mikä on HodlHodl P2P-ratkaisun haittapuoli?
-vastaus: Käyttäjän sähköpostiosoite ja digitaalinen identiteetti tallennetaan HodlHodl-palveluun.
+question: Mikä on HodlHodl P2P-ratkaisun haittapuoli?
+answer: Käyttäjän sähköpostiosoite ja digitaalinen identiteetti tallennetaan HodlHodl-palveluun.
 vaarat_vastaukset:
   - Se ei helpota Bitcoinin ostamista ja myymistä.
   - Sen käyttö vaatii tilin luomisen.
   - Se ei tarjoa laajaa vaihtoehtojen valikoimaa vaihtamiseen.
-selitys: |
+explanation: |
   Luvun mukaan yksi HodlHodlin haitoista on se, että
   käyttäjän sähköpostiosoite ja digitaalinen identiteetti tallennetaan HodlHodl-palveluun.
 arvioitu: false

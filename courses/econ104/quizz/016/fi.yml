@@ -1,14 +1,14 @@
-kysymys: Kun otat itsehallinnan, mikä on ensimmäinen asia, jonka tulisi tehdä riskin minimoimiseksi?
-vastaus: Varmuuskopioi lompakkosi palautusavainlause
-väärät_vastaukset:
+question: Kun otat itsehallinnan, mikä on ensimmäinen asia, jonka tulisi tehdä riskin minimoimiseksi?
+answer: Varmuuskopioi lompakkosi palautusavainlause
+wrong_answers:
   - Jaa yksityiset avaimet luotettavan osapuolen kanssa
   - Ota muistiin palautusavainlauseesi ja tallenna se tietokoneellesi
   - Poista kaksivaiheinen tunnistautuminen (2FA) käytöstä
-selitys: |
+explanation: |
   Ensimmäiseksi ja tärkeimmäksi, varmuuskopioi lompakkosi ottaessasi itsehallinnan.
   Laitteistolompakot sisältävät palautusavainlauseen, joukon sanoja, joita 
   voidaan käyttää yksityisten avaintesi palauttamiseen, jos laitteesi katoaa tai vahingoittuu.
   Luo fyysinen kopio, kuten metallinen [siemenlevy](https://coincodex.com/article/23147/best-metal-crypto-wallets-for-seed-phrase-storage/), tästä avainlauseesta ja 
   säilytä sitä turvallisessa paikassa. On tärkeää pitää tämä palautusavainlause turvassa. 
   ÄLÄ koskaan jaa sitä kenenkään kanssa.
-arvioitu: true
+reviewed: false

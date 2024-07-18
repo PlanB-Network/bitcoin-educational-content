@@ -1,10 +1,10 @@
-kysymys: Miksi on tärkeää käyttää satunnaisesti luotuja salasanoja?
-vastaus: Ne tarjoavat korkeamman turvallisuustason ja ovat vastustuskykyisempiä voimakkaan luvun murtamisen hyökkäyksille.
-väärät_vastaukset:
+question: Miksi on tärkeää käyttää satunnaisesti luotuja salasanoja?
+answer: Ne tarjoavat korkeamman turvallisuustason ja ovat vastustuskykyisempiä voimakkaan luvun murtamisen hyökkäyksille.
+wrong_answers:
   - Ne ovat helpompi muistaa.
   - Ne ovat lyhyempiä ja yksinkertaisempia.
   - Useimmat verkkopalvelut vaativat niitä.
-selitys: |
+explanation: |
   Satunnaisesti luodut salasanat tarjoavat korkeamman turvallisuustason, koska
 
   ne ovat vastustuskykyisempiä voimakkaan luvun murtamisen hyökkäyksille, jotka yrittävät arvata salasanoja

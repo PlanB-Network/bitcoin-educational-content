@@ -1,10 +1,10 @@
-kysymys: Mitkä ovat joitakin paranoidin Bitcoin-käyttäjän ominaisuuksia?
-vastaus: Valppaus, itsenäisyys, epäluuloisuus, tietämys ja käytännöllisyys
-väärät_vastaukset:
+question: Mitkä ovat joitakin paranoidin Bitcoin-käyttäjän ominaisuuksia?
+answer: Valppaus, itsenäisyys, epäluuloisuus, tietämys ja käytännöllisyys
+wrong_answers:
   - Luottamus, riippuvuus, tietämättömyys ja epäkäytännöllisyys
   - Laiskuus, riippuvuus, luottamus ja tietämättömyys
   - Luottamus, riippuvuus, tiedon puute ja epäkäytännöllisyys
-selitys: |
+explanation: |
   Luvussa kuvaillaan paranoidia Bitcoin-käyttäjää henkilönä, joka on valpas,
   itsenäinen, epäluuloinen, tietäväinen ja käytännöllinen.
 arvioitu: false

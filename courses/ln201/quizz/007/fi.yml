@@ -1,10 +1,10 @@
-kysymys: Onko Lightning-maksukanavan kapasiteetti kiinteä?
-vastaus: "Kyllä"
+question: Onko Lightning-maksukanavan kapasiteetti kiinteä?
+answer: "Kyllä"
 vaarat_vastaukset:
   - "Ei"
   - Vain joissakin tapauksissa
   - Se riippuu Bitcoin-verkosta
-selitys: |
+explanation: |
   Kun kanava avataan, sille määritetään kiinteä kapasiteetti, joka on määritelty
   etukäteen käyttäjien toimesta.
 arvioitu: false

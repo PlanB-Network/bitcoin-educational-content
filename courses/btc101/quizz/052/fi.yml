@@ -1,10 +1,10 @@
-kysymys: Mikä on 20% inflaation vaikutus ostovoimaan kolmen vuoden aikana?
-vastaus: Menetät 50% ostovoimastasi
-väärät_vastaukset:
+question: Mikä on 20% inflaation vaikutus ostovoimaan kolmen vuoden aikana?
+answer: Menetät 50% ostovoimastasi
+wrong_answers:
   - Menetät 100% ostovoimastasi
   - Menetät 60% ostovoimastasi
   - Menetät 30% ostovoimastasi
-selitys: |
+explanation: |
   20% inflaation seurauksena menetät lähes puolet ostovoimastasi
   kolmen vuoden aikana.
-arvioitu: true
+reviewed: false

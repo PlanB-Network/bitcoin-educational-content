@@ -1,10 +1,10 @@
-kysymys: Mikä on vastaanotto-osoitteiden ensisijainen rooli Bitcoin-järjestelmässä?
-vastaus: Ne mahdollistavat varojen vastaanottamisen kolikolle.
-väärät_vastaukset:
+question: Mikä on vastaanotto-osoitteiden ensisijainen rooli Bitcoin-järjestelmässä?
+answer: Ne mahdollistavat varojen vastaanottamisen kolikolle.
+wrong_answers:
   - Ne mahdollistavat varojen lähettämisen kolikolta.
   - Ne mahdollistavat uusien bitcoinien louhimisen.
   - Ne mahdollistavat transaktioiden vahvistamisen.
-selitys: |
+explanation: |
   Vastaanotto-osoitteiden ensisijainen rooli Bitcoin-järjestelmässä on mahdollistaa
   varojen vastaanottaminen kolikolle. Ne luodaan yksityisten ja julkisten
   avainparien pohjalta.

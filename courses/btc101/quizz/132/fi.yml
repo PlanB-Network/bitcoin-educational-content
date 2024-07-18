@@ -1,10 +1,10 @@
-kysymys: Mikä on Bitcoin-noodien maantieteellisen jakautumisen merkitys?
-vastaus: Se tekee käytännössä mahdottomaksi tuhota kaikkia lohkoketjun kopioita.
-väärät_vastaukset:
+question: Mikä on Bitcoin-noodien maantieteellisen jakautumisen merkitys?
+answer: Se tekee käytännössä mahdottomaksi tuhota kaikkia lohkoketjun kopioita.
+wrong_answers:
   - Se määrittää Bitcoinin hinnan eri alueilla.
   - Se vaikuttaa Bitcoin-siirtojen nopeuteen.
   - Se määrittää, kuinka monta Bitcoinia voidaan louhia alueella.
-selitys: >-
+explanation: >-
   Bitcoin-noodien maantieteellinen jakautuminen tekee käytännössä mahdottomaksi
   tuhota kaikkia lohkoketjun kopioita. Tämä johtuu siitä, että noodit ovat hajallaan
   ja niiden kaikkien fyysinen takavarikointi olisi vaikeaa.

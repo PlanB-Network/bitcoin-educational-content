@@ -1,10 +1,10 @@
-kysymys: Mikä on laajennetun avaimen koko?
-vastaus: 82 tavua
+question: Mikä on laajennetun avaimen koko?
+answer: 82 tavua
 vaarat_vastaukset:
   - 65 tavua
   - 33 tavua
   - 512 bittiä
-selitys: |
+explanation: |
   Laajennettujen avainten koko on 82 tavua ja niiden etuliite esitetään
 
   base 58 -muodossa heksadesimaalimuunnoksen kautta.

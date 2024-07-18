@@ -1,10 +1,10 @@
-kysymys: Mitkä ovat DOH:n (DNS over HTTPS) ja DOT:n (DNS over TLS) käytön edut?
-vastaus: Ne salakirjoittavat DNS-yhteyden, tarjoten parempaa yksityisyyttä ja turvallisuutta, ja välttävät "man in the middle" -hyökkäykset.
-väärät_vastaukset:
+question: Mitkä ovat DOH:n (DNS over HTTPS) ja DOT:n (DNS over TLS) käytön edut?
+answer: Ne salakirjoittavat DNS-yhteyden, tarjoten parempaa yksityisyyttä ja turvallisuutta, ja välttävät "man in the middle" -hyökkäykset.
+wrong_answers:
   - Ne nopeuttavat internet-yhteyttä.
   - Ne estävät kaikki mainokset.
   - Ne mahdollistavat pääsyn estettyihin verkkosivustoihin.
-selitys: |
+explanation: |
   DOH (DNS over HTTPS) ja DOT (DNS over TLS) salakirjoittavat DNS-yhteyden,
   tarjoten parempaa yksityisyyttä ja turvallisuutta. Nämä protokollat ovat laajalti käytössä yrityksissä
   niiden parannetun turvallisuuden vuoksi ja ne ovat natiivisti tuettuja Windowsissa, Androidissa ja

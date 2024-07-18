@@ -1,9 +1,9 @@
-kysymys: Mikä on kullan pääasiallinen haittapuoli rahana?
-vastaus: Sitä ei ole helppo jakaa tai kuljettaa pitkiä matkoja
-väärät_vastaukset:
+question: Mikä on kullan pääasiallinen haittapuoli rahana?
+answer: Sitä ei ole helppo jakaa tai kuljettaa pitkiä matkoja
+wrong_answers:
   - Se ei säilytä arvoaan paikasta toiseen
   - Se kuluu ajan myötä
   - Sitä on helppo tuottaa
-selitys: |
+explanation: |
   Kullan pääasiallinen haittapuoli rahana on, että sitä ei ole helppo jakaa tai kuljettaa pitkiä matkoja. Tämä tekee siitä vähemmän käytännöllisen globalisoituneessa ja digitaalisessa maailmassa.
-arvioitu: true
+reviewed: false

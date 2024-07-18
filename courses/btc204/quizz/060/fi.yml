@@ -1,11 +1,11 @@
-kysymys: Mitä tietoja tulisi merkitä etikettiin?
+question: Mitä tietoja tulisi merkitä etikettiin?
 
-vastaus: UTXO:n alkuperä.
+answer: UTXO:n alkuperä.
 
 vaarat_vastaukset:
   - UTXO:n luontipäivämäärä.
   - UTXO:n koko.
   - UTXO:n luomiseen liittyvät maksut.
 
-selitys: |
+explanation: |
   Etiketöinti on hyvä käytäntö, joka auttaa muistamaan UTXO:n alkuperän.

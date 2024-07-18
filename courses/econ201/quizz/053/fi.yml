@@ -1,9 +1,9 @@
-kysymys: Mikä on kirsikanpoiminta taloustieteen kontekstissa?
-vastaus: Kirsikanpoiminta tarkoittaa tietojen valikoivaa valitsemista muuttujien välisen suhteen perustamiseksi.
+question: Mikä on kirsikanpoiminta taloustieteen kontekstissa?
+answer: Kirsikanpoiminta tarkoittaa tietojen valikoivaa valitsemista muuttujien välisen suhteen perustamiseksi.
 vaarat_vastaukset:
   - Kirsikanpoiminta tarkoittaa kaiken datan sivuuttamista ja nojaamista pelkästään hypoteeseihin.
   - Kirsikanpoiminta tarkoittaa kaiken saatavilla olevan datan käyttämistä ilman minkäänlaista valintaa.
   - Kirsikanpoiminta tarkoittaa vain sellaisen datan käyttämistä, joka tukee hallituksen politiikkaa.
-selitys: |
+explanation: |
   Taloustieteessä kirsikanpoiminta tarkoittaa tietojen valikoivaa valitsemista muuttujien välisen suhteen perustamiseksi. Sitä pidetään epätieteellisenä ja epäjohdonmukaisena menetelmänä.
 arvioitu: false

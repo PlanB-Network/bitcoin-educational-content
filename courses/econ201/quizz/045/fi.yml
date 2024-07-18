@@ -1,10 +1,10 @@
-kysymys: Mikä on pääsyy siihen, miksi keskusjohtoisessa taloudessa väistämättä
+question: Mikä on pääsyy siihen, miksi keskusjohtoisessa taloudessa väistämättä
   tapahtuu pääoman väärinkohdentumista?
-vastaus: Markkinahintoja tai konkurssia ei ole paljastamassa ja korjaamassa väärinkohdentumisia.
-väärät_vastaukset:
+answer: Markkinahintoja tai konkurssia ei ole paljastamassa ja korjaamassa väärinkohdentumisia.
+wrong_answers:
   - Keskussuunnittelijat eivät ole tehokkaita.
   - Keskussuunnittelijoilla ei ole tarpeeksi tietoa.
   - Keskussuunnittelijat eivät ole motivoituneita kohdentamaan resursseja tehokkaasti.
-selitys: |
+explanation: |
   Keskusjohtoisessa taloudessa ei ole markkinahintoja tai konkurssia paljastamassa ja korjaamassa väärinkohdentumisia. Tämän seurauksena virheet kasaantuvat kunnes tuhlaavuus tulee ilmeiseksi merkittävän elinolojen heikkenemisen kautta.
 arvioitu: false

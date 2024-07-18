@@ -1,10 +1,10 @@
-kysymys: Mikä on useiden uudelleenarvostusten seuraus väestölle?
-vastaus: Säästöjen menetys ja ruokaongelmat.
+question: Mikä on useiden uudelleenarvostusten seuraus väestölle?
+answer: Säästöjen menetys ja ruokaongelmat.
 vaarat_vastaukset:
   - Varallisuuden ja ruuan runsauden lisääntyminen.
   - Säästöjen lisääntyminen ja ruuan puute.
   - Varallisuuden väheneminen ja ruuan runsaus.
-selitys: |
+explanation: |
   Useat uudelleenarvostukset, nollien poistaminen tai valuutan nimen muuttaminen
 
   aiheuttavat suoria seurauksia väestölle, jotka vaihtelevat säästöjen menetyksestä

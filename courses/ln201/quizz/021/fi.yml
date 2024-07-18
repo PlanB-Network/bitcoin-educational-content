@@ -1,8 +1,8 @@
-kysymys: Kuka aloittaa prosessin kanavan avaamiseksi Lightning-verkossa?
-vastaus: Alice
-väärät_vastaukset:
+question: Kuka aloittaa prosessin kanavan avaamiseksi Lightning-verkossa?
+answer: Alice
+wrong_answers:
   - Bob
   - Sekä Alice että Bob
   - Ei kumpikaan Alice eikä Bob
-selitys: |
+explanation: |
   Prosessissa, jossa avataan kanava Lightning-verkossa, Alice on se, joka aloittaa prosessin. Hän ilmaisee aikomuksensa avata kanavan Bobille, joka vastauksena antaa julkisen osoitteensa.

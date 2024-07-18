@@ -1,10 +1,10 @@
-kysymys: Mikä on pääasiallinen ero keynesiläisen ja itävaltalaisen taloustieteen välillä?
-vastaus: Keynesiläinen taloustiede uskoo rahan painamiseen ja kuluttamiseen kasvun edistämiseksi, kun taas itävaltalainen taloustiede korostaa kasvun ja ihmisen rationaalisuuden maltillisempaa näkemystä.
-väärät_vastaukset:
+question: Mikä on pääasiallinen ero keynesiläisen ja itävaltalaisen taloustieteen välillä?
+answer: Keynesiläinen taloustiede uskoo rahan painamiseen ja kuluttamiseen kasvun edistämiseksi, kun taas itävaltalainen taloustiede korostaa kasvun ja ihmisen rationaalisuuden maltillisempaa näkemystä.
+wrong_answers:
   - Keynesiläinen taloustiede korostaa kasvun ja ihmisen rationaalisuuden maltillisempaa näkemystä, kun taas itävaltalainen taloustiede uskoo rahan painamiseen ja kuluttamiseen kasvun edistämiseksi.
   - Keynesiläinen taloustiede keskittyy rahan tuotantoon ja hallintaan keskuspankeissa, kun taas itävaltalainen taloustiede uskoo rahan vallan hajauttamiseen.
   - Keynesiläinen taloustiede uskoo rahan vallan keskittämiseen, kun taas itävaltalainen taloustiede keskittyy rahan tuotantoon ja hallintaan keskuspankeissa.
-selitys: |
+explanation: |
   Luku selittää, että keynesiläinen taloustiede tukee ajatusta siitä,
   että rahan tuotanto ja hallinta ovat keskuspankkien vastuulla,
   ja että rahan painaminen ja kuluttaminen edistävät kasvua. Toisaalta itävaltalainen

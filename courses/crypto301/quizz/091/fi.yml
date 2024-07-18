@@ -1,10 +1,10 @@
-kysymys: Mikä on laajennetun avaimen kuormituksen koko?
-vastaus: 65 tavua
+question: Mikä on laajennetun avaimen kuormituksen koko?
+answer: 65 tavua
 vaarat_vastaukset:
   - 33 tavua
   - 32 tavua
   - 82 tavua
-selitys: |
+explanation: |
   Laajennetun avaimen kuormitus koostuu ketjukoodista (32 tavua)
   ja vanhemman avaimen (33 tavua), yhteensä 65 tavua.
 arvioitu: false

@@ -1,10 +1,10 @@
-kysymys: Mitkä ovat kaksi vastakkaista ideologiaa Bitcoinin maailmassa?
-vastaus: Tuoda pankkijärjestelmän ulkopuolella olevat henkilöt pankkijärjestelmään ja viedä pankkijärjestelmässä olevat henkilöt siitä ulos
-väärät_vastaukset:
+question: Mitkä ovat kaksi vastakkaista ideologiaa Bitcoinin maailmassa?
+answer: Tuoda pankkijärjestelmän ulkopuolella olevat henkilöt pankkijärjestelmään ja viedä pankkijärjestelmässä olevat henkilöt siitä ulos
+wrong_answers:
   - Tehdä kaikki rikkaiksi ja tehdä kaikki köyhiksi
   - Keskittää valtaa ja hajauttaa valtaa
   - Edistää yksityisyyttä ja edistää läpinäkyvyyttä
-selitys: |
+explanation: |
   Luvussa mainitaan kaksi vastakkaista ideologiaa Bitcoinin maailmassa.
   Toinen on tuoda miljardit ihmiset, jotka eivät ole pankkijärjestelmässä, siihen.
   Toinen on ottaa miljardit ihmiset, jotka ovat pankkijärjestelmässä, siitä ulos.

@@ -1,9 +1,9 @@
-kysymys: Mikä on Blockmit Bitcoin-turvallisuuden kontekstissa?
-vastaus: Edullinen ratkaisu kaivertaa muistilauseesi teräkseen
+question: Mikä on Blockmit Bitcoin-turvallisuuden kontekstissa?
+answer: Edullinen ratkaisu kaivertaa muistilauseesi teräkseen
 vaarat_vastaukset:
   - Eräänlainen Bitcoin-lompakko, jolla voi allekirjoittaa useita siirtoja kerralla
   - Edullinen ratkaisu louhia bitcoineja kotona
   - Eräänlainen Bitcoin-lompakko, joka vaatii useita allekirjoituksia bitcoinien käyttämiseen
-selitys: |
+explanation: |
   Blockmit on edullinen ratkaisu kaivertaa muistilauseesi kestävään materiaaliin, kuten teräkseen, näin ollen turvaten bitcoinit pitkällä aikavälillä.
-arvioitu: true
+reviewed: false

@@ -1,10 +1,10 @@
-kysymys: Mikä on hajautusarvo kryptografisten hajautusfunktioiden kontekstissa?
-vastaus: Ainutlaatuinen ja kiinteänkokoinen digitaalinen sormenjälki, jonka hajautusfunktio tuottaa.
+question: Mikä on hajautusarvo kryptografisten hajautusfunktioiden kontekstissa?
+answer: Ainutlaatuinen ja kiinteänkokoinen digitaalinen sormenjälki, jonka hajautusfunktio tuottaa.
 vaarat_vastaukset:
   - Salausalgoritmin tyyppi.
   - Avain datan salauksen purkamiseen.
   - Menetelmä datan tiivistämiseen.
-selitys: |
+explanation: |
   Kryptografisten hajautusfunktioiden kontekstissa hajautusarvo on ainutlaatuinen ja
   kiinteänkokoinen digitaalinen sormenjälki, jonka hajautusfunktio tuottaa. Se edustaa
   syöttötietoa tavalla, joka on ainutlaatuinen ja peruuttamaton.

@@ -1,10 +1,10 @@
-kysymys: Mikä on kaksivaiheisen tunnistautumisen (2FA) tarkoitus Bitcoinissa?
-vastaus: Parantaa Bitcoin-siirtojen turvallisuutta.
+question: Mikä on kaksivaiheisen tunnistautumisen (2FA) tarkoitus Bitcoinissa?
+answer: Parantaa Bitcoin-siirtojen turvallisuutta.
 vaarat_vastaukset:
   - Uusien Bitcoinien louhiminen.
   - Bitcoinien kaupankäynti.
   - Bitcoinien muuntaminen toisiin kryptovaluuttoihin.
-selitys: |
+explanation: |
   Kaksivaiheinen tunnistautuminen (2FA) on menetelmä käyttäjän väitetyn
   henkilöllisyyden vahvistamiseksi käyttämällä jotakin, mitä he tietävät (salasana) ja toista tekijää,
   joka ei ole jotakin, mitä heillä on tai mitä he ovat. Sitä käytetään parantamaan

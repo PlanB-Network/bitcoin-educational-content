@@ -1,10 +1,10 @@
-kysymys: Mikä on Lightning Network?
-vastaus: Toinen kerroksen maksuinfrastruktuuri, joka on rakennettu Bitcoin-verkon päälle ja mahdollistaa nopeat ja edulliset transaktiot
-väärät_vastaukset:
+question: Mikä on Lightning Network?
+answer: Toinen kerroksen maksuinfrastruktuuri, joka on rakennettu Bitcoin-verkon päälle ja mahdollistaa nopeat ja edulliset transaktiot
+wrong_answers:
   - Eräänlainen Bitcoin-lompakko
   - Menetelmä louhia Bitcoinia
   - Eräänlainen Bitcoin-vaihtopalvelu
-selitys: |
+explanation: |
   Lightning Network on toisen kerroksen maksuinfrastruktuuri, joka on rakennettu
   Bitcoin-verkon päälle ja mahdollistaa nopeat ja edulliset transaktiot.
 arvioitu: false

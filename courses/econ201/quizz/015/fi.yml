@@ -1,9 +1,9 @@
-kysymys: Miksi Carl Mengerin mukaan vapaaehtoinen vaihto kahden yksilön välillä tapahtuu?
-vastaus: Kumpikin osapuoli uskoo sen lisäävän heidän subjektiivista hyötyään.
-väärät_vastaukset:
+question: Miksi Carl Mengerin mukaan vapaaehtoinen vaihto kahden yksilön välillä tapahtuu?
+answer: Kumpikin osapuoli uskoo sen lisäävän heidän subjektiivista hyötyään.
+wrong_answers:
   - Kumpikin osapuoli uskoo sen vähentävän heidän subjektiivista hyötyään.
   - Kumpikin osapuoli uskoo sen säilyttävän heidän subjektiivisen hyötynsä ennallaan.
   - Kumpikin osapuoli uskoo sen olevan vaikuttamatta heidän subjektiiviseen hyötyynsä.
-selitys: |
+explanation: |
   Menger päättelee, että vapaaehtoinen vaihto kahden yksilön välillä tapahtuu, koska kumpikin osapuoli uskoo sen lisäävän heidän subjektiivista hyötyään. Tämä tarkoittaa, että kumpikin osapuoli uskoo olevansa paremmassa asemassa vaihdon jälkeen.
 arvioitu: false

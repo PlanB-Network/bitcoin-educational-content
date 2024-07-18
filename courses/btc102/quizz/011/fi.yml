@@ -1,10 +1,10 @@
-kysymys: Mikä on VPN:n käytön päähyöty?
-vastaus: Se suojaa yksityisyyttäsi peittämällä IP-osoitteesi
+question: Mikä on VPN:n käytön päähyöty?
+answer: Se suojaa yksityisyyttäsi peittämällä IP-osoitteesi
 vaarat_vastaukset:
   - Se nopeuttaa internet-yhteyttäsi
   - Se tarjoaa ilmaisen pääsyn maksullisiin palveluihin
   - Se suojaa tietokonettasi viruksilta
-selitys: |
+explanation: |
   VPN eli Virtuaalinen Erillisverkko suojaa yksityisyyttäsi peittämällä
   
   IP-osoitteesi. Vaikka se ei tee sinusta täysin nimetöntä, on se silti yksinkertainen

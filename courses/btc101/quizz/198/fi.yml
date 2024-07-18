@@ -1,9 +1,9 @@
-kysymys: Mikä on yksi asia, jonka sinulla tulisi olla ennen Bitcoinin ostamista?
-vastaus: Turvallinen lompakko.
-väärät_vastaukset:
+question: Mikä on yksi asia, jonka sinulla tulisi olla ennen Bitcoinin ostamista?
+answer: Turvallinen lompakko.
+wrong_answers:
   - Fyysinen kassakaappi.
   - Pankkitili.
   - Luottokortti.
-selitys: >-
+explanation: >-
   Tekstissä mainitaan, että ennen Bitcoinin ostamista sinulla tulisi olla turvallinen lompakko. Tässä säilytät Bitcoinisi.
 arvioitu: false

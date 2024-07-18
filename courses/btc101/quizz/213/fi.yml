@@ -1,10 +1,10 @@
-kysymys: Mikä on Bitcoin-vallankumouksen päätavoite tekstin mukaan?
-vastaus: Luoda maailma, jossa ihmisen itsemääräämisoikeus on oikeus, yksityisyys kunnioitetaan oletusarvoisesti, ja rahaa ei manipuloida
-väärät_vastaukset:
+question: Mikä on Bitcoin-vallankumouksen päätavoite tekstin mukaan?
+answer: Luoda maailma, jossa ihmisen itsemääräämisoikeus on oikeus, yksityisyys kunnioitetaan oletusarvoisesti, ja rahaa ei manipuloida
+wrong_answers:
   - Luoda maailma, jossa Bitcoin on ainoa valuutta
   - Luoda maailma, jossa hallituksilla ei ole minkäänlaista kontrollia
   - Luoda maailma, jossa fyysinen raha on vanhentunutta
-selitys: >-
+explanation: >-
   Teksti viittaa siihen, että Bitcoin-vallankumouksen päätavoite on
   luoda maailma, jossa ihmisen itsemääräämisoikeus on oikeus, yksityisyys kunnioitetaan oletusarvoisesti,
   ja rahaa ei manipuloida.

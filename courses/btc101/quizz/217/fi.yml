@@ -1,10 +1,10 @@
-kysymys: Millä aloilla Bitcoin herättää kysymyksiä?
-vastaus: Kryptografia, peliteoria, taloustiede ja rahapolitiikka, tietojenkäsittelytiede, filosofia, energia, lait ja sääntely
-väärät_vastaukset:
+question: Millä aloilla Bitcoin herättää kysymyksiä?
+answer: Kryptografia, peliteoria, taloustiede ja rahapolitiikka, tietojenkäsittelytiede, filosofia, energia, lait ja sääntely
+wrong_answers:
   - Vain tietojenkäsittelytiede ja taloustiede
   - Vain kryptografia ja peliteoria
   - Vain filosofia ja energia
-selitys: >-
+explanation: >-
   Bitcoin on monitieteellinen kohde, joka herättää kysymyksiä liittyen
   useisiin aloihin, mukaan lukien kryptografia, peliteoria, taloustiede ja rahapolitiikka,
   tietojenkäsittelytiede, filosofia, energia, lait ja sääntely.

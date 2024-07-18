@@ -1,10 +1,10 @@
-kysymys: Mikä on Bitcoinin tila joissakin maissa?
-vastaus: Kielletty ja kriminalisoitu
+question: Mikä on Bitcoinin tila joissakin maissa?
+answer: Kielletty ja kriminalisoitu
 vaarat_vastaukset:
   - Täysin omaksuttu
   - Osittain omaksuttu
   - Sääntelemätön
-selitys: >-
+explanation: >-
   Tekstissä mainitaan, että jotkin maat ovat kieltäneet ja kriminalisoineet Bitcoinin
   käytön, mikä lisää Bitcoinin omaksumisen monimutkaisuutta kulttuurien,
   aikakausien ja kansakuntien perusteella.

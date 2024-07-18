@@ -1,10 +1,10 @@
-kysymys: Mikä on louhittujen neitsytbitcoinien pääetu?
-vastaus: Niitä ei ole koskaan käytetty, eikä niihin liity historiaa.
-väärät_vastaukset:
+question: Mikä on louhittujen neitsytbitcoinien pääetu?
+answer: Niitä ei ole koskaan käytetty, eikä niihin liity historiaa.
+wrong_answers:
   - Ne voidaan myydä korkeammalla hinnalla.
   - Niitä voidaan käyttää laittomiin toimintoihin.
   - Niitä voidaan säilyttää pitkään menettämättä arvoaan.
-selitys: |
+explanation: |
   Louhittujen neitsytbitcoinien pääetu on, että niitä ei ole koskaan
   käytetty, eikä niihin liity historiaa. Näitä bitcoineja pidetään usein
   arvokkaampina, koska niitä ei ole "tahrattu", mikä tarjoaa jonkinlaisen takuun

@@ -1,10 +1,10 @@
-kysymys: Mitkä ovat Passkeyden käytön edut perinteisiin salasanoihin verrattuna?
-vastaus: Ne tarjoavat salattuja satunnaisia avaimia yhdistettynä paikalliseen tekijään, jotka isännöi palveluntarjoaja mutta pysyvät heidän ulottumattomissaan.
-väärät_vastaukset:
+question: Mitkä ovat Passkeyden käytön edut perinteisiin salasanoihin verrattuna?
+answer: Ne tarjoavat salattuja satunnaisia avaimia yhdistettynä paikalliseen tekijään, jotka isännöi palveluntarjoaja mutta pysyvät heidän ulottumattomissaan.
+wrong_answers:
   - Ne ovat helpompi muistaa kuin perinteiset salasanat.
   - Ne eivät vaadi mitään lisäautentikointitekijöitä.
   - Niitä voidaan käyttää kaikilla verkkosivustoilla ilman päivityksiä.
-selitys: |
+explanation: |
   Passkeyt tarjoavat salattuja satunnaisia avaimia, yhdistettynä paikalliseen tekijään
   (biometriset tunnisteet
   tai PIN-koodi), jotka isännöi palveluntarjoaja mutta pysyvät heidän ulottumattomissaan. Tämä lähestymistapa

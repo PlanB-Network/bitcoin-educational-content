@@ -1,11 +1,11 @@
-kysymys: Mitkä ovat rahan kolme perinteistä toimintoa?
-vastaus: Arvon säilyttäjä, Vaihdon väline, Tilin yksikkö
-väärät_vastaukset:
+question: Mitkä ovat rahan kolme perinteistä toimintoa?
+answer: Arvon säilyttäjä, Vaihdon väline, Tilin yksikkö
+wrong_answers:
   - Arvon säilyttäjä, Vaihdon väline, Tuotannon väline
   - Arvon säilyttäjä, Tuotannon väline, Tilin yksikkö
   - Vaihdon väline, Tuotannon väline, Tilin yksikkö
-selitys: |
+explanation: |
   Aristoteleen mukaan rahalla on kolme toimintoa: se on arvon säilyttäjä,
   vaihdon väline ja tilin yksikkö. Vaikka nykyään yleisesti hyväksytään, että
   vaihdon väline edeltää kahta muuta toimintoa.
-arvioitu: true
+reviewed: false

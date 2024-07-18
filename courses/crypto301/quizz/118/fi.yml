@@ -1,10 +1,10 @@
-kysymys:
+question:
   Onko mahdollista palauttaa Bitcoin-osoitteesta julkiseen avaimen, tai julkisesta avaimesta yksityiseen avaimen?
-vastaus: Tämä on väärin
-väärät_vastaukset:
+answer: Tämä on väärin
+wrong_answers:
   - Tämä on totta
   - Vain julkisesta avaimesta yksityiseen avaimen
   - Vain osoitteesta julkiseen avaimen
-selitys: |
+explanation: |
   Bitcoinissa ei ole mahdollista palauttaa osoitteesta julkiseen avaimen, eikä julkisesta avaimesta yksityiseen avaimen. Tämä on keskeinen osa Bitcoinin kryptografista turvallisuutta.
 arvioitu: false

@@ -1,9 +1,9 @@
-kysymys: Mikä on Bitcoinin omaksumisen luonne tekstin mukaan?
-vastaus: Viruksen kaltainen
+question: Mikä on Bitcoinin omaksumisen luonne tekstin mukaan?
+answer: Viruksen kaltainen
 vaarat_vastaukset:
   - Hidas ja tasainen
   - Nopea ja hallitsematon
   - Satunnainen ja ennustamaton
-selitys: >-
+explanation: >-
   Teksti kuvailee Bitcoinin omaksumista viruksen kaltaisena, mikä viittaa siihen, että se leviää nopeasti ja laajalti henkilöltä toiselle, aivan kuten virus.
 arvioitu: false

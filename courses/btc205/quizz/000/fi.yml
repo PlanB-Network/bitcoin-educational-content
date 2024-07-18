@@ -1,10 +1,10 @@
-kysymys: Mikä on KYC:n päätavoite?
-vastaus: Taistella rahanpesua, terrorismin rahoitusta ja veronkiertoa vastaan.
-väärät_vastaukset:
+question: Mikä on KYC:n päätavoite?
+answer: Taistella rahanpesua, terrorismin rahoitusta ja veronkiertoa vastaan.
+wrong_answers:
   - Lisätä yritysten noudattamiskustannuksia
   - Keskittää arkaluonteisia tietokantoja, jotka sisältävät henkilökohtaisia käyttäjätietoja
   - Estää ranskalaisia yrityksiä ja heikentää niiden kilpailukykyä
-selitys: |
+explanation: |
   KYC eli "Know Your Customer" (Tunne asiakkaasi) on sääntelystandardi, jonka tavoitteena on taistella
   rahanpesua, terrorismin rahoitusta ja veronkiertoa vastaan vaatimalla yksityisten asiakastietojen keräämistä.
 arvioitu: false

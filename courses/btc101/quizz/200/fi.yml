@@ -1,10 +1,10 @@
-kysymys: Mikä on spontaani ostos?
-vastaus: Bitcoinin ostaminen välittömästi altistuksen saamiseksi.
-väärät_vastaukset:
+question: Mikä on spontaani ostos?
+answer: Bitcoinin ostaminen välittömästi altistuksen saamiseksi.
+wrong_answers:
   - Bitcoinin ostaminen säännöllisin väliajoin.
   - Bitcoinin ostaminen vain, kun hinta laskee.
   - Bitcoinin ostaminen vain, kun hinta nousee.
-selitys: >-
+explanation: >-
   Teksti selittää, että spontaani ostos tarkoittaa Bitcoinin välitöntä
   hankkimista altistuksen saamiseksi. Tämä voi tarkoittaa ostamista kurssilaskun aikana tai
   bonuksen hyödyntämistä.

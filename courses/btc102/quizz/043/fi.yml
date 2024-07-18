@@ -1,9 +1,9 @@
-kysymys: Mikä on pääsyy siihen, miksi hallitukset ja keskuspankit tutkivat mahdollisuutta luoda digitaalinen versio fiat-valuutastaan?
-vastaus: Varmistaakseen kontrollin ja noudattaakseen paikallisia säädöksiä
-väärät_vastaukset:
+question: Mikä on pääsyy siihen, miksi hallitukset ja keskuspankit tutkivat mahdollisuutta luoda digitaalinen versio fiat-valuutastaan?
+answer: Varmistaakseen kontrollin ja noudattaakseen paikallisia säädöksiä
+wrong_answers:
   - Kilpaillakseen Bitcoinin kanssa
   - Tarjotakseen yksityisyydensuojaa
   - Lisätäkseen massavalvontaa
-selitys: |
+explanation: |
   Luvun sisältö selittää, että vaikka nämä projektit väittävät kilpailevansa Bitcoinin kanssa, ne pysyvät keskitettyinä varmistaakseen kontrollin ja noudattaakseen paikallisia säädöksiä.
 arvioitu: false

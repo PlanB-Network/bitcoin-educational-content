@@ -1,10 +1,10 @@
-kysymys: Mitä lompakon mnemonisen lauseen puuttuminen osoittaa?
-vastaus: Lompakko ei ole turvallinen pitkäaikaiseen säilytykseen
-väärät_vastaukset:
+question: Mitä lompakon mnemonisen lauseen puuttuminen osoittaa?
+answer: Lompakko ei ole turvallinen pitkäaikaiseen säilytykseen
+wrong_answers:
   - Lompakko on turvallinen pitkäaikaiseen säilytykseen
   - Lompakko ei ole turvallinen lyhytaikaiseen säilytykseen
   - Lompakko ei ole turvallinen käytettäväksi
-selitys: |
+explanation: |
   12 tai 24 sanan listan, eli mnemonisen lauseen, puuttuminen lompakosta tulisi herättää huolesi siitä,
   että lompakko ei ole turvallinen, koska se ei noudata standardia varmuuskopiointimenettelyä.
-arvioitu: true
+reviewed: false

@@ -1,10 +1,10 @@
-kysymys: Mikä on Bitcoin-verkon rytmi?
-vastaus: 10 minuuttia per lohko
+question: Mikä on Bitcoin-verkon rytmi?
+answer: 10 minuuttia per lohko
 vaarat_vastaukset:
   - 10 sekuntia per lohko
   - 10 minuuttia per siirto
   - 10 sekuntia per siirto
-selitys: |
+explanation: |
   Bitcoin-verkon rytmi on 10 minuuttia per lohko. Tämä on kuin
   Bitcoin-rahoitusjärjestelmän sydämenlyönti.
-arvioitu: true
+reviewed: false

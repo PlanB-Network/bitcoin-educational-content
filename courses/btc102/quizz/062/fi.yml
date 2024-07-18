@@ -1,8 +1,8 @@
-kysymys: Mikä on tarkoitus kysyä neljä kysymystä ennen Bitcoin-sijoitussuunnitelman valitsemista?
-vastaus: Valita sinulle parhaiten sopiva polku
-väärät_vastaukset:
+question: Mikä on tarkoitus kysyä neljä kysymystä ennen Bitcoin-sijoitussuunnitelman valitsemista?
+answer: Valita sinulle parhaiten sopiva polku
+wrong_answers:
   - Määrittää, kuinka paljon Bitcoinia sinun tulisi ostaa
   - Määrittää, minkä tyyppistä Bitcoin-lompakkoa sinun tulisi käyttää
   - Määrittää Bitcoin-sijoituksesi keston
-selitys: |
+explanation: |
   Neljän kysymyksen esittämisen tarkoitus ennen Bitcoin-sijoitussuunnitelman valitsemista on valita sinulle parhaiten sopiva polku. Kysymykset auttavat ymmärtämään sijoitustavoitteesi ja -mieltymyksesi.

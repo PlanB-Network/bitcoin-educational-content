@@ -1,12 +1,12 @@
-kysymys: Mikä on riski käyttäessä säilytyspalvelun lompakkoa?
-vastaus: Luotettu kolmas osapuoli voi milloin tahansa rajoittaa pääsyäsi varoihisi
-väärät_vastaukset:
+question: Mikä on riski käyttäessä säilytyspalvelun lompakkoa?
+answer: Luotettu kolmas osapuoli voi milloin tahansa rajoittaa pääsyäsi varoihisi
+wrong_answers:
   - Luotettu kolmas osapuoli voi milloin tahansa lisätä bitcoiniesi arvoa
   - Luotettu kolmas osapuoli voi milloin tahansa vähentää bitcoiniesi arvoa
   - Luotettu kolmas osapuoli voi milloin tahansa antaa bitcoinisi pois
-selitys: |
+explanation: |
   Kun käytät säilytyspalvelun lompakkoa, et ole bitcoiniesi ainoa haltija.
   Tämä tarkoittaa, että luotettu kolmas osapuoli voi milloin tahansa rajoittaa pääsyäsi varoihisi,
   antaen sinulle saman tason taloudellista itsemääräämisoikeutta kuin perinteisessä
   pankkijärjestelmässä.
-arvioitu: true
+reviewed: false

@@ -1,10 +1,10 @@
-kysymys: Mikä on kuluttajahintaindeksin (CPI) vaikutus inflaation mittaamiseen?
-vastaus: CPI voi aliarvioida todellista inflaatiota, koska se ei ota kattavasti huomioon kiinteistöjen hintojen kehitystä ja voi kompensoida tai peittää todellisia hinnannousuja.
-väärät_vastaukset:
+question: Mikä on kuluttajahintaindeksin (CPI) vaikutus inflaation mittaamiseen?
+answer: CPI voi aliarvioida todellista inflaatiota, koska se ei ota kattavasti huomioon kiinteistöjen hintojen kehitystä ja voi kompensoida tai peittää todellisia hinnannousuja.
+wrong_answers:
   - CPI mittaa aina inflaation tarkasti.
   - CPI yliarvioi todellista inflaatiota.
   - CPI:llä ei ole vaikutusta inflaation mittaamiseen.
-selitys: |
+explanation: |
   Luvussa selitetään, että CPI:tä käytetään inflaation pääindikaattorina,
   mutta sillä on tiettyjä rajoituksia. Esimerkiksi se ei ota kattavasti huomioon
   kiinteistöjen hintojen kehitystä. Lisäksi CPI:n laskentamenetelmissä on tiettyjä

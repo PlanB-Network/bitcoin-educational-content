@@ -1,8 +1,8 @@
-kysymys: Mikä transaktiomalli tekee CIOH:n käytön mitättömäksi?
-vastaus: Yhteistyöllinen transaktio.
-väärät_vastaukset:
+question: Mikä transaktiomalli tekee CIOH:n käytön mitättömäksi?
+answer: Yhteistyöllinen transaktio.
+wrong_answers:
   - Yksinkertainen maksu.
   - Konsolidointi.
   - Sweeping.
-selitys: |
+explanation: |
   CIOH ei sovellu transaktioihin, jotka noudattavat yhteistyöllistä mallia, koska tässä erityistapauksessa syötteet tulevat välttämättä eri tahoilta.

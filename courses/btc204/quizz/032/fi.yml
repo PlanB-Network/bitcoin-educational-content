@@ -1,9 +1,9 @@
-kysymys: Jos yksinkertaisessa maksutapahtumassa havaitaan, että samaa skriptityyppiä käytetään syötteessä ja vain yhdessä kahdesta lähdöstä, kumpi lähtö todennäköisesti edustaa vaihtorahaa?
-vastaus: Se, jossa on sama skriptityyppi kuin syötteessä.
-väärät_vastaukset:
+question: Jos yksinkertaisessa maksutapahtumassa havaitaan, että samaa skriptityyppiä käytetään syötteessä ja vain yhdessä kahdesta lähdöstä, kumpi lähtö todennäköisesti edustaa vaihtorahaa?
+answer: Se, jossa on sama skriptityyppi kuin syötteessä.
+wrong_answers:
   - Se, jossa on uusin skriptityyppi.
   - Se, jossa on eri skriptityyppi kuin syötteessä.
   - Se, jossa on ei-standardi skriptityyppi.
-selitys: |
+explanation: |
   Jos tapahtumassa esiintyy version uudelleenkäyttöä, on järkevää olettaa, että käyttäjällä on yhä hallussaan kyseinen UTXO. Siksi lähtö, jossa on sama skriptiversio kuin syötteessä, on todennäköisesti vaihtoraha.
 arvioitu: false

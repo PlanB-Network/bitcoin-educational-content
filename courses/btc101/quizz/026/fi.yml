@@ -1,9 +1,9 @@
-kysymys: Miksi kulta ei pysy mukana globalisoituneessa ja digitaalisessa maailmassa?
-vastaus: Sen jakaminen ja vaihtaminen vaativat keskitetyn tahon
-väärät_vastaukset:
+question: Miksi kulta ei pysy mukana globalisoituneessa ja digitaalisessa maailmassa?
+answer: Sen jakaminen ja vaihtaminen vaativat keskitetyn tahon
+wrong_answers:
   - Se ei ole tarpeeksi arvokasta
   - Se ei ole tarpeeksi harvinaista
   - Se kuluu ajan myötä
-selitys: |
+explanation: |
   Kulta ei pysy mukana globalisoituneessa ja digitaalisessa maailmassa, koska sen jakaminen ja vaihtaminen vaativat keskitetyn tahon. Tämä tekee siitä vähemmän käytännöllisen maailmassa, jossa transaktiot ovat yhä enemmän digitaalisia ja hajautettuja.
-arvioitu: true
+reviewed: false

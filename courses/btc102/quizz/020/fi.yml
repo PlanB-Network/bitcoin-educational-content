@@ -1,9 +1,9 @@
-kysymys: Mikä on sijoittamisen kultainen sääntö?
-vastaus: Älä koskaan sijoita enemmän kuin mitä voit varaa menettää.
+question: Mikä on sijoittamisen kultainen sääntö?
+answer: Älä koskaan sijoita enemmän kuin mitä voit varaa menettää.
 vaarat_vastaukset:
   - Sijoita aina siihen, mikä on muodikasta.
   - Sijoita aina lainarahalla.
   - Sijoita aina siihen, mitä et ymmärrä.
-selitys: |
+explanation: |
   Sijoittamisen kultainen sääntö on, että ei koskaan pitäisi sijoittaa enemmän kuin mitä voi varaa menettää. Tämä johtuu siitä, että sijoittaminen sisältää aina tietyn tason riskin, ja sinun tulisi sijoittaa vain rahaa, jonka menettäminen ei vaikuta taloudelliseen vakauttasi.
 arvioitu: false

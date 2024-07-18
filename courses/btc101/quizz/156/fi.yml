@@ -1,10 +1,10 @@
-kysymys: Mikä on louhintaltaivaiden tarkoitus?
-vastaus: Louhintaltaivaiden avulla louhijat voivat yhdistää laskentatehonsa ja saada pienempiä mutta säännöllisempiä palkkioita.
-väärät_vastaukset:
+question: Mikä on louhintaltaivaiden tarkoitus?
+answer: Louhintaltaivaiden avulla louhijat voivat yhdistää laskentatehonsa ja saada pienempiä mutta säännöllisempiä palkkioita.
+wrong_answers:
   - Louhintaltaivaita käytetään Bitcoin-verkon HashRaten kasvattamiseen.
   - Louhintaltaivaita käytetään louhinnan vaikeustason alentamiseen.
   - Louhintaltaivaita käytetään louhinnasta saatavan palkkion suurentamiseen.
-selitys: >-
+explanation: >-
   Louhintaltaivaiden avulla louhijoiden ryhmät yhdistävät laskentatehonsa
   kasvattaakseen mahdollisuuksiaan louhia lohko. Yhdistämällä resurssinsa he voivat
   louhia lohkoja useammin ja saada pienempiä mutta säännöllisempiä palkkioita.

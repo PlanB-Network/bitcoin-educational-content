@@ -1,9 +1,9 @@
-kysymys: Miten Bitcoinissa estetään kaksinkertainen kulutus?
-vastaus: Julkaisemalla kaikki järjestelmän transaktiot julkisesti.
-väärät_vastaukset:
+question: Miten Bitcoinissa estetään kaksinkertainen kulutus?
+answer: Julkaisemalla kaikki järjestelmän transaktiot julkisesti.
+wrong_answers:
   - Varmistamalla käyttäjien henkilöllisyys ennen jokaista transaktiota.
   - Tarkastelemalla transaktioita säännöllisesti tilintarkastajien toimesta.
   - Rajoittamalla käyttäjäkohtaisten transaktioiden määrää.
-selitys: |
+explanation: |
   Vahvistaakseen transaktion puuttumisen, ja siten välttääkseen kaksinkertaisen kulutuksen, on välttämätöntä, että jokainen käyttäjä on tietoinen kaikista aiemmista transaktioista.
 arvioitu: false

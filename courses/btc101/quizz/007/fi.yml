@@ -1,11 +1,11 @@
-kysymys: Mikä on tämän Bitcoin-kurssin pääpaino?
-vastaus: Bitcoinin rahalliset näkökohdat.
-väärät_vastaukset:
+question: Mikä on tämän Bitcoin-kurssin pääpaino?
+answer: Bitcoinin rahalliset näkökohdat.
+wrong_answers:
   - Bitcoinin koodausnäkökohdat.
   - Bitcoinin ekologinen vaikutus.
   - Bitcoinin sääntelyyn liittyvät näkökohdat.
-selitys: |
+explanation: |
   Tämä Bitcoin-kurssi keskittyy Bitcoinin rahallisiin näkökohtiin, mukaan lukien
   miten ostaa ja myydä bitcoineja, säilyttää niitä turvallisesti digitaalisissa lompakoissa ja käyttää niitä
   transaktioissa.
-arvioitu: true
+reviewed: false

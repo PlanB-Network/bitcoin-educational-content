@@ -1,9 +1,9 @@
-kysymys: Mikä on vastaanotto-osoite Bitcoinissa?
-vastaus: Alfanumeerinen esitys tiivistetystä julkisesta avaimesta.
+question: Mikä on vastaanotto-osoite Bitcoinissa?
+answer: Alfanumeerinen esitys tiivistetystä julkisesta avaimesta.
 vaarat_vastaukset:
   - Ainutlaatuinen tunniste jokaiselle Bitcoin-siirrolle.
   - Salasana Bitcoin-lompakon käyttöön.
   - Digitaalinen allekirjoitus Bitcoin-siirroille.
-selitys: |
+explanation: |
   Vastaanotto-osoite Bitcoinissa on alfanumeerinen esitys tiivistetystä julkisesta avaimesta. Sitä käytetään vastaanottamaan Bitcoin-siirtoja.
 arvioitu: false

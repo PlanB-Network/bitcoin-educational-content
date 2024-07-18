@@ -1,9 +1,9 @@
-kysymys: Mikä maa on tehnyt Bitcoinista laillisen maksuvälineen vuodesta 2021 lähtien?
-vastaus: El Salvador
-väärät_vastaukset:
+question: Mikä maa on tehnyt Bitcoinista laillisen maksuvälineen vuodesta 2021 lähtien?
+answer: El Salvador
+wrong_answers:
   - Ranska
   - Yhdysvallat
   - Kiina
-selitys: >-
+explanation: >-
   El Salvador on tehnyt Bitcoinista laillisen maksuvälineen vuodesta 2021 lähtien, edistäen Bitcoin-talouden kehitystä alueella.
 arvioitu: false

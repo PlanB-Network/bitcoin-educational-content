@@ -1,10 +1,10 @@
-kysymys: Mitkä ovat Lightning-maksukanavien hyödyt?
-vastaus: Ne mahdollistavat käyttäjille Bitcoinien lähettämisen ja vastaanottamisen ilman, että heidän tarvitsee maksaa korkeita siirtomaksuja tai odottaa pitkiä vahvistusaikoja Bitcoin-verkossa.
-väärät_vastaukset:
+question: Mitkä ovat Lightning-maksukanavien hyödyt?
+answer: Ne mahdollistavat käyttäjille Bitcoinien lähettämisen ja vastaanottamisen ilman, että heidän tarvitsee maksaa korkeita siirtomaksuja tai odottaa pitkiä vahvistusaikoja Bitcoin-verkossa.
+wrong_answers:
   - Ne mahdollistavat käyttäjille tehokkaamman Bitcoinien louhinnan
   - Ne mahdollistavat käyttäjille turvallisemman Bitcoinien säilytyksen
   - Ne mahdollistavat käyttäjille Bitcoinien vaihtamisen muihin kryptovaluuttoihin
-selitys: |
+explanation: |
   Lightning-maksukanavat ovat tehokas tapa suorittaa nopeita ja
   edullisia
   Bitcoin-siirtoja. Ne mahdollistavat käyttäjille Bitcoinien lähettämisen ja vastaanottamisen ilman,

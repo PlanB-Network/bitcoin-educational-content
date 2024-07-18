@@ -1,10 +1,10 @@
-kysymys: Mikä on Lightning Network?
-vastaus: Kerros-2 ratkaisu Bitcoinille, joka mahdollistaa nopeat, edulliset transaktiot
+question: Mikä on Lightning Network?
+answer: Kerros-2 ratkaisu Bitcoinille, joka mahdollistaa nopeat, edulliset transaktiot
 vaarat_vastaukset:
   - Eräänlainen digitaalinen lompakko Bitcoinien säilyttämiseen
   - Menetelmä Bitcoinien louhimiseen
   - Kirjaus kaikista transaktioista Bitcoin-verkossa
-selitys: |
+explanation: |
   Lightning Network on kerros-2 ratkaisu Bitcoinille, joka mahdollistaa
   nopeat, edulliset transaktiot. Se toimii Bitcoinin lohkoketjun päällä ja mahdollistaa
   off-chain-transaktiot, jotka ovat nopeampia ja edullisempia kuin on-chain-transaktiot.

@@ -1,9 +1,9 @@
-kysymys: Mitä tapahtuu, kun korkotaso laskee luoton määrän kasvaessa Itävaltalaisen liiketoimintasyklin teorian mukaan?
-vastaus: Yrittäjät voivat lainata enemmän resursseja ja siten luoda korkeamman asteen tuotantovaiheita. Tämän tuotantorakenteen laajentuminen ei johda kulutuksen vähenemiseen, koska kuluttajat eivät ole lykänneet nykyhetken kulutusta. Toisin sanoen, BKT kasvaa.
-väärät_vastaukset:
+question: Mitä tapahtuu, kun korkotaso laskee luoton määrän kasvaessa Itävaltalaisen liiketoimintasyklin teorian mukaan?
+answer: Yrittäjät voivat lainata enemmän resursseja ja siten luoda korkeamman asteen tuotantovaiheita. Tämän tuotantorakenteen laajentuminen ei johda kulutuksen vähenemiseen, koska kuluttajat eivät ole lykänneet nykyhetken kulutusta. Toisin sanoen, BKT kasvaa.
+wrong_answers:
   - Yrittäjät voivat lainata vähemmän resursseja ja siten luoda alempia tuotantovaiheita. Tämän tuotantorakenteen laajentuminen johtaa kulutuksen kasvuun, koska kuluttajat ovat lykänneet nykyhetken kulutusta. Toisin sanoen, BKT supistuu.
   - Yrittäjät voivat lainata enemmän resursseja ja siten luoda alempia tuotantovaiheita. Tämän tuotantorakenteen laajentuminen johtaa kulutuksen vähenemiseen, koska kuluttajat eivät ole lykänneet nykyhetken kulutusta. Toisin sanoen, BKT supistuu.
   - Yrittäjät voivat lainata vähemmän resursseja ja siten luoda korkeamman asteen tuotantovaiheita. Tämän tuotantorakenteen laajentuminen johtaa kulutuksen kasvuun, koska kuluttajat ovat lykänneet nykyhetken kulutusta. Toisin sanoen, BKT kasvaa.
-selitys: |
+explanation: |
   Itävaltalaisen liiketoimintasyklin teorian mukaan, kun korkotaso laskee luoton määrän kasvaessa, yrittäjät voivat lainata enemmän resursseja ja siten luoda korkeamman asteen tuotantovaiheita. Tämän tuotantorakenteen laajentuminen ei johda kulutuksen vähenemiseen, koska kuluttajat eivät ole lykänneet nykyhetken kulutusta. Toisin sanoen, BKT kasvaa.
 arvioitu: false

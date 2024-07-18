@@ -1,10 +1,10 @@
-kysymys: Mikä on yksi Bitcoinin käyttäjän ominaisuus, joka on pragmaattinen ja sitoutunut?
-vastaus: He ovat aktiivisesti mukana ekosysteemissä ja tukevat sitä aktiivisesti usein käyttämällä.
-väärät_vastaukset:
+question: Mikä on yksi Bitcoinin käyttäjän ominaisuus, joka on pragmaattinen ja sitoutunut?
+answer: He ovat aktiivisesti mukana ekosysteemissä ja tukevat sitä aktiivisesti usein käyttämällä.
+wrong_answers:
   - He käyttävät Bitcoinia vain satunnaisesti.
   - He käyttävät Bitcoinia vain pitkäaikaisena sijoituksena.
   - He käyttävät Bitcoinia vain yhdellä vaihtoalustalla.
-selitys: |
+explanation: |
   Pragmaattiset ja sitoutuneet Bitcoinin käyttäjät ovat aktiivisesti mukana Bitcoinin
   ekosysteemissä ja tukevat sitä usein käyttämällä.
 arvioitu: false

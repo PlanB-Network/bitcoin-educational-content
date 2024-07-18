@@ -1,10 +1,10 @@
-kysymys: Mikä oli Englannin pankin reaktio pankkipaniikkiin vuonna 1796?
-vastaus: Se keskeytti seteleidensä vaihdettavuuden kultaan
-väärät_vastaukset:
+question: Mikä oli Englannin pankin reaktio pankkipaniikkiin vuonna 1796?
+answer: Se keskeytti seteleidensä vaihdettavuuden kultaan
+wrong_answers:
   - Se laski liikkeeseen lisää seteleitä
   - Se sulki ovensa
   - Se nosti seteleidensä arvoa
-selitys: |
+explanation: |
   Pankkipaniikin vuonna 1796 seurauksena Englannin pankki keskeytti
 
   seteleidensä vaihdettavuuden

@@ -1,10 +1,10 @@
-kysymys: Mikä on salasananhallintaohjelman pääasiallinen tehtävä?
-vastaus: Tallentaa ja hallinnoida salasanojasi
-väärät_vastaukset:
+question: Mikä on salasananhallintaohjelman pääasiallinen tehtävä?
+answer: Tallentaa ja hallinnoida salasanojasi
+wrong_answers:
   - Generoida satunnaisia salasanoja
   - Muistaa käyttäjätunnuksesi
   - Suojata tietokoneesi viruksilta
-selitys: |
+explanation: |
   Salasananhallintaohjelma on ohjelmisto, joka tallentaa ja hallinnoi salasanojasi.
 
   Se auttaa sinua olemaan käyttämättä samaa salasanaa kahdesti, valitsemaan monimutkaisia ja turvallisia salasanoja,

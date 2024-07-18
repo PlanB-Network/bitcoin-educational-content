@@ -1,9 +1,9 @@
-kysymys: Mikä on yksi tekijöistä, joka voi aiheuttaa Bitcoinin hinnan vaihtelua?
-vastaus: Markkinavaihtelut sekä nousu- ja laskumarkkinavaiheet.
-väärät_vastaukset:
+question: Mikä on yksi tekijöistä, joka voi aiheuttaa Bitcoinin hinnan vaihtelua?
+answer: Markkinavaihtelut sekä nousu- ja laskumarkkinavaiheet.
+wrong_answers:
   - Internetin käyttäjien määrä.
   - Sää.
   - Kullan hinta.
-selitys: >-
+explanation: >-
   Bitcoinin hinta on usein merkittävän volatiliteetin leimaamaa,
   johon voi vaikuttaa markkinavaihtelut sekä nousu- ja laskumarkkinavaiheet.

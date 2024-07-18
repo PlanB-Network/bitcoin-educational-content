@@ -1,10 +1,10 @@
-kysymys: Mitä sanonta "Ei sinun hashrate, ei sinun palkkio" tarkoittaa Bitcoin-louhinnan yhteydessä?
-vastaus: Jos et hallitse hashratea, et hallitse louhintapalkkioita.
-väärät_vastaukset:
+question: Mitä sanonta "Ei sinun hashrate, ei sinun palkkio" tarkoittaa Bitcoin-louhinnan yhteydessä?
+answer: Jos et hallitse hashratea, et hallitse louhintapalkkioita.
+wrong_answers:
   - Jos sinulla ei ole korkeaa hashratea, et saa mitään palkkioita.
   - Jos et omista Bitcoinia, et saa mitään palkkioita.
   - Jos sinulla ei ole louhintakonetta, et saa mitään palkkioita.
-selitys: |
+explanation: |
   Sanonta "Ei sinun hashrate, ei sinun palkkio" on samankaltainen kuin tunnettu
   sanonta kryptovaluuttojen maailmassa, "Ei sinun avaimet, ei sinun Bitcoinisi." Se tarkoittaa,
   että jos et hallitse hashratea, et hallitse louhintapalkkioita.

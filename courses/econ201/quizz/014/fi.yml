@@ -1,10 +1,10 @@
-kysymys: "Mikä on perustavanlaatuinen ero Carl Mengerin rajahyötyteorian ja Leon Walrasin sekä William Stanley Jevonsin teorioiden välillä?"
-vastaus: Mengerin teoria on pääasiassa subjektiivinen, kun taas Walras ja Jevons pitävät arvoa objektiivisena ja mitattavana ilmiönä.
-väärät_vastaukset:
+question: "Mikä on perustavanlaatuinen ero Carl Mengerin rajahyötyteorian ja Leon Walrasin sekä William Stanley Jevonsin teorioiden välillä?"
+answer: Mengerin teoria on pääasiassa subjektiivinen, kun taas Walras ja Jevons pitävät arvoa objektiivisena ja mitattavana ilmiönä.
+wrong_answers:
   - Mengerin teoria on pääasiassa objektiivinen, kun taas Walras ja Jevons pitävät arvoa subjektiivisena ja mittaamattomana ilmiönä.
   - Mengerin teoria perustuu työn arvoteoriaan, kun taas Walras ja Jevons pitävät arvoa tuotannossa käytetyn maan määrän perusteella.
   - Mengerin teoria perustuu fysiokraattien maan arvon teoriaan, kun taas Walras ja Jevons pitävät arvoa tuotannossa käytetyn työn perusteella.
-selitys: |
+explanation: |
   Mengerin rajahyötyteorian mukaan arvo on subjektiivinen,
   mikä tarkoittaa, että se perustuu yksilön käsitykseen hyödystä, jonka hän voi saada
   tavarasta tai palvelusta. Toisaalta Walras ja Jevons pitävät arvoa

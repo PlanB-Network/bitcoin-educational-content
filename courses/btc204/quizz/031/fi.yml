@@ -1,9 +1,9 @@
-kysymys: Jos yksinkertaisessa maksutapahtumassa sama osoite käytetään syötteenä ja yhdessä kahdesta lähdöstä, kumpi lähtö todennäköisesti edustaa vaihtorahaa?
-vastaus: Se, jolla on sama osoite kuin syötteessä.
-väärät_vastaukset:
+question: Jos yksinkertaisessa maksutapahtumassa sama osoite käytetään syötteenä ja yhdessä kahdesta lähdöstä, kumpi lähtö todennäköisesti edustaa vaihtorahaa?
+answer: Se, jolla on sama osoite kuin syötteessä.
+wrong_answers:
   - Se, jolla on uusin osoite.
   - Se, jolla on eri osoite kuin syötteessä.
   - Se, jonka osoite on tuntematon.
-selitys: |
+explanation: |
   Jos saman tapahtuman sisällä tapahtuu osoitteen uudelleenkäyttö, on järkevää olettaa, että käyttäjä yhä hallitsee kyseistä UTXO:a. Siksi lähtö, jolla on sama osoite kuin syötteessä, on todennäköisesti vaihtoraha.
 arvioitu: false

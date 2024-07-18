@@ -1,10 +1,10 @@
-kysymys: Mitkä ovat yleisimmin käytetyt etuliitteet laajennetuille avaimille?
-vastaus: xpub ja zpub
+question: Mitkä ovat yleisimmin käytetyt etuliitteet laajennetuille avaimille?
+answer: xpub ja zpub
 vaarat_vastaukset:
   - xprv ja zprv
   - ypub ja zpub
   - xpub ja ypub
-selitys: |
+explanation: |
   Yleisimmin käytetyt etuliitteet ovat xpub ja zpub, jotka vastaavat
 
   perintöä ja segwit v1 sekä segwit v0 standardeja, vastaavasti.

@@ -1,9 +1,9 @@
-kysymys: Missä tapauksessa havaittiin vastaava päivittäinen inflaationopeus 100%?
-vastaus: Zimbabwessa, 2007
-väärät_vastaukset:
+question: Missä tapauksessa havaittiin vastaava päivittäinen inflaationopeus 100%?
+answer: Zimbabwessa, 2007
+wrong_answers:
   - Unkarissa, 1945
   - Kiinassa, 1940
   - Tämä on epärealistinen tapaus, joka ei voi tapahtua
-selitys: |
+explanation: |
   100% inflaatio päivässä on realistinen skenaario, joka on tapahtunut Zimbabwessa vuonna 2007, kun rahan arvo kaksinkertaistui suunnilleen joka 24h.
-arvioitu: true
+reviewed: false

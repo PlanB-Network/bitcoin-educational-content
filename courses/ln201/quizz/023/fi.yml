@@ -1,10 +1,10 @@
-kysymys: Mikä on vetäytymistransaktion tarkoitus Lightning Network -siirrossa?
-vastaus: Se edustaa kanavan tilaa, taaten kuka omistaa varat jokaisen siirron jälkeen.
-väärät_vastaukset:
+question: Mikä on vetäytymistransaktion tarkoitus Lightning Network -siirrossa?
+answer: Se edustaa kanavan tilaa, taaten kuka omistaa varat jokaisen siirron jälkeen.
+wrong_answers:
   - Se on transaktio, joka siirtää varat toiselta puolelta toiselle.
   - Se on transaktio, joka avaa kanavan.
   - Se on transaktio, joka sulkee kanavan.
-selitys: |
+explanation: |
   Vetäytymistransaktio päivitetään jokaisen Lightning Network -siirron jälkeen
   heijastamaan kanavan nykyistä tilaa. Se takaa, kuka omistaa varat
   jokaisen siirron jälkeen, mutta sitä ei suoriteta, ellei kanavaa suljeta.

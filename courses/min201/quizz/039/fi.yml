@@ -1,10 +1,10 @@
-kysymys: Mikä on mahdollinen haittapuoli louhinnasta verkolle?
-vastaus: Ilman riittävää taloudellista kannustinta louhijoiden voi olla vaikea jatkaa verkon tukemista
-väärät_vastaukset:
+question: Mikä on mahdollinen haittapuoli louhinnasta verkolle?
+answer: Ilman riittävää taloudellista kannustinta louhijoiden voi olla vaikea jatkaa verkon tukemista
+wrong_answers:
   - Se voi johtaa Bitcoinin hinnan laskuun
   - Se voi johtaa verkon hashraten kasvuun
   - Se voi johtaa aktiivisten solmujen määrän vähenemiseen verkossa
-selitys: |
+explanation: |
   Louhinta verkossa on jalostava aloite, joka edistää Bitcoin-verkon
   turvallisuutta ja hajauttamista. Kuitenkin ilman riittävää taloudellista kannustinta louhijoiden voi olla vaikea jatkaa verkon tukemista,
   erityisesti jos he toimivat tappiolla.

@@ -1,10 +1,10 @@
-kysymys: Miten tekstissä kuvataan Bitcoinia?
-vastaus: Monitieteinen kohde
-väärät_vastaukset:
+question: Miten tekstissä kuvataan Bitcoinia?
+answer: Monitieteinen kohde
+wrong_answers:
   - Yksinkertainen kohde
   - Monimutkainen kohde
   - Yksitieteellinen kohde
-selitys: >-
+explanation: >-
   Bitcoinia kuvataan monitieteisenä kohteena, koska se herättää
   kysymyksiä liittyen useisiin eri aloihin, mukaan lukien kryptografia, peliteoria, taloustiede
   ja rahapolitiikka, tietojenkäsittelytiede, filosofia, energia, lait ja säädökset.

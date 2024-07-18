@@ -1,10 +1,10 @@
-kysymys: Mikä on sisäsyntyinen suhde rahamäärän laajentumisen ja inflaation välillä, kuten Milton Friedman on todennut?
-vastaus: Inflaatio on aina ja kaikkialla rahailmiö.
-väärät_vastaukset:
+question: Mikä on sisäsyntyinen suhde rahamäärän laajentumisen ja inflaation välillä, kuten Milton Friedman on todennut?
+answer: Inflaatio on aina ja kaikkialla rahailmiö.
+wrong_answers:
   - Inflaatio on aina ja kaikkialla finanssi-ilmiö.
   - Inflaatio on aina ja kaikkialla poliittinen ilmiö.
   - Inflaatio on aina ja kaikkialla sosiaalinen ilmiö.
-selitys: |
+explanation: |
   Milton Friedman, tunnettu taloustieteilijä, on kuuluisasti todennut, että "Inflaatio
   on aina ja kaikkialla rahailmiö." Tämä lausunto korostaa sisäsyntyistä
   suhdetta rahamäärän laajentumisen ja inflaation välillä.

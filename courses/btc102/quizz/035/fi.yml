@@ -1,9 +1,9 @@
-kysymys: Kuka kuvasi Bitcoinia "sveitsiläisenä pankkina taskussasi"?
-vastaus: Barack Obama
-väärät_vastaukset:
+question: Kuka kuvasi Bitcoinia "sveitsiläisenä pankkina taskussasi"?
+answer: Barack Obama
+wrong_answers:
   - Donald Trump
   - Bill Gates
   - Elon Musk
-selitys: |
+explanation: |
   Luvussa mainitaan, että Barack Obama on kuvannut Bitcoinia "sveitsiläisenä pankkina taskussasi".
 arvioitu: false

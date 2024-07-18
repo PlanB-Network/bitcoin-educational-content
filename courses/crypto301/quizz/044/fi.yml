@@ -1,10 +1,10 @@
-kysymys: Mikä on generaattoripisteen rooli elliptisellä käyrällä?
-vastaus: Sitä käytetään laskemaan piste elliptisellä käyrällä.
-väärät_vastaukset:
+question: Mikä on generaattoripisteen rooli elliptisellä käyrällä?
+answer: Sitä käytetään laskemaan piste elliptisellä käyrällä.
+wrong_answers:
   - Sitä käytetään nonce-arvon generoimiseen.
   - Sitä käytetään avainten salaamiseen.
   - Sitä käytetään avainten tallentamiseen.
-selitys: |
+explanation: |
   Generaattoripiste on tietty piste elliptisellä käyrällä, jota
   käytetään muiden pisteiden laskemisessa käyrällä. Sitä käytetään julkisten ja yksityisten avainten
   generoinnissa, sekä digitaalisten allekirjoitusten luomisessa ja varmentamisessa.

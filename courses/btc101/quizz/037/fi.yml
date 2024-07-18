@@ -1,9 +1,9 @@
-kysymys: Mikä taho vastaa setelirahan liikkeeseenlaskusta?
-vastaus: Keskuspankki
-väärät_vastaukset:
+question: Mikä taho vastaa setelirahan liikkeeseenlaskusta?
+answer: Keskuspankki
+wrong_answers:
   - Kaupallinen Pankki
   - Hallitus
   - Yksityiset Laitokset
-selitys: |
+explanation: |
   Keskuspankit ovat tahoja, jotka vastaavat setelirahan liikkeeseenlaskusta. Ne päättävät rahapolitiikasta ja määrittävät, kuinka paljon rahaa tulisi laskea liikkeeseen tai painaa.
-arvioitu: true
+reviewed: false

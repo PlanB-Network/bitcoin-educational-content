@@ -1,10 +1,10 @@
-kysymys: Miksi on tärkeää vaihtaa vanhat salasanasi vähitellen salasananhallintaohjelman luomiin salasanoihin?
-vastaus: Salasananhallintaohjelman luomat salasanat ovat vahvempia ja pidempiä, tarjoten parempaa turvallisuutta.
-väärät_vastaukset:
+question: Miksi on tärkeää vaihtaa vanhat salasanasi vähitellen salasananhallintaohjelman luomiin salasanoihin?
+answer: Salasananhallintaohjelman luomat salasanat ovat vahvempia ja pidempiä, tarjoten parempaa turvallisuutta.
+wrong_answers:
   - Vanhat salasanat poistetaan automaattisesti salasananhallintaohjelman toimesta.
   - Salasananhallintaohjelmat voivat tallentaa vain rajallisen määrän salasanoja.
   - Salasananhallintaohjelmat vaativat, että kaikki salasanat on luotu niiden toimesta.
-selitys: |
+explanation: |
   Salasananhallintaohjelman luomat salasanat ovat vahvempia ja pidempiä, tarjoten
 
   parempaa turvallisuutta. Vaihtamalla vanhat salasanasi vähitellen näihin, voit parantaa

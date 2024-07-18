@@ -1,10 +1,10 @@
-kysymys: Mikä on Bitcoinin pääominaisuus, joka erottaa sen muista kryptovaluutoista?
-vastaus: Bitcoin on ainoa todella hajautettu, sensuroimaton, vapaa ja vakavasti otettava kryptovaluutta.
-väärät_vastaukset:
+question: Mikä on Bitcoinin pääominaisuus, joka erottaa sen muista kryptovaluutoista?
+answer: Bitcoin on ainoa todella hajautettu, sensuroimaton, vapaa ja vakavasti otettava kryptovaluutta.
+wrong_answers:
   - Bitcoin on ainoa kryptovaluutta, jota voidaan louhia.
   - Bitcoin on ainoa kryptovaluutta, jota voidaan ostaa tai myydä vaihtoalustoilla.
   - Bitcoin on ainoa kryptovaluutta, jota voidaan säilyttää lompakossa.
-selitys: |
+explanation: |
   Luvun sisältö toteaa, että Bitcoin on ainoa todella hajautettu,
   sensuroimaton, vapaa ja vakavasti otettava kryptovaluutta, mikä oikeuttaa tuhansien
   tuntien työhön. Tämä on keskeinen ominaisuus, joka erottaa Bitcoinin muista

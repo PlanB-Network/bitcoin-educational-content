@@ -1,10 +1,10 @@
-kysymys: Mikä on ero osoitteiden välillä, jotka alkavat bc1q ja bc1p Bitcoinissa?
-vastaus: bc1q-osoitteet käyttävät Segwit V0:aa, kun taas bc1p-osoitteet käyttävät Segwit V1:ä.
+question: Mikä on ero osoitteiden välillä, jotka alkavat bc1q ja bc1p Bitcoinissa?
+answer: bc1q-osoitteet käyttävät Segwit V0:aa, kun taas bc1p-osoitteet käyttävät Segwit V1:ä.
 vaarat_vastaukset:
   - bc1q-osoitteet käyttävät Segwit V1:ä, kun taas bc1p-osoitteet käyttävät Segwit V0:aa.
   - Sekä bc1q että bc1p -osoitteet käyttävät Segwit V0:aa.
   - Sekä bc1q että bc1p -osoitteet käyttävät Segwit V1:ä.
-selitys: |
+explanation: |
   Osoitteen luomiseksi, joka alkaa bc1q:lla, käytämme Segwit V0:aa. Toisaalta Taproot-osoitteet,
 
   alkavat bc1p:llä, koska niiden versio (Segwit V1) vastaa

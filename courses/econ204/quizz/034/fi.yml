@@ -1,9 +1,9 @@
-kysymys: Mikä on zombiyritys?
-vastaus: Yritys, joka normaaleissa markkinaolosuhteissa olisi maksukyvytön tai lähellä konkurssia, mutta jatkaa toimintaansa pääasiassa edullisen lainanoton avulla.
-väärät_vastaukset:
+question: Mikä on zombiyritys?
+answer: Yritys, joka normaaleissa markkinaolosuhteissa olisi maksukyvytön tai lähellä konkurssia, mutta jatkaa toimintaansa pääasiassa edullisen lainanoton avulla.
+wrong_answers:
   - Yritys, joka on ollut toiminnassa yli 100 vuotta.
   - Yritys, joka toimii teknologia-alalla.
   - Yritys, joka on saanut valtion pelastuspaketin.
-selitys: |
+explanation: |
   Zombiyritys on yritys, joka normaaleissa markkinaolosuhteissa olisi maksukyvytön tai lähellä konkurssia, mutta jatkaa toimintaansa pääasiassa edullisen lainanoton avulla. Nämä yritykset tienaavat juuri tarpeeksi rahaa kattaakseen velkansa, mutta eivät kykene merkittävään kasvuun.
 arvioitu: false

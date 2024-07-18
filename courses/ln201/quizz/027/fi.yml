@@ -1,10 +1,10 @@
-kysymys: Milloin nostotapahtuma suoritetaan Lightning Network -siirrossa?
-vastaus: Kun kanava suljetaan.
+question: Milloin nostotapahtuma suoritetaan Lightning Network -siirrossa?
+answer: Kun kanava suljetaan.
 vaarat_vastaukset:
   - Kun siirto tehdään.
   - Kun kanava avataan.
   - Sitä ei suoriteta koskaan.
-selitys: |
+explanation: |
   Nostotapahtuma, joka edustaa kanavan tilaa,
   ei suoriteta, ellei kanavaa suljeta.
 arvioitu: false

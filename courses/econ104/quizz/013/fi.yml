@@ -1,13 +1,13 @@
-kysymys: Kuinka Bitcoin hyödyttää ihmisiä sota-alueilla tai epävakaissa maissa?
-vastaus: Se mahdollistaa arvon säilyttämisen hajautetulla ja turvallisella tavalla, joka on vastustuskykyisempi varkauksille
-väärät_vastaukset:
+question: Kuinka Bitcoin hyödyttää ihmisiä sota-alueilla tai epävakaissa maissa?
+answer: Se mahdollistaa arvon säilyttämisen hajautetulla ja turvallisella tavalla, joka on vastustuskykyisempi varkauksille
+wrong_answers:
   - Se mahdollistaa pääsyn perinteisiin pankkipalveluihin
   - Se tarjoaa fyysisen omaisuuserän, jonka arvo voi kasvaa
   - Se tarjoaa suojan deflaatiota vastaan
-selitys: |
+explanation: |
   Sota-alueilla tai epävakaissa maissa ihmiset voivat kohdata vaikeuksia 
   päästä käsiksi perinteisiin pankkipalveluihin tai kohdata varkauden tai 
   fyysisten omaisuuserien takavarikoinnin riskin. Bitcoin mahdollistaa yksilöiden arvon säilyttämisen 
   hajautetulla ja turvallisella tavalla ilman välittäjiä 
   tai fyysisiä omaisuuseriä, jotka ovat alttiita riskeille kuten inflaatio, varkaus tai takavarikointi.
-arvioitu: true
+reviewed: false

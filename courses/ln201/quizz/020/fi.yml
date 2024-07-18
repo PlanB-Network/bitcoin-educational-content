@@ -1,9 +1,9 @@
-kysymys: Mitkä ovat eri viestintätasot Lightning-verkossa?
-vastaus: P2P-viestintä, Maksukanava, Bitcoin-siirto
-väärät_vastaukset:
+question: Mitkä ovat eri viestintätasot Lightning-verkossa?
+answer: P2P-viestintä, Maksukanava, Bitcoin-siirto
+wrong_answers:
   - P2P-viestintä, Bitcoin-siirto, Ethereum-siirto
   - Maksukanava, Bitcoin-siirto, Litecoin-siirto
   - P2P-viestintä, Maksukanava, Ripple-siirto
-selitys: |
+explanation: |
   Lightning-verkossa on kolme erilaista viestintätasoa; P2P-viestintä (Lightning-verkon protokolla), Maksukanava (Lightning-verkon protokolla) ja Bitcoin-siirto (Bitcoin-protokolla).
 arvioitu: false

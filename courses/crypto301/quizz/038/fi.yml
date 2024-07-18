@@ -1,9 +1,9 @@
-kysymys: Mikä on teoreettinen mahdollisuuksien kokonaismäärä yksityiselle avaimelle?
-vastaus: 2^256
+question: Mikä on teoreettinen mahdollisuuksien kokonaismäärä yksityiselle avaimelle?
+answer: 2^256
 vaarat_vastaukset:
   - 2^128
   - 2^512
   - 2^1024
-selitys: |
+explanation: |
   Yksityisen avaimen teoreettinen mahdollisuuksien kokonaismäärä on 2^256, mutta todellisuudessa se on hieman vähemmän kuin tuo.
 arvioitu: false

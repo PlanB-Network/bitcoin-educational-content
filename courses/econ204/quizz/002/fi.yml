@@ -1,9 +1,9 @@
-kysymys: Mikä on inflaation määritelmä Robertin mukaan?
-vastaus: Inflaatio on maksuvälineiden liiallinen lisääntyminen, mikä aiheuttaa hintojen nousun ja valuutan arvon alenemisen.
-väärät_vastaukset:
+question: Mikä on inflaation määritelmä Robertin mukaan?
+answer: Inflaatio on maksuvälineiden liiallinen lisääntyminen, mikä aiheuttaa hintojen nousun ja valuutan arvon alenemisen.
+wrong_answers:
   - Inflaatio on maksuvälineiden väheneminen, mikä aiheuttaa hintojen nousun ja valuutan arvon alenemisen.
   - Inflaatio on maksuvälineiden liiallinen lisääntyminen, mikä aiheuttaa hintojen laskun ja valuutan arvon alenemisen.
   - Inflaatio on maksuvälineiden liiallinen lisääntyminen, mikä aiheuttaa hintojen nousun ja valuutan arvon nousun.
-selitys: |
+explanation: |
   Robertin mukaan inflaatio määritellään maksuvälineiden (setelit, pääoma) liiallisena lisääntymisenä, mikä aiheuttaa hintojen nousun ja valuutan arvon alenemisen.
 arvioitu: false

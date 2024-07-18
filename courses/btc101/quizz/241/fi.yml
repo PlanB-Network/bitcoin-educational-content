@@ -1,8 +1,8 @@
-kysymys: Mikä on yksi mahdollisista seurauksista Lightning Networkin käyttäjille?
-vastaus: He maksaisivat vain kuluttamastaan sisällöstä
-väärät_vastaukset:
+question: Mikä on yksi mahdollisista seurauksista Lightning Networkin käyttäjille?
+answer: He maksaisivat vain kuluttamastaan sisällöstä
+wrong_answers:
   - He joutuisivat maksamaan enemmän sisällöstä
   - Heidän täytyisi maksaa kuukausittainen tilausmaksu
   - Heidän täytyisi maksaa sisällöstä etukäteen
-selitys: >-
+explanation: >-
   Lightning Networkin avulla käyttäjät maksaisivat vain kuluttamastaan sisällöstä, mikä poistaisi etukäteen maksettavat tilausmaksut.

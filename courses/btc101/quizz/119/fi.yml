@@ -1,9 +1,9 @@
-kysymys: Mikä on BitcoinTalk?
-vastaus: Keskustelupaikka Bitcoin-käyttäjille
+question: Mikä on BitcoinTalk?
+answer: Keskustelupaikka Bitcoin-käyttäjille
 vaarat_vastaukset:
   - Bitcoin-louhintaohjelmisto
   - Bitcoin-lompakko
   - Bitcoin-konferenssi
-selitys: |
+explanation: |
   BitcoinTalk-foorumi on keskustelupaikka Bitcoin-käyttäjille. Sen loi Satoshi Nakamoto 22. marraskuuta 2009.
-arvioitu: true
+reviewed: false

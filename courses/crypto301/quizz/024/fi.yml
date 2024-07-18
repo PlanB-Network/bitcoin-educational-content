@@ -1,10 +1,10 @@
-kysymys: Mikä on Bitcoinissa käytetyn secp256k1-käyrän yhtälö?
-vastaus: "y² = x³ + 7 modulo n"
-väärät_vastaukset:
+question: Mikä on Bitcoinissa käytetyn secp256k1-käyrän yhtälö?
+answer: "y² = x³ + 7 modulo n"
+wrong_answers:
   - "y² = x³ + ax + b"
   - "y² = x³ + 7 modulo p"
   - "y² = x³ + ax + b modulo n"
-selitys: |
+explanation: |
   "Bitcoinissa käytetty secp256k1-käyrä määritellään parametreilla a=0\
   \ ja b=7, ja sen yhtälö on y² = x³ + 7 modulo n, missä n edustaa\
   \ alkulukua, joka määrittää käyrän järjestyksen."

@@ -1,13 +1,13 @@
-kysymys: Mitkä riskit liittyvät kolmannen osapuolen solmun käyttöön?
+question: Mitkä riskit liittyvät kolmannen osapuolen solmun käyttöön?
 
-vastaus: Sensuuri ja toiminnan seuranta.
+answer: Sensuuri ja toiminnan seuranta.
 
-väärät_vastaukset:
+wrong_answers:
   - Bitcoinien menetys.
   - Siirtomaksujen kasvu.
   - Bitcoinien varkaus ja jäljitys.
 
-selitys: |
+explanation: |
   Jos käytät solmua, joka ei kuulu sinulle, riskinä on, että transaktioiden lähetys estetään ja toimintaasi seurataan operaattorin toimesta.
 
 arvioitu: false

@@ -1,9 +1,9 @@
-kysymys: Mikä on suositeltu käyttötarkoitus offline- eli kylmälle fyysiselle lompakolle?
-vastaus: Suurempien summien säilyttämiseen
+question: Mikä on suositeltu käyttötarkoitus offline- eli kylmälle fyysiselle lompakolle?
+answer: Suurempien summien säilyttämiseen
 vaarat_vastaukset:
   - Päivittäisiin menoihin
   - Pieniin summiin
   - Lyhytaikaiseen säästämiseen
-selitys: |
+explanation: |
   Offline- eli kylmää fyysistä lompakkoa suositellaan suurempien summien säilyttämiseen, koska se on vähemmän altis online-uhille. Sitä ei kuitenkaan suositella päivittäisiin menoihin, koska se ei ole yhtä saavutettavissa päivittäisiä transaktioita varten.
-arvioitu: true
+reviewed: false

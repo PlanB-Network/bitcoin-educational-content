@@ -1,9 +1,9 @@
-kysymys: Miksi on olennaista varmuuskopioida Bitcoin-lompakon 24 sanan palautuslause?
-vastaus: Estääkseen varojen menetyksen.
+question: Miksi on olennaista varmuuskopioida Bitcoin-lompakon 24 sanan palautuslause?
+answer: Estääkseen varojen menetyksen.
 vaarat_vastaukset:
   - Varmistaakseen palautuslauseen tarkkuuden.
   - Luodakseen lompakolle entropiaa.
   - Salatakseen palautuslauseen lisäturvallisuuden vuoksi.
-selitys: |
+explanation: |
   Varmuuskopioimalla 24 sanan palautuslauseen on olennaista estääkseen varojen menetyksen.
 arvioitu: false

@@ -1,9 +1,9 @@
-kysymys: Mikä on pääasiallinen riski käyttäessäsi kolmannen osapuolen säilytyspalvelua bitcoineillesi?
-vastaus: Luotettu kolmas osapuoli voi milloin tahansa rajoittaa pääsyäsi varoihisi
-väärät_vastaukset:
+question: Mikä on pääasiallinen riski käyttäessäsi kolmannen osapuolen säilytyspalvelua bitcoineillesi?
+answer: Luotettu kolmas osapuoli voi milloin tahansa rajoittaa pääsyäsi varoihisi
+wrong_answers:
   - Luotettu kolmas osapuoli voi milloin tahansa nostaa bitcoiniesi arvoa
   - Luotettu kolmas osapuoli voi milloin tahansa laskea bitcoiniesi arvoa
   - Luotettu kolmas osapuoli ei voi milloin tahansa kopioida bitcoinejasi
-selitys: >
+explanation: >
   Kun käytät kolmannen osapuolen säilytyspalvelua bitcoineillesi, et ole ainoa bitcoiniesi haltija. Tämä tarkoittaa, että luotettu kolmas osapuoli voi milloin tahansa rajoittaa pääsyäsi varoihisi, antaen sinulle saman tason taloudellista itsemääräämisoikeutta kuin perinteisessä pankkijärjestelmässä.
-arvioitu: true
+reviewed: false

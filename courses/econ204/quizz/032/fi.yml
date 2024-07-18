@@ -1,10 +1,10 @@
-kysymys: Mikä oli "Notgeldin" tarkoitus Saksan talouskriisin aikana?
-vastaus: Sen tarkoituksena oli puuttua yleisen valuutan puutteeseen.
-väärät_vastaukset:
+question: Mikä oli "Notgeldin" tarkoitus Saksan talouskriisin aikana?
+answer: Sen tarkoituksena oli puuttua yleisen valuutan puutteeseen.
+wrong_answers:
   - Sitä käytettiin sotakorvausten maksamiseen.
   - Se oli muoto protestia hallitusta vastaan.
   - Se oli keino elvyttää taloutta.
-selitys: |
+explanation: |
   Kohdatessaan raha- ja talouskriisin, Saksa turvautui "Notgeldiin"
   (hätäraha). Nämä setelit, jotka painettiin kaupunkien tai tiettyjen yritysten toimesta, oli suunniteltu
   puuttumaan yleisen valuutan puutteeseen.

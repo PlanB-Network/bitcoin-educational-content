@@ -1,10 +1,10 @@
-kysymys: Mikä on hyperinflaation viimeinen vaihe?
-vastaus: Uuden valuutan synty
+question: Mikä on hyperinflaation viimeinen vaihe?
+answer: Uuden valuutan synty
 vaarat_vastaukset:
   - Luottamuksen menetys
   - Valuutan romahdus & hinnannousu
   - Rahanpainamisen noidankehä
-selitys: |
+explanation: |
   Hyperinflaation viimeinen vaihe on, kun uusi valuutta otetaan käyttöön
   korvaamaan vanha.
-arvioitu: true
+reviewed: false

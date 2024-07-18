@@ -1,10 +1,10 @@
-kysymys: Mikä on SHA256-tiivistefunktion tulosteen koko?
-vastaus: 256 bittiä
+question: Mikä on SHA256-tiivistefunktion tulosteen koko?
+answer: 256 bittiä
 vaarat_vastaukset:
   - 512 bittiä
   - 128 bittiä
   - 1024 bittiä
-selitys: |
+explanation: |
   SHA256-tiivistefunktio tuottaa 256-bittisen tiivisteen muuttuvankokoisesta
   syötteestä. Tästä syystä sitä kutsutaan SHA256:ksi.
 arvioitu: false

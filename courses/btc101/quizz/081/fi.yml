@@ -1,9 +1,9 @@
-kysymys: Mikä on keskeinen kysymys itsehallinnasta valittaessa Bitcoin-lompakkoa?
-vastaus: Oletko varojen omistaja vai jätätkö rahasi kolmannen osapuolen hallintaan?
-väärät_vastaukset:
+question: Mikä on keskeinen kysymys itsehallinnasta valittaessa Bitcoin-lompakkoa?
+answer: Oletko varojen omistaja vai jätätkö rahasi kolmannen osapuolen hallintaan?
+wrong_answers:
   - Onko lompakko turvattu salasanalla?
   - Mahdollistaako lompakko bitcoinien vastaanottamisen ja lähettämisen?
   - Voinko jakaa lompakkoni toisen henkilön kanssa?
-selitys: |
+explanation: |
   Bitcoin-lompakkoa valittaessa keskeinen kysymys on: Oletko varojen omistaja vai jätätkö rahasi kolmannen osapuolen hallintaan? Tämä johtuu siitä, että yksityisen avaimen haltija on Bitcoinien omistaja.
-arvioitu: true
+reviewed: false

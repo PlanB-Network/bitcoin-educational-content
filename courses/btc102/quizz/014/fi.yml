@@ -1,10 +1,10 @@
-kysymys: Mikä on pääasiallinen syy käyttää työkaluja kuten Signal, Tor ja ProtonMail?
-vastaus: Arvostaa ja suojata yksityisyyttäsi
-väärät_vastaukset:
+question: Mikä on pääasiallinen syy käyttää työkaluja kuten Signal, Tor ja ProtonMail?
+answer: Arvostaa ja suojata yksityisyyttäsi
+wrong_answers:
   - Nopeuttaa internet-yhteyttäsi
   - Suojata tietokoneesi viruksilta
   - Tarjota ilmaista pääsyä maksullisiin palveluihin
-selitys: |
+explanation: |
   Työkaluja kuten Signal, Tor ja ProtonMail käytetään arvostamaan ja suojaamaan
   
   yksityisyyttäsi. Ne ovat osa toimenpiteitä parantaa verkkoelämän turvallisuustapoja.

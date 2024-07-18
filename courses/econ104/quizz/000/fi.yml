@@ -1,9 +1,9 @@
-kysymys: Mikä seuraavista EI ole yksi rahan kolmesta olennaisesta toiminnosta?
-vastaus: Energian lähde
-väärät_vastaukset:
+question: Mikä seuraavista EI ole yksi rahan kolmesta olennaisesta toiminnosta?
+answer: Energian lähde
+wrong_answers:
   - Arvon säilyttäjä
   - Vaihdon väline
   - Laskentayksikkö
-selitys: |
+explanation: |
   Rahan kolme olennaista toimintoa ovat arvon säilyttäjä, vaihdon väline ja laskentayksikkö. Energian lähde ei ole rahan toiminto.
-arvioitu: true
+reviewed: false

@@ -1,10 +1,10 @@
-kysymys: Mihin tarkoitukseen kuumaa lompakkoa käytetään Bitcoinin yhteydessä?
-vastaus: Säännöllisesti bitcoineja lähettämiseen ja vastaanottamiseen päivittäiseen käyttöön.
-väärät_vastaukset:
+question: Mihin tarkoitukseen kuumaa lompakkoa käytetään Bitcoinin yhteydessä?
+answer: Säännöllisesti bitcoineja lähettämiseen ja vastaanottamiseen päivittäiseen käyttöön.
+wrong_answers:
   - Bitcoinejen turvalliseen säilyttämiseen pitkällä aikavälillä.
   - Uusien bitcoinien louhimiseen.
   - Bitcoinien kauppaamiseen vaihtoalustalla.
-selitys: |
+explanation: |
   Kuuma lompakko on Bitcoin-lompakon tyyppi, joka on yhdistetty internetiin,
   mikä tekee siitä sopivan päivittäisiin transaktioihin. Se on kuitenkin alttiimpi hakkeroinnille
   ja varkauksille kuin kylmä lompakko.

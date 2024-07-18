@@ -1,10 +1,10 @@
-kysymys: Mitkä tekijät otetaan huomioon arvioitaessa todennäköisimmin onnistuneita reittejä Lightning-verkossa?
-vastaus: Maksut, HTLC:n vanhentumisaika, välisolmujen määrä ja satunnaisuustekijä.
-väärät_vastaukset:
+question: Mitkä tekijät otetaan huomioon arvioitaessa todennäköisimmin onnistuneita reittejä Lightning-verkossa?
+answer: Maksut, HTLC:n vanhentumisaika, välisolmujen määrä ja satunnaisuustekijä.
+wrong_answers:
   - Siirron koko, lohkon korkeus ja siirtomaksut.
   - Siirtomaksut, lohkon koko ja siirron vahvistusaika.
   - Siirron vahvistusaika, lohkon korkeus ja siirron koko.
-selitys: |
+explanation: |
   Arvioidessaan todennäköisimmin onnistuneita reittejä Lightning-verkossa,
   solmut ottavat huomioon useita tekijöitä. Näihin kuuluvat kunkin reitin
   liittyvät maksut, HTLC:ien vanhentumisaika, välisolmujen määrä ja satunnaisuustekijä

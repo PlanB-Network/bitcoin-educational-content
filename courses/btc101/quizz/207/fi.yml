@@ -1,8 +1,8 @@
-kysymys: Mikä on yksi mahdollisista riskeistä, kun jätät Bitcoinisi vaihtoalustalle?
-vastaus: Hakkeroinnin ja varojen jäädyttämisen riskit.
-väärät_vastaukset:
+question: Mikä on yksi mahdollisista riskeistä, kun jätät Bitcoinisi vaihtoalustalle?
+answer: Hakkeroinnin ja varojen jäädyttämisen riskit.
+wrong_answers:
   - Alustan Bitcoinin hinnan nostamisen riski.
   - Alustan Bitcoinin tarjonnan hallinnan riski.
   - Alustan estämisen riski ostamasta lisää Bitcoinia.
-selitys: >-
+explanation: >-
   Tekstissä mainitaan, että Bitcoinien jättäminen vaihtoalustalle voi altistaa sinut hakkeroinnin ja varojen jäädyttämisen riskeille.

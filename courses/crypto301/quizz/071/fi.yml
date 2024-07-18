@@ -1,9 +1,9 @@
-kysymys: Miten bitit muunnetaan lauseiksi Bitcoin-lompakon muistisanojen luomisessa?
-vastaus: Jokainen segmentti yhdistetään sanaan 2048 sanan listalta.
+question: Miten bitit muunnetaan lauseiksi Bitcoin-lompakon muistisanojen luomisessa?
+answer: Jokainen segmentti yhdistetään sanaan 2048 sanan listalta.
 vaarat_vastaukset:
   - Jokainen bitti yhdistetään sanaan 2048 sanan listalta.
   - Jokainen segmentti yhdistetään sanaan 1024 sanan listalta.
   - Jokainen bitti yhdistetään sanaan 1024 sanan listalta.
-selitys: |
+explanation: |
   Muuntaakseen bitit lauseiksi, jokainen segmentti yhdistetään sanaan 2048 sanan listalta.
 arvioitu: false

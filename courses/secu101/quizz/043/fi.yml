@@ -1,10 +1,10 @@
-kysymys: Miksi salasanojen variaatioiden tai lisäysten käyttöä ei suositella?
-vastaus: Ne eivät ole turvallisia ja ne voidaan helposti arvata.
-väärät_vastaukset:
+question: Miksi salasanojen variaatioiden tai lisäysten käyttöä ei suositella?
+answer: Ne eivät ole turvallisia ja ne voidaan helposti arvata.
+wrong_answers:
   - Ne ovat liian pitkiä ja monimutkaisia.
   - Ne ovat vaikeita muistaa.
   - Useimmat verkkopalvelut eivät salli niitä.
-selitys: |
+explanation: |
   Salasanojen variaatiot tai lisäykset eivät ole turvallisia, koska ne
 
   voidaan helposti arvata. On parempi käyttää täysin satunnaisia salasanoja, jotka eivät noudata

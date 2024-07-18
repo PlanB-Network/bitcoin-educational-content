@@ -1,11 +1,11 @@
-kysymys: Mikä näistä vaihtoehdoista on väärä, kun menetät laitteen, jolla sinulla on Bitcoin-lompakkosi?
-vastaus: Voit luoda lompakkosi uudelleen ja käyttää bitcoinejasi nollaamalla salasanasi
-väärät_vastaukset:
+question: Mikä näistä vaihtoehdoista on väärä, kun menetät laitteen, jolla sinulla on Bitcoin-lompakkosi?
+answer: Voit luoda lompakkosi uudelleen ja käyttää bitcoinejasi nollaamalla salasanasi
+wrong_answers:
   - Menetät kaikki Bitcoinsisi, jos sinulla ei ole muistisanaista fraasia
   - Voit varmistaa julkisilla avaimillasi, etteivät bitcoinisi ole vielä liikkuneet
   - Voit luoda lompakkosi uudelleen ja käyttää bitcoinejasi muistisanaista fraasin avulla
-selitys: |
+explanation: |
   Laitteen menettäminen, jolla sinulla on lompakkosi, ei välttämättä
   tarkoita Bitcoiniesi menettämistä. Sen, mikä mahdollistaa lompakkosi uudelleen luomisen ja bitcoinien käytön,
   on muistisanaista fraasi.
-arvioitu: true
+reviewed: false

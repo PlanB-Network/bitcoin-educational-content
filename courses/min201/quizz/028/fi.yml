@@ -1,10 +1,10 @@
-kysymys: Mikä on mahdollinen riski louhintalaitteiston tuotannon keskittymisessä Kiinaan?
-vastaus: Kieltäytyminen louhintakoneiden viennistä tai hashraten kasaantuminen mahdollista 51% hyökkäystä varten.
+question: Mikä on mahdollinen riski louhintalaitteiston tuotannon keskittymisessä Kiinaan?
+answer: Kieltäytyminen louhintakoneiden viennistä tai hashraten kasaantuminen mahdollista 51% hyökkäystä varten.
 vaarat_vastaukset:
   - Kiina voisi monopolisoida Bitcoin-verkon.
   - Kiina voisi hallita Bitcoinin hintaa.
   - Kiina voisi kieltää Bitcoinin louhinnan.
-selitys: |
+explanation: |
   Louhintalaitteiston tuotannon keskittäminen Kiinaan aiheuttaa riskin
 
   Bitcoin-verkolle. Jos Kiina kieltäytyy viemästä louhintakoneita tai kasaantaa

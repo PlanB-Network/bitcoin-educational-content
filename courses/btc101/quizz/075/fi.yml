@@ -1,11 +1,11 @@
-kysymys: Mikä on mnemonic-lause Bitcoin-lompakossa?
-vastaus: 12 tai 24 sanan lista, joka on varmuuskopio Bitcoin-lompakostasi
-väärät_vastaukset:
+question: Mikä on mnemonic-lause Bitcoin-lompakossa?
+answer: 12 tai 24 sanan lista, joka on varmuuskopio Bitcoin-lompakostasi
+wrong_answers:
   - Valittu salasana Bitcoin-lompakon käyttöön
   - Koodi Bitcoin-siirtojen salaamiseen
   - Salainen palautuslause, joka tuhoaa Bitcoin-lompakon
-selitys: |
+explanation: |
   Vuodesta 2017 lähtien yksityinen avain voidaan koodata yksinkertaiseen 12 tai
   24 sanan listaan, jota kutsutaan mnemonic-lauseeksi. Tämä lause on varmuuskopio Bitcoin-lompakostasi,
   se mahdollistaa lompakkosi uudelleenluomisen millä tahansa Bitcoin-lompakko-ohjelmistolla/-sovelluksella.
-arvioitu: true
+reviewed: false

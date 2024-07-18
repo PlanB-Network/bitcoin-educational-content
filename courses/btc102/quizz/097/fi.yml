@@ -1,10 +1,10 @@
-kysymys: Mitä alustoja paranoiikko Bitcoin-käyttäjä saattaisi käyttää henkilöiden välisiin ei-KYC hankintoihin?
-vastaus: Peach, Robosats, Bisq, HodlHodl
-väärät_vastaukset:
+question: Mitä alustoja paranoiikko Bitcoin-käyttäjä saattaisi käyttää henkilöiden välisiin ei-KYC hankintoihin?
+answer: Peach, Robosats, Bisq, HodlHodl
+wrong_answers:
   - Coinbase, Binance, Kraken
   - PayPal, Venmo, Cash App
   - Luottokortti, pankkisiirto, käteinen
-selitys: |
+explanation: |
   Luvussa mainitaan Peach, Robosats, Bisq ja HodlHodl alustoina,
   joita paranoiikko Bitcoin-käyttäjä saattaisi käyttää henkilöiden välisiin ei-KYC hankintoihin.
 arvioitu: false

@@ -1,12 +1,12 @@
-kysymys: Miten stablecoin-kolikot, kuten USDt, saavuttavat suhteellisen arvon vakauden?
-vastaus: Ne on sidottu vakaaan omaisuuserään tai valuuttaan.
-väärät_vastaukset:
+question: Miten stablecoin-kolikot, kuten USDt, saavuttavat suhteellisen arvon vakauden?
+answer: Ne on sidottu vakaaan omaisuuserään tai valuuttaan.
+wrong_answers:
   - Ne ovat keskusviranomaisen tai hallituksen tukemia.
   - Ne nojaavat lohkoketjuteknologiaan turvallisten transaktioiden varmistamiseksi.
   - Ne ovat alttiita vaihtelulle samankaltaisesti kuin muut kryptovaluutat.
-selitys: |
+explanation: |
   Stablecoin-kolikot säilyttävät suhteellisen arvon vakauden olemalla sidottuina 
   vakaimpaan omaisuuserään tai valuuttaan, kuten Yhdysvaltain dollariin tai kultaan.
   Tämä sidonta auttaa lieventämään volatiliteettia, joka usein liittyy muihin 
   digitaalisiin omaisuuseriin, kuten Bitcoiniin.
-arvioitu: true
+reviewed: false

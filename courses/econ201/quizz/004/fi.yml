@@ -1,9 +1,9 @@
-kysymys: Mikä on itävaltalaisen taloustieteen pääasiallinen lähestymistapa taloustieteen ymmärtämiseen?
-vastaus: Itävaltalainen taloustiede ymmärtää taloustieteen ihmisen logiikan ja sosiologian näkökulmasta.
-väärät_vastaukset:
+question: Mikä on itävaltalaisen taloustieteen pääasiallinen lähestymistapa taloustieteen ymmärtämiseen?
+answer: Itävaltalainen taloustiede ymmärtää taloustieteen ihmisen logiikan ja sosiologian näkökulmasta.
+wrong_answers:
   - Itävaltalainen taloustiede ymmärtää taloustieteen matemaattisten yhtälöiden kautta.
   - Itävaltalainen taloustiede ymmärtää taloustieteen rahanpainamisen ja kuluttamisen näkökulmasta.
   - Itävaltalainen taloustiede ymmärtää taloustieteen keskuspankkien näkökulmasta.
-selitys: |
+explanation: |
   Luku selittää, että itävaltalainen taloustiede ymmärtää taloustieteen ihmisen logiikan ja sosiologian näkökulmasta, sen sijaan että lähestyisi tätä alaa matemaattisten yhtälöiden kautta.
 arvioitu: false

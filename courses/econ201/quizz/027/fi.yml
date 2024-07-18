@@ -1,10 +1,10 @@
-kysymys: Mikä rooli rahalla on ihmisen toiminnan aikavälinen koordinoinnissa?
-vastaus: Se mahdollistaa arvon säilyttämisen nykyhetkessä ja sen siirtämisen tulevalle itselle.
-väärät_vastaukset:
+question: Mikä rooli rahalla on ihmisen toiminnan aikavälinen koordinoinnissa?
+answer: Se mahdollistaa arvon säilyttämisen nykyhetkessä ja sen siirtämisen tulevalle itselle.
+wrong_answers:
   - Se mahdollistaa arvon säilyttämisen tulevaisuudessa ja sen siirtämisen nykyiselle itselle.
   - Se mahdollistaa arvon säilyttämisen nykyhetkessä ja sen siirtämisen toisille ihmisille.
   - Se mahdollistaa arvon säilyttämisen tulevaisuudessa ja sen siirtämisen toisille ihmisille.
-selitys: |
+explanation: |
   Säästämällä rahaa, eli säästämällä, yksilöt suojelevat itseään tulevaisuuden epävarmuudelta
   ja siten mahdollistavat itselleen toiminnan suuntaamisen pidemmille aikaväleille.
   Tämän voi kuitenkin saavuttaa vain, jos käytetty raha toimii arvon säilyttäjänä.

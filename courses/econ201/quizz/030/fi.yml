@@ -1,10 +1,10 @@
-kysymys: Mikä on ihmisen toiminnan peräkkäisyyden merkitys tuotantotoiminnassa?
-vastaus: Mikä tahansa tuotannon kiertotie, eli tuotantorakenteen pidentäminen, edellyttää aiempaa säästämistä.
-väärät_vastaukset:
+question: Mikä on ihmisen toiminnan peräkkäisyyden merkitys tuotantotoiminnassa?
+answer: Mikä tahansa tuotannon kiertotie, eli tuotantorakenteen pidentäminen, edellyttää aiempaa säästämistä.
+wrong_answers:
   - Ihmisen toiminnan peräkkäisyydellä ei ole merkitystä tuotantotoiminnassa.
   - Ihmisen toiminnan peräkkäisyyden merkitys on, että tuotantotoiminnat on suoritettava tietyssä järjestyksessä.
   - Ihmisen toiminnan peräkkäisyyden merkitys on, että tuotantotoiminnat on suoritettava samanaikaisesti.
-selitys: |
+explanation: |
   Ihmisen toiminnan peräkkäisyyden vuoksi näillä aikavälien välisillä valinnoilla
   on aina seurauksia toimintajärjestykselle. Toisin sanoen, lyhyen aikavälin
   toimet, joita henkilö toteuttaa, ovat alisteisia pitkän aikavälin tavoitteille, jotka henkilö asettaa, ja henkilön lyhyen aikavälin

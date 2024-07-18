@@ -1,8 +1,8 @@
-kysymys: Kuka voi käyttää peruutusavainta ennen Timelockin päättymistä?
-vastaus: Henkilö, joka vastaanottaa rahat.
-väärät_vastaukset:
+question: Kuka voi käyttää peruutusavainta ennen Timelockin päättymistä?
+answer: Henkilö, joka vastaanottaa rahat.
+wrong_answers:
   - Henkilö, joka luo siirron Timelockin kanssa.
   - Molemmat osapuolet voivat käyttää peruutusavainta ennen Timelockin päättymistä.
   - Kumpikaan osapuoli ei voi käyttää peruutusavainta ennen Timelockin päättymistä.
-selitys: |
+explanation: |
   Henkilö, joka vastaanottaa rahat, voi käyttää peruutusavainta ennen Timelockin päättymistä, jos toisella puolella kanavaa Lightning Networkissa tapahtuu vilppiä.

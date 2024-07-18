@@ -1,9 +1,9 @@
-kysymys: Mikä on tarkoitus opiskella Bitcoinin teknisiä, ideologisia ja filosofisia näkökohtia?
-vastaus: Parempi ymmärrys Bitcoinista ja sen mahdollisesta vaikutuksesta maailmaan.
-väärät_vastaukset:
+question: Mikä on tarkoitus opiskella Bitcoinin teknisiä, ideologisia ja filosofisia näkökohtia?
+answer: Parempi ymmärrys Bitcoinista ja sen mahdollisesta vaikutuksesta maailmaan.
+wrong_answers:
   - Uusien Bitcoinien louhiminen.
   - Bitcoinien kaupankäynti.
   - Bitcoinien muuntaminen toisiin kryptovaluuttoihin.
-selitys: |
+explanation: |
   Bitcoinin teknisten, ideologisten ja filosofisten näkökohtien opiskelu on tärkeää paremman ymmärryksen saavuttamiseksi Bitcoinista ja sen mahdollisesta vaikutuksesta maailmaan. Sitä ei käytetä uusien Bitcoinien louhimiseen, Bitcoinien kaupankäyntiin tai Bitcoinien muuntamiseen toisiin kryptovaluuttoihin.
 arvioitu: false

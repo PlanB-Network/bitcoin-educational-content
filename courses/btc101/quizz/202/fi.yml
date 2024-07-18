@@ -1,10 +1,10 @@
-kysymys: Mikä on yksi tapa hankkia Bitcoineja ilman KYC:tä?
-vastaus: Bitcoin-automaatit.
-väärät_vastaukset:
+question: Mikä on yksi tapa hankkia Bitcoineja ilman KYC:tä?
+answer: Bitcoin-automaatit.
+wrong_answers:
   - Välittäjäalustat.
   - DCA-alustat.
   - Pankkisiirrot.
-selitys: >-
+explanation: >-
   Tekstissä mainitaan, että on olemassa useita tapoja hankkia Bitcoineja ilman
   KYC:tä, joista yksi on Bitcoin-automaatit.
 arvioitu: false

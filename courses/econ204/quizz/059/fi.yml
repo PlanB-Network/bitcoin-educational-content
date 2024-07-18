@@ -1,10 +1,10 @@
-kysymys: Mikä oli ensimmäinen rahakerros 1200-luvun Italiassa?
-vastaus: Kulta, edustettuna florinilla
-väärät_vastaukset:
+question: Mikä oli ensimmäinen rahakerros 1200-luvun Italiassa?
+answer: Kulta, edustettuna florinilla
+wrong_answers:
   - Vaihtovelkakirjat
   - Velkakirjat
   - Hopeakolikot
-selitys: |
+explanation: |
   1200-luvun Italiassa, erityisesti Firenzessä, ensimmäinen rahakerros
 
   oli aitoa kultaa, jota edusti florin. Kultasepät myönsivät vaihtovelkakirjoja

@@ -1,9 +1,9 @@
-kysymys: Kuka on kurssin opettaja?
-vastaus: "Théo Mogenet"
-väärät_vastaukset:
+question: Kuka on kurssin opettaja?
+answer: "Théo Mogenet"
+wrong_answers:
   - "Théo Boloré"
   - Descoupes Bitcoin
   - Ei mikään yllä olevista
-selitys: |
+explanation: |
   "Luvussa mainitaan, että kurssin opettaja on Théo Mogenet, intohimoinen ja pätevä itävaltalaisen taloustieteen professori."
 arvioitu: false

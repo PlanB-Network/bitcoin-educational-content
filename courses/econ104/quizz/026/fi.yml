@@ -1,9 +1,9 @@
-kysymys: Mikä on lohkoketjun trilemma kryptovaluuttojen alalla?
-vastaus: Vaihtokauppa skaalautuvuuden, turvallisuuden ja hajautuksen välillä kryptovaluutoissa
-väärät_vastaukset:
+question: Mikä on lohkoketjun trilemma kryptovaluuttojen alalla?
+answer: Vaihtokauppa skaalautuvuuden, turvallisuuden ja hajautuksen välillä kryptovaluutoissa
+wrong_answers:
   - Bitcoinin ominaisuus, joka priorisoi hajautuksen ja turvallisuuden skaalautuvuuden sijaan
   - Vaikeus määrittää kryptovaluuttojen kehityssuuntaa ja arvoja
   - Bitcoinin teknologian rajoitukset verrattuna muihin kryptovaluuttoihin
-selitys: |
+explanation: |
   Lohkoketjun trilemman käsite on ajatus siitä, että kryptovaluuttojen on priorisoitava kaksi kolmesta tärkeästä ominaisuudesta; skaalautuvuus, turvallisuus ja hajautus. Bitcoin priorisoi hajautuksen ja turvallisuuden, mikä vaikuttaa sen skaalautuvuuteen, mutta se saavuttaa sen silti vaihtoehtoisin keinoin.
-arvioitu: true
+reviewed: false

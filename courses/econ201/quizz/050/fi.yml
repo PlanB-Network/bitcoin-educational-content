@@ -1,10 +1,10 @@
-kysymys: Mikä on itävaltalaisten taloustieteilijöiden näkemys korkotasojen asettamisesta?
-vastaus: Itävaltalaiset taloustieteilijät korostavat, että korkotason mielivaltainen asettaminen voi johtaa talouskriiseihin.
-väärät_vastaukset:
+question: Mikä on itävaltalaisten taloustieteilijöiden näkemys korkotasojen asettamisesta?
+answer: Itävaltalaiset taloustieteilijät korostavat, että korkotason mielivaltainen asettaminen voi johtaa talouskriiseihin.
+wrong_answers:
   - Itävaltalaiset taloustieteilijät uskovat, että hallituksen tulisi asettaa korkotasot.
   - Itävaltalaiset taloustieteilijät uskovat, että korkotasojen tulisi olla kiinteitä ja muuttumattomia.
   - Itävaltalaiset taloustieteilijät uskovat, että korkotasot tulisi asettaa keskuspankin toimesta.
-selitys: |
+explanation: |
   Itävaltalaiset taloustieteilijät korostavat, että korkotason mielivaltainen asettaminen
   voi johtaa talouskriiseihin ja tehdä laskennan mahdottomaksi sosialistisessa järjestelmässä.
   He väittävät, että arvostussuhteet ovat subjektiivisia, joten korkotasot voivat vaihdella

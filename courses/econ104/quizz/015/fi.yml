@@ -1,12 +1,12 @@
-kysymys: Mikä on pääetu käyttäessä ei-huoltajallisia lompakoita bitcoinien säilytyksessä?
-vastaus: Lisääntynyt turvallisuus ja yksityisyys
-väärät_vastaukset:
+question: Mikä on pääetu käyttäessä ei-huoltajallisia lompakoita bitcoinien säilytyksessä?
+answer: Lisääntynyt turvallisuus ja yksityisyys
+wrong_answers:
   - Helppo pääsy bitcoineihin
   - Matalammat transaktiomaksut
   - Ei tarvetta salasanalle
-selitys: |
+explanation: |
   Ei-huoltajalliset lompakot ovat sellaisia, joissa olet varojesi ainoa huoltaja,
   mikä tarkoittaa, että sinulla on täysi hallinta yksityisiin avaimiisi. Siksi
   ei-huoltajalliset lompakot tarjoavat korkeamman turvallisuuden ja yksityisyyden tason
   verrattuna huoltajallisiin lompakoihin, koska vain sinä olet vastuussa varojesi turvallisuudesta.
-arvioitu: true
+reviewed: false

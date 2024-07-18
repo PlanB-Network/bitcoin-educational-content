@@ -1,9 +1,9 @@
-kysymys: Mikä on salasananhallintaohjelman tarkoitus Bitcoinissa?
-vastaus: Turvallisesti säilyttää ja hallinnoida salasanoja Bitcoin-siirtoja varten.
-väärät_vastaukset:
+question: Mikä on salasananhallintaohjelman tarkoitus Bitcoinissa?
+answer: Turvallisesti säilyttää ja hallinnoida salasanoja Bitcoin-siirtoja varten.
+wrong_answers:
   - Uusien Bitcoinien louhiminen.
   - Bitcoinien kaupankäynti.
   - Bitcoinien muuntaminen muihin kryptovaluuttoihin.
-selitys: |
+explanation: |
   Salasananhallintaohjelma on ohjelmistosovellus, jota käytetään henkilön salasanojen säilyttämiseen ja hallinnoimiseen eri online-tileillä. Bitcoinin kontekstissa sitä käytetään turvalliseen salasanojen säilyttämiseen ja hallintaan Bitcoin-siirtoja varten.
 arvioitu: false

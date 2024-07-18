@@ -1,10 +1,10 @@
-kysymys: Mikä prosessi varmistaa transaktiot Bitcoin-verkossa?
-vastaus: Louhinta
+question: Mikä prosessi varmistaa transaktiot Bitcoin-verkossa?
+answer: Louhinta
 vaarat_vastaukset:
   - Kaivaminen
   - Korjuu
   - Viljely
-selitys: |
+explanation: |
   Prosessi, joka varmistaa transaktiot Bitcoin-verkossa, on nimeltään
   louhinta. Louhijat suorittavat kryptografisen tehtävän ja palkitaan uusien bitcoinien liikkeellelaskulla.
-arvioitu: true
+reviewed: false

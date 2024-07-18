@@ -1,10 +1,10 @@
-kysymys: Mikä on moniallekirjoitusosoite Lightning Networkin kontekstissa?
-vastaus: Osoite, joka vaatii kaksi allekirjoitusta varojen vapauttamiseen.
-väärät_vastaukset:
+question: Mikä on moniallekirjoitusosoite Lightning Networkin kontekstissa?
+answer: Osoite, joka vaatii kaksi allekirjoitusta varojen vapauttamiseen.
+wrong_answers:
   - Osoite, jota voi käyttää useampi käyttäjä.
   - Osoite, joka voi pitää sisällään useita eri kryptovaluuttoja.
   - Osoite, johon pääsee käsiksi useilta laitteilta.
-selitys: |
+explanation: |
   Lightning Networkissa käytetään moniallekirjoitusosoitteita. Nämä
   osoitteet
   vaativat kaksi allekirjoitusta, eli kaksi yksityisavainta, varojen vapauttamiseen. Tämä tarkoittaa, että

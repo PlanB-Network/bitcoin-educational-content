@@ -1,10 +1,10 @@
-kysymys: Kuinka monessa maassa ympäri maailmaa naisilta on kielletty pankkitilien avaaminen omiin nimiinsä?
-vastaus: 72
-väärät_vastaukset:
+question: Kuinka monessa maassa ympäri maailmaa naisilta on kielletty pankkitilien avaaminen omiin nimiinsä?
+answer: 72
+wrong_answers:
   - 36
   - 75
   - 100
-selitys: |
+explanation: |
   72 maassa ympäri maailmaa naiset eivät saa avata 
   pankkitilejä omiin nimiinsä.
-arvioitu: true
+reviewed: false

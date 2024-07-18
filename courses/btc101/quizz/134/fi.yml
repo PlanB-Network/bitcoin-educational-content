@@ -1,10 +1,10 @@
-kysymys: Mikä on kelvollinen "hash" lohkon louhinnassa Bitcoin-verkossa?
-vastaus: Ainutlaatuinen sormenjälki, joka liittyy lohkoon ja koostuu 256 merkistä.
-väärät_vastaukset:
+question: Mikä on kelvollinen "hash" lohkon louhinnassa Bitcoin-verkossa?
+answer: Ainutlaatuinen sormenjälki, joka liittyy lohkoon ja koostuu 256 merkistä.
+wrong_answers:
   - Ainutlaatuinen koodi, jota käytetään pääsemään käsiksi lohkoon.
   - Ainutlaatuinen salasana, joka vaaditaan lohkon louhimiseen.
   - Ainutlaatuinen tunniste louhijalle, joka louhi lohkon.
-selitys: >
+explanation: >
   Lohkon louhinnan yhteydessä Bitcoin-verkossa kelvollinen "hash"
   on ainutlaatuinen sormenjälki, joka liittyy lohkoon ja koostuu 256 merkistä. Tämän
   hashin kelvollisuus riippuu Bitcoin-verkon vaikeustasosta.

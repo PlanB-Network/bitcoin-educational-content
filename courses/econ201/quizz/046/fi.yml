@@ -1,10 +1,10 @@
-kysymys: Miten Itävallan liiketoimintasyklin teoria liittyy taloudellisen laskennan mahdottomuuteen sosialismissa?
-vastaus: Sitä voidaan pitää erityistapauksena taloudellisen laskennan mahdottomuudesta sosialismissa, sovellettuna rahamarkkinoiden alueelle.
-väärät_vastaukset:
+question: Miten Itävallan liiketoimintasyklin teoria liittyy taloudellisen laskennan mahdottomuuteen sosialismissa?
+answer: Sitä voidaan pitää erityistapauksena taloudellisen laskennan mahdottomuudesta sosialismissa, sovellettuna rahamarkkinoiden alueelle.
+wrong_answers:
   - Se on kritiikkiä taloudellisen laskennan mahdottomuudesta sosialismissa.
   - Se on ratkaisu taloudellisen laskennan mahdottomuuteen sosialismissa.
   - Se ei liity mitenkään taloudellisen laskennan mahdottomuuteen sosialismissa.
-selitys: |
+explanation: |
   Itävallan liiketoimintasyklin teoria, joka selittää yli-investointien dynamiikkaa
   ja pääoman väärinkäyttöä, joka johtuu keskuspankkien korkotason manipuloinnista,
   voidaan nähdä erityistapauksena taloudellisen laskennan mahdottomuudesta

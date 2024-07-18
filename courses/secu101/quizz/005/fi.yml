@@ -1,10 +1,10 @@
-kysymys: Miksi on suositeltavaa välttää Google Chrome -selainta?
-vastaus: Sen seurantalaitteiden vuoksi.
-väärät_vastaukset:
+question: Miksi on suositeltavaa välttää Google Chrome -selainta?
+answer: Sen seurantalaitteiden vuoksi.
+wrong_answers:
   - Koska se ei ole turvallinen.
   - Koska se ei ole käyttäjäystävällinen.
   - Koska se ei tue laajennuksia.
-selitys: |
+explanation: |
   Google Chrome -selain tunnetaan seurantalaitteistaan, jotka voivat kerätä tietoja
   online-toiminnastasi. Tämä voi olla yksityisyyden suojaan liittyvä huolenaihe joillekin käyttäjille.
 arvioitu: false

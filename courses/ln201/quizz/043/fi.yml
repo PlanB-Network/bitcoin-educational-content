@@ -1,9 +1,9 @@
-kysymys: Kuka maksaa päättämiskulut yhteistyössä tapahtuvassa sulkemisessa?
-vastaus: Henkilö, joka avasi kanavan.
-väärät_vastaukset:
+question: Kuka maksaa päättämiskulut yhteistyössä tapahtuvassa sulkemisessa?
+answer: Henkilö, joka avasi kanavan.
+wrong_answers:
   - Henkilö, joka sulki kanavan.
   - Molemmat osapuolet yhtä suurilta osin.
   - Henkilö, jolla on eniten SATia kanavalla.
-selitys: |
+explanation: |
   Yhteistyössä tapahtuvassa sulkemisessa kaksi osapuolta sopivat kanavan lopullisesta tilasta. Henkilö, joka avasi kanavan, maksaa päättämiskulut.
 arvioitu: false

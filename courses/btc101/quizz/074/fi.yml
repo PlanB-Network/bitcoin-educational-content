@@ -1,10 +1,10 @@
-kysymys: Missä bitcoinit oikeastaan säilytetään?
-vastaus: Bitcoin-lohkoketjussa
-väärät_vastaukset:
+question: Missä bitcoinit oikeastaan säilytetään?
+answer: Bitcoin-lohkoketjussa
+wrong_answers:
   - Bitcoin-lompakossa
   - Laitteessa, johon lompakko on asennettu
   - Keskuspankissa
-selitys: |
+explanation: |
   Vaikka yksityiset avaimet säilytetään lompakossasi, bitcoinit itse
   säilytetään Bitcoin-lohkoketjussa, joka on julkinen hajautettu kirjanpito
   Bitcoinin vertaisverkossa.

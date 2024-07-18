@@ -1,10 +1,10 @@
-kysymys: Mitä lapsiavainpareja voidaan johtaa laajennetusta yksityisavaimesta?
-vastaus: Laajennettu yksityisavain mahdollistaa kaikkien lapsiavainten, sekä julkisten että yksityisten, johdon normaalissa tai vahvistetussa tilassa.
-väärät_vastaukset:
+question: Mitä lapsiavainpareja voidaan johtaa laajennetusta yksityisavaimesta?
+answer: Laajennettu yksityisavain mahdollistaa kaikkien lapsiavainten, sekä julkisten että yksityisten, johdon normaalissa tai vahvistetussa tilassa.
+wrong_answers:
   - Laajennettu yksityisavain mahdollistaa vain normaalien lapsiavainten johdon.
   - Laajennettu yksityisavain mahdollistaa vain vahvistettujen lapsiavainten johdon.
   - Laajennettu yksityisavain ei mahdollista minkäänlaisten lapsiavainten johdon.
-selitys: |
+explanation: |
   Laajennettu yksityisavain mahdollistaa kaikkien lapsiavainten, sekä
 
   julkisten että yksityisten, johdon olipa kyseessä sitten normaali tai vahvistettu tila. Tämä eroaa

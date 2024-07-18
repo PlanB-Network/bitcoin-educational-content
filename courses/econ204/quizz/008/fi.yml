@@ -1,10 +1,10 @@
-kysymys: Mikä on rahan määrän lisääntymisen vaikutus inflaatioon ja deflaatioon kiinteän rahan määrän järjestelmässä?
-vastaus: Rahan määrän lisääntyminen kumoaa tuotannon lisääntymisestä johtuvan mahdollisen deflaation.
-väärät_vastaukset:
+question: Mikä on rahan määrän lisääntymisen vaikutus inflaatioon ja deflaatioon kiinteän rahan määrän järjestelmässä?
+answer: Rahan määrän lisääntyminen kumoaa tuotannon lisääntymisestä johtuvan mahdollisen deflaation.
+wrong_answers:
   - Rahan määrän lisääntyminen johtaa deflaatioon.
   - Rahan määrän lisääntyminen ei vaikuta inflaatioon tai deflaatioon.
   - Rahan määrän lisääntyminen johtaa tuotannon vähenemiseen.
-selitys: |
+explanation: |
   Luku selittää, että kiinteän rahan määrän järjestelmässä tuotannon lisääntyminen
   johtaisi teoriassa deflaatioon eli hintojen laskuun, koska saatavilla olisi enemmän
   tavaroita ja palveluita. Nykyisessä fiat-rahoitusjärjestelmässä rahan määrän lisääntyminen

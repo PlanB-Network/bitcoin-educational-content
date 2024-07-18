@@ -1,9 +1,9 @@
-kysymys: Mikä on Bitcoinin skaalautuvuusongelma?
-vastaus: Haaste toteuttaa rahajärjestelmä, joka kykenee käsittelemään yhä kasvavan määrän transaktioita sekunnissa sen käyttöönoton myötä.
-väärät_vastaukset:
+question: Mikä on Bitcoinin skaalautuvuusongelma?
+answer: Haaste toteuttaa rahajärjestelmä, joka kykenee käsittelemään yhä kasvavan määrän transaktioita sekunnissa sen käyttöönoton myötä.
+wrong_answers:
   - Uusien Bitcoinien louhinnan vaikeus.
   - Bitcoinin hinnan volatiliteetti.
   - Bitcoinin sääntelyn puute.
-selitys: >-
+explanation: >-
   Skaalautuvuusongelma viittaa haasteeseen toteuttaa rahajärjestelmä, joka kykenee käsittelemään yhä kasvavan määrän transaktioita sekunnissa sen käyttöönoton myötä.
 arvioitu: false

@@ -1,10 +1,10 @@
-kysymys: Mikä on HTTPS-protokollan tarkoitus?
-vastaus: Se salaa verkkosivustojen tiedot varmistaakseen turvallisen vaihdon käyttäjän ja verkkosivuston välillä.
-väärät_vastaukset:
+question: Mikä on HTTPS-protokollan tarkoitus?
+answer: Se salaa verkkosivustojen tiedot varmistaakseen turvallisen vaihdon käyttäjän ja verkkosivuston välillä.
+wrong_answers:
   - Sen avulla käyttäjät voivat ohittaa maantieteellisiä rajoituksia.
   - Sen avulla käyttäjät voivat estää verkossa olevia mainoksia.
   - Sen avulla käyttäjät voivat käyttää internetiä käyttämättä dataa.
-selitys: |
+explanation: |
   HTTPS-protokollaa käytetään verkkosivustojen tietojen salaamiseen, varmistaen, että
   tiedonvaihto käyttäjän ja verkkosivuston välillä on turvallista. Tämä auttaa suojaamaan
   kolmansien osapuolien mahdolliselta tiedon kaappaamiselta.

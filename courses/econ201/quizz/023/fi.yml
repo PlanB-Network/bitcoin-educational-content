@@ -1,9 +1,9 @@
-kysymys: Miksi työnjaon koordinaatio-ongelma nousee esiin uudelleen suuremmissa yhteisöissä?
-vastaus: Koska ihmiset ovat rajallisia kognitiivisten kykyjensä suhteen ja sosiaalisesti hyväksytty panosten arvon mittaaminen vaihdossa on ei-triviaali ongelma.
-väärät_vastaukset:
+question: Miksi työnjaon koordinaatio-ongelma nousee esiin uudelleen suuremmissa yhteisöissä?
+answer: Koska ihmiset ovat rajallisia kognitiivisten kykyjensä suhteen ja sosiaalisesti hyväksytty panosten arvon mittaaminen vaihdossa on ei-triviaali ongelma.
+wrong_answers:
   - Koska ihmiset eivät ole kiinnostuneita työskentelemään suuremmissa ryhmissä ja suosivat pienempiä yhteisöjä.
   - Koska suuremmilla yhteisöillä on enemmän resursseja, mikä johtaa pienempään tarpeeseen työnjaolle.
   - Koska suuremmissa yhteisöissä on enemmän konflikteja, mikä tekee koordinoinnista vaikeaa.
-selitys: |
+explanation: |
   Suuremmissa yhteisöissä on mahdotonta ylläpitää ja muistaa vakaita sosiaalisia suhteita yli 150 henkilön kanssa, mikä tekee mainejärjestelmästä riittämättömän ratkaisemaan vankilapelin ongelman laajassa mittakaavassa. Lisäksi vaihdossa olevien panosten arvon arvioiminen on monimutkainen ongelma suuremmissa yhteisöissä.
 arvioitu: false

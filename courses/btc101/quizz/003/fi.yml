@@ -1,11 +1,11 @@
-kysymys: Mikä on tämän Bitcoin-kurssin tarkoitus?
-vastaus: Keskustella Bitcoinin rahallisista aspekteista, sen käytöstä ja tulevaisuudesta.
-väärät_vastaukset:
+question: Mikä on tämän Bitcoin-kurssin tarkoitus?
+answer: Keskustella Bitcoinin rahallisista aspekteista, sen käytöstä ja tulevaisuudesta.
+wrong_answers:
   - Keskustella siitä, miten Bitcoinia louhitaan.
   - Keskustella siitä, miten Bitcoinia säännellään.
   - Keskustella uuden Bitcoin-protokollan luomisesta.
-selitys: |
+explanation: |
   Tämän Bitcoin-kurssin tarkoitus on keskustella Bitcoinin rahallisista aspekteista,
   mukaan lukien miten ostaa ja myydä bitcoineja, säilyttää niitä turvallisesti digitaalisissa
   lompakoissa ja käyttää niitä transaktioissa. Sen tavoitteena on myös tutkia Bitcoinin tulevaisuutta.
-arvioitu: true
+reviewed: false

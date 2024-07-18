@@ -1,10 +1,10 @@
-kysymys: Mitä varoille tapahtuu Lightning Network -siirrossa?
-vastaus: Varat eivät liiku, mutta lopullinen saldo päivittyy.
+question: Mitä varoille tapahtuu Lightning Network -siirrossa?
+answer: Varat eivät liiku, mutta lopullinen saldo päivittyy.
 vaarat_vastaukset:
   - Varat siirretään toiselle puolelle.
   - Varat lukitaan, kunnes kanava suljetaan.
   - Varat lähetetään Bitcoin-verkkoon.
-selitys: |
+explanation: |
   Lightning Network -siirrossa varat eivät liiku. Sen sijaan lopullinen
   saldo päivittyy allekirjoitetulla, mutta julkaisemattomalla on-chain siirrolla.
 arvioitu: false

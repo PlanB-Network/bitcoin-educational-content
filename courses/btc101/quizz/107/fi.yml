@@ -1,8 +1,8 @@
-kysymys: Mikä on notaarin rooli Bitcoin-perinnön yhteydessä?
-vastaus: Varmistaa verotuksen noudattaminen
-väärät_vastaukset:
+question: Mikä on notaarin rooli Bitcoin-perinnön yhteydessä?
+answer: Varmistaa verotuksen noudattaminen
+wrong_answers:
   - Hallinnoida bitcoinejasi kuolemasi jälkeen
   - Luoda perintösuunnitelmasi
   - Turvata bitcoinejasi
-selitys: |
+explanation: |
   Bitcoin-perinnön yhteydessä on tärkeää keskustella bitcoinejen perinnöstä notaarin kanssa varmistaakseen verotuksen noudattamisen.

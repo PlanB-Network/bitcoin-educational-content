@@ -1,10 +1,10 @@
-kysymys: Mikä on Lightning Network -solmujen rooli transaktiossa?
-vastaus: Ne veloittavat maksun suostuessaan toimimaan transaktion reitityksessä.
-väärät_vastaukset:
+question: Mikä on Lightning Network -solmujen rooli transaktiossa?
+answer: Ne veloittavat maksun suostuessaan toimimaan transaktion reitityksessä.
+wrong_answers:
   - Ne mahdollistavat transaktion ilman mitään maksuja.
   - Ne aloittavat transaktion.
   - Ne ovat transaktion lopullisia vastaanottajia.
-selitys: |
+explanation: |
   Lightning Networkissa solmut veloittavat maksun suostuessaan toimimaan
   transaktion reitityksessä. Tämä maksu vaihtelee riippuen siitä, missä likviditeetti
   sijaitsee.

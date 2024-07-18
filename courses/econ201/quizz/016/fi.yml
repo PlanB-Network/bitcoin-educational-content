@@ -1,9 +1,9 @@
-kysymys: Mikä on laskevan rajahyödyn käsite?
-vastaus: Jokainen lisäyksikkö hyödykettä halutaan vähemmän kuin edellinen.
-väärät_vastaukset:
+question: Mikä on laskevan rajahyödyn käsite?
+answer: Jokainen lisäyksikkö hyödykettä halutaan vähemmän kuin edellinen.
+wrong_answers:
   - Jokainen lisäyksikkö hyödykettä halutaan enemmän kuin edellinen.
   - Jokainen lisäyksikkö hyödykettä halutaan yhtä paljon kuin edellinen.
   - Halu jokaisesta lisäyksiköstä hyödykettä vaihtelee ennustamattomasti.
-selitys: |
+explanation: |
   Laskevan rajahyödyn käsite toteaa, että jokainen lisäyksikkö hyödykettä halutaan vähemmän kuin edellinen. Tämä johtuu siitä, että mitä enemmän yksilö saa hyödykettä, sitä vähemmän hyötyä jokainen lisäyksikkö kyseistä hyödykettä tarjoaa.
 arvioitu: false

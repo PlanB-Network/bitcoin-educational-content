@@ -1,10 +1,10 @@
-kysymys: Mitkä ovat nollakorkopolitiikan (ZIRP) seuraukset?
-vastaus: ZIRP heikentää pankkien marginaaleja, vähentää lainanantoa yrittäjille ja riskinottajille sekä rohkaisee hallituksia harjoittamaan laajaa menojen kasvattamista, mikä johtaa julkisen velan kasvuun.
-väärät_vastaukset:
+question: Mitkä ovat nollakorkopolitiikan (ZIRP) seuraukset?
+answer: ZIRP heikentää pankkien marginaaleja, vähentää lainanantoa yrittäjille ja riskinottajille sekä rohkaisee hallituksia harjoittamaan laajaa menojen kasvattamista, mikä johtaa julkisen velan kasvuun.
+wrong_answers:
   - ZIRP lisää pankkien voittoja, rohkaisee lainanantoa yrittäjille ja riskinottajille sekä vähentää hallituksen menojen kasvattamista.
   - ZIRP:llä ei ole merkittävää vaikutusta pankeihin, lainakäytäntöihin tai hallituksen menojen kasvattamiseen.
   - ZIRP vähentää julkista velkaa, rohkaisee lainanantoa yrittäjille ja riskinottajille sekä vähentää hallituksen menojen kasvattamista.
-selitys: |
+explanation: |
   Nollakorkopolitiikalla (ZIRP) voi olla useita tahattomia seurauksia.
   Pankkien on vaikea kasvattaa omaa pääomaansa, koska niiden marginaalit heikkenevät.
   Niillä on myös vähän kannustimia lainata, erityisesti yrittäjille ja muille riskinottajille.

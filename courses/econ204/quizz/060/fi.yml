@@ -1,9 +1,9 @@
-kysymys: Mikä oli pääsyy Englannin pankin perustamiselle?
-vastaus: Rahoittaa sota 1600-luvun lopussa
-väärät_vastaukset:
+question: Mikä oli pääsyy Englannin pankin perustamiselle?
+answer: Rahoittaa sota 1600-luvun lopussa
+wrong_answers:
   - Oman valuutan liikkeeseenlasku
   - Kilpailla Amsterdamin pankin kanssa
   - Säännellä pörssimarkkinoita
-selitys: |
+explanation: |
   Englannin pankki perustettiin 1600-luvun lopulla ensisijaisesti sodan rahoittamiseksi. Se määräsi talletuksia asetuksella ja siirsi yksityiset pankit toissijaiseen asemaan rahajärjestelmässä.
 arvioitu: false

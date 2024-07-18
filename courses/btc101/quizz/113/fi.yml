@@ -1,12 +1,12 @@
-kysymys: Miksi kaikki eivät voi käyttää samaa Bitcoin-lompakkoa?
-vastaus: Koska eri yksilöiden tarpeet tarkoittavat erilaisia käyttötarkoituksia.
-väärät_vastaukset:
+question: Miksi kaikki eivät voi käyttää samaa Bitcoin-lompakkoa?
+answer: Koska eri yksilöiden tarpeet tarkoittavat erilaisia käyttötarkoituksia.
+wrong_answers:
   - Koska Bitcoin-lompakon käyttö on kallista
   - Koska Bitcoin-lompakon käyttö on laitonta
   - Koska ihmiset eivät koskaan pääse yksimielisyyteen tällaisen lompakon nimestä
-selitys: |
+explanation: |
   Kun yksi henkilö saattaa asettaa etusijalle turvallisuuden, toinen saattaa arvostaa 
   käyttäjäystävällisyyttä tai tiettyjä ominaisuuksia. Siksi yksi ainoa Bitcoin-lompakko 
   ei välttämättä vastaa kaikkien vaatimuksiin, mikä tekee tarpeelliseksi 
   useiden lompakkovaihtoehtojen olemassaolon.
-arvioitu: true
+reviewed: false

@@ -1,9 +1,9 @@
-kysymys: Mikä on ensisijainen syy lyhyen aikavälin hintavaihteluihin stablecoineissa?
-vastaus: Matalat likviditeettitasot vaihtoalustoilla
-väärät_vastaukset:
+question: Mikä on ensisijainen syy lyhyen aikavälin hintavaihteluihin stablecoineissa?
+answer: Matalat likviditeettitasot vaihtoalustoilla
+wrong_answers:
   - Varantojen puute nostopyyntöjen täyttämiseksi
   - Hakkeroinnit vaarantavat stablecoinin
   - Stablecoinien irrottautuminen sidotusta arvostaan
-selitys: |
+explanation: |
   Lyhyen aikavälin hintavaihtelut stablecoineissa johtuvat usein likviditeettiongelmista, joissa pienemmät vaihtoalustat eivät ehkä kykene täyttämään asiakkaiden kysyntää, aiheuttaen tilapäisiä hintavaihteluja.
-arvioitu: true
+reviewed: false

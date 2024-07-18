@@ -1,10 +1,10 @@
-kysymys: Mikä on siemenen pituus HD-lompakossa?
-vastaus: Siemenen pituus on 128–256 bittiä.
-väärät_vastaukset:
+question: Mikä on siemenen pituus HD-lompakossa?
+answer: Siemenen pituus on 128–256 bittiä.
+wrong_answers:
   - Siemenen pituus on 64–128 bittiä.
   - Siemenen pituus on 256–512 bittiä.
   - Siemenen pituus on 32–64 bittiä.
-selitys: |
+explanation: |
   HD-lompakon siemenen pituus on 128–256 bittiä. Se luodaan
 
   satunnaisesti tai salaisesta fraasista.

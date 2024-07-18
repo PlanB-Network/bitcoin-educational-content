@@ -1,8 +1,8 @@
-kysymys: Mikä turvaa Bitcoinin UTXO:t?
-vastaus: Skriptien avulla, jotka määrittelevät käyttöehdot.
-väärät_vastaukset:
+question: Mikä turvaa Bitcoinin UTXO:t?
+answer: Skriptien avulla, jotka määrittelevät käyttöehdot.
+wrong_answers:
   - Säännöllisen tarkistuksen kautta louhijoiden toimesta.
   - Keskusrekisterin kautta.
   - Käyttäjän henkilöllisyyden varmentamisen kautta.
-selitys: |
+explanation: |
   Bitcoin-siirron tulokset ovat UTXO:ita, jotka on suojattu skriptillä. Tämä skripti vaatii, että ennalta määritellyt käyttöehdot täyttyvät, jotta UTXO:n voi käyttää.

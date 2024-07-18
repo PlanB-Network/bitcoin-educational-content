@@ -1,10 +1,10 @@
-kysymys: Mikä on yksi tekijä, joka tulee ottaa huomioon valittaessa ratkaisua Bitcoinien hyväksymiseen yrityksessäsi?
-vastaus: Odotettu transaktiomäärä
-väärät_vastaukset:
+question: Mikä on yksi tekijä, joka tulee ottaa huomioon valittaessa ratkaisua Bitcoinien hyväksymiseen yrityksessäsi?
+answer: Odotettu transaktiomäärä
+wrong_answers:
   - Logosi väri
   - Työntekijöiden lukumäärä
   - Pääkonttorisi sijainti
-selitys: >-
+explanation: >-
   Valittaessa ratkaisua Bitcoinien hyväksymiseen yrityksessäsi, useita
   tekijöitä tulee ottaa huomioon, kuten odotettu transaktiomäärä, varattu
   budjetti ja liiketoiminnan tyyppi (verkossa tai fyysisesti).

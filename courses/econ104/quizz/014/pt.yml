@@ -1,10 +1,10 @@
-pergunta: Qual é o papel das chaves privadas nas transações de Bitcoin?
-resposta: Elas são usadas para assinar e autorizar transações.
+question: Qual é o papel das chaves privadas nas transações de Bitcoin?
+answer: Elas são usadas para assinar e autorizar transações.
 respostas_incorretas:
   - São usadas para verificar a autenticidade das transações.
   - São usadas para criptografar os dados da transação.
   - São compartilhadas publicamente para transparência.
-explicação: |
+explanation: |
   As chaves privadas são um componente essencial das transações de Bitcoin.
   Elas são usadas para assinar e autorizar transações, fornecendo prova
   de propriedade e garantindo que apenas o proprietário possa gastar seus bitcoins.

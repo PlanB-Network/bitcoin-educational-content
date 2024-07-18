@@ -1,13 +1,13 @@
-pergunta: O que envolve a consolidação?
+question: O que envolve a consolidação?
 
-resposta: Unir várias entradas para criar uma única maior.
+answer: Unir várias entradas para criar uma única maior.
 
-respostas_erradas:
+wrong_answers:
   - Dividir uma grande entrada em várias menores.
   - Transferir entradas de múltiplas carteiras para uma única.
   - Reatribuir entradas não utilizadas para novos endereços.
 
-explicação: |
+explanation: |
   O princípio da consolidação é aproveitar os períodos em que as taxas estão baixas no Bitcoin para unir UTXOs menores em um único maior.
 
 revisado: false

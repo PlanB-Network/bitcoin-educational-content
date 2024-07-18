@@ -2,7 +2,7 @@ question: Jaký je účel štítků (Labels) u tichých plateb (Silent Payments)
 
 answer: Použít více různých statických adres bez zbytečného zvyšování zátěže skenování.
 
-špatné odpovědi:
+wrong_answers:
   - Zašifrovat transakce tichých plateb, aby se skryl skutečný příjemce transakce.
   - Použít více různých statických adres, které nemohou být spojeny externím pozorovatelem.
   - Umístit viditelný štítek na blockchain k identifikaci tichých plateb ve způsobu platební reference.

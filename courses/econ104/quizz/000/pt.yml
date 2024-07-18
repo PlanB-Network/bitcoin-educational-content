@@ -1,10 +1,10 @@
-pergunta: Qual das seguintes opções NÃO é uma das três funções essenciais do dinheiro?
-resposta: Fonte de Energia
-respostas_erradas:
+question: Qual das seguintes opções NÃO é uma das três funções essenciais do dinheiro?
+answer: Fonte de Energia
+wrong_answers:
   - Reserva de Valor
   - Meio de Troca
   - Unidade de Conta
-explicação: |
+explanation: |
   As três funções essenciais do dinheiro são reserva de valor, meio de troca,
   e unidade de conta. Fonte de energia não é uma função do dinheiro.
 reviewed: false

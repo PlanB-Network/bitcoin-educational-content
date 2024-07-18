@@ -1,13 +1,13 @@
-pergunta: Entre as seguintes respostas, qual delas não permite enganar as heurísticas de análise de cadeia?
+question: Entre as seguintes respostas, qual delas não permite enganar as heurísticas de análise de cadeia?
 
-resposta: Sempre usar o mesmo endereço de recebimento.
+answer: Sempre usar o mesmo endereço de recebimento.
 
-respostas_erradas:
+wrong_answers:
   - Criar um troco cujo valor é próximo ao do pagamento.
   - Fazer saídas de valores irregulares, não arredondados.
   - Distribuir a dispersão das transações ao longo do dia.
 
-explicação: |
+explanation: |
   Não se deve, especialmente, usar um endereço de recebimento múltiplas vezes. Todas as outras respostas permitem evitar as heurísticas de análise de cadeia.
 
 revisado: false

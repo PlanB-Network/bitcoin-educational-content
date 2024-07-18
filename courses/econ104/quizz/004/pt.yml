@@ -1,10 +1,10 @@
-pergunta: Qual é uma razão pela qual a moeda fiduciária leva ao controle centralizado?
-resposta: Permite que os governos controlem a oferta de dinheiro e as taxas de juros.
-respostas_erradas:
+question: Qual é uma razão pela qual a moeda fiduciária leva ao controle centralizado?
+answer: Permite que os governos controlem a oferta de dinheiro e as taxas de juros.
+wrong_answers:
   - É respaldada por commodities físicas como ouro e prata.
   - É resistente à inflação.
   - Incentiva sistemas financeiros descentralizados.
-explicação: |
+explanation: |
   A moeda fiduciária dá aos governos o poder de controlar a oferta de dinheiro e
   as taxas de juros, permitindo-lhes influenciar a atividade econômica e resultando
   em controle centralizado.

@@ -1,6 +1,6 @@
 question: Jaký je vývoj měny?
 answer: Surový kámen -> Mince -> Bankovka -> Platební karta -> Blockchain -> Lightning Network
-špatné odpovědi:
+wrong_answers:
   - Surový kámen -> Mince -> Bankovka -> Blockchain -> Lightning Network
   - Surový kámen -> Mince -> Bankovka -> Platební karta -> Lightning Network
   - Surový kámen -> Mince -> Bankovka -> Platební karta -> Blockchain

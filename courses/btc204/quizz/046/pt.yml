@@ -1,13 +1,13 @@
-pergunta: Qual algoritmo de troca de chaves criptográficas é fundamental na operação do BIP47?
+question: Qual algoritmo de troca de chaves criptográficas é fundamental na operação do BIP47?
 
-resposta: ECDH
+answer: ECDH
 
-respostas_erradas:
+wrong_answers:
   - RSA
   - ElGamal
   - Diffie-Hellman
 
-explicação: |
+explanation: |
   O algoritmo utilizado é o ECDH (Elliptic Curve Diffie-Hellman). É uma variante do clássico algoritmo Diffie-Hellman que utiliza curvas elípticas.
 
 revisado: false

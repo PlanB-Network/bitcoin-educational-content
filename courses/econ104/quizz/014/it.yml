@@ -8,4 +8,4 @@ explanation: |
   Le chiavi private sono un componente essenziale delle transazioni Bitcoin.
   Sono utilizzate per firmare e autorizzare le transazioni, fornendo prova
   della proprietà e assicurando che solo il proprietario possa spendere i suoi bitcoin.
-revisionato: true
+reviewed: false

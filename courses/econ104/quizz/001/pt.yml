@@ -1,10 +1,10 @@
-pergunta: Qual dos seguintes é necessário para uma transação bem-sucedida em um sistema de escambo?
-resposta: Uma dupla coincidência de desejos
-respostas_erradas:
+question: Qual dos seguintes é necessário para uma transação bem-sucedida em um sistema de escambo?
+answer: Uma dupla coincidência de desejos
+wrong_answers:
   - Uma unidade comum de conta
   - Uma autoridade bancária central
   - Um requisito de saldo mínimo
-explicação: |
+explanation: |
   Em um sistema de escambo, as transações ocorrem diretamente entre duas partes trocando bens ou
   serviços sem o uso de dinheiro. Uma transação bem-sucedida requer uma dupla coincidência de
   desejos, significando que ambas as partes devem ter algo que a outra deseja trocar.

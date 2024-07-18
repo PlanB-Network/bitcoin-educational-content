@@ -1,10 +1,10 @@
-pergunta: Quais são os principais tipos de stablecoins mencionados no texto?
-resposta: Stablecoins lastreadas em moeda fiduciária, lastreadas em commodities e stablecoins algorítmicas.
-respostas_erradas:
+question: Quais são os principais tipos de stablecoins mencionados no texto?
+answer: Stablecoins lastreadas em moeda fiduciária, lastreadas em commodities e stablecoins algorítmicas.
+wrong_answers:
   - Stablecoins digitais e físicas
   - Stablecoins centralizadas e descentralizadas
   - Stablecoins lastreadas por bancos e stablecoins lastreadas por indivíduos
-explicação: |
+explanation: |
   Nos capítulos anteriores, vimos três principais tipos de stablecoins; 
   stablecoins lastreadas em moeda fiduciária, que são respaldadas por moedas tradicionais 
   como o dólar americano; stablecoins lastreadas em commodities, que são respaldadas por 

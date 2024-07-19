@@ -1209,7 +1209,7 @@ D'abord, il a été une période fastueuse pour le minage, qui s'est énormémen
 
 ### La première ferme de minage (juil. 2010 -- sept. 2010)
 
-Après le slashdotting de Bitcoin en juillet 2010, la récompense financière élevée apportée par la hausse du prix et par l'éventualité de croissances futures incite les individus à se spécialiser dans la génération de bitcoins. C'est en quelque sorte une « ruée vers l'or numérique », comme l'[écrit](https://web.archive.org/web/20100828094955/http://www.bitcoinblogger.com/2010/08/bitcoins-new-digital-gold-rush.html) un blogueur de l'époque, constatant que des milliers d'internautes « minent des bitcoins dans l'espoir de faire fortune » et que beaucoup d'entre eux tentent « de développer des outils logiciels et matériels pour miner des bitcoins plus efficacement ». (*original: "Bitcoins: A New Digital Gold Rush (...) Thousands of users on the Internet are now mining for bitcoins in hopes of fortune. Many are trying to develop software and hardware tools to mine for bitcoins more efficiently in hopes of becoming filthy rich."*) Le [taux de hachage](https://bitinfocharts.com/comparison/bitcoin-hashrate.html#alltime) du réseau qui était de 0,22 GH/s le 11 juillet, passe ainsi à 2,78 GH/s le 17, puis à 5,79 GH/s le 15 août, ensuite à 9,94 GH/s le 19 septembre et enfin à 12,58 GH/s le 29.
+Après le slashdotting de Bitcoin en juillet 2010, la récompense financière élevée apportée par la hausse du prix et par l'éventualité de croissances futures incite les individus à se spécialiser dans la génération de bitcoins. C'est en quelque sorte une « ruée vers l'or numérique », comme l'[écrit](https://web.archive.org/web/20100828094955/http://www.bitcoinblogger.com/2010/08/bitcoins-new-digital-gold-rush.html) un blogueur de l'époque (se faisant appeler jimbobway), constatant que des milliers d'internautes « minent des bitcoins dans l'espoir de faire fortune » et que beaucoup d'entre eux tentent « de développer des outils logiciels et matériels pour miner des bitcoins plus efficacement ». (*original: "Bitcoins: A New Digital Gold Rush (...) Thousands of users on the Internet are now mining for bitcoins in hopes of fortune. Many are trying to develop software and hardware tools to mine for bitcoins more efficiently in hopes of becoming filthy rich."*) Le [taux de hachage](https://bitinfocharts.com/comparison/bitcoin-hashrate.html#alltime) du réseau qui était de 0,22 GH/s le 11 juillet, passe ainsi à 2,78 GH/s le 17, puis à 5,79 GH/s le 15 août, ensuite à 9,94 GH/s le 19 septembre et enfin à 12,58 GH/s le 29.
 
 img: hashrate (CoinWarz ?)
 
@@ -1263,7 +1263,9 @@ Le même jour, Ploum ouvre le [fil de discussion](https://bitcointalk.org/index.
 
 ### Un écosystème florissant (oct. 2010 -- nov. 2010)
 
-Tout d'abord, la communication au sujet de Bitcoin se met en place. Le 4 octobre, un Australien de 38 ans utilisant le pseudonyme noagendamarket, inscrit depuis le 5 juin d'après son [profil](https://web.archive.org/web/20101221210556/http://www.bitcoin.org/smf/index.php?action=profile;u=240), [lance](https://bitcointalk.org/index.php?topic=1355.msg15217#msg15217) une initiative portant le nom de BitcoinMedia. L'idée est de promouvoir Bitcoin en créant divers contenus et d'en faire la publicité à des endroits susceptibles d'attirer un public. Bien que cette initiative ne rencontre pas le succès escompté, elle a le mérite de mener à la production des premières vidéos parlant de Bitcoin. La première vidéo de la chaîne, [publiée](https://bitcointalk.org/index.php?topic=1355.msg15461#msg15461) le 5 octobre, est une *Google Search Story*, créée grâce à l'outil Youtube. Les autres vidéos seront générées avec Xtranormal, un outil facile de réalisation de séquences vidéo à partir d'un ensemble de personnages et de décors préconçus.
+Tout d'abord, la communication au sujet de Bitcoin se met en place. Le 4 octobre, un Australien de 38 ans utilisant le pseudonyme noagendamarket, inscrit depuis le 5 juin d'après son [profil](https://web.archive.org/web/20101221210556/http://www.bitcoin.org/smf/index.php?action=profile;u=240), [lance](https://bitcointalk.org/index.php?topic=1355.msg15217#msg15217) une initiative portant le nom de BitcoinMedia. L'idée est de promouvoir Bitcoin en créant divers contenus et d'en faire la publicité à des endroits susceptibles d'attirer un public. Bien que cette initiative ne rencontre pas le succès escompté, elle a le mérite de mener à la production des premières vidéos parlant de Bitcoin. La première vidéo de la chaîne, [publiée](https://bitcointalk.org/index.php?topic=1355.msg15461#msg15461) le 5 octobre, est une *Google Search Story*, créée grâce à l'outil Youtube (voir la capture ci-dessous). Les autres vidéos seront générées avec Xtranormal, un outil facile de réalisation de séquences vidéo à partir d'un ensemble de personnages et de décors préconçus.
+
+![Première vidéo sur Bitcoin (Google Search Story)](assets/img/ch10/bitcoinmedia-video-20101005.webp)
 
 Les billets de blog à propos de Bitcoin se multiplient durant cette période. C'est notamment le cas de Jon Matonis, qui tient le blog *The Monetary Future* où il traite de sujets liés aux monnaies numériques, à la banque libre et à la cryptographie. Il a découvert Bitcoin en mars et a [échangé](https://web.archive.org/web/20140511100607/https://bitcoinfoundation.org/forum/index.php?/topic/54-my-first-message-to-satoshi/#entry514) avec Satoshi, suite à quoi il s'est mis à écrire sur le sujet. En octobre, il publie un [troisième article](https://themonetaryfuture.blogspot.com/2010/10/rally-in-bitcoin.html) où il parle de la hausse du prix et détaille les nouveautés de l'écosystème.
 
@@ -1295,31 +1297,21 @@ Un dernier élément indiquant le succès de Bitcoin est le fait que certains se
 
 ### L'Eletronic Frontier Foudation accepte le bitcoin (nov. 2010)
 
-Un évènement marquant est l'acceptation du bitcoin par l'*Electronic Frontier Foundation*...
-
-[10/8](https://bitcointalk.org/index.php?topic=778.msg8578#msg8578) : don collectif à l'EFF
-
-[13/8](https://bitcointalk.org/index.php?topic=804.msg9021#msg9021) : lettre à l'EFF, proposant de faire un don en bitcoins
-
-[28/8](https://bitcointalk.org/index.php?topic=804.msg11511#msg11511) : envoi de la lettre
-
-[14/9](https://bitcointalk.org/index.php?topic=804.msg12671#msg12671) : courriel de BrightAnarchist
-
-[7/10](https://bitcointalk.org/index.php?topic=804.msg15949#msg15949) : réponse positive
-
-Le 9 novembre,
-
-L'adresse apparaît sur la [page de donation](https://web.archive.org/web/20101130105838/http://www.eff.org/helpout).
-
-MM https://bitcointalk.org/index.php?topic=778.msg8596#msg8596
+Un évènement marquant de la fin de l'année 2010 est l'acceptation du bitcoin par l'*Electronic Frontier Foundation*, une organisation internationale de protection des libertés sur Internet, cofondée en 1900 par Mitch Kapor, John Gilmore et John Perry Barlow. Celle-ci tient à cœur aux premiers adeptes de Bitcoin, cypherpunks dans l'âme. Ils tiennent ainsi à ce qu'elle accepte le bitcoin.
 
 ![Logo de l'Electronic Frontier Foundation](assets/img/ch10/eff-logo-2010.webp)
 
-Un [billet de blog](https://web.archive.org/web/20101117060233/http://www.bitcoinblogger.com/2010/11/bitcoin-gains-legal-protection-through.html) est écrit à ce sujet par jimbobway. Il est retranscrit en vidéo par BitcoinMedia quelques jours plus tard, au moyen de Xtranormal.
+C'est le membre du forum appelé Kiba qui franchit le pas le 13 août 2010, en [proposant](https://bitcointalk.org/index.php?topic=804.msg9021#msg9021) de contacter l'EFF et de lui proposer de recevoir un don, [récolté](https://bitcointalk.org/index.php?topic=778.msg8578#msg8578) auprès de la communauté. Il met pour cela en place un compte sur MyBitcoin (1MCwBbhNGp5hRm5rC1Aims2YFRe2SXPYKt) où il récupère les fonds et dont il souhaite transmettre les accès à l'EFF. Il rédige un courriel (corrigé par la communauté) qu'il envoie à la fin du mois d'août.
+
+Deux semaines plus tard, en l'absence de réponse, un deuxième membre du forum lui vient en aide. Ce dernier, utilisant le pseudonyme BrightAnarchist), connaît l'un des fondateurs et lui envoie un courriel le 13 septembre. Il reçoit une réponse dans la journée et [écrit](https://bitcointalk.org/index.php?topic=804.msg12631#msg12631) alors sur le forum que « l'EFF est tout à fait intéressée pour recevoir des Bitcoins ! » (*original: "The EFF is definitely interested in recieving \[sic\] Bitcoins!"*) Le compte est alors transmis à l'organisation.
+
+Celle-ci met quelques temps à se mettre accepter les donations du public. Après négociation, la communauté la convainc de publier une adresse de donation sur son site. Le 9 novembre, l'adresse apparaît sur la [page de donation](https://web.archive.org/web/20101130105838/http://www.eff.org/helpout). Les utilisateurs de Bitcoin [commencent](https://mempool.space/tx/8ca2d206bc41b9ffa36cf4ea9ce9d3b0751fd653b6ec8f2979bfdddc4a631731) à transférer des fonds.
+
+Quelques jours plus, un [billet](https://web.archive.org/web/20101117060233/http://www.bitcoinblogger.com/2010/11/bitcoin-gains-legal-protection-through.html) est écrit à ce sujet par le blogueur jimbobway, ce qui attire l'attention sur Bitcoin. Cet article est [relayé](https://news.ycombinator.com/item?id=1905522) sur HackerNews. Il est également retranscrit en vidéo par BitcoinMedia au moyen de Xtranormal :
 
 ![Vidéo "Bitcoin and the EFF."](https://www.youtube.com/watch?v=AiGCuyRJe8s)
 
-Le 6 janvier, Satoshi [écrira](https://mmalmi.github.io/satoshi/#email-254) le commentaire suivant dans un courriel adressé à Gavin Andresen :
+Il s'agit d'une très bonne nouvelle pour Bitcoin car les deux initiatives partagent des valeurs communes. De plus, l'EFF a apporté une protection légale aux projets de préservation de la vie privée et de partage de données comme Tor et BitTorrent. Satoshi Nakamoto lui-même en est conscient et est particulièrement favorable aux actions de l'organisation, comme le montre le [commentaire](https://mmalmi.github.io/satoshi/#email-254) fait dans un de ses courriels adressé à Gavin Andresen le 6 janvier 2011 :
 
 > « L'EFF est très importante. &nbsp;Nous voulons entretenir de bonnes relations avec elle. &nbsp;Nous sommes le type de projet qu'ils apprécient ; ils ont aidé le projet TOR et ont fait beaucoup pour protéger le partage de fichiers en P2P. »
 >
@@ -1391,19 +1383,28 @@ Ce départ du créateur de Bitcoin précipité s'explique par deux raisons : d'
 
 ### Communauté et contestation (juil. 2010 -- déc. 2010)
 
-La communauté de développement se regroupe sur le canal `#bitcoin-dev`, dont les logs sont [publiés](https://web.archive.org/web/20131201235340/http://www.bitcoinstats.com/irc/bitcoin-dev/logs/2010/09) sur le site de Christian Decker, Bitcoin Stats, à partir de septembre 2010. Ce lieu est l'endroit idéal pour les personnes les plus techniques pour échanger en détails sur Bitcoin. Mineurs par GPU (ArtForz, Diablo-D3)
+La communauté de développement se regroupe sur le canal `#bitcoin-dev`, dont les logs sont [publiés](https://web.archive.org/web/20131201235340/http://www.bitcoinstats.com/irc/bitcoin-dev/logs/2010/09) sur le site de Christian Decker, Bitcoin Stats, à partir de septembre 2010. Ce canal est l'endroit idéal pour les personnes les plus techniques pour échanger en détails sur Bitcoin. Mineurs par GPU (ArtForz, Diablo-D3, Nils Schneider)
+
+Satoshi Nakamoto lui ne s'y connecte jamais, de sorte que la parole y est plus « libérée » que sur le forum. Il arrive donc souvent que les décisions de développement de Satoshi soient remises en question, voire même son statut vis-à-vis de Bitcoin.
+
+Satoshi est en effet le meneur incontesté du projet, ou ce qu'on appelle, dans le monde du logiciel libre, un « dictateur bienveillant à vie ». Il assure la stabilité du développement ouvert en prenant les décisions pour tout le monde, ce qui limite le risque de rébellion et de scission. Il est le gardien,
 
 « [gardien](https://buildingbitcoin.org/bitcoin-dev/log-2010-09-27.html#l-528) »
 
-Dictateur bienveillant à vie (*benevolent dictator for life*). Stabilité d'un projet dans le monde du logiciel libre.
+Dictateur bienveillant à vie (*benevolent dictator for life*). Stabilité d'un projet .
 
 > « J'aimerais juste pouvoir le convaincre de basculer vers un modèle de développement plus collaboratif. \[...\] Satoshi est le gardien pour l'instant, tout le code passe par lui. » [Gavin, 27/9](https://buildingbitcoin.org/bitcoin-dev/log-2010-09-27.html#l-522)
 >
 > *original: "I just wish I could convince him to switch to a more collaborative development model. (...) Satoshi is the gatekeeper right now, all code flows through him"*
 
+
+
+
 [9/7](https://bitcointalk.org/index.php?topic=251.msg2094#msg2094) :
 
 [2/11](https://bitcointalk.org/index.php?topic=1647.msg19737#msg19737) : contestation sur le forum
+
+"satoshi came up with magic numbers out of thin air, and we collectively support that leadership" [19/11](https://buildingbitcoin.org/bitcoin-dev/log-2010-11-19.html#l-1538)
 
 https://bitcoinmagazine.com/technical/what-happened-when-bitcoin-creator-satoshi-nakamoto-disappeared
 
@@ -1475,7 +1476,7 @@ Tout d'abord, il tient à ajouter leurs adresses de courriel à la [page de cont
 >
 > *original: "And eventually, he pulled a fast one on me because he asked me if it'd be OK if he put my email address on the bitcoin homepage, and I said yes, not realizing that when he put my email address there, he'd take his away"*
 
-Mais ce n'est pas tout. Satoshi souhaite également transmettre son contrôle sur le logiciel à Gavin Andresen. Il lui donne donc accès au dépôt sur SourceForge. Gavin, plus à l'aise avec git, crée également un nouveau dépôt sur GitHub le 19 décembre.
+Mais ce n'est pas tout. Satoshi souhaite également transmettre son contrôle sur le logiciel à Gavin Andresen. Gavin, qui a déjà obtenu un accès en écriture au dépôt sur SourceForge [depuis octobre](https://sourceforge.net/p/bitcoin/code/103/), devient le mainteneur principal du dépôt. Plus à l'aise avec git, il crée également un nouveau dépôt sur GitHub le 19 décembre.
 
 Le 19 décembre, Gavin Andresen [crée](https://api.github.com/repos/bitcoin/bitcoin) le dépôt sur GitHub, étant probablement plus à l'aise avec Git. Le même jour, il écrit un long message sur le forum expliquant qu'il va s'impliquer plus dans le développement. Il [annonce](https://bitcointalk.org/index.php?topic=2367.msg31651#msg31651) :
 
@@ -1541,7 +1542,16 @@ Un article a été [publié](https://www.eff.org/deeplinks/2011/01/bitcoin-step-
 
 ## La prise de relai de la communauté (avr. 2011 -- sept. 2011)
 
+
+### Faire sans Satoshi
+
+jimbobway à Satoshi, [30/7](https://bitcointalk.org/index.php?topic=628.msg6536#msg6536) : « Supposons que, Dieu nous en préserve, vous ne soyez plus en mesure de programmer ou que vous soyez indisponible en raison de circonstances inconnues.  Avez-vous une procédure en tête pour continuer le bitcoin en votre absence ? » (*original: "Suppose, god forbid, you were no longer able to program or were unavailable due to unknown circumstances.  Do you have a procedure in mind to continue bitcoin in your absence?"*)
+
+jgarzik, [30/7](https://bitcointalk.org/index.php?topic=628.msg6578#msg6578) : « Les gens s'inquiètent beaucoup des règles et de leur élaboration. &nbsp;Mais il n'y a aucun besoin de plan de continuité du gouvernement ici :) &nbsp;Tant que le code source reste ouvert, c'est suffisant. &nbsp;S'il existe un besoin et suffisamment d'intérêt, la communauté s'en chargera. &nbsp;Faites confiance à la communauté :) » (*original: "People worry an awful lot about rules and rule-making. &nbsp;But there is no driving need for any Continuity of Government plan, here :) &nbsp;As long as the source code remains open, that is sufficient. &nbsp;If there is a need, and enough interest, the community will provide. &nbsp;Trust in the community :)"*)
+
 ### Le développement communautaire
+
+"Core Bitcoin Development Help Wanted", [13/1](https://bitcointalk.org/index.php?topic=2772.msg37771#msg37771)
 
 Migration du wiki de dokuwiki vers Mediawiki, grâce à Mark Karpelès : https://bitcointalk.org/index.php?topic=2321.0 https://en.bitcoin.it/wiki/Mark_Karpel%C3%A8s#Bitcoin_Wiki
 
@@ -1588,6 +1598,8 @@ https://techland.time.com/2011/04/16/online-cash-bitcoin-could-challenge-governm
 https://www.forbes.com/forbes/2011/0509/technology-psilocybin-bitcoins-gavin-andresen-crypto-currency.html
 
 https://www.economist.com/babbage/2011/06/13/bits-and-bob
+
+Gavin : https://bitcointalk.org/index.php?topic=8940.msg129623#msg129623 https://web.archive.org/web/20110522073049/http://forum.bitcoin.org/index.php?topic=8940.0
 
 ### Le prix
 

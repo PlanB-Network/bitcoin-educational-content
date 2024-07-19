@@ -2,7 +2,7 @@ question: Jak můžeme minimalizovat dopady COIH při konsolidaci UTXO?
 
 answer: Konsolidací pouze UTXO ze stejného zdroje.
 
-špatné odpovědi:
+wrong_answers:
   - Posíláním UTXO na adresy třetích stran.
   - Náhodným výběrem UTXO, aby se zabránilo rozpoznatelným vzorcům.
   - Konsolidací UTXO v obdobích nízké aktivity.

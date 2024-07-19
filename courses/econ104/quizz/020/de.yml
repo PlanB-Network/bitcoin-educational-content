@@ -1,9 +1,9 @@
-Frage: Wie tragen Tethers verschiedene Stablecoins zur finanziellen Freiheit von Personen in instabilen Wirtschaftssystemen bei?
-Antwort: Indem sie Zugang zu Währungen mit stabilen Wechselkursen bieten
-Falsche Antworten:
+question: Wie tragen Tethers verschiedene Stablecoins zur finanziellen Freiheit von Personen in instabilen Wirtschaftssystemen bei?
+answer: Indem sie Zugang zu Währungen mit stabilen Wechselkursen bieten
+wrong_answers:
   - Indem sie die Notwendigkeit physischen Bargelds eliminieren
   - Indem sie höhere Zinssätze auf Ersparnisse bieten
   - Indem sie sofortige globale Transaktionen ermöglichen
-Erklärung: |
+explanation: |
   Tethers verschiedene Stablecoins sind an stabile Vermögenswerte wie den US-Dollar oder Gold gebunden. Diese Stabilität ermöglicht es Personen in instabilen Wirtschaftssystemen, ihr Geld in eine Währung zu verschieben, die nicht denselben Inflationsraten unterliegt, und hilft ihnen, den Wert ihrer Ersparnisse zu erhalten.
-Überprüft: true
+reviewed: false

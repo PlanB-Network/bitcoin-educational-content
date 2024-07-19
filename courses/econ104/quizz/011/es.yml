@@ -1,10 +1,10 @@
-pregunta: ¿Qué distingue a Bitcoin de las monedas tradicionales controladas por bancos centrales o gobiernos?
-respuesta: Todas ellas
-respuestas_incorrectas:
+question: ¿Qué distingue a Bitcoin de las monedas tradicionales controladas por bancos centrales o gobiernos?
+answer: Todas ellas
+wrong_answers:
   - Bitcoin requiere colaboración entre mineros, nodos y desarrolladores
   - Bitcoin permite que cualquiera participe en la red y desempeñe roles clave
   - Bitcoin se basa en un sistema descentralizado de consenso
-explicación: |
+explanation: |
   Lo que distingue a Bitcoin de las monedas fiduciarias tradicionales es que es un 
   esfuerzo colaborativo entre tres roles esenciales y la comunidad.
   Los nodos aseguran la integridad y seguridad de la red al actuar como guardianes.
@@ -16,4 +16,4 @@ explicación: |
   moneda digital. Al confiar estas tareas cruciales a los actores clave, Bitcoin puede 
   operar como un medio de intercambio descentralizado, seguro, transparente y responsable para 
   todos los usuarios, lo que lo hace significativamente diferente de las monedas centralizadas que usamos hoy.
-revisado: true
+reviewed: false

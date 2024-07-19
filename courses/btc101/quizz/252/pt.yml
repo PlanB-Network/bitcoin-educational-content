@@ -1,10 +1,10 @@
-pergunta: Qual é um dos principais benefícios do Bitcoin para pessoas sem conta bancária?
-resposta: O Bitcoin permite igualdade nas transações, independentemente do seu status social ou posição política.
-respostas_erradas:
+question: Qual é um dos principais benefícios do Bitcoin para pessoas sem conta bancária?
+answer: O Bitcoin permite igualdade nas transações, independentemente do seu status social ou posição política.
+wrong_answers:
   - O Bitcoin permite desigualdade nas transações.
   - O Bitcoin beneficia apenas pessoas com conta bancária.
   - O Bitcoin beneficia apenas pessoas com alto status social.
-explicação: >-
+explanation: >-
   O texto menciona que existem 2,4 bilhões de pessoas no mundo sem
   conta bancária, e o Bitcoin permite igualdade nas transações, independentemente do seu
   status social ou posição política.

@@ -1,13 +1,13 @@
-pregunta: Entre estas opciones, ¿cuál no es un método para la selección automática de piezas?
+question: Entre estas opciones, ¿cuál no es un método para la selección automática de piezas?
 
-respuesta: Pagos Silenciosos
+answer: Pagos Silenciosos
 
-respuestas_incorrectas:
+wrong_answers:
   - Ramificación y Acotamiento
   - FIFO
   - Solucionador de Mochila
 
-explicación: |
+explanation: |
   A diferencia de las otras tres opciones, Pagos Silenciosos no es un método para seleccionar piezas, sino un protocolo para usar direcciones estáticas.
 
 revisado: false

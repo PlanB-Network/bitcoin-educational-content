@@ -1,10 +1,10 @@
-pregunta: ¿Cuál es la función principal de los nodos en la red de Bitcoin?
-respuesta: Mantener una copia de la blockchain de Bitcoin, validar transacciones, transmitir información a otros nodos y hacer cumplir las reglas del protocolo de Bitcoin.
-respuestas_incorrectas:
+question: ¿Cuál es la función principal de los nodos en la red de Bitcoin?
+answer: Mantener una copia de la blockchain de Bitcoin, validar transacciones, transmitir información a otros nodos y hacer cumplir las reglas del protocolo de Bitcoin.
+wrong_answers:
   - Solo validar transacciones
   - Solo mantener una copia de la blockchain de Bitcoin
   - Solo transmitir información a otros nodos
-explicación: >-
+explanation: >-
   Los nodos en la red de Bitcoin realizan varias funciones cruciales, incluyendo
   mantener una copia de la blockchain de Bitcoin, validar transacciones, transmitir
   información a otros nodos y hacer cumplir las reglas del protocolo de Bitcoin.

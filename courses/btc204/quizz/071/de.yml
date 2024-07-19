@@ -1,13 +1,13 @@
-Frage: Welche Zwischenmaßnahme kann ergriffen werden, um Verbindungen zu verbergen, wenn Sie Ihren eigenen Bitcoin-Knoten nicht verwenden?
+question: Welche Zwischenmaßnahme kann ergriffen werden, um Verbindungen zu verbergen, wenn Sie Ihren eigenen Bitcoin-Knoten nicht verwenden?
 
-Antwort: Nutzung von Tor.
+answer: Nutzung von Tor.
 
-Falsche Antworten:
+wrong_answers:
   - Nutzung einer Firewall.
   - Nutzung einer verschlüsselten Wallet.
   - Nutzung einer Doppel-Wallet.
 
-Erklärung: |
+explanation: |
   Um das Risiko der Beobachtung zu begrenzen, ist eine Zwischenlösung die Verwendung von Wallet-Software, die es Ihnen ermöglicht, Ihre Verbindungen über Tor zu verbergen.
 
 Überprüft: false

@@ -2,7 +2,7 @@ question: Jaké informace by měly být uvedeny na štítku?
 
 answer: Původ UTXO.
 
-špatné odpovědi:
+wrong_answers:
   - Datum vytvoření UTXO.
   - Velikost UTXO.
   - Výše poplatků spojených s vytvořením UTXO.

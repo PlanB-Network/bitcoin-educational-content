@@ -1,12 +1,12 @@
-pregunta: ¿Cuál es la principal ventaja de usar billeteras no custodiadas para el almacenamiento de bitcoin?
-respuesta: Mayor seguridad y privacidad
-respuestas_incorrectas:
+question: ¿Cuál es la principal ventaja de usar billeteras no custodiadas para el almacenamiento de bitcoin?
+answer: Mayor seguridad y privacidad
+wrong_answers:
   - Acceso fácil a bitcoin
   - Tarifas de transacción más bajas
   - No es necesario una contraseña
-explicación: |
+explanation: |
   Las billeteras no custodiadas son aquellas en las que tú eres el único custodio de tus fondos,
   lo que significa que tienes control completo sobre tus claves privadas. Por lo tanto,
   las billeteras no custodiadas ofrecen un nivel más alto de seguridad y privacidad
   en comparación con las billeteras custodiadas, ya que tú eres el único responsable de la seguridad de tus fondos.
-revisado: true
+reviewed: false

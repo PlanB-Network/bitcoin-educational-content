@@ -1,12 +1,12 @@
-pregunta: ¿Cuál era una ventaja de la moneda metálica sobre el dinero mercancía?
-respuesta: Era más duradera
-respuestas_incorrectas:
+question: ¿Cuál era una ventaja de la moneda metálica sobre el dinero mercancía?
+answer: Era más duradera
+wrong_answers:
   - Tenía un valor intrínseco más alto
   - Era más fácilmente transportable
   - No era propensa a la falsificación
-explicación: |
+explanation: |
  La moneda metálica, particularmente el oro y la plata, era más duradera que el dinero mercancía.
  Los metales preciosos son menos propensos a deteriorarse con el tiempo, lo que los hace ideales para
  el almacenamiento a largo plazo de valor. Esta durabilidad también contribuyó a su utilidad como
  medio de intercambio, unidad de cuenta y depósito de valor.
-revisado: true
+reviewed: false

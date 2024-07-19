@@ -1,12 +1,12 @@
-Frage: Was war ein Vorteil von Münzgeld gegenüber Warengeld?
-Antwort: Es war langlebiger
-falsche_Antworten:
+question: Was war ein Vorteil von Münzgeld gegenüber Warengeld?
+answer: Es war langlebiger
+wrong_answers:
   - Es hatte einen höheren inneren Wert
   - Es war leichter transportierbar
   - Es war nicht anfällig für Fälschungen
-Erklärung: |
+explanation: |
  Metallgeld, insbesondere Gold und Silber, war langlebiger als Warengeld.
  Edelmetalle sind weniger anfällig für Verschlechterungen über die Zeit, was sie ideal für
  die langfristige Speicherung von Werten macht. Diese Langlebigkeit trug auch zu ihrer Nützlichkeit als
  Tauschmittel, Recheneinheit und Wertaufbewahrungsmittel bei.
-überprüft: true
+reviewed: false

@@ -2,7 +2,7 @@ question: Jak se adresy používají k uzamčení UTXO?
 
 answer: Jsou integrovány do ScriptPubKey
 
-špatné odpovědi:
+wrong_answers:
   - Jsou integrovány do ScriptSig
   - Jsou integrovány do coinbase.
   - Nejsou integrovány nikde.

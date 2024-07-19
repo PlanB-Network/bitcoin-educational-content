@@ -1,10 +1,10 @@
-pergunta: Qual é a função principal dos nós na rede Bitcoin?
-resposta: Manter uma cópia do blockchain do Bitcoin, validar transações, transmitir informações para outros nós e fazer cumprir as regras do protocolo Bitcoin.
-respostas_erradas:
+question: Qual é a função principal dos nós na rede Bitcoin?
+answer: Manter uma cópia do blockchain do Bitcoin, validar transações, transmitir informações para outros nós e fazer cumprir as regras do protocolo Bitcoin.
+wrong_answers:
   - Apenas validar transações
   - Apenas manter uma cópia do blockchain do Bitcoin
   - Apenas transmitir informações para outros nós
-explicação: >-
+explanation: >-
   Os nós na rede Bitcoin desempenham várias funções cruciais, incluindo
   manter uma cópia do blockchain do Bitcoin, validar transações, transmitir
   informações para outros nós e fazer cumprir as regras do protocolo Bitcoin.

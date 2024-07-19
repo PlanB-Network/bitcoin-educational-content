@@ -1,10 +1,10 @@
-pregunta: ¿Cuál de los siguientes NO es una de las tres funciones esenciales del dinero?
-respuesta: Fuente de Energía
-respuestas_incorrectas:
+question: ¿Cuál de los siguientes NO es una de las tres funciones esenciales del dinero?
+answer: Fuente de Energía
+wrong_answers:
   - Reserva de Valor
   - Medio de Intercambio
   - Unidad de Cuenta
-explicación: |
+explanation: |
   Las tres funciones esenciales del dinero son reserva de valor, medio de intercambio,
   y unidad de cuenta. Una fuente de energía no es una función del dinero.
-revisado: true
+reviewed: false

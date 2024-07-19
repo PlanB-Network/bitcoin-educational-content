@@ -1,10 +1,10 @@
-domanda: Qual è un vantaggio delle stablecoin centralizzate nonostante la loro capacità di congelare i fondi?
-risposta: Possono rispondere rapidamente per proteggere gli utenti in determinati scenari
-risposte_errate:
+question: Qual è un vantaggio delle stablecoin centralizzate nonostante la loro capacità di congelare i fondi?
+answer: Possono rispondere rapidamente per proteggere gli utenti in determinati scenari
+wrong_answers:
   - Offrono completa decentralizzazione e sicurezza
   - Non sono soggette a nessuna regolamentazione o intervento
   - Operano indipendentemente dalle forze dell'ordine
-spiegazione: |
+explanation: |
   Le stablecoin centralizzate hanno la capacità di intervenire
   quando è nell'interesse migliore degli utenti e della stabilità complessiva
   del sistema, come dimostrato da esempi in cui i fondi congelati sono stati

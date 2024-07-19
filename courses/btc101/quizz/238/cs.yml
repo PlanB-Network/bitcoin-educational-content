@@ -1,6 +1,6 @@
 question: Co je koncept "money streaming" v kontextu Lightning Network?
 answer: Provádění mikrotransakcí každou minutu
-špatné odpovědi:
+wrong_answers:
   - Streamování video obsahu za Bitcoin
   - Streamování audio obsahu za Bitcoin
   - Streamování Bitcoinových transakcí v reálném čase

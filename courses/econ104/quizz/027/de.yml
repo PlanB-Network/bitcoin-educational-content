@@ -1,9 +1,9 @@
-Frage: Welcher Prozentsatz des gesamten Transaktionsvolumens von Bitcoin wurde für illegale Aktivitäten verwendet?
-Antwort: Weniger als 1%
-Falsche Antworten:
+question: Welcher Prozentsatz des gesamten Transaktionsvolumens von Bitcoin wurde für illegale Aktivitäten verwendet?
+answer: Weniger als 1%
+wrong_answers:
   - 2-4%
   - Mehr als 5%
   - Es ist unbekannt
-Erklärung: |
+explanation: |
   Laut einem Bericht von Chainalysis aus dem Jahr 2020 machen illegale Aktivitäten nur etwa 0,34% aller Bitcoin-Transaktionen aus.
-Überprüft: true
+reviewed: false

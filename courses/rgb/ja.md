@@ -35,7 +35,7 @@ Bitcoinの最も先進的なトピックの1つであるこのコースを楽し
 
 ![image](assets/image/2.webp)
 
-このライブコースを組織し、参加した3人の教師に大きな感謝を：
+このライブコースを組織し、参加した3人の教師に大きな感謝を:
 
 - Maxim Orlovsky : Ex Tenebrae sententia sapiens dominabitur astris. Cypher, AI, ロボティクス、トランスヒューマニズム。RGB、Prime、Radiant、lnp_bp、mycitadel_io、cyphernet_ioのクリエーター
 - Hunter Trujilo : 開発者、Rust、Bitcoin、Bitcoin、Lightning、RGB
@@ -110,7 +110,7 @@ Bitcoinの最も先進的なトピックの1つであるこのコースを楽し
 ## 締めの言葉
 <chapterId>0309536d-c336-56a0-869e-a8395ed8d9ae</chapterId>
 
-PlanB NetworkとFulgur'Venturesの共同で提供されるRGBコースに参加していただき、ありがとうございます。サポートを提供してくれた講師の皆様に感謝を申し上げます。RGBでの作業を続けることに興味がある場合は、探索するための有用なリソースリストをこちらにご紹介します：
+PlanB NetworkとFulgur'Venturesの共同で提供されるRGBコースに参加していただき、ありがとうございます。サポートを提供してくれた講師の皆様に感謝を申し上げます。RGBでの作業を続けることに興味がある場合は、探索するための有用なリソースリストをこちらにご紹介します:
 
 - https://rgb.tech/
 - https://www.rgbfaq.com/

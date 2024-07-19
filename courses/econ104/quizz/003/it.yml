@@ -1,12 +1,12 @@
-domanda: Qual era un vantaggio della moneta metallica rispetto al denaro merce?
-risposta: Era più duratura
-risposte_errate:
+question: Qual era un vantaggio della moneta metallica rispetto al denaro merce?
+answer: Era più duratura
+wrong_answers:
   - Aveva un valore intrinseco più alto
   - Era più facilmente trasportabile
   - Non era soggetta a contraffazione
-spiegazione: |
+explanation: |
  La moneta metallica, in particolare l'oro e l'argento, era più duratura rispetto al denaro merce.
  I metalli preziosi sono meno soggetti a deterioramento nel tempo, rendendoli ideali per
  la conservazione a lungo termine del valore. Questa durabilità ha contribuito anche alla loro utilità come
  mezzo di scambio, unità di conto e riserva di valore.
-revisionato: true
+reviewed: false

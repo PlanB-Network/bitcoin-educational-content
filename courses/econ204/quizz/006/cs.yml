@@ -1,12 +1,13 @@
-question: Jaká byla hlavní příčina "cenové revoluce" mezi 15. a 17. stoletím v Evropě?
-answer: "Cenová revoluce" byla do značné míry vyvolána masivním přílivem drahých kovů, zejména zlata a stříbra, z Ameriky.
+question: Jaká byla hlavní příčina cenové revoluce mezi 15. a 17. stoletím v Evropě?
+answer: Cenová revoluce byla do značné míry vyvolána masivním přílivem drahých kovů, zejména zlata a stříbra, z Ameriky.
 wrong_answers:
-  - "Cenová revoluce" byla do značné míry vyvolána masivním odlivem drahých kovů, zejména zlata a stříbra, do Ameriky.
-  - "Cenová revoluce" byla do značné míry vyvolána masivním přílivem drahých kovů, zejména zlata a stříbra, z Asie.
-  - "Cenová revoluce" byla do značné míry vyvolána masivním odlivem drahých kovů, zejména zlata a stříbra, do Asie.
+  - Cenová revoluce byla do značné míry vyvolána masivním odlivem drahých kovů, zejména zlata a stříbra, do Ameriky.
+  - Cenová revoluce byla do značné míry vyvolána masivním přílivem drahých kovů, zejména zlata a stříbra, z Asie.
+  - Cenová revoluce byla do značné míry vyvolána masivním odlivem drahých kovů, zejména zlata a stříbra, do Asie.
 explanation: |
   Mezi 15. a 17. stoletím Evropa zažila pozoruhodný ekonomický
-  jev, často označovaný jako "cenová revoluce." Toto období inflace
+  jev, často označovaný jako cenová revoluce. Toto období inflace
   bylo do značné míry vyvoláno masivním přílivem drahých kovů, zejména zlata
   a stříbra, z Ameriky.
 reviewed: false
+

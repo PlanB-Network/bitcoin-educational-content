@@ -1,12 +1,12 @@
-domanda: Qual è stata una significativa limitazione affrontata dagli individui durante la crisi di bancarotta del governo greco nel 2015?
-risposta: Eccessive riforme bancarie imposte dal governo.
-risposte_errate:
+question: Qual è stata una significativa limitazione affrontata dagli individui durante la crisi di bancarotta del governo greco nel 2015?
+answer: Eccessive riforme bancarie imposte dal governo.
+wrong_answers:
   - Accesso limitato ai servizi di banca digitale
   - La volatilità di valute digitali come il Bitcoin
   - Una carenza di valuta fisica (contanti)
-spiegazione: |
+explanation: |
   Durante la crisi di bancarotta del governo greco nel 2015, le banche furono chiuse,
   i prelievi agli ATM furono limitati, e una significativa porzione dei depositi bancari degli individui
   fu ritirata dal governo per finanziare l'irresponsabilità fiscale.
   Questo evento ha messo in luce i rischi associati al possesso di denaro all'interno del sistema bancario tradizionale.
-revisionato: true
+reviewed: false

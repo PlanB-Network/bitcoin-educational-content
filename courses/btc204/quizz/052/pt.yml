@@ -1,11 +1,11 @@
-pergunta: Qual tipo de script é usado exclusivamente pelos Pagamentos Silenciosos?
+question: Qual tipo de script é usado exclusivamente pelos Pagamentos Silenciosos?
 
-resposta: P2TR
+answer: P2TR
 
-respostas_erradas:
+wrong_answers:
   - P2WPKH
   - P2SP
   - P2WSH
 
-explicação: |
+explanation: |
   Para facilitar a implementação deste protocolo e melhorar o conjunto de anonimato de seus usuários, os Pagamentos Silenciosos dependem exclusivamente de scripts P2TR (Pay to Taproot).

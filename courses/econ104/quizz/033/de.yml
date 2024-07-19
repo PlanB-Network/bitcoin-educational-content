@@ -1,12 +1,12 @@
-Frage: Was ist ein Vorteil von zentralisierten Stablecoins trotz ihrer Fähigkeit, Gelder einzufrieren?
-Antwort: Sie können schnell reagieren, um Benutzer in bestimmten Szenarien zu schützen
-falsche_Antworten:
+question: Was ist ein Vorteil von zentralisierten Stablecoins trotz ihrer Fähigkeit, Gelder einzufrieren?
+answer: Sie können schnell reagieren, um Benutzer in bestimmten Szenarien zu schützen
+wrong_answers:
   - Sie bieten vollständige Dezentralisierung und Sicherheit
   - Sie unterliegen keinerlei Regulierungen oder Eingriffen
   - Sie operieren unabhängig von Strafverfolgungsbehörden
-Erklärung: |
+explanation: |
   Zentralisierte Stablecoins haben die Fähigkeit einzugreifen,
   wenn es im besten Interesse der Benutzer und der Gesamtstabilität
   des Systems ist, wie Beispiele zeigen, bei denen eingefrorene Gelder verwendet wurden,
   um Verbraucher zu schützen und zu verhindern, dass Hacker profitieren.
-überprüft: true
+reviewed: false

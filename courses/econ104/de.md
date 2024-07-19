@@ -275,7 +275,7 @@ Während wir uns weiterhin auf eine Welt des programmierbaren Geldes zubewegen, 
 
 Das heißt, obwohl digitale Währungen eine neue Grenze in der Evolution des Geldes darstellen, die ein hohes Maß an Sicherheit, Privatsphäre und Bequemlichkeit bieten, bringen sie auch ihre eigenen Risiken und Herausforderungen mit sich, die sorgfältig bedacht werden müssen, bevor sie als Geldform angenommen werden.
 
-Nach der Untersuchung der verschiedenen Geldformen durch die Geschichte stellt sich eine relevante Frage:
+Nach der Untersuchung der verschiedenen Geldformen durch die Geschichte stellt sich eine relevante question:
 
 ### Bewegen wir uns in die richtige Richtung?
 
@@ -501,7 +501,7 @@ Das gesagt, wenn es nicht für eine Person... oder Gruppe (wir wissen es nicht g
 
 #### Satoshi Nakamoto
 
-Obwohl Bitcoin mit seinem disruptiven Potenzial und seiner einzigartigen Technologie die Köpfe von Millionen gefesselt hat, trotz seiner Beliebtheit, faszinieren und verwirren die mysteriösen Ursprünge weiterhin die Menschen. Satoshi Nakamoto, der Schöpfer von Bitcoin, bleibt bis heute unbekannt, trotz zahlreicher Versuche, seine wahre Identität aufzudecken. Auch wenn seit dem Aufkommen von Bitcoin mehr als ein Jahrzehnt vergangen ist, sind wir der Lösung der Frage: Wer ist Satoshi Nakamoto? nicht näher gekommen. Angesichts der dezentralisierten Natur von Bitcoin stellt sich jedoch die Frage, ob das wirklich wichtig ist?
+Obwohl Bitcoin mit seinem disruptiven Potenzial und seiner einzigartigen Technologie die Köpfe von Millionen gefesselt hat, trotz seiner Beliebtheit, faszinieren und verwirren die mysteriösen Ursprünge weiterhin die Menschen. Satoshi Nakamoto, der Schöpfer von Bitcoin, bleibt bis heute unbekannt, trotz zahlreicher Versuche, seine wahre Identität aufzudecken. Auch wenn seit dem Aufkommen von Bitcoin mehr als ein Jahrzehnt vergangen ist, sind wir der Lösung der question: Wer ist Satoshi Nakamoto? nicht näher gekommen. Angesichts der dezentralisierten Natur von Bitcoin stellt sich jedoch die Frage, ob das wirklich wichtig ist?
 
 Wie dem auch sei, werfen wir einen Blick auf den Mythos und die Legende.
 Satoshi Nakamoto trat 2008 mit einer revolutionären Idee im Internet auf: elektronisches Bargeld von Peer zu Peer. Er teilte seine Vision in einem [neunseitigen Papier](https://bitcoin.org/bitcoin.pdf) mit dem Titel "Bitcoin: A Peer-to-Peer Electronic Cash System" mit der Cypherpunk-Mailingliste. Trotz anfänglichem Desinteresse der meisten Mitglieder der Mailingliste weckte die Idee genug Neugier bei einem Mitglied, Hal Finney, der schließlich Satoshi kontaktierte. Hals Beteiligung an der Entwicklung von Bitcoin erwies sich als Wendepunkt, der dazu führte, dass mehr Menschen ihre Unterstützung anboten.
@@ -1270,7 +1270,7 @@ Mit diesem Hintergrund möchten wir drei Punkte diskutieren:
 2. **Direkte Energiemonetarisierung:** Wir haben zum ersten Mal in der Geschichte eine Methode, Energie direkt zu monetarisieren.
 3. **Faire Vergleiche:** Indem wir den Energieverbrauch von Bitcoin mit dem anderer Sektoren vergleichen, können wir eine ausgewogenere Perspektive gewinnen und die Gültigkeit der gegen ihn erhobenen Behauptungen bewerten.
 
-Aber zuerst beantworten wir die brennende Frage: **Warum verbraucht Bitcoin Energie?**
+Aber zuerst beantworten wir die brennende question: **Warum verbraucht Bitcoin Energie?**
 
 Ähnlich wie bei der Gewinnung von physischem Gold Energie verbraucht wird, verbrauchen Bitcoin-Miner Energie in ihrem Streben, Bitcoin zu erwerben. Diese Anforderung von realer Energie verankert ein ansonsten immaterielles digitales Gut in der physischen Welt. Darüber hinaus dient der Energieverbrauch, um Bitcoin zu erhalten, angesichts des riesigen Netzwerks von Minern weltweit, die Energie aufwenden, um das Bitcoin-Netzwerk zu sichern, als mächtiger Abwehrmechanismus gegen Zentralisierung und unangemessene Manipulation. Aus diesem Grund ist es für zentralisierte Entitäten äußerst schwierig, das Netzwerk zu übernehmen oder die Regeln zu ihren Gunsten zu manipulieren, da sie mit den zahllosen global verteilten Minern konkurrieren müssten.
 

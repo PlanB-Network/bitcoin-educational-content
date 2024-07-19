@@ -1,15 +1,15 @@
-Frage: Was ist ein Grund dafür, dass es wichtig ist, gründliche Recherchen durchzuführen, bevor man einem Stablecoin vertraut?
+question: Was ist ein Grund dafür, dass es wichtig ist, gründliche Recherchen durchzuführen, bevor man einem Stablecoin vertraut?
 
-Antwort: Einige Stablecoins mangeln es an Transparenz und Sorgfalt
+answer: Einige Stablecoins mangeln es an Transparenz und Sorgfalt
 
-Falsche Antworten:
+wrong_answers:
   - Stablecoins sind mit keinen Risiken verbunden
   - Stablecoins sind immer vollständig durch Reserven gedeckt
   - Einige Stablecoins werden von der Regierung reguliert
 
-Erklärung: |
+explanation: |
   Nicht alle Stablecoins bieten dasselbe Maß an Transparenz.
   Daher ist es wichtig, gründliche Recherchen durchzuführen,
   bevor man einem bestimmten Stablecoin erhebliches Vermögen anvertraut.
 
-Überprüft: true
+reviewed: false

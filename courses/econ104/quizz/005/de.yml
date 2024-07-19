@@ -1,9 +1,9 @@
-Frage: Wie wirkt sich Inflation auf die Kaufkraft von Lohnempfängern im Laufe der Zeit aus?
-Antwort: Inflation untergräbt die Kaufkraft, da Löhne oft hinter der wahren Inflationsrate zurückbleiben.
-falsche_Antworten:
+question: Wie wirkt sich Inflation auf die Kaufkraft von Lohnempfängern im Laufe der Zeit aus?
+answer: Inflation untergräbt die Kaufkraft, da Löhne oft hinter der wahren Inflationsrate zurückbleiben.
+wrong_answers:
   - Inflation erhöht die Kaufkraft, da Löhne schneller steigen als Preise.
   - Inflation hat keinen Einfluss auf die Kaufkraft.
   - Inflation betrifft nur die Kaufkraft von Personen, die in Finanzmärkte investieren.
-Erklärung: |
+explanation: |
   Inflation führt zu einem anhaltenden Anstieg der Verbraucherpreise, wodurch die Kaufkraft von Lohnempfängern erodiert, da ihre Löhne typischerweise hinter der wahren Inflationsrate zurückbleiben. Dies erschwert es Lohnempfängern, ihre langfristigen Sparziele zu erreichen und ihren Lebensstandard zu halten.
-überprüft: true
+reviewed: false

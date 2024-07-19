@@ -1,6 +1,6 @@
 question: Jaké jsou hlavní typy stablecoinů zmíněné v textu?
 answer: Stablecoiny kryté fiat měnami, stablecoiny kryté komoditami a algoritmické stablecoiny.
-špatné odpovědi:
+wrong_answers:
   - Digitální a fyzické stablecoiny
   - Centralizované a decentralizované stablecoiny
   - Stablecoiny kryté bankami a stablecoiny kryté jednotlivci

@@ -1,10 +1,10 @@
-domanda: Cos'è il trilemma della blockchain nel regno delle criptovalute?
-risposta: Il compromesso tra scalabilità, sicurezza e decentralizzazione nelle criptovalute
-risposte_errate:
+question: Cos'è il trilemma della blockchain nel regno delle criptovalute?
+answer: Il compromesso tra scalabilità, sicurezza e decentralizzazione nelle criptovalute
+wrong_answers:
   - Una caratteristica di Bitcoin che privilegia la decentralizzazione e la sicurezza rispetto alla scalabilità
   - La difficoltà nel determinare la traiettoria e i valori delle criptovalute
   - Il limite della tecnologia di Bitcoin rispetto ad altre criptovalute
-spiegazione: |
+explanation: |
   Il concetto di trilemma della blockchain è l'idea che le criptovalute
   devono dare priorità a due su tre caratteristiche importanti; scalabilità,
   sicurezza e decentralizzazione. Bitcoin dà priorità alla decentralizzazione e alla sicurezza,

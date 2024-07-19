@@ -1,12 +1,12 @@
-Frage: Was ist eine Cold Wallet?
-Antwort: Eine physische Geldbörse, in der Ihre Schlüssel auf einem Gerät gespeichert sind, das nicht mit dem Internet verbunden ist.
-falsche_Antworten:
+question: Was ist eine Cold Wallet?
+answer: Eine physische Geldbörse, in der Ihre Schlüssel auf einem Gerät gespeichert sind, das nicht mit dem Internet verbunden ist.
+wrong_answers:
   - Eine Geldbörse, die sich physisch kalt anfühlt
   - Eine Geldbörse, die bei Bitcoin-Nutzern unbeliebt ist
   - Eine Geldbörse, die für die Aufbewahrung kleiner Bitcoin-Mengen empfohlen wird
-Erklärung: |
+explanation: |
   Eine Cold Wallet ist ein Begriff, der verwendet wird, um eine Bitcoin-Geldbörse zu beschreiben,
   die auf einem Gerät gespeichert ist, das nicht mit dem Internet verbunden ist. Dies macht sie weniger anfällig
   für Online-Bedrohungen, bedeutet aber auch, dass die Geldbörse für tägliche
   Transaktionen weniger zugänglich ist.
-überprüft: true
+reviewed: false

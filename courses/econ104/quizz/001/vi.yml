@@ -2,7 +2,7 @@ question: Trong các yếu tố sau, yếu tố nào là cần thiết cho một
 
 answer: Sự trùng khớp kép về nhu cầu
 
-Các wrong_answers:
+wrong_answers:
   - Một đơn vị tính toán chung
   - Một cơ quan ngân hàng trung ương
   - Yêu cầu số dư tối thiểu

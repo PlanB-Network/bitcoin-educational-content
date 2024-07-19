@@ -2,7 +2,7 @@ question: Trong những phương pháp sau, phương pháp nào không phải l�
 
 answer: Thanh toán Ẩn
 
-Các wrong_answers:
+wrong_answers:
   - Branch-and-Bound
   - FIFO
   - Knapsack Solver

@@ -1,6 +1,6 @@
 question: Wie erreichen Stablecoins, wie USDt, eine relative Wertstabilität?
 answer: Sie sind an eine stabile Anlage oder Währung gebunden.
-falsche_Antworten:
+wrong_answers:
   - Sie werden von einer zentralen Autorität oder Regierung unterstützt.
   - Sie verlassen sich auf Blockchain-Technologie für sichere Transaktionen.
   - Sie unterliegen Schwankungen ähnlich wie andere Kryptowährungen.
@@ -9,4 +9,4 @@ explanation: |
   an eine stabilere Anlage oder Währung, wie den US-Dollar oder Gold, gebunden sind.
   Diese Bindung hilft, die oft mit anderen digitalen Vermögenswerten wie Bitcoin 
   verbundene Volatilität zu mildern.
-überprüft: true
+reviewed: false

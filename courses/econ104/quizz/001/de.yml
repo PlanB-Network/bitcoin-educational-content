@@ -1,6 +1,6 @@
 question: Welches der folgenden Elemente ist für eine erfolgreiche Transaktion in einem Tauschsystem notwendig?
 answer: Eine doppelte Koinzidenz der Bedürfnisse
-falsche_Antworten:
+wrong_answers:
   - Eine gemeinsame Recheneinheit
   - Eine zentrale Bankbehörde
   - Eine Mindestguthabenforderung
@@ -8,4 +8,4 @@ explanation: |
   In einem Tauschsystem finden Transaktionen direkt zwischen zwei Parteien statt, die Waren oder 
   Dienstleistungen austauschen, ohne Geld zu verwenden. Eine erfolgreiche Transaktion erfordert eine doppelte Koinzidenz 
   der Bedürfnisse, was bedeutet, dass beide Parteien etwas haben müssen, das die andere Partei zu handeln wünscht.
-überprüft: true
+reviewed: false

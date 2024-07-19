@@ -1,6 +1,6 @@
 question: Was ist das Blockchain-Trilemma im Bereich der Kryptowährungen?
 answer: Der Kompromiss zwischen Skalierbarkeit, Sicherheit und Dezentralisierung bei Kryptowährungen
-falsche_Antworten:
+wrong_answers:
   - Eine Eigenschaft von Bitcoin, die Dezentralisierung und Sicherheit gegenüber Skalierbarkeit priorisiert
   - Die Schwierigkeit, die Entwicklung und Werte von Kryptowährungen zu bestimmen
   - Die Begrenzung der Technologie von Bitcoin im Vergleich zu anderen Kryptowährungen
@@ -9,4 +9,4 @@ explanation: |
   zwei von drei wichtigen Merkmalen priorisieren müssen; Skalierbarkeit, 
   Sicherheit und Dezentralisierung. Bitcoin priorisiert Dezentralisierung und Sicherheit, 
   was seine Skalierbarkeit beeinträchtigt, aber es erreicht sie dennoch durch alternative Mittel.
-überprüft: true
+reviewed: false

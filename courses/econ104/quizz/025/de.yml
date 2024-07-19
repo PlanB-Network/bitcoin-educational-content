@@ -1,6 +1,6 @@
 question: Warum ist das Argument, dass Bitcoin wertlos sei, weil er durch nichts gedeckt ist, fehlerhaft?
 answer: Wert ist subjektiv und basiert auf den Überzeugungen und Erfahrungen der Menschen.
-falsche_Antworten:
+wrong_answers:
   - Bitcoin ist durch Gold gedeckt, was ihm einen inhärenten Wert verleiht.
   - Der Wert von Bitcoin wird durch seine Knappheit und Sicherheitsmerkmale bestimmt.
   - Der Wert von Bitcoin basiert auf seiner Akzeptanz durch Regierungen und Banken.
@@ -10,4 +10,4 @@ explanation: |
   sie aus Leinwand und Farbe besteht. Das Argument, dass Währung durch etwas
   Wertvolles gedeckt sein muss, ist ungenau, da der Wert von Fiatwährungen wie dem US-Dollar
   auf Vertrauen und Glauben basiert.
-überprüft: true
+reviewed: false

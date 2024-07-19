@@ -2,7 +2,7 @@ question: Welche Risiken sind mit der Nutzung eines Drittanbieter-Nodes verbunde
 
 answer: Zensur und Überwachung der Aktivitäten.
 
-falsche_Antworten:
+wrong_answers:
   - Verlust von Bitcoins.
   - Anstieg der Transaktionsgebühren.
   - Diebstahl von Bitcoins und Tracking.

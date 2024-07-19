@@ -1,6 +1,6 @@
 question: Warum ist es heute viel schwieriger, ein Haus zu kaufen als in den 1980er Jahren?
 answer: Unterdrückte Zinssätze machen Schulden attraktiver und die Inflation
-falsche_Antworten:
+wrong_answers:
   - Inflation und Mietpreise
   - Die steigenden Lebenshaltungskosten und das Bevölkerungswachstum
   - Mangel an Immobilien und unterdrückte Zinssätze, die Schulden attraktiver machen
@@ -10,4 +10,4 @@ explanation: |
   attraktiver. Wenn das Kapitalkosten so günstig sind, leihen sich die Menschen 
   über ihre Verhältnisse hinaus Geld, leiten mehr Kapital in Vermögenswerte um 
   und treiben die Preise in die Höhe.
-überprüft: true
+reviewed: false

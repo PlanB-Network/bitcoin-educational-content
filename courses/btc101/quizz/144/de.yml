@@ -1,7 +1,7 @@
 question: Was ist die Bandbreitenanforderung für den Betrieb eines Bitcoin-Knotens, unter der Annahme
   1 Block von 1MB alle 10 Minuten?
 answer: Ungefähr 5GB pro Monat
-falsche_Antworten:
+wrong_answers:
   - Ungefähr 1GB pro Monat
   - Ungefähr 10GB pro Monat
   - Ungefähr 20GB pro Monat

@@ -1,6 +1,6 @@
 question: Was war eine bedeutende Einschränkung, mit der Einzelpersonen während der Bankrottkrise der griechischen Regierung 2015 konfrontiert waren?
 answer: Übermäßige Bankenreform, die von der Regierung auferlegt wurde.
-falsche_Antworten:
+wrong_answers:
   - Begrenzter Zugang zu digitalen Bankdienstleistungen
   - Die Volatilität von digitalen Währungen wie Bitcoin
   - Ein Mangel an physischem Geld (Bargeld)
@@ -10,4 +10,4 @@ explanation: |
   Bankguthaben von Einzelpersonen wurde von der Regierung abgezogen, um fiskalische 
   Verantwortungslosigkeit zu finanzieren. Dieses Ereignis unterstrich die Risiken, die 
   damit verbunden sind, Geld im traditionellen Bankensystem zu halten.
-überprüft: true
+reviewed: false

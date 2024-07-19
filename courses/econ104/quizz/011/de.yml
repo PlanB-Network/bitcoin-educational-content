@@ -1,6 +1,6 @@
 question: Was unterscheidet Bitcoin von traditionellen Währungen, die von Zentralbanken oder Regierungen kontrolliert werden?
 answer: All das
-falsche_Antworten:
+wrong_answers:
   - Bitcoin erfordert die Zusammenarbeit zwischen Minern, Knotenpunkten und Entwicklern
   - Bitcoin ermöglicht es jedem, am Netzwerk teilzunehmen und Schlüsselrollen auszuführen
   - Bitcoin basiert auf einem dezentralisierten Konsenssystem
@@ -16,4 +16,4 @@ explanation: |
   digitale Währung. Indem diese entscheidenden Aufgaben den Schlüsselspielern anvertraut werden, kann
   Bitcoin als dezentralisierte, sichere, transparente und verantwortungsvolle Tauschmittel für
   alle Nutzer agieren, was es deutlich von den zentralisierten Währungen, die wir heute verwenden, unterscheidet.
-überprüft: true
+reviewed: false

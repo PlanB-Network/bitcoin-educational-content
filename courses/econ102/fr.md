@@ -35,6 +35,7 @@ Rejoignez Damien Theillier dans cette exploration enrichissante de la pensée de
 Ce cours est une introduction à Frédéric Bastiat, ce génie méconnu et une lumière pour notre temps. Dans cette petite introduction, je vais essayer de vous faire découvrir qui était Frédéric Bastiat et quels sont les grands thèmes que nous allons aborder durant cette série.
 
 ![image](assets/image/00/IMG01.webp)
+_vie de say_
 
 En effet, Frédéric Bastiat, qui est né en 1801 et qui a vécu durant la première partie du XIXe siècle, est resté pendant quelques temps un auteur important. Et puis, progressivement, il a disparu et aujourd'hui, plus personne l'entend parler, plus personne ne sait qui il est. Pourtant, cet auteur, paradoxalement, a été traduit dans beaucoup de langues, en italien, en russe, en espagnol et en anglais.
 

@@ -10,4 +10,4 @@ wrong_answers:
 explanation: |
   Die Benachrichtigungstransaktion ermöglicht die Übertragung des Zahlungscodes vom Sender zum Empfänger, sodass letzterer diesen kennen und später nur aus seinem Seed im Falle einer Wallet-Wiederherstellung finden kann. Wie der Name schon sagt, spielt sie auch eine Benachrichtigungsrolle.
 
-Überprüft: false
+reviewed: false

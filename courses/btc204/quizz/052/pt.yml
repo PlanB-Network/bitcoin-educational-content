@@ -9,3 +9,6 @@ wrong_answers:
 
 explanation: |
   Para facilitar a implementação deste protocolo e melhorar o conjunto de anonimato de seus usuários, os Pagamentos Silenciosos dependem exclusivamente de scripts P2TR (Pay to Taproot).
+
+reviewed: false
+

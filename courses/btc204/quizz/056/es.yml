@@ -10,4 +10,4 @@ wrong_answers:
 explanation: |
   Cuando se realiza un pago, la transacción crea un nuevo UTXO como salida de los UTXOs consumidos como entradas. En esta salida, se coloca un script que define cómo se puede gastar este UTXO más tarde. Este script es conocido como el ScriptPubKey. La dirección de recepción se integra en este script.
 
-revisado: false
+reviewed: false

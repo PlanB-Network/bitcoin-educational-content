@@ -10,4 +10,4 @@ wrong_answers:
 explanation: |
   Der XOR-Operator wird verwendet, um den Payload des Zahlungscodes des Senders in BIP47 symmetrisch zu verschlüsseln.
 
-Überprüft: false
+reviewed: false

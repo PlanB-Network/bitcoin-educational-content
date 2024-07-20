@@ -10,4 +10,4 @@ wrong_answers:
 explanation: |
   Je mehr Eingaben und Ausgaben eine Bitcoin-Transaktion hat, desto schwerer wird sie in vB sein.
 
-Überprüft: false
+reviewed: false

@@ -10,4 +10,4 @@ wrong_answers:
 explanation: |
   Due rischi devono essere considerati quando si selezionano le monete: la possibilità per il destinatario del pagamento di collegare una parte della tua identità agli UTXO utilizzati come input e la capacità di un osservatore esterno di stabilire collegamenti tra tutti gli UTXO consumati come input (CIOH).
 
-revisionato: false
+reviewed: false

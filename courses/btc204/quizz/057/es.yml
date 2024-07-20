@@ -10,4 +10,4 @@ wrong_answers:
 explanation: |
   Si se utiliza la misma dirección para múltiples transacciones, se vuelve posible deducir que todos los bitcoins asociados con esa dirección pertenecen a la misma persona.
 
-revisado: false
+reviewed: false

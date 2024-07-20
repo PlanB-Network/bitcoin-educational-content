@@ -10,4 +10,4 @@ wrong_answers:
 explanation: |
   Der ECDH (Elliptic-Curve Diffie-Hellman) Algorithmus wird bei Silent Payments zwischen dem Scan-Paar von Schlüsseln des Empfängers und der Summe der Schlüsselpaare des Senders verwendet, um das gemeinsame Geheimnis zu etablieren, das die Ableitung der einzigartigen Zahlungsadresse ermöglicht.
 
-Überprüft: false
+reviewed: false

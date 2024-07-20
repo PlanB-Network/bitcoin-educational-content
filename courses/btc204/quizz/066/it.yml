@@ -10,4 +10,4 @@ wrong_answers:
 explanation: |
   Il principio della consolidazione è quello di approfittare dei periodi in cui le commissioni sulla rete Bitcoin sono basse per unire più UTXO in un unico UTXO più grande.
 
-revisionato: false
+reviewed: false

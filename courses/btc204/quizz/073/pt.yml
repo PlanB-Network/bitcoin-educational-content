@@ -10,4 +10,4 @@ wrong_answers:
 explanation: |
   Não se deve, especialmente, usar um endereço de recebimento múltiplas vezes. Todas as outras respostas permitem evitar as heurísticas de análise de cadeia.
 
-revisado: false
+reviewed: false

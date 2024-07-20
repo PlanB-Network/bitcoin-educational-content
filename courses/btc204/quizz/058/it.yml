@@ -10,4 +10,4 @@ wrong_answers:
 explanation: |
   Il riutilizzo di indirizzi esterni si osserva quando un indirizzo viene riutilizzato in diverse transazioni differenti, mentre il riutilizzo interno concerne un indirizzo che viene utilizzato sia negli input che negli output della stessa transazione.
 
-revisionato: false
+reviewed: false

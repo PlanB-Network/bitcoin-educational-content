@@ -10,5 +10,5 @@ wrong_answers:
 explanation: |
   Dust bezieht sich auf UTXOs, deren Wert in Sats so niedrig ist, dass er nicht ausreicht, um die für ihre Verwendung erforderlichen Transaktionsgebühren zu decken.
 
-Überprüft: false
+reviewed: false
 

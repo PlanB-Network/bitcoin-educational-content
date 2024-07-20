@@ -10,4 +10,4 @@ wrong_answers:
 explanation: |
   A transação de notificação permite a transmissão do código de pagamento do remetente para o destinatário, para que este possa conhecê-lo e encontrá-lo posteriormente apenas a partir de sua seed em caso de recuperação da carteira. Como o próprio nome sugere, também desempenha um papel de notificação.
 
-revisado: false
+reviewed: false

@@ -10,4 +10,4 @@ wrong_answers:
 explanation: |
   Las etiquetas se utilizan para generar múltiples direcciones estáticas a partir de la dirección estática principal, lo que facilita la organización de la billetera. Sin embargo, un observador externo podría establecer fácilmente un vínculo entre estas direcciones estáticas etiquetadas, ya que la clave pública de escaneo es la misma para todas.
 
-revisado: false
+reviewed: false

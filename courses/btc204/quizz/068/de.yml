@@ -10,4 +10,4 @@ wrong_answers:
 explanation: |
   Wenn Sie in der Situation sind, Ihre Bitcoins zusammenführen zu müssen, priorisieren Sie zuerst das Zusammenführen von UTXOs aus der gleichen Quelle.
 
-Überprüft: false
+reviewed: false

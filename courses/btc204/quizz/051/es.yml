@@ -10,4 +10,4 @@ wrong_answers:
 explanation: |
   A cambio de prescindir de la transacción de notificación, el receptor debe escanear todas las transacciones de Bitcoin que cumplan con el estándar en un intento por encontrar pagos dirigidos a ellos.
 
-revisado: false
+reviewed: false

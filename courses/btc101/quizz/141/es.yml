@@ -1,9 +1,10 @@
 question: ¿Cuál es el costo de ejecutar un nodo de Bitcoin en una Raspberry Pi 4 en términos de consumo de electricidad por año?
-answer: "Un poco menos de \u20AC10 por año"
+answer: Un poco menos de 10€ por año
 wrong_answers:
-  - "Aproximadamente \u20AC50 por año"
-  - "Aproximadamente \u20AC100 por año"
-  - "Aproximadamente \u20AC200 por año"
+  - Aproximadamente 50€ por año
+  - Aproximadamente 100€ por año
+  - Aproximadamente 200€ por año
 explanation: |
-  "Ejecutar un nodo de Bitcoin en una Raspberry Pi 4 cuesta un poco menos de \u20AC10 por año en términos de consumo de electricidad."
+  Ejecutar un nodo de Bitcoin en una Raspberry Pi 4 cuesta un poco menos de 10€ por año en términos de consumo de electricidad.
 reviewed: false
+

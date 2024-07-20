@@ -10,4 +10,4 @@ wrong_answers:
 explanation: |
   Um in der größtmöglichen Menge unterzutauchen, wird empfohlen, das am weitesten verbreitete Skriptmodell zu verwenden. P2TR-Skripte sind derzeit die am meisten verwendeten in Bitcoin-Transaktionen.
 
-Überprüft: false
+reviewed: false

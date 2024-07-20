@@ -10,4 +10,4 @@ wrong_answers:
 explanation: |
   L'operatore XOR viene utilizzato per criptare simmetricamente il payload del codice di pagamento del mittente in BIP47.
 
-revisionato: false
+reviewed: false

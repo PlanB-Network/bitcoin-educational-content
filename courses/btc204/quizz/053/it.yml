@@ -10,4 +10,4 @@ wrong_answers:
 explanation: |
   Le etichette sono utilizzate per generare più indirizzi statici a partire dall'indirizzo statico principale, il che facilita l'organizzazione del portafoglio. Tuttavia, un osservatore esterno potrebbe facilmente stabilire un collegamento tra questi indirizzi statici etichettati, poiché la chiave pubblica di scansione è la stessa per tutti.
 
-revisionato: false
+reviewed: false

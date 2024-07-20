@@ -10,4 +10,4 @@ wrong_answers:
 explanation: |
   Das Prinzip der Konsolidierung besteht darin, Zeiträume, in denen die Gebühren bei Bitcoin niedrig sind, zu nutzen, um kleinere UTXOs in ein einzelnes größeres zu verschmelzen.
 
-Überprüft: false
+reviewed: false

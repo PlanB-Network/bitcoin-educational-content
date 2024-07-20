@@ -10,4 +10,4 @@ wrong_answers:
 explanation: |
   Non si dovrebbe mai utilizzare più volte lo stesso indirizzo di ricezione. Tutte le altre risposte permettono di evitare le euristiche di analisi della catena.
 
-revisionato: false
+reviewed: false

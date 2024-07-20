@@ -1,9 +1,10 @@
 question: Was kostet der Betrieb eines Bitcoin-Knotens auf einem Raspberry Pi 4 in Bezug auf den Stromverbrauch pro Jahr?
-answer: "Ein wenig weniger als 10 € pro Jahr"
+answer: Ein wenig weniger als 10 € pro Jahr
 wrong_answers:
-  - "Etwa 50 € pro Jahr"
-  - "Etwa 100 € pro Jahr"
-  - "Etwa 200 € pro Jahr"
+  - Etwa 50 € pro Jahr
+  - Etwa 100 € pro Jahr
+  - Etwa 200 € pro Jahr
 explanation: |
-  "Der Betrieb eines Bitcoin-Knotens auf einem Raspberry Pi 4 kostet in Bezug auf den Stromverbrauch pro Jahr etwas weniger als 10 €."
+  Der Betrieb eines Bitcoin-Knotens auf einem Raspberry Pi 4 kostet in Bezug auf den Stromverbrauch pro Jahr etwas weniger als 10 €.
 reviewed: false
+

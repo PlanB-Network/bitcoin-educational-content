@@ -10,4 +10,4 @@ wrong_answers:
 explanation: |
   I Pagamenti Silenziosi funzionano senza una transazione di notifica, il che permette di risparmiare sulle commissioni di transazione ed evita di sovraccaricare la blockchain.
 
-revisionato: false
+reviewed: false

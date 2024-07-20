@@ -10,4 +10,4 @@ wrong_answers:
 explanation: |
   Quando viene effettuato un pagamento, la transazione crea un nuovo UTXO come output dagli UTXO consumati come input. Su questo output, viene posto uno script che definisce come questo UTXO può essere speso in seguito. Questo script è noto come ScriptPubKey. L'indirizzo del destinatario è integrato in questo script.
 
-revisionato: false
+reviewed: false

@@ -10,4 +10,4 @@ wrong_answers:
 explanation: |
   La transacción de notificación permite la transmisión del código de pago del remitente al destinatario, para que este último pueda conocerlo y encontrarlo más tarde solo desde su semilla en caso de recuperación de la cartera. Como sugiere su nombre, también desempeña un papel de notificación.
 
-revisado: false
+reviewed: false

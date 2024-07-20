@@ -10,4 +10,4 @@ wrong_answers:
 explanation: |
   L'algoritmo utilizzato è ECDH (Elliptic Curve Diffie-Hellman). Si tratta di una variante del classico algoritmo Diffie-Hellman che utilizza curve ellittiche.
 
-revisionato: false
+reviewed: false

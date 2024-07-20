@@ -10,4 +10,4 @@ wrong_answers:
 explanation: |
   Il controllo moneta è una funzionalità presente nei buoni software di portafoglio Bitcoin, che ti dà la possibilità di selezionare manualmente specifici UTXO da utilizzare come input quando si effettua una transazione.
 
-revisionato: false
+reviewed: false

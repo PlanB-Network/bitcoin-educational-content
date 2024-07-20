@@ -2,7 +2,7 @@ question: ¿En qué consiste la consolidación?
 
 answer: Fusionar varias entradas para crear una sola más grande.
 
-respuestas_erroneas:
+wrong_answers:
   - Dividir una entrada grande en varias más pequeñas.
   - Transferir entradas de múltiples carteras a una sola.
   - Reasignar entradas no utilizadas a nuevas direcciones.
@@ -10,4 +10,4 @@ respuestas_erroneas:
 explanation: |
   El principio de la consolidación es aprovechar los períodos cuando las comisiones son bajas en Bitcoin para fusionar UTXOs más pequeños en uno solo más grande.
 
-revisado: false
+reviewed: false

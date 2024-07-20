@@ -10,4 +10,4 @@ wrong_answers:
 explanation: |
   Zwei Risiken müssen bei der Auswahl von Münzen berücksichtigt werden: die Möglichkeit für den Zahlungsempfänger, einen Teil Ihrer Identität mit den als Eingaben verwendeten UTXOs zu verknüpfen, und die Fähigkeit eines externen Beobachters, Verbindungen zwischen allen als Eingaben verbrauchten UTXOs herzustellen (CIOH).
 
-Überprüft: false
+reviewed: false

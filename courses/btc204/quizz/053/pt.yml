@@ -10,4 +10,4 @@ wrong_answers:
 explanation: |
   Etiquetas são usadas para gerar múltiplos endereços estáticos a partir do endereço estático principal, o que facilita a organização da carteira. No entanto, um observador externo poderia facilmente estabelecer uma ligação entre esses endereços estáticos etiquetados, já que a chave pública de escaneamento é a mesma para todos.
 
-revisado: false
+reviewed: false

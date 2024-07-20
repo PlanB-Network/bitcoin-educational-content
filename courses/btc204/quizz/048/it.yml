@@ -10,4 +10,4 @@ wrong_answers:
 explanation: |
   L'OP_RETURN è un opcode che segnala uno script non valido, rendendo l'output che contiene provabilmente non spendibile. Di conseguenza, i nodi della rete possono rimuovere questo output dal loro insieme UTXO. L'OP_RETURN è spesso utilizzato per registrare dati arbitrari nella blockchain.
 
-revisionato: false
+reviewed: false

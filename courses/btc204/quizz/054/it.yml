@@ -10,4 +10,4 @@ wrong_answers:
 explanation: |
   L'algoritmo ECDH (Elliptic-Curve Diffie-Hellman) è utilizzato nei Pagamenti Silenziosi tra la coppia di chiavi di scansione del ricevente e la somma della coppia di chiavi del mittente per stabilire il segreto condiviso che permetterà la derivazione dell'indirizzo di pagamento unico.
 
-revisionato: false
+reviewed: false

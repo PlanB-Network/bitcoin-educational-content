@@ -10,4 +10,4 @@ wrong_answers:
 explanation: |
   Labels werden verwendet, um mehrere statische Adressen aus der Hauptstatikadresse zu generieren, was die Organisation der Wallet erleichtert. Allerdings könnte ein externer Beobachter leicht eine Verbindung zwischen diesen gelabelten statischen Adressen herstellen, da der öffentliche Scan-Schlüssel für alle gleich ist.
 
-Überprüft: false
+reviewed: false

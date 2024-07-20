@@ -6,4 +6,4 @@ wrong_answers:
   - Un nodo che fa rispettare solo le regole del protocollo Bitcoin
 explanation: >-
   Un nodo potato nel contesto di Bitcoin è un nodo che mantiene in memoria solo gli ultimi N blocchi.
-revisionato: false
+reviewed: false

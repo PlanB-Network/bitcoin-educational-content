@@ -1,6 +1,6 @@
 question: ¿Cuál es la primera acción que debes realizar para minimizar el riesgo de pérdida al tomar auto-custodia?
 answer: Hacer una copia de seguridad de tu frase semilla de recuperación de la cartera
-respuestas_erróneas:
+wrong_answers:
   - Compartir tus claves privadas con una parte de confianza
   - Tomar nota de tu frase semilla de recuperación y almacenarla en tu computadora
   - Desactivar la autenticación de dos factores (2FA)

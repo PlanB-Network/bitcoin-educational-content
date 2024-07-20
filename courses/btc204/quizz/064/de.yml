@@ -10,4 +10,4 @@ wrong_answers:
 explanation: |
   Bezeichnungen werden lokal von der Wallet-Software gespeichert und niemals über das Bitcoin-Netzwerk übertragen. Die Beschriftung ist somit ein persönliches Verwaltungswerkzeug.
 
-Überprüft: false
+reviewed: false

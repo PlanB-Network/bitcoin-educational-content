@@ -10,4 +10,4 @@ wrong_answers:
 explanation: |
   Das Ziel von BIP47 ist es, ein einzigartiges Identifikationsmerkmal bereitzustellen, das es ermöglicht, mehrmals und von mehreren Personen Bitcoins zu empfangen, aber ohne Adressen wiederzuverwenden, da dies eine sehr schlechte Praxis für die Privatsphäre der Nutzer ist.
 
-Überprüft: false
+reviewed: false

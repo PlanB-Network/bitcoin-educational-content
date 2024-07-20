@@ -9,3 +9,6 @@ wrong_answers:
 
 explanation: |
   Tämän protokollan toteuttamisen helpottamiseksi ja sen käyttäjien nimettömyysjoukon parantamiseksi Silent Payments nojaa yksinomaan P2TR (Pay to Taproot) -skripteihin.
+
+reviewed: false
+

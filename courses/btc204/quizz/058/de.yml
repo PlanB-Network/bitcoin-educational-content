@@ -10,4 +10,4 @@ wrong_answers:
 explanation: |
   Externe Adresswiederverwendung wird beobachtet, wenn eine Adresse in mehreren verschiedenen Transaktionen wiederverwendet wird, während interne Wiederverwendung eine Adresse betrifft, die sowohl in den Eingängen als auch in den Ausgängen derselben Transaktion verwendet wird.
 
-Überprüft: false
+reviewed: false

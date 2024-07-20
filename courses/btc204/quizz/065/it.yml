@@ -10,5 +10,5 @@ wrong_answers:
 explanation: |
   La polvere si riferisce agli UTXO il cui valore in satoshi è così basso che non è sufficiente a coprire le commissioni di transazione richieste per spenderli.
 
-revisionato: false
+reviewed: false
 

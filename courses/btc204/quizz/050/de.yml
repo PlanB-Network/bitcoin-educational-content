@@ -10,4 +10,4 @@ wrong_answers:
 explanation: |
   Silent Payments funktionieren ohne eine Benachrichtigungstransaktion, was Transaktionsgebühren spart und eine Überlastung der Blockchain vermeidet.
 
-Überprüft: false
+reviewed: false

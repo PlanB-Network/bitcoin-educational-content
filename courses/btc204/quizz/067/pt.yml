@@ -2,7 +2,7 @@ question: Qual heurística pode ser usada para vincular todas as entradas de uma
 
 answer: A CIOH.
 
-respostas_incorretas:
+wrong_answers:
   - Reutilização de endereço.
   - A maior saída.
   - Pagamento arredondado.

@@ -10,4 +10,4 @@ wrong_answers:
 explanation: |
   Der OP_RETURN ist ein Opcode, der ein ungültiges Skript signalisiert, wodurch der Ausgang, den er enthält, als nachweislich unverwendbar gekennzeichnet wird. Dadurch können Netzwerkknoten diesen Ausgang aus ihrem UTXO-Set entfernen. Der OP_RETURN wird oft verwendet, um beliebige Daten in der Blockchain zu speichern.
 
-Überprüft: false
+reviewed: false

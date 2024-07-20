@@ -6,4 +6,4 @@ wrong_answers:
   - Aproximadamente 20GB por mes
 explanation: >-
   Considerando 1 bloque de 1MB cada 10 minutos, ejecutar un nodo de Bitcoin requiere aproximadamente 5GB por mes en ancho de banda.
-revisado: false
+reviewed: false

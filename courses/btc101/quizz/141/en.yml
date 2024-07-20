@@ -1,11 +1,12 @@
-question: What is the cost of running a Bitcoin node on a Raspberry Pi 4 in terms
+question:
+  What is the cost of running a Bitcoin node on a Raspberry Pi 4 in terms
   of electricity consumption per year?
-answer: "A little less than \u20AC10 per year"
+answer: A little less than 10€ per year
 wrong_answers:
-  - "About \u20AC50 per year"
-  - "About \u20AC100 per year"
-  - "About \u20AC200 per year"
+  - About 50€ per year
+  - About 100€ per year
+  - About 200€ per year
 explanation: >-
-  "Running a Bitcoin node on a Raspberry Pi 4 costs a little less than\
-  \ \u20AC10 per year in terms of electricity consumption."
+  Running a Bitcoin node on a Raspberry Pi 4 costs a little less than\
+  10€ per year in terms of electricity consumption.
 reviewed: false

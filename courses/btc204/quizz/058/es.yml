@@ -10,4 +10,4 @@ wrong_answers:
 explanation: |
   La reutilización de direcciones externas se observa cuando una dirección se reutiliza en varias transacciones diferentes, mientras que la reutilización interna concierne a una dirección que se utiliza tanto en las entradas como en las salidas de la misma transacción.
 
-revisado: false
+reviewed: false

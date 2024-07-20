@@ -2,7 +2,7 @@ question: Qual modelo de script é mais recomendado em 2024 para maior privacida
 
 answer: P2TR
 
-wrong_answers::
+wrong_answers:
   - P2PK
   - P2PKH
   - P2SH

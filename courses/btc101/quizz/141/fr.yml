@@ -5,6 +5,5 @@ wrong_answers:
   - Environ 100 € par an
   - Environ 200 € par an
 explanation: |
-  > Le fonctionnement d'un nœud Bitcoin sur un Raspberry Pi 4 coûte un peu moins de 10 € par an en termes de consommation d'électricité.
+  Le fonctionnement d'un nœud Bitcoin sur un Raspberry Pi 4 coûte un peu moins de 10 € par an en termes de consommation d'électricité.
 reviewed: false
-

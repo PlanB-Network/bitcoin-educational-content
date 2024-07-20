@@ -1,6 +1,6 @@
 question: Qual é a conexão do Bitcoin com o futuro da tecnologia e da sociedade?
 answer: O Bitcoin é uma revolução tecnológica para novos modos de organização em larga escala, permitindo a troca de valor sem qualquer terceira parte confiável.
-wrong_answers::
+wrong_answers:
   - Bitcoin é uma forma de tecnologia de IA.
   - Bitcoin é uma ferramenta para controlar a população mundial.
   - Bitcoin é um método para governos rastrearem as transações financeiras de seus cidadãos.

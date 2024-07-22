@@ -1,9 +1,0 @@
-question: Was ist die Bedeutung der Unumkehrbarkeit der ECDSA-Funktion in der Sicherheit von Bitcoin-Wallets?
-answer: Es ist unmöglich, den privaten Schlüssel aus dem öffentlichen Schlüssel abzurufen.
-wrong_answers:
-  - Es ist möglich, den privaten Schlüssel aus dem öffentlichen Schlüssel abzurufen.
-  - Es ist möglich, den öffentlichen Schlüssel aus dem privaten Schlüssel abzurufen.
-  - Es ist unmöglich, den öffentlichen Schlüssel aus dem privaten Schlüssel abzurufen.
-explanation: |
-  Die ECDSA-Funktion ist unumkehrbar, was bedeutet, dass es unmöglich ist, den privaten Schlüssel aus dem öffentlichen Schlüssel abzurufen. Diese Unumkehrbarkeit ist der Grundpfeiler der Sicherheit von Bitcoin-Wallets.
-reviewed: false

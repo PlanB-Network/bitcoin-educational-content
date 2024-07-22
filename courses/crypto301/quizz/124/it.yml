@@ -1,9 +1,0 @@
-question: Qual è il ruolo principale degli indirizzi di ricezione nel sistema Bitcoin?
-answer: Consentono di ricevere fondi su una moneta.
-wrong_answers:
-  - Consentono di inviare fondi da una moneta.
-  - Consentono di estrarre nuovi bitcoin.
-  - Consentono di verificare le transazioni.
-explanation: |
-  Il ruolo principale degli indirizzi di ricezione nel sistema Bitcoin è consentire di ricevere fondi su una moneta. Sono generati da coppie di chiavi private e pubbliche.
-reviewed: false

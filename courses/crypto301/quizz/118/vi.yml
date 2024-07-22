@@ -1,9 +1,0 @@
-question:
-  Có thể đảo ngược từ địa chỉ Bitcoin về khóa công khai, hoặc từ khóa công khai về khóa riêng không?
-answer: Điều này là không đúng
-wrong_answers:
-  - Điều này là đúng
-  - Chỉ từ khóa công khai về khóa riêng
-  - Chỉ từ địa chỉ về khóa công khai
-explanation: |
-  Trong Bitcoin, không thể đảo ngược từ một địa chỉ về khóa công khai, cũng như không thể từ khóa công khai về khóa riêng. Đây là một khía cạnh quan trọng của bảo mật mật mã của Bitcoin.

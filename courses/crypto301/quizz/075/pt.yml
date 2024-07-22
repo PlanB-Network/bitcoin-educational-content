@@ -1,9 +1,0 @@
-question: Qual função é usada para gerar a semente a partir da frase secreta em uma carteira de Bitcoin?
-answer: pbkdf2
-wrong_answers:
-  - sha256
-  - md5
-  - bcrypt
-explanation: |
-  A função pbkdf2 é usada para gerar a semente a partir da frase secreta em uma carteira de Bitcoin. Essa semente permite a derivação de todos os pares de chaves filhas da carteira.
-reviewed: false

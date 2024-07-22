@@ -1,9 +1,0 @@
-question: Qual é o papel do BIP38 no ecossistema do Bitcoin?
-answer: Ele propôs adicionar uma senha adicional para reforçar a segurança das chaves individuais.
-wrong_answers:
-  - Ele introduziu a frase mnemônica de 24 palavras.
-  - Ele revolucionou a forma como as chaves são geradas e armazenadas.
-  - Ele padronizou a estrutura e hierarquia das carteiras HD.
-explanation: |
-  O BIP38 propôs adicionar uma senha adicional para reforçar a segurança das chaves individuais. Esta é uma das muitas melhorias feitas para aprimorar a segurança e funcionalidade das carteiras HD.
-reviewed: false

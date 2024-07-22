@@ -1,9 +1,0 @@
-question: Qual è il risultato dell'algoritmo HMAC SHA-512?
-answer: Un numero di 512 bit, diviso in due parti; i primi 256 bit rappresentano la chiave privata principale, mentre gli ultimi 256 bit rappresentano il codice di catena principale.
-wrong_answers:
-  - Un numero di 256 bit che rappresenta la chiave privata principale.
-  - Un numero di 256 bit che rappresenta il codice di catena principale.
-  - Un numero di 512 bit che rappresenta il seed.
-explanation: |
-  Il risultato di HMAC SHA-512 è un numero di 512 bit, diviso in due parti; i primi 256 bit rappresentano la chiave privata principale, mentre gli ultimi 256 bit rappresentano il codice di catena principale.
-reviewed: false

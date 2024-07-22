@@ -1,9 +1,0 @@
-question: O que acontece se uma entrada ligeiramente diferente for fornecida a uma função de hash criptográfica?
-answer: Isso altera significativamente o hash final.
-wrong_answers:
-  - Produz o mesmo hash.
-  - Faz com que a função de hash falhe.
-  - Atrasa o cálculo do hash.
-explanation: |
-  As funções de hash criptográficas são projetadas de tal forma que até mesmo uma pequena variação na entrada altera significativamente o hash final. Essa propriedade é crucial para a segurança da função de hash, pois torna extremamente difícil encontrar uma entrada diferente que produza o mesmo hash.
-reviewed: false

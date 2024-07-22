@@ -1,9 +1,0 @@
-question: O que o prefixo 0,3 indica em uma chave pública do Bitcoin?
-answer: Ele indica um valor ímpar de y.
-wrong_answers:
-  - Ele indica um valor par de y.
-  - Ele indica a versão da chave pública.
-  - Ele indica o tamanho da chave pública.
-explanation: |
-  No exemplo da chave pública pertencente a Satoshi Nakamoto, um prefixo 0,3 indica um valor ímpar de y. Isso faz parte do processo de compressão de uma chave pública no Bitcoin.
-reviewed: false

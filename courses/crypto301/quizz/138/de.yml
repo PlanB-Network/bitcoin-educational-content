@@ -1,9 +1,0 @@
-question: Welche Formatdarstellung wird für einen SegWit-Standard verwendet, um die HD-Wallet-Adresse zu erhalten?
-answer: Das bech32-Format.
-wrong_answers:
-  - Das Base58-Format.
-  - Das SHA256-Format.
-  - Das RIPMD160-Format.
-explanation: |
-  Nach der Berechnung der Prüfsumme wird eine Formatdarstellung im Base58-Format für einen Legacy-Standard verwendet, während das bech32-Format für einen SegWit-Standard verwendet wird, um die HD-Wallet-Adresse zu erhalten.
-reviewed: false

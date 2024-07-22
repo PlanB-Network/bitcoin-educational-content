@@ -1,9 +1,0 @@
-question: Cosa succede se la passphrase di un portafoglio Bitcoin viene cambiata?
-answer: Il portafoglio Bitcoin diventa completamente diverso
-wrong_answers:
-  - Il portafoglio Bitcoin diventa inaccessibile
-  - Il portafoglio Bitcoin rimane lo stesso
-  - Il portafoglio Bitcoin perde tutti i suoi bitcoin
-explanation: |
-  Se la passphrase viene cambiata, il portafoglio Bitcoin diventa completamente diverso perché la passphrase gioca un ruolo nella costruzione e nel calcolo di tutte le chiavi del portafoglio.
-reviewed: false

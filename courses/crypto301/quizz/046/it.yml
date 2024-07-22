@@ -1,9 +1,0 @@
-question: Qual è il significato del punto all'infinito nell'algoritmo ECDSA?
-answer: Se il punto calcolato P è il punto all'infinito, la firma è invalida.
-wrong_answers:
-  - Se il punto calcolato P è il punto all'infinito, la firma è valida.
-  - Il punto all'infinito viene utilizzato per calcolare il nonce.
-  - Il punto all'infinito viene utilizzato per crittografare le chiavi.
-explanation: |
-  Nell'algoritmo ECDSA, se il punto calcolato P sulla curva ellittica è il punto all'infinito, la firma viene considerata invalida. Questo è uno dei controlli eseguiti durante la validazione di una firma digitale.
-reviewed: false

@@ -1,9 +1,0 @@
-question: ¿Cuál es la frase utilizada con el algoritmo HMAC SHA-512 para calcular la clave privada maestra?
-answer: SEMILLA de Bitcoin
-wrong_answers:
-  - CLAVE de Bitcoin
-  - BILLETERA de Bitcoin
-  - HASH de Bitcoin
-explanation: |
-  La clave privada maestra se calcula a partir de la semilla y la frase "SEMILLA de Bitcoin". Esta frase es idéntica para todas las derivaciones de billeteras HD, asegurando consistencia entre las billeteras.
-reviewed: false

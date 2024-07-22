@@ -1,9 +1,0 @@
-question: Quel est le but de la deuxième phase de prétraitement dans SHA256 ?
-answer: Ajouter la représentation binaire de la taille initiale du message, en bits
-wrong_answers:
-  - Ajouter des bits de remplissage à l'entrée
-  - Séparer l'entrée en différents blocs de messages de 512 bits
-  - Effectuer 64 tours de calcul dans la fonction de compression
-explanation: |
-  La deuxième phase de prétraitement dans SHA256 consiste à ajouter la représentation binaire de la taille initiale du message, en bits. Cela est fait en utilisant les 64 bits réservés de l'étape précédente.
-reviewed: false

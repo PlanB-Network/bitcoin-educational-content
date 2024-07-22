@@ -1,9 +1,0 @@
-question: Was ist der Hauptzweck digitaler Signaturen im Bitcoin-Protokoll?
-answer: Um den Besitz eines privaten Schlüssels, der mit einem bestimmten öffentlichen Schlüssel verbunden ist, nachzuweisen.
-wrong_answers:
-  - Um die Transaktionsdaten zu verschlüsseln
-  - Um neue Bitcoins zu generieren
-  - Um die Identität des Absenders zu überprüfen
-explanation: |
-  Im Kern des Bitcoin-Protokolls werden digitale Signaturen als mathematische Beweise verwendet, um den Besitz eines privaten Schlüssels nachzuweisen, der mit einem bestimmten öffentlichen Schlüssel verbunden ist.
-reviewed: false

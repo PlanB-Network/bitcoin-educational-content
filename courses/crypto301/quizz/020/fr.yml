@@ -1,9 +1,0 @@
-question: Quelle est la taille de bloc utilisée dans HMAC-SHA-512 ?
-answer: Blocs de 1024 bits (128 octets)
-wrong_answers:
-  - Blocs de 512 bits (64 octets)
-  - Blocs de 256 bits (32 octets)
-  - Blocs de 2048 bits (256 octets)
-explanation: |
-  Dans le contexte de la dérivation de portefeuille HD, HMAC-SHA-512 est utilisé. Ce dernier fonctionne avec des blocs de 1024 bits (128 octets) et ajuste la clé en conséquence.
-reviewed: false

@@ -1,9 +1,0 @@
-question: Quel est le but des Propositions d'Amélioration de Bitcoin (BIP) ?
-answer: Ce sont des propositions de mise à niveau qui améliorent la fonctionnalité et la sécurité des portefeuilles HD.
-wrong_answers:
-  - Ce sont des propositions visant à augmenter la valeur de Bitcoin.
-  - Ce sont des propositions visant à changer le processus de minage de Bitcoin.
-  - Ce sont des propositions visant à réguler l'utilisation de Bitcoin.
-explanation: |
-  Les Propositions d'Amélioration de Bitcoin (BIP) sont des protocoles qui visent à améliorer la fonctionnalité et la sécurité des portefeuilles HD. Par exemple, BIP32 a introduit le concept de clés dérivées de manière déterministe et hiérarchique.
-reviewed: false

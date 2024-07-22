@@ -1,9 +1,0 @@
-question: Una passphrase è più sicura di una semplice password.
-answer: Sì
-wrong_answers:
-  - "No"
-  - Dipende dalla lunghezza della password
-  - Dipende dalla complessità della password
-explanation: |
-  Una passphrase è più sicura di una semplice password. La passphrase ideale è lunga, varia e casuale. Può migliorare la sicurezza di un portafoglio o di un software crittografico.
-reviewed: false

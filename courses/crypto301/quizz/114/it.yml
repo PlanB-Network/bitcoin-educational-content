@@ -1,9 +1,0 @@
-question: Qual è lo scopo della Profondità 5 nella struttura dell'HD Wallet?
-answer: Viene utilizzata per ricevere indirizzi in un portafoglio standard.
-wrong_answers:
-  - Viene utilizzata per derivare chiavi figlie per uno scopo specifico.
-  - Permette la differenziazione di account per diverse criptovalute o reti.
-  - Corrisponde alle catene esterne e interne.
-explanation: |
-  Nella struttura dell'HD Wallet, la Profondità 5 viene utilizzata per ricevere indirizzi in un portafoglio standard.
-reviewed: false

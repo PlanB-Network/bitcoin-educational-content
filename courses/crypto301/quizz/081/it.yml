@@ -1,9 +1,0 @@
-question: L'uso di una passphrase in un portafoglio Bitcoin è obbligatorio?
-answer: No, il suo uso è opzionale.
-wrong_answers:
-  - Sì, il suo uso è obbligatorio.
-  - Dipende dal tipo di portafoglio.
-  - Dipende dalla quantità di bitcoin nel portafoglio.
-explanation: |
-  La passphrase è una password aggiuntiva che può essere integrata in un portafoglio Bitcoin per aumentarne la sicurezza. Il suo uso è opzionale e a discrezione dell'utente.
-reviewed: false

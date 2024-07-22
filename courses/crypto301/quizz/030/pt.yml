@@ -1,9 +1,0 @@
-question: Qual é a equação que define uma curva elíptica?
-answer: "y\xB2 = x\xB3 + ax + b"
-wrong_answers:
-  - "y\xB2 = x\xB3 + ax"
-  - "y\xB2 = x\xB3 + b"
-  - "y\xB2 = x\xB3 + ax - b"
-explanation: |
-  "Uma curva elíptica é definida pela equação y\xB2 = x\xB3 + ax + b. Cada ponto nesta curva possui uma simetria distintiva que é fundamental para sua utilidade na criptografia."
-reviewed: false

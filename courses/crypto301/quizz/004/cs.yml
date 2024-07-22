@@ -1,9 +1,0 @@
-question: Jaká je role kryptografických hašovacích funkcí při ověřování integrity staženého softwaru?
-answer: Působí jako digitální strážci, ověřující integritu staženého softwaru.
-wrong_answers:
-  - Šifrují software, aby ho chránily před hackery.
-  - Komprimují software, aby zkrátily dobu stahování.
-  - Generují unikátní klíč pro každé stažení.
-explanation: |
-  Kryptografické hašovací funkce hrají klíčovou roli při ověřování integrity staženého softwaru. Porovnáním haše staženého souboru s očekávaným hašem lze ověřit, že s souborem nebylo manipulováno.
-reviewed: false

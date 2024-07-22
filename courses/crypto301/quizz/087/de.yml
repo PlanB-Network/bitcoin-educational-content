@@ -1,9 +1,0 @@
-question: Was ist die Beziehung zwischen dem Master-Privatschlüssel und den erweiterten Schlüsseln der Brieftasche?
-answer: Der Master-Privatschlüssel ist der erste aus dem Seed abgeleitete Privatschlüssel und hat keine Verbindung zu den erweiterten Schlüsseln der Brieftasche.
-wrong_answers:
-  - Der Master-Privatschlüssel wird aus den erweiterten Schlüsseln der Brieftasche abgeleitet.
-  - Der Master-Privatschlüssel ist identisch mit den erweiterten Schlüsseln der Brieftasche.
-  - Der Master-Privatschlüssel wird verwendet, um die erweiterten Schlüssel der Brieftasche zu generieren.
-explanation: |
-  Der Master-Privatschlüssel ist der erste aus dem Seed abgeleitete Privatschlüssel und hat keine Verbindung zu den erweiterten Schlüsseln der Brieftasche.
-reviewed: false

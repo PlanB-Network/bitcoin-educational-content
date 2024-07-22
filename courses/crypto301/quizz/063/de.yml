@@ -1,9 +1,0 @@
-question: Was ist die Bedeutung der Sicherheit des privaten Schlüssels im Bitcoin-Ökosystem?
-answer: Es gewährleistet die Sicherheit von Bitcoin-Transaktionen.
-wrong_answers:
-  - Es gewährleistet die Geschwindigkeit von Bitcoin-Transaktionen.
-  - Es gewährleistet die Anonymität von Bitcoin-Transaktionen.
-  - Es gewährleistet die Rechtmäßigkeit von Bitcoin-Transaktionen.
-explanation: |
-  Private Schlüssel sind der Grundpfeiler, der die Sicherheit von Bitcoin-Transaktionen gewährleistet. Sie müssen auf wirklich zufällige Weise generiert werden, um jegliche Verwundbarkeit aufgrund von Vorhersagbarkeit zu vermeiden.
-reviewed: false

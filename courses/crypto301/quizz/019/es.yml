@@ -1,9 +1,0 @@
-question: ¿Cuál es el papel de PBKDF2 en el protocolo Bitcoin?
-answer: Se utiliza para convertir una frase mnemotécnica en una semilla.
-wrong_answers:
-  - Se utiliza para contrarrestar ataques de extensión de longitud al derivar billeteras determinísticas jerárquicamente (HD).
-  - Se utiliza para generar una salida de tamaño fijo.
-  - Se utiliza para agregar una fuente adicional de entropía en la derivación de claves.
-explanation: |
-  PBKDF2 se utiliza para convertir una frase mnemotécnica en una semilla. Este algoritmo realiza 2048 rondas utilizando HMAC SHA512.
-reviewed: false

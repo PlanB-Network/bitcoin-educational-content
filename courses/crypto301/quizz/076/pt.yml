@@ -1,9 +1,0 @@
-question: O que acontece se a frase de acesso de uma carteira de Bitcoin for alterada?
-answer: A carteira de Bitcoin se torna completamente diferente
-wrong_answers:
-  - A carteira de Bitcoin se torna inacessível
-  - A carteira de Bitcoin permanece a mesma
-  - A carteira de Bitcoin perde todos os seus bitcoins
-explanation: |
-  Se a frase de acesso for alterada, a carteira de Bitcoin se torna completamente diferente, pois a frase de acesso desempenha um papel na construção e cálculo de todas as chaves da carteira.
-reviewed: false

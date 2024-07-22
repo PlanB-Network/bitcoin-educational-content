@@ -1,9 +1,0 @@
-question: Was ist der Zweck von HMAC im Bitcoin-Protokoll?
-answer: Es wird verwendet, um Längenerweiterungsangriffe zu verhindern, wenn hierarchisch deterministische (HD) Wallets abgeleitet werden.
-wrong_answers:
-  - Es wird verwendet, um eine mnemonische Phrase in einen Seed umzuwandeln.
-  - Es wird verwendet, um eine Ausgabe fester Größe zu generieren.
-  - Es wird verwendet, um eine zusätzliche Quelle von Entropie bei der Schlüsselableitung hinzuzufügen.
-explanation: |
-  HMAC wird hauptsächlich verwendet, um Längenerweiterungsangriffe zu verhindern, wenn hierarchisch deterministische (HD) Wallets abgeleitet werden. Es nimmt eine Nachricht und einen Schlüssel als Eingabe und generiert eine Ausgabe fester Größe.
-reviewed: false

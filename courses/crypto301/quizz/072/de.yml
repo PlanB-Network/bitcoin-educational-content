@@ -1,9 +1,0 @@
-question: Was ist eine Mnemonik-Phrase im Zusammenhang mit einer Bitcoin-Wallet?
-answer: Es handelt sich um eine Sicherungskopie der Wallet.
-wrong_answers:
-  - Es handelt sich um ein Passwort für die Wallet.
-  - Es handelt sich um eine Transaktionshistorie der Wallet.
-  - Es handelt sich um eine digitale Signatur der Wallet.
-explanation: |
-  Eine Mnemonik-Phrase wird generiert, um die Sicherung der Bitcoin-Wallet zu gewährleisten.
-reviewed: false

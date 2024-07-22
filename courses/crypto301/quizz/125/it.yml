@@ -1,9 +1,0 @@
-question: Qual è la dimensione di una chiave pubblica compressa in Bitcoin?
-answer: 264 bit
-wrong_answers:
-  - 520 bit
-  - 128 bit
-  - 256 bit
-explanation: |
-  In Bitcoin, una chiave pubblica grezza occupa 520 bit. Tuttavia, grazie alla simmetria della curva ellittica utilizzata, possiamo comprimere la chiave pubblica per ridurne la dimensione da 520 a 264 bit.
-reviewed: false

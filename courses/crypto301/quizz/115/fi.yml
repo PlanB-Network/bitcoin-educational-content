@@ -1,9 +1,0 @@
-question: Mikä on kovennettujen indeksien tarkoitus HD-lompakon rakenteessa?
-answer: Niitä käytetään tietyissä johdannaisissa apostrofin kanssa
-wrong_answers:
-  - Niitä käytetään johdettujen lasten avainten luomiseen tiettyä tarkoitusta varten
-  - Ne mahdollistavat eri kryptovaluuttojen tai verkkojen tilien erottelun
-  - Ne vastaavat ulkoisia ja sisäisiä ketjuja
-explanation: |
-  HD-lompakon rakenteessa kovennettuja indeksejä käytetään tietyissä johdannaisissa apostrofin kanssa.
-reviewed: false

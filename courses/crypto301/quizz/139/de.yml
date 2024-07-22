@@ -1,9 +1,0 @@
-question: Was wird verwendet, um eine Adresse in einer HD-Wallet abzuleiten?
-answer: Der komprimierte öffentliche Schlüssel
-wrong_answers:
-  - Die mnemonische Phrase
-  - Die Passphrase
-  - Der Seed der Wallet
-explanation: |
-  Um eine Adresse in einer HD-Wallet abzuleiten, wird der komprimierte öffentliche Schlüssel zuerst mit SHA256 und RIPMD160 gehasht und dann wird eine Prüfsumme berechnet.
-reviewed: false

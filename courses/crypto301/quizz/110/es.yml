@@ -1,9 +1,0 @@
-question: ¿Cuál es el propósito de la Profundidad 1 en la estructura de la Cartera HD?
-answer: Se utiliza para derivar claves secundarias para un propósito específico.
-wrong_answers:
-  - Permite diferenciar cuentas para diferentes criptomonedas o redes.
-  - Se utiliza para recibir direcciones en una cartera estándar.
-  - Corresponde a las cadenas externas e internas.
-explanation: |
-  En la estructura de la Cartera HD, la Profundidad 1 se utiliza para derivar claves secundarias para un propósito específico, que está determinado por el índice.
-reviewed: false

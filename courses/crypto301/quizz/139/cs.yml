@@ -1,9 +1,0 @@
-question: Co se používá k odvození adresy v HD peněžence?
-answer: Kompresovaný veřejný klíč
-wrong_answers:
-  - Mnemonická fráze
-  - Heslová fráze
-  - Seed peněženky
-explanation: |
-  K odvození adresy v HD peněžence se nejprve kompresovaný veřejný klíč zahashuje pomocí SHA256 a RIPMD160, a poté se vypočítá kontrolní součet.
-reviewed: false

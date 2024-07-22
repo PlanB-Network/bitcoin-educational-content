@@ -1,9 +1,0 @@
-question: Pourquoi est-il essentiel de sauvegarder la phrase de récupération de 24 mots d'un portefeuille Bitcoin ?
-answer: Pour éviter toute perte de fonds.
-wrong_answers:
-  - Pour vérifier l'exactitude de la phrase de récupération.
-  - Pour générer l'entropie du portefeuille.
-  - Pour chiffrer la phrase de récupération pour une sécurité accrue.
-explanation: |
-  Sauvegarder la phrase de récupération de 24 mots est essentiel pour éviter toute perte de fonds.
-reviewed: false

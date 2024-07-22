@@ -1,9 +1,0 @@
-question: Ý nghĩa của tính không thể đảo ngược của hàm ECDSA trong an ninh ví Bitcoin là gì?
-answer: Không thể lấy lại khóa riêng từ khóa công khai
-wrong_answers:
-  - Có thể lấy lại khóa riêng từ khóa công khai
-  - Có thể lấy lại khóa công khai từ khóa riêng
-  - Không thể lấy lại khóa công khai từ khóa riêng
-explanation: |
-  Hàm ECDSA là không thể đảo ngược, nghĩa là không thể lấy lại khóa riêng từ khóa công khai. Tính không thể đảo ngược này là nền tảng của an ninh ví Bitcoin.
-reviewed: false

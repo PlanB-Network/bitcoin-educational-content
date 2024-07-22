@@ -1,9 +1,0 @@
-question: O uso de uma frase de acesso em uma carteira de Bitcoin é obrigatório?
-answer: Não, o seu uso é opcional.
-wrong_answers:
-  - Sim, o seu uso é obrigatório
-  - Depende do tipo de carteira
-  - Depende da quantidade de bitcoins na carteira
-explanation: |
-  A frase de acesso é uma senha adicional que pode ser integrada a uma carteira de Bitcoin para aumentar sua segurança. Seu uso é opcional e fica a critério do usuário.
-reviewed: false

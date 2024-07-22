@@ -1,9 +1,0 @@
-question: Est-ce qu'une phrase secrète est plus sécurisée qu'un mot de passe simple?
-answer: Oui
-wrong_answers:
-  - Non
-  - Cela dépend de la longueur du mot de passe
-  - Cela dépend de la complexité du mot de passe
-explanation: |
-  Une phrase secrète est plus sécurisée qu'un mot de passe simple. La phrase secrète idéale est longue, variée et aléatoire. Elle peut renforcer la sécurité d'un portefeuille ou d'un logiciel sécurisé.
-reviewed: false

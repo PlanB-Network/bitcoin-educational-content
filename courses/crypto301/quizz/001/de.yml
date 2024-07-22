@@ -1,9 +1,0 @@
-question: Was ist der Vorteil der Verwendung von HASH160 im Bitcoin-Protokoll?
-answer: Es ermöglicht die Sicherheit von SHA-256 und reduziert gleichzeitig die Größe des Fingerabdrucks.
-wrong_answers:
-  - Es erhöht die Größe des Fingerabdrucks für zusätzliche Sicherheit.
-  - Es ist widerstandsfähiger gegen Kollisionen als SHA-256.
-  - Es ist schneller zu berechnen als SHA-256.
-explanation: |
-  HASH160 im Bitcoin-Protokoll ist vorteilhaft, da es die Sicherheit von SHA-256 beibehält und gleichzeitig die Größe des Fingerabdrucks reduziert. Dadurch wird es effizienter, ohne die Sicherheit zu beeinträchtigen.
-reviewed: false

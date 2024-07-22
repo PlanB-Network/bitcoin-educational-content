@@ -1,9 +1,0 @@
-question: ¿Cuáles son los dos tipos de pares de claves secundarias en una billetera HD?
-answer: Pares endurecidos y pares normales.
-wrong_answers:
-  - Pares públicos y pares privados.
-  - Pares maestros y pares esclavos.
-  - Pares padres y pares hijos.
-explanation: |
-  En una billetera HD, hay dos tipos de pares de claves secundarias; pares endurecidos y pares normales. Estos pares difieren en su proceso de derivación y en sus rangos de índice.
-reviewed: false

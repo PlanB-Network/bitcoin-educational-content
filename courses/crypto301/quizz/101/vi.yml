@@ -1,9 +1,0 @@
-question: Sự khác biệt giữa phạm vi chỉ số của khóa con bình thường và khóa con cứng là gì?
-answer: Khóa con bình thường có chỉ số nằm trong phạm vi từ 0 đến 2 mũ 31 trừ 1, trong khi đó khóa con cứng có chỉ số nằm trong phạm vi từ 2 mũ 31 đến 2 mũ 32 trừ 1.
-wrong_answers:
-  - Khóa con bình thường có chỉ số nằm trong phạm vi từ 0 đến 2 mũ 32 trừ 1, trong khi đó khóa con cứng có chỉ số nằm trong phạm vi từ 2 mũ 31 đến 2 mũ 31 trừ 1.
-  - Cả khóa con bình thường và khóa con cứng đều có cùng phạm vi chỉ số.
-  - Không có sự khác biệt trong phạm vi chỉ số của khóa con bình thường và khóa con cứng.
-explanation: |
-  Phạm vi chỉ số của khóa con bình thường là từ 0 đến 2 mũ 31 trừ 1, trong khi phạm vi chỉ số của khóa con cứng là từ 2 mũ 31 đến 2 mũ 32 trừ 1.
-reviewed: false

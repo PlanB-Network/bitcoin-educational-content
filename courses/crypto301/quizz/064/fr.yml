@@ -1,9 +1,0 @@
-question: Quel est le principal objectif d'un Générateur de Nombres Aléatoires (RNG) dans les transactions Bitcoin?
-answer: Assurer l'intégrité des clés privées.
-wrong_answers:
-  - Assurer la rapidité des transactions.
-  - Assurer l'anonymat des transactions.
-  - Assurer la légalité des transactions.
-explanation: |
-  Le RNG est utilisé pour générer des nombres aléatoires, qui sont essentiels pour l'intégrité des clés privées dans les transactions Bitcoin. Cela aide à prévenir toute vulnérabilité liée à la prévisibilité.
-reviewed: false

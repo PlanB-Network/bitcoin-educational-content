@@ -1,9 +1,0 @@
-question: Quel est l'objectif ultime d'une fonction de hachage cryptographique ?
-answer: Transformer des informations de taille arbitraire en une empreinte digitale de taille fixe.
-wrong_answers:
-  - Chiffrer des données pour une transmission sécurisée.
-  - Générer une clé unique pour chaque utilisateur.
-  - Compresser des données pour un stockage efficace.
-explanation: |
-  L'objectif ultime d'une fonction de hachage cryptographique est de transformer des informations de taille arbitraire en une empreinte digitale de taille fixe. Cette empreinte est unique aux données d'entrée, et même un petit changement dans l'entrée entraînera une empreinte radicalement différente.
-reviewed: false

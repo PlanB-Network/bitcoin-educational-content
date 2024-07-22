@@ -1,9 +1,0 @@
-question: Combien de tours PBKDF2 effectue-t-il en utilisant HMAC SHA512?
-answer: 2048 tours
-wrong_answers:
-  - 1024 tours
-  - 512 tours
-  - 4096 tours
-explanation: |
-  PBKDF2 est utilisé pour convertir une phrase mnémonique en une graine. Cet algorithme effectue 2048 tours en utilisant HMAC SHA512.
-reviewed: false

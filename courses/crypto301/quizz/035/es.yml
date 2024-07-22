@@ -1,9 +1,0 @@
-question: ¿Cuál es el tamaño de una clave pública de Bitcoin?
-answer: Número de 512 bits
-wrong_answers:
-  - Número de 256 bits
-  - Número de 128 bits
-  - Número de 1024 bits
-explanation: |
-  En el sistema de Bitcoin, se utiliza una clave privada única para derivar una clave pública de 512 bits.
-reviewed: false

@@ -1,9 +1,0 @@
-question: Lợi thế chính của hàm băm SHA256 là gì?
-answer: Độ bền vững trong việc tìm ra đầu vào từ giá trị băm, trong khi việc xác minh giá trị băm cho một đầu vào cho trước là một hành động cơ học đơn giản
-wrong_answers:
-  - Khả năng tạo ra một giá trị băm 512-bit từ một đầu vào có kích thước biến đổi
-  - Việc sử dụng các bit đệm để tăng kích thước của đầu vào
-  - Việc sử dụng các toán tử XOR, AND, và NOT để xử lý các bit
-explanation: |
-  Lợi thế chính của hàm băm SHA256 là độ bền vững trong việc tìm ra đầu vào từ giá trị băm, trong khi việc xác minh giá trị băm cho một đầu vào cho trước là một hành động cơ học đơn giản. Điều này làm cho nó trở thành lựa chọn ưu tiên để bảo vệ nhiều hệ thống số, đặc biệt là trong giao thức Bitcoin.
-reviewed: false

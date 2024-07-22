@@ -1,9 +1,0 @@
-question: Quel est le but d'une signature numérique dans le contexte des transactions Bitcoin?
-answer: Prouver que vous êtes le détenteur d'une clé privée sans la révéler.
-wrong_answers:
-  - Chiffrer les données de transaction.
-  - Stocker les données de transaction.
-  - Transmettre les données de transaction.
-explanation: |
-  Dans le contexte des transactions Bitcoin, une signature numérique est utilisée pour prouver que vous êtes le détenteur d'une clé privée sans la révéler. Cela est réalisé en utilisant l'algorithme ECDSA.
-reviewed: false

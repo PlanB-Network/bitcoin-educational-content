@@ -1,9 +1,0 @@
-question: ¿Cuál es la ventaja de usar una frase de contraseña en una billetera de Bitcoin?
-answer: Puede permitir la aplicación de varias estrategias de seguridad
-wrong_answers:
-  - Hace que la billetera sea más fácil de usar
-  - Aumenta la velocidad de las transacciones
-  - Reduce las tarifas asociadas con las transacciones
-explanation: |
-  La frase de contraseña es una herramienta esencial para mejorar la seguridad de las billeteras de Bitcoin. Puede permitir la aplicación de varias estrategias de seguridad. Por ejemplo, se puede utilizar para crear duplicados y facilitar copias de seguridad de la frase mnemotécnica. También puede mejorar la seguridad de la billetera al mitigar los riesgos asociados con la generación aleatoria de la frase mnemotécnica.
-reviewed: false

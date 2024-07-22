@@ -1,9 +1,0 @@
-question: ¿Cuál es el principio de los cajones en el contexto de las funciones hash criptográficas?
-answer: Explica por qué, a pesar de nuestros mejores esfuerzos, es imposible evitar las colisiones debido a la limitación del tamaño de salida.
-wrong_answers:
-  - Explica el mecanismo de almacenamiento de las funciones hash.
-  - Describe el proceso de creación de un hash.
-  - Es un principio que explica la irreversibilidad de las funciones hash.
-explanation: |
-  El principio de los cajones en el contexto de las funciones hash criptográficas explica que debido a la limitación del tamaño de salida, es imposible evitar las colisiones. Esto se debe a que hay más posibles entradas que salidas, por lo que algunas entradas inevitablemente deben compartir la misma salida.
-reviewed: false

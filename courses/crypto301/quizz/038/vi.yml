@@ -1,9 +1,0 @@
-question: Tổng số khả năng cho một khóa riêng tư theo lý thuyết là bao nhiêu?
-answer: 2^256
-wrong_answers:
-  - 2^128
-  - 2^512
-  - 2^1024
-explanation: |
-  Tổng số khả năng cho một khóa riêng tư theo lý thuyết là 2^256, nhưng thực tế, nó ít hơn một chút so với con số đó.
-reviewed: false

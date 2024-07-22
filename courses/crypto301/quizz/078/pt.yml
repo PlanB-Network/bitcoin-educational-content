@@ -1,9 +1,0 @@
-question: Qual é o papel de uma frase de acesso em uma carteira de Bitcoin?
-answer: Ela aumenta a segurança da carteira.
-wrong_answers:
-  - Ela diminui a segurança da carteira.
-  - Ela não tem efeito na segurança da carteira.
-  - Ela torna a carteira mais amigável ao usuário.
-explanation: |
-  A frase de acesso é uma senha adicional que pode ser integrada a uma carteira de Bitcoin para aumentar sua segurança. Ao adicionar informações arbitrárias que, juntamente com a frase mnemônica, permitem o cálculo da semente da carteira, a frase de acesso melhora sua segurança.
-reviewed: false

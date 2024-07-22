@@ -1,9 +1,0 @@
-question: Cosa sono gli UTXO nel contesto di Bitcoin?
-answer: Unspent Transaction Outputs
-wrong_answers:
-  - Untraceable Transaction Outputs (Output di transazione non tracciabili)
-  - Unverified Transaction Outputs (Output di transazione non verificati)
-  - Unconfirmed Transaction Outputs (Output di transazione non confermati)
-explanation: |
-  Gli UTXO, o "Unspent Transaction Outputs" (Output di transazione non spesi), rappresentano gli output di transazione non spesi appartenenti a un utente. Per spendere questi bitcoin, è necessario dimostrare di essere il proprietario della chiave privata corrispondente alla chiave pubblica associata a ciascun UTXO.
-reviewed: false

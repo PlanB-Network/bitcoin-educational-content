@@ -1,9 +1,0 @@
-question: Jakou další možností je zvýšení bezpečnosti Bitcoin peněženky?
-answer: Přidání heslové fráze.
-wrong_answers:
-  - Přidání druhé mnemonické fráze.
-  - Přidání digitálního podpisu.
-  - Přidání historie transakcí.
-explanation: |
-  Přidání heslové fráze je další možností, jak zvýšit bezpečnost Bitcoin peněženky.
-reviewed: false

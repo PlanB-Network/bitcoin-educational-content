@@ -1,9 +1,0 @@
-question: Qual è la dimensione di una chiave pubblica Bitcoin?
-answer: Numero di 512 bit
-wrong_answers:
-  - Numero di 256 bit
-  - Numero di 128 bit
-  - Numero di 1024 bit
-explanation: |
-  Nel sistema Bitcoin, la chiave privata unica viene utilizzata per derivare una chiave pubblica di 512 bit.
-reviewed: false

@@ -1,9 +1,0 @@
-question: Quel est le nom vulgaire parfois utilisé pour désigner la collection de clés privées dans un portefeuille Bitcoin ?
-answer: Just a Bunch Of Keys (JBOC)
-wrong_answers:
-  - Just a Bunch Of Coins (JBOC)
-  - Just a Bunch Of Cryptos (JBOC)
-  - Just a Bunch Of Codes (JBOC)
-explanation: |
-  La collection de clés cryptographiques privées dérivées d'une clé maître unique dans un portefeuille Bitcoin est parfois désignée par le nom légèrement vulgaire de "Just a Bunch Of Keys" (JBOC).
-reviewed: false

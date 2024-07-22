@@ -1,9 +1,0 @@
-question: Quelle fonction est utilisée pour générer la graine à partir de la phrase mnémonique et de la phrase secrète dans un portefeuille HD ?
-answer: La fonction pbkdf2
-wrong_answers:
-  - La fonction hmacha512
-  - La fonction SHA256
-  - La fonction RIPMD160
-explanation: |
-  La fonction pbkdf2 est utilisée pour générer la graine à partir de la phrase mnémonique et de la phrase secrète, en utilisant hmacha512 et 2048 itérations. Cette graine est ensuite utilisée pour dériver la clé maître et le code de chaîne maître.
-reviewed: false

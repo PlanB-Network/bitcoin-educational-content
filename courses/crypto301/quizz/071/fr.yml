@@ -1,9 +1,0 @@
-question: Comment les bits sont-ils transformés en phrases lors de la génération d'une phrase mnémonique pour un portefeuille Bitcoin ?
-answer: Chaque segment est associé à un mot d'une liste de 2048 mots.
-wrong_answers:
-  - Chaque bit est associé à un mot d'une liste de 2048 mots.
-  - Chaque segment est associé à un mot d'une liste de 1024 mots.
-  - Chaque bit est associé à un mot d'une liste de 1024 mots.
-explanation: |
-  Pour transformer les bits en phrases, chaque segment est associé à un mot d'une liste de 2048 mots.
-reviewed: false

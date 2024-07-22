@@ -1,9 +1,0 @@
-question: ¿Qué son los UTXOs en el contexto de Bitcoin?
-answer: Salidas de Transacciones No Gastadas
-wrong_answers:
-  - Salidas de Transacciones No Rastreables
-  - Salidas de Transacciones No Verificadas
-  - Salidas de Transacciones No Confirmadas
-explanation: |
-  Los UTXOs, o "Salidas de Transacciones No Gastadas," representan las salidas de transacciones no gastadas pertenecientes a un usuario. Para gastar estos bitcoins, uno debe demostrar la propiedad de la clave privada correspondiente a la clave pública vinculada a cada UTXO.
-reviewed: false

@@ -1,9 +1,0 @@
-question: Cosa è il seed nel contesto dell'HD Wallet?
-answer: Una sequenza alfanumerica di 512 bit che serve come base per derivare le chiavi del portafoglio.
-wrong_answers:
-  - Una password utilizzata per proteggere il portafoglio.
-  - Un identificatore unico per il portafoglio.
-  - Un codice utilizzato per generare la frase mnemonica.
-explanation: |
-  Il seed è una sequenza alfanumerica di 512 bit che serve come base per derivare le chiavi del portafoglio. Viene ottenuto utilizzando la funzione pbkdf2 con la frase mnemonica e la passphrase.
-reviewed: false

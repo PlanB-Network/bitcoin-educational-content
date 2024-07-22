@@ -1,9 +1,0 @@
-question: È possibile invertire un indirizzo Bitcoin per ottenere la chiave pubblica, o invertire la chiave pubblica per ottenere la chiave privata?
-answer: "No"
-wrong_answers:
-  - Sì
-  - Solo dalla chiave pubblica alla chiave privata
-  - Solo dall'indirizzo alla chiave pubblica
-explanation: |
-  In Bitcoin, non è possibile invertire un indirizzo per ottenere la chiave pubblica, né invertire la chiave pubblica per ottenere la chiave privata. Questo è un aspetto fondamentale della sicurezza crittografica di Bitcoin.
-reviewed: false

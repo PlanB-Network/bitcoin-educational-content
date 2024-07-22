@@ -1,9 +1,0 @@
-question: Quel est le but du nonce dans le contexte des transactions Bitcoin ?
-answer: Il est utilisé dans la création d'une signature numérique.
-wrong_answers:
-  - Il est utilisé pour chiffrer les données de la transaction.
-  - Il est utilisé pour stocker les données de la transaction.
-  - Il est utilisé pour transmettre les données de la transaction.
-explanation: |
-  Dans le contexte des transactions Bitcoin, un nonce est utilisé dans la création d'une signature numérique. Plus précisément, il est utilisé dans le calcul d'un nombre spécifique V et de la signature numérique composée de deux parties, S1 et S2.
-reviewed: false

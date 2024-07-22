@@ -1,9 +1,0 @@
-question: Was wird zur Berechnung der Prüfsumme im Fall eines SegWit-Standards verwendet?
-answer: Das BCH (Bose-Chaudhuri-Hocquenghem)-Programm
-wrong_answers:
-  - Doppeltes SHA256-Hashing
-  - Die pbkdf2-Funktion
-  - Die hmacha512-Funktion
-explanation: |
-  Das BCH (Bose-Chaudhuri-Hocquenghem)-Programm wird zur Berechnung der Prüfsumme im Fall eines SegWit-Standards verwendet.
-reviewed: false

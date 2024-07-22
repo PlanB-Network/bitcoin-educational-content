@@ -1,9 +1,0 @@
-question: Bitcoinウォレットのプライベートキーの長さは何ビットですか？
-answer: 256ビット
-wrong_answers:
-  - 128ビット
-  - 512ビット
-  - 1024ビット
-explanation: |
-  Bitcoinウォレットのプライベートキーは、暗号通貨の所有権に不可欠であり、固定長の256ビットです。
-reviewed: false

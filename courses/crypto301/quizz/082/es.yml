@@ -1,9 +1,0 @@
-question: ¿Es una frase de contraseña más segura que una contraseña simple?
-answer: Sí
-wrong_answers:
-  - "No"
-  - Depende de la longitud de la contraseña
-  - Depende de la complejidad de la contraseña
-explanation: |
-  Una frase de contraseña es más segura que una contraseña simple. La frase de contraseña ideal es larga, variada y aleatoria. Puede mejorar la seguridad de una billetera o software en caliente.
-reviewed: false

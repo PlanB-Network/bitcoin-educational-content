@@ -1,9 +1,0 @@
-question: SHA256ハッシュ関数の出力サイズは何ビットですか？
-answer: 256ビット
-wrong_answers:
-  - 512ビット
-  - 128ビット
-  - 1024ビット
-explanation: |
-  SHA256ハッシュ関数は、可変サイズの入力から256ビットのハッシュを生成します。これがSHA256と呼ばれる理由です。
-reviewed: false

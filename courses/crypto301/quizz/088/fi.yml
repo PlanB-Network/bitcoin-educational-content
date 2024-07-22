@@ -1,8 +1,0 @@
-question: Mitkä ovat ne kaksi olennaista elementtiä, joihin HD-lompakon perusta nojaa?
-answer: Muistisarja ja salasana.
-wrong_answers:
-  - Siemen ja pääyksityisavain.
-  - Pääketjukoodi ja siemen.
-  - Muistisarja ja pääyksityisavain.
-explanation: |
-  HD-lompakon perusta nojaa kahteen olennaiseen elementtiin; muistisarjaan ja salasanaan (valinnainen lisäsalasana). Yhdessä ne muodostavat siemenen, 512-bittisen alfanumeerisen sekvenssin, joka toimii perustana lompakon avainten johdannaisille.

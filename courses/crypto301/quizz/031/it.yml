@@ -1,9 +1,0 @@
-question: Qual è il numero totale di possibilità per una chiave privata di Bitcoin?
-answer: Quasi uguale a 1,158 x 10^77
-wrong_answers:
-  - Esattamente 2^256
-  - Tra 1 e n-1
-  - Circa lo stesso numero di atomi presenti nell'universo osservabile
-explanation: |
-  Il numero totale di possibilità per una chiave privata di Bitcoin è quasi uguale a 1,158 x 10^77, che è circa lo stesso numero di atomi presenti nell'universo osservabile. Questo perché una chiave privata deve essere compresa tra 1 e n-1, dove n rappresenta l'ordine della curva ellittica.
-reviewed: false

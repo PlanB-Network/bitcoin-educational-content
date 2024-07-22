@@ -1,9 +1,0 @@
-question: Qual è il principale vantaggio dei Portafogli Deterministici Gerarchici (HD wallets)?
-answer: Consentono la generazione deterministica e gerarchica di coppie di chiavi figlie da un singolo pezzo di informazione.
-wrong_answers:
-  - Consentono la generazione di più chiavi private da una singola chiave pubblica.
-  - Consentono la generazione di più chiavi pubbliche da una singola chiave privata.
-  - Consentono la generazione di più portafogli da una singola coppia di chiavi.
-explanation: |
-  I portafogli HD consentono la generazione deterministica e gerarchica di coppie di chiavi figlie da un singolo pezzo di informazione. Ciò rende più facile la generazione e la gestione delle chiavi, mantenendo un alto livello di sicurezza.
-reviewed: false

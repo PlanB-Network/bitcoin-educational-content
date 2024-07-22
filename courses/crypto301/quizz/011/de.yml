@@ -1,9 +1,0 @@
-question: Was stellen die Konstanten K in der Verarbeitung der SHA-256-Funktion dar?
-answer: Die ersten 32 Bits der Dezimalteile der Kubikwurzeln der ersten 64 Primzahlen
-wrong_answers:
-  - Die ersten 32 Bits der Dezimalteile der Quadratwurzeln der ersten 64 Primzahlen
-  - Die ersten 32 Bits der Dezimalteile der Kubikwurzeln der ersten 8 Primzahlen
-  - Die ersten 32 Bits der Dezimalteile der Quadratwurzeln der ersten 8 Primzahlen
-explanation: |
-  In der Verarbeitung der SHA-256-Funktion stellen die Konstanten K von 0 bis 63 die ersten 32 Bits der Dezimalteile der Kubikwurzeln der ersten 64 Primzahlen dar. Diese werden als Grundzutaten im kryptografischen Rezept verwendet.
-reviewed: false

@@ -1,9 +1,0 @@
-question: O que o índice em um caminho de derivação indica no contexto de uma Carteira HD?
-answer: O valor usado na função HMAC
-wrong_answers:
-  - O valor usado na função SHA-256
-  - O valor usado na função RSA
-  - O valor usado na função AES
-explanation: |
-  No contexto de uma Carteira HD, o índice em um caminho de derivação indica o valor usado na função HMAC. Isso é usado para diferenciar entre diferentes pares de chaves filhas na mesma profundidade.
-reviewed: false

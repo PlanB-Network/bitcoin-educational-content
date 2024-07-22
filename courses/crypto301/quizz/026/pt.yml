@@ -1,9 +1,0 @@
-question: Qual é a menor unidade do Bitcoin?
-answer: Satoshi
-wrong_answers:
-  - Bit
-  - Byte
-  - Moeda
-explanation: |
-  No sistema Bitcoin, a unidade de conta é o bitcoin (observe o "b" minúsculo). Ele é divisível em até oito casas decimais, sendo a menor unidade o satoshi.
-reviewed: false

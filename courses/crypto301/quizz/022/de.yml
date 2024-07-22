@@ -1,9 +1,0 @@
-question: Welche sind die beiden Schlüsselkomponenten im Sicherheitsmechanismus des Bitcoin-Protokolls?
-answer: HMAC- und PBKDF2-Ableitungsalgorithmen
-wrong_answers:
-  - SHA-256- und RIPEMD-160-Hashfunktionen
-  - Elliptic Curve Digital Signature Algorithm (ECDSA) und SHA-256-Hashfunktion
-  - RSA und Diffie-Hellman-Schlüsselaustausch
-explanation: |
-  Die HMAC- und PBKDF2-Ableitungsalgorithmen sind Schlüsselkomponenten im Sicherheitsmechanismus des Bitcoin-Protokolls. Sie verhindern verschiedene potenzielle Angriffe und gewährleisten die Integrität von Bitcoin-Wallets.
-reviewed: false

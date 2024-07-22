@@ -1,9 +1,0 @@
-question: Qual è la funzione principale di un portafoglio Bitcoin?
-answer: Si riferisce a una collezione di chiavi crittografiche private derivate da una singola chiave principale.
-wrong_answers:
-  - È un dispositivo fisico che memorizza criptovalute.
-  - È una piattaforma digitale per comprare e vendere criptovalute.
-  - È un software che estrae nuovi bitcoin.
-explanation: |
-  Un portafoglio Bitcoin, specificamente un Hierarchical Deterministic Wallet (portafoglio deterministico gerarchico, HD wallet), è una collezione di chiavi crittografiche private derivate da una singola chiave principale. Queste chiavi sono essenziali per la proprietà delle criptovalute.
-reviewed: false

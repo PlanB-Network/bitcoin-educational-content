@@ -1,9 +1,0 @@
-question: Ist die Verwendung einer Passphrase in einer Bitcoin-Wallet obligatorisch?
-answer: Nein, ihre Verwendung ist optional.
-wrong_answers:
-  - Ja, ihre Verwendung ist obligatorisch.
-  - Es hängt von der Art der Wallet ab.
-  - Es hängt von der Menge an Bitcoins in der Wallet ab.
-explanation: |
-  Die Passphrase ist ein zusätzliches Kennwort, das in eine Bitcoin-Wallet integriert werden kann, um ihre Sicherheit zu erhöhen. Ihre Verwendung ist optional und liegt im Ermessen des Benutzers.
-reviewed: false

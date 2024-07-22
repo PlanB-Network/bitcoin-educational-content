@@ -1,9 +1,0 @@
-question: Welcher Standard wird am häufigsten für eine 24-Wort-Wiederherstellungsphrase in einer Bitcoin-Wallet verwendet?
-answer: Eine Entropie von 256 Bits.
-wrong_answers:
-  - Eine Entropie von 128 Bits.
-  - Eine Entropie von 160 Bits.
-  - Eine Entropie von 512 Bits.
-explanation: |
-  Der am häufigsten verwendete Standard für eine 24-Wort-Wiederherstellungsphrase ist eine Entropie von 256 Bits.
-reviewed: false

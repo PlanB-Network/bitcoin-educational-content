@@ -1,9 +1,0 @@
-question: Qu'est-ce qui est utilisé pour dériver une adresse dans un portefeuille HD ?
-answer: La clé publique compressée
-wrong_answers:
-  - La phrase mnémonique
-  - La phrase secrète
-  - La graine du portefeuille
-explanation: |
-  Pour dériver une adresse dans un portefeuille HD, la clé publique compressée est d'abord hachée en utilisant SHA256 et RIPMD160, puis un checksum est calculé.
-reviewed: false

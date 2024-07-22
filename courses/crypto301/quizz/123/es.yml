@@ -1,9 +1,0 @@
-question: ¿Usar una dirección de Bitcoin ahorra espacio en los bloques?
-answer: "No"
-wrong_answers:
-  - Sí
-  - Solo si la dirección está comprimida
-  - Solo si la dirección está hasheada
-explanation: |
-  Usar una dirección de Bitcoin no ahorra espacio en los bloques. La razón principal de usar una dirección es reducir el tamaño de la información de la clave pública.
-reviewed: false

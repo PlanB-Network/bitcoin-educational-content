@@ -1,9 +1,0 @@
-question: Quel est le rôle d'une phrase secrète dans un portefeuille Bitcoin ?
-answer: Elle renforce la sécurité du portefeuille.
-wrong_answers:
-  - Elle diminue la sécurité du portefeuille.
-  - Elle n'a aucun effet sur la sécurité du portefeuille.
-  - Elle rend le portefeuille plus convivial.
-explanation: |
-  La phrase secrète est un mot de passe supplémentaire qui peut être intégré dans un portefeuille Bitcoin pour augmenter sa sécurité. En ajoutant des informations arbitraires qui, associées à la phrase mnémonique, permettent le calcul de la graine du portefeuille, la phrase secrète renforce sa sécurité.
-reviewed: false

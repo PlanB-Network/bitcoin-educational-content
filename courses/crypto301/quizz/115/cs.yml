@@ -1,9 +1,0 @@
-question: Jaký je účel zpevněných indexů ve struktuře HD peněženky?
-answer: Používají se s apostrofem pro určité derivace
-wrong_answers:
-  - Používají se k odvození dětských klíčů pro specifický účel
-  - Umožňují diferenciaci účtů pro různé kryptoměny nebo sítě
-  - Odpovídají vnějším a vnitřním řetězcům
-explanation: |
-  Ve struktuře HD peněženky se zpevněné indexy používají s apostrofem pro určité derivace.
-reviewed: false

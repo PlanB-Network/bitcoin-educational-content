@@ -1,9 +1,0 @@
-question: Quel est le principal avantage d'utiliser une nouvelle paire de clés pour chaque transaction Bitcoin?
-answer: Cela améliore la sécurité.
-wrong_answers:
-  - Cela améliore la vitesse.
-  - Cela améliore l'anonymat.
-  - Cela améliore la légalité.
-explanation: |
-  L'utilisation d'une nouvelle paire de clés pour chaque transaction améliore la sécurité des transactions Bitcoin. Cependant, cela complique leur sauvegarde et ne préserve que partiellement la confidentialité.
-reviewed: false

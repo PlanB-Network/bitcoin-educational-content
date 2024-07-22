@@ -1,9 +1,0 @@
-question: ¿Cuál es el papel principal de las direcciones de recepción en el sistema Bitcoin?
-answer: Permiten recibir fondos en una moneda.
-wrong_answers:
-  - Permiten enviar fondos desde una moneda.
-  - Permiten minar nuevos bitcoins.
-  - Permiten verificar transacciones.
-explanation: |
-  El papel principal de las direcciones de recepción en el sistema Bitcoin es permitir recibir fondos en una moneda. Se generan a partir de pares de claves privadas y públicas.
-reviewed: false

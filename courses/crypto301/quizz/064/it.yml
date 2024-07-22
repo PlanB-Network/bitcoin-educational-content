@@ -1,9 +1,0 @@
-question: Qual è il principale scopo di un Generatore di Numeri Casuali (RNG) nelle transazioni Bitcoin?
-answer: Garantire l'integrità delle chiavi private.
-wrong_answers:
-  - Garantire la velocità delle transazioni.
-  - Garantire l'anonimato delle transazioni.
-  - Garantire la legalità delle transazioni.
-explanation: |
-  L'RNG viene utilizzato per generare numeri casuali, che sono cruciali per l'integrità delle chiavi private nelle transazioni Bitcoin. Ciò aiuta a prevenire qualsiasi vulnerabilità legata alla prevedibilità.
-reviewed: false

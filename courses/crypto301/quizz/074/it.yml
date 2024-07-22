@@ -1,9 +1,0 @@
-question: Perché è essenziale fare il backup della frase di recupero di 24 parole di un portafoglio Bitcoin?
-answer: Per evitare qualsiasi perdita di fondi.
-wrong_answers:
-  - Per verificare l'accuratezza della frase di recupero.
-  - Per generare l'entropia per il portafoglio.
-  - Per crittografare la frase di recupero per una maggiore sicurezza.
-explanation: |
-  Fare il backup della frase di recupero di 24 parole è essenziale per evitare qualsiasi perdita di fondi.
-reviewed: false

@@ -1,9 +1,0 @@
-question: Quel est le point de départ pour calculer toutes les clés publiques des utilisateurs dans le système Bitcoin?
-answer: Point G
-wrong_answers:
-  - Point K
-  - Point U
-  - Point O
-explanation: |
-  Le point G est le point de départ pour calculer toutes les clés publiques des utilisateurs dans le système Bitcoin.
-reviewed: false

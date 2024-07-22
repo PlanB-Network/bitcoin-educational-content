@@ -1,9 +1,0 @@
-question: Quel est le but de la Profondeur 1 dans la structure du Portefeuille HD ?
-answer: Elle est utilisée pour dériver des clés enfants dans un but spécifique.
-wrong_answers:
-  - Elle permet de différencier les comptes pour différentes cryptomonnaies ou réseaux.
-  - Elle est utilisée pour les adresses de réception dans un portefeuille standard.
-  - Elle correspond aux chaînes externes et internes.
-explanation: |
-  Dans la structure du Portefeuille HD, la Profondeur 1 est utilisée pour dériver des clés enfants dans un but spécifique, qui est déterminé par l'index.
-reviewed: false

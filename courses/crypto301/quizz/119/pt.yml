@@ -1,9 +1,0 @@
-question: O que é um endereço de recebimento de Bitcoin?
-answer: Um hash de uma chave pública, com um formato específico.
-wrong_answers:
-  - Um identificador único para um usuário de Bitcoin.
-  - A chave pública de um usuário de Bitcoin.
-  - Um script que bloqueia bitcoins para uma chave pública.
-explanation: |
-  Um endereço de recebimento de Bitcoin é um hash de uma chave pública, com um formato específico. É usado para receber fundos em uma moeda e é gerado a partir de pares de chaves privadas e públicas.
-reviewed: false

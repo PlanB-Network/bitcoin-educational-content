@@ -1,9 +1,0 @@
-question: Cosa memorizza un portafoglio Bitcoin?
-answer: Le chiavi private necessarie per dimostrare la proprietà dei bitcoin
-wrong_answers:
-  - I bitcoin stessi
-  - Le chiavi pubbliche necessarie per dimostrare la proprietà dei bitcoin
-  - La cronologia delle transazioni dei bitcoin
-explanation: |
-  In realtà, un portafoglio Bitcoin memorizza le chiavi private necessarie per dimostrare la proprietà dei bitcoin. I bitcoin stessi sono registrati sulla blockchain, un database decentralizzato che archivia tutte le transazioni.
-reviewed: false

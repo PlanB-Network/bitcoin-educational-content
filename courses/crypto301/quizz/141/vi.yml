@@ -1,9 +1,0 @@
-question: Khóa mở rộng trong ví HD là gì?
-answer: Được tạo ra bằng cách nối khóa cha với mã chuỗi của nó.
-wrong_answers:
-  - Đó là phần tử cao nhất trong hệ thống phân cấp của ví HD.
-  - Nó được sử dụng để tạo ra hạt giống của ví.
-  - Nó được sử dụng để tính toán mã kiểm tra.
-explanation: |
-  Việc tạo ra một khóa con phụ thuộc vào nhiều yếu tố, bao gồm khóa cha và mã chuỗi tương ứng. Một khóa mở rộng được tạo ra bằng cách nối khóa cha với mã chuỗi của nó.
-reviewed: false

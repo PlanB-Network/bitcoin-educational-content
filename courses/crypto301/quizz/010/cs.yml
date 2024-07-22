@@ -1,9 +1,0 @@
-question: Co jsou to inicializační vektory v procesu funkce SHA-256?
-answer: Prvních 32 bitů desetinných částí odmocnin prvních 8 prvočísel
-wrong_answers:
-  - Prvních 32 bitů desetinných částí třetích odmocnin prvních 8 prvočísel
-  - Prvních 32 bitů desetinných částí odmocnin prvních 64 prvočísel
-  - Prvních 32 bitů desetinných částí třetích odmocnin prvních 64 prvočísel
-explanation: |
-  V procesu funkce SHA-256 jsou inicializační vektory, od A do H, prvních 32 bitů desetinných částí odmocnin prvních 8 prvočísel. Tyto jsou použity jako základní ingredience v kryptografickém receptu.
-reviewed: false

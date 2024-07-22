@@ -1,9 +1,0 @@
-question: ¿Por qué es esencial hacer una copia de seguridad de la frase de recuperación de 24 palabras de una billetera de Bitcoin?
-answer: Para evitar cualquier pérdida de fondos.
-wrong_answers:
-  - Para verificar la precisión de la frase de recuperación.
-  - Para generar la entropía para la billetera.
-  - Para encriptar la frase de recuperación para mayor seguridad.
-explanation: |
-  Hacer una copia de seguridad de la frase de recuperación de 24 palabras es esencial para evitar cualquier pérdida de fondos.
-reviewed: false

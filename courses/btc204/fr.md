@@ -67,7 +67,7 @@ Comment parler de confidentialité sur Bitcoin sans aborder les coinjoins ? Dans
 
 ### Section 5 : Connaître les enjeux d'autres techniques de confidentialité avancées
 
-Dans la cinquième section, nous ferons un tour d'horizon de toutes les autres techniques existantes pour protéger votre vie privée sur Bitcoin, en dehors du coinjoin. Au fil des années, les développeurs ont fait preuve d'une créativité remarquable pour concevoir des outils dédiés à la confidentialité. Nous examinerons toutes ces méthodes, telles que le Payjoin, les transactions collaboratives, le Coin Swap et l'Atomic Swap, en détaillant leur fonctionnement, leurs objectifs et leurs éventuelles faiblesses.
+Dans la cinquième section, nous ferons un tour d'horizon de toutes les autres techniques existantes pour protéger votre vie privée sur Bitcoin, en dehors du coinjoin. Au fil des années, les développeurs ont fait preuve d'une créativité remarquable pour concevoir des outils dédiés à la confidentialité. Nous examinerons toutes ces méthodes, telles que le payjoin, les transactions collaboratives, le Coin Swap et l'Atomic Swap, en détaillant leur fonctionnement, leurs objectifs et leurs éventuelles faiblesses.
 
 ![BTC204](assets/fr/11/5.webp)
 
@@ -322,7 +322,7 @@ Ainsi, il faut également pouvoir faire face à l’analyse de chaîne dans notr
 
 ![BTC204](assets/notext/31/5.webp)
 
-Justement, pour mieux contrecarrer l'analyse de chaîne, quelle meilleure approche que de s'initier aux méthodes employées dans l’analyse de chaîne ? Si vous souhaitez savoir comment améliorer votre confidentialité sur Bitcoin, vous devez comprendre ces méthodes. Cela vous permettra de mieux appréhender les techniques comme [le Coinjoin](https://planb.network/fr/tutorials/privacy/coinjoin-samourai-wallet) ou [le Payjoin](https://planb.network/fr/tutorials/privacy/payjoin) (techniques que nous étudierons dans les dernières parties de la formation), et de réduire les erreurs que vous pourriez faire.
+Justement, pour mieux contrecarrer l'analyse de chaîne, quelle meilleure approche que de s'initier aux méthodes employées dans l’analyse de chaîne ? Si vous souhaitez savoir comment améliorer votre confidentialité sur Bitcoin, vous devez comprendre ces méthodes. Cela vous permettra de mieux appréhender les techniques comme [le coinjoin](https://planb.network/fr/tutorials/privacy/coinjoin-samourai-wallet) ou [le payjoin](https://planb.network/fr/tutorials/privacy/payjoin) (techniques que nous étudierons dans les dernières parties de la formation), et de réduire les erreurs que vous pourriez faire.
 
 En ça, nous pouvons faire une analogie avec la cryptographie et la cryptanalyse. Un bon cryptographe est avant tout un bon cryptanalyste. Pour imaginer un nouvel algorithme de chiffrement, il faut savoir quelles sont les attaques auxquelles il devra faire face, et également étudier pourquoi les algorithmes précédents ont été cassés. Le même principe s'applique à la confidentialité sur Bitcoin. Comprendre les méthodes de l'analyse de chaîne est la clé pour s'en prémunir. C’est pour cette raison que je vous propose une partie entière sur l'analyse de chaîne dans cette formation.
 
@@ -2320,9 +2320,9 @@ C'est en 2015 que LaurentMT évoquait pour la première fois cette méthode sous
 - P2EP (*Pay-to-End-Point*) ;
 - Transaction stéganographique.
 
-La particularité du Payjoin réside dans sa capacité à générer une transaction qui paraît ordinaire à première vue, mais qui est en réalité un mini Coinjoin entre deux personnes. Pour cela, la structure de la transaction fait intervenir le destinataire du paiement dans les inputs aux côtés de l'expéditeur réel. Le destinataire inclut donc un paiement vers lui-même au milieu de la transaction qui permet elle-même de le payer. 
+La particularité du payjoin réside dans sa capacité à générer une transaction qui paraît ordinaire à première vue, mais qui est en réalité un mini Coinjoin entre deux personnes. Pour cela, la structure de la transaction fait intervenir le destinataire du paiement dans les inputs aux côtés de l'expéditeur réel. Le destinataire inclut donc un paiement vers lui-même au milieu de la transaction qui permet elle-même de le payer. 
 
-Prenons un exemple pour mieux comprendre ce processus. Alice achète une baguette pour 4 000 sats à l'aide d'un UTXO de 10 000 sats et opte pour un Payjoin. Son boulanger, Bob, ajoute un UTXO de 15 000 sats lui appartenant en input, qu'il récupère en intégralité en output, en plus des 4 000 sats d'Alice.
+Prenons un exemple pour mieux comprendre ce processus. Alice achète une baguette pour 4 000 sats à l'aide d'un UTXO de 10 000 sats et opte pour un payjoin. Son boulanger, Bob, ajoute un UTXO de 15 000 sats lui appartenant en input, qu'il récupère en intégralité en output, en plus des 4 000 sats d'Alice.
 
 01
 
@@ -2330,13 +2330,13 @@ Dans cet exemple, Bob le boulanger introduit 15 000 sats en input et ressort ave
 
 ### À quoi sert le payjoin ?
 
-La transaction Payjoin remplit deux objectifs qui permettent aux utilisateurs d'améliorer la confidentialité de leur paiement. 
+La transaction payjoin remplit deux objectifs qui permettent aux utilisateurs d'améliorer la confidentialité de leur paiement. 
 
-Tout d'abord, le Payjoin vise à induire en erreur un observateur extérieur en créant un leurre dans l'analyse de chaîne. Ceci est rendu possible grâce à l'heuristique CIOH (*Common Input Ownership Heuristic*). Comme nous l'avons vu dans la partie 3, habituellement, lorsqu'une transaction sur la blockchain présente plusieurs inputs, on suppose que tous ces inputs appartiennent à une même entité ou à un même utilisateur.
+Tout d'abord, le payjoin vise à induire en erreur un observateur extérieur en créant un leurre dans l'analyse de chaîne. Ceci est rendu possible grâce à l'heuristique CIOH (*Common Input Ownership Heuristic*). Comme nous l'avons vu dans la partie 3, habituellement, lorsqu'une transaction sur la blockchain présente plusieurs inputs, on suppose que tous ces inputs appartiennent à une même entité ou à un même utilisateur.
 
-Ainsi, lorsqu'un analyste examine une transaction Payjoin, il est amené à croire que tous les inputs proviennent d'une même personne. Toutefois, cette perception est erronée, car le destinataire du paiement contribue également aux inputs aux côtés du payeur réel. L'analyse de chaîne est donc déviée vers une interprétation qui se révèle être fausse.
+Ainsi, lorsqu'un analyste examine une transaction payjoin, il est amené à croire que tous les inputs proviennent d'une même personne. Toutefois, cette perception est erronée, car le destinataire du paiement contribue également aux inputs aux côtés du payeur réel. L'analyse de chaîne est donc déviée vers une interprétation qui se révèle être fausse.
 
-Reprenons notre exemple de transaction Payjoin pour le paiement d'une baguette :
+Reprenons notre exemple de transaction payjoin pour le paiement d'une baguette :
 
 02
 
@@ -2362,7 +2362,7 @@ Mais en réalité, cette analyse est erronée. Le montant du paiement ne corresp
 
 06
 
-En ça, la transaction Payjoin rentre dans le domaine de la stéganographie. Elle permet de cacher le montant réel d’une transaction au sein d’une fausse transaction qui agit comme un leurre.
+En ça, la transaction payjoin rentre dans le domaine de la stéganographie. Elle permet de cacher le montant réel d’une transaction au sein d’une fausse transaction qui agit comme un leurre.
 
 La stéganographie est une technique de dissimulation d'informations au sein d'autres données ou objets, de manière à ce que la présence de l'information cachée ne soit pas perceptible. Par exemple, un message secret peut être dissimulé à l'intérieur d'un point dans un texte qui n'a rien à voir, le rendant indétectable à l'œil nu (c'est la technique du [micropoint](https://fr.wikipedia.org/wiki/Micropoint)).
 

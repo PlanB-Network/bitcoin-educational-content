@@ -1,12 +1,12 @@
 ---
-name: Podróż przez Bitcoin
-goal: Odkryj Bitcoin i jego podstawy, w tym jego propozycję wartości monetarnej, górników, transakcje i portfele.
+name: Podróż przez Bitcoina 
+goal: Odkryj Bitcoina i jego podstawy, w tym jego propozycję wartości monetarnej, górników, transakcje i portfele.
 objectives:
   - Zdobądź ogólne zrozumienie technologii Bitcoin
   - Zrozum, jak kupować i zabezpieczać bitcoiny
-  - Mieć ogólne zrozumienie technologii Blockchain
+  - Zdobądź ogólne zrozumienie technologii Blockchain
   - Zapoznaj się z koncepcją Lightning Network
-  - Zdać sobie sprawę z geopolitycznego i społecznego wpływu Bitcoina
+  - Zrozum geopolityczny i społeczny wpływ Bitcoina
 ---
 
 # Twoja pierwsza przygoda z Bitcoinem

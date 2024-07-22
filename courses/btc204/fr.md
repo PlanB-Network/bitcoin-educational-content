@@ -2324,7 +2324,7 @@ La particularité du payjoin réside dans sa capacité à générer une transact
 
 Prenons un exemple pour mieux comprendre ce processus. Alice achète une baguette pour 4 000 sats à l'aide d'un UTXO de 10 000 sats et opte pour un payjoin. Son boulanger, Bob, ajoute un UTXO de 15 000 sats lui appartenant en input, qu'il récupère en intégralité en output, en plus des 4 000 sats d'Alice.
 
-01
+![BTC204](assets/notext/61/01.webp)
 
 Dans cet exemple, Bob le boulanger introduit 15 000 sats en input et ressort avec 19 000 sats, la différence est exactement de 4 000 sats, c'est-à-dire le prix de la baguette. Du côté d'Alice, elle entre avec 10 000 sats et se retrouve avec 6 000 sats en output, ce qui représente bien un solde de -4 000 sats, c'est-à-dire le prix de la baguette. Pour simplifier l'exemple, j'ai délibérément omis les frais de minage dans cette transaction.
 
@@ -2338,15 +2338,15 @@ Ainsi, lorsqu'un analyste examine une transaction payjoin, il est amené à croi
 
 Reprenons notre exemple de transaction payjoin pour le paiement d'une baguette :
 
-02
+![BTC204](assets/notext/61/02.webp)
 
 En voyant cette transaction sur la blockchain, un observateur extérieur qui suit les heuristiques habituelles de l'analyse de chaîne en fera l'interprétation suivante : "*Alice a fusionné 2 UTXOs en inputs de la transaction afin de payer 19 000 sats à Bob*".
 
-03
+![BTC204](assets/fr/61/03.webp)
 
 Cette interprétation est évidemment incorrecte, car comme vous le savez déjà, les deux UTXOs en inputs n'appartiennent pas à la même personne. Un provient d'Alice, l'acheteuse de la baguette, et l'autre de Bob, le boulanger.
 
-04
+![BTC204](assets/notext/61/04.webp)
 
 L'analyse de l'observateur externe est ainsi dirigée vers une conclusion erronée, ce qui garantit la préservation de la confidentialité des parties prenantes.
 
@@ -2354,13 +2354,13 @@ L'analyse de l'observateur externe est ainsi dirigée vers une conclusion erron�
 
 Le second objectif du payjoin est de tromper un observateur extérieur sur le montant réel du paiement qui a été opéré. En examinant la structure de la transaction, l'analyste pourrait croire que le paiement est équivalent au montant d'un des outputs.
 
-Si l'on reprend notre exemple d'achat d'une baguette, l'analyste va penser que le montant du paiement correspond soit à l'UTXO de 6 000 sats, soit à l'UTXO de 19 000 sats. En l'occurrence, l'analyste va plutôt penser que le montant du paiement est de 19 000 sats, car il y a 2 UTXOs en outputs dont au moins un est supérieur à 6 000 sats (il n'y a pas de raison logique d'utiliser 2 UTXOs pour payer 6 000 sats alors qu'un UTXO seul aurait pu satisfaire ce paiement).
+Si l'on reprend notre exemple d'achat d'une baguette, l'analyste va penser que le montant du paiement correspond soit à l'UTXO de 6 000 sats, soit à l'UTXO de 19 000 sats. En l'occurrence, l'analyste va plutôt penser que le montant du paiement est de 19 000 sats, car il y a 2 UTXOs en outputs dont au moins un est supérieur à 6 000 sats (il n'y a pas de raison logique d'utiliser 2 UTXOs pour payer 6 000 sats alors qu'un seul UTXO aurait suffit pour satisfaire ce paiement).
 
-05
+![BTC204](assets/fr/61/05.webp)
 
 Mais en réalité, cette analyse est erronée. Le montant du paiement ne correspond à aucun des outputs. Il est en fait la différence entre l'UTXO du destinataire en output et l'UTXO du destinataire en input. 
 
-06
+![BTC204](assets/fr/61/06.webp)
 
 En ça, la transaction payjoin rentre dans le domaine de la stéganographie. Elle permet de cacher le montant réel d’une transaction au sein d’une fausse transaction qui agit comme un leurre.
 
@@ -2372,9 +2372,13 @@ On pourrait d'ailleurs établir une analogie entre la cryptographie et le coinjo
 
 ### Comment utiliser le payjoin ?
 
-Parmi les logiciels connus qui prennent en charge le payjoin, il y a Sparrow Wallet, Wasabi Wallet, Mutiny, BitMask, BlueWallet et JoinMarket.
+Parmi les logiciels connus qui prennent en charge le payjoin, il y a Sparrow Wallet, Wasabi Wallet, Mutiny, BitMask, BlueWallet et JoinMarket, ainsi que le processeur de paiement BTCPay.
+
+![BTC204](assets/notext/61/07.webp)
 
 L'implémentation de payjoin la plus avancée était seulement les Stowaway sur Samourai Wallet. Cependant, depuis l'arrestation des fondateurs du logiciel, cet outil ne fonctionne plus que partiellement. L'avantage de Stowaway est que c'est un protocole complet et très simple d'utilisation, qui prend en charge à la fois les réceptions et les envois de payjoins. Les transactions partiellement signées peuvent être échangées manuellement via le scan de plusieurs QR codes ou automatiquement par Tor via Soroban. C'est cette dernière option de communication qui est actuellement hors service.
+
+![BTC204](assets/notext/61/08.webp)
 
 La difficulté d'utilisation du payjoin réside dans sa dépendance vis-à-vis de la participation du commerçant. En tant que client, l'utilisation d'un payjoin est impossible si le commerçant ne le prend pas en charge. Cela ajoute une difficulté supplémentaire lors d'un achat : non seulement il est compliqué de trouver des commerçants acceptant le bitcoin, mais si l'on cherche en plus ceux qui supportent les payjoins, cela devient encore plus compliqué.
 

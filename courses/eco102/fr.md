@@ -18,7 +18,7 @@ Une partie importante du cours est dédiée aux sophismes économiques dénoncé
 
 Enfin, le cours se termine par une réflexion sur "La loi", abordant des concepts clés comme le droit de propriété, la spoliation légale, et le rôle de l'État. La conclusion du cours revient sur l'héritage de Frédéric Bastiat et son influence durable sur l'économie moderne.
 
-Rejoignez Damien Theillier dans cette exploration enrichissante de la pensée de Frédéric Bastiat et découvrez comment ses idées peuvent éclairer les débats économiques actuels.
+Rejoignez Damien Theillier dans cette exploration enrichissante de la pensée de Frédéric Bastiat et découvrez comment ses idées peuvent éclairer les débats économiques et politiques actuels.
 
 +++
 
@@ -32,33 +32,35 @@ Rejoignez Damien Theillier dans cette exploration enrichissante de la pensée de
 
 ![video](https://youtu.be/PahHHhtX4fI?si=d8zR-RJ4fm_Z4yM9)
 
-Ce cours est une introduction à Frédéric Bastia, ce génie méconnu et une lumière pour notre temps. Dans cette petite introduction, je vais essayer de vous faire découvrir qui était Frédéric Bastia et quels sont les grands thèmes que nous allons aborder durant cette série.
+Ce cours est une introduction à Frédéric Bastiat, ce génie méconnu et une lumière pour notre temps. Dans cette petite introduction, je vais essayer de vous faire découvrir qui était Frédéric Bastiat et quels sont les grands thèmes que nous allons aborder durant cette série.
 
 ![image](assets/image/00/IMG01.webp)
 
-En effet, Frédéric Bastia, qui est né en 1801 et qui a vécu durant la première partie du XIXe siècle, est resté pendant quelques temps un auteur important. Et puis, progressivement, il a disparu et aujourd'hui, plus personne l'entend parler, plus personne ne sait qui il est. Pourtant, cet auteur, paradoxalement, a été traduit dans beaucoup de langues, en italien, en russe, en espagnol et en anglais.
+En effet, Frédéric Bastiat, qui est né en 1801 et qui a vécu durant la première partie du XIXe siècle, est resté pendant quelques temps un auteur important. Et puis, progressivement, il a disparu et aujourd'hui, plus personne l'entend parler, plus personne ne sait qui il est. Pourtant, cet auteur, paradoxalement, a été traduit dans beaucoup de langues, en italien, en russe, en espagnol et en anglais.
 
 ![image](assets/image/00/IMG27.webp)
 
-Il se trouve qu'après la Seconde Guerre Mondiale, un de ses livres a été publié aux Etats-Unis. Il est devenu très célèbre, au point que Ronald Reagan lui-même disait que c'était son livre de chevet et c'est ce petit livre qui s'appelle La Loi. Bastia fait partie ainsi des deux auteurs français les plus célèbres aux Etats-Unis puisque l'autre est bien connu et en France aussi, c'est Alexis de Tocqueville.
+Il se trouve qu'après la Seconde Guerre Mondiale, un de ses livres a été publié aux Etats-Unis. Il est devenu très célèbre, au point que Ronald Reagan lui-même disait que c'était son livre de chevet et c'est ce petit livre qui s'appelle La Loi. Bastiat fait partie ainsi des deux auteurs français les plus célèbres aux Etats-Unis puisque l'autre est bien connu et en France aussi, c'est Alexis de Tocqueville.
 
 ![image](assets/image/00/IMG28.webp)
 
-Alors, un génie méconnu mais aussi une lumière pour notre temps. En effet, Frédéric Bastia, qui est né à Bayonne, a d'abord vécu une partie de sa vie dans les Landes où il s'est occupé d'un domaine agricole dont il avait hérité et il a mené une vie finalement d'entrepreneur. Et puis, très tôt, il s'est intéressé à l'économie, il a voyagé en Angleterre, il a rencontré Richard Codden qui était un chef de file du mouvement de la Ligue pour le libre-échange. Bastia a été fasciné par ce mouvement, il était convaincu que le libre-échange était une solution pour la France et il a décidé par la suite d'essayer de diffuser ses idées en France. Il a écrit des articles qui ont eu beaucoup de succès et il s'est installé à Paris pour diriger un journal qui s'appelait à l'époque le Journal des économistes.
+_(Place du marché à Mugron dans les Landes, la ville de Bastiat)_
+
+Alors, un génie méconnu mais aussi une lumière pour notre temps. En effet, Frédéric Bastiat, qui est né à Bayonne, a d'abord vécu une partie de sa vie dans les Landes où il s'est occupé d'un domaine agricole dont il avait hérité et il a mené une vie finalement d'entrepreneur. Et puis, très tôt, il s'est intéressé à l'économie, il a voyagé en Angleterre, il a rencontré Richard Codden qui était un chef de file du mouvement de la Ligue pour le libre-échange. Bastiat a été fasciné par ce mouvement, il était convaincu que le libre-échange était une solution pour la France et il a décidé par la suite d'essayer de diffuser ses idées en France. Il a écrit des articles qui ont eu beaucoup de succès et il s'est installé à Paris pour diriger un journal qui s'appelait à l'époque le Journal des économistes.
 
 ![image](assets/image/00/IMG15.webp)
 
-Il était aussi un philosophe et un penseur de la société, de l'ordre social, de la justice, de la loi, un penseur du droit. Et à ce titre-là, on peut dire que Bastia est une lumière pour notre temps. Et je voudrais en terminer par là. C'est quelqu'un qui a essayé de comprendre le fonctionnement du marché politique. Bien sûr, c'est aussi un défenseur de l'économie de marché, pour qui finalement l'économie de marché est le meilleur moyen de créer de la richesse. Mais à côté de ça, et c'est là où il est méconnu, il a compris les mécanismes du marché politique.
+Il était aussi un philosophe et un penseur de la société, de l'ordre social, de la justice, de la loi, un penseur du droit. Et à ce titre-là, on peut dire que Bastiat est une lumière pour notre temps. Et je voudrais en terminer par là. C'est quelqu'un qui a essayé de comprendre le fonctionnement du marché politique. Bien sûr, c'est aussi un défenseur de l'économie de marché, pour qui finalement l'économie de marché est le meilleur moyen de créer de la richesse. Mais à côté de ça, et c'est là où il est méconnu, il a compris les mécanismes du marché politique.
 
 ![image](assets/image/00/IMG24.webp)
 
-Quand il a été élu député, c'était donc la Seconde République et désormais c'était le peuple qui faisait les lois. Et là, Bastia a assisté à une espèce d'inflation de lois dans tous les sens, de création, de services publics, de droits sociaux, de taxes, etc.
+Quand il a été élu député, c'était donc la Seconde République et désormais c'était le peuple qui faisait les lois. Et là, Bastiat a assisté à une espèce d'inflation de lois dans tous les sens, de création, de services publics, de droits sociaux, de taxes, etc.
 
 ![image](assets/image/00/IMG29.webp)
 
 Et il s'est rendu compte qu'au fond, rien n'avait vraiment changé. On disposait des biens des autres par le vote, par la loi, ce qu'il a appelé la spoliation légale. Et ce phénomène de la spoliation légale a été au centre de son œuvre et notamment de ce petit texte qu'il a écrit à la fin de sa vie, La loi, où il oppose la spoliation légale et la propriété, le droit de propriété. Et il montre qu'au fond, la véritable solution du problème social, c'est la liberté, c'est-à-dire la propriété, la disposition de soi et du fruit de son travail.
 
-Dans ce cours, nous allons donc voyager ensemble à travers la pensée de Frédéric Bastia, en partant des influences de ses auteurs qui l'ont formé très tôt dès sa jeunesse, puis nous intéresserons à ses sophismes économiques, et enfin nous terminerons avec ce grand texte qui est La loi et qui nous introduira à l'analyse du marché politique, à l'analyse de la société.
+Dans ce cours, nous allons donc voyager ensemble à travers la pensée de Frédéric Bastiat, en partant des influences de ses auteurs qui l'ont formé très tôt dès sa jeunesse, puis nous intéresserons à ses sophismes économiques, et enfin nous terminerons avec ce grand texte qui est La loi et qui nous introduira à l'analyse du marché politique, à l'analyse de la société.
 
 ## La vie et le contexte historique
 
@@ -82,6 +84,8 @@ Très vite, il se passionne pour l’économie politique et étudie les œuvres 
 
 ![image](assets/image/00/IMG20.webp)
 
+_(Say, Cobden, Smith, Chevalier, Dunoyer, Destutt de Tracy)_
+
 À son retour d'Angleterre, il écrit un article intitulé : « De l'influence des tarifs anglais et français sur l'avenir des deux peuples », qu'il envoie au Journal des Économistes à Paris. L'article parait dans le numéro d'octobre 1844, et il obtint un succès complet. Tout le monde admire son argumentation puissante et incisive, son style sobre et élégant.
 
 ![image](assets/image/00/IMG21.webp)
@@ -92,7 +96,7 @@ Il publie d'abord la première série des Sophismes économiques, dans lesquels 
 
 ![image](assets/image/00/IMG22.webp)
 
-L’année suivante, il créé en France l’ « Association pour le libre-échange », et se jette dans le combat contre le protectionnisme en France. Il lève des fonds, crée une revue hebdomadaire et donne des conférences dans tout le pays.
+L’année suivante, il créé en France l’« Association pour le libre-échange », et se jette dans le combat contre le protectionnisme en France. Il lève des fonds, crée une revue hebdomadaire et donne des conférences dans tout le pays.
 
 Une première réunion a lieu à Bordeaux, le 23 février 1846, dans laquelle l'Association bordelaise pour la liberté des échanges est constituée. Bientôt le mouvement se propage dans toutes la France. A Paris, un premier noyau est formé parmi les membres de la Société des Économistes, auxquels s'adjoignent des députés, des industriels et des négociants. Des groupes importants se forment aussi à Marseille, à Lyon et au Havre.
 
@@ -124,10 +128,14 @@ En économie Bastiat a toujours témoigné de sa dette envers Adam Smith et Jean
 
 ![image](assets/image/01/IMG02.webp)
 
+_(Jean-Baptiste Say et Adam Smith)_
+
 L'économie politique, telle que l’ont conçue Adam Smith et J.-B. Say tient tout entière dans un mot : liberté. Liberté du commerce, liberté de l'individu, libre-échange et libre initiative. Le libre-échange avait d’abord été défendu par les physiocrates, tels que François Quesnay
 ou Vincent de Gournay, puis par Adam Smith qui fait la synthèse de leurs idées et de ses propres observations. Enfin, Jean-Baptiste Say, à la fin du XVIIIe siècle, va clarifier la doctrine de son maître Adam Smith et la corriger sur certains points dans son magistral Traité d’Économie politique.
 
 ![image](assets/image/01/IMG20.webp)
+
+_(Say, Destutt de Tracy, Quesnay, de Gournay)_
 
 Adam Smith s’intéresse à la prospérité, non comme une fin en soi mais comme un moyen pour l’élévation morale des individus. Pour lui, la richesse des nations est faite de la richesse des individus. Si vous voulez une nation prospère, dit Adam Smith, laissez les individus agir librement. Et le marché fonctionne parce qu’il permet à chacun d’exprimer ses préférences et de poursuivre son intérêt.
 
@@ -144,6 +152,8 @@ Ce que montre Adam Smith, c’est qu’on ne peut servir son propre intérêt qu
 L’échange est un jeu à somme positive. Ce que l’un gagne, l’autre le gagne aussi. Il se distingue ainsi de la redistribution politique où il y a toujours un gagnant et un perdant. Si l’on considère l’école anglaise, pour Smith, pour Ricardo et pour Locke avant eux, la valeur est liée au travail. Pour Marx il en va de même.
 
 ![image](assets/image/01/IMG22.webp)
+
+_(Marx, Richardo, Smith, Locke)_
 
 En revanche, Bastiat admettra avec Jean-Baptiste Say que l'utilité est le véritable fondement de la valeur. Le travail ne fait pas la valeur. La rareté non plus. Tout découle de l’utilité. En effet nul ne consent à rémunérer un service que, parce ce qu’il le juge utile. On ne produit jamais que de l'utilité.
 
@@ -243,6 +253,8 @@ Quel est le but de la revue ? Le titre parle de lui-même : censurer le gouverne
 
 ![image](assets/image/03/IMG22Constant.webp)
 
+_(Benjamin Constant)_
+
 Ils retiennent de Benjamin Constant la distinction entre les Anciens et les Modernes, caractérisée par la guerre d'une part, le commerce et l'industrie de l'autre. Mais ils ajoutent avec Say que l’économie politique fournit la meilleure explication des phénomènes sociaux. Ils comprennent en particulier que les nations atteignent la paix et la prospérité lorsque les droits de propriété et le libre-échange sont respectés. Désormais, pour eux l'économie politique est le véritable et unique fondement de la politique. A la philosophie, qui se cantonne dans la critique abstraite des formes de gouvernement, il faut substituer une théorie fondée sur la connaissance des intérêts économiques :
 
 > L'économie politique, en faisant voir comment les peuples prospèrent et dépérissent, a posé les véritables fondements de la politique.
@@ -319,6 +331,8 @@ L’objectif de la Ligue était de mobiliser l'opinion publique pour faire press
 
 ![image](assets/image/04/IMG16.webp)
 
+_(Jeremy Bentham)_
+
 Disciple de l’utilitarisme de Bentham , la conviction de Cobden était que la liberté du travail et des échanges servait directement l’intérêt des masses les plus nombreuses, les plus pauvres, les plus souffrantes de la société. Au contraire, les douanes comme instrument de prohibitions arbitraires et de privilèges ne pouvaient que profiter à certaines industries les plus puissantes.
 
 Aux élections de 1841, cinq membres de la ligue, dont Cobden, sont élus au parlement. Le 26 mai 1846, le libre-échange unilatéral devint la loi du royaume. Dès lors le Royaume-Uni va connaître une éclatante période de liberté et de prospérité.
@@ -330,6 +344,8 @@ Ce qui est intéressant, c'est que Bastiat s'est approprié une partie de leur m
 C’est seulement après la mort de Bastiat, en 1866 , que Napoléon III signera un traité de libre-échange avec l’Angleterre, sorte de victoire posthume pour celui qui avait consacré les 6 dernières années de sa courte vie à cette grande idée.
 
 ![image](assets/image/04/IMG17.webp)
+
+_(Michel Chevalier)_
 
 La question du libre-échange continue de se poser aujourd’hui. Les manuels de géographie dans les écoles prétendent que la mondialisation est coupable et que les pays pauvres auraient besoin de l'aide occidentale pour s'en sortir. Pourtant, l'extrême pauvreté a reculé de moitié en 20 ans. C’est en faisant le choix de l’ouverture que des pays comme l’Inde , la Chine ou Taïwan, ont pu sortir de la pauvreté, alors que la stagnation caractérise des pays fermés comme la Corée du Nord ou le Vénézuela. Selon l'ONU, 36% de l'humanité vivait dans le dénuement total en 1990. Ils ne sont plus « que » 18% en 2010. L'extrême pauvreté reste un défi majeur, mais elle recule.
 
@@ -348,6 +364,8 @@ Frédéric Bastiat , qui s'est exprimé dans les années 1840, est l'héritier d
 Pour eux, l'idée était simple : plus on laisse les idées s'exprimer, plus la vérité progresse et plus les erreurs se réfutent facilement. La science progresse d'ailleurs toujours de cette manière.
 
 ![image](assets/image/05/IMG01.webp)
+
+_(Montesquieu, Diedrot, Voltaire, Condorcet, Rousseau)_
 
 En revanche, peu ont compris que ce qui était vrai pour les idées, l'était également pour les biens et les services. La liberté d'échanger avec autru i a en effet deux vertus, celle d'être efficace et celle de conduire à une plus juste répartition. Non seulement Rousseau ne l’a pas compris mais il a combattu cette liberté au nom d’une fausse idée de la loi et du droit. L’une des sources majeures du socialisme, note Bastiat, c'est l'opinion de Rousseau selon laquelle l’ordre social tout entier découle de la loi.
 
@@ -439,6 +457,8 @@ Or, comme le rappelle Bastiat, le monopole exclut le progrès.
 ![video](https://youtu.be/7q5qQNe7M48?si=lU63cOehitXxkpjR)
 
 ![image](assets/image/07/IMG11.webp)
+
+_(Richard Cobden)_
 
 Nous l’avons déjà vu, c’est d’abord le combat de Cobden contre le protectionnisme avec la ligue anglaise pour l’abolition des lois sur le blé qui amena Bastiat à écrire des articles puis des livres.
 
@@ -836,27 +856,13 @@ Mais il ajoute cependant une condition
 
 > Que la loi ne vienne pas supprimer les conséquences, positives ou négatives, des actions de chacun. C’est le principe corollaire de la responsabilité ».: « que la loi ne vienne pas supprimer les conséquences, positives ou négatives, des actions de chacun. C’est le principe corollaire de la responsabilité.
 
-![image](assets/image/14/IMG2.webp)
-
 Autrement dit liberté et responsabilité ne peuvent être séparées, elles sont indissociables. Le libéralisme pour lui se distingue du socialisme par la conviction que la liberté ne peut exister sans responsabilité. Mais quelles réalités recouvrent exactement les mots de liberté et de responsabilité ?
-
-Pour Bastiat, le libéralisme se distingue du socialisme par la conviction que la liberté ne peut exister :
-
-sans la force de l’État pour imposer la liberté
-que sans État
-sans responsabilité
 
 La liberté se définit essentiellement d'une manière négative : être libre c'est agir sans coercition extérieure dans l'exercice de ses propres droits. Pourtant cela ne veut pas dire absence de toute contrainte. Car la liberté appelle la réciprocité : elle nous impose également d’agir sans porter atteinte à la propriété d’autrui et donc de réparer les préjudices commis, le cas échéant. C’est la responsabilité.
 
 ![image](assets/image/14/IMG2.webp)
 
 La responsabilité représente donc en quelque sorte le versant positif de la liberté : dans la mesure où l'on agit librement, on doit supporter les conséquences de nos propres actes, bonnes ou mauvaises.
-
-La responsabilité représente en quelque sorte :
-
-- le versant négatif de la liberté
-- le versant normatif de la liberté
-- le versant positif de la liberté
 
 Or la responsabilité individuelle est à la fois un grand vecteur de créativité et une incitation à la prudence et à la prévoyance.
 
@@ -868,19 +874,7 @@ Mais d’où vient alors le phénomène de l’irresponsabilité ou de la déres
 
 > L’intervention de l’État nous enlève le gouvernement de nous-même.
 
-D’où vient la déresponsabilisation ?
-
-- De la dépénalisation des drogues, trop souvent
-- De la déréglementation, trop souvent
-- De l’intervention de l’État, trop souvent
-
 En effet, l’étatisme réduit sans cesse l’initiative privée et le libre choix des gens. Il fait à leur place ce que les personnes pourraient faire elles-mêmes et bien mieux. Il soustrait ainsi les individus aux conséquences de leurs actes. Il détruit la responsabilité.
-
-L’étatisme soustrait les individus :
-
-- à leurs familles
-- aux conséquences de leurs actes
-- aux joies de l’expérimentation libre
 
 ![image](assets/image/14/IMG5.webp)
 
@@ -894,15 +888,11 @@ Illustrons cette question avec quelques grands sujets d’actualité. Premier ex
 
 ![image](assets/image/14/IMG7.webp)
 
+_(Alan Greenspan, président de la FED, la banque centrale américaine, de 1987 à 2006)_
+
 Pendant des années, les dirigeants de la politique monétaire ont expliqué que si les gains sont privatisés lorsque tout va bien, les pertes seront mutualisées en cas de faillite (renflouements, plans de sauvetage, manipulation des taux d’intérêts, planche à billet etc.). Ce faisant, ils ont créé un aléa moral, ils ont facilité la prise de risque déraisonnable et ils ont incité le monde de la finance à se comporter de façon irresponsable. Ils ont donc précipité la finance dans la crise que nous avons connue.
 
 ![image](assets/image/14/IMG8.webp)
-
-Comment l’irresponsabilité bancaire a-elle été permise ?
-
-- Par le manque de réglementations contre la prise de risque insensée
-- Par les garanties que les pertes seront mutualisées en cas de faillites dues à la prise de risque insensée
-- Par la déréglementation des années 90
 
 Et le phénomène se répètera indéfiniment tant que les banques resteront sous la domination d’autorités centrales censées les protéger en leur retirant toute autonomie de décision et de fonctionnement.
 
@@ -922,12 +912,6 @@ Quand on observe le service public de l’éducation nationale, on comprend ce q
 
 Nous le verrons dans un autre cours, les seuls services publics légitimes d’un État selon Bastiat sont au nombre de trois : l’armée, la police et la justice. Mais pour conclure sur la responsabilité, le problème de l’intervention de l’État, c’est que ceux qui prennent des décisions ne sont pas ceux qui en subissent les conséquences.
 
-La limite de l’intervention de l’État, c’est donc trop souvent que :
-
-- ceux qui prennent les décisions “publiques” aiment trop l’argent
-- ceux qui prennent des décisions “publiques” ne sont pas ceux qui en subissent les conséquences
-- ceux qui prennent les décisions “publiques” ne sont pas assez intelligents
-
 Autrement dit, les choix collectifs ne sont pas des choix responsables puisque d’une part ils n’entrainent aucune prise de risque pour les décideurs et que d’autre part ils forcent les autres à en subir certaines conséquences, ce qui est aussi désastreux qu’immoral.
 
 ## La puissance de la responsabilité
@@ -944,12 +928,6 @@ Nul ne peut ignorer le mal qui règne dans l’histoire des sociétés humaines 
 
 Le mal est non seulement une réalité définitive mais il a un rôle à jouer dans l’histoire et dans l’action humaine, nous dit Frédéric Bastiat. On peut le réduire mais certainement pas l’éradiquer complètement car cela supposerait de tuer la liberté et la responsabilité. Alors d’où vient le mal, quel est son rôle et comment le prévenir ?
 
-Pour Frédéric Bastiat, le mal :
-
-- doit être impérativement éradiqué pour mettre fin aux souffrances humaines
-- n’est pas vraiment un problème, tout comme les souffrances humaines, parce que l’idéal libéral ne peut s’arrêter à ça
-- est non seulement une réalité définitive mais il a un rôle à jouer dans l’histoire et dans l’action humaine
-
 Pour répondre à ces questions, Bastiat va procéder à l’analyse de l’action humaine. Celle-ci, en effet, peut conduire au bien comme au mal.
 
 ![image](assets/image/15/IMG2.webp)
@@ -958,12 +936,6 @@ Le mal provient d’abord de notre imperfection. Choisir librement c'est courir 
 
 C’est donc l’imperfection de la raison qui est la principale limite des hommes et qui demeure à l'origine de nos souffrances.
 
-La principale limite des hommes, à l'origine de nos souffrances est :
-
-- notre nature animale
-- notre esprit belliqueux
-- l’imperfection de la raison
-
 Si le mal vient de la faiblesse humaine et non de la liberté elle-même, ni du libre-échange, le remède n’est pas dans la suppression de la liberté ni de l’échange mais dans la responsabilité elle-même, puisqu’elle est la source de toute expérience.
 
 Ce principe de responsabilité est le suivant, je cite Bastiat :
@@ -971,12 +943,6 @@ Ce principe de responsabilité est le suivant, je cite Bastiat :
 > Tout homme qui agit reçoit la récompense ou la punition de ses actes.
 
 Par cette sanction naturelle, l’homme apprend, découvre, se corrige, progresse et s’améliore. Autrement dit, la responsabilité est un principe de perfectibilité et de progrès comme nous l’avons vu dans le cours précédent.
-
-La responsabilité est un principe :
-
-- parfait
-- de perfection
-- de perfectibilité
 
 ![image](assets/image/15/IMG3.webp)
 
@@ -991,12 +957,6 @@ C’est parce que l’homme risque de se tromper ou de mal agir et d’en subir 
 On le voit donc, Bastiat est loin d’être aveugle. Il ne nie pas l'existence du mal. L’homme est faible, sujet à l’erreur et à la faute. Nulle part on ne verra Bastiat nier le fait qu’à l’exercice de la liberté individuelle est associée la possibilité de l’erreur, la possibilité d’un choix déraisonnable ou insensé.
 
 Il affirme simplement que si la source du mal est dans l'absence de liberté, le remède est dans la liberté même, et plus particulièrement dans l’exercice plein et entier de la responsabilité personnelle.
-
-Pour Bastiat le remède au mal est :
-
-- dans la volonté de puissance
-- dans la sanction par un système judiciaire répressif et intraitable
-- dans la liberté même, et plus particulièrement dans l’exercice plein et entier de la responsabilité personnelle.
 
 ![image](assets/image/15/IMG5.webp)
 
@@ -1020,15 +980,9 @@ Frédéric Bastiat, dans son fameux pamphlet « La loi », dénonce la perversio
 
 ![image](assets/image/16/IMG2.webp)
 
-Car la moralité se définit comme un comportement volontaire. Quand un individu est contraint de donner quelque chose qu’il ne veut pas donner, il est toujours la victime d’un vol. Autrement dit
+Car la moralité se définit comme un comportement volontaire. Quand un individu est contraint de donner quelque chose qu’il ne veut pas donner, il est toujours la victime d’un vol.
 
 ![image](assets/image/16/IMG3.webp)
-
-En quoi la solidarité obligatoire est-elle une fausse solidarité ?
-
-- Parce qu’elle n’est pas toujours décidée démocratiquement
-- Parce qu’elle contraint à donner de manière non volontaire
-- Parce qu’elle nécessite trop d’administration
 
 En effet, lorsqu’un don est rendu obligatoire par la loi, ce n’est plus une attitude morale. L’attitude morale du don est remplacée par la revendication « de droits à », qui sont des revendications sur le travail d’autrui. La fausse solidarité c’est l’appel à vivre aux dépens d’autrui.
 
@@ -1042,23 +996,11 @@ Et encore:
 
 Or cette perversion du droit a un nom, c’est le socialisme, c’est-à-dire l’idéologie de la redistribution forcée des richesses par l’État. Le socialisme selon Bastiat, se caractérise par l'idéologie de la spoliation légale. Mais la ruse de cette idéologie c’est qu’elle masque sa violence sous un abus de langage : l’appel à la solidarité ou à la fraternité.
 
-Pour Bastiat l'idéologie de la redistribution forcée et de la spoliation légale définit :
-
-- le conservatisme
-- le socialisme
-- le républicanisme
-
 ![image](assets/image/16/IMG4.webp)
 
 Toutefois selon Bastiat, il existe une alternative à la solidarité obligatoire d’État : “société de secours mutuel”
 
 l’entraide mutuelle et spontanée des hommes entre eux grâce aux sociétés de secours mutuel. Mais il avait aussi prévu que l'État finirait par s'emparer de ces mutuelles pour en faire un organisme unique et centralisé, incitant à la dépense et au gaspillage.
-
-Pour Bastiat la solidarité authentique et organisée peut se trouver dans :
-
-- le welfare de
-- les mesures de Bismark
-- les sociétés de secours mutuel
 
 ![image](assets/image/16/IMG5.webp)
 
@@ -1069,12 +1011,6 @@ Dans un pamphlet nommé "Justice et Fraternité", Bastiat explore aussi l’idé
 De fait, la solidarité intrafamiliale, la solidarité locale ou la philanthropie organisée sont beaucoup plus développées dans les pays qui connaissent un système fiscal léger et un degré relativement élevé de liberté économique, comme la Suisse et les États-Unis, alors qu'elle est largement étouffée dans les pays où l'État s'est en grande partie substitué à la responsabilité individuelle, comme la France ou l'Allemagne.
 
 Il est souvent de bon ton de déplorer « l'égoïsme » qui prévaudrait dans les sociétés libérales. Mais c’est exactement l’inverse qui est vrai. Quand une société est écrasée d’impôts et que les individus ne sont plus propriétaires de leurs biens, ils ne sont pas incités à donner mais plutôt à se replier sur eux-mêmes.
-
-En quoi la solidarité forcée peut-elle créer l’égoïsme et tuer la vraie solidarité ?
-
-- Parce que l’homme est égoïste par nature
-- Parce que l’homme est irrationnel et que le postulat de rationalité est un leurre
-- Parce que les impôts toujours plus écrasants et le fait que L’État se charge de la solidarité ne nous incite plus à nous préoccuper du sort des autres
 
 ![image](assets/image/16/IMG7.webp)
 
@@ -1113,19 +1049,9 @@ Entendu en ce sens, le droit de Propriété fait partie de ces droits qui ne dé
 
 Elle a pour mission de défendre la personne et ses biens.
 
-Pourquoi selon Bastiat le droit de propriété et la liberté sont difficilement séparables ?
-
-- Parce qu’il a du mal à établir une distinction analytique entre les deux
-- Parce que les deux viennent de la volonté du législateur
-- Parce qu’il définit le droit de propriété comme consistant en la liberté de disposer d'abord sa propre personne, puis de son travail, et enfin, des produits de son travail
-
-Pour Bastiat le droit de propriété est
-
-- créé par la législation
-- créé par le contrat social
-- antérieur à la législation
-
 ![image](assets/image/17/IMG6.webp)
+
+_(François Quesnay, chef de file des Physiocrates)_
 
 Le droit n’est donc pas la même chose que la loi. Le droit ne s’identifie pas avec la parole du souverain, ni ne dépend exclusivement de sa légitimité. Il est le produit d’une tradition, d’un ordre juridique antérieur et supérieur à la loi, qui s’impose au législateur autant qu’à n’importe lequel des citoyens ordinaires.
 
@@ -1143,23 +1069,11 @@ Dans le système de Rousseau, dont nous avons parlé dans un cours précédent, 
 
 Chez Rousseau, la propriété n’est pas antérieure au droit, elle n’est qu’une convention instituée par la volonté générale et dans les limites décidée par elle. De ce fait, il n’y a pas de liberté ni de droit indépendamment de la société et du bon vouloir des législateurs. Or si l’on dissocie le droit de la propriété, on en vient facilement à justifier de faux droits, qui ne sont acquis que par la violation des droits d’autrui.
 
-Si on considère comme Rousseau que la propriété est une convention instituée par la volonté générale, quelle peut-être la conséquence ?
-
-- Le législateur est alors lié par cette convention et ne peut toucher à la propriété
-- La volonté générale ne veut jamais toucher à la propriété
-- Le législateur peut organiser, modifier, voire supprimer la propriété
-
 Par exemple : le droit au travail ou le droit au logement.
 
 ![image](assets/image/17/IMG4.webp)
 
 Pour que je puisse acquérir gratuitement il faut bien que quelqu’un paie pour moi. Et si c’est l’État qui paie, puisqu’il ne produit pas de richesses, il ne peut le faire qu’en prenant un logement à quelqu’un, ou son équivalent, pour me le donner.
-
-Comment le “droit à” X de Pierre peut-il se révèler conflictuel ?
-
-- Parce que si Pierre n’a pas ce qu’il veut il va entamer un conflit social
-- Parce que quand Pierre reçoit son droit à X cela peut donner des idées aux autres qui vont eux entamer un conflit social
-- Parce qu’il faut prendre à Jacques, donc amputer son droit de propriété, pour “donner” à Pierre son droit à : il y a conflit de droits.
 
 Cette idée que le droit de propriété est une création de la loi a donc pour conséquence selon Bastiat d'ouvrir un champ sans limite aux utopistes qui souhaitent modeler la société d’après leurs plans.
 
@@ -1167,9 +1081,11 @@ Dans le système de la liberté naturelle, il existe donc une loi naturelle, ind
 
 ![image](assets/image/17/IMG6.webp)
 
-Ici Bastiat s’inscrit ici dans l’héritage des physiocrates, et par-delà, dans la tradition de la philosophie du droit de Cicéron et d’Aristote. La loi ne crée pas le droit. Elle a pour mission de le défendre et donc de défendre la propriété, aussi bien la propriété de soi, l’intégrité de la personne, que la propriété du fruit de son travail.
+Ici Bastiat s’inscrit ici dans l’héritage des Physiocrates, et par-delà, dans la tradition de la philosophie du droit de Cicéron et d’Aristote. La loi ne crée pas le droit. Elle a pour mission de le défendre et donc de défendre la propriété, aussi bien la propriété de soi, l’intégrité de la personne, que la propriété du fruit de son travail.
 
 ![image](assets/image/17/IMG7.webp)
+
+_(Cicéron)_
 
 ## La spoliation légale : une perversion de la loi
 
@@ -1185,12 +1101,6 @@ Quelle est la vraie nature de la loi ?
 
 Bastiat commence par poser les fondements anthropologiques naturels de la loi : la vie, la liberté et la propriété.
 
-Quels sont les fondements anthropologiques naturels de la loi selon Bastiat ?
-
-- Le pouvoir, l’inégalité et la domination.
-- La vie, la liberté et la propriété.
-- La liberté, l’égalité et la fraternité.
-
 Le système institutionnel de la liberté naturelle, est celui pour lequel la société, les personnes et les propriétés existent antérieurement aux lois. Dans ce système, ajoute Bastiat:
 
 > Ce n'est pas parce qu'il y a des lois qu'il y a des propriétés, mais parce qu'il y a des propriétés qu'il y a des lois.
@@ -1200,12 +1110,6 @@ Le système institutionnel de la liberté naturelle, est celui pour lequel la so
 
 Chaque homme est autorisé à défendre sa vie et à faire usage de ses facultés. Et la loi est l’organisation collective de cette légitime défense. La loi défend la justice. Non une justice positive qui organiserait la fraternité et la solidarité, mais une justice négative qui se borne à empêcher que le droit de l'un n'usurpe le droit de l'autre.
 
-Une justice négative est :
-
-- mauvaise pour les droits des uns et des autres
-- ne fait rien et laisse se régler les différends
-- empêche que les droits des uns soient usurpés par les autres
-
 Or quand la loi cesse d’être négative pour devenir positive, le sentiment d’inégalité s’accroît dans la société et génère les conflits. Si on élargi indéfiniment le domaine de la Loi, c'est-à-dire la responsabilité du gouvernement, on ouvre la porte à ANIM 1 PE « une série sans fin de plaintes, de haines, de troubles et de révoltes », écrit-il.
 
 La fausse philanthropie dit Bastiat est l’une des grandes causes de la perversion de la loi. Certains hommes se considèrent au-dessus du reste de l’humanité et capables de faire de meilleurs choix que les autres.
@@ -1213,12 +1117,6 @@ La fausse philanthropie dit Bastiat est l’une des grandes causes de la pervers
 ![image](assets/image/18/IMG4.webp)
 
 Ils savent mieux ce qui est bon pour les autres et vont imposer à tous leur conception du bien, ce sont les philanthropes. Ils ont créé de faux droits que l’on nomme aujourd’hui des droits sociaux. Les droits sociaux ne sont que des droits sur le travail d’autrui, des droits à disposer de sa propriété, fruit de son travail : droit au logement, droit à la santé, à l’éducation, au travail, au salaire minimum etc.
-
-En quoi la fausse philanthropie est-elle une cause de la perversion de la loi chez Bastiat ?
-
-- Parce qu’elle est en réalité fondée sur une série de faux droits que “quelqu’un d’autre” va en réalité payer
-- Parce qu’elle veut forcer à rendre chacun bon selon une conception arbitraire du bien
-- Parce qu’elle met a u pouvoir le philanthrope, justement.
 
 Qu’est-ce que la spoliation ? Elle est l’exacte opposée de la propriété, nous dit Bastiat. Spolier vient du latin spoliarer, qui veut dire dépouiller. Nous avons vu que l’homme ne peut vivre qu’en s’appropriant les choses, qu’en appliquant ses facultés sur les choses, c’est-à-dire en travaillant. Hélas, il peut aussi bien s’approprier le produit des facultés de son semblable, c’est-à-dire le spolier.
 
@@ -1235,12 +1133,6 @@ Au lieu de défendre les droits naturels, la loi se transforme en protection des
 ![image](assets/image/18/IMG7.webp)
 
 Pour lui le but de la Loi doit être simplement de « mettre fin à toutes les spoliations ». Si l’État n’intervient pas dans la vie privée, les individus sont effectivement propriétaires et responsables de leur vie. Ils font leur bonheur eux-mêmes. Ils assument les conséquences bonnes ou mauvaises de leurs actions.
-
-Selon Bastiat, le but de la Loi doit être simplement de :
-
-- rééquilibrer les relations de pouvoir
-- mettre fin à toutes les spoliations
-- générer du lien social
 
 Ils ont la certitude que leurs Droits naturels sont garantis et intouchables. Des droits de propriété sûrs donnent aux gens la possibilité de faire des projets sur le long terme, parce qu’ils savent que leur patrimoine est à l’abri de la spoliation.
 
@@ -1266,12 +1158,6 @@ En 1848, Bastiat est député. Il est nommé vice-président de la commission de
 
 Bastiat commence par renverser une équation souvent admise : c’est l’État qui fait vivre la nation. Mais l'État ne peut pas faire vivre les citoyens car il ne produit pas de richesses, il ne fait que les déplacer, les redistribuer. Au contraire ce sont les citoyens qui font vivre l'État par la création de richesses.
 
-Selon Bastiat :
-
-- ce sont les citoyens qui vivent de l’État
-- c’est l’État qui fait vivre la nation
-- ce sont les citoyens qui font vivre l'État
-
 ![image](assets/image/19/IMG2.webp)
 
 Par ailleurs, l’État en soi n’existe pas, il n’y a que des hommes qui constituent l’État, qui dirigent, administrent, qui vivent de l’État directement ou indirectement. Dès lors les hommes qui administrent l’État sont comme les autres, ils cherchent à satisfaire leurs intérêts personnels.
@@ -1284,12 +1170,6 @@ Et puisque l’action de l’État est purement redistributive, elle est soumise
 
 Autrement dit l’État ne poursuit que des objectifs clientélistes et la notion d’intérêt général est dénuée de sens. Tout gain obtenu par certains se fait aux dépens des autres : ce n’est pas un jeu à somme nulle mais un jeu à somme négative.
 
-La redistribution par l’État peut générer :
-
-- des distorsions
-- du clientélisme
-- de la paix sociale à long terme
-
 Bastiat anticipe ainsi avec un siècle d’avance les analyses du fonctionnement du marché politique qui émergeront à la fin des années 50 avec l’école dite du Public Choice de James Buchanan, prix Nobel d’économie et son collègue Gordon Tullock.
 
 ![image](assets/image/19/IMG5.webp)
@@ -1300,11 +1180,6 @@ De plus, affirme Bastiat, l’État n’a aucun droit qui ne préexiste d’abor
 Donc, pour savoir si l'État est légitimement investi d'un droit, il faut se demander si ce droit réside dans l'individu en vertu de son organisation et en l'absence de tout gouvernement.
 
 C’est pourquoi l’État ne peut en aucun cas porter atteinte aux droits naturels, il doit au contraire les garantir.
-Pour Bastiat, l’État doit assurer les fonctions de :
-
-- régulation, redistribution, justice
-- sécurité, justice et équité
-- sécurité intérieure et extérieure, et justice
 
 ![image](assets/image/19/IMG7.webp)
 
@@ -1319,11 +1194,6 @@ Concernant les services publics, il énonce un principe simple :
 > Si vous voulez créer une fonction, prouvez son utilité. Démontrez qu’elle vaut par les services qu’elle rend, l’équivalent de ce qu’elle coûte.
 
 D’où il suit, conclut-il, qu’il est raisonnable de ne confier à la fonction publique que ce que le secteur privé ne peut absolument pas accomplir.
-
-De quelle école de pensée du vingtième siècle Bastiat est-il le précurseur ?
-la théorie de la croissance endogène
-la théorie du déséquilibre
-la théorie du public choice
 
 En résumé, lorsqu’un gouvernement outrepasse sa mission de défense des personnes et des biens, il incite les groupes d’intérêt à rechercher des privilèges et à influer sur le pouvoir pour obtenir des avantages au détriment des contribuables et des consommateurs.
 
@@ -1351,21 +1221,9 @@ Installé à New York en 1943, Mises organise des séminaires qui attirent des e
 
 ![image](assets/image/20/IMGG.webp)
 
-Quel auteur de “Moi le crayon” qui va traduire La Loi de Bastiat en anglais?
-
-- Leonard Read
-- Leonard Nimoy
-- Leonard Cohen
-
 Mais celui qui va également populariser les thèses de Frédéric Bastiat est un chroniqueur économique du New York Times, Henry Hazlitt, dans un petit livre nommé : "L'économie en une seule leçon", publié en 1946. S’inspirant explicitement des idées de Bastiat, il entend démontrer que le problème des solutions économiques étatistes est de ne pas se préoccuper de leurs conséquences désastreuses à long terme.
 
 ![image](assets/image/20/IMG07.webp)
-
-Henri Hazlitt reprend la vitre cassée de Bastiat dans son ouvrage économique populaire :
-
-- L’économie en une leçon
-- 49 leçons d’économie
-- Freakonomics
 
 Hazlitt commence son livre en racontant l'histoire de la fenêtre cassée de Bastiat. Il résume l'histoire en une simple et unique leçon :
 
@@ -1375,12 +1233,6 @@ Hazlitt applique ensuite cette leçon à une grande variété de problèmes éco
 
 Bastiat était l’un des économistes favoris de Ronald Reagan et ce déjà bien avant qu’il soit élu président. On le sait peu mais pendant huit ans, Reagan a travaillé pour la compagnie General Electric en tant qu’animateur de son émission de télévision sur CBS, et en tant que chargé de la formation du personnel de l’entreprise. Son programme de formation était construit autour de textes d'initiation à l'économie de marché. Les œuvres choisies sont celles de deux Autrichiens, Hayek et Mises, de deux Anglais, Cobden et Bright, et d’un Français, Frédéric Bastiat.
 
-Quelle Président des USA avait dans sa jeunesse distillé les idées de Bastiat lors de séminaires en entreprise ?
-
-- Franklin Roosevelt
-- Ronald Reagan
-- George Bush
-
 La leçon que Reagan enseignait à ses employés, à la suite de Bastiat, est qu'il n'est pas de plus grand mythe que celui de la relance de la croissance et de l’emploi par les dépenses publiques.
 
 ![image](assets/image/20/IMG08.webp)
@@ -1388,12 +1240,6 @@ La leçon que Reagan enseignait à ses employés, à la suite de Bastiat, est qu
 C’est notamment John Maynard Keynes qui suggérait que les dépenses publiques augmentaient la production en raison d'un multiplicateur : si le gouvernement construit un pont, les travailleurs de ce pont pourront acheter du pain, puis le boulanger pourra acheter des chaussures, etc. Si l'industrie privée est en repli, on peut y remédier par les grands travaux. S’il y a du chômage, l’Etat peut créer des emplois publics.
 
 Mais comme l’a bien montré Bastiat, l’intervention de l’État a des effets pervers que l’on ne voit pas. Seul le bon économiste est capable de les prévoir. Prenons un exemple : C’est une illusion de croire que le gouvernement peut « créer des emplois » car pour chaque emploi public créé il détruit un emploi sur le marché. En effet, les emplois publics sont payés par les impôts. Les emplois publics ne sont pas créés, ils sont perçus. Tout centime dépensé par l'État doit nécessairement être obtenu par un centime d'impôt ou de dette.
-
-Quelle illusion, que l’on retrouvera au vingtième siècle notamment, Bastiat critiquait-il ?
-
-- Que le l’État peut s’auto-réguler
-- Que le marché peut s’auto-réguler
-- Que l’État peut “créer des emplois”
 
 ![image](assets/image/20/IMG09.webp)
 

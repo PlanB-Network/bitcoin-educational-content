@@ -2301,28 +2301,101 @@ Maintenant que nous avons abordé en détail les coinjoins, nous allons étudier
 # Connaître les enjeux d'autres techniques de confidentialité avancées
 <partId>19989ae6-d608-4acf-b698-2cf1e7e5e6ae</partId>
 
-
-
 ## Les transactions payjoin
 <chapterId>c1e90b95-f709-4574-837b-2ec26b11286f</chapterId>
 
-Ce chapitre est en cours de rédaction, et sera publié très prochainement !
+Le coinjoin représente actuellement la méthode la plus efficace pour introduire de l'incertitude dans le traçage des pièces lors d'une analyse de chaîne. Comme nous avons vu dans les chapitres précédents, pour obtenir un mixage performant, il faut que les inputs et les outputs présentent la plus grande homogénéité possible. De plus, il est important que les pièces soient intégrées dans un groupe aussi vaste que possible pour maximiser les anonsets. Ainsi, pour que les coinjoins soient efficaces, ils doivent impliquer un grand nombre de pièces uniformes. Cette multitude d'exigences fait que les transactions coinjoin ont une structure très rigide : les montants sont fixés à l'avance et tous les participants doivent s'y conformer pour garantir l'uniformité du processus. De plus, les coinjoins requièrent une synchronisation entre tous les participants et le coordinateur lors de la construction de la transaction.
+
+Ces exigences rendent le coinjoin peu adapté aux paiements directs. Par exemple, si vous possédez une pièce de 1M sats dans une pool de coinjoin, l'utiliser directement comme un paiement serait complexe. Cela nécessiterait une synchronisation avec les autres participants et le coordinateur pour construire la transaction collaborative précisément au moment où vous devez effectuer un paiement, et le montant de l'achat devrait correspondre exactement à la valeur de votre pièce, ce qui est pratiquement irréalisable. La transaction coinjoin est donc par nature une transaction collaborative de balayage, c'est-à-dire que ce sont généralement les mêmes propriétaires des inputs que l'on retrouve en outputs.
+
+Pourtant, il serait intéressant de disposer de structures de transactions qui permettent de réaliser des paiements de manière pratique, tout en introduisant du doute dans l'analyse de chaîne. C'est précisément ce que nous allons étudier dans ce chapitre et le suivant.
+
+### C'est quoi une transaction payjoin ?
+
+Le payjoin est une structure spécifique de transaction Bitcoin qui permet d'améliorer la confidentialité des utilisateurs lors d'une dépense en collaborant avec le destinataire du paiement. 
+
+C'est en 2015 que LaurentMT évoquait pour la première fois cette méthode sous l'appellation de "*steganographic transactions*", selon un document accessible [ici](https://gist.githubusercontent.com/LaurentMT/e758767ca4038ac40aaf/raw/c8125f6a3c3d0e90246dc96d3b603690ab6f1dcc/gistfile1.txt). Cette technique fut ensuite adoptée par le portefeuille Samourai Wallet, qui en 2018, fut le premier client à l'implémenter avec l'outil Stowaway. On retrouve également le concept du payjoin dans le [BIP79](https://github.com/bitcoin/bips/blob/master/bip-0079.mediawiki) et le [BIP78](https://github.com/bitcoin/bips/blob/master/bip-0078.mediawiki). Plusieurs termes sont ainsi utilisés pour désigner un payjoin :
+- Payjoin ;
+- Stowaway ;
+- P2EP (*Pay-to-End-Point*) ;
+- Transaction stéganographique.
+
+La particularité du Payjoin réside dans sa capacité à générer une transaction qui paraît ordinaire à première vue, mais qui est en réalité un mini Coinjoin entre deux personnes. Pour cela, la structure de la transaction fait intervenir le destinataire du paiement dans les inputs aux côtés de l'expéditeur réel. Le destinataire inclut donc un paiement vers lui-même au milieu de la transaction qui permet elle-même de le payer. 
+
+Prenons un exemple pour mieux comprendre ce processus. Alice achète une baguette pour 4 000 sats à l'aide d'un UTXO de 10 000 sats et opte pour un Payjoin. Son boulanger, Bob, ajoute un UTXO de 15 000 sats lui appartenant en input, qu'il récupère en intégralité en output, en plus des 4 000 sats d'Alice.
+
+01
+
+Dans cet exemple, Bob le boulanger introduit 15 000 sats en input et ressort avec 19 000 sats, la différence est exactement de 4 000 sats, c'est-à-dire le prix de la baguette. Du côté d'Alice, elle entre avec 10 000 sats et se retrouve avec 6 000 sats en output, ce qui représente bien un solde de -4 000 sats, c'est-à-dire le prix de la baguette. Pour simplifier l'exemple, j'ai délibérément omis les frais de minage dans cette transaction.
+
+### À quoi sert le payjoin ?
+
+La transaction Payjoin remplit deux objectifs qui permettent aux utilisateurs d'améliorer la confidentialité de leur paiement. 
+
+Tout d'abord, le Payjoin vise à induire en erreur un observateur extérieur en créant un leurre dans l'analyse de chaîne. Ceci est rendu possible grâce à l'heuristique CIOH (*Common Input Ownership Heuristic*). Comme nous l'avons vu dans la partie 3, habituellement, lorsqu'une transaction sur la blockchain présente plusieurs inputs, on suppose que tous ces inputs appartiennent à une même entité ou à un même utilisateur.
+
+Ainsi, lorsqu'un analyste examine une transaction Payjoin, il est amené à croire que tous les inputs proviennent d'une même personne. Toutefois, cette perception est erronée, car le destinataire du paiement contribue également aux inputs aux côtés du payeur réel. L'analyse de chaîne est donc déviée vers une interprétation qui se révèle être fausse.
+
+Reprenons notre exemple de transaction Payjoin pour le paiement d'une baguette :
+
+02
+
+En voyant cette transaction sur la blockchain, un observateur extérieur qui suit les heuristiques habituelles de l'analyse de chaîne en fera l'interprétation suivante : "*Alice a fusionné 2 UTXOs en inputs de la transaction afin de payer 19 000 sats à Bob*".
+
+03
+
+Cette interprétation est évidemment incorrecte, car comme vous le savez déjà, les deux UTXOs en inputs n'appartiennent pas à la même personne. Un provient d'Alice, l'acheteuse de la baguette, et l'autre de Bob, le boulanger.
+
+04
+
+L'analyse de l'observateur externe est ainsi dirigée vers une conclusion erronée, ce qui garantit la préservation de la confidentialité des parties prenantes.
+
+### La transaction stéganographique
+
+Le second objectif du payjoin est de tromper un observateur extérieur sur le montant réel du paiement qui a été opéré. En examinant la structure de la transaction, l'analyste pourrait croire que le paiement est équivalent au montant d'un des outputs.
+
+Si l'on reprend notre exemple d'achat d'une baguette, l'analyste va penser que le montant du paiement correspond soit à l'UTXO de 6 000 sats, soit à l'UTXO de 19 000 sats. En l'occurrence, l'analyste va plutôt penser que le montant du paiement est de 19 000 sats, car il y a 2 UTXOs en outputs dont au moins un est supérieur à 6 000 sats (il n'y a pas de raison logique d'utiliser 2 UTXOs pour payer 6 000 sats alors qu'un UTXO seul aurait pu satisfaire ce paiement).
+
+05
+
+Mais en réalité, cette analyse est erronée. Le montant du paiement ne correspond à aucun des outputs. Il est en fait la différence entre l'UTXO du destinataire en output et l'UTXO du destinataire en input. 
+
+06
+
+En ça, la transaction Payjoin rentre dans le domaine de la stéganographie. Elle permet de cacher le montant réel d’une transaction au sein d’une fausse transaction qui agit comme un leurre.
+
+La stéganographie est une technique de dissimulation d'informations au sein d'autres données ou objets, de manière à ce que la présence de l'information cachée ne soit pas perceptible. Par exemple, un message secret peut être dissimulé à l'intérieur d'un point dans un texte qui n'a rien à voir, le rendant indétectable à l'œil nu (c'est la technique du [micropoint](https://fr.wikipedia.org/wiki/Micropoint)).
+
+Contrairement au chiffrement, qui rend les informations incompréhensibles sans la clé de déchiffrement, la stéganographie ne modifie pas l'information. Elle reste affichée en clair. Son objectif est plutôt de cacher l'existence même du message secret, alors que le chiffrement révèle clairement la présence d'informations cachées, bien qu'inaccessibles sans la clé. C'est pour cette raison que le nom initial du payjoin était "*steganographic transactions*". 
+
+On pourrait d'ailleurs établir une analogie entre la cryptographie et le coinjoin, ainsi qu'entre la stéganographie et le payjoin. En effet, le coinjoin possède des attributs similaires à ceux du chiffrement : la méthode est reconnaissable, mais l'information est indéchiffrable. À l'inverse, le payjoin s'apparente à la stéganographie : l'information est théoriquement accessible, mais puisque sa méthode de dissimulation n'est pas reconnaissable, elle en devient inaccessible.
+
+### Comment utiliser le payjoin ?
+
+Parmi les logiciels connus qui prennent en charge le payjoin, il y a Sparrow Wallet, Wasabi Wallet, Mutiny, BitMask, BlueWallet et JoinMarket.
+
+L'implémentation de payjoin la plus avancée était seulement les Stowaway sur Samourai Wallet. Cependant, depuis l'arrestation des fondateurs du logiciel, cet outil ne fonctionne plus que partiellement. L'avantage de Stowaway est que c'est un protocole complet et très simple d'utilisation, qui prend en charge à la fois les réceptions et les envois de payjoins. Les transactions partiellement signées peuvent être échangées manuellement via le scan de plusieurs QR codes ou automatiquement par Tor via Soroban. C'est cette dernière option de communication qui est actuellement hors service.
+
+La difficulté d'utilisation du payjoin réside dans sa dépendance vis-à-vis de la participation du commerçant. En tant que client, l'utilisation d'un payjoin est impossible si le commerçant ne le prend pas en charge. Cela ajoute une difficulté supplémentaire lors d'un achat : non seulement il est compliqué de trouver des commerçants acceptant le bitcoin, mais si l'on cherche en plus ceux qui supportent les payjoins, cela devient encore plus compliqué.
+
+Une solution serait d'utiliser des structures transactionnelles qui introduisent de l'ambiguïté dans l'analyse de la chaîne sans nécessiter la coopération du destinataire. Cela nous permettrait d'améliorer la confidentialité de nos paiements sans dépendre de la participation active des commerçants. C'est justement ce que nous allons étudier dans le prochain chapitre.
 
 ## Les transactions spécifiques Samourai
 <chapterId>300777ee-30ae-43d7-ab00-479dac3522c1</chapterId>
 
 
-Ce chapitre est en cours de rédaction, et sera publié très prochainement !
+
 
 
 ## Les ricochets
 <chapterId>db9a20ac-a149-443d-884b-ea6c03f28499</chapterId>
 
 
+
 ## Les transferts secret de propriété
 <chapterId>a2067036-849c-4d6b-87d2-44235cfae7a1</chapterId>
 
-Ce chapitre est en cours de rédaction, et sera publié très prochainement !
+
 ### Le Coin Swap
 
 ### L'Atomic Swap
@@ -2330,15 +2403,32 @@ Ce chapitre est en cours de rédaction, et sera publié très prochainement !
 ### L'échange pair-à-pair
 
 
+
+
+
+
+
+
+
+
+
+
 ## La confidentialité sur le réseau P2P
 <chapterId>04a2467b-db84-4076-a9ff-919be5135106</chapterId>
 
-Ce chapitre est en cours de rédaction, et sera publié très prochainement !
+
+
 ### P2P transport V2
 
 ### TOR
 
 ### Dandelion
+
+
+
+
+
+
 
 
 

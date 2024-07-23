@@ -2500,7 +2500,7 @@ Dans le prochain chapitre, nous allons étudier une autre technique de confident
 
 L'utilisation de structures de transactions Bitcoin qui ajoutent de l'ambiguïté dans l'analyse de chaîne, telles que le coinjoin, est particulièrement bénéfique pour la protection de la vie privée. Cependant, comme nous l'avons évoqué dans le chapitre sur les payjoins, les transactions coinjoins sont naturellement identifiables sur la chaîne. Rappelez-vous l'analogie que nous avions établie entre le chiffrement et les coinjoins : lorsqu'on chiffre un fichier, une tierce personne qui découvre ce fichier chiffré ne peut pas accéder à son contenu, mais elle peut clairement identifier qu'il y a eu une modification du fichier pour en cacher son contenu. Il en va de même pour le coinjoin : lorsqu'un analyste examine une transaction coinjoin, bien qu'il ne puisse pas établir de liens directs entre les inputs et les outputs (et inversement), il peut néanmoins reconnaître que la transaction observée est un coinjoin.
 
-Selon l'usage que vous envisagez pour votre pièce après des cycles de coinjoins, le fait qu'elle ait subi ce processus peut être problématique. Par exemple, si vous prévoyez de vendre votre pièce sur une plateforme d'échange régulée, mais qu'elle a récemment subit un coinjoin, l'outil d'analyse de chaîne de la plateforme détectera ce fait. La plateforme pourrait alors refuser d'accepter votre UTXO ayant subi un coinjoin, ou même exiger des explications de votre part, avec le risque de voir votre compte suspendu ou vos fonds gelés. Dans certains cas, la plateforme peut également signaler votre comportement aux autorités étatiques (c'est par exemple ce que demande TRACFIN aux PSAN en France).
+Selon l'usage que vous envisagez pour votre pièce après des cycles de coinjoins, le fait qu'elle ait subi ce processus peut être problématique. Par exemple, si vous prévoyez de vendre votre pièce sur une plateforme d'échange régulée, mais qu'elle a récemment subi un coinjoin, l'outil d'analyse de chaîne de la plateforme détectera ce fait. La plateforme pourrait alors refuser d'accepter votre UTXO ayant subi un coinjoin, ou même exiger des explications de votre part, avec le risque de voir votre compte suspendu ou vos fonds gelés. Dans certains cas, la plateforme peut également signaler votre comportement aux autorités étatiques (c'est, par exemple, ce que demande TRACFIN aux PSAN en France).
 
 01
 
@@ -2512,7 +2512,7 @@ Ce dont nous aurions besoin pour éviter cela est un outil capable d'estomper le
 
 Le ricochet est une technique consistant à réaliser plusieurs transactions fictives vers soi-même (balayage) pour simuler un transfert de propriété des bitcoins. Cet outil est différent des autres structures de transaction dont nous avons parlé, car il ne permet pas de gagner de l'anonymat prospectif, mais plutôt une forme d'anonymat rétrospectif. En effet, ricochet permet d'estomper les spécificités pouvant compromettre la fongibilité d'une pièce Bitcoin à cause de son passé.
 
-Pour estomper l'empreinte laissée par un évènement passé sur une pièce, comme des cycles de coinjoins par exemple, ricochet exécute quatre transactions successives où l'utilisateur transfère ses fonds à lui-même sur des adresses différentes. 
+Pour estomper l'empreinte laissée par un évènement passé sur une pièce, comme des cycles de coinjoins, par exemple, ricochet exécute quatre transactions successives où l'utilisateur transfère ses fonds à lui-même sur des adresses différentes. 
 
 03
 
@@ -2536,7 +2536,7 @@ Le phénomène qui s'observe ici est un peu analogue à la théorie des six degr
 
 La théorie des six degrés de séparation suggère que toute personne sur Terre est connectée à n'importe quelle autre par une chaîne de relations comprenant au plus six intermédiaires. Il suffirait donc de passer par une série de six personnes, chacune connaissant personnellement la suivante, pour atteindre n'importe quel individu dans le monde.
 
-Pour les transactions Bitcoin, on retrouve un phénomène similaire. En remontant un nombre suffisant de transactions Bitcoin, on fini inévitablement par tomber sur un coinjoin. La méthode du ricochet tire parti de ce principe en utilisant un nombre de sauts supérieur à celui que les plateformes d'échange peuvent raisonnablement suivre. Si les plateformes décident de suivre plus de transactions, il est alors possible d'ajouter simplement un saut supplémentaire pour contourner cette mesure.
+Pour les transactions Bitcoin, on retrouve un phénomène similaire. En remontant un nombre suffisant de transactions Bitcoin, on finit inévitablement par tomber sur un coinjoin. La méthode du ricochet tire parti de ce principe en utilisant un nombre de sauts supérieur à celui que les plateformes d'échange peuvent raisonnablement suivre. Si les plateformes décident de suivre plus de transactions, il est alors possible d'ajouter simplement un saut supplémentaire pour contourner cette mesure.
 
 ### Quand et comment utiliser ricochet ?
 

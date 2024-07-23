@@ -2502,11 +2502,11 @@ L'utilisation de structures de transactions Bitcoin qui ajoutent de l'ambiguït�
 
 Selon l'usage que vous envisagez pour votre pièce après des cycles de coinjoins, le fait qu'elle ait subi ce processus peut être problématique. Par exemple, si vous prévoyez de vendre votre pièce sur une plateforme d'échange régulée, mais qu'elle a récemment subi un coinjoin, l'outil d'analyse de chaîne de la plateforme détectera ce fait. La plateforme pourrait alors refuser d'accepter votre UTXO ayant subi un coinjoin, ou même exiger des explications de votre part, avec le risque de voir votre compte suspendu ou vos fonds gelés. Dans certains cas, la plateforme peut également signaler votre comportement aux autorités étatiques (c'est, par exemple, ce que demande TRACFIN aux PSAN en France).
 
-01
+![BTC204](assets/notext/63/01.webp)
 
 Ce dont nous aurions besoin pour éviter cela est un outil capable d'estomper les traces du passé d'une pièce Bitcoin, afin de lui restituer une certaine forme de fongibilité. C'est précisément l'objectif de ricochet.
 
-02
+![BTC204](assets/notext/63/02.webp)
 
 ### C'est quoi un ricochet ?
 
@@ -2514,21 +2514,21 @@ Le ricochet est une technique consistant à réaliser plusieurs transactions fic
 
 Pour estomper l'empreinte laissée par un évènement passé sur une pièce, comme des cycles de coinjoins, par exemple, ricochet exécute quatre transactions successives où l'utilisateur transfère ses fonds à lui-même sur des adresses différentes. 
 
-03
+![BTC204](assets/fr/63/03.webp)
 
 Après cet enchaînement de transactions, l'outil ricochet achemine finalement les bitcoins vers leur destination finale, comme par exemple une plateforme d'échange. 
 
-04
+![BTC204](assets/fr/63/04.webp)
 
 L'objectif est de créer de la distance affectant la fongibilité de la pièce, tel qu'une transaction coinjoin, et l'acte final de dépense qui pourrait rejeter cette pièce en raison de son passé. Ainsi, les outils d'analyse de chaîne pourraient conclure qu'il y a probablement eu un changement de propriétaire après l'événement, et considérer que cette pièce est fongible. Dans le cas d'un coinjoin, les outils d'analyse de chaîne pourraient alors supposer que ce n'est pas la même personne qui a envoyé les bitcoins et réalisé le coinjoin, et qu'il est donc inutile d'entamer des actions à l'encontre de l'envoyeur.
 
-05
+![BTC204](assets/notext/63/05.webp)
 
 ### Pourquoi cela fonctionne ?
 
 Face à cette méthode du ricochet, on pourrait imaginer que les logiciels d'analyse de chaîne approfondissent leur examen au-delà de quatre rebonds. Toutefois, ces plateformes se heurtent à un dilemme dans l'optimisation du seuil de détection. Elles doivent établir un nombre limite de sauts après lequel elles admettent qu'un changement de propriété a vraisemblablement eu lieu et que le lien avec un événement antérieur (comme un coinjoin) doit être ignoré.
 
-06
+![BTC204](assets/fr/63/06.webp)
 
 Cependant, la détermination de ce seuil s'avère risquée : chaque extension du nombre de sauts observés accroît de façon exponentielle le volume de faux positifs, c'est-à-dire des individus erronément marqués comme participants à un événement, alors que l'opération a été réalisée par autrui. Ce scénario pose un risque majeur pour ces entreprises, car les faux positifs entraînent de l'insatisfaction, ce qui peut pousser les clients affectés vers la concurrence. À long terme, un seuil de détection trop large conduit une plateforme à perdre davantage de clients que ses concurrents, ce qui pourrait menacer sa viabilité. Il est donc compliqué pour ces plateformes d'augmenter le nombre de rebonds observés, et 4 est souvent un nombre suffisant pour contrer leurs analyses.
 
@@ -2546,16 +2546,16 @@ Cette méthode est efficace non seulement pour les coinjoins, mais aussi pour to
 
 L'idée de cette méthode du ricochet provient initialement des équipes de Samourai Wallet qui l'ont intégré dans leur application pour automatiser le processus. Le service est payant sur Samourai, puisqu'un ricochet implique un coût de 100 000 sats pour les frais de service, auxquels s'ajoutent les frais de minage. Ainsi, son utilisation est plutôt recommandée pour des transferts de montants significatifs.
 
-07
+![BTC204](assets/notext/63/07.webp)
 
 L'application Samourai propose deux variantes de ricochet :
 - Le ricochet renforcé, ou "livraison échelonnée", qui offre l'avantage de répartir les frais de service Samourai sur les cinq transactions successives. Cette option assure également que chaque transaction soit diffusée à un moment distinct et inscrite dans un bloc différent, ce qui permet d'imiter le plus fidèlement possible le comportement d'un changement de propriétaire. Bien que plus lente, cette méthode est préférable pour ceux qui ne sont pas pressés, car elle maximise l'efficacité du ricochet en renforçant sa résistance face à l'analyse de chaîne ;
 
-08
+![BTC204](assets/notext/63/08.webp)
 
 - Le ricochet classique, qui est conçu pour exécuter l'opération avec rapidité en diffusant toutes les transactions dans un intervalle de temps réduit. Cette méthode, offre donc moins de confidentialité et une résistance aux analyses inférieures à celle de la méthode renforcée. Elle est à privilégier seulement pour des envois urgents.
 
-09
+![BTC204](assets/notext/63/09.webp)
 
 Le ricochet consiste simplement à s'envoyer des bitcoins à soi-même. Il est donc tout à fait possible de faire un ricochet manuellement sur n'importe quel logiciel de portefeuille, sans utiliser un outil spécialisé. Il suffit de transférer successivement la même pièce à soi-même, en utilisant à chaque fois une nouvelle adresse vierge.
 

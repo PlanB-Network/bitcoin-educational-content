@@ -41,7 +41,7 @@ Mais le but de ce cours n'est pas seulement d'éclairer le passé de la liberté
 
 Depuis ses origines, elle est double :
 
-- Premièrement elle est de donner un sens à des concepts flous et confus. Qu’est-ce que le bien, le vrai, le juste, le beau ? Autant l’histoire a pour fonction d’éclairer le passé, autant la philosophie est l’art de définir correctement les concepts. C’est pourquoi il nous faut commencer dans ce
+- Premièrement, elle est de donner un sens à des concepts flous et confus. Qu’est-ce que le bien, le vrai, le juste, le beau ? Autant l’histoire a pour fonction d’éclairer le passé, autant la philosophie est l’art de définir correctement les concepts. C’est pourquoi il nous faut commencer dans ce
   cours par comprendre ce qu’est la liberté.
 
 ![image](assets\1\img-027.webp)
@@ -50,7 +50,7 @@ La liberté est un concept qui recouvre une multitude de variantes qui sont auta
 
 La liberté peut se définir simplement comme le pouvoir du choix avec ce qui est à soi. C’est une liberté inhérente à l’être humain. En ce sens c’est une réalité par essence individuelle. Seul l’individu peut penser et agir, c’est-à-dire faire des choix. Cela ne signifie pas que l’individu est seul, qu’il ne doit rien aux autres. Au contraire, il vit en société et doit coopérer avec les autres pour son propre bien. Mais chacun reste libre de coopérer ou non et doit assumer la responsabilité de ses choix.
 
-La notion de responsabilité est corollaire de la liberté car tout choix a des conséquences. Est responsable celui qui assume les coûts de ses propres choix et ne fait pas reposer ce coût sur les autres. En d’autre termes, la liberté est exigeante. C’est une notion morale qui implique des droits mais aussi des devoir envers les autres, dont celui de respecter leur liberté.
+La notion de responsabilité est corollaire de la liberté car tout choix a des conséquences. Est responsable celui qui assume les coûts de ses propres choix et ne fait pas reposer ce coût sur les autres. En d’autre termes, la liberté est exigeante. C’est une notion morale qui implique des droits mais aussi des devoirs envers les autres, dont celui de respecter leur liberté.
 
 - Deuxièmement, la philosophie est normative, à la différence de l’histoire qui est seulement descriptive. Ainsi la philosophie politique se distingue des sciences politiques. La philosophie politique est normative, cela signifie qu’elle prescrit des valeurs et juge les actions humaines à l’aune d’un critère de la justice. De leur côté, les sciences politiques se contentent de décrire les régimes, de faire l’histoire des institutions, sans porter de jugement de valeur.
 
@@ -94,7 +94,7 @@ Mais la réalité du pouvoir est tout autre selon Bastiat. Le pouvoir c’est l�
 
 > « Ouvrez donc au hasard les annales de l’humanité ! Consultez l’histoire ancienne ou moderne, sacrée ou profane, demandez-vous d’où sont venues toutes ces guerres de races, de classes, de nations, de familles ! Vous obtiendrez toujours cette réponse invariable : De la soif du pouvoir. » ([_Incompatibilités parlementaires_](http://bastiat.org/fr/incompatibilites_parlementaires.html))
 
-C’est la soif du pouvoir qui est à l’origine de toutes les formes d’oppression dans l’histoire. Dans une lettre à Mme Cheuvreux, datée du 23 juin 1850, Bastiat indique quelles sont les phases de l’oppression : « Les temps de luttes, à qui s’emparera de l’État ; et les temps de trêve qui seront le règne éphémère d’une oppression triomphante, présage d’une lutte nouvelle. » D’abord la conquête du pouvoir par la guerre, puis l’établissement d’un État qui subsiste par le pillage des richesses de ses citoyens.
+C’est la soif du pouvoir qui est à l’origine de toutes les formes d’oppression dans l’histoire. Dans une lettre à Mme Chevreux, datée du 23 juin 1850, Bastiat indique quelles sont les phases de l’oppression : « Les temps de luttes, à qui s’emparera de l’État ; et les temps de trêve qui seront le règne éphémère d’une oppression triomphante, présage d’une lutte nouvelle. » D’abord la conquête du pouvoir par la guerre, puis l’établissement d’un État qui subsiste par le pillage des richesses de ses citoyens.
 
 L’histoire est donc une lutte entre deux principes : la liberté et l’oppression : « Liberté ! voilà, en définitive, le principe harmonique. Oppression ! voilà le principe dissonant ; la lutte de ces deux puissances remplit les annales du genre humain. » ([_Harmonies économiques_](http://bastiat.org/fr/conclusion_eo_harmonies.html), conclusion de l’édition originale).
 
@@ -157,7 +157,7 @@ Cet auteur est surtout connu pour sa maxime : « Le pouvoir tend à corrompre et
 
 Pour Acton, le conflit entre la liberté et le pouvoir est le fil rouge de l'histoire humaine et la liberté est le moteur du progrès et de l'évolution des sociétés. Acton a voulu comprendre les facteurs qui ont contribué à l'essor de la liberté en Occident. Son objectif était de cerner les conditions nécessaires à sa préservation et à son développement. Il a étudié les idées philosophiques, les structures sociales et les contextes politiques qui ont favorisé son émergence au cours du temps.
 
-Sa thèse centrale est que « la liberté est établie par le conflit des pouvoirs ». Selon Acton, pendant des siècles après la chute de l'Empire romain d'Occident, l'Église catholique était la seule force capable de contester l'autorité des seigneurs féodaux, des monarques et des empereurs. Cette lutte de pouvoir entre l'Église et l'État s'avéra cruciale pour l'essor de la liberté. L’Europe disposait d’un Dieu fort et d’un pouvoir faible, du fait de la querelle permanente, au Moyen Âge, entre les papes et les rois. Au contraire la Chine connaissait une divinité faible et un pouvoir bureaucratique fort.
+Sa thèse centrale est que « la liberté est établie par le conflit des pouvoirs ». Selon Acton, pendant des siècles après la chute de l'Empire romain d'Occident, l'Église catholique était la seule force capable de contester l'autorité des seigneurs féodaux, des monarques et des empereurs. Cette lutte de pouvoir entre l'Église et l'État s'avéra cruciale pour l'essor de la liberté. L’Europe disposait d’un Dieu fort et d’un pouvoir faible, du fait de la querelle permanente, au Moyen Âge, entre les papes et les rois. Au contraire, la Chine connaissait une divinité faible et un pouvoir bureaucratique fort.
 
 > Par liberté j'entends l'assurance que tout homme sera protégé, lorsqu'il accomplit ce qu'il croit être son devoir, contre l'influence de l'autorité et des majorités, de la coutume et de l'opinion. L'État n'est compétent pour fixer des devoirs et pour distinguer entre le bien et le mal que dans sa propre sphère immédiate. »
 >
@@ -224,7 +224,7 @@ Avec l'avènement de l'industrialisation, de nouvelles opportunités ont émerg�
 
 Ce nouvel accès au revenu leur a permis de se nourrir et de se loger, même dans les villes en pleine expansion. C'est ainsi que la Révolution industrielle a favorisé une explosion démographique qui n'aurait pas été possible dans les conditions de stagnation économique de l'époque préindustrielle.
 
-C’est ainsi, remarque Hayek, que « la souffrance économique devint à la fois plus visible et sembla moins justifiée, parce que la richesse générale étaient en train d’augmenter plus vite que jamais auparavant. »
+C’est ainsi, remarque Hayek, que « la souffrance économique devint à la fois plus visible et sembla moins justifiée, parce que la richesse générale était en train d’augmenter plus vite que jamais auparavant. »
 
 Par conséquent l’ouvrier n’était pas exploité, même si les salaires étaient bas, du fait de l’abondance de la main d’œuvre, fuyant les campagnes.
 
@@ -244,7 +244,7 @@ Comme le dit Jean Baechler, membre de l’Académie des sciences morales et poli
 
 Autrement, dit, le grand « non-événement » qui a dominé le destin de l'Europe fut l'absence d'un empire hégémonique, comme celui qui a dominé la Chine.
 
-C'est cette Europe radicalement décentralisée qui a produit les parlements, les diètes et les États-Généraux. Elle a engendré les chartes comme la célèbre Magna Carta des Anglais, mais elle a aussi produit les villes libres d'Italie du Nord et des Flandres : Venise, Florence, Gênes Amsterdam, Gand et Bruges. Enfin elle a développé le concept de droit naturel, ainsi que le principe selon lequel même le Prince n'est pas au-dessus de la loi, une doctrine enracinée dans les universités médiévale de Bologne, d'Oxford et de Paris, jusqu’à Vienne et Cracovie.
+C'est cette Europe radicalement décentralisée qui a produit les parlements, les diètes et les États-Généraux. Elle a engendré les chartes comme la célèbre Magna Carta des Anglais, mais elle a aussi produit les villes libres d'Italie du Nord et des Flandres : Venise, Florence, Gênes Amsterdam, Gand et Bruges. Enfin elle a développé le concept de droit naturel, ainsi que le principe selon lequel même le Prince n'est pas au-dessus de la loi, une doctrine enracinée dans les universités médiévales de Bologne, d'Oxford et de Paris, jusqu’à Vienne et Cracovie.
 
 En conclusion de ce chapitre, l’Europe ne doit pas son décollage économique et culturel à la conquête et à l’exploitation du reste du monde. Elle a dominé le monde grâce à ses progrès économiques. Ce que l’on a appelé l’« impérialisme » est la conséquence et non la cause du progrès économique de l’Europe. Mais pour revenir à Lord Acton, ce qui distingue plus encore la civilisation occidentale de toutes les autres, c'est son affirmation de la valeur de l'individu. En ce sens, la liberté de conscience, notamment en matière religieuse a constitué un pilier fondamental de cette civilisation. Nous y reviendrons dans la section suivante.
 
@@ -353,7 +353,7 @@ Pour Aristote, la tyrannie c’est l’obéissance à un homme et la liberté c�
 
 Cicéron, célèbre orateur et philosophe romain du 1er siècle avant J.-C., a repris cette idée : « Nous sommes esclaves des lois pour pouvoir être libres » (_De Republica_, Livre III, chapitre 13). Dans ce passage, Cicéron développe un argumentaire en faveur d'une république gouvernée par les lois, plutôt que par un homme ou un petit groupe d'hommes.
 
-L’idée de république est une idée qui vient de la philosophie grecque. Elle a même souvent été opposée à la démocratie, jugée trop risquée. Platon intitule son livre principal de philosophie politique : _La République_ et il juge très sévèrement la démocratie. Quand le peuple gouverne, il risque fort d’imposer la loi de ses désirs et de confondre le bien avec l’agréable. D’où la mort tragique de Socrate, condamné à mort par un jury populaire, manipulé par les sophistes. Platon en a tiré toutes les leçons.
+L’idée de république est une idée qui vient de la philosophie grecque. Elle a même souvent été opposée à la démocratie, jugée trop risquée. Platon a intitulé son livre principal de philosophie politique : _La République_ et il juge très sévèrement la démocratie. Quand le peuple gouverne, il risque fort d’imposer la loi de ses désirs et de confondre le bien avec l’agréable. D’où la mort tragique de Socrate, condamné à mort par un jury populaire, manipulé par les sophistes. Platon en a tiré toutes les leçons.
 
 ![image](assets\2\img-111.webp)
 
@@ -441,7 +441,7 @@ En résumé, elle contribue à sécuriser les transactions et à protéger les i
 
 Ce que l’on est dépend de ce que l’on a. L’être n’est pas si indépendant de l’avoir qu’on le dit parfois car ce qu’on possède nous distingue de ce que possède autrui. Et notre vie nous appartient, nous possédons d’abord nos facultés, notre corps avant de posséder des biens matériels.
 
-Dans la société romaine, chacun peut se différencier de plus en plus d’autrui et devenir ainsi acteur de sa propre vie. L’homme joue désormais un rôle singulier et Cicéron utilise le mot de « persona » pour le désigner. La "persona" était un masque porté par les acteurs romains, mais elle désignait également la personnalité juridique et sociale d'un individu. La notion de persona impliquait que les individus étaient des entités distinctes avec leurs propres droits et responsabilités. La notion de personne humaine individuelle (l’ego) avec sa vie intérieure et son destin singulier était née, elle sera développée avec le christianisme.
+Dans la société romaine, chacun peut se différencier de plus en plus d’autrui et devenir ainsi acteur de sa propre vie. L’homme joue désormais un rôle singulier et Cicéron utilise le mot de « persona » pour le désigner. La "persona" était un masque porté par les acteurs romains, mais elle désignait également la personnalité juridique et sociale d'un individu. La notion de persona impliquait que les individus étaient des entités distinctes avec leurs propres droits et responsabilités. La notion de personne humaine individuelle (l’ego) avec sa vie intérieure et son destin singulier est née, elle se développera avec le christianisme.
 
 De plus, la littérature et la philosophie romaines contiennent de nombreux exemples de réflexions sur la nature de l'individu, le bonheur, la sagesse et la vie en société.
 
@@ -449,7 +449,7 @@ De plus, la littérature et la philosophie romaines contiennent de nombreux exem
 
 Un modèle d’équilibre dans la pensée est Sénèque, philosophe stoïcien romain qui a écrit sur l'importance de la vertu, de la raison et du contrôle de soi. Contemporain de Jésus, il fut à la fois précepteur de Néron, riche banquier et célèbre écrivain romain.
 
-Le Traité de la Vie Heureuse (_De Vita Beata_) est un plaidoyer pour la morale stoïcienne. Le bonheur dit Sénèque, « c'est une âme libre \[...\] inaccessible à la crainte \[...\] pour qui le mal unique est l'indignité morale ». Disciple de Socrate, le sage stoïcien ne craint pas le mal physique, la mort ou même le fait de subir l’injustice. Pour lui, le seul mal, c’est le mal moral. Par conséquent le souverain bien réside dans la vertu.
+Le Traité de la Vie Heureuse (_De Vita Beata_) est un plaidoyer pour la morale stoïcienne. Le bonheur, dit Sénèque, « c'est une âme libre \[...\] inaccessible à la crainte \[...\] pour qui le mal unique est l'indignité morale ». Disciple de Socrate, le sage stoïcien ne craint pas le mal physique, la mort ou même le fait de subir l’injustice. Pour lui, le seul mal, c’est le mal moral. Par conséquent le souverain bien réside dans la vertu.
 
 ![image](assets\2\img-011.webp)
 
@@ -459,7 +459,7 @@ Pour autant, le plaisir n’est pas incompatible avec la vertu :
 
 C’est pourquoi, le sage ne rejette pas les dons de la fortune :
 
-> « il n'aime pas les richesses, il les préfère ; il ne les accueille pas dans son cœur, mais dans sa maison ; il ne rejette pas celle qu'il possède, il les domine et veut qu'elles fournissent à sa vertu une plus ample matière. »
+> « Il n'aime pas les richesses, il les préfère ; il ne les accueille pas dans son cœur, mais dans sa maison ; il ne rejette pas celle qu'il possède, il les domine et veut qu'elles fournissent à sa vertu une plus ample matière. »
 
 Sénèque va plus loin encore. Les richesses sont pour le sage l’occasion et le moyen d’exercer la vertu :
 
@@ -473,7 +473,7 @@ Cette idée rappelle que le Prince (tout comme les chefs politiques) ne dispose 
 
 C’est ce que les philosophes de l’Antiquité et particulièrement les romains comme Cicéron ou les stoïciens ont appelé le droit naturel. On en trouve les origines dans la pensée grecque, chez Sophocle et Aristote.
 
-Aristote distingue une justice naturelle et une justice légale. La justice naturelle est ce qui est universellement valide, en tout lieu et en tout temps. C’est une loi non écrite, connue par la raison. La justice légale est ce qui est en soi indifférent mais qui s’impose à tous par suite d’un choix conventionnel et qui est écrit dans un texte juridique. Autrement dit on distingue un droit naturel et une droit positif.
+Aristote distingue une justice naturelle et une justice légale. La justice naturelle est ce qui est universellement valide, en tout lieu et en tout temps. C’est une loi non écrite, connue par la raison. La justice légale est ce qui est en soi indifférent mais qui s’impose à tous par suite d’un choix conventionnel et qui est écrit dans un texte juridique. Autrement dit, on distingue un droit naturel et un droit positif.
 
 Le dramaturge Sophocle, dans sa pièce _Antigone_, met en scène un conflit entre la loi divine et la loi humaine. Antigone refuse d'obéir au décret du roi Créon qui interdit l'inhumation de son frère, arguant que les lois divines, immuables et supérieures, priment sur les lois humaines.
 
@@ -483,7 +483,7 @@ Quand Antigone désobéit à Créon, elle s’oppose au droit positif pour obéi
 
 ### Cicéron et le droit naturel
 
-Cicéron a vécu au 1<sup>er</sup> siècle avant Jésus-Christ et il est considéré, comme le plus grand orateur de langue latine sous l’empire romain. C’est aussi un philosophie moral et politique proche des stoïciens. Ses essais ont été lus par les européens instruits durant de nombreux siècles.
+Cicéron a vécu au 1<sup>er</sup> siècle avant Jésus-Christ et il est considéré comme le plus grand orateur de langue latine sous l’empire romain. C’est aussi un philosophe moral et politique proche des stoïciens. Ses essais ont été lus par les européens instruits durant de nombreux siècles.
 
 ![image](assets\2\img-004.webp)
 
@@ -495,13 +495,13 @@ Cicéron rejette aussi l’utilité comme fondement du droit. En effet écrit-il
 
 Il existe donc selon lui une justice universelle, inscrite dans la raison et la nature. Cicéron écrit dans le _De Republica_ :
 
-> « La loi vraie est la droite raison en accord avec la nature ; elle est d’application universelle, invariable et éternelle ; elle invite au devoir par ses commandements et détourne du mauvais chemin par ses interdictions \[…\]. Ni le Sénat ni le peuple n’ont le pouvoir de nous dispenser de lui obéir \[…\]. Elle n’est point autre à Athènes et autre à Rome, point autre aujourd’hui et autre demain. Mais c’est une seule et même loi, éternelle, immuable, qui est en vigueur en tous temps et chez tous les peuples \[…\]. Quiconque n’obéit pas à cette loi se fuit lui-même et méprise sa propre nature d’homme. »
+> « La loi vraie est la droite raison en accord avec la nature ; elle est d’application universelle, invariable et éternelle ; elle invite au devoir par ses commandements et détourne du mauvais chemin par ses interdictions \[…\]. Ni le Sénat ni le peuple n’ont le pouvoir de nous dispenser de lui obéir \[…\]. Elle n’est point autre à Athènes et autre à Rome, point autre aujourd’hui et autre demain. Mais c’est une seule et même loi, éternelle, immuable, qui est en vigueur en tout temps et chez tous les peuples \[…\]. Quiconque n’obéit pas à cette loi se fuit lui-même et méprise sa propre nature d’homme. »
 
 Cette loi est supérieure aux législations en vigueur, dès lors, « on ne peut ni l’infirmer par d’autres lois, ni déroger à quelques-uns de ses préceptes, ni l’abroger tout entière », ajoute Cicéron. Le pouvoir politique n'a aucune prise sur elle.
 
 Ni la vérité ni la justice ne se décrètent, fut-ce à la majorité, car sinon elles deviennent l’enjeu de toutes les manipulations. Donc même si le dirigeant est le peuple, il n’est pas en droit de transgresser les principes de la loi naturelle.
 
-En affirmant que le droit ne peut se réduire aux seules lois édictées par le législateur Cicéron a voulu lutter contre l’arbitraire législatif et proposer une morale politique. Cette idée a eu une influence durable sur la pensée occidentale.
+En affirmant que le droit ne peut se réduire aux seules lois édictées par le législateur, Cicéron a voulu lutter contre l’arbitraire législatif et proposer une morale politique. Cette idée a eu une influence durable sur la pensée occidentale.
 
 ## La chute de Rome
 <chapterId>1b0f3de8-696a-5dbc-bb5e-e03ddafb4ebf</chapterId>
@@ -564,7 +564,7 @@ La thèse du livre de Philippe Fabry est que « la chute de l’Empire romain es
 
 La République romaine, qui fut la plus grande puissance libérale du monde antique, a duré de 510 avant J.-C. à 23 avant J.-C., soit près de 500 ans. Mais progressivement, la collégialité civique qui caractérisait la République romaine a disparu au profit d’un pouvoir personnel incarné par des empereurs qui adoptèrent le style de gouvernement des potentats orientaux de l'Égypte et de la Perse antique.
 
-Rompant avec une politique extérieure jusque là modérée, Rome soumis soudainement par la guerre des populations immenses qui fournirent des flots d’esclaves aux riches investisseurs romains, ruinant les classes moyennes. La population romaine exigea en retour de plus en plus de subventions.
+Rompant avec une politique extérieure jusque-là modérée, Rome soumis soudainement par la guerre des populations immenses qui fournirent des flots d’esclaves aux riches investisseurs romains, ruinant les classes moyennes. La population romaine exigea en retour de plus en plus de subventions.
 
 Aux premiers temps de sa grandeur, chaque Romain se considérait lui-même comme la principale source de ses revenus. Ce qu’il pouvait acquérir volontairement sur ​​le marché, était la source de son gagne-pain. Le déclin de Rome a commencé quand un grand nombre de citoyens ont découvert une autre source de revenus : le processus politique ou l'État redistributif.
 
@@ -592,7 +592,7 @@ L’idée chrétienne de la liberté s’est développée dans la théologie mé
 
 D'emblée, le christianisme enseigne que le péché est une affaire personnelle, qu'il n'est pas inhérent au groupe, mais que chaque individu doit avoir la responsabilité de son propre salut. « Dieu a conféré à sa créature, avec le libre arbitre, la capacité de mal agir, et par-là même, la responsabilité du péché » affirme Saint Augustin dans son traité sur le libre arbitre _De Libero Arbitrio_.
 
-Pas de péché sans liberté. Certes, le Dieu chrétien est un juge qui récompense la « vertu » et punit le « péché ». Mais cette conception de Dieu est justement incompatible avec le fatalisme car l’homme ne pourrait pas être coupable et faire son mea culpa s’il n’était pas d’abord libre de déterminer lui-même son comportement. Reconnaitre sa faute morale, sa culpabilité, c’est reconnaître qu’on aurait pu agir autrement.
+Pas de péché sans liberté. Certes, le Dieu chrétien est un juge qui récompense la « vertu » et punit le « péché ». Mais cette conception de Dieu est justement incompatible avec le fatalisme car l’homme ne pourrait pas être coupable et faire son mea culpa s’il n’était pas d’abord libre de déterminer lui-même son comportement. Reconnaître sa faute morale, sa culpabilité, c’est reconnaître qu’on aurait pu agir autrement.
 
 > « D’où vient que nous agissons mal ? demande Saint Augustin. Si je ne me trompe, l’argumentation a montré que nous agissons ainsi par le libre arbitre de la volonté. Mais ce libre arbitre auquel nous devons notre faculté de pécher, nous en sommes convaincus, je me demande si celui qui nous a créés a bien fait de nous le donner. Il semble, en effet, que nous n’aurions pas été exposés à pécher si nous en avions été privés ; mais il est à craindre que, de cette façon, Dieu aussi passe pour l’auteur de nos mauvaises actions » (_De libero arbitrio_, I, 16, 35.)
 
@@ -600,7 +600,7 @@ Si Dieu a voulu que l’homme puisse agir mal, n’est-il pas alors indirectemen
 
 La réponse de S. Augustin au problème consiste à dire que Dieu est responsable de la possibilité du mal mais non de sa réalisation. Il veut la possibilité du mal car cette possibilité est nécessaire à la liberté sans laquelle il n’y a pas de responsabilité c’est-à-dire d’accès à la dignité de la vie morale.
 
-Mais la réalisation du mal moral est bien est l’œuvre de l’homme, qui fait un mauvais usage de sa liberté et non de Dieu qui veut que l’homme choisisse le bien.
+Mais la réalisation du mal moral est l’œuvre de l’homme, qui fait un mauvais usage de sa liberté et non de Dieu qui veut que l’homme choisisse le bien.
 
 En résumé, la liberté est un bien car elle permet de s’ordonner au bien et à Dieu qui est le bien absolu mais elle implique nécessairement et simultanément la possibilité de choisir le mal et de rejeter Dieu.
 
@@ -626,7 +626,7 @@ Pour que l’homme fasse le meilleur usage possible de sa liberté, Dieu lui don
 
 La loi naturelle s’exprime en nous par des inclinations telles que l’amour de la vérité, l’obéissance à la raison ou la fameuse règle d’or : « Ne fais pas à autrui ce que tu ne voudrais pas subir ». Ces inclinations sont selon lui innées. En effet, écrit Saint Thomas, « il faut considérer que le juste naturel est ce vers quoi la nature de l'homme l'incline ».
 
-Toutefois cette lumière intérieure ne suffit pas pour bien agir. L’élaboration de normes concrètes d’action et leur application à des situations particulières est nécessaire. Il revient alors aux juristes de définir ces normes, en accord avec la loi naturelle : ce sont les lois humaines. Mais la loi naturelle est supérieure à la loi humaine et elle s’impose universellement, y compris aux Princes.
+Toutefois, cette lumière intérieure ne suffit pas pour bien agir. L’élaboration de normes concrètes d’action et leur application à des situations particulières est nécessaire. Il revient alors aux juristes de définir ces normes, en accord avec la loi naturelle : ce sont les lois humaines. Mais la loi naturelle est supérieure à la loi humaine et elle s’impose universellement, y compris aux Princes.
 
 Selon Saint Thomas :
 
@@ -650,13 +650,13 @@ Comment alors concilier les deux ? Au Moyen Âge, on peut recenser deux traditio
 
 ### La rivalité entre mysticisme et rationalisme religieux
 
-Le mysticisme consiste à exclure la raison de la foi. Celle-ci est absolue, au-delà du raisonnement, et ne doit jamais être soumise à la raison. Si elle contredit la raison, c'est normal, et vouloir faire entrer les vérités révélées dans le cadre de la raison est une hérésie. Dieu est bien au-delà de la raison, autrement dit il ne sert à rien de chercher à l'expliquer. Dès lors, la philosophie est très mal vue. Dieu serait même au-delà du langage humain : ce serait l'innommable, le Tout Autre. Sa volonté est absolue et arbitraire. Il ne faut donc pas chercher à comprendre pourquoi Dieu a fait ceci ou cela, il suffit d’obéir, c’est la seule attitude qui convienne.
+Le mysticisme consiste à exclure la raison de la foi. Celle-ci est absolue, au-delà du raisonnement, et ne doit jamais être soumise à la raison. Si elle contredit la raison, c'est normal, et vouloir faire entrer les vérités révélées dans le cadre de la raison est une hérésie. Dieu est bien au-delà de la raison, autrement dit, il ne sert à rien de chercher à l'expliquer. Dès lors, la philosophie est très mal vue. Dieu serait même au-delà du langage humain : ce serait l'innommable, le Tout Autre. Sa volonté est absolue et arbitraire. Il ne faut donc pas chercher à comprendre pourquoi Dieu a fait ceci ou cela, il suffit d’obéir, c’est la seule attitude qui convienne.
 
 Dans l’islam, on dira aussi qu’il ne faut pas représenter Dieu, lui donner une image. Dans le monde chrétien, un mystique comme Maître Eckhart écrivit notamment dans un Sermon : « Toutes choses ont un pourquoi, mais Dieu n'a pas de pourquoi. » Pour les mystiques, la seule philosophie valable est celle qui vient directement de la Révélation. Tout ce qui ne provient pas d’elle n’est ni vrai ni faux mais dépourvu de toute valeur de vérité.
 
-L'opposée direct de cette pensée est celle qui consiste à dire que seule la raison a raison, et que toute foi est un non-sens. C’est le rationalisme absolu, qui débouche sur l’athéisme. Toutefois, un tel courant n'émerge pas encore au Moyen Âge.
+L'opposée directe de cette pensée est celle qui consiste à dire que seule la raison a raison, et que toute foi est un non-sens. C’est le rationalisme absolu, qui débouche sur l’athéisme. Toutefois, un tel courant n'émerge pas encore au Moyen Âge.
 
-Pour les tenants du rationalisme religieux, il y a une complémentarité entre raison et foi : c'est la position intermédiaire. La vérité peut aussi bien être connue par la foi que par la raison. Et ainsi, ce qui est vrai dans la foi doit l'être aussi en raison, et inversement. La vérité est une mais elle est accessible de deux manières. Il y a donc deux sciences qui ne peuvent se contredire mais qui se complètent l’une l’autre : la science naturelle ou philosophie et la science sacrée ou théologie. Si ce n'est pas le cas, si une contradiction apparait entre la raison et la foi, c'est soit que l'on raisonne mal, soit que l'on interprète mal les Écritures.
+Pour les tenants du rationalisme religieux, il y a une complémentarité entre raison et foi : c'est la position intermédiaire. La vérité peut aussi bien être connue par la foi que par la raison. Et ainsi, ce qui est vrai dans la foi doit l'être aussi en raison, et inversement. La vérité est une mais elle est accessible de deux manières. Il y a donc deux sciences qui ne peuvent se contredire mais qui se complètent l’une l’autre : la science naturelle ou philosophie et la science sacrée ou théologie. Si ce n'est pas le cas, si une contradiction apparaît entre la raison et la foi, c'est soit que l'on raisonne mal, soit que l'on interprète mal les Écritures.
 
 Ainsi pour Thomas d'Aquin, « La foi est l'assentiment de la raison mue par la volonté en l'absence d'évidence. » Autrement dit, la raison est capable d'appréhender le monde et Dieu, rationnellement, jusqu'à à un certain point. A ce point, elle ne rencontre plus d'évidence. La volonté peut choisir alors de croire, et donc d'aller plus loin vers la vérité par la foi, où de ne pas croire. Mais la foi n’est pas un saut dans l’absurde, elle n’est pas une humiliation de la raison.
 
@@ -681,7 +681,7 @@ Dès lors, c’est le rationalisme religieux qui va l’emporter définitivement
 
 Au Moyen Âge l’Église et les monarchies chrétiennes ont hérité d’un modèle politique qui est celui de l’Empire Romain et que les historiens appellent le système théologico-politique c’est-à-dire un système où le pouvoir est sacral c’est-à-dire ou le chef politique est en même temps un chef religieux.
 
-C’est pourquoi les sociétés médiévales sont caractérisées par l’unanimisme politico-religieux. Le pouvoir politique fonde sa légitimité, son autorité et son unité sur la foi chrétienne (ou musulmane). Il se considère comme le gardien de l'orthodoxie culturelle et religieuse et traite comme des parias ceux qui s’éloignent de cette unanimité. Dans ce cadre, même si une certaine tolérance peut être concédée à ceux qui se détachent de la vision culturelle commune (les juifs par exemple), aucun droit au pluralisme ne peut leur être reconnu. Il faudra attendre la fin du Moyen-âge, avec la conquête de l’Amérique pour que le problème des libertés civiles se pose de façon cruciale à l’Église et pour voir apparaitre une première philosophie du droit qui affirme et protège les libertés individuelles, légitime le pluralisme et condamne la coercition étatique.
+C’est pourquoi les sociétés médiévales sont caractérisées par l’unanimisme politico-religieux. Le pouvoir politique fonde sa légitimité, son autorité et son unité sur la foi chrétienne (ou musulmane). Il se considère comme le gardien de l'orthodoxie culturelle et religieuse et traite comme des parias ceux qui s’éloignent de cette unanimité. Dans ce cadre, même si une certaine tolérance peut être concédée à ceux qui se détachent de la vision culturelle commune (les juifs par exemple), aucun droit au pluralisme ne peut leur être reconnu. Il faudra attendre la fin du Moyen-âge, avec la conquête de l’Amérique pour que le problème des libertés civiles se pose de façon cruciale à l’Église et pour voir apparaître une première philosophie du droit qui affirme et protège les libertés individuelles, légitime le pluralisme et condamne la coercition étatique.
 
 ### Saint Augustin et la tentation théocratique
 
@@ -704,11 +704,11 @@ Cependant, pour Augustin, cette cité terrestre est nécessaire. Elle est néces
 
 Toutefois ni les papes ni les rois n’étaient satisfaits de cette alliance. L’Église a essayé de revendiquer son autorité sur le pouvoir politique tandis que le pouvoir politique a tenté de s’en affranchir pour affirmer sa souveraineté.
 
-C’est ainsi que l'Église de son côté va mettre au point son droit et ses tribunaux et va postuler que le Pape peut régler les différents terrestres. De leur côté, les rois vont commencer à développer un appareil d'État le plus puissant possible. Ilsvont aussi tenter de centraliser la résolution des conflits juridiques, puis ils vont peu à peu généraliser l'impôt, développer une administration territoriale et lever des armées : ils vont poser les bases de l'État moderne.
+C’est ainsi que l'Église de son côté va mettre au point son droit et ses tribunaux et va postuler que le Pape peut régler les différends terrestres. De leur côté, les rois vont commencer à développer un appareil d'État le plus puissant possible. Ils vont aussi tenter de centraliser la résolution des conflits juridiques, puis ils vont peu à peu généraliser l'impôt, développer une administration territoriale et lever des armées : ils vont poser les bases de l'État moderne.
 
 Dans la réalité, la compétition entre les pouvoirs a donné lieu à de nombreux conflits. Chaque Prince ou chaque Pape a toujours essayé d'emporter le dernier mot et de convaincre qu'il possédait l'autorité suprême, en dernier recours. Ainsi, le Pape Grégoire VII déclarait « Le pape est le seul homme dont tous les princes doivent baiser les pieds ».
 
-De son côté, Saint Louis n’a pas hésité à s’opposer au Pape Innocent IV qui avait excommunié et déposé l’empereur Frédéric II, le privant ainsi de toute crédibilité auprès de son peuple. Son petit fils, Philippe Le Bel fera de même.
+De son côté, Saint Louis n’a pas hésité à s’opposer au Pape Innocent IV qui avait excommunié et déposé l’empereur Frédéric II, le privant ainsi de toute crédibilité auprès de son peuple. Son petit-fils, Philippe Le Bel, fera de même.
 
 La tentation théocratique de l’Église se heurte aussi à la théorie du « droit divin ». Si les rois de France se proclament monarques de « droit divin », c’est pour échapper à l’emprise du Pape et tirer leur autorité directement de Dieu, sans avoir d’ordre à recevoir des clercs.
 
@@ -721,13 +721,13 @@ C’est pourquoi l’éthique biblique change notre rapport au mal. Elle apporte
 
 ### Le passage d’une éthique symétrique à une éthique dissymétrique
 
-L’éthique symétrique c’est celle qui consiste à établir une stricte égalité dans les rapports humains ou stricte réciprocité. Elle apparaît dans la vertu de justice, vertu suprême pour les grecs. La justice c’est rendre à l’autre ce qu’on lui doit : à chacun le sien. Et le fait de percevoir le temps comme cyclique conduit à ne pas se sentir responsable du mal fait par les autres. Il y a du mal sur Terre mais il a toujours existé et il existera toujours. Il faut passer cela au compte des profits et des pertes et la somme en est constante. Il n'y a rien à faire, il en sera toujours ainsi, c’est le fatalisme grec et romain.
+L’éthique symétrique, c’est celle qui consiste à établir une stricte égalité dans les rapports humains ou stricte réciprocité. Elle apparaît dans la vertu de justice, vertu suprême pour les grecs. La justice c’est rendre à l’autre ce qu’on lui doit : à chacun le sien. Et le fait de percevoir le temps comme cyclique conduit à ne pas se sentir responsable du mal fait par les autres. Il y a du mal sur Terre mais il a toujours existé et il existera toujours. Il faut passer cela au compte des profits et des pertes et la somme en est constante. Il n'y a rien à faire, il en sera toujours ainsi, c’est le fatalisme grec et romain.
 
 L’éthique biblique est dissymétrique ce qui veut dire qu’on doit donner plus que ce qu’on doit. Chacun se sent responsable du mal, même de celui que l’on n’a pas commis. Éthique du don, éthique du pardon, éthique de la compassion. On ne peut pas rester indifférent à la souffrance d’autrui et on ne doit pas tolérer la souffrance gratuite, y compris lorsqu’elle ne vient pas de nous. La quiétude du sage stoïcien qui accepte le destin devient impossible. C’est le sens de la parabole du Bon Samaritain. Rien ne l’oblige à s’arrêter et à prendre soin d’un homme blessé par des bandits. A partir de la révolution éthique apportée par la Bible, l'humanité entière devient une sorte de Bon Samaritain. Elle est invitée à ne pas tolérer le mal fait à autrui et à le combattre.
 
 De plus, puisque Dieu est créateur, nous voyons apparaître un nouveau concept, celui d’égalité : face à Dieu tous les hommes sont égaux. Il n'y a pas de privilégiés face à l'immensité du Dieu transcendant et les hommes sont tous égaux..
 
-### Le droit des indiens
+### Le droit des Indiens
 
 L'incarnation la plus connue de cette doctrine émergente est l'école de Salamanque, en Espagne au XVIe siècle. Francisco de Vitoria, l’un de ses représentants, affirme que si tout homme est créé à l’image de Dieu, aucun homme ne peut être déclaré inférieur à un autre, ni le juif, ni l’esclave noir, ni l’indien.
 
@@ -735,7 +735,7 @@ L'incarnation la plus connue de cette doctrine émergente est l'école de Salama
 
 La découverte des Amériques va constituer un véritable choc culturel, une première brèche dans l’unanimisme politico-religieux hérité de l’Antiquité. La fameuse querelle du droit des Indiens va en effet diviser les théologiens en deux camps opposés et irréconciliables.
 
-Dans un premier camp il y a les tenants du monolithisme culturel et du principe de coercition. Pour eux, les Indiens ont vécu en dehors du message biblique. Cela peut signifier que Dieu n’a pas voulu se révéler à eux. Pourquoi ? Deux hypothèses sont alors envisageables : 1° Ils sont de grands pécheurs (cannibalisme) 2° Ils sont arriérés et plus proches de la bête que de l’homme. C’est pourquoi on a le droit alors de les traiter comme des esclaves et de leur prendre leurs terres par la force, au motif qu’ils sont à la fois infidèles et barbares.
+Dans un premier camp, il y a les tenants du monolithisme culturel et du principe de coercition. Pour eux, les Indiens ont vécu en dehors du message biblique. Cela peut signifier que Dieu n’a pas voulu se révéler à eux. Pourquoi ? Deux hypothèses sont alors envisageables : 1° Ils sont de grands pécheurs (cannibalisme) 2° Ils sont arriérés et plus proches de la bête que de l’homme. C’est pourquoi on a le droit alors de les traiter comme des esclaves et de leur prendre leurs terres par la force, au motif qu’ils sont à la fois infidèles et barbares.
 
 Dans l’autre camp, il y a les tenants du pluralisme et des libertés civiles : ce sont les théologiens de l’école de Salamanque, disciples de S. Thomas. Selon Francisco de Vitoria et Bartolomeo de Las Casas, des droits doivent être reconnus aux Indiens en tant qu'êtres humains et non du fait qu'ils ont adhéré ou non à la foi catholique. Non seulement on ne doit pas les convertir par la force, mais on ne doit pas non plus prendre leurs biens ou les soumettre à une quelconque forme d’esclavage. Leur argumentation s’appuie sur la conception thomiste de la loi naturelle, distincte de la loi divine.
 
@@ -745,7 +745,7 @@ Les scolastiques de Salamanque vont appliquer ce raisonnement au cas des Indiens
 
 ![image](assets\3\img-035.webp)
 
-L’affaire des Indien fut la première brèche dans le monolithisme politico-religieux. Elle montra que l’unité de la société politique pouvait reposer sur une autre base que l'unité religieuse des habitants d'un même territoire, sur la base d’une commune appartenance à la nature humaine.
+L’affaire des Indiens fut la première brèche dans le monolithisme politico-religieux. Elle montra que l’unité de la société politique pouvait reposer sur une autre base que l'unité religieuse des habitants d'un même territoire, sur la base d’une commune appartenance à la nature humaine.
 
 L’idée d'humanité progresse. On en vient effectivement à considérer qu'il n'y a qu'une seule humanité à laquelle des droits égaux sont naturellement liés. Mais il faudra encore du temps pour qu’elle s’impose à tous. Il faudra notamment l’apport des sciences naturelles avec le concept d’espèce humaine.
 
@@ -805,9 +805,9 @@ Mais si tel est le cas, une autre question se pose évidemment : pourquoi les al
 
 > « Il me semble que la cause première et dernière pour laquelle le prince veut s'emparer du pouvoir de muer les monnaies, c'est le gain ou profit qu'il peut en avoir, car autrement, c'est sans raison qu'il ferait des mutations si nombreuses et si considérables. »
 
-Puis il rajoute encore ces précisions :
+Puis il ajoute encore ces précisions :
 
-> « Tout ce que le prince en retire de gain, c'est nécessairement aux dépens de la communauté. Or, tout ce qu'un prince fait aux dépens de la communauté est une injustice et le fait, non d'un roi, mais d'un tyran, comme dit Aristote (…) Si le prince peut, â bon droit, faire une mutation simple de la monnaie et en retirer quelque gain, il peut, pour une raison analogue, faire une plus grande mutation et en retirer plus de gain (...) Ainsi le prince pourrait enfin attirer à lui presque tout l'argent ou les richesses de ses sujets et les réduire â la servitude, ce qui serait faire entièrement preuve de tyrannie et même d'une vraie et parfaite tyrannie, comme il ressort des philosophes et des histoires des anciens. »
+> « Tout ce que le prince en retire de gain, c'est nécessairement aux dépens de la communauté. Or, tout ce qu'un prince fait aux dépens de la communauté est une injustice et le fait, non d'un roi, mais d'un tyran, comme dit Aristote (…) Si le prince peut, à bon droit, faire une mutation simple de la monnaie et en retirer quelque gain, il peut, pour une raison analogue, faire une plus grande mutation et en retirer plus de gain (...) Ainsi le prince pourrait enfin attirer à lui presque tout l'argent ou les richesses de ses sujets et les réduire à la servitude, ce qui serait faire entièrement preuve de tyrannie et même d'une vraie et parfaite tyrannie, comme il ressort des philosophes et des histoires des anciens. »
 
 Oresme souligne que les altérations de la monnaie ne sont pas simplement un jeu de redistribution en faveur du pouvoir au détriment du reste de la communauté. Elles entraînent des pertes globales — le jeu est à somme négative. Une monnaie en altération fréquente perturbe le commerce et elle invite les faux-monnayeurs à profiter de la confusion générale.
 
@@ -829,7 +829,7 @@ Voltaire pensera la même chose à propos du commerce. Celui-ci peut instaurer l
 
 ### Le profit comme « religion » pacifique
 
-Pour Voltaire, c’est d’abord la faillibilité de l’homme qui constitue le fondement d’une doctrine de la tolérance et de la liberté politique. Il écrit dans sont _Dictionnaire philosophique_ (1764) : « La tolérance est la conséquence nécessaire de la conscience que nous avons d’être faillible. L’erreur est humaine et nous faisons tous sans cesse des fautes. Pardonnons nous mutuellement nos bêtises c’est la première loi de la nature ».
+Pour Voltaire, c’est d’abord la faillibilité de l’homme qui constitue le fondement d’une doctrine de la tolérance et de la liberté politique. Il écrit dans son _Dictionnaire philosophique_ (1764) : « La tolérance est la conséquence nécessaire de la conscience que nous avons d’être faillible. L’erreur est humaine et nous faisons tous sans cesse des fautes. Pardonnons nous mutuellement nos bêtises c’est la première loi de la nature ».
 
 ![image](assets\4\img-078.webp)
 
@@ -863,7 +863,7 @@ Pourtant la France ne manquait pas de grands esprits. On le sait peu mais Anne R
 
 Ses premiers écrits témoignent de son engagement en faveur de la philosophie des Lumières. En 1754, il publie ses _Lettres sur la tolérance civile_ et en 1757, plusieurs articles écrits pour _L’Encyclopédie_ de Diderot et d’Alembert.
 
-Dans ses lettres, Turgot avance une définition de la tolérance. Tolérer c’est refuser d’employer la violence contre l’erreur. Autrement dit la tolérance n’est pas l’acceptation de l’erreur. On peut se battre contre elle mais avec les armes de la conviction et de la raison, pas avec la violence.
+Dans ses lettres, Turgot avance une définition de la tolérance. Tolérer c’est refuser d’employer la violence contre l’erreur. Autrement dit, la tolérance n’est pas l’acceptation de l’erreur. On peut se battre contre elle mais avec les armes de la conviction et de la raison, pas avec la violence.
 
 Par la suite, Turgot s'efforça d'obtenir de Louis XVI la suppression de la formule : « Je jure de supprimer l'hérésie » dans le serment prêté le jour du sacre. Dans _Mémoire au roi sur la tolérance_ (1775), il écrit :
 
@@ -888,7 +888,7 @@ C’est eux qui ont jeté les bases de l'économie libérale. Les principaux rep
 
 Ils défendent le « Laissez-faire **»** qui préconise la non-intervention de l'État dans l'économie.
 
-On voit dés lors émerger au sein des Lumières deux conceptions très différentes :
+On voit dès lors émerger au sein des Lumières deux conceptions très différentes :
 
 - Il y a d’une part ceux qui pensent qu’il faut réaliser cette harmonie sociale artificiellement et par la contrainte de l’Etat, ce sont les théories du contrat.
 - Il y a d’autre part ceux qui pensent qu’on peut gouverner par les intérêts, c’est-à-dire laisser les intérêts individuels s’harmoniser eux-mêmes, dans le cadre de règles du jeu connues et admises par tous : ce sont les théories du marché.
@@ -956,7 +956,7 @@ Mais il se heurtera surtout à la colère des nobles, qui tentèrent de défendr
 
 L’ouvrage majeur de Turgot, _Réflexions la formation et la distribution des richesses_ (1766), doit beaucoup à la doctrine des Physiocrates. Turgot reprend et prolonge le modèle de libre marché proposée par Quesnay et avant lui par Boisguilbert contre les mercantilistes. Mais ses idées doivent au moins autant à l’influence de son ami Jacques Vincent de Gournay, nommé intendant du commerce en 1751. Turgot a voyagé avec lui à travers tout le pays, lors de ses tournées d’inspection.
 
-Turgot est un apôtre du droit naturel, qu’il appelle aussi « système de la liberté ». Il souligne souvent que la concurrence sur un marché libre a pour effet de réguler naturellement les prix et d’empêcher les abus. Par ailleurs, il fait du marchand la pièce maitresse du mécanisme de marché. En effet, les agents de l’État sont moins motivés et surtout moins bien informés que ne le sont les commerçants. Il est donc plus efficace de laisser le commerce aux mains des intérêts privés.
+Turgot est un apôtre du droit naturel, qu’il appelle aussi « système de la liberté ». Il souligne souvent que la concurrence sur un marché libre a pour effet de réguler naturellement les prix et d’empêcher les abus. Par ailleurs, il fait du marchand la pièce maîtresse du mécanisme de marché. En effet, les agents de l’État sont moins motivés et surtout moins bien informés que ne le sont les commerçants. Il est donc plus efficace de laisser le commerce aux mains des intérêts privés.
 
 > « Il est inutile de prouver que chaque particulier est le seul juge de cet emploi le plus avantageux de sa tête et ses bras. Il a seul les connaissances locales sans lesquelles l’homme le plus éclairé ne raisonne qu’à l’aveugle. Il a seul une expérience d’autant plus sûre qu’elle est bornée à un seul objet. Il s’instruit par ses essais réitérés, par ses succès, par ses pertes et acquiert un tact dont la finesse, aiguisée par le sentiment du besoin, passe de bien loin toute la théorie du spéculateur indifférent » (_Éloge de Vincent de Gournay_).
 
@@ -976,11 +976,11 @@ _Le Commerce et le Gouvernement_ contient ce qui sera appelé plus tard une thé
 
 La valeur ne réside donc pas à l’intérieur de la chose sous forme d’une quantité de travail qu’il aurait fallu pour la produire (thèse de la valeur travail qui sera celle d’Adam Smith et de Ricardo) mais à l’extérieur de la chose, autrement dit dans l’intensité du désir qu’en éprouve l’acheteur.
 
-C’est également un traité de philosophie en ce qu’il démontre comment l’échange libre et volontaire est un outil d’émancipation plus juste que l’intervention de l’État car il est égalitaire et antihiérarchique. Il est à même d’instituer des citoyens majeurs et responsables et il est la réponse aux dérives tyranniques de l’Ancien régime. En effet, si les excès de l’individualisme peuvent être régulés par le marché, rien ne peut réguler les abus du pouvoir central. C’est pourquoi Condillac invite le pouvoir à libérer le commerce de toute entrave et à renoncer à toute intervention dans la sphère économique.
+C’est également un traité de philosophie en ce qu’il démontre comment l’échange libre et volontaire est un outil d’émancipation plus juste que l’intervention de l’État car il est égalitaire et anti hiérarchique. Il est à même d’instituer des citoyens majeurs et responsables et il est la réponse aux dérives tyranniques de l’Ancien régime. En effet, si les excès de l’individualisme peuvent être régulés par le marché, rien ne peut réguler les abus du pouvoir central. C’est pourquoin Condillac invite le pouvoir à libérer le commerce de toute entrave et à renoncer à toute intervention dans la sphère économique.
 
 ### Un manifeste pour la liberté en Amérique
 
-En 1776, un anglais nommé Thomas Paine publie en Amérique un pamphlet virulent qui critique la monarchie anglaise et plaide pour l'indépendance des colon américains : _Le Sens commun_ (en anglais _Common Sense)_.
+En 1776, un anglais nommé Thomas Paine publie en Amérique un pamphlet virulent qui critique la monarchie anglaise et plaide pour l'indépendance des colons américains : _Le Sens commun_ (en anglais _Common Sense)_.
 
 ![image](assets\4\img-065.webp)
 
@@ -998,7 +998,7 @@ L’auteur prend soin de bien distinguer la société civile et l’Etat :
 
 Le succès du livre est immense. Il s’est vendu à quelques 100 000 exemplaires en quelques mois, dans un pays de trois millions d’habitants et il contribue à galvaniser le sentiment d'indépendance des Américains.
 
-Thomas Paine, grâce à son pamphlet, a joué un rôle crucial dans la révolution américaine et dans l'inspiration des idéaux de liberté et de démocratie. Il influencera directement la Déclaration d'Indépendance américaine adoptée quelque mois après.
+Thomas Paine, grâce à son pamphlet, a joué un rôle crucial dans la révolution américaine et dans l'inspiration des idéaux de liberté et de démocratie. Il influencera directement la Déclaration d'Indépendance américaine adoptée quelques mois après.
 
 ### Le congrès de Philadelphie
 
@@ -1036,7 +1036,7 @@ Cette fameuse main invisible illustre l'idée que la concurrence libre dans un m
 
 La plus importante contribution de Smith à la liberté fut de clarifier l’idée de l’ordre spontané. En effet Smith soutient que les individus, en cherchant à satisfaire leurs propres besoins et désirs, sont incités à produire et à échanger des biens et services de manière à répondre aux besoins de la société de manière plus efficace qu'une planification centrale ne le pourrait.
 
-Cette idée d’ordre spontané deviendra un concept-clé dans l’œuvre de Friedrich Hayek, qui reconnaitra sa dette à l’égard des Lumières écossaises et d’Adam Smith en particulier.
+Cette idée d’ordre spontané deviendra un concept-clé dans l’œuvre de Friedrich Hayek, qui reconnaîtra sa dette à l’égard des Lumières écossaises et d’Adam Smith en particulier.
 
 ## L’ère des révolutions
 <chapterId>c260e3ab-31a2-5ad7-b775-4bdcdc13b859</chapterId>
@@ -1115,7 +1115,7 @@ En France, fin 1791, la disette exacerbe l’agitation populaire. Les émeutes p
 
 La confiscation des biens de l’Église avait pour but de conjurer la crise financière, elle devait servir de gage pour les Assignats c’est-à-dire une émission massive de papier-monnaie.
 
-Par ailleurs, comme Dupont de Nemours l’avait prédit, l’émission de fausse monnaie ne fit qu’aggraver la crise, provoquant une inflation généralisée et la chute brutale de la valeur des Assignats. En aout 1792 les émeutes de la faim entrainèrent à leur tour l’insurrection de Paris, l’exécution de Louis XVI en janvier 1793, puis la Terreur.
+Par ailleurs, comme Dupont de Nemours l’avait prédit, l’émission de fausse monnaie ne fit qu’aggraver la crise, provoquant une inflation généralisée et la chute brutale de la valeur des Assignats. En août 1792 les émeutes de la faim entrainèrent à leur tour l’insurrection de Paris, l’exécution de Louis XVI en janvier 1793, puis la Terreur.
 
 ![image](assets\4\img-080.webp)
 
@@ -1208,7 +1208,7 @@ D’une part l’individualisme, c’est-à-dire le « désintérêt pour les af
 
 Et d’autre part l’étatisme qui détruit les individus en les maintenant dans un état d’enfance. L’État « travaille volontiers à leur bonheur mais il veut en être l’unique agent ».
 
-En effet, l’égalisation s’accompagne d’une fragilité plus grande des individus qui deviennent isolés et séparé les uns des autres. Pour éviter l’anarchie et protéger leurs biens, ils s’en remettent à un pouvoir unique et central auquel ils délèguent tous leurs droits. Il faut donc, selon Tocqueville développer les associations civiles et la « démocratie locale » pour entretenir les contrepouvoirs et par là même lutter à la fois contre l’individualisme et le despotisme, tous deux liberticides.
+En effet, l’égalisation s’accompagne d’une fragilité plus grande des individus qui deviennent isolés et séparés les uns des autres. Pour éviter l’anarchie et protéger leurs biens, ils s’en remettent à un pouvoir unique et central auquel ils délèguent tous leurs droits. Il faut donc, selon Tocqueville, développer les associations civiles et la « démocratie locale » pour entretenir les contre-pouvoirs et par là même lutter à la fois contre l’individualisme et le despotisme, tous deux liberticides.
 
 L’auteur de _La Démocratie en Amérique_ nous met en garde :
 
@@ -1232,7 +1232,7 @@ Que pensait Frédéric Bastiat de la démocratie ? Il a répondu dès 1846 : « 
 
 ![image](assets\5\img-088.webp)
 
-Mais en 1848, après la révolution de février, Bastiat est élu député des Landes dans une assemblée ou les socialistes font une entrée triomphante. Ces derniers ne demandent qu’une seule chose : qu’on inscrive dans la loi le principe de la fraternité. Autrement dit faire voter des lois pour fournir du travail, de l’éducation et des soins de santé à tous.
+Mais en 1848, après la révolution de février, Bastiat est élu député des Landes dans une assemblée où les socialistes font une entrée triomphante. Ces derniers ne demandent qu’une seule chose : qu’on inscrive dans la loi le principe de la fraternité. Autrement dit, faire voter des lois pour fournir du travail, de l’éducation et des soins de santé à tous.
 
 Sous le règne des idées socialistes, Bastiat observe que la machine électorale est utilisée pour piller l’argent public, donc le citoyen :
 
@@ -1242,7 +1242,7 @@ L’État devient alors selon les propos de Bastiat
 
 > « la grande fiction à travers laquelle tout le monde s’efforce de vivre aux dépens de tout le monde » ([_L’Etat_](http://bastiat.org/fr/l_etat.html))
 
-Bastiat développe aussi l’idée que le conflit nait lorsque la loi sort de son juste rôle. Dans son célèbre pamphlet [_La Loi_](http://bastiat.org/fr/la_loi.html), il montre pourquoi et comment la loi est devenue « le champ de bataille de toutes les cupidités », c’est-à-dire une source de privilèges, de rentes de situation et d’arbitraire fiscal. Dès que l’on admet en principe que la loi peut être détournée de sa vraie mission, qu'elle peut violer les propriétés au lieu de les garantir, il s’ensuite nécessairement une lutte des classes, soit pour se défendre contre la spoliation, soit pour l'organiser aussi à son profit.
+Bastiat développe aussi l’idée que le conflit naît lorsque la loi sort de son juste rôle. Dans son célèbre pamphlet [_La Loi_](http://bastiat.org/fr/la_loi.html), il montre pourquoi et comment la loi est devenue « le champ de bataille de toutes les cupidités », c’est-à-dire une source de privilèges, de rentes de situation et d’arbitraire fiscal. Dès que l’on admet en principe que la loi peut être détournée de sa vraie mission, qu'elle peut violer les propriétés au lieu de les garantir, il s’ensuit nécessairement une lutte des classes, soit pour se défendre contre la spoliation, soit pour l'organiser aussi à son profit.
 
 ![image](assets\5\img-098.webp)
 
@@ -1273,7 +1273,7 @@ A quoi bon le droit de parler, d’écrire et de voter, s’écriait Marx, si la
 
 La critique fondamentale que Marx adresse au libéralisme politique, en particulier dans ses écrits de jeunesse (_Critique de la philosophie du droit de Hegel_ et _La question juive_), porte sur la séparation de la société civile et de l’État. Cette critique doit être située dans le cadre général de son interprétation de la « Révolution bourgeoise ». C’est cette révolution qui aboutit à la formation d’un État séparé de la société civile et qui est censé viser l’universel c’est-à-dire l’intérêt commun en jouant un rôle d’arbitre impartial.
 
-Mais tout ceci n’est pour Marx qu’une apparence trompeuse. En réalité l’État n’est qu’un instrument destiné à servir les intérêts particuliers de la classe dominante. Autrement dit l’État n’est pas impartial, il n’est pas séparé de la société civile. En fait l’État libéral est le lieu d’une double illusion. Illusion de l’universel, nous venons de le voir et, par conséquent, illusion d’émancipation. En effet, la Révolution a émancipé le citoyen en instituant la souveraineté populaire et l’égalité devant la loi, mais cette liberté et cette égalité restent purement idéales et abstraites. Il est faux, dit Marx, de penser, comme Rousseau ou Hegel, que l’homme accomplit pleinement sa nature rationnelle en devenant citoyen. En réalité, on peut devenir citoyen et rester un exploité, un esclave, abandonné à l’arbitraire des désirs, à l’anarchie des égoïsmes et à la loi du plus fort.
+Mais tout ceci n’est pour Marx qu’une apparence trompeuse. En réalité l’État n’est qu’un instrument destiné à servir les intérêts particuliers de la classe dominante. Autrement dit, l’État n’est pas impartial, il n’est pas séparé de la société civile. En fait l’État libéral est le lieu d’une double illusion. Illusion de l’universel, nous venons de le voir et, par conséquent, illusion d’émancipation. En effet, la Révolution a émancipé le citoyen en instituant la souveraineté populaire et l’égalité devant la loi, mais cette liberté et cette égalité restent purement idéales et abstraites. Il est faux, dit Marx, de penser, comme Rousseau ou Hegel, que l’homme accomplit pleinement sa nature rationnelle en devenant citoyen. En réalité, on peut devenir citoyen et rester un exploité, un esclave, abandonné à l’arbitraire des désirs, à l’anarchie des égoïsmes et à la loi du plus fort.
 
 L’émancipation du citoyen, selon Marx, ne signifie aucunement l’émancipation de l’homme, comme le laisse entendre la Déclaration de 1789, mais bien plutôt le triomphe de l’individualisme destructeur et donc de l’inégalité. La liberté comme pouvoir de faire tout ce qui ne nuit pas à autrui, pilier des droits de l’homme, est une liberté purement négative qui n’instaure pas de relation entre les hommes mais favorise au contraire leur séparation, leur antagonisme et finalement leur servitude. La liberté des droits de l’homme est une liberté formelle.
 
@@ -1478,7 +1478,7 @@ Le système de Bretton Woods, conçu en 1944, entré pleinement en vigueur en 19
 
 ![image](assets/6/img-007.webp)
 
-A cette époque, avec la guerre du Vietnam notamment, l’augmentation des déficits du gouvernement américain poussèrent de nombreux pays étrangers, dont la France, à vouloir convertir leurs dollars en or auprès de la FED. Le 15 août 1971, le président Nixon décida l’annulation de la promesse de convertibilité du dollar en or, créant ainsi la première monnaie entièrement papier de l’histoire des États-Unis. On peut dater de ce jour le moment ou l’argent est complètement passé sous le contrôle des banques centrales. Lors d’une interview, Richard Nixon aurait dit : « Nous sommes tous keynésiens aujourd’hui ».
+A cette époque, avec la guerre du Vietnam notamment, l’augmentation des déficits du gouvernement américain poussèrent de nombreux pays étrangers, dont la France, à vouloir convertir leurs dollars en or auprès de la FED. Le 15 août 1971, le président Nixon décida l’annulation de la promesse de convertibilité du dollar en or, créant ainsi la première monnaie entièrement papier de l’histoire des États-Unis. On peut dater de ce jour le moment où l’argent est complètement passé sous le contrôle des banques centrales. Lors d’une interview, Richard Nixon aurait dit : « Nous sommes tous keynésiens aujourd’hui ».
 
 En effet, pour de nombreux économistes keynésiens, l’abandon de l’étalon-or a donné aux gouvernements la flexibilité nécessaire pour répondre ou prévenir les crises économiques.
 
@@ -1519,7 +1519,7 @@ La crise que nous traversons est une crise de civilisation, c’est-à-dire une 
 
 On parle beaucoup de la crise du politique, du déclin de la démocratie parlementaire, du gouvernement représentatif et donc de la liberté. On impute un peu facilement cette crise au capitalisme et à la « dictature des marchés ».
 
-Cette situation est en fait la conséquence d’un changement intellectuel radical dans les idées. Depuis la fin du XIXe siècle, l’Europe a abandonné les idées qui lui avaient permis de devenir un continent prospère et éclairé. Pendant quelques temps, sa fille aînée, l’Amérique a résisté aux vents du collectivisme, avant de se laisser submerger elle aussi.
+Cette situation est en fait la conséquence d’un changement intellectuel radical dans les idées. Depuis la fin du XIXe siècle, l’Europe a abandonné les idées qui lui avaient permis de devenir un continent prospère et éclairé. Pendant quelque temps, sa fille aînée, l’Amérique a résisté aux vents du collectivisme, avant de se laisser submerger elle aussi.
 
 En 1941, George Orwell faisait ce bilan :
 

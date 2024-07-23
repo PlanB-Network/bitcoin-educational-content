@@ -20,7 +20,7 @@ De la Renaissance aux Lumières, le cours examine la montée de la liberté, mar
 # La liberté ou le pouvoir
 <partId>e59475e9-3ae4-5e66-a17e-218de0281b06</partId>
 
-## Il n’y a que deux philosophies politiques
+## Introduction: Il n’y a que deux philosophies politiques
 <chapterId>ffa60c0d-ee2b-575d-a4ac-4e9ccdad396f</chapterId>
 
 Pourquoi intituler ce cours : une histoire de la liberté ? Parce que nous avons besoin de comprendre la relation entre les idées et les événements, pour mieux juger notre époque et agir avec discernement. C’est dans le passé que nous trouvons les éléments d'une meilleure compréhension de ce qu’est la liberté et des raisons pour lesquelles nous devons la chérir.

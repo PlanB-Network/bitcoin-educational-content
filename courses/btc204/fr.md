@@ -476,7 +476,7 @@ Source : [Mempool.space](https://mempool.space/fr/tx/00601af905bede31086d9b1b79e
 
 Il existe de nombreux autres protocoles qui disposent de leurs propres structures spécifiques. Ainsi, nous pourrions distinguer des transactions de type Wabisabi, des transactions Stamps ou encore Runes par exemple.
 
-Grâce à ces paternes de transactions, on peut déjà interpréter un certain nombre d'informations sur une transaction donnée. Mais la structure de la transaction n'est pas la seule source d'information pour une analyse. Nous pouvons également étudier les détails de celle-ci. Ces détails uniquement internes à une transaction, c'est ce que j'aime appeler des "heuristiques internes", et nous allons les étudier dans le chapitre suivant.
+Grâce à ces patterns de transactions, on peut déjà interpréter un certain nombre d'informations sur une transaction donnée. Mais la structure de la transaction n'est pas la seule source d'information pour une analyse. Nous pouvons également étudier les détails de celle-ci. Ces détails uniquement internes à une transaction, c'est ce que j'aime appeler des "heuristiques internes", et nous allons les étudier dans le chapitre suivant.
 
 ## Les heuristiques internes 
 <chapterId>c54b5abe-872f-40f4-a0d0-c59faff228ba</chapterId>
@@ -2101,7 +2101,7 @@ Dans le contexte spécifique de l'analyse de chaîne, l'entropie est également 
 
 Lorsqu'une transaction présente un nombre élevé d'interprétations possibles, il est souvent plus pertinent de se référer à son entropie. Cet indicateur permet de mesurer le manque de connaissance des analystes sur la configuration exacte de la transaction. Autrement dit, plus l'entropie est élevée, plus la tâche d'identification des flux de bitcoins entre les inputs et outputs devient difficile pour les analystes.
 
-En pratique, l'entropie révèle si, du regard d'un observateur externe, une transaction présente de multiples interprétations possibles, basées uniquement sur les montants des inputs et des outputs, sans prendre en compte d'autres paternes et heuristiques externes ou internes. Une grande entropie est alors synonyme d'une meilleure confidentialité pour la transaction.
+En pratique, l'entropie révèle si, du regard d'un observateur externe, une transaction présente de multiples interprétations possibles, basées uniquement sur les montants des inputs et des outputs, sans prendre en compte d'autres patterns et heuristiques externes ou internes. Une grande entropie est alors synonyme d'une meilleure confidentialité pour la transaction.
 
 L'entropie est définie comme le logarithme binaire du nombre de combinaisons possibles. Voici la formule utilisée avec $E$ l'entropie de la transaction et $C$ le nombre d'interprétations possibles :
 
@@ -2384,20 +2384,130 @@ La difficulté d'utilisation du payjoin réside dans sa dépendance vis-à-vis d
 
 Une solution serait d'utiliser des structures transactionnelles qui introduisent de l'ambiguïté dans l'analyse de la chaîne sans nécessiter la coopération du destinataire. Cela nous permettrait d'améliorer la confidentialité de nos paiements sans dépendre de la participation active des commerçants. C'est justement ce que nous allons étudier dans le prochain chapitre.
 
-## Les transactions spécifiques Samourai
+## Les mini-coinjoins de paiement
 <chapterId>300777ee-30ae-43d7-ab00-479dac3522c1</chapterId>
 
+Lorsque l'on souhaite réaliser une transaction de paiement tout en préservant un certain degré de confidentialité, le payjoin est une bonne option. Mais comme nous venons de le voir, le payjoin nécessite de faire intervenir le destinataire. Que faire alors si ce dernier refuse de participer à un payjoin, ou si vous préférez simplement ne pas l'impliquer ? Une alternative consiste à utiliser une transaction Stonewall ou Stonewall x2. Examinons de plus près ces deux types de transactions.
 
+### La transaction Stonewall
 
+Stonewall est une forme spécifique de transaction Bitcoin visant à accroître la confidentialité des utilisateurs lors d'une dépense en imitant un pseudo-coinjoin entre deux personnes, sans pour autant en être un. En effet, cette transaction n'est pas collaborative. Un utilisateur peut la construire tout seul, en faisant uniquement intervenir les UTXOs lui appartenant en inputs. Vous pouvez donc créer une transaction Stonewall pour n'importe quelle occasion, sans avoir besoin de vous synchroniser avec un autre utilisateur ou le destinataire.
 
+Le fonctionnement de la transaction Stonewall est le suivant : en input de la transaction, l'émetteur utilise 2 UTXOs qui lui appartiennent. En output, la transaction produit 4 UTXOs, dont 2 qui seront exactement de même montant. Les 2 autres UTXOs constitueront du change. Parmi les 2 outputs de même montant, un seul ira effectivement au destinataire du paiement.
+
+Il y a donc seulement 2 rôles dans une transaction Stonewall :
+- L'émetteur, qui réalise le paiement ;
+- Le destinataire, qui peut ignorer la nature spécifique de la transaction et attend simplement un paiement de la part de l'émetteur.
+
+Prenons un exemple pour comprendre cette structure de transaction. Alice est chez Bob le boulanger pour acheter sa baguette de pain qui coûte 4 000 sats. Elle souhaite payer en bitcoins tout en conservant une certaine forme de confidentialité sur son paiement. Elle décide donc de construire une transaction Stonewall pour le paiement.
+
+![BTC204](assets/notext/62/01.webp)
+
+En analysant cette transaction, on peut voir que Bob le boulanger a effectivement reçu 4 000 sats en paiement pour la baguette. Alice a utilisé 2 UTXOs en inputs : un de 10 000 sats et un de 15 000 sats. En outputs, elle a récupéré 3 UTXOs : un de 4 000 sats, un de 6 000 sats et un de 11 000 sats. Alice a donc un solde net de -4 000 sats sur cette transaction, ce qui correspond bien au prix de la baguette.
+
+Dans cet exemple, j'ai intentionnellement négligé les frais de minage afin de faciliter la compréhension. En réalité, les frais de transaction sont intégralement pris en charge par l'émetteur.
+
+### Quels sont les objectifs d'une transaction Stonewall ?
+
+La structure Stonewall ajoute énormément d'entropie à la transaction et vient brouiller les pistes de l'analyse de chaîne. Vue de l'extérieur, une telle transaction peut être interprétée comme un mini-coinjoin entre deux personnes. Mais en réalité, il s'agit d'un paiement. Cette méthode génère donc des incertitudes dans l'analyse de chaîne, voire oriente vers de fausses pistes.
+
+Reprenons l'exemple d'Alice chez Bob le boulanger. La transaction sur la blockchain se présenterait ainsi :
+
+![BTC204](assets/notext/62/02.webp)
+
+Un observateur extérieur qui s'appuie sur les heuristiques courantes d'analyse de chaîne pourrait conclure à tort que "*deux personnes ont réalisé un petit coinjoin, avec un UTXO chacun en input et deux UTXOs chacun en output*". L'analyse de cette transaction de l'extérieur ne conduit pas à l'application de la CIOH, car la présence de deux outputs de même montant suggère un pattern de coinjoin. D'un point de vue extérieur, la CIOH n'est donc pas applicable dans ce cas spécifique.
+
+![BTC204](assets/notext/62/03.webp)
+
+Cette interprétation est inexacte, car, comme vous le savez, un UTXO a été envoyé à Bob le boulanger, les 2 UTXOs en inputs proviennent d'Alice, et elle a récupéré 3 outputs de change.
+
+![BTC204](assets/notext/62/04.webp)
+
+Et ce qui est particulièrement intéressant avec la structure de la transaction Stonewall, c'est que du point de vue d'un observateur extérieur, elle ressemble en tous points à celle d'une transaction Stonewall x2.
+
+### La transaction Stonewall x2
+
+Stonewall x2 est une autre forme spécifique de transaction Bitcoin qui vise également à accroître la confidentialité des utilisateurs lors d'une dépense, mais cette fois-ci par la collaboration avec une tierce personne non impliquée dans cette dépense. Cette méthode fonctionne comme un pseudo-coinjoin entre deux participants, tout en effectuant en même temps un paiement à une troisième personne.
+
+Le fonctionnement de la transaction Stonewall x2 est relativement simple : on utilise un UTXO en notre possession pour effectuer le paiement et on sollicite l'aide d'une tierce personne qui contribue également avec un UTXO lui appartenant. La transaction se solde avec quatre outputs : deux d'entre eux de montants égaux, l'un destiné à l'adresse du bénéficiaire du paiement, l'autre à une adresse appartenant au collaborateur. Un troisième UTXO est renvoyé à une autre adresse du collaborateur, lui permettant de récupérer le montant initial (une action neutre pour lui, modulo les frais de minage), et un dernier UTXO revient à une adresse nous appartenant, qui constitue le change du paiement.
+
+On définit ainsi trois rôles différents dans les transactions Stonewall x2 :
+- L'émetteur, qui réalise le paiement effectif ;
+- Le destinataire, qui peut ignorer la nature spécifique de la transaction et attend simplement un paiement de la part de l'émetteur ;
+- Le collaborateur, qui met des bitcoins à disposition afin de mettre du doute dans l'analyse de la transaction, tout en récupérant intégralement ses fonds à la fin (une action neutre pour lui, modulo les frais de minage).
+
+Reprenons notre exemple avec Alice qui est chez Bob le boulanger pour acheter sa baguette de pain qui coûte 4 000 sats. Elle souhaite payer en bitcoins tout en conservant une certaine forme de confidentialité sur son paiement. Elle fait donc appel à son ami Charles, qui va l'aider dans cette démarche.
+
+![BTC204](assets/notext/62/05.webp)
+
+En analysant cette transaction, on peut voir que Bob le boulanger a effectivement reçu 4 000 sats en paiement pour la baguette. Alice a utilisé 10 000 sats en input et a récupéré 6 000 sats en output, soit un solde net de -4 000 sats, ce qui correspond au prix de la baguette. Quant à Charles, il a fourni 15 000 sats en input et a reçu deux outputs : l'un de 4 000 sats et l'autre de 11 000 sats, ce qui fait bien un solde de 0.
+
+Dans cet exemple, j'ai intentionnellement négligé les frais afin de faciliter la compréhension. En réalité, les frais de minage sont généralement partagés à parts égales entre l'émetteur du paiement et le collaborateur.
+
+### Quels sont les objectifs d'une transaction Stonewall x2 ?
+
+Comme la structure Stonewall, la structure Stonewall x2 ajoute énormément d'entropie à la transaction et vient brouiller les pistes de l'analyse de chaîne. Vue de l'extérieur, une telle transaction peut être interprétée comme un petit coinjoin entre deux personnes. Mais en réalité, il s'agit d'un paiement. Cette méthode génère donc des incertitudes dans l'analyse de chaîne, voire oriente vers de fausses pistes.
+
+Reprenons l'exemple d'Alice, Bob le Boulanger et Charles. La transaction sur la blockchain se présenterait ainsi :
+
+![BTC204](assets/notext/62/06.webp)
+
+Un observateur extérieur qui s'appuie sur les heuristiques courantes d'analyse de chaîne pourrait conclure à tort que "*Alice et Charles ont réalisé un petit coinjoin, avec un UTXO chacun en input et deux UTXOs chacun en output*". Encore une fois, l'analyse de cette transaction de l'extérieur ne conduit pas à l'application de la CIOH, car la présence de deux outputs de même montant suggère un pattern de coinjoin. D'un point de vue extérieur, la CIOH n'est donc pas applicable dans ce cas spécifique.
+
+![BTC204](assets/notext/62/07.webp)
+
+Cette interprétation est inexacte, car, comme vous le savez, un UTXO a été envoyé à Bob le boulanger, Alice n'a qu'un output de change, et Charles en a deux.
+
+![BTC204](assets/notext/62/08.webp)
+
+Et encore une fois, ce qui est particulièrement intéressant avec la structure de la transaction Stonewall x2, c'est que du point de vue d'un observateur extérieur, elle ressemble en tous points à celle d'une transaction Stonewall.
+
+### Quelle est la différence entre Stonewall et Stonewall x2 ?
+
+Une transaction StonewallX2 fonctionne exactement comme une transaction Stonewall, à la différence près que la première est collaborative, alors que la seconde non. Comme nous l'avons vu, une transaction Stonewall x2 implique la participation d'une tierce personne (Charles), qui est extérieure au paiement, et qui va mettre à disposition ses bitcoins pour améliorer la confidentialité de la transaction. Dans une transaction Stonewall classique, le rôle du collaborateur est pris par l'émetteur. 
+
+![BTC204](assets/notext/62/09.webp)
+
+D'un point de vue extérieur, le pattern de la transaction est donc exactement le même.
+
+![BTC204](assets/notext/62/10.webp)
+
+Le fait que ces deux structures de transaction partagent exactement le même pattern implique que même si un observateur extérieur parvient à identifier un pattern "Stonewall(x2)", il ne disposera pas de toutes les informations. Il ne pourra pas déterminer lequel des deux UTXOs de mêmes montants correspond au paiement. De plus, il ne pourra pas déterminer si les deux UTXOs en inputs proviennent de deux personnes différentes (Stonewall x2) ou s'ils appartiennent à une seule personne qui les a fusionnés (Stonewall).
+
+Ce dernier point est dû au fait que les transactions Stonewall x2 suivent exactement le même pattern que les transactions Stonewall. Vu de l'extérieur et sans informations supplémentaires sur le contexte, il est impossible de différencier une transaction Stonewall d'une transaction Stonewall x2. Or, les premières ne sont pas des transactions collaboratives, alors que les secondes le sont. Cela permet d'ajouter encore plus de doutes dans l'analyse d'une de ces transactions.
+
+### Quand utiliser les transactions Stonewall et Stonewall x2 ?
+
+La logique devrait être la suivante lorsque l'on souhaite utiliser un outil de confidentialité pour une dépense :
+- En priorité, on peut choisir de faire un payjoin ;
+- Si le commerçant ne prend pas en charge les payjoins, on peut faire une transaction collaborative avec une autre personne extérieure au paiement grâce à la structure Stonewall x2 ;
+- Si l'on ne trouve personne pour faire une transaction Stonewall x2, on peut faire une transaction Stonewall seul, qui va mimer le comportement d'une transaction Stonewall x2.
+
+### Comment utiliser les transactions Stonewall et Stonewall x2 ?
+
+Les transactions Stonewall et Stonewall x2 sont disponibles à la fois sur l'application Samourai Wallet et sur le logiciel Sparrow Wallet. 
+
+![BTC204](assets/notext/62/11.webp)
+
+En revanche, tout comme pour les payjoins, suite à l'arrestation des fondateurs de Samourai, les transactions Stonewall x2 ne fonctionnent plus qu'en échangeant manuellement les PSBTs entre les parties concernées. L'échange automatique via Soroban n'est hélas plus disponible pour le moment.
+
+Il est également possible de réaliser manuellement ce type de transaction depuis n'importe quel logiciel de portefeuille Bitcoin.
 
 ## Les ricochets
 <chapterId>db9a20ac-a149-443d-884b-ea6c03f28499</chapterId>
 
 
 
+
+
+
+
 ## Les transferts secret de propriété
 <chapterId>a2067036-849c-4d6b-87d2-44235cfae7a1</chapterId>
+
+
+
+
 
 
 ### Le Coin Swap

@@ -38,7 +38,7 @@ Ce cours est une introduction à Frédéric Bastiat, ce génie méconnu et une l
 
 En effet, Frédéric Bastiat, qui est né en 1801 et qui a vécu durant la première partie du XIXe siècle, est resté pendant quelques temps un auteur important. Et puis, progressivement, il a disparu et aujourd'hui, plus personne l'entend parler, plus personne ne sait qui il est. Pourtant, cet auteur, paradoxalement, a été traduit dans beaucoup de langues, en italien, en russe, en espagnol et en anglais.
 
-![image](assets/image/00/IMG27.webp)
+![image](assets/image/00/img-113.webp)
 
 Il se trouve qu'après la Seconde Guerre Mondiale, un de ses livres a été publié aux Etats-Unis. Il est devenu très célèbre, au point que Ronald Reagan lui-même disait que c'était son livre de chevet et c'est ce petit livre qui s'appelle La Loi. Bastiat fait partie ainsi des deux auteurs français les plus célèbres aux Etats-Unis puisque l'autre est bien connu et en France aussi, c'est Alexis de Tocqueville.
 
@@ -261,7 +261,7 @@ Ils retiennent de Benjamin Constant la distinction entre les Anciens et les Mode
 >
 > Dunoyer
 
-![image](assets/image/03/IMG07DUNOYER.webp)
+![image](assets/image/03/IMG07.webp)
 
 Cette nouvelle théorie sociale contient l’un des éléments qui deviendra la pierre angulaire du socialisme scientifique de Marx et Engels : la lutte des classes. Mais en quoi consiste la théorie libérale de la lutte des classes et en quoi diffère-t-elle du marxisme ?
 
@@ -678,13 +678,13 @@ Pourtant, ne vous est-il jamais arrivé d'entendre dire :
 
 En France, où il est admis que la dépense publique est un bienfait, les impôts sont plus élevés que dans d’autres pays. Mais Bastiat nous avertit d’emblée :
 
-> Dans toute dépense publique, derrière le bien apparent il y a un mal plus difficile à discerner.
+> "Dans toute dépense publique, derrière le bien apparent il y a un mal plus difficile à discerner."
 
 De quoi s’agit-il ?
 
 L’économie décrit les effets, bons ou mauvais, des décisions politiques sur nos vies. Or, selon Bastiat, l’économiste doit être attentif, non pas seulement à leurs effets à court terme sur un groupe particulier mais plutôt à leurs conséquences à long terme pour la société dans son ensemble.
 
-> Ce qu'on voit, c'est le travail et le profit permis par la cotisation sociale. Ce qu'on ne voit pas, ce sont les travaux auxquels donnerait lieu cette même cotisation si on la laissait aux contribuables. Ce qu'on voit c'est le travail et le profit permis par la cotisation sociale. Ce qu'on ne voit pas, ce sont les travaux auxquels donnerait lieu cette même cotisation si on la laissait aux contribuables.
+> "Ce qu'on voit, c'est le travail et le profit permis par la cotisation sociale. Ce qu'on ne voit pas, ce sont les travaux auxquels donnerait lieu cette même cotisation si on la laissait aux contribuables. Ce qu'on voit c'est le travail et le profit permis par la cotisation sociale. Ce qu'on ne voit pas, ce sont les travaux auxquels donnerait lieu cette même cotisation si on la laissait aux contribuables."
 >
 > F.Bastiat
 
@@ -697,8 +697,6 @@ Or l’État est plus dispendieux que les particuliers. En effet, rappelle-t-il,
 ![image](assets/image/11/IMG3.webp)
 
 Bien sûr, comme paiement d’un service public équivalent reçu en échange, l’impôt est tout à fait défendable. Mais en France l’État a assigné plusieurs rôles à l’impôt.
-
-![image](assets/image/11/IMG4.webp)
 
 Au départ, il devait seulement couvrir les dépenses communes. Puis on a également donné à l’impôt un rôle de régulation de l’économie. Dans ce cas les politiciens et les bureaucrates ont un pouvoir qui n’est limité que par leur bon vouloir. Tout à leurs constructions artificielles ils modèlent l’économie en taxant et réglementant plus ou moins les secteurs selon que leur caprice veut les favoriser ou les défavoriser.
 
@@ -828,7 +826,7 @@ Cette histoire montre que des hommes libres travaillant dans la poursuite de leu
 
 Le prix Nobel d’économie 1976 Milton Friedman a également repris cette histoire du crayon pour expliquer au grand public le fonctionnement de l’économie de marché.
 
-![video](https://www.youtube.com/watch?v=kPx67xoMvoY)
+![video](https://youtu.be/67tHtpac5ws?si=Ck9jVkdpYHbUJ5we)
 
 Dans un épisode de sa série télévisée Free to Choose, il analyse les différents com­po­sants d’un objet aussi banal et simple qu’un crayon et il met en lumière le miracle de l’ordre spontané, généré par les milliers d’interactions économiques à travers le monde. Des personnes qui ne se connaissent pas, qui n’ont pas la même religion ni les mêmes coutumes, réussissent pourtant à se coordonner pour produire cet objet. Il conclut le fait que le libre marché est essentiel pour garantir non seulement la prospérité mais aussi l’harmonie et la paix.
 

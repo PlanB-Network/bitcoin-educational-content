@@ -37,11 +37,10 @@ Mais le but de ce cours n'est pas seulement d'éclairer le passé de la liberté
 
 ### La tâche de la philosophie
 
-
 Depuis ses origines, elle est double :
 
-- Premièrement elle est de donner un sens à des concepts flous et confus. Qu’est-ce que le bien, le vrai, le juste, le beau ? Autant l’histoire a pour fonction d’éclairer le passé, autant la philosophie est l’art de définir correctement les concepts. C’est pourquoi il nous faut commencer dans ce 
-cours par comprendre ce qu’est la liberté.
+- Premièrement elle est de donner un sens à des concepts flous et confus. Qu’est-ce que le bien, le vrai, le juste, le beau ? Autant l’histoire a pour fonction d’éclairer le passé, autant la philosophie est l’art de définir correctement les concepts. C’est pourquoi il nous faut commencer dans ce
+  cours par comprendre ce qu’est la liberté.
 
 ![image](assets\1\img-027.webp)
 
@@ -59,13 +58,12 @@ De ce point de vue, il n’existe deux sortes de philosophies politiques et deux
 
 ![image](assets\1\img-016.webp)
 
-
 - La philosophie de la liberté est celle qui s’appuie sur le droit naturel de propriété et affirme que la loi n’a d’autre objet que de protéger la propriété privée et les contrats. Chacun devrait pouvoir faire ce qu’il veut avec ce qui lui appartient à condition de n’agresser personne. C’est une philosophie qui défend une égale liberté pour tous de disposer de soi et de sa propriété sous condition de responsabilité. C’est la philosophie du libre marché.
 - La philosophie du pouvoir justifie l’autorité de certaines entités collectives comme l’État ou la société pour décider des limites à donner au marché et à la propriété, donc à la liberté. Dans ce cadre, c’est à la loi d’organiser l’économie, la santé, le logement, la culture, l’éducation... Cette philosophie constructiviste a toujours eu ses défenseurs, au nom de l’intérêt collectif, de l’égalité, de la protection et du bien-être.
 
 L’antagonisme entre ces deux philosophies existe à toutes les époques. Mais nous pouvons l’illustrer avec la philosophie des Lumières. On voit clairement une ligne de partage entre deux types de penseurs.
 
-Ceux qui défendent la première philosophie en France sont les Physiocrates, avec François Quesnay à leur tête. Ils se nomment physiocrates, (le nom vient du grec Physis qui veut dire nature et Kratos qui veut dire règle) car ils développent une pensée économique et sociale fondée sur les droits naturels de l’homme. Pour eux la société, les personnes et les propriétés existent antérieurement aux lois. Dans ce système, explique Bastiat, « ce n’est pas parce qu’il y a des lois qu’il y a des propriétés, mais parce qu’il y a des propriétés qu’il y a des lois » (_Propriété et Loi_). 
+Ceux qui défendent la première philosophie en France sont les Physiocrates, avec François Quesnay à leur tête. Ils se nomment physiocrates, (le nom vient du grec Physis qui veut dire nature et Kratos qui veut dire règle) car ils développent une pensée économique et sociale fondée sur les droits naturels de l’homme. Pour eux la société, les personnes et les propriétés existent antérieurement aux lois. Dans ce système, explique Bastiat, « ce n’est pas parce qu’il y a des lois qu’il y a des propriétés, mais parce qu’il y a des propriétés qu’il y a des lois » (_Propriété et Loi_).
 
 ![image](assets\1\img-018.webp)
 
@@ -123,7 +121,7 @@ Dans [_Physiologie de la spoliation_](http://bastiat.org/fr/physiologie_de_la_sp
 
 ![image](assets\1\img-020.webp)
 
-Historiquement les élites dirigeantes ont toujours vécu de la spoliation. Bastiat note : 
+Historiquement les élites dirigeantes ont toujours vécu de la spoliation. Bastiat note :
 
 > « La force appliquée à la spoliation fait le fond des annales humaines. En retracer l’histoire, ce serait reproduire presque en entier l’histoire de tous les peuples : Assyriens, Babyloniens, Mèdes, Perses, Égyptiens, Grecs, Romains, Goths, Francs, Huns, Turcs, Arabes, Mongols, Tartares, sans compter celle des Espagnols en Amérique, des Anglais dans l’Inde, des Français en Afrique, des Russes en Asie, etc. » ([_Sophismes économiques_](http://bastiat.org/fr/conclusion_sophismes.html)_, Conclusion du premier volume)_.
 
@@ -198,7 +196,6 @@ Cette analyse reflète une compréhension erronée de la plus-value et du caract
 En fait, l’analyse marxiste déforme la réalité historique de la révolution industrielle. Ludwig von Mises a clarifié cette question dans son traité d’économie [_L’Action humaine_](http://herve.dequengo.free.fr/Mises/AH/AHTDM.htm) (voir en particulier le chapitre intitulé [Interprétation populaire de la révolution industrielle](http://herve.dequengo.free.fr/Mises/AH/AH21.htm#inter2)) ainsi que dans une série de conférences publiées sous le titre : [_Politique économique. Réflexions pour aujourd'hui et pour demain_](http://herve.dequengo.free.fr/Mises/PE/PE_TDM.htm). (A lire également, La mentalité anticapitaliste [ici](https://www.institutcoppet.org/wp-content/uploads/2011/05/La-Mentalit%C3%A9-anticapitaliste.pdf) et [ici](http://herve.dequengo.free.fr/Mises/MAC/MAC_TDM.htm)).
 
 ![image](assets\1\img-030.webp)
-
 
 Mises explique que les emplois dans les usines, quoique misérables pour nous, représentaient pour les ouvriers de l’époque la meilleure opportunité possible.
 
@@ -315,7 +312,6 @@ La démocratie athénienne représente une rupture majeure avec les traditions p
 
 ![image](assets\2\img-109.webp)
 
-
 L’historien Jean-Pierre Vernant écrit :
 
 > L'apparition de la polis constitue, dans l'histoire de la pensée grecque, un événement décisif. Certes, sur le plan intellectuel comme dans le domaine des institutions, il ne portera toutes ses conséquences qu'à terme ; la polis connaîtra des étapes multiples, des formes variées. Cependant, dès son avènement, qu'on peut situer entre le VIIIe et le VIIe siècle, elle marque un commencement, une véritable invention ; par elle, la vie sociale et les relations entre les hommes prennent une forme neuve, dont les Grecs sentiront pleinement l'originalité. (…) Ce qu'implique le système de la polis, c'est d'abord une extraordinaire prééminence de la parole sur tous les autres instruments du pouvoir. Elle devient l'outil politique par excellence, la clé de toute autorité dans l'État, le moyen de commandement et de domination sur autrui. (…) Un second trait de la polis est le caractère de pleine publicité donnée aux manifestations les plus importantes de la vie sociale. On peut même dire que la polis existe dans la mesure seulement où s'est dégagé un domaine public, aux deux sens, différents, mais solidaires, du terme : un secteur d'intérêt commun, s'opposant aux affaires privées ; des pratiques ouvertes, établies au grand jour, s'opposant à des procédures secrètes. (…) Désormais la discussion, l'argumentation, la polémique deviennent les règles du jeu intellectuel, comme du jeu politique. Le contrôle constant de la communauté s'exerce sur les créations de l'esprit comme sur les magistratures de l'Etat.
@@ -323,7 +319,6 @@ L’historien Jean-Pierre Vernant écrit :
 > Jean Pierre Vernant, _Les origines de la pensée grecque_, Paris, P.U.F, 1962
 
 ![image](assets\2\img-001.webp)
-
 
 Le mot grec « polis » qui va donner « politique » en français, signifie la cité. Quand Aristote écrit que « l’homme est par nature un animal politique », cela ne veut pas dire qu’il est fait pour le pouvoir. Il entend par politique la faculté qu’ont les hommes de délibérer sur la place publique pour déterminer le juste et l’injuste.
 
@@ -380,7 +375,6 @@ Se dégageant de la pensée mythologique, Thalès, Anaximandre, Anaximène, puis
 
 ![image](assets\2\img-009.webp)
 
-
 Le principe fondamental posé par ces premiers philosophes présocratiques est que les éléments du kosmos (l’univers) tiennent en place parce qu’ils sont tous également soumis à une même « loi de la nature » (phusis) que l’on peut énoncer de manière universelle et nécessaire. L’univers est rationnel, il constitue un ensemble structuré, que l’homme peut découvrir avec sa raison (le « logos » par opposition au « mutos », le mythe).
 
 D’après Karl Popper, on doit aux philosophes de la Grèce antique, en particulier aux présocratiques, l’invention du rationalisme critique, c’est-à-dire la tradition occidentale de la discussion critique, source de la pensée scientifique et du pluralisme. Il s’en explique dans un chapitre de _Conjectures et Réfutations_ intitulé « Retour aux présocratiques » :
@@ -388,7 +382,6 @@ D’après Karl Popper, on doit aux philosophes de la Grèce antique, en particu
     « Quant aux premiers indices de l’existence d’une attitude critique, d’une liberté de pensée nouvelles, c’est dans la critique de Thalès par Anaximandre qu’ils apparaissent. Il y a là un phénomène tout à fait singulier, le penseur qu’Anaximandre critique est son maître, son compatriote, l’un des Sept Sages, celui qui a fondé l’École ionienne. D’après la tradition, Anaximandre n’avait que quatorze ans de moins que Thalès, et il a vraisemblablement formulé ses critiques et exposé ses conceptions nouvelles du vivant de son maître (ils sont morts, semble-t-il, à quelques années d’intervalle). Or, on ne découvre dans les sources aucune trace de dissension, de querelle ni de schisme. »
 
 ![image](assets\2\img-008.webp)
-
 
 Ces éléments indiquent, selon lui, que c’est Thalès qui est à l’origine de cette tradition de liberté nouvelle, fondée sur une relation originale entre maître et disciple. Thalès a su tolérer la critique et, plus encore, il a fondé la tradition prescrivant d’y faire droit. Popper identifie là une rupture par rapport à la tradition dogmatique, qui n’autorise qu’une seule doctrine d’école, afin de lui substituer le pluralisme et le faillibilisme.
 
@@ -453,15 +446,15 @@ Le Traité de la Vie Heureuse (_De Vita Beata_) est un plaidoyer pour la morale 
 
 Pour autant, le plaisir n’est pas incompatible avec la vertu :
 
-« Les anciens ont prescrit de vivre la vie la meilleure et non la plus agréable, de telle sorte que le plaisir soit non pas le guide de la volonté droite, mais son compagnon de route ».
+> « Les anciens ont prescrit de vivre la vie la meilleure et non la plus agréable, de telle sorte que le plaisir soit non pas le guide de la volonté droite, mais son compagnon de route ».
 
 C’est pourquoi, le sage ne rejette pas les dons de la fortune :
 
-« il n'aime pas les richesses, il les préfère ; il ne les accueille pas dans son cœur, mais dans sa maison ; il ne rejette pas celle qu'il possède, il les domine et veut qu'elles fournissent à sa vertu une plus ample matière. »
+> « il n'aime pas les richesses, il les préfère ; il ne les accueille pas dans son cœur, mais dans sa maison ; il ne rejette pas celle qu'il possède, il les domine et veut qu'elles fournissent à sa vertu une plus ample matière. »
 
 Sénèque va plus loin encore. Les richesses sont pour le sage l’occasion et le moyen d’exercer la vertu :
 
-« Dans la pauvreté \[...\] il n'y a qu'un genre de vertu : ne pas fléchir ni se laisser déprimer ; au milieu des richesses, la tempérance, la libéralité, le discernement, l'économie, la magnificence ont le champ libre. »
+> « Dans la pauvreté \[...\] il n'y a qu'un genre de vertu : ne pas fléchir ni se laisser déprimer ; au milieu des richesses, la tempérance, la libéralité, le discernement, l'économie, la magnificence ont le champ libre. »
 
 ### La notion de loi supérieure
 
@@ -484,7 +477,6 @@ Quand Antigone désobéit à Créon, elle s’oppose au droit positif pour obéi
 Cicéron a vécu au 1<sup>er</sup> siècle avant Jésus-Christ et il est considéré, comme le plus grand orateur de langue latine sous l’empire romain. C’est aussi un philosophie moral et politique proche des stoïciens. Ses essais ont été lus par les européens instruits durant de nombreux siècles.
 
 ![image](assets\2\img-004.webp)
-
 
 Dans son traité _Des Lois_ (_De Legibus_), il réfléchit au fondement du droit. Selon lui, le droit positif, l’ensemble des conventions ou des lois écrites adoptées par une société, ne saurait fonder une justice digne de ce nom. Il existe une justice naturelle, inscrite dans la raison humaine : « le droit a un fondement dans la nature même ». Dire que le juste et l'injuste sont le résultat d'une convention revient à dire que la vérité se décrète. Or la vérité ne se décrète pas, fut-ce à la majorité, elle guide nos jugements.
 
@@ -542,7 +534,9 @@ Les émissions monétaires à répétition par les empereurs successifs pour fai
 
 Ludwig von Mises décrit cet épisode qui illustre bien les effets néfastes de l'interventionnisme :
 
-> « L'empereur romain Dioclétien, (est) bien connu pour avoir été le dernier empereur romain qui ait persécuté les Chrétiens. Les empereurs romains, dans la seconde partie du troisième siècle ne disposaient que d'une seule méthode financière, qui était de falsifier la monnaie. Dans ces âges primitifs, avant l'invention de la presse à imprimer, l'inflation elle-même était primitive, pour ainsi dire. Elle comportait une fraude au niveau de la frappe des pièces, en particulier de l'argent, jusqu'à ce que la couleur de l'alliage en soit changée et le poids considérablement réduit. Le résultat de cet avilissement des monnaies joint à l'augmentation corrélative de la circulation fut une hausse des prix, suivie par un édit de contrôle des prix. Et les empereurs romains n'y allaient pas de main morte pour faire appliquer les lois ; ils ne considéraient pas que la mort fût une peine trop lourde pour un homme qui avait demandé un prix trop élevé. Ils firent respecter le contrôle des prix, mais en conséquence ils firent crouler la société. Cela finit par la désintégration de l'empire romain, et celle aussi de la division du travail ». ([Politique économique, Réflexion pour aujourd’hui et pour demain](http://herve.dequengo.free.fr/Mises/PE/PE_3.htm)).
+> « L'empereur romain Dioclétien, (est) bien connu pour avoir été le dernier empereur romain qui ait persécuté les Chrétiens. Les empereurs romains, dans la seconde partie du troisième siècle ne disposaient que d'une seule méthode financière, qui était de falsifier la monnaie. Dans ces âges primitifs, avant l'invention de la presse à imprimer, l'inflation elle-même était primitive, pour ainsi dire. Elle comportait une fraude au niveau de la frappe des pièces, en particulier de l'argent, jusqu'à ce que la couleur de l'alliage en soit changée et le poids considérablement réduit. Le résultat de cet avilissement des monnaies joint à l'augmentation corrélative de la circulation fut une hausse des prix, suivie par un édit de contrôle des prix. Et les empereurs romains n'y allaient pas de main morte pour faire appliquer les lois ; ils ne considéraient pas que la mort fût une peine trop lourde pour un homme qui avait demandé un prix trop élevé. Ils firent respecter le contrôle des prix, mais en conséquence ils firent crouler la société. Cela finit par la désintégration de l'empire romain, et celle aussi de la division du travail. »
+>
+> [Politique économique, Réflexion pour aujourd’hui et pour demain](http://herve.dequengo.free.fr/Mises/PE/PE_3.htm)
 
 ### Du libéralisme au socialisme
 
@@ -566,12 +560,13 @@ Aux premiers temps de sa grandeur, chaque Romain se considérait lui-même comme
 
 Les Romains ont alors abandonné la liberté et la responsabilité personnelle contre des promesses de privilèges et de richesses distribuées directement par le gouvernement. Les citoyens adoptèrent l’idée qu’il était plus avantageux d’obtenir un revenu par des moyens politiques plutôt que par le travail.
 
-Philippe Fabry résume 
+Philippe Fabry résume
+
 > _« les faiblesses observées du système impérial \[…\] sont celles de tous les régimes totalitaires »_ : _« Priorité absolue donnée au maintien du système en place, inefficacité dans la production économique, corruption, clientélisme. »_
 
 Et il ajoute :
 
->  _« Au total la vie économique, politique, artistique, religieuse sous l’Empire romain au IVe siècle devait ressembler assez fortement à ce qu’elle était sous Brejnev en URSS (et dans les pires moments sous Staline) ou à ce qu’elle peut être aujourd’hui en Corée du Nord : toute la population du monde romain était enrégimentée par le socialisme impérial et en subissait, directement ou indirectement, les effets. »_
+> _« Au total la vie économique, politique, artistique, religieuse sous l’Empire romain au IVe siècle devait ressembler assez fortement à ce qu’elle était sous Brejnev en URSS (et dans les pires moments sous Staline) ou à ce qu’elle peut être aujourd’hui en Corée du Nord : toute la population du monde romain était enrégimentée par le socialisme impérial et en subissait, directement ou indirectement, les effets. »_
 
 # Les origines de la liberté : le Moyen-Âge
 
@@ -629,7 +624,7 @@ Il existe donc un droit antérieur à la formation de l'État, un ensemble de pr
 
 ## Raison et foi : une concurrence ouverte
 
-Au Moyen Âge, la raison et la foi sont en concurrence pour l'accès à la vérité. A la suite d’Abélard et d’Albert Le Grand, Thomas d’Aquin, au XIIIe siècle, choisit de défendre les droits de la raison et son autonomie par rapport à la foi. 
+Au Moyen Âge, la raison et la foi sont en concurrence pour l'accès à la vérité. A la suite d’Abélard et d’Albert Le Grand, Thomas d’Aquin, au XIIIe siècle, choisit de défendre les droits de la raison et son autonomie par rapport à la foi.
 
 ![image](assets\3\img-048.webp)
 
@@ -676,12 +671,11 @@ C’est pourquoi les sociétés médiévales sont caractérisées par l’unanim
 
 ### Saint Augustin et la tentation théocratique
 
-La question des rapports entre le politique et le religieux a pris forme avec l'ouvrage _Civitas Dei_ (_La Cité de Dieu_) de Saint Augustin. Dans ce dernier, celui-ci explique que deux sphères cohabitent : 
+La question des rapports entre le politique et le religieux a pris forme avec l'ouvrage _Civitas Dei_ (_La Cité de Dieu_) de Saint Augustin. Dans ce dernier, celui-ci explique que deux sphères cohabitent :
 
 > « Deux amours ont donc fait deux cités : l'amour de soi jusqu'au mépris de Dieu, la cité terrestre ; l'amour de Dieu, jusqu'au mépris de soi, la cité céleste. »
 
 ![image](assets\3\img-043.webp)
-
 
 Nous avons donc :
 
@@ -754,7 +748,7 @@ Henri Pirenne, un historien belge du début du XXe siècle, a consacré une part
 
 ![image](assets\3\img-034.webp)
 
-> « Tous les traits essentiels du capita­lisme — l'entreprise individuelle, les progrès du crédit, les pro­fits commerciaux, la spéculation, etc. — existaient déjà à partir du XIIe siècle dans les villes-états italiennes, Venise, Gênes ou Florence ».
+> « Tous les traits essentiels du capitalisme — l'entreprise individuelle, les progrès du crédit, les pro­fits commerciaux, la spéculation, etc. — existaient déjà à partir du XIIe siècle dans les villes-états italiennes, Venise, Gênes ou Florence ».
 
 ![image](assets\3\img-044.webp)
 
@@ -1001,7 +995,7 @@ Au cours des années qui suivent, les Français La Fayette, Rochambeau, l'amiral
 > « Je regrette de ne pas pouvoir m’adresser à la population française dans la belle langue de son loyal pays. Le fait ne peut pas être oublié que votre nation était notre amie quand l’Amérique s’est battue pour son existence, quand une poignée d’hommes courageux et patriotes ont été déterminés à défendre les droits de leur Créateur leur avait donné -- que la France en la personne de Lafayette est venue à notre aide en paroles et en actes. Ce serait de l’ingratitude de ne pas se souvenir de cela et l'Amérique ne fera pas défaut à ses obligations...
 >
 > Par conséquent, c'est avec une grande fierté que nous embrassons les couleurs en hommage de respect envers ce citoyen de votre grande République, et ici et maintenant dans l'ombre de l'illustre mort nous l'assurons de notre cœur et notre honneur pour donner à cette guerre une issue favorable.
-> 
+>
 > Lafayette nous sommes là ! »
 
 En 1789, c’est encore La Fayette, avec Jefferson, qui vont jeter les premières bases de la déclaration des Droits de l’homme de 1789.
@@ -1058,10 +1052,9 @@ Locke attribue à l’État la mission de défendre la propriété individuelle,
 
 > « La plus grande et la principale fin que se proposent les hommes lorsqu’ils s’unissent en communauté et se soumettent à un gouvernement, c’est de conserver leurs propriétés » (Du gouvernement civil, § 87).
 
-Thomas Jefferson a inscrit la théorie lockéenne des droits inaliénables dans la Déclaration d'Indépendance : 
+Thomas Jefferson a inscrit la théorie lockéenne des droits inaliénables dans la Déclaration d'Indépendance :
 
 > « Nous tenons ces vérités pour évidentes, que tous les hommes sont créés égaux, qu'ils sont dotés par leur Créateur de certains droits inaliénables, parmi eux, la vie, la liberté et la poursuite du bonheur ».
-
 
 ![image](assets\4\img-058.webp)
 
@@ -1193,7 +1186,7 @@ Et d’autre part l’étatisme qui détruit les individus en les maintenant dan
 
 En effet, l’égalisation s’accompagne d’une fragilité plus grande des individus qui deviennent isolés et séparé les uns des autres. Pour éviter l’anarchie et protéger leurs biens, ils s’en remettent à un pouvoir unique et central auquel ils délèguent tous leurs droits. Il faut donc, selon Tocqueville développer les associations civiles et la « démocratie locale » pour entretenir les contrepouvoirs et par là même lutter à la fois contre l’individualisme et le despotisme, tous deux liberticides.
 
-L’auteur de _La Démocratie en Amérique_ nous met en garde : 
+L’auteur de _La Démocratie en Amérique_ nous met en garde :
 
 > **«** Il y a en effet une passion mâle et légitime pour l'égalité qui excite les hommes à vouloir être tous forts et estimés. Cette passion tend à élever les petits au rang des grands ; mais il se rencontre aussi dans le cœur humain un goût dépravé pour l'égalité, qui porte les faibles à vouloir attirer les forts à leur niveau, et qui réduit les hommes à préférer l'égalité dans la servitude à l'inégalité dans la liberté. (…) Les nations de nos jours ne sauraient faire que dans leur sein les conditions ne soient pas égales ; mais il dépend d’elles que l’égalité les conduise à la servitude ou à la liberté, aux lumières ou à la barbarie, à la prospérité ou aux misères. **»**
 
@@ -1221,7 +1214,7 @@ Sous le règne des idées socialistes, Bastiat observe que la machine électoral
 
 > « Les finances publiques ne tarderont pas d’arriver à un complet désarroi. Comment pourrait-il en être autrement quand l’État est chargé de fournir tout à tous ? Le peuple sera écrasé d’impôts, on fera emprunt sur emprunt ; après avoir épuisé le présent, on dévorera l’avenir. Enfin, comme il sera admis en principe que l’État est chargé de faire de la fraternité en faveur des citoyens, on verra le peuple tout entier transformé en solliciteur. Propriété foncière, agriculture, industrie, commerce, marine, compagnies industrielles, tout s’agitera pour réclamer les faveurs de l’État. Le Trésor public sera littéralement au pillage. » [_Justice et fraternité_](http://bastiat.org/fr/justice_fraternite.html)
 
-L’État devient alors selon les propos de Bastiat 
+L’État devient alors selon les propos de Bastiat
 
 > « la grande fiction à travers laquelle tout le monde s’efforce de vivre aux dépens de tout le monde » ([_L’Etat_](http://bastiat.org/fr/l_etat.html))
 
@@ -1243,7 +1236,7 @@ Conclusion de Bastiat :
 
 ## La critique marxiste du capitalisme
 
-C’est au cours du XIXe siècle qu’émerge la critique du capitalisme et en particulier la critique marxiste. 
+C’est au cours du XIXe siècle qu’émerge la critique du capitalisme et en particulier la critique marxiste.
 
 ![image](assets\5\img-089.webp)
 
@@ -1367,3 +1360,144 @@ Les nazis n’ont fait que récupérer le discours étatiste, dirigiste et inter
 
 Hayek appelle en conclusion ses contemporains à tourner le dos aux « folies » et à « l’obscurantisme contemporain » pour débarrasser l’humanité des « erreurs qui ont dominé notre vie dans un passé récent ». Selon lui, la meilleure garantie de la liberté est la propriété privée. Quand tous les moyens de production sont concentrés dans les mains de quelques organisateurs, nous sommes soumis à un pouvoir total car ce pouvoir économique devient un instrument politique de contrôle sur notre vie entière.
 
+# L’essor de l’État providence au XXe siècle
+
+## Le triomphe de Keynes
+
+On accuse souvent le capitalisme d’être à l’origine de l’injonction : « il faut produire toujours plus », ou bien de la formule : « consommer est bon pour la croissance ». Pourtant ces idées ne proviennent pas du capitalisme traditionnel mais du keynésianisme qui règne depuis les années trente, dans la science économique et dans la classe politique.
+
+![image](assets/6/img-011.webp)
+
+### L’analyse de la crise de 29
+
+Paru en 1936, le livre de John Maynard Keynes : _Théorie générale de l'emploi, de l'intérêt et de la monnaie_, a tout balayé sur son passage. S’interrogeant sur les causes de la Grande Dépression et les moyens d’en sortir, il décrit un nouveau paradigme économique, qui va convertir des générations d’économistes et d’hommes politiques.
+
+![image](assets/6/img-005.webp)
+
+Pour résumer à grands traits, la dépense publique produit la croissance et pour soutenir le déficit budgétaire, il faut mettre en œuvre une politique monétaire de taux bas. Ainsi, dans un premier temps, l’augmentation discrétionnaire des dépenses publiques aurait un effet multiplicateur sur l’activité économique, de nature à limiter la récession et accélérer la reprise. Puis, dans un second temps, la monnaie serait considérée comme un instrument de politique économique à utiliser par la puissance publique à des fins de stabilisation macroéconomique.
+
+![image](assets/6/img-001.webp)
+
+Le keynésianisme c’est donc la prétention de fournir les moyens d’une forte croissance et du plein emploi par la dépense publique et la consommation. Et ce plan de croissance est fondé sur le contrôle de la monnaie.
+
+En effet, d’après Keynes, l’épargne de long terme est un frein à la consommation et donc à la croissance. La monnaie doit donc perdre son pouvoir d’achat avec le temps pour inciter les individus à consommer plus et plus rapidement, ce qui est une bonne chose pour l’économie. Dans la logique keynésienne des politiques de relance, le principal ennemi est l’épargne.
+
+Selon Keynes, cet ennemi peut être combattu par des liquidités à faible taux. C’est pourquoi les banques centrales doivent monopoliser et contrôler l’argent.
+
+Avec Keynes, le XXe siècle est devenu le siècle de la confiance dans les experts et dans la planification. Les ingénieurs sociaux aux commandes du gouvernement et de la politique monétaire, peuvent actionner des leviers qui sont censés rétablir la prospérité, puisqu'ils possèdent une vision macro-économique du monde.
+
+### L’héritage controversé de Keynes
+
+Pour Keynes, l'intervention de l'État est nécessaire pour stimuler la demande et relancer la machine économique. Cette doctrine a triomphé dans les universités et les manuels scolaires. Pourtant l’intervention étatique a ses failles et peut aggraver les crises sur le long terme au lieu de les résoudre.
+
+![image](assets/6/img-010.webp)
+
+C’est pourquoi certains économistes, minoritaires, vont reprocher à Keynes son court-termisme et préconiser un retour aux mécanismes du marché comme meilleure alternative à l’intervention de l’État.
+
+Ainsi, Friedrich Hayek a expliqué que la réduction continuelle des taux d’intérêt par les banques centrales et l’expansion artificielle du crédit ne pouvait qu’induire les acteurs économiques en erreur, les faisant investir comme si de nombreuses ressources épargnées existaient (puisque les taux d’intérêt diminuent naturellement en réponse à la hausse de l’épargne). Cette mauvaise allocation des ressources alimente alors une hausse artificielle de la croissance, une bulle, à laquelle succède une récession brutale. C’est cette contribution à la théorie des cycles qui a valu à Hayek le prix Nobel d’économie en 1974.
+
+Avec d’autres, il va également souligner le danger de centraliser et de manipuler la monnaie. C’est notamment le cas du Français Jacques Rueff, également disciple et ami de Ludwig von Mises.
+
+![image](assets/6/img-012.webp)
+
+Diplômé de l’école Polytechnique, Rueff a exercé une carrière de haut fonctionnaire et fut conseiller économique de nombreux gouvernements dans les années 20 et 30. Son ouvrage majeur parait en 1945 : _L’ordre social_, dans lequel il développe un argumentaire puissant en faveur du libre marché, tant du point de vue économique que philosophique et moral.
+
+![image](assets/6/img-013.webp)
+
+Ce livre comporte un chapitre clé qui s’intitule : « Monnaie saine ou État totalitaire ». Dans ce chapitre, il développe deux propositions. La première : « La fausse monnaie engendre le désordre social ». La seconde proposition découle de la première : « Le désordre social engendre l’esclavage social ». La fausse monnaie, c’est la monnaie-papier, décorrélée de toute réalité physique et manipulée par le pouvoir en place. Le désordre social, c’est l’inflation et le consumérisme qui en résulte. L’esclavage social, c’est la dépendance de la société vis-à-vis de l’État, la perte de toute autonomie, financière, morale et politique.
+
+En 1947, soit cinq ans après la traduction en français de _La théorie générale_, il fait paraître un article intitulé : _Les erreurs de la théorie générale de Lord Keynes_. Il lançait les sombres avertissements suivants :
+
+> « Il est probable que la prochaine période de dépression entraînera l’application généralisée dans le monde de la politique suggérée par lord Keynes. Je ne crains pas de me tromper en affirmant que cette politique ne réduira le chômage que dans une faible mesure, mais qu'elle aura des conséquences profondes sur l'évolution des pays dans lesquels elle sera appliquée. (…) Du fait de lord Keynes, la prochaine cyclique sera l'occasion de profonds changements politiques, que certains espèrent, que d'autres redoutent. En tout cas, fondé sur une théorie fausse, les remèdes qui seront mis en œuvre entraîneront des répercussions profondément différentes de celles qu'ils étaient appelés à promouvoir. Leur inefficacité sera, pour une grande partie de l'opinion, raison nouvelle de réclamer la substitution d'un régime qui, en se reniant, se sera lui-même détruit. »
+
+A partir de 1958, une politique de redressement de l’économie française, inspirée par Jacques Rueff, sera conduite sous l’autorité du Général de Gaulle. Elle conduira aux fameuses « Trente glorieuses ».
+
+![image](assets/6/img-014.webp)
+
+Dans _Le péché monétaire de l’Occident_, en 1971, Rueff écrit :
+
+> « C’est par le déficit budgétaire que les hommes perdent leur liberté ». Il ajoute : « L'inflation, c'est de subventionner des dépenses qui ne rapportent rien avec de l'argent qui n'existe pas ». Selon lui : «  On croirait, en observant l'évolution du système monétaire international, que l'Occident s'applique à mettre en œuvre le conseil de Lénine, suivant lequel : Pour détruire le régime bourgeois, il suffit de corrompre sa monnaie. »
+
+![image](assets/6/img-004.webp)
+
+En 1976, il s’attaque une dernière une fois au keynésianisme dans un article du journal _Le Monde_ :
+
+> « Aucune religion ne s'est répandue dans le monde aussi vite que celle de l'emploi. Portée par le souvenir des drames du chômage qui avait ravagé l'Angleterre et l'Allemagne pendant les années 20, elle est devenue le premier principe, expresse ou tacite, de la politique économique dans presque tous les pays du monde. Masquant son objet sous l'habillage habile et spécieux de la "théorie générale", élevée par des disciples enthousiastes et aveugles à la hauteur d'une bible de l'action gouvernementale, elle a dissimulé le véritable visage des politiques d'inflation qu'elle recouvrait. Par ce détour, elle a donné bonne conscience aux gouvernements qui, ayant épousé leurs possibilités d'impôts et d'emprunts, recouraient aux délices trompeurs de la création monétaire. » (_La fin de l'ère keynésienne_. Version anglaise: "The End of the Keynesian Era or: When the Long Run Ran Out", Euromoney, avril 1976, pp.70-7.)
+
+## L’abandon de l’étalon-or
+
+La monnaie est un outil qui a permis aux humains de sortir du troc, d’épargner et de se coordonner à grande échelle par le marché. Elle a rendu possible la spécialisation du travail, les avantages comparatifs, les gains à l’échange, le calcul économique. Sans monnaie, il n’y a pas de civilisation moderne.
+
+### L’or comme étalon mondial
+
+Or il se trouve qu’une forme particulière de monnaie s’est progressivement détachée des autres pour devenir au cours des siècles l’étalon mondiale de référence, c’est l’or.
+
+![image](assets/6/img-002.webp)
+
+En effet, l’or est une monnaie dure, difficile à produire, coûteuse à falsifier. L’or a été élu par le marché comme la monnaie la plus fiable, la plus durable et la moins manipulable. L’histoire montre que lorsque les individus peuvent choisir la monnaie qu’ils utilisent, ils ont tendance à choisir l’or.
+
+C’est pourquoi, dans _L’Action humaine_, Ludwig von Mises écrit : « L’étalon-or a été l’étalon mondial au temps du capitalisme, de l’accroissement du bien-être, de la liberté et de la démocratie \[…\] C’était l’étalon international dont le commerce international et les marchés mondiaux des capitaux avaient besoin \[…\] Il a porté l’industrie, le capital et la civilisation occidentales dans les coins les plus reculés de la planète, créant des richesses inconnues jusqu’alors ».
+
+Mais l'étalon-or contraint les gouvernements à financer leurs dépenses par l'impôt plutôt que par l'inflation, ce qui explique une certaine hostilité des élites politico-économiques envers ce système. Car le fait de relier la monnaie à un métal précieux limite la capacité des banques centrales à financer la croissance de l’État-providence via la taxe indirecte qu’est l’inflation.
+
+C’est pourquoi dès 1923, Keynes déclarait : « En vérité, l’étalon d’or est déjà une relique barbare. (…) Les défenseurs de l’ancien étalon ne remarquent pas combien il est maintenant éloigné de l’esprit et des besoins des temps nouveaux. » (J.M. Keynes, _La réforme monétaire_).
+
+### Le « choc Nixon »
+
+Le système de Bretton Woods, conçu en 1944, entré pleinement en vigueur en 1959, reposait à la fois sur l’or et sur le dollar, seule monnaie convertible en or. Il fallait donc accumuler des dollars pour pouvoir obtenir de l’or.
+
+![image](assets/6/img-007.webp)
+
+A cette époque, avec la guerre du Vietnam notamment, l’augmentation des déficits du gouvernement américain poussèrent de nombreux pays étrangers, dont la France, à vouloir convertir leurs dollars en or auprès de la FED. Le 15 août 1971, le président Nixon décida l’annulation de la promesse de convertibilité du dollar en or, créant ainsi la première monnaie entièrement papier de l’histoire des États-Unis. On peut dater de ce jour le moment ou l’argent est complètement passé sous le contrôle des banques centrales. Lors d’une interview, Richard Nixon aurait dit : « Nous sommes tous keynésiens aujourd’hui ».
+
+En effet, pour de nombreux économistes keynésiens, l’abandon de l’étalon-or a donné aux gouvernements la flexibilité nécessaire pour répondre ou prévenir les crises économiques.
+
+![image](assets/6/img-009.webp)
+
+Selon Alan Greenspan, ancien président de la FED, la banque centrale américain, l'étalon-or est incompatible avec l’endettement étatique et le financement de l'État-providence :
+
+> « J'ai toujours nourri de la nostalgie pour la stabilité des prix inhérente à l'étalon-or ; une monnaie stable en était le premier objectif. Mais j'ai depuis longtemps admis que l'étalon-or ne s'accommode pas aisément de l'opinion dominante sur la fonction d'un gouvernement, notamment le devoir d'assurer un système de sécurité sociale. \[…\] La plupart des Américains ont toléré l'inflation comme le prix à payer pour avoir un État-providence moderne. Il n'existe plus aujourd'hui de partisans de l'étalon-or, et je ne vois guère de possibilité qu'il revienne. » (_Le Temps des turbulences_).
+
+Au contraire, pour des gens comme Jacques Rueff, l’abandon du précieux métal est une erreur qui ne peut que provoquer une baisse continue du pouvoir d'achat, s'accompagnant d'une baisse du niveau de vie, d'une augmentation des inégalités de revenus et d'une instabilité économique croissante.
+
+En février 1965, lors d’une conférence de presse télévisée, le général de Gaulle, directement inspiré par Rueff, avait proposé qu'on revienne à l'étalon-or. Il affirmait : « L'or, qui ne change pas de nature, qui n'a pas de nationalité, qui est tenu, éternellement et universellement, comme la valeur inaltérable par excellence. »
+
+### Un marché monétaire sans monopole de l'Etat est possible
+
+![image](assets/6/img-008.webp)
+
+En 1976, Hayek a proposé une alternative au monopole de la création monéaire par l’Etat : la concurrence entre les monnaies. Dans son livre, _Pour une vraie concurrence des monnaies_ (_The Denationalization of money_), il envisage un marché monétaire sans monopole de l'Etat dans lequel il existerait plusieurs monnaies privées. La création et la gestion de différentes monnaies par des entités privées permettraient aux individus de choisir la monnaie la plus stable et la plus fiable, encourageant ainsi la concurrence et la discipline des émetteurs.
+
+![image](assets/6/img-003.webp)
+
+Il écrit :
+
+> « Tant que nous n’aurons pas restauré une situation dans laquelle les gouvernements (ainsi que les autres autorités publiques) savent que s’ils dépensent trop ils seront, comme quiconque autre, incapables de satisfaire à leurs obligations, il n’y aura aucune pause dans ce processus qui, par la substitution de l’activité collective a l’activité privée, menace d’étouffer l’initiative individuelle. Sous la démocratie illimitée actuelle, dans laquelle le gouvernement a le pouvoir conférer des bénéfices matériels spéciaux à des groupes particuliers, il est contraint d’acheter le soutien d’un nombre suffisant d’entre eux afin de constituer une majorité. » (Ch. XXI, Les effets des finances et des dépenses publiques).
+
+Pour Hayek, l’instabilité passée de l’économie de marché résulte du fait que le régulateur le plus important des mécanismes de marche, à savoir la monnaie, n’a pas pu être lui-même le fruit d’un processus de marché.
+
+![image](assets/6/img-006.webp)
+
+Hayek pensait qu’un marché libre des monnaies privées mènerait à une plus grande stabilité monétaire. Près de 50 ans plus tard, une cryptomonnaie comme Bitcoin incarne cette vision concurrentielle de Hayek en proposant une alternative décentralisée au système monopolistique des banques centrales. Bitcoin, avec sa limite d'émission à 21 millions d’unités, est une garantie contre l’inflation et l’arbitraire des régulateurs.
+
+## Conclusion : le pouvoir des idées
+
+La crise que nous traversons est une crise de civilisation, c’est-à-dire une crise intellectuelle aux conséquences morales, politiques et économiques.
+
+![image](assets/6/img-000.webp)
+
+On parle beaucoup de la crise du politique, du déclin de la démocratie parlementaire, du gouvernement représentatif et donc de la liberté. On impute un peu facilement cette crise au capitalisme et à la « dictature des marchés ».
+
+Cette situation est en fait la conséquence d’un changement intellectuel radical dans les idées. Depuis la fin du XIXe siècle, l’Europe a abandonné les idées qui lui avaient permis de devenir un continent prospère et éclairé. Pendant quelques temps, sa fille aînée, l’Amérique a résisté aux vents du collectivisme, avant de se laisser submerger elle aussi.
+
+En 1941, George Orwell faisait ce bilan :
+
+> « Il est évident que l’âge du libre capitalisme touche à sa fin et qu’un pays après l’autre est en train d’adopter une économie centralisée que l’on peut appeler socialisme ou capitalisme d’État, comme on veut. Dans ce système, la liberté économique de l’individu et dans une large mesure sa liberté tout court – liberté d’agir, de choisir son travail, de circuler – disparaissent. Ce n’est que tout récemment que l’on a commencé à entrevoir les implications de ce phénomène. Précédemment on n’avait jamais imaginé que la disparition de la liberté économique pourrait affecter la liberté intellectuelle. On pensait d’ordinaire que le socialisme était une sorte de libéralisme augmenté d’une morale. L’État allait prendre votre vie économique en charge et vous libérerait de la crainte de la pauvreté, du chômage, etc., mais il n’aurait nul besoin de s’immiscer dans votre vie intellectuelle privée. Maintenant la preuve a été faite que ces vues étaient fausses. »
+
+Mais contrairement à ce que nous annoncent les prophètes de malheur, la civilisation occidentale n’est pas vouée à disparaitre au XXIe siècle. Elle n’a pas épuisé ses virtualités. La liberté reste à venir.
+
+C’est ce que suggérait Murray Rothbard en 1982 :
+
+> « On a maintenant tâté de toutes les variantes de l’étatisme et elles ont toutes échoué. Partout dans le monde occidental au début du 20ème siècle les chefs d’entreprise, les politiciens et intellectuels s’étaient mis à appeler de leurs vœux un “nouveau” système d’économie mixte, de domination étatique, à la place du laissez-faire relatif du siècle précédent. De nouvelles panacées, attrayantes à première vue, comme le socialisme, l’État corporatiste, l’État-Providence-Gendarme du monde, etc. ont été essayées et toutes ont manifestement échoué. Les argumentaires en faveur du socialisme et de la planification étatique apparaissent maintenant comme des plaidoyers pour un système vieilli, épuisé et raté. Que reste-t-il à essayer sinon la liberté ? »
+
+En un certain sens, notre situation est meilleure que par le passé. Après les échecs successifs des différentes expériences socialistes, communistes et sociales-démocrates, nous savons aujourd’hui distinguer, mieux qu’hier, les idées vraies des idées fausses. Et les idées fausses peuvent être réfutées et remplacées par des idées vraies. Comme le disait Mises, « tout ce qui arrive dans la société mondiale où nous vivons est le résultat des idées. Le bon et le mauvais. Ce qu’il faut c’est combattre les idées fausses. (…) Notre civilisation peut survivre, et elle le doit. Et elle survivra grâce à des idées meilleures que celles qui gouvernent le monde aujourd’hui ; et ces idées meilleures seront développées par la génération montante. » (_Politique économique. Réflexions pour aujourd’hui et pour demain_, 1979).

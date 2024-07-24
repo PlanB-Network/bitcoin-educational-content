@@ -1393,8 +1393,13 @@ Plusieurs plateformes qui ne demandent pas de procédure KYC offrent la possibil
 
 ![BTC204](assets/notext/44/10.webp)
 
-*Pour rédiger ce chapitre, je me suis servi de la formation [BTC205](https://planb.network/fr/courses/btc205) réalisée par [@pivi___](https://x.com/pivi___) sur PlanB Network (disponible uniquement en français pour le moment).*
+### Les autres méthodes d'acquisition
 
+Parmi les autres méthodes pour acquérir des bitcoins tout en protégeant votre confidentialité, il y a évidemment le minage. Pour commencer à miner des sats, il n'est pas nécessaire de révéler votre identité ; il suffit simplement de trouver une preuve de travail valide et de la soumettre au réseau. Si vous optez pour le minage en pool, certaines pools exigent une forme d'identification, comme un KYC, tandis que d'autres n'en demandent pas.
+
+Une autre méthode consiste à travailler en échange de bitcoins. Cette méthode d'acquisition peut être intéressante, mais le degré d'identification requis varie considérablement selon les circonstances.
+
+*Pour rédiger ce chapitre, je me suis servi de la formation [BTC205](https://planb.network/fr/courses/btc205) réalisée par [@pivi___](https://x.com/pivi___) sur PlanB Network (disponible uniquement en français pour le moment).*
 
 ## La consolidation, la gestion des UTXOs et la CIOH
 <chapterId>d0486c8f-332d-402b-ae2e-949416752b9c</chapterId>

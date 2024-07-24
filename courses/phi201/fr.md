@@ -1310,7 +1310,7 @@ Ludwig von Mises souligne que Marx n’a pas su distinguer dans les droits de l�
 
 Dans _Éthique de la liberté_ et _Anatomie de l’Etat_, Murray Rothbard a expliqué que l'exploitation n'a de sens que comme une agression contre la propriété privée et que seul l’État obtient ses revenus par l’agression, c’est-à-dire par la fiscalité, par la dette, par la planche à billets et donc par l’inflation. En réalité c'est l'intervention étatique, et non la lutte des classes, qui est la source de la violence et des conflits dans la société. L'État, en s'appropriant des ressources et en régulant l'économie, crée des distorsions et des injustices qui donnent lieu à des conflits et à la répression. En finir avec exploitation suppose donc de réduire les pouvoirs de la caste prédatrice : l’État.
 
-Sur ce point, voir aussi : _Marxist and Austrian Class Analysis_, Hans Hermann HOPPE, Journal of Libertarian Studies, Vol IX n°2, automne 1990. [Traduction de François Guillaumat](https://fr.liberpedia.org/L%E2%80%99analyse_de_classe_marxiste_et_celle_des_Autrichiens). Repris comme chapitre 4 de _The Economics and Ethics of Private Property_ (Boston : Kluwer Academic Publishers, 1993).
+Sur ce point, voir aussi : _Marxist and Austrian Class Analysis_, Hans Hermann Hopp, Journal of Libertarian Studies, Vol IX n°2, automne 1990. [Traduction de François Guillaumat](https://fr.liberpedia.org/L%E2%80%99analyse_de_classe_marxiste_et_celle_des_Autrichiens). Repris comme chapitre 4 de _The Economics and Ethics of Private Property_ (Boston : Kluwer Academic Publishers, 1993).
 
 ### Le polylogisme
 
@@ -1429,13 +1429,13 @@ Avec d’autres, il va également souligner le danger de centraliser et de manip
 
 ![image](assets/6/img-012.webp)
 
-Diplômé de l’école Polytechnique, Rueff a exercé une carrière de haut fonctionnaire et fut conseiller économique de nombreux gouvernements dans les années 20 et 30. Son ouvrage majeur parait en 1945 : _L’ordre social_, dans lequel il développe un argumentaire puissant en faveur du libre marché, tant du point de vue économique que philosophique et moral.
+Diplômé de l’école Polytechnique en 1919, Rueff a exercé une carrière de haut fonctionnaire et fut conseiller économique de nombreux gouvernements dans les années 20 et 30. Son ouvrage majeur parait en 1945 : _L’ordre social_, dans lequel il développe un argumentaire puissant en faveur du libre marché, tant du point de vue économique que philosophique et moral.
 
 ![image](assets/6/img-013.webp)
 
 Ce livre comporte un chapitre clé qui s’intitule : « Monnaie saine ou État totalitaire ». Dans ce chapitre, il développe deux propositions. La première : « La fausse monnaie engendre le désordre social ». La seconde proposition découle de la première : « Le désordre social engendre l’esclavage social ». La fausse monnaie, c’est la monnaie-papier, décorrélée de toute réalité physique et manipulée par le pouvoir en place. Le désordre social, c’est l’inflation et le consumérisme qui en résulte. L’esclavage social, c’est la dépendance de la société vis-à-vis de l’État, la perte de toute autonomie, financière, morale et politique.
 
-En 1947, soit cinq ans après la traduction en français de _La théorie générale_, il fait paraître un article intitulé : _Les erreurs de la théorie générale de Lord Keynes_. Il lançait les sombres avertissements suivants :
+En 1947, soit cinq ans après la traduction en français de _La théorie générale_, il faisait paraître un article intitulé : _Les erreurs de la théorie générale de Lord Keynes_. Il lançait les avertissements suivants :
 
 > « Il est probable que la prochaine période de dépression entraînera l’application généralisée dans le monde de la politique suggérée par lord Keynes. Je ne crains pas de me tromper en affirmant que cette politique ne réduira le chômage que dans une faible mesure, mais qu'elle aura des conséquences profondes sur l'évolution des pays dans lesquels elle sera appliquée. (…) Du fait de lord Keynes, la prochaine cyclique sera l'occasion de profonds changements politiques, que certains espèrent, que d'autres redoutent. En tout cas, fondé sur une théorie fausse, les remèdes qui seront mis en œuvre entraîneront des répercussions profondément différentes de celles qu'ils étaient appelés à promouvoir. Leur inefficacité sera, pour une grande partie de l'opinion, raison nouvelle de réclamer la substitution d'un régime qui, en se reniant, se sera lui-même détruit. »
 
@@ -1460,7 +1460,7 @@ La monnaie est un outil qui a permis aux humains de sortir du troc, d’épargne
 
 ### L’or comme étalon mondial
 
-Or il se trouve qu’une forme particulière de monnaie s’est progressivement détachée des autres pour devenir au cours des siècles l’étalon mondiale de référence, c’est l’or.
+Et il se trouve qu’une forme particulière de monnaie s’est progressivement détachée des autres pour devenir au cours des siècles l’étalon mondiale de référence, c’est l’or.
 
 ![image](assets/6/img-002.webp)
 
@@ -1490,11 +1490,11 @@ Selon Alan Greenspan, ancien président de la FED, la banque centrale américain
 
 Au contraire, pour des gens comme Jacques Rueff, l’abandon du précieux métal est une erreur qui ne peut que provoquer une baisse continue du pouvoir d'achat, s'accompagnant d'une baisse du niveau de vie, d'une augmentation des inégalités de revenus et d'une instabilité économique croissante.
 
+![image](assets/6/img-008.webp)
+
 En février 1965, lors d’une conférence de presse télévisée, le général de Gaulle, directement inspiré par Rueff, avait proposé qu'on revienne à l'étalon-or. Il affirmait : « L'or, qui ne change pas de nature, qui n'a pas de nationalité, qui est tenu, éternellement et universellement, comme la valeur inaltérable par excellence. »
 
 ### Un marché monétaire sans monopole de l'Etat est possible
-
-![image](assets/6/img-008.webp)
 
 En 1976, Hayek a proposé une alternative au monopole de la création monéaire par l’Etat : la concurrence entre les monnaies. Dans son livre, _Pour une vraie concurrence des monnaies_ (_The Denationalization of money_), il envisage un marché monétaire sans monopole de l'Etat dans lequel il existerait plusieurs monnaies privées. La création et la gestion de différentes monnaies par des entités privées permettraient aux individus de choisir la monnaie la plus stable et la plus fiable, encourageant ainsi la concurrence et la discipline des émetteurs.
 

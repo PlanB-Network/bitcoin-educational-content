@@ -20,20 +20,20 @@ De la Renaissance aux Lumières, le cours examine la montée de la liberté, mar
 # La liberté ou le pouvoir
 <partId>e59475e9-3ae4-5e66-a17e-218de0281b06</partId>
 
-## Il n’y a que deux philosophies politiques
+## Introduction: Il n’y a que deux philosophies politiques
 <chapterId>ffa60c0d-ee2b-575d-a4ac-4e9ccdad396f</chapterId>
 
 Pourquoi intituler ce cours : une histoire de la liberté ? Parce que nous avons besoin de comprendre la relation entre les idées et les événements, pour mieux juger notre époque et agir avec discernement. C’est dans le passé que nous trouvons les éléments d'une meilleure compréhension de ce qu’est la liberté et des raisons pour lesquelles nous devons la chérir.
 
 > « Quand le passé n'éclaire plus l'avenir, l'esprit marche dans les ténèbres », écrivait Alexis de Tocqueville dans _De la démocratie en Amérique_.
 
-![image](assets\1\img-028.webp)
+![image](assets/1/img-028.webp)
 
 A la même époque, on trouve cette phrase d’Auguste Comte : « On ne connaît pas complètement une science tant qu'on n'en sait pas l'histoire ». On pourrait appliquer cette vérité à l’idée de liberté.
 
 En effet, la liberté n’est pas une idée nouvelle. C’est un héritage transmis par les générations. Toute l’histoire de la civilisation est le témoignage d’une lutte incessante pour la liberté.
 
-![image](assets\1\img-022.webp)
+![image](assets/1/img-022.webp)
 
 Mais le but de ce cours n'est pas seulement d'éclairer le passé de la liberté mais aussi et surtout de se former un jugement critique. En effet l’histoire ne suffit pas à éclairer le présent et l’avenir. Elle a besoin d’être accompagnée d’une réflexion critique et d’un jugement sur les erreurs du passé. Tel est l’apport de la philosophie. C’est pourquoi j’ai intitulé ce cours : une histoire philosophique de la liberté. Il s’agit en effet d’explorer la manière dont les philosophes ont conçu la liberté au cours des âges et dans les différentes cultures.
 
@@ -44,7 +44,7 @@ Depuis ses origines, elle est double :
 - Premièrement, elle est de donner un sens à des concepts flous et confus. Qu’est-ce que le bien, le vrai, le juste, le beau ? Autant l’histoire a pour fonction d’éclairer le passé, autant la philosophie est l’art de définir correctement les concepts. C’est pourquoi il nous faut commencer dans ce
   cours par comprendre ce qu’est la liberté.
 
-![image](assets\1\img-027.webp)
+![image](assets/1/img-027.webp)
 
 La liberté est un concept qui recouvre une multitude de variantes qui sont autant de déclinaisons possible d’une même réalité : liberté politique, économique, liberté de conscience, de parole, liberté religieuse, d’association etc. De quelle réalité s’agit-il ?
 
@@ -58,7 +58,7 @@ La notion de responsabilité est corollaire de la liberté car tout choix a des 
 
 De ce point de vue, il n’existe deux sortes de philosophies politiques et deux seulement. La philosophie de la liberté et la philosophie du pouvoir.
 
-![image](assets\1\img-016.webp)
+![image](assets/1/img-016.webp)
 
 - La philosophie de la liberté est celle qui s’appuie sur le droit naturel de propriété et affirme que la loi n’a d’autre objet que de protéger la propriété privée et les contrats. Chacun devrait pouvoir faire ce qu’il veut avec ce qui lui appartient à condition de n’agresser personne. C’est une philosophie qui défend une égale liberté pour tous de disposer de soi et de sa propriété sous condition de responsabilité. C’est la philosophie du libre marché.
 - La philosophie du pouvoir justifie l’autorité de certaines entités collectives comme l’État ou la société pour décider des limites à donner au marché et à la propriété, donc à la liberté. Dans ce cadre, c’est à la loi d’organiser l’économie, la santé, le logement, la culture, l’éducation... Cette philosophie constructiviste a toujours eu ses défenseurs, au nom de l’intérêt collectif, de l’égalité, de la protection et du bien-être.
@@ -67,15 +67,15 @@ L’antagonisme entre ces deux philosophies existe à toutes les époques. Mais 
 
 Ceux qui défendent la première philosophie en France sont les Physiocrates, avec François Quesnay à leur tête. Ils se nomment physiocrates, (le nom vient du grec Physis qui veut dire nature et Kratos qui veut dire règle) car ils développent une pensée économique et sociale fondée sur les droits naturels de l’homme. Pour eux la société, les personnes et les propriétés existent antérieurement aux lois. Dans ce système, explique Bastiat, « ce n’est pas parce qu’il y a des lois qu’il y a des propriétés, mais parce qu’il y a des propriétés qu’il y a des lois » (_Propriété et Loi_).
 
-![image](assets\1\img-018.webp)
+![image](assets/1/img-018.webp)
 
 Pour Turgot et Say, disciples de Quesnay, il existe une loi naturelle, indépendante du bon plaisir des législateurs qui est valable pour tous les hommes et antérieure à toute société. C’est une philosophie qui provient en droite ligne de la scolastique médiévale, des stoïciens, d’Aristote et de Sophocle. Les lois non-écrites sont à la fois antérieures et supérieurs aux lois écrites car elles découlent de la nature humaine et de la raison.
 
-![image](assets\1\img-014.webp)
+![image](assets/1/img-014.webp)
 
 La seconde philosophie se retrouve chez des auteurs comme Rousseau, Robespierre ou Kant, qui incarnent la tradition républicaine pour laquelle la souveraineté de la volonté générale est la véritable source du droit. Contemporain de Quesnay, Rousseau est un anti-physiocrate. Pour lui le législateur doit organiser la société, comme un mécanicien qui invente une machine à partir d’une matière inerte.
 
-![image](assets\1\img-026.webp)
+![image](assets/1/img-026.webp)
 
 > « Celui qui ose entreprendre d’instituer un peuple, dit Rousseau, doit se sentir en état de changer, pour ainsi dire, la nature humaine, de transformer chaque individu qui, par lui-même, est un tout parfait et solitaire, en partie d’un plus grand tout dont cet individu reçoive en quelque sorte sa vie et son être. » (_Contrat social_)
 
@@ -100,7 +100,7 @@ L’histoire est donc une lutte entre deux principes : la liberté et l’oppres
 
 ### Qu’est-ce que l’oppression ?
 
-![image](assets\1\img-025.webp)
+![image](assets/1/img-025.webp)
 
 En un mot, c’est la spoliation. Bastiat esquisse les principaux types de spoliation qui proviennent des élites dirigeantes : la guerre, l’esclavage, la théocratie et le monopole. En effet, selon lui : « Il n’y a que deux moyens de se procurer les choses nécessaires à la conservation, à l’embellissement et au perfectionnement de la vie : la PRODUCTION et la SPOLIATION. » ([_Physiologie de la Spoliation_](http://bastiat.org/fr/physiologie_de_la_spoliation.html))
 
@@ -122,7 +122,7 @@ Dans [_Physiologie de la spoliation_](http://bastiat.org/fr/physiologie_de_la_sp
 
 ### Histoire de la spoliation
 
-![image](assets\1\img-020.webp)
+![image](assets/1/img-020.webp)
 
 Historiquement les élites dirigeantes ont toujours vécu de la spoliation. Bastiat note :
 
@@ -143,7 +143,7 @@ Quelques jours avant sa mort à Rome en 1850, Bastiat confiait à son ami Prospe
 
 On le sait, l’histoire est écrite par les vainqueurs. L'attention est souvent portée sur la conquête du pouvoir, sur la vie des dirigeants au pouvoir et sur les conflits qui les opposent à ceux qui souhaitent prendre leur place.
 
-![image](assets\1\img-023.webp)
+![image](assets/1/img-023.webp)
 
 Ceci est particulièrement vrai des manuels scolaires destinés aux écoles publiques et rédigés par des professeurs employés par l’État.
 
@@ -153,7 +153,7 @@ Cet auteur est surtout connu pour sa maxime : « Le pouvoir tend à corrompre et
 
 ### La thèse d’Acton
 
-![image](assets\1\img-029.webp)
+![image](assets/1/img-029.webp)
 
 Pour Acton, le conflit entre la liberté et le pouvoir est le fil rouge de l'histoire humaine et la liberté est le moteur du progrès et de l'évolution des sociétés. Acton a voulu comprendre les facteurs qui ont contribué à l'essor de la liberté en Occident. Son objectif était de cerner les conditions nécessaires à sa préservation et à son développement. Il a étudié les idées philosophiques, les structures sociales et les contextes politiques qui ont favorisé son émergence au cours du temps.
 
@@ -173,18 +173,18 @@ Mais l'idée selon laquelle la liberté en Europe est née des luttes intestines
 
 Ainsi Voltaire, dans ses [_Lettres philosophiques_](https://fr.wikisource.org/wiki/Lettres_philosophiques/Lettre_6), attribue la liberté anglaise aux conflits entre les rois et les nobles qui ont empêché toute concentration excessive du pouvoir. Et il note : « S’il n’y avait en Angleterre qu’une religion, son despotisme serait à craindre ; s’il n’y en avait que deux, elles se couperaient la gorge ; mais il y en a trente, et elles vivent en paix et heureuses. » ([Sur les presbytériens](https://fr.wikisource.org/wiki/Lettres_philosophiques/Lettre_6))
 
-![image](assets\1\img-105.webp)
+![image](assets/1/img-105.webp)
 
 Condorcet, dans son [_Esquisse pour un tableau historique des progrès de l'esprit humain_](https://fr.wikisource.org/wiki/Esquisse_d%E2%80%99un_tableau_historique_des_progr%C3%A8s_de_l%E2%80%99esprit_humain), attribue la structure décentralisée du pouvoir en Italie à la rivalité entre le pape et l'empereur, qui a permis la survie de nombreuses cités-États indépendantes.
 
 On retrouve également cette thèse dans un ouvrage monumental datant de 1983 : _Droit et Révolution : La formation de la tradition juridique occidentale_, de Harold J. Berman ([traduction française de Raoul Audouin](https://www.eyrolles.com/Entreprise/Livre/droit-et-revolution-9782903449667/), publiée par la Librairie de l’Université d’Aix en Provence en 2002). L'analyse de Berman met en lumière le rôle crucial du pluralisme juridique dans l'histoire de l'Occident. Ce système, loin d'être une simple source de complexité, a été un moteur de développement, de liberté et d'innovation, façonnant durablement les traditions juridiques occidentales.
 
-## **Marx : l’histoire comme lutte des classes**
+## Marx : l’histoire comme lutte des classes
 <chapterId>438100e6-a385-55c6-b2c5-ad192c564757</chapterId>
 
 Une autre vision de l’histoire existe néanmoins. Elle a connu un certain succès et a longtemps bénéficié du soutien des intellectuels occidentaux et des représentants des pays du Sud. C’est la vision socialiste et marxiste de l’histoire.
 
-![image](assets\1\img-024.webp)
+![image](assets/1/img-024.webp)
 
 Elle explique l’extraordinaire croissance de l’Europe principalement par le progrès des techniques combiné avec l’ « accumulation primitive » du capital, issue de l’impérialisme, de l’esclavage, du commerce triangulaire, de l’expropriation des petits paysans et de l’exploitation de la classe ouvrière. La conclusion apparaît clairement. Cette croissance européenne exceptionnelle se serait réalisée au détriment de millions et de millions d’esclaves et d’opprimés.
 
@@ -200,7 +200,7 @@ Cette analyse reflète une compréhension erronée de la plus-value et du caract
 
 En fait, l’analyse marxiste déforme la réalité historique de la révolution industrielle. Ludwig von Mises a clarifié cette question dans son traité d’économie [_L’Action humaine_](http://herve.dequengo.free.fr/Mises/AH/AHTDM.htm) (voir en particulier le chapitre intitulé [Interprétation populaire de la révolution industrielle](http://herve.dequengo.free.fr/Mises/AH/AH21.htm#inter2)) ainsi que dans une série de conférences publiées sous le titre : [_Politique économique. Réflexions pour aujourd'hui et pour demain_](http://herve.dequengo.free.fr/Mises/PE/PE_TDM.htm). (A lire également, La mentalité anticapitaliste [ici](https://www.institutcoppet.org/wp-content/uploads/2011/05/La-Mentalit%C3%A9-anticapitaliste.pdf) et [ici](http://herve.dequengo.free.fr/Mises/MAC/MAC_TDM.htm)).
 
-![image](assets\1\img-030.webp)
+![image](assets/1/img-030.webp)
 
 Mises explique que les emplois dans les usines, quoique misérables pour nous, représentaient pour les ouvriers de l’époque la meilleure opportunité possible.
 
@@ -218,7 +218,7 @@ Sur l’historiographie marxiste, nous pouvons aussi nous référer à Friedrich
 
 Avant la Révolution industrielle, la plupart des gens vivaient dans des sociétés rurales et dépendaient de l'agriculture pour leur survie. Ils avaient peu de choses à vendre sur le marché, ce qui limitait leurs opportunités et leur niveau de vie. Chacun s’attendait à vivre dans une pauvreté absolue et envisageait un sort similaire pour ses descendants. Personne ne s’indignait d’une situation qui semblait être fatale.
 
-![image](assets\1\img-106.webp)
+![image](assets/1/img-106.webp)
 
 Avec l'avènement de l'industrialisation, de nouvelles opportunités ont émergé, créant une demande croissante de main-d'œuvre. Pour la première fois, des personnes sans terre ou ressources importantes pouvaient vendre leur force de travail aux usines et aux manufactures en échange d'un salaire, garantissant une sécurité pour l’avenir.
 
@@ -238,7 +238,7 @@ En s’intéressant à l’histoire économique comparée, certains historiens c
 
 Comme le dit Jean Baechler, membre de l’Académie des sciences morales et politiques, dans _Les Origines du capitalisme_ (1971) :
 
-![image](assets\1\img-021.webp)
+![image](assets/1/img-021.webp)
 
 > La première condition pour la maximisation de l'efficacité économique est la libération de la société civile à l'égard de l'État (...) L'expansion du capitalisme doit son origine et sa raison d'être à l'anarchie politique.
 
@@ -248,12 +248,12 @@ C'est cette Europe radicalement décentralisée qui a produit les parlements, le
 
 En conclusion de ce chapitre, l’Europe ne doit pas son décollage économique et culturel à la conquête et à l’exploitation du reste du monde. Elle a dominé le monde grâce à ses progrès économiques. Ce que l’on a appelé l’« impérialisme » est la conséquence et non la cause du progrès économique de l’Europe. Mais pour revenir à Lord Acton, ce qui distingue plus encore la civilisation occidentale de toutes les autres, c'est son affirmation de la valeur de l'individu. En ce sens, la liberté de conscience, notamment en matière religieuse a constitué un pilier fondamental de cette civilisation. Nous y reviendrons dans la section suivante.
 
-## **Murray Rothbard : État versus société**
+## Murray Rothbard : État versus société
 <chapterId>5a0020ca-2bbd-5e09-8389-d57c57542cb2</chapterId>
 
 Dans le dernier chapitre de _Anatomy of the State_ (traduit en français _L’anatomie de l’Etat_, aux édition Résurgence), Murray Rothbard propose une théorie de l’histoire. Ce chapitre très court est intitulé : L’histoire, course entre pouvoir étatique et pouvoir social. Selon Rothbard, l'histoire peut être comprise comme un conflit permanent entre deux principes fondamentaux :
 
-![image](assets\1\img-013.webp)
+![image](assets/1/img-013.webp)
 
 - La coopération pacifique et la production qui représentent l'échange volontaire et la création de richesse par le travail et l'innovation.
 - L'exploitation et la prédation coercitives qui sont incarnées par la domination de l'État, qui s'approprie les fruits du travail des individus par la force.
@@ -279,7 +279,7 @@ Une constitution écrite a certainement de nombreux avantages, mais c’est une 
 
 ### Le XXe siècle : un siècle de recul
 
-![image](assets\1\img-012.webp)
+![image](assets/1/img-012.webp)
 
 Selon Rothbard, l'histoire n'est pas un processus linéaire, mais plutôt une oscillation entre l'avancée du pouvoir social et le regain de contrôle par l'État :
 
@@ -292,7 +292,7 @@ Du XVIIe siècle au XIXe siècle, dans de nombreux pays occidentaux, il y eut de
 
 Qu’est-ce qu’une société libre finalement ? C’est une société sans monopole. Dans son ouvrage de philosophie politique, _Ethique de la liberté_ (1982), Rothbard répond : « une société dans laquelle il n’existe aucune possibilité légale d’agression coercitive contre la personne ou la propriété d’un individu. ». C’est pourquoi, selon lui, la philosophie politique, qui doit définir les principes d’une société juste, se réduit à une et une seule question : « Qui est légitimement propriétaire de quoi ? »
 
-![image](assets\1\img-029.webp)
+![image](assets/1/img-029.webp)
 
 Pour Rothbard, l'ordre social peut régner s’il est le produit de la généralisation des procédures contractuelles de libre-échange des droits de propriété, en privatisant toutes les activités économiques et même régaliennes (banque centrale, tribunaux) et en recourant à la concurrence entre agences de protection.
 
@@ -310,7 +310,7 @@ Et il ajoute :
 
 L'expérience de la démocratie athénienne a marqué durablement l'histoire de la pensée politique et continue d'inspirer les idéaux de démocratie et de participation citoyenne dans le monde d'aujourd'hui.
 
-![image](assets\2\img-107.webp)
+![image](assets/2/img-107.webp)
 
 Or la démocratie athénienne se caractérisait par un vif débat public sur les affaires de la cité, qui se tenait principalement sur l'agora, la place du marché. Ce mode de fonctionnement, fondé sur la raison et la discussion critique, tranchait nettement avec les pratiques antérieures où les lois et les coutumes étaient considérées comme sacrées et immuables, léguées par les ancêtres et protégées par les dieux.
 
@@ -318,7 +318,7 @@ Or la démocratie athénienne se caractérisait par un vif débat public sur les
 
 La démocratie athénienne représente une rupture majeure avec les traditions passées. En effet, dans les sociétés antérieures, il ne peut pas y avoir de « politique » au sens d’une discussion sur les règles sociales, puisque celles-ci sont imposées de manière transcendante par le mythe.
 
-![image](assets\2\img-109.webp)
+![image](assets/2/img-109.webp)
 
 L’historien Jean-Pierre Vernant écrit :
 
@@ -326,7 +326,7 @@ L’historien Jean-Pierre Vernant écrit :
 >
 > Jean Pierre Vernant, _Les origines de la pensée grecque_, Paris, P.U.F, 1962
 
-![image](assets\2\img-001.webp)
+![image](assets/2/img-001.webp)
 
 Le mot grec « polis » qui va donner « politique » en français, signifie la cité. Quand Aristote écrit que « l’homme est par nature un animal politique », cela ne veut pas dire qu’il est fait pour le pouvoir. Il entend par politique la faculté qu’ont les hommes de délibérer sur la place publique pour déterminer le juste et l’injuste.
 
@@ -347,7 +347,7 @@ Et Jean-Pierre Vernant ajoute :
 
 L’harmonie sociale n’est pas produite par l’action intentionnelle des dieux, mais par l’obéissance de tous les citoyens à une même loi impersonnelle. Le pouvoir n’est plus l’affaire des prêtres, il est devenu l’affaire de tous. Ainsi émerge la notion d’égalité devant la loi : « _isonomia_ », mais aussi la rhétorique. La maîtrise de la parole était essentielle pour convaincre ses concitoyens dans les assemblées et les tribunaux.
 
-![image](assets\2\img-110.webp)
+![image](assets/2/img-110.webp)
 
 Pour Aristote, la tyrannie c’est l’obéissance à un homme et la liberté c’est l’obéissance à la loi. On lui attribue cette citation : « Vouloir le règne de la loi, c’est vouloir le règne exclusif de la raison. Vouloir au contraire le règne d’un homme, c’est y ajouter celui d’une bête sauvage, car le désir et la colère faussent le jugement des gouvernants, fussent-ils les meilleurs des hommes ». Selon lui, les lois, étant impersonnelles et permanentes, permettent de garantir la justice et l'égalité pour tous les citoyens.
 
@@ -355,7 +355,7 @@ Cicéron, célèbre orateur et philosophe romain du 1er siècle avant J.-C., a r
 
 L’idée de république est une idée qui vient de la philosophie grecque. Elle a même souvent été opposée à la démocratie, jugée trop risquée. Platon a intitulé son livre principal de philosophie politique : _La République_ et il juge très sévèrement la démocratie. Quand le peuple gouverne, il risque fort d’imposer la loi de ses désirs et de confondre le bien avec l’agréable. D’où la mort tragique de Socrate, condamné à mort par un jury populaire, manipulé par les sophistes. Platon en a tiré toutes les leçons.
 
-![image](assets\2\img-111.webp)
+![image](assets/2/img-111.webp)
 
 Aristote reprendra le terme de république pour désigner la constitution juste, celle qui vise l’intérêt commun et traite les citoyens comme des hommes libres. Un véritable régime de liberté est un régime où la loi est générale, égale pour tous, anonyme, et non un commandement personnel.
 
@@ -373,7 +373,7 @@ Selon Jacqueline de Romilly :
 >
 > _La Grèce Antique à la découverte de la liberté, Paris, Editions de Fallois, 1989_
 
-![image](assets\2\img-108.webp)
+![image](assets/2/img-108.webp)
 
 Hérodote est convaincu qu’un peuple d’hommes libres est un peuple qui obéit à une loi et non à maître, comme dans l’empire Perse ou un seul homme est libre et tous les autres sont esclaves. C’est vrai pour Athènes, une démocratie, mais c’est vrai aussi pour Sparte. Le roi ne crée par la loi, il n’impose pas sa volonté. Il veille au respect de la loi, il est à son service et il meurt, s’il le faut, pour la défendre.
 
@@ -381,7 +381,7 @@ Hérodote est convaincu qu’un peuple d’hommes libres est un peuple qui obéi
 
 Se dégageant de la pensée mythologique, Thalès, Anaximandre, Anaximène, puis plus tard Démocrite et Empédocle, ont été les premiers à chercher à comprendre la phusis (nature) par la raison et non par des entités surnaturelles.
 
-![image](assets\2\img-009.webp)
+![image](assets/2/img-009.webp)
 
 Le principe fondamental posé par ces premiers philosophes présocratiques est que les éléments du kosmos (l’univers) tiennent en place parce qu’ils sont tous également soumis à une même « loi de la nature » (phusis) que l’on peut énoncer de manière universelle et nécessaire. L’univers est rationnel, il constitue un ensemble structuré, que l’homme peut découvrir avec sa raison (le « logos » par opposition au « mutos », le mythe).
 
@@ -389,7 +389,7 @@ D’après Karl Popper, on doit aux philosophes de la Grèce antique, en particu
 
     « Quant aux premiers indices de l’existence d’une attitude critique, d’une liberté de pensée nouvelles, c’est dans la critique de Thalès par Anaximandre qu’ils apparaissent. Il y a là un phénomène tout à fait singulier, le penseur qu’Anaximandre critique est son maître, son compatriote, l’un des Sept Sages, celui qui a fondé l’École ionienne. D’après la tradition, Anaximandre n’avait que quatorze ans de moins que Thalès, et il a vraisemblablement formulé ses critiques et exposé ses conceptions nouvelles du vivant de son maître (ils sont morts, semble-t-il, à quelques années d’intervalle). Or, on ne découvre dans les sources aucune trace de dissension, de querelle ni de schisme. »
 
-![image](assets\2\img-008.webp)
+![image](assets/2/img-008.webp)
 
 Ces éléments indiquent, selon lui, que c’est Thalès qui est à l’origine de cette tradition de liberté nouvelle, fondée sur une relation originale entre maître et disciple. Thalès a su tolérer la critique et, plus encore, il a fondé la tradition prescrivant d’y faire droit. Popper identifie là une rupture par rapport à la tradition dogmatique, qui n’autorise qu’une seule doctrine d’école, afin de lui substituer le pluralisme et le faillibilisme.
 
@@ -407,7 +407,7 @@ L’empire romain était une vaste entité cosmopolite. A son apogée, vers 117 
 - Au sud, il bordait la mer Méditerranée, incluant l'Italie, la Grèce, les Balkans, l'Asie Mineure (actuelle Turquie), la Syrie, le Liban, la Palestine, l'Égypte et la Cyrénaïque (partie de l'actuelle Libye).
 - À l'est, il s'étendait jusqu'en Mésopotamie (actuel Irak) et en Arménie.
 
-![image](assets\2\img-007.webp)
+![image](assets/2/img-007.webp)
 
 Dès lors, les romains ont poussé très loin l’élaboration du droit contrairement aux grecs qui vivaient dans de petites cités ethniquement homogènes. Sous la république romaine, on trouve déjà une protection juridique de la propriété et des droits individuels.
 
@@ -417,7 +417,7 @@ La propriété privée a pris une nouvelle dimension dans la civilisation romain
 
 Le droit romain deviendra le socle de tous les droits occidentaux modernes au cours du Moyen-Âge et jusqu’à nos jours.
 
-![image](assets\2\img-012.webp)
+![image](assets/2/img-012.webp)
 
 ### La protection des droits individuels
 
@@ -427,7 +427,7 @@ Cette loi correspond de façon étonnante aux droits naturels fondamentaux tels 
 
 Certes, les femmes, les esclaves et les étrangers étaient encore exclus de la pleine protection de la loi. Néanmoins, la Loi des Douze Tables a constitué un progrès important et une base pour le développement ultérieur de droits individuels étendus à tous.
 
-![image](assets\2\img-006.webp)
+![image](assets/2/img-006.webp)
 
 La Loi des Douze Tables accorde notamment une importance particulière aux droits de propriété :
 
@@ -451,7 +451,7 @@ Un modèle d’équilibre dans la pensée est Sénèque, philosophe stoïcien ro
 
 Le Traité de la Vie Heureuse (_De Vita Beata_) est un plaidoyer pour la morale stoïcienne. Le bonheur, dit Sénèque, « c'est une âme libre \[...\] inaccessible à la crainte \[...\] pour qui le mal unique est l'indignité morale ». Disciple de Socrate, le sage stoïcien ne craint pas le mal physique, la mort ou même le fait de subir l’injustice. Pour lui, le seul mal, c’est le mal moral. Par conséquent le souverain bien réside dans la vertu.
 
-![image](assets\2\img-011.webp)
+![image](assets/2/img-011.webp)
 
 Pour autant, le plaisir n’est pas incompatible avec la vertu :
 
@@ -477,7 +477,7 @@ Aristote distingue une justice naturelle et une justice légale. La justice natu
 
 Le dramaturge Sophocle, dans sa pièce _Antigone_, met en scène un conflit entre la loi divine et la loi humaine. Antigone refuse d'obéir au décret du roi Créon qui interdit l'inhumation de son frère, arguant que les lois divines, immuables et supérieures, priment sur les lois humaines.
 
-![image](assets\2\img-002.webp)
+![image](assets/2/img-002.webp)
 
 Quand Antigone désobéit à Créon, elle s’oppose au droit positif pour obéir à sa conscience morale et religieuse. S’il n’y a que le droit positif, dit Aristote, Créon a toujours raison, même quand il a tort. Mais si nous maintenons l’idée régulatrice d’un droit naturel ou divin, Antigone peut se dresser le moment venu et invoquer contre une loi injuste, le droit supérieur de la loi non écrite.
 
@@ -485,7 +485,7 @@ Quand Antigone désobéit à Créon, elle s’oppose au droit positif pour obéi
 
 Cicéron a vécu au 1<sup>er</sup> siècle avant Jésus-Christ et il est considéré comme le plus grand orateur de langue latine sous l’empire romain. C’est aussi un philosophe moral et politique proche des stoïciens. Ses essais ont été lus par les européens instruits durant de nombreux siècles.
 
-![image](assets\2\img-004.webp)
+![image](assets/2/img-004.webp)
 
 Dans son traité _Des Lois_ (_De Legibus_), il réfléchit au fondement du droit. Selon lui, le droit positif, l’ensemble des conventions ou des lois écrites adoptées par une société, ne saurait fonder une justice digne de ce nom. Il existe une justice naturelle, inscrite dans la raison humaine : « le droit a un fondement dans la nature même ». Dire que le juste et l'injuste sont le résultat d'une convention revient à dire que la vérité se décrète. Or la vérité ne se décrète pas, fut-ce à la majorité, elle guide nos jugements.
 
@@ -508,11 +508,11 @@ En affirmant que le droit ne peut se réduire aux seules lois édictées par le 
 
 Pourquoi Rome a-t-elle déclinée puis finalement chutée ? Beaucoup aiment à penser que l’Empire Romain s’est effondré subitement, sous le coup des invasions barbares. Mais les causes de l’effondrement de l’Empire Romain sont à chercher bien plus en amont, dans l’impérialisme et le dirigisme économique et monétaire.
 
-![image](assets\2\img-013.webp)
+![image](assets/2/img-013.webp)
 
 En 1734, dans ses _Considérations sur les causes de la grandeur des Romains et de leur décadence_, Montesquieu avait développé une thèse originale et unifiée pour expliquer l’ascension et la chute de la puissance romaine : la liberté gagnée sous la République puis perdue sous l’Empire. A partir du moment où s’étend la domination romaine, se perd la liberté et s’introduit la décadence.
 
-![image](assets\2\img-003.webp)
+![image](assets/2/img-003.webp)
 
 L'Empire romain fut un régime militaire parasite, qui ne pouvait survivre que par un afflux permanent de richesses pillées à l’extérieur, des prisonniers réduits en esclavage et des terres volées.
 
@@ -538,7 +538,7 @@ Puis l'instabilité politique s’est ajoutée à l’instabilité économique, 
 
 Un exemple classique d’interventionnisme a vu le jour à Rome lorsque l’empereur Dioclétien a voulu bloquer les prix. L'interventionnisme se définit comme l'action d’un pouvoir qui va au-delà de son rôle de maintien de l'ordre et de protection des citoyens. Il s'agit d'une tentative de contrôle du marché, visant à modifier les prix, les salaires, les taux d'intérêt et les profits.
 
-![image](assets\2\img-005.webp)
+![image](assets/2/img-005.webp)
 
 Les émissions monétaires à répétition par les empereurs successifs pour faire face à l'augmentation des dépenses militaires, avaient provoqué une flambée des prix. En 301 Dioclétien proclame l’édit du Maximum pour tenter de les plafonner. C’est un échec.
 
@@ -552,7 +552,7 @@ Ludwig von Mises décrit cet épisode qui illustre bien les effets néfastes de 
 
 Dans le sillage de Montesquieu, Philippe Fabry démontre que Rome a connu une trajectoire qui va du libéralisme au socialisme. Philippe Fabry est historien du droit, des institutions et des idées politiques. Il a enseigné à l’Université Toulouse 1 Capitole et il est l’auteur de plusieurs livres dont _Rome, du libéralisme au socialisme_, 2014.
 
-![image](assets\2\img-010.webp)
+![image](assets/2/img-010.webp)
 
 Rome fut elle la plus grande puissance libérale du monde antique ? Sombra-t-elle ensuite dans une forme de socialisme ? Définissons d’abord les termes :
 
@@ -586,7 +586,7 @@ Et il ajoute :
 
 L’idée chrétienne de la liberté s’est développée dans la théologie médiévale de Saint Augustin au IVe siècle, à Saint Thomas d’Aquin au XIIIe siècle. Quelle est cette idée ?
 
-![image](assets\3\img-036.webp)
+![image](assets/3/img-036.webp)
 
 ### La liberté est impliquée dans l’idée de péché
 
@@ -608,7 +608,7 @@ En résumé, la liberté est un bien car elle permet de s’ordonner au bien et 
 
 Dans la théologie médiévale, la providence n'est pas une intervention permanente de Dieu dans la vie des hommes, comme si Dieu agissait à notre place et sans notre consentement. Au contraire, Dieu donne à chaque créature, selon sa nature, des facultés lui permettant de subvenir elle-même à ses besoins et atteindre ainsi son plein développement. Dieu ne fait pas le bien de la créature à sa place.
 
-![image](assets\3\img-039.webp)
+![image](assets/3/img-039.webp)
 
 Et plus on s'élève dans l'échelle des êtres, du minéral à l'homme, plus Dieu délègue à sa créature le pouvoir d’agir elle-même. Il confie à l'homme la liberté de se gouverner lui-même et de gouverner le monde avec sa raison, selon la vertu de prudence.
 
@@ -616,7 +616,7 @@ Ainsi, Saint Thomas écrit (_Somme contre les Gentils_, III, 69 et 122) :
 
 > « Retirer à la perfection des créatures, c'est retirer à la perfection du pouvoir divin (...) Dieu n'est offensé par nous que du fait que nous agissons contre notre propre bien. »
 
-![image](assets\3\img-037.webp)
+![image](assets/3/img-037.webp)
 
 La Providence nous donne donc les moyens d'être à nous même notre propre providence. Et il ajoute :
 
@@ -639,7 +639,7 @@ Il existe donc un droit antérieur à la formation de l'État, un ensemble de pr
 
 Au Moyen Âge, la raison et la foi sont en concurrence pour l'accès à la vérité. A la suite d’Abélard et d’Albert Le Grand, Thomas d’Aquin, au XIIIe siècle, choisit de défendre les droits de la raison et son autonomie par rapport à la foi.
 
-![image](assets\3\img-048.webp)
+![image](assets/3/img-048.webp)
 
 Il emprunte à la pensée d'Aristote l'idée d'un ordre naturel autonome, indépendant de l'ordre céleste. Cet ordre naturel est certes transcendé par l'ordre surnaturel, mais il existe cependant à part et lui est antérieur. Il y a donc pour lui deux manières d’accéder à la vérité sur le monde et en particulier sur Dieu :
 
@@ -666,7 +666,7 @@ C'est la position médiane, qui cherche à réconcilier foi et raison. Le vrai r
 
 Le Moyen Âge chrétien est marqué, au début du XIIIe siècle, par la naissance et la multiplicité des universités en Occident. Une université est une communauté d'étudiants et de maîtres d'une même ville sous le contrôle de l'Église et comportant en principe quatre facultés : arts, théologie, droit, médecine. La théologie est conçue comme une science, sur le modèle de la science grecque.
 
-![image](assets\3\img-041.webp)
+![image](assets/3/img-041.webp)
 
 En 1200, Philippe-Auguste crée l’Université de Paris qui devient très vite l’université la plus réputée d’Europe. En 1257, Robert de Sorbon fonde un collège de théologie à l’Université de Paris qui s’appellera plus tard la Sorbonne.
 
@@ -689,7 +689,7 @@ La question des rapports entre le politique et le religieux a pris forme avec l'
 
 > « Deux amours ont donc fait deux cités : l'amour de soi jusqu'au mépris de Dieu, la cité terrestre ; l'amour de Dieu, jusqu'au mépris de soi, la cité céleste. »
 
-![image](assets\3\img-043.webp)
+![image](assets/3/img-043.webp)
 
 Nous avons donc :
 
@@ -698,7 +698,7 @@ Nous avons donc :
 
 Cependant, pour Augustin, cette cité terrestre est nécessaire. Elle est nécessaire car elle garantit la paix. Ainsi, la coexistence avec le religieux doit bien se faire et elle doit être réglée par une prédominance du pouvoir spirituel sur le pouvoir temporel. Mais il ne devrait pas y avoir de séparation radicale ni de conflit ouvert et les deux entités devraient travailler ensemble. Les historiens ont appelé cette doctrine l’augustinisme politique.
 
-![image](assets\3\img-033.webp)
+![image](assets/3/img-033.webp)
 
 ### La rivalité entre pouvoir temporel et pouvoir spirituel
 
@@ -731,7 +731,7 @@ De plus, puisque Dieu est créateur, nous voyons apparaître un nouveau concept,
 
 L'incarnation la plus connue de cette doctrine émergente est l'école de Salamanque, en Espagne au XVIe siècle. Francisco de Vitoria, l’un de ses représentants, affirme que si tout homme est créé à l’image de Dieu, aucun homme ne peut être déclaré inférieur à un autre, ni le juif, ni l’esclave noir, ni l’indien.
 
-![image](assets\3\img-042.webp)
+![image](assets/3/img-042.webp)
 
 La découverte des Amériques va constituer un véritable choc culturel, une première brèche dans l’unanimisme politico-religieux hérité de l’Antiquité. La fameuse querelle du droit des Indiens va en effet diviser les théologiens en deux camps opposés et irréconciliables.
 
@@ -743,7 +743,7 @@ Dans la _Somme Théologique_, S. Thomas pose la question suivante : faut-il obé
 
 Les scolastiques de Salamanque vont appliquer ce raisonnement au cas des Indiens : la propriété est de droit naturel. Par conséquent prendre aux Indiens leurs terres, c’est commettre un vol, autant que s’ils sont des chrétiens. Il n’est pas non plus permis de leur faire la guerre étant donné qu’il n’y a pas d’agression de leur part mais bien plutôt de la notre.
 
-![image](assets\3\img-035.webp)
+![image](assets/3/img-035.webp)
 
 L’affaire des Indiens fut la première brèche dans le monolithisme politico-religieux. Elle montra que l’unité de la société politique pouvait reposer sur une autre base que l'unité religieuse des habitants d'un même territoire, sur la base d’une commune appartenance à la nature humaine.
 
@@ -762,11 +762,11 @@ Penchons-nous sur le premier point. Le second point sera abordé dans la section
 
 Henri Pirenne, un historien belge du début du XXe siècle, a consacré une partie de ses travaux à l'analyse de l'émergence du capitalisme en Europe. Dans son ouvrage _Histoire de l'Europe_, il affirme que :
 
-![image](assets\3\img-034.webp)
+![image](assets/3/img-034.webp)
 
 > « Tous les traits essentiels du capitalisme — l'entreprise individuelle, les progrès du crédit, les pro­fits commerciaux, la spéculation, etc. — existaient déjà à partir du XIIe siècle dans les villes-états italiennes, Venise, Gênes ou Florence ».
 
-![image](assets\3\img-044.webp)
+![image](assets/3/img-044.webp)
 
 Selon Pirenne, ces cités marchandes, à la faveur de leur dynamisme commercial et de leur position stratégique sur les routes maritimes, avaient développé des pratiques économiques caractéristiques du capitalisme naissant. Il met notamment en avant :
 
@@ -781,13 +781,13 @@ Pirenne observe que ces pratiques, bien que présentes dans d'autres régions d'
 
 Les Écritures condamnent le prêt à intérêt, appelé usure, considérant que prêter de l'argent contre intérêt revenait à exploiter les emprunteurs vulnérables. Toutefois, dans la pratique, l’Eglise fermait les yeux sur la question.
 
-![image](assets\3\img-046.webp)
+![image](assets/3/img-046.webp)
 
 Jacques Le Goff est un historien français spécialiste de la culture et des mentalités médiévales. A la suite de Pirenne, il reconnaît la présence de germes du capitalisme dès le Moyen Âge, notamment dans les villes italiennes, où des pratiques telles que l'entreprise individuelle, la recherche du profit et l'utilisation d'instruments de crédit étaient déjà présentes.
 
 Or Le Goff souligne dans _L'usure au Moyen Âge_ (1967, republié en 1986 sous le titre : _La bourse et la vie ; économie et religion au moyen-age_) que dès le XIIIe siècle, saint Albert le Grand avait théorisé la notion « d’intérêt légitime » développée après lui par saint Thomas d’Aquin. Malgré les interdits religieux, la pratique du crédit existait et répondait à des besoins économiques réels. Longtemps avant Adam Smith, ils avaient compris que le prêt à intérêt n’était pas de l’usure mais une façon de permettre la rémunération du risque pour le prêteur et l’investissement pour l’emprunteur, qui sont à la base du capitalisme.
 
-![image](assets\3\img-047.webp)
+![image](assets/3/img-047.webp)
 
 Toutefois, selon l’historien français, l'essor du capitalisme doit être replacé dans un contexte plus large de transformations économiques, sociales et culturelles qui se sont déroulées sur plusieurs siècles. Le Goff souligne notamment l'importance de la Révolution commerciale des XVe et XVIe siècles, marquée par l'expansion des échanges maritimes et la découverte de nouvelles routes commerciales, qui a stimulé l'accumulation de capitaux et la prépondérance de la logique marchande.
 
@@ -795,7 +795,7 @@ Toutefois, selon l’historien français, l'essor du capitalisme doit être repl
 
 L'étude systématique des lois économiques commence au Haut Moyen Âge. Les premiers économistes sont les théologiens scolastiques de l'école de Paris. Le premier d'entre eux qui écrit un traité scientifique entièrement consacré â un sujet économique s'appelle Nicolas d'Oresme (1325-1382). Vers 1360, il rédige son _Traité sur l'origine, la nature, le droit et les mutations des monnaies_ qui résume et développe les idées des scolastiques de son temps.
 
-![image](assets\3\img-031.webp)
+![image](assets/3/img-031.webp)
 
 Au cœur de son analyse monétaire se trouve le problème des « mutations » de la monnaie, c'est-à-dire des altérations du contenu métallique des pièces et de leur dénomination. Ces altérations ont lieu depuis l'aube des temps et sont bien documentées pour l'Antiquité et le Moyen Âge. Leur effet le plus visible est de changer le pouvoir d'achat de l'unité monétaire, en particulier de le diminuer. Il s'agit alors d'une forme primitive d'inflation qu’Oresme condamne clairement comme un mal.
 
@@ -821,7 +821,7 @@ De plus, si deux monnaies différentes profitent du cours légal, les agents von
 
 A partir de la Renaissance, l'Europe allait être ravagée par des guerres de religion. La tolérance fut donc un des grands combats des Lumières.
 
-![image](assets\4\img-112.webp)
+![image](assets/4/img-112.webp)
 
 Pour certains la méthode scientifique allait unifier les hommes par delà les préjugés dans un même regard sur le monde. L'attraction universelle n'est-elle pas la même pour un catholique, un protestant un juif ou un athée ? Ainsi l’Encyclopédie de Diderot et d’Alembert constitue la tentative de promouvoir un savoir universel, capable d’unir les hommes.
 
@@ -831,7 +831,7 @@ Voltaire pensera la même chose à propos du commerce. Celui-ci peut instaurer l
 
 Pour Voltaire, c’est d’abord la faillibilité de l’homme qui constitue le fondement d’une doctrine de la tolérance et de la liberté politique. Il écrit dans son _Dictionnaire philosophique_ (1764) : « La tolérance est la conséquence nécessaire de la conscience que nous avons d’être faillible. L’erreur est humaine et nous faisons tous sans cesse des fautes. Pardonnons nous mutuellement nos bêtises c’est la première loi de la nature ».
 
-![image](assets\4\img-078.webp)
+![image](assets/4/img-078.webp)
 
 Mais dans ses _Lettres Philosophiques_ (1734), Voltaire apporte un autre point de vue. Il observe qu’en Angleterre le commerce favorise la tolérance religieuse qui est une composante essentielle de la paix civile et donc du bonheur. Il écrit ces lettres pour critiquer les guerres de religion en France, attisées par un pouvoir politique absolu et intrusif. Il s’agit de la première critique radicale de l’Ancien Régime.
 
@@ -859,7 +859,7 @@ Dans la _Dixième Lettre_, « Sur le commerce », Voltaire décrit ainsi l’ét
 
 Pourtant la France ne manquait pas de grands esprits. On le sait peu mais Anne Robert Jacques Turgot, baron de Laulne fut d’abord un penseur de premier plan, avant de devenir Contrôleur général des finances de Louis XVI. Il fut l’auteur d’un magistral traité d’économie politique, _Réflexions la formation et la distribution des richesses_ (1766), antérieur à _La richesse des nations_ d’Adam Smith (1776).
 
-![image](assets\4\img-074.webp)
+![image](assets/4/img-074.webp)
 
 Ses premiers écrits témoignent de son engagement en faveur de la philosophie des Lumières. En 1754, il publie ses _Lettres sur la tolérance civile_ et en 1757, plusieurs articles écrits pour _L’Encyclopédie_ de Diderot et d’Alembert.
 
@@ -878,7 +878,7 @@ En d’autres mots, être tolérant ce n’est pas être hostile à la religion.
 
 On associe souvent le « libéralisme économique » à une tradition anglo-saxonne issue d’Adam Smith pour l’opposer au « libéralisme politique » qui serait issu des Lumières continentales, en particulier de la France. Ce schéma est faux.
 
-![image](assets\4\img-069.webp)
+![image](assets/4/img-069.webp)
 
 C’est en réaction au mercantilisme et plus généralement aux idées de l’Ancien Régime qu’est née la science économique en France. Avec les Lumières s’ouvre une période dans laquelle des philosophes se font appeler « économistes », ce sont les physiocrates.
 
@@ -897,7 +897,7 @@ On voit dès lors émerger au sein des Lumières deux conceptions très différe
 
 Cette formule est apparue lorsque Jean-Baptiste Colbert, principal conseiller de Louis XIV, demanda un jour à des marchands : « Que puis-je faire pour vous ? » L’un d’eux, nommé François Legendre lui répondit : « Laissez-nous faire ! »
 
-![image](assets\4\img-051.webp)
+![image](assets/4/img-051.webp)
 
 La formule fut reprise par les Physiocrates, François Quesnay, le marquis d’Argenson, puis par Vincent de Gournay : « Laissez-faire, laissez passer ». C’est devenu leur devise.
 
@@ -915,13 +915,13 @@ Jusqu’à la Révolution française, la société vit dans une économie aristo
 
 Pourtant depuis le Moyen-Âge, comme nous l’avons vu, l’économie marchande se développe. Les marchands s’enrichissent et gagnent de plus en plus de liberté économique.
 
-![image](assets\4\img-068.webp)
+![image](assets/4/img-068.webp)
 
 Le marché c’est l’échange volontaire à un prix débattu. Le marché améliore le sort matériel, intellectuel et politique de chacun car il permet d’acquérir des espaces d’autonomie et d’initiative.
 
 En effet, l’homme veut naturellement améliorer son sort et celui de ses proches, par l’échange de biens et de services. D’où la volonté de ces nouveaux philosophes, les « économistes », de permettre au peuple de se procurer par lui-même un revenu suffisant et ainsi d’accéder à ce que Kant appelle dans son opuscule _Qu’est-ce que les Lumières ?_ sa « majorité », son autonomie de décision et d’action.
 
-![image](assets\4\img-060.webp)
+![image](assets/4/img-060.webp)
 
 Pour les physiocrates, la liberté ne divise pas. Combattre les privilèges politiques et lutter contre les rentes économiques ne font qu'un. La grande nouveauté des économistes modernes, à l’aube du XVIIIe siècle, est qu’ils s’intéressent à chaque individu avec la volonté de lui rendre sa capacité d’action tout en réfléchissant à la manière de contenir les passions et les intérêts par le marché libre.
 
@@ -946,7 +946,7 @@ En bref, si chacun peut poursuivre librement son intérêt privé dans le respec
 
 Lors de son court passage au ministère des finances (Contrôleur général), d’août 1774 à mai 1776, Ann-Robert Jacques Turgot tenta des réformes majeures pour mettre un terme aux dépenses somptuaires, aux nombreux monopoles locaux et pour revenir au libre-échange. En Il ira même jusqu’à sermonner le roi Louis XVI en ces termes : « Il faut, Sire, vous armer contre votre bonté, de votre bonté même, considérer d’où vous vient cet argent que vous pouvez distribuer à vos courtisans ».
 
-![image](assets\4\img-077.webp)
+![image](assets/4/img-077.webp)
 
 En 1774 il publia ses Six Édits pour abolir les jurandes et maîtrises (les corporations qui étaient devenues des monopoles et des barrières à l’entrée dans le marché du travail), abolir les droits de douane internes sur le commerce du grain, abolir le travail forcé (la corvée) et établir la tolérance envers les protestants.
 
@@ -968,7 +968,7 @@ Consacrant un chapitre à « L’Éclat de Turgot », Murray Rothbard dans son h
 
 En 1776, le philosophe Étienne Bonnot de Condillac, publie _Le Commerce et le Gouvernement_, signant sans doute l’un des plus magnifiques plaidoyer de cette époque en faveur du libre échange et de la liberté individuelle.
 
-![image](assets\4\img-053.webp)
+![image](assets/4/img-053.webp)
 
 _Le Commerce et le Gouvernement_ contient ce qui sera appelé plus tard une théorie de la subjectivité de la valeur, ce qui lui vaudra tous les éloges des économistes autrichiens, à commencer par Menger. A la suite de Turgot, mais avec une plus grande clarté, Condillac affirme que la valeur réside non dans le travail mais dans le fait que chacun trouve un intérêt dans l’échange :
 
@@ -982,7 +982,7 @@ C’est également un traité de philosophie en ce qu’il démontre comment l�
 
 En 1776, un anglais nommé Thomas Paine publie en Amérique un pamphlet virulent qui critique la monarchie anglaise et plaide pour l'indépendance des colons américains : _Le Sens commun_ (en anglais _Common Sense)_.
 
-![image](assets\4\img-065.webp)
+![image](assets/4/img-065.webp)
 
 Paine y argumente que :
 
@@ -1004,11 +1004,11 @@ Thomas Paine, grâce à son pamphlet, a joué un rôle crucial dans la révoluti
 
 Le 4 juillet 1776, à Philadelphie, où ils sont réunis en congrès (en anglais, « Convention »), les représentants des Treize Colonies anglaises d'Amérique du nord adoptent une résolution disposant que les « États-Unis sont, et doivent en droit être, des États libres et indépendants ». La résolution est appuyée par John Adams, (l'un des inspirateurs du Tea-party) et Benjamin Franklin, délégués du Massachussets. La déclaration d’indépendance sera rédigée par Thomas Jefferson, délégué de la Virginie.
 
-![image](assets\4\img-066.webp)
+![image](assets/4/img-066.webp)
 
 Au cours des années qui suivent, les Français La Fayette, Rochambeau, l'amiral de Grasse, le comte d'Estaing, le général Duportail, le marquis de la Rouerie, le commandant Pierre L'Enfant, l'écrivain Beaumarchais et bien d'autres combattirent aux côtés des Insurgents pour les libérer du joug du roi d’Angleterre.
 
-![image](assets\4\img-081.webp)
+![image](assets/4/img-081.webp)
 
 141 ans plus tard, le 4 juillet 1917, en pleine Guerre mondiale, une cérémonie est organisée pour les premiers soldats de l’AEF arrivés à Paris au cimetière de Picpus sur la tombe de La Fayette, le « héros des deux mondes ». A cette occasion le capitaine Charles E. Stanton de l’état-major du général Pershing prononce un discours resté célèbre :
 
@@ -1024,7 +1024,7 @@ En 1789, c’est encore La Fayette, avec Jefferson, qui vont jeter les première
 
 Adam Smith publie en 1776 _Recherches sur la nature et les causes de la richesse des nations_. Une œuvre foisonnante qui le classe souvent comme économiste alors qu’il enseignait la philosophie morale à l’université de Glasgow. De façon caricaturale, on a retenu de lui qu’il était le père de l'économie moderne.
 
-![image](assets\4\img-070.webp)
+![image](assets/4/img-070.webp)
 
 En réalité Smith doit beaucoup aux économistes Quesnay et Turgot qu’il a rencontré lors d’un voyage de plus d’un an en France. Dans ce livre, il décrit notamment un « système simple de liberté naturelle » dans lequel les individus, poursuivant leurs propres intérêts, sont conduits « par une main invisible » à promouvoir le bien-être de la société dans son ensemble.
 
@@ -1055,7 +1055,7 @@ Jusqu’au XVIIIème siècle, le problème politique principal pour ces philosop
 
 L’idée est insufflée par Locke au XVIIème puis reprise par Rousseau. Le pouvoir souverain doit non seulement provenir de la volonté libre du peuple mais aussi résider en elle. C’est la théorie rousseauiste de la souveraineté de la volonté générale, ce qu’on appelle aujourd’hui la démocratie.
 
-![image](assets\4\img-071.webp)
+![image](assets/4/img-071.webp)
 
 Rousseau conçoit le peuple comme un individu autonome capable de se soumettre lui-même aux lois qu’il institue. La volonté libre du peuple constitue le seul fondement juste de la souveraineté. Rousseau développera jusque dans ses ultimes conséquences cet humanisme juridique, caractéristique de la Modernité, en concevant le peuple comme un individu capable de s'autodéterminer librement ou comme une volonté générale. Ainsi, le contrat implique la soumission à des lois que l'homme comme volonté générale se donne à lui-même comme volonté particulière. La théorie de la volonté générale ou de la souveraineté du peuple permet ainsi de concilier liberté et soumission. L'auto-institution de la loi ou l'autonomie politique constitue bien depuis Rousseau une composante essentielle de la démocratie.
 
@@ -1065,7 +1065,7 @@ Mais la question de l’origine de la souveraineté n’est pas la seule. La ré
 
 L’un des philosophes des Lumières dont l’influence a été très forte en France et en Amérique, est John Locke. Il fut l’inspirateur des Pères fondateurs des États-Unis Unis mais aussi de la Déclaration des droits de l’homme et du citoyen en 1789
 
-![image](assets\4\img-063.webp)
+![image](assets/4/img-063.webp)
 
 Tous les systèmes précédents avaient considéré que les libertés ne sont que des privilèges accordés par le pouvoir en vertu d’une autorisation qui peut être révoquée à tout moment. Pour Locke, la vie de l’homme est sienne en vertu d’un droit naturel (ce qui signifie : en vertu d’un principe moral inhérent à la nature humaine) et que le seul but moral d’un gouvernement est la protection des droits individuels.
 
@@ -1077,7 +1077,7 @@ Thomas Jefferson a inscrit la théorie lockéenne des droits inaliénables dans 
 
 > « Nous tenons ces vérités pour évidentes, que tous les hommes sont créés égaux, qu'ils sont dotés par leur Créateur de certains droits inaliénables, parmi eux, la vie, la liberté et la poursuite du bonheur ».
 
-![image](assets\4\img-058.webp)
+![image](assets/4/img-058.webp)
 
 Enfin, l’article 2 de la Déclaration française des droits de 1789 s’inspire également de cette tradition lockéenne du droit naturel : « le but de toute association politique est la conservation des droits naturels et imprescriptibles de l’homme. Ces droits sont la liberté, la propriété, la sûreté, et la résistance à l’oppression. »
 
@@ -1087,7 +1087,7 @@ La Révolution américaine fut conduite par des hommes qui parlaient de droits f
 
 Au XIXe siècle, Alexis de Tocqueville, philosophe politique français, a tenté de cerner ces différences entre deux révolutions sœurs. Il attribue la réussite de la Révolution américaine à plusieurs facteurs.
 
-![image](assets\4\img-076.webp)
+![image](assets/4/img-076.webp)
 
 D’abord dans la manière de définir la république. La République française est une et indivisible. La République américaine est composée d'États souverains, possédant une juridiction particulière et des intérêts locaux. Le fédéralisme est considéré en France comme une trahison. En Amérique, la trahison consisterait à vouloir imposer l'unité. Jusqu’à la guerre civile américaine en tout cas, l'Union dans la diversité des États, faisait la force de la Fédération.
 
@@ -1103,7 +1103,7 @@ On trouve dans cette formulation une protection explicite contre la tyrannie de 
 
 L’abbé Sieyès (1748-1836) est considéré comme le père de la Révolution française. Il est l’auteur de _Qu'est-ce que le tiers état ?_, en janvier 1789
 
-![image](assets\4\img-073.webp)
+![image](assets/4/img-073.webp)
 
 Le tiers état est l'ensemble des personnes n'appartenant ni au clergé, ni à la noblesse. Dès les premières lignes de son célèbre pamphlet, l’abbé Sieyès fait l’éloge des libertés individuelles et de la libre concurrence :
 
@@ -1117,11 +1117,11 @@ La confiscation des biens de l’Église avait pour but de conjurer la crise fin
 
 Par ailleurs, comme Dupont de Nemours l’avait prédit, l’émission de fausse monnaie ne fit qu’aggraver la crise, provoquant une inflation généralisée et la chute brutale de la valeur des Assignats. En août 1792 les émeutes de la faim entrainèrent à leur tour l’insurrection de Paris, l’exécution de Louis XVI en janvier 1793, puis la Terreur.
 
-![image](assets\4\img-080.webp)
+![image](assets/4/img-080.webp)
 
 En 1795, cinq ans après la première émission, le papier-monnaie, avait perdu 99 % de sa valeur. La Révolution française s'est poursuivie sous le Directoire jusqu'en 1799, lorsque Napoléon a pris le pouvoir par un coup d'État. Il devient Premier Consul de la République française avant d'être couronné Empereur en 1804. Ce fut l’une des premières contradictions flagrantes avec la Déclaration des droits de l’homme qui proclamait pourtant que la propriété privée était inviolable.
 
-![image](assets\4\img-050.webp)
+![image](assets/4/img-050.webp)
 
 En Amérique, il n'y eut pas de dirigisme économique, ni de faillite monétaire comme celle des Assignats. Et surtout, il n’y eut pas non plus de proscriptions, d'émigrations en masse, pas de guillotine, pas de massacres et pas de Terreur. On voit, tout de suite, la différence qui, dans leurs moyens d'action, sépare la révolution américaine de la révolution française.
 
@@ -1139,7 +1139,7 @@ C’est d’ailleurs le sens de la remarque de Friedrich Hayek dans son livre _L
 
 Selon Benjamin Constant, la liberté, dans nos sociétés modernes, ne peut plus se comprendre à la manière des sociétés de l’Antiquité comme participation directe aux affaires de la cité.
 
-![image](assets\5\img-103.webp)
+![image](assets/5/img-103.webp)
 
 ### Liberté dans la vie privée
 
@@ -1147,7 +1147,7 @@ Chez les Anciens, l’individu est souverain dans les affaires publiques, mais e
 
 > « La liberté des Anciens se composait de la participation active et constante au pouvoir collectif. Notre liberté, à nous, doit se composer de la jouissance paisible de l’indépendance privée ; il s’ensuit que nous devons être bien plus attachés que les anciens à notre indépendance individuelle. » _De la liberté des Anciens comparée à celle des Modernes_ (1819).
 
-![image](assets\5\img-084.webp)
+![image](assets/5/img-084.webp)
 
 La liberté moderne c’est la liberté civile, dont la liberté économique fait partie et qui repose sur le droit à la vie privée. C’est le droit de n’être soumis à aucun arbitraire, le droit d’expression, de réunion, de déplacement, de culte et d’industrie. Pas de liberté sans la possibilité de choisir son mode de vie et ses valeurs, donc pas de liberté sans la possibilité de se soustraire à la communauté et par conséquent pas de liberté sans une limitation de l’État pour permettre l'existence de cet espace privé. C’est une liberté qui correspond à ce que les Américains appellent les droits civiques.
 
@@ -1155,11 +1155,11 @@ On retrouve cette définition de la liberté chez John Stuart Mill :
 
 > « La seule liberté digne de ce nom, est celle de travailler à notre propre bien de la manière qui nous est propre, pour autant que nous ne cherchions pas à en priver les autres ou à leur faire obstacle dans leurs efforts pour l’obtenir. (…) L’humanité gagnera davantage à laisser chaque homme vivre comme bon lui semble qu’à le contraindre à vivre comme bon semble aux autres. » _De la liberté_, 1859
 
-![image](assets\5\img-097.webp)
+![image](assets/5/img-097.webp)
 
 Mill trace les limites de la souveraineté de l’État : elle s’arrête là où commence celle de l’individu. Si une action individuelle n’a aucune conséquence néfaste sur autrui, alors l’individu est complètement libre de l’accomplir. L’État doit encadrer les relations interindividuelles, mais il ne peut aller au-delà, en faisant de l’ingérence dans la vie privée des individus. Si l’individu se nuit à lui-même, l’État ne peut rien faire, à part « lui faire des remontrances » ou essayer de le « raisonner » ou le « persuader » : il ne peut ni contraindre, ni punir. Car ajoute Mill : « La seule raison légitime pour laquelle un État peut user de la force contre un de ses membres, contre sa volonté, est d’empêcher que du mal soit fait à autrui. »
 
-![image](assets\5\img-101.webp)
+![image](assets/5/img-101.webp)
 
 Le pouvoir politique correspondant à la liberté des Modernes est donc un pouvoir limité : « Que l’autorité se borne à être juste, nous nous chargeons de notre bonheur », clame Benjamin Constant. Ce n’est pas à l’État de nous dire comment être heureux.
 
@@ -1173,7 +1173,7 @@ En effet, dans ses _Principes de politique_, Benjamin Constant affirme :
 
 > « La souveraineté du peuple n’est pas illimitée, elle est circonscrite dans les bornes que lui tracent la justice et les droits des individus. La volonté de tout un peuple ne peut rendre juste ce qui est injuste. »
 
-![image](assets\5\img-094.webp)
+![image](assets/5/img-094.webp)
 
 C’est une nouvelle critique de Rousseau et du _Contrat Social_ : même une volonté générale est soumise à des limites et elle ne peut changer ce qui relève du droit naturel. Il existe un droit antérieur et supérieur à l’autorité politique : c’est le droit naturel. Ce droit fixe les bornes du pouvoir politique et limite les libertés individuelles.
 
@@ -1192,13 +1192,15 @@ Autrement dit, dans une société libre, il est nécessaire d'établir une front
 
 Alexis de Tocqueville fut un observateur attentif de la démocratie et un critique de l’individualisme démocratique.
 
-![image](assets\5\img-095.webp)
+![image](assets/5/img-095.webp)
 
-L'analyse tocquevillienne de la démocratie ne fait que prolonger en un sens la distinction de Constant entre la liberté des Anciens et celle des Modernes. Dans un article de 1836 (_État social et politique de la France avant et depuis 1789_), Tocqueville établit une comparaison méthodique entre la liberté aristocratique et la liberté démocratique. La première se définit comme « La jouissance d'un privilège » et Tocqueville de citer en exemple le citoyen romain qui tient sa liberté non de la nature mais de son appartenance à Rome. La seconde notion, qui est « la notion juste de la liberté », consiste dans un « droit égal et imprescriptible à vivre indépendant de ses semblables. » Cette notion moderne de la liberté n'est donc pas comme la première une notion politique, elle se fonde sur le droit naturel et elle est « juste » parce qu'elle s'étend également à tout homme. Il écrit : « D’après la notion moderne, la notion démocratique, et j’ose le dire la notion juste de la liberté, chaque homme, étant présumé avoir reçu de la nature les lumières nécessaires pour se conduire, apporte en naissant un droit égal et imprescriptible à vivre indépendant de ses semblables, en tout ce qui n’a rapport qu’à lui-même, et à régler comme il l’entend sa propre destinée. »
+L'analyse tocquevillienne de la démocratie ne fait que prolonger en un sens la distinction de Constant entre la liberté des Anciens et celle des Modernes. Dans un article de 1836 (_État social et politique de la France avant et depuis 1789_), Tocqueville établit une comparaison méthodique entre la liberté aristocratique et la liberté démocratique. La première se définit comme « La jouissance d'un privilège » et Tocqueville de citer en exemple le citoyen romain qui tient sa liberté non de la nature mais de son appartenance à Rome. 
+
+La seconde notion, qui est « la notion juste de la liberté », consiste dans un « droit égal et imprescriptible à vivre indépendant de ses semblables. » Cette notion moderne de la liberté n'est donc pas comme la première une notion politique, elle se fonde sur le droit naturel et elle est « juste » parce qu'elle s'étend également à tout homme. Il écrit : « D’après la notion moderne, la notion démocratique, et j’ose le dire la notion juste de la liberté, chaque homme, étant présumé avoir reçu de la nature les lumières nécessaires pour se conduire, apporte en naissant un droit égal et imprescriptible à vivre indépendant de ses semblables, en tout ce qui n’a rapport qu’à lui-même, et à régler comme il l’entend sa propre destinée. »
 
 Tocqueville est attentif à cerner tous les effets politiques et culturels de cette nouvelle manière d’être, typiquement moderne. Admirateur de Pascal, il veut dresser le tableau des grandeurs et des misères de la démocratie.
 
-![image](assets\5\img-085.webp)
+![image](assets/5/img-085.webp)
 
 En 1841 dans _La Démocratie en Amérique_, il analyse ce principe démocratique qui s'affirme dans l'égalisation des conditions contre la hiérarchie des classes et l’autorité des traditions. Et il constate que ce processus s'accompagne logiquement de la dissolution des influences sociales, des liens de dépendance et atomise le lien social, menaçant ainsi l'exercice même de la liberté et de la responsabilité politique du citoyen. De plus, la perte des grands idéaux antiques (la vertu, le bien commun) conduit à l'appauvrissement du sens de la vie, « aux petits et vulgaires plaisirs », à l'ennui et à l'inquiétude.
 
@@ -1230,7 +1232,7 @@ Dans ce discours, Tocqueville compare le socialisme à l’Ancien Régime, pour 
 
 Que pensait Frédéric Bastiat de la démocratie ? Il a répondu dès 1846 : « Je suis de la démocratie, si vous entendez par ce mot : À chacun la propriété de son travail, liberté pour tous, égalité pour tous, justice pour tous, et paix entre tous. » (_Libre-échange_).
 
-![image](assets\5\img-088.webp)
+![image](assets/5/img-088.webp)
 
 Mais en 1848, après la révolution de février, Bastiat est élu député des Landes dans une assemblée où les socialistes font une entrée triomphante. Ces derniers ne demandent qu’une seule chose : qu’on inscrive dans la loi le principe de la fraternité. Autrement dit, faire voter des lois pour fournir du travail, de l’éducation et des soins de santé à tous.
 
@@ -1244,7 +1246,7 @@ L’État devient alors selon les propos de Bastiat
 
 Bastiat développe aussi l’idée que le conflit naît lorsque la loi sort de son juste rôle. Dans son célèbre pamphlet [_La Loi_](http://bastiat.org/fr/la_loi.html), il montre pourquoi et comment la loi est devenue « le champ de bataille de toutes les cupidités », c’est-à-dire une source de privilèges, de rentes de situation et d’arbitraire fiscal. Dès que l’on admet en principe que la loi peut être détournée de sa vraie mission, qu'elle peut violer les propriétés au lieu de les garantir, il s’ensuit nécessairement une lutte des classes, soit pour se défendre contre la spoliation, soit pour l'organiser aussi à son profit.
 
-![image](assets\5\img-098.webp)
+![image](assets/5/img-098.webp)
 
 Dans les cas où la loi se contente de faire respecter les droits de chacun et de garantir _« l’organisation collective du droit individuel de légitime défense »_, personne n’est dans la possibilité de l’instrumentaliser à son profit au détriment de tous, à tel point que la forme même du gouvernement devient une question secondaire.
 
@@ -1263,11 +1265,11 @@ Conclusion de Bastiat :
 
 C’est au cours du XIXe siècle qu’émerge la critique du capitalisme et en particulier la critique marxiste.
 
-![image](assets\5\img-089.webp)
+![image](assets/5/img-089.webp)
 
 A quoi bon le droit de parler, d’écrire et de voter, s’écriait Marx, si la vie quotidienne est une lutte pour la survie ? A partir d’un certain seuil, la pauvreté équivaut à la servitude. L’ordre social ne profite donc à tous que si l’on applique le principe d’une juste répartition des biens. C’est cette critique du libéralisme qui conduisit Marx à envisager la nécessité d’une maîtrise rationnelle et planifiée de l’ordre social. Dès lors, à l’État minimal des libéraux doit succéder un État fort capable d’instaurer l’égalité réelle ce qui, selon Marx, va jusqu’à la suppression de la propriété privée et sa collectivisation. Dans une version plus adoucie, la « social-démocratie », on demande à l’État de garantir non plus seulement les droits de l’homme abstraits mais les droits de l’homme concrets. De nouveaux droits sont créés, les droits sociaux et économiques, garantis par l’État : droit au travail, droit au logement, droit à la santé (gratuite), droit à l’éducation (gratuite).
 
-![image](assets\5\img-091.webp)
+![image](assets/5/img-091.webp)
 
 ### Le mythe de l’État impartial
 
@@ -1283,7 +1285,7 @@ Cette illusion politique du libéralisme est le versant profane de l’illusion 
 
 En fait, pour Marx et conformément au matérialisme historique, c’est l’aliénation économique qui est à la racine de l’aliénation politique comme de l’aliénation religieuse. Dans l’aliénation économique, fruit du capitalisme (défini comme la propriété privée des instruments de production), l’ouvrier est obligé de vendre sa force de travail comme une marchandise. De plus il est dépossédé du produit de son travail qui est la propriété du patron. Il est donc aliéné, c’est-à-dire séparé de lui-même car son travail lui devient quelque chose d’étranger qu’il accomplit par force, pour survivre. Or le travail, pour Marx, est l’acte proprement humain, celui par lequel se réalise l’essence même de l’homme, à savoir la liberté. C’est pourquoi la libération du travail a aussi pour signification de rendre l’homme à sa dignité et à son humanité.
 
-![image](assets\5\img-104.webp)
+![image](assets/5/img-104.webp)
 
 La révolution politique est donc une illusion, selon lui, tant qu’elle ne s’accompagne pas d’une révolution économique et sociale capable de libérer l’homme de la servitude capitaliste et de réaliser ainsi l’unité entre le travailleur et le citoyen, entre la société et l’État, la sphère privée et la sphère publique. La liberté et l’égalité formelles du citoyen deviendront ainsi réelles, dans la société sans classes.
 
@@ -1292,7 +1294,7 @@ La révolution politique est donc une illusion, selon lui, tant qu’elle ne s�
 
 L'école autrichienne d'économie, fondée par Carl Menger à la fin du XIXe siècle, s'est opposée dès le départ aux théories de Karl Marx.
 
-![image](assets\5\img-083.webp)
+![image](assets/5/img-083.webp)
 
 ### La lutte des classes
 
@@ -1306,7 +1308,7 @@ Par exemple, un employeur embauche un travailleur parce qu'il a besoin de ses co
 
 Ludwig von Mises souligne que Marx n’a pas su distinguer dans les droits de l’homme ce qui relève de l’idéologie bourgeoise et ce qu’ils signifient dans la pratique, les bouleversements qu'ils impliquent dans la vie sociale. Beaucoup de penseurs critiques des droits de l’homme ont commis la même erreur. Ce fut aussi le cas de contre-révolutionnaires, comme Joseph de Maistre ou Louis de Bonald.
 
-![image](assets\5\img-092.webp)
+![image](assets/5/img-092.webp)
 
 Dans _Éthique de la liberté_ et _Anatomie de l’Etat_, Murray Rothbard a expliqué que l'exploitation n'a de sens que comme une agression contre la propriété privée et que seul l’État obtient ses revenus par l’agression, c’est-à-dire par la fiscalité, par la dette, par la planche à billets et donc par l’inflation. En réalité c'est l'intervention étatique, et non la lutte des classes, qui est la source de la violence et des conflits dans la société. L'État, en s'appropriant des ressources et en régulant l'économie, crée des distorsions et des injustices qui donnent lieu à des conflits et à la répression. En finir avec exploitation suppose donc de réduire les pouvoirs de la caste prédatrice : l’État.
 
@@ -1318,7 +1320,7 @@ Le concept de lutte des classes peut aussi conduire à l’idée que tout est pe
 
 Mises a inventé le concept de « polylogisme » pour expliquer ce sophisme. « Poly » signifie plusieurs et « logie » renvoie au discours rationnel et à la logique. Il y aurait donc, selon Marx, plusieurs logiques incompatibles, celle des prolétaires et celle des bourgeois.
 
-![image](assets\5\img-096.webp)
+![image](assets/5/img-096.webp)
 
 Or jusqu'au milieu du XIXe siècle, personne n'osait contester le fait que la structure logique de l'esprit était identique et commune à tous les êtres humains. Toutes les relations humaines sont fondées sur l'hypothèse d'une structure logique uniforme. Les hommes peuvent entrer en discussion parce qu'ils peuvent faire appel à quelque chose de commun à tous, à savoir la structure logique de la raison.
 
@@ -1334,7 +1336,7 @@ C’est pourquoi Georges Sorel, l'importateur du marxisme en France, dira que la
 
 Les Autrichiens affirment que la théorie de la valeur-travail de Marx, selon laquelle la valeur d'une marchandise est déterminée par la quantité de travail nécessaire à sa production, est erronée. Ils soutiennent que la valeur est subjective et déterminée par les préférences des consommateurs, et non par les coûts de production.
 
-![image](assets\5\img-087.webp)
+![image](assets/5/img-087.webp)
 
 Eugen von Böhm-Bawerk, l'un des premiers économistes autrichiens, a critiqué la théorie de la valeur-travail de Marx dans son ouvrage _Wert, Kapital und Zins_ (1886). Böhm-Bawerk a soutenu que la théorie de Marx reposait sur une erreur fondamentale, à savoir que toutes les unités de travail sont identiques. En réalité, a-t-il argumenté, certains travaux sont plus pénibles ou plus productifs que d'autres, et c'est ce qui détermine la valeur d'une marchandise.
 
@@ -1346,7 +1348,7 @@ Friedrich Hayek a développé une théorie du profit basée sur le concept d'inc
 
 Les Marxistes croient que le socialisme, un système économique dans lequel les moyens de production sont détenus et contrôlés par les travailleurs, est inévitablement supérieur au capitalisme. Les Autrichiens, en revanche, affirment que le socialisme est impossible à réaliser dans la pratique, car il nécessiterait un degré irréaliste de planification centrale.
 
-![image](assets\5\img-090.webp)
+![image](assets/5/img-090.webp)
 
 Dès 1922, dans son livre _Socialisme,_ Ludwig von Mises démontre que le socialisme conduirait à une pénurie généralisée, car les planificateurs centraux ne seraient pas en mesure de faire des calculs économiques précis sans le système de prix fourni par le marché.
 
@@ -1355,7 +1357,7 @@ Dès 1922, dans son livre _Socialisme,_ Ludwig von Mises démontre que le social
 
 Alarmé par la montée de l'interventionnisme des gouvernements dans les économies des démocraties occidentales, Hayek écrit _La Route de la Servitude_ (_The Road to Serfdom)_, comme une critique philosophique des collectivismes, qu’ils soient de droite ou de gauche. Tirée à plusieurs millions d’exemplaires, grâce au _Reader’s Digest_, ce livre a largement contribué à la notoriété d’Hayek aux États-Unis.
 
-![image](assets\5\img-100.webp)
+![image](assets/5/img-100.webp)
 
 ### La séduction du collectivisme
 
@@ -1373,7 +1375,7 @@ A l'inverse, la planification de l’économie et de la société en général, 
 
 Dès les premières pages, Hayek établit un parallèle entre le triomphe des idéaux socialistes en Occident et le succès concomitant des utopies totalitaires.
 
-![image](assets\5\img-093.webp)
+![image](assets/5/img-093.webp)
 
 > « Peu de gens, prévient-il dans sa préface, sont prêts à reconnaître que l’ascension du fascisme et du nazisme a été non pas une réaction contre les tendances (…) de la période antérieure, mais un résultat inévitable de ces tendances. C’est une chose que la plupart des gens ont refusé de voir, même au moment où l’on s’est rendu compte de la ressemblance qu’offraient certains traits négatifs des régimes intérieurs de la Russie communiste et de l’Allemagne nazie. Le résultat en est que bien des gens qui se considèrent très au-dessus des aberrations du nazisme et qui en haïssent très sincèrement toutes les manifestations, travaillent en même temps pour des idéaux dont la réalisation mènerait tout droit à cette tyrannie abhorrée. »
 

@@ -11,9 +11,9 @@ objectives:
 
 Une histoire philosophique de la liberté explore la liberté à travers l'histoire. Damien Theillier examine deux philosophies politiques : la liberté et le pouvoir. Il analyse des penseurs comme Frédéric Bastiat, Lord Acton, Karl Marx et Murray Rothbard, mettant en lumière leurs visions sur la production, la spoliation, la lutte des classes, et l'État.
 
-Le cours remonte aux origines de la liberté dans l'Antiquité, avec les Grecs et les Romains, en passant par le Moyen ge, où la liberté humaine est discutée dans les contextes religieux et politiques. Il montre comment les idées de liberté ont évolué avec la naissance des universités et les premières formes de capitalisme dans les villes italiennes.
+Le cours remonte aux origines de la liberté dans l'Antiquité, avec les Grecs et les Romains, en passant par le Moyen-Age, où la liberté humaine est discutée dans les contextes religieux et politiques. Il montre comment les idées de liberté ont évolué avec la naissance des universités et les premières formes de capitalisme dans les villes italiennes.
 
-De la Renaissance aux Lumières, le cours examine la montée de la liberté, marquée par la tolérance religieuse et la liberté économique, culminant en 1776 avec des événements majeurs comme le Congrès de Philadelphie. Le XIXe et XXe siècles voient l'apogée et le déclin de la liberté, face aux critiques du capitalisme et aux dangers du collectivisme, mettant en perspective les défis contemporains à la liberté.
+De la Renaissance aux Lumières, le cours examine la montée de la liberté, marquée par la tolérance religieuse et la liberté économique, culminant en 1776 avec des événements majeurs comme le Congrès de Philadelphie. Le XIXe et XXe siècles voient l'apogée et le déclin de la liberté, face aux critiques du capitalisme et aux dangers du collectivisme, mettant en perspective les défis contemporains pour la liberté.
 
 +++
 
@@ -35,7 +35,7 @@ En effet, la liberté n’est pas une idée nouvelle. C’est un héritage trans
 
 ![image](assets/1/img-022.webp)
 
-Mais le but de ce cours n'est pas seulement d'éclairer le passé de la liberté mais aussi et surtout de se former un jugement critique. En effet l’histoire ne suffit pas à éclairer le présent et l’avenir. Elle a besoin d’être accompagnée d’une réflexion critique et d’un jugement sur les erreurs du passé. Tel est l’apport de la philosophie. C’est pourquoi j’ai intitulé ce cours : une histoire philosophique de la liberté. Il s’agit en effet d’explorer la manière dont les philosophes ont conçu la liberté au cours des âges et dans les différentes cultures.
+Mais le but de ce cours n'est pas seulement d'éclairer le passé de la liberté mais aussi et surtout de se former un jugement critique. En effet l’histoire ne suffit pas pour juger le présent et l’avenir. Elle a besoin d’être accompagnée d’une réflexion critique et d’un jugement sur les erreurs du passé. Tel est l’apport de la philosophie. C’est pourquoi j’ai intitulé ce cours : une histoire philosophique de la liberté. Il s’agit en effet d’explorer la manière dont les philosophes ont conçu la liberté au cours des âges.
 
 ### La tâche de la philosophie
 
@@ -48,7 +48,7 @@ Depuis ses origines, elle est double :
 
 La liberté est un concept qui recouvre une multitude de variantes qui sont autant de déclinaisons possible d’une même réalité : liberté politique, économique, liberté de conscience, de parole, liberté religieuse, d’association etc. De quelle réalité s’agit-il ?
 
-La liberté peut se définir simplement comme le pouvoir du choix avec ce qui est à soi. C’est une liberté inhérente à l’être humain. En ce sens c’est une réalité par essence individuelle. Seul l’individu peut penser et agir, c’est-à-dire faire des choix. Cela ne signifie pas que l’individu est seul, qu’il ne doit rien aux autres. Au contraire, il vit en société et doit coopérer avec les autres pour son propre bien. Mais chacun reste libre de coopérer ou non et doit assumer la responsabilité de ses choix.
+La liberté peut se définir simplement comme le pouvoir du choix, avec ce qui est à soi. C’est une faculté inhérente à l’être humain. C’est une réalité par essence individuelle. Seul l’individu peut penser et agir, c’est-à-dire faire des choix. Cela ne signifie pas que l’individu est seul, qu’il ne doit rien aux autres. Au contraire, il vit en société et doit coopérer avec les autres pour son propre bien. Mais chacun reste libre de coopérer ou non et doit assumer la responsabilité de ses choix.
 
 La notion de responsabilité est corollaire de la liberté car tout choix a des conséquences. Est responsable celui qui assume les coûts de ses propres choix et ne fait pas reposer ce coût sur les autres. En d’autre termes, la liberté est exigeante. C’est une notion morale qui implique des droits mais aussi des devoirs envers les autres, dont celui de respecter leur liberté.
 

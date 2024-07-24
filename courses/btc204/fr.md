@@ -2594,22 +2594,60 @@ Dans le chapitre suivant, nous étudions différentes techniques de transferts s
 ## La confidentialité sur le réseau P2P
 <chapterId>04a2467b-db84-4076-a9ff-919be5135106</chapterId>
 
-
+Dans la partie 4, nous avons abordé l'importance d'utiliser un nœud complet pour protéger la confidentialité de vos transactions. Cependant, il est important de comprendre que votre nœud peut lui-même être sujet à des attaques cherchant à extraire des informations sur vos activités. Dans ce chapitre, nous allons donc examiner les différentes mesures de protection de votre vie privée, non pas au niveau des transactions elles-mêmes ou des flux de bitcoins, mais bien au niveau du réseau.
 
 ### P2P transport V2
 
+
+
+
 ### TOR
+
+
+
+
 
 ### Dandelion
 
+Une autre manière d'éviter les différentes attaques par désanonymisation est d'utiliser la proposition Dandelion. Ce protocole de diffusion a été formalisé dans le BIP156, mais il n'a jamais été implémenté sur Bitcoin.
 
+L'idée de Dandelion est d'améliorer la confidentialité du routage des transactions dans le réseau Bitcoin pour contrer différentes formes d'attaques. Son objectif principal est de cacher le nœud source qui a initialement diffusé une transaction sur le réseau. La divulgation de ce nœud pourrait permettre de lier une transaction Bitcoin à une adresse IP spécifique (si le nœud opère sur le clearnet), ce qui pourrait offrir un point d'entrée pour une analyse de chaîne.
 
+Dans le fonctionnement classique de Bitcoin, les transactions construites par un utilisateur sur son logiciel de portefeuille sont transmises à son nœud personnel. Celui-ci va immédiatement diffuser la nouvelle transaction à tous les pairs auxquels il est connecté. 
 
+31
 
+Ces pairs vérifient ensuite la transaction pour s'assurer qu'elle respecte les règles de consensus et les règles locales de standardisation. Une fois validée, chaque pair transmet à son tour la transaction à ses propres pairs, et ainsi de suite.
 
+32
 
+Cette diffusion des transactions en attente d'intégration dans un bloc se fait de manière assez équilibrée et statistiquement prévisible. Cette faiblesse peut être exploitée par des nœuds espions collusifs, qui collaborent pour surveiller et analyser le réseau, afin d'identifier le premier nœud à avoir diffusé une transaction. Si un observateur parvient à localiser le nœud source, il peut supposer que la transaction émane de l'opérateur de ce nœud. Ce type d'observation peut permettre de relier des transactions, normalement anonymes, à des adresses IP spécifiques.
 
+33
 
+L'objectif du BIP156 est de traiter ce problème. Pour ce faire, il introduit une phase supplémentaire dans la diffusion d'une nouvelle transaction permettant de préserver l'anonymat avant la large propagation publique. Dandelion utilise d'abord une phase de "tige" où la transaction est envoyée à travers un chemin aléatoire de nœuds.
+
+34
+
+La transaction est ensuite diffusée à l'ensemble du réseau dans la phase de "capitule".
+
+35
+
+La tige et le capitule sont des références au comportement de la propagation de la transaction à travers le réseau, qui ressemble à la forme d'un pissenlit (« _a dandelion_ » en anglais).
+
+Ainsi, les nœuds espions peuvent potentiellement retracer la transaction jusqu'au nœud qui a initié la phase de capitule (la diffusion massive), mais ce nœud n'est pas celui qui a diffusé la transaction en premier, car il l'a reçue du dernier nœud de la tige. Si les nœuds espions ne peuvent pas remonter la tige, ils ne peuvent pas non plus identifier le nœud source.
+
+36
+
+Même en présence de nœuds espions durant la phase de tige, un doute subsiste toujours, car dès qu'ils rencontrent un nœud honnête dans le graphe de diffusion, les espions ne peuvent pas déterminer si ce nœud est la source originale ou simplement un intermédiaire.
+
+37
+
+Cette méthode de routage permet de brouiller la piste menant au nœud source, ce qui rend difficile de retracer une transaction via le réseau jusqu'à son origine. Dandelion améliore donc la confidentialité en limitant la capacité des adversaires à désanonymiser le réseau. Cette méthode est d'autant plus efficace lorsque la transaction croise durant la phase de "tige" un nœud qui chiffre ses communications réseau, comme avec Tor ou P2P Transport V2. 
+
+Le BIP156 n'a pas été intégré à Bitcoin Core et est actuellement classé sous le statut "rejeté". L'une des principales préoccupations concernant ce protocole réside dans le fait que, durant la phase de tige, les transactions doivent être relayées par les nœuds intermédiaires avant d'être vérifiées. Comme nous l'avons vu, dans le modèle normal de Bitcoin, chaque nœud vérifie d'abord la transaction avant de la diffuser à ses pairs. Si une transaction ne respecte pas les règles de consensus ou les règles de standardisation locales du nœud, celui-ci l'ignore et ne la diffuse pas. Ce processus est important pour contrer les attaques de type DoS, car seules les transactions valides sont diffusées à l'ensemble du réseau. Les transactions invalides, potentiellement générées en masse pour surcharger le réseau, sont stoppées au premier nœud rencontré et ne se propagent pas. Le risque principal avec Dandelion est que ce nouveau protocole pourrait introduire de nouveaux vecteurs d'attaques DoS en permettant la diffusion de transactions invalides à travers une partie du réseau.
+
+Après avoir exploré les différentes méthodes de confidentialité au niveau du réseau, je souhaite également vous présenter dans les prochains chapitres deux solutions élégantes pour éviter la réutilisation des adresses : le BIP47 et les Silent Payments.
 
 ## BIP47 et codes de paiements réutilisables
 <chapterId>ad88e076-a04b-4aec-b3b2-7b4760175504</chapterId>
@@ -3725,6 +3763,7 @@ Puisque cette fonctionnalité est récente, il est conseillé de faire preuve de
 *Pour créer ce chapitre sur les Silent Payments, j'ai utilisé [le site d'explication des Silent Payments](https://silentpayments.xyz/) et [le document d'explication du BIP352](https://github.com/bitcoin/bips/blob/master/bip-0352.mediawiki).*
 
 ## Conclusion
+<chapterId>cd8e5c67-50e4-4dcd-8e04-88ba5ec95305</chapterId>
 
 
 

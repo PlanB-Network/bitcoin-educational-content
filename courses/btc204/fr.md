@@ -2596,56 +2596,73 @@ Dans le chapitre suivant, nous étudions différentes techniques de transferts s
 
 Dans la partie 4, nous avons abordé l'importance d'utiliser un nœud complet pour protéger la confidentialité de vos transactions. Cependant, il est important de comprendre que votre nœud peut lui-même être sujet à des attaques cherchant à extraire des informations sur vos activités. Dans ce chapitre, nous allons donc examiner les différentes mesures de protection de votre vie privée, non pas au niveau des transactions elles-mêmes ou des flux de bitcoins, mais bien au niveau du réseau.
 
-### P2P transport V2
-
-
-
-
-### TOR
-
-
-
-
-
 ### Dandelion
 
-Une autre manière d'éviter les différentes attaques par désanonymisation est d'utiliser la proposition Dandelion. Ce protocole de diffusion a été formalisé dans le BIP156, mais il n'a jamais été implémenté sur Bitcoin.
+Une manière d'éviter les différentes attaques par désanonymisation est d'utiliser la proposition Dandelion. Ce protocole de diffusion a été formalisé dans le BIP156, mais il n'a jamais été implémenté sur Bitcoin.
 
-L'idée de Dandelion est d'améliorer la confidentialité du routage des transactions dans le réseau Bitcoin pour contrer différentes formes d'attaques. Son objectif principal est de cacher le nœud source qui a initialement diffusé une transaction sur le réseau. La divulgation de ce nœud pourrait permettre de lier une transaction Bitcoin à une adresse IP spécifique (si le nœud opère sur le clearnet), ce qui pourrait offrir un point d'entrée pour une analyse de chaîne.
+L'idée de Dandelion est d'améliorer la confidentialité du routage des transactions dans le réseau Bitcoin pour contrer différentes formes d'attaques. Son objectif principal est de cacher le nœud source qui a initialement diffusé une transaction sur le réseau. La divulgation de ce nœud pourrait permettre de lier une transaction Bitcoin à une adresse IP spécifique (si le nœud opère sur le clearnet), ce qui pourrait offrir un point d'entrée pour une analyse de chaîne. 
+
+Cette association entre une activité sur Bitcoin et une adresse IP représente un risque considérable pour la confidentialité de l'utilisateur. En effet, de nombreuses entités sont en mesure de relier facilement une adresse IP à une identité personnelle. Cela inclut notamment les gouvernements et les fournisseurs d'accès Internet. De plus, cette information peut devenir publiquement accessible, par exemple, si votre adresse IP et vos données personnelles se retrouvent exposées suite à une fuite lors du piratage d'une base de données d'un site web.
 
 Dans le fonctionnement classique de Bitcoin, les transactions construites par un utilisateur sur son logiciel de portefeuille sont transmises à son nœud personnel. Celui-ci va immédiatement diffuser la nouvelle transaction à tous les pairs auxquels il est connecté. 
 
-31
+01
 
 Ces pairs vérifient ensuite la transaction pour s'assurer qu'elle respecte les règles de consensus et les règles locales de standardisation. Une fois validée, chaque pair transmet à son tour la transaction à ses propres pairs, et ainsi de suite.
 
-32
+02
 
 Cette diffusion des transactions en attente d'intégration dans un bloc se fait de manière assez équilibrée et statistiquement prévisible. Cette faiblesse peut être exploitée par des nœuds espions complices, qui collaborent pour surveiller et analyser le réseau, afin d'identifier le premier nœud à avoir diffusé une transaction. Si un observateur parvient à localiser le nœud source, il peut supposer que la transaction émane de l'opérateur de ce nœud. Ce type d'observation peut permettre de relier des transactions, normalement anonymes, à des adresses IP spécifiques.
 
-33
+03
 
 L'objectif du BIP156 est de traiter ce problème. Pour ce faire, il introduit une phase supplémentaire dans la diffusion d'une nouvelle transaction permettant de préserver l'anonymat avant la large propagation publique. Dandelion utilise d'abord une phase de "tige" où la transaction est envoyée à travers un chemin aléatoire de nœuds.
 
-34
+04
 
 La transaction est ensuite diffusée à l'ensemble du réseau dans la phase de "capitule".
 
-35
+05
 
 La tige et le capitule sont des références au comportement de la propagation de la transaction à travers le réseau, qui ressemble à la forme d'un pissenlit.
 
 Ainsi, les nœuds espions peuvent potentiellement retracer la transaction jusqu'au nœud qui a lancé la phase de capitule (la diffusion massive), mais ce nœud n'est pas celui qui a diffusé la transaction en premier, car il l'a reçue du dernier nœud de la tige. Si les nœuds espions ne peuvent pas remonter la tige, ils ne peuvent pas non plus identifier le nœud source.
 
-36
+06
 
 Même en présence de nœuds espions durant la phase de tige, un doute subsiste toujours, car dès qu'ils rencontrent un nœud honnête dans le graphe de diffusion, les espions ne peuvent pas déterminer si ce nœud est la source originale ou simplement un intermédiaire.
 
-37
+07
 
 Cette méthode de routage permet de brouiller la piste menant au nœud source, ce qui rend difficile de retracer une transaction via le réseau jusqu'à son origine. Dandelion améliore donc la confidentialité en limitant la capacité des adversaires à désanonymiser le réseau. Cette méthode est d'autant plus efficace lorsque la transaction croise durant la phase de "tige" un nœud qui chiffre ses communications réseau, comme avec Tor ou P2P Transport V2. 
 
 Le BIP156 n'a pas été intégré à Bitcoin Core et est actuellement classé sous le statut "rejeté". L'une des principales préoccupations concernant ce protocole réside dans le fait que, durant la phase de tige, les transactions doivent être relayées par les nœuds intermédiaires avant d'être vérifiées. Comme nous l'avons vu, dans le modèle normal de Bitcoin, chaque nœud vérifie d'abord la transaction avant de la diffuser à ses pairs. Si une transaction ne respecte pas les règles de consensus ou les règles de standardisation locales du nœud, celui-ci l'ignore et ne la diffuse pas. Ce processus est important pour contrer les attaques de type DoS, car seules les transactions valides sont diffusées à l'ensemble du réseau. Les transactions invalides, potentiellement générées en masse pour surcharger le réseau, sont arrêtées au premier nœud rencontré et ne se propagent pas. Le risque principal avec Dandelion est que ce nouveau protocole pourrait introduire de nouveaux vecteurs d'attaques DoS en permettant la diffusion de transactions invalides à travers une partie du réseau.
+
+### P2P transport V2
+
+P2P transport V2 est un autre protocole réseau présenté dans le BIP324. C'est une nouvelle version du protocole de transport Bitcoin P2P qui intègre du chiffrement opportuniste pour améliorer la confidentialité et la sécurité des communications entre les nœuds. 
+
+Cette amélioration vise à résoudre plusieurs problématiques de la version de base du protocole P2P. Elle permet d'une part de rendre les données échangées indiscernables des autres types de données circulant sur Internet pour un observateur passif. L'objectif principal est d'empêcher les gouvernements, les fournisseurs d'accès à Internet ou encore les fournisseurs de VPN de surveiller de manière massive les utilisateurs de Bitcoin. Ceci complique également la tâche pour ces entités de déterminer si un utilisateur d'Internet est aussi un utilisateur de Bitcoin, c’est-à-dire s'il exploite un nœud complet.
+
+P2P V2 contribue également à diminuer les risques de censure et d'attaques par détection de motifs spécifiques dans les paquets de données. Il complique et rend plus couteuse l'exécution de divers types d'attaques Sybil au niveau du réseau. Une attaque Sybil survient lorsqu'un acteur crée de multiples fausses identités afin de gagner un avantage indû. Dans le contexte du réseau Bitcoin, cela se manifeste souvent par un acteur qui contrôle un grand nombre de nœuds complets et les utilise de façon agressive pour multiplier les connexions. Les attaques Sybil peuvent être passives, afin de collecter des informations et de compromettre la confidentialité des utilisateurs, ou actives, sous la forme d'attaques Eclipse. Ces dernières isolent un nœud spécifique du reste du réseau, et permettent soit de censurer l'utilisateur, soit d'altérer les données qu'il reçoit. Enfin, P2P V2 rend aussi les attaques *Man-In-The-Middle* (MITM) plus coûteuses et plus faciles à détecter.
+
+Le chiffrement mis en place par P2P V2 n'inclut pas d'authentification afin de ne pas ajouter de complexité inutile, et de ne pas compromettre le fait que la connexion au réseau reste sans permission. Ce nouveau protocole de transport P2P offre néanmoins une meilleure sécurité contre les attaques passives et rend les attaques actives nettement plus coûteuses et détectables. L'introduction d'un flux de données pseudo-aléatoire dans les messages réseau complique la tâche des attaquants souhaitant censurer ou manipuler les communications.
+
+Le transport P2P V2 a été inclus en option (désactivé par défaut) dans la version 26.0 de Bitcoin Core, déployée en décembre 2023. Il a ensuite été activé par défaut dans le version 27.0 d'avril 2024. Il peut être modifié avec l'option `v2transport=` dans le fichier de configuration. 
+
+### Tor
+
+Une autre solution assez simple à mettre en place pour éviter les risques de perte de confidentialité pour un nœud au niveau du réseau est de le faire tourner entièrement sous Tor. 
+
+Tor est un réseau de serveurs relais (nœuds) qui permet d'anonymiser l'origine des connexions TCP sur internet. Il fonctionne en encapsulant les données dans plusieurs couches de chiffrement. Chaque nœud de relais enlève une couche pour révéler l'adresse du nœud suivant, jusqu'à atteindre la destination finale. Le réseau Tor assure l'anonymat en empêchant les nœuds intermédiaires de connaître à la fois l'origine et la destination des données, ce qui rend très difficile pour un observateur de retracer l'activité de l'utilisateur. 
+
+08
+
+Tor offre donc non seulement le chiffrement des données communiquées, mais permet aussi de masquer l'origine et la destination des communications. En utilisant Tor pour les communications de son nœud personnel, on renforce la confidentialité de nos transactions : le fournisseur d'accès Internet ne peut pas déchiffrer les communications, et les autres nœuds du réseau Bitcoin ne peuvent pas identifier l'adresse IP du nœud source. De plus, Tor masque également à votre fournisseur d'accès Internet votre utilisation même de Bitcoin.
+
+Le principal risque lié à cette méthode est que Tor est un protocole indépendant de Bitcoin. Si vous disposez d'un nœud Bitcoin sous Tor et que Tor ne fonctionne plus, alors votre nœud Bitcoin ne pourra plus communiquer.
+
+Aussi, il est important de noter que les communications sur Tor sont plus lentes. Cette latence est particulièrement embêtante lors du lancement initial d'un nœud, car l'IBD (*Initial Block Download*) nécessite un volume élevé de communications. En conséquence, votre synchronisation initiale avec le réseau Bitcoin pourrait être significativement plus longue en utilisant Tor. Il est aussi possible d'effectuer l'IBD sur le clearnet, puis d'activer Tor dans un second temps. Bien que cette méthode divulgue à votre fournisseur d'accès Internet l'existence de votre nœud Bitcoin, elle permet de protéger les informations relatives à vos transactions personnelles une fois que vous basculez sur Tor.
 
 Après avoir exploré les différentes méthodes de confidentialité au niveau du réseau, je souhaite également vous présenter dans les prochains chapitres deux solutions élégantes pour éviter la réutilisation des adresses : le BIP47 et les Silent Payments.
 

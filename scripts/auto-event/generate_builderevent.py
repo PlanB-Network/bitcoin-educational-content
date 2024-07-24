@@ -3,7 +3,7 @@ from datetime import datetime, timedelta
 import os
 
 # Path to the file
-file_path = '/home/jramos/salvadoranevents/sovereign-university-data/resources/conference/pleblab-builderspace-2024/events.yml'
+file_path = '/home/jramos/sovereign-university-data/resources/conference/pleblab-builderspace-2024/events.yml'
 
 # Create the directory if it does not exist
 os.makedirs(os.path.dirname(file_path), exist_ok=True)

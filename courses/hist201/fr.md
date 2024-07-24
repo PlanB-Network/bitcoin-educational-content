@@ -1317,6 +1317,8 @@ Il s'agit d'une très bonne nouvelle pour Bitcoin car les deux initiatives parta
 >
 > original: "EFF is really important. &nbsp;We want to have a good relationship with them. &nbsp;We're the type of project they like; they've helped the TOR project and done a lot to protect P2P file sharing."
 
+Le 20 janvier, l'EFF [mettra Bitcoin en avant](https://www.eff.org/deeplinks/2011/01/bitcoin-step-toward-censorship-resistant) comme une « monnaie numérique résistante à la censure ». (*original: "Bitcoin - a Step Toward Censorship-Resistant Digital Currency"*)
+
 ### Les premières coopératives de minage (oct. 2010 -- déc. 2010)
 
 L'augmentation massive du taux de hachage due à la spécialisation du minage a pour conséquence de rendre difficile la génération par processeur central, qui devient de moins en moins abordable. En effet, la possibilité de générer des bitcoins est de plus en plus dépendante de la variance, certains individus n'arrivant jamais à produire un bloc. La solution à ce problème est le minage coopératif.
@@ -1329,9 +1331,9 @@ Le 13 octobre, puddinpop [propose](https://bitcointalk.org/index.php?topic=1458.
 
 Toutefois, il existe une méthode bien plus simple pour mesurer le taux de hachage d'un client : les preuves de travail partielles. Cette méthode est [proposée](https://bitcointalk.org/index.php?topic=1458.msg16951#msg16951) par ribuck, Nils Schneider et Gavin Andresen suite à la description de puddinpop. Il s'agit de récupérer des preuves de travail de degré inférieur à la difficulté du réseau produites à partir du même bloc candidat. Les preuves partielles récupérées permettent d'estimer la puissance dépensée de manière probabiliste.
 
-Le 23 novembre, la fonction `getwork` est ajoutée au [code](https://bitcointalk.org/index.php?topic=1901.msg23876#msg23876) et, le 25, elle est inclue dans la [nouvelle version](https://bitcointalk.org/index.php?topic=1946.msg24460#msg24460) du logiciel principal (v0.3.17). Le même jour, Jeff Garzik (qui [défend](https://bitcointalk.org/index.php?topic=1688.msg20532#msg20532) alors l'idée de séparer la gestion de la chaîne et le minage au sein du logiciel) [partage](https://bitcointalk.org/index.php?topic=1925.msg24217#msg24217) son logiciel de minage par CPU qui met à profit cette fonction.
+Le 23 novembre, une version modifiée de la fonction `getwork` est ajoutée au [code](https://bitcointalk.org/index.php?topic=1901.msg23876#msg23876) et, le 25, elle est inclue dans la [nouvelle version](https://bitcointalk.org/index.php?topic=1946.msg24460#msg24460) du logiciel principal (v0.3.17). Le même jour, Jeff Garzik (qui [défend](https://bitcointalk.org/index.php?topic=1688.msg20532#msg20532) alors l'idée de séparer la gestion de la chaîne et le minage au sein du logiciel) [partage](https://bitcointalk.org/index.php?topic=1925.msg24217#msg24217) son logiciel de minage par CPU qui met à profit cette fonction.
 
-Le 27 novembre, un jeune développeur tchèque appelé Marek Palatinus et utilisant le pseudonyme slush [publie](https://web.archive.org/web/20101206144824/http://www.bitcoin.org/smf/index.php?topic=1976.0) une description de « minage coopératif » sur le forum, modèle qui exploite getwork et la logique de Jeff Garzik. Ce modèle se base sur les preuves de travail partielles produites par les hacheurs (*pay-per-share*). Le lendemain, Satoshi Nakamoto [approuve](https://bitcointalk.org/index.php?topic=1976.msg25119#msg25119) le concept.
+Le 27 novembre, un jeune développeur tchèque appelé Marek Palatinus et utilisant le pseudonyme slush [publie](https://web.archive.org/web/20101206144824/http://www.bitcoin.org/smf/index.php?topic=1976.0) une description de « minage coopératif » sur le forum, modèle qui exploite `getwork` et la logique de Jeff Garzik. Ce modèle se base sur les preuves de travail partielles produites par les hacheurs (*pay-per-share*). Le lendemain, Satoshi Nakamoto [approuve](https://bitcointalk.org/index.php?topic=1976.msg25119#msg25119) le concept.
 
 ![Marek Palatinus (slush) lors de la conférence Z-DAY à Prague le 11 mai 2013](assets/img/ch10/marek-palatinus-may-2013.webp)
 
@@ -1379,34 +1381,25 @@ Au cours de l'automne 2010, l'écosystème autour de Bitcoin a évolué de mani�
 
 Nous avons vu comment Bitcoin a pris son envol à partir de la publication du texte sur Slashdot en juillet 2010. À l'automne on sentait que le projet était enfin sur la bonne voie. C'est pourquoi il coïncidait avec la progressive mise en retrait de Satoshi Nakamoto.
 
-Ce départ du créateur de Bitcoin précipité s'explique par deux raisons : d'une part, une contestation grandissante de son statut, demandant une gestion plus décentralisée et consensuelle ; d'autre part, sa peur des autorités étatiques, quasi paranoïaque. Cette dernière motivation s'est notamment exprimé dans le cadre de l'affaire WikiLeaks...
+Ce départ du créateur de Bitcoin précipité s'explique par deux raisons : d'une part, une contestation grandissante de son statut, demandant une gestion plus décentralisée et consensuelle ; d'autre part, sa peur des autorités étatiques, quasi paranoïaque. Cette dernière motivation s'est notamment exprimé en décembre 2010 dans le cadre de du blocus financier de WikiLeaks, qui ne parvenait plus à recevoir des fonds par des moyens traditionnels et pour qui Bitcoin fournissait un moyen alternatif pertinent.
 
-### Communauté et contestation (juil. 2010 -- déc. 2010)
+### La contestation du statut du fondateur (juil. 2010 -- déc. 2010)
 
-La communauté de développement se regroupe sur le canal `#bitcoin-dev`, dont les logs sont [publiés](https://web.archive.org/web/20131201235340/http://www.bitcoinstats.com/irc/bitcoin-dev/logs/2010/09) sur le site de Christian Decker, Bitcoin Stats, à partir de septembre 2010. Ce canal est l'endroit idéal pour les personnes les plus techniques pour échanger en détails sur Bitcoin. Mineurs par GPU (ArtForz, Diablo-D3, Nils Schneider)
+La communauté de développement se regroupe sur le canal `#bitcoin-dev`, dont les logs sont [publiés](https://web.archive.org/web/20131201235340/http://www.bitcoinstats.com/irc/bitcoin-dev/logs/2010/09) sur le site de Christian Decker, Bitcoin Stats, à partir de septembre 2010. Ce canal est l'endroit idéal pour les personnes les plus techniques pour échanger en détails sur Bitcoin et discuter de manière plus informelle. Il regroupe à la fois des mineurs spécialisés (comme ArtForz, Diablo-D3, knightmb ou Nils Schneider), des développeurs qui s'intéressent au protocole (tel que Gavin Andresen, Jeff Garzik, Wladimir van der Laan) ou des personnes qui maintiennent des services sur Bitcoin (comme Jed McCaleb, Michael Marquardt ou nanotube).
 
-Satoshi Nakamoto lui ne s'y connecte jamais, de sorte que la parole y est plus « libérée » que sur le forum. Il arrive donc souvent que les décisions de développement de Satoshi soient remises en question, voire même son statut vis-à-vis de Bitcoin.
+Satoshi Nakamoto, lui, ne s'y connecte jamais, si bien que la parole y est plus « libérée » que sur le forum. Il arrive donc souvent que les décisions de développement de Satoshi soient remises en question, voire même qu'on critique son statut vis-à-vis de Bitcoin.
 
-Satoshi est en effet le meneur incontesté du projet, ou ce qu'on appelle, dans le monde du logiciel libre, un « dictateur bienveillant à vie ». Il assure la stabilité du développement ouvert en prenant les décisions pour tout le monde, ce qui limite le risque de rébellion et de scission. Il est le gardien,
+Satoshi est en effet le meneur attitré du projet ou, ce qu'on appelle dans le monde du logiciel libre, un « [dictateur bienveillant à vie](https://fr.wikipedia.org/wiki/Benevolent_Dictator_for_Life) ». Son rôle est d'assurer la stabilité du développement ouvert en prenant les décisions pour tout le monde, ce qui limite le risque de rébellion et de scission. Depuis janvier 2009, il est le « [gardien](https://buildingbitcoin.org/bitcoin-dev/log-2010-09-27.html#l-528) » : « tout le code passe par lui ».
 
-« [gardien](https://buildingbitcoin.org/bitcoin-dev/log-2010-09-27.html#l-528) »
+Le code source de Bitcoin reste cependant libre, de sorte que n'importe qui peut le copier et le modifier, ce qui empêche l'évolution du protocole d'être complètement arbitraire. Tel que l'[exprime](https://buildingbitcoin.org/bitcoin-dev/log-2010-11-19.html#l-1538) Jeff Garzik le 19 novembre :
 
-Dictateur bienveillant à vie (*benevolent dictator for life*). Stabilité d'un projet .
-
-> « J'aimerais juste pouvoir le convaincre de basculer vers un modèle de développement plus collaboratif. \[...\] Satoshi est le gardien pour l'instant, tout le code passe par lui. » [Gavin, 27/9](https://buildingbitcoin.org/bitcoin-dev/log-2010-09-27.html#l-522)
+> « \[S\]atoshi a sorti des chiffres magiques de son chapeau, et nous soutenons collectivement cette direction. \[...\] À la minute où Satoshi fera quelque chose de fou qui n'est pas soutenu par la communauté, il y aura un véritable embranchement du protocole / de la base de code. »
 >
-> *original: "I just wish I could convince him to switch to a more collaborative development model. (...) Satoshi is the gatekeeper right now, all code flows through him"*
+> *original: "satoshi came up with magic numbers out of thin air, and we collectively support that leadership (...) the minute satoshi does something crazy and not supported by the community, is the moment the protocol/codebase is truly forked."*
 
+Ainsi, le rôle de meneur de Satoshi n'empêche pas la critique de se faire. C'est pourquoi des tensions apparaissent progressivement dans la communauté à partir du mois de juillet. On voit par exemple surgir des contestations à l'occasion du [déploiement](https://bitcointalk.org/index.php?topic=898.msg10745#msg10745) du système d'alerte en août ou de la [modification](https://bitcointalk.org/index.php?topic=1901.msg24050#msg24050) de la fonction `getwork` de m0mchil avant de l'intégrer dans le logiciel en novembre. La frustration vis-à-vis de cette décision dictatoriale est exprimée de manière [beaucoup plus ouverte](https://buildingbitcoin.org/bitcoin-dev/log-2010-11-24.html#l-384) sur IRC.
 
-
-
-[9/7](https://bitcointalk.org/index.php?topic=251.msg2094#msg2094) :
-
-[2/11](https://bitcointalk.org/index.php?topic=1647.msg19737#msg19737) : contestation sur le forum
-
-"satoshi came up with magic numbers out of thin air, and we collectively support that leadership" [19/11](https://buildingbitcoin.org/bitcoin-dev/log-2010-11-19.html#l-1538)
-
-https://bitcoinmagazine.com/technical/what-happened-when-bitcoin-creator-satoshi-nakamoto-disappeared
+Gavin Andresen qui est proche de Satoshi mais qui discute également avec les autres développeurs voit bien le problème que cette situation pose. Le 27 septembre 2010 sur IRC, Gavin [déclare](https://buildingbitcoin.org/bitcoin-dev/log-2010-09-27.html#l-522) qu'il aimerait « pouvoir le convaincre de basculer vers un modèle de développement plus collaboratif ». (*original: "I just wish I could convince him to switch to a more collaborative development model."*) En octobre, Gavin obtient son accès en écriture au dépôt sur SourceForge [depuis octobre](https://sourceforge.net/p/bitcoin/code/165/). Et en décembre, le problème se règlera de lui-même par la mise en retrait précipitée de Satoshi, suite à l'explosion de l'affaire WikiLeaks.
 
 ### L'affaire WikiLeaks (oct. 2010 -- déc. 2010)
 
@@ -1468,7 +1461,7 @@ Le lendemain, Satoshi [publie](https://bitcointalk.org/index.php?topic=2228.msg2
 
 ### La transmission des accès et derniers courriels (déc. 2010 -- mai 2011)
 
-Dès le début du mois de décembre, Satoshi organise sa succession. S'il compte partir (ou au moins se mettre en retrait), il doit transmettre les différentes responsabilités aux personnes à qui il fait confiance, en l'occurrence Martti Malmi et Gavin Andresen. Toutefois, il ne le leur indique jamais son intention.
+Dès le début du mois de décembre, Satoshi organise sa succession. Même s'il compte partir, ou du moins se mettre en retrait, il doit transmettre les différentes responsabilités aux personnes en qui il a confiance, en l'occurrence Martti Malmi et Gavin Andresen. Toutefois, il ne le leur indique jamais son intention.
 
 Tout d'abord, il tient à ajouter leurs adresses de courriel à la [page de contact](https://web.archive.org/web/20101215111454/http://www.bitcoin.org/contact) du site. Le 7 décembre, il [envoie](https://mmalmi.github.io/satoshi/#email-245) un courriel à Martti Malmi lui demandant s'il peut l'« ajouter à la liste de développeurs du projet sur la page de contact », chose que le jeune Finlandais accepte. Le créateur de Bitcoin fait la même demande à Gavin, qui accepte également. Satoshi ajoute leurs adresses à la page et retire la sienne. Gavin Andresen [déclarera](https://www.huffingtonpost.co.uk/entry/gavin-andresen-bitcoin_n_3093316) quelques années plus tard :
 
@@ -1476,7 +1469,7 @@ Tout d'abord, il tient à ajouter leurs adresses de courriel à la [page de cont
 >
 > *original: "And eventually, he pulled a fast one on me because he asked me if it'd be OK if he put my email address on the bitcoin homepage, and I said yes, not realizing that when he put my email address there, he'd take his away"*
 
-Mais ce n'est pas tout. Satoshi souhaite également transmettre son contrôle sur le logiciel à Gavin Andresen. Gavin, qui a déjà obtenu un accès en écriture au dépôt sur SourceForge [depuis octobre](https://sourceforge.net/p/bitcoin/code/103/), devient le mainteneur principal du dépôt. Plus à l'aise avec git, il crée également un nouveau dépôt sur GitHub le 19 décembre.
+Mais ce n'est pas tout. Satoshi souhaite également transmettre son contrôle sur le logiciel à Gavin Andresen. Gavin, qui a déjà obtenu un accès en écriture au dépôt sur SourceForge [depuis octobre](https://sourceforge.net/p/bitcoin/code/165/), devient le mainteneur principal du dépôt. Plus à l'aise avec git, il crée également un nouveau dépôt sur GitHub le 19 décembre.
 
 Le 19 décembre, Gavin Andresen [crée](https://api.github.com/repos/bitcoin/bitcoin) le dépôt sur GitHub, étant probablement plus à l'aise avec Git. Le même jour, il écrit un long message sur le forum expliquant qu'il va s'impliquer plus dans le développement. Il [annonce](https://bitcointalk.org/index.php?topic=2367.msg31651#msg31651) :
 
@@ -1484,23 +1477,19 @@ Le 19 décembre, Gavin Andresen [crée](https://api.github.com/repos/bitcoin/bit
 >
 > *original: "With Satoshi's blessing, and with great reluctance, I'm going to start doing more active project management for bitcoin."*
 
-Satoshi transmet le contrôle sur le site web, le forum et le wiki à Martti Malmi, qui co-gérait la chose depuis la fin de l'année 2009.
+Satoshi transmet le contrôle sur le site web, le forum et le wiki à Martti Malmi, qui co-gérait ces éléments depuis la fin de l'année 2009. Puis, il se volatilise définitivement durant le printemps 2011.
 
-Satoshi se volatilise définitivement durant le printemps 2011.
+Parmi les dernières personnes à communiquer avec Satoshi, il y a aussi Mike Hearn, l'ingénieur de Google qui l'avait approché deux ans auparavant. Ce dernier a repris le contact avec le créateur de Bitcoin en décembre 2010 pour lui poser d'autres questions d'ordre technique. Il [travaille](https://plan99.net/~mike/satoshi-emails/thread3.html) alors sur une « implémentation en Java de la vérification de paiement simplifiée, en vue de construire un client fonctionnant sur les téléphones Android ». (*original: "I have been working on a Java implementation of the simplified payment verification, with an eye to building a client that runs on Android phones."*) Les deux hommes échangent jusqu'au 23 avril. Dans son [dernier courriel](https://plan99.net/~mike/satoshi-emails/thread5.html) à Mike Hearn, Satoshi déclare qu'il est « passé à autre chose » et que Bitcoin est « entre de de bonnes mains avec Gavin et les autres ». (*original: "I've moved on to other things. &nbsp;It's in good hands with Gavin and everyone."*).
 
-23 avril, [dernier courriel](https://plan99.net/~mike/satoshi-emails/thread5.html) à Mike Hearn, l'ingénieur de Google qui l'avait approché deux ans auparavant et qui était resté en contact avec lui, dans lequel il écrit qu'il est « passé à autre chose » et que Bitcoin est « entre de de bonnes mains avec Gavin et les autres ». (*original: "I've moved on to other things. &nbsp;It's in good hands with Gavin and everyone."*)
-
-20 avril, publication d'un [article d'Andy Greenberg](https://www.forbes.com/forbes/2011/0509/technology-psilocybin-bitcoins-gavin-andresen-crypto-currency.html) sur le site de Forbes
-
-26 avril 2011, [dernier courriel](http://gavinandresen.ninja/eleven-years-ago-today) à Gavin Andresen :
+Le 26 avril 2011, Satoshi envoie un [dernier message](http://gavinandresen.ninja/eleven-years-ago-today) par courrier életronique à Gavin Andresen, dans lequel il écrit :
 
 > « J'aimerais que tu évites de parler de moi comme d'une personnalité sombre et mystérieuse, la presse tourne simplement ça sous l'angle d'une monnaie pirate. &nbsp;Peut-être que tu devrais plutôt parler du projet open source et donner plus de crédit aux développeurs qui contribuent : cela aide à les motiver. »
 >
 > *original: "I wish you wouldn't keep talking about me as a mysterious shadowy figure, the press just turns that into a pirate currency angle. &nbsp;Maybe instead make it about the open source project and give more credit to your dev contributors; it helps motivate them."*
 
-Il lui transmet également la clé d'alerte, permettant d'avertir le réseau en cas de problème technique.
+Satoshi fait ici référence à un [article](https://www.forbes.com/forbes/2011/0509/technology-psilocybin-bitcoins-gavin-andresen-crypto-currency.html) d'Andy Greenberg publié sur le site de Forbes quelques jours auparavant, dans lequel il est présenté comme « un personnage mystérieux, obsédé par la vie privée » (*original: "a mysterious, privacy-obsessed figure"*) et où Bitcoin est mis en avant comme un moyen de se procurer des drogues illégales (c'est en effet la période où la plateforme Silk Road commence à avoir du succès). Dans son courriel, Satoshi joint également la clé d'alerte, permettant d'avertir le réseau en cas de problème technique.
 
-Début mai, il écrit à Martti Malmi :
+Enfin, début mai, il fait également ses adieux à Martti Malmi. Ses derniers mots pour son premier bras droit sont les suivants :
 
 > « Je suis passé à autre chose et je ne serai probablement plus là à l'avenir. »
 >
@@ -1508,25 +1497,27 @@ Début mai, il écrit à Martti Malmi :
 
 ### La CIA, WikiLeaks et l'EFF (avr. 2011 -- juin 2011)
 
-Dans son dernier courriel adressé à Satoshi Nakamoto, envoyé le 26 avril 2011, Gavin Andresen [indique](http://gavinandresen.ninja/eleven-years-ago-today) avoir été invité Bitcoin par l'In-Q-Tel, un fonds américain de capital-investissement géré par la CIA, afin qu'il présente Bitcoin. Il sait très bien le type de réaction que cette visite va engendré mais décide tout de même d'y aller. Il se justifie :
+Dans son dernier courriel adressé à Satoshi Nakamoto, envoyé le 26 avril 2011, Gavin Andresen [indique](http://gavinandresen.ninja/eleven-years-ago-today) avoir été invité par l'In-Q-Tel, un fonds américain de capital-investissement géré par la CIA, afin qu'il présente Bitcoin. Il a très bien conscience du type de réaction que cette visite va engendrer mais décide tout de même d'y aller. Il se justifie :
 
 > « J'espère qu'en parlant directement avec "eux" et, plus important encore, en écoutant leurs questions/préoccupations, ils considéreront Bitcoin comme je le fais - comme une monnaie tout simplement meilleure, plus efficace, moins sujette aux caprices de la politique. Pas comme un outil de marché noir tout-puissant qui sera utilisé par les anarchistes pour renverser le Système. »
 >
 > *original: "I hope that by talking directly to 'them' and, more importantly, listening to their questions/concerns, they will think of Bitcoin the way I do– as a just-plain-better, more efficient, less-subject-to-political-whims money. Not as an all-powerful black-market tool that will be used by anarchists to overthrow The System."*
 
-Le lendemain, il [annonce](https://bitcointalk.org/index.php?topic=6652.msg97181#msg97181) la nouvelle sur le forum en toute transparence. Il précise avoir été payé 3000 $ pour ce voyage. Toutefois, cela n'émeut pas tellement la communauté qui comprend tout à fait sa démarche, mais si évidemment la méfiance est de mise.
+Le lendemain, Gavin [annonce](https://bitcointalk.org/index.php?topic=6652.msg97181#msg97181) la nouvelle sur le forum en toute transparence. Il précise avoir été payé 3000 $ pour ce voyage. Toutefois, cela n'émeut pas tellement la communauté qui comprend tout à fait sa démarche, mais si évidemment la méfiance est de mise. La visite de Gavin dans les locaux de la CIA [se passe](https://twitter.com/gavinandresen/status/80785477342478336) le 14 juin.
 
-La visite de Gavin dans les locaux de la CIA [se passe](https://twitter.com/gavinandresen/status/80785477342478336) le 14 juin.
+De manière symbolique, le 14 juin est également la date à partir de laquelle WikiLeaks [commence](https://twitter.com/wikileaks/status/80774521350668288) à accepter les dons en bitcoins. Cette nouvelle est reprise sur le site de Forbes.
 
-[14/6](https://twitter.com/wikileaks/status/80774521350668288) : WikiLeaks commence à accepter le bitcoin
-
-L'*Electronic Frontier Foundation*, 20/6 : https://www.eff.org/deeplinks/2011/06/eff-and-bitcoin
-
-Un article a été [publié](https://www.eff.org/deeplinks/2011/01/bitcoin-step-toward-censorship-resistant) le 20 janvier : « Bitcoin - un pas en avant vers la monnaie numérique résistante à la censure » (original: "Bitcoin - a Step Toward Censorship-Resistant Digital Currency")
+Paradoxalement, cette nouvelle a pour effet de repousser partiellement l'adoption existante. Le 20 juin, l'*Electronic Frontier Foundation* [annonce](https://www.eff.org/deeplinks/2011/06/eff-and-bitcoin) en effet abandonner les dons en bitcoins, à cause des complexités légales que cette acceptation engendre. Elle reverse les bitcoins reçus au *bitcoin faucet* de Gavin Andresen. Bitcoin a donc gagné une organisation au dépens d'une autre.
 
 ### Le mystère Satoshi
 
-**extrait** En 2013, dans l'un de ses derniers messages sur le forum, Hal Finney partagera une citation énigmatique du film Man of Steel tout juste sorti, résumant bien la dimension mystérieuse entourant le créateur de Bitcoin :
+Ainsi, la disparition de Satoshi a eu lieu de manière précipitée suite à la croissance de la communauté qui a suivi le slashdotting et, surtout, à l'affaire WikiLeaks. Le créateur de Bitcoin a laissé les rênes du projet à Martti Malmi et Gavin Andresen, les deux hommes qui l'ont épaulé au fil des mois.
+
+On ne sait pas ce qu'il est devenu par la suite. Quelques messages ont émané de ses différents comptes ([Fondation P2P](https://p2pfoundation.ning.com/forum/topics/bitcoin-open-source?commentId=2003008:Comment:52186), [Vistomail](https://lists.linuxfoundation.org/pipermail/bitcoin-dev/2015-August/010238.html)), mais il est vraisemblable qu'ils ont été piratés. L'identité de Satoshi Nakamoto est donc restée inconnue, celui-ci ayant réussi à conserver son anonymat grâce l'usage de Tor et de services respectueux de la vie privée.
+
+Des pistes sur son identité ont été données au fil des années et des noms de personnalités connues ont été évoqués comme Nick Szabo, Hal Finney, Adam Back ou Len Sassaman. En 2014 a même cru l'avoir trouvé en la personne Dorian Prentice Satoshi Nakamoto, un ingénieur des télécommunications, citoyen américain naturalisé d'origine japonaise, vivant avec sa mère à Temple City dans la banlieue de Los Angeles. Toutefois, Satoshi reste toujours à ce jour un [mystère](https://www.youtube.com/watch?v=0ETcLj5jBy4).
+
+Cette dimension mystérieuse entourant le créateur de Bitcoin a d'ailleurs bien été résumée par Hal Finney en juin 2013, qui, dans [l'un de ses derniers messages](https://bitcointalk.org/index.php?topic=234330.msg2479328#msg2479328) sur le forum avant sa mort en 2014, partageait une citation du film *Man of Steel* tout juste sorti en salle :
 
 > « Comment retrouver quelqu'un qui a toujours brouillé les pistes ?
 >
@@ -1542,7 +1533,6 @@ Un article a été [publié](https://www.eff.org/deeplinks/2011/01/bitcoin-step-
 
 ## La prise de relai de la communauté (avr. 2011 -- sept. 2011)
 
-
 ### Faire sans Satoshi
 
 jimbobway à Satoshi, [30/7](https://bitcointalk.org/index.php?topic=628.msg6536#msg6536) : « Supposons que, Dieu nous en préserve, vous ne soyez plus en mesure de programmer ou que vous soyez indisponible en raison de circonstances inconnues.  Avez-vous une procédure en tête pour continuer le bitcoin en votre absence ? » (*original: "Suppose, god forbid, you were no longer able to program or were unavailable due to unknown circumstances.  Do you have a procedure in mind to continue bitcoin in your absence?"*)
@@ -1553,15 +1543,23 @@ jgarzik, [30/7](https://bitcointalk.org/index.php?topic=628.msg6578#msg6578) : 
 
 "Core Bitcoin Development Help Wanted", [13/1](https://bitcointalk.org/index.php?topic=2772.msg37771#msg37771)
 
-Migration du wiki de dokuwiki vers Mediawiki, grâce à Mark Karpelès : https://bitcointalk.org/index.php?topic=2321.0 https://en.bitcoin.it/wiki/Mark_Karpel%C3%A8s#Bitcoin_Wiki
-
-New wiki : https://bitcointalk.org/index.php?topic=293.msg42789#msg42789
-
 Bitcoin Improvement Proposals (BIP), liste de diffusion bitcoin-dev, canal IRC, Amir Taaki et Gavin Andresen, [liste des développeurs](https://web.archive.org/web/20110530221415/http://www.bitcoin.org:80/)
 
 gmaxwell
 
+Peter Todd (retep)
+
 Premières vidéos sur Bitcoin : https://www.youtube.com/watch?v=Akgw7XghFFc
+
+### Le site, le forum, le wiki
+
+Martti Malmi se met en retrait.
+
+Migration du wiki de dokuwiki vers Mediawiki, grâce à Mark Karpelès : https://bitcointalk.org/index.php?topic=2321.0 https://en.bitcoin.it/wiki/Mark_Karpel%C3%A8s#Bitcoin_Wiki
+
+New wiki : https://bitcointalk.org/index.php?topic=293.msg42789#msg42789
+
+Forum. Mai 2011, `forum.bitcoin.org`. Août 2011 : `bitcointalk.org`.
 
 ### Les portefeuilles SPV (mars 2011 -- sept. 2011)
 

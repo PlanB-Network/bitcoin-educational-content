@@ -2606,33 +2606,33 @@ Cette association entre une activité sur Bitcoin et une adresse IP représente 
 
 Dans le fonctionnement classique de Bitcoin, les transactions construites par un utilisateur sur son logiciel de portefeuille sont transmises à son nœud personnel. Celui-ci va immédiatement diffuser la nouvelle transaction à tous les pairs auxquels il est connecté. 
 
-01
+![BTC204](assets/notext/65/01.webp)
 
 Ces pairs vérifient ensuite la transaction pour s'assurer qu'elle respecte les règles de consensus et les règles locales de standardisation. Une fois validée, chaque pair transmet à son tour la transaction à ses propres pairs, et ainsi de suite.
 
-02
+![BTC204](assets/notext/65/02.webp)
 
 Cette diffusion des transactions en attente d'intégration dans un bloc se fait de manière assez équilibrée et statistiquement prévisible. Cette faiblesse peut être exploitée par des nœuds espions complices, qui collaborent pour surveiller et analyser le réseau, afin d'identifier le premier nœud à avoir diffusé une transaction. Si un observateur parvient à localiser le nœud source, il peut supposer que la transaction émane de l'opérateur de ce nœud. Ce type d'observation peut permettre de relier des transactions, normalement anonymes, à des adresses IP spécifiques.
 
-03
+![BTC204](assets/notext/65/03.webp)
 
 L'objectif du BIP156 est de traiter ce problème. Pour ce faire, il introduit une phase supplémentaire dans la diffusion d'une nouvelle transaction permettant de préserver l'anonymat avant la large propagation publique. Dandelion utilise d'abord une phase de "tige" où la transaction est envoyée à travers un chemin aléatoire de nœuds.
 
-04
+![BTC204](assets/notext/65/04.webp)
 
 La transaction est ensuite diffusée à l'ensemble du réseau dans la phase de "capitule".
 
-05
+![BTC204](assets/notext/65/05.webp)
 
 La tige et le capitule sont des références au comportement de la propagation de la transaction à travers le réseau, qui ressemble à la forme d'un pissenlit.
 
 Ainsi, les nœuds espions peuvent potentiellement retracer la transaction jusqu'au nœud qui a lancé la phase de capitule (la diffusion massive), mais ce nœud n'est pas celui qui a diffusé la transaction en premier, car il l'a reçue du dernier nœud de la tige. Si les nœuds espions ne peuvent pas remonter la tige, ils ne peuvent pas non plus identifier le nœud source.
 
-06
+![BTC204](assets/notext/65/06.webp)
 
 Même en présence de nœuds espions durant la phase de tige, un doute subsiste toujours, car dès qu'ils rencontrent un nœud honnête dans le graphe de diffusion, les espions ne peuvent pas déterminer si ce nœud est la source originale ou simplement un intermédiaire.
 
-07
+![BTC204](assets/notext/65/07.webp)
 
 Cette méthode de routage permet de brouiller la piste menant au nœud source, ce qui rend difficile de retracer une transaction via le réseau jusqu'à son origine. Dandelion améliore donc la confidentialité en limitant la capacité des adversaires à désanonymiser le réseau. Cette méthode est d'autant plus efficace lorsque la transaction croise durant la phase de "tige" un nœud qui chiffre ses communications réseau, comme avec Tor ou P2P Transport V2. 
 
@@ -2656,7 +2656,7 @@ Une autre solution assez simple à mettre en place pour éviter les risques de p
 
 Tor est un réseau de serveurs relais (nœuds) qui permet d'anonymiser l'origine des connexions TCP sur internet. Il fonctionne en encapsulant les données dans plusieurs couches de chiffrement. Chaque nœud de relais enlève une couche pour révéler l'adresse du nœud suivant, jusqu'à atteindre la destination finale. Le réseau Tor assure l'anonymat en empêchant les nœuds intermédiaires de connaître à la fois l'origine et la destination des données, ce qui rend très difficile pour un observateur de retracer l'activité de l'utilisateur. 
 
-08
+![BTC204](assets/notext/65/08.webp)
 
 Tor offre donc non seulement le chiffrement des données communiquées, mais permet aussi de masquer l'origine et la destination des communications. En utilisant Tor pour les communications de son nœud personnel, on renforce la confidentialité de nos transactions : le fournisseur d'accès Internet ne peut pas déchiffrer les communications, et les autres nœuds du réseau Bitcoin ne peuvent pas identifier l'adresse IP du nœud source. De plus, Tor masque également à votre fournisseur d'accès Internet votre utilisation même de Bitcoin.
 

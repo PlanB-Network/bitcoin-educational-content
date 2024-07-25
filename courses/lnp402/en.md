@@ -1,6 +1,6 @@
 ---
 name: Developping on Lightning with SDK
-goal: Advance your Lighing development skills with intermediate Rust and SDK training.
+goal: Advance your lightning development skills with intermediate Rust and SDK training.
 objectives:
   - Get used to Rust Language
   - Understand why using Rust for developping Bitcoin

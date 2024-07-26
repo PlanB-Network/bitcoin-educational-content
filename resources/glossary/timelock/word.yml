@@ -1,0 +1,8 @@
+en_word: TIMELOCK
+related_words:
+  - OP_CHECKLOCKTIMEVERIFY
+  - OP_CHECKSEQUENCEVERIFY
+  - NLOCKTIME
+  - NSEQUENCE
+tags:
+  - ''

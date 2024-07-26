@@ -37,7 +37,7 @@ Có rất nhiều phần mềm chuyên dụng để chỉnh sửa các tệp Mar
 
 ## Bước 3: Fork kho lưu trữ PlanB Network
 
-- Truy cập vào kho dữ liệu PlanB Network tại địa chỉ sau: [https://github.com/DecouvreBitcoin/sovereign-university-data](https://github.com/DecouvreBitcoin/sovereign-university-data): ![github-desktop](assets/10.webp)
+- Truy cập vào kho dữ liệu PlanB Network tại địa chỉ sau: [https://github.com/PlanB-Network/bitcoin-educational-content](https://github.com/PlanB-Network/bitcoin-educational-content): ![github-desktop](assets/10.webp)
 - Từ trang này, nhấp vào nút `Fork` ở góc trên bên phải của cửa sổ: ![github-desktop](assets/11.webp)
 - Trong menu tạo mới, bạn có thể để nguyên cài đặt mặc định. Đảm bảo rằng ô `Copy the dev branch only` đã được chọn, sau đó nhấp vào nút `Create fork`: ![github-desktop](assets/12.webp)
 - Bạn sẽ đến với fork của riêng mình của kho lưu trữ PlanB Network: ![github-desktop](assets/13.webp)

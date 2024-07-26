@@ -22,7 +22,7 @@ Um zum PlanB Netzwerk beizutragen, haben Sie 3 Optionen, abhängig von Ihrem Erf
 ![tutorial](assets/1.webp)
 **Voraussetzungen, bevor Sie mit dem Tutorial beginnen:**
 - Ein [GitHub-Konto](https://github.com/signup) haben.
-- Einen Fork des [PlanB Netzwerk Quell-Repositories](https://github.com/DecouvreBitcoin/sovereign-university-data) haben.
+- Einen Fork des [PlanB Netzwerk Quell-Repositories](https://github.com/PlanB-Network/bitcoin-educational-content) haben.
 - Ein [Professor-Profil im PlanB Netzwerk](https://planb.network/professors) haben (nur wenn Sie ein komplettes Tutorial vorschlagen).
 
 **Wenn Sie Hilfe benötigen, um diese Voraussetzungen zu erfüllen, werden meine anderen Tutorials Sie anleiten:**

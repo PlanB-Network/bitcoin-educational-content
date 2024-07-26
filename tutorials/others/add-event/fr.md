@@ -11,7 +11,7 @@ Vous souhaitez ajouter une conférence Bitcoin sur le site de PlanB Network et d
 En revanche, si vous souhaitez ajouter les replays d'un conférence qui s'est déjà déroulée, je vous conseille [de lire cet autre tutoriel](https://planb.network/tutorials/others/add-conference-replay) dans lequel on vous explique comment ajouter une nouvelle ressource sur le site.
 ![event](assets/01.webp)
 - Tout d'abord, il vous faut avoir un compte sur GitHub. Si vous ne savez pas comment créer un compte, nous avons fait [un tutoriel détaillé pour vous accompagner](https://planb.network/tutorials/others/create-github-account).
-- Rendez-vous sur [le dépôt GitHub de PlanB dédié à la data](https://github.com/DecouvreBitcoin/sovereign-university-data/tree/dev/resources/conference) dans la section `resources/conference/` :
+- Rendez-vous sur [le dépôt GitHub de PlanB dédié à la data](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/conference) dans la section `resources/conference/` :
 ![event](assets/02.webp)
 - Cliquez en haut à droite sur le bouton `Add file`, puis sur `Create new file` :
 ![event](assets/03.webp)

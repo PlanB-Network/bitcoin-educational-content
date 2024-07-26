@@ -1232,7 +1232,7 @@ Onnittelut BTC 101 -kurssin suorittamisesta! Toivon vilpittömästi, että nauti
 ## Tue meitä
 <chapterId>3e6e756b-b6c4-5d41-bece-767922348067</chapterId>
 
-Tämä kurssi, kuten kaikki tämän yliopiston sisältö, on tarjottu sinulle ilmaiseksi yhteisömme toimesta. Voit tukea meitä jakamalla sen muiden kanssa, liittymällä yliopiston jäseneksi ja jopa osallistumalla sen kehittämiseen [GitHubissamme](https://github.com/DecouvreBitcoin/sovereign-university-data). Koko tiimin puolesta, kiitos!
+Tämä kurssi, kuten kaikki tämän yliopiston sisältö, on tarjottu sinulle ilmaiseksi yhteisömme toimesta. Voit tukea meitä jakamalla sen muiden kanssa, liittymällä yliopiston jäseneksi ja jopa osallistumalla sen kehittämiseen [GitHubissamme](https://github.com/PlanB-Network/bitcoin-educational-content). Koko tiimin puolesta, kiitos!
 
 ## Arvioi koulutus
 <chapterId>44d01865-5c89-55a5-a397-a014960eec0f</chapterId>

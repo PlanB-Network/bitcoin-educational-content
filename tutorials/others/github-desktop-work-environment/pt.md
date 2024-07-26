@@ -37,7 +37,7 @@ Existem uma infinidade de softwares especializados na edição de arquivos Markd
 
 ## Passo 3: Faça um Fork do repositório PlanB Network
 
-- Vá ao repositório de dados da PlanB Network no seguinte endereço: [https://github.com/DecouvreBitcoin/sovereign-university-data](https://github.com/DecouvreBitcoin/sovereign-university-data): ![github-desktop](assets/10.webp)
+- Vá ao repositório de dados da PlanB Network no seguinte endereço: [https://github.com/PlanB-Network/bitcoin-educational-content](https://github.com/PlanB-Network/bitcoin-educational-content): ![github-desktop](assets/10.webp)
 - Nesta página, clique no botão `Fork` no topo direito da janela: ![github-desktop](assets/11.webp)
 - No menu de criação, você pode deixar as configurações padrão. Certifique-se de que a caixa `Copy the dev branch only` esteja marcada, depois clique no botão `Create fork`: ![github-desktop](assets/12.webp)
 - Você então chegará ao seu próprio fork do repositório PlanB Network: ![github-desktop](assets/13.webp)

@@ -22,7 +22,7 @@ Pro přispívání do PlanB Network máte 3 možnosti v závislosti na vaší ú
 ![tutoriál](assets/1.webp)
 **Předpoklady před zahájením tutoriálu:**
 - Mít [účet na GitHubu](https://github.com/signup).
-- Mít fork [zdrojového repozitáře PlanB Network](https://github.com/DecouvreBitcoin/sovereign-university-data).
+- Mít fork [zdrojového repozitáře PlanB Network](https://github.com/PlanB-Network/bitcoin-educational-content).
 - Mít [profil profesora na PlanB Network](https://planb.network/professors) (pouze pokud navrhujete kompletní tutoriál).
 
 **Pokud potřebujete pomoc s získáním těchto předpokladů, moje další tutoriály vás provedou:**

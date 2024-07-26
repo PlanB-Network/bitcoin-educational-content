@@ -9,7 +9,7 @@ PlanBのミッションは、可能な限り多くの言語でビットコイン
 あなたのショーの可視性を高めるためにPlanBネットワークサイトにビットコインポッドキャストを追加したいですが、方法がわからないですか？このチュートリアルはあなたのためのものです！
 ![podcast](assets/01.webp)
 - まず、GitHubアカウントを持っている必要があります。作成方法がわからない場合は、[詳細なチュートリアルを用意しています](https://planb.network/tutorials/others/create-github-account)。
-- `resources/podcasts/`セクションにある[PlanB専用のデータのGitHubリポジトリ](https://github.com/DecouvreBitcoin/sovereign-university-data/tree/dev/resources/podcasts)にアクセスしてください：
+- `resources/podcasts/`セクションにある[PlanB専用のデータのGitHubリポジトリ](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/podcasts)にアクセスしてください：
 ![podcast](assets/02.webp)
 - 右上の`Add file`ボタンをクリックし、次に`Create new file`をクリックします：
 ![podcast](assets/03.webp)

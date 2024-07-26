@@ -5,7 +5,7 @@ description: Comment participer à la revue du contenu éducatif sur PlanB Netwo
 ![github](assets/cover.webp)
 
 ## TL;DR 
-Si vous souhaitez réviser du contenu pour PlanB Network, rendez-vous sur la [page projet associée](https://github.com/DecouvreBitcoin/sovereign-university-data/projects?query=is%3Aopen) à votre langue. Sélectionnez le contenu que vous souhaitez réviser, commentez pour nous informer que vous prenez en charge la tâche, et publiez une PR une fois terminée sur la branche associée à la langue. 
+Si vous souhaitez réviser du contenu pour PlanB Network, rendez-vous sur la [page projet associée](https://github.com/PlanB-Network/bitcoin-educational-content/projects?query=is%3Aopen) à votre langue. Sélectionnez le contenu que vous souhaitez réviser, commentez pour nous informer que vous prenez en charge la tâche, et publiez une PR une fois terminée sur la branche associée à la langue. 
 
 Si vous n'avez pas compris la partie ci-dessus, ne vous inquiétez pas, ce tutoriel est fait pour vous !
 
@@ -38,14 +38,14 @@ Toutefois, si vous ne connaissez pas du tout le fonctionnement de Git et de GitH
 * Créez un compte sur GitHub pour commencer à contribuer. Si vous souhaitez être guidé dans la manière de créer votre compte sur GitHub, nous avons également [un tutoriel détaillé](https://planb.network/tutorials/others/create-github-account).
 
 ## **2. Aller sur la page projet de votre langue**
-* La [page projet](https://github.com/DecouvreBitcoin/sovereign-university-data/projects?query=is%3Aopen) contient du contenu dans votre langue affiché sur un tableau Kanban.
+* La [page projet](https://github.com/PlanB-Network/bitcoin-educational-content/projects?query=is%3Aopen) contient du contenu dans votre langue affiché sur un tableau Kanban.
 * Recherchez des cartes dans la colonne "Review Needed" (cf. **A**). Ce sont des issues que vous pouvez réviser.
 * Chaque carte détaille (cf. **B**) :
 	- **Type de Contenu** : Cours, tutoriel ou site web
 	- **Difficulté du Contenu**
 	- **Urgence**
 	- **Nombre de Mots**
-	- **Récompense Associée** : Basée sur les propriétés du contenu et la précision de la traduction (cf. [section Récompense](https://github.com/DecouvreBitcoin/sovereign-university-data?tab=readme-ov-file#sat-reward))
+	- **Récompense Associée** : Basée sur les propriétés du contenu et la précision de la traduction (cf. [section Récompense](https://github.com/PlanB-Network/bitcoin-educational-content?tab=readme-ov-file#sat-reward))
 
 ![review](assets/1.webp)
 

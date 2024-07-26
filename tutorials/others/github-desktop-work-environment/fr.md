@@ -44,7 +44,7 @@ Il existe une multitude de logiciels spécialisés dans l'édition de fichiers M
 
 ## Étape 3 : Fork le dépôt de PlanB Network
 
-- Rendez-vous sur le dépôt des données de PlanB Network à l'adresse suivante : [https://github.com/DecouvreBitcoin/sovereign-university-data](https://github.com/DecouvreBitcoin/sovereign-university-data) :
+- Rendez-vous sur le dépôt des données de PlanB Network à l'adresse suivante : [https://github.com/PlanB-Network/bitcoin-educational-content](https://github.com/PlanB-Network/bitcoin-educational-content) :
 ![github-desktop](assets/10.webp)
 - Depuis cette page, cliquez sur le bouton `Fork` en haut à droite de la fenêtre :
 ![github-desktop](assets/11.webp)

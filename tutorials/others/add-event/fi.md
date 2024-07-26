@@ -9,7 +9,7 @@ PlanB:n tehtävänä on tarjota huipputason koulutusresursseja Bitcoinista mahdo
 Jos haluat lisätä Bitcoin-konferenssin PlanB-verkon sivustolle ja lisätä näkyvyyttä tapahtumallesi, mutta et tiedä miten? Tämä opas on sinua varten!
 ![event](assets/01.webp)
 - Ensimmäiseksi sinun on oltava GitHub-tili. Jos et tiedä, miten tili luodaan, olemme tehneet [yksityiskohtaisen oppaan, joka opastaa sinua](https://planb.network/tutorials/others/create-github-account).
-- Mene [PlanB:n GitHub-repositorioon, joka on omistettu datalle](https://github.com/DecouvreBitcoin/sovereign-university-data/tree/dev/resources/conference) osiossa `resources/conference/`:
+- Mene [PlanB:n GitHub-repositorioon, joka on omistettu datalle](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/conference) osiossa `resources/conference/`:
 ![event](assets/02.webp)
 - Klikkaa oikeassa yläkulmassa `Add file` -painiketta, sitten `Create new file`:
 ![event](assets/03.webp)

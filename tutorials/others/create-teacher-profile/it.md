@@ -8,7 +8,7 @@ La missione di PlanB è fornire risorse educative di primo livello su Bitcoin, n
 
 Se desideri aggiungere un nuovo tutorial completo o un corso sulla Rete PlanB, dovrai creare il tuo profilo professore. Questo ti permetterà di essere correttamente accreditato per i contenuti che produci sul sito web.
 ![tutorial](assets/1.webp)
-Se hai già contribuito alla Rete PlanB, probabilmente hai già un ID contributore. Puoi trovarlo nella tua cartella professore accessibile [tramite questa pagina](https://github.com/DecouvreBitcoin/sovereign-university-data/tree/dev/professors). Se questo è il caso, puoi saltare questo tutorial e iniziare a contribuire direttamente.
+Se hai già contribuito alla Rete PlanB, probabilmente hai già un ID contributore. Puoi trovarlo nella tua cartella professore accessibile [tramite questa pagina](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/professors). Se questo è il caso, puoi saltare questo tutorial e iniziare a contribuire direttamente.
 ![tutorial](assets/2.webp)
 
 Scopriamo insieme come aggiungere un nuovo professore in questo tutorial!
@@ -21,7 +21,7 @@ Scopriamo insieme come aggiungere un nuovo professore in questo tutorial!
 ![tutorial](assets/3.webp)
 **Prerequisiti prima di iniziare il tutorial:**
 - Avere un [account GitHub](https://github.com/signup).
-- Avere un fork del [repository sorgente della Rete PlanB](https://github.com/DecouvreBitcoin/sovereign-university-data).
+- Avere un fork del [repository sorgente della Rete PlanB](https://github.com/PlanB-Network/bitcoin-educational-content).
 
 **Se hai bisogno di aiuto per ottenere questi prerequisiti, i miei altri tutorial ti guideranno:**
 - **[Comprendere Git e GitHub](https://planb.network/tutorials/others/basics-of-github)**

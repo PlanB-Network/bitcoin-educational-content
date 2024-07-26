@@ -22,7 +22,7 @@ Osallistuaksesi PlanB-verkostoon sinulla on 3 vaihtoehtoa riippuen kokemustasost
 ![opas](assets/1.webp)
 **Edellytykset ennen oppaan aloittamista:**
 - On oltava [GitHub-tili](https://github.com/signup).
-- On oltava haara [PlanB-verkoston lähdekoodirepositoriosta](https://github.com/DecouvreBitcoin/sovereign-university-data).
+- On oltava haara [PlanB-verkoston lähdekoodirepositoriosta](https://github.com/PlanB-Network/bitcoin-educational-content).
 - On oltava [professoriprofiili PlanB-verkostossa](https://planb.network/professors) (vain jos ehdotat täydellistä opasta).
 
 **Jos tarvitset apua näiden edellytysten saavuttamisessa, muut oppaani opastavat sinua:**

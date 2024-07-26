@@ -22,7 +22,7 @@ To contribute to the PlanB Network, you have 3 options depending on your experie
 ![tutorial](assets/1.webp)
 **Prerequisites before starting the tutorial:**
 - Have a [GitHub account](https://github.com/signup).
-- Have a fork of the [PlanB Network source repository](https://github.com/DecouvreBitcoin/sovereign-university-data).
+- Have a fork of the [PlanB Network source repository](https://github.com/PlanB-Network/bitcoin-educational-content).
 - Have [a professor profile on PlanB Network](https://planb.network/professors) (only if you are proposing a complete tutorial).
 
 **If you need help obtaining these prerequisites, my other tutorials will guide you:**

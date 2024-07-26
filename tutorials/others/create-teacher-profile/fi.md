@@ -8,7 +8,7 @@ PlanB:n tehtävänä on tarjota huipputason koulutusresursseja Bitcoinista mahdo
 
 Jos haluat lisätä uuden täydellisen opetusohjelman tai kurssin PlanB-verkostoon, sinun on luotava professoriprofiilisi. Tämä mahdollistaa sinun saada asianmukaiset kreditoinnit tuottamastasi sisällöstä verkkosivustolla.
 ![tutorial](assets/1.webp)
-Jos olet aiemmin osallistunut PlanB-verkoston toimintaan, sinulla on todennäköisesti jo avustajan tunnus. Löydät sen professorikansiostasi, joka on saatavilla [tällä sivulla](https://github.com/DecouvreBitcoin/sovereign-university-data/tree/dev/professors). Jos näin on, voit jättää tämän opetusohjelman väliin ja aloittaa suoraan osallistumisen.
+Jos olet aiemmin osallistunut PlanB-verkoston toimintaan, sinulla on todennäköisesti jo avustajan tunnus. Löydät sen professorikansiostasi, joka on saatavilla [tällä sivulla](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/professors). Jos näin on, voit jättää tämän opetusohjelman väliin ja aloittaa suoraan osallistumisen.
 ![tutorial](assets/2.webp)
 
 Tutustutaan yhdessä, miten lisätä uusi professori tässä opetusohjelmassa!
@@ -21,7 +21,7 @@ Tutustutaan yhdessä, miten lisätä uusi professori tässä opetusohjelmassa!
 ![tutorial](assets/3.webp)
 **Edellytykset ennen opetusohjelman aloittamista:**
 - [GitHub-tilin](https://github.com/signup) omistaminen.
-- Forkin omistaminen [PlanB Networkin lähdekoodirepositoriosta](https://github.com/DecouvreBitcoin/sovereign-university-data).
+- Forkin omistaminen [PlanB Networkin lähdekoodirepositoriosta](https://github.com/PlanB-Network/bitcoin-educational-content).
 
 **Jos tarvitset apua näiden edellytysten saavuttamisessa, muut opetusohjelmani opastavat sinua:**
 - **[Gitin ja GitHubin ymmärtäminen](https://planb.network/tutorials/others/basics-of-github)**

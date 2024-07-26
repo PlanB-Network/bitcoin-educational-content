@@ -25,7 +25,7 @@ Para la creación de tu frase de recuperación a mano, necesitarás:
 - Una hoja de papel;
 - Un bolígrafo o lápiz, idealmente de diferentes colores para facilitar la organización;
 - Varios dados, para minimizar los riesgos de sesgo relacionados con un dado desequilibrado;
-- [La lista de 2048 palabras BIP39](https://github.com/DecouvreBitcoin/sovereign-university-data/tree/dev/tutorials/others/generate-mnemonic-phrase/assets/BIP39-WORDLIST.pdf) impresa.
+- [La lista de 2048 palabras BIP39](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/tutorials/others/generate-mnemonic-phrase/assets/BIP39-WORDLIST.pdf) impresa.
 
 Posteriormente, el uso de un ordenador con terminal se hará necesario para el cálculo del checksum. Es precisamente por esta razón que desaconsejo la generación manual de la frase mnemotécnica. En mi opinión, la intervención de un ordenador, incluso bajo las precauciones mencionadas en este tutorial, aumenta significativamente la vulnerabilidad de una cartera.
 Para un enfoque experimental relacionado con una "billetera ficticia", es posible usar tu computadora habitual y su terminal. Sin embargo, para un enfoque más riguroso destinado a limitar los riesgos de comprometer tu frase, lo ideal sería usar una PC desconectada de internet (preferiblemente sin un componente wifi o conexión cableada RJ45), equipada con el mínimo de periféricos (todos los cuales deberían estar conectados por cable, para evitar Bluetooth), y sobre todo, funcionando en una distribución Linux amnésica como [Tails](https://tails.boum.org/index.fr.html), iniciada desde un medio extraíble.
@@ -59,7 +59,7 @@ Cada uno de estos paquetes representa un número en binario que luego se convert
 
 ![mnemonic](assets/notext/5.webp)
 
-Finalmente, el número en decimal nos indica la posición de la palabra correspondiente en [la lista de 2048 palabras BIP39](https://github.com/DecouvreBitcoin/sovereign-university-data/tree/dev/tutorials/others/generate-mnemonic-phrase/assets/BIP39-WORDLIST.pdf). Solo queda seleccionar estas palabras para componer la frase de recuperación para nuestra billetera.
+Finalmente, el número en decimal nos indica la posición de la palabra correspondiente en [la lista de 2048 palabras BIP39](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/tutorials/others/generate-mnemonic-phrase/assets/BIP39-WORDLIST.pdf). Solo queda seleccionar estas palabras para componer la frase de recuperación para nuestra billetera.
 
 ![mnemonic](assets/notext/6.webp)
 
@@ -205,7 +205,7 @@ Con los números decimales obtenidos, ahora podemos localizar las palabras corre
 
 ![mnemonic](assets/notext/24.webp)
 Después de este ajuste, tienes el rango de cada palabra dentro de la lista. Todo lo que queda es identificar cada palabra por su número. Obviamente, como con todos los otros pasos, no debes usar tu computadora para realizar esta conversión. Por lo tanto, asegúrate de haber impreso la lista de antemano.
-[**-> Imprime la lista BIP39 en formato A4.**](https://github.com/DecouvreBitcoin/sovereign-university-data/tree/dev/tutorials/others/generate-mnemonic-phrase/assets/BIP39-WORDLIST.pdf)
+[**-> Imprime la lista BIP39 en formato A4.**](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/tutorials/others/generate-mnemonic-phrase/assets/BIP39-WORDLIST.pdf)
 
 Por ejemplo, si el número derivado de la primera línea es 1721, la palabra correspondiente será la 1721 en la lista:
 ```plaintext

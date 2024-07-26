@@ -9,7 +9,7 @@ PlanBのミッションは、できるだけ多くの言語でBitcoinに関す�
 PlanB NetworkサイトにBitcoinカンファレンスを追加してイベントの可視性を高めたいけれど、方法がわからない場合、このチュートリアルはあなたのためのものです！
 ![event](assets/01.webp)
 - まず、GitHubにアカウントを持っている必要があります。アカウントの作成方法がわからない場合は、[詳細なチュートリアルを用意しています](https://planb.network/tutorials/others/create-github-account)。
-- `resources/conference/`セクションにある[PlanB専用のデータGitHubリポジトリ](https://github.com/DecouvreBitcoin/sovereign-university-data/tree/dev/resources/conference)にアクセスしてください：
+- `resources/conference/`セクションにある[PlanB専用のデータGitHubリポジトリ](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/conference)にアクセスしてください：
 ![event](assets/02.webp)
 - 右上の`Add file`ボタンをクリックし、次に`Create new file`をクリックします：
 ![event](assets/03.webp)

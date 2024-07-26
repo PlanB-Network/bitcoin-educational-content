@@ -37,7 +37,7 @@ Hay una multitud de software especializado en editar archivos Markdown, como Typ
 
 ## Paso 3: Haz un Fork del repositorio de PlanB Network
 
-- Ve al repositorio de datos de PlanB Network en la siguiente dirección: [https://github.com/DecouvreBitcoin/sovereign-university-data](https://github.com/DecouvreBitcoin/sovereign-university-data): ![github-desktop](assets/10.webp)
+- Ve al repositorio de datos de PlanB Network en la siguiente dirección: [https://github.com/PlanB-Network/bitcoin-educational-content](https://github.com/PlanB-Network/bitcoin-educational-content): ![github-desktop](assets/10.webp)
 - Desde esta página, haz clic en el botón `Fork` en la parte superior derecha de la ventana: ![github-desktop](assets/11.webp)
 - En el menú de creación, puedes dejar la configuración predeterminada. Asegúrate de que la casilla `Copy the dev branch only` esté marcada, luego haz clic en el botón `Create fork`: ![github-desktop](assets/12.webp)
 - Luego llegarás a tu propio fork del repositorio de PlanB Network: ![github-desktop](assets/13.webp)

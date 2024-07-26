@@ -5,7 +5,7 @@ description: Wie kann man an der Überprüfung von Bildungsinhalten im PlanB Net
 ![github](assets/cover.webp)
 
 ## TL;DR
-Wenn du Inhalte für das PlanB Netzwerk überprüfen möchtest, gehe zur [zugehörigen Projektseite](https://github.com/DecouvreBitcoin/sovereign-university-data/projects?query=is%3Aopen) für deine Sprache. Wähle den Inhalt aus, den du überprüfen möchtest, kommentiere, um uns wissen zu lassen, dass du die Aufgabe übernimmst, und reiche einen PR ein, sobald du fertig bist, auf dem Branch, der mit der Sprache verbunden ist.
+Wenn du Inhalte für das PlanB Netzwerk überprüfen möchtest, gehe zur [zugehörigen Projektseite](https://github.com/PlanB-Network/bitcoin-educational-content/projects?query=is%3Aopen) für deine Sprache. Wähle den Inhalt aus, den du überprüfen möchtest, kommentiere, um uns wissen zu lassen, dass du die Aufgabe übernimmst, und reiche einen PR ein, sobald du fertig bist, auf dem Branch, der mit der Sprache verbunden ist.
 
 Wenn du den oben genannten Teil nicht verstanden hast, keine Sorge, dieses Tutorial ist für dich!
 
@@ -37,14 +37,14 @@ Wenn du jedoch völlig unvertraut damit bist, wie Git und GitHub funktionieren, 
 ## 1. Erstelle ein Konto
 * Erstelle ein Konto auf GitHub, um mit dem Beitrag zu beginnen. Wenn du Anleitung benötigst, wie du dein Konto auf GitHub erstellen kannst, haben wir auch [ein detailliertes Tutorial](https://planb.network/tutorials/others/create-github-account).
 ## **2. Gehe zur Projektseite deiner Sprache**
-* Die [Projektseite](https://github.com/DecouvreBitcoin/sovereign-university-data/projects?query=is%3Aopen) enthält Inhalte in deiner Sprache, die auf einem Kanban-Board angezeigt werden.
+* Die [Projektseite](https://github.com/PlanB-Network/bitcoin-educational-content/projects?query=is%3Aopen) enthält Inhalte in deiner Sprache, die auf einem Kanban-Board angezeigt werden.
 * Suche nach Karten in der Spalte "Review Needed" (siehe **A**). Das sind Probleme, die du überprüfen kannst.
 * Jede Karte enthält Details (siehe **B**):
 	- **Content Type**: Kurs, Tutorial oder Website
 	- **Content Difficulty**
 	- **Urgency**
 	- **Word Count**
-	- **Associated Reward**: Basierend auf den Inhaltseigenschaften und der Genauigkeit der Übersetzung (siehe [Belohnungsabschnitt](https://github.com/DecouvreBitcoin/sovereign-university-data?tab=readme-ov-file#sat-reward))
+	- **Associated Reward**: Basierend auf den Inhaltseigenschaften und der Genauigkeit der Übersetzung (siehe [Belohnungsabschnitt](https://github.com/PlanB-Network/bitcoin-educational-content?tab=readme-ov-file#sat-reward))
 ## **3. Inhalte zur Überprüfung finden**
 * In der Spalte "Review Needed" klicken Sie auf eine Karte.
 * Die Karte enthält eine Beschreibung mit Links zum Originalinhalt und zur Datei zur Überprüfung (siehe **A**).

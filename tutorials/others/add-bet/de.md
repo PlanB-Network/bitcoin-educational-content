@@ -13,7 +13,7 @@ Möchten Sie an der Bereicherung dieser Datenbank teilnehmen, wissen aber nicht 
 *Es ist zwingend erforderlich, dass alle in die Seite integrierten Inhalte frei von Rechten sind oder die Lizenz der Quelldatei respektieren. Außerdem werden alle auf dem PlanB Netzwerk veröffentlichten Visuals unter der [CC-BY-SA](https://creativecommons.org/licenses/by-sa/4.0/) Lizenz zur Verfügung gestellt.*
 ![event](assets/01.webp)
 - Zuerst müssen Sie ein Konto auf GitHub haben. Wenn Sie nicht wissen, wie Sie ein Konto erstellen, haben wir [ein detailliertes Tutorial erstellt, um Sie zu führen](https://planb.network/tutorials/others/create-github-account).
-- Gehen Sie zu [dem GitHub-Repository von PlanB, das den Daten gewidmet ist](https://github.com/DecouvreBitcoin/sovereign-university-data/tree/dev/resources/bet) im Abschnitt `resources/bet/`:
+- Gehen Sie zu [dem GitHub-Repository von PlanB, das den Daten gewidmet ist](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/bet) im Abschnitt `resources/bet/`:
 ![event](assets/02.webp)
 - Klicken Sie oben rechts auf den Button `Add file`, dann auf `Create new file`:
 ![event](assets/03.webp)

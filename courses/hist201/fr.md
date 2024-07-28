@@ -1535,37 +1535,55 @@ Cette dimension mystérieuse entourant le créateur de Bitcoin a d'ailleurs bien
 
 ### Faire sans Satoshi
 
-jimbobway à Satoshi, [30/7](https://bitcointalk.org/index.php?topic=628.msg6536#msg6536) : « Supposons que, Dieu nous en préserve, vous ne soyez plus en mesure de programmer ou que vous soyez indisponible en raison de circonstances inconnues.  Avez-vous une procédure en tête pour continuer le bitcoin en votre absence ? » (*original: "Suppose, god forbid, you were no longer able to program or were unavailable due to unknown circumstances.  Do you have a procedure in mind to continue bitcoin in your absence?"*)
+jimbobway à Satoshi, [30/7](https://bitcointalk.org/index.php?topic=628.msg6536#msg6536) : « Supposons que, Dieu nous en préserve, vous ne soyez plus en mesure de programmer ou que vous soyez indisponible en raison de circonstances inconnues. &nbsp;Avez-vous une procédure en tête pour continuer le bitcoin en votre absence ? » (*original: "Suppose, god forbid, you were no longer able to program or were unavailable due to unknown circumstances. &nbsp;Do you have a procedure in mind to continue bitcoin in your absence?"*)
 
 jgarzik, [30/7](https://bitcointalk.org/index.php?topic=628.msg6578#msg6578) : « Les gens s'inquiètent beaucoup des règles et de leur élaboration. &nbsp;Mais il n'y a aucun besoin de plan de continuité du gouvernement ici :) &nbsp;Tant que le code source reste ouvert, c'est suffisant. &nbsp;S'il existe un besoin et suffisamment d'intérêt, la communauté s'en chargera. &nbsp;Faites confiance à la communauté :) » (*original: "People worry an awful lot about rules and rule-making. &nbsp;But there is no driving need for any Continuity of Government plan, here :) &nbsp;As long as the source code remains open, that is sufficient. &nbsp;If there is a need, and enough interest, the community will provide. &nbsp;Trust in the community :)"*)
 
 ### Le développement communautaire
 
-"Core Bitcoin Development Help Wanted", [13/1](https://bitcointalk.org/index.php?topic=2772.msg37771#msg37771)
+Durant le mois de décembre 2010, Gavin [prend les rênes](https://bitcointalk.org/index.php?topic=2367.msg31651#msg31651) du projet en créant le dépôt GitHub. Le 13 janvier 2011, il [demande](https://bitcointalk.org/index.php?topic=2772.msg37771#msg37771) de l'aide sur le forum en créant un fil intitulé « Recherche d'aide pour le développement de base de Bitcoin ». (*original: "Core Bitcoin Development Help Wanted"*) Au cours des mois qui suivent, de nombreux programmeurs jouent le jeu et commencent à résoudre des problèmes. Parmi eux se trouvent notamment Jeff Garzik, Pieter Wuille (sipa) ou Wladimir van Der Laan (wumpus, laanwj). On assiste également à l'implication de nouveaux développeurs comme Luke-Jr ou Matt Corallo (BlueMatt). D'autres personnes aident sans contribuer directement au logiciel, comme Hal Finney (revenu en novembre) et Mike Hearn (impliqué depuis décembre).
 
-Bitcoin Improvement Proposals (BIP), liste de diffusion bitcoin-dev, canal IRC, Amir Taaki et Gavin Andresen, [liste des développeurs](https://web.archive.org/web/20110530221415/http://www.bitcoin.org:80/)
+Le plan est de pérenniser le développement du projet. Le but est de produire une certaine légitimité vis-à-vis d'un public plus large. Le 19 mai, Mike Hearn [propose](https://web.archive.org/web/20110522075653/http://forum.bitcoin.org:80/index.php?topic=8954.0) que les personnes impliquées dans le projet donnent leur « vrai nom » (à savoir leur nom civil). Gavin et lui changent leur pseudonyme sur le forum pour faire apparaître leur nom complet. Une liste des développeurs principaux est également [publiée](https://web.archive.org/web/20110530221415/http://www.bitcoin.org:80/) sur le première page du site web. À la fin du mois de mai, les développeurs présentés ainsi sont Gavin Andresen, Martti Malmi, Amir Taaki, Pieter Wuille, Nils Schneider et Jeff Garzik.
 
-gmaxwell
+La coordination s'améliore également. Outre le forum et le canal IRC `#bitcoin-dev`, une liste de diffusion dédiée au développement appelée `bitcoin-development` apparaît. Celle-ci est [mise en place](https://lists.linuxfoundation.org/pipermail/bitcoin-dev/2011-June/000000.html) le 12 juin par Jeff Garzik. Elle permet de discuter formellement des changements à apporter à Bitcoin. La liste est initialement hébergée sur SourceForge ; elle sera [déplacée](https://lists.linuxfoundation.org/pipermail/bitcoin-dev/2015-June/008975.html) sur le site de la Fondation Linux en juin 2015 (le nom sera raccourci en `bitcoin-dev` à cette occasion) pour enfin [migrer](https://groups.google.com/g/bitcoindev/c/aewBuV6k-LI) sur Google Group début 2024.
 
-Peter Todd (retep)
+Le 19 septembre 2011, Amir Taaki [inaugure](https://lists.linuxfoundation.org/pipermail/bitcoin-dev/2011-September/000554.html) le système des *Bitcoin Improvement Proposals*, ou « propositions d'amélioration de Bitcoin » en français, calqué sur les *Python Enhancement Proposals* (PEP) propres langage de programmation Python. Ces BIP sont des documents décrivant des changements possibles du protocole ou fournissant des informations générales à la communauté. Il décrit le procédé par le BIP-1, qui sera plus tard remplacé par le BIP-2 de Luke-Jr.
 
-Premières vidéos sur Bitcoin : https://www.youtube.com/watch?v=Akgw7XghFFc
+Hébergement des BIP ?
 
-### Le site, le forum, le wiki
+23 septembre 2011 : version 0.4
 
-Martti Malmi se met en retrait.
+### Le site, le forum et le wiki
 
-Migration du wiki de dokuwiki vers Mediawiki, grâce à Mark Karpelès : https://bitcointalk.org/index.php?topic=2321.0 https://en.bitcoin.it/wiki/Mark_Karpel%C3%A8s#Bitcoin_Wiki
+Martti Malmi, ayant réussi à trouver un emploi, se met en retrait. Il [vend](https://twitter.com/marttimalmi/status/1339908793736556544) alors une bonne partie de ses bitcoins pour s'acheter un confortable appartement près de Helsinki.
 
-New wiki : https://bitcointalk.org/index.php?topic=293.msg42789#msg42789
+"Anyone interested in helping out with bitcoin.org?" [28/3](https://bitcointalk.org/index.php?topic=5052.msg73922#msg73922)
 
-Forum. Mai 2011, `forum.bitcoin.org`. Août 2011 : `bitcointalk.org`.
+fermeture de bitcoinexchange, vente du nom de domaine : https://bitcointalk.org/index.php?topic=34357.msg427698#msg427698
 
-### Les portefeuilles SPV (mars 2011 -- sept. 2011)
+Évolution du site. https://web.archive.org/web/20110216125441/http://www.bitcoin.org/ https://web.archive.org/web/20110411071904/http://www.bitcoin.org/ https://web.archive.org/web/20110923155001/http://bitcoin.org/ (april 2011 redesign: https://bitcointalk.org/index.php?topic=4223.0)
+
+[16/12](https://bitcointalk.org/index.php?topic=2321.msg30872#msg30872) Création d'un nouveau wiki par Mark Karpelès (MagicalTux) à l'adresse bitcoin.it
+
+Migration du wiki de DokuWiki vers Mediawiki
+
+[19/12](https://bitcointalk.org/index.php?topic=2321.msg30872#msg30872) "The wiki link at bitcoin.org now points to bitcoin.it."
+
+[31/1](https://bitcointalk.org/index.php?topic=293.msg42789#msg42789) sirius-m, "New wiki": https://bitcointalk.org/index.php?topic=293.msg42789#msg42789
+
+Forum. Mai 2011, `forum.bitcoin.org`. [17/5](https://bitcointalk.org/index.php?topic=8696.msg125944#msg125944). Août 2011 : `bitcointalk.org`. [Transmission](https://bitcointalk.org/index.php?topic=5129680.msg50522659#msg50522659) de la position d'administrateur à theymos en 2012.
+
+### Les portefeuilles légers (mars 2011 -- sept. 2011)
 
 Utilisation de Bitcoin : nœud complet ou service dépositaire (MyBitcoin)
 
-BitCoinJ (Mike Hearn)
+Demande (prime) par Kiba, 1740 BTC, [16/11](https://bitcointalk.org/index.php?topic=1812.msg22319#msg22319)
+
+Idée d'utiliser un nœud en tant que serveur distant (en lequel on a totalement confiance), Spesmilo : Amir Taaki, Luke-Jr, [14/2](https://bitcointalk.org/index.php?topic=3451.msg48538#msg48538)
+
+Le 7 mars 2011, Mike Hearn [publie](https://bitcointalk.org/index.php?topic=4236.msg61438#msg61438) son implémentation logicielle BitCoinJ. Comme il travaille pour Google, le code doit être attribué à la multinationale, mais la licence est libre ([Apache 2.0](https://www.apache.org/licenses/LICENSE-2.0)). L'implémentation met en œuvre la vérification de paiement simplifiée telle que décrite dans le livre blanc, de sorte que des clients mobiles légers peuvent s'y connecter.
+
+Quelques jours plus tard, un autre développeur du nom d'Andreas Schildbach (Goonie) ....
 
 Bitcoin Wallet for Android (Andreas Schildbach), 11 mars 2011 : https://bitcointalk.org/index.php?topic=4384.msg64142#msg64142
 
@@ -1573,7 +1591,9 @@ Escroquerie de sortie de MyBitcoin, juillet 2011
 
 Le *Bitcoin Wallet for Android* sera suivi du portefeuille pour ordinateur Electrum, créé par Thomas Voegtlin en septembre 2011 : https://bitcointalk.org/index.php?topic=51397.msg612674#msg612674
 
-### Les conférences (juin -- août 2011)
+### Les conférences et rencontres (févr. -- août 2011)
+
+8 février 2011, présentation de Gavin Andresen, « Making Money », *Ignite Amherst* : https://www.youtube.com/watch?v=koIq58UoNfE
 
 15 juin 2011, présentation de Bitcoin par Renaud Lifchitz (nono2357) à l'Université Paris Descartes à Paris en France : https://bitcointalk.org/index.php?topic=11384.msg161183#msg161183
 
@@ -1599,8 +1619,35 @@ https://www.economist.com/babbage/2011/06/13/bits-and-bob
 
 Gavin : https://bitcointalk.org/index.php?topic=8940.msg129623#msg129623 https://web.archive.org/web/20110522073049/http://forum.bitcoin.org/index.php?topic=8940.0
 
+Garzik : https://bitcointalk.org/index.php?topic=1958.0 https://en.bitcoin.it/wiki/Bitcoin_press_hits
+
+23/12, Bitcoin [mentionné](https://bitcointalk.org/index.php?topic=2433.msg33016#msg33016) dans le Keiser Report (E106).
+
+Premières vidéos sur Bitcoin. Tutoriels :
+
+29/12/2010 Michael Hendricks - Buy Bitcoins with PayPal (using CoinPal) https://www.youtube.com/watch?v=YmPg4V-YE0k
+
+26/7/2011 Factrocks - Introduction to Bitcoin https://www.youtube.com/watch?v=ejiqbzqmxSE
+
+Présentations :
+
+22/3/2011 We Use Coins - What is Bitcoin? https://www.youtube.com/watch?v=Um63OQz3bjo
+
+1/6/2011 Reason - Bitcoin & The End of State-Controlled Money https://www.youtube.com/watch?v=yYTqvYqXRbY
+
+29/6/2011 Molly explains Bitcoins https://www.youtube.com/watch?v=9LaSrxtWfgc
+
+
+
+
+
 ### Le prix
+
+**extrait** Alors que Satoshi se met progressivement en retrait, la popularité de Bitcoin augmente prodigieusement. En particulier, le prix du bitcoin évolue de manière favorable : alors qu'il n'était que de 20 centimes en décembre 2010, il atteint la parité avec le dollar le 9 février 2011 et s'y maintient pendant quelques temps. Cette hausse du prix attise l'enthousiasme de la communauté, et notamment celui de Hal Finney qui [déclare](https://bitcointalk.org/index.php?topic=2734.msg37307#msg37307) avoir « vraiment de la chance d'être au début d'un nouveau phénomène potentiellement explosif ». (*original: "We are really lucky to be in at the beginning of a possibly explosive new phenomenon."*)
 
 9 février 2011 : parité
 
 32 $
+
+### Conclusion
+

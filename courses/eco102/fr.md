@@ -82,7 +82,7 @@ En 1825, il hérite de son grand-père d’un domaine agricole qu’il gère com
 
 Très vite, il se passionne pour l’économie politique et étudie les œuvres d’Adam Smith, Jean-Baptiste Say, Destutt de Tracy, Charles Dunoyer et Charles Comte. Il lit les journaux anglais et c’est là qu’il apprend l’existence d’une ligue anglaise pour le libre-échange.
 
-![image](assets/image/00/IMG20.webp)
+![image](assets/image/00/img-114.webp)
 
 _(Say, Cobden, Smith, Chevalier, Dunoyer, Destutt de Tracy)_
 
@@ -271,15 +271,16 @@ Sur ce point, l'homme a le choix entre deux alternatives fondamentales : il peut
 
 ![image](assets/image/03/IMG09.webp)
 
-Alors que pour Marx , l’antagonisme de classe se situe au sein même de l’activité productive, entre les salariés et les patrons, pour Comte et Dunoyer les classes en conflits, sont, d’un côté les producteurs de la société, qui paient l’impôt (y compris les capitalistes, ouvriers, paysans, savants etc.) et de l’autre, les non-producteurs, qui vivent de rentes financées par l’impôt, « la classe oisive et dévorante » (bureaucrates, fonctionnaires, politiciens, bénéficiaires de subventions ou de protections).
+Alors que pour Marx, l’antagonisme de classe se situe au sein même de l’activité productive, entre les salariés et les patrons, pour Comte et Dunoyer les classes en conflits, sont, d’un côté les producteurs de la société, qui paient l’impôt (y compris les capitalistes, ouvriers, paysans, savants etc.) et de l’autre, les non-producteurs, qui vivent de rentes financées par l’impôt, « la classe oisive et dévorante » (bureaucrates, fonctionnaires, politiciens, bénéficiaires de subventions ou de protections).
 
 Ensuite, à la différence de Marx, les auteurs du Censeur Européen ne prônent pas la guerre des classes. Ils militent au contraire pour la paix sociale. Et celle-ci, selon eux, ne passera que par la dépolitisation de la société. Pour cela, il importe de réduire d’abord le prestige et les avantages des fonctions publiques. Il importe ensuite de donner dans le corps politique l’influence aux producteurs.
+
+![image](assets/image/03/IMG02BASTIATMARX.webp)
 
 Finalement, la seule manière de débarrasser le monde de l’exploitation d’une classe par une autre consiste à détruire le mécanisme même qui rend cette exploitation possible : le pouvoir de l’État de distribuer et de contrôler la propriété et la répartition des avantages qui y sont liés (les « places »).
 
 Leurs idées, profondément novatrices, marqueront définitivement Frédéric Bastiat qui deviendra lui-même un profond penseur des crises politiques.
 
-![image](assets/image/03/IMG02BASTIATMARX.webp)
 
 ## Cobden et la Ligue
 
@@ -287,17 +288,15 @@ Leurs idées, profondément novatrices, marqueront définitivement Frédéric Ba
 
 ![video](https://youtu.be/ZWx7RQsmutM?si=NpGycbbi8AQQKjNI)
 
+Nous sommes en 1838, à Manchester, un petit nombre d’hommes, peu connus jusqu’alors, se réunissent pour chercher le moyen de renverser le monopole des propriétaires de terres à blé par les voies légales et pour accomplir, comme le racontera Bastiat par la suite,
+
 ![image](assets/image/04/IMG08.webp)
 
-Nous sommes en 1838 , à Manchester, un petit nombre d’hommes, peu connus jusqu’alors, se réunissent pour chercher le moyen de renverser le monopole des propriétaires de terres à blé par les voies légales et pour accomplir, comme le racontera Bastiat par la suite,
-
-![image](assets/image/04/IMG12.webp)
-
-> Sans effusion de sang, par la seule puissance de l’opinion , une révolution aussi profonde, plus profonde peut-être que celle qu’ont opérée nos pères en 1789.
-
-![image](assets/image/04/IMG13.webp)
+> Sans effusion de sang, par la seule puissance de l’opinion, une révolution aussi profonde, plus profonde peut-être que celle qu’ont opérée nos pères en 1789.
 
 De cette réunion va sortir la Ligue contre les lois sur les blés, les corn-laws, ou les lois-céréales, selon l’expression de Bastiat. Mais très vite, cet objectif deviendra celui de l'abolition totale et unilatérale du protectionnisme.
+
+![image](assets/image/04/IMG13.webp)
 
 Cette bataille économique pour la liberté des échanges va occuper toute l’Angleterre jusqu’en 1846. En France, on ne soupçonne absolument pas, en dehors d’un petit nombre d’initiés, l’existence de ce vaste mouvement. C'est en lisant un journal anglais, auquel il s'est abonné par hasard, que Frédéric Bastiat apprend l'existence de la Ligue en 1843. Enthousiasmé, il traduit les discours de Cobden, de Fox et de Bright. Puis il correspond avec Cobden et finalement, en 1845, il part à Londres assister aux gigantesques meetings de la Ligue.
 
@@ -315,7 +314,7 @@ Orateur fascinant et redoutable, il avait un don prodigieux pour inventer des fo
 
 ![image](assets/image/04/IMG14.webp)
 
-En 1845, Bastiat fait paraître à Paris son livre Cobden et la Ligue , avec ses traductions accompagnées de commentaires. Le livre s'ouvre par une introduction sur la situation économique de l'Angleterre, sur l’histoire de l’origine et des progrès de la Ligue. Depuis 1815, le protectionnisme était très développé en Angleterre. Il existait en particulier des lois limitant les importations de grains qui avaient des conséquences très dures pour le peuple. En effet, le blé était nécessaire à la fabrication du pain, denrée vitale à l'époque. Par ailleurs ce système favorisait l'aristocratie, c’est-à-dire les grands propriétaires terriens, qui en tiraient des rentes.
+En 1845, Bastiat fait paraître à Paris son livre Cobden et la Ligue, avec ses traductions accompagnées de commentaires. Le livre s'ouvre par une introduction sur la situation économique de l'Angleterre, sur l’histoire de l’origine et des progrès de la Ligue. Depuis 1815, le protectionnisme était très développé en Angleterre. Il existait en particulier des lois limitant les importations de grains qui avaient des conséquences très dures pour le peuple. En effet, le blé était nécessaire à la fabrication du pain, denrée vitale à l'époque. Par ailleurs ce système favorisait l'aristocratie, c’est-à-dire les grands propriétaires terriens, qui en tiraient des rentes.
 
 ![image](assets/image/04/IMG15.webp)
 
@@ -333,7 +332,7 @@ L’objectif de la Ligue était de mobiliser l'opinion publique pour faire press
 
 _(Jeremy Bentham)_
 
-Disciple de l’utilitarisme de Bentham , la conviction de Cobden était que la liberté du travail et des échanges servait directement l’intérêt des masses les plus nombreuses, les plus pauvres, les plus souffrantes de la société. Au contraire, les douanes comme instrument de prohibitions arbitraires et de privilèges ne pouvaient que profiter à certaines industries les plus puissantes.
+Disciple de l’utilitarisme de Bentham, la conviction de Cobden était que la liberté du travail et des échanges servait directement l’intérêt des masses les plus nombreuses, les plus pauvres, les plus souffrantes de la société. Au contraire, les douanes comme instrument de prohibitions arbitraires et de privilèges ne pouvaient que profiter à certaines industries les plus puissantes.
 
 Aux élections de 1841, cinq membres de la ligue, dont Cobden, sont élus au parlement. Le 26 mai 1846, le libre-échange unilatéral devint la loi du royaume. Dès lors le Royaume-Uni va connaître une éclatante période de liberté et de prospérité.
 
@@ -341,13 +340,13 @@ Ce qui est intéressant, c'est que Bastiat s'est approprié une partie de leur m
 
 ![image](assets/image/04/IMG09.webp)
 
-C’est seulement après la mort de Bastiat, en 1866 , que Napoléon III signera un traité de libre-échange avec l’Angleterre, sorte de victoire posthume pour celui qui avait consacré les 6 dernières années de sa courte vie à cette grande idée.
+C’est seulement après la mort de Bastiat, en 1866, que Napoléon III signera un traité de libre-échange avec l’Angleterre, sorte de victoire posthume pour celui qui avait consacré les 6 dernières années de sa courte vie à cette grande idée.
 
 ![image](assets/image/04/IMG17.webp)
 
 _(Michel Chevalier)_
 
-La question du libre-échange continue de se poser aujourd’hui. Les manuels de géographie dans les écoles prétendent que la mondialisation est coupable et que les pays pauvres auraient besoin de l'aide occidentale pour s'en sortir. Pourtant, l'extrême pauvreté a reculé de moitié en 20 ans. C’est en faisant le choix de l’ouverture que des pays comme l’Inde , la Chine ou Taïwan, ont pu sortir de la pauvreté, alors que la stagnation caractérise des pays fermés comme la Corée du Nord ou le Vénézuela. Selon l'ONU, 36% de l'humanité vivait dans le dénuement total en 1990. Ils ne sont plus « que » 18% en 2010. L'extrême pauvreté reste un défi majeur, mais elle recule.
+La question du libre-échange continue de se poser aujourd’hui. Les manuels de géographie dans les écoles prétendent que la mondialisation est coupable et que les pays pauvres auraient besoin de l'aide occidentale pour s'en sortir. Pourtant, l'extrême pauvreté a reculé de moitié en 20 ans. C’est en faisant le choix de l’ouverture que des pays comme l’Inde, la Chine ou Taïwan, ont pu sortir de la pauvreté, alors que la stagnation caractérise des pays fermés comme la Corée du Nord ou le Vénézuela. Selon l'ONU, 36% de l'humanité vivait dans le dénuement total en 1990. Ils ne sont plus « que » 18% en 2010. L'extrême pauvreté reste un défi majeur, mais elle recule.
 
 # Les adversaires
 
@@ -359,7 +358,7 @@ La question du libre-échange continue de se poser aujourd’hui. Les manuels de
 
 ![video](https://youtu.be/Z8EDhTS-s_Q?si=KSe8O-NTLXP3nRSb)
 
-Frédéric Bastiat , qui s'est exprimé dans les années 1840, est l'héritier d'une génération de philosophes des Lumières qui se sont battus contre la censure et pour la liberté de débattre. Pensons ici à Montesquieu, Diderot Voltaire, Condorcet mais aussi à Rousseau .
+Frédéric Bastiat, qui s'est exprimé dans les années 1840, est l'héritier d'une génération de philosophes des Lumières qui se sont battus contre la censure et pour la liberté de débattre. Pensons ici à Montesquieu, Diderot Voltaire, Condorcet mais aussi à Rousseau .
 
 Pour eux, l'idée était simple : plus on laisse les idées s'exprimer, plus la vérité progresse et plus les erreurs se réfutent facilement. La science progresse d'ailleurs toujours de cette manière.
 
@@ -488,9 +487,9 @@ le socialisme. De quoi s’agit-il ? D’un mouvement politique qui réclame l�
 
 Le 27 juin 1848, au lendemain d’une nouve lle sanglante insurrection à Paris, dans une longue lettre à Richard Cobden, il s’attarde sur les causes qui ont pu conduire à ces événements.
 
-1° La première de ces causes, c’est l’ignorance économique. C’est elle qui prépare les esprits à recevoir les utopies du socialisme et du faux républicanisme. Je renvoie sur ce point à la vidéo précédente, sur les tendances de l'éducation classique et universitaire.
+- 1° La première de ces causes, c’est l’ignorance économique. C’est elle qui prépare les esprits à recevoir les utopies du socialisme et du faux républicanisme. Je renvoie sur ce point à la vidéo précédente, sur les tendances de l'éducation classique et universitaire.
 
-2° La nation s'est entichée de l'idée qu'on pouvait introduire la fraternité et la solidarité dans la loi. C’est-à-dire qu’on a exigé de l'État qu'il fasse directement le bonheur des citoyens. Ici Bastiat aperçoit les débuts de l’État providence.
+- 2° La nation s'est entichée de l'idée qu'on pouvait introduire la fraternité et la solidarité dans la loi. C’est-à-dire qu’on a exigé de l'État qu'il fasse directement le bonheur des citoyens. Ici Bastiat aperçoit les débuts de l’État providence.
 
 ![image](assets/image/07/IMG01.webp)
 
@@ -498,7 +497,7 @@ Et il ne cessera par la suite d’en analyser les effets pervers. En voici un pa
 
 > En vertu des penchants naturels du cœur humain, chacun s'est mis à réclamer pour lui, de l'État, une plus grande part de bien-être. C'est-à-dire que l'État ou le trésor public a été mis au pillage. Toutes les classes ont demandé à l'État, comme en vertu d'un droit, les moyens d'existence. Les efforts faits dans ce sens par l'État n'ont abouti qu'à des impôts et des entraves, et à l'augmentation de la misère.
 
-3° Bastiat ajoute qu’à ses yeux, le protectionnisme a été la première manifestation de ce désordre. Les capitalistesont commencé par demander l'intervention de la loi pour accroître leur part de richesse. Fatalement les ouvriers ont voulu faire de même.
+- 3° Bastiat ajoute qu’à ses yeux, le protectionnisme a été la première manifestation de ce désordre. Les capitalistesont commencé par demander l'intervention de la loi pour accroître leur part de richesse. Fatalement les ouvriers ont voulu faire de même.
 
 ![image](assets/image/07/IMG08.webp)
 
@@ -512,12 +511,9 @@ Pour conclure, protectionnistes et socialistes ont un point commun, selon Bastia
 
 ![video](https://youtu.be/nBY6VUhtUis?si=EpWFShKZEQOyqRjg)
 
+Pierre-Joseph Proudhon est l’un des grands représentants du socialisme français au milieu du XIXe siècle . Il est resté célèbre notamment pour cette phrase : « La propriété c’est le vol » dans "Qu'est-ce que la propriété ?" en 1840.
+
 ![image](assets/image/08/IMG06.webp)
-
-Pierre-Joseph Proudhon est l’un des grands représentants du socialisme français au milieu du XIXe siècle . Il est resté célèbre notamment pour cette phrase : « La propriété c’est le vol » dans "Qu'est-ce que la propriété ?" en 1840..
-
-![image](assets/image/08/IMG09.webp)
-
 ![image](assets/image/08/IMG02.webp)
 
 Il y a quelque chose de logiquement absurde dans cette affirmation. Car s'il n'y avait pas de propriété acquise légitimement, il ne pourrait logiquement pas y avoir d'acte tel que le vol. C’est pourquoi Proudhon précisera par la suite que c'est la répartition effective de la propriété qu'il considère comme un vol et non la propriété elle-même qu'il qualifie de force révolutionnaire fondatrice de la société anarchiste.
@@ -556,10 +552,12 @@ En effet, selon Bastiat, le progrès de l'humanité coïncide avec la formation 
 
 Sans capital accumulé, sans matériaux, Robinson serait voué à la mort. Il explique ensuite que le capital est deux fois l’enrichissement du travailleur :
 
-- a) il augmente la production, donc diminue le prix du bien à la consommation
-- b) ce qui a pour effet d’augmenter le salaire.
+- Il augmente la production, donc diminue le prix du bien à la consommation
+- Ce qui a pour effet d’augmenter le salaire.
 
-Dans la société moderne, le capital est une force égalisatrice. En effet, dit Bastiat, « quand les capitaux se multiplient, ils se font concurrence entre eux ; leur rémunération diminue, ou, en d’autres termes, l’intérêt baisse. »
+Dans la société moderne, le capital est une force égalisatrice. En effet, dit Bastiat: 
+
+> « quand les capitaux se multiplient, ils se font concurrence entre eux ; leur rémunération diminue, ou, en d’autres termes, l’intérêt baisse. »
 
 En conclusion, Proudhon et Bastiat ont vu tous les deux l'importance de l'accumulation du capital, et la tendance de certains hommes à en exploiter d’autres. Mais ils n'en ont pas tiré les mêmes conclusions. Proudhon, comme Marx, prévoyait une paupérisation croissante des masses dans les pays capitalistes. Bastiat pensait que le capitalisme engendrerait une prospérité sans précédent dans toutes les classes, et le développement d'une classe moyenne de plus en plus importante. C'est effectivement ce qui s'est passé.
 
@@ -573,13 +571,13 @@ En conclusion, Proudhon et Bastiat ont vu tous les deux l'importance de l'accumu
 
 ![video](https://youtu.be/KfhX-EXRYu0?si=JL9jjaP9u0HUnSm_)
 
-Dans cette vidéo, je vais vous dévoiler une toute nouvelle technologie, une technologie révolutionnaire. Un chercheur a mis au point une paire de lunettes bioniques avec une mini-caméra ultra puissante implantée en façade. Cette technologie permet de voir des détails impossibles à voir à l’œil nu. Dans les branches vous avez une puce électronique qui transmet les images directement dans le cloud via mon smartphone.
+Dans ce chapitre, je vais vous dévoiler une toute nouvelle technologie, une technologie révolutionnaire. Un chercheur a mis au point une paire de lunettes bioniques avec une mini-caméra ultra puissante implantée en façade. Cette technologie permet de voir des détails impossibles à voir à l’œil nu. Dans les branches vous avez une puce électronique qui transmet les images directement dans le cloud via mon smartphone.
 
 ![image](assets/image/09/IMG01.webp)
 
 L’inventeur du premier prototype de ces lunettes c’est Frédéric Bastiat en 1850 dans un célèbre pamphlet : Ce qu’on voit et ce qu’on ne voit pas. Ces lunettes, ce sont celle de l’économiste. Elles permettent de mesurer les conséquences des décisions prises par le pouvoir sur nos vies. Ce sont les lunettes qui « permettent de voir ce qu’on ne voit pas » : les destructions que causent les politiques clientélistes et les fausses théories économiques. Souvent on ne voit pas leurs victimes, ni leurs bénéficiaires, en somme leurs véritables effets par opposition aux prétentions affichées dans les discours officiels, ce que Bastiat appelle « Les sophismes économiques ».
 
-Le bon économiste, selon Bastiat, doit décrire les effets des décisions politiques sur la société. Mais il doit être attentif, non pas à ses effets à court terme sur un groupe particulier, mais plutôt à ses conséquences à long terme pour la société dans son ensemble. Quelles sont les victimes et quels sont les bénéficiaires de ces politiques? Quels sont les coûts cachés de telle ou telle loi ou décision politique ? Qu’auraient fait les contribuables à la place du gouvernement , avec l’argent qu’on leur a enlevé en impôts ? Telles sont les questions posées par le bon économiste selon Bastiat.
+Le bon économiste, selon Bastiat, doit décrire les effets des décisions politiques sur la société. Mais il doit être attentif, non pas à ses effets à court terme sur un groupe particulier, mais plutôt à ses conséquences à long terme pour la société dans son ensemble. Quelles sont les victimes et quels sont les bénéficiaires de ces politiques? Quels sont les coûts cachés de telle ou telle loi ou décision politique ? Qu’auraient fait les contribuables à la place du gouvernement, avec l’argent qu’on leur a enlevé en impôts ? Telles sont les questions posées par le bon économiste selon Bastiat.
 
 Ainsi dans Travaux publics, Bastiat écrit :
 
@@ -587,7 +585,11 @@ Ainsi dans Travaux publics, Bastiat écrit :
 
 ![image](assets/image/09/IMG20.webp)
 
-L’un des sophismes les plus connus est le sophisme de la vitre cassée. Certains prétendent que le bris d’une vitre dans une maison ne nuit pas à l’économie puisqu’il profite au vitrier. Mais Bastiat va montrer que la destruction n’est pas conforme à notre intérêt car elle ne créé pas de richesse. Elle coûte plus qu’elle ne rapporte. Le jeune garçon qui brise la fenêtre d'un voisin donne du travail au verrier. Mais voici que ses amis le consolent : « À quelque chose malheur est bon. De tels accidents font aller l’industrie. Il faut que tout le mo nde vive. Que deviendraient les vitriers si on ne cassait jamais de vitres ». Ainsi, selon Keynes, la destruction de la propriété, en forçant à la dépense, stimulerait l’économie et aurait un « effet multiplicateur » revigorant sur la production et l’emploi. C'est seulement ce qu’on voit.
+L’un des sophismes les plus connus est le sophisme de la vitre cassée. Certains prétendent que le bris d’une vitre dans une maison ne nuit pas à l’économie puisqu’il profite au vitrier. Mais Bastiat va montrer que la destruction n’est pas conforme à notre intérêt car elle ne créé pas de richesse. Elle coûte plus qu’elle ne rapporte. Le jeune garçon qui brise la fenêtre d'un voisin donne du travail au verrier. Mais voici que ses amis le consolent : 
+
+> « À quelque chose malheur est bon. De tels accidents font aller l’industrie. Il faut que tout le mo nde vive. Que deviendraient les vitriers si on ne cassait jamais de vitres ».
+
+Ainsi, selon Keynes, la destruction de la propriété, en forçant à la dépense, stimulerait l’économie et aurait un « effet multiplicateur » revigorant sur la production et l’emploi. C'est seulement ce qu’on voit.
 
 Mais ce qu’on ne voit pas, c’est ce que le propriétaire aurait acheté avec cet argent, mais auquel il doit maintenant renoncer, avec ce qu’il doit dépenser pour réparer sa fenêtre. Ce qu’on ne voit pas c’est l’opportunité perdue du propriétaire de la vitre cassée. Il aurait pu allouer la somme donnée au vitrier à autre chose. S’il n’avait pas eu à dépenser pour réparer la vitre, il aurait pu dépenser l’argent pour sa propre consommation, employant ainsi du monde pour la production.
 
@@ -670,15 +672,13 @@ La véritable richesse, selon Bastiat, c’est donc l'ensemble des choses utiles
 
 ![image](assets/image/11/IMG10.webp)
 
-Cette citation, attribuée à Lao-Tseu , décrit la conséquence inévitable d’une fiscalité qui consiste à frapper les riches plus fortement que les autres.
+Cette citation, attribuée à Lao-Tseu, décrit la conséquence inévitable d’une fiscalité qui consiste à frapper les riches plus fortement que les autres.
 
 Pourtant, ne vous est-il jamais arrivé d'entendre dire :
 
 > L'impôt, c'est le meilleur placement : c'est une rosée fécondante ! Voyez combien de familles il fait vivre, et suivez, par la pensée, ses ricochets sur l'industrie : c'est l'infini, c'est la vie.
 
-En France, où il est admis que la dépense publique est un bienfait, les impôts sont plus élevés que dans d’autres pays. Mais Bastiat nous avertit d’emblée :
-
-> "Dans toute dépense publique, derrière le bien apparent il y a un mal plus difficile à discerner."
+En France, où il est admis que la dépense publique est un bienfait, les impôts sont plus élevés que dans d’autres pays. Mais Bastiat nous avertit d’emblée : "Dans toute dépense publique, derrière le bien apparent il y a un mal plus difficile à discerner."
 
 De quoi s’agit-il ?
 
@@ -716,7 +716,7 @@ Les politiciens supposent naïvement qu'il existe une relation automatique et fi
 
 La courbe de Laffer montre que le gouvernement ne perçoit aucun revenu lorsque les taux d'imposition est de 100%. A l'opposé, toute diminution de l'impôt a pour effet de stimuler l'activité économique et donc les recettes de l’État. En effet, la réduction des taux marginaux d'imposition, stimule l'investissement, le travail, la créativité et favorise ainsi la croissance économique. Une réduction suffisante pourrait produire suffisamment de relance économique et accroître les recettes publiques en élargissant considérablement l'assiette fiscale.
 
-Bastiat pourrait ajouter qu’on doit accorder autant d'importance aux diminutions des dépenses de l’État qu'à celles des impôts. Quoi qu’il en soit, comme le disait si bien Margaret Thatcher , une disciple de Frédéric Bastiat :
+Bastiat pourrait ajouter qu’on doit accorder autant d'importance aux diminutions des dépenses de l’État qu'à celles des impôts. Quoi qu’il en soit, comme le disait si bien Margaret Thatcher, une disciple de Frédéric Bastiat :
 
 ![image](assets/image/11/IMG8.webp)
 
@@ -801,7 +801,7 @@ Prenons un menuisier dans un village, dit-il et observons tous les services qu�
 
 > Tous les jours, en se levant il s’habille, et il n’a personnellement fait aucun de ses vêtements. Or, pour que ces vêtements soient à sa disposition, il faut qu’une énorme quantité de travail, d’industrie, de transports, d’inventions ingénieuses, ait été accomplie dans le monde entier.
 >
-> Ensuite il déjeune. Pour que lepain qu’il mange arrive tous les matins sur sa table , il faut que des terres aient été défrichées, labourées; il faut que le fer, l’acier, le bois, la pierre aient été convertis en instruments de travail ; toutes choses dont chacune, prise isolément, suppose une masse incalculable de travail mise en jeu, non-seulement dans l’espace, mais dans le temps.
+> Ensuite il déjeune. Pour que lepain qu’il mange arrive tous les matins sur sa table, il faut que des terres aient été défrichées, labourées; il faut que le fer, l’acier, le bois, la pierre aient été convertis en instruments de travail ; toutes choses dont chacune, prise isolément, suppose une masse incalculable de travail mise en jeu, non-seulement dans l’espace, mais dans le temps.
 >
 > Cet homme enverra son fils à l’école, pour y recevoir une instruction qui suppose des recherches, de longues années d’études antérieures.
 > Il sort dehors : il trouve une rue pavée et éclairée.
@@ -844,11 +844,11 @@ La planification économique, qui prétend faire mieux que le marché, conduit n
 
 ![video](https://youtu.be/KqtOO9FuaYg?si=wwItVC6_hhc5kYIF)
 
-![image](assets/image/14/IMG1.webp)
-
 Dans une lettre à Alphonse de Lamartine en 1845, Bastiat écrit que toute sa philosophie tient dans un seul et unique principe :
 
 > La liberté est la meilleure des organisations sociales.
+
+![image](assets/image/14/IMG1.webp)
 
 Mais il ajoute cependant une condition
 
@@ -857,8 +857,6 @@ Mais il ajoute cependant une condition
 Autrement dit liberté et responsabilité ne peuvent être séparées, elles sont indissociables. Le libéralisme pour lui se distingue du socialisme par la conviction que la liberté ne peut exister sans responsabilité. Mais quelles réalités recouvrent exactement les mots de liberté et de responsabilité ?
 
 La liberté se définit essentiellement d'une manière négative : être libre c'est agir sans coercition extérieure dans l'exercice de ses propres droits. Pourtant cela ne veut pas dire absence de toute contrainte. Car la liberté appelle la réciprocité : elle nous impose également d’agir sans porter atteinte à la propriété d’autrui et donc de réparer les préjudices commis, le cas échéant. C’est la responsabilité.
-
-![image](assets/image/14/IMG2.webp)
 
 La responsabilité représente donc en quelque sorte le versant positif de la liberté : dans la mesure où l'on agit librement, on doit supporter les conséquences de nos propres actes, bonnes ou mauvaises.
 
@@ -879,8 +877,6 @@ En effet, l’étatisme réduit sans cesse l’initiative privée et le libre ch
 Selon Bastiat, l’hypertrophie des lois et l’intervention excessive de l’État ont pour conséquence d’engendrer la lutte pour le pouvoir, la spoliation, les privilèges, les monopoles, les guerres, bref, tout ce fait obstacle au progrès de la civilisation.
 
 Le risque qu’il y a à vouloir trop favoriser la voie de la loi ou du contrôle bureaucratique, c’est de décourager toute motivation en imposant une avalanche de contraintes et ainsi de se priver des multiples progrès que permettent l’initiative privée et le libre choix.
-
-![image](assets/image/14/IMG6.webp)
 
 Illustrons cette question avec quelques grands sujets d’actualité. Premier exemple, la crise de 2008.
 
@@ -1091,9 +1087,9 @@ _(Cicéron)_
 
 ![video](https://youtu.be/DJgC0W8ViHs?si=xmSWGDYcbb_2tpPt)
 
-![image](assets/image/18/IMG01.webp)
-
 L’idée principale de Bastiat dans "La Loi", son célèbre pamphlet daté de 1850, c’est de montrer pourquoi et comment la loi est devenue spoliatrice, c’est-à-dire une source de privilèges, de rentes de situation et d’arbitraire fiscal.
+
+![image](assets/image/18/IMG01.webp)
 
 Quelle est la vraie nature de la loi ?
 
@@ -1134,8 +1130,6 @@ Pour lui le but de la Loi doit être simplement de « mettre fin à toutes les s
 
 Ils ont la certitude que leurs Droits naturels sont garantis et intouchables. Des droits de propriété sûrs donnent aux gens la possibilité de faire des projets sur le long terme, parce qu’ils savent que leur patrimoine est à l’abri de la spoliation.
 
-![image](assets/image/18/IMG8.webp)
-
 > Absence de Spoliation, — c’est le principe de justice, de paix, d’ordre, de stabilité, de conciliation, de bon sens que je proclamerai de toute la force, hélas ! bien insuffisante, de mes poumons, jusqu’à mon dernier souffle
 
 Ecrit Bastiat dans La Loi, quelques temps avant de mourir.
@@ -1149,8 +1143,6 @@ Un siècle après la mort de Frédéric Bastiat, la spoliation légale apparaît
 <chapterId>52258229-7c7c-592b-aa27-203b03aa41c9</chapterId>
 
 ![video](https://youtu.be/YffrxCE5xmc?si=HPLmL9YSnHIQGNNa)
-
-![image](assets/image/19/IMG1.webp)
 
 En 1848, Bastiat est député. Il est nommé vice-président de la commission des finances. Il est donc particulièrement bien placé pour répondre à cette question : qu'est-ce que l'État ? Nous nous adressons à l'État pour assurer notre bien-être. Mais Bastiat rappelle que l'État ne peut rien donner aux citoyens qu'il ne leur ait d'abord pris.
 
@@ -1185,7 +1177,9 @@ Il assure la Sécurité, intérieure et extérieure, et la Justice. Il peut êtr
 
 ![image](assets/image/19/IMG8.webp)
 
-En conséquence, les seuls services publics légitimes d’un État selon Bastiat sont ! au nombre de trois : l’armée, la police et la justice. En d’autres termes, l’État doit assurer la protection intérieure et extérieure des personnes, de leur liberté et de leur propriété. Il est donc normal que chacun contribue à cette protection. Mais, au-delà de ces fonctions légitimes, toute autre contribution à un autre service rendu par l’Etat est sujette à caution. « En dehors de ce cercle, écrit Bastiat, religion, éducation, association, travail, échanges, tout appartient au domaine de l’activité privée, sous l’œil de l’autorité publique, qui ne doit avoir qu’une mission de surveillance et de répression. »
+En conséquence, les seuls services publics légitimes d’un État selon Bastiat sont ! au nombre de trois : l’armée, la police et la justice. En d’autres termes, l’État doit assurer la protection intérieure et extérieure des personnes, de leur liberté et de leur propriété. Il est donc normal que chacun contribue à cette protection. Mais, au-delà de ces fonctions légitimes, toute autre contribution à un autre service rendu par l’Etat est sujette à caution.
+
+> En dehors de ce cercle, écrit Bastiat, religion, éducation, association, travail, échanges, tout appartient au domaine de l’activité privée, sous l’œil de l’autorité publique, qui ne doit avoir qu’une mission de surveillance et de répression.
 
 Concernant les services publics, il énonce un principe simple :
 

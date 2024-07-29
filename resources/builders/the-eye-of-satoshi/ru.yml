@@ -1,0 +1,4 @@
+description: |
+  Eye of Satoshi - это наблюдательная башня для Lightning Network, соответствующая BOLT13, написанная на Rust.
+contributors:
+  - rabbit-hole

@@ -25,7 +25,7 @@ De la Renaissance aux Lumières, le cours examine la montée de la liberté, mar
 
 Pourquoi intituler ce cours : une histoire de la liberté ? Parce que nous avons besoin de comprendre la relation entre les idées et les événements, pour mieux juger notre époque et agir avec discernement. C’est dans le passé que nous trouvons les éléments d'une meilleure compréhension de ce qu’est la liberté et des raisons pour lesquelles nous devons la chérir.
 
-> « Quand le passé n'éclaire plus l'avenir, l'esprit marche dans les ténèbres », écrivait Alexis de Tocqueville dans _De la démocratie en Amérique_.
+> Quand le passé n'éclaire plus l'avenir, l'esprit marche dans les ténèbres (Alexis de Tocqueville - _De la démocratie en Amérique_.)
 
 ![image](assets/1/img-028.webp)
 
@@ -65,7 +65,9 @@ De ce point de vue, il n’existe deux sortes de philosophies politiques et deux
 
 L’antagonisme entre ces deux philosophies existe à toutes les époques. Mais nous pouvons l’illustrer avec la philosophie des Lumières. On voit clairement une ligne de partage entre deux types de penseurs.
 
-Ceux qui défendent la première philosophie en France sont les Physiocrates, avec François Quesnay à leur tête. Ils se nomment physiocrates, (le nom vient du grec Physis qui veut dire nature et Kratos qui veut dire règle) car ils développent une pensée économique et sociale fondée sur les droits naturels de l’homme. Pour eux la société, les personnes et les propriétés existent antérieurement aux lois. Dans ce système, explique Bastiat, « ce n’est pas parce qu’il y a des lois qu’il y a des propriétés, mais parce qu’il y a des propriétés qu’il y a des lois » (_Propriété et Loi_).
+Ceux qui défendent la première philosophie en France sont les Physiocrates, avec François Quesnay à leur tête. Ils se nomment physiocrates, (le nom vient du grec Physis qui veut dire nature et Kratos qui veut dire règle) car ils développent une pensée économique et sociale fondée sur les droits naturels de l’homme. Pour eux la société, les personnes et les propriétés existent antérieurement aux lois. Dans ce système, explique Bastiat, 
+
+> Ce n’est pas parce qu’il y a des lois qu’il y a des propriétés, mais parce qu’il y a des propriétés qu’il y a des lois. (_Propriété et Loi_).
 
 ![image](assets/1/img-018.webp)
 
@@ -77,7 +79,7 @@ La seconde philosophie se retrouve chez des auteurs comme Rousseau, Robespierre 
 
 ![image](assets/1/img-026.webp)
 
-> « Celui qui ose entreprendre d’instituer un peuple, dit Rousseau, doit se sentir en état de changer, pour ainsi dire, la nature humaine, de transformer chaque individu qui, par lui-même, est un tout parfait et solitaire, en partie d’un plus grand tout dont cet individu reçoive en quelque sorte sa vie et son être. » (_Contrat social_)
+> Celui qui ose entreprendre d’instituer un peuple, dit Rousseau, doit se sentir en état de changer, pour ainsi dire, la nature humaine, de transformer chaque individu qui, par lui-même, est un tout parfait et solitaire, en partie d’un plus grand tout dont cet individu reçoive en quelque sorte sa vie et son être. (_Contrat social_)
 
 Dans cette perspective, le législateur a pour mission d’organiser, modifier, supprimer même la propriété, s’il le trouve bon. Pour Rousseau, la propriété n’est pas naturelle mais conventionnelle, comme la société elle-même. À son tour Robespierre pose le principe que « La propriété est le droit qu’a chaque citoyen de jouir et de disposer de la portion de biens qui lui est garantie par la loi ». Il n’y a pas de droit naturel de propriété, il n’y a qu’un nombre indéfini d’arrangements possibles et contingents.
 
@@ -86,17 +88,19 @@ Dans cette perspective, le législateur a pour mission d’organiser, modifier, 
 
 Quand on ouvre les manuels scolaires, remarquait Bastiat, on apprend que l’humanité serait vouée au néant sans l’intervention du pouvoir :
 
-> « Il suffit d’ouvrir, à peu près au hasard, un livre de philosophie, de politique ou d’histoire pour voir combien est fortement enracinée dans notre pays cette idée, fille des études classiques et mère du Socialisme, que l’humanité est une matière inerte recevant du pouvoir la vie, l’organisation, la moralité et la richesse ; — ou bien, ce qui est encore pis, que d’elle-même l’humanité tend vers sa dégradation et n’est arrêtée sur cette pente que par la main mystérieuse du Législateur. » ([_La loi_](http://bastiat.org/fr/la_loi.html)).
+> Il suffit d’ouvrir, à peu près au hasard, un livre de philosophie, de politique ou d’histoire pour voir combien est fortement enracinée dans notre pays cette idée, fille des études classiques et mère du Socialisme, que l’humanité est une matière inerte recevant du pouvoir la vie, l’organisation, la moralité et la richesse ; — ou bien, ce qui est encore pis, que d’elle-même l’humanité tend vers sa dégradation et n’est arrêtée sur cette pente que par la main mystérieuse du Législateur. ([_La loi_](http://bastiat.org/fr/la_loi.html)).
 
 Autrement dit, le préjugé culturel qui domine la philosophie occidentale ainsi que l’historiographie c’est que nous devons tout au pouvoir : la liberté, la santé, l’éducation, la sécurité, la prospérité. L’humanité est décrite comme une « matière inerte » qui prendrait forme grâce au législateur.
 
 Mais la réalité du pouvoir est tout autre selon Bastiat. Le pouvoir c’est l’oppression. Il écrit :
 
-> « Ouvrez donc au hasard les annales de l’humanité ! Consultez l’histoire ancienne ou moderne, sacrée ou profane, demandez-vous d’où sont venues toutes ces guerres de races, de classes, de nations, de familles ! Vous obtiendrez toujours cette réponse invariable : De la soif du pouvoir. » ([_Incompatibilités parlementaires_](http://bastiat.org/fr/incompatibilites_parlementaires.html))
+> Ouvrez donc au hasard les annales de l’humanité ! Consultez l’histoire ancienne ou moderne, sacrée ou profane, demandez-vous d’où sont venues toutes ces guerres de races, de classes, de nations, de familles ! Vous obtiendrez toujours cette réponse invariable : De la soif du pouvoir. ([_Incompatibilités parlementaires_](http://bastiat.org/fr/incompatibilites_parlementaires.html))
 
 C’est la soif du pouvoir qui est à l’origine de toutes les formes d’oppression dans l’histoire. Dans une lettre à Mme Chevreux, datée du 23 juin 1850, Bastiat indique quelles sont les phases de l’oppression : « Les temps de luttes, à qui s’emparera de l’État ; et les temps de trêve qui seront le règne éphémère d’une oppression triomphante, présage d’une lutte nouvelle. » D’abord la conquête du pouvoir par la guerre, puis l’établissement d’un État qui subsiste par le pillage des richesses de ses citoyens.
 
-L’histoire est donc une lutte entre deux principes : la liberté et l’oppression : « Liberté ! voilà, en définitive, le principe harmonique. Oppression ! voilà le principe dissonant ; la lutte de ces deux puissances remplit les annales du genre humain. » ([_Harmonies économiques_](http://bastiat.org/fr/conclusion_eo_harmonies.html), conclusion de l’édition originale).
+L’histoire est donc une lutte entre deux principes : la liberté et l’oppression : 
+
+> Liberté ! voilà, en définitive, le principe harmonique. Oppression ! voilà le principe dissonant ; la lutte de ces deux puissances remplit les annales du genre humain. ([_Harmonies économiques_](http://bastiat.org/fr/conclusion_eo_harmonies.html), conclusion de l’édition originale).
 
 ### Qu’est-ce que l’oppression ?
 
@@ -106,7 +110,7 @@ En un mot, c’est la spoliation. Bastiat esquisse les principaux types de spoli
 
 Quelle est la différence entre production et spoliation ? Voici la réponse de Bastiat :
 
-> « Pour produire, il faut diriger toutes ses facultés vers la domination de la nature ; car c’est elle qu’il s’agit de combattre, de dompter et d’asservir. C’est pourquoi le fer converti en charrue est l’emblème de la production. Pour spolier, il faut diriger toutes ses facultés vers la domination des hommes ; car ce sont eux qu’il faut combattre, tuer ou asservir. C’est pourquoi le fer converti en épée est l’emblème de la spoliation. » ([_Harmonies économiques_](http://bastiat.org/fr/guerre.html), Guerre).
+> Pour produire, il faut diriger toutes ses facultés vers la domination de la nature ; car c’est elle qu’il s’agit de combattre, de dompter et d’asservir. C’est pourquoi le fer converti en charrue est l’emblème de la production. Pour spolier, il faut diriger toutes ses facultés vers la domination des hommes ; car ce sont eux qu’il faut combattre, tuer ou asservir. C’est pourquoi le fer converti en épée est l’emblème de la spoliation. ([_Harmonies économiques_](http://bastiat.org/fr/guerre.html), Guerre).
 
 Autrement dit, la production c’est le pouvoir sur la nature. La spoliation c’est le pouvoir sur les hommes. Or il y a deux formes de spoliation : légale et illégale.
 
@@ -114,7 +118,9 @@ La spoliation illégale, c’est le vol ou le crime accomplit par un citoyen con
 
 Mais la pire forme de spoliation est celle qui est accomplie par la loi : « Il y a des gens qui pensent que la spoliation perd toute son immoralité pourvu qu’elle soit légale. Quant à moi, je ne saurais imaginer une circonstance plus aggravante. » ([_Ce qu’on voit et ce qu’on ne voit pas_](http://bastiat.org/fr/cqovecqonvp.html#RESTRICTION)).
 
-Il y a encore deux formes de spoliation légale, nous dit Bastiat : « La spoliation au dehors s’appelle guerre, conquêtes, colonies. La spoliation au dedans se nomme impôts, places, monopoles. » ([_Cobden et la ligue_](http://bastiat.org/fr/introduction_cobden_ligue.html)_, Introduction_).
+Il y a encore deux formes de spoliation légale, nous dit Bastiat : 
+
+> La spoliation au dehors s’appelle guerre, conquêtes, colonies. La spoliation au dedans se nomme impôts, places, monopoles. ([_Cobden et la ligue_](http://bastiat.org/fr/introduction_cobden_ligue.html)_, Introduction_).
 
 Dans [_Physiologie de la spoliation_](http://bastiat.org/fr/physiologie_de_la_spoliation.html), il développe :
 
@@ -126,17 +132,21 @@ Dans [_Physiologie de la spoliation_](http://bastiat.org/fr/physiologie_de_la_sp
 
 Historiquement les élites dirigeantes ont toujours vécu de la spoliation. Bastiat note :
 
-> « La force appliquée à la spoliation fait le fond des annales humaines. En retracer l’histoire, ce serait reproduire presque en entier l’histoire de tous les peuples : Assyriens, Babyloniens, Mèdes, Perses, Égyptiens, Grecs, Romains, Goths, Francs, Huns, Turcs, Arabes, Mongols, Tartares, sans compter celle des Espagnols en Amérique, des Anglais dans l’Inde, des Français en Afrique, des Russes en Asie, etc. » ([_Sophismes économiques_](http://bastiat.org/fr/conclusion_sophismes.html)_, Conclusion du premier volume)_.
+> La force appliquée à la spoliation fait le fond des annales humaines. En retracer l’histoire, ce serait reproduire presque en entier l’histoire de tous les peuples : Assyriens, Babyloniens, Mèdes, Perses, Égyptiens, Grecs, Romains, Goths, Francs, Huns, Turcs, Arabes, Mongols, Tartares, sans compter celle des Espagnols en Amérique, des Anglais dans l’Inde, des Français en Afrique, des Russes en Asie, etc.
+>
+> ([_Sophismes économiques_](http://bastiat.org/fr/conclusion_sophismes.html)_, Conclusion du premier volume)_.
 
-La spoliation, sous sa forme la plus brutale, armée de la torche et de l’épée, remplit les annales du genre humain. Quels sont les noms qui résument l’histoire ? Cyrus, Sésostris, Alexandre, Scipion, César, Attila, Tamerlan, Mahomet, Pizarre, Guillaume le Conquérant ; c’est la spoliation naïve par voie de conquêtes. À elle les lauriers, les monuments, les statues, les arcs de triomphe ». ([_Harmonies économiques_](http://bastiat.org/fr/conclusion_eo_harmonies.html), conclusion de l’édition originale).
+ou encore: 
+
+> La spoliation, sous sa forme la plus brutale, armée de la torche et de l’épée, remplit les annales du genre humain. Quels sont les noms qui résument l’histoire ? Cyrus, Sésostris, Alexandre, Scipion, César, Attila, Tamerlan, Mahomet, Pizarre, Guillaume le Conquérant ; c’est la spoliation naïve par voie de conquêtes. À elle les lauriers, les monuments, les statues, les arcs de triomphe. ([_Harmonies économiques_](http://bastiat.org/fr/conclusion_eo_harmonies.html), conclusion de l’édition originale).
 
 L’histoire du monde est l’histoire de la façon dont un groupe de personnes en a pillé d’autres, souvent de manière systématique, au moyen de la guerre, de l’esclavage, de la théocratie. De nos jours, c’est le monopole, c’est-à-dire les privilèges économiques distribués par l’État à ses clients.
 
 Quelques jours avant sa mort à Rome en 1850, Bastiat confiait à son ami Prosper Paillottet :
 
 > Un travail bien important à faire, pour l’économie politique, c’est d’écrire l’histoire de la Spoliation. C’est une longue histoire dans laquelle, dès l’origine, apparaissent les conquêtes, les migrations des peuples, les invasions et tous les funestes excès de la force aux prises avec la justice. De tout cela il reste encore aujourd’hui des traces vivantes, et c’est une grande difficulté pour la solution des questions posées dans notre siècle. On n’arrivera pas à cette solution tant qu’on n’aura pas bien constaté en quoi et comment l’injustice, faisant sa part au milieu de nous, s’est impatronisée dans nos mœurs et dans nos lois.
->
-> P. Paillottet, _Neuf jours près d’un mourant_
+> 
+> (P. Paillottet, _Neuf jours près d’un mourant_)
 
 ## Lord Acton : la liberté est le moteur de l’histoire
 <chapterId>de971d92-4e26-5870-a961-18dfa06497cf</chapterId>
@@ -149,7 +159,9 @@ Ceci est particulièrement vrai des manuels scolaires destinés aux écoles publ
 
 Tel n’est pas le cas d’un ouvrage en deux tomes écrit par un historien de Cambridge au XIXe siècle, [Lord Acton](https://www.lesbelleslettres.com/livre/9782251447858/le-pouvoir-corrompt). Son nom complet est John Emerich Edward Dalberg, baron of Acton (1834-1902). Il est l’auteur de _Histoire de la Liberté dans l'Antiquité Et le Christianisme_. Son travail est considéré comme l'un des plus importants sur le sujet et il y a consacré une grande partie de sa carrière. Son œuvre, bien qu’inachevée, est une mise en garde puissante contre les dangers de l'abus de pouvoir et son plaidoyer pour la liberté et la responsabilité individuelle reste d’actualité.
 
-Cet auteur est surtout connu pour sa maxime : « Le pouvoir tend à corrompre et le pouvoir absolu corrompt absolument ». Une formule qui fait écho à celle de Montesquieu dans [_L’esprit des lois_](https://fr.wikisource.org/wiki/Page:Montesquieu_-_Esprit_des_Lois_-_Tome_1.djvu/316) : « C’est une expérience éternelle que tout homme qui a du pouvoir est porté à en abuser ».
+Cet auteur est surtout connu pour sa maxime : « Le pouvoir tend à corrompre et le pouvoir absolu corrompt absolument ». Une formule qui fait écho à celle de Montesquieu dans [_L’esprit des lois_](https://fr.wikisource.org/wiki/Page:Montesquieu_-_Esprit_des_Lois_-_Tome_1.djvu/316) :
+
+> C’est une expérience éternelle que tout homme qui a du pouvoir est porté à en abuser.
 
 ### La thèse d’Acton
 
@@ -159,9 +171,9 @@ Pour Acton, le conflit entre la liberté et le pouvoir est le fil rouge de l'his
 
 Sa thèse centrale est que « la liberté est établie par le conflit des pouvoirs ». Selon Acton, pendant des siècles après la chute de l'Empire romain d'Occident, l'Église catholique était la seule force capable de contester l'autorité des seigneurs féodaux, des monarques et des empereurs. Cette lutte de pouvoir entre l'Église et l'État s'avéra cruciale pour l'essor de la liberté. L’Europe disposait d’un Dieu fort et d’un pouvoir faible, du fait de la querelle permanente, au Moyen Âge, entre les papes et les rois. Au contraire, la Chine connaissait une divinité faible et un pouvoir bureaucratique fort.
 
-> Par liberté j'entends l'assurance que tout homme sera protégé, lorsqu'il accomplit ce qu'il croit être son devoir, contre l'influence de l'autorité et des majorités, de la coutume et de l'opinion. L'État n'est compétent pour fixer des devoirs et pour distinguer entre le bien et le mal que dans sa propre sphère immédiate. »
+> Par liberté j'entends l'assurance que tout homme sera protégé, lorsqu'il accomplit ce qu'il croit être son devoir, contre l'influence de l'autorité et des majorités, de la coutume et de l'opinion. L'État n'est compétent pour fixer des devoirs et pour distinguer entre le bien et le mal que dans sa propre sphère immédiate. 
 >
-> Lord Acton
+> (Lord Acton)
 
 En d’autres termes, la liberté c’est le droit pour les individus suivre leur propre conscience et ce n’est pas à l’État de dicter à l’homme sa conduite sur le plan philosophique, moral et religieux.
 
@@ -171,7 +183,9 @@ Friedrich Hayek avait initialement envisagé de nommer la Société du Mont Pèl
 
 Mais l'idée selon laquelle la liberté en Europe est née des luttes intestines entre différents prétendants au pouvoir, empêchant l'établissement d'une domination absolue, n'est pas unique à Acton. On la trouve déjà chez des penseurs tels que Voltaire et Condorcet.
 
-Ainsi Voltaire, dans ses [_Lettres philosophiques_](https://fr.wikisource.org/wiki/Lettres_philosophiques/Lettre_6), attribue la liberté anglaise aux conflits entre les rois et les nobles qui ont empêché toute concentration excessive du pouvoir. Et il note : « S’il n’y avait en Angleterre qu’une religion, son despotisme serait à craindre ; s’il n’y en avait que deux, elles se couperaient la gorge ; mais il y en a trente, et elles vivent en paix et heureuses. » ([Sur les presbytériens](https://fr.wikisource.org/wiki/Lettres_philosophiques/Lettre_6))
+Ainsi Voltaire, dans ses [_Lettres philosophiques_](https://fr.wikisource.org/wiki/Lettres_philosophiques/Lettre_6), attribue la liberté anglaise aux conflits entre les rois et les nobles qui ont empêché toute concentration excessive du pouvoir. Et il note :
+
+> S’il n’y avait en Angleterre qu’une religion, son despotisme serait à craindre ; s’il n’y en avait que deux, elles se couperaient la gorge ; mais il y en a trente, et elles vivent en paix et heureuses. ([Sur les presbytériens](https://fr.wikisource.org/wiki/Lettres_philosophiques/Lettre_6))
 
 ![image](assets/1/img-105.webp)
 
@@ -188,7 +202,11 @@ Une autre vision de l’histoire existe néanmoins. Elle a connu un certain succ
 
 Elle explique l’extraordinaire croissance de l’Europe principalement par le progrès des techniques combiné avec l’ « accumulation primitive » du capital, issue de l’impérialisme, de l’esclavage, du commerce triangulaire, de l’expropriation des petits paysans et de l’exploitation de la classe ouvrière. La conclusion apparaît clairement. Cette croissance européenne exceptionnelle se serait réalisée au détriment de millions et de millions d’esclaves et d’opprimés.
 
-Dans un premier temps Marx a raison sur un point : l’histoire est l’histoire de la lutte des classes et de l’exploitation. La citation est connue, c’est la première phrase du premier chapitre du [_Manifeste du parti communiste_](https://fr.wikisource.org/wiki/Manifeste_du_parti_communiste/Andler) : « Toute l’histoire de la société humaine jusqu’à ce jour est l’histoire de luttes de classes. » Marx, lui-même, a reconnu qu'il avait emprunté sa théorie de la lutte des classes à des auteurs antérieurs : « Je n'ai aucun mérite pour la découverte des classes ni de la lutte entre les classes dans la société moderne. Bien avant moi, les historiens bourgeois avaient décrit le développement historique de cette lutte des classes et les économistes bourgeois l'anatomie économique des classes ». (_Lettre à J. Weydemeyer_, 5 mars 1852).
+Dans un premier temps Marx a raison sur un point : l’histoire est l’histoire de la lutte des classes et de l’exploitation. La citation est connue, c’est la première phrase du premier chapitre du [_Manifeste du parti communiste_](https://fr.wikisource.org/wiki/Manifeste_du_parti_communiste/Andler) : « Toute l’histoire de la société humaine jusqu’à ce jour est l’histoire de luttes de classes. » Marx, lui-même, a reconnu qu'il avait emprunté sa théorie de la lutte des classes à des auteurs antérieurs :
+
+> Je n'ai aucun mérite pour la découverte des classes ni de la lutte entre les classes dans la société moderne. Bien avant moi, les historiens bourgeois avaient décrit le développement historique de cette lutte des classes et les économistes bourgeois l'anatomie économique des classes. 
+>
+> (_Lettre à J. Weydemeyer_, 5 mars 1852).
 
 Mais il se trompe sur un point fondamental concernant la classe ouvrière : ce n’est pas le capital qui produit l’exploitation. Autrement dit, la lutte des classes n’a pas lieu au sein de la production mais entre ceux qui paient des impôts et ceux qui les prélèvent.
 
@@ -300,7 +318,7 @@ Et il ajoute :
 
 > On a maintenant tâté de toutes les variantes de l’étatisme et elles ont toutes échoué. Partout dans le monde occidental au début du 20ème siècle les chefs d’entreprise, les politiciens et intellectuels s’étaient mis à appeler de leurs vœux un “nouveau” système d’économie mixte, de domination étatique, à la place du laissez-faire relatif du siècle précédent. De nouvelles panacées, attrayantes à première vue, comme le socialisme, l’Etat corporatiste, l’Etat-Providence-Gendarme du monde, etc. ont été essayées et toutes ont manifestement échoué. Les argumentaires en faveur du socialisme et de la planification étatique apparaissent maintenant comme des plaidoyers pour un système vieilli, épuisé et raté. Que reste-t-il à essayer sinon la liberté ?
 >
-> _Ethique de la liberté_
+> (_Ethique de la liberté_)
 
 # Les origines de la liberté : l’Antiquité
 <partId>d7a9d251-6d44-5f2f-9cc5-88796c84f61b</partId>
@@ -324,7 +342,7 @@ L’historien Jean-Pierre Vernant écrit :
 
 > L'apparition de la polis constitue, dans l'histoire de la pensée grecque, un événement décisif. Certes, sur le plan intellectuel comme dans le domaine des institutions, il ne portera toutes ses conséquences qu'à terme ; la polis connaîtra des étapes multiples, des formes variées. Cependant, dès son avènement, qu'on peut situer entre le VIIIe et le VIIe siècle, elle marque un commencement, une véritable invention ; par elle, la vie sociale et les relations entre les hommes prennent une forme neuve, dont les Grecs sentiront pleinement l'originalité. (…) Ce qu'implique le système de la polis, c'est d'abord une extraordinaire prééminence de la parole sur tous les autres instruments du pouvoir. Elle devient l'outil politique par excellence, la clé de toute autorité dans l'État, le moyen de commandement et de domination sur autrui. (…) Un second trait de la polis est le caractère de pleine publicité donnée aux manifestations les plus importantes de la vie sociale. On peut même dire que la polis existe dans la mesure seulement où s'est dégagé un domaine public, aux deux sens, différents, mais solidaires, du terme : un secteur d'intérêt commun, s'opposant aux affaires privées ; des pratiques ouvertes, établies au grand jour, s'opposant à des procédures secrètes. (…) Désormais la discussion, l'argumentation, la polémique deviennent les règles du jeu intellectuel, comme du jeu politique. Le contrôle constant de la communauté s'exerce sur les créations de l'esprit comme sur les magistratures de l'Etat.
 >
-> Jean Pierre Vernant, _Les origines de la pensée grecque_, Paris, P.U.F, 1962
+> (Jean Pierre Vernant, _Les origines de la pensée grecque_, Paris, P.U.F, 1962)
 
 ![image](assets/2/img-001.webp)
 
@@ -349,7 +367,11 @@ L’harmonie sociale n’est pas produite par l’action intentionnelle des dieu
 
 ![image](assets/2/img-110.webp)
 
-Pour Aristote, la tyrannie c’est l’obéissance à un homme et la liberté c’est l’obéissance à la loi. On lui attribue cette citation : « Vouloir le règne de la loi, c’est vouloir le règne exclusif de la raison. Vouloir au contraire le règne d’un homme, c’est y ajouter celui d’une bête sauvage, car le désir et la colère faussent le jugement des gouvernants, fussent-ils les meilleurs des hommes ». Selon lui, les lois, étant impersonnelles et permanentes, permettent de garantir la justice et l'égalité pour tous les citoyens.
+Pour Aristote, la tyrannie c’est l’obéissance à un homme et la liberté c’est l’obéissance à la loi. On lui attribue cette citation : 
+
+> Vouloir le règne de la loi, c’est vouloir le règne exclusif de la raison. Vouloir au contraire le règne d’un homme, c’est y ajouter celui d’une bête sauvage, car le désir et la colère faussent le jugement des gouvernants, fussent-ils les meilleurs des hommes.
+
+Selon lui, les lois, étant impersonnelles et permanentes, permettent de garantir la justice et l'égalité pour tous les citoyens.
 
 Cicéron, célèbre orateur et philosophe romain du 1er siècle avant J.-C., a repris cette idée : « Nous sommes esclaves des lois pour pouvoir être libres » (_De Republica_, Livre III, chapitre 13). Dans ce passage, Cicéron développe un argumentaire en faveur d'une république gouvernée par les lois, plutôt que par un homme ou un petit groupe d'hommes.
 
@@ -371,7 +393,7 @@ Selon Jacqueline de Romilly :
 
 > Les Grecs eux-mêmes semblent avoir mesuré cette originalité et en avoir pris conscience au début du Ve siècle, dans le choc qui les opposa aux envahisseurs perses. Et le premier fait qui les frappa alors fut qu’il existait entre eux et leurs adversaires, une différence politique, qui commandait tout le reste. Les Perses obéissaient à un souverain absolu, qui était leur maître, qu’ils craignaient, et devant lequel ils se prosternaient : ces usages n’avaient pas cours en Grèce. On trouve un étonnant dialogue qui, dans Hérodote, oppose Xerxès à un ancien roi de Sparte. Ce roi annonce à Xerxès que les Grecs ne lui cèderont pas car la Grèce lutte toujours contre un asservissement à un maître. Elle se battra, quel que soit le nombre de ses adversaires. Car, si les Grec sont libres, « ils ne sont pas libres en tout : ils ont un maître, la loi, qu’ils redoutent encore bien plus que tes sujets ne te craignent.
 >
-> _La Grèce Antique à la découverte de la liberté, Paris, Editions de Fallois, 1989_
+> (_La Grèce Antique à la découverte de la liberté, Paris, Editions de Fallois, 1989_)
 
 ![image](assets/2/img-108.webp)
 
@@ -387,15 +409,17 @@ Le principe fondamental posé par ces premiers philosophes présocratiques est q
 
 D’après Karl Popper, on doit aux philosophes de la Grèce antique, en particulier aux présocratiques, l’invention du rationalisme critique, c’est-à-dire la tradition occidentale de la discussion critique, source de la pensée scientifique et du pluralisme. Il s’en explique dans un chapitre de _Conjectures et Réfutations_ intitulé « Retour aux présocratiques » :
 
-    « Quant aux premiers indices de l’existence d’une attitude critique, d’une liberté de pensée nouvelles, c’est dans la critique de Thalès par Anaximandre qu’ils apparaissent. Il y a là un phénomène tout à fait singulier, le penseur qu’Anaximandre critique est son maître, son compatriote, l’un des Sept Sages, celui qui a fondé l’École ionienne. D’après la tradition, Anaximandre n’avait que quatorze ans de moins que Thalès, et il a vraisemblablement formulé ses critiques et exposé ses conceptions nouvelles du vivant de son maître (ils sont morts, semble-t-il, à quelques années d’intervalle). Or, on ne découvre dans les sources aucune trace de dissension, de querelle ni de schisme. »
+> Quant aux premiers indices de l’existence d’une attitude critique, d’une liberté de pensée nouvelles, c’est dans la critique de Thalès par Anaximandre qu’ils apparaissent. Il y a là un phénomène tout à fait singulier, le penseur qu’Anaximandre critique est son maître, son compatriote, l’un des Sept Sages, celui qui a fondé l’École ionienne. D’après la tradition, Anaximandre n’avait que quatorze ans de moins que Thalès, et il a vraisemblablement formulé ses critiques et exposé ses conceptions nouvelles du vivant de son maître (ils sont morts, semble-t-il, à quelques années d’intervalle). Or, on ne découvre dans les sources aucune trace de dissension, de querelle ni de schisme.
 
 ![image](assets/2/img-008.webp)
 
 Ces éléments indiquent, selon lui, que c’est Thalès qui est à l’origine de cette tradition de liberté nouvelle, fondée sur une relation originale entre maître et disciple. Thalès a su tolérer la critique et, plus encore, il a fondé la tradition prescrivant d’y faire droit. Popper identifie là une rupture par rapport à la tradition dogmatique, qui n’autorise qu’une seule doctrine d’école, afin de lui substituer le pluralisme et le faillibilisme.
 
-    « Nos tentatives pour saisir et découvrir la vérité ne présentent pas un caractère définitif mais sont susceptibles de perfectionnement, notre savoir, notre corps de doctrine sont de nature conjecturale, ils sont faits de suppositions, d’hypothèses, et non de vérités certaines et dernières. »
+> Nos tentatives pour saisir et découvrir la vérité ne présentent pas un caractère définitif mais sont susceptibles de perfectionnement, notre savoir, notre corps de doctrine sont de nature conjecturale, ils sont faits de suppositions, d’hypothèses, et non de vérités certaines et dernières.
 
-Les seuls moyens dont nous disposons pour approcher la vérité sont la critique et la discussion. De la Grèce antique provient donc cette tradition « qui consiste à formuler des conjectures hardies et à exercer la libre critique, tradition qui a été à l’origine de la démarche rationnelle et scientifique et, partant, de cette culture occidentale qui est la nôtre et la seule qui soit fondée sur la science (même si, de toute évidence, ce n’est pas là son seul fondement. »
+Les seuls moyens dont nous disposons pour approcher la vérité sont la critique et la discussion. De la Grèce antique provient donc cette tradition:
+
+> Qui consiste à formuler des conjectures hardies et à exercer la libre critique, tradition qui a été à l’origine de la démarche rationnelle et scientifique et, partant, de cette culture occidentale qui est la nôtre et la seule qui soit fondée sur la science même si, de toute évidence, ce n’est pas là son seul fondement.
 
 ## L’invention du droit par les romains
 <chapterId>e9337ad6-5a75-5894-a017-9a507939cb51</chapterId>
@@ -455,15 +479,15 @@ Le Traité de la Vie Heureuse (_De Vita Beata_) est un plaidoyer pour la morale 
 
 Pour autant, le plaisir n’est pas incompatible avec la vertu :
 
-> « Les anciens ont prescrit de vivre la vie la meilleure et non la plus agréable, de telle sorte que le plaisir soit non pas le guide de la volonté droite, mais son compagnon de route ».
+> Les anciens ont prescrit de vivre la vie la meilleure et non la plus agréable, de telle sorte que le plaisir soit non pas le guide de la volonté droite, mais son compagnon de route.
 
 C’est pourquoi, le sage ne rejette pas les dons de la fortune :
 
-> « Il n'aime pas les richesses, il les préfère ; il ne les accueille pas dans son cœur, mais dans sa maison ; il ne rejette pas celle qu'il possède, il les domine et veut qu'elles fournissent à sa vertu une plus ample matière. »
+> Il n'aime pas les richesses, il les préfère ; il ne les accueille pas dans son cœur, mais dans sa maison ; il ne rejette pas celle qu'il possède, il les domine et veut qu'elles fournissent à sa vertu une plus ample matière.
 
 Sénèque va plus loin encore. Les richesses sont pour le sage l’occasion et le moyen d’exercer la vertu :
 
-> « Dans la pauvreté \[...\] il n'y a qu'un genre de vertu : ne pas fléchir ni se laisser déprimer ; au milieu des richesses, la tempérance, la libéralité, le discernement, l'économie, la magnificence ont le champ libre. »
+> Dans la pauvreté \[...\] il n'y a qu'un genre de vertu : ne pas fléchir ni se laisser déprimer ; au milieu des richesses, la tempérance, la libéralité, le discernement, l'économie, la magnificence ont le champ libre.
 
 ### La notion de loi supérieure
 
@@ -491,11 +515,11 @@ Dans son traité _Des Lois_ (_De Legibus_), il réfléchit au fondement du droit
 
 Cicéron rejette aussi l’utilité comme fondement du droit. En effet écrit-il :
 
-> « Si la justice est l'obéissance aux lois écrites et aux institutions des peuples et si, comme le disent ceux qui le soutiennent, l'utilité est la mesure de toutes choses, il méprisera et enfreindra les lois, celui qui croira y voir son avantage. Ainsi plus de justice, s'il n'y a pas une nature ouvrière de justice ; si c'est sur l'utilité qu'on la fonde, une autre utilité la renverse. Si donc le droit ne repose pas sur la nature, toutes les vertus disparaissent. Que deviennent en effet la libéralité, l'amour de la patrie, le respect des choses qui doivent nous être sacrées, la volonté de rendre service à autrui, celle de reconnaître le service rendu ? Toutes ces vertus naissent du penchant que nous avons à aimer les hommes, qui est le fondement du droit. »
+> Si la justice est l'obéissance aux lois écrites et aux institutions des peuples et si, comme le disent ceux qui le soutiennent, l'utilité est la mesure de toutes choses, il méprisera et enfreindra les lois, celui qui croira y voir son avantage. Ainsi plus de justice, s'il n'y a pas une nature ouvrière de justice ; si c'est sur l'utilité qu'on la fonde, une autre utilité la renverse. Si donc le droit ne repose pas sur la nature, toutes les vertus disparaissent. Que deviennent en effet la libéralité, l'amour de la patrie, le respect des choses qui doivent nous être sacrées, la volonté de rendre service à autrui, celle de reconnaître le service rendu ? Toutes ces vertus naissent du penchant que nous avons à aimer les hommes, qui est le fondement du droit.
 
 Il existe donc selon lui une justice universelle, inscrite dans la raison et la nature. Cicéron écrit dans le _De Republica_ :
 
-> « La loi vraie est la droite raison en accord avec la nature ; elle est d’application universelle, invariable et éternelle ; elle invite au devoir par ses commandements et détourne du mauvais chemin par ses interdictions \[…\]. Ni le Sénat ni le peuple n’ont le pouvoir de nous dispenser de lui obéir \[…\]. Elle n’est point autre à Athènes et autre à Rome, point autre aujourd’hui et autre demain. Mais c’est une seule et même loi, éternelle, immuable, qui est en vigueur en tout temps et chez tous les peuples \[…\]. Quiconque n’obéit pas à cette loi se fuit lui-même et méprise sa propre nature d’homme. »
+> La loi vraie est la droite raison en accord avec la nature ; elle est d’application universelle, invariable et éternelle ; elle invite au devoir par ses commandements et détourne du mauvais chemin par ses interdictions \[…\]. Ni le Sénat ni le peuple n’ont le pouvoir de nous dispenser de lui obéir \[…\]. Elle n’est point autre à Athènes et autre à Rome, point autre aujourd’hui et autre demain. Mais c’est une seule et même loi, éternelle, immuable, qui est en vigueur en tout temps et chez tous les peuples \[…\]. Quiconque n’obéit pas à cette loi se fuit lui-même et méprise sa propre nature d’homme.
 
 Cette loi est supérieure aux législations en vigueur, dès lors, « on ne peut ni l’infirmer par d’autres lois, ni déroger à quelques-uns de ses préceptes, ni l’abroger tout entière », ajoute Cicéron. Le pouvoir politique n'a aucune prise sur elle.
 
@@ -520,7 +544,9 @@ En effet, l'enrichissement de l'aristocratie romaine ne provenait que du butin d
 
 ### Du pain et des jeux
 
-Vers 140, l’historien romain Fronto écrivait : « La société romaine est préoccupée principalement par deux choses, ses ressources alimentaires et ses spectacles ».
+Vers 140, l’historien romain Fronto écrivait:
+
+> La société romaine est préoccupée principalement par deux choses, ses ressources alimentaires et ses spectacles.
 
 Les combats de gladiateurs, les courses de chars et les représentations théâtrales, souvent gratuits, attiraient des foules immenses et permettaient aux élites de gagner la faveur du peuple. Le pouvoir fournissait des jeux à ses citoyens, mais aussi du blé, du pain, du porc et de l’huile d’olive. Cette stratégie servait de stratégie politique pour apaiser les tensions sociales, détourner l'attention des problèmes économiques et renforcer le pouvoir des empereurs.
 
@@ -544,9 +570,9 @@ Les émissions monétaires à répétition par les empereurs successifs pour fai
 
 Ludwig von Mises décrit cet épisode qui illustre bien les effets néfastes de l'interventionnisme :
 
-> « L'empereur romain Dioclétien, (est) bien connu pour avoir été le dernier empereur romain qui ait persécuté les Chrétiens. Les empereurs romains, dans la seconde partie du troisième siècle ne disposaient que d'une seule méthode financière, qui était de falsifier la monnaie. Dans ces âges primitifs, avant l'invention de la presse à imprimer, l'inflation elle-même était primitive, pour ainsi dire. Elle comportait une fraude au niveau de la frappe des pièces, en particulier de l'argent, jusqu'à ce que la couleur de l'alliage en soit changée et le poids considérablement réduit. Le résultat de cet avilissement des monnaies joint à l'augmentation corrélative de la circulation fut une hausse des prix, suivie par un édit de contrôle des prix. Et les empereurs romains n'y allaient pas de main morte pour faire appliquer les lois ; ils ne considéraient pas que la mort fût une peine trop lourde pour un homme qui avait demandé un prix trop élevé. Ils firent respecter le contrôle des prix, mais en conséquence ils firent crouler la société. Cela finit par la désintégration de l'empire romain, et celle aussi de la division du travail. »
+> L'empereur romain Dioclétien, (est) bien connu pour avoir été le dernier empereur romain qui ait persécuté les Chrétiens. Les empereurs romains, dans la seconde partie du troisième siècle ne disposaient que d'une seule méthode financière, qui était de falsifier la monnaie. Dans ces âges primitifs, avant l'invention de la presse à imprimer, l'inflation elle-même était primitive, pour ainsi dire. Elle comportait une fraude au niveau de la frappe des pièces, en particulier de l'argent, jusqu'à ce que la couleur de l'alliage en soit changée et le poids considérablement réduit. Le résultat de cet avilissement des monnaies joint à l'augmentation corrélative de la circulation fut une hausse des prix, suivie par un édit de contrôle des prix. Et les empereurs romains n'y allaient pas de main morte pour faire appliquer les lois ; ils ne considéraient pas que la mort fût une peine trop lourde pour un homme qui avait demandé un prix trop élevé. Ils firent respecter le contrôle des prix, mais en conséquence ils firent crouler la société. Cela finit par la désintégration de l'empire romain, et celle aussi de la division du travail.
 >
-> [Politique économique, Réflexion pour aujourd’hui et pour demain](http://herve.dequengo.free.fr/Mises/PE/PE_3.htm)
+> ([Politique économique, Réflexion pour aujourd’hui et pour demain](http://herve.dequengo.free.fr/Mises/PE/PE_3.htm))
 
 ### Du libéralisme au socialisme
 
@@ -570,13 +596,13 @@ Aux premiers temps de sa grandeur, chaque Romain se considérait lui-même comme
 
 Les Romains ont alors abandonné la liberté et la responsabilité personnelle contre des promesses de privilèges et de richesses distribuées directement par le gouvernement. Les citoyens adoptèrent l’idée qu’il était plus avantageux d’obtenir un revenu par des moyens politiques plutôt que par le travail.
 
-Philippe Fabry résume
+Philippe Fabry résume:
 
-> _« les faiblesses observées du système impérial \[…\] sont celles de tous les régimes totalitaires »_ : _« Priorité absolue donnée au maintien du système en place, inefficacité dans la production économique, corruption, clientélisme. »_
+> les faiblesses observées du système impérial \[…\] sont celles de tous les régimes totalitaires »_ : _« Priorité absolue donnée au maintien du système en place, inefficacité dans la production économique, corruption, clientélisme.
 
 Et il ajoute :
 
-> _« Au total la vie économique, politique, artistique, religieuse sous l’Empire romain au IVe siècle devait ressembler assez fortement à ce qu’elle était sous Brejnev en URSS (et dans les pires moments sous Staline) ou à ce qu’elle peut être aujourd’hui en Corée du Nord : toute la population du monde romain était enrégimentée par le socialisme impérial et en subissait, directement ou indirectement, les effets. »_
+> Au total la vie économique, politique, artistique, religieuse sous l’Empire romain au IVe siècle devait ressembler assez fortement à ce qu’elle était sous Brejnev en URSS (et dans les pires moments sous Staline) ou à ce qu’elle peut être aujourd’hui en Corée du Nord : toute la population du monde romain était enrégimentée par le socialisme impérial et en subissait, directement ou indirectement, les effets.
 
 # Les origines de la liberté : le Moyen-Âge
 <partId>f47bd5fc-c4a7-5d3b-b102-7b948bb43268</partId>
@@ -594,9 +620,11 @@ D'emblée, le christianisme enseigne que le péché est une affaire personnelle,
 
 Pas de péché sans liberté. Certes, le Dieu chrétien est un juge qui récompense la « vertu » et punit le « péché ». Mais cette conception de Dieu est justement incompatible avec le fatalisme car l’homme ne pourrait pas être coupable et faire son mea culpa s’il n’était pas d’abord libre de déterminer lui-même son comportement. Reconnaître sa faute morale, sa culpabilité, c’est reconnaître qu’on aurait pu agir autrement.
 
-> « D’où vient que nous agissons mal ? demande Saint Augustin. Si je ne me trompe, l’argumentation a montré que nous agissons ainsi par le libre arbitre de la volonté. Mais ce libre arbitre auquel nous devons notre faculté de pécher, nous en sommes convaincus, je me demande si celui qui nous a créés a bien fait de nous le donner. Il semble, en effet, que nous n’aurions pas été exposés à pécher si nous en avions été privés ; mais il est à craindre que, de cette façon, Dieu aussi passe pour l’auteur de nos mauvaises actions » (_De libero arbitrio_, I, 16, 35.)
+> D’où vient que nous agissons mal ? demande Saint Augustin. Si je ne me trompe, l’argumentation a montré que nous agissons ainsi par le libre arbitre de la volonté. Mais ce libre arbitre auquel nous devons notre faculté de pécher, nous en sommes convaincus, je me demande si celui qui nous a créés a bien fait de nous le donner. Il semble, en effet, que nous n’aurions pas été exposés à pécher si nous en avions été privés ; mais il est à craindre que, de cette façon, Dieu aussi passe pour l’auteur de nos mauvaises actions. (_De libero arbitrio_, I, 16, 35.)
 
-Si Dieu a voulu que l’homme puisse agir mal, n’est-il pas alors indirectement responsable du mal ? Pourquoi Dieu a-t-il voulu la possibilité du mal ? Saint Augustin répond : « la volonté libre sans laquelle personne ne peut bien vivre, tu dois reconnaître et qu’elle est un bien, et qu’elle est un don de Dieu, et qu’il faut condamner ceux qui mésusent de ce bien plutôt que de dire de celui qui l’a donné qu’il n’aurait pas dû le donner ».
+Si Dieu a voulu que l’homme puisse agir mal, n’est-il pas alors indirectement responsable du mal ? Pourquoi Dieu a-t-il voulu la possibilité du mal ? Saint Augustin répond :
+
+> la volonté libre sans laquelle personne ne peut bien vivre, tu dois reconnaître et qu’elle est un bien, et qu’elle est un don de Dieu, et qu’il faut condamner ceux qui mésusent de ce bien plutôt que de dire de celui qui l’a donné qu’il n’aurait pas dû le donner.
 
 La réponse de S. Augustin au problème consiste à dire que Dieu est responsable de la possibilité du mal mais non de sa réalisation. Il veut la possibilité du mal car cette possibilité est nécessaire à la liberté sans laquelle il n’y a pas de responsabilité c’est-à-dire d’accès à la dignité de la vie morale.
 
@@ -614,13 +642,13 @@ Et plus on s'élève dans l'échelle des êtres, du minéral à l'homme, plus Di
 
 Ainsi, Saint Thomas écrit (_Somme contre les Gentils_, III, 69 et 122) :
 
-> « Retirer à la perfection des créatures, c'est retirer à la perfection du pouvoir divin (...) Dieu n'est offensé par nous que du fait que nous agissons contre notre propre bien. »
+> Retirer à la perfection des créatures, c'est retirer à la perfection du pouvoir divin (...) Dieu n'est offensé par nous que du fait que nous agissons contre notre propre bien.
 
 ![image](assets/3/img-037.webp)
 
 La Providence nous donne donc les moyens d'être à nous même notre propre providence. Et il ajoute :
 
-> « Un homme peut diriger et gouverner ses actions. Par consé­quent la créature rationnelle participe de la divine providence non seulement en étant gouverné mais également en gouver­nant. »
+> Un homme peut diriger et gouverner ses actions. Par consé­quent la créature rationnelle participe de la divine providence non seulement en étant gouverné mais également en gouver­nant.
 
 Pour que l’homme fasse le meilleur usage possible de sa liberté, Dieu lui donne un outil qui est sa raison et un mode d’emploi pour l’éclairer qui est la loi naturelle.
 
@@ -630,7 +658,7 @@ Toutefois, cette lumière intérieure ne suffit pas pour bien agir. L’élabora
 
 Selon Saint Thomas :
 
-> « Par la connaissance de la loi naturelle, l'homme accède directement à l'ordre commun de la raison, avant et au-dessus de l'ordre politique auquel il appartient en tant que citoyen d'une société particulière ».
+> Par la connaissance de la loi naturelle, l'homme accède directement à l'ordre commun de la raison, avant et au-dessus de l'ordre politique auquel il appartient en tant que citoyen d'une société particulière.
 
 Il existe donc un droit antérieur à la formation de l'État, un ensemble de principes généraux que la raison peut énoncer en étudiant la nature de l'homme telle que Dieu l'a créée. Ce droit s'impose au monarque, au pouvoir, qui doit dès lors le respecter. Et les lois édictées par l'autorité politique n’ont force obligatoire que selon leur conformité au droit naturel.
 
@@ -687,7 +715,7 @@ C’est pourquoi les sociétés médiévales sont caractérisées par l’unanim
 
 La question des rapports entre le politique et le religieux a pris forme avec l'ouvrage _Civitas Dei_ (_La Cité de Dieu_) de Saint Augustin. Dans ce dernier, celui-ci explique que deux sphères cohabitent :
 
-> « Deux amours ont donc fait deux cités : l'amour de soi jusqu'au mépris de Dieu, la cité terrestre ; l'amour de Dieu, jusqu'au mépris de soi, la cité céleste. »
+> Deux amours ont donc fait deux cités : l'amour de soi jusqu'au mépris de Dieu, la cité terrestre ; l'amour de Dieu, jusqu'au mépris de soi, la cité céleste.
 
 ![image](assets/3/img-043.webp)
 
@@ -706,7 +734,9 @@ Toutefois ni les papes ni les rois n’étaient satisfaits de cette alliance. L�
 
 C’est ainsi que l'Église de son côté va mettre au point son droit et ses tribunaux et va postuler que le Pape peut régler les différends terrestres. De leur côté, les rois vont commencer à développer un appareil d'État le plus puissant possible. Ils vont aussi tenter de centraliser la résolution des conflits juridiques, puis ils vont peu à peu généraliser l'impôt, développer une administration territoriale et lever des armées : ils vont poser les bases de l'État moderne.
 
-Dans la réalité, la compétition entre les pouvoirs a donné lieu à de nombreux conflits. Chaque Prince ou chaque Pape a toujours essayé d'emporter le dernier mot et de convaincre qu'il possédait l'autorité suprême, en dernier recours. Ainsi, le Pape Grégoire VII déclarait « Le pape est le seul homme dont tous les princes doivent baiser les pieds ».
+Dans la réalité, la compétition entre les pouvoirs a donné lieu à de nombreux conflits. Chaque Prince ou chaque Pape a toujours essayé d'emporter le dernier mot et de convaincre qu'il possédait l'autorité suprême, en dernier recours. Ainsi, le Pape Grégoire VII déclarait:
+
+>Le pape est le seul homme dont tous les princes doivent baiser les pieds.
 
 De son côté, Saint Louis n’a pas hésité à s’opposer au Pape Innocent IV qui avait excommunié et déposé l’empereur Frédéric II, le privant ainsi de toute crédibilité auprès de son peuple. Son petit-fils, Philippe Le Bel, fera de même.
 
@@ -764,7 +794,7 @@ Henri Pirenne, un historien belge du début du XXe siècle, a consacré une part
 
 ![image](assets/3/img-034.webp)
 
-> « Tous les traits essentiels du capitalisme — l'entreprise individuelle, les progrès du crédit, les pro­fits commerciaux, la spéculation, etc. — existaient déjà à partir du XIIe siècle dans les villes-états italiennes, Venise, Gênes ou Florence ».
+> Tous les traits essentiels du capitalisme — l'entreprise individuelle, les progrès du crédit, les pro­fits commerciaux, la spéculation, etc. — existaient déjà à partir du XIIe siècle dans les villes-états italiennes, Venise, Gênes ou Florence.
 
 ![image](assets/3/img-044.webp)
 
@@ -803,11 +833,11 @@ Oresme soulève d'emblée une question centrale : l'inflation est-elle utile pou
 
 Mais si tel est le cas, une autre question se pose évidemment : pourquoi les altérations de la monnaie existent-elles ? Et en particulier, pourquoi chercher à augmenter la masse monétaire ? Oresme répond que ces altérations n'ont pas les mêmes conséquences pour les différents membres de la communauté. Elles profitent à certaines personnes au détriment d'autres. Les gagnants des altérations de la monnaie ont un intérêt matériel à les mettre en place. En règle générale, ces gagnants sont les hommes au pouvoir. Oresme écrit :
 
-> « Il me semble que la cause première et dernière pour laquelle le prince veut s'emparer du pouvoir de muer les monnaies, c'est le gain ou profit qu'il peut en avoir, car autrement, c'est sans raison qu'il ferait des mutations si nombreuses et si considérables. »
+> Il me semble que la cause première et dernière pour laquelle le prince veut s'emparer du pouvoir de muer les monnaies, c'est le gain ou profit qu'il peut en avoir, car autrement, c'est sans raison qu'il ferait des mutations si nombreuses et si considérables.
 
 Puis il ajoute encore ces précisions :
 
-> « Tout ce que le prince en retire de gain, c'est nécessairement aux dépens de la communauté. Or, tout ce qu'un prince fait aux dépens de la communauté est une injustice et le fait, non d'un roi, mais d'un tyran, comme dit Aristote (…) Si le prince peut, à bon droit, faire une mutation simple de la monnaie et en retirer quelque gain, il peut, pour une raison analogue, faire une plus grande mutation et en retirer plus de gain (...) Ainsi le prince pourrait enfin attirer à lui presque tout l'argent ou les richesses de ses sujets et les réduire à la servitude, ce qui serait faire entièrement preuve de tyrannie et même d'une vraie et parfaite tyrannie, comme il ressort des philosophes et des histoires des anciens. »
+> Tout ce que le prince en retire de gain, c'est nécessairement aux dépens de la communauté. Or, tout ce qu'un prince fait aux dépens de la communauté est une injustice et le fait, non d'un roi, mais d'un tyran, comme dit Aristote (…) Si le prince peut, à bon droit, faire une mutation simple de la monnaie et en retirer quelque gain, il peut, pour une raison analogue, faire une plus grande mutation et en retirer plus de gain (...) Ainsi le prince pourrait enfin attirer à lui presque tout l'argent ou les richesses de ses sujets et les réduire à la servitude, ce qui serait faire entièrement preuve de tyrannie et même d'une vraie et parfaite tyrannie, comme il ressort des philosophes et des histoires des anciens.
 
 Oresme souligne que les altérations de la monnaie ne sont pas simplement un jeu de redistribution en faveur du pouvoir au détriment du reste de la communauté. Elles entraînent des pertes globales — le jeu est à somme négative. Une monnaie en altération fréquente perturbe le commerce et elle invite les faux-monnayeurs à profiter de la confusion générale.
 
@@ -829,7 +859,9 @@ Voltaire pensera la même chose à propos du commerce. Celui-ci peut instaurer l
 
 ### Le profit comme « religion » pacifique
 
-Pour Voltaire, c’est d’abord la faillibilité de l’homme qui constitue le fondement d’une doctrine de la tolérance et de la liberté politique. Il écrit dans son _Dictionnaire philosophique_ (1764) : « La tolérance est la conséquence nécessaire de la conscience que nous avons d’être faillible. L’erreur est humaine et nous faisons tous sans cesse des fautes. Pardonnons nous mutuellement nos bêtises c’est la première loi de la nature ».
+Pour Voltaire, c’est d’abord la faillibilité de l’homme qui constitue le fondement d’une doctrine de la tolérance et de la liberté politique. Il écrit dans son _Dictionnaire philosophique_ (1764) :
+
+>La tolérance est la conséquence nécessaire de la conscience que nous avons d’être faillible. L’erreur est humaine et nous faisons tous sans cesse des fautes. Pardonnons nous mutuellement nos bêtises c’est la première loi de la nature.
 
 ![image](assets/4/img-078.webp)
 
@@ -849,7 +881,7 @@ Dans la _Sixième lettre_, _« Sur les presbytériens »_, Voltaire donne l’ex
 
 Le passage vaut la peine d’être cité tout entier tellement il est fameux :
 
-> « Entrez dans la Bourse de Londres, cette place plus respectable que bien des cours ; vous y voyez rassemblés les députés de toutes les nations pour l'utilité des hommes. Là, le juif, le mahométan et le chrétien traitent l'un avec l'autre comme s'ils étaient de la même religion, et ne donnent le nom d’infidèles qu'à ceux qui font banqueroute ; là, le presbytérien se fie à l'anabaptiste, et l'anglican reçoit la promesse du quaker. Au sortir de ces pacifiques et libres assemblées, les uns vont à la synagogue, les autres vont boire ; celui-ci va se faire baptiser dans une grande cuve au nom du Père par le Fils au Saint-Esprit ; celui-là fait couper le prépuce de son fils et fait marmotter sur l'enfant des paroles hébraïques qu'il n'entend point ; ces autres vont dans leur église attendre l'inspiration de Dieu, leur chapeau sur la tête, et tous sont contents ».
+> Entrez dans la Bourse de Londres, cette place plus respectable que bien des cours ; vous y voyez rassemblés les députés de toutes les nations pour l'utilité des hommes. Là, le juif, le mahométan et le chrétien traitent l'un avec l'autre comme s'ils étaient de la même religion, et ne donnent le nom d’infidèles qu'à ceux qui font banqueroute ; là, le presbytérien se fie à l'anabaptiste, et l'anglican reçoit la promesse du quaker. Au sortir de ces pacifiques et libres assemblées, les uns vont à la synagogue, les autres vont boire ; celui-ci va se faire baptiser dans une grande cuve au nom du Père par le Fils au Saint-Esprit ; celui-là fait couper le prépuce de son fils et fait marmotter sur l'enfant des paroles hébraïques qu'il n'entend point ; ces autres vont dans leur église attendre l'inspiration de Dieu, leur chapeau sur la tête, et tous sont contents.
 
 Le commerce réunit donc les hommes autour d’une « même religion », le profit. Et il permet aux individus de faire abstraction des différences religieuses ou de classes, à l’origine des conflits. En Angleterre le profit est donc une religion pacifique. Mais qu’en est-il en France ?
 
@@ -867,7 +899,7 @@ Dans ses lettres, Turgot avance une définition de la tolérance. Tolérer c’e
 
 Par la suite, Turgot s'efforça d'obtenir de Louis XVI la suppression de la formule : « Je jure de supprimer l'hérésie » dans le serment prêté le jour du sacre. Dans _Mémoire au roi sur la tolérance_ (1775), il écrit :
 
-> « Les défenseurs de l'intolérance diront-ils que le prince a droit de commander quand sa religion est vraie et qu'alors on doit lui obéir ? Non, même alors, on ne peut ni ne doit lui obéir ; car si l'on doit suivre la religion qu'il prescrit, ce n'est pas parce qu'il le commande, mais parce qu'elle est vraie ; et ce n'est pas, ni ne peut être, parce que le prince le prescrit qu'elle est vraie. Il n'y a aucun homme assez absurde pour croire une religion vraie par une pareille raison. Celui donc qui s'y soumet de bonne foi n'obéit pas au prince, il n'obéit qu'à sa conscience; et l'ordre du prince n'ajoute, ni ne peut ajouter, aucun poids à l'obligation que cette conscience lui impose. Que le prince croie ou ne croie pas une religion, qu'il commande ou ne commande pas de la suivre, elle n'en est ni plus ni moins ce qu'elle est, vraie ou fausse. L'opinion du prince est donc absolument étrangère à la vérité d'une religion, et par conséquent à l'obligation de la suivre : le prince n'a donc, comme prince, aucun droit de juger, aucun droit de commander à cet égard ; son incompétence est absolue sur les choses de cet ordre, qui ne sont point de son ressort, et dans lesquelles la conscience de chaque individu n'a et ne peut avoir que Dieu pour seul juge ».
+> Les défenseurs de l'intolérance diront-ils que le prince a droit de commander quand sa religion est vraie et qu'alors on doit lui obéir ? Non, même alors, on ne peut ni ne doit lui obéir ; car si l'on doit suivre la religion qu'il prescrit, ce n'est pas parce qu'il le commande, mais parce qu'elle est vraie ; et ce n'est pas, ni ne peut être, parce que le prince le prescrit qu'elle est vraie. Il n'y a aucun homme assez absurde pour croire une religion vraie par une pareille raison. Celui donc qui s'y soumet de bonne foi n'obéit pas au prince, il n'obéit qu'à sa conscience; et l'ordre du prince n'ajoute, ni ne peut ajouter, aucun poids à l'obligation que cette conscience lui impose. Que le prince croie ou ne croie pas une religion, qu'il commande ou ne commande pas de la suivre, elle n'en est ni plus ni moins ce qu'elle est, vraie ou fausse. L'opinion du prince est donc absolument étrangère à la vérité d'une religion, et par conséquent à l'obligation de la suivre : le prince n'a donc, comme prince, aucun droit de juger, aucun droit de commander à cet égard ; son incompétence est absolue sur les choses de cet ordre, qui ne sont point de son ressort, et dans lesquelles la conscience de chaque individu n'a et ne peut avoir que Dieu pour seul juge.
 
 En d’autres mots, être tolérant ce n’est pas être hostile à la religion. C’est considérer que la croyance religieuse ne relève pas du pouvoir politique mais de la conscience de chacun. La vérité requiert la liberté, elle ne doit jamais être imposée sous peine de se corrompre.
 
@@ -884,9 +916,9 @@ C’est en réaction au mercantilisme et plus généralement aux idées de l’A
 
 C’est eux qui ont jeté les bases de l'économie libérale. Les principaux représentants de l’école physiocratique sont François Quesnay, le marquis de Mirabeau, Lemercier de la Rivière, l'abbé Nicolas Baudeau, Louis-Paul Abeille et Pierre-Samuel Dupont de Nemours.
 
-> « L'économie politique, résume Dupont de Nemours, est la science du droit naturel appliqué aux sociétés civilisées ». (_Correspondance avec J.-B. Say_).
+> L'économie politique, résume Dupont de Nemours, est la science du droit naturel appliqué aux sociétés civilisées. (_Correspondance avec J.-B. Say_).
 
-Ils défendent le « Laissez-faire **»** qui préconise la non-intervention de l'État dans l'économie.
+Ils défendent le « Laissez-faire » qui préconise la non-intervention de l'État dans l'économie.
 
 On voit dès lors émerger au sein des Lumières deux conceptions très différentes :
 
@@ -944,13 +976,17 @@ En bref, si chacun peut poursuivre librement son intérêt privé dans le respec
 
 ### La disgrâce de Turgot
 
-Lors de son court passage au ministère des finances (Contrôleur général), d’août 1774 à mai 1776, Ann-Robert Jacques Turgot tenta des réformes majeures pour mettre un terme aux dépenses somptuaires, aux nombreux monopoles locaux et pour revenir au libre-échange. En Il ira même jusqu’à sermonner le roi Louis XVI en ces termes : « Il faut, Sire, vous armer contre votre bonté, de votre bonté même, considérer d’où vous vient cet argent que vous pouvez distribuer à vos courtisans ».
+Lors de son court passage au ministère des finances (Contrôleur général), d’août 1774 à mai 1776, Ann-Robert Jacques Turgot tenta des réformes majeures pour mettre un terme aux dépenses somptuaires, aux nombreux monopoles locaux et pour revenir au libre-échange. En Il ira même jusqu’à sermonner le roi Louis XVI en ces termes :
+
+> Il faut, Sire, vous armer contre votre bonté, de votre bonté même, considérer d’où vous vient cet argent que vous pouvez distribuer à vos courtisans.
 
 ![image](assets/4/img-077.webp)
 
 En 1774 il publia ses Six Édits pour abolir les jurandes et maîtrises (les corporations qui étaient devenues des monopoles et des barrières à l’entrée dans le marché du travail), abolir les droits de douane internes sur le commerce du grain, abolir le travail forcé (la corvée) et établir la tolérance envers les protestants.
 
-Malheureusement l’envolée des prix du blé, suite à une mauvaise récolte, va porter le soupçon sur ses réformes. Turgot écrivit pour sa défense : « lorsque dans les provinces on verrait encore des disettes, il ne faudrait pas en faire une objection contre la liberté ; il faudrait seulement en conclure que la liberté n’est pas établie depuis assez longtemps pour avoir produit tous ses effets. »
+Malheureusement l’envolée des prix du blé, suite à une mauvaise récolte, va porter le soupçon sur ses réformes. Turgot écrivit pour sa défense : 
+
+> Lorsque dans les provinces on verrait encore des disettes, il ne faudrait pas en faire une objection contre la liberté ; il faudrait seulement en conclure que la liberté n’est pas établie depuis assez longtemps pour avoir produit tous ses effets.
 
 Mais il se heurtera surtout à la colère des nobles, qui tentèrent de défendre leurs privilèges. Confronté à une cabale montée par le Prince de Conti, il préfère démissionner en mai 1776 plutôt que de céder sur ce qu’il regardait comme le salut de la monarchie et de la France. Sa chute mit fin à la première expérience en France d’une économie de libre marché (A lire pour en savoir plus, Edgar Faure, _La disgrâce de Turgot_).
 
@@ -958,11 +994,11 @@ L’ouvrage majeur de Turgot, _Réflexions la formation et la distribution des r
 
 Turgot est un apôtre du droit naturel, qu’il appelle aussi « système de la liberté ». Il souligne souvent que la concurrence sur un marché libre a pour effet de réguler naturellement les prix et d’empêcher les abus. Par ailleurs, il fait du marchand la pièce maîtresse du mécanisme de marché. En effet, les agents de l’État sont moins motivés et surtout moins bien informés que ne le sont les commerçants. Il est donc plus efficace de laisser le commerce aux mains des intérêts privés.
 
-> « Il est inutile de prouver que chaque particulier est le seul juge de cet emploi le plus avantageux de sa tête et ses bras. Il a seul les connaissances locales sans lesquelles l’homme le plus éclairé ne raisonne qu’à l’aveugle. Il a seul une expérience d’autant plus sûre qu’elle est bornée à un seul objet. Il s’instruit par ses essais réitérés, par ses succès, par ses pertes et acquiert un tact dont la finesse, aiguisée par le sentiment du besoin, passe de bien loin toute la théorie du spéculateur indifférent » (_Éloge de Vincent de Gournay_).
+> Il est inutile de prouver que chaque particulier est le seul juge de cet emploi le plus avantageux de sa tête et ses bras. Il a seul les connaissances locales sans lesquelles l’homme le plus éclairé ne raisonne qu’à l’aveugle. Il a seul une expérience d’autant plus sûre qu’elle est bornée à un seul objet. Il s’instruit par ses essais réitérés, par ses succès, par ses pertes et acquiert un tact dont la finesse, aiguisée par le sentiment du besoin, passe de bien loin toute la théorie du spéculateur indifférent. (_Éloge de Vincent de Gournay_).
 
 Turgot anticipe ici largement l’argument de Mises et de Hayek sur l’impossibilité de tout calcul économique dans un système économique socialiste.
 
-Consacrant un chapitre à « L’Éclat de Turgot », Murray Rothbard dans son histoire économique d’un point de vue autrichien, souligne que « l’influence de Turgot sur la pensée économique ultérieure fut sérieusement restreinte (…) par le mythe suivant lequel Adam Smith serait le fondateur de l’économie politique. » Et il ajoute **«** c’est sur le Français J.B. Say, officiellement adepte de Smith, que Turgot a finalement eu le plus d’influence, particulièrement sa théorie de la valeur-utilité. »
+Consacrant un chapitre à « L’Éclat de Turgot », Murray Rothbard dans son histoire économique d’un point de vue autrichien, souligne que « l’influence de Turgot sur la pensée économique ultérieure fut sérieusement restreinte (…) par le mythe suivant lequel Adam Smith serait le fondateur de l’économie politique. » Et il ajoute « c’est sur le Français J.B. Say, officiellement adepte de Smith, que Turgot a finalement eu le plus d’influence, particulièrement sa théorie de la valeur-utilité. »
 
 ### Le chef d’œuvre de Condillac
 
@@ -972,7 +1008,7 @@ En 1776, le philosophe Étienne Bonnot de Condillac, publie _Le Commerce et le G
 
 _Le Commerce et le Gouvernement_ contient ce qui sera appelé plus tard une théorie de la subjectivité de la valeur, ce qui lui vaudra tous les éloges des économistes autrichiens, à commencer par Menger. A la suite de Turgot, mais avec une plus grande clarté, Condillac affirme que la valeur réside non dans le travail mais dans le fait que chacun trouve un intérêt dans l’échange :
 
-> « La valeur des choses, écrit-il, est fondée sur leur utilité, ou, ce qui revient au même, sur le besoin que nous en avons ; ou, ce qui revient encore au même, sur l’usage que nous en pouvons faire. » Et il ajoute : « Une chose n'a pas une valeur, parce qu'elle coûte, comme on le suppose ; mais elle coûte, parce qu'elle a une valeur ».
+> La valeur des choses, écrit-il, est fondée sur leur utilité, ou, ce qui revient au même, sur le besoin que nous en avons ; ou, ce qui revient encore au même, sur l’usage que nous en pouvons faire. » Et il ajoute : « Une chose n'a pas une valeur, parce qu'elle coûte, comme on le suppose ; mais elle coûte, parce qu'elle a une valeur.
 
 La valeur ne réside donc pas à l’intérieur de la chose sous forme d’une quantité de travail qu’il aurait fallu pour la produire (thèse de la valeur travail qui sera celle d’Adam Smith et de Ricardo) mais à l’extérieur de la chose, autrement dit dans l’intensité du désir qu’en éprouve l’acheteur.
 
@@ -994,7 +1030,7 @@ Paine y argumente que :
 
 L’auteur prend soin de bien distinguer la société civile et l’Etat :
 
-> « La société est le résultat de nos besoins, le gouvernement est celui de notre perversité. \[…\] L’état social est un bien sous toutes les hypothèses. Le gouvernement, dans sa perfection même, n’est qu’un mal nécessaire ; dans son imperfection, c’est un mal insupportable. »
+> La société est le résultat de nos besoins, le gouvernement est celui de notre perversité. \[…\] L’état social est un bien sous toutes les hypothèses. Le gouvernement, dans sa perfection même, n’est qu’un mal nécessaire ; dans son imperfection, c’est un mal insupportable.
 
 Le succès du livre est immense. Il s’est vendu à quelques 100 000 exemplaires en quelques mois, dans un pays de trois millions d’habitants et il contribue à galvaniser le sentiment d'indépendance des Américains.
 
@@ -1012,11 +1048,11 @@ Au cours des années qui suivent, les Français La Fayette, Rochambeau, l'amiral
 
 141 ans plus tard, le 4 juillet 1917, en pleine Guerre mondiale, une cérémonie est organisée pour les premiers soldats de l’AEF arrivés à Paris au cimetière de Picpus sur la tombe de La Fayette, le « héros des deux mondes ». A cette occasion le capitaine Charles E. Stanton de l’état-major du général Pershing prononce un discours resté célèbre :
 
-> « Je regrette de ne pas pouvoir m’adresser à la population française dans la belle langue de son loyal pays. Le fait ne peut pas être oublié que votre nation était notre amie quand l’Amérique s’est battue pour son existence, quand une poignée d’hommes courageux et patriotes ont été déterminés à défendre les droits de leur Créateur leur avait donné -- que la France en la personne de Lafayette est venue à notre aide en paroles et en actes. Ce serait de l’ingratitude de ne pas se souvenir de cela et l'Amérique ne fera pas défaut à ses obligations...
+> Je regrette de ne pas pouvoir m’adresser à la population française dans la belle langue de son loyal pays. Le fait ne peut pas être oublié que votre nation était notre amie quand l’Amérique s’est battue pour son existence, quand une poignée d’hommes courageux et patriotes ont été déterminés à défendre les droits de leur Créateur leur avait donné -- que la France en la personne de Lafayette est venue à notre aide en paroles et en actes. Ce serait de l’ingratitude de ne pas se souvenir de cela et l'Amérique ne fera pas défaut à ses obligations...
 >
 > Par conséquent, c'est avec une grande fierté que nous embrassons les couleurs en hommage de respect envers ce citoyen de votre grande République, et ici et maintenant dans l'ombre de l'illustre mort nous l'assurons de notre cœur et notre honneur pour donner à cette guerre une issue favorable.
 >
-> Lafayette nous sommes là ! »
+> Lafayette nous sommes là !
 
 En 1789, c’est encore La Fayette, avec Jefferson, qui vont jeter les premières bases de la déclaration des Droits de l’homme de 1789.
 
@@ -1030,7 +1066,7 @@ En réalité Smith doit beaucoup aux économistes Quesnay et Turgot qu’il a re
 
 Voici le passage le plus connu :
 
-> « En préférant le succès de l’industrie nationale à celui de l’industrie étrangère, il ne pense qu’à se donner personnellement une plus grande sûreté ; et en dirigeant cette industrie de manière à ce que son produit ait le plus de valeur possible, il ne pense qu’à son propre gain ; en cela, comme dans beaucoup d’autres cas, il est conduit par une main invisible à remplir une fin qui n’entre nullement dans ses intentions ; et ce n’est pas toujours ce qu’il y a de plus mal pour la société, que cette fin n’entre pour rien dans ses intentions » (_La richesse des nations_).
+> En préférant le succès de l’industrie nationale à celui de l’industrie étrangère, il ne pense qu’à se donner personnellement une plus grande sûreté ; et en dirigeant cette industrie de manière à ce que son produit ait le plus de valeur possible, il ne pense qu’à son propre gain ; en cela, comme dans beaucoup d’autres cas, il est conduit par une main invisible à remplir une fin qui n’entre nullement dans ses intentions ; et ce n’est pas toujours ce qu’il y a de plus mal pour la société, que cette fin n’entre pour rien dans ses intentions. (_La richesse des nations_)
 
 Cette fameuse main invisible illustre l'idée que la concurrence libre dans un marché libre conduit à une allocation efficace des ressources et à une maximisation du bien-être général.
 
@@ -1071,15 +1107,17 @@ Tous les systèmes précédents avaient considéré que les libertés ne sont qu
 
 Locke attribue à l’État la mission de défendre la propriété individuelle, c’est-à-dire « la vie, la liberté et les biens » :
 
-> « La plus grande et la principale fin que se proposent les hommes lorsqu’ils s’unissent en communauté et se soumettent à un gouvernement, c’est de conserver leurs propriétés » (Du gouvernement civil, § 87).
+> La plus grande et la principale fin que se proposent les hommes lorsqu’ils s’unissent en communauté et se soumettent à un gouvernement, c’est de conserver leurs propriétés. (Du gouvernement civil, § 87).
 
 Thomas Jefferson a inscrit la théorie lockéenne des droits inaliénables dans la Déclaration d'Indépendance :
 
-> « Nous tenons ces vérités pour évidentes, que tous les hommes sont créés égaux, qu'ils sont dotés par leur Créateur de certains droits inaliénables, parmi eux, la vie, la liberté et la poursuite du bonheur ».
+> Nous tenons ces vérités pour évidentes, que tous les hommes sont créés égaux, qu'ils sont dotés par leur Créateur de certains droits inaliénables, parmi eux, la vie, la liberté et la poursuite du bonheur.
 
 ![image](assets/4/img-058.webp)
 
-Enfin, l’article 2 de la Déclaration française des droits de 1789 s’inspire également de cette tradition lockéenne du droit naturel : « le but de toute association politique est la conservation des droits naturels et imprescriptibles de l’homme. Ces droits sont la liberté, la propriété, la sûreté, et la résistance à l’oppression. »
+Enfin, l’article 2 de la Déclaration française des droits de 1789 s’inspire également de cette tradition lockéenne du droit naturel :
+
+> Le but de toute association politique est la conservation des droits naturels et imprescriptibles de l’homme. Ces droits sont la liberté, la propriété, la sûreté, et la résistance à l’oppression.
 
 ### Deux révolutions comparées
 
@@ -1095,7 +1133,7 @@ Il fait également valoir que la foi de l’Amérique en une loi supérieure a j
 
 Le premier amendement de la Constitution américaine, rédigé en 1789, énonce :
 
-> « Le Congrès ne fera aucune loi pour conférer un statut institutionnel à une religion, aucune loi qui interdise le libre exercice d'une religion, aucune loi qui restreigne la liberté d'expression, ni la liberté de la presse, ni le droit des citoyens de se réunir pacifiquement et d'adresser à l'État des pétitions pour obtenir réparation de torts subis ».
+> Le Congrès ne fera aucune loi pour conférer un statut institutionnel à une religion, aucune loi qui interdise le libre exercice d'une religion, aucune loi qui restreigne la liberté d'expression, ni la liberté de la presse, ni le droit des citoyens de se réunir pacifiquement et d'adresser à l'État des pétitions pour obtenir réparation de torts subis.
 
 On trouve dans cette formulation une protection explicite contre la tyrannie de la majorité. Mais la Révolution française fut bien différente. Les Français voulurent faire table rase du passé. Les principes séculaires de l’héritage chrétien ne répondaient plus aux attentes de révolutionnaires comme Robespierre.
 
@@ -1107,7 +1145,7 @@ L’abbé Sieyès (1748-1836) est considéré comme le père de la Révolution f
 
 Le tiers état est l'ensemble des personnes n'appartenant ni au clergé, ni à la noblesse. Dès les premières lignes de son célèbre pamphlet, l’abbé Sieyès fait l’éloge des libertés individuelles et de la libre concurrence :
 
-> « Ne connaît-on pas les effets du monopole ? S’il décourage ceux qu’il écarte, ne sait-on pas qu’il rend moins habiles ceux qu’il favorise ? Ne sait-on pas que tout ouvrage dont on éloigne la libre concurrence sera fait plus chèrement et plus mal ? ».
+> Ne connaît-on pas les effets du monopole ? S’il décourage ceux qu’il écarte, ne sait-on pas qu’il rend moins habiles ceux qu’il favorise ? Ne sait-on pas que tout ouvrage dont on éloigne la libre concurrence sera fait plus chèrement et plus mal ?.
 
 La nuit du 4 août 1789 est l’événement fondateur de la Révolution française, bien plus que le 14 juillet qu’on a retenu comme fête nationale. En effet, au cours de la séance qui se tenait alors, l'Assemblée constituante met fin au système féodal. Les privilèges furent abolis, ceux des nobles et ceux du clergé. En mars 1791, après plusieurs mois d’une sorte de flou juridique, les corporations furent également supprimées et l’entière liberté du travail était instaurée. La Révolution entérinait l’œuvre de Turgot. Mais pas pour longtemps…
 
@@ -1129,7 +1167,7 @@ Avec Rousseau et Robespierre, les Français ont voulu croire que la Nation ou la
 
 C’est d’ailleurs le sens de la remarque de Friedrich Hayek dans son livre _La Constitution de la Liberté_ :
 
-« Le facteur décisif qui a rendu vains les efforts de la Révolution en faveur de la promotion de la liberté individuelle, fut qu’elle créa l’illusion que, dans la mesure où tout le pouvoir avait été remis aux mains du peuple, toutes les précautions contre l’abus de ce pouvoir étaient devenues sans objet. »
+> Le facteur décisif qui a rendu vains les efforts de la Révolution en faveur de la promotion de la liberté individuelle, fut qu’elle créa l’illusion que, dans la mesure où tout le pouvoir avait été remis aux mains du peuple, toutes les précautions contre l’abus de ce pouvoir étaient devenues sans objet.
 
 # Apogée et déclin : du XIXe au XXe siècle
 <partId>39810d57-19e3-5166-8f2e-40b763154148</partId>
@@ -1145,7 +1183,7 @@ Selon Benjamin Constant, la liberté, dans nos sociétés modernes, ne peut plus
 
 Chez les Anciens, l’individu est souverain dans les affaires publiques, mais esclave dans tous ses rapports privés. Le sacrifice de la liberté individuelle est compensé par l’usage des droits politiques : droit d’exercer directement plusieurs parties de la souveraineté, de délibérer sur la place publique, de voter les lois, de prononcer les jugements, d’évaluer et de juger les magistrats. C’est une liberté politique et collective :
 
-> « La liberté des Anciens se composait de la participation active et constante au pouvoir collectif. Notre liberté, à nous, doit se composer de la jouissance paisible de l’indépendance privée ; il s’ensuit que nous devons être bien plus attachés que les anciens à notre indépendance individuelle. » _De la liberté des Anciens comparée à celle des Modernes_ (1819).
+> La liberté des Anciens se composait de la participation active et constante au pouvoir collectif. Notre liberté, à nous, doit se composer de la jouissance paisible de l’indépendance privée ; il s’ensuit que nous devons être bien plus attachés que les anciens à notre indépendance individuelle. (_De la liberté des Anciens comparée à celle des Modernes_ (1819))
 
 ![image](assets/5/img-084.webp)
 
@@ -1153,7 +1191,7 @@ La liberté moderne c’est la liberté civile, dont la liberté économique fai
 
 On retrouve cette définition de la liberté chez John Stuart Mill :
 
-> « La seule liberté digne de ce nom, est celle de travailler à notre propre bien de la manière qui nous est propre, pour autant que nous ne cherchions pas à en priver les autres ou à leur faire obstacle dans leurs efforts pour l’obtenir. (…) L’humanité gagnera davantage à laisser chaque homme vivre comme bon lui semble qu’à le contraindre à vivre comme bon semble aux autres. » _De la liberté_, 1859
+> La seule liberté digne de ce nom, est celle de travailler à notre propre bien de la manière qui nous est propre, pour autant que nous ne cherchions pas à en priver les autres ou à leur faire obstacle dans leurs efforts pour l’obtenir. (…) L’humanité gagnera davantage à laisser chaque homme vivre comme bon lui semble qu’à le contraindre à vivre comme bon semble aux autres. (_De la liberté_, 1859)
 
 ![image](assets/5/img-097.webp)
 
@@ -1171,7 +1209,7 @@ Mais il n’est pas question pour autant de sacrifier la liberté politique, la 
 
 En effet, dans ses _Principes de politique_, Benjamin Constant affirme :
 
-> « La souveraineté du peuple n’est pas illimitée, elle est circonscrite dans les bornes que lui tracent la justice et les droits des individus. La volonté de tout un peuple ne peut rendre juste ce qui est injuste. »
+> La souveraineté du peuple n’est pas illimitée, elle est circonscrite dans les bornes que lui tracent la justice et les droits des individus. La volonté de tout un peuple ne peut rendre juste ce qui est injuste.
 
 ![image](assets/5/img-094.webp)
 
@@ -1183,7 +1221,7 @@ Dire que tout pouvoir légitime doit être fondé sur la volonté générale ne 
 
 La liberté politique sans les autres libertés n'est qu'un leurre selon Benjamin Constant. La liberté politique est la liberté de participer à l’exercice du pouvoir. Mais le pouvoir du peuple ou de la masse peut s’avérer destructeur des libertés car il accorde à la majorité votante le droit d’imposer sa volonté à l’ensemble de la société, y compris son caprice ou son idéologie du moment : impôts confiscatoires et sans contrepartie, police de la pensée unique, censure, répression et terrorisme intellectuel. C’est pourquoi il ne saurait y avoir de véritable liberté sans les libertés civiles, dont la liberté religieuse et la liberté économique font partie. Benjamin Constant ne sépare pas libéralisme politique et libéralisme économique :
 
-> « J’ai défendu quarante ans le même principe, liberté en tout, en religion, en philosophie, en littérature, en industrie, en politique : et par liberté, j’entends le triomphe de l’individualité, tant sur l’autorité qui voudrait gouverner par le despotisme, que sur les masses qui réclament le droit d’asservir la minorité à la majorité. Le despotisme n’a aucun droit. La majorité a celui de contraindre la minorité à respecter l’ordre : mais tout ce qui ne trouble pas l’ordre, tout ce qui n’est qu’intérieur, comme l’opinion ; tout ce qui, dans la manifestation de l’opinion, ne nuit pas à autrui, soit en provoquant des violences matérielles, soit en s’opposant à une manifestation contraire ; tout ce qui, en fait d’industrie, laisse l’industrie rivale s’exercer librement, est individuel, et ne saurait être légitimement soumis au pouvoir social. »
+> J’ai défendu quarante ans le même principe, liberté en tout, en religion, en philosophie, en littérature, en industrie, en politique : et par liberté, j’entends le triomphe de l’individualité, tant sur l’autorité qui voudrait gouverner par le despotisme, que sur les masses qui réclament le droit d’asservir la minorité à la majorité. Le despotisme n’a aucun droit. La majorité a celui de contraindre la minorité à respecter l’ordre : mais tout ce qui ne trouble pas l’ordre, tout ce qui n’est qu’intérieur, comme l’opinion ; tout ce qui, dans la manifestation de l’opinion, ne nuit pas à autrui, soit en provoquant des violences matérielles, soit en s’opposant à une manifestation contraire ; tout ce qui, en fait d’industrie, laisse l’industrie rivale s’exercer librement, est individuel, et ne saurait être légitimement soumis au pouvoir social.
 
 Autrement dit, dans une société libre, il est nécessaire d'établir une frontière stricte entre sphère publique et sphère privée. Le principe de cette frontière réside dans le fait de ne pas nuire à autrui, c’est-à-dire de ne pas porter atteinte à sa propriété.
 
@@ -1196,7 +1234,9 @@ Alexis de Tocqueville fut un observateur attentif de la démocratie et un critiq
 
 L'analyse tocquevillienne de la démocratie ne fait que prolonger en un sens la distinction de Constant entre la liberté des Anciens et celle des Modernes. Dans un article de 1836 (_État social et politique de la France avant et depuis 1789_), Tocqueville établit une comparaison méthodique entre la liberté aristocratique et la liberté démocratique. La première se définit comme « La jouissance d'un privilège » et Tocqueville de citer en exemple le citoyen romain qui tient sa liberté non de la nature mais de son appartenance à Rome. 
 
-La seconde notion, qui est « la notion juste de la liberté », consiste dans un « droit égal et imprescriptible à vivre indépendant de ses semblables. » Cette notion moderne de la liberté n'est donc pas comme la première une notion politique, elle se fonde sur le droit naturel et elle est « juste » parce qu'elle s'étend également à tout homme. Il écrit : « D’après la notion moderne, la notion démocratique, et j’ose le dire la notion juste de la liberté, chaque homme, étant présumé avoir reçu de la nature les lumières nécessaires pour se conduire, apporte en naissant un droit égal et imprescriptible à vivre indépendant de ses semblables, en tout ce qui n’a rapport qu’à lui-même, et à régler comme il l’entend sa propre destinée. »
+La seconde notion, qui est « la notion juste de la liberté », consiste dans un « droit égal et imprescriptible à vivre indépendant de ses semblables. » Cette notion moderne de la liberté n'est donc pas comme la première une notion politique, elle se fonde sur le droit naturel et elle est « juste » parce qu'elle s'étend également à tout homme. Il écrit :
+
+> D’après la notion moderne, la notion démocratique, et j’ose le dire la notion juste de la liberté, chaque homme, étant présumé avoir reçu de la nature les lumières nécessaires pour se conduire, apporte en naissant un droit égal et imprescriptible à vivre indépendant de ses semblables, en tout ce qui n’a rapport qu’à lui-même, et à régler comme il l’entend sa propre destinée.
 
 Tocqueville est attentif à cerner tous les effets politiques et culturels de cette nouvelle manière d’être, typiquement moderne. Admirateur de Pascal, il veut dresser le tableau des grandeurs et des misères de la démocratie.
 
@@ -1214,7 +1254,7 @@ En effet, l’égalisation s’accompagne d’une fragilité plus grande des ind
 
 L’auteur de _La Démocratie en Amérique_ nous met en garde :
 
-> **«** Il y a en effet une passion mâle et légitime pour l'égalité qui excite les hommes à vouloir être tous forts et estimés. Cette passion tend à élever les petits au rang des grands ; mais il se rencontre aussi dans le cœur humain un goût dépravé pour l'égalité, qui porte les faibles à vouloir attirer les forts à leur niveau, et qui réduit les hommes à préférer l'égalité dans la servitude à l'inégalité dans la liberté. (…) Les nations de nos jours ne sauraient faire que dans leur sein les conditions ne soient pas égales ; mais il dépend d’elles que l’égalité les conduise à la servitude ou à la liberté, aux lumières ou à la barbarie, à la prospérité ou aux misères. **»**
+> Il y a en effet une passion mâle et légitime pour l'égalité qui excite les hommes à vouloir être tous forts et estimés. Cette passion tend à élever les petits au rang des grands ; mais il se rencontre aussi dans le cœur humain un goût dépravé pour l'égalité, qui porte les faibles à vouloir attirer les forts à leur niveau, et qui réduit les hommes à préférer l'égalité dans la servitude à l'inégalité dans la liberté. (…) Les nations de nos jours ne sauraient faire que dans leur sein les conditions ne soient pas égales ; mais il dépend d’elles que l’égalité les conduise à la servitude ou à la liberté, aux lumières ou à la barbarie, à la prospérité ou aux misères.
 
 Pour Tocqueville, l'homme est beaucoup plus attiré par l'égalité que par la liberté. Et il voit donc là un danger majeur pour la démocratie. Pourquoi entre les deux passions l'homme préfère-t-il celle de l'égalité ? Parce que la liberté produit des coûts directement visibles, et ses bénéfices sont plus lointains, inscrits dans le long terme (la liberté ne donne pas de contenu, seulement la capacité de rechercher le bonheur selon son propre jugement). A l'inverse, l'égalité amène des résultats positifs immédiatement visibles et ses défauts ne se révèlent que dans le long terme.
 
@@ -1230,7 +1270,9 @@ Dans ce discours, Tocqueville compare le socialisme à l’Ancien Régime, pour 
 
 ### La loi et ses dérives
 
-Que pensait Frédéric Bastiat de la démocratie ? Il a répondu dès 1846 : « Je suis de la démocratie, si vous entendez par ce mot : À chacun la propriété de son travail, liberté pour tous, égalité pour tous, justice pour tous, et paix entre tous. » (_Libre-échange_).
+Que pensait Frédéric Bastiat de la démocratie ? Il a répondu dès 1846 : 
+
+> Je suis de la démocratie, si vous entendez par ce mot : À chacun la propriété de son travail, liberté pour tous, égalité pour tous, justice pour tous, et paix entre tous. (_Libre-échange_).
 
 ![image](assets/5/img-088.webp)
 
@@ -1238,11 +1280,11 @@ Mais en 1848, après la révolution de février, Bastiat est élu député des L
 
 Sous le règne des idées socialistes, Bastiat observe que la machine électorale est utilisée pour piller l’argent public, donc le citoyen :
 
-> « Les finances publiques ne tarderont pas d’arriver à un complet désarroi. Comment pourrait-il en être autrement quand l’État est chargé de fournir tout à tous ? Le peuple sera écrasé d’impôts, on fera emprunt sur emprunt ; après avoir épuisé le présent, on dévorera l’avenir. Enfin, comme il sera admis en principe que l’État est chargé de faire de la fraternité en faveur des citoyens, on verra le peuple tout entier transformé en solliciteur. Propriété foncière, agriculture, industrie, commerce, marine, compagnies industrielles, tout s’agitera pour réclamer les faveurs de l’État. Le Trésor public sera littéralement au pillage. » [_Justice et fraternité_](http://bastiat.org/fr/justice_fraternite.html)
+> Les finances publiques ne tarderont pas d’arriver à un complet désarroi. Comment pourrait-il en être autrement quand l’État est chargé de fournir tout à tous ? Le peuple sera écrasé d’impôts, on fera emprunt sur emprunt ; après avoir épuisé le présent, on dévorera l’avenir. Enfin, comme il sera admis en principe que l’État est chargé de faire de la fraternité en faveur des citoyens, on verra le peuple tout entier transformé en solliciteur. Propriété foncière, agriculture, industrie, commerce, marine, compagnies industrielles, tout s’agitera pour réclamer les faveurs de l’État. Le Trésor public sera littéralement au pillage. ([_Justice et fraternité_](http://bastiat.org/fr/justice_fraternite.html))
 
 L’État devient alors selon les propos de Bastiat
 
-> « la grande fiction à travers laquelle tout le monde s’efforce de vivre aux dépens de tout le monde » ([_L’Etat_](http://bastiat.org/fr/l_etat.html))
+> la grande fiction à travers laquelle tout le monde s’efforce de vivre aux dépens de tout le monde. ([_L’Etat_](http://bastiat.org/fr/l_etat.html))
 
 Bastiat développe aussi l’idée que le conflit naît lorsque la loi sort de son juste rôle. Dans son célèbre pamphlet [_La Loi_](http://bastiat.org/fr/la_loi.html), il montre pourquoi et comment la loi est devenue « le champ de bataille de toutes les cupidités », c’est-à-dire une source de privilèges, de rentes de situation et d’arbitraire fiscal. Dès que l’on admet en principe que la loi peut être détournée de sa vraie mission, qu'elle peut violer les propriétés au lieu de les garantir, il s’ensuit nécessairement une lutte des classes, soit pour se défendre contre la spoliation, soit pour l'organiser aussi à son profit.
 
@@ -1254,11 +1296,11 @@ Ce n’est que lorsque la loi sort de ses justes bornes que le législateur devi
 
 Selon Bastiat la démocratie socialiste conduit au déficit permanent des budgets et finalement à la violence. En effet, en multipliant inlassablement les promesses, et en étant incapable de les réaliser, la machine électorale développe une rancœur qui fait le lit des révolutions. Il écrit :
 
-> « Mais si le gouvernement se charge d’élever et de régler les salaires et qu’il ne le puisse ; s’il se charge d’assister toutes les infortunes et qu’il ne le puisse ; s’il se charge d’assurer des retraites à tous les travailleurs et qu’il ne le puisse… ne voit-on pas qu’au bout de chaque déception, hélas ! plus que probable, il y a une non moins inévitable révolution ? » ([_La loi_](http://bastiat.org/fr/la_loi.html))
+> Mais si le gouvernement se charge d’élever et de régler les salaires et qu’il ne le puisse ; s’il se charge d’assister toutes les infortunes et qu’il ne le puisse ; s’il se charge d’assurer des retraites à tous les travailleurs et qu’il ne le puisse… ne voit-on pas qu’au bout de chaque déception, hélas ! plus que probable, il y a une non moins inévitable révolution ? ([_La loi_](http://bastiat.org/fr/la_loi.html))
 
 Conclusion de Bastiat :
 
-> « Jetez les yeux sur le globe. Quels sont les peuples les plus heureux, les plus moraux, les plus paisibles? Ceux où la Loi intervient le moins dans l'activité privée; où le gouvernement se fait le moins sentir; où l'individualité a le plus de ressort et l'opinion publique le plus d'influence; où les rouages administratifs sont les moins nombreux et les moins compliqués; les impôts les moins lourds et les moins inégaux; les mécontentements populaires les moins excités et les moins justifiables; où la responsabilité des individus et des classes est la plus agissante, et où, par suite, si les mœurs ne sont pas parfaites, elles tendent invinciblement à se rectifier; où les transactions, les conventions, les associations sont le moins entravées; où le travail, les capitaux, la population subissent les moindres déplacements artificiels » ([_La loi_](http://bastiat.org/fr/la_loi.html))
+> Jetez les yeux sur le globe. Quels sont les peuples les plus heureux, les plus moraux, les plus paisibles? Ceux où la Loi intervient le moins dans l'activité privée; où le gouvernement se fait le moins sentir; où l'individualité a le plus de ressort et l'opinion publique le plus d'influence; où les rouages administratifs sont les moins nombreux et les moins compliqués; les impôts les moins lourds et les moins inégaux; les mécontentements populaires les moins excités et les moins justifiables; où la responsabilité des individus et des classes est la plus agissante, et où, par suite, si les mœurs ne sont pas parfaites, elles tendent invinciblement à se rectifier; où les transactions, les conventions, les associations sont le moins entravées; où le travail, les capitaux, la population subissent les moindres déplacements artificiels ([_La loi_](http://bastiat.org/fr/la_loi.html))
 
 ## La critique marxiste du capitalisme
 <chapterId>16c82521-7c51-5d84-b660-0b358447e3bd</chapterId>
@@ -1326,7 +1368,7 @@ Or jusqu'au milieu du XIXe siècle, personne n'osait contester le fait que la st
 
 Mises écrit :
 
-> « Marx et les marxistes (...) ont enseigné que la pensée est déterminée par la situation de classe de celui qui pense. Ce que la pensée produit n'est pas la vérité, mais des idéologies. Ce mot signifie, dans le contexte de la philosophie marxiste, un déguisement de l'intérêt égoïste de classe à laquelle appartient l'individu qui pense. C'est pourquoi il est inutile de discuter quoi que ce soit avec des personnes d'une autre classe sociale. Les idéologies n'ont pas besoin d'être réfutées par un raisonnement déductif ; elles doivent être démasquées en dénonçant la situation de classe, l'arrière-plan social de leurs auteurs. Ainsi les marxistes ne discutent pas les mérites des théories physiques ; ils dévoilent simplement l'origine bourgeoise des physiciens. » (_Le gouvernement omnipotent_).
+> Marx et les marxistes (...) ont enseigné que la pensée est déterminée par la situation de classe de celui qui pense. Ce que la pensée produit n'est pas la vérité, mais des idéologies. Ce mot signifie, dans le contexte de la philosophie marxiste, un déguisement de l'intérêt égoïste de classe à laquelle appartient l'individu qui pense. C'est pourquoi il est inutile de discuter quoi que ce soit avec des personnes d'une autre classe sociale. Les idéologies n'ont pas besoin d'être réfutées par un raisonnement déductif ; elles doivent être démasquées en dénonçant la situation de classe, l'arrière-plan social de leurs auteurs. Ainsi les marxistes ne discutent pas les mérites des théories physiques ; ils dévoilent simplement l'origine bourgeoise des physiciens. (_Le gouvernement omnipotent_).
 
 Aux yeux des marxistes, Ricardo, Freud, Bergson et Einstein sont dans le faux parce qu'ils sont bourgeois. Ainsi, les marxistes affirment que la structure logique de l'esprit serait différente suivant l’appartenance à une classe. Chaque classe aurait sa propre logique et donc une économie, des mathématiques, une physique et ainsi de suite qui lui serait propre. La seule logique et la seule science exactes, correctes et éternelles seraient celles des marxistes.
 
@@ -1365,9 +1407,13 @@ Rédigé entre 1940 et 1943, ce petit essai entend dresser un premier bilan des 
 
 On retrouve en effet partout à l’œuvre le même processus de centralisation politique et la même volonté de substituer une organisation dirigiste aux mécanismes traditionnels du marché. En Grande Bretagne comme aux États-Unis, on affirme que la puissance publique doit tout planifier et peut tout résoudre.
 
-Quant au libéralisme authentique, il est soucieux de la justice. Mais Hayek rappelle qu’il appartient à la société civile et non à l’État d’organiser cette solidarité. Ce qui différencie le libéralisme et le socialisme, ce ne sont pas les fins, ce sont les moyens. Selon Hayek, « le libéralisme veut qu'on fasse le meilleur usage possible des forces de la concurrence en tant que moyen de coordonner les efforts humains ; il ne veut pas qu'on laisse les choses en l'état où elles sont. »
+Quant au libéralisme authentique, il est soucieux de la justice. Mais Hayek rappelle qu’il appartient à la société civile et non à l’État d’organiser cette solidarité. Ce qui différencie le libéralisme et le socialisme, ce ne sont pas les fins, ce sont les moyens. Selon Hayek, 
 
-C’est pourquoi, ajoute Hayek, l'État a un domaine d'activité incontestable : « créer les conditions dans lesquelles la concurrence sera la plus efficace possible, la remplacer là où elle ne peut être efficace, fournir les services qui sont d'une nature telle que le profit, selon la formule de Smith, ne saurait en rembourser le coût à aucun groupe ».
+> Le libéralisme veut qu'on fasse le meilleur usage possible des forces de la concurrence en tant que moyen de coordonner les efforts humains ; il ne veut pas qu'on laisse les choses en l'état où elles sont.
+
+C’est pourquoi, ajoute Hayek, l'État a un domaine d'activité incontestable : 
+
+> Créer les conditions dans lesquelles la concurrence sera la plus efficace possible, la remplacer là où elle ne peut être efficace, fournir les services qui sont d'une nature telle que le profit, selon la formule de Smith, ne saurait en rembourser le coût à aucun groupe.
 
 A l'inverse, la planification de l’économie et de la société en général, essence du socialisme, est dirigée contre la concurrence en tant que telle. Or, selon Hayek, il y une incompatibilité entre les fins du socialisme (justice sociale, égalité et sécurité) et les moyens prévus par le socialisme pour y parvenir (abolition de la propriété privée, collectivisation des moyens de production, économie planifiée).
 
@@ -1377,7 +1423,7 @@ Dès les premières pages, Hayek établit un parallèle entre le triomphe des id
 
 ![image](assets/5/img-093.webp)
 
-> « Peu de gens, prévient-il dans sa préface, sont prêts à reconnaître que l’ascension du fascisme et du nazisme a été non pas une réaction contre les tendances (…) de la période antérieure, mais un résultat inévitable de ces tendances. C’est une chose que la plupart des gens ont refusé de voir, même au moment où l’on s’est rendu compte de la ressemblance qu’offraient certains traits négatifs des régimes intérieurs de la Russie communiste et de l’Allemagne nazie. Le résultat en est que bien des gens qui se considèrent très au-dessus des aberrations du nazisme et qui en haïssent très sincèrement toutes les manifestations, travaillent en même temps pour des idéaux dont la réalisation mènerait tout droit à cette tyrannie abhorrée. »
+> Peu de gens, prévient-il dans sa préface, sont prêts à reconnaître que l’ascension du fascisme et du nazisme a été non pas une réaction contre les tendances (…) de la période antérieure, mais un résultat inévitable de ces tendances. C’est une chose que la plupart des gens ont refusé de voir, même au moment où l’on s’est rendu compte de la ressemblance qu’offraient certains traits négatifs des régimes intérieurs de la Russie communiste et de l’Allemagne nazie. Le résultat en est que bien des gens qui se considèrent très au-dessus des aberrations du nazisme et qui en haïssent très sincèrement toutes les manifestations, travaillent en même temps pour des idéaux dont la réalisation mènerait tout droit à cette tyrannie abhorrée.
 
 Selon Hayek, socialisme et nazisme partagent un certain nombre de points communs fondamentaux, en particulier le rejet de l'individualisme et de l'ordre spontané du marché. Les deux idéologies privilégient le bien-être du groupe sur les droits et libertés des individus et cherchent à créer une société homogène unie par des valeurs et des objectifs communs. Ni les socialistes ni les nazis n'hésitent à utiliser la force et la coercition pour atteindre leurs objectifs. Ils sont prêts à supprimer les libertés individuelles et à réprimer la dissidence au nom de l'intérêt supérieur de la société.
 
@@ -1439,7 +1485,7 @@ Ce livre comporte un chapitre clé qui s’intitule : « Monnaie saine ou État 
 
 En 1947, soit cinq ans après la traduction en français de _La théorie générale_, il faisait paraître un article intitulé : _Les erreurs de la théorie générale de Lord Keynes_. Il lançait les avertissements suivants :
 
-> « Il est probable que la prochaine période de dépression entraînera l’application généralisée dans le monde de la politique suggérée par lord Keynes. Je ne crains pas de me tromper en affirmant que cette politique ne réduira le chômage que dans une faible mesure, mais qu'elle aura des conséquences profondes sur l'évolution des pays dans lesquels elle sera appliquée. (…) Du fait de lord Keynes, la prochaine cyclique sera l'occasion de profonds changements politiques, que certains espèrent, que d'autres redoutent. En tout cas, fondé sur une théorie fausse, les remèdes qui seront mis en œuvre entraîneront des répercussions profondément différentes de celles qu'ils étaient appelés à promouvoir. Leur inefficacité sera, pour une grande partie de l'opinion, raison nouvelle de réclamer la substitution d'un régime qui, en se reniant, se sera lui-même détruit. »
+> Il est probable que la prochaine période de dépression entraînera l’application généralisée dans le monde de la politique suggérée par lord Keynes. Je ne crains pas de me tromper en affirmant que cette politique ne réduira le chômage que dans une faible mesure, mais qu'elle aura des conséquences profondes sur l'évolution des pays dans lesquels elle sera appliquée. (…) Du fait de lord Keynes, la prochaine cyclique sera l'occasion de profonds changements politiques, que certains espèrent, que d'autres redoutent. En tout cas, fondé sur une théorie fausse, les remèdes qui seront mis en œuvre entraîneront des répercussions profondément différentes de celles qu'ils étaient appelés à promouvoir. Leur inefficacité sera, pour une grande partie de l'opinion, raison nouvelle de réclamer la substitution d'un régime qui, en se reniant, se sera lui-même détruit.
 
 A partir de 1958, une politique de redressement de l’économie française, inspirée par Jacques Rueff, sera conduite sous l’autorité du Général de Gaulle. Elle conduira aux fameuses « Trente glorieuses ».
 
@@ -1447,13 +1493,15 @@ A partir de 1958, une politique de redressement de l’économie française, ins
 
 Dans _Le péché monétaire de l’Occident_, en 1971, Rueff écrit :
 
-> « C’est par le déficit budgétaire que les hommes perdent leur liberté ». Il ajoute : « L'inflation, c'est de subventionner des dépenses qui ne rapportent rien avec de l'argent qui n'existe pas ». Selon lui : «  On croirait, en observant l'évolution du système monétaire international, que l'Occident s'applique à mettre en œuvre le conseil de Lénine, suivant lequel : Pour détruire le régime bourgeois, il suffit de corrompre sa monnaie. »
+> C’est par le déficit budgétaire que les hommes perdent leur liberté ». 
+
+Il ajoute: "L'inflation, c'est de subventionner des dépenses qui ne rapportent rien avec de l'argent qui n'existe pas ». Selon lui : «  On croirait, en observant l'évolution du système monétaire international, que l'Occident s'applique à mettre en œuvre le conseil de Lénine, suivant lequel : Pour détruire le régime bourgeois, il suffit de corrompre sa monnaie.
 
 ![image](assets/6/img-004.webp)
 
 En 1976, il s’attaque une dernière une fois au keynésianisme dans un article du journal _Le Monde_ :
 
-> « Aucune religion ne s'est répandue dans le monde aussi vite que celle de l'emploi. Portée par le souvenir des drames du chômage qui avait ravagé l'Angleterre et l'Allemagne pendant les années 20, elle est devenue le premier principe, expresse ou tacite, de la politique économique dans presque tous les pays du monde. Masquant son objet sous l'habillage habile et spécieux de la "théorie générale", élevée par des disciples enthousiastes et aveugles à la hauteur d'une bible de l'action gouvernementale, elle a dissimulé le véritable visage des politiques d'inflation qu'elle recouvrait. Par ce détour, elle a donné bonne conscience aux gouvernements qui, ayant épousé leurs possibilités d'impôts et d'emprunts, recouraient aux délices trompeurs de la création monétaire. » (_La fin de l'ère keynésienne_. Version anglaise: "The End of the Keynesian Era or: When the Long Run Ran Out", Euromoney, avril 1976, pp.70-7.)
+> Aucune religion ne s'est répandue dans le monde aussi vite que celle de l'emploi. Portée par le souvenir des drames du chômage qui avait ravagé l'Angleterre et l'Allemagne pendant les années 20, elle est devenue le premier principe, expresse ou tacite, de la politique économique dans presque tous les pays du monde. Masquant son objet sous l'habillage habile et spécieux de la "théorie générale", élevée par des disciples enthousiastes et aveugles à la hauteur d'une bible de l'action gouvernementale, elle a dissimulé le véritable visage des politiques d'inflation qu'elle recouvrait. Par ce détour, elle a donné bonne conscience aux gouvernements qui, ayant épousé leurs possibilités d'impôts et d'emprunts, recouraient aux délices trompeurs de la création monétaire. (_La fin de l'ère keynésienne_. Version anglaise: "The End of the Keynesian Era or: When the Long Run Ran Out", Euromoney, avril 1976, pp.70-7.)
 
 ## L’abandon de l’étalon-or
 <chapterId>f52da9ae-c4bc-5d1a-8fd0-8fcae5948e34</chapterId>
@@ -1468,11 +1516,15 @@ Et il se trouve qu’une forme particulière de monnaie s’est progressivement 
 
 En effet, l’or est une monnaie dure, difficile à produire, coûteuse à falsifier. L’or a été élu par le marché comme la monnaie la plus fiable, la plus durable et la moins manipulable. L’histoire montre que lorsque les individus peuvent choisir la monnaie qu’ils utilisent, ils ont tendance à choisir l’or.
 
-C’est pourquoi, dans _L’Action humaine_, Ludwig von Mises écrit : « L’étalon-or a été l’étalon mondial au temps du capitalisme, de l’accroissement du bien-être, de la liberté et de la démocratie \[…\] C’était l’étalon international dont le commerce international et les marchés mondiaux des capitaux avaient besoin \[…\] Il a porté l’industrie, le capital et la civilisation occidentales dans les coins les plus reculés de la planète, créant des richesses inconnues jusqu’alors ».
+C’est pourquoi, dans _L’Action humaine_, Ludwig von Mises écrit : 
+
+> L’étalon-or a été l’étalon mondial au temps du capitalisme, de l’accroissement du bien-être, de la liberté et de la démocratie \[…\] C’était l’étalon international dont le commerce international et les marchés mondiaux des capitaux avaient besoin \[…\] Il a porté l’industrie, le capital et la civilisation occidentales dans les coins les plus reculés de la planète, créant des richesses inconnues jusqu’alors.
 
 Mais l'étalon-or contraint les gouvernements à financer leurs dépenses par l'impôt plutôt que par l'inflation, ce qui explique une certaine hostilité des élites politico-économiques envers ce système. Car le fait de relier la monnaie à un métal précieux limite la capacité des banques centrales à financer la croissance de l’État-providence via la taxe indirecte qu’est l’inflation.
 
-C’est pourquoi dès 1923, Keynes déclarait : « En vérité, l’étalon d’or est déjà une relique barbare. (…) Les défenseurs de l’ancien étalon ne remarquent pas combien il est maintenant éloigné de l’esprit et des besoins des temps nouveaux. » (J.M. Keynes, _La réforme monétaire_).
+C’est pourquoi dès 1923, Keynes déclarait : 
+
+> En vérité, l’étalon d’or est déjà une relique barbare. (…) Les défenseurs de l’ancien étalon ne remarquent pas combien il est maintenant éloigné de l’esprit et des besoins des temps nouveaux. (J.M. Keynes, _La réforme monétaire_).
 
 ### Le « choc Nixon »
 
@@ -1480,7 +1532,9 @@ Le système de Bretton Woods, conçu en 1944, entré pleinement en vigueur en 19
 
 ![image](assets/6/img-007.webp)
 
-A cette époque, avec la guerre du Vietnam notamment, l’augmentation des déficits du gouvernement américain poussèrent de nombreux pays étrangers, dont la France, à vouloir convertir leurs dollars en or auprès de la FED. Le 15 août 1971, le président Nixon décida l’annulation de la promesse de convertibilité du dollar en or, créant ainsi la première monnaie entièrement papier de l’histoire des États-Unis. On peut dater de ce jour le moment où l’argent est complètement passé sous le contrôle des banques centrales. Lors d’une interview, Richard Nixon aurait dit : « Nous sommes tous keynésiens aujourd’hui ».
+A cette époque, avec la guerre du Vietnam notamment, l’augmentation des déficits du gouvernement américain poussèrent de nombreux pays étrangers, dont la France, à vouloir convertir leurs dollars en or auprès de la FED. Le 15 août 1971, le président Nixon décida l’annulation de la promesse de convertibilité du dollar en or, créant ainsi la première monnaie entièrement papier de l’histoire des États-Unis. On peut dater de ce jour le moment où l’argent est complètement passé sous le contrôle des banques centrales. Lors d’une interview, Richard Nixon aurait dit :
+
+> Nous sommes tous keynésiens aujourd’hui.
 
 En effet, pour de nombreux économistes keynésiens, l’abandon de l’étalon-or a donné aux gouvernements la flexibilité nécessaire pour répondre ou prévenir les crises économiques.
 
@@ -1488,13 +1542,15 @@ En effet, pour de nombreux économistes keynésiens, l’abandon de l’étalon-
 
 Selon Alan Greenspan, ancien président de la FED, la banque centrale américain, l'étalon-or est incompatible avec l’endettement étatique et le financement de l'État-providence :
 
-> « J'ai toujours nourri de la nostalgie pour la stabilité des prix inhérente à l'étalon-or ; une monnaie stable en était le premier objectif. Mais j'ai depuis longtemps admis que l'étalon-or ne s'accommode pas aisément de l'opinion dominante sur la fonction d'un gouvernement, notamment le devoir d'assurer un système de sécurité sociale. \[…\] La plupart des Américains ont toléré l'inflation comme le prix à payer pour avoir un État-providence moderne. Il n'existe plus aujourd'hui de partisans de l'étalon-or, et je ne vois guère de possibilité qu'il revienne. » (_Le Temps des turbulences_).
+> J'ai toujours nourri de la nostalgie pour la stabilité des prix inhérente à l'étalon-or ; une monnaie stable en était le premier objectif. Mais j'ai depuis longtemps admis que l'étalon-or ne s'accommode pas aisément de l'opinion dominante sur la fonction d'un gouvernement, notamment le devoir d'assurer un système de sécurité sociale. \[…\] La plupart des Américains ont toléré l'inflation comme le prix à payer pour avoir un État-providence moderne. Il n'existe plus aujourd'hui de partisans de l'étalon-or, et je ne vois guère de possibilité qu'il revienne. (_Le Temps des turbulences_).
 
 Au contraire, pour des gens comme Jacques Rueff, l’abandon du précieux métal est une erreur qui ne peut que provoquer une baisse continue du pouvoir d'achat, s'accompagnant d'une baisse du niveau de vie, d'une augmentation des inégalités de revenus et d'une instabilité économique croissante.
 
 ![image](assets/6/img-008.webp)
 
-En février 1965, lors d’une conférence de presse télévisée, le général de Gaulle, directement inspiré par Rueff, avait proposé qu'on revienne à l'étalon-or. Il affirmait : « L'or, qui ne change pas de nature, qui n'a pas de nationalité, qui est tenu, éternellement et universellement, comme la valeur inaltérable par excellence. »
+En février 1965, lors d’une conférence de presse télévisée, le général de Gaulle, directement inspiré par Rueff, avait proposé qu'on revienne à l'étalon-or. Il affirmait :
+
+> L'or, qui ne change pas de nature, qui n'a pas de nationalité, qui est tenu, éternellement et universellement, comme la valeur inaltérable par excellence.
 
 ### Un marché monétaire sans monopole de l'Etat est possible
 
@@ -1504,7 +1560,7 @@ En 1976, Hayek a proposé une alternative au monopole de la création monéaire 
 
 Il écrit :
 
-> « Tant que nous n’aurons pas restauré une situation dans laquelle les gouvernements (ainsi que les autres autorités publiques) savent que s’ils dépensent trop ils seront, comme quiconque autre, incapables de satisfaire à leurs obligations, il n’y aura aucune pause dans ce processus qui, par la substitution de l’activité collective a l’activité privée, menace d’étouffer l’initiative individuelle. Sous la démocratie illimitée actuelle, dans laquelle le gouvernement a le pouvoir conférer des bénéfices matériels spéciaux à des groupes particuliers, il est contraint d’acheter le soutien d’un nombre suffisant d’entre eux afin de constituer une majorité. » (Ch. XXI, Les effets des finances et des dépenses publiques).
+> Tant que nous n’aurons pas restauré une situation dans laquelle les gouvernements (ainsi que les autres autorités publiques) savent que s’ils dépensent trop ils seront, comme quiconque autre, incapables de satisfaire à leurs obligations, il n’y aura aucune pause dans ce processus qui, par la substitution de l’activité collective a l’activité privée, menace d’étouffer l’initiative individuelle. Sous la démocratie illimitée actuelle, dans laquelle le gouvernement a le pouvoir conférer des bénéfices matériels spéciaux à des groupes particuliers, il est contraint d’acheter le soutien d’un nombre suffisant d’entre eux afin de constituer une majorité. (Ch. XXI, Les effets des finances et des dépenses publiques).
 
 Pour Hayek, l’instabilité passée de l’économie de marché résulte du fait que le régulateur le plus important des mécanismes de marche, à savoir la monnaie, n’a pas pu être lui-même le fruit d’un processus de marché.
 
@@ -1525,12 +1581,16 @@ Cette situation est en fait la conséquence d’un changement intellectuel radic
 
 En 1941, George Orwell faisait ce bilan :
 
-> « Il est évident que l’âge du libre capitalisme touche à sa fin et qu’un pays après l’autre est en train d’adopter une économie centralisée que l’on peut appeler socialisme ou capitalisme d’État, comme on veut. Dans ce système, la liberté économique de l’individu et dans une large mesure sa liberté tout court – liberté d’agir, de choisir son travail, de circuler – disparaissent. Ce n’est que tout récemment que l’on a commencé à entrevoir les implications de ce phénomène. Précédemment on n’avait jamais imaginé que la disparition de la liberté économique pourrait affecter la liberté intellectuelle. On pensait d’ordinaire que le socialisme était une sorte de libéralisme augmenté d’une morale. L’État allait prendre votre vie économique en charge et vous libérerait de la crainte de la pauvreté, du chômage, etc., mais il n’aurait nul besoin de s’immiscer dans votre vie intellectuelle privée. Maintenant la preuve a été faite que ces vues étaient fausses. »
+> Il est évident que l’âge du libre capitalisme touche à sa fin et qu’un pays après l’autre est en train d’adopter une économie centralisée que l’on peut appeler socialisme ou capitalisme d’État, comme on veut. Dans ce système, la liberté économique de l’individu et dans une large mesure sa liberté tout court – liberté d’agir, de choisir son travail, de circuler – disparaissent. Ce n’est que tout récemment que l’on a commencé à entrevoir les implications de ce phénomène. Précédemment on n’avait jamais imaginé que la disparition de la liberté économique pourrait affecter la liberté intellectuelle. On pensait d’ordinaire que le socialisme était une sorte de libéralisme augmenté d’une morale. L’État allait prendre votre vie économique en charge et vous libérerait de la crainte de la pauvreté, du chômage, etc., mais il n’aurait nul besoin de s’immiscer dans votre vie intellectuelle privée. Maintenant la preuve a été faite que ces vues étaient fausses.
 
 Mais contrairement à ce que nous annoncent les prophètes de malheur, la civilisation occidentale n’est pas vouée à disparaitre au XXIe siècle. Elle n’a pas épuisé ses virtualités. La liberté reste à venir.
 
 C’est ce que suggérait Murray Rothbard en 1982 :
 
-> « On a maintenant tâté de toutes les variantes de l’étatisme et elles ont toutes échoué. Partout dans le monde occidental au début du 20ème siècle les chefs d’entreprise, les politiciens et intellectuels s’étaient mis à appeler de leurs vœux un “nouveau” système d’économie mixte, de domination étatique, à la place du laissez-faire relatif du siècle précédent. De nouvelles panacées, attrayantes à première vue, comme le socialisme, l’État corporatiste, l’État-Providence-Gendarme du monde, etc. ont été essayées et toutes ont manifestement échoué. Les argumentaires en faveur du socialisme et de la planification étatique apparaissent maintenant comme des plaidoyers pour un système vieilli, épuisé et raté. Que reste-t-il à essayer sinon la liberté ? »
+> On a maintenant tâté de toutes les variantes de l’étatisme et elles ont toutes échoué. Partout dans le monde occidental au début du 20ème siècle les chefs d’entreprise, les politiciens et intellectuels s’étaient mis à appeler de leurs vœux un “nouveau” système d’économie mixte, de domination étatique, à la place du laissez-faire relatif du siècle précédent. De nouvelles panacées, attrayantes à première vue, comme le socialisme, l’État corporatiste, l’État-Providence-Gendarme du monde, etc. ont été essayées et toutes ont manifestement échoué. Les argumentaires en faveur du socialisme et de la planification étatique apparaissent maintenant comme des plaidoyers pour un système vieilli, épuisé et raté. Que reste-t-il à essayer sinon la liberté ?
 
-En un certain sens, notre situation est meilleure que par le passé. Après les échecs successifs des différentes expériences socialistes, communistes et sociales-démocrates, nous savons aujourd’hui distinguer, mieux qu’hier, les idées vraies des idées fausses. Et les idées fausses peuvent être réfutées et remplacées par des idées vraies. Comme le disait Mises, « tout ce qui arrive dans la société mondiale où nous vivons est le résultat des idées. Le bon et le mauvais. Ce qu’il faut c’est combattre les idées fausses. (…) Notre civilisation peut survivre, et elle le doit. Et elle survivra grâce à des idées meilleures que celles qui gouvernent le monde aujourd’hui ; et ces idées meilleures seront développées par la génération montante. » (_Politique économique. Réflexions pour aujourd’hui et pour demain_, 1979).
+En un certain sens, notre situation est meilleure que par le passé. Après les échecs successifs des différentes expériences socialistes, communistes et sociales-démocrates, nous savons aujourd’hui distinguer, mieux qu’hier, les idées vraies des idées fausses. Et les idées fausses peuvent être réfutées et remplacées par des idées vraies. Comme le disait Mises: 
+
+> Tout ce qui arrive dans la société mondiale où nous vivons est le résultat des idées. Le bon et le mauvais. Ce qu’il faut c’est combattre les idées fausses. (…) Notre civilisation peut survivre, et elle le doit. Et elle survivra grâce à des idées meilleures que celles qui gouvernent le monde aujourd’hui ; et ces idées meilleures seront développées par la génération montante. 
+>
+> (_Politique économique. Réflexions pour aujourd’hui et pour demain_, 1979).

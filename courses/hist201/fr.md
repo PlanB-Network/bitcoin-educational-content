@@ -1533,11 +1533,13 @@ Cette dimension mystérieuse entourant le créateur de Bitcoin a d'ailleurs bien
 
 ## La prise de relai de la communauté (avr. 2011 -- sept. 2011)
 
-### Faire sans Satoshi
+Après le départ de Satoshi Nakamoto, il a nécessairement fallu faire sans lui. Heureusement, Bitcoin étant un projet libre, auquel tout le monde peut contribuer, la disparition de son fondateur n'a pas été fatale pour lui. En réponse à une inquiétude face à l'éventualité d'une absence de Satoshi, Jeff Garzik [écrivait](https://bitcointalk.org/index.php?topic=628.msg6578#msg6578) en juillet 2010 :
 
-jimbobway à Satoshi, [30/7](https://bitcointalk.org/index.php?topic=628.msg6536#msg6536) : « Supposons que, Dieu nous en préserve, vous ne soyez plus en mesure de programmer ou que vous soyez indisponible en raison de circonstances inconnues. &nbsp;Avez-vous une procédure en tête pour continuer le bitcoin en votre absence ? » (*original: "Suppose, god forbid, you were no longer able to program or were unavailable due to unknown circumstances. &nbsp;Do you have a procedure in mind to continue bitcoin in your absence?"*)
+> « Les gens s'inquiètent beaucoup des règles et de leur élaboration. &nbsp;Mais il n'y a aucun besoin de plan de continuité du gouvernement ici. &nbsp;Tant que le code source reste ouvert, c'est suffisant. &nbsp;S'il existe un besoin et suffisamment d'intérêt, la communauté s'en chargera. &nbsp;Faites confiance à la communauté. »
+>
+> *original: "People worry an awful lot about rules and rule-making. &nbsp;But there is no driving need for any Continuity of Government plan, here. &nbsp;As long as the source code remains open, that is sufficient. &nbsp;If there is a need, and enough interest, the community will provide. &nbsp;Trust in the community."*
 
-jgarzik, [30/7](https://bitcointalk.org/index.php?topic=628.msg6578#msg6578) : « Les gens s'inquiètent beaucoup des règles et de leur élaboration. &nbsp;Mais il n'y a aucun besoin de plan de continuité du gouvernement ici :) &nbsp;Tant que le code source reste ouvert, c'est suffisant. &nbsp;S'il existe un besoin et suffisamment d'intérêt, la communauté s'en chargera. &nbsp;Faites confiance à la communauté :) » (*original: "People worry an awful lot about rules and rule-making. &nbsp;But there is no driving need for any Continuity of Government plan, here :) &nbsp;As long as the source code remains open, that is sufficient. &nbsp;If there is a need, and enough interest, the community will provide. &nbsp;Trust in the community :)"*)
+Toutefois, cette disparition n'a pas été sans heurts. L'absence de Satoshi impliquait qu'il n'y avait plus une autorité d'où émanait la direction à prendre. Il fallait se coordonner, du point de vue du développement logiciel que de la communication externe. Les membres de la communauté naissante de Bitcoin ont dû ainsi faire de nombreux efforts pour normaliser ces pratiques.
 
 ### Le développement communautaire
 
@@ -1573,41 +1575,57 @@ Migration du wiki de DokuWiki vers Mediawiki
 
 Forum. Mai 2011, `forum.bitcoin.org`. [17/5](https://bitcointalk.org/index.php?topic=8696.msg125944#msg125944). Août 2011 : `bitcointalk.org`. [Transmission](https://bitcointalk.org/index.php?topic=5129680.msg50522659#msg50522659) de la position d'administrateur à theymos en 2012.
 
-### Les portefeuilles légers (mars 2011 -- sept. 2011)
+### Les portefeuilles légers (mars 2011 -- nov. 2011)
 
 Utilisation de Bitcoin : nœud complet ou service dépositaire (MyBitcoin)
 
-Demande (prime) par Kiba, 1740 BTC, [16/11](https://bitcointalk.org/index.php?topic=1812.msg22319#msg22319)
+Au début de l'année 2011, l'utilisation de Bitcoin se fait de deux manières principales : soit directement, au moyen d'un nœud complet fonctionnant sur un ordinateur et demandant une certaine patience pour la gestion de la chaîne de bloc et la sauvegarde des clés privées ; soit indirectement, par le biais de l'application dépositaire MyBitcoin, qui permet de gérer ses bitcoins sans avoir à se soucier de gérer un logiciel complexe, et en utilisant un simple mot de passe pour accéder à un compte.
+
+Le problème est que les nouveaux utilisateurs et les usagers occasionnels se tournent rapidement vers la solution de facilité. Il y a ainsi une demande pour une solution intermédiaire donnant la possibilité de conserver ses fonds en évitant d'avoir à faire fonctionner toute l'infrastructure logicielle. En novembre 2010, c'est ainsi que Kiba met en place une [prime](https://bitcointalk.org/index.php?topic=1812.msg22319#msg22319) collective pour le développement d'un client Bitcoin sur mobile.
 
 Idée d'utiliser un nœud en tant que serveur distant (en lequel on a totalement confiance), Spesmilo : Amir Taaki, Luke-Jr, [14/2](https://bitcointalk.org/index.php?topic=3451.msg48538#msg48538)
 
-Le 7 mars 2011, Mike Hearn [publie](https://bitcointalk.org/index.php?topic=4236.msg61438#msg61438) son implémentation logicielle BitCoinJ. Comme il travaille pour Google, le code doit être attribué à la multinationale, mais la licence est libre ([Apache 2.0](https://www.apache.org/licenses/LICENSE-2.0)). L'implémentation met en œuvre la vérification de paiement simplifiée telle que décrite dans le livre blanc, de sorte que des clients mobiles légers peuvent s'y connecter.
+Le 7 mars 2011, Mike Hearn [publie](https://bitcointalk.org/index.php?topic=4236.msg61438#msg61438) son implémentation logicielle BitCoinJ. Comme il travaille pour Google, le code doit être attribué à la multinationale, mais la licence est libre ([Apache 2.0](https://www.apache.org/licenses/LICENSE-2.0)). L'implémentation met en œuvre la vérification de paiement simplifiée (SPV) telle que décrite dans le livre blanc, de sorte que des clients mobiles légers peuvent s'y connecter.
 
-Quelques jours plus tard, un autre développeur du nom d'Andreas Schildbach (Goonie) ....
+Quelques jours plus tard, le 11 mars, un autre développeur du nom d'Andreas Schildbach (Goonie) [dévoile](https://bitcointalk.org/index.php?topic=4384.msg64142#msg64142) le prototype d'un portefeuille pour les téléphones utilisant le système d'exploitation Android, basé l'implémentation BitCoinJ de Mike Hearn. Sobrement nommé *Bitcoin Wallet for Android*, celui-ci deviendra le premier modèle fonctionnel de portefeuille léger sur mobile.
 
-Bitcoin Wallet for Android (Andreas Schildbach), 11 mars 2011 : https://bitcointalk.org/index.php?topic=4384.msg64142#msg64142
+Le 29 juillet, un incident vient renforcer la demande pour les portefeuilles légers : la fermeture soudaine de MyBitcoin. Près de 78 740 bitcoins manquent à l'appel sur le portefeuille lié à l'application, un montant équivalent à plus d'un millions de dollars à ce moment-là et correspondant à 51 % des fonds présents sur les comptes des clients, ce qui contraint le service à rembourser le reste et à disparaître. Même si MyBitcoin [invoque](https://web.archive.org/web/20111018173154/https://www.mybitcoin.com/) un piratage, des [éléments](https://observer.com/2011/08/search-for-owners-of-mybitcoin-loses-steam/) laissent à penser que son fondateur anonyme, Tom Williams, est à l'origine du vol. Quoi qu'il en soit, cet évènement confirme la nécessité d'une solution intermédiaire.
 
-Escroquerie de sortie de MyBitcoin, juillet 2011
+![Annonce de Tom Williams du 4 août 2011](assets/img/ch12/mybitcoin-20110804.webp)
 
-Le *Bitcoin Wallet for Android* sera suivi du portefeuille pour ordinateur Electrum, créé par Thomas Voegtlin en septembre 2011 : https://bitcointalk.org/index.php?topic=51397.msg612674#msg612674
+Annonce de Tom Williams du 4 août 2011 (source : [Bitcoin Wiki](https://en.bitcoin.it/wiki/MyBitcoin))
+
+Le 5 novembre, Thomas Voegtlin (ThomasV) [annonce](https://bitcointalk.org/index.php?topic=50936.msg607510#msg607510) la sortie d'Electrum, un portefeuille léger pour ordinateur dont le nom fait référence à l'électrum, alliage naturel d'or et d'argent, qui a notamment servi à frapper les premières pièces de monnaie en Lydie et en Grèce. La principale innovation est que la gestion des clés passe par un génération déterministe à partir d'une graine. Cela permet à l'utilisateur de récupérer ses fonds par le biais d'une phrase mnémotechnique de 12 mots. Le client se connecte à un réseau de serveurs spéciaux pour récupérer les transactions. La vérification de paiement simplifiée sera [ajoutée](https://bitcointalk.org/index.php?topic=50936.msg1302941#msg1302941) un an plus tard.
+
+![Graine et phrase mnémotechnique d'Electrum en 2012](assets/img/ch12/electrum-seed-mnemonic-2012.webp)
+
+Graine et phrase mnémotechnique d'Electrum en 2012 (source : [archive](https://web.archive.org/web/20120826021721/http://electrum-desktop.com:80/seed.html))
 
 ### Les conférences et rencontres (févr. -- août 2011)
 
-8 février 2011, présentation de Gavin Andresen, « Making Money », *Ignite Amherst* : https://www.youtube.com/watch?v=koIq58UoNfE
+Le côté technique n'est pas le seul à être amélioré suite au départ l'année 2011. Il y a également l'aspect social, qui permet de souder la communauté et favoriser la coopération. Il s'agit également de faire découvrir Bitcoin aux personnes qui seraient plus allergiques au contenu sur Internet. Sont ainsi organisés des rencontres et des conférences *in real life*.
 
-15 juin 2011, présentation de Bitcoin par Renaud Lifchitz (nono2357) à l'Université Paris Descartes à Paris en France : https://bitcointalk.org/index.php?topic=11384.msg161183#msg161183
+Les premiers meet-ups entre utilisateurs de Bitcoin ont lieu à l'initiative de Bruce Wagner, l'animateur new-yorkais d'une [chaîne Youtube](https://www.youtube.com/@vlogwrap) de débats télévisés abordant des sujets liés à la technique, sur laquelle il créera une émission appelée le *Bitcoin Show* en avril 2011. La toute première rencontre [se passe](https://bitcointalk.org/index.php?topic=1891.msg29174#msg29174) à New York le 11 décembre 2010 (UTC). Par la suite, une réunions du même type [a lieu](https://web.archive.org/web/20110413231434/http://bitcoin.meetup.com/) à Washington D.C. Un meetup est également [organisé](https://bitcointalk.org/index.php?topic=2716.msg36886#msg36886) le 5 février 2011 à Zurich en Suisse par Mike Hearn, auquel se joignent Christian Decker et Stefan Thomas (justmoon).
+
+Le mois de février marque aussi la [première présentation filmée](https://www.youtube.com/watch?v=koIq58UoNfE) de Bitcoin, qui est réalisée par Gavin Andresen le 8 à l'occasion d'un évènement organisé dans sa ville de résidence, Amherst, dans le Massachusetts. Intitulée « Making Money », l'exposé du nouveau mainteneur principal du projet contient de nombreux éléments de langage qui caractériseront la façon de présenter dans les années qui suivront.
+
+![Gavin Andresen lors de sa présentation de Bitcoin à Amherst en février 2011](assets/img/ch12/gavin-andresen-amherst-20110208.webp)
+
+Gavin Andresen lors de sa présentation de Bitcoin à Amherst en février 2011 (source : [Youtube](https://www.youtube.com/watch?v=koIq58UoNfE))
+
+Même si les premiers évènements ont lieu aux États-Unis, la communauté française n'est pas en reste. En effet, la première présentation publique de Bitcoin en français [a lieu](https://bitcointalk.org/index.php?topic=11384.msg225831#msg225831) le 15 juin à Paris. Elle est le fait de Renaud Lifchitz (nono2357), jeune expert en sécurité informatique, qui a découvert Bitcoin un an auparavant. Le [contenu présenté](https://prezi.com/tikwkjt9ouey/bitcoin-une-monnaie-electronique-pour-tous/) est de très bonne qualité et l'audience a répondu à l'appel de sorte qu'il s'agit globalement d'un succès.
 
 ![Présentation de Bitcoin par Renaud Lifchitz le 15 juin 2011](assets/img/ch12/workshop-renaud-lifchitz-june-2011.webp)
 
 Présentation de Bitcoin par Renaud Lifchitz le 15 juin 2011 (source : [archive du forum](https://web.archive.org/web/20140406141205/https://bitcointalk.org/index.php?topic=11384.0))
 
-[lien](https://prezi.com/tikwkjt9ouey/bitcoin-une-monnaie-electronique-pour-tous/)
+Suite à cette expérience, la communauté parisienne [organise](https://bitcointalk.org/index.php?topic=21991.msg276443#msg276443) un apéritif, qui a lieu le 11 juillet. Celui-ci réunit des personnes comme Pierre Noizat ou Émilien Dutang.
 
-**extrait** Le première réelle conférence sur Bitcoin a lieu du 19 au 21 août à New York. Cette conférence, organisée par Bruce Wagner, alors présentateur du Bitcoin Show, rassemble des personnalités comme Roger Ver, Jesse Powell, Jed McCaleb, Mark Karpelès, ou encore Charlie Lee. Bien que Wagner ait promis trois jours d'évènements, seules quatre présentations ont lieu : la sienne ainsi que les interventions de Gavin Andresen, Jeff Garzik et Stefan Thomas. Malgré son caractère amateur, cette conférence montre que Bitcoin est vivant et a un bel avenir devant lui.
+La première conférence collective sur Bitcoin a lieu du 19 au 21 août à New York. Cette réunion, organisée par Bruce Wagner, rassemble des personnalités comme Roger Ver, Jesse Powell, Jed McCaleb, Mark Karpelès ou encore Charlie Lee. Bien que Wagner ait promis trois jours d'évènements, seules quatre présentations ont lieu : la sienne ainsi que les interventions de Gavin Andresen, Jeff Garzik et Stefan Thomas.
 
 ![Vidéo (Youtube) de l'intervention de Gavin le 20 août 2011](https://www.youtube.com/watch?v=0ljx4bbJrYE)
 
-Prague, novembre 2011, où interviennent Amir Taaki, Rickard Falkvinge (fondateur du Parti pirate suédois), Vladimir Marchenko : https://bitcointalk.org/index.php?topic=40272.0
+Enfin, un peu plus tard dans l'année, en novembre, une conférence européenne [se déroule](https://bitcointalk.org/index.php?topic=40272.msg490901#msg490901) à Prague. Y [interviennent](https://web.archive.org/web/20111126164127/http://www.bitgroups.org:80/speakers.html) notamment le développeur Amir Taaki, le fondateur du Parti pirate suédois Rickard Falkvinge et le présentateur Max Keiser. L'année suivante, un évènement similaire sera [organisé à Londres](https://blog.bitmex.com/london-2012-the-2nd-bitcoin-conference/).
 
 ### La couverture médiatique
 
@@ -1637,13 +1655,9 @@ Présentations :
 
 29/6/2011 Molly explains Bitcoins https://www.youtube.com/watch?v=9LaSrxtWfgc
 
-
-
-
-
 ### Le prix
 
-**extrait** Alors que Satoshi se met progressivement en retrait, la popularité de Bitcoin augmente prodigieusement. En particulier, le prix du bitcoin évolue de manière favorable : alors qu'il n'était que de 20 centimes en décembre 2010, il atteint la parité avec le dollar le 9 février 2011 et s'y maintient pendant quelques temps. Cette hausse du prix attise l'enthousiasme de la communauté, et notamment celui de Hal Finney qui [déclare](https://bitcointalk.org/index.php?topic=2734.msg37307#msg37307) avoir « vraiment de la chance d'être au début d'un nouveau phénomène potentiellement explosif ». (*original: "We are really lucky to be in at the beginning of a possibly explosive new phenomenon."*)
+**extrait** Alors que Satoshi se met progressivement en retrait, la popularité de Bitcoin augmente prodigieusement. En particulier, le prix du bitcoin évolue de manière favorable : alors qu'il n'était que de 20 centimes en décembre 2010, il atteint la parité avec le dollar le 9 février 2011 et s'y maintient pendant quelques temps. Cette hausse du prix attise l'enthousiasme de la communauté, et notamment celui de Hal Finney qui [déclare](https://bitcointalk.org/index.php?topic=2734.msg37307#msg37307) avoir « vraiment de la chance d'être au début d'un nouveau phénomène potentiellement explosif ». (*original: "We are really lucky to be in at the beginning of a possibly explosive new phenomenon."*)
 
 9 février 2011 : parité
 

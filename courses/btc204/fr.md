@@ -2575,19 +2575,19 @@ Parmi les techniques de confidentialité sur Bitcoin, il existe aussi le transfe
 
 Le coinswap repose sur un concept relativement simple : il utilise des contrats intelligents pour faciliter un transfert de propriété de bitcoins entre deux utilisateurs, sans besoin de confiance et sans que ce transfert soit explicitement visible sur la blockchain.
 
-01
+![BTC204](assets/notext/64/01.webp)
 
 Imaginons un exemple naïf avec Alice et Bob. Alice détient 1 BTC sécurisé avec la clé privée $A$, et Bob en possède également 1, sécurisé avec la clé privée $B$. Ils pourraient théoriquement échanger leurs clés privées via un canal de communication externe pour réaliser un transfert secret.
 
-02
+![BTC204](assets/notext/64/02.webp)
 
 Cependant, cette méthode naïve présente un risque élevé en termes de confiance. Rien n'empêche Alice de conserver une copie de la clé privée $A$ après l'échange et de l'utiliser ultérieurement pour dérober les bitcoins, une fois que la clé est entre les mains de Bob.
 
-03
+![BTC204](assets/notext/64/03.webp)
 
 De plus, il n'existe aucune garantie empêchant Alice de recevoir la clé privée $B$ de Bob et de ne jamais lui transmettre sa clé privée $A$ en échange. Cet échange repose donc sur une confiance excessive entre les parties et s'avère inefficace pour assurer un transfert secret de propriété de manière sécurisée.
 
-04
+![BTC204](assets/notext/64/04.webp)
 
 Pour résoudre les problèmes de confiance entre deux utilisateurs et permettre des échanges entre parties qui ne se font pas confiance, on va plutôt utiliser des systèmes de contrats intelligents. Un contrat intelligent est un programme qui s'exécute automatiquement lorsque des conditions prédéfinies sont satisfaites, ce qui, dans notre cas, assure ainsi que l'échange de propriété se réalise de manière automatique sans nécessiter de confiance mutuelle.
 
@@ -2647,11 +2647,11 @@ Notons que les coinswaps ont été proposés pour la première fois par [Gregory
 
 De manière similaire au coinswap et en utilisant les mêmes types de contrats intelligents, il est également possible de réaliser des atomic swaps. Un atomic swap permet un échange direct de cryptomonnaies différentes, comme par exemple du BTC et du XMR, entre deux utilisateurs sans nécessiter de confiance ni l'intervention d'un intermédiaire. Ces échanges sont qualifiés d'"atomiques" car ils ont seulement deux issues possibles : soit l'échange est réussi et les deux parties sont satisfaites, soit il échoue et chacun conserve ses cryptomonnaies initiales, éliminant ainsi le besoin de faire confiance à l'autre partie.
 
-05
+![BTC204](assets/notext/64/05.webp)
 
 L'atomic swap et le coinswap partagent une méthode de fonctionnement similaire et offrent les mêmes avantages et inconvénients en termes de confidentialité. En effet, du point de vue de Bitcoin, un atomic swap est comparable à un coinswap réalisé en deux étapes. On échange d'abord nos BTC contre une autre cryptomonnaie, puis cette cryptomonnaie peut être échangée contre d'autres BTC. Au final, on récupère donc les BTC d'un autre utilisateur. C'est pourquoi, dans l'analyse des enjeux de confidentialité, je regroupe ces deux protocoles sous la catégorie des échanges secrets de propriété.
 
-06
+![BTC204](assets/notext/64/06.webp)
 
 Attention toutefois, contrairement au coinswap, l'atomic swap peut avoir des déséquilibres en termes de liquidités disponibles, notamment dans les échanges BTC/XMR. Il est généralement plus facile d'échanger des bitcoins contre des altcoins, car il y a une forte demande pour les bitcoins, ce qui maintient les premiums bas pour ce sens de conversion. Cependant, échanger des altcoins pour obtenir des BTC peut s'avérer plus complexe en raison d'une demande moindre, entraînant souvent des premiums très élevés.
 
@@ -2663,17 +2663,17 @@ Les transferts secrets de propriété, tels que les coinswaps et les atomic swap
 
 En effet, lorsque Alice réalise un coinswap ou un atomic swap avec Bob, elle échange la possession de ses bitcoins avec ceux de Bob. Dans le cas de l'atomic swap, l'échange inclut un altcoin, mais le principe reste le même. Ainsi, Alice se retrouve avec la pièce $B$ et Bob avec la pièce $A$. Cela ajoute du doute dans l'analyse de chaîne, mais l'historique des pièces reste traçable. Si un analyste examine la pièce $A$, il peut remonter jusqu'aux activités antérieures d'Alice, et vice versa pour la pièce $B$.
 
-07
+![BTC204](assets/fr/64/07.webp)
 
 Du point de vue d'Alice, le risque est que l'historique de la pièce $B$ puisse être jugé suspect par certaines entités. Si, par exemple, Bob avait acquis la pièce $B$ lors d'un acte criminel comme un piratage, cette pièce resterait liée à ses activités illégales. Alice pourrait alors se retrouver en possession d'une pièce qu'elle ne pourrait pas transférer sur des plateformes d'échange régulées sans risquer de voir ses fonds gelés, voire d'être accusée des crimes de Bob, bien qu'elle n'y soit pour rien.
 
-08
+![BTC204](assets/fr/64/08.webp)
 
 Et forcément, les méthodes de confidentialité comme le coinswap ou l'atomic swap sont plébiscitées par des criminels dont les fonds sont surveillés par les autorités. Ces protocoles leur offrent la possibilité de se défaire de leurs bitcoins sous surveillance en échange de bitcoins parfaitement fongibles. Cela leur permet également de créer une diversion, en orientant les autorités vers d'autres utilisateurs. Il y a donc une double utilité pour ces personnes.
 
 Avec le coinjoin, même si votre pièce est mélangée avec des bitcoins surveillés, l'historique de la pièce est cassé, ce qui procure une forme de déni plausible qui est inexistante dans les protocoles de transferts secrets de propriété comme le coinswap ou l'atomic swap.
 
-09
+![BTC204](assets/notext/64/09.webp)
 
 Si Alice souhaite éviter tout risque, elle doit nécessairement utiliser une méthode pour casser l'historique de la pièce $B$, comme la passer dans des coinjoins par exemple. Cela soulève une question sur l'utilité de combiner le transfert secret de propriété et le coinjoin. Le coinjoin, en brisant l'historique d'une pièce, offre déjà un niveau de confidentialité suffisant pour Alice. Ainsi, mon opinion est que si Alice cherche à protéger sa vie privée, il serait plus judicieux de procéder directement à un coinjoin plutôt que d'engager un coinswap suivi d'un coinjoin.
 

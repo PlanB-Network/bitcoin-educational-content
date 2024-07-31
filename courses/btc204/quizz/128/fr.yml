@@ -1,0 +1,13 @@
+question: Quelle est l'utilité du contrat intelligent dans un échange secret de propriété ?
+
+answer: Dévoiler simultanément et systématiquement les informations permettant aux 2 parties de récupérer les fonds de l'autre.
+
+wrong_answers:
+  - Assurer la confidentialité en chiffrant les informations de propriété pour que seul le destinataire légitime puisse les déchiffrer.
+  - Automatiser le processus de transfert pour minimiser les interactions humaines et réduire les erreurs.
+  - Faciliter la résolution des disputes en retenant les bitcoins des 2 parties en cas de tentative de triche.
+
+explanation: |
+  Pour permettre des échanges entre parties qui ne se font pas confiance, on va utiliser des systèmes de contrats intelligents. Un contrat intelligent est un programme qui s'exécute automatiquement lorsque des conditions prédéfinies sont satisfaites, ce qui, dans notre cas, assure ainsi que l'échange de propriété se réalise de manière automatique sans nécessiter de confiance mutuelle. Le contrat intelligent permet un dévoilement simultané de deux informations sensibles entre les participants. Soit il s'exécute normalement, et chaque partie récupère les fonds de l'autre, soit il échoue, et chacun reste avec ses fonds de base.
+
+reviewed: false

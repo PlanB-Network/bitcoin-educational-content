@@ -1,0 +1,13 @@
+question: Quel est l'inconvénient majeur des coinswaps et des atomic swaps en termes de confidentialité ?
+
+answer: Ils ne cassent pas l'historique des pièces échangées
+
+wrong_answers:
+  - Ils sont très couteux en frais de transactions
+  - Ils requièrent l'échange d'informations personnelles entre les parties
+  - Ils peuvent être sujets à des analyses par les plateformes d'échange
+
+explanation: |
+  Le principal inconvénient de ces méthodes est qu'elles sont très risquées sans l'utilisation d'une technique supplémentaire pour casser l'historique de la pièce.
+
+reviewed: false

@@ -17,7 +17,7 @@ Máy Tính Boltzmann là một công cụ để phân tích giao dịch Bitcoin 
 Công cụ Python này được phát triển bởi các đội ngũ tại Samourai Wallet và OXT, nhưng nó có thể được sử dụng trên bất kỳ giao dịch Bitcoin nào.
 
 ## Làm thế nào để sử dụng Máy Tính Boltzmann?
-Để sử dụng Máy Tính Boltzmann, bạn có hai lựa chọn. Lựa chọn đầu tiên là cài đặt công cụ Python trực tiếp trên máy của bạn. Lựa chọn khác, bạn có thể sử dụng trang web KYCP.org (_Biết Quyền Riêng Tư Đồng Tiền Của Bạn_) với một nền tảng sử dụng đơn giản hơn. Đối với người dùng [RoninDojo](https://planb.network/tutorials/node/ronin-dojo-v2), lưu ý rằng công cụ này đã được tích hợp sẵn vào node của bạn.
+Để sử dụng Máy Tính Boltzmann, bạn có hai lựa chọn. Lựa chọn đầu tiên là cài đặt công cụ Python trực tiếp trên máy của bạn. Lựa chọn khác, bạn có thể sử dụng trang web KYCP.org (_Biết Quyền Riêng Tư Đồng Tiền Của Bạn_) với một nền tảng sử dụng đơn giản hơn. Đối với người dùng RoninDojo, lưu ý rằng công cụ này đã được tích hợp sẵn vào node của bạn.
 
 Sử dụng trang web KYCP khá dễ dàng: chỉ cần nhập mã định danh giao dịch (TXID) bạn muốn phân tích vào thanh tìm kiếm và nhấn `ENTER`.
 ![KYCP](assets/1.webp)

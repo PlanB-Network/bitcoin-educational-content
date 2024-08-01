@@ -17,7 +17,7 @@ Boltzmann-laskin on työkalu Bitcoin-siirron analysointiin mittaamalla sen entro
 Tämän Python-työkalun kehittivät Samourai Walletin ja OXT:n tiimit, mutta sitä voidaan käyttää minkä tahansa Bitcoin-siirron analysointiin.
 
 ## Miten käyttää Boltzmann-laskinta?
-Boltzmann-laskimen käyttämiseen on kaksi vaihtoehtoa. Ensimmäinen on asentaa Python-työkalu suoraan koneellesi. Vaihtoehtoisesti voit käyttää KYCP.org-sivustoa (_Know Your Coin Privacy_), joka tarjoaa yksinkertaistetun käyttöalustan. [RoninDojo](https://planb.network/tutorials/node/ronin-dojo-v2) -käyttäjille huomioikaa, että tämä työkalu on jo integroitu solmuunne.
+Boltzmann-laskimen käyttämiseen on kaksi vaihtoehtoa. Ensimmäinen on asentaa Python-työkalu suoraan koneellesi. Vaihtoehtoisesti voit käyttää KYCP.org-sivustoa (_Know Your Coin Privacy_), joka tarjoaa yksinkertaistetun käyttöalustan. RoninDojo-käyttäjille huomioikaa, että tämä työkalu on jo integroitu solmuunne.
 
 KYCP-sivuston käyttö on melko helppoa: syötä vain analysoitavan siirron tunniste (TXID) hakupalkkiin ja paina `ENTER`.
 ![KYCP](assets/1.webp)

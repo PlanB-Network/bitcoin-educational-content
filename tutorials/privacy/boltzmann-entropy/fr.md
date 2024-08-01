@@ -19,7 +19,7 @@ Cet outil Python a été développé par les équipes de Samourai Wallet et d'OX
 ## Comment utiliser le calculateur Boltzmann ?
 Pour utiliser le calculateur Boltzmann, deux options s'offrent à vous. La première consiste à installer l'outil Python directement sur votre machine. 
 
-Alternativement, vous pouvez opter pour le site KYCP.org (_Know Your Coin Privacy_), qui offre une plateforme d'utilisation simplifiée. Pour les utilisateurs de [RoninDojo](https://planb.network/tutorials/node/ronin-dojo-v2), sachez que cet outil est déjà intégré dans votre nœud.
+Alternativement, vous pouvez opter pour le site KYCP.org (_Know Your Coin Privacy_), qui offre une plateforme d'utilisation simplifiée. Pour les utilisateurs de RoninDojo, sachez que cet outil est déjà intégré dans votre nœud.
 
 L'usage du site KYCP est assez facile : il suffit de saisir l'identifiant de la transaction (TXID) désirée dans la barre de recherche et d'appuyer sur `ENTER`.
 ![KYCP](assets/1.webp)

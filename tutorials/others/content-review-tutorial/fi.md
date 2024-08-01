@@ -32,10 +32,18 @@ Lisäksi, koska Découvre Bitcoin (DB) vastaa panosten arvioinnista ja me (DB) a
 Sinun ei tarvitse olla GitHub-asiantuntija arvioidaksesi sisältöä.
 Vaikka onkin aina parempi ymmärtää mitä teet (ja miksi), voit yksinkertaisesti noudattaa alla olevia ohjeita osallistuaksesi.
 
-Jos et kuitenkaan ole lainkaan tuttu Gitin ja GitHubin toiminnan kanssa ja haluaisit oppia lisää, voit tutustua [johdantoartikkeliimme näistä työkaluista](https://planb.network/tutorials/others/basics-of-github).
+Jos et kuitenkaan ole lainkaan tuttu Gitin ja GitHubin toiminnan kanssa ja haluaisit oppia lisää, voit tutustua johdantoartikkeliimme näistä työkaluista.
+
+https://planb.network/tutorials/others/basics-of-github
+
+
 
 ## 1. Luo tili
-* Luo tili GitHubiin aloittaaksesi osallistumisen. Jos tarvitset ohjeita tilin luomiseen GitHubissa, meillä on myös [yksityiskohtainen opas](https://planb.network/tutorials/others/create-github-account).
+* Luo tili GitHubiin aloittaaksesi osallistumisen. Jos tarvitset ohjeita tilin luomiseen GitHubissa, meillä on myös yksityiskohtainen opas.
+
+https://planb.network/tutorials/others/create-github-account
+
+
 ## **2. Mene kieliprojektisi sivulle**
 * [Projektisivu](https://github.com/DecouvreBitcoin/sovereign-university-data/projects?query=is%3Aopen) sisältää kielelläsi olevaa sisältöä näytettynä Kanban-taululla.
 * Etsi kortteja "Review Needed" -sarakkeesta (katso **A**). Nämä ovat tehtäviä, joita voit arvioida.

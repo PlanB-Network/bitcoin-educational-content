@@ -10,9 +10,17 @@ Wenn Sie zum PlanB-Netzwerk beitragen möchten, müssen Sie GitHub verwenden, um
 - **Direkt über die Web-Oberfläche von GitHub beitragen**: Dies ist die einfachste Methode. Wenn Sie Anfänger sind oder nur wenige kleine Beiträge leisten möchten, ist diese Option wahrscheinlich die beste für Sie;
 - **Lokal mit Git beitragen**: Diese Methode eignet sich besser, wenn Sie regelmäßig oder bedeutende Beiträge zum PlanB-Netzwerk leisten möchten. Obwohl das Einrichten Ihrer lokalen Git-Umgebung auf Ihrem Computer zunächst komplex erscheinen mag, ist dieser Ansatz auf lange Sicht effizienter. Er ermöglicht eine flexiblere Verwaltung von Änderungen. Wenn Sie neu dabei sind, machen Sie sich keine Sorgen, **wir erklären den gesamten Prozess der Einrichtung Ihrer Umgebung in diesem Tutorial** (versprochen, Sie müssen keine Befehlszeilen eingeben ^^).
 
-Wenn Sie keine Ahnung haben, was GitHub ist, oder wenn Sie mehr über die technischen Begriffe im Zusammenhang mit Git und GitHub erfahren möchten, empfehle ich Ihnen, [unseren einführenden Artikel zu lesen, um sich mit diesen Konzepten vertraut zu machen](https://planb.network/tutorials/others/basics-of-github).
+Wenn Sie keine Ahnung haben, was GitHub ist, oder wenn Sie mehr über die technischen Begriffe im Zusammenhang mit Git und GitHub erfahren möchten, empfehle ich Ihnen, unseren einführenden Artikel zu lesen, um sich mit diesen Konzepten vertraut zu machen.
 
-- Zunächst benötigen Sie natürlich ein GitHub-Konto. Wenn Sie bereits eines haben, können Sie sich anmelden, andernfalls können Sie [unser Tutorial nutzen, um ein neues zu erstellen](https://planb.network/tutorials/others/create-github-account).
+https://planb.network/tutorials/others/basics-of-github
+
+
+
+- Zunächst benötigen Sie natürlich ein GitHub-Konto. Wenn Sie bereits eines haben, können Sie sich anmelden, andernfalls können Sie unser Tutorial nutzen, um ein neues zu erstellen.
+
+https://planb.network/tutorials/others/create-github-account
+
+
 
 ## Schritt 1: Installieren Sie GitHub Desktop
 
@@ -87,4 +95,8 @@ Beispielsweise müssen Sie beim Erstellen eines neuen Tutorials eine YAML-Datei 
 
 Hierfür stehen Ihnen mehrere Optionen zur Verfügung. Obwohl das Standard-Notepad Ihres Computers für diese Änderungen verwendet werden kann, ist diese Lösung nicht ideal für saubere Arbeit. Ich empfehle, eine speziell für diesen Zweck entwickelte Software zu wählen, wie [VS Code](https://code.visualstudio.com/download) oder [Sublime Text](https://www.sublimetext.com/download). Sublime Text, besonders leichtgewichtig, wird für unsere Bedürfnisse mehr als ausreichend sein.
 - Installieren Sie eines dieser Programme und halten Sie es für Ihre zukünftigen Änderungen bereit. ![github-desktop](assets/26.webp)
-Herzlichen Glückwunsch! Ihre Arbeitsumgebung ist nun eingerichtet, um zum PlanB-Netzwerk beizutragen. Sie können jetzt [unsere anderen spezifischen Tutorials](https://planb.network/tutorials/others) für jeden Beitragstyp (Übersetzung, Korrekturlesen, Schreiben...) erkunden.
+Herzlichen Glückwunsch! Ihre Arbeitsumgebung ist nun eingerichtet, um zum PlanB-Netzwerk beizutragen. Sie können jetzt unsere anderen spezifischen Tutorials für jeden Beitragstyp (Übersetzung, Korrekturlesen, Schreiben.
+
+https://planb.network/tutorials/others
+
+..) erkunden.

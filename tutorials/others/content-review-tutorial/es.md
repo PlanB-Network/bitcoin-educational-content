@@ -32,10 +32,18 @@ Además, como Découvre Bitcoin (DB) está a cargo de evaluar las contribuciones
 No necesitas ser un experto en GitHub para revisar contenido.
 Aunque siempre es mejor entender lo que estás haciendo (y por qué), simplemente puedes seguir las instrucciones a continuación para contribuir.
 
-Sin embargo, si estás completamente desconocido con cómo funcionan Git y GitHub y te gustaría aprender más, puedes descubrir [nuestro artículo introductorio sobre estas herramientas](https://planb.network/tutorials/others/basics-of-github).
+Sin embargo, si estás completamente desconocido con cómo funcionan Git y GitHub y te gustaría aprender más, puedes descubrir nuestro artículo introductorio sobre estas herramientas.
+
+https://planb.network/tutorials/others/basics-of-github
+
+
 
 ## 1. Crea una cuenta
-* Crea una cuenta en GitHub para empezar a contribuir. Si necesitas orientación sobre cómo crear tu cuenta en GitHub, también tenemos [un tutorial detallado](https://planb.network/tutorials/others/create-github-account).
+* Crea una cuenta en GitHub para empezar a contribuir. Si necesitas orientación sobre cómo crear tu cuenta en GitHub, también tenemos un tutorial detallado.
+
+https://planb.network/tutorials/others/create-github-account
+
+
 ## **2. Ve a la página del proyecto de tu idioma**
 * La [página del proyecto](https://github.com/DecouvreBitcoin/sovereign-university-data/projects?query=is%3Aopen) contiene contenido en tu idioma mostrado en un tablero Kanban.
 * Busca tarjetas en la columna "Review Needed" (ver **A**). Estos son problemas que puedes revisar.

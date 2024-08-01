@@ -10,9 +10,17 @@ If, while consulting one of our educational contents (tutorials, training, resou
 
 This tutorial guides you step by step through the process of correcting these minor errors. It is a tutorial intended for beginners who do not wish to venture into the intricacies of Git. However, if you are comfortable with Git, here is a quick summary: you just need to fork [the PlanB Network data repository](https://github.com/DecouvreBitcoin/sovereign-university-data), make changes on a dedicated branch, and submit a Pull Request against the `dev` branch of the source repository.
 
-Please note that if you plan to perform a complete review and revision of a document, especially for content translations, I invite you to consult [this other more detailed tutorial](https://planb.network/tutorials/others/content-review-tutorial). Here, we focus only on how to make a quick correction for a small error.
+Please note that if you plan to perform a complete review and revision of a document, especially for content translations, I invite you to consult this other more detailed tutorial.
 
-- First, you need to have an account on GitHub. If you do not know how to create an account, we have made [a detailed tutorial to guide you](https://planb.network/tutorials/others/create-github-account).
+https://planb.network/tutorials/others/content-review-tutorial
+
+ Here, we focus only on how to make a quick correction for a small error.
+
+- First, you need to have an account on GitHub. If you do not know how to create an account, we have made a detailed tutorial to guide you.
+
+https://planb.network/tutorials/others/create-github-account
+
+
 - Go to [the GitHub repository of PlanB dedicated to data](https://github.com/DecouvreBitcoin/sovereign-university-data):
 ![typos](assets/01.webp)
 - Here, you will find all our content organized by part.
@@ -38,4 +46,7 @@ Please note that if you plan to perform a complete review and revision of a docu
 - You can add a title and a short description for your PR: ![typos](assets/18.webp)
 - If everything looks good to you, you can click on the green `Create Pull Request` button: ![typos](assets/19.webp)
 - Congratulations, your PR has been sent! You can follow its progress in the `Pull requests` tab on [the PlanB Network GitHub repository](https://github.com/DecouvreBitcoin/sovereign-university-data/pulls) :![typos](assets/20.webp)
-Thank you very much for your contribution! If you would like to make other types of contributions to PlanB Network such as content writing or translation, feel free to [check out our other tutorials in the "Contribution" section](https://planb.network/tutorials/others).
+Thank you very much for your contribution! If you would like to make other types of contributions to PlanB Network such as content writing or translation, feel free to check out our other tutorials in the "Contribution" section.
+
+https://planb.network/tutorials/others
+

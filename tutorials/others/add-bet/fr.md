@@ -12,7 +12,11 @@ Vous souhaitez participer à l'enrichissement de cette base de données, mais vo
 
 *Il est impératif que tous les contenus intégrés au site soient libres de droit ou respectent la licence du fichier source. Aussi, l'intégralité des visuels publiés sur PlanB Network sont mis à disposition sous licence [CC-BY-SA](https://creativecommons.org/licenses/by-sa/4.0/).*
 ![event](assets/01.webp)
-- Tout d'abord, il vous faut avoir un compte sur GitHub. Si vous ne savez pas comment créer un compte, nous avons fait [un tutoriel détaillé pour vous accompagner](https://planb.network/tutorials/others/create-github-account).
+- Tout d'abord, il vous faut avoir un compte sur GitHub. Si vous ne savez pas comment créer un compte, nous avons fait un tutoriel détaillé pour vous accompagner.
+
+https://planb.network/tutorials/others/create-github-account
+
+
 - Rendez-vous sur [le dépôt GitHub de PlanB dédié à la data](https://github.com/DecouvreBitcoin/sovereign-university-data/tree/dev/resources/bet) dans la section `resources/bet/` :
 ![event](assets/02.webp)
 - Cliquez en haut à droite sur le bouton `Add file`, puis sur `Create new file` :
@@ -45,7 +49,11 @@ contributors:
 
 Voici les informations à remplir pour chaque champ :
 
-- **`builder`** : Indiquez votre identifiant d'organisation sur PlanB Network. Si vous n'avez pas encore d'identifiant "builder" pour votre entreprise, vous pouvez en créer un [en suivant ce tutoriel](https://planb.network/tutorials/others/add-builder). Si vous n'en possédez pas, vous pouvez simplement utiliser votre nom, votre pseudonyme, ou le nom de votre entreprise sans avoir créé de profil builder.
+- **`builder`** : Indiquez votre identifiant d'organisation sur PlanB Network. Si vous n'avez pas encore d'identifiant "builder" pour votre entreprise, vous pouvez en créer un en suivant ce tutoriel.
+
+https://planb.network/tutorials/others/add-builder
+
+ Si vous n'en possédez pas, vous pouvez simplement utiliser votre nom, votre pseudonyme, ou le nom de votre entreprise sans avoir créé de profil builder.
 
 - **`type`** : Sélectionnez la nature de votre contenu parmi les deux options suivantes :
 	- `Educational Content` pour les contenus éducatifs.

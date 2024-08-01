@@ -8,7 +8,11 @@ Sứ mệnh của PlanB là cung cấp nguồn tài nguyên giáo dục hàng đ
 
 Bạn muốn thêm một "người xây dựng" Bitcoin mới vào trang web Mạng lưới PlanB và tăng cường tính nhìn thấy cho công ty hoặc phần mềm của bạn, nhưng không biết làm thế nào? Hướng dẫn này dành cho bạn!
 ![builder](assets/01.webp)
-- Đầu tiên, bạn cần phải có một tài khoản GitHub. Nếu bạn không biết cách tạo tài khoản, chúng tôi đã tạo [một hướng dẫn chi tiết để hướng dẫn bạn](https://planb.network/tutorials/others/create-github-account).
+- Đầu tiên, bạn cần phải có một tài khoản GitHub. Nếu bạn không biết cách tạo tài khoản, chúng tôi đã tạo một hướng dẫn chi tiết để hướng dẫn bạn.
+
+https://planb.network/tutorials/others/create-github-account
+
+
 - Truy cập vào [kho lưu trữ GitHub của PlanB dành riêng cho dữ liệu](https://github.com/DecouvreBitcoin/sovereign-university-data/tree/dev/resources/builders) trong phần `resources/builder/`:
 ![builder](assets/02.webp)
 - Nhấp vào nút `Add file` ở góc trên bên phải, sau đó chọn `Create new file`:

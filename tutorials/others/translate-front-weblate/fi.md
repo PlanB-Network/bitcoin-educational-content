@@ -14,7 +14,11 @@ Opetussisällön kääntämiseen käytämme [lähestymistapaa, joka yhdistää i
 
 Jos kuitenkin olet kiinnostunut kääntämään muita sivuston osioita, lukuun ottamatta opetussisältöä, olet oikeassa paikassa! Frontendin tehokkaaseen kääntämiseen käytämme Weblate-työkalua, joka helpottaa yhteistyötä ja järjestää käännöksiä. Se on erittäin helppo työkalu aloittaa. Käydään askel askeleelta läpi, miten Weblatea käytetään.
 
-Jos haluat lisätä PlanB Networkiin täysin uuden kielen, jota ei vielä ole saatavilla Weblatessa, sinun on ensin lähetettävä lisäyspyyntö. Tätä varten [seuraa tätä erityisopasta](https://planb.network/tutorials/others/add-new-language-weblate).
+Jos haluat lisätä PlanB Networkiin täysin uuden kielen, jota ei vielä ole saatavilla Weblatessa, sinun on ensin lähetettävä lisäyspyyntö. Tätä varten seuraa tätä erityisopasta.
+
+https://planb.network/tutorials/others/add-new-language-weblate
+
+
 
 ## Rekisteröidy Weblateen
 

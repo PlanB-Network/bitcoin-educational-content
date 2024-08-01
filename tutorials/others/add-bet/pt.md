@@ -12,7 +12,11 @@ Você quer participar do enriquecimento desta base de dados, mas não sabe como?
 
 *É imperativo que todo o conteúdo integrado ao site seja livre de direitos ou respeite a licença do arquivo fonte. Além disso, todos os visuais publicados na Rede PlanB estão disponíveis sob a licença [CC-BY-SA](https://creativecommons.org/licenses/by-sa/4.0/).*
 ![event](assets/01.webp)
-- Primeiro, você precisa ter uma conta no GitHub. Se você não sabe como criar uma conta, fizemos [um tutorial detalhado para guiá-lo](https://planb.network/tutorials/others/create-github-account).
+- Primeiro, você precisa ter uma conta no GitHub. Se você não sabe como criar uma conta, fizemos um tutorial detalhado para guiá-lo.
+
+https://planb.network/tutorials/others/create-github-account
+
+
 - Vá para [o repositório GitHub da PlanB dedicado a dados](https://github.com/DecouvreBitcoin/sovereign-university-data/tree/dev/resources/bet) na seção `resources/bet/`:
 ![event](assets/02.webp)
 - Clique no topo direito no botão `Add file`, depois em `Create new file`:
@@ -42,7 +46,11 @@ contributors:
   - 
 ```
 ```yaml
-builder: Indique o identificador da sua organização na Rede PlanB. Se você ainda não possui um identificador "builder" para sua empresa, você pode criar um [seguindo este tutorial](https://planb.network/tutorials/others/add-builder). Se você não possui um, pode simplesmente usar seu nome, seu pseudônimo ou o nome da sua empresa sem ter criado um perfil de construtor.
+builder: Indique o identificador da sua organização na Rede PlanB. Se você ainda não possui um identificador "builder" para sua empresa, você pode criar um seguindo este tutorial.
+
+https://planb.network/tutorials/others/add-builder
+
+ Se você não possui um, pode simplesmente usar seu nome, seu pseudônimo ou o nome da sua empresa sem ter criado um perfil de construtor.
 type: Selecione a natureza do seu conteúdo entre as seguintes duas opções:
   - `Educational Content` para conteúdos educacionais.
   - `Visual Content` para outros tipos de conteúdos diversos.

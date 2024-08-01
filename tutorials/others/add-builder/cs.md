@@ -8,7 +8,11 @@ Mise PlanB je poskytovat špičkové vzdělávací zdroje o Bitcoinu v co nejví
 
 Chcete-li přidat nového Bitcoin "tvůrce" na web síti PlanB Network a zvýšit viditelnost vaší společnosti nebo softwaru, ale nevíte jak? Tento tutoriál je pro vás!
 ![builder](assets/01.webp)
-- Nejprve potřebujete mít účet na GitHubu. Pokud nevíte, jak vytvořit účet, připravili jsme [podrobný tutoriál, který vás provede](https://planb.network/tutorials/others/create-github-account).
+- Nejprve potřebujete mít účet na GitHubu. Pokud nevíte, jak vytvořit účet, připravili jsme podrobný tutoriál, který vás provede.
+
+https://planb.network/tutorials/others/create-github-account
+
+
 - Přejděte na [GitHub repozitář PlanB věnovaný datům](https://github.com/DecouvreBitcoin/sovereign-university-data/tree/dev/resources/builders) v sekci `resources/builder/`:
 ![builder](assets/02.webp)
 - Klikněte vpravo nahoře na tlačítko `Add file` a poté na `Create new file`:

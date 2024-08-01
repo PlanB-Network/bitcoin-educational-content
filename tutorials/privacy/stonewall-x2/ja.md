@@ -76,7 +76,7 @@ Samourai Walletを使用している場合は、アプリケーションを起�
 ![follow paynym](assets/en/11.webp)
 「YES」をクリックして確認します。
 ![confirm follow paynym](assets/en/12.webp)
-その後、ソフトウェアは「CONNECT」ボタンを提供します。このチュートリアルでは、このボタンをクリックする必要はありません。このステップは、[BIP47](https://planb.network/tutorials/privacy/paynym-bip47)の一環として他のPayNymに支払いを行う予定がある場合にのみ必要ですが、このチュートリアルとは関係ありません。
+その後、ソフトウェアは「CONNECT」ボタンを提供します。このチュートリアルでは、このボタンをクリックする必要はありません。このステップは、BIP47の一環として他のPayNymに支払いを行う予定がある場合にのみ必要ですが、このチュートリアルとは関係ありません。
 ![connect paynym](assets/en/13.webp)
 あなたのPayNymが協力者のPayNymをフォローしたら、逆のプロセスを繰り返して協力者もあなたをフォローできるようにします。その後、Stonewall x2トランザクションを実行できます。
 
@@ -86,7 +86,7 @@ Sparrow Walletを使用している場合は、ウォレットを開き、「Sho
 ![request paynym sparrow](assets/en/14.webp)
 次に、「Find Contact」ボックスに協力者のPayNym識別子（ニックネーム「+...」または支払いコード「PM...」のいずれか）を入力し、「Add Contact」ボタンをクリックします。
 ![add contact paynym](assets/en/15.webp)
-ソフトウェアは「Link Contact」ボタンを提供しますが、このチュートリアルではこのボタンをクリックする必要はありません。このステップは、[BIP47](https://planb.network/tutorials/privacy/paynym-bip47)の一環として指定されたPayNymに支払いを行う予定がある場合にのみ必要ですが、これは私たちのチュートリアルとは関係ありません。
+ソフトウェアは「Link Contact」ボタンを提供しますが、このチュートリアルではこのボタンをクリックする必要はありません。このステップは、BIP47の一環として指定されたPayNymに支払いを行う予定がある場合にのみ必要ですが、これは私たちのチュートリアルとは関係ありません。
 あなたのPayNymが協力者のPayNymをフォローしたら、逆のプロセスを繰り返して協力者もあなたをフォローできるようにします。その後、Stonewall x2トランザクションを実行できます。
 
 ## Samourai WalletでStonewall x2トランザクションを行う方法は？

@@ -86,7 +86,7 @@ Klikněte na tlačítko 'FOLLOW'.
 ![follow paynym](assets/notext/11.webp)
 Potvrďte kliknutím na 'YES'.
 ![confirm follow paynym](assets/notext/12.webp)
-Software vám poté nabídne tlačítko 'CONNECT'. Pro náš tutoriál není nutné na toto tlačítko klikat. Tento krok je vyžadován pouze pokud plánujete provádět platby na jiný PayNym jako součást [BIP47](https://planb.network/tutorials/privacy/paynym-bip47), což není součástí našeho tutoriálu.
+Software vám poté nabídne tlačítko 'CONNECT'. Pro náš tutoriál není nutné na toto tlačítko klikat. Tento krok je vyžadován pouze pokud plánujete provádět platby na jiný PayNym jako součást BIP47, což není součástí našeho tutoriálu.
 ![connect paynym](assets/notext/13.webp)
 Jakmile váš PayNym sleduje PayNym vašeho spolupracovníka, opakujte tento proces v opačném směru, aby vás mohl sledovat i váš spolupracovník. Poté můžete provést transakci Stonewall x2.
 
@@ -96,7 +96,7 @@ Pokud používáte Sparrow Wallet, otevřete svou peněženku a přistupte k men
 ![request paynym sparrow](assets/notext/14.webp)
 Poté zadejte identifikátor PayNym vašeho spolupracovníka (buď jejich přezdívku '+...' nebo jejich platební kód 'PM...') do pole 'Find Contact' a klikněte na tlačítko 'Add Contact'.
 ![add contact paynym](assets/notext/15.webp)
-Software vám poté nabídne tlačítko 'Link Contact'. Pro náš tutoriál není nutné na toto tlačítko klikat. Tento krok je vyžadován pouze pokud plánujete provádět platby na uvedený PayNym jako součást [BIP47](https://planb.network/tutorials/privacy/paynym-bip47), což není součástí našeho tutoriálu.
+Software vám poté nabídne tlačítko 'Link Contact'. Pro náš tutoriál není nutné na toto tlačítko klikat. Tento krok je vyžadován pouze pokud plánujete provádět platby na uvedený PayNym jako součást BIP47, což není součástí našeho tutoriálu.
 
 Jakmile váš PayNym sleduje PayNym vašeho spolupracovníka, opakujte tento proces v opačném směru, aby vás mohl sledovat i váš spolupracovník. Poté můžete provést transakci Stonewall x2.
 ## Jak provést transakci Stonewall x2 na Samourai Wallet?

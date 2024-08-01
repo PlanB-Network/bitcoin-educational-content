@@ -24,9 +24,9 @@ Pojďme společně objevit, jak přidat nového profesora v tomto tutoriálu!
 - Mít fork [zdrojového repozitáře sítě PlanB](https://github.com/PlanB-Network/bitcoin-educational-content).
 
 **Pokud potřebujete pomoc s získáním těchto předpokladů, mé další tutoriály vás provedou:**
-- **[Porozumění Gitu a GitHubu](https://planb.network/tutorials/others/basics-of-github)**
-- **[Vytvoření účtu na GitHubu](https://planb.network/tutorials/others/create-github-account)**
-- **[Nastavení pracovního prostředí](https://planb.network/tutorials/others/github-desktop-work-environment)**
+**[Porozumění Gitu a GitHubu](https://planb.network/tutorials/others/basics-of-github)**
+**[Vytvoření účtu na GitHubu](https://planb.network/tutorials/others/create-github-account)**
+**[Nastavení pracovního prostředí](https://planb.network/tutorials/others/github-desktop-work-environment)**
 
 ## Jak vytvořit nový profesorský profil?
 

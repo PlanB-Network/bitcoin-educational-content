@@ -8,12 +8,20 @@ La mission de PlanB est de mettre à disposition des ressources éducatives de p
 
 Si, en consultant l'un de nos contenus éducatifs (tutoriels, formations, ressources...), vous identifiez une erreur, qu'il s'agisse d'une faute d'orthographe, de grammaire, d'une légère erreur de traduction dans votre langue natale, ou même d'une coquille, nous vous serions très reconnaissants de proposer vous-même une correction rapide.
 
-Ce tutoriel vous guide étape par étape dans la correction de ces petites erreurs. C'est un tutoriel destiné aux débutants qui ne souhaitent pas s'aventurer dans les méandres de Git. Cependant, si vous êtes à l'aise avec Git, voici un résumé rapide : il vous suffit de fork [le dépôt data de PlanB Network](https://github.com/PlanB-Network/bitcoin-educational-content), d'apporter les modifications sur une branche dédiée, et de soumettre une Pull Request face à la branche `dev` du dépôt source.
+Ce tutoriel vous guide étape par étape dans la correction de ces petites erreurs. C'est un tutoriel destiné aux débutants qui ne souhaitent pas s'aventurer dans les méandres de Git. Cependant, si vous êtes à l'aise avec Git, voici un résumé rapide : il vous suffit de fork [le dépôt data de PlanB Network](https://github.com/DecouvreBitcoin/sovereign-university-data), d'apporter les modifications sur une branche dédiée, et de soumettre une Pull Request face à la branche `dev` du dépôt source.
 
-Veuillez noter que si vous envisagez de réaliser une relecture et une révision complètes d'un document, en particulier pour des traductions de contenus, je vous invite à consulter [cet autre tutoriel plus détaillé](https://planb.network/tutorials/others/content-review-tutorial). Ici, nous nous concentrons uniquement sur la manière d'effectuer une correction rapide pour une petite erreur.
+Veuillez noter que si vous envisagez de réaliser une relecture et une révision complètes d'un document, en particulier pour des traductions de contenus, je vous invite à consulter cet autre tutoriel plus détaillé.
 
-- Tout d'abord, il vous faut avoir un compte sur GitHub. Si vous ne savez pas comment créer un compte, nous avons fait [un tutoriel détaillé pour vous accompagner](https://planb.network/tutorials/others/create-github-account).
-- Rendez-vous sur [le dépôt GitHub de PlanB dédié à la data](https://github.com/PlanB-Network/bitcoin-educational-content) :
+https://planb.network/tutorials/others/content-review-tutorial
+
+ Ici, nous nous concentrons uniquement sur la manière d'effectuer une correction rapide pour une petite erreur.
+
+- Tout d'abord, il vous faut avoir un compte sur GitHub. Si vous ne savez pas comment créer un compte, nous avons fait un tutoriel détaillé pour vous accompagner.
+
+https://planb.network/tutorials/others/create-github-account
+
+
+- Rendez-vous sur [le dépôt GitHub de PlanB dédié à la data](https://github.com/DecouvreBitcoin/sovereign-university-data) :
 ![typos](assets/01.webp)
 - Ici, vous trouverez tous nos contenus rangés par partie.
 - Si vous souhaitez modifier un tutoriel, par exemple, rendez-vous dans le dossier `tutorials` :
@@ -52,6 +60,9 @@ Veuillez noter que si vous envisagez de réaliser une relecture et une révision
 ![typos](assets/18.webp)
 - Si tout vous semble bon, vous pouvez cliquer sur le bouton vert `Create Pull Request` :
 ![typos](assets/19.webp)
-- Félicitations, votre PR a été envoyée ! Vous pouvez suivre son avancement dans l'onglet `Pull requests` sur [le dépôt GitHub de PlanB Network](https://github.com/PlanB-Network/bitcoin-educational-content/pulls) :
+- Félicitations, votre PR a été envoyée ! Vous pouvez suivre son avancement dans l'onglet `Pull requests` sur [le dépôt GitHub de PlanB Network](https://github.com/DecouvreBitcoin/sovereign-university-data/pulls) :
 ![typos](assets/20.webp)
-Merci beaucoup pour votre contribution ! Si vous souhaitez faire d'autres types de contributions pour PlanB Network comme de la rédaction de contenus ou de la traduction, n'hésitez pas à [aller consulter nos autres tutoriels dans la partie "Contribution"](https://planb.network/tutorials/others).
+Merci beaucoup pour votre contribution ! Si vous souhaitez faire d'autres types de contributions pour PlanB Network comme de la rédaction de contenus ou de la traduction, n'hésitez pas à aller consulter nos autres tutoriels dans la partie "Contribution".
+
+https://planb.network/tutorials/others
+

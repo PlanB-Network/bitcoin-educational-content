@@ -8,8 +8,12 @@ PlanB:n tehtävänä on tarjota huipputason koulutusresursseja Bitcoinista mahdo
 
 Jos haluat lisätä Bitcoin-konferenssin PlanB-verkon sivustolle ja lisätä näkyvyyttä tapahtumallesi, mutta et tiedä miten? Tämä opas on sinua varten!
 ![event](assets/01.webp)
-- Ensimmäiseksi sinun on oltava GitHub-tili. Jos et tiedä, miten tili luodaan, olemme tehneet [yksityiskohtaisen oppaan, joka opastaa sinua](https://planb.network/tutorials/others/create-github-account).
-- Mene [PlanB:n GitHub-repositorioon, joka on omistettu datalle](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/conference) osiossa `resources/conference/`:
+- Ensimmäiseksi sinun on oltava GitHub-tili. Jos et tiedä, miten tili luodaan, olemme tehneet yksityiskohtaisen oppaan, joka opastaa sinua.
+
+https://planb.network/tutorials/others/create-github-account
+
+
+- Mene [PlanB:n GitHub-repositorioon, joka on omistettu datalle](https://github.com/DecouvreBitcoin/sovereign-university-data/tree/dev/resources/conference) osiossa `resources/conference/`:
 ![event](assets/02.webp)
 - Klikkaa oikeassa yläkulmassa `Add file` -painiketta, sitten `Create new file`:
 ![event](assets/03.webp)
@@ -77,7 +81,11 @@ description: Ranskan suurin Bitcoin-konferenssi, jossa on yli 8 000 osallistujaa
     - Kansainvälinen
 ```
 ![tapahtuma](assets/09.webp)
-Jos organisaatiollasi ei vielä ole "*builder*" tunnistetta, voit lisätä sen [seuraamalla tätä toista opasta](https://planb.network/tutorials/others/add-builder).
+Jos organisaatiollasi ei vielä ole "*builder*" tunnistetta, voit lisätä sen seuraamalla tätä toista opasta.
+
+https://planb.network/tutorials/others/add-builder
+
+
 
 - Kun olet valmis tekemään muutoksia tähän tiedostoon, tallenna ne napsauttamalla `Commit changes...` -painiketta:
 ![tapahtuma](assets/10.webp)

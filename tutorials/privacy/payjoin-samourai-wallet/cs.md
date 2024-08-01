@@ -27,7 +27,9 @@ Stowaway se opírá o kategorii transakcí, které Samourai označuje jako "Caho
 Transakce Cahoots zahrnují výměny částečně podepsaných transakcí mezi uživateli. Tento proces může být dlouhý a zdlouhavý, zejména když se provádí na dálku. Přesto lze stále ručně provést s dalším uživatelem, což může být pohodlné, pokud jsou spolupracovníci fyzicky blízko. V praxi to zahrnuje ruční výměnu pěti QR kódů, které se postupně skenují.
 
 Když se tento proces provádí na dálku, stává se příliš složitým. Aby se tento problém vyřešil, Samourai vyvinul šifrovaný komunikační protokol založený na Toru, nazvaný "Soroban." S Sorobanem jsou výměny potřebné pro Payjoin automatizovány za uživatelsky přívětivým rozhraním. To je druhá metoda, kterou v tomto článku prozkoumáme.
-Tyto šifrované výměny vyžadují navázání spojení a ověření mezi účastníky Cahoots. Komunikace Soroban je proto založena na Paynyme uživatelů. Pokud nejste obeznámeni s Paynymy, doporučuji vám pro více detailů navštívit tento článek: [BIP47 - PAYNYM](https://planb.network/tutorials/privacy/paynym-bip47). Jednoduše řečeno, Paynym je unikátní identifikátor spojený s vaší peněženkou, který umožňuje různé funkce, včetně šifrovaného zasílání zpráv. Paynym je prezentován ve formě identifikátoru a ilustrace reprezentující robota. Zde je příklad mého na Testnetu: ![paynym samourai wallet](assets/en/1.webp)
+Tyto šifrované výměny vyžadují navázání spojení a ověření mezi účastníky Cahoots. Komunikace Soroban je proto založena na Paynyme uživatelů. Pokud nejste obeznámeni s Paynymy, doporučuji vám pro více detailů navštívit tento článek: [BIP47 - PAYNYM](https://planb.network/tutorials/privacy/paynym-bip47)
+
+ Jednoduše řečeno, Paynym je unikátní identifikátor spojený s vaší peněženkou, který umožňuje různé funkce, včetně šifrovaného zasílání zpráv. Paynym je prezentován ve formě identifikátoru a ilustrace reprezentující robota. Zde je příklad mého na Testnetu: ![paynym samourai wallet](assets/en/1.webp)
 
 **Shrnutí:**
 - _Payjoin_ = Specifická struktura kolaborativních transakcí;
@@ -62,7 +64,7 @@ Poté můžete vložit platební kód svého spolupracovníka vybráním `VLOŽI
 Klikněte na tlačítko `SLEDOVAT`.
 ![follow paynym](assets/notext/6.webp)Potvrďte kliknutím na `ANO`.
 ![confirm follow paynym](assets/notext/7.webp)
-Software vám poté nabídne tlačítko `SE CONNECTER`. Pro účely našeho návodu není nutné na toto tlačítko klikat. Tento krok je vyžadován pouze v případě, že plánujete provádět platby na jiný Paynym jako součást [BIP47](https://planb.network/tutorials/privacy/paynym-bip47), což není součástí našeho návodu.
+Software vám poté nabídne tlačítko `SE CONNECTER`. Pro účely našeho návodu není nutné na toto tlačítko klikat. Tento krok je vyžadován pouze v případě, že plánujete provádět platby na jiný Paynym jako součást BIP47, což není součástí našeho návodu.
 ![connect paynym](assets/notext/8.webp)
 Jakmile váš Paynym sleduje Paynym příjemce, opakujte tuto operaci v opačném směru, aby vás také příjemce sledoval. Poté můžete provést Payjoin.
 

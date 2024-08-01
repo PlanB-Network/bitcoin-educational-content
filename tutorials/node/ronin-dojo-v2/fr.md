@@ -14,7 +14,11 @@ _Ce tutoriel est fourni à des fins éducatives et informatives uniquement. Nous
 
 > "*Use Bitcoin with privacy.*"
 
-Dans [un précédent tutoriel](https://planb.network/tutorials/node/ronin-dojo), nous avions déjà expliqué la procédure d'installation et d'utilisation de RoninDojo v1. Cependant, au cours de l'année dernière, les équipes de RoninDojo ont lancé la version 2 de leur implémentation, qui a marqué un tournant significatif dans l'architecture du logiciel. En effet, ils ont délaissé la distribution Linux Manjaro au profit de Debian. Par conséquence, ils ne proposent plus d'image préconfigurée pour une installation automatique sur Raspberry Pi. Mais il existe tout de même une méthode pour procéder à une installation manuelle. C'est ce que j'ai utilisé pour mon propre nœud, et depuis, RoninDojo v2 fonctionne à merveille sur mon Raspberry Pi 4. Je vous propose donc un nouveau tutoriel pour savoir comment installer manuellement RoninDojo v2 sur un Raspeberry Pi.
+Dans un précédent tutoriel, nous avions déjà expliqué la procédure d'installation et d'utilisation de RoninDojo v1. Cependant, au cours de l'année dernière, les équipes de RoninDojo ont lancé la version 2 de leur implémentation, qui a marqué un tournant significatif dans l'architecture du logiciel. En effet, ils ont délaissé la distribution Linux Manjaro au profit de Debian. Par conséquence, ils ne proposent plus d'image préconfigurée pour une installation automatique sur Raspberry Pi. Mais il existe tout de même une méthode pour procéder à une installation manuelle. C'est ce que j'ai utilisé pour mon propre nœud, et depuis, RoninDojo v2 fonctionne à merveille sur mon Raspberry Pi 4. Je vous propose donc un nouveau tutoriel pour savoir comment installer manuellement RoninDojo v2 sur un Raspeberry Pi.
+
+https://planb.network/tutorials/node/ronin-dojo
+
+
 
 ## Sommaire :
 - Qu'est-ce que RoninDojo ?
@@ -345,12 +349,20 @@ Effectuer un coinjoin via Whirlpool requiert que l'application utilisée soit ac
 
 Un tutoriel détaillé est en préparation pour vous guider pas à pas dans le processus de coinjoin avec Samourai Wallet et RoninDojo v2, de A à Z.
 
-Pour une compréhension approfondie du coinjoin et de son utilisation sur Bitcoin, je vous invite également à consulter cet autre article : [Comprendre et utiliser le coinjoin sur Bitcoin](https://planb.network/tutorials/privacy/coinjoin-dojo), où je détaille tout ce qu'il faut savoir sur cette technique.
+Pour une compréhension approfondie du coinjoin et de son utilisation sur Bitcoin, je vous invite également à consulter cet autre article : Comprendre et utiliser le coinjoin sur Bitcoin, où je détaille tout ce qu'il faut savoir sur cette technique.
+
+https://planb.network/tutorials/privacy/coinjoin-dojo
+
+
 
 ### Utiliser Whirlpool Stat Tool (WST)
 Après avoir réalisé des coinjoins avec Whirlpool, il est utile d'évaluer précisément le degré de confidentialité obtenu pour vos UTXO mixés. Pour ce faire, vous pouvez utiliser l'outil Python *Whirlpool Stat Tool*. Cet outil vous donne la possibilité de mesurer à la fois le score prospectif et le score rétrospectif de vos UTXO, tout en analysant leur taux diffusion dans la pool. 
 
-Pour approfondir votre compréhension des mécanismes de calcul de ces anonsets, je vous recommande la lecture de l'article : [REMIX - WHIRLPOOL](https://planb.network/tutorials/privacy/remix-whirlpool), qui détaille le fonctionnement de ces indices.
+Pour approfondir votre compréhension des mécanismes de calcul de ces anonsets, je vous recommande la lecture de l'article : REMIX - WHIRLPOOL, qui détaille le fonctionnement de ces indices.
+
+https://planb.network/tutorials/privacy/remix-whirlpool
+
+
 
 Pour accéder à l'outil WST, rendez-vous sur RoninCLI. Pour ce faire, ouvrez un terminal sur votre ordinateur personnel et établissez une connexion SSH avec votre nœud en utilisant la commande suivante :
 `SSH ronindojo@[IP]`

@@ -8,8 +8,12 @@ La misión de PlanB es proporcionar recursos educativos de primer nivel sobre Bi
 
 Si quieres agregar una conferencia sobre Bitcoin al sitio de la Red PlanB y aumentar la visibilidad de tu evento, ¿pero no sabes cómo? ¡Este tutorial es para ti!
 ![evento](assets/01.webp)
-- Primero, necesitas tener una cuenta en GitHub. Si no sabes cómo crear una cuenta, hemos hecho [un tutorial detallado para guiarte](https://planb.network/tutorials/others/create-github-account).
-- Ve a [el repositorio de GitHub de PlanB dedicado a datos](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/conference) en la sección `resources/conference/`:
+- Primero, necesitas tener una cuenta en GitHub. Si no sabes cómo crear una cuenta, hemos hecho un tutorial detallado para guiarte.
+
+https://planb.network/tutorials/others/create-github-account
+
+
+- Ve a [el repositorio de GitHub de PlanB dedicado a datos](https://github.com/DecouvreBitcoin/sovereign-university-data/tree/dev/resources/conference) en la sección `resources/conference/`:
 ![evento](assets/02.webp)
 - Haz clic en la parte superior derecha en el botón `Add file`, luego en `Create new file`:
 ![evento](assets/03.webp)
@@ -77,7 +81,11 @@ Por ejemplo, tu archivo YAML podría lucir así:
     - Internacional
 ```
 ![evento](assets/09.webp)
-Si todavía no tienes un identificador de "*constructor*" para tu organización, puedes añadirlo [siguiendo este otro tutorial](https://planb.network/tutorials/others/add-builder).
+Si todavía no tienes un identificador de "*constructor*" para tu organización, puedes añadirlo siguiendo este otro tutorial.
+
+https://planb.network/tutorials/others/add-builder
+
+
 
 - Una vez que hayas terminado de hacer cambios en este archivo, guárdalos haciendo clic en el botón `Commit changes...`:
 ![evento](assets/10.webp)

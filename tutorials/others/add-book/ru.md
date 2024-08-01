@@ -8,7 +8,11 @@ description: Как добавить новую книгу в сеть PlanB?
 
 **Хотите добавить книгу, связанную с Биткоином, на сайт сети PlanB и увеличить видимость вашей работы, но не знаете как? Этот учебник для вас!**
 ![book](assets/01.webp)
-- Во-первых, у вас должен быть аккаунт на GitHub. Если вы не знаете, как создать аккаунт, мы подготовили [подробный учебник, который поможет вам](https://planb.network/tutorials/others/create-github-account).
+- Во-первых, у вас должен быть аккаунт на GitHub. Если вы не знаете, как создать аккаунт, мы подготовили подробный учебник, который поможет вам.
+
+https://planb.network/tutorials/others/create-github-account
+
+
 - Перейдите в [репозиторий GitHub PlanB, посвященный данным](https://github.com/DecouvreBitcoin/sovereign-university-data/tree/dev/resources/books) в раздел `resources/books/`:
 ![book](assets/02.webp)
 - Нажмите в верхнем правом углу на кнопку `Add file`, затем на `Create new file`:

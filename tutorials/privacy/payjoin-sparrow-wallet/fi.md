@@ -26,7 +26,7 @@ Cahoots-siirrot sisältävät osittain allekirjoitettujen siirtojen vaihtamisen 
 
 Etänä tehtynä tämä prosessi muuttuu liian monimutkaiseksi. Tämän ongelman ratkaisemiseksi Samourai on kehittänyt salatun viestintäprotokollan, joka perustuu Toriin, nimeltään "Soroban". Sorobanin avulla Payjoinin tarvittavat vaihdot automatisoidaan käyttäjäystävällisen käyttöliittymän taakse. Tämä on toinen menetelmä, jota tarkastelemme tässä artikkelissa.
 
-Nämä salatut vaihdot vaativat yhteyden ja autentikoinnin perustamisen Cahoots-osallistujien välille. Soroban-viestintä perustuu käyttäjien Paynymsiin. Jos et ole tuttu Paynymsien kanssa, suosittelen tutustumaan tähän artikkeliin saadaksesi lisätietoja: [BIP47 - PAYNYM](https://planb.network/tutorials/privacy/paynym-bip47).
+Nämä salatut vaihdot vaativat yhteyden ja autentikoinnin perustamisen Cahoots-osallistujien välille. Soroban-viestintä perustuu käyttäjien Paynymsiin. Jos et ole tuttu Paynymsien kanssa, suosittelen tutustumaan tähän artikkeliin saadaksesi lisätietoja: [BIP47 - PAYNYM](https://planb.network/tutorials/privacy/paynym-bip47)
 Yksinkertaisesti sanottuna Paynym on uniikki tunniste, joka on linkitetty lompakkoosi ja mahdollistaa erilaisia toimintoja, mukaan lukien salatun viestinnän. Paynym esitetään tunnisteen ja robotin kuvaa esittävän kuvituksen muodossa. Tässä on esimerkki omastani Testnetissä: ![Paynym Sparrow](assets/en/1.webp)
 **Yhteenvetona:**
 - *Payjoin* = Erityinen yhteistyöllisen siirron rakenne;
@@ -50,7 +50,7 @@ Omalta osaltasi, avaa Sparrow-lompakkosi ja pääse samaan `Show PayNym`-valikko
 ![Retrieve paynym](assets/notext/3.webp)
 Seuraavaksi, syötä yhteistyökumppanisi Paynym-tunniste (joko heidän lempinimensä `+...` tai heidän maksukoodinsa `PM...`) `Find Contact`-laatikkoon, ja sitten klikkaa `Add Contact`-painiketta.
 ![add contact](assets/notext/4.webp)
-Ohjelmisto tarjoaa sinulle sitten `Link Contact`-painiketta. Tämän painikkeen klikkaaminen ei ole tarpeellista tässä oppaassa. Tämä vaihe on tarpeellinen vain, jos aiot tehdä maksuja Paynymille [BIP47](https://planb.network/tutorials/privacy/paynym-bip47) yhteydessä, mikä ei liity tähän oppaaseen.
+Ohjelmisto tarjoaa sinulle sitten `Link Contact`-painiketta. Tämän painikkeen klikkaaminen ei ole tarpeellista tässä oppaassa. Tämä vaihe on tarpeellinen vain, jos aiot tehdä maksuja Paynymille BIP47 yhteydessä, mikä ei liity tähän oppaaseen.
 
 Kun vastaanottajan Paynym on seurannut Paynymiasi, toista tämä toimenpide toisinpäin, jotta vastaanottajasi seuraa sinua myös. Sen jälkeen voit suorittaa Payjoin-siirron.
 

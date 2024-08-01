@@ -10,9 +10,17 @@ Jos haluat osallistua PlanB-verkkoon, sinun on käytettävä GitHubia ehdottaaks
 - **Osallistu suoraan GitHubin verkkokäyttöliittymän kautta**: Tämä on yksinkertaisin menetelmä. Jos olet aloittelija tai aiot tehdä vain muutamia pieniä muutoksia, tämä vaihtoehto on todennäköisesti paras sinulle;
 - **Osallistu paikallisesti käyttäen Git**: Tämä menetelmä sopii paremmin, jos aiot tehdä säännöllisiä tai merkittäviä panostuksia PlanB-verkkoon. Vaikka paikallisen Git-ympäristön pystyttäminen tietokoneellesi saattaa aluksi vaikuttaa monimutkaiselta, tämä lähestymistapa on tehokkaampi pitkällä aikavälillä. Se mahdollistaa joustavamman muutosten hallinnan. Jos olet uusi tässä, älä huoli, **selitämme koko prosessin ympäristösi pystyttämiseksi tässä opastuksessa** (lupaus, sinun ei tarvitse kirjoittaa yhtään komentoriviä ^^).
 
-Jos sinulla ei ole aavistustakaan, mikä GitHub on, tai jos haluat oppia lisää Gitin ja GitHubin teknisistä termeistä, suosittelen, että [luet johdantoartikkelimme tutustuaksesi näihin käsitteisiin](https://planb.network/tutorials/others/basics-of-github).
+Jos sinulla ei ole aavistustakaan, mikä GitHub on, tai jos haluat oppia lisää Gitin ja GitHubin teknisistä termeistä, suosittelen, että luet johdantoartikkelimme tutustuaksesi näihin käsitteisiin.
 
-- Aloittaaksesi tarvitset tietenkin GitHub-tilin. Jos sinulla on jo tili, voit kirjautua sisään, muussa tapauksessa voit käyttää [opastustamme uuden tilin luomiseen](https://planb.network/tutorials/others/create-github-account).
+https://planb.network/tutorials/others/basics-of-github
+
+
+
+- Aloittaaksesi tarvitset tietenkin GitHub-tilin. Jos sinulla on jo tili, voit kirjautua sisään, muussa tapauksessa voit käyttää opastustamme uuden tilin luomiseen.
+
+https://planb.network/tutorials/others/create-github-account
+
+
 
 ## Vaihe 1: Asenna GitHub Desktop
 
@@ -87,4 +95,8 @@ Esimerkiksi uuden oppaan luomisen yhteydessä sinun on luotava YAML (`.yml`) tie
 
 Tähän on saatavilla useita vaihtoehtoja. Vaikka tietokoneesi vakionotepad-ohjelmaa voidaan käyttää näihin muokkauksiin, tämä ratkaisu ei ole ihanteellinen siistiin työhön. Suosittelen valitsemaan tähän tarkoitukseen erityisesti suunniteltua ohjelmistoa, kuten [VS Code](https://code.visualstudio.com/download) tai [Sublime Text](https://www.sublimetext.com/download). Sublime Text on erityisen kevyt, joten se on enemmän kuin riittävä tarpeisiimme.
 - Asenna jompikumpi näistä ohjelmista ja pidä se sivussa tulevia muokkauksiasi varten. ![github-desktop](assets/26.webp)
-Onnittelut! Työympäristösi on nyt valmis osallistumaan PlanB Networkiin. Voit nyt tutustua [muihin erityisoppaisiimme](https://planb.network/tutorials/others) kunkin panostustyypin (kääntäminen, oikoluku, kirjoittaminen...) osalta.
+Onnittelut! Työympäristösi on nyt valmis osallistumaan PlanB Networkiin. Voit nyt tutustua muihin erityisoppaisiimme kunkin panostustyypin (kääntäminen, oikoluku, kirjoittaminen.
+
+https://planb.network/tutorials/others
+
+..) osalta.

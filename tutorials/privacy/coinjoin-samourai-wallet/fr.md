@@ -328,7 +328,7 @@ Une fois la `Tx0` confirmée, vos UTXO seront automatiquement inscrits auprès d
 
 ![samourai](assets/notext/34.webp)
 
-En consultant l'onglet `Remixing`, qui correspond au compte **Postmix**, vous observerez les UTXO résultant des mix initiaux. Ces pièces resteront prêtes pour des remixages ultérieurs, lesquels ne vous occasionneront aucuns frais supplémentaires. Je vous recommande de consulter cet autre article pour en savoir plus sur le processus de remixage et l'efficacité d'un cycle de coinjoins : [REMIX - WHIRLPOOL](https://planb.network/tutorials/privacy/remix-whirlpool). 
+En consultant l'onglet `Remixing`, qui correspond au compte **Postmix**, vous observerez les UTXO résultant des mix initiaux. Ces pièces resteront prêtes pour des remixages ultérieurs, lesquels ne vous occasionneront aucuns frais supplémentaires. Je vous recommande de consulter cet autre article pour en savoir plus sur le processus de remixage et l'efficacité d'un cycle de coinjoins : [REMIX - WHIRLPOOL](https://planb.network/tutorials/privacy/remix-whirlpool) 
 
 ![samourai](assets/notext/35.webp)
 
@@ -403,7 +403,7 @@ Assurez-vous que votre SCODE a été correctement enregistré en cliquant une fo
 ## Comment connaître la qualité de nos cycles de coinjoin ?
 Pour qu'un coinjoin soit véritablement efficace, il est essentiel qu'il présente une bonne homogénéité entre les montants des inputs et des outputs. Cette uniformité amplifie le nombre d'interprétations possibles aux yeux d'un observateur externe, augmentant ainsi l'incertitude autour de la transaction. Pour quantifier cette incertitude générée par un coinjoin, on peut recourir au calcul de l'entropie de la transaction. Pour une exploration approfondie de ces indicateurs, je vous renvoie vers le tutoriel : [BOLTZMANN CALCULATOR](https://planb.network/fr/tutorials/privacy/boltzmann-entropy). Le modèle de Whirlpool est reconnu comme celui qui apporte le plus d'homogénéité dans les coinjoins.
 
-Ensuite, la performance de plusieurs cycles de coinjoin est évaluée selon l'ampleur des groupes dans lesquels une pièce est dissimulée. La dimension de ces groupes définit ce qu'on nomme les anonsets. Il existe deux types d'anonsets : le premier évalue la confidentialité obtenue contre une analyse rétrospective (du présent vers le passé) et le second, contre une analyse prospective (du passé vers le présent). Pour une explication détaillée de ces deux indicateurs, je vous invite à consulter le tutoriel : [WHIRLPOOL STATS TOOLS - ANONSETS](https://planb.network/tutorials/privacy/wst-anonsets).
+Ensuite, la performance de plusieurs cycles de coinjoin est évaluée selon l'ampleur des groupes dans lesquels une pièce est dissimulée. La dimension de ces groupes définit ce qu'on nomme les anonsets. Il existe deux types d'anonsets : le premier évalue la confidentialité obtenue contre une analyse rétrospective (du présent vers le passé) et le second, contre une analyse prospective (du passé vers le présent). Pour une explication détaillée de ces deux indicateurs, je vous invite à consulter le tutoriel : [WHIRLPOOL STATS TOOLS - ANONSETS](https://planb.network/tutorials/privacy/wst-anonsets)
 
 ## Comment gérer le postmix ?
 Après avoir effectué des cycles de coinjoins, la meilleure stratégie consiste à garder vos UTXO dans le compte **postmix**, en attente de leur utilisation future. Il est même conseillé de les laisser se remixer indéfiniment jusqu'à ce que vous ayez besoin de les dépenser.
@@ -432,7 +432,7 @@ Ensuite, il faudra être prudent sur sa gestion du doxxic change, le change qui 
 Des tutoriels détaillés sur la mise en œuvre de ces différentes techniques vous seront proposés prochainement sur PlanB Network.
 
 **Ressources supplémentaires :** 
-- [Tutoriel vidéo Samourai Wallet](https://planb.network/tutorials/wallet/samourai) ;
+[Tutoriel vidéo Samourai Wallet](https://planb.network/tutorials/wallet/samourai)
 - [Documentation Samourai Wallet - Whirlpool](https://docs.samourai.io/whirlpool/basic-concepts) ;
 - [Thread Twitter sur les coinjoins](https://twitter.com/SamouraiWallet/status/1489220847336308739) ;
 - [Article de blog sur les coinjoins](https://www.pandul.fr/post/comprendre-et-utiliser-le-coinjoin-sur-bitcoin).

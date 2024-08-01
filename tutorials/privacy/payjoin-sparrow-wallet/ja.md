@@ -26,7 +26,7 @@ Cahoots取引は、ユーザー間で部分的に署名された取引を交換�
 
 遠隔で行う場合、このプロセスは複雑すぎます。この問題に対処するために、SamouraiはTorに基づいた暗号化通信プロトコルである"Soroban"を開発しました。Sorobanを使用すると、Payjoinに必要な交換がユーザーフレンドリーなインターフェースの背後で自動化されます。これが、この記事で探求する第二の方法です。
 
-これらの暗号化された交換には、Cahoots参加者間の接続と認証の確立が必要です。Soroban通信は、ユーザーのPaynymsに依存しています。Paynymsに馴染みがない場合は、この記事を参照してください：[BIP47 - PAYNYM](https://planb.network/tutorials/privacy/paynym-bip47)。
+これらの暗号化された交換には、Cahoots参加者間の接続と認証の確立が必要です。Soroban通信は、ユーザーのPaynymsに依存しています。Paynymsに馴染みがない場合は、この記事を参照してください：[BIP47 - PAYNYM](https://planb.network/tutorials/privacy/paynym-bip47)
 簡単に言うと、Paynymはウォレットにリンクされたユニークな識別子であり、暗号化されたメッセージングを含む様々な機能を可能にします。Paynymは識別子とロボットを表すイラストの形で提示されます。これがTestnet上の私の例です：![Paynym Sparrow](assets/en/1.webp)
 
 **要約：**
@@ -50,7 +50,7 @@ Cahoots取引は、ユーザー間で部分的に署名された取引を交換�
 ![Retrieve paynym](assets/en/3.webp)
 次に、`Find Contact`ボックスに協力者のPaynym識別子（ニックネームの`+...`または支払いコードの`PM...`）を入力し、`Add Contact`ボタンをクリックします。
 ![add contact](assets/en/4.webp)
-その後、ソフトウェアは`Link Contact`ボタンを提供します。このチュートリアルでは、このボタンをクリックする必要はありません。このステップは、[BIP47](https://planb.network/tutorials/privacy/paynym-bip47)の文脈で示されたPaynymに対して支払いを行う予定がある場合にのみ必要ですが、このチュートリアルとは関係ありません。
+その後、ソフトウェアは`Link Contact`ボタンを提供します。このチュートリアルでは、このボタンをクリックする必要はありません。このステップは、BIP47の文脈で示されたPaynymに対して支払いを行う予定がある場合にのみ必要ですが、このチュートリアルとは関係ありません。
 
 受取人のPaynymがあなたのPaynymによってフォローされたら、この操作を逆方向で繰り返して、受取人もあなたをフォローするようにします。そうすれば、Payjoinを実行できます。
 

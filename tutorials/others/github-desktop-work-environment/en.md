@@ -10,9 +10,17 @@ If you wish to contribute to the PlanB Network, you will need to use GitHub to p
 - **Contribute directly via GitHub's web interface**: This is the simplest method. If you are a beginner or if you plan to make only a few minor contributions, this option is probably the best for you;
 - **Contribute locally using Git**: This method is more suitable if you plan to make regular or significant contributions to the PlanB Network. Although setting up your local Git environment on your computer may seem complex at first, this approach is more efficient in the long run. It allows for more flexible management of changes. If you are new to this, don't worry, **we explain the entire process of setting up your environment in this tutorial** (promise, you won't need to type any command lines ^^).
 
-If you have no idea what GitHub is, or if you want to learn more about the technical terms related to Git and GitHub, I recommend you [read our introductory article to familiarize yourself with these concepts](https://planb.network/tutorials/others/basics-of-github).
+If you have no idea what GitHub is, or if you want to learn more about the technical terms related to Git and GitHub, I recommend you read our introductory article to familiarize yourself with these concepts.
 
-- To start, you will obviously need a GitHub account. If you already have one, you can log in, otherwise, you can use [our tutorial to create a new one](https://planb.network/tutorials/others/create-github-account).
+https://planb.network/tutorials/others/basics-of-github
+
+
+
+- To start, you will obviously need a GitHub account. If you already have one, you can log in, otherwise, you can use our tutorial to create a new one.
+
+https://planb.network/tutorials/others/create-github-account
+
+
 
 ## Step 1: Install GitHub Desktop
 
@@ -91,4 +99,8 @@ For example, when creating a new tutorial, you will need to create a YAML (`.yml
 
 For this, several options are available to you. Although the standard notepad of your computer can be used for these modifications, this solution is not ideal for neat work. I recommend choosing software specifically designed for this purpose, such as [VS Code](https://code.visualstudio.com/download) or [Sublime Text](https://www.sublimetext.com/download). Sublime Text, being particularly lightweight, will be more than sufficient for our needs.
 - Install one of these software programs, and keep it aside for your future modifications. ![github-desktop](assets/26.webp)
-Congratulations! Your work environment is now set up to contribute to PlanB Network. You can now explore [our other specific tutorials](https://planb.network/tutorials/others) for each type of contribution (translation, proofreading, writing...).
+Congratulations! Your work environment is now set up to contribute to PlanB Network. You can now explore our other specific tutorials for each type of contribution (translation, proofreading, writing.
+
+https://planb.network/tutorials/others
+
+..).

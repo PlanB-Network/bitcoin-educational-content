@@ -24,9 +24,9 @@ Si previamente has contribuido a la Red PlanB, es probable que ya tengas un ID d
 - Tener un fork del [repositorio fuente de la Red PlanB](https://github.com/PlanB-Network/bitcoin-educational-content).
 
 **Si necesitas ayuda para obtener estos prerrequisitos, mis otros tutoriales te guiarán:**
-- **[Entendiendo Git y GitHub](https://planb.network/tutorials/others/basics-of-github)**
-- **[Creando una Cuenta de GitHub](https://planb.network/tutorials/others/create-github-account)**
-- **[Configurando Tu Entorno de Trabajo](https://planb.network/tutorials/others/github-desktop-work-environment)**
+**[Entendiendo Git y GitHub](https://planb.network/tutorials/others/basics-of-github)**
+**[Creando una Cuenta de GitHub](https://planb.network/tutorials/others/create-github-account)**
+**[Configurando Tu Entorno de Trabajo](https://planb.network/tutorials/others/github-desktop-work-environment)**
 
 ## ¿Cómo crear un nuevo perfil de profesor?
 

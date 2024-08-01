@@ -14,7 +14,11 @@ Für die Übersetzung von Bildungsinhalten verwenden wir [einen Ansatz, der mens
 
 Wenn Sie jedoch daran interessiert sind, andere Bereiche der Website außerhalb von Bildungsinhalten zu übersetzen, sind Sie hier genau richtig! Um das Frontend effektiv zu übersetzen, verwenden wir das Weblate-Tool, das die Zusammenarbeit erleichtert und Übersetzungen organisiert. Es ist ein sehr einfaches Tool, um damit zu beginnen. Gehen wir Schritt für Schritt durch, wie man Weblate verwendet.
 
-Wenn Sie eine völlig neue Sprache zu PlanB Network hinzufügen möchten, die noch nicht auf Weblate verfügbar ist, müssen Sie zunächst einen Antrag auf Hinzufügung stellen. Dafür [folgen Sie diesem spezifischen Tutorial](https://planb.network/tutorials/others/add-new-language-weblate).
+Wenn Sie eine völlig neue Sprache zu PlanB Network hinzufügen möchten, die noch nicht auf Weblate verfügbar ist, müssen Sie zunächst einen Antrag auf Hinzufügung stellen. Dafür folgen Sie diesem spezifischen Tutorial.
+
+https://planb.network/tutorials/others/add-new-language-weblate
+
+
 
 ## Registrierung bei Weblate
 

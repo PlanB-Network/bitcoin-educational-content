@@ -12,8 +12,12 @@ Haluatko osallistua tämän tietokannan rikastuttamiseen, mutta et tiedä miten?
 
 *On ehdottoman tärkeää, että sivustoon integroitu sisältö on oikeuksista vapaa tai kunnioittaa lähdetiedoston lisenssiä. Lisäksi kaikki PlanB-verkostossa julkaistut visuaalit ovat saatavilla [CC-BY-SA](https://creativecommons.org/licenses/by-sa/4.0/) -lisenssin alaisina.*
 ![tapahtuma](assets/01.webp)
-- Ensimmäiseksi sinun on oltava tili GitHubissa. Jos et tiedä, miten tili luodaan, olemme tehneet [yksityiskohtaisen oppaan, joka opastaa sinua](https://planb.network/tutorials/others/create-github-account).
-- Mene [PlanB:n GitHub-repositorioon, joka on omistettu datalle](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/bet) `resources/bet/` -osiossa:
+- Ensimmäiseksi sinun on oltava tili GitHubissa. Jos et tiedä, miten tili luodaan, olemme tehneet yksityiskohtaisen oppaan, joka opastaa sinua.
+
+https://planb.network/tutorials/others/create-github-account
+
+
+- Mene [PlanB:n GitHub-repositorioon, joka on omistettu datalle](https://github.com/DecouvreBitcoin/sovereign-university-data/tree/dev/resources/bet) `resources/bet/` -osiossa:
 ![tapahtuma](assets/02.webp)
 - Klikkaa oikeassa yläkulmassa `Add file` -painiketta, sitten `Create new file`:
 ![tapahtuma](assets/03.webp)
@@ -43,7 +47,11 @@ contributors:
 ```
 
 Tässä ovat tiedot, jotka sinun tulee täyttää kullekin kentälle:
-- **`builder`**: Ilmoita organisaatiosi tunniste PlanB-verkostossa. Jos sinulla ei vielä ole "builder"-tunnistetta yrityksellesi, voit luoda sellaisen [seuraamalla tätä opasta](https://planb.network/tutorials/others/add-builder). Jos sinulla ei ole tunnistetta, voit yksinkertaisesti käyttää nimeäsi, nimimerkkiäsi tai yrityksesi nimeä ilman, että olet luonut builder-profiilia.
+- **`builder`**: Ilmoita organisaatiosi tunniste PlanB-verkostossa. Jos sinulla ei vielä ole "builder"-tunnistetta yrityksellesi, voit luoda sellaisen seuraamalla tätä opasta.
+
+https://planb.network/tutorials/others/add-builder
+
+ Jos sinulla ei ole tunnistetta, voit yksinkertaisesti käyttää nimeäsi, nimimerkkiäsi tai yrityksesi nimeä ilman, että olet luonut builder-profiilia.
 - **`type`**: Valitse sisältösi luonne seuraavista kahdesta vaihtoehdosta:
 	- `Educational Content` opetussisällölle.
 	- `Visual Content` muun tyyppisille moninaisille sisällöille.

@@ -12,8 +12,12 @@ Vuoi partecipare all'arricchimento di questo database, ma non sai come fare? Que
 
 *È imperativo che tutti i contenuti integrati nel sito siano liberi da diritti o rispettino la licenza del file sorgente. Inoltre, tutti i visual pubblicati sulla Rete PlanB sono resi disponibili sotto la licenza [CC-BY-SA](https://creativecommons.org/licenses/by-sa/4.0/).*
 ![event](assets/01.webp)
-- Prima di tutto, devi avere un account su GitHub. Se non sai come crearne uno, abbiamo realizzato [un tutorial dettagliato per guidarti](https://planb.network/tutorials/others/create-github-account).
-- Vai al [repository GitHub di PlanB dedicato ai dati](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/bet) nella sezione `resources/bet/`:
+- Prima di tutto, devi avere un account su GitHub. Se non sai come crearne uno, abbiamo realizzato un tutorial dettagliato per guidarti.
+
+https://planb.network/tutorials/others/create-github-account
+
+
+- Vai al [repository GitHub di PlanB dedicato ai dati](https://github.com/DecouvreBitcoin/sovereign-university-data/tree/dev/resources/bet) nella sezione `resources/bet/`:
 ![event](assets/02.webp)
 - Clicca in alto a destra sul pulsante `Add file`, poi su `Create new file`:
 ![event](assets/03.webp)
@@ -41,7 +45,11 @@ tags:
 contributors:
   - 
 ```
-- **`builder`**: Indica l'identificativo della tua organizzazione sulla Rete PlanB. Se non hai ancora un identificativo "builder" per la tua azienda, puoi crearne uno [seguendo questo tutorial](https://planb.network/tutorials/others/add-builder). Se non ne possiedi uno, puoi semplicemente usare il tuo nome, il tuo pseudonimo o il nome della tua azienda senza aver creato un profilo builder.
+- **`builder`**: Indica l'identificativo della tua organizzazione sulla Rete PlanB. Se non hai ancora un identificativo "builder" per la tua azienda, puoi crearne uno seguendo questo tutorial.
+
+https://planb.network/tutorials/others/add-builder
+
+ Se non ne possiedi uno, puoi semplicemente usare il tuo nome, il tuo pseudonimo o il nome della tua azienda senza aver creato un profilo builder.
 - **`type`**: Seleziona la natura del tuo contenuto tra le seguenti due opzioni:
 	- `Educational Content` per contenuti educativi.
 	- `Visual Content` per altri tipi di contenuti diversi.

@@ -32,10 +32,18 @@ Darüber hinaus wird Découvre Bitcoin (DB), das für die Bewertung von Beiträg
 Du musst kein GitHub-Experte sein, um Inhalte zu überprüfen.
 Obwohl es immer besser ist zu verstehen, was du tust (und warum), kannst du einfach den untenstehenden Anweisungen folgen, um beizutragen.
 
-Wenn du jedoch völlig unvertraut damit bist, wie Git und GitHub funktionieren, und mehr erfahren möchtest, kannst du [unseren einführenden Artikel zu diesen Tools](https://planb.network/tutorials/others/basics-of-github) entdecken.
+Wenn du jedoch völlig unvertraut damit bist, wie Git und GitHub funktionieren, und mehr erfahren möchtest, kannst du unseren einführenden Artikel zu diesen Tools entdecken.
+
+https://planb.network/tutorials/others/basics-of-github
+
+
 
 ## 1. Erstelle ein Konto
-* Erstelle ein Konto auf GitHub, um mit dem Beitrag zu beginnen. Wenn du Anleitung benötigst, wie du dein Konto auf GitHub erstellen kannst, haben wir auch [ein detailliertes Tutorial](https://planb.network/tutorials/others/create-github-account).
+* Erstelle ein Konto auf GitHub, um mit dem Beitrag zu beginnen. Wenn du Anleitung benötigst, wie du dein Konto auf GitHub erstellen kannst, haben wir auch ein detailliertes Tutorial.
+
+https://planb.network/tutorials/others/create-github-account
+
+
 ## **2. Gehe zur Projektseite deiner Sprache**
 * Die [Projektseite](https://github.com/PlanB-Network/bitcoin-educational-content/projects?query=is%3Aopen) enthält Inhalte in deiner Sprache, die auf einem Kanban-Board angezeigt werden.
 * Suche nach Karten in der Spalte "Review Needed" (siehe **A**). Das sind Probleme, die du überprüfen kannst.

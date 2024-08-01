@@ -32,10 +32,18 @@ Hơn nữa, vì Découvre Bitcoin (DB) chịu trách nhiệm đánh giá các đ
 Bạn không cần phải là chuyên gia GitHub để đánh giá nội dung.
 Mặc dù luôn tốt hơn khi hiểu bạn đang làm gì (và tại sao), bạn có thể đơn giản theo dõi hướng dẫn dưới đây để đóng góp.
 
-Tuy nhiên, nếu bạn hoàn toàn không quen với cách hoạt động của Git và GitHub và muốn tìm hiểu thêm, bạn có thể khám phá [bài viết giới thiệu của chúng tôi về những công cụ này](https://planb.network/tutorials/others/basics-of-github).
+Tuy nhiên, nếu bạn hoàn toàn không quen với cách hoạt động của Git và GitHub và muốn tìm hiểu thêm, bạn có thể khám phá bài viết giới thiệu của chúng tôi về những công cụ này.
+
+https://planb.network/tutorials/others/basics-of-github
+
+
 
 ## 1. Tạo một tài khoản
-* Tạo một tài khoản trên GitHub để bắt đầu đóng góp. Nếu bạn cần hướng dẫn về cách tạo tài khoản trên GitHub, chúng tôi cũng có [một hướng dẫn chi tiết](https://planb.network/tutorials/others/create-github-account).
+* Tạo một tài khoản trên GitHub để bắt đầu đóng góp. Nếu bạn cần hướng dẫn về cách tạo tài khoản trên GitHub, chúng tôi cũng có một hướng dẫn chi tiết.
+
+https://planb.network/tutorials/others/create-github-account
+
+
 ## **2. Đi tới trang dự án của ngôn ngữ bạn**
 * [Trang dự án](https://github.com/PlanB-Network/bitcoin-educational-content/projects?query=is%3Aopen) chứa nội dung bằng ngôn ngữ của bạn được hiển thị trên bảng Kanban.
 * Tìm kiếm các thẻ trong cột "Review Needed" (xem **A**). Đây là các vấn đề mà bạn có thể đánh giá.

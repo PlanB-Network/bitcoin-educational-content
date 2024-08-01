@@ -254,7 +254,7 @@ Seuraavassa vaiheessa pääset sivulle, joka on omistettu Dojosi konfiguroinnill
 
 ![coinjoin](assets/notext/24.webp)
 
-*Uusille Samourain käyttäjille, on sitten tarpeen luoda lompakko alusta. Jos tarvitset apua, voit konsultoida ohjeita uuden Samourai-lompakon asettamiseksi [tässä oppaassa, erityisesti kohdassa "Luodaan ohjelmistolompakko"](https://planb.network/tutorials/privacy/coinjoin-samourai-wallet).*
+*Uusille Samourain käyttäjille, on sitten tarpeen luoda lompakko alusta. Jos tarvitset apua, voit konsultoida ohjeita uuden Samourai-lompakon asettamiseksi [tässä oppaassa, erityisesti kohdassa "Luodaan ohjelmistolompakko"](https://planb.network/tutorials/privacy/coinjoin-samourai-wallet)*
 Jos jatkat jo olemassa olevan Samourai-lompakon palauttamista, valitse `Palauta olemassa oleva lompakko`, sitten valitse `Minulla on Samourai-varmuuskopiotiedosto`.
 ![coinjoin](assets/notext/25.webp)
 Normaalisti sinulla tulisi aina olla palautustiedostosi leikepöydälläsi. Sen jälkeen klikkaa `LIITÄ` lisätäksesi tiedoston määrättyyn sijaintiin. Sen purkamiseksi sinun on myös tarpeen syöttää lompakkosi BIP39-salasana vastaavaan kenttään, joka sijaitsee juuri alla. Lopuksi, klikkaa `VALMIS`.
@@ -359,4 +359,4 @@ Sekoitetut UTXO:si ovat nähtävissä **Jälkisekoitus**-tilillä Whirlpool GUI:
 Whirlpool-tilit ovat helposti tunnistettavissa Samourai Walletissa niiden sinisen värin ansiosta. Tämä mahdollistaa sekoitettujen UTXO:jesi käyttämisen missä ja milloin tahansa, suoraan älypuhelimestasi.
 
 ![coinjoin](assets/notext/53.webp)
-Jotta voit seurata automaattisia coinjoinejasi, suosittelen myös watch-only lompakon asettamista Sentinel-sovelluksen kautta. Lisää **Postmix**-tilisi ZPUB ja seuraa coinjoin-syklien etenemistä reaaliajassa. Jos haluat ymmärtää, miten Sentinelia käytetään, suosittelen tutustumaan tähän toiseen oppaaseen PlanB Networkissa: [**SENTINEL WATCH-ONLY**](https://planb.network/tutorials/wallet/sentinel).
+Jotta voit seurata automaattisia coinjoinejasi, suosittelen myös watch-only lompakon asettamista Sentinel-sovelluksen kautta. Lisää **Postmix**-tilisi ZPUB ja seuraa coinjoin-syklien etenemistä reaaliajassa. Jos haluat ymmärtää, miten Sentinelia käytetään, suosittelen tutustumaan tähän toiseen oppaaseen PlanB Networkissa: [**SENTINEL WATCH-ONLY**](https://planb.network/tutorials/wallet/sentinel)

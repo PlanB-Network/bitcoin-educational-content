@@ -32,10 +32,18 @@ PlanB.networkは根本的に多言語であり、私たちの目標は世界中�
 コンテンツをレビューするためにGitHubの専門家である必要はありません。
 何をしているのか（そしてなぜ）を理解することは常に良いことですが、以下の指示に従って寄稿することができます。
 
-しかし、GitやGitHubの動作に完全に不慣れで、もっと学びたい場合は、[これらのツールに関する私たちの導入記事](https://planb.network/tutorials/others/basics-of-github)を発見することができます。
+しかし、GitやGitHubの動作に完全に不慣れで、もっと学びたい場合は、これらのツールに関する私たちの導入記事を発見することができます。
+
+https://planb.network/tutorials/others/basics-of-github
+
+
 
 ## 1. アカウントを作成する
-* GitHubでアカウントを作成して寄稿を開始します。GitHubでアカウントを作成する方法についてのガイダンスが必要な場合は、[詳細なチュートリアル](https://planb.network/tutorials/others/create-github-account)もあります。
+* GitHubでアカウントを作成して寄稿を開始します。GitHubでアカウントを作成する方法についてのガイダンスが必要な場合は、詳細なチュートリアルもあります。
+
+https://planb.network/tutorials/others/create-github-account
+
+
 ## **2. あなたの言語のプロジェクトページに行く**
 * [プロジェクトページ](https://github.com/PlanB-Network/bitcoin-educational-content/projects?query=is%3Aopen)には、Kanbanボードに表示されたあなたの言語のコンテンツが含まれています。
 * 「レビューが必要」列（**A**を参照）にあるカードを探します。これらはあなたがレビューできる課題です。

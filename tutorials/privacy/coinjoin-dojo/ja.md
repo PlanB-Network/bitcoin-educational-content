@@ -244,7 +244,7 @@ Samouraiウォレットのリカバリーフレーズを持っていて、それ
 
 ![coinjoin](assets/en/24.webp)
 
-*Samouraiの新規ユーザーの場合、最初からウォレットを作成する必要があります。アシスタンスが必要な場合は、[このチュートリアルの「ソフトウェアウォレットの作成」セクション](https://planb.network/tutorials/privacy/coinjoin-samourai-wallet)で新しいSamouraiウォレットの設定に関する指示を参照してください。*
+*Samouraiの新規ユーザーの場合、最初からウォレットを作成する必要があります。アシスタンスが必要な場合は、[このチュートリアルの「ソフトウェアウォレットの作成」セクション](https://planb.network/tutorials/privacy/coinjoin-samourai-wallet)*
 
 既存のSamouraiウォレットの復元を進める場合は、`Restore existing wallet`を選択し、次に`I have a Samourai backup file`を選択してください。
 
@@ -351,4 +351,4 @@ WhirlpoolアカウントはSamourai Wallet上で青色で簡単に識別でき�
 
 ![coinjoin](assets/en/53.webp)
 
-自動コインジョインの進行状況を追跡するためには、Sentinelアプリを介してウォッチオンリーウォレットを設定することもお勧めします。**Postmix**アカウントのZPUBを追加し、リアルタイムでコインジョインサイクルの進行状況を監視してください。Sentinelの使用方法を理解したい場合は、PlanB Networkのこの他のチュートリアル[**SENTINEL WATCH-ONLY**](https://planb.network/tutorials/wallet/sentinel)を参照することをお勧めします。
+自動コインジョインの進行状況を追跡するためには、Sentinelアプリを介してウォッチオンリーウォレットを設定することもお勧めします。**Postmix**アカウントのZPUBを追加し、リアルタイムでコインジョインサイクルの進行状況を監視してください。Sentinelの使用方法を理解したい場合は、PlanB Networkのこの他のチュートリアル[**SENTINEL WATCH-ONLY**](https://planb.network/tutorials/wallet/sentinel)

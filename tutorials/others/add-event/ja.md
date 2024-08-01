@@ -8,8 +8,12 @@ PlanBのミッションは、できるだけ多くの言語でBitcoinに関す�
 
 PlanB NetworkサイトにBitcoinカンファレンスを追加してイベントの可視性を高めたいけれど、方法がわからない場合、このチュートリアルはあなたのためのものです！
 ![event](assets/01.webp)
-- まず、GitHubにアカウントを持っている必要があります。アカウントの作成方法がわからない場合は、[詳細なチュートリアルを用意しています](https://planb.network/tutorials/others/create-github-account)。
-- `resources/conference/`セクションにある[PlanB専用のデータGitHubリポジトリ](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/conference)にアクセスしてください：
+- まず、GitHubにアカウントを持っている必要があります。アカウントの作成方法がわからない場合は、詳細なチュートリアルを用意しています。
+
+https://planb.network/tutorials/others/create-github-account
+
+
+- `resources/conference/`セクションにある[PlanB専用のデータGitHubリポジトリ](https://github.com/DecouvreBitcoin/sovereign-university-data/tree/dev/resources/conference)にアクセスしてください：
 ![event](assets/02.webp)
 - 右上の`Add file`ボタンをクリックし、次に`Create new file`をクリックします：
 ![event](assets/03.webp)
@@ -77,7 +81,11 @@ PlanB NetworkサイトにBitcoinカンファレンスを追加してイベント
     - International
 ```
 ![イベント](assets/09.webp)
-もしまだあなたの組織に「*builder*」という識別子がない場合は、[この他のチュートリアルに従って追加する](https://planb.network/tutorials/others/add-builder)ことができます。
+もしまだあなたの組織に「*builder*」という識別子がない場合は、この他のチュートリアルに従って追加することができます。
+
+https://planb.network/tutorials/others/add-builder
+
+
 
 - このファイルへの変更が完了したら、`Commit changes...`ボタンをクリックして保存してください：
 ![イベント](assets/10.webp)

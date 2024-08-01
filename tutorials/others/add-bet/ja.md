@@ -12,8 +12,12 @@ PlanBのミッションは、できるだけ多くの言語でBitcoinに関す�
 
 *サイトに統合されるすべてのコンテンツは、権利がないか、またはソースファイルのライセンスを尊重する必要があります。また、PlanBネットワークで公開されるすべてのビジュアルは、[CC-BY-SA](https://creativecommons.org/licenses/by-sa/4.0/)ライセンスの下で利用可能になります。*
 ![event](assets/01.webp)
-- まず、GitHubアカウントを持っている必要があります。アカウントの作成方法がわからない場合は、[詳細なチュートリアルを用意しています](https://planb.network/tutorials/others/create-github-account)。
-- `resources/bet/`セクションの[PlanB専用のGitHubリポジトリ](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/bet)に移動します：
+- まず、GitHubアカウントを持っている必要があります。アカウントの作成方法がわからない場合は、詳細なチュートリアルを用意しています。
+
+https://planb.network/tutorials/others/create-github-account
+
+
+- `resources/bet/`セクションの[PlanB専用のGitHubリポジトリ](https://github.com/DecouvreBitcoin/sovereign-university-data/tree/dev/resources/bet)に移動します：
 ![event](assets/02.webp)
 - 右上の`Add file`ボタンをクリックし、次に`Create new file`をクリックします：
 ![event](assets/03.webp)
@@ -44,7 +48,11 @@ contributors:
 
 各フィールドに記入する詳細は次のとおりです：
 ```yaml
-builder: 組織の識別子をPlanB Network上で指定します。もしまだ会社用の「builder」識別子を持っていない場合は、[このチュートリアルに従って作成する](https://planb.network/tutorials/others/add-builder)ことができます。もし持っていない場合は、builderプロファイルを作成せずに、あなたの名前、偽名、または会社の名前をそのまま使用できます。
+builder: 組織の識別子をPlanB Network上で指定します。もしまだ会社用の「builder」識別子を持っていない場合は、このチュートリアルに従って作成することができます。
+
+https://planb.network/tutorials/others/add-builder
+
+もし持っていない場合は、builderプロファイルを作成せずに、あなたの名前、偽名、または会社の名前をそのまま使用できます。
 type: コンテンツの性質を以下の二つのオプションから選択してください：
   - `Educational Content` 教育コンテンツ用。
   - `Visual Content` その他様々なタイプのコンテンツ用。

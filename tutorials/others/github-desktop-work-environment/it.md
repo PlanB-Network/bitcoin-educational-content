@@ -10,9 +10,17 @@ Se desideri contribuire alla Rete PlanB, dovrai utilizzare GitHub per proporre m
 - **Contribuire direttamente tramite l'interfaccia web di GitHub**: Questo è il metodo più semplice. Se sei un principiante o se prevedi di fare solo pochi contributi minori, questa opzione è probabilmente la migliore per te;
 - **Contribuire localmente utilizzando Git**: Questo metodo è più adatto se prevedi di fare contributi regolari o significativi alla Rete PlanB. Anche se configurare il tuo ambiente Git locale sul computer può sembrare complesso all'inizio, questo approccio è più efficiente nel lungo termine. Consente una gestione più flessibile delle modifiche. Se sei nuovo in questo, non preoccuparti, **spieghiamo l'intero processo di configurazione del tuo ambiente in questo tutorial** (promesso, non dovrai digitare alcuna riga di comando ^^).
 
-Se non hai idea di cosa sia GitHub, o se vuoi saperne di più sui termini tecnici relativi a Git e GitHub, ti consiglio di [leggere il nostro articolo introduttivo per familiarizzare con questi concetti](https://planb.network/tutorials/others/basics-of-github).
+Se non hai idea di cosa sia GitHub, o se vuoi saperne di più sui termini tecnici relativi a Git e GitHub, ti consiglio di leggere il nostro articolo introduttivo per familiarizzare con questi concetti.
 
-- Per iniziare, avrai ovviamente bisogno di un account GitHub. Se ne hai già uno, puoi accedere, altrimenti, puoi usare [il nostro tutorial per crearne uno nuovo](https://planb.network/tutorials/others/create-github-account).
+https://planb.network/tutorials/others/basics-of-github
+
+
+
+- Per iniziare, avrai ovviamente bisogno di un account GitHub. Se ne hai già uno, puoi accedere, altrimenti, puoi usare il nostro tutorial per crearne uno nuovo.
+
+https://planb.network/tutorials/others/create-github-account
+
+
 
 ## Passo 1: Installa GitHub Desktop
 
@@ -88,4 +96,8 @@ Ad esempio, quando crei un nuovo tutorial, dovrai creare un file YAML (`.yml`) p
 
 Per questo, hai diverse opzioni a disposizione. Sebbene il blocco note standard del tuo computer possa essere utilizzato per queste modifiche, questa soluzione non è ideale per un lavoro ordinato. Ti consiglio di scegliere un software specificamente progettato per questo scopo, come [VS Code](https://code.visualstudio.com/download) o [Sublime Text](https://www.sublimetext.com/download). Sublime Text, essendo particolarmente leggero, sarà più che sufficiente per le nostre esigenze.
 - Installa uno di questi programmi software e tienilo da parte per le tue future modifiche. ![github-desktop](assets/26.webp)
-Congratulazioni! Il tuo ambiente di lavoro è ora configurato per contribuire a PlanB Network. Ora puoi esplorare [i nostri altri tutorial specifici](https://planb.network/tutorials/others) per ogni tipo di contributo (traduzione, revisione, scrittura...).
+Congratulazioni! Il tuo ambiente di lavoro è ora configurato per contribuire a PlanB Network. Ora puoi esplorare i nostri altri tutorial specifici per ogni tipo di contributo (traduzione, revisione, scrittura.
+
+https://planb.network/tutorials/others
+
+..).

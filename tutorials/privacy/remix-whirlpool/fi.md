@@ -46,7 +46,9 @@ Se näyttää takautuvan pistemäärän `34,593` ja tulevaisuuden pistemäärän
 - Jos analyytikko tuntee kolikkoni syklien alussa ja yrittää määrittää sen vastaavuuden lopussa, hän kohtaa `45,202` mahdollista UTXOa, joista jokaisella on sama todennäköisyys olla minun.
 Tämän vuoksi pidän Whirlpoolin käyttöä erityisen relevanttina `Hodl -> Mix -> Spend -> Replace` strategiassa. Mielestäni loogisin lähestymistapa on pitää suurin osa säästöistä bitcoineina kylmässä lompakossa, samalla jatkuvasti ylläpitäen tiettyä määrää kolikoita coinjoinissa Samourailla päivittäisiä kuluja varten. Kun coinjoineista saadut bitcoinit on kulutettu, ne korvataan uusilla palatakseen määriteltyyn sekoitettujen kolikoiden kynnysarvoon. Tämä menetelmä mahdollistaa meidän vapautua huolesta UTXOjemme anonimiteettijoukkojen suhteen, samalla tehden coinjoineihin tarvittavan ajan paljon vähemmän rajoittavaksi.
 
-Toivon, että tämä vastaus on valaissut Whirlpool-mallia. Jos haluat oppia lisää siitä, miten coinjoinit toimivat Bitcoinissa, suosittelen lukemaan [kattavan artikkelini aiheesta](https://planb.network/tutorials/privacy/coinjoin-dojo).
+Toivon, että tämä vastaus on valaissut Whirlpool-mallia. Jos haluat oppia lisää siitä, miten coinjoinit toimivat Bitcoinissa, suosittelen lukemaan kattavan artikkelini aiheesta: 
+
+https://planb.network/tutorials/privacy/coinjoin-dojo
 
 **Ulkoiset resurssit:**
 - Samourai Wallet Whirlpool

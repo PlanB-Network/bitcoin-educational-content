@@ -28,7 +28,9 @@ Las transacciones Cahoots implican intercambios de transacciones parcialmente fi
 
 Cuando se realiza de forma remota, este proceso se vuelve demasiado complejo. Para abordar este problema, Samourai ha desarrollado un protocolo de comunicación cifrada basado en Tor, llamado "Soroban". Con Soroban, los intercambios necesarios para un Payjoin se automatizan detrás de una interfaz fácil de usar. Este es el segundo método que estudiaremos en este artículo.
 
-Estos intercambios cifrados requieren establecer una conexión y autenticación entre los participantes de Cahoots. Por lo tanto, las comunicaciones de Soroban se basan en los Paynyms de los usuarios. Si no está familiarizado con los Paynyms, lo invito a consultar este artículo para obtener más detalles: [BIP47 - PAYNYM](https://planb.network/tutorials/privacy/paynym-bip47).
+Estos intercambios cifrados requieren establecer una conexión y autenticación entre los participantes de Cahoots. Por lo tanto, las comunicaciones de Soroban se basan en los Paynyms de los usuarios. Si no está familiarizado con los Paynyms, lo invito a consultar este artículo para obtener más detalles: [BIP47 - PAYNYM](https://planb.network/tutorials/privacy/paynym-bip47)
+
+
 En resumen, un Paynym es un identificador único vinculado a su billetera que permite diversas funcionalidades, incluido el envío de mensajes cifrados. El Paynym se presenta en forma de un identificador y una ilustración que representa a un robot. Aquí tienes un ejemplo del mío en Testnet: ![paynym samourai wallet](assets/es/1.webp)
 
 **En resumen:**
@@ -64,7 +66,7 @@ Haz clic en el botón `SUIVRE`.
 ![follow paynym](assets/notext/6.webp)
 Confirma haciendo clic en `YES`.
 ![confirm follow paynym](assets/notext/7.webp)
-El software te ofrecerá un botón `SE CONNECTER`. No es necesario hacer clic en este botón para nuestro tutorial. Este paso solo es necesario si planeas hacer pagos al otro Paynym como parte del [BIP47](https://planb.network/tutorials/privacy/paynym-bip47), que no está relacionado con nuestro tutorial.
+El software te ofrecerá un botón `SE CONNECTER`. No es necesario hacer clic en este botón para nuestro tutorial. Este paso solo es necesario si planeas hacer pagos al otro Paynym como parte del BIP47, que no está relacionado con nuestro tutorial.
 ![connect paynym](assets/notext/8.webp)
 Una vez que el Paynym del destinatario es seguido por tu Paynym, repite esta operación en dirección opuesta para que el destinatario también te siga. Luego puedes realizar un Payjoin.
 

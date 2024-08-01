@@ -32,10 +32,18 @@ Inoltre, poiché Découvre Bitcoin (DB) è incaricato di valutare i contributi e
 Non è necessario essere esperti di GitHub per revisionare i contenuti.
 Anche se è sempre meglio capire cosa si sta facendo (e perché), puoi semplicemente seguire le istruzioni qui sotto per contribuire.
 
-Tuttavia, se sei completamente a digiuno di come funzionano Git e GitHub e desideri saperne di più, puoi scoprire [il nostro articolo introduttivo su questi strumenti](https://planb.network/tutorials/others/basics-of-github).
+Tuttavia, se sei completamente a digiuno di come funzionano Git e GitHub e desideri saperne di più, puoi scoprire il nostro articolo introduttivo su questi strumenti.
+
+https://planb.network/tutorials/others/basics-of-github
+
+
 
 ## 1. Crea un account
-* Crea un account su GitHub per iniziare a contribuire. Se hai bisogno di una guida su come creare il tuo account su GitHub, abbiamo anche [un tutorial dettagliato](https://planb.network/tutorials/others/create-github-account).
+* Crea un account su GitHub per iniziare a contribuire. Se hai bisogno di una guida su come creare il tuo account su GitHub, abbiamo anche un tutorial dettagliato.
+
+https://planb.network/tutorials/others/create-github-account
+
+
 ## **2. Vai alla pagina del progetto della tua lingua**
 * La [pagina del progetto](https://github.com/PlanB-Network/bitcoin-educational-content/projects?query=is%3Aopen) contiene contenuti nella tua lingua visualizzati su una lavagna Kanban.
 * Cerca le schede nella colonna "Review Needed" (vedi **A**). Questi sono problemi che puoi revisionare.

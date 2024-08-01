@@ -275,7 +275,7 @@ Votre application Samourai est désormais réinitialisée. Ouvrez l'application 
 
 ![coinjoin](assets/notext/24.webp)
 
-*Pour les nouveaux utilisateurs de Samourai, il sera ensuite nécessaire de créer un portefeuille à partir de zéro. Si vous avez besoin d'assistance, vous pouvez consulter les instructions pour configurer un nouveau portefeuille Samourai [dans ce tutoriel, spécifiquement dans la section « Créer un portefeuille logiciel »](https://planb.network/tutorials/privacy/coinjoin-samourai-wallet).*
+*Pour les nouveaux utilisateurs de Samourai, il sera ensuite nécessaire de créer un portefeuille à partir de zéro. Si vous avez besoin d'assistance, vous pouvez consulter les instructions pour configurer un nouveau portefeuille Samourai [dans ce tutoriel, spécifiquement dans la section « Créer un portefeuille logiciel »](https://planb.network/tutorials/privacy/coinjoin-samourai-wallet)*
 
 Si vous procédez à la restauration d'un portefeuille Samourai déjà existant, sélectionnez `Restore existing wallet`, puis choisissez `I have a Samourai backup file`.
 
@@ -393,4 +393,4 @@ Les comptes Whirlpool sont facilement identifiables sur Samourai Wallet par leur
 
 ![coinjoin](assets/notext/53.webp)
 
-Afin de suivre vos coinjoins automatiques, je vous conseille également de configurer un portefeuille watch-only via l'application Sentinel. Intégrez la ZPUB de votre compte **Postmix** et surveillez en temps réel le progrès de vos cycles de coinjoins. Si vous souhaitez comprendre comment utiliser Sentinel, je vous recommande de consulter cet autre tutoriel sur PlanB Network : [**SENTINEL WATCH-ONLY**](https://planb.network/tutorials/wallet/sentinel).
+Afin de suivre vos coinjoins automatiques, je vous conseille également de configurer un portefeuille watch-only via l'application Sentinel. Intégrez la ZPUB de votre compte **Postmix** et surveillez en temps réel le progrès de vos cycles de coinjoins. Si vous souhaitez comprendre comment utiliser Sentinel, je vous recommande de consulter cet autre tutoriel sur PlanB Network : [**SENTINEL WATCH-ONLY**](https://planb.network/tutorials/wallet/sentinel)

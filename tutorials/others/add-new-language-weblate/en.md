@@ -18,13 +18,21 @@ The first step is to check if your language is not already among those we are wo
 ![language](assets/01.webp)
 - In the `Website frontend element` menu, you will find a list of all the languages we are working on:
 ![language](assets/02.webp)
-If your language is in this list, you do not need to add it again. To contribute to an existing language, we have made [another tutorial that you can discover](https://planb.network/tutorials/others/translate-front-weblate).
+If your language is in this list, you do not need to add it again. To contribute to an existing language, we have made another tutorial that you can discover.
+
+https://planb.network/tutorials/others/translate-front-weblate
+
+
 
 If your language is not there, follow the tutorial below to add it.
 
 ## Adding a New Language to PlanB Network
 
-- The first step is to create an account on Weblate. If you do not know how to do this, you can [follow our detailed guide](https://planb.network/tutorials/others/translate-front-weblate).
+- The first step is to create an account on Weblate. If you do not know how to do this, you can follow our detailed guide.
+
+https://planb.network/tutorials/others/translate-front-weblate
+
+
 - Once your account is created, go to the `Website frontend element` menu and select the `Languages` tab:
 ![language](assets/03.webp)
 - Click on the `+` to the left of the window:
@@ -36,9 +44,13 @@ If your language is not there, follow the tutorial below to add it.
 - You will then arrive on the translation management page for your language:
 ![language](assets/07.webp)
 - To start translating the frontend immediately, click on the `Translate` button: ![language](assets/08.webp)
-To be guided through the translation process, check out [our dedicated tutorial on this topic](https://planb.network/tutorials/others/translate-front-weblate)!
+To be guided through the translation process, check out our dedicated tutorial on this topic!
 
-Congratulations, you have initiated the process of translating the PlanB Network site into a new language! You can begin by translating the entire frontend via Weblate. This includes all the texts on the website, except for educational content (courses, tutorials...) for which we use another semi-automated Humans x AI method.
+Congratulations, you have initiated the process of translating the PlanB Network site into a new language! You can begin by translating the entire frontend via Weblate.
+
+https://planb.network/tutorials/others/translate-front-weblate
+
+ This includes all the texts on the website, except for educational content (courses, tutorials...) for which we use another semi-automated Humans x AI method.
 
 Next, you can contact @asi0_flammeus on Telegram, who will assist you in reviewing some courses automatically translated with their model. If these contents are deemed satisfactory, you can proceed to review all the other content on the site (courses, tutorials...). Once these steps are completed, we can consider officially integrating the new language into the PlanB Network website, which will allow all speakers of your language to access quality content on Bitcoin, without any barriers.
 

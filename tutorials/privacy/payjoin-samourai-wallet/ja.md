@@ -27,7 +27,9 @@ Cahoots取引は、ユーザー間で部分的に署名された取引の交換�
 
 遠隔で行う場合、このプロセスは複雑すぎます。この問題に対処するため、SamouraiはTorに基づいた暗号化通信プロトコルである"Soroban"を開発しました。Sorobanを使用すると、Payjoinに必要な交換がユーザーフレンドリーなインターフェースの背後で自動化されます。これが、この記事で検討する第二の方法です。
 
-これらの暗号化された交換には、Cahoots参加者間の接続と認証の確立が必要です。したがって、Soroban通信は、Cahoots取引を行うために別のユーザーと通信する機能を含む、ウォレットのユニークな識別子であるユーザーのPaynymsに基づいています。Paynymsについて詳しくは、この記事をご覧ください：[BIP47 - PAYNYM](https://planb.network/tutorials/privacy/paynym-bip47)。簡単に言うと、Paynymは、さまざまな機能を可能にするウォレットにリンクされたユニークな識別子であり、暗号化されたメッセージングを含みます。これが、Testnet上の私の例です：![paynym samourai wallet](assets/en/1.webp)
+これらの暗号化された交換には、Cahoots参加者間の接続と認証の確立が必要です。したがって、Soroban通信は、Cahoots取引を行うために別のユーザーと通信する機能を含む、ウォレットのユニークな識別子であるユーザーのPaynymsに基づいています。Paynymsについて詳しくは、この記事をご覧ください：[BIP47 - PAYNYM](https://planb.network/tutorials/privacy/paynym-bip47)
+
+簡単に言うと、Paynymは、さまざまな機能を可能にするウォレットにリンクされたユニークな識別子であり、暗号化されたメッセージングを含みます。これが、Testnet上の私の例です：![paynym samourai wallet](assets/en/1.webp)
 
 **要約：**
 - _Payjoin_ = 協力的な取引の特定の構造；
@@ -62,7 +64,7 @@ Samouraiを介したPayJoin（Stowaway）としてのリモートCahoots取引�
 ![follow paynym](assets/en/6.webp)
 `YES`をクリックして確認します。
 ![confirm follow paynym](assets/en/7.webp)
-その後、ソフトウェアは`SE CONNECTER`ボタンを提供します。このチュートリアルでは、このボタンをクリックする必要はありません。このステップは、[BIP47](https://planb.network/tutorials/privacy/paynym-bip47)の一環として他のPaynymに支払いを行う予定がある場合にのみ必要ですが、このチュートリアルとは関係ありません。
+その後、ソフトウェアは`SE CONNECTER`ボタンを提供します。このチュートリアルでは、このボタンをクリックする必要はありません。このステップは、BIP47の一環として他のPaynymに支払いを行う予定がある場合にのみ必要ですが、このチュートリアルとは関係ありません。
 ![connect paynym](assets/en/8.webp)
 受信者のPaynymがあなたのPaynymにフォローされたら、受信者もあなたをフォローするようにこの操作を逆方向で繰り返します。その後、Payjoinを実行できます。
 

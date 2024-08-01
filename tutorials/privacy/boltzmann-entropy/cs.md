@@ -17,7 +17,7 @@ Boltzmannův kalkulátor je nástroj pro analýzu Bitcoinové transakce měřen�
 Tento Pythonový nástroj byl vyvinut týmy Samourai Wallet a OXT, ale lze jej použít na jakoukoli Bitcoinovou transakci.
 
 ## Jak používat Boltzmannův kalkulátor?
-K použití Boltzmannova kalkulátoru máte dvě možnosti. První je přímo nainstalovat Pythonový nástroj na váš počítač. Alternativně můžete využít web KYCP.org (_Know Your Coin Privacy_), který nabízí zjednodušenou platformu pro použití. Pro uživatele [RoninDojo](https://planb.network/tutorials/node/ronin-dojo-v2) vězte, že tento nástroj je již do vašeho uzlu integrován.
+K použití Boltzmannova kalkulátoru máte dvě možnosti. První je přímo nainstalovat Pythonový nástroj na váš počítač. Alternativně můžete využít web KYCP.org (_Know Your Coin Privacy_), který nabízí zjednodušenou platformu pro použití. Pro uživatele RoninDojo vězte, že tento nástroj je již do vašeho uzlu integrován.
 
 Použití webu KYCP je velmi jednoduché: stačí zadat identifikátor transakce (TXID), který chcete analyzovat, do vyhledávacího pole a stisknout `ENTER`.
 ![KYCP](assets/1.webp)

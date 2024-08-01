@@ -299,7 +299,7 @@ Ihre UTXOs, die gemischt werden sollen, befinden sich im `Mixing in progress...`
 Sobald das `Tx0` bestätigt ist, werden Ihre UTXOs automatisch beim Koordinator registriert, und die ersten Mixes beginnen automatisch nacheinander.
 
 ![samourai](assets/notext/34.webp)
-Indem Sie den Tab `Remixing` überprüfen, der dem **Postmix**-Konto entspricht, werden Sie die UTXOs beobachten können, die aus den anfänglichen Mixvorgängen resultieren. Diese Münzen bleiben bereit für nachfolgendes Remixing, was keine zusätzlichen Gebühren verursacht. Ich empfehle, diesen anderen Artikel zu konsultieren, um mehr über den Remixing-Prozess und die Effizienz eines Coinjoin-Zyklus zu erfahren: [REMIX - WHIRLPOOL](https://planb.network/tutorials/privacy/remix-whirlpool).
+Indem Sie den Tab `Remixing` überprüfen, der dem **Postmix**-Konto entspricht, werden Sie die UTXOs beobachten können, die aus den anfänglichen Mixvorgängen resultieren. Diese Münzen bleiben bereit für nachfolgendes Remixing, was keine zusätzlichen Gebühren verursacht. Ich empfehle, diesen anderen Artikel zu konsultieren, um mehr über den Remixing-Prozess und die Effizienz eines Coinjoin-Zyklus zu erfahren: [REMIX - WHIRLPOOL](https://planb.network/tutorials/privacy/remix-whirlpool)
 ![samourai](assets/notext/35.webp)
 
 Es ist möglich, das Remixing eines UTXO vorübergehend zu unterbrechen, indem man den Pausenknopf rechts davon drückt. Um es wieder für das Remixing berechtigt zu machen, klicken Sie einfach ein zweites Mal auf denselben Knopf. Es ist wichtig zu beachten, dass pro Benutzer und pro Pool gleichzeitig nur ein Coinjoin durchgeführt werden kann. Wenn Sie also 6 UTXOs von `100 000 sats` bereit für den Coinjoin haben, kann nur einer davon gemischt werden. Nachdem ein UTXO gemischt wurde, wählt Samourai Wallet zufällig ein neues UTXO aus Ihrer Verfügbarkeit aus, um das Remixing jeder Münze zu diversifizieren und auszugleichen.
@@ -360,7 +360,7 @@ Stellen Sie sicher, dass Ihr SCODE korrekt registriert wurde, indem Sie erneut a
 ## Wie kann man die Qualität unserer Coinjoin-Zyklen erkennen?
 Damit ein Coinjoin wirklich effektiv ist, ist es wesentlich, dass er eine gute Uniformität zwischen den Beträgen von Eingängen und Ausgängen aufweist. Diese Uniformität verstärkt die Anzahl möglicher Interpretationen in den Augen eines externen Beobachters und erhöht damit die Unsicherheit, die die Transaktion umgibt. Um diese durch einen Coinjoin erzeugte Unsicherheit zu quantifizieren, kann man die Entropie der Transaktion berechnen. Für eine vertiefende Erkundung dieser Indikatoren verweise ich Sie auf das Tutorial: [BOLTZMANN CALCULATOR](https://planb.network/de/tutorials/privacy/boltzmann-entropy). Das Whirlpool-Modell wird als dasjenige anerkannt, das die meiste Homogenität zu Coinjoins beiträgt.
 
-Als Nächstes wird die Leistung mehrerer Coinjoin-Zyklen basierend auf dem Umfang der Gruppen bewertet, in denen eine Münze versteckt ist. Die Größe dieser Gruppen definiert das, was man Anonsets nennt. Es gibt zwei Arten von Anonsets: Die erste bewertet die gegen eine retrospektive Analyse (von der Gegenwart in die Vergangenheit) erhaltene Privatsphäre und die zweite, gegen eine prospektive Analyse (von der Vergangenheit in die Gegenwart). Für eine detaillierte Erklärung dieser beiden Indikatoren lade ich Sie ein, das Tutorial zu konsultieren: [WHIRLPOOL STATS TOOLS - ANONSETS](https://planb.network/tutorials/privacy/wst-anonsets).
+Als Nächstes wird die Leistung mehrerer Coinjoin-Zyklen basierend auf dem Umfang der Gruppen bewertet, in denen eine Münze versteckt ist. Die Größe dieser Gruppen definiert das, was man Anonsets nennt. Es gibt zwei Arten von Anonsets: Die erste bewertet die gegen eine retrospektive Analyse (von der Gegenwart in die Vergangenheit) erhaltene Privatsphäre und die zweite, gegen eine prospektive Analyse (von der Vergangenheit in die Gegenwart). Für eine detaillierte Erklärung dieser beiden Indikatoren lade ich Sie ein, das Tutorial zu konsultieren: [WHIRLPOOL STATS TOOLS - ANONSETS](https://planb.network/tutorials/privacy/wst-anonsets)
 
 ## Wie man Postmix verwaltet?
 Nachdem Coinjoin-Zyklen durchgeführt wurden, ist die beste Strategie, Ihre UTXOs auf dem **Postmix**-Konto zu halten, in Erwartung ihrer zukünftigen Verwendung. Es ist sogar ratsam, sie unendlich remixen zu lassen, bis Sie sie ausgeben müssen.
@@ -386,7 +386,7 @@ Als Nächstes müssen Sie vorsichtig sein bei der Verwaltung von toxischem Wechs
 Detaillierte Tutorials zur Implementierung dieser verschiedenen Techniken werden bald im PlanB Network angeboten.
 
 **Zusätzliche Ressourcen:**
-- [Samourai Wallet Video-Tutorial](https://planb.network/tutorials/wallet/samourai);
+[Samourai Wallet Video-Tutorial](https://planb.network/tutorials/wallet/samourai)
 - [Samourai Wallet Dokumentation - Whirlpool](https://docs.samourai.io/whirlpool/basic-concepts);
 - [Twitter-Thread über CoinJoins](https://twitter.com/SamouraiWallet/status/1489220847336308739);
 - [Blogbeitrag über CoinJoins](https://www.pandul.fr/post/comprendre-et-utiliser-le-coinjoin-sur-bitcoin).

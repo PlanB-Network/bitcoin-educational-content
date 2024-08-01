@@ -24,9 +24,9 @@ description: Как добавить профиль профессора на с
 - Наличие форка [исходного репозитория сети PlanB](https://github.com/DecouvreBitcoin/sovereign-university-data).
 
 **Если вам нужна помощь в получении этих предварительных требований, мои другие руководства помогут вам:**
-- **[Понимание Git и GitHub](https://planb.network/tutorials/others/basics-of-github)**
-- **[Создание аккаунта на GitHub](https://planb.network/tutorials/others/create-github-account)**
-- **[Настройка рабочего окружения](https://planb.network/tutorials/others/github-desktop-work-environment)**
+**[Понимание Git и GitHub](https://planb.network/tutorials/others/basics-of-github)**
+**[Создание аккаунта на GitHub](https://planb.network/tutorials/others/create-github-account)**
+**[Настройка рабочего окружения](https://planb.network/tutorials/others/github-desktop-work-environment)**
 
 ## Как создать новый профиль профессора?
 

@@ -1,5 +1,5 @@
 ---
-name: Einführung in die Kryptographie
+name: Einführung in die kryptographischen Algorithmen von Bitcoin
 goal: Verständnis der Erstellung einer Bitcoin-Wallet aus kryptographischer Sicht
 objectives:
   - Entmystifizierung der kryptographischen Terminologie im Zusammenhang mit Bitcoin.

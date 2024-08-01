@@ -26,7 +26,7 @@ Cahoots transactions involve exchanging partially signed transactions between us
 
 When done remotely, this process becomes too complex. To address this issue, Samourai has developed an encrypted communication protocol based on Tor, called "Soroban." With Soroban, the necessary exchanges for a Payjoin are automated behind a user-friendly interface. This is the second method we will explore in this article.
 
-These encrypted exchanges require establishing a connection and authentication between Cahoots participants. Soroban communications rely on the users' Paynyms. If you are not familiar with Paynyms, I invite you to refer to this article for more details: [BIP47 - PAYNYM](https://planb.network/tutorials/privacy/paynym-bip47).
+These encrypted exchanges require establishing a connection and authentication between Cahoots participants. Soroban communications rely on the users' Paynyms. If you are not familiar with Paynyms, I invite you to refer to this article for more details: [BIP47 - PAYNYM](https://planb.network/tutorials/privacy/paynym-bip47)
 To put it simply, a Paynym is a unique identifier linked to your wallet that allows for various functionalities, including encrypted messaging. The Paynym is presented in the form of an identifier and an illustration representing a robot. Here is an example of mine on the Testnet: ![Paynym Sparrow](assets/en/1.webp)
 
 **In summary:**
@@ -51,7 +51,7 @@ On your side, open your Sparrow Wallet and access the same `Show PayNym` menu. I
 ![Retrieve paynym](assets/notext/3.webp)
 Next, enter your collaborator's Paynym identifier (either their nickname `+...` or their payment code `PM...`) in the `Find Contact` box, then click on the `Add Contact` button.
 ![add contact](assets/notext/4.webp)
-The software will then offer you a `Link Contact` button. It is not necessary to click on this button for our tutorial. This step is only necessary if you plan to make payments to the Paynym indicated in the context of [BIP47](https://planb.network/tutorials/privacy/paynym-bip47), which is unrelated to our tutorial.
+The software will then offer you a `Link Contact` button. It is not necessary to click on this button for our tutorial. This step is only necessary if you plan to make payments to the Paynym indicated in the context of BIP47, which is unrelated to our tutorial.
 
 Once the recipient's Paynym is followed by your Paynym, repeat this operation in the opposite direction so that your recipient also follows you. You can then perform a Payjoin.
 

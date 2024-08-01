@@ -26,7 +26,7 @@ Transakce Cahoots zahrnují výměnu částečně podepsaných transakcí mezi u
 
 Když se tento proces provádí na dálku, stává se příliš složitým. Aby Samourai tento problém řešil, vyvinul šifrovaný komunikační protokol založený na Toru, nazvaný "Soroban." S Sorobanem jsou nutné výměny pro Payjoin automatizovány za uživatelsky přívětivým rozhraním. To je druhá metoda, kterou v tomto článku prozkoumáme.
 
-Tyto šifrované výměny vyžadují navázání spojení a autentizaci mezi účastníky Cahoots. Komunikace Sorobanu spoléhá na Paynyms uživatelů. Pokud nejste obeznámeni s Paynyms, doporučuji se odkázat na tento článek pro více detailů: [BIP47 - PAYNYM](https://planb.network/tutorials/privacy/paynym-bip47).
+Tyto šifrované výměny vyžadují navázání spojení a autentizaci mezi účastníky Cahoots. Komunikace Sorobanu spoléhá na Paynyms uživatelů. Pokud nejste obeznámeni s Paynyms, doporučuji se odkázat na tento článek pro více detailů: [BIP47 - PAYNYM](https://planb.network/tutorials/privacy/paynym-bip47)
 Abych to řekl jednoduše, Paynym je unikátní identifikátor spojený s vaší peněženkou, který umožňuje různé funkce, včetně šifrovaného zasílání zpráv. Paynym je prezentován ve formě identifikátoru a ilustrace představující robota. Zde je příklad mého na Testnetu: ![Paynym Sparrow](assets/en/1.webp)
 **Shrnutí:**
 - *Payjoin* = Specifická struktura kolaborativní transakce;
@@ -50,7 +50,7 @@ Na vaší straně otevřete vaši Sparrow Wallet a přistupte k stejnému menu `
 ![Retrieve paynym](assets/notext/3.webp)
 Dále zadejte identifikátor Paynym vašeho spolupracovníka (buď jejich přezdívku `+...` nebo jejich platební kód `PM...`) do pole `Find Contact`, poté klikněte na tlačítko `Add Contact`.
 ![add contact](assets/notext/4.webp)
-Software vám poté nabídne tlačítko `Link Contact`. Kliknutí na toto tlačítko není pro náš tutoriál nutné. Tento krok je nutný pouze pokud plánujete provádět platby na Paynym uvedený v kontextu [BIP47](https://planb.network/tutorials/privacy/paynym-bip47), což není součástí našeho tutoriálu.
+Software vám poté nabídne tlačítko `Link Contact`. Kliknutí na toto tlačítko není pro náš tutoriál nutné. Tento krok je nutný pouze pokud plánujete provádět platby na Paynym uvedený v kontextu BIP47, což není součástí našeho tutoriálu.
 
 Jakmile Paynym příjemce sleduje váš Paynym, opakujte tuto operaci v opačném směru, aby vás příjemce také sledoval. Poté můžete provést Payjoin.
 

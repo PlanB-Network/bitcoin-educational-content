@@ -253,7 +253,7 @@ Na próxima etapa, você acessará a página dedicada à configuração do seu D
 
 ![coinjoin](assets/notext/24.webp)
 
-*Para novos usuários do Samourai, será então necessário criar uma carteira do zero. Se precisar de ajuda, você pode consultar as instruções para configurar uma nova carteira Samourai [neste tutorial, especificamente na seção "Criando uma carteira de software"](https://planb.network/tutorials/privacy/coinjoin-samourai-wallet).*
+*Para novos usuários do Samourai, será então necessário criar uma carteira do zero. Se precisar de ajuda, você pode consultar as instruções para configurar uma nova carteira Samourai [neste tutorial, especificamente na seção "Criando uma carteira de software"](https://planb.network/tutorials/privacy/coinjoin-samourai-wallet)*
 
 Se você está procedendo com a restauração de uma carteira Samourai já existente, selecione `Restaurar carteira existente`, depois escolha `Eu tenho um arquivo de backup do Samourai`.
 
@@ -360,4 +360,4 @@ As contas do Whirlpool são facilmente identificáveis no Samourai Wallet pela s
 
 ![coinjoin](assets/notext/53.webp)
 
-Para acompanhar seus coinjoins automáticos, também recomendo configurar uma carteira somente de visualização através do aplicativo Sentinel. Adicione o ZPUB da sua conta **Postmix** e monitore o progresso dos seus ciclos de coinjoin em tempo real. Se você quiser entender como usar o Sentinel, recomendo consultar este outro tutorial na PlanB Network: [**SENTINEL WATCH-ONLY**](https://planb.network/tutorials/wallet/sentinel).
+Para acompanhar seus coinjoins automáticos, também recomendo configurar uma carteira somente de visualização através do aplicativo Sentinel. Adicione o ZPUB da sua conta **Postmix** e monitore o progresso dos seus ciclos de coinjoin em tempo real. Se você quiser entender como usar o Sentinel, recomendo consultar este outro tutorial na PlanB Network: [**SENTINEL WATCH-ONLY**](https://planb.network/tutorials/wallet/sentinel)

@@ -255,7 +255,7 @@ V dalším kroku získáte přístup na stránku určenou pro konfiguraci vašeh
 
 ![coinjoin](assets/notext/24.webp)
 
-*Pro nové uživatele Samourai bude poté nutné vytvořit peněženku od začátku. Pokud potřebujete pomoc, můžete se poradit s návodem na nastavení nové peněženky Samourai [v tomto tutoriálu, konkrétně v sekci "Vytvoření softwarové peněženky"](https://planb.network/tutorials/privacy/coinjoin-samourai-wallet).*
+*Pro nové uživatele Samourai bude poté nutné vytvořit peněženku od začátku. Pokud potřebujete pomoc, můžete se poradit s návodem na nastavení nové peněženky Samourai [v tomto tutoriálu, konkrétně v sekci "Vytvoření softwarové peněženky"](https://planb.network/tutorials/privacy/coinjoin-samourai-wallet)*
 Pokud pokračujete v obnově již existující peněženky Samourai, vyberte `Restore existing wallet`, poté zvolte `I have a Samourai backup file`.
 ![coinjoin](assets/notext/25.webp)
 Obvykle byste měli mít svůj soubor pro obnovu vždy ve schránce. Poté klikněte na `PASTE` pro vložení vašeho souboru do určeného místa. Pro jeho dešifrování bude také nutné zadat BIP39 heslovou frázi vaší peněženky do příslušného pole, které se nachází hned pod ním. Pro dokončení klikněte na `FINISH`.
@@ -360,4 +360,4 @@ Vaše smíchaná UTXO jsou viditelná z účtu **Postmix** na Whirlpool GUI. Kro
 Účty Whirlpool jsou na Samourai Wallet snadno rozpoznatelné podle jejich modré barvy. To vám umožňuje utrácet vaše smíchaná UTXO odkudkoli a kdykoli přímo z vašeho smartphonu.
 
 ![coinjoin](assets/notext/53.webp)
-Abychom sledovali vaše automatické coinjoins, doporučuji také nastavit sledovací (watch-only) peněženku prostřednictvím aplikace Sentinel. Přidejte ZPUB vašeho účtu **Postmix** a sledujte průběh vašich cyklů coinjoin v reálném čase. Pokud chcete pochopit, jak používat Sentinel, doporučuji se poradit s tímto dalším tutoriálem na PlanB Network: [**SENTINEL WATCH-ONLY**](https://planb.network/tutorials/wallet/sentinel).
+Abychom sledovali vaše automatické coinjoins, doporučuji také nastavit sledovací (watch-only) peněženku prostřednictvím aplikace Sentinel. Přidejte ZPUB vašeho účtu **Postmix** a sledujte průběh vašich cyklů coinjoin v reálném čase. Pokud chcete pochopit, jak používat Sentinel, doporučuji se poradit s tímto dalším tutoriálem na PlanB Network: [**SENTINEL WATCH-ONLY**](https://planb.network/tutorials/wallet/sentinel)

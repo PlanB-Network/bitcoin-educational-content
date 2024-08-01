@@ -3,7 +3,7 @@ from datetime import datetime, timedelta
 import os
 
 # Path to the file
-file_path = '/home/jramos/salvadoranevents/sovereign-university-data/resources/conference/pleblab-hackerspace-2024/events.yml'
+file_path = '/home/jramos/sovereign-university-data/resources/conference/pleblab-hackerspace-2024/events.yml'
 
 # Create the directory if it does not exist
 os.makedirs(os.path.dirname(file_path), exist_ok=True)
@@ -29,7 +29,7 @@ base_event = {
     'description': 'Every Sunday, we open our doors to the Bitcoin Builders, from simple projects and creators to forward-thinking developers. It is a collaborative space where your Bitcoin project or startup takes center stage.',
     'language': ['en'],
     'links': {
-        'website': 'https://www.meetup.com/es-ES/pleb-lab/events/301693658/',
+        'website': 'https://www.meetup.com/pleb-lab/events/301693658/?utm_medium=referral&utm_campaign=share-btn_savedevents_share_modal&utm_source=link',
         'replay_url': '',
         'live_url': ''
     },

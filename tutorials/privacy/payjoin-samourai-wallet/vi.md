@@ -27,7 +27,9 @@ Stowaway dựa trên một loại giao dịch mà Samourai gọi là "Cahoots." 
 Giao dịch Cahoots bao gồm việc trao đổi các giao dịch đã ký một phần giữa người dùng. Quá trình này có thể kéo dài và phức tạp, đặc biệt là khi thực hiện từ xa. Tuy nhiên, nó vẫn có thể được thực hiện một cách thủ công với người dùng khác, điều này có thể thuận tiện nếu các bên hợp tác ở gần nhau về mặt vật lý. Trên thực tế, điều này bao gồm việc trao đổi thủ công năm mã QR để được quét liên tiếp.
 
 Khi thực hiện từ xa, quá trình này trở nên quá phức tạp. Để giải quyết vấn đề này, Samourai đã phát triển một giao thức giao tiếp mã hóa dựa trên Tor, gọi là "Soroban." Với Soroban, các trao đổi cần thiết cho một Payjoin được tự động hóa phía sau một giao diện thân thiện với người dùng. Đây là phương pháp thứ hai mà chúng tôi sẽ nghiên cứu trong bài viết này.
-Những giao dịch được mã hóa này đòi hỏi việc thiết lập một kết nối và xác thực giữa các thành viên tham gia Cahoots. Do đó, giao tiếp Soroban dựa trên Paynyms của người dùng. Nếu bạn chưa quen với Paynyms, tôi mời bạn tham khảo bài viết này để biết thêm chi tiết: [BIP47 - PAYNYM](https://planb.network/tutorials/privacy/paynym-bip47). Để nói một cách đơn giản, Paynym là một định danh duy nhất liên kết với ví của bạn, cho phép nhiều chức năng khác nhau, bao gồm cả tin nhắn được mã hóa. Paynym được trình bày dưới dạng một định danh và một hình minh họa đại diện cho một robot. Dưới đây là ví dụ về Paynym của tôi trên Testnet: ![paynym samourai wallet](assets/en/1.webp)
+Những giao dịch được mã hóa này đòi hỏi việc thiết lập một kết nối và xác thực giữa các thành viên tham gia Cahoots. Do đó, giao tiếp Soroban dựa trên Paynyms của người dùng. Nếu bạn chưa quen với Paynyms, tôi mời bạn tham khảo bài viết này để biết thêm chi tiết: [BIP47 - PAYNYM](https://planb.network/tutorials/privacy/paynym-bip47)
+
+ Để nói một cách đơn giản, Paynym là một định danh duy nhất liên kết với ví của bạn, cho phép nhiều chức năng khác nhau, bao gồm cả tin nhắn được mã hóa. Paynym được trình bày dưới dạng một định danh và một hình minh họa đại diện cho một robot. Dưới đây là ví dụ về Paynym của tôi trên Testnet: ![paynym samourai wallet](assets/en/1.webp)
 
 **Tóm tắt:**
 - _Payjoin_ = Cấu trúc cụ thể của các giao dịch hợp tác;
@@ -62,7 +64,7 @@ Bạn có thể sau đó dán mã thanh toán của người hợp tác bằng c
 Nhấp vào nút `SUIVRE`.
 ![theo dõi paynym](assets/notext/6.webp)Xác nhận bằng cách nhấp vào `YES`.
 ![xác nhận theo dõi paynym](assets/notext/7.webp)
-Sau đó, phần mềm sẽ cung cấp cho bạn nút `SE CONNECTER`. Không cần thiết phải nhấp vào nút này cho hướng dẫn của chúng tôi. Bước này chỉ cần thiết nếu bạn dự định thực hiện thanh toán cho Paynym khác như một phần của [BIP47](https://planb.network/tutorials/privacy/paynym-bip47), điều này không liên quan đến hướng dẫn của chúng tôi.
+Sau đó, phần mềm sẽ cung cấp cho bạn nút `SE CONNECTER`. Không cần thiết phải nhấp vào nút này cho hướng dẫn của chúng tôi. Bước này chỉ cần thiết nếu bạn dự định thực hiện thanh toán cho Paynym khác như một phần của BIP47, điều này không liên quan đến hướng dẫn của chúng tôi.
 ![kết nối paynym](assets/notext/8.webp)
 Một khi Paynym của người nhận đã được Paynym của bạn theo dõi, lặp lại thao tác này theo hướng ngược lại để người nhận cũng theo dõi bạn. Sau đó, bạn có thể thực hiện một giao dịch Payjoin.
 

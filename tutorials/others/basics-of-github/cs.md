@@ -57,5 +57,5 @@ Na Gitu a GitHubu se setkáte s příkazy a funkcemi, jejichž názvy se mohou z
 
 Tento seznam samozřejmě není vyčerpávající. Existuje mnoho dalších technických termínů specifických pro Git a GitHub. Nicméně ty zmíněné zde jsou hlavní, se kterými se budete často setkávat.
 Po přečtení tohoto článku je možné, že některé aspekty Gitu a GitHubu vám stále nejsou zcela jasné. Doporučuji vám začít tyto nástroje používat sami. Praxe je často nejlepší způsob, jak pochopit, jak stroj funguje! A pro začátek můžete objevit tyto 2 další tutoriály:
-- **[Vytvořte si účet na GitHubu](https://planb.network/tutorials/others/create-github-account)**
-- **[Nastavení vašeho lokálního prostředí pro přispívání do PlanB Network](https://planb.network/tutorials/others/github-desktop-work-environment)**
+**[Vytvořte si účet na GitHubu](https://planb.network/tutorials/others/create-github-account)**
+**[Nastavení vašeho lokálního prostředí pro přispívání do PlanB Network](https://planb.network/tutorials/others/github-desktop-work-environment)**

@@ -24,9 +24,9 @@ Scopriamo insieme come aggiungere un nuovo professore in questo tutorial!
 - Avere un fork del [repository sorgente della Rete PlanB](https://github.com/DecouvreBitcoin/sovereign-university-data).
 
 **Se hai bisogno di aiuto per ottenere questi prerequisiti, i miei altri tutorial ti guideranno:**
-- **[Comprendere Git e GitHub](https://planb.network/tutorials/others/basics-of-github)**
-- **[Creare un Account GitHub](https://planb.network/tutorials/others/create-github-account)**
-- **[Configurare il Tuo Ambiente di Lavoro](https://planb.network/tutorials/others/github-desktop-work-environment)**
+**[Comprendere Git e GitHub](https://planb.network/tutorials/others/basics-of-github)**
+**[Creare un Account GitHub](https://planb.network/tutorials/others/create-github-account)**
+**[Configurare il Tuo Ambiente di Lavoro](https://planb.network/tutorials/others/github-desktop-work-environment)**
 
 ## Come creare un nuovo profilo professore?
 

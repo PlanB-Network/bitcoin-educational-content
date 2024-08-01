@@ -57,5 +57,5 @@ Bei der Verwendung von Git und GitHub werden Sie auf Befehle und Funktionen sto�
 
 Diese Liste ist natürlich nicht erschöpfend. Es gibt viele andere technische Begriffe, die spezifisch für Git und GitHub sind. Die hier erwähnten sind jedoch die Hauptbegriffe, auf die Sie häufig stoßen werden.
 Nachdem Sie diesen Artikel gelesen haben, ist es möglich, dass einige Aspekte von Git und GitHub immer noch unklar für Sie sind. Ich ermutige Sie, diese Werkzeuge selbst zu nutzen. Übung ist oft der beste Weg, um zu verstehen, wie die Maschine funktioniert! Und um zu beginnen, können Sie diese 2 anderen Tutorials entdecken:
-- **[Erstellen Sie Ihr GitHub-Konto](https://planb.network/tutorials/others/create-github-account)**
-- **[Einrichten Ihrer lokalen Umgebung, um zum PlanB Network beizutragen](https://planb.network/tutorials/others/github-desktop-work-environment)**
+**[Erstellen Sie Ihr GitHub-Konto](https://planb.network/tutorials/others/create-github-account)**
+**[Einrichten Ihrer lokalen Umgebung, um zum PlanB Network beizutragen](https://planb.network/tutorials/others/github-desktop-work-environment)**

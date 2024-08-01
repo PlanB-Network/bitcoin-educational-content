@@ -24,9 +24,9 @@ Tutustutaan yhdessä, miten lisätä uusi professori tässä opetusohjelmassa!
 - Forkin omistaminen [PlanB Networkin lähdekoodirepositoriosta](https://github.com/DecouvreBitcoin/sovereign-university-data).
 
 **Jos tarvitset apua näiden edellytysten saavuttamisessa, muut opetusohjelmani opastavat sinua:**
-- **[Gitin ja GitHubin ymmärtäminen](https://planb.network/tutorials/others/basics-of-github)**
-- **[GitHub-tilin luominen](https://planb.network/tutorials/others/create-github-account)**
-- **[Työympäristösi pystyttäminen](https://planb.network/tutorials/others/github-desktop-work-environment)**
+**[Gitin ja GitHubin ymmärtäminen](https://planb.network/tutorials/others/basics-of-github)**
+**[GitHub-tilin luominen](https://planb.network/tutorials/others/create-github-account)**
+**[Työympäristösi pystyttäminen](https://planb.network/tutorials/others/github-desktop-work-environment)**
 
 ## Kuinka luoda uusi professoriprofiili?
 

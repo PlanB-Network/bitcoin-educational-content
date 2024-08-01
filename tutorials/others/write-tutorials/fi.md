@@ -26,10 +26,10 @@ Osallistuaksesi PlanB-verkostoon sinulla on 3 vaihtoehtoa riippuen kokemustasost
 - On oltava [professoriprofiili PlanB-verkostossa](https://planb.network/professors) (vain jos ehdotat täydellistä opasta).
 
 **Jos tarvitset apua näiden edellytysten saavuttamisessa, muut oppaani opastavat sinua:**
-- **[Gitin ja GitHubin ymmärtäminen](https://planb.network/tutorials/others/basics-of-github)**
-- **[GitHub-tilin luominen](https://planb.network/tutorials/others/create-github-account)**
-- **[Työympäristön pystyttäminen](https://planb.network/tutorials/others/github-desktop-work-environment)**
-- **[Professoriprofiilin luominen](https://planb.network/tutorials/others/create-teacher-profile)**
+**[Gitin ja GitHubin ymmärtäminen](https://planb.network/tutorials/others/basics-of-github)**
+**[GitHub-tilin luominen](https://planb.network/tutorials/others/create-github-account)**
+**[Työympäristön pystyttäminen](https://planb.network/tutorials/others/github-desktop-work-environment)**
+**[Professoriprofiilin luominen](https://planb.network/tutorials/others/create-teacher-profile)**
 ## Minkä tyyppistä sisältöä kirjoittaa PlanB-verkostoon?
 Etsimme ensisijaisesti oppaita työkaluista, jotka liittyvät Bitcoiniin tai sen ekosysteemiin. Nämä sisällöt voidaan järjestää kuuden pääkategorian ympärille:
 - Lompakko;

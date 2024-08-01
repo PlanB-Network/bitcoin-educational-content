@@ -24,9 +24,9 @@ Lassen Sie uns gemeinsam entdecken, wie man einen neuen Professor in diesem Tuto
 - Einen Fork des [PlanB Netzwerk-Quellrepositories](https://github.com/DecouvreBitcoin/sovereign-university-data) haben.
 
 **Wenn Sie Hilfe benötigen, um diese Voraussetzungen zu erfüllen, werden Sie meine anderen Tutorials leiten:**
-- **[Verständnis von Git und GitHub](https://planb.network/tutorials/others/basics-of-github)**
-- **[Erstellen eines GitHub-Kontos](https://planb.network/tutorials/others/create-github-account)**
-- **[Einrichten Ihrer Arbeitsumgebung](https://planb.network/tutorials/others/github-desktop-work-environment)**
+**[Verständnis von Git und GitHub](https://planb.network/tutorials/others/basics-of-github)**
+**[Erstellen eines GitHub-Kontos](https://planb.network/tutorials/others/create-github-account)**
+**[Einrichten Ihrer Arbeitsumgebung](https://planb.network/tutorials/others/github-desktop-work-environment)**
 
 ## Wie erstellt man ein neues Profil als Professor?
 

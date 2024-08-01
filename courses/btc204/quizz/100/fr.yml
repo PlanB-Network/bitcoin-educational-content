@@ -1,0 +1,13 @@
+question: Qu'est-ce qu'indique l'entropie dans le contexte de l'analyse de chaîne sur Bitcoin ?
+
+answer: Le manque de connaissance des analystes sur la configuration exacte de la transaction.
+
+wrong_answers:
+  - La rapidité avec laquelle les informations sur une transaction se dispersent à travers le réseau.
+  - Le niveau de sécurité cryptographique des signatures numériques utilisées dans la transaction.
+  - La taille du groupe d'UTXOs identiques dans lequel se cache une pièce.
+
+explanation: |
+  L'entropie permet de mesurer le manque de connaissance des analystes sur la configuration exacte de la transaction. Autrement dit, plus l'entropie est élevée, plus la tâche d'identification des flux de bitcoins entre les inputs et outputs devient difficile pour les analystes.
+
+reviewed: false

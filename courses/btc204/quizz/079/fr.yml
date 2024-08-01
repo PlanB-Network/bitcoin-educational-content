@@ -1,0 +1,13 @@
+question: Quel terme décrit la protection offerte par un coinjoin contre l'analyse des transactions futures d'une pièce ?
+
+answer: Anonset prospectif.
+
+wrong_answers:
+  - Anonset rétrospectif.
+  - Résistance à la traçabilité.
+  - Confidentialité temporelle.
+
+explanation: |
+  La protection contre l'analyse du passé vers le présent est ce que l'on nomme l'anonset prospectif.
+
+reviewed: false

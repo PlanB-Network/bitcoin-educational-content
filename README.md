@@ -25,7 +25,7 @@
   <a href="https://weblate.planb.network/engage/planb-network-website/">
     <img src="https://weblate.planb.network/widget/planb-network-website/website-elements/svg-badge.svg" alt="Translation status" />
   </a>
-  <a href="https://github.com/DecouvreBitcoin/sovereign-university-data">
+  <a href="https://github.com/PlanB-Network/bitcoin-educational-content">
     <img src="https://img.shields.io/github/contributors/DecouvreBitcoin/sovereign-university-data?label=Contributors&color=ff5c00" alt="Contributors">
   </a>
 </div>

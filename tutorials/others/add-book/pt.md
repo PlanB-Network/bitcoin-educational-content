@@ -9,7 +9,7 @@ A missão da PlanB é fornecer recursos educacionais de primeira linha sobre Bit
 **Você quer adicionar um livro relacionado ao Bitcoin no site da Rede PlanB e aumentar a visibilidade do seu trabalho, mas não sabe como? Este tutorial é para você!**
 ![book](assets/01.webp)
 - Primeiro, você precisa ter uma conta no GitHub. Se você não sabe como criar uma conta, fizemos [um tutorial detalhado para guiá-lo](https://planb.network/tutorials/others/create-github-account).
-- Vá para [o repositório GitHub da PlanB dedicado a dados](https://github.com/DecouvreBitcoin/sovereign-university-data/tree/dev/resources/books) na seção `resources/books/`:
+- Vá para [o repositório GitHub da PlanB dedicado a dados](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/books) na seção `resources/books/`:
 ![book](assets/02.webp)
 - Clique no canto superior direito no botão `Add file`, depois em `Create new file`:
 ![book](assets/03.webp)

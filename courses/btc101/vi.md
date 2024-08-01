@@ -1248,7 +1248,7 @@ Xin chúc mừng bạn đã hoàn thành khóa học BTC 101 này! Tôi thực s
 ## Hỗ trợ chúng tôi
 <chapterId>3e6e756b-b6c4-5d41-bece-767922348067</chapterId>
 
-Khóa học này, cũng như tất cả nội dung trên trường đại học này, đã được cộng đồng của chúng tôi cung cấp miễn phí cho bạn. Để hỗ trợ chúng tôi, bạn có thể chia sẻ nó với người khác, trở thành thành viên của trường đại học, và thậm chí đóng góp vào sự phát triển của nó qua [GitHub của chúng tôi](https://github.com/DecouvreBitcoin/sovereign-university-data). Thay mặt cho toàn bộ đội ngũ, cảm ơn bạn!
+Khóa học này, cũng như tất cả nội dung trên trường đại học này, đã được cộng đồng của chúng tôi cung cấp miễn phí cho bạn. Để hỗ trợ chúng tôi, bạn có thể chia sẻ nó với người khác, trở thành thành viên của trường đại học, và thậm chí đóng góp vào sự phát triển của nó qua [GitHub của chúng tôi](https://github.com/PlanB-Network/bitcoin-educational-content). Thay mặt cho toàn bộ đội ngũ, cảm ơn bạn!
 
 ## Đánh giá khóa học
 <chapterId>44d01865-5c89-55a5-a397-a014960eec0f</chapterId>

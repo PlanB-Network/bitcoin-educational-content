@@ -13,7 +13,7 @@ Más allá de tutoriales y formación, PlanB Network también ofrece una vasta b
 *Es imperativo que todo el contenido integrado en el sitio esté libre de derechos o respete la licencia del archivo fuente. Además, todos los visuales publicados en PlanB Network están disponibles bajo la licencia [CC-BY-SA](https://creativecommons.org/licenses/by-sa/4.0/).*
 ![event](assets/01.webp)
 - Primero, necesitas tener una cuenta en GitHub. Si no sabes cómo crear una cuenta, hemos hecho [un tutorial detallado para guiarte](https://planb.network/tutorials/others/create-github-account).
-- Ve al [repositorio de GitHub de PlanB dedicado a datos](https://github.com/DecouvreBitcoin/sovereign-university-data/tree/dev/resources/bet) en la sección `resources/bet/`:
+- Ve al [repositorio de GitHub de PlanB dedicado a datos](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/bet) en la sección `resources/bet/`:
 ![event](assets/02.webp)
 - Haz clic en la parte superior derecha en el botón `Add file`, luego en `Create new file`:
 ![event](assets/03.webp)

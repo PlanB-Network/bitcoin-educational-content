@@ -37,7 +37,7 @@ Markdownファイルを編集するために特化したソフトウェアは多
 
 ## ステップ 3: PlanB Networkリポジトリをフォークする
 
-- 次のアドレスにあるPlanB Networkデータリポジトリにアクセスしてください: [https://github.com/DecouvreBitcoin/sovereign-university-data](https://github.com/DecouvreBitcoin/sovereign-university-data): ![github-desktop](assets/10.webp)
+- 次のアドレスにあるPlanB Networkデータリポジトリにアクセスしてください: [https://github.com/PlanB-Network/bitcoin-educational-content](https://github.com/PlanB-Network/bitcoin-educational-content): ![github-desktop](assets/10.webp)
 - このページから、ウィンドウの右上にある`Fork`ボタンをクリックしてください: ![github-desktop](assets/11.webp)
 - 作成メニューでは、デフォルト設定のままにしておいて大丈夫です。`Copy the dev branch only`ボックスがチェックされていることを確認し、`Create fork`ボタンをクリックしてください: ![github-desktop](assets/12.webp)
 - すると、PlanB Networkリポジトリの自分のフォークに到着します: ![github-desktop](assets/13.webp)

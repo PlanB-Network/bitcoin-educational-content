@@ -11,7 +11,7 @@ Do you want to add the replay of your Bitcoin conference on the PlanB Network si
 However, if you want to add a conference that will take place in the future, I advise you to [read this other tutorial](https://planb.network/tutorials/others/add-event) in which we explain how to add a new event to the site.
 ![conference](assets/01.webp)
 - First, you need to have an account on GitHub. If you don't know how to create an account, we have made [a detailed tutorial to guide you](https://planb.network/tutorials/others/create-github-account).
-- Go to [the GitHub repository of PlanB dedicated to data](https://github.com/DecouvreBitcoin/sovereign-university-data/tree/dev/resources/conference) in the `resources/conference/` section:
+- Go to [the GitHub repository of PlanB dedicated to data](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/conference) in the `resources/conference/` section:
 ![conference](assets/02.webp)
 - Click on the top right on the `Add file` button, then on `Create new file`:
 ![conference](assets/03.webp)

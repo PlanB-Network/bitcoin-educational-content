@@ -5,7 +5,7 @@ description: Come partecipare alla revisione dei contenuti educativi su PlanB Ne
 ![github](assets/cover.webp)
 
 ## TL;DR
-Se vuoi revisionare contenuti per PlanB Network, vai alla [pagina del progetto associato](https://github.com/DecouvreBitcoin/sovereign-university-data/projects?query=is%3Aopen) per la tua lingua. Seleziona il contenuto che desideri revisionare, commenta per farci sapere che stai assumendo il compito e invia una PR una volta terminato sul ramo associato alla lingua.
+Se vuoi revisionare contenuti per PlanB Network, vai alla [pagina del progetto associato](https://github.com/PlanB-Network/bitcoin-educational-content/projects?query=is%3Aopen) per la tua lingua. Seleziona il contenuto che desideri revisionare, commenta per farci sapere che stai assumendo il compito e invia una PR una volta terminato sul ramo associato alla lingua.
 
 Se non hai capito la parte sopra, non preoccuparti, questo tutorial è per te!
 
@@ -37,14 +37,14 @@ Tuttavia, se sei completamente a digiuno di come funzionano Git e GitHub e desid
 ## 1. Crea un account
 * Crea un account su GitHub per iniziare a contribuire. Se hai bisogno di una guida su come creare il tuo account su GitHub, abbiamo anche [un tutorial dettagliato](https://planb.network/tutorials/others/create-github-account).
 ## **2. Vai alla pagina del progetto della tua lingua**
-* La [pagina del progetto](https://github.com/DecouvreBitcoin/sovereign-university-data/projects?query=is%3Aopen) contiene contenuti nella tua lingua visualizzati su una lavagna Kanban.
+* La [pagina del progetto](https://github.com/PlanB-Network/bitcoin-educational-content/projects?query=is%3Aopen) contiene contenuti nella tua lingua visualizzati su una lavagna Kanban.
 * Cerca le schede nella colonna "Review Needed" (vedi **A**). Questi sono problemi che puoi revisionare.
 * Ogni scheda dettaglia (vedi **B**):
 	- **Tipo di Contenuto**: Corso, tutorial o sito web
 	- **Difficoltà del Contenuto**
 	- **Urgenza**
 	- **Conteggio Parole**
-	- **Ricompensa Associata**: Basata sulle proprietà del contenuto e sull'accuratezza della traduzione (vedi [sezione Ricompensa](https://github.com/DecouvreBitcoin/sovereign-university-data?tab=readme-ov-file#sat-reward))
+	- **Ricompensa Associata**: Basata sulle proprietà del contenuto e sull'accuratezza della traduzione (vedi [sezione Ricompensa](https://github.com/PlanB-Network/bitcoin-educational-content?tab=readme-ov-file#sat-reward))
 ## **3. Trova contenuti da revisionare**
 * Nella colonna "Review Needed", clicca su una scheda.
 * La scheda include una descrizione con link ai contenuti originali e al file da revisionare (vedi **A**).

@@ -22,7 +22,7 @@ PlanB Networkに貢献するためには、GitHubに関する経験レベルに�
 ![tutorial](assets/1.webp)
 **チュートリアルを始める前の前提条件：**
 - [GitHubアカウント](https://github.com/signup)を持っている。
-- [PlanB Networkソースリポジトリのフォーク](https://github.com/DecouvreBitcoin/sovereign-university-data)を持っている。
+- [PlanB Networkソースリポジトリのフォーク](https://github.com/PlanB-Network/bitcoin-educational-content)を持っている。
 - [PlanB Network上での教授プロファイル](https://planb.network/professors)を持っている（完全なチュートリアルを提案する場合のみ）。
 
 **これらの前提条件を得るために助けが必要な場合、私の他のチュートリアルがガイドします：**

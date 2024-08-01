@@ -37,7 +37,7 @@ On olemassa lukuisia ohjelmistoja, jotka on erikoistunut Markdown-tiedostojen mu
 
 ## Vaihe 3: Forkkaa PlanB Network -repositorio
 
-- Siirry PlanB Network -datan repositorioon seuraavassa osoitteessa: [https://github.com/DecouvreBitcoin/sovereign-university-data](https://github.com/DecouvreBitcoin/sovereign-university-data): ![github-desktop](assets/10.webp)
+- Siirry PlanB Network -datan repositorioon seuraavassa osoitteessa: [https://github.com/PlanB-Network/bitcoin-educational-content](https://github.com/PlanB-Network/bitcoin-educational-content): ![github-desktop](assets/10.webp)
 - Tältä sivulta, klikkaa `Fork`-nappia ikkunan oikeassa yläkulmassa: ![github-desktop](assets/11.webp)
 - Luontimenussa voit jättää oletusasetukset. Varmista, että `Copy the dev branch only` -ruutu on valittu, ja klikkaa sitten `Create fork` -nappia: ![github-desktop](assets/12.webp)
 - Saavut sitten omaan forkkiisi PlanB Network -repositoriosta: ![github-desktop](assets/13.webp)

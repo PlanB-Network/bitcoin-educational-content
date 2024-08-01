@@ -13,7 +13,7 @@ PlanBのミッションは、できるだけ多くの言語でBitcoinに関す�
 *サイトに統合されるすべてのコンテンツは、権利がないか、またはソースファイルのライセンスを尊重する必要があります。また、PlanBネットワークで公開されるすべてのビジュアルは、[CC-BY-SA](https://creativecommons.org/licenses/by-sa/4.0/)ライセンスの下で利用可能になります。*
 ![event](assets/01.webp)
 - まず、GitHubアカウントを持っている必要があります。アカウントの作成方法がわからない場合は、[詳細なチュートリアルを用意しています](https://planb.network/tutorials/others/create-github-account)。
-- `resources/bet/`セクションの[PlanB専用のGitHubリポジトリ](https://github.com/DecouvreBitcoin/sovereign-university-data/tree/dev/resources/bet)に移動します：
+- `resources/bet/`セクションの[PlanB専用のGitHubリポジトリ](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/bet)に移動します：
 ![event](assets/02.webp)
 - 右上の`Add file`ボタンをクリックし、次に`Create new file`をクリックします：
 ![event](assets/03.webp)

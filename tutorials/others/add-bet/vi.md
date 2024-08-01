@@ -13,7 +13,7 @@ Bạn muốn tham gia làm phong phú cơ sở dữ liệu này, nhưng không b
 *Điều quan trọng là tất cả nội dung được tích hợp vào trang web phải miễn phí quyền sử dụng hoặc tuân thủ giấy phép của tệp nguồn. Ngoài ra, tất cả hình ảnh được công bố trên Mạng PlanB đều được cung cấp dưới giấy phép [CC-BY-SA](https://creativecommons.org/licenses/by-sa/4.0/).*
 ![event](assets/01.webp)
 - Đầu tiên, bạn cần có một tài khoản trên GitHub. Nếu bạn không biết cách tạo tài khoản, chúng tôi đã tạo [một hướng dẫn chi tiết để hướng dẫn bạn](https://planb.network/tutorials/others/create-github-account).
-- Truy cập [kho lưu trữ GitHub của PlanB dành riêng cho dữ liệu](https://github.com/DecouvreBitcoin/sovereign-university-data/tree/dev/resources/bet) trong phần `resources/bet/`:
+- Truy cập [kho lưu trữ GitHub của PlanB dành riêng cho dữ liệu](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/bet) trong phần `resources/bet/`:
 ![event](assets/02.webp)
 - Nhấp vào nút `Add file` ở góc trên bên phải, sau đó chọn `Create new file`:
 ![event](assets/03.webp)

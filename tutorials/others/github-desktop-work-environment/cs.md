@@ -37,7 +37,7 @@ Existuje mnoho softwarů specializovaných na úpravu souborů Markdown, jako je
 
 ## Krok 3: Forkněte repozitář PlanB Network
 
-- Přejděte na datový repozitář PlanB Network na následující adrese: [https://github.com/DecouvreBitcoin/sovereign-university-data](https://github.com/DecouvreBitcoin/sovereign-university-data): ![github-desktop](assets/10.webp)
+- Přejděte na datový repozitář PlanB Network na následující adrese: [https://github.com/PlanB-Network/bitcoin-educational-content](https://github.com/PlanB-Network/bitcoin-educational-content): ![github-desktop](assets/10.webp)
 - Na této stránce klikněte na tlačítko `Fork` v pravém horním rohu okna: ![github-desktop](assets/11.webp)
 - V menu vytváření můžete ponechat výchozí nastavení. Ujistěte se, že je zaškrtnuto políčko `Copy the dev branch only`, a poté klikněte na tlačítko `Create fork`: ![github-desktop](assets/12.webp)
 - Poté se dostanete na vlastní fork repozitáře PlanB Network: ![github-desktop](assets/13.webp)

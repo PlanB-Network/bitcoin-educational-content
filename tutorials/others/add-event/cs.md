@@ -9,7 +9,7 @@ Mise PlanB je poskytovat špičkové vzdělávací zdroje o Bitcoinu v co nejví
 Pokud chcete přidat konferenci o Bitcoinu na web síť PlanB a zvýšit viditelnost vaší události, ale nevíte jak? Tento tutoriál je pro vás!
 ![event](assets/01.webp)
 - Nejprve potřebujete mít účet na GitHubu. Pokud nevíte, jak vytvořit účet, připravili jsme [podrobný tutoriál, který vás provede](https://planb.network/tutorials/others/create-github-account).
-- Přejděte na [GitHubový repozitář PlanB věnovaný datům](https://github.com/DecouvreBitcoin/sovereign-university-data/tree/dev/resources/conference) v sekci `resources/conference/`:
+- Přejděte na [GitHubový repozitář PlanB věnovaný datům](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/conference) v sekci `resources/conference/`:
 ![event](assets/02.webp)
 - Klikněte vpravo nahoře na tlačítko `Add file`, poté na `Create new file`:
 ![event](assets/03.webp)

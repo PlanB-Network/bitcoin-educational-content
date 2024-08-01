@@ -9,7 +9,7 @@ Sứ mệnh của PlanB là cung cấp nguồn tài nguyên giáo dục hàng đ
 Nếu bạn muốn thêm một hội nghị Bitcoin vào trang web Mạng lưới PlanB và tăng độ nhìn thấy cho sự kiện của mình, nhưng không biết làm thế nào? Hướng dẫn này dành cho bạn!
 ![sự kiện](assets/01.webp)
 - Đầu tiên, bạn cần phải có một tài khoản trên GitHub. Nếu bạn không biết cách tạo tài khoản, chúng tôi đã tạo [một hướng dẫn chi tiết để hướng dẫn bạn](https://planb.network/tutorials/others/create-github-account).
-- Truy cập vào [kho lưu trữ GitHub của PlanB dành riêng cho dữ liệu](https://github.com/DecouvreBitcoin/sovereign-university-data/tree/dev/resources/conference) trong phần `resources/conference/`:
+- Truy cập vào [kho lưu trữ GitHub của PlanB dành riêng cho dữ liệu](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/conference) trong phần `resources/conference/`:
 ![sự kiện](assets/02.webp)
 - Nhấp vào nút `Add file` ở góc trên bên phải, sau đó chọn `Create new file`:
 ![sự kiện](assets/03.webp)

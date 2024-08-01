@@ -8,7 +8,7 @@ PlanB のミッションは、できるだけ多くの言語で Bitcoin に関�
 
 PlanB ネットワークに新しい完全なチュートリアルやコースを追加したい場合は、教授プロファイルを作成する必要があります。これにより、ウェブサイト上で制作したコンテンツに対して適切にクレジットされることになります。
 ![tutorial](assets/1.webp)
-以前に PlanB ネットワークに貢献したことがある場合は、既にコントリビューター ID を持っている可能性があります。[このページ](https://github.com/DecouvreBitcoin/sovereign-university-data/tree/dev/professors)からアクセス可能な教授フォルダーでそれを見つけることができます。その場合は、このチュートリアルをスキップして、直接貢献を開始することができます。
+以前に PlanB ネットワークに貢献したことがある場合は、既にコントリビューター ID を持っている可能性があります。[このページ](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/professors)からアクセス可能な教授フォルダーでそれを見つけることができます。その場合は、このチュートリアルをスキップして、直接貢献を開始することができます。
 ![tutorial](assets/2.webp)
 
 このチュートリアルで、新しい教授を追加する方法を一緒に見ていきましょう！
@@ -21,7 +21,7 @@ PlanB ネットワークに新しい完全なチュートリアルやコース�
 ![tutorial](assets/3.webp)
 **チュートリアルを始める前の前提条件：**
 - [GitHub アカウント](https://github.com/signup)を持っていること。
-- [PlanB Network ソースリポジトリ](https://github.com/DecouvreBitcoin/sovereign-university-data)のフォークを持っていること。
+- [PlanB Network ソースリポジトリ](https://github.com/PlanB-Network/bitcoin-educational-content)のフォークを持っていること。
 
 **これらの前提条件を得るための助けが必要な場合は、私の他のチュートリアルがガイドします：**
 - **[Git と GitHub の理解](https://planb.network/tutorials/others/basics-of-github)**

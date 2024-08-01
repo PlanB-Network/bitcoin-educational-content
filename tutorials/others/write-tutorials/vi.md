@@ -22,7 +22,7 @@ Trong hướng dẫn này, tôi sẽ giải thích cách chỉnh sửa mục "H�
 ![tutorial](assets/1.webp)
 **Điều kiện tiên quyết trước khi bắt đầu hướng dẫn:**
 - Có một [tài khoản GitHub](https://github.com/signup).
-- Có một fork của [kho lưu trữ nguồn PlanB Network](https://github.com/DecouvreBitcoin/sovereign-university-data).
+- Có một fork của [kho lưu trữ nguồn PlanB Network](https://github.com/PlanB-Network/bitcoin-educational-content).
 - Có [một hồ sơ giáo sư trên Mạng PlanB](https://planb.network/professors) (chỉ khi bạn đề xuất một hướng dẫn đầy đủ).
 
 **Nếu bạn cần trợ giúp để đạt được các điều kiện tiên quyết này, các hướng dẫn khác của tôi sẽ hướng dẫn bạn:**

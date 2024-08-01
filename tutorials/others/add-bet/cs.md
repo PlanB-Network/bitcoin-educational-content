@@ -13,7 +13,7 @@ Chcete se podílet na obohacování této databáze, ale nevíte jak? Tento tuto
 *Je nezbytné, aby veškerý obsah začleněný na web byl bez autorských práv nebo respektoval licenci zdrojového souboru. Také všechny vizuály publikované na PlanB Network jsou k dispozici pod licencí [CC-BY-SA](https://creativecommons.org/licenses/by-sa/4.0/).*
 ![event](assets/01.webp)
 - Nejprve potřebujete mít účet na GitHubu. Pokud nevíte, jak vytvořit účet, připravili jsme [podrobný tutoriál, který vás provede](https://planb.network/tutorials/others/create-github-account).
-- Přejděte na [GitHubový repozitář PlanB věnovaný datům](https://github.com/DecouvreBitcoin/sovereign-university-data/tree/dev/resources/bet) v sekci `resources/bet/`:
+- Přejděte na [GitHubový repozitář PlanB věnovaný datům](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/bet) v sekci `resources/bet/`:
 ![event](assets/02.webp)
 - Klikněte vpravo nahoře na tlačítko `Add file`, poté na `Create new file`:
 ![event](assets/03.webp)

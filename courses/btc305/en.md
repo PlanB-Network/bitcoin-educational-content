@@ -1589,7 +1589,6 @@ sudo su -
 Navigate to the correct directory:
 cd btcpayserver-docker
 # Find container name:
-<partId>6f124f36-b51c-5e53-a734-08fb1f20db25</partId>
 docker ps
 Print logs by container name:
 docker logs --tail 100 btcpayserver_lnd_bitcoin
@@ -1625,7 +1624,6 @@ To access compressed logs in `.gzip` use `gzip -d lnd.log.16.gz` (in this case w
 sudo su -
 docker ps
 # Find the c-lightning container ID.
-<partId>8f12e767-13df-5bc4-85e4-00e227091300</partId>
 docker logs 'add your container ID here'
 ```
 

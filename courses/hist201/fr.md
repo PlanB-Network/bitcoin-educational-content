@@ -1317,8 +1317,6 @@ Il s'agit d'une très bonne nouvelle pour Bitcoin car les deux initiatives parta
 >
 > original: "EFF is really important. &nbsp;We want to have a good relationship with them. &nbsp;We're the type of project they like; they've helped the TOR project and done a lot to protect P2P file sharing."
 
-Le 20 janvier, l'EFF [mettra Bitcoin en avant](https://www.eff.org/deeplinks/2011/01/bitcoin-step-toward-censorship-resistant) comme une « monnaie numérique résistante à la censure ». (*original: "Bitcoin - a Step Toward Censorship-Resistant Digital Currency"*)
-
 ### Les premières coopératives de minage (oct. 2010 -- déc. 2010)
 
 L'augmentation massive du taux de hachage due à la spécialisation du minage a pour conséquence de rendre difficile la génération par processeur central, qui devient de moins en moins abordable. En effet, la possibilité de générer des bitcoins est de plus en plus dépendante de la variance, certains individus n'arrivant jamais à produire un bloc. La solution à ce problème est le minage coopératif.
@@ -1459,6 +1457,8 @@ Le 11 décembre, un article mettant en avant la possibilité d'une utilisation d
 
 Le lendemain, Satoshi [publie](https://bitcointalk.org/index.php?topic=2228.msg29479#msg29479) son dernier message public sur le forum, qui annonce la sortie de la version 0.3.19 du logiciel améliorant notamment la gestion des attaques par déni de service. Puis, il se retire du feu des projecteurs, ne communiquant plus qu'en privé avec ses plus proches collaborateurs.
 
+Dans les jours qui suivent, l'article publié sur PC World produit son effet. Le 14 décembre, Bitcoin est évoqué par l'*Electronic Frontier Foundation* dans un [texte](https://www.eff.org/deeplinks/2010/12/constructive-direct-action-against-censorship) concernant de la censure de WikiLeaks. Le 23, la cryptomonnaie est [mentionnée](https://web.archive.org/web/20180226161051/http://www.youtube.com/watch?v=VMngK0t5WkY) le Keiser Report, une émission financière présentée par Max Keiser et Stacy Herbert sur la chaîne russe RT, toujours dans le contexte de WikiLeaks. Cette couverture médiatique augmente considérablement l'attention portée à Bitcoin, ce qui confirme les craintes de Satoshi.
+
 ### La transmission des accès et derniers courriels (déc. 2010 -- mai 2011)
 
 Dès le début du mois de décembre, Satoshi organise sa succession. Même s'il compte partir, ou du moins se mettre en retrait, il doit transmettre les différentes responsabilités aux personnes en qui il a confiance, en l'occurrence Martti Malmi et Gavin Andresen. Toutefois, il ne le leur indique jamais son intention.
@@ -1507,7 +1507,7 @@ Le lendemain, Gavin [annonce](https://bitcointalk.org/index.php?topic=6652.msg97
 
 De manière symbolique, le 14 juin est également la date à partir de laquelle WikiLeaks [commence](https://twitter.com/wikileaks/status/80774521350668288) à accepter les dons en bitcoins. Cette nouvelle est reprise sur le site de Forbes.
 
-Paradoxalement, cette nouvelle a pour effet de repousser partiellement l'adoption existante. Le 20 juin, l'*Electronic Frontier Foundation* [annonce](https://www.eff.org/deeplinks/2011/06/eff-and-bitcoin) en effet abandonner les dons en bitcoins, à cause des complexités légales que cette acceptation engendre. Elle reverse les bitcoins reçus au *bitcoin faucet* de Gavin Andresen. Bitcoin a donc gagné une organisation au dépens d'une autre.
+Paradoxalement, cette nouvelle a pour effet de repousser partiellement l'adoption existante. Le 20 juin, l'*Electronic Frontier Foundation* [annonce](https://www.eff.org/deeplinks/2011/06/eff-and-bitcoin) en effet abandonner les dons en bitcoins, à cause des complexités légales que cette acceptation engendre. Elle [reverse](https://bitcointalk.org/index.php?topic=20185.msg456413#msg456413) les bitcoins reçus au *bitcoin faucet* de Gavin Andresen. Bitcoin a donc gagné une organisation au dépens d'une autre.
 
 ### Le mystère Satoshi
 
@@ -1531,7 +1531,7 @@ Cette dimension mystérieuse entourant le créateur de Bitcoin a d'ailleurs bien
 >
 > *What's the S stand for?"*
 
-## La prise de relai de la communauté (avr. 2011 -- sept. 2011)
+## La prise de relai de la communauté (avr. 2011 -- juin / sept. 2011)
 
 Après le départ de Satoshi Nakamoto, il a nécessairement fallu faire sans lui. Heureusement, Bitcoin étant un projet libre, auquel tout le monde peut contribuer, la disparition de son fondateur n'a pas été fatale pour lui. En réponse à une inquiétude face à l'éventualité d'une absence de Satoshi, Jeff Garzik [écrivait](https://bitcointalk.org/index.php?topic=628.msg6578#msg6578) en juillet 2010 :
 
@@ -1547,13 +1547,13 @@ Durant le mois de décembre 2010, Gavin [prend les rênes](https://bitcointalk.o
 
 Le plan est de pérenniser le développement du projet. Le but est de produire une certaine légitimité vis-à-vis d'un public plus large. Le 19 mai, Mike Hearn [propose](https://web.archive.org/web/20110522075653/http://forum.bitcoin.org:80/index.php?topic=8954.0) que les personnes impliquées dans le projet donnent leur « vrai nom » (à savoir leur nom civil). Gavin et lui changent leur pseudonyme sur le forum pour faire apparaître leur nom complet. Une liste des développeurs principaux est également [publiée](https://web.archive.org/web/20110530221415/http://www.bitcoin.org:80/) sur le première page du site web. À la fin du mois de mai, les développeurs présentés ainsi sont Gavin Andresen, Martti Malmi, Amir Taaki, Pieter Wuille, Nils Schneider et Jeff Garzik.
 
-La coordination s'améliore également. Outre le forum et le canal IRC `#bitcoin-dev`, une liste de diffusion dédiée au développement appelée `bitcoin-development` apparaît. Celle-ci est [mise en place](https://lists.linuxfoundation.org/pipermail/bitcoin-dev/2011-June/000000.html) le 12 juin par Jeff Garzik. Elle permet de discuter formellement des changements à apporter à Bitcoin. La liste est initialement hébergée sur SourceForge ; elle sera [déplacée](https://lists.linuxfoundation.org/pipermail/bitcoin-dev/2015-June/008975.html) sur le site de la Fondation Linux en juin 2015 (le nom sera raccourci en `bitcoin-dev` à cette occasion) pour enfin [migrer](https://groups.google.com/g/bitcoindev/c/aewBuV6k-LI) sur Google Group début 2024.
+La coordination s'améliore également. Outre le forum et le canal IRC `#bitcoin-dev`, une liste de diffusion dédiée au développement appelée `bitcoin-development` apparaît. Celle-ci est [mise en place](https://lists.linuxfoundation.org/pipermail/bitcoin-dev/2011-June/000000.html) le 12 juin par Jeff Garzik. Elle permet de discuter formellement des changements à apporter à Bitcoin. En août, des discussions concernant la [feuille de route](https://lists.linuxfoundation.org/pipermail/bitcoin-dev/2011-August/000333.html) du projet sont engagées. La liste est initialement hébergée sur SourceForge ; elle sera [déplacée](https://lists.linuxfoundation.org/pipermail/bitcoin-dev/2015-June/008975.html) sur le site de la Fondation Linux en juin 2015 (le nom sera raccourci en `bitcoin-dev` à cette occasion) pour enfin [migrer](https://groups.google.com/g/bitcoindev/c/aewBuV6k-LI) sur Google Group début 2024.
 
 Le 19 septembre 2011, Amir Taaki [inaugure](https://lists.linuxfoundation.org/pipermail/bitcoin-dev/2011-September/000554.html) le système des *Bitcoin Improvement Proposals*, ou « propositions d'amélioration de Bitcoin » en français, calqué sur les *Python Enhancement Proposals* (PEP) propres langage de programmation Python. Ces BIP sont des documents décrivant des changements possibles du protocole ou fournissant des informations générales à la communauté. Il décrit le procédé par le BIP-1, qui sera plus tard remplacé par le BIP-2 de Luke-Jr.
 
 Hébergement des BIP ?
 
-23 septembre 2011 : version 0.4
+Sous la supervision de Gavin Andresen, sortent plusieurs versions du logiciel : la [v0.3.20](https://bitcointalk.org/index.php?topic=4167.msg60365#msg60365) le 5 mars, la [v0.3.21](https://bitcointalk.org/index.php?topic=6642.msg97074#msg97074) le 27 avril, la [v0.3.22](https://bitcointalk.org/index.php?topic=12269.msg170790#msg170790) le 5 juin, la [v0.3.23](https://bitcointalk.org/index.php?topic=16553.msg215364#msg215364) le 13 juin et la [v0.3.24](https://bitcointalk.org/index.php?topic=27187.msg342270#msg342270) le 8 juillet. Le 23 septembre 2011 [sort](https://bitcointalk.org/index.php?topic=45410.msg541446#msg541446) la version 0.4, une nouvelle version majeure indiquant que la relève du développement a bien été prise.
 
 ### Le site, le forum et le wiki
 
@@ -1573,7 +1573,7 @@ Migration du wiki de DokuWiki vers Mediawiki
 
 [31/1](https://bitcointalk.org/index.php?topic=293.msg42789#msg42789) sirius-m, "New wiki": https://bitcointalk.org/index.php?topic=293.msg42789#msg42789
 
-Forum. Mai 2011, `forum.bitcoin.org`. [17/5](https://bitcointalk.org/index.php?topic=8696.msg125944#msg125944). Août 2011 : `bitcointalk.org`. [Transmission](https://bitcointalk.org/index.php?topic=5129680.msg50522659#msg50522659) de la position d'administrateur à theymos en 2012.
+Forum. Mai 2011, `forum.bitcoin.org`. [17/5](https://bitcointalk.org/index.php?topic=8696.msg125944#msg125944). Août 2011 : `bitcointalk.org` (https://bitcointalk.org/index.php?topic=33393.msg417531#msg417531). [Transmission](https://bitcointalk.org/index.php?topic=5129680.msg50522659#msg50522659) de la position d'administrateur à theymos en 2012.
 
 ### Les portefeuilles légers (mars 2011 -- nov. 2011)
 
@@ -1613,7 +1613,13 @@ Le mois de février marque aussi la [première présentation filmée](https://ww
 
 Gavin Andresen lors de sa présentation de Bitcoin à Amherst en février 2011 (source : [Youtube](https://www.youtube.com/watch?v=koIq58UoNfE))
 
-Même si les premiers évènements ont lieu aux États-Unis, la communauté française n'est pas en reste. En effet, la première présentation publique de Bitcoin en français [a lieu](https://bitcointalk.org/index.php?topic=11384.msg225831#msg225831) le 15 juin à Paris. Elle est le fait de Renaud Lifchitz (nono2357), jeune expert en sécurité informatique, qui a découvert Bitcoin un an auparavant. Le [contenu présenté](https://prezi.com/tikwkjt9ouey/bitcoin-une-monnaie-electronique-pour-tous/) est de très bonne qualité et l'audience a répondu à l'appel de sorte qu'il s'agit globalement d'un succès.
+Même si les premiers évènements ont lieu aux États-Unis, la communauté française n'est pas en reste. Le 25 mai, à l'occasion de la venue de Gavin Andresen à Paris, un déjeuner est organisé dans le quartier de la Défense, où sont notamment présents Lucien Grondin, David François et Jon Matonis (qui est aussi de passage).
+
+![Rencontre à la Défense à Paris avec Gavin Andresen, en chemise rose](assets/img/ch12/meetup-paris-20110525.webp)
+
+Rencontre à la Défense à Paris avec Gavin Andresen, en chemise rose (source : [archive du forum](https://web.archive.org/web/20140715000000*/https://bitcointalk.org/index.php?topic=5587.40))
+
+Un mois plus tard, le 15 juin, la première présentation publique de Bitcoin en français [a lieu](https://bitcointalk.org/index.php?topic=11384.msg225831#msg225831), encore à Paris. Elle est le fait de Renaud Lifchitz (nono2357), jeune expert en sécurité informatique, qui a découvert Bitcoin un an auparavant. Le [contenu présenté](https://prezi.com/tikwkjt9ouey/bitcoin-une-monnaie-electronique-pour-tous/) est de très bonne qualité et l'audience a répondu à l'appel de sorte qu'il s'agit globalement d'un succès.
 
 ![Présentation de Bitcoin par Renaud Lifchitz le 15 juin 2011](assets/img/ch12/workshop-renaud-lifchitz-june-2011.webp)
 
@@ -1625,43 +1631,48 @@ La première conférence collective sur Bitcoin a lieu du 19 au 21 août à New 
 
 ![Vidéo (Youtube) de l'intervention de Gavin le 20 août 2011](https://www.youtube.com/watch?v=0ljx4bbJrYE)
 
-Enfin, un peu plus tard dans l'année, en novembre, une conférence européenne [se déroule](https://bitcointalk.org/index.php?topic=40272.msg490901#msg490901) à Prague. Y [interviennent](https://web.archive.org/web/20111126164127/http://www.bitgroups.org:80/speakers.html) notamment le développeur Amir Taaki, le fondateur du Parti pirate suédois Rickard Falkvinge et le présentateur Max Keiser. L'année suivante, un évènement similaire sera [organisé à Londres](https://blog.bitmex.com/london-2012-the-2nd-bitcoin-conference/).
+Enfin, un peu plus tard dans l'année, en novembre, une conférence européenne [se déroule](https://bitcointalk.org/index.php?topic=40272.msg490901#msg490901) à Prague. Y [interviennent](https://web.archive.org/web/20111126164127/http://www.bitgroups.org:80/speakers.html) notamment le développeur Amir Taaki, le fondateur du Parti pirate suédois Rick Falkvinge et le présentateur Max Keiser. L'année suivante, un évènement similaire sera [organisé à Londres](https://blog.bitmex.com/london-2012-the-2nd-bitcoin-conference/).
 
 ### La couverture médiatique
 
-https://techland.time.com/2011/04/16/online-cash-bitcoin-could-challenge-governments/
+L'année 2011 est également marquée par une couverture médiatique plus large. L'affaire WikiLeaks et l'article publié sur PC World en décembre ont grandement attiré l'attention sur Bitcoin, si bien que toutes sortes de médias se saisissent du sujet. On assiste à une « avalanche d'intérêt de la presse pour \[B\]itcoin » comme l'[écrit](https://bitcointalk.org/index.php?topic=8940.msg129623#msg129623) alors Gavin Andresen.
 
-https://www.forbes.com/forbes/2011/0509/technology-psilocybin-bitcoins-gavin-andresen-crypto-currency.html
+Le 20 janvier, Rainey Reitman de l'*Electronic Frontier Foundation* [met Bitcoin en avant](https://www.eff.org/deeplinks/2011/01/bitcoin-step-toward-censorship-resistant) comme une « monnaie numérique résistante à la censure ». (*original: "Bitcoin - a Step Toward Censorship-Resistant Digital Currency"*)
 
-https://www.economist.com/babbage/2011/06/13/bits-and-bob
+Sur YouTube, les vidéos fleurissent. Le 22 mars, la première vidéo expliquant Bitcoin de manière qualitative fait son apparition. Celle-ci, intitulée sobrement « *What is Bitcoin?* », est produite par Stefan Thomas (justmoon) grâce à un [financement participatif](https://bitcointalk.org/index.php?topic=697.msg70001#msg70001) de la communauté. Elle est publiée sur le portail WeUseCoins dédié à l'éducation et la popularisation de la cryptomonnaie. D'autres vidéos de présentation réalisées indépendamment suivront comme [celle de howtovanish](https://www.youtube.com/watch?v=LSLByqTusaQ) en avril, [celle de Reason](https://www.youtube.com/watch?v=yYTqvYqXRbY) ou [celle de Rocketboom](https://www.youtube.com/watch?v=9LaSrxtWfgc) en juin.
 
-Gavin : https://bitcointalk.org/index.php?topic=8940.msg129623#msg129623 https://web.archive.org/web/20110522073049/http://forum.bitcoin.org/index.php?topic=8940.0
+![What is Bitcoin?](https://www.youtube.com/watch?v=Um63OQz3bjo)
 
-Garzik : https://bitcointalk.org/index.php?topic=1958.0 https://en.bitcoin.it/wiki/Bitcoin_press_hits
+En avril, le sujet de la monnaie numérique est abordé par des grands noms de la presse généraliste comme [The Atlantic](https://www.theatlantic.com/business/archive/2011/04/how-to-start-your-own-private-currency/73327/), [Time Magazine](https://techland.time.com/2011/04/16/online-cash-bitcoin-could-challenge-governments/) et [Forbes](https://www.forbes.com/forbes/2011/0509/technology-psilocybin-bitcoins-gavin-andresen-crypto-currency.html). En mai, le mouvement s'amplifie et Bitcoin est évoqué un peu partout, notamment dans [Wired UK](https://web.archive.org/web/20110517122859/http://www.wired.co.uk/news/archive/2011-05/16/bitcoin-p2p-currency), sur [Slate](https://slate.com/business/2011/05/bitcoin-why-the-new-electronic-currency-is-a-favorite-of-libertarian-hipsters-and-criminals.html), sur [Gizmodo](https://gizmodo.com/what-is-bitcoin-5803124) et sur [TechCrunch](https://techcrunch.com/2011/05/20/bitcoin-ven-and-the-end-of-currency/).
 
-23/12, Bitcoin [mentionné](https://bitcointalk.org/index.php?topic=2433.msg33016#msg33016) dans le Keiser Report (E106).
+![Photographie de Gavin Andresen mise en avant dans Forbes en avril 2011](assets/img/ch12/gavin-andersen-forbes-20110420.webp)
 
-Premières vidéos sur Bitcoin. Tutoriels :
+Photographie de Gavin Andresen mise en avant dans Forbes en avril 2011 (source : [archive de Forbes](https://web.archive.org/web/20110502052302/https://www.forbes.com/forbes/2011/0509/technology-psilocybin-bitcoins-gavin-andresen-crypto-currency.html))
 
-29/12/2010 Michael Hendricks - Buy Bitcoins with PayPal (using CoinPal) https://www.youtube.com/watch?v=YmPg4V-YE0k
+La radio est également utilisée pour parler de la cryptomonnaie. Un épisode d'une émission de la radio canadienne CBC Radio est [consacré](https://web.archive.org/web/20110227214049/http://www.cbc.ca/spark/2011/02/spark-139-february-27-march-2-2011/) au sujet de la monnaie et de Bitcoin le 27 février. Bitcoin est également mentionné dans plusieurs épisodes de FreeTalkLive, une émission d'orientation libertarienne aux États-Unis. En particulier, le sujet est [abordé](https://web.archive.org/web/20110318163416/http://www.freetalklive.com/content/podcast_2011_03_16) plus longuement le 16 mars 2011, notamment dans le cadre de l'essor de Silk Road. Enfin, le 24 mai, Bitcoin est le sujet d'une [courte capsule](https://www.npr.org/2011/05/24/136620231/what-are-bitcoins) sur la *National Public Radio* aux États-Unis.
 
-26/7/2011 Factrocks - Introduction to Bitcoin https://www.youtube.com/watch?v=ejiqbzqmxSE
+Les blogueurs individuels sont de même intéressés. C'est le cas de Rick Falkvinge, le fondateur du Parti pirate suédois, qui publie [plusieurs](https://falkvinge.net/2011/05/11/with-the-napster-of-banking-round-the-corner-bring-out-your-popcorn/) [articles](https://falkvinge.net/2011/05/19/the-information-policy-case-for-flat-tax-and-basic-income/) au sujet de la création de Satoshi Nakamoto durant le mois de mai. Il décrit Bitcoin (et les systèmes apparentés comme Ripple) comme « le Napster de la banque ». Ses arguments sont repris par de nombreuses personnes comme le mutuelliste [Kevin Carson](https://c4ss.org/content/7149) aux États-Unis ou le blogueur libéral [h16](https://h16free.com/2011/05/30/8585-revolution-numerique-aujourdhui-musique-et-cinema-et-demain) en France. Le 29, le Suédois [annonce](https://falkvinge.net/2011/05/29/why-im-putting-all-my-savings-into-bitcoin/) même « placer toutes son épargne dans le bitcoin » !
 
-Présentations :
+### La première bulle (déc. 2010 -- 8 juin 2011)
 
-22/3/2011 We Use Coins - What is Bitcoin? https://www.youtube.com/watch?v=Um63OQz3bjo
+La popularisation de Bitcoin fait que son prix augmente de manière significative. Alors qu'il est redescendu à 20 centimes en décembre 2010, il atteint la parité avec le dollar le 9 février 2011. À ce moment-là, Hal Finney [déclare](https://bitcointalk.org/index.php?topic=2734.msg37307#msg37307) avoir « vraiment de la chance d'être au début d'un nouveau phénomène potentiellement explosif ». (*original: "We are really lucky to be in at the beginning of a possibly explosive new phenomenon."*) Il a du flair, car ce qui se produit ensuite est fulgurant.
 
-1/6/2011 Reason - Bitcoin & The End of State-Controlled Money https://www.youtube.com/watch?v=yYTqvYqXRbY
+L'effervescence médiatique du printemps a en effet pour conséquence de créer progressivement un phénomène spéculatif sans précédent. Après avoir stagné autour de 1 $ pendant plusieurs mois, le prix remonte et atteint 3 $ à la fin du mois d'avril. En mai, il est de 8 $. Enfin, le 8 juin, le prix du bitcoin atteint un sommet historique de 32 $ sur Mt. Gox ! Cette hausse correpond à une multiplication par 160 en 6 mois.
 
-29/6/2011 Molly explains Bitcoins https://www.youtube.com/watch?v=9LaSrxtWfgc
+Bien évidemment, ce mouvement spéculatif fait penser à une bulle financière, c'est-à-dire à une surévaluation de quelque chose par rapport à sa valeur fondamentale. Dans le cas d'une monnaie comme le bitcoin, il s'agit d'un enthousiasme passager qui se traduit par une hausse vertigineuse du cours, suivie d'une baisse brutale provoquée par le manque de conviction des nouveaux participants. C'est ainsi que l'évolution du prix est [qualifié](https://web.archive.org/web/20110530074512/http://blogs.reuters.com/columns/2011/05/27/virtual-bitcoins-are-appealing-but-probably-doomed/) de « bulle » (*original: "bubble"*) par un chroniqueur de Reuters le 27 mai, dans une des premières « notices nécrologiques » de Bitcoin.
 
-### Le prix
+Ce mouvement spéculatif a cependant pour effet de pousser la presse généraliste à aborder le sujet, ce qu'elle ne fait pas toujours de manière impartiale. Ainsi des articles sont publiés du [New York Times](https://www.nytimes.com/2011/05/30/business/economy/30views.html), de [The Economist](https://www.economist.com/babbage/2011/06/13/bits-and-bob), du journal britannique [The Guardian](https://www.theguardian.com/technology/2011/jun/12/bitcoin-online-currency-us-government), du site d'actualité allemand [Der Spiegel Online](https://www.spiegel.de/netzwelt/netzpolitik/hacker-waehrung-bitcoin-geld-aus-der-steckdose-a-765382.html), du journal italien [La Repubblica](https://www.repubblica.it/tecnologia/2011/05/31/news/bitcoin_moneta_elettronica_hacker_cia-17030027/), ou du quotidien français [Le Monde](https://www.lemonde.fr/technologies/article/2011/06/17/bitcoin-les-deux-faces-de-la-monnaie-virtuelle_1537285_651865.html). Cela finalise la couverture médiatique de Bitcoin. Il est désormais sous le feu des projecteurs, et toute personne un peu curieuse en a entendu parler.
 
-**extrait** Alors que Satoshi se met progressivement en retrait, la popularité de Bitcoin augmente prodigieusement. En particulier, le prix du bitcoin évolue de manière favorable : alors qu'il n'était que de 20 centimes en décembre 2010, il atteint la parité avec le dollar le 9 février 2011 et s'y maintient pendant quelques temps. Cette hausse du prix attise l'enthousiasme de la communauté, et notamment celui de Hal Finney qui [déclare](https://bitcointalk.org/index.php?topic=2734.msg37307#msg37307) avoir « vraiment de la chance d'être au début d'un nouveau phénomène potentiellement explosif ». (*original: "We are really lucky to be in at the beginning of a possibly explosive new phenomenon."*)
+### Conclusion générale à propos de la création de Bitcoin
 
-9 février 2011 : parité
+Ainsi, durant la première moitié de l'année 2011, le projet a pu grandir sans la présence de son fondateur Satoshi Nakamoto. Ce moment a marqué le début de Bitcoin en tant que projet purement communautaire et a clos la période de la création de Bitcoin, qui s'est étalée sur 4 années (2007 -- 2011).
 
-32 $
+Bitcoin n'est pas sorti de nulle part. ...
 
-### Conclusion
+Bitcoin ne s'est pas fait en un jour. Même après la publication de la version 0.1 du logiciel en janvier 2009, le projet était loin d'être prêt. De nombreuses vulnérabilités ont dû être corrigées. Celles-ci n'ont mené qu'à un seul incident mais ça aurait pu être pire.
 
+Bitcoin a grandi de manière organique. Il a pu se développer dans la discrétion, attirant des gens peu à peu. Pendant près d'un an et demi, il s'agissait d'un projet très confidentiel, connu par des personnes réellement passionnées. Ce n'est qu'après le slasdotting de juillet 2010 qu'il a commencé à exploser.
+
+Bitcoin a été une création altruiste. Satoshi Nakamoto a offert Bitcoin au monde. Il a publié le programme sous licence libre. Il n'a recherché ni la gloire, ni le profit, ni le pouvoir. Il a assuré la sécurité minière du réseau pendant plus d'un an. Même s'il a accumulé plus d'un million de bitcoins, il ne les a jamais dépensés. Il a enfin disparu, principalement par crainte liée à l'attention créée par l'affaire WikiLeaks, laissant dans le même temps le projet devenir réellement communautaire, sans figure unique dominante.
+
+En 2011, Satoshi a disparu, mais la communauté a su prendre le relai. Le développement logiciel s'est organisé. La communauté a su s'entendre par le biais de réunions diverses et variées. Et le projet a pris, tant médiatiquement qu'économiquement. La machine était lancée.

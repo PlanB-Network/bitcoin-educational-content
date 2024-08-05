@@ -18,9 +18,11 @@ Da Renascença ao Iluminismo, o curso examina o surgimento da liberdade, marcado
 +++
 
 # Liberdade ou Poder
+
 <partId>e59475e9-3ae4-5e66-a17e-218de0281b06</partId>
 
 ## Introdução: Existem apenas duas filosofias políticas
+
 <chapterId>ffa60c0d-ee2b-575d-a4ac-4e9ccdad396f</chapterId>
 
 Por que intitular este curso: uma história da liberdade? Porque precisamos entender a relação entre ideias e eventos, para melhor julgar nossa era e agir com discernimento. É no passado que encontramos os elementos para uma melhor compreensão do que é a liberdade e as razões pelas quais devemos valorizá-la.
@@ -50,6 +52,7 @@ A noção de responsabilidade é corolária à liberdade porque toda escolha tem
 - Em segundo lugar, a filosofia é normativa, ao contrário da história, que é meramente descritiva. Assim, a filosofia política é distinta das ciências políticas. A filosofia política é normativa, significando que prescreve valores e julga as ações humanas por um critério de justiça. Por outro lado, as ciências políticas contentam-se em descrever regimes, fazer a história das instituições, sem fazer julgamentos de valor.
 
 ### Filosofia da liberdade e filosofia do poder
+
 Desta perspectiva, existem apenas dois tipos de filosofias políticas: a filosofia da liberdade e a filosofia do poder.
 
 ![image](assets/1/img-016.webp)
@@ -74,6 +77,7 @@ A segunda filosofia é encontrada entre autores como Rousseau, Robespierre ou Ka
 Dessa perspectiva, a missão do legislador é organizar, modificar, até mesmo abolir a propriedade se ele considerar bom. Para Rousseau, a propriedade não é natural, mas convencional, como a própria sociedade. Por sua vez, Robespierre estabelece o princípio de que "A propriedade é o direito de todo cidadão de desfrutar e dispor da porção de bens garantida a ele por lei." Não existe direito natural à propriedade; existem apenas um número indefinido de arranjos possíveis e contingentes.
 
 ## Frédéric Bastiat: produção versus espoliação
+
 <chapterId>5a8a3452-9970-51a0-a5ea-f367b63137bc</chapterId>
 
 Quando se abre os livros didáticos, Bastiat observou, aprende-se que a humanidade estaria condenada ao nada sem a intervenção do poder:
@@ -108,6 +112,7 @@ Bastiat nos diz que ainda existem duas formas de pilhagem legal:
 
 Em [_A Fisiologia da Pilhagem_](http://bastiat.org/fr/physiologie_de_la_spoliation.html), ele elabora:
 A verdadeira e equitativa lei dos homens é: Troca livremente debatida de serviço por serviço. O saque consiste em proibir, pela força ou pelo engano, a liberdade de debate para receber um serviço sem prestar outro. O saque pela força é exercido da seguinte forma: Espera-se que um homem produza algo, então arranca-se isso dele, arma em punho. É formalmente condenado pelo Decálogo: Não roubarás. Quando acontece de indivíduo para indivíduo, é chamado de roubo e leva à prisão; quando é de nação para nação, é chamado de conquista e leva à glória.
+
 ### História do Saque
 
 ![image](assets/1/img-020.webp)
@@ -117,16 +122,17 @@ Historicamente, as elites governantes sempre viveram do saque. Bastiat observa:
 > A força aplicada ao saque é a base dos anais humanos. Traçar sua história seria reproduzir quase inteiramente a história de todos os povos: Assírios, Babilônios, Medos, Persas, Egípcios, Gregos, Romanos, Godos, Francos, Hunos, Turcos, Árabes, Mongóis, Tártaros, sem mencionar os Espanhóis na América, os Ingleses na Índia, os Franceses na África, os Russos na Ásia, etc.
 >
 > ([_Sofismas Econômicos_](http://bastiat.org/fr/conclusion_sophismes.html), Conclusão do primeiro volume).
-O saque, em sua forma mais brutal, armado com tocha e espada, preenche os anais da história humana. Quais são os nomes que resumem a história? Ciro, Sesostris, Alexandre, Cipião, César, Átila, Tamerlão, Maomé, Pizarro, Guilherme, o Conquistador; este é o saque ingênuo através de conquistas. A ele pertencem os louros, monumentos, estátuas e arcos triunfais. ([_Harmonias Econômicas_](http://bastiat.org/fr/conclusion_eo_harmonies.html), conclusão da edição original).
-A história do mundo é a história de como um grupo de pessoas saqueou outras, muitas vezes sistematicamente, através de guerra, escravidão, teocracia. Atualmente, é o monopólio, ou seja, privilégios econômicos distribuídos pelo Estado aos seus clientes.
+> O saque, em sua forma mais brutal, armado com tocha e espada, preenche os anais da história humana. Quais são os nomes que resumem a história? Ciro, Sesostris, Alexandre, Cipião, César, Átila, Tamerlão, Maomé, Pizarro, Guilherme, o Conquistador; este é o saque ingênuo através de conquistas. A ele pertencem os louros, monumentos, estátuas e arcos triunfais. ([_Harmonias Econômicas_](http://bastiat.org/fr/conclusion_eo_harmonies.html), conclusão da edição original).
+> A história do mundo é a história de como um grupo de pessoas saqueou outras, muitas vezes sistematicamente, através de guerra, escravidão, teocracia. Atualmente, é o monopólio, ou seja, privilégios econômicos distribuídos pelo Estado aos seus clientes.
 
 Poucos dias antes de sua morte em Roma em 1850, Bastiat confidenciou ao seu amigo Prosper Paillottet:
 
 > Uma tarefa importante para a economia política é escrever a história do Saque. É uma longa história na qual, desde o início, aparecem conquistas, migrações de povos, invasões e todos os excessos desastrosos da força em conflito com a justiça. De tudo isso, ainda há vestígios vivos hoje, e é uma grande dificuldade para a solução de questões colocadas em nosso século. Não chegaremos a essa solução até que tenhamos claramente estabelecido em que e como a injustiça, tomando sua parte entre nós, se enraizou em nossos costumes e em nossas leis.
-> 
+>
 > (P. Paillottet, _Nove Dias Perto de um Homem Moribundo_)
 
 ## Lord Acton: A Liberdade é o Motor da História
+
 <chapterId>de971d92-4e26-5870-a961-18dfa06497cf</chapterId>
 
 É sabido, a história é escrita pelos vencedores. A atenção é frequentemente focada na conquista do poder, nas vidas dos líderes no poder e nos conflitos que os opõem àqueles que desejam tomar seu lugar.
@@ -150,8 +156,8 @@ Sua tese central é que "a liberdade é estabelecida pelo conflito de poderes." 
 > Por liberdade, entendo a garantia de que todo homem será protegido, quando fizer o que acredita ser seu dever, contra a influência da autoridade e das maiorias, do costume e da opinião. O Estado é competente para estabelecer deveres e para distinguir entre o bem e o mal apenas em sua própria esfera imediata.
 >
 > (Lord Acton)
-Em outras palavras, a liberdade é o direito dos indivíduos de seguir sua própria consciência, e não é papel do estado ditar a conduta de uma pessoa em questões filosóficas, morais e religiosas.
-Friedrich Hayek inicialmente considerou nomear a Sociedade Mont Pelerin a "Sociedade Acton-Tocqueville", em homenagem a dois pensadores que ele profundamente admirava: Lord Acton e Alexis de Tocqueville. No final, foi o nome do local onde a primeira reunião da Sociedade foi realizada, Mont Pelerin na Suíça, que foi escolhido.
+> Em outras palavras, a liberdade é o direito dos indivíduos de seguir sua própria consciência, e não é papel do estado ditar a conduta de uma pessoa em questões filosóficas, morais e religiosas.
+> Friedrich Hayek inicialmente considerou nomear a Sociedade Mont Pelerin a "Sociedade Acton-Tocqueville", em homenagem a dois pensadores que ele profundamente admirava: Lord Acton e Alexis de Tocqueville. No final, foi o nome do local onde a primeira reunião da Sociedade foi realizada, Mont Pelerin na Suíça, que foi escolhido.
 
 ### Voltaire e Condorcet
 
@@ -166,7 +172,9 @@ Condorcet, em seu [_Esboço para um Quadro Histórico dos Progressos do Espírit
 Esta tese também é encontrada em uma obra monumental datada de 1983: _Direito e Revolução: A Formação da Tradição Jurídica Ocidental_, de Harold J. Berman ([tradução francesa por Raoul Audouin](https://www.eyrolles.com/Entreprise/Livre/droit-et-revolution-9782903449667/), publicada pela Livraria da Universidade de Aix en Provence em 2002). A análise de Berman destaca o papel crucial do pluralismo jurídico na história do Ocidente. Este sistema, longe de ser uma mera fonte de complexidade, foi um motor de desenvolvimento, liberdade e inovação, moldando as tradições jurídicas ocidentais de forma duradoura.
 
 ## Marx: História como Luta de Classes
+
 <chapterId>438100e6-a385-55c6-b2c5-ad192c564757</chapterId>
+
 No entanto, existe outra perspectiva sobre a história. Ela foi bastante bem-sucedida e por muito tempo contou com o apoio de intelectuais ocidentais e representantes do Sul Global. Esta é a visão socialista e marxista da história.
 ![imagem](assets/1/img-024.webp)
 
@@ -182,7 +190,9 @@ Mas ele se engana em um ponto fundamental a respeito da classe trabalhadora: nã
 
 Segundo Marx, a exploração é um processo que consiste em extrair uma parte do valor criado pelo trabalhador sem pagar por ele, o que permite aos capitalistas obter lucro. Em outras palavras, a exploração seria um mecanismo que permite aos capitalistas enriquecerem roubando o trabalho do proletariado.
 Esta análise reflete um mal-entendido sobre o valor excedente e a natureza cooperativa e dinâmica da vida econômica. De fato, o lucro que o empreendedor recebe é uma compensação pelo risco que assume, e o trabalhador ou empregado não é um escravo. Em uma situação competitiva, eles podem aceitar ou recusar um contrato com seu empregador. Eles fazem uma escolha que reflete uma análise de custo-benefício.
+
 ### A Revolução Industrial em Questão
+
 Na verdade, a análise marxista distorce a realidade histórica da Revolução Industrial. Ludwig von Mises esclareceu essa questão em seu tratado de economia [_Ação Humana_](http://herve.dequengo.free.fr/Mises/AH/AHTDM.htm) (veja especialmente o capítulo intitulado [Interpretação Popular da Revolução Industrial](http://herve.dequengo.free.fr/Mises/AH/AH21.htm#inter2)), bem como em uma série de palestras publicadas sob o título: [_Política Econômica: Pensamentos para Hoje e Amanhã_](http://herve.dequengo.free.fr/Mises/PE/PE_TDM.htm). (Também vale a pena ler, A Mentalidade Anticapitalista [aqui](https://www.institutcoppet.org/wp-content/uploads/2011/05/La-Mentalit%C3%A9-anticapitaliste.pdf) e [aqui](http://herve.dequengo.free.fr/Mises/MAC/MAC_TDM.htm)).
 ![imagem](assets/1/img-030.webp)
 
@@ -195,10 +205,10 @@ Vamos ler um trecho de _Ação Humana_:
 Mises acrescenta que a melhoria da condição humana foi assim possível pela acumulação de capital:
 
 > A mudança radical na situação que conferiu às massas ocidentais o padrão de vida atual (um padrão de vida alto de fato, comparado ao que era nos tempos pré-capitalistas, e ao que é na Rússia Soviética) foi o efeito da acumulação de capital através da poupança e investimento sábio por empreendedores de visão. Nenhuma melhoria tecnológica teria sido alcançável se os capitais materiais adicionais necessários para o uso prático de novas invenções não tivessem sido viabilizados pela poupança prévia.
-Quanto à historiografia marxista, também podemos nos referir a Friedrich Hayek em _Capitalismo e os Historiadores_ (University of Chicago Press, 1954) e seu capítulo intitulado "História e Política". Segundo Hayek, não foi a industrialização que tornou os trabalhadores miseráveis, como a lenda negra do capitalismo propagada pelo marxismo afirma. Ele observa:
+> Quanto à historiografia marxista, também podemos nos referir a Friedrich Hayek em _Capitalismo e os Historiadores_ (University of Chicago Press, 1954) e seu capítulo intitulado "História e Política". Segundo Hayek, não foi a industrialização que tornou os trabalhadores miseráveis, como a lenda negra do capitalismo propagada pelo marxismo afirma. Ele observa:
 > A verdadeira história da conexão entre capitalismo e o surgimento do proletariado é quase o oposto do que essas teorias da expropriação das massas sugerem.
-Antes da Revolução Industrial, a maioria das pessoas vivia em sociedades rurais e dependia da agricultura para sua sobrevivência. Tinham pouco para vender no mercado, o que limitava suas oportunidades e seu padrão de vida. Todos esperavam viver em absoluta pobreza e vislumbravam um destino semelhante para seus descendentes. Ninguém se indignava com uma situação que parecia ser inevitável.
-![image](assets/1/img-106.webp)
+> Antes da Revolução Industrial, a maioria das pessoas vivia em sociedades rurais e dependia da agricultura para sua sobrevivência. Tinham pouco para vender no mercado, o que limitava suas oportunidades e seu padrão de vida. Todos esperavam viver em absoluta pobreza e vislumbravam um destino semelhante para seus descendentes. Ninguém se indignava com uma situação que parecia ser inevitável.
+> ![image](assets/1/img-106.webp)
 
 Com o advento da industrialização, novas oportunidades surgiram, criando uma crescente demanda por mão de obra. Pela primeira vez, pessoas sem terra ou recursos significativos podiam vender seu trabalho para fábricas e manufaturas em troca de um salário, garantindo segurança para o futuro.
 
@@ -211,6 +221,7 @@ Portanto, o trabalhador não era explorado, mesmo que os salários fossem baixos
 Na realidade, exploração só faz sentido como uma agressão contra a propriedade privada. Nesse sentido, a exploração é sempre o ato do Estado. Pois o Estado é a única instituição que obtém suas receitas por meio da coerção, isto é, pela força. Assim, a verdadeira exploração, como vimos com Bastiat, é a das classes produtivas pela classe dos funcionários do estado. Seria mais preciso dizer que a história de toda a sociedade até os nossos dias não é nada além da história da luta entre saqueadores e as classes produtivas.
 
 ### O "Milagre Europeu"
+
 Posteriormente, uma análise histórica mais matizada do que a de Marx nos permite desafiar a ideia de uma Europa predatória, que deve seu sucesso exclusivamente ao imperialismo e à escravidão. Ao mergulhar na história econômica comparativa, alguns historiadores contemporâneos buscaram as origens do desenvolvimento da Europa no que a distinguia de outras grandes civilizações, particularmente as da China, Índia e Islã. Essas características foram exploradas por [David Landes](https://www.eyrolles.com/Entreprise/Livre/richesse-et-pauvrete-des-nations-9782226110381/), [Jean Baechler](https://academiesciencesmoralesetpolitiques.fr/publications/publications-de-lacademie/jean-baechler/), [François Crouzet](https://www.cairn.info/revue-entreprises-et-histoire-2010-4-page-219.htm) e [Douglass North](https://www.iedm.org/fr/65134-douglass-north-l-un-des-economistes-les-plus-originaux/). Esses pesquisadores tentaram entender o que é referido como o "milagre europeu". Eles focaram sua atenção no fato de que a Europa era um mosaico de jurisdições divididas e concorrentes, onde, após a queda de Roma, nenhum poder político central foi capaz de impor sua vontade.
 
 Como Jean Baechler, membro da Academia de Ciências Morais e Políticas, diz em _As Origens do Capitalismo_ (1971):
@@ -223,6 +234,7 @@ Em outras palavras, o grande "não-evento" que dominou o destino da Europa foi a
 É essa Europa radicalmente descentralizada que produziu parlamentos, dietas e Estados-Gerais. Ela deu origem a cartas como a famosa Magna Carta dos ingleses, mas também produziu as cidades livres do Norte da Itália e da Flandres: Veneza, Florença, Gênova, Amsterdã, Gante e Bruges. Finalmente, desenvolveu o conceito de direito natural, bem como o princípio de que mesmo o Príncipe não está acima da lei, uma doutrina enraizada nas universidades medievais de Bolonha, Oxford e Paris, estendendo-se a Viena e Cracóvia. Em conclusão deste capítulo, o descolamento econômico e cultural da Europa não se deveu à conquista e exploração do resto do mundo. Ela dominou o mundo graças ao seu progresso econômico. O que foi chamado de "imperialismo" é a consequência, não a causa, do progresso econômico da Europa. Mas, para voltar a Lord Acton, o que distingue ainda mais a civilização ocidental de todas as outras é sua afirmação do valor do indivíduo. Nesse sentido, a liberdade de consciência, especialmente em questões religiosas, tem sido um pilar fundamental desta civilização. Voltaremos a isso na seção seguinte.
 
 ## Murray Rothbard: Estado versus Sociedade
+
 <chapterId>5a0020ca-2bbd-5e09-8389-d57c57542cb2</chapterId>
 
 No último capítulo de _Anatomy of the State_ (traduzido para o francês como _L’anatomie de l’État_, pelas edições Résurgence), Murray Rothbard propõe uma teoria da história. Este capítulo muito curto é intitulado: História, uma corrida entre o poder do estado e o poder social. Segundo Rothbard, a história pode ser entendida como um conflito perpétuo entre dois princípios fundamentais:
@@ -260,8 +272,8 @@ De acordo com Rothbard, a história não é um processo linear, mas sim uma osci
 Do século 17 ao século 19, em muitos países ocidentais, houve períodos de aceleração do poder social e um aumento correspondente na liberdade, paz e bem-estar material. Mas Rothbard nos lembra que o século 20 foi marcado por um ressurgimento do poder do Estado, com consequências terríveis: um aumento na escravidão, guerra e destruição:
 
 > Durante este século, a raça humana enfrenta, mais uma vez, o reinado virulento do Estado; o Estado agora armado com o poder criativo do homem, confiscado e pervertido para seus próprios fins.
-O que é, afinal, uma sociedade livre? É uma sociedade sem monopólio. Em sua obra de filosofia política, _Ética da Liberdade_ (1982), Rothbard responde: "uma sociedade na qual não há possibilidade legal de agressão coercitiva contra a pessoa ou propriedade de um indivíduo." É por isso que, segundo ele, a filosofia política, que deve definir os princípios de uma sociedade justa, se resume a uma única pergunta: "Quem possui legitimamente o quê?"
-![imagem](assets/1/img-029.webp)
+> O que é, afinal, uma sociedade livre? É uma sociedade sem monopólio. Em sua obra de filosofia política, _Ética da Liberdade_ (1982), Rothbard responde: "uma sociedade na qual não há possibilidade legal de agressão coercitiva contra a pessoa ou propriedade de um indivíduo." É por isso que, segundo ele, a filosofia política, que deve definir os princípios de uma sociedade justa, se resume a uma única pergunta: "Quem possui legitimamente o quê?"
+> ![imagem](assets/1/img-029.webp)
 
 Para Rothbard, a ordem social pode prevalecer se for o produto da generalização de procedimentos contratuais para a livre troca de direitos de propriedade, privatizando todas as atividades econômicas e até funções soberanas (banco central, tribunais) e recorrendo à competição entre agências de proteção.
 
@@ -272,16 +284,20 @@ E ele acrescenta:
 > (_Ética da Liberdade_)
 
 # As origens da liberdade: Antiguidade
+
 <partId>d7a9d251-6d44-5f2f-9cc5-88796c84f61b</partId>
 
 ## A invenção da racionalidade crítica pelos Gregos
+
 <chapterId>5b5f65e6-f980-5971-b9f6-a37244503325</chapterId>
+
 A experiência da democracia ateniense deixou uma marca duradoura na história do pensamento político e continua a inspirar ideais de democracia e participação cidadã no mundo de hoje.
 ![image](assets/2/img-107.webp)
 
 A democracia ateniense era caracterizada por um debate público animado sobre os assuntos da cidade, que ocorria principalmente na ágora, o mercado. Esse modo de operação, baseado na razão e na discussão crítica, contrastava fortemente com práticas anteriores onde leis e costumes eram considerados sagrados e imutáveis, transmitidos pelos ancestrais e protegidos pelos deuses.
 
 ### O nascimento da política com a cidade
+
 A democracia ateniense representa uma ruptura importante com as tradições passadas. De fato, em sociedades anteriores, não poderia haver "política" no sentido de uma discussão sobre regras sociais, já que estas eram impostas de maneira transcendente pelo mito.
 ![image](assets/2/img-109.webp)
 
@@ -299,9 +315,9 @@ Essa novidade se baseia na distinção fundamental entre dois termos na língua 
 
 - _Phusis_ é a lei da natureza (que dá a palavra "física" em francês).
 - _Nomos_ é a lei humana (termo encontrado na palavra "autonomia", que significa "obedecer à própria lei").
-A Cidade emerge com a ideia de que a lei (nomos) é de origem humana, que pode ser livremente modificada pelos humanos, ao contrário da natureza, e pode se aplicar a todos. Os gregos então se tornam conscientes da autonomia da ordem social e política em relação à ordem natural.
-Isso marca o surgimento da política: a discussão contínua sobre as próprias regras da vida social. A partir de agora, os problemas serão resolvidos por meio de ação concertada e não por uma ordem sagrada imutável.
-E Jean-Pierre Vernant acrescenta:
+  A Cidade emerge com a ideia de que a lei (nomos) é de origem humana, que pode ser livremente modificada pelos humanos, ao contrário da natureza, e pode se aplicar a todos. Os gregos então se tornam conscientes da autonomia da ordem social e política em relação à ordem natural.
+  Isso marca o surgimento da política: a discussão contínua sobre as próprias regras da vida social. A partir de agora, os problemas serão resolvidos por meio de ação concertada e não por uma ordem sagrada imutável.
+  E Jean-Pierre Vernant acrescenta:
 
 > A razão grega é aquela que, de maneira positiva, reflexiva e metódica, nos permite agir sobre os homens, não para transformar a natureza. Dentro de seus limites como em suas inovações, ela é filha da cidade.
 
@@ -353,6 +369,7 @@ Quanto aos primeiros sinais da existência de uma atitude crítica, de uma nova 
 
 ![image](assets/2/img-008.webp)
 Estes elementos indicam, segundo ele, que foi Tales quem originou essa nova tradição de liberdade, baseada em uma relação original entre mestre e discípulo. Tales foi capaz de tolerar críticas e, mais ainda, estabeleceu a tradição de reconhecê-las. Popper identifica aqui uma ruptura com a tradição dogmática, que permite apenas uma única doutrina escolar, para substituí-la por pluralismo e falibilismo.
+
 > Nossas tentativas de compreender e descobrir a verdade não são definitivas, mas são capazes de melhoria, nosso conhecimento, nosso corpo doutrinário são conjecturais por natureza, são feitos de suposições, hipóteses, e não de verdades certas e finais.
 
 O único meio que temos para nos aproximar da verdade são a crítica e a discussão. Da Grécia antiga, portanto, vem esta tradição:
@@ -360,6 +377,7 @@ O único meio que temos para nos aproximar da verdade são a crítica e a discus
 > Que consiste em formular conjecturas ousadas e exercer crítica livre, uma tradição que estava na origem da abordagem racional e científica e, consequentemente, desta cultura ocidental que é nossa e a única que é fundada na ciência mesmo que, obviamente, esta não seja sua única base.
 
 ## A invenção do direito pelos Romanos
+
 <chapterId>e9337ad6-5a75-5894-a017-9a507939cb51</chapterId>
 
 O Império Romano era uma vasta entidade cosmopolita. No seu auge, por volta de 117 d.C., era um imenso estado multiétnico e multilíngue:
@@ -395,7 +413,9 @@ A Lei das Doze Tábuas coloca uma importância particular nos direitos de propri
 - Ela especifica as condições para a aquisição, transmissão e proteção desses bens.
 
 Em resumo, ela contribui para a segurança das transações e protege os indivíduos contra expropriações arbitrárias, com a possibilidade de recurso em caso de disputa.
+
 ### O Nascimento do Humanismo e da Vida Privada
+
 O que alguém é depende do que possui. Ser não é tão independente de ter como às vezes se diz, porque o que possuímos nos distingue do que os outros possuem. E nossa vida nos pertence, primeiro possuímos nossas faculdades, nosso corpo antes de possuir bens materiais.
 
 Na sociedade romana, cada um podia cada vez mais se diferenciar dos outros e assim se tornar o ator de sua própria vida. O homem agora desempenha um papel único, e Cícero usa a palavra "persona" para designá-lo. A "persona" era uma máscara usada pelos atores romanos, mas também se referia à personalidade legal e social de um indivíduo. A noção de persona implicava que os indivíduos eram entidades distintas com seus próprios direitos e responsabilidades. O conceito da pessoa humana individual (o ego) com sua vida interior e destino único nasceu, e se desenvolveria com o Cristianismo.
@@ -451,6 +471,7 @@ Nem a verdade nem a justiça podem ser decretadas, mesmo pela maioria, pois caso
 Ao afirmar que a lei não pode ser reduzida apenas aos estatutos promulgados pelo legislativo, Cícero visava combater a arbitrariedade legislativa e propor uma moralidade política. Esta ideia teve uma influência duradoura no pensamento ocidental.
 
 ## A Queda de Roma
+
 <chapterId>1b0f3de8-696a-5dbc-bb5e-e03ddafb4ebf</chapterId>
 
 Por que Roma declinou e, finalmente, caiu? Muitos gostam de pensar que o Império Romano colapsou subitamente, sob o impacto das invasões bárbaras. No entanto, as causas do colapso do Império Romano devem ser encontradas muito antes, no imperialismo e no dirigismo econômico e monetário.
@@ -517,9 +538,11 @@ E ele acrescenta:
 > No total, a vida econômica, política, artística e religiosa sob o Império Romano no século 4 deve ter sido bastante semelhante ao que era sob Brezhnev na URSS (e nos piores momentos sob Stalin) ou ao que pode ser hoje na Coreia do Norte: toda a população do mundo romano era regimentada pelo socialismo imperial e sofria, direta ou indiretamente, seus efeitos.
 
 # As origens da liberdade: a Idade Média
+
 <partId>f47bd5fc-c4a7-5d3b-b102-7b948bb43268</partId>
 
 ## A afirmação da liberdade humana
+
 <chapterId>96ca5622-f8e4-58ef-b358-7f7d25543104</chapterId>
 
 A ideia cristã de liberdade desenvolveu-se na teologia medieval de Santo Agostinho no século 4, até São Tomás de Aquino no século 13. Qual é essa ideia?
@@ -527,6 +550,7 @@ A ideia cristã de liberdade desenvolveu-se na teologia medieval de Santo Agosti
 ![imagem](assets/3/img-036.webp)
 
 ### A liberdade está implicada na ideia de pecado
+
 Desde o início, o Cristianismo ensina que o pecado é uma questão pessoal, não inerente ao grupo, mas que cada indivíduo deve assumir a responsabilidade pela própria salvação. "Deus dotou sua criatura, com livre arbítrio, a capacidade de errar e, com isso, a responsabilidade pelo pecado," afirma Santo Agostinho em seu tratado sobre o livre arbítrio, _De Libero Arbitrio_.
 O pecado não pode existir sem liberdade. De fato, o Deus cristão é um juiz que recompensa a "virtude" e pune o "pecado". Mas esta concepção de Deus é precisamente incompatível com o fatalismo porque uma pessoa não poderia ser culpada e fazer seu mea culpa se não fosse primeiro livre para determinar seu próprio comportamento. Reconhecer a própria falta moral, a própria culpa, é reconhecer que se poderia ter agido de maneira diferente.
 "Por que fazemos o mal?" pergunta Santo Agostinho. Se não estou enganado, o argumento mostrou que agimos dessa maneira através da livre vontade. Mas essa livre vontade à qual devemos nossa capacidade de pecar, estamos convencidos, me pergunto se Aquele que nos criou fez bem em nos dar. Parece, de fato, que não teríamos sido expostos ao pecado se tivéssemos sido privados dela; mas teme-se que, dessa forma, Deus também apareça como o autor de nossas más ações. (_De libero arbitrio_, I, 16, 35.)
@@ -542,6 +566,7 @@ Mas a realização do mal moral é obra do homem, que faz mau uso de sua liberda
 Em resumo, a liberdade é um bem porque permite que alguém se ordene para o bem e para Deus que é o bem absoluto, mas necessariamente e simultaneamente implica a possibilidade de escolher o mal e rejeitar Deus.
 
 ### Deus não faz o bem em nosso lugar
+
 Na teologia medieval, a providência não é uma intervenção constante de Deus na vida dos homens, como se Deus agisse em nosso lugar e sem nosso consentimento. Pelo contrário, Deus dá a cada criatura, de acordo com sua natureza, faculdades que lhe permitem prover a si mesma e assim alcançar seu pleno desenvolvimento. Deus não faz o bem pela criatura em seu lugar.
 ![image](assets/3/img-039.webp)
 
@@ -564,8 +589,10 @@ No entanto, essa luz interior não é suficiente para agir bem. É necessário o
 Segundo Santo Tomás:
 
 > Por meio do conhecimento do direito natural, o homem acessa diretamente a ordem comum da razão, antes e acima da ordem política à qual pertence como cidadão de uma sociedade particular.
-Portanto, existe um direito anterior à formação do Estado, um conjunto de princípios gerais que a razão pode articular estudando a natureza do homem como Deus o criou. Este direito impõe-se ao monarca, ao poder, que deve então respeitá-lo. E as leis promulgadas pela autoridade política são vinculativas apenas na medida em que se conformam ao direito natural.
+> Portanto, existe um direito anterior à formação do Estado, um conjunto de princípios gerais que a razão pode articular estudando a natureza do homem como Deus o criou. Este direito impõe-se ao monarca, ao poder, que deve então respeitá-lo. E as leis promulgadas pela autoridade política são vinculativas apenas na medida em que se conformam ao direito natural.
+
 ## Razão e fé: uma competição aberta
+
 <chapterId>ca379c2e-57cb-541d-8ddb-4b925032a779</chapterId>
 
 Na Idade Média, razão e fé competem pelo acesso à verdade. Seguindo Abélard e Alberto Magno, Tomás de Aquino, no século XIII, optou por defender os direitos da razão e sua autonomia em relação à fé.
@@ -601,10 +628,12 @@ Entre os grandes mestres aristotélicos que marcaram essa era, podemos mencionar
 A partir de então, o racionalismo religioso prevaleceria definitivamente sobre o misticismo.
 
 ## Religião e Política: O Nascimento do Estado Soberano
+
 <chapterId>a925ea80-9f66-5f0b-8ab0-f428ae5c12dc</chapterId>
 
 Na Idade Média, a Igreja e as monarquias cristãs herdaram um modelo político do Império Romano, que os historiadores chamam de sistema teológico-político, significando um sistema onde o poder é sagrado, ou seja, onde o líder político é também um líder religioso.
 É por isso que as sociedades medievais são caracterizadas pelo unanimismo político-religioso. As bases do poder político fundamentam sua legitimidade, autoridade e unidade na fé Cristã (ou Muçulmana). Considera-se guardião da ortodoxia cultural e religiosa e trata como párias aqueles que se desviam dessa unanimidade. Neste contexto, mesmo que uma certa tolerância pudesse ser concedida àqueles que se desligam da visão cultural comum (como os Judeus), nenhum direito ao pluralismo poderia ser reconhecido para eles. Não foi até o final da Idade Média, com a conquista da América, que o problema das liberdades civis se tornou crucial para a Igreja e viu o surgimento de uma primeira filosofia do direito que afirmava e protegia as liberdades individuais, legitimava o pluralismo e condenava a coerção estatal.
+
 ### Santo Agostinho e a Tentação Teocrática
 
 A questão da relação entre política e religião tomou forma com a obra de Santo Agostinho, _Civitas Dei_ (_A Cidade de Deus_). Nela, ele explica que duas esferas coexistem:
@@ -628,12 +657,16 @@ Assim, a Igreja, por seu lado, desenvolverá sua lei e seus tribunais e postular
 
 Na realidade, a competição entre os poderes levou a numerosos conflitos. Cada Príncipe ou cada Papa sempre tentou ter a última palavra e convencer de que detinha a autoridade suprema, em última instância. Assim, o Papa Gregório VII declarou:
 
->O papa é o único homem cujos pés todos os príncipes devem beijar.
+> O papa é o único homem cujos pés todos os príncipes devem beijar.
 
 Por seu lado, São Luís não hesitou em se opor ao Papa Inocêncio IV, que havia excomungado e deposto o Imperador Frederico II, privando-o assim de toda credibilidade entre seu povo. Seu neto, Filipe, o Belo, faria o mesmo.
 
 A tentação teocrática da Igreja também se choca com a teoria do "direito divino". Se os reis da França se proclamam monarcas por "direito divino", é para escapar do domínio do Papa e tirar sua autoridade diretamente de Deus, sem ter que receber ordens do clero.
-## Ética Bíblica: O Valor Sagrado do Indivíduo<chapterId>7a27494d-8481-52ea-a551-e430bdb5315f</chapterId>
+
+## Ética Bíblica: O Valor Sagrado do Indivíduo
+
+<chapterId>7a27494d-8481-52ea-a551-e430bdb5315f</chapterId>
+
 O pensamento antigo subordinava o homem a um cosmos divino, isto é, a um universo perfeito do qual ele era apenas uma parte. O monoteísmo, por outro lado, afirma o valor infinitamente superior do homem sobre a natureza, na medida em que o homem é criado à imagem de Deus. Este ponto crucial está na origem de uma verdadeira revolução ética. A Bíblia afirma o valor sagrado e infinito de cada ser humano.
 É por isso que a ética bíblica muda nossa relação com o mal. Ela traz uma sensibilidade aguda e sem precedentes ao sofrimento humano. Portanto, nos encoraja a considerar como anormais e insuportáveis males que a humanidade até então havia encontrado perfeitamente suportáveis, especialmente o mal feito aos outros, aos fracos, aos inocentes.
 
@@ -663,6 +696,7 @@ A questão dos povos indígenas foi a primeira fissura no monólito político-re
 A ideia de humanidade progride. Efetivamente passou a ser considerado que existe apenas uma humanidade à qual os direitos iguais estão naturalmente vinculados. Mas ainda levará tempo para que seja aceita por todos. Isso exigirá notavelmente a contribuição das ciências naturais com o conceito da espécie humana.
 
 ## Os Primeiros Esboços do Capitalismo
+
 <chapterId>236bdeeb-7bd3-536a-9df1-8791800bf31e</chapterId>
 
 Vimos que o Cristianismo impõe um dever moral às pessoas de trabalhar para a melhoria do mundo. Deus quer que o homem seja feliz, mas não quer alcançar seu bem em seu lugar. Portanto, cabe ao cristão combater o mal moral, amar o próximo, ajudar as vítimas, em suma, trabalhar por um mundo mais justo e humano. O capitalismo, ou seja, a economia livre baseada na propriedade privada e na liberdade de contratos, é compatível com o dever cristão?
@@ -696,6 +730,7 @@ Ou Le Goff destaca em _L'usure au Moyen Âge_ (1967, republicado em 1986 sob o t
 No entanto, segundo o historiador francês, a ascensão do capitalismo deve ser colocada em um contexto mais amplo de transformações econômicas, sociais e culturais que se desenrolaram ao longo de vários séculos. Le Goff enfatiza notavelmente a importância da Revolução Comercial dos séculos 15 e 16, marcada pela expansão do comércio marítimo e pela descoberta de novas rotas comerciais, que estimularam a acumulação de capital e a predominância da lógica de mercado.
 
 ### Uma Crítica às Manipulações Monetárias
+
 O estudo sistemático das leis econômicas começa na Alta Idade Média. Os primeiros economistas são os teólogos escolásticos da Escola de Paris. O primeiro entre eles a escrever um tratado científico inteiramente dedicado a um assunto econômico é Nicolas Oresme (1325-1382). Por volta de 1360, ele compôs seu _Tratado sobre a Origem, Natureza, Lei e Alterações do Dinheiro_, que resume e desenvolve as ideias dos escolásticos de seu tempo.
 ![image](assets/3/img-031.webp)
 
@@ -703,6 +738,7 @@ No coração de sua análise monetária está o problema das "mutações" do din
 
 Oresme imediatamente levanta uma questão central: a inflação é benéfica para a comunidade? Ele responde negativamente, argumentando que a inflação não torna o dinheiro mais ou menos útil para as trocas. A economia pode funcionar bem independentemente do nível de preços, e assim, independentemente da oferta nominal de dinheiro.
 Mas se esse é o caso, outra questão obviamente surge: por que existem alterações na moeda? E, em particular, por que buscar aumentar a oferta de dinheiro? Oresme responde que essas alterações não têm as mesmas consequências para diferentes membros da comunidade. Elas beneficiam certas pessoas em detrimento de outras. Os vencedores das alterações monetárias têm um interesse material em implementá-las. Geralmente, esses vencedores são os homens no poder. Oresme escreve:
+
 > Parece-me que a razão primária e última pela qual o príncipe quer apoderar-se do poder de mudar as moedas é o ganho ou lucro que ele pode obter com isso, pois, de outra forma, é sem razão que ele faria tantas e tão consideráveis mutações.
 
 Então, ele acrescenta estes detalhes:
@@ -714,10 +750,14 @@ Oresme enfatiza que as alterações monetárias não são simplesmente um jogo d
 Além disso, se duas moedas diferentes se beneficiam de curso legal, os agentes irão acumular aquela que vale mais, de modo que apenas a moeda inferior permanece em circulação. (Oresme aqui antecipa a famosa "lei de Gresham": o dinheiro ruim expulsa o bom em um regime de curso legal.) Ele conclui que as manipulações monetárias são piores que a usura e que, provavelmente, foram uma causa significativa do declínio do Império Romano, como vimos anteriormente.
 
 # O Surgimento da Liberdade: Do Renascimento à Iluminação
+
 <partId>58793f94-f217-530a-a877-b5b6df70a5fe</partId>
 
 ## Apelo pela Tolerância Religiosa
-<chapterId>c4c9a729-4a0f-5814-8e32-9aff4d373018</chapterId>A partir do Renascimento, a Europa seria devastada por guerras religiosas. A tolerância, portanto, tornou-se uma das grandes batalhas do Iluminismo.
+
+<chapterId>c4c9a729-4a0f-5814-8e32-9aff4d373018</chapterId>
+
+A partir do Renascimento, a Europa seria devastada por guerras religiosas. A tolerância, portanto, tornou-se uma das grandes batalhas do Iluminismo.
 ![image](assets/4/img-112.webp)
 
 Para alguns, o método científico unificaria as pessoas além dos preconceitos com uma visão comum do mundo. A atração universal não é a mesma para um católico, um protestante, um judeu ou um ateu? Assim, a Enciclopédia de Diderot e d’Alembert representa uma tentativa de promover o conhecimento universal, capaz de unir as pessoas.
@@ -728,7 +768,7 @@ Voltaire pensava o mesmo sobre o comércio. Ele poderia estabelecer a tolerânci
 
 Para Voltaire, é principalmente a falibilidade do homem que constitui a fundação de uma doutrina de tolerância e liberdade política. Ele escreve em seu _Dicionário Filosófico_ (1764):
 
->A tolerância é a consequência necessária de nossa consciência de sermos falíveis. Errar é humano, e todos nós constantemente cometemos erros. Vamos perdoar uns aos outros nossas tolices; esta é a primeira lei da natureza.
+> A tolerância é a consequência necessária de nossa consciência de sermos falíveis. Errar é humano, e todos nós constantemente cometemos erros. Vamos perdoar uns aos outros nossas tolices; esta é a primeira lei da natureza.
 
 ![image](assets/4/img-078.webp)
 
@@ -766,7 +806,9 @@ Em outras palavras, ser tolerante não significa ser hostil à religião. Signif
 - Ideias devem ser trocadas, assim como mercadorias
 
 ## Apelo pela Liberdade Econômica
+
 <chapterId>23fbb745-4fd1-5322-8fba-3ff2e998c7e2</chapterId>
+
 O liberalismo econômico é frequentemente associado a uma tradição anglo-saxônica que vem de Adam Smith, contrastado com o "liberalismo político", que se diz originar do Iluminismo continental, particularmente na França. Esta visão é incorreta.
 
 ![image](assets/4/img-069.webp)
@@ -810,6 +852,7 @@ Para os Fisiocratas, a liberdade não divide. Lutar contra privilégios polític
 De fato, como fazer coexistir homens com interesses divergentes? O que fazer se os homens entrarem em conflito, se cometerem erros, se forem gananciosos e egoístas?
 
 Os Fisiocratas responderam em três etapas:
+
 1. É a liberdade dos contratos que permite a resolução de conflitos de interesse, não o contrato social, que é um pseudocontrato, pois não pode ser rompido. Analisar os problemas sociais em termos de mercado e troca nos permite ver as relações entre indivíduos e entre nações como um jogo de soma positiva e aborda tanto as questões de instituição quanto a regulação da sociedade ao afirmar que a necessidade e o interesse sozinhos governam as relações entre as pessoas.
 2. A liberdade natural é o direito de dispor de si mesmo e de suas posses. Portanto, a harmonia de interesses é possível com base no respeito pela propriedade legítima, que é adquirida através do trabalho e decorre do uso de nossas faculdades. E é essa liberdade baseada na propriedade que é a chave para o problema social, não a restrição da lei.
 3. O papel do Estado é fazer cumprir contratos e garantir a segurança das pessoas e da propriedade. Este é o famoso "Laissez faire", o lema dos fisiocratas. O Estado governa melhor quando governa menos e permite que os indivíduos tenham a liberdade de tomar iniciativas e assumir suas responsabilidades.
@@ -817,6 +860,7 @@ Os Fisiocratas responderam em três etapas:
 Em resumo, se todos podem livremente perseguir seu interesse privado em respeito à lei natural, a paz e a prosperidade de todos serão melhor asseguradas do que por uma organização política que definiria o interesse geral de cima para baixo e o imporia através da restrição da lei. A liberdade política é uma coisa útil, mas não é suficiente para dar aos indivíduos a autonomia de decisão e ação de que precisam. Tal é a lição dos fisiocratas. A escola liberal francesa do século XIX, com Say, Constant, Dunoyer, Bastiat e Molinari, lembrará disso e defenderá brilhantemente essa herança contra o socialismo emergente.
 
 ## Um Ano Chave para o Mundo Livre: 1776
+
 <chapterId>c1ba85f8-e8d1-5794-b198-8c683efb0d9b</chapterId>
 
 1776 é um ano que muitas vezes passa despercebido nos livros de história. Mas em três países, França, Escócia e América do Norte, vários eventos deixarão uma marca indelével na história da liberdade.
@@ -826,7 +870,7 @@ Em resumo, se todos podem livremente perseguir seu interesse privado em respeito
 Durante seu curto mandato como Ministro das Finanças (Controlador Geral), de agosto de 1774 a maio de 1776, Ann-Robert Jacques Turgot tentou grandes reformas para acabar com os gastos extravagantes, numerosos monopólios locais e retornar ao livre comércio. Ele chegou até a admoestar o Rei Luís XVI nestes termos:
 
 > Você deve, Sire, armar-se contra sua bondade, com sua própria bondade, considerando de onde vem o dinheiro que você pode distribuir aos seus cortesãos.
-Em 1774, ele publicou seus Seis Éditos para abolir as guildas e mestrias (corporações que haviam se tornado monopólios e barreiras de entrada no mercado de trabalho), abolir os direitos aduaneiros internos sobre o comércio de grãos, abolir o trabalho forçado (corvéia) e estabelecer tolerância em relação aos protestantes.
+> Em 1774, ele publicou seus Seis Éditos para abolir as guildas e mestrias (corporações que haviam se tornado monopólios e barreiras de entrada no mercado de trabalho), abolir os direitos aduaneiros internos sobre o comércio de grãos, abolir o trabalho forçado (corvéia) e estabelecer tolerância em relação aos protestantes.
 
 Infelizmente, os preços crescentes do trigo, seguindo uma má colheita, lançaram dúvidas sobre suas reformas. Turgot escreveu em sua defesa:
 
@@ -913,6 +957,7 @@ A contribuição mais importante de Smith para a liberdade foi esclarecer a idei
 Esta ideia de ordem espontânea se tornaria um conceito chave no trabalho de Friedrich Hayek, que reconheceria sua dívida com o Iluminismo Escocês e com Adam Smith em particular.
 
 ## A Era das Revoluções
+
 <chapterId>c260e3ab-31a2-5ad7-b775-4bdcdc13b859</chapterId>
 
 A grande novidade deste período moderno na história ocidental é o surgimento de uma sociedade que se organiza fora da dependência religiosa. Isso não significa o desaparecimento da crença religiosa ou a morte de Deus. Mas Deus se torna uma questão privada, não mais misturada com os assuntos políticos. Não há desaparecimento da religião, mas um destronamento de seu papel orientador. Torna-se um sistema de crenças individuais.
@@ -924,6 +969,7 @@ Falamos sobre economistas e sua defesa do mercado livre. Mas para muitos filóso
 Até o século 18, o principal problema político para esses filósofos é, portanto, o da soberania. É primariamente uma questão de justiça: quem pode exercer legitimamente a soberania?
 
 ### Soberania Popular
+
 A ideia foi inspirada por Locke no século 17 e depois retomada por Rousseau. O poder soberano não deve vir apenas da vontade livre do povo, mas também residir nele. Esta é a teoria rousseauniana da soberania da vontade geral, o que chamamos hoje de democracia.
 ![image](assets/4/img-071.webp)
 
@@ -953,6 +999,7 @@ Além disso, o Artigo 2 da Declaração dos Direitos Francesa de 1789 também se
 > O objetivo de qualquer associação política é a preservação dos direitos naturais e imprescritíveis do homem. Esses direitos são liberdade, propriedade, segurança e resistência à opressão.
 
 ### Duas Revoluções Comparadas
+
 A Revolução Americana foi liderada por homens que falavam de direitos fundamentais inalienáveis. Levou à formação de um estado de direito descentralizado e limitado. Do outro lado do Atlântico, outro experimento político ocorreu: a Revolução Francesa, que começou como uma corajosa revolta do povo, terminou em uma série de massacres, conflitos internos sangrentos e pavimentou o caminho para a ditadura militar de Napoleão Bonaparte. Por que tal diferença?
 No século XIX, Alexis de Tocqueville, um filósofo político francês, tentou identificar essas diferenças entre as duas revoluções irmãs. Ele atribui o sucesso da Revolução Americana a vários fatores.
 
@@ -996,9 +1043,11 @@ Isso é, aliás, o sentido da observação de Friedrich Hayek em seu livro _A Co
 > O fator decisivo que tornou vãos os esforços da Revolução em favor da promoção da liberdade individual foi que ela criou a ilusão de que, na medida em que todo o poder havia sido entregue ao povo, todas as precauções contra o abuso desse poder haviam se tornado desnecessárias.
 
 # Apogeu e Declínio: Do século 19 ao século 20
+
 <partId>39810d57-19e3-5166-8f2e-40b763154148</partId>
 
 ## A Liberdade dos Modernos
+
 <chapterId>e575f4c1-7144-591b-ab98-d976ec4102fb</chapterId>
 
 Segundo Benjamin Constant, a liberdade, em nossas sociedades modernas, não pode mais ser entendida à maneira das sociedades da Antiguidade como participação direta nos assuntos da cidade.
@@ -1006,6 +1055,7 @@ Segundo Benjamin Constant, a liberdade, em nossas sociedades modernas, não pode
 ![image](assets/5/img-103.webp)
 
 ### Liberdade na Vida Privada
+
 Na antiguidade, o indivíduo era soberano nos assuntos públicos, mas escravizado em todas as suas relações privadas. O sacrifício da liberdade individual era compensado pelo uso dos direitos políticos: o direito de exercer diretamente várias partes da soberania, de deliberar na praça pública, de votar em leis, de pronunciar julgamentos, de avaliar e julgar magistrados. É uma liberdade política e coletiva:
 A liberdade dos Antigos consistia em uma participação ativa e constante no poder coletivo. Nossa liberdade, por outro lado, deve consistir no gozo pacífico da independência privada; segue-se que devemos ser muito mais apegados do que os antigos à nossa independência individual. (_Sobre a Liberdade dos Antigos Comparada com a dos Modernos_ (1819))
 ![image](assets/5/img-084.webp)
@@ -1030,16 +1080,19 @@ Mas isso não significa sacrificar a liberdade política, a participação no po
 De fato, em seus _Princípios de Política_, Benjamin Constant afirma:
 
 > A soberania do povo não é ilimitada, é circunscrita dentro dos limites traçados pela justiça e pelos direitos dos indivíduos. A vontade de um povo inteiro não pode tornar justo o que é injusto.
-Esta é uma nova crítica a Rousseau e ao _Contrato Social_: mesmo uma vontade geral está sujeita a limites, e ela não pode mudar o que está sob a lei natural. Existe um direito anterior e superior à autoridade política: é a lei natural. Este direito estabelece os limites do poder político e limita as liberdades individuais.
-Dizer que todo poder legítimo deve ser fundado na vontade geral não significa que tudo o que a vontade geral decide é legítimo. Constant alinha-se assim com a Declaração dos Direitos do Homem de 1789, Artigo II, que estipula que o Estado é instituído apenas para preservar os direitos naturais, isto é, liberdade, responsabilidade e propriedade. Existem, portanto, áreas nas quais o poder político não tem influência: moralidade e religião, mas também as ciências que estão sob a autoridade do conhecimento e, finalmente, a indústria, acrescenta Constant.
+> Esta é uma nova crítica a Rousseau e ao _Contrato Social_: mesmo uma vontade geral está sujeita a limites, e ela não pode mudar o que está sob a lei natural. Existe um direito anterior e superior à autoridade política: é a lei natural. Este direito estabelece os limites do poder político e limita as liberdades individuais.
+> Dizer que todo poder legítimo deve ser fundado na vontade geral não significa que tudo o que a vontade geral decide é legítimo. Constant alinha-se assim com a Declaração dos Direitos do Homem de 1789, Artigo II, que estipula que o Estado é instituído apenas para preservar os direitos naturais, isto é, liberdade, responsabilidade e propriedade. Existem, portanto, áreas nas quais o poder político não tem influência: moralidade e religião, mas também as ciências que estão sob a autoridade do conhecimento e, finalmente, a indústria, acrescenta Constant.
 
 ### Liberdade Política e Liberdade Econômica
+
 A liberdade política sem outras liberdades é apenas uma ilusão, segundo Benjamin Constant. A liberdade política é a liberdade de participar no exercício do poder. No entanto, o poder do povo ou das massas pode ser destrutivo das liberdades porque concede à maioria votante o direito de impor sua vontade a toda a sociedade, incluindo seus caprichos ou sua ideologia do momento: impostos confiscatórios sem compensação, imposição de um único pensamento, censura, repressão e terrorismo intelectual. É por isso que não pode haver verdadeira liberdade sem liberdades civis, incluindo a liberdade religiosa e a liberdade econômica. Benjamin Constant não separa o liberalismo político do liberalismo econômico:
+
 > Por quarenta anos, defendi o mesmo princípio, liberdade em tudo, na religião, na filosofia, na literatura, na indústria, na política: e por liberdade, entendo o triunfo da individualidade, tanto sobre a autoridade que governaria por despotismo quanto sobre as massas que reivindicam o direito de escravizar a minoria à maioria. O despotismo não tem direito. A maioria tem o direito de compelir a minoria a respeitar a ordem: mas tudo o que não perturba a ordem, tudo o que é apenas interno, como a opinião; tudo o que, na expressão da opinião, não prejudica os outros, seja provocando violência material ou opondo-se a uma expressão contrária; tudo o que, em termos de indústria, permite que a indústria rival opere livremente, é individual e não pode ser legitimamente submetido ao poder social.
 
 Em outras palavras, em uma sociedade livre, é necessário estabelecer um limite estrito entre a esfera pública e a esfera privada. O princípio deste limite reside em não prejudicar os outros, isto é, não infringir sua propriedade.
 
 ## Forças e Fraquezas da Democracia
+
 <chapterId>753e065d-dbee-5d61-aa56-b1c074c95499</chapterId>
 
 Alexis de Tocqueville foi um observador atento da democracia e um crítico do individualismo democrático.
@@ -1064,13 +1117,14 @@ De fato, a equalização é acompanhada por uma maior fragilidade dos indivíduo
 O autor de _Democracia na América_ nos adverte:
 
 > De fato, há uma paixão nobre e legítima pela igualdade que excita os homens a quererem ser todos fortes e estimados. Essa paixão tende a elevar os pequenos à posição dos grandes; mas também existe no coração humano um gosto depravado pela igualdade, que leva os fracos a quererem rebaixar os fortes ao seu nível, e que reduz os homens a preferirem a igualdade na servidão à desigualdade na liberdade. (...) As nações dos nossos dias não podem fazer com que as condições entre elas não sejam iguais; mas cabe a elas decidir se a igualdade as levará à servidão ou à liberdade, à iluminação ou à barbárie, à prosperidade ou à miséria.
-Para Tocqueville, o homem é muito mais atraído pela igualdade do que pela liberdade. E ele vê isso como um grande perigo para a democracia. Por que o homem prefere a paixão pela igualdade entre as duas? Porque a liberdade produz custos diretamente visíveis, e seus benefícios são mais distantes, inscritos a longo prazo (a liberdade não fornece conteúdo, apenas a capacidade de buscar a felicidade de acordo com o próprio julgamento). Por outro lado, a igualdade traz resultados positivos imediatamente visíveis e seus defeitos só se revelam a longo prazo.
+> Para Tocqueville, o homem é muito mais atraído pela igualdade do que pela liberdade. E ele vê isso como um grande perigo para a democracia. Por que o homem prefere a paixão pela igualdade entre as duas? Porque a liberdade produz custos diretamente visíveis, e seus benefícios são mais distantes, inscritos a longo prazo (a liberdade não fornece conteúdo, apenas a capacidade de buscar a felicidade de acordo com o próprio julgamento). Por outro lado, a igualdade traz resultados positivos imediatamente visíveis e seus defeitos só se revelam a longo prazo.
 
 ### O Direito ao Trabalho
 
 O direito ao trabalho é um bom exemplo dos desvios do igualitarismo democrático. Em um discurso à Assembleia Constituinte em 1848, Tocqueville posicionou-se contra o direito ao trabalho no projeto de constituição. Se o Estado se compromete a fornecer trabalho para todos os trabalhadores, argumentou ele, ou se garante que eles sempre o encontrem no mercado de trabalho, como querem os socialistas, será levado a se tornar "o grande e único organizador do trabalho."
 
 Neste discurso, Tocqueville compara o socialismo ao Ancien Régime, para quem "seus súditos são seres enfermos e fracos que devem sempre ser segurados pela mão, para que não caiam ou se machuquem." O socialismo é assim "uma nova forma de servidão" por três razões:
+
 1. Moralmente, o socialismo promove a irresponsabilidade por meio de seu controle estatal diretivo e coletivista. É sempre caracterizado por "um profundo desprezo pelo indivíduo como tal."
 
 2. Politicamente, é despótico porque, em nome da felicidade, busca tornar-se "o mestre de cada homem, seu tutor e seu educador."
@@ -1094,8 +1148,8 @@ Sob o reinado das ideias socialistas, Bastiat observou que a máquina eleitoral 
 O Estado então se torna, segundo as palavras de Bastiat,
 
 > a grande ficção por meio da qual todos tentam viver às custas de todos os outros. ([_O Estado_](http://bastiat.org/fr/l_etat.html))
-Bastiat também desenvolve a ideia de que o conflito surge quando a lei se desvia de seu papel legítimo. Em seu famoso panfleto [_A Lei_](http://bastiat.org/fr/la_loi.html), ele demonstra por que e como a lei se tornou "o campo de batalha de toda a ganância", significando uma fonte de privilégios, rendas situacionais e tributação arbitrária. Assim que é admitido em princípio que a lei pode ser desviada de sua verdadeira missão, que pode violar propriedades em vez de garantir-las, uma luta de classes segue necessariamente, seja para defender contra a espoliação ou para organizá-la em benefício próprio.
-![image](assets/5/img-098.webp)
+> Bastiat também desenvolve a ideia de que o conflito surge quando a lei se desvia de seu papel legítimo. Em seu famoso panfleto [_A Lei_](http://bastiat.org/fr/la_loi.html), ele demonstra por que e como a lei se tornou "o campo de batalha de toda a ganância", significando uma fonte de privilégios, rendas situacionais e tributação arbitrária. Assim que é admitido em princípio que a lei pode ser desviada de sua verdadeira missão, que pode violar propriedades em vez de garantir-las, uma luta de classes segue necessariamente, seja para defender contra a espoliação ou para organizá-la em benefício próprio.
+> ![image](assets/5/img-098.webp)
 
 Nos casos em que a lei apenas reforça os direitos de cada indivíduo e garante _"a organização coletiva do direito individual à legítima defesa,"_ ninguém está em posição de explorá-la para seu próprio benefício às custas de todos, a tal ponto que a própria forma de governo se torna uma questão secundária.
 
@@ -1109,6 +1163,7 @@ Conclusão de Bastiat:
 Olhe para o globo. Quais são os povos mais felizes, mais morais e mais pacíficos? Aqueles onde a Lei intervém menos na atividade privada; onde o governo é menos sentido; onde a individualidade tem mais resiliência e a opinião pública mais influência; onde os mecanismos administrativos são os menos numerosos e menos complicados; os impostos menos onerosos e menos desiguais; o descontentamento popular menos provocado e menos justificável; onde a responsabilidade de indivíduos e classes é mais ativa, e onde, consequentemente, se os costumes não são perfeitos, tendem inexoravelmente a se corrigir; onde transações, acordos, associações são menos impedidos; onde o trabalho, o capital e a população sofrem os menores deslocamentos artificiais ([_A Lei_](http://bastiat.org/fr/la_loi.html))
 
 ## A Crítica Marxista ao Capitalismo
+
 <chapterId>16c82521-7c51-5d84-b660-0b358447e3bd</chapterId>
 
 Foi durante o século 19 que a crítica ao capitalismo, e em particular a crítica marxista, emergiu.
@@ -1118,6 +1173,7 @@ Qual o valor do direito de falar, escrever e votar, exclamou Marx, se a vida cot
 ![image](assets/5/img-091.webp)
 
 ### O Mito do Estado Imparcial
+
 A crítica fundamental que Marx faz ao liberalismo político, particularmente em seus primeiros escritos (_Crítica da Filosofia do Direito de Hegel_ e _Sobre a Questão Judaica_), foca na separação entre a sociedade civil e o estado. Esta crítica deve ser entendida dentro do quadro geral de sua interpretação da "Revolução Burguesa". É esta revolução que leva à formação de um estado separado da sociedade civil, que supostamente visa o universal, significando o interesse comum, ao desempenhar o papel de um árbitro imparcial.
 
 No entanto, tudo isso é, para Marx, apenas uma aparência enganosa. Na realidade, o estado não é nada além de um instrumento destinado a servir os interesses particulares da classe dominante. Em outras palavras, o estado não é imparcial; não está separado da sociedade civil. Na verdade, o estado liberal é o local de uma dupla ilusão. A ilusão do universal, como acabamos de ver, e consequentemente, a ilusão da emancipação. De fato, a Revolução emancipou o cidadão instituindo a soberania popular e a igualdade perante a lei, mas essa liberdade e igualdade permanecem puramente ideais e abstratas. É falso, diz Marx, pensar, como Rousseau ou Hegel, que o homem realiza plenamente sua natureza racional ao se tornar um cidadão. Na realidade, pode-se tornar um cidadão e permanecer explorado, escravizado, abandonado aos caprichos dos desejos, à anarquia do egoísmo e à lei do mais forte.
@@ -1127,11 +1183,13 @@ A emancipação do cidadão, segundo Marx, não significa de forma alguma a eman
 Esta ilusão política do liberalismo é o lado secular da ilusão religiosa, acrescenta Marx. A fórmula é bem conhecida: "a religião é o ópio do povo". A religião é um consolo, proporciona euforia e promete emancipação na vida após a morte. Mas desvia o homem de sua verdadeira emancipação aqui na terra. A cidadania é, em relação à atividade do trabalhador, como o reino de Deus em relação à existência miserável nesta terra. Nunca é realizada. Esta dupla separação constitui uma dupla alienação, significando o não cumprimento pelo homem de sua humanidade ou sua realização imaginária.
 
 ### Alienação Econômica
+
 De fato, para Marx e de acordo com o materialismo histórico, é a alienação econômica que está na raiz da alienação política, bem como da alienação religiosa. Na alienação econômica, resultado do capitalismo (definido como a propriedade privada dos meios de produção), o trabalhador é forçado a vender sua força de trabalho como uma mercadoria. Além disso, ele é privado do produto de seu trabalho, que é propriedade do empregador. Ele é, assim, alienado, significando separado de si mesmo porque seu trabalho se torna algo estranho a ele que ele executa por força, para sobreviver. No entanto, o trabalho, para Marx, é o ato quintessencialmente humano, aquele através do qual a própria essência do homem, a saber, a liberdade, é realizada. É por isso que a libertação do trabalho também significa restaurar o homem à sua dignidade e humanidade.![image](assets/5/img-104.webp)
 
 A revolução política é, portanto, uma ilusão, segundo ele, enquanto não for acompanhada por uma revolução econômica e social capaz de libertar o homem da servidão capitalista e, assim, alcançar a unidade entre o trabalhador e o cidadão, entre a sociedade e o estado, a esfera privada e a esfera pública. A liberdade formal e a igualdade do cidadão se tornarão, assim, reais, em uma sociedade sem classes.
 
 ## A Crítica Austríaca ao Marxismo
+
 <chapterId>f05dae71-c478-5de1-996e-1b7b4255d373</chapterId>
 
 A Escola Austríaca de Economia, fundada por Carl Menger no final do século 19, se opôs às teorias de Karl Marx desde o início.
@@ -1187,6 +1245,7 @@ Os marxistas acreditam que o socialismo, um sistema econômico no qual os meios 
 Já em 1922, em seu livro _Socialismo_, Ludwig von Mises demonstrou que o socialismo levaria a escassez generalizada, pois os planejadores centrais não seriam capazes de fazer cálculos econômicos precisos sem o sistema de preços fornecido pelo mercado.
 
 ## O Caminho para a Servidão
+
 <chapterId>3f92f346-3062-5f76-8c54-3a9075e2b030</chapterId>
 
 Alarmado com o aumento do intervencionismo governamental nas economias das democracias ocidentais, Hayek escreveu _O Caminho para a Servidão_ como uma crítica filosófica ao coletivismo, seja da direita ou da esquerda. Publicado em vários milhões de cópias, graças ao _Reader’s Digest_, este livro contribuiu grandemente para a fama de Hayek nos Estados Unidos.
@@ -1201,7 +1260,7 @@ De fato, o mesmo processo de centralização política e o mesmo desejo de subst
 Quanto ao liberalismo autêntico, ele se preocupa com a justiça. Mas Hayek nos lembra que cabe à sociedade civil, e não ao Estado, organizar essa solidariedade. O que diferencia o liberalismo do socialismo não são os fins, mas os meios. Segundo Hayek,
 
 > O liberalismo quer que façamos o melhor uso possível das forças da competição como meio de coordenar os esforços humanos; ele não quer que deixemos as coisas como estão.
-É por isso que, Hayek acrescenta, o Estado tem uma área inegável de atividade:
+> É por isso que, Hayek acrescenta, o Estado tem uma área inegável de atividade:
 > Criar as condições nas quais a competição será tão eficaz quanto possível, substituí-la onde não pode ser eficaz, fornecer serviços que são de tal natureza que o lucro, segundo a fórmula de Smith, não pode reembolsar o custo a qualquer grupo.
 
 Por outro lado, o planejamento da economia e da sociedade em geral, a essência do socialismo, é direcionado contra a competição como tal. No entanto, segundo Hayek, existe uma incompatibilidade entre os fins do socialismo (justiça social, igualdade e segurança) e os meios previstos pelo socialismo para alcançá-los (abolição da propriedade privada, coletivização dos meios de produção, economia planejada).
@@ -1213,8 +1272,8 @@ Desde as primeiras páginas, Hayek estabelece um paralelo entre o triunfo dos id
 ![imagem](assets/5/img-093.webp)
 
 > Poucas pessoas, ele adverte em seu prefácio, estão dispostas a reconhecer que a ascensão do fascismo e do nazismo não foi uma reação contra as tendências (...) do período anterior, mas um resultado inevitável dessas tendências. Isso é algo que a maioria das pessoas se recusou a ver, mesmo no momento em que perceberam a semelhança oferecida por certos traços negativos dos regimes domésticos da Rússia Comunista e da Alemanha Nazista. O resultado é que muitas pessoas que se consideram muito acima das aberrações do nazismo e que sinceramente odeiam todas as suas manifestações, estão ao mesmo tempo trabalhando por ideais cuja realização levaria diretamente a essa tirania abominada.
-Segundo Hayek, o socialismo e o nazismo compartilham uma série de fundamentos comuns, particularmente a rejeição do individualismo e da ordem espontânea do mercado. Ambas as ideologias priorizam o bem-estar do grupo sobre os direitos e liberdades dos indivíduos e buscam criar uma sociedade homogênea unida por valores e objetivos comuns. Nem socialistas nem nazistas hesitam em usar força e coerção para alcançar seus objetivos. Eles estão dispostos a suprimir as liberdades individuais e reprimir a dissidência em nome do bem maior da sociedade.
-No capítulo intitulado "As Raízes Socialistas do Nazismo", Hayek aponta que o nazismo reivindica o planejamento socialista (daí seu nome, nacional-socialismo) da economia como meio de estabelecer controle total sobre a população.
+> Segundo Hayek, o socialismo e o nazismo compartilham uma série de fundamentos comuns, particularmente a rejeição do individualismo e da ordem espontânea do mercado. Ambas as ideologias priorizam o bem-estar do grupo sobre os direitos e liberdades dos indivíduos e buscam criar uma sociedade homogênea unida por valores e objetivos comuns. Nem socialistas nem nazistas hesitam em usar força e coerção para alcançar seus objetivos. Eles estão dispostos a suprimir as liberdades individuais e reprimir a dissidência em nome do bem maior da sociedade.
+> No capítulo intitulado "As Raízes Socialistas do Nazismo", Hayek aponta que o nazismo reivindica o planejamento socialista (daí seu nome, nacional-socialismo) da economia como meio de estabelecer controle total sobre a população.
 
 Socialistas alemães e italianos apenas pavimentaram o caminho para o nazismo, estabelecendo partidos políticos que dirigiam todas as atividades do indivíduo, do nascimento à morte, ditando suas opiniões sobre tudo. Não foram os fascistas, mas os socialistas que começaram a regimentar crianças em organizações políticas, a controlar suas vidas privadas e seus pensamentos.
 
@@ -1223,14 +1282,19 @@ Os nazistas simplesmente adotaram o discurso estatista, dirigista e intervencion
 Em conclusão, Hayek apela aos seus contemporâneos para que se afastem da "loucura" e do "obscurantismo contemporâneo" para livrar a humanidade dos "erros que dominaram nossas vidas no passado recente". Segundo ele, a melhor garantia de liberdade é a propriedade privada. Quando todos os meios de produção estão concentrados nas mãos de poucos organizadores, estamos sujeitos ao poder total, porque esse poder econômico se torna um instrumento político de controle sobre nossas vidas inteiras.
 
 # A Ascensão do Estado de Bem-Estar Social no Século 20
+
 <partId>49e581cb-3dca-5f10-ac34-5b4cbd3d7c36</partId>
 
 ## O Triunfo de Keynes
+
 <chapterId>f40fc495-bcf7-5b7a-95ad-3a3ccba3e3ba</chapterId>
+
 O capitalismo é frequentemente acusado de ser a fonte da injunção: "devemos sempre produzir mais", ou da fórmula: "consumir é bom para o crescimento". No entanto, essas ideias não se originam do capitalismo tradicional, mas do Keynesianismo, que dominou o campo da ciência econômica e a classe política desde a década de 1930.
 
 ![image](assets/6/img-011.webp)
+
 ### A Análise da Crise de 1929
+
 Publicado em 1936, o livro de John Maynard Keynes: _The General Theory of Employment, Interest, and Money_ (A Teoria Geral do Emprego, do Juro e da Moeda), varreu tudo em seu caminho. Questionando as causas da Grande Depressão e os meios para emergir dela, ele descreve um novo paradigma econômico, que converteria gerações de economistas e políticos.
 
 ![image](assets/6/img-005.webp)
@@ -1281,6 +1345,7 @@ Em 1976, ele ataca o Keynesianismo pela última vez em um artigo para o jornal _
 Nenhuma religião se espalhou pelo mundo tão rapidamente quanto a do emprego. Impulsionada pela memória das tragédias do desemprego que devastaram a Inglaterra e a Alemanha durante a década de 1920, tornou-se o princípio mais importante, seja expresso ou implícito, da política econômica em quase todos os países do mundo. Ocultando seu propósito sob o disfarce inteligente e especioso da "teoria geral", elevada por discípulos entusiasmados e cegos ao status de uma bíblia de ação governamental, mascarou o verdadeiro rosto das políticas de inflação que cobriu. Por meio deste desvio, deu boa consciência aos governos que, tendo esgotado suas possibilidades de impostos e empréstimos, recorreram aos prazeres enganosos da criação monetária. (_O Fim da Era Keynesiana ou: Quando o Longo Prazo Acabou_, Euromoney, Abril de 1976, pp.70-7.)
 
 ## Abandonando o Padrão Ouro
+
 <chapterId>f52da9ae-c4bc-5d1a-8fd0-8fcae5948e34</chapterId>
 
 O dinheiro é uma ferramenta que permitiu aos humanos ir além do escambo, poupar e coordenar em grande escala através do mercado. Tornou possível a especialização do trabalho, vantagens comparativas, ganhos comerciais, cálculo econômico. Sem dinheiro, não há civilização moderna.
@@ -1296,8 +1361,8 @@ De fato, o ouro é uma moeda forte, difícil de produzir, custosa para falsifica
 É por isso que, em _Ação Humana_, Ludwig von Mises escreve:
 
 > O padrão ouro foi o padrão mundial da era capitalista, de crescente prosperidade, liberdade e democracia \[…\] Foi o padrão internacional que o comércio internacional e os mercados de capitais mundiais precisavam \[…\] Levou indústria, capital e a civilização ocidental aos cantos mais remotos do planeta, criando riqueza anteriormente desconhecida.
-Mas o padrão ouro restringe os governos a financiar suas despesas por meio de impostos em vez de inflação, o que explica uma certa hostilidade das elites políticas e econômicas em relação a este sistema. Porque vincular a moeda a um metal precioso limita a capacidade dos bancos centrais de financiar o crescimento do estado de bem-estar social através do imposto indireto que é a inflação.
-É por isso que, já em 1923, Keynes declarou:
+> Mas o padrão ouro restringe os governos a financiar suas despesas por meio de impostos em vez de inflação, o que explica uma certa hostilidade das elites políticas e econômicas em relação a este sistema. Porque vincular a moeda a um metal precioso limita a capacidade dos bancos centrais de financiar o crescimento do estado de bem-estar social através do imposto indireto que é a inflação.
+> É por isso que, já em 1923, Keynes declarou:
 
 > Na verdade, o padrão ouro já é um relíquia bárbara. (...) Os defensores do antigo padrão não percebem o quanto ele está agora distante do espírito e das necessidades dos novos tempos. (J.M. Keynes, _Reforma Monetária_).
 
@@ -1307,6 +1372,7 @@ O sistema de Bretton Woods, projetado em 1944 e totalmente implementado em 1959,
 
 ![image](assets/6/img-007.webp)
 Naquela época, com a Guerra do Vietnã em particular, o aumento dos déficits governamentais dos EUA levou muitos países estrangeiros, incluindo a França, a querer converter seus dólares em ouro no FED. Em 15 de agosto de 1971, o presidente Nixon decidiu cancelar a promessa de conversibilidade do dólar em ouro, criando assim a primeira moeda inteiramente de papel na história dos Estados Unidos. A partir deste dia pode ser datado o momento em que o dinheiro passou completamente para o controle dos bancos centrais. Em uma entrevista, Richard Nixon teria afirmado:
+
 > Hoje, somos todos keynesianos.
 
 De fato, para muitos economistas keynesianos, o abandono do padrão ouro deu aos governos a flexibilidade necessária para responder ou prevenir crises econômicas.
@@ -1316,8 +1382,8 @@ De fato, para muitos economistas keynesianos, o abandono do padrão ouro deu aos
 Segundo Alan Greenspan, ex-presidente do FED, o banco central americano, o padrão ouro é incompatível com a dívida estatal e o financiamento do estado de bem-estar social:
 
 > Sempre nutri nostalgia pela estabilidade de preços inerente ao padrão ouro; um câmbio estável era seu principal objetivo. Mas há muito tempo admiti que o padrão ouro não se adapta facilmente à visão predominante da função de um governo, notavelmente o dever de assegurar um sistema de seguridade social. \[…\] A maioria dos americanos tolerou a inflação como o preço a pagar por ter um estado de bem-estar moderno. Não há mais defensores do padrão ouro, e vejo pouca possibilidade de seu retorno. (_The Age of Turbulence_).
-Ao contrário, para pessoas como Jacques Rueff, abandonar o metal precioso é um erro que só pode levar a uma diminuição contínua do poder de compra, acompanhada por uma diminuição nos padrões de vida, um aumento na desigualdade de renda e crescente instabilidade econômica.
-![image](assets/6/img-008.webp)
+> Ao contrário, para pessoas como Jacques Rueff, abandonar o metal precioso é um erro que só pode levar a uma diminuição contínua do poder de compra, acompanhada por uma diminuição nos padrões de vida, um aumento na desigualdade de renda e crescente instabilidade econômica.
+> ![image](assets/6/img-008.webp)
 
 Em fevereiro de 1965, durante uma coletiva de imprensa televisionada, o General de Gaulle, diretamente inspirado por Rueff, propôs um retorno ao padrão ouro. Ele declarou:
 
@@ -1337,8 +1403,11 @@ Para Hayek, a instabilidade passada da economia de mercado resulta do fato de qu
 
 ![image](assets/6/img-006.webp)
 Hayek acreditava que um mercado livre de moedas privadas levaria a uma maior estabilidade monetária. Quase 50 anos depois, uma criptomoeda como o Bitcoin incorpora a visão competitiva de Hayek ao oferecer uma alternativa descentralizada ao sistema monopolista dos bancos centrais. O Bitcoin, com seu limite de emissão de 21 milhões de unidades, é uma garantia contra a inflação e a arbitrariedade dos reguladores.
+
 ## Conclusão: o poder das ideias
+
 <chapterId>50676155-c071-5bee-a14e-0c251f0375da</chapterId>
+
 A crise pela qual estamos passando é uma crise de civilização, ou seja, uma crise intelectual com consequências morais, políticas e econômicas.
 
 ![imagem](assets/6/img-000.webp)
@@ -1358,3 +1427,4 @@ Agora experimentamos todas as variantes do estatismo, e todas falharam. Em todo 
 Em certo sentido, nossa situação é melhor do que no passado. Após os sucessivos fracassos de vários experimentos socialistas, comunistas e social-democratas, sabemos hoje como distinguir, melhor do que ontem, ideias verdadeiras de falsas. E ideias falsas podem ser refutadas e substituídas por verdadeiras. Como Mises disse:
 Tudo o que acontece na sociedade global em que vivemos é resultado de ideias. As boas e as ruins. O que é necessário é combater as ideias falsas. (...) Nossa civilização pode sobreviver, e deve. E sobreviverá graças a ideias melhores do que aquelas que governam o mundo hoje; e essas ideias melhores serão desenvolvidas pela geração emergente.
 (_Economic Policy: Thoughts for Today and Tomorrow_, 1979).
+

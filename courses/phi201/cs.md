@@ -18,9 +18,11 @@ Od renesance po osvícenství kurz zkoumá vzestup svobody, označený nábožen
 +++
 
 # Svoboda nebo moc
+
 <partId>e59475e9-3ae4-5e66-a17e-218de0281b06</partId>
 
 ## Úvod: Existují pouze dvě politické filozofie
+
 <chapterId>ffa60c0d-ee2b-575d-a4ac-4e9ccdad396f</chapterId>
 
 Proč tento kurz nazvat historií svobody? Protože potřebujeme pochopit vztah mezi idejemi a událostmi, abychom lépe posoudili naši éru a jednali s rozlišením. V minulosti nacházíme prvky pro lepší pochopení toho, co svoboda je a důvody, proč si ji musíme vážit.
@@ -50,6 +52,7 @@ Pojem odpovědnosti je doplňkem k svobodě, protože každá volba má důsledk
 - Za druhé, filozofie je normativní, na rozdíl od historie, která je pouze popisná. Takže politická filozofie se liší od politických věd. Politická filozofie je normativní, což znamená, že předepisuje hodnoty a soudí lidské činy podle kritéria spravedlnosti. Na druhou stranu politické vědy se spokojí s popisem režimů, děláním historie institucí, bez vynášení hodnotových soudů.
 
 ### Filozofie svobody a filozofie moci
+
 Z této perspektivy existují pouze dva druhy politických filozofií: filozofie svobody a filozofie moci.
 
 ![image](assets/1/img-016.webp)
@@ -74,6 +77,7 @@ Druhá filozofie se nachází u autorů jako Rousseau, Robespierre nebo Kant, kt
 Z této perspektivy je mise zákonodárce organizovat, měnit, dokonce zrušit vlastnictví, pokud to považuje za dobré. Pro Rousseaua není vlastnictví přirozené, ale konvenční, jako společnost sama. Robespierre naopak stanovuje princip, že "Vlastnictví je právo každého občana užívat a nakládat s částí statků zaručených mu zákonem." Neexistuje přirozené právo na vlastnictví; existuje pouze nekonečný počet možných a kontingentních uspořádání.
 
 ## Frédéric Bastiat: produkce versus plenění
+
 <chapterId>5a8a3452-9970-51a0-a5ea-f367b63137bc</chapterId>
 
 Když člověk otevře učebnice, Bastiat poznamenal, dozví se, že lidstvo by bylo odsouzeno k ničemu bez zásahu moci:
@@ -108,6 +112,7 @@ Bastiat nám říká, že existují ještě dvě formy legálního plundrování
 
 V [_The Physiology of Plunder_](http://bastiat.org/fr/physiologie_de_la_spoliation.html) dále rozvádí:
 Pravý a spravedlivý zákon lidí je: Svobodně debatovaná výměna služby za službu. Loupež spočívá v zakázání svobody debaty silou nebo podvodem za účelem získání služby bez poskytnutí protislužby. Loupež silou se provádí takto: Čeká se, až člověk něco vyprodukuje, a pak mu to se zbraní v ruce sebere. Je to formálně odsouzeno Desaterem: Nebudeš krást. Když se to děje z jednotlivce na jednotlivce, nazývá se to krádež a vede to do vězení; když je to z národa na národ, nazývá se to dobytí a vede to ke slávě.
+
 ### Historie Loupeže
 
 ![obrázek](assets/1/img-020.webp)
@@ -117,16 +122,17 @@ Historicky vždy vládnoucí elity žily z loupeže. Bastiat poznamenává:
 > Síla uplatněná na loupež je základem lidských dějin. Její historii sledovat by znamenalo téměř úplně reprodukovat historii všech lidí: Asyřané, Babylonští, Médové, Peršané, Egypťané, Řekové, Římané, Gótové, Frankové, Hunové, Turci, Arabové, Mongolové, Tataři, nemluvě o Španělech v Americe, Angličanech v Indii, Francouzích v Africe, Rusích v Asii atd.
 >
 > ([_Economic Sophisms_](http://bastiat.org/fr/conclusion_sophismes.html), Závěr prvního svazku).
-Loupež, ve své nejbrutálnější formě, ozbrojená pochodní a mečem, naplňuje dějiny lidstva. Jaká jména shrnují historii? Cyrus, Sesostris, Alexandr, Scipio, Caesar, Attila, Tamerlán, Muhammad, Pizarro, Vilém Dobyvatel; to je naivní loupež prostřednictvím dobytí. Patří jí vavříny, monumenty, sochy a vítězné oblouky. ([_Economic Harmonies_](http://bastiat.org/fr/conclusion_eo_harmonies.html), závěr původního vydání).
-Historie světa je historií toho, jak jedna skupina lidí systematicky plenila ostatní, často prostřednictvím války, otroctví, teokracie. Dnes je to monopol, tj. ekonomické výsady rozdělované státem svým klientům.
+> Loupež, ve své nejbrutálnější formě, ozbrojená pochodní a mečem, naplňuje dějiny lidstva. Jaká jména shrnují historii? Cyrus, Sesostris, Alexandr, Scipio, Caesar, Attila, Tamerlán, Muhammad, Pizarro, Vilém Dobyvatel; to je naivní loupež prostřednictvím dobytí. Patří jí vavříny, monumenty, sochy a vítězné oblouky. ([_Economic Harmonies_](http://bastiat.org/fr/conclusion_eo_harmonies.html), závěr původního vydání).
+> Historie světa je historií toho, jak jedna skupina lidí systematicky plenila ostatní, často prostřednictvím války, otroctví, teokracie. Dnes je to monopol, tj. ekonomické výsady rozdělované státem svým klientům.
 
 Několik dní před svou smrtí v Římě v roce 1850 se Bastiat svěřil svému příteli Prosperu Paillottetovi:
 
 > Důležitým úkolem politické ekonomie je napsat historii Loupeže. Je to dlouhá historie, ve které se od začátku objevují dobytí, migrace národů, invaze a všechny katastrofální excesy síly v konfliktu se spravedlností. Z toho všeho dnes stále existují živé stopy, a je to velká obtíž pro řešení otázek kladených v našem století. K tomuto řešení nedojdeme, dokud jasně nezjistíme, v čem a jak se nespravedlnost, beroucí si svůj díl mezi námi, zakořenila v našich zvycích a v našich zákonech.
-> 
+>
 > (P. Paillottet, _Devět dní u umírajícího muže_)
 
 ## Lord Acton: Svoboda je Motorem Dějin
+
 <chapterId>de971d92-4e26-5870-a961-18dfa06497cf</chapterId>
 
 Je známo, že historie je psána vítězi. Pozornost je často zaměřena na dobytí moci, na životy vůdců u moci a na konflikty, které je staví proti těm, kteří si přejí jejich místo zaujmout.
@@ -150,8 +156,8 @@ Jeho hlavní tezí je, že "svoboda je založena na konfliktu mocí." Podle Acto
 > Svobodou myslím jistotu, že každý člověk bude chráněn, když dělá to, co považuje za svou povinnost, proti vlivu autority a většin, zvyků a názorů. Stát je kompetentní stanovit povinnosti a rozlišovat mezi dobrem a zlem pouze ve své vlastní bezprostřední sféře.
 >
 > (Lord Acton)
-Jinými slovy, svoboda je právo jednotlivců následovat vlastní svědomí a není úkolem státu diktovat chování osoby ve filozofických, morálních a náboženských otázkách.
-Friedrich Hayek původně zvažoval pojmenování Mont Pelerin Society jako "Acton-Tocqueville Society" na počest dvou myslitelů, které hluboce obdivoval: Lord Acton a Alexis de Tocqueville. Nakonec bylo vybráno jméno místa, kde se konalo první setkání společnosti, Mont Pelerin ve Švýcarsku.
+> Jinými slovy, svoboda je právo jednotlivců následovat vlastní svědomí a není úkolem státu diktovat chování osoby ve filozofických, morálních a náboženských otázkách.
+> Friedrich Hayek původně zvažoval pojmenování Mont Pelerin Society jako "Acton-Tocqueville Society" na počest dvou myslitelů, které hluboce obdivoval: Lord Acton a Alexis de Tocqueville. Nakonec bylo vybráno jméno místa, kde se konalo první setkání společnosti, Mont Pelerin ve Švýcarsku.
 
 ### Voltaire a Condorcet
 
@@ -166,6 +172,7 @@ Condorcet ve svém díle [_Náčrt historického obrazu pokroku lidského ducha_
 Tato teze je také nalezena v monumentálním díle datovaném do roku 1983: _Právo a revoluce: Formování západní právní tradice_, od Harolda J. Bermana ([francouzský překlad od Raoula Audouina](https://www.eyrolles.com/Entreprise/Livre/droit-et-revolution-9782903449667/), publikovaný Univerzitní knihovnou v Aix en Provence v roce 2002). Bermanova analýza zdůrazňuje klíčovou roli právního pluralismu v historii Západu. Tento systém, daleko od toho, aby byl pouze zdrojem složitosti, byl hnacím motorem rozvoje, svobody a inovace, trvale formujícím západní právní tradice.
 
 ## Marx: Historie jako třídní boj
+
 <chapterId>438100e6-a385-55c6-b2c5-ad192c564757</chapterId>
 Existuje však i jiný pohled na historii. Tento pohled byl velmi úspěšný a dlouho si užíval podpory západních intelektuálů a zástupců z Globálního Jihu. Jedná se o socialistický a marxistický pohled na historii.
 ![obrázek](assets/1/img-024.webp)
@@ -182,7 +189,9 @@ Ale mýlí se v zásadním bodě týkajícím se pracující třídy: není to k
 
 Podle Marxe je vykořisťování proces, který spočívá v extrakci části hodnoty vytvořené pracovníkem bez zaplacení, což umožňuje kapitalistům vytvářet zisk. Jinými slovy, vykořisťování by byl mechanismus, který umožňuje kapitalistům obohacovat se krádeží práce proletariátu.
 Tato analýza odráží nepochopení přebytkové hodnoty a kooperativní a dynamické povahy ekonomického života. Skutečně, zisk, který podnikatel obdrží, je kompenzací za riziko, které podstupuje, a pracovník nebo zaměstnanec není otrokem. V konkurenční situaci mohou přijmout nebo odmítnout smlouvu se svým zaměstnavatelem. Dělají volbu, která odráží analýzu nákladů a přínosů.
+
 ### Průmyslová revoluce v otázce
+
 Ve skutečnosti marxistická analýza zkresluje historickou realitu průmyslové revoluce. Ludwig von Mises tuto otázku objasnil ve svém ekonomickém traktátu [_Human Action_](http://herve.dequengo.free.fr/Mises/AH/AHTDM.htm) (viz zejména kapitolu s názvem [Popular Interpretation of the Industrial Revolution](http://herve.dequengo.free.fr/Mises/AH/AH21.htm#inter2)) stejně jako v sérii přednášek publikovaných pod názvem: [_Economic Policy: Thoughts for Today and Tomorrow_](http://herve.dequengo.free.fr/Mises/PE/PE_TDM.htm). (Také stojí za přečtení, The Anti-Capitalistic Mentality [zde](https://www.institutcoppet.org/wp-content/uploads/2011/05/La-Mentalit%C3%A9-anticapitaliste.pdf) a [zde](http://herve.dequengo.free.fr/Mises/MAC/MAC_TDM.htm)).
 ![obrázek](assets/1/img-030.webp)
 
@@ -195,10 +204,10 @@ Přečtěme si úryvek z _Human Action_:
 Mises dodává, že zlepšení lidského stavu bylo tedy umožněno akumulací kapitálu:
 
 > Radikální změna situace, která západním masám přinesla současnou životní úroveň (skutečně vysokou životní úroveň ve srovnání s tím, co bylo v předkapitalistických dobách, a s tím, co je v Sovětském Rusku), byla efektem akumulace kapitálu prostřednictvím spoření a moudré investice dalekozrakých podnikatelů. Žádné technologické zlepšení by nebylo dosažitelné, pokud by dodatečné materiální kapitály potřebné pro praktické využití nových vynálezů nebyly uskutečnitelné předchozím spořením.
-Pokud jde o marxistickou historiografii, můžeme se také odkázat na Friedricha Hayeka v _Capitalism and the Historians_ (University of Chicago Press, 1954) a jeho kapitole s názvem "History and Politics". Podle Hayeka nebyla industrializace tím, co učinilo pracovníky bídnými, jak tvrdí temná legenda o kapitalismu, kterou šíří marxismus. Poznamenává:
+> Pokud jde o marxistickou historiografii, můžeme se také odkázat na Friedricha Hayeka v _Capitalism and the Historians_ (University of Chicago Press, 1954) a jeho kapitole s názvem "History and Politics". Podle Hayeka nebyla industrializace tím, co učinilo pracovníky bídnými, jak tvrdí temná legenda o kapitalismu, kterou šíří marxismus. Poznamenává:
 > Skutečná historie spojení mezi kapitalismem a vzestupem proletariátu je téměř opačná než to, co tyto teorie o vykořisťování mas naznačují.
-Před průmyslovou revolucí většina lidí žila ve venkovských společnostech a na své přežití byla závislá na zemědělství. Měli málo co prodávat na trhu, což omezovalo jejich možnosti a životní úroveň. Všichni očekávali, že budou žít v absolutní chudobě a podobný osud předpokládali i pro své potomky. Nikdo nebyl pobouřen situací, která se zdála být nevyhnutelná.
-![image](assets/1/img-106.webp)
+> Před průmyslovou revolucí většina lidí žila ve venkovských společnostech a na své přežití byla závislá na zemědělství. Měli málo co prodávat na trhu, což omezovalo jejich možnosti a životní úroveň. Všichni očekávali, že budou žít v absolutní chudobě a podobný osud předpokládali i pro své potomky. Nikdo nebyl pobouřen situací, která se zdála být nevyhnutelná.
+> ![image](assets/1/img-106.webp)
 
 S příchodem industrializace se objevily nové příležitosti, které vytvořily rostoucí poptávku po pracovní síle. Poprvé lidé bez půdy nebo významných zdrojů mohli prodat svou práci továrnám a výrobcům výměnou za mzdu, čímž si zajistili bezpečnost pro budoucnost.
 
@@ -211,6 +220,7 @@ Proto nebyl pracovník vykořisťován, i když byly mzdy nízké, díky hojnost
 Ve skutečnosti má vykořisťování smysl pouze jako agresi proti soukromému vlastnictví. V tomto smyslu je vykořisťování vždy činem státu. Stát je totiž jedinou institucí, která získává své příjmy násilím, tedy silou. Takže skutečné vykořisťování, jak jsme viděli u Bastiata, je vykořisťování produktivních tříd třídou státních úředníků. Bylo by přesnější říci, že historie všech společností až do našich dnů je nic jiného než historie boje mezi lupiči a produktivními třídami.
 
 ### "Evropský zázrak"
+
 Následně umožňuje nuancovanější historická analýza než ta Marxova zpochybnit představu o predátorské Evropě, která svůj úspěch dluží pouze imperialismu a otroctví. Při zkoumání srovnávací ekonomické historie se někteří současní historikové pokusili najít původ vývoje Evropy v tom, co ji odlišovalo od ostatních hlavních civilizací, zejména těch v Číně, Indii a islámu. Tyto charakteristiky zkoumali [David Landes](https://www.eyrolles.com/Entreprise/Livre/richesse-et-pauvrete-des-nations-9782226110381/), [Jean Baechler](https://academiesciencesmoralesetpolitiques.fr/publications/publications-de-lacademie/jean-baechler/), [François Crouzet](https://www.cairn.info/revue-entreprises-et-histoire-2010-4-page-219.htm) a [Douglass North](https://www.iedm.org/fr/65134-douglass-north-l-un-des-economistes-les-plus-originaux/). Tito výzkumníci se snažili pochopit, co se označuje jako "evropský zázrak". Zaměřili svou pozornost na skutečnost, že Evropa byla mozaikou rozdělených a soutěžících jurisdikcí, kde po pádu Říma nebyla žádná centrální politická moc schopna prosadit svou vůli.
 
 Jak říká Jean Baechler, člen Akademie morálních a politických věd, v _Původech kapitalismu_ (1971):
@@ -223,6 +233,8 @@ Jinými slovy, velká "neudálost", která dominovala osudu Evropy, byla absence
 Je to právě tato radikálně decentralizovaná Evropa, která dala vzniknout parlamentům, sněmům a generálním stavům. Dala život listinám jako je slavná Magna Carta Angličanů, ale také vytvořila svobodná města severní Itálie a Flander: Benátky, Florencie, Janov, Amsterdam, Gent a Bruggy. Nakonec vyvinula koncept přirozeného práva, stejně jako princip, že ani kníže není nad zákonem, doktrínu zakořeněnou v středověkých univerzitách v Bologni, Oxfordu a Paříži, rozšířenou do Vídně a Krakova. Na závěr této kapitoly, ekonomický a kulturní vzestup Evropy nebyl důsledkem dobytí a využívání zbytku světa. Dominovala světu díky svému ekonomickému pokroku. To, co bylo nazýváno "imperialismem", je důsledkem, nikoli příčinou ekonomického pokroku Evropy. Ale abychom se vrátili k Lordu Actonovi, to, co ještě více odlišuje západní civilizaci od všech ostatních, je její potvrzení hodnoty jednotlivce. V tomto smyslu byla svoboda svědomí, zejména ve věcech náboženských, základním pilířem této civilizace. K tomu se vrátíme v následující části.
 
 ## Murray Rothbard: Stát versus společnost
+
+<chapterId>5a0020ca-2bbd-5e09-8389-d57c57542cb2</chapterId>
 
 V poslední kapitole _Anatomie státu_ (přeloženo do francouzštiny jako _L’anatomie de l’Etat_, vydavatelství Résurgence), Murray Rothbard předkládá teorii dějin. Tato velmi krátká kapitola má název: Dějiny, závod mezi mocí státu a mocí společnosti. Podle Rothbarda lze dějiny chápat jako věčný konflikt mezi dvěma základními principy:
 
@@ -259,8 +271,8 @@ Podle Rothbarda historie není lineární proces, ale spíše oscilace mezi post
 Od 17. století do 19. století, v mnoha západních zemích, byla období zrychlení sociální moci a odpovídajícího nárůstu svobody, míru a materiálního blahobytu. Ale Rothbard nás připomíná, že 20. století bylo poznamenáno znovuobjevením moci státu, s hroznými důsledky: nárůstem otroctví, války a destrukce:
 
 > Během tohoto století čelí lidský rod, znovu, zhoubné vládě státu; státu nyní ozbrojenému tvůrčí silou člověka, zabavené a zneužité pro jeho vlastní cíle.
-Co je vlastně svobodná společnost? Je to společnost bez monopolu. Ve svém díle politické filozofie, _Etika svobody_ (1982), Rothbard odpovídá: "společnost, ve které neexistuje právní možnost nucené agresivity proti osobě nebo majetku jednotlivce." To je důvod, proč podle něj politická filozofie, která musí definovat principy spravedlivé společnosti, se redukuje na jedinou otázku: "Kdo legitimně vlastní co?"
-![obrázek](assets/1/img-029.webp)
+> Co je vlastně svobodná společnost? Je to společnost bez monopolu. Ve svém díle politické filozofie, _Etika svobody_ (1982), Rothbard odpovídá: "společnost, ve které neexistuje právní možnost nucené agresivity proti osobě nebo majetku jednotlivce." To je důvod, proč podle něj politická filozofie, která musí definovat principy spravedlivé společnosti, se redukuje na jedinou otázku: "Kdo legitimně vlastní co?"
+> ![obrázek](assets/1/img-029.webp)
 
 Pro Rothbarda může sociální řád převládnout, pokud je produktem zobecnění smluvních postupů pro volnou výměnu majetkových práv, privatizací všech ekonomických aktivit a dokonce i suverénních funkcí (centrální banka, soudy) a využitím konkurence mezi ochrannými agenturami.
 
@@ -271,9 +283,11 @@ A dodává:
 > (_Etika svobody_)
 
 # Původ svobody: Antika
+
 <partId>d7a9d251-6d44-5f2f-9cc5-88796c84f61b</partId>
 
 ## Vynález kritické racionality Řeky
+
 <chapterId>5b5f65e6-f980-5971-b9f6-a37244503325</chapterId>
 Zkušenost s athénskou demokracií zanechala trvalou stopu v historii politického myšlení a dodnes inspiruje ideály demokracie a účasti občanů na veřejném životě.
 ![image](assets/2/img-107.webp)
@@ -281,6 +295,7 @@ Zkušenost s athénskou demokracií zanechala trvalou stopu v historii politick�
 Athénská demokracie byla charakterizována živou veřejnou debatou o záležitostech města, která se primárně odehrávala na agorě, tržišti. Tento způsob fungování, založený na rozumu a kritické diskusi, byl v ostrém kontrastu s dřívějšími praktikami, kde zákony a zvyky byly považovány za posvátné a neměnné, předané předky a chráněné bohy.
 
 ### Zrození politiky s městem
+
 Athénská demokracie představuje zásadní odchylku od minulých tradic. Ve skutečnosti, v dřívějších společnostech nemohla existovat "politika" ve smyslu diskuse o sociálních pravidlech, jelikož ty byly ukládány transcendentním způsobem mýtem.
 ![image](assets/2/img-109.webp)
 
@@ -298,9 +313,9 @@ Tato novinka je založena na základním rozlišení mezi dvěma termíny v řec
 
 - _Phusis_ je zákon přírody (odtud slovo "fyzika" ve francouzštině).
 - _Nomos_ je lidský zákon (termín nalezneme ve slově "autonomie", což znamená "řídit se vlastním zákonem").
-Město vzniká s myšlenkou, že zákon (nomos) je lidského původu, že jej lze lidmi svobodně měnit, na rozdíl od přírody, a může se vztahovat na všechny. Řekové se pak stávají vědomi autonomie sociálního a politického řádu ve vztahu k přírodnímu řádu.
-Toto značí objevení politiky: neustálou diskusi o samotných pravidlech společenského života. Odteď budou problémy řešeny společným úsilím a nikoli neměnným posvátným řádem.
-A Jean-Pierre Vernant dodává:
+  Město vzniká s myšlenkou, že zákon (nomos) je lidského původu, že jej lze lidmi svobodně měnit, na rozdíl od přírody, a může se vztahovat na všechny. Řekové se pak stávají vědomi autonomie sociálního a politického řádu ve vztahu k přírodnímu řádu.
+  Toto značí objevení politiky: neustálou diskusi o samotných pravidlech společenského života. Odteď budou problémy řešeny společným úsilím a nikoli neměnným posvátným řádem.
+  A Jean-Pierre Vernant dodává:
 
 > Řecká rozumovost je ta, která nám na pozitivní, reflexivní, metodický způsob umožňuje působit na lidi, nikoli transformovat přírodu. Ve svých omezeních jako i v inovacích je dcerou města.
 
@@ -352,6 +367,7 @@ První známky existence kritického postoje, nové svobody myšlení, se objevu
 
 ![obrázek](assets/2/img-008.webp)
 Tyto prvky podle něj ukazují, že právě Thales založil tuto novou tradici svobody, založenou na původním vztahu mezi mistrem a učedníkem. Thales dokázal snášet kritiku a navíc založil tradici jejího uznávání. Popper zde identifikuje odchod od dogmatické tradice, která dovoluje pouze jedinou školní doktrínu, aby ji nahradil pluralismem a falibilismem.
+
 > Naše pokusy pochopit a objevit pravdu nejsou definitivní, ale jsou schopné zlepšení, naše znalosti, náš soubor doktrín jsou hypotetické povahy, jsou tvořeny předpoklady, hypotézami, a ne jistými a konečnými pravdami.
 
 Jediným prostředkem, jak se přiblížit pravdě, je kritika a diskuse. Z antického Řecka tedy pochází tato tradice:
@@ -359,6 +375,7 @@ Jediným prostředkem, jak se přiblížit pravdě, je kritika a diskuse. Z anti
 > Která spočívá ve formulování odvážných domněnek a vykonávání svobodné kritiky, tradice, která byla u zrodu racionálního a vědeckého přístupu a tudíž i této západní kultury, která je naší a jediné, která je založena na vědě, i když, samozřejmě, to není její jediný základ.
 
 ## Vynález práva Římany
+
 <chapterId>e9337ad6-5a75-5894-a017-9a507939cb51</chapterId>
 
 Římská říše byla rozsáhlá kosmopolitní entita. Ve svém vrcholu, kolem roku 117 n. l., to byl obrovský multi-etnický a vícejazyčný stát:
@@ -395,7 +412,9 @@ Zákon Dvanácti desek klade zvláštní důraz na práva k vlastnictví:
 - Specifikuje podmínky pro získání, převod a ochranu těchto statků.
 
 Shrnutí, přispívá k zajištění transakcí a ochraně jednotlivců proti libovolným vyvlastněním, s možností odvolání v případě sporu.
+
 ### Narození humanismu a soukromého života
+
 Tím, co člověk je, závisí na tom, co má. Bytí není tak nezávislé na vlastnění, jak se někdy říká, protože to, co vlastníme, nás odlišuje od toho, co vlastní ostatní. A náš život nám patří, nejdříve vlastníme naše schopnosti, naše tělo, než vlastníme materiální statky.
 
 V římské společnosti se každý mohl stále více odlišovat od ostatních a tak se stát aktérem svého vlastního života. Člověk nyní hraje jedinečnou roli a Cicero používá slovo "persona" pro jeho označení. "Persona" byla maska nošená římskými herci, ale také odkazovala na právní a sociální osobnost jedince. Pojem persona naznačoval, že jednotlivci jsou odlišné entity se svými vlastními právy a povinnostmi. Koncept individuální lidské osoby (ego) se svým vnitřním životem a jedinečným osudem se narodil a bude se rozvíjet s křesťanstvím.
@@ -452,6 +471,7 @@ Ani pravda ani spravedlnost nemohou být dekretovány, ani většinou, protože 
 Cicero tvrdil, že zákon nemůže být redukován pouze na zákony přijaté zákonodárcem, a snažil se bojovat proti legislativní libovůli a navrhnout politickou morálku. Tato myšlenka měla trvalý vliv na západní myšlení.
 
 ## Pád Říma
+
 <chapterId>1b0f3de8-696a-5dbc-bb5e-e03ddafb4ebf</chapterId>
 
 Proč Řím upadal a nakonec padl? Mnozí si rádi myslí, že Římská říše se zhroutila náhle, pod vlivem invazí barbarů. Avšak příčiny pádu Římské říše jsou k nalezení mnohem dříve, v imperialismu a ekonomickém a měnovém dirigismu.
@@ -518,9 +538,11 @@ A dodává:
 > Celkově musel být ekonomický, politický, umělecký a náboženský život pod Římskou říší ve 4. století dost podobný tomu, co bylo za Brežněva v SSSR (a ve špatných momentech za Stalina) nebo jaký může být dnes v Severní Koreji: celé obyvatelstvo římského světa bylo regimentováno císařským socialismem a trpělo, přímo či nepřímo, jeho důsledky.
 
 # Původy svobody: středověk
+
 <partId>f47bd5fc-c4a7-5d3b-b102-7b948bb43268</partId>
 
 ## Prohlášení lidské svobody
+
 <chapterId>96ca5622-f8e4-58ef-b358-7f7d25543104</chapterId>
 
 Křesťanská idea svobody se vyvinula ve středověké teologii svatého Augustina ve 4. století, až po svatého Tomáše Akvinského ve 13. století. Co je to za myšlenku?
@@ -528,6 +550,7 @@ Křesťanská idea svobody se vyvinula ve středověké teologii svatého August
 ![image](assets/3/img-036.webp)
 
 ### Svoboda je zapletena do pojmu hříchu
+
 Hned od začátku křesťanství učí, že hřích je osobní záležitostí, ne inherentní skupině, ale že každý jednotlivec musí převzít zodpovědnost za svou vlastní spásu. "Bůh obdařil své stvoření svobodnou vůlí, schopností činit zlo a tím pádem zodpovědností za hřích," tvrdí svatý Augustin ve svém traktátu o svobodné vůli, _De Libero Arbitrio_.
 Hřích nemůže existovat bez svobody. Skutečně, křesťanský Bůh je soudce, který odměňuje "ctnost" a trestá "hřích". Ale tato koncepce Boha je přesně neslučitelná s fatalismem, protože osoba by nemohla být vinná a činit své mea culpa, pokud by nebyla nejprve svobodná určit své vlastní chování. Uznat svou morální chybu, svou vinu, znamená uznat, že by se člověk mohl zachovat jinak.
 "Proč děláme špatně?" se ptá svatý Augustin. Pokud se nemýlím, argument ukázal, že se tak chováme skrze svobodnou vůli. Ale tuto svobodnou vůli, díky které máme schopnost hřešit, jsme přesvědčeni, že se ptám, zda Ten, kdo nás stvořil, udělal dobře, že nám ji dal. Zdá se, že bychom nebyli vystaveni hříchu, kdybychom byli této svobody zbaveni; ale je třeba se obávat, že tímto způsobem se Bůh jeví také jako autor našich špatných činů. (_De libero arbitrio_, I, 16, 35.)
@@ -542,6 +565,7 @@ Ale realizace morálního zla je dílem člověka, který špatně využívá sv
 Shrnutí, svoboda je dobro, protože umožňuje člověku uspořádat se k dobru a k Bohu, který je absolutním dobrem, ale nutně a současně zahrnuje možnost vybrat si zlo a odmítnout Boha.
 
 ### Bůh za nás nedělá dobro
+
 Ve středověké teologii není prozřetelnost stálým zásahem Boha do životů lidí, jako by Bůh jednal za nás a bez našeho souhlasu. Naopak, Bůh dává každému stvoření podle jeho povahy schopnosti, které mu umožňují postarat se o sebe a tak dosáhnout svého plného rozvoje. Bůh za stvoření nedělá dobro místo něj.
 ![image](assets/3/img-039.webp)
 
@@ -564,8 +588,10 @@ Avšak toto vnitřní světlo samo o sobě nestačí k správnému jednání. Je
 Podle svatého Tomáše:
 
 > Prostřednictvím poznání přirozeného práva člověk přímo přistupuje k obecnému řádu rozumu, před a nad politickým řádem, ke kterému patří jako občan konkrétní společnosti.
-Existuje tedy právo před vznikem státu, soubor obecných principů, které rozum může artikulovat studiem povahy člověka, jak ho stvořil Bůh. Toto právo se vynucuje na monarchu, na moc, která ho musí poté respektovat. A zákony vydané politickou autoritou jsou závazné pouze tehdy, pokud jsou v souladu s přirozeným právem.
+> Existuje tedy právo před vznikem státu, soubor obecných principů, které rozum může artikulovat studiem povahy člověka, jak ho stvořil Bůh. Toto právo se vynucuje na monarchu, na moc, která ho musí poté respektovat. A zákony vydané politickou autoritou jsou závazné pouze tehdy, pokud jsou v souladu s přirozeným právem.
+
 ## Rozum a víra: otevřená soutěž
+
 <chapterId>ca379c2e-57cb-541d-8ddb-4b925032a779</chapterId>
 
 Ve středověku soutěží rozum a víra o přístup k pravdě. Následující Abélarda a Alberta Velikého, Tomáš Akvinský ve 13. století obhajoval práva rozumu a jeho autonomii ve vztahu k víře.
@@ -601,6 +627,7 @@ Mezi velké aristotelovské mistry, kteří toto období poznamenali, můžeme z
 Od té doby by náboženský racionalismus definitivně převážil nad mysticismem.
 
 ## Náboženství a politika: Zrození suverénního státu
+
 <chapterId>a925ea80-9f66-5f0b-8ab0-f428ae5c12dc</chapterId>
 
 Ve středověku církev a křesťanské monarchie zdědily politický model od Římské říše, který historikové nazývají teologicko-politický systém, což znamená systém, kde je moc posvátná, tj. kde je politický vůdce také náboženským vůdcem.
@@ -629,12 +656,16 @@ Tak církev na své straně bude rozvíjet své právo a své soudy a bude postu
 
 Ve skutečnosti vedla soutěž mezi mocnostmi k četným konfliktům. Každý princ nebo každý papež vždy usiloval o poslední slovo a snažil se přesvědčit, že drží nejvyšší autoritu, jako poslední instanci. Tak papež Řehoř VII. prohlásil:
 
->Papež je jediný muž, jehož nohy musí všichni princové líbat.
+> Papež je jediný muž, jehož nohy musí všichni princové líbat.
 
 Na své straně Svatý Ludvík neváhal oponovat papeži Inocencovi IV., který exkomunikoval a sesadil císaře Fridricha II., čímž ho zbavil veškeré důvěry mezi jeho lidem. Jeho vnuk, Filip IV. Sličný, by udělal totéž.
 
 Teokratické pokušení církve se také střetává s teorií "božského práva". Pokud se králové Francie prohlašují za monarchie "božským právem", je to, aby unikli vlivu papeže a čerpali svou autoritu přímo od Boha, aniž by museli přijímat rozkazy od duchovenstva.
-## Biblická etika: Posvátná hodnota jednotlivce<chapterId>7a27494d-8481-52ea-a551-e430bdb5315f</chapterId>
+
+## Biblická etika: Posvátná hodnota jednotlivce
+
+<chapterId>7a27494d-8481-52ea-a551-e430bdb5315f</chapterId>
+
 Starověké myšlení podřizovalo člověka božskému kosmu, tedy dokonalému vesmíru, jehož byl pouze součástí. Monoteismus naopak tvrdí, že člověk má nekonečně vyšší hodnotu než příroda, jelikož je stvořen k obrazu Božímu. Tento klíčový bod je na počátku pravé etické revoluce. Bible potvrzuje posvátnou a nekonečnou hodnotu každého lidského bytí.
 To je důvod, proč biblická etika mění náš vztah ke zlu. Přináší ostrou a bezprecedentní citlivost k lidskému utrpení. Proto nás povzbuzuje považovat za abnormální a nesnesitelné zlo, které lidstvo do té doby považovalo za zcela snesitelné, zejména zlo páchané na druhých, na slabých, na nevinných.
 
@@ -664,6 +695,7 @@ Otázka původních obyvatel byla první trhlinou v politicko-náboženském mon
 Idea humanity postupuje. Skutečně se začalo uvažovat, že existuje pouze jedna humanita, ke které jsou přirozeně vázány rovné práva. Ale bude ještě trvat čas, než to bude přijato všemi. To bude zejména vyžadovat příspěvek přírodních věd s konceptem lidského druhu.
 
 ## První náčrty kapitalismu
+
 <chapterId>236bdeeb-7bd3-536a-9df1-8791800bf31e</chapterId>
 
 Viděli jsme, že křesťanství klade na lidi morální povinnost pracovat na zlepšení světa. Bůh chce, aby člověk byl šťastný, ale nechce dosáhnout jeho dobra místo něj. Je tedy na křesťanovi, aby bojoval proti morálnímu zlu, miloval svého bližního, pomáhal obětem, zkrátka pracoval na spravedlivějším a humánnějším světě. Je kapitalismus, tedy svobodná ekonomika založená na soukromém vlastnictví a svobodě smluv, slučitelný s křesťanskou povinností?
@@ -696,6 +728,7 @@ Jacques Le Goff je francouzský historik specializující se na kulturu a mental
 Podle francouzského historika však musí být vzestup kapitalismu umístěn do širšího kontextu ekonomických, sociálních a kulturních transformací, které se odehrály během několika století. Le Goff zvláště zdůrazňuje význam obchodní revoluce 15. a 16. století, která byla označena rozšířením námořního obchodu a objevem nových obchodních tras, což stimulovalo akumulaci kapitálu a převahu logiky trhu.
 
 ### Kritika manipulace s měnou
+
 Systematické studium ekonomických zákonů začíná ve vrcholném středověku. Prvními ekonomy jsou scholastičtí teologové Pařížské školy. Prvním z nich, kdo napsal vědeckou práci zcela věnovanou ekonomickému tématu, je Nicolas Oresme (1325-1382). Kolem roku 1360 složil svou _Rozpravu o původu, povaze, zákonu a změnách peněz_, která shrnuje a rozvíjí myšlenky scholastiků své doby.
 ![image](assets/3/img-031.webp)
 
@@ -703,6 +736,7 @@ V jádru jeho měnové analýzy leží problém "mutací" peněz, tj. změn v ko
 
 Oresme ihned klade zásadní otázku: je inflace prospěšná pro komunitu? Odpovídá záporně s tím, že inflace nedělá peníze pro výměny ani více, ani méně užitečnými. Ekonomika může fungovat dobře bez ohledu na úroveň cen, a tedy bez ohledu na nominální peněžní zásobu.
 Pokud to ale tak je, objevuje se zřejmě další otázka: proč existují změny měny? A zejména, proč usilovat o zvýšení peněžní zásoby? Oresme odpovídá, že tyto změny nemají stejné důsledky pro různé členy komunity. Prospívají určitým lidem na úkor ostatních. Vítězové měnových změn mají materiální zájem na jejich provádění. Obvykle jsou to lidé u moci. Oresme píše:
+
 > Domnívám se, že primární a konečný důvod, proč princ chce získat moc měnit měny, je zisk nebo prospěch, který z toho může mít, protože jinak by neměl důvod dělat tolik a tak významné změny.
 
 Poté dodává tyto podrobnosti:
@@ -714,10 +748,14 @@ Oresme zdůrazňuje, že změny měny nejsou jen hrou redistribuce ve prospěch 
 Navíc, pokud dvě různé měny těží z právního uznání, agenti budou hromadit tu, která má větší hodnotu, takže v oběhu zůstane pouze méněcenná měna. (Oresme zde předjímá slavný "Greshamův zákon": špatné peníze vytlačují dobré v režimu právního uznání.) Dospívá k závěru, že manipulace s měnou jsou horší než lichva a že pravděpodobně byly významnou příčinou úpadku Římské říše, jak jsme viděli dříve.
 
 # Vzestup svobody: Od renesance po osvícenství
+
 <partId>58793f94-f217-530a-a877-b5b6df70a5fe</partId>
 
 ## Obhajoba náboženské tolerance
-<chapterId>c4c9a729-4a0f-5814-8e32-9aff4d373018</chapterId>Od renesance byla Evropa sužována válkami náboženskými. Tolerance se tedy stala jednou z velkých bitev osvícenství.
+
+<chapterId>c4c9a729-4a0f-5814-8e32-9aff4d373018</chapterId>
+
+Od renesance byla Evropa sužována válkami náboženskými. Tolerance se tedy stala jednou z velkých bitev osvícenství.
 ![image](assets/4/img-112.webp)
 
 Pro některé by vědecká metoda mohla sjednotit lidi nad předsudky s společným pohledem na svět. Není univerzální přitažlivost stejná pro katolíka, protestanta, žida nebo ateistu? Takto Encyklopedie od Diderota a d’Alemberta představuje pokus o propagaci univerzálního vědění, schopného sjednotit lidi.
@@ -728,7 +766,7 @@ Voltaire si o obchodu myslel totéž. Mohl by zavést toleranci, mnohem lépe ne
 
 Pro Voltairea je to především lidská omylnost, která tvoří základ doktríny tolerance a politické svobody. Píše ve svém _Filozofickém slovníku_ (1764):
 
->Tolerance je nezbytným důsledkem našeho uvědomění si, že jsme omylní. Chybovat je lidské a my všichni neustále děláme chyby. Odpusťme si navzájem naše bláznovství; to je první zákon přírody.
+> Tolerance je nezbytným důsledkem našeho uvědomění si, že jsme omylní. Chybovat je lidské a my všichni neustále děláme chyby. Odpusťme si navzájem naše bláznovství; to je první zákon přírody.
 
 ![image](assets/4/img-078.webp)
 
@@ -767,7 +805,9 @@ Jinými slovy, být tolerantní neznamená být nepřátelský k náboženství.
 - Názory by se měly vyměňovat, stejně jako zboží
 
 ## Obhajoba ekonomické svobody
+
 <chapterId>23fbb745-4fd1-5322-8fba-3ff2e998c7e2</chapterId>
+
 Ekonomický liberalismus je často spojován s anglosaskou tradicí, která vychází z Adama Smithe, v kontrastu s "politickým liberalismem", o kterém se říká, že pochází z kontinentálního osvícenství, zejména ve Francii. Tento pohled je nesprávný.
 
 ![image](assets/4/img-069.webp)
@@ -816,6 +856,7 @@ Pro fyziokraty svoboda nedělí. Boj proti politickým privilegiím a boj proti 
 Skutečně, jak zajistit soužití lidí s rozdílnými zájmy? Co dělat, pokud lidé vstoupí do konfliktu, pokud se mýlí, pokud jsou chamtiví a sobečtí?
 
 Fyziokraté odpověděli ve třech krocích:
+
 1. Je to svoboda smluv, která umožňuje řešení konfliktů zájmů, nikoli společenská smlouva, která je pseudo-smlouvou, protože nemůže být zrušena. Analýza sociálních problémů z hlediska trhu a výměny nám umožňuje vidět vztahy mezi jednotlivci a mezi národy jako hru s kladným součtem a řeší jak otázky instituce, tak regulace společnosti tím, že tvrdí, že potřeba a zájem samy řídí vztahy mezi lidmi.
 2. Přirozená svoboda je právo rozhodovat o sobě a svém majetku. Proto je harmonie zájmů možná na základě respektu k legitimnímu vlastnictví, které je získáno prací a vyplývá z využívání našich schopností. A právě tato na majetku založená svoboda je klíčem k sociálnímu problému, nikoli omezení zákona.
 3. Úlohou státu je vynucovat smlouvy a zaručovat bezpečnost lidí a majetku. To je slavné "Nechte dělat," motto fyziokratů. Stát vládne lépe, když vládne méně a umožňuje jednotlivcům svobodu podnikat iniciativy a přijímat za ně odpovědnost.
@@ -823,6 +864,7 @@ Fyziokraté odpověděli ve třech krocích:
 Stručně řečeno, pokud každý může svobodně sledovat svůj soukromý zájem s respektem k přirozenému právu, bude mír a prosperita všech lépe zajištěna, než politickou organizací, která by definovala obecný zájem shora a vnucovala jej prostřednictvím omezení zákona. Politická svoboda je užitečná věc, ale nestačí k tomu, aby jednotlivcům dala autonomii rozhodování a jednání, kterou potřebují. To je ponaučení fyziokratů. Francouzská liberální škola 19. století, s Sayem, Constantem, Dunoyerem, Bastiatem a Molinarim, si toto ponaučení zapamatuje a brilantně obhájí toto dědictví proti vznikajícímu socialismu.
 
 ## Klíčový rok pro svobodný svět: 1776
+
 <chapterId>c1ba85f8-e8d1-5794-b198-8c683efb0d9b</chapterId>
 
 1776 je rok, který často zůstává v učebnicích dějepisu nepovšimnut. Ale ve třech zemích, Francii, Skotsku a Severní Americe, několik událostí zanechá nezamazatelnou stopu v historii svobody.
@@ -832,7 +874,7 @@ Stručně řečeno, pokud každý může svobodně sledovat svůj soukromý záj
 Během svého krátkého působení ve funkci ministra financí (kontrolora generála) od srpna 1774 do května 1776 se Ann-Robert Jacques Turgot pokusil o hlavní reformy, aby ukončil rozmařilé výdaje, mnohá místní monopolia a vrátil se k volnému obchodu. Dokonce šel tak daleko, že v těchto termínech napomenul krále Ludvíka XVI:
 
 > Musíte se, Sire, ozbrojit proti své laskavosti, vaší vlastní laskavostí, uvědomujíc si, odkud pochází peníze, které můžete rozdávat svým dvoranům.
-V roce 1774 publikoval svých Šest ediktů, aby zrušil cechy a mistrovství (korporace, které se staly monopoly a bariérami vstupu na trh práce), zrušil vnitřní clo na obchod s obilím, zrušil nucenou práci (corvée) a zavedl toleranci vůči protestantům.
+> V roce 1774 publikoval svých Šest ediktů, aby zrušil cechy a mistrovství (korporace, které se staly monopoly a bariérami vstupu na trh práce), zrušil vnitřní clo na obchod s obilím, zrušil nucenou práci (corvée) a zavedl toleranci vůči protestantům.
 
 Bohužel, vysoké ceny pšenice po špatné úrodě zpochybnily jeho reformy. Turgot se v obraně svých reforem vyjádřil:
 
@@ -917,6 +959,7 @@ Nejdůležitějším Smithovým příspěvkem k svobodě bylo objasnění myšle
 Tato myšlenka spontánního řádu se stane klíčovým konceptem v díle Friedricha Hayeka, který uzná svůj dluh vůči skotskému osvícenství a zejména Adamu Smithovi.
 
 ## Doba revolucí
+
 <chapterId>c260e3ab-31a2-5ad7-b775-4bdcdc13b859</chapterId>
 
 Velkou novinkou tohoto moderního období v západní historii je vznik společnosti, která se organizuje mimo náboženskou závislost. To neznamená zmizení náboženské víry nebo smrt Boha. Ale Bůh se stává soukromou záležitostí, již není smíchán s politickými záležitostmi. Nedochází k zmizení náboženství, ale k sesazení jeho vedoucí role. Stává se systémem individuálních věr.
@@ -929,6 +972,7 @@ Mluvili jsme o ekonomech a jejich obhajobě volného trhu. Ale pro mnoho filozof
 Do 18. století je hlavním politickým problémem těchto filozofů tedy otázka suverenity. Je to především otázka spravedlnosti: Kdo může legitimně vykonávat suverenitu?
 
 ### Lidová suverenita
+
 Myšlenka byla inspirována Lockem v 17. století a poté převzata Rousseauem. Suverénní moc musí pocházet nejen z volné vůle lidu, ale také v něm rezidovat. To je Rousseauova teorie suverenity všeobecné vůle, což dnes nazýváme demokracií.
 ![image](assets/4/img-071.webp)
 
@@ -958,6 +1002,7 @@ Kromě toho článek 2 Francouzské deklarace práv z roku 1789 také čerpá in
 > Cílem každého politického sdružení je zachování přirozených a nepřepisovatelných práv člověka. Tato práva zahrnují svobodu, majetek, bezpečnost a odpor proti útlaku.
 
 ### Srovnání dvou revolucí
+
 Americká revoluce byla vedena muži, kteří mluvili o základních nezcizitelných právech. Vedla k vytvoření decentralizovaného státu s omezenou vládou práva. Na druhé straně Atlantiku se odehrál další politický experiment: Francouzská revoluce, která začala jako odvážné povstání lidu, skončila sérií masakrů, krvavých vnitřních konfliktů a připravila cestu pro vojenskou diktaturu Napoleona Bonaparta. Proč takový rozdíl?
 V 19. století se francouzský politický filozof Alexis de Tocqueville pokusil určit tyto rozdíly mezi oběma sesterskými revolucemi. Úspěch Americké revoluce připisuje několika faktorům.
 
@@ -1004,9 +1049,11 @@ To je mimochodem smyslem poznámky Friedricha Hayeka ve své knize _The Constitu
 > Rozhodujícím faktorem, který zmařil úsilí Revoluce ve prospěch podpory individuální svobody, bylo to, že vytvořila iluzi, že pokud byla veškerá moc předána lidu, staly se všechny opatření proti zneužití této moci zbytečnými.
 
 # Apogee a úpadek: Od 19. do 20. století
+
 <partId>39810d57-19e3-5166-8f2e-40b763154148</partId>
 
 ## Svoboda moderních
+
 <chapterId>e575f4c1-7144-591b-ab98-d976ec4102fb</chapterId>
 
 Podle Benjamina Constanta, svoboda v našich moderních společnostech již nemůže být chápána jako přímá účast na záležitostech města, jak tomu bylo ve společnostech antiky.
@@ -1014,6 +1061,7 @@ Podle Benjamina Constanta, svoboda v našich moderních společnostech již nem�
 ![image](assets/5/img-103.webp)
 
 ### Svoboda v soukromém životě
+
 Ve starověku byl jedinec suverénem ve veřejných záležitostech, ale zotročen ve všech svých soukromých vztazích. Oběť individuální svobody byla kompenzována používáním politických práv: právo přímo vykonávat různé části suverenity, diskutovat na veřejném náměstí, hlasovat o zákonech, vynášet rozsudky, hodnotit a soudit magistráty. Jedná se o politickou a kolektivní svobodu:
 Svoboda starověkých spočívala v aktivní a stálé účasti na kolektivní moci. Naše svoboda, na druhou stranu, musí spočívat v mírumilovném užívání soukromé nezávislosti; z toho vyplývá, že musíme být k naší individuální nezávislosti mnohem více připoutáni než starověcí. (_O svobodě starověkých ve srovnání se svobodou moderních_ (1819))
 ![image](assets/5/img-084.webp)
@@ -1038,16 +1086,19 @@ To ale neznamená obětování politické svobody, účasti na moci. Constant up
 Skutečně, ve svých _Zásadách politiky_ Benjamin Constant tvrdí:
 
 > Suverenita lidu není neomezená, je ohraničena hranicemi vymezenými spravedlností a právy jednotlivců. Vůle celého lidu nemůže učinit spravedlivé to, co je nespravedlivé.
-Toto je nová kritika Rousseaua a _Společenské smlouvy_: i všeobecná vůle má své limity a nemůže měnit to, co spadá pod přirozené právo. Existuje právo, které je předcházející a nadřazené politické autoritě: je to právo přirozené. Toto právo stanovuje hranice politické moci a omezuje individuální svobody.
-Říci, že veškerá legitimní moc musí být založena na všeobecné vůli, neznamená, že vše, co všeobecná vůle rozhodne, je legitimní. Constant se tak staví na stranu Deklarace práv člověka a občana z roku 1789, článku II, který stanovuje, že stát je zřízen pouze k ochraně přirozených práv, to jest svobody, odpovědnosti a majetku. Existují tedy oblasti, na které politická moc nemá vliv: morálka a náboženství, ale také vědy, které spadají pod autoritu poznání a nakonec průmysl, dodává Constant.
+> Toto je nová kritika Rousseaua a _Společenské smlouvy_: i všeobecná vůle má své limity a nemůže měnit to, co spadá pod přirozené právo. Existuje právo, které je předcházející a nadřazené politické autoritě: je to právo přirozené. Toto právo stanovuje hranice politické moci a omezuje individuální svobody.
+> Říci, že veškerá legitimní moc musí být založena na všeobecné vůli, neznamená, že vše, co všeobecná vůle rozhodne, je legitimní. Constant se tak staví na stranu Deklarace práv člověka a občana z roku 1789, článku II, který stanovuje, že stát je zřízen pouze k ochraně přirozených práv, to jest svobody, odpovědnosti a majetku. Existují tedy oblasti, na které politická moc nemá vliv: morálka a náboženství, ale také vědy, které spadají pod autoritu poznání a nakonec průmysl, dodává Constant.
 
 ### Politická svoboda a ekonomická svoboda
+
 Politická svoboda bez dalších svobod je podle Benjamina Constanta pouhá iluze. Politická svoboda je svoboda účastnit se na výkonu moci. Avšak moc lidu nebo mas může být destruktivní pro svobody, protože dává většině právo vnucovat svou vůli celé společnosti, včetně svých rozmarů nebo ideologie okamžiku: konfiskační daně bez kompenzace, prosazování jediného myšlení, cenzura, represe a intelektuální terorismus. Proto nemůže existovat pravá svoboda bez občanských svobod, včetně náboženské svobody a ekonomické svobody. Benjamin Constant nerozlišuje mezi politickým liberalismem a ekonomickým liberalismem:
+
 > Čtyřicet let bráním stejný princip, svobodu ve všem, v náboženství, ve filozofii, v literatuře, v průmyslu, v politice: a svobodou myslím triumf individuality, jak nad autoritou, která by vládla despotismem, tak nad masami, které si nárokují právo zotročit menšinu většině. Despotismus nemá právo. Většina má právo donutit menšinu, aby respektovala řád: ale vše, co neruší řád, vše, co je pouze vnitřní, jako je názor; vše, co při vyjadřování názoru neškodí druhým, aniž by vyvolávalo materiální násilí nebo bránilo vyjádření protikladného názoru; vše, co v oblasti průmyslu umožňuje svobodný provoz konkurenčního průmyslu, je individuální a nemůže být legitimně podrobeno sociální moci.
 
 Jinými slovy, ve svobodné společnosti je nutné stanovit přísnou hranici mezi veřejnou a soukromou sférou. Princip této hranice spočívá v neubližování druhým, to jest nezasahování do jejich majetku.
 
 ## Síly a slabiny demokracie
+
 <chapterId>753e065d-dbee-5d61-aa56-b1c074c95499</chapterId>
 
 Alexis de Tocqueville byl pozorným pozorovatelem demokracie a kritikem demokratického individualismu.
@@ -1073,12 +1124,14 @@ Skutečně, rovnost je doprovázena větší křehkostí jednotlivců, kteří s
 Autor _Demokracie v Americe_ nás varuje:
 
 > Skutečně, existuje vznešená a legitimní vášeň pro rovnost, která vzrušuje lidi, aby chtěli být všichni silní a vážení. Tato vášeň má tendenci zvedat malé na úroveň velkých; ale v lidském srdci je také zvrácený vkus pro rovnost, který vede slabé, aby chtěli srazit silné na jejich úroveň, a který snižuje lidi, aby dali přednost rovnosti v otroctví před nerovností ve svobodě. (...) Národy našich dnů nemohou zajistit, aby podmínky mezi nimi nebyly rovné; ale je na nich, zda rovnost povede k otroctví nebo k svobodě, k osvícenosti nebo k barbarství, k prosperitě nebo k bídě.
-Pro Tocquevillea je člověk mnohem více přitahován rovností než svobodou. A vidí v tom velké nebezpečí pro demokracii. Proč člověk dává přednost vášni pro rovnost před svobodou? Protože svoboda přináší přímo viditelné náklady a její výhody jsou vzdálenější, zapsané v dlouhodobém horizontu (svoboda neposkytuje obsah, pouze kapacitu hledat štěstí podle vlastního úsudku). Naopak, rovnost přináší okamžitě viditelné pozitivní výsledky a její chyby se projeví až v dlouhodobém horizontu.
+> Pro Tocquevillea je člověk mnohem více přitahován rovností než svobodou. A vidí v tom velké nebezpečí pro demokracii. Proč člověk dává přednost vášni pro rovnost před svobodou? Protože svoboda přináší přímo viditelné náklady a její výhody jsou vzdálenější, zapsané v dlouhodobém horizontu (svoboda neposkytuje obsah, pouze kapacitu hledat štěstí podle vlastního úsudku). Naopak, rovnost přináší okamžitě viditelné pozitivní výsledky a její chyby se projeví až v dlouhodobém horizontu.
+
 ### Právo na práci
 
 Právo na práci je dobrým příkladem odklonů demokratického egalitarismu. V projevu k Ústavodárnému shromáždění v roce 1848 Tocqueville zaujal postoj proti právu na práci v návrhu ústavy. Argumentoval, že pokud se stát zaváže poskytnout práci všem pracovníkům, nebo pokud zajistí, že ji vždy najdou na trhu práce, jak chtějí socialisté, bude veden k tomu, aby se stal "velkým a jediným organizátorem práce."
 
 V tomto projevu Tocqueville srovnává socialismus s Ancien Régime, pro které "jeho poddaní jsou slabí a nemocní bytosti, které musí být vždy drženy za ruku, aby nespadly nebo se nezranily." Socialismus je tedy "novou formou otroctví" z tří důvodů:
+
 1. Morálně socialismus podporuje nezodpovědnost prostřednictvím svého direktivního a kolektivistického státního řízení. Je vždy charakterizován "hlubokým pohrdáním jednotlivcem jako takovým."
 
 2. Politicky je despotický, protože ve jménu štěstí se snaží stát se "pánem každého člověka, jeho poručníkem a vychovatelem."
@@ -1102,8 +1155,8 @@ Pod vládou socialistických idejí Bastiat pozoroval, že volební stroj byl po
 Stát se pak stává, podle Bastiatových slov,
 
 > velkou fikcí, prostřednictvím které se každý snaží žít na úkor všech ostatních. ([_Stát_](http://bastiat.org/fr/l_etat.html))
-Bastiat dále rozvíjí myšlenku, že konflikt vzniká, když zákon odchýlí od své správné role. Ve svém slavném pamfletu [_Zákon_](http://bastiat.org/fr/la_loi.html) ukazuje, proč a jak se zákon stal "bojištěm všech chamtivostí", což znamená zdrojem privilegií, situativních rent a libovolného zdanění. Jakmile je jednou přijato na zásadě, že zákon může být odveden od své pravé mise, že může porušovat vlastnictví místo jeho zaručování, nutně následuje třídní boj, buď aby se bránilo proti vydrancování, nebo aby se toto vydrancování organizovalo pro vlastní prospěch.
-![image](assets/5/img-098.webp)
+> Bastiat dále rozvíjí myšlenku, že konflikt vzniká, když zákon odchýlí od své správné role. Ve svém slavném pamfletu [_Zákon_](http://bastiat.org/fr/la_loi.html) ukazuje, proč a jak se zákon stal "bojištěm všech chamtivostí", což znamená zdrojem privilegií, situativních rent a libovolného zdanění. Jakmile je jednou přijato na zásadě, že zákon může být odveden od své pravé mise, že může porušovat vlastnictví místo jeho zaručování, nutně následuje třídní boj, buď aby se bránilo proti vydrancování, nebo aby se toto vydrancování organizovalo pro vlastní prospěch.
+> ![image](assets/5/img-098.webp)
 
 V případech, kdy zákon pouze prosazuje práva každého jednotlivce a zaručuje _"kolektivní organizaci individuálního práva na legitimní obranu,"_ nikdo není v pozici využívat ho pro svůj vlastní prospěch na úkor všech, do té míry, že samotná forma vlády se stává vedlejší otázkou.
 
@@ -1117,6 +1170,7 @@ Závěr Bastiata:
 Podívejte se na zeměkouli. Které jsou nejšťastnější, nejmorálnější a nejmírumilovnější národy? Ty, kde Zákon zasahuje do soukromé činnosti nejméně; kde je vláda nejméně cítit; kde individualita má největší odolnost a veřejné mínění největší vliv; kde administrativní mechanismy jsou nejméně početné a nejméně složité; daně nejméně těžké a nejméně nerovné; lidová nespokojenost nejméně vyvolaná a nejméně oprávněná; kde odpovědnost jednotlivců a tříd je nejaktivnější a kde, v důsledku toho, pokud morálka není dokonalá, má tendenci neustále se opravovat; kde transakce, dohody, asociace jsou nejméně brzděny; kde práce, kapitál a populace trpí nejméně umělými posuny ([_Zákon_](http://bastiat.org/fr/la_loi.html))
 
 ## Marxistická kritika kapitalismu
+
 <chapterId>16c82521-7c51-5d84-b660-0b358447e3bd</chapterId>
 
 Během 19. století se objevila kritika kapitalismu, a zejména marxistická kritika.
@@ -1126,6 +1180,7 @@ Jaký má smysl právo mluvit, psát a volit, zvolal Marx, pokud je každodenní
 ![image](assets/5/img-091.webp)
 
 ### Mýtus nestranného státu
+
 Základní kritika, kterou Marx vznáší vůči politickému liberalismu, zejména ve svých raných spisech (_Kritika Hegelovy filozofie práva_ a _K židovské otázce_), se zaměřuje na oddělení občanské společnosti a státu. Tuto kritiku je třeba chápat v rámci obecného rámce jeho interpretace "Buržoazní revoluce". Právě tato revoluce vede k vytvoření státu odděleného od občanské společnosti, který má údajně směřovat k univerzálnímu, což znamená společnému zájmu, tím, že hraje roli nestranného rozhodčího.
 
 To vše je však podle Marxe pouze klamným zdáním. Ve skutečnosti stát není ničím jiným než nástrojem určeným k sloužení zvláštním zájmům vládnoucí třídy. Jinými slovy, stát není nestranný; není oddělen od občanské společnosti. Ve skutečnosti je liberální stát místem dvojité iluze. Iluze univerzálnosti, jak jsme právě viděli, a následně iluze emancipace. Revoluce skutečně emancipovala občana tím, že zavedla lidovou suverenitu a rovnost před zákonem, ale tato svoboda a rovnost zůstávají čistě ideální a abstraktní. Je falešné, říká Marx, myslet si, jako Rousseau nebo Hegel, že člověk plně realizuje svou racionální povahu tím, že se stává občanem. Ve skutečnosti se člověk může stát občanem a zůstat vykořisťován, zotročen, ponechán na milost náladám, anarchii sobectví a zákonu silnějšího.
@@ -1135,11 +1190,13 @@ Emancipace občana podle Marxe vůbec neznamená emancipaci člověka, jak nazna
 Tato politická iluze liberalismu je sekulární stránkou náboženské iluze, dodává Marx. Formule je dobře známá: "náboženství je opiem lidu." Náboženství je útěchou, poskytuje euforii a slibuje emancipaci v posmrtném životě. Ale odvádí člověka od jeho pravé emancipace zde na zemi. Občanství je ve vztahu k činnosti dělníka jako království Boží ve vztahu k bídné existenci na této zemi. Nikdy není realizováno. Toto dvojité oddělení tvoří dvojité odcizení, což znamená neuskutečnění člověkem jeho humanity nebo jeho imaginárního dokončení.
 
 ### Ekonomické odcizení
+
 Ve skutečnosti, pro Marxe a v souladu s historickým materialismem, je ekonomická odcizení kořenem politického odcizení stejně jako náboženského odcizení. V ekonomickém odcizení, které je výsledkem kapitalismu (definovaného jako soukromé vlastnictví výrobních prostředků), je pracovník nucen prodávat svou pracovní sílu jako zboží. Navíc je zbaven produktu své práce, který vlastní zaměstnavatel. Je tak odcizen, což znamená oddělen od sebe samého, protože jeho práce se stává něčím cizím, co vykonává násilím, aby přežil. Práce je pro Marxe zásadně lidským aktem, prostřednictvím kterého se realizuje samotná podstata člověka, a sice svoboda. Proto osvobození práce znamená také obnovit člověku jeho důstojnost a lidskost.
 
 Politická revoluce je proto podle něj iluzí, dokud není doprovázena ekonomickou a sociální revolucí schopnou osvobodit člověka od kapitalistického otroctví a tím dosáhnout jednoty mezi pracovníkem a občanem, mezi společností a státem, soukromou a veřejnou sférou. Formální svoboda a rovnost občana se tak stane skutečnou, ve společnosti bez tříd.
 
 ## Rakouská kritika marxismu
+
 <chapterId>f05dae71-c478-5de1-996e-1b7b4255d373</chapterId>
 
 Rakouská škola ekonomie, založená Carlem Mengerem na konci 19. století, od počátku odmítala teorie Karla Marxe.
@@ -1192,6 +1249,7 @@ Marxisté věří, že socialismus, ekonomický systém, ve kterém jsou prostř
 Už v roce 1922 ve své knize _Socialismus_ Ludwig von Mises ukázal, že socialismus by vedl k rozsáhlým nedostatkům, protože centrální plánovači by nebyli schopni provádět přesné ekonomické výpočty bez cenového systému poskytovaného trhem.
 
 ## Cesta ke nevolnictví
+
 <chapterId>3f92f346-3062-5f76-8c54-3a9075e2b030</chapterId>
 
 Alarmován vzestupem vládního intervencionismu v ekonomikách západních demokracií, Hayek napsal _Cestu ke nevolnictví_ jako filozofickou kritiku kolektivismu, ať už z pravice nebo z levice. Díky _Reader’s Digest_ byla tato kniha vydána v několika milionech kopií a výrazně přispěla k Hayekově slávě ve Spojených státech.
@@ -1206,7 +1264,7 @@ Skutečně, stejný proces politické centralizace a stejná touha nahradit diri
 Pokud jde o autentický liberalismus, zajímá se o spravedlnost. Ale Hayek nás připomíná, že patří občanské společnosti, a ne státu, organizovat tuto solidaritu. To, co odlišuje liberalismus a socialismus, nejsou cíle, ale prostředky. Podle Hayeka,
 
 > Liberalismus chce, abychom využívali síly soutěže jako prostředku koordinace lidských úsilí co nejlépe; nechce, abychom nechali věci tak, jak jsou.
-Proto Hayek dodává, že stát má nepochybnou oblast činnosti:
+> Proto Hayek dodává, že stát má nepochybnou oblast činnosti:
 > Vytvořit podmínky, ve kterých bude konkurence co nejefektivnější, nahradit ji tam, kde nemůže být efektivní, poskytovat služby, které jsou takové povahy, že zisk, podle Smithovy formule, nemůže pokrýt náklady žádné skupině.
 
 Naopak, plánování ekonomiky a společnosti obecně, podstata socialismu, je zaměřeno proti samotné konkurenci. Hayek však tvrdí, že mezi cíli socialismu (sociální spravedlnost, rovnost a bezpečnost) a prostředky, které socialismus k jejich dosažení předpokládá (zrušení soukromého vlastnictví, kolektivizace výrobních prostředků, plánovaná ekonomika), existuje neslučitelnost.
@@ -1218,8 +1276,8 @@ Hned na prvních stránkách Hayek vytváří paralelu mezi triumfem socialistic
 ![obrázek](assets/5/img-093.webp)
 
 > Málokdo, varuje ve svém předmluvě, je ochoten uznat, že vzestup fašismu a nacismu nebyl reakcí proti trendům (...) předchozího období, ale nevyhnutelným výsledkem těchto trendů. To je něco, co většina lidí odmítla vidět, i v okamžiku, kdy si uvědomili podobnost, kterou nabízely určité negativní rysy domácích režimů komunistického Ruska a nacistického Německa. Výsledkem je, že mnoho lidí, kteří se považují za velmi nad aberracemi nacismu a kteří upřímně nenávidí všechny jeho projevy, současně pracuje na ideálech, jejichž realizace by přímo vedla k této odsouzené tyranii.
-Podle Hayeka socialismus a nacismus sdílejí řadu základních společných rysů, zejména odmítnutí individualismu a spontánního řádu trhu. Obě ideologie dávají přednost blahu skupiny před právy a svobodami jednotlivců a snaží se vytvořit homogenní společnost sjednocenou společnými hodnotami a cíli. Ani socialisté, ani nacisté neváhají použít sílu a nátlak k dosažení svých cílů. Jsou ochotni potlačit individuální svobody a potlačit nesouhlas ve jménu většího dobra společnosti.
-V kapitole nazvané "Socialistické kořeny nacismu" Hayek poukazuje na to, že nacismus si činí nárok na socialistické plánování ekonomiky (odtud jeho název, národní-socialismus) jako prostředek k získání úplné kontroly nad populací.
+> Podle Hayeka socialismus a nacismus sdílejí řadu základních společných rysů, zejména odmítnutí individualismu a spontánního řádu trhu. Obě ideologie dávají přednost blahu skupiny před právy a svobodami jednotlivců a snaží se vytvořit homogenní společnost sjednocenou společnými hodnotami a cíli. Ani socialisté, ani nacisté neváhají použít sílu a nátlak k dosažení svých cílů. Jsou ochotni potlačit individuální svobody a potlačit nesouhlas ve jménu většího dobra společnosti.
+> V kapitole nazvané "Socialistické kořeny nacismu" Hayek poukazuje na to, že nacismus si činí nárok na socialistické plánování ekonomiky (odtud jeho název, národní-socialismus) jako prostředek k získání úplné kontroly nad populací.
 
 Němečtí a italští socialisté pouze připravili cestu pro nacismus tím, že založili politické strany, které řídily veškeré aktivity jednotlivce od narození do smrti, diktovaly jejich názory na všechno. Nebyli to fašisté, ale socialisté, kdo začal regimentovat děti do politických organizací, kontrolovat jejich soukromý život a jejich myšlenky.
 
@@ -1228,14 +1286,19 @@ Nacisté pouze převzali státní, dirigistický a intervencionistický diskurz,
 Na závěr Hayek vyzývá své současníky, aby se odvrátili od "šílenství" a "současného temna", aby osvobodili lidstvo od "chyb, které dominovaly našemu životu v nedávné minulosti." Podle něj je nejlepší zárukou svobody soukromé vlastnictví. Když jsou všechny výrobní prostředky soustředěny v rukou několika organizátorů, jsme podrobeni celkové moci, protože tato ekonomická moc se stává politickým nástrojem kontroly nad naším celým životem.
 
 # Vzestup státu blahobytu ve 20. století
+
 <partId>49e581cb-3dca-5f10-ac34-5b4cbd3d7c36</partId>
 
 ## Triumf Keynesa
+
 <chapterId>f40fc495-bcf7-5b7a-95ad-3a3ccba3e3ba</chapterId>
+
 Kapitalismus je často obviňován, že je zdrojem výzvy: "musíme vždy produkovat více," nebo formule: "spotřeba je dobrá pro růst." Tyto myšlenky však nevycházejí z tradičního kapitalismu, ale z keynesiánství, které od 30. let 20. století dominovalo oblasti ekonomické vědy a politické třídě.
 
 ![image](assets/6/img-011.webp)
+
 ### Analýza krize z roku 1929
+
 Publikace z roku 1936, kniha od Johna Maynarda Keynese: _Obecná teorie zaměstnanosti, úroku a peněz_, změnila vše ve své cestě. Při zkoumání příčin Velké deprese a prostředků k jejímu překonání popisuje nový ekonomický paradigma, které přesvědčilo generace ekonomů a politiků.
 
 ![image](assets/6/img-005.webp)
@@ -1286,6 +1349,7 @@ V roce 1976 napadl keynesiánství naposledy v článku pro noviny _Le Monde_.
 Žádné náboženství se po světě nerozšířilo tak rychle jako to zaměstnání. Poháněno vzpomínkou na tragédie nezaměstnanosti, které sužovaly Anglii a Německo během 20. let 20. století, se stalo předním principem, ať už vyjádřeným nebo naznačeným, ekonomické politiky téměř v každé zemi světa. Skrývajíc se za chytrým a zavádějícím vzhledem "obecné teorie", povýšené nadšenými a slepými učedníky na postavení biblické akce vlády, maskovalo pravou tvář inflačních politik, které krylo. Tímto objížďkou dalo dobré svědomí vládám, které, když vyčerpaly své možnosti daní a půjček, uchýlily se k klamným radostem tvorby peněz. (_Konec keynesiánské éry aneb: Když dlouhodobý běh skončil_, Euromoney, duben 1976, str. 70-7.)
 
 ## Opouštění zlatého standardu
+
 <chapterId>f52da9ae-c4bc-5d1a-8fd0-8fcae5948e34</chapterId>
 
 Peníze jsou nástrojem, který umožnil lidem překonat barter, šetřit a koordinovat na velké škále prostřednictvím trhu. Umožnily specializaci práce, komparativní výhody, zisky z obchodu, ekonomické kalkulace. Bez peněz neexistuje moderní civilizace.
@@ -1301,8 +1365,8 @@ Skutečně, zlato je tvrdá měna, obtížně vyráběná, nákladná na paděl�
 To je důvod, proč Ludwig von Mises píše ve své knize _Human Action_:
 
 > Zlatý standard byl světovým standardem kapitalistické éry, éry rostoucí prosperity, svobody a demokracie \[…\] Byl mezinárodním standardem, který mezinárodní obchod a světové kapitálové trhy potřebovaly \[…\] Přinesl průmysl, kapitál a západní civilizaci do nejvzdálenějších koutů planety, vytvářející dosud neznámé bohatství.
-Ale zlatý standard omezuje vlády ve financování jejich výdajů prostřednictvím daní namísto inflace, což vysvětluje určitou nepřátelství politických a ekonomických elit vůči tomuto systému. Protože vázání měny na drahý kov omezuje schopnost centrálních bank financovat růst státu sociálního zabezpečení prostřednictvím nepřímé daně, kterou je inflace.
-To je důvod, proč již v roce 1923 Keynes prohlásil:
+> Ale zlatý standard omezuje vlády ve financování jejich výdajů prostřednictvím daní namísto inflace, což vysvětluje určitou nepřátelství politických a ekonomických elit vůči tomuto systému. Protože vázání měny na drahý kov omezuje schopnost centrálních bank financovat růst státu sociálního zabezpečení prostřednictvím nepřímé daně, kterou je inflace.
+> To je důvod, proč již v roce 1923 Keynes prohlásil:
 
 > Ve skutečnosti je zlatý standard již barbarstvím. (...) Obránci starého standardu si neuvědomují, jak daleko je nyní od ducha a potřeb nových dob. (J.M. Keynes, _Monetary Reform_).
 
@@ -1312,6 +1376,7 @@ Systém Bretton Woods, navržený v roce 1944 a plně implementovaný v roce 195
 
 ![image](assets/6/img-007.webp)
 V té době, zejména během války ve Vietnamu, vedl nárůst deficitů vlády USA mnoho zahraničních zemí, včetně Francie, k tomu, že chtěly své dolary přeměnit na zlato u FEDu. Dne 15. srpna 1971 se prezident Nixon rozhodl zrušit slib konvertibility dolaru na zlato, čímž vytvořil první zcela papírovou měnu v historii Spojených států. Od tohoto dne lze datovat okamžik, kdy peníze úplně přešly pod kontrolu centrálních bank. V rozhovoru se Richard Nixon údajně vyjádřil:
+
 > Dnes jsme všichni keynesiánci.
 
 Skutečně, pro mnoho keynesiánských ekonomů, opuštění zlatého standardu dalo vládám flexibilitu potřebnou k reakci na ekonomické krize nebo jejich prevenci.
@@ -1321,8 +1386,8 @@ Skutečně, pro mnoho keynesiánských ekonomů, opuštění zlatého standardu 
 Podle Alana Greenspana, bývalého předsedy FEDu, americké centrální banky, je zlatý standard neslučitelný se státním dluhem a financováním sociálního státu:
 
 > Vždy jsem měl nostalgie po cenové stabilitě, která je vlastní zlatému standardu; stabilní měna byla jeho hlavním cílem. Ale již dávno jsem připustil, že zlatý standard se nevyrovnává s převládajícím pohledem na funkci vlády, zejména povinností zajistit systém sociálního zabezpečení. \[…\] Většina Američanů tolerovala inflaci jako cenu za moderní sociální stát. Již neexistují žádní zastánci zlatého standardu a vidím malou možnost jeho návratu. (_The Age of Turbulence_).
-Naopak, pro lidi jako Jacques Rueff, opuštění drahých kovů je chyba, která může vést pouze k neustálému poklesu kupní síly, doprovázenému snížením životní úrovně, zvýšením nerovnosti příjmů a rostoucí ekonomickou nestabilitou.
-![image](assets/6/img-008.webp)
+> Naopak, pro lidi jako Jacques Rueff, opuštění drahých kovů je chyba, která může vést pouze k neustálému poklesu kupní síly, doprovázenému snížením životní úrovně, zvýšením nerovnosti příjmů a rostoucí ekonomickou nestabilitou.
+> ![image](assets/6/img-008.webp)
 
 V únoru 1965, během televizní tiskové konference, generál de Gaulle, přímo inspirovaný Rueffem, navrhl návrat ke zlatému standardu. Prohlásil:
 
@@ -1342,8 +1407,11 @@ Pro Hayeka minulá nestabilita tržní ekonomiky vychází z faktu, že nejdůle
 
 ![image](assets/6/img-006.webp)
 Hayek věřil, že volný trh s privátními měnami by vedl k větší měnové stabilitě. Téměř 50 let později kryptoměna jako Bitcoin ztělesňuje Hayekovu vizi konkurence tím, že nabízí decentralizovanou alternativu k monopolistickému systému centrálních bank. Bitcoin, se svým emisním limitem 21 milionů jednotek, je zárukou proti inflaci a libovůli regulátorů.
+
 ## Závěr: síla nápadů
+
 <chapterId>50676155-c071-5bee-a14e-0c251f0375da</chapterId>
+
 Krize, kterou procházíme, je krizí civilizace, to znamená intelektuální krizí s morálními, politickými a ekonomickými důsledky.
 
 ![obrázek](assets/6/img-000.webp)
@@ -1363,3 +1431,4 @@ Nyní jsme zažili všechny varianty státismu a všechny selhaly. Všude na zá
 V jistém smyslu je naše situace lepší než v minulosti. Po postupných selháních různých socialistických, komunistických a sociálně-demokratických experimentů dnes víme, jak lépe než včera rozlišovat pravdivé nápady od nepravdivých. A nepravdivé nápady lze vyvrátit a nahradit pravdivými. Jak řekl Mises:
 Vše, co se děje ve světové společnosti, ve které žijeme, je výsledkem nápadů. Těch dobrých i špatných. Je nutné bojovat proti falešným nápadům. (...) Naše civilizace může přežít, a musí. A přežije díky lepším nápadům, než jsou ty, které dnes světem vládnou; a tyto lepší nápady vyvinou příští generace.
 (_Economic Policy: Thoughts for Today and Tomorrow_, 1979).
+

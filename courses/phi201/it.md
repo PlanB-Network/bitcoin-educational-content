@@ -989,6 +989,8 @@ Questo è, peraltro, il senso dell'osservazione di Friedrich Hayek nel suo libro
 
 # Apogeo e Declino: Dal XIX al XX Secolo
 
+<partId>39810d57-19e3-5166-8f2e-40b763154148</partId>
+
 ## La Libertà dei Moderni
 
 <chapterId>e575f4c1-7144-591b-ab98-d976ec4102fb</chapterId>
@@ -1356,4 +1358,3 @@ Abbiamo ora sperimentato tutte le varianti dello statalismo, e tutte hanno falli
 In un certo senso, la nostra situazione è migliore rispetto al passato. Dopo i successivi fallimenti di vari esperimenti socialisti, comunisti e socialdemocratici, oggi sappiamo come distinguere, meglio di ieri, le idee vere da quelle false. E le idee false possono essere confutate e sostituite con quelle vere. Come diceva Mises:
 Tutto ciò che accade nella società globale in cui viviamo è il risultato delle idee. Il bene e il male. Ciò che è necessario è combattere le idee false. (...) La nostra civiltà può sopravvivere, e deve. E sopravviverà grazie a idee migliori rispetto a quelle che governano il mondo oggi; e queste idee migliori saranno sviluppate dalla generazione emergente.
 (_Economic Policy: Thoughts for Today and Tomorrow_, 1979).
-

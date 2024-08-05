@@ -1563,7 +1563,7 @@ Comme nous l'avons dit, lors de son départ, Satoshi transmet le contrôle du si
 
 Évolution du site. https://web.archive.org/web/20110216125441/http://www.bitcoin.org/ https://web.archive.org/web/20110411071904/http://www.bitcoin.org/ https://web.archive.org/web/20110923155001/http://bitcoin.org/ (april 2011 redesign: https://bitcointalk.org/index.php?topic=4223.0)
 
-Martti Malmi ferme aussi progressivement sa plateforme d'échange, bitcoinexchange.com. Celle-ci est mise hors ligne à l'occasion d'un [changement de serveur](https://mmalmi.github.io/satoshi/#email-240) en décembre 2010. En janvier, il [prend](https://bitcointalk.org/index.php?topic=2179.msg37575#msg37575) la [décision](https://mmalmi.github.io/satoshi/#email-257) de ne pas la rouvrir. Début août, il [vendra](https://bitcointalk.org/index.php?topic=34357.msg427698#msg427698) le nom de domaine pour 250 bitcoins, soit 2 365 $ à ce moment-là. Le domaine redirigera vers Mt. Gox.
+Martti Malmi ferme aussi progressivement sa plateforme d'échange, BitcoinExchange. Celle-ci est mise hors ligne à l'occasion d'un [changement de serveur](https://mmalmi.github.io/satoshi/#email-240) en décembre 2010. En janvier, il [prend](https://bitcointalk.org/index.php?topic=2179.msg37575#msg37575) la [décision](https://mmalmi.github.io/satoshi/#email-257) de ne pas la rouvrir. Début août, il [vendra](https://bitcointalk.org/index.php?topic=34357.msg427698#msg427698) le nom de domaine pour 250 bitcoins, soit 2 365 $ à ce moment-là. Le domaine redirigera vers Mt. Gox.
 
 Wiki. Migration du wiki de DokuWiki vers Mediawiki
 
@@ -1623,9 +1623,9 @@ Sur YouTube, les vidéos fleurissent. Le 22 mars, la première vidéo expliquant
 
 En avril, le sujet de la monnaie numérique est abordé par des grands noms de la presse généraliste comme [The Atlantic](https://www.theatlantic.com/business/archive/2011/04/how-to-start-your-own-private-currency/73327/), [Time Magazine](https://techland.time.com/2011/04/16/online-cash-bitcoin-could-challenge-governments/) et [Forbes](https://www.forbes.com/forbes/2011/0509/technology-psilocybin-bitcoins-gavin-andresen-crypto-currency.html). En mai, le mouvement s'amplifie et Bitcoin est évoqué un peu partout, notamment dans [Wired UK](https://web.archive.org/web/20110517122859/http://www.wired.co.uk/news/archive/2011-05/16/bitcoin-p2p-currency), sur [Slate](https://slate.com/business/2011/05/bitcoin-why-the-new-electronic-currency-is-a-favorite-of-libertarian-hipsters-and-criminals.html), sur [Gizmodo](https://gizmodo.com/what-is-bitcoin-5803124) et sur [TechCrunch](https://techcrunch.com/2011/05/20/bitcoin-ven-and-the-end-of-currency/).
 
-![Photographie de Gavin Andresen mise en avant dans Forbes en avril 2011](assets/img/ch12/gavin-andersen-forbes-20110420.webp)
+![Gavin Andresen dans Forbes en avril 2011](assets/img/ch12/gavin-andersen-forbes-20110420.webp)
 
-Photographie de Gavin Andresen mise en avant dans Forbes en avril 2011 (source : [archive de Forbes](https://web.archive.org/web/20110502052302/https://www.forbes.com/forbes/2011/0509/technology-psilocybin-bitcoins-gavin-andresen-crypto-currency.html))
+Gavin Andresen dans Forbes en avril 2011 (source : [archive de Forbes](https://web.archive.org/web/20110502052302/https://www.forbes.com/forbes/2011/0509/technology-psilocybin-bitcoins-gavin-andresen-crypto-currency.html))
 
 La radio est également utilisée pour parler de la cryptomonnaie. Un épisode d'une émission de la radio canadienne CBC Radio est [consacré](https://web.archive.org/web/20110227214049/http://www.cbc.ca/spark/2011/02/spark-139-february-27-march-2-2011/) au sujet de la monnaie et de Bitcoin le 27 février. Bitcoin est également mentionné dans plusieurs épisodes de FreeTalkLive, une émission d'orientation libertarienne aux États-Unis. En particulier, le sujet est [abordé](https://web.archive.org/web/20110318163416/http://www.freetalklive.com/content/podcast_2011_03_16) plus longuement le 16 mars 2011, notamment dans le cadre de l'essor de Silk Road. Enfin, le 24 mai, Bitcoin est le sujet d'une [courte capsule](https://www.npr.org/2011/05/24/136620231/what-are-bitcoins) sur la *National Public Radio* aux États-Unis.
 
@@ -1634,6 +1634,10 @@ Les blogueurs individuels sont de même intéressés. C'est le cas de Rick Falkv
 ### La première bulle (déc. 2010 -- 8 juin 2011)
 
 La popularisation de Bitcoin fait que son prix augmente de manière significative. Alors qu'il est redescendu à 20 centimes en décembre 2010, il atteint la parité avec le dollar le 9 février 2011. À ce moment-là, Hal Finney [déclare](https://bitcointalk.org/index.php?topic=2734.msg37307#msg37307) avoir « vraiment de la chance d'être au début d'un nouveau phénomène potentiellement explosif ». (*original: "We are really lucky to be in at the beginning of a possibly explosive new phenomenon."*) Il a du flair, car ce qui se produit ensuite est fulgurant.
+
+![Photographie postée par jimbobway sur le forum le jour de la parité avec le dollar](assets/img/ch12/parity-party-jimbobway-february-2011.webp)
+
+Photographie publiée par jimbobway sur le forum le jour de la parité avec le dollar (source : [Bitcointalk](https://bitcointalk.org/index.php?topic=2734.msg37144#msg37144))
 
 L'effervescence médiatique du printemps a en effet pour conséquence de créer progressivement un phénomène spéculatif sans précédent. Après avoir stagné autour de 1 $ pendant plusieurs mois, le prix remonte et atteint 3 $ à la fin du mois d'avril. En mai, il est de 8 $. Enfin, le 8 juin, le prix du bitcoin atteint un sommet historique de 32 $ sur Mt. Gox ! Cette hausse correpond à une multiplication par 160 en 6 mois.
 

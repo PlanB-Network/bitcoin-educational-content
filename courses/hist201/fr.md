@@ -1557,13 +1557,27 @@ Sous la supervision de Gavin Andresen, plusieurs versions du logiciel sont publi
 
 Le développement logiciel n'est pas la seule chose qu'il faut gérer en l'absence de Satoshi. Il y a aussi les outils de communication que sont le site web, le forum et le wiki. Ces derniers sont en effet les « vitrines » du projet et la façon dont ils sont gérés est très importante.
 
-Comme nous l'avons dit, lors de son départ, Satoshi transmet le contrôle du site à Martti Malmi, qui englobe alors le forum (accessible à l'adresse `www.bitcoin.org/smf/`) et le [wiki](https://web.archive.org/web/20110102000201/http://www.bitcoin.org/wiki/doku.php) (accessible à l'adresse `www.bitcoin.org/wiki/doku.php`). Toutefois, Martti a peu de temps à consacrer à cette tâche. À partir du printemps 2010, il est [occupé](https://mmalmi.github.io/satoshi/#email-191) par un stage puis par un emploi à plein temps, si bien qu'il se met progressivement en retrait, tant dans le développement du logiciel que la gestion du site.
+Comme nous l'avons dit, lors de son départ, Satoshi transmet le contrôle du site à Martti Malmi, qui englobe alors le forum (accessible à l'adresse `www.bitcoin.org/smf/`) et le [wiki](https://web.archive.org/web/20110102000201/http://www.bitcoin.org/wiki/doku.php) (accessible à l'adresse `www.bitcoin.org/wiki/doku.php`). Toutefois, Martti a peu de temps à consacrer à cette tâche. À partir du printemps 2010, il est [occupé](https://mmalmi.github.io/satoshi/#email-191) par un stage puis par un emploi à plein temps, si bien qu'il se met progressivement en retrait.
 
-À la fin de l'année 2010 et au début de l'année 2011, le site rencontre [quelques](https://bitcointalk.org/index.php?topic=2026.msg25845#msg25845) [problèmes](https://bitcointalk.org/index.php?topic=3328.msg46775#msg46775). C'est pourquoi Martti cherche à déléguer la gestion du site web. Le 28 mars, il [publie](https://bitcointalk.org/index.php?topic=5052.msg73922#msg73922) une annonce sur le forum demandant de l'aide technique et reçoit plusieurs réponses. "sf.net hosting" [8/6](https://bitcointalk.org/index.php?topic=13375.msg184002#msg184002)
+Faute de temps, Martti Malmi est contraint de fermer progressivement sa plateforme d'échange, BitcoinExchange. Celle-ci est mise hors ligne à l'occasion d'un [changement de serveur](https://mmalmi.github.io/satoshi/#email-240) en décembre 2010. En janvier, il [prend](https://bitcointalk.org/index.php?topic=2179.msg37575#msg37575) la [décision](https://mmalmi.github.io/satoshi/#email-257) de ne pas la rouvrir. Début août, il [vendra](https://bitcointalk.org/index.php?topic=34357.msg427698#msg427698) le nom de domaine pour 250 bitcoins, soit 2 365 $ à ce moment-là. Le domaine redirigera vers Mt. Gox.
 
-Évolution du site. https://web.archive.org/web/20110216125441/http://www.bitcoin.org/ https://web.archive.org/web/20110411071904/http://www.bitcoin.org/ https://web.archive.org/web/20110923155001/http://bitcoin.org/ (april 2011 redesign: https://bitcointalk.org/index.php?topic=4223.0)
+Mais c'est surtout la gestion du site web que Martti Malmi a besoin de déléguer. À la fin de l'année 2010 et au début de l'année 2011, le site rencontre [quelques](https://bitcointalk.org/index.php?topic=2026.msg25845#msg25845) [problèmes](https://bitcointalk.org/index.php?topic=3328.msg46775#msg46775). Le 28 mars, il [publie](https://bitcointalk.org/index.php?topic=5052.msg73922#msg73922) une annonce sur le forum demandant de l'aide technique et reçoit plusieurs réponses. "sf.net hosting" [8/6](https://bitcointalk.org/index.php?topic=13375.msg184002#msg184002)
 
-Martti Malmi ferme aussi progressivement sa plateforme d'échange, BitcoinExchange. Celle-ci est mise hors ligne à l'occasion d'un [changement de serveur](https://mmalmi.github.io/satoshi/#email-240) en décembre 2010. En janvier, il [prend](https://bitcointalk.org/index.php?topic=2179.msg37575#msg37575) la [décision](https://mmalmi.github.io/satoshi/#email-257) de ne pas la rouvrir. Début août, il [vendra](https://bitcointalk.org/index.php?topic=34357.msg427698#msg427698) le nom de domaine pour 250 bitcoins, soit 2 365 $ à ce moment-là. Le domaine redirigera vers Mt. Gox.
+En décembre 2010, le site web ressemble toujours à ce qu'il a été lors de l'ère Satoshi. Voici une [capture](https://web.archive.org/web/20101110005546/http://www.bitcoin.org/) du 5 décembre :
+
+![Capture de Bitcoin.org du 5 décembre 2010](assets/img/ch12/bitcoinorg-20101205.webp)
+
+En 2011, un touche de couleur est [ajoutée](https://web.archive.org/web/20110216125441/http://www.bitcoin.org/) :
+
+![Capture de Bitcoin.org du 16 février 2011](assets/img/ch12/bitcoinorg-20110216.webp)
+
+En avril, une refonte du site web est [réalisée](https://bitcointalk.org/index.php?topic=4223.0) \[par qui ?\]. Voici à quoi le site [ressemble](https://web.archive.org/web/20110411071904/http://www.bitcoin.org/) alors :
+
+![Capture de Bitcoin.org du 11 avril 2011](assets/img/ch12/bitcoinorg-20110411.webp)
+
+Enfin en septembre 2011, un nouveau changement est réalisé \[source?\]. Le modèle du site ne sera pas modifié avant l'année 2013. Le [voici](https://web.archive.org/web/20110923155001/http://bitcoin.org/) :
+
+![Capture de Bitcoin.org du 23 septembre 2011](assets/img/ch12/bitcoinorg-20110923.webp)
 
 Wiki. Migration du wiki de DokuWiki vers Mediawiki
 

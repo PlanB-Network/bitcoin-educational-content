@@ -1,4 +1,4 @@
-builder: Bitkit Wallet
+builder: Bitkit
 
 level: beginner
 
@@ -11,6 +11,6 @@ tags:
   - open-source
   - on-chain
 
-Credits:
-  Proffesor: casual-chaos
-  Link: https://help.bitkit.to
+credits:
+  professor: casual-chaos
+  link: https://help.bitkit.to

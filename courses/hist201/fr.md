@@ -1555,23 +1555,29 @@ Sous la supervision de Gavin Andresen, plusieurs versions du logiciel sont publi
 
 ### Le site, le forum et le wiki
 
-Martti Malmi, ayant réussi à trouver un emploi, se met en retrait. Il [vend](https://twitter.com/marttimalmi/status/1339908793736556544) alors une bonne partie de ses bitcoins pour s'acheter un confortable appartement près de Helsinki.
+Le développement logiciel n'est pas la seule chose qu'il faut gérer en l'absence de Satoshi. Il y a aussi les outils de communication que sont le site web, le forum et le wiki. Ces derniers sont en effet les « vitrines » du projet et la façon dont ils sont gérés est très importante.
 
-"Anyone interested in helping out with bitcoin.org?" [28/3](https://bitcointalk.org/index.php?topic=5052.msg73922#msg73922)
+Comme nous l'avons dit, lors de son départ, Satoshi transmet le contrôle du site à Martti Malmi, qui englobe alors le forum (accessible à l'adresse `www.bitcoin.org/smf/`) et le [wiki](https://web.archive.org/web/20110102000201/http://www.bitcoin.org/wiki/doku.php) (accessible à l'adresse `www.bitcoin.org/wiki/doku.php`). Toutefois, Martti a peu de temps à consacrer à cette tâche. À partir du printemps 2010, il est [occupé](https://mmalmi.github.io/satoshi/#email-191) par un stage puis par un emploi à plein temps, si bien qu'il se met progressivement en retrait, tant dans le développement du logiciel que la gestion du site.
 
-fermeture de bitcoinexchange, vente du nom de domaine : https://bitcointalk.org/index.php?topic=34357.msg427698#msg427698
+À la fin de l'année 2010 et au début de l'année 2011, le site rencontre [quelques](https://bitcointalk.org/index.php?topic=2026.msg25845#msg25845) [problèmes](https://bitcointalk.org/index.php?topic=3328.msg46775#msg46775). C'est pourquoi Martti cherche à déléguer la gestion du site web. Le 28 mars, il [publie](https://bitcointalk.org/index.php?topic=5052.msg73922#msg73922) une annonce sur le forum demandant de l'aide technique et reçoit plusieurs réponses. "sf.net hosting" [8/6](https://bitcointalk.org/index.php?topic=13375.msg184002#msg184002)
 
 Évolution du site. https://web.archive.org/web/20110216125441/http://www.bitcoin.org/ https://web.archive.org/web/20110411071904/http://www.bitcoin.org/ https://web.archive.org/web/20110923155001/http://bitcoin.org/ (april 2011 redesign: https://bitcointalk.org/index.php?topic=4223.0)
 
-[16/12](https://bitcointalk.org/index.php?topic=2321.msg30872#msg30872) Création d'un nouveau wiki par Mark Karpelès (MagicalTux) à l'adresse bitcoin.it
+Martti Malmi ferme aussi progressivement sa plateforme d'échange, bitcoinexchange.com. Celle-ci est mise hors ligne à l'occasion d'un [changement de serveur](https://mmalmi.github.io/satoshi/#email-240) en décembre 2010. En janvier, il [prend](https://bitcointalk.org/index.php?topic=2179.msg37575#msg37575) la [décision](https://mmalmi.github.io/satoshi/#email-257) de ne pas la rouvrir. Début août, il [vendra](https://bitcointalk.org/index.php?topic=34357.msg427698#msg427698) le nom de domaine pour 250 bitcoins, soit 2 365 $ à ce moment-là. Le domaine redirigera vers Mt. Gox.
 
-Migration du wiki de DokuWiki vers Mediawiki
+Wiki. Migration du wiki de DokuWiki vers Mediawiki
+
+[16/12](https://bitcointalk.org/index.php?topic=2321.msg30872#msg30872) Création d'un nouveau wiki par Mark Karpelès (MagicalTux) à l'adresse bitcoin.it [IRC](https://buildingbitcoin.org/bitcoin-dev/log-2010-12-16.html#l-2846)
+
+L'idée initiale est de [former](https://buildingbitcoin.org/bitcoin-dev/log-2010-12-16.html#l-2848) « un wiki moins formel et plus axé sur la communauté » (*original: "a less formal, more community-oriented wiki"*)
 
 [19/12](https://bitcointalk.org/index.php?topic=2321.msg30872#msg30872) "The wiki link at bitcoin.org now points to bitcoin.it."
 
 [31/1](https://bitcointalk.org/index.php?topic=293.msg42789#msg42789) sirius-m, "New wiki": https://bitcointalk.org/index.php?topic=293.msg42789#msg42789
 
 Forum. Mai 2011, `forum.bitcoin.org`. [17/5](https://bitcointalk.org/index.php?topic=8696.msg125944#msg125944). Août 2011 : `bitcointalk.org` (https://bitcointalk.org/index.php?topic=33393.msg417531#msg417531). [Transmission](https://bitcointalk.org/index.php?topic=5129680.msg50522659#msg50522659) de la position d'administrateur à theymos en 2012.
+
+Avec la hausse du cours, Martti Malmi [vendra](https://twitter.com/marttimalmi/status/1339908793736556544) alors une bonne partie de ses bitcoins pour s'acheter un confortable appartement près de Helsinki. Il [quittera](https://x.com/marttimalmi/status/1339908797968637952) son emploi pour passer quelques mois au Japon.
 
 ### Les conférences et rencontres (févr. -- août 2011)
 

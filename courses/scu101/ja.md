@@ -360,6 +360,8 @@ Have I Been Pwned (https://haveibeenpwned.com/) のウェブサイトを使用�
 ## 2FAでのセキュリティ強化
 <chapterId>09468ec1-95b7-56a4-a636-7618044568e1</chapterId>
 
+https://planb.network/tutorials/others/authy
+
 ![ビデオ](https://youtu.be/mNcAKRDmz5o)
 
 ## パスワードマネージャーの作成

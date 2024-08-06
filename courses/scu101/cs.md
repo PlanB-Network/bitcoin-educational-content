@@ -354,6 +354,8 @@ Všimněte si, že tento díl kurzu momentálně obsahuje pouze návody v franco
 ## Zabezpečení pomocí 2FA
 <chapterId>09468ec1-95b7-56a4-a636-7618044568e1</chapterId>
 
+https://planb.network/tutorials/others/authy
+
 ![video](https://youtu.be/mNcAKRDmz5o)
 
 ## Vytvoření správce hesel

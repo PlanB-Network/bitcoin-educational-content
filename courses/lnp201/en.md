@@ -291,7 +291,7 @@ Alice (90 SAT) ==== (40 SAT) Susie (50 SAT) ==== (240 SAT) Eden (110 SAT) ==== (
 
 ![cover](assets/Chapitre7/4.webp)
 
-However, in the initial state, Bob can't send 40 SAT to Alice because Susie doesn't have any liquidity with Alice to send 40 SAT, so payment isn't possible via this route. We therefore need another route where the transaction is impossible.
+However, in the initial state, Bob can't send 40 SAT to Alice because Susie doesn't have any liquidity with Alice to send 40 SAT, so payment isn't possible via this route. We therefore need another route where the transaction is possible.
 
 In the first example, it's clear that Susie and Eden have lost nothing and gained nothing. Lightning Network nodes charge a fee for agreeing to be used to route the transaction!
 
@@ -319,7 +319,7 @@ Therefore:
 
 - Fee 1: (paid by Alice to herself) 1 + (40,000\*0.000001)
 - Fee 2: 0 + 40,000 \* 0.0002 = 8 SAT
-- Charge 3: 1 + 40,000\* 0.000001 = 0.4 SAT
+- Charge 3: 1 + 40,000\* 0.000001 = 1.04 SAT
 
 ![cover](assets/Chapitre7/6.webp)
 

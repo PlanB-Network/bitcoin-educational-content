@@ -435,7 +435,7 @@ HTLC - это платежный контракт, который может б�
 
 ![cover](assets/chapitre10/0.webp)
 
-Счет-фактура LN (или счет) длинный и его неприятно читать, но он позволяет плотно представить запрос на платеж.
+Счет-фактура LN (или счет) длинный и читать его сложно, но он позволяет компактно представить запрос на платеж.
 
 Пример:
 lnbc1m1pskuawzpp5qeuuva2txazy5g483tuv9pznn9ft8l5e49s5dndj2pqq0ptyn8msdqqcqzpgxqrrsssp5v4s00u579atm0em6eqm9nr7d0vr64z5j2sm5s33x3r9m4lgfdueq9qyyssqxkjzzgx5ef7ez3dks0laxayx4grrw7j22ppgzyhpydtv6hmc39skf9hjxn5yd3kvv7zpjdxd2s7crcnemh2fz26mnr6zu83w0a2fwxcqnvujl3
@@ -453,9 +453,11 @@ lnbc1m1pskuawzpp5qeuuva2txazy5g483tuv9pznn9ft8l5e49s5dndj2pqq0ptyn8msdqqcqzpgxqr
 - ln = Lightning
 - Bc = bitcoin (основная сеть)
 - 1 = сумма
-- M = милли (10^-3 / u = микро 10^-6 / n = нано 10^-9 / p = пико 10^-12'
-  Здесь 1m = 1 * 0.0001btc = 100,000 BTC
+- m = милли $10^{-3}$ / u = микро $10^{-6}$ / n = нано $10^{-9}$ / p = пико $10^{-12}$
+  
+  Здесь 1m = 1 * 0.001btc = 100,000 SAT
 Пожалуйста, переведите 100 000 SAT в сети Lightning основной сети Bitcoin на pskuawzpp5qeuuva2txazy5g483tuv9pznn9ft8l5e49s5dndj2pqq0ptyn8msdqqcqzpgxqrrsssp5v4s00u579atm0em6eqm9nr7d0vr64z5j2sm5s33x3r9m4lgfdueq9qyyssqxkjzzgx5ef7ez3dks0laxayx4grrw7j22ppgzyhpydtv6hmc39skf9hjxn5yd3kvv7zpjdxd2s7crcnemh2fz26mnr6zu83w0a2fwxcqnvujl3
+
 ### Временная метка (когда была создана)
 
 Она содержит 0 или более дополнительных частей:

@@ -1135,7 +1135,7 @@ Cependant, ce succès s'est accompagné d'ennuis techniques. Une plus grande pop
 
 L'afflux d'utilisateurs provenant de Slashdot impose aussi d'améliorer le logiciel. Des vulnérabilités trouvées doivent être corrigées et des nouveautés doivent être intégrées. Satoshi est ainsi mis sous pression, et il [confie](https://mmalmi.github.io/satoshi/#email-210) à Martti Malmi en privé le 18 juillet qu'il « perd la tête tellement il y a de choses à faire ». (*original: "I'm losing my mind there are so many things that need to be done."*) En l'espace de deux mois, ce ne sont pas moins de 8 sous-versions du logiciel qui sont ainsi publiées.
 
-Toutefois, le créateur de Bitcoin n'est pas seul. Il peut compter sur Gavin Andresen, arrivé en juin, qui est de plus en plus impliqué dans le développement (ce dernier est [crédité](https://sourceforge.net/p/bitcoin/code/101/) sur SourceForge dès le 9 juillet). Il y a aussi les personnes qui sont curieuses de la façon dont fonctionne le système et qui signalent lorsqu'elles rencontrent un problème, à l'instar de Christian Decker (cdecker) ou de Michael Marquardt (theymos). Satoshi est également épaulé par les mineurs, qui modifient le code pour trouver des moyens d'optimiser la génération d'unités, comme ArtForz (la première personne à mettre en place une ferme de minage, comme nous le verrons dans le prochain chapitre), Nils Schneider (tcatm), Michael Brown (knightmb) ou BlackEye.
+Toutefois, le créateur de Bitcoin n'est pas seul. Il peut compter sur Gavin Andresen, arrivé en juin, qui est de plus en plus impliqué dans le développement (ce dernier est [crédité](https://sourceforge.net/p/bitcoin/code/101/) sur SourceForge dès le 9 juillet). Il y a aussi les personnes qui sont curieuses de la façon dont fonctionne le système et qui signalent lorsqu'elles rencontrent un problème, à l'instar de Christian Decker (cdecker) ou de Michael Marquardt (theymos). Satoshi est également épaulé par les mineurs, qui modifient le code pour trouver des moyens d'optimiser la génération d'unités, comme ArtForz (la première personne à mettre en place une ferme de minage, comme nous le verrons dans le prochain chapitre), le développeur allemand Nils Schneider (tcatm), Michael Brown (knightmb) ou BlackEye.
 
 On peut enfin citer Jeff Garzik (utilisant le pseudonyme jgarzik sur le forum), qui est un développeur américain, contributeur dans le monde du logiciel libre, notamment pour la distribution Red Hat, et libertarien adepte de l'école autrichienne d'économie. Il découvre Bitcoin avec l'article publié sur Slashdot et s'investit presque immédiatement dans Bitcoin.
 
@@ -1557,7 +1557,7 @@ Sous la supervision de Gavin Andresen, plusieurs versions du logiciel sont publi
 
 Le développement logiciel n'est pas la seule chose qu'il faut gérer en l'absence de Satoshi. Il y a aussi les outils de communication que sont le site web, le forum et le wiki. Ces derniers sont en effet les « vitrines » du projet et la façon dont ils sont gérés est très importante.
 
-Comme nous l'avons dit, lors de son départ, Satoshi transmet le contrôle du site à Martti Malmi, qui englobe alors le forum (accessible à l'adresse `www.bitcoin.org/smf/`) et le [wiki](https://web.archive.org/web/20110102000201/http://www.bitcoin.org/wiki/doku.php) (accessible à l'adresse `www.bitcoin.org/wiki/doku.php`). Toutefois, Martti a peu de temps à consacrer à cette tâche. À partir du printemps 2010, il est [occupé](https://mmalmi.github.io/satoshi/#email-191) par un stage puis par un emploi à plein temps, si bien qu'il se met progressivement en retrait.
+Comme nous l'avons dit, lors de son départ, Satoshi transmet le contrôle du site à Martti Malmi, qui englobe alors le forum (accessible à l'adresse `bitcoin.org/smf`) et le [wiki](https://web.archive.org/web/20110102000201/http://www.bitcoin.org/wiki/doku.php) (accessible à l'adresse `bitcoin.org/wiki`). Toutefois, Martti a peu de temps à consacrer à cette tâche. À partir du printemps 2010, il est [occupé](https://mmalmi.github.io/satoshi/#email-191) par un stage puis par un emploi à plein temps, si bien qu'il se met progressivement en retrait.
 
 Faute de temps, Martti Malmi est contraint de fermer progressivement sa plateforme d'échange, BitcoinExchange. Celle-ci est mise hors ligne à l'occasion d'un [changement de serveur](https://mmalmi.github.io/satoshi/#email-240) en décembre 2010. En janvier, il [prend](https://bitcointalk.org/index.php?topic=2179.msg37575#msg37575) la [décision](https://mmalmi.github.io/satoshi/#email-257) de ne pas la rouvrir. Début août, il [vendra](https://bitcointalk.org/index.php?topic=34357.msg427698#msg427698) le nom de domaine pour 250 bitcoins, soit 2 365 $ à ce moment-là. Le domaine redirigera vers Mt. Gox.
 
@@ -1571,25 +1571,23 @@ En 2011, un touche de couleur est [ajoutée](https://web.archive.org/web/2011021
 
 ![Capture de Bitcoin.org du 16 février 2011](assets/img/ch12/bitcoinorg-20110216.webp)
 
-En avril, une refonte du site web est [réalisée](https://bitcointalk.org/index.php?topic=4223.0) \[par qui ?\]. Voici à quoi le site [ressemble](https://web.archive.org/web/20110411071904/http://www.bitcoin.org/) alors :
+En avril, suite à une refonte [organisée](https://bitcointalk.org/index.php?topic=4223.msg80581#msg80581) par la commaunauté, le site web change d'aspect. Voici à quoi il [ressemble](https://web.archive.org/web/20110411071904/http://www.bitcoin.org/) alors :
 
 ![Capture de Bitcoin.org du 11 avril 2011](assets/img/ch12/bitcoinorg-20110411.webp)
 
-Enfin en septembre 2011, un nouveau changement est réalisé \[source?\]. Le modèle du site ne sera pas modifié avant l'année 2013. Le [voici](https://web.archive.org/web/20110923155001/http://bitcoin.org/) :
+Enfin en septembre 2011, un nouveau changement est [réalisé](https://buildingbitcoin.org/bitcoin-dev/log-2011-08-31.html#l-691) par Nils Schneider. Un nouveau dépôt GitHub est [créé](https://github.com/bitcoin/bitcoin.org) pour l'occasion. Ce modèle durera plus longtemps : il ne sera pas modifié avant l'année 2013. Le [voici](https://web.archive.org/web/20110923155001/http://bitcoin.org/) :
 
 ![Capture de Bitcoin.org du 23 septembre 2011](assets/img/ch12/bitcoinorg-20110923.webp)
 
-Wiki. Migration du wiki de DokuWiki vers Mediawiki
+Pour ce qui est du wiki, celui-ci est initialement basé sur DokuWiki, un moteur libre et intégré au site web. Toutefois, en décembre, Mark Karpelès, un développeur français habitant au Japon et utilisant le pseudonyme MagicalTux sur le forum, crée un nouveau wiki, à l'adresse `bitcoin.it`. Ce wiki est basé sur le moteur MediaWiki, et il le juge plus élégant et plus facile à reproduire. L'idée au début n'est pas de remplacer la documentation existante, mais, comme il l'[exprime](https://buildingbitcoin.org/bitcoin-dev/log-2010-12-16.html#l-2848) sur IRC, de développer « un wiki moins formel et plus axé sur la communauté ». (*original: "a less formal, more community-oriented wiki"*)
 
-[16/12](https://bitcointalk.org/index.php?topic=2321.msg30872#msg30872) Création d'un nouveau wiki par Mark Karpelès (MagicalTux) à l'adresse bitcoin.it [IRC](https://buildingbitcoin.org/bitcoin-dev/log-2010-12-16.html#l-2846)
+Ce nouveau wiki séduit [Martti Malmi](https://bitcointalk.org/index.php?topic=2321.msg30873#msg30873) et [Gavin Andresen](https://bitcointalk.org/index.php?topic=2321.msg31535#msg31535), de sorte qu'ils envisagent rapidement d'en faire le wiki principal. En voici une [capture](https://web.archive.org/web/20110521044430/https://en.bitcoin.it/wiki/Main_Page), réalisée le 21 mai :
 
-L'idée initiale est de [former](https://buildingbitcoin.org/bitcoin-dev/log-2010-12-16.html#l-2848) « un wiki moins formel et plus axé sur la communauté » (*original: "a less formal, more community-oriented wiki"*)
+![Capture du wiki Bitcoin.it du 21 mai 2011](assets/img/ch12/bitcoinit-20110521.webp)
 
-[19/12](https://bitcointalk.org/index.php?topic=2321.msg30872#msg30872) "The wiki link at bitcoin.org now points to bitcoin.it."
+Quelques jours après le lancement, le lien intitulé « wiki » présent sur la page de garde de Bitcoin.org [pointe](https://bitcointalk.org/index.php?topic=2321.msg30872#msg30872) vers `bitcoin.it`. Le contenu est progressivement rapatrié depuis la version DokuWiki. Le 31 janvier, Martti Malmi [indique](https://bitcointalk.org/index.php?topic=293.msg42789#msg42789) sur le forum qu'il s'agit du nouveau wiki.
 
-[31/1](https://bitcointalk.org/index.php?topic=293.msg42789#msg42789) sirius-m, "New wiki": https://bitcointalk.org/index.php?topic=293.msg42789#msg42789
-
-Forum. Mai 2011, `forum.bitcoin.org`. [17/5](https://bitcointalk.org/index.php?topic=8696.msg125944#msg125944). Août 2011 : `bitcointalk.org` (https://bitcointalk.org/index.php?topic=33393.msg417531#msg417531). [Transmission](https://bitcointalk.org/index.php?topic=5129680.msg50522659#msg50522659) de la position d'administrateur à theymos en 2012.
+Le troisième élément est le forum de Bitcoin. Celui-ci, qui utilise Simple Machines Forum, ne changera pas de moteur ni d'apparence au fil des années. Toutefois, son URL est modifiée à deux reprises. Mai 2011, `forum.bitcoin.org`. [17/5](https://bitcointalk.org/index.php?topic=8696.msg125944#msg125944). Août 2011 : `bitcointalk.org` (https://bitcointalk.org/index.php?topic=33393.msg417531#msg417531). [Transmission](https://bitcointalk.org/index.php?topic=5129680.msg50522659#msg50522659) de la position d'administrateur à theymos en 2012.
 
 Avec la hausse du cours, Martti Malmi [vendra](https://twitter.com/marttimalmi/status/1339908793736556544) alors une bonne partie de ses bitcoins pour s'acheter un confortable appartement près de Helsinki. Il [quittera](https://x.com/marttimalmi/status/1339908797968637952) son emploi pour passer quelques mois au Japon.
 

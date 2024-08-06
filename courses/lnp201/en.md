@@ -490,7 +490,7 @@ lnbc1m1pskuawzpp5qeuuva2txazy5g483tuv9pznn9ft8l5e49s5dndj2pqq0ptyn8msdqqcqzpgxqr
 - Bc = bitcoin (mainnet)
 - 1 = amount
 - M = milli (10*-3 / u = micro 10*-6 / n = nano 10*-9 / p = pico 10*-12'
-  Here 1m = 1 \* 0.0001btc = 100,000 BTC
+  Here 1m = 1 \* 0.001btc = 100,000 SAT
   "Please pay 100,000 SAT on the Lightning network of the Bitcoin mainnet to pskuawzpp5qeuuva2txazy5g483tuv9pznn9ft8l5e49s5dndj2pqq0ptyn8msdqqcqzpgxqrrsssp5v4s00u579atm0em6eqm9nr7d0vr64z5j2sm5s33x3r9m4lgfdueq9qyyssqxkjzzgx5ef7ez3dks0laxayx4grrw7j22ppgzyhpydtv6hmc39skf9hjxn5yd3kvv7zpjdxd2s7crcnemh2fz26mnr6zu83w0a2fwxcqnvujl3"
 
 ### Timestamp (when it was created)

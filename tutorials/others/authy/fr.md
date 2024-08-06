@@ -20,12 +20,12 @@ Authy offre toutefois plusieurs avantages par rapport aux autres solutions des g
 
 ## Comment installer Authy ?
 
-Sur votre smartphone, rendez-vous sur le magasin d'application (Google Play Store ou Apple Store), et recherchez "Twilio Authy Authenticator".
+Sur votre smartphone, rendez-vous sur le magasin d'application (Google Play Store ou Apple Store), et recherchez "*Twilio Authy Authenticator*".
 
 - [Apple](https://apps.apple.com/us/app/twilio-authy/id494168017)
 - [Android](https://play.google.com/store/apps/details?id=com.authy.authy)
 ![AUTHY 2FA](assets/notext/02.webp)
-Lors du premier lancement de l'application, vous devrez créer un compte. Sélectionnez l'indicatif téléphonique de votre pays, ainsi que votre numéro de téléphone, puis cliquez sur "Submit".
+Lors du premier lancement de l'application, vous devrez créer un compte. Sélectionnez l'indicatif téléphonique de votre pays, ainsi que votre numéro de téléphone, puis cliquez sur "*Submit*".
 ![AUTHY 2FA](assets/notext/03.webp)
 Entrez votre adresse email pour la récupération de vos codes.
 ![AUTHY 2FA](assets/notext/04.webp)
@@ -39,13 +39,13 @@ Félicitations, votre compte Authy a été créé !
 
 Pour commencer, rendez-vous dans les paramètres de l'application en cliquant sur les trois petits points situés en haut à droite de l'écran.
 ![AUTHY 2FA](assets/notext/08.webp)
-Puis cliquez sur "Settings".
+Puis cliquez sur "*Settings*".
 ![AUTHY 2FA](assets/notext/09.webp)
-Dans l'onglet "My Account", vous avez la possibilité de modifier votre compte. Je vous recommande d'ajouter un code PIN à l'application en sélectionnant "App Protection". Cela permet d'ajouter une couche supplémentaire de sécurité pour accéder à votre application.
+Dans l'onglet "*My Account*", vous avez la possibilité de modifier votre compte. Je vous recommande d'ajouter un code PIN à l'application en sélectionnant "*App Protection*". Cela permet d'ajouter une couche supplémentaire de sécurité pour accéder à votre application.
 ![AUTHY 2FA](assets/notext/10.webp)
-Dans l'onglet "Accounts", vous pouvez configurer une sauvegarde pour vos tokens. Cette sauvegarde permet la récupération de vos codes en cas de problème. Elle est chiffrée en utilisant un mot de passe que vous devez définir. Il est important que ce mot de passe soit fort et conservé dans un endroit sûr. La mise en place de cette sauvegarde n'est pas forcément obligatoire si vous disposez d'autres méthodes de récupération, comme un second appareil avec le même compte Authy par exemple.
+Dans l'onglet "*Accounts*", vous pouvez configurer une sauvegarde pour vos tokens. Cette sauvegarde permet la récupération de vos codes en cas de problème. Elle est chiffrée en utilisant un mot de passe que vous devez définir. Il est important que ce mot de passe soit fort et conservé dans un endroit sûr. La mise en place de cette sauvegarde n'est pas forcément obligatoire si vous disposez d'autres méthodes de récupération, comme un second appareil avec le même compte Authy par exemple.
 ![AUTHY 2FA](assets/notext/11.webp)
-Dans l'onglet "Devices", vous pouvez voir tous les appareils synchronisés avec votre compte Authy. Vous avez la possibilité de désactiver l'usage de plusieurs appareils, ce qui restreint l'accès à votre compte à cet appareil uniquement. Si vous n'utilisez qu'un seul appareil, cela permet d'augmenter la sécurité de votre compte, mais assurez-vous d'avoir une autre méthode de sauvegarde en cas de perte de cet appareil.
+Dans l'onglet "*Devices*", vous pouvez voir tous les appareils synchronisés avec votre compte Authy. Vous avez la possibilité de désactiver l'usage de plusieurs appareils, ce qui restreint l'accès à votre compte à cet appareil uniquement. Si vous n'utilisez qu'un seul appareil, cela permet d'augmenter la sécurité de votre compte, mais assurez-vous d'avoir une autre méthode de sauvegarde en cas de perte de cet appareil.
 
 Si vous préférez permettre l'ajout d'autres appareils, je vous conseille d'activer l'option qui requiert une confirmation depuis les appareils actuellement autorisés sur votre compte Authy avant d'ajouter un nouvel appareil.
 ![AUTHY 2FA](assets/notext/12.webp)
@@ -55,15 +55,15 @@ Pour ajouter un nouvel appareil, répétez simplement le processus d'installatio
 
 Pour mettre en place un code d'authentification 2FA via une application comme Authy sur un compte, celui-ci doit supporter cette fonctionnalité. De nos jours, la majorité des services en ligne proposent cette option de 2FA, mais ce n'est pas toujours le cas. Prenons l'exemple de la boîte mail Proton que j'ai présentée dans [un autre tutoriel](https://planb.network/tutorials/others/proton-mail).
 ![AUTHY 2FA](assets/notext/13.webp)
-Vous trouverez généralement cette option de 2FA dans les paramètres de votre compte, souvent sous la section "Password" ou "Security".
+Vous trouverez généralement cette option de 2FA dans les paramètres de votre compte, souvent sous la section "*Password*" ou "*Security*".
 ![AUTHY 2FA](assets/notext/14.webp)
 Lorsque vous activez cette option sur votre boîte mail Proton, un QR code vous est présenté. Vous devez alors scanner ce QR code avec votre application Authy.
 ![AUTHY 2FA](assets/notext/15.webp)
-Sur Authy, cliquez le bouton "+".
+Sur Authy, cliquez le bouton "*+*".
 ![AUTHY 2FA](assets/notext/16.webp)
-Cliquez sur "Scan QR Code". Puis scannez le QR code sur le site web.
+Cliquez sur "*Scan QR Code*". Puis scannez le QR code sur le site web.
 ![AUTHY 2FA](assets/notext/17.webp)
-Vous avez également la possibilité d'ajuster votre nom d'utilisateur si nécessaire. Après modification, cliquez sur le bouton "SAVE".
+Vous avez également la possibilité d'ajuster votre nom d'utilisateur si nécessaire. Après modification, cliquez sur le bouton "*SAVE*".
 ![AUTHY 2FA](assets/notext/18.webp)
 Authy vous affichera alors votre code dynamique à 6 chiffres spécifique à ce compte qui se renouvelle toutes les 30 secondes.
 ![AUTHY 2FA](assets/notext/19.webp)
@@ -75,6 +75,6 @@ Votre compte est maintenant sécurisé avec une double authentification via l'ap
 ![AUTHY 2FA](assets/notext/22.webp)
 À chaque nouvelle connexion sur le compte, vous devrez fournir le code dynamique généré par Authy. Vous pouvez maintenant sécuriser tous vos comptes compatibles avec cette méthode de 2FA. Pour ajouter un nouveau compte sur Authy, cliquez sur les trois petits points en haut à droite de l'application.
 ![AUTHY 2FA](assets/notext/23.webp)
-Puis de cliquer sur "Add Account".
+Puis de cliquer sur "*Add Account*".
 ![AUTHY 2FA](assets/notext/24.webp)
 Suivez ensuite les mêmes étapes que celles utilisées pour le premier compte. Vos différents codes dynamiques seront visibles sur la page d'accueil de Authy.

@@ -53,7 +53,9 @@ Pour ajouter un nouvel appareil, répétez simplement le processus d'installatio
 
 ## Comment mettre en place le 2FA sur un compte ?
 
-Pour mettre en place un code d'authentification 2FA via une application comme Authy sur un compte, celui-ci doit supporter cette fonctionnalité. De nos jours, la majorité des services en ligne proposent cette option de 2FA, mais ce n'est pas toujours le cas. Prenons l'exemple de la boîte mail Proton que j'ai présentée dans [un autre tutoriel](https://planb.network/tutorials/others/proton-mail).
+Pour mettre en place un code d'authentification 2FA via une application comme Authy sur un compte, celui-ci doit supporter cette fonctionnalité. De nos jours, la majorité des services en ligne proposent cette option de 2FA, mais ce n'est pas toujours le cas. Prenons l'exemple de la boîte mail Proton que j'ai présentée dans un autre tutoriel :
+
+https://planb.network/tutorials/others/proton-mail
 ![AUTHY 2FA](assets/notext/13.webp)
 Vous trouverez généralement cette option de 2FA dans les paramètres de votre compte, souvent sous la section "*Password*" ou "*Security*".
 ![AUTHY 2FA](assets/notext/14.webp)

@@ -721,7 +721,7 @@ ID транзакции для анализа:
 ![BTC204](assets/notext/35/1.webp)
 
 ```plaintext
-bc1qja0hycrv7g9ww00jcqanhfpqmzx7luqal3um3vu
+bc1qja0hycrv7g9ww00jcqanhfpqmzx7luqalum3vu
 ```
 
 Используя **только эвристику повторного использования адресов**, какие транзакции Bitcoin мы можем ассоциировать с личностью Лоика?

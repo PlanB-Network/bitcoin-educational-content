@@ -718,7 +718,7 @@ Imagine that Loïc posted one of his Bitcoin receiving addresses on the social n
 ![BTC204](assets/notext/35/1.webp)
 
 ```plaintext
-bc1qja0hycrv7g9ww00jcqanhfpqmzx7luqal3um3vu
+bc1qja0hycrv7g9ww00jcqanhfpqmzx7luqalum3vu
 ```
 
 Using **only the address reuse heuristic**, which Bitcoin transactions can we associate with Loïc's identity?

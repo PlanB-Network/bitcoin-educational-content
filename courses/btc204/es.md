@@ -708,7 +708,7 @@ Imagina que Loïc publicó una de sus direcciones de recepción de Bitcoin en la
 ![BTC204](assets/notext/35/1.webp)
 
 ```plaintext
-bc1qja0hycrv7g9ww00jcqanhfpqmzx7luqal3um3vu
+bc1qja0hycrv7g9ww00jcqanhfpqmzx7luqalum3vu
 ```
 
 Usando **solo la heurística de reutilización de direcciones**, ¿con qué transacciones de Bitcoin podemos asociar la identidad de Loïc?

@@ -716,7 +716,7 @@ Kuvittele, että Loïc julkaisi yhden Bitcoin-vastaanotto-osoitteistaan sosiaali
 ![BTC204](assets/notext/35/1.webp)
 
 ```plaintext
-bc1qja0hycrv7g9ww00jcqanhfpqmzx7luqal3um3vu
+bc1qja0hycrv7g9ww00jcqanhfpqmzx7luqalum3vu
 ```
 
 Käyttäen **vain osoitteen uudelleenkäyttöheuristiikkaa**, mitkä Bitcoin-siirrot voimme yhdistää Loïcin henkilöllisyyteen?

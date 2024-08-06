@@ -689,7 +689,7 @@ Hãy tưởng tượng rằng Loïc đã đăng một trong những địa chỉ
 ![BTC204](assets/notext/35/1.webp)
 
 ```plaintext
-bc1qja0hycrv7g9ww00jcqanhfpqmzx7luqal3um3vu
+bc1qja0hycrv7g9ww00jcqanhfpqmzx7luqalum3vu
 ```
 
 Chỉ sử dụng **heuristic tái sử dụng địa chỉ**, chúng ta có thể liên kết những giao dịch Bitcoin nào với danh tính của Loïc?

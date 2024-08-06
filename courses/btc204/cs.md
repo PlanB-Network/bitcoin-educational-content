@@ -684,7 +684,7 @@ Představte si, že Loïc zveřejnil jednu ze svých Bitcoinových přijímacíc
 ![BTC204](assets/notext/35/1.webp)
 
 ```plaintext
-bc1qja0hycrv7g9ww00jcqanhfpqmzx7luqal3um3vu
+bc1qja0hycrv7g9ww00jcqanhfpqmzx7luqalum3vu
 ```
 
 Použijte **pouze heuristiku opakovaného použití adresy**, které Bitcoinové transakce můžeme spojit s Loïcovou identitou?

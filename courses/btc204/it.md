@@ -667,7 +667,7 @@ Immagina che Loïc abbia pubblicato uno dei suoi indirizzi Bitcoin per ricevere 
 ![BTC204](assets/notext/35/1.webp)
 
 ```plaintext
-bc1qja0hycrv7g9ww00jcqanhfpqmzx7luqal3um3vu
+bc1qja0hycrv7g9ww00jcqanhfpqmzx7luqalum3vu
 ```
 
 Utilizzando **solo l'euristica del riutilizzo degli indirizzi**, quali transazioni Bitcoin possiamo associare all'identità di Loïc?

@@ -679,7 +679,7 @@ baa228f6859ca63e6b8eea24ffad7e871713749d693ebd85343859173b8d5c20
 ![BTC204](assets/notext/35/1.webp)
 
 ```plaintext
-bc1qja0hycrv7g9ww00jcqanhfpqmzx7luqal3um3vu
+bc1qja0hycrv7g9ww00jcqanhfpqmzx7luqalum3vu
 ```
 
 **アドレス再利用ヒューリスティックのみを使用して**、どのビットコイントランザクションをLoïcのアイデンティティに関連付けることができますか？

@@ -695,7 +695,7 @@ Stellen Sie sich vor, Loïc hat eine seiner Bitcoin-Empfangsadressen im sozialen
 ![BTC204](assets/notext/35/1.webp)
 
 ```plaintext
-bc1qja0hycrv7g9ww00jcqanhfpqmzx7luqal3um3vu
+bc1qja0hycrv7g9ww00jcqanhfpqmzx7luqalum3vu
 ```
 
 Unter Verwendung **nur der Heuristik der Adresswiederverwendung**, welche Bitcoin-Transaktionen können wir mit Loïcs Identität in Verbindung bringen?

@@ -701,7 +701,7 @@ Imagine que Loïc postou um de seus endereços de recebimento de Bitcoin na rede
 ![BTC204](assets/notext/35/1.webp)
 
 ```plaintext
-bc1qja0hycrv7g9ww00jcqanhfpqmzx7luqal3um3vu
+bc1qja0hycrv7g9ww00jcqanhfpqmzx7luqalum3vu
 ```
 
 Usando **apenas a heurística de reutilização de endereço**, quais transações Bitcoin podemos associar à identidade de Loïc?

@@ -23,10 +23,15 @@ Authy offre toutefois plusieurs avantages par rapport aux autres solutions des g
 ## Comment installer et configurer Authy ?
 
 Sur votre appareil mobile, rendez-vous sur le magasin d'application (Google Play Store ou Apple Store), et recherchez "Twilio Authy Authenticator".
+<<<<<<< Updated upstream
 
 02
 
 
+=======
+- [Apple](https://apps.apple.com/us/app/twilio-authy/id494168017)
+- [Android](https://play.google.com/store/apps/details?id=com.authy.authy)
+>>>>>>> Stashed changes
 
 
 

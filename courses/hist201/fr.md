@@ -1575,7 +1575,7 @@ En avril, suite à une refonte [organisée](https://bitcointalk.org/index.php?to
 
 ![Capture de Bitcoin.org du 11 avril 2011](assets/img/ch12/bitcoinorg-20110411.webp)
 
-Enfin en septembre 2011, un nouveau changement est [réalisé](https://buildingbitcoin.org/bitcoin-dev/log-2011-08-31.html#l-691) par Nils Schneider. Un nouveau dépôt GitHub est [créé](https://github.com/bitcoin/bitcoin.org) pour l'occasion. Ce modèle durera plus longtemps : il ne sera pas modifié avant l'année 2013. Le [voici](https://web.archive.org/web/20110923155001/http://bitcoin.org/) :
+Enfin en septembre 2011, un nouveau changement est [réalisé](https://buildingbitcoin.org/bitcoin-dev/log-2011-08-31.html#l-691) par Nils Schneider. Un nouveau dépôt GitHub est [créé](https://github.com/bitcoin/bitcoin.org) pour l'occasion. Ce modèle durera plus longtemps : il ne sera pas modifié avant l'année 2013. Le [voici](https://web.archive.org/web/20110923155001/http://bitcoin.org/) (notons que Bitcoin-le-logiciel est alors décrit comme « un projet open source piloté par la communauté » (*original: "a community-driven open source project"*)) :
 
 ![Capture de Bitcoin.org du 23 septembre 2011](assets/img/ch12/bitcoinorg-20110923.webp)
 
@@ -1659,14 +1659,14 @@ Ce mouvement spéculatif a cependant pour effet de pousser la presse généralis
 
 ### Conclusion générale à propos de la création de Bitcoin
 
-Ainsi, durant la première moitié de l'année 2011, le projet a pu grandir sans la présence de son fondateur Satoshi Nakamoto. Ce moment a marqué le début de Bitcoin en tant que projet purement communautaire et a clos la période de la création de Bitcoin, qui s'est étalée sur 4 années (2007 -- 2011).
+Ainsi, durant la première moitié de l'année 2011, le projet a pu grandir sans la présence de son fondateur Satoshi Nakamoto. Ce moment a marqué le début de Bitcoin en tant que projet purement communautaire et a clos la période de la création de Bitcoin, qui s'est étalée sur 4 années, de 2007 à 2011. De cet évènement, nous pouvons retenir un certain nombre de choses.
 
-Bitcoin n'est pas sorti de nulle part. ...
+Premièrement, Bitcoin n'est pas sorti de nulle part. En tant qu'argent liquide évoluant dans le cyberespace, il est le fruit de décennies de recherches et d'expérimentations qui ont mené à sa création. Il a notamment été précédé par le modèle eCash de David Chaum, par les monnaies privées comme e-gold et par les concepts des cypherpunks. La présence de Hal Finney lors de l'apparition de Bitcoin et lors de la disparition de Satoshi était donc très symbolique : en tant qu'individu qui avait assisté aux premières expériences de monnaie numérique dans les années 90 et qui avait cherché à créer son modèle en 2004 avec RPOW, il représentait la continuité dans la quête qui a abouti à Bitcoin.
 
-Bitcoin ne s'est pas fait en un jour. Même après la publication de la version 0.1 du logiciel en janvier 2009, le projet était loin d'être prêt. De nombreuses vulnérabilités ont dû être corrigées. Celles-ci n'ont mené qu'à un seul incident mais ça aurait pu être pire.
+Deuxièmement, Bitcoin ne s'est pas fait en un jour. Même après la publication de la version 0.1 du logiciel en janvier 2009, le projet était loin d'être prêt. De nombreuses vulnérabilités ont dû être corrigées. L'une d'entre elles a créé un incident majeur en août 2010, lorsque le réseau a été paralysé pendant une quinzaine d'heures, mais le pire a été évité. Même après le départ de Satoshi, le logiciel a dû continuer à être amélioré par la communauté.
 
-Bitcoin a grandi de manière organique. Il a pu se développer dans la discrétion, attirant des gens peu à peu. Pendant près d'un an et demi, il s'agissait d'un projet très confidentiel, connu par des personnes réellement passionnées. Ce n'est qu'après le slasdotting de juillet 2010 qu'il a commencé à exploser.
+Troisièmememnt, Bitcoin a grandi de manière organique. Il a pu se développer dans la discrétion, attirant les gens peu à peu. Pendant près d'un an et demi, il s'agissait d'un projet très confidentiel, connu des passionnés et des curieux. Ce n'est qu'après le slashdotting de juillet 2010 qu'il a commencé à exploser. La folie spéculative à son sujet ne s'est réellement installée qu'à partir de 2011, lorsque le prix a augmenté de façon exponentielle jusqu'à 32 $.
 
-Bitcoin a été une création altruiste. Satoshi Nakamoto a offert Bitcoin au monde. Il a publié le programme sous licence libre. Il n'a recherché ni la gloire, ni le profit, ni le pouvoir. Il a assuré la sécurité minière du réseau pendant plus d'un an. Même s'il a accumulé plus d'un million de bitcoins, il ne les a jamais dépensés. Il a enfin disparu, principalement par crainte liée à l'attention créée par l'affaire WikiLeaks, laissant dans le même temps le projet devenir réellement communautaire, sans figure unique dominante.
+Quatrièmement, Bitcoin a été une création altruiste. Satoshi Nakamoto a offert Bitcoin au monde. Il a publié le programme sous licence libre. Il n'a recherché ni la gloire, ni le profit, ni le pouvoir. Il a assuré la sécurité minière du réseau pendant plus d'un an. Même s'il a accumulé plus d'un million de bitcoins, il ne les a jamais dépensés. Il a enfin disparu, principalement par crainte liée à l'attention créée par l'affaire WikiLeaks, laissant dans le même temps le projet devenir réellement communautaire, sans figure unique dominante.
 
-En 2011, Satoshi a disparu, mais la communauté a su prendre le relai. Le développement logiciel s'est organisé. La communauté a su s'entendre par le biais de réunions diverses et variées. Et le projet a pris, tant médiatiquement qu'économiquement. La machine était lancée.
+En 2011, Satoshi a disparu, mais la communauté a su prendre le relai. Le développement logiciel s'est organisé. La communauté a su s'entendre par le biais de réunions diverses. Et le projet a pris son essor, tant médiatiquement qu'économiquement. La machine était lancée.

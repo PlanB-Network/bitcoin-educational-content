@@ -12,3 +12,22 @@ level: beginner
 
 credits:
   professor: pretty-private
+
+# Proofreading metadata
+original:
+translation_review:
+  - en
+      - last_reviewed: 
+      - next_review_urgency: 
+      - reviewer_id: 
+      - reward: 
+  - fr
+      - last_reviewed: 
+      - next_review_urgency: 
+      - reviewer_id: 
+      - reward: 
+  - ru
+      - last_reviewed: 
+      - next_review_urgency: 
+      - reviewer_id: 
+      - reward: 

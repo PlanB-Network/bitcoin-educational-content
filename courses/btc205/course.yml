@@ -9,3 +9,12 @@ professors:
 
 contributors:
   - another-satoshi
+
+# Proofreading metadata
+original:
+translation_review:
+  - fr
+      - last_reviewed: 
+      - next_review_urgency: 
+      - reviewer_id: 
+      - reward: 

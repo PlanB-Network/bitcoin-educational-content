@@ -121,7 +121,7 @@ Per Bastiat, l'economia degli scambi, cioè dei servizi reciproci liberamente of
 Ma da Jean-Baptiste Say, Frédéric Bastiat eredita anche un concetto chiave, quello del saccheggio. Perché, dice, facendo eco alle parole di Say:
 
 > Ci sono solo due modi per acquisire le cose necessarie per la conservazione, l'abbellimento e il miglioramento della vita: la produzione e il saccheggio.
-I produttori ricorrono alla persuasione, alla negoziazione e al contratto, mentre i predatori ricorrono alla forza e all'inganno. Spetta quindi alla legge sopprimere il saccheggio e garantire la sicurezza del lavoro così come della proprietà. Come già affermato da Adam Smith, garantire la sicurezza dei cittadini è la principale missione dell'autorità pubblica, ed è questo che legittima l'imposizione delle tasse.
+> I produttori ricorrono alla persuasione, alla negoziazione e al contratto, mentre i predatori ricorrono alla forza e all'inganno. Spetta quindi alla legge sopprimere il saccheggio e garantire la sicurezza del lavoro così come della proprietà. Come già affermato da Adam Smith, garantire la sicurezza dei cittadini è la principale missione dell'autorità pubblica, ed è questo che legittima l'imposizione delle tasse.
 
 ![image](assets/image/01/IMG17.webp)
 
@@ -131,6 +131,7 @@ I produttori ricorrono alla persuasione, alla negoziazione e al contratto, mentr
 
 ![video](https://youtu.be/n69ITkX9DMU?si=PymbTYQxiAFVSP42)
 È poco noto, ma Destutt de Tracy ebbe un'influenza decisiva sul futuro Presidente degli Stati Uniti, Thomas Jefferson, mentre era ambasciatore a Parigi negli anni '80 del 1700.
+
 > "Per ogni uomo, la sua prima patria è la sua terra natale, e la seconda è la Francia" & "La tirannia è quando il popolo teme il suo governo; la libertà è quando il governo teme il popolo."
 >
 > Thomas Jefferson
@@ -170,6 +171,10 @@ In conclusione, gli Ideologi hanno avuto un'intuizione profonda, ossia che la pr
 
 ## Charles Comte e Charles Dunoyer
 
+<chapterId>80bc5c4e-ac07-52c8-9dd7-e224ac291bda</chapterId>
+
+![video](https://youtu.be/ZuZGz897Pto?si=O-eJhBpDDSlsW5Yu)
+
 La storia di tutte le civiltà è la storia della lotta tra le classi predatrici e le classi produttive. Questo è il credo dei due autori di cui andremo a discutere. Sono gli iniziatori di una teoria liberale della lotta di classe che ha ispirato tanto Frédéric Bastiat quanto Karl Marx, anche se quest'ultimo l'ha distorta.
 
 Per Comte e Dunoyer, il saccheggio, inteso come tutte le forme di violenza esercitate nella società dai forti sui deboli, è la grande chiave per comprendere la storia umana. È all'origine di tutti i fenomeni di sfruttamento di una classe da parte di un'altra.
@@ -180,6 +185,7 @@ Charles Comte, cugino di Auguste Comte e genero di Say, è il fondatore della ri
 Qual è l'obiettivo della rivista? Il titolo parla da sé: censurare il governo. Combattere l'arbitrarietà del potere illuminando l'opinione pubblica, difendere la libertà di stampa.
 
 Adottano da Benjamin Constant la distinzione tra gli Antichi e i Moderni, caratterizzati da un lato dalla guerra, e dall'altro dal commercio e dall'industria. Ma aggiungono con Say che l'economia politica fornisce la migliore spiegazione dei fenomeni sociali. Comprendono in particolare che le nazioni raggiungono la pace e la prosperità quando sono rispettati i diritti di proprietà e il libero scambio. Da ora in poi, per loro, l'economia politica è il vero e unico fondamento della politica. Alla filosofia, che si limita alla critica astratta delle forme di governo, deve essere sostituita una teoria basata sulla conoscenza degli interessi economici. L'economia politica, dimostrando come i popoli prosperano e declinano, ha posto le vere fondamenta della politica.
+
 > Dunoyer
 
 Questa nuova teoria sociale contiene uno degli elementi che diventerà la pietra angolare del socialismo scientifico di Marx ed Engels: la lotta di classe. Ma in cosa consiste la teoria liberale della lotta di classe, e in che modo differisce dal marxismo?
@@ -219,6 +225,7 @@ Fu questa campagna di agitazione per il libero scambio, in tutto il regno, con d
 
 La Lega può essere paragonata a un'università itinerante, che educava economicamente coloro che partecipavano ai suoi incontri in tutto il paese—gente comune, industriali, coltivatori e agricoltori, tutti coloro che la Lega aveva preso sotto la sua ala e i cui interessi erano oppressi dalle leggi sui cereali. Richard Cobden era l'anima del movimento e un agitatore eccezionale.
 Un oratore affascinante e formidabile, aveva un dono prodigioso nell'inventare frasi incisive e concise, lontane dai discorsi astratti degli economisti.
+
 > Cos'è il monopolio del pane? esclamò. È la scarsità di pane. Rimarrete sorpresi nell'apprendere che la legislazione di questo paese, su questa materia, non ha altro scopo se non quello di produrre la massima scarsità possibile di pane. Eppure non è altro. La legislazione può raggiungere il suo obiettivo solo attraverso la scarsità.
 
 Nel 1845, Bastiat pubblicò a Parigi il suo libro Cobden e la Lega, con le sue traduzioni accompagnate da commenti. Il libro si apre con un'introduzione sulla situazione economica dell'Inghilterra, sulla storia dell'origine e del progresso della Lega. Dal 1815, il protezionismo era molto sviluppato in Inghilterra. Vi erano, in particolare, leggi che limitavano l'importazione di grano che avevano conseguenze molto dure per il popolo. Infatti, il grano era necessario per fare il pane, una merce vitale all'epoca. Inoltre, questo sistema favoriva l'aristocrazia, cioè i grandi proprietari terrieri, che ne ricavavano rendite.
@@ -338,6 +345,7 @@ Cos'è quindi la libertà? È la proprietà, il diritto di godere dei frutti del
 Tuttavia, come ci ricorda Bastiat, il monopolio esclude il progresso.
 
 ## Protezionismo e Socialismo
+
 <chapterId>ce6cb8a8-7dc9-5ef7-939d-9a559b4d2c74</chapterId>
 ![video](https://youtu.be/7q5qQNe7M48?si=lU63cOehitXxkpjR)
 
@@ -402,6 +410,7 @@ Poi Bastiat mostra che è possibile migliorare il potere d'acquisto delle classi
 Infatti, secondo Bastiat, il progresso dell'umanità coincide con la formazione del capitale. Nel suo opuscolo intitolato Capitale e Renta, Bastiat ci fa comprendere ciò con l'esempio di Robinson Crusoe sulla sua isola.
 ![image](assets/image/08/IMG15.webp)
 Senza un capitale accumulato o materiali, Robinson sarebbe destinato alla morte. Spiega poi che il capitale arricchisce il lavoratore in due modi:
+
 - Aumenta la produzione, diminuendo così il prezzo dei beni di consumo
 - Ciò ha l'effetto di aumentare i salari.
 
@@ -434,6 +443,7 @@ Così, in Opere Pubbliche, Bastiat scrive:
 
 ![image](assets/image/09/IMG20.webp)
 Uno dei sofismi più noti è la fallacia della finestra rotta. Alcuni sostengono che la rottura di una finestra in una casa non danneggi l'economia poiché beneficia il vetraio. Ma Bastiat dimostrerà che la distruzione non è nel nostro interesse perché non crea ricchezza. Costa più di quanto renda. Il ragazzo che rompe la finestra di un vicino dà lavoro al vetraio. Ma ecco come i suoi amici lo consolano:
+
 > "Non c'è male senza bene. Tali incidenti mantengono in moto l'industria. Tutti hanno bisogno di vivere. Che ne sarebbe dei vetrai se le finestre non si rompessero mai?"
 
 Così, secondo Keynes, la distruzione della proprietà, costringendo alla spesa, stimolerebbe l'economia e avrebbe un "effetto moltiplicatore" vivificante sulla produzione e sull'occupazione. Questo è solo ciò che si vede.
@@ -453,6 +463,7 @@ Ma ci sono altri modi per stimolare l'economia. Se lo Stato si impegna in grandi
 Infine, quasi un secolo prima di Keynes, possiamo dire che Bastiat ha confutato i sofismi keynesiani che sostengono che l'indebitamento dello stato incoraggi l'economia e che la spesa pubblica produca crescita.
 
 La grande lezione da questa serie di testi è che l'intervento dello stato ha effetti perversi che non si vedono. Solo un buon economista è capace di prevederli. La politica è ciò che vediamo. L'economia è ciò che non vediamo.
+
 ## La petizione dei fabbricanti di candele
 
 <chapterId>f4e759ed-1cb2-55c7-885e-0a60244758a4</chapterId>
@@ -484,7 +495,7 @@ Il protezionismo si basa anche su un sillogismo nascosto che si rivela essere un
 - Più lavoriamo, più siamo ricchi;
 - Più difficoltà dobbiamo superare, più lavoriamo;
 - Quindi, più difficoltà dobbiamo superare, più siamo ricchi.
-Illustreremo questa assurdità con alcune brevi storie raccontate da Bastiat. Nel Capitolo III della seconda serie di Sofismi Economici, immagina un falegname che scrive al ministro una petizione chiedendo una legislazione protezionista. Il falegname formula così la sua richiesta: Signor Ministro, fate una legge che stabilisca che "Nessuno possa usare travi e travetti prodotti da asce spuntate". In altre parole, fate una legge che proibisca l'uso di asce affilate in Francia. Così, dove normalmente si danno 100 colpi di ascia, sarà necessario darne 300. I falegnami saranno molto richiesti e quindi meglio pagati.
+  Illustreremo questa assurdità con alcune brevi storie raccontate da Bastiat. Nel Capitolo III della seconda serie di Sofismi Economici, immagina un falegname che scrive al ministro una petizione chiedendo una legislazione protezionista. Il falegname formula così la sua richiesta: Signor Ministro, fate una legge che stabilisca che "Nessuno possa usare travi e travetti prodotti da asce spuntate". In altre parole, fate una legge che proibisca l'uso di asce affilate in Francia. Così, dove normalmente si danno 100 colpi di ascia, sarà necessario darne 300. I falegnami saranno molto richiesti e quindi meglio pagati.
 
 Nel Capitolo XVI, c'è un altro testo molto ironico, intitolato: La Mano Destra e la Mano Sinistra. Seguendo un'indagine, un inviato reale redige un rapporto in cui propone al re di tagliare, o almeno legare, tutte le mani destre dei lavoratori. Così, continua, il lavoro e di conseguenza la ricchezza aumenteranno. La produzione diventerà molto più difficile, il che necessiterà l'assunzione massiccia di manodopera aggiuntiva e un aumento dei salari. Il pauperismo scomparirà dal paese.
 
@@ -511,6 +522,7 @@ In Francia, dove la spesa pubblica è considerata un beneficio, le tasse sono pi
 
 Di cosa si tratta?
 L'economia descrive gli effetti positivi o negativi delle decisioni politiche sulle nostre vite. Tuttavia, secondo Bastiat, l'economista deve essere attento, non solo agli effetti a breve termine su un particolare gruppo, ma piuttosto alle loro conseguenze a lungo termine per la società nel suo insieme.
+
 > "Ciò che vediamo è il lavoro e il profitto consentiti dal contributo sociale. Ciò che non vediamo sono le opere che sarebbero generate da questo stesso contributo se fosse lasciato ai contribuenti. Ciò che vediamo è il lavoro e il profitto consentiti dal contributo sociale. Ciò che non vediamo sono le opere che sarebbero generate da questo stesso contributo se fosse lasciato ai contribuenti."
 >
 > F.Bastiat
@@ -549,7 +561,7 @@ Tuttavia, ci sono due modi complementari per illuminare il giudizio dei cittadin
 
 - Primo, c'è una "moralità filosofica o religiosa" che agisce purificando e correggendo l'azione umana (l'uomo come agente)
 - Poi, c'è una "moralità economica", che agisce mostrando all'uomo "le conseguenze necessarie dei suoi atti" (l'uomo come paziente)
-In realtà, queste sono due cornici morali perfettamente complementari.
+  In realtà, queste sono due cornici morali perfettamente complementari.
 
 1. La prima si rivolge al cuore e incoraggia gli individui a fare il bene; è la moralità religiosa o filosofica. È la più nobile. Radica nel cuore dell'uomo la coscienza del suo dovere. Gli dice:
 
@@ -600,8 +612,9 @@ Il miracolo del libero mercato, ci dice, è che utilizza conoscenze che nessuna 
 
 Bastiat fornisce alcuni esempi per illustrare i benefici di questo mercato. Siamo diventati così abituati a questo fenomeno che non ci facciamo più caso.
 Prendiamo in considerazione un falegname in un villaggio, dice, e osserviamo tutti i servizi che fornisce alla società e tutti quelli che riceve:
+
 > Ogni giorno, al risveglio, si veste, e non ha personalmente realizzato nessuno dei suoi vestiti. Eppure, affinché questi vestiti fossero disponibili per lui, è stato necessario compiere un'enorme quantità di lavoro, industria, trasporti e invenzioni ingegnose in tutto il mondo.
-Poi fa colazione. Perché il pane che mangia arrivi sulla sua tavola ogni mattina, è necessario che siano state disboscate e arate terre; ferro, acciaio, legno, pietra devono essere trasformati in strumenti di lavoro; tutte cose che, prese singolarmente, rappresentano una massa incalcolabile di lavoro messo in gioco, non solo nello spazio ma anche nel tempo.
+> Poi fa colazione. Perché il pane che mangia arrivi sulla sua tavola ogni mattina, è necessario che siano state disboscate e arate terre; ferro, acciaio, legno, pietra devono essere trasformati in strumenti di lavoro; tutte cose che, prese singolarmente, rappresentano una massa incalcolabile di lavoro messo in gioco, non solo nello spazio ma anche nel tempo.
 
 Quest'uomo manderà suo figlio a scuola, per ricevere un'istruzione che presuppone ricerche, molti anni di studio precedente.
 
@@ -836,6 +849,8 @@ _(Cicerone)_
 
 ## Saccheggio Legale: Una Perversione della Legge
 
+<chapterId>b4122847-e477-578e-ba34-d35844ac4715</chapterId>
+
 Il concetto principale di Bastiat in "La Legge", il suo famoso opuscolo datato 1850, è mostrare perché e come la legge sia diventata saccheggio, ovvero una fonte di privilegi, rendite situazionali e arbitrarietà fiscale.
 
 Qual è la vera natura della legge?
@@ -866,6 +881,7 @@ Per lui, lo scopo della Legge deve semplicemente essere quello di "mettere fine 
 Sono certi che i loro diritti naturali siano garantiti e intoccabili. Diritti di proprietà sicuri danno alle persone la capacità di fare piani a lungo termine perché sanno che i loro beni sono al sicuro dal saccheggio.
 
 > Assenza di Saccheggio, — è il principio di giustizia, pace, ordine, stabilità, conciliazione, buon senso che proclamerò con tutta la forza, ahimè! insufficiente, dei miei polmoni, fino al mio ultimo respiro
+
 Bastiat scrisse ne "La Legge", poco tempo prima di morire. Un secolo dopo la morte di Frédéric Bastiat, il saccheggio legale è chiaramente evidente nella Dichiarazione Universale dei Diritti Umani del 1948, in particolare nei suoi articoli 22 ("ognuno ha diritto alla sicurezza sociale"), 23 ("ognuno ha diritto al lavoro"), 24 ("ognuno ha diritto al riposo ed allo svago"), 25 ("ognuno ha diritto ad un tenore di vita adeguato per la salute e il benessere"), 26 ("ognuno ha diritto all'istruzione").
 
 ## Il Ruolo della Legge e dello Stato
@@ -944,3 +960,4 @@ Ma come Bastiat ha abilmente dimostrato, l'intervento dello Stato ha effetti per
 Se guardiamo le cose da questa prospettiva, Reagan spiegava ai dipendenti della GE, i cosiddetti miracoli della spesa pubblica appaiono sotto una luce completamente diversa. Poiché le tasse scoraggiano la produzione, e la ricchezza creata dalla spesa pubblica non può compensare pienamente quelle che sono state impediti di nascere dalle tasse imposte per pagare queste spese.
 
 In sostanza, Reagan ha preso da Bastiat diversi elementi chiave di una visione liberale della società e dell'uomo: la primazia della società civile sullo Stato, il valore della scelta e della responsabilità individuale, l'importanza dell'imprenditore nella creazione di ricchezza, l'importanza di un quadro legale flessibile e minimo, che permetta fiducia e rispetto dei contratti, la legge fondamentale che la ricchezza deve essere creata prima di poter essere distribuita, il desiderio di dare a tutti una possibilità nei mercati competitivi…
+

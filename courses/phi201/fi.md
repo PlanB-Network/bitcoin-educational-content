@@ -18,9 +18,11 @@ Renessanssista valistukseen kurssi tutkii vapauden nousua, jota leimasivat uskon
 +++
 
 # Vapaus vai valta
+
 <partId>e59475e9-3ae4-5e66-a17e-218de0281b06</partId>
 
 ## Johdanto: Vain kaksi poliittista filosofiaa
+
 <chapterId>ffa60c0d-ee2b-575d-a4ac-4e9ccdad396f</chapterId>
 
 Miksi tämä kurssi on nimetty vapauden historiaksi? Koska meidän on ymmärrettävä ideoiden ja tapahtumien välinen suhde, jotta voimme paremmin arvioida aikaamme ja toimia harkiten. Menneisyydestä löydämme elementit, jotka auttavat meitä ymmärtämään paremmin, mitä vapaus on ja miksi meidän tulee arvostaa sitä.
@@ -50,6 +52,7 @@ Vastuun käsite on vapauden korollaari, koska jokaisella valinnalla on seuraukse
 - Toiseksi, filosofia on normatiivista, toisin kuin historia, joka on pelkästään kuvailevaa. Näin ollen poliittinen filosofia eroaa poliittisista tieteistä. Poliittinen filosofia on normatiivista, mikä tarkoittaa, että se määrää arvoja ja arvioi ihmisten toimia oikeudenmukaisuuden kriteerin perusteella. Toisaalta poliittiset tieteet tyytyvät kuvaamaan hallintojärjestelmiä, tekemään instituutioiden historiaa, ilman arvostelujen tekemistä.
 
 ### Vapauden filosofia ja vallan filosofia
+
 Tästä näkökulmasta on vain kaksi poliittisen filosofian lajia: vapauden filosofia ja vallan filosofia.
 
 ![kuva](assets/1/img-016.webp)
@@ -74,6 +77,7 @@ Toinen filosofia löytyy kirjoittajilta kuten Rousseau, Robespierre tai Kant, jo
 Tästä näkökulmasta lainsäätäjän tehtävä on järjestää, muuttaa, jopa poistaa omaisuus, jos hän pitää sitä hyvänä. Rousseaulle omaisuus ei ole luonnollinen vaan sopimuksellinen, kuten yhteiskuntakin. Vuorostaan Robespierre vahvistaa periaatteen, että "Omaisuus on jokaisen kansalaisen oikeus nauttia ja hallita lain hänelle takaamaa omaisuuden osaa." Luonnollista oikeutta omaisuuteen ei ole; on vain ääretön määrä mahdollisia ja tilapäisiä järjestelyjä.
 
 ## Frédéric Bastiat: tuotanto vastaan ryöstö
+
 <chapterId>5a8a3452-9970-51a0-a5ea-f367b63137bc</chapterId>
 
 Kun avaa oppikirjoja, Bastiat huomautti, oppii, että ihmiskunta olisi tuomittu tyhjyyteen ilman vallan väliintuloa:
@@ -108,6 +112,7 @@ Bastiat kertoo meille vielä kahdesta laillisen ryöstön muodosta:
 
 [_The Physiology of Plunder_](http://bastiat.org/fr/physiologie_de_la_spoliation.html) -teoksessa hän tarkentaa:
 Miesten todellinen ja oikeudenmukainen laki on: Vapaasti käyty palveluiden vaihtokauppa. Ryöstö koostuu vapauden keskustelun kieltämisestä voimalla tai petoksella saadakseen palvelun suorittamatta vastapalvelusta. Voimalla toteutettu ryöstö tapahtuu seuraavasti: Odotetaan, että mies tuottaa jotakin, sitten se riistetään häneltä, ase kädessä. Se on virallisesti tuomittu Dekalogissa: Älä varasta. Kun se tapahtuu yksilöltä toiselle, sitä kutsutaan varkaudeksi ja se johtaa vankilaan; kun se on kansakunnalta toiselle, sitä kutsutaan valloitukseksi ja se johtaa kunniaan.
+
 ### Ryöstön historia
 
 ![kuva](assets/1/img-020.webp)
@@ -117,16 +122,17 @@ Historiallisesti hallitsevat eliitit ovat aina eläneet ryöstöstä. Bastiat hu
 > Voiman käyttö ryöstöön on ihmiskunnan annaalien perusta. Sen historian jäljittäminen olisi melkein kokonaan kaikkien kansojen historian toistamista: assyrialaiset, babylonialaiset, meedialaiset, persialaiset, egyptiläiset, kreikkalaiset, roomalaiset, gootit, frankit, hunnit, turkkilaiset, arabit, mongolit, tataarit, puhumattakaan espanjalaisista Amerikassa, englantilaisista Intiassa, ranskalaisista Afrikassa, venäläisistä Aasiassa, jne.
 >
 > ([_Taloudelliset harhaluulot_](http://bastiat.org/fr/conclusion_sophismes.html), ensimmäisen osan loppu).
-Ryöstö, sen raaimmassa muodossa, soihtu ja miekka kädessä, täyttää ihmiskunnan historian lehdet. Mitkä nimet tiivistävät historian? Kyros, Sesostris, Aleksanteri, Scipio, Caesar, Attila, Tamerlan, Muhammad, Pizarro, Vilhelm Valloittaja; tämä on naiivia ryöstöä valloituksilla. Sille kuuluvat laakerinlehdet, monumentit, patsaat ja voitonkaaret. ([_Taloudelliset harmoniat_](http://bastiat.org/fr/conclusion_eo_harmonies.html), alkuperäisen laitoksen loppu).
-Maailman historia on historiaa siitä, kuinka yksi ihmisryhmä ryösti toisia, usein järjestelmällisesti, sodan, orjuuden, teokratian kautta. Nykyään se on monopoli, eli taloudelliset etuoikeudet, jotka valtio jakaa asiakkailleen.
+> Ryöstö, sen raaimmassa muodossa, soihtu ja miekka kädessä, täyttää ihmiskunnan historian lehdet. Mitkä nimet tiivistävät historian? Kyros, Sesostris, Aleksanteri, Scipio, Caesar, Attila, Tamerlan, Muhammad, Pizarro, Vilhelm Valloittaja; tämä on naiivia ryöstöä valloituksilla. Sille kuuluvat laakerinlehdet, monumentit, patsaat ja voitonkaaret. ([_Taloudelliset harmoniat_](http://bastiat.org/fr/conclusion_eo_harmonies.html), alkuperäisen laitoksen loppu).
+> Maailman historia on historiaa siitä, kuinka yksi ihmisryhmä ryösti toisia, usein järjestelmällisesti, sodan, orjuuden, teokratian kautta. Nykyään se on monopoli, eli taloudelliset etuoikeudet, jotka valtio jakaa asiakkailleen.
 
 Muutama päivä ennen kuolemaansa Roomassa vuonna 1850 Bastiat uskoi ystävälleen Prosper Paillottetille:
 
 > Tärkeä tehtävä poliittiselle taloudelle on kirjoittaa Ryöstön historia. Se on pitkä historia, jossa alusta alkaen esiintyvät valloitukset, kansojen muuttoliikkeet, invaasiot ja kaikki voiman tuhoisat ylilyönnit oikeudenmukaisuuden kanssa ristiriidassa. Kaikista näistä on vielä tänään eläviä jälkiä, ja se on suuri vaikeus meidän vuosisatamme kysymysten ratkaisussa. Emme pääse tähän ratkaisuun ennen kuin olemme selvästi vahvistaneet missä ja miten epäoikeudenmukaisuus, ottaen osansa meidän keskuudessamme, on juurtunut tapoihimme ja lakeihimme.
-> 
+>
 > (P. Paillottet, _Yhdeksän päivää kuolevan miehen lähellä_)
 
 ## Lord Acton: Vapaus on historian moottori
+
 <chapterId>de971d92-4e26-5870-a961-18dfa06497cf</chapterId>
 
 Tiedetään, historiaa kirjoittavat voittajat. Huomio keskittyy usein vallan valloitukseen, vallassa olevien johtajien elämään ja konflikteihin, jotka heillä on niiden kanssa, jotka haluavat ottaa heidän paikkansa.
@@ -151,8 +157,8 @@ Hänen keskeinen teesinsä on, että "vapaus perustuu valtojen konfliktiin." Act
 > Vapaudella tarkoitan varmuutta siitä, että jokainen ihminen suojellaan, kun hän tekee sen, minkä uskoo olevan velvollisuutensa, auktoriteetin ja enemmistöjen, tavan ja mielipiteen vaikutukselta.
 >
 > (Lord Acton)
-Toisin sanoen, vapaus on oikeus yksilöille seurata omaatuntoaan, eikä valtion tehtävä ole määrätä henkilön toimintaa filosofisissa, moraalisissa ja uskonnollisissa asioissa.
-Friedrich Hayek harkitsi alun perin nimittävänsä Mont Pelerin Societyn "Acton-Tocqueville Societyn" mukaan, kunnianosoituksena kahdelle syvästi ihailemalleen ajattelijalle: Lord Actonille ja Alexis de Tocquevillelle. Lopulta valituksi tuli paikan nimi, jossa Societyn ensimmäinen kokous pidettiin, Mont Pelerin Sveitsissä.
+> Toisin sanoen, vapaus on oikeus yksilöille seurata omaatuntoaan, eikä valtion tehtävä ole määrätä henkilön toimintaa filosofisissa, moraalisissa ja uskonnollisissa asioissa.
+> Friedrich Hayek harkitsi alun perin nimittävänsä Mont Pelerin Societyn "Acton-Tocqueville Societyn" mukaan, kunnianosoituksena kahdelle syvästi ihailemalleen ajattelijalle: Lord Actonille ja Alexis de Tocquevillelle. Lopulta valituksi tuli paikan nimi, jossa Societyn ensimmäinen kokous pidettiin, Mont Pelerin Sveitsissä.
 
 ### Voltaire ja Condorcet
 
@@ -167,7 +173,9 @@ Condorcet omistaa teoksessaan [_Luonnos ihmismielen edistymisen historialliseksi
 Tämä teesi löytyy myös monumentaalisesta teoksesta vuodelta 1983: _Laki ja vallankumous: Länsimaisen oikeusperinteen muodostuminen_, jonka on kirjoittanut Harold J. Berman ([Ranskan käännös Raoul Audouinin toimesta](https://www.eyrolles.com/Entreprise/Livre/droit-et-revolution-9782903449667/), julkaistu Aix en Provencen yliopiston kirjakaupassa vuonna 2002). Bermanin analyysi korostaa oikeudellisen pluralismin ratkaisevaa roolia Lännen historiassa. Tämä järjestelmä, kaukana olemasta pelkkä monimutkaisuuden lähde, oli kehityksen, vapauden ja innovaation ajuri, joka muovasi Länsimaisia oikeusperinteitä pysyvästi.
 
 ## Marx: Historia luokkataisteluna
+
 <chapterId>438100e6-a385-55c6-b2c5-ad192c564757</chapterId>
+
 Toinen näkökulma historiaan on kuitenkin olemassa. Se on ollut varsin menestyksekäs ja nauttinut pitkään Länsimaiden älymystön ja Etelän maiden edustajien tuesta. Kyseessä on sosialistinen ja marxilainen historianäkemys.
 ![kuva](assets/1/img-024.webp)
 
@@ -198,10 +206,10 @@ Lue ote teoksesta _Human Action_:
 Mises lisää, että ihmiskunnan tilanteen parantuminen oli mahdollista pääoman kertymisen kautta:
 
 > Länsimaiden massojen nykyisen elintason (todellakin korkea elintaso verrattuna siihen, mitä se oli ennen kapitalismia, ja siihen, mitä se on Neuvostoliitossa) radikaali muutos oli pääoman kertymisen seurausta säästämisen ja kaukonäköisten yrittäjien viisaan investoinnin kautta. Mikään teknologinen parannus ei olisi ollut saavutettavissa, jos uusien keksintöjen käytännön hyödyntämiseen tarvittava lisämateriaalipääoma ei olisi ollut mahdollista säästämällä etukäteen.
-Marxilaisen historiografian osalta voimme myös viitata Friedrich Hayekiin teoksessa _Capitalism and the Historians_ (University of Chicago Press, 1954) ja hänen luvussaan "History and Politics". Hayekin mukaan ei ollut teollistuminen, joka teki työläisistä kurjia, kuten marxismin levittämä kapitalismin synkkä legenda väittää. Hän huomauttaa:
+> Marxilaisen historiografian osalta voimme myös viitata Friedrich Hayekiin teoksessa _Capitalism and the Historians_ (University of Chicago Press, 1954) ja hänen luvussaan "History and Politics". Hayekin mukaan ei ollut teollistuminen, joka teki työläisistä kurjia, kuten marxismin levittämä kapitalismin synkkä legenda väittää. Hän huomauttaa:
 > Kapitalismin ja proletariaatin nousun välisen todellisen historian yhteys on lähes päinvastainen kuin mitä nämä massojen riistoteoriat ehdottavat.
-Ennen teollista vallankumousta useimmat ihmiset asuivat maaseutuyhteiskunnissa ja olivat riippuvaisia maataloudesta selviytyäkseen. Heillä oli vähän myytävää markkinoilla, mikä rajoitti heidän mahdollisuuksiaan ja elintasoaan. Kaikki odottivat elävänsä absoluuttisessa köyhyydessä ja kuvittelivat saman kohtalon odottavan myös jälkeläisiään. Kukaan ei ollut järkyttynyt tilanteesta, joka vaikutti väistämättömältä.
-![image](assets/1/img-106.webp)
+> Ennen teollista vallankumousta useimmat ihmiset asuivat maaseutuyhteiskunnissa ja olivat riippuvaisia maataloudesta selviytyäkseen. Heillä oli vähän myytävää markkinoilla, mikä rajoitti heidän mahdollisuuksiaan ja elintasoaan. Kaikki odottivat elävänsä absoluuttisessa köyhyydessä ja kuvittelivat saman kohtalon odottavan myös jälkeläisiään. Kukaan ei ollut järkyttynyt tilanteesta, joka vaikutti väistämättömältä.
+> ![image](assets/1/img-106.webp)
 
 Teollistumisen myötä uudet mahdollisuudet ilmaantuivat, luoden kasvavaa kysyntää työvoimalle. Ensimmäistä kertaa ihmiset, joilla ei ollut maata tai merkittäviä resursseja, saattoivat myydä työvoimaansa tehtaille ja valmistajille vaihdossa palkkaan, varmistaen tulevaisuuden turvallisuuden.
 
@@ -214,6 +222,7 @@ Siksi työntekijää ei hyväksikäytetty, vaikka palkat olivatkin matalia, työ
 Todellisuudessa hyväksikäyttö on järkevää vain yksityisomaisuuteen kohdistuvana aggressiona. Tässä mielessä hyväksikäyttö on aina valtion teko. Sillä valtio on ainoa instituutio, joka hankkii tulonsa pakolla, eli voimakeinoin. Näin oikea hyväksikäyttö, kuten Bastiat'n kanssa olemme nähneet, on tuottavien luokkien hyväksikäyttöä valtion virkamiesten toimesta. Olisi tarkempi sanoa, että kaikkien yhteiskuntien historia meidän päiviimme asti on ollut mitään muuta kuin taistelua ryöstäjien ja tuottavien luokkien välillä.
 
 ### "Euroopan ihme"
+
 Myöhemmin, Marxia syvällisempi historiallinen analyysi mahdollistaa ajatuksen haastamisen saalistavasta Euroopasta, joka on saavuttanut menestyksensä ainoastaan imperialismilla ja orjuudella. Vertailevan taloushistorian tutkimuksen kautta jotkut nykyhistorioitsijat ovat etsineet Euroopan kehityksen alkuperää siitä, mikä erotti sen muista suurista sivilisaatioista, erityisesti Kiinasta, Intiasta ja Islamista. Näitä ominaisuuksia ovat tutkineet [David Landes](https://www.eyrolles.com/Entreprise/Livre/richesse-et-pauvrete-des-nations-9782226110381/), [Jean Baechler](https://academiesciencesmoralesetpolitiques.fr/publications/publications-de-lacademie/jean-baechler/), [François Crouzet](https://www.cairn.info/revue-entreprises-et-histoire-2010-4-page-219.htm), ja [Douglass North](https://www.iedm.org/fr/65134-douglass-north-l-un-des-economistes-les-plus-originaux/). Nämä tutkijat ovat pyrkineet ymmärtämään sitä, mitä kutsutaan "Euroopan ihmeeksi". He keskittivät huomionsa siihen tosiasiaan, että Eurooppa oli mosaiikki jaettuja ja kilpailevia lainkäyttöalueita, missä Rooman tuhon jälkeen mikään keskitetty poliittinen valta ei kyennyt määräämään tahtoaan.
 
 Kuten Jean Baechler, Akatemian moraalisten ja poliittisten tieteiden jäsen, sanoo teoksessaan _Kapitalismin synty_ (1971):
@@ -224,6 +233,7 @@ Kuten Jean Baechler, Akatemian moraalisten ja poliittisten tieteiden jäsen, san
 
 Toisin sanoen, suuri "ei-tapahtuma", joka hallitsi Euroopan kohtaloa, oli hegemonisen imperiumin, kuten Kiinan hallitseman, puuttuminen.
 Juuri tämä radikaalisti hajautettu Eurooppa synnytti parlamentit, valtiopäivät ja yleiset säädyt. Se antoi alkunsa peruskirjoille, kuten englantilaisten kuuluisalle Magna Cartalle, mutta se synnytti myös Pohjois-Italian ja Flanderin vapaat kaupungit: Venetsian, Firenzen, Genovan, Amsterdamin, Gentin ja Bruggen. Lopulta se kehitti luonnonoikeuden käsitteen sekä periaatteen, että edes ruhtinas ei ole lain yläpuolella, oppi, joka juurtui keskiajan yliopistoihin Bolognassa, Oxfordissa ja Pariisissa, ulottuen Wieniin ja Krakovaan. Tämän luvun päätteeksi Euroopan taloudellinen ja kulttuurinen nousu ei johtunut muun maailman valloituksesta ja hyväksikäytöstä. Se hallitsi maailmaa taloudellisen edistyksensä ansiosta. Sitä, mitä on kutsuttu "imperialismiksi", on seuraus, ei syy, Euroopan taloudelliselle edistykselle. Mutta palatakseni Lord Actoniin, mikä erottaa länsimaisen sivilisaation vielä enemmän kaikista muista, on sen vahvistus yksilön arvosta. Tässä mielessä omantunnon vapaus, erityisesti uskonnollisissa asioissa, on ollut tämän sivilisaation perustava pilari. Palaamme tähän seuraavassa osiossa.
+
 ## Murray Rothbard: Valtio vastaan yhteiskunta
 
 <chapterId>5a0020ca-2bbd-5e09-8389-d57c57542cb2</chapterId>
@@ -263,8 +273,8 @@ Rothbardin mukaan historia ei ole lineaarinen prosessi, vaan pikemminkin vaihtel
 17. vuosisadalta 19. vuosisadalle monissa länsimaissa oli kausia, jolloin sosiaalinen valta kiihtyi ja vastaavasti vapaus, rauha ja materiaalinen hyvinvointi lisääntyivät. Mutta Rothbard muistuttaa meitä siitä, että 20. vuosisataa leimasi valtion vallan uudelleennousu, tuhoisin seurauksin: orjuuden, sodan ja tuhon lisääntyminen:
 
 > Tänä vuosisatana ihmiskunta kohtaa jälleen valtion virulentin hallinnan; valtio nyt aseistettuna ihmisen luovalla voimalla, takavarikoituna ja vääristettynä omiin tarkoituksiinsa.
-Mikä on vapaa yhteiskunta, loppujen lopuksi? Se on yhteiskunta ilman monopolia. Poliittisen filosofiansa teoksessa _Ethics of Liberty_ (1982) Rothbard vastaa: "yhteiskunta, jossa ei ole laillista mahdollisuutta pakottavaan aggressioon yksilön henkilöä tai omaisuutta vastaan." Tämän vuoksi, hänen mukaansa, poliittinen filosofia, joka täytyy määritellä oikeudenmukaisen yhteiskunnan periaatteet, tiivistyy yhteen ainoaan kysymykseen: "Kuka laillisesti omistaa mitä?"
-![kuva](assets/1/img-029.webp)
+> Mikä on vapaa yhteiskunta, loppujen lopuksi? Se on yhteiskunta ilman monopolia. Poliittisen filosofiansa teoksessa _Ethics of Liberty_ (1982) Rothbard vastaa: "yhteiskunta, jossa ei ole laillista mahdollisuutta pakottavaan aggressioon yksilön henkilöä tai omaisuutta vastaan." Tämän vuoksi, hänen mukaansa, poliittinen filosofia, joka täytyy määritellä oikeudenmukaisen yhteiskunnan periaatteet, tiivistyy yhteen ainoaan kysymykseen: "Kuka laillisesti omistaa mitä?"
+> ![kuva](assets/1/img-029.webp)
 
 Rothbardin mukaan sosiaalinen järjestys voi vallita, jos se on yleistettyjen sopimusmenettelyjen tuote omaisuusoikeuksien vapaalle vaihdolle, taloudellisten toimintojen ja jopa suvereenien toimintojen (keskuspankki, tuomioistuimet) yksityistämisen kautta ja turvautumalla suojelupalveluiden kesken kilpailuun.
 
@@ -275,16 +285,20 @@ Ja hän lisää:
 > (_Ethics of Liberty_)
 
 # Vapauden alkuperät: Antiikki
+
 <partId>d7a9d251-6d44-5f2f-9cc5-88796c84f61b</partId>
 
 ## Kriittisen rationalismin keksiminen kreikkalaisten toimesta
+
 <chapterId>5b5f65e6-f980-5971-b9f6-a37244503325</chapterId>
+
 Ateenalaisen demokratian kokemus on jättänyt pysyvän jäljen poliittisen ajattelun historiaan ja jatkaa demokratian ja kansalaisosallistumisen ihanteiden inspiroimista tämän päivän maailmassa.
 ![kuva](assets/2/img-107.webp)
 
 Ateenalainen demokratia tunnettiin vilkkaasta julkisesta keskustelusta kaupungin asioista, joka pääasiassa tapahtui agoralla, torilla. Tämä toimintatapa, joka perustui järkeen ja kriittiseen keskusteluun, oli jyrkässä ristiriidassa aiempien käytäntöjen kanssa, joissa lait ja tavat katsottiin pyhiksi ja muuttumattomiksi, esi-isien antamiksi ja jumalien suojelemiksi.
 
 ### Politiikan synty kaupungin myötä
+
 Ateenalainen demokratia edustaa merkittävää irtiottoa menneistä perinteistä. Todellakin, aikaisemmissa yhteiskunnissa ei voitu puhua "politiikasta" sosiaalisten sääntöjen keskustelun merkityksessä, koska nämä oli asetettu transsendenttisella tavalla myytin kautta.
 ![kuva](assets/2/img-109.webp)
 
@@ -302,9 +316,9 @@ Tämä uutuus perustuu kreikan kielen kahden termin, "phusis" ja "nomos", perust
 
 - _Phusis_ on luonnonlaki (josta tulee ranskan sana "fysiikka").
 - _Nomos_ on ihmisen laki (termi löytyy sanasta "autonomia", joka tarkoittaa "noudattaa omaa lakiaan").
-Kaupunki nousee ajatuksella, että laki (nomos) on ihmisen alkuperää, että sitä voidaan vapaasti muuttaa ihmisten toimesta, toisin kuin luonto, ja että se voi koskea kaikkia. Kreikkalaiset tulivat tietoisiksi sosiaalisen ja poliittisen järjestyksen autonomiasta suhteessa luonnolliseen järjestykseen.
-Tämä merkitsee politiikan esiintymistä: jatkuvaa keskustelua itse sosiaalisen elämän säännöistä. Tästä lähtien ongelmat ratkaistaan yhteistoiminnan kautta, ei muuttumattoman pyhän järjestyksen avulla.
-Ja Jean-Pierre Vernant lisää:
+  Kaupunki nousee ajatuksella, että laki (nomos) on ihmisen alkuperää, että sitä voidaan vapaasti muuttaa ihmisten toimesta, toisin kuin luonto, ja että se voi koskea kaikkia. Kreikkalaiset tulivat tietoisiksi sosiaalisen ja poliittisen järjestyksen autonomiasta suhteessa luonnolliseen järjestykseen.
+  Tämä merkitsee politiikan esiintymistä: jatkuvaa keskustelua itse sosiaalisen elämän säännöistä. Tästä lähtien ongelmat ratkaistaan yhteistoiminnan kautta, ei muuttumattoman pyhän järjestyksen avulla.
+  Ja Jean-Pierre Vernant lisää:
 
 > Kreikkalainen järki on se, joka positiivisella, reflektiivisellä, metodisella tavalla mahdollistaa meidän vaikuttavan ihmisiin, ei muuttaa luontoa. Sen rajoissa kuten uudistuksissaan, se on kaupungin tytär.
 
@@ -356,15 +370,19 @@ Ensimmäiset merkit kriittisen asenteen olemassaolosta, uudesta ajattelun vapaud
 
 ![kuva](assets/2/img-008.webp)
 Nämä elementit osoittavat hänen mukaansa, että Thales oli tämän uuden vapauden perinteen alullepanija, joka perustui alkuperäiseen suhteeseen mestarin ja oppilaan välillä. Thales kykeni sietämään kritiikkiä ja, lisäksi, hän perusti perinteen sen tunnustamiselle. Popper tunnistaa tässä katkoksen dogmaattisesta perinteestä, joka sallii vain yhden koulukunnan opin, korvatakseen sen pluralismilla ja fallibilismilla.
+
 > Pyrkimyksemme käsittää ja löytää totuus eivät ole lopullisia, vaan ne ovat parannettavissa, tietomme, oppimme ovat luonteeltaan oletuksellisia, ne koostuvat oletuksista, hypoteeseista, eivätkä varmoista ja lopullisista totuuksista.
 
 Ainoa keino, jolla voimme lähestyä totuutta, ovat kritiikki ja keskustelu. Antiikin Kreikasta tulee siis tämä perinne:
+
 > Joka koostuu rohkeiden oletusten esittämisestä ja vapaan kritiikin harjoittamisesta, perinne, joka oli rationaalisen ja tieteellisen lähestymistavan alkuperä ja siten myös tämän länsimaisen kulttuurin, joka on meidän ja ainoa, joka perustuu tieteeseen, vaikka ilmeisesti tämä ei ole sen ainoa perusta.
 
 ## Lain keksiminen roomalaisilla
+
 <chapterId>e9337ad6-5a75-5894-a017-9a507939cb51</chapterId>
 
 Rooman valtakunta oli laaja kosmopoliittinen kokonaisuus. Sen huipulla, noin vuonna 117 jaa., se oli valtava monietninen ja monikielinen valtio:
+
 - Lännessä se ulottui Iso-Britanniasta (nykyinen Englanti) Espanjaan, kulkien Gallian (nykyinen Ranska) ja Pohjois-Afrikan kautta.
 - Pohjoisessa se ulottui Rheiniin ja Tonavaan, kattaen osia Saksasta, Alankomaista, Sveitsistä, Itävallasta, Unkarista, Romaniasta ja Bulgariasta.
 - Etelässä se rajoittui Välimeren alueeseen, mukaan lukien Italia, Kreikka, Balkan, Vähä-Aasia (nykyinen Turkki), Syyria, Libanon, Palestiina, Egypti ja Kyrenaika (osa nykyistä Libya).
@@ -397,7 +415,9 @@ Kahdentoista taulun laki korostaa erityisesti omaisuusoikeuksien merkitystä:
 - Se täsmentää näiden hyödykkeiden hankinnan, siirron ja suojelun ehdot.
 
 Yhteenvetona se edistää transaktioiden turvaamista ja suojaa yksilöitä mielivaltaisilta pakkolunastuksilta, tarjoten mahdollisuuden muutoksenhakuun kiistan sattuessa.
+
 ### Humanismin synty ja yksityiselämä
+
 Se, mitä ihminen on, riippuu siitä, mitä hänellä on. Olemassaolo ei ole niin riippumatonta omistamisesta kuin joskus sanotaan, sillä se, mitä me omistamme, erottaa meidät siitä, mitä muut omistavat. Ja elämämme kuuluu meille, me omistamme ensin kykymme, kehomme ennen kuin omistamme materiaalisia hyödykkeitä.
 
 Roomalaisessa yhteiskunnassa jokainen saattoi yhä enemmän erottautua muista ja siten tulla oman elämänsä toimijaksi. Ihminen näyttelee nyt ainutlaatuista roolia, ja Cicero käyttää sanaa "persona" häntä tarkoittaessaan. "Persona" oli naamio, jota roomalaiset näyttelijät käyttivät, mutta se viittasi myös yksilön lailliseen ja sosiaaliseen persoonallisuuteen. Personan käsite vihjasi, että yksilöt olivat erillisiä entiteettejä omilla oikeuksillaan ja vastuillaan. Yksilöllisen ihmisen (ego) käsite sisäisen elämänsä ja ainutlaatuisen kohtalonsa kanssa syntyi, ja se kehittyisi kristinuskon myötä.
@@ -455,6 +475,7 @@ Ei totuutta eikä oikeudenmukaisuutta voida säätää, edes enemmistön toimest
 Väittäessään, että lakia ei voida pelkistää pelkästään lainsäätäjän säätämiin säädöksiin, Cicero pyrki taistelemaan lainsäädännöllistä mielivaltaa vastaan ja ehdottamaan poliittista moraalia. Tällä ajatuksella on ollut pitkäaikainen vaikutus länsimaiseen ajatteluun.
 
 ## Rooman tuho
+
 <chapterId>1b0f3de8-696a-5dbc-bb5e-e03ddafb4ebf</chapterId>
 
 Miksi Rooma heikkeni ja lopulta tuhoutui? Monet haluavat ajatella, että Rooman valtakunta romahti äkillisesti, barbaarien hyökkäysten vaikutuksesta. Kuitenkin Rooman valtakunnan tuhon syyt löytyvät paljon aikaisemmin, imperialismista sekä taloudellisesta ja rahapoliittisesta ohjauksesta.
@@ -521,9 +542,11 @@ Ja hän lisää:
 > Kaiken kaikkiaan taloudellinen, poliittinen, taiteellinen ja uskonnollinen elämä Rooman valtakunnassa 300-luvulla on täytynyt olla melko samanlaista kuin se oli Brezhnevin aikana Neuvostoliitossa (ja pahimpina hetkinä Stalinin alla) tai kuten se voi olla tänään Pohjois-Koreassa: koko Rooman maailman väestö oli keisarillisen sosialismin järjestämä ja kärsi, suoraan tai välillisesti, sen vaikutuksista.
 
 # Vapauden alkuperät: keskiaika
+
 <partId>f47bd5fc-c4a7-5d3b-b102-7b948bb43268</partId>
 
 ## Ihmisen vapauden vahvistuminen
+
 <chapterId>96ca5622-f8e4-58ef-b358-7f7d25543104</chapterId>
 
 Kristillinen vapauden ajatus kehittyi keskiajan teologiassa Pyhästä Augustinuksesta 300-luvulla Pyhään Tuomas Akvinolaiseen 1200-luvulla. Mikä on tämä ajatus?
@@ -531,6 +554,7 @@ Kristillinen vapauden ajatus kehittyi keskiajan teologiassa Pyhästä Augustinuk
 ![image](assets/3/img-036.webp)
 
 ### Vapaus on yhteydessä synnin käsitteeseen
+
 Alusta alkaen kristinusko opettaa, että synti on henkilökohtainen asia, ei ryhmään sisäänrakennettu, vaan että jokaisen yksilön on kannettava vastuu omasta pelastuksestaan. "Jumala on varustanut luotunsa vapaalla tahdolla, kyvyllä tehdä väärin, ja siten, vastuulla synnistä," toteaa Pyhä Augustinus teoksessaan vapaasta tahdosta, _De Libero Arbitrio_.
 Synti ei voi olla olemassa ilman vapautta. Todellakin, kristillinen Jumala on tuomari, joka palkitsee "hyveen" ja rankaisee "synnin". Mutta tämä Jumalan käsitys on nimenomaan yhteensopimaton fatalismin kanssa, koska henkilö ei voisi olla syyllinen ja tehdä mea culpaansa, ellei hän ensin olisi vapaa määrittämään omaa käyttäytymistään. Oman moraalisen virheen, oman syyllisyyden tunnustaminen on tunnustaa, että olisi voinut toimia toisin.
 "Miksi teemme väärin?" kysyy Pyhä Augustinus. Jos en erehdy, argumentti on osoittanut, että toimimme näin vapaan tahdon kautta. Mutta tämä vapaa tahto, jonka ansiosta voimme tehdä syntiä, olemme vakuuttuneita, ihmettelen, tekikö Hän, joka meidät loi, hyvin antaessaan sen meille. Näyttää siltä, että emme olisi alttiita synnille, jos meiltä olisi se evätty; mutta pelkään, että tällä tavoin Jumala näyttäytyy myös pahojen tekojemme tekijänä. (_De libero arbitrio_, I, 16, 35.)
@@ -545,6 +569,7 @@ Mutta moraalisen pahan toteutuminen on ihmisen työtä, joka käyttää vapautta
 Yhteenvetona vapaus on hyvä, koska se mahdollistaa itsensä järjestämisen hyvään ja Jumalaan, joka on absoluuttinen hyvä, mutta se välttämättä ja samanaikaisesti merkitsee mahdollisuutta valita paha ja hylätä Jumala.
 
 ### Jumala ei tee hyvää puolestamme
+
 Keskiaikaisessa teologiassa providenssi ei ole Jumalan jatkuvaa puuttumista ihmisten elämään, ikään kuin Jumala toimisi meidän sijastamme ja ilman suostumustamme. Päinvastoin, Jumala antaa jokaiselle luodulle olennolle sen luonteen mukaiset kyvyt, jotka mahdollistavat sen itsestään huolehtimisen ja siten täyden kehityksensä saavuttamisen. Jumala ei tee hyvää luodun olennon puolesta.
 ![kuva](assets/3/img-039.webp)
 
@@ -567,8 +592,10 @@ Kuitenkaan tämä sisäinen valo ei riitä toimimaan hyvin. Konkreettisten toimi
 Pyhän Tuomaan mukaan:
 
 > Luonnonlain tuntemuksen kautta ihminen pääsee suoraan yhteisen järjestyksen tietoon, ennen ja yläpuolella poliittista järjestystä, johon hän kuuluu tietyn yhteiskunnan kansalaisena.
-Näin ollen oikeus on olemassa ennen valtion muodostumista, joukko yleisiä periaatteita, joita järki voi hahmottaa tutkimalla ihmisen luontoa, kuten Jumala on sen luonut. Tämä oikeus asettaa itsensä monarkin, vallan, eteen, joka sitten täytyy kunnioittaa sitä. Ja poliittisen vallan säätämät lait ovat sitovia vain siinä määrin kuin ne noudattavat luonnonlakia.
+> Näin ollen oikeus on olemassa ennen valtion muodostumista, joukko yleisiä periaatteita, joita järki voi hahmottaa tutkimalla ihmisen luontoa, kuten Jumala on sen luonut. Tämä oikeus asettaa itsensä monarkin, vallan, eteen, joka sitten täytyy kunnioittaa sitä. Ja poliittisen vallan säätämät lait ovat sitovia vain siinä määrin kuin ne noudattavat luonnonlakia.
+
 ## Järki ja usko: avoin kilpailu
+
 <chapterId>ca379c2e-57cb-541d-8ddb-4b925032a779</chapterId>
 
 Keskiajalla järki ja usko kilpailevat pääsystä totuuteen. Abélardin ja Albertus Magnuksen jälkeen Tuomas Akvinolainen, 1200-luvulla, päätti puolustaa järjen oikeuksia ja sen autonomiaa uskoon nähden.
@@ -604,10 +631,12 @@ Tähän aikaan merkittäviä aristotelisia mestareita olivat muun muassa Albertu
 Tästä lähtien uskonnollinen rationalismi voittaisi lopullisesti mystismin.
 
 ## Uskonto ja politiikka: Suvereenin valtion synty
+
 <chapterId>a925ea80-9f66-5f0b-8ab0-f428ae5c12dc</chapterId>
 
 Keskiajalla kirkko ja kristilliset monarkiat perivät poliittisen mallin Rooman valtakunnalta, jota historioitsijat kutsuvat teologis-poliittiseksi järjestelmäksi, tarkoittaen järjestelmää, jossa valta on pyhä, eli poliittinen johtaja on myös uskonnollinen johtaja.
 Tämä on syy, miksi keskiaikaisia yhteiskuntia luonnehtii politiikkaan ja uskontoon perustuva yksimielisyys. Poliittinen valta perustaa legitiimiytensä, auktoriteettinsa ja yhtenäisyytensä kristilliseen (tai muslimi) uskoon. Se pitää itseään kulttuurisen ja uskonnollisen ortodoksisuuden vartijana ja kohtelee parioina niitä, jotka poikkeavat tästä yksimielisyydestä. Tässä kontekstissa, vaikka tietylle suvaitsevaisuudelle voitiin myöntää tilaa niille, jotka irtautuvat yhteisestä kulttuurinäkemyksestä (kuten juutalaiset), heille ei voitu tunnustaa oikeutta pluralismiin. Vasta keskiajan lopussa, Amerikan valloituksen myötä, kirkolle tuli ratkaisevan tärkeäksi siviilivapauksien ongelma ja syntyi ensimmäinen oikeusfilosofia, joka vahvisti ja suojeli yksilön vapauksia, legitimoiti pluralismin ja tuomitsi valtion pakottamisen.
+
 ### Pyhä Augustinus ja teokraattinen kiusaus
 
 Kysymys politiikan ja uskonnon välisestä suhteesta sai muotonsa Pyhän Augustinuksen teoksessa _Civitas Dei_ (_Jumalan kaupunki_). Siinä hän selittää, että kaksi sfääriä elää rinnakkain:
@@ -631,12 +660,16 @@ Näin ollen kirkko kehittää puolellaan lakinsa ja oikeusistuimensa ja väittä
 
 Todellisuudessa valtojen välinen kilpailu johti lukuisiin konflikteihin. Jokainen ruhtinas tai paavi yritti aina saada viimeisen sanan ja vakuuttaa, että hänellä oli ylin valta, viime kädessä. Näin ollen paavi Gregorius VII julisti:
 
->Paavi on ainoa mies, jonka jalkoja kaikkien ruhtinaitten tulee suudella.
+> Paavi on ainoa mies, jonka jalkoja kaikkien ruhtinaitten tulee suudella.
 
 Hänen puolellaan Pyhä Ludvig ei epäröinyt vastustaa paavi Innocentius IV:tä, joka oli ekskommunikoinut ja syrjäyttänyt keisari Fredrik II:n, näin ollen riistäen häneltä kaiken uskottavuuden kansansa keskuudessa. Hänen pojanpoikansa, Filip Kaunis, tekisi samoin.
 
 Kirkon teokraattinen kiusaus törmää myös "jumalallisen oikeuden" teoriaan. Jos Ranskan kuninkaat julistautuvat "jumalallisella oikeudella" monarkeiksi, se on paavin otteen välttämiseksi ja vetääkseen auktoriteettinsa suoraan Jumalalta, ilman että heidän tarvitsee ottaa käskyjä papistolta.
-## Raamatullinen etiikka: Yksilön pyhä arvo<chapterId>7a27494d-8481-52ea-a551-e430bdb5315f</chapterId>
+
+## Raamatullinen etiikka: Yksilön pyhä arvo
+
+<chapterId>7a27494d-8481-52ea-a551-e430bdb5315f</chapterId>
+
 Muinaiset ajattelutavat alistivat ihmisen jumalalliseen kosmokseen, eli täydelliseen maailmankaikkeuteen, jonka osa hän oli vain. Monoteismi puolestaan väittää ihmisen äärettömän ylemmyyden luontoa kohtaan, sikäli kuin ihminen on luotu Jumalan kuvaksi. Tämä ratkaiseva kohta on todellisen eettisen vallankumouksen alkuperä. Raamattu vahvistaa jokaisen ihmisen pyhän ja äärettömän arvon.
 
 Tämän vuoksi raamatullinen etiikka muuttaa suhdettamme pahaan. Se tuo terävän ja ennennäkemättömän herkkyyden ihmiskärsimykselle. Se rohkaisee meitä pitämään epänormaalina ja sietämättömänä pahuuksia, jotka ihmiskunta siihen asti oli pitänyt täysin siedettävinä, erityisesti pahuutta, joka kohdistuu toisiin, heikkoihin, viattomiin.
@@ -666,6 +699,7 @@ Alkuperäiskansojen asia oli ensimmäinen särö politiikka-uskonnollisessa mono
 Ihmiskunnan idea etenee. Alettiin tehokkaasti pitää ajatusta, että on vain yksi ihmiskunta, johon luonnostaan liittyvät yhtäläiset oikeudet. Mutta sen hyväksyminen kaikkien toimesta vie vielä aikaa. Tämä vaatii erityisesti luonnontieteiden panosta ihmislajin käsitteen kanssa.
 
 ## Kapitalismin ensiaskelmat
+
 <chapterId>236bdeeb-7bd3-536a-9df1-8791800bf31e</chapterId>
 
 Olemme nähneet, että kristinusko asettaa ihmisille moraalisen velvollisuuden työskennellä maailman parantamiseksi. Jumala haluaa ihmisen olevan onnellinen, mutta ei halua saavuttaa hänen hyväänsä hänen puolestaan. Siksi kristityn on taisteltava moraalista pahaa vastaan, rakastettava lähimmäistään, autettava uhreja, lyhyesti sanottuna, työskenneltävä oikeudenmukaisemman ja inhimillisemmän maailman puolesta. Onko kapitalismi, eli vapaa talous, joka perustuu yksityisomaisuuteen ja sopimusvapauteen, yhteensopiva kristillisen velvollisuuden kanssa?
@@ -697,6 +731,7 @@ Tai Le Goff korostaa teoksessaan _L'usure au Moyen Âge_ (1967, uudelleenjulkais
 Ranskalaisen historioitsijan mukaan kapitalismin nousu on kuitenkin sijoitettava laajemman taloudellisen, sosiaalisen ja kulttuurisen muutoksen kontekstiin, joka kehittyi useiden vuosisatojen aikana. Le Goff korostaa erityisesti 15. ja 16. vuosisatojen kaupallisen vallankumouksen merkitystä, jota merkittiin merikaupan laajentumisella ja uusien kauppareittien löytämisellä, mikä stimuloi pääoman kertymistä ja markkinalogiikan hallitsevuutta.
 
 ### Kritiikkiä rahamanipulaatioista
+
 Taloudellisten lakien systemaattinen tutkimus alkaa korkeakeskiajalla. Ensimmäiset taloustieteilijät ovat Pariisin koulun skolastiset teologit. Ensimmäisenä heistä tieteellisen tutkielman, joka on kokonaan omistettu taloudelliselle aiheelle, kirjoitti Nicolas Oresme (1325-1382). Noin vuonna 1360 hän laati teoksensa _Rahojen alkuperästä, luonteesta, laista ja muutoksista_, joka tiivistää ja kehittää aikansa skolastikkojen ajatuksia.
 ![kuva](assets/3/img-031.webp)
 
@@ -704,6 +739,7 @@ Hänen rahataloudellisen analyysinsä ytimessä on rahojen "muutosten" ongelma, 
 
 Oresme esittää välittömästi keskeisen kysymyksen: onko inflaatio hyödyllistä yhteisölle? Hän vastaa kielteisesti, väittäen, että inflaatio ei tee rahasta yhtään hyödyllisempää vaihdossa. Talous voi toimia hyvin riippumatta hintatasosta, ja siten riippumatta nimellisestä rahamäärästä.
 Mutta jos näin on, toinen kysymys ilmeisesti nousee esiin: miksi rahan arvon muutoksia sitten tapahtuu? Ja erityisesti, miksi pyrkiä lisäämään rahamäärää? Oresme vastaa, että näillä muutoksilla ei ole samoja seurauksia yhteisön eri jäsenille. Ne hyödyttävät tiettyjä ihmisiä toisten kustannuksella. Rahan arvon muutosten voittajilla on materiaalinen etu niiden toteuttamisessa. Yleensä nämä voittajat ovat vallassa olevia ihmisiä. Oresme kirjoittaa:
+
 > Minusta näyttää, että ensisijainen ja lopullinen syy, miksi ruhtinas haluaa ottaa valtaansa muuttaa valuuttoja, on hyöty tai voitto, jonka hän siitä saa, sillä muutoin ei olisi järkeä, että hän tekisi niin monta ja niin merkittävää muutosta.
 
 Sitten hän lisää nämä yksityiskohdat:
@@ -715,10 +751,14 @@ Oresme korostaa, että rahan arvon muutokset eivät ole vain uudelleenjakopeliä
 Lisäksi, jos kaksi eri valuuttaa hyötyy laillisesta maksuvälineestä, toimijat hamstraavat arvokkaampaa, joten vain alempiarvoinen valuutta jää kiertoon. (Oresme ennakoi tässä kuuluisaa "Greshamin lakia": huono raha syrjäyttää hyvän laillisessa maksuvälinejärjestelmässä.) Hän päättelee, että valuutan manipuloinnit ovat pahempia kuin koronkiskonta ja että ne todennäköisesti olivat merkittävä syy Rooman valtakunnan taantumiseen, kuten aiemmin on nähty.
 
 # Vapauden nousu: Renessanssista valistukseen
+
 <partId>58793f94-f217-530a-a877-b5b6df70a5fe</partId>
 
 ## Vetoomus uskonnollisen suvaitsevaisuuden puolesta
-<chapterId>c4c9a729-4a0f-5814-8e32-9aff4d373018</chapterId>Renessanssista lähtien Eurooppaa repivät uskonsodat. Toleranssi, suvaitsevaisuus, tuli siis yhdeksi valistuksen suurista taisteluista.
+
+<chapterId>c4c9a729-4a0f-5814-8e32-9aff4d373018</chapterId>
+
+Renessanssista lähtien Eurooppaa repivät uskonsodat. Toleranssi, suvaitsevaisuus, tuli siis yhdeksi valistuksen suurista taisteluista.
 ![image](assets/4/img-112.webp)
 
 Joidenkin mielestä tieteellinen menetelmä voisi yhdistää ihmisiä yli ennakkoluulojen yhteisellä maailmankuvalla. Eikö universaali vetovoima ole sama katolilaiselle, protestantille, juutalaiselle tai ateistille? Näin ollen Diderot'n ja d’Alembert'n Encyclopédie edustaa yritystä edistää universaalia tietoa, joka kykenee yhdistämään ihmisiä.
@@ -729,7 +769,7 @@ Voltaire ajatteli samoin kaupankäynnistä. Se voisi luoda suvaitsevaisuutta, pa
 
 Voltairen mukaan se on ensisijaisesti ihmisen erehtyväisyys, joka muodostaa suvaitsevaisuuden ja poliittisen vapauden oppirakennelman perustan. Hän kirjoittaa _Filosofisessa sanakirjassaan_ (1764):
 
->Suvaitsevaisuus on välttämätön seuraus tietoisuudestamme olla erehtyväisiä. Ihminen erehtyy, ja me kaikki teemme jatkuvasti virheitä. Antakaamme toisillemme anteeksi hulluutemme; tämä on luonnon ensimmäinen laki.
+> Suvaitsevaisuus on välttämätön seuraus tietoisuudestamme olla erehtyväisiä. Ihminen erehtyy, ja me kaikki teemme jatkuvasti virheitä. Antakaamme toisillemme anteeksi hulluutemme; tämä on luonnon ensimmäinen laki.
 
 ![image](assets/4/img-078.webp)
 
@@ -747,8 +787,9 @@ Mitä enemmän kaupankäyntiä arvostetaan, sitä enemmän ennakkoluulot haalist
 _Kuudennessa kirjeessä_, _"Presbyteereistä"_, Voltaire tarjoaa esimerkin Lontoon pörssistä. Tässä kansainvälisen kaupankäynnin huipussa "juutalainen, muslimi ja kristitty" käyvät kauppaa keskenään, "kuin he olisivat samaa uskontoa". He varaavat "uskottomien" nimen vain niille, jotka menevät konkurssiin.
 
 Tämä kohta on lainaamisen arvoinen kokonaisuudessaan, koska se on niin kuuluisa:
+
 > Astu sisään Lontoon pörssiin, paikkaan, joka on arvokkaampi kuin monet oikeussalit; siellä näet edustajia kaikista kansakunnista kokoontuneena ihmiskunnan hyödyksi. Siellä juutalainen, muslimi ja kristitty käyvät kauppaa keskenään kuin olisivat samaa uskontoa, ja ainoastaan ne, jotka menevät konkurssiin, kutsutaan uskottomiksi; siellä presbyteeri luottaa anabaptistiin, ja anglikaani hyväksyy kveekarin lupauksen. Näistä rauhallisista ja vapaista kokoontumisista lähdettyään jotkut menevät synagogaan, toiset juomaan; yksi menee kastettavaksi suuressa ammeessa Isän, Pojan ja Pyhän Hengen nimeen; toinen leikkaa poikansa esinahan ja mumisee heprealaisia sanoja lapsen yli, joita hän ei ymmärrä; toiset menevät kirkkoonsa odottamaan Jumalan inspiraatiota, hatut päässään, ja kaikki ovat tyytyväisiä.
-Kaupankäynti yhdistää siis ihmisiä "saman uskonnon" ympärille, voiton. Ja se mahdollistaa yksilöiden näkökulmien ylittämisen uskonnollisissa tai luokkaeroissa, jotka ovat konfliktien alkuperä. Englannissa voitto on siis rauhan uskonto. Entä Ranskassa?
+> Kaupankäynti yhdistää siis ihmisiä "saman uskonnon" ympärille, voiton. Ja se mahdollistaa yksilöiden näkökulmien ylittämisen uskonnollisissa tai luokkaeroissa, jotka ovat konfliktien alkuperä. Englannissa voitto on siis rauhan uskonto. Entä Ranskassa?
 
 _Kymmenennessä kirjeessä_, "Kaupankäynnistä", Voltaire kuvailee ranskalaista ajattelutapaa seuraavasti: "kauppias kuulee usein ammattiaan halveksittavan, siinä määrin, että hän on typerästi häpeissään siitä." Sitä vastoin Englannissa kauppias tuntee "oikeutettua ylpeyttä" ja vertaa itseään "ei ilman syytä, roomalaiseen kansalaiseen". Voltaire kunnioittaa englantilaista keskiluokkaa, heidän kaupankäyntiään ja heidän rauhallista yhteiskuntaansa.
 
@@ -767,7 +808,9 @@ Toisin sanoen, suvaitsevaisuus ei tarkoita uskonnollisuuden vastustamista. Se ta
 - Ideoita tulisi vaihtaa, aivan kuten tavaroita
 
 ## Taloudellisen vapauden puolesta
+
 <chapterId>23fbb745-4fd1-5322-8fba-3ff2e998c7e2</chapterId>
+
 Taloudellinen liberalismi yhdistetään usein anglosaksiseen perinteeseen, joka juontaa juurensa Adam Smithistä, verrattuna "poliittiseen liberalismiin", jonka sanotaan olevan peräisin mannermaisesta valistuksesta, erityisesti Ranskasta. Tämä näkemys on virheellinen.
 
 ![kuva](assets/4/img-069.webp)
@@ -816,6 +859,7 @@ Fysiokraateille vapaus ei jaa. Poliittisten etuoikeuksien vastustaminen ja talou
 Todellakin, miten saada yhteen eri intressejä omaavat ihmiset? Mitä tehdä, jos ihmiset joutuvat konfliktiin, jos he tekevät virheitä, jos he ovat ahneita ja itsekkäitä?
 
 Fysiokraatit vastasivat kolmessa vaiheessa:
+
 1. Sopimusten vapaus mahdollistaa eturistiriitojen ratkaisemisen, ei sosiaalinen sopimus, joka on pseudo-sopimus, koska sitä ei voi rikkoa. Sosiaalisten ongelmien analysointi markkinoiden ja vaihdon näkökulmasta mahdollistaa suhteiden tarkastelun yksilöiden ja kansakuntien välillä positiivisena summapelinä ja käsittelee sekä instituution että yhteiskunnan sääntelyn kysymyksiä väittäen, että tarve ja etu yksin hallitsevat ihmisten välisiä suhteita.
 2. Luonnollinen vapaus on oikeus määrätä itsestään ja omaisuudestaan. Siksi etujen harmonia on mahdollista legitiimin omaisuuden kunnioittamisen perusteella, joka on hankittu työn kautta ja juontuu kykyjemme käytöstä. Ja juuri tämä omaisuuteen perustuva vapaus on avain sosiaaliseen ongelmaan, ei lain rajoitukset.
 3. Valtion rooli on sopimusten täytäntöönpano ja ihmisten sekä omaisuuden turvallisuuden takaaminen. Tämä on kuuluisa "Laissez faire," fysiokraattien motto. Valtio hallitsee paremmin, kun se hallitsee vähemmän ja antaa yksilöille vapauden ottaa aloitteita ja kantaa vastuunsa.
@@ -823,6 +867,7 @@ Fysiokraatit vastasivat kolmessa vaiheessa:
 Lyhyesti sanottuna, jos jokainen voi vapaasti tavoitella omaa etuaan luonnonlain kunnioittamisen puitteissa, kaikkien rauha ja vauraus turvataan paremmin kuin poliittisella organisaatiolla, joka määrittelisi yleisen edun ylhäältä käsin ja määräisi sen lain rajoitusten kautta. Poliittinen vapaus on hyödyllinen asia, mutta se ei riitä antamaan yksilöille heidän tarvitsemaansa päätöksen ja toiminnan autonomiaa. Tällainen on fysiokraattien opetus. Ranskan liberaali koulu 1800-luvulla, Sayn, Constantin, Dunoyerin, Bastiatin ja Molinarin kanssa, muistaa tämän ja puolustaa loistavasti tätä perintöä nousevaa sosialismia vastaan.
 
 ## Vapauden kannalta merkittävä vuosi: 1776
+
 <chapterId>c1ba85f8-e8d1-5794-b198-8c683efb0d9b</chapterId>
 
 1776 on vuosi, joka usein jää huomaamatta historian oppikirjoissa. Mutta kolmessa maassa, Ranskassa, Skotlannissa ja Pohjois-Amerikassa, useat tapahtumat jättävät lähtemättömän jäljen vapauden historiaan.
@@ -832,7 +877,7 @@ Lyhyesti sanottuna, jos jokainen voi vapaasti tavoitella omaa etuaan luonnonlain
 Lyhyen aikansa valtiovarainministerinä (Controller General) elokuusta 1774 toukokuuhun 1776, Ann-Robert Jacques Turgot yritti merkittäviä uudistuksia lopettaakseen tuhlailevan kulutuksen, lukuisat paikalliset monopolit ja palata vapaakauppaan. Hän meni jopa niin pitkälle, että nuhteli kuningas Ludvig XVI:a näin:
 
 > Teidän on, Sire, varustauduttava ystävällisyydellänne itseään vastaan, ottaen huomioon, mistä rahat, joita voitte jakaa hovimiehillenne, tulevat.
-Vuonna 1774 hän julkaisi kuusi asetusta poistaakseen kiltat ja mestaruuksien (yhtiöt, jotka olivat muuttuneet monopoleiksi ja esteiksi työmarkkinoille pääsyssä) hallinnan, poistaakseen sisäiset tullimaksut viljakaupasta, lakkauttaakseen pakkotyön (corvée) ja salliakseen suvaitsevaisuuden protestantteja kohtaan.
+> Vuonna 1774 hän julkaisi kuusi asetusta poistaakseen kiltat ja mestaruuksien (yhtiöt, jotka olivat muuttuneet monopoleiksi ja esteiksi työmarkkinoille pääsyssä) hallinnan, poistaakseen sisäiset tullimaksut viljakaupasta, lakkauttaakseen pakkotyön (corvée) ja salliakseen suvaitsevaisuuden protestantteja kohtaan.
 
 Valitettavasti viljan hinnan nousu, seurauksena huonosta sadosta, asetti epäilyksen hänen uudistuksiinsa. Turgot kirjoitti puolustuksekseen:
 
@@ -919,6 +964,7 @@ Smithin tärkein panos vapauteen oli spontaanin järjestyksen idean selventämin
 Tämä spontaanin järjestyksen idea tulisi olemaan keskeinen käsite Friedrich Hayekin työssä, joka tunnustaisi velkansa skotlantilaiselle valistukselle ja erityisesti Adam Smithille.
 
 ## Vallankumousten aikakausi
+
 <chapterId>c260e3ab-31a2-5ad7-b775-4bdcdc13b859</chapterId>
 
 Tämän modernin ajanjakson suuri uutuus länsimaisessa historiassa on yhteiskunnan esiinmarssi, joka järjestäytyy uskonnollisen riippuvuuden ulkopuolella. Tämä ei tarkoita uskonnollisen uskon katoamista tai Jumalan kuolemaa. Mutta Jumalasta tulee yksityisasia, joka ei sekoitu enää poliittisiin asioihin. Uskonto ei katoa, mutta sen ohjaava rooli syrjäytetään. Se muuttuu yksilöllisten uskomusten järjestelmäksi.
@@ -930,6 +976,7 @@ Olemme puhuneet taloustieteilijöistä ja heidän vapaan markkinan puolustuksest
 18. vuosisadalle asti näiden filosofien pääasiallinen poliittinen ongelma on siis suvereniteetin kysymys. Se on ensisijaisesti oikeudenmukaisuuden kysymys: kuka voi legitiimisti harjoittaa suvereniteettia?
 
 ### Kansan suvereniteetti
+
 Ajatus sai inspiraationsa Lockelta 17. vuosisadalla ja sitten Rousseau otti sen käyttöön. Suvereenin vallan ei tule ainoastaan lähteä kansan vapaasta tahdosta, vaan sen tulee myös asua siinä. Tämä on Rousseaulainen yleisen tahdon suvereniteetin teoria, mitä me tänään kutsumme demokratiaksi.
 ![kuva](assets/4/img-071.webp)
 
@@ -959,6 +1006,7 @@ Lisäksi Ranskan ihmisoikeuksien ja kansalaisoikeuksien julistuksen artikla 2 vu
 > Kaiken poliittisen yhdistymisen tavoite on ihmisen luonnollisten ja peruuttamattomien oikeuksien säilyttäminen. Nämä oikeudet ovat vapaus, omaisuus, turvallisuus ja sortoa vastustaminen.
 
 ### Kaksi vallankumousta vertailussa
+
 Amerikkalainen vallankumous johtiin miesten toimesta, jotka puhuivat perustavanlaatuisista, luovuttamattomista oikeuksista. Se johti hajautetun ja rajoitetun lainvaltion muodostumiseen. Atlantin toisella puolella tapahtui toinen poliittinen kokeilu: Ranskan vallankumous, joka alkoi rohkeana kansannousuna, päättyi sarjaan verilöylyjä, verisiä sisäisiä konflikteja ja tasoitti tietä Napoleon Bonaparten sotilasdiktatuurille. Miksi tällainen ero?
 
 1800-luvulla Alexis de Tocqueville, ranskalainen poliittinen filosofi, yritti paikantaa näitä eroja kahden sisarvallankumouksen välillä. Hän katsoo Amerikan vallankumouksen menestyksen johtuvan useista tekijöistä.
@@ -999,11 +1047,16 @@ Tämä on myös Friedrich Hayekin kirjassaan _Vapauden perustus_ esittämän huo
 
 # Huippu ja Taantuma: 19. vuosisadalta 20. vuosisadalle
 
+<partId>39810d57-19e3-5166-8f2e-40b763154148</partId>
+
 ## Modernien Vapaus
+
+<chapterId>e575f4c1-7144-591b-ab98-d976ec4102fb</chapterId>
 
 Benjamin Constantin mukaan vapaus nyky-yhteiskunnissamme ei voi enää ymmärtää antiikin yhteiskuntien tavoin suorana osallistumisena kaupungin asioihin.
 
 ### Yksityiselämän Vapaus
+
 Muinaisina aikoina yksilö oli suvereeni julkisissa asioissa mutta orjuutettu kaikissa yksityisissä suhteissaan. Yksilön vapauden uhraaminen korvattiin poliittisten oikeuksien käytöllä: oikeudella suoraan harjoittaa eri osia suvereniteetista, keskustella julkisella torilla, äänestää laeista, lausua tuomioita, arvioida ja tuomita virkamiehiä. Se on poliittista ja kollektiivista vapautta:
 Muinaisten vapaus koostui aktiivisesta ja jatkuvasta osallistumisesta kollektiiviseen valtaan. Meidän vapautemme sen sijaan täytyy koostua yksityisen riippumattomuuden rauhanomaisesta nautinnosta; tästä seuraa, että meidän täytyy olla paljon kiinnittynempiä kuin muinaiset yksilölliseen riippumattomuuteemme. (_Muinaisten vapauden vertailu nykyaikaisten kanssa_ (1819))
 ![image](assets/5/img-084.webp)
@@ -1012,7 +1065,7 @@ Nykyajan vapaus on siviilivapautta, joka sisältää taloudellisen vapauden ja p
 
 Tämä vapauden määritelmä löytyy John Stuart Milliltä:
 
->Ainoa vapaus, joka ansaitsee nimensä, on vapaus tavoitella omaa hyväämme omalla tavallamme, niin kauan kuin emme yritä riistää toisilta heidän omaansa tai estää heidän pyrkimyksiään saavuttaa sitä. (...) Ihmiskunta hyötyy enemmän antamalla jokaisen elää kuten he näkevät sopivaksi kuin pakottamalla heidät elämään kuten muut pitävät hyvänä. (_Vapaudesta_, 1859)
+> Ainoa vapaus, joka ansaitsee nimensä, on vapaus tavoitella omaa hyväämme omalla tavallamme, niin kauan kuin emme yritä riistää toisilta heidän omaansa tai estää heidän pyrkimyksiään saavuttaa sitä. (...) Ihmiskunta hyötyy enemmän antamalla jokaisen elää kuten he näkevät sopivaksi kuin pakottamalla heidät elämään kuten muut pitävät hyvänä. (_Vapaudesta_, 1859)
 
 ![image](assets/5/img-097.webp)
 
@@ -1027,17 +1080,20 @@ Mutta tämä ei tarkoita poliittisen vapauden, vallan osallistumisen, uhraamista
 
 Todellakin, hänen _Politiikan periaatteissaan_, Benjamin Constant väittää:
 
->Kansan suvereniteetti ei ole rajaton, se on rajattu oikeudenmukaisuuden ja yksilöiden oikeuksien piirtämiin rajoihin. Koko kansan tahto ei voi tehdä oikeudenmukaista siitä, mikä on epäoikeudenmukaista.
-Tämä on uusi kritiikki Rousseauta ja _Yhteiskuntasopimusta_ kohtaan: edes yleinen tahto ei ole rajoitukseton, eikä se voi muuttaa sitä, mikä kuuluu luonnonlakiin. Olemassa on oikeus, joka on poliittista valtaa edeltävä ja ylempi: se on luonnonlaki. Tämä oikeus asettaa rajat poliittiselle vallalle ja rajoittaa yksilön vapauksia.
-Sanoa, että kaikki legitiimi valta tulee perustua yleiseen tahtoon, ei tarkoita, että kaikki, mitä yleinen tahto päättää, on legitiimiä. Constant asettuukin näin yhteen Ihmisoikeuksien julistuksen kanssa vuodelta 1789, artikla II, joka määrää, että valtio on perustettu ainoastaan luonnollisten oikeuksien, eli vapauden, vastuun ja omaisuuden, säilyttämiseksi. On siis olemassa alueita, joilla poliittisella vallalla ei ole vaikutusvaltaa: moraali ja uskonto, mutta myös tieteet, jotka kuuluvat tiedon valtaan ja lopulta teollisuus, lisää Constant.
+> Kansan suvereniteetti ei ole rajaton, se on rajattu oikeudenmukaisuuden ja yksilöiden oikeuksien piirtämiin rajoihin. Koko kansan tahto ei voi tehdä oikeudenmukaista siitä, mikä on epäoikeudenmukaista.
+> Tämä on uusi kritiikki Rousseauta ja _Yhteiskuntasopimusta_ kohtaan: edes yleinen tahto ei ole rajoitukseton, eikä se voi muuttaa sitä, mikä kuuluu luonnonlakiin. Olemassa on oikeus, joka on poliittista valtaa edeltävä ja ylempi: se on luonnonlaki. Tämä oikeus asettaa rajat poliittiselle vallalle ja rajoittaa yksilön vapauksia.
+> Sanoa, että kaikki legitiimi valta tulee perustua yleiseen tahtoon, ei tarkoita, että kaikki, mitä yleinen tahto päättää, on legitiimiä. Constant asettuukin näin yhteen Ihmisoikeuksien julistuksen kanssa vuodelta 1789, artikla II, joka määrää, että valtio on perustettu ainoastaan luonnollisten oikeuksien, eli vapauden, vastuun ja omaisuuden, säilyttämiseksi. On siis olemassa alueita, joilla poliittisella vallalla ei ole vaikutusvaltaa: moraali ja uskonto, mutta myös tieteet, jotka kuuluvat tiedon valtaan ja lopulta teollisuus, lisää Constant.
 
 ### Poliittinen vapaus ja taloudellinen vapaus
+
 Benjamin Constantin mukaan pelkkä poliittinen vapaus ilman muita vapauksia on vain harhakuva. Poliittinen vapaus on vapautta osallistua vallan käyttöön. Kuitenkin kansan tai massojen valta voi olla vapauksia tuhoavaa, koska se antaa äänestävälle enemmistölle oikeuden määrätä tahtonsa koko yhteiskunnalle, mukaan lukien sen oikut tai hetken ideologian: korvaamattomat verot, yksipuolisen ajattelun pakottaminen, sensuuri, sorto ja henkinen terrorismi. Siksi todellinen vapaus ei ole mahdollista ilman kansalaisoikeuksia, mukaan lukien uskonnonvapaus ja taloudellinen vapaus. Benjamin Constant ei erota poliittista liberalismia taloudellisesta liberalismista:
+
 > Neljänkymmenen vuoden ajan olen puolustanut samaa periaatetta, vapautta kaikessa, uskonnossa, filosofiassa, kirjallisuudessa, teollisuudessa, politiikassa: ja vapaudella tarkoitan yksilöllisyyden voittoa sekä vallanharjoittajan despotismin että massojen yli, jotka vaativat oikeutta orjuuttaa vähemmistö enemmistölle. Despotismilla ei ole oikeutta. Enemmistöllä on oikeus pakottaa vähemmistö kunnioittamaan järjestystä: mutta kaikki, mikä ei häiritse järjestystä, kaikki, mikä on vain sisäistä, kuten mielipide; kaikki, mikä mielipiteen ilmaisussa ei vahingoita muita, joko provosoimalla materiaalista väkivaltaa tai vastustamalla vastakkaista ilmaisua; kaikki, mikä teollisuuden alalla sallii kilpailevan teollisuuden toimia vapaasti, on yksilöllistä, eikä sitä voida legitiimisti alistaa sosiaalisen vallan alaisuuteen.
 
 Toisin sanoen vapaassa yhteiskunnassa on välttämätöntä asettaa tiukka raja julkisen ja yksityisen sektorin välille. Tämän rajan periaate perustuu toisten vahingoittamattomuuteen, eli heidän omaisuuteensa kohdistumattomuuteen.
 
 ## Demokratian vahvuudet ja heikkoudet
+
 <chapterId>753e065d-dbee-5d61-aa56-b1c074c95499</chapterId>
 
 Alexis de Tocqueville oli tarkkanäköinen demokratian tarkkailija ja demokraattisen individualismin kriitikko.
@@ -1063,13 +1119,14 @@ Todellakin, tasa-arvoistuminen on mukanaan suurempaa yksilöiden haurautta, jotk
 _Demokratia Amerikassa_-teoksen kirjoittaja varoittaa meitä:
 
 > Todellakin, on olemassa jalostava ja laillinen tasa-arvon intohimo, joka innostaa ihmisiä haluamaan olla kaikki vahvoja ja arvostettuja. Tämä intohimo pyrkii nostamaan pienet suurten tasolle; mutta on myös ihmisen sydämessä turmeltunut maku tasa-arvoon, joka johtaa heikot haluamaan tuoda vahvat tasolleen, ja joka saa ihmiset suosimaan tasa-arvoa orjuudessa epätasa-arvoon vapaudesta. (...) Nykyajan kansakunnat eivät voi tehdä niin, että niiden sisällä olevat olosuhteet eivät olisi tasa-arvoisia; mutta niiden tehtävänä on, johtaako tasa-arvo heidät orjuuteen vai vapauteen, valaistumiseen vai barbaarisuuteen, vaurastumiseen vai kurjuuteen.
-Tocquevillen mukaan ihminen on paljon enemmän kiinnostunut tasa-arvosta kuin vapaudesta. Ja hän näkee tämän suurena vaarana demokratialle. Miksi ihminen suosii kahta intohimoa tasa-arvon välillä? Koska vapaus tuottaa suoraan nähtäviä kustannuksia, ja sen hyödyt ovat kaukaisempia, pitkällä aikavälillä kirjoitettuja (vapaus ei tarjoa sisältöä, vain kyvyn etsiä onnellisuutta oman arvionsa mukaan). Päinvastoin, tasa-arvo tuo välittömästi nähtäviä positiivisia tuloksia ja sen virheet paljastuvat vasta pitkällä aikavälillä.
+> Tocquevillen mukaan ihminen on paljon enemmän kiinnostunut tasa-arvosta kuin vapaudesta. Ja hän näkee tämän suurena vaarana demokratialle. Miksi ihminen suosii kahta intohimoa tasa-arvon välillä? Koska vapaus tuottaa suoraan nähtäviä kustannuksia, ja sen hyödyt ovat kaukaisempia, pitkällä aikavälillä kirjoitettuja (vapaus ei tarjoa sisältöä, vain kyvyn etsiä onnellisuutta oman arvionsa mukaan). Päinvastoin, tasa-arvo tuo välittömästi nähtäviä positiivisia tuloksia ja sen virheet paljastuvat vasta pitkällä aikavälillä.
 
 ### Oikeus Työhön
 
 Oikeus työhön on hyvä esimerkki demokraattisen egalitarismin harhautumisista. Puheessaan Perustuslakia Säätävälle Kokoukselle vuonna 1848 Tocqueville otti kantaa työhön oikeutta vastaan luonnostellussa perustuslaissa. Jos valtio ryhtyy tarjoamaan työtä kaikille työntekijöille, hän väitti, tai jos se varmistaa, että he aina löytävät sen työmarkkinoilta, kuten sosialistit haluavat, se joutuu "suureksi ja ainoaksi työn järjestäjäksi."
 
 Tässä puheessa Tocqueville vertaa sosialismia Ancien Régimeen, jolle "sen alamaiset ovat heikkoja ja avuttomia olentoja, joita on aina pidettävä kädestä, etteivät he kaadu tai satuta itseään." Sosialismi on siis "uusi orjuuden muoto" kolmesta syystä:
+
 1. Moraalisesti sosialismi edistää vastuuttomuutta ohjailevan ja kollektivistisen valtion kontrollin kautta. Se on aina luonteeltaan "syvä halveksunta yksilöä kohtaan sellaisenaan."
 
 2. Poliittisesti se on despoottinen, koska onnen nimissä se pyrkii tulemaan "jokaisen miehen herraksi, holhoojaksi ja kasvattajaksi."
@@ -1093,8 +1150,8 @@ Sosialististen ideoiden vallitessa Bastiat havaitsi, että vaalikoneistoa käyte
 Valtio muuttuu sitten Bastiatin sanoin,
 
 > suureksi fiktioksi, jonka kautta jokainen pyrkii elämään muiden kustannuksella. ([_Valtio_](http://bastiat.org/fr/l_etat.html))
-Bastiat kehittää myös ajatusta siitä, että konflikti syntyy, kun laki poikkeaa oikeutetusta roolistaan. Hänen kuuluisassa pamfletissaan [_Laki_](http://bastiat.org/fr/la_loi.html) hän osoittaa, miksi ja miten laki on muuttunut "kaiken ahneuden taistelutantereeksi", tarkoittaen etuoikeuksien, tilannesidonnaisten vuokrien ja mielivaltaisen verotuksen lähdettä. Heti kun periaatteessa myönnetään, että lakia voidaan ohjata pois sen todellisesta tehtävästä, että se voi loukata omaisuuksia sen sijaan, että takaisi ne, luokkataistelu seuraa väistämättä, joko puolustautuakseen ryöstöltä tai järjestääkseen sen omaksi hyödykseen.
-![image](assets/5/img-098.webp)
+> Bastiat kehittää myös ajatusta siitä, että konflikti syntyy, kun laki poikkeaa oikeutetusta roolistaan. Hänen kuuluisassa pamfletissaan [_Laki_](http://bastiat.org/fr/la_loi.html) hän osoittaa, miksi ja miten laki on muuttunut "kaiken ahneuden taistelutantereeksi", tarkoittaen etuoikeuksien, tilannesidonnaisten vuokrien ja mielivaltaisen verotuksen lähdettä. Heti kun periaatteessa myönnetään, että lakia voidaan ohjata pois sen todellisesta tehtävästä, että se voi loukata omaisuuksia sen sijaan, että takaisi ne, luokkataistelu seuraa väistämättä, joko puolustautuakseen ryöstöltä tai järjestääkseen sen omaksi hyödykseen.
+> ![image](assets/5/img-098.webp)
 
 Tapauksissa, joissa laki ainoastaan vahvistaa jokaisen yksilön oikeuksia ja takaa _"yksilön oikeuden legitiimiin puolustukseen kollektiivisen järjestämisen,"_ kukaan ei ole asemassa hyödyntämään sitä omaksi edukseen kaikkien kustannuksella, siinä määrin, että hallitusmuodon muoto muuttuu toissijaiseksi kysymykseksi.
 
@@ -1108,14 +1165,16 @@ Bastiatin johtopäätös:
 Katso maapalloa. Ketkä ovat onnellisimpia, moraalisimpia ja rauhallisimpia kansoja? Ne, joissa Laki puuttuu vähiten yksityiseen toimintaan; missä hallitus tuntuu vähiten; missä yksilöllisyys on joustavin ja julkinen mielipide vaikutusvaltaisin; missä hallinnolliset mekanismit ovat vähäisimmät ja vähiten monimutkaiset; verot vähiten rasittavat ja vähiten epätasaiset; kansan tyytymättömyys vähiten provosoitu ja vähiten perusteltu; missä yksilöiden ja luokkien vastuu on aktiivisin, ja missä, seurauksena, jos moraalit eivät ole täydellisiä, ne pyrkivät väistämättä korjaamaan itsensä; missä transaktiot, sopimukset, yhdistykset ovat vähiten estettyjä; missä työ, pääoma ja väestö kärsivät vähiten keinotekoisista siirtymistä ([_Laki_](http://bastiat.org/fr/la_loi.html))
 
 ## Marxilainen kapitalismin kritiikki
+
 <chapterId>16c82521-7c51-5d84-b660-0b358447e3bd</chapterId>
 
-19. vuosisadalla syntyi kapitalismin kritiikki, erityisesti marxilainen kritiikki.
+19 vuosisadalla syntyi kapitalismin kritiikki, erityisesti marxilainen kritiikki.
 
 ![image](assets/5/img-089.webp)
 Mikä hyöty on oikeudesta puhua, kirjoittaa ja äänestää, Marx huudahti, jos jokapäiväinen elämä on taistelua selviytymisestä? Tietyn kynnyksen ylittäessä köyhyys tarkoittaa orjuutta. Sosiaalinen järjestys hyödyttää siis kaikkia vain, jos sovelletaan tavaroiden oikeudenmukaisen jakamisen periaatetta. Juuri tämä liberalismiin kohdistuva kritiikki sai Marxin pohtimaan rationaalisen ja suunnitellun sosiaalisen järjestyksen hallinnan tarpeellisuutta. Tästä lähtien liberaalien minimaalisen valtion on seurattava vahvaa valtiota, joka kykenee perustamaan todellisen tasa-arvon, joka Marxin mukaan ulottuu yksityisomaisuuden lakkauttamiseen ja sen kollektivisointiin. Lievemmässä muodossa, "sosiaalidemokratiassa", valtiolta pyydetään takaamaan ei vain ihmisen abstraktit oikeudet, vaan myös konkreettiset oikeudet. Luodaan uusia oikeuksia, sosiaalisia ja taloudellisia oikeuksia, jotka valtio takaa: oikeus työhön, oikeus asuntoon, oikeus terveyteen (ilmainen), oikeus koulutukseen (ilmainen).
 
 ### Puolueettoman valtion myytti
+
 Marxin poliittisen liberalismin peruskritiikki, erityisesti hänen varhaisissa kirjoituksissaan (_Hegelin oikeusfilosofian kritiikki_ ja _Juutalaiskysymyksestä_), keskittyy siviiliyhteiskunnan ja valtion erottamiseen. Tämä kritiikki on ymmärrettävä hänen "Porvarillisen vallankumouksen" tulkintansa yleisessä kehyksessä. Juuri tämä vallankumous johtaa valtion muodostumiseen, joka on erillään siviiliyhteiskunnasta ja jonka oletetaan tavoittelevan universaalia, tarkoittaen yhteistä etua, toimimalla puolueettoman välittäjän roolissa.
 
 Kaikki tämä on kuitenkin Marxille vain petollista ulkokuorta. Todellisuudessa valtio on vain väline, joka on tarkoitettu palvelemaan hallitsevan luokan erityisiä etuja. Toisin sanoen, valtio ei ole puolueeton; se ei ole erillään siviiliyhteiskunnasta. Itse asiassa liberaali valtio on kaksinkertaisen harhakuvan paikka. Universaalin harhakuva, kuten juuri näimme, ja seurauksena vapautuksen harhakuva. Vallankumous vapautti kansalaisen perustamalla kansanvallan ja lain edessä olevan tasa-arvon, mutta tämä vapaus ja tasa-arvo pysyvät puhtaasti ideaalisina ja abstrakteina. On väärin, Marx sanoo, ajatella kuten Rousseau tai Hegel, että ihminen toteuttaa täysin rationaalisen luontonsa tulemalla kansalaiseksi. Todellisuudessa voi tulla kansalaiseksi ja pysyä hyväksikäytettynä, orjuutettuna, jätettynä halujen oikkujen armoille, itsekkyyden anarkiaan ja vahvimman lain alle.
@@ -1125,13 +1184,18 @@ Kansalaisen vapauttaminen, Marxin mukaan, ei lainkaan merkitse ihmisen vapauttam
 Tämä poliittinen harhakuva liberalismista on uskonnollisen harhakuvan maallinen puoli, Marx lisää. Kaava on tunnettu: "uskonto on kansan oopiumia." Uskonto on lohdutus, se tarjoaa euforiaa ja lupaa vapautusta tuonpuoleisessa. Mutta se ohjaa ihmisen pois hänen todellisesta vapautumisestaan täällä maan päällä. Kansalaisuus on, verrattuna työntekijän toimintaan, kuin Jumalan valtakunta suhteessa kurjaan olemassaoloon tällä maapallolla. Sitä ei koskaan toteuteta. Tämä kaksinkertainen erottaminen muodostaa kaksinkertaisen vieraantumisen, tarkoittaen ihmisen ihmiskunnan täyttymättömyyttä tai hänen kuvitteellista saavutustaan.
 
 ### Taloudellinen vieraantuminen
+
 Itse asiassa Marxille ja historiallisen materialismin mukaisesti taloudellinen vieraantuminen on poliittisen vieraantumisen sekä uskonnollisen vieraantumisen juurisyy. Taloudellisessa vieraantumisessa, joka on kapitalismin (määritelty yksityisen omistuksen kautta tuotantovälineisiin) seurausta, työntekijä pakotetaan myymään työvoimansa tavaran tavoin. Lisäksi häneltä riistetään hänen työnsä tuote, joka kuuluu työnantajalle. Hän on näin ollen vieraantunut, tarkoittaen erillään itsestään, koska hänen työnsä muuttuu hänelle vieraaksi asiaksi, jonka hän suorittaa pakosta, selviytyäkseen. Työ on kuitenkin Marxille ihmisen toiminnan ydin, se kautta ihmisen olemuksen, nimittäin vapauden, toteutetaan. Tämän vuoksi työn vapauttaminen tarkoittaa myös ihmisen palauttamista hänen arvoonsa ja ihmisyyteensä.
 
 Politiikkaan perustuva vallankumous on siis hänen mukaansa harhakuvitelma, niin kauan kuin sitä ei seuraa taloudellinen ja sosiaalinen vallankumous, joka kykenee vapauttamaan ihmisen kapitalistisesta orjuudesta ja siten saavuttamaan yhtenäisyyden työntekijän ja kansalaisen, yhteiskunnan ja valtion, yksityisen ja julkisen sektorin välillä. Kansalaisen muodollinen vapaus ja tasa-arvo muuttuvat siten todellisiksi, luokattomassa yhteiskunnassa.
 
 ## Itävaltalainen kritiikki marxilaisuutta kohtaan
 
+<chapterId>f05dae71-c478-5de1-996e-1b7b4255d373</chapterId>
+
 Itävallan taloustieteen koulu, jonka perusti Carl Menger 1800-luvun lopussa, vastusti Karl Marxin teorioita alusta alkaen.
+
+![image](assets/5/img-083.webp)
 
 ### Luokkataistelu
 
@@ -1181,6 +1245,7 @@ Marxilaiset uskovat, että sosialismi, talousjärjestelmä, jossa tuotannon väl
 Jo vuonna 1922 kirjassaan _Sosialismi,_ Ludwig von Mises osoitti, että sosialismi johtaisi laajoihin pula-aikoihin, koska keskussuunnittelijat eivät pystyisi tekemään tarkkoja taloudellisia laskelmia ilman markkinoiden tarjoamaa hintajärjestelmää.
 
 ## Tie Orjuuteen
+
 <chapterId>3f92f346-3062-5f76-8c54-3a9075e2b030</chapterId>
 
 Länsidemokratioiden talouksien hallituksen interventioismin noususta huolestuneena Hayek kirjoitti _Tie Orjuuteen_ filosofisena kritiikkinä kollektivismille, oli se sitten oikealta tai vasemmalta. Julkaistu useassa miljoonassa kappaleessa kiitos _Reader’s Digestin_, tämä kirja on suuresti edesauttanut Hayekin maineen kasvua Yhdysvalloissa.
@@ -1195,7 +1260,7 @@ Todellakin, sama poliittisen keskittämisen prosessi ja sama halu korvata dirigi
 Aito liberalismi puolestaan on huolissaan oikeudenmukaisuudesta. Mutta Hayek muistuttaa meitä siitä, että solidaarisuuden järjestäminen kuuluu siviiliyhteiskunnalle eikä valtiolle. Liberalismin ja sosialismin erottavat eivät ole päämäärät, vaan keinot. Hayekin mukaan,
 
 > Liberalismi haluaa meidän hyödyntävän kilpailun voimia mahdollisimman hyvin ihmisten ponnistelujen koordinoimiseksi; se ei halua meidän jättävän asioita sellaisiksi kuin ne ovat.
-Siksi Hayek lisää, että valtiolla on kiistaton toiminta-alue:
+> Siksi Hayek lisää, että valtiolla on kiistaton toiminta-alue:
 > Luoda olosuhteet, joissa kilpailu on mahdollisimman tehokasta, korvata se, missä se ei voi olla tehokasta, tarjota palveluita, jotka ovat sellaisia, että voitto, Smithin kaavan mukaan, ei voi korvata kustannuksia millekään ryhmälle.
 
 Päinvastoin, talouden ja yhteiskunnan suunnittelu yleisesti, sosialismin ydin, on suunnattu kilpailua vastaan sinänsä. Hayekin mukaan sosialismin päämäärien (sosiaalinen oikeudenmukaisuus, tasa-arvo ja turvallisuus) ja sosialismin näkemien keinojen saavuttamiseksi (yksityisomaisuuden lakkauttaminen, tuotantovälineiden kollektivisointi, suunniteltu talous) välillä on yhteensopimattomuus.
@@ -1207,8 +1272,8 @@ Ensimmäisiltä sivuilta lähtien Hayek luo rinnakkaisuuden lännen sosialistist
 ![kuva](assets/5/img-093.webp)
 
 > Harvat ihmiset, hän varoittaa esipuheessaan, ovat valmiita tunnustamaan, että fasismin ja natsismin nousu ei ollut reaktio edellisen ajan (...) suuntauksia vastaan, vaan näiden suuntausten väistämätön seuraus. Tämä on jotain, mitä useimmat ihmiset ovat kieltäytyneet näkemästä, jopa siinä hetkessä, kun he havaitsivat yhtäläisyyksiä tiettyjen Neuvostoliiton ja natsi-Saksan kotimaisten hallintojen kielteisissä piirteissä. Seurauksena on, että monet ihmiset, jotka pitävät itseään hyvin yläpuolella natsismin harhakuvitelmista ja jotka vilpittömästi vihaavat kaikkia sen ilmentymiä, työskentelevät samanaikaisesti ihanteiden puolesta, joiden toteutuminen johtaisi suoraan tähän inhottuun tyranniaan.
-Hayekin mukaan sosialismilla ja natsismilla on useita perustavanlaatuisia yhtäläisyyksiä, erityisesti individualismin ja markkinoiden spontaanin järjestyksen hylkääminen. Molemmat ideologiat asettavat ryhmän hyvinvoinnin yksilön oikeuksien ja vapauksien edelle ja pyrkivät luomaan homogeenisen yhteiskunnan, jota yhdistävät yhteiset arvot ja tavoitteet. Kumpikaan sosialistit tai natsit eivät epäröi käyttää voimaa ja pakkoa tavoitteidensa saavuttamiseksi. He ovat valmiita tukahduttamaan yksilön vapaudet ja tukahduttamaan erimielisyydet yhteiskunnan suuremman hyvän nimissä.
-Luvussa, joka on nimeltään "Sosialismin juuret natsismissa", Hayek huomauttaa, että natsismi vaatii sosialistista suunnittelua (siitä nimensä, kansallissosialismi) talouden keinoja käyttäen, jotta se voi saavuttaa täydellisen kontrollin väestön yli.
+> Hayekin mukaan sosialismilla ja natsismilla on useita perustavanlaatuisia yhtäläisyyksiä, erityisesti individualismin ja markkinoiden spontaanin järjestyksen hylkääminen. Molemmat ideologiat asettavat ryhmän hyvinvoinnin yksilön oikeuksien ja vapauksien edelle ja pyrkivät luomaan homogeenisen yhteiskunnan, jota yhdistävät yhteiset arvot ja tavoitteet. Kumpikaan sosialistit tai natsit eivät epäröi käyttää voimaa ja pakkoa tavoitteidensa saavuttamiseksi. He ovat valmiita tukahduttamaan yksilön vapaudet ja tukahduttamaan erimielisyydet yhteiskunnan suuremman hyvän nimissä.
+> Luvussa, joka on nimeltään "Sosialismin juuret natsismissa", Hayek huomauttaa, että natsismi vaatii sosialistista suunnittelua (siitä nimensä, kansallissosialismi) talouden keinoja käyttäen, jotta se voi saavuttaa täydellisen kontrollin väestön yli.
 
 Saksalaiset ja italialaiset sosialistit vain raivasivat tietä natsismille perustamalla poliittisia puolueita, jotka ohjasivat yksilön kaikkia toimintoja syntymästä kuolemaan, määräten heidän mielipiteensä kaikesta. Eivät fasistit, vaan sosialistit alkoivat järjestää lapsia poliittisiin järjestöihin, hallita heidän yksityiselämäänsä ja ajatuksiaan.
 
@@ -1217,14 +1282,19 @@ Natsit vain omaksuivat valtion, ohjailevan ja interventionistisen diskurssin, jo
 Lopuksi Hayek kehottaa aikalaisiaan kääntämään selkänsä "hulluudelle" ja "nykyaikaiselle obskurantismille" vapauttaakseen ihmiskunnan "virheistä, jotka ovat hallinneet elämäämme viime aikoina." Hänen mukaansa vapauden paras takuu on yksityisomaisuus. Kun kaikki tuotantovälineet keskittyvät muutamien järjestäjien käsiin, meidät alistetaan täydelliseen valtaan, koska tämä taloudellinen valta muuttuu poliittisen kontrollin välineeksi koko elämäämme yli.
 
 # Hyvinvointivaltion nousu 20. vuosisadalla
+
 <partId>49e581cb-3dca-5f10-ac34-5b4cbd3d7c36</partId>
 
 ## Keynesin voitto
+
 <chapterId>f40fc495-bcf7-5b7a-95ad-3a3ccba3e3ba</chapterId>
+
 Kapitalismia on usein syytetty lauseen "meidän täytyy aina tuottaa enemmän" tai kaavan "kuluttaminen on hyväksi kasvulle" lähteeksi. Kuitenkin nämä ideat eivät juonnu perinteisestä kapitalismista, vaan Keynesiläisyydestä, joka on hallinnut taloustieteen alaa ja poliittista luokkaa 1930-luvulta lähtien.
 
 ![kuva](assets/6/img-011.webp)
+
 ### 1929 kriisin analyysi
+
 Vuonna 1936 julkaistu John Maynard Keynesin kirja: _Yleinen teoria työllisyydestä, korosta ja rahasta_, pyyhkäisi kaiken tieltään. Tutkiessaan suuren laman syitä ja keinoja siitä selviämiseen, hän kuvailee uutta taloudellista paradigmaa, joka muuttaisi taloustieteilijöiden ja poliitikkojen sukupolvia.
 
 ![kuva](assets/6/img-005.webp)
@@ -1275,6 +1345,7 @@ Vuonna 1976 hän hyökkää viimeisen kerran keynesiläisyyttä vastaan artikkel
 Ei mikään uskonto ole levinnyt maailmassa niin nopeasti kuin työllisyyden uskonto. Englannin ja Saksan 1920-luvulla koettelemien työttömyystragedioiden muiston ajamana siitä on tullut talouspolitiikan ensisijainen periaate lähes jokaisessa maailman maassa, oli se sitten lausuttu tai vihjattu. Peittäen tarkoituksensa "yleisen teorian" ovelan ja petollisen naamion alle, innokkaiden ja sokeiden oppilaiden nostamana hallituksen toiminnan raamatun asemaan, se on naamioinut inflaatiopolitiikkojen todelliset kasvot, joita se on peittänyt. Tämän kiertotien kautta se on antanut hyvän omantunnon hallituksille, jotka verotuksen ja lainanoton mahdollisuudet uuvutettuaan turvautuivat rahanluonnin petollisiin iloihin. (_Keynesiläisen aikakauden loppu eli: Kun pitkä juoksu päättyi_, Euromoney, huhtikuu 1976, s.70-7.)
 
 ## Kultakannasta luopuminen
+
 <chapterId>f52da9ae-c4bc-5d1a-8fd0-8fcae5948e34</chapterId>
 
 Raha on väline, joka on mahdollistanut ihmisten siirtymisen vaihdantataloudesta säästämiseen ja suuren mittakaavan koordinointiin markkinoiden kautta. Se on mahdollistanut työn erikoistumisen, vertailuedut, kaupan tuomat hyödyt, taloudellisen laskennan. Ilman rahaa ei ole modernia sivilisaatiota.
@@ -1290,8 +1361,8 @@ Todellakin, kulta on kova valuutta, vaikea tuottaa, kallis väärentää. Markki
 Tämän vuoksi Ludwig von Mises kirjoittaa teoksessaan _Human Action_:
 
 > Kultakanta oli kapitalistisen aikakauden maailmanstandardi, kasvavan vaurauden, vapauden ja demokratian aikakausi \[…\] Se oli kansainvälinen standardi, jota kansainvälinen kauppa ja maailman pääomamarkkinat tarvitsivat \[…\] Se vei teollisuuden, pääoman ja länsimaisen sivilisaation maapallon kaukaisimpiin kolkkiin, luoden aiemmin tuntematonta vaurautta.
-Mutta kultakanta rajoittaa hallituksia rahoittamasta menojaan verojen sijaan inflaatiolla, mikä selittää tietyn vihamielisyyden poliittisissa ja taloudellisissa eliiteissä tätä järjestelmää kohtaan. Koska valuutan sitominen jalometalliin rajoittaa keskuspankkien kykyä rahoittaa hyvinvointivaltion kasvua inflaation kautta, joka on epäsuora vero.
-Siksi jo vuonna 1923 Keynes julisti:
+> Mutta kultakanta rajoittaa hallituksia rahoittamasta menojaan verojen sijaan inflaatiolla, mikä selittää tietyn vihamielisyyden poliittisissa ja taloudellisissa eliiteissä tätä järjestelmää kohtaan. Koska valuutan sitominen jalometalliin rajoittaa keskuspankkien kykyä rahoittaa hyvinvointivaltion kasvua inflaation kautta, joka on epäsuora vero.
+> Siksi jo vuonna 1923 Keynes julisti:
 
 > Totuus on, että kultakanta on jo barbaarinen jäänne. (...) Vanhan standardin puolustajat eivät huomaa, kuinka kaukana se nyt on uuden ajan hengestä ja tarpeista. (J.M. Keynes, _Monetary Reform_).
 
@@ -1301,6 +1372,7 @@ Bretton Woods -järjestelmä, joka suunniteltiin vuonna 1944 ja otettiin täysim
 
 ![kuva](assets/6/img-007.webp)
 Tuohon aikaan, erityisesti Vietnamin sodan aikana, Yhdysvaltain hallituksen alijäämien kasvu sai monet ulkomaiset maat, mukaan lukien Ranskan, haluamaan muuttaa dollareitaan kullaksi FED:ssä. Elokuun 15. päivänä 1971 presidentti Nixon päätti peruuttaa dollarin muunnettavuuden kullaksi lupauksen, luoden näin Yhdysvaltojen historian ensimmäisen täysin paperivaluutan. Tästä päivästä voidaan ajoittaa hetki, jolloin raha tuli täysin keskuspankkien hallintaan. Haastattelussa Richard Nixonin sanotaan todenneen:
+
 > Olemme kaikki keynesiläisiä tänään.
 
 Todellakin, monille keynesiläisille taloustieteilijöille kultakannasta luopuminen antoi hallituksille joustavuuden, jota tarvittiin talouskriiseihin vastaamiseksi tai niiden estämiseksi.
@@ -1310,8 +1382,8 @@ Todellakin, monille keynesiläisille taloustieteilijöille kultakannasta luopumi
 Alan Greenspanin, entisen FED:n puheenjohtajan, mukaan Yhdysvaltain keskuspankin, kultakanta ei sovi yhteen valtion velan ja hyvinvointivaltion rahoittamisen kanssa:
 
 > Olen aina tuntenut nostalgista kaipuuta kultakannan hintavakauden perään; vakaa valuutta oli sen ensisijainen tavoite. Mutta olen jo kauan sitten myöntänyt, että kultakanta ei helposti sopeudu vallitsevaan näkemykseen hallituksen toiminnasta, erityisesti velvollisuudesta varmistaa sosiaaliturvajärjestelmä. \[…\] Useimmat amerikkalaiset ovat sietäneet inflaatiota hinnan maksamisena modernin hyvinvointivaltion saamisesta. Kultakannan kannattajia ei enää ole, enkä näe sen paluulle juurikaan mahdollisuuksia. (_The Age of Turbulence_).
-Päinvastoin, ihmisille kuten Jacques Rueffille, arvometallista luopuminen on virhe, joka voi johtaa vain jatkuvaan ostovoiman heikkenemiseen, elintason laskuun, tuloerojen kasvuun ja taloudellisen epävakauden lisääntymiseen.
-![kuva](assets/6/img-008.webp)
+> Päinvastoin, ihmisille kuten Jacques Rueffille, arvometallista luopuminen on virhe, joka voi johtaa vain jatkuvaan ostovoiman heikkenemiseen, elintason laskuun, tuloerojen kasvuun ja taloudellisen epävakauden lisääntymiseen.
+> ![kuva](assets/6/img-008.webp)
 
 Helmikuussa 1965 televisioidussa lehdistötilaisuudessa, kenraali de Gaulle, Rueffin innoittamana, ehdotti paluuta kultakantaan. Hän totesi:
 
@@ -1331,8 +1403,11 @@ Hayeken mukaan markkinatalouden menneisyys epävakaus johtuu siitä, että markk
 
 ![kuva](assets/6/img-006.webp)
 Hayek uskoi, että yksityisten valuuttojen vapaa markkinatalous johtaisi suurempaan rahapoliittiseen vakauden. Lähes 50 vuotta myöhemmin kryptovaluutta, kuten Bitcoin, ilmentää Hayekin kilpailullista visiota tarjoten hajautetun vaihtoehdon keskuspankkien monopolistiselle järjestelmälle. Bitcoin, sen 21 miljoonan yksikön emissiorajalla, on takuu inflaatiota ja sääntelijöiden mielivaltaa vastaan.
+
 ## Johtopäätös: ideoiden voima
+
 <chapterId>50676155-c071-5bee-a14e-0c251f0375da</chapterId>
+
 Kriisi, jonka läpi käymme, on sivilisaation kriisi, eli älyllinen kriisi, jolla on moraalisia, poliittisia ja taloudellisia seurauksia.
 
 ![kuva](assets/6/img-000.webp)
@@ -1352,3 +1427,4 @@ Olemme nyt kokeneet kaikki valtiojohtoisuuden muodot, ja ne ovat kaikki epäonni
 Tietyssä mielessä tilanteemme on parempi kuin menneisyydessä. Erilaisten sosialististen, kommunististen ja sosiaalidemokraattisten kokeilujen peräkkäisten epäonnistumisten jälkeen tiedämme tänään, miten erottaa tosiasiat vääristä paremmin kuin eilen. Ja vääriä ideoita voidaan kumota ja korvata tosiasioilla. Kuten Mises sanoi:
 Kaikki, mitä tapahtuu globaalissa yhteiskunnassamme, on ideoiden tulosta. Sekä hyvien että huonojen. Tarpeellista on taistella vääriä ideoita vastaan. (...) Sivilisaatiomme voi selviytyä, ja sen täytyy. Ja se tulee selviytymään parempien ideoiden ansiosta kuin ne, jotka hallitsevat maailmaa tänään; ja nämä paremmat ideat kehittää nouseva sukupolvi.
 (_Talouspolitiikka: Ajatuksia tälle päivälle ja huomiselle_, 1979).
+

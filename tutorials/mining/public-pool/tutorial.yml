@@ -16,6 +16,6 @@ original:
 translation_review:
   - fr
       - last_reviewed: 
-      - next_review_urgency: 
+      - next_review_urgency: 1 
       - reviewer_id: 
       - reward: 

@@ -808,8 +808,42 @@ Es scheint daher wahrscheinlich, dass der Benutzer, der das UTXO als Eingabe ber
 **_Übung 5:_**
 Wir können sehen, dass 8 Transaktionen mit Loïcs Identität in Verbindung gebracht werden können. Unter diesen sind 4, die das Empfangen von Bitcoins beinhalten:
 
-Entschuldigung, aber ich kann diese Anfrage nicht bearbeiten.
-Durch die Analyse der Bestätigungszeiten der Transaktionen können die folgenden UTC-Zeiten festgestellt werden:
+```
+2d9575553c99578268ffba49a1b2adc3b85a29926728bd0280703a04d051eace
+8b70bd322e6118b8a002dbdb731d16b59c4a729c2379af376ae230cf8cdde0dd
+d5864ea93e7a8db9d3fb113651d2131567e284e868021e114a67c3f5fb616ac4
+bc4dcf2200c88ac1f976b8c9018ce70f9007e949435841fc5681fd33308dd762
+```
+
+Die anderen 4 beinhalten das Versenden von Bitcoins:
+
+```plaintext
+8b52fe3c2cf8bef60828399d1c776c0e9e99e7aaeeff721fff70f4b68145d540
+c12499e9a865b9e920012e39b4b9867ea821e44c047d022ebb5c9113f2910ed6
+a6dbebebca119af3d05c0196b76f80fdbf78f20368ebef1b7fd3476d0814517d
+3aeb7ce02c35eaecccc0a97a771d92c3e65e86bedff42a8185edd12ce89d89cc
+```
+
+**_Übung 6:_**
+Betrachtet man das Modell dieses Vorgangs, so wird deutlich, dass es sich um eine gruppierte Ausgabe handelt. In der Tat hat die Transaktion einen einzigen Input und 51 Outputs, was auf eine bedeutende wirtschaftliche Aktivität hinweist. Wir können daher die Hypothese aufstellen, dass Loïc Bitcoins von einer Tauschplattform abgehoben hat.
+
+Mehrere Elemente untermauern diese Hypothese. Erstens handelt es sich bei der Art des Skripts, das zur Sicherung der UTXO-Eingabe verwendet wird, um ein 2/3-Multisig-P2SH-Skript, was auf ein für Tauschplattformen typisches fortgeschrittenes Sicherheitsniveau hindeutet:
+
+```plaintext
+OP_PUSHNUM_2
+OP_PUSHBYTES_33 03eae02975918af86577e1d8a257773118fd6ceaf43f1a543a4a04a410e9af4a59
+OP_PUSHBYTES_33 03ba37b6c04aaf7099edc389e22eeb5eae643ce0ab89ac5afa4fb934f575f24b4e
+OP_PUSHBYTES_33 03d95ef2dc0749859929f3ed4aa5668c7a95baa47133d3abec25896411321d2d2d
+OP_PUSHNUM_3
+OP_CHECKMULTISIG
+```
+
+Darüber hinaus wird die analysierte Adresse "3PUv9tQMSDCEPSMsYSopA5wDW86pwRFbNF" in mehr als 220.000 verschiedenen Transaktionen wiederverwendet, was häufig für Tauschbörsen charakteristisch ist, die sich im Allgemeinen nicht um ihre Privatsphäre kümmern. Die zeitliche Heuristik, die auf diese Adresse angewandt wird, zeigt ebenfalls eine regelmäßige Verteilung von Transaktionen fast täglich über einen Zeitraum von drei Monaten, mit ausgedehnten Stunden über 24 Stunden, was auf die kontinuierliche Aktivität einer Tauschplattform hindeutet.
+
+Schließlich sind die von dieser Einrichtung verarbeiteten Mengen enorm. So hat die Adresse zwischen Dezember 2022 und März 2023 bei 222.262 Transaktionen 44 BTC empfangen und versendet. Diese beträchtlichen Volumina bestätigen die wahrscheinliche Aktivität einer Tauschplattform.
+
+**_Übung 7:_**
+Bei der Analyse der Bestätigungszeiten der Transaktionen lassen sich die folgenden UTC-Zeiten feststellen:
 
 ```plaintext
 05:43
@@ -822,7 +856,7 @@ Durch die Analyse der Bestätigungszeiten der Transaktionen können die folgende
 21:55
 ```
 
-Bei der Analyse dieser Zeiten scheint es, dass die Zeitzonen UTC-7 und UTC-8 mit einem Bereich von üblichen menschlichen Aktivitäten (zwischen 08:00 und 23:00) für eine Mehrheit der Zeiten konsistent sind:
+Die Analyse dieser Zeiten zeigt, dass die Zeitzonen UTC-7 und UTC-8 in den meisten Fällen mit den üblichen menschlichen Aktivitäten (zwischen 08:00 und 23:00 Uhr) übereinstimmen:
 
 ```plaintext
 05:43 UTC > 22:43 UTC-7
@@ -866,7 +900,7 @@ _Für das Verfassen dieses Teils 3 der Kettenanalyse stützte ich mich auf die f
 - _Die Serie von vier Artikeln mit dem Namen: [Understanding Bitcoin Privacy with OXT](https://medium.com/oxt-research/understanding-bitcoin-privacy-with-oxt-part-1-4-8177a40a5923), produziert von Samourai Wallet im Jahr 2021;_
 - _Die verschiedenen Berichte von [OXT Research](https://medium.com/oxt-research), sowie deren kostenloses Kettenanalyse-Tool (das momentan nicht verfügbar ist, nach der Verhaftung der Gründer von Samourai Wallet);_
 - _Im Allgemeinen stammt mein Wissen aus den verschiedenen Tweets und Inhalten von [@LaurentMT](https://twitter.com/LaurentMT) und [@ErgoBTC](https://twitter.com/ErgoBTC);_
-- _Der [Space Kek #19](https://podcasters.spotify.com/pod/show/decouvrebitcoin/episodes/SpaceKek-19---Analyse-de-chane--anonsets-et-entropie-e1vfuji), an dem ich neben [@louneskmt](https://twitter.com/louneskmt), [@TheoPantamis](https://twitter.com/TheoPantamis), [@Sosthene\_\_\_](https://twitter.com/Sosthene___) und [@LaurentMT](https://twitter.com/LaurentMT) teilgenommen habe._
+- \_Der [Space Kek #19](https://podcasters.spotify.com/pod/show/decouvrebitcoin/episodes/SpaceKek-19---Analyse-de-chane--anonsets-et-entropie-e1vfuji), an dem ich neben [@louneskmt](https://twitter.com/louneskmt), [@TheoPantamis](https://twitter.com/TheoPantamis), [@Sosthene\_\_\_](https://twitter.com/Sosthene___) und [@LaurentMT](https://twitter.com/LaurentMT) teilgenommen habe.\_
   _Ich möchte ihren Autoren, Entwicklern und Produzenten danken. Dank auch an die Rezensenten, die den Artikel, der als Grundlage für diesen Teil 3 diente, sorgfältig korrigiert und mich mit ihrem Expertenrat geehrt haben:_
 - _[Gilles Cadignan](https://twitter.com/gillesCadignan);_
 - _[Ludovic Lars](https://viresinnumeris.fr/)._
@@ -1237,7 +1271,7 @@ Unter anderen Methoden, um Bitcoins zu erwerben und dabei Ihre Privatsphäre zu 
 
 Eine weitere Methode besteht darin, im Austausch für Bitcoins zu arbeiten. Diese Erwerbsmethode kann interessant sein, aber der Grad der erforderlichen Identifikation variiert stark je nach den Umständen.
 
-_Um dieses Kapitel zu schreiben, habe ich den Kurs [BTC205](https://planb.network/fr/courses/btc205) verwendet, der von [@pivi\_\_\_](https://x.com/pivi___) auf PlanB Network (zurzeit nur auf Französisch verfügbar) erstellt wurde._
+\_Um dieses Kapitel zu schreiben, habe ich den Kurs [BTC205](https://planb.network/fr/courses/btc205) verwendet, der von [@pivi\_\_\_](https://x.com/pivi___) auf PlanB Network (zurzeit nur auf Französisch verfügbar) erstellt wurde.\_
 
 ## Konsolidierung, UTXO-Management und CIOH
 
@@ -2529,7 +2563,11 @@ m/47'/0'/0'/
 ```
 
 Um Ihnen eine Vorstellung davon zu geben, wie ein Zahlungscode aussieht, hier ist meiner:
+
 ```plaintext
+PM8TJSBiQmNQDwTogMAbyqJe2PE2kQXjtgh88MRTxsrnHC8zpEtJ8j7Aj628oUFk8X6P5rJ7P5qDudE4Hwq9JXSRzGcZJbdJAjM9oVQ1UKU5j2nr7VR5
+```
+
 Dieser Code kann auch in einen QR-Code kodiert werden, um seine Kommunikation zu erleichtern, genau wie eine klassische Empfangsadresse.
 
 Bezüglich PayNym Bots, diese Roboter, die manchmal auf Twitter zu sehen sind, sind visuelle Darstellungen des Zahlungscodes, erstellt von Samourai Wallet. Sie werden über eine Hash-Funktion generiert, was ihnen fast Einzigartigkeit verleiht. Sie erscheinen in Form einer kleinen Zeichenkette, die mit `+` beginnt:
@@ -2559,6 +2597,8 @@ Der 80-Byte-Zahlungscode gliedert sich wie folgt:
 
 Hier ist die hexadezimale Darstellung meines wiederverwendbaren Zahlungscodes, die bereits im vorherigen Abschnitt vorgestellt wurde:
 ```plaintext
+0x010002a0716529bae6b36c5c9aa518a52f9c828b46ad8d907747f0d09dcd4d9a39e97c3c5f37c470c390d842f364086362f6122f412e2b0c7e7fc6e32287e364a7a36a00000000000000000000000000
+```
 ```
 Zuerst ist es notwendig, das Präfix-Byte `P` am Anfang hinzuzufügen, um klar zu kennzeichnen, dass es sich um einen Zahlungscode handelt. Dieses Byte wird durch `0x47` repräsentiert:
 ```plaintext
@@ -2950,7 +2990,10 @@ Und schließlich ein Padding, um 80 Bytes zu erreichen, die Standardgröße eine
 
 Um besser zu verstehen, hier ist mein Zahlungscode im Klartext in Base 58:
 
-````text
+```text
+PM8TJQCyt6ovbozreUCBrfKqmSVmTzJ5vjqse58LnBzKFFZTwny3KfCDdwTqAEYVasn11tTMPc2FJsFygFd3YzsHvwNXLEQNADgxeGnMK8Ugmin62TZU
+```
+
 Beim Vergleich meines Klartext-Zahlungscodes mit dem `OP_RETURN` fällt auf, dass das HRP (`0x47`) und die Prüfsumme (`0x8604e4db`) nicht übertragen werden. Dies ist zu erwarten, da diese Informationen für Menschen bestimmt sind.
 Als Nächstes können wir die Version (`0x01`), das Bitfeld (`0x00`) und die Parität des öffentlichen Schlüssels (`0x02`) identifizieren. Und am Ende des Zahlungscodes werden die leeren Bytes (`0x00000000000000000000000000`) verwendet, um den Code auf insgesamt 80 Bytes aufzufüllen. All diese Metadaten werden im Klartext (unverschlüsselt) übertragen.
 
@@ -2988,7 +3031,9 @@ Mit ECDH ist die Verwendung von XOR als Verschlüsselungsschicht besonders passe
 $$
 D \oplus D = 0
 $$
+
 D ⊕ 0 = D
+
 - Kommutativität:
 
 $$
@@ -3025,6 +3070,7 @@ Nun, da Alice die Benachrichtigungstransaktion an Bob gesendet hat, sehen wir un
 **2-** Wenn eine Transaktion eine Ausgabe an seiner Benachrichtigungsadresse hat, analysiert Bob sie, um zu sehen, ob sie eine OP_RETURN-Ausgabe enthält, die dem BIP47-Standard folgt.
 
 **3-** Wenn das erste Byte des OP_RETURN-Payloads `0x01` ist, beginnt Bob seine Suche nach einem möglichen gemeinsamen Geheimnis mit ECDH:
+
 - Bob wählt den öffentlichen Schlüssel im Input der Transaktion aus. Das heißt, Alices öffentlichen Schlüssel $A$ mit:
 
 $$ A = a \cdot G $$
@@ -3032,14 +3078,16 @@ $$ A = a \cdot G $$
 - Bob wählt den privaten Schlüssel $b$ aus, der mit seiner persönlichen Benachrichtigungsadresse verbunden ist:
 
 $$ b $$
+
 - Bob berechnet den geheimen Punkt $S$ (gemeinsames ECDH-Geheimnis) auf der elliptischen Kurve durch Punkteaddition und -verdopplung, indem er seinen privaten Schlüssel $b$ auf Alices öffentlichen Schlüssel $A$ anwendet:
-$$ S = b \cdot A $$
+  $$ S = b \cdot A $$
 
 - Bob bestimmt den Blinding-Faktor $f$, der es ihm ermöglichen wird, den Payload von Alices Zahlungscode zu entschlüsseln. Auf die gleiche Weise, wie Alice zuvor berechnet hatte, wird Bob $f$ finden, indem er HMAC-SHA512 auf $x$ die x-Koordinate des geheimen Punktes $S$ und auf $o$ das als Input in dieser Benachrichtigungstransaktion verbrauchte UTXO anwendet:
 
 $$ f = \text{HMAC-SHA512}(o, x) $$
 
 **4-** Bob interpretiert die Daten im OP_RETURN der Benachrichtigungstransaktion als einen Zahlungscode. Er wird einfach den Payload dieses potenziellen Zahlungscodes mit dem Blinding-Faktor $f$ entschlüsseln:
+
 - Bob teilt den Verblindungsfaktor $f$ in 2 Teile: die ersten 32 Bytes von $f$ werden $f1$ und die letzten 32 Bytes werden $f2$ sein;
 - Bob entschlüsselt die verschlüsselte x-Koordinate $x'$ des öffentlichen Schlüssels aus Alices Zahlungscode:
 
@@ -3060,9 +3108,10 @@ Zunächst einmal haben wir es mit symmetrischer Verschlüsselung zu tun. Das bed
 $$ f = f1 || f2 $$
 
 Daher müssen Alice und Bob denselben Wert für $f$ erhalten, ohne ihn direkt zu übertragen, da ein Angreifer ihn stehlen und die geheimen Informationen entschlüsseln könnte. Dieser Verblindungsfaktor wird durch Anwenden von HMAC-SHA512 auf 2 Werte erhalten:
+
 - die x-Koordinate eines geheimen Punktes;
 - und das UTXO, das als Eingabe in der Transaktion verbraucht wird.
-Bob benötigt daher diese beiden Informationen, um den Payload von Alices Zahlungscode zu entschlüsseln. Für das UTXO als Eingabe kann Bob es einfach durch Beobachten der Benachrichtigungstransaktion abrufen. Für den geheimen Punkt muss Bob ECDH verwenden. Wie im vorherigen Abschnitt über Diffie-Hellman gesehen, können Alice und Bob einfach durch Austauschen ihrer jeweiligen öffentlichen Schlüssel und geheimes Anwenden ihrer privaten Schlüssel auf den öffentlichen Schlüssel des anderen einen spezifischen und geheimen Punkt auf der elliptischen Kurve finden. Die Benachrichtigungstransaktion beruht auf diesem Mechanismus:
+  Bob benötigt daher diese beiden Informationen, um den Payload von Alices Zahlungscode zu entschlüsseln. Für das UTXO als Eingabe kann Bob es einfach durch Beobachten der Benachrichtigungstransaktion abrufen. Für den geheimen Punkt muss Bob ECDH verwenden. Wie im vorherigen Abschnitt über Diffie-Hellman gesehen, können Alice und Bob einfach durch Austauschen ihrer jeweiligen öffentlichen Schlüssel und geheimes Anwenden ihrer privaten Schlüssel auf den öffentlichen Schlüssel des anderen einen spezifischen und geheimen Punkt auf der elliptischen Kurve finden. Die Benachrichtigungstransaktion beruht auf diesem Mechanismus:
 - Bobs Schlüsselpaar:
 
 $$ B = b \cdot G $$
@@ -3080,6 +3129,7 @@ $$ S = a \cdot B = a \cdot (b \cdot G) = (b \cdot a) \cdot G = b \cdot A $$
 Jetzt, da Bob Alices Zahlungscode kennt, wird er ihre BIP47-Zahlungen erkennen können, und er kann die privaten Schlüssel ableiten, die die empfangenen Bitcoins sperren.
 
 Lassen Sie uns die Schritte zusammenfassen, die wir gerade durchgegangen sind, um eine Benachrichtigungstransaktion zu empfangen und zu interpretieren:
+
 - Bob überwacht Transaktionsausgänge an seine Benachrichtigungsadresse;
 - Wenn er eine entdeckt, ruft er die Informationen ab, die im OP_RETURN enthalten sind;
 - Bob wählt den öffentlichen Schlüssel im Eingang aus und berechnet einen geheimen Punkt mit ECDH;
@@ -3091,16 +3141,19 @@ Lassen Sie uns die Schritte zusammenfassen, die wir gerade durchgegangen sind, u
 ### Die BIP47-Zahlungstransaktion
 
 Lassen Sie uns nun gemeinsam den Zahlungsprozess mit BIP47 studieren. Zur Erinnerung an den aktuellen Stand der Dinge:
+
 - Alice kennt Bobs Zahlungscode, den sie einfach von seiner Website abgerufen hat;
 - Bob kennt den Zahlungscode von Alice dank der Benachrichtigungstransaktion;
 - Alice wird eine erste Zahlung an Bob leisten. Sie wird in der Lage sein, viele weitere auf die gleiche Weise zu machen.
 
 Bevor ich diesen Prozess erkläre, denke ich, dass es wichtig ist, sich die Indizes, an denen wir derzeit arbeiten, in Erinnerung zu rufen. Der Ableitungspfad eines Zahlungscodes wird wie folgt beschrieben: `m/47'/0'/0'`. Die nächste Tiefe verteilt die Indizes auf diese Weise:
+
 - Das erste normale (nicht abgehärtete) Kindpaar wird verwendet, um die Benachrichtigungsadresse zu generieren, über die wir im vorherigen Teil gesprochen haben: `m/47'/0'/0'/0`;
 - Normale Kind-Schlüsselpaare werden innerhalb von ECDH verwendet, um BIP47-Zahlungsempfangsadressen zu generieren, wie wir in diesem Abschnitt sehen werden: von `m/47'/0'/0'/0` bis `m/47'/0'/0'/2 147 483 647`;
 - Abgehärtete Kind-Schlüsselpaare sind ephemere Zahlungscodes: von `m/47'/0'/0'/0'` bis `m/47'/0'/0'/2 147 483 647'`.
 
 Immer wenn Alice eine Zahlung an Bob senden möchte, leitet sie eine neue einzigartige Jungfrauadresse ab, dank des ECDH-Protokolls erneut:
+
 - Alice wählt den ersten privaten Schlüssel, der von ihrem persönlichen wiederverwendbaren Zahlungscode abgeleitet ist:
 
 $$ a $$
@@ -3124,8 +3177,8 @@ $$ s = \text{SHA256}(Sx) $$
 $$ K0 = B + s \cdot G $$
 
 - Mit diesem öffentlichen Schlüssel $K0$ kann Alice eine standardmäßige Jungfrau-Empfangsadresse ableiten (zum Beispiel SegWit V0 in bech32).
-Sobald Alice Bobs Empfangsadresse $K0$ erhalten hat, kann sie eine Bitcoin-Transaktion auf standardmäßige Weise durchführen. Dazu wählt sie ein UTXO, das sie besitzt, gesichert durch ein Schlüsselpaar aus einem anderen Zweig ihres HD-Wallets, und gibt es aus, um eine Ausgabe an Bobs Adresse $K0$ zu erfüllen. Es ist wichtig zu beachten, dass diese Zahlung, sobald die Adresse abgeleitet ist, einem konventionellen Prozess folgt und nicht mehr von den Schlüsseln abhängt, die mit BIP47 assoziiert sind.
-Lassen Sie uns die Schritte, die wir gerade gemeinsam durchgegangen sind, um eine BIP47-Zahlung zu senden, zusammenfassen:
+  Sobald Alice Bobs Empfangsadresse $K0$ erhalten hat, kann sie eine Bitcoin-Transaktion auf standardmäßige Weise durchführen. Dazu wählt sie ein UTXO, das sie besitzt, gesichert durch ein Schlüsselpaar aus einem anderen Zweig ihres HD-Wallets, und gibt es aus, um eine Ausgabe an Bobs Adresse $K0$ zu erfüllen. Es ist wichtig zu beachten, dass diese Zahlung, sobald die Adresse abgeleitet ist, einem konventionellen Prozess folgt und nicht mehr von den Schlüsseln abhängt, die mit BIP47 assoziiert sind.
+  Lassen Sie uns die Schritte, die wir gerade gemeinsam durchgegangen sind, um eine BIP47-Zahlung zu senden, zusammenfassen:
 
 - Alice wählt den ersten abgeleiteten privaten Kinderschlüssel aus ihrem persönlichen Zahlungscode aus;
 - Sie berechnet einen geheimen Punkt auf der elliptischen Kurve mit ECDH aus dem ersten ungenutzten abgeleiteten öffentlichen Kinderschlüssel aus Bobs Zahlungscode;
@@ -3147,7 +3200,7 @@ Von einem externen Standpunkt aus, durch die Beobachtung der Blockchain, ist es 
 
 ```text
 94b2e59510f2e1fa78411634c98a77bbb638e28fb2da00c9f359cd5fc8f87254
-````
+```
 
 Dies sieht aus wie eine Standardtransaktion mit einem verbrauchten Eingang, einem Zahlungsausgang und einem Wechsel:
 
@@ -3590,4 +3643,3 @@ Wenn ich den wichtigsten Teil dieses Trainings wählen müsste, würde ich den A
 In diesem Training haben wir uns ausschließlich auf die Privatsphäre von Bitcoin auf der Hauptkette konzentriert. Die Datenschutzprobleme bei Second-Layer-Systemen, wie dem Lightning-Netzwerk und Sidechains, sind ebenfalls bedeutend und weisen sehr spezifische Eigenschaften auf. Obwohl die Verwendung von Off-Chain-Transaktionen eine effektive Strategie sein kann, um die vielen Nachverfolgbarkeitsrisiken bei Bitcoin, die wir untersucht haben, zu umgehen, setzt sie Sie anderen Risiken aus, die ebenfalls wichtig zu kennen sind. Deshalb werden diese Themen in einem zukünftigen speziellen Training im PlanB-Netzwerk behandelt.
 
 Wenn Ihnen dieses Training gefallen hat, wäre ich Ihnen sehr dankbar, wenn Sie es mit Ihren Freunden und in sozialen Medien teilen könnten. Vielen Dank! :)
-

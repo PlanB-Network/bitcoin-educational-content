@@ -1281,30 +1281,15 @@ Bitcoin cannot be stopped anymore and cannot be censored anymore. It is a peacef
 
 Changing the financial system requires changing the currency. Satoshi created Bitcoin in 2008 to propose an attempt at this. Having access to easy and "magical" money corrupts. Bitcoin is therefore an alternative to build a new neutral monetary system. Bitcoin allows for the emancipation from the banking system. It is a social phenomenon that leads us to participate in a peaceful revolution. Are you ready to join?
 
-## Acknowledgments and keep digging the rabbit hole
+## Review
 <chapterId>c153facd-fe77-5954-b18b-d0e2243e787a</chapterId>
+<isCourseReview>true</isCourseReview>
 
-### Go further
-
-Congratulations on completing this BTC 101 course! I sincerely hope you enjoyed it and it opened doors for you. Your discovery of bitcoin is just beginning, and I invite you to explore all the other courses available at the university.
-
-- [BTC 102](https://planb.network/courses/btc101) will help you set up your bitcoin plan
-- [LNP 201](https://planb.network/courses/lnp201) will allow you to discover the Lightning Network, a second-layer payment network
-- [ECO 201](https://planb.network/courses/eco201) will cover Austrian economics
-- [SCU 101](https://planb.network/courses/scu101) will allow you to update your digital security
-- [MIN 201](https://planb.network/courses/min201) to learn more about mining
-- and many more...
-
-## Support us
+## Exam
 <chapterId>3e6e756b-b6c4-5d41-bece-767922348067</chapterId>
+<isCourseExam>true</isCourseExam>
 
-This course, as well as all the content on this university, has been offered to you for free by our community. To support us, you can share it with others, become a member of the university, and even contribute to its development via [our GitHub](https://github.com/PlanB-Network/bitcoin-educational-content). On behalf of the entire team, thank you!
 
-## Note the training
+## Conclusion
 <chapterId>44d01865-5c89-55a5-a397-a014960eec0f</chapterId>
-
-A grading system for the training will soon be integrated into this new E-learning platform! In the meantime, thank you very much for taking the course and if you enjoyed it, please consider sharing it with others.
-
-A huge thank you to our Patreon supporters, members, and donors for their financial support, thank you to the people who share, and thank you to those who made this training possible: Rachel, Muriel, the StackinSat team, JohnOnChain, Fanis, Guillaume, Lounes, the proofreaders, and the reviewers.
-
-See you soon!
+<isCourseConclusion>true</isCourseConclusion>

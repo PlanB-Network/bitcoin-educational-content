@@ -44,9 +44,10 @@ translation_review:
       - reviewer_id: 
       - reward: 
   - it
-      - last_reviewed: 
+      - last_reviewed: 2024-07-14
       - next_review_urgency: 
       - reviewer_id: 
+        - TinF0ilHat1
       - reward: 
   - ja
       - last_reviewed: 

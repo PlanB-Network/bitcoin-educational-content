@@ -59,9 +59,10 @@ translation_review:
       - reviewer_id: 
       - reward: 
   - fi
-      - last_reviewed: 
+      - last_reviewed: 2024-04-02 
       - next_review_urgency: 
       - reviewer_id: 
+        - KryptoKeskus
       - reward: 
   - fr
       - last_reviewed: 
@@ -69,14 +70,16 @@ translation_review:
       - reviewer_id: 
       - reward: 
   - it
-      - last_reviewed: 
+      - last_reviewed: 2023-10-10
       - next_review_urgency: 
       - reviewer_id: 
+        - TinF0ilHat1
       - reward: 
   - ja
-      - last_reviewed: 
+      - last_reviewed: 2023-12-03
       - next_review_urgency: 
       - reviewer_id: 
+        - yutaro21jp
       - reward: 
   - pt
       - last_reviewed: 
@@ -87,9 +90,11 @@ translation_review:
       - last_reviewed: 
       - next_review_urgency: 
       - reviewer_id: 
+        - Reshetenko
       - reward: 
   - vi
-      - last_reviewed: 
+      - last_reviewed: 2024-05-05
       - next_review_urgency: 
       - reviewer_id: 
+        - Henry-Da0
       - reward: 

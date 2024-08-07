@@ -357,6 +357,8 @@ Huomaa, että toistaiseksi tämä kurssin osa sisältää vain ohjevideoita rans
 
 https://planb.network/tutorials/others/authy
 
+https://planb.network/tutorials/others/security-key
+
 ![video](https://youtu.be/mNcAKRDmz5o)
 
 ## Salasananhallintaohjelman luominen

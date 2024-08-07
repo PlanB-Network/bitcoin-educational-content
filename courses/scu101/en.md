@@ -372,6 +372,8 @@ Notice that, for the moment, this part of the course only contains how-to tutori
 
 https://planb.network/tutorials/others/authy
 
+https://planb.network/tutorials/others/security-key
+
 ![video](https://youtu.be/mNcAKRDmz5o)
 
 ## Creating a password manager

@@ -374,6 +374,8 @@ Beachten Sie, dass dieser Teil des Kurses derzeit nur Anleitungen auf Französis
 
 https://planb.network/tutorials/others/authy
 
+https://planb.network/tutorials/others/security-key
+
 ![video](https://youtu.be/mNcAKRDmz5o)
 
 ## Erstellung eines Passwort-Managers

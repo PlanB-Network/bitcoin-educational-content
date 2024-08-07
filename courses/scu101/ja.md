@@ -362,6 +362,8 @@ Have I Been Pwned (https://haveibeenpwned.com/) のウェブサイトを使用�
 
 https://planb.network/tutorials/others/authy
 
+https://planb.network/tutorials/others/security-key
+
 ![ビデオ](https://youtu.be/mNcAKRDmz5o)
 
 ## パスワードマネージャーの作成

@@ -376,6 +376,8 @@ Ten en cuenta que, por el momento, esta parte del curso solo contiene tutoriales
 
 https://planb.network/tutorials/others/authy
 
+https://planb.network/tutorials/others/security-key
+
 ![video](https://youtu.be/mNcAKRDmz5o)
 
 ## Creación de un gestor de contraseñas

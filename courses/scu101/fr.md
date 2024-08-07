@@ -378,6 +378,8 @@ Règle d'or : La sécurité informatique est une cible mouvante qui va s'adapter
 
 https://planb.network/tutorials/others/authy
 
+https://planb.network/tutorials/others/security-key
+
 ![video](https://youtu.be/mNcAKRDmz5o)
 
 ## Création d'un gestionaire de mot de passe

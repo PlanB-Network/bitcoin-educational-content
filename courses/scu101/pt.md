@@ -369,6 +369,8 @@ Observe que, por enquanto, esta parte do curso contém apenas tutoriais em franc
 
 https://planb.network/tutorials/others/authy
 
+https://planb.network/tutorials/others/security-key
+
 ![video](https://youtu.be/mNcAKRDmz5o)
 
 ## Criando um gerenciador de senhas

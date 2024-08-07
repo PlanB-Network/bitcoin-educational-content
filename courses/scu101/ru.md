@@ -379,6 +379,8 @@ TOR законен и используется журналистами, акт�
 
 https://planb.network/tutorials/others/authy
 
+https://planb.network/tutorials/others/security-key
+
 ![видео](https://youtu.be/mNcAKRDmz5o)
 
 ## Создание менеджера паролей

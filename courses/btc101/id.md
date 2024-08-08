@@ -162,7 +162,7 @@ Emas sebagai uang adalah hasil dari 4.000 tahun evolusi Darwinisme moneter yang 
 
 ### Karakteristik uang
 
-Emas idealnya memenuhi kriteria mata uang yang efisien: kelangkaan alaminya membuatnya berharga, sementara sifat kimianya memungkinkan untuk tidak terkikis seiring waktu. Namun, bentuk uang ini tidak mudah dibagi atau ditransportasikan jarak jauh. Dalam dunia yang globalisasi dan digital, emas tidak dapat mengikuti dan memerlukan entitas pusat untuk membuatnya dapat dibagi dan ditukar dengan mudah (koin dicetak).
+Secara ideal, emas memenuhi kriteria mata uang yang efisien: kelangkaan alaminya membuatnya bernilai, sementara sifat kimiawinya memungkinkan emas untuk tidak rusak seiring waktu. Namun, karena bentuknya, emas sulit untuk dibagi atau ditransportasikan secara jarak jauh. Dalam era globalisasi dan digital, emas sulit untuk beradaptasi serta memerlukan institusi terpusat untuk menjamin emas dapat dibagi dan ditukar dengan mudah (koin dicetak).
 
 Kekurangan ini telah membuat emas menjadi penyimpan nilai, tetapi bukan mata uang umum, merugikan mata uang fidusia negara (fiat) yang mudah digunakan tetapi terus menerus terdepresiasi oleh entitas yang mengontrolnya (raja, bank sentral, kaisar, diktator).
 

@@ -21,15 +21,17 @@ Ce cours est bien évidemment centré sur la figure de Satoshi Nakamoto dont vou
 
 ## Introduction à l'histoire de la création de Bitcoin
 
-Ce cours vise à vous raconter l'histoire de la création de Bitcoin comme vous ne l'avez jamais lu ailleurs. Celle-ci est trop souvent méconnue, bien qu'elle regorge de détails fascinants. Nous nous attacherons ainsi à la décrire dans toute sa complexité, de la conception par Satoshi Nakamoto à sa disparition précoce.
+Ce cours vise à vous raconter l'histoire de la création de Bitcoin comme vous ne l'avez jamais lu ailleurs. Celle-ci est trop souvent méconnue, bien qu'elle regorge de détails fascinants. Nous nous attacherons ainsi à la décrire dans toute sa complexité, de la conception par Satoshi Nakamoto à sa disparition précoce et à la prise de relai par la communauté.
 
 ### Petit aperçu
 
-Bitcoin a été conçu par un individu (ou un groupe) utilisant le pseudonyme de Satoshi Nakamoto. Le 31 octobre 2008, ce dernier a partagé un livre blanc décrivant son modèle via une obscure liste de diffusion de courrier électronique sur Internet. Le 8 janvier 2008, il a mis en application son concept en publiant le code source du logiciel et en lançant le réseau par le minage des premiers blocs de la chaîne. Soucieux d'attirer un nombre critiques d'utilisateurs, il a fait la promotion de sa création sur divers canaux de communication. Après des débuts difficiles, l'amorçage du système a finalement eu lieu en octobre 2009, lorsque l'unité de compte -- appelée aussi le bitcoin -- a acquis un prix. Les premiers services commerçants ont commencé à émerger au débtu de l'année 2010.
+Bitcoin a été conçu par un individu (ou un groupe) utilisant le pseudonyme de Satoshi Nakamoto. Le 31 octobre 2008, ce dernier a partagé un livre blanc décrivant son modèle via une obscure liste de diffusion de courrier électronique sur Internet. Le 8 janvier 2008, il a mis en application son concept en publiant le code source du logiciel et en lançant le réseau par le minage des premiers blocs de la chaîne. Soucieux d'attirer un nombre critiques d'utilisateurs, il a fait la promotion de sa création sur divers canaux de communication.
 
-Le projet a réellement pris au cours de l'été 2010, suite à la publication d'un article sur le site très populaire Slashdot. Le change avec le dollar, le minage de Bitcoin et le développement informatique du logiciel se sont considérablement améliorés durant cette période. Satoshi Nakamoto s'est progressivement mis en retrait et il a fini par disparaître complètement au printemps 2011, après avoir transmis ses accès à ses bras droits, Martti Malmi et Gavin Andresen. La communauté a su prendre le relai et porter le projet pour en faire ce qu'il est aujourd'hui.
+Après des débuts difficiles, l'amorçage du système a finalement eu lieu en octobre 2009, lorsque l'unité de compte -- aussi appelée le bitcoin -- a acquis un prix. Les premiers services commerçants ont commencé à apparaître au début de l'année 2010, à commencer par les services de change qui faisaient le pont avec le dollar. C'est également à cette époque que le minage par carte graphique, plus efficace, a été initialement implémenté, et que le premier échange contre un bien physique, en l'occurence une pizza, a eu lieu, suite à l'initiative de Laszlo Hanyecz.
 
-De plus, Bitcoin n'est pas un objet qui serait sorti de nulle part. Sa création s'inscrit dans un contexte précis : la recherche d'un moyen de transcrire les propriétés de l'argent liquide dans le cyberespace. En particulier, les éléments techniques qui le composent sont le fruit de décennies de recherches et d'expérimentations qui l'ont précédé. Bitcoin repose ainsi sur :
+Le projet a réellement pris au cours de l'été 2010, suite à la publication d'un article sur le site très populaire Slashdot. Le change avec le dollar, le minage de Bitcoin et le développement informatique du logiciel se sont considérablement améliorés durant cette période. À partir de l'automne, Satoshi Nakamoto s'est progressivement mis en retrait, en arrêtant d'écrire publiquement et en déléguant peu à peu ses tâches. Il a fini par disparaître complètement au printemps 2011, après avoir transmis ses accès à ses bras droits, Martti Malmi et Gavin Andresen. La communauté a finalement pris le relai et a su porter le projet pour en faire ce qu'il est aujourd'hui.
+
+Outre ce récit, Bitcoin dispose également d'une préhistoire. En effet, il ne s'agit pas d'un objet qui serait sorti de nulle part. Sa création s'inscrit dans un contexte précis : la recherche d'un moyen de transcrire les propriétés de l'argent liquide dans le cyberespace. En particulier, les éléments techniques qui le composent sont le fruit de décennies de recherches et d'expérimentations qui l'ont précédé. Bitcoin repose ainsi sur :
 
 - La signature numérique, issue de la cryptographie asymétrique née en 1976 ;
 - Le consensus distribué, élaboré dans les années 1980 suite aux premiers développements d'Internet ;
@@ -38,11 +40,28 @@ De plus, Bitcoin n'est pas un objet qui serait sorti de nulle part. Sa création
 
 Pour concevoir Bitcoin, Satoshi Nakamoto s'est grandement inspiré du modèle eCash, un concept proposé par le cryptographe David Chaum en 1982 et mis en œuvre par le biais de son entreprise DigiCash dans les années 90. Ce modèle, qui reposait sur le procédé de signature aveugle, permettait aux utilisateurs de réaliser des échanges de manière relativement confidentielle. Toutefois, il se basait sur un réseau centralisé de banques qui intervenaient pour empêcher la double dépense. De ce fait, lorsque DigiCash a fait faillite, le système s'est effondré. Bitcoin a corrigé ce problème en permettant de ne plus avoir besoin de tiers de confiance.
 
-Bitcoin émergé dans un contexte particulier : la fermeture par l'État fédéral américain de systèmes de monnaies privées, comme la devise en or numérique e-gold en 2008 ou le système Liberty Reserve en 2013. En se fondant sur un modèle répartissant le risque entre ses participants, à l'instar des systèmes de partage en pair à pair comme BitTorrent, Satoshi Nakamoto a créé un modèle robuste de monnaie numérique, pourvant résister aux assauts directs de l'État.
+Bitcoin a émergé dans un contexte particulier : la fermeture par l'État fédéral américain de systèmes de monnaies privées, comme la devise en or numérique e-gold en 2008 ou le système Liberty Reserve en 2013. En se fondant sur un modèle répartissant le risque entre ses participants, à l'instar des systèmes de partage en pair à pair comme BitTorrent, Satoshi Nakamoto a créé un modèle robuste de monnaie numérique, pourvant résister aux assauts directs de l'État.
 
 La création de Bitcoin s'inscrivait également dans un contexte de fermeture étatique des systèmes de monnaies privées tels que e-gold et Liberty Reserve. Il constituait en cela un modèle robuste de monnaie numérique, pouvant résister aux assauts directs de l'État fédéral américain. En répartissant le risque entre ses participants, à l'instar des systèmes de partage en pair à pair comme BitTorrent, il assurait sa propre survie.
 
 Le projet Bitcoin est enfin l'héritier de l'éthos du mouvement des cypherpunks, un mouvement de cryptographes rebelles des années 90, qui cherchaient à préserver la confidentialité et la liberté des gens sur Internet par l'utilisation proactive de la cryptographie. Bitcoin s'inscrit dans la continuité des projets comme b-money, bit gold ou encore RPOW imaginés par ces individus à la fin des années 90 et au début des années 2000. Satoshi Nakamoto y a ainsi fait mention, bien qu'il n'en avait pas connaissance avant de concevoir Bitcoin et qu'il ne faisait probablement pas partie du mouvement d'origine.
+
+### Plan du cours
+
+Ce cours est divisé en quatre parties, qui s'intéressent respectivement aux origines de Bitcoin (3 chapitres), à sa lente émergence (4 chapitres), à son essor initial (2 chapitres) et à la formation de sa communauté (3 chapitres). Au total, il comprend 12 chapitres qui sont les suivants (on précise également la période concernée) :
+
+- eCash : l'argent liquide électronique chaumien (1976--1998)
+- Les monnaies privées centralisées avant Bitcoin (1996--2013)
+- Les modèles décentralisés qui ont précédé Bitcoin (1982--2012)
+- La naissance de Bitcoin (août 2008--janv. 2009)
+- Présenter Bitcoin au monde (janv. 2009--oct. 2009)
+- L'amorçage de Bitcoin (oct. 2009--avr. 2010)
+- Cartes graphiques, pizzas et bitcoins gratuits (avr. 2010--juin 2010)
+- Le grand slashdotting (juin 2010--juil. 2010)
+- Les premiers ennuis techniques (juil. 2010--sept. 2010)
+- La ruée vers l'or numérique (sept. 2010--déc. 2010)
+- La disparition de Satoshi (déc. 2010--avr. 2011)
+- La prise de relai de la communauté (avr. 2011--sept. 2011)
 
 ### Précisions
 
@@ -1201,7 +1220,7 @@ Durant les mois qui ont suivi, les améliorations techniques, économiques et mi
 
 # La communauté de Bitcoin
 
-## L'automne du succès (sept. 2010 -- déc. 2010)
+## La ruée vers l'or numérique (sept. 2010 -- déc. 2010)
 
 Dans les précédents chapitres, nous avons étudié l'effet qu'a eu la publication de la présentation de Bitcoin sur Slashdot (*slashdotting*) et la façon dont les premiers ennuis techniques ont été gérés par Satoshi et par ses auxiliaires. À la fin de l'été, le projet avait tenu le choc et était prêt à accueillir un nombre croissant de personnes. L'automne 2010 a ainsi été une période de succès pour Bitcoin.
 
@@ -1531,7 +1550,7 @@ Cette dimension mystérieuse entourant le créateur de Bitcoin a d'ailleurs bien
 >
 > *What's the S stand for?"*
 
-## La prise de relai de la communauté (avr. 2011 -- juin / sept. 2011)
+## La prise de relai de la communauté (avr. 2011 -- sept. 2011)
 
 Après le départ de Satoshi Nakamoto, il a nécessairement fallu faire sans lui. Heureusement, Bitcoin étant un projet libre, auquel tout le monde peut contribuer, la disparition de son fondateur n'a pas été fatale pour lui. En réponse à une inquiétude face à l'éventualité d'une absence de Satoshi, Jeff Garzik [écrivait](https://bitcointalk.org/index.php?topic=628.msg6578#msg6578) en juillet 2010 :
 

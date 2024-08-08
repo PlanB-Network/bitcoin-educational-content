@@ -39,7 +39,7 @@ Une autre caractéristique de Bitwarden est la possibilité d'autohéberger votr
 
 ## Comment créer un compte Bitwarden ?
 
-Rendez-vous sur [le site de Bitwarden](https://bitwarden.com/) et cliquez sur "Get Started".
+Rendez-vous sur [le site de Bitwarden](https://bitwarden.com/) et cliquez sur "*Get Started*".
 ![BITWARDEN](assets/notext/03.webp)
 Commencez par renseigner votre adresse email ainsi que votre nom ou pseudo.
 ![BITWARDEN](assets/notext/04.webp)
@@ -53,7 +53,7 @@ Entrez votre mot de passe maître dans la case dédiée et confirmez-le dans la 
 ![BITWARDEN](assets/notext/05.webp)
 Si vous le souhaitez, vous pouvez ajouter un indice pour votre mot de passe maître. Toutefois, je vous déconseille de le faire, car l'indice n'offre pas une méthode fiable de récupération en cas de perte du mot de passe et pourrait même se révéler utile à des attaquants cherchant à deviner ou à brute forcer votre mot de passe. En règle générale, évitez de créer des indices publics qui pourraient compromettre la sécurité de votre mot de passe maître.
 ![BITWARDEN](assets/notext/06.webp)
-Cliquez ensuite sur le bouton "Créez un compte".
+Cliquez ensuite sur le bouton "*Créez un compte*".
 ![BITWARDEN](assets/notext/07.webp)
 Vous pouvez maintenant vous connecter à votre nouveau compte Bitwarden. Entrez votre adresse email.
 ![BITWARDEN](assets/notext/08.webp)
@@ -63,7 +63,7 @@ Vous êtes dorénavant sur l'interface web de votre gestionnaire de mot de passe
 ![BITWARDEN](assets/notext/10.webp)
 ## Comment configurer Bitwarden ?
 
-Pour commencer, nous allons confirmer notre adresse email. Cliquez sur "Envoyer le courriel".
+Pour commencer, nous allons confirmer notre adresse email. Cliquez sur "*Envoyer le courriel*".
 ![BITWARDEN](assets/notext/11.webp)
 Puis cliquez sur le bouton reçu par email.
 ![BITWARDEN](assets/notext/12.webp)
@@ -77,51 +77,51 @@ https://planb.network/tutorials/others/authy
 
 https://planb.network/tutorials/others/security-key
 
-Pour ce faire, allez dans l'onglet "Security" dans le menu "Settings".
+Pour ce faire, allez dans l'onglet "*Security*" dans le menu "*Settings*".
 ![BITWARDEN](assets/notext/14.webp)
-Puis cliquet sur l'onglet "Two-step login".
+Puis cliquet sur l'onglet "*Two-step login*".
 ![BITWARDEN](assets/notext/15.webp)
-Ici, vous pouvez choisir la méthode de 2FA que vous préférez. Pour l'exemple, je vais choisir le 2FA avec une application TOTP en cliquant sur le bouton "Manage".
+Ici, vous pouvez choisir la méthode de 2FA que vous préférez. Pour l'exemple, je vais choisir le 2FA avec une application TOTP en cliquant sur le bouton "*Manage*".
 ![BITWARDEN](assets/notext/16.webp)
 Confirmez votre mot de passe maître.
 ![BITWARDEN](assets/notext/17.webp)
 Puis scannez le QR code avec votre application de 2FA.
 ![BITWARDEN](assets/notext/18.webp)
-Entrez le code à 6 chiffres noté sur votre application de 2FA, puis cliquez sur le bouton "Turn on".
+Entrez le code à 6 chiffres noté sur votre application de 2FA, puis cliquez sur le bouton "*Turn on*".
 ![BITWARDEN](assets/notext/19.webp)
 La double authentification a bien été mise en place sur votre compte.
 ![BITWARDEN](assets/notext/20.webp)
 Maintenant, si vous tentez de vous reconnecter à votre gestionnaire, vous devrez d'abord saisir votre mot de passe maître, puis le code dynamique à 6 chiffres généré par votre application de 2FA. Assurez-vous de toujours avoir accès à ce code dynamique ; sans lui, il vous sera impossible de récupérer vos mots de passe.
 ![BITWARDEN](assets/notext/21.webp)
-Dans les paramètres, vous avez également la possibilité de personnaliser votre gestionnaire dans l'onglet "Preferences". Vous pouvez y modifier la durée avant que votre gestionnaire ne se verrouille automatiquement, ainsi que la langue et le thème de l'interface.
+Dans les paramètres, vous avez également la possibilité de personnaliser votre gestionnaire dans l'onglet "*Preferences*". Vous pouvez y modifier la durée avant que votre gestionnaire ne se verrouille automatiquement, ainsi que la langue et le thème de l'interface.
 ![BITWARDEN](assets/notext/22.webp)
 Je vous recommande fortement d'ajuster la longueur des mots de passe générés par Bitwarden. Par défaut, la longueur est fixée à 14 caractères, ce qui peut être insuffisant pour une sécurité optimale. Maintenant que vous avez un gestionnaire pour retenir tous vos mots de passe, autant en profiter pour utiliser des mots de passe très forts.
 
-Pour cela, rendez-vous dans le menu "Generator".
+Pour cela, rendez-vous dans le menu "*Generator*".
 ![BITWARDEN](assets/notext/23.webp)
 Ici, vous pouvez passer la valeur de la longueur de vos mots de passe à 40, et cocher la case pour y inclure des symboles.
 ![BITWARDEN](assets/notext/24.webp)
 ## Comment sécuriser ses comptes avec Bitwarden ?
 
-Maintenant que votre gestionnaire de mots de passe est configuré, vous pouvez commencer à y stocker les identifiants de vos comptes en ligne. Pour ajouter un nouvel élément, cliquez directement sur le bouton "New item" ou sur le bouton "New" situé en haut à droite de l'écran, puis sur "item".
+Maintenant que votre gestionnaire de mots de passe est configuré, vous pouvez commencer à y stocker les identifiants de vos comptes en ligne. Pour ajouter un nouvel élément, cliquez directement sur le bouton "*New item*" ou sur le bouton "*New*" situé en haut à droite de l'écran, puis sur "*item*".
 ![BITWARDEN](assets/notext/25.webp)
-Dans le formulaire qui s'ouvre, commencez par déterminer la nature de l'élément à enregistrer. Pour stocker des identifiants de connexion, choisissez l'option "Login" dans le menu déroulant.
+Dans le formulaire qui s'ouvre, commencez par déterminer la nature de l'élément à enregistrer. Pour stocker des identifiants de connexion, choisissez l'option "*Login*" dans le menu déroulant.
 ![BITWARDEN](assets/notext/26.webp)
-Dans le champ "Name", saisissez un nom descriptif pour vos identifiants. Cela facilitera la recherche et l'organisation de vos mots de passe, surtout si vous en avez un grand nombre. Par exemple, si vous voulez enregistrer vos identifiants pour le site de PlanB Network, vous pouvez nommer cet élément de façon à ce qu'il soit immédiatement reconnaissable lors de vos futures recherches.
+Dans le champ "*Name*", saisissez un nom descriptif pour vos identifiants. Cela facilitera la recherche et l'organisation de vos mots de passe, surtout si vous en avez un grand nombre. Par exemple, si vous voulez enregistrer vos identifiants pour le site de PlanB Network, vous pouvez nommer cet élément de façon à ce qu'il soit immédiatement reconnaissable lors de vos futures recherches.
 ![BITWARDEN](assets/notext/27.webp)
-La case "Folder" vous permet de classer vos identifiants dans des dossiers. Pour le moment, nous n'en avons pas encore créé, mais je vous montrerai par la suite comment le faire.
+La case "*Folder*" vous permet de classer vos identifiants dans des dossiers. Pour le moment, nous n'en avons pas encore créé, mais je vous montrerai par la suite comment le faire.
 ![BITWARDEN](assets/notext/28.webp)
-Dans le champ "Username", saisissez votre nom d'utilisateur, qui est généralement votre adresse email.
+Dans le champ "*Username*", saisissez votre nom d'utilisateur, qui est généralement votre adresse email.
 ![BITWARDEN](assets/notext/29.webp)
-Ensuite, dans la case "Password", vous pouvez saisir votre mot de passe. Toutefois, je vous recommande fortement de laisser Bitwarden générer un mot de passe long, aléatoire et unique à votre place. Cela vous garantit de disposer d'un mot de passe fort. Pour utiliser cette fonctionnalité, cliquez sur l'icône de double flèche au-dessus de la case à remplir.
+Ensuite, dans la case "*Password*", vous pouvez saisir votre mot de passe. Toutefois, je vous recommande fortement de laisser Bitwarden générer un mot de passe long, aléatoire et unique à votre place. Cela vous garantit de disposer d'un mot de passe fort. Pour utiliser cette fonctionnalité, cliquez sur l'icône de double flèche au-dessus de la case à remplir.
 ![BITWARDEN](assets/notext/30.webp)
 Vous pouvez voir que votre mot de passe a été généré.
 ![BITWARDEN](assets/notext/31.webp)
-Dans la case "URI 1", vous pouvez entrer le nom de domaine du site web.
+Dans la case "*URI 1*", vous pouvez entrer le nom de domaine du site web.
 ![BITWARDEN](assets/notext/32.webp)
-Et enfin, dans la case "Notes", vous pouvez ajouter des détails supplémentaires si nécessaire.
+Et enfin, dans la case "*Notes*", vous pouvez ajouter des détails supplémentaires si nécessaire.
 ![BITWARDEN](assets/notext/33.webp)
-Lorsque vous avez terminé de remplir tous ces champs, cliquez sur le bouton "Save".
+Lorsque vous avez terminé de remplir tous ces champs, cliquez sur le bouton "*Save*".
 ![BITWARDEN](assets/notext/34.webp)
 Votre identifiant apparait désormais dans votre gestionnaire Bitwarden.
 ![BITWARDEN](assets/notext/35.webp)
@@ -129,15 +129,15 @@ En cliquant dessus, vous pouvez accéder à ses détails et les modifier.
 ![BITWARDEN](assets/notext/36.webp)
 En cliquant sur les trois petits points à droite, vous avez un accès rapide pour copier le mot de passe ou l'identifiant.
 ![BITWARDEN](assets/notext/37.webp)
-Félicitations, vous avez réussi à enregistrer votre premier mot de passe dans votre gestionnaire ! Si vous souhaitez mieux organiser vos identifiants, vous pouvez créer des dossiers spécifiques. Pour cela, cliquez sur le bouton "New" situé en haut à droite de l'écran, puis sélectionnez "Folder".
+Félicitations, vous avez réussi à enregistrer votre premier mot de passe dans votre gestionnaire ! Si vous souhaitez mieux organiser vos identifiants, vous pouvez créer des dossiers spécifiques. Pour cela, cliquez sur le bouton "*New*" situé en haut à droite de l'écran, puis sélectionnez "*Folder*".
 ![BITWARDEN](assets/notext/38.webp)
 Entrez un nom pour votre dossier.
 ![BITWARDEN](assets/notext/39.webp)
-Puis cliquez sur "Save".
+Puis cliquez sur "*Save*".
 ![BITWARDEN](assets/notext/40.webp)
 Votre dossier apparait désormais sur votre gestionnaire.
 ![BITWARDEN](assets/notext/41.webp)
-Vous pouvez attribuer un dossier à un identifiant lors de sa création, comme nous l'avons fait précédemment, ou en modifiant un identifiant existant. Par exemple, en cliquant sur mon identifiant pour PlanB Network, je peux ensuite choisir de le classer dans le dossier "Bitcoin".
+Vous pouvez attribuer un dossier à un identifiant lors de sa création, comme nous l'avons fait précédemment, ou en modifiant un identifiant existant. Par exemple, en cliquant sur mon identifiant pour PlanB Network, je peux ensuite choisir de le classer dans le dossier "*Bitcoin*".
 ![BITWARDEN](assets/notext/42.webp)
 Vous pouvez ainsi structurer votre gestionnaire de mots de passe pour faciliter la recherche de vos identifiants. Vous pouvez les organiser avec des dossiers tels que personnel, professionnel, banques, emails, réseaux sociaux, abonnements, shopping, administration, streaming, stockage, voyages, santé, etc.
 
@@ -155,7 +155,7 @@ Commencez par vous rendre sur [la page officielle de téléchargement de Bitward
 ![BITWARDEN](assets/notext/44.webp)
 Choisissez votre navigateur dans la liste proposée. Pour cet exemple, j'utilise Firefox, donc je suis redirigé vers l'extension officielle Bitwarden sur le Firefox Add-ons Store. La procédure est assez similaire pour les autres navigateurs.
 ![BITWARDEN](assets/notext/45.webp)
-Cliquez sur le bouton "Add to Firefox".
+Cliquez sur le bouton "*Add to Firefox*".
 ![BITWARDEN](assets/notext/46.webp)
 Vous pouvez ensuite attacher Bitwarden à votre barre d'extensions pour y accéder facilement. Cliquez sur l'extension pour vous connecter.
 ![BITWARDEN](assets/notext/47.webp)
@@ -175,7 +175,7 @@ L'extension est également conçue pour détecter les créations de nouveaux com
 ![BITWARDEN](assets/notext/54.webp)
 En cliquant sur cette suggestion qui apparait, l'extension s'ouvre. Elle me permet de renseigner les détails du nouvel identifiant et de générer un mot de passe fort et unique.
 ![BITWARDEN](assets/notext/55.webp)
-Après avoir complété les informations et cliqué sur "Save", l'extension sauvegarde les identifiants.
+Après avoir complété les informations et cliqué sur "*Save*", l'extension sauvegarde les identifiants.
 ![BITWARDEN](assets/notext/56.webp)
 Puis l'extension ajoute automatiquement nos identifiants dans les champs adaptés sur le site web.
 ![BITWARDEN](assets/notext/57.webp)
@@ -209,14 +209,14 @@ Cependant, en cas de problème, vous pouvez utiliser le mot de passe et le suppo
 
 Je vous conseille donc d'effectuer ces sauvegardes régulièrement pour qu'elles incluent toujours vos identifiants les plus récents. Pour ne pas déranger votre ami, qui détient une copie du mot de passe de chiffrement, à chaque nouvelle sauvegarde, vous pouvez enregistrer ce mot de passe dans votre gestionnaire de mots de passe. Cela ne vise pas à en faire une sauvegarde, puisque votre ami détient déjà une copie physique, mais plutôt à simplifier vos futures procédures d'exportation.
 
-Pour procéder à l'exportation, c'est assez simple : rendez-vous dans la section "Tools" de votre gestionnaire Bitwarden, puis sélectionnez "Export vault".
+Pour procéder à l'exportation, c'est assez simple : rendez-vous dans la section "*Tools*" de votre gestionnaire Bitwarden, puis sélectionnez "*Export vault*".
 ![BITWARDEN](assets/notext/65.webp)
-Pour le format, choisissez ".json (Encrypted)".
+Pour le format, choisissez "*.json (Encrypted)*".
 ![BITWARDEN](assets/notext/66.webp)
-Sélectionnez ensuite l'option "Password protected".
+Sélectionnez ensuite l'option "*Password protected*".
 ![BITWARDEN](assets/notext/67.webp)
 Ici, il est important de choisir un mot de passe robuste, unique et généré de manière aléatoire pour chiffrer la sauvegarde. Cela garantit que, même en cas de vol de votre sauvegarde chiffrée, il sera impossible pour un attaquant de la déchiffrer par brute force.
 ![BITWARDEN](assets/notext/68.webp)
-Cliquez sur "Confirm format" et entrez votre mot de passe maître pour procéder à l'exportation.
+Cliquez sur "*Confirm format*" et entrez votre mot de passe maître pour procéder à l'exportation.
 ![BITWARDEN](assets/notext/69.webp)
 Une fois l'exportation terminée, vous trouverez votre fichier de sauvegarde chiffrée dans vos téléchargements. Transférez-le sur un support externe sécurisé, tel qu'une clé USB ou un disque dur. Répétez cette opération de manière périodique en fonction de votre utilisation. Par exemple, vous pouvez renouveler la sauvegarde chaque semaine ou chaque mois, selon vos besoins.

@@ -1,19 +1,19 @@
 ---
 name: Perjalanan Bitcoin
-goal: Menemukan Bitcoin dan dasar-dasarnya, termasuk proposisi nilai moneter, penambang, transaksi, dan dompet.
+goal: Memahami Bitcoin dan dasar-dasarnya, termasuk proposisi nilai moneter, penambang, transaksi, dan dompet.
 objectives:
   - Memperoleh pemahaman umum tentang teknologi Bitcoin
-  - Memahami cara membeli dan mengamankan bitcoin
+  - Memahami cara membeli dan melindungi bitcoin
   - Memiliki pemahaman umum tentang teknologi Blockchain
   - Mempelajari konsep Lightning Network
-  - Menyadari dampak geopolitik dan sosial dari Bitcoin
+  - Memahami dampak geopolitik dan sosial dari Bitcoin
 ---
 
 # Petualangan Bitcoin Pertama Anda
 
-Dalam kursus ini, saya akan menjelaskan Bitcoin dalam 25 bab sehingga Anda dapat memahami teknologi ini dengan cara yang sederhana dan efektif. Kursus ini dapat diakses oleh semua orang dan mengeksplorasi industri secara keseluruhan: penambang, dompet, platform jual/beli, dll...
+Dalam kursus ini, kami akan menjelaskan Bitcoin dalam 25 bab sehingga Anda dapat memahami teknologi ini dengan secara sederhana dan efektif. Kursus ini dapat diakses oleh semua orang dan semuanya dapat mengeksplorasi industri secara keseluruhan: penambang, dompet, platform jual/beli, dan lain-lain...
 
-Kursus ini seharusnya memakan waktu sekitar 15 jam. Sepanjang perjalanan, poster penjelas dan sumber daya tambahan tersedia.
+Kursus ini membutuhkan waktu sekitar 15 jam untuk diselesaikan. Sepanjang perjalanan, kami menyediakan poster dan sumber daya tambahan lainnya.
 
 Anda tidak memerlukan pengetahuan khusus untuk memulai, kursus ini dapat diakses oleh semua orang!
 
@@ -22,22 +22,22 @@ Anda tidak memerlukan pengetahuan khusus untuk memulai, kursus ini dapat diakses
 # Pengantar
 <partId>3cd2ac82-026c-53e1-874a-baf5842adc6d</partId>
 
-## Lompatan ke Dalam Ketidakdiketahuan
+## Menerjang Dunia di luar Jangkauan Pengetahuan
 <chapterId>27e3fb60-4b50-556b-9e70-c4f5475c121d</chapterId>
 
-### Selamat datang di paradigma moneter dan teknologi baru.
+### Selamat datang di paradigma moneter dan teknologi yang baru.
 
-Bitcoin adalah inovasi signifikan yang melampaui sekadar "mata uang internet". Ini adalah revolusi baik dalam teknologi maupun uang, mampu mempertanyakan hubungan kita dengan mata uang dan masyarakat. Bitcoin adalah mata uang yang **netral** dan **desentralisasi**, yang berarti bahwa itu tidak dikontrol oleh entitas atau institusi mana pun. Ini adalah inovasi signifikan yang melampaui sekedar mata uang. Untuk memahami bitcoin yang terkenal ini, penting untuk memahami bahwa bitcoin (disebut sebagai BTC) adalah baik protokol komputer (Bitcoin) maupun unit moneter (bitcoin).
+Bitcoin adalah inovasi signifikan yang melampaui definisi sekadar "mata uang internet". Ini merupakan revolusi baik dalam lingkup teknologi maupun uang, yang dapat membuat kita bertanya-tanya tentang hubungan kita dengan mata uang dan masyarakat. Bitcoin adalah mata uang yang **netral** dan **terdesentralisasi**, yang berarti bahwa bitcoin tidak dikontrol oleh entitas atau institusi mana pun. Bitcoin merupakan inovasi signifikan yang melampaui sekedar mata uang. Untuk memahami bitcoin yang populer ini, penting untuk memahami bahwa bitcoin (disebut sebagai BTC) merupakan sebuah protokol komputer (Bitcoin) dan juga merupakan unit moneter (bitcoin).
 
-Protokol ini menggunakan teknologi dasar seperti kriptografi, komunikasi jaringan, dan "blockchain" yang terkenal, sementara unit bitcoin adalah mata uang yang diperlukan untuk fungsi yang tepat dari protokol yang sama. Dalam kehidupan sehari-hari, orang Salvador atau bitcoiner di seluruh dunia menggunakan mata uang bitcoin untuk membeli dan menjual barang dan jasa, dengan mata uang yang mengandalkan protokol Bitcoin untuk berfungsi.
+Protokol ini menggunakan teknologi dasar seperti kriptografi, komunikasi jaringan, dan "blockchain" yang terkemuka, sementara unit bitcoin adalah mata uang yang diperlukan untuk aspek fungsional protokol tersebut. Dalam kehidupan sehari-hari, orang Salvador atau bitcoiner di seluruh dunia menggunakan mata uang bitcoin untuk membeli dan menjual barang dan jasa, dimana mata uang ini memerlukan protokol Bitcoin untuk operasionalnya.
 
-### Kurikulum yang komprehensif namun dapat diakses
+### Kurikulum yang komprehensif dan mudah dipahami
 
-Dalam kursus ini, kita akan membahas aspek moneter dari Bitcoin, termasuk cara membeli dan menjual bitcoin, menyimpannya dengan aman di dompet digital, dan menggunakannya untuk transaksi. Kita juga akan memeriksa peran penambang, yang sangat penting untuk menciptakan bitcoin baru dan mengamankan jaringan Bitcoin. Selain itu, kita akan menjelajahi masa depan Bitcoin dan bagaimana teknologi Lightning Network dapat meningkatkan transaksi Bitcoin.
+Dalam kursus ini, kami akan membahas aspek moneter dari Bitcoin, termasuk cara membeli dan menjual bitcoin, bagaimana menyimpannya dengan aman di dompet digital, dan cara menggunakannya untuk transaksi. Kami juga akan membahas peran penambang, yang sangat penting untuk menciptakan bitcoin baru dan mengamankan jaringan Bitcoin. Selain itu, kita akan menjelajahi masa depan Bitcoin dan bagaimana teknologi Lightning Network dapat membuat transaksi Bitcoin menjadi lebih baik.
 
 ![image](assets/en/chapter0/4.webp)
 
-Penting untuk memahami bahwa Bitcoin adalah sistem moneter baru yang merevolusi hubungan kita dengan uang. Belajar menggunakan Bitcoin adalah keterampilan penting bagi siapa saja yang ingin mengendalikan uang mereka sendiri.
+Penting untuk memahami bahwa Bitcoin adalah sistem moneter baru yang merevolusi hubungan kita dengan uang. Mempelajari cara menggunakan Bitcoin adalah keterampilan yang penting, agar Anda bisa memegang kendali atas uang Anda sendiri.
 
 **Bagian 1 - Uang**
 
@@ -49,13 +49,13 @@ Penting untuk memahami bahwa Bitcoin adalah sistem moneter baru yang merevolusi 
 **Bagian 2 - Dompet Bitcoin**
 
 - Bab 5 - Bagaimana dompet Bitcoin bekerja?
-- Bab 6 - Memilih keamanan Anda
-- Bab 7 - Menyiapkan dompet Anda
-- Bab 8 - Melindungi dari waktu
+- Bab 6 - Memilih tingkat keamanan Anda
+- Bab 7 - Pengaturan dompet Anda
+- Bab 8 - Perlindungan jangka panjang
 
 **Bagian 3 - Aspek teknis dari Bitcoin**
 
-- Bab 9 - Penjelasan transaksi
+- Bab 9 - Pemaparan tentang transaksi
 - Bab 10 - Node Bitcoin
 - Bab 11 - Penambang
 - Bab 12 - Penambang dan ekologi
@@ -70,9 +70,9 @@ Penting untuk memahami bahwa Bitcoin adalah sistem moneter baru yang merevolusi 
 **Seksi 5 - Jaringan Lightning**
 
 - Bab 17 - Pengenalan ke Jaringan Lightning
-- Bab 18 - Kasus Penggunaan untuk Jaringan Lightning
+- Bab 18 - Penggunaan Jaringan Lightning
 
-Sebelum membahas definisi dan fungsi uang dalam masyarakat (Bab 1), kita mulai dengan genesis Bitcoin. Bitcoin adalah teknologi yang relatif baru, diluncurkan pada tahun 2009, yang tidak seperti apa pun sebelumnya. Oleh karena itu, wajar jika tidak semua orang langsung mengerti. Faktanya, sama seperti ketika belajar menggunakan Internet atau mobil, Anda tidak perlu mengetahui semua detail teknis untuk menggunakan Bitcoin (menerima, membayar, mengamankan dana Anda).
+Sebelum membahas definisi dan fungsi uang dalam masyarakat (Bab 1), kami akan memulai dengan permulaan Bitcoin. Bitcoin adalah teknologi yang relatif baru, sangat unik, dan diluncurkan pada tahun 2009. Oleh karena itu, wajar jika Anda tidak dapat secara instan memahami keseluruhan aspek Bitcoin. Faktanya, sama seperti ketika Anda belajar menggunakan Internet atau mengendarai mobil, Anda tidak perlu mengetahui semua detail teknis untuk menggunakan Bitcoin (menerima, membayar, mengamankan dana Anda).
 
 ![image](assets/en/chapter0/3.webp)
 
@@ -81,80 +81,80 @@ Yang penting di sini adalah untuk memahami teknologi baru ini secara umum. Kami 
 ## Prasejarah Bitcoin
 <chapterId>9a94b627-5b69-5d81-9125-f1fa9b0aa6ad</chapterId>
 
-Sebelum istilah "Bitcoin" menjadi sinonim dengan mata uang digital dan transformasi keuangan, serangkaian ide, inovasi, dan gerakan sosial telah meletakkan dasar untuk penciptaannya. Salah satu elemen fundamental dari prasejarah Bitcoin ini adalah gerakan cypherpunk.
+Sebelum istilah "Bitcoin" menjadi simbol mata uang digital dan transformasi keuangan, serangkaian ide, inovasi, dan gerakan sosial telah menciptakan dasar untuk konsepsualisasinya. Salah satu elemen fundamental dari prasejarah Bitcoin ini adalah gerakan cypherpunk.
 
 ### Cypherpunks: Visioner Dunia Digital
 
 ![image](assets/en/chapter0/0.webp)
-Di jantung evolusi teknologi tahun 1980-an dan 1990-an, sekelompok orang mulai secara mendalam mempertanyakan peran privasi dan kebebasan di era digital. Individu-individu ini, yang kemudian dikenal sebagai "cypherpunks," dengan tegas percaya bahwa kriptografi dapat berfungsi sebagai alat untuk melindungi hak individu dari campur tangan pemerintah dan perusahaan besar.
+Di inti evolusi teknologi tahun 1980-an dan 1990-an, sekelompok orang mulai secara mendalam mempertanyakan peran privasi dan kebebasan di era digital. Individu-individu ini, yang kemudian dikenal sebagai "cypherpunks," dengan teguh percaya bahwa kriptografi dapat berfungsi sebagai alat untuk melindungi hak individu dari campur tangan pemerintah dan perusahaan besar.
 
-Tokoh ikonik seperti Julian Assange, Wei Dai, Tim May, dan David Chaum berkontribusi dalam mendefinisikan filosofi dan visi cypherpunks. Pemikir-pemikir ini berbagi ide-ide mereka dalam sebuah mailing list berpengaruh, di mana peserta dari seluruh dunia berdebat tentang cara terbaik menggunakan teknologi untuk memastikan kebebasan individu yang lebih besar.
+Tokoh ikonik seperti Julian Assange, Wei Dai, Tim May, dan David Chaum berkontribusi dalam mendefinisikan filosofi dan visi cypherpunks. Pemikir-pemikir ini berbagi ide-ide mereka dalam sebuah daftar surel (mailing list atau milis) yang berpengaruh, di mana peserta dari seluruh dunia berdebat tentang cara terbaik menggunakan teknologi untuk memastikan kebebasan individu yang lebih besar.
 
-### Tiga Teks Pilar Cypherpunks
+### Tiga Karya Tulis Pilar Cypherpunks
 
 ![image](assets/en/chapter0/2.webp)
 
-Gerakan cypherpunk, dengan akarnya yang kuat dalam aktivisme digital dan kriptografi, mengandalkan beberapa teks fundamental untuk mengungkapkan prinsip-prinsip dan visi masa depannya. Di antara tulisan-tulisan ini, tiga di antaranya sangat menonjol:
+Gerakan cypherpunk, dengan berakar kuat pada aktivisme digital dan kriptografi, mengungkapkan prinsip-prinsip dan visi masa depannya melalui beberapa karya penting. Di antara tulisan-tulisan ini, tiga di antaranya sangat menonjol:
 
 - "Cypherpunk Manifesto":
-  Ditulis oleh Eric Hughes pada tahun 1993, "Cypherpunk Manifesto" menegaskan bahwa privasi adalah hak fundamental. Hughes berargumen bahwa kemampuan untuk berkomunikasi secara bebas dan rahasia adalah esensial untuk masyarakat yang bebas. Manifesto tersebut menyatakan, "Kita tidak bisa mengharapkan institusi, korporasi, atau entitas impersonal lainnya untuk memberi kita privasi... Kita harus mempertahankannya sendiri."
+  Ditulis oleh Eric Hughes pada tahun 1993, "Cypherpunk Manifesto" menegaskan bahwa privasi adalah hak fundamental. Hughes berargumen bahwa jaminan atas komunikasi yang bebas dan rahasia merupakan elemen penting dalam masyarakat yang bebas. Manifesto tersebut menyatakan, "Kita tidak bisa mengharapkan institusi, korporasi, atau entitas impersonal lainnya untuk melindungi privasi kita... Kita harus mempertahankannya sendiri."
 
 - "Crypto-Anarchist Manifesto":
-  Ditulis oleh Timothy C. May pada tahun 1992, manifesto ini menjelaskan bagaimana penggunaan kriptografi dapat mengarah pada era anarki kriptografis di mana pemerintah akan tidak berdaya untuk campur tangan dalam urusan pribadi warga. May membayangkan masa depan di mana informasi, uang, dan pesan dapat ditukar tanpa intervensi pihak ketiga, dan secara anonim.
+  Ditulis oleh Timothy C. May pada tahun 1992, manifesto ini menjelaskan bagaimana penggunaan kriptografi dapat membawa masyarakat pada era anarki kriptografis di mana pemerintah tidak berdaya untuk ikut campur tangan dalam urusan pribadi warga. May membayangkan masa depan di mana tukar-menukar informasi, uang, dan pesan dapat terjadi tanpa intervensi pihak ketiga, dan tanpa mengungkapkan informasi pribadi.
 
 - "Deklarasi Kemerdekaan Cyberspace":
-Meskipun tidak secara eksklusif cypherpunk, teks ini mencerminkan sentimen banyak pelaku dalam gerakan tersebut. Ditulis pada tahun 1996 oleh John Perry Barlow, ini adalah respons terhadap regulasi Internet yang semakin meningkat oleh pemerintah. Deklarasi tersebut menegaskan bahwa cyberspace adalah ranah yang berbeda dari dunia fisik dan tidak seharusnya tunduk pada hukum yang sama. Dinyatakan, "Kami tidak memiliki pemerintahan terpilih, dan kami tidak bisa diatur."
+Meskipun secara eksklusif tidak tergolong cypherpunk, karya tulis ini mencerminkan sentimen banyak pelaku dalam gerakan tersebut. Ditulis pada tahun 1996 oleh John Perry Barlow, teks ini adalah respons terhadap campur tangan pemerintah dalam regulasi internet yang semakin meningkat. Deklarasi tersebut menegaskan bahwa cyberspace adalah ranah yang berbeda dari dunia fisik dan tidak seharusnya tunduk pada hukum yang sama. Dinyatakan, "Kami tidak memiliki pemerintahan terpilih, dan kami tidak bisa diperintah."
 
 ### Pendahulu Bitcoin
 
-Sebelum munculnya Bitcoin, beberapa upaya telah dilakukan untuk menciptakan mata uang digital. Sebagai contoh, David Chaum memperkenalkan konsep "uang elektronik anonim" dengan proyeknya "DigiCash" pada tahun 1980-an. Sayangnya, karena berbagai kendala, DigiCash tidak pernah benar-benar berkembang.
+Sebelum kemunculan Bitcoin, beberapa upaya telah dilakukan untuk menciptakan mata uang digital. Sebagai contoh, David Chaum memperkenalkan konsep "uang elektronik anonim" dengan proyeknya "DigiCash" pada tahun 1980-an. Sayangnya, dikarenakan berbagai kendala, DigiCash tidak pernah benar-benar diimplementasikan.
 
-Pendahulu penting lainnya adalah "b-money" dari Wei Dai. Meskipun tidak pernah diimplementasikan, ini menyajikan ide tentang mata uang digital anonim di mana deteksi penipuan dilakukan oleh komunitas evaluator daripada otoritas pusat.
+Pendahulu penting lainnya adalah "b-money" dari Wei Dai. Meskipun tidak pernah diimplementasikan,konsep ini menyajikan ide tentang mata uang digital anonim di mana deteksi penipuan dilakukan oleh komunitas evaluator dan bukan oleh otoritas pusat.
 
 ![image](assets/en/chapter0/1.webp)
 
-Dalam lingkungan yang subur ini, Satoshi Nakamoto yang misterius menerbitkan whitepaper Bitcoin pada tahun 2008. Dia menggabungkan beberapa ide dari gerakan cypherpunk, seperti proof of work dan timestamp kriptografis, untuk menciptakan mata uang digital yang terdesentralisasi dan tahan terhadap sensor.
+Dalam situasi yang menguntungkan ini, seorang yang misterius bernama Satoshi Nakamoto menerbitkan whitepaper Bitcoin pada tahun 2008. Satoshi menggabungkan beberapa ide dari gerakan cypherpunk, seperti proof of work dan timestamp kriptografis, untuk menciptakan mata uang digital yang terdesentralisasi dan tak dapat sensor.
 
-Bitcoin lebih dari sekadar mata uang digital; itu merupakan pencapaian dari ide-ide cypherpunk. Lebih dari teknologinya, itu melambangkan revolusi melawan sistem keuangan tradisional dan menawarkan alternatif berdasarkan transparansi, desentralisasi, dan kedaulatan individu.
+Lebih dari sekadar mata uang digital, Bitcoin merepresentasikan pencapaian dari ide-ide cypherpunk. Di luar dari aspek teknologinya, Bitcoin melambangkan revolusi terhadap sistem keuangan tradisional dan menghadirkan alternatif baru yang berdasarkan transparansi, desentralisasi, dan kedaulatan individu.
 
 ### Kesimpulan
 
-Pra-sejarah Bitcoin sangat berakar dalam gerakan cypherpunk dan pencarian kolektif untuk kebebasan yang lebih besar di era digital. Dengan menggabungkan prinsip-prinsip kriptografi, desentralisasi, dan integritas, Bitcoin telah menjadi lebih dari sekadar mata uang; itu adalah produk dari revolusi filosofis dan teknologi yang terus membentuk ulang dunia kita.
+Pra-sejarah Bitcoin berakar secara dalam pada gerakan cypherpunk dan usaha bersama untuk mencapai kebebasan yang lebih besar di era digital. Dengan menggabungkan prinsip-prinsip kriptografi, desentralisasi, dan integritas, Bitcoin telah menjadi lebih dari sekadar mata uang; Bitcoin adalah hasil dari revolusi filosofis dan teknologi yang terus mereformasi dunia kita.
 
-Oleh karena itu, Bitcoin adalah protokol yang membentang sepanjang periode waktu dan mendorong kita untuk mempertanyakan hubungan kita dengan energi, waktu, dan uang. Tapi, apakah Bitcoin sebuah "mata uang" yang sebenarnya? Apa itu uang? Apakah itu ada dalam berbagai bentuk? Kita akan menjelajahi pertanyaan-pertanyaan ini di bab berikutnya.
+Oleh karena itu, Bitcoin adalah protokol yang membentang sepanjang periode waktu yang panjang dan memotivasi kita untuk mempertanyakan hubungan kita dengan energi, waktu, dan uang. Namun, apakah Bitcoin sebuah "mata uang" yang sebenarnya? Apa itu uang? Apakah uang ada dalam berbagai bentuk? Kami akan menjelajahi pertanyaan-pertanyaan ini di bab berikutnya.
 
 ![Sejarah Pra-Bitcoin](assets/posters/fr/1_prehistoiredubitcoin.webp)
 
 # Uang
 <partId>e913df1a-4cbd-5380-ba67-ca2a0414f671</partId>
 
-## Uang Sepanjang Sejarah
+## Sejarah Uang
 <chapterId>c838e64d-d59f-5703-8c74-ea5e8c4fdd31</chapterId>
 
-Evolusi uang adalah aspek yang menarik dari sejarah manusia, mencerminkan kecerdikan peradaban sepanjang zaman dalam memenuhi kebutuhan ekonomi yang terus berkembang.
+Evolusi uang adalah aspek yang menarik dari sejarah manusia, yang mencerminkan kecerdikan peradaban dalam memenuhi kebutuhan ekonomi yang terus berkembang dari waktu ke waktu.
 
 ![image](assets/en/chapter1/2.webp)
 
-### Dari Kerang ke Rekening Bank
+### Dari Kerang hingga Rekening Bank
 
-Awalnya, mata uang bersifat nyata, seringkali terkait dengan barang-barang penting seperti biji-bijian, ternak, dan komoditas lainnya. Namun, barang-barang ini memiliki kelemahan besar, seperti mudah rusak, membuatnya sulit digunakan sebagai media tabungan jangka panjang. Misalnya, gagal panen atau penyakit bisa menghapus kekayaan seseorang dalam semalam.
-Seiring kemajuan peradaban dan perdagangan berkembang ke wilayah baru, muncul kebutuhan akan media pertukaran universal. Objek seperti kerang dan batu permata diuji coba, tetapi mereka tidak sempurna. Emas akhirnya menjadi standar karena kelangkaannya, daya tahan, dan kemampuan dibagi. Ini adalah, dan tetap hingga hari ini, simbol kekayaan dan kekuasaan.
+Awalnya, mata uang memiliki wujud, seringkali berhubungan dengan barang-barang penting seperti biji-bijian, ternak, dan komoditas lainnya. Namun, barang-barang ini memiliki beberapa kelemahan, seperti mudah rusak, membuatnya sulit digunakan sebagai media menabung dalam jangka panjang. Misalnya, kegagalan panen atau penyakit bisa melenyapkan kekayaan seseorang dalam sekejap.
+Seiring kemajuan peradaban dan perkembangan perdagangan ke daerah-daerah baru, muncul kebutuhan akan alat tukar yang bersifat universal. Benda-benda seperti kerang dan batu permata pernah diuji coba, tetapi tidak sempurna dalam aplikasinya. Emas akhirnya menjadi standar dikarenakan kelangkaannya, daya tahan, dan dapat dibagi. Dahulu hingga hari ini, emas tetap merupakan simbol kekayaan dan kekuasaan.
 
 ![image](assets/en/chapter1/1.webp)
 
 ### Apa peran uang?
 
 Uang adalah alat komunikasi yang sangat canggih:
-- Ini memungkinkan komunikasi antara masa kini dan masa depan. Kita mengubah waktu dan energi kita menjadi aset yang dapat digunakan kembali di masa depan tanpa risiko depresiasi.
-- Ini memungkinkan komunikasi dalam bahasa umum yang universal. Tanpa saling mengenal, tanpa berbicara bahasa yang sama, dua orang asing dapat bertukar, berdagang, dan sepakat tentang nilai suatu hal.
+- Uang memungkinkan komunikasi antara masa kini dan masa depan. Kita mengubah waktu dan energi kita menjadi aset yang dapat digunakan kembali di masa depan tanpa risiko depresiasi.
+- Uang memungkinkan komunikasi dalam bahasa yang universal. Tanpa saling mengenal, tanpa berbicara bahasa yang sama, dua orang asing dapat bertukar, berdagang, dan menyepakati tentang nilai suatu hal.
 
-Fungsinya di dunia kita sulit untuk direplikasi secara buatan. Tidak ada manusia atau kelompok manusia yang dapat menciptakan uang; ini adalah fenomena sosial alami yang harus muncul dari pasar dan konsensus sukarela. Harga adalah sinyal, informasi, yang membantu masyarakat memilih bagaimana sumber daya akan dialokasikan.
+Perannya di dunia sulit untuk ditiru secara artifisial. Tidak ada manusia atau kelompok manusia yang dapat menciptakan uang; ini adalah fenomena sosial yang terjadi secara alamiah yang hanya dapat timbul dari interaksi pasar dan kesepakatan sukarela. Harga adalah pertanda dan informasi yang dapat membantu masyarakat memutuskan bagaimana mengalokasikan sumber daya.
 
-Emas sebagai uang adalah pilihan dari 4.000 tahun Darwinisme moneter berdasarkan 3 fungsi:
+Emas sebagai uang adalah hasil dari 4.000 tahun evolusi Darwinisme moneter yang didasarkan pada tiga fungsi utama:
 
 - Penyimpan nilai
-- Media pertukaran
-- Satuan akun
+- Alat tukar
+- Satuan hitung
 
 ![image](assets/en/chapter1/3.webp)
 ![image](assets/en/chapter1/4.webp)

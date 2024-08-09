@@ -381,7 +381,7 @@ Observe que, por enquanto, esta parte do curso contém apenas tutoriais em franc
 
 ## Configuração de Backup
 <chapterId>01cfcde1-77cb-506c-8df1-fa18a2e8cc6b</chapterId>
-
+https://planb.network/tutorials/others/proton-drive
 ![video](https://youtu.be/wTJnlSUkDRI)
 
 ## Mudança de navegador & VPN

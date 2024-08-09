@@ -374,7 +374,7 @@ Have I Been Pwned (https://haveibeenpwned.com/) のウェブサイトを使用�
 
 ## バックアップの設定
 <chapterId>01cfcde1-77cb-506c-8df1-fa18a2e8cc6b</chapterId>
-
+https://planb.network/tutorials/others/proton-drive
 ![ビデオ](https://youtu.be/wTJnlSUkDRI)
 
 ## ブラウザとVPNの変更

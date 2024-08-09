@@ -11,45 +11,45 @@ translation_review:
   - de
       - last_reviewed: 
       - next_review_urgency: 1 
-      - reviewer_id: 
+      - reviewers_id: 
       - reward: 
   - en
       - last_reviewed: 
       - next_review_urgency: 1 
-      - reviewer_id: 
+      - reviewers_id: 
       - reward: 
   - es
       - last_reviewed: 
       - next_review_urgency: 1 
-      - reviewer_id: 
+      - reviewers_id: 
       - reward: 
   - fr
       - last_reviewed: 
       - next_review_urgency: 1 
-      - reviewer_id: 
+      - reviewers_id: 
       - reward: 
   - it
       - last_reviewed: 
       - next_review_urgency: 1 
-      - reviewer_id: 
+      - reviewers_id: 
       - reward: 
   - ja
       - last_reviewed: 
       - next_review_urgency: 1 
-      - reviewer_id: 
+      - reviewers_id: 
       - reward: 
   - pt
       - last_reviewed: 
       - next_review_urgency: 1 
-      - reviewer_id: 
+      - reviewers_id: 
       - reward: 
   - ru
       - last_reviewed: 
       - next_review_urgency: 1 
-      - reviewer_id: 
+      - reviewers_id: 
       - reward: 
   - vi
       - last_reviewed: 
       - next_review_urgency: 1 
-      - reviewer_id: 
+      - reviewers_id: 
       - reward: 

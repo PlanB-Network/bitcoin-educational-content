@@ -445,11 +445,13 @@ Bitcoin forme donc l'aboutissement d'une quête pour la cybermonnaie, une monnai
 
 # La lente émergence de Bitcoin
 
-## La naissance de Bitcoin (août 2008 -- janv. 2009)
+## La naissance de Bitcoin
 
-Après avoir appris d'où venait Bitcoin, nous allons à présent nous concentrer sur son histoire proprement dite. <!--TODO-->
+Après avoir appris d'où venait Bitcoin, nous allons à présent nous concentrer sur son histoire proprement dite. Celle-ci a fait l'objet de nombreux articles, podcasts et vidéos au fil des années, de sorte qu'elle est presque devenue une sorte de mythe fondateur. Comme nous l'avons vu, Bitcoin est indissociable du contexte dans lequel il a été créé ; il en est de même pour les évènements ayant eu lieu durant ses premières années d'existence, qui ont forgé ce qu'il est aujourd'hui, avec ses qualités et ses défauts.
 
-La naissance de Bitcoin est marquée par un évènement majeur : la publication du livre blanc, le document fondateur qui explique le fonctionnement technique de Bitcoin, le 31 octobre 2008. Le réseau a été lancé en janvier 2009, un peu plus de deux mois plus tard. L'activité de Satoshi Nakamoto ne s'est cependant pas limitée à ça : il a tout fait pour que Bitcoin soit lancé dans les meilleures conditions.
+Bitcoin a été créé par Satoshi Nakamoto, un inconnu prétendant être japonais, qui a pris le temps de le concevoir de manière réfléchie avant de le dévoiler au public. Ce dernier a par la suite tout fait pour que Bitcoin soit lancé dans les meilleures conditions, qu'il soit bien mis en valeur dans le discours et qu'il soit utilisé par un nombre croissant de personnes. En fin de compte, l'effort du créateur a tout autant résidé dans l'amorçage économique du système que dans sa conception initiale, sinon plus.
+
+Le présent chapitre traite de la naissance de Bitcoin qui a eu lieu entre l'automne 2008 et l'hiver 2009. Celle-ci a été marquée par deux évènements majeurs : la publication du livre blanc, le document fondateur qui explique le fonctionnement technique du système, le 31 octobre 2008 ; et le lancement du réseau prototype le 9 janvier 2009, un peu plus de deux mois plus tard. Nous nous intéresserons ainsi aux actions de Satoshi Nakamoto durant cette période et aux quelques interactions qu'il a eues avec les premiers adeptes et les premiers détracteurs de Bitcoin.
 
 ### La découverte (printemps 2007 -- août 2008)
 

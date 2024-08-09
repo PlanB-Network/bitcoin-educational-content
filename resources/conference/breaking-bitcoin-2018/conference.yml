@@ -3,7 +3,7 @@ name: Breaking Bitcoin 2018
 builder: breaking-bitcoin
 location: Lisbon, Portugal
 language: 
-  - en
+  - en:
 links:
   website: https://breaking-bitcoin.com/
   twitter: https://twitter.com/breakingbitcoin
@@ -15,7 +15,7 @@ tags:
 # Proofreading metadata
 original:
 translation_review:
-  - en
+  - en:
       - last_reviewed: 
       - next_review_urgency: 
       - reviewers_id: 

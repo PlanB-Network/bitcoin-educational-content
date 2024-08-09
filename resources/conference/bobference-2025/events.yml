@@ -12,7 +12,7 @@
   price_dollars: 0
   description: Join us at BOB's first Unconference, where the ethos of Bitcoin's decentralization and open collaboration come to life. Our event is dedicated to bringing together the backbone of Bitcoin within Asia, fostering an environment where innovation, privacy, and freedom are paramount.
   language: 
-    - en
+    - en:
   links:
     website:  https://github.com/BOBSpaces/BOBFERENCE
     replay_url:

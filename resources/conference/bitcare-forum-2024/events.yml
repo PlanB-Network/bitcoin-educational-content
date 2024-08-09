@@ -11,7 +11,7 @@
   price_dollars: 0
   description: L'unica conferenza Bitcoin-Only italiana. Entra in contatto con esperti e appassionati. 
   language: 
-    - it
+    - it:
   links:
     website: https://bitcareforum.it/
     replay_url:

@@ -3,7 +3,7 @@ name: Bitcoin++ 2023
 builder: Bitcoin++
 location: Austin, USA
 language: 
-  - en
+  - en:
 links:
   website: https://btcplusplus.dev/
   twitter: https://twitter.com/btcplusplus
@@ -14,7 +14,7 @@ tags:
 # Proofreading metadata
 original:
 translation_review:
-  - en
+  - en:
       - last_reviewed: 
       - next_review_urgency: 
       - reviewers_id: 

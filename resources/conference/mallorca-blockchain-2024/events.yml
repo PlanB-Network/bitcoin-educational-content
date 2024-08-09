@@ -12,8 +12,8 @@
   description: A small but a nice Bitcoiner camp, the firewood is there, the lawn is mowed, the grill and the stereo system have been thoroughly checked to make sure they are working properly.
 
   language: 
-    - en
-    - de
+    - en:
+    - de:
   links:
     website: https://x.com/ZitadelleUM
     replay_url:

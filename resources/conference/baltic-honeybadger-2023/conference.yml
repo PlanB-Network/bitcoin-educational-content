@@ -3,7 +3,7 @@ name: Baltic HoneyBadger 2023
 builder: HodlHodl
 location: Riga, Latvia
 language: 
-  - en
+  - en:
 links:
   website: https://baltichoneybadger.com/
 tags: 
@@ -14,7 +14,7 @@ tags:
 # Proofreading metadata
 original:
 translation_review:
-  - en
+  - en:
       - last_reviewed: 
       - next_review_urgency: 
       - reviewers_id: 

@@ -164,25 +164,25 @@ Emas sebagai uang adalah hasil dari 4.000 tahun evolusi Darwinisme moneter yang 
 
 Secara ideal, emas memenuhi kriteria mata uang yang efisien: kelangkaan alaminya membuatnya bernilai, sementara sifat kimiawinya memungkinkan emas untuk tidak rusak seiring waktu. Namun, karena bentuknya, emas sulit untuk dibagi atau ditransportasikan secara jarak jauh. Dalam era globalisasi dan digital, emas sulit untuk beradaptasi serta memerlukan institusi terpusat untuk menjamin emas dapat dibagi dan ditukar dengan mudah (koin dicetak).
 
-Kekurangan ini telah membuat emas menjadi penyimpan nilai, tetapi bukan mata uang umum, merugikan mata uang fidusia negara (fiat) yang mudah digunakan tetapi terus menerus terdepresiasi oleh entitas yang mengontrolnya (raja, bank sentral, kaisar, diktator).
+Meski aspek ini telah membuat emas cocok menjadi alat penyimpan nilai, tetapi kekurangan ini membuatnya tidak cocok untuk menjadi mata uang umum, sementara mata uang fidusia negara (fiat) mudah digunakan sebagai uang, tetapi nilainya terus-menerus mengalami depresiasi yang disebabkan oleh institusi-institusi yang mengontrolnya (raja, bank sentral, kaisar, diktator).
 
-Kriteria untuk mata uang yang efektif adalah beragam. Mata uang yang baik harus:
+Mata uang yang baik memiliki beberapa kriteria. Mata uang yang baik seharusnya bersifat:
 
 ![image](assets/en/chapter1/6.webp)
 
-- **Fungible**, artinya dapat ditukar tanpa kehilangan nilai
-- **Dapat dibagi**, untuk memfasilitasi transaksi dengan volume yang berbeda
+- **Dapat dipertukarkan**, artinya dapat ditukar tanpa kehilangan nilainya
+- **Dapat dibagi**, untuk memfasilitasi transaksi dengan volume yang berbeda-beda
 - **Likuid**, artinya mudah dikonversi menjadi barang atau jasa.
 
-Untuk memenuhi kriteria ini, mata uang berkembang langkah demi langkah:
+Untuk memenuhi kriteria ini, berbagai mata uang berkembang langkah demi langkah:
 
-- Batu mentah -> Koin
+- Batu-batuan -> Koin
 - Uang kertas -> Kartu bank
 - Blockchain -> Lightning Network
 
-Hari ini, mata uang masih berkembang, menyesuaikan bentuknya untuk memenuhi penggunaan yang berbeda. Misalnya, sementara emas adalah penyimpan nilai yang sangat baik, itu tidak lagi cocok untuk ekonomi global saat ini. Demikian pula, mata uang fidusia seperti dolar dan euro sangat likuid dan mudah ditransportasikan karena sekarang sebagian besar digital, namun nilainya terus terkikis oleh inflasi moneter.
+Hingga kini, mata uang masih terus berkembang dari segi bentuknya untuk memfasilitasi berbagai penggunaan yang beragam. Misalnya, meskipun emas adalah penyimpan nilai yang sangat baik, itu tidak lagi cocok untuk ekonomi di era globalisasi saat ini. Demikian pula, adanya fasilitas digital membuat mata uang fidusia seperti dolar dan euro sangat likuid dan mudah dipindahkan, namun nilainya terus terkikis oleh inflasi moneter.
 
-Bitcoin, di sisi lain, menawarkan kemungkinan baru. Karena sifat-sifatnya, seperti pasokan yang sangat terbatas, itu menawarkan penyimpan nilai yang sangat baik. Selain itu, sebagai mata uang internet netral, itu mewakili media pertukaran yang baik yang tidak mengenal batas. Namun, saat ini masih belum banyak diterima dalam perdagangan, meskipun [adopsi terus menerus](https://btcmap.org/map).
+Bitcoin, di sisi lain, menawarkan banyak kemungkinan baru. Karena sifat-sifatnya, seperti jumlahnya yang sangat terbatas, Bitcoin juga dapat menjadi alat penyimpan nilai yang sangat baik. Selain itu, Bitcoin juga merupakan mata uang internet yang netral, yang berarti bahwa media pertukaran yang baik yang tidak mengenal batas. Namun, saat ini Bitcoin belum banyak diterima dalam aktivitas perdagangan, meskipun pengunaannya [terus menerus diadopsi](https://btcmap.org/map).
 
 ### Ringkasan cepat dalam poster!
 
@@ -191,52 +191,52 @@ Bitcoin, di sisi lain, menawarkan kemungkinan baru. Karena sifat-sifatnya, seper
 ## Mata uang fidusia
 <chapterId>25151d46-7db1-5b48-8bba-cbde1944555a</chapterId>
 
-"Orang yang tidak belajar dari sejarah ditakdirkan untuk mengulangi kesalahan yang sama," kata George Santayana. Sebuah kebenaran yang sangat relevan ketika kita berbicara tentang sistem moneter saat ini.
+"Orang yang tidak belajar dari sejarah ditakdirkan untuk mengulangi kesalahan yang sama," kata George Santayana. Sebuah kebenaran yang sangat relevan ketika membicarakan tentang sistem moneter saat ini.
 
 ### Fidusia = kepercayaan
 
-Hari ini, mata uang utama seperti euro dan dolar dianggap fidusia. Ini berarti bahwa mereka tidak memiliki nilai intrinsik. Nilai mereka sepenuhnya bergantung pada kepercayaan dan keyakinan yang kita tempatkan pada institusi yang mengaturnya.
-Mata uang fidusia adalah bentuk mata uang yang dideklarasikan sebagai mata uang oleh sebuah institusi, seperti negara-negara, seperti China dengan Yen, atau uni politik-ekonomi, seperti Uni Eropa dengan Euro. Entitas yang bertanggung jawab atas penerbitan mata uang fidusia adalah bank sentral (Sebagai contoh, kita dapat menyebut Bank Rakyat China, Federal Reserve Amerika Serikat, atau Bank Sentral Republik Guinea). Entitas-entitas inilah yang bertanggung jawab dalam menentukan kebijakan moneter dan oleh karena itu berapa banyak uang yang harus dikeluarkan atau dicetak.
+Hari ini, mata uang utama seperti euro dan dolar dianggap sebagai mata uang yang melibatkan kepercayaan. Hal ini berarti bahwa mata uang tersebut tidak memiliki nilai intrinsik. Nilai mereka sepenuhnya bergantung pada kepercayaan dan keyakinan yang dipercayakan kepada institusi yang mengelolanya.
+Mata uang fidusia adalah bentuk mata uang yang ditetapkan secara resmi oleh sebuah institusi, misalnya oleh negara, seperti China dengan Yen, atau organisasi politik-ekonomi, seperti Uni Eropa dengan Euro. Entitas yang bertanggung jawab atas penerbitan mata uang fidusia adalah bank sentral (Contohnya, Bank Rakyat China, Federal Reserve Amerika Serikat, atau Bank Sentral Republik Guinea). Entitas-entitas inilah yang bertanggung jawab dalam menentukan kebijakan moneter dan dengan demikian mengatur berapa banyak jumlah uang yang harus dikeluarkan atau dicetak.
 ![image](assets/en/chapter2/1.webp)
 
-### Depresiasi Moneter: Strategi yang Sejak Zaman Kekaisaran Romawi
+### Depresiasi Moneter: Strategi yang Sudah ada Sejak Zaman Kekaisaran Romawi
 
-Sejak zaman kuno, emas telah berfungsi sebagai referensi moneter. Namun, kekakuan emas sering kali membuat para pemimpin - baik itu kaisar Romawi atau pemerintah modern - untuk mengadopsi mata uang alternatif, seringkali fidusia.
+Sejak zaman kuno, emas telah berfungsi sebagai patokan moneter. Namun, sifat emas yang tidak fleksibel sering kali membuat para pemimpin - baik itu kaisar Romawi atau pemerintah modern - untuk mengadopsi mata uang alternatif, yang seringkali bersifat fidusia.
 
-Mekanismenya sederhana dan terinspirasi oleh praktik yang telah ada sejak awal peradaban. Para pemimpin, yang ingin menguasai kekayaan, mulai dengan mengentralisasi emas, seringkali dengan memanfaatkan kekuasaan mereka dan menjanjikan perlindungan dan keamanan. Dengan cadangan berharga ini di tangan mereka, mereka memperkenalkan mata uang baru, setara nilainya dengan emas, tetapi dicetak dengan gambar mereka. Mata uang ini kemudian mulai beredar, dan masyarakat cepat terbiasa dengan kemudahannya.
+Mekanismenya sederhana dan terinspirasi oleh praktik yang telah ada sejak awal peradaban. Para pemimpin yang ingin menguasai kekayaan memulai dengan melakukan sentralisasi emas, seringkali dengan memanfaatkan kekuasaan mereka dan menjanjikan perlindungan dan keamanan. Setelah emas berharga ini berada di tangan mereka, mereka memperkenalkan mata uang baru, yang nilainya ekuivalen dengan emas, dengan mencetak potret diri mereka di atasnya. Mata uang ini kemudian mulai beredar, dan masyarakat cepat terbiasa karena kemudahan penggunaannya.
 
-Secara bertahap, para pemimpin ini secara diam-diam menurunkan nilai mata uang baru, mengurangi nilainya dibandingkan dengan emas awal beberapa persen setiap tahun. Depresiasi diam-diam ini seringkali dibenarkan sebagai kepentingan rakyat. Dengan demikian, mereka yang menabung dalam mata uang fidusia ini melihat nilai tabungan mereka terkikis, sementara negara membiayai proyek-proyeknya melalui inflasi. Selain itu, depresiasi ini membuat utang lebih mudah untuk dilunasi.
+Secara bertahap, para pemimpin ini secara diam-diam menurunkan nilai mata uang baru, mengurangi nilainya sebesar beberapa persen setiap tahunnya terhadap harga emas. Depresiasi yang tidak mencolok ini seringkali dianggap sebagai justifikasi untuk kepentingan rakyat. Dengan demikian, nilai tabungan mereka yang menabung mata uang fidusia terkikis, sementara negara membiayai proyek-proyeknya melalui inflasi. Selain itu, depresiasi ini membuat utang lebih mudah untuk dilunasi.
 
 ![image](assets/en/chapter2/3.webp)
 
-Pada saat kritis, pengumuman dibuat: mata uang tidak lagi didukung oleh emas. Masyarakat, yang sekarang terbiasa dengan mata uang fidusia dan seringkali salah informasi tentang masalah keuangan, menerima kenyataan ini. Negara kemudian memiliki kebebasan penuh untuk memanipulasi pasokan uang, mencetak jumlah uang yang sangat besar dengan hampir tanpa biaya.
+Pada saat kritis, diumumkanlah bahwa mata uang tidak lagi ada hubungannya dengan emas. Masyarakat, yang sekarang terbiasa dengan mata uang fidusia dan seringkali diberikan informasi yang salah tentang masalah keuangan, menerima kenyataan ini. Negara kemudian memiliki kebebasan penuh untuk memanipulasi jumlah uang, dan mereka dapat mencetak uang dalam jumlah yang sangat banyak hampir tanpa biaya.
 
-Strategi ini, ketika dilaksanakan dengan baik, dapat bertahan selama beberapa dekade. Namun, depresiasi yang terlalu cepat atau kehilangan kepercayaan dapat menyebabkan hiperinflasi (lihat bab berikutnya). Sejarah menunjukkan bahwa dolar telah kehilangan 98% dari nilainya dalam 100 tahun, euro 30% dalam 20 tahun, dan pound sterling 99% sejak penciptaannya.
+Strategi ini, ketika dilaksanakan dengan cukup baik, dapat terus menghasilkan dampak selama puluhan tahun. Namun, depresiasi yang terlalu cepat atau hilangnya kepercayaan dapat menyebabkan hiperinflasi (lihat bab berikutnya). Sejarah menunjukkan bahwa dolar telah kehilangan 98% dari nilainya dalam kurun waktu 100 tahun, euro 30% dalam waktu 20 tahun, dan pound sterling 99% sejak kemunculannya.
 
-Pada akhirnya, mata uang mungkin tidak lagi memiliki koneksi apa pun dengan emas, mengingatkan kita pada koin Romawi di akhir Kekaisaran, atau bahkan dapat dikurangi menjadi nilai numerik sederhana, terputus dari realitas nyata.
+Pada akhirnya, mata uang mungkin tidak lagi memiliki koneksi apa pun dengan emas, bagaikan harga koin Romawi di akhir Kekaisarannya, bahkan ujung-ujungnya hanya dianggap sebagai nilai numerik, yang tak ada kaitannya lagi dengan realitas fisik.
 
-Hari ini, kita menyaksikan titik balik sejarah. Dolar, yang telah lama mendominasi, tampaknya sedang dalam penurunan, dan emas telah kehilangan tempat pusatnya. Kita berada di engsel siklus moneter baru, mengingatkan kita bahwa pelajaran dari sejarah seringkali dilupakan.
+Kini, kita berada pada momen penting, sebuah titik balik sejarah. Dolar, yang telah lama mendominasi, tampaknya sedang mengalami penurunan pengaruh, dan emas telah kehilangan perannya sebagai acuan moneter. Saat ini kita sedang berada di peralihan menuju siklus moneter yang baru, mengingatkan kita bahwa nilai-nilai dan pelajaran dari sejarah seringkali dilupakan.
 
 ![image](assets/en/chapter2/4.webp)
 
 ### Apakah Bitcoin Solusinya?
 
-Dalam konteks inilah revolusi Bitcoin semakin mendapatkan momentum. Mata uang ini, yang **tidak memerlukan pihak ketiga yang dipercaya**, bertujuan untuk memisahkan Negara dari uang.
+Dalam konteks inilah revolusi Bitcoin semakin mendapatkan momentum perkembangan yang pesat. Mata uang ini, yang **tidak memerlukan pihak ketiga yang dipercaya**, bertujuan untuk menjadi sebuah mata uang yang independen dari kendali Negara.
 
-Pencetakan uang menyebabkan inflasi, secara bertahap memiskinkan populasi. Di sisi lain, lembaga keuangan dan individu kaya mendapat manfaat dari praktik ini, menciptakan kesenjangan ketidaksetaraan dan mendukung otoritarianisme. Sistem keuangan saat ini diatur dan dibatasi untuk menghindari keruntuhan, dan gangguan apa pun dapat memicu krisis ekonomi besar. Karena aktor politik mendapat manfaat dari sistem ini, mereka tidak memiliki insentif untuk melakukan perubahan radikal, memungkinkan sistem untuk terus berjalan sampai kemungkinan kehancuran.
-Menanggapi tantangan sistemik ini, Bitcoin memperkenalkan dirinya sebagai solusi terdesentralisasi: sebuah sistem moneter paralel baru. Secara historis, emas telah disukai sebagai mata uang karena ketahanannya terhadap pemalsuan. Serupa dengan itu, Bitcoin, melalui sifat terdesentralisasi dan kriptografinya, tidak dapat dipalsukan dan terbatas pada 21 juta unit. Bitcoin adalah mata uang yang mengandalkan transparansi dan netralitas, menawarkan alternatif menarik terhadap sistem moneter terpusat saat ini.
+Pencetakan uang menyebabkan inflasi, secara bertahap membuat orang-orang menjadi miskin. Di sisi lain, lembaga keuangan dan individu kaya mendapat keuntungan dari praktik ini, sehingga menciptakan kesenjangan ketidaksetaraan dan dapat mendukung otoritarianisme. Sistem keuangan saat ini diatur dan dibatasi sedemikian rupa untuk menghindari keruntuhan, dan disrupsi apapun dapat memicu krisis ekonomi yang besar. Dikarenakan aktor politik mendapat keuntungan dari sistem ini, serta menghindari untuk melakukan perubahan radikal terhadapnya, sehingga memungkinkan sistem untuk terus berlanjut sampai terjadinya kegagalan besar.
+Demi menanggapi tantangan sistemik ini, Bitcoin muncul sebagai solusi yang terdesentralisasi: sebuah sistem moneter paralel baru. Secara historis, emas telah disukai sebagai mata uang karena ketahanannya terhadap pemalsuan. Serupa dengan itu, Bitcoin, melalui sifat terdesentralisasi dan kriptografinya, tidak dapat dipalsukan dan terbatas pada 21 juta unit. Bitcoin adalah mata uang yang mengandalkan transparansi dan netralitas, menawarkan alternatif menarik terhadap sistem moneter terpusat saat ini.
 
 Pada saat yang sama, kemunculan mata uang digital bank sentral, atau CBDCs, tampaknya tidak terelakkan. Bentuk mata uang baru ini akan menawarkan ekonomi yang lebih terencana secara sentral, yang dapat menghambat kebebasan finansial individu dan memfasilitasi penyalahgunaan otoriter.
 Kita dapat menyimpulkan bab ini dengan kutipan dari pemenang Hadiah Nobel F.A Hayek pada tahun 1984: "Saya tidak percaya bahwa kita akan pernah menemukan mata uang yang baik sampai kita mengambilnya dari tangan pemerintah. Namun, kita tidak dapat secara paksa mengambilnya dari mereka; yang bisa kita lakukan hanyalah memperkenalkan sesuatu yang tidak dapat mereka hentikan melalui tipu muslihat yang cerdik."
 
-### Ringkasan Cepat dalam Poster!
+### Ringkasan Singkat dalam Poster!
 
 ![Alt text](assets/posters/en/4._fiat_currency.webp)
 
 ## Hiperinflasi
 <chapterId>b04c024c-54f3-50cb-997f-58721cfc74be</chapterId>
 
-Hiperinflasi adalah fenomena moneter yang spesifik untuk mata uang fiat. Ini ditandai dengan kehilangan kepercayaan secara total pada sebuah mata uang dan peningkatan drastis dalam inflasi melalui pencetakan uang oleh otoritas. Akibatnya, tabungan yang telah dikumpulkan oleh individu dapat menguap dalam waktu yang relatif singkat, mendorong negara ke ambang kehancuran ekonomi, sosial, dan politik.
+Hiperinflasi adalah fenomena moneter yang hanya terjadi pada mata uang fiat. Ini ditandai dengan kehilangan kepercayaan secara total pada sebuah mata uang dan peningkatan drastis dalam inflasi melalui pencetakan uang oleh otoritas. Akibatnya, tabungan yang telah dikumpulkan oleh individu dapat menguap dalam waktu yang relatif singkat, mendorong negara ke ambang kehancuran ekonomi, sosial, dan politik.
 
 ### Inflasi yang Menggila!
 

@@ -3,7 +3,7 @@ name: bitcare 2023
 builder: 
 location: Brescia, Italy
 language: 
-   - it
+   - it:
 links:
   website: https://bitcareforum.it/
   twitter: https://twitter.com/bitcareforum24
@@ -14,7 +14,7 @@ tags:
 # Proofreading metadata
 original:
 translation_review:
-  - en
+  - en:
       - last_reviewed: 
       - next_review_urgency: 
       - reviewers_id: 

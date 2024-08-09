@@ -3,7 +3,7 @@ name:  Tuscany Lightning Summit 2024
 builder: PlanB
 location: Viareggio, Italy
 language: 
-  - en
+  - en:
 links:
   website: 
   twitter: 
@@ -15,7 +15,7 @@ tags:
 # Proofreading metadata
 original:
 translation_review:
-  - en
+  - en:
       - last_reviewed: 
       - next_review_urgency: 
       - reviewers_id: 

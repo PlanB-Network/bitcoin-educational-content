@@ -11,8 +11,8 @@
   price_dollars: 0
   description: L'évènement Bitcoin suisse de l'été 2024!
   language: 
-    - en
-    - fr
+    - en:
+    - fr:
   links:
     website: https://leparadigmebitcoin.ch/
     replay_url:

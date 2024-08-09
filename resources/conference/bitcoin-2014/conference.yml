@@ -3,7 +3,7 @@ name: Bitcoin 2014
 builder: bitcoin-foundation
 location: Amsterdam, Netherland
 language: 
-  - en
+  - en:
 links:
   twitter: https://twitter.com/Bitcoin2014
 tags: 
@@ -14,7 +14,7 @@ tags:
 # Proofreading metadata
 original:
 translation_review:
-  - en
+  - en:
       - last_reviewed: 
       - next_review_urgency: 
       - reviewers_id: 

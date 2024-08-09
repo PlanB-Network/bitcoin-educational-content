@@ -3,7 +3,7 @@ name: Bitblockboom 2018
 builder: Bitblockboom
 location: Dallas, USA
 language: 
-  - en
+  - en:
 links:
   website: https://bitblockboom.com/
   twitter: https://twitter.com/bitblockboom
@@ -14,7 +14,7 @@ tags:
 # Proofreading metadata
 original:
 translation_review:
-  - en
+  - en:
       - last_reviewed: 
       - next_review_urgency: 
       - reviewers_id: 

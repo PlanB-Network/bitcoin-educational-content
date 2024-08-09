@@ -16,17 +16,17 @@ credits:
 # Proofreading metadata
 original: fr
 translation_review:
-  - en
+  - en:
       - last_reviewed: 
       - next_review_urgency: 1 
       - reviewers_id: 
       - reward: 
-  - fr
+  - fr:
       - last_reviewed: 
       - next_review_urgency: 1 
       - reviewers_id: 
       - reward: 
-  - ru
+  - ru:
       - last_reviewed: 
       - next_review_urgency: 1 
       - reviewers_id: 

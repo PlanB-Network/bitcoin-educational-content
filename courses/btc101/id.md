@@ -236,52 +236,52 @@ Kita dapat menyimpulkan bab ini dengan kutipan dari pemenang Hadiah Nobel F.A Ha
 ## Hiperinflasi
 <chapterId>b04c024c-54f3-50cb-997f-58721cfc74be</chapterId>
 
-Hiperinflasi adalah fenomena moneter yang hanya terjadi pada mata uang fiat. Ini ditandai dengan kehilangan kepercayaan secara total pada sebuah mata uang dan peningkatan drastis dalam inflasi melalui pencetakan uang oleh otoritas. Akibatnya, tabungan yang telah dikumpulkan oleh individu dapat menguap dalam waktu yang relatif singkat, mendorong negara ke ambang kehancuran ekonomi, sosial, dan politik.
+Hiperinflasi adalah fenomena moneter yang hanya terjadi pada mata uang fiat. Fenomena ini ditandai dengan kehilangan kepercayaan secara total terhadap sebuah mata uang tertentu serta peningkatan drastis dalam inflasi melalui pencetakan uang oleh otoritas. Akibatnya, tabungan yang telah dikumpulkan oleh individu dapat menghilang dalam waktu yang relatif singkat, membawa negara ke ambang kehancuran ekonomi, sosial, dan politik.
 
-### Inflasi yang Menggila!
+### Inflasi yang Merajalela!
 
 Mari kita coba memahami dampak inflasi terhadap tabungan dengan mempertimbangkan berbagai tingkat inflasi.
 
-- Dengan inflasi 2%, Anda kehilangan 2% daya beli Anda setiap tahun, yang berjumlah 10% lebih dari 5 tahun.
-- Dengan 7%, Anda kehilangan setengah dari itu dalam 10 tahun.
-- Dengan 20%, Anda hampir kehilangan setengah dari itu dalam 3 tahun.
+- Dengan tingkat inflasi 2%, Anda kehilangan 2% daya beli Anda setiap tahun, yang artinya kehilangan 10% dalam jangka waktu 5 tahun.
+- Dengan 7%, Anda kehilangan setengah daya beli dalam 10 tahun.
+- Dengan 20%, Anda hampir kehilangan setengah dari daya beli Anda dalam 3 tahun.
 
-Selama hiperinflasi, kita tidak lagi berbicara tentang 20% per tahun, tetapi lebih kepada 20% per bulan atau, pada puncaknya, per HARI. Inflasi 100% per hari selama 3 hari adalah skenario realistis yang telah terjadi dan terus terjadi di dunia kita.
+Selama hiperinflasi, tingkat inflasi bukanlah lagi 20% per tahun, namun angka ini bisa mencapai 20% per bulan atau, pada puncaknya, per HARI. Tingkat inflasi harian sebesar 100% per hari selama 3 hari sudah pernah terjadi, serta terus terjadi di dunia kita.
 
-Penting untuk memahami bahwa hiperinflasi tidak terjadi secara ajaib, secara kebetulan, oleh kapitalisme, atau oleh lawan politik. Hiperinflasi adalah konsekuensi langsung dari keputusan moneter yang salah yang dibuat oleh bankir sentral dan politisi. Konsekuensinya mempengaruhi semua warga negara dan akan berdampak pada generasi. Saya mengundang Anda untuk menghabiskan 5 menit mempelajari tabel ini untuk sepenuhnya menyadari dampak nyata dari fenomena ini (kursus ECON204 akan membahas topik ini secara detail)."
+Penting untuk memahami bahwa hiperinflasi tidak mungkin terjadi secara tiba-tiba, secara kebetulan, karena kapitalisme, ataupun karena lawan politik. Hiperinflasi adalah konsekuensi langsung dari keputusan dan kebijakan moneter yang "salah" oleh bankir sentral dan politisi. Konsekuensinya berdampak pada semua warga negara dan serta akan berdampak pada generasi-generasi berikutnya. Sisihkan waktu 5 menit untuk mempelajari tabel di bawah untuk sepenuhnya memahami dampak nyata dari fenomena ini (kursus ECON204 akan membahas topik ini secara detail)."
 
 ![image](assets/en/chapter3/1.webp)
 
-### Bagaimana Hiperinflasi Terjadi?
+### Bagaimana Hiperinflasi dapat Terjadi?
 
 ![image](assets/en/chapter3/3.webp)
 
 Fase 1 - Kehilangan Kepercayaan
 
-- Sentralisasi kekuatan moneter memfasilitasi penciptaan uang dan penyalahgunaannya. Kehilangan kepercayaan pada mata uang kemudian dapat muncul dan memicu hiperinflasi. Individu kemudian mulai mempertanyakan asal-usul uang dan manfaat dari kebijakan moneter yang diwajibkan. Kehilangan kepercayaan ini umumnya disebabkan oleh faktor eksternal seperti perang, langkah-langkah sosial, atau kenaikan harga sumber daya kunci, seperti gandum atau bensin.
+- Sentralisasi kekuasaan moneter memfasilitasi proses pencetakan uang dan penyalahgunaannya. Kehilangan kepercayaan pada mata uang kemudian dapat muncul dan memicu hiperinflasi. Individu kemudian mulai mempertanyakan asal-usul uang dan manfaat dari kebijakan moneter yang diterapkan. Kehilangan kepercayaan ini umumnya disebabkan oleh faktor eksternal seperti perang, kebijakan sosial, atau kenaikan harga sumber daya kunci, seperti gandum atau migas.
 
-Fase 2 - Runtuhnya Mata Uang & Peningkatan Harga
-- Ketika pemerintah kehilangan kendali atas kepercayaan, individu mulai menukar mata uang mereka dengan mata uang lain yang lebih stabil, seperti dolar AS di Venezuela. Hal ini menyebabkan kenaikan harga, menciptakan lingkaran setan di mana barang dan jasa menjadi semakin mahal. Untuk memenuhi kebutuhan ini, negara mencetak lebih banyak uang untuk memperbaiki kebijakan moneter, mengakibatkan inflasi yang eksponensial.
+Fase 2 - Runtuhnya Mata Uang & Naiknya Harga
+- Ketika pemerintah kehilangan kendali atas kepercayaan, individu mulai menukar mata uang mereka dengan mata uang lain yang lebih stabil, seperti dolar AS untuk kasus warga Venezuela. Hal ini menyebabkan kenaikan harga, menciptakan "lingkaran setan" di mana barang dan jasa menjadi semakin mahal. Untuk memenuhi kebutuhan ini, negara mencetak lebih banyak uang untuk memperbaiki kebijakan moneter, mengakibatkan inflasi yang semakin tidak terkendali.
 Fase 3 - Lingkaran setan pencetakan uang
 
-- Semakin banyak uang kertas yang dibutuhkan untuk membeli barang, menciptakan kelangkaan uang kertas. Hal ini menyebabkan pencetakan uang kertas lebih banyak lagi, menciptakan inflasi yang semakin meningkat.
+- Untuk melakukan pembelian barang dan komoditas, uang kertas yang dibutuhkan semakin banyak, sehingga menyebabkan kelangkaan uang kertas. Hal ini menyebabkan pencetakan uang kertas lebih banyak lagi, yang memicu inflasi yang semakin meningkat.
 
 ![image](assets/en/chapter3/4.webp)
 
 Fase 4 - Munculnya mata uang baru
 
-- Kemudian, mata uang baru diperkenalkan untuk menggantikan yang lama. Contoh terkenal dari hiperinflasi adalah Jerman pada tahun 1920-1924. Untuk menghidupkan kembali ekonomi, mata uang baru diciptakan, didukung oleh utang Jerman, Prancis, dan Inggris, dan dijamin oleh tanah-tanah Jerman.
+- Kemudian, mata uang baru diperkenalkan untuk menggantikan yang lama. Contoh mencolok dari hiperinflasi adalah Jerman pada tahun 1920-1924. Untuk menghidupkan kembali perekonomian negara, mata uang baru diciptakan, didukung oleh utang Jerman, Prancis, dan Inggris, dan dijamin oleh lahan-lahan Jerman.
 
-Mengatasi krisis hiperinflasi seringkali memerlukan perubahan radikal, seperti revolusi, perubahan dalam pemerintahan, perubahan dalam bankir sentral, di antara lainnya. Kehilangan kepercayaan, kehancuran mata uang, dan rekonstruksi adalah fase-fase esensial untuk menghidupkan kembali ekonomi baru berbasis mata uang fiat.
+Mengatasi krisis hiperinflasi seringkali memerlukan perubahan radikal, seperti revolusi, perubahan dalam pemerintahan, perubahan dalam bankir sentral, dan lain-lain. Kehilangan kepercayaan, keruntuhan mata uang, dan rekonstruksi adalah fase-fase penting untuk menghidupkan kembali ekonomi baru berbasis mata uang fiat.
 
-### 3 contoh terkenal
+### 3 contoh mencolok
 
 - Jerman, 1922-1923
 
-  Salah satu contoh paling mencolok dari hiperinflasi terjadi di Republik Weimar Jerman setelah Perang Dunia I.
+  Salah satu contoh paling mencolok adalah hiperinflasi yang terjadi di Republik Weimar Jerman setelah Perang Dunia I.
 
-  Jerman telah meminjam jumlah uang yang sangat besar untuk membiayai upaya perang, dan tidak hanya Jerman tidak memenangkan perang, tetapi juga harus membayar miliaran dolar sebagai reparasi. Bulan dengan inflasi tertinggi adalah Oktober 1923, mencapai puncaknya pada 29.500%, atau tingkat inflasi 20,9% per hari. Harga-harga berlipat ganda setiap 3,7 hari!
-  Dikatakan bahwa di restoran, pelayan harus mengumumkan harga menu setiap 30 menit untuk memperhitungkan inflasi. Mata uang Jerman menjadi begitu tidak berguna sehingga beberapa warga lebih memilih untuk membakar uang kertas mereka daripada kayu karena sebenarnya lebih murah.
+  Jerman telah meminjam uang yang jumlahnya sangat banyak untuk membiayai perang, dan tidak hanya Jerman tidak memenangkan perang, tetapi juga harus membayar miliaran dolar sebagai biaya reparasi. Bulan dengan inflasi tertinggi adalah Oktober 1923, puncaknya mencapai 29.500%, atau setara tingkat inflasi 20,9% per hari. Harga barang berlipat ganda setiap 3,7 hari!
+  Dikatakan bahwa di restoran, pelayan harus memperbarui harga menu setiap 30 menit untuk disesuaikan dengan inflasi. Mata uang Jerman menjadi begitu tidak bernilai, sehingga beberapa warga lebih memilih untuk membakar uang kertas mereka daripada kayu karena lebih murah.
 
   ![image](assets/en/chapter3/5.webp)
 
@@ -289,25 +289,25 @@ Mengatasi krisis hiperinflasi seringkali memerlukan perubahan radikal, seperti r
 
   Negara yang mengalami periode hiperinflasi terburuk dalam sejarah hingga saat ini adalah Hungaria setelah Perang Dunia II.
 
-  Hungaria berada di pihak yang kalah dalam konflik dan perang telah menghancurkan sebagian besar kapasitas produksi industrinya. Bulan dengan inflasi tertinggi adalah Juli 1946, dengan inflasi harga 41.900.000.000.000.000%, setara dengan 207% per hari. Harga-harga berlipat ganda setiap 15 jam!
+  Hungaria merupakan pihak yang kalah dalam konflik dan perang, dan hal ini telah menghancurkan sebagian besar kapasitas produksi industrinya. Bulan dengan inflasi tertinggi adalah Juli 1946, dengan inflasi harga 41.900.000.000.000.000%, setara dengan 207% per hari. Harga naik dua kali lipat setiap 15 jam!
 
   Uang kertas terakhir yang dikeluarkan adalah banknote 100 juta miliar pengo (100.000.000.000.000.000) pada tahun 1946.
 
 ![image](assets/en/chapter3/6.webp)
 
 - Zimbabwe, 2007-2008
-  Sampai tahun 2000, Zimbabwe mandiri untuk hampir semua kebutuhannya kecuali minyak.
+  Hingga tahun 2000, Zimbabwe dapat secara independen memenuhi hampir semua kebutuhannya, terkecuali untuk minyak.
 
-  Pada tahun 1997, dolar Zimbabwe anjlok lebih dari 72% setelah pemerintah setuju untuk memberi kompensasi kepada veteran perang dengan jumlah setara dengan 450 juta dolar AS. Karena pemerintah tidak memiliki jumlah tersebut di kasnya, mereka harus beralih ke pencetakan uang. Pada tahun 2005, inflasi mencapai 586% dan pada Maret 2007, inflasi bulanan mencapai 50%.
+  Pada tahun 1997, dolar Zimbabwe anjlok lebih dari 72% setelah pemerintah setuju untuk memberi kompensasi kepada veteran perang yang nilainya setara 450 juta dolar AS. Karena pemerintah tidak memiliki uang sebanyak itu di kasnya, mereka terpaksa memilih untuk mencetak uang. Pada tahun 2005, inflasi mencapai 586% dan pada Maret 2007, inflasi bulanan mencapai 50%.
 
-  Pada Juni 2007, pemerintah bereaksi dengan memberlakukan kontrol harga. Toko-toko secara harfiah "dijarah". Pedagang kini tidak lagi memiliki sarana untuk mengisi ulang toko mereka.
-Pada April 2009, Menteri Keuangan mengumumkan penangguhan dolar Zimbabwe dan mengizinkan penggunaan berbagai mata uang asing untuk perdagangan. Semua rekening bank, pensiun, dan lembaga keuangan melihat saldo mereka menguap dalam semalam.
+  Pada Juni 2007, pemerintah menghadapi ini dengan memberlakukan kontrol harga. Barang-barang di toko-toko "dijarah". Para pedagang kini tidak lagi memiliki sarana untuk memasok kembali isi toko mereka.
+Pada April 2009, Menteri Keuangan mengumumkan penangguhan dolar Zimbabwe dan mengizinkan penggunaan berbagai mata uang asing untuk perdagangan. Semua rekening bank, rekening dana pensiun, dan lembaga keuangan melihat saldo mereka lenyap dalam semalam.
 ![image](assets/en/chapter3/7.webp)
 
-Kesimpulannya, hiperinflasi memiliki efek merusak nilai mata uang dengan cepat, yang mengakibatkan pengikisan tabungan dan hilangnya kepercayaan dalam sistem moneter. Seperti yang pernah disarankan oleh Voltaire, mata uang fiat akan selalu pada akhirnya kehilangan nilai intrinsiknya dan konvergen menuju nol.
-'Sebuah mata uang yang bergantung pada pihak ketiga yang dipercaya seperti lembaga keuangan, dalam praktek dan dalam jangka panjang, adalah mata uang yang cacat karena tidak mampu menjamin daya beli atau menjaga tabungan.
+Kesimpulannya, hiperinflasi memiliki efek buruk yang dapat merusak nilai mata uang dengan cepat, yang mengakibatkan berkurangnya nilai tabungan dan hilangnya kepercayaan terhadap sistem moneter. Seperti yang pernah disampaikan oleh Voltaire, mata uang fiat akan selalu pada akhirnya kehilangan nilai intrinsiknya dan nilainya akan lama-kelamaan menuju nol.
+'Sebuah mata uang yang bergantung pada pihak ketiga yang dipercaya seperti lembaga keuangan, dalam praktiknya dan dalam jangka panjang, adalah mata uang yang cacat karena tidak mampu menjamin daya beli atau menjaga tabungan.
 
-### Ringkasan cepat dalam poster!
+### Ringkasan Singkat dalam Poster!
 
 ![Alt text](assets/posters/en/5._hyperinflation.webp)
 
@@ -316,21 +316,21 @@ Kesimpulannya, hiperinflasi memiliki efek merusak nilai mata uang dengan cepat, 
 
 ### Kebijakan Moneter Bitcoin
 
-Bitcoin adalah mata uang digital terdesentralisasi dengan jumlah maksimum yang telah ditentukan sebelumnya sebanyak **21 juta unit**. Karakteristik kelangkaan ini ditentukan oleh kode komputernya dan diperkuat oleh konsensus semua pengguna yang berpartisipasi dalam protokol.
+Bitcoin adalah mata uang digital terdesentralisasi dengan jumlah maksimum yang telah ditentukan sebanyak **21 juta unit**. Karakteristik kelangkaan ini ditentukan oleh kode komputernya dan diperkuat oleh persetujuan umum semua pengguna yang berpartisipasi dalam protokol.
 
 ![image](assets/en/chapter4/0.webp)
 
-Mengenai penerbitan moneter, hal ini dapat diilustrasikan oleh kurva S yang mewakili jumlah bitcoin yang dibuat seiring waktu. Misalnya, pada tahun 2022, sekitar 18,5 juta bitcoin beredar. Perkiraan menunjukkan bahwa pada tahun 2025, akan ada sekitar 19,5 juta bitcoin, mewakili ~93% dari total pasokan, dan pada tahun 2037, angka ini akan mencapai 20,4 juta.
+Penerbitan moneter Bitcoin dapat diilustrasikan oleh kurva S yang mewakili jumlah bitcoin yang diciptakan seiring waktu. Misalnya, pada tahun 2022, sekitar 18,5 juta bitcoin sudah ada dalam peredaran. Diprediksikan bahwa pada tahun 2025, akan ada sekitar 19,5 juta bitcoin, sekitar ~93% dari total pasokan, dan pada tahun 2037, angka ini akan mencapai 20,4 juta.
 
 ### Bagaimana Cara Membuat Bitcoin Baru?
 
-Penciptaan bitcoin baru adalah hasil dari proses penambangan, prosedur untuk memverifikasi transaksi di jaringan Bitcoin.
+Bitcoin baru adalah hasil dari proses penambangan, yang merupakan prosedur verifikasi transaksi dalam jaringan Bitcoin.
 
 ![image](assets/en/chapter4/1.webp)
 
-Penambang, yang melakukan tugas ini, diberi imbalan dengan penerbitan bitcoin baru setiap sepuluh menit. Imbalan ini diprogram untuk berkurang setengahnya setiap 210,000 blok, yang kira-kira setiap empat tahun, sebuah peristiwa yang dikenal sebagai "halving" -- memberikan kurva penerbitan moneter bentuk seperti tangga. Karena mekanisme halving ini, dapat diprediksi secara matematis bahwa penciptaan bitcoin akan berhenti pada tahun 2140, ketika jumlah total bitcoin mencapai batasnya sebanyak 21 juta.
+Penambang, yang melakukan tugas ini, diberi imbalan dengan penerbitan bitcoin baru setiap sepuluh menit. Imbalan ini diprogram untuk berkurang setengahnya setiap 210,000 blok, kira-kira setiap empat tahun, melalui peristiwa yang dikenal sebagai "halving" -- yang dapat menjelaskan mengapa kurva penerbitan moneter Bitcoin berbentuk seperti tangga. Karena adanya halving, dapat diprediksi secara matematis bahwa bitcoin akan berhenti diterbitkan pada tahun 2140, ketika jumlah total bitcoin mencapai batasnya sebanyak 21 juta unit.
 
-| Nomor Halving | Tinggi Blok | BTC Hadiah Setelah Halving  | BTC Estimasi Beredar Setelah Halving |
+| Halving ke- | Tinggi Blok | Hadiah BTC Setelah Halving  | Estimasi BTC yang Beredar Setelah Halving |
 | -------------- | ------------ | ------------------------- | ------------------------------------------ |
 | 1              | 210,000      | 25 BTC                    | 10,500,000 BTC                             |
 | 2              | 420,000      | 12.5 BTC                  | 15,750,000 BTC                             |
@@ -353,25 +353,25 @@ Penambang, yang melakukan tugas ini, diberi imbalan dengan penerbitan bitcoin ba
 | 19             | 3,990,000    | 0,000095367431640625 BTC  | 20,999,959.946 BTC                         |
 | 20             | 4,200,000    | 0,0000476837158203125 BTC | 20,999,979.973 BTC                         |
 
-Kita akan kembali membahas tentang penambang secara detail di bab penambangan.
+Hal mengenai penambang akan secara detail dijelaskan dalam bab penambangan.
 
 ### Menjamin kelangkaan digital
 
 Kelangkaan Bitcoin dijamin oleh dua mekanisme kunci: penyesuaian kesulitan penambangan dan teori permainan:
 
-- Penyesuaian kesulitan penambangan adalah mekanisme yang terjadi setiap 2016 blok, atau sekitar dua minggu, untuk memastikan bahwa, rata-rata, sebuah blok baru ditambahkan ke blockchain setiap sepuluh menit. Frekuensi pembuatan blok dan jumlah total bitcoin adalah aspek tetap dari protokol Bitcoin dan tidak dapat diubah tanpa konsensus umum, tidak seperti keputusan sewenang-wenang yang dibuat dalam sistem moneter tradisional.
+- Penyesuaian kesulitan penambangan adalah mekanisme yang terjadi setiap 2016 blok, atau sekitar dua minggu, untuk memastikan bahwa rata-rata sebuah blok baru ditambahkan ke blockchain setiap sepuluh menit. Frekuensi pembuatan blok dan jumlah total bitcoin adalah aspek tetap dari protokol Bitcoin dan tidak dapat diubah tanpa persetujuan umum, tidak seperti keputusan sewenang-wenang yang dibuat dalam sistem moneter tradisional.
 
 ![image](assets/en/chapter4/2.webp)
 
-> Tahukah Anda? Penambang termotivasi untuk menambang sebuah blok untuk mendapatkan bitcoin baru (subsidi blok) dan biaya transaksi yang terkait dengan transaksi yang mereka sertakan dalam blok mereka. Seiring jumlah bitcoin yang diterbitkan mendekati batas 21 juta, penambang akan lebih banyak diberi remunerasi melalui biaya transaksi mereka daripada melalui subsidi blok.'
+> Tahukah Anda? Saat penambang menambang sebuah blok, mereka akan mendapatkan insentif berupa bitcoin baru (subsidi blok) dan biaya transaksi yang terkait dengan transaksi yang mereka sertakan dalam blok mereka. Seiring jumlah bitcoin yang diterbitkan mendekati batas 21 juta, proporsi insentif melalui biaya transaksi mereka akan lebih besar daripada melalui subsidi blok.'
 
-- Teori permainan adalah konsep matematika yang mengandalkan rasionalitas manusia. Di sini, dalam Bitcoin, adalah pengguna yang memilih perubahan protokol. Ya, Anda membaca itu dengan benar: setiap modifikasi pada protokol Bitcoin akan memerlukan persetujuan dari seluruh komunitas pengguna, yang sangat kompleks. Jadi, jika seseorang ingin menciptakan bitcoin ke-22 juta, mereka harus meyakinkan semua pengguna untuk secara sukarela menurunkan nilai tabungan mereka sendiri, yang tidak mungkin terjadi karena Bitcoin bersifat global dan tidak diatur oleh sebuah kelompok pusat.
+- Teori permainan adalah konsep matematika yang mengandalkan rasionalitas manusia. Dalam Bitcoin, para penggunalah yang memutuskan diadakannya perubahan protokol atau tidak. Benar, Anda tidak salah membaca: setiap modifikasi pada protokol Bitcoin akan memerlukan persetujuan dari seluruh komunitas pengguna, dan hal ini sangat kompleks. Jadi, jika ada yang ingin menciptakan bitcoin ke-22 juta, pihak tersebut harus meyakinkan semua pengguna untuk rela menurunkan nilai tabungan mereka sendiri, yang sangat tidak mungkin terjadi karena Bitcoin bersifat global dan tidak diatur oleh sebuah institusi terpusat.
 ![image](assets/en/chapter4/3.webp)
-Ide mengurangi nilai mata uang bertentangan dengan filosofi dasar Bitcoin, sehingga mengubah batas ini sangat tidak mungkin.
+Gagasan melakukan devaluasi nilai mata uang bertentangan dengan filosofi dasar Bitcoin, sehingga perubahan batas jumlah maksimum Bitcoin sangatlah tidak mungkin.
 
 ### Kebijakan moneter yang dapat diaudit setiap detik dari awal dan selamanya!
 
-Kelangkaan Bitcoin adalah aset utama, dan jumlah maksimum 21 juta bitcoin yang beredar adalah publik dan dapat diverifikasi oleh siapa saja.
+Kelangkaan Bitcoin merupakan aset utamanya, dan informasi mengenai jumlah maksimum 21 juta bitcoin yang beredar bersifat publik dan dapat dipastikan oleh siapa saja.
 
 Faktanya, siapa pun dapat memverifikasi jumlah bitcoin yang beredar dengan memasukkan perintah sederhana pada node Bitcoin: `bitcoin-cli gettxoutsetinfo`. Transparansi dan verifikasi ini memperkuat kepercayaan pada sistem Bitcoin, yang tidak didasarkan pada institusi atau individu terpusat, tetapi pada jaminan matematis dan kriptografi yang melekat dalam protokolnya. (Anda akan belajar bagaimana melakukan ini dengan mudah di LN201)
 
@@ -388,15 +388,15 @@ Faktanya, siapa pun dapat memverifikasi jumlah bitcoin yang beredar dengan memas
 }
 ```
 
-Bitcoin, dengan desainnya, menjamin pengelolaan moneter yang baik dengan membatasi penciptaannya dan melindungi tabungan pengguna, membedakannya dari mata uang lain. Selaras dengan prinsip ekonomi Austria (detail di ECON201), jumlahnya yang terkontrol dan distribusi yang dapat diprediksi melindunginya dari risiko inflasi yang melekat pada mata uang tradisional.
+Bitcoin, dengan desainnya, menjamin pengelolaan moneter yang baik dengan membatasi kuota penerbitannya dan melindungi tabungan pengguna, membedakannya dari mata uang lain. Selaras dengan prinsip ekonomi Austria (detail di ECON201), jumlahnya yang terkontrol dan distribusinya yang dapat diprediksi menghindarkannya dari risiko inflasi yang melekat pada mata uang tradisional.
 
-Singkatnya, Bitcoin, dengan sifat desentralisasinya, kelangkaan yang diprogram, dan transparansi, menawarkan alternatif unik terhadap sistem moneter tradisional. Ini menggambarkan bagaimana teknologi dapat digunakan untuk menciptakan mata uang yang tidak hanya berguna dan dapat diverifikasi, tetapi juga menjaga nilai tabungan pengguna dengan membatasi pasokannya secara ketat.
+Singkatnya, Bitcoin, dengan sifat terdesentralisasinya, kelangkaannya yang diatur, serta transparansinya, menawarkan alternatif yang unik untuk sistem moneter tradisional. Hal ini menggambarkan bagaimana teknologi dapat digunakan untuk menciptakan mata uang yang tidak hanya berguna dan dapat diverifikasi, namun juga dapat menjamin nilai tabungan pengguna dengan membatasi jumlahnya secara ketat.
 
-### Ringkasan cepat dalam poster!
+### Ringkasan Singkat dalam Poster
 
 ![Alt text](assets/posters/en/6._21_millions.webp)
 
-### Kesimpulan dari bagian 1!
+### Kesimpulan Bagian 1!
 
 # Dompet Bitcoin
 <partId>28860585-4f61-59d9-b242-f4c57d837cc1</partId>
@@ -404,59 +404,59 @@ Singkatnya, Bitcoin, dengan sifat desentralisasinya, kelangkaan yang diprogram, 
 ## Apa itu dompet Bitcoin?
 <chapterId>1c0166ab-cb7a-5bc6-9175-d13482bd91f1</chapterId>
 
-Di bagian 2 ini, kita akan menjelajahi penyimpanan dan keamanan Bitcoin dalam dompet. Ini akan memungkinkan Anda untuk lebih memahami di mana bitcoin terkenal ini berada dan bagaimana berinteraksi dengan mereka!
+Di bagian 2 ini, kita akan menjelajahi penyimpanan dan keamanan Bitcoin dalam dompet, memungkinkan Anda untuk lebih memahami di mana bitcoin ini berada dan bagaimana berinteraksi dengannya!
 
-### Mendemistifikasi dompet Bitcoin
+### Menguak dompet Bitcoin
 
-Dalam industri ini, kita menggunakan dompet untuk berinteraksi dengan jaringan Bitcoin, yang memiliki 3 fungsi:
+Dalam industri ini, dompet dapat digunakan untuk berinteraksi dengan jaringan Bitcoin dan dompet ini memiliki 3 fungsi:
 
-- Memungkinkan menerima bitcoin
-- Memungkinkan mengirim bitcoin
+- Memungkinkan Anda menerima bitcoin
+- Memungkinkan Anda mengirim bitcoin
 - Mengamankannya dari upaya peretasan dan pencurian
 
-Dompet bisa berupa perangkat lunak di komputer Anda, aplikasi di smartphone Anda, perangkat fisik seperti kunci USB, atau bahkan selembar kertas. Jenis dompet Bitcoin yang berbeda ini masing-masing melayani kasus penggunaan yang berbeda. Beberapa digunakan untuk jumlah besar dengan penekanan pada keamanan, lainnya untuk privasi, atau bahkan untuk pembayaran sehari-hari dalam jumlah kecil.
+Ada bermacam-macam bentuk dompet yang dapat berupa perangkat lunak di komputer Anda, aplikasi di smartphone Anda, perangkat fisik seperti kunci USB, atau bahkan selembar kertas. Jenis dompet Bitcoin yang berbeda-beda masing-masing memiliki kegunaan yang tidak sama. Beberapa digunakan untuk transaksi jumlah besar dengan penekanan pada keamanan, lainnya untuk privasi, atau bahkan untuk pembayaran sehari-hari dalam jumlah kecil.
 
-Portofolio oleh karena itu dibagi menjadi keluarga besar penggunaan, selalu dengan pertanyaan sentral: Apakah Anda pemilik dana atau apakah Anda meninggalkan kontrol uang Anda kepada pihak ketiga? Kami akan kembali ke topik ini secara detail di bab berikutnya, tetapi ideanya sederhana: Apakah uang itu di saku Anda atau di saku bankir Anda!
+Oleh karena itu, portofolio dibagi menjadi beberapa kategori besar, selalu dengan pertanyaan inti ini: Apakah Anda pemilik dana Anda atau apakah Anda menyerahkan kontrol atas uang Anda kepada pihak ketiga? Kami akan menjelaskan topik ini secara detail di bab berikutnya, tetapi intinya sederhana: Apakah uang ada di saku Anda atau di saku bankir Anda!
 
 ![image](assets/en/chapter5/3.webp)
-### Bagaimana Cara Kerja Dompet Bitcoin
-Apakah itu "bankir" Bitcoin Anda atau diri Anda sendiri, pada umumnya, sebagian besar dompet Bitcoin bekerja dengan teknologi yang serupa, yaitu kriptografi asimetris, dan oleh karena itu sistem pasangan kunci: kunci privat untuk mengeluarkan dan kunci publik untuk menerima.
+### Bagaimana Cara Kerja Dompet Bitcoin?
+Baik itu "bankir" Bitcoin Anda atau diri Anda sendiri, pada umumnya, sebagian besar dompet Bitcoin bekerja dengan teknologi yang serupa, yaitu kriptografi asimetris dengan sistem pasangan kunci: kunci privat untuk pengeluaran dan kunci publik untuk pemasukan.
 
 - Kunci Privat
-  Saat menginisialisasi dompet, frasa pemulihan rahasia (kunci privat) dihasilkan dan diberikan kepada Anda dalam bentuk 24 kata.
+  Saat Anda menginisialisasi dompet, frasa pemulihan rahasia (kunci privat) akan otomatis dibuat dan diberikan kepada Anda dalam bentuk 24 kata.
 
-  Kunci privat sangat penting karena itu mewakili kepemilikan atas bitcoin dan oleh karena itu hak untuk menggunakan atau mengirimkannya. Pemegang kunci privat adalah pemilik Bitcoin.
+  Kunci privat sangatlah penting, karena kunci ini mewakili kepemilikan atas bitcoin beserta hak untuk menggunakan atau mengirimnya. Pemegang kunci privat adalah pemilik Bitcoin.
 
-  Kunci ini harus disimpan secara rahasia dan terjaga dengan baik, karena itulah kunci yang membuka kekayaan Anda!
+  Kunci ini harus disimpan secara rahasia dan dijaga dengan baik, karena itulah kunci yang membuka kekayaan Anda!
 
 - Kunci Publik & Alamat
-  Kunci publik dibuat dengan kunci privat dan oleh karena itu terkait dengannya. Kunci publik digunakan untuk menghasilkan alamat Bitcoin dan dengan demikian menerima uang. Berbagi kunci publik melibatkan risiko terhadap privasi, tetapi tidak terhadap keamanan.
+  Kunci publik dibuat bersamaan dengan kunci privat, oleh karena keduanya saling berkaitan. Kunci publik digunakan untuk menghasilkan alamat Bitcoin serta menerima uang. Berbagi kunci publik melibatkan risiko terhadap privasi, tetapi tidak berdampak terhadap keamanan.
 
   Alamat-alamat ini dibuat oleh dompet Anda dan dapat dibagikan secara aman. Disarankan untuk menggunakannya hanya sekali untuk memaksimalkan privasi Anda.
 
-Oleh karena itu, penting untuk memahami bahwa berkat teknologi ini, kita dapat dengan mudah menerima Bitcoin tanpa memungkinkan pengirim untuk mencuri dana kita! Pikirkan itu seperti kotak surat: orang menyetor uang di dalamnya, tetapi Anda adalah satu-satunya yang bisa membukanya.
+Oleh karena itu, penting untuk memahami bahwa berkat teknologi ini, kita dapat dengan mudah menerima Bitcoin tanpa memungkinkan pengirim untuk mencuri dana kita! Pikirkan itu seperti kotak surat: orang menyetor uang di dalamnya, tetapi hanya Andalah satu-satunya yang bisa membukanya.
 
 ![image](assets/en/chapter5/4.webp)
 
 ### Apakah Bitcoin Berada di Dalam Dompet?
 
-Meskipun kunci Anda disimpan di dompet Anda, bitcoin itu sendiri sebenarnya "disimpan" di blockchain Bitcoin, yang merupakan buku besar terdistribusi publik dalam jaringan peer-to-peer Bitcoin (kita akan melihat ini di bagian 3). Itulah mengapa kehilangan perangkat tempat Anda memiliki dompet Anda tidak selalu berarti kehilangan bitcoin Anda. Yang memungkinkan Anda untuk merekreasi dompet Anda dan menghabiskan bitcoin Anda adalah kunci privat. Oleh karena itu, sangat penting untuk mengamankannya dengan benar.
+Meskipun kunci Anda disimpan di dompet Anda, bitcoin sendiri sebenarnya "disimpan" di blockchain Bitcoin, yang merupakan buku besar terdistribusi publik dalam jaringan peer-to-peer Bitcoin (akan dibahas di bagian 3). Itulah mengapa kehilangan perangkat yang di dalamnya terdapat dompet Anda tidak selalu berarti Anda telah kehilangan bitcoin Anda. Yang memungkinkan Anda untuk membuat ulang dompet Anda dan menggunakan bitcoin Anda adalah kunci privat. Oleh karena itu, sangat penting untuk mengamankannya dengan baik.
 
 ![image](assets/en/chapter5/1.webp)
 
-Beruntung bagi kita, sejak tahun 2017, kunci privat ini dapat dikodekan dalam daftar sederhana dari 12 atau 24 kata, yang disebut frasa mnemonik. Frasa ini adalah cadangan dari dompet Bitcoin Anda, itulah yang memungkinkan Anda untuk merekreasi dompet Anda dengan perangkat lunak/aplikasi dompet Bitcoin apa pun. Oleh karena itu, siapa pun yang memiliki akses ke daftar kata ini memiliki akses ke bitcoin Anda.
+Untungnya, sejak tahun 2017, kunci privat dapat dikodekan dalam daftar sederhana yang terdiri dari 12 atau 24 kata, disebut frasa mnemonik. Frasa ini adalah cadangan dari dompet Bitcoin Anda, yang memungkinkan Anda untuk membuat ulang dompet Anda dengan perangkat lunak/aplikasi dompet Bitcoin apa pun. Dengan demikian, siapa pun yang memiliki akses ke daftar kata ini memiliki akses ke bitcoin Anda.
 
 ### Bagaimana dengan Hacker?
 
-Seseorang mungkin bertanya: bagaimana jika seseorang secara tidak sengaja menebak daftar 12 atau 24 kata kita? Jawaban singkatnya adalah bahwa berkat kriptografi yang digunakan untuk membuat dompet, hal itu sangat tidak mungkin. Untuk memberikan perspektif, secara tidak sengaja menemukan akses ke dompet Anda seperti menemukan "nomor" yang "tepat" antara 1 dan $2^256$, yang hampir setara dengan menemukan "atom" yang "tepat" di Alam Semesta. Namun, jika Anda tidak puas dengan keamanan default ini, Anda selalu dapat memperkuatnya dengan menambahkan frasa sandi ke dompet Bitcoin Anda.
+Seseorang mungkin bertanya: bagaimana jika seseorang secara tidak sengaja menebak daftar 12 atau 24 kata tersebut? Singkatnya, berkat teknologi kriptografi yang digunakan untuk membuat dompet, hal itu sangat tidak mungkin. Sebagai analogi, menemukan akses ke dompet Anda secara tidak sengaja sama dengan menemukan "nomor" yang "tepat" antara 1 dan $2^256$, yang hampir setara dengan menemukan "atom" yang "tepat" di Alam Semesta. Namun, jika Anda merasa tingkat keamanan yang ada saat ini tidak memadai, Anda selalu dapat memperkuatnya dengan menambahkan frasa sandi pada dompet Bitcoin Anda.
 
 ![image](assets/en/chapter5/5.webp)
 
-Dengan demikian, kemungkinan dompet Bitcoin Anda diretas sangat rendah jika Anda mengikuti praktik keamanan yang baik. Praktik yang kami detail di bagian selanjutnya.
+Dengan demikian, melalui menjamin keamanan dengan baik, kemungkinan dompet Bitcoin Anda diretas sangatlah rendah. Detailnya akan dibahas dalam bagian berikutnya.
 
-Pilih dompet yang sesuai dengan kebutuhan dan penggunaan Anda. Tutorial terperinci tentang penggunaan dan pengamanan dompet yang berbeda tersedia di [bagian tutorial universitas kami](https://planb.network/tutorials/wallet).
+Pilihlah dompet yang sesuai dengan kebutuhan dan penggunaan Anda. Tutorial terperinci tentang penggunaan dan pengamanan dompet yang berbeda tersedia di [bagian tutorial universitas kami](https://planb.network/tutorials/wallet).
 
-### Ringkasan Cepat dalam Poster!
+### Ringkasan Singkat dalam Poster!
 
 ![Alt text](assets/posters/en/8._what_is_a_bitcoin_wallet.webp)
 
@@ -464,39 +464,39 @@ Pilih dompet yang sesuai dengan kebutuhan dan penggunaan Anda. Tutorial terperin
 <chapterId>00c1afea-e54a-511f-bab3-2efc2fbfa6a1</chapterId>
 
 ### Mengajukan Pertanyaan yang Tepat Sebelum Memulai
-Ketika Anda memiliki bitcoin, keamanan dana Anda menjadi perhatian utama. Cara terbaik untuk mendefinisikan keamanan yang cocok untuk situasi Anda adalah dengan bertanya (dan menjawab) serangkaian pertanyaan; model keamanan Anda akan bergantung pada jawaban Anda. Mari kita mulai:
-- Siapa yang bisa mengakses dana saya? Dengan kata lain, apakah Anda satu-satunya yang memiliki akses ke bitcoin Anda, atau apakah pihak ketiga, seperti sebuah perusahaan, memungkinkan Anda untuk mengakses dana Anda?
-- Pertanyaan kedua bisa jadi: apa rencana penggunaan Anda dengan bitcoin Anda? Apakah itu jumlah yang Anda gunakan secara reguler? Apakah itu tabungan jangka menengah? Tabungan jangka panjang?
-- Apa kemampuan teknis Anda?
+Ketika Anda memiliki bitcoin, keamanan dana Anda menjadi perhatian utama. Cara terbaik untuk memilih keamanan yang cocok untuk situasi Anda adalah dengan bertanya (dan menjawab) serangkaian pertanyaan; mode keamanan Anda akan bergantung pada jawaban Anda. Anda dapat memulai dengan bertanya:
+- Siapa yang bisa mengakses dana saya? Dengan kata lain, apakah Anda satu-satunya yang memiliki akses ke bitcoin Anda, atau apakah ada pihak ketiga, seperti sebuah perusahaan, yang mengizinkan Anda untuk mengakses dana Anda?
+- Pertanyaan kedua Anda mungkin dapat berupa: apa rencana penggunaan bitcoin Anda? Apakah itu jumlah yang Anda gunakan secara reguler? Apakah itu tabungan jangka menengah? Tabungan jangka panjang?
+- Kemampuan teknis apa yang Anda miliki?
 - Berapa anggaran keamanan Anda?
 
-Ingatlah bahwa tidak ada solusi universal. Jadi, luangkan waktu untuk menjawab pertanyaan-pertanyaan ini, karena itu akan membantu menyesuaikan langkah-langkah keamanan Anda.
+Perlu diperhatikan bahwa tidak ada solusi universal. Jadi, luangkan waktu untuk menjawab pertanyaan-pertanyaan ini guna membantu menyesuaikan langkah-langkah keamanan Anda.
 
 ![image](assets/en/chapter6/0.webp)
 
-### Berpikir tentang dompet Bitcoin dalam hal kompleksitas
+### Aspek Kompleksitas dompet Bitcoin
 
-Mari kita coba menetapkan beberapa tingkat keamanan untuk bitcoin Anda:
+Kami akan menetapkan beberapa tingkat keamanan untuk bitcoin Anda:
 
-- **Level 0**, Anda menggunakan layanan yang disebut custodial di mana Anda bukan satu-satunya pemegang bitcoin Anda. Sadarilah bahwa pihak ketiga yang dipercaya ini dapat membatasi akses Anda ke dana Anda kapan saja, dan Anda memiliki tingkat kedaulatan finansial yang sama seperti dengan sistem perbankan tradisional melalui rekening bank.
+- **Level 0**, Anda menggunakan layanan yang disebut kustodian, di mana Anda bukan satu-satunya pemegang bitcoin Anda. Perlu diketahui bahwa pihak ketiga terpercaya ini dapat membatasi akses Anda ke dana Anda kapan saja, dan tingkat kedaulatan finansial Anda setara dengan rekening bank dalam sistem perbankan tradisional.
 
 ![image](assets/en/chapter6/2.webp)
 
-- **Level 1**, Anda menggunakan dompet Bitcoin di ponsel atau komputer Anda di mana Anda adalah satu-satunya pemegang bitcoin Anda. Anda dapat dengan mudah melakukan transaksi Anda. Namun, sangat penting untuk membackup frasa mnemonik untuk mendapatkan kembali akses ke dana Anda dalam kasus kehilangan ponsel atau komputer Anda. Ini sering disebut sebagai "hot wallet" karena kunci privat disimpan pada perangkat dengan akses internet.
+- **Level 1**, Anda menggunakan dompet Bitcoin di ponsel atau komputer Anda, di mana Anda merupakan satu-satunya pemegang bitcoin Anda. Anda dapat dengan mudah melakukan transaksi. Namun, sangat penting untuk melakukan pencadangan frasa mnemonik untuk tetap memiliki akses ke dana Anda apabila terjadi kasus kehilangan ponsel atau komputer. Tingkat keamanan ini sering disebut sebagai "hot wallet", karena kunci privat disimpan pada perangkat dengan akses internet.
 
-- **Level 2**, Anda menggunakan dompet fisik, dan Anda telah mengamankan daftar 12 atau 24 kata Anda. Untuk melakukan transaksi, Anda akan selalu perlu menandatangani dengan perangkat Anda. Ini membuat dana Anda kurang dapat diakses sehari-hari. Ini sering disebut sebagai "Cold Wallet" karena kunci Anda disimpan pada perangkat yang tidak terhubung ke internet.
+- **Level 2**, Anda menggunakan dompet fisik, dan Anda telah mengamankan daftar 12 atau 24 kata Anda. Untuk melakukan transaksi, Anda selalu harus tanda tangan dengan perangkat Anda. Hal ini membuat dana Anda tidak sering diakses dalam kehidupan sehari-hari. Dompet ini sering disebut sebagai "Cold Wallet" karena kunci Anda disimpan pada perangkat yang tidak terhubung ke internet.
 
 ![image](assets/en/chapter6/4.webp)
 
-- **Level 3**, Anda menggunakan dompet level 1 atau 2 tetapi dengan frasa sandi tambahan. Sadarilah bahwa Anda sekarang perlu membackup baik daftar 12 atau 24 kata **dan** frasa sandi Anda. Idealnya, kedua informasi ini disimpan di dua tempat yang berbeda.
+- **Level 3**, Anda menggunakan dompet level 1 atau 2 tetapi dengan frasa sandi tambahan. Perlu diketahui bahwa Anda sekarang perlu melakukan pencadangan daftar 12 atau 24 kata **dan** frasa sandi Anda. Sebaiknya, kedua informasi ini disimpan di dua tempat yang berbeda.
 
 ![image](assets/en/chapter6/5.webp)
 
-- **Level 4**, Anda menggunakan serangkaian dompet untuk membuat dompet "multisig", yang berarti memerlukan beberapa tanda tangan untuk melakukan transaksi. Sadarilah bahwa setiap bagian dari multisig harus disimpan di lokasi yang berbeda. Ini sering dianggap sebagai penggunaan Bitcoin yang lanjutan, terutama digunakan untuk jumlah besar dan penggunaan korporat.
+- **Level 4**, Anda menggunakan beberapa dompet untuk membuat dompet "multisig", yang berarti dompet ini memerlukan beberapa tanda tangan untuk melakukan transaksi. Perlu diperhatikan bahwa setiap bagian dari multisig harus disimpan di lokasi yang berbeda. Dompet ini sering dipandang sebagai penggunaan Bitcoin tingkat lanjutan, yang terutama digunakan untuk transaksi jumlah besar dan penggunaan korporat.
 
 ![image](assets/en/chapter6/3.webp)
 
-Tentu saja, kita bisa memiliki berbagai kasus penggunaan, dan dalam kasus seperti itu, disarankan untuk menggunakan beberapa dompet Bitcoin. Tidak ada solusi yang cocok untuk semua.
+Dalam kehidupan sehari-hari, akan ada berbagai macam situasi yang memerlukan jenis dompet Bitcoin yang berbeda. Dengan demikian, sangat disarankan untuk menggunakan lebih dari satu tipe dompet. Tidak ada solusi yang cocok untuk semua.
 
 ### Keamanan harus disesuaikan
 Jumlah yang seseorang bersedia tinggalkan pada tingkat keamanan tertentu tergantung pada individu masing-masing. Bagi sebagian orang, meninggalkan 1 BTC di dompet panas (hot wallet) dianggap wajar, sementara bagi yang lain, hal itu sama sekali tidak. Dalam kasus apapun, hindari menghabiskan banyak uang untuk keamanan dengan membeli dompet fisik ketika Anda ingin mengamankan jumlah kecil. Juga, ingat bahwa memperumit keamanan dan aksesibilitas bitcoin Anda dapat merugikan Anda jika, misalnya, Anda salah menangani cadangan dompet Anda.

@@ -499,70 +499,70 @@ Kami akan menetapkan beberapa tingkat keamanan untuk bitcoin Anda:
 Dalam kehidupan sehari-hari, akan ada berbagai macam situasi yang memerlukan jenis dompet Bitcoin yang berbeda. Dengan demikian, sangat disarankan untuk menggunakan lebih dari satu tipe dompet. Tidak ada solusi yang cocok untuk semua.
 
 ### Keamanan harus disesuaikan
-Jumlah yang seseorang bersedia tinggalkan pada tingkat keamanan tertentu tergantung pada individu masing-masing. Bagi sebagian orang, meninggalkan 1 BTC di dompet panas (hot wallet) dianggap wajar, sementara bagi yang lain, hal itu sama sekali tidak. Dalam kasus apapun, hindari menghabiskan banyak uang untuk keamanan dengan membeli dompet fisik ketika Anda ingin mengamankan jumlah kecil. Juga, ingat bahwa memperumit keamanan dan aksesibilitas bitcoin Anda dapat merugikan Anda jika, misalnya, Anda salah menangani cadangan dompet Anda.
+Jumlah uang yang seseorang bersedia simpan pada tingkat keamanan tertentu tergantung pada keputusan individu masing-masing. Bagi sebagian orang, menyimpan 1 BTC di dompet panas (hot wallet) dianggap wajar, sementara bagi yang lain, hal itu sama sekali tidak wajar. Dalam kasus apapun, hindari membeli dompet fisik, yang akan menghabiskan banyak uang untuk keamanannya, ketika Anda ingin mengamankan jumlah nominal yang kecil. Juga perlu diingat bahwa memperumit keamanan dan aksesibilitas bitcoin Anda dapat merugikan Anda jika, misalnya, Anda salah menangani pencadangan dompet Anda.
 
-Kesimpulannya, kepemilikan langsung atas bitcoin seseorang adalah elemen penting untuk memastikan kedaulatan finansial. Disarankan untuk menggunakan dompet seluler untuk pengeluaran sehari-hari dan dompet fisik offline, atau "dingin," untuk menyimpan jumlah yang lebih besar. Di sisi lain, bisnis harus mempertimbangkan menggunakan sistem multi-tanda tangan, atau "multisig," untuk keamanan yang meningkat dan dibagi. Juga penting untuk menghindari layanan penitipan, yang dapat mereplikasi beberapa kerentanan sistem keuangan tradisional sebanyak mungkin.
+Kesimpulannya, kepemilikan langsung atas bitcoin seseorang adalah elemen penting untuk menjamin independensi finansial. Disarankan untuk menggunakan dompet seluler untuk pengeluaran sehari-hari dan dompet fisik offline, atau "dompet dingin," untuk menyimpan jumlah yang lebih besar. Di sisi lain, bisnis harus mempertimbangkan menggunakan sistem multi-tanda tangan, atau "multisig," untuk peningkatan keamanan bersama. Juga penting untuk sebisa mungkin menghindari layanan kustodian, karena memiliki beberapa kerentanan yang ada pada sistem keuangan tradisional.
 
-Sekarang setelah kita memiliki ini dalam pikiran, mari kita lanjutkan ke bagian selanjutnya untuk melihat langkah-langkah membuat dompet Bitcoin. Namun, jika Anda ingin lebih jauh menjelajahi topik keamanan, Anda dapat membaca [artikel oleh DarthCoin](https://asi0.substack.com/p/bitcoin-soyez-votre-propre-banque).
+Setelah memahami hal ini, mari kita lanjutkan ke bagian selanjutnya untuk melihat langkah-langkah pembuatan dompet Bitcoin. Namun, jika Anda ingin lebih jauh menjelajahi topik keamanan, Anda dapat membaca [artikel oleh DarthCoin](https://asi0.substack.com/p/bitcoin-soyez-votre-propre-banque).
 
-### Ringkasan cepat dalam poster!
+### Ringkasan Singkat dalam Poster!
 
 ![Alt text](assets/posters/en/9._choose_the_right_wallet.webp)
 
 ## Menyiapkan dompet
 <chapterId>615519eb-4565-557d-86a0-021badf7616f</chapterId>
 
-Keamanan bitcoin Anda sangat penting, dan kesalahan sederhana dapat memiliki konsekuensi yang mahal. Itulah mengapa kita sekarang akan melihat praktik terbaik saat membuat dompet Bitcoin baru.
+Keamanan bitcoin Anda sangatlah penting, dan satu kesalahan kecil dapat mengakibatkan konsekuensi yang mahal. Oleh karena itu, sekarang kita akan mempelajari praktik terbaik dalam pembuatan dompet Bitcoin baru.
 
-> Catatan bahwa kursus BTC102 akan memandu Anda melalui langkah ini.
+> Kursus BTC102 akan memandu Anda untuk langkah-langkah ini.
 
-### Langkah ini bukan lelucon!
+### Langkah ini tidak boleh diremehkan!
 
-Kunci pribadi Anda, sering diwakili oleh daftar 24 kata (sering disebut "seed" atau "frasa mnemonik"), mewakili akses ke dana Anda. Jika kunci ini terungkap kepada pihak ketiga, anggap dana yang terkait tidak lagi aman. Oleh karena itu, saat menginisialisasi dompet Anda, penting untuk mengikuti aturan-aturan ini:
+Kunci pribadi Anda, yang sering diwakili oleh daftar 24 kata (sering disebut "seed" atau "frasa mnemonik"), merupakan akses ke dana Anda. Jika Anda mengungkapkan informasi ini kepada pihak ketiga, Anda tak lagi dapat menganggap dana Anda masih aman. Oleh karena itu, saat menginisialisasi dompet Anda, penting untuk mengikuti aturan-aturan ini:
 
 - Tutup semua kamera.
-- Jangan mengambil foto dari daftar kata.
-- Jangan memasukkannya ke komputer atau telepon.
+- Jangan mengambil foto daftar kata.
+- Jangan melakukan input daftar kata ke komputer atau telepon.
 - Jangan menyimpannya sebagai kontak atau mengirimkannya kepada diri Anda sendiri melalui SMS.
-- Jangan pernah meninggalkan kata-kata Anda tanpa pengawasan di meja Anda.
-- Jangan pernah menyembunyikan daftar kata Anda di tempat yang tidak biasa.
+- Jangan pernah meninggalkan daftar di sebuah tempat tanpa pengawasan.
+- Jangan pernah menyembunyikan daftar kata Anda di tempat yang tidak lazim.
 
-Anda akan secara harfiah mengambil selembar kertas kosong atau mencetak [template](https://bitcoiner.guide/backup.pdf) ini, dan menulis daftar kata secara berurutan, rapi dan jelas, dengan pena. Jika tinta memudar seiring waktu, Anda mungkin kehilangan dana Anda; oleh karena itu, penting untuk menjaga kertas ini terlindungi dari elemen.
+Anda sangat disarankan untuk mengambil kertas kosong atau mencetak [template](https://bitcoiner.guide/backup.pdf) ini, dan kemudian menulis daftar kata-kata tersebut secara berurutan, rapi dan jelas, dengan pena. Perlu diingat bahwa bila tinta yang digunakan memudar seiring waktu, Anda mungkin kehilangan dana Anda; oleh karena itu, penting untuk menjaga agar kertas ini terlindungi dari zat dan elemen yang dapat bersifat merusak.
 
 ![image](assets/en/chapter7/0.webp)
 
 ### Tips untuk melakukannya dengan benar
 
-Ada juga solusi alternatif untuk kertas, seperti mengukir frasa mnemonik Anda pada pelat logam. Jika Anda menulisnya dengan salah, ahli waris Anda mungkin tidak dapat membacanya dan oleh karena itu mungkin tidak dapat memulihkan dana. Setelah kata-kata ditulis, disarankan untuk membuat salinan kedua dan menyimpannya di lokasi terpisah dari yang pertama. Ini memberikan cadangan dalam kasus kehilangan atau kecelakaan dengan salinan pertama.
+Terdapat juga solusi alternatif selain menulis di atas kertas, seperti mengukir frasa mnemonik Anda pada pelat logam. Namun, jika Anda salah menuliskannya, ahli waris Anda mungkin tidak dapat membacanya dan kemungkinan tidak dapat memulihkan dana yang tersimpan. Setelah selesai menulis, disarankan untuk membuat salinan dan menyimpannya di lokasi berbeda. Dengan demikian, Anda memiliki cadangan apabila terjadi kehilangan atau kecelakaan pada salinan pertama.
 
 ![image](assets/en/chapter7/1.webp)
 
-Setelah salinan dibuat, simpan daftar kata-kata di tempat yang aman di mana Anda akan ingat untuk mencarinya! Jangan membuat rencana penyembunyian yang terlalu rumit di mana Anda berisiko kehilangannya.
+Setelah salinan dibuat, simpan daftar kata-kata di tempat yang aman dan pasti bisa Anda ingat untuk mencarinya! Hindari membuat rencana penyimpanan yang terlalu rumit karena Anda berisiko tidak dapat mengaksesnya.
 
-> Kata-kata Anda = uang Anda.
-Dompet "dingin" umumnya memiliki daftar kata ini, sama seperti dompet "panas" di ponsel atau PC. Metode cadangan kunci privat ini sekarang menjadi standar. Ini berarti Anda dapat memasukkan frasa mnemonik Anda ke dalam perangkat lunak dompet apa pun untuk mengembalikan milik Anda. Hanya dompet buruk yang kami sangat tidak menyarankan yang tidak akan memberi Anda daftar 24 kata, tetapi mungkin meminta akun, alamat email, atau lebih buruk, ID.
-**PERHATIAN: Ketidakhadiran daftar 24 kata harus membuat Anda waspada.**
+> Daftar kata Anda = uang Anda.
+Dompet "dingin" umumnya memiliki daftar kata ini, sama seperti dompet "panas" di ponsel atau PC. Metode pencadangan kunci privat ini merupakan metode standar. Hal ini berarti Anda dapat memasukkan frasa mnemonik Anda ke dalam perangkat lunak dompet apa pun untuk restorasi dompet Anda. Dompet-dompet buruk, yang kami sangat tidak sarankan untuk Anda gunakan, tidak akan memberi Anda daftar 24 kata, tetapi mungkin akan meminta informasi mengenai akun, alamat email, atau lebih buruk, identitas diri.
+**PERHATIAN: Kehilangan daftar 24 kata sudah seharusnya membuat Anda waspada.**
 
-### Ringkasan cepat dalam poster!
+### Ringkasan Singkat dalam Poster!
 
 ![Teks Alternatif](assets/posters/en/10._set_up_your_wallet.webp)
 
 ## Bertahan terhadap ujian waktu
 <chapterId>f58cd446-c202-5eff-aab7-e61cc40e5c06</chapterId>
 
-Keamanan adalah perhatian utama dalam ekosistem Bitcoin. Memang, seperti bentuk kekayaan apa pun, bitcoin Anda harus dilindungi dari kehilangan, pencurian, dan degradasi, terutama dalam jangka panjang. Mengamankan bitcoin Anda memerlukan pengetahuan teknis dan kesadaran akan risiko yang terkait, yang membawa kita untuk membahas dua strategi utama: mengukir bitcoin Anda dalam baja dan membuat rencana warisan.
+Keamanan menjadi perhatian utama dalam ekosistem Bitcoin. Memang, seperti bentuk kekayaan apa pun, bitcoin Anda harus dilindungi dari kehilangan, pencurian, dan kerusakan, terutama dalam jangka panjang. Mengamankan bitcoin Anda memerlukan pengetahuan teknis dan kesadaran akan risiko yang terkait, yang membawa kita untuk membahas dua strategi utama: mengukir bitcoin Anda pada logam dan membuat rencana warisan.
 
-### Mengukir dalam batu
+### Mengukir pada batu
 
-Salah satu metode untuk mengamankan bitcoin Anda dalam jangka panjang adalah dengan mengukir frasa mnemonik Anda pada material yang tahan seperti baja. Ini menciptakan cadangan fisik kunci Anda yang tahan terhadap kerusakan air dan api.
+Salah satu metode untuk mengamankan bitcoin Anda dalam jangka panjang adalah dengan mengukir frasa mnemonik Anda pada material yang resisten seperti baja. Ukiran ini berfungsi sebagai pencadangan fisik kunci Anda, yang tahan terhadap kerusakan air dan api.
 
-Ada banyak solusi untuk mencapai ini, beberapa berbiaya rendah seperti "Blockmit," sementara yang lain memerlukan lebih banyak peralatan. Anda dapat menjelajahi topik ini sendiri melalui bagian tutorial dari universitas ini.
+Ada banyak solusi untuk melakukan ini, beberapa di antaranya hanya memerlukan biaya yang rendah seperti "Blockmit," sementara yang lain memerlukan lebih banyak peralatan. Anda dapat menjelajahi topik ini sendiri melalui bagian tutorial dari universitas ini.
 
 ![gambar](assets/en/chapter8/1.webp)
 
 ### Pikirkan tentang generasi berikutnya!
 
-Bersamaan dengan ini, membuat rencana warisan juga merupakan langkah penting untuk memastikan bahwa bitcoin Anda akan dikelola dengan baik setelah kematian Anda. Rencana ini dapat mencakup surat tulisan tangan yang merinci aset Anda, metode akses mereka, dan informasi kontak individu terpercaya untuk dihubungi. Juga penting untuk mendiskusikan warisan bitcoin dengan notaris untuk memastikan kepatuhan pajak, meskipun penting untuk tidak pernah langsung mempercayakan bitcoin Anda kepada pihak ketiga, termasuk notaris.
+Bersamaan dengan ini, pembuatan rencana warisan juga merupakan langkah penting untuk memastikan bahwa bitcoin Anda akan dikelola dengan baik setelah Anda sudah tiada. Rencana ini dapat mencakup surat yang ditulis tangan yang merincikan daftar aset Anda, metode untuk mengakses mereka, dan informasi kontak individu terpercaya untuk dihubungi. Penting juga untuk mendiskusikan warisan bitcoin dengan notaris untuk memastikan kesesuaian terhadap aturan pajak, namun perlu diperhatikan juga untuk tidak pernah langsung mempercayakan bitcoin Anda kepada pihak ketiga, termasuk notaris.
 
 Jika Anda ingin lebih menjelajahi subjek rencana warisan untuk bitcoin Anda, kami merekomendasikan buku Pamela Morgan [Cryptoasset Inheritance Plan](https://planb.network/resources/books/28) atau mengambil kursus BTC102 di mana kami membimbing Anda dalam pembuatannya.
 
@@ -570,25 +570,25 @@ Jika Anda ingin lebih menjelajahi subjek rencana warisan untuk bitcoin Anda, kam
 
 ### Privasi itu penting
 
-Keamanan jangka panjang bitcoin Anda tidak terbatas pada membuat cadangan fisik atau mengembangkan rencana warisan. Privasi adalah pertimbangan penting lainnya. Misalnya, lebih baik membeli bitcoin tanpa menyediakan identifikasi untuk meminimalkan risiko pencurian identitas atau sekadar pelacakan dana Anda oleh entitas mana pun dengan sarana yang cukup. Kursus BTC 205 dapat membantu Anda dengan ini jika diperlukan.
+Keamanan jangka panjang bitcoin Anda tidak terbatas pada membuat cadangan fisik atau membuat rencana warisan. Privasi adalah aspek pertimbangan penting lainnya. Misalnya, lebih baik membeli bitcoin tanpa perlu identifikasi untuk meminimalisasi risiko pencurian identitas ataupun pelacakan dana Anda oleh entitas mana pun dengan sarana yang memadai. Kursus BTC 205 dapat membantu Anda dengan ini jika diperlukan.
 
-Mengenai privasi, sangat penting untuk menghindari berbicara kepada semua orang tentang bitcoin Anda. Memang, kita tidak tahu kemana aset ini akan pergi, dan menjaga kerahasiaan tentang kepemilikannya adalah keputusan yang bijaksana. Anda tidak ingin menarik perhatian pada diri Anda dan dompet Anda.
+Mengenai privasi, sangat penting untuk menghindari berbicara kepada semua orang tentang bitcoin Anda. Memang benar bahwa tidak ada yang tahu masa depan aset Anda, dan menjaga kerahasiaan tentang kepemilikannya adalah keputusan yang bijaksana. Anda tentunya tidak ingin menarik perhatian yang tidak diinginkan pada diri dan dompet Anda.
 
-Dalam urat yang sama, hindari mengungkapkan sistem keamanan Anda dengan keras selama pertemuan bitcoin atau pertemuan dengan orang asing...
+Bersamaan dengan itu, hindari mengungkapkan sistem keamanan Anda selama pertemuan bitcoin atau pertemuan dengan orang asing...
 
-### Ringkasan cepat dalam poster!
+### Ringkasan Singkat dalam Poster!
 
 ![Teks Alternatif](assets/posters/en/19._think_long_term.webp)
 
 ### Ringkasan tentang keamanan dompet Bitcoin
 
-Dompet Bitcoin adalah perangkat lunak yang memungkinkan Anda untuk menyimpan dan bertransaksi bitcoin. Ada beberapa jenis: dompet seluler atau PC, nyaman untuk jumlah kecil dan/atau pengeluaran rutin; dompet fisik, lebih cocok untuk menyimpan bitcoin dalam jangka menengah dan panjang; dompet multisig, yang lebih kompleks untuk dikelola dan memerlukan beberapa tanda tangan untuk melakukan transaksi.
-Saat membuat dompet, Anda harus terlebih dahulu mencadangkan kunci privat Anda. Cadangan ini berbentuk daftar 12 atau 24 kata, atau 12 kata yang dapat Anda tulis pada selembar kertas atau pelat logam. Frase mnemonik ini memungkinkan Anda untuk mengembalikan dompet Anda di aplikasi dompet Bitcoin mana pun. Siapa pun yang memiliki akses ke daftar ini juga memiliki akses ke bitcoin Anda. Dalam Bitcoin, kedaulatan finansial berjalan beriringan dengan tanggung jawab individu, sehingga sangat penting untuk mengamankan akses ke dompet dan cadangan Anda. Untuk melakukan ini, penting untuk mengikuti beberapa aturan:
-- Buat rencana warisan: untuk memastikan bahwa orang terkasih Anda dapat mengambil uang dalam kasus terjadi masalah.
-- Hindari platform pertukaran: disarankan untuk menghindari meninggalkan Bitcoin Anda di platform pertukaran, karena mereka dapat rentan terhadap serangan peretas.
-- Sesuaikan tingkat keamanan Anda: luangkan waktu untuk menjelaskan kebutuhan dan penggunaan Anda, ini akan membantu Anda membuat pilihan di antara dompet Bitcoin yang berbeda yang tersedia.
+Dompet Bitcoin adalah perangkat lunak yang memungkinkan Anda untuk menyimpan dan melakukan transaksi bitcoin. Terdapat beberapa jenis dompet, di antaranya: dompet seluler atau PC, cocok digunakan untuk jumlah kecil dan/atau pengeluaran rutin; dompet fisik, lebih cocok untuk menyimpan bitcoin dalam jangka menengah dan panjang; dompet multisig, yang lebih kompleks untuk dikelola dan memerlukan beberapa tanda tangan untuk melakukan transaksi.
+Saat membuat dompet, Anda harus terlebih dahulu mencadangkan kunci privat Anda. Cadangan ini berbentuk daftar 12 atau 24 kata, atau 12 kata yang dapat Anda tulis pada selembar kertas atau pelat logam. Frase mnemonik ini memungkinkan Anda untuk melakukan restorasi dompet Anda di aplikasi dompet Bitcoin mana pun. Siapa pun yang memiliki akses ke daftar ini juga memiliki akses ke bitcoin Anda. Dalam Bitcoin, kedaulatan finansial berjalan beriringan dengan tanggung jawab individu, sehingga sangat penting untuk mengamankan akses ke dompet dan cadangan Anda. Untuk melakukan ini, Anda disarankan untuk mengikuti beberapa aturan:
+- Buatlah rencana warisan: untuk memastikan bahwa orang terdekat Anda dapat memulihkan uang Anda bila terjadi masalah.
+- Hindari platform pertukaran: disarankan untuk menghindari menaruh Bitcoin Anda di platform pertukaran, karena rentan terhadap serangan peretas.
+- Sesuaikan tingkat keamanan Anda: luangkan waktu untuk mempelajari kebutuhan dan penggunaan Anda, karena ini akan membantu Anda membuat pilihan di antara dompet Bitcoin yang berbeda yang tersedia.
 
-Sekarang setelah kita telah membahas dasar-dasar dompet Bitcoin dan praktik terbaik untuk mengamankannya, kita akan membahas fungsi teknis Bitcoin di bab berikutnya. Sekali lagi, mengetahui dasar-dasar protokol Bitcoin akan memungkinkan Anda untuk lebih memahami fungsinya, yang akan memungkinkan Anda untuk menggunakan Bitcoin dengan lebih baik.
+Sekarang, setelah kami membahas dasar-dasar dompet Bitcoin dan praktik terbaik untuk mengamankannya, kami akan membahas fungsi teknis Bitcoin di bab berikutnya. Sekali lagi, mengetahui dasar-dasar protokol Bitcoin akan memungkinkan Anda untuk lebih memahami fungsinya, sehingga Anda dapat menggunakan Bitcoin dengan lebih baik.
 
 # Aspek teknis Bitcoin.
 <partId>a86d7439-e7a2-5f21-b1e9-6b5e23ca265b</partId>
@@ -600,53 +600,53 @@ Sekarang setelah kita telah membahas dasar-dasar dompet Bitcoin dan praktik terb
 
 ![image](assets/en/chapter9/2.webp)
 
-31 Oktober 2008 menandai kelahiran teknologi keuangan baru: Bitcoin. Pada tanggal ini Satoshi Nakamoto, penulis anonim Bitcoin, memperkenalkan inovasinya ke dunia melalui email yang disebarluaskan ke daftar surat cypherpunk, sebuah komunitas penggemar kriptografi yang bersemangat tentang privasi di internet.
+31 Oktober 2008 ditandai dengan kelahiran teknologi keuangan baru: Bitcoin. Pada tanggal ini, Satoshi Nakamoto, pencipta anonim Bitcoin, memperkenalkan inovasinya ke dunia melalui email yang disebarluaskan ke daftar surat cypherpunk, sebuah komunitas kriptografi yang bersemangat mengedepankan privasi di internet.
 
-Email ini berisi dokumen, yang disebut "White Paper," yang mempresentasikan fungsi Bitcoin. Mengingat kegagalan sistem uang digital sebelumnya, inisiatif ini tidak langsung menimbulkan antusiasme. Namun, White Paper ini akhirnya menjadi referensi bagi pengguna Bitcoin dan telah menjadi subjek banyak debat dalam ekosistem Bitcoin.
+Email ini berisi dokumen, yang disebut "White Paper," yang memaparkan aspek operasional Bitcoin. Mengingat kegagalan sistem uang digital sebelumnya, inisiatif ini tidak langsung memicu antusiasme. Namun, White Paper ini akhirnya menjadi referensi bagi pengguna Bitcoin dan telah menjadi topik banyak perdebatan dalam ekosistem Bitcoin.
 
 ![image](assets/en/chapter9/3.webp)
 
-Pada 3 Januari 2009, Satoshi secara resmi mengawali jaringan Bitcoin dengan menciptakan blok pertama, yang juga dikenal sebagai blok genesis, yang menandai peluncuran blockchain Bitcoin. Blok ini berisi pesan yang mengungkapkan misi Bitcoin: "03/jan/2009 Kanselir di ambang bailout kedua untuk bank."
+Pada 3 Januari 2009, Satoshi meresmikan jaringan Bitcoin dengan menciptakan blok pertama, yang juga dikenal sebagai blok genesis, yang menandai peluncuran blockchain Bitcoin. Blok ini berisi pesan yang mengungkapkan misi Bitcoin: "03/jan/2009 Chancellor on brink of second bailout for banks."
 
 ![image](assets/en/chapter9/9.webp)
 
-> "Kita dapat memenangkan pertempuran besar dalam perlombaan senjata dan mendapatkan
+> "Kita dapat memenangkan pertempuran besar dalam persaingan senjata dan mendapatkan
 > wilayah kebebasan baru selama beberapa tahun.” - Satoshi Nakamoto
 
 ![image](assets/en/chapter9/7.webp)
 
 ### Protokol Bitcoin mulai hidup
 
-Pada 8 Januari 2009, Satoshi mengumumkan rilis Bitcoin-0.1.0. Tak lama setelah itu, Hal Finney mengambil alih perangkat lunak tersebut dan bergabung dengan jaringan. Sekarang, ada 2 node, dan oleh karena itu 2 penambang, dalam jaringan. Finney mengabadikan langkah ini dengan men-tweet "Running Bitcoin". Pada 12 Januari 2009, transaksi Bitcoin pertama dilakukan antara Satoshi dan Hal Finney. Transaksi ini, sebesar 10 BTC, dicatat dalam blok 170.
+Pada 8 Januari 2009, Satoshi mengumumkan perilisan Bitcoin-0.1.0. Tak lama setelah itu, Hal Finney mengambil alih perangkat lunak tersebut dan bergabung dengan jaringan. Sekarang, ada dua node (yang berarti ada dua penambang) dalam jaringan. Finney mengabadikan langkah ini dengan men-tweet "Running Bitcoin". Pada 12 Januari 2009, transaksi Bitcoin pertama dilakukan antara Satoshi dan Hal Finney. Transaksi ini, sebesar 10 BTC, tercatat dalam blok 170.
 
 ![image](assets/en/chapter9/4.webp)
-Ketertarikan terhadap Bitcoin berkembang pesat, dan banyak orang mulai menguji, berdebat, memecahkan bug, dan merenungkan aspek etis, ekonomi, dan filosofis dari Bitcoin. Untuk memfasilitasi pertukaran ini, forum BitcoinTalk dibuat pada 22 November 2009 oleh Satoshi. Forum ini dengan cepat menjadi tempat diskusi yang disukai oleh pengguna Bitcoin. Di sana, banyak meme dan simbol yang terkait dengan Bitcoin lahir, seperti [logo Bitcoin](https://bitcointalk.org/index.php?topic=64.0), [Hodl](https://bitcointalk.org/index.php?topic=375643.0) yang terkenal, atau bahkan [Hari Pizza](https://bitcointalk.org/index.php?topic=137.msg1195).
+Ketertarikan terhadap Bitcoin pun berkembang pesat, dan banyak orang mulai menguji, berdebat, memecahkan bug, dan memikirkan aspek etis, ekonomi, dan filosofis dari Bitcoin. Untuk memfasilitasi hal ini, dibuatlah forum BitcoinTalk pada tanggal 22 November 2009 oleh Satoshi. Forum ini dengan cepat menjadi tempat diskusi yang disukai oleh pengguna Bitcoin. Di sana, banyak meme dan simbol yang terkait dengan Bitcoin bermunculan, seperti [logo Bitcoin](https://bitcointalk.org/index.php?topic=64.0), [Hodl](https://bitcointalk.org/index.php?topic=375643.0) yang terkenal, atau bahkan [Hari Pizza](https://bitcointalk.org/index.php?topic=137.msg1195).
 
-> **Tahukah Anda?** Memang, pada 22 Mei 2010, Laszlo Hanyecz membuat sejarah dengan Bitcoin dengan menawarkan untuk membeli 2 pizza dengan 10.000 BTC. Ini adalah pertama kalinya Bitcoin digunakan untuk membeli barang fisik.
+> **Tahukah Anda?** Benar bahwa pada tanggal 22 Mei 2010, Laszlo Hanyecz membuat sejarah dengan Bitcoin, dimana beliau menawarkan untuk membeli 2 pizza dengan 10.000 BTC. Kejadian ini adalah kali pertama Bitcoin digunakan untuk membeli barang fisik.
 
 ![image](assets/en/chapter9/6.webp)
 
 ### Menghilangnya Satoshi Nakamoto
 
-Pada tahun 2010, saat Bitcoin mulai menarik perhatian media, Satoshi memutuskan untuk menjauh. Pada 12 Desember 2010, dia mempublikasikan postingan terakhirnya di forum, mengumumkan kepergiannya. Pada 23 April 2011, dia melakukan pertukaran pribadi terakhir yang diketahui melalui email. Satoshi kemudian menghilang, meninggalkan ciptaannya di tangan komunitas.
+Pada tahun 2010, saat Bitcoin mulai menarik perhatian media, Satoshi memutuskan untuk menjauh. Pada tanggal 12 Desember 2010, dia mempublikasikan postingan terakhirnya di forum yang mengumumkan kepergiannya. Pada tanggal 23 April 2011, dia melakukan komunikasi pribadi terakhirnya yang diketahui melalui email. Satoshi kemudian menghilang, menyerahkan ciptaannya ke tangan komunitas.
 
-> “Pemerintah pandai memotong kepala jaringan yang terpusat
-> seperti Napster, tapi jaringan P2P murni seperti
+> “Pemerintah mahir dalam menghentikan jaringan terpusat
+> seperti Napster, tapi jaringan padan-ke-padan (P2P) murni seperti
 > Gnutella dan Tor tampaknya dapat bertahan.” - Satoshi Nakamoto
 
-Meskipun tanpa kehadiran Satoshi, Bitcoin terus berkembang. Setiap 10 menit, sejarah Bitcoin ditulis, dan protokol terus berfungsi seperti yang dimaksudkan. Terlepas dari ketakutan, ketidakpastian, atau keraguan (FOMO untuk Fear Of Missing Out atau FUD untuk Fear Uncertainty Doubt), Bitcoin terus bergerak maju, dengan ketersediaan online sebesar 99.988%.
+Tanpa kehadiran Satoshi, Bitcoin masih terus berkembang. Setiap 10 menit, sejarah Bitcoin ditulis, dan protokol terus berfungsi sesuai rencana awal yang ditetapkan. Terlepas dari ketakutan, ketidakpastian, atau keraguan (FOMO untuk Fear Of Missing Out atau FUD untuk Fear Uncertainty Doubt), Bitcoin terus bergerak maju, dengan ketersediaan daring sebesar 99.988%.
 
-Bitcoin dipersepsikan secara berbeda oleh setiap individu. Bagi sebagian orang, itu adalah entitas jamur seperti [miselium](https://brandonquittem.com/bitcoin-is-the-mycelium-of-money/), bagi yang lain itu adalah [lubang hitam](https://dergigi.com/2019/05/01/bitcoins-gravity/). Suka atau tidak suka, Bitcoin terus ada, dengan ritme konstan 10 menit per blok, seperti detak jantung sistem moneter baru.
+Persepsi terhadap bitcoin berbeda dari satu individu ke individu yang lain. Bagi sebagian orang, itu adalah organisme jamur seperti [miselium](https://brandonquittem.com/bitcoin-is-the-mycelium-of-money/), bagi yang lain itu adalah [lubang hitam](https://dergigi.com/2019/05/01/bitcoins-gravity/). Suka atau tidak suka, Bitcoin akan terus ada, dengan ritme konstan 10 menit per blok, Bitcoin bak detak jantung dari sistem moneter baru.
 
-Untuk mempelajari lebih lanjut tentang tulisan Satoshi Nakamoto, saya merekomendasikan [buku Phil Champagne](https://planb.network/resources/books) atau dokumenter ARTE "le mystaire Satoshi".
+Untuk mempelajari lebih lanjut tentang karya tulis Satoshi Nakamoto, saya merekomendasikan [buku Phil Champagne](https://planb.network/resources/books) atau dokumenter ARTE "le mystaire Satoshi".
 
 ![image](assets/en/chapter9/8.webp)
 
-> “Masalah utama dengan mata uang konvensional adalah semua kepercayaan yang diperlukan untuk membuatnya bekerja. Bank sentral harus dipercaya untuk tidak menurunkan nilai mata uang, tetapi sejarah mata uang fiat penuh dengan pelanggaran kepercayaan tersebut. Bank harus dipercaya untuk menyimpan uang kita dan mentransfernya secara elektronik, tetapi mereka meminjamkannya dalam gelombang gelembung kredit dengan hanya sebagian kecil dalam cadangan.”
+> “Masalah utama dengan mata uang konvensional adalah semua kepercayaan yang diperlukan untuk membuatnya berlaku. Bank sentral harus dipercaya untuk tidak menurunkan nilai mata uang, tetapi sejarah mata uang fiat penuh dengan pelanggaran terhadap kepercayaan tersebut. Bank harus dipercaya untuk menyimpan uang kita dan mentransfernya secara elektronik, tetapi mereka meminjamkannya dalam bentuk gelombang gelembung kredit, serta hanya sebagian kecil dalam yang tersisa dalam cadangan mereka.”
 
-Sekarang setelah kita memiliki beberapa latar belakang, mari kita lihat bagaimana transaksi Bitcoin bekerja secara umum.
+Sekarang setelah kami memaparkan sebagian dari latar belakangnya, kami akan memperlihatkan bagaimana transaksi Bitcoin bekerja secara umum.
 
-### Ringkasan cepat dalam poster!
+### Ringkasan Singkat dalam Poster!
 
 ![Alt text](assets/posters/en/7._lancement_bitcoin.webp)
 

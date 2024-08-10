@@ -652,21 +652,21 @@ Sekarang setelah kami memaparkan sebagian dari latar belakangnya, kami akan memp
 
 ## Transaksi Bitcoin
 <chapterId>03482644-5473-590b-975b-b43bb65eac21</chapterId>
-Transaksi Bitcoin pada dasarnya adalah transfer kepemilikan bitcoin, menggunakan alamat Bitcoin. Mari kita ambil contoh dua tokoh: Alice dan Bob. Alice ingin mendapatkan bitcoin, sementara Bob sudah memiliki beberapa.
+Transaksi Bitcoin pada dasarnya merupakan transfer kepemilikan bitcoin via alamat protokol Bitcoin. Ambil contoh dua tokoh: Alice dan Bob. Alice ingin mendapatkan bitcoin, sementara Bob sudah memiliki beberapa.
 
 ### Langkah 1 - Membuat transaksi melalui dompet
 
-Untuk Bob mentransfer bitcoin kepada Alice, Alice harus memberikan salah satu alamat Bitcoinnya kepada Bob. Alamat ini, yang berasal dari kunci publik Alice, unik untuk dompet Bitcoinnya.
+Agar Bob dapat mentransfer bitcoinnya kepada Alice, Alice harus memberikan salah satu alamat Bitcoinnya kepada Bob. Alamat ini, yang berasal dari kunci publik Alice, dan hanya dimiliki oleh dompet Bitcoinnya.
 
-Secara konkret, Alice membuka dompetnya dan menekan "terima". Sebuah kode QR atau alamat seperti ini bc1q7957hh3nj47efn8t2r6xdzs2cy3wjcyp8pch6hfkggy7jwrzj93sv4uykr akan ditampilkan. Ini semacam "IBAN Bitcoin" miliknya. Dia memberikannya kepada Bob.
+Secara konkret, Alice membuka dompetnya dan menekan tombol "terima". Sebuah kode QR atau alamat seperti ini bc1q7957hh3nj47efn8t2r6xdzs2cy3wjcyp8pch6hfkggy7jwrzj93sv4uykr akan ditampilkan. Alamat ini dapat dipandang sebagai "Nomor Rekening Bank Internasional Bitcoin" miliknya. Kemudian, Alice memberikannya kepada Bob.
 
-Kemudian Bob memulai transaksi menggunakan alamat penerimaan Alice. Bob, pada gilirannya, membuka dompet Bitcoinnya, menekan "kirim", menyalin dan menempelkan alamat tersebut, menambahkan jumlah dan biaya transaksi. Biaya ini merupakan insentif bagi penambang untuk memasukkan transaksi dalam blok berikutnya.
+Kemudian, Bob memulai transaksi menggunakan alamat penerimaan Bitcoin milik Alice. Bob membuka dompet Bitcoinnya, menekan "kirim", menyalin dan menempelkan alamat tersebut, memasukkan jumlah dan biaya transaksi. Biaya ini merupakan insentif bagi penambang untuk memprioritaskan memasukkan transaksi tersebut dalam blok berikutnya.
 
 ![image](assets/en/chapter10/1.webp)
 
-> **Mengapa membayar biaya?** Biaya ini penting untuk menciptakan pasar bebas untuk memasukkan transaksi dalam blok, karena jumlah transaksi dalam sebuah blok terbatas. Faktanya, sebuah blok memiliki ukuran 1 MB (dapat diperluas menjadi 4MB setelah pembaruan Segwit), yang sesuai dengan beberapa ribu transaksi per blok. Biaya sebuah transaksi proporsional dengan ukurannya. Ukuran transaksi, pada gilirannya, tergantung pada kompleksitas transaksi.
+> **Mengapa perlu membayar biaya?** Keberadaan biaya ini penting untuk menciptakan pasar bebas prioritisasi pemasukkan transaksi dalam blok, karena jumlah transaksi yang dapat ditampung dalam sebuah blok bersifat terbatas. Faktanya, sebuah blok memiliki ukuran 1 MB (dapat diperbesar menjadi 4MB setelah pembaruan Segwit), yang ekuivalen dengan beberapa ribu transaksi per blok. Biaya sebuah transaksi proporsional dengan ukurannya, sementara ukuran transaksi tergantung pada kompleksitasnya.
 
-Untuk menyelesaikan transaksi, Bob harus memberikan tanda tangan dengan kunci pribadi dari alamat yang dia gunakan untuk membayar Alice. Ini memverifikasi bahwa dia adalah pemilik bitcoin yang ingin dia transfer. Langkah ini biasanya dilakukan secara otomatis pada dompet seluler, atau merupakan konfirmasi pada dompet fisik Anda: "Apakah Anda yakin ingin mengirim X ke Y? Ya atau tidak".
+Untuk menyelesaikan transaksi, Bob harus memberikan tanda tangan dengan kunci pribadi dari alamat yang dia gunakan untuk membayar Alice. Hal ini dilakukan untuk memastikan bahwa dia adalah pemilik bitcoin yang ingin dia transfer. Langkah ini biasanya dilakukan secara otomatis pada dompet seluler, atau dapat berupa konfirmasi pada dompet fisik Anda: "Apakah Anda yakin ingin mengirim X ke Y? Ya atau tidak".
 
 ### Langkah 2: Propagasi transaksi melalui node ke penambang
 
@@ -674,116 +674,116 @@ Pada tahap ini, transaksi telah dibuat dan dompet Bob akan membagikannya dengan 
 
 ![image](assets/en/chapter10/4.webp)
 
-Meskipun transaksi ini sekarang diketahui oleh semua orang (melalui alat yang disebut Mempool), transaksi tersebut belum tentu dianggap dikonfirmasi! Memang, para penambanglah yang memvalidasi transaksi dengan memasukkannya ke dalam blok dari blockchain kita yang terkenal.
+Meskipun transaksi ini sekarang diketahui secara public (melalui alat yang disebut Mempool), transaksi tersebut belum dapat dianggap sudah dikonfirmasi! Para penambanglah yang akan memvalidasi transaksi dengan memasukkannya ke blok di dalam blockchain yang terkemuka ini.
 
-Penambang memiliki peran mengambil transaksi yang valid dan belum dikonfirmasi, kemudian mengompilasinya ke dalam sebuah blok. Agar blok mereka menjadi blok berikutnya dalam blockchain Bitcoin, mereka harus menyelesaikan teka-teki kriptografi dalam proses yang disebut "proof of work".
+Penambang memiliki peran memilih transaksi yang valid dan belum dikonfirmasi, kemudian mengumpulkannya ke dalam sebuah blok. Agar blok mereka menjadi blok berikutnya dalam blockchain Bitcoin, mereka harus menyelesaikan teka-teki kriptografi dalam proses yang disebut "proof of work".
 
 ![image](assets/en/chapter10/2.webp)
 
 ### Langkah 3: Transaksi ditambang dalam sebuah blok oleh penambang.
 
-Proof of work ini memerlukan menemukan "hash" yang valid untuk blok yang bersangkutan. Pikirkan ini sebagai sidik jari unik yang terkait dengan blok, terdiri dari 256 karakter. Validitas hash ini tergantung pada kesulitan jaringan Bitcoin. Kita akan membahas mekanisme ini lebih detail nanti. Untuk sekarang, anggap bahwa seorang penambang telah menemukan blok yang valid dan transaksi Bob kepada Alice termasuk di dalamnya.
-Blok baru yang valid ini ditambahkan ke blockchain Bitcoin, yang merupakan buku besar publik dan tidak dapat diubah dari semua transaksi Bitcoin. Anggap itu sebagai buku besar bersama untuk semua pengguna Bitcoin. Menurut aturan protokol, sebuah blok ditambahkan kira-kira setiap sepuluh menit berkat penyesuaian kesulitan. Kita akan melihat dalam bagian tentang penambang mekanisme apa yang mencegah modifikasi buku besar transaksi Bitcoin.
+Proses proof of work ini melibatkan pencarian "hash" yang valid untuk blok yang bersangkutan. Anda dapat menganggap ini sebagai sidik jari unik yang terkait dengan blok, yang terdiri dari 256 karakter. Validitas hash ini tergantung pada tingkat kesulitan dalam jaringan Bitcoin. Mekanisme ini nantinya akan dibahas dengan lebih detail. Untuk sekarang, anggap bahwa seorang penambang telah menemukan blok yang valid dan transaksi Bob kepada Alice termasuk di dalamnya.
+Blok baru yang valid ini kemudian ditambahkan ke blockchain Bitcoin, yang merupakan buku besar publik semua transaksi Bitcoin, serta tidak dapat diubah-ubah. Anggaplah ini sebagai buku besar bersama untuk semua pengguna Bitcoin. Menurut aturan protokol, sebuah blok ditambahkan kira-kira setiap sepuluh menit berkat penyesuaian tingkat kesulitan. Hal ini akan dibahas dalam bagian tentang penambang, yaitu mekanisme apa yang mencegah modifikasi buku besar transaksi Bitcoin.
 ![image](assets/en/chapter10/5.webp)
 
 ### Langkah 4: Blok tersebut valid dan diverifikasi oleh node dompet Alice.
 
-Pada tahap ini, transaksi dianggap valid, penambang kemudian akan menyebarkan blok baru melalui node mereka ke jaringan, dan dompet Alice akan diperbarui.
+Pada tahap ini, transaksi dianggap valid, penambang kemudian akan menyebarkan blok baru melalui node mereka ke jaringan, dan status dompet Alice akan diperbarui.
 
 ![image](assets/en/chapter10/3.webp)
 
-> Catatan: Meskipun Alice melihat bahwa dia telah menerima bitcoin di salah satu alamatnya, disarankan untuk menganggap transaksi sebagai tidak dapat diubah hanya ketika telah mendapatkan 6 konfirmasi. Ini berarti bahwa 6 blok lain telah ditambang di atas blok yang mengandung transaksi Bob. Dengan kata lain, semakin tua sebuah transaksi di blockchain, semakin tidak dapat diubah menjadi.
+> Catatan: Meskipun Alice melihat bahwa dia telah menerima bitcoin di salah satu alamatnya, disarankan untuk menunggu transaksi Anda dikonfirmasi 6 kali sebelum menganggapnya sebagai transaksi tidak dapat diubah. Hal ini berarti bahwa 6 blok lain telah ditambang di atas blok yang menyimpan transaksi Bob. Dengan kata lain, semakin lama sebuah transaksi ada di dalam blockchain, semakin susah transaksi tersebut diubah.
 
-### Ringkasan cepat dalam sebuah poster!
+### Ringkasan Singkat dalam Poster!
 
 ![Penjelasan sebuah transaksi](assets/posters/fr/11_explication_d_une_transaction_crop.webp)
 
-### Apa gunanya semua ini?
+### Apa tujuan dari semua ini?
 
-Pada akhirnya, sistem transaksi Bitcoin adalah terdesentralisasi dan berfungsi peer-to-peer, tanpa perantara terpercaya.
+Pada akhirnya, sistem transaksi Bitcoin bersifat terdesentralisasi dan berfungsi secara padan-ke-padan tanpa pihak perantara terpercaya.
 
-Bob mengirim transaksinya ke jaringan Bitcoin, dan ketika penambang mempublikasikan blok valid yang mengandung transaksi Bob, Alice dapat mulai menganggap bahwa bitcoin tersebut miliknya. Kepercayaan tidak diperlukan pada setiap langkah transfer kepemilikan bitcoin; hanya aturan protokol dan insentif ekonomi yang membuat bertindak dengan niat jahat dalam protokol Bitcoin terlalu mahal.
+Bob mengirim transaksinya ke dalam jaringan Bitcoin, dan ketika penambang mempublikasikan blok valid yang mengandung transaksi Bob, Alice dapat mulai menganggap bahwa bitcoin tersebut adalah miliknya. Kepercayaan pribadi antar pengguna tidak diperlukan pada setiap langkah transfer kepemilikan bitcoin; aturan protokol dan insentif ekonomi yang ada akan membuat mereka yang ingin bertindak dengan niat jahat dalam protokol Bitcoin menanggung konsekuensi yang mahal.
 
-Pengguna mentransfer kepemilikan uang mereka dengan menandatangani transaksi secara digital dengan kunci pribadi mereka. Penambang memiliki sedikit kekuasaan, karena pengguna juga memiliki kontrol yang signifikan melalui node Bitcoin yang menangani validasi blok baru dan transaksi yang termasuk. Melalui jaringan node Bitcoin inilah jaringan benar-benar terdesentralisasi.
+Pengguna mentransfer kepemilikan uang mereka dengan menandatangani transaksi secara digital menggunakan kunci pribadi mereka. Penambang memiliki sedikit kekuasaan, sementara pengguna juga memiliki kendali yang signifikan melalui node Bitcoin yang menangani validasi blok baru dan transaksi yang terdapat di dalamnya. Jaringan node Bitcoin inilah yang membuat jaringan Bitcoin benar-benar terdesentralisasi.
 
-Faktanya, untuk benar-benar menghancurkan jaringan Bitcoin, semua salinan blockchain di semua node Bitcoin harus dihancurkan - tugas yang praktis mustahil karena distribusi geografis node ini dan kesulitan dalam menyita mereka secara fisik.
+Apabila seseorang ingin benar-benar menghancurkan jaringan Bitcoin, semua salinan blockchain di seluruh node Bitcoin harus dihancurkan - sebuah hal yang mustahil karena distribusi geografis dan kesulitan dalam menggapai mereka secara fisik.
 
-Mari kita lihat lebih dekat bagaimana node Bitcoin bekerja.
+Mari pelajari lebih dekat bagaimana node Bitcoin bekerja.
 
 ## Node Bitcoin
 <chapterId>8533cebc-f799-528b-89df-8d75d4c37f1c</chapterId>
 
-Node adalah elemen fundamental dari arsitektur jaringan Bitcoin. Mereka melakukan berbagai fungsi penting:
+Node adalah elemen fundamental dari arsitektur jaringan Bitcoin. Mereka memiliki berbagai fungsi penting:
 
 - Mempertahankan salinan blockchain Bitcoin
 - Memvalidasi transaksi
 - Menyampaikan informasi ke node lain
 - Menegakkan aturan protokol Bitcoin.
 
-Oleh karena itu, setiap perangkat yang menjalankan perangkat lunak Bitcoin, yang disebut node Bitcoin (sering melalui [Bitcoin Core](https://bitcoin.org/en/bitcoin-core/)), berkontribusi pada desentralisasi jaringan.
+Oleh karena itu, setiap perangkat yang menjalankan perangkat lunak Bitcoin, yang disebut node Bitcoin (sering melalui [Bitcoin Core](https://bitcoin.org/en/bitcoin-core/)), berkontribusi pada realisasi desentralisasi jaringan.
 
 ![image](assets/en/chapter11/1.webp)
 
 ### Node adalah inti pusat dari Bitcoin.
 
-Setiap node memiliki salinan blockchain, yang memungkinkan untuk verifikasi transaksi dan mencegah setiap upaya penipuan. Aspek desentralisasi dari jaringan memberikan ketahanan dan kekuatan luar biasa pada Bitcoin - untuk menghentikan protokol Bitcoin, semua node di seluruh dunia harus dimatikan. Untuk informasi Anda, saat ini (September 2023) terdapat sekitar [45,000 node](https://bitnodes.io/nodes/all/) yang tersebar di seluruh dunia.
-Node mampu memverifikasi keabsahan blok dan transaksi karena mereka mengikuti aturan konsensus Bitcoin. Aturan-aturan ini mengatur, antara lain, kebijakan moneter Bitcoin seperti jumlah hadiah penambang (yang akan kita bahas lebih detail di bagian selanjutnya) dan jumlah bitcoin yang beredar. Node bertindak sebagai sistem hukum jaringan dalam suatu cara. Berkat mereka, semua peserta jaringan mengikuti aturan yang sama. Mereka memastikan netralitas protokol Bitcoin. Aturan konsensus sangat jarang berubah, jika ada, karena untuk membuat perubahan, persetujuan dari semua node diperlukan.
+Setiap node memiliki salinan blockchain, yang memungkinkan untuk melakukan verifikasi transaksi dan pencegahan setiap upaya penipuan. Aspek desentralisasi dari jaringan memberikan ketahanan dan kekuatan yang tak terkecuali pada Bitcoin - untuk menghentikan protokol Bitcoin, semua node di seluruh dunia harus dimatikan. Sebagai informasi, saat ini (September 2023) terdapat sekitar [45,000 node](https://bitnodes.io/nodes/all/) yang tersebar di seluruh dunia.
+Node mampu memverifikasi keabsahan blok dan transaksi karena mereka mengikuti aturan konsensus Bitcoin. Aturan-aturan ini meregulasim antara lain, kebijakan moneter Bitcoin seperti jumlah insentif penambang (yang akan kita bahas lebih detail di bagian selanjutnya) dan jumlah bitcoin yang beredar. Node bertindak sebagai sistem hukum jaringan dalam cara tertentu. Berkat node-node ini, semua pengguna jaringan tunduk pada aturan yang sama. Node juga memastikan netralitas protokol Bitcoin. Jikapun ada, aturan konsensus sangatlah jarang berubah, karena untuk membuat perubahan diperlukan persetujuan dari semua node.
 ![image](assets/en/chapter11/2.webp)
 
-Tata kelola dalam protokol berada di luar cakupan pelatihan ini, tetapi ketahuilah bahwa setiap pengguna yang menjalankan node Bitcoin memutuskan aturan mana yang ingin mereka ikuti. Dengan demikian, pengguna dapat memutuskan untuk mengikuti aturan lain (yaitu, membuat modifikasi pada kode), tetapi jika modifikasi ini membatalkan aturan konsensus saat ini, maka node tersebut tidak akan lagi menjadi bagian dari jaringan Bitcoin. Modifikasi besar oleh karena itu jarang terjadi dan memerlukan koordinasi yang signifikan di antara ribuan aktor dengan ideologi dan kepentingan yang bervariasi, yang memaksa protokol untuk hanya menghasilkan pembaruan yang membuatnya "lebih baik" dalam pengertian semua pengguna Bitcoin.
+Tata kelola dalam protokol berada di luar cakupan pelatihan ini, tetapi perlu diketahui bahwa setiap pengguna yang menjalankan node Bitcoinlah yang memutuskan aturan mana yang ingin mereka ikuti. Dengan demikian, pengguna dapat memutuskan untuk mengikuti aturan lain (yaitu, membuat modifikasi pada kode), tetapi jika modifikasi ini membatalkan aturan konsensus saat ini, maka node tersebut tidak akan lagi menjadi bagian dari jaringan Bitcoin. Oleh karena itu, modifikasi besar sangat jarang terjadi dan memerlukan koordinasi signifikan di antara ribuan pengguna dengan ideologi dan kepentingan pribadi yang bervariasi, yang membuat protokol hanya dapat melakukan pembaruan yang dianggap semua pengguna Bitcoin dapat membuat jaringan "lebih baik".
 
-### Seperti apa tampilan sebuah node?
+### Seperti apa bentuk sebuah node?
 
-Ada beberapa opsi yang tersedia bagi kita ketika kita ingin memiliki node sendiri, dan biaya pemeliharaannya bervariasi. Anda dapat dengan mudah menjalankan perangkat lunak Bitcoin Core di komputer Anda, tetapi ini akan memerlukan sejumlah besar ruang penyimpanan karena blockchain sekitar ~500GB. Untuk mengatasi kendala ini, Anda dapat memilih untuk hanya menyimpan blok N terakhir di memori, yang disebut "pruned node". Untuk jenis solusi ini, biayanya dapat diabaikan karena node hanya dinyalakan ketika Anda membutuhkannya.
+Tersedia beberapa opsi bagi mereka yang ingin memiliki node sendiri, tiap jenisnya memiliki biaya pemeliharaannya bervariasi. Anda dapat dengan mudah menjalankan perangkat lunak Bitcoin Core di komputer Anda, tetapi hal ini memerlukan ruang penyimpanan yang besar, karena ukuran blockchain sekitar ~500GB. Untuk mengatasi kendala ini, Anda dapat memilih untuk hanya menyimpan N blok terakhir di dalam memori, ini disebut "pruned node". Biaya untuk menjalankan solusi ini dapat diabaikan karena node hanya dinyalakan ketika Anda membutuhkannya.
 
 ![image](assets/en/chapter11/10.webp)
 
-Opsi kedua adalah menggunakan perangkat keras khusus untuk tujuan ini, seperti Raspberry Pi 4 dengan SSD yang cukup besar (sekitar ~1TB). Opsi kedua ini lebih mahal jika Anda harus membeli perangkat kerasnya, tetapi dari segi konsumsi listrik, ini mewakili sedikit kurang dari €10 per tahun.
-Dari perspektif bandwidth, mengingat 1 blok 1MB setiap 10 menit, ini mewakili sekitar 5GB per bulan.
+Opsi kedua adalah menggunakan perangkat keras khusus, seperti Raspberry Pi 4 dengan SSD yang cukup besar (sekitar ~1TB). Opsi kedua ini lebih mahal jika Anda juga harus membeli perangkat kerasnya, tetapi dari segi pemakaian listrik, biayanya hanya sedikit kurang dari €10 per tahun.
+Dari segi bandwidth, mengasumsikan sebuah blok 1MB setiap 10 menit, hal ini ekuivalen dengan sekitar 5GB per bulan.
 
 ### Node harus tetap dapat diakses oleh semua orang!
 
-Biaya terjangkau dan aksesibilitas sebuah node Bitcoin dalam hal sumber daya perangkat keras, penyimpanan, dan bandwidth adalah aspek yang sangat penting karena memfasilitasi desentralisasi jaringan.
+Biaya terjangkau dan aksesibilitas sebuah node Bitcoin dalam hal sumber daya perangkat keras, penyimpanan, dan bandwidth adalah aspek yang sangat penting karena mereka membantu memfasilitasi desentralisasi jaringan.
 
-Memang, setiap orang memiliki alasan yang baik untuk menjalankan sebuah node! Harga dan usaha minimal untuk manfaat yang diperoleh. Anda hanya perlu memulai petualangan dan bergabung dengan ribuan bitcoiner lainnya karena bersama kita membentuk jaringan Bitcoin.
+Setiap orang memiliki alasan yang baik untuk menjalankan sebuah node! Harga dan usaha yang diperlukan sangat minim untuk manfaat yang diperoleh. Anda hanya perlu memulai petualangan dan bergabung dengan ribuan bitcoiner lainnya, karena bersama, kita semua membentuk jaringan Bitcoin.
 
 ![image](assets/en/chapter11/11.webp)
 
-Sebagai contoh, jika blok-bloknya 100 kali lebih berat, kita tentu bisa melakukan 100 kali lebih banyak transaksi setiap 10 menit, tetapi menjalankan sebuah node Bitcoin akan memerlukan hard disk 50TB, bandwidth lebih dari 500GB/bulan, dan perangkat keras yang mampu memvalidasi ratusan ribu transaksi dalam waktu kurang dari 10 menit. Dalam situasi hipotetis dengan blok 100 kali lebih besar, menjalankan sebuah node Bitcoin tidak akan dapat diakses oleh orang rata-rata, yang akan mengkompromikan desentralisasi protokol dan keabadian transaksi dan aturan konsensus. Dengan demikian, batasan protokol juga dipilih untuk memungkinkan sebanyak mungkin orang menjalankan node Bitcoin mereka sendiri.
-Situasi ini tidak sepenuhnya hipotetis karena tahun 2017 ditandai oleh kontroversi intens yang dikenal sebagai "perang blok". Konflik ini menentang aktor yang ingin memodifikasi Bitcoin dengan meningkatkan ukuran blok untuk meningkatkan kapasitas transaksi, dengan mereka yang berusaha untuk mempertahankan kemandirian dan kekuatan pengguna. Pada akhirnya, pengguna dan node menang dengan menolak perubahan yang diusulkan yang dimulai oleh penambang, platform pertukaran, dan institusi.
+Sebagai contoh, jika ukuran blok yang ada 100 kali lebih besar, jumlah transaksi yang bisa ditampung setiap 10 menit meningkat 100 kali lipat lebih banyak, tetapi menjalankan sebuah node Bitcoin memerlukan hard disk 50TB, bandwidth lebih dari 500GB/bulan, dan perangkat keras yang mampu memvalidasi ratusan ribu transaksi dalam waktu kurang dari 10 menit. Dalam situasi hipotetis ini, dimana blok 100 kali lebih besar, menjalankan sebuah node Bitcoin tidak akan dapat diakses oleh individu rata-rata, yang akan berdampak buruk pada desentralisasi protokolm serta immutabilitas transaksi dan aturan konsensus. Dengan demikian, batasan protokol juga sudah ditetapkan untuk memungkinkan sebanyak mungkin orang untuk menjalankan node Bitcoin mereka sendiri.
+Situasi ini tidak sepenuhnya merupakan hipotetis, dimana tahun 2017 ditandai dengan kontroversi intens yang dikenal sebagai "perang blok". Konflik ini terjadi antara pihak yang ingin memodifikasi Bitcoin dengan meningkatkan ukuran blok untuk meningkatkan kapasitas transaksi, dengan mereka yang berusaha untuk mempertahankan independensi dan pengaruh pengguna. Pada akhirnya, pengguna dan nodelah yang memenangkan konflik ini, dimana mereka menolak perubahan yang diusulkan oleh para penambang, platform-platform pertukaran, dan para institusi.
 
-Menyusul kemenangan ini, node mengaktifkan pembaruan yang disebut SegWit, membuka jalan untuk implementasi Lightning Network, sebuah jaringan pembayaran Bitcoin instan yang menggunakan blockchain Bitcoin. Situasi ini menunjukkan bahwa pengguna, melalui node mereka, memiliki kekuatan nyata dalam Bitcoin, memungkinkan mereka untuk melawan institusi besar.
+Menyusul kemenangan ini, node mengaktifkan pembaruan yang disebut SegWit, membuka jalan untuk implementasi Lightning Network, sebuah jaringan pembayaran Bitcoin instan yang menggunakan blockchain Bitcoin. Situasi ini menunjukkan bahwa pengguna, melalui node mereka, memiliki pengaruh yang nyata dalam Bitcoin, memampukan mereka untuk melawan institusi besar.
 
-### Ringkasan dalam poster!
+### Ringkasan Singkat dalam Poster!
 
 ![Node Bitcoin](assets/posters/fr/12_explication_des_nodes_crop.webp)
 
 ## Penambang
 <chapterId>dbb8264a-7434-57e4-9d1b-fbd1bae37fdf</chapterId>
 
-> Penambang berfungsi untuk mengamankan jaringan dan menambahkan transaksi ke dalam blok. Mereka menggunakan listrik melalui mesin ASIC untuk menyelesaikan bukti kerja Bitcoin.
+> Penambang memiliki peran untuk mengamankan jaringan dan menambahkan transaksi ke dalam blok. Mereka menggunakan listrik melalui mesin aplikasi spesifik sirkuit terpadu (ASIC) untuk menyelesaikan proof of work Bitcoin.
 
 ![gambar](assets/en/chapter12/15.webp)
 
-### Penjelasan tentang Bukti Kerja
+### Penjelasan tentang Proof of Work
 
-Bukti Kerja, juga dikenal sebagai "Proof of Work" (POW), adalah konsensus keamanan dari protokol Bitcoin. Ini adalah aturan yang memungkinkan Bitcoin beroperasi dan memastikan ketangguhannya. POW adalah dasar dari segalanya dan memainkan peran krusial dalam teori permainan Bitcoin.
+Bukti Kerja, juga dikenal sebagai "Proof of Work" (POW), adalah konsensus keamanan dari protokol Bitcoin. Ini merupakan aturan yang memungkinkan Bitcoin beroperasi dan memastikan ketangguhan protokolnya. POW adalah fondasi dari semuanya dan memiliki peran krusial dalam teori permainan Bitcoin.
 
-Bayangkan ini sebagai lotere raksasa di mana semua orang dapat berpartisipasi. Tujuannya adalah untuk menemukan nomor spesifik yang akan memungkinkan untuk penandatanganan blok yang valid, dan pemenangnya menerima hadiah dalam bitcoin. Nomor ini sangat sederhana untuk diverifikasi tetapi sulit untuk ditemukan. Faktanya, verifikasi yang mudah dilakukan melalui fungsi hash SHA-256, yang termasuk dalam algoritma penambangan. Untuk menemukan nomor ini, peserta (penambang) akan mencoba miliaran kemungkinan, seperti 1, 52, 2648, 26874615, 15344854131318631, dll.
+Hal ini dapat dibayangkan sebagai lotere skala besar, di mana semua orang dapat berpartisipasi. Tujuannya adalah untuk menemukan nomor tertentu yang memungkinkan penandatanganan blok yang valid, dan pemenangnya menerima hadiah berupa bitcoin. Nomor ini sangat mudah untuk diverifikasi tetapi sangat sulit untuk ditemukan. Nyatanya, verifikasi yang mudah ini dilakukan melalui fungsi hash SHA-256, yang sudah terdapat dalam algoritma penambangan. Untuk menemukan nomor ini, partisipan (penambang) akan mencoba miliaran kemungkinan, seperti 1, 52, 2648, 26874615, 15344854131318631, dll.
 
-Jika nomor yang dipilih benar: Jackpot! Jika tidak, pencarian dilanjutkan. Untuk mengoptimalkan jumlah percobaan, mereka akan menggunakan mesin khusus yang disebut ASIC, yang memiliki peran tunggal untuk menghitung miliaran kemungkinan per detik. Jumlah total percobaan disebut HashRate dan memungkinkan untuk mengkuantifikasi keamanan protokol Bitcoin. Untuk mengoperasikan mesin ini, harus dikonsumsi sejumlah besar listrik. Oleh karena itu, POW mengubah energi menjadi mata uang, menghubungkan dunia nyata dan dunia digital untuk menciptakan mata uang berbasis energi pertama.
+Jika nomor yang dipilih benar: Jackpot! Jika tidak, pencarian berlanjut. Untuk mengoptimalkan jumlah percobaan, mereka akan menggunakan mesin khusus yang disebut ASIC, yang memiliki satu peran, yaitu menghitung miliaran kemungkinan per detik. Jumlah total percobaan disebut HashRate, yang memungkinkan kuantifikasi keamanan protokol Bitcoin. Untuk mengoperasikan mesin ini, dibutuhkan konsumsi listrik yang sangat besar. Dapat dilihat bahwa POW memiliki peran mengubah energi menjadi mata uang, menghubungkan dunia nyata dan dunia digital untuk menciptakan mata uang pertama yang berbasis energi.
 
-Mesin berjalan, dan setelah rata-rata 10 menit, seorang pemenang akan muncul. Mereka akan menemukan hash yang benar di bawah ambang kesulitan. Pemenang besar dan satu-satunya kemudian akan menandatangani blok baru dari server timestamp dan melanjutkan blockchain. Pemenang menerima hadiah mereka dan kembali untuk mencoba keberuntungan mereka untuk blok berikutnya. Proses ini telah berulang selama 12 tahun, dan setiap 10 menit, seorang pemenang mengonfirmasi transaksi Bitcoin sambil terus mengamankan transaksi masa lalu. Membuat blockchain Bitcoin kita lebih kuat dan aman.
+Selama mesin dijalankan, tiap rata-rata 10 menit, seorang pemenang akan ditentukan. Mereka menemukan hash yang benar di bawah ambang kesulitan. Pemenang utama dan satu-satunya kemudian akan menandatangani blok baru dari server timestamp dan melanjutkan blockchain. Pemenang menerima hadiah mereka dan kembali untuk mencoba keberuntungan mereka untuk blok berikutnya. Proses ini telah terus berulang selama 12 tahun, dan setiap 10 menit, seorang pemenang melakukan konfirmasi transaksi Bitcoin sembari terus mengamankan transaksi masa lalu, membuat blockchain Bitcoin kita lebih kuat dan aman.
 
-Setiap 2 minggu (2016 blok), penyesuaian kesulitan menyeimbangkan kembali permainan penambangan global berdasarkan jumlah peserta.
+Setiap 2 minggu (2016 blok), penyesuaian kesulitan dilakukan untuk mengatur keseimbangan permainan penambangan global ini berdasarkan jumlah peserta yang ada.
 
 ![gambar](assets/en/chapter12/14.webp)
 
-### Penambangan terus berkembang
-Selama bertahun-tahun, para penambang telah melengkapi diri mereka dengan perangkat keras komputer yang semakin efisien untuk menghasilkan sebanyak mungkin hash per detik (disebut HashRate) sambil mengonsumsi jumlah energi paling sedikit dengan cara yang paling hemat biaya. Penambang awal seperti Satoshi atau Hal Finney menambang hanya dengan CPU mereka, kemudian yang lain mulai menambang dengan kartu grafis mereka. Saat ini, para penambang menggunakan apa yang disebut ASICs (Application-Specific Integrated Circuit), mesin yang dirancang khusus untuk menerapkan algoritma SHA256.
+### Penambangan terus berevolusi
+Selama bertahun-tahun, para penambang telah memperlengkapi diri mereka dengan perangkat keras komputer yang semakin efisien untuk menghasilkan sebanyak mungkin hash per detik (disebut HashRate), dengan mengonsumsi energi sesedikit mungkin melalui metode dengan biaya serendah mungkin. Penambang awal seperti Satoshi atau Hal Finney menambang hanya dengan CPU mereka, kemudian penambang yang lain mulai menambang dengan kartu grafis mereka. Saat ini, para penambang menggunakan mesin yang disebut ASICs (Application-Specific Integrated Circuit), mesin yang dirancang khusus untuk menjalankan algoritma SHA256.
 ![image](assets/en/chapter12/20.webp)
 
-Hashrate dari jaringan Bitcoin mewakili jumlah percobaan yang dilakukan per detik untuk menemukan blok berikutnya. Hari ini adalah sekitar 400 TH/s, yang merupakan 400.000 miliar percobaan per detik! Semakin tinggi hashrate global, semakin sulit bagi aktor jahat untuk memonopoli sumber daya yang diperlukan untuk memperoleh mayoritas penambangan dan melakukan double spend. Oleh karena itu, lebih ekonomis untuk mengikuti aturan protokol Bitcoin daripada bertindak melawannya. Ini menimbulkan pertanyaan: bagaimana cara penambang dibayar?
+Hashrate dari jaringan Bitcoin mewakili jumlah percobaan yang dilakukan per detik untuk menemukan blok berikutnya. Hari ini, angkanya sekitar 400 TH/s, yang berarti 400.000 miliar percobaan per detik! Semakin tinggi hashrate global, semakin sulit bagi pihak kejahatan untuk memonopoli sumber daya yang diperlukan untuk memperoleh mayoritas hasil penambangan dan melakukan pembelanjaan ganda (double spend). Oleh karena itu, akan jauh lebih layak ekonomis untuk mengikuti aturan protokol Bitcoin daripada bertindak melawannya. Hal ini menimbulkan pertanyaan: apa bayaran para penambang?
 
 ![image](assets/en/chapter12/16.webp)
 
@@ -793,49 +793,49 @@ Hashrate dari jaringan Bitcoin mewakili jumlah percobaan yang dilakukan per deti
 
 Header blok berisi beberapa elemen seperti waktu, target kesulitan, nomor blok terakhir, versi yang digunakan, dan Merkel Root dari transaksi sebelumnya.
 
-Transaksi coinbase selalu yang pertama; ini mencakup hadiah yang diterima untuk melakukan pekerjaan validator. Kemudian datang transaksi yang divalidasi. Penambang akan memilih transaksi yang membayar paling banyak dan mencoba membuat blok yang memaksimalkan pendapatan mereka, yaitu transaksi berukuran kecil dengan biaya maksimum.
+Transaksi coinbase selalu merupakan transaksi yang pertama; ini mencakup hadiah yang diterima untuk melakukan pekerjaan validator. Berikutnya terdapat transaksi-transaksi yang sudah tervalidasi. Penambang akan memilih transaksi dengan kompensasi paling banyak dan mencoba membuat blok yang memaksimalkan pendapatan mereka, yaitu transaksi berukuran kecil dengan biaya sebesar-besarnya.
 
 ### Kompensasi Penambang
 
-Awalnya, seorang penambang dikompensasi ketika mereka menemukan blok yang valid. Lebih tepatnya, mereka dikompensasi dengan dua cara: (i) melalui subsidi (bitcoin yang baru dicetak) yang termasuk dalam blok dan (ii) melalui biaya transaksi dalam transaksi yang termasuk dalam blok. Jumlah subsidi didefinisikan oleh aturan konsensus dan tergantung pada Epoch yang kita berada. Hadiah blok = Subsidi blok + biaya transaksi.
+Awalnya, seorang penambang mendapatkan bayaran ketika mereka menemukan blok yang valid. Lebih tepatnya, mereka mendapat kompensasi dengan dua cara: (i) melalui subsidi (bitcoin yang baru dicetak) yang terdapat dalam blok dan (ii) melalui biaya transaksi dalam transaksi yang terdapat dalam blok. Jumlah subsidi didefinisikan oleh aturan konsensus dan tergantung pada Epoch yang kita berada. Hadiah blok = Subsidi blok + biaya transaksi.
 
-Memang, untuk blok pertama, subsidi blok adalah 50 bitcoin, kemudian setiap 210.000 blok (sekitar setiap 4 tahun), itu dibagi dua. Hari ini (di 2023), kita berada di Epoch ke-4; oleh karena itu, subsidi adalah 6.25 bitcoin. Subsidi ini adalah mekanisme untuk menciptakan bitcoin baru di Bitcoin. Karena subsidi berkurang dari waktu ke waktu, ini berarti bahwa ada batas 21 juta bitcoin - saat ini, sudah ada lebih dari 19,4 juta bitcoin yang beredar, yang lebih dari 92%.
+Untuk blok pertama, subsidi blok berjumlah 50 bitcoin, kemudian setiap 210.000 blok (sekitar setiap 4 tahun), subsidi berkurang menjadi setengahnya. Hari ini (di 2023), kita berada di Epoch ke-4; oleh karena itu, subsidi blok sekarang adalah 6.25 bitcoin. Subsidi ini adalah mekanisme untuk mendapatkan bitcoin baru di Bitcoin. Subsidi berkurang dari waktu ke waktu, yang berarti bahwa ada batas jumlah total 21 juta bitcoin - saat ini, sudah ada lebih dari 19,4 juta bitcoin yang beredar, lebih dari 92%  dari total.
 
 ![image](assets/en/chapter12/18.webp)
 
-Metode kedua kompensasi didefinisikan oleh jumlah yang dipilih oleh pengguna untuk biaya transaksi. Karena penambang ingin memaksimalkan pendapatan mereka, mereka akan cenderung memprioritaskan transaksi dengan biaya transaksi tinggi; biaya transaksi mencerminkan urgensi pengguna untuk memiliki transaksi mereka termasuk dalam blok berikutnya.
+Metode kedua kompensasi bergantung pada jumlah uang yang dipilih oleh pengguna untuk biaya transaksi. Karena penambang ingin memaksimalkan pendapatan mereka, mereka akan cenderung memprioritaskan transaksi dengan biaya transaksi tinggi; biaya transaksi ini mencerminkan urgensi pengguna untuk memastikan transaksi mereka disertakan dalam blok berikutnya.
 
 ![image](assets/en/chapter12/17.webp)
 
-Selanjutnya, untuk menstabilkan model ekonomi penambang, yang bergantung pada hadiah yang mereka terima untuk setiap blok yang valid, penambang sering berkolaborasi dalam kelompok melalui "mining pools," di mana mereka menggabungkan sumber daya komputasi mereka.
+Selanjutnya, untuk menstabilkan model ekonomi penambang, yang bergantung pada imbalan yang mereka terima untuk setiap blok yang valid, penambang sering berkolaborasi dalam kelompok dan membentuk "kolam penambangan" atau "mining pool", di mana mereka akan menggabungkan sumber daya komputasi mereka.
 
 ### Mengapa repot-repot melakukan semua ini?
-Singkatnya, inovasi Bitcoin adalah mengusulkan solusi untuk masalah pengeluaran ganda melalui penggunaan blockchain yang berbasis pada Proof of Work dengan kesulitan yang berubah-ubah. Dalam dunia digital, konsep kepemilikan berbeda dari dunia fisik. Memang, dalam dunia digital, segala sesuatu dapat disalin dan ditempel, yang menimbulkan masalah dalam hal pengeluaran ganda untuk aset digital yang bernilai. Perantara terpercaya, seperti bank, telah diciptakan untuk menyelesaikan masalah teknologi ini dan memastikan bahwa ketika sebuah aset ditransfer, aset tersebut tidak lagi dimiliki oleh pengirim. Tapi bagaimana ini bisa dilakukan tanpa perantara terpercaya? Masalah ini setara dengan Masalah Jenderal Bizantium, sebuah masalah koordinasi informasi dalam sistem di mana berbagai aktor tidak dapat dipercaya.
+Singkatnya, inovasi Bitcoin, melalui penggunaan blockchain yang berbasis pada Proof of Work dengan tingkat kesulitannya yang berubah-ubah, berperan sebagai sebuah alternatif solusi untuk aspek pengeluaran ganda. Dalam dunia digital, konsep kepemilikan berbeda dari yang ada di dunia nyata. Memang, dalam dunia digital, segala sesuatu dapat disalin dan ditempel, yang menimbulkan masalah dalam hal pengeluaran ganda untuk nilai aset digital. Pihak perantara terpercaya, seperti bank, telah didirikan untuk menyelesaikan masalah teknologi ini dan memastikan bahwa ketika sebuah aset ditransfer, aset tersebut tidak lagi dimiliki oleh pengirim. Tapi bagaimana hal ini bisa dilakukan tanpa pihak perantara terpercaya? Masalah ini dapat dianalogikan dengan Masalah Jenderal Bizantium, sebuah masalah koordinasi informasi dalam sistem di mana ada banyak pihak yang tidak dapat dipercaya.
 
-Bitcoin adalah semacam solusi untuk menyelesaikan masalah ini, atau setidaknya untuk mengatasinya. "Jenderal" dari Bitcoin, atau penambang, menghasilkan blok (informasi) dan node Bitcoin memverifikasi transaksi keuangan menggunakan aturan konsensus untuk memastikan keaslian informasi. Asimetri dalam biaya energi antara produksi informasi dan verifikasi memastikan keandalan informasi, tanpa pihak ketiga yang terpercaya.
+Dengan demikian, Bitcoin adalah sejenis solusi untuk menyelesaikan masalah ini, atau setidaknya untuk mencegahnya. "Jenderal" dari Bitcoin, atau penambang, menghasilkan blok (informasi), kemudian node Bitcoin memverifikasi transaksi keuangan menggunakan aturan konsensus untuk memastikan kebenaran informasi. Perbedaan besar dalam biaya energi antara pembuatan informasi dan verifikasi dapat memastikan keandalan informasi, tanpa pihak ketiga yang terpercaya.
 
-Penambang adalah pembangun keamanan jaringan Bitcoin. Dengan menghabiskan energi untuk menghasilkan hash, mereka membangun dinding yang membuatnya sangat mahal bagi agen jahat untuk menulis ulang sejarah transaksi. Insentif ekonomi ini mencegah mereka untuk berperilaku tidak jujur.
+Penambang adalah pembangun keamanan jaringan Bitcoin. Dengan menggunakan energi untuk menghasilkan hash, mereka membangun dinding yang membuat pihak kejahatan membutuhkan biaya yang sangat besar untuk mengubah riwayat transaksi. Insentif ekonomi ini mencegah mereka bertindak dengan tidak jujur.
 
-Bahkan dalam kasus serangan 51%, yang berarti bahwa agen memiliki lebih dari setengah dari hashrate, jaringan tetap aman karena penyerang harus menghabiskan energi sebanyak yang dikombinasikan oleh semua penambang untuk mencoba memodifikasi blockchain. Berkat mekanisme proof of work ini, yang memerlukan energi untuk dilakukan, jaringan menjadi aman.
+Bahkan dalam kasus serangan 51%, yang berarti bahwa pihak penyerang memiliki lebih dari setengah dari hashrate, jaringan tetap aman, karena untuk mencoba memodifikasi blockchain, penyerang harus menghabiskan energi yang jumlahnya sebanyak energi yang diperlukan oleh semua penambang. Berkat mekanisme proof of work ini, yang memerlukan energi untuk dijalankan, jaringan menjadi aman.
 
 ### Ringkasan
 
-Teori permainan yang diterapkan pada Bitcoin mengeliminasi penambang yang tidak jujur. Penambang menggunakan mesin ASIC untuk menambang dan menerima hadiah jika berhasil. Selain itu, mereka sering bergabung dengan kolam penambangan untuk berbagi kekuatan komputasi mereka dan menerima hadiah yang lebih kecil namun lebih teratur. Penambangan Bitcoin adalah proses dengan biaya energi yang tinggi tetapi sangat penting untuk fungsi dan keamanan jaringan Bitcoin. Proof of work dan blockchain menyelesaikan masalah pengeluaran ganda dan memastikan kebenaran informasi tanpa pihak ketiga yang terpercaya. Pengeluaran energi diperlukan untuk menghasilkan informasi, tetapi verifikasi informasi memiliki biaya yang dapat diabaikan. Asimetri ini menjamin keamanan jaringan. Oleh karena itu, lebih ekonomis untuk mengikuti aturan konsensus daripada melanggarnya.
+Teori permainan yang diterapkan pada Bitcoin mengeliminasi para penambang yang tidak jujur. Penambang menggunakan mesin ASIC untuk menambang dan menerima imbalan jika berhasil. Selain itu, mereka sering bergabung dengan kolam penambangan untuk menggabungkan komputasi mereka agar menerima jumlah hadiah yang lebih kecil namun lebih terjadwal. Penambangan Bitcoin adalah proses dengan biaya energi yang tinggi tetapi berperan penting untuk fungsi dan keamanan jaringan Bitcoin. Proof of work dan blockchain dapat merupakan solusi dari masalah pengeluaran ganda dan memastikan kebenaran informasi tanpa pihak ketiga terpercaya. Energi diperlukan untuk membuat informasi, tetapi verifikasi informasi hanya membutuhkan biaya yang jumlahnya dapat diabaikan. Perbedaan ini menjamin keamanan jaringan. Oleh karena itu, secara ekonomis, lebih menguntungkan untuk mengikuti aturan konsensus daripada melanggarnya.
 
-### Ringkasan cepat dalam poster!
+### Ringkasan Singkat dalam Poster!
 
 ![penambang](assets/posters/fr/13_explication_des_mineurs_crop.webp)
 
 ## Bitcoin dan Ekologi
 <chapterId>4b227ae6-443a-5739-b443-60b7931130d9</chapterId>
 
-Kita baru saja melihat di bagian sebelumnya bahwa keamanan protokol Bitcoin bergantung pada biaya energi yang tinggi untuk menghasilkan buku besar publik transaksi tanpa pihak ketiga yang terpercaya. Biaya energi secara keseluruhan sering dibandingkan dengan konsumsi listrik sebuah negara kecil. Tapi apakah perbandingan ini masuk akal? Apakah relevan untuk memahami alasan di balik biaya seperti itu?
+Di bagian sebelumnya, terlihat bahwa keamanan protokol Bitcoin bergantung pada biaya energi yang tinggi untuk membuat buku besar publik transaksi tanpa pihak ketiga terpercaya. Biaya energi secara keseluruhan sering dibandingkan dengan konsumsi listrik di negara kecil. Tapi apakah perbandingan ini masuk akal? Apakah relevan untuk memahami alasan di balik biaya seperti itu?
 
 ### Biaya energi dari Bitcoin.
-Pertama, mari kita nilai secara kualitatif biaya lingkungan dari penambangan. Seorang penambang harus memiliki mesin seperti ASIC dan sumber energi berupa listrik untuk mengoperasikan mesin-mesin ini. ASIC kebanyakan terbuat dari aluminium dan dapat didaur ulang atau digunakan kembali untuk tujuan kedua (seperti yang ditunjukkan dengan [proyek Attakaï](https://decouvrebitcoin.fr/attakai/), yang mengubah Antminer S9 menjadi pemanas ruangan). Kekhawatiran utama adalah oleh karena itu konsumsi energi. Mari kita coba memberikan lebih banyak konteks untuk ini.
+Pertama, mari lakukan penilaian secara kualitatif terhadap biaya terkait lingkungan dari penambangan. Seorang penambang harus memiliki mesin seperti ASIC dan sumber energi berupa listrik untuk mengoperasikan mesin-mesin ini. ASIC kebanyakan terbuat dari aluminium dan dapat didaur ulang atau digunakan kembali untuk tujuan lain (seperti yang ditunjukkan dengan [proyek Attakaï](https://decouvrebitcoin.fr/attakai/), yang mengubah Antminer S9 menjadi pemanas ruangan). Oleh karena itu, yang menjadi kekhawatiran utama adalah konsumsi energi. Untuk konteks, kami akan memberikan lebih banyak konteks terkait hal ini.
 ![image](assets/en/chapter13/1.webp)
 
-Konsumsi listrik mewakili hampir semua biaya bagi penambang. Oleh karena itu, mereka didorong untuk menemukan sumber listrik yang murah. Namun, karena penambang bersifat mobile, mereka dapat pergi ke tempat-tempat di mana pembangkit listrik dipasang tetapi belum terhubung ke jaringan listrik wilayah tersebut. Penambang bertindak sebagai pembeli terakhir, memungkinkan pembangkit listrik untuk mengamankan pembiayaan bahkan sebelum terhubung ke jaringan listrik. Dan ketika mereka terhubung, permintaan listrik akan meningkat, yang akan menaikkan harga dan membuatnya kurang menguntungkan bagi penambang untuk mendapatkan listrik di tempat-tempat tersebut. Penambang kemudian akan memutuskan untuk memindahkan instalasinya dan menetap lebih jauh di mana permintaan rendah dan oleh karena itu harganya juga rendah.
+Biaya listrik mewakili hampir keseluruhan pengeluaran bagi seorang penambang. Oleh karena itu, mereka didorong untuk menemukan sumber listrik yang murah. Namun, karena penambang terus berpindah-pindah, mereka dapat pergi ke tempat-tempat di mana sudah ada pembangkit listrik terpasang namun belum terhubung ke jaringan listrik wilayah tersebut. Penambang di sini bertindak sebagai pembeli terakhir, memungkinkan pihak pembangkit listrik untuk mendapatkan pembiayaan bahkan sebelum terhubung ke jaringan listrik umum. Ketika sudah terhubung ke jaringan listrik, permintaan listrik daerah tersebut akan meningkat, yang akan menaikkan harga listrik, membuat situasi menjadi kurang menguntungkan bagi penambang untuk mendapatkan energi listrik di tempat tersebut. Penambang kemudian akan memutuskan untuk memindahkan instalasinya dan menetap di mana permintaan akan listrik rendah, yang berarti harganya juga rendah.
 
 ### Debat yang tidak berkesudahan
 

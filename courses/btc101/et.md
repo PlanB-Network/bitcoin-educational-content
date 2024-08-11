@@ -1,7 +1,7 @@
 ---
-Nimi: Bitcoini Teekond
-Siht: Avasta Bitcoin ja selle põhitõed, sealhulgas selle rahaline väärtuspakkumine, kaevurid, tehingud ja rahakotid.
-Eesmärgid:
+name: Bitcoini Teekond
+goal: Avasta Bitcoin ja selle põhitõed, sealhulgas selle rahaline väärtuspakkumine, kaevurid, tehingud ja rahakotid.
+objectives:
   - Saavutada üldine arusaam Bitcoin tehnoloogiast
   - Mõista, kuidas osta ja turvaliselt bitcoine hoiustada
   - Omada üldist arusaama Blockchain tehnoloogiast

@@ -10,9 +10,17 @@ Nếu bạn muốn đóng góp cho Mạng lưới PlanB, bạn sẽ cần sử d
 - **Đóng góp trực tiếp qua giao diện web của GitHub**: Đây là phương pháp đơn giản nhất. Nếu bạn là người mới hoặc nếu bạn chỉ dự định đóng góp một vài sửa đổi nhỏ, lựa chọn này có lẽ là tốt nhất cho bạn;
 - **Đóng góp cục bộ sử dụng Git**: Phương pháp này phù hợp hơn nếu bạn dự định đóng góp thường xuyên hoặc đáng kể cho Mạng lưới PlanB. Mặc dù việc thiết lập môi trường Git cục bộ trên máy tính của bạn có thể có vẻ phức tạp ban đầu, nhưng cách tiếp cận này hiệu quả hơn trong dài hạn. Nó cho phép quản lý thay đổi linh hoạt hơn. Nếu bạn mới làm quen với điều này, đừng lo, **chúng tôi giải thích toàn bộ quy trình thiết lập môi trường của bạn trong hướng dẫn này** (hứa, bạn sẽ không cần phải gõ bất kỳ dòng lệnh nào ^^).
 
-Nếu bạn không biết GitHub là gì, hoặc nếu bạn muốn tìm hiểu thêm về các thuật ngữ kỹ thuật liên quan đến Git và GitHub, tôi khuyên bạn [đọc bài viết giới thiệu của chúng tôi để làm quen với những khái niệm này](https://planb.network/tutorials/others/basics-of-github).
+Nếu bạn không biết GitHub là gì, hoặc nếu bạn muốn tìm hiểu thêm về các thuật ngữ kỹ thuật liên quan đến Git và GitHub, tôi khuyên bạn đọc bài viết giới thiệu của chúng tôi để làm quen với những khái niệm này.
 
-- Để bắt đầu, rõ ràng bạn sẽ cần một tài khoản GitHub. Nếu bạn đã có một, bạn có thể đăng nhập, nếu không, bạn có thể sử dụng [hướng dẫn của chúng tôi để tạo một tài khoản mới](https://planb.network/tutorials/others/create-github-account).
+https://planb.network/tutorials/others/basics-of-github
+
+
+
+- Để bắt đầu, rõ ràng bạn sẽ cần một tài khoản GitHub. Nếu bạn đã có một, bạn có thể đăng nhập, nếu không, bạn có thể sử dụng hướng dẫn của chúng tôi để tạo một tài khoản mới.
+
+https://planb.network/tutorials/others/create-github-account
+
+
 
 ## Bước 1: Cài đặt GitHub Desktop
 
@@ -37,7 +45,7 @@ Có rất nhiều phần mềm chuyên dụng để chỉnh sửa các tệp Mar
 
 ## Bước 3: Fork kho lưu trữ PlanB Network
 
-- Truy cập vào kho dữ liệu PlanB Network tại địa chỉ sau: [https://github.com/DecouvreBitcoin/sovereign-university-data](https://github.com/DecouvreBitcoin/sovereign-university-data): ![github-desktop](assets/10.webp)
+- Truy cập vào kho dữ liệu PlanB Network tại địa chỉ sau: [https://github.com/PlanB-Network/bitcoin-educational-content](https://github.com/PlanB-Network/bitcoin-educational-content): ![github-desktop](assets/10.webp)
 - Từ trang này, nhấp vào nút `Fork` ở góc trên bên phải của cửa sổ: ![github-desktop](assets/11.webp)
 - Trong menu tạo mới, bạn có thể để nguyên cài đặt mặc định. Đảm bảo rằng ô `Copy the dev branch only` đã được chọn, sau đó nhấp vào nút `Create fork`: ![github-desktop](assets/12.webp)
 - Bạn sẽ đến với fork của riêng mình của kho lưu trữ PlanB Network: ![github-desktop](assets/13.webp)
@@ -87,4 +95,8 @@ Ví dụ, khi tạo một hướng dẫn mới, bạn sẽ cần tạo một t�
 
 Đối với việc này, có một số lựa chọn có sẵn cho bạn. Mặc dù notepad chuẩn của máy tính bạn có thể được sử dụng cho những sửa đổi này, giải pháp này không lý tưởng cho công việc gọn gàng. Tôi khuyên bạn nên chọn phần mềm được thiết kế đặc biệt cho mục đích này, như [VS Code](https://code.visualstudio.com/download) hoặc [Sublime Text](https://www.sublimetext.com/download). Sublime Text, với tính năng nhẹ nhàng đặc biệt, sẽ hơn là đủ cho nhu cầu của chúng ta.
 - Cài đặt một trong những phần mềm này, và giữ nó sang một bên cho những sửa đổi tương lai của bạn. ![github-desktop](assets/26.webp)
-Xin chúc mừng! Môi trường làm việc của bạn giờ đây đã được thiết lập để đóng góp cho PlanB Network. Bạn giờ đây có thể khám phá [các hướng dẫn cụ thể khác của chúng tôi](https://planb.network/tutorials/others) cho từng loại đóng góp (dịch thuật, hiệu đính, viết...).
+Xin chúc mừng! Môi trường làm việc của bạn giờ đây đã được thiết lập để đóng góp cho PlanB Network. Bạn giờ đây có thể khám phá các hướng dẫn cụ thể khác của chúng tôi cho từng loại đóng góp (dịch thuật, hiệu đính, viết.
+
+https://planb.network/tutorials/others
+
+..).

@@ -25,7 +25,7 @@ Für die Erstellung Ihrer Wiederherstellungsphrase von Hand benötigen Sie:
 - Ein Blatt Papier;
 - Einen Stift oder Bleistift, idealerweise in verschiedenen Farben, um die Organisation zu erleichtern;
 - Mehrere Würfel, um das Risiko von Verzerrungen durch einen unausgewogenen Würfel zu minimieren;
-- [Die Liste der 2048 BIP39-Wörter](https://github.com/DecouvreBitcoin/sovereign-university-data/tree/dev/tutorials/others/generate-mnemonic-phrase/assets/BIP39-WORDLIST.pdf) ausgedruckt.
+- [Die Liste der 2048 BIP39-Wörter](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/tutorials/others/generate-mnemonic-phrase/assets/BIP39-WORDLIST.pdf) ausgedruckt.
 
 Anschließend wird die Verwendung eines Computers mit einem Terminal für die Berechnung der Prüfsumme notwendig. Genau aus diesem Grund rate ich von der manuellen Generierung der Mnemonic-Phrase ab. Meiner Meinung nach erhöht der Einsatz eines Computers, selbst unter den in diesem Tutorial genannten Vorsichtsmaßnahmen, die Verwundbarkeit einer Wallet erheblich.
 Für einen experimentellen Ansatz bezüglich einer "fiktiven Geldbörse" ist es möglich, Ihren üblichen Computer und dessen Terminal zu verwenden. Für einen rigoroseren Ansatz, der darauf abzielt, die Risiken einer Kompromittierung Ihrer Phrase zu begrenzen, wäre es ideal, einen PC zu verwenden, der vom Internet getrennt ist (vorzugsweise ohne eine WLAN-Komponente oder RJ45-Kabelverbindung), ausgestattet mit dem Minimum an Peripheriegeräten (alle sollten per Kabel angeschlossen sein, um Bluetooth zu vermeiden), und vor allem, der auf einer amnesischen Linux-Distribution wie [Tails](https://tails.boum.org/index.fr.html) läuft, gestartet von einem entfernbaren Medium.
@@ -59,7 +59,7 @@ Jedes dieser Pakete stellt eine Zahl in Binär dar, die dann in eine Dezimalzahl
 
 ![mnemonic](assets/notext/5.webp)
 
-Schließlich teilt uns die Zahl in Dezimal die Position des entsprechenden Wortes in [der Liste der 2048 BIP39-Wörter](https://github.com/DecouvreBitcoin/sovereign-university-data/tree/dev/tutorials/others/generate-mnemonic-phrase/assets/BIP39-WORDLIST.pdf) mit. Es bleibt nur noch, diese Wörter auszuwählen, um die Wiederherstellungsphrase für unsere Wallet zu komponieren.
+Schließlich teilt uns die Zahl in Dezimal die Position des entsprechenden Wortes in [der Liste der 2048 BIP39-Wörter](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/tutorials/others/generate-mnemonic-phrase/assets/BIP39-WORDLIST.pdf) mit. Es bleibt nur noch, diese Wörter auszuwählen, um die Wiederherstellungsphrase für unsere Wallet zu komponieren.
 
 ![mnemonic](assets/notext/6.webp)
 
@@ -206,7 +206,7 @@ Mit den erhaltenen Dezimalzahlen können wir nun die entsprechenden Wörter in d
 
 ![mnemonic](assets/notext/24.webp)
 Nach dieser Anpassung haben Sie den Rang jedes Wortes innerhalb der Liste. Alles, was bleibt, ist, jedes Wort durch seine Nummer zu identifizieren. Offensichtlich, wie bei allen anderen Schritten, dürfen Sie Ihren Computer nicht verwenden, um diese Umwandlung durchzuführen. Stellen Sie daher sicher, dass Sie die Liste vorher ausgedruckt haben.
-[**-> Drucken Sie die BIP39-Liste im A4-Format aus.**](https://github.com/DecouvreBitcoin/sovereign-university-data/tree/dev/tutorials/others/generate-mnemonic-phrase/assets/BIP39-WORDLIST.pdf)
+[**-> Drucken Sie die BIP39-Liste im A4-Format aus.**](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/tutorials/others/generate-mnemonic-phrase/assets/BIP39-WORDLIST.pdf)
 
 Zum Beispiel, wenn die aus der ersten Zeile abgeleitete Nummer 1721 ist, wird das entsprechende Wort das 1721. auf der Liste sein:
 ```plaintext

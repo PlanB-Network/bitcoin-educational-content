@@ -10,9 +10,17 @@ Si deseas contribuir a la Red PlanB, necesitarás usar GitHub para proponer camb
 - **Contribuir directamente a través de la interfaz web de GitHub**: Este es el método más simple. Si eres principiante o si planeas hacer solo unas pocas contribuciones menores, esta opción es probablemente la mejor para ti;
 - **Contribuir localmente usando Git**: Este método es más adecuado si planeas hacer contribuciones regulares o significativas a la Red PlanB. Aunque configurar tu entorno local de Git en tu computadora puede parecer complejo al principio, este enfoque es más eficiente a largo plazo. Permite una gestión más flexible de los cambios. Si eres nuevo en esto, no te preocupes, **explicamos todo el proceso de configuración de tu entorno en este tutorial** (prometemos que no necesitarás escribir ninguna línea de comando ^^).
 
-Si no tienes idea de qué es GitHub, o si quieres aprender más sobre los términos técnicos relacionados con Git y GitHub, te recomiendo [leer nuestro artículo introductorio para familiarizarte con estos conceptos](https://planb.network/tutorials/others/basics-of-github).
+Si no tienes idea de qué es GitHub, o si quieres aprender más sobre los términos técnicos relacionados con Git y GitHub, te recomiendo leer nuestro artículo introductorio para familiarizarte con estos conceptos.
 
-- Para comenzar, obviamente necesitarás una cuenta de GitHub. Si ya tienes una, puedes iniciar sesión, de lo contrario, puedes usar [nuestro tutorial para crear una nueva](https://planb.network/tutorials/others/create-github-account).
+https://planb.network/tutorials/others/basics-of-github
+
+
+
+- Para comenzar, obviamente necesitarás una cuenta de GitHub. Si ya tienes una, puedes iniciar sesión, de lo contrario, puedes usar nuestro tutorial para crear una nueva.
+
+https://planb.network/tutorials/others/create-github-account
+
+
 
 ## Paso 1: Instalar GitHub Desktop
 
@@ -37,7 +45,7 @@ Hay una multitud de software especializado en editar archivos Markdown, como Typ
 
 ## Paso 3: Haz un Fork del repositorio de PlanB Network
 
-- Ve al repositorio de datos de PlanB Network en la siguiente dirección: [https://github.com/DecouvreBitcoin/sovereign-university-data](https://github.com/DecouvreBitcoin/sovereign-university-data): ![github-desktop](assets/10.webp)
+- Ve al repositorio de datos de PlanB Network en la siguiente dirección: [https://github.com/PlanB-Network/bitcoin-educational-content](https://github.com/PlanB-Network/bitcoin-educational-content): ![github-desktop](assets/10.webp)
 - Desde esta página, haz clic en el botón `Fork` en la parte superior derecha de la ventana: ![github-desktop](assets/11.webp)
 - En el menú de creación, puedes dejar la configuración predeterminada. Asegúrate de que la casilla `Copy the dev branch only` esté marcada, luego haz clic en el botón `Create fork`: ![github-desktop](assets/12.webp)
 - Luego llegarás a tu propio fork del repositorio de PlanB Network: ![github-desktop](assets/13.webp)
@@ -86,4 +94,8 @@ Por ejemplo, al crear un nuevo tutorial, necesitarás crear un archivo YAML (`.y
 
 Para esto, tienes varias opciones disponibles. Aunque el bloc de notas estándar de tu computadora puede ser utilizado para estas modificaciones, esta solución no es ideal para un trabajo pulcro. Recomiendo elegir un software específicamente diseñado para este propósito, como [VS Code](https://code.visualstudio.com/download) o [Sublime Text](https://www.sublimetext.com/download). Sublime Text, al ser particularmente ligero, será más que suficiente para nuestras necesidades.
 - Instala uno de estos programas de software, y mantenlo a un lado para tus futuras modificaciones. ![github-desktop](assets/26.webp)
-¡Felicidades! Tu entorno de trabajo ahora está configurado para contribuir a PlanB Network. Ahora puedes explorar [nuestros otros tutoriales específicos](https://planb.network/tutorials/others) para cada tipo de contribución (traducción, corrección de pruebas, escritura...).
+¡Felicidades! Tu entorno de trabajo ahora está configurado para contribuir a PlanB Network. Ahora puedes explorar nuestros otros tutoriales específicos para cada tipo de contribución (traducción, corrección de pruebas, escritura.
+
+https://planb.network/tutorials/others
+
+..).

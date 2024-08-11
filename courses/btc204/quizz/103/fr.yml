@@ -1,0 +1,13 @@
+question: Comment est calculée l'efficacité d'une transaction Bitcoin en termes de confidentialité ?
+
+answer: En comparant l'entropie réelle de la transaction à l'entropie maximale possible.
+
+wrong_answers:
+  - En multipliant le nombre d'inputs par le nombre d'outputs.
+  - En multipliant l'entropie réelle de la transaction par le nombre d'inputs et d'outputs.
+  - En comparant le nombre d'inputs par le nombre d'outputs.
+
+explanation: |
+  L'efficacité de la transaction est calculée en soustrayant l'entropie maximale à l'entropie réelle de la transaction analysée.
+
+reviewed: false

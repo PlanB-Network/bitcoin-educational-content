@@ -22,14 +22,14 @@ Pour contribuer à PlanB Network, vous avez 3 options selon votre niveau d'expé
 ![tutorial](assets/1.webp)
 **Prérequis avant de commencer le tutoriel :**
 - Avoir un [compte GitHub](https://github.com/signup).
-- Avoir un fork du [dépôt source de PlanB Network](https://github.com/DecouvreBitcoin/sovereign-university-data).
+- Avoir un fork du [dépôt source de PlanB Network](https://github.com/PlanB-Network/bitcoin-educational-content).
 - Avoir [un profil de professeur sur PlanB Network](https://planb.network/professors) (uniquement si vous proposez un tutoriel complet).
 
 **Si vous avez besoin d'aide pour obtenir ces prérequis, mes autres tutoriels vous guideront :**
-- **[Comprendre Git et GitHub](https://planb.network/tutorials/others/basics-of-github)**
-- **[Créer un compte GitHub](https://planb.network/tutorials/others/create-github-account)**
-- **[Configurer votre environnement de travail](https://planb.network/tutorials/others/github-desktop-work-environment)**
-- **[Créer un profil de professeur](https://planb.network/tutorials/others/create-teacher-profile)**
+**[Comprendre Git et GitHub](https://planb.network/tutorials/others/basics-of-github)**
+**[Créer un compte GitHub](https://planb.network/tutorials/others/create-github-account)**
+**[Configurer votre environnement de travail](https://planb.network/tutorials/others/github-desktop-work-environment)**
+**[Créer un profil de professeur](https://planb.network/tutorials/others/create-teacher-profile)**
 
 ## Quel type de contenu rédiger sur PlanB Network ?
 

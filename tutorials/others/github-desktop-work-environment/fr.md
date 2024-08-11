@@ -10,9 +10,17 @@ Si vous désirez apporter votre pierre à l'édifice PlanB Network, vous allez a
 - **Contribuer directement via l'interface web de GitHub** : C'est la méthode la plus simple. Si vous êtes débutant ou si vous prévoyez de faire seulement quelques contributions mineures, cette option est sûrement la meilleure pour vous ;
 - **Contribuer en local en utilisant Git** : Cette méthode est plus adaptée si vous envisagez de faire des contributions régulières ou importantes pour PlanB Network. Bien que l'installation de votre environnement Git en local sur votre ordinateur puisse sembler complexe au début, cette approche est plus efficace sur le long terme. Elle permet une gestion plus flexible des modifications. Si vous êtes novice en la matière, ne vous inquiétez pas, **nous vous expliquons tout le processus de mise en place de votre environnement dans ce tutoriel** (promis, vous n'aurez pas besoin de taper des lignes de commande ^^).
 
-Si vous ne savez pas du tout ce qu'est GitHub, ou si vous souhaitez en apprendre davantage sur les termes techniques liés à Git et GitHub, je vous recommande de [consulter notre article d'introduction pour vous familiariser avec ces concepts](https://planb.network/tutorials/others/basics-of-github).
+Si vous ne savez pas du tout ce qu'est GitHub, ou si vous souhaitez en apprendre davantage sur les termes techniques liés à Git et GitHub, je vous recommande de consulter notre article d'introduction pour vous familiariser avec ces concepts.
 
-- Pour commencer, vous allez évidemment avoir besoin d'un compte GitHub. Si vous en avez déjà un, vous pouvez vous y connecter, sinon, vous pouvez vous aider de [notre tutoriel pour en créer un nouveau](https://planb.network/tutorials/others/create-github-account).
+https://planb.network/tutorials/others/basics-of-github
+
+
+
+- Pour commencer, vous allez évidemment avoir besoin d'un compte GitHub. Si vous en avez déjà un, vous pouvez vous y connecter, sinon, vous pouvez vous aider de notre tutoriel pour en créer un nouveau.
+
+https://planb.network/tutorials/others/create-github-account
+
+
 
 ## Étape 1 : Installer GitHub Desktop
 
@@ -44,7 +52,7 @@ Il existe une multitude de logiciels spécialisés dans l'édition de fichiers M
 
 ## Étape 3 : Fork le dépôt de PlanB Network
 
-- Rendez-vous sur le dépôt des données de PlanB Network à l'adresse suivante : [https://github.com/DecouvreBitcoin/sovereign-university-data](https://github.com/DecouvreBitcoin/sovereign-university-data) :
+- Rendez-vous sur le dépôt des données de PlanB Network à l'adresse suivante : [https://github.com/PlanB-Network/bitcoin-educational-content](https://github.com/PlanB-Network/bitcoin-educational-content) :
 ![github-desktop](assets/10.webp)
 - Depuis cette page, cliquez sur le bouton `Fork` en haut à droite de la fenêtre :
 ![github-desktop](assets/11.webp)
@@ -105,4 +113,8 @@ Pour cela, plusieurs options s'offrent à vous. Bien que le bloc-notes standard 
 
 - Installez un de ces logiciels, et gardez-le de côté pour vos futures modifications.
 ![github-desktop](assets/26.webp)
-Félicitations ! Votre environnement de travail est maintenant configuré pour contribuer à PlanB Network. Vous pouvez maintenant découvrir [nos autres tutoriels spécifiques](https://planb.network/tutorials/others) pour chaque type de contribution (traduction, correction, rédaction...).
+Félicitations ! Votre environnement de travail est maintenant configuré pour contribuer à PlanB Network. Vous pouvez maintenant découvrir nos autres tutoriels spécifiques pour chaque type de contribution (traduction, correction, rédaction.
+
+https://planb.network/tutorials/others
+
+..).

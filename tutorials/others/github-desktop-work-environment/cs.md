@@ -10,9 +10,17 @@ Pokud si přejete přispět do sítě PlanB, budete potřebovat použít GitHub 
 - **Přímo přispět prostřednictvím webového rozhraní GitHubu**: To je nejjednodušší metoda. Pokud jste začátečník nebo plánujete udělat jen několik malých příspěvků, tato možnost je pravděpodobně pro vás nejlepší;
 - **Přispívat lokálně pomocí Gitu**: Tato metoda je vhodnější, pokud plánujete pravidelně nebo významně přispívat do sítě PlanB. I když se na první pohled může zdát nastavení vašeho lokálního Git prostředí na počítači složité, tento přístup je na dlouhou trať efektivnější. Umožňuje flexibilnější správu změn. Pokud jste v tomto noví, nebojte se, **v tomto tutoriálu vysvětlujeme celý proces nastavení vašeho prostředí** (slíbíme, že nebudete muset psát žádné příkazové řádky ^^).
 
-Pokud nevíte, co je GitHub, nebo pokud se chcete dozvědět více o technických termínech souvisejících s Gitem a GitHubem, doporučuji vám [přečíst náš úvodní článek, abyste se seznámili s těmito koncepty](https://planb.network/tutorials/others/basics-of-github).
+Pokud nevíte, co je GitHub, nebo pokud se chcete dozvědět více o technických termínech souvisejících s Gitem a GitHubem, doporučuji vám přečíst náš úvodní článek, abyste se seznámili s těmito koncepty.
 
-- Začněte tím, že budete samozřejmě potřebovat účet na GitHubu. Pokud už jeden máte, můžete se přihlásit, jinak můžete použít [náš tutoriál k vytvoření nového](https://planb.network/tutorials/others/create-github-account).
+https://planb.network/tutorials/others/basics-of-github
+
+
+
+- Začněte tím, že budete samozřejmě potřebovat účet na GitHubu. Pokud už jeden máte, můžete se přihlásit, jinak můžete použít náš tutoriál k vytvoření nového.
+
+https://planb.network/tutorials/others/create-github-account
+
+
 
 ## Krok 1: Instalace GitHub Desktop
 
@@ -37,7 +45,7 @@ Existuje mnoho softwarů specializovaných na úpravu souborů Markdown, jako je
 
 ## Krok 3: Forkněte repozitář PlanB Network
 
-- Přejděte na datový repozitář PlanB Network na následující adrese: [https://github.com/DecouvreBitcoin/sovereign-university-data](https://github.com/DecouvreBitcoin/sovereign-university-data): ![github-desktop](assets/10.webp)
+- Přejděte na datový repozitář PlanB Network na následující adrese: [https://github.com/PlanB-Network/bitcoin-educational-content](https://github.com/PlanB-Network/bitcoin-educational-content): ![github-desktop](assets/10.webp)
 - Na této stránce klikněte na tlačítko `Fork` v pravém horním rohu okna: ![github-desktop](assets/11.webp)
 - V menu vytváření můžete ponechat výchozí nastavení. Ujistěte se, že je zaškrtnuto políčko `Copy the dev branch only`, a poté klikněte na tlačítko `Create fork`: ![github-desktop](assets/12.webp)
 - Poté se dostanete na vlastní fork repozitáře PlanB Network: ![github-desktop](assets/13.webp)
@@ -86,4 +94,8 @@ Například při vytváření nového tutoriálu budete muset vytvořit soubor Y
 
 Pro tento účel máte k dispozici několik možností. Ačkoliv standardní poznámkový blok vašeho počítače lze pro tyto úpravy použít, toto řešení není ideální pro precizní práci. Doporučuji vybrat software speciálně navržený pro tento účel, jako je [VS Code](https://code.visualstudio.com/download) nebo [Sublime Text](https://www.sublimetext.com/download). Sublime Text, který je obzvláště lehký, bude pro naše potřeby více než dostačující.
 - Nainstalujte jeden z těchto programů a nechte ho stranou pro vaše budoucí úpravy. ![github-desktop](assets/26.webp)
-Gratulujeme! Vaše pracovní prostředí je nyní připraveno k přispívání do PlanB Network. Nyní můžete prozkoumat [naše další specifické tutoriály](https://planb.network/tutorials/others) pro každý typ příspěvku (překlad, korektury, psaní...).
+Gratulujeme! Vaše pracovní prostředí je nyní připraveno k přispívání do PlanB Network. Nyní můžete prozkoumat naše další specifické tutoriály pro každý typ příspěvku (překlad, korektury, psaní.
+
+https://planb.network/tutorials/others
+
+..).

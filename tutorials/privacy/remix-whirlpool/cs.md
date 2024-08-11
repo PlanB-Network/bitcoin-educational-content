@@ -46,7 +46,9 @@ Ukazuje retrospektivní skóre `34,593` a budoucí skóre `45,202`. Konkrétně 
 - Pokud analytik zná mou minci na začátku cyklů a pokusí se určit její korespondenci na konci, bude čelit `45,202` možným UTXO, každé s tou samou pravděpodobností, že je moje.
 To je důvod, proč považuji použití Whirlpoolu za zvláště relevantní v strategii `Hodl -> Mix -> Spend -> Replace`. Podle mého názoru je nejlogičtější přístup udržovat většinu úspor v bitcoinech v cold peněžence, zatímco neustále udržovat určitý počet mincí v coinjoinu na Samourai pro pokrytí denních výdajů. Jakmile jsou bitcoiny z coinjoinů utraceny, jsou nahrazeny novými, aby se vrátily na definovanou hranici smíšených mincí. Tato metoda nám umožňuje osvobodit se od starostí o anonsety našich UTXO, zatímco činí čas potřebný pro účinnost coinjoinů mnohem méně restriktivním.
 
-Doufám, že tato odpověď osvětlila model Whirlpool. Pokud se chcete dozvědět více o tom, jak coinjoiny fungují na Bitcoinu, doporučuji přečíst [můj podrobný článek na toto téma](https://planb.network/tutorials/privacy/coinjoin-dojo).
+Doufám, že tato odpověď osvětlila model Whirlpool. Pokud se chcete dozvědět více o tom, jak coinjoiny fungují na Bitcoinu, doporučuji přečíst můj podrobný článek na toto téma :
+
+https://planb.network/tutorials/privacy/coinjoin-dojo
 
 **Externí zdroje:**
 - Samourai Wallet Whirlpool

@@ -1,0 +1,13 @@
+question: Comment est calculée l'entropie dans le contexte de l'analyse de chaîne sur Bitcoin ?
+
+answer: En prenant le logarithme binaire du nombre d'interprétations.
+
+wrong_answers:
+  - En multipliant le nombre d'inputs par le nombre d'outputs.
+  - En additionnant le nombre d'inputs et d'outputs.
+  - En prenant le logarithme binaire du nombre d'inputs et d'outputs.
+
+explanation: |
+  L'entropie est définie comme le logarithme binaire du nombre de combinaisons possibles.
+
+reviewed: false

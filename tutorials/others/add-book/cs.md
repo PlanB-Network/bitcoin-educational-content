@@ -8,7 +8,11 @@ Mise PlanB je poskytovat špičkové vzdělávací zdroje o Bitcoinu v co nejví
 
 **Chcete přidat knihu související s Bitcoinem na web síť PlanB a zvýšit viditelnost vaší práce, ale nevíte jak? Tento tutoriál je pro vás!**
 ![book](assets/01.webp)
-- Nejprve potřebujete mít účet na GitHubu. Pokud nevíte, jak vytvořit účet, připravili jsme [podrobný tutoriál, který vás provede](https://planb.network/tutorials/others/create-github-account).
+- Nejprve potřebujete mít účet na GitHubu. Pokud nevíte, jak vytvořit účet, připravili jsme podrobný tutoriál, který vás provede.
+
+https://planb.network/tutorials/others/create-github-account
+
+
 - Přejděte na [GitHubový repozitář PlanB věnovaný datům](https://github.com/DecouvreBitcoin/sovereign-university-data/tree/dev/resources/books) v sekci `resources/books/`:
 ![book](assets/02.webp)
 - Klikněte vpravo nahoře na tlačítko `Add file`, poté na `Create new file`:

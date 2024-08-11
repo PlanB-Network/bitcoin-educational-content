@@ -8,7 +8,11 @@ PlanB's mission is to provide top-tier educational resources on Bitcoin, in as m
 
 Do you want to add a new Bitcoin "builder" to the PlanB Network site and give visibility to your company or software, but don't know how? This tutorial is for you!
 ![builder](assets/01.webp)
-- First, you need to have a GitHub account. If you don't know how to create an account, we have made [a detailed tutorial to guide you](https://planb.network/tutorials/others/create-github-account).
+- First, you need to have a GitHub account. If you don't know how to create an account, we have made a detailed tutorial to guide you.
+
+https://planb.network/tutorials/others/create-github-account
+
+
 - Go to [the GitHub repository of PlanB dedicated to data](https://github.com/DecouvreBitcoin/sovereign-university-data/tree/dev/resources/builders) in the `resources/builder/` section:
 ![builder](assets/02.webp)
 - Click on the top right on the `Add file` button, then on `Create new file`:

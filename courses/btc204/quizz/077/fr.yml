@@ -1,0 +1,13 @@
+question: Quelle est la différence principale entre un coinjoin et un mélangeur custodial ?
+
+answer: Le coinjoin permet de garder le contrôle total sur ses fonds.
+
+wrong_answers:
+  - Le coinjoin nécessite la cession temporaire de la garde des fonds.
+  - Les mélangeurs sont plus sûrs que les coinjoins.
+  - Les mélangeurs fournissent un mixage de meilleure qualité.
+
+explanation: |
+  Le principal inconvénient des mélangeurs par rapport aux coinjoins et qu'ils requièrent que l'utilisateur cède la garde de ses fonds durant le processus de mélange, ce qui expose à des risques de vol.
+
+reviewed: false

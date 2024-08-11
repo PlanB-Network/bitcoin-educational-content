@@ -8,7 +8,11 @@ PlanB:n tehtävänä on tarjota huipputason koulutusresursseja Bitcoinista mahdo
 
 **Haluatko lisätä Bitcoin-aiheisen kirjan PlanB-verkon sivustolle ja lisätä työsi näkyvyyttä, mutta et tiedä miten? Tämä opas on sinua varten!**
 ![kirja](assets/01.webp)
-- Ensimmäiseksi sinun tarvitsee olla GitHub-tili. Jos et tiedä, miten tili luodaan, olemme tehneet [yksityiskohtaisen oppaan sinua varten](https://planb.network/tutorials/others/create-github-account).
+- Ensimmäiseksi sinun tarvitsee olla GitHub-tili. Jos et tiedä, miten tili luodaan, olemme tehneet yksityiskohtaisen oppaan sinua varten.
+
+https://planb.network/tutorials/others/create-github-account
+
+
 - Mene [PlanB:n GitHub-repositorioon, joka on omistettu datalle](https://github.com/DecouvreBitcoin/sovereign-university-data/tree/dev/resources/books) osiossa `resources/books/`:
 ![kirja](assets/02.webp)
 - Klikkaa oikeassa yläkulmassa `Add file` -nappia, sitten `Create new file`:

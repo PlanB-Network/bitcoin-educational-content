@@ -174,7 +174,7 @@ Používání Sparrow má tu výhodu, že je poměrně snadné začít, rychle s
 ### Instalace Sparrow Wallet
 Začněte tím, že samozřejmě budete potřebovat software Sparrow Wallet. Můžete ho přímo stáhnout z [oficiálních stránek](https://sparrowwallet.com/download/) nebo na [jejich GitHubu](https://github.com/sparrowwallet/sparrow/releases).
 
-Před instalací softwaru bude důležité ověřit podpis a integritu staženého spustitelného souboru. Pokud chcete více informací o procesu instalace a ověření softwaru Sparrow, doporučuji si přečíst tento další tutoriál: *[The Sparrow Wallet Guides](https://planb.network/tutorials/wallet/sparrow)*.
+Před instalací softwaru bude důležité ověřit podpis a integritu staženého spustitelného souboru. Pokud chcete více informací o procesu instalace a ověření softwaru Sparrow, doporučuji si přečíst tento další tutoriál: *[The Sparrow Wallet Guides](https://planb.network/tutorials/wallet/sparrow)*
 
 ### Vytvoření softwarové peněženky
 Po instalaci softwaru budete muset pokračovat ve vytvoření Bitcoin peněženky. Je důležité poznamenat, že pro účast na coinjoinech je nezbytné použití softwarové peněženky (také nazývané "hot wallet"). Proto **nebude možné provádět coinjoiny s peněženkou zabezpečenou hardware peněženkou**.
@@ -307,7 +307,7 @@ Otevře se okno, začněte výběrem cílové peněženky ze seznamu.
 
 ![sparrow](assets/notext/37.webp)
 
-Vyberte práh coinjoinu, po jehož překročení bude výběr proveden automaticky. Nemohu vám dát přesný počet remixů k provedení, protože to se liší podle vaší osobní situace a cílů soukromí, ale vyhněte se výběru příliš nízkého prahu. Doporučuji se poradit s tímto dalším článkem, abyste se dozvěděli více o procesu remixování: [REMIX - WHIRLPOOL](https://planb.network/tutorials/privacy/remix-whirlpool).
+Vyberte práh coinjoinu, po jehož překročení bude výběr proveden automaticky. Nemohu vám dát přesný počet remixů k provedení, protože to se liší podle vaší osobní situace a cílů soukromí, ale vyhněte se výběru příliš nízkého prahu. Doporučuji se poradit s tímto dalším článkem, abyste se dozvěděli více o procesu remixování: [REMIX - WHIRLPOOL](https://planb.network/tutorials/privacy/remix-whirlpool)
 
 Možnost `Rozsah indexu` můžete nechat na její výchozí hodnotě, `Plný`. Tato funkce umožňuje míchání současně z různých klientů, ale to není to, co chceme v tomto tutoriálu dělat. Pro dokončení a aktivaci možnosti `Mix do...` stiskněte `Restartovat Whirlpool`.
 
@@ -316,7 +316,7 @@ Možnost `Rozsah indexu` můžete nechat na její výchozí hodnotě, `Plný`. T
 Buďte však opatrní při používání možnosti `Mix do`, protože odstranění smíchaných mincí z vašeho účtu `Postmix` může výrazně zvýšit riziko ohrožení vašeho soukromí. Důvody pro tuto možnost jsou podrobně popsány v následujících sekcích.
 
 ## Jak poznat kvalitu našich cyklů coinjoin?
-Aby byl coinjoin skutečně účinný, je zásadní, aby prezentoval dobrou homogenitu mezi množstvím vstupů a výstupů. Tato uniformita zvyšuje počet možných interpretací v očích vnějšího pozorovatele, čímž se zvyšuje nejistota kolem transakce. Pro kvantifikaci této nejistoty generované coinjoinem lze využít výpočet entropie transakce. Pro hlubší průzkum těchto ukazatelů vás odkazuji na tutoriál: [BOLTZMANN CALCULATOR](https://planb.network/en/tutorials/privacy/boltzmann-entropy). Model Whirlpool je uznáván jako ten, který přináší největší homogenitu v coinjoinech. Dále je hodnocen výkon několika cyklů coinjoin na základě velikosti skupin, ve kterých je mince skryta. Velikost těchto skupin definuje to, co se nazývá anonsety. Existují dva typy anonsetů: první hodnotí získané soukromí proti retrospektivní analýze (od současnosti do minulosti) a druhý, proti prospektivní analýze (od minulosti do současnosti). Pro podrobné vysvětlení těchto dvou ukazatelů vás zvu, abyste si přečetli tutoriál: [WHIRLPOOL STATS TOOLS - ANONSETY](https://planb.network/tutorials/privacy/wst-anonsets).
+Aby byl coinjoin skutečně účinný, je zásadní, aby prezentoval dobrou homogenitu mezi množstvím vstupů a výstupů. Tato uniformita zvyšuje počet možných interpretací v očích vnějšího pozorovatele, čímž se zvyšuje nejistota kolem transakce. Pro kvantifikaci této nejistoty generované coinjoinem lze využít výpočet entropie transakce. Pro hlubší průzkum těchto ukazatelů vás odkazuji na tutoriál: [BOLTZMANN CALCULATOR](https://planb.network/en/tutorials/privacy/boltzmann-entropy). Model Whirlpool je uznáván jako ten, který přináší největší homogenitu v coinjoinech. Dále je hodnocen výkon několika cyklů coinjoin na základě velikosti skupin, ve kterých je mince skryta. Velikost těchto skupin definuje to, co se nazývá anonsety. Existují dva typy anonsetů: první hodnotí získané soukromí proti retrospektivní analýze (od současnosti do minulosti) a druhý, proti prospektivní analýze (od minulosti do současnosti). Pro podrobné vysvětlení těchto dvou ukazatelů vás zvu, abyste si přečetli tutoriál: [WHIRLPOOL STATS TOOLS - ANONSETY](https://planb.network/tutorials/privacy/wst-anonsets)
 
 ## Jak spravovat postmix?
 Po provedení cyklů coinjoin je nejlepší strategií uchovávat vaše UTXO na účtu **postmix**, čekajíc na jejich budoucí použití. Je dokonce doporučeno nechat je remixovat nekonečně, dokud je nepotřebujete utratit.
@@ -341,8 +341,8 @@ Dále je třeba být opatrný při správě doxxic změny, změny, která nemohl
 Podrobné tutoriály k implementaci těchto různých technik budou brzy nabízeny na PlanB Network.
 
 **Další zdroje:**
-- [Video tutoriál Sparrow Wallet](https://planb.network/tutorials/wallet/sparrow);
-- [Video tutoriál Samourai Wallet](https://planb.network/tutorials/wallet/samourai);
+[Video tutoriál Sparrow Wallet](https://planb.network/tutorials/wallet/sparrow)
+[Video tutoriál Samourai Wallet](https://planb.network/tutorials/wallet/samourai)
 - [Dokumentace Samourai Wallet - Whirlpool](https://docs.samourai.io/whirlpool/basic-concepts);
 - [Twitter vlákno o CoinJoins](https://twitter.com/SamouraiWallet/status/1489220847336308739);
 - [Blogový příspěvek o CoinJoins](https://www.pandul.fr/post/comprendre-et-utiliser-le-coinjoin-sur-bitcoin).

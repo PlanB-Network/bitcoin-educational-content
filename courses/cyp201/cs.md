@@ -1,5 +1,5 @@
 ---
-name: Úvod do kryptografie Bitcoinu
+name: Úvod do kryptografických algoritmů Bitcoinu
 goal: Porozumět vytváření Bitcoinové peněženky z kryptografické perspektivy
 objectives:
   - Odhalit kryptografickou terminologii související s Bitcoinem.

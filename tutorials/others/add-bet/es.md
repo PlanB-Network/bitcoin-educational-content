@@ -12,7 +12,11 @@ Más allá de tutoriales y formación, PlanB Network también ofrece una vasta b
 
 *Es imperativo que todo el contenido integrado en el sitio esté libre de derechos o respete la licencia del archivo fuente. Además, todos los visuales publicados en PlanB Network están disponibles bajo la licencia [CC-BY-SA](https://creativecommons.org/licenses/by-sa/4.0/).*
 ![event](assets/01.webp)
-- Primero, necesitas tener una cuenta en GitHub. Si no sabes cómo crear una cuenta, hemos hecho [un tutorial detallado para guiarte](https://planb.network/tutorials/others/create-github-account).
+- Primero, necesitas tener una cuenta en GitHub. Si no sabes cómo crear una cuenta, hemos hecho un tutorial detallado para guiarte.
+
+https://planb.network/tutorials/others/create-github-account
+
+
 - Ve al [repositorio de GitHub de PlanB dedicado a datos](https://github.com/DecouvreBitcoin/sovereign-university-data/tree/dev/resources/bet) en la sección `resources/bet/`:
 ![event](assets/02.webp)
 - Haz clic en la parte superior derecha en el botón `Add file`, luego en `Create new file`:
@@ -41,7 +45,11 @@ tags:
 contributors:
   - 
 ```
-- **`builder`**: Indica el identificador de tu organización en la Red PlanB. Si aún no tienes un identificador de "constructor" para tu empresa, puedes crear uno [siguiendo este tutorial](https://planb.network/tutorials/others/add-builder). Si no tienes uno, puedes simplemente usar tu nombre, tu pseudónimo o el nombre de tu empresa sin haber creado un perfil de constructor.
+- **`builder`**: Indica el identificador de tu organización en la Red PlanB. Si aún no tienes un identificador de "constructor" para tu empresa, puedes crear uno siguiendo este tutorial.
+
+https://planb.network/tutorials/others/add-builder
+
+ Si no tienes uno, puedes simplemente usar tu nombre, tu pseudónimo o el nombre de tu empresa sin haber creado un perfil de constructor.
 - **`type`**: Selecciona la naturaleza de tu contenido entre las siguientes dos opciones:
 	- `Educational Content` para contenidos educativos.
 	- `Visual Content` para otros tipos de contenidos diversos.

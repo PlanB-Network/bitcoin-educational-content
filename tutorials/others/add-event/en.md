@@ -8,7 +8,11 @@ PlanB's mission is to provide top-tier educational resources on Bitcoin in as ma
 
 If you want to add a Bitcoin conference to the PlanB Network site and increase visibility for your event, but don't know how? This tutorial is for you!
 ![event](assets/01.webp)
-- First, you need to have an account on GitHub. If you don't know how to create an account, we have made [a detailed tutorial to guide you](https://planb.network/tutorials/others/create-github-account).
+- First, you need to have an account on GitHub. If you don't know how to create an account, we have made a detailed tutorial to guide you.
+
+https://planb.network/tutorials/others/create-github-account
+
+
 - Go to [the GitHub repository of PlanB dedicated to data](https://github.com/DecouvreBitcoin/sovereign-university-data/tree/dev/resources/conference) in the `resources/conference/` section:
 ![event](assets/02.webp)
 - Click on the top right on the `Add file` button, then on `Create new file`:
@@ -78,7 +82,11 @@ For example, your YAML file could look like this:
     - International
 ```
 ![event](assets/09.webp)
-If you do not yet have a "*builder*" identifier for your organization, you can add it [by following this other tutorial](https://planb.network/tutorials/others/add-builder).
+If you do not yet have a "*builder*" identifier for your organization, you can add it by following this other tutorial.
+
+https://planb.network/tutorials/others/add-builder
+
+
 
 - Once you have finished making changes to this file, save them by clicking on the `Commit changes...` button:
 ![event](assets/10.webp)

@@ -5,7 +5,7 @@ description: Làm thế nào để tham gia đánh giá nội dung giáo dục t
 ![github](assets/cover.webp)
 
 ## TL;DR
-Nếu bạn muốn đánh giá nội dung cho Mạng lưới PlanB, hãy truy cập [trang dự án liên quan](https://github.com/DecouvreBitcoin/sovereign-university-data/projects?query=is%3Aopen) cho ngôn ngữ của bạn. Chọn nội dung bạn muốn đánh giá, bình luận để chúng tôi biết bạn đang nhận nhiệm vụ này, và gửi một PR khi hoàn thành trên nhánh liên quan đến ngôn ngữ.
+Nếu bạn muốn đánh giá nội dung cho Mạng lưới PlanB, hãy truy cập [trang dự án liên quan](https://github.com/PlanB-Network/bitcoin-educational-content/projects?query=is%3Aopen) cho ngôn ngữ của bạn. Chọn nội dung bạn muốn đánh giá, bình luận để chúng tôi biết bạn đang nhận nhiệm vụ này, và gửi một PR khi hoàn thành trên nhánh liên quan đến ngôn ngữ.
 
 Nếu bạn không hiểu phần trên, đừng lo, hướng dẫn này dành cho bạn!
 
@@ -32,19 +32,27 @@ Hơn nữa, vì Découvre Bitcoin (DB) chịu trách nhiệm đánh giá các đ
 Bạn không cần phải là chuyên gia GitHub để đánh giá nội dung.
 Mặc dù luôn tốt hơn khi hiểu bạn đang làm gì (và tại sao), bạn có thể đơn giản theo dõi hướng dẫn dưới đây để đóng góp.
 
-Tuy nhiên, nếu bạn hoàn toàn không quen với cách hoạt động của Git và GitHub và muốn tìm hiểu thêm, bạn có thể khám phá [bài viết giới thiệu của chúng tôi về những công cụ này](https://planb.network/tutorials/others/basics-of-github).
+Tuy nhiên, nếu bạn hoàn toàn không quen với cách hoạt động của Git và GitHub và muốn tìm hiểu thêm, bạn có thể khám phá bài viết giới thiệu của chúng tôi về những công cụ này.
+
+https://planb.network/tutorials/others/basics-of-github
+
+
 
 ## 1. Tạo một tài khoản
-* Tạo một tài khoản trên GitHub để bắt đầu đóng góp. Nếu bạn cần hướng dẫn về cách tạo tài khoản trên GitHub, chúng tôi cũng có [một hướng dẫn chi tiết](https://planb.network/tutorials/others/create-github-account).
+* Tạo một tài khoản trên GitHub để bắt đầu đóng góp. Nếu bạn cần hướng dẫn về cách tạo tài khoản trên GitHub, chúng tôi cũng có một hướng dẫn chi tiết.
+
+https://planb.network/tutorials/others/create-github-account
+
+
 ## **2. Đi tới trang dự án của ngôn ngữ bạn**
-* [Trang dự án](https://github.com/DecouvreBitcoin/sovereign-university-data/projects?query=is%3Aopen) chứa nội dung bằng ngôn ngữ của bạn được hiển thị trên bảng Kanban.
+* [Trang dự án](https://github.com/PlanB-Network/bitcoin-educational-content/projects?query=is%3Aopen) chứa nội dung bằng ngôn ngữ của bạn được hiển thị trên bảng Kanban.
 * Tìm kiếm các thẻ trong cột "Review Needed" (xem **A**). Đây là các vấn đề mà bạn có thể đánh giá.
 * Mỗi thẻ chi tiết (xem **B**):
 	- **Loại Nội Dung**: Khóa học, hướng dẫn, hoặc website
 	- **Độ Khó Nội Dung**
 	- **Độ Khẩn Cấp**
 	- **Số Từ**
-	- **Phần Thưởng Liên Quan**: Dựa trên các thuộc tính nội dung và độ chính xác của bản dịch (xem [mục Phần Thưởng](https://github.com/DecouvreBitcoin/sovereign-university-data?tab=readme-ov-file#sat-reward))
+	- **Phần Thưởng Liên Quan**: Dựa trên các thuộc tính nội dung và độ chính xác của bản dịch (xem [mục Phần Thưởng](https://github.com/PlanB-Network/bitcoin-educational-content?tab=readme-ov-file#sat-reward))
 ![review](assets/1.webp)
 ## **3. Tìm nội dung để đánh giá**
 * Trong cột "Review Needed", nhấp vào một thẻ.

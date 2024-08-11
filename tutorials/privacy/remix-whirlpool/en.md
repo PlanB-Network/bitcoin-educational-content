@@ -48,7 +48,9 @@ It displays a retrospective score of `34,593` and a prospective score of `45,202
 - If an analyst knows my coin at the beginning of the cycles and tries to determine its correspondence at the end, they will be faced with `45,202` possible UTXOs, each with the same probability of being mine.
 That is why I consider the use of Whirlpool to be particularly relevant in a `Hodl -> Mix -> Spend -> Replace` strategy. In my opinion, the most logical approach is to keep the majority of one's savings in bitcoins in a cold wallet, while constantly maintaining a certain number of coins in coinjoin on Samourai to cover daily expenses. Once the bitcoins from the coinjoins are spent, they are replaced with new ones to return to the defined threshold of mixed coins. This method allows us to free ourselves from the concern of the anonsets of our UTXOs, while making the time required for coinjoins to be effective much less restrictive.
 
-I hope this answer has shed some light on the Whirlpool model. If you want to learn more about how coinjoins work on Bitcoin, I recommend reading [my comprehensive article on this topic](https://planb.network/tutorials/privacy/coinjoin-dojo).
+I hope this answer has shed some light on the Whirlpool model. If you want to learn more about how coinjoins work on Bitcoin, I recommend reading my comprehensive article on this topic:
+
+https://planb.network/tutorials/privacy/coinjoin-dojo
 
 **External resources:**
 - Samourai Wallet Whirlpool

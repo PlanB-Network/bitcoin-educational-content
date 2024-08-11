@@ -14,7 +14,11 @@ Trong hướng dẫn này, tôi sẽ chỉ cho bạn cách dễ dàng đóng gó
 
 Tuy nhiên, nếu bạn quan tâm đến việc dịch các phần khác của trang web, không bao gồm nội dung giáo dục, bạn đã đến đúng nơi! Để dịch giao diện hiệu quả, chúng tôi sử dụng công cụ Weblate, giúp tạo điều kiện cho sự hợp tác và tổ chức bản dịch. Đây là một công cụ rất dễ bắt đầu. Hãy cùng đi qua từng bước cách sử dụng Weblate.
 
-Nếu bạn muốn thêm một ngôn ngữ hoàn toàn mới vào Mạng lưới PlanB mà chưa có sẵn trên Weblate, bạn sẽ cần phải đầu tiên gửi yêu cầu thêm vào. Để làm điều này, [theo dõi hướng dẫn cụ thể này](https://planb.network/tutorials/others/add-new-language-weblate).
+Nếu bạn muốn thêm một ngôn ngữ hoàn toàn mới vào Mạng lưới PlanB mà chưa có sẵn trên Weblate, bạn sẽ cần phải đầu tiên gửi yêu cầu thêm vào. Để làm điều này, theo dõi hướng dẫn cụ thể này.
+
+https://planb.network/tutorials/others/add-new-language-weblate
+
+
 
 ## Đăng ký trên Weblate
 

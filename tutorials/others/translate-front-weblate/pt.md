@@ -14,7 +14,11 @@ Para a tradução do conteúdo educacional, usamos [uma abordagem que combina o 
 
 No entanto, se você estiver interessado em traduzir outras seções do site, excluindo o conteúdo educacional, você está no lugar certo! Para traduzir efetivamente o frontend, usamos a ferramenta Weblate, que facilita a colaboração e organiza as traduções. É uma ferramenta muito simples de começar a usar. Vamos passar, passo a passo, como usar o Weblate.
 
-Se você deseja adicionar um idioma completamente novo à Rede PlanB que ainda não está disponível no Weblate, primeiro precisará enviar uma solicitação de adição. Para isso, [siga este tutorial específico](https://planb.network/tutorials/others/add-new-language-weblate).
+Se você deseja adicionar um idioma completamente novo à Rede PlanB que ainda não está disponível no Weblate, primeiro precisará enviar uma solicitação de adição. Para isso, siga este tutorial específico.
+
+https://planb.network/tutorials/others/add-new-language-weblate
+
+
 
 ## Registrar no Weblate
 

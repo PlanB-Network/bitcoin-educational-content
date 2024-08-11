@@ -1,0 +1,13 @@
+question: Quel est le rôle d'un coordinateur de coinjoin ?
+
+answer: Mettre en relation les participants et construire la transaction.
+
+wrong_answers:
+  - Chiffrer les données des participants pour la confidentialité des transactions.
+  - Conserver un registre des précédents coinjoins pour les audits de sécurité.
+  - Recevoir les bitcoins des participants pour les mélanger.
+
+explanation: |
+  Le rôle des coordinateurs est de mettre en relation les différents utilisateurs et de construire puis diffuser la transaction collaborative.
+
+reviewed: false

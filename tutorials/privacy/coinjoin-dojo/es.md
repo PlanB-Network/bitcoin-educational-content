@@ -253,7 +253,7 @@ En el siguiente paso, accederás a la página dedicada a configurar tu Dojo. Sel
 
 ![coinjoin](assets/notext/24.webp)
 
-*Para los nuevos usuarios de Samourai, será necesario crear una cartera desde cero. Si necesitas asistencia, puedes consultar las instrucciones para configurar una nueva Samourai Wallet [en este tutorial, específicamente en la sección "Creando una cartera de software"](https://planb.network/tutorials/privacy/coinjoin-samourai-wallet).*
+*Para los nuevos usuarios de Samourai, será necesario crear una cartera desde cero. Si necesitas asistencia, puedes consultar las instrucciones para configurar una nueva Samourai Wallet [en este tutorial, específicamente en la sección "Creando una cartera de software"](https://planb.network/tutorials/privacy/coinjoin-samourai-wallet)*
 
 Si estás procediendo con la restauración de una Samourai Wallet ya existente, selecciona `Restaurar cartera existente`, luego elige `Tengo un archivo de respaldo de Samourai`.
 Normalmente, siempre deberías tener tu archivo de recuperación en tu portapapeles. Luego haz clic en `PASTE` para insertar tu archivo en la ubicación designada. Para descifrarlo, también será necesario ingresar la frase de paso BIP39 de tu billetera en el campo correspondiente, ubicado justo debajo. Para terminar, haz clic en `FINISH`. ![coinjoin](assets/notext/26.webp)
@@ -358,4 +358,4 @@ Las cuentas de Whirlpool son fácilmente identificables en Samourai Wallet por s
 
 ![coinjoin](assets/notext/53.webp)
 
-Para mantener un seguimiento de tus coinjoins automáticos, también recomiendo configurar una cartera de solo visualización a través de la aplicación Sentinel. Agrega el ZPUB de tu cuenta **Postmix** y monitorea el progreso de tus ciclos de coinjoin en tiempo real. Si quieres entender cómo usar Sentinel, recomiendo consultar este otro tutorial en PlanB Network: [**SENTINEL WATCH-ONLY**](https://planb.network/tutorials/wallet/sentinel).
+Para mantener un seguimiento de tus coinjoins automáticos, también recomiendo configurar una cartera de solo visualización a través de la aplicación Sentinel. Agrega el ZPUB de tu cuenta **Postmix** y monitorea el progreso de tus ciclos de coinjoin en tiempo real. Si quieres entender cómo usar Sentinel, recomiendo consultar este otro tutorial en PlanB Network: [**SENTINEL WATCH-ONLY**](https://planb.network/tutorials/wallet/sentinel)

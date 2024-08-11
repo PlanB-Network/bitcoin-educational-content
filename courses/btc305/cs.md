@@ -1545,7 +1545,6 @@ sudo su -
 Přejděte do správného adresáře:
 cd btcpayserver-docker
 # Najděte název kontejneru:
-<partId>6f124f36-b51c-5e53-a734-08fb1f20db25</partId>
 docker ps
 Vytiskněte logy podle názvu kontejneru:
 docker logs --tail 100 btcpayserver_lnd_bitcoin
@@ -1581,7 +1580,6 @@ Pro přístup k komprimovaným logům ve formátu `.gzip` použijte `gzip -d lnd
 sudo su -
 docker ps
 # Najděte ID kontejneru c-lightning.
-<partId>8f12e767-13df-5bc4-85e4-00e227091300</partId>
 docker logs 'vložte zde vaše ID kontejneru'
 ```
 

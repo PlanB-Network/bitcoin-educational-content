@@ -27,7 +27,7 @@ Giao dịch Cahoots liên quan đến việc trao đổi các giao dịch đã k
 
 Khi thực hiện từ xa, quá trình này trở nên quá phức tạp. Để giải quyết vấn đề này, Samourai đã phát triển một giao thức truyền thông mã hóa dựa trên Tor, gọi là "Soroban." Với Soroban, các trao đổi cần thiết cho Payjoin được tự động hóa thông qua một giao diện thân thiện với người dùng. Đây là phương pháp thứ hai mà chúng tôi sẽ khám phá trong bài viết này.
 
-Những trao đổi mã hóa này yêu cầu thiết lập kết nối và xác thực giữa các bên tham gia Cahoots. Giao tiếp Soroban dựa trên Paynyms của người dùng. Nếu bạn chưa quen với Paynyms, tôi mời bạn tham khảo bài viết này để biết thêm chi tiết: [BIP47 - PAYNYM](https://planb.network/tutorials/privacy/paynym-bip47).
+Những trao đổi mã hóa này yêu cầu thiết lập kết nối và xác thực giữa các bên tham gia Cahoots. Giao tiếp Soroban dựa trên Paynyms của người dùng. Nếu bạn chưa quen với Paynyms, tôi mời bạn tham khảo bài viết này để biết thêm chi tiết: [BIP47 - PAYNYM](https://planb.network/tutorials/privacy/paynym-bip47)
 Để nói một cách đơn giản, Paynym là một định danh duy nhất liên kết với ví của bạn cho phép thực hiện nhiều chức năng, bao gồm cả việc nhắn tin được mã hóa. Paynym được thể hiện dưới dạng một định danh và một hình minh họa đại diện cho một robot. Dưới đây là ví dụ về Paynym của tôi trên Testnet: ![Paynym Sparrow](assets/en/1.webp)
 **Tóm tắt:**
 - *Payjoin* = Cấu trúc cụ thể của giao dịch hợp tác;
@@ -51,7 +51,7 @@ Về phía bạn, mở ví Sparrow của mình và truy cập cùng một menu `
 ![Retrieve paynym](assets/notext/3.webp)
 Tiếp theo, nhập định danh Paynym của đối tác hợp tác của bạn (hoặc biệt danh `+...` hoặc mã thanh toán `PM...`) vào ô `Find Contact`, sau đó nhấp vào nút `Add Contact`.
 ![add contact](assets/notext/4.webp)
-Phần mềm sau đó sẽ cung cấp cho bạn một nút `Link Contact`. Không cần thiết phải nhấp vào nút này cho hướng dẫn của chúng tôi. Bước này chỉ cần thiết nếu bạn dự định thực hiện thanh toán cho Paynym được chỉ định trong bối cảnh của [BIP47](https://planb.network/tutorials/privacy/paynym-bip47), không liên quan đến hướng dẫn của chúng tôi.
+Phần mềm sau đó sẽ cung cấp cho bạn một nút `Link Contact`. Không cần thiết phải nhấp vào nút này cho hướng dẫn của chúng tôi. Bước này chỉ cần thiết nếu bạn dự định thực hiện thanh toán cho Paynym được chỉ định trong bối cảnh của BIP47, không liên quan đến hướng dẫn của chúng tôi.
 
 Một khi Paynym của người nhận được Paynym của bạn theo dõi, lặp lại thao tác này theo hướng ngược lại để người nhận của bạn cũng theo dõi bạn. Bạn có thể sau đó thực hiện một Payjoin.
 

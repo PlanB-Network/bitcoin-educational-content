@@ -14,7 +14,11 @@ _Tento návod je poskytován pouze pro vzdělávací a informační účely. Nep
 
 > "*Používejte Bitcoin soukromě.*"
 
-V [předchozím návodu](https://planb.network/tutorials/node/ronin-dojo) jsme již vysvětlili postup instalace a používání RoninDojo v1. Během posledního roku však týmy RoninDojo spustily verzi 2 své implementace, což představovalo významný obrat v architektuře softwaru. Skutečně se odvrátili od distribuce Linux Manjaro ve prospěch Debianu. V důsledku toho již nenabízejí předkonfigurovaný obraz pro automatickou instalaci na Raspberry Pi. Existuje však stále metoda, jak pokračovat v ruční instalaci. Toho jsem využil pro svůj vlastní uzel a od té doby RoninDojo v2 na mém Raspberry Pi 4 funguje báječně. Proto nabízím nový návod, jak ručně nainstalovat RoninDojo v2 na Raspberry Pi.
+V předchozím návodu jsme již vysvětlili postup instalace a používání RoninDojo v1. Během posledního roku však týmy RoninDojo spustily verzi 2 své implementace, což představovalo významný obrat v architektuře softwaru. Skutečně se odvrátili od distribuce Linux Manjaro ve prospěch Debianu. V důsledku toho již nenabízejí předkonfigurovaný obraz pro automatickou instalaci na Raspberry Pi. Existuje však stále metoda, jak pokračovat v ruční instalaci. Toho jsem využil pro svůj vlastní uzel a od té doby RoninDojo v2 na mém Raspberry Pi 4 funguje báječně. Proto nabízím nový návod, jak ručně nainstalovat RoninDojo v2 na Raspberry Pi.
+
+https://planb.network/tutorials/node/ronin-dojo
+
+
 
 ## Obsah:
 - Co je RoninDojo?
@@ -314,12 +318,18 @@ Váš uzel RoninDojo také integruje _WhirlpoolCLI_, rozhraní příkazové řá
 Provádění coinjoin prostřednictvím Whirlpool vyžaduje, aby aplikace použitá k provedení remixů byla aktivní. Tato podmínka může být omezující pro ty, kteří si přejí dosáhnout vysokých úrovní anonymních setů. Skutečně, zařízení hostující aplikaci integrující Whirlpool musí zůstat neustále zapnuté. To znamená, že pro účast na remixech 24 hodin denně musí váš počítač nebo smartphone zůstat zapnutý s nepřetržitě otevřeným Samourai nebo Sparrow. Řešením této omezení je použití _WhirlpoolCLI_ na stroji, který je vždy zapnutý, například na Bitcoin node, což umožňuje vašim mincím remixovat bez přerušení a bez nutnosti nechat zapnuté další zařízení.
 Podrobný tutoriál je připravován, aby vás krok za krokem provedl procesem coinjoin s Samourai Wallet a RoninDojo v2, od A do Z.
 
-Pro hlubší pochopení coinjoin a jeho použití na Bitcoinu, vás také zvu, abyste si přečetli tento další článek: [Understanding and using coinjoin on Bitcoin](https://planb.network/tutorials/privacy/coinjoin-dojo), kde detailně popisuji vše, co potřebujete vědět o této technice.
+Pro hlubší pochopení coinjoin a jeho použití na Bitcoinu, vás také zvu, abyste si přečetli tento další článek: Understanding and using coinjoin on Bitcoin, kde detailně popisuji vše, co potřebujete vědět o této technice.
+
+https://planb.network/tutorials/privacy/coinjoin-dojo
 ### Používání nástroje Whirlpool Stat Tool (WST)
 
 Po provedení coinjoinů s Whirlpool je užitečné přesně zhodnotit dosaženou úroveň soukromí pro vaše smíchané UTXO. K tomu můžete použít Python nástroj *Whirlpool Stat Tool*. Tento nástroj umožňuje měřit jak perspektivní, tak retrospektivní skóre vašich UTXO, zatímco analyzuje jejich míru rozptylu v bazénu.
 
-Pro prohloubení vašeho porozumění výpočetním mechanismům těchto anonymních setů doporučuji přečíst článek: [REMIX - WHIRLPOOL](https://planb.network/tutorials/privacy/remix-whirlpool), který detailně popisuje fungování těchto indexů.
+Pro prohloubení vašeho porozumění výpočetním mechanismům těchto anonymních setů doporučuji přečíst článek: REMIX - WHIRLPOOL, který detailně popisuje fungování těchto indexů.
+
+https://planb.network/tutorials/privacy/remix-whirlpool
+
+
 
 Pro přístup k nástroji WST přejděte na RoninCLI. K tomu otevřete terminál na vašem osobním počítači a navážte SSH spojení s vaším node pomocí následujícího příkazu:
 `SSH ronindojo@[IP]`

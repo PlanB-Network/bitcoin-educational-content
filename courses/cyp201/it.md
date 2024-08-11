@@ -1,5 +1,5 @@
 ---
-name: Introduzione alla crittografia
+name: Introduzione agli algoritmi crittografici di Bitcoin
 goal: Comprendere la creazione di un portafoglio Bitcoin da una prospettiva crittografica
 objectives:
   - Demistificare la terminologia crittografica legata a Bitcoin.

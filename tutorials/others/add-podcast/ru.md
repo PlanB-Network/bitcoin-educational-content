@@ -8,7 +8,11 @@ description: Как добавить новый подкаст в сеть PlanB
 
 Вы хотите добавить подкаст о Биткойне на сайт сети PlanB и увеличить его видимость, но не знаете как? Этот учебник для вас!
 ![podcast](assets/01.webp)
-- Во-первых, у вас должен быть аккаунт на GitHub. Если вы не знаете, как его создать, мы подготовили [подробный учебник, который поможет вам](https://planb.network/tutorials/others/create-github-account).
+- Во-первых, у вас должен быть аккаунт на GitHub. Если вы не знаете, как его создать, мы подготовили подробный учебник, который поможет вам.
+
+https://planb.network/tutorials/others/create-github-account
+
+
 - Перейдите в [репозиторий GitHub PlanB, посвященный данным](https://github.com/DecouvreBitcoin/sovereign-university-data/tree/dev/resources/podcasts) в раздел `resources/podcasts/`:
 ![podcast](assets/02.webp)
 - Нажмите в верхнем правом углу на кнопку `Add file`, затем на `Create new file`:

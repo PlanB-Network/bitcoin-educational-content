@@ -1,0 +1,13 @@
+question: Parmi les réponses suivantes, laquelle ne représente pas un risque lorsqu'on envoie des bitcoins ayant subi un coinjoin vers une plateforme régulée ?
+
+answer: La plateforme peut augmenter les frais de transaction
+
+wrong_answers:
+  - La plateforme peut geler les fonds
+  - La plateforme peut bloquer le compte de l'utilisateur
+  - La plateforme peut signaler un comportement aux autorités
+
+explanation: |
+  Si vous envoyez votre pièce sur une plateforme d'échange régulée, mais qu'elle a récemment subi un coinjoin, l'outil d'analyse de chaîne de la plateforme détectera ce fait. La plateforme pourrait alors refuser d'accepter votre UTXO ayant subi un coinjoin, ou même exiger des explications de votre part, avec le risque de voir votre compte suspendu ou vos fonds gelés. Dans certains cas, la plateforme peut également signaler votre comportement aux autorités étatiques.
+
+reviewed: false

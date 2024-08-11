@@ -8,7 +8,11 @@ La missione di PlanB è fornire risorse educative di primo livello su Bitcoin in
 
 Stai cercando di aggiungere un podcast su Bitcoin al sito della Rete PlanB e aumentare la visibilità del tuo show, ma non sai come fare? Questo tutorial è per te!
 ![podcast](assets/01.webp)
-- Prima di tutto, devi avere un account GitHub. Se non sai come crearne uno, abbiamo realizzato [un tutorial dettagliato per guidarti](https://planb.network/tutorials/others/create-github-account).
+- Prima di tutto, devi avere un account GitHub. Se non sai come crearne uno, abbiamo realizzato un tutorial dettagliato per guidarti.
+
+https://planb.network/tutorials/others/create-github-account
+
+
 - Vai al [repository GitHub di PlanB dedicato ai dati](https://github.com/DecouvreBitcoin/sovereign-university-data/tree/dev/resources/podcasts) nella sezione `resources/podcasts/`:
 ![podcast](assets/02.webp)
 - Clicca in alto a destra sul pulsante `Add file`, poi su `Create new file`:

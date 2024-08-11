@@ -17,7 +17,7 @@ Der Boltzmann Calculator ist ein Werkzeug zur Analyse einer Bitcoin-Transaktion,
 Dieses Python-Tool wurde von den Teams bei Samourai Wallet und OXT entwickelt, kann aber für jede Bitcoin-Transaktion verwendet werden.
 
 ## Wie verwendet man den Boltzmann Calculator?
-Um den Boltzmann Calculator zu verwenden, stehen Ihnen zwei Optionen zur Verfügung. Die erste ist, das Python-Tool direkt auf Ihrem Gerät zu installieren. Alternativ können Sie sich für die Website KYCP.org (_Know Your Coin Privacy_) entscheiden, die eine vereinfachte Nutzungsplattform bietet. Für [RoninDojo](https://planb.network/tutorials/node/ronin-dojo-v2)-Nutzer, beachten Sie, dass dieses Tool bereits in Ihren Knoten integriert ist.
+Um den Boltzmann Calculator zu verwenden, stehen Ihnen zwei Optionen zur Verfügung. Die erste ist, das Python-Tool direkt auf Ihrem Gerät zu installieren. Alternativ können Sie sich für die Website KYCP.org (_Know Your Coin Privacy_) entscheiden, die eine vereinfachte Nutzungsplattform bietet. Für RoninDojo-Nutzer, beachten Sie, dass dieses Tool bereits in Ihren Knoten integriert ist.
 
 Die Verwendung der KYCP-Seite ist ganz einfach: Geben Sie einfach den Transaktionsidentifikator (TXID), den Sie analysieren möchten, in die Suchleiste ein und drücken Sie `ENTER`.
 ![KYCP](assets/1.webp)

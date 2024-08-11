@@ -1,5 +1,5 @@
 ---
-name: Johdatus Bitcoinin kryptografiaan
+name: Johdanto Bitcoinin kryptografisiin algoritmeihin
 goal: Ymmärrä Bitcoin-lompakon luominen kryptografisesta näkökulmasta
 objectives:
   - Selkeytä Bitcoiniin liittyvää kryptografian terminologiaa.

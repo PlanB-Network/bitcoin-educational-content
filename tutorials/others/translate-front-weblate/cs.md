@@ -14,7 +14,11 @@ Pro překlad vzdělávacího obsahu používáme [přístup kombinující lidsko
 
 Pokud vás ale zajímá překlad jiných sekcí webu, vyjma vzdělávacího obsahu, jste na správném místě! Pro efektivní překlad frontendu používáme nástroj Weblate, který usnadňuje spolupráci a organizuje překlady. Je to velmi jednoduchý nástroj pro začátek. Pojďme si krok za krokem ukázat, jak Weblate používat.
 
-Pokud si přejete přidat zcela nový jazyk do PlanB Network, který ještě na Weblate není k dispozici, budete nejprve muset podat žádost o přidání. Pro toto [sledujte tento konkrétní tutoriál](https://planb.network/tutorials/others/add-new-language-weblate).
+Pokud si přejete přidat zcela nový jazyk do PlanB Network, který ještě na Weblate není k dispozici, budete nejprve muset podat žádost o přidání. Pro toto sledujte tento konkrétní tutoriál.
+
+https://planb.network/tutorials/others/add-new-language-weblate
+
+
 
 ## Registrace na Weblate
 

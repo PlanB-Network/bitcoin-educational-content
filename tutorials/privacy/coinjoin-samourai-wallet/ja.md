@@ -264,7 +264,7 @@ Tx0がブロードキャストされると、Whirlpoolメニューの`Transactio
 `Tx0`が確認されると、UTXOは自動的にコーディネーターに登録され、初期ミックスが自動的に連続して開始されます。
 
 ![samourai](assets/en/34.webp)
-`Remixing`タブをチェックすることで、**Postmix**アカウントに対応する初期ミックスから生じたUTXOsを観察できます。これらのコインは、追加料金なしで後続のリミックスの準備ができています。リミックスプロセスとコインジョインサイクルの効率についてもっと学ぶために、この他の記事を参照することをお勧めします：[REMIX - WHIRLPOOL](https://planb.network/tutorials/privacy/remix-whirlpool)。
+`Remixing`タブをチェックすることで、**Postmix**アカウントに対応する初期ミックスから生じたUTXOsを観察できます。これらのコインは、追加料金なしで後続のリミックスの準備ができています。リミックスプロセスとコインジョインサイクルの効率についてもっと学ぶために、この他の記事を参照することをお勧めします：[REMIX - WHIRLPOOL](https://planb.network/tutorials/privacy/remix-whirlpool)
 ![samourai](assets/en/35.webp)
 
 UTXOのリミックスを一時的に中断するには、その右側にある一時停止ボタンを押します。再びリミックスの対象とするには、同じボタンをもう一度クリックするだけです。ユーザーとプールごとに同時に実行できるコインジョインは1つだけであることに注意が必要です。したがって、`100 000 sats`のUTXOsが6つコインジョインの準備ができている場合、そのうちの1つだけがミックスされます。UTXOをミックスした後、Samourai Walletは利用可能な新しいUTXOをランダムに選択して、各コインのリミックスを多様化しバランスを取ります。
@@ -325,7 +325,7 @@ Whirlpoolは自動的に閉じます。Samouraiのローディングが終了す
 ## コインジョインサイクルの品質をどのように知るか？
 コインジョインが真に効果的であるためには、入力と出力の金額の間に良好な一様性が示されることが不可欠です。この一様性は、外部の観察者の目における可能な解釈の数を増幅させ、取引を取り巻く不確実性を高めます。コインジョインによって生成されるこの不確実性を定量化するためには、取引のエントロピーを計算することができます。これらの指標の詳細な探求については、チュートリアル：[BOLTZMANN CALCULATOR](https://planb.network/en/tutorials/privacy/boltzmann-entropy)を参照してください。Whirlpoolモデルは、コインジョインに最も均一性をもたらすと認識されています。
 
-次に、いくつかのコインジョインサイクルのパフォーマンスは、コインが隠されるグループの範囲に基づいて評価されます。これらのグループのサイズは、anonsetsと呼ばれるものを定義します。anonsetsには2つのタイプがあります：一つ目は、過去から現在への逆行分析に対して得られたプライバシーを評価し、二つ目は、過去から現在への前向き分析に対して評価します。これら2つの指標の詳細な説明については、チュートリアル：[WHIRLPOOL STATS TOOLS - ANONSETS](https://planb.network/tutorials/privacy/wst-anonsets)を参照してください。
+次に、いくつかのコインジョインサイクルのパフォーマンスは、コインが隠されるグループの範囲に基づいて評価されます。これらのグループのサイズは、anonsetsと呼ばれるものを定義します。anonsetsには2つのタイプがあります：一つ目は、過去から現在への逆行分析に対して得られたプライバシーを評価し、二つ目は、過去から現在への前向き分析に対して評価します。これら2つの指標の詳細な説明については、チュートリアル：[WHIRLPOOL STATS TOOLS - ANONSETS](https://planb.network/tutorials/privacy/wst-anonsets)
 
 ## ポストミックスの管理方法は？
 コインジョインサイクルを実行した後、最良の戦略は、将来の使用を待っている間、UTXOを**ポストミックス**アカウントに保持することです。それらを使う必要があるまで無期限にリミックスさせることさえ推奨されます。
@@ -351,7 +351,7 @@ UTXOの統合は、最も頻繁に発生する間違いです。CIOH（*Common-I
 これらの異なる技術を実装するための詳細なチュートリアルが、間もなくPlanB Networkで提供される予定です。
 
 **追加リソース：**
-- [Samourai Walletビデオチュートリアル](https://planb.network/tutorials/wallet/samourai);
+[Samourai Walletビデオチュートリアル](https://planb.network/tutorials/wallet/samourai)
 - [Samourai Walletドキュメント - Whirlpool](https://docs.samourai.io/whirlpool/basic-concepts);
 - [coinjoinsに関するTwitterスレッド](https://twitter.com/SamouraiWallet/status/1489220847336308739);
 - [coinjoinsに関するブログポスト](https://www.pandul.fr/post/comprendre-et-utiliser-le-coinjoin-sur-bitcoin).

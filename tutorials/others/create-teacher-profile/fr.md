@@ -8,7 +8,7 @@ La mission de PlanB est de mettre à disposition des ressources éducatives de p
 
 Si vous souhaitez ajouter un nouveau tutoriel complet ou une formation sur PlanB Network, vous allez devoir créer votre profil de professeur. Cela vous permettra d'être correctement crédité pour le contenu que vous produisez sur le site web. 
 ![tutorial](assets/1.webp)
-Si vous avez précédemment contribué à PlanB Network, vous possédez sûrement déjà un identifiant de contributeur. Vous pouvez le retrouver dans votre dossier de professeur accessible [via cette page](https://github.com/DecouvreBitcoin/sovereign-university-data/tree/dev/professors). Si c'est votre cas, vous pouvez passer ce tutoriel et commencer directement à contribuer.
+Si vous avez précédemment contribué à PlanB Network, vous possédez sûrement déjà un identifiant de contributeur. Vous pouvez le retrouver dans votre dossier de professeur accessible [via cette page](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/professors). Si c'est votre cas, vous pouvez passer ce tutoriel et commencer directement à contribuer.
 ![tutorial](assets/2.webp)
 
 Découvrons ensemble comment ajouter un nouveau professeur dans ce tutoriel !
@@ -21,12 +21,12 @@ Découvrons ensemble comment ajouter un nouveau professeur dans ce tutoriel !
 ![tutorial](assets/3.webp)
 **Prérequis avant de commencer le tutoriel :**
 - Avoir un [compte GitHub](https://github.com/signup).
-- Avoir un fork du [dépôt source de PlanB Network](https://github.com/DecouvreBitcoin/sovereign-university-data).
+- Avoir un fork du [dépôt source de PlanB Network](https://github.com/PlanB-Network/bitcoin-educational-content).
 
 **Si vous avez besoin d'aide pour obtenir ces prérequis, mes autres tutoriels vous guideront :**
-- **[Comprendre Git et GitHub](https://planb.network/tutorials/others/basics-of-github)**
-- **[Créer un compte GitHub](https://planb.network/tutorials/others/create-github-account)**
-- **[Configurer votre environnement de travail](https://planb.network/tutorials/others/github-desktop-work-environment)**
+**[Comprendre Git et GitHub](https://planb.network/tutorials/others/basics-of-github)**
+**[Créer un compte GitHub](https://planb.network/tutorials/others/create-github-account)**
+**[Configurer votre environnement de travail](https://planb.network/tutorials/others/github-desktop-work-environment)**
 
 ## Comment créer un nouveau profil de professeur ?
 

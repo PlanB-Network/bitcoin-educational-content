@@ -14,7 +14,11 @@ _Tämä opas on tarkoitettu vain koulutus- ja tiedotustarkoituksiin. Emme kannus
 
 > "*Käytä Bitcoinia yksityisesti.*"
 
-[Edellisessä oppaassa](https://planb.network/tutorials/node/ronin-dojo) olimme jo selittäneet menettelyn RoninDojo v1:n asentamiseksi ja käyttämiseksi. Viime vuoden aikana RoninDojon tiimit ovat kuitenkin julkaisseet version 2 heidän toteutuksestaan, mikä merkitsi merkittävää käännekohtaa ohjelmiston arkkitehtuurissa. Todellakin, he siirtyivät pois Linux Manjaro -jakelusta Debianin hyväksi. Tämän seurauksena he eivät enää tarjoa esiasennettua kuvaa automaattiseen asennukseen Raspberry Pi:lle. Mutta on edelleen olemassa menetelmä manuaaliseen asennukseen. Tätä menetelmää käytin oman solmun asentamiseen, ja siitä lähtien RoninDojo v2 on toiminut upeasti Raspberry Pi 4:ssäni. Tarjoan siis uuden oppaan RoninDojo v2:n manuaaliseen asentamiseen Raspberry Pi:lle.
+Edellisessä oppaassa olimme jo selittäneet menettelyn RoninDojo v1:n asentamiseksi ja käyttämiseksi. Viime vuoden aikana RoninDojon tiimit ovat kuitenkin julkaisseet version 2 heidän toteutuksestaan, mikä merkitsi merkittävää käännekohtaa ohjelmiston arkkitehtuurissa. Todellakin, he siirtyivät pois Linux Manjaro -jakelusta Debianin hyväksi. Tämän seurauksena he eivät enää tarjoa esiasennettua kuvaa automaattiseen asennukseen Raspberry Pi:lle. Mutta on edelleen olemassa menetelmä manuaaliseen asennukseen. Tätä menetelmää käytin oman solmun asentamiseen, ja siitä lähtien RoninDojo v2 on toiminut upeasti Raspberry Pi 4:ssäni. Tarjoan siis uuden oppaan RoninDojo v2:n manuaaliseen asentamiseen Raspberry Pi:lle.
+
+https://planb.network/tutorials/node/ronin-dojo
+
+
 
 ## Sisällysluettelo:
 - Mikä on RoninDojo?
@@ -316,12 +320,18 @@ RoninDojo-nodesi integroi myös _WhirlpoolCLI_:n, komentorivikäyttöliittymän,
 Coinjoinin suorittaminen Whirlpoolin kautta vaatii, että käytössä oleva sovellus on aktiivinen remixien suorittamiseksi. Tämä ehto voi olla rajoittava niille, jotka haluavat saavuttaa korkeita anonset-tasoja. Todellakin, laitteen, joka isännöi Whirlpoolia integroivaa sovellusta, on pysyttävä päällä jatkuvasti. Tämä tarkoittaa, että osallistuaksesi remixeihin 24 tuntia vuorokaudessa, tietokoneesi tai älypuhelimesi on pysyttävä päällä Samourain tai Sparrown ollessa avoinna jatkuvasti. Ratkaisu tähän rajoitteeseen on käyttää _WhirlpoolCLI_:tä koneella, joka on aina päällä, kuten Bitcoin-noodilla, mahdollistaen kolikkojesi remixauksen keskeytyksettä, ilman tarvetta pitää toista laitetta päällä.
 Yksityiskohtainen opas on valmisteilla, joka opastaa sinut askel askeleelta läpi prosessin coinjoinin suorittamisesta Samourai Walletin ja RoninDojo v2:n kanssa, A:sta Z:aan.
 
-Syvemmän ymmärryksen saamiseksi coinjoinista ja sen käytöstä Bitcoinissa, kutsun sinut myös tutustumaan tähän toiseen artikkeliin: [Ymmärtäminen ja coinjoinin käyttö Bitcoinissa](https://planb.network/tutorials/privacy/coinjoin-dojo), jossa kerron kaiken mitä sinun tarvitsee tietää tästä tekniikasta.
+Syvemmän ymmärryksen saamiseksi coinjoinista ja sen käytöstä Bitcoinissa, kutsun sinut myös tutustumaan tähän toiseen artikkeliin: Ymmärtäminen ja coinjoinin käyttö Bitcoinissa, jossa kerron kaiken mitä sinun tarvitsee tietää tästä tekniikasta.
+
+https://planb.network/tutorials/privacy/coinjoin-dojo
 ### Whirlpool Stat Toolin (WST) käyttö
 
 Suoritettuasi coinjoineja Whirlpoolin kanssa, on hyödyllistä arvioida tarkasti saavutettu yksityisyyden taso sekoitetuille UTXO:illesi. Tätä varten voit käyttää Python-työkalua *Whirlpool Stat Tool*. Tämä työkalu mahdollistaa sekä tulevien että menneiden anonset-pisteiden mittaamisen, samalla kun se analysoi niiden leviämistä altaassa.
 
-Syvemmän ymmärryksen saamiseksi näiden anonsettien laskentamekanismeista suosittelen lukemaan artikkelin: [REMIX - WHIRLPOOL](https://planb.network/tutorials/privacy/remix-whirlpool), joka yksityiskohtaisesti käsittelee näiden indeksien toimintaa.
+Syvemmän ymmärryksen saamiseksi näiden anonsettien laskentamekanismeista suosittelen lukemaan artikkelin: REMIX - WHIRLPOOL, joka yksityiskohtaisesti käsittelee näiden indeksien toimintaa.
+
+https://planb.network/tutorials/privacy/remix-whirlpool
+
+
 
 Päästäksesi WST-työkaluun, siirry RoninCLI:hin. Tee tämä avaamalla terminaali henkilökohtaisella tietokoneellasi ja muodostamalla SSH-yhteys noodisi kanssa seuraavalla komennolla:
 `SSH ronindojo@[IP]`

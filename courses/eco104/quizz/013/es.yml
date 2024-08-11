@@ -1,0 +1,13 @@
+question: ¿Cómo beneficia Bitcoin a las personas en países afectados por la guerra o inestables?
+answer: Permite almacenar valor de manera descentralizada y segura, lo que ofrece una mayor resistencia al robo.
+wrong_answers:
+  - Permite el acceso a servicios bancarios tradicionales
+  - Proporciona un activo físico que puede aumentar de valor
+  - Ofrece protección contra la deflación
+explanation: |
+  En países afectados por la guerra o inestabilidades, las personas pueden tener dificultades para 
+  acceder a servicios bancarios tradicionales o enfrentar el riesgo de robo o 
+  confiscación de activos físicos. Bitcoin permite a las personas almacenar valor 
+  de manera descentralizada y segura sin la necesidad de intermediarios 
+  o activos físicos vulnerables a riesgos como la inflación, el robo o la confiscación.
+reviewed: false

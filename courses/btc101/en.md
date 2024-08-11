@@ -1288,17 +1288,17 @@ Changing the financial system requires changing the currency. Satoshi created Bi
 
 Congratulations on completing this BTC 101 course! I sincerely hope you enjoyed it and it opened doors for you. Your discovery of bitcoin is just beginning, and I invite you to explore all the other courses available at the university.
 
-- [BTC 102](https://planb.network/courses/btc102) will help you set up your bitcoin plan
-- [LN 201](https://planb.network/courses/ln201) and [LN 202](https://planb.network/courses/ln202) will allow you to discover the Lightning Network, a second-layer payment network'
-- [ECON 201](https://planb.network/courses/econ201) will cover Austrian economics
-- [SECU 101](https://planb.network/courses/secu101) will allow you to update your digital security
-- [MINAGE 201](https://planb.network/courses/min201) to learn more about mining
+- [BTC 102](https://planb.network/courses/btc101) will help you set up your bitcoin plan
+- [LNP 201](https://planb.network/courses/lnp201) will allow you to discover the Lightning Network, a second-layer payment network
+- [ECO 201](https://planb.network/courses/eco201) will cover Austrian economics
+- [SCU 101](https://planb.network/courses/scu101) will allow you to update your digital security
+- [MIN 201](https://planb.network/courses/min201) to learn more about mining
 - and many more...
 
 ## Support us
 <chapterId>3e6e756b-b6c4-5d41-bece-767922348067</chapterId>
 
-This course, as well as all the content on this university, has been offered to you for free by our community. To support us, you can share it with others, become a member of the university, and even contribute to its development via [our GitHub](https://github.com/DecouvreBitcoin/sovereign-university-data). On behalf of the entire team, thank you!
+This course, as well as all the content on this university, has been offered to you for free by our community. To support us, you can share it with others, become a member of the university, and even contribute to its development via [our GitHub](https://github.com/PlanB-Network/bitcoin-educational-content). On behalf of the entire team, thank you!
 
 ## Note the training
 <chapterId>44d01865-5c89-55a5-a397-a014960eec0f</chapterId>

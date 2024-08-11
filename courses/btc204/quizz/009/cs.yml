@@ -1,0 +1,9 @@
+question: Jaké jsou 2 prvky, které tvoří odměnu za blok v coinbase transakci?
+answer: Subvence za blok a transakční poplatky.
+wrong_answers:
+  - Subvence za blok a bonusy za rychlost.
+  - Práva na emise a bezpečnostní prémie.
+  - Dividendy z těžby a daně z sítě.
+explanation: |
+  Když těžař najde platný blok, má nárok na odměnu, která se skládá na jedné straně ze subvence za blok a na druhé straně z poplatků za transakce, které do svého bloku zařadil.
+reviewed: false

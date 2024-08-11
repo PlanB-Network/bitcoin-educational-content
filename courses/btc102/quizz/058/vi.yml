@@ -1,0 +1,9 @@
+question: Nếu bạn không sở hữu khóa riêng của ví Bitcoin, điều đó có nghĩa là gì?
+answer: Một bên thứ ba chịu trách nhiệm về việc bảo mật bitcoin của bạn
+wrong_answers:
+  - Bạn đã mất tất cả bitcoin của mình
+  - Bạn không thể thực hiện giao dịch với bitcoin của mình nữa
+  - Bitcoin của bạn tự động được chuyển đổi sang một loại tiền mã hóa khác
+explanation: |
+  Nếu bạn không sở hữu khóa riêng của ví Bitcoin, điều đó có nghĩa là một bên thứ ba chịu trách nhiệm về việc bảo mật bitcoin của bạn. Chúng phải đối mặt với những rủi ro tương tự như các nền tảng giao dịch bao gồm hacking, tịch thu, quy định, hoặc phá sản.
+reviewed: false

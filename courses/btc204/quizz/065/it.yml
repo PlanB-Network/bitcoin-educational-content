@@ -1,0 +1,14 @@
+question: Cos'è la polvere nel contesto degli UTXO?
+
+answer: UTXO il cui valore è troppo basso per coprire le commissioni necessarie per spenderli.
+
+wrong_answers:
+  - UTXO generati da errori di transazione e che non possono essere confermati sulla blockchain.
+  - UTXO che sono contrassegnati come sospetti o collegati ad attività illecite sulla rete.
+  - UTXO che sono conservati in indirizzi non utilizzati da molto tempo e considerati persi.
+
+explanation: |
+  La polvere si riferisce agli UTXO il cui valore in satoshi è così basso che non è sufficiente a coprire le commissioni di transazione richieste per spenderli.
+
+reviewed: false
+

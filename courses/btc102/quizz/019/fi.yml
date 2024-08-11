@@ -1,0 +1,9 @@
+question: Mikä on riski säilyttää Bitcoineja vaihtoalustalla?
+answer: Alusta voi mennä konkurssiin, Bitcoinisi voidaan takavarikoida, tai alusta voidaan hakkeroida.
+wrong_answers:
+  - Alusta voi nostaa maksujaan, Bitcoinisi voivat menettää arvonsa, tai alusta voidaan hakkeroida.
+  - Alusta voi mennä konkurssiin, Bitcoinisi voivat kasvattaa arvoaan, tai alusta voidaan hakkeroida.
+  - Alusta voi mennä konkurssiin, Bitcoinisi voidaan takavarikoida, tai alusta voi nostaa maksujaan.
+explanation: |
+  Bitcoinien säilyttäminen vaihtoalustalla sisältää riskejä, kuten alustan mahdollisen konkurssin, Bitcoiniesi takavarikoinnin tai alustan hakkeroinnin.
+  Tämän vuoksi on tärkeää hallita omaa yksityistä avaintasi.

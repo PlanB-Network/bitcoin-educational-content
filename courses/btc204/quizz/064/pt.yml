@@ -1,0 +1,11 @@
+question: Como as etiquetas associadas a uma carteira Bitcoin são armazenadas?
+
+answer: Localmente no software da carteira.
+
+wrong_answers:
+  - Em um banco de dados centralizado controlado pelo desenvolvedor.
+  - Na blockchain do Bitcoin através de um OP_RETURN.
+  - Apenas na RAM durante a execução do software.
+
+explanation: |
+  As etiquetas são armazenadas localmente pelo software da carteira e nunca são transmitidas pela rede Bitcoin. Assim, a rotulagem é uma ferramenta de gestão pessoal.

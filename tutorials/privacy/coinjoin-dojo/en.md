@@ -261,7 +261,7 @@ In the next step, you will access the page dedicated to configuring your Dojo. S
 
 ![coinjoin](assets/notext/24.webp)
 
-*For new users of Samourai, it will then be necessary to create a wallet from scratch. If you need assistance, you can consult the instructions for setting up a new Samourai wallet [in this tutorial, specifically in the section "Creating a software wallet"](https://planb.network/tutorials/privacy/coinjoin-samourai-wallet).*
+*For new users of Samourai, it will then be necessary to create a wallet from scratch. If you need assistance, you can consult the instructions for setting up a new Samourai wallet [in this tutorial, specifically in the section "Creating a software wallet"](https://planb.network/tutorials/privacy/coinjoin-samourai-wallet)*
 
 If you are proceeding with the restoration of an already existing Samourai wallet, select `Restore existing wallet`, then choose `I have a Samourai backup file`.
 
@@ -373,4 +373,4 @@ Whirlpool accounts are easily identifiable on Samourai Wallet by their blue colo
 
 ![coinjoin](assets/notext/53.webp)
 
-To keep track of your automatic coinjoins, I also recommend setting up a watch-only wallet via the Sentinel app. Add the ZPUB of your **Postmix** account and monitor the progress of your coinjoin cycles in real-time. If you want to understand how to use Sentinel, I recommend consulting this other tutorial on PlanB Network: [**SENTINEL WATCH-ONLY**](https://planb.network/tutorials/wallet/sentinel).
+To keep track of your automatic coinjoins, I also recommend setting up a watch-only wallet via the Sentinel app. Add the ZPUB of your **Postmix** account and monitor the progress of your coinjoin cycles in real-time. If you want to understand how to use Sentinel, I recommend consulting this other tutorial on PlanB Network: [**SENTINEL WATCH-ONLY**](https://planb.network/tutorials/wallet/sentinel)

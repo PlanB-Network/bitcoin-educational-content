@@ -1,0 +1,9 @@
+question: Jeder kann den Bitcoin-Code duplizieren, was ihn wertlos macht, richtig oder falsch?
+answer: Richtig
+wrong_answers:
+  - Falsch
+explanation: |
+  Obwohl der Code für Bitcoin Open Source ist und kopiert werden kann,
+  wird der Wert von Bitcoin nicht durch seinen Code bestimmt. Er entsteht durch
+  sein Netzwerk von Nutzern sowie das Vertrauen und die Akzeptanz, die es im Laufe der Zeit aufgebaut hat.
+reviewed: false

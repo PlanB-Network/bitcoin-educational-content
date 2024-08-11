@@ -1,0 +1,12 @@
+question: Qual è il principale vantaggio nell'utilizzo di portafogli non custodial per la conservazione dei bitcoin?
+answer: Maggiore sicurezza e privacy
+wrong_answers:
+  - Accesso facile ai bitcoin
+  - Commissioni di transazione più basse
+  - Non è necessaria una password
+explanation: |
+  I portafogli non custodial sono quei portafogli in cui sei l'unico custode dei tuoi fondi,
+  il che significa che hai il completo controllo sulle tue chiavi private. Pertanto,
+  i portafogli non custodial offrono un livello di sicurezza e privacy superiore
+  rispetto ai portafogli custodial poiché sei l'unico responsabile per la sicurezza dei tuoi fondi.
+reviewed: false

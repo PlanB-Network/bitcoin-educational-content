@@ -1,0 +1,13 @@
+question: Jaká je role notifikační transakce v BIP47?
+
+answer: Přenést platební kód příjemci a signalizovat, že platby přicházejí.
+
+wrong_answers:
+  - Ověřit přijímací adresu Bitcoinu pro budoucí transakce prostřednictvím platebních kódů.
+  - Potvrdit příjem bitcoinů příjemcem s BIP47.
+  - Poslat dočasné soukromé klíče odesílatele příjemci, aby mohli bitcoiny utratit.
+
+explanation: |
+  Notifikační transakce umožňuje přenos platebního kódu od odesílatele k příjemci, aby ten jej mohl znát a později najít pouze ze svého seedu v případě obnovy peněženky. Jak název napovídá, hraje také roli notifikace.
+
+reviewed: false

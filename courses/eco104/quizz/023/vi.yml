@@ -1,0 +1,13 @@
+question: Có bao nhiêu quốc gia trên thế giới hạn chế phụ nữ mở tài khoản ngân hàng bằng tên của họ?
+
+answer: 72
+
+wrong_answers:
+  - 36
+  - 75
+  - 100
+
+explanation:
+  Tại 72 quốc gia trên thế giới, phụ nữ không được phép mở tài khoản ngân hàng bằng tên của họ.
+
+Đã được xem xét: true

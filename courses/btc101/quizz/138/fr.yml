@@ -1,0 +1,11 @@
+question: Quelle est la fonction principale des nœuds dans le réseau Bitcoin ?
+answer: Maintenir une copie de la blockchain Bitcoin, valider les transactions, transmettre les informations aux autres nœuds et faire respecter les règles du protocole Bitcoin.
+wrong_answers:
+  - Uniquement valider les transactions
+  - Uniquement maintenir une copie de la blockchain Bitcoin
+  - Uniquement transmettre les informations aux autres nœuds
+explanation: >-
+  Les nœuds dans le réseau Bitcoin remplissent plusieurs fonctions cruciales, incluant
+  le maintien d'une copie de la blockchain Bitcoin, la validation des transactions, la transmission
+  des informations aux autres nœuds, et l'application des règles du protocole Bitcoin.
+reviewed: false

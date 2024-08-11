@@ -1,0 +1,9 @@
+question: In quale scenario potrebbe una stablecoin essere scambiata sopra il suo prezzo ancorato?
+answer: Quando la domanda di stablecoin supera la capacità di scambio
+wrong_answers:
+  - Quando l'emittente della stablecoin congela i fondi
+  - Quando la stablecoin è completamente supportata da riserve in contanti
+  - Quando c'è una forte pressione di vendita da parte degli utenti
+explanation: |
+  Le stablecoin possono essere scambiate sopra il loro prezzo ancorato quando la domanda di stablecoin supera la capacità di uno scambio di soddisfare le richieste dei clienti, tipicamente su scambi più piccoli.
+reviewed: false

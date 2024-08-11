@@ -824,7 +824,7 @@ Cada 2 semanas (2016 bloques), el ajuste de dificultad reequilibra el juego mund
 A lo largo de los años, los mineros se han equipado con hardware informático cada vez más eficiente para producir la mayor cantidad de hashes posible por segundo (llamado HashRate) consumiendo la menor cantidad de energía posible, de la manera más económica posible. Los primeros mineros como Satoshi o Hal Finney minaban simplemente con su procesador CPU, luego otros comenzaron a minar con su tarjeta gráfica. Hoy en día, los mineros utilizan lo que se llama ASIC (Circuito Integrado Específico de Aplicación), máquinas diseñadas específicamente para aplicar el algoritmo SHA256.
 
 ![image](assets/es/chapter12/20.webp)
-El **Hashrate** de la red de Bitcoin representa, en cierto modo, la cantidad de intentos realizados por segundo para encontrar el próximo bloque. Hoy en día es de aproximadamente 400 TH/s, ¡lo que equivale a 400,000 billones de intentos por segundo! Cuanto mayor sea el hashrate global, más difícil será para un actor malintencionado monopolizar los recursos necesarios para obtener la mayoría de la minería y realizar un doble gasto. Por lo tanto, es más económicamente viable seguir las reglas del protocolo Bitcoin que actuar en contra de ellas. Esto plantea una pregunta: ¿cómo se remuneran los mineros?
+El **Hashrate** de la red de Bitcoin representa, en cierto modo, la cantidad de intentos realizados por segundo para encontrar el próximo bloque. Hoy en día es de aproximadamente 400 TH/s, ¡lo que equivale a 400,000 billones de intentos por segundo! Cuanto mayor sea el hashrate global, más difícil será para un actor malintencionado monopolizar los recursos necesarios para obtener la mayoría de la minería y realizar un doble gasto. Por lo tanto, es más económicamente viable seguir las reglas del protocolo Bitcoin que actuar en contra de ellas. Esto plantea una question: ¿cómo se remuneran los mineros?
 
 ![image](assets/es/chapter12/16.webp)
 
@@ -1296,15 +1296,16 @@ Cambiar el sistema financiero requiere cambiar la moneda. Satoshi creó Bitcoin 
 ¡Felicitaciones por completar este curso BTC 101! Espero de todo corazón que te haya gustado y abierto puertas. Tu descubrimiento de Bitcoin apenas está comenzando y te invito a explorar todos los demás cursos disponibles en la universidad.
 
 - [BTC 102](https://planb.network/courses/btc102) te ayudará a establecer tu plan de Bitcoin
-- [LN 201](https://planb.network/courses/ln201) y [LN 202](https://planb.network/course/ln202) te permitirán descubrir la Lightning Network, una red de pagos de segunda capa.
-- [ECON 201](https://planb.network/courses/econ201) abordará la economía austriaca- [ SECU 101 ](https://planb.network/courses/secu101) te permitirá actualizar tu seguridad digital
-- [MINAGE 201](https://planb.network/courses/min201) para aprender más sobre la minería
+- [LNP 201](https://planb.network/courses/lnp201) te permitirá descubrir la Lightning Network, una red de pagos de segunda capa.
+- [ECO 201](https://planb.network/courses/eco201) abordará la economía austriaca
+- [SCU 101 ](https://planb.network/courses/scu101) te permitirá actualizar tu seguridad digital
+- [MIN 201](https://planb.network/courses/min201) para aprender más sobre la minería
 - y muchos más...
 
 ## Apóyanos
 <chapterId>3e6e756b-b6c4-5d41-bece-767922348067</chapterId>
 
-Este curso, junto con todo el contenido presente en esta universidad, te ha sido ofrecido de forma gratuita por nuestra comunidad. Para apoyarnos, puedes compartirlo con tus amigos, convertirte en miembro de la universidad e incluso contribuir a su desarrollo a través de [nuestro GitHub](https://github.com/DecouvreBitcoin/sovereign-university-data). ¡En nombre de todo el equipo, gracias!
+Este curso, junto con todo el contenido presente en esta universidad, te ha sido ofrecido de forma gratuita por nuestra comunidad. Para apoyarnos, puedes compartirlo con tus amigos, convertirte en miembro de la universidad e incluso contribuir a su desarrollo a través de [nuestro GitHub](https://github.com/PlanB-Network/bitcoin-educational-content). ¡En nombre de todo el equipo, gracias!
 
 ## Califica el curso
 <chapterId>44d01865-5c89-55a5-a397-a014960eec0f</chapterId>

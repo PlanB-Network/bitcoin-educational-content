@@ -86,7 +86,7 @@ Nhấn vào nút 'THEO DÕI'.
 ![theo dõi paynym](assets/notext/11.webp)
 Xác nhận bằng cách nhấn 'CÓ'.
 ![xác nhận theo dõi paynym](assets/notext/12.webp)
-Sau đó, phần mềm sẽ cung cấp cho bạn nút 'KẾT NỐI'. Việc nhấn vào nút này không cần thiết cho hướng dẫn của chúng tôi. Bước này chỉ cần thiết nếu bạn dự định thực hiện thanh toán cho PayNym khác như một phần của [BIP47](https://planb.network/tutorials/privacy/paynym-bip47), không liên quan đến hướng dẫn của chúng tôi.
+Sau đó, phần mềm sẽ cung cấp cho bạn nút 'KẾT NỐI'. Việc nhấn vào nút này không cần thiết cho hướng dẫn của chúng tôi. Bước này chỉ cần thiết nếu bạn dự định thực hiện thanh toán cho PayNym khác như một phần của BIP47, không liên quan đến hướng dẫn của chúng tôi.
 ![kết nối paynym](assets/notext/13.webp)
 Một khi PayNym của bạn đang theo dõi PayNym của người cộng tác, lặp lại quy trình này theo hướng ngược lại để người cộng tác của bạn cũng có thể theo dõi bạn. Sau đó, bạn có thể thực hiện giao dịch Stonewall x2.
 
@@ -96,7 +96,7 @@ Nếu bạn đang sử dụng Sparrow Wallet, mở ví của bạn và truy cậ
 ![yêu cầu paynym sparrow](assets/notext/14.webp)
 Sau đó nhập mã định danh PayNym của người cộng tác (hoặc biệt danh của họ '+...' hoặc mã thanh toán của họ 'PM...') vào ô 'Tìm Liên Hệ', và nhấn vào nút 'Thêm Liên Hệ'.
 ![thêm liên hệ paynym](assets/notext/15.webp)
-Sau đó, phần mềm sẽ cung cấp cho bạn nút 'Liên Kết Liên Hệ'. Việc nhấn vào nút này không cần thiết cho hướng dẫn của chúng tôi. Bước này chỉ cần thiết nếu bạn dự định thực hiện thanh toán cho PayNym được chỉ định như một phần của [BIP47](https://planb.network/tutorials/privacy/paynym-bip47), không liên quan đến hướng dẫn của chúng tôi.
+Sau đó, phần mềm sẽ cung cấp cho bạn nút 'Liên Kết Liên Hệ'. Việc nhấn vào nút này không cần thiết cho hướng dẫn của chúng tôi. Bước này chỉ cần thiết nếu bạn dự định thực hiện thanh toán cho PayNym được chỉ định như một phần của BIP47, không liên quan đến hướng dẫn của chúng tôi.
 
 Một khi PayNym của bạn đang theo dõi PayNym của người cộng tác, lặp lại quy trình này theo hướng ngược lại để người cộng tác của bạn cũng có thể theo dõi bạn. Sau đó, bạn có thể thực hiện giao dịch Stonewall x2.
 ## Cách thực hiện giao dịch Stonewall x2 trên Samourai Wallet?

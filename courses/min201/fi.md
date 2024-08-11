@@ -62,7 +62,7 @@ Valmis sukeltamaan tähän kiehtovaan seikkailuun? Sukelletaan yhdessä kotilouh
 ## Louhinnan selitys
 <chapterId>36a82de7-87ee-5e7a-b69e-48fc30030447</chapterId>
 
-### Louhinnan selitys: Palapelitehtävä-analogia
+### Louhinnan explanation: Palapelitehtävä-analogia
 
 Louhintakonseptin selittämiseksi yksinkertaistetulla tavalla voidaan käyttää osuvaa analogiaa: palapeliä. Aivan kuten palapeli, louhinta on monimutkainen suoritus, mutta helppo todentaa kerran suoritettuna. Bitcoin-louhinnan kontekstissa louhijat pyrkivät nopeasti ratkaisemaan digitaalisen palapelin. Ensimmäinen palapelin ratkaissut louhija esittää ratkaisunsa koko verkolle, joka voi sitten helposti todentaa sen pätevyyden. Tämä onnistunut todentaminen mahdollistaa louhijan uuden lohkon vahvistamisen ja lisäämisen Bitcoin-aikaketjuun. Työstään, joka sisältää merkittäviä kustannuksia, louhija palkitaan tietyn määrän bitcoineja. Tämä palkkio toimii taloudellisena kannustimena louhijoille jatkaa transaktioiden vahvistamista ja Bitcoin-verkon turvaamista.
 

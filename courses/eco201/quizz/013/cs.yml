@@ -1,0 +1,9 @@
+question: Jaký je hlavní problém systému částečných rezerv?
+answer: Hlavním problémem systému částečných rezerv je, že významné výběry z konkrétní banky mohou potenciálně vést k jejímu bankrotu.
+wrong_answers:
+  - Hlavním problémem systému částečných rezerv je, že brání bankám v půjčování peněz.
+  - Hlavním problémem systému částečných rezerv je, že vyžaduje, aby banky držely více rezerv, než kolik přijímají na vkladech.
+  - Hlavním problémem systému částečných rezerv je, že brání bankám ve vytváření nových peněz.
+explanation: |
+  V systému částečných rezerv drží banky pouze část prostředků vkladatelů jako rezervu a zbytek půjčují. Pokud se mnoho zákazníků současně rozhodne vybrat své prostředky, banka nemusí mít dostatek rezerv, aby tyto požadavky splnila, což může potenciálně vést k bankrotu.
+reviewed: false

@@ -161,7 +161,7 @@ Sparrowを使用する利点は、始めやすく、設定が迅速で、コン�
 
 ### Sparrow Walletのインストール
 まず、Sparrow Walletソフトウェアが必要になります。[公式ウェブサイト](https://sparrowwallet.com/download/)または[GitHub](https://github.com/sparrowwallet/sparrow/releases)から直接ダウンロードできます。
-ソフトウェアをインストールする前に、ダウンロードした実行ファイルの署名と完全性を確認することが重要です。Sparrowソフトウェアのインストールプロセスと検証の詳細については、この他のチュートリアルを読むことをお勧めします：*[The Sparrow Wallet Guides](https://planb.network/tutorials/wallet/sparrow)*。
+ソフトウェアをインストールする前に、ダウンロードした実行ファイルの署名と完全性を確認することが重要です。Sparrowソフトウェアのインストールプロセスと検証の詳細については、この他のチュートリアルを読むことをお勧めします：*[The Sparrow Wallet Guides](https://planb.network/tutorials/wallet/sparrow)*
 
 ### ソフトウェアウォレットの作成
 ソフトウェアをインストールした後、Bitcoinウォレットの作成を進める必要があります。coinjoinに参加するためには、ソフトウェアウォレット（別名「ホットウォレット」）の使用が不可欠であることに注意してください。したがって、**ハードウェアウォレットで保護されたウォレットではcoinjoinを実行することはできません**。
@@ -297,7 +297,7 @@ UTXOをリミックスのために継続的に利用可能に保つためには�
 
 ![sparrow](assets/en/37.webp)
 
-引き出しが自動的に行われるコインジョインの閾値を選択します。個人の状況やプライバシーの目標によって異なるため、リミックスを行う正確な回数をお伝えすることはできませんが、閾値を低すぎる値に設定することは避けてください。リミックスプロセスについてもっと学ぶために、この他の記事を参照することをお勧めします：[REMIX - WHIRLPOOL](https://planb.network/tutorials/privacy/remix-whirlpool)。
+引き出しが自動的に行われるコインジョインの閾値を選択します。個人の状況やプライバシーの目標によって異なるため、リミックスを行う正確な回数をお伝えすることはできませんが、閾値を低すぎる値に設定することは避けてください。リミックスプロセスについてもっと学ぶために、この他の記事を参照することをお勧めします：[REMIX - WHIRLPOOL](https://planb.network/tutorials/privacy/remix-whirlpool
 
 `Index range`オプションは、デフォルト値の`Full`のままにしておいてください。この機能により、異なるクライアントから同時にミキシングすることが可能になりますが、これはこのチュートリアルで行いたいことではありません。`Mix to...`オプションを最終化して有効にするには、`Restart Whirlpool`を押します。
 
@@ -307,7 +307,7 @@ UTXOをリミックスのために継続的に利用可能に保つためには�
 
 ## コインジョインサイクルの品質をどのように知るか？
 コインジョインが真に効果的であるためには、入力と出力の金額の間に良好な均一性があることが不可欠です。この一様性は、外部の観察者の目における可能な解釈の数を増幅させ、取引を巡る不確実性を高めます。コインジョインによって生成されるこの不確実性を定量化するためには、取引のエントロピーを計算することができます。これらの指標の詳細な探求については、チュートリアル：[BOLTZMANN CALCULATOR](https://planb.network/en/tutorials/privacy/boltzmann-entropy)を参照してください。Whirlpoolモデルは、コインジョインにおいて最も均一性をもたらすと認識されています。
-次に、いくつかのコインジョインサイクルのパフォーマンスは、コインが隠されるグループのサイズに基づいて評価されます。これらのグループのサイズは、アノンセットと呼ばれるものを定義します。アノンセットには2種類あります：一つ目は、遡及分析（現在から過去へ）に対するプライバシーの獲得を評価し、二つ目は、展望分析（過去から現在へ）に対するものです。これら二つの指標の詳細な説明については、チュートリアル：[WHIRLPOOL STATS TOOLS - ANONSETS](https://planb.network/tutorials/privacy/wst-anonsets)を参照してください。
+次に、いくつかのコインジョインサイクルのパフォーマンスは、コインが隠されるグループのサイズに基づいて評価されます。これらのグループのサイズは、アノンセットと呼ばれるものを定義します。アノンセットには2種類あります：一つ目は、遡及分析（現在から過去へ）に対するプライバシーの獲得を評価し、二つ目は、展望分析（過去から現在へ）に対するものです。これら二つの指標の詳細な説明については、チュートリアル：[WHIRLPOOL STATS TOOLS - ANONSETS](https://planb.network/tutorials/privacy/wst-anonsets)
 
 ## ポストミックスをどのように管理するか？
 コインジョインサイクルを実行した後、最良の戦略は、UTXOを**postmix**アカウントに保持し、将来使用するまで待つことです。それらを使う必要が生じるまで、無期限にリミックスさせておくことさえ推奨されます。
@@ -332,8 +332,8 @@ UTXOの統合は最も頻繁に行われる間違いです。CIOH（*Common-Inpu
 これらの異なる技術を実装するための詳細なチュートリアルは、間もなくPlanB Networkで提供される予定です。
 
 **追加リソース：**
-- [Sparrow Walletビデオチュートリアル](https://planb.network/tutorials/wallet/sparrow);
-- [Samourai Walletビデオチュートリアル](https://planb.network/tutorials/wallet/samourai);
+[Sparrow Walletビデオチュートリアル](https://planb.network/tutorials/wallet/sparrow)
+[Samourai Walletビデオチュートリアル](https://planb.network/tutorials/wallet/samourai)
 - [Samourai Walletドキュメント - Whirlpool](https://docs.samourai.io/whirlpool/basic-concepts);
 - [CoinJoinsに関するTwitterスレッド](https://twitter.com/SamouraiWallet/status/1489220847336308739);
 - [CoinJoinsに関するブログポスト](https://www.pandul.fr/post/comprendre-et-utiliser-le-coinjoin-sur-bitcoin).

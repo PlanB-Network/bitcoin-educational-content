@@ -1,0 +1,13 @@
+question: Como o Bitcoin beneficia indivíduos em países devastados pela guerra ou instáveis?
+answer: Ele possibilita a armazenagem de valor de maneira descentralizada e segura, com maior resistência ao roubo
+wrong_answers:
+  - Ele permite acesso a serviços bancários tradicionais
+  - Ele fornece um ativo físico que pode aumentar de valor
+  - Ele oferece proteção contra a deflação
+explanation: |
+  Em países devastados pela guerra ou instáveis, indivíduos podem enfrentar dificuldades para 
+  acessar serviços bancários tradicionais ou correr o risco de roubo ou 
+  confisco de ativos físicos. O Bitcoin permite que indivíduos armazenem valor 
+  de maneira descentralizada e segura, sem a necessidade de intermediários 
+  ou ativos físicos vulneráveis a riscos como inflação, roubo ou confisco.
+reviewed: true

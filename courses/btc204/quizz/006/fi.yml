@@ -1,0 +1,9 @@
+question: Mitä muutos edustaa transaktiossa?
+answer: Lähtö, joka palautuu alkuperäisen transaktion lähettäjälle.
+wrong_answers:
+  - Maksu, jonka Bitcoin-verkko ottaa.
+  - Lähtö, joka siirretään transaktion vastaanottajalle.
+  - Bonus, joka myönnetään lähettäjälle nopeista transaktioista.
+explanation: |
+  Muutos on lähtö, joka edustaa niitä syötteiden osia, joita ei käytetä maksun suorittamiseen, ja näin ollen palautuu alkuperäisen transaktion lähettäjälle.
+reviewed: false

@@ -94,7 +94,7 @@ Cliquez sur le bouton `SUIVRE`.
 ![suivre paynym](assets/notext/11.webp)
 Validez en cliquant sur `YES`.
 ![valider suivre paynym](assets/notext/12.webp)
-Le logiciel vous proposera alors un bouton `SE CONNECTER`. Il n'est pas nécessaire de cliquer sur ce bouton pour notre tutoriel. Cette étape est obligatoire uniquement si vous envisagez d'effectuer des paiements vers l'autre Paynym dans le cadre du [BIP47](https://planb.network/tutorials/privacy/paynym-bip47), ce qui n'a rien à voir avec notre tutoriel.
+Le logiciel vous proposera alors un bouton `SE CONNECTER`. Il n'est pas nécessaire de cliquer sur ce bouton pour notre tutoriel. Cette étape est obligatoire uniquement si vous envisagez d'effectuer des paiements vers l'autre Paynym dans le cadre du BIP47, ce qui n'a rien à voir avec notre tutoriel.
 ![connecter paynym](assets/notext/13.webp)
 Une fois le Paynym du collaborateur suivi par votre Paynym, refaites cette opération dans l'autre sens afin que votre collaborateur vous suive également. Vous pourrez ensuite effectuer une transaction Stonewall x2.
 
@@ -104,7 +104,7 @@ Si de votre côté, vous êtes sur Sparrow Wallet, ouvrez votre portefeuille et 
 ![demande paynym sparrow](assets/notext/14.webp)
 Saisissez ensuite l'identifiant du Paynym de votre collaborateur (soit son surnom `+...`, soit son code de paiement `PM...`) dans la case `Find Contact`, puis cliquez sur le bouton `Add Contact`.
 ![ajouter paynym contact](assets/notext/15.webp)
-Le logiciel vous proposera alors un bouton `Link Contact`. Il n'est pas nécessaire de cliquer sur ce bouton pour notre tutoriel. Cette étape est obligatoire uniquement si vous envisagez d'effectuer des paiements vers le Paynym indiqué dans le cadre du [BIP47](https://planb.network/tutorials/privacy/paynym-bip47), ce qui n'a rien à voir avec notre tutoriel.
+Le logiciel vous proposera alors un bouton `Link Contact`. Il n'est pas nécessaire de cliquer sur ce bouton pour notre tutoriel. Cette étape est obligatoire uniquement si vous envisagez d'effectuer des paiements vers le Paynym indiqué dans le cadre du BIP47, ce qui n'a rien à voir avec notre tutoriel.
 
 Une fois le Paynym du collaborateur suivi par votre Paynym, refaites cette opération dans l'autre sens afin que votre collaborateur vous suive également. Vous pourrez ensuite effectuer une transaction Stonewall x2.
 

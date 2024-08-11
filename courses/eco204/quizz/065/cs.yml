@@ -1,0 +1,16 @@
+question: Jaká je hlavní myšlenka konceptu časové hodnoty peněz?
+answer: Čas má hodnotu
+wrong_answers:
+  - Peníze ztrácejí časem na hodnotě
+  - Peníze lze vyměnit za čas
+  - Čas lze vyměnit za peníze
+explanation: |
+  Hlavní myšlenka konceptu časové hodnoty peněz spočívá v tom,
+  že
+
+  čas
+
+  má hodnotu. Pokud se někdo rozhodne zaplatit směnku v hodnotě 100 dolarů o měsíc dříve,
+
+  může ji získat například za 98 dolarů a obdržet 100 dolarů v den splatnosti.
+reviewed: false

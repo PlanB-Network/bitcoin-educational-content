@@ -1,0 +1,9 @@
+question: Jaký je dopad 2% inflace na kupní sílu za 5 let?
+answer: Ztratíte 10% své kupní síly.
+wrong_answers:
+  - Ztratíte 2% své kupní síly.
+  - Ztratíte 5% své kupní síly.
+  - Ztratíte 20% své kupní síly.
+explanation: |
+  Při 2% inflaci ztrácíte každý rok 2% své kupní síly, což za 5 let činí 10%.
+reviewed: true

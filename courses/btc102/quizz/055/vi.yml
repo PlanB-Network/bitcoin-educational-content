@@ -1,0 +1,11 @@
+question: Lightning Network là gì?
+answer: Đó là lớp thứ hai của Bitcoin.
+wrong_answers:
+  - Đó là một sàn giao dịch tiền mã hóa.
+  - Đó là một loại ví Bitcoin.
+  - Đó là một nhóm đào Bitcoin.
+explanation: |
+  Lightning Network là công nghệ lớp thứ hai được áp dụng cho bitcoin
+  sử dụng các kênh thanh toán vi mô để mở rộng khả năng của blockchain
+  trong việc thực hiện các giao dịch.
+reviewed: false

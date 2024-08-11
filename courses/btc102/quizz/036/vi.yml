@@ -1,0 +1,15 @@
+question: Cụm từ "Không phải chìa khóa của bạn, không phải Bitcoin của bạn" nhấn mạnh điều gì?
+
+answer: Tầm quan trọng của việc sở hữu khóa riêng của ví Bitcoin
+
+wrong_answers:
+  - Tầm quan trọng của việc có một chìa khóa vật lý để truy cập Bitcoin của bạn
+  - Tầm quan trọng của việc giữ Bitcoin của bạn ở một nơi an toàn
+  - Tầm quan trọng của việc không chia sẻ thông tin tài khoản Bitcoin của bạn
+
+explanation: |
+  Chương này giải thích rằng cụm từ "Không phải chìa khóa của bạn, không phải Bitcoin của bạn"
+  nhấn mạnh tầm quan trọng của việc sở hữu khóa riêng của ví Bitcoin. Bằng cách sở hữu
+  khóa riêng, bạn có toàn quyền kiểm soát số Bitcoin mà nó chứa.
+
+reviewed: false

@@ -788,7 +788,7 @@ Negli anni, i miner si sono dotati di hardware informatico sempre più efficient
 
 ![image](assets/it/chapter12/20.webp)
 
-L' **Hashrate** della rete Bitcoin rappresenta in qualche modo la quantità di tentativi effettuati al secondo per trovare il prossimo blocco. Oggi è di circa 400 TH/s, ovvero 400.000 miliardi di tentativi al secondo! Più alto è l'hashrate globale, più difficile è per un attore malevolo monopolizzare le risorse necessarie per ottenere la maggioranza del mining e effettuare una doppia spesa. È quindi più economicamente vantaggioso seguire le regole del protocollo Bitcoin anziché agire in contrasto con esse. Ciò solleva una domanda: come vengono remunerati i minatori?
+L' **Hashrate** della rete Bitcoin rappresenta in qualche modo la quantità di tentativi effettuati al secondo per trovare il prossimo blocco. Oggi è di circa 400 TH/s, ovvero 400.000 miliardi di tentativi al secondo! Più alto è l'hashrate globale, più difficile è per un attore malevolo monopolizzare le risorse necessarie per ottenere la maggioranza del mining e effettuare una doppia spesa. È quindi più economicamente vantaggioso seguire le regole del protocollo Bitcoin anziché agire in contrasto con esse. Ciò solleva una question: come vengono remunerati i minatori?
 ![image](assets/it/chapter12/16.webp)
 
 ### Cosa si può trovare in un blocco?
@@ -1234,16 +1234,16 @@ Cambiare il sistema finanziario richiede di cambiare la valuta. Satoshi ha creat
 Congratulazioni per aver completato questa formazione BTC 101! Spero sinceramente che ti sia piaciuta e abbia aperto delle porte. La tua scoperta di Bitcoin è solo all'inizio e ti invito a scoprire tutte le altre formazioni disponibili nell'università.
 
 - [BTC 102](https://planb.network/courses/btc102) ti aiuterà a creare il tuo piano Bitcoin
-- [LN 201](https://planb.network/courses/ln201) e [LN 202](https://planb.network/courses/ln202) ti permetteranno di scoprire Lightning Network, una rete di pagamenti di secondo livello.
-- [ECON 201](https://planb.network/courses/econ201) affronterà l'economia austriaca
-- [SECU 101](https://planb.network/courses/secu101) ti permetterà di aggiornare la tua sicurezza digitale
-- [MINAGE 201](https://planb.network/courses/min201) per saperne di più sul mining
+- [LNP 201](https://planb.network/courses/lnp201) ti permetterà di scoprire Lightning Network, una rete di pagamenti di secondo livello
+- [ECO 201](https://planb.network/courses/econ201) affronterà l'economia austriaca
+- [SCU 101](https://planb.network/courses/secu101) ti permetterà di aggiornare la tua sicurezza digitale
+- [MIN 201](https://planb.network/courses/min201) per saperne di più sul mining
 - e molti altri...
 
 ## Sostienici
 <chapterId>3e6e756b-b6c4-5d41-bece-767922348067</chapterId>
 
-Questo corso, insieme a tutto il contenuto presente in questa università, ti è stato offerto gratuitamente dalla nostra comunità. Per sostenerci, puoi condividerlo con gli altri, diventare membro dell'università e persino contribuire al suo sviluppo tramite [il nostro GitHub](https://github.com/DecouvreBitcoin/sovereign-university-data). A nome di tutto il team, grazie!
+Questo corso, insieme a tutto il contenuto presente in questa università, ti è stato offerto gratuitamente dalla nostra comunità. Per sostenerci, puoi condividerlo con gli altri, diventare membro dell'università e persino contribuire al suo sviluppo tramite [il nostro GitHub](https://github.com/PlanB-Network/bitcoin-educational-content). A nome di tutto il team, grazie!
 
 ## Valuta il corso
 <chapterId>44d01865-5c89-55a5-a397-a014960eec0f</chapterId>

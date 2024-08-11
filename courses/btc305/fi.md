@@ -1552,7 +1552,6 @@ sudo su -
 Siirry oikeaan hakemistoon:
 cd btcpayserver-docker
 # Etsi kontin nimi:
-<partId>6f124f36-b51c-5e53-a734-08fb1f20db25</partId>
 docker ps
 Tulosta lokit kontin nimellä:
 docker logs --tail 100 btcpayserver_lnd_bitcoin
@@ -1588,7 +1587,6 @@ Päästäksesi käsiksi pakattuihin lokeihin `.gzip`-muodossa, käytä `gzip -d 
 sudo su -
 docker ps
 # Etsi c-lightning kontin ID.
-<partId>8f12e767-13df-5bc4-85e4-00e227091300</partId>
 docker logs 'lisää konttisi ID tähän'
 ```
 

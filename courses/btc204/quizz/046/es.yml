@@ -1,0 +1,13 @@
+question: ¿Qué algoritmo de intercambio de claves criptográficas es central en la operación de BIP47?
+
+answer: ECDH
+
+wrong_answers:
+  - RSA
+  - ElGamal
+  - Diffie-Hellman
+
+explanation: |
+  El algoritmo utilizado es ECDH (Elliptic Curve Diffie-Hellman). Es una variante del clásico algoritmo Diffie-Hellman que utiliza curvas elípticas.
+
+reviewed: false

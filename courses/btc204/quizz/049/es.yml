@@ -1,0 +1,13 @@
+question: ¿Por qué se utiliza el operador XOR en BIP47?
+
+answer: Para cifrar simétricamente el contenido del código de pago del remitente.
+
+wrong_answers:
+  - Para cifrar asimétricamente el contenido del código de pago del remitente.
+  - Para cifrar simétricamente los metadatos del código de pago del remitente.
+  - Para cifrar asimétricamente los metadatos del código de pago del remitente.
+
+explanation: |
+  El operador XOR se utiliza para cifrar simétricamente el contenido del código de pago del remitente en BIP47.
+
+reviewed: false

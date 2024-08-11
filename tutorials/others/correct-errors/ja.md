@@ -10,9 +10,17 @@ PlanBのミッションは、できるだけ多くの言語でBitcoinに関す�
 
 このチュートリアルでは、これらの小さなエラーを訂正するプロセスをステップバイステップで案内します。Gitの複雑さに踏み込みたくない初心者向けのチュートリアルです。しかし、Gitに慣れている場合は、こちらが簡単な要約です：[PlanB Networkデータリポジトリ](https://github.com/DecouvreBitcoin/sovereign-university-data)をフォークし、専用のブランチで変更を加え、ソースリポジトリの`dev`ブランチに対してプルリクエストを提出するだけです。
 
-ドキュメントの完全なレビューと改訂、特にコンテンツの翻訳を行う予定の場合は、[この他の詳細なチュートリアル](https://planb.network/tutorials/others/content-review-tutorial)をご覧ください。ここでは、小さなエラーに対する素早い訂正の方法にのみ焦点を当てます。
+ドキュメントの完全なレビューと改訂、特にコンテンツの翻訳を行う予定の場合は、この他の詳細なチュートリアルをご覧ください。
 
-- まず、GitHubアカウントを持っている必要があります。アカウントの作成方法がわからない場合は、[詳細なチュートリアルを用意しています](https://planb.network/tutorials/others/create-github-account)。
+https://planb.network/tutorials/others/content-review-tutorial
+
+ここでは、小さなエラーに対する素早い訂正の方法にのみ焦点を当てます。
+
+- まず、GitHubアカウントを持っている必要があります。アカウントの作成方法がわからない場合は、詳細なチュートリアルを用意しています。
+
+https://planb.network/tutorials/others/create-github-account
+
+
 - [PlanB専用のデータGitHubリポジトリ](https://github.com/DecouvreBitcoin/sovereign-university-data)にアクセスしてください：
 ![typos](assets/01.webp)
 - ここでは、すべてのコンテンツが部分ごとに整理されています。
@@ -37,4 +45,7 @@ PlanBのミッションは、できるだけ多くの言語でBitcoinに関す�
 - PRのためのタイトルと短い説明を追加できます: ![typos](assets/18.webp)
 - すべてが良さそうに見える場合は、緑色の `Create Pull Request` ボタンをクリックできます: ![typos](assets/19.webp)
 - おめでとうございます、あなたのPRは送信されました！その進行状況は [PlanB Network GitHubリポジトリ](https://github.com/DecouvreBitcoin/sovereign-university-data/pulls) の `Pull requests` タブで追跡できます: ![typos](assets/20.webp)
-ご協力いただきありがとうございます！PlanB Networkへのコンテンツ作成や翻訳など、他の種類の貢献を行いたい場合は、[「Contribution」セクションの他のチュートリアルをチェックしてください](https://planb.network/tutorials/others)。
+ご協力いただきありがとうございます！PlanB Networkへのコンテンツ作成や翻訳など、他の種類の貢献を行いたい場合は、「Contribution」セクションの他のチュートリアルをチェックしてください。
+
+https://planb.network/tutorials/others
+

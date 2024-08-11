@@ -1,0 +1,13 @@
+question: Heuristic nào có thể được sử dụng để liên kết tất cả các input của một quá trình tổng hợp?
+
+answer: CIOH.
+
+wrong_answers:
+  - Sử dụng lại địa chỉ.
+  - Output lớn nhất.
+  - Thanh toán tròn.
+
+explanation: |
+  Một quan sát viên bên ngoài có thể áp dụng CIOH để giả định rằng tất cả các input của một quá trình tổng hợp thuộc về cùng một thực thể.
+
+reviewed: false

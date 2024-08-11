@@ -1,0 +1,13 @@
+question: Qual è la misura intermedia che può essere presa per nascondere le connessioni quando non si utilizza il proprio nodo Bitcoin?
+
+answer: Uso di Tor.
+
+wrong_answers:
+  - Uso di un firewall.
+  - Uso di un portafoglio crittografato.
+  - Uso di un doppio portafoglio.
+
+explanation: |
+  Per limitare il rischio di essere osservati, una soluzione intermedia è utilizzare software di portafoglio che consente di nascondere le tue connessioni tramite Tor.
+
+reviewed: false

@@ -1,0 +1,11 @@
+question: Mikä on Bitcoin-solmun tarkoitus Lightning Networkin kontekstissa?
+answer: Auttaa ymmärtämään ja tutkimaan Bitcoinin uusia näkökohtia, jotka ovat tulleet Lightning Networkin myötä.
+wrong_answers:
+  - Uusien Bitcoinien louhiminen.
+  - Bitcoinien kaupankäynti.
+  - Bitcoinien säilyttäminen.
+explanation: |
+  Bitcoin-solmu Lightning Networkin kontekstissa käytetään ymmärtämään
+  ja tutkimaan Bitcoinin uusia näkökohtia, jotka ovat tulleet Lightning Networkin myötä. Se
+  ei louhi uusia Bitcoineja, käy kauppaa Bitcoineilla tai säilytä Bitcoineja.
+reviewed: false

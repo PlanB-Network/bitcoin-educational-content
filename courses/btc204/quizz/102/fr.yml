@@ -1,0 +1,13 @@
+question: Que représente le score de Boltzmann dans le contexte des transactions Bitcoin ?
+
+answer: La probabilité conditionnelle qu'un input soit lié à un output donné.
+
+wrong_answers:
+  - Le montant total des bitcoins transférés.
+  - Le nombre d'inputs dans une transaction.
+  - L'entropie relative à chaque input ou output.
+
+explanation: |
+  Le score de Boltzmann indique la probabilité conditionnelle qu'un input spécifique soit relié à un output donné. C'est donc une mesure quantitative de la probabilité conditionnelle qu'une association entre un input et un output dans une transaction se produise, établie sur le ratio du nombre d'occurrences favorables de cet événement par rapport au nombre total d'occurrences possibles, dans un ensemble d'interprétations.
+
+reviewed: false

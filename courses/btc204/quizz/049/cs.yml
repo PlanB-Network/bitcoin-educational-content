@@ -1,0 +1,13 @@
+question: Proč se v BIP47 používá operátor XOR?
+
+answer: K symetrickému šifrování obsahu (payload) platebního kódu odesílatele.
+
+wrong_answers:
+  - K asymetrickému šifrování obsahu (payload) platebního kódu odesílatele.
+  - K symetrickému šifrování metadat platebního kódu odesílatele.
+  - K asymetrickému šifrování metadat platebního kódu odesílatele.
+
+explanation: |
+  Operátor XOR se používá k symetrickému šifrování obsahu (payload) platebního kódu odesílatele v BIP47.
+
+reviewed: false

@@ -1,0 +1,13 @@
+question: ¿Qué riesgos están asociados con el uso de un nodo de terceros?
+
+answer: Censura y monitoreo de actividades.
+
+wrong_answers:
+  - Pérdida de bitcoins.
+  - Aumento en las tarifas de transacción.
+  - Robo de bitcoins y seguimiento.
+
+explanation: |
+  Si utilizas un nodo que no te pertenece, corres el riesgo de que tus transmisiones de transacciones sean bloqueadas y de ser monitoreado por el operador.
+
+reviewed: false

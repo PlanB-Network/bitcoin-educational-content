@@ -6,7 +6,11 @@ description: Raspberry Pi上でのRoninDojo v2 Bitcoinノードのインスト�
 
 > "*プライバシーを重視してBitcoinを使用する。*"
 
-[以前のチュートリアル](https://planb.network/tutorials/node/ronin-dojo)では、RoninDojo v1のインストールと使用方法について既に説明しました。しかし、昨年、RoninDojoチームは彼らの実装のバージョン2を発表し、ソフトウェアのアーキテクチャにおいて重要な転換点を迎えました。実際、彼らはLinux ManjaroディストリビューションからDebianへと移行しました。その結果、Raspberry Pi上での自動インストール用に事前設定されたイメージの提供をやめました。しかし、手動インストールを進める方法はまだ存在します。これは私が自分のノードに使用した方法であり、それ以来、RoninDojo v2は私のRaspberry Pi 4上で素晴らしく動作しています。したがって、Raspberry Pi上にRoninDojo v2を手動でインストールする方法についての新しいチュートリアルを提供します。
+以前のチュートリアルでは、RoninDojo v1のインストールと使用方法について既に説明しました。しかし、昨年、RoninDojoチームは彼らの実装のバージョン2を発表し、ソフトウェアのアーキテクチャにおいて重要な転換点を迎えました。実際、彼らはLinux ManjaroディストリビューションからDebianへと移行しました。その結果、Raspberry Pi上での自動インストール用に事前設定されたイメージの提供をやめました。しかし、手動インストールを進める方法はまだ存在します。これは私が自分のノードに使用した方法であり、それ以来、RoninDojo v2は私のRaspberry Pi 4上で素晴らしく動作しています。したがって、Raspberry Pi上にRoninDojo v2を手動でインストールする方法についての新しいチュートリアルを提供します。
+
+https://planb.network/tutorials/node/ronin-dojo
+
+
 
 ## 目次:
 - RoninDojoとは何か？
@@ -314,13 +318,19 @@ Whirlpoolを介してコインジョインを実行するには、リミック�
 
 Samourai WalletとRoninDojo v2を使用してコインジョインを行うプロセスをステップバイステップでガイドする詳細なチュートリアルが準備中です。
 
-ビットコインでのコインジョインとその使用についてのより深い理解のために、この他の記事も参照してください：[ビットコインでのコインジョインの理解と使用](https://planb.network/tutorials/privacy/coinjoin-dojo)、ここではこの技術について知っておくべきすべてのことを詳しく説明しています。
+ビットコインでのコインジョインとその使用についてのより深い理解のために、この他の記事も参照してください：ビットコインでのコインジョインの理解と使用、ここではこの技術について知っておくべきすべてのことを詳しく説明しています。
+
+https://planb.network/tutorials/privacy/coinjoin-dojo
 ### Whirlpool Stat Tool (WST)の使用
 
 Whirlpoolでコインジョインを実行した後、ミックスされたUTXOの達成したプライバシーレベルを正確に評価することが役立ちます。これを行うには、Pythonツールである*Whirlpool Stat Tool*を使用できます。このツールを使用すると、UTXOの見込みスコアと遡及スコアの両方を測定し、プール内での拡散率を分析することができます。
-これらの匿名セットの計算メカニズムを深く理解するために、次の記事を読むことをお勧めします：[REMIX - WHIRLPOOL](https://planb.network/tutorials/privacy/remix-whirlpool)。この記事では、これらの指標の機能について詳しく説明しています。
+これらの匿名セットの計算メカニズムを深く理解するために、次の記事を読むことをお勧めします：REMIX - WHIRLPOOL。この記事では、これらの指標の機能について詳しく説明しています。
 WSTツールにアクセスするには、RoninCLIに移動してください。これを行うには、個人用コンピューターでターミナルを開き、次のコマンドを使用してノードとSSH接続を確立します：
 `SSH ronindojo@[IP]`
+
+https://planb.network/tutorials/privacy/remix-whirlpool
+
+
 
 例えば、ノードのIPアドレスが`192.168.1.40`の場合、適切なコマンドは以下の通りです：
 `SSH ronindojo@192.168.1.40`

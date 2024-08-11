@@ -14,7 +14,11 @@ PlanBのミッションは、できるだけ多くの言語でBitcoinに関す�
 
 しかし、教育コンテンツ以外のサイトのセクションを翻訳することに興味がある場合は、こちらが適切な場所です！フロントエンドを効果的に翻訳するために、Weblateツールを使用しています。これは、協力を促進し、翻訳を整理する非常にシンプルなツールです。Weblateの使用方法をステップバイステップで見ていきましょう。
 
-PlanB NetworkにまだWeblateにない完全に新しい言語を追加したい場合は、まず追加のリクエストを提出する必要があります。これには、[この特定のチュートリアルに従ってください](https://planb.network/tutorials/others/add-new-language-weblate)。
+PlanB NetworkにまだWeblateにない完全に新しい言語を追加したい場合は、まず追加のリクエストを提出する必要があります。これには、この特定のチュートリアルに従ってください。
+
+https://planb.network/tutorials/others/add-new-language-weblate
+
+
 
 ## Weblateに登録する
 

@@ -8,7 +8,7 @@ Sứ mệnh của PlanB là cung cấp nguồn tài nguyên giáo dục hàng đ
 
 Nếu bạn muốn thêm một hướng dẫn hoàn chỉnh mới hoặc một khóa học trên Mạng PlanB, bạn sẽ cần tạo hồ sơ giáo sư của mình. Điều này sẽ cho phép bạn được ghi công đúng mức cho nội dung bạn sản xuất trên trang web.
 ![tutorial](assets/1.webp)
-Nếu bạn đã từng đóng góp cho Mạng PlanB, có lẽ bạn đã có ID người đóng góp. Bạn có thể tìm thấy nó trong thư mục giáo sư của mình có thể truy cập [qua trang này](https://github.com/DecouvreBitcoin/sovereign-university-data/tree/dev/professors). Nếu đây là trường hợp, bạn có thể bỏ qua hướng dẫn này và bắt đầu đóng góp trực tiếp.
+Nếu bạn đã từng đóng góp cho Mạng PlanB, có lẽ bạn đã có ID người đóng góp. Bạn có thể tìm thấy nó trong thư mục giáo sư của mình có thể truy cập [qua trang này](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/professors). Nếu đây là trường hợp, bạn có thể bỏ qua hướng dẫn này và bắt đầu đóng góp trực tiếp.
 ![tutorial](assets/2.webp)
 
 Hãy cùng khám phá cách thêm một giáo sư mới trong hướng dẫn này!
@@ -21,12 +21,12 @@ Hãy cùng khám phá cách thêm một giáo sư mới trong hướng dẫn nà
 ![tutorial](assets/3.webp)
 **Yêu cầu trước khi bắt đầu hướng dẫn:**
 - Có một [tài khoản GitHub](https://github.com/signup).
-- Có một bản sao của [kho lưu trữ nguồn PlanB Network](https://github.com/DecouvreBitcoin/sovereign-university-data).
+- Có một bản sao của [kho lưu trữ nguồn PlanB Network](https://github.com/PlanB-Network/bitcoin-educational-content).
 
 **Nếu bạn cần trợ giúp để có được những yêu cầu tiên quyết này, các hướng dẫn khác của tôi sẽ hướng dẫn bạn:**
-- **[Hiểu về Git và GitHub](https://planb.network/tutorials/others/basics-of-github)**
-- **[Tạo một Tài khoản GitHub](https://planb.network/tutorials/others/create-github-account)**
-- **[Thiết lập Môi trường Làm việc của Bạn](https://planb.network/tutorials/others/github-desktop-work-environment)**
+**[Hiểu về Git và GitHub](https://planb.network/tutorials/others/basics-of-github)**
+**[Tạo một Tài khoản GitHub](https://planb.network/tutorials/others/create-github-account)**
+**[Thiết lập Môi trường Làm việc của Bạn](https://planb.network/tutorials/others/github-desktop-work-environment)**
 
 ## Làm thế nào để tạo một hồ sơ giáo sư mới?
 

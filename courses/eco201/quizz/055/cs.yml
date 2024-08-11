@@ -1,0 +1,10 @@
+question: Jaká je role axiomů v rakouském ekonomickém uvažování?
+answer: Axiomy jsou základní prvky, z nichž lze činit logické dedukce.
+wrong_answers:
+  - Axiomy jsou v rakouském ekonomickém uvažování irelevantní.
+  - Axiomy se používají k stanovení vztahů mezi proměnnými na základě empirických dat.
+  - Axiomy se používají k potvrzení nebo vyvrácení hypotéz prostřednictvím dočasných experimentů.
+explanation: |
+  V rakouském ekonomickém uvažování mají axiomy klíčovou roli. Jsou
+  základními prvky, z nichž lze činit logické dedukce.
+reviewed: false

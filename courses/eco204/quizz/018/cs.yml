@@ -1,0 +1,9 @@
+question: Jaké je hlavní omezení klasických tabulek hyperinflace?
+answer: Vylučují určitá historická období vysoké inflace kvůli přísným klasifikačním kritériím
+wrong_answers:
+  - Zahrnují příliš mnoho epizod inflace, které nesplňují kritéria pro hyperinflaci
+  - Jsou zastaralé a nepoužitelné pro moderní ekonomiky
+  - Neberou v úvahu dopad inflace na ekonomiku
+explanation: |
+  Klasické tabulky hyperinflace, jako je tabulka Hanke-Krus, často vylučují určitá historická období vysoké inflace kvůli přísným klasifikačním kritériím, jako je například měsíční inflační práh 50% stanovený definicí Cagana.
+reviewed: false

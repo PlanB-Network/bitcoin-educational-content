@@ -1,0 +1,10 @@
+question: Jaký je limit bitcoinů, které kdy budou?
+answer: 21 milionů
+wrong_answers:
+  - 100 milionů
+  - 1 miliarda
+  - Bez limitu
+explanation: |
+  Kapitola uvádí, že nikdy nebude více než 21 milionů bitcoinů.
+  Tento limit byl stanoven v protokolu Bitcoinu Satoshi Nakamotem a dnes jej nelze změnit.
+posouzeno: false

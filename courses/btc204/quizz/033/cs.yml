@@ -1,0 +1,9 @@
+question: Pokud při jednoduché platební transakci pozorujeme, že jeden z výstupů má kulatou částku, jaký závěr z toho pravděpodobně můžeme vyvodit?
+answer: Kulatý výstup již není ve vlastnictví uživatele vstupu.
+wrong_answers:
+  - Kulatý výstup je určen pro transakční poplatky.
+  - Kulatý výstup stále patří uživateli vstupu.
+  - Kulatý výstup je rezervní adresa.
+explanation: |
+  Když se setkáme s jednoduchým platebním vzorcem (1 vstup a 2 výstupy), pokud jeden z výstupů použije kulatou částku, pak to představuje platbu. Tím pádem opouští vlastnictví uživatele vstupu.
+reviewed: false

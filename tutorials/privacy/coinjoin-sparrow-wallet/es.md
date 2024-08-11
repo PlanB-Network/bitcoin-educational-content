@@ -15,7 +15,7 @@ _Este tutorial se proporciona únicamente con fines educativos e informativos. N
 En este tutorial, aprenderás qué es un coinjoin y cómo realizar uno usando el software Sparrow Wallet y la implementación Whirlpool.
 
 ## ¿Qué es un coinjoin en Bitcoin?
-**Un coinjoin es una técnica que rompe la trazabilidad de los bitcoins en la blockchain**. Se basa en una transacción colaborativa con una estructura específica del mismo nombre: la transacción coinjoin.
+**Un coinjoin es una técnica que rompe la trazabilidad de los bitcoins en la blockchain**. Se basa en una transacción colaborativa con una estructura específica del mismo name: la transacción coinjoin.
 
 Los coinjoins mejoran la privacidad de los usuarios de Bitcoin complicando el análisis de la cadena para observadores externos. Su estructura permite fusionar múltiples monedas de diferentes usuarios en una única transacción, difuminando así los rastros y dificultando determinar los vínculos entre direcciones de entrada y salida.
 
@@ -171,7 +171,7 @@ Usar Sparrow tiene la ventaja de ser bastante fácil de comenzar, rápido de con
 
 ### Instalar Sparrow Wallet
 Para comenzar, obviamente necesitarás el software Sparrow Wallet. Puedes descargarlo directamente desde [el sitio oficial](https://sparrowwallet.com/download/) o en [su GitHub](https://github.com/sparrowwallet/sparrow/releases).
-Antes de instalar el software, será importante verificar la firma e integridad del ejecutable que acabas de descargar. Si deseas más detalles sobre el proceso de instalación y verificación del software Sparrow, te aconsejo leer este otro tutorial: *[Las Guías de Sparrow Wallet](https://planb.network/tutorials/wallet/sparrow)*.
+Antes de instalar el software, será importante verificar la firma e integridad del ejecutable que acabas de descargar. Si deseas más detalles sobre el proceso de instalación y verificación del software Sparrow, te aconsejo leer este otro tutorial: *[Las Guías de Sparrow Wallet](https://planb.network/tutorials/wallet/sparrow)*
 
 ### Crear una Cartera de Software
 Después de instalar el software, necesitarás proceder con la creación de una cartera de Bitcoin. Es importante notar que para participar en coinjoins, el uso de una cartera de software (también llamada "cartera caliente") es esencial. Por lo tanto, **no será posible realizar coinjoins con una cartera asegurada por una cartera de hardware**.
@@ -306,7 +306,7 @@ Se abre una ventana, comienza seleccionando la cartera de destino de la lista de
 
 ![sparrow](assets/notext/37.webp)
 
-Elige el umbral de coinjoin más allá del cual el retiro se realizará automáticamente. No puedo darte un número exacto de remezclas a realizar, ya que esto varía según tu situación personal y tus objetivos de privacidad, pero evita elegir un umbral demasiado bajo. Recomiendo consultar este otro artículo para aprender más sobre el proceso de remezcla: [REMIX - WHIRLPOOL](https://planb.network/tutorials/privacy/remix-whirlpool).
+Elige el umbral de coinjoin más allá del cual el retiro se realizará automáticamente. No puedo darte un número exacto de remezclas a realizar, ya que esto varía según tu situación personal y tus objetivos de privacidad, pero evita elegir un umbral demasiado bajo. Recomiendo consultar este otro artículo para aprender más sobre el proceso de remezcla: [REMIX - WHIRLPOOL](https://planb.network/tutorials/privacy/remix-whirlpool)
 
 Puedes dejar la opción de `Index range` en su valor predeterminado, `Full`. Esta función permite mezclar simultáneamente desde diferentes clientes, pero eso no es lo que queremos hacer en este tutorial. Para finalizar y activar la opción `Mix to...`, presiona `Restart Whirlpool`.
 
@@ -316,7 +316,7 @@ Sin embargo, ten cuidado al usar la opción `Mix to`, ya que retirar monedas mez
 
 ## ¿Cómo conocer la calidad de nuestros ciclos de coinjoin?
 Para que un coinjoin sea verdaderamente efectivo, es esencial que presente una buena homogeneidad entre las cantidades de entradas y salidas. Esta uniformidad amplifica el número de posibles interpretaciones a los ojos de un observador externo, aumentando así la incertidumbre alrededor de la transacción. Para cuantificar esta incertidumbre generada por un coinjoin, se puede recurrir a calcular la entropía de la transacción. Para una exploración en profundidad de estos indicadores, te remito al tutorial: [BOLTZMANN CALCULATOR](https://planb.network/es/tutorials/privacy/boltzmann-entropy). El modelo Whirlpool es reconocido como el que aporta más homogeneidad en los coinjoins.
-A continuación, el rendimiento de varios ciclos de coinjoin se evalúa en base al tamaño de los grupos en los que se oculta una moneda. El tamaño de estos grupos define lo que se llama los anonsets. Hay dos tipos de anonsets: el primero evalúa la privacidad ganada contra el análisis retrospectivo (del presente al pasado) y el segundo, contra el análisis prospectivo (del pasado al presente). Para una explicación detallada de estos dos indicadores, te invito a consultar el tutorial: [WHIRLPOOL STATS TOOLS - ANONSETS](https://planb.network/tutorials/privacy/wst-anonsets).
+A continuación, el rendimiento de varios ciclos de coinjoin se evalúa en base al tamaño de los grupos en los que se oculta una moneda. El tamaño de estos grupos define lo que se llama los anonsets. Hay dos tipos de anonsets: el primero evalúa la privacidad ganada contra el análisis retrospectivo (del presente al pasado) y el segundo, contra el análisis prospectivo (del pasado al presente). Para una explicación detallada de estos dos indicadores, te invito a consultar el tutorial: [WHIRLPOOL STATS TOOLS - ANONSETS](https://planb.network/tutorials/privacy/wst-anonsets)
 
 ## ¿Cómo gestionar el postmix?
 Después de realizar ciclos de coinjoin, la mejor estrategia es mantener tus UTXOs en la cuenta de **postmix**, esperando su uso futuro. Incluso es aconsejable dejarlos remezclar indefinidamente hasta que necesites gastarlos.
@@ -341,8 +341,8 @@ A continuación, necesitas ser cuidadoso al gestionar el cambio tóxico, el camb
 Tutoriales detallados sobre la implementación de estas diferentes técnicas se ofrecerán pronto en PlanB Network.
 
 **Recursos Adicionales:**
-- [Tutorial en Video de Sparrow Wallet](https://planb.network/tutorials/wallet/sparrow);
-- [Tutorial en Video de Samourai Wallet](https://planb.network/tutorials/wallet/samourai);
+[Tutorial en Video de Sparrow Wallet](https://planb.network/tutorials/wallet/sparrow)
+[Tutorial en Video de Samourai Wallet](https://planb.network/tutorials/wallet/samourai)
 - [Documentación de Samourai Wallet - Whirlpool](https://docs.samourai.io/whirlpool/basic-concepts);
 - [Hilo en Twitter sobre CoinJoins](https://twitter.com/SamouraiWallet/status/1489220847336308739);
 - [Publicación en Blog sobre CoinJoins](https://www.pandul.fr/post/comprendre-et-utiliser-le-coinjoin-sur-bitcoin).

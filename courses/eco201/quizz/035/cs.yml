@@ -1,0 +1,9 @@
+question: Co se stane, když dojde k poklesu úrokových sazeb v důsledku zvýšení úspor podle Rakouské teorie hospodářského cyklu?
+answer: Množství konečných spotřebních statků se sníží, úrokové sazby klesnou, podnikatelé využijí tento příliv kapitálu k vytvoření nových investičních statků a tím prodlouží strukturu výroby.
+wrong_answers:
+  - Množství konečných spotřebních statků se zvýší, úrokové sazby vzrostou, podnikatelé využijí tento příliv kapitálu k vytvoření nových investičních statků a tím zkrátí strukturu výroby.
+  - Množství konečných spotřebních statků se sníží, úrokové sazby vzrostou, podnikatelé využijí tento příliv kapitálu k vytvoření nových investičních statků a tím zkrátí strukturu výroby.
+  - Množství konečných spotřebních statků se zvýší, úrokové sazby klesnou, podnikatelé využijí tento příliv kapitálu k vytvoření nových investičních statků a tím zkrátí strukturu výroby.
+explanation: |
+  Podle Rakouské teorie hospodářského cyklu, když dojde k poklesu úrokových sazeb v důsledku zvýšení úspor, množství konečných spotřebních statků se sníží, protože spoření znamená odložení části své spotřeby na pozdější datum. V důsledku toho úrokové sazby klesnou, protože nabídka kapitálu se zvyšuje. To umožní podnikatelům využít tento příliv kapitálu k vytvoření nových investičních statků a tím prodloužit strukturu výroby.
+reviewed: false

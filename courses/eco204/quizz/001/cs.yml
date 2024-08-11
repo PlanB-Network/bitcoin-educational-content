@@ -1,0 +1,9 @@
+question: Jaké byly historicky dvě hlavní metody používané pro zvýšení peněžní zásoby?
+answer: Tisk peněz a snížení obsahu kovu
+wrong_answers:
+  - Tisk peněz a zvýšení obsahu kovu
+  - Snížení peněžní zásoby a zvýšení obsahu kovu
+  - Snížení peněžní zásoby a snížení obsahu kovu
+explanation: |
+  Historicky existovaly dvě hlavní metody pro zvýšení peněžní zásoby; Tisk peněz a snížení obsahu kovu.
+kontrolováno: false

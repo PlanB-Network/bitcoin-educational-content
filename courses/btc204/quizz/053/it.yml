@@ -1,0 +1,13 @@
+question: Qual è lo scopo delle Etichette nei Pagamenti Silenziosi?
+
+answer: Utilizzare più indirizzi statici diversi senza aumentare irragionevolmente il carico di lavoro di scansione.
+
+wrong_answers:
+  - Criptare le transazioni dei Pagamenti Silenziosi per nascondere il vero destinatario della transazione.
+  - Utilizzare più indirizzi statici diversi che non possono essere collegati da un osservatore esterno.
+  - Apporre un'etichetta visibile sulla blockchain per identificare i Pagamenti Silenziosi alla maniera di un riferimento di pagamento.
+
+explanation: |
+  Le etichette sono utilizzate per generare più indirizzi statici a partire dall'indirizzo statico principale, il che facilita l'organizzazione del portafoglio. Tuttavia, un osservatore esterno potrebbe facilmente stabilire un collegamento tra questi indirizzi statici etichettati, poiché la chiave pubblica di scansione è la stessa per tutti.
+
+reviewed: false

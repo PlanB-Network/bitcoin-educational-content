@@ -1,0 +1,11 @@
+question: Jaký je účel uzlů v síti Bitcoin?
+answer: Udržovat a zabezpečit blockchain
+wrong_answers:
+  - Zpracovávat transakce
+  - Navrhovat a implementovat změny v základním kódu Bitcoinu
+  - Soutěžit s ostatními těžaři
+explanation: |
+  Uzly jsou nezbytné pro integritu a bezpečnost sítě Bitcoin.
+  Slouží jako strážci systému, zajišťují, že transakce
+  jsou zpracovány přesně a podle pravidel.
+reviewed: true

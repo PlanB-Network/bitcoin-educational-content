@@ -22,14 +22,14 @@ Trong hướng dẫn này, tôi sẽ giải thích cách chỉnh sửa mục "H�
 ![tutorial](assets/1.webp)
 **Điều kiện tiên quyết trước khi bắt đầu hướng dẫn:**
 - Có một [tài khoản GitHub](https://github.com/signup).
-- Có một fork của [kho lưu trữ nguồn PlanB Network](https://github.com/DecouvreBitcoin/sovereign-university-data).
+- Có một fork của [kho lưu trữ nguồn PlanB Network](https://github.com/PlanB-Network/bitcoin-educational-content).
 - Có [một hồ sơ giáo sư trên Mạng PlanB](https://planb.network/professors) (chỉ khi bạn đề xuất một hướng dẫn đầy đủ).
 
 **Nếu bạn cần trợ giúp để đạt được các điều kiện tiên quyết này, các hướng dẫn khác của tôi sẽ hướng dẫn bạn:**
-- **[Hiểu biết về Git và GitHub](https://planb.network/tutorials/others/basics-of-github)**
-- **[Tạo một tài khoản GitHub](https://planb.network/tutorials/others/create-github-account)**
-- **[Thiết lập môi trường làm việc của bạn](https://planb.network/tutorials/others/github-desktop-work-environment)**
-- **[Tạo một hồ sơ giáo sư](https://planb.network/tutorials/others/create-teacher-profile)**
+**[Hiểu biết về Git và GitHub](https://planb.network/tutorials/others/basics-of-github)**
+**[Tạo một tài khoản GitHub](https://planb.network/tutorials/others/create-github-account)**
+**[Thiết lập môi trường làm việc của bạn](https://planb.network/tutorials/others/github-desktop-work-environment)**
+**[Tạo một hồ sơ giáo sư](https://planb.network/tutorials/others/create-teacher-profile)**
 ## Loại nội dung nào để viết trên Mạng PlanB?
 Chúng tôi chủ yếu tìm kiếm các hướng dẫn về các công cụ liên quan đến Bitcoin hoặc hệ sinh thái của nó. Những nội dung này có thể được tổ chức xung quanh sáu danh mục chính:
 - Ví;
@@ -72,7 +72,7 @@ Một khi mọi thứ đã sẵn sàng, và môi trường địa phương của
 - Nhấp vào nhánh này, sau đó nhấp vào nút `New Branch`:
 ![hướng dẫn](assets/8.webp)
 - Đảm bảo nhánh mới được dựa trên kho lưu trữ nguồn, tức là `DecouvreBitcoin/sovereign-university-data`.
-- Đặt tên cho nhánh của bạn sao cho tiêu đề rõ ràng về mục đích của nó, sử dụng dấu gạch ngang để phân cách từng từ. Ví dụ, giả sử mục tiêu của chúng ta là viết một hướng dẫn về việc sử dụng phần mềm Sparrow Wallet. Trong trường hợp này, nhánh làm việc dành riêng cho việc viết hướng dẫn này có thể được đặt tên: `tuto-sparrow-wallet-loic`. Sau khi nhập tên phù hợp, nhấp vào `Create branch` để xác nhận việc tạo nhánh:
+- Đặt tên cho nhánh của bạn sao cho tiêu đề rõ ràng về mục đích của nó, sử dụng dấu gạch ngang để phân cách từng từ. Ví dụ, giả sử mục tiêu của chúng ta là viết một hướng dẫn về việc sử dụng phần mềm Sparrow Wallet. Trong trường hợp này, nhánh làm việc dành riêng cho việc viết hướng dẫn này có thể được đặt name: `tuto-sparrow-wallet-loic`. Sau khi nhập tên phù hợp, nhấp vào `Create branch` để xác nhận việc tạo nhánh:
 ![hướng dẫn](assets/9.webp)
 - Bây giờ nhấp vào nút `Publish branch` để lưu nhánh làm việc mới của bạn trên bản fork trực tuyến trên GitHub:
 ![hướng dẫn](assets/10.webp)

@@ -1,0 +1,13 @@
+question: Was ist die Hauptbedrohung, die mit der Wiederverwendung von Adressen verbunden ist?
+
+answer: Sie ermöglicht es, deterministische Verbindungen zwischen verschiedenen Transaktionen und einem gemeinsamen Besitz der betreffenden UTXOs herzustellen.
+
+wrong_answers:
+  - Sie legt die IP-Adresse des Benutzers anderen Netzwerkteilnehmern während der Transaktionsvalidierung offen.
+  - Sie verringert die Wirksamkeit von digitalen Signaturmechanismen, was die Sicherheit von Transaktionen schwächt.
+  - Sie führt zu einem Anstieg der Transaktionsgebühren aufgrund von Stauungen, die durch die Wiederverwendung von Adressen verursacht werden.
+
+explanation: |
+  Wenn dieselbe Adresse für mehrere Transaktionen verwendet wird, wird es möglich zu folgern, dass alle mit dieser Adresse verbundenen Bitcoins derselben Person gehören.
+
+reviewed: false

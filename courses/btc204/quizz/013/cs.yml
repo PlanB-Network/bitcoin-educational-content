@@ -1,0 +1,9 @@
+question: Jaký je model ochrany soukromí bankovního systému?
+answer: K detailům transakcí má přístup pouze banka.
+wrong_answers:
+  - Transakce jsou veřejné, ale identita uživatelů není známa.
+  - Transakce jsou anonymní a skryté před všemi, včetně banky.
+  - K detailům transakcí má přístup pouze vláda.
+explanation: |
+  V tradičním systému je každý bankovní účet spojen s identitou. Tok informací je však přerušen mezi bankou a veřejnou doménou.
+reviewed: false

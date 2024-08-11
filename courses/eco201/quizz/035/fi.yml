@@ -1,0 +1,9 @@
+question: Mitä tapahtuu, kun korkotaso laskee säästämisen lisääntyessä Itävallan liiketoimintasyklin teorian mukaan?
+answer: Lopputuotteiden kulutusmäärä vähenee, korkotasot laskevat, yrittäjät käyttävät tätä pääoman lisäystä luodakseen uusia investointihyödykkeitä ja näin ollen pidentävät tuotantorakennetta.
+wrong_answers:
+  - Lopputuotteiden kulutusmäärä kasvaa, korkotasot nousevat, yrittäjät käyttävät tätä pääoman lisäystä luodakseen uusia investointihyödykkeitä ja näin ollen lyhentävät tuotantorakennetta.
+  - Lopputuotteiden kulutusmäärä vähenee, korkotasot nousevat, yrittäjät käyttävät tätä pääoman lisäystä luodakseen uusia investointihyödykkeitä ja näin ollen lyhentävät tuotantorakennetta.
+  - Lopputuotteiden kulutusmäärä kasvaa, korkotasot laskevat, yrittäjät käyttävät tätä pääoman lisäystä luodakseen uusia investointihyödykkeitä ja näin ollen lyhentävät tuotantorakennetta.
+explanation: |
+  Itävallan liiketoimintasyklin teorian mukaan, kun korkotaso laskee säästämisen lisääntyessä, lopputuotteiden kulutusmäärä vähenee, koska säästäminen tarkoittaa osan kulutuksen siirtämistä myöhempään ajankohtaan. Tämän seurauksena korkotasot laskevat, koska pääoman tarjonta kasvaa. Tämä mahdollistaa yrittäjien käyttää tätä pääoman lisäystä luodakseen uusia investointihyödykkeitä ja näin ollen pidentää tuotantorakennetta.
+reviewed: false

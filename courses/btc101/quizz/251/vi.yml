@@ -1,0 +1,10 @@
+question: Vấn đề chính của kiểm duyệt là gì?
+answer: Nó có thể phá hủy quyền tự do ngôn luận và quyền tự do tập hợp.
+wrong_answers:
+  - Nó có thể dẫn đến việc tăng cường tự do ngôn luận.
+  - Nó có thể dẫn đến việc tăng cường quyền tự do tập hợp.
+  - Nó có thể dẫn đến việc giảm sự đổi mới.
+explanation: >-
+  Văn bản đề cập rằng việc chấp nhận kiểm duyệt có thể phá hủy quyền tự do ngôn luận
+  và quyền tự do tập hợp.
+reviewed: false

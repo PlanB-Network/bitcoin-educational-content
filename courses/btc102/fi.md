@@ -326,7 +326,7 @@ Barack Obama kuvasi kerran Bitcoinia "sveitsiläisenä pankkina taskussasi". Ja 
 ![tiivistetysti](assets/section2/1.webp)
 
 Yhteenvetona, Bitcoinia voidaan pitää "kansan valuuttana".
-Päivän filosofinen kysymys: Bitcoinin maailmassa on vastakkain kaksi ideologiaa. Haluatko tuoda miljardeja ihmisiä, jotka eivät ole pankkijärjestelmässä, siihen sisälle? Vai haluatko ottaa miljardeja ihmisiä, jotka ovat pankkijärjestelmässä, siitä ulos?
+Päivän filosofinen question: Bitcoinin maailmassa on vastakkain kaksi ideologiaa. Haluatko tuoda miljardeja ihmisiä, jotka eivät ole pankkijärjestelmässä, siihen sisälle? Vai haluatko ottaa miljardeja ihmisiä, jotka ovat pankkijärjestelmässä, siitä ulos?
 
 Tämä kysymys ansaitsee pohdintaa, ja palaamme siihen myöhemmin.
 

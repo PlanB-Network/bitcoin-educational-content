@@ -1,0 +1,9 @@
+question: Bitcoinプロトコルにおけるマイナーの役割は何ですか？
+answer: 現在および過去のネットワークを保護する
+wrong_answers:
+  - Bitcoinの価格を規制する
+  - Bitcoinの供給を制御する
+  - ユーザー間の取引を管理する
+explanation: >-
+  Bitcoinプロトコルにおけるマイナーは、現在および過去のネットワークを保護します。Bitcoinの価格を規制したり、その供給を制御したり、ユーザー間の取引を管理するわけではありません。
+reviewed: false

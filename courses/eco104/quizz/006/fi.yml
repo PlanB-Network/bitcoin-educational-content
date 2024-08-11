@@ -1,0 +1,9 @@
+question: Miksi talon ostaminen on tänään paljon vaikeampaa kuin 1980-luvulla?
+answer: Matalat korkotasot tekevät velan ottamisesta houkuttelevampaa ja inflaatio
+wrong_answers:
+  - Inflaatio ja vuokrahinnat
+  - Elämisen kustannusten nousu ja väestönkasvu
+  - Omaisuuden puute ja matalat korkotasot, jotka tekevät velan ottamisesta houkuttelevampaa
+explanation: |
+  Vaikka inflaatio heikentää valuuttamme ostovoimaa, mikä tekee säästämisestä vaikeampaa, matalat korkotasot tekevät velan ottamisesta houkuttelevampaa. Kun pääoman kustannukset ovat näin halpoja, ihmiset lainaavat yli varojensa, kanavoiden enemmän pääomaa omaisuuseriin ja nostavat hintoja.
+reviewed: false

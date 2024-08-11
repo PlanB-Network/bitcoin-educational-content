@@ -1,0 +1,12 @@
+question: Lợi ích chính khi sử dụng ví không giữ hộ (non-custodial wallets) để lưu trữ bitcoin là gì?
+answer: Tăng cường an ninh và bảo mật
+wrong_answers:
+  - Truy cập bitcoin dễ dàng
+  - Phí giao dịch thấp hơn
+  - Không cần mật khẩu
+explanation: |
+  Ví không giữ hộ là nơi bạn là người duy nhất giữ quyền kiểm soát quỹ của mình,
+  nghĩa là bạn có toàn quyền kiểm soát các khóa riêng tư của mình. Do đó,
+  ví không giữ hộ cung cấp một mức độ an ninh và bảo mật cao hơn
+  so với ví giữ hộ vì bạn là người duy nhất chịu trách nhiệm về sự an toàn của quỹ của mình.
+reviewed: false

@@ -1,0 +1,11 @@
+question: Jaký je účel těžebních poolů?
+answer: Těžební pooly umožňují těžařům sdružit jejich výpočetní zdroje a získávat menší, ale pravidelnější odměny.
+wrong_answers:
+  - Těžební pooly slouží k zvýšení HashRate sítě Bitcoin.
+  - Těžební pooly slouží ke snížení obtížnosti těžby.
+  - Těžební pooly slouží ke zvýšení odměny za těžbu.
+explanation: >-
+  Těžební pooly jsou skupiny těžařů, kteří kombinují svůj výpočetní výkon,
+  aby zvýšili své šance na těžbu bloku. Sdružením svých zdrojů mohou
+  těžit bloky častěji a získávat menší, ale pravidelnější odměny.
+reviewed: false

@@ -1,0 +1,11 @@
+question: Qual è la connessione storica tra il denaro e le materie prime come l'oro?
+answer: L'oro è scarso e ampiamente accettato come riserva di valore
+wrong_answers:
+  - L'oro rende il denaro più attraente
+  - L'oro è facilmente divisibile
+  - L'oro è unico
+explanation: |
+  Data la scarsità globalizzata dell'oro in natura e l'investimento significativo richiesto
+  per estrarre, raffinare e conservare, l'oro ha costantemente scambiato a un premio sopra
+  altre forme di denaro.
+reviewed: false

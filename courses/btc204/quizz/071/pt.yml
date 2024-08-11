@@ -1,0 +1,11 @@
+question: Qual medida intermediária pode ser tomada para ocultar conexões quando você não está usando seu próprio nó Bitcoin?
+
+answer: Uso do Tor.
+
+wrong_answers:
+  - Uso de um firewall.
+  - Uso de uma carteira criptografada.
+  - Uso de uma carteira dupla.
+
+explanation: |
+  Para limitar o risco de ser observado, uma solução intermediária é usar um software de carteira que permite ocultar suas conexões via Tor.

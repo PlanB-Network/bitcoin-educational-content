@@ -1,0 +1,10 @@
+question: Jaká je doporučená minimální doba čekání pro Hodlera?
+answer: Alespoň jeden nebo dva cykly.
+wrong_answers:
+  - Méně než rok.
+  - Pět až deset let.
+  - Neexistuje žádná minimální doba čekání.
+explanation: |
+  Kapitola naznačuje, že Hodler by měl počkat alespoň jeden nebo dva
+  cykly, aby viděl růst své investice.
+reviewed: false

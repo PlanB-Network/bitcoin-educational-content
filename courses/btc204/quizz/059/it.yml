@@ -1,0 +1,13 @@
+question: A quale livello approssimativo si attesta il tasso complessivo di riutilizzo degli indirizzi su Bitcoin?
+
+answer: Circa il 50%
+
+wrong_answers:
+  - Circa il 5%
+  - Circa il 15%
+  - Circa il 40%
+
+explanation: |
+  Dall'inizio degli anni 2010, il tasso complessivo di riutilizzo degli indirizzi su Bitcoin ha fluttuato intorno al 50%.
+
+reviewed: false

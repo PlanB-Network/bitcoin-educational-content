@@ -1,0 +1,9 @@
+question: Jaká je jedna charakteristika technologicky zdatného uživatele Bitcoinu?
+answer: Mají dobré porozumění technologiím, včetně teplých a studených Bitcoin peněženek a Lightning Network.
+wrong_answers:
+  - Používají Bitcoin pouze pro dlouhodobé investice.
+  - Používají Bitcoin pouze pro denní transakce.
+  - Používají Bitcoin pouze na obchodních platformách.
+explanation: |
+  Technologicky zdatní uživatelé Bitcoinu rozumí technologiím zapojeným do transakcí s Bitcoinem, včetně různých typů peněženek a Lightning Network.
+reviewed: false

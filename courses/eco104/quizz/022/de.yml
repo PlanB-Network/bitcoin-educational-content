@@ -1,0 +1,13 @@
+question: Wie helfen Stablecoins, die Kosten für Überweisungen zu senken?
+
+answer: Indem sie niedrigere Gebühren als traditionelle Dienste anbieten
+
+wrong_answers:
+  - Indem sie kostenlose Geldüberweisungsdienste bereitstellen
+  - Indem sie Einzelpersonen bessere Wechselkurse als traditionelle Dienste bieten
+  - Indem sie Fiat-Währungen digitalisieren
+
+explanation: |
+  Stablecoins haben im Gegensatz zu traditionellen Geldüberweisungsdiensten deutlich niedrigere Gebühren, da sie keine Zwischenhändler wie Banken oder Geldüberweisungsdienste benötigen.
+
+reviewed: false

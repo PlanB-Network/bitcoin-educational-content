@@ -1,0 +1,11 @@
+question: Entre las siguientes respuestas, ¿cuál no permite engañar a las heurísticas de análisis de cadena?
+
+answer: Usar siempre la misma dirección de recepción.
+
+wrong_answers:
+  - Crear un cambio cuyo valor esté cerca del pago.
+  - Hacer salidas de cantidades irregulares, no redondas.
+  - Distribuir el rango de transacciones a lo largo del día.
+
+explanation: |
+  No se debe usar una dirección de recepción múltiples veces. Todas las otras respuestas permiten evitar las heurísticas de análisis de cadena.

@@ -1,0 +1,11 @@
+question: Mikä seuraavista on välttämätön onnistuneelle vaihdannalle vaihtotalousjärjestelmässä?
+answer: Kahden toiveen yhteensattuma
+wrong_answers:
+  - Yhteinen arvon mittayksikkö
+  - Keskuspankkiviranomainen
+  - Minimisaldovaatimus
+explanation: |
+  Vaihtotalousjärjestelmässä vaihdannot tapahtuvat suoraan kahden osapuolen välillä vaihtamalla tavaroita tai 
+  palveluita ilman rahan käyttöä. Onnistunut vaihdanto vaatii kahden toiveen yhteensattuman, 
+  mikä tarkoittaa, että molemmilla osapuolilla on oltava jotakin, mitä toinen haluaa vaihtaa.
+reviewed: false

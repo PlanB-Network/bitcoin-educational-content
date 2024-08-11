@@ -22,14 +22,14 @@ Para contribuir a la PlanB Network, tienes 3 opciones dependiendo de tu nivel de
 ![tutorial](assets/1.webp)
 **Prerrequisitos antes de comenzar el tutorial:**
 - Tener una [cuenta de GitHub](https://github.com/signup).
-- Tener un fork del [repositorio fuente de PlanB Network](https://github.com/DecouvreBitcoin/sovereign-university-data).
+- Tener un fork del [repositorio fuente de PlanB Network](https://github.com/PlanB-Network/bitcoin-educational-content).
 - Tener [un perfil de profesor en PlanB Network](https://planb.network/professors) (solo si estás proponiendo un tutorial completo).
 
 **Si necesitas ayuda para obtener estos prerrequisitos, mis otros tutoriales te guiarán:**
-- **[Entendiendo Git y GitHub](https://planb.network/tutorials/others/basics-of-github)**
-- **[Creando una cuenta de GitHub](https://planb.network/tutorials/others/create-github-account)**
-- **[Configurando tu entorno de trabajo](https://planb.network/tutorials/others/github-desktop-work-environment)**
-- **[Creando un perfil de profesor](https://planb.network/tutorials/others/create-teacher-profile)**
+**[Entendiendo Git y GitHub](https://planb.network/tutorials/others/basics-of-github)**
+**[Creando una cuenta de GitHub](https://planb.network/tutorials/others/create-github-account)**
+**[Configurando tu entorno de trabajo](https://planb.network/tutorials/others/github-desktop-work-environment)**
+**[Creando un perfil de profesor](https://planb.network/tutorials/others/create-teacher-profile)**
 ## ¿Qué tipo de contenido escribir en PlanB Network?
 Estamos buscando principalmente tutoriales sobre herramientas relacionadas con Bitcoin o su ecosistema. Estos contenidos pueden organizarse en torno a seis categorías principales:
 - Cartera;

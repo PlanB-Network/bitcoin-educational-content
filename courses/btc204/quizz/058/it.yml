@@ -1,0 +1,13 @@
+question: Qual è la differenza tra il riutilizzo di indirizzi esterni e interni in una transazione?
+
+answer: Il riutilizzo esterno si osserva attraverso molteplici transazioni, mentre quello interno si osserva all'interno della stessa transazione.
+
+wrong_answers:
+  - Il riutilizzo esterno riguarda gli indirizzi pubblici, mentre quello interno concerne gli indirizzi privati utilizzati negli script di transazione.
+  - Il riutilizzo interno si osserva attraverso molteplici transazioni, mentre quello esterno si osserva all'interno della stessa transazione.
+  - Il riutilizzo interno riguarda gli indirizzi pubblici, mentre quello esterno concerne gli indirizzi privati utilizzati negli script di transazione.
+
+explanation: |
+  Il riutilizzo di indirizzi esterni si osserva quando un indirizzo viene riutilizzato in diverse transazioni differenti, mentre il riutilizzo interno concerne un indirizzo che viene utilizzato sia negli input che negli output della stessa transazione.
+
+reviewed: false

@@ -1,0 +1,13 @@
+question: ¿Qué medida intermedia se puede tomar para ocultar las conexiones cuando no estás utilizando tu propio nodo de Bitcoin?
+
+answer: Uso de Tor.
+
+wrong_answers:
+  - Uso de un cortafuegos.
+  - Uso de una cartera cifrada.
+  - Uso de una cartera doble.
+
+explanation: |
+  Para limitar el riesgo de ser observado, una solución intermedia es utilizar software de cartera que te permita ocultar tus conexiones mediante Tor.
+
+reviewed: false

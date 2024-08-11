@@ -1382,17 +1382,17 @@ Changer le système financier nécessite de changer la monnaie. Satoshi a créé
 
 Félicitations pour avoir terminé cette formation BTC 101 ! J'espère de tout cœur qu'elle vous a plu et ouvert des portes. Votre découverte du bitcoin n'en est qu'à ses débuts et je vous invite à découvrir toutes les autres formations disponibles sur l'université.
 
-- [BTC 102](https://planb.network/course/btc102) vous aidera à mettre en place votre plan bitcoin
-- [LN 201](https://planb.network/course/ln201) et [LN 202](https://planb.network/course/ln202) vous permettront de découvrir le Lightning Network, un réseau de paiements en second couche
-- [ECON 201](https://planb.network/course/econ201) abordera l'économie autrichienne
-- [ SECU 101 ](https://planb.network/course/secu101) vous permettra de mettre à jour votre sécurité numérique
-- [MINAGE 201](https://planb.network/course/min201) pour en savoir plus sur le minage
+- [BTC 102](https://planb.network/courses/btc102) vous aidera à mettre en place votre plan bitcoin
+- [LNP 201](https://planb.network/courses/lnp201) vous permettra de découvrir le Lightning Network, un réseau de paiements en second couche
+- [ECO 201](https://planb.network/courses/eco201) abordera l'économie autrichienne
+- [SCU 101 ](https://planb.network/courses/scu101) vous permettra de mettre à jour votre sécurité numérique
+- [MIN 201](https://planb.network/courses/min201) pour en savoir plus sur le minage
 - et bien d'autres...
 
 ## Soutiens-nous
 <chapterId>3e6e756b-b6c4-5d41-bece-767922348067</chapterId>
 
-Ce cours, ainsi que l'intégralité du contenu présent sur cette université, vous a été offert gratuitement par notre communauté. Pour nous soutenir, vous pouvez le partager autour de vous, devenir membre de l'université et même contribuer à son développement via [notre GitHub](https://github.com/DecouvreBitcoin/sovereign-university-data). Au nom de toute l'équipe, merci !
+Ce cours, ainsi que l'intégralité du contenu présent sur cette université, vous a été offert gratuitement par notre communauté. Pour nous soutenir, vous pouvez le partager autour de vous, devenir membre de l'université et même contribuer à son développement via [notre GitHub](https://github.com/PlanB-Network/bitcoin-educational-content). Au nom de toute l'équipe, merci !
 
 ## Note la formation
 <chapterId>44d01865-5c89-55a5-a397-a014960eec0f</chapterId>

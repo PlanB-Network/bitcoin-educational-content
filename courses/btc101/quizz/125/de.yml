@@ -1,0 +1,8 @@
+question: Was ist das Datum des letzten bekannten privaten Austauschs von Satoshi Nakamoto per E-Mail?
+answer: 23. April 2011
+wrong_answers:
+  - 12. Dezember 2010
+  - 8. Januar 2009
+  - 31. Oktober 2008
+explanation: Das Datum des letzten bekannten privaten Austauschs von Satoshi Nakamoto per E-Mail ist der 23. April 2011 mit dem Entwickler Mike Hearn.
+reviewed: false

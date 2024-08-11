@@ -1,0 +1,8 @@
+question: Jos havaitsemme siirron, jossa on 6 UTXOa syötteinä ja vain yksi UTXO tuloksena, mikä on todennäköinen tulkinta?
+answer: Kaikki syötteiden UTXOt kuuluivat samalle käyttäjälle, ja tämä käyttäjä on edelleen tuloksena olevan UTXOn omistaja.
+wrong_answers:
+  - Syötteiden UTXOt tulivat eri käyttäjiltä, jotka yhteistyössä tekivät yhden siirron.
+  - Kaikki syötteiden UTXOt kuuluivat samalle käyttäjälle, ja tuloksena oleva kuuluu nyt toiselle käyttäjälle.
+  - Syötteiden UTXOt tulivat 2 eri käyttäjältä, ja tuloksena oleva kuuluu edelleen näille 2 käyttäjälle.
+explanation: |
+  Todennäköisesti on kyse konsolidaatiosta. Siksi syötteiden ja tuloksen yhteinen omistajuus on todennäköinen.

@@ -1,0 +1,13 @@
+question: Qual é o principal objetivo do BIP47?
+
+answer: Ter um identificador único para receber BTC sem reutilizar endereços.
+
+wrong_answers:
+  - Aumentar o tamanho dos blocos para transações mais rápidas.
+  - Permitir transações sem taxas na rede Bitcoin.
+  - Tornar as transações completamente anônimas no Bitcoin.
+
+explanation: |
+  O objetivo do BIP47 é fornecer um identificador único que permite receber bitcoins várias vezes e de várias pessoas, mas sem reutilizar endereços, pois isso é uma prática muito ruim para a privacidade do usuário.
+
+reviewed: false

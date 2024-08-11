@@ -400,7 +400,7 @@ $ rgb0-cli fungible list -l
   ticker: USDT
   name: USD Tether
 ```
-説明: ~  knownCirculating: 1000
+explanation: ~  knownCirculating: 1000
   isIssuedKnown: ~
   issueLimit: 0
   chain: testnet

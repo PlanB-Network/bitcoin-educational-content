@@ -1,0 +1,13 @@
+question: ¿Cuál es la principal amenaza asociada con la reutilización de direcciones?
+
+answer: Permite establecer vínculos deterministas entre diferentes transacciones y una propiedad común de los UTXOs concernidos.
+
+wrong_answers:
+  - Expone la dirección IP del usuario a otros participantes de la red durante la validación de la transacción.
+  - Reduce la efectividad de los mecanismos de firma digital, lo que debilita la seguridad de las transacciones.
+  - Conduce a un aumento en las tarifas de transacción debido a la congestión causada por la reutilización de direcciones.
+
+explanation: |
+  Si se utiliza la misma dirección para múltiples transacciones, se vuelve posible deducir que todos los bitcoins asociados con esa dirección pertenecen a la misma persona.
+
+reviewed: false

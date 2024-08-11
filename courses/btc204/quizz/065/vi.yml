@@ -1,0 +1,14 @@
+question: Dust trong ngữ cảnh của UTXOs là gì?
+
+answer: UTXOs có giá trị quá thấp để chi trả các khoản phí cần thiết để sử dụng chúng.
+
+wrong_answers:
+  - UTXOs được tạo ra do lỗi giao dịch và không thể được xác nhận trên blockchain.
+  - UTXOs được đánh dấu là đáng ngờ hoặc liên kết với các hoạt động bất hợp pháp trên mạng.
+  - UTXOs được lưu trữ trong các địa chỉ không sử dụng trong thời gian dài và được coi là đã mất.
+
+explanation: |
+  Dust ám chỉ các UTXOs có giá trị bằng sats quá thấp đến mức không đủ để chi trả các khoản phí giao dịch cần thiết để sử dụng chúng.
+
+reviewed: false
+

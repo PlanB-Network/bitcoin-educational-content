@@ -1,0 +1,11 @@
+question: Bitcoinウォレットの公開鍵を共有するリスクは何ですか？
+answer: プライバシーのリスク
+wrong_answers:
+  - Bitcoinウォレットを破壊するリスク
+  - Bitcoinを失うリスク
+  - Bitcoinウォレットのハッキングリスク
+explanation: |
+  公開鍵を共有することは、セキュリティではなくプライバシーに関するリスクを伴います。
+  これは、公開鍵がBitcoinアドレスを生成し、その結果お金を受け取るために使用されるものの、
+  Bitcoinの所有権を表すものではないためです。
+reviewed: true

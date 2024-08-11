@@ -1,0 +1,11 @@
+question: Jaký je způsob nákupu nebo prodeje bitcoinů bez KYC?
+answer: Použitím peer-to-peer řešení, jako je Peach.
+wrong_answers:
+  - Použitím hot peněženky.
+  - Použitím cold peněženky.
+  - Použitím hardwarové peněženky.
+explanation: |
+  KYC, neboli Know Your Customer, je proces, který firmy používají k ověření
+  identity svých klientů. Metody bez KYC, jako jsou peer-to-peer řešení,
+  umožňují uživatelům kupovat nebo prodávat bitcoiny bez nutnosti poskytování osobních informací.
+reviewed: false

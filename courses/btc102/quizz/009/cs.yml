@@ -1,0 +1,12 @@
+question: Jaká je hlavní funkce správce hesel?
+answer: Ukládat a spravovat vaše hesla
+wrong_answers:
+  - Generovat náhodná hesla
+  - Pamatoval si vaše uživatelská jména
+  - Chránit váš počítač před viry
+explanation: |
+  Správce hesel je software, který ukládá a spravuje vaše hesla.
+
+  Pomáhá vám nikdy nepoužívat stejné heslo dvakrát, vybírat složitá a bezpečná hesla,
+
+  a usnadňuje správu vaší online bezpečnosti.

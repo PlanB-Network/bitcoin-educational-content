@@ -1,0 +1,12 @@
+question: Qual é a principal vantagem de usar carteiras não custodiais para armazenar bitcoin?
+answer: Aumento da segurança e privacidade
+wrong_answers:
+  - Acesso fácil ao bitcoin
+  - Taxas de transação mais baixas
+  - Não é necessário senha
+explanation: |
+  Carteiras não custodiais são aquelas em que você é o único guardião dos seus fundos,
+  significando que você tem controle completo sobre suas chaves privadas. Portanto,
+  carteiras não custodiais oferecem um nível mais alto de segurança e privacidade
+  em comparação com carteiras custodiais, já que você é o único responsável pela segurança dos seus fundos.
+reviewed: true

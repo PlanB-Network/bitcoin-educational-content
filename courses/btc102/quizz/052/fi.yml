@@ -1,0 +1,11 @@
+question: Mikä on yritysten, kuten OpenNode, Swiss Bitcoin Pay ja BTCPay, rooli Bitcoin-ekosysteemissä?
+answer: Ne tarjoavat työkaluja, jotka helpottavat yritysten Bitcoinien hyväksymistä.
+wrong_answers:
+  - Ne louhivat Bitcoinia.
+  - Ne säätelevät Bitcoinia.
+  - Ne laskevat liikkeelle Bitcoinia.
+explanation: |
+  Yritykset kuten OpenNode, Swiss Bitcoin Pay ja BTCPay tarjoavat työkaluja,
+  jotka helpottavat yritysten Bitcoinien hyväksymistä, edistäen sen omaksumista
+  ja käyttöä jokapäiväisissä transaktioissa.
+reviewed: false

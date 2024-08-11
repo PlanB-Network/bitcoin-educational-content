@@ -47,7 +47,9 @@ Nó hiển thị một điểm số hồi tưởng là `34,593` và một điể
 - Nếu một nhà phân tích biết đồng tiền của tôi ở đầu các chu kỳ và cố gắng xác định sự tương ứng của nó ở cuối, họ sẽ đối mặt với `45,202` UTXOs tiềm năng, mỗi UTXO có cùng khả năng là của tôi.
 Đó là lý do tại sao tôi coi việc sử dụng Whirlpool là đặc biệt liên quan trong một chiến lược `Hodl -> Mix -> Spend -> Replace`. Theo ý kiến của tôi, cách tiếp cận hợp lý nhất là giữ phần lớn tiền tiết kiệm của mình bằng bitcoin trong một ví lạnh, trong khi liên tục duy trì một số lượng nhất định của đồng tiền trong coinjoin trên Samourai để chi trả cho các chi phí hàng ngày. Một khi các bitcoin từ các coinjoins được chi tiêu, chúng được thay thế bằng những đồng mới để trở lại ngưỡng định nghĩa của đồng tiền đã trộn. Phương pháp này cho phép chúng ta tự do khỏi lo lắng về anonsets của UTXOs của mình, đồng thời làm cho thời gian cần thiết cho coinjoins trở nên hiệu quả ít hạn chế hơn.
 
-Tôi hy vọng câu trả lời này đã làm sáng tỏ mô hình Whirlpool. Nếu bạn muốn tìm hiểu thêm về cách coinjoins hoạt động trên Bitcoin, tôi khuyên bạn đọc [bài viết tổng hợp của tôi về chủ đề này](https://planb.network/tutorials/privacy/coinjoin-dojo).
+Tôi hy vọng câu trả lời này đã làm sáng tỏ mô hình Whirlpool. Nếu bạn muốn tìm hiểu thêm về cách coinjoins hoạt động trên Bitcoin, tôi khuyên bạn đọc bài viết tổng hợp của tôi về chủ đề này:
+
+https://planb.network/tutorials/privacy/coinjoin-dojo
 
 **Nguồn tài liệu bên ngoài:**
 - Samourai Wallet Whirlpool

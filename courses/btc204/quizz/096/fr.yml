@@ -1,0 +1,13 @@
+question: Qu'indique l'anonset rétrospectif ?
+
+answer: Le nombre de sources probables pour un UTXO en sortie de cycles.
+
+wrong_answers:
+  - La taille du groupe d'UTXOs indiscernables en sortie de cycles.
+  - Le nombre de sources probables pour un UTXO en entrée de cycles.
+  - La durée nécessaire pour compléter un coinjoin.
+
+explanation: |
+  L'anonset rétrospectif indique le nombre de sources possibles pour une pièce donnée, sachant l'UTXO en sortie de cycle.
+
+reviewed: false

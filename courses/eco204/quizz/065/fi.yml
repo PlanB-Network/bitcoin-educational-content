@@ -1,0 +1,14 @@
+question: Mikä on pääidea rahan aika-arvon käsitteen takana?
+answer: Aika on arvokasta
+wrong_answers:
+  - Raha menettää arvoaan ajan myötä
+  - Rahalla voi vaihtaa aikaa
+  - Ajan voi vaihtaa rahaksi
+explanation: |
+  Rahan aika-arvon käsitteen pääidea on, että
+  aika
+
+  on arvokasta. Jos joku päättää maksaa esimerkiksi 100 dollarin suuruisen velkakirjan kuukautta etuajassa,
+
+  hän voi saada sen esimerkiksi 98 dollarilla ja vastaanottaa 100 dollaria eräpäivänä.
+reviewed: false

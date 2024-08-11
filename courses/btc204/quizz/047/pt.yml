@@ -1,0 +1,13 @@
+question: Qual é o papel da transação de notificação no BIP47?
+
+answer: Transmitir o código de pagamento ao destinatário e sinalizar que os pagamentos estão a caminho.
+
+wrong_answers:
+  - Validar o endereço de recebimento de Bitcoin para futuras transações via códigos de pagamento.
+  - Confirmar o recebimento de bitcoins pelo destinatário com BIP47.
+  - Enviar as chaves privadas efêmeras do remetente para o destinatário para que possam gastar os bitcoins.
+
+explanation: |
+  A transação de notificação permite a transmissão do código de pagamento do remetente para o destinatário, para que este possa conhecê-lo e encontrá-lo posteriormente apenas a partir de sua seed em caso de recuperação da carteira. Como o próprio nome sugere, também desempenha um papel de notificação.
+
+reviewed: false

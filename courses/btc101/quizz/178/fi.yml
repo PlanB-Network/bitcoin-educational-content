@@ -1,0 +1,8 @@
+question: Mikä on yleinen suuntaus Bitcoinille sen rajallisen määrän ja puolittumisprosessin vuoksi?
+answer: Yleisesti nouseva suuntaus.
+wrong_answers:
+  - Yleisesti laskeva suuntaus.
+  - Ei minkäänlaista suuntausta.
+  - Vaihteleva suuntaus ilman havaittavaa kaavaa.
+explanation: >-
+  Bitcoin seuraa yleisesti nousevaa suuntausta sen rajallisen määrän, 21 miljoonaa bitcoinia, ja sen puolittumisprosessin vuoksi (rahoituksen luomisen puolittaminen keskimäärin joka neljäs vuosi).

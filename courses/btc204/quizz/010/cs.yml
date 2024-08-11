@@ -1,0 +1,9 @@
+question: Na minci, jaká jsou 3 základní kritéria, která umožňují člověku zajistit, že ji později bude moci utratit?
+answer: Mince musí být neporušená, autentická a nesmí být utracena vícekrát.
+wrong_answers:
+  - Mince musí být starověká, vzácná a v dobrém stavu.
+  - Mince musí být univerzálně přijímaná, legální a uložená v bance.
+  - Mince musí být schválená státem, registrovaná a odolná.
+explanation: |
+  Každý rozumný jedinec, který chce přijmout minci, ať už digitální nebo fyzickou, se ujistí, že není pozměněná, že je to skutečně pravá mince a že ji vydavatel nemůže znovu použít.
+reviewed: false

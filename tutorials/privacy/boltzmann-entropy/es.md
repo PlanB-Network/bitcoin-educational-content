@@ -17,7 +17,7 @@ La Calculadora de Boltzmann es una herramienta para analizar una transacción de
 Esta herramienta Python fue desarrollada por los equipos de Samourai Wallet y OXT, pero se puede utilizar en cualquier transacción de Bitcoin.
 
 ## ¿Cómo usar la Calculadora de Boltzmann?
-Para usar la Calculadora de Boltzmann, tienes dos opciones disponibles. La primera es instalar la herramienta Python directamente en tu máquina. Alternativamente, puedes optar por el sitio web KYCP.org (_Conoce la Privacidad de tu Moneda_), que ofrece una plataforma de uso simplificado. Para los usuarios de [RoninDojo](https://planb.network/tutorials/node/ronin-dojo-v2), ten en cuenta que esta herramienta ya está integrada en tu nodo.
+Para usar la Calculadora de Boltzmann, tienes dos opciones disponibles. La primera es instalar la herramienta Python directamente en tu máquina. Alternativamente, puedes optar por el sitio web KYCP.org (_Conoce la Privacidad de tu Moneda_), que ofrece una plataforma de uso simplificado. Para los usuarios de RoninDojo, ten en cuenta que esta herramienta ya está integrada en tu nodo.
 
 Usar el sitio KYCP es bastante fácil: solo ingresa el identificador de la transacción (TXID) que deseas analizar en la barra de búsqueda y presiona `ENTER`.
 ![KYCP](assets/1.webp)

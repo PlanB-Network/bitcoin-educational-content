@@ -1,0 +1,11 @@
+question: ¿Cuál de estas opciones no es una ventaja de las monedas fiduciarias?
+answer: Están sujetas a la inflación monetaria
+wrong_answers:
+  - Son fácilmente transportables
+  - Son fácilmente divisibles
+  - Son aceptadas por todos los países
+explanation: |
+  Las monedas fiduciarias, como el dólar y el euro, son muy líquidas y
+  fácilmente transportables porque ahora son mayoritariamente digitales. Sin embargo, su valor se
+  erosiona constantemente debido a la inflación monetaria.
+reviewed: false

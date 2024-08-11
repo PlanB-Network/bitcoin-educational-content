@@ -1,0 +1,13 @@
+question: Was beeinflusst das Gewicht einer Bitcoin-Transaktion?
+
+answer: Die Anzahl der Eingaben und Ausgaben.
+
+wrong_answers:
+  - Die Größe der Blockchain.
+  - Die Menge der Eingaben und Ausgaben.
+  - Das Alter der verwendeten UTXOs.
+
+explanation: |
+  Je mehr Eingaben und Ausgaben eine Bitcoin-Transaktion hat, desto schwerer wird sie in vB sein.
+
+reviewed: false

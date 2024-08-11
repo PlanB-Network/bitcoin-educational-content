@@ -17,7 +17,7 @@ _Hướng dẫn này được cung cấp chỉ cho mục đích giáo dục và 
 Trong hướng dẫn này, chúng ta sẽ nghiên cứu về khái niệm anonsets, các chỉ số cho phép chúng ta ước lượng chất lượng của quá trình coinjoin trên Whirlpool. Chúng ta sẽ bao gồm phương pháp tính toán và giải thích các chỉ số này. Sau phần lý thuyết, chúng ta sẽ chuyển sang thực hành bằng cách học cách tính anonsets của một giao dịch cụ thể sử dụng công cụ Python *Whirlpool Stats Tools* (WST).
 
 ## Coinjoin trên Bitcoin là gì?
-**Coinjoin là một kỹ thuật làm gián đoạn khả năng theo dõi bitcoin trên blockchain**. Nó dựa vào một giao dịch hợp tác với cấu trúc cụ thể có tên: giao dịch coinjoin.
+**Coinjoin là một kỹ thuật làm gián đoạn khả năng theo dõi bitcoin trên blockchain**. Nó dựa vào một giao dịch hợp tác với cấu trúc cụ thể có name: giao dịch coinjoin.
 
 Giao dịch coinjoin tăng cường sự riêng tư cho người dùng Bitcoin bằng cách làm phức tạp việc phân tích chuỗi cho các quan sát viên bên ngoài. Cấu trúc của chúng cho phép kết hợp nhiều đồng tiền từ các người dùng khác nhau vào một giao dịch duy nhất, do đó làm mờ các dấu vết và khó xác định được liên kết giữa các địa chỉ đầu vào và đầu ra.
 

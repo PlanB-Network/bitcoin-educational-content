@@ -1,0 +1,9 @@
+question: Jaká je role uzlů v síti Bitcoin?
+answer: Uzly udržují integritu ověřováním a validací transakcí a bloků.
+wrong_answers:
+  - Uzly vytvářejí a validují bloky.
+  - Uzly ověřují pouze transakce.
+  - Uzly nemají v síti Bitcoin žádnou roli.
+explanation: |
+  V síti Bitcoin uzly udržují integritu sítě ověřováním a validací transakcí a bloků. Nesprávný nebo podvodný blok bude uzly zamítnut, čímž se zachová bezpečnost sítě.
+reviewed: false

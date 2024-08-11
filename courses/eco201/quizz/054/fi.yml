@@ -1,0 +1,12 @@
+question: Mikä on pääasiallinen ero itävaltalaisten taloustieteilijöiden ja keynesiläisten tai monetarististen taloustieteilijöiden analyysimenetelmissä?
+answer: Itävaltalaiset perustelevat lähtökohtaisista aksioomista, kun taas keynesiläiset tai monetaristiset taloustieteilijät nojaavat empiiriseen dataan.
+wrong_answers:
+  - Itävaltalaiset taloustieteilijät nojaavat empiiriseen dataan, kun taas keynesiläiset tai monetaristiset taloustieteilijät perustelevat lähtökohtaisista aksioomista.
+  - Itävaltalaiset taloustieteilijät ja keynesiläiset tai monetaristiset taloustieteilijät käyttävät samoja analyysimenetelmiä.
+  - Itävaltalaiset taloustieteilijät nojaavat hallituksen politiikkoihin, kun taas keynesiläiset tai monetaristiset taloustieteilijät nojaavat markkinavoimiin.
+explanation: |
+  Pääasiallinen ero itävaltalaisten taloustieteilijöiden ja keynesiläisten tai monetarististen
+  taloustieteilijöiden analyysimenetelmissä on, että itävaltalaiset perustelevat
+  lähtökohtaisista aksioomista, kun taas keynesiläiset tai monetaristiset taloustieteilijät
+  nojaavat usein empiiriseen dataan yleisten taloudellisten lakien vahvistamiseksi.
+reviewed: false

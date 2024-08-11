@@ -1224,17 +1224,17 @@ Die Veränderung des Finanzsystems erfordert eine Veränderung der Währung. Sat
 
 Herzlichen Glückwunsch zum Abschluss dieses BTC 101-Kurses! Ich hoffe von ganzem Herzen, dass es Ihnen gefallen hat und Ihnen neue Möglichkeiten eröffnet hat. Ihre Entdeckung von Bitcoin steht erst am Anfang und ich lade Sie ein, alle anderen verfügbaren Kurse an der Universität zu entdecken.
 
-- [BTC 102](https://planb.network/courses/btc102) wird Ihnen helfen, Ihren Bitcoin-Plan umzusetzen.
-- [LN 201](https://planb.network/courses/ln201) und [LN 202](https://planb.network/courses/ln202) ermöglichen es Ihnen, das Lightning Network, ein Zahlungsnetzwerk in der zweiten Schicht, kennenzulernen.'
-- [ECON 201](https://planb.network/courses/econ201) wird sich mit der österreichischen Wirtschaft befassen
-- [SECU 101](https://planb.network/courses/secu101) ermöglicht es Ihnen, Ihre digitale Sicherheit zu aktualisieren
-- [MINAGE 201](https://planb.network/courses/min201), um mehr über das Mining zu erfahren
+- [BTC 102](https://planb.network/courses/btc102) wird Ihnen helfen, Ihren Bitcoin-Plan umzusetzen
+- [LNP 201](https://planb.network/courses/lnp201) ermöglichen es Ihnen, das Lightning Network, ein Zahlungsnetzwerk in der zweiten Schicht, kennenzulernen
+- [ECO 201](https://planb.network/courses/eco201) wird sich mit der österreichischen Wirtschaft befassen
+- [SCU 101](https://planb.network/courses/scu101) ermöglicht es Ihnen, Ihre digitale Sicherheit zu aktualisieren
+- [MIN 201](https://planb.network/courses/min201), um mehr über das Mining zu erfahren
 - und viele mehr...
 
 ## Unterstütze uns
 <chapterId>3e6e756b-b6c4-5d41-bece-767922348067</chapterId>
 
-Dieser Kurs sowie der gesamte Inhalt dieser Universität wurden Ihnen kostenlos von unserer Community zur Verfügung gestellt. Um uns zu unterstützen, können Sie ihn in Ihrem Umfeld teilen, Mitglied der Universität werden und sogar zu ihrer Entwicklung beitragen über [unser GitHub](https://github.com/DecouvreBitcoin/sovereign-university-data). Im Namen des gesamten Teams, vielen Dank!
+Dieser Kurs sowie der gesamte Inhalt dieser Universität wurden Ihnen kostenlos von unserer Community zur Verfügung gestellt. Um uns zu unterstützen, können Sie ihn in Ihrem Umfeld teilen, Mitglied der Universität werden und sogar zu ihrer Entwicklung beitragen über [unser GitHub](https://github.com/PlanB-Network/bitcoin-educational-content). Im Namen des gesamten Teams, vielen Dank!
 
 ## Bewerte den Kurs
 <chapterId>44d01865-5c89-55a5-a397-a014960eec0f</chapterId>

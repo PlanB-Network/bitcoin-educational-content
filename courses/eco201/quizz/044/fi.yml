@@ -1,0 +1,11 @@
+question: Mikä on yrittäjien ja osakkeenomistajien rooli kapitalistisessa taloudessa Misesin mukaan?
+answer: He jakavat pääomaa eri toimialoille, muodostaen siten hintoja, jotka toimivat syötteinä johtajien taloudellisissa laskelmissa.
+wrong_answers:
+  - He ovat vastuussa uusien työpaikkojen luomisesta.
+  - He ovat vastuussa kansakunnan vaurauden lisäämisestä.
+  - He ovat vastuussa talouden rahan tarjonnan hallinnasta.
+explanation: |
+  Mises korosti yrittäjien ja osakkeenomistajien merkitystä,
+  jotka tuotantovälineiden omistajina jakavat pääomaa eri toimialoille,
+  muodostaen siten hintoja, jotka toimivat syötteinä johtajien taloudellisissa laskelmissa.
+reviewed: false

@@ -1,0 +1,13 @@
+question: Wie werden Adressen verwendet, um UTXOs zu sperren?
+
+answer: Sie werden in das ScriptPubKey integriert.
+
+wrong_answers:
+  - Sie werden in das ScriptSig integriert.
+  - Sie werden in das Coinbase integriert.
+  - Sie werden nirgendwo integriert.
+
+explanation: |
+  Wenn eine Zahlung getätigt wird, erstellt die Transaktion ein neues UTXO als Ausgabe aus den UTXOs, die als Eingaben verbraucht wurden. Auf dieser Ausgabe wird ein Skript platziert, das definiert, wie dieses UTXO später ausgegeben werden kann. Dieses Skript ist als das ScriptPubKey bekannt. Die Empfangsadresse wird in dieses Skript integriert.
+
+reviewed: false

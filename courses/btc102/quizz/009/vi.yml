@@ -1,0 +1,12 @@
+question: Chức năng chính của trình quản lý mật khẩu là gì?
+answer: Lưu trữ và quản lý mật khẩu của bạn
+wrong_answers:
+  - Tạo mật khẩu ngẫu nhiên
+  - Nhớ tên người dùng của bạn
+  - Bảo vệ máy tính của bạn khỏi virus
+explanation: |
+  Trình quản lý mật khẩu là một phần mềm lưu trữ và quản lý mật khẩu của bạn.
+
+  Nó giúp bạn không bao giờ sử dụng lại mật khẩu cũ, chọn mật khẩu phức tạp và an toàn,
+
+  và hỗ trợ quản lý an ninh trực tuyến của bạn.

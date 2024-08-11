@@ -1,0 +1,13 @@
+question: What is the role of the notification transaction in BIP47?
+
+answer: To transmit the payment code to the recipient and signal that payments are coming.
+
+wrong_answers:
+  - Validate the Bitcoin receiving address for future transactions via payment codes.
+  - Confirm the receipt of bitcoins by the recipient with BIP47.
+  - Send the sender's ephemeral private keys to the recipient so they can spend the bitcoins.
+
+explanation: |
+  The notification transaction allows the transmission of the payment code from the sender to the recipient, so that the latter can know it and find it later only from their seed in case of wallet recovery. As its name suggests, it also plays a notification role.
+
+reviewed: false

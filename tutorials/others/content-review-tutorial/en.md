@@ -5,7 +5,7 @@ description: How to participate in the review of educational content on PlanB Ne
 ![github](assets/cover.webp)
 
 ## TL;DR
-If you want to review content for PlanB Network, go to the [associated project page](https://github.com/DecouvreBitcoin/sovereign-university-data/projects?query=is%3Aopen) for your language. Select the content you wish to review, comment to let us know you are taking on the task, and submit a PR once finished on the branch associated with the language.
+If you want to review content for PlanB Network, go to the [associated project page](https://github.com/PlanB-Network/bitcoin-educational-content/projects?query=is%3Aopen) for your language. Select the content you wish to review, comment to let us know you are taking on the task, and submit a PR once finished on the branch associated with the language.
 
 If you didn't understand the part above, don't worry, this tutorial is for you!
 
@@ -32,19 +32,27 @@ Moreover, as Découvre Bitcoin (DB) is in charge of evaluating contributions and
 You don't need to be a GitHub expert to review content.
 Although it's always better to understand what you're doing (and why), you can simply follow the instructions below to contribute.
 
-However, if you are completely unfamiliar with how Git and GitHub work and would like to learn more, you can discover [our introductory article on these tools](https://planb.network/tutorials/others/basics-of-github).
+However, if you are completely unfamiliar with how Git and GitHub work and would like to learn more, you can discover our introductory article on these tools.
+
+https://planb.network/tutorials/others/basics-of-github
+
+
 
 ## 1. Create an account
-* Create an account on GitHub to start contributing. If you need guidance on how to create your account on GitHub, we also have [a detailed tutorial](https://planb.network/tutorials/others/create-github-account).
+* Create an account on GitHub to start contributing. If you need guidance on how to create your account on GitHub, we also have a detailed tutorial.
+
+https://planb.network/tutorials/others/create-github-account
+
+
 ## **2. Go to the project page of your language**
-* The [project page](https://github.com/DecouvreBitcoin/sovereign-university-data/projects?query=is%3Aopen) contains content in your language displayed on a Kanban board.
+* The [project page](https://github.com/PlanB-Network/bitcoin-educational-content/projects?query=is%3Aopen) contains content in your language displayed on a Kanban board.
 * Look for cards in the "Review Needed" column (see **A**). These are issues that you can review.
 * Each card details (see **B**):
 	- **Content Type**: Course, tutorial, or website
 	- **Content Difficulty**
 	- **Urgency**
 	- **Word Count**
-	- **Associated Reward**: Based on the content properties and the accuracy of the translation (see [Reward section](https://github.com/DecouvreBitcoin/sovereign-university-data?tab=readme-ov-file#sat-reward))
+	- **Associated Reward**: Based on the content properties and the accuracy of the translation (see [Reward section](https://github.com/PlanB-Network/bitcoin-educational-content?tab=readme-ov-file#sat-reward))
 
 ![review](assets/1.webp)
 

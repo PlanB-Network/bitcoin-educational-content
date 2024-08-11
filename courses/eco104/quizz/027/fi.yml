@@ -1,0 +1,9 @@
+question: Mikä prosenttiosuus Bitcoinin kokonaistransaktiomäärästä on käytetty laittomaan toimintaan?
+answer: Alle 1%
+wrong_answers:
+  - 2-4%
+  - Yli 5%
+  - Sitä ei tiedetä
+explanation: |
+  Chainalysis-raportin mukaan vuonna 2020 laittomaan toimintaan liittyi vain noin 0,34% kaikista Bitcoin-transaktioista.
+reviewed: false

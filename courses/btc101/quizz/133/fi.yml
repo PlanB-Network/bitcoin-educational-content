@@ -1,0 +1,9 @@
+question: Mikä on prosessi, jonka kautta louhijat vahvistavat tapahtumat ja sisällyttävät ne lohkoon?
+answer: Työn todistaminen
+wrong_answers:
+  - Panoksen todistaminen
+  - Valtaoikeuden todistaminen
+  - Polttamisen todistaminen
+explanation: >-
+  Louhijat vahvistavat tapahtumat ja sisällyttävät ne lohkoon prosessin kautta, jota kutsutaan "työn todistamiseksi". Tämä sisältää kryptografisen pulman ratkaisemisen.
+reviewed: false

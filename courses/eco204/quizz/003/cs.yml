@@ -1,0 +1,9 @@
+question: Jaká strategie byla použita Spojenými státy v letech 1933-1934 k devalvaci dolaru?
+answer: Vláda zabavila občanům zlato, poté změnila pravidla hry tím, že přehodnotila hodnotu zlata ve prospěch státní pokladny a na úkor těch, kteří původně vyměnili své zlato za bankovky.
+wrong_answers:
+  - Vláda zvýšila nabídku zlata, poté změnila pravidla hry tím, že snížila hodnotu zlata ve prospěch státní pokladny a na úkor těch, kteří původně vyměnili své zlato za bankovky.
+  - Vláda zabavila občanům zlato, poté změnila pravidla hry tím, že snížila hodnotu zlata ve prospěch státní pokladny a na úkor těch, kteří původně vyměnili své zlato za bankovky.
+  - Vláda zvýšila nabídku zlata, poté změnila pravidla hry tím, že přehodnotila hodnotu zlata ve prospěch státní pokladny a na úkor těch, kteří původně vyměnili své zlato za bankovky.
+explanation: |
+  V roce 1933 vláda USA zabavila občanům zlato. Poté v roce 1934 přehodnotila cenu zlata na 35 dolarů za unci místo původních 20,67 dolaru. V podstatě vláda devalvovala dolar, který lidé vlastnili. Tím, že vláda odkoupila zlato od obyvatelstva za 20,67 dolaru za unci v roce 1933 a poté v roce 1934 přehodnotila cenu zlata, vláda získala značný zisk, zatímco devalvovala úspory svých občanů.
+reviewed: false

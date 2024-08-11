@@ -5,7 +5,7 @@ description: PlanB Networkの教育コンテンツのレビューにどのよう
 ![github](assets/cover.webp)
 
 ## TL;DR
-PlanB Networkのコンテンツをレビューしたい場合は、あなたの言語に関連する[プロジェクトページ](https://github.com/DecouvreBitcoin/sovereign-university-data/projects?query=is%3Aopen)にアクセスしてください。レビューしたいコンテンツを選択し、タスクを引き受けることをコメントで知らせ、言語に関連するブランチでPR（プルリクエスト）を提出してください。
+PlanB Networkのコンテンツをレビューしたい場合は、あなたの言語に関連する[プロジェクトページ](https://github.com/PlanB-Network/bitcoin-educational-content/projects?query=is%3Aopen)にアクセスしてください。レビューしたいコンテンツを選択し、タスクを引き受けることをコメントで知らせ、言語に関連するブランチでPR（プルリクエスト）を提出してください。
 
 上記の部分が理解できなかった場合でも心配しないでください、このチュートリアルはあなたのためのものです！
 
@@ -32,19 +32,27 @@ PlanB.networkは根本的に多言語であり、私たちの目標は世界中�
 コンテンツをレビューするためにGitHubの専門家である必要はありません。
 何をしているのか（そしてなぜ）を理解することは常に良いことですが、以下の指示に従って寄稿することができます。
 
-しかし、GitやGitHubの動作に完全に不慣れで、もっと学びたい場合は、[これらのツールに関する私たちの導入記事](https://planb.network/tutorials/others/basics-of-github)を発見することができます。
+しかし、GitやGitHubの動作に完全に不慣れで、もっと学びたい場合は、これらのツールに関する私たちの導入記事を発見することができます。
+
+https://planb.network/tutorials/others/basics-of-github
+
+
 
 ## 1. アカウントを作成する
-* GitHubでアカウントを作成して寄稿を開始します。GitHubでアカウントを作成する方法についてのガイダンスが必要な場合は、[詳細なチュートリアル](https://planb.network/tutorials/others/create-github-account)もあります。
+* GitHubでアカウントを作成して寄稿を開始します。GitHubでアカウントを作成する方法についてのガイダンスが必要な場合は、詳細なチュートリアルもあります。
+
+https://planb.network/tutorials/others/create-github-account
+
+
 ## **2. あなたの言語のプロジェクトページに行く**
-* [プロジェクトページ](https://github.com/DecouvreBitcoin/sovereign-university-data/projects?query=is%3Aopen)には、Kanbanボードに表示されたあなたの言語のコンテンツが含まれています。
+* [プロジェクトページ](https://github.com/PlanB-Network/bitcoin-educational-content/projects?query=is%3Aopen)には、Kanbanボードに表示されたあなたの言語のコンテンツが含まれています。
 * 「レビューが必要」列（**A**を参照）にあるカードを探します。これらはあなたがレビューできる課題です。
 * 各カードの詳細（**B**を参照）:
 	- **コンテンツタイプ**: コース、チュートリアル、またはウェブサイト
 	- **コンテンツの難易度**
 	- **緊急度**
 	- **単語数**
-	- **関連する報酬**: コンテンツの特性と翻訳の正確性に基づいています（[報酬セクション](https://github.com/DecouvreBitcoin/sovereign-university-data?tab=readme-ov-file#sat-reward)を参照）
+	- **関連する報酬**: コンテンツの特性と翻訳の正確性に基づいています（[報酬セクション](https://github.com/PlanB-Network/bitcoin-educational-content?tab=readme-ov-file#sat-reward)を参照）
 ## **3. レビューするコンテンツを探す**
 * 「Review Needed」列で、カードをクリックします。
 * カードには、オリジナルのコンテンツとレビューするファイルへのリンクが含まれた説明が記載されています（**A**を参照）。

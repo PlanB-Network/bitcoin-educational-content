@@ -1,0 +1,12 @@
+question: ¿Cómo se crean nuevos bitcoins y se introducen en circulación?
+answer: A través de la minería como recompensa por agregar nuevas transacciones a la blockchain
+wrong_answers:
+  - A través de la emisión de una autoridad centralizada
+  - Comprándolos en intercambios de Bitcoin
+  - Recibiéndolos como tasas de transacción
+explanation: |
+  Los nuevos bitcoins se introducen en circulación a través de un proceso llamado minería.
+  Los mineros compiten entre sí para agregar nuevas transacciones a la blockchain.
+  A cambio de su trabajo, los mineros son recompensados con bitcoins recién creados.
+  Este proceso también verifica y asegura las transacciones en la red de Bitcoin.
+reviewed: false

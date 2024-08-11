@@ -1,0 +1,10 @@
+question: Định nghĩa của lạm phát theo Larousse là gì?
+answer: Lạm phát là hiện tượng được đặc trưng bởi sự tăng liên tục và tổng quát về mức giá.
+wrong_answers:
+  - Lạm phát là hiện tượng được đặc trưng bởi sự giảm liên tục và tổng quát về mức giá.
+  - Lạm phát là hiện tượng được đặc trưng bởi sự tăng liên tục và cụ thể về mức giá.
+  - Lạm phát là hiện tượng được đặc trưng bởi sự tăng không liên tục và tổng quát về mức giá.
+explanation: |
+  Theo Larousse, lạm phát được định nghĩa là hiện tượng được đặc trưng
+  bởi sự tăng liên tục và tổng quát về mức giá.
+reviewed: false

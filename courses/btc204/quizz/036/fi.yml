@@ -1,0 +1,9 @@
+question: Miksi harvemmin käytetyt skriptityypit saattavat olla helpommin tunnistettavissa kuin laajalti käytetyt skriptit?
+answer: Koska saman skriptityypin transaktioiden ryhmä on pienempi.
+wrong_answers:
+  - Koska ne vaativat enemmän validointeja louhijoilta.
+  - Koska ne käyttävät heikompia salausalgoritmeja.
+  - Koska Bitcoin-verkon solmut hylkäävät ne useammin.
+explanation: |
+  Jos transaktioiden kokonaisryhmä, jossa yritämme piiloutua, samalla skriptityypillä on pieni, olemme helpommin tunnistettavissa kuin erittäin suuressa transaktioiden ryhmässä.
+reviewed: false

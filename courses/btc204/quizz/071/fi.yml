@@ -1,0 +1,13 @@
+question: Mikä väliaikainen toimenpide voidaan ottaa käyttöön piilottaaksesi yhteydet, kun et käytä omaa Bitcoin-noodiasi?
+
+answer: Torin käyttö.
+
+wrong_answers:
+  - Palomuurin käyttö.
+  - Salatun lompakon käyttö.
+  - Kahden lompakon käyttö.
+
+explanation: |
+  Riskin rajoittamiseksi, että tullaan havaituksi, väliaikainen ratkaisu on käyttää lompakko-ohjelmistoa, joka mahdollistaa yhteyksiesi piilottamisen Torin kautta.
+
+reviewed: false

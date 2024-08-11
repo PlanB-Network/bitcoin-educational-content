@@ -1,0 +1,13 @@
+question: Como os endereços são usados para bloquear UTXOs?
+
+answer: Eles são integrados ao ScriptPubKey
+
+wrong_answers:
+  - Eles são integrados ao ScriptSig
+  - Eles são integrados ao coinbase.
+  - Eles não são integrados em lugar algum.
+
+explanation: |
+  Quando um pagamento é realizado, a transação cria um novo UTXO como saída dos UTXOs consumidos como entradas. Nesta saída, um script é colocado definindo como este UTXO pode ser gasto posteriormente. Esse script é conhecido como ScriptPubKey. O endereço de recebimento é integrado a este script.
+
+reviewed: false

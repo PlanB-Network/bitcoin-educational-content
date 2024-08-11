@@ -27,7 +27,9 @@ Stowaway perustuu transaktiotyyppiin, jota Samourai kutsuu "Cahootsiksi". Cahoot
 Cahoots-maksutapahtumat sisältävät osittain allekirjoitettujen transaktioiden vaihtoja käyttäjien välillä. Tämä prosessi voi olla pitkä ja hankala, erityisesti kun se tehdään etänä. Se voidaan kuitenkin silti suorittaa manuaalisesti toisen käyttäjän kanssa, mikä voi olla kätevää, jos yhteistyökumppanit ovat fyysisesti lähellä. Käytännössä tämä tarkoittaa viiden QR-koodin manuaalista vaihtoa, jotka skannataan peräkkäin.
 
 Kun tämä prosessi tehdään etänä, se muuttuu liian monimutkaiseksi. Tämän ongelman ratkaisemiseksi Samourai on kehittänyt Toriin perustuvan salatun viestintäprotokollan, nimeltään "Soroban". Sorobanin avulla Payjoinin vaatimat vaihdot automatisoidaan käyttäjäystävällisen käyttöliittymän taakse. Tämä on toinen menetelmä, jota tutkimme tässä artikkelissa.
-Nämä salatut vaihdot vaativat yhteyden ja autentikoinnin luomisen Cahoots-osallistujien välille. Soroban-viestintä perustuu siis käyttäjien Paynym-tunnisteisiin. Jos et ole tuttu Paynymien kanssa, suosittelen tutustumaan tähän artikkeliin saadaksesi lisätietoja: [BIP47 - PAYNYM](https://planb.network/tutorials/privacy/paynym-bip47). Yksinkertaistaen, Paynym on uniikki tunniste, joka on linkitetty lompakkoosi ja mahdollistaa useita toimintoja, mukaan lukien salatun viestinnän. Paynym esitetään tunnisteen ja robotin kuvaa esittävän kuvituksen muodossa. Tässä on esimerkki omastani Testnetissä: ![paynym samourai wallet](assets/en/1.webp)
+Nämä salatut vaihdot vaativat yhteyden ja autentikoinnin luomisen Cahoots-osallistujien välille. Soroban-viestintä perustuu siis käyttäjien Paynym-tunnisteisiin. Jos et ole tuttu Paynymien kanssa, suosittelen tutustumaan tähän artikkeliin saadaksesi lisätietoja: [BIP47 - PAYNYM](https://planb.network/tutorials/privacy/paynym-bip47)
+
+ Yksinkertaistaen, Paynym on uniikki tunniste, joka on linkitetty lompakkoosi ja mahdollistaa useita toimintoja, mukaan lukien salatun viestinnän. Paynym esitetään tunnisteen ja robotin kuvaa esittävän kuvituksen muodossa. Tässä on esimerkki omastani Testnetissä: ![paynym samourai wallet](assets/en/1.webp)
 
 **Yhteenvetona:**
 - _Payjoin_ = Yhteistyöllisten transaktioiden tietty rakenne;
@@ -62,7 +64,7 @@ Voit sitten liittää yhteistyökumppanisi maksukoodin valitsemalla `COLLER LE C
 Klikkaa `SUIVRE`-painiketta.
 ![seuraa paynymiä](assets/notext/6.webp)Vahvista klikkaamalla `KYLLÄ`.
 ![vahvista seuraaminen paynym](assets/notext/7.webp)
-Tämän jälkeen ohjelmisto tarjoaa sinulle `SE CONNECTER` -painiketta. Tämän painikkeen klikkaaminen ei ole tarpeellista tässä oppaassa. Tämä vaihe on tarpeen vain, jos aiot tehdä maksuja toiselle Paynymille osana [BIP47](https://planb.network/tutorials/privacy/paynym-bip47), mikä ei liity oppaaseemme.
+Tämän jälkeen ohjelmisto tarjoaa sinulle `SE CONNECTER` -painiketta. Tämän painikkeen klikkaaminen ei ole tarpeellista tässä oppaassa. Tämä vaihe on tarpeen vain, jos aiot tehdä maksuja toiselle Paynymille osana BIP47, mikä ei liity oppaaseemme.
 ![yhdistä paynym](assets/notext/8.webp)
 Kun vastaanottajan Paynym on seurannut omaa Paynymiäsi, toista tämä toimenpide toisinpäin, jotta vastaanottaja myös seuraa sinua. Sen jälkeen voit suorittaa Payjoinin.
 

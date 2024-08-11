@@ -1,0 +1,11 @@
+question: Jaká je hlavní charakteristika Hodlera v kontextu investování do Bitcoinu?
+answer: Drží Bitcoin dlouhodobě.
+wrong_answers:
+  - Často obchodují s Bitcoinem.
+  - Investují do Bitcoinu pouze tehdy, když je cena nízká.
+  - Prodávají Bitcoin hned, jak cena vzroste.
+explanation: |
+  Hodler, v kontextu investování do Bitcoinu, je někdo, kdo drží
+  Bitcoin dlouhodobě, sází na to, že jeho využití a vzácnost se bude
+  časem zvyšovat.
+reviewed: false

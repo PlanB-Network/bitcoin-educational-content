@@ -1,0 +1,11 @@
+question: ¿Cuál es la razón principal de la volatilidad de precios a corto plazo en las stablecoins?
+answer: Niveles bajos de liquidez en los intercambios
+wrong_answers:
+  - Falta de reservas para satisfacer las demandas de retiro
+  - Hackeos que comprometen la stablecoin
+  - Desvinculación de las stablecoins
+explanation: |
+  La volatilidad de precios a corto plazo en las stablecoins a menudo es resultado
+  de problemas de liquidez, donde los intercambios más pequeños pueden carecer de la capacidad
+  para satisfacer las demandas de los clientes, causando fluctuaciones temporales en los precios.
+reviewed: false

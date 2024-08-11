@@ -1,0 +1,9 @@
+question: Kuka löysi osoitteen uudelleenkäytön heuristiikan?
+answer: Satoshi Nakamoto
+wrong_answers:
+  - Vitalik Buterin
+  - Hal Finney
+  - Gavin Andresen
+explanation: |
+  Ensimmäinen henkilö, joka keskusteli tästä konseptista, oli Satoshi Nakamoto Bitcoinin Valkoisen Kirjan osassa 10.
+reviewed: false

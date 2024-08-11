@@ -1,0 +1,11 @@
+question: ¿En qué nivel aproximado se encuentra la tasa general de reutilización de direcciones en Bitcoin?
+
+answer: Alrededor del 50%
+
+wrong_answers:
+  - Alrededor del 5%
+  - Alrededor del 15%
+  - Alrededor del 40%
+
+explanation: |
+  Desde principios de la década de 2010, la tasa general de reutilización de direcciones en Bitcoin ha fluctuado alrededor del 50%.

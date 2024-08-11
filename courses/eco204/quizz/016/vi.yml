@@ -1,0 +1,9 @@
+question: Ngưỡng của lạm phát cực kỳ cao theo định nghĩa của Philip Cagan là gì?
+answer: Lạm phát hàng tháng vượt quá 50%
+wrong_answers:
+  - Lạm phát hàng tháng vượt quá 40%
+  - Lạm phát hàng tháng vượt quá 60%
+  - Lạm phát hàng tháng vượt quá 70%
+explanation: |
+  Theo định nghĩa của Philip Cagan, lạm phát cực kỳ cao bắt đầu khi lạm phát hàng tháng vượt quá 50%.
+reviewed: false

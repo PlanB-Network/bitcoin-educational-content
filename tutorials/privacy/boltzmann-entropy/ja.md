@@ -9,7 +9,7 @@ description: エントロピーの概念とボルツマンの使用方法を理�
 このPythonツールはSamourai WalletとOXTのチームによって開発されましたが、任意のビットコイン取引で使用できます。
 
 ## ボルツマン計算機の使用方法は？
-ボルツマン計算機を使用するには、2つのオプションがあります。1つ目は、[Pythonツール](https://code.samourai.io/oxt/boltzmann)を直接あなたのマシンにインストールすることです。または、簡易的な使用プラットフォームを提供する[KYCP.org](https://kycp.org/#/) (_Know Your Coin Privacy_) ウェブサイトを選択することもできます。[RoninDojo](https://planb.network/tutorials/node/ronin-dojo-v2)ユーザーの方は、このツールが既にあなたのノードに統合されていることに注意してください。
+ボルツマン計算機を使用するには、2つのオプションがあります。1つ目は、[Pythonツール](https://code.samourai.io/oxt/boltzmann)を直接あなたのマシンにインストールすることです。または、簡易的な使用プラットフォームを提供する[KYCP.org](https://kycp.org/#/) (_Know Your Coin Privacy_) ウェブサイトを選択することもできます。RoninDojoユーザーの方は、このツールが既にあなたのノードに統合されていることに注意してください。
 
 KYCPサイトの使用は非常に簡単です：分析したい取引の識別子（TXID）を検索バーに入力し、`ENTER`キーを押してください。
 ![KYCP](assets/1.webp)

@@ -1,0 +1,13 @@
+question: Silent Paymentsで受信者と支払者の間で共有秘密を確立するために使用される暗号アルゴリズムの名前は何ですか？
+
+answer: ECDH
+
+wrong_answers:
+  - RSA
+  - DH
+  - SHA256
+
+explanation: |
+  ECDH（楕円曲線ディフィー・ヘルマン）アルゴリズムは、Silent Paymentsにおいて、受信者のスキャンペアの鍵と送信者のペアの鍵の合計との間で共有秘密を確立するために使用されます。これにより、ユニークな支払いアドレスの導出が可能になります。
+
+reviewed: false

@@ -1,0 +1,14 @@
+question: Loại kịch bản nào được sử dụng độc quyền bởi Silent Payments?
+
+answer: P2TR
+
+wrong_answers:
+  - P2WPKH
+  - P2SP
+  - P2WSH
+
+explanation: |
+  Để tạo điều kiện cho việc triển khai giao thức này và cải thiện tập hợp ẩn danh của người dùng, Silent Payments dựa hoàn toàn vào kịch bản P2TR (Pay to Taproot).
+
+reviewed: false
+

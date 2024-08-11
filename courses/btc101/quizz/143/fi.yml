@@ -1,0 +1,10 @@
+question: Mitä tapahtuisi, jos käyttäjä päättäisi noudattaa muita sääntöjä, jotka mitätöivät nykyiset konsensus säännöt?
+answer: Solmu ei enää kuulu Bitcoin-verkkoon
+wrong_answers:
+  - Solmu tulee osaksi eri Bitcoin-verkkoa
+  - Bitcoin-verkko rankaisee solmua
+  - Bitcoin-verkko palkitsee solmun
+explanation: >-
+  Jos käyttäjä päättää noudattaa muita sääntöjä, jotka mitätöivät nykyiset konsensus
+  säännöt, kyseinen solmu ei enää kuulu Bitcoin-verkkoon.
+reviewed: false

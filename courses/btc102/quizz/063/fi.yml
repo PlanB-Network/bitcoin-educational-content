@@ -1,0 +1,9 @@
+question: Mikä on riski, jos et omista Bitcoin-lompakkosi yksityistä avainta?
+answer: Bitcoinisi ovat alttiina riskeille, kuten hakkeroinnille, takavarikoinnille, sääntelylle tai konkurssille
+wrong_answers:
+  - Bitcoinisi muunnetaan automaattisesti toiseen kryptovaluuttaan
+  - Bitcoinisi menettävät arvonsa
+  - Bitcoinisi siirretään toiseen lompakkoon
+explanation: |
+  Jos et omista Bitcoin-lompakkosi yksityistä avainta, bitcoinisi ovat alttiina riskeille, kuten hakkeroinnille, takavarikoinnille, sääntelylle tai konkurssille.
+reviewed: false

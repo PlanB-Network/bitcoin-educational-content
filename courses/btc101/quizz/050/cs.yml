@@ -1,0 +1,10 @@
+question: Jaká je poslední fáze hyperinflace?
+answer: Vznik nové měny
+wrong_answers:
+  - Ztráta důvěry
+  - Kolaps měny & nárůst cen
+  - Zlý kruh tisku peněz
+explanation: |
+  Poslední fází hyperinflace je, když je zavedena nová měna
+  nahrazující starou.
+reviewed: false

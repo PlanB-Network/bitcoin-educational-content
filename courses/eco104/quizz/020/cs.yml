@@ -1,0 +1,12 @@
+question: Jak přispívají různé stabilní měny Tether k finanční svobodě jednotlivců v nestabilních ekonomikách?
+answer: Poskytováním přístupu k měnám se stabilními směnnými kurzy
+wrong_answers:
+  - Odstraněním potřeby fyzických peněz
+  - Nabízením vyšších úrokových sazeb na spoření
+  - Umožněním okamžitých globálních transakcí
+explanation: |
+  Různé stabilní měny Tether jsou vázány na stabilní aktiva, jako je americký 
+  dolar nebo zlato. Tato stabilita umožňuje jednotlivcům v nestabilních ekonomikách 
+  přesunout své peníze do měny, která není podléhá stejným inflačním sazbám, což jim pomáhá 
+  udržet hodnotu jejich úspor.
+reviewed: true

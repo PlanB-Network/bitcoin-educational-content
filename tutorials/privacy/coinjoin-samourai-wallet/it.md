@@ -17,7 +17,7 @@ _Questo tutorial è fornito solo a scopo educativo e informativo. Non approviamo
 In questo tutorial, imparerai cos'è un coinjoin e come eseguirne uno utilizzando il software Samourai Wallet e l'implementazione Whirlpool.
 
 ## Cos'è un coinjoin su Bitcoin?
-**Il Coinjoin è una tecnica che interrompe la tracciabilità dei bitcoin sulla blockchain**. Si basa su una transazione collaborativa con una struttura specifica dello stesso nome: la transazione coinjoin.
+**Il Coinjoin è una tecnica che interrompe la tracciabilità dei bitcoin sulla blockchain**. Si basa su una transazione collaborativa con una struttura specifica dello stesso name: la transazione coinjoin.
 
 I coinjoin migliorano la privacy degli utenti Bitcoin complicando l'analisi della catena per gli osservatori esterni. La loro struttura consente di unire più monete da diversi utenti in una singola transazione, oscurando così le tracce e rendendo difficile determinare i collegamenti tra gli indirizzi di input e output.
 
@@ -273,7 +273,7 @@ I tuoi UTXO pronti per essere mixati si trovano nella scheda `Mixing in progress
 Una volta confermato il `Tx0`, i tuoi UTXO verranno automaticamente registrati presso il coordinatore, e i mix iniziali inizieranno successivamente in modo automatico.
 
 ![samourai](assets/notext/34.webp)
-Controllando la scheda `Remixing`, che corrisponde all'account **Postmix**, osserverai gli UTXO risultanti dai mix iniziali. Queste monete rimarranno pronte per il remix successivo, che non comporterà alcun costo aggiuntivo. Ti consiglio di consultare quest'altro articolo per saperne di più sul processo di remix e sull'efficienza di un ciclo coinjoin: [REMIX - WHIRLPOOL](https://planb.network/tutorials/privacy/remix-whirlpool).
+Controllando la scheda `Remixing`, che corrisponde all'account **Postmix**, osserverai gli UTXO risultanti dai mix iniziali. Queste monete rimarranno pronte per il remix successivo, che non comporterà alcun costo aggiuntivo. Ti consiglio di consultare quest'altro articolo per saperne di più sul processo di remix e sull'efficienza di un ciclo coinjoin: [REMIX - WHIRLPOOL](https://planb.network/tutorials/privacy/remix-whirlpool)
 ![samourai](assets/notext/35.webp)
 
 È possibile sospendere temporaneamente il remix di un UTXO premendo il pulsante di pausa situato alla sua destra. Per renderlo nuovamente idoneo al remix, è sufficiente fare clic sullo stesso pulsante una seconda volta. È importante notare che è possibile eseguire solo un coinjoin per utente e per pool contemporaneamente. Pertanto, se hai 6 UTXO di `100 000 sats` pronti per il coinjoin, solo uno di essi può essere mixato. Dopo aver mixato un UTXO, Samourai Wallet procede alla selezione casuale di un nuovo UTXO dalla tua disponibilità, al fine di diversificare ed equilibrare il remix di ogni moneta.
@@ -334,7 +334,7 @@ Assicurati che il tuo SCODE sia stato correttamente registrato cliccando ancora 
 ## Come conoscere la qualità dei nostri cicli di coinjoin?
 Perché un coinjoin sia veramente efficace, è essenziale che dimostri una buona uniformità tra le quantità di input e output. Questa uniformità amplifica il numero di possibili interpretazioni agli occhi di un osservatore esterno, aumentando così l'incertezza che circonda la transazione. Per quantificare questa incertezza generata da un coinjoin, si può ricorrere al calcolo dell'entropia della transazione. Per un'esplorazione approfondita di questi indicatori, vi rimando al tutorial: [CALCOLATORE DI BOLTZMANN](https://planb.network/it/tutorials/privacy/boltzmann-entropy). Il modello Whirlpool è riconosciuto come quello che porta la maggiore omogeneità ai coinjoin.
 
-Successivamente, la performance di diversi cicli di coinjoin viene valutata in base all'estensione dei gruppi nei quali una moneta è nascosta. La dimensione di questi gruppi definisce ciò che viene chiamato gli anonset. Esistono due tipi di anonset: il primo valuta la privacy ottenuta contro un'analisi retrospettiva (dal presente al passato) e il secondo, contro un'analisi prospettica (dal passato al presente). Per una spiegazione dettagliata di questi due indicatori, vi invito a consultare il tutorial: [WHIRLPOOL STATS TOOLS - ANONSET](https://planb.network/tutorials/privacy/wst-anonsets).
+Successivamente, la performance di diversi cicli di coinjoin viene valutata in base all'estensione dei gruppi nei quali una moneta è nascosta. La dimensione di questi gruppi definisce ciò che viene chiamato gli anonset. Esistono due tipi di anonset: il primo valuta la privacy ottenuta contro un'analisi retrospettiva (dal presente al passato) e il secondo, contro un'analisi prospettica (dal passato al presente). Per una spiegazione dettagliata di questi due indicatori, vi invito a consultare il tutorial: [WHIRLPOOL STATS TOOLS - ANONSET](https://planb.network/tutorials/privacy/wst-anonsets)
 
 ## Come gestire il postmix?
 Dopo aver eseguito cicli di coinjoin, la migliore strategia è mantenere i propri UTXO nell'account **postmix**, in attesa del loro futuro utilizzo. È addirittura consigliabile lasciarli remixare all'infinito fino a quando non sarà necessario spenderli.
@@ -360,7 +360,7 @@ Successivamente, devi essere attento nella gestione del cambio tossico, il cambi
 Tutorial dettagliati sull'implementazione di queste diverse tecniche saranno presto offerti su PlanB Network.
 
 **Risorse aggiuntive:**
-- [Tutorial video di Samourai Wallet](https://planb.network/tutorials/wallet/samourai);
+[Tutorial video di Samourai Wallet](https://planb.network/tutorials/wallet/samourai)
 - [Documentazione di Samourai Wallet - Whirlpool](https://docs.samourai.io/whirlpool/basic-concepts);
 - [Thread su Twitter sui coinjoins](https://twitter.com/SamouraiWallet/status/1489220847336308739);
 - [Post sul blog sui coinjoins](https://www.pandul.fr/post/comprendre-et-utiliser-le-coinjoin-sur-bitcoin).

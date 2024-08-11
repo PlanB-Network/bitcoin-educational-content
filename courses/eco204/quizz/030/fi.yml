@@ -1,0 +1,10 @@
+question: Mikä on yleinen seuraus hyperinflaatiosta, kuten Zimbabwen ja Weimarin tasavallan tapauksissa?
+answer: Setelin sisäinen arvo voi muuttua pienemmäksi kuin sen painamiseen käytetyn paperin arvo.
+wrong_answers:
+  - Valuutan arvo kasvaa.
+  - Seteleiden kysyntä vähenee.
+  - Aineellisten hyödykkeiden arvo laskee.
+explanation: |
+  Tietyissä taloudellisissa olosuhteissa, kuten hyperinflaatiossa, setelin sisäinen arvo voi muuttua pienemmäksi kuin sen painamiseen käytetyn paperin arvo.
+  Tämä jyrkkä arvon aleneminen muuttaa setelit, jotka normaalisti ovat arvon ja ostovoiman symboleita, pelkiksi arvottomiksi paperinpalasiksi.
+reviewed: false

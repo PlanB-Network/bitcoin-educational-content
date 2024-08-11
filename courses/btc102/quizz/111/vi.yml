@@ -1,0 +1,9 @@
+question: Mục đích của một nút Bitcoin trong bối cảnh của Mạng Lưới Lightning là gì?
+answer: Để giúp hiểu và khám phá những khía cạnh mới của Bitcoin được đưa ra bởi Mạng Lưới Lightning.
+wrong_answers:
+  - Để khai thác Bitcoin mới.
+  - Để giao dịch Bitcoin.
+  - Để lưu trữ Bitcoin.
+explanation: |
+  Một nút Bitcoin trong bối cảnh của Mạng Lưới Lightning được sử dụng để hiểu và khám phá những khía cạnh mới của Bitcoin được đưa ra bởi Mạng Lưới Lightning. Nó không khai thác Bitcoin mới, giao dịch Bitcoin, hoặc lưu trữ Bitcoin.
+reviewed: false

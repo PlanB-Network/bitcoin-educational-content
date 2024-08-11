@@ -1,0 +1,9 @@
+question: Jaká je akce Bitcoinové transakce na vstupních UTXO?
+answer: Spotřebuje je k uspokojení výstupů.
+wrong_answers:
+  - Archivuje je v blockchainu pro budoucí odkaz.
+  - Šifruje je k zabezpečení transakce.
+  - Duplikuje je k vytvoření nových UTXO.
+explanation: |
+  Vstupní UTXO v transakci jsou spotřebovány, aby bylo možné financovat výstupy. Je to jakýmsi zdrojem peněz.
+reviewed: false

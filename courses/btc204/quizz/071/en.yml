@@ -1,0 +1,13 @@
+question: What intermediate measure can be taken to hide connections when you are not using your own Bitcoin node?
+
+answer: Use of Tor.
+
+wrong_answers:
+  - Use of a firewall.
+  - Use of an encrypted wallet.
+  - Use of a double wallet.
+
+explanation: |
+  To limit the risk of being observed, an intermediate solution is to use wallet software that allows you to hide your connections via Tor.
+
+reviewed: false

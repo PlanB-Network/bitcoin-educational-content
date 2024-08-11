@@ -789,7 +789,7 @@ Trải qua nhiều năm, các thợ mỏ đã trang bị cho mình phần cứng
 
 ![image](assets/en/chapter12/20.webp)
 
-Hashrate của mạng Bitcoin đại diện cho số lần thử tìm khối tiếp theo mỗi giây. Ngày nay, con số này là khoảng 400 TH/s, tức là 400,000 tỷ lần thử mỗi giây! Hashrate toàn cầu càng cao, thì việc một tác nhân xấu muốn độc quyền nguồn lực cần thiết để giành được đa số việc khai thác và thực hiện giao dịch kép càng khó khăn. Do đó, việc tuân theo các quy tắc của giao thức Bitcoin càng trở nên kinh tế hơn là hành động chống lại chúng. Điều này đặt ra một câu hỏi: làm thế nào các thợ mỏ được trả công?
+Hashrate của mạng Bitcoin đại diện cho số lần thử tìm khối tiếp theo mỗi giây. Ngày nay, con số này là khoảng 400 TH/s, tức là 400,000 tỷ lần thử mỗi giây! Hashrate toàn cầu càng cao, thì việc một tác nhân xấu muốn độc quyền nguồn lực cần thiết để giành được đa số việc khai thác và thực hiện giao dịch kép càng khó khăn. Do đó, việc tuân theo các quy tắc của giao thức Bitcoin càng trở nên kinh tế hơn là hành động chống lại chúng. Điều này đặt ra một question: làm thế nào các thợ mỏ được trả công?
 
 ![image](assets/en/chapter12/16.webp)
 
@@ -1239,16 +1239,16 @@ Thay đổi hệ thống tài chính đòi hỏi phải thay đổi tiền tệ.
 Xin chúc mừng bạn đã hoàn thành khóa học BTC 101 này! Tôi thực sự hy vọng bạn đã thích nó và nó đã mở cửa cho bạn. Khám phá về bitcoin của bạn chỉ mới bắt đầu, và tôi mời bạn khám phá tất cả các khóa học khác có sẵn tại trường đại học.
 
 - [BTC 102](https://planb.network/courses/btc102) sẽ giúp bạn thiết lập kế hoạch bitcoin của mình
-- [LN 201](https://planb.network/courses/ln201) và [LN 202](https://planb.network/courses/ln202) sẽ giúp bạn khám phá Lightning Network, một mạng lưới thanh toán tầng thứ hai
-- [ECON 201](https://planb.network/courses/econ201) sẽ bao gồm kinh tế học Áo
-- [SECU 101](https://planb.network/courses/secu101) sẽ giúp bạn cập nhật về an ninh số
-- [MINAGE 201](https://planb.network/courses/min201) để tìm hiểu thêm về việc đào
+- [LNP 201](https://planb.network/courses/lnp201) sẽ giúp bạn khám phá Lightning Network, một mạng lưới thanh toán tầng thứ hai
+- [ECO 201](https://planb.network/courses/eco01) sẽ bao gồm kinh tế học Áo
+- [SCU 101](https://planb.network/courses/scu101) sẽ giúp bạn cập nhật về an ninh số
+- [MIN 201](https://planb.network/courses/min201) để tìm hiểu thêm về việc đào
 - và nhiều hơn nữa...
 
 ## Hỗ trợ chúng tôi
 <chapterId>3e6e756b-b6c4-5d41-bece-767922348067</chapterId>
 
-Khóa học này, cũng như tất cả nội dung trên trường đại học này, đã được cộng đồng của chúng tôi cung cấp miễn phí cho bạn. Để hỗ trợ chúng tôi, bạn có thể chia sẻ nó với người khác, trở thành thành viên của trường đại học, và thậm chí đóng góp vào sự phát triển của nó qua [GitHub của chúng tôi](https://github.com/DecouvreBitcoin/sovereign-university-data). Thay mặt cho toàn bộ đội ngũ, cảm ơn bạn!
+Khóa học này, cũng như tất cả nội dung trên trường đại học này, đã được cộng đồng của chúng tôi cung cấp miễn phí cho bạn. Để hỗ trợ chúng tôi, bạn có thể chia sẻ nó với người khác, trở thành thành viên của trường đại học, và thậm chí đóng góp vào sự phát triển của nó qua [GitHub của chúng tôi](https://github.com/PlanB-Network/bitcoin-educational-content). Thay mặt cho toàn bộ đội ngũ, cảm ơn bạn!
 
 ## Đánh giá khóa học
 <chapterId>44d01865-5c89-55a5-a397-a014960eec0f</chapterId>

@@ -14,7 +14,11 @@ _Questo tutorial è fornito solo a scopo educativo e informativo. Non approviamo
 
 > "*Usa Bitcoin con privacy.*"
 
-In [un tutorial precedente](https://planb.network/tutorials/node/ronin-dojo), avevamo già spiegato la procedura per installare e utilizzare RoninDojo v1. Tuttavia, nell'ultimo anno, i team di RoninDojo hanno lanciato la versione 2 della loro implementazione, che ha segnato un punto di svolta significativo nell'architettura del software. Infatti, si sono allontanati dalla distribuzione Linux Manjaro a favore di Debian. Di conseguenza, non offrono più un'immagine pre-configurata per l'installazione automatica su Raspberry Pi. Ma esiste ancora un metodo per procedere con un'installazione manuale. Questo è quello che ho usato per il mio nodo, e da allora, RoninDojo v2 ha funzionato meravigliosamente sul mio Raspberry Pi 4. Offro quindi un nuovo tutorial su come installare manualmente RoninDojo v2 su Raspberry Pi.
+In un tutorial precedente, avevamo già spiegato la procedura per installare e utilizzare RoninDojo v1. Tuttavia, nell'ultimo anno, i team di RoninDojo hanno lanciato la versione 2 della loro implementazione, che ha segnato un punto di svolta significativo nell'architettura del software. Infatti, si sono allontanati dalla distribuzione Linux Manjaro a favore di Debian. Di conseguenza, non offrono più un'immagine pre-configurata per l'installazione automatica su Raspberry Pi. Ma esiste ancora un metodo per procedere con un'installazione manuale. Questo è quello che ho usato per il mio nodo, e da allora, RoninDojo v2 ha funzionato meravigliosamente sul mio Raspberry Pi 4. Offro quindi un nuovo tutorial su come installare manualmente RoninDojo v2 su Raspberry Pi.
+
+https://planb.network/tutorials/node/ronin-dojo
+
+
 
 ## Indice dei contenuti:
 - Cos'è RoninDojo?
@@ -319,12 +323,18 @@ Il tuo nodo RoninDojo integra anche _WhirlpoolCLI_, un'interfaccia a riga di com
 Eseguire un coinjoin tramite Whirlpool richiede che l'applicazione utilizzata sia attiva per effettuare i remix. Questa condizione può essere restrittiva per coloro che desiderano raggiungere alti livelli di anonimato. Infatti, il dispositivo che ospita l'applicazione integrante Whirlpool deve rimanere acceso continuamente. Questo significa che per partecipare ai remix 24 ore su 24, il tuo computer o smartphone deve rimanere acceso con Samourai o Sparrow aperti in continuazione. Una soluzione a questa limitazione è utilizzare _WhirlpoolCLI_ su una macchina che è sempre accesa, come un nodo Bitcoin, permettendo ai tuoi coin di remixare senza interruzioni, e senza la necessità di tenere acceso un altro dispositivo.
 Un tutorial dettagliato è in preparazione per guidarti passo dopo passo attraverso il processo di coinjoin con Samourai Wallet e RoninDojo v2, dalla A alla Z.
 
-Per una comprensione più approfondita del coinjoin e del suo utilizzo su Bitcoin, ti invito anche a consultare questo altro articolo: [Understanding and using coinjoin on Bitcoin](https://planb.network/tutorials/privacy/coinjoin-dojo), dove dettaglio tutto ciò che devi sapere su questa tecnica.
+Per una comprensione più approfondita del coinjoin e del suo utilizzo su Bitcoin, ti invito anche a consultare questo altro articolo: Understanding and using coinjoin on Bitcoin, dove dettaglio tutto ciò che devi sapere su questa tecnica.
+
+https://planb.network/tutorials/privacy/coinjoin-dojo
 ### Utilizzo di Whirlpool Stat Tool (WST)
 
 Dopo aver eseguito coinjoins con Whirlpool, è utile valutare con precisione il livello di privacy raggiunto per i tuoi UTXO mixati. Per fare ciò, puoi utilizzare lo strumento Python *Whirlpool Stat Tool*. Questo strumento ti permette di misurare sia i punteggi prospettici che retrospettivi dei tuoi UTXO, analizzando al contempo il loro tasso di diffusione nella pool.
 
-Per approfondire la tua comprensione dei meccanismi di calcolo di questi anonset, ti consiglio di leggere l'articolo: [REMIX - WHIRLPOOL](https://planb.network/tutorials/privacy/remix-whirlpool), che dettaglia il funzionamento di questi indici.
+Per approfondire la tua comprensione dei meccanismi di calcolo di questi anonset, ti consiglio di leggere l'articolo: REMIX - WHIRLPOOL, che dettaglia il funzionamento di questi indici.
+
+https://planb.network/tutorials/privacy/remix-whirlpool
+
+
 
 Per accedere allo strumento WST, vai su RoninCLI. Per fare ciò, apri un terminale sul tuo computer personale e stabilisci una connessione SSH con il tuo nodo utilizzando il seguente comando:
 `SSH ronindojo@[IP]`

@@ -1,0 +1,9 @@
+question: Chiunque può duplicare il codice di Bitcoin, rendendolo privo di valore, corretto o errato?
+answer: Corretto
+wrong_answers:
+  - Errato
+explanation: |
+  Sebbene il codice per Bitcoin sia open source e possa essere copiato,
+  il valore di bitcoin non deriva dal suo codice. Deriva dalla
+  sua rete di utenti e dalla fiducia e adozione che ha costruito nel tempo.
+reviewed: false

@@ -256,7 +256,7 @@ Im nächsten Schritt gelangen Sie auf die Seite, die der Konfiguration Ihres Doj
 
 ![coinjoin](assets/notext/24.webp)
 
-*Für neue Benutzer von Samourai wird es dann notwendig sein, eine Wallet von Grund auf neu zu erstellen. Wenn Sie Hilfe benötigen, können Sie die Anweisungen zur Einrichtung einer neuen Samourai Wallet [in diesem Tutorial, speziell im Abschnitt "Erstellen einer Software-Wallet"](https://planb.network/tutorials/privacy/coinjoin-samourai-wallet) konsultieren.*
+*Für neue Benutzer von Samourai wird es dann notwendig sein, eine Wallet von Grund auf neu zu erstellen. Wenn Sie Hilfe benötigen, können Sie die Anweisungen zur Einrichtung einer neuen Samourai Wallet [in diesem Tutorial, speziell im Abschnitt "Erstellen einer Software-Wallet"](https://planb.network/tutorials/privacy/coinjoin-samourai-wallet)*
 
 Wenn Sie mit der Wiederherstellung einer bereits existierenden Samourai Wallet fortfahren, wählen Sie `Bestehende Wallet wiederherstellen`, dann wählen Sie `Ich habe eine Samourai Backup-Datei`.
 Normalerweise sollten Sie immer Ihre Wiederherstellungsdatei in Ihrer Zwischenablage haben. Klicken Sie dann auf `EINFÜGEN`, um Ihre Datei an der vorgesehenen Stelle einzufügen. Um sie zu entschlüsseln, müssen Sie auch die BIP39-Passphrase Ihres Wallets in das entsprechende Feld eingeben, das sich direkt darunter befindet. Zum Abschluss klicken Sie auf `FERTIGSTELLEN`. ![coinjoin](assets/notext/26.webp)
@@ -361,4 +361,4 @@ Whirlpool-Konten sind in Samourai Wallet durch ihre blaue Farbe leicht zu identi
 
 ![coinjoin](assets/notext/53.webp)
 
-Um den Überblick über Ihre automatischen CoinJoins zu behalten, empfehle ich auch, ein Watch-Only-Wallet über die Sentinel-App einzurichten. Fügen Sie das ZPUB Ihres **Postmix**-Kontos hinzu und überwachen Sie den Fortschritt Ihrer CoinJoin-Zyklen in Echtzeit. Wenn Sie verstehen möchten, wie man Sentinel verwendet, empfehle ich, dieses andere Tutorial im PlanB Network zu konsultieren: [**SENTINEL WATCH-ONLY**](https://planb.network/tutorials/wallet/sentinel).
+Um den Überblick über Ihre automatischen CoinJoins zu behalten, empfehle ich auch, ein Watch-Only-Wallet über die Sentinel-App einzurichten. Fügen Sie das ZPUB Ihres **Postmix**-Kontos hinzu und überwachen Sie den Fortschritt Ihrer CoinJoin-Zyklen in Echtzeit. Wenn Sie verstehen möchten, wie man Sentinel verwendet, empfehle ich, dieses andere Tutorial im PlanB Network zu konsultieren: [**SENTINEL WATCH-ONLY**](https://planb.network/tutorials/wallet/sentinel)

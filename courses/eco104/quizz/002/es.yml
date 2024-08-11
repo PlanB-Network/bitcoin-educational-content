@@ -1,0 +1,11 @@
+question: ¿Cuál es la conexión histórica entre el dinero y las mercancías como el oro?
+answer: El oro es escaso y ampliamente aceptado como reserva de valor
+wrong_answers:
+  - El oro hace que el dinero parezca más atractivo
+  - El oro es fácilmente divisible
+  - El oro es único
+explanation: |
+  Dada la escasez globalizada del oro en la naturaleza y la significativa inversión requerida
+  para minar, refinar y almacenar, el oro ha mantenido consistentemente un valor superior
+  sobre otras formas de dinero.
+reviewed: false

@@ -1,0 +1,13 @@
+question: Parmi ces 3 protocoles, lequel n'est pas une implémentation de coinjoin ?
+
+answer: Chainalysis.
+
+wrong_answers:
+  - JoinMarket.
+  - Wabisabi.
+  - Whirlpool.
+
+explanation: |
+  Chainalysis n'est absolument pas une implémentation de coinjoin, puisque c'est une société d'analyse de chaîne.
+
+reviewed: false

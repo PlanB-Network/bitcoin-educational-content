@@ -10,9 +10,17 @@ Se, mentre consultate uno dei nostri contenuti educativi (tutorial, formazioni, 
 
 Questo tutorial vi guida passo dopo passo nel processo di correzione di questi piccoli errori. È un tutorial destinato ai principianti che non desiderano avventurarsi nelle complessità di Git. Tuttavia, se vi sentite a vostro agio con Git, ecco un breve riassunto: è sufficiente fare un fork [del repository dei dati di PlanB Network](https://github.com/DecouvreBitcoin/sovereign-university-data), apportare modifiche su un ramo dedicato e inviare una Pull Request contro il ramo `dev` del repository sorgente.
 
-Si prega di notare che se si prevede di eseguire una revisione completa e una rielaborazione di un documento, specialmente per le traduzioni dei contenuti, vi invito a consultare [questo altro tutorial più dettagliato](https://planb.network/tutorials/others/content-review-tutorial). Qui, ci concentriamo solo su come effettuare una rapida correzione per un piccolo errore.
+Si prega di notare che se si prevede di eseguire una revisione completa e una rielaborazione di un documento, specialmente per le traduzioni dei contenuti, vi invito a consultare questo altro tutorial più dettagliato.
 
-- Prima di tutto, è necessario avere un account su GitHub. Se non sapete come crearne uno, abbiamo realizzato [un tutorial dettagliato per guidarvi](https://planb.network/tutorials/others/create-github-account).
+https://planb.network/tutorials/others/content-review-tutorial
+
+ Qui, ci concentriamo solo su come effettuare una rapida correzione per un piccolo errore.
+
+- Prima di tutto, è necessario avere un account su GitHub. Se non sapete come crearne uno, abbiamo realizzato un tutorial dettagliato per guidarvi.
+
+https://planb.network/tutorials/others/create-github-account
+
+
 - Andate al [repository GitHub di PlanB dedicato ai dati](https://github.com/DecouvreBitcoin/sovereign-university-data):
 ![typos](assets/01.webp)
 - Qui, troverete tutti i nostri contenuti organizzati per parte.
@@ -37,4 +45,7 @@ Si prega di notare che se si prevede di eseguire una revisione completa e una ri
 - Puoi aggiungere un titolo e una breve descrizione per il tuo PR: ![typos](assets/18.webp)
 - Se tutto ti sembra a posto, puoi cliccare sul pulsante verde `Create Pull Request`: ![typos](assets/19.webp)
 - Congratulazioni, il tuo PR è stato inviato! Puoi seguire il suo progresso nella scheda `Pull requests` sul [repository GitHub di PlanB Network](https://github.com/DecouvreBitcoin/sovereign-university-data/pulls) :![typos](assets/20.webp)
-Grazie mille per il tuo contributo! Se desideri apportare altri tipi di contributi a PlanB Network come la scrittura di contenuti o la traduzione, sentiti libero di [consultare gli altri nostri tutorial nella sezione "Contributo"](https://planb.network/tutorials/others).
+Grazie mille per il tuo contributo! Se desideri apportare altri tipi di contributi a PlanB Network come la scrittura di contenuti o la traduzione, sentiti libero di consultare gli altri nostri tutorial nella sezione "Contributo".
+
+https://planb.network/tutorials/others
+

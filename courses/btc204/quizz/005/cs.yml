@@ -1,0 +1,9 @@
+question: Co je vstup v transakci?
+answer: Odkaz na předchozí nevyužité UTXO.
+wrong_answers:
+  - Potvrzovací signál od těžařů.
+  - Nový blok přidaný do blockchainu.
+  - Ověřovací kód pro zabezpečení transakce.
+explanation: |
+  Každý vstup transakce je odkaz na UTXO, což znamená výstup z předchozí transakce.
+reviewed: false

@@ -1,0 +1,11 @@
+question: Qual è il ruolo delle chiavi private nelle transazioni Bitcoin?
+answer: Sono utilizzate per firmare e autorizzare le transazioni.
+wrong_answers:
+  - Sono utilizzate per verificare l'autenticità delle transazioni.
+  - Sono utilizzate per criptare i dati della transazione.
+  - Sono condivise pubblicamente per trasparenza.
+explanation: |
+  Le chiavi private sono un componente essenziale delle transazioni Bitcoin.
+  Sono utilizzate per firmare e autorizzare le transazioni, fornendo prova
+  della proprietà e assicurando che solo il proprietario possa spendere i suoi bitcoin.
+reviewed: false

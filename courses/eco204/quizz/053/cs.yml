@@ -1,0 +1,9 @@
+question: Jaký je jeden z důsledků dolarizace?
+answer: Ztráta autonomní měnové politiky
+wrong_answers:
+  - Zvýšení inflace
+  - Zvýšení peněžní zásoby
+  - Snížení veřejné důvěry
+explanation: |
+  Dolarizace může ukončit hyperinflaci, ale přináší i další ekonomické výzvy. Jedním z důsledků je ztráta autonomní měnové politiky. Bez vlastní měny nemůže země upravit svou měnovou politiku tak, aby reagovala na vnitřní ekonomické šoky.
+reviewed: false

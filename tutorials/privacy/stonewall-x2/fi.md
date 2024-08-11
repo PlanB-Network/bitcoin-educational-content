@@ -86,7 +86,7 @@ Klikkaa 'SEURAA' -painiketta.
 ![seuraa paynymia](assets/notext/11.webp)
 Vahvista klikkaamalla 'KYLLÄ'.
 ![vahvista seuraaminen paynym](assets/notext/12.webp)
-Ohjelmisto tarjoaa sinulle sen jälkeen 'YHDISTÄ' -painiketta. Tämän painikkeen klikkaaminen ei ole tarpeellista tässä oppaassa. Tämä vaihe on tarpeellinen vain, jos aiot tehdä maksuja toiselle PayNymille osana [BIP47](https://planb.network/tutorials/privacy/paynym-bip47), mikä ei liity tähän oppaaseen.
+Ohjelmisto tarjoaa sinulle sen jälkeen 'YHDISTÄ' -painiketta. Tämän painikkeen klikkaaminen ei ole tarpeellista tässä oppaassa. Tämä vaihe on tarpeellinen vain, jos aiot tehdä maksuja toiselle PayNymille osana BIP47, mikä ei liity tähän oppaaseen.
 ![yhdistä paynym](assets/notext/13.webp)
 Kun PayNymisi seuraa yhteistyökumppanisi PayNymia, toista tämä prosessi päinvastaisessa järjestyksessä, jotta yhteistyökumppanisi voi myös seurata sinua. Sen jälkeen voitte suorittaa Stonewall x2 -siirron.
 
@@ -96,7 +96,7 @@ Jos käytät Sparrow Walletia, avaa lompakkosi ja siirry 'Näytä PayNym' -valik
 ![pyydä paynym sparrow](assets/notext/14.webp)
 Syötä sen jälkeen yhteistyökumppanisi PayNym-tunniste (joko heidän lempinimensä '+...' tai heidän maksukoodinsa 'PM...') 'Etsi Yhteystieto' -kenttään ja klikkaa 'Lisää Yhteystieto' -painiketta.
 ![lisää yhteystieto paynym](assets/notext/15.webp)
-Ohjelmisto tarjoaa sinulle sen jälkeen 'Linkitä Yhteystieto' -painiketta. Tämän painikkeen klikkaaminen ei ole tarpeellista tässä oppaassa. Tämä vaihe on tarpeellinen vain, jos aiot tehdä maksuja ilmoitetulle PayNymille osana [BIP47](https://planb.network/tutorials/privacy/paynym-bip47), mikä ei liity tähän oppaaseen.
+Ohjelmisto tarjoaa sinulle sen jälkeen 'Linkitä Yhteystieto' -painiketta. Tämän painikkeen klikkaaminen ei ole tarpeellista tässä oppaassa. Tämä vaihe on tarpeellinen vain, jos aiot tehdä maksuja ilmoitetulle PayNymille osana BIP47, mikä ei liity tähän oppaaseen.
 
 Kun PayNymisi seuraa yhteistyökumppanisi PayNymia, toista tämä prosessi päinvastaisessa järjestyksessä, jotta yhteistyökumppanisi voi myös seurata sinua. Sen jälkeen voitte suorittaa Stonewall x2 -siirron.
 ## Kuinka tehdä Stonewall x2 -siirto Samourai Walletissa?

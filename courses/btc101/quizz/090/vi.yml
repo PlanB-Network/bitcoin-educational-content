@@ -1,0 +1,9 @@
+question: Việc sử dụng ví di động được khuyến nghị cho mục đích gì?
+answer: Cho các chi tiêu hàng ngày
+wrong_answers:
+  - Để tiết kiệm lâu dài
+  - Để tiết kiệm trung hạn
+  - Để chứa số lượng lớn
+explanation: |
+  Ví di động được khuyến nghị sử dụng cho các chi tiêu hàng ngày vì việc thực hiện giao dịch với nó rất dễ dàng. Tuy nhiên, không được khuyến nghị để lưu trữ số lượng lớn hoặc tiết kiệm lâu dài vì nó có thể dễ bị tổn thương trước các mối đe dọa trực tuyến.
+reviewed: false

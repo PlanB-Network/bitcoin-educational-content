@@ -1,0 +1,13 @@
+question: Co je koncept komparativní výhody v kontextu dělby práce?
+answer: Jedinec má lepší schopnost vykonávat určité úkoly než ostatní.
+wrong_answers:
+  - Jedinec má stejnou schopnost vykonávat všechny úkoly jako ostatní.
+  - Jedinec má horší schopnost vykonávat určité úkoly než ostatní.
+  - Jedinec má lepší schopnost vykonávat všechny úkoly než ostatní.
+explanation: |
+  V kontextu dělby práce se koncept komparativní výhody vztahuje
+  na situaci, kdy jedinec má lepší schopnost vykonávat určité úkoly
+  než ostatní. I když jedinec nemá absolutní výhodu ve výrobě
+  jakéhokoli zboží, stále existují typy výroby, ve kterých je jedinec lepší
+  než v ostatních, a z tohoto důvodu má stále zájem na specializaci.
+reviewed: false

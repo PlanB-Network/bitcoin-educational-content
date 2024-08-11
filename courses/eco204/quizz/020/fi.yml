@@ -1,0 +1,10 @@
+question: Kuka esitti tunnetuimman määritelmän hyperinflaatiosta?
+answer: Philip Cagan
+wrong_answers:
+  - Bernholz
+  - David
+  - Hanke-Krus
+explanation: |
+  Tunnetuimman määritelmän hyperinflaatiosta esitti Philip Cagan,
+  joka esitti kvantitatiivisen ymmärryksen hyperinflaatiosta vuoden 1956 teoksessaan "The
+  Monetary Dynamics of Hyperinflation."

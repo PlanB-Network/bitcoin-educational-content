@@ -1,0 +1,13 @@
+question: Jaké meziopatření lze podniknout, aby se skryly spojení, když nepoužíváte vlastní Bitcoinový uzel?
+
+answer: Použití Tor.
+
+wrong_answers:
+  - Použití firewallu.
+  - Použití šifrované peněženky.
+  - Použití dvojité peněženky.
+
+explanation: |
+  Aby se omezilo riziko pozorování, meziřešením je použití softwaru peněženky, který umožňuje skrýt vaše spojení prostřednictvím Tor.
+
+reviewed: false

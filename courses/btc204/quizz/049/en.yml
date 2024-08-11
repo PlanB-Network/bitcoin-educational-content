@@ -1,0 +1,13 @@
+question: Why is the XOR operator used in BIP47?
+
+answer: To symmetrically encrypt the payload of the sender's payment code.
+
+wrong_answers:
+  - To asymmetrically encrypt the payload of the sender's payment code.
+  - To symmetrically encrypt the metadata of the sender's payment code.
+  - To asymmetrically encrypt the metadata of the sender's payment code.
+
+explanation: |
+  The XOR operator is used to symmetrically encrypt the payload of the sender's payment code in BIP47.
+
+reviewed: false

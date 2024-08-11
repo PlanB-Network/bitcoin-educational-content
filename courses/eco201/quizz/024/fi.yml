@@ -1,0 +1,10 @@
+question: Mikä on ratkaisu suoran vaihdon ongelmaan työnjaossa?
+answer: Välillinen vaihto, jota raha mahdollistaa.
+wrong_answers:
+  - Suora vaihto, jota vaihtokauppa mahdollistaa.
+  - Välillinen vaihto, jota vaihtokauppa mahdollistaa.
+  - Suora vaihto, jota raha mahdollistaa.
+explanation: |
+  Raha mahdollistaa välillisen vaihdon, jossa yksilö voi ostaa toiselta,
+  ja myyjä voi käyttää kyseistä rahayksikköä muualla, toisena aikana, ja
+  jonkun toisen kanssa.

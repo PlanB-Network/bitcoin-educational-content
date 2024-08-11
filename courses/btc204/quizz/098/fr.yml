@@ -1,0 +1,13 @@
+question: Que mesure l'anonset prospectif ?
+
+answer: La résistance de la confidentialité face à une analyse passé vers présent.
+
+wrong_answers:
+  - La résistance de la confidentialité face à une analyse présent vers passé.
+  - La résistance de la confidentialité face à une analyse futur vers présent.
+  - La résistance de la confidentialité face à une analyse futur vers passé.
+
+explanation: |
+  L'anonset prospectif permet de mesurer la résistance de la confidentialité de la pièce face à une analyse passé vers présent (entrée vers sortie).
+
+reviewed: false

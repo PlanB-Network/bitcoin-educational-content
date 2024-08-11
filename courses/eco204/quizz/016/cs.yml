@@ -1,0 +1,9 @@
+question: Jaká je hranice pro hyperinflaci podle definice Philipa Cagana?
+answer: Měsíční inflace přesahuje 50%
+wrong_answers:
+  - Měsíční inflace přesahuje 40%
+  - Měsíční inflace přesahuje 60%
+  - Měsíční inflace přesahuje 70%
+explanation: |
+  Podle definice Philipa Cagana začíná hyperinflace, když měsíční inflace přesáhne 50%.
+reviewed: false

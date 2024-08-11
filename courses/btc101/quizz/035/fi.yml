@@ -1,0 +1,11 @@
+question: Mikä näistä vaihtoehdoista ei ole fiat-valuuttojen etu?
+answer: Ne ovat alttiita rahalliselle inflaatiolle
+wrong_answers:
+  - Ne ovat helposti kuljetettavissa
+  - Ne ovat helposti jaettavissa
+  - Ne hyväksytään kaikissa maissa
+explanation: |
+  Fiat-valuutat, kuten dollari ja euro, ovat erittäin likvidejä ja
+  helposti kuljetettavissa, koska ne ovat nykyään pääasiassa digitaalisia. Niiden arvo kuitenkin
+  heikkenee jatkuvasti rahallisen inflaation seurauksena.
+reviewed: false

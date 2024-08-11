@@ -1,0 +1,9 @@
+question: Která z následujících možností NENÍ jednou ze tří základních funkcí peněz?
+answer: Zdroj energie
+wrong_answers:
+  - Uchovatel hodnoty
+  - Prostředek směny
+  - Jednotka účtu
+explanation: |
+  Tři základní funkce peněz jsou uchování hodnoty, prostředek směny a jednotka účtu. Zdroj energie není funkcí peněz.
+reviewed: false

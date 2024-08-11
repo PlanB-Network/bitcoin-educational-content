@@ -1,0 +1,9 @@
+question: Wei Daiのb-moneyとは何ですか？
+answer: 中央機関ではなく、評価者のコミュニティによって不正検出が行われる匿名のデジタル通貨のアイデアです。
+wrong_answers:
+  - Bitcoinより前に広く使用されていたデジタル通貨。
+  - CIAによって作成されたデジタルマネーの形態。
+  - Bitcoinの競合としてWei Daiによって作成されたデジタル通貨。
+explanation: |
+  Wei Daiのb-moneyは、中央の実体がない匿名のデジタル通貨のアイデアであり、Bitcoinのホワイトペーパーで引用されるほど、Bitcoinに大きな影響を与えました。
+reviewed: true

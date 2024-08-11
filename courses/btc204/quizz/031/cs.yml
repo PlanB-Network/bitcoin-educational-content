@@ -1,0 +1,9 @@
+question: Pokud je ve zjednodušené platební transakci použita stejná adresa jako vstup a na jednom ze dvou výstupů, který výstup pravděpodobně představuje vrácení peněz?
+answer: Ten, který má stejnou adresu jako vstup.
+wrong_answers:
+  - Ten s nejnovější adresou.
+  - Ten s odlišnou adresou než vstup.
+  - Ten s neznámou adresou.
+explanation: |
+  Pokud dojde k opětovnému použití adresy v rámci téže transakce, je rozumné předpokládat, že uživatel stále vlastní přidružený UTXO. Proto je výstup se stejnou adresou jako vstup pravděpodobně vrácením peněz.
+reviewed: false

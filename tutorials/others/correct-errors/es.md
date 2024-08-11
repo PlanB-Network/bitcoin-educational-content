@@ -10,9 +10,17 @@ Si, mientras consultas uno de nuestros contenidos educativos (tutoriales, formac
 
 Este tutorial te guía paso a paso a través del proceso de corregir estos pequeños errores. Es un tutorial destinado a principiantes que no desean aventurarse en las complejidades de Git. Sin embargo, si te sientes cómodo con Git, aquí hay un resumen rápido: solo necesitas hacer un fork del [repositorio de datos de la Red PlanB](https://github.com/DecouvreBitcoin/sovereign-university-data), hacer cambios en una rama dedicada y enviar un Pull Request contra la rama `dev` del repositorio fuente.
 
-Ten en cuenta que si planeas realizar una revisión completa y revisión de un documento, especialmente para traducciones de contenido, te invito a consultar [este otro tutorial más detallado](https://planb.network/tutorials/others/content-review-tutorial). Aquí, nos enfocamos solo en cómo hacer una corrección rápida para un pequeño error.
+Ten en cuenta que si planeas realizar una revisión completa y revisión de un documento, especialmente para traducciones de contenido, te invito a consultar este otro tutorial más detallado.
 
-- Primero, necesitas tener una cuenta en GitHub. Si no sabes cómo crear una cuenta, hemos hecho [un tutorial detallado para guiarte](https://planb.network/tutorials/others/create-github-account).
+https://planb.network/tutorials/others/content-review-tutorial
+
+ Aquí, nos enfocamos solo en cómo hacer una corrección rápida para un pequeño error.
+
+- Primero, necesitas tener una cuenta en GitHub. Si no sabes cómo crear una cuenta, hemos hecho un tutorial detallado para guiarte.
+
+https://planb.network/tutorials/others/create-github-account
+
+
 - Ve al [repositorio de GitHub de PlanB dedicado a datos](https://github.com/DecouvreBitcoin/sovereign-university-data):
 ![typos](assets/01.webp)
 - Aquí, encontrarás todo nuestro contenido organizado por parte.
@@ -28,7 +36,7 @@ Ten en cuenta que si planeas realizar una revisión completa y revisión de un d
 - Si nunca has contribuido al contenido de la Red PlanB antes, necesitarás crear tu fork del repositorio original. Hacer un fork de un repositorio significa crear una copia de ese repositorio en tu propia cuenta de GitHub, lo que te permite trabajar en el proyecto sin afectar el repositorio original. Haz clic en el botón `Fork this repository`: ![typos](assets/08.webp)
 - Llegarás entonces a la página de edición de GitHub: ![typos](assets/09.webp)- Realiza las modificaciones de texto para corregir los errores que hayas detectado. No temas, actualmente estás en tu propio fork, así que esto no cambiará nada en el sitio de PlanB Network por el momento. Por ejemplo, aquí, imaginemos que modifiqué la palabra "entrées" porque tenía un error ortográfico: ![typos](assets/10.webp)
 - Una vez que hayas completado tus correcciones en este documento, puedes hacer clic en el botón verde `Commit Changes...`. Un commit es como una instantánea instantánea de tu trabajo en un momento dado, lo que permite mantener un historial de los cambios: ![typos](assets/11.webp)
-- Agrega un título para tus modificaciones, así como una breve descripción: ![typos](assets/12.webp)
+- Agrega un título para tus modificaciones, así como una breve description: ![typos](assets/12.webp)
 - Haz clic en el botón verde `Propose changes`: ![typos](assets/13.webp)
 - Llegarás entonces a una página que resume todos tus cambios: ![typos](assets/14.webp)
 - Desplazándote hacia abajo, puedes ver las modificaciones específicas que has realizado: ![typos](assets/15.webp)
@@ -37,4 +45,7 @@ Ten en cuenta que si planeas realizar una revisión completa y revisión de un d
 - Puedes agregar un título y una breve descripción para tu PR: ![typos](assets/18.webp)
 - Si todo te parece bien, puedes hacer clic en el botón verde `Create Pull Request`: ![typos](assets/19.webp)
 - ¡Felicidades, tu PR ha sido enviado! Puedes seguir su progreso en la pestaña `Pull requests` en [el repositorio de GitHub de PlanB Network](https://github.com/DecouvreBitcoin/sovereign-university-data/pulls) :![typos](assets/20.webp)
-¡Muchas gracias por tu contribución! Si te gustaría hacer otros tipos de contribuciones a PlanB Network como escribir contenido o traducción, no dudes en [consultar nuestros otros tutoriales en la sección "Contribución"](https://planb.network/tutorials/others).
+¡Muchas gracias por tu contribución! Si te gustaría hacer otros tipos de contribuciones a PlanB Network como escribir contenido o traducción, no dudes en consultar nuestros otros tutoriales en la sección "Contribución".
+
+https://planb.network/tutorials/others
+

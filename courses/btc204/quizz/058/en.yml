@@ -1,0 +1,13 @@
+question: What is the difference between external and internal address reuse in a transaction?
+
+answer: External reuse is observed across multiple transactions, while internal reuse is observed within the same transaction.
+
+wrong_answers:
+  - External reuse concerns public addresses, while internal reuse concerns private addresses used in transaction scripts.
+  - Internal reuse is observed across multiple transactions, while external reuse is observed within the same transaction.
+  - Internal reuse concerns public addresses, while external reuse concerns private addresses used in transaction scripts.
+
+explanation: |
+  External address reuse is observed when an address is reused across several different transactions, whereas internal reuse concerns an address that is used both in the inputs and in the outputs of the same transaction.
+
+reviewed: false

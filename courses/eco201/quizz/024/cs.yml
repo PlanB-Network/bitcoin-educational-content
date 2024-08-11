@@ -1,0 +1,11 @@
+question: Jaké je řešení problému přímé výměny v dělbě práce?
+answer: Nepřímá výměna zprostředkovaná penězi.
+wrong_answers:
+  - Přímá výměna zprostředkovaná směnou.
+  - Nepřímá výměna zprostředkovaná směnou.
+  - Přímá výměna zprostředkovaná penězi.
+explanation: |
+  Peníze umožňují nepřímou výměnu, kdy jedinec může nakupovat od
+  jiného, a prodávající může použít tu monetární jednotku jinde, v jiný čas, a
+  s někým jiným.
+reviewed: false

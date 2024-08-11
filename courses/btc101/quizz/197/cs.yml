@@ -1,0 +1,10 @@
+question: Jaké je jedno z rizik spojených s nákupem Bitcoinu?
+answer: Jeho cena může klesnout na 0.
+wrong_answers:
+  - Může být snadno ukraden.
+  - Může být duplikován.
+  - Může být fyzicky ztracen.
+explanation: >-
+  Text uvádí, že Bitcoin je vysoce volatilní finanční aktivum a
+  jeho cena může klesnout na 0. To je jedno z rizik spojených s nákupem Bitcoinu.
+reviewed: false

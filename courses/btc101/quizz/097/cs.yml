@@ -1,0 +1,9 @@
+question: Co se stane, pokud váš soukromý klíč je odhalen třetí straně?
+answer: Přidružené prostředky již nejsou bezpečné
+wrong_answers:
+  - Třetí strana může pouze zobrazit vaši historii transakcí
+  - Třetí strana může změnit váš soukromý klíč
+  - Třetí strana může přistupovat k vašim osobním informacím
+explanation: |
+  Pokud váš soukromý klíč je odhalen třetí straně, přidružené prostředky již nejsou bezpečné. To je proto, že soukromý klíč představuje přístup k vašim prostředkům.
+reviewed: false

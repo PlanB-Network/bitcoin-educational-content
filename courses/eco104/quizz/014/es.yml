@@ -1,0 +1,11 @@
+question: ¿Cuál es el papel de las claves privadas en las transacciones de Bitcoin?
+answer: Se utilizan para firmar y autorizar transacciones.
+wrong_answers:
+  - Se utilizan para verificar la autenticidad de las transacciones.
+  - Se utilizan para cifrar los datos de la transacción.
+  - Se comparten públicamente para transparencia.
+explanation: |
+  Las claves privadas son un componente esencial de las transacciones de Bitcoin.
+  Se utilizan para firmar y autorizar transacciones, proporcionando prueba
+  de propiedad y asegurando que solo el propietario pueda gastar sus bitcoins.
+reviewed: false

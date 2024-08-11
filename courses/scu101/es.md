@@ -367,23 +367,27 @@ Regla de oro: ¡La seguridad informática es un objetivo en constante evolución
 ## Configuración de un Buzón de Correo
 <chapterId>afc9ab5d-7664-5a9b-ab50-225ac9ba8f7c</chapterId>
 
-Ten en cuenta que, por el momento, esta parte del curso solo contiene tutoriales en francés. Actualmente estamos trabajando en traducir el video para publicarlo en tu idioma. Si deseas ayudarnos a traducir, contáctanos a través de [GitHub](https://github.com/PlanB-Network/bitcoin-educational-content)
+https://planb.network/tutorials/others/proton-mail
 
 ![video](https://youtu.be/vpYJYWhmEZg)
 
 ## Seguridad en 2FA
 <chapterId>09468ec1-95b7-56a4-a636-7618044568e1</chapterId>
 
+https://planb.network/tutorials/others/authy
+
+https://planb.network/tutorials/others/security-key
+
 ![video](https://youtu.be/mNcAKRDmz5o)
 
 ## Creación de un gestor de contraseñas
 <chapterId>ed579680-4e7b-5f65-8541-14e519a3b242</chapterId>
-
+https://planb.network/tutorials/others/bitwarden
 ![video](https://youtu.be/y7Xkv4E5YmU)
 
 ## Asegurando tus cuentas
 <chapterId>7a774b34-aed0-57dd-b8f7-cf3be51c0d70</chapterId>
-
+https://planb.network/tutorials/others/bitwarden
 ![video](https://youtu.be/0JHZRALmGY0)
 
 ## Configuración de copia de seguridad

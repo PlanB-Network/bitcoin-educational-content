@@ -291,7 +291,7 @@ Alice (90 SAT) ==== (40 SAT) Susie (50 SAT) ==== (240 SAT) Eden (110 SAT) ==== (
 
 ![cover](assets/Chapitre7/4.webp)
 
-However, in the initial state, Bob can't send 40 SAT to Alice because Susie doesn't have any liquidity with Alice to send 40 SAT, so payment isn't possible via this route. We therefore need another route where the transaction is impossible.
+However, in the initial state, Bob can't send 40 SAT to Alice because Susie doesn't have any liquidity with Alice to send 40 SAT, so payment isn't possible via this route. We therefore need another route where the transaction is possible.
 
 In the first example, it's clear that Susie and Eden have lost nothing and gained nothing. Lightning Network nodes charge a fee for agreeing to be used to route the transaction!
 
@@ -319,7 +319,7 @@ Therefore:
 
 - Fee 1: (paid by Alice to herself) 1 + (40,000\*0.000001)
 - Fee 2: 0 + 40,000 \* 0.0002 = 8 SAT
-- Charge 3: 1 + 40,000\* 0.000001 = 0.4 SAT
+- Charge 3: 1 + 40,000\* 0.000001 = 1.04 SAT
 
 ![cover](assets/Chapitre7/6.webp)
 
@@ -490,7 +490,7 @@ lnbc1m1pskuawzpp5qeuuva2txazy5g483tuv9pznn9ft8l5e49s5dndj2pqq0ptyn8msdqqcqzpgxqr
 - Bc = bitcoin (mainnet)
 - 1 = amount
 - M = milli (10*-3 / u = micro 10*-6 / n = nano 10*-9 / p = pico 10*-12'
-  Here 1m = 1 \* 0.0001btc = 100,000 BTC
+  Here 1m = 1 \* 0.001btc = 100,000 SAT
   "Please pay 100,000 SAT on the Lightning network of the Bitcoin mainnet to pskuawzpp5qeuuva2txazy5g483tuv9pznn9ft8l5e49s5dndj2pqq0ptyn8msdqqcqzpgxqrrsssp5v4s00u579atm0em6eqm9nr7d0vr64z5j2sm5s33x3r9m4lgfdueq9qyyssqxkjzzgx5ef7ez3dks0laxayx4grrw7j22ppgzyhpydtv6hmc39skf9hjxn5yd3kvv7zpjdxd2s7crcnemh2fz26mnr6zu83w0a2fwxcqnvujl3"
 
 ### Timestamp (when it was created)

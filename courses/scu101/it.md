@@ -372,23 +372,27 @@ Regola d'oro: La sicurezza informatica è un obiettivo in movimento che si adatt
 ## Configurazione di una Casella di Posta
 <chapterId>afc9ab5d-7664-5a9b-ab50-225ac9ba8f7c</chapterId>
 
-Si noti che, al momento, questa parte del corso contiene solo tutorial in francese. Stiamo attualmente lavorando alla traduzione del video per pubblicarlo nella tua lingua. Se vuoi aiutarci a tradurre, contattaci tramite [GitHub](https://github.com/PlanB-Network/bitcoin-educational-content)
+https://planb.network/tutorials/others/proton-mail
 
 ![video](https://youtu.be/vpYJYWhmEZg)
 
 ## Sicurezza con 2FA
 <chapterId>09468ec1-95b7-56a4-a636-7618044568e1</chapterId>
 
+https://planb.network/tutorials/others/authy
+
+https://planb.network/tutorials/others/security-key
+
 ![video](https://youtu.be/mNcAKRDmz5o)
 
 ## Creazione di un gestore di password
 <chapterId>ed579680-4e7b-5f65-8541-14e519a3b242</chapterId>
-
+https://planb.network/tutorials/others/bitwarden
 ![video](https://youtu.be/y7Xkv4E5YmU)
 
 ## Sicurezza dei tuoi account
 <chapterId>7a774b34-aed0-57dd-b8f7-cf3be51c0d70</chapterId>
-
+https://planb.network/tutorials/others/bitwarden
 ![video](https://youtu.be/0JHZRALmGY0)
 
 ## Configurazione del backup

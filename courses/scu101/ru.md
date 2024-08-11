@@ -369,7 +369,7 @@ TOR законен и используется журналистами, акт�
 
 <chapterId>afc9ab5d-7664-5a9b-ab50-225ac9ba8f7c</chapterId>
 
-Обратите внимание, что на данный момент этот раздел курса содержит только учебные пособия на французском языке. Мы в настоящее время работаем над переводом видео, чтобы опубликовать его на вашем языке. Если вы хотите помочь нам с переводом, свяжитесь с нами через [GitHub](https://github.com/DecouvreBitcoin/sovereign-university-data)
+https://planb.network/tutorials/others/proton-mail
 
 ![видео](https://youtu.be/vpYJYWhmEZg)
 
@@ -377,17 +377,22 @@ TOR законен и используется журналистами, акт�
 
 <chapterId>09468ec1-95b7-56a4-a636-7618044568e1</chapterId>
 
+https://planb.network/tutorials/others/authy
+
+https://planb.network/tutorials/others/security-key
+
 ![видео](https://youtu.be/mNcAKRDmz5o)
 
 ## Создание менеджера паролей
 
 <chapterId>ed579680-4e7b-5f65-8541-14e519a3b242</chapterId>
-
+https://planb.network/tutorials/others/bitwarden
 ![видео](https://youtu.be/y7Xkv4E5YmU)
 
 ## Обеспечение безопасности ваших аккаунтов
 
 <chapterId>7a774b34-aed0-57dd-b8f7-cf3be51c0d70</chapterId>
+https://planb.network/tutorials/others/bitwarden
 ![видео](https://youtu.be/0JHZRALmGY0)
 
 ## Настройка резервного копирования

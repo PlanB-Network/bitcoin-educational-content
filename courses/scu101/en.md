@@ -363,23 +363,27 @@ Golden rule: Cybersecurity is a moving target that will adapt to your learning j
 ## Setting up a Mailbox 
 <chapterId>afc9ab5d-7664-5a9b-ab50-225ac9ba8f7c</chapterId>
 
-Notice that, for the moment, this part of the course only contains how-to tutorials in French. We are currently working on translating the video to publish it in your language. If you want to help us translate, contact us via the [GitHub](https://github.com/PlanB-Network/bitcoin-educational-content)
+https://planb.network/tutorials/others/proton-mail
 
 ![video](https://youtu.be/vpYJYWhmEZg)
 
 ## Securing in 2FA
 <chapterId>09468ec1-95b7-56a4-a636-7618044568e1</chapterId>
 
+https://planb.network/tutorials/others/authy
+
+https://planb.network/tutorials/others/security-key
+
 ![video](https://youtu.be/mNcAKRDmz5o)
 
 ## Creating a password manager
 <chapterId>ed579680-4e7b-5f65-8541-14e519a3b242</chapterId>
-
+https://planb.network/tutorials/others/bitwarden
 ![video](https://youtu.be/y7Xkv4E5YmU)
 
 ## Securing your accounts
 <chapterId>7a774b34-aed0-57dd-b8f7-cf3be51c0d70</chapterId>
-
+https://planb.network/tutorials/others/bitwarden
 ![video](https://youtu.be/0JHZRALmGY0)
 
 ## Back-up set-up

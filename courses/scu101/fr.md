@@ -370,11 +370,16 @@ Règle d'or : La sécurité informatique est une cible mouvante qui va s'adapter
 ## Mise en place d'un Boite Mail 
 <chapterId>afc9ab5d-7664-5a9b-ab50-225ac9ba8f7c</chapterId>
 
+https://planb.network/tutorials/others/proton-mail
 
 ![video](https://youtu.be/vpYJYWhmEZg)
 
 ## Sécurisation en 2FA
 <chapterId>09468ec1-95b7-56a4-a636-7618044568e1</chapterId>
+
+https://planb.network/tutorials/others/authy
+
+https://planb.network/tutorials/others/security-key
 
 ![video](https://youtu.be/mNcAKRDmz5o)
 

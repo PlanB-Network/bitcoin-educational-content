@@ -23,9 +23,11 @@ Théo; đóng góp
 +++
 
 # Giới thiệu
+
 <partId>534ab66c-b0e6-5757-a7dd-6ea04647edf2</partId>
 
 ## Giới thiệu khóa học
+
 <chapterId>2f3d005d-8b49-5a3f-b90d-94c11f613407</chapterId>
 
 ### Mục tiêu: Nâng cấp kỹ năng bảo mật của bạn!
@@ -57,7 +59,7 @@ Nếu bạn đang tìm kiếm kỹ năng nâng cao hơn về chủ đề này, c
 
 - Chương 3 - Sử dụng máy tính
 - Chương 4 - Hacking & quản lý sao lưu
-![](assets/en/1.webp)
+  ![](assets/en/1.webp)
 
 ### Phần 3: Triển khai giải pháp
 
@@ -71,9 +73,11 @@ Trong phần thứ ba này, chúng ta sẽ chuyển sang triển khai các giả
 ![](assets/en/1.webp)
 
 # Tất cả những gì bạn cần biết về duyệt web trực tuyến
+
 <partId>b4b5379a-d8ef-59ae-94d3-a6e88959c149</partId>
 
 ## Duyệt web trực tuyến
+
 <chapterId>3a935da9-fa6e-57eb-bf85-7b3ec35e6ee2</chapterId>
 
 Khi duyệt web trên internet, việc tránh được một số sai lầm phổ biến để bảo vệ an ninh trực tuyến của bạn là rất quan trọng. Dưới đây là một số mẹo để tránh chúng:
@@ -87,7 +91,7 @@ Ví dụ: Sử dụng www.signal.org/download thay vì www.logicieltelechargemen
 Cũng nên ưu tiên phần mềm mã nguồn mở vì chúng thường an toàn hơn và không chứa phần mềm độc hại. Phần mềm "mã nguồn mở" là phần mềm có mã code được biết đến và có thể truy cập bởi mọi người. Điều này cho phép chúng được kiểm tra và xác nhận rằng không có quyền truy cập ẩn nào để đánh cắp dữ liệu cá nhân của bạn.
 
 > Bonus: Phần mềm mã nguồn mở thường miễn phí! Trường đại học này 100% mã nguồn mở, vì vậy bạn cũng có thể kiểm tra mã nguồn của chúng tôi trên GitHub của chúng tôi.
-![](assets/notext/5.webp)
+> ![](assets/notext/5.webp)
 
 ### Quản lý cookie: Lỗi và thói quen tốt nhất
 
@@ -102,6 +106,7 @@ Mặc dù cả hai họ đều cung cấp một mức độ bảo mật tương 
 ![](assets/notext/6.webp)
 
 ### Duyệt web riêng tư, TOR, và các lựa chọn khác cho việc duyệt web an toàn và ẩn danh hơn
+
 Duyệt web ẩn danh, mặc dù không ẩn hoàn toàn hoạt động duyệt web của bạn khỏi con mắt của nhà cung cấp dịch vụ internet, nhưng nó cho phép bạn không để lại dấu vết trên máy tính cá nhân. Cookies sẽ tự động được xóa sau mỗi phiên, cho phép bạn chấp nhận tất cả cookies mà không bị theo dõi. Duyệt web ẩn danh có thể hữu ích khi mua sắm dịch vụ trực tuyến, vì các trang web theo dõi thói quen tìm kiếm của chúng ta và điều chỉnh giá cả tương ứng. Tuy nhiên, điều quan trọng là phải lưu ý rằng duyệt web ẩn danh được khuyến nghị cho các phiên cụ thể và tạm thời, không phải cho hoạt động duyệt web chung trên internet.
 
 Một lựa chọn tiến bộ hơn là mạng TOR (The Onion Router), cung cấp sự ẩn danh bằng cách che giấu địa chỉ IP của người dùng và cho phép truy cập vào Darknet. TOR Browser là một trình duyệt được thiết kế đặc biệt để sử dụng mạng TOR. Nó cho phép bạn truy cập cả các trang web thông thường và các trang web .onion, thường được vận hành bởi các cá nhân và có thể mang tính chất bất hợp pháp.
@@ -114,6 +119,7 @@ TOR là hợp pháp và được sử dụng bởi các nhà báo, các nhà ho�
 **_Hướng dẫn đang được xây dựng, để đóng góp hoặc thêm vào, bạn có thể truy cập GitHub_**
 
 ## VPN và kết nối internet
+
 <chapterId>5aac83f4-a685-54b0-9759-d71bea7eeed2</chapterId>
 
 ### VPNs
@@ -146,9 +152,11 @@ Tóm lại, việc sử dụng VPN có thể cải thiện đáng kể bảo m�
 **_Hướng dẫn đang được xây dựng, để đóng góp hoặc thêm vào, bạn có thể truy cập qua GitHub_**
 
 # Những thói quen tốt cần có khi sử dụng máy tính
+
 <partId>e6eac20b-ba24-5d9a-8d86-8e0164074457</partId>
 
 ## Sử dụng máy tính
+
 <chapterId>16745632-b56b-5423-9873-ddf70fdf1efd</chapterId>
 
 Bảo mật cho máy tính của chúng ta là một mối quan tâm lớn trong thế giới số hóa ngày nay. Hôm nay, chúng ta sẽ đề cập đến ba điểm chính:
@@ -167,6 +175,7 @@ Lựa chọn hệ điều hành nên dựa trên nhu cầu và sở thích của
 ![](assets/notext/12.webp)
 
 ### Cập nhật phần mềm
+
 Về việc cập nhật phần mềm, quy tắc rất đơn giản: **điều quan trọng là cần phải cập nhật hệ điều hành và các ứng dụng một cách thường xuyên.**
 Trên Windows 10, các bản cập nhật gần như được đưa ra liên tục và quan trọng là bạn không được chặn hoặc trì hoãn chúng. Mỗi năm có tới khoảng 15,000 lỗ hổng được xác định, điều này cho thấy tầm quan trọng của việc giữ phần mềm được cập nhật để bảo vệ khỏi vi rút. Nói chung, việc hỗ trợ cho một phần mềm thường kết thúc trong khoảng từ 3 đến 5 năm sau khi nó được phát hành, do đó, việc nâng cấp lên phiên bản cao hơn là cần thiết để tiếp tục được bảo vệ.
 
@@ -182,6 +191,7 @@ Ví dụ như: phần mềm bị bẻ khoá không thể được cập nhật, 
 Việc chọn lựa và sử dụng một phần mềm diệt vi rút là rất quan trọng. Windows Defender, phần mềm diệt vi rút tích hợp trong Windows, là một giải pháp an toàn và hiệu quả. Mặc dù là một giải pháp miễn phí, nó rất tốt và tốt hơn nhiều so với nhiều giải pháp miễn phí mà bạn tìm thấy trên internet. Thực vậy, cần phải thận trọng với phần mềm diệt vi rút tải xuống từ Internet, vì chúng có thể là phầm mềm độc hại hoặc lỗi thời.
 Nếu muốn đầu tư vào một phần mềm diệt vi rút trả phí, bạn được khuyến nghị chọn một phần mềm diệt vi rút có sự phân tích kỹ càng các mối đe dọa không rõ và mới nổi, như Kaspersky. Cập nhật phần mềm diệt vi rút là cần thiết để bảo vệ máy tính của bạn khỏi các mối đe dọa mới.
 ![](assets/notext/13.webp)
+
 > Lưu ý: Linux và Mac, nhờ hệ thống phân chia quyền người dùng của họ, thường không cần phần mềm chống virus.
 
 Cuối cùng, đây là một số thói quen tốt cho sự an toàn của máy tính và dữ liệu của bạn. Quan trọng là chọn một phần mềm diệt vi rút hiệu quả và dễ sử dụng. Việc áp dụng các thói quen sử dụng tốt trên máy tính của bạn, như không cắm USB không rõ nguồn gốc hoặc đáng ngờ vào máy của bạn, cũng là điều rất quan trọng. Những USB này có thể chứa các chương trình độc hại có khả năng tự động khởi chạy khi được cắm vào. Việc kiểm tra USB sẽ là vô ích một khi nó đã được cắm vào. Một số công ty đã trở thành nạn nhân của những vụ hack do USB bị cẩu thả bỏ quên trong các khu vực dễ tiếp cận, như bãi đậu xe.
@@ -195,6 +205,7 @@ Kết luận, việc chọn một hệ điều hành phù hợp với nhu cầu 
 **_Hướng dẫn đang được xây dựng, để đóng góp hoặc thêm vào, bạn có thể qua GitHub_**
 
 ## Quản lý hacking & sao lưu: Bảo vệ dữ liệu của Bạn
+
 <chapterId>9ddfcb6a-a253-5542-b7eb-df7222b46dc7</chapterId>
 
 ### Hacker tấn công như thế nào?
@@ -202,7 +213,9 @@ Kết luận, việc chọn một hệ điều hành phù hợp với nhu cầu 
 Để bảo vệ bản thân một cách tốt nhất, bạn cần hiểu về cách mà hacker có thể xâm nhập vào máy tính của bạn. Thực tế, vi rút thường không xuất hiện như một phép thuật, mà nó thực sự là hậu quả phát sinh từ các hành vi sử dụng của chúng ta, kể cả không cố ý!
 
 Như một quy tắc chung, vi rút xuất hiện bởi vì bạn đã cho phép máy tính của mình mời chúng vào nhà. Có thể là do tải xuống phần mềm đáng ngờ, hay một tệp torrent bị xâm phạm, hoặc đơn giản chỉ là nhấp vào liên kết của một email gian lận!
+
 ### Tấn công giả mạo - phishing, cảnh giác trước email lừa đảo:
+
 Chú ý! Email là phương tiện tấn công hàng đầu, dưới đây là một số lời khuyên:
 
 - Luôn cảnh giác với các nỗ lực tấn công giả mạo nhằm mục đích lấy cắp thông tin nhạy cảm như tên đăng nhập và mật khẩu của bạn. Tránh nhấp vào các liên kết đáng ngờ và chia sẻ thông tin cá nhân của bạn mà không xác minh tính hợp pháp của người gửi.
@@ -230,9 +243,11 @@ KHÔNG, nói chung bạn được khuyến khích không trả tiền cho hacker
 Nếu bạn phát hiện vi rút trên máy tính, hãy ngắt kết nối khỏi internet, thực hiện quét toàn bộ bằng phần mềm diệt vi rút và xóa các tệp tin bị nhiễm. Sau đó, cập nhật phần mềm và hệ điều hành của bạn, rồi thay đổi mật khẩu để ngăn chặn sự xâm nhập lần sau.
 
 # Triển khai giải pháp.
+
 <partId>215ec902-ba05-5549-87fc-cb8d82665f7b</partId>
 
 ## Quản lý tài khoản email
+
 <chapterId>dfceea33-8712-5557-ace1-6ba5598d33d8</chapterId>
 
 ### Thiết lập một tài khoản email mới!
@@ -263,6 +278,7 @@ Bitcoin Bonus: Có thể nên tạo một địa chỉ email cụ thể cho các
 **_Hướng dẫn đang được xây dựng, để đóng góp hoặc thêm vào, bạn có thể qua GitHub_**
 
 ## Trình quản lý mật khẩu
+
 <chapterId>0b3c69b2-522c-56c8-9fb8-1562bd55930f</chapterId>
 
 ### Trình quản lý mật khẩu là gì?
@@ -276,14 +292,15 @@ Với trình quản lý mật khẩu, bạn không còn phải lo lắng về vi
 - LastPass: Một trong những trình quản lý phổ biến nhất. Đây là một dịch vụ của bên thứ ba, có nghĩa là mật khẩu của bạn được lưu trữ trên máy chủ của họ. Họ cung cấp một phiên bản miễn phí và một phiên bản trả phí, có giao diện thân thiện với người dùng.
 
 - Dashlane: Cũng là một dịch vụ bên thứ ba, với giao diện trực quan và các tính năng bổ sung như theo dõi thông tin thẻ tín dụng và ghi chú an toàn.
-![](assets/notext/17.webp)
+  ![](assets/notext/17.webp)
+
 ### Tự lưu trữ để kiểm soát nhiều hơn:
 
 - Bitwarden: Là một công cụ mã nguồn mở, có nghĩa là bạn có thể xem xét mã nguồn của nó để xác minh tinhs bảo mật. Mặc dù Bitwarden cung cấp một dịch vụ lưu trữ hộ, họ cũng cho phép người dùng tự lưu trữ, có nghĩa là bạn có thể kiểm soát nơi mật khẩu của mình được lưu trữ, có thể mạng lại sự bảo mật và kiểm soát cao hơn.
 
 - KeePass: Là một giải pháp mã nguồn mở chủ yếu dành cho tự lưu trữ. Dữ liệu của bạn được lưu trữ cục bộ theo mặc định, nhưng bạn có thể đồng bộ hóa cơ sở dữ liệu mật khẩu bằng các phương pháp khác nếu bạn muốn. KeePass được công nhận rộng rãi vì khả năng bảo mật và sự linh hoạt của nó, mặc dù nó có thể ít thân thiện với người mới bắt đầu.
-![](assets/notext/18.webp)
-(Note: Việc lựa chọn giữa một dịch vụ của bên thứ ba hoặc một dịch vụ tự lưu trữ phụ thuộc vào mức độ thoải mái và kỹ năng về công nghệ của bạn cũng như thứ tự ưu tiên của bạn giữa sự kiểm soát và tính tiện ích. Dịch vụ của bên thứ ba thường tiện lợi hơn đối với hầu hết mọi người, trong khi tự lưu trữ đòi hỏi kiến thức kỹ thuật cao hơn nhưng có thể mang lại quyền kiểm soát và sự bảo mật cao hơn.)
+  ![](assets/notext/18.webp)
+  (Note: Việc lựa chọn giữa một dịch vụ của bên thứ ba hoặc một dịch vụ tự lưu trữ phụ thuộc vào mức độ thoải mái và kỹ năng về công nghệ của bạn cũng như thứ tự ưu tiên của bạn giữa sự kiểm soát và tính tiện ích. Dịch vụ của bên thứ ba thường tiện lợi hơn đối với hầu hết mọi người, trong khi tự lưu trữ đòi hỏi kiến thức kỹ thuật cao hơn nhưng có thể mang lại quyền kiểm soát và sự bảo mật cao hơn.)
 
 ### Điều gì tạo nên một mật khẩu tốt:
 
@@ -313,6 +330,7 @@ Mật khẩu được tạo ra một cách ngẫu nhiên cung cấp một mức 
 **_Hướng dẫn đang được xây dựng, để đóng góp hoặc thêm vào, bạn có thể truy cập qua GitHub_**
 
 ## Xác thực hai yếu tố
+
 <chapterId>9391e02e-e61b-5a86-93e0-91a07f217d35</chapterId>
 
 ### Tại sao cần sử dụng xác thực hai yếu tố
@@ -324,8 +342,8 @@ Bước thứ hai này có thể là:
 - Một mã tạm thời được gửi qua SMS.
 - Một mã được tạo bởi một ứng dụng như Google Authenticator hoặc Authy.
 - Một khóa bảo mật vật lý mà bạn cắm vào máy tính của mình.
-![](assets/notext/19.webp)
-Với 2FA, ngay cả khi một hacker có được mật khẩu của bạn, họ cũng không thể nào truy cập vào tài khoản của bạn mà không có yếu tố xác minh thứ hai này. Điều này làm cho 2FA trở nên rất thiết yếu trong việc bảo vệ các tài khoản trực tuyến của bạn nhằm tránh việc truy cập trái phép.
+  ![](assets/notext/19.webp)
+  Với 2FA, ngay cả khi một hacker có được mật khẩu của bạn, họ cũng không thể nào truy cập vào tài khoản của bạn mà không có yếu tố xác minh thứ hai này. Điều này làm cho 2FA trở nên rất thiết yếu trong việc bảo vệ các tài khoản trực tuyến của bạn nhằm tránh việc truy cập trái phép.
 
 ### Lựa chọn phương án nào?
 
@@ -334,8 +352,8 @@ Các lựa chọn khác nhau mang lại các mức độ bảo mật khác nhau.
 - SMS không được coi là lựa chọn tốt nhất vì nó chỉ cung cấp bằng chứng về việc sở hữu một số điện thoại.
 - 2FA (xác thực hai yếu tố) an toàn hơn vì nó sử dụng nhiều loại bằng chứng, như kiến thức, sở hữu và nhận dạng. Mật khẩu một lần (HOTP và TOTP) an toàn hơn SMS vì chúng yêu cầu tính toán mật mã và được lưu trữ cục bộ thay vì trong bộ nhớ.
 - Các token phần cứng, như khóa USB hoặc thẻ thông minh, cung cấp mức độ bảo mật tối ưu bằng cách tạo ra một khóa riêng biệt duy nhất cho mỗi trang web và xác minh URL trước khi cho phép kết nối.
-Để đảm bảo an ninh tối ưu với xác thực mạnh, bạn được khuyến nghị sử dụng địa chỉ email an toàn, trình quản lý mật khẩu an toàn và áp dụng 2FA sử dụng YubiKeys. Cũng nên mua hai YubiKeys để phòng trường hợp mất mát hoặc trộm cắp, ví dụ, giữ một bản sao lưu tại nhà và một thì mang theo bên mình.
-Sinh trắc học có thể được sử dụng như một phương án thay thế, nhưng nó kém an toàn hơn so với sự kết hợp của kiến thức và sở hữu. Dữ liệu sinh trắc học nên được giữ lại trên thiết bị xác thực và không được tiết lộ trực tuyến. Quan trọng là phải xem xét các hình thức đe dọa liên quan đến các phương pháp xác thực khác nhau và điều chỉnh các hành vi sử dụng cho phù hợp.
+  Để đảm bảo an ninh tối ưu với xác thực mạnh, bạn được khuyến nghị sử dụng địa chỉ email an toàn, trình quản lý mật khẩu an toàn và áp dụng 2FA sử dụng YubiKeys. Cũng nên mua hai YubiKeys để phòng trường hợp mất mát hoặc trộm cắp, ví dụ, giữ một bản sao lưu tại nhà và một thì mang theo bên mình.
+  Sinh trắc học có thể được sử dụng như một phương án thay thế, nhưng nó kém an toàn hơn so với sự kết hợp của kiến thức và sở hữu. Dữ liệu sinh trắc học nên được giữ lại trên thiết bị xác thực và không được tiết lộ trực tuyến. Quan trọng là phải xem xét các hình thức đe dọa liên quan đến các phương pháp xác thực khác nhau và điều chỉnh các hành vi sử dụng cho phù hợp.
 
 ### Kết luận:
 
@@ -350,15 +368,57 @@ Hãy tiếp tục học hỏi và dần dần thực hiện các hành vi đúng
 
 Quy tắc vàng: An ninh mạng là một mục tiêu động và nó sẽ thích nghi với hành trình học hỏi của bạn!
 
-### Hướng dẫn: Giải pháp 2FA và YubiKey
+# Phần Thực Hành
 
-**_Hướng dẫn đang được xây dựng, để đóng góp hoặc thêm vào, bạn có thể qua GitHub._**
-
-# Đi sâu hơn
 <partId>98ccf14b-4053-5839-878c-7a73ff02eb95</partId>
 
-## Làm thế nào để làm việc trong ngành an ninh mạng
+## Thiết lập Hộp Thư
+
 <chapterId>afc9ab5d-7664-5a9b-ab50-225ac9ba8f7c</chapterId>
+
+https://planb.network/tutorials/others/proton-mail
+
+![video](https://youtu.be/vpYJYWhmEZg)
+
+## Bảo mật 2FA
+
+<chapterId>09468ec1-95b7-56a4-a636-7618044568e1</chapterId>
+
+https://planb.network/tutorials/others/security-key
+
+![video](https://youtu.be/mNcAKRDmz5o)
+
+## Tạo quản lý mật khẩu
+
+<chapterId>ed579680-4e7b-5f65-8541-14e519a3b242</chapterId>
+
+![video](https://youtu.be/y7Xkv4E5YmU)
+
+## Bảo vệ tài khoản của bạn
+
+<chapterId>7a774b34-aed0-57dd-b8f7-cf3be51c0d70</chapterId>
+
+![video](https://youtu.be/0JHZRALmGY0)
+
+## Thiết lập sao lưu
+
+<chapterId>01cfcde1-77cb-506c-8df1-fa18a2e8cc6b</chapterId>
+
+![video](https://youtu.be/wTJnlSUkDRI)
+
+## Thay đổi trình duyệt & VPN
+
+<chapterId>8dc08feb-313c-5259-a54f-64aa68a07608</chapterId>
+
+![video](https://youtu.be/vc6-Ouca09g)
+
+# Đi sâu hơn
+
+<partId>77113cad-a6d8-57e5-b903-50c223b277ba</partId>
+
+## Làm thế nào để làm việc trong ngành an ninh mạng
+
+<chapterId>aad1ae27-4280-5b07-b9ab-118ae013951a</chapterId>
 
 ### An ninh mạng: Một lĩnh vực đang phát triển với rất nhiều cơ hội
 
@@ -392,10 +452,13 @@ Sự phát triển liên tục của các mối đe dọa đòi hỏi bạn ph�
 
 Khi thành thạo những kỹ năng và các công cụ này, bạn sẽ được trang bị tốt để gặt hái được thành công trong ngành an ninh mạng.
 ![](assets/notext/20.webp)
+
 ## Phỏng vấn với Renaud
-<chapterId>09468ec1-95b7-56a4-a636-7618044568e1</chapterId>
+
+<chapterId>7d83fd98-ce22-514e-b9e8-729fbf71ee6e</chapterId>
 
 ### Quản lý mật khẩu hiệu quả và xác thực tăng cường: Tiếp cận ở góc độ học thuật
+
 Trong mô-đun đào tạo "An ninh mạng 101" do Découvre Bitcoin cung cấp tại Học viện, chúng tôi đã thảo luận về tầm quan trọng của trình quản lý mật khẩu. Ba khía cạnh cần xem xét bao gồm: tạo, cập nhật và sử dụng mật khẩu trên các trang web.
 Thông thường việc sử dụng tiện ích mở rộng trên trình duyệt để tự động điền mật khẩu không được khuyến khích. Những công cụ này có thể làm cho người dùng dễ bị tấn công giả mạo hơn. Renaud, một chuyên gia được công nhận trong lĩnh vực an ninh mạng, ưa thích quản lý thủ công bằng cách sử dụng KeePass, điều này đòi hỏi phải sao chép và dán mật khẩu một cách thủ công. Các tiện ích mở rộng có xu hướng tăng bề mặt tấn công, có thể làm chậm hiệu suất trình duyệt và do đó mang đến một rủi ro đáng kể. Bởi vậy, tốt nhất là chỉ nên sử dụng một số rất ít các tiện ích mở rộng cần thiết trên trình duyệt.
 
@@ -422,7 +485,8 @@ Các phương án thay thế để chống lại quảng cáo xâm nhập bao g�
 Là một phần của mô-đun đào tạo "Bảo mật 101" tại Découvre Bitcoin Academy, chúng ta cũng đã thảo luận về xác thực Lightning. Hệ thống này tạo ra một định danh khác nhau cho mỗi dịch vụ, mà không cần cung cấp địa chỉ email hay thông tin cá nhân. Có thể có các danh tính phi tập trung do người dùng kiểm soát, nhưng đang thiếu sự tiêu chuẩn hóa trong các dự án danh tính phi tập trung. Các trình quản lý gói như Nuget và Chocolaté, cho phép tải xuống phần mềm mã nguồn mở ngoài Microsoft Store, được khuyến nghị dùng để tránh các cuộc tấn công độc hại. Tóm lại, DNS rất quan trọng cho bảo mật trực tuyến, nhưng cần phải luôn cảnh giác trước các cuộc tấn công tiềm năng vào máy chủ DNS.
 
 ## Lời cảm ơn và tiếp tục khám phá
-<chapterId>ed579680-4e7b-5f65-8541-14e519a3b242</chapterId>
+
+<chapterId>df3a962a-a96e-5006-b904-0dd9d4a072dd</chapterId>
 
 ### Đánh giá khóa học & hỗ trợ chúng tôi
 
@@ -442,4 +506,4 @@ Xin chúc mừng bạn đã hoàn thành khóa đào tạo SECU 101 này! Chúng
 - (và nhiều hơn nữa)
 
 Một lời cảm ơn sâu sắc đến Patreon, các thành viên, và những người quyên góp vì sự hỗ trợ tài chính của họ, cảm ơn những người đã chia sẻ, và cảm ơn những người đã làm cho khóa đào tạo này trở nên có thể: Théo pantamis, Renaud, Théo, Fabien, Noury, Muriel & toàn bộ đội ngũ.
-Hẹn gặp lại bạn!
+ẹn gặp lại bạn!

@@ -348,12 +348,16 @@ Kultainen sääntö: Kyberturvallisuus on liikkuva maali, joka mukautuu oppimism
 ## Sähköpostilaatikon pystyttäminen
 <chapterId>afc9ab5d-7664-5a9b-ab50-225ac9ba8f7c</chapterId>
 
-Huomaa, että toistaiseksi tämä kurssin osa sisältää vain ohjevideoita ranskaksi. Työskentelemme parhaillaan videon kääntämiseksi julkaisua varten kielelläsi. Jos haluat auttaa meitä kääntämään, ota meihin yhteyttä [GitHubin](https://github.com/PlanB-Network/bitcoin-educational-content) kautta.
+https://planb.network/tutorials/others/proton-mail
 
 ![video](https://youtu.be/vpYJYWhmEZg)
 
 ## 2FA:n turvaaminen
 <chapterId>09468ec1-95b7-56a4-a636-7618044568e1</chapterId>
+
+https://planb.network/tutorials/others/authy
+
+https://planb.network/tutorials/others/security-key
 
 ![video](https://youtu.be/mNcAKRDmz5o)
 

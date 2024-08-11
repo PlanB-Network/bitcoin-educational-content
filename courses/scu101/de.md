@@ -365,12 +365,16 @@ Goldene Regel: IT-Sicherheit ist ein sich ständig veränderndes Ziel, das sich 
 ## Einrichtung eines Postfachs
 <chapterId>afc9ab5d-7664-5a9b-ab50-225ac9ba8f7c</chapterId>
 
-Beachten Sie, dass dieser Teil des Kurses derzeit nur Anleitungen auf Französisch enthält. Wir arbeiten gerade daran, das Video zu übersetzen, um es in Ihrer Sprache zu veröffentlichen. Wenn Sie uns beim Übersetzen helfen möchten, kontaktieren Sie uns über [GitHub](https://github.com/PlanB-Network/bitcoin-educational-content).
+https://planb.network/tutorials/others/proton-mail
 
 ![video](https://youtu.be/vpYJYWhmEZg)
 
 ## Absicherung mit 2FA
 <chapterId>09468ec1-95b7-56a4-a636-7618044568e1</chapterId>
+
+https://planb.network/tutorials/others/authy
+
+https://planb.network/tutorials/others/security-key
 
 ![video](https://youtu.be/mNcAKRDmz5o)
 

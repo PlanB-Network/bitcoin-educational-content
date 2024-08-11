@@ -353,12 +353,16 @@ Have I Been Pwned (https://haveibeenpwned.com/) のウェブサイトを使用�
 ## メールボックスの設定
 <chapterId>afc9ab5d-7664-5a9b-ab50-225ac9ba8f7c</chapterId>
 
-現時点では、このコースの一部にはフランス語のハウツー・チュートリアルのみが含まれています。私たちは現在、ビデオを翻訳してあなたの言語で公開する作業を行っています。翻訳を手伝っていただける場合は、[GitHub](https://github.com/PlanB-Network/bitcoin-educational-content)経由でお問い合わせください。
+https://planb.network/tutorials/others/proton-mail
 
 ![ビデオ](https://youtu.be/vpYJYWhmEZg)
 
 ## 2FAでのセキュリティ強化
 <chapterId>09468ec1-95b7-56a4-a636-7618044568e1</chapterId>
+
+https://planb.network/tutorials/others/authy
+
+https://planb.network/tutorials/others/security-key
 
 ![ビデオ](https://youtu.be/mNcAKRDmz5o)
 

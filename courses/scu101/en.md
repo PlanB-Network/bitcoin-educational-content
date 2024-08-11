@@ -370,6 +370,10 @@ https://planb.network/tutorials/others/proton-mail
 ## Securing in 2FA
 <chapterId>09468ec1-95b7-56a4-a636-7618044568e1</chapterId>
 
+https://planb.network/tutorials/others/authy
+
+https://planb.network/tutorials/others/security-key
+
 ![video](https://youtu.be/mNcAKRDmz5o)
 
 ## Creating a password manager

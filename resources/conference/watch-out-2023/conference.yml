@@ -3,7 +3,7 @@ name: Watch Out 2023
 builder: 
 location: Spain
 language: 
-   - es:
+  es:
 links:
   website: https://wobitcoin.org/
   twitter: https://twitter.com/Wo_Bitcoin
@@ -14,7 +14,7 @@ tags:
 # Proofreading metadata
 original:
 translation_review:
-  - en:
+  en:
       - last_reviewed: 
       - next_review_urgency: 
       - reviewers_id: 

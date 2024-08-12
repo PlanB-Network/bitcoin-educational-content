@@ -3,7 +3,7 @@ name: Bitcoin Atlantis 2024
 builder: Bitcoin Atlantis
 location: Madeira, Portugal
 language: 
-  - en:
+  en:
 links:
   twitter: https://twitter.com/BitcoinAtlantis
   website: https://bitcoinatlantis.com/
@@ -15,7 +15,7 @@ tags:
 # Proofreading metadata
 original:
 translation_review:
-  - en:
+  en:
       - last_reviewed: 
       - next_review_urgency: 
       - reviewers_id: 

@@ -11,7 +11,7 @@
   price_dollars: 0
   description: The bitcoin Conference is coming to Abu dhabi
   language: 
-    - en:
+  en:
   links:
     website: https://b.tc/conference/mena
     replay_url:

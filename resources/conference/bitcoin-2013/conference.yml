@@ -3,7 +3,7 @@ name: Bitcoin 2013
 builder: bitcoin-foundation
 location: San Jose, USA
 language: 
-  - en:
+  en:
 links:
   website: https://www.bitcoinfoundation.org/
   twitter: https://twitter.com/btcfoundation
@@ -15,7 +15,7 @@ tags:
 # Proofreading metadata
 original:
 translation_review:
-  - en:
+  en:
       - last_reviewed: 
       - next_review_urgency: 
       - reviewers_id: 

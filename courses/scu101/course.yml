@@ -11,59 +11,59 @@ professors:
 # Proofreading metadata
 original: fr
 translation_review:
-  - cs:
+  cs:
       - last_reviewed: 
       - next_review_urgency: 1 
       - reviewers_id: 
       - reward: 
-  - de:
+  de:
       - last_reviewed: 
       - next_review_urgency: 1 
       - reviewers_id: 
       - reward: 
-  - en:
+  en:
       - last_reviewed: 
       - next_review_urgency: 1 
       - reviewers_id: 
       - reward: 
-  - es:
+  es:
       - last_reviewed: 
       - next_review_urgency: 1 
       - reviewers_id: 
       - reward: 
-  - fi:
+  fi:
       - last_reviewed: 2024-04-02 
       - next_review_urgency: 1 
       - reviewers_id: 
         - KryptoKeskus
       - reward: 
-  - fr:
+  fr:
       - last_reviewed: 
       - next_review_urgency: 1 
       - reviewers_id: 
       - reward: 
-  - it:
+  it:
       - last_reviewed: 2024-07-14
       - next_review_urgency: 1 
       - reviewers_id: 
         - TinF0ilHat1
       - reward: 
-  - ja:
+  ja:
       - last_reviewed: 
       - next_review_urgency: 1 
       - reviewers_id: 
       - reward: 
-  - pt:
+  pt:
       - last_reviewed: 
       - next_review_urgency: 1 
       - reviewers_id: 
       - reward: 
-  - ru:
+  ru:
       - last_reviewed: 
       - next_review_urgency: 1 
       - reviewers_id: 
       - reward: 
-  - vi:
+  vi:
       - last_reviewed: 2024-05-05
       - next_review_urgency: 1 
       - reviewers_id: 

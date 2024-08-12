@@ -4,7 +4,7 @@ address_line_1: Bali, Indonesia
 address_line_2: 
 address_line_3: 
 language: 
-  - en:
+  en:
   - in  
 links:
   website: https://bitcoinindonesia.xyz
@@ -21,12 +21,12 @@ tags:
 # Proofreading metadata
 original: en
 translation_review:
-  - en:
+  en:
       - last_reviewed: 
       - next_review_urgency: 1 
       - reviewers_id: 
       - reward: 
-  - ru:
+  ru:
       - last_reviewed: 
       - next_review_urgency: 1 
       - reviewers_id: 

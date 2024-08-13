@@ -597,13 +597,13 @@ Ce que nous pouvons retenir de ce récit de la conception de Bitcoin est que cet
 
 Cependant, ce travail n'a pas été suffisant, et il a fallu de la persévérance à Satoshi pour amorcer son système. Dès le début, il savait bien que peu de gens s'étaient penchés sérieusement sur son modèle et qu'il allait être compliqué d'attirer de nouveaux utilisateurs et contributeurs. C'est pourquoi il a essayé de susciter l'enthousiasme en vendant son idée du mieux possible. Nous étudierons cet aspect dans le chapitre suivant, qui couvre une grande partie de l'année 2009.
 
-## Présenter Bitcoin au monde (janv. 2009 -- oct. 2009)
+## Présenter Bitcoin au monde
 
-Dans les chapitres précédents, nous avons étudié les origines techniques de Bitcoin et son lancement par Satoshi Nakamoto. Dans ce chapitre, nous allons nous intéresser à la communication de Satoshi Nakamoto à ce sujet.
+Après avoir étudié comment Bitcoin a été conçu et démarré par Satoshi Nakamoto, concentrons-nous sur la façon dont il a été présenté publiquement. Suite à son lancement au début de l'année 2009, le réseau fonctionnait mais les nœuds générateurs étaient peu nombreux (Satoshi minait la grande majorité des blocs) et l'activité était pour ainsi dire inexistante (32 transactions effectives ont eu lieu durant le mois de janvier). Le projet ne disposait que d'un site web rudimentaire et d'une page SourceForge où télécharger le logiciel. En outre, la communication à propos de Bitcoin s'était limitée à la *Metzdowd Cryptography mailing list*, suivie au mieux par quelques centaines de personnes passionnées par la cryptographie.
 
-En effet, au début de l'année 2009, le réseau était lancé, mais les mineurs étaient peu nombreux (Satoshi validait la majorité des blocs) et l'activité pour ainsi dire inexistante (seules 219 transactions effectives ont été effectuées en 2009). Bitcoin ne disposait que d'un site web rudimentaire, d'une page SourceForge où télécharger le logiciel. Enfin, il n'avait été présenté que sur une obscure liste de diffusion.
+Le défi de cette période a par conséquent été de faire la promotion de Bitcoin afin d'attirer une masse critique d'utilisateurs, qui pourraient ensuite contribuer à la cause d'une manière ou d'une autre. C'est pourquoi Satoshi a eu pour priorité d'améliorer le site et d'interagir avec diverses personnes. Il voulait faire connaître sa découverte au monde.
 
-Pour Satoshi, la priorité était donc d'en faire la promotion : améliorer le site web, créer des interactions et faire connaître sa découverte au monde. L'année 2009 est ainsi marquée par l'apparition de codes culturels et d'éléments de langage qui se retrouveront dans la communauté de Bitcoin par la suite.
+Dans ce chapitre, nous nous intéresserons aux codes culturels qui sont issus de l'effort de communication de Satoshi, comme la défiance du système bancaire et la limite des 21 millions. Nous commenterons également les conversations que Satoshi a eues avec ses détracteurs pour défendre son invention. Enfin, nous parlerons de l'aide qu'il a reçue d'autres personnes, et notamment de l'assistance essentielle de Martti Malmi, son premier bras droit.
 
 ### Le bloc de genèse (3--8 janv. 2009)
 

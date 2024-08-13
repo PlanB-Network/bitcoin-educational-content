@@ -28,9 +28,9 @@ https://planb.network/tutorials/others/bitwarden
 
 ## Présentation de KeePass
 
-KeePass est un gestionnaire de mots de passe libre et open-source, parfait pour ceux qui souhaitent avoir une solution gratuite et sécurisée pour une gestion en local. Il s'agit d'un logiciel à installer sur votre PC qui, sans l'ajout de plugins, ne communique pas avec Internet. C'est donc une approche radicalement différente de celle de Bitwarden, étudiée dans un précédent tutoriel. Bitwarden, contrairement à KeePass, permet la synchronisation sur plusieurs appareils et donc requiert de stocker vos mots de passe sur un serveur en ligne.
+KeePass est un gestionnaire de mots de passe libre et open-source, parfait pour ceux qui souhaitent avoir une solution gratuite et sécurisée pour une gestion en local. Il s'agit d'un logiciel à installer sur votre PC qui, sans l'ajout de plugins, ne communique pas avec Internet. C'est donc une approche radicalement différente de celle de Bitwarden, que nous avons vu dans un précédent tutoriel. Bitwarden, contrairement à KeePass, permet la synchronisation sur plusieurs appareils, et requiert ainsi de stocker vos mots de passe sur un serveur en ligne.
 
-KeePass ne supporte pas par défaut l'utilisation d'extensions de navigateur comme Bitwarden; vous devrez donc copier-coller vos mots de passe manuellement à partir du logiciel. Bien que cela puisse sembler une contrainte, le fait de copier-coller les mots de passe plutôt que d'utiliser le remplissage automatique constitue une bonne pratique pour votre sécurité en ligne.
+KeePass ne supporte pas par défaut l'utilisation d'extensions de navigateur comme Bitwarden ; vous devrez donc copier-coller vos mots de passe manuellement à partir du logiciel. Bien que cela semble être une contrainte, le fait de copier-coller les mots de passe plutôt que d'utiliser le remplissage automatique constitue une bonne pratique pour votre sécurité en ligne.
 
 KeePass est conçu pour être à la fois léger et facile à utiliser, tout en respectant des standards de sécurité élevés. Le logiciel chiffre votre base de données en local pour une protection optimale de vos identifiants. KeePass est d'ailleurs le seul gestionnaire de mots de passe validé par l'ANSSI (l'autorité française de la cybersécurité).
 
@@ -69,7 +69,7 @@ Cliquez sur le fichier téléchargé pour l'exécuter, puis suivez les instructi
 
 Pour les utilisateurs de macOS, l'installation est un peu plus complexe. Si vous souhaitez utiliser la version originale de KeePass comme sur Windows, suivez les instructions ci-dessous. Autrement, vous pouvez opter pour [KeePassXC](https://keepassxc.org/), une version alternative compatible avec macOS, qui propose une interface légèrement différente.
 
-Pour utiliser KeePass, vous aurez besoin d'un environnement d'exécution pour les applications .NET. Je vous recommande d'installer Mono pour cela. Rendez-vous sur [la page officielle de Mono](https://www.mono-project.com/download/stable/#download-mac) dans la section "macOS", et cliquez sur le lien pour télécharger le package d'installation (`.pkg`).
+Pour utiliser KeePass, vous aurez besoin d'un environnement d'exécution pour les applications .NET. Je vous recommande d'installer Mono pour cela. Rendez-vous sur [la page officielle de Mono](https://www.mono-project.com/download/stable/#download-mac) dans la section "*macOS*", et cliquez sur le lien pour télécharger le package d'installation (`.pkg`).
 
 03
 
@@ -107,7 +107,7 @@ Choisissez le dossier où sera installé KeePass.
 
 08
 
-Vous pouvez éventuellement modifier les composants de l'application qui sont installés. Si vous avez suffisamment de place, vous pouvez simplement choisir "Full installation".
+Vous pouvez éventuellement modifier les composants de l'application qui sont installés. Si vous avez suffisamment de place, vous pouvez simplement choisir "*Full installation*".
 
 09
 
@@ -115,11 +115,11 @@ Et enfin, vous pouvez choisir d'ajouter un raccourci sur votre bureau.
 
 10
 
-Cliquez sur le bouton "Install".
+Cliquez sur le bouton "*Install*".
 
 11
 
-Patientez durant l'installation, puis cliquez sur le bouton "Finish".
+Patientez durant l'installation, puis cliquez sur le bouton "*Finish*".
 
 12
 
@@ -129,11 +129,11 @@ Vous arrivez maintenant sur votre interface KeePass.
 
 13
 
-Pour créer votre première base de données, cliquez sur l'onglet "File".
+Pour créer votre première base de données, cliquez sur l'onglet "*File*".
 
 14
 
-Puis sur le menu "New".
+Puis sur le menu "*New*".
 
 15
 
@@ -141,7 +141,7 @@ Le logiciel va créer une nouvelle base de données où seront conservés vos mo
 
 16
 
-Par la suite, il faudra penser à effectuer régulièrement des sauvegardes de ce dossier pour éviter la perte de vos identifiants en cas de perte, de casse ou de vol de votre ordinateur. Vous pourriez, par exemple, copier la base de données sur une clé USB chaque semaine. Le fichier contenant votre base de données porte le nom de `Database.kdbx` (docuement chiffré avec votre mot de passe maître). Pour plus de conseils sur les meilleures pratiques de sauvegarde, je vous recommande également de consulter cet autre tutoriel :
+Par la suite, il faudra penser à effectuer régulièrement des sauvegardes de ce dossier pour éviter la perte de vos identifiants en cas de perte, de casse ou de vol de votre ordinateur. Vous pourriez, par exemple, copier la base de données sur une clé USB chaque semaine. Le fichier contenant votre base de données porte le nom de `Database.kdbx` (le document est chiffré avec votre mot de passe maître). Pour plus de conseils sur les meilleures pratiques de sauvegarde, je vous recommande également de consulter cet autre tutoriel :
 
 https://planb.network/tutorials/others/proton-drive
 
@@ -155,15 +155,15 @@ Pour minimiser le risque de perte, je recommande de faire une sauvegarde physiqu
 
 Pour prévenir la compromission de votre mot de passe maître, celui-ci doit être extrêmement robuste. Il doit être le plus long possible, utiliser une grande diversité de caractères, et être choisi de manière aléatoire. En 2024, les recommandations minimales pour un mot de passe sécurisé sont de 13 caractères en incluant des chiffres, des lettres minuscules et majuscules, ainsi que des symboles, à condition que le mot de passe soit réellement aléatoire. Toutefois, je vous recommande d'opter pour un mot de passe d'au moins 20 caractères, comprenant tous types de caractères possibles, pour garantir sa sécurité plus longtemps.
 
-Entrez votre mot de passe maître dans la case dédiée et confirmez-le dans la case suivante, puis cliquez sur "OK".
+Entrez votre mot de passe maître dans la case dédiée et confirmez-le dans la case suivante, puis cliquez sur "*OK*".
 
 18
 
-Nommez votre base de données et ajoutez y une description si nécessaire. Cela peut vous aider à distinguer les différentes bases de données si vous en créez plusieurs, par exemple une pour un usage personnel et une autre pour un usage professionnel.
+Nommez votre base de données et ajoutez-y une description si nécessaire. Cela peut vous aider à distinguer les différentes bases de données si vous en créez plusieurs, par exemple, une pour un usage personnel et une autre pour un usage professionnel.
 
 19
 
-Pour les autres paramètres, je vous recommande de conserver les options par défaut. Cliquez ensuite sur le bouton "OK".
+Pour les autres paramètres, je vous recommande de conserver les options par défaut. Cliquez ensuite sur le bouton "*OK*".
 
 20
 
@@ -181,7 +181,7 @@ Vous pouvez ensuite accéder à votre gestionnaire de mots de passe.
 
 23
 
-Avant de commencer à enregistrer vos identifiants, je vous recommande de modifier les paramètres de génération de mots de passe. Pour cela, allez dans l'onglet "Tools" et sélectionnez "Generate Password...".
+Avant de commencer à enregistrer vos identifiants, je vous recommande de modifier les paramètres de génération de mots de passe. Pour cela, allez dans l'onglet "*Tools*" et sélectionnez "*Generate Password...*".
 
 24
 
@@ -189,7 +189,7 @@ Ici, je vous conseille de passer la taille des mots de passes générés à 40 c
 
 25
 
-Validez en cliquant sur la petite icone d'enregistrement.
+Validez en cliquant sur la petite icône d'enregistrement.
 
 26
 
@@ -215,7 +215,7 @@ Il est également possible d'ajouter une URL si vous souhaitez utiliser les racc
 
 31
 
-Si tout vous convient, cliquez sur "OK" pour enregistrer le mot de passe.
+Si tout vous convient, cliquez sur "*OK*" pour enregistrer le mot de passe.
 
 32
 
@@ -227,11 +227,11 @@ Pour copier un mot de passe, effectuez simplement un double-clic dessus. Il rest
 
 34
 
-Si vous désirez prolonger la durée pendant laquelle le mot de passe reste dans le presse-papiers, cliquez sur l'onglet "Tools", puis sur "Options...".
+Si vous désirez prolonger la durée pendant laquelle le mot de passe reste dans le presse-papiers, cliquez sur l'onglet "*Tools*", puis sur "*Options...*".
 
 35
 
-Sous l'onglet "Security", ajustez la durée en modifiant le nombre de secondes dans la case "Clipboard auto-clear time". Cliquez ensuite sur "OK" pour sauvegarder vos modifications.
+Sous l'onglet "*Security*", ajustez la durée en modifiant le nombre de secondes dans la case "*Clipboard auto-clear time*". Cliquez ensuite sur "*OK*" pour sauvegarder vos modifications.
 
 36
 
@@ -239,11 +239,11 @@ Sur la gauche de votre interface, vous remarquerez qu'il y a plusieurs dossiers 
 
 37
 
-Vous avez la possibilité de supprimer les dossiers par défaut ou d'en ajouter de nouveaux en faisant un clic droit et en sélectionnant "Add Group...".
+Vous avez la possibilité de supprimer les dossiers par défaut ou d'en ajouter de nouveaux en faisant un clic droit et en sélectionnant "*Add Group...*".
 
 38
 
-Choisissez un nom pour le nouveau dossier et sélectionnez une icône. Vous pouvez également importer vos propres icônes au format `.ico`. Cliquez ensuite sur le bouton "OK" pour finaliser la création du dossier.
+Choisissez un nom pour le nouveau dossier et sélectionnez une icône. Vous pouvez également importer vos propres icônes au format `.ico`. Cliquez ensuite sur le bouton "*OK*" pour finaliser la création du dossier.
 
 39
 

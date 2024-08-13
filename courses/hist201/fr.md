@@ -55,7 +55,7 @@ Ce cours est divisé en quatre parties, qui s'intéressent respectivement aux or
 - Les modèles décentralisés qui ont précédé Bitcoin (1982--2012)
 - La naissance de Bitcoin (août 2008--janv. 2009)
 - Présenter Bitcoin au monde (janv. 2009--oct. 2009)
-- L'amorçage de Bitcoin (oct. 2009--avr. 2010)
+- L'amorçage de la cryptomonnaie (oct. 2009--avr. 2010)
 - Cartes graphiques, pizzas et bitcoins gratuits (avr. 2010--juin 2010)
 - Le grand slashdotting (juin 2010--juil. 2010)
 - Les premiers ennuis techniques (juil. 2010--sept. 2010)
@@ -789,7 +789,7 @@ La communication autour de Bitcoin est ainsi passée par plusieurs étapes. Tout
 
 Ainsi, à l'automne 2009, il semble que Bitcoin soit prêt à s'agrandir. L'amorçage économique aura lieu à partir de là. Nous parlerons de ce sujet dans le prochain chapitre.
 
-## L'amorçage de Bitcoin (oct. 2009 -- avr. 2010)
+## L'amorçage de la cryptomonnaie (oct. 2009 -- avr. 2010)
 
 Nous avons vu dans les chapitres précédents comment Satoshi a pu développer son idée et comment il a su communiquer à son sujet. Dans ce chapitre, nous allons aborder l'étape suivant : l'amorçage économique de Bitcoin.
 

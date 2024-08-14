@@ -1069,15 +1069,15 @@ Cependant, à la fin du mois de juin, l'activité demeurait assez modeste sur le
 
 ## Le grand slashdotting
 
-La partie précédente a été consacrée à la naissance, à la présentation et aux débuts de Bitcoin en tant que système économique. Au début de l'été 2010, en dépit de premiers développement encourageants, Bitcoin reposait sur une base fébrile. Le logiciel comptait peu de développeurs hormis Satoshi Nakamoto. Les mineurs étaient des amateurs sur leur ordinateur personnel. Il existait une vingtaine de services liés à Bitcoin et les échanges effectifs étaient tout aussi rares. Toutefois, les choses allaient changer drastiquement durant la seconde moitié de l'année.
+La partie précédente a été consacrée à la naissance, à la présentation et aux débuts de Bitcoin en tant que système économique. Au début de l'été 2010, en dépit de premiers développements encourageants, Bitcoin reposait sur une base fébrile. Le logiciel comptait peu de développeurs hormis Satoshi Nakamoto. Les mineurs étaient des amateurs sur leur ordinateur personnel. Il existait une vingtaine de services liés à Bitcoin et les échanges effectifs étaient tout aussi rares. Toutefois, les choses allaient changer drastiquement durant la seconde moitié de l'année.
 
 Dans ce chapitre, nous nous proposons de parler du « grand slashdotting », c'est-à-dire de l'afflux brutal d'utilisateurs qui a suivi la publication d'une présentation de Bitcoin sur le site web populaire Slashdot le 11 juillet 2010. Nous verrons comment ce texte a été amené à exister dans un dernier effort de communication de la part de Satoshi et quels ont été les effets directs qui ont suivi cette popularisation de Bitcoin.
 
-### La version 0.3 du logiciel (22 juin -- 6 juil. 2010)
+### La version 0.3 du logiciel
 
-Le début de l'été 2010 est marqué par la sortie de la version 0.3 du logiciel, qui a été préparée de longue date par Satoshi Nakamoto et par Martti Malmi. Par rapport à la version 0.2, sortie en décembre de l'année précédente, cette version inclue des améliorations cruciales telles qu'un [démon](https://fr.wikipedia.org/wiki/Daemon_(informatique) (qui deviendra `bitcoind`), un contrôle en invite de commande, une API (via JSON-RPC), une optimisation de la génération d'unités et un « hashmètre » estimant le taux de hachage de l'utilisateur. Elle inclue aussi le support pour Mac OS X apporté par la contribution de Laszlo Hanyecz et la traduction de l'interface graphique en allemand, néerlandais et italien.
+Le début de l'été 2010 est marqué par la sortie de la version 0.3 du logiciel, qui a été préparée de longue date par Satoshi Nakamoto et par Martti Malmi. Par rapport à la version 0.2, sortie en décembre de l'année précédente, cette version inclue des améliorations cruciales telles qu'un [démon](https://fr.wikipedia.org/wiki/Daemon_\(informatique\)) (qui deviendra bitcoind), un contrôle en invite de commande, une API (via JSON-RPC), une optimisation de la génération d'unités et un « hashmètre » (*original: "hashmeter"*) estimant le taux de hachage de l'utilisateur. Elle inclue aussi le support pour Mac OS X apporté par la contribution de Laszlo Hanyecz et la traduction de l'interface graphique en allemand, néerlandais et italien.
 
-Le 22 juin, Satoshi [demande](https://bitcointalk.org/index.php?topic=199.msg1654#msg1654) aux membres du forum de tester cette version du logiciel. Il voit cette version comme une version charnière de Bitcoin et [envisage]( https://bitcointalk.org/index.php?topic=217.msg1803#msg1803) même d'abandonner l'aspect « beta » et de faire directement passer la numérotation à la version 1.3. Il [reviendra](https://bitcointalk.org/index.php?topic=217.msg1928#msg1928) néanmoins assez rapidement sur sa décision.
+Le 22 juin, Satoshi [demande](https://bitcointalk.org/index.php?topic=199.msg1654#msg1654) aux membres du forum de tester cette version du logiciel. Il voit la sortie de cette version comme un moment charnière du développement de Bitcoin et [envisage]( https://bitcointalk.org/index.php?topic=217.msg1803#msg1803) même d'abandonner l'aspect « beta » en faisant directement passer la numérotation à la version 1.3. Il [reviendra](https://bitcointalk.org/index.php?topic=217.msg1928#msg1928) néanmoins assez rapidement sur sa décision.
 
 Le 6 juillet, Satoshi Nakamoto annonce la sortie de la version 0.3 du logiciel. Sachant que cette version risque d'être importante pour l'avancée de Bitcoin, il soigne la présentation et il [écrit](https://bitcointalk.org/index.php?topic=238.msg2004#msg2004) :
 
@@ -1085,13 +1085,13 @@ Le 6 juillet, Satoshi Nakamoto annonce la sortie de la version 0.3 du logiciel. 
 >
 > *original :"Announcing version 0.3 of Bitcoin, the P2P cryptocurrency! &nbsp;Bitcoin is a digital currency using cryptography and a distributed network to replace the need for a trusted central server. &nbsp;Escape the arbitrary inflation risk of centrally managed currencies! &nbsp;Bitcoin's total circulation is limited to 21 million coins. &nbsp;The coins are gradually released to the network's nodes based on the CPU power they contribute, so you can get a share of them by contributing your idle CPU time."*
 
-### Une présentation pour Slashdot (22 juin -- 11 juil. 2010)
+### Une présentation pour Slashdot
 
 À l'occasion de la sortie de la nouvelle version du logiciel, l'utilisateur du forum appelé Teppy (l'administrateur du MMORPG qui a commencé à accepter le bitcoin en mai) [propose](https://bitcointalk.org/index.php?topic=199.msg1662#msg1662) de faire la publicité sur Slashdot, un site d'actualité très populaire traitant de sujets pour les *nerds* comme l'informatique, les jeux vidéo, la science, Internet, etc. qui tire son nom des deux caractères `/.`. Le 22 juin, il demande ainsi sur le forum s'il ne faut pas « faire un peu de publicité » en précisant que « Slashdot est un bon endroit si nous pouvons y accéder ». (*original: "Should we try for some publicity? Slashdot is good if we can get it."*) Martti Malmi [commente](https://bitcointalk.org/index.php?topic=199.msg1664#msg1664) en écrivant qu'« atteindre Slashdot, avec ses millions de lecteurs techniquement compétents, serait génial, peut-être la meilleure chose que l'on puisse imaginer ! » (*original: "Slashdot with its millions of tech-savvy readers would be awesome, perhaps the best imaginable!"*
 
 Le 5 juillet, Teppy rédige une présentation qu'il compte soumettre lui-même à Slashdot et la [publie](https://bitcointalk.org/index.php?topic=234.msg1969#msg1969) sur le forum :
 
-> « Que pensez-vous de cette technologie disruptrice ? Bitcoin est une cryptomonnaie anonyme pour l'acheteur et le vendeur, dépourvue de banque centrale ou de frais de transaction. En utilisant un concept similaire à Hashcash, les clients brûlent des cycles de processeur en essayant de récupérer quelques-uns des 21 000 000 de Bitcoins qui finiront par être trouvés. On s'attend à ce qu'avec le temps, la valeur marchande des Bitcoins atteigne la parité avec l'énergie nécessaire pour les générer, ce qui aboutira à une monnaie adossée à l'énergie, hors de portée de tout État. »
+> « Que pensez-vous de cette technologie disruptrice ? Bitcoin est une cryptomonnaie anonyme pour l'acheteur et le vendeur, dépourvue de banque centrale ou de frais de transaction. En utilisant un concept similaire à Hashcash, les clients brûlent des cycles de processeur en essayant de récupérer quelques-uns des 21 000 000 de Bitcoins qui finiront par être trouvés. On s'attend à ce qu'avec le temps, la valeur marchande des Bitcoins atteigne la parité avec l'énergie nécessaire pour les générer, créant ainsi une monnaie adossée à l'énergie, hors de portée de tout État. »
 >
 > *original: "How's this for a disruptive technology? Bitcoin is a buyer-anonymous, seller-anonymous cryptocurrency with no central bank, and no transaction fees. Using a concept similar to Hashcash, clients burn CPU cycles attempting to discover some of the 21,000,000 Bitcoins that will eventually be found. It is expected that over time, the market value of Bitcoins will reach parity with the energy needed to generate them, resulting in an energy-backed currency outside the reach of any government."*
 
@@ -1099,23 +1099,23 @@ Plusieurs membres du forum font des suggestions pour qu'il améliore ce texte. S
 
 - À propos de l'absence d'influence étatique, il affiche une certaine prudence en écrivant qu'il ne fait « certainement pas ce genre de provocation ou d'affirmation » ; (*original: "'The developers expect that this will result in a stable-with-respect-to-energy currency outside the reach of any government.' -- I am definitely not making an such taunt or assertion."*)
 - À propos de l'adossement à l'énergie, il considère que la monnaie « n'est pas stable par rapport à l'énergie » et ajoute : « Ce sujet a fait l'objet d'une discussion. &nbsp;Elle n'est pas liée au coût de l'énergie. &nbsp;L'estimation de NLS basée sur l'énergie était un bon point de départ, mais les forces du marché domineront de plus en plus. » ; (*original: "It's not stable-with-respect-to-energy. &nbsp;There was a discussion on this. &nbsp;It's not tied to the cost of energy. &nbsp;NLS's estimate based on energy was a good estimated starting point, but market forces will increasingly dominate."*)
-- À propos de l'aspect anonyme du système, il affirme qu'il ne veut pas « mettre l'aspect "anonyme" au premier plan » et qu'il avait l'intention de modifier la page d'accueil » dans ce sens. (*original "We don't want to lead with 'anonymous'. &nbsp;(I've been meaning to edit the homepage)"*)
+- À propos de l'aspect anonyme du système, il affirme qu'il ne veut pas « mettre l'aspect "anonyme" au premier plan » et qu'il avait « l'intention de modifier la page d'accueil » dans ce sens. (*original "We don't want to lead with 'anonymous'. &nbsp;(I've been meaning to edit the homepage)"*)
 
-Dans un courriel adressé à Martti Malmi quelques heures plus tard, il donne deux raisons principales pour expliquer cette volonté de mise en retrait de l'anonymat : le danger pour l'utilisateur et la perception du public. Il [écrit](https://mmalmi.github.io/satoshi/#email-197) :
+Dans un [courriel](https://mmalmi.github.io/satoshi/#email-197) adressé à Martti Malmi quelques heures plus tard, Satoshi donne deux raisons principales pour expliquer cette volonté de mise en retrait de l'anonymat : le danger pour l'utilisateur et la perception du public. Il écrit :
 
 > « Je pense que nous devrions mettre moins l'accent sur l'aspect anonyme. &nbsp;Avec la popularité des adresses bitcoin au lieu de l'envoi par IP, nous ne pouvons pas donner l'impression que tout est automatiquement anonyme. &nbsp;Il est possible d'être pseudonyme, mais il faut être prudent. \[...\] &nbsp;De plus, "anonyme" sonne un peu suspect. &nbsp;Je pense que les gens qui veulent de l'anonymat le découvriront sans que nous en fassions la promotion. »
 >
 > *original :"I think we should de-emphasize the anonymous angle. &nbsp;With the popularity of bitcoin addresses instead of sending by IP, we can't give the impression it's automatically anonymous. &nbsp;It's possible to be pseudonymous, but you have to be careful. (...) &nbsp;Also, anonymous sounds a bit shady. &nbsp;I think the people who want anonymous will still figure it out without us trumpeting it."*
 
-Il conclue son message du forum par :
+Il conclue son message sur le forum par :
 
 > « Désolé d'être rabat-joie. &nbsp;L'écriture d'une description de ce truc pour le grand public est sacrément difficile. &nbsp;Il n'y a rien à quoi se rapporter. »
 >
 > *original: "Sorry to be a wet blanket. &nbsp;Writing a description for this thing for general audiences is bloody hard. &nbsp;There's nothing to relate it to."*
 
-Par la suite, Teppy corrige la présentation en prenant en compte les suggestions. Ainsi, au début du mois de juillet, le discours autour de Bitcoin est bien calibré. Ce dernier est prêt à subir un slashdotting.
+Par la suite, Teppy corrige la présentation en prenant en compte les suggestions. Ainsi, au début du mois de juillet, on constate que le discours autour de Bitcoin est bien calibré, ce qui est montre qu'il est mûr pour connaître un afflux sans précédent.
 
-### Slashdotted! (11 juillet 2010)
+### Slashdotted!
 
 Le 11 juillet 2010, une version rectifiée de la présentation de Bitcoin rédigée par Teppy est [publiée](https://news.slashdot.org/story/10/07/11/1747245/Bitcoin-Releases-Version-03) sur Slashdot. Celle-ci est la suivante :
 
@@ -1129,25 +1129,25 @@ La publication est remarquée et près de 500 commentaires sont publiés en quel
 
 > « Je pense que Satoshi a fait un travail fantastique : au cours des deux derniers jours où Bitcoin a été "slashdotté", je n'ai entendu parler d'AUCUN problème de perte de transactions Bitcoin, ni de panne du réseau en raison de la charge, ou de quelque problème que ce soit concernant les fonctionnalités de base.
 >
-> "I think Satoshi has done an amazingly fantastic job; over the last two days of Bitcoin being 'slashdotted' I haven't heard of ANY problems with Bitcoin transactions getting lost, or of the network crashing due to the load, or any problem at all with the core functionality."
+> *original: "I think Satoshi has done an amazingly fantastic job; over the last two days of Bitcoin being 'slashdotted' I haven't heard of ANY problems with Bitcoin transactions getting lost, or of the network crashing due to the load, or any problem at all with the core functionality."*
 
 La première conséquence de cet afflux est que le prix du bitcoin connaît une hausse fulgurante, en [passant](https://bitcoin.zorinaq.com/price/) de 0,008 $ à 0,08 $ en une semaine, soit une multiplication par 10 !
 
 Un autre effet de l'afflux de personnes provenant de Slashdot est l'accroissement de la puissance de calcul déployée sur le réseau. Beaucoup de personnes lancent le logiciel et produisent des blocs avec leurs processeurs centraux. Entre le 11 et et le 17 juillet, le taux de hachage [passe](https://bitinfocharts.com/comparison/bitcoin-hashrate.html#alltime) ainsi de 0,22 GH/s à 2,78 GH/s.
 
-### La création de Mt. Gox (18 juillet 2010)
+### La création de Mt. Gox
 
-Parmi les personnes qui découvrent Bitcoin grâce à Slashdot, il y a Jed McCaleb, un entrepreneur et programmeur américain de 35 ans, connu pour avoir cofondé et développé le logiciel de partage de fichiers en pair à pair eDonkey2000 dans les années 2000. Constatant à quel point il est pénible de se procurer du bitcoin contre des dollars, il décide « [sur un coup de tête](https://bitcointalk.org/index.php?topic=4187.msg60610#msg60610) » de créer une place de marché performante. Pour ce faire, il réutilise un de ses anciens projets mis au point [en 2007](https://gwern.net/doc/bitcoin/2014-mccaleb) : *Magic The Gathering Online eXchange* (MTGOX), un site web qui permettait d'acheter et de vendre des cartes du jeu en ligne *Magic: The Gathering Online*. Il reprend le nom de domaine de ce projet (`mtgox.com`), qui donne son nom à la nouvelle plateforme : Mt. Gox, prononcé « *Mount Gox* ».
+Parmi les personnes qui découvrent Bitcoin grâce à Slashdot, il y a Jed McCaleb, un entrepreneur et programmeur américain de 35 ans, connu pour avoir cofondé et développé le logiciel de partage de fichiers en pair à pair eDonkey2000 dans les années 2000. Constatant à quel point il est pénible de se procurer du bitcoin contre des dollars, il [décide](https://bitcointalk.org/index.php?topic=4187.msg60610#msg60610) « sur un coup de tête » (*original: "on a lark"*) de créer une place de marché performante. Pour ce faire, il réutilise un de ses anciens projets mis au point [en 2007](https://gwern.net/doc/bitcoin/2014-mccaleb) : *Magic The Gathering Online eXchange* (MTGOX), un site web qui permettait d'acheter et de vendre des cartes du jeu en ligne *Magic: The Gathering Online*. Il reprend le nom de domaine de ce projet (mtgox.com), qui donne son nom à la nouvelle plateforme : Mt. Gox, prononcé « *Mount Gox* ».
 
-![Photographie de Jed McCaleb en 2013](assets/img/ch8/20130925-JED-MCCALEB-037edit.webp)
+![Jed McCaleb en 2013](assets/img/ch8/20130925-JED-MCCALEB-037edit.webp)
 
-Photographie de Jed McCaleb (source : Ariel Zambelich pour [Wired](https://web.archive.org/web/20131001233752/http://www.wired.com/wiredenterprise/2013/09/jed_mccaleb/))
+Jed McCaleb en 2013 (source : Ariel Zambelich pour [Wired](https://web.archive.org/web/20131001233752/http://www.wired.com/wiredenterprise/2013/09/jed_mccaleb/))
 
 Une semaine plus tard, le 18 juillet, Jed McCaleb lance sa plateforme de change et l'[annonce](https://bitcointalk.org/index.php?topic=444.msg3866#msg3866) sur le forum. Grâce à son expertise, il fait en sorte que la plateforme fonctionne comme une place de marché automatisée, à l'instar des bourses en ligne modernes. [D'après lui](https://bitcointalk.org/index.php?topic=444.msg3891#msg3891), elle se distingue de Bitcoin Market par le fait qu'elle est « toujours en ligne, automatisée », que « le site est plus rapide et a un hébergement dédié » et que « l'interface est plus agréable ». Par conséquent, Mt. Gox s'impose rapidement comme le moyen principal de se procurer du bitcoin, devenant la référence en ce qui concerne le cotation en dollars.
 
 ![Interface de la plateforme Mt. Gox en février 2011](assets/img/ch8/mtgox-screenshot-20110203.webp)
 
-Interface de la plateforme Mt. Gox en février 2011 (source : [archive](https://web.archive.org/web/20110203031942/http://mtgox.com/))
+Interface de la plateforme Mt. Gox en février 2011 (source : [archive de Mt. Gox](https://web.archive.org/web/20110203031942/http://mtgox.com/))
 
 Initialement, la plateforme accepte les paiements via PayPal. Cependant, en octobre 2010, suite à de trop nombreuses demandes de rétrofacturation, PayPal [bloquera](https://bitcointalk.org/index.php?topic=1419.msg16421#msg16421) le compte de Jed McCaleb, ce qui le contraindra à suspendre momentanément les dépôts et les retraits sur la plateforme. Quelques semaines plus tard, il [rétablira](https://bitcointalk.org/index.php?topic=1699.msg20700#msg20700) les transferts en ajoutant Liberty Reserve comme moyen de paiement. Par la suite, il acceptera également sur demande les transactions via [Paxum](https://bitcointalk.org/index.php?topic=2052.msg27809#msg27809), et les virements bancaire [en dollars](https://bitcointalk.org/index.php?topic=4187.msg60610#msg60610) (ACH) et [en euros](https://bitcointalk.org/index.php?topic=2515.msg34040#msg34040) (SEPA).
 
@@ -1155,7 +1155,7 @@ Initialement, la plateforme accepte les paiements via PayPal. Cependant, en octo
 
 L'effet de la publication du texte de présentation de Bitcoin sur Slashdot a été spectaculaire pour le projet de Satoshi Nakamoto. L'afflux de personnes intéressées a mené à une hausse record du prix et du taux de hachage. De plus, il a amené un certain Jed McCaleb à découvrir Bitcoin et à créer une place de marché digne de ce nom pour la négociation de l'unité de compte, sous le nom de Mt. Gox.
 
-Durant les mois qui ont suivi, les améliorations techniques, économiques et minières ont continué à fleurir, faisant de Slashdot le réel point de départ de Bitcoin en tant que mouvement. Mais c'est au niveau du logiciel et du protocole que les changements ont été les plus importants, ceux-ci subissant des problèmes majeurs. Le prochain chapitre se concentre sur ces ennuis techniques qui forment une étape cruciale dans le développement de Bitcoin.
+Durant les mois qui ont suivi, les améliorations techniques, économiques et minières ont continué à fleurir, faisant de Slashdot le réel point de départ de Bitcoin en tant que mouvement communautaire. Mais c'est au niveau du logiciel et du protocole que les changements ont été les plus importants : il y avait en effet des vulnérabilités majeures qu'il fallait corriger. Le prochain chapitre se concentre sur ces ennuis techniques qui forment une étape cruciale dans le développement de Bitcoin.
 
 ## Les premiers ennuis techniques (juil. -- sept. 2010)
 

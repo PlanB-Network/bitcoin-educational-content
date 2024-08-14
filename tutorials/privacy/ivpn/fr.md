@@ -7,9 +7,7 @@ description: Mettre en place son VPN payé en bitcoins
 Un VPN ("Virtual Private Network") est un service qui établit une connexion sécurisée et chiffrée entre votre téléphone ou ordinateur et un serveur distant géré par le fournisseur de VPN.
 
 Techniquement, lors de la connexion à un VPN, votre trafic Internet est redirigé via un tunnel chiffré vers le serveur VPN. Ce processus rend difficile pour des tiers, tels que les fournisseurs d'accès Internet (FAI) ou des acteurs malveillants, d'intercepter ou de lire vos données. Le serveur VPN agit ensuite comme un intermédiaire qui se connecte au service que vous souhaitez utiliser à votre place. Il attribue à votre connexion une nouvelle adresse IP, ce qui permet de masquer votre adresse IP réelle auprès des sites que vous visitez. Attention, contrairement à ce que laissent penser certaines publicités en ligne, utiliser un VPN ne permet pas de naviguer anonymement sur Internet, car il nécessite une forme de confiance envers le fournisseur de VPN qui peut voir tout votre trafic.
-
-01
-
+![IVPN](assets/fr/01.webp)
 Les avantages d'utiliser un VPN sont multiples. Premièrement, il préserve la confidentialité de votre activité en ligne vis-à-vis des FAI ou des gouvernements, à condition que le fournisseur de VPN ne partage pas vos informations. Deuxièmement, il sécurise vos données, en particulier lorsque vous êtes connecté à des réseaux Wi-Fi publics, qui sont vulnérables aux attaques de type MITM (man-in-the-middle). Troisièmement, en masquant votre adresse IP, un VPN vous permet de contourner les restrictions géographiques et la censure, pour avoir accès à des contenus autrement indisponibles ou bloqués dans votre région.
 
 Vous l'aurez compris, le VPN déplace le risque d'observation de votre trafic sur le fournisseur du VPN. Lors du choix de votre fournisseur de VPN, il est donc important de considérer les données personnelles requises pour l'inscription. Si ce dernier demande des informations telles que votre numéro de téléphone, adresse email, détails de carte bancaire, ou pire encore, votre adresse postale, le risque d'association entre votre identité et votre trafic est accru. En cas de compromission du fournisseur ou d'une saisie judiciaire, il serait facile d'associer votre trafic à vos données personnelles. Il est donc recommandé de choisir un fournisseur qui ne demande aucune donnée personnelle et qui accepte des paiements anonymes, comme par exemple en bitcoins.
@@ -49,137 +47,75 @@ Et pour le forfait Pro :
 ## Comment installer IVPN sur un ordinateur ?
 
 Téléchargez [la dernière version du logiciel](https://www.ivpn.net/en/apps-windows/) pour votre système d'exploitation, puis procédez à l'installation en suivant les étapes dans l'assistant d'installation.
-
-02
-
+![IVPN](assets/notext/02.webp)
 Pour les utilisateurs de Linux, référez-vous aux instructions spécifiques à votre distribution disponibles sur [cette page](https://www.ivpn.net/en/apps-linux/).
-
-03
-
+![IVPN](assets/notext/03.webp)
 Une fois l'installation terminée, vous devrez saisir l'identifiant de votre compte. Nous verrons comment l'obtenir dans les sections suivantes de ce tutoriel.
-
-04
-
+![IVPN](assets/notext/04.webp)
 ## Comment installer IVPN sur un smartphone ?
 
 Téléchargez IVPN depuis votre magasin d'applications, que ce soit l'[AppStore](https://apps.apple.com/us/app/ivpn-secure-vpn-for-privacy/id1193122683) pour les utilisateurs iOS, le [Google Play Store](https://play.google.com/store/apps/details?id=net.ivpn.client) pour Android, ou encore [F-Droid](https://f-droid.org/en/packages/net.ivpn.client). Si vous utilisez Android, vous avez également la possibilité de télécharger directement le fichier `.apk` depuis [le site d'IVPN](https://www.ivpn.net/en/apps-android/).
-
-05
-
+![IVPN](assets/notext/05.webp)
 Lors de la première utilisation de l'application, vous serez déconnecté. Vous devrez entrer l'identifiant de votre compte pour activer le service.
-
-06
-
+![IVPN](assets/notext/06.webp)
 Maintenant, passons à l'activation d'IVPN sur vos appareils.
 
 ## Comment payer et activer IVPN ?
 
 Rendez-vous sur le site officiel IVPN [sur la page de paiement](https://www.ivpn.net/en/pricing/).
-
-07
-
+![IVPN](assets/notext/07.webp)
 Sélectionnez le forfait qui correspond le mieux à vos besoins. Pour ce tutoriel, nous opterons pour le forfait Standard qui nous permet d'activer le VPN sur notre ordinateur et notre smartphone par exemple.
-
-08
-
-IVPN va ensuite créer votre compte. Vous n'avez besoin de renseigner aucune donnée personnelle. Ce qui vous permettra de vous connecter est seulement votre identifiant de compte qui agit en quelque sorte comme une clé d'accès. Enregistrez-le dans un endroit sûr comme votre gestionnaire de mots de passe par exemple. Vous pouvez également en faire une copie papier.
-
-09
-
+![IVPN](assets/notext/08.webp)
+IVPN va ensuite créer votre compte. Vous n'avez besoin de renseigner aucune donnée personnelle. C'est uniquement votre identifiant de compte qui vous permettra de vous connecter. Il agit en quelque sorte comme une clé d'accès. Enregistrez-le dans un endroit sûr comme votre gestionnaire de mots de passe par exemple. Vous pouvez également en faire une copie papier.
+![IVPN](assets/notext/09.webp)
 Sur cette même page, choisissez la durée de votre souscription au service.
-
-10
-
+![IVPN](assets/notext/10.webp)
 Puis sélectionnez votre méthode de paiement. Pour ma part, je vais effectuer le paiement via le Lightning Network, je clique donc sur le bouton "Bitcoin".
-
-11
-
+![IVPN](assets/notext/11.webp)
 Vérifiez que tout vous convient puis cliquez sur le bouton "Pay with Lightning".
-
-12
-
+![IVPN](assets/notext/12.webp)
 Une invoice Lightning vous sera présentée sur leur BTCPay Server. Scannez le QR code avec votre portefeuille Lightning et procédez au paiement.
-
-13
-
+![IVPN](assets/notext/13.webp)
 Une fois l'invoice payée, cliquez sur le bouton "Return to IVPN".
-
-14
-
+![IVPN](assets/notext/14.webp)
 Votre compte apparaît désormais comme "Active", et vous pouvez voir la date jusqu'à laquelle votre accès au VPN est valide. Après cette date, vous devrez renouveler votre paiement.
-
-15
-
+![IVPN](assets/notext/15.webp)
 Pour activer votre connexion via IVPN sur votre PC, il suffit de copier votre identifiant de compte.
-
-16
-
+![IVPN](assets/notext/16.webp)
 Et de le coller dans le logiciel précédemment téléchargé.
-
-17
-
+![IVPN](assets/notext/17.webp)
 Puis cliquez sur le bouton "Login".
-
-18
-
+![IVPN](assets/notext/18.webp)
 Cliquez sur la coche pour activer la connexion au VPN, et voilà, le trafic Internet de votre ordinateur est désormais chiffré et routé via un serveur d'IVPN.
-
-19
-
+![IVPN](assets/notext/19.webp)
 Pour votre smartphone, la procédure est identique. Collez votre identifiant de compte ou scannez le QR code associé à votre compte IVPN accessible depuis le site web. Ensuite, cliquez sur la coche pour établir la connexion.
-
-20
-
+![IVPN](assets/notext/20.webp)
 ## Comment utiliser et configurer IVPN ?
 
 Au niveau de l'utilisation et des paramètres, c'est assez simple. Depuis l'interface principale, vous pouvez activer ou désactiver la connexion simplement en utilisant la coche.
-
-21
-
+![IVPN](assets/notext/21.webp)
 Vous avez également la possibilité de mettre en pause votre VPN pour une durée spécifique.
-
-22
-
+![IVPN](assets/notext/22.webp)
 En cliquant sur le serveur actuel, vous pouvez choisir un autre serveur parmi ceux disponibles.
-
-23
-
+![IVPN](assets/notext/23.webp)
 Il est aussi possible d'activer ou de désactiver le pare-feu intégré ainsi que la fonction anti-traqueur.
-
-24
-
+![IVPN](assets/notext/24.webp)
 Pour accéder aux paramètres supplémentaires, cliquez sur l'icône des paramètres.
-
-25
-
+![IVPN](assets/notext/25.webp)
 Dans l'onglet "Account", vous trouverez les paramètres relatifs à votre compte.
-
-26
-
+![IVPN](assets/notext/26.webp)
 Dans l'onglet "General", il y a plusieurs paramètres du client. Je vous conseille de cocher les options "Launch at login" et "On launch" dans la section "Autoconnect" pour établir automatiquement la connexion avec le VPN dès le démarrage de votre machine.
-
-27
-
+![IVPN](assets/notext/27.webp)
 Dans l'onglet "Connection", vous trouverez diverses options liées à la connexion. C'est ici que vous pouvez modifier le protocole de VPN utilisé.
-
-28
-
-L'onglet "Firewall" vous permet d'activer le pare-feu systématiquement au démarrage de l'ordinateur, ce qui garantie qu'aucune connexion ne s'établisse hors du VPN.
-
-29
-
+![IVPN](assets/notext/28.webp)
+L'onglet "IVPN Firewall" vous permet d'activer le pare-feu systématiquement au démarrage de l'ordinateur, ce qui garantie qu'aucune connexion ne s'établisse hors du VPN.
+![IVPN](assets/notext/29.webp)
 L'onglet "Split Tunnel" offre la possibilité d'exclure certains logiciels de la connexion VPN. Les applications ajoutées ici continueront de fonctionner avec une connexion internet normale même lorsque le VPN est activé.
-
-30
-
+![IVPN](assets/notext/30.webp)
 Dans l'onglet "WiFi control", vous avez la possibilité de configurer des actions spécifiques selon les réseaux auxquels vous êtes connecté. Par exemple, vous pouvez définir votre réseau domestique comme "Trusted" et configurer le VPN pour qu'il ne s'active pas sur ce réseau, mais qu'il s'active automatiquement sur tout autre réseau WiFi.
-
-31
-
+![IVPN](assets/notext/31.webp)
 Dans le menu "AntiTracker", sélectionnez le profil de blocage pour votre anti-traqueur. Celui-ci est conçu pour bloquer les publicités, les logiciels malveillants et les traqueurs de données en bloquant les requêtes vers les services de suivi lors de votre navigation sur Internet. Cela améliore votre confidentialité en empêchant les entreprises de collecter et de vendre vos données de navigation. Un "Hardcore Mode" est aussi disponible pour bloquer entièrement tous les domaines appartenant à Google et Meta, ainsi que tous les services qui en dépendent.
-
-32
-
+![IVPN](assets/notext/32.webp)
 Et voilà, vous êtes désormais équipé pour profiter pleinement d'IVPN. Si vous souhaitez également renforcer la sécurité de vos comptes en ligne en utilisant un gestionnaire de mots de passe local, je vous invite à consulter notre tutoriel sur KeePass, une solution gratuite et open-source :
 
 https://planb.network/tutorials/others/keepass

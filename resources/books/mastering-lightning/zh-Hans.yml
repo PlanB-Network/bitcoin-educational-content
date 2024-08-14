@@ -1,0 +1,8 @@
+title: "精通闪电网络"
+publication_year: 2020
+cover: cover_en.webp
+original: true
+description: |
+  《精通闪电网络》由Andreas M. Antonopoulos和René Pickhardt合著，是一本关于比特币第二层扩容解决方案——闪电网络的中级读物。本书详细介绍了闪电网络的技术细节，以及它对比特币可扩展性和隐私性的潜在影响。作者提供了关于如何设置闪电网络节点和使用闪电钱包的逐步指导，并讨论了该技术的社会和经济含义。总的来说，这本书是任何对了解闪电网络及其在比特币未来角色感兴趣的人的宝贵资源。
+contributors:
+  - rabbit-hole

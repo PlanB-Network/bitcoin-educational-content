@@ -1,0 +1,6 @@
+description: |
+  Samourai 是一个专注于隐私和安全的比特币钱包。
+
+  它使用先进技术防止基于区块链的监视，并允许离线交易。这个非托管钱包提供对私钥的完全控制。它还提供了 RoninDojo，一个高性能的自托管全节点，以及 Whirlpool，一个实现了 Chaumian CoinJoin 的版本，旨在打破比特币与其交易历史之间的联系。Samourai 背后的团队由致力于在比特币生态系统中创建优先考虑隐私和安全的软件的隐私活动家组成。
+contributors:
+  - rabbit-hole

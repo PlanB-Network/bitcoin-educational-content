@@ -781,7 +781,7 @@ Au fil des mois, de plus en plus de gens s'inscrivent et interviennent sur ce pr
 
 Après quelques discussions sur la solution technique à adopter, Martti Malmi [installe](https://mmalmi.github.io/satoshi/#email-93) le forum sur son serveur le 17 novembre et Satoshi se met à le [configurer](https://mmalmi.github.io/satoshi/#email-99) le 19 novembre. À partir du 22, le créateur de Bitcoin y transfère quelques questions-réponses provenant de l'ancien forum qui abordent les sujets de la confidentialité, du minage et de Linux. Il publie également un [message de bienvenue](https://bitcointalk.org/index.php?topic=5.msg28#msg28). Le 25, le forum est [mis en ligne](https://mmalmi.github.io/satoshi/#email-110) à l'adresse bitcoin.org/smf.
 
-Les premiers utilisateurs commencent à s'inscrire au début du mois suivant. Le 9 décembre, le [premier message](https://bitcointalk.org/index.php?topic=12.msg40#msg40) publié par une autre personne que Satoshi apparaît, ce qui lance véritablement les discussions. À titre d'illustration, voici une capture du forum le 29 mai 2010 :
+Les premiers utilisateurs commencent à s'inscrire au début du mois suivant. Le 9 décembre, le [premier message](https://bitcointalk.org/index.php?topic=12.msg40#msg40) publié par une autre personne que Satoshi apparaît, ce qui lance véritablement les discussions. À titre d'illustration, voici une [capture](https://web.archive.org/web/20100529193636/http://www.bitcoin.org/smf/) du forum le 29 mai 2010 :
 
 ![Capture du forum de Bitcoin du 29 mai 2010](assets/img/ch5/6.webp)
 
@@ -789,13 +789,13 @@ Le lancement du nouveau forum est l'occasion de publier la [version 0.2](https:/
 
 Sur ce forum, qui deviendra BitcoinTalk en août 2011, Satoshi écrira 539 messages au total. Par ce biais, il pourra apporter des éclaircissements techniques, expliciter divers mécanismes économiques et plus généralement partager son point de vue sur Bitcoin. Cet ensemble de messages formera le gros du corpus qu'il laissera derrière lui.
 
-### Une communication qui se construit par étapes
+### Une communication par étapes
 
-Ainsi, la première partie de l'année 2009 a été consacrée à la communication. Par divers moyens, Satoshi s'est assuré d'attirer l'attention sur a découverte...
+Ainsi, la première partie de l'année 2009 a été consacrée à la communication. Satoshi s'est assuré d'attirer l'attention sur sa découverte par divers moyens et à différents endroits. Il a été aidé par d'autres personnes à diffuser le message, dont Martti Malmi.
 
-La communication autour de Bitcoin est ainsi passée par plusieurs étapes. Tout d'abord, il semble que Satoshi parlait beaucoup des paiements en ligne. Puis, il a insisté sur la politique monétaire du bitcoin. Enfin, cette communication a été reprise par d'autres personnes dont Martti Malmi.
+La promotion de Bitcoin est aussi passée par plusieurs étapes : tout d'abord, Satoshi s'est focalisé sur les paiements en ligne ; puis il a insisté sur la politique monétaire fixe et la limite des 21 millions d'unités ; et il a enfin évoqué la programmabilité de son modèle.
 
-À l'automne 2009, il semblait que Bitcoin était prêt à s'agrandir. L'amorçage économique a eu lieu à partir de là. Nous parlerons de ce sujet dans le prochain chapitre.
+À l'automne 2009, il semblait que Bitcoin était prêt à grandir. Et c'est précisément à ce moment-là que l'amorçage économique du système s'est réellement effectué. Ce sujet est l'objet du prochain chapitre.
 
 ## L'amorçage de la cryptomonnaie (oct. 2009 -- avr. 2010)
 

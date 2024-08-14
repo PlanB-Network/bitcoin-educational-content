@@ -785,7 +785,7 @@ Les premiers utilisateurs commencent à s'inscrire au début du mois suivant. Le
 
 ![Capture du forum de Bitcoin du 29 mai 2010](assets/img/ch5/6.webp)
 
-Le lancement du nouveau forum est l'occasion de publier la [version 0.2](https://bitcointalk.org/index.php?topic=16.msg73#msg73) du logiciel, sur laquelle Satoshi Nakamoto et Martti Malmi travaillent depuis des mois. Celle-ci inclut des améliorations comme la minimisation dans la barre des tâches, le lancement automatique au démarrage ou le *multithreading* pour la production minière. Le logiciel est également adapté pour Linux, grâce à la contribution de Malmi et aux tests réalisés par le nouvellement arrivé NewLibertyStandard (dont le cas sera abordé dans le prochain chapitre).
+Le lancement du nouveau forum est l'occasion de publier la [version 0.2](https://bitcointalk.org/index.php?topic=16.msg73#msg73) du logiciel, sur laquelle Satoshi Nakamoto et Martti Malmi travaillent depuis des mois, ce qui est fait le 16 décembre. Celle-ci inclut des améliorations comme la minimisation dans la barre des tâches, le lancement automatique au démarrage ou le *multithreading* pour la production minière. Le logiciel est également adapté pour Linux, grâce à la contribution de Malmi et aux tests réalisés par le nouvellement arrivé NewLibertyStandard (dont le cas sera abordé dans le prochain chapitre).
 
 Sur ce forum, qui deviendra BitcoinTalk en août 2011, Satoshi écrira 539 messages au total. Par ce biais, il pourra apporter des éclaircissements techniques, expliciter divers mécanismes économiques et plus généralement partager son point de vue sur Bitcoin. Cet ensemble de messages formera le gros du corpus qu'il laissera derrière lui.
 

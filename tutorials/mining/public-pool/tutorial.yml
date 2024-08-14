@@ -12,10 +12,11 @@ credits:
   professor: case-memory
 
 # Proofreading metadata
-original: en
+original: fr
 translation_review:
   fr:
-      last_reviewed: 
-      next_review_urgency: 1 
-      reviewers_id: 
-      reward: 
+    last_reviewed:
+    next_review_urgency: 1
+    reviewers_id:
+    reward:
+

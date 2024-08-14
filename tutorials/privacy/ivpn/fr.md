@@ -24,27 +24,27 @@ La politique de confidentialité d'IVPN est stricte : aucun renseignement person
 
 IVPN est aussi [entièrement open-source](https://github.com/ivpn), au niveau du logiciel, des applications, et même de leur site web, ce qui permet à chacun de vérifier et d'examiner leur code. Ils se soumettent également à des audits de sécurité indépendants chaque année, dont les résultats sont publiés sur leur site web.
 
-IVPN utilise exclusivement des serveurs auto-hébergés, ce qui écarte ainsi les risques associés à l'utilisation de services cloud tiers, tels que les hyperscalers AWS, Google Cloud ou Microsoft Azure.
+IVPN utilise exclusivement des serveurs autohébergés, ce qui écarte ainsi les risques associés à l'utilisation de services cloud tiers, tels que les hyperscalers AWS, Google Cloud ou Microsoft Azure.
 
 Le service propose de nombreuses fonctionnalités avancées, telles que le multi-hop, qui achemine le trafic via plusieurs serveurs situés dans différentes juridictions pour améliorer l'anonymat. IVPN intègre également un bloqueur de traqueurs et de publicités, et offre la possibilité de choisir parmi différents protocoles de VPN.
 
 Forcément, cette qualité de service a un coût, mais un prix adéquat est souvent un indicateur de qualité et d'honnêteté. Cela peut signaler que l'entreprise dispose d'un business model sans avoir besoin de vendre des données personnelles. IVPN offre alors 2 types de forfaits : le forfait Standard, qui permet de connecter jusqu'à 2 appareils, et le forfait Pro, qui permet jusqu'à 7 connexions et inclut le protocole "Multi-hop" qui permet de router son trafic à travers plusieurs serveurs.
 
-Contrairement aux fournisseurs de VPN grand public, IVPN fonctionne sur un modèle d'achat de temps d'accès au service, plutôt que sur un abonnement récurrent. Vous payez en bitcoins une seule fois pour la durée choisie. Par exemple, si vous achetez un accès d'un an, vous pourrez utiliser le service pendant cette période, après quoi vous devrez retourner sur le site web d'IVPN pour acheter à nouveau du temps d'accès.
+Contrairement aux fournisseurs de VPN grand public, IVPN fonctionne sur un modèle d'achat de temps d'accès au service, plutôt que sur un abonnement récurrent. Vous payez en bitcoins une seule fois pour la durée choisie. Par exemple, si vous achetez un accès d'un an, vous pourrez utiliser le service pendant cette période, après quoi vous devrez retourner sur le site web d'IVPN pour acheter de nouveau du temps d'accès.
 
 Les [tarifs d'IVPN](https://www.ivpn.net/en/pricing/) sont dégressifs en fonction de la durée d'accès achetée. Voici les prix pour le forfait Standard :
-- 1 semaine : 2$
-- 1 mois : 6$
-- 1 an : 60$
-- 2 ans : 100$
-- 3 ans : 140$
+- 1 semaine : 2 $
+- 1 mois : 6 $
+- 1 an : 60 $
+- 2 ans : 100 $
+- 3 ans : 140 $
 
 Et pour le forfait Pro :
-- 1 semaine : 4$
-- 1 mois : 10$
-- 1 an : 100$
-- 2 ans : 160$
-- 3 ans : 220$
+- 1 semaine : 4 $
+- 1 mois : 10 $
+- 1 an : 100 $
+- 2 ans : 160 $
+- 3 ans : 220 $
 
 ## Comment installer IVPN sur un ordinateur ?
 
@@ -82,7 +82,7 @@ Sélectionnez le forfait qui correspond le mieux à vos besoins. Pour ce tutorie
 
 08
 
-IVPN va ensuite créé votre compte. Vous n'avez besoin de renseigner aucune donnée personnelle. Ce qui vous permettra de vous connecter est seulement votre identifiant de compte qui agit en quelque sorte comme une clé d'accès. Enregistrez le dans un endroit sûr comme votre gestionnaire de mots de passe par exemple. Vous pouvez également en faire une copie papier.
+IVPN va ensuite créer votre compte. Vous n'avez besoin de renseigner aucune donnée personnelle. Ce qui vous permettra de vous connecter est seulement votre identifiant de compte qui agit en quelque sorte comme une clé d'accès. Enregistrez-le dans un endroit sûr comme votre gestionnaire de mots de passe par exemple. Vous pouvez également en faire une copie papier.
 
 09
 
@@ -106,7 +106,7 @@ Une fois l'invoice payée, cliquez sur le bouton "Return to IVPN".
 
 14
 
-Votre compte apparaît désormais comme "Actif", et vous pouvez voir la date jusqu'à laquelle votre accès au VPN est valide. Après cette date, vous devrez renouveler votre paiement.
+Votre compte apparaît désormais comme "Active", et vous pouvez voir la date jusqu'à laquelle votre accès au VPN est valide. Après cette date, vous devrez renouveler votre paiement.
 
 15
 

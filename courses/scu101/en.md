@@ -393,7 +393,7 @@ https://planb.network/tutorials/others/proton-drive
 
 ## Change of browser & VPN
 <chapterId>8dc08feb-313c-5259-a54f-64aa68a07608</chapterId>
-
+https://planb.network/tutorials/others/ivpn
 ![video](https://youtu.be/vc6-Ouca09g)
 
 # Go further

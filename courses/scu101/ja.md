@@ -383,7 +383,7 @@ https://planb.network/tutorials/others/proton-drive
 
 ## ブラウザとVPNの変更
 <chapterId>8dc08feb-313c-5259-a54f-64aa68a07608</chapterId>
-
+https://planb.network/tutorials/others/ivpn
 ![ビデオ](https://youtu.be/vc6-Ouca09g)
 
 # より深く掘り下げる

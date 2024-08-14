@@ -404,7 +404,7 @@ https://planb.network/tutorials/others/proton-drive
 ## Смена браузера и VPN
 
 <chapterId>8dc08feb-313c-5259-a54f-64aa68a07608</chapterId>
-
+https://planb.network/tutorials/others/ivpn
 ![видео](https://youtu.be/vc6-Ouca09g)
 
 # Идем дальше

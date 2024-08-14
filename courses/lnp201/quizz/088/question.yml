@@ -6,3 +6,57 @@ tags:
 - Bitcoin
 - Lightning Network
 - User Types
+
+# Proofreading metadata
+original: en
+translation_review:
+  cs:
+    last_reviewed:
+    next_review_urgency: 1
+    reviewers_id:
+    reward: 2784
+  de:
+    last_reviewed:
+    next_review_urgency: 1
+    reviewers_id:
+    reward: 2642
+  en:
+    last_reviewed:
+    next_review_urgency: 1
+    reviewers_id:
+    reward: 1321
+  es:
+    last_reviewed:
+    next_review_urgency: 1
+    reviewers_id:
+    reward: 2713
+  fi:
+    last_reviewed:
+    next_review_urgency: 1
+    reviewers_id:
+    reward: 2784
+  fr:
+    last_reviewed:
+    next_review_urgency: 1
+    reviewers_id:
+    reward: 2642
+  it:
+    last_reviewed:
+    next_review_urgency: 1
+    reviewers_id:
+    reward: 2713
+  ja:
+    last_reviewed:
+    next_review_urgency: 1
+    reviewers_id:
+    reward: 2926
+  pt:
+    last_reviewed:
+    next_review_urgency: 1
+    reviewers_id:
+    reward: 2642
+  vi:
+    last_reviewed:
+    next_review_urgency: 1
+    reviewers_id:
+    reward: 2926

@@ -6,3 +6,57 @@ tags:
 - Bitcoin
 - Mining
 - Energy Cost
+
+# Proofreading metadata
+original: en
+translation_review:
+  cs:
+    last_reviewed:
+    next_review_urgency: 1
+    reviewers_id:
+    reward: 3004
+  de:
+    last_reviewed:
+    next_review_urgency: 1
+    reviewers_id:
+    reward: 2752
+  en:
+    last_reviewed:
+    next_review_urgency: 1
+    reviewers_id:
+    reward: 1376
+  es:
+    last_reviewed:
+    next_review_urgency: 1
+    reviewers_id:
+    reward: 2878
+  fi:
+    last_reviewed:
+    next_review_urgency: 1
+    reviewers_id:
+    reward: 3004
+  fr:
+    last_reviewed:
+    next_review_urgency: 1
+    reviewers_id:
+    reward: 2752
+  it:
+    last_reviewed:
+    next_review_urgency: 1
+    reviewers_id:
+    reward: 2878
+  ja:
+    last_reviewed:
+    next_review_urgency: 1
+    reviewers_id:
+    reward: 3256
+  pt:
+    last_reviewed:
+    next_review_urgency: 1
+    reviewers_id:
+    reward: 2752
+  vi:
+    last_reviewed:
+    next_review_urgency: 1
+    reviewers_id:
+    reward: 3256

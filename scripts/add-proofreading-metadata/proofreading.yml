@@ -1,0 +1,20 @@
+original: en
+translation_review:
+  fr:
+    last_reviewed: 2024-06-19
+    next_review_urgency: 1
+    reviewer_id:
+      - user123
+      - user234
+    reward: 20000
+  en: # content reviewed once
+    last_reviewed: 2024-06-19
+    next_review_urgency: 1
+    reviewer_id:
+      - user123
+    reward: 20000
+  es: # language present but never reviewed
+    last_reviewed:
+    next_review_urgency: 5 # can be set to 0, 1, 2, 5, 10
+    reviewer_id:
+    reward: 80000

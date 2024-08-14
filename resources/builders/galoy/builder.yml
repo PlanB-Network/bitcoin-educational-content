@@ -4,8 +4,67 @@ links:
   twitter: https://twitter.com/GaloyMoney
   github: https://github.com/GaloyMoney
 tags:
-  - bitcoin-only
-  - open-source
-  - lightning-infrastructure
+- bitcoin-only
+- open-source
+- lightning-infrastructure
 
 category: infrastructure
+
+# Proofreading metadata
+original: en
+translation_review:
+  cs:
+    last_reviewed:
+    next_review_urgency: 1
+    reviewers_id:
+    reward: 3204
+  de:
+    last_reviewed:
+    next_review_urgency: 1
+    reviewers_id:
+    reward: 2852
+  en:
+    last_reviewed:
+    next_review_urgency: 1
+    reviewers_id:
+    reward: 1426
+  es:
+    last_reviewed:
+    next_review_urgency: 1
+    reviewers_id:
+    reward: 3028
+  fi:
+    last_reviewed:
+    next_review_urgency: 1
+    reviewers_id:
+    reward: 3204
+  fr:
+    last_reviewed:
+    next_review_urgency: 1
+    reviewers_id:
+    reward: 2852
+  it:
+    last_reviewed:
+    next_review_urgency: 1
+    reviewers_id:
+    reward: 3028
+  ja:
+    last_reviewed:
+    next_review_urgency: 1
+    reviewers_id:
+    reward: 3556
+  pt:
+    last_reviewed:
+    next_review_urgency: 1
+    reviewers_id:
+    reward: 2852
+  ru:
+    last_reviewed:
+    next_review_urgency: 1
+    reviewers_id:
+    reward: 3204
+  vi:
+    last_reviewed:
+    next_review_urgency: 1
+    reviewers_id:
+    reward: 3556

@@ -6,3 +6,57 @@ tags:
 - Bitcoin
 - Blockchain
 - Miners
+
+# Proofreading metadata
+original: en
+translation_review:
+  cs:
+    last_reviewed:
+    next_review_urgency: 1
+    reviewers_id:
+    reward: 2796
+  de:
+    last_reviewed:
+    next_review_urgency: 1
+    reviewers_id:
+    reward: 2648
+  en:
+    last_reviewed:
+    next_review_urgency: 1
+    reviewers_id:
+    reward: 1324
+  es:
+    last_reviewed:
+    next_review_urgency: 1
+    reviewers_id:
+    reward: 2722
+  fi:
+    last_reviewed:
+    next_review_urgency: 1
+    reviewers_id:
+    reward: 2796
+  fr:
+    last_reviewed:
+    next_review_urgency: 1
+    reviewers_id:
+    reward: 2648
+  it:
+    last_reviewed:
+    next_review_urgency: 1
+    reviewers_id:
+    reward: 2722
+  ja:
+    last_reviewed:
+    next_review_urgency: 1
+    reviewers_id:
+    reward: 2944
+  pt:
+    last_reviewed:
+    next_review_urgency: 1
+    reviewers_id:
+    reward: 2648
+  vi:
+    last_reviewed:
+    next_review_urgency: 1
+    reviewers_id:
+    reward: 2944

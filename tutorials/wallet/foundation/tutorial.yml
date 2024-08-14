@@ -5,5 +5,64 @@ level: advanced
 category: hardware
 
 tags:
-  - self-custodial
-  - Open-source
+- self-custodial
+- Open-source
+
+# Proofreading metadata
+original: en
+translation_review:
+  cs:
+    last_reviewed:
+    next_review_urgency: 1
+    reviewers_id:
+    reward: 4456
+  de:
+    last_reviewed:
+    next_review_urgency: 1
+    reviewers_id:
+    reward: 3478
+  en:
+    last_reviewed:
+    next_review_urgency: 1
+    reviewers_id:
+    reward: 1739
+  es:
+    last_reviewed:
+    next_review_urgency: 1
+    reviewers_id:
+    reward: 3967
+  fi:
+    last_reviewed:
+    next_review_urgency: 1
+    reviewers_id:
+    reward: 4456
+  fr:
+    last_reviewed:
+    next_review_urgency: 1
+    reviewers_id:
+    reward: 3478
+  it:
+    last_reviewed:
+    next_review_urgency: 1
+    reviewers_id:
+    reward: 3967
+  ja:
+    last_reviewed:
+    next_review_urgency: 1
+    reviewers_id:
+    reward: 5434
+  pt:
+    last_reviewed:
+    next_review_urgency: 1
+    reviewers_id:
+    reward: 3478
+  ru:
+    last_reviewed:
+    next_review_urgency: 1
+    reviewers_id:
+    reward: 4456
+  vi:
+    last_reviewed:
+    next_review_urgency: 1
+    reviewers_id:
+    reward: 5434

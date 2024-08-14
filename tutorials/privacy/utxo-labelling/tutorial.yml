@@ -1,13 +1,72 @@
 builder: Labelling UTXO
 
 tags:
-  - privacy
-  - education
-  - coin control
+- privacy
+- education
+- coin control
 
 category: bitcoin
 
-level: intermediary
+level: intermediate
 
 credits:
   professor: pretty-private
+
+# Proofreading metadata
+original: fr
+translation_review:
+  cs:
+    last_reviewed:
+    next_review_urgency: 1
+    reviewers_id:
+    reward: 13756
+  de:
+    last_reviewed:
+    next_review_urgency: 1
+    reviewers_id:
+    reward: 8128
+  en:
+    last_reviewed:
+    next_review_urgency: 1
+    reviewers_id:
+    reward: 8128
+  es:
+    last_reviewed:
+    next_review_urgency: 1
+    reviewers_id:
+    reward: 10942
+  fi:
+    last_reviewed:
+    next_review_urgency: 1
+    reviewers_id:
+    reward: 13756
+  fr:
+    last_reviewed:
+    next_review_urgency: 1
+    reviewers_id:
+    reward: 4064
+  it:
+    last_reviewed:
+    next_review_urgency: 1
+    reviewers_id:
+    reward: 10942
+  ja:
+    last_reviewed:
+    next_review_urgency: 1
+    reviewers_id:
+    reward: 19384
+  pt:
+    last_reviewed:
+    next_review_urgency: 1
+    reviewers_id:
+    reward: 8128
+  ru:
+    last_reviewed:
+    next_review_urgency: 1
+    reviewers_id:
+    reward: 13756
+  vi:
+    last_reviewed:
+    next_review_urgency: 1
+    reviewers_id:
+    reward: 19384

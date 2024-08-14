@@ -11,7 +11,7 @@
   price_dollars: 0
   description: From the technical to the hysterical, get ready to be enlightened and entertained with Bitcoin-only content delivered by local and international bitcoiners
   language: 
-    - en
+  en:
   links:
     website: https://www.bitcoinrodeo.com/
     replay_url:

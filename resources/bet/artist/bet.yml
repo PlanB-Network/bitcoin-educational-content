@@ -1,9 +1,69 @@
 type: Visual Content
 links:
   download: https://workspace.planb.network/s/9MXmXWwqmt7pfJs
-  view: 
-    - en: https://penpot.planb.network/#/view/7154756b-3ebd-8040-8004-50455a67f0d6?page-id=7154756b-3ebd-8040-8004-50455a67f0d7&section=interactions&index=0&share-id=7154756b-3ebd-8040-8004-504934eb0617&zoom=fill
+  view:
+  - en: 
+      https://penpot.planb.network/#/view/7154756b-3ebd-8040-8004-50455a67f0d6?page-id=7154756b-3ebd-8040-8004-50455a67f0d7&section=interactions&index=0&share-id=7154756b-3ebd-8040-8004-504934eb0617&zoom=fill
 tags:
-  - bitcoin
+- bitcoin
 contributors:
-  - rabbit-hole
+- rabbit-hole
+
+# Proofreading metadata
+original: en
+translation_review:
+  cs:
+    last_reviewed:
+    next_review_urgency: 1
+    reviewers_id:
+    reward: 2544
+  de:
+    last_reviewed:
+    next_review_urgency: 1
+    reviewers_id:
+    reward: 2522
+  en:
+    last_reviewed:
+    next_review_urgency: 1
+    reviewers_id:
+    reward: 1261
+  es:
+    last_reviewed:
+    next_review_urgency: 1
+    reviewers_id:
+    reward: 2533
+  fi:
+    last_reviewed:
+    next_review_urgency: 1
+    reviewers_id:
+    reward: 2544
+  fr:
+    last_reviewed:
+    next_review_urgency: 1
+    reviewers_id:
+    reward: 2522
+  it:
+    last_reviewed:
+    next_review_urgency: 1
+    reviewers_id:
+    reward: 2533
+  ja:
+    last_reviewed:
+    next_review_urgency: 1
+    reviewers_id:
+    reward: 2566
+  pt:
+    last_reviewed:
+    next_review_urgency: 1
+    reviewers_id:
+    reward: 2522
+  ru:
+    last_reviewed:
+    next_review_urgency: 1
+    reviewers_id:
+    reward: 2544
+  vi:
+    last_reviewed:
+    next_review_urgency: 1
+    reviewers_id:
+    reward: 2566

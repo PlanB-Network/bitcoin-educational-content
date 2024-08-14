@@ -1,6 +1,20 @@
 en_word: NLOCKTIME
 related_words:
-  - OP_CHECKLOCKTIMEVERIFY
-  - TIMELOCK
+- OP_CHECKLOCKTIMEVERIFY
+- TIMELOCK
 tags:
-  - ''
+- ''
+
+# Proofreading metadata
+original: fr
+translation_review:
+  en:
+    last_reviewed:
+    next_review_urgency: 1
+    reviewers_id:
+    reward: 2688
+  fr:
+    last_reviewed:
+    next_review_urgency: 1
+    reviewers_id:
+    reward: 1344

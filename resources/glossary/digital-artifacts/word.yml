@@ -1,6 +1,20 @@
 en_word: DIGITAL ARTIFACTS
 related_words:
-  - INSCRIPTIONS
-  - ORDINALS THEORY
+- INSCRIPTIONS
+- ORDINALS THEORY
 tags:
-  - ''
+- ''
+
+# Proofreading metadata
+original: fr
+translation_review:
+  en:
+    last_reviewed:
+    next_review_urgency: 1
+    reviewers_id:
+    reward: 2624
+  fr:
+    last_reviewed:
+    next_review_urgency: 1
+    reviewers_id:
+    reward: 1312

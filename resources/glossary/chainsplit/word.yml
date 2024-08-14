@@ -1,6 +1,20 @@
 en_word: CHAINSPLIT
 related_words:
-  - NATURAL FORK
-  - FORK
+- NATURAL FORK
+- FORK
 tags:
-  - ''
+- ''
+
+# Proofreading metadata
+original: fr
+translation_review:
+  en:
+    last_reviewed:
+    next_review_urgency: 1
+    reviewers_id:
+    reward: 2568
+  fr:
+    last_reviewed:
+    next_review_urgency: 1
+    reviewers_id:
+    reward: 1284

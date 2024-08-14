@@ -1,5 +1,19 @@
 en_word: OBSOLETE (BLOCK)
 related_words:
-  - ORPHAN
+- ORPHAN
 tags:
-  - ''
+- ''
+
+# Proofreading metadata
+original: fr
+translation_review:
+  en:
+    last_reviewed:
+    next_review_urgency: 1
+    reviewers_id:
+    reward: 3150
+  fr:
+    last_reviewed:
+    next_review_urgency: 1
+    reviewers_id:
+    reward: 1575

@@ -4,8 +4,17 @@ level: advanced
 hours: 10
 
 professors:
-  - myth-initial
+- myth-initial
 
 contributors:
-  - rabbit-hole
-  - another-satoshi
+- rabbit-hole
+- another-satoshi
+
+# Proofreading metadata
+original: en
+translation_review:
+  en:
+    last_reviewed:
+    next_review_urgency: 1
+    reviewers_id:
+    reward: 108947

@@ -1,5 +1,19 @@
 en_word: OP_CHECKLOCKTIMEVERIFY (0XB1)
 related_words:
-  - NLOCKTIME
+- NLOCKTIME
 tags:
-  - ''
+- ''
+
+# Proofreading metadata
+original: fr
+translation_review:
+  en:
+    last_reviewed:
+    next_review_urgency: 1
+    reviewers_id:
+    reward: 3036
+  fr:
+    last_reviewed:
+    next_review_urgency: 1
+    reviewers_id:
+    reward: 1518

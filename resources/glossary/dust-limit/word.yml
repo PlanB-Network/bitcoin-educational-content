@@ -1,7 +1,21 @@
 en_word: DUST LIMIT
 related_words:
-  - DUST
-  - DUSTING ATTACK
-  - DUSTRELAYFEE
+- DUST
+- DUSTING ATTACK
+- DUSTRELAYFEE
 tags:
-  - ''
+- ''
+
+# Proofreading metadata
+original: fr
+translation_review:
+  en:
+    last_reviewed:
+    next_review_urgency: 1
+    reviewers_id:
+    reward: 2934
+  fr:
+    last_reviewed:
+    next_review_urgency: 1
+    reviewers_id:
+    reward: 1467

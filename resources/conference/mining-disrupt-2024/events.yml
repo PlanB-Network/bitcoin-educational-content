@@ -11,7 +11,7 @@
   price_dollars: 0
   description: Worlds Largest Bitcoin Mining Conference & Expo
   language: 
-    - en
+  en:
   links:
     website: https://miningdisrupt.com/
     replay_url:

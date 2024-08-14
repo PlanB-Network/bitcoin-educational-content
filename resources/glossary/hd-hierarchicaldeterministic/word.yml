@@ -1,6 +1,20 @@
 en_word: HD (HIERARCHICAL-DETERMINISTIC)
 related_words:
-  - BIP32
-  - BIP44
+- BIP32
+- BIP44
 tags:
-  - ''
+- ''
+
+# Proofreading metadata
+original: fr
+translation_review:
+  en:
+    last_reviewed:
+    next_review_urgency: 1
+    reviewers_id:
+    reward: 2776
+  fr:
+    last_reviewed:
+    next_review_urgency: 1
+    reviewers_id:
+    reward: 1388

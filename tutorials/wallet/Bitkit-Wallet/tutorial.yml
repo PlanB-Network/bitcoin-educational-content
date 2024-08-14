@@ -5,12 +5,21 @@ level: beginner
 category: mobile
 
 tags:
-  - wallet
-  - lightning-network
-  - self-custodial
-  - open-source
-  - on-chain
+- wallet
+- lightning-network
+- self-custodial
+- open-source
+- on-chain
 
 credits:
   professor: casual-chaos
   link: https://help.bitkit.to
+
+# Proofreading metadata
+original: en
+translation_review:
+  en:
+    last_reviewed:
+    next_review_urgency: 1
+    reviewers_id:
+    reward: 1624

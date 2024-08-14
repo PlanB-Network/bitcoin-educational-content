@@ -2,12 +2,21 @@ year: 2023
 name: Tab Conf 2023
 builder: TabConf
 location: Atlanta, USA
-language: 
-   - en
+language:
+  en:
 links:
   website: https://2023.tabconf.com/
   twitter: https://twitter.com/tabconf
-tags: 
-  - Bitcoiner
-  - technical 
-  - lightning network
+tags:
+- Bitcoiner
+- technical
+- lightning network
+
+# Proofreading metadata
+original: en
+translation_review:
+  en:
+    last_reviewed:
+    next_review_urgency: 0
+    reviewers_id:
+    reward: 1250

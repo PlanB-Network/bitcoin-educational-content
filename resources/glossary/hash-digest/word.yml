@@ -1,5 +1,19 @@
 en_word: HASH DIGEST
 related_words:
-  - HASH FUNCTION
+- HASH FUNCTION
 tags:
-  - ''
+- ''
+
+# Proofreading metadata
+original: fr
+translation_review:
+  en:
+    last_reviewed:
+    next_review_urgency: 1
+    reviewers_id:
+    reward: 2724
+  fr:
+    last_reviewed:
+    next_review_urgency: 1
+    reviewers_id:
+    reward: 1362

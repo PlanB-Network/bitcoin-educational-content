@@ -1,6 +1,20 @@
 en_word: FORCED ADDRESS REUSE
 related_words:
-  - DUST
-  - DUST LIMIT
+- DUST
+- DUST LIMIT
 tags:
-  - ''
+- ''
+
+# Proofreading metadata
+original: fr
+translation_review:
+  en:
+    last_reviewed:
+    next_review_urgency: 1
+    reviewers_id:
+    reward: 2818
+  fr:
+    last_reviewed:
+    next_review_urgency: 1
+    reviewers_id:
+    reward: 1409

@@ -1,12 +1,21 @@
 year: 2015
 name: Bitcoin TLV 2015
-builder: 
+builder:
 location: Tel Aviv, Israel
-language: 
-   - he
+language:
+- he
 links:
   website: https://bitcoin.org.il/
-tags: 
-   - Bitcoiner
-   - General
+tags:
+- Bitcoiner
+- General
 
+
+# Proofreading metadata
+original: en
+translation_review:
+  en:
+    last_reviewed:
+    next_review_urgency: 0
+    reviewers_id:
+    reward: 1250

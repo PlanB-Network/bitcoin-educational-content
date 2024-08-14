@@ -1,5 +1,19 @@
 en_word: COINJOIN
 related_words:
-  - CHAUMIAN COINJOIN
+- CHAUMIAN COINJOIN
 tags:
-  - ''
+- ''
+
+# Proofreading metadata
+original: fr
+translation_review:
+  en:
+    last_reviewed:
+    next_review_urgency: 1
+    reviewers_id:
+    reward: 3936
+  fr:
+    last_reviewed:
+    next_review_urgency: 1
+    reviewers_id:
+    reward: 1968

@@ -4,8 +4,69 @@ level: intermediate
 hours: 6
 
 professors:
-  - super-brother
+- super-brother
 
 contributors:
-  - rabbit-hole
-  - another-satoshi
+- rabbit-hole
+- another-satoshi
+
+# Proofreading metadata
+original: fr
+translation_review:
+  cs:
+    last_reviewed:
+    next_review_urgency: 1
+    reviewers_id:
+    reward: 56356
+  de:
+    last_reviewed:
+    next_review_urgency: 1
+    reviewers_id:
+    reward: 29428
+  en:
+    last_reviewed:
+    next_review_urgency: 1
+    reviewers_id:
+    reward: 29428
+  es:
+    last_reviewed:
+    next_review_urgency: 1
+    reviewers_id:
+    reward: 42892
+  fi:
+    last_reviewed:
+    next_review_urgency: 1
+    reviewers_id:
+    reward: 56356
+  fr:
+    last_reviewed:
+    next_review_urgency: 1
+    reviewers_id:
+    reward: 14714
+  it:
+    last_reviewed: 2023-10-10
+    next_review_urgency: 1
+    reviewers_id:
+    - TinF0ilHat1
+    reward: 22696
+  ja:
+    last_reviewed:
+    next_review_urgency: 1
+    reviewers_id:
+    - yutaro21jp
+    reward: 42892
+  pt:
+    last_reviewed: 2023-12-24
+    next_review_urgency: 1
+    reviewers_id:
+    reward: 29428
+  ru:
+    last_reviewed:
+    next_review_urgency: 1
+    reviewers_id:
+    reward: 56356
+  vi:
+    last_reviewed:
+    next_review_urgency: 1
+    reviewers_id:
+    reward: 83284

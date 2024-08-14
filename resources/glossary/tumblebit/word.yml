@@ -1,5 +1,19 @@
 en_word: TUMBLEBIT
 related_words:
-  - COINJOIN
+- COINJOIN
 tags:
-  - ''
+- ''
+
+# Proofreading metadata
+original: fr
+translation_review:
+  en:
+    last_reviewed:
+    next_review_urgency: 1
+    reviewers_id:
+    reward: 2782
+  fr:
+    last_reviewed:
+    next_review_urgency: 1
+    reviewers_id:
+    reward: 1391

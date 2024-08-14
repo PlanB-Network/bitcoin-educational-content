@@ -1,5 +1,19 @@
 en_word: BIP101
 related_words:
-  - BITCOIN XT
+- BITCOIN XT
 tags:
-  - ''
+- ''
+
+# Proofreading metadata
+original: fr
+translation_review:
+  en:
+    last_reviewed:
+    next_review_urgency: 1
+    reviewers_id:
+    reward: 2688
+  fr:
+    last_reviewed:
+    next_review_urgency: 1
+    reviewers_id:
+    reward: 1344

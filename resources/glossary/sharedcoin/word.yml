@@ -1,5 +1,19 @@
 en_word: SHAREDCOIN
 related_words:
-  - COINJOIN
+- COINJOIN
 tags:
-  - ''
+- ''
+
+# Proofreading metadata
+original: fr
+translation_review:
+  en:
+    last_reviewed:
+    next_review_urgency: 1
+    reviewers_id:
+    reward: 2734
+  fr:
+    last_reviewed:
+    next_review_urgency: 1
+    reviewers_id:
+    reward: 1367

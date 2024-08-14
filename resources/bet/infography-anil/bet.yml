@@ -2,9 +2,69 @@ builder: Anil
 type: Educational Content
 links:
   download: https://anilsaidso.gumroad.com/
-  view: 
-    - en: https://penpot.planb.network/#/view/c157057b-fd28-8042-8004-4fbeca6e3f53?page-id=c157057b-fd28-8042-8004-4fbeca6e3f54&section=interactions&index=0&share-id=c157057b-fd28-8042-8004-4fcee69bb40e&zoom=fill
+  view:
+  - en: 
+      https://penpot.planb.network/#/view/c157057b-fd28-8042-8004-4fbeca6e3f53?page-id=c157057b-fd28-8042-8004-4fbeca6e3f54&section=interactions&index=0&share-id=c157057b-fd28-8042-8004-4fcee69bb40e&zoom=fill
 tags:
-  - bitcoin
+- bitcoin
 contributors:
-  - rabbit-hole
+- rabbit-hole
+
+# Proofreading metadata
+original: en
+translation_review:
+  cs:
+    last_reviewed:
+    next_review_urgency: 1
+    reviewers_id:
+    reward: 2600
+  de:
+    last_reviewed:
+    next_review_urgency: 1
+    reviewers_id:
+    reward: 2550
+  en:
+    last_reviewed:
+    next_review_urgency: 1
+    reviewers_id:
+    reward: 1275
+  es:
+    last_reviewed:
+    next_review_urgency: 1
+    reviewers_id:
+    reward: 2575
+  fi:
+    last_reviewed:
+    next_review_urgency: 1
+    reviewers_id:
+    reward: 2600
+  fr:
+    last_reviewed:
+    next_review_urgency: 1
+    reviewers_id:
+    reward: 2550
+  it:
+    last_reviewed:
+    next_review_urgency: 1
+    reviewers_id:
+    reward: 2575
+  ja:
+    last_reviewed:
+    next_review_urgency: 1
+    reviewers_id:
+    reward: 2650
+  pt:
+    last_reviewed:
+    next_review_urgency: 1
+    reviewers_id:
+    reward: 2550
+  ru:
+    last_reviewed:
+    next_review_urgency: 1
+    reviewers_id:
+    reward: 2600
+  vi:
+    last_reviewed:
+    next_review_urgency: 1
+    reviewers_id:
+    reward: 2650

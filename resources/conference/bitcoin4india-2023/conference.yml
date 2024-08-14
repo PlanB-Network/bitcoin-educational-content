@@ -1,13 +1,22 @@
 year: 2023
 name: Bitcoin4India 2023
-builder: 
+builder:
 location: india
-language: 
-   - en
+language:
+  en:
 links:
   website: https://bitcoin4india.org/
   twitter: https://twitter.com/Bitcoin4India
-tags: 
-  - Bitcoiner
-  - General
-  - lightning network
+tags:
+- Bitcoiner
+- General
+- lightning network
+
+# Proofreading metadata
+original: en
+translation_review:
+  en:
+    last_reviewed:
+    next_review_urgency: 0
+    reviewers_id:
+    reward: 1250

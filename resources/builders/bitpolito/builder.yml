@@ -1,11 +1,11 @@
 name: Bitpolito
 category: communities
-address_line_1: Turin, Italy 
-address_line_2: Corso Castelfidardo, 39, 10129 
-address_line_3: 
-language: 
-  - it
-  - en 
+address_line_1: Turin, Italy
+address_line_2: Corso Castelfidardo, 39, 10129
+address_line_3:
+language:
+  it:
+  - en:
 links:
   twitter: https://twitter.com/bitpolito
   github: https://github.com/BitPolito
@@ -13,5 +13,64 @@ links:
   instagram: https://www.instagram.com/bitpolito/?hl=it
 
 tags:
-  - bitcoin-only  
-  - eduaction
+- bitcoin-only
+- eduaction
+
+# Proofreading metadata
+original: en
+translation_review:
+  cs:
+    last_reviewed:
+    next_review_urgency: 1
+    reviewers_id:
+    reward: 3616
+  de:
+    last_reviewed:
+    next_review_urgency: 1
+    reviewers_id:
+    reward: 3058
+  en:
+    last_reviewed:
+    next_review_urgency: 1
+    reviewers_id:
+    reward: 1529
+  es:
+    last_reviewed:
+    next_review_urgency: 1
+    reviewers_id:
+    reward: 3337
+  fi:
+    last_reviewed:
+    next_review_urgency: 1
+    reviewers_id:
+    reward: 3616
+  fr:
+    last_reviewed:
+    next_review_urgency: 1
+    reviewers_id:
+    reward: 3058
+  it:
+    last_reviewed:
+    next_review_urgency: 1
+    reviewers_id:
+    reward: 3337
+  ja:
+    last_reviewed:
+    next_review_urgency: 1
+    reviewers_id:
+    reward: 4174
+  pt:
+    last_reviewed:
+    next_review_urgency: 1
+    reviewers_id:
+    reward: 3058
+  ru:
+    last_reviewed:
+    next_review_urgency: 1
+    reviewers_id:
+    reward: 3616
+  vi:
+    last_reviewed:
+    next_review_urgency: 1
+    reviewers_id:
+    reward: 4174

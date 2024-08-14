@@ -1,6 +1,20 @@
 en_word: BIP50
 related_words:
-  - LEVELDB
-  - BERKELEYDB
+- LEVELDB
+- BERKELEYDB
 tags:
-  - ''
+- ''
+
+# Proofreading metadata
+original: fr
+translation_review:
+  en:
+    last_reviewed:
+    next_review_urgency: 1
+    reviewers_id:
+    reward: 2592
+  fr:
+    last_reviewed:
+    next_review_urgency: 1
+    reviewers_id:
+    reward: 1296

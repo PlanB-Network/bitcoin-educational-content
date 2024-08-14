@@ -1,5 +1,19 @@
 en_word: BIP148
 related_words:
-  - UASF (USER-ACTIVATED SOFT FORK)
+- UASF (USER-ACTIVATED SOFT FORK)
 tags:
-  - ''
+- ''
+
+# Proofreading metadata
+original: fr
+translation_review:
+  en:
+    last_reviewed:
+    next_review_urgency: 1
+    reviewers_id:
+    reward: 2888
+  fr:
+    last_reviewed:
+    next_review_urgency: 1
+    reviewers_id:
+    reward: 1444

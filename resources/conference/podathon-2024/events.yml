@@ -12,8 +12,8 @@
   price_dollars: 0
   description: The 1st year anniversary of Bitcoin Berlin SV, We'll be livestreaming 12hrs in English & Español w special guests & loads of fun from our new podcast studio.
   language: 
-    - en
-    - es
+  en:
+  es:
   links:
     website: https://www.youtube.com/watch?v=KnYTDtEilWE
     replay_url:

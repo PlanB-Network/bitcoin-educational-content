@@ -2,11 +2,20 @@ year: 2017-09
 name: Breaking Bitcoin 2017
 builder: Breaking Bitcoin
 location: Paris, France
-language: 
-  - en
+language:
+  en:
 links:
   website: https://breaking-bitcoin.com/otherPages/2017/2017.html
   twitter: https://twitter.com/breakingbitcoin
-tags: 
-  - Bitcoiner
-  - General
+tags:
+- Bitcoiner
+- General
+
+# Proofreading metadata
+original: en
+translation_review:
+  en:
+    last_reviewed:
+    next_review_urgency: 0
+    reviewers_id:
+    reward: 1250

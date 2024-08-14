@@ -1,10 +1,10 @@
 builder: PlanB Contrubtion
 
 tags:
-  - GitHub
-  - Conference
-  - Replay
-  - PlanB Network
+- GitHub
+- Conference
+- Replay
+- PlanB Network
 
 category: contribution
 
@@ -17,17 +17,17 @@ credits:
 original: fr
 translation_review:
   en:
-      last_reviewed: 
-      next_review_urgency: 1 
-      reviewers_id: 
-      reward: 
+    last_reviewed:
+    next_review_urgency: 1
+    reviewers_id:
+    reward: 5658
   fr:
-      last_reviewed: 
-      next_review_urgency: 1 
-      reviewers_id: 
-      reward: 
+    last_reviewed:
+    next_review_urgency: 1
+    reviewers_id:
+    reward: 2829
   ru:
-      last_reviewed: 
-      next_review_urgency: 1 
-      reviewers_id: 
-      reward: 
+    last_reviewed:
+    next_review_urgency: 1
+    reviewers_id:
+    reward: 8816

@@ -1,19 +1,19 @@
 en_word: BYZANTINE FAULT TOLERANCE (BFT)
 related_words:
-  - BYZANTINE GENERALS PROBLEM
+- BYZANTINE GENERALS PROBLEM
 tags:
-  - ''
+- ''
 
 # Proofreading metadata
 original: fr
 translation_review:
   en:
-      last_reviewed: 
-      next_review_urgency: 1 
-      reviewers_id: 
-      reward: 
+    last_reviewed:
+    next_review_urgency: 1
+    reviewers_id:
+    reward: 2696
   fr:
-      last_reviewed: 
-      next_review_urgency: 1 
-      reviewers_id: 
-      reward: 
+    last_reviewed:
+    next_review_urgency: 1
+    reviewers_id:
+    reward: 1348

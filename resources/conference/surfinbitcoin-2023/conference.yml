@@ -1,23 +1,23 @@
 year: 2023-08
 name: Surfin Bitcoin 2023
 builder: StackinSat
-location: Biarritz, France 
-language: 
+location: Biarritz, France
+language:
   fr:
   en:
 links:
   website: https://surfinbitcoin.com/
   twitter: https://twitter.com/SurfinBitcoin
-tags: 
-  - International
-  - All Public
-  - General
+tags:
+- International
+- All Public
+- General
 
 # Proofreading metadata
 original: en
 translation_review:
   en:
-      last_reviewed: 
-      next_review_urgency: 0 
-      reviewers_id: 
-      reward: 
+    last_reviewed:
+    next_review_urgency: 0
+    reviewers_id:
+    reward: 1250

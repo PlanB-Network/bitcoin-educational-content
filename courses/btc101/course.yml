@@ -24,7 +24,7 @@ hours: 20
 # They are identified by their UUID
 # See /professors folder for examples
 professors:
-  - another-satoshi
+- another-satoshi
 
 # contributors
 # List who is/are the contributors who help format, review,
@@ -32,69 +32,69 @@ professors:
 # They are identified by their UUID
 # Currently, there are no shared record of these UUIDs
 contributors:
-  - another-satoshi
+- another-satoshi
 
 
 # Proofreading metadata
 original: fr
 translation_review:
   cs:
-      last_reviewed: 
-      next_review_urgency: 1 
-      reviewers_id: 
-      reward: 
+    last_reviewed:
+    next_review_urgency: 1
+    reviewers_id:
+    reward: 83672
   de:
-      last_reviewed: 
-      next_review_urgency: 1 
-      reviewers_id: 
-      reward: 
+    last_reviewed:
+    next_review_urgency: 1
+    reviewers_id:
+    reward: 43086
   en:
-      last_reviewed: 
-      next_review_urgency: 1 
-      reviewers_id: 
-      reward: 
+    last_reviewed:
+    next_review_urgency: 1
+    reviewers_id:
+    reward: 43086
   es:
-      last_reviewed: 
-      next_review_urgency: 1 
-      reviewers_id: 
-      reward: 
+    last_reviewed:
+    next_review_urgency: 1
+    reviewers_id:
+    reward: 63379
   fi:
-      last_reviewed: 2024-04-02 
-      next_review_urgency: 1 
-      reviewers_id: 
-        - KryptoKeskus
-      reward: 
+    last_reviewed: 2024-04-02
+    next_review_urgency: 1
+    reviewers_id:
+    - KryptoKeskus
+    reward: 43086
   fr:
-      last_reviewed: 
-      next_review_urgency: 1 
-      reviewers_id: 
-      reward: 
+    last_reviewed:
+    next_review_urgency: 1
+    reviewers_id:
+    reward: 21543
   it:
-      last_reviewed: 2023-10-10
-      next_review_urgency: 1 
-      reviewers_id: 
-        - TinF0ilHat1
-      reward: 
+    last_reviewed: 2023-10-10
+    next_review_urgency: 1
+    reviewers_id:
+    - TinF0ilHat1
+    reward: 32939
   ja:
-      last_reviewed: 2023-12-03
-      next_review_urgency: 1 
-      reviewers_id: 
-        - yutaro21jp
-      reward: 
+    last_reviewed: 2023-12-03
+    next_review_urgency: 1
+    reviewers_id:
+    - yutaro21jp
+    reward: 63379
   pt:
-      last_reviewed: 
-      next_review_urgency: 1 
-      reviewers_id: 
-      reward: 
+    last_reviewed:
+    next_review_urgency: 1
+    reviewers_id:
+    reward: 43086
   ru:
-      last_reviewed: 
-      next_review_urgency: 1 
-      reviewers_id: 
-        - Reshetenko
-      reward: 
+    last_reviewed:
+    next_review_urgency: 1
+    reviewers_id:
+    - Reshetenko
+    reward: 43086
   vi:
-      last_reviewed: 2024-05-05
-      next_review_urgency: 1 
-      reviewers_id: 
-        - Henry-Da0
-      reward: 
+    last_reviewed: 2024-05-05
+    next_review_urgency: 1
+    reviewers_id:
+    - Henry-Da0
+    reward: 63379

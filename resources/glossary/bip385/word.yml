@@ -1,19 +1,19 @@
 en_word: BIP385
 related_words:
-  - OUTPUT SCRIPT DESCRIPTORS
+- OUTPUT SCRIPT DESCRIPTORS
 tags:
-  - ''
+- ''
 
 # Proofreading metadata
 original: fr
 translation_review:
   en:
-      last_reviewed: 
-      next_review_urgency: 1 
-      reviewers_id: 
-      reward: 
+    last_reviewed:
+    next_review_urgency: 1
+    reviewers_id:
+    reward: 2644
   fr:
-      last_reviewed: 
-      next_review_urgency: 1 
-      reviewers_id: 
-      reward: 
+    last_reviewed:
+    next_review_urgency: 1
+    reviewers_id:
+    reward: 1322

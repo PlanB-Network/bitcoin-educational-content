@@ -2,20 +2,20 @@ year: 2014-05
 name: Bitcoin 2014
 builder: bitcoin-foundation
 location: Amsterdam, Netherland
-language: 
+language:
   en:
 links:
   twitter: https://twitter.com/Bitcoin2014
-tags: 
-  - International
-  - All Public
-  - General
+tags:
+- International
+- All Public
+- General
 
 # Proofreading metadata
 original: en
 translation_review:
   en:
-      last_reviewed: 
-      next_review_urgency: 0 
-      reviewers_id: 
-      reward: 
+    last_reviewed:
+    next_review_urgency: 0
+    reviewers_id:
+    reward: 1250

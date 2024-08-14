@@ -6,9 +6,9 @@ links:
   nostr: npub18d4r6wanxkyrdfjdrjqzj2ukua5cas669ew2g5w7lf4a8te7awzqey6lt3
 
 tags:
-  - bitcoin-only
-  - open-source
-  - infrastructure
+- bitcoin-only
+- open-source
+- infrastructure
 
 category: service
 
@@ -16,57 +16,57 @@ category: service
 original: en
 translation_review:
   cs:
-      last_reviewed: 
-      next_review_urgency: 1 
-      reviewers_id: 
-      reward: 
+    last_reviewed:
+    next_review_urgency: 1
+    reviewers_id:
+    reward: 2640
   de:
-      last_reviewed: 
-      next_review_urgency: 1 
-      reviewers_id: 
-      reward: 
+    last_reviewed:
+    next_review_urgency: 1
+    reviewers_id:
+    reward: 2570
   en:
-      last_reviewed: 
-      next_review_urgency: 1 
-      reviewers_id: 
-      reward: 
+    last_reviewed:
+    next_review_urgency: 1
+    reviewers_id:
+    reward: 1285
   es:
-      last_reviewed: 
-      next_review_urgency: 1 
-      reviewers_id: 
-      reward: 
+    last_reviewed:
+    next_review_urgency: 1
+    reviewers_id:
+    reward: 2605
   fi:
-      last_reviewed: 
-      next_review_urgency: 1 
-      reviewers_id: 
-      reward: 
+    last_reviewed:
+    next_review_urgency: 1
+    reviewers_id:
+    reward: 2640
   fr:
-      last_reviewed: 
-      next_review_urgency: 1 
-      reviewers_id: 
-      reward: 
+    last_reviewed:
+    next_review_urgency: 1
+    reviewers_id:
+    reward: 2570
   it:
-      last_reviewed: 
-      next_review_urgency: 1 
-      reviewers_id: 
-      reward: 
+    last_reviewed:
+    next_review_urgency: 1
+    reviewers_id:
+    reward: 2605
   ja:
-      last_reviewed: 
-      next_review_urgency: 1 
-      reviewers_id: 
-      reward: 
+    last_reviewed:
+    next_review_urgency: 1
+    reviewers_id:
+    reward: 2710
   pt:
-      last_reviewed: 
-      next_review_urgency: 1 
-      reviewers_id: 
-      reward: 
+    last_reviewed:
+    next_review_urgency: 1
+    reviewers_id:
+    reward: 2570
   ru:
-      last_reviewed: 
-      next_review_urgency: 1 
-      reviewers_id: 
-      reward: 
+    last_reviewed:
+    next_review_urgency: 1
+    reviewers_id:
+    reward: 2640
   vi:
-      last_reviewed: 
-      next_review_urgency: 1 
-      reviewers_id: 
-      reward: 
+    last_reviewed:
+    next_review_urgency: 1
+    reviewers_id:
+    reward: 2710

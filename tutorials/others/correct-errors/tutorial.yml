@@ -1,9 +1,9 @@
 builder: PlanB Contribution
 
 tags:
-  - GitHub
-  - PlanB Network
-  - Typos
+- GitHub
+- PlanB Network
+- Typos
 
 category: contribution
 
@@ -16,57 +16,57 @@ credits:
 original: fr
 translation_review:
   cs:
-      last_reviewed: 
-      next_review_urgency: 1 
-      reviewers_id: 
-      reward: 
+    last_reviewed:
+    next_review_urgency: 1
+    reviewers_id:
+    reward: 6004
   de:
-      last_reviewed: 
-      next_review_urgency: 1 
-      reviewers_id: 
-      reward: 
+    last_reviewed:
+    next_review_urgency: 1
+    reviewers_id:
+    reward: 4252
   en:
-      last_reviewed: 
-      next_review_urgency: 1 
-      reviewers_id: 
-      reward: 
+    last_reviewed:
+    next_review_urgency: 1
+    reviewers_id:
+    reward: 4252
   es:
-      last_reviewed: 
-      next_review_urgency: 1 
-      reviewers_id: 
-      reward: 
+    last_reviewed:
+    next_review_urgency: 1
+    reviewers_id:
+    reward: 5128
   fi:
-      last_reviewed: 
-      next_review_urgency: 1 
-      reviewers_id: 
-      reward: 
+    last_reviewed:
+    next_review_urgency: 1
+    reviewers_id:
+    reward: 6004
   fr:
-      last_reviewed: 
-      next_review_urgency: 1 
-      reviewers_id: 
-      reward: 
+    last_reviewed:
+    next_review_urgency: 1
+    reviewers_id:
+    reward: 2126
   it:
-      last_reviewed: 
-      next_review_urgency: 1 
-      reviewers_id: 
-      reward: 
+    last_reviewed:
+    next_review_urgency: 1
+    reviewers_id:
+    reward: 5128
   ja:
-      last_reviewed: 
-      next_review_urgency: 1 
-      reviewers_id: 
-      reward: 
+    last_reviewed:
+    next_review_urgency: 1
+    reviewers_id:
+    reward: 7756
   pt:
-      last_reviewed: 
-      next_review_urgency: 1 
-      reviewers_id: 
-      reward: 
+    last_reviewed:
+    next_review_urgency: 1
+    reviewers_id:
+    reward: 4252
   ru:
-      last_reviewed: 
-      next_review_urgency: 1 
-      reviewers_id: 
-      reward: 
+    last_reviewed:
+    next_review_urgency: 1
+    reviewers_id:
+    reward: 6004
   vi:
-      last_reviewed: 
-      next_review_urgency: 1 
-      reviewers_id: 
-      reward: 
+    last_reviewed:
+    next_review_urgency: 1
+    reviewers_id:
+    reward: 7756

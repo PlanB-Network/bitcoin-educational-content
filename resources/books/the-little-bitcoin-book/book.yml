@@ -1,63 +1,64 @@
-author: "Timi Ajiboye, Luis Buenaventura, Alex Gladstein, Lily Liu, Alexander Lloyd, Alejandro Machado, Jimmy Song, Alena Vranova"
+author: "Timi Ajiboye, Luis Buenaventura, Alex Gladstein, Lily Liu, Alexander Lloyd,
+  Alejandro Machado, Jimmy Song, Alena Vranova"
 level: beginner
 tags:
-  - bitcoin
+- bitcoin
 
 # Proofreading metadata
 original: en
 translation_review:
   cs:
-      last_reviewed: 
-      next_review_urgency: 1 
-      reviewers_id: 
-      reward: 
+    last_reviewed:
+    next_review_urgency: 1
+    reviewers_id:
+    reward: 2908
   de:
-      last_reviewed: 
-      next_review_urgency: 1 
-      reviewers_id: 
-      reward: 
+    last_reviewed:
+    next_review_urgency: 1
+    reviewers_id:
+    reward: 2704
   en:
-      last_reviewed: 
-      next_review_urgency: 1 
-      reviewers_id: 
-      reward: 
+    last_reviewed:
+    next_review_urgency: 1
+    reviewers_id:
+    reward: 1352
   es:
-      last_reviewed: 
-      next_review_urgency: 1 
-      reviewers_id: 
-      reward: 
+    last_reviewed:
+    next_review_urgency: 1
+    reviewers_id:
+    reward: 2806
   fi:
-      last_reviewed: 
-      next_review_urgency: 1 
-      reviewers_id: 
-      reward: 
+    last_reviewed:
+    next_review_urgency: 1
+    reviewers_id:
+    reward: 2908
   fr:
-      last_reviewed: 
-      next_review_urgency: 1 
-      reviewers_id: 
-      reward: 
+    last_reviewed:
+    next_review_urgency: 1
+    reviewers_id:
+    reward: 2704
   it:
-      last_reviewed: 
-      next_review_urgency: 1 
-      reviewers_id: 
-      reward: 
+    last_reviewed:
+    next_review_urgency: 1
+    reviewers_id:
+    reward: 2806
   ja:
-      last_reviewed: 
-      next_review_urgency: 1 
-      reviewers_id: 
-      reward: 
+    last_reviewed:
+    next_review_urgency: 1
+    reviewers_id:
+    reward: 3112
   pt:
-      last_reviewed: 
-      next_review_urgency: 1 
-      reviewers_id: 
-      reward: 
+    last_reviewed:
+    next_review_urgency: 1
+    reviewers_id:
+    reward: 2704
   ru:
-      last_reviewed: 
-      next_review_urgency: 1 
-      reviewers_id: 
-      reward: 
+    last_reviewed:
+    next_review_urgency: 1
+    reviewers_id:
+    reward: 2908
   vi:
-      last_reviewed: 
-      next_review_urgency: 1 
-      reviewers_id: 
-      reward: 
+    last_reviewed:
+    next_review_urgency: 1
+    reviewers_id:
+    reward: 3112

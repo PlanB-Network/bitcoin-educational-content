@@ -3,13 +3,13 @@ difficulty: intermediate
 duration: 15
 author: pretty-private
 tags:
-  - Bitcoin
+- Bitcoin
 
 # Proofreading metadata
 original: fr
 translation_review:
   fr:
-      last_reviewed: 
-      next_review_urgency: 1 
-      reviewers_id: 
-      reward: 
+    last_reviewed:
+    next_review_urgency: 1
+    reviewers_id:
+    reward: 1317

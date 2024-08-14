@@ -1,21 +1,21 @@
 year: 2023-03
 name: Bitcoin Alive 2023
-builder: 
+builder:
 location: Sydney; Australia
-language: 
+language:
   en:
 links:
   website: https://bitcoinalive.io/
   twitter: https://twitter.com/BitcoinAlive
-tags: 
-  - Bitcoiner
-  - General
+tags:
+- Bitcoiner
+- General
 
 # Proofreading metadata
 original: en
 translation_review:
   en:
-      last_reviewed: 
-      next_review_urgency: 0 
-      reviewers_id: 
-      reward: 
+    last_reviewed:
+    next_review_urgency: 0
+    reviewers_id:
+    reward: 1250

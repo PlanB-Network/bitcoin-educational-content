@@ -1,19 +1,19 @@
 en_word: TXID (TRANSACTION IDENTIFIER)
 related_words:
-  - WTXID
+- WTXID
 tags:
-  - ''
+- ''
 
 # Proofreading metadata
 original: fr
 translation_review:
   en:
-      last_reviewed: 
-      next_review_urgency: 1 
-      reviewers_id: 
-      reward: 
+    last_reviewed:
+    next_review_urgency: 1
+    reviewers_id:
+    reward: 2692
   fr:
-      last_reviewed: 
-      next_review_urgency: 1 
-      reviewers_id: 
-      reward: 
+    last_reviewed:
+    next_review_urgency: 1
+    reviewers_id:
+    reward: 1346

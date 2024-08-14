@@ -1,19 +1,19 @@
 en_word: VIN
 related_words:
-  - NSEQUENCE
+- NSEQUENCE
 tags:
-  - ''
+- ''
 
 # Proofreading metadata
 original: fr
 translation_review:
   en:
-      last_reviewed: 
-      next_review_urgency: 1 
-      reviewers_id: 
-      reward: 
+    last_reviewed:
+    next_review_urgency: 1
+    reviewers_id:
+    reward: 2814
   fr:
-      last_reviewed: 
-      next_review_urgency: 1 
-      reviewers_id: 
-      reward: 
+    last_reviewed:
+    next_review_urgency: 1
+    reviewers_id:
+    reward: 1407

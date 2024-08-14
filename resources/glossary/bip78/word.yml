@@ -1,19 +1,19 @@
 en_word: BIP78
 related_words:
-  - PAYJOIN
+- PAYJOIN
 tags:
-  - ''
+- ''
 
 # Proofreading metadata
 original: fr
 translation_review:
   en:
-      last_reviewed: 
-      next_review_urgency: 1 
-      reviewers_id: 
-      reward: 
+    last_reviewed:
+    next_review_urgency: 1
+    reviewers_id:
+    reward: 2684
   fr:
-      last_reviewed: 
-      next_review_urgency: 1 
-      reviewers_id: 
-      reward: 
+    last_reviewed:
+    next_review_urgency: 1
+    reviewers_id:
+    reward: 1342

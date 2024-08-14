@@ -1,19 +1,19 @@
 en_word: ANYPREVOUT (APO)
 related_words:
-  - SIGHASH_ANYPREVOUT
+- SIGHASH_ANYPREVOUT
 tags:
-  - ''
+- ''
 
 # Proofreading metadata
 original: fr
 translation_review:
   en:
-      last_reviewed: 
-      next_review_urgency: 1 
-      reviewers_id: 
-      reward: 
+    last_reviewed:
+    next_review_urgency: 1
+    reviewers_id:
+    reward: 2596
   fr:
-      last_reviewed: 
-      next_review_urgency: 1 
-      reviewers_id: 
-      reward: 
+    last_reviewed:
+    next_review_urgency: 1
+    reviewers_id:
+    reward: 1298

@@ -1,77 +1,87 @@
 builder: PlanB Network
 type: Visual Content
 links:
-  download: https://github.com/DecouvreBitcoin/sovereign-university-data/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf
-  view: 
-    - en: https://github.com/DecouvreBitcoin/sovereign-university-data/blob/dev/resources/bet/bip39-wordlist/assets
-    - fr: https://github.com/DecouvreBitcoin/sovereign-university-data/blob/dev/resources/bet/bip39-wordlist/assets
-    - pt: https://github.com/DecouvreBitcoin/sovereign-university-data/blob/dev/resources/bet/bip39-wordlist/assets
-    - es: https://github.com/DecouvreBitcoin/sovereign-university-data/blob/dev/resources/bet/bip39-wordlist/assets
-    - it: https://github.com/DecouvreBitcoin/sovereign-university-data/blob/dev/resources/bet/bip39-wordlist/assets
-    - de: https://github.com/DecouvreBitcoin/sovereign-university-data/blob/dev/resources/bet/bip39-wordlist/assets
-    - ja: https://github.com/DecouvreBitcoin/sovereign-university-data/blob/dev/resources/bet/bip39-wordlist/assets
-    - vi: https://github.com/DecouvreBitcoin/sovereign-university-data/blob/dev/resources/bet/bip39-wordlist/assets
-    - fi: https://github.com/DecouvreBitcoin/sovereign-university-data/blob/dev/resources/bet/bip39-wordlist/assets
+  download: 
+    https://github.com/DecouvreBitcoin/sovereign-university-data/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf
+  view:
+  - en: 
+      https://github.com/DecouvreBitcoin/sovereign-university-data/blob/dev/resources/bet/bip39-wordlist/assets
+  - fr: 
+      https://github.com/DecouvreBitcoin/sovereign-university-data/blob/dev/resources/bet/bip39-wordlist/assets
+  - pt: 
+      https://github.com/DecouvreBitcoin/sovereign-university-data/blob/dev/resources/bet/bip39-wordlist/assets
+  - es: 
+      https://github.com/DecouvreBitcoin/sovereign-university-data/blob/dev/resources/bet/bip39-wordlist/assets
+  - it: 
+      https://github.com/DecouvreBitcoin/sovereign-university-data/blob/dev/resources/bet/bip39-wordlist/assets
+  - de: 
+      https://github.com/DecouvreBitcoin/sovereign-university-data/blob/dev/resources/bet/bip39-wordlist/assets
+  - ja: 
+      https://github.com/DecouvreBitcoin/sovereign-university-data/blob/dev/resources/bet/bip39-wordlist/assets
+  - vi: 
+      https://github.com/DecouvreBitcoin/sovereign-university-data/blob/dev/resources/bet/bip39-wordlist/assets
+  - fi: 
+      https://github.com/DecouvreBitcoin/sovereign-university-data/blob/dev/resources/bet/bip39-wordlist/assets
 tags:
-  - bitcoin
-  - technology
+- bitcoin
+- technology
 contributors:
-  - pretty-private
+- pretty-private
 # Proofreading metadata
 original: en
 translation_review:
   cs:
-      last_reviewed: 
-      next_review_urgency: 1 
-      reviewers_id: 
-      reward: 
+    last_reviewed:
+    next_review_urgency: 1
+    reviewers_id:
+    reward: 2628
   de:
-      last_reviewed: 
-      next_review_urgency: 1 
-      reviewers_id: 
-      reward: 
+    last_reviewed:
+    next_review_urgency: 1
+    reviewers_id:
+    reward: 2564
   en:
-      last_reviewed: 
-      next_review_urgency: 1 
-      reviewers_id: 
-      reward: 
+    last_reviewed:
+    next_review_urgency: 1
+    reviewers_id:
+    reward: 1282
   es:
-      last_reviewed: 
-      next_review_urgency: 1 
-      reviewers_id: 
-      reward: 
+    last_reviewed:
+    next_review_urgency: 1
+    reviewers_id:
+    reward: 2596
   fi:
-      last_reviewed: 
-      next_review_urgency: 1 
-      reviewers_id: 
-      reward: 
+    last_reviewed:
+    next_review_urgency: 1
+    reviewers_id:
+    reward: 2628
   fr:
-      last_reviewed: 
-      next_review_urgency: 1 
-      reviewers_id: 
-      reward: 
+    last_reviewed:
+    next_review_urgency: 1
+    reviewers_id:
+    reward: 2564
   it:
-      last_reviewed: 
-      next_review_urgency: 1 
-      reviewers_id: 
-      reward: 
+    last_reviewed:
+    next_review_urgency: 1
+    reviewers_id:
+    reward: 2596
   ja:
-      last_reviewed: 
-      next_review_urgency: 1 
-      reviewers_id: 
-      reward: 
+    last_reviewed:
+    next_review_urgency: 1
+    reviewers_id:
+    reward: 2692
   pt:
-      last_reviewed: 
-      next_review_urgency: 1 
-      reviewers_id: 
-      reward: 
+    last_reviewed:
+    next_review_urgency: 1
+    reviewers_id:
+    reward: 2564
   ru:
-      last_reviewed: 
-      next_review_urgency: 1 
-      reviewers_id: 
-      reward: 
+    last_reviewed:
+    next_review_urgency: 1
+    reviewers_id:
+    reward: 2628
   vi:
-      last_reviewed: 
-      next_review_urgency: 1 
-      reviewers_id: 
-      reward: 
+    last_reviewed:
+    next_review_urgency: 1
+    reviewers_id:
+    reward: 2692

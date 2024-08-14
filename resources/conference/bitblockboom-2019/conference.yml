@@ -2,20 +2,20 @@ year: 2019-08
 name: Bitblockboom 2019
 builder: Bitblockboom
 location: Dallas, USA
-language: 
+language:
   en:
 links:
   website: https://bitblockboom.com/
   twitter: https://twitter.com/bitblockboom
-tags: 
-  - Bitcoiner
-  - General
+tags:
+- Bitcoiner
+- General
 
 # Proofreading metadata
 original: en
 translation_review:
   en:
-      last_reviewed: 
-      next_review_urgency: 0 
-      reviewers_id: 
-      reward: 
+    last_reviewed:
+    next_review_urgency: 0
+    reviewers_id:
+    reward: 1250

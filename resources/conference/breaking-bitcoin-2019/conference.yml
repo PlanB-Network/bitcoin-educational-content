@@ -2,21 +2,21 @@ year: 2019
 name: Breaking Bitcoin 2019
 builder: breaking-bitcoin
 location: Amsterdam, Netherland
-language: 
+language:
   en:
 links:
   website: https://breaking-bitcoin.com/
   twitter: https://twitter.com/breakingbitcoin
-tags: 
-  - Bitcoiner
-  - security
-  - technical
+tags:
+- Bitcoiner
+- security
+- technical
 
 # Proofreading metadata
 original: en
 translation_review:
   en:
-      last_reviewed: 
-      next_review_urgency: 0 
-      reviewers_id: 
-      reward: 
+    last_reviewed:
+    next_review_urgency: 0
+    reviewers_id:
+    reward: 1250

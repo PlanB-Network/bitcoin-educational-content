@@ -1,20 +1,20 @@
 en_word: OBOE (OFF-BY-ONE ERROR)
 related_words:
-  - DUMMY ELEMENT
-  - BIP147
+- DUMMY ELEMENT
+- BIP147
 tags:
-  - ''
+- ''
 
 # Proofreading metadata
 original: fr
 translation_review:
   en:
-      last_reviewed: 
-      next_review_urgency: 1 
-      reviewers_id: 
-      reward: 
+    last_reviewed:
+    next_review_urgency: 1
+    reviewers_id:
+    reward: 2668
   fr:
-      last_reviewed: 
-      next_review_urgency: 1 
-      reviewers_id: 
-      reward: 
+    last_reviewed:
+    next_review_urgency: 1
+    reviewers_id:
+    reward: 1334

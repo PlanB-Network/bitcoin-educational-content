@@ -370,6 +370,7 @@ https://planb.network/tutorials/others/keepass
 ## Tilien turvaaminen
 <chapterId>7a774b34-aed0-57dd-b8f7-cf3be51c0d70</chapterId>
 https://planb.network/tutorials/others/bitwarden
+https://planb.network/tutorials/others/keepass
 ![video](https://youtu.be/0JHZRALmGY0)
 
 ## Varmuuskopiointiasetukset

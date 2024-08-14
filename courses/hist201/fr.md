@@ -797,20 +797,19 @@ La promotion de Bitcoin est aussi passée par plusieurs étapes : tout d'abord,
 
 À l'automne 2009, il semblait que Bitcoin était prêt à grandir. Et c'est précisément à ce moment-là que l'amorçage économique du système s'est réellement effectué. Ce sujet est l'objet du prochain chapitre.
 
-## L'amorçage de la cryptomonnaie (oct. 2009 -- avr. 2010)
+## L'amorçage de la cryptomonnaie
 
-Nous avons vu dans les chapitres précédents comment Satoshi a pu développer son idée et comment il a su communiquer à son sujet. Dans ce chapitre, nous allons aborder l'étape suivant : l'amorçage économique de Bitcoin.
+Dans les chapitres précédents, nous avons observé comment Satoshi Nakamoto a mis en œuvre son idée et comment il a communiqué à son sujet pour faire connaître Bitcoin au monde. Cependant, tout ne dépendait pas de lui : il fallait également que les gens accordent une valeur à l'unité de compte. Puisque cette dernière permettait de rémunérer les mineurs grâce aux frais de transaction et de récompenser les commerçants grâce à la déflation naturelle, il s'ensuivait qu'une telle appréciation était essentielle à la sécurité du système.
 
-Bitcoin est en effet un système qui fonctionne grâce à une unité de compte du même nom, le bitcoin. Cette unité de compte permet de rémunérer les mineurs grâce aux frais de transaction et les commerçants grâce à la déflation naturelle. Il s'ensuit que sa sécurité repose sur le fait qu'elle possède une valeur.
-
-Cependant, ce n'est pas une chose aisée. Tel que l'expliquait très bien Hal Finney dans son [courriel](https://www.metzdowd.com/pipermail/cryptography/2009-January/015004.html) du 11 janvier 2009 adressé à la *Cryptography mailing list* :
+L'émergence de la valeur du bitcoin n'était en revanche pas une chose aisée. Il s'agissait en effet de donner un importance économique à un objet qui n'en avait pas auparavant, et ce pour des raisons entièrement subjectives. Hal Finney l'expliquait très bien dans son [courriel](https://www.metzdowd.com/pipermail/cryptography/2009-January/015004.html) du 11 janvier 2009 adressé à la *Cryptography mailing list*, où il écrivait :
 
 > « Un des problèmes immédiats avec n'importe quelle nouvelle monnaie est de savoir comment lui donner une valeur. Même en ignorant le problème pratique lié au fait que quasiment personne ne l'acceptera au début, il est toujours difficile de trouver un argument raisonnable justifiant l'attribution d'une valeur non nulle pour les unités. »
 >
 > *original: "One immediate problem with any new currency is how to value it. Even ignoring the practical problem that virtually no one will accept it at first, there is still a difficulty in coming up with a reasonable argument in favor of a particular non-zero value for the coins."*
 
-Il fallait donc une « [étincelle](https://mmalmi.github.io/satoshi/#email-1) » pour lancer la combustion. (*original: "They concede that something is flammable, but
-argue that it'll never burn because there'll never be a spark."*)
+Ainsi, le phénomène monétaire nécessitait une première évaluation qui se fasse pour une raison non monétaire. Comme l'[écrivait](https://mmalmi.github.io/satoshi/#email-1) Satoshi à Martti, il fallait une « étincelle » pour lancer la combustion d'une matériau inflammable. (*original: "They concede that something is flammable, but argue that it'll never burn because there'll never be a spark."*)
+
+Cet amorçage économique de Bitcoin s'est fait peu à peu à partir du lancement avec l'activité du minage. Toutefois, il ne s'est réellement manifesté qu'en octobre 2009 lorsque le premier échange contre du dollar a eu lieu. Dans ce chapitre, nous chercherons à décrire comment cet amorçage s'est passé et quelles ont été les raisons qui ont poussé les différents acteurs à accorder une valeur à l'unité de compte.
 
 ### Les premiers mineurs (2009)
 

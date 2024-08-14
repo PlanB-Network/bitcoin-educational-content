@@ -376,6 +376,7 @@ https://planb.network/tutorials/others/security-key
 ## Criando um gerenciador de senhas
 <chapterId>ed579680-4e7b-5f65-8541-14e519a3b242</chapterId>
 https://planb.network/tutorials/others/bitwarden
+https://planb.network/tutorials/others/keepass
 ![video](https://youtu.be/y7Xkv4E5YmU)
 
 ## Protegendo suas contas

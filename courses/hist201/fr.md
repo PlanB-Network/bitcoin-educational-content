@@ -1157,11 +1157,11 @@ L'effet de la publication du texte de présentation de Bitcoin sur Slashdot a é
 
 Durant les mois qui ont suivi, les améliorations techniques, économiques et minières ont continué à fleurir, faisant de Slashdot le réel point de départ de Bitcoin en tant que mouvement communautaire. Mais c'est au niveau du logiciel et du protocole que les changements ont été les plus importants : il y avait en effet des vulnérabilités majeures qu'il fallait corriger. Le prochain chapitre se concentre sur ces ennuis techniques qui forment une étape cruciale dans le développement de Bitcoin.
 
-## Les premiers ennuis techniques (juil. -- sept. 2010)
+## Les premiers ennuis techniques
 
-L'afflux d'utilisateurs provenant de Slashdot le 11 juillet 2010 a provoqué une grande vague d'intérêt pour le projet de Satoshi Nakamoto. L'utilisation du réseau a explosé. Le taux de change et la puissance de calcul ont été multipliés par 10.
+Comme nous l'avons dit dans le dernier chapitre, l'afflux d'utilisateurs provenant de Slashdot le 11 juillet 2010 a provoqué une grande vague d'intérêt pour le projet de Satoshi Nakamoto. L'utilisation du réseau a explosé ; le taux de change a été multiplié par 10, de même que la puissance de calcul consacrée au système. Bitcoin a ainsi connu une croissance sans précédent au cours de l'été.
 
-Cependant, ce succès s'est accompagné d'ennuis techniques. Une plus grande popularité impliquait en effet un plus grand nombre d'attaquants. Et c'est précisément ce qui s'est manifesté le 15 août avec le *value overflow incident*, la première « panne » de l'histoire de Bitcoin qui a duré environ 15 heures. Cette période est donc marquée par une amélioration du logiciel, en vue d'anticiper les diverses menaces et de corriger les vulnérabilités dans la mesure du possible.
+Cependant, ce succès s'est accompagné d'ennuis techniques, avec la découverte d'un certain nombre de vulnérabilités dans le logiciel. Une plus grande popularité impliquait en effet à la fois un nombre plus important de personnes qui inspectent le code et une probabilité plus élevée d'anomalie de fonctionnement. Et c'est précisément ce qui s'est manifesté le 15 août avec le *value overflow incident*, la première « panne » de l'histoire de Bitcoin qui a duré environ 15 heures. Cette période a donc naturellement été marquée par une amélioration du logiciel, en vue d'anticiper les diverses menaces et de corriger les failles dans la mesure du possible.
 
 ### L'amélioration du logiciel (juil. 2010 -- août 2010)
 

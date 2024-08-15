@@ -74,7 +74,7 @@ Vous pouvez alors entrer votre numéro de compte sur le logiciel pour activer le
 ![MULLVAD VPN](assets/notext/18.webp)
 Pour activer le VPN sur votre application mobile, c'est exactement le processus. Il vous suffit d'entrer votre numéro de compte.
 ![MULLVAD VPN](assets/notext/19.webp)
-## Comment payer Mullvad VPN en Lightning ?
+## Comment payer Mullvad VPN avec Lightning ?
 
 Vous l'aurez compris, Mullvad n'accepte pas encore les paiements via le Lightning Network. Cependant, grâce à une recommandation de [Lounès](https://x.com/louneskmt), j'ai découvert un service informel qui permet de contourner cette limitation. Ce service, disponible sur [vpn.sovereign.engineering](https://vpn.sovereign.engineering/), accepte vos paiements sur Lightning et vous fournit en retour un forfait valide pour Mullvad.
 ![MULLVAD VPN](assets/notext/20.webp)

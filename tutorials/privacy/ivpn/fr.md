@@ -22,7 +22,7 @@ La politique de confidentialité d'IVPN est stricte : aucun renseignement person
 
 IVPN est aussi [entièrement open-source](https://github.com/ivpn), au niveau du logiciel, des applications, et même de leur site web, ce qui permet à chacun de vérifier et d'examiner leur code. Ils se soumettent également à des audits de sécurité indépendants chaque année, dont les résultats sont publiés sur leur site web.
 
-IVPN utilise exclusivement des serveurs autohébergés, ce qui écarte ainsi les risques associés à l'utilisation de services cloud tiers, tels que les hyperscalers AWS, Google Cloud ou Microsoft Azure.
+IVPN utilise exclusivement des serveurs autohébergés, ce qui écarte ainsi les risques associés à l'utilisation de services cloud tiers, tels que AWS, Google Cloud ou Microsoft Azure.
 
 Le service propose de nombreuses fonctionnalités avancées, telles que le multi-hop, qui achemine le trafic via plusieurs serveurs situés dans différentes juridictions pour améliorer l'anonymat. IVPN intègre également un bloqueur de traqueurs et de publicités, et offre la possibilité de choisir parmi différents protocoles de VPN.
 

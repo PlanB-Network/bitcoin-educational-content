@@ -4,7 +4,7 @@ description: Mettre en place son VPN payé en bitcoins
 ---
 ![cover](assets/cover.webp)
 
-Un VPN ("Virtual Private Network") est un service qui établit une connexion sécurisée et chiffrée entre votre téléphone ou ordinateur et un serveur distant géré par le fournisseur de VPN.
+Un VPN ("*Virtual Private Network*") est un service qui établit une connexion sécurisée et chiffrée entre votre téléphone ou ordinateur et un serveur distant géré par le fournisseur de VPN.
 
 Techniquement, lors de la connexion à un VPN, votre trafic Internet est redirigé via un tunnel chiffré vers le serveur VPN. Ce processus rend difficile pour des tiers, tels que les fournisseurs d'accès Internet (FAI) ou des acteurs malveillants, d'intercepter ou de lire vos données. Le serveur VPN agit ensuite comme un intermédiaire qui se connecte au service que vous souhaitez utiliser à votre place. Il attribue à votre connexion une nouvelle adresse IP, ce qui permet de masquer votre adresse IP réelle auprès des sites que vous visitez. Attention, contrairement à ce que laissent penser certaines publicités en ligne, utiliser un VPN ne permet pas de naviguer anonymement sur Internet, car il nécessite une forme de confiance envers le fournisseur de VPN qui peut voir tout votre trafic.
 ![IVPN](assets/fr/01.webp)
@@ -26,7 +26,7 @@ IVPN utilise exclusivement des serveurs autohébergés, ce qui écarte ainsi les
 
 Le service propose de nombreuses fonctionnalités avancées, telles que le multi-hop, qui achemine le trafic via plusieurs serveurs situés dans différentes juridictions pour améliorer l'anonymat. IVPN intègre également un bloqueur de traqueurs et de publicités, et offre la possibilité de choisir parmi différents protocoles de VPN.
 
-Forcément, cette qualité de service a un coût, mais un prix adéquat est souvent un indicateur de qualité et d'honnêteté. Cela peut signaler que l'entreprise dispose d'un business model sans avoir besoin de vendre des données personnelles. IVPN offre alors 2 types de forfaits : le forfait Standard, qui permet de connecter jusqu'à 2 appareils, et le forfait Pro, qui permet jusqu'à 7 connexions et inclut le protocole "Multi-hop" qui permet de router son trafic à travers plusieurs serveurs.
+Forcément, cette qualité de service a un coût, mais un prix adéquat est souvent un indicateur de qualité et d'honnêteté. Cela peut signaler que l'entreprise dispose d'un business model sans avoir besoin de vendre des données personnelles. IVPN offre alors 2 types de forfaits : le forfait Standard, qui permet de connecter jusqu'à 2 appareils, et le forfait Pro, qui permet jusqu'à 7 connexions et inclut le protocole "*Multi-hop*" qui permet de router son trafic à travers plusieurs serveurs.
 
 Contrairement aux fournisseurs de VPN grand public, IVPN fonctionne sur un modèle d'achat de temps d'accès au service, plutôt que sur un abonnement récurrent. Vous payez en bitcoins une seule fois pour la durée choisie. Par exemple, si vous achetez un accès d'un an, vous pourrez utiliser le service pendant cette période, après quoi vous devrez retourner sur le site web d'IVPN pour acheter de nouveau du temps d'accès.
 
@@ -70,21 +70,21 @@ IVPN va ensuite créer votre compte. Vous n'avez besoin de renseigner aucune don
 ![IVPN](assets/notext/09.webp)
 Sur cette même page, choisissez la durée de votre souscription au service.
 ![IVPN](assets/notext/10.webp)
-Puis sélectionnez votre méthode de paiement. Pour ma part, je vais effectuer le paiement via le Lightning Network, je clique donc sur le bouton "Bitcoin".
+Puis sélectionnez votre méthode de paiement. Pour ma part, je vais effectuer le paiement via le Lightning Network, je clique donc sur le bouton "*Bitcoin*".
 ![IVPN](assets/notext/11.webp)
-Vérifiez que tout vous convient puis cliquez sur le bouton "Pay with Lightning".
+Vérifiez que tout vous convient puis cliquez sur le bouton "*Pay with Lightning*".
 ![IVPN](assets/notext/12.webp)
 Une invoice Lightning vous sera présentée sur leur BTCPay Server. Scannez le QR code avec votre portefeuille Lightning et procédez au paiement.
 ![IVPN](assets/notext/13.webp)
-Une fois l'invoice payée, cliquez sur le bouton "Return to IVPN".
+Une fois l'invoice payée, cliquez sur le bouton "*Return to IVPN*".
 ![IVPN](assets/notext/14.webp)
-Votre compte apparaît désormais comme "Active", et vous pouvez voir la date jusqu'à laquelle votre accès au VPN est valide. Après cette date, vous devrez renouveler votre paiement.
+Votre compte apparaît désormais comme "*Active*", et vous pouvez voir la date jusqu'à laquelle votre accès au VPN est valide. Après cette date, vous devrez renouveler votre paiement.
 ![IVPN](assets/notext/15.webp)
 Pour activer votre connexion via IVPN sur votre PC, il suffit de copier votre identifiant de compte.
 ![IVPN](assets/notext/16.webp)
 Et de le coller dans le logiciel précédemment téléchargé.
 ![IVPN](assets/notext/17.webp)
-Puis cliquez sur le bouton "Login".
+Puis cliquez sur le bouton "*Login*".
 ![IVPN](assets/notext/18.webp)
 Cliquez sur la coche pour activer la connexion au VPN, et voilà, le trafic Internet de votre ordinateur est désormais chiffré et routé via un serveur d'IVPN.
 ![IVPN](assets/notext/19.webp)
@@ -102,19 +102,19 @@ Il est aussi possible d'activer ou de désactiver le pare-feu intégré ainsi qu
 ![IVPN](assets/notext/24.webp)
 Pour accéder aux paramètres supplémentaires, cliquez sur l'icône des paramètres.
 ![IVPN](assets/notext/25.webp)
-Dans l'onglet "Account", vous trouverez les paramètres relatifs à votre compte.
+Dans l'onglet "*Account*", vous trouverez les paramètres relatifs à votre compte.
 ![IVPN](assets/notext/26.webp)
-Dans l'onglet "General", il y a plusieurs paramètres du client. Je vous conseille de cocher les options "Launch at login" et "On launch" dans la section "Autoconnect" pour établir automatiquement la connexion avec le VPN dès le démarrage de votre machine.
+Dans l'onglet "*General*", il y a plusieurs paramètres du client. Je vous conseille de cocher les options "*Launch at login*" et "*On launch*" dans la section "*Autoconnect*" pour établir automatiquement la connexion avec le VPN dès le démarrage de votre machine.
 ![IVPN](assets/notext/27.webp)
-Dans l'onglet "Connection", vous trouverez diverses options liées à la connexion. C'est ici que vous pouvez modifier le protocole de VPN utilisé.
+Dans l'onglet "*Connection*", vous trouverez diverses options liées à la connexion. C'est ici que vous pouvez modifier le protocole de VPN utilisé.
 ![IVPN](assets/notext/28.webp)
-L'onglet "IVPN Firewall" vous permet d'activer le pare-feu systématiquement au démarrage de l'ordinateur, ce qui garantie qu'aucune connexion ne s'établisse hors du VPN.
+L'onglet "*IVPN Firewall*" vous permet d'activer le pare-feu systématiquement au démarrage de l'ordinateur, ce qui garantie qu'aucune connexion ne s'établisse hors du VPN.
 ![IVPN](assets/notext/29.webp)
-L'onglet "Split Tunnel" offre la possibilité d'exclure certains logiciels de la connexion VPN. Les applications ajoutées ici continueront de fonctionner avec une connexion internet normale même lorsque le VPN est activé.
+L'onglet "*Split Tunnel*" offre la possibilité d'exclure certains logiciels de la connexion VPN. Les applications ajoutées ici continueront de fonctionner avec une connexion internet normale même lorsque le VPN est activé.
 ![IVPN](assets/notext/30.webp)
-Dans l'onglet "WiFi control", vous avez la possibilité de configurer des actions spécifiques selon les réseaux auxquels vous êtes connecté. Par exemple, vous pouvez définir votre réseau domestique comme "Trusted" et configurer le VPN pour qu'il ne s'active pas sur ce réseau, mais qu'il s'active automatiquement sur tout autre réseau WiFi.
+Dans l'onglet "*WiFi control*", vous avez la possibilité de configurer des actions spécifiques selon les réseaux auxquels vous êtes connecté. Par exemple, vous pouvez définir votre réseau domestique comme "*Trusted*" et configurer le VPN pour qu'il ne s'active pas sur ce réseau, mais qu'il s'active automatiquement sur tout autre réseau WiFi.
 ![IVPN](assets/notext/31.webp)
-Dans le menu "AntiTracker", sélectionnez le profil de blocage pour votre anti-traqueur. Celui-ci est conçu pour bloquer les publicités, les logiciels malveillants et les traqueurs de données en bloquant les requêtes vers les services de suivi lors de votre navigation sur Internet. Cela améliore votre confidentialité en empêchant les entreprises de collecter et de vendre vos données de navigation. Un "Hardcore Mode" est aussi disponible pour bloquer entièrement tous les domaines appartenant à Google et Meta, ainsi que tous les services qui en dépendent.
+Dans le menu "*AntiTracker*", sélectionnez le profil de blocage pour votre anti-traqueur. Celui-ci est conçu pour bloquer les publicités, les logiciels malveillants et les traqueurs de données en bloquant les requêtes vers les services de suivi lors de votre navigation sur Internet. Cela améliore votre confidentialité en empêchant les entreprises de collecter et de vendre vos données de navigation. Un "*Hardcore Mode*" est aussi disponible pour bloquer entièrement tous les domaines appartenant à Google et Meta, ainsi que tous les services qui en dépendent.
 ![IVPN](assets/notext/32.webp)
 Et voilà, vous êtes désormais équipé pour profiter pleinement d'IVPN. Si vous souhaitez également renforcer la sécurité de vos comptes en ligne en utilisant un gestionnaire de mots de passe local, je vous invite à consulter notre tutoriel sur KeePass, une solution gratuite et open-source :
 

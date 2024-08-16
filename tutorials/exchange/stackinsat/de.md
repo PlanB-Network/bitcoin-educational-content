@@ -1,5 +1,5 @@
 ---
-name: StackingSat
+name: StackinSat
 
 description: Anleitung zur Verwendung von Stackinsat
 ---

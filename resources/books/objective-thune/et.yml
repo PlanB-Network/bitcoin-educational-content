@@ -1,8 +1,8 @@
-pealkiri: "Eesmärk Thune"
-avaldamise_aasta: 2016
-kaas: kaas_fr.webp
+title: "Eesmärk Thune"
+publication_year: 2016
+cover: kaas_fr.webp
 originaal: tõene
-kirjeldus: |
+description: |
   
-kaastöötajad:
+contributors:
   - jäneseurg

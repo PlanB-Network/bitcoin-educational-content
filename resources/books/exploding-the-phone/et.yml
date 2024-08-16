@@ -1,12 +1,12 @@
-pealkiri: "Telefoni Lõhkemine"
-avaldamise_aasta: 2013
-kaas: cover_en.webp
-originaal: true
-kirjeldus: |
+title: "Telefoni Lõhkemine"
+publication_year: 2013
+cover: cover_en.webp
+orignal: false
+description: |
   Teoses "Telefoni Lõhkemine: Teismeliste ja Seaduseväljade Lugu, Kes Häkkisid Ma Belli," avab autor Phil Lapsley põneva loo mitmekesiste isikute grupist, kes, ajal enne nutitelefone ja internetti, avastasid, kuidas häkkida maailma suurimat telefonisüsteemi. Alates Alexander Graham Belli "harmoonilise telegraafi" varastest päevadest kuni keerulise masinate ja inimoperaatorite võrgustikuni, mis moodustasid telefonisüsteemi, sukeldub Lapsley pikamaa kommunikatsiooni sünni ja AT&T monopoli tõusu loo sisse.
 
   Põhjaliku uurimistöö kaudu toob Lapsley esile "telefonifriikide" allmaailma, tehnofiilide, pimedate teismeliste, hipide ja seaduseväljade subkultuuri, kes muutsid telefonivõrgu oma elektrooniliseks mänguväljakuks. Ta uurib, kuidas need isikud ära kasutasid Ma Belli süsteemi haavatavusi, tõmmates ligi nii mafioosode tähelepanu, kes soovisid võimude eest põgeneda, kui ka vastukultuuri entusiaste, kes tegelesid telefonihäkkimisega. Raamat sukeldub ka intensiivsesse konflikti friikide, telefonifirma ja FBI vahel.
 
   "Telefoni Lõhkemine" pakub murrangulist ja köitvat aruannet sellest rääkimata loost, toetudes originaaluuringutele, et paljastada telefonihäkkimise salajane maailm ja selle mõju ühiskonnale. See on tunnistus nende leidlikkusest ja julgusest, kes väljakutsusid staatust quo ja muutsid igaveseks telekommunikatsiooni maastikku.
-kaastöötajad:
+contributors:
   - rabbit-hole

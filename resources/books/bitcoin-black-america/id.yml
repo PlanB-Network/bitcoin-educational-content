@@ -1,8 +1,8 @@
-judul: "Bitcoin Black America"
-tahun_publikasi: 2021
-sampul: cover_en.webp
-asli: true
-deskripsi: |
+title: "Bitcoin Black America"
+publication_year: 2021
+cover: cover_en.webp
+orignal: false
+description: |
   
-kontributor:
+contributors:
   - rabbit-hole

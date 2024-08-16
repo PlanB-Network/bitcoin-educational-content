@@ -1,10 +1,10 @@
-judul: "Gödel, Escher, Bach: Sebuah Ikat Emas Abadi"
-tahun_publikasi: 1979
-sampul: cover_en.webp
-asli: true
-deskripsi: |
+title: "Gödel, Escher, Bach: Sebuah Ikat Emas Abadi"
+publication_year: 1979
+cover: cover_en.webp
+orignal: false
+description: |
   "Gödel, Escher, Bach: Sebuah Ikat Emas Abadi," yang diterbitkan pada tahun 1979 oleh Douglas R. Hofstadter, adalah sebuah eksplorasi pemenang Hadiah Pulitzer yang menarik mengenai persimpangan menarik antara matematika, seni, dan musik. Buku ini memberi penghormatan kepada kejeniusan logisi Kurt Gödel, seniman M. C. Escher, dan komposer Johann Sebastian Bach, menjelajahi karya mereka melalui lensa sistem formal dan implikasinya.
 
   Hofstadter dengan cerdik menyilangkan disiplin ilmu ini, menyajikan wawasan unik ke dalam sifat kognisi manusia, kesadaran, dan konsep referensi diri. Dengan menyajikan konsep ilmiah dan filosofis yang kompleks dalam cara yang mudah diakses, Hofstadter telah menciptakan sebuah mahakarya yang melampaui batas-batas disiplin akademik, menjadikannya sajian intelektual untuk berbagai kalangan pembaca.
-kontributor:
+contributors:
   - lubang_kelinci

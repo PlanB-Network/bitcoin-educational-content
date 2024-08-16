@@ -1,8 +1,8 @@
-pealkiri: "Võlg: Esimesed 5000 Aastat"
-avaldamise_aasta: 2011
-kaas: cover_en.webp
-originaal: true
-kirjeldus: |
+title: "Võlg: Esimesed 5000 Aastat"
+publication_year: 2011
+cover: cover_en.webp
+orignal: false
+description: |
   "Võlg: Esimesed 5000 Aastat" autorilt David Graeber on antropoloogiline ja ajalooline analüüs võla kontseptsioonist inimtsivilisatsioonis alates iidsest Sumerist kuni tänapäevani. Autor seab kahtluse alla levinud uskumuse, et võlg on loomulik ja vältimatu osa inimühiskonnast, ning väidab, et seda on kasutatud sotsiaalse kontrolli ja domineerimise vahendina. Raamat pakub mõtlemapanevat perspektiivi võla rollist meie eludes ja selle mõjust sotsiaalsetele ning majandussüsteemidele.
-kaastöötajad:
+contributors:
   - rabbit-hole

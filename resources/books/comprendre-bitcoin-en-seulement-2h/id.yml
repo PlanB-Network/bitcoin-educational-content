@@ -1,8 +1,8 @@
-judul: "Memahami Bitcoin Dalam Hanya 2 Jam"
-tahun_publikasi: 2021
-sampul: cover_fr.webp
-asli: true
-deskripsi: |
+title: "Memahami Bitcoin Dalam Hanya 2 Jam"
+publication_year: 2021
+cover: cover_fr.webp
+orignal: false
+description: |
   
-kontributor:
+contributors:
   - rabbit-hole

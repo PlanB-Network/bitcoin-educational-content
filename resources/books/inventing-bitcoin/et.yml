@@ -1,8 +1,8 @@
-pealkiri: "Bitcoini Leiutamine"
-avaldamise_aasta: 2019
-kaas: cover_en.webp
-originaal: true
-kirjeldus: |
+title: "Bitcoini Leiutamine"
+publication_year: 2019
+cover: cover_en.webp
+orignal: false
+description: |
   
-kaastöötajad:
+contributors:
   - jäneseurg

@@ -1,8 +1,8 @@
-pealkiri: "Kaugtöö"
-avaldamise_aasta: 2013
-kaas: kaas_en.webp
+title: "Kaugtöö"
+publication_year: 2013
+cover: kaas_en.webp
 originaal: tõene
-kirjeldus: |
+description: |
   
-kaastöötajad:
+contributors:
   - jäneseurg

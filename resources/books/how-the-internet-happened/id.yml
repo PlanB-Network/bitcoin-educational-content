@@ -1,8 +1,8 @@
-judul: "Bagaimana Internet Terjadi"
-tahun_publikasi: 2018
-sampul: cover_en.webp
-asli: true
-deskripsi: |
+title: "Bagaimana Internet Terjadi"
+publication_year: 2018
+cover: cover_en.webp
+orignal: false
+description: |
   
-kontributor:
+contributors:
   - lubang kelinci

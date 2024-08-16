@@ -1,8 +1,8 @@
-pealkiri: "Head ööd, Bitcoin"
-avaldamise_aasta: 2018
-kaas: cover_en.webp
-originaal: true
-kirjeldus: |
+title: "Head ööd, Bitcoin"
+publication_year: 2018
+cover: cover_en.webp
+orignal: false
+description: |
   Vahva väike raamat, et avastada bitcoini koos oma lastega :)
-kaastöötajad:
+contributors:
   - rabbit-hole

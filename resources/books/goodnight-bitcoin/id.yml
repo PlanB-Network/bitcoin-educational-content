@@ -1,8 +1,8 @@
-judul: "Selamat Malam Bitcoin"
-tahun_publikasi: 2018
-sampul: cover_en.webp
-asli: true
-deskripsi: |
+title: "Selamat Malam Bitcoin"
+publication_year: 2018
+cover: cover_en.webp
+orignal: false
+description: |
   Sebuah buku kecil yang menyenangkan untuk menjelajahi bitcoin bersama anak-anak Anda :)
-kontributor:
+contributors:
   - rabbit-hole

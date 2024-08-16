@@ -1,8 +1,8 @@
-pealkiri: "Bitcoin Alpha"
-avaldamise_aasta: 2020
-kaas: cover_en.webp
-originaal: true
-kirjeldus: |
+title: "Bitcoin Alpha"
+publication_year: 2020
+cover: cover_en.webp
+orignal: false
+description: |
   
-kaastöötajad:
+contributors:
   - jäneseurg

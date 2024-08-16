@@ -1,8 +1,8 @@
-judul: "Bitcoin Mata Uang Bebas"
-tahun_publikasi: 2014
-sampul: cover_fr.webp
-asli: true
-deskripsi: |
+title: "Bitcoin Mata Uang Bebas"
+publication_year: 2014
+cover: cover_fr.webp
+orignal: false
+description: |
   
-kontributor:
+contributors:
   - lubang_kelinci

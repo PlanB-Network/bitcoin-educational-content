@@ -1,8 +1,8 @@
-pealkiri: "Suur Võlakriis"
-avaldamise_aasta: 2018
-kaas: cover_en.webp
-originaal: true
-kirjeldus: |
+title: "Suur Võlakriis"
+publication_year: 2018
+cover: cover_en.webp
+orignal: false
+description: |
   "Suur Võlakriis" autorilt Ray Dalio on põhjalik uurimus võlakriisidest, mis on mõjutanud majandusi läbi ajaloo. Raamat pakub ülevaadet võlakriiside põhjustest, mehhanismidest ja tulemustest ning selgitab, kuidas nendega toime tulla. See sisaldab juhtumiuuringuid varasematest kriisidest, nagu Suur Depressioon ja 2008. aasta finantskriis, ning pakub praktilist nõu poliitikakujundajatele ja investoritele võlakriiside tõhusaks haldamiseks. Raamat on kirjutatud selges ja ligipääsetavas stiilis edasijõudnud finantsõpingute tudengitele, muutes selle väärtuslikuks ressursiks kõigile, kes on huvitatud võlakriiside dünaamikast ja nende mõjust majandusele.
-kaastöötajad:
+contributors:
   - rabbit-hole

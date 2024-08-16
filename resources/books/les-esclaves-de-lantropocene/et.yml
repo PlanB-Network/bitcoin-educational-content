@@ -1,8 +1,8 @@
-pealkiri: "Antropotseeni orjad"
-avaldamise_aasta: 2019
-kaas: cover_fr.webp
-originaal: true
-kirjeldus: |
+title: "Antropotseeni orjad"
+publication_year: 2019
+cover: cover_fr.webp
+orignal: false
+description: |
   
-kaastöötajad:
+contributors:
   - jäneseurg

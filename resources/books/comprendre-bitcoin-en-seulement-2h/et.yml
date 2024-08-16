@@ -1,8 +1,8 @@
-pealkiri: "Mõista Bitcoini vaid 2 tunniga"
-avaldamise_aasta: 2021
-kaas: cover_fr.webp
-originaal: true
-kirjeldus: |
+title: "Mõista Bitcoini vaid 2 tunniga"
+publication_year: 2021
+cover: cover_fr.webp
+orignal: false
+description: |
   
-kaastöötajad:
+contributors:
   - rabbit-hole

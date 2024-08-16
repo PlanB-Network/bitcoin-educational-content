@@ -1,8 +1,8 @@
-judul: "Indeks Telur Rebus Keras"
-tahun_publikasi: 2021
-sampul: cover_en.webp
-asli: true
-deskripsi: |
+title: "Indeks Telur Rebus Keras"
+publication_year: 2021
+cover: cover_en.webp
+orignal: false
+description: |
   
-kontributor:
+contributors:
   - lubang_kelinci

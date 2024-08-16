@@ -1,8 +1,8 @@
-judul: "Wawancara Market Wizards dengan Para Trader Teratas"
-tahun_publikasi: 1989
-sampul: cover_en.webp
-asli: true
-deskripsi: |
+title: "Wawancara Market Wizards dengan Para Trader Teratas"
+publication_year: 1989
+cover: cover_en.webp
+orignal: false
+description: |
 
-kontributor:
+contributors:
   - rabbit-hole

@@ -1,8 +1,8 @@
-judul: "Dua Belas Empat: 1984"
-tahun_publikasi: 1949
-sampul: cover_en.webp
-asli: true
-deskripsi: |
+title: "Dua Belas Empat: 1984"
+publication_year: 1949
+cover: cover_en.webp
+orignal: false
+description: |
   
-kontributor:
+contributors:
   - lubang_kelinci

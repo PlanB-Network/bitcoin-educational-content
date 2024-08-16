@@ -1,8 +1,8 @@
-judul: "Standar Bitcoin"
-tahun_publikasi: 2018
-sampul: cover_en.webp
-asli: true
-deskripsi: |
+title: "Standar Bitcoin"
+publication_year: 2018
+cover: cover_en.webp
+orignal: false
+description: |
   Standar Bitcoin oleh Saifedean Amous mengeksplorasi sejarah uang dan potensi Bitcoin untuk merevolusi sistem keuangan global. Penulis menyoroti keunggulan Bitcoin, termasuk sifat desentralisasinya dan desain deflasi, yang mendukung stabilitas dan pertumbuhan ekonomi yang berkelanjutan. Amous juga membahas aspek teknis dari Bitcoin dan menanggapi kesalahpahaman umum sambil mempertimbangkan tantangan di masa depan.
-kontributor:
+contributors:
   - rabbit-hole

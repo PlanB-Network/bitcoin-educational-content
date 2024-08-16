@@ -1,8 +1,8 @@
-pealkiri: "Bitcoin lastele"
-avaldamise_aasta: 2019
-kaas: kaas_en.webp
+title: "Bitcoin lastele"
+publication_year: 2019
+cover: kaas_en.webp
 originaal: tõene
-kirjeldus: |
+description: |
   
-kaastöötajad:
+contributors:
   - jäneseurg

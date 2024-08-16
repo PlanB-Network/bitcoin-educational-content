@@ -1,8 +1,8 @@
-judul: "Komputasi Kuantum Sejak Democritus"
-tahun_publikasi: 2013
-sampul: cover_en.webp
-asli: true
-deskripsi: |
+title: "Komputasi Kuantum Sejak Democritus"
+publication_year: 2013
+cover: cover_en.webp
+orignal: false
+description: |
   
-kontributor:
+contributors:
   - lubang_kelinci

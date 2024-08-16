@@ -1,8 +1,8 @@
-pealkiri: "Raha Tekkeloost"
-avaldamise_aasta: 1892
-kaas: cover_en.webp
-originaal: true
-kirjeldus: |
+title: "Raha Tekkeloost"
+publication_year: 1892
+cover: cover_en.webp
+orignal: false
+description: |
   
-kaastöötajad:
+contributors:
   - jäneseurg

@@ -1,8 +1,8 @@
-pealkiri: "Bitcoin ja El Salvador: huvitav eksperiment"
-avaldamise_aasta: 2021
-kaas: cover_fr.webp
-originaal: true
-kirjeldus: |
+title: "Bitcoin ja El Salvador: huvitav eksperiment"
+publication_year: 2021
+cover: cover_fr.webp
+orignal: false
+description: |
   
-kaastöötajad:
+contributors:
   - rabbit-hole

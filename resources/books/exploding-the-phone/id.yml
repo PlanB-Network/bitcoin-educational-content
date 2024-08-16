@@ -1,12 +1,12 @@
-judul: "Meledakkan Telepon"
-tahun_publikasi: 2013
-sampul: cover_en.webp
-asli: true
-deskripsi: |
+title: "Meledakkan Telepon"
+publication_year: 2013
+cover: cover_en.webp
+orignal: false
+description: |
   Dalam "Meledakkan Telepon: Kisah Tak Terungkap dari Remaja dan Penjahat yang Meretas Ma Bell," penulis Phil Lapsley mengungkap kisah menarik dari sekelompok individu yang beragam yang, pada masa sebelum smartphone dan Internet, menemukan cara untuk meretas sistem telepon terbesar di dunia. Dari hari-hari awal "telegraf harmonik" Alexander Graham Bell hingga jaringan mesin canggih dan operator manusia yang membentuk sistem telepon, Lapsley menyelami kelahiran komunikasi jarak jauh dan naiknya monopoli AT&T.
 
   Melalui penelitian yang teliti, Lapsley menerangi dunia bawah "phone phreaks," sebuah subkultur dari penggemar teknologi, remaja buta, hippies, dan penjahat yang mengubah jaringan telepon menjadi taman bermain elektronik mereka. Dia menjelajahi bagaimana individu-individu ini mengeksploitasi kerentanan sistem Ma Bell, menarik perhatian baik dari gangster yang berusaha menghindari otoritas maupun penggemar kontrabudaya yang terlibat dalam peretasan telepon. Buku ini juga menggali konflik intens antara phreaks, perusahaan telepon, dan FBI.
 
   "Meledakkan Telepon" menawarkan sebuah akun yang revolusioner dan menarik dari kisah yang belum diceritakan ini, mengandalkan penelitian asli untuk mengungkap dunia rahasia peretasan telepon dan dampaknya terhadap masyarakat. Ini adalah bukti dari kecerdikan dan keberanian mereka yang menantang status quo dan selamanya mengubah lanskap telekomunikasi.
-kontributor:
+contributors:
   - rabbit-hole

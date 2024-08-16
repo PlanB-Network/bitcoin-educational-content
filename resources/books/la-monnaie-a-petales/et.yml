@@ -1,8 +1,8 @@
-pealkiri: "Kroonlehtede Raha"
-avaldamise_aasta: 2017
-kaas: cover_fr.webp
-originaal: true
-kirjeldus: |
+title: "Kroonlehtede Raha"
+publication_year: 2017
+cover: cover_fr.webp
+orignal: false
+description: |
   
-kaastöötajad:
+contributors:
   - jäneseurg

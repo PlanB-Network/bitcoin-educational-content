@@ -1,10 +1,10 @@
-pealkiri: "Gödel, Escher, Bach: Igavene Kuldne Palmik"
-avaldamise_aasta: 1979
-kaas: cover_en.webp
-originaal: true
-kirjeldus: |
+title: "Gödel, Escher, Bach: Igavene Kuldne Palmik"
+publication_year: 1979
+cover: cover_en.webp
+orignal: false
+description: |
   "Gödel, Escher, Bach: Igavene Kuldne Palmik," mille avaldas 1979. aastal Douglas R. Hofstadter, on Pulitzeri preemiaga pärjatud uurimus matemaatika, kunsti ja muusika huvitavatest ristumiskohtadest. Raamat austab loogik Kurt Gödeli, kunstnik M. C. Escheri ja helilooja Johann Sebastian Bachi geeniust, uurides nende töid formaalsüsteemide ja nende tähenduste kaudu.
 
   Hofstadter põimib oskuslikult neid distsipliine, pakkudes ainulaadseid vaateid inimkognitsiooni, teadvuse ja enesereferentsi kontseptsiooni olemusele. Keerulisi teaduslikke ja filosoofilisi kontseptsioone ligipääsetaval viisil esitledes on Hofstadter loonud meistriteose, mis ületab akadeemiliste distsipliinide piirid, muutes selle intellektuaalseks maiuspalaks laiale lugejaskonnale.
-kaastöötajad:
+contributors:
   - jäneseurg

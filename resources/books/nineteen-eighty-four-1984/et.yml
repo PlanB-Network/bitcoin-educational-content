@@ -1,8 +1,8 @@
-pealkiri: "Üheksateist Kaheksakümmend Neli: 1984"
-avaldamise_aasta: 1949
-kaas: kaas_en.webp
-originaal: true
-kirjeldus: |
+title: "Üheksateist Kaheksakümmend Neli: 1984"
+publication_year: 1949
+cover: kaas_en.webp
+orignal: false
+description: |
   
-kaastöötajad:
+contributors:
   - jäneseurg

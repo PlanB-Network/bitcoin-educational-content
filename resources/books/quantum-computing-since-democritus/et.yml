@@ -1,8 +1,8 @@
-pealkiri: "Kvantarvutus alates Demokritosest"
-avaldamise_aasta: 2013
-kaas: cover_en.webp
-originaal: true
-kirjeldus: |
+title: "Kvantarvutus alates Demokritosest"
+publication_year: 2013
+cover: cover_en.webp
+orignal: false
+description: |
   
 kaastöölised:
   - jäneseurg

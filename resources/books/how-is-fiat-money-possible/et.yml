@@ -1,8 +1,8 @@
-pealkiri: "Kuidas on FIAT raha võimalik"
-avaldamise_aasta: 1988
-kaas: cover_en.webp
-originaal: true
-kirjeldus: |
+title: "Kuidas on FIAT raha võimalik"
+publication_year: 1988
+cover: cover_en.webp
+orignal: false
+description: |
   
-kaastöötajad:
+contributors:
   - jäneseurg

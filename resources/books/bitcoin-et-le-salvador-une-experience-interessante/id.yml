@@ -1,8 +1,8 @@
-judul: "Bitcoin dan El Salvador: Sebuah Eksperimen Menarik"
-tahun_publikasi: 2021
-sampul: cover_fr.webp
-asli: true
-deskripsi: |
+title: "Bitcoin dan El Salvador: Sebuah Eksperimen Menarik"
+publication_year: 2021
+cover: cover_fr.webp
+orignal: false
+description: |
 
-kontributor:
+contributors:
   - rabbit-hole

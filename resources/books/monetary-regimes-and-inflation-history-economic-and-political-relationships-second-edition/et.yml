@@ -1,8 +1,8 @@
-pealkiri: "Raharežiimid ja Inflatsiooni Ajalugu Majanduslikud ja Poliitilised Suhted Teine Väljaanne"
-avaldamise_aasta: 2003
-kaas: cover_en.webp
-originaal: true
-kirjeldus: |
+title: "Raharežiimid ja Inflatsiooni Ajalugu Majanduslikud ja Poliitilised Suhted Teine Väljaanne"
+publication_year: 2003
+cover: cover_en.webp
+orignal: false
+description: |
   
-kaastöötajad:
+contributors:
   - rabbit-hole

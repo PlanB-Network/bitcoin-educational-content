@@ -536,7 +536,6 @@ Fuente: S. Nakamoto, "Bitcoin: Un Sistema de Efectivo Electrónico Peer-to-Peer"
 Por ejemplo, aquí hay una dirección reutilizada en múltiples transacciones:
 
 ```plaintext
-```
 bc1qqtmeu0eyvem9a85l3sghuhral8tk0ar7m4a0a0
 ```
 

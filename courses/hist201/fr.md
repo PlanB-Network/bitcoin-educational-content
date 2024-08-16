@@ -947,9 +947,11 @@ Toutefois, cette question n'a jamais dérangé Satoshi, qui voyait l'amorçage d
 >
 > *Maybe it could get an initial value circularly as you've suggested, by people foreseeing its potential usefulness for exchange. &nbsp;(I would definitely want some) &nbsp;Maybe collectors, any random reason could spark it."*
 
+# Le premier essor de Bitcoin
+
 ## Cartes graphiques, pizzas et bitcoins gratuits
 
-Dans les chapitres précédents, nous avons étudié comment Bitcoin en est venu à exister, comment il a été mis en valeur et comment il a été amorcé économiquement. Au printemps 2010, alors que le commerce en bitcoins bourgeonnait à peine, le but de Satoshi Nakamoto et des quelques personnes qui l'épaulaient était de maintenir la flamme en vie. Heureusement, d'autres individus se sont joints à l'effort, dont notamment le mineur Laszlo Hanyecz et le développeur Gavin Andresen, qui se sont démarqués par leurs actions.
+Dans la partie précédente, nous avons étudié comment Bitcoin en est venu à exister, comment il a été mis en valeur auprès du public et comment il a été amorcé économiquement. Au printemps 2010, alors que le commerce en bitcoins bourgeonnait à peine, le but de Satoshi Nakamoto et des quelques personnes qui l'épaulaient était de maintenir la flamme en vie. Heureusement, d'autres individus se sont joints à l'effort, dont notamment le mineur Laszlo Hanyecz et le développeur Gavin Andresen, qui se sont démarqués par leurs actions.
 
 Dans ce chapitre, nous allons nous intéresser au premier déploiement du minage par processeur graphique (GPU), à la fortune accumulée par Satoshi Nakamoto, au premier achat d'un bien physique en bitcoins, à la mise en place d'un robinet à bitcoins donnant des unités gratuites et à l'évolution du logiciel et du réseau avant Slashdot.
 
@@ -1065,11 +1067,9 @@ Le printemps 2010 a été une période riche en évènements fondateurs. D'abord
 
 Cependant, à la fin du mois de juin, l'activité demeurait assez modeste sur le réseau. Les nouveaux utilisateurs étaient peu nombreux et la flamme du phénomène monétaire avait tout juste de quoi ne pas s'éteindre. Le 30 juin, sur la liste de diffusion bitcoin-list, le cypherpunk James A. Donald (qui ne semblait pas avoir suivi les dernières avancées, ni n'avoir connaissance de l'existence du forum) [déclarait](https://web.archive.org/web/20131016002646/http://sourceforge.net/p/bitcoin/mailman/bitcoin-list/?viewmonth=201006) que « Bitcoin \[était\] en quelque sorte mort ». Même s'il avait tort, son commentaire révélait un manque criant de communication : un nombre trop restreint de personnes avait connaissance du projet, et il fallait faire plus d'efforts dans ce sens. Bitcoin avait « besoin d'une écologie d'utilisateurs pour être utile » et cette masse critique n'était pas encore là. Un évènement irait dans ce sens deux semaines plus tard, ce que nous aborderons dans le prochain chapitre. (*original: "Yes - bitcoin kind of went dead. &nbsp;The trouble is that bitcoin, to be useful, needs an ecology of users."*)
 
-# L'essor de Bitcoin
-
 ## Le grand slashdotting
 
-La partie précédente a été consacrée à la naissance, à la présentation et aux débuts de Bitcoin en tant que système économique. Au début de l'été 2010, en dépit de premiers développements encourageants, Bitcoin reposait sur une base fébrile. Le logiciel comptait peu de développeurs hormis Satoshi Nakamoto. Les mineurs étaient des amateurs sur leur ordinateur personnel. Il existait une vingtaine de services liés à Bitcoin et les échanges effectifs étaient tout aussi rares. Toutefois, les choses allaient changer drastiquement durant la seconde moitié de l'année.
+Au début de l'été 2010, en dépit de premiers développements encourageants, Bitcoin reposait sur une base fébrile. Le logiciel comptait peu de développeurs hormis Satoshi Nakamoto. Les mineurs étaient des amateurs sur leur ordinateur personnel. Il existait une vingtaine de services liés à Bitcoin et les échanges effectifs étaient tout aussi rares. Toutefois, les choses allaient changer drastiquement durant la seconde moitié de l'année.
 
 Dans ce chapitre, nous nous proposons de parler du « grand slashdotting », c'est-à-dire de l'afflux brutal d'utilisateurs qui a suivi la publication d'une présentation de Bitcoin sur le site web populaire Slashdot le 11 juillet 2010. Nous verrons comment ce texte a été amené à exister dans un dernier effort de communication de la part de Satoshi et quels ont été les effets directs qui ont suivi cette popularisation de Bitcoin.
 

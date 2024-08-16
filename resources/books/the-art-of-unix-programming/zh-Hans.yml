@@ -1,0 +1,8 @@
+title: "Unix编程的艺术"
+publication_year: 2003
+cover: cover_en.webp
+original: true
+description: |
+  《Unix编程的艺术》由Eric S. Raymond撰写，是一本中级指南，探讨了Unix编程的哲学、设计原则和实践方面。它涵盖了Unix编程环境、shell脚本编写、系统调用和进程间通信等主题。通过清晰的解释和示例，本书展示了Unix作为编程平台的强大和灵活性，同时强调了简洁性和模块化设计。它还讨论了Unix开发的历史和协作性质。总的来说，它为希望提高Unix编程技能的开发者提供了宝贵的见解。
+contributors:
+  - rabbit-hole

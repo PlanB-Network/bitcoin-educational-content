@@ -397,6 +397,7 @@ https://planb.network/tutorials/others/proton-drive
 <chapterId>8dc08feb-313c-5259-a54f-64aa68a07608</chapterId>
 https://planb.network/tutorials/privacy/ivpn
 https://planb.network/tutorials/privacy/mullvad
+https://planb.network/tutorials/others/tor-browser
 ![video](https://youtu.be/vc6-Ouca09g)
 # Gehen Sie weiter
 <partId>77113cad-a6d8-57e5-b903-50c223b277ba</partId>

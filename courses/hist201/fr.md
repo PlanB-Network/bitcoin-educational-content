@@ -51,8 +51,8 @@ Le projet Bitcoin est enfin l'héritier de l'éthos du mouvement des cypherpunks
 Ce cours est divisé en quatre parties, qui s'intéressent respectivement aux origines de Bitcoin (3 chapitres), à sa lente émergence (4 chapitres), à son essor initial (2 chapitres) et à la formation de sa communauté (3 chapitres). Au total, il comprend 12 chapitres qui sont les suivants (on précise également la période concernée) :
 
 - eCash : l'argent liquide électronique chaumien (1976--1998)
-- Les monnaies privées centralisées avant Bitcoin (1996--2013)
-- Les modèles décentralisés qui ont précédé Bitcoin (1982--2012)
+- Les monnaies numériques privées (1996--2013)
+- Les modèles décentralisés avant Nakamoto (1982--2012)
 - La naissance de Bitcoin (août 2008--janv. 2009)
 - Présenter Bitcoin au monde (janv. 2009--oct. 2009)
 - L'amorçage de la cryptomonnaie (oct. 2009--avr. 2010)
@@ -208,7 +208,7 @@ Avec Bitcoin, Satoshi Nakamoto a créé une monnaie numérique robuste et confid
 >
 > Original: "I think that the Internet is going to be one of the major forces for reducing the role of government. The one thing that's missing, but that will soon be developed, is a reliable e-cash, a method whereby on the internet you can transfer funds from A to B without A knowing B or B knowing A."
 
-## Les monnaies privées centralisées avant Bitcoin
+## Les monnaies numériques privées
 
 Dans le chapitre précédent, nous avons étudié la première forme d'argent liquide électronique qui est issue de l'apparition d'Internet et de la cryptographie moderne : le modèle eCash de David Chaum. Ce dernier a grandement influencé Satoshi Nakamoto et a constitué une étape clé dans le parcours qui a mené à Bitcoin. Mais l'histoire des origines de la cryptomonnaie ne se résume pas à eCash ; elle repose aussi sur les expériences de monnaie privées fonctionnant sur Internet, qui ont été développées à partir de la fin des années 1990.
 
@@ -296,7 +296,7 @@ La fermeture de ces derniers systèmes a été contemporaine de la création et 
 
 C'est à cause de cette fragilité des systèmes centralisés que les partisans de la liberté -- dont notamment les cypherpunks -- ont cherché à créer une monnaie *décentralisée*. Il fallait trouver un moyen d'éviter de faire reposer l'intégralité de l'infrastructure du système sur un point unique. C'est pourquoi plusieurs modèles « minimisant la confiance » ont émergé à la fin des années 1990 et au début des années 2000, avant la découverte de Bitcoin. Le prochain chapitre sera consacré à ces modèles.
 
-## Les modèles décentralisés qui ont précédé Bitcoin
+## Les modèles décentralisés avant Nakamoto
 
 Bitcoin constitue un modèle décentralisé de monnaie numérique. En cela, il évite le recours à un tiers de confiance, qui constituerait un point de défaillance unique du système. Comme l'ont montré les exemples de eCash, des devises en or numérique et de Liberty Reserve, la centralisation d'un système voulant constituer une alternative au système en place mène inévitablement à sa fermeture, d'une façon ou d'une autre.
 

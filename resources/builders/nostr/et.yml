@@ -1,4 +1,4 @@
-kirjeldus: |
+description: |
   Nostr on lihtne, avatud protokoll, mis võimaldab globaalset, detsentraliseeritud ja tsensuurikindlat sotsiaalmeediat.
-kaastöötajad:
+contributors:
   - rabbit-hole

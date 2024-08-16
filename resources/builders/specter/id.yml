@@ -1,8 +1,8 @@
-deskripsi: |
+description: |
   Firmware Specter memungkinkan Anda untuk membangun perangkat penandatanganan yang minim kepercayaan sendiri.
   Ini adalah perangkat lunak sumber terbuka (FOSS) gratis di bawah lisensi MIT.
   Firmware sumber terbuka dan perangkat keras yang tersedia di pasaran, untuk penyimpanan bitcoin yang minim kepercayaan.
 
-kontributor:
+contributors:
   - rabbit-hole
   - another-satoshi

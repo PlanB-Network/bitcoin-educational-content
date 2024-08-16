@@ -1,4 +1,4 @@
-deskripsi: |
+description: |
   Eye of Satoshi adalah sebuah menara pengawas Lightning yang sesuai dengan BOLT13, ditulis dalam Rust.
-kontributor:
+contributors:
   - rabbit-hole

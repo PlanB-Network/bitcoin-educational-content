@@ -1,4 +1,4 @@
-kirjeldus: |
+description: |
    Africa Free Routing on pühendunud Lightning Network'i kasutuselevõtu laiendamisele üle
    Aafrika. Me pakume ettevõtetele tehnoloogiat ja partnerlusi, mis on vajalikud Bitcoin Lightning maksete kiireks ja
    tõhusaks vastuvõtmiseks. Lightning on parim maksesüsteem, mis on loodud
@@ -22,5 +22,5 @@ kirjeldus: |
     korraldamine lightning node'ide käitamise kohta jne, rõhutavad meie pühendumust sellele transformeerivale
     tehnoloogiale. Liitu meiega, et revolutsioneerida makseid üle kogu kontinendi.
     
-kaastöötajad:
+contributors:
   - rabbit-hole

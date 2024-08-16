@@ -1,4 +1,4 @@
-deskripsi: |
+description: |
    Africa Free Routing berdedikasi untuk memperluas adopsi Lightning Network di seluruh
    Afrika. Kami menyediakan bisnis dengan teknologi dan kemitraan yang diperlukan untuk menerima pembayaran Bitcoin Lightning dengan cepat dan efisien. Lightning adalah sistem pembayaran terbaik, dibangun di atas
    Bitcoin, yang merupakan bentuk uang terbaik! Ada begitu banyak hal untuk dicintai, dan kami bersemangat untuk membantu
@@ -21,5 +21,5 @@ deskripsi: |
     webinar tentang menjalankan node lightning, dll, menegaskan komitmen kami terhadap teknologi transformatif
     ini. Bergabunglah dengan kami dalam merevolusi pembayaran di seluruh benua.
     
-kontributor:
+contributors:
   - rabbit-hole

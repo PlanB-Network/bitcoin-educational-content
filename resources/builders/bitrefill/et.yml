@@ -1,5 +1,5 @@
-kirjeldus: |
+description: |
   Bitrefill on juhtiv bitcoin e-kaubanduse pood, mis võimaldab kasutajatel 'Elada krüptorahaga', ostes digitaalseid kinkekaarte ja mobiiltelefoni taaslaadimisi Bitcoin'i või krüptorahaga. Pakume samuti arvete maksmise teenust teatud riikides ja plaanime seda teenust tulevikus veelgi rohkematele riikidele laiendada.
 
-kaastöötajad:
+contributors:
   - rabbit-hole

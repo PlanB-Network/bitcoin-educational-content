@@ -54,7 +54,7 @@ Ce cours est divisé en quatre parties, qui s'intéressent respectivement aux or
 - Les monnaies numériques privées (1996--2013)
 - Les modèles décentralisés avant Nakamoto (1982--2012)
 - La naissance de Bitcoin (août 2008--janv. 2009)
-- Présenter Bitcoin au monde (janv. 2009--oct. 2009)
+- La présentation au monde (janv. 2009--oct. 2009)
 - L'amorçage de la cryptomonnaie (oct. 2009--avr. 2010)
 - Cartes graphiques, pizzas et bitcoins gratuits (avr. 2010--juin 2010)
 - Le grand slashdotting (juin 2010--juil. 2010)
@@ -597,7 +597,7 @@ Ce que nous pouvons retenir de ce récit de la conception de Bitcoin est que cet
 
 Cependant, ce travail n'a pas été suffisant, et il a fallu de la persévérance à Satoshi pour amorcer son système. Dès le début, il savait bien que peu de gens s'étaient penchés sérieusement sur son modèle et qu'il allait être compliqué d'attirer de nouveaux utilisateurs et contributeurs. C'est pourquoi il a essayé de susciter l'enthousiasme en vendant son idée du mieux possible. Nous étudierons cet aspect dans le chapitre suivant, qui couvre une grande partie de l'année 2009.
 
-## Présenter Bitcoin au monde
+## La présentation au monde
 
 Après avoir étudié comment Bitcoin a été conçu et démarré par Satoshi Nakamoto, concentrons-nous sur la façon dont il a été présenté publiquement. Suite à son lancement au début de l'année 2009, le réseau fonctionnait mais les nœuds générateurs étaient peu nombreux (Satoshi minait la grande majorité des blocs) et l'activité était pour ainsi dire inexistante (32 transactions effectives ont eu lieu durant le mois de janvier). Le projet ne disposait que d'un site web rudimentaire et d'une page SourceForge où télécharger le logiciel. En outre, la communication à propos de Bitcoin s'était limitée à la *Metzdowd Cryptography mailing list*, suivie au mieux par quelques centaines de personnes passionnées par la cryptographie.
 

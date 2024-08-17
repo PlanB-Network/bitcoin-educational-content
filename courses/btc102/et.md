@@ -1,7 +1,7 @@
 ---
-nimi: Esimeste bitcoinide hankimine
-eesmärk: Hankida oma esimesed bitcoini mündid ja hoiustada neid turvaliselt Bitcoin rahakotis, kasutades mnemoonilist fraasi ja pärandiplaani.
-eesmärgid:
+name: Esimeste bitcoinide hankimine
+goal: Hankida oma esimesed bitcoini mündid ja hoiustada neid turvaliselt Bitcoin rahakotis, kasutades mnemoonilist fraasi ja pärandiplaani.
+objectives:
   - Uuenda oma veebiturvalisust
   - Mõista Bitcoiniga seotud põhimõisteid
   - Seadista oma esimene rahakott vastavalt oma vajadustele ja ressurssidele

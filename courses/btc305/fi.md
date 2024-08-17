@@ -1551,7 +1551,7 @@ LND-lokien tarkastelu Dockeria käyttäen onnistuu muutamalla tavalla. Kirjaudu 
 sudo su -
 Siirry oikeaan hakemistoon:
 cd btcpayserver-docker
-# Etsi kontin nimi:
+# Etsi kontin name:
 docker ps
 Tulosta lokit kontin nimellä:
 docker logs --tail 100 btcpayserver_lnd_bitcoin

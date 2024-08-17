@@ -1,7 +1,7 @@
 ---
-nimi: Bitcoin'i ja Stablecoin'i Tutvustus
-eesmärk: Süvavaade Bitcoin'i, Stablecoin'ide ja nendega kaasneva suveräänsuse juurde
-eesmärgid:
+name: Bitcoin'i ja Stablecoin'i Tutvustus
+goal: Süvavaade Bitcoin'i, Stablecoin'ide ja nendega kaasneva suveräänsuse juurde
+objectives:
   - Mõistmine raha ajaloolisest evolutsioonist ja peamistest valupunktidest, mis tulenevad meie praegusest finantssüsteemist.
   - Bitcoin'i põhjalik mõistmine, eristades seda traditsioonilistest fiat valuutadest.
   - Stablecoin'ide, eriti Tether'i rolli uurimine finantsstabiilsuses ja sillana Bitcoin'i ning traditsiooniliste fiat valuutade vahel.

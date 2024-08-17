@@ -1,7 +1,7 @@
 ---
-nimi: Bitcoini kaevandamisele sissejuhatus
-eesmärk: Mõista kaevandamistööstuse toimimist praktilise harjutuse kaudu, kasutades uuesti ASIC-e.
-eesmärgid:
+name: Bitcoini kaevandamisele sissejuhatus
+goal: Mõista kaevandamistööstuse toimimist praktilise harjutuse kaudu, kasutades uuesti ASIC-e.
+objectives:
   - Mõista kaevandamise taga olevat teooriat
   - Mõista kaevandamistööstust
   - Muuta S9 küttekehaks
@@ -353,7 +353,7 @@ Antminer S9 koosneb järgmistest osadest:
 Kasutatud masina ostes on oluline kontrollida, et kõik osad on kaasas ja töökorras. Vahetuse ajal peaksite paluma müüjal masina sisse lülitada, et kontrollida selle nõuetekohast toimimist. On oluline kontrollida, et seade lülitub korrektselt sisse, ja seejärel kontrollida internetiühendust, ühendades Etherneti kaabli ja pääsedes Bitmaini sisselogimisliidesesse veebibrauseri kaudu samas kohalikus võrgus. Seda IP-aadressi saate leida, ühendudes oma internetiruuteri liidesega ja otsides ühendatud seadmeid. Sellel aadressil peaks olema järgmine formaat: 192.168.x.x
 
 ![image](assets/guide-achat/8.webp)
-Samuti kontrollige, kas vaikimisi mandaadid toimivad (kasutajanimi: root, parool: root). Kui vaikimisi mandaadid ei tööta, peate masina lähtestama.
+Samuti kontrollige, kas vaikimisi mandaadid toimivad (kasutajaname: root, parool: root). Kui vaikimisi mandaadid ei tööta, peate masina lähtestama.
 ![image](assets/guide-achat/9.webp)
 
 Ühenduse loomisel peaksite nägema iga hashboard'i olekut armatuurlaual. Kui kaevur on ühendatud basseiniga, peaksite nägema kõiki hashboard'e töötamas. On oluline märkida, et kaevurid teevad palju müra, mis on normaalne. Samuti veenduge, et ventilaatorid töötaksid korralikult.
@@ -496,7 +496,7 @@ IP-aadressi oma masinast leiate kasutades BOS tööriistakasti või otse oma ruu
 
 Vaikimisi volitused on samad mis algse operatsioonisüsteemi puhul.
 
-- kasutajanimi: root
+- kasutajaname: root
 - parool: (puudub)
 
 Seejärel tervitab teid Braiins OS+ armatuurlaud.
@@ -677,7 +677,7 @@ Braiins OS+ basseini seadistamiseks peate looma konto ühes teie valitud bassein
 
 Kui olete konto loonud, klõpsake nupul Ühenda Basseiniga
 
-Seejärel kopeerige Stratum aadress ja oma kasutajanimi:
+Seejärel kopeerige Stratum aadress ja oma kasutajaname:
 
 ![image](assets/software/20.webp)
 

@@ -1,7 +1,7 @@
 ---
-nimi: Bitcoin krüptograafia tutvustus
-eesmärk: Mõista Bitcoin rahakoti loomist krüptograafilisest perspektiivist
-eesmärgid:
+name: Bitcoin krüptograafia tutvustus
+goal: Mõista Bitcoin rahakoti loomist krüptograafilisest perspektiivist
+objectives:
   - Demüstifitseerida krüptograafiaga seotud terminoloogiat, mis puudutab Bitcoini.
   - Omandada oskused Bitcoin rahakoti loomiseks.
   - Mõista Bitcoin rahakoti struktuuri.

@@ -353,7 +353,7 @@ Antminer S9 koostuu seuraavista osista:
 Käytettyä konetta ostaessa on tärkeää tarkistaa, että kaikki osat ovat mukana ja toimivat. Vaihdon aikana sinun tulisi pyytää myyjää käynnistämään kone tarkistaaksesi sen toimivuuden. On tärkeää varmistaa, että laite käynnistyy oikein, ja sitten tarkistaa internet-yhteys kytkemällä Ethernet-kaapeli ja pääsemällä Bitmainin kirjautumisliittymään verkkoselaimen kautta samassa paikallisverkossa. Tämän IP-osoitteen löydät yhdistämällä internet-reitittimesi liittymään ja etsimällä yhdistettyjä laitteita. Tämän osoitteen tulisi olla seuraavassa muodossa: 192.168.x.x
 
 ![kuva](assets/guide-achat/8.webp)
-Tarkista myös, että oletusarvoiset tunnukset toimivat (käyttäjänimi: root, salasana: root). Jos oletusarvoiset tunnukset eivät toimi, sinun tarvitsee nollata laite.
+Tarkista myös, että oletusarvoiset tunnukset toimivat (käyttäjäname: root, salasana: root). Jos oletusarvoiset tunnukset eivät toimi, sinun tarvitsee nollata laite.
 ![kuva](assets/guide-achat/9.webp)
 
 Kun olet yhdistänyt, sinun pitäisi pystyä näkemään kunkin hashboardin tila hallintapaneelissa. Jos louhija on yhdistetty pooliin, sinun pitäisi nähdä kaikkien hashboardien toimivan. On tärkeää huomata, että louhijat pitävät paljon melua, mikä on normaalia. Varmista myös, että tuulettimet toimivat kunnolla.
@@ -496,7 +496,7 @@ Voit löytää koneesi IP-osoitteen käyttämällä BOS toolbox -työkalua tai s
 
 Oletustunnukset ovat samat kuin alkuperäisessä käyttöjärjestelmässä.
 
-- käyttäjänimi: root
+- käyttäjäname: root
 - salasana: (ei ole)
 
 Tämän jälkeen sinut toivottaa tervetulleeksi Braiins OS+ -hallintapaneeli.

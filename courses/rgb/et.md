@@ -1,7 +1,7 @@
 ---
-nimi: Sissejuhatus RGB Programmeerimisse
-eesmärk: Õppida RGB programmeerimiskomplekti aluseid ja ehitada oma esimesed RGB rakendused
-eesmärgid:
+name: Sissejuhatus RGB Programmeerimisse
+goal: Õppida RGB programmeerimiskomplekti aluseid ja ehitada oma esimesed RGB rakendused
+objectives:
   - Mõista RGB-d teoreetiliselt
   - Käivitada RGB sõlm
   - Ehitada RGB peale

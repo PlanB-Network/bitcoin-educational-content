@@ -1,7 +1,7 @@
 ---
-nimi: Bitcoin ja BTCPay Server
-eesmärk: Paigalda oma ettevõttele BTCPay Server
-eesmärgid:
+name: Bitcoin ja BTCPay Server
+goal: Paigalda oma ettevõttele BTCPay Server
+objectives:
   - Mõista, mis on btcpayserver.
   - Paigalda ja seadista ise BTCPay Server.
   - Kasuta btcpayserverit oma igapäevases äritegevuses.
@@ -1529,7 +1529,7 @@ LND logidele juurdepääsemiseks Dockeri kasutamisel on mitu võimalust. Esiteks
 sudo su -
 Liikuge õigesse kausta:
 cd btcpayserver-docker
-# Leia konteineri nimi:
+# Leia konteineri name:
 <partId>6f124f36-b51c-5e53-a734-08fb1f20db25</partId>
 docker ps
 Prindi logid konteineri nime järgi:

@@ -1,7 +1,7 @@
 ---
-nimi: Värskenda Oma Veebiturvalisust
-eesmärk: Värskenda parooli ja isikuandmete haldust. Loo varukoopia, kaitse häkkerite eest ja tõsta teadlikkust massilisest jälgimisest.
-eesmärgid:
+name: Värskenda Oma Veebiturvalisust
+goal: Värskenda parooli ja isikuandmete haldust. Loo varukoopia, kaitse häkkerite eest ja tõsta teadlikkust massilisest jälgimisest.
+objectives:
   - Värskendus isikuandmete halduse ja turvalisust tõstvate tööriistade kohta.
   - Rakenda turvaline ja kasutajasõbralik paroolihaldur.
   - Rakenda kahefaktoriline autentimine, et tugevdada turvalisust ja minimeerida häkkimise riske.

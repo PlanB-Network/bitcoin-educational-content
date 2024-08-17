@@ -1,7 +1,7 @@
 ---
-nimi: Bitcoini kogukonna või kohtumise loomine
-eesmärk: Lihtsalt luua ja korraldada Bitcoini kogukond või kohtumine
-eesmärgid:
+name: Bitcoini kogukonna või kohtumise loomine
+goal: Lihtsalt luua ja korraldada Bitcoini kogukond või kohtumine
+objectives:
   - Õppida, kuidas luua kogukonda ja/või Bitcoini kohtumist?
   - Luua oma kogukonnale visuaalne ja digitaalne identiteet ning milliste vahenditega alustada?
   - Teada, kuidas seada oma kogukonnale aastased eesmärgid

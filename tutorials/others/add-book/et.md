@@ -1,6 +1,6 @@
 ---
-nimi: Raamatu lisamine PlanB võrgustikku
-kirjeldus: Kuidas lisada uut raamatut PlanB võrgustikku?
+name: Raamatu lisamine PlanB võrgustikku
+description: Kuidas lisada uut raamatut PlanB võrgustikku?
 ---
 ![raamat](assets/cover.webp)
 
@@ -59,7 +59,7 @@ tags:
 ![raamat](assets/09.webp)
 - Kui olete selle faili muudatustega lõpetanud, salvestage need klõpsates nupul `Commit changes...`:
 ![raamat](assets/10.webp)
-- Lisa oma muudatustele pealkiri ja lühikirjeldus: ![raamat](assets/11.webp)
+- Lisa oma muudatustele pealkiri ja lühidescription: ![raamat](assets/11.webp)
 - Klõpsa rohelisel nupul `Esita muudatused`: ![raamat](assets/12.webp)
 - Seejärel jõuad lehele, mis kokkuvõtlikult kuvab kõik sinu muudatused: ![raamat](assets/13.webp)
 - Klõpsa üleval paremal oma GitHubi profiilipildil, seejärel vali `Sinu Repositooriumid`: ![raamat](assets/14.webp)

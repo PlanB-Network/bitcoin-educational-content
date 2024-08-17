@@ -1,6 +1,6 @@
 ---
-nimi: Panus - Tõlge
-kirjeldus: Kuidas osaleda PlanB Networki saidi tõlkimises?
+name: Panus - Tõlge
+description: Kuidas osaleda PlanB Networki saidi tõlkimises?
 ---
 ![kaas](assets/cover.webp)
 

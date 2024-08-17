@@ -1,6 +1,6 @@
 ---
-nimi: Stonewall
-kirjeldus: Stonewall tehingute mõistmine ja kasutamine
+name: Stonewall
+description: Stonewall tehingute mõistmine ja kasutamine
 ---
 ![kaanepilt stonewall](assets/cover.webp)
 

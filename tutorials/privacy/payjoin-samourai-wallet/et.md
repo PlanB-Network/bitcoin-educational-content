@@ -1,6 +1,6 @@
 ---
-nimi: Payjoin - Samourai Wallet
-kirjeldus: Kuidas teostada Payjoin tehingut Samourai Wallet'is?
+name: Payjoin - Samourai Wallet
+description: Kuidas teostada Payjoin tehingut Samourai Wallet'is?
 ---
 ![samourai payjoin kaas](assets/cover.webp)
 

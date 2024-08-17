@@ -1,7 +1,7 @@
 ---
-nimi: Attakaï
+name: Attakaï
 
-kirjeldus: muudab S9 koduküttesüsteemiks
+description: muudab S9 koduküttesüsteemiks
 ---
 
 ![kaas](assets/cover.webp)
@@ -89,7 +89,7 @@ Antminer S9 koosneb järgmistest osadest:
 Kasutatud masina ostes on oluline kontrollida, et kõik osad on kaasas ja töökorras. Vahetuse käigus peaksite paluma müüjal masina sisse lülitada, et kontrollida selle nõuetekohast toimimist. On tähtis kontrollida, et seade lülituks korrektselt sisse, ja seejärel kontrollida internetiühendust, ühendades Etherneti kaabli ja pääsedes Bitmaini ühendusliidesele veebibrauseri kaudu samas kohalikus võrgus. Selle IP-aadressi leiate, ühendudes oma internetiruuteri liidesega ja otsides ühendatud seadmeid. See aadress peaks olema järgmises formaadis: 192.168.x.x
 ![image](assets/guide-achat/8.webp)
 
-Kontrollige ka, et vaikimisi volitused töötaksid (kasutajanimi: root, parool: root). Kui vaikimisi volitused ei tööta, peate tegema masina lähtestamise.
+Kontrollige ka, et vaikimisi volitused töötaksid (kasutajaname: root, parool: root). Kui vaikimisi volitused ei tööta, peate tegema masina lähtestamise.
 
 ![image](assets/guide-achat/9.webp)
 
@@ -278,7 +278,7 @@ Esmalt ühendage oma masin kohaliku võrgu kaudu:
 
 Sisselogimislehele jõudes peate ASIC-seadmesse sisse logima kasutades vaikimisi volitusi:
 
-- kasutajanimi: root
+- kasutajaname: root
 - parool: root
 
 (Kuidas lähtestada, kui vaikimisi parool ei tööta?)
@@ -370,7 +370,7 @@ Peate ühenduma oma ASIC-iga sarnasel viisil. Kasutades oma seadme kohalikku IP-
 
 Vaikimisi volitused on samad kui algse operatsioonisüsteemi puhul.
 
-- kasutajanimi: root
+- kasutajaname: root
 - parool: root
 
 Seejärel tervitab teid Brains OS+ armatuurlaud.

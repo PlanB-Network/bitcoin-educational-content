@@ -1,7 +1,7 @@
 ---
-nimi: Specter DIY
+name: Specter DIY
 
-kirjeldus: Juhend Specter DIY seadistamiseks
+description: Juhend Specter DIY seadistamiseks
 ---
 
 ![kaas](assets/cover.webp)

@@ -1,7 +1,7 @@
 ---
-nimi: Breez müügipunkt
+name: Breez müügipunkt
 
-kirjeldus: Juhend, kuidas hakata Breez POS-i kasutades bitcoine vastu võtma
+description: Juhend, kuidas hakata Breez POS-i kasutades bitcoine vastu võtma
 ---
 
 ![kaas](assets/cover.webp)

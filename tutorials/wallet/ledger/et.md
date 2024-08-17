@@ -1,7 +1,7 @@
 ---
-nimi: Ledger Nano S
+name: Ledger Nano S
 
-kirjeldus: Kuidas seadistada oma Ledger Nano S seadet
+description: Kuidas seadistada oma Ledger Nano S seadet
 ---
 
 ![pilt](assets/cover.webp)

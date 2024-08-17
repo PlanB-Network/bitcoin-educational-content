@@ -1,6 +1,6 @@
 ---
-nimi: Bitcoin Core Noeud (mac & windows)
-kirjeldus: Paigalda Bitcoin Core Macile või Windowsile
+name: Bitcoin Core Noeud (mac & windows)
+description: Paigalda Bitcoin Core Macile või Windowsile
 ---
 
 Bitcoin Core paigaldamine tavakasutaja arvutisse on võimalik, kuid see pole ideaalne. Kui sul pole midagi selle vastu, et jätta oma arvuti tööle 24/7, siis see töötab hästi. Kui on vaja arvutit välja lülitada, muutub tüütuks oodata tarkvara sünkroniseerimist iga kord, kui selle uuesti sisse lülitad.

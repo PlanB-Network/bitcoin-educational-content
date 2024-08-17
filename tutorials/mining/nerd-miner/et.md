@@ -1,6 +1,6 @@
 ---
-nimi: Nerdminer
-kirjeldus: Alusta bitcoinide kaevandamist võimalusega võita peaaegu 0
+name: Nerdminer
+description: Alusta bitcoinide kaevandamist võimalusega võita peaaegu 0
 ---
 
 ![kaas](assets/cover.webp)

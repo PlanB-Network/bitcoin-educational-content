@@ -1,7 +1,7 @@
 ---
-nimi: Alby
+name: Alby
 
-kirjeldus: Brauserilaiendus Bitcoinile ja LightningNetworkile
+description: Brauserilaiendus Bitcoinile ja LightningNetworkile
 ---
 
 ![kaas](assets/cover.webp)

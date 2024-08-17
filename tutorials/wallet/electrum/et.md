@@ -1,7 +1,7 @@
 ---
-nimi: Electrum
+name: Electrum
 
-kirjeldus: Täielik Electrumi juhend algajast eksperdiks
+description: Täielik Electrumi juhend algajast eksperdiks
 ---
 
 ![kaas](assets/cover.webp)

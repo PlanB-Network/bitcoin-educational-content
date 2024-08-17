@@ -1,6 +1,6 @@
 ---
-nimi: Hariduslike Vahendite Lisamine
-kirjeldus: Kuidas lisada uusi õppematerjale PlanB võrgustikku?
+name: Hariduslike Vahendite Lisamine
+description: Kuidas lisada uusi õppematerjale PlanB võrgustikku?
 ---
 ![sündmus](assets/cover.webp)
 
@@ -76,7 +76,7 @@ links:
 ![event](assets/09.webp)
 - Kui olete selle faili muudatustega valmis, salvestage need, klõpsates nupul `Commit changes...`:
 ![event](assets/10.webp)
-- Lisage oma muudatustele pealkiri ja lühike kirjeldus:
+- Lisage oma muudatustele pealkiri ja lühike description:
 ![event](assets/11.webp)
 - Klõpsake rohelisel nupul `Propose changes`:
 ![event](assets/12.webp)
@@ -174,7 +174,7 @@ Mida me siin teeme, on tulevase lingi etteaimamine teie failile, kui teie ettepa
 ![event](assets/48.webp)
 - Kui olete muudatustega valmis, klõpsake nupul `Commit changes...`:
 ![event](assets/49.webp)
-- Lisage oma muudatustele pealkiri ja lühikirjeldus:
+- Lisage oma muudatustele pealkiri ja lühidescription:
 ![event](assets/50.webp)
 - Klõpsake rohelisel nupul `Commit changes`:
 ![event](assets/51.webp)
@@ -185,7 +185,7 @@ Mida me siin teeme, on tulevase lingi etteaimamine teie failile, kui teie ettepa
 ![event](assets/52.webp)
 - Peaksite nägema teadet, et teie haru on muudetud. Klõpsake nupul `Compare & pull request`:
 ![event](assets/53.webp)
-- Lisage oma PR-ile selge pealkiri ja kirjeldus:
+- Lisage oma PR-ile selge pealkiri ja description:
 ![event](assets/54.webp)
 - Klõpsake nupul `Create pull request`:
 ![event](assets/55.webp)

@@ -1,6 +1,6 @@
 ---
-nimi: Payjoin - Sparrow Wallet
-kirjeldus: Kuidas teha Payjoin tehingut Sparrow Wallet'is?
+name: Payjoin - Sparrow Wallet
+description: Kuidas teha Payjoin tehingut Sparrow Wallet'is?
 ---
 ![õpetuse kaanepilt sparrow payjoin](assets/cover.webp)
 

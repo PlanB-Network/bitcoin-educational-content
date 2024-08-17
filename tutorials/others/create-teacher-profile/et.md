@@ -1,6 +1,6 @@
 ---
-nimi: PlanB Professor
-kirjeldus: Kuidas lisada oma professori profiili PlanB võrgustikku?
+name: PlanB Professor
+description: Kuidas lisada oma professori profiili PlanB võrgustikku?
 ---
 ![kaas](assets/cover.webp)
 

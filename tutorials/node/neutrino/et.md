@@ -1,6 +1,6 @@
 ---
-nimi: Neutrino
-kirjeldus: LND Neutrino paigaldusjuhend
+name: Neutrino
+description: LND Neutrino paigaldusjuhend
 ---
 
 # Raspberry Pi seadistamine LND-ga

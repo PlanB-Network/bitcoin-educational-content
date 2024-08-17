@@ -1,6 +1,6 @@
 ---
-nimi: Panus - Õpetused
-kirjeldus: Kuidas pakkuda välja uut õpetust PlanB võrgustikus?
+name: Panus - Õpetused
+description: Kuidas pakkuda välja uut õpetust PlanB võrgustikus?
 ---
 ![kaas](assets/cover.webp)
 
@@ -141,7 +141,7 @@ description: [Kirjeldus]
 ---
 ```
 ![õpetus](assets/21.webp)
-- Täitke oma õpetuse nimi ja lühikirjeldus:
+- Täitke oma õpetuse nimi ja lühidescription:
 ![õpetus](assets/22.webp)
 - Seejärel lisage oma õpetuse algusesse kaanepilt. Selleks tippige:
 ```markdown

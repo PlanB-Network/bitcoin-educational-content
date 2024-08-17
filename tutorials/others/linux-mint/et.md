@@ -1,7 +1,7 @@
 ---
-nimi: Linux Mint
+name: Linux Mint
 
-kirjeldus: Seadista arvuti bitcoin'i tehingute jaoks
+description: Seadista arvuti bitcoin'i tehingute jaoks
 ---
 
 ![pilt](assets/cover.webp)

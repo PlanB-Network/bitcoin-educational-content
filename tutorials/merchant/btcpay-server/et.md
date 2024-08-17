@@ -1,7 +1,7 @@
 ---
-nimi: BTCpay Server
+name: BTCpay Server
 
-kirjeldus: Juhend oma BTCPay serveri seadistamiseks ja haldamiseks
+description: Juhend oma BTCPay serveri seadistamiseks ja haldamiseks
 
 ---
 

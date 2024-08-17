@@ -1,7 +1,7 @@
 ---
-nimi: Blue Wallet
+name: Blue Wallet
 
-kirjeldus: Radikaalselt Lihtne ja Võimas Bitcoin Rahakott
+description: Radikaalselt Lihtne ja Võimas Bitcoin Rahakott
 ---
 
 ![kaas](assets/cover.webp)
@@ -26,7 +26,7 @@ Selleks, et saada või saata Bitcoini oma mobiiltelefonist (või tahvelarvutist)
 
 Kui rakendus on paigaldatud, looge oma esimene rahakott:
 
-1. Rahakoti nimi: Minu Bitcoin (näiteks)
+1. Rahakoti name: Minu Bitcoin (näiteks)
 2. Tüüp: Bitcoin
 3. Loo
 

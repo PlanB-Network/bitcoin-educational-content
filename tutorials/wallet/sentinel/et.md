@@ -1,6 +1,6 @@
 ---
-nimi: Sentinel Watch-Only
-kirjeldus: Mis on Watch-Only rahakott ja kuidas seda kasutada?
+name: Sentinel Watch-Only
+description: Mis on Watch-Only rahakott ja kuidas seda kasutada?
 ---
 ![kaas](assets/cover.webp)
 

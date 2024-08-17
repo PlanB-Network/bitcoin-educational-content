@@ -1,7 +1,7 @@
 ---
-nimi: Sparrow
+name: Sparrow
 
-kirjeldus: Täielik juhend Sparrow kohta
+description: Täielik juhend Sparrow kohta
 ---
 
 ![kaas](assets/cover.webp)

@@ -1,6 +1,6 @@
 ---
-nimi: RoninDojo v2
-kirjeldus: Oma RoninDojo v2 Bitcoin node'i paigaldamine Raspberry Pi'le
+name: RoninDojo v2
+description: Oma RoninDojo v2 Bitcoin node'i paigaldamine Raspberry Pi'le
 ---
 ![kaanepilt RoninDojo v2](assets/cover.webp)
 

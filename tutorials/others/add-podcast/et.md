@@ -72,7 +72,7 @@ contributors:
 
 - Kui olete selle faili muudatustega lõpetanud, salvestage need, klõpsates nupul `Commit changes...`:
 ![podcast](assets/10.webp)
-- Lisage oma muudatustele pealkiri, samuti lühikirjeldus:
+- Lisage oma muudatustele pealkiri, samuti lühidescription:
 ![podcast](assets/11.webp)
 - Klõpsake rohelisel nupul `Propose changes`:
 ![podcast](assets/12.webp)
@@ -111,7 +111,7 @@ contributors:
 - Lisage oma commit'ile pealkiri ja kirjeldus, seejärel klõpsake nupul `Commit changes`: ![podcast](assets/33.webp)
 - Minge tagasi oma repositooriumi juurkausta: ![podcast](assets/34.webp)
 - Peaksite nägema teadet, mis näitab, et teie haru on muudetud. Klõpsake nupul `Compare & pull request`: ![podcast](assets/35.webp)
-- Lisage oma PR-ile selge pealkiri ja kirjeldus: ![podcast](assets/36.webp)
+- Lisage oma PR-ile selge pealkiri ja description: ![podcast](assets/36.webp)
 - Klõpsake nupul `Create pull request`: ![podcast](assets/37.webp)
 Palju õnne! Teie PR on edukalt loodud. Administraator vaatab selle nüüd üle ja kui kõik on korras, ühendab selle PlanB Networki peamisse repositooriumisse. Teie podcast peaks mõne päeva pärast veebisaidil ilmuma.
 

@@ -1,7 +1,7 @@
 ---
-nimi: Roheline Rahakott
+name: Roheline Rahakott
 
-kirjeldus: Seadistamise ja kasutamise juhend (CC Bistack)
+description: Seadistamise ja kasutamise juhend (CC Bistack)
 ---
 
 ![kaas](assets/cover.webp)

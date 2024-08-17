@@ -1,6 +1,6 @@
 ---
-nimi: OXT - Ahelanalüüs
-kirjeldus: Omanda Bitcoinil põhineva ahelanalüüsi algtõed
+name: OXT - Ahelanalüüs
+description: Omanda Bitcoinil põhineva ahelanalüüsi algtõed
 ---
 ![kaas](assets/cover.webp)
 

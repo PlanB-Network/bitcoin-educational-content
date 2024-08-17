@@ -1,7 +1,7 @@
 ---
-nimi: LN P2P Bot
+name: LN P2P Bot
 
-kirjeldus: Juhend oma LN P2P Bota seadistamiseks
+description: Juhend oma LN P2P Bota seadistamiseks
 ---
 
 ![kaas](assets/cover.webp)

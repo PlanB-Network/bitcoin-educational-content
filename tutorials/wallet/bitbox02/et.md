@@ -1,7 +1,7 @@
 ---
-nimi: BitBox02
+name: BitBox02
 
-kirjeldus: BitBox02 seadistamine ja kasutamine
+description: BitBox02 seadistamine ja kasutamine
 ---
 
 ![kaas](assets/cover.webp)

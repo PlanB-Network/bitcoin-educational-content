@@ -1,7 +1,7 @@
 ---
-nimi: Trezor model One
+name: Trezor model One
 
-kirjeldus: Trezor model One seadistamine ja kasutamine
+description: Trezor model One seadistamine ja kasutamine
 ---
 
 ![kaas](assets/cover.webp)

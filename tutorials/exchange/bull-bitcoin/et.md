@@ -1,7 +1,7 @@
 ---
-nimi: Bull Bitcoin
+name: Bull Bitcoin
 
-kirjeldus: Bull Bitcoin kasutusjuhend
+description: Bull Bitcoin kasutusjuhend
 ---
 
 ![makselahendus](assets/cover.webp)

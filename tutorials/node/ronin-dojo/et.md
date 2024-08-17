@@ -1,7 +1,7 @@
 ---
-nimi: RoninDojo
+name: RoninDojo
 
-kirjeldus: Oma RoninDojo Bitcoin sõlme paigaldamine ja kasutamine.
+description: Oma RoninDojo Bitcoin sõlme paigaldamine ja kasutamine.
 ---
 ***HOIATUS:** Pärast Samourai Walleti asutajate vahistamist ja nende serverite konfiskeerimist 24. aprillil ei ole RoninDojo teatud funktsioonid, nagu Whirlpool, enam töökorras. Siiski on võimalik, et neid tööriistu võidakse järgnevate nädalate jooksul taastada või uuesti käivitada erineval kujul. Kuna RoninDojo kood oli majutatud Samourai GitLabis, mis samuti konfiskeeriti, ei ole hetkel võimalik koodi kaugelt alla laadida. RoninDojo meeskonnad töötavad tõenäoliselt koodi uuesti avaldamise kallal.*
 

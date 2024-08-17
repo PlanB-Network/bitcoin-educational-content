@@ -1,6 +1,6 @@
 ---
-nimi: Panus - Parandus
-kirjeldus: Kuidas parandada viga PlanB võrgustikus?
+name: Panus - Parandus
+description: Kuidas parandada viga PlanB võrgustikus?
 ---
 ![kaas](assets/cover.webp)
 
@@ -28,7 +28,7 @@ Palun pange tähele, et kui plaanite teha dokumendi täieliku ülevaatuse ja rev
 - Kui te pole varem PlanB võrgustiku sisusse panustanud, peate looma oma fork'i algsest repositooriumist. Repositooriumi fork'imine tähendab selle repositooriumi koopia loomist oma GitHubi kontole, mis võimaldab teil projekti kallal töötada, mõjutamata algset repositooriumi. Klõpsake nupul `Fork this repository`: ![kirjavead](assets/08.webp)
 - Jõuate siis GitHubi redigeerimislehele: ![typos](assets/09.webp)- Tehke oma tekstis muudatused, et parandada märgatud vigu. Ärge kartke, te viibite praegu oma enda forkis, nii et see ei muuda hetkel PlanB Networki saidil midagi. Näiteks siin, kujutagem ette, et ma muutsin sõna "entrées", kuna selles oli kirjaviga: ![typos](assets/10.webp)
 - Kui olete selle dokumendi parandused lõpetanud, saate klõpsata rohelisel `Commit Changes...` nupul. Commit on nagu hetktõmmis teie tööst antud hetkel, mis võimaldab hoida muudatuste ajalugu: ![typos](assets/11.webp)
-- Lisage oma muudatustele pealkiri, samuti lühikirjeldus: ![typos](assets/12.webp)
+- Lisage oma muudatustele pealkiri, samuti lühidescription: ![typos](assets/12.webp)
 - Klõpsake rohelisel `Propose changes` nupul: ![typos](assets/13.webp)
 - Jõuate seejärel lehele, mis võtab kokku kõik teie muudatused: ![typos](assets/14.webp)
 - Kerides allapoole, näete tehtud konkreetseid muudatusi: ![typos](assets/15.webp)

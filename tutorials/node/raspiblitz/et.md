@@ -1,6 +1,6 @@
 ---
-nimi: RaspiBlitz
-kirjeldus: Juhend oma RaspiBlitzi seadistamiseks
+name: RaspiBlitz
+description: Juhend oma RaspiBlitzi seadistamiseks
 ---
 
 ![pilt](assets/0.webp)

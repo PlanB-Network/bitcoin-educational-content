@@ -1,7 +1,7 @@
 ---
-nimi: NOSTR
+name: NOSTR
 
-kirjeldus: Avasta ja hakka kasutama NOSTRit
+description: Avasta ja hakka kasutama NOSTRit
 ---
 
 Selle juhendi lõpuks mõistate, mis on Nostr, olete loonud konto ja oskate seda kasutada.

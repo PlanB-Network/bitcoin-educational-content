@@ -1,7 +1,7 @@
 ---
-nimi: Paymium
+name: Paymium
 
-kirjeldus: Sinu Paymium konto seadistamine
+description: Sinu Paymium konto seadistamine
 ---
 
 ![kaas](assets/cover.webp)

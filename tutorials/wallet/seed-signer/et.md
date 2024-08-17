@@ -1,7 +1,7 @@
 ---
-nimi: Seed Signer
+name: Seed Signer
 
-kirjeldus: Teie Seed signer'i seadistamine
+description: Teie Seed signer'i seadistamine
 ---
 
 ![kaas](assets/cover.webp)

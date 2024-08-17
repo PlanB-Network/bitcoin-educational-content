@@ -1,6 +1,6 @@
 ---
-nimi: Stonewall x2
-kirjeldus: Stonewall x2 tehingute mõistmine ja kasutamine
+name: Stonewall x2
+description: Stonewall x2 tehingute mõistmine ja kasutamine
 ---
 ![kaanepilt stonewall x2](assets/cover.webp)
 

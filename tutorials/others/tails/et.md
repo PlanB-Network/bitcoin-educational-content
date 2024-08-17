@@ -1,7 +1,7 @@
 ---
-nimi: Tails
+name: Tails
 
-kirjeldus: Paigalda Tails USB võtmepulgale
+description: Paigalda Tails USB võtmepulgale
 ---
 
 ![pilt](assets/cover.webp)

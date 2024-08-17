@@ -1,7 +1,7 @@
 ---
-nimi: Bitstamp
+name: Bitstamp
 
-kirjeldus: Kuidas kasutada Bitstampi
+description: Kuidas kasutada Bitstampi
 ---
 
 ![kaas](assets/cover.webp)

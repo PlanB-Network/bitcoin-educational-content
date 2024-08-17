@@ -1,6 +1,6 @@
 ---
-nimi: Kaastöö - Ülevaatus
-kirjeldus: Kuidas osaleda PlanB Network'i haridussisu ülevaatamises?
+name: Kaastöö - Ülevaatus
+description: Kuidas osaleda PlanB Network'i haridussisu ülevaatamises?
 ---
 ![github](assets/cover.webp)
 

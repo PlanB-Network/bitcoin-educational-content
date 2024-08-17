@@ -71,7 +71,7 @@ Siin on, mida iga võtme jaoks täita:
 	- `manufacturer` (tootja).
 Näiteks võib teie YAML fail välja näha selline:
 ```yaml
-nimi: Bitcoin Baguette
+name: Bitcoin Baguette
 
 aadress_rida_1: Pariis, Prantsusmaa
 aadress_rida_2:
@@ -176,7 +176,7 @@ contributors:
 ![builder](assets/41.webp)
 - Peaksite nägema sõnumit, mis näitab, et teie harul on toimunud muudatusi. Klõpsake nupul `Compare & pull request`:
 ![builder](assets/42.webp)
-- Lisage oma PR-ile selge pealkiri ja kirjeldus:
+- Lisage oma PR-ile selge pealkiri ja description:
 ![builder](assets/43.webp)
 - Klõpsake nupul `Create pull request`:
 ![builder](assets/44.webp)

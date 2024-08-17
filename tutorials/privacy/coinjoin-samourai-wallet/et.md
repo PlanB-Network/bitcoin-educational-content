@@ -1,6 +1,6 @@
 ---
-nimi: Coinjoin - Samourai Wallet
-kirjeldus: Kuidas teostada coinjoin'i Samourai Wallet'is?
+name: Coinjoin - Samourai Wallet
+description: Kuidas teostada coinjoin'i Samourai Wallet'is?
 ---
 ![kaas](assets/cover.webp)
 

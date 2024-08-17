@@ -1,7 +1,7 @@
 ---
-nimi: BIP47 - PayNym
+name: BIP47 - PayNym
 
-kirjeldus: Kuidas PayNymid töötavad
+description: Kuidas PayNymid töötavad
 ---
 ***HOIATUS:** Pärast Samourai Wallet'i asutajate arreteerimist ja nende serverite konfiskeerimist 24. aprillil ei saa rakendust enam kasutada kasutajad, kellel pole oma Dojot. BIP47 on endiselt kasutatav Sparrow Wallet'is kõikide kasutajate jaoks ja **Samourai Wallet'is ainult kasutajatele, kellel on Dojo**.*
 

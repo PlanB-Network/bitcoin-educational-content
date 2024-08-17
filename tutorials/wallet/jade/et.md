@@ -1,7 +1,7 @@
 ---
-nimi: JADE
+name: JADE
 
-kirjeldus: Kuidas seadistada oma JADE seadet
+description: Kuidas seadistada oma JADE seadet
 ---
 
 ![pilt](assets/cover.webp)

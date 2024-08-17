@@ -1,6 +1,6 @@
 ---
-nimi: Boltzmanni Kalkulaator
-kirjeldus: Mõista entroopia kontseptsiooni ja kuidas Boltzmanni kasutada
+name: Boltzmanni Kalkulaator
+description: Mõista entroopia kontseptsiooni ja kuidas Boltzmanni kasutada
 ---
 ![kaas](assets/cover.webp)
 

@@ -1,6 +1,6 @@
 ---
-nimi: JoinBot
-kirjeldus: JoinBot'i mõistmine ja kasutamine
+name: JoinBot
+description: JoinBot'i mõistmine ja kasutamine
 ---
 
 ![DALL·E – samurai robot punases metsas, 3D renderdus](assets/cover.webp)

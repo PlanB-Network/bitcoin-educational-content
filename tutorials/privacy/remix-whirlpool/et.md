@@ -1,6 +1,6 @@
 ---
-nimi: Remix - Whirlpool
-kirjeldus: Mitu korda peaks Whirlpoolis remixe tegema?
+name: Remix - Whirlpool
+description: Mitu korda peaks Whirlpoolis remixe tegema?
 ---
 ![kaane remix- wp](assets/cover.webp)
 

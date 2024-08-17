@@ -1,6 +1,6 @@
 ---
-nimi: Bitcoin Core Node (linux)
-kirjeldus: Oma sõlme käitamine Bitcoin Core'iga
+name: Bitcoin Core Node (linux)
+description: Oma sõlme käitamine Bitcoin Core'iga
 ---
 
 ![kaas](assets/cover.webp)

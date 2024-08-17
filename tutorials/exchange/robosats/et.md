@@ -1,7 +1,7 @@
 ---
-nimi: Robosats
+name: Robosats
 
-kirjeldus: Kuidas kasutada Robosatsi
+description: Kuidas kasutada Robosatsi
 ---
 
 ![kaas](assets/cover.webp)

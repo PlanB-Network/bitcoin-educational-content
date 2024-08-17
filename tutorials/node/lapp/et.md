@@ -1,6 +1,6 @@
 ---
-nimi: LAPP bitcoin
-kirjeldus: Juhend oma esimese LApp'i arendamiseks
+name: LAPP bitcoin
+description: Juhend oma esimese LApp'i arendamiseks
 ---
 
 Õpi kodeerima oma esimest välgu rakendust
@@ -380,7 +380,7 @@ proovi {
 const invoice = await lnservice.createInvoice({
 lnd,
 tokens: 1000,
-kirjeldus: name,
+description: name,
 });
 if (!!invoice) {
 const p = post.add({

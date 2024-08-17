@@ -1,7 +1,7 @@
 ---
-nimi: Bisq
+name: Bisq
 
-kirjeldus: Kuidas kasutada Bisqi, ühest kasutajast teisele vahetust
+description: Kuidas kasutada Bisqi, ühest kasutajast teisele vahetust
 
 ---
 

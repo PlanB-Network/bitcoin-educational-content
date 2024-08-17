@@ -1,6 +1,6 @@
 ---
-nimi: Vaatetorn
-kirjeldus: Vaatetorni mõistmine ja kasutamine
+name: Vaatetorn
+description: Vaatetorni mõistmine ja kasutamine
 ---
 
 ## Kuidas vaatetornid töötavad?

@@ -1,6 +1,6 @@
 ---
-nimi: GitHubi konto
-kirjeldus: Kuidas luua oma konto GitHubis?
+name: GitHubi konto
+description: Kuidas luua oma konto GitHubis?
 ---
 ![github](assets/cover.webp)
 

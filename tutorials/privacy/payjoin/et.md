@@ -1,6 +1,6 @@
 ---
-nimi: Payjoin
-kirjeldus: Mis on Payjoin Bitcoinil?
+name: Payjoin
+description: Mis on Payjoin Bitcoinil?
 ---
 ![Payjoin thumbnail - steganograafia](assets/cover.webp)
 

@@ -1,7 +1,7 @@
 ---
-nimi: Phoenix
+name: Phoenix
 
-kirjeldus: Seadistage oma Phoenixi rahakott
+description: Seadistage oma Phoenixi rahakott
 ---
 
 ![phoenix](assets/cover.webp)

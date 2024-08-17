@@ -63,7 +63,7 @@ tags:
 Kui teie organisatsioonil ei ole veel "*builder*" identifikaatorit, saate selle lisada [järgides seda teist õpetust](https://planb.network/tutorials/others/add-builder).
 - Kui olete selle faili muutmisega lõpetanud, salvestage muudatused, klõpsates nupul `Commit changes...`:
 ![konverents](assets/10.webp)
-- Lisage oma muudatustele pealkiri, samuti lühike kirjeldus:
+- Lisage oma muudatustele pealkiri, samuti lühike description:
 ![konverents](assets/11.webp)
 - Klõpsake rohelisel nupul `Propose changes`:
 ![konverents](assets/12.webp)
@@ -180,7 +180,7 @@ Esineja: Satoshi Nakamoto
 
 - Kui olete selle faili muudatustega valmis, salvestage need klõpsates nupul `Commit changes...`:
 ![konverents](assets/38.webp)
-- Lisage oma muudatustele pealkiri, samuti lühikirjeldus:
+- Lisage oma muudatustele pealkiri, samuti lühidescription:
 ![konverents](assets/39.webp)
 - Klõpsake nupul `Commit changes`: ![konverents](assets/40.webp)
 - Teie konverentsi kaust peaks nüüd välja nägema selline:
@@ -189,7 +189,7 @@ Esineja: Satoshi Nakamoto
 ![konverents](assets/42.webp)
 - Peaksite nägema sõnumit, mis näitab, et teie haru on läbinud muudatusi. Klõpsake nupul `Compare & pull request`:
 ![konverents](assets/43.webp)
-- Lisage oma PR-ile selge pealkiri ja kirjeldus:
+- Lisage oma PR-ile selge pealkiri ja description:
 ![konverents](assets/44.webp)
 - Klõpsake nupul `Create pull request`:
 ![konverents](assets/45.webp)

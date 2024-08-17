@@ -1,6 +1,6 @@
 ---
-nimi: Ricochet
-kirjeldus: Ricochet tehingute mõistmine ja kasutamine
+name: Ricochet
+description: Ricochet tehingute mõistmine ja kasutamine
 ---
 ![cover ricochet](assets/cover.webp)
 

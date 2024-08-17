@@ -1,7 +1,7 @@
 ---
-nimi: Breez
+name: Breez
 
-kirjeldus: Võimas Lightning rahakott
+description: Võimas Lightning rahakott
 ---
 
 ![kaas](assets/cover.webp)

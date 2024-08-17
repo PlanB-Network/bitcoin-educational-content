@@ -1,7 +1,7 @@
 ---
-nimi: Liana
+name: Liana
 
-kirjeldus: Kuidas seadistada oma Liana rahakotti
+description: Kuidas seadistada oma Liana rahakotti
 ---
 
 ![kaas](assets/cover.webp)

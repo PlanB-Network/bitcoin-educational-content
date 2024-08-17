@@ -1,7 +1,7 @@
 ---
-nimi: Cold Card
+name: Cold Card
 
-kirjeldus: Bitcoini privaatvõtme loomine, varundamine ja kasutamine Coldcard seadmega ja Bitcoin Core'iga
+description: Bitcoini privaatvõtme loomine, varundamine ja kasutamine Coldcard seadmega ja Bitcoin Core'iga
 ---
 
 ![kaas](assets/cover.webp)

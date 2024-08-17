@@ -1,7 +1,7 @@
 ---
-nimi: Ookeani Kaevandamine
+name: Ookeani Kaevandamine
 
-kirjeldus: Sissejuhatus Ookeani Kaevandamisse
+description: Sissejuhatus Ookeani Kaevandamisse
 ---
 
 ![signup](assets/cover.webp)

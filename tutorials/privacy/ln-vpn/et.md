@@ -1,7 +1,7 @@
 ---
-nimi: LN VPN
+name: LN VPN
 
-kirjeldus: Seadista oma VPN
+description: Seadista oma VPN
 ---
 
 ![pilt](assets/cover.webp)

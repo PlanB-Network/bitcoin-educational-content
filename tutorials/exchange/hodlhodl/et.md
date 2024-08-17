@@ -1,7 +1,7 @@
 ---
-nimi: HODL HODL
+name: HODL HODL
 
-kirjeldus: Samm-sammult juhend HODLHODL-i kasutamiseks
+description: Samm-sammult juhend HODLHODL-i kasutamiseks
 ---
 
 ![pilt](assets/cover.webp)

@@ -20,9 +20,11 @@ Alustamiseks ei ole vaja mingeid eriteadmisi, kursus on kõigile kättesaadav!
 +++
 
 # Sissejuhatus
+
 <partId>3cd2ac82-026c-53e1-874a-baf5842adc6d</partId>
 
 ## Hüpe Tundmatusse
+
 <chapterId>27e3fb60-4b50-556b-9e70-c4f5475c121d</chapterId>
 
 ### Tere tulemast uude rahalisse ja tehnoloogilisse paradigmasse.
@@ -79,6 +81,7 @@ Enne kui arutleme raha määratluse ja toimimise üle ühiskonnas (1. peatükk),
 Siin on peamine mõista seda uut tehnoloogiat üldisel viisil. Loodame, et see koolitus meeldib teile ja annab teile vajaliku aluse, et mõista ja ehk edasi areneda selles uues globaalses rahandusparadigmas.
 
 ## Bitcoini eellugu
+
 <chapterId>9a94b627-5b69-5d81-9125-f1fa9b0aa6ad</chapterId>
 
 Enne kui termin "Bitcoin" sai sünonüümiks digitaalsele valuutale ja finantstransformatsioonile, panid ideede, innovatsioonide ja sotsiaalsete liikumiste seeria aluse selle loomisele. Üks Bitcoini eelloo põhielemente on küberpunk liikumine.
@@ -103,7 +106,7 @@ Küberpunk liikumine, oma sügavate juurtega digitaalses aktivismis ja krüptogr
   Kirjutatud Timothy C. May poolt 1992. aastal, selgitab see manifest, kuidas krüptograafia kasutamine võib viia krüptograafilise anarhia ajastuni, kus valitsused oleksid jõuetud sekkuma kodanike eraellu. May kujutas ette tulevikku, kus informatsiooni, raha ja sõnumeid saaks vahetada ilma kolmanda osapoole sekkumiseta ja anonüümselt.
 
 - "Küberruumi Iseseisvusdeklaratsioon":
-Kuigi see tekst ei ole ainult küberpunkidele omase sisuga, peegeldab see paljude liikumises osalejate tundeid. John Perry Barlow kirjutas selle 1996. aastal vastusena Interneti üha suuremale reguleerimisele valitsuste poolt. Deklaratsioon väidab, et küberruum on eraldiseisev valdkond füüsilisest sfäärist ja ei peaks alluma samadele seadustele. Selles öeldakse: "Meil ei ole valitud valitsust ja meid ei saa valitseda."
+  Kuigi see tekst ei ole ainult küberpunkidele omase sisuga, peegeldab see paljude liikumises osalejate tundeid. John Perry Barlow kirjutas selle 1996. aastal vastusena Interneti üha suuremale reguleerimisele valitsuste poolt. Deklaratsioon väidab, et küberruum on eraldiseisev valdkond füüsilisest sfäärist ja ei peaks alluma samadele seadustele. Selles öeldakse: "Meil ei ole valitud valitsust ja meid ei saa valitseda."
 
 ### Bitcoini eelkäijad
 
@@ -126,9 +129,11 @@ Seega on Bitcoin protokoll, mis hõlmab pikki ajaperioode ja julgustab meid küs
 ![Bitcoini eellugu](assets/posters/fr/1_prehistoiredubitcoin.webp)
 
 # Raha
+
 <partId>e913df1a-4cbd-5380-ba67-ca2a0414f671</partId>
 
 ## Raha läbi ajaloo
+
 <chapterId>c838e64d-d59f-5703-8c74-ea5e8c4fdd31</chapterId>
 
 Raha areng on inimajaloo üks põnevatest aspektidest, peegeldades tsivilisatsioonide leidlikkust läbi aegade, et vastata pidevalt muutuvatele majanduslikele vajadustele.
@@ -145,6 +150,7 @@ Tsivilisatsioonide arenedes ja kaubanduse laienedes uutele piirkondadele tekkis 
 ### Mis on raha roll?
 
 Raha on väga keerukas suhtlusvahend:
+
 - See võimaldab suhtlust oleviku ja tuleviku vahel. Muundame oma aja ja energia varaks, mida saab tulevikus uuesti kasutada ilma väärtuse languse riskita.
 - See võimaldab suhtlust universaalses ühises keeles. Tundmata teineteist, rääkimata samas keeles, võivad kaks võõrast vahetada, kaubelda ja kokku leppida asjade väärtuses.
 
@@ -189,6 +195,7 @@ Teisest küljest pakub Bitcoin uusi võimalusi. Oma omaduste, nagu rangelt piira
 ![v](assets/posters/en/3._money.webp)
 
 ## Usalduspõhised valuutad
+
 <chapterId>25151d46-7db1-5b48-8bba-cbde1944555a</chapterId>
 
 "Need, kes ei õpi ajaloost, on määratud kordama samu vigu," ütles George Santayana. Tõde, mis kõlab eriti resonantselt praeguse rahandussüsteemi kontekstis.
@@ -235,6 +242,7 @@ Selle peatüki võime kokku võtta Nobeli preemia laureaadi F.A Hayeki tsitaadig
 ![Alt text](assets/posters/en/4._fiat_currency.webp)
 
 ## Hüperinflatsioon
+
 <chapterId>b04c024c-54f3-50cb-997f-58721cfc74be</chapterId>
 
 Hüperinflatsioon on fiat-valuutadele spetsiifiline rahandusnähtus. Seda iseloomustab täielik usalduse kaotus valuuta vastu ja inflatsiooni drastiline kasvamine läbi ametivõimude rahatrüki. Selle tulemusena võivad üksikisikute kogutud säästud suhteliselt lühikese aja jooksul haihtuda, lükates riigi majandusliku, sotsiaalse ja poliitilise kokkuvarisemise äärele.
@@ -299,14 +307,14 @@ Hüperinflatsioonikriisi lahendamine nõuab sageli radikaalseid muudatusi, nagu 
 ![image](assets/en/chapter3/6.webp)
 
 - Zimbabwe, 2007-2008
-  
+
   Kuni aastani 2000 oli Zimbabwe peaaegu kõigi oma vajaduste osas isemajandav, välja arvatud nafta.
 
   1997. aastal kukkus Zimbabwe dollar pärast seda, kui valitsus nõustus kompenseerima sõjaveterane summaga, mis võrdus 450 miljoni USA dollariga, enam kui 72% võrra. Kuna valitsusel sellist summat ei olnud, pidi see kasutama trükimasinat. 2005. aastal jõudis inflatsioon 586%-ni ja märtsis 2007 jõudis kuine inflatsioon 50%-ni.
 
   Juunis 2007 reageeris valitsus, kehtestades hinnakontrolli. Poed rüüstati sõna otseses mõttes. Kaupmehed ei suutnud enam oma poode varudega täita.
-Aprillis 2009 teatas rahandusminister Zimbabwe dollari kasutamise peatamisest ja lubas kaubanduses kasutada erinevaid välisvaluutasid. Kõik pangakontod, pensionid ja finantsasutused nägid oma saldod üleöö aurustumas.
-![image](assets/en/chapter3/7.webp)
+  Aprillis 2009 teatas rahandusminister Zimbabwe dollari kasutamise peatamisest ja lubas kaubanduses kasutada erinevaid välisvaluutasid. Kõik pangakontod, pensionid ja finantsasutused nägid oma saldod üleöö aurustumas.
+  ![image](assets/en/chapter3/7.webp)
 
 Kokkuvõttes on hüperinflatsioonil mõju valuuta väärtuse kiirele degradeerumisele, viies säästude erosioonini ja usalduse kaotamiseni rahandussüsteemi. Nagu Voltaire kunagi vihjas, kaotab fiat-valuuta alati lõpuks oma sisemise väärtuse ja lähendub nulli suunas.
 'Valuuta, mis sõltub usaldusväärsest kolmandast osapoolest nagu finantsasutus, on praktikas ja pikas perspektiivis defektne valuuta, kuna see ei suuda tagada ostujõudu ega säilitada sääste.
@@ -316,6 +324,7 @@ Kokkuvõttes on hüperinflatsioonil mõju valuuta väärtuse kiirele degradeerum
 ![Alt text](assets/posters/en/5._hyperinflation.webp)
 
 ## 21 miljonit bitcoini
+
 <chapterId>f4a06d76-1963-56fd-93ff-dfa41489bcde</chapterId>
 
 ### Bitcoini rahapoliitika
@@ -334,28 +343,28 @@ Uute bitcoinide loomine on tulemus kaevandamisprotsessist, protseduurist tehingu
 
 Kaevurid, kes seda ülesannet täidavad, saavad iga kümne minuti järel preemiaks uusi bitcoine. See preemia on programmeeritud poole võrra vähenema iga 210 000 ploki järel, mis on umbes iga nelja aasta tagant, sündmust tuntakse kui "poolitamist" -- andes rahalise väljaande kõverale trepi-kujulise kuju. Tänu sellele poolitamismehhanismile saab matemaatiliselt ennustada, et bitcoinide loomine lõpeb 2140. aastal, kui bitcoini koguarv jõuab oma piirini 21 miljonit.
 
-| Poolitamise number | Ploki kõrgus | BTC preemia pärast poolitamist  | Hinnanguline BTC ringluses pärast poolitamist |
-| ------------------ | ------------ | ------------------------------ | -------------------------------------------- |
-| 1                  | 210,000      | 25 BTC                         | 10,500,000 BTC                               |
-| 2                  | 420,000      | 12.5 BTC                       | 15,750,000 BTC                               |
-| 3                  | 630,000      | 6.25 BTC                       | 18,375,000 BTC                               |
-| 4                  | 840,000      | 3.125 BTC                      | 19,687,500 BTC                               |
-| 5                  | 1,050,000    | 1.5625 BTC                     | 20,343,750 BTC                               |
-| 6                  | 1,260,000    | 0.78125 BTC                    | 20,671,875 BTC                               |
-| 7                  | 1,470,000    | 0.390625 BTC                   | 20,835,937.5 BTC                             |
-| 8              | 1,680,000    | 0.1953125 BTC             | 20,917,968.75 BTC                          |
-| 9              | 1,890,000    | 0.09765625 BTC            | 20,958,984.375 BTC                         |
-| 10             | 2,100,000    | 0.048828125 BTC           | 20,979,492.188 BTC                         |
-| 11             | 2,310,000    | 0.0244140625 BTC          | 20,989,746.094 BTC                         |
-| 12             | 2,520,000    | 0.01220703125 BTC         | 20,994,873.047 BTC                         |
-| 13             | 2,730,000    | 0.006103515625 BTC        | 20,997,436.523 BTC                         |
-| 14             | 2,940,000    | 0.0030517578125 BTC       | 20,998,718.262 BTC                         |
-| 15             | 3,150,000    | 0.00152587890625 BTC      | 20,999,359.131 BTC                         |
-| 16             | 3,360,000    | 0.000762939453125 BTC     | 20,999,679.566 BTC                         |
-| 17             | 3,570,000    | 0.0003814697265625 BTC    | 20,999,839.783 BTC                         |
-| 18             | 3,780,000    | 0.00019073486328125 BTC   | 20,999,919.892 BTC                         |
-| 19             | 3,990,000    | 0.000095367431640625 BTC  | 20,999,959.946 BTC                         |
-| 20             | 4,200,000    | 0.0000476837158203125 BTC | 20,999,979.973 BTC                         |
+| Poolitamise number | Ploki kõrgus | BTC preemia pärast poolitamist | Hinnanguline BTC ringluses pärast poolitamist |
+| ------------------ | ------------ | ------------------------------ | --------------------------------------------- |
+| 1                  | 210,000      | 25 BTC                         | 10,500,000 BTC                                |
+| 2                  | 420,000      | 12.5 BTC                       | 15,750,000 BTC                                |
+| 3                  | 630,000      | 6.25 BTC                       | 18,375,000 BTC                                |
+| 4                  | 840,000      | 3.125 BTC                      | 19,687,500 BTC                                |
+| 5                  | 1,050,000    | 1.5625 BTC                     | 20,343,750 BTC                                |
+| 6                  | 1,260,000    | 0.78125 BTC                    | 20,671,875 BTC                                |
+| 7                  | 1,470,000    | 0.390625 BTC                   | 20,835,937.5 BTC                              |
+| 8                  | 1,680,000    | 0.1953125 BTC                  | 20,917,968.75 BTC                             |
+| 9                  | 1,890,000    | 0.09765625 BTC                 | 20,958,984.375 BTC                            |
+| 10                 | 2,100,000    | 0.048828125 BTC                | 20,979,492.188 BTC                            |
+| 11                 | 2,310,000    | 0.0244140625 BTC               | 20,989,746.094 BTC                            |
+| 12                 | 2,520,000    | 0.01220703125 BTC              | 20,994,873.047 BTC                            |
+| 13                 | 2,730,000    | 0.006103515625 BTC             | 20,997,436.523 BTC                            |
+| 14                 | 2,940,000    | 0.0030517578125 BTC            | 20,998,718.262 BTC                            |
+| 15                 | 3,150,000    | 0.00152587890625 BTC           | 20,999,359.131 BTC                            |
+| 16                 | 3,360,000    | 0.000762939453125 BTC          | 20,999,679.566 BTC                            |
+| 17                 | 3,570,000    | 0.0003814697265625 BTC         | 20,999,839.783 BTC                            |
+| 18                 | 3,780,000    | 0.00019073486328125 BTC        | 20,999,919.892 BTC                            |
+| 19                 | 3,990,000    | 0.000095367431640625 BTC       | 20,999,959.946 BTC                            |
+| 20                 | 4,200,000    | 0.0000476837158203125 BTC      | 20,999,979.973 BTC                            |
 
 Me räägime kaevuritest lähemalt kaevandamise peatükis.
 
@@ -370,8 +379,8 @@ Bitcoini haruldust tagavad kaks peamist mehhanismi: kaevandamisraskuse kohandami
 > Kas teadsite? Kaevurid on motiveeritud kaevandama plokki, et teenida uusi bitcoine (ploki toetus) ja tehingutasusid, mis on seotud nende plokki lisatud tehingutega. Väljastatud bitcoinide arvu lähenemisel 21 miljoni piirile, saavad kaevurid oma tulu rohkem tehingutasudest kui ploki toetusest.'
 
 - Mänguteooria on matemaatiline kontseptsioon, mis tugineb inimlikule ratsionaalsusele. Siin, Bitcoinis, on kasutajad need, kes hääletavad protokolli muudatuste üle. Jah, sa lugesid õigesti: Bitcoini protokolli mis tahes muudatus nõuaks kogu kasutajaskonna nõusolekut, mis on väga keeruline. Seega, kui keegi sooviks luua 22. miljonit bitcoini, peaks ta veenma kõiki kasutajaid oma säästude vabatahtlikult devalveerima, mis on ebatõenäoline, kuna Bitcoin on globaalne ja seda ei juhi ükski keskne rühm.
-![pilt](assets/en/chapter4/3.webp)
-Valuuta devalveerimise idee läheb vastuollu Bitcoini põhifilosoofiaga, seega selle piiri muutmine on väga ebatõenäoline.
+  ![pilt](assets/en/chapter4/3.webp)
+  Valuuta devalveerimise idee läheb vastuollu Bitcoini põhifilosoofiaga, seega selle piiri muutmine on väga ebatõenäoline.
 
 ### Igal sekundil auditeeritav rahapoliitika algusest peale ja igavesti!
 
@@ -403,9 +412,11 @@ Kokkuvõttes pakub Bitcoin oma detsentraliseeritud olemuse, programmeeritud haru
 ### 1. jaotise kokkuvõte!
 
 # Bitcoini rahakotid
+
 <partId>28860585-4f61-59d9-b242-f4c57d837cc1</partId>
 
 ## Mis on Bitcoini rahakotid?
+
 <chapterId>1c0166ab-cb7a-5bc6-9175-d13482bd91f1</chapterId>
 
 Käesolevas jaotises 2 uurime Bitcoinide hoiustamist ja turvalisust rahakottides. See võimaldab teil paremini mõista, kus need kuulsad Bitcoinid asuvad ja kuidas nendega toimetada!
@@ -414,7 +425,7 @@ Käesolevas jaotises 2 uurime Bitcoinide hoiustamist ja turvalisust rahakottides
 
 Selles tööstusharus kasutame Bitcoini võrguga suhtlemiseks rahakotte, millel on 3 funktsiooni:
 
-- Võimaldab Bitcoine vastu võtta 
+- Võimaldab Bitcoine vastu võtta
 - Võimaldab Bitcoine saata
 - Neid häkkimise ja varguskatsete eest kaitsta
 
@@ -423,7 +434,9 @@ Rahakott võib olla tarkvara teie arvutis, rakendus teie nutitelefonis, füüsil
 Portfellid jagunevad seega suurtesse kasutusrühmadesse, alati keskse küsimusega: Kas olete rahaliste vahendite omanik või jätate oma raha kolmanda osapoole kontrolli alla? Tuleme selle teema juurde detailsemalt tagasi järgmises peatükis, kuid idee on lihtne: Kas raha on teie taskus või teie pankuri taskus!
 
 ![pilt](assets/en/chapter5/3.webp)
+
 ### Kuidas Bitcoini rahakott töötab
+
 Olenemata sellest, kas tegemist on teie Bitcoini "pangaga" või teie endaga, töötavad enamik Bitcoini rahakotte sarnase tehnoloogiaga, nimelt asümmeetrilise krüptograafiaga, ja seega võtmepaaride süsteemiga: privaatvõti kulutamiseks ja avalik võti vastuvõtmiseks.
 
 - Privaatvõti
@@ -465,9 +478,11 @@ Valige rahakott, mis vastab teie vajadustele ja kasutusele. Erinevate rahakottid
 ![Alt text](assets/posters/en/8._what_is_a_bitcoin_wallet.webp)
 
 ## Turvalisus ja Bitcoini rahakotid
+
 <chapterId>00c1afea-e54a-511f-bab3-2efc2fbfa6a1</chapterId>
 
 ### Õigete küsimuste esitamine enne alustamist
+
 Kui teil on bitcoine, on teie vahendite turvalisus suur mure. Parim viis turvalisuse määratlemiseks, mis sobib teie olukorraga, on küsida (ja vastata) mitmele küsimusele; teie turvamudel sõltub teie vastustest. Alustame:
 
 - Kes saab minu vahenditele ligi? Teisisõnu, kas ainult teie ise saate oma bitcoinidele ligi või lubab kolmas osapool, näiteks ettevõte, teil oma vahenditele ligi pääseda?
@@ -515,6 +530,7 @@ Nüüd, kui see on meeles, liikugem järgmisse sektsiooni, et näha samme Bitcoi
 ![Alt tekst](assets/posters/en/9._choose_the_right_wallet.webp)
 
 ## Rahakoti seadistamine
+
 <chapterId>615519eb-4565-557d-86a0-021badf7616f</chapterId>
 
 Teie bitcoinide turvalisus on ülioluline ja lihtne viga võib kaasa tuua kulukaid tagajärgi. Seetõttu vaatame nüüd parimaid tavasid uue Bitcoini rahakoti loomisel.
@@ -545,7 +561,7 @@ On ka alternatiivseid lahendusi paberile, nagu näiteks oma mnemoonilise fraasi 
 Kui koopiad on tehtud, hoidke sõnaloendeid turvalises kohas, kus te mäletate neid otsida! Ärge looge liiga keerulist peitmiskava, kus te riskite neid kaotada.
 
 > Teie sõnad = teie raha.
-"Külmad" rahakotid sisaldavad tavaliselt neid sõnade loendeid, just nagu "kuumad" rahakotid mobiilil või arvutil. See privaatvõtme varundamise meetod on saanud nüüdseks standardiks. See tähendab, et saate sisestada oma mnemoonilise fraasi mis tahes rahakott-tarkvarasse, et enda rahakott taastada. Ainult halvad rahakotid, mida me tungivalt ei soovita, ei anna teile 24 sõna nimekirja, vaid võivad küsida konto, e-posti aadressi või veel hullem, isikutunnistuse.
+> "Külmad" rahakotid sisaldavad tavaliselt neid sõnade loendeid, just nagu "kuumad" rahakotid mobiilil või arvutil. See privaatvõtme varundamise meetod on saanud nüüdseks standardiks. See tähendab, et saate sisestada oma mnemoonilise fraasi mis tahes rahakott-tarkvarasse, et enda rahakott taastada. Ainult halvad rahakotid, mida me tungivalt ei soovita, ei anna teile 24 sõna nimekirja, vaid võivad küsida konto, e-posti aadressi või veel hullem, isikutunnistuse.
 
 **TÄHELEPANU: 24 sõna nimekirja puudumine peaks teid hoiatama.**
 
@@ -554,11 +570,12 @@ Kui koopiad on tehtud, hoidke sõnaloendeid turvalises kohas, kus te mäletate n
 ![Alt tekst](assets/posters/en/10._set_up_your_wallet.webp)
 
 ## Ajaproovile vastu pidamine
+
 <chapterId>f58cd446-c202-5eff-aab7-e61cc40e5c06</chapterId>
 
 Turvalisus on Bitcoini ökosüsteemis suur mure. Tõepoolest, nagu igasuguse vara puhul, tuleb ka teie bitcoine kaitsta kaotuse, varguse ja degradeerumise eest, eriti pikas perspektiivis. Teie bitcoinide kaitsmine nõuab teatud tehnilisi teadmisi ja teadlikkust seotud riskidest, mis viib meid arutlema kahe peamise strateegia üle: oma bitcoinide terasesse graveerimine ja pärandiplaani loomine.
 
-### Kivisse graveerimine 
+### Kivisse graveerimine
 
 Üks meetod oma bitcoinide pikaaegseks turvamiseks on graveerida oma mnemooniline fraas vastupidavale materjalile nagu teras. See loob teie võtmetest füüsilise varukoopia, mis on vastupidav nii veekahjustustele kui tulele.
 
@@ -590,6 +607,7 @@ Samas vaimus vältige oma turvasüsteemi avalikku paljastamist bitcoinide kohtum
 
 Bitcoini rahakotid on tarkvara, mis võimaldab teil bitcoine hoiustada ja tehinguid teha. On mitmeid tüüpe: mobiil- või arvutirahakotid, mis sobivad väikeste summade ja/või regulaarsete kulutuste jaoks; füüsilised rahakotid, mis sobivad paremini bitcoinide hoidmiseks kesk- ja pikas perspektiivis; multisig rahakotid, mis on keerulisemad hallata ja nõuavad tehingute tegemiseks mitme allkirja.
 Rahakoti loomisel peate esmalt oma privaatvõtme varundama. See varukoopia võtab enda alla 12 või 24 sõnast koosneva nimekirja või 12 sõna, mida saate kirjutada paberitükile või metallplaadile. See mnemooniline fraas võimaldab teil oma rahakoti taastada mis tahes Bitcoin'i rahakoti rakenduses. Igaühel, kellel on juurdepääs sellele nimekirjale, on samuti juurdepääs teie bitcoinidele. Bitcoinis käib finantsiline suveräänsus käsikäes individuaalse vastutusega, seega on ülioluline, et tagate oma rahakottidele ja varukoopiatele turvalise juurdepääsu. Selleks on oluline järgida teatud reegleid:
+
 - Looge pärandiplaan: et tagada teie lähedastele võimalus probleemi korral raha kätte saada.
 - Vältige vahetusplatvorme: on soovitatav vältida oma Bitcoinide hoidmist vahetusplatvormidel, kuna need võivad olla haavatavad häkkerrünnakute suhtes.
 - Kohandage oma turvalisuse taset: võtke aega oma vajaduste ja kasutusviiside selgitamiseks, see aitab teil teha valiku erinevate saadaolevate Bitcoini rahakottide vahel.
@@ -597,9 +615,11 @@ Rahakoti loomisel peate esmalt oma privaatvõtme varundama. See varukoopia võta
 Nüüd, kui oleme kajastanud Bitcoini rahakottide põhitõdesid ja parimaid tavasid nende turvamiseks, käsitleme järgmises peatükis Bitcoini tehnilist toimimist. Taaskord, Bitcoini protokolli põhitõdede tundmine võimaldab teil paremini mõista selle toimimist, mis võimaldab teil seda paremini kasutada.
 
 # Bitcoini tehnilised aspektid.
+
 <partId>a86d7439-e7a2-5f21-b1e9-6b5e23ca265b</partId>
 
 ## Bitcoini käivitamine
+
 <chapterId>b7561082-8943-519d-95d1-a5f60dd2686d</chapterId>
 
 ### Alustame natukese ajalooga.
@@ -612,7 +632,7 @@ See e-kiri sisaldas dokumenti, mida nimetatakse "White Paper'iks" ehk valgeks pa
 
 ![image](assets/en/chapter9/3.webp)
 
-3. jaanuaril 2009  avab Satoshi ametlikult Bitcoini võrgu, luues esimese ploki, mida tuntakse ka kui genesis plokki, mis märgib Bitcoini plokiahela käivitamist. See plokk sisaldab paljastavat sõnumit Bitcoini missiooni kohta: "03/jan/2009 Chancellor on brink of second bailout for banks."
+3. jaanuaril 2009 avab Satoshi ametlikult Bitcoini võrgu, luues esimese ploki, mida tuntakse ka kui genesis plokki, mis märgib Bitcoini plokiahela käivitamist. See plokk sisaldab paljastavat sõnumit Bitcoini missiooni kohta: "03/jan/2009 Chancellor on brink of second bailout for banks."
 
 ![image](assets/en/chapter9/9.webp)
 
@@ -655,8 +675,10 @@ Nüüd, kui meil on taustateadmised, vaatame üldiselt, kuidas Bitcoin tehing to
 ![Alt text](assets/posters/en/7._lancement_bitcoin.webp)
 
 ## Bitcoini tehingud
+
 <chapterId>03482644-5473-590b-975b-b43bb65eac21</chapterId>
 Bitcoini tehing on lihtsalt bitcoinide omandiõiguse üleandmine, kasutades Bitcoini aadressi. Võtame näiteks kaks peategelast: Alice ja Bob. Alice soovib bitcoine omandada, samal ajal kui Bobil on neid juba olemas.
+
 ### 1. samm - Tehingu loomine rahakoti kaudu
 
 Selleks, et Bob saaks bitcoine Alicele üle kanda, peab Alice andma Bobile ühe oma Bitcoini aadressidest. See aadress, mis on tuletatud Alice'i avalikust võtmest, on ainulaadne tema Bitcoini rahakotile.
@@ -714,6 +736,7 @@ Tegelikult, et Bitcoini võrk täielikult hävitada, tuleks hävitada kõik plok
 Vaatame lähemalt, kuidas Bitcoini sõlm töötab.
 
 ## Bitcoini Sõlmed
+
 <chapterId>8533cebc-f799-528b-89df-8d75d4c37f1c</chapterId>
 
 Sõlmed on Bitcoini võrgu arhitektuuri põhielement. Nad täidavad mitmeid olulisi funktsioone:
@@ -757,6 +780,7 @@ Selle võidu järel aktiveerisid noodid uuenduse nimega SegWit, sillutades teed 
 ![Bitcoin noodid](assets/posters/fr/12_explication_des_nodes_crop.webp)
 
 ## Kaevurid
+
 <chapterId>dbb8264a-7434-57e4-9d1b-fbd1bae37fdf</chapterId>
 
 > Kaevurid aitavad võrku turvata ja lisavad tehinguid plokkidesse. Nad kasutavad elektrit läbi ASIC masinate, et lahendada Bitcoini töötõendit.
@@ -778,6 +802,7 @@ Iga 2 nädala tagant (2016 plokki) tasakaalustatakse globaalne kaevandamismäng 
 ![image](assets/en/chapter12/14.webp)
 
 ### Kaevandamine on pidevas arengus
+
 Aastate jooksul on kaevurid varustanud end üha tõhusama arvutiriistvaraga, et toota võimalikult palju hashe sekundis (mida nimetatakse HashRate'iks), tarbides samal ajal võimalikult vähe energiat kõige kulutõhusamal viisil. Varajased kaevurid nagu Satoshi või Hal Finney kaevandasid lihtsalt oma CPU abil, seejärel hakkasid teised kaevandama oma graafikakaardiga. Tänapäeval kasutavad kaevurid nn ASIC-e (Application-Specific Integrated Circuit), masinaid, mis on mõeldud ainult SHA256 algoritmi rakendamiseks.
 ![image](assets/en/chapter12/20.webp)
 
@@ -827,11 +852,13 @@ Mänguteooria, rakendatuna Bitcoinile, kõrvaldab ebaausad kaevurid. Kaevurid ka
 ![kaevurid](assets/posters/fr/13_explication_des_mineurs_crop.webp)
 
 ## Bitcoin ja ökoloogia
+
 <chapterId>4b227ae6-443a-5739-b443-60b7931130d9</chapterId>
 
 Nagu eelmises jaotises nägime, sõltub Bitcoini protokolli turvalisus suurest energiakulust avaliku tehingute registri tootmiseks ilma usaldusväärse kolmanda osapooleta. Üldist energiakulu võrreldakse sageli väikese riigi elektritarbimisega. Kuid kas see võrdlus on mõistlik? Kas see aitab mõista sellise kulu põhjuseid?
 
 ### Bitcoini energiakulud.
+
 Esmalt hinnakem kvalitatiivselt kaevandamise keskkonnamõju. Kaevandajal peab olema masin nagu ASIC ja elektri kujul energiavarustus nende masinate töötamiseks. ASICud on enamasti valmistatud alumiiniumist ja neid saab kas taaskasutada või kasutada teiseks otstarbeks (nagu näitab [Attakaï projekt](https://decouvrebitcoin.fr/attakai/), mis muudab Antminer S9 ruumisoojendajaks). Peamine mure on seega energia tarbimine. Proovime sellele rohkem konteksti anda.
 
 ![image](assets/en/chapter13/1.webp)
@@ -880,10 +907,13 @@ Keskmiselt luuakse plokk iga 10 minuti järel ja kaevur, kes leiab järgmise plo
 
 Selleks, et kaevurid oleksid oma tegevuses võimalikult kasumlikud, peavad nad saama võimalikult odavat elektrit, mis asub sageli kauges asukohas, elektrijaamades, mis ei ole veel ühendatud võrguga. Kaevur toimib siis viimase võimalusena ostjana ja niipea, kui elektri hind tõuseb nõudluse suurenemise tõttu, kaldub kaevur oma tegevust teisaldama mujale.
 Seega on Bitcoini protokoll tsenseerimatu ja peatamatu rahandussüsteem, kuna iga protokolli komponent on geograafiliselt jaotatud üle kogu maailma - näiteks on kõikidel kontinentidel umbes 40 000 Bitcoini sõlmpunkti. Bitcoini konsensuse reeglid on sellised, et nende järgimine on majanduslikult kasumlikum kui nende rikkumine, seega ei ole osalejate vahel vajalik usaldus. Bitcoinil ei ole juhti ja seda ei saa peatada. On võimalik reguleerida vahetusplatvorme, et piirata Bitcoini, kuid see on mõjult piiratud. Lühidalt öeldes ei saa ükski kohtunik ega riik Bitcoini tsenseerida ega peatada.
+
 # Kuidas saada Bitcoini?
+
 <partId>517e1bb7-f032-51a0-930a-a91fe5148d3f</partId>
 
 ## Bitcoin ei maga kunagi!
+
 <chapterId>d5e35e41-ea26-5478-8eb9-07daf9dff508</chapterId>
 
 Bitcoini hind on sageli iseloomustatud olulise volatiilsusega. Selle väärtus võib oluliselt kõikuda sõltuvalt turu kõikumistest ja pulli- ning karuturu faasidest. See on olemas 100% finantsturgudest, kaasa arvatud Bitcoin.
@@ -917,7 +947,7 @@ Seejärel koges turg 2020. aastal taas spekulatiivset mulli, mis viis Bitcoini h
 ### Bitcoin ja volatiilsus
 
 Varasemate tsüklite põhjal tundub, et Bitcoin'i majandustsüklite perioodilisus on võrdne kahe poolitamise vahelise kestusega. Võib-olla seetõttu, et poolitamise sündmus toimib käivitajana, vähendades uute bitcoinide emiteerimist poole võrra.
-Need olulised kõikumised on loonud bitcoini maine kui äärmiselt ohtliku varana, mis põhjustab selle kasutajatele raha kaotust. Kuigi hind võib mõne päeva jooksul langeda 10-20 või isegi 50%, on oluline mõista, et Bitcoin protokoll ei ole hinnamuutustest mõjutatud. 
+Need olulised kõikumised on loonud bitcoini maine kui äärmiselt ohtliku varana, mis põhjustab selle kasutajatele raha kaotust. Kuigi hind võib mõne päeva jooksul langeda 10-20 või isegi 50%, on oluline mõista, et Bitcoin protokoll ei ole hinnamuutustest mõjutatud.
 See oluline volatiilsus on tänapäeval Bitcoini osalistele täielikult aktsepteeritud ja seda saab leevendada mitmete lahendustega nagu finantskatted (stablecoins), tugev pikaajaline usk (hodling) või lihtsalt mitte panustada 100% oma rahast Bitcoini, ilma midagi mõistmata. Seega on oluline mõista, miks bitcoini hind nii palju kõigub, et selles tööstuses edasi liikuda, sest lõppkokkuvõttes on just hind ja tsüklid, mis mingil määral meie turgu temperavad ja reguleerivad. Siiski võime märkida, et kuna Bitcoin kasvab ja küpseb, muutub volatiilsus vähem oluliseks.
 
 ![image](assets/en/chapter14/5.webp)
@@ -939,6 +969,7 @@ Täna, 2023. aastal, jätkab Bitcoin ellujäämist ja kasvab veelgi, integreerud
 ![Alt text](assets/posters/en/15._bitcoinr_never_sleeps.webp)
 
 ## Bitcoini saamine töötades
+
 <chapterId>be2d83be-406f-582c-83ca-6aa905ff7b04</chapterId>
 
 ### Arenev paralleelne majandus
@@ -949,6 +980,7 @@ Bitcoin majandus eksisteerib ja areneb teatud maailma piirkondades, nagu El Salv
 
 ![image](assets/en/chapter16/6.webp)
 Lisaks sellele, et hõlbustada bitcoini kasutamist igapäevastes tehingutes, on käivitatud avatud lähtekoodiga ja koostööprojekt: BTCMap (https://btcmap.org/map#2/21.28937/5.46680). See platvorm loetleb kõik kaupmehed, kes aktsepteerivad bitcoini, samuti erinevad Bitcoini kogukonnad üle maailma. Saate külastada nende veebisaiti, et avastada Bitcoini ökosüsteemi enda ümber. Seega, hoolimata raskustest ja kõhklustest, on algatusi nagu BTCMap, mis aitavad muuta Bitcoini majanduse kõigile kättesaadavamaks ja mugavamaks.
+
 ### Miks aktsepteerida Bitcoini selle asemel, et seda osta?
 
 Bitcoine saab osta platvormidel, mida reguleerivad organisatsioonid nagu AMF (Autorité des Marchés Financiers) Prantsusmaal. See meetod hõlmab teatud riske ja teie tehingute jälgitavust. Teine viis bitcoinide saamiseks on aktsepteerida neid maksevahendina toodete või teenuste eest, mida pakute. See meetod võimaldab teil omandada bitcoine läbi oma töö, ilma et peaksite pidevalt muretsema Bitcoin'i hinna pärast.
@@ -972,6 +1004,7 @@ Me käsitleme seda teemat üksikasjalikumalt teises koolitusel, kuid lihtsuse hu
 ![Alt text](assets/posters/en/17._earn_your_bitcoin.webp)
 
 ## Säästmine Bitcoiniga
+
 <chapterId>1d9570c6-5b63-51a6-b87c-7bdb0fc4aa87</chapterId>
 
 ### Hoiatus enne alustamist!
@@ -1004,7 +1037,7 @@ Konkreetsemalt öeldes on kaks küsimust, mida endalt küsida:
 ### Omandamisstrateegiad
 
 - Dollar Cost Average
-Korduvad ostud hõlmavad väikeste bitcoini koguste ostmist regulaarsete intervallidega. See meetod silub hinna aja jooksul ja tagab bitcoini koguse pideva kasvu. See on ideaalne lahendus pikaaegseteks säästudeks, muretsemata bitcoini hinna ja volatiilsuse pärast. Seadista see üles ja unusta.
+  Korduvad ostud hõlmavad väikeste bitcoini koguste ostmist regulaarsete intervallidega. See meetod silub hinna aja jooksul ja tagab bitcoini koguse pideva kasvu. See on ideaalne lahendus pikaaegseteks säästudeks, muretsemata bitcoini hinna ja volatiilsuse pärast. Seadista see üles ja unusta.
 
 ![image](assets/en/chapter15/2.webp)
 
@@ -1063,6 +1096,7 @@ On oluline märkida, et teie jurisdiktsioonis võidakse kehtestada makse. Kutsum
 ![Alt tekst](assets/posters/en/16._saving_in_bitcoin.webp)
 
 ## Hyper-bitcoinization
+
 <chapterId>b7275d31-3b60-5fb7-b9f5-030097010553</chapterId>
 
 ### Metsik võidujooks on alles algamas!
@@ -1090,9 +1124,11 @@ Kui soovite oma teadmisi Bitcoini kohta laiendada, on suur hulk autoreid, mõtle
 ![Alt tekst](assets/posters/en/18._hyperbitcoinization.webp)
 
 # Bitcoini tulevik: Lightning Network
+
 <partId>899fd35e-39e6-5a25-a73e-6fed6e725094</partId>
 
 ## Lühitutvustus Lightning Network'ile
+
 <chapterId>b403f1e4-f1ff-572b-a242-9b58cb3736d0</chapterId>
 Nüüd, kui oleme tutvunud Bitcoin'i protokolli alustega, tutvustame maksevõrku, mis kasutab Bitcoin'i protokolli, et võimaldada välkkiireid tehinguid. Ilmselgelt räägime me siin Lightning Network'ist!
 
@@ -1131,7 +1167,10 @@ Kokkuvõttes on Lightning Network paljutõotav katse käivitada tõhus maksesüs
 ### Kiire kokkuvõte plakatil!
 
 ![Alt text](assets/posters/en/20._lightning_network.webp)
-## Lightning Networki kasutusjuhud<chapterId>684e31f9-ebd1-51b6-91c0-1e6a315f1141</chapterId>
+
+## Lightning Networki kasutusjuhud
+
+<chapterId>684e31f9-ebd1-51b6-91c0-1e6a315f1141</chapterId>
 
 Nagu me just nägime, kuigi Bitcoini protokoll on revolutsiooniline, seisab see silmitsi oluliste väljakutsetega skaalatavuse osas, et suuta hallata kõiki meie igapäevaseid tehinguid. Nende probleemide lahendamiseks pakuti 2016. aastal välja teise kihi lahendus, mida tuntakse Lightning Networki nime all, millel on nüüdseks mitu erinevat rakendust, mis kõik on omavahel ühilduvad:
 
@@ -1166,6 +1205,7 @@ Kokkuvõttes avab Lightning Network Bitcoini kasutajatele palju põnevaid kasutu
 ![Alt tekst](assets/posters/en/21._ln_use_cases.webp)
 
 ## Punane või sinine pill?
+
 <chapterId>c81cdb45-6aa9-5462-9835-c4852084b2cc</chapterId>
 
 Nagu Morpheus Neole ütles: "Võtad sinise pilli, lugu lõppeb, ärkad oma voodis üles ja usud, mida iganes sa soovid uskuda. Võtad punase pilli, jääd Imedemaale ja ma näitan sulle, kui sügav on jäneseurg." Kas olete valmis uurima Bitcoini jäneseurgu? Olge ettevaatlik, sest võite taasavastada oma finantsvabaduse!
@@ -1200,12 +1240,13 @@ Need mõtisklused tõstatavad ka küsimusi selle kohta, kes peaks omama, volitam
 - Kes tagab finantssüsteemi?
 - Kuidas võib üksikisik olla oma raha üle suveräänne ja toetuda usaldusväärsele kolmandale osapoolele?
 - Kas raha saab saata maailma teise otsa ilma tasude või vahendajateta?
-Uute tehnoloogiate omaksvõtt võib maailmas tekitada tohutuid mastaabisääste. Kas peaksime lubama kapitali vabalt liikuda? Rahvusvahelistel blokaadidel on majanduslikud ja poliitilised tagajärjed. Kas on eetiline kasutada finantsvahendajaid nagu Western Union, mis mõnikord võtavad tasusid kuni 25%? Me usume, et üha digitaalsemas maailmas peaks raha olema demokratiseeritud ja peetud ühiseks hüveks, mis kuulub inimestele, mitte riigile või läbipaistmatutele finantsasutustele.
-Pangandussüsteemi kontrolli küsimus on kriitiline, sest pangandusmängu reeglid ei ole läbipaistvad ega arusaadavad kõigile, võimaldades poliitikute ja regulaatorite kastil süsteemil oma haaret hoida. On oluline küsida, kas pangandussüsteemi peaks kontrollima vaba turg või intellektuaalide rühm.
+  Uute tehnoloogiate omaksvõtt võib maailmas tekitada tohutuid mastaabisääste. Kas peaksime lubama kapitali vabalt liikuda? Rahvusvahelistel blokaadidel on majanduslikud ja poliitilised tagajärjed. Kas on eetiline kasutada finantsvahendajaid nagu Western Union, mis mõnikord võtavad tasusid kuni 25%? Me usume, et üha digitaalsemas maailmas peaks raha olema demokratiseeritud ja peetud ühiseks hüveks, mis kuulub inimestele, mitte riigile või läbipaistmatutele finantsasutustele.
+  Pangandussüsteemi kontrolli küsimus on kriitiline, sest pangandusmängu reeglid ei ole läbipaistvad ega arusaadavad kõigile, võimaldades poliitikute ja regulaatorite kastil süsteemil oma haaret hoida. On oluline küsida, kas pangandussüsteemi peaks kontrollima vaba turg või intellektuaalide rühm.
 
 ### Meie vabadused on kaalul.
 
 Tuleb samuti küsida tsensuuri kohta, sest kes omab teadmisi otsustamaks, mida peaks tsenseerima või mitte? Meedia on muutnud oma seisukohta teatud teabe suhtes ja inimesed, kes olid varem tsenseeritud, ei ole seda täna.
+
 - Kes otsustab, mis on tsensuur või propaganda?
 - Kellel on jumalik käsi meie süsteemi üle?
 
@@ -1227,6 +1268,7 @@ Bitcoini ei saa enam peatada ega tsenseerida. See on rahumeelne revolutsioon, et
 Finantssüsteemi muutmine nõuab valuuta muutmist. Satoshi lõi Bitcoini 2008. aastal, et pakkuda katset seda teha. Lihtne ja "maagiline" raha juurdepääs rikub. Seega on Bitcoin alternatiiv uue neutraalse rahandussüsteemi loomiseks. Bitcoin võimaldab vabaneda pangasüsteemist. See on sotsiaalne nähtus, mis viib meid osalema rahumeelses revolutsioonis. Kas olete valmis liituma?
 
 ## Tunnustused ja jätkake küülikuurgu uurimist
+
 <chapterId>c153facd-fe77-5954-b18b-d0e2243e787a</chapterId>
 
 ### Mine kaugemale
@@ -1240,13 +1282,14 @@ Palju õnne BTC 101 kursuse lõpetamise puhul! Loodan siiralt, et see meeldis te
 - [MIN 201](https://planb.network/courses/min201) õpetab rohkem kaevandamise kohta
 - ja palju muud...
 
-
 ## Toetage meid
+
 <chapterId>3e6e756b-b6c4-5d41-bece-767922348067</chapterId>
 
 See kursus, nagu kogu see ülikooli sisu, on teile tasuta pakutud meie kogukonna poolt. Meid saate toetada, jagades seda teistega, saades ülikooli liikmeks ja isegi panustades selle arengusse läbi [meie GitHubi](https://github.com/DecouvreBitcoin/sovereign-university-data). Kogu meeskonna nimel, aitäh!
 
 ## Hinnake koolitust
+
 <chapterId>44d01865-5c89-55a5-a397-a014960eec0f</chapterId>
 
 Koolituse hindamissüsteem integreeritakse varsti sellesse uude E-õppe platvormi! Seniks suur tänu kursuse läbimise eest ja kui see teile meeldis, kaaluge palun selle jagamist teistega.

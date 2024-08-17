@@ -20,9 +20,11 @@ Nautige avastamist!
 +++
 
 # Alustalad
+
 <partId>32647d62-102b-509f-a3ba-ad1d6a4345f1</partId>
 
 ## Lightning Network'i mõistmine
+
 <chapterId>df6230ae-ff35-56ea-8651-8e65580730a8</chapterId>
 
 ![video en](https://youtu.be/QDQ8NG0l3hk)
@@ -63,6 +65,7 @@ Pärast Alice'i ülekannet Bobile 40,000 SAT:
 Alice (60,000 SAT) ============== Bob (70,000 SAT)
 
 ```
+
 ![selgitus](assets/chapitre1/2.webp)
 
 Nüüd soovib Bob saata 80,000 SAT Alicele. Kuna tal pole piisavalt likviidsust, ei saa ta seda teha. Kanali maksimaalne maht on 130,000 SAT, võimaliku kulutusega kuni 60,000 SAT Alice'i jaoks ja 70,000 SAT Bobi jaoks.
@@ -70,6 +73,7 @@ Nüüd soovib Bob saata 80,000 SAT Alicele. Kuna tal pole piisavalt likviidsust,
 ![selgitus](assets/chapitre1/3.webp)
 
 ## Bitcoin, aadressid, UTXO ja tehingud
+
 <chapterId>0cfb7e6b-96f0-508b-9210-90bc1e28649d</chapterId>
 
 ![video](https://youtu.be/U9l5IVriCss)
@@ -95,13 +99,16 @@ Bitcoin'i Tehing (0.002 BTC)
   V
 Alice (uus UTXO: 0.0005 BTC)
 ```
+
 Lightning Network'is kasutatakse mitme allkirjaga tehinguid. Seega on vahendite vabastamiseks vajalikud 2 allkirja, st kaks privaatvõtit raha liigutamiseks. See võivad olla Alice ja Bob, kes peavad koos nõustuma raha vabastamisega (UTXO). LN-is on need spetsiifiliselt 2/2 tehingud, nii et mõlemad allkirjad on absoluutselt vajalikud, erinevalt 2/3 või 3/5 mitme allkirjaga tehingutest, kus on vajalik ainult võtmete täieliku arvu kombinatsioon.
 ![selgitus](assets/chapitre2/1.webp)
 
 # Kanalite avamine ja sulgemine
+
 <partId>900b5b6b-ccd0-5b2f-9424-4b191d0e935d</partId>
 
 ## Kanali Avamine
+
 <chapterId>96243eb0-f6b5-5b68-af1f-fffa0cc16bfe</chapterId>
 
 ![video](https://youtu.be/Ty80WuN5X-g)
@@ -146,12 +153,14 @@ Alice saab nüüd vahendid üksi tagasi, kuna tal on juba Bobi allkiri. Ta avald
 ![selgitus](assets/chapitre3/3.webp)
 
 ## Lightning Tehing & Kohustuse Tehing
+
 <chapterId>7d3fd135-129d-5c5a-b306-d5f2f1e63340</chapterId>
 
 ![video](https://youtu.be/dzPMGiR_JSE)
 
 ![kaas](assets/chapitre4/1.webp)
 Nüüd analüüsime, mis tegelikult toimub kulisside taga, kui vahendid ühelt poolt teisele Lightning Network'i kanalis liiguvad, kasutades kohustusliku tehingu (commitment transaction) mõistet. Ahelasisene väljavõtte-/sulgemistehing esindab kanali olekut, tagades, kes omab vahendeid pärast iga ülekannet. Seega pärast Lightning Network'i ülekannet uuendatakse seda tehingut/lepingut, mida ei teostata kahe osapoole, Alice'i ja Bobi vahel, kes loovad sulgemise korral sama tehingu praeguse kanali olekuga:
+
 - Alice avab kanali Bobiga, omades oma poolel 130 000 SAT-i. Mõlemad aktsepteerivad sulgemise korral väljavõtte tehingut, mis näitab, et 130 000 SAT läheb Alice'ile sulgemisel, ja Bob nõustub, sest see on õiglane.
 
 ![cover](assets/chapitre4/2.webp)
@@ -163,7 +172,6 @@ Nüüd analüüsime, mis tegelikult toimub kulisside taga, kui vahendid ühelt p
 - Alice saadab Bobile 10 000 SAT-i ja luuakse uus väljavõtte tehing, mis näitab, et Alice saab sulgemise korral 90 000 SAT-i ja Bob 40 000 SAT-i. Mõlemad nõustuvad, sest see on õiglane.
 
 ![cover](assets/chapitre4/4.webp)
-
 
 ```
 Kanali algolek:
@@ -180,6 +188,7 @@ Alice (90,000 SAT) =============== Bob (40,000 SAT)
 Raha ei liigu tegelikult, kuid lõplik saldo uuendatakse allkirjastatud, kuid avaldamata ahelasisese tehinguga. Seega on väljavõtte tehing kohustuslik tehing. Satoshi ülekanded on teine, hiljutisem kohustuslik tehing, mis uuendab saldot.
 
 ## Kohustuslikud Tehingud
+
 <chapterId>f2f61e5b-badb-5947-9a81-7aa530b44e59</chapterId>
 
 ![video](https://youtu.be/veCs39uVFUk)
@@ -203,6 +212,7 @@ Samamoodi annab Bob oma saladuse Alice'ile. Nii et kui ta üritab petta, saab Al
 Isik, kes loob tehingu Ajalukuga (see, kes raha saadab), saab tühistamisvõtit kasutada alles pärast Ajalukku. Siiski, isik, kes raha saab, saab seda kasutada enne Ajalukku, juhul kui ühelt kanali poolelt teisele Lightning Network'is toimub petmine. Eelkõige kirjeldame mehhanisme, mis võimaldavad meil kaitsta võimaliku petmise eest oma kanalipartneri poolt.
 
 ## Kanali Sulgemine
+
 <chapterId>29a72223-2249-5400-96f0-3756b1629bc2</chapterId>
 
 Me oleme huvitatud kanali sulgemisest läbi Bitcoin'i tehingu, mis võib võtta erinevaid vorme olenevalt juhtumist. On 3 tüüpi kanali sulgemist:
@@ -216,7 +226,9 @@ Me oleme huvitatud kanali sulgemisest läbi Bitcoin'i tehingu, mis võib võtta 
 Mõlemad osapooled suhtlevad ja nõustuvad kanali sulgema. Nad peatavad kõik tehingud ja kinnitavad kanali lõpliku oleku. Nad lepivad kokku võrgutasudes (isik, kes kanali avas, maksab sulgemistasud). Nad loovad nüüd sulgemistehingu. On olemas sulgemistehing, mis erineb kohustuse tehingutest, sest selles ei ole Ajalukku ega tühistamisvõtit. Tehing avaldatakse ja Alice ning Bob saavad oma vastavad saldod. See sulgemise tüüp on kiire (kuna Ajalukku puudub) ja üldiselt odav.
 
 ### Jõuline
+
 Alice soovib kanali sulgeda, kuid Bob ei vasta, kuna ta on võrguühenduseta (interneti või elektrikatkestuse tõttu). Alice avaldab seejärel kõige hilisema kohustuse tehingu (viimase). Tehing avaldatakse ja Timelock aktiveeritakse. Seejärel otsustati tasud, kui see tehing loodi X aega tagasi! MemPool on võrk, mis on sellest ajast alates muutunud, nii et protokoll lähtub tasudest, mis on 5 korda kõrgemad kui loomise hetkel. Loomise tasu 10 SAT, seega tehingut peetakse 50 SAT vääriliseks. Sunnitud sulgemise ajal on võrk:
+
 - 1 SAT = ülemakstud 50\*
 - 100 SAT = alamakstud 2\*
 
@@ -233,9 +245,11 @@ Alice üritab petta, avaldades vana kohustuse tehingu. Kuid Bob jälgib MemPooli
 Kokkuvõttes on kanali sulgemine Lightning Networkis oluline samm, mis võib võtta erinevaid vorme. Koostöölises sulgemises suhtlevad mõlemad pooled ja lepivad kokku kanali lõplikus seisundis. See on kiireim ja vähem kulukas variant. Teisest küljest toimub sunnitud sulgemine, kui üks pooltest ei reageeri. See on kallim ja pikem olukord ettearvamatute tehingutasude ja Timelocki aktiveerimise tõttu. Lõpuks, kui osaleja üritab petta, avaldades vana kohustuse tehingu, saab pettur karistada, kaotades kanalist kõik SATid. Seetõttu on oluline mõista neid mehhanisme Lightning Networki tõhusaks ja õiglaseks kasutamiseks.
 
 # Likviidsusvõrk
+
 <partId>a873f1cb-751f-5f4a-9ed7-25092bfdef11</partId>
 
 ## Lightning Network
+
 <chapterId>45a7252c-fa4f-554b-b8bb-47449532918e</chapterId>
 
 ![video](https://youtu.be/44oBdNdXtEQ)
@@ -257,6 +271,7 @@ Kaaluge järgmist võrgustikku:
 Võrgustiku algseisund:
 Alice (130 SAT) ==== (0 SAT) Susie (90 SAT) ==== (200 SAT) Eden (150 SAT) ==== (100 SAT) Bob
 ```
+
 ![kaas](assets/Chapitre7/2.webp)
 
 Kui Alice peab Bobile üle kandma 40 SAT, siis likviidsus jaotatakse ümber marsruudil kahe osapoole vahel.
@@ -264,6 +279,7 @@ Kui Alice peab Bobile üle kandma 40 SAT, siis likviidsus jaotatakse ümber mars
 ```
 Pärast Alice'i 40 SAT ülekannet Bobile:
 Alice (90 SAT) ==== (40 SAT) Susie (50 SAT) ==== (240 SAT) Eden (110 SAT) ==== (140 SAT) Bob
+```
 
 ![cover](assets/Chapitre7/4.webp)
 
@@ -316,6 +332,7 @@ Lightning Networkis on Alice'i sõlm, mis otsustab marsruudi enne makse saatmist
 Susie või Edeni jaoks: nad ei tea, kes on lõplik saaja ega kes maksab. See on sibulmarsruutimine. Sõlm peab hoidma võrgu plaani, et leida oma marsruut, kuid ükski vahendajatest ei oma informatsiooni.
 
 ## HTLC - Hashed Time Locked Contract
+
 <chapterId>4369b85a-1365-55d8-99e1-509088210116</chapterId>
 
 ![video](https://youtu.be/jI4nM297aHA)
@@ -328,6 +345,7 @@ HTLC on makseleping, mida saab avada ainult saladusega. Kui seda ei avalikustata
 
 Kaalu järgmist olukorda:
 Alice (100,000 SAT) ==== (30,000 SAT) Susie (250,000 SAT) ==== (0 SAT) Bob
+
 - Bob genereerib salajase S (eelkujutise) ja arvutab räsi r = hash(s)
 - Bob saadab Alice'ile arve, kus on kaasatud "r"
 - Alice saadab Susie'le 40,000 SAT suuruse HTLC tingimusega avaldada "s'", nii et hash(s') = r
@@ -368,6 +386,7 @@ Juhul, kui Bob ei avalda salajast teatud aja jooksul, aegub HTLC. Aegumine toimu
 Kui kanalit suletakse ja tegemist on koostööl põhineva sulgemisega, katkestatakse maksed ja HTLC-d lahendatakse, mis on üldiselt vähem kulukas. Kui sulgemine on sunnitud, avalikustatakse kõik käimasolevad HTLC tehingud, mis võivad muutuda väga kulukaks ja segaseks. Kokkuvõttes lisab HTLC mehhanism Lightning Network'ile täiendava turvakihi, tagades, et maksed viiakse läbi korrektselt ja et kasutajad täidavad oma kohustusi.
 
 ## Oma tee leidmine
+
 <chapterId>7e2ae959-c2a1-512e-b5d6-8fd962e819da</chapterId>
 
 ![video](https://youtu.be/CqetCElRjUQ)
@@ -423,8 +442,8 @@ Alice ei näinud marsruudi 1 ebaõnnestumist, ta lihtsalt ootas ühe sekundi kau
 - Tema aadress
 - Eelkujutise hash, et Alice saaks luua HTLC
 - Bobi kanalite näidud
-Bob teab kanalite 5 ja 3 likviidsust, kuna ta on nendega otseselt ühendatud, ta saab seda Alicele näidata. Ta hoiatab Alicet, et sõlm 3 on kasutu, mis takistab Alicel potentsiaalselt oma marsruudi loomist.
-Teine element võiks olla privaatsed kanalid (seega võrgus avaldamata), mida Bobil võib olla. Kui Bobil on privaatne kanal 1-ga, võib ta öelda Alicele, et kasutagu seda ja see annaks Alice > 1 > Bob'.
+  Bob teab kanalite 5 ja 3 likviidsust, kuna ta on nendega otseselt ühendatud, ta saab seda Alicele näidata. Ta hoiatab Alicet, et sõlm 3 on kasutu, mis takistab Alicel potentsiaalselt oma marsruudi loomist.
+  Teine element võiks olla privaatsed kanalid (seega võrgus avaldamata), mida Bobil võib olla. Kui Bobil on privaatne kanal 1-ga, võib ta öelda Alicele, et kasutagu seda ja see annaks Alice > 1 > Bob'.
 
 ![graafik](assets/chapitre9/3.webp)
 
@@ -433,9 +452,11 @@ Kokkuvõttes on tehingute marsruutimine Lightning Networkis keeruline protsess, 
 Lisaks, et hõlbustada marsruudi otsimist, võib saaja pakkuda lisateavet, nagu aadress, summa, eelkujutise räsi ja näidud oma kanalitel. See võib aidata tuvastada piisava likviidsusega kanaleid ja vältida tarbetuid tehingukatseid. Lõppkokkuvõttes on Lightning Networki marsruutimissüsteem kavandatud tehingute kiiruse, turvalisuse ja tõhususe optimeerimiseks, säilitades samal ajal kasutaja privaatsuse.
 
 # Lightning Networki tööriistad
+
 <partId>74d6c334-ec5d-55d9-8598-f05694703bf6</partId>
 
 ## Arve, LNURL, Keysend
+
 <chapterId>e34c7ecd-2327-52e3-b61e-c837d9e5e8b0</chapterId>
 
 ![video](https://youtu.be/XANzf1Qqp9I)
@@ -486,6 +507,7 @@ Keysend võimaldab Alicel saata raha Bobile ilma Bobi taotluseta. Alice hangib B
 Kokkuvõttes, kuigi Lightning Networki arve võib esmapilgul tunduda keeruline, kodeerib see tõhusalt maksetaotluse. Arve iga jaotis sisaldab võtmekohast teavet, sealhulgas makstav summa, saaja, loomise ajatempel ja potentsiaalselt muu teave, nagu eelkujutise räsi, maksesaladus, marsruutimisviited ja aegumisaeg. Protokollid nagu LNURL ja Keysend pakuvad olulisi parandusi paindlikkuse ja kasutajakogemuse osas, võimaldades näiteks saata vahendeid ilma teise poole eelneva taotluseta. Need tehnoloogiad muudavad makseprotsessi Lightning võrgus sujuvamaks ja tõhusamaks.
 
 ## Likviidsuse haldamine
+
 <chapterId>cc76d0c4-d958-57f5-84bf-177e21393f48</chapterId>
 
 ![video](https://youtu.be/MIbej28La7Y)
@@ -528,9 +550,11 @@ Kõige keerulisem asi LN'is on likviidsuse hoidmine.
 Kokkuvõttes on likviidsuse haldamine Lightning Networkis võtmeküsimus, mis sõltub kasutaja tüübist: ostja, kaupmees või marsruutimissõlm. Ostjad, kes vajavad väljaminevat likviidsust, on lihtsaimas olukorras: nad lihtsalt avavad kanaleid. Kaupmehed, kes vajavad sissetulevat likviidsust, peavad olema ühendatud teiste sõlmede ja tegelastega. Marsruutimissõlmed seevastu püüavad hoida likviidsust mõlemal poolel tasakaalus. Likviidsuse haldamiseks on mitmeid lahendusi, nagu kanalite ostmine või maksmine vastuvõtu võimekuse suurendamiseks. "Loop Out" võimalus, mis lubab aatomivahetust LN ja BTC vahel, pakub huvitavat lahendust likviidsuse tasakaalustamiseks. Hoolimata nendest strateegiatest, jääb likviidsuse hoidmine Lightning Networkis keeruliseks väljakutseks.
 
 # Mine edasi
+
 <partId>6bbf107d-a224-5916-9f0c-2b4d30dd0b17</partId>
 
 ## Kursuse kokkuvõte
+
 <chapterId>a65a571c-561b-5e1c-87bf-494644653c22</chapterId>
 
 ![video](https://youtu.be/coaskEGRjiU)
@@ -558,6 +582,7 @@ Makse saatmisel Lightning Network'i kaudu on olemas tõenäosuskomponent.
 Maksete vastuvõtmiseks tuleb kanalites likviidsust hallata, mida saab teha teistelt kanalite avamist paludes, ise kanaleid avades ja tööriistu nagu Loop kasutades või kanaleid turgudelt ostes/rentides.
 
 ## Fanise intervjuu
+
 <chapterId>077cb5f5-1626-5da5-9964-e67b1de503bf</chapterId>
 
 Siin on intervjuu kokkuvõte:
@@ -582,7 +607,10 @@ Lightning Network'i kasutamiseks soovitatakse jälgida koolitust teie YouTube'i 
 Siiski on oluline märkida, et tulevikus võidakse Lightning'i marsruutimissõlmi reguleerida, mõned riigid püüavad marsruutimissõlmi reguleerida. Kaupmeestele on vajalik likviidsuse haldamine Lightning Network'il maksete vastuvõtmiseks, praeguste piirangutega, mida saab ületada sobivate lahendustega.
 
 Lõpuks on Bitcoin'i tulevik lubav, võimaliku prognoosiga üks miljon viie aasta jooksul. Tööstuse professionaalsuse tagamiseks ja olemasoleva pangandussüsteemi alternatiivse süsteemi loomiseks on oluline panustada võrku ja lõpetada usaldamine.
-## Tunnustused ja jätkake jäneseurgu uurimist<chapterId>afc0d72b-4fbc-5893-90b2-e27fb519ad02</chapterId>
+
+## Tunnustused ja jätkake jäneseurgu uurimist
+
+<chapterId>afc0d72b-4fbc-5893-90b2-e27fb519ad02</chapterId>
 
 Palju õnne! 🎉
 Olete lõpetanud LN 201 koolituse - Sissejuhatus Lightning Network'i!
@@ -597,3 +625,4 @@ Lightning Network'i seiklus jätkub Umbreli koolitusega ja Lightning Network'i s
 Musid ja näeme varsti!
 
 Rogzy'
+

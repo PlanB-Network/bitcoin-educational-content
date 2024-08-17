@@ -1123,7 +1123,7 @@ Le 11 juillet 2010, une version rectifiée de la présentation de Bitcoin rédig
 >
 > *original: "How's this for a disruptive technology? Bitcoin is a peer-to-peer, network-based digital currency with no central bank, and no transaction fees. Using a proof-of-work concept, nodes burn CPU cycles searching for bundles of coins, broadcasting their findings to the network. Analysis of energy usage indicates that the market value of Bitcoins is already above the value of the energy needed to generate them, indicating healthy demand. The community is hopeful the currency will remain outside the reach of any government."*
 
-![Logo de Slashdot en 2010](assets/img/ch8/slashdot-logo.webp)
+![Logo de Slashdot en 2010](assets/img/ch8/1.webp)
 
 La publication est remarquée et près de 500 commentaires sont publiés en quelques jours. Du côté de Bitcoin, ce succès provoque un afflux massif de visiteurs sur le site et sur le forum. L'utilisation de la chaîne explose : le nombre de transactions effectuées sur le réseau passe de 42 le 10 juillet à 1 641 le 12, pour atteindre 5 554 le 14, un record absolu. Le système tient le choc malgré la montée en charge. Le 14, le développeur Gavin Andresen [écrit](https://bitcointalk.org/index.php?topic=286.msg2745#msg2745) ainsi sur le forum :
 
@@ -1139,13 +1139,13 @@ Un autre effet de l'afflux de personnes provenant de Slashdot est l'accroissemen
 
 Parmi les personnes qui découvrent Bitcoin grâce à Slashdot, il y a Jed McCaleb, un entrepreneur et programmeur américain de 35 ans, connu pour avoir cofondé et développé le logiciel de partage de fichiers en pair à pair eDonkey2000 dans les années 2000. Constatant à quel point il est pénible de se procurer du bitcoin contre des dollars, il [décide](https://bitcointalk.org/index.php?topic=4187.msg60610#msg60610) « sur un coup de tête » (*original: "on a lark"*) de créer une place de marché performante. Pour ce faire, il réutilise un de ses anciens projets mis au point [en 2007](https://gwern.net/doc/bitcoin/2014-mccaleb) : *Magic The Gathering Online eXchange* (MTGOX), un site web qui permettait d'acheter et de vendre des cartes du jeu en ligne *Magic: The Gathering Online*. Il reprend le nom de domaine de ce projet (mtgox.com), qui donne son nom à la nouvelle plateforme : Mt. Gox, prononcé « *Mount Gox* ».
 
-![Jed McCaleb en 2013](assets/img/ch8/20130925-JED-MCCALEB-037edit.webp)
+![Jed McCaleb en 2013](assets/img/ch8/2.webp)
 
 Jed McCaleb en 2013 (source : Ariel Zambelich pour [Wired](https://web.archive.org/web/20131001233752/http://www.wired.com/wiredenterprise/2013/09/jed_mccaleb/))
 
 Une semaine plus tard, le 18 juillet, Jed McCaleb lance sa plateforme de change et l'[annonce](https://bitcointalk.org/index.php?topic=444.msg3866#msg3866) sur le forum. Grâce à son expertise, il fait en sorte que la plateforme fonctionne comme une place de marché automatisée, à l'instar des bourses en ligne modernes. [D'après lui](https://bitcointalk.org/index.php?topic=444.msg3891#msg3891), elle se distingue de Bitcoin Market par le fait qu'elle est « toujours en ligne, automatisée », que « le site est plus rapide et a un hébergement dédié » et que « l'interface est plus agréable ». Par conséquent, Mt. Gox s'impose rapidement comme le moyen principal de se procurer du bitcoin, devenant la référence en ce qui concerne le cotation en dollars.
 
-![Interface de la plateforme Mt. Gox en février 2011](assets/img/ch8/mtgox-screenshot-20110203.webp)
+![Interface de la plateforme Mt. Gox en février 2011](assets/img/ch8/3.webp)
 
 Interface de la plateforme Mt. Gox en février 2011 (source : [archive de Mt. Gox](https://web.archive.org/web/20110203031942/http://mtgox.com/))
 
@@ -1171,7 +1171,7 @@ Toutefois, le créateur de Bitcoin n'est pas seul à travailler sur le code. Il 
 
 On peut enfin citer Jeff Garzik (utilisant le pseudonyme jgarzik sur le forum), qui est un développeur américain, contributeur dans le monde du logiciel libre, notamment pour la distribution Red Hat, et libertarien adepte de l'école autrichienne d'économie. Ce dernier découvre Bitcoin avec l'article publié sur Slashdot et s'investit presque immédiatement dans Bitcoin.
 
-![Jeff Garzik en 2013](assets/img/ch9/jeff-garzik-2013.webp)
+![Jeff Garzik en 2013](assets/img/ch9/1.webp)
 
 Jeff Garzik en 2013 (source : [Benson Samuel](https://bensonsamuel.com/bitcoin-3/talking-bitcoin-with-jeff-garzik/))
 
@@ -1217,7 +1217,7 @@ Bien que Satoshi n'ait pas mentionné l'existence la limite de taille des blocs,
 
 Enfin, la présence de ce paramètre affecte Jeff Garzik qui [déclare](https://bitcointalk.org/index.php?topic=1314.msg14750#msg14750) être « beaucoup plus préoccupé par le passage à l'échelle que par la coupure \[de Bitcoin\] par un État » (*original: "much more concerned about scalability than government shutdown"*) et qui [demande](https://bitcointalk.org/index.php?topic=1341.msg15107#msg15107) comment il est possible de « vendre le bitcoin à des investisseurs sérieux, avec des limitations intégrées telles que la limite de 463 transactions par minute ». (*original: "How can we sell bitcoin to serious investors, with built-in limitations like the 463 transactions/minute limit?"*) Par conséquent, le 3 octobre, il propose un correctif sur le forum pour élever la limite de taille des blocs à 7,168 Mo afin d'« égaler le taux transactionnel moyen de PayPal ». Theymos lui répond en disant que « l'application de ce correctif \[le\] rendra incompatible avec les autres clients Bitcoin ». (*original: "Applying this patch will make you incompatible with other Bitcoin clients."*) Ce message est approuvé par Satoshi Nakamoto qui [recommande](https://bitcointalk.org/index.php?topic=1347.msg15139#msg15139) de pas utiliser le correctif et qui déclare : « Nous pouvons introduire un changement plus tard si nous en avons besoin. » (*original: "We can phase in a change later if we get closer to needing it."*) Ce dernier [précisera](https://bitcointalk.org/index.php?topic=1347.msg15366#msg15366) sa pensée le lendemain en donnant la marche à suivre pour réaliser un tel changement du protocole.
 
-![Message de Satoshi Nakamoto décrivant une augmentation de la taille limite des blocs en 2010](assets/img/ch9/satoshi-increase-block-size-2010.webp)
+![Message de Satoshi Nakamoto décrivant une augmentation de la taille limite des blocs en 2010](assets/img/ch9/2.webp)
 
 Cette discussion marque le début du débat sur la scalabilité, qui finira pas engendrer une véritable guerre civile entre 2015 et 2017, connue sous le nom de guerre des blocs ou de *blocksize war*.
 
@@ -1250,7 +1250,7 @@ Il a constitué en particulier une période fastueuse pour le minage, qui s'est 
 
 Après le slashdotting de Bitcoin en juillet 2010, la récompense financière élevée apportée par la hausse du prix et par l'éventualité de croissances futures incite les individus à se consacrer à la génération de bitcoins de manière plus poussée. C'est pourquoi le [taux de hachage](https://bitinfocharts.com/comparison/bitcoin-hashrate.html#alltime) du réseau, qui était de 0,22 GH/s le 11 juillet, passe à 2,78 GH/s le 17, puis à 5,79 GH/s le 15 août, pour ensuite atteindre 9,94 GH/s le 19 septembre et enfin 12,58 GH/s le 29.
 
-![Taux de hachage total du réseau du 11 juillet au 5 octobre 2010](assets/img/ch10/btc-hashrate-coinwarz-july-sept-2010.webp)
+![Taux de hachage total du réseau du 11 juillet au 5 octobre 2010](assets/img/ch10/1.webp)
 
 Taux de hachage total du réseau du 11 juillet au 5 octobre 2010 (source : [CoinWarz](https://www.coinwarz.com/mining/bitcoin/hashrate-chart))
 
@@ -1258,7 +1258,7 @@ Le plus gros mineur de cette période est un développeur allemand qui se fait a
 
 Il se met à générer des bitcoins le 19 juillet. Le 25 juillet, dans un fil sondant les utilisateurs sur leur nombre de bitcoins possédés, ArtForz [affirme](https://web.archive.org/web/20151121004205/https://bitcointalk.org/index.php?topic=564.msg5617#msg5617) avoir généré 1 700 bitcoins en 6 jours, ce qui correspond à 4 % du taux de hachage, soit 80 MH/s. Peu à peu, il construit une grande ferme de minage, qui sera connue sous le nom d'« ArtFarm ». En août, sa ferme [comprend](https://www.ofnumbers.com/2014/04/20/how-artforz-changed-the-history-of-bitcoin-mining/) 6 ATI Radeon HD 5770, ce qui lui permet de passer de 76 MH/s le 9 août à environ 450 MH/s le 13.
 
-![Production minière d'ArtForz entre août et octobre 2010](assets/img/ch10/artforz-block-production-aug-oct-2010.webp)
+![Production minière d'ArtForz entre août et octobre 2010](assets/img/ch10/2.webp)
 
 Production minière d'ArtForz entre août et octobre 2010 (source : Blackburn et al., [*Cooperation among an anonymous group protected Bitcoin during failures of decentralization*](https://arxiv.org/pdf/2206.02871))
 
@@ -1292,7 +1292,7 @@ Le 23 novembre, une version modifiée de la fonction `getwork` est ajoutée au [
 
 Le 27 novembre, un jeune développeur tchèque appelé Marek Palatinus et utilisant le pseudonyme slush [publie](https://web.archive.org/web/20101206144824/http://www.bitcoin.org/smf/index.php?topic=1976.0) une description de « minage coopératif » sur le forum, modèle qui exploite `getwork` et la logique de Jeff Garzik. Ce modèle se base sur les preuves de travail partielles produites par les hacheurs (*pay-per-share*). Le lendemain, Satoshi Nakamoto [approuve](https://bitcointalk.org/index.php?topic=1976.msg25119#msg25119) le concept.
 
-![Marek Palatinus (slush) lors de la conférence Z-DAY à Prague le 11 mai 2013](assets/img/ch10/marek-palatinus-may-2013.webp)
+![Marek Palatinus (slush) lors de la conférence Z-DAY à Prague le 11 mai 2013](assets/img/ch10/3.webp)
 
 Marek Palatinus (slush) lors de la conférence Z-DAY à Prague le 11 mai 2013
 
@@ -1304,7 +1304,7 @@ Dans la nuit du 15 au 16 décembre, la coopérative est finalement [mise en lign
 
 La coopérative deviendra une référence en ce qui concerne le minage de Bitcoin. Elle [portera](https://en.bitcoin.it/w/index.php?title=Slush_Pool&action=history) plusieurs noms au fil des années : Bitcoin Pooled Mining (BPM), Bitcoin.cz Mining, et enfin Slush Pool, en référence à son créateur. Elle deviendra Braiins Pool en septembre 2022.
 
-![Logo de la coopérative de Slush en septembre 2011](assets/img/ch10/bitcoin-cz-mining-20110923.webp)
+![Logo de la coopérative de Slush en septembre 2011](assets/img/ch10/4.webp)
 
 Logo de la coopérative de Slush en septembre 2011 (source : [archive](https://web.archive.org/web/20110923151034/http://mining.bitcoin.cz:80/) du site)
 
@@ -1334,11 +1334,11 @@ C'est avec la communauté française que les choses changent, notamment grâce �
 
 Quelques jours plus tard, le 30, il publie une [dépêche](https://linuxfr.org/news/connaissez-vous-les-bitcoins) en français sur LinuxFr.org (DLFP). Celle-ci, intitulée « Connaissez-vous les bitcoins ? », est probablement le premier texte de présentation de Bitcoin écrit dans la langue de Molière. L'article touche un grand nombre de personnes, générant près de 350 commentaires. En voici le premier paragraphe tel qu'il [apparaît](https://web.archive.org/web/20101003105210/http://linuxfr.org/2010/09/30/27430.html) à ce moment-là :
 
-![Connaissez-vous les bitcoins ?](assets/img/ch11/grondilu-bitcoins-2010.webp)
+![Connaissez-vous les bitcoins ?](assets/img/ch11/1.webp)
 
 En particulier, cette dépêche a pour effet d'attirer l'attention d'un certain Ploum, de son vrai nom Lionel Dricot, blogueur et libriste belge de 29 ans. Le 25 octobre, ce dernier [publie](https://ploum.net/monnaie-de-geek-monnaie-de-singe/) un article sur son blog, intitulé « Monnaie de geek, monnaie de singe ? », dans lequel il prône la décentralisation et adhère au principe de Bitcoin. De nombreux internautes francophones entendent parler de Bitcoin par ce biais, dont [Amaury Séchet](https://www.reddit.com/r/Bitcoincash/comments/6y7ssg/ama_i_am_amaury_s%C3%A9chet_udeadalnix_bitcoin_abc/dml9h55/), le développeur qui sera à l'origine de la création de Bitcoin Cash en 2017.
 
-![Lionel Dricot (Ploum) en 2012, alors candidat sous la bannière du Parti Pirate pour les élections communales et provinciales belges](assets/img/ch11/lionel-dricot-ploum-parti-pirate-2012.webp)
+![Lionel Dricot (Ploum) en 2012, alors candidat sous la bannière du Parti Pirate pour les élections communales et provinciales belges](assets/img/ch11/2.webp)
 
 Lionel Dricot (Ploum) en 2012, alors candidat sous la bannière du Parti Pirate pour les élections communales et provinciales belges (source : [Framablog](https://framablog.org/2012/10/10/lionel-dricot-ploum-parti-pirate-belgique/))
 
@@ -1348,17 +1348,17 @@ Le même jour, Ploum ouvre le [fil de discussion](https://bitcointalk.org/index.
 
 Outre le développement des communautés linguistiques, on assiste à une certaine innovation dans les moyens employés pour la communication au sujet de Bitcoin. Le 4 octobre, un Australien de 38 ans utilisant le pseudonyme noagendamarket [lance](https://bitcointalk.org/index.php?topic=1355.msg15217#msg15217) une initiative portant le nom de BitcoinMedia. L'idée est de promouvoir Bitcoin en créant divers contenus et d'en faire la publicité à des endroits susceptibles d'attirer un public. Bien que cette initiative ne rencontre pas le succès escompté, elle a le mérite de mener à la production des premières vidéos parlant de Bitcoin. La première vidéo de la chaîne, [publiée](https://bitcointalk.org/index.php?topic=1355.msg15461#msg15461) le 5 octobre, est une *Google Search Story*, créée grâce à l'outil Youtube (voir la capture ci-dessous). Les autres vidéos seront générées avec Xtranormal, un outil facile de réalisation de séquences vidéo à partir d'un ensemble de personnages et de décors préconçus.
 
-![Première vidéo sur Bitcoin (Google Search Story)](assets/img/ch11/bitcoinmedia-video-20101005.webp)
+![Première vidéo sur Bitcoin (Google Search Story)](assets/img/ch11/3.webp)
 
 Les billets de blog à propos de Bitcoin se multiplient durant cette période. C'est notamment le cas de Jon Matonis, qui tient le blog *The Monetary Future* où il traite de sujets liés aux monnaies numériques, à la banque libre et à la cryptographie. Il a découvert Bitcoin en mars et a [échangé](https://web.archive.org/web/20140511100607/https://bitcoinfoundation.org/forum/index.php?/topic/54-my-first-message-to-satoshi/#entry514) avec Satoshi, suite à quoi il s'est mis à écrire sur le sujet. En octobre, il publie un [troisième article](https://themonetaryfuture.blogspot.com/2010/10/rally-in-bitcoin.html) où il parle de la hausse du prix et détaille les nouveautés de l'écosystème.
 
-![Photo de profil de Jon Matonis en 2011](assets/img/ch11/jon-matonis-2011.webp)
+![Photo de profil de Jon Matonis en 2011](assets/img/ch11/4.webp)
 
 Photo de profil de Jon Matonis en 2011 (source : [Forbes](https://www.forbes.com/sites/jonmatonis/))
 
 C'est aussi à ce moment-là qu'un nouveau logo de Bitcoin est proposé. Le 1er novembre, un membre du forum utilisant le pseudonyme bitboy [publie](https://bitcointalk.org/index.php?topic=1631.0) des éléments graphiques permettant de mettre en avant la cryptomonnaie. L'un de ces éléments est un logo orange avec le B barré légèrement incliné :
 
-![Logo de Bitcoin conçu par bitboy, novembre 2010](assets/img/ch11/bitboy-bitcoin-logo.webp)
+![Logo de Bitcoin conçu par bitboy, novembre 2010](assets/img/ch11/5.webp)
 
 ### Une économie en croissance
 
@@ -1366,7 +1366,7 @@ Cette période est également marquée par une croissance remarquable de l'écos
 
 Tous ces éléments mènent le prix à augmenter de manière drastique. Alors qu'il se stabilise autour de 6 ¢ depuis août, celui-ci commence à augmenter au début du mois d'octobre. Il passe à 10 ¢, pour atteindre 20 ¢ à la fin du mois. Le 6 novembre, il dépasse même les 50 ¢, ce qui ne manque pas d'[enthousiasmer](https://bitcointalk.org/index.php?topic=1681.0) les membres du forum.
 
-![Prix du BTC entre le 18 juillet et le 18 octobre 2010 sur Mt. Gox](assets/img/ch11/matonis-btc-price-mtgox-july-october-2010.webp)
+![Prix du BTC entre le 18 juillet et le 18 octobre 2010 sur Mt. Gox](assets/img/ch11/6.webp)
 
 Prix du BTC entre le 18 juillet et le 18 octobre 2010 sur Mt. Gox (source : [*The Monetary Future*](https://themonetaryfuture.blogspot.com/2010/10/rally-in-bitcoin.html))
 
@@ -1384,7 +1384,7 @@ Un dernier élément indiquant le succès de Bitcoin est le fait que certains ch
 
 Un évènement marquant de la fin de l'année 2010 est l'acceptation du bitcoin par l'*Electronic Frontier Foundation*, une organisation internationale de protection des libertés sur Internet, cofondée en 1900 par Mitch Kapor, John Gilmore et John Perry Barlow. Celle-ci tient à cœur aux premiers adeptes de Bitcoin, cypherpunks dans l'âme. Ils tiennent ainsi à ce qu'elle accepte le bitcoin.
 
-![Logo de l'Electronic Frontier Foundation](assets/img/ch11/eff-logo-2010.webp)
+![Logo de l'Electronic Frontier Foundation](assets/img/ch11/7.webp)
 
 C'est le membre du forum appelé Kiba qui franchit le pas le 13 août 2010, en [proposant](https://bitcointalk.org/index.php?topic=804.msg9021#msg9021) de contacter l'EFF et de lui proposer de recevoir un don, [récolté](https://bitcointalk.org/index.php?topic=778.msg8578#msg8578) auprès de la communauté. Il met pour cela en place un [compte](https://mempool.space/address/1MCwBbhNGp5hRm5rC1Aims2YFRe2SXPYKt) sur MyBitcoin où il récupère les fonds et dont il souhaite transmettre les accès à l'EFF. Il rédige un courriel (corrigé par la communauté) qu'il envoie à la fin du mois d'août.
 
@@ -1454,13 +1454,13 @@ Gavin, qui est proche de Satoshi mais qui discute également avec les autres dé
 
 L'élément déclencheur du départ de Satoshi est l'affaire WikiLeaks. WikiLeaks est une organisation non gouvernementale fondée par le cypherpunk Julian Assange en 2006, ayant pour but de donner une audience aux lanceurs d'alertes et aux fuites d'information, tout en protégeant leurs sources. Au cours de l'année 2010, les documents confidentiels révélés de l'ONG sont relayés par les grands médias et font du bruit dans l'opinion publique. Ceux-ci concernent notamment les agissements excessifs de l'armée américaine, comme les victimes civiles et les actes de torture perpétrés, en Afghanistan (Afghan War Diary) et en Irak (Iraq War Logs).
 
-![Logo de WikiLeaks en novembre 2010](assets/img/ch12/wikileaks-logo-2010.webp)
+![Logo de WikiLeaks en novembre 2010](assets/img/ch12/1.webp)
 
 Le financement de WikiLeaks repose essentiellement sur les dons du public, de sorte que l'organisation repose sur les processeurs de paiement permettant de recevoir des paiements en ligne. Toutefois, suite à ces révélations, la pression est mise sur ces tiers qui craignent la réaction du régulateur. C'est pourquoi la société de paiement en ligne Moneybookers [gèle](https://www.theguardian.com/media/2010/oct/14/wikileaks-says-funding-is-blocked) le compte de l'ONG le 14 octobre.
 
 Cet état de fait ouvre une voie royale pour l'utilisation de Bitcoin, qui ne repose sur aucun tiers de confiance et qui résisterait beaucoup mieux à la censure financière. L'hypothèse est ouverte sur le forum en novembre par Amir Taaki, un jeune britannique d'origine iranienne de 22 ans utilisant le pseudonyme genjix.
 
-![Amir Taaki en décembre 2012 à Bratislava](assets/img/ch12/amir-taaki-bratislava-2012.webp)
+![Amir Taaki en décembre 2012 à Bratislava](assets/img/ch12/2.webp)
 
 Amir Taaki en décembre 2012 à Bratislava (source : [Mitch Altman](https://www.flickr.com/photos/maltman23/8272321106/))
 
@@ -1616,25 +1616,25 @@ Mais c'est surtout la gestion du site web que Martti a besoin de déléguer. À 
 
 Son aspect change également. En décembre 2010, le site web ressemblait toujours à ce qu'il a été lors de l'ère Satoshi. Voici une [capture](https://web.archive.org/web/20101110005546/http://www.bitcoin.org/) du 5 décembre :
 
-![Capture de Bitcoin.org du 5 décembre 2010](assets/img/ch13/bitcoinorg-20101205.webp)
+![Capture de Bitcoin.org du 5 décembre 2010](assets/img/ch13/1.webp)
 
 Ainsi, une touche de couleur est [ajoutée](https://web.archive.org/web/20110216125441/http://www.bitcoin.org/) début 2011 :
 
-![Capture de Bitcoin.org du 16 février 2011](assets/img/ch13/bitcoinorg-20110216.webp)
+![Capture de Bitcoin.org du 16 février 2011](assets/img/ch13/2.webp)
 
 En avril, suite à une refonte [organisée](https://bitcointalk.org/index.php?topic=4223.msg80581#msg80581) par la communauté, le site web change de disposition. Voici à quoi il [ressemble](https://web.archive.org/web/20110411071904/http://www.bitcoin.org/) alors :
 
-![Capture de Bitcoin.org du 11 avril 2011](assets/img/ch13/bitcoinorg-20110411.webp)
+![Capture de Bitcoin.org du 11 avril 2011](assets/img/ch13/3.webp)
 
 Enfin en septembre 2011, un nouveau changement est [réalisé](https://buildingbitcoin.org/bitcoin-dev/log-2011-08-31.html#l-691) par Nils Schneider. Un nouveau dépôt GitHub est [créé](https://github.com/bitcoin/bitcoin.org) pour l'occasion. Ce modèle restera plus longtemps : il ne sera pas modifié avant l'année 2013. Le [voici](https://web.archive.org/web/20110923155001/http://bitcoin.org/) (notons que Bitcoin-le-logiciel est alors décrit comme « un projet open source piloté par la communauté » (*original: "a community-driven open source project"*)) :
 
-![Capture de Bitcoin.org du 23 septembre 2011](assets/img/ch13/bitcoinorg-20110923.webp)
+![Capture de Bitcoin.org du 23 septembre 2011](assets/img/ch13/4.webp)
 
 Pour ce qui est du wiki, celui-ci est initialement basé sur DokuWiki, un moteur libre et intégré au site web. Toutefois, en décembre 2010, Mark Karpelès, un développeur français habitant au Japon et utilisant le pseudonyme MagicalTux sur le forum, crée un nouveau wiki, à l'adresse bitcoin.it. Ce wiki est basé sur le moteur MediaWiki, qu'il juge plus élégant et plus facile à utiliser. L'idée au début n'est pas de remplacer la documentation existante, mais, comme Mark l'[exprime](https://buildingbitcoin.org/bitcoin-dev/log-2010-12-16.html#l-2848) sur IRC, de développer « un wiki moins formel et plus axé sur la communauté ». (*original: "a less formal, more community-oriented wiki"*)
 
 Ce nouveau wiki séduit [Martti Malmi](https://bitcointalk.org/index.php?topic=2321.msg30873#msg30873) et [Gavin Andresen](https://bitcointalk.org/index.php?topic=2321.msg31535#msg31535), de sorte qu'ils envisagent rapidement d'en faire le wiki principal. En voici une [capture](https://web.archive.org/web/20110521044430/https://en.bitcoin.it/wiki/Main_Page), réalisée le 21 mai :
 
-![Capture du wiki Bitcoin.it du 21 mai 2011](assets/img/ch13/bitcoinit-20110521.webp)
+![Capture du wiki Bitcoin.it du 21 mai 2011](assets/img/ch13/5.webp)
 
 Quelques jours après le lancement, le lien intitulé « wiki » présent sur la page de garde de Bitcoin.org [pointe](https://bitcointalk.org/index.php?topic=2321.msg30872#msg30872) vers Bitcoin.it. Le contenu est progressivement rapatrié depuis la version DokuWiki. Le 31 janvier, Martti [indique](https://bitcointalk.org/index.php?topic=293.msg42789#msg42789) sur le forum qu'il s'agit du nouveau wiki.
 
@@ -1650,19 +1650,19 @@ Les premiers meet-ups entre utilisateurs de Bitcoin ont lieu à l'initiative de 
 
 Le mois de février marque aussi la [première présentation filmée](https://www.youtube.com/watch?v=koIq58UoNfE) de Bitcoin, qui est réalisée par Gavin Andresen le 8 à l'occasion d'un évènement organisé dans sa ville de résidence, Amherst, dans le Massachusetts. Intitulée « *Making Money* », l'exposé du nouveau mainteneur principal du projet contient de nombreux éléments de langage qui caractériseront la façon de présenter la cryptomonnaie dans les années qui suivront.
 
-![Gavin Andresen lors de sa présentation de Bitcoin à Amherst en février 2011](assets/img/ch13/gavin-andresen-amherst-20110208.webp)
+![Gavin Andresen lors de sa présentation de Bitcoin à Amherst en février 2011](assets/img/ch13/6.webp)
 
 Gavin Andresen lors de sa présentation de Bitcoin à Amherst en février 2011 (source : [Youtube](https://www.youtube.com/watch?v=koIq58UoNfE))
 
 Même si les premiers évènements ont lieu aux États-Unis, la communauté française n'est pas en reste. Le 25 mai, à l'occasion de la venue de Gavin Andresen à Paris, un déjeuner est organisé dans le quartier de la Défense, où sont notamment présents Lucien Grondin, David François et Jon Matonis (qui est aussi de passage).
 
-![Rencontre à la Défense à Paris avec Gavin Andresen, en chemise rose](assets/img/ch13/meetup-paris-20110525.webp)
+![Rencontre à la Défense à Paris avec Gavin Andresen, en chemise rose](assets/img/ch13/7.webp)
 
 Rencontre à la Défense à Paris avec Gavin Andresen, en chemise rose (source : [archive du forum](https://web.archive.org/web/20140715000000*/https://bitcointalk.org/index.php?topic=5587.40))
 
 Un mois plus tard, le 15 juin, la première présentation publique de Bitcoin en français [a lieu](https://bitcointalk.org/index.php?topic=11384.msg225831#msg225831), encore à Paris. Elle est le fait de Renaud Lifchitz (nono2357), jeune expert en sécurité informatique, qui a découvert Bitcoin un an auparavant. Le [contenu présenté](https://prezi.com/tikwkjt9ouey/bitcoin-une-monnaie-electronique-pour-tous/) est de très bonne qualité et l'audience répond à l'appel, si bien que la salle est bondée.
 
-![Présentation de Bitcoin par Renaud Lifchitz le 15 juin 2011](assets/img/ch13/workshop-renaud-lifchitz-june-2011.webp)
+![Présentation de Bitcoin par Renaud Lifchitz le 15 juin 2011](assets/img/ch13/8.webp)
 
 Présentation de Bitcoin par Renaud Lifchitz le 15 juin 2011 (source : [archive du forum](https://web.archive.org/web/20140406141205/https://bitcointalk.org/index.php?topic=11384.0))
 
@@ -1684,7 +1684,7 @@ Tout d'abord, les vidéos sur le sujet fleurissent sur Youtube. Le 22 mars, la p
 
 En avril, le sujet de la monnaie numérique est abordé par des grands noms de la presse généraliste comme [The Atlantic](https://www.theatlantic.com/business/archive/2011/04/how-to-start-your-own-private-currency/73327/), [Time Magazine](https://techland.time.com/2011/04/16/online-cash-bitcoin-could-challenge-governments/) et [Forbes](https://www.forbes.com/forbes/2011/0509/technology-psilocybin-bitcoins-gavin-andresen-crypto-currency.html). En mai, le mouvement s'amplifie et Bitcoin est évoqué un peu partout, notamment dans [Wired UK](https://web.archive.org/web/20110517122859/http://www.wired.co.uk/news/archive/2011-05/16/bitcoin-p2p-currency), sur [Slate](https://slate.com/business/2011/05/bitcoin-why-the-new-electronic-currency-is-a-favorite-of-libertarian-hipsters-and-criminals.html), sur [Gizmodo](https://gizmodo.com/what-is-bitcoin-5803124) et sur [TechCrunch](https://techcrunch.com/2011/05/20/bitcoin-ven-and-the-end-of-currency/).
 
-![Gavin Andresen dans Forbes en avril 2011](assets/img/ch13/gavin-andersen-forbes-20110420.webp)
+![Gavin Andresen dans Forbes en avril 2011](assets/img/ch13/9.webp)
 
 Gavin Andresen dans Forbes en avril 2011 (source : [archive de Forbes](https://web.archive.org/web/20110502052302/https://www.forbes.com/forbes/2011/0509/technology-psilocybin-bitcoins-gavin-andresen-crypto-currency.html))
 
@@ -1696,7 +1696,7 @@ Les blogueurs individuels sont de même intéressés. C'est le cas de Rick Falkv
 
 La popularisation de Bitcoin fait que son prix augmente de manière significative. Alors qu'il est redescendu à 20 centimes en décembre 2010, il atteint la parité avec le dollar le 9 février 2011. À ce moment-là, Hal Finney [déclare](https://bitcointalk.org/index.php?topic=2734.msg37307#msg37307) que les membres de la communauté ont « vraiment de la chance d'être au début d'un nouveau phénomène potentiellement explosif ». (*original: "We are really lucky to be in at the beginning of a possibly explosive new phenomenon."*) Il a du flair, car ce qui se produit ensuite est fulgurant.
 
-![Photographie postée par jimbobway sur le forum le jour de la parité avec le dollar](assets/img/ch13/parity-party-jimbobway-february-2011.webp)
+![Photographie postée par jimbobway sur le forum le jour de la parité avec le dollar](assets/img/ch13/10.webp)
 
 Photographie publiée par jimbobway sur le forum le jour de la parité avec le dollar (source : [Bitcointalk](https://bitcointalk.org/index.php?topic=2734.msg37144#msg37144))
 

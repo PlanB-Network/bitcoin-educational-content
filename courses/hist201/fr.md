@@ -1512,7 +1512,7 @@ Le lendemain, Satoshi [publie](https://bitcointalk.org/index.php?topic=2228.msg2
 
 Dans les jours qui suivent, l'article publié sur PC World produit son effet. Le 14 décembre, l'invention de Satoshi est évoquée par l'*Electronic Frontier Foundation* dans un [texte](https://www.eff.org/deeplinks/2010/12/constructive-direct-action-against-censorship) concernant de la censure de WikiLeaks (plus tard, l'organisation [qualifiera](https://www.eff.org/deeplinks/2011/01/bitcoin-step-toward-censorship-resistant) Bitcoin de « monnaie numérique résistante à la censure »). Le 23, la cryptomonnaie est [mentionnée](https://web.archive.org/web/20180226161051/http://www.youtube.com/watch?v=VMngK0t5WkY) le Keiser Report, une émission financière présentée par Max Keiser et Stacy Herbert sur la chaîne russe RT, toujours dans le contexte de WikiLeaks. Cette couverture médiatique augmente considérablement l'attention portée à Bitcoin, ce qui confirme les craintes de Satoshi.
 
-### La transmission des accès et derniers courriels (déc. 2010 -- mai 2011)
+### La transmission des accès et derniers courriels
 
 Dès le début du mois de décembre, Satoshi organise sa succession. Puisqu'il compte partir, ou du moins se mettre en retrait, il doit transmettre les différentes responsabilités aux personnes en qui il a confiance, en l'occurrence Martti Malmi et Gavin Andresen. Toutefois, il ne le leur indique jamais son intention.
 
@@ -1546,7 +1546,7 @@ Enfin, début mai, il fait également ses adieux à Martti. Ses derniers mots po
 >
 > *original (Digital Gold p. 81): "I've moved to other things and probably won't be around in the future."*
 
-### La CIA, WikiLeaks et l'EFF (avr. 2011 -- juin 2011)
+### La CIA, WikiLeaks et l'EFF
 
 Le 26 avril 2011, Gavin Andresen envoie un [dernier courriel](http://gavinandresen.ninja/eleven-years-ago-today) à Satoshi Nakamoto, auquel ce dernier ne répondra pas. Dans ce courriel, il [indique](http://gavinandresen.ninja/eleven-years-ago-today) avoir été invité par l'In-Q-Tel, un fonds américain de capital-investissement géré par la CIA, afin qu'il présente Bitcoin. Il a très bien conscience du type de réaction que cette visite va engendrer mais décide tout de même d'y aller. Il se justifie en écrivant à Satoshi :
 
@@ -1582,7 +1582,7 @@ Cette dimension mystérieuse entourant le créateur de Bitcoin a par ailleurs é
 >
 > *What's the S stand for?"*
 
-## La prise de relai de la communauté (avr. 2011 -- sept. 2011)
+## La prise de relai de la communauté
 
 Après le départ de Satoshi Nakamoto, il a été nécessaire de faire sans lui. Heureusement, Bitcoin était un projet libre, auquel tout le monde pouvait contribuer, de sorte que la disparition de son fondateur n'a pas été fatale pour lui. Comme l'[écrivait](https://bitcointalk.org/index.php?topic=628.msg6578#msg6578) le développeur Jeff Garzik en juillet 2010 (à propos de l'éventualité d'une absence du fondateur) :
 
@@ -1642,7 +1642,7 @@ Le troisième élément est le forum de Bitcoin. Celui-ci est administré par Ma
 
 Avec la hausse du cours au cours de l'été 2011, Martti Malmi [vendra](https://twitter.com/marttimalmi/status/1339908793736556544) une bonne partie de ses bitcoins pour s'acheter un confortable appartement près de Helsinki. Puis, il [quittera](https://x.com/marttimalmi/status/1339908797968637952) son emploi pour passer quelques mois au Japon. Il abandonnera le site et le forum [les](https://bitcointalk.org/index.php?topic=5129680.msg50617107#msg50617107) [laissant](https://bitcointalk.org/index.php?topic=1603627.msg16115993#msg16115993) entre les mains de Theymos et d'un certain Cøbra, [décrit](https://forum.bitcoin.com/ama-ask-me-anything/i-m-martti-malmi-early-bitcoin-developer-and-the-original-founder-of-the-bitcointalk-org-forums-ama-t2770.html#p8222) par Martti comme « quelqu'un en qui Satoshi a confiance » (*original: "someone trusted by Satoshi"*). Les deux hommes s'occuperont de co-gérer les deux plateformes durant les années qui suivront.
 
-### Les conférences et rencontres (févr. -- août 2011)
+### Les conférences et rencontres
 
 Il n'y pas que le côté technique qui est concerné par le départ du fondateur et la nécessité de coopérer : il y a également l'aspect social, qui permet de souder la communauté en créant des liens entre les membres. C'est pourquoi des rencontres et des conférences sont organisées *in real life*. Ces dernières ont en outre l'avantage de pouvoir faire découvrir Bitcoin aux personnes qui seraient plus allergiques au contenu sur Internet.
 
@@ -1692,7 +1692,7 @@ La radio est également utilisée pour parler de la cryptomonnaie. Un épisode d
 
 Les blogueurs individuels sont de même intéressés. C'est le cas de Rick Falkvinge, le fondateur du Parti pirate suédois, qui publie [plusieurs](https://falkvinge.net/2011/05/11/with-the-napster-of-banking-round-the-corner-bring-out-your-popcorn/) [articles](https://falkvinge.net/2011/05/19/the-information-policy-case-for-flat-tax-and-basic-income/) au sujet de la création de Satoshi Nakamoto durant le mois de mai. Il décrit Bitcoin (et les systèmes apparentés comme Ripple) comme « le Napster de la banque ». Ses arguments sont repris par de nombreuses personnes comme le mutuelliste [Kevin Carson](https://c4ss.org/content/7149) aux États-Unis ou le blogueur libéral [h16](https://h16free.com/2011/05/30/8585-revolution-numerique-aujourdhui-musique-et-cinema-et-demain) en France. Le 29, Rick Falkvinge [annoncera](https://falkvinge.net/2011/05/29/why-im-putting-all-my-savings-into-bitcoin/) « placer toutes son épargne dans le bitcoin » !
 
-### La première bulle (déc. 2010 -- 8 juin 2011)
+### La première bulle
 
 La popularisation de Bitcoin fait que son prix augmente de manière significative. Alors qu'il est redescendu à 20 centimes en décembre 2010, il atteint la parité avec le dollar le 9 février 2011. À ce moment-là, Hal Finney [déclare](https://bitcointalk.org/index.php?topic=2734.msg37307#msg37307) que les membres de la communauté ont « vraiment de la chance d'être au début d'un nouveau phénomène potentiellement explosif ». (*original: "We are really lucky to be in at the beginning of a possibly explosive new phenomenon."*) Il a du flair, car ce qui se produit ensuite est fulgurant.
 

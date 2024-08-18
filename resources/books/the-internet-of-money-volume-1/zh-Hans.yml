@@ -1,8 +1,8 @@
-标题："货币的互联网"
-出版年份：2016
-封面：cover_en.webp
+title: "货币的互联网"
+publication_year: 2016
+cover: cover_en.webp
 原版：true
-description:
+description: |
   Andreas Antonopoulos所著的《货币的互联网》一书解释了比特币及其底层技术的基础知识。在这一卷中，Antonopoulos专注于数字货币的基本原理，包括其起源故事、革命性潜力以及为了被广泛采纳必须克服的障碍。他还深入探讨了比特币对社会和经济的更广泛影响，探索其颠覆传统银行和金融机构的潜力，以及其赋予个人权力和促进财务自由的能力。这本书是想要了解这项革命性技术的初学者的绝佳入门读物。
 contributors:
   - rabbit-hole

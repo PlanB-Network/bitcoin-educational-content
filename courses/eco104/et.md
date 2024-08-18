@@ -36,9 +36,11 @@ Selle kursuse on sponsoreerinud TETHER
 +++
 
 # Sissejuhatus
+
 <partId>d44d9f32-c72e-58a4-9855-12e29f3e763c</partId>
 
 ## Sissejuhatus
+
 <chapterId>2eaf5947-8180-540e-9418-c40bf04e07ce</chapterId>
 
 ### Elame maailmas, kus:
@@ -79,9 +81,11 @@ Kursuse lõpuks ei ole te mitte ainult omandanud võimsaid teadmisi ja hindamatu
 Oleme põnevil, et liitute meiega sellel teekonnal meie rahandussüsteemi sügavustesse.
 
 # Edu hind - Lähem pilk meie finantssüsteemile
+
 <partId>25ed8242-1b5a-5b53-b833-824b0dd80bcc</partId>
 
 ## Sissejuhatus rahasse
+
 <chapterId>927ad49a-d8d6-5dd3-9250-cdcadcbf425e</chapterId>
 Raha on põnev ja meie igapäevaelus hädavajalik osa. Me kasutame seda iga päev toiduainete ostmiseks, arvete tasumiseks ja lugematute tehingute tegemiseks. Kuid mis on raha tegelikult? Oma olemuselt on raha lihtsalt vahetusvahend, tööriist, mis võimaldab meil kaupu ja teenuseid omavahel vahetada. See on abstraktne kontseptsioon, mida me kõik peame iseenesestmõistetavaks, kuid mis on meie majandussüsteemi jaoks fundamentaalne.
 
@@ -115,7 +119,7 @@ Vaadakem igaüht lähemalt:
 1. **Väärtuse Säilitaja:** Raha toimib vahendina väärtuse tulevikuks säilitamiseks, võimaldades hoidjal säilitada oma ostujõudu aja jooksul. Tehes seda, annab see hoidjale võimaluse säästa ja tulevikuks planeerida. Kuld on sellise väärtuse säilitaja suurepärane näide, kuna see on sajandeid suutnud osta korraliku ülikonna vaid ühe untsiga.
 2. **Vahetusvahend:** Selleks, et raha toimiks kaupade ja teenuste vahetamiseks elujõulise vahetusvahendina, peab see olema kergesti vahetatav. Kuigi tehniliselt võib mis tahes vara kasutada rahana, ei ole suured ja liikumatud varad nagu majad praktilised kasutamiseks vahetusvahendina.
 3. **Arvestusühik:** Lõpuks peaks raha toimima kaupade ja teenuste hindade mõõtmise standardühikuna. See tähendab, et esemed on hinnatud ja väärtustatud selle raha terminites, võimaldades kergesti võrrelda erinevate toodete ja teenuste suhtelist väärtust.
-Kui need kolm raha põhifunktsiooni on täielikult täidetud, on sellisel rahal võime vastata kaubanduse rangeimatele nõudmistele. Ilma nende funktsioonideta on raha palju vähem usaldusväärne ja kindel, põhjustades kaubanduses ebakindlust ja ebakindlust, mis võib mõjutada nii isiklikul kui ka riiklikul tasandil kahjulikult.
+   Kui need kolm raha põhifunktsiooni on täielikult täidetud, on sellisel rahal võime vastata kaubanduse rangeimatele nõudmistele. Ilma nende funktsioonideta on raha palju vähem usaldusväärne ja kindel, põhjustades kaubanduses ebakindlust ja ebakindlust, mis võib mõjutada nii isiklikul kui ka riiklikul tasandil kahjulikult.
 
 Seda silmas pidades, kui meie kasutatav raha pakub meile usaldusväärset väärtuse säilitamise vahendit, tõhusat meetodit tehingute hõlbustamiseks ja ühist väärtuse mõõtmise viisi, võimaldab see meil säästa ja rikkust koguda, kaubelda kindlalt ja tehinguid hõlpsalt sooritada. Need funktsioonid koos mitte ainult ei aita meil kaubelda ja säästa, vaid loovad ka stabiilse ja tõhusa majandussüsteemi aluse, soodustades suuremat majanduskasvu ja jõukust üksikisikutele ja ühiskondadele.
 
@@ -160,7 +164,10 @@ Järgnevates moodulites uurime kahte populaarset raha vormi: Bitcoini ja stabiil
 
 Alates kaupade vahetamisest kuni müntide ja paberraha leiutamiseni on raha läbinud mitmeid muutusi, et kohaneda ühiskonna pidevalt muutuvate vajadustega. Liikudes edasi järgmisse peatükki, muudame kurssi, pöörates tähelepanu raha evolutsioonile.
 
-## Kuidas me siia jõudsime: uurimus
+## Uurimine selle kohta, kuidas me siia jõudsime
+
+<chapterId>4c8ebb36-a6d5-5637-93ca-9a4a222a1c58</chapterId>
+
 Alates kaupade vahetamise päevadest kuni digitaalsete valuutade kaasaegse ajastuni on raha läbinud põneva evolutsiooni. Meie esivanemad kasutasid vahetusvahendina koorikuid, helmeid ja isegi kariloomi. Tänapäeval on meil virtuaalsed rahakotid ja kontaktivabad maksed. See on märkimisväärne teekond, mis on näinud lugematuid iteratsioone, kompromisse ja kohandusi, et rahuldada ühiskonna pidevalt muutuvaid vajadusi.
 
 Kuidas on aga raha, mida täna kasutame, arenenud hädavajalikuks osaks meie elust, nagu see täna on? Selles jaotises uurime raha evolutsiooni, alates selle varasematest vormidest kuni tänapäeval kasutatavate digitaalsete valuutadeni. Sukeldume iga peamise raha iteratsiooni, vaadeldes, kuidas need on kujundanud meie kaasaegset ühiskonda.
@@ -208,6 +215,7 @@ Siiski, kui reisimine muutus lihtsamaks, hakkas maailm avanema ja inimesed mõis
 
 Kokkuvõttes mängis kaubaraha olulist rolli kaubanduse ja kaubavahetuse arengus, kuna see pakkus standardiseeritud vahetusvahendit, mis oli laialdaselt aktsepteeritud. Siiski, kui ühiskonnad muutusid arenenumaks, hakkasid ilmnema muud raha vormid, mis olid mugavamad ja jagatavamad.
 Nende probleemide lahendamiseks hakkasid inimesed otsima kaupu, millel oli ülemaailmselt tunnustatud haruldus, mis viis väärismetallide kasutuselevõtuni vahetusvahendina.
+
 ### Vermitud raha
 
 Kuigi see oli tehniliselt endiselt kaubavahetusraha, jätkasid inimesed parema raha otsinguid ja avastasid ootamatult kangelase: väärismetallid. Need metallid ei olnud mitte ainult ilusad ja ihaldatud nende kasutamise tõttu ehetes, vaid nad täitsid ka paljusid nõudeid, mis teevad neist suurepärase rahalise vara. Nende ülemaailmne haruldus looduses ja oluline investeering, mis on vajalik nende kaevandamiseks, puhastamiseks ja säilitamiseks, andis neile eelise teiste varasemate raha vormide ees.
@@ -235,6 +243,7 @@ Teiseks, metalliga tagatud paberraha ei olnud võltsimise suhtes immuunne. Isegi
 Kuigi metalliga tagatud paberrahal oli oma probleemide osa, sillutas selle suurenenud fungibilisus, jagatavus ja portatiivsus tee tänaseks kasutatavate fiat-valuutade mugavusele, kus praktilisus tihti ületab harulduse.
 
 ### Fiat-valuuta
+
 Fiat-valuutad on olnud meie rahandussüsteemi aluseks juba aastakümneid. Termin "fiat" on ladina keeles "olgu nii" ja viitab riigi volitusele kuulutada valuuta seaduslikuks maksevahendiks. Erinevalt valuutadest, mis kunagi olid kullaga või muude väärtuslike esemetega tagatud, tuleneb fiat-valuuta väärtus valitsuse lubadusest, et keegi aktsepteerib seda kaupade ja teenuste eest maksmisel.
 
 Fiat-valuutad tekkisid, kuna riigid olid frustreeritud metalliga tagatud paberraha üle – valitsustel tuli trükkida rohkem paberraha, hankida rohkem kulda. See oli takistuseks, nii et iga kord, kui riigil oli vaja kapitali, loobuti ajutiselt sellest sidumisest ja laiendati oma rahapakkumist. See uus valuuta oli tagatud ainult usuga valitsusse, arvestades, et see oli seaduslik maksevahend. Mitte ainult see, uus valuuta devalveeris ringluses olevat valuutat, suurendades rahapakkumist ja kuna rohkem dollareid jälitas sama hulka kaupu, tõusid hinnad.
@@ -280,6 +289,7 @@ Liikudes programmeeritava raha maailma poole, jääb Bitcoin omaette liigasse. S
 Erinevate raha vormide uurimisel ajaloos kerkib esile asjakohane küsimus:
 
 ### Kas me liigume õiges suunas?
+
 Sellel teekonnal oleme uurinud raha põnevat evolutsiooni, jälginud selle arengut vahetusest meie praegusesse digiajastusse. Oleme näinud erinevate valuutade tõusu ja langust, alates karpidest ja helmestest kuni väärismetallide ja fiat-raha vormideni.
 
 Siiski, nagu oleme näinud, pole raha arengutee olnud ilma väljakutseteta. Mündikärpimise ja valuutamanipulatsioonide tõus, liikumine tsentraliseerimise suunas ja eemale üldiselt aktsepteeritud vahetusvahendist on vaid mõned näited teel kohatud takistustest.
@@ -293,6 +303,7 @@ Need on keerulised küsimused, mis nõuavad hoolikat kaalutlemist ja mõtisklemi
 Jätkates raha maailma uurimist, on oluline tunnistada olulisi muutusi, mis on aset leidnud alates fiat-valuutade tõusust. Kuigi need valuutad on toonud kaasa teatud mugavuse ja stabiilsuse taseme, on need esitanud ka uusi väljakutseid, nagu inflatsioon, võlataseme tõus ja varanduslik ebavõrdsus. Järgmises jaotises süveneme nendesse probleemidesse sügavamalt ja järgnevates moodulites uurime nende keeruliste probleemide võimalikke lahendusi.
 
 ## Pilguheit sellele, kus me oleme ja mida võime edaspidi oodata
+
 <chapterId>0c38e8fd-c973-57a5-a673-abec706f6054</chapterId>
 
 Nagu eelmises peatükis arutasime, on ajalooliselt raha tihti olnud seotud mingi kaubaga, nagu kuld. Selle eeliseid ei saa üle hinnata. Mitte ainult ei tähendanud see seos, et sellise raha väärtus oli otseselt seotud kauba väärtusega, vaid see tähendas ka, et valuuta väljaandja, tavaliselt valitsus, oli piiratud selles, kui palju raha ta sai trükkida, kuna tal oleks vaja hankida rohkem kulda.
@@ -361,7 +372,7 @@ Kui liidame kokku föderaalse, ettevõtete ja majapidamiste võla, on tulemuseks
 
 Eeldame konservatiivselt, et selle võla keskmine intress on 3%.
 
-3% * 241% = 7,23%
+3% \* 241% = 7,23%
 USA võla koormuse ulatus on selline, et isegi võla intressimaksete teenindamine nõuaks 7,23% aastast kasvumäära - määr, mis on märkimisväärselt kõrgem kui viimase 70 aasta keskmine SKP kasvumäär [3,13%](https://tradingeconomics.com/united-states/gdp-growth-annual).
 7,23% - 3,13% = 4,1%
 
@@ -387,16 +398,16 @@ Pideva sotsiaalmeedia ja uudistekajastuse tõttu olete ilmselt märganud ülemaa
 
 1. Inflatsioon vähendab meie valuuta ostujõudu. Halveneva valuutaga ei ole inimesed enam motiveeritud säästma. See sunnib jõukaid inimesi suunama oma ressursid finantsvaradesse, samas kui varanduseta inimesed suunavad oma ressursid tarbimisse. Kuna tarbimine suunab raha jõukatele kuuluvatele ettevõtetele ja nutikas raha suunab oma sularaha varadesse, näeme varade hindade tõusu suurenenud nõudluse tõttu. See kõik toimub samal ajal, kui inflatsioon laastab valuuta ostujõudu.
 2. Meie liigse võlakoorma tõttu on valitsused motiveeritud intressimäärasid allasuruma. Sellisel viisil muutub võla tarbimine eriti ahvatlevaks, eriti neile, kellel on varandust. Kui kapitali maksumus on nii odav, laenavad inimesed oma võimetele tuginedes, suunates rohkem kapitali varadesse ja tõstes hindu. See on suurepärane varade omanikele; siiski muutuvad hinnad üha kättesaamatumaks neile, kes üritavad kinnisvaraturule siseneda või finantsturgudel kätt proovida. Lihtne rusikareegel on, et kui intressimäärad langevad, suurenevad varade hinnad, kuna kapital on vabamalt kättesaadav.
-**Kuidas see inflatsioon võimendab varanduslikku ebavõrdsust?** Arvestades, et ülemklass omab varasid ja alumine klass kipub omama valuutat, järgneb üha suurenev varanduslik ebavõrdsus, kuna valuuta ostujõud väheneb ja varade maksumus pidevalt tõuseb, muutudes üha kättesaamatumaks. Seda on näha allpool "Joonisel X". Märkate olulist erinevust varade väärtuse kasvus võrreldes palkadega.
+   **Kuidas see inflatsioon võimendab varanduslikku ebavõrdsust?** Arvestades, et ülemklass omab varasid ja alumine klass kipub omama valuutat, järgneb üha suurenev varanduslik ebavõrdsus, kuna valuuta ostujõud väheneb ja varade maksumus pidevalt tõuseb, muutudes üha kättesaamatumaks. Seda on näha allpool "Joonisel X". Märkate olulist erinevust varade väärtuse kasvus võrreldes palkadega.
 
 **Varaklassi tootlus**
 
 | Varaklass          | Kogukasv (jaan 2010 - jaan 2021) | Aastane kasv (jaan 2010 - jaan 2021) |
-| ------------------- | ---------------------------------- | --------------------------------------- |
-| Aktsiaturg        | 236.84%                            | 11.67%                                  |
-| Kinnisvara         | 66.38%                             | 4.74%                                   |
-| Kuld                | 73.10%                             | 5.11%                                   |
-| Keskmine tunnipalk | 33.37%                             | 2.65%                                   |
+| ------------------ | -------------------------------- | ------------------------------------ |
+| Aktsiaturg         | 236.84%                          | 11.67%                               |
+| Kinnisvara         | 66.38%                           | 4.74%                                |
+| Kuld               | 73.10%                           | 5.11%                                |
+| Keskmine tunnipalk | 33.37%                           | 2.65%                                |
 
 Joonis: Varaklassi tootlus ([Aktsiad](https://finance.yahoo.com/quote/%5EGSPC/history/), [Kinnisvara](https://dqydj.com/historical-home-prices/), [Kuld](https://goldprice.org/), [Palgad](https://tradingeconomics.com/united-states/wages.))
 
@@ -427,6 +438,7 @@ Meie praegune rahapoliitilise sekkumise tee ei ole jätkusuutlik. Üha suurenev 
 Liikudes edasi, julgustame teid lähenema sellele uuele tehnoloogiale avatud meelega ja kriitilise pilguga, uurides, kuidas see võib pakkuda alternatiivi meie praegustele finantssüsteemidele. Tehes nii, on meil potentsiaal lahendada tõusva ebavõrdsuse ja sotsiaalse rahutuse probleeme, samal ajal ehitades jätkusuutlikumat ja õiglasemat majanduslikku tulevikku.
 
 ## Eksam
+
 <chapterId>f25c229f-2af0-5324-bc40-e90f7668985a</chapterId>
 
 Nüüd, kui olete läbinud mooduli "Edu hind", peate testima oma äsja omandatud teadmisi, et veenduda, kas olete viimased jaotised mõistnud. Alustame mitmetest avatud küsimustest ja seejärel väikesest viktoriinist.
@@ -438,9 +450,11 @@ Nüüd, kui olete läbinud mooduli "Edu hind", peate testima oma äsja omandatud
 5. Arvestades teavet võla ja inflatsiooni kohta, mis on teie arvamus praeguse rahandussüsteemi jätkusuutlikkuse kohta? Kas arvate, et meie praegune süsteem on pikas perspektiivis kasulik või kahjulik?
 
 # Finantsiline Vabadus - Sissejuhatus Bitcoini
+
 <partId>c00843b2-bde3-57bb-ae2e-8ecad6631d71</partId>
 
 ## Pioneers, Innovators, & the Foundations of Bitcoin
+
 <chapterId>37d779ce-46b5-56d1-91d8-d04442236e35</chapterId>
 
 Tere tulemast moodulisse Kaks, kus me uurime Bitcoini põnevat maailma. Ehitades meie arusaamale raha ajaloost, käsitleb see moodul järgmisi teemasid:
@@ -449,7 +463,7 @@ Tere tulemast moodulisse Kaks, kus me uurime Bitcoini põnevat maailma. Ehitades
 - Bitcoini eelised digitaalse valuutana
 - Erinevus bitcoini vara ja Bitcoini võrgustiku vahel
 - Kuidas suhelda Bitcoiniga ja selle erinevate kihtidega
-Selle mooduli lõpuks on teil kindel arusaam Bitcoini päritolust, omadustest ja potentsiaalsetest kasutusviisidest. Kuid enne kui sukeldume Bitcoini keerukustesse, uurime esmalt digitaalsete valuutade ajalugu, mis sillutasid teed sellele tehnoloogiale, mis muudab meie mõtteviisi raha kohta.
+  Selle mooduli lõpuks on teil kindel arusaam Bitcoini päritolust, omadustest ja potentsiaalsetest kasutusviisidest. Kuid enne kui sukeldume Bitcoini keerukustesse, uurime esmalt digitaalsete valuutade ajalugu, mis sillutasid teed sellele tehnoloogiale, mis muudab meie mõtteviisi raha kohta.
 
 ### Mis asi on Bitcoin
 
@@ -542,6 +556,7 @@ Need punktid kokku tähendavad, et Bitcoin pakub kõigile finantsilist privaatsu
 Lõpetuseks, olenemata sellest, kes on Satoshi Nakamoto, on vaieldamatu, et Bitcoin'i leiutamine on käivitanud uue mõtteviisi väärtuse ülekandmise kohta.
 
 ## Kuidas Bitcoin töötab? Selle maagilise internetiraha sisemine toimimine
+
 <chapterId>b0f736fc-ed4d-5887-b22e-d958db9144d1</chapterId>
 
 Bitcoin'i nimetatakse sageli maagiliseks internetirahaks... ja põhjusega. Mõelge sellele – Bitcoin'iga saate saata väärtust kellelegi, kus iganes maailmas, ilma vahendajate nagu pank või valitsus vajaduseta. See on nagu omada kontrolli oma isikliku panga üle, võimet üle kanda vahendeid üle piiride vaid mõne hiireklõpsuga.
@@ -559,7 +574,7 @@ Võrreldes traditsiooniliste pangandussüsteemidega, kuigi Bitcoin toimib funkts
 1. valideerima ja töötlema tehinguid,
 2. jälgima tehinguid, et tagada pettuste või halva käitumise puudumine,
 3. tagama, et kõik on ajakohane, toimib sujuvalt ja turvaliselt.
-Kuigi pangad täidavad neid rolle sisekorras, andes neile täieliku kontrolli protsessi üle, nõuab Bitcoin ühenduse koostööd nende rollide täitmiseks. Teisisõnu, selleks, et Bitcoin suudaks neid protsesse detsentraliseeritud süsteemis jäljendada, peab Bitcoin igaühe neist ülesannetest välja andma, tagamaks, et ükski üksikisik või tsentraliseeritud üksus ei omaks süsteemi üle liigset kontrolli.
+   Kuigi pangad täidavad neid rolle sisekorras, andes neile täieliku kontrolli protsessi üle, nõuab Bitcoin ühenduse koostööd nende rollide täitmiseks. Teisisõnu, selleks, et Bitcoin suudaks neid protsesse detsentraliseeritud süsteemis jäljendada, peab Bitcoin igaühe neist ülesannetest välja andma, tagamaks, et ükski üksikisik või tsentraliseeritud üksus ei omaks süsteemi üle liigset kontrolli.
 
 Selle revolutsioonilise saavutuse saavutamiseks on Bitcoin jaotanud need ülesanded kolmeks peamiseks rolliks: noodid, kaevurid ja arendajad. Kus noodid kinnitavad tehinguid ning kehtestavad ja jõustavad reegleid, kaevurid järjestavad ja kinnitavad tehinguid ning arendajad hoiavad võrku ajakohasena ja pakuvad välja uuendusi. Nende ülesannete jaotamisega nende peamiste tegijate vahel on Bitcoin loonud süsteemi, mis on turvaline, läbipaistev ja kõigile kasutajatele vastutav.
 
@@ -605,6 +620,7 @@ Sel hetkel siseneb tehing nn mempooli, mis on sisuliselt ooteala tehingutele, mi
 Kaevurid võtavad nüüd need ootel tehingud, koondavad need uueks plokiks ja võistlevad omavahel teatud ülesande täitmiseks, mille on määranud Bitcoini aluseks olev tarkvara. Võistluse võitja lisab oma ploki ja selles sisalduvad tehingud plokiahelale, lõpetades need tehingud. Võitja saab tasuks äsja emiteeritud bitcoini ja töödeldud tehingutega seotud tasud, motiveerides neid jätkama tehingute töötlemist.
 
 #### Tehingu Valideerimine
+
 Kui tehing on kinnitatud, peaks Bob nüüd oma rahakotis nägema 0,00100000 bitcoini. Kuid asi ei lõpe sellega. Noodid seejärel kontrollivad, kas kaevur on oma töö korrektselt teinud ja kas selles uues plokis sisalduvad tehingud vastavad noodide poolt kokku lepitud reeglitele. Kui plokk ei suuda seda teha, siis uus plokk lükatakse tagasi ja kaevur kaotab oma kaevandamispreemia.
 _**Huvitav fakt:** Isegi pärast Bitcoin'i tehingu kinnitamist eksisteerib võimalus tagasipööramiseks, kui noodid lükkavad plokid tagasi. Siiski, iga uue plokiga, mis tehingu järel blockchain'ile lisatakse, väheneb tagasipööramise tõenäosus eksponentsiaalselt. Turvalisuse suurendamiseks paigutavad vahetused ja rahakotid teie bitcoinile sageli hoidmise, kuni mitu järgnevat plokki on lisatud - tavaliselt kolm kuni kuus. See kaitseb vahendeid ja tagab tehingu rahu._
 
@@ -620,6 +636,7 @@ Nagu selles jaotises selgitatud, kuigi Bitcoin võib tunduda keeruka krüptograa
 Iga neist rollidest on oluline Bitcoin'i funktsionaalsuse ja edukuse jaoks digitaalse valuutana. Usaldades neid kriitilisi ülesandeid võtmetegijatele, suudab Bitcoin toimida turvalise, läbipaistva ja vastutustundliku vahetusvahendina kõigile kasutajatele, muutes selle valuuta ajaloos märkimisväärseks saavutuseks.
 
 ## Mis teeb Bitcoin'i erinevaks Fiat'ist?
+
 <chapterId>5ef55778-cbcf-5c7e-960d-a2fcdf1a4006</chapterId>
 
 Eelmises jaotises uurisime Bitcoin'i ainulaadset funktsionaalsust, mis eristab seda traditsioonilistest valuutadest ja kuidas Bitcoin saavutab ihaldatud märgi olemisest detsentraliseeritud. Nüüd pöörame oma tähelepanu ja uurime, kuidas Bitcoin erineb fiat'ist omaduste osas, mis teevad valuuta suurepäraseks. Ainult nende võtmeomaduste uurimisega saame sügavama arusaama, miks Bitcoin on unikaalne ja omaette maailmas, kui tegemist on rahaga.
@@ -718,6 +735,7 @@ Bitcoini ainulaadsed omadused kui väärtuse hoidja, vahetuse vahend ja arvestus
 Lisaks mitte ainult ei positsioneeri need ühendatud atribuudid Bitcoini kui võimsat vahendit väärtuse hoidmiseks ja rikkuse kasvatamiseks pikas perspektiivis (bitcoin kui vara), vaid pakuvad ka palju eeliseid neile, kes soovivad kasutada Bitcoini kui tehinguvahendit (Bitcoin kui võrk). See erineb teravalt fiat-valuutadest, mis nõuavad mõlemas stsenaariumis usaldust ja vahendajaid. See teeb Bitcoinist atraktiivse valuuta nii üksikisikutele kui ka ettevõtetele, olenemata sellest, kas seda kasutatakse säästmiseks või tehinguteks.
 
 ## Suhtlemine Bitcoiniga
+
 <chapterId>050a95af-e9c2-5ec3-b9c8-55ec174d309c</chapterId>
 
 Bitcoin on võtnud rahandussüsteemi tormiga, köites arengumaade, tehnikahuviliste ja investorite tähelepanu. Kuid selle kiire kasvu tõttu imestavad paljud, kuidas see digitaalne vara saab konkureerida traditsiooniliste makseviisidega nagu Visa ja Mastercard. Lisaks on inimesed uudishimulikud, kuidas nad saavad isiklikult Bitcoiniga suhelda.
@@ -805,6 +823,7 @@ Enne selle mooduli lõpetamist sooviksin teile jätta ühe viimase mõtte...
 ### Sügavamale sukeldudes
 
 Kui olete huvitatud Bitcoin'i maailma edasisest uurimisest, on saadaval palju võimalusi. Näiteks:
+
 1. **Sõlmpunktid:** Sõlmpunkti käitamine on suurepärane sissejuhatus neile, kes on huvitatud Bitcoinist kaugemal kui lihtsalt põhitehingud. See võimaldab teil mitte ainult panustada Bitcoin võrgustikku, valideerides plokiahelat ja mõjutades uusi uuendusi või muudatusi, vaid vähendab usalduse vajadust ja pakub suurendatud privaatsust, andes teile võimaluse oma tehinguid ja saldosid iseseisvalt kontrollida. Sõlmpunkti käitades saate osaks detsentraliseeritud võrgustikust ja aitate tagada selle turvalisust ja terviklikkust.
 
 2. **Kaevandamine:** Kaevandamine on teine viis panustada Bitcoin võrgustikku ja potentsiaalselt teenida bitcoine. Kuigi see nõuab veidi rohkem ressursse kui sõlmpunkti käitamine ja ei ole nii kasumlik kui varem, on kaevandamine tasuv tegevus neile, kes on huvitatud võrgustiku tehnilistest aspektidest.
@@ -820,6 +839,7 @@ Kuigi me tihti kuuleme, et Bitcoin ei saa kunagi Visa või Mastercardiga konkure
 Bitcoin'i suurim eelis on see, et see võimaldab meil omada digitaalset vara isehoidmisel, mis ei olnud kunagi varem võimalik. Kui tunnete end selle jaotise läbimise järel ülekoormatuna, ärge muretsege. Omaenda bitcoini kontrolli alla võtmine on võimas samm finantsvabaduse suunas, kuid sellega kaasnevad ka uued vastutused. Siiski, väikese uurimistöö ja hoolsusega muutuvad need uued vastutused teile kiiresti teiseks loomuseks ja tunnete end mugavalt võttes ülesande oma bitcoini turvaliselt hoida.
 
 ## Eksam
+
 <chapterId>1c7b8165-d67b-5f7c-a1cb-b83db58b77c7</chapterId>
 
 Nüüd, kui olete läbinud mooduli "An Examination of How We Got Here", peate testima oma äsja omandatud teadmisi, et veenduda, et olete viimased jaotised mõistnud. Alustame mitmetest avatud küsimustest ja seejärel väikesest viktoriinist.
@@ -832,8 +852,11 @@ Nüüd, kui olete läbinud mooduli "An Examination of How We Got Here", peate te
 6. Kujutage ette stsenaariumi, kus peate saatma raha pereliikmele teises riigis. Kuidas võiks Bitcoin'i eakaaslaselt eakaaslasele olemus ja madalad tasud teid selles olukorras kasuks tulla?
 
 # Stabiilsus Kaose Keskel - Sissejuhatus Tetherisse & Stablecoinide Maailma
+
 <partId>60b1f3c4-e161-53fe-84ca-88d8cd62aa75</partId>
+
 ## Tetheri ja stabiilsete müntide maailma tutvustus
+
 <chapterId>427a72b5-8af7-503e-bc45-bb8b95483993</chapterId>
 
 Nagu varem arutatud, on raha olnud inimkonna jaoks tuhandeid aastaid hädavajalik osa. See on aidanud meil osta kaupu ja teenuseid, võimaldanud meil üksteisega kaubelda ning aidanud meil rikkust säilitada.
@@ -865,6 +888,7 @@ Meil on vaja valuutat, mis on seotud suhtelise väärtusega, digitaalselt omase 
 Ja siin tuleb mängu Tether.
 
 #### Kes on Tether?
+
 Pidevalt arenevas fiat-valuutade maastikus on Tether kerkinud esile kui oluline tegija, mida ajendab visioon kaasaegse maailma finantsvajaduste lahendamisest. Kuna traditsioonilised valuutad pidevalt võitlevad sammu pidamisega meie kiiresti muutuva globaalse majanduse nõudmistega ja Bitcoini lühiajaline volatiilsus muudab säästmise keeruliseks neile, kes ei oma selleks vajalikku võimekust, nägid Tetheri asutajad võimalust nende maailmade vahel sillaks olla.
 Tether on "traditsioonilise finantssüsteemi häirija ja digitaalse traditsiooniliste valuutade kasutamise teerajaja." Nende peamine eesmärk on suurendada Bitcoini omaksvõttu, luues silla traditsioonilise finantsmaailma ja Bitcoini digitaalse maailma vahel. Nad saavutavad selle, pakkudes mitmesuguseid digitaalseid tokeneid, mida sageli nimetatakse "stablecoinideks", mis hoiavad väärtust tänu nende seotusele - ja see pole sõnamäng - füüsilise maailma varadega. Tether investeerib ka Bitcoini kaevandamisse, Bitcoini haridusse, Bitcoini makseinfrastruktuuri ning Bitcoini uurimis- ja arendustegevusse.
 
@@ -896,6 +920,7 @@ Kokkuvõttes, kuna meie ühiskond jätkuvalt areneb ja tehnoloogia edeneb, nii a
 _**Kõrvalmärkus:** Ärge muretsege, kui mõned neist terminitest ei tundu päris selged. Me uurime iga teemat selle mooduli jooksul üksikasjalikumalt._
 
 ## Stabiilraha ajalugu
+
 <chapterId>174e2cab-ef14-5e14-99c8-8457b6fc5fee</chapterId>
 
 Stabiilrahad on muutunud populaarseks teemaks krüptoraha maailmas, pakkudes lühiajaliselt vähem volatiilset alternatiivi krüptorahadele nagu Bitcoin. Nagu sissejuhatuses sellesse moodulisse üksikasjalikult kirjeldatud, on stabiilrahad digitaalsed varad, mis on seotud stabiilse varaga nagu fiat-valuuta või väärismetallid, eesmärgiga säilitada stabiilne väärtus. Vaatleme seega stabiilraha ajalugu ja heidame lähema pilgu mõnele esimesele stabiilrahale, sealhulgas Tetheri USDt-le, kõige tuntumale ja laialdasemalt kasutatavale stabiilrahale.
@@ -921,6 +946,7 @@ Pealegi, kuna stabiilmüntide turg on kasvanud, on Tether laiendanud oma haaret,
 Kokkuvõttes on stabiilmündid alates nende loomisest kaugele jõudnud. Varajastest bitUSD ja NuBits päevadest Tetheri toodete peavoolu populaarsuseni ja teiste stabiilmüntide ilmumiseni on stabiilmüntide turg kiiresti arenenud. Kuigi Tetheri ümber toimuvad vaidlused on tekitanud muret stabiilmüntide väljastajate läbipaistvuse ja vastutuse üle, jätkab stabiilmüntide turg kasvamist, pakkudes globaalset ja paindlikku silda Bitcoinini. Siiski tuleb see mugavus suurenenud tsentraliseerituse ja usalduse vajaduse hinnaga.
 
 ## Stabiilmüntide omadused
+
 <chapterId>21765df7-53fd-58af-9df6-7208027a0c3a</chapterId>
 
 Nagu nüüdseks peaks ilmne olema, on stabiilmünt digitaalne token, mis on loodud säilitama stabiilset väärtust, mis põhineb aluseks oleva vara, nagu fiat-valuuta, väärismetallid, kaubad või nende kombinatsioon (nt fiat-valuutade korv), külge seotud väärtusel.
@@ -932,7 +958,9 @@ Põhimõtteliselt toimib stabiilmünt sillana traditsiooniliste varade ja Bitcoi
 Kuidas nad seda hinnastabiilsust säilitavad, vaatame lähemalt...
 
 Enamik stabiilmünte eelistab kasutada oma pegina fiat-valuutat, millest USA dollar on üks populaarsemaid fiat-valuutasid, mille külge siduda. Seetõttu sukeldume esmalt fiat-tagatud stabiilmüntidesse. Siiski on olemas ka mitut tüüpi stabiilmünte, nagu kauba-tagatud ja algoritmilised, mida me samuti uurime.
+
 ### Fiatiga Tagatud
+
 Stabiilsusmündid on loodud säilitama stabiilset väärtust seotud vara suhtes. Fiatiga tagatud stabiilsusmüntide, nagu USDt, puhul on lihtsaim viis mündi väärtuse säilitamiseks see, kui mündi väljaandja hoiab valuutat, millega mündi väärtus on seotud, 1:1 suhtes.
 
 Tundub natuke segadusseajav? Ärge muretsege. Siin on näide:
@@ -983,6 +1011,7 @@ Siiski, nagu fiat-tagatisega stabiilrahad, sõltuvad ka kaubatagatisega stabiilr
 Vaadelgem nüüd kolmandat tüüpi stabiilraha...
 
 ### Algoritmilised
+
 Algoritmiline stablecoin on viimane stablecoin'i tüüp, mida arutame ja, nagu ka teised, on see loodud stabiilse väärtuse säilitamiseks. Erinevalt teistest füüsilistele varadele toetuvatest stablecoin'idest kasutavad algoritmilised stablecoin'id matemaatilisi valemeid või algoritme—tihti koos mõningate varadega—nende pakkumise reguleerimiseks nõudluse suhtes, et säilitada hinnastabiilsust.
 
 Neile, kes ei ole terminiga algoritm tuttavad, võib algoritmi mõelda lihtsalt kui reeglite kogumit, mida järgida. See võib tunduda segadusttekitav, seega vaatame ühte tüüpi algoritmilise stabiilsuse mehhanismi, mida nimetatakse ümberarvestusmeetodiks, näitena.
@@ -1004,6 +1033,7 @@ Kokkuvõttes pakuvad stablecoin'id silda traditsioonilise maailma ja Bitcoini va
 Kuigi stablecoin'e peetakse sageli ohutuks nende "stabiilse" olemuse tõttu, on oluline meeles pidada, et need ei ole täiesti riskivabad. Kuna stablecoin'id sõltuvad tsentraliseeritud väljaandjatest, nt Tether, ja finantsasutustest, on olemas kaotuse võimalus. Nende riskide maandamiseks on oluline põhjalikult uurida erinevaid stablecoin'e enne investeerimist. Sedasi saate teha teadlikke otsuseid ja minimeerida ootamatute kaotuste võimalust.
 
 ## Tetheri Stablecoin'i Pakkumiste Eelised
+
 <chapterId>a6806b45-b92e-5791-8f5f-804098a522b2</chapterId>
 Kohtuge Adannaga, noore naisega, kes elab Aafrika maapiirkonnas, kus CFA frank, mis on viimase 70 aasta jooksul kaotanud hämmastavad [99,5%](https://bitcoinmagazine.com/culture/bitcoin-a-currency-of-decolonization) oma ostujõust, on ainus saadaolev valuuta - muutes säästmise võimatuks.
 Adannat on alati paelunud mõte omada kontrolli oma raha üle, kuid see on jäänud võimatuks unistuseks kuni hiljutiseni. Valuuta, mida ta kasutab, on isikute kontrolli all, kes on näidanud, et neil ei ole oma rahva parimaid huvisid südames, ja tema maapiirkonna asukoht piirab tema juurdepääsu pangateenustele. Seetõttu ei jää Adannal muud üle, kui toetuda füüsilisele sularahale, jättes ta haavatavaks varguste ja kaotuse suhtes lisaks ostujõu vähenemisele.
@@ -1043,7 +1073,7 @@ Siin on näide sellest, kui palju Western Union [nõuab](https://www.westernunio
 - **Kanada, USA, Mehhiko:** 16,86 dollari tasu + 1,20 dollari vahetuskursi kaotus (18,06% kaotus)
 - **Ühendkuningriik, Albaania, Bosnia, Serbia, Sloveenia:** 17,92 dollari tasu + 3,10 dollari vahetuskursi kaotus (21,02% kaotus)
 - **Okeaania ja Kagu-Aasia:** 12,61 dollari tasu + 8,60 dollari vahetuskursi kaotus (21,21% kaotus)
-See on hämmastav summa raha, mis on nüüd suurte USA korporatsioonide käes. Ja siin tuleb mängu USDt, pakkudes lahendust kõrgetele rahaülekannete tasudele.
+  See on hämmastav summa raha, mis on nüüd suurte USA korporatsioonide käes. Ja siin tuleb mängu USDt, pakkudes lahendust kõrgetele rahaülekannete tasudele.
 
 Erinevalt traditsioonilistest rahaülekandeteenustest on USDt digitaalne valuuta, mis tehingute sooritamise eesmärgil liigub plokiahela rööbastel. Kuna see ei vaja vahendajaid nagu pangad või rahaülekandeteenused, on tasud märkimisväärselt madalamad. Lisaks tagab tehingute sooritamine avalikul plokiahelal suurema läbipaistvuse ning privaatsuse. See tähendab, et inimesed saavad raha oma lähedastele teistes riikides saata peaaegu koheselt, turvaliselt ja palju madalama kuluga.
 Näiteks USDt, mis peamiselt toimib Ethereumi ja Troni plokiahelatel, on viimase aasta jooksul keskmiselt kandnud tehingutasusid vastavalt [\$1.02](https://ycharts.com/indicators/ethereum_average_transaction_fee#:~:text=Ethereum%20Average%20Transaction%20Fee%20is,20.90%25%20from%20one%20year%20ago.) ja [\$0.000005](https://bitpowr.com/blog/how-to-send-fee-less-tron-transactions), sõltumata saadetava summa suurusest—tasu jääb samaks, olgu saadetav summa siis \$5 või \$10,000. Ja praegu töötavad arendajad [stabiilraha](https://www.coindesk.com/tech/2022/09/28/lightning-labs-releases-software-to-allow-bitcoin-developers-to-mint-and-transfer-assets-on-the-blockchain/) loomise kallal, mis põhineks Bitcoini Lightning võrgustikul, mis tooks kaasa umbes [\$0.0003](https://www.nasdaq.com/articles/the-state-of-lightning-network-adoption) suurused tehingutasud.
@@ -1118,6 +1148,7 @@ Ja kui see veel ei oleks piisav, siis need stabiilvaluutad mitte ainult ei suure
 Kokkuvõttes võivad stabiilvaluutad, nagu USDt ja XAUt, muuta miljardite inimeste elusid, pakkudes neile juurdepääsu kaasavatele ja hädavajalikele finantsteenustele.
 
 ## Eksam
+
 <chapterId>1294d874-6edb-5feb-b070-0ead1836bd0b</chapterId>
 
 Nüüd, kui olete läbinud mooduli "Stabiilsus kaose keskel", peate testima oma äsja omandatud teadmisi, et veenduda, et olete viimased jaotised mõistnud. Alustame mitmetest avatud küsimustest ja seejärel väikesest viktoriinist.
@@ -1129,9 +1160,11 @@ Nüüd, kui olete läbinud mooduli "Stabiilsus kaose keskel", peate testima oma 
 5. Teie arvates, milliseid meetmeid peaksid stabiilvaluuta väljastajad võtma, et tagada oma stabiilvaluutade stabiilsus ja usaldusväärsus? Kui oluline on stabiilvaluuta väljastajate jaoks olla läbipaistev oma reservipraktikate suhtes ja pakkuda regulaarseid aruandeid?
 
 # Kahtluste ületamine - Levinud väärarusaamade kummutamine ja reaalsed kasutusjuhtumid
+
 <partId>246a7dc0-a203-5b2e-ae13-9c8f08e6bfad</partId>
 
 ## Väärarusaamad
+
 <chapterId>4da9319d-6306-500f-adbb-5fa31c673cd2</chapterId>
 
 Bitcoin on alates selle loomisest 2009. aastal olnud vastuolude, kriitika ja väärarusaamade keskmes. Hoolimata selle populaarsuse kasvust ja omaksvõtust, peavad paljud seda lõhkemist ootavaks mulliks. Sarnaselt on stabiilvaluutad meelitanud ligi sarnast tähelepanu ja skepsist. Stabiilse varaga tagatud valuuta idee tundub paljutõotav, kuid paljud inimesed ei mõista, kuidas stabiilvaluutad töötavad ja milline võib olla nende mõju finantssüsteemile.
@@ -1327,6 +1360,7 @@ Ja lõpetuseks…
 
 Soovime alustada öeldes: **Kõik tarbib energiat**, olgu me sellest teadlikud või mitte. Isegi lihtne tegevus, nagu koeraga jooksmine, nõuab enda ja oma karvase kaaslase toitmist. Nii sina kui ka su koer olete energiatarbijad.
 Meie eesmärk ei ole kritiseerida teisi tööstusharusid nende energiatarbimise pärast, sest nagu eespool arutletud, näitab energiakasutus inimeste poolt teenustele või toodetele omistatud väärtust. Siiski on oluline panna Bitcoini energiakasutus perspektiivi. Kaaluge järgmisi [võrdlusi](https://bitcoinmagazine.com/business/bitcoin-energy-use-compare-industry):
+
 - Pesumasinad tarbivad [18%](https://energypedia.info/wiki/The_Overall_Worldwide_Saving_Potential_from_Domestic_Washing_Machines#:~:text=Today%2C%20840%20million%20domestic%20washing,about%2019%20km3%20of%20water.) rohkem energiat kui Bitcoin.
 - Kullakaevandamine ja juveelitootmine tarbivad kümme korda rohkem energiat kui Bitcoin.
 - Meretransport tarbib üle 51 korra rohkem energiat kui Bitcoin.
@@ -1420,6 +1454,7 @@ Objektiivselt hinnates kõiki vastuseise, millega kokku puutute, saate paremini 
 Lõppkokkuvõttes kuulub detsentraliseeritud finantside tulevik neile, kes on valmis väljuma tavapäraste piiride seest, vaidlustama eelarvamusi ja hindama informatsiooni objektiivselt. Püüdle teadlike otsuste tegemise poole Bitcoin'i ja stablecoinide osas, tuginedes täpsetele teadmistele ja tasakaalustatud arusaamale nende võimetest ja piirangutest.
 
 ## Roya Mahboob
+
 <chapterId>0b6f7ce6-69be-5735-b34c-b1822ff23356</chapterId>
 
 Tänapäeva globaliseerunud maailmas on juurdepääs finantsteenustele kriitiline majandusliku osalemise ja sõltumatuse komponent. Hoolimata sellest on endiselt liiga paljud inimesed traditsioonilisest pangandussüsteemist välja jäetud, naistel lasub sageli selle väljajätmise suurim koorem. Ehmatavalt, kuigi tarbetult jääb [veerand](https://www.worldbank.org/en/publication/globalfindex) maailma elanikkonnast pangandusteenusteta, on riikides nagu Saudi Araabia [36,5%](https://content.11fs.com/article/financial-exclusion-and-the-gender-gap-in-the-middle-east#:~:text=In%20the%20last%20few%20years,63.5%25%20%2D%20a%20huge%20shift.) naistest ilma põhilistele pangateenustele juurdepääsuta, takistades neil täielikult osalemast oma riigi majanduses ja ühiskonnas.
@@ -1430,7 +1465,7 @@ Siin on vaid mõned näited tingimustest, mida naised üle maailma tänapäeval 
 2. Sõltuvus meessoost sugulastest: Paljudes patriarhaalsetes ühiskondades sõltuvad naised finantsiliselt meessoost sugulastest. See tähendab, et nad ei saa ise finantsotsuseid teha ja on sageli oma meessoost sugulaste meelevallas. Näiteks Afganistanis peavad naised sageli toetuma meessoost pereliikmetele finantsabi saamiseks ja nad ei pruugi saada juurdepääsu finantsteenustele ilma meessoost eestkostja loata.
 3. Piirangud tööhõivele: Teatud riikides ei ole naistel lubatud töötada kodust väljas, mis muudab neile finantsilise sõltumatuse saavutamise keeruliseks. Näiteks Süürias, Iraagis, Afganistanis, Alžeeriast, Palestiinas, Jordaanias ja Iraanis moodustavad naised vaid [15 - 18%](https://www.worldatlas.com/articles/countries-where-women-are-least-likely-to-join-the-labor-force.html) tööjõust.
 4. Omandiõiguste puudumine: Maailmas on endiselt [75](https://blogs.worldbank.org/opendata/where-world-do-women-still-face-legal-barriers-own-and-administer-assets) riiki, kus naistel ei ole omandiõigusi, mis tähendab, et neil on piiratud võimalused omada maad või muid varasid. See teeb neile ettevõtluse alustamise või krediidi saamise keeruliseks, kuna neil ei ole pakkuda tagatist. Näiteks mõnes India piirkonnas ei ole naistel lubatud omada vara ja nad ei pruugi saada krediiti ilma meessoost sugulase loata.
-Need on vaid mõned näited takistustest, millega naised paljudes tänapäeva ühiskondades endiselt finantsteenustele juurdepääsu saamisel ja finantsilise sõltumatuse saavutamisel silmitsi seisavad.
+   Need on vaid mõned näited takistustest, millega naised paljudes tänapäeva ühiskondades endiselt finantsteenustele juurdepääsu saamisel ja finantsilise sõltumatuse saavutamisel silmitsi seisavad.
 
 Sellise põhiteenustele juurdepääsu puudumine teeb nende naiste jaoks majandusliku sõltumatuse saavutamise ja oma finantselu kontrolli alla võtmise uskumatult keeruliseks. Siiski on horisondil lootust. Alates Bitcoini tõusust on neil naistel nüüd lahendus sellele probleemile. Lihtsa internetiühenduse kaudu on neil nüüd juurdepääs usalduseta, loata ja detsentraliseeritud vahetusvahendile, mida traditsiooniline pangandustööstus ei ole suutnud pakkuda. Bitcoin annab jõudu naistele, kes on traditsioonilisest finantssüsteemist maha jäänud.
 
@@ -1564,6 +1599,7 @@ Inimressursside valdkonnas peame maksma paljudele inimestele erinevates riikides
 Loodame, et leidsite need lood inspireerivad. Öeldu põhjal peaks olema selge, et stabiilmüntidel, nagu USDt, on oluline roll, võimaldades inimestel juurdepääsu kiiretele ja tõhusatele rahvusvahelistele ülekannetele, USD arveldustele ja maksetele, USA dollarites nomineeritud palkadele ja mis kõige tähtsam, suhteliselt stabiilsele väärtuse säilitamise vahendile võrreldes lugematute volatiilsete valuutadega. Ilma stabiilmüntideta seisaks paljud neist inimestest silmitsi oluliste takistustega, püüdes siseneda globaalsesse turule, suhelda rahvusvaheliste pereliikmetega või jõuda muidu kättesaamatute klientideni. Stabiilmündid on vaieldamatult parandanud nende finantsühenduvust ja pakkunud väärtuslikku vahendit meie globaalse majanduse keerukuste navigeerimiseks.
 
 ## Eksam
+
 <chapterId>3b23b0ae-41a7-53b0-bc48-7343a64f28bc</chapterId>
 
 Nüüd, kui olete läbinud mooduli "Kahtluste ületamine", peate testima oma äsja omandatud teadmisi, et veenduda, kas olete viimased jaotised mõistnud. Alustame mitmest avatud küsimusest ja seejärel väikesest viktoriinist.
@@ -1575,9 +1611,11 @@ Nüüd, kui olete läbinud mooduli "Kahtluste ületamine", peate testima oma äs
 5. Peegeldades Bitcoini energiatarbimise võrdlusi teiste tööstusharudega, kas on õiglane Bitcoini tema energiakasutuse pärast eraldi välja tuua? Miks või miks mitte?
 
 # Lõppsõnad
+
 <partId>204d7367-ae08-5348-98c8-8b74c6c1b261</partId>
 
 ## Lõppsõnad
+
 <chapterId>2b27b4dd-10e1-56a7-978e-1e5085f9aaff</chapterId>
 
 Palju õnne kursuse lõpetamise puhul! Olete kaugele jõudnud. Selle teekonna jooksul oleme süvenenud laiasse valikusse teemadesse, sealhulgas:
@@ -1600,3 +1638,4 @@ Kursuse lõpetuseks loodame, et rakendate siit saadud teadmisi oma isiklikus võ
 Loodetavasti annab see uus mõistmine teile jõudu navigeerida muutuvas finantsmaailmas kindluse ja eesmärgiga. Soovime teile edu teie kasvu ja avastamise teel!
 
 Tulevik on Helge!
+

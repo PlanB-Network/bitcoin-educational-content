@@ -23,9 +23,11 @@ Théo; panus
 +++
 
 # Sissejuhatus
+
 <partId>534ab66c-b0e6-5757-a7dd-6ea04647edf2</partId>
 
 ## Kursuse Sissejuhatus
+
 <chapterId>2f3d005d-8b49-5a3f-b90d-94c11f613407</chapterId>
 
 ### Eesmärk: Värskenda oma turvalisuse oskusi!
@@ -57,7 +59,7 @@ Alustuseks arutame veebibrauseri valimise tähtsust ja selle mõju turvalisusele
 
 - Peatükk 3 - Arvuti kasutamine
 - Peatükk 4 - Häkkimine & varundamise haldus
-Selles jaotises käsitleme kolme peamist valdkonda arvutiturvalisuses. Esiteks uurime erinevaid operatsioonisüsteeme: Mac, PC ja Linux, tuues esile nende eripärad ja tugevused. Seejärel süveneme meetoditesse, kuidas tõhusalt kaitsta end häkkimiskatsete eest ja tugevdada oma seadmete turvalisust. Lõpuks rõhutame regulaarselt oma andmete kaitsmise ja varundamise tähtsust, et vältida igasugust kaotust või lunarvara.![](assets/en/2.webp)
+  Selles jaotises käsitleme kolme peamist valdkonda arvutiturvalisuses. Esiteks uurime erinevaid operatsioonisüsteeme: Mac, PC ja Linux, tuues esile nende eripärad ja tugevused. Seejärel süveneme meetoditesse, kuidas tõhusalt kaitsta end häkkimiskatsete eest ja tugevdada oma seadmete turvalisust. Lõpuks rõhutame regulaarselt oma andmete kaitsmise ja varundamise tähtsust, et vältida igasugust kaotust või lunarvara.![](assets/en/2.webp)
 
 ### Jaotis 3: Lahenduste rakendamine
 
@@ -71,9 +73,11 @@ Esmalt vaatame, kuidas kaitsta oma e-posti sisendkausta, mis on teie suhtluse ja
 ![](assets/en/3.webp)
 
 # Kõik, mida pead teadma veebis surfamisest
+
 <partId>b4b5379a-d8ef-59ae-94d3-a6e88959c149</partId>
 
 ## Veebis surfamine
+
 <chapterId>3a935da9-fa6e-57eb-bf85-7b3ec35e6ee2</chapterId>
 
 Internetis surfates on oluline vältida teatud levinud vigu, et säilitada oma veebiturvalisus. Siin on mõned näpunäited nende vältimiseks:
@@ -87,7 +91,7 @@ Näide: Kasuta www.signal.org/download asemel www.logicieltelechargement.fr/sign
 Samuti on soovitatav eelistada avatud lähtekoodiga tarkvara, kuna need on sageli turvalisemad ja vabad pahavarast. "Avatud lähtekoodiga" tarkvara on tarkvara, mille kood on kõigile teada ja kättesaadav. See võimaldab muuhulgas kontrollida, et ei oleks varjatud juurdepääsu teie isiklike andmete varastamiseks.
 
 > Boonus: Avatud lähtekoodiga tarkvara on sageli tasuta! See ülikool on 100% avatud lähtekoodiga, nii et saate ka meie koodi meie GitHubis kontrollida.
-![](assets/notext/5.webp)
+> ![](assets/notext/5.webp)
 
 ### Küpsiste haldamine: Vead ja parimad praktikad
 
@@ -100,6 +104,7 @@ Küpsised on failid, mida veebisaidid loovad teie seadmes teabe salvestamiseks. 
 On kaks peamist brauserite perekonda: need, mis põhinevad Chrome'il ja need, mis põhinevad Firefoxil.
 Kuigi mõlemad perekonnad pakuvad sarnast turvalisuse taset, soovitatakse vältida Google Chrome'i brauserit seoses selle jälgijatega. Chrome'ist kergemad alternatiivid, nagu Chromium või Brave, võivad olla eelistatumad. Eriti soovitatakse Brave'i selle sisseehitatud reklaamiblokeerija tõttu. Teatud veebisaitidele juurdepääsuks võib olla vajalik kasutada mitut brauserit.
 ![](assets/notext/6.webp)
+
 ### Privaatne sirvimine, TOR ja muud alternatiivid turvalisemaks ja anonüümsemaks sirvimiseks
 
 Privaatne sirvimine, kuigi see ei peida sirvimist teie internetiteenuse pakkujalt, võimaldab teil mitte jätta kohalikke jälgi oma arvutisse. Küpsised kustutatakse automaatselt iga sessiooni lõpus, võimaldades teil kõik küpsised vastu võtta ilma jälgimiseta. Privaatne sirvimine võib olla kasulik veebiteenuste ostmisel, kuna veebisaidid jälgivad meie otsinguharjumusi ja kohandavad hindu vastavalt. Siiski on oluline märkida, et privaatset sirvimist soovitatakse ajutisteks ja spetsiifilisteks sessioonideks, mitte üldiseks internetis sirvimiseks.
@@ -108,11 +113,13 @@ Täiustatud alternatiiv on TOR (The Onion Router) võrk, mis pakub anonüümsust
 
 TOR on seaduslik ja seda kasutavad ajakirjanikud, vabadusaktivistid ja teised, kes soovivad põgeneda tsensuurist autoritaarsetes riikides. Siiski on oluline mõista, et TOR ei turva külastatavaid saite ega arvutit ennast. Lisaks võib TORi kasutamine aeglustada internetiühendust, kuna andmed liiguvad enne sihtkohta jõudmist läbi kolme teise inimese arvutite. On ka oluline märkida, et TOR ei ole lollikindel lahendus 100% anonüümsuse tagamiseks ja seda ei tohiks kasutada ebaseaduslikeks tegevusteks.
 ![](assets/notext/7.webp)
+
 ### BRAVE
 
 **_Õpetus on loomisel, kaasa aitamiseks või selle lisamiseks võite minna läbi GitHubi_**
 
 ## VPN ja internetiühendus
+
 <chapterId>5aac83f4-a685-54b0-9759-d71bea7eeed2</chapterId>
 
 ### VPN-id
@@ -143,9 +150,11 @@ Kokkuvõttes võib VPN-i kasutamine oluliselt parandada veebiturvalisust nii ett
 **_Õpetus on koostamisel, panustamiseks või selle lisamiseks võite minna GitHubi kaudu_**
 
 # Parimad praktikad arvuti kasutamisel
+
 <partId>e6eac20b-ba24-5d9a-8d86-8e0164074457</partId>
 
 ## Arvuti kasutamine
+
 <chapterId>16745632-b56b-5423-9873-ddf70fdf1efd</chapterId>
 
 Meie arvutite turvalisus on tänapäeva digitaalses maailmas suur mure. Täna käsitleme kolme peamist punkti:
@@ -178,17 +187,20 @@ Konkreetse vea näiteks: kräkitud tarkvara, mida ei saa uuendada, kujutab endas
 
 Viirusetõrje valik ja rakendamine on oluline. Windows Defender, Windowsi sisseehitatud viirusetõrje, on turvaline ja tõhus lahendus. Tasuta lahendusena on see erakordselt hea ja palju parem kui paljud internetist leitavad tasuta lahendused. Tõepoolest, internetist allalaaditud viirusetõrjega tuleks olla ettevaatlik, kuna need võivad olla pahatahtlikud või aegunud.
 Neile, kes soovivad investeerida tasulisse viirusetõrjesse, on soovitatav valida viirusetõrje, mis analüüsib intelligentselt tundmatuid ja tekkivaid ohte, nagu Kaspersky. Viirusetõrje uuendused on olulised uute ohtude vastu kaitsmiseks.
+
 > Märkus: Linux ja Mac, tänu nende kasutajaõiguste eraldamise süsteemile, tihti ei vaja viirusetõrjet.
 
 Lõpuks, siin on mõned head tavad teie arvuti ja andmete turvalisuse jaoks. On oluline valida tõhus ja kasutajasõbralik viirusetõrje. Samuti on oluline omaks võtta head tavad oma arvutis, nagu tundmatute või kahtlaste USB-võtmete mitte sisestamine. Need USB-võtmed võivad sisaldada pahatahtlikke programme, mis võivad automaatselt käivituda sisestamisel. USB-võtme kontrollimine on kasutu, kui see on juba sisestatud. Mõned ettevõtted on olnud häkkimise ohvrid tänu hooletult ligipääsetavates piirkondades, nagu parkla, jäetud USB-võtmetele.
 
 Kohtle oma arvutit nagu oma kodu: ole valvas, uuenda regulaarselt, kustuta tarbetuid faile ja kasuta turvalisuse jaoks tugevat parooli. Sülearvutite ja nutitelefonide andmete krüpteerimine on oluline varguse või andmekao vältimiseks. BitLocker Windowsile, LUKS Linuxile ja sisseehitatud võimalus Macile on andmete krüpteerimise lahendused. On soovitatav aktiveerida andmete krüpteerimine kõhklemata ja kirjutada parool paberile, mida hoitakse turvalises kohas.
 Järeldusena on oluline valida operatsioonisüsteem, mis vastab teie vajadustele, ning seda ja installitud rakendusi regulaarselt uuendada. Samuti on oluline kasutada efektiivset ja kasutajasõbralikku viirusetõrjet ning omaks võtta head praktikad oma arvuti ja andmete turvalisuse tagamiseks.
+
 ### Õpetus: Ubuntu
 
 **_Õpetus on loomisel, kaasa aitamiseks või selle lisamiseks võite pöörduda GitHubi poole_**
 
 ## Häkkimine ja varundamise haldus: Oma andmete kaitsmine
+
 <chapterId>9ddfcb6a-a253-5542-b7eb-df7222b46dc7</chapterId>
 
 ### Kuidas häkkerid ründavad?
@@ -226,10 +238,13 @@ EI, üldiselt ei soovitata lunavara või muud tüüpi rünnakute korral häkkeri
 Kui avastate oma arvutis viiruse, ühendage see internetist lahti, tehke täielik viirusetõrje skannimine ja kustutage nakatunud failid. Seejärel uuendage oma tarkvara ja operatsioonisüsteemi ning muutke oma paroole, et vältida edasisi sissetunge.
 
 # Lahenduste rakendamine.
+
 <partId>215ec902-ba05-5549-87fc-cb8d82665f7b</partId>
 
 ## E-posti kontode haldamine
+
 <chapterId>dfceea33-8712-5557-ace1-6ba5598d33d8</chapterId>
+
 ### Uue e-posti konto seadistamine!
 
 E-posti konto on teie veebitegevuse keskpunkt: kui see on kompromiteeritud, võib häkker seda kasutada kõigi teie paroolide lähtestamiseks "unustatud parooli" funktsiooni kaudu ja pääseda ligi paljudele teistele saitidele. Seetõttu on oluline see korralikult turvata.
@@ -258,6 +273,7 @@ Boonus Bitcoin: Võib olla soovitatav luua spetsiifiline e-posti aadress meie Bi
 **_Õpetus on loomisel, et panustada või seda lisada, võite minna läbi GitHubi_**
 
 ## Paroolihaldur
+
 <chapterId>0b3c69b2-522c-56c8-9fb8-1562bd55930f</chapterId>
 
 ### Mis on paroolihaldur?
@@ -267,16 +283,18 @@ Paroolihaldur on tööriist, mis võimaldab teil salvestada, genereerida ja hall
 Paroolihalduri abil ei pea te enam muretsema oma paroolide unustamise või kuskile üleskirjutamise pärast. Peate meeles pidama ainult ühte peaparooli. Lisaks genereerivad enamik neist tööriistadest teie jaoks tugevaid paroole, mis suurendab teie kontode turvalisust.
 
 ### Erinevused mõnede populaarsete haldurite vahel:
+
 - LastPass: Üks populaarsemaid paroolihaldureid. Tegemist on kolmanda osapoole teenusega, mis tähendab, et teie paroolid salvestatakse nende serveritesse. Pakutakse tasuta versiooni ja tasulist versiooni, kasutajasõbraliku liidesega.
 - Dashlane: Samuti kolmanda osapoole teenus, intuitiivse liidesega ja lisafunktsioonidega nagu krediitkaardiinfo jälgimine ja turvalised märkmed.
-![](assets/notext/17.webp)
+  ![](assets/notext/17.webp)
+
 ### Ise majutamine suurema kontrolli jaoks:
 
 - Bitwarden: See on avatud lähtekoodiga tööriist, mis tähendab, et saate selle koodi üle vaadata, et kontrollida selle turvalisust. Kuigi Bitwarden pakub majutatud teenust, võimaldab see ka kasutajatel ise majutada, mis tähendab, et saate kontrollida, kus teie paroolid salvestatakse, pakkudes potentsiaalselt rohkem turvalisust ja kontrolli.
 
 - KeePass: See on avatud lähtekoodiga lahendus, mis on peamiselt mõeldud ise majutamiseks. Teie andmed salvestatakse vaikimisi kohalikult, kuid soovi korral saate parooliandmebaasi sünkroniseerida erinevate meetoditega. KeePass on laialdaselt tunnustatud oma turvalisuse ja paindlikkuse poolest, kuigi see võib algajatele olla veidi vähem kasutajasõbralik.
-![](assets/notext/18.webp)
-(Märkus: Kolmanda osapoole teenuse või ise majutatud teenuse vahel valimine sõltub teie tehnoloogilisest mugavustasemest ja sellest, kuidas te prioriseerite kontrolli mugavuse suhtes. Kolmanda osapoole teenused on enamiku inimeste jaoks üldiselt mugavamad, samas kui ise majutamine nõuab rohkem tehnilisi teadmisi, kuid võib pakkuda rohkem kontrolli ja meelerahu turvalisuse osas.)
+  ![](assets/notext/18.webp)
+  (Märkus: Kolmanda osapoole teenuse või ise majutatud teenuse vahel valimine sõltub teie tehnoloogilisest mugavustasemest ja sellest, kuidas te prioriseerite kontrolli mugavuse suhtes. Kolmanda osapoole teenused on enamiku inimeste jaoks üldiselt mugavamad, samas kui ise majutamine nõuab rohkem tehnilisi teadmisi, kuid võib pakkuda rohkem kontrolli ja meelerahu turvalisuse osas.)
 
 ### Mis teeb parooli heaks:
 
@@ -306,16 +324,18 @@ Juhuslikult genereeritud paroolid pakuvad kõrgemat turvalisuse taset, kuigi nee
 **_Õpetus on ehitamisel, kaasa aitamiseks või lisamiseks võite minna läbi GitHubi_**
 
 ## Kahefaktoriline Autentimine
+
 <chapterId>9391e02e-e61b-5a86-93e0-91a07f217d35</chapterId>
 
 ### Miks rakendada 2FA
+
 Kahefaktoriline autentimine (2FA) on lisakiht turvalisuse tagamiseks, et veenduda, et inimesed, kes üritavad juurde pääseda veebikontole, on tõepoolest need, kes nad väidavad end olevat. Selle asemel, et sisestada ainult kasutajanime ja parooli, nõuab 2FA teist autentimisviisi. See teine samm võib olla:
 
 - Ajutine kood, mis saadetakse SMS-i teel.
 - Rakenduse, nagu Google Authenticator või Authy, genereeritud kood.
 - Füüsiline turvavõti, mida sisestate oma arvutisse.
-![](assets/notext/19.webp)
-2FA abil ei saa häkker teie parooli teada saades kontole juurde pääseda ilma selle teise autentimisfaktorita. See teeb 2FA-st hädavajaliku vahendi teie veebikontode kaitsmiseks volitamata juurdepääsu eest.
+  ![](assets/notext/19.webp)
+  2FA abil ei saa häkker teie parooli teada saades kontole juurde pääseda ilma selle teise autentimisfaktorita. See teeb 2FA-st hädavajaliku vahendi teie veebikontode kaitsmiseks volitamata juurdepääsu eest.
 
 ### Millist varianti valida?
 
@@ -343,9 +363,11 @@ Jätkake õppimist ja järk-järgult rakendage häid tavasid!
 Kuldreegel: Küberturvalisus on liikuv sihtmärk, mis kohandub teie õppimisteekonnaga!
 
 # Praktiline osa
+
 <partId>98ccf14b-4053-5839-878c-7a73ff02eb95</partId>
 
 ## Postkasti seadistamine
+
 <chapterId>afc9ab5d-7664-5a9b-ab50-225ac9ba8f7c</chapterId>
 
 Pange tähele, et hetkel sisaldab see kursuse osa ainult prantsuskeelseid õpetusi. Me töötame hetkel video tõlkimisega teie keelde. Kui soovite meid tõlkimisel aidata, võtke meiega ühendust [GitHub](https://github.com/DecouvreBitcoin/sovereign-university-data) kaudu.
@@ -353,33 +375,40 @@ Pange tähele, et hetkel sisaldab see kursuse osa ainult prantsuskeelseid õpetu
 ![video](https://youtu.be/vpYJYWhmEZg)
 
 ## Turvamine 2FA abil
+
 <chapterId>09468ec1-95b7-56a4-a636-7618044568e1</chapterId>
 
 ![video](https://youtu.be/mNcAKRDmz5o)
 
 ## Paroolihalduri loomine
+
 <chapterId>ed579680-4e7b-5f65-8541-14e519a3b242</chapterId>
 
 ![video](https://youtu.be/y7Xkv4E5YmU)
 
 ## Oma kontode turvamine
+
 <chapterId>7a774b34-aed0-57dd-b8f7-cf3be51c0d70</chapterId>
 ![video](https://youtu.be/0JHZRALmGY0)
 
 ## Varundamise seadistamine
+
 <chapterId>01cfcde1-77cb-506c-8df1-fa18a2e8cc6b</chapterId>
 
 ![video](https://youtu.be/wTJnlSUkDRI)
 
 ## Brauseri ja VPN-i vahetus
+
 <chapterId>8dc08feb-313c-5259-a54f-64aa68a07608</chapterId>
 
 ![video](https://youtu.be/vc6-Ouca09g)
 
 # Mine kaugemale
+
 <partId>77113cad-a6d8-57e5-b903-50c223b277ba</partId>
 
 ## Kuidas töötada küberjulgeoleku valdkonnas
+
 <chapterId>aad1ae27-4280-5b07-b9ab-118ae013951a</chapterId>
 
 ### Küberjulgeolek: Pidevalt kasvav valdkond lõputute võimalustega
@@ -416,9 +445,11 @@ Nende oskuste ja tööriistade valdamine varustab teid edukalt navigeerima kübe
 ![](assets/notext/20.webp)
 
 ## Intervjuu Renaud'ga
+
 <chapterId>7d83fd98-ce22-514e-b9e8-729fbf71ee6e</chapterId>
 
 ### Tõhus paroolihaldus ja autentimise tugevdamine: Akadeemiline lähenemine
+
 Koolitusmoodulis "Turvalisuse 101", mida pakub Découvre Bitcoin Akadeemias, arutasime paroolihaldurite tähtsust. Kolm mõõdet on olulised: paroolide loomine, uuendamine ja rakendamine veebilehtedel. Üldiselt ei soovitata kasutada brauseri laiendusi automaatseks paroolide täitmiseks. Need tööriistad võivad muuta kasutaja haavatavamaks õngitsusrünnakute suhtes. Renaud, tunnustatud ekspert küberturvalisuse alal, eelistab manuaalset haldust KeePassi abil, mis hõlmab parooli käsitsi kopeerimist ja kleepimist. Laiendused kipuvad suurendama rünnaku pinda, võivad aeglustada brauseri jõudlust ja seetõttu kujutavad endast olulist riski. Seega on soovitatav praktika brauseri laienduste minimaalne kasutamine.
 
 Paroolihaldurid üldiselt julgustavad kasutama lisatuvastusfaktoreid, nagu kahefaktoriline autentimine. Optimaalse turvalisuse tagamiseks on soovitatav hoida OTP-sid (Ühekordseid Paroole) oma mobiilseadmes. AndoTP pakub avatud lähtekoodiga lahendust OTP-koodide genereerimiseks ja salvestamiseks telefonis. Kuigi Google Authenticator võimaldab eksportida autentimiskoodi seemneid, on Google'i kontol põhineva varundamise usaldus piiratud. Seetõttu soovitatakse OTI ja AndoTP rakendusi autonoomseks OTP halduseks.
@@ -444,6 +475,8 @@ Tuleb märkida, et internet on suuresti tsentraliseeritud ja valdavalt Ameerika 
 
 ## Tunnustused ja jätkake küülikuurgu uurimist
 
+<chapterId>df3a962a-a96e-5006-b904-0dd9d4a072dd</chapterId>
+
 ### Hinda koolitust ja toeta meid
 
 See kursus koos kogu selle akadeemia sisuga on teile tasuta pakutud meie kogukonna poolt. Meid saate toetada, jagades seda teistega, saades akadeemia liikmeks ja isegi kaasa aidates selle arendamisele GitHubi kaudu. Kogu meeskonna nimel, aitäh!
@@ -463,3 +496,4 @@ Palju õnne SECU 101 koolituse lõpetamise puhul! Loodan siiralt, et see meeldis
 
 Tohutu tänu meie Patreonile, liikmetele ja annetajatele nende rahalise toetuse eest, tänu inimestele, kes jagavad, ja tänu neile, kes tegid selle koolituse võimalikuks: Théo pantamis, Renaud, Théo, Fabien, Noury, Muriel & kogu meeskond.
 Näeme varsti!
+

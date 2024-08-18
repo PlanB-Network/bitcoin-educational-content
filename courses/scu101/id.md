@@ -23,9 +23,11 @@ Théo; kontribusi
 +++
 
 # Pendahuluan
+
 <partId>534ab66c-b0e6-5757-a7dd-6ea04647edf2</partId>
 
 ## Pengenalan Kursus
+
 <chapterId>2f3d005d-8b49-5a3f-b90d-94c11f613407</chapterId>
 
 ### Tujuan: Perbarui keterampilan keamanan Anda!
@@ -57,7 +59,7 @@ Untuk memulai, kami akan membahas pentingnya memilih peramban web dan implikasin
 
 - Bab 3 - Penggunaan Komputer
 - Bab 4 - Peretasan & Manajemen Cadangan
-Pada bagian ini, kita akan membahas tiga area kunci keamanan komputer. Pertama, kita akan menjelajahi berbagai sistem operasi: Mac, PC, dan Linux, menyoroti spesifisitas dan kekuatan mereka. Kemudian, kita akan menggali metode untuk melindungi secara efektif dari upaya peretasan dan memperkuat keamanan perangkat Anda. Akhirnya, kita akan menekankan pentingnya melindungi dan membackup data Anda secara rutin untuk mencegah kehilangan atau ransomware.![](assets/en/2.webp)
+  Pada bagian ini, kita akan membahas tiga area kunci keamanan komputer. Pertama, kita akan menjelajahi berbagai sistem operasi: Mac, PC, dan Linux, menyoroti spesifisitas dan kekuatan mereka. Kemudian, kita akan menggali metode untuk melindungi secara efektif dari upaya peretasan dan memperkuat keamanan perangkat Anda. Akhirnya, kita akan menekankan pentingnya melindungi dan membackup data Anda secara rutin untuk mencegah kehilangan atau ransomware.![](assets/en/2.webp)
 
 ### Bagian 3: Implementasi solusi
 
@@ -71,9 +73,11 @@ Pertama, kita akan melihat cara melindungi kotak masuk email Anda, yang sangat p
 ![](assets/en/3.webp)
 
 # Semua yang Perlu Anda Ketahui tentang Penjelajahan Online
+
 <partId>b4b5379a-d8ef-59ae-94d3-a6e88959c149</partId>
 
 ## Penjelajahan Online
+
 <chapterId>3a935da9-fa6e-57eb-bf85-7b3ec35e6ee2</chapterId>
 
 Saat menjelajahi internet, penting untuk menghindari beberapa kesalahan umum untuk menjaga keamanan online Anda. Berikut adalah beberapa tips untuk menghindarinya:
@@ -87,7 +91,7 @@ Contoh: Gunakan www.signal.org/download daripada www.logicieltelechargement.fr/s
 Juga disarankan untuk memprioritaskan perangkat lunak open-source karena mereka seringkali lebih aman dan bebas dari perangkat lunak jahat. Perangkat lunak "open-source" adalah perangkat lunak yang kodenya diketahui dan dapat diakses oleh semua orang. Ini memungkinkan untuk verifikasi, di antara hal lain, bahwa tidak ada akses tersembunyi untuk mencuri data pribadi Anda.
 
 > Bonus: Perangkat lunak open-source seringkali gratis! Universitas ini 100% open source, jadi Anda juga dapat memeriksa kode kami di GitHub kami.
-![](assets/notext/5.webp)
+> ![](assets/notext/5.webp)
 
 ### Manajemen Cookie: Kesalahan dan praktik terbaik
 
@@ -100,6 +104,7 @@ Cookie adalah file yang dibuat oleh situs web untuk menyimpan informasi di peran
 Ada dua keluarga besar browser: yang berbasis Chrome dan yang berbasis Firefox.
 Meskipun kedua keluarga tersebut menawarkan tingkat keamanan yang serupa, disarankan untuk menghindari browser Google Chrome karena pelacaknya. Alternatif yang lebih ringan dari Chrome, seperti Chromium atau Brave, mungkin lebih disukai. Brave khususnya direkomendasikan karena memiliki pemblokir iklan bawaan. Mungkin diperlukan untuk menggunakan beberapa browser untuk mengakses situs web tertentu.
 ![](assets/notext/6.webp)
+
 ### Penjelajahan Pribadi, TOR, dan alternatif lainnya untuk penjelajahan yang lebih aman dan anonim
 
 Penjelajahan pribadi, meskipun tidak menyembunyikan penjelajahan dari penyedia layanan internet Anda, memungkinkan Anda untuk tidak meninggalkan jejak lokal di komputer Anda. Cookie secara otomatis dihapus di akhir setiap sesi, memungkinkan Anda untuk menerima semua cookie tanpa diikuti. Penjelajahan pribadi dapat berguna saat membeli layanan online, karena situs web melacak kebiasaan pencarian kita dan menyesuaikan harga sesuai. Namun, penting untuk dicatat bahwa penjelajahan pribadi direkomendasikan untuk sesi sementara dan spesifik, bukan untuk penjelajahan internet umum.
@@ -108,11 +113,13 @@ Alternatif yang lebih lanjut adalah jaringan TOR (The Onion Router), yang menawa
 
 TOR legal dan digunakan oleh jurnalis, aktivis kebebasan, dan orang lain yang ingin lolos dari sensor di negara-negara otoriter. Namun, penting untuk memahami bahwa TOR tidak mengamankan situs yang dikunjungi atau komputer itu sendiri. Selain itu, menggunakan TOR dapat memperlambat koneksi internet karena data melewati komputer tiga orang lain sebelum mencapai tujuannya. Juga penting untuk dicatat bahwa TOR bukan solusi sempurna untuk menjamin anonimitas 100% dan tidak seharusnya digunakan untuk aktivitas ilegal.
 ![](assets/notext/7.webp)
+
 ### BRAVE
 
 **_Tutorial dalam pembangunan, untuk berkontribusi atau menambahkannya, Anda dapat melalui GitHub_**
 
 ## VPN dan koneksi internet
+
 <chapterId>5aac83f4-a685-54b0-9759-d71bea7eeed2</chapterId>
 
 ### VPN
@@ -143,9 +150,11 @@ Secara keseluruhan, penggunaan VPN dapat sangat meningkatkan keamanan online, ba
 **_Tutorial dalam pembangunan, untuk berkontribusi atau menambahkannya, Anda dapat melalui GitHub_**
 
 # Praktik Terbaik Penggunaan Komputer
+
 <partId>e6eac20b-ba24-5d9a-8d86-8e0164074457</partId>
 
 ## Penggunaan Komputer
+
 <chapterId>16745632-b56b-5423-9873-ddf70fdf1efd</chapterId>
 
 Keamanan komputer kita adalah perhatian utama di dunia digital saat ini. Hari ini, kami akan membahas tiga poin kunci:
@@ -178,17 +187,20 @@ Untuk memberi Anda contoh konkret dari sebuah kesalahan: perangkat lunak bajakan
 
 Pilihan dan implementasi anti-virus itu penting. Windows Defender, antivirus bawaan di Windows, adalah solusi yang aman dan efektif. Untuk solusi gratis, ini sangat baik dan jauh lebih baik dari banyak solusi gratis yang ditemukan online. Memang, harus berhati-hati dengan antivirus yang diunduh dari Internet, karena bisa jadi berbahaya atau usang.
 Bagi mereka yang ingin berinvestasi dalam antivirus berbayar, disarankan untuk memilih antivirus yang menganalisis ancaman yang tidak dikenal dan muncul secara cerdas, seperti Kaspersky. Pembaruan antivirus sangat penting untuk melindungi dari ancaman baru.
+
 > Catatan: Linux dan Mac, berkat sistem pemisahan hak pengguna mereka, seringkali tidak memerlukan antivirus.
 
 Akhirnya, berikut adalah beberapa praktik baik untuk keamanan komputer dan data Anda. Penting untuk memilih antivirus yang efektif dan ramah pengguna. Juga sangat penting untuk mengadopsi praktik baik pada komputer Anda, seperti tidak memasukkan USB key yang tidak dikenal atau mencurigakan. USB key ini dapat berisi program jahat yang dapat secara otomatis diluncurkan saat dimasukkan. Memeriksa USB key akan sia-sia setelah telah dimasukkan. Beberapa perusahaan telah menjadi korban peretasan karena USB key yang ceroboh ditinggalkan di area yang dapat diakses, seperti tempat parkir.
 
 Perlakukan komputer Anda seperti Anda memperlakukan rumah Anda: tetap waspada, perbarui secara teratur, hapus file yang tidak perlu, dan gunakan kata sandi yang kuat untuk keamanan. Sangat penting untuk mengenkripsi data pada laptop dan smartphone untuk mencegah pencurian atau kehilangan data. BitLocker untuk Windows, LUKS untuk Linux, dan opsi bawaan untuk Mac adalah solusi untuk enkripsi data. Disarankan untuk mengaktifkan enkripsi data tanpa ragu dan menuliskan kata sandi pada kertas yang disimpan di tempat yang aman.
 Kesimpulan, sangat penting untuk memilih sistem operasi yang sesuai dengan kebutuhan Anda dan secara rutin memperbaruinya, begitu juga dengan aplikasi yang terinstal. Juga penting untuk menggunakan antivirus yang efektif dan ramah pengguna serta mengadopsi praktik baik untuk keamanan komputer dan data Anda.
+
 ### Tutorial: Ubuntu
 
 **_Tutorial dalam pembangunan, untuk berkontribusi atau menambahkannya, Anda dapat melalui GitHub_**
 
 ## Manajemen Hacking & Backup: Melindungi Data Anda
+
 <chapterId>9ddfcb6a-a253-5542-b7eb-df7222b46dc7</chapterId>
 
 ### Bagaimana peretas menyerang?
@@ -226,9 +238,13 @@ TIDAK, umumnya tidak disarankan untuk membayar peretas dalam kasus ransomware at
 Jika Anda mendeteksi virus di komputer Anda, putuskan koneksi dari internet, lakukan pemindaian antivirus penuh, dan hapus file yang terinfeksi. Kemudian, perbarui perangkat lunak dan sistem operasi Anda, dan ubah kata sandi Anda untuk mencegah intrusi lebih lanjut.
 
 # Implementasi solusi.
+
 <partId>215ec902-ba05-5549-87fc-cb8d82665f7b</partId>
 
 ## Mengelola akun email
+
+<chapterId>dfceea33-8712-5557-ace1-6ba5598d33d8</chapterId>
+
 ### Menyiapkan akun email baru!
 
 Akun email merupakan pusat dari aktivitas online Anda: jika akun tersebut dikompromikan, peretas dapat menggunakannya untuk mereset semua kata sandi Anda melalui fungsi "lupa kata sandi" dan mendapatkan akses ke banyak situs lain. Itulah mengapa Anda perlu mengamankannya dengan benar.
@@ -258,6 +274,8 @@ Bonus Bitcoin: Mungkin disarankan untuk membuat alamat email khusus untuk aktivi
 
 ## Manajer Kata Sandi
 
+<chapterId>0b3c69b2-522c-56c8-9fb8-1562bd55930f</chapterId>
+
 ### Apa itu manajer kata sandi?
 
 Manajer kata sandi adalah alat yang memungkinkan Anda untuk menyimpan, menghasilkan, dan mengelola kata sandi untuk berbagai akun online. Alih-alih mengingat banyak kata sandi, Anda hanya perlu satu kata sandi utama untuk mengakses semua yang lain.
@@ -265,16 +283,18 @@ Manajer kata sandi adalah alat yang memungkinkan Anda untuk menyimpan, menghasil
 Dengan manajer kata sandi, Anda tidak perlu lagi khawatir lupa kata sandi Anda atau menuliskannya di suatu tempat. Anda hanya perlu mengingat satu kata sandi utama. Selain itu, sebagian besar alat ini menghasilkan kata sandi yang kuat untuk Anda, yang meningkatkan keamanan akun Anda.
 
 ### Perbedaan antara beberapa manajer populer:
+
 - LastPass: Salah satu manajer yang paling populer. Ini adalah layanan pihak ketiga, yang berarti kata sandi Anda disimpan di server mereka. LastPass menawarkan versi gratis dan versi berbayar, dengan antarmuka yang ramah pengguna.
 - Dashlane: Ini juga merupakan layanan pihak ketiga, dengan antarmuka yang intuitif dan fitur tambahan seperti pelacakan informasi kartu kredit dan catatan aman.
-![](assets/notext/17.webp)
+  ![](assets/notext/17.webp)
+
 ### Self-hosting untuk kontrol lebih:
 
 - Bitwarden: Ini adalah alat open-source, yang berarti Anda dapat meninjau kode sumbernya untuk memverifikasi keamanannya. Meskipun Bitwarden menawarkan layanan yang di-host, ia juga memungkinkan pengguna untuk self-host, yang berarti Anda dapat mengontrol di mana kata sandi Anda disimpan, berpotensi menawarkan lebih banyak keamanan dan kontrol.
 
 - KeePass: Ini adalah solusi open-source yang terutama dimaksudkan untuk self-hosting. Data Anda disimpan secara lokal secara default, tetapi Anda dapat menyinkronkan basis data kata sandi menggunakan metode yang berbeda jika Anda mau. KeePass diakui luas karena keamanan dan fleksibilitasnya, meskipun mungkin sedikit kurang ramah pengguna untuk pemula.
-![](assets/notext/18.webp)
-(Catatan: Memilih antara layanan pihak ketiga atau layanan self-hosted tergantung pada tingkat kenyamanan teknologi Anda dan bagaimana Anda memprioritaskan kontrol versus kemudahan. Layanan pihak ketiga umumnya lebih nyaman bagi kebanyakan orang, sementara self-hosting memerlukan lebih banyak pengetahuan teknis tetapi dapat menawarkan lebih banyak kontrol dan ketenangan pikiran dalam hal keamanan.)
+  ![](assets/notext/18.webp)
+  (Catatan: Memilih antara layanan pihak ketiga atau layanan self-hosted tergantung pada tingkat kenyamanan teknologi Anda dan bagaimana Anda memprioritaskan kontrol versus kemudahan. Layanan pihak ketiga umumnya lebih nyaman bagi kebanyakan orang, sementara self-hosting memerlukan lebih banyak pengetahuan teknis tetapi dapat menawarkan lebih banyak kontrol dan ketenangan pikiran dalam hal keamanan.)
 
 ### Apa yang membuat kata sandi yang baik:
 
@@ -304,16 +324,18 @@ Kata sandi yang dihasilkan secara acak menawarkan tingkat keamanan yang lebih ti
 **_Tutorial dalam pembangunan, untuk berkontribusi atau menambahkannya, Anda dapat melalui GitHub_**
 
 ## Autentikasi Dua Faktor
+
 <chapterId>9391e02e-e61b-5a86-93e0-91a07f217d35</chapterId>
 
 ### Mengapa menerapkan 2FA
+
 Otentikasi Dua-Faktor (2FA) adalah lapisan keamanan tambahan yang digunakan untuk memastikan bahwa orang-orang yang mencoba mengakses akun online adalah mereka yang mereka klaim. Alih-alih hanya memasukkan nama pengguna dan kata sandi, 2FA memerlukan bentuk verifikasi kedua. Langkah kedua ini bisa berupa:
 
 - Kode sementara yang dikirim melalui SMS.
 - Kode yang dihasilkan oleh aplikasi seperti Google Authenticator atau Authy.
 - Kunci keamanan fisik yang Anda masukkan ke dalam komputer Anda.
-![](assets/notext/19.webp)
-Dengan 2FA, bahkan jika peretas mendapatkan kata sandi Anda, mereka tidak akan dapat mengakses akun Anda tanpa faktor verifikasi kedua ini. Ini membuat 2FA penting untuk melindungi akun online Anda dari akses tidak sah.
+  ![](assets/notext/19.webp)
+  Dengan 2FA, bahkan jika peretas mendapatkan kata sandi Anda, mereka tidak akan dapat mengakses akun Anda tanpa faktor verifikasi kedua ini. Ini membuat 2FA penting untuk melindungi akun online Anda dari akses tidak sah.
 
 ### Opsi Mana yang Harus Dipilih?
 
@@ -341,9 +363,11 @@ Terus belajar dan secara bertahap menerapkan praktik baik!
 Aturan emas: Keamanan siber adalah target yang bergerak yang akan beradaptasi dengan perjalanan belajar Anda!
 
 # Bagian Praktis
+
 <partId>98ccf14b-4053-5839-878c-7a73ff02eb95</partId>
 
 ## Menyiapkan Kotak Surat
+
 <chapterId>afc9ab5d-7664-5a9b-ab50-225ac9ba8f7c</chapterId>
 
 Perhatikan bahwa, untuk saat ini, bagian kursus ini hanya berisi tutorial cara melakukan sesuatu dalam bahasa Prancis. Kami sedang bekerja untuk menerjemahkan video tersebut ke dalam bahasa Anda. Jika Anda ingin membantu kami menerjemahkan, hubungi kami melalui [GitHub](https://github.com/DecouvreBitcoin/sovereign-university-data)
@@ -351,30 +375,41 @@ Perhatikan bahwa, untuk saat ini, bagian kursus ini hanya berisi tutorial cara m
 ![video](https://youtu.be/vpYJYWhmEZg)
 
 ## Mengamankan dengan 2FA
+
 <chapterId>09468ec1-95b7-56a4-a636-7618044568e1</chapterId>
 
 ![video](https://youtu.be/mNcAKRDmz5o)
 
 ## Membuat manajer kata sandi
+
 <chapterId>ed579680-4e7b-5f65-8541-14e519a3b242</chapterId>
+https://planb.network/tutorials/others/bitwarden
 
 ![video](https://youtu.be/y7Xkv4E5YmU)
 
 ## Mengamankan Akun Anda
-## Pengaturan Cadangan
-<chapterId>01cfcde1-77cb-506c-8df1-fa18a2e8cc6b</chapterId>
 
+<chapterId>7a774b34-aed0-57dd-b8f7-cf3be51c0d70</chapterId>
+https://planb.network/tutorials/others/bitwarden
+
+## Pengaturan Cadangan
+
+<chapterId>01cfcde1-77cb-506c-8df1-fa18a2e8cc6b</chapterId>
+https://planb.network/tutorials/others/proton-drive
 ![video](https://youtu.be/wTJnlSUkDRI)
 
 ## Perubahan Browser & VPN
+
 <chapterId>8dc08feb-313c-5259-a54f-64aa68a07608</chapterId>
 
 ![video](https://youtu.be/vc6-Ouca09g)
 
 # Lanjutkan Lebih Jauh
+
 <partId>77113cad-a6d8-57e5-b903-50c223b277ba</partId>
 
 ## Bagaimana Cara Bekerja di Industri Keamanan Siber
+
 <chapterId>aad1ae27-4280-5b07-b9ab-118ae013951a</chapterId>
 
 ### Keamanan Siber: Bidang yang Berkembang dengan Peluang Tanpa Batas
@@ -412,7 +447,10 @@ Dengan menguasai keterampilan dan alat ini, Anda akan dilengkapi dengan baik unt
 
 ## Wawancara dengan Renaud
 
+<chapterId>7d83fd98-ce22-514e-b9e8-729fbf71ee6e</chapterId>
+
 ### Manajemen Kata Sandi yang Efisien dan Penguatan Autentikasi: Pendekatan Akademis
+
 Dalam modul pelatihan "Keamanan 101" yang ditawarkan oleh Découvre Bitcoin dalam Akademi, kami membahas pentingnya penggunaan manajer kata sandi. Ada tiga dimensi yang penting untuk dipertimbangkan: pembuatan, pembaruan, dan implementasi kata sandi di situs web.
 
 Umumnya tidak disarankan untuk menggunakan ekstensi browser untuk pengisian kata sandi secara otomatis. Alat-alat ini dapat membuat pengguna lebih rentan terhadap serangan phishing. Renaud, seorang ahli terkemuka dalam keamanan siber, lebih memilih pengelolaan manual menggunakan KeePass, yang melibatkan proses menyalin dan menempel kata sandi secara manual. Ekstensi cenderung meningkatkan permukaan serangan, dapat memperlambat kinerja browser, dan oleh karena itu menyajikan risiko yang signifikan. Dengan demikian, penggunaan minimal ekstensi pada browser adalah praktik yang disarankan.
@@ -439,6 +477,7 @@ Harus juga dicatat bahwa Internet sangat terpusat dan sebagian besar berada di b
 Sebagai bagian dari modul pelatihan "Security 101" di Découvre Bitcoin Academy, kami juga membahas autentikasi Lightning. Sistem ini menghasilkan pengenal yang berbeda untuk setiap layanan, tanpa perlu menyediakan alamat email atau informasi pribadi. Dimungkinkan untuk memiliki identitas terdesentralisasi yang dikontrol pengguna, tetapi ada kekurangan standarisasi dan normalisasi dalam proyek identitas terdesentralisasi. Manajer paket seperti Nuget dan Chocolaté, yang memungkinkan pengunduhan perangkat lunak sumber terbuka di luar Microsoft Store, direkomendasikan untuk menghindari serangan jahat. Singkatnya, DNS sangat penting untuk keamanan online, tetapi perlu untuk tetap waspada terhadap serangan potensial pada server DNS.
 
 ## Pengakuan dan terus menggali lubang kelinci
+
 <chapterId>df3a962a-a96e-5006-b904-0dd9d4a072dd</chapterId>
 
 ### Nilai pelatihan & dukung kami
@@ -460,3 +499,4 @@ Selamat telah menyelesaikan pelatihan SECU 101 ini! Saya sungguh berharap Anda m
 
 Terima kasih yang sangat besar kepada Patreon kami, anggota, dan donor atas dukungan finansial mereka, terima kasih kepada orang-orang yang membagikan, dan terima kasih kepada mereka yang membuat pelatihan ini mungkin: Théo pantamis, Renaud, Théo, Fabien, Noury, Muriel & seluruh tim.
 Sampai jumpa!
+

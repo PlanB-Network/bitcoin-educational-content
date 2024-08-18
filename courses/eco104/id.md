@@ -36,9 +36,11 @@ Kursus ini telah disponsori oleh TETHER
 +++
 
 # Pengantar
+
 <partId>d44d9f32-c72e-58a4-9855-12e29f3e763c</partId>
 
 ## Pengantar
+
 <chapterId>2eaf5947-8180-540e-9418-c40bf04e07ce</chapterId>
 
 ### Kita hidup di dunia di mana:
@@ -79,9 +81,11 @@ Di akhir kursus ini, Anda tidak hanya akan mendapatkan pengetahuan yang kuat dan
 Kami sangat senang memiliki Anda bergabung dengan kami dalam perjalanan ini ke kedalaman sistem moneter kita.
 
 # Harga Kemajuan - Tinjauan Lebih Dekat pada Sistem Keuangan Kita
+
 <partId>25ed8242-1b5a-5b53-b833-824b0dd80bcc</partId>
 
 ## Pengenalan ke Uang
+
 <chapterId>927ad49a-d8d6-5dd3-9250-cdcadcbf425e</chapterId>
 Uang adalah bagian yang menarik dan esensial dari kehidupan sehari-hari kita. Kita menggunakannya setiap hari untuk membeli bahan makanan, membayar tagihan, dan melakukan transaksi tak terhitung jumlahnya. Tapi, sebenarnya apa itu uang? Pada intinya, uang hanyalah sebuah alat tukar, sebuah alat yang memungkinkan kita untuk berdagang barang dan jasa satu sama lain. Ini adalah konsep abstrak yang kita anggap remeh, namun fundamental bagi sistem ekonomi kita.
 Namun, tidak semua uang diciptakan sama. Beberapa bentuk uang lebih baik dari yang lain, tergantung pada kemampuannya untuk berfungsi sebagai penyimpan nilai, alat tukar, dan satuan akun. Emas, misalnya, telah sangat dihargai selama ribuan tahun karena ketahanan dan kelangkaannya. Di sisi lain, uang kertas hanya seberharga kepercayaan yang kita tempatkan pada institusi yang menerbitkannya.
@@ -114,7 +118,7 @@ Mari kita lihat masing-masing:
 1. **Penyimpan Nilai:** Uang berfungsi sebagai sarana penyimpanan nilai untuk penggunaan di masa depan, memungkinkan pemegangnya untuk mempertahankan daya beli mereka dari waktu ke waktu. Dengan demikian, itu memberikan pemegangnya kemampuan untuk menabung dan merencanakan masa depan. Emas berfungsi sebagai contoh utama dari penyimpan nilai tersebut, karena selama berabad-abad mampu membeli setelan jas yang layak hanya dengan satu ons.
 2. **Alat Tukar:** Agar uang dapat berfungsi sebagai media pertukaran yang layak untuk barang dan jasa, uang harus mudah ditukarkan. Meskipun aset apa pun secara teknis dapat digunakan sebagai uang, aset yang lebih besar dan tidak dapat dipindahkan seperti rumah tidak praktis untuk digunakan sebagai alat tukar.
 3. **Unit of Account:** Akhirnya, uang harus berfungsi sebagai satuan ukuran standar untuk harga barang dan jasa. Ini berarti bahwa barang-barang dihargai dan dinilai dalam istilah uang ini, memungkinkan perbandingan mudah dari nilai relatif berbagai produk dan jasa.
-Ketika ketiga fungsi esensial dari uang ini terpenuhi secara keseluruhan, uang tersebut memiliki kemampuan untuk memenuhi tuntutan perdagangan yang ketat. Tanpa fungsi-fungsi ini, uang jauh kurang dapat diandalkan dan dipercaya, mengarah pada ketidakamanan dan ketidakpastian dalam perdagangan, yang dapat memiliki efek merugikan baik pada tingkat pribadi maupun nasional.
+   Ketika ketiga fungsi esensial dari uang ini terpenuhi secara keseluruhan, uang tersebut memiliki kemampuan untuk memenuhi tuntutan perdagangan yang ketat. Tanpa fungsi-fungsi ini, uang jauh kurang dapat diandalkan dan dipercaya, mengarah pada ketidakamanan dan ketidakpastian dalam perdagangan, yang dapat memiliki efek merugikan baik pada tingkat pribadi maupun nasional.
 
 Dengan ini dalam pikiran, ketika uang yang kita gunakan menawarkan kita sarana yang dapat diandalkan untuk menyimpan nilai, metode efektif untuk memfasilitasi transaksi, dan ukuran nilai yang umum, itu memungkinkan kita untuk menyimpan dan membangun kekayaan, berdagang dengan percaya diri dan bertransaksi dengan mudah. Fungsi-fungsi ini bersama-sama tidak hanya membantu kita dalam kapasitas kita untuk berdagang dan menyimpan, tetapi juga meletakkan dasar untuk sistem ekonomi yang stabil dan efisien, mendorong pertumbuhan ekonomi dan kemakmuran yang lebih besar bagi individu dan masyarakat.
 
@@ -160,6 +164,7 @@ Dalam modul-modul berikutnya, kita akan menjelajahi dua bentuk uang yang populer
 Dari barter hingga penemuan koin dan mata uang kertas, uang telah mengalami serangkaian transformasi untuk beradaptasi dengan kebutuhan masyarakat yang selalu berubah. Saat kita beralih ke bab berikutnya, mari kita ubah arah, mengarahkan perhatian kita ke evolusi uang.
 
 ## Sebuah Pemeriksaan Bagaimana Kita Sampai di Sini
+
 Dari zaman barter barang hingga era modern mata uang digital, uang telah mengalami evolusi yang menarik. Leluhur kita menggunakan cangkang, manik-manik, dan bahkan ternak sebagai alat tukar. Saat ini, kita memiliki dompet virtual dan pembayaran tanpa kontak. Ini adalah perjalanan yang luar biasa yang telah melihat berbagai iterasi, kompromi, dan adaptasi untuk memenuhi kebutuhan masyarakat yang selalu berubah.
 
 Namun, bagaimana uang yang kita gunakan berevolusi menjadi bagian penting dari kehidupan kita seperti saat ini? Dalam bagian ini, kita akan menjelajahi evolusi uang, dari bentuk awalnya hingga mata uang digital modern yang kita gunakan saat ini. Kita akan menyelami setiap iterasi utama uang, melihat bagaimana mereka telah membantu membentuk masyarakat modern kita.
@@ -236,6 +241,7 @@ Kedua, mata uang kertas yang didukung logam tidak kebal terhadap pemalsuan. Bahk
 Meskipun mata uang kertas yang didukung logam memiliki bagian masalahnya sendiri, fungibilitas, divisibilitas, dan portabilitas yang ditingkatkan membuka jalan bagi kenyamanan mata uang fiat yang kita gunakan hari ini, di mana praktikalitas sering kali mengalahkan kelangkaan.
 
 ### Mata Uang Fiat
+
 Mata uang fiat telah menjadi dasar dari sistem moneter kita selama beberapa dekade. Istilah "fiat" berasal dari bahasa Latin yang berarti "biarlah itu terjadi" dan merujuk pada otoritas negara untuk mendeklarasikan sebuah mata uang sebagai alat pembayaran yang sah. Berbeda dengan mata uang yang dulu didukung oleh emas atau barang berharga lainnya, nilai fiat berasal dari janji pemerintah bahwa seseorang akan menerima mata uang tersebut sebagai alat tukar barang dan jasa.
 
 Mata uang fiat muncul sebagai respons terhadap frustrasi negara-negara terhadap mata uang kertas yang didukung oleh logam – pemerintah harus mendapatkan lebih banyak emas untuk mencetak lebih banyak uang kertas. Ini menjadi penghalang, sehingga setiap kali sebuah negara membutuhkan modal, mereka akan sementara meninggalkan pegangan ini dan memperluas pasokan moneter mereka. Mata uang baru ini didukung oleh tidak ada apa-apa selain kepercayaan pada pemerintah karena itu adalah alat pembayaran yang sah. Tidak hanya itu, mata uang baru ini menurunkan nilai mata uang yang beredar dengan mengembangnya pasokan uang, dan dengan lebih banyak dolar yang mengejar jumlah barang yang sama, harga naik.
@@ -281,6 +287,7 @@ Dikatakan, meskipun mata uang digital mewakili batas baru dalam evolusi uang, me
 Setelah memeriksa berbagai bentuk uang sepanjang sejarah, ini menimbulkan pertanyaan yang relevan:
 
 ### Apakah kita bergerak ke arah yang benar?
+
 Sepanjang perjalanan ini, kita telah mengeksplorasi evolusi uang yang menarik, mengikuti perkembangannya dari barter hingga era digital saat ini. Kita telah melihat berbagai mata uang naik dan turun, dari kerang dan manik-manik hingga logam berharga dan uang fiat.
 
 Namun, seperti yang telah kita lihat, jalur evolusi moneter tidak tanpa tantangannya. Munculnya pemotongan koin dan manipulasi mata uang, pergerakan menuju sentralisasi dan menjauh dari media pertukaran yang umum diterima hanyalah beberapa contoh dari rintangan yang telah kita hadapi sepanjang jalan.
@@ -294,6 +301,7 @@ Ini adalah pertanyaan-pertanyaan kompleks yang memerlukan pertimbangan dan refle
 Saat kita melanjutkan eksplorasi dunia uang, penting untuk mengakui perubahan signifikan yang telah terjadi sejak munculnya mata uang fiat. Meskipun mata uang ini telah membawa tingkat kenyamanan dan stabilitas, mereka juga telah menyajikan tantangan baru, seperti inflasi, tingkat utang yang meningkat, dan ketidaksetaraan kekayaan. Dalam bagian selanjutnya, kita akan lebih dalam membahas masalah-masalah ini, dan dalam modul-modul berikutnya, kita akan menjelajahi solusi potensial untuk masalah-masalah rumit ini.
 
 ## Melihat di Mana Kita Berada dan Apa yang Dapat Kita Harapkan ke Depan
+
 <chapterId>0c38e8fd-c973-57a5-a673-abec706f6054</chapterId>
 
 Seperti yang kita bahas di bab sebelumnya, secara historis, uang sering didukung oleh komoditas seperti emas. Manfaat dari hal ini tidak bisa dilebih-lebihkan. Tidak hanya koneksi ini berarti bahwa nilai uang tersebut secara langsung terikat pada nilai komoditas, tetapi juga berarti bahwa penerbit mata uang, biasanya pemerintah, dibatasi dalam berapa banyak uang yang bisa mereka cetak karena mereka harus mendapatkan lebih banyak emas.
@@ -388,16 +396,16 @@ Dengan serbuan konstan media sosial dan liputan berita, Anda mungkin telah menya
 
 1. Inflasi menurunkan daya beli mata uang kita. Dengan mata uang yang memburuk, orang tidak lagi termotivasi untuk menabung. Ini memaksa individu yang kaya untuk mengarahkan sumber daya mereka ke aset keuangan sementara individu tanpa kekayaan ke konsumsi. Karena konsumsi mengarahkan uang ke perusahaan yang dimiliki oleh orang kaya, dan uang pintar mengarahkan kas mereka ke aset, kita melihat efek berantai dari kenaikan harga aset karena peningkatan permintaan. Ini semua sementara inflasi menghancurkan daya beli mata uang.
 2. Karena beban utang yang berlebihan, pemerintah memiliki insentif untuk menekan suku bunga. Dengan demikian, konsumsi utang menjadi lebih menarik, terutama bagi mereka yang memiliki kekayaan. Ketika biaya modal sangat murah, orang meminjam melebihi kemampuan mereka, mengalirkan lebih banyak modal ke dalam aset dan mendorong naiknya harga. Ini bagus untuk pemegang aset; namun, harga menjadi semakin tidak terjangkau bagi mereka yang mencoba untuk memulai di tangga properti atau mencelupkan kaki ke dalam pasar keuangan. Sebuah aturan praktis sederhana adalah bahwa ketika suku bunga menurun, harga aset meningkat karena modal lebih bebas tersedia.
-**Bagaimana inflasi ini memperbesar ketimpangan kekayaan?** Mengingat kelas atas memiliki aset dan kelas bawah cenderung memiliki mata uang, yang terjadi adalah ketimpangan kekayaan yang semakin besar karena daya beli mata uang berkurang dan biaya aset terus meningkat, menjadi semakin tidak terjangkau. Hal ini dapat dilihat dalam "Gambar X" di bawah ini. Anda akan melihat perbedaan signifikan dalam apresiasi aset dibandingkan dengan upah.
+   **Bagaimana inflasi ini memperbesar ketimpangan kekayaan?** Mengingat kelas atas memiliki aset dan kelas bawah cenderung memiliki mata uang, yang terjadi adalah ketimpangan kekayaan yang semakin besar karena daya beli mata uang berkurang dan biaya aset terus meningkat, menjadi semakin tidak terjangkau. Hal ini dapat dilihat dalam "Gambar X" di bawah ini. Anda akan melihat perbedaan signifikan dalam apresiasi aset dibandingkan dengan upah.
 
 **Kinerja Berdasarkan Kelas Aset**
 
-| Kelas Aset          | Pertumbuhan Total (Jan 2010 - Jan 2021) | Pertumbuhan Tahunan (Jan 2010 - Jan 2021) |
-| ------------------- | ---------------------------------------- | ----------------------------------------- |
-| Pasar Saham         | 236,84%                                 | 11,67%                                    |
-| Real Estat          | 66,38%                                  | 4,74%                                     |
-| Emas                | 73,10%                                  | 5,11%                                     |
-| Upah Per Jam Rata-rata | 33,37%                              | 2,65%                                     |
+| Kelas Aset             | Pertumbuhan Total (Jan 2010 - Jan 2021) | Pertumbuhan Tahunan (Jan 2010 - Jan 2021) |
+| ---------------------- | --------------------------------------- | ----------------------------------------- |
+| Pasar Saham            | 236,84%                                 | 11,67%                                    |
+| Real Estat             | 66,38%                                  | 4,74%                                     |
+| Emas                   | 73,10%                                  | 5,11%                                     |
+| Upah Per Jam Rata-rata | 33,37%                                  | 2,65%                                     |
 
 Gambar: Kinerja Berdasarkan Kelas Aset ([Saham](https://finance.yahoo.com/quote/%5EGSPC/history/), [Real Estat](https://dqydj.com/historical-home-prices/), [Emas](https://goldprice.org/), [Upah](https://tradingeconomics.com/united-states/wages.))
 
@@ -429,6 +437,7 @@ Untungnya, ada opsi yang tersedia bagi kita. Dengan munculnya Bitcoin, kita seka
 Saat kita maju, kami mendorong Anda untuk mendekati teknologi baru ini dengan pikiran terbuka dan pandangan kritis, menjelajahi bagaimana itu dapat menawarkan alternatif untuk sistem keuangan kita saat ini. Dengan melakukan hal ini, kita memiliki potensi untuk mengatasi masalah ketidaksetaraan yang meningkat dan kerusuhan sosial sambil membangun masa depan ekonomi yang lebih berkelanjutan dan adil.
 
 ## Ujian
+
 <chapterId>f25c229f-2af0-5324-bc40-e90f7668985a</chapterId>
 
 Sekarang setelah Anda melewati Modul "Harga Kemajuan", Anda harus menguji pengetahuan baru yang Anda peroleh untuk memastikan bahwa Anda telah memahami bagian terakhir. Kami akan memulai dengan beberapa Pertanyaan Terbuka dan kemudian kuis kecil.
@@ -440,9 +449,11 @@ Sekarang setelah Anda melewati Modul "Harga Kemajuan", Anda harus menguji penget
 5. Dalam pandangan informasi yang disediakan tentang utang dan inflasi, apa pendapat Anda tentang keberlanjutan sistem moneter saat ini? Apakah Anda berpikir sistem kita saat ini menguntungkan atau merugikan dalam jangka panjang?
 
 # Pembebasan Finansial - Pengenalan ke Bitcoin
+
 <partId>c00843b2-bde3-57bb-ae2e-8ecad6631d71</partId>
 
 ## Pelopor, Inovator, & Dasar-dasar Bitcoin
+
 <chapterId>37d779ce-46b5-56d1-91d8-d04442236e35</chapterId>
 
 Selamat datang di Modul Dua, di mana kita akan menjelajahi dunia Bitcoin yang menarik. Berdasarkan pemahaman kita tentang sejarah uang, modul ini akan mencakup topik-topik berikut:
@@ -451,7 +462,7 @@ Selamat datang di Modul Dua, di mana kita akan menjelajahi dunia Bitcoin yang me
 - Manfaat Bitcoin sebagai mata uang digital
 - Perbedaan antara bitcoin sebagai aset dan Bitcoin sebagai jaringan
 - Cara berinteraksi dengan Bitcoin dan berbagai lapisannya
-Pada akhir modul ini, Anda akan memiliki pemahaman yang solid tentang asal-usul Bitcoin, fitur-fiturnya, dan penggunaan potensialnya. Namun, sebelum kita menyelami kerumitan Bitcoin, mari kita pertama-tama menjelajahi sejarah mata uang digital yang membuka jalan bagi teknologi ini yang mengubah cara kita berpikir tentang uang.
+  Pada akhir modul ini, Anda akan memiliki pemahaman yang solid tentang asal-usul Bitcoin, fitur-fiturnya, dan penggunaan potensialnya. Namun, sebelum kita menyelami kerumitan Bitcoin, mari kita pertama-tama menjelajahi sejarah mata uang digital yang membuka jalan bagi teknologi ini yang mengubah cara kita berpikir tentang uang.
 
 ### Apa itu Bitcoin
 
@@ -544,6 +555,7 @@ Poin-poin ini digabungkan berarti bahwa Bitcoin menawarkan siapa saja privasi fi
 Untuk mengakhiri, terlepas dari siapa Satoshi Nakamoto, tidak dapat disangkal bahwa penemuan Bitcoin telah memicu cara baru berpikir tentang transfer nilai.
 
 ## Bagaimana Cara Kerja Bitcoin? Mekanisme Internal dari Uang Internet Ajaib Ini
+
 <chapterId>b0f736fc-ed4d-5887-b22e-d958db9144d1</chapterId>
 
 Bitcoin sering disebut sebagai uang internet ajaib... dan dengan alasan yang baik. Pikirkan tentang ini – dengan Bitcoin, Anda dapat mengirim nilai ke siapa pun, di mana pun di dunia, tanpa perlu perantara seperti bank atau pemerintah. Ini seperti memiliki kontrol atas bank pribadi Anda sendiri, kekuatan untuk mentransfer dana lintas batas hanya dengan beberapa klik tombol.
@@ -561,7 +573,7 @@ Dibandingkan dengan sistem perbankan tradisional, sementara Bitcoin secara fungs
 1. memvalidasi dan memproses transaksi,
 2. memantau transaksi untuk memastikan tidak ada kecurangan atau perilaku buruk,
 3. memastikan semuanya terkini, berfungsi dengan lancar dan aman.
-Sementara bank melakukan peran ini secara internal, memberi mereka kontrol penuh atas proses tersebut, Bitcoin memerlukan kolaborasi dari komunitas untuk menjalankan peran tersebut. Dengan kata lain, agar Bitcoin dapat meniru proses ini dalam sistem yang terdesentralisasi, Bitcoin harus menyerahkan masing-masing tugas ini untuk memastikan bahwa tidak ada individu atau entitas terpusat yang memiliki kontrol berlebihan atas sistem.
+   Sementara bank melakukan peran ini secara internal, memberi mereka kontrol penuh atas proses tersebut, Bitcoin memerlukan kolaborasi dari komunitas untuk menjalankan peran tersebut. Dengan kata lain, agar Bitcoin dapat meniru proses ini dalam sistem yang terdesentralisasi, Bitcoin harus menyerahkan masing-masing tugas ini untuk memastikan bahwa tidak ada individu atau entitas terpusat yang memiliki kontrol berlebihan atas sistem.
 
 Untuk mencapai prestasi revolusioner ini, Bitcoin telah membagi tugas-tugas ini menjadi tiga peran kunci: node, penambang, dan pengembang. Di mana node memverifikasi transaksi dan menetapkan serta menegakkan aturan, penambang mengurutkan dan mengonfirmasi transaksi, dan pengembang menjaga jaringan tetap terkini dan mengusulkan peningkatan. Dengan mendistribusikan tugas-tugas ini di antara pemain kunci ini, Bitcoin telah menciptakan sistem yang aman, transparan, dan dapat dipertanggungjawabkan kepada semua pengguna.
 
@@ -607,6 +619,7 @@ Pada titik ini, transaksi memasuki apa yang dikenal sebagai mempool, pada dasarn
 Penambang sekarang mengambil transaksi tertunda ini, menggabungkannya menjadi blok baru, dan bersaing satu sama lain untuk melakukan tugas tertentu yang ditetapkan oleh perangkat lunak yang mendasari Bitcoin. Pemenang kompetisi kemudian menambahkan blok mereka dan transaksi yang terlampir ke blockchain, mengesahkan transaksi ini. Pemenang juga diberi imbalan dengan bitcoin yang baru dikeluarkan dan biaya yang terkait dengan transaksi yang diproses, memberi insentif kepada mereka untuk terus memproses transaksi.
 
 #### Validasi Transaksi
+
 Setelah transaksi dikonfirmasi, Bob sekarang seharusnya dapat melihat 0,00100000 bitcoin di dompetnya. Namun, tidak berhenti di situ saja. Node kemudian memverifikasi bahwa penambang telah melakukan pekerjaannya dengan benar dan bahwa transaksi yang termasuk dalam blok baru ini memenuhi aturan yang disepakati oleh node. Jika blok tersebut gagal melakukannya, maka blok baru akan ditolak, dan penambang akan kehilangan hadiah penambangannya.
 _**Fakta Menarik:** Bahkan setelah transaksi Bitcoin dikonfirmasi, kemungkinan pembalikan masih ada jika node menolak blok. Namun, dengan setiap blok baru yang ditambahkan ke blockchain pasca-transaksi, kemungkinan pembalikan berkurang secara eksponensial. Untuk meningkatkan keamanan, bursa dan dompet sering menahan bitcoin Anda sampai beberapa blok berikutnya ditambahkan— biasanya tiga hingga enam. Ini melindungi dana dan menjamin ketenangan pikiran transaksi._
 
@@ -622,6 +635,7 @@ Seperti yang dijelaskan sepanjang bagian ini, meskipun Bitcoin mungkin tampak se
 Setiap peran ini penting untuk fungsionalitas dan kesuksesan Bitcoin sebagai mata uang digital. Dengan mempercayakan tugas-tugas penting ini kepada pemain kunci, Bitcoin dapat beroperasi sebagai media pertukaran yang aman, transparan, dan dapat dipertanggungjawabkan untuk semua pengguna, menjadikannya pencapaian signifikan dalam sejarah mata uang.
 
 ## Apa yang Membuat Bitcoin Berbeda dari Fiat?
+
 <chapterId>5ef55778-cbcf-5c7e-960d-a2fcdf1a4006</chapterId>
 
 Di bagian sebelumnya, kita telah menyelami fungsionalitas unik Bitcoin yang membedakannya dari mata uang tradisional dan bagaimana Bitcoin mencapai lencana yang didambakan sebagai desentralisasi. Sekarang, mari kita beralih fokus dan jelajahi bagaimana Bitcoin berbeda dari fiat dalam hal karakteristik yang membuat sebuah mata uang hebat. Hanya dengan memeriksa karakteristik kunci ini kita dapat memperoleh pemahaman yang lebih dalam tentang mengapa Bitcoin unik dan berada dalam dunia sendiri ketika datang ke uang.
@@ -720,6 +734,7 @@ Karakteristik unik Bitcoin sebagai penyimpan nilai, alat tukar, dan unit akun me
 Lebih lanjut, atribut gabungan ini tidak hanya menempatkan Bitcoin sebagai instrumen yang kuat untuk menyimpan dan membangun kekayaan dalam jangka panjang (bitcoin sebagai aset) tetapi juga menawarkan banyak keuntungan bagi mereka yang ingin menggunakan Bitcoin sebagai media transaksional (jaringan Bitcoin). Ini sangat berbeda dengan mata uang fiat, yang memerlukan kepercayaan dan perantara dalam kedua skenario. Ini membuat Bitcoin menjadi mata uang yang menarik bagi individu dan bisnis, terlepas dari apakah digunakan untuk menyimpan atau bertransaksi.
 
 ## Berinteraksi Dengan Bitcoin
+
 <chapterId>050a95af-e9c2-5ec3-b9c8-55ec174d309c</chapterId>
 
 Bitcoin telah menggemparkan sistem moneter, menarik perhatian negara berkembang, individu yang paham teknologi, dan investor. Namun, dengan pertumbuhan cepatnya, banyak yang bertanya-tanya bagaimana aset digital ini dapat bersaing dengan metode pembayaran tradisional seperti Visa dan Mastercard. Selain itu, individu penasaran tentang bagaimana mereka dapat secara pribadi terlibat dengan Bitcoin.
@@ -807,6 +822,7 @@ Sebelum menutup modul ini, saya ingin meninggalkan Anda dengan satu pemikiran te
 ### Menyelami Lebih Dalam
 
 Jika Anda tertarik untuk lebih menjelajahi dunia Bitcoin, banyak opsi tersedia. Seperti:
+
 1. **Node:** Menjalankan node adalah titik masuk yang sangat baik bagi mereka yang ingin tahu lebih dalam tentang Bitcoin di luar transaksi dasar. Ini memungkinkan Anda tidak hanya berkontribusi pada jaringan Bitcoin dengan memverifikasi blockchain dan mempengaruhi pembaruan atau perubahan baru, tetapi juga meminimalkan kepercayaan dan menawarkan privasi yang ditingkatkan dengan memberi Anda kemampuan untuk memverifikasi transaksi dan saldo Anda sendiri. Dengan menjalankan node, Anda menjadi bagian dari jaringan terdesentralisasi dan membantu memastikan keamanan dan integritasnya.
 
 2. **Mining:** Mining adalah cara lain untuk berkontribusi pada jaringan Bitcoin dan berpotensi mendapatkan bitcoin. Meskipun membutuhkan sedikit lebih banyak sumber daya daripada menjalankan node dan tidak seprofitable seperti dulu, mining adalah aktivitas yang memberi hadiah bagi mereka yang tertarik pada aspek teknis dari jaringan.
@@ -822,6 +838,7 @@ Meskipun kita sering mendengar bahwa Bitcoin tidak pernah bisa bersaing dengan V
 Keuntungan terbesar Bitcoin adalah memungkinkan kita untuk memiliki hak asuh sendiri atas aset digital, yang tidak pernah mungkin sebelumnya. Jika Anda merasa kewalahan setelah membaca bagian ini, jangan khawatir. Mengambil kendali atas bitcoin Anda sendiri adalah langkah kuat menuju kebebasan finansial, tetapi juga datang dengan tanggung jawab baru. Namun, dengan sedikit penelitian dan kehati-hatian, tanggung jawab baru ini akan dengan cepat menjadi sifat kedua bagi Anda, dan Anda akan merasa nyaman mengambil tugas mengamankan bitcoin Anda dengan aman.
 
 ## Ujian
+
 <chapterId>1c7b8165-d67b-5f7c-a1cb-b83db58b77c7</chapterId>
 
 Sekarang setelah Anda melewati Modul "An Examination of How We Got Here", Anda harus menguji pengetahuan baru yang Anda peroleh untuk memastikan bahwa Anda telah memahami bagian terakhir. Kami akan memulai dengan beberapa Pertanyaan Terbuka dan kemudian kuis kecil.
@@ -834,8 +851,11 @@ Sekarang setelah Anda melewati Modul "An Examination of How We Got Here", Anda h
 6. Pertimbangkan skenario di mana Anda perlu mengirim uang ke anggota keluarga di negara lain. Bagaimana sifat peer-to-peer Bitcoin dan biaya rendah dapat menguntungkan Anda dalam situasi ini?
 
 # Stabilitas di Tengah Kekacauan - Pengenalan ke Tether & Dunia Stablecoin
+
 <partId>60b1f3c4-e161-53fe-84ca-88d8cd62aa75</partId>
+
 ## Pengantar tentang Tether & Dunia Stablecoin
+
 <chapterId>427a72b5-8af7-503e-bc45-bb8b95483993</chapterId>
 
 Seperti yang telah dibahas sebelumnya, uang telah menjadi bagian penting dari umat manusia selama ribuan tahun. Uang telah membantu kita membeli barang dan jasa, memungkinkan kita untuk berdagang satu sama lain, dan membantu kita dalam menyimpan kekayaan.
@@ -867,6 +887,7 @@ Kita membutuhkan mata uang yang terikat pada sesuatu yang bernilai relatif, asli
 Dan inilah di mana Tether masuk.
 
 #### Siapa Tether?
+
 Dalam lanskap mata uang fiat yang terus berkembang, Tether telah muncul sebagai pemain kunci, didorong oleh visi untuk memenuhi kebutuhan finansial dunia modern. Saat mata uang tradisional terus berjuang untuk mengikuti tuntutan ekonomi global yang cepat berubah, dan volatilitas jangka pendek Bitcoin membuatnya menantang bagi mereka yang tidak memiliki kapasitas untuk menyimpan, para pendiri Tether mengenali kesempatan untuk menjembatani kedua dunia tersebut.
 
 Tether adalah "pengganggu terhadap sistem keuangan konvensional dan pelopor dalam penggunaan digital mata uang tradisional." Tujuan utama mereka adalah untuk meningkatkan adopsi Bitcoin dengan menjembatani dunia keuangan tradisional ke dunia digital Bitcoin. Mereka mencapai ini melalui penawaran berbagai token digital, sering disebut sebagai “stablecoin,” yang mempertahankan nilai karena taliannya—tanpa bermaksud bermain kata—ke aset dunia nyata. Tether juga berinvestasi dalam penambangan Bitcoin, pendidikan Bitcoin, infrastruktur pembayaran Bitcoin, dan penelitian serta pengembangan Bitcoin yang canggih.
@@ -932,7 +953,9 @@ Pada dasarnya, stablecoin bertindak sebagai jembatan antara aset tradisional dan
 Mengenai bagaimana mereka mempertahankan stabilitas harga ini, mari kita lihat…
 
 Mayoritas stablecoin sering memilih untuk menggunakan mata uang fiat sebagai pegnya, dengan dolar AS menjadi salah satu mata uang fiat yang lebih populer untuk dipegang. Untuk alasan ini, kita akan menyelami stablecoin yang didukung fiat terlebih dahulu. Namun, ada beberapa jenis stablecoin, seperti yang didukung komoditas dan algoritmik, yang juga akan kita jelajahi.
+
 ### Didukung Fiat
+
 Stablecoin dirancang untuk mempertahankan nilai stabil relatif terhadap aset yang dipegang. Ketika berbicara tentang stablecoin yang didukung fiat, seperti USDt, cara termudah bagi token untuk mempertahankan nilainya adalah dengan penerbit token tersebut menyimpan mata uang yang dipegang token tersebut dalam rasio 1:1.
 
 Terdengar sedikit membingungkan? Jangan khawatir. Berikut adalah contohnya:
@@ -982,6 +1005,7 @@ Namun, sama seperti stablecoin yang didukung fiat, stablecoin yang didukung komo
 Mari kita sekarang lihat bentuk ketiga dari stablecoin...
 
 ### Algorithmic
+
 Sebuah stablecoin algoritmik adalah tipe stablecoin terakhir yang akan kita bahas dan, sama seperti yang lainnya, dirancang untuk mempertahankan nilai yang stabil. Tidak seperti stablecoin lain yang didukung oleh aset fisik, stablecoin algoritmik menggunakan rumus matematika atau algoritma—seringkali bersamaan dengan beberapa aset—untuk mengatur suplai mereka sehubungan dengan permintaan guna mempertahankan stabilitas harga.
 
 Bagi mereka yang tidak familiar dengan istilah algoritma, Anda dapat menganggap algoritma sebagai sekumpulan aturan yang harus diikuti. Ini mungkin terdengar membingungkan, jadi mari kita lihat satu jenis mekanisme stabilitas algoritmik, yang disebut metode rebase, sebagai contoh.
@@ -1003,6 +1027,7 @@ Kesimpulannya, stablecoin menawarkan jembatan antara dunia tradisional dan Bitco
 Meskipun stablecoin sering dianggap aman karena sifatnya yang "stabil", penting untuk diingat bahwa mereka tidak sepenuhnya bebas risiko. Karena stablecoin mengandalkan penerbit terpusat, yaitu Tether, dan lembaga keuangan, ada potensi kerugian. Untuk mengurangi risiko ini, sangat penting untuk meneliti berbagai stablecoin sebelum berinvestasi. Dengan melakukan ini, Anda dapat membuat keputusan yang tepat dan meminimalkan potensi kerugian yang tidak terduga.
 
 ## Keuntungan dari Penawaran Stablecoin Tether
+
 <chapterId>a6806b45-b92e-5791-8f5f-804098a522b2</chapterId>
 Bertemu dengan Adanna, seorang wanita muda yang tinggal di sebuah desa pedesaan di Afrika di mana Franc CFA, yang telah kehilangan kekuatan beli yang mengejutkan sebesar [99,5%](https://bitcoinmagazine.com/culture/bitcoin-a-currency-of-decolonization) selama 70 tahun terakhir, adalah satu-satunya mata uang yang tersedia—membuat menabung menjadi sebuah kemustahilan. Adanna selalu tertarik dengan ide untuk memiliki kontrol atas uangnya, namun itu tetap menjadi mimpi yang mustahil hingga baru-baru ini. Mata uang yang dia gunakan diawasi oleh individu-individu yang terbukti tidak memiliki kepentingan terbaik bagi rakyatnya, dan lokasi pedesaannya membatasi aksesnya ke layanan perbankan. Akibatnya, Adanna tidak punya pilihan selain mengandalkan uang tunai, membuatnya rentan terhadap pencurian dan kehilangan selain penurunan daya beli.
 
@@ -1114,6 +1139,7 @@ Dan jika itu belum cukup, stablecoin ini tidak hanya meningkatkan kegunaan mata 
 Secara keseluruhan, stablecoin, seperti USDt dan XAUt, memiliki potensi untuk mengubah kehidupan miliaran orang dengan menawarkan mereka akses ke layanan keuangan yang inklusif dan sangat dibutuhkan.
 
 ## Ujian
+
 <chapterId>1294d874-6edb-5feb-b070-0ead1836bd0b</chapterId>
 
 Sekarang setelah Anda melewati Modul "Stabilitas di Tengah Kekacauan" Anda harus menguji pengetahuan baru yang Anda peroleh untuk memastikan bahwa Anda telah memahami bagian terakhir. Kami akan memulai dengan beberapa Pertanyaan Terbuka dan kemudian kuis kecil.
@@ -1125,9 +1151,11 @@ Sekarang setelah Anda melewati Modul "Stabilitas di Tengah Kekacauan" Anda harus
 5. Menurut Anda, tindakan apa yang harus diambil oleh penerbit stablecoin untuk memastikan stabilitas dan kepercayaan stablecoin mereka? Seberapa penting bagi penerbit stablecoin untuk transparan tentang praktik cadangan mereka dan menyediakan laporan secara rutin?
 
 # Mengatasi Keraguan - Membongkar Kesalahpahaman Umum & Kasus Penggunaan Dunia Nyata
+
 <partId>246a7dc0-a203-5b2e-ae13-9c8f08e6bfad</partId>
 
 ## Kesalahpahaman
+
 <chapterId>4da9319d-6306-500f-adbb-5fa31c673cd2</chapterId>
 
 Bitcoin telah dikelilingi oleh penolakan, kritik, dan kesalahpahaman sejak kelahirannya pada tahun 2009. Meskipun popularitas dan adopsinya bertumbuh, banyak yang masih menganggapnya sebagai gelembung yang siap meledak. Sejalan dengan hal tersebut, stablecoin juga menarik perhatian dan skeptisisme serupa. Ide mata uang yang didukung oleh aset stabil terdengar menjanjikan, tetapi banyak orang salah paham tentang cara kerja stablecoin dan dampak potensialnya terhadap sistem keuangan.
@@ -1141,7 +1169,7 @@ Meskipun ada banyak kesalahpahaman mengenai Bitcoin, mari kita bahas sembilan ya
 3. Bitcoin tidak berharga karena tidak didukung oleh apa pun
 4. Teknologi Bitcoin sudah usang
 5. Bitcoin terlalu lambat dan mahal untuk menjadi media pertukaran yang efektif
-Mari kita selami...
+   Mari kita selami...
 
 Kesalahpahaman Pertama: Bitcoin adalah gelembung yang menunggu untuk pecah
 Sejak awal kemunculannya, Bitcoin telah dinyatakan mati dalam media mainstream [473](https://99bitcoins.com/bitcoin-obituaries/) kali (Per Maret 2023), namun terus berfungsi tanpa cacat.
@@ -1419,6 +1447,7 @@ Dengan menilai secara objektif setiap penolakan yang Anda temui, Anda dapat lebi
 Pada akhirnya, masa depan keuangan terdesentralisasi berada di tangan mereka yang bersedia melangkah keluar dari batasan konvensi, menantang anggapan yang sudah ada, dan mengevaluasi informasi secara objektif. Berusahalah untuk membuat keputusan yang tepat tentang Bitcoin dan stablecoin berdasarkan pengetahuan yang akurat dan pemahaman yang seimbang tentang kemampuan dan keterbatasan mereka.
 
 ## Roya Mahboob
+
 <chapterId>0b6f7ce6-69be-5735-b34c-b1822ff23356</chapterId>
 
 Di dunia globalisasi saat ini, akses ke layanan keuangan merupakan komponen kritis dari partisipasi ekonomi dan kemandirian. Meskipun demikian, terlalu banyak individu masih dikecualikan dari sistem perbankan tradisional, dengan perempuan seringkali menanggung beban eksklusi ini. Mengejutkan, meskipun [seperempat](https://www.worldbank.org/en/publication/globalfindex) populasi global masih tidak memiliki rekening bank, di negara-negara seperti Arab Saudi, [36,5%](https://content.11fs.com/article/financial-exclusion-and-the-gender-gap-in-the-middle-east#:~:text=In%20the%20last%20few%20years,63.5%25%20%2D%20a%20huge%20shift.) perempuan tidak memiliki akses ke layanan perbankan dasar, mencegah mereka dari berpartisipasi penuh dalam ekonomi dan masyarakat negara mereka.
@@ -1464,6 +1493,7 @@ Lebih lanjut, dengan bantuan Mahboob dan Bitcoin, wanita-wanita di Afghanistan k
 Secara keseluruhan, Bitcoin telah menjadi alat yang kuat untuk pemberdayaan finansial wanita.
 
 ## Mercedes
+
 <chapterId>dfa10b75-19f6-578a-9d14-a0a541806076</chapterId>
 Lahir di Meksiko pada tahun 1949 dalam keadaan miskin, Mercedes mengalami ketidaksetaraan yang mencolok dalam masyarakatnya sejak usia dini. Sepanjang masa kecilnya, ia menghadapi berbagai tantangan, termasuk represi pemerintah terhadap gerakan mahasiswa dan perjuangan unik yang dialami oleh wanita yang hidup dalam kemiskinan. Selain itu, jurang besar antara kaya dan miskin, dikombinasikan dengan akses terbatas ke pendidikan berkualitas, menjebak keluarganya dan banyak orang lain dalam kemiskinan. Frustrasi oleh ketidakadilan ini, Mercedes tertarik pada Marxisme (Komunisme), menganjurkan perubahan sosial dan reformasi ekonomi.
 
@@ -1484,6 +1514,7 @@ Penuh dengan harapan dan kegembiraan, Mercedes melihat potensi bagi Bitcoin untu
 Kehidupan Mercedes telah menjadi perjalanan yang luar biasa, dan dampak Bitcoin dalam hidupnya benar-benar luar biasa. Kisahnya berfungsi sebagai mercusuar harapan bagi Bitcoin untuk membawa perubahan yang bermakna dan memberdayakan individu dari semua lapisan masyarakat. Sebagai advokat untuk kesetaraan finansial, ia memanfaatkan pengetahuan dan pengalaman perjalanannya yang luas untuk mendidik dan mengangkat mereka yang termarginalisasi oleh sistem keuangan tradisional. Upayanya yang berkelanjutan merupakan contoh bagaimana gairah dan tekad satu orang dapat menginspirasi perubahan positif di komunitas di seluruh dunia.
 
 ## Cerita Stablecoin
+
 <chapterId>7b6d8d57-905d-5168-9be6-3df7c938de2a</chapterId>
 Saat kita mendekati akhir kursus ini, kami ingin menyajikan kumpulan cerita inspiratif tentang stablecoin. Kesaksian ini menampilkan pengalaman nyata dari individu, pemilik bisnis, dan perusahaan yang telah memanfaatkan kekuatan stablecoin untuk meningkatkan kehidupan mereka.
 
@@ -1570,6 +1601,8 @@ Kami berharap Anda menemukan cerita-cerita ini menginspirasi. Dengan demikian, s
 
 ## Ujian
 
+<chapterId>3b23b0ae-41a7-53b0-bc48-7343a64f28bc</chapterId>
+
 Sekarang setelah Anda melewati Modul "Mengatasi Keraguan", Anda harus menguji pengetahuan baru yang Anda peroleh untuk memastikan bahwa Anda telah memahami bagian terakhir. Kami akan memulai dengan beberapa Pertanyaan Terbuka dan kemudian kuis kecil.
 
 1. Bagaimana Anda melihat konsep nilai dalam hubungannya dengan bitcoin? Apakah Anda berpikir perlu bagi sebuah mata uang untuk didukung oleh sesuatu yang nyata agar berharga?
@@ -1579,6 +1612,12 @@ Sekarang setelah Anda melewati Modul "Mengatasi Keraguan", Anda harus menguji pe
 5. Merenungkan perbandingan antara konsumsi energi Bitcoin dan industri lain, apakah adil untuk menyoroti Bitcoin karena penggunaan energinya? Mengapa atau mengapa tidak?
 
 # Penutup
+
+<partId>204d7367-ae08-5348-98c8-8b74c6c1b261</partId>
+
+## Penutup
+
+<chapterId>2b27b4dd-10e1-56a7-978e-1e5085f9aaff</chapterId>
 
 Selamat karena telah mencapai akhir kursus! Anda telah menempuh perjalanan yang panjang. Sepanjang perjalanan ini, kami telah menyelami berbagai topik, termasuk:
 
@@ -1600,3 +1639,4 @@ Saat kami mengakhiri kursus ini, kami berharap Anda akan mengambil pengetahuan y
 Semoga pemahaman baru ini memberdayakan Anda untuk menavigasi dunia keuangan yang berkembang dengan percaya diri dan tujuan. Semoga sukses di jalur pertumbuhan dan penemuan Anda!
 
 Masa Depan Cerah!
+

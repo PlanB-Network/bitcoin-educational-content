@@ -17,9 +17,11 @@ Pelatihan ini tidak hanya akan membekali Anda dengan pengetahuan untuk memahami 
 +++
 
 # Pengantar
+
 <partId>32960669-d13a-592f-a053-37f70b997cbf</partId>
 
 ## Pengantar ke Kriptografi
+
 <chapterId>fb4e8857-ea35-5a8a-ae8a-5300234e0104</chapterId>
 
 ### Apakah pelatihan ini untuk Anda? YA!
@@ -44,9 +46,11 @@ Untuk mengakhiri semuanya, kita akan menyimpulkan perjalanan kita dengan menelit
 Bergabunglah dengan saya dalam perjalanan menarik ini, dan bersiaplah untuk menjelajahi dunia kriptografi seperti sebelumnya. Tinggalkan prasangka Anda di pintu dan bukalah pikiran Anda untuk cara baru memahami Bitcoin dan struktur fundamentalnya.
 
 # Fungsi Hash
+
 <partId>3713fee1-2ec2-512e-9e97-b6da9e4d2f17</partId>
 
 ## Pengantar fungsi hash kriptografi terkait dengan Bitcoin
+
 <chapterId>dba011f5-1805-5a48-ac2b-4bd637c93703</chapterId>
 
 Selamat datang di sesi hari ini yang didedikasikan untuk penyelaman mendalam ke dalam dunia kriptografi fungsi hash, sebuah batu penjuru penting dari keamanan protokol Bitcoin. Bayangkan sebuah fungsi hash sebagai robot dekripsi kriptografi yang ultra-efisien yang mengubah informasi berukuran apa pun menjadi sidik jari digital unik dan berukuran tetap, yang disebut "hash," "digest," atau "checksum."
@@ -74,13 +78,17 @@ Mari kita sekarang menavigasi perairan bergelombang dari fungsi hash yang sudah 
 Elemen kunci dalam protokol Bitcoin, fungsi hash SHA-256 adalah kapten dari kapal. Fungsi lain, seperti SHA-512, digunakan untuk derivasi dengan HMAC dan PBKDF. Selain itu, RIPMD160 digunakan untuk mengurangi sidik jari menjadi 160 bit. Ketika kita merujuk ke HASH256 dan HASH160, kita merujuk pada penggunaan double hashing dengan SHA-256 dan RIPMD.
 
 Untuk HASH256, ini adalah double hash dari pesan menggunakan fungsi SHA256.
+
 $$
 SHA256(SHA256(pesan))
 $$
+
 Untuk HASH160, ini adalah double hash dari pesan menggunakan SHA256 terlebih dahulu, kemudian RIPMD160.
+
 $$
 RIPMD160(SHA256(pesan))
 $$
+
 Penggunaan HASH160 sangat menguntungkan karena memungkinkan keamanan SHA-256 sambil mengurangi ukuran sidik jari.
 
 Secara keseluruhan, tujuan utama dari fungsi hash kriptografi adalah untuk mengubah informasi berukuran sembarang menjadi sidik jari berukuran tetap. Untuk diakui sebagai aman, itu harus memiliki beberapa kekuatan: tidak dapat dibalikkan, resistensi terhadap perubahan, resistensi terhadap tabrakan, dan resistensi terhadap preimages kedua.
@@ -90,6 +98,8 @@ Secara keseluruhan, tujuan utama dari fungsi hash kriptografi adalah untuk mengu
 Di akhir eksplorasi ini, kita telah mengungkap fungsi hash kriptografi, menyoroti penggunaannya dalam protokol Bitcoin, dan membedah tujuan spesifik mereka. Kita telah belajar bahwa agar fungsi hash dianggap aman, mereka harus resisten terhadap preimages, preimages kedua, tabrakan, dan perubahan. Kita juga telah membahas berbagai fungsi hash yang digunakan dalam protokol Bitcoin. Dalam sesi berikutnya, kita akan menyelami inti dari fungsi hash SHA256 dan menemukan matematika menarik yang memberikannya karakteristik unik.
 
 ## Cara Kerja SHA256
+
+<chapterId>905eb320-f15b-5fb6-8d2d-5bb447337deb</chapterId>
 
 Selamat datang di kelanjutan perjalanan menarik kita melalui labirin kriptografi dari fungsi hash. Hari ini, kita akan mengungkap misteri SHA256, sebuah proses yang kompleks namun cerdik yang telah kita perkenalkan sebelumnya.
 
@@ -123,8 +133,11 @@ Langkah 2: Tentukan P, jumlah bit padding yang diperlukan untuk mencapai jumlah 
 -> 950 + 1 + P + 64 = 1024
 -> P = 1024 - 1 - 64 - 950
 -> P = 9
+```
 
 Oleh karena itu, 9 bit padding perlu ditambahkan untuk memiliki pesan yang disamakan dengan kelipatan 512.
+Dan sekarang?
+Tepat setelah pesan awal, pemisah 1 diikuti oleh P, yang dalam contoh kita adalah sembilan angka 0, perlu ditambahkan.
 
 ```
 pesan + 1 000 000 000
@@ -198,7 +211,7 @@ Semua penambahan dalam fungsi kompresi adalah penambahan modulo 2^32 untuk selal
 Fungsi kompresi akan dilakukan 64 kali. Kita memiliki potongan W dan konstanta K yang telah didefinisikan sebelumnya sebagai input.
 Kotak/kali merah sesuai dengan penambahan bit modulo 2^32.
 
-Input A, B, C, D, E, F, G, H akan dikaitkan dengan nilai 32-bit untuk membuat total 32 * 8 = 256 bit.
+Input A, B, C, D, E, F, G, H akan dikaitkan dengan nilai 32-bit untuk membuat total 32 \* 8 = 256 bit.
 Kita juga memiliki urutan baru A, B, C, D, E, F, G, H sebagai output. Output ini kemudian akan digunakan sebagai input untuk ronde berikutnya dan seterusnya sampai akhir ronde ke-64.
 
 Nilai dari urutan input untuk ronde pertama dari fungsi kompresi sesuai dengan vektor inisialisasi yang telah didefinisikan sebelumnya.
@@ -226,6 +239,7 @@ Output dari ronde terakhir, dari potongan terakhir, sesuai dengan hasil akhir da
 Kesimpulannya, kami ingin menekankan peran penting dari perhitungan yang dilakukan dalam kotak CH, MAJ, σ0, dan σ1. Operasi-operasi ini, di antara lainnya, adalah penjaga yang memastikan kekuatan fungsi hash SHA256 terhadap serangan, menjadikannya pilihan yang disukai untuk mengamankan banyak sistem digital, terutama dalam protokol Bitcoin. Jelas bahwa, meskipun kompleks, keindahan SHA256 terletak pada kemampuannya untuk menemukan input dari hash, sementara memverifikasi hash untuk input yang diberikan adalah tindakan yang secara mekanis sederhana.
 
 ## Algoritma yang digunakan untuk derivasi
+
 <chapterId>cc668121-7789-5e99-bf5e-1ba085f4f5f2</chapterId>
 Algoritma derivasi HMAC dan PBKDF2 merupakan komponen kunci dalam mekanisme keamanan protokol Bitcoin. Mereka mencegah berbagai potensi serangan dan memastikan integritas dompet Bitcoin. HMAC dan PBKDF2 adalah alat kriptografi yang digunakan untuk berbagai tugas dalam Bitcoin. HMAC terutama digunakan untuk melawan serangan perpanjangan panjang saat menghasilkan dompet Deterministik Hierarkis (HD), sementara PBKDF2 digunakan untuk mengonversi frasa mnemonik menjadi seed.
 
@@ -234,6 +248,7 @@ Algoritma derivasi HMAC dan PBKDF2 merupakan komponen kunci dalam mekanisme keam
 Pasangan HMAC-SHA512 memiliki dua input: pesan m (Input 1) dan kunci K yang dipilih secara sembarangan oleh pengguna (Input 2). Ini juga memiliki output berukuran tetap: 512 bit.
 
 Mari kita catat:
+
 - m: pesan berukuran sembarang yang dipilih oleh pengguna (input 1)
 - K: kunci sembarang yang dipilih oleh pengguna (input 2)
 - K': kunci K yang disamakan. Ini telah disesuaikan dengan ukuran B dari blok.
@@ -260,8 +275,11 @@ Serangan perpanjangan panjang memanfaatkan properti spesifik dari beberapa fungs
 Kesimpulannya, algoritma HMAC dan PBKDF2 memainkan peran penting dalam keamanan derivasi dompet HD dalam protokol Bitcoin. HMAC-SHA-512 digunakan untuk melindungi dari serangan perpanjangan panjang, sementara PBKDF2 memungkinkan konversi frasa mnemonik menjadi seed. Kode string menambahkan sumber entropi tambahan dalam derivasi kunci, memastikan kekuatan sistem.
 
 # Tanda Tangan Digital
+
 <partId>76b58a00-0c18-54b9-870d-6b7e34029db8</partId>
+
 ## Tanda Tangan Digital dan Kurva Eliptik
+
 <chapterId>c9dd9672-6da1-57f8-9871-8b28994d4c1a</chapterId>
 
 Di mana bitcoin yang terkenal itu disimpan? Tidak dalam dompet Bitcoin, seperti yang mungkin dipikirkan orang. Pada kenyataannya, dompet Bitcoin menyimpan kunci privat yang diperlukan untuk membuktikan kepemilikan atas bitcoin. Bitcoin itu sendiri dicatat di blockchain, sebuah basis data terdesentralisasi yang mengarsipkan semua transaksi.
@@ -309,6 +327,7 @@ Persamaan kurva eliptik dalam Bitcoin sesuai dengan persamaan terakhir dalam gam
 Di bagian selanjutnya dari kursus ini, kami akan menggunakan kurva yang berada di lapangan riil hanya untuk memudahkan pemahaman.
 
 ## Menghitung kunci publik dari kunci privat
+
 <chapterId>fcb2bd58-5dda-5ecf-bb8f-ad1a0561ab4a</chapterId>
 
 Untuk memulai, mari kita selami dunia Algoritma Tanda Tangan Digital Kurva Eliptik (ECDSA). Bitcoin menggunakan algoritma tanda tangan digital ini untuk menghubungkan kunci privat dan publik. Dalam sistem ini, kunci privat adalah angka 256-bit acak atau pseudo-acak. Jumlah total kemungkinan untuk sebuah kunci privat secara teoritis adalah 2^256, tetapi pada kenyataannya, itu sedikit kurang dari itu. Untuk lebih tepatnya, beberapa kunci privat 256-bit tidak valid untuk Bitcoin.
@@ -380,6 +399,7 @@ Dengan mengetahui kunci privat k, sangat mudah untuk menghitung kunci publik K. 
 Dalam pelajaran berikutnya, kita akan menjelajahi bagaimana tanda tangan digital dibuat menggunakan algoritma ECDSA dengan kunci privat untuk menghabiskan bitcoin.
 
 ## Menandatangani dengan kunci privat
+
 <chapterId>bb07826f-826e-5905-b307-3d82001fb778</chapterId>
 
 Proses tanda tangan digital adalah metode kunci untuk membuktikan bahwa Anda adalah pemegang kunci privat tanpa mengungkapkannya. Ini dicapai menggunakan algoritma ECDSA, yang melibatkan penentuan nonce unik, menghitung angka spesifik V, dan menciptakan tanda tangan digital yang terdiri dari dua bagian, S1 dan S2.
@@ -433,14 +453,16 @@ Berikut adalah langkah-langkah yang akan diikuti oleh penerima untuk memvalidasi
 
 1. Pertama, mereka akan menghitung hash dari pesan, yang akan kita sebut H.
 2. Kemudian, mereka akan menghitung u1 dan u2. Untuk melakukan ini, mereka akan menggunakan rumus berikut:
-- u1 = H /\* (S2)^-1 mod n   - u2 = T /\* (S2)^-1 mod n
-     Di mana S2 adalah bagian kedua dari tanda tangan digital, n adalah urutan dari kurva eliptik, dan (S2)^-1 adalah invers dari S2 mod n.
+
+- u1 = H /\* (S2)^-1 mod n - u2 = T /\* (S2)^-1 mod n
+  Di mana S2 adalah bagian kedua dari tanda tangan digital, n adalah urutan dari kurva eliptik, dan (S2)^-1 adalah invers dari S2 mod n.
+
 3. Verifikator kemudian akan menghitung sebuah titik P' pada kurva eliptik menggunakan rumus: P' = u1 _ G + u2 _ K
    - G adalah titik generator dari kurva
    - K adalah kunci publik pengirim
 4. Verifikator kemudian akan menghitung I', yang hanyalah koordinat x dari titik P' modulo n.
 5. Akhirnya, verifikator akan memastikan bahwa I' sama dengan t. Jika ini kasusnya, tanda tangan dianggap valid. Jika tidak, tanda tangan tidak valid.
-Prosedur ini memastikan bahwa hanya pengirim yang memiliki kunci privat yang sesuai yang bisa menghasilkan tanda tangan yang lolos proses verifikasi ini.
+   Prosedur ini memastikan bahwa hanya pengirim yang memiliki kunci privat yang sesuai yang bisa menghasilkan tanda tangan yang lolos proses verifikasi ini.
 
 ![image](assets/image/section2/12.webp)
 
@@ -462,9 +484,11 @@ Dengan demikian, pengelolaan kunci-kunci ini, serta penciptaannya, adalah pertan
 Untuk menjawab pertanyaan-pertanyaan ini dan memperdalam pemahaman Anda tentang keamanan kriptografi, kursus berikutnya kami akan berfokus pada konsep Hierarchical Deterministic Wallets (HD wallets) dan penggunaan frasa mnemonik. Mekanisme ini menawarkan cara elegan untuk mengelola kunci kriptocurrency Anda sambil meningkatkan keamanan.
 
 # Frasa Mnemonik
+
 <partId>4070af16-c8a2-58b5-9871-a22c86c07458</partId>
 
 ## Evolusi Dompet Bitcoin
+
 <chapterId>9d9acd5d-a0e5-5dfd-b544-f043fae8840f</chapterId>
 
 Hierarchical Deterministic Wallet, yang lebih dikenal sebagai HD wallet, memainkan peran penting dalam ekosistem cryptocurrency. Istilah "wallet" mungkin menyesatkan bagi mereka yang baru di bidang ini, karena tidak melibatkan penyimpanan uang atau mata uang. Sebaliknya, ini merujuk pada koleksi kunci privat kriptografi.
@@ -481,6 +505,7 @@ Dalam bagian berikut, kita akan lebih dalam membahas cara kerja dompet HD. Kita 
 Secara kesimpulan, sangat penting untuk menyoroti peran sentral BIP32 dan BIP39 dalam desain dan keamanan dompet HD. Protokol-protokol ini memungkinkan generasi beberapa kunci dari satu seed, yang seharusnya merupakan nomor acak atau pseudo-acak. Saat ini, standar-standar ini diadopsi oleh mayoritas dompet cryptocurrency, baik yang didedikasikan untuk satu cryptocurrency atau mendukung berbagai jenis mata uang.
 
 ## Entropi dan Nomor Acak
+
 <chapterId>b43c715d-affb-56d8-a697-ad5bc2fffd63</chapterId>
 
 Pentingnya keamanan kunci privat dalam ekosistem Bitcoin tidak dapat disangkal. Mereka memang merupakan batu penjuru yang menjamin keamanan transaksi Bitcoin. Untuk menghindari kerentanan yang terkait dengan prediktabilitas, kunci-kunci ini harus dihasilkan secara benar-benar acak, yang dapat dengan cepat menjadi latihan yang berat. Masalahnya adalah dalam ilmu komputer, mustahil untuk menghasilkan nomor yang benar-benar acak karena selalu berasal dari proses deterministik; sebuah kode. Itulah mengapa sangat penting untuk mempelajari tentang berbagai Random Number Generators (RNG). Jenis RNG bervariasi, mulai dari Pseudo-Random Number Generators (PRNG) hingga True Random Number Generators (TRNG), serta PRNG yang menggabungkan sumber entropi.
@@ -510,6 +535,7 @@ Sebuah contoh dari fungsi transformasi adalah fungsi PBKDF2.
 Dalam kasus Bitcoin, kunci privat dihasilkan dari satu potongan informasi di dasar dompet. Informasi ini memungkinkan derivasi deterministik dan hierarkis dari pasangan kunci anak. Entropi adalah dasar dari setiap dompet HD, meskipun tidak ada standar untuk menghasilkan nomor acak ini. Oleh karena itu, generasi nomor acak merupakan tantangan besar dalam mengamankan transaksi Bitcoin.
 
 ## Frase Mnemonik
+
 <chapterId>8f9340c1-e6dc-5557-a2f2-26c9669987d5</chapterId>
 
 Keamanan dompet Bitcoin merupakan perhatian utama bagi semua penggunanya. Salah satu cara penting untuk memastikan cadangan dompet adalah dengan menghasilkan frase mnemonik berdasarkan entropi dan checksum.
@@ -543,6 +569,7 @@ Sangat penting untuk mencadangkan frase pemulihan 24 kata untuk menjaga integrit
 Kesimpulannya, menghasilkan frase mnemonik untuk mengamankan dompet Bitcoin adalah proses yang sangat penting. Penting untuk mematuhi standar frase mnemonik berdasarkan ukuran entropi. Mencadangkan frase pemulihan 24 kata sangat penting untuk mencegah kehilangan dana.
 
 ## Passphrase
+
 <chapterId>6a51b397-f3b5-5084-b151-cef94bc9b93f</chapterId>
 Frasa sandi adalah kata sandi tambahan yang dapat diintegrasikan ke dalam dompet Bitcoin untuk meningkatkan keamanannya. Penggunaannya bersifat opsional dan tergantung pada kebijakan pengguna. Dengan menambahkan informasi sembarang yang, bersama dengan frasa mnemonik, memungkinkan perhitungan benih dompet, frasa sandi meningkatkan keamanannya.
 
@@ -565,9 +592,11 @@ Sangat penting untuk menjaga cadangan frasa sandi untuk menghindari kehilangan a
 Pada pelajaran berikutnya, kami akan memeriksa secara detail fungsi benih dan pasangan kunci pertama yang dihasilkan darinya. Jangan ragu untuk mengikuti kursus ini untuk melanjutkan pembelajaran Anda. Kami menantikan kedatangan Anda kembali sangat segera.
 
 # Pembuatan Dompet Bitcoin
+
 <partId>9c25e767-7eae-50b8-8c5f-679d8fc83bab</partId>
 
 ## Pembuatan Benih dan Kunci Utama
+
 <chapterId>63093760-2010-5691-8d0e-9a04732ae557</chapterId>
 
 Dalam bagian kursus ini, kami akan menjelajahi langkah-langkah untuk menderivasi Dompet Deterministik Hierarkis (HD Wallet), yang memungkinkan penciptaan dan pengelolaan kunci privat dan publik secara hierarkis dan deterministik.
@@ -592,6 +621,7 @@ Penting untuk dicatat bahwa master private key adalah kunci privat pertama yang 
 Pada pelajaran selanjutnya, kita akan menjelajahi kunci-kunci ekstensi secara detail, seperti xPub, xPRV, zPub, dan memahami mengapa mereka digunakan dan bagaimana mereka dibangun.
 
 ## Kunci Ekstensi
+
 <chapterId>8dcffce1-31bd-5e0b-965b-735f5f9e4602</chapterId>
 
 Dalam bagian pelajaran ini, kita akan mempelajari kunci-kunci ekstensi (xPub, zPub, yPub) dan prefiks mereka, yang memainkan peran penting dalam derivasi kunci anak dalam Hierarchical Deterministic Wallet (HD Wallet).
@@ -625,6 +655,7 @@ Turunan yang ditingkatkan dimulai dari indeks yang merupakan pangkat dari 2 (2^3
 Pada pelajaran berikutnya, kita akan fokus pada turunan pasangan kunci anak menggunakan pengetahuan yang diperoleh tentang kunci yang diperluas dan kunci master dari dompet.
 
 ## Turunan Pasangan Kunci Anak
+
 <chapterId>61c0807c-845b-5076-ad06-7f395b36adfd</chapterId>
 
 Sebagai pengingat, kita telah membahas perhitungan benih dan kunci master, yang merupakan elemen pertama yang penting untuk organisasi hierarkis dan turunan dari dompet HD (Hierarchical Deterministic). Benih, dengan panjang 128 hingga 256 bit, dihasilkan secara acak atau dari frasa rahasia. Ini memainkan peran deterministik dalam turunan semua kunci lainnya. Kunci master adalah kunci pertama yang diturunkan dari benih, dan ini memungkinkan turunan semua pasangan kunci anak lainnya.
@@ -656,6 +687,7 @@ Turunan yang diperkuat menggunakan kunci privat induk, sementara turunan normal 
 Turunan secara hierarkis dan turunan banyak pasangan kunci secara deterministik memungkinkan pembuatan struktur pohon untuk turunan hierarkis. Dalam pelajaran berikutnya dari pelatihan ini, kita akan mempelajari struktur dari dompet HD serta jalur turunan, dengan fokus khusus pada notasi jalur turunan.
 
 ## Struktur Dompet dan Jalur Turunan
+
 <chapterId>34e1bbda-67de-5493-b268-1fded8d67689</chapterId>
 
 Dalam bab ini, kita akan mempelajari struktur dari pohon turunan dalam Dompet Deterministik Hierarkis (HD Wallet). Kita sudah mengeksplorasi perhitungan benih, kunci induk, dan turunan dari pasangan kunci anak. Sekarang, kita akan fokus pada pengorganisasian kunci dalam dompet.
@@ -687,9 +719,11 @@ Kunci ekstensi, seperti XPUB, memungkinkan Anda untuk berbagi dompet Anda dengan
 Dalam bab berikutnya, kita akan mempelajari alamat penerimaan, keuntungan penggunaannya, dan langkah-langkah yang terlibat dalam konstruksinya.
 
 # Apa itu alamat Bitcoin?
+
 <partId>81ec8d17-f8ee-5aeb-8035-d370866f4281</partId>
 
 ## Alamat Bitcoin
+
 <chapterId>0a887ed8-3424-5a52-98e1-e4b406150475</chapterId>
 
 Dalam bab ini, kita akan menjelajahi alamat penerimaan, yang memainkan peran penting dalam sistem Bitcoin. Alamat ini memungkinkan dana diterima dalam sebuah transaksi dan dihasilkan dari pasangan kunci privat dan publik. Meskipun ada jenis skrip yang disebut Pay2PublicKey yang memungkinkan bitcoin dikunci ke kunci publik, pengguna umumnya lebih suka menggunakan alamat penerimaan daripada skrip ini.
@@ -711,11 +745,13 @@ Sangat penting untuk menekankan bahwa setiap alamat harus digunakan hanya sekali
 Awalan yang berbeda digunakan untuk alamat Bitcoin. Sebagai contoh, BC1Q sesuai dengan alamat Segwit V0, BC1P untuk alamat Taproot/Segwit V1, dan awalan 1 dan 3 dikaitkan dengan alamat Pay2PublicKeyH/Pay2ScriptH (legacy). Dalam pelajaran berikutnya, kita akan menjelaskan langkah demi langkah cara menurunkan alamat dari kunci publik.
 
 ## Bagaimana cara membuat alamat Bitcoin?
+
 <chapterId>6dee7bf3-7767-5f8d-a01b-659b95cfe0a5</chapterId>
 
 Dalam bab ini, kita akan membahas konstruksi alamat penerimaan untuk transaksi Bitcoin. Alamat penerimaan adalah representasi alfanumerik dari kunci publik yang dikompresi. Konversi kunci publik menjadi alamat penerimaan melibatkan beberapa langkah.
 
 ### Langkah 1: Kompresi kunci publik
+
 Sebuah alamat dihasilkan dari kunci publik anak.
 
 Kunci publik adalah titik pada kurva eliptik. Berkat simetri kurva eliptik, sebuah titik pada kurva eliptik akan memiliki koordinat x yang terkait dengan hanya dua nilai y yang mungkin: positif atau negatif. Namun, dalam protokol Bitcoin, kita bekerja dengan satu set bilangan bulat positif yang terbatas daripada dengan satu set bilangan riil. Untuk membedakan antara dua nilai y yang mungkin, cukup untuk menunjukkan apakah y genap atau ganjil.
@@ -760,9 +796,11 @@ Dalam warna hitam, payload = hash dari kunci publik. Dalam warna biru, versinya.
 Semuanya dikonversi ke Bech32, kemudian 'bc' ditambahkan untuk bitcoin dan '1' sebagai pemisah, dan inilah alamatnya.
 
 # Lebih Lanjut
+
 <partId>58111408-b734-54db-9ea7-0d5b67f99f99</partId>
 
 ## Membuat seed dari 128 lemparan dadu!
+
 <chapterId>0f4d40a7-cf0e-5faf-bc4d-691486771ac1</chapterId>
 
 Membuat frasa mnemonik adalah langkah penting dalam mengamankan dompet kripto Anda. Ada beberapa metode untuk menghasilkan frasa mnemonik, namun, kita akan fokus pada metode generasi manual menggunakan dadu. Penting untuk dicatat bahwa metode ini tidak cocok untuk dompet bernilai tinggi. Disarankan untuk menggunakan perangkat lunak sumber terbuka atau dompet perangkat keras untuk menghasilkan frasa mnemonik. Untuk membuat frasa mnemonik, kita akan menggunakan dadu untuk menghasilkan informasi biner. Tujuannya adalah untuk memahami proses pembuatan frasa mnemonik.
@@ -788,6 +826,7 @@ Segera tes frasa mnemonik Anda di Sparrow Wallet dengan membuat dompet dari fras
 Menghasilkan frasa mnemonik adalah proses penting untuk mengamankan dompet cryptocurrency Anda. Disarankan untuk menggunakan metode yang lebih aman, seperti menggunakan perangkat lunak sumber terbuka atau dompet perangkat keras, untuk menghasilkan frasa mnemonik. Namun, menyelesaikan lokakarya ini membantu untuk lebih memahami bagaimana kita dapat membuat dompet Bitcoin dari angka acak.
 
 ## BONUS: Wawancara dengan Théo Pantamis
+
 <chapterId>39f0ec5a-e258-55cb-9789-bc46d314d816</chapterId>
 
 Metode kriptografi lain yang banyak digunakan pada protokol Bitcoin adalah metode tanda tangan digital.
@@ -795,6 +834,7 @@ Metode kriptografi lain yang banyak digunakan pada protokol Bitcoin adalah metod
 ![video](https://youtu.be/c9MvtGJsEvY?si=bQ1N5NCd6op0G6nW)
 
 ## Kesimpulan dan Akhir
+
 <chapterId>d291428b-3cfa-5394-930e-4b514be82d5a</chapterId>
 
 ### Terima kasih dan terus menggali lubang kelinci
@@ -806,7 +846,10 @@ Jika Anda ingin mendalami subjek ini lebih lanjut, kami memiliki sumber daya tam
 Jangan ragu untuk menonton wawancara ini untuk terus menjelajahi bidang kriptografi yang menarik. Kami berharap itu akan berguna dan menginspirasi dalam perjalanan Anda. Sekali lagi, terima kasih atas partisipasi dan komitmen Anda sepanjang kursus ini.
 
 ### Dukung Kami
+
 Kursus ini, bersama dengan seluruh konten di universitas ini, telah disediakan untuk Anda secara gratis oleh komunitas kami. Untuk mendukung kami, Anda dapat membagikannya dengan orang lain, menjadi anggota universitas, dan bahkan berkontribusi pada pengembangannya melalui GitHub. Atas nama seluruh tim, terima kasih!
+
 ### Nilai kursus
 
 Sistem penilaian untuk pelatihan ini akan segera diintegrasikan ke dalam platform E-learning baru ini! Sementara itu, terima kasih banyak telah mengikuti kursus ini, dan jika Anda menikmatinya, pertimbangkan untuk membagikannya dengan orang lain.
+

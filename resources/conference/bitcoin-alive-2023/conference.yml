@@ -3,7 +3,7 @@ name: Bitcoin Alive 2023
 builder:
 location: Sydney; Australia
 language:
-  en:
+  - en
 links:
   website: https://bitcoinalive.io/
   twitter: https://twitter.com/BitcoinAlive

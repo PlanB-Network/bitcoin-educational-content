@@ -3,7 +3,7 @@ name: Bitcoin4India 2023
 builder:
 location: india
 language:
-  en:
+  - en
 links:
   website: https://bitcoin4india.org/
   twitter: https://twitter.com/Bitcoin4India

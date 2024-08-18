@@ -3,8 +3,8 @@ name: Surfin Bitcoin 2021
 builder: StackinSat
 location: Biarritz, France
 language:
-  fr:
-  en:
+  - fr
+  - en
 links:
   website: https://surfinbitcoin.com/
   twitter: https://twitter.com/SurfinBitcoin

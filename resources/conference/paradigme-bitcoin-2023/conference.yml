@@ -3,7 +3,7 @@ name: Paradigme Bitcoin 2023
 builder: paradigme-bitcoin
 location: Neuchatel, Switzerland
 language:
-  fr:
+  - fr
 links:
   website: https://leparadigmebitcoin.ch/
   twitter: https://twitter.com/Le_paradigme_ch

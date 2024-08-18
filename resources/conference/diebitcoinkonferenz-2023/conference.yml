@@ -3,7 +3,7 @@ name: Die Bitcoin Konferenz 2023
 builder: The Bitcoin Conference
 location: Innsbruck, Austria
 language:
-  de:
+  - de
 links:
   website: https://www.bconf.de
   twitter: https://twitter.com/thebconf/

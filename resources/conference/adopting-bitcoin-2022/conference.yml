@@ -3,8 +3,8 @@ name: Adopting Bitcoin 2022
 builder: Galoy
 location: San Salvador, El Salvador
 language:
-  en:
-  es:
+  - en
+  - es
 links:
   website: https://adoptingbitcoin.org/2022/
   twitter: https://twitter.com/AdoptingBTC

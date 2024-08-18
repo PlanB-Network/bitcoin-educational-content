@@ -4,8 +4,8 @@ address_line_1: Berlin, EL Salvador
 address_line_2: 2a Calle Poniente, Bitcoin Community Center
 address_line_3:
 language:
-  en:
-  - es:
+  - en
+  - - es
 links:
   twitter: https://twitter.com/BitcoinBerlinSV
   youtube: https://www.youtube.com/@BitcoinBerlinSV

@@ -4,8 +4,8 @@ address_line_1: San Salvador, El Salvador
 address_line_2:
 address_line_3:
 language:
-  en:
-  - es:
+  - en
+  - - es
 links:
   website: https://www.cuboplus.academy/
   twitter: https://x.com/cuboplus?t=qXP3Sckahhzw-Y_5sSGoxA&s=09

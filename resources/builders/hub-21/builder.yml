@@ -4,7 +4,7 @@ address_line_1: Belgrade, Serbia
 address_line_2: Vase Čarapića 15, Beograd 11000
 address_line_3:
 language:
-  en:
+  - en
   - sr
 links:
   website: https://hub21.rs/

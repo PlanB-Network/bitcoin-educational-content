@@ -4,7 +4,7 @@ address_line_1: Africa
 address_line_2:
 address_line_3:
 language:
-  en:
+  - en
 links:
   website: https://freerouting.africa/
   twitter: https://x.com/FreeRoutingAf

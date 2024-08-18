@@ -4,7 +4,7 @@ address_line_1: Austin, Texas
 address_line_2:
 address_line_3:
 language:
-  en:
+  - en
 links:
   website: https://www.pleblab.com/
   twitter: https://twitter.com/PlebLab

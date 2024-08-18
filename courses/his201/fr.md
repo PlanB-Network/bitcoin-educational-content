@@ -184,7 +184,7 @@ Du côté de DigiCash, après quelques années de développement, un prototype a
 
 ![Photo (floue) de l'équipe de DigiCash en 1995](assets/img/ch1/7.webp)
 
-Photo (floue) de l'équipe de DigiCash en 1995 : David Chaum se trouve tout à gauche, Nick Szabo tout à droite (source : [Chaum.com](https://chaum.com/ecash/))
+Photo (floue) de l'équipe de DigiCash en 1995 : David Chaum se trouve tout à gauche (source : [Chaum.com](https://chaum.com/ecash/))
 
 L'arrivée de eCash dans le système bancaire a commencé en octobre 1995 avec le début du partenariat de DigiCash avec la Mark Twain Bank, une petite banque du Missouri. Contrairement au cas des CyberBucks dont le taux de change était flottant, l'unité de compte était adossée au dollar américain. Entre 1996 et 1998, six banques ont suivi la Mark Twain Bank : la Merita Bank en Finlande, la Deutsche Bank en Allemagne, l'Advance Bank en Australie, la Bank Austria en Autriche, la Den norske Bank en Norvège et le Crédit Suisse en Suisse. La presse promettait alors à ce système un avenir radieux.
 

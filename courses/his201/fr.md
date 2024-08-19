@@ -307,7 +307,7 @@ Dans ce chapitre, nous étudierons l'émergence des divers éléments techniques
 ### Le consensus distribué
 
 Avec l'émergence des ordinateurs dans les années 1950, est apparue la possibilité de les connecter entre eux. C'est ainsi que les premiers réseaux informatiques se sont
-formés, menant au développement d'Internet, le « réseau des réseaux », dans les années 70. La question de l'infrastructure de ces réseaux s'est inévitablement posée. C'est pourquoi l'informaticien polono-américain Paul Baran, dans son article fondateur de 1964 (décrivant la commutation de paquets), recensait trois types de réseaux~: le réseau centralisé, reposant sur un nœud unique ; le réseau distribué, où chaque point est un nœud ; le réseau décentralisé (non distribué), reposant sur un réseau distribué de nœuds multiples.
+formés, menant au développement d'Internet, le « réseau des réseaux », dans les années 70. La question de l'infrastructure de ces réseaux s'est inévitablement posée. C'est pourquoi l'informaticien polono-américain Paul Baran, dans son article fondateur de 1964 (décrivant la commutation de paquets), recensait trois types de réseaux : le réseau centralisé, reposant sur un nœud unique ; le réseau distribué, où chaque point est un nœud ; le réseau décentralisé (non distribué), reposant sur un réseau distribué de nœuds multiples.
 
 ![Les réseaux centralisé, décentralisé et distirbué selon Paul Baran](assets/img/ch3/1.webp)
 
@@ -383,7 +383,7 @@ En 1994, Nick Szabo avait créé une liste de diffusion privée appelée libtech
 
 Nick Szabo en 1997 (source : [Adrien Chen](https://twitter.com/AdrianChen/status/456922865992863744/photo/1))
 
-C'est sur la liste libtech-l que Nick Szabo a initialement décrit son concept initialement sur libtech-l, avant d'héberger une [ébauche](https://web.archive.org/web/20140406003811/http://szabo.best.vwh.net/bitgold.html) de livre blanc en 1999 sur son site personnel. Il a ensuite présenté bit gold en 2005, dans un [article](https://unenumerated.blogspot.com/2005/12/bit-gold.html) publié sur son blog, Unenumerated.
+C'est sur la liste libtech-l que Nick Szabo a initialement décrit son concept, avant d'héberger une [ébauche](https://web.archive.org/web/20140406003811/http://szabo.best.vwh.net/bitgold.html) de livre blanc en 1999 sur son site personnel. Il a ensuite présenté bit gold en 2005, dans un [article](https://unenumerated.blogspot.com/2005/12/bit-gold.html) publié sur son blog, Unenumerated.
 
 Le protocole était censé gérer la création et les échanges d'une ressource virtuelle appelée le bit gold. Contrairement à l'e-gold qui était garanti par de l'or physique, ou la b-money indexée en théorie sur un panier de marchandises, le bit gold ne devait être adossé à aucun autre bien, mais posséder une rareté infalsifiable intrinsèque, et constituer ainsi un or intégralement numérique.
 

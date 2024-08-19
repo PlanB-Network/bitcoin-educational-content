@@ -51,7 +51,7 @@ Le projet Bitcoin est enfin l'héritier de l'éthos du mouvement des cypherpunks
 
 ### Plan du cours
 
-Ce cours est divisé en quatre parties, qui s'intéressent respectivement aux origines de Bitcoin (3 chapitres), à sa lente émergence (4 chapitres), à son essor initial (2 chapitres) et à la formation de sa communauté (3 chapitres). Au total, il comprend 12 chapitres qui sont les suivants (on précise également la période concernée) :
+Ce cours est divisé en quatre parties, qui s'intéressent respectivement aux origines de Bitcoin (3 chapitres), à sa lente émergence (3 chapitres), à son essor initial (3 chapitres) et à la formation de sa communauté (4 chapitres). Au total, il comprend 12 chapitres qui sont les suivants (on précise également la période concernée) :
 
 - eCash : l'argent liquide électronique chaumien (1976--1998)
 - Les monnaies numériques privées (1996--2013)
@@ -62,7 +62,8 @@ Ce cours est divisé en quatre parties, qui s'intéressent respectivement aux or
 - Cartes graphiques, pizzas et bitcoins gratuits (avr. 2010--juin 2010)
 - Le grand slashdotting (juin 2010--juil. 2010)
 - Les premiers ennuis techniques (juil. 2010--sept. 2010)
-- La ruée vers l'or numérique (sept. 2010--déc. 2010)
+- La ruée vers l'or numérique (sept. 2010--oct. 2010)
+- La floraison de l'écosystème (oct. 2010--déc. 2010)
 - La disparition de Satoshi (déc. 2010--avr. 2011)
 - La prise de relai de la communauté (avr. 2011--sept. 2011)
 

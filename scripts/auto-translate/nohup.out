@@ -35135,3 +35135,547 @@ Progress: 100.00% of chunks translated.
 
 Translating in English done!
 Estimated time remaining: 0 hours, 0 minutes, and 0 seconds
+[auto-batch-translation 488a190fb] batch translation from fr to en
+ 68 files changed, 2100 insertions(+), 43 deletions(-)
+ create mode 100644 courses/btc204/quizz/075/en.yml
+ create mode 100644 courses/btc204/quizz/076/en.yml
+ create mode 100644 courses/btc204/quizz/077/en.yml
+ create mode 100644 courses/btc204/quizz/078/en.yml
+ create mode 100644 courses/btc204/quizz/079/en.yml
+ create mode 100644 courses/btc204/quizz/080/en.yml
+ create mode 100644 courses/btc204/quizz/081/en.yml
+ create mode 100644 courses/btc204/quizz/082/en.yml
+ create mode 100644 courses/btc204/quizz/083/en.yml
+ create mode 100644 courses/btc204/quizz/084/en.yml
+ create mode 100644 courses/btc204/quizz/085/en.yml
+ create mode 100644 courses/btc204/quizz/086/en.yml
+ create mode 100644 courses/btc204/quizz/087/en.yml
+ create mode 100644 courses/btc204/quizz/088/en.yml
+ create mode 100644 courses/btc204/quizz/089/en.yml
+ create mode 100644 courses/btc204/quizz/090/en.yml
+ create mode 100644 courses/btc204/quizz/091/en.yml
+ create mode 100644 courses/btc204/quizz/092/en.yml
+ create mode 100644 courses/btc204/quizz/093/en.yml
+ create mode 100644 courses/btc204/quizz/094/en.yml
+ create mode 100644 courses/btc204/quizz/095/en.yml
+ create mode 100644 courses/btc204/quizz/096/en.yml
+ create mode 100644 courses/btc204/quizz/097/en.yml
+ create mode 100644 courses/btc204/quizz/098/en.yml
+ create mode 100644 courses/btc204/quizz/099/en.yml
+ create mode 100644 courses/btc204/quizz/100/en.yml
+ create mode 100644 courses/btc204/quizz/101/en.yml
+ create mode 100644 courses/btc204/quizz/102/en.yml
+ create mode 100644 courses/btc204/quizz/103/en.yml
+ create mode 100644 courses/btc204/quizz/104/en.yml
+ create mode 100644 courses/btc204/quizz/105/en.yml
+ create mode 100644 courses/btc204/quizz/106/en.yml
+ create mode 100644 courses/btc204/quizz/107/en.yml
+ create mode 100644 courses/btc204/quizz/108/en.yml
+ create mode 100644 courses/btc204/quizz/109/en.yml
+ create mode 100644 courses/btc204/quizz/110/en.yml
+ create mode 100644 courses/btc204/quizz/111/en.yml
+ create mode 100644 courses/btc204/quizz/112/en.yml
+ create mode 100644 courses/btc204/quizz/113/en.yml
+ create mode 100644 courses/btc204/quizz/114/en.yml
+ create mode 100644 courses/btc204/quizz/115/en.yml
+ create mode 100644 courses/btc204/quizz/116/en.yml
+ create mode 100644 courses/btc204/quizz/117/en.yml
+ create mode 100644 courses/btc204/quizz/118/en.yml
+ create mode 100644 courses/btc204/quizz/119/en.yml
+ create mode 100644 courses/btc204/quizz/120/en.yml
+ create mode 100644 courses/btc204/quizz/121/en.yml
+ create mode 100644 courses/btc204/quizz/122/en.yml
+ create mode 100644 courses/btc204/quizz/123/en.yml
+ create mode 100644 courses/btc204/quizz/124/en.yml
+ create mode 100644 courses/btc204/quizz/125/en.yml
+ create mode 100644 courses/btc204/quizz/126/en.yml
+ create mode 100644 courses/btc204/quizz/127/en.yml
+ create mode 100644 courses/btc204/quizz/128/en.yml
+ create mode 100644 courses/btc204/quizz/129/en.yml
+ create mode 100644 tutorials/mining/public-pool/en.md
+ create mode 100644 tutorials/others/authy/en.md
+ create mode 100644 tutorials/others/bitwarden/en.md
+ create mode 100644 tutorials/others/proton-drive/en.md
+ create mode 100644 tutorials/others/proton-mail/en.md
+ create mode 100644 tutorials/others/security-key/en.md
+Translations in Progress: [0/67] 0.00%
+
+Translating in French...
+
+Translating in French done!
+Translations in Progress: [1/67] 1.49%
+
+Translating in French...
+
+Translating in French done!
+Estimated time remaining: 0 hours, 0 minutes, and 17 seconds
+Translations in Progress: [2/67] 2.99%
+
+Translating in French...
+
+Translating in French done!
+Estimated time remaining: 0 hours, 0 minutes, and 17 seconds
+Translations in Progress: [3/67] 4.48%
+
+Translating in French...
+
+Translating in French done!
+Estimated time remaining: 0 hours, 0 minutes, and 16 seconds
+Translations in Progress: [4/67] 5.97%
+
+Translating in French...
+
+Translating in French done!
+Estimated time remaining: 0 hours, 0 minutes, and 16 seconds
+Translations in Progress: [5/67] 7.46%
+
+Translating in French...
+
+Translating in French done!
+Estimated time remaining: 0 hours, 0 minutes, and 16 seconds
+Translations in Progress: [6/67] 8.96%
+
+Translating in French...
+Progress: 100.00% of chunks translated.
+
+Translating in French done!
+Estimated time remaining: 0 hours, 2 minutes, and 5 seconds
+Translations in Progress: [7/67] 10.45%
+
+Translating in French...
+
+Translating in French done!
+Estimated time remaining: 0 hours, 3 minutes, and 23 seconds
+Translations in Progress: [8/67] 11.94%
+
+Translating in French...
+
+Translating in French done!
+Estimated time remaining: 0 hours, 4 minutes, and 21 seconds
+Translations in Progress: [9/67] 13.43%
+
+Translating in French...
+Progress: 100.00% of chunks translated.
+
+Translating in French done!
+Estimated time remaining: 0 hours, 8 minutes, and 27 seconds
+Translations in Progress: [10/67] 14.93%
+
+Translating in French...
+
+Translating in French done!
+Estimated time remaining: 0 hours, 11 minutes, and 39 seconds
+Translations in Progress: [11/67] 16.42%
+
+Translating in French...
+
+Translating in French done!
+Estimated time remaining: 0 hours, 14 minutes, and 11 seconds
+Translations in Progress: [12/67] 17.91%
+
+Translating in French...
+
+Translating in French done!
+Estimated time remaining: 0 hours, 16 minutes, and 12 seconds
+Translations in Progress: [13/67] 19.40%
+
+Translating in French...
+
+Translating in French done!
+Estimated time remaining: 0 hours, 17 minutes, and 49 seconds
+Translations in Progress: [14/67] 20.90%
+
+Translating in French...
+
+Translating in French done!
+Estimated time remaining: 0 hours, 19 minutes, and 7 seconds
+Translations in Progress: [15/67] 22.39%
+
+Translating in French...
+
+Translating in French done!
+Estimated time remaining: 0 hours, 20 minutes, and 9 seconds
+Translations in Progress: [16/67] 23.88%
+
+Translating in French...
+
+Translating in French done!
+Estimated time remaining: 0 hours, 20 minutes, and 58 seconds
+Translations in Progress: [17/67] 25.37%
+
+Translating in French...
+
+Translating in French done!
+Estimated time remaining: 0 hours, 21 minutes, and 36 seconds
+Translations in Progress: [18/67] 26.87%
+
+Translating in French...
+Progress: 100.00% of chunks translated.
+
+Translating in French done!
+Estimated time remaining: 0 hours, 22 minutes, and 19 seconds
+Translations in Progress: [19/67] 28.36%
+
+Translating in French...
+
+Translating in French done!
+Estimated time remaining: 0 hours, 22 minutes, and 52 seconds
+Translations in Progress: [20/67] 29.85%
+
+Translating in French...
+
+Translating in French done!
+Estimated time remaining: 0 hours, 23 minutes, and 18 seconds
+Translations in Progress: [21/67] 31.34%
+
+Translating in French...
+
+Translating in French done!
+Estimated time remaining: 0 hours, 23 minutes, and 36 seconds
+Translations in Progress: [22/67] 32.84%
+
+Translating in French...
+
+Translating in French done!
+Estimated time remaining: 0 hours, 23 minutes, and 47 seconds
+Translations in Progress: [23/67] 34.33%
+
+Translating in French...
+
+Translating in French done!
+Estimated time remaining: 0 hours, 23 minutes, and 54 seconds
+Translations in Progress: [24/67] 35.82%
+
+Translating in French...
+
+Translating in French done!
+Estimated time remaining: 0 hours, 23 minutes, and 55 seconds
+Translations in Progress: [25/67] 37.31%
+
+Translating in French...
+
+Translating in French done!
+Estimated time remaining: 0 hours, 23 minutes, and 52 seconds
+Translations in Progress: [26/67] 38.81%
+
+Translating in French...
+
+Translating in French done!
+Estimated time remaining: 0 hours, 23 minutes, and 46 seconds
+Translations in Progress: [27/67] 40.30%
+
+Translating in French...
+
+Translating in French done!
+Estimated time remaining: 0 hours, 23 minutes, and 36 seconds
+Translations in Progress: [28/67] 41.79%
+
+Translating in French...
+
+Translating in French done!
+Estimated time remaining: 0 hours, 23 minutes, and 23 seconds
+Translations in Progress: [29/67] 43.28%
+
+Translating in French...
+
+Translating in French done!
+Estimated time remaining: 0 hours, 23 minutes, and 7 seconds
+Translations in Progress: [30/67] 44.78%
+
+Translating in French...
+
+Translating in French done!
+Estimated time remaining: 0 hours, 22 minutes, and 49 seconds
+Translations in Progress: [31/67] 46.27%
+
+Translating in French...
+
+Translating in French done!
+Estimated time remaining: 0 hours, 22 minutes, and 28 seconds
+Translations in Progress: [32/67] 47.76%
+
+Translating in French...
+
+Translating in French done!
+Estimated time remaining: 0 hours, 22 minutes, and 6 seconds
+Translations in Progress: [33/67] 49.25%
+
+Translating in French...
+
+Translating in French done!
+Estimated time remaining: 0 hours, 21 minutes, and 41 seconds
+Translations in Progress: [34/67] 50.75%
+
+Translating in French...
+
+Translating in French done!
+Estimated time remaining: 0 hours, 21 minutes, and 15 seconds
+Translations in Progress: [35/67] 52.24%
+
+Translating in French...
+
+Translating in French done!
+Estimated time remaining: 0 hours, 20 minutes, and 48 seconds
+Translations in Progress: [36/67] 53.73%
+
+Translating in French...
+
+Translating in French done!
+Estimated time remaining: 0 hours, 20 minutes, and 18 seconds
+Translations in Progress: [37/67] 55.22%
+
+Translating in French...
+
+Translating in French done!
+Estimated time remaining: 0 hours, 19 minutes, and 48 seconds
+Translations in Progress: [38/67] 56.72%
+
+Translating in French...
+
+Translating in French done!
+Estimated time remaining: 0 hours, 19 minutes, and 17 seconds
+Translations in Progress: [39/67] 58.21%
+
+Translating in French...
+
+Translating in French done!
+Estimated time remaining: 0 hours, 18 minutes, and 44 seconds
+Translations in Progress: [40/67] 59.70%
+
+Translating in French...
+
+Translating in French done!
+Estimated time remaining: 0 hours, 18 minutes, and 10 seconds
+Translations in Progress: [41/67] 61.19%
+
+Translating in French...
+
+Translating in French done!
+Estimated time remaining: 0 hours, 17 minutes, and 35 seconds
+Translations in Progress: [42/67] 62.69%
+
+Translating in French...
+
+Translating in French done!
+Estimated time remaining: 0 hours, 17 minutes, and 0 seconds
+Translations in Progress: [43/67] 64.18%
+
+Translating in French...
+
+Translating in French done!
+Estimated time remaining: 0 hours, 16 minutes, and 23 seconds
+Translations in Progress: [44/67] 65.67%
+
+Translating in French...
+
+Translating in French done!
+Estimated time remaining: 0 hours, 15 minutes, and 46 seconds
+Translations in Progress: [45/67] 67.16%
+
+Translating in French...
+
+Translating in French done!
+Estimated time remaining: 0 hours, 15 minutes, and 8 seconds
+Translations in Progress: [46/67] 68.66%
+
+Translating in French...
+
+Translating in French done!
+Estimated time remaining: 0 hours, 14 minutes, and 29 seconds
+Translations in Progress: [47/67] 70.15%
+
+Translating in French...
+
+Translating in French done!
+Estimated time remaining: 0 hours, 13 minutes, and 50 seconds
+Translations in Progress: [48/67] 71.64%
+
+Translating in French...
+Progress: 1.32% of chunks translated.
+Progress: 2.63% of chunks translated.
+Progress: 3.95% of chunks translated.
+Progress: 5.26% of chunks translated.
+Progress: 6.58% of chunks translated.
+Progress: 7.89% of chunks translated.
+Progress: 9.21% of chunks translated.
+Progress: 10.53% of chunks translated.
+Progress: 11.84% of chunks translated.
+Progress: 13.16% of chunks translated.
+Progress: 14.47% of chunks translated.
+Progress: 15.79% of chunks translated.
+Progress: 17.11% of chunks translated.
+Progress: 18.42% of chunks translated.
+Progress: 19.74% of chunks translated.
+Progress: 21.05% of chunks translated.
+Progress: 22.37% of chunks translated.
+Progress: 23.68% of chunks translated.
+Progress: 25.00% of chunks translated.
+Progress: 26.32% of chunks translated.
+Progress: 27.63% of chunks translated.
+Progress: 28.95% of chunks translated.
+Progress: 30.26% of chunks translated.
+Progress: 31.58% of chunks translated.
+Progress: 32.89% of chunks translated.
+Progress: 34.21% of chunks translated.
+Progress: 35.53% of chunks translated.
+Progress: 36.84% of chunks translated.
+Progress: 38.16% of chunks translated.
+Progress: 39.47% of chunks translated.
+Progress: 40.79% of chunks translated.
+Progress: 42.11% of chunks translated.
+Progress: 43.42% of chunks translated.
+Progress: 44.74% of chunks translated.
+Progress: 46.05% of chunks translated.
+Progress: 47.37% of chunks translated.
+Progress: 48.68% of chunks translated.
+Progress: 50.00% of chunks translated.
+Progress: 51.32% of chunks translated.
+Progress: 52.63% of chunks translated.
+Progress: 53.95% of chunks translated.
+Progress: 55.26% of chunks translated.
+Progress: 56.58% of chunks translated.
+Progress: 57.89% of chunks translated.
+Progress: 59.21% of chunks translated.
+Progress: 60.53% of chunks translated.
+Progress: 61.84% of chunks translated.
+Progress: 63.16% of chunks translated.
+Progress: 64.47% of chunks translated.
+Progress: 65.79% of chunks translated.
+Progress: 67.11% of chunks translated.
+Progress: 68.42% of chunks translated.
+Progress: 69.74% of chunks translated.
+Progress: 71.05% of chunks translated.
+Progress: 72.37% of chunks translated.
+Progress: 73.68% of chunks translated.
+Progress: 75.00% of chunks translated.
+Progress: 76.32% of chunks translated.
+Progress: 77.63% of chunks translated.
+Progress: 78.95% of chunks translated.
+Progress: 80.26% of chunks translated.
+Progress: 81.58% of chunks translated.
+Progress: 82.89% of chunks translated.
+Progress: 84.21% of chunks translated.
+Progress: 85.53% of chunks translated.
+Progress: 86.84% of chunks translated.
+Progress: 88.16% of chunks translated.
+Progress: 89.47% of chunks translated.
+Progress: 90.79% of chunks translated.
+Progress: 92.11% of chunks translated.
+Progress: 93.42% of chunks translated.
+Progress: 94.74% of chunks translated.
+Progress: 96.05% of chunks translated.
+Progress: 97.37% of chunks translated.
+Progress: 98.68% of chunks translated.
+Progress: 100.00% of chunks translated.
+
+Translating in French done!
+Estimated time remaining: 0 hours, 32 minutes, and 49 seconds
+Translations in Progress: [49/67] 73.13%
+
+Translating in French...
+
+Translating in French done!
+Estimated time remaining: 0 hours, 48 minutes, and 51 seconds
+Translations in Progress: [50/67] 74.63%
+
+Translating in French...
+
+Translating in French done!
+Estimated time remaining: 1 hours, 2 minutes, and 8 seconds
+Translations in Progress: [51/67] 76.12%
+
+Translating in French...
+
+Translating in French done!
+Estimated time remaining: 1 hours, 12 minutes, and 49 seconds
+Translations in Progress: [52/67] 77.61%
+
+Translating in French...
+
+Translating in French done!
+Estimated time remaining: 1 hours, 21 minutes, and 2 seconds
+Translations in Progress: [53/67] 79.10%
+
+Translating in French...
+
+Translating in French done!
+Estimated time remaining: 1 hours, 26 minutes, and 57 seconds
+Translations in Progress: [54/67] 80.60%
+
+Translating in French...
+
+Translating in French done!
+Estimated time remaining: 1 hours, 30 minutes, and 40 seconds
+Translations in Progress: [55/67] 82.09%
+
+Translating in French...
+
+Translating in French done!
+Estimated time remaining: 1 hours, 32 minutes, and 18 seconds
+Translations in Progress: [56/67] 83.58%
+
+Translating in French...
+
+Translating in French done!
+Estimated time remaining: 1 hours, 31 minutes, and 59 seconds
+Translations in Progress: [57/67] 85.07%
+
+Translating in French...
+
+Translating in French done!
+Estimated time remaining: 1 hours, 29 minutes, and 47 seconds
+Translations in Progress: [58/67] 86.57%
+
+Translating in French...
+Progress: 100.00% of chunks translated.
+
+Translating in French done!
+Estimated time remaining: 1 hours, 25 minutes, and 51 seconds
+Translations in Progress: [59/67] 88.06%
+
+Translating in French...
+
+Translating in French done!
+Estimated time remaining: 1 hours, 20 minutes, and 13 seconds
+Translations in Progress: [60/67] 89.55%
+
+Translating in French...
+
+Translating in French done!
+Estimated time remaining: 1 hours, 13 minutes, and 0 seconds
+Translations in Progress: [61/67] 91.04%
+
+Translating in French...
+
+Translating in French done!
+Estimated time remaining: 1 hours, 4 minutes, and 15 seconds
+Translations in Progress: [62/67] 92.54%
+
+Translating in French...
+
+Translating in French done!
+Estimated time remaining: 0 hours, 54 minutes, and 2 seconds
+Translations in Progress: [63/67] 94.03%
+
+Translating in French...
+
+Translating in French done!
+Estimated time remaining: 0 hours, 42 minutes, and 27 seconds
+Translations in Progress: [64/67] 95.52%
+
+Translating in French...
+
+Translating in French done!
+Estimated time remaining: 0 hours, 29 minutes, and 32 seconds
+Translations in Progress: [65/67] 97.01%
+
+Translating in French...
+
+Translating in French done!
+Estimated time remaining: 0 hours, 15 minutes, and 22 seconds
+Translations in Progress: [66/67] 98.51%
+
+Translating in French...
+
+Translating in French done!
+Estimated time remaining: 0 hours, 0 minutes, and 0 seconds

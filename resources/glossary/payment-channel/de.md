@@ -1,0 +1,5 @@
+---
+term: ZAHLUNGSKANAL
+---
+
+Im Rahmen des Lightning-Netzwerks ist ein Zahlungskanal eine bidirektionale Verbindung zwischen zwei Lightning-Knoten, die den Austausch von Bitcoin off-chain ermöglicht. On-chain wird ein Zahlungskanal durch eine 2/2-Multisignatur-Adresse dargestellt, die von beiden Teilnehmern gehalten wird. Für die Eröffnung und Schließung des Zahlungskanals ist jeweils eine On-chain-Transaktion erforderlich. Zwischen diesen beiden Ereignissen können Kanalnutzer eine sehr große Anzahl von Bitcoin-Austauschen off-chain im Lightning-Netzwerk durchführen, ohne dass On-chain-Aktivitäten notwendig sind. Im Lightning-Netzwerk ist es möglich, eine Zahlung durch mehrere Kanäle und Knoten zu leiten, um Bitcoins zu senden, ohne notwendigerweise einen direkten Kanal mit dem Empfänger zu öffnen.

@@ -1,0 +1,9 @@
+---
+term: PREMIUM
+---
+
+Ein zusätzlicher Betrag, der über den Standard- oder Nennpreis eines Vermögenswerts hinausgeht. Im Kontext von Bitcoin kann eine Prämie beobachtet werden, insbesondere beim Kauf auf Austauschplattformen, die manchmal diese Technik nutzen, um ihre Margen beim Brokerage-Service zu machen.
+
+Diese Vorstellung von Prämie findet sich auch bei Peer-to-Peer-BTC-Käufen. Tatsächlich kommt der Kauf von nicht-KYC-Bitcoins oft mit einer Prämie im Vergleich zum Standardmarktpreis, die von 1% bis manchmal mehr als 10% variieren kann. Mehrere Gründe erklären diese Preisunterschiede. Zunächst ist es eine gängige Praxis unter P2P-Verkäufern, die sich im Laufe der Zeit etabliert hat. Weiterhin haben Verkäufer Transaktionsgebühren, die mit dem Senden von Geldern an den Käufer verbunden sind. Es besteht auch ein erhöhtes Risiko des Diebstahls bei P2P-Verkäufen im Vergleich zu Transaktionen auf regulierten Plattformen, was eine Entschädigung für das eingegangene Risiko rechtfertigt. Schließlich kann der Aufschlag mit der Nachfrage und der Qualität des Austauschs in Bezug auf Vertraulichkeit zusammenhängen. Als Käufer hat der Gewinn an Vertraulichkeit einen Preis, der sich in dem vom Verkäufer angewandten Aufschlag widerspiegelt. Einige Bitcoiner glauben auch, dass der höhere Preis von BTC, die P2P gekauft wurden, ihren wahren Wert widerspiegelt, und argumentieren, dass die niedrigeren Preise auf regulierten Plattformen das Ergebnis eines Kompromisses bezüglich der Vertraulichkeit Ihrer persönlichen Daten sind.
+
+> ► *Allgemein wird sogar im Französischen der englische Begriff "premium" verwendet. Seine Übersetzung könnte "Majoration" sein.*

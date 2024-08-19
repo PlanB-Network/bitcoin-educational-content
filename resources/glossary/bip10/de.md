@@ -1,0 +1,5 @@
+---
+term: BIP10
+---
+
+Der BIP10, vorgeschlagen von Gavin Andresen im Jahr 2011, zielte darauf ab, das Konzept von Multisignatur-Transaktionen einzuführen. Die Hauptidee von BIP10 war es, die Art und Weise zu standardisieren, wie eine Zahlung auf mehrere Signaturen (Multisig) konditioniert wird, indem ein neuer Skripttyp eingeführt wird. Dieser Vorschlag schlug vor, Transaktionserstellern zu erlauben, mehrere öffentliche Schlüssel zu spezifizieren und eine Bedingung festzulegen, unter der eine bestimmte Anzahl dieser Schlüssel signieren müsste, um die Transaktion zu validieren. Jedoch wurde BIP10 zurückgezogen und nie in das Protokoll integriert. Die Funktionen, die es vorsah, wurden durch andere nachfolgende BIPs adressiert, wie BIP11 und BIP16, die komplexere und flexiblere Mechanismen für Multisig auf Bitcoin einführten.

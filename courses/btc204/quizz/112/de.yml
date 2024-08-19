@@ -1,0 +1,13 @@
+Frage: Was ist die Rolle des Mitarbeiters bei einer Stonewall x2-Transaktion?
+
+Antwort: Bitcoins bereitstellen, um Zweifel zu säen
+
+falsche_Antworten:
+  - Als Koordinator der Transaktion fungieren
+  - Den Zahlungsbetrag erhalten
+  - Den Zahlungsbetrag senden
+
+Erklärung: |
+  Der Mitarbeiter bei einer Stonewall x2-Transaktion stellt Bitcoins bereit, um in der Analyse der Transaktion Zweifel zu säen, während er am Ende seine Mittel vollständig zurückerhält (eine neutrale Aktion für ihn, abzüglich der Mining-Gebühren).
+
+überprüft: false

@@ -1,0 +1,7 @@
+---
+term: VERTEILT
+---
+
+Attribut eines Computernetzwerks, in dem die Entscheidungsfindung und Kontrolle gleichmäßig unter allen Netzwerkteilnehmern verteilt sind. Diese Verteilung gewährleistet die Widerstandsfähigkeit des Systems. Es wird auch als Peer-to-Peer-Netzwerk bezeichnet. Im Gegensatz zu einem dezentralisierten Netzwerk, in dem die Macht fragmentiert und unter mehreren Entitäten verteilt ist, aber einige zentrale Autoritäten mit größerer Macht als die Nutzer verbleiben, eliminiert ein verteiltes Netzwerk die zentrale Autorität, indem es das Management und die Kontrolle den Nutzern selbst überträgt. Bitcoin ist ein Beispiel für ein verteiltes System. Bitcoin hat keine Hierarchie oder zentrale Autorität. Die Aufrechterhaltung des Konsenses, die Verifizierung von Transaktionen und die Ausgabe neuer Währungseinheiten werden von den Nutzern durchgeführt. Diese verteilte Struktur gewährleistet die Widerstandsfähigkeit des Systems und die Widerstandsfähigkeit gegen Zensur, was es sehr schwierig macht für eine einzelne Entität, es zu kontrollieren oder zu manipulieren.
+
+> ► *Einige Leute bezeichnen Bitcoin als ein dezentralisiertes System. Tatsächlich ist es nicht ungewöhnlich, dass diese beiden Begriffe austauschbar verwendet werden. Ein prägnanteres Synonym für das Adjektiv "verteilt" könnte "Peer-to-Peer" sein, manchmal abgekürzt als "P2P", das Akronym aus der englischen Übersetzung "Peer-to-Peer".*

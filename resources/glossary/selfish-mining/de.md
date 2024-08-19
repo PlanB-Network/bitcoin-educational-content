@@ -1,0 +1,11 @@
+---
+term: SELFISH MINING
+---
+
+Strategie (oder Angriff) beim Mining, bei der ein Miner oder eine Gruppe von Minern absichtlich Blöcke mit einem gültigen Proof of Work zurückhält, ohne sie sofort im Netzwerk zu verbreiten. Das Ziel ist es, einen Vorsprung gegenüber anderen Minern in Bezug auf den Proof of Work zu behalten, was es ihnen potenziell ermöglicht, mehrere Blöcke hintereinander zu minen und sie alle auf einmal zu veröffentlichen, um so ihre Gewinne zu maximieren.
+
+Mit anderen Worten, die angreifende Gruppe von Minern minet nicht auf dem letzten vom gesamten Netzwerk validierten Block, sondern auf einem Block, den sie selbst erstellt haben, der sich von dem vom Netzwerk validierten unterscheidet. Dieser Prozess erzeugt eine Art geheimen Fork der Blockchain, der dem gesamten Netzwerk unbekannt bleibt, bis diese alternative Kette die ehrliche Blockchain potenziell übertrifft. Sobald die geheime Kette der angreifenden Miner länger wird (d.h., sie enthält mehr angesammelte Arbeit) als die ehrliche und öffentliche Kette, wird sie dann im gesamten Netzwerk verbreitet. Zu diesem Zeitpunkt werden die Netzwerkknoten, die der längsten Kette (mit der meisten angesammelten Arbeit) folgen, mit dieser neuen Kette synchronisieren. Dies führt zu einer Reorganisation.
+
+Selfish Mining ist problematisch, weil es die Sicherheit des Systems verringert, indem es einen Teil der Rechenleistung des Netzwerks verschwendet. Wenn erfolgreich, führt es auch zu Blockchain-Reorganisationen, was die Zuverlässigkeit der Transaktionsbestätigungen für Benutzer beeinträchtigt. Diese Praxis bleibt riskant für die angreifende Gruppe von Minern, da es oft profitabler ist, normal auf dem letzten öffentlich bekannten Block zu minen, anstatt Rechenleistung einem geheimen Fork zuzuweisen, der wahrscheinlich nie die ehrliche Blockchain übertreffen wird. Je größer die Anzahl der Blöcke in der Reorganisation ist, desto geringer ist die Wahrscheinlichkeit des Erfolgs des Angriffs.
+
+> ► *Die englische Übersetzung von "minage égoïste" ist "selfish mining". Beachten Sie, dass ein Selfish-Mining-Angriff nicht mit einem Block-Withholding-Angriff verwechselt werden sollte.*

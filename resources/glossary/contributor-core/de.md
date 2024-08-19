@@ -1,0 +1,5 @@
+---
+term: BEITRAGENDER (CORE)
+---
+
+Ein Beitragender im Kontext von Bitcoin Core (der Mehrheitsimplementierung von Knoten im Bitcoin-Netzwerk) ist eine Person, die aktiv an der Entwicklung der Software teilnimmt, indem sie Code schreibt, Überprüfungen durchführt und die von anderen vorgeschlagenen Änderungen testet. Im Gegensatz zu Betreuern haben Beitragende nicht die Befugnis, Änderungen in den Hauptcode zu integrieren; ihre Rolle besteht eher darin, Pull Requests (PR) einzureichen und an der Diskussion und Validierung dieser Vorschläge teilzunehmen. Jede interessierte Person kann ein Beitragender werden, ohne dass eine Nominierung oder formelle Genehmigung erforderlich ist, was sich von den Betreuern unterscheidet, die mit höheren administrativen und entscheidungsbezogenen Verantwortlichkeiten im Projekt betraut sind.

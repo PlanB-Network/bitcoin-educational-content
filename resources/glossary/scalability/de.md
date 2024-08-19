@@ -1,0 +1,7 @@
+---
+term: SKALIERBARKEIT
+---
+
+Bezieht sich auf die Fähigkeit von Bitcoin, eine Zunahme des Transaktionsvolumens zu bewältigen, während akzeptable Leistungsniveaus beibehalten werden. Bitcoin sieht sich inhärenten technischen Einschränkungen gegenüber, wie z.B. der Blockgröße, dem Zeitintervall zwischen den Blöcken und der Tatsache, dass eine Transaktion erst nach mehreren Bestätigungen als unveränderlich gilt. Diese Einschränkungen verhindern, dass Bitcoin eine unbegrenzte Anzahl von Transaktionen effizient verarbeiten kann. Wenn die Nachfrage nach Platz in den Blöcken zunimmt, sind die Nutzer gezwungen, die Gebühren, die sie für die Verarbeitung ihrer Transaktionen anbieten, zu erhöhen. Skalierbarkeit, also die Fähigkeit von Bitcoin, das erhöhte Transaktionsvolumen zu bewältigen, kann entweder durch direkte Änderungen am Protokoll oder durch externe Lösungen wie das Lightning Network verbessert werden. Das Thema Skalierbarkeit stand immer im Mittelpunkt intensiver Debatten innerhalb der Gemeinschaft. Der erste Versuch, die Blockgröße zu erhöhen, erfolgte im Oktober 2010 mit [einem von Jeff Garzik vorgeschlagenen Patch](https://bitcointalk.org/index.php?topic=1347.0). Das Thema Skalierbarkeit führte insbesondere zwischen 2015 und 2017 zum Blockgrößenkrieg.
+
+> ► *Der Begriff "scalabilité" ist ein Anglizismus. Die korrekte Übersetzung des englischen Begriffs "scalability" ist "Evolutivität" oder "Passage à l'échelle". Es ist jedoch allgemein akzeptiert, innerhalb der Gemeinschaft den Begriff "Skalierbarkeit" direkt zu verwenden.*

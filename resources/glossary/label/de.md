@@ -1,0 +1,5 @@
+---
+term: LABEL
+---
+
+Label oder Annotation, die einem UTXO in einer Bitcoin-Wallet zugewiesen wird, um sich an dessen Herkunft zu erinnern. Zum Beispiel, wenn ich einen UTXO besitze, der von einem P2P-Kauf auf Bisq mit Charles stammt, könnte ich ihm das Label `Non-KYC Bisq Charles` zuweisen. Dies ist eine gute Praxis, die hilft, sich an die Herkunft oder das beabsichtigte Ziel dieses UTXO zu erinnern, was die Verwaltung von Mitteln und die Optimierung der Privatsphäre erleichtert. Das Labeling wird noch wichtiger, wenn es zusammen mit der Coin-Kontrolle verwendet wird. Tatsächlich hilft diese Praxis, indem sie den Benutzern erlaubt, UTXOs für ihre Transaktionen zu differenzieren und präzise auszuwählen, das Zusammenführen von UTXOs aus verschiedenen Quellen zu vermeiden. Dies begrenzt die Risiken, die mit der Common Input Ownership Heuristic (CIOH) verbunden sind, welche die gemeinsame Eigentümerschaft der Eingaben einer Transaktion aufdecken kann.

@@ -1,0 +1,5 @@
+---
+term: BIP66
+---
+
+Führte eine Standardisierung des Signaturformats in Transaktionen ein. Dieses BIP wurde als Reaktion auf eine Divergenz in der Art und Weise vorgeschlagen, wie OpenSSL die Signaturkodierung über verschiedene Systeme hinweg handhabte. Diese Heterogenität stellte ein Risiko der Aufspaltung der Blockchain dar. BIP66 standardisierte das Signaturformat für alle Transaktionen unter Verwendung der strengen DER-Kodierung (*Distinguished Encoding Rules*). Diese Änderung erforderte einen Soft Fork. Für seine Aktivierung nutzte BIP66 dann denselben Mechanismus wie BIP34, indem das `nVersion`-Feld auf Version 3 erhöht wurde und alle Blöcke der Version 2 oder niedriger abgelehnt wurden, sobald die 95%-Minerschwelle erreicht war. Diese Schwelle wurde am 4. Juli 2015 bei Blocknummer 363.725 überschritten.

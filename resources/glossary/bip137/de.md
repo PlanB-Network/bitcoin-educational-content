@@ -1,0 +1,5 @@
+---
+term: BIP137
+---
+
+Schlägt ein standardisiertes Format für das Signieren von Nachrichten mit Bitcoin-Privatschlüsseln und den zugehörigen Adressen vor, um den Besitz einer Adresse nachzuweisen. Dieses BIP zielt darauf ab, die Mehrdeutigkeit im Zusammenhang mit den verschiedenen Typen von Bitcoin-Adressen (P2PKH, P2SH, P2WPKH...) beim Signieren einer Nachricht zu lösen. Es führt eine Methode ein, um diese Adressformate durch Signaturen explizit zu unterscheiden. Diese Signaturen sind nützlich für verschiedene Anwendungen wie den Nachweis von Vermögenswerten, Audits und andere Verwendungen, die eine Authentifizierung einer Adresse über ihren Privatschlüssel erfordern. BIP322 hat seitdem ein neues Signaturformat eingeführt, das es ermöglicht, diesen Standard zu erweitern und für jeden Typ von Skript zu verallgemeinern.

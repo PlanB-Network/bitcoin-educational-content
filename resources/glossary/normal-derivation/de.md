@@ -1,0 +1,5 @@
+---
+term: NORMAL DERIVATION
+---
+
+Der Prozess der Erzeugung von Kind-Schlüsseln in HD-Wallets. Die normale Ableitung verwendet den öffentlichen Schlüssel des Elternteils als Eingabe für die `HMAC-SHA512` Funktion, was die Erzeugung von Kind-öffentlichen Schlüsseln aus dem Eltern-öffentlichen Schlüssel und dem Eltern-Chain-Code ermöglicht. Der Prozess beinhaltet das Verketten des Eltern-öffentlichen Schlüssels und eines Indexes kleiner als $2^{31}$, gefolgt von der Anwendung von `HMAC-SHA512` mit dem Eltern-Chain-Code. Das Ergebnis wird in zwei Teile geteilt: Die ersten 256 Bits werden zum Eltern-privaten Schlüssel hinzugefügt, um den Kind-privaten Schlüssel zu erhalten, während die verbleibenden 256 Bits den Kind-Chain-Code bilden. Diese Methode stellt sicher, dass der erweiterte öffentliche Schlüssel verwendet werden kann, um Kind-öffentliche Schlüssel abzuleiten. Bei der Standardableitung wird die normale Ableitung auf allen Ebenen der Ableitung ab der Kontotiefe verwendet. In der Notation von Ableitungspfaden wird eine normale Ableitung identifiziert, wenn nur der Index ohne Apostroph `'` vorhanden ist.

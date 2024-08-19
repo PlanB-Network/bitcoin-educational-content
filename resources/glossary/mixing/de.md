@@ -1,0 +1,7 @@
+---
+term: MIXING
+---
+
+Im allgemeinen Bereich der Mathematik bezieht sich Mixing oder Blending auf die Eigenschaft eines dynamischen Systems, bei dem nach einer gewissen Zeit alle Teile des ursprünglichen Raums theoretisch mit jedem anderen Teil vermischt werden können. Mixing impliziert, dass die Position eines Partikels oder der Zustand eines Systems sich so entwickelt, dass seine zukünftige Verteilung unabhängig von seiner anfänglichen Verteilung ist, und erreicht somit einen Zustand, in dem die Merkmale des Anfangszustands gleichmäßig im Raum des Systems verteilt sind. Im Kontext von Bitcoin kann diese Vorstellung verwendet werden, um die Qualität eines Coin-Mixing-Prozesses wie eines Coinjoin zu bewerten.
+
+> ► *Im Englischen sprechen wir über "Mixing". Einige Bitcoiner unterscheiden die Vorstellung von Mixing vom Prozess des Coinjoin. Tatsächlich sagen sie, dass Mixing sich auf das Vermischen von Coins bezieht, das von einer Entität durchgeführt wird, die die Mittel besitzt, im Gegensatz zu Coinjoins, bei denen der Benutzer immer im Besitz der Mittel bleibt. Meiner Meinung nach ist diese Unterscheidung jedoch nicht korrekt, da Coinjoin notwendigerweise Mixing im mathematischen Sinne des Begriffs beinhaltet.*

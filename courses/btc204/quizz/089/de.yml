@@ -1,0 +1,11 @@
+Frage: Wie werden "Makers" in JoinMarket entschädigt?
+
+Antwort: Durch Gebühren, die von den "Takers" bezahlt werden.
+
+Falsche Antworten:
+  - Durch Mining-Gebühren.
+  - Durch freiwillige Spenden von den "Takers".
+  - Durch Zuschüsse aus der Bitcoin-Community.
+
+Erklärung: |
+  Die "Makers" stellen ihre Bitcoins für die "Takers" zur Verfügung und erhalten im Gegenzug Gebühren für ihren Dienst. Die "Takers" wiederum zahlen, um die Bitcoins der "Makers" nutzen zu können, um ihre eigenen CoinJoin-Transaktionen durchzuführen.

@@ -1,0 +1,13 @@
+Frage: Welche Heuristik der Kettenanalyse wird von der Payjoin-Transaktion verwendet, um als Täuschung zu wirken?
+
+Antwort: Die COH
+
+Falsche Antworten:
+  - Adressenwiederverwendung
+  - Wallet-Fingerprinting
+  - Versionierungswiederverwendung
+
+Erklärung: |
+  Wenn ein Analyst eine Payjoin-Transaktion untersucht, wird er dazu verleitet zu glauben, dass alle Eingaben von derselben Person stammen, wegen der COH. Diese Wahrnehmung ist jedoch falsch, da auch der Zahlungsempfänger neben dem eigentlichen Zahler zu den Eingaben beiträgt. Somit wird die Kettenanalyse in Richtung einer Interpretation abgelenkt, die sich als falsch herausstellt.
+
+Überprüft: false

@@ -1,0 +1,7 @@
+---
+term: BLOCKCHAIN
+---
+
+Blockchain ist der Begriff, der üblicherweise dem verteilten Zeitstempel-Server des Bitcoin-Systems gegeben wird. Es handelt sich um eine Kette von Blöcken. Jeder Block ist durch seinen kryptografischen Hash mit dem nächsten verbunden. Um doppelte Ausgaben bei Bitcoin ohne Rückgriff auf eine zentrale Autorität zu verhindern, muss jeder Benutzer das Nichtvorhandensein einer Transaktion im System überprüfen. Die einzige Möglichkeit, die Abwesenheit einer Transaktion sicherzustellen, besteht darin, über alle vergangenen Bitcoin-Transaktionen informiert zu sein. Zu diesem Zweck werden Transaktionen innerhalb von Blöcken zeitgestempelt, und jeder Benutzer hat Zugang zur Gesamtheit der Blockchain.
+
+> ► *Angesichts der zahlreichen Marketingmissbräuche des Begriffs "Blockchain", insbesondere gegen Ende der 2010er Jahre, weigern sich viele Bitcoiner, dieses Wort zu verwenden. Einige bevorzugen es, von "TimeChain" zu sprechen, um dieses Konzept zu evozieren. Andere, die sich auf das White Paper von Satoshi Nakamoto beziehen, erwähnen eine "Proof-of-Work Chain". Im Französischen wird der englische Begriff "Blockchain" allgemein akzeptiert. Die Übersetzung "chaîne de blocs" kann ebenfalls verwendet werden.*

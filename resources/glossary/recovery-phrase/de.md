@@ -1,0 +1,9 @@
+---
+term: WIEDERHERSTELLUNGSPHRASE
+---
+
+Eine Wiederherstellungsphrase, auch manchmal als Mnemonik, Seed-Phrase oder Geheimphrase bezeichnet, ist eine Sequenz, die üblicherweise aus 12 oder 24 Wörtern besteht und auf pseudo-zufällige Weise aus einer Entropiequelle generiert wird. Die pseudo-zufällige Sequenz wird immer mit einer Prüfsumme vervollständigt. Die Mnemonik-Phrase, zusammen mit einer optionalen Passphrase, wird verwendet, um deterministisch alle Schlüssel abzuleiten, die mit einer HD (Hierarchisch Deterministischen) Wallet verbunden sind. Das bedeutet, dass aus dieser Phrase alle privaten und öffentlichen Schlüssel des Bitcoin-Wallets deterministisch generiert und rekonstruiert werden können und somit Zugang zu den damit verbundenen Geldmitteln möglich ist. Der Zweck der Wiederherstellungsphrase besteht darin, ein Mittel zur Sicherung und Wiederherstellung von Bitcoins zu bieten, das sowohl sicher als auch einfach zu verwenden ist.
+
+Es ist wichtig, diese Phrase an einem sicheren Ort aufzubewahren, da jeder, der im Besitz der Mnemonik ist, Zugang zu den Geldmitteln des entsprechenden Wallets hätte. Wird sie im Kontext einer traditionellen Wallet verwendet und ohne eine optionale Passphrase, stellt sie oft einen SPOF (Single Point Of Failure) dar. Die Wiederherstellungsphrase ist somit eine Kodierung der pseudo-zufälligen Sequenz und der Prüfsumme in alltägliche Wörter, um ihre Notation und Lesbarkeit durch Menschen zu erleichtern. Sie wird gemäß dem BIP39-Standard konstruiert, der eine Liste von 2048 Wörtern definiert und ordnet, die für diese Kodierung verwendet werden.
+
+> ► *Die Liste der 2048 Wörter aus BIP39 ist in mehreren Sprachen verfügbar, jedoch wird empfohlen, nur die englische Version zu verwenden, da sie die von Wallet-Software am weitesten unterstützte Version ist.*

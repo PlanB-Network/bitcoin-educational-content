@@ -1,0 +1,11 @@
+Frage: Welcher Begriff beschreibt den Schutz, den ein CoinJoin gegen die Analyse zukünftiger Transaktionen einer Münze bietet?
+
+Antwort: Prospective anonset.
+
+Falsche Antworten:
+  - Retrospective anonset.
+  - Traceability resistance.
+  - Temporal privacy.
+
+Erklärung: |
+  Der Schutz gegen Analysen von der Vergangenheit bis zur Gegenwart wird als das prospective anonset bezeichnet.

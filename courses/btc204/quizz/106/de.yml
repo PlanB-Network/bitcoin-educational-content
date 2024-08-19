@@ -1,0 +1,13 @@
+Frage: Wie viele Teilnehmer gibt es bei den Eingaben in einer Payjoin-Transaktion?
+
+Antwort: 2
+
+Falsche Antworten:
+  - 1
+  - 3
+  - 0
+
+Erklärung: |
+  Es gibt 2 Teilnehmer: den Zahler und den Empfänger der Zahlung.
+
+Überprüft: false

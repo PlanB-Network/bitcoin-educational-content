@@ -1,0 +1,14 @@
+---
+term: COVENANT
+---
+
+Ein Mechanismus, der es ermöglicht, spezifische Bedingungen dafür festzulegen, wie ein bestimmtes Stück Währung ausgegeben werden kann, einschließlich in zukünftigen Transaktionen. Über die Bedingungen hinaus, die normalerweise durch die Skriptsprache auf einem UTXO (Unspent Transaction Output) erlaubt sind, erzwingt der Covenant zusätzliche Einschränkungen darüber, wie diese Bitcoin in nachfolgenden Transaktionen ausgegeben werden können. Technisch gesehen erfolgt die Einrichtung eines Covenants, wenn das `scriptPubKey` eines UTXO Einschränkungen für das `scriptPubKey` der Ausgaben einer Transaktion definiert, die besagten UTXO ausgibt. Durch die Erweiterung des Skriptumfangs würden Covenants zahlreiche Entwicklungen auf Bitcoin ermöglichen, wie die bilaterale Verankerung von Drivechains, die Implementierung von Tresoren oder die Verbesserung von Overlay-Systemen wie Lightning. Covenant-Vorschläge werden anhand von drei Kriterien unterschieden:
+* Ihr Umfang;
+* Ihre Implementierung;
+* Ihre Rekursivität.
+
+Es gibt viele Vorschläge, die die Verwendung von Covenants auf Bitcoin ermöglichen würden. Die am weitesten fortgeschrittenen im Implementierungsprozess sind: `OP_CHECKTEMPLATEVERIFY` (CTV), `SIGHASH_ANYPREVOUT` (APO) und `OP_VAULT`. Unter anderen Vorschlägen befinden sich: `OP_TX`, `OP_TAPLEAFUPDATEVERIFY` (TLUV), `OP_EVICT`, `OP_CHECKSIGFROMSTACKVERIFY` (CSFSV), `OP_CAT` usw.
+
+Um das Konzept eines Covenants besser zu verstehen, betrachten Sie folgende Analogie: Stellen Sie sich einen Safe vor, der 500€ in kleinen Scheinen enthält. Wenn es Ihnen gelingt, diesen Safe mit dem richtigen Schlüssel zu öffnen, dann sind Sie frei, dieses Geld zu verwenden, wie Sie möchten. Das ist die normale Situation bei Bitcoin. Stellen Sie sich jetzt vor, dass derselbe Safe nicht 500€ in Banknoten enthält, sondern Essensgutscheine von äquivalentem Wert. Wenn es Ihnen gelingt, diesen Safe zu öffnen, können Sie diese Summe verwenden. Ihre Freiheit, auszugeben, ist jedoch eingeschränkt, da Sie diese Gutscheine nur verwenden können, um in bestimmten Restaurants zu bezahlen. Es gibt also eine erste Bedingung, um dieses Geld auszugeben, nämlich den Safe mit dem passenden Schlüssel zu öffnen. Aber es gibt auch eine zusätzliche Bedingung bezüglich der zukünftigen Verwendung dieser Summe: Sie muss ausschließlich in Partnerrestaurants ausgegeben werden und nicht frei. Dieses System von Einschränkungen für zukünftige Transaktionen wird als Covenant bezeichnet.
+
+> ► *Im Französischen gibt es keinen Begriff, der die Bedeutung des Wortes "covenant" genau erfasst. Man könnte von "Klausel", "Pakt" oder "Verpflichtung" sprechen, aber diese würden nicht genau dem Begriff "Covenant" entsprechen. Dieser Begriff ist aus der Rechtsterminologie entlehnt, die es ermöglicht, eine vertragliche Klausel zu beschreiben, die anhaltende Verpflichtungen für ein Eigentum auferlegt.*

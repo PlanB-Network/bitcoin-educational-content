@@ -1,0 +1,5 @@
+---
+term: EREBUS (ANGRIFF)
+---
+
+Ein hochgradig ausgeklügelter Angriff gegen das Bitcoin-Netzwerk, der es einem bösartigen Internetdienstanbieter ermöglicht, spezifische Bitcoin-Knoten zu isolieren. Es handelt sich daher um eine Form des Eclipse-Angriffs. Der Erebus-Angriff nutzt die Struktur des Internetnetzwerks, insbesondere die obligatorischen Durchgangspunkte (oder "Engpässe") in der Routing zwischen Autonomen Systemen (AS). Ein Angreifer kann durch die Kontrolle eines autonomen Systems den Netzwerkverkehr manipulieren, um einen Bitcoin-Knoten vom Rest des Netzwerks zu isolieren und ihn somit an einen falschen Zustand der Blockchain (Blöcke oder Transaktionen, die dem Knoten nicht bekannt sind) glauben zu lassen. Diese Isolation kann zu doppelten Ausgaben oder Zensur gegenüber dem isolierten Knoten führen. Dieser Angriff wurde seit der Veröffentlichung der Bitcoin Core-Version 0.20.0 und der Einführung von Asmap erheblich erschwert.

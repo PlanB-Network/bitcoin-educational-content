@@ -1,0 +1,5 @@
+---
+term: HASH DIGEST
+---
+
+In der Kryptografie bezieht sich dies auf das Ergebnis (oder den Output), das durch Anwendung einer kryptografischen Hashfunktion auf einen Datensatz erzeugt wird. Der Hash-Digest ist eine Zeichenkette fester Größe, die üblicherweise in hexadezimaler Notation (Basis 16) dargestellt wird und aus einer Reihe von Zahlen und Buchstaben besteht. Dieses Ergebnis ist nahezu einzigartig und spezifisch für die Eingabedaten, was bedeutet, dass eine geringfügige Änderung der Eingabe einen völlig anderen Hash-Digest erzeugt. Kryptografische Hashfunktionen sind so konzipiert, dass sie einseitig und kollisionsresistent sind, was es sehr schwierig macht, die ursprünglichen Daten aus dem Hash-Digest zu extrahieren oder zwei unterschiedliche Eingaben zu finden, die denselben Hash-Digest produzieren.

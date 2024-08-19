@@ -1,10 +1,10 @@
-question: Was ist einer der Hauptvorteile von Bitcoin für Menschen ohne Bankkonto?
-answer: Bitcoin ermöglicht Gleichheit bei Transaktionen, unabhängig von Ihrem sozialen Status oder Ihrer politischen Position.
-wrong_answers:
+Frage: Was ist einer der Hauptvorteile von Bitcoin für Menschen ohne Bankkonto?
+Antwort: Bitcoin ermöglicht Gleichheit bei Transaktionen, unabhängig von Ihrem sozialen Status oder Ihrer politischen Position.
+falsche_Antworten:
   - Bitcoin ermöglicht Ungleichheit bei Transaktionen.
   - Bitcoin kommt nur Menschen mit einem Bankkonto zugute.
   - Bitcoin kommt nur Menschen mit einem hohen sozialen Status zugute.
-explanation: >-
+Erklärung: >-
   Im Text wird erwähnt, dass es 2,4 Milliarden Menschen auf der Welt ohne
   Bankkonto gibt, und Bitcoin ermöglicht Gleichheit bei Transaktionen, unabhängig von Ihrem
   sozialen Status oder Ihrer politischen Position.

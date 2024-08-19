@@ -1,0 +1,5 @@
+---
+term: UTXO
+---
+
+Akronym für *Unspent Transaction Output* (Unverbrauchter Transaktionsausgang). Ein UTXO ist ein Transaktionsausgang, der noch nicht ausgegeben wurde, was bedeutet, dass er noch nicht als Eingabe für eine neue Transaktion verwendet wurde. UTXOs repräsentieren den Anteil an Bitcoins, den ein Benutzer besitzt und der aktuell ausgegeben werden kann. Jeder UTXO ist mit einem spezifischen Ausgabeskript (`scriptPubKey`) verbunden, das die notwendigen Bedingungen zum Ausgeben der Bitcoins definiert. Transaktionen in Bitcoin verbrauchen diese UTXOs als Eingaben und erzeugen neue UTXOs als Ausgaben. Das UTXO-Modell ist grundlegend für Bitcoin, da es eine einfache Überprüfung ermöglicht, dass Transaktionen nicht versuchen, Bitcoins auszugeben, die nicht existieren oder bereits ausgegeben wurden.

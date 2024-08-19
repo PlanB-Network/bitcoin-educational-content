@@ -1,0 +1,11 @@
+---
+term: NONCE
+---
+
+Im Kontext der Informatik bezieht sich der Begriff "nonce" auf eine Zahl, die nur einmal verwendet und dann ersetzt wird. Sie ist oft zufällig oder pseudozufällig. Nonces werden in verschiedenen kryptografischen Protokollen verwendet, um die Sicherheit des Prozesses zu gewährleisten. Zum Beispiel beinhalten die ECDSA-Signaturen, die innerhalb des Bitcoin-Protokolls verwendet werden, die Nutzung eines Nonce. Das bedeutet, dass diese Zahl für jede Signatur neu sein muss. Ist dies nicht der Fall, ist es möglich, den verwendeten privaten Schlüssel zu berechnen, indem man zwei Signaturen vergleicht, die denselben Nonce verwenden.
+
+Nonces werden auch im Bitcoin-Mining-Prozess verwendet. Miner erhöhen diese modifizierbaren Werte innerhalb ihrer Kandidatenblöcke. Sie modifizieren den Nonce-Wert, um einen kryptografischen Hash zu finden, der niedriger als oder gleich dem Schwierigkeitsziel ist. Dieser Prozess erfordert erhebliche Rechenleistung, da er eine erschöpfende Suche unter einer großen Anzahl möglicher Nonces beinhaltet. Wenn ein Miner einen Nonce findet, der, in ihren Block eingefügt, ein Digest produziert, das die Schwierigkeitskriterien erfüllt, wird der Block im Netzwerk verbreitet, und der Miner gewinnt die Belohnung.
+
+> ► *Im Jahr 2010 entdeckten Forscher, dass Sonys PlayStation 3 denselben Nonce verwendete, um verschiedene Codepakete zu signieren. Diese Wiederverwendung des Nonce ermöglichte es Angreifern, den privaten Schlüssel zu berechnen, der zum Signieren der Software verwendet wurde. Mit dem privaten Schlüssel in der Hand konnten Angreifer gültige Signaturen für beliebigen Code erstellen, was es ihnen ermöglichte, nicht autorisierte Software, einschließlich raubkopierter Spiele oder benutzerdefinierter Betriebssysteme, direkt auf der PS3 auszuführen.*
+
+> ► *Es gibt ein weit verbreitetes Missverständnis über den Ursprung des Begriffs "nonce". Einige behaupten, er repräsentiere die Abkürzung von "number only used once" (Zahl, die nur einmal verwendet wird). In Wirklichkeit geht der Ursprung des Wortes auf das 18. Jahrhundert zurück und stammt aus der semantischen Evolution des altenglischen Ausdrucks "then anes", was "für den Anlass" bedeutete.*

@@ -1,0 +1,9 @@
+---
+Begriff: PRIVATE KEY
+---
+
+Ein Private Key ist ein grundlegendes Element der asymmetrischen Kryptografie. Es handelt sich um eine Zahl (256 Bits im Kontext von Bitcoin), die ein kryptografisches Geheimnis darstellt. Dieser Schlüssel wird verwendet, um Transaktionen digital zu signieren und den Besitz eines Bitcoin-Öffentlichen-Schlüssels (und damit einer Empfangsadresse) durch Erfüllen eines `scriptPubKey` zu beweisen. Daher ermöglichen Private Keys das Ausgeben von Bitcoins, indem sie die UTXOs entsperren, die mit dem entsprechenden öffentlichen Schlüssel verbunden sind. Private Keys müssen streng vertraulich behandelt werden, da ihre Offenlegung böswilligen Dritten die Kontrolle über die zugehörigen Mittel ermöglichen könnte.
+
+Im Bitcoin-System ist der Private Key mit einem öffentlichen Schlüssel durch einen digitalen Signaturalgorithmus unter Verwendung elliptischer Kurven (ECDSA oder Schnorr) verknüpft. Der öffentliche Schlüssel wird aus dem privaten Schlüssel abgeleitet, aber das Umgekehrte ist aufgrund der rechnerischen Schwierigkeit, das zugrunde liegende mathematische Problem zu lösen (das diskrete Logarithmusproblem), praktisch unmöglich zu erreichen. Der öffentliche Schlüssel wird allgemein verwendet, um eine Bitcoin-Adresse zu generieren, die verwendet wird, um Bitcoins mit einem Skript zu sperren. In der Kryptografie sind private Schlüssel oft zufällige oder pseudozufällige Zahlen. Im spezifischen Kontext von Bitcoin deterministischen und hierarchischen Wallets werden Private Keys deterministisch aus dem Seed abgeleitet. Private Keys werden häufig mit dem Seed oder mit der Wiederherstellungsphrase (Mnemonic) verwechselt. Diese Elemente sind jedoch unterschiedlich.
+
+> ► *Auf Englisch wird ein Private Key als "private key" bezeichnet. Dieser Begriff wird manchmal als "privkey" oder "PV" abgekürzt.*

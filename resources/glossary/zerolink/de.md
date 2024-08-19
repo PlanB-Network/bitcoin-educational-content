@@ -1,0 +1,5 @@
+---
+term: ZEROLINK
+---
+
+Ein Chaumian CoinJoin-Protokoll, das darauf abzielt, alle Verbindungen zwischen verschiedenen Sets von Münzen durch fortgeschrittene Mischtechniken zu unterbrechen. Das ZeroLink-Protokoll zeichnet sich durch seine Fähigkeit aus, die Anonymität der Nutzer gegen verschiedene Formen der Transaktions- und Netzwerkebene der Kettenanalyse zu schützen. ZeroLink führt ein Rahmenwerk für CoinJoin-Wallets ein, mit der Nutzung von Pre-Mix- und Post-Mix-segregierten Konten sowie einer einzigartigen Mischtechnik: dem Chaumian CoinJoin. Bis heute ist die einzige Implementierung von ZeroLink CoinJoins Whirlpool, verfügbar auf Samourai Wallet und Sparrow Wallet. Dieses Protokoll [wurde 2017 von nopara73 und TDevD eingeführt](https://github.com/nopara73/ZeroLink/blob/master/README.md).

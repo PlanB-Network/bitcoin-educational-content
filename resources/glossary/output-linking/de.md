@@ -1,0 +1,5 @@
+---
+term: OUTPUT LINKING
+---
+
+Manchmal synonym verwendet, um auf die Wiederverwendung von Adressen zu verweisen. Output Linking bezieht sich auf die Praxis, dieselbe Empfangsadresse zu verwenden, um mehrere UTXOs zu sperren, manchmal über mehrere verschiedene Transaktionen hinweg. Bitcoins werden typischerweise unter Verwendung eines kryptografischen Schlüsselpaares gesperrt, das einer einzigartigen Adresse entspricht. Da die Blockchain öffentlich ist, lässt sich leicht erkennen, welche Adressen mit wie vielen Bitcoins verbunden sind. Im Falle der Wiederverwendung derselben Adresse für mehrere Zahlungen kann davon ausgegangen werden, dass alle zugehörigen UTXOs derselben Entität gehören. Daher stellt die Wiederverwendung von Adressen ein Problem für die Privatsphäre des Benutzers dar. Sie ermöglicht deterministische Verbindungen zwischen mehreren Transaktionen und UTXOs sowie die fortlaufende Verfolgung von Mitteln in der Blockchain.

@@ -1,0 +1,7 @@
+---
+term: STATISCHE ADRESSE
+---
+
+Im Kontext von Silent Payments bezieht sich dies auf einen einzigartigen Identifikator, der den Empfang von Zahlungen ohne Adresswiederverwendung, ohne Interaktion und ohne eine sichtbare On-Chain-Verbindung zwischen den verschiedenen Zahlungen und der statischen Adresse ermöglicht. Diese Technik eliminiert die Notwendigkeit, für jede Transaktion neue, ungenutzte Empfangsadressen zu generieren, und vermeidet somit die üblichen Interaktionen bei Bitcoin, bei denen der Empfänger dem Zahler eine neue Adresse bereitstellen muss. Es ist in etwa gleichwertig mit dem wiederverwendbaren Zahlungscode im Kontext von BIP47.
+
+Diese Adresse besteht aus zwei öffentlichen Schlüsseln: $B_{\text{scan}}$ zum Scannen und $B_{\text{spend}}$ zum Ausgeben, die zusammengefügt die statische Adresse $B = B_{\text{scan}} \text{ ‖ } B_{\text{spend}}$ bilden. Der Empfänger veröffentlicht diese Adresse, was es den Sendern ermöglicht, einzigartige Zahlungsadressen abzuleiten, ohne weitere Interaktion mit dem Empfänger. Um mehrere unterschiedliche Zahlungsquellen zu verwalten, kann ein Label zu $B_{\text{spend}}$ hinzugefügt werden, wodurch mehrere beschriftete statische Adressen von $B_1$, $B_2$ usw. erstellt werden. Dies ermöglicht die Trennung von Zahlungen unter Verwendung einer einzigen Basisadresse und reduziert somit den Arbeitsaufwand für das Scannen der Blockchain. Allerdings können alle statischen Adressen einer Entität aufgrund der gemeinsamen Nutzung von $B_{\text{scan}}$ leicht miteinander in Verbindung gebracht werden.

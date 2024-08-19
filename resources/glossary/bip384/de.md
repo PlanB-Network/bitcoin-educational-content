@@ -1,0 +1,5 @@
+---
+term: BIP384
+---
+
+Führt die Funktion `combo(KEY)` für Deskriptoren ein. Diese Funktion beschreibt eine Reihe möglicher Ausgabeskripte für einen gegebenen öffentlichen Schlüssel. Sie umfasst somit gleichzeitig mehrere Arten von Skripten, einschließlich P2PK, P2PKH, P2WPKH und P2SH-P2WPKH. Wenn der gegebene Schlüssel komprimiert ist, werden alle 4 Arten von Skripten getestet, und wenn er es nicht ist, werden nur die 2 Legacy-Skriptarten getestet. Das Ziel ist es, die Darstellung von Schlüsseln in Deskriptoren zu vereinfachen, indem eine einzige Methode bereitgestellt wird, um verschiedene Varianten von Ausgabeskripten basierend auf demselben öffentlichen Schlüssel zu generieren. BIP384 wurde zusammen mit allen anderen deskriptorbezogenen BIPs (außer BIP386) in Version 0.17 von Bitcoin Core implementiert.

@@ -1,0 +1,5 @@
+---
+term: BIP380
+---
+
+Ein Vorschlag zur Verbesserung, der eine Standardsprache für die Beschreibung der Sammlungen von Ausgabeskripten von HD Bitcoin-Wallets einführt. Diese Sprache wird als "Output Script Descriptors" bezeichnet. Sie zielt darauf ab, die Art und Weise zu standardisieren, Ausgabeskripte zu repräsentieren und zu verwalten, um das Backup, den Export und den Import von Wallets zu erleichtern. Zusätzlich zu privaten Daten wie der Wiederherstellungsphrase bieten die Deskriptoren alle notwendigen Informationen, um die Schlüsselpaare, die in einem HD-Wallet verwendet werden, abzurufen. BIP380 beschreibt die allgemeine Funktionsweise von Deskriptoren, während BIP381, BIP382, BIP383, BIP384, BIP385 und BIP386 die verwendeten Ausdrücke spezifizieren. BIP380 wurde zusammen mit allen anderen deskriptorbezogenen BIPs (außer BIP386) in Version 0.17 von Bitcoin Core implementiert.

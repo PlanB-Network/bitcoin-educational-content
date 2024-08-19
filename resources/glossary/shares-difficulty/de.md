@@ -1,0 +1,5 @@
+---
+term: SHARES DIFFICULTY
+---
+
+Eine Ziel-Schwierigkeit, die höher als die von Bitcoin ist (also weniger schwierig), definiert von einem Mining-Pool, um einen Hash eines Anteils zu qualifizieren und den Beitrag jedes einzelnen Miners innerhalb des Pools zu bewerten. Um die Verifizierungslast effizient zu verwalten und sicherzustellen, dass jeder Miner, unabhängig von seiner Rechenleistung, regelmäßig Anteile einreicht, passen Pools die Schwierigkeit der Anteile an. Die jedem Miner zugewiesene Schwierigkeit bestimmt die Anzahl der Anteile, die sie sammeln: zum Beispiel, wenn ein Miner eine zugewiesene Schwierigkeit von 10 hat und 5 gültige Arbeitsnachweise bei dieser Schwierigkeit einreicht, erhält er 50 Anteile. Ein leistungsfähigerer Miner mit einer Schwierigkeit von 100, der 7 gültige Arbeitsnachweise einreicht, erhält 700 Anteile. Dieses System ermöglicht die präzise Quantifizierung der Hashrate jedes Miners und die Verteilung der Belohnungen gemäß der gewählten Berechnungsmethode für die Kompensation (PPS, PPLNS, TIDES...).

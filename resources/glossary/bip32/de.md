@@ -1,0 +1,5 @@
+---
+term: BIP32
+---
+
+BIP32 führte das Konzept einer hierarchischen deterministischen Wallet (HD-Wallet) ein. Dieser Vorschlag ermöglicht die Erzeugung einer Hierarchie von Schlüsselpaaren aus einem gemeinsamen `master seed` (Haupt-Seed), unter Verwendung von Einweg-Ableitungsfunktionen. Jedes erzeugte Schlüsselpaar kann selbst der Elternteil anderer Kinderschlüssel sein, wodurch eine baumähnliche (hierarchische) Struktur entsteht. Der Vorteil von BIP32 besteht darin, dass es die Verwaltung mehrerer verschiedener Schlüsselpaare mit der Notwendigkeit ermöglicht, nur einen einzigen Seed zur Regeneration zu behalten. Diese Innovation hat insbesondere geholfen, das Problem der Adressenwiederverwendung zu bekämpfen, was für die Privatsphäre der Nutzer ernst ist. BIP32 ermöglicht auch die Erstellung von Unterzweigen innerhalb derselben Wallet, um deren Verwaltung zu erleichtern.

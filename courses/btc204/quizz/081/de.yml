@@ -1,0 +1,11 @@
+Frage: Welches kryptografische Verfahren wird verwendet, um zu verhindern, dass der Koordinator die Eingaben und Ausgaben bei einem CoinJoin verknüpft?
+
+Antwort: Chaum-Blindsignaturen.
+
+Falsche Antworten:
+  - Schnorr-Signaturen.
+  - P2SH-Adressen.
+  - P2TR-Adressen.
+
+Erklärung: |
+  Bei sogenannten "Chaumian" CoinJoins wird die Verwendung von Tor und David Chaums Blindsignaturen kombiniert, um sicherzustellen, dass der Koordinator nicht wissen kann, welche Ausgabe zu welchem Benutzer gehört.

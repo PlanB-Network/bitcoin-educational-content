@@ -1,0 +1,11 @@
+---
+term: PAYJOIN
+---
+
+Eine spezifische Bitcoin-Transaktionsstruktur, die die Privatsphäre der Nutzer beim Ausgeben durch Zusammenarbeit mit dem Zahlungsempfänger verbessert. Die Einzigartigkeit von Payjoin liegt in seiner Fähigkeit, eine Transaktion zu generieren, die auf den ersten Blick gewöhnlich aussieht, tatsächlich aber ein Mini-Coinjoin zwischen zwei Parteien ist. Dafür bezieht die Transaktionsstruktur den Zahlungsempfänger neben dem eigentlichen Sender in die Inputs ein. So fügt der Empfänger eine Zahlung an sich selbst inmitten der Transaktion hinzu, die es ihm ermöglicht, bezahlt zu werden. Wenn Sie beispielsweise eine Baguette für `6.000 Sats` mit einem UTXO von `10.000 Sats` kaufen und sich für einen Payjoin entscheiden, fügt Ihr Bäcker ein UTXO von `15.000 Sats`, das ihm gehört, als Input hinzu, welches sie vollständig als Output zurückerhalten, zusätzlich zu Ihren `6.000 Sats`.
+
+Die Payjoin-Transaktion erfüllt zwei Ziele. Erstens zielt sie darauf ab, einen externen Beobachter durch die Erstellung einer Täuschung in der Kettenanalyse auf der Common Input Ownership Heuristic (CIOH) zu verwirren. Normalerweise wird angenommen, dass alle diese Inputs bei einer Transaktion auf der Blockchain wahrscheinlich derselben Entität gehören. Wenn also ein Analyst eine Payjoin-Transaktion untersucht, wird er dazu verleitet zu glauben, dass alle Inputs von derselben Person stammen. Diese Wahrnehmung ist jedoch falsch, da der Zahlungsempfänger ebenfalls zu den Inputs beiträgt, neben dem eigentlichen Zahler. Zweitens täuscht der Payjoin auch einen externen Beobachter über den tatsächlichen Betrag der Zahlung, die geleistet wurde. Durch die Untersuchung der Struktur der Transaktion könnte der Analyst glauben, dass die Zahlung dem Betrag eines der Outputs entspricht. In Wirklichkeit entspricht der Zahlungsbetrag keinem der Outputs. Es ist tatsächlich die Differenz zwischen dem UTXO des Empfängers im Output und dem UTXO des Empfängers im Input. In diesem Sinne fällt die Payjoin-Transaktion in den Bereich der Steganographie. Sie ermöglicht es, den tatsächlichen Betrag einer Transaktion innerhalb einer falschen Transaktion zu verbergen, die als Täuschung dient.
+
+![](../../dictionnaire/assets/14.png)
+
+> ► *Payjoin wird manchmal auch "P2EP (Pay-to-End-Point)", "Stowaway" oder "steganografische Transaktion" genannt.*

@@ -1,0 +1,5 @@
+---
+term: STAMPS
+---
+
+Ein Protokoll, das die Integration von formatierten Bilddaten direkt auf die Bitcoin-Blockchain durch rohe Multisignatur-Transaktionen (P2MS) ermöglicht. Stamps kodiert den binären Inhalt eines Bildes in Base 64 und fügt ihn zu den Schlüsseln eines 1/3 P2MS hinzu. Ein Schlüssel ist echt und wird verwendet, um die Mittel zu verwenden, während die anderen beiden Dummy-Schlüssel sind (der zugehörige private Schlüssel ist unbekannt), die die Daten speichern. Indem die Daten direkt als öffentliche Schlüssel anstatt über `OP_RETURN` Ausgaben kodiert werden, sind Bilder, die mit dem Stamps-Protokoll gespeichert werden, besonders arbeitsintensiv für die Knoten. Diese Methode erzeugt bemerkenswerterweise mehrere UTXOs, was die Größe des UTXO-Sets erhöht und Probleme für Vollknoten darstellt.

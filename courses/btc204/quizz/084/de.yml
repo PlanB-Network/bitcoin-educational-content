@@ -1,0 +1,13 @@
+Frage: Was ist die Rolle des "Post-Mix"-Wallets im Zerolink-Protokoll?
+
+Antwort: Zum Speichern der UTXOs nach dem Mixing.
+
+Falsche Antworten:
+  - Zum Speichern der UTXOs vor dem Mixing.
+  - Zum Speichern der Wechselgeld-UTXOs.
+  - Zum Speichern der Konsolidierungs-UTXOs.
+
+Erklärung: |
+  Das "Post-Mix"-Wallet ist für Münzen reserviert, die gemischt wurden.
+
+Überprüft: false

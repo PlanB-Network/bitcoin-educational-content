@@ -1,0 +1,13 @@
+Frage: Was ist das Hauptziel eines Coinswaps?
+
+Antwort: Die Eigentümerschaft von Bitcoins heimlich zu übertragen
+
+Falsche Antworten:
+  - Die Geschwindigkeit von Transaktionen erhöhen
+  - Bitcoins mischen
+  - Heimlich eine Altcoin gegen Bitcoin tauschen
+
+Erklärung: |
+  Der Coinswap nutzt Smart Contracts, um eine Übertragung der Bitcoin-Eigentümerschaft zwischen zwei Nutzern zu ermöglichen, ohne dass Vertrauen erforderlich ist und ohne dass diese Übertragung explizit auf der Blockchain sichtbar ist.
+
+Überprüft: false

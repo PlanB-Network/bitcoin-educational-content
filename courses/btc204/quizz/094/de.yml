@@ -1,0 +1,13 @@
+Frage: Welche der folgenden Antworten ist keine empfohlene Praxis für das Management des eigenen Doxxic-Wechsels?
+
+Antwort: Das Zusammenführen von doxxic UTXOs.
+
+Falsche Antworten:
+  - Das Mischen von doxxic UTXOs in einem kleineren Pool.
+  - Das Spenden der eigenen doxxic UTXOs.
+  - Das Markieren der eigenen doxxic UTXOs als nicht ausgebbar.
+
+Erklärung: |
+  Es wird davon abgeraten, doxxic UTXOs zusammenzuführen, da dies eine Verbindung zwischen den verschiedenen Benutzereingaben im Whirlpool ermöglicht.
+
+Überprüft: false

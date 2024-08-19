@@ -1,13 +1,13 @@
-question: Unter diesen Optionen, welche ist keine Methode zur automatischen Teileauswahl?
+Frage: Unter diesen Optionen, welche ist keine Methode zur automatischen Teileauswahl?
 
-answer: Stille Zahlungen
+Antwort: Stille Zahlungen
 
-wrong_answers:
+Falsche Antworten:
   - Branch-and-Bound
   - FIFO
   - Knapsack Solver
 
-explanation: |
+Erklärung: |
   Im Gegensatz zu den anderen drei Optionen ist Stille Zahlungen keine Methode zur Auswahl von Teilen, sondern ein Protokoll für die Verwendung von statischen Adressen.
 
-reviewed: false
+Überprüft: false

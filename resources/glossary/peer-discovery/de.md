@@ -1,0 +1,9 @@
+---
+term: PEER DISCOVERY
+---
+
+Der Prozess, durch den Knoten im Bitcoin-Netzwerk Verbindungen zu anderen Knoten herstellen, um Informationen zu erhalten. Wenn ein Bitcoin-Knoten zum ersten Mal gestartet wird, hat er keine Informationen über andere Knoten im Netzwerk. Dennoch muss er Verbindungen herstellen, um sich mit der Blockchain zu synchronisieren, die die meiste akkumulierte Arbeit aufweist. Mehrere Mechanismen werden verwendet, um diese Peers zu entdecken, in der Reihenfolge der Priorität:
+* Der Knoten beginnt damit, seine lokale `peers.dat` Datei zu konsultieren, die Informationen über Knoten speichert, mit denen er zuvor interagiert hat. Wenn der Knoten neu ist, wird diese Datei leer sein, und der Prozess geht zum nächsten Schritt über;
+* Fehlen Informationen in der `peers.dat` Datei (was für einen neu gestarteten Knoten normal ist), führt der Knoten DNS-Abfragen bei den DNS-Seeds durch. Diese Server stellen eine Liste von IP-Adressen vermutlich aktiver Knoten zur Verfügung, um Verbindungen herzustellen. Die Adressen der DNS-Seeds sind im Bitcoin Core Code hart codiert. Dieser Schritt reicht normalerweise aus, um die Entdeckung von Peers abzuschließen;
+* Wenn die DNS-Seeds innerhalb von 60 Sekunden nicht antworten, kann der Knoten sich dann an die Seed-Knoten wenden. Dies sind öffentliche Bitcoin-Knoten, die in einer statischen Liste von fast tausend Einträgen direkt in den Quellcode von Bitcoin Core integriert sind. Der neue Knoten wird diese Liste nutzen, um eine erste Verbindung zum Netzwerk herzustellen und IP-Adressen anderer Knoten zu erhalten;
+* Im sehr unwahrscheinlichen Fall, dass alle vorherigen Methoden fehlschlagen, hat der Knotenbetreiber immer noch die Möglichkeit, manuell IP-Adressen von Knoten hinzuzufügen, um eine erste Verbindung herzustellen.

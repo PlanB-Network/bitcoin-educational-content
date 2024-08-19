@@ -1,0 +1,5 @@
+---
+term: FPPS (FULL PAY PER SHARE)
+---
+
+Methode zur Berechnung der Entlohnung von Minern innerhalb von Mining-Pools. Sie stellt eine Weiterentwicklung der PPS (*Pay Per Share*) Methode dar. Sie entschädigt Miner nicht nur für jeden gültigen Anteil, den sie einreichen, sondern beinhaltet auch einen Teil der Blockbelohnungen. Die Entschädigung wird auf Basis des Durchschnitts vorheriger Transaktionen und der Hashrate des Pools berechnet. Dadurch erhalten Miner eine Belohnung für die eingereichten Anteile, unabhängig davon, ob ein Block gefunden wird oder nicht, aber diese Methode kompensiert auch für den erwarteten Wert. Sie bietet eine stabile und vorhersehbare Entschädigung für Miner, da sie die mit der Wahrscheinlichkeit, einen Block zu finden, verbundene Varianz eliminiert, während sie sie den Schwankungen der Markgebühren aussetzt. Allerdings ist sie riskanter für Poolbetreiber, da sie Miner auch dann bezahlen müssen, wenn kein Block gefunden wird, und somit das Varianzrisiko übernehmen.

@@ -1,0 +1,7 @@
+---
+term: HONG-KONG ROUNDTABLE
+---
+
+Ein historisches Ereignis des Blocksize-Krieges, das am 20. Februar 2016 in Hongkong stattfand. Es war ein bedeutendes Treffen zwischen Bitcoin Core-Entwicklern und Minern, um die Skalierbarkeit des Systems und die Strategie zu dessen Skalierung zu diskutieren. Die Spannungen waren vor dem Treffen hoch, insbesondere aufgrund des Aufkommens von Bitcoin Classic, einem Hard-Fork-Vorschlag, der von Gavin Andressen unterstützt wurde und darauf abzielte, die Blockgröße auf 2 MB zu erhöhen. Einflussreiche Figuren im Ökosystem nahmen an den Debatten teil, einschließlich Jihan Wu und Micree Zhan, den Mitbegründern von Bitmain, Adam Back, dem Präsidenten von Blockstream, sowie Luke Dashjr, Matt Corallo und Peter Todd.
+
+Miner, frustriert über den mangelnden Fortschritt, drohten damit, Bitcoin Classic zu unterstützen, falls nicht ein 2 MB Hard Fork implementiert würde. Entwickler verteidigten SegWit als eine praktikable Lösung. Nach stundenlangen angespannten Verhandlungen wurde eine Vereinbarung getroffen, die besagte, dass Bitcoin Core-Entwickler an einem Hard Fork arbeiten würden, nachdem SegWit implementiert worden sei. Diese Vereinbarung sollte die Spannungen mildern, schuf letztendlich jedoch mehr Misstrauen und Verwirrung. Jede Seite interpretierte die Vereinbarung unterschiedlich, was die Spaltungen innerhalb der Gemeinschaft verschärfte. Obwohl diese Vereinbarung den Schwung von Bitcoin Classic vorübergehend verlangsamte, wurde sie von vielen als eine unbefriedigende und ungeschickte Lösung angesehen.

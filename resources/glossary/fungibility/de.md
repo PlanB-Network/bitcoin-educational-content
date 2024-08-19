@@ -1,0 +1,5 @@
+---
+term: FUNGIBILITÄT
+---
+
+Die Eigenschaft einer Währung, die sicherstellt, dass jede Einheit austauschbar und von einer anderen ähnlichen Einheit nicht zu unterscheiden ist. Bitcoin ist prinzipiell fungibel als Rechnungseinheit, da ein Bitcoin immer einem anderen Bitcoin entspricht: 1 BTC = 1 BTC. Die Nachverfolgbarkeit von UTXOs (die Unterstützung für die Einheiten) auf der Blockchain kann jedoch diese Fungibilität manchmal beeinträchtigen. Tatsächlich kann jeder Satoshi durch seine Geschichte unterschieden werden, was ihm eine spezifische Identität verleiht. Die Wahrnehmung der Geschichte jedes UTXO kann das Urteil der Parteien über die Fungibilität der verwendeten Bitcoins beeinflussen. Obwohl Fungibilität eine intrinsische Eigenschaft von Währungseinheiten ist, kann sie durch die Besonderheiten des Mediums, das für diese Einheiten verwendet wird, wie im Fall von Bitcoin, verändert werden.

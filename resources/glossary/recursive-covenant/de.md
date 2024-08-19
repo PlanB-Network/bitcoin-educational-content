@@ -1,0 +1,9 @@
+---
+term: RECURSIVE (COVENANT)
+---
+
+Ein rekursives Covenant bei Bitcoin ist eine Art von Smart Contract, der Bedingungen nicht nur für die aktuelle Transaktion, sondern auch für zukünftige Transaktionen auferlegt, die die Outputs dieser Transaktion ausgeben. Dies ermöglicht die Erstellung von Transaktionsketten, bei denen jede den durch die erste in der Kette definierten Regeln folgen muss. Rekursivität schafft eine Sequenz von Transaktionen, bei der jede die Einschränkungen von ihrer Elterntransaktion erbt. Dies würde eine komplexe und langfristige Kontrolle darüber ermöglichen, wie Bitcoins ausgegeben werden können, würde aber auch Risiken hinsichtlich der Ausgabefreiheit und Fungibilität einführen.
+
+Zusammengefasst würde ein nicht-rekursives Covenant sich nur auf die Transaktion beschränken, die unmittelbar auf diejenige folgt, die die Regeln festgelegt hat. Im Gegensatz dazu hat ein rekursives Covenant die Fähigkeit, spezifische Bedingungen auf einen Bitcoin auf unbestimmte Zeit aufzuerlegen. Transaktionen können aufeinander folgen, aber der betreffende Bitcoin wird immer die ursprünglichen Bedingungen beibehalten, die an ihn geknüpft sind. Technisch gesehen erfolgt die Einrichtung eines nicht-rekursiven Covenants, wenn das `scriptPubKey` eines UTXO Einschränkungen für das `scriptPubKey` der Outputs einer Transaktion definiert, die besagtes UTXO ausgibt. Andererseits erfolgt die Einrichtung eines rekursiven Covenants, wenn das `scriptPubKey` eines UTXO Einschränkungen für das `scriptPubKey` der Outputs einer Transaktion definiert, die besagtes UTXO ausgibt, und für alle `scriptPubKey`s, die auf die Ausgabe dieses UTXO folgen werden.
+
+Allgemeiner gesagt, in der Informatik, ist das, was als "Rekursivität" bezeichnet wird, die Fähigkeit einer Funktion, sich selbst aufzurufen, wodurch eine Art Schleife entsteht.

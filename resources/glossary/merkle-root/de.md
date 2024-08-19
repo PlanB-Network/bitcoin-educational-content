@@ -1,0 +1,5 @@
+---
+term: MERKLE ROOT
+---
+
+Digest oder "Top-Hash" eines Merkle-Baums, der eine Zusammenfassung aller im Baum vorhandenen Informationen darstellt. Ein Merkle-Baum ist eine kryptographische Akkumulatorstruktur, die manchmal auch als "Hash-Baum" bezeichnet wird. Im Kontext von Bitcoin werden Merkle-Bäume verwendet, um Transaktionen innerhalb eines Blocks zu organisieren und die schnelle Überprüfung der Einbeziehung einer spezifischen Transaktion zu erleichtern. So wird in Bitcoin-Blöcken der Merkle-Root durch sukzessives Hashen von Transaktionen in Paaren erlangt, bis nur noch ein Hash übrig bleibt (der Merkle-Root). Dieser wird dann in den Header des entsprechenden Blocks aufgenommen. Dieser Hash-Baum findet sich auch in UTREEXO, einer Struktur, die das Kondensieren des UTXO-Sets von Knoten ermöglicht, und im MAST Taproot.

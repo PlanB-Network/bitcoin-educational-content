@@ -1,0 +1,13 @@
+Frage: Warum wendet der Analyst CIOH nicht bei einer Stonewall-Transaktion an?
+
+Antwort: Weil es 2 Ausgaben in gleicher Höhe gibt
+
+Falsche Antworten:
+  - Weil es nur 2 Eingaben gibt
+  - Weil sie mit diesem Muster nicht vertraut sind
+  - Weil es mehr Ausgaben als Eingaben gibt
+
+Erklärung: |
+  Die Analyse einer Stonewall-Transaktion von außen führt nicht zur Anwendung von CIOH, da das Vorhandensein von zwei Ausgaben gleicher Höhe auf ein Coinjoin-Muster hindeutet. Aus einer externen Perspektive ist CIOH daher in diesem spezifischen Fall nicht anwendbar.
+
+Überprüft: false

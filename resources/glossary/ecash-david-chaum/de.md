@@ -1,0 +1,5 @@
+---
+term: ECASH (DAVID CHAUM)
+---
+
+Protokoll, das 1982 von David Chaum vorgeschlagen wurde und eines der ersten digitalen Währungssysteme darstellt, das darauf ausgelegt ist, die Anonymität der Nutzer zu bewahren. Es basiert auf den Prinzipien der Public-Key-Kryptografie, um eine digitale Währung zu schaffen, die sicher und anonym ausgetauscht werden kann. eCash funktioniert, indem digitale Token erstellt werden, die von einer Bank signiert sind. Somit stellt es eine Evolution der Einlagenbanken dar, ohne dezentralisiert zu sein. Während Transaktionen werden diese Token zwischen den Parteien übertragen, ohne die Identität der Nutzer preiszugeben, wodurch deren Privatsphäre gewahrt bleibt. eCash gilt als Vorläufer der Kryptowährungen. Es wird oft in Diskussionen über Bitcoin erwähnt, wobei einige Systeme ähnlich wie eCash als eine zusätzliche Schicht nutzen möchten. Heute geht der Trend mehr in Richtung sogenannter "föderierter Chaumianer" Systeme wie Fedimint.

@@ -1,0 +1,5 @@
+---
+term: SHAREDCOIN
+---
+
+Bitcoin-Mixing-Dienst, der 2013 von Blockchain.info gestartet wurde, aber heute nicht mehr in Betrieb ist. Dieser Dienst bot Nutzern eine Möglichkeit, ihre Privatsphäre bei Bitcoin zu verbessern, indem ihre Transaktionen mit denen anderer Personen kombiniert wurden, unter Verwendung einer Mixing-Technik, die ähnlich wie CoinJoins funktioniert. SharedCoin bot eine Form der Privatsphäre, ohne dass man dem Koordinator vertrauen musste, da die Coins der Nutzer während des gesamten Prozesses unter ihrer Kontrolle blieben. Im Gegensatz zu zentralisierten Mixing-Diensten der damaligen Zeit konnten Bitcoins nicht durch den Zwischenhändler gestohlen werden. SharedCoin sah sich anschließend mit Problemen konfrontiert, die zur Deanonymisierung einiger ihrer Mixe im Frühsommer 2014 führten.

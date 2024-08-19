@@ -1,0 +1,13 @@
+Frage: Was misst der retrospektive Anonset?
+
+Antwort: Der Widerstand der Privatsphäre gegen eine Analyse von vorne nach hinten.
+
+falsche_Antworten:
+  - Der Widerstand der Privatsphäre gegen eine Analyse von hinten nach vorne.
+  - Der Widerstand der Privatsphäre gegen eine Analyse von der Gegenwart in die Zukunft.
+  - Der Widerstand der Privatsphäre gegen eine Analyse von der Vergangenheit in die Gegenwart.
+
+Erklärung: |
+  Der retrospektive Anonset misst den Widerstand der Privatsphäre einer Münze gegen eine Analyse von der Gegenwart in die Vergangenheit (von Ausgabe zu Eingabe).
+
+überprüft: false

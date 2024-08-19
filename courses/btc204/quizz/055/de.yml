@@ -1,13 +1,13 @@
-question: Was ist eine Bitcoin-Empfangsadresse?
+Frage: Was ist eine Bitcoin-Empfangsadresse?
 
-answer: Eine Zeichenfolge, die verwendet wird, um Bitcoins zu empfangen.
+Antwort: Eine Zeichenfolge, die verwendet wird, um Bitcoins zu empfangen.
 
-wrong_answers:
+Falsche Antworten:
   - Ein Code, der verwendet wird, um Bitcoins zu senden.
   - Ein Algorithmus zum Schürfen von Bitcoins.
   - Ein Smart Contract.
 
-explanation: |
+Erklärung: |
   Eine Empfangsadresse wird verwendet, um Bitcoins in eine Wallet zu erhalten.
 
-reviewed: false
+Überprüft: false

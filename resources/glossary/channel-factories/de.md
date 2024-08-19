@@ -1,0 +1,5 @@
+---
+term: CHANNEL FACTORIES
+---
+
+Ein fortschrittlicher Mechanismus, der derzeit bei Lightning in Entwicklung ist und die Erstellung und Verwaltung mehrerer Zahlungskanäle aus einem einzigen UTXO ermöglicht. Channel Factories nutzen `n-of-n` Multisig-Adressen, sodass eine Gruppe von Nutzern gemeinsam einen einzigen UTXO halten kann. Von dort aus können sie Zahlungskanäle untereinander öffnen und schließen, ohne zusätzliche On-Chain-Transaktionen, außer wenn sie ihre Mittel aus der Fabrik abziehen möchten. Diese Methode könnte die Kosten und den auf Bitcoin für Lightning-Transaktionen belegten Platz erheblich reduzieren. In der Praxis bedeutet dies, dass Operationen, die normalerweise für jede Öffnung oder Schließung eines Kanals On-Chain-Transaktionen erfordern würden, Off-Chain durchgeführt werden können, wobei die Sicherheit durch die Möglichkeit gewährleistet ist, die unveröffentlichten Transaktionen bei Bedarf zu veröffentlichen. Um die Worte von David A. Harding zu verwenden, können Channel Factories als Lightning-Kanäle beschrieben werden, die verwendet werden, um andere Lightning-Kanäle zu erzeugen.

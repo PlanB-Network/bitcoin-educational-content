@@ -1,0 +1,5 @@
+---
+term: BASIS (ARITHMETIK)
+---
+
+Eine Basis ist ein Zahlensystem, das eine festgelegte Anzahl von Zeichen verwendet, um alle möglichen Zahlen darzustellen. Die Basis bestimmt die Anzahl der unterschiedlichen Symbole, die zur Darstellung der Ziffern in diesem System verfügbar sind. Zum Beispiel ist das bekannteste System in unserem täglichen Leben die Basis 10, auch Dezimalsystem genannt. Es verwendet zehn unterschiedliche Symbole `(0, 1, 2, 3, 4, 5, 6, 7, 8, 9)`, um alle Zahlen darzustellen. Andere häufig in den Bereichen Informatik und Mathematik verwendete Zahlensysteme sind das Binärsystem (Basis 2), mit zwei Symbolen `(0, 1)`, und das Hexadezimalsystem (Basis 16), mit sechzehn Symbolen `(0, 1, 2, 3, 4, 5, 6, 7, 8, 9, A, B, C, D, E, F)`. Im Kontext von Bitcoin begegnet man manchmal Kodierungen in Basis 58 oder in einer modifizierten Basis 32 (genannt `Bech32`).

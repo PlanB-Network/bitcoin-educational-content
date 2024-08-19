@@ -1,0 +1,5 @@
+---
+term: SIGNET
+---
+
+Spezifische Versionen des Bitcoin-Netzwerks, die für Entwicklung und Tests konzipiert sind. Signets simulieren das Verhalten des Hauptnetzwerks (Mainnet), bieten jedoch die Möglichkeit, verschiedene Parameter zu kontrollieren. Sie bieten somit eine Umgebung für das Testen neuer Funktionen oder Änderungen, ohne das Risiko, das Hauptnetzwerk zu stören und ohne Gebühren zu verursachen. Im Vergleich zum Testnet bieten Signets eine strukturiertere Kontrolle über die Blockerzeugung, die oft von einer oder mehreren vertrauenswürdigen Entitäten oder durch einen benutzerdefinierten Konsensmechanismus verwaltet wird. Dies ermöglicht die Erstellung von vorhersehbareren Testszenarien, im Gegensatz zum Testnet, das der Unvorhersehbarkeit des Minings unterliegt, genauso wie das Mainnet.

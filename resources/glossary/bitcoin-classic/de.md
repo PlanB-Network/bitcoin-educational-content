@@ -1,0 +1,5 @@
+---
+term: BITCOIN CLASSIC
+---
+
+Vorschlag für einen Protokoll-Fork, der im Januar 2016 nach der Aufgabe von Bitcoin XT gestartet wurde. Ziel war es, das Blockgrößenlimit von 1 MB auf 2 MB mit BIP109 zu erhöhen, ein Ansatz, der im Vergleich zu Bitcoin XT, welches eine viel größere Erhöhung vorschlug (8 MB + Verdopplung alle zwei Jahre), als moderater betrachtet wurde. Diese Initiative wurde von den Entwicklern Gavin Andresen und Jeff Garzik geleitet und hatte die Unterstützung von großen Unternehmen im Ökosystem wie Coinbase. Bitcoin Classic entstand in einem Kontext intensiver Eskalation des Blocksize-Krieges und wurde unter das Lager der Big Blockers eingeordnet. Obwohl Bitcoin Classic Aufmerksamkeit und Unterstützung von vielen Akteuren des Sektors anzog, war sein Aktivierungsmechanismus, der 75% Unterstützung von den Minern erforderte, umstritten und trug letztendlich zu seinem Scheitern bei.

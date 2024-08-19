@@ -1,0 +1,5 @@
+---
+term: BIP43
+---
+
+Vorschlag zur Verbesserung, der die Verwendung einer Ableitungspfadebene zur Beschreibung des Zweckfeldes in der Struktur von HD-Wallets einführt, die zuvor in BIP32 eingeführt wurde. Gemäß BIP43 ist die erste Ableitungsebene eines HD-Wallets, direkt nach dem Master-Schlüssel, der als `m/` bezeichnet wird, für die Zwecknummer reserviert, die den für den Rest des Pfades verwendeten Ableitungsstandard angibt. Diese Nummer wird als gehärteter Index aufgezeichnet. Zum Beispiel, wenn das Wallet dem SegWit-Standard (BIP84) folgt, wäre der Beginn seines Ableitungspfades: `m/84'/`. BIP43 ermöglicht somit die Klärung der Standards, an die sich jede Wallet-Software hält, um eine bessere Interoperabilität zwischen ihnen zu haben. Die Standardisierung des restlichen Ableitungspfades wird in BIP44 beschrieben.

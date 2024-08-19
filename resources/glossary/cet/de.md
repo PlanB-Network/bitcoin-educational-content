@@ -1,0 +1,5 @@
+---
+term: CET
+---
+
+Akronym für "*Contract Execution Transaction*" (Vertragsausführungstransaktion). Es handelt sich um eine spezifische Transaktion innerhalb eines DLC, die die endgültige Abrechnung zwischen den Parteien auf Basis des Ergebnisses eines zukünftigen Ereignisses erleichtert. Wenn der Orakel eine Unterschrift veröffentlicht, die dem Ergebnis des Ereignisses entspricht, verwenden die Parteien diese Unterschrift, um die CET abzuschließen und freizugeben, was dazu führt, dass die Gelder an die gewinnende Partei gesendet werden. Die signierte CET wird dann gemined, und der Gewinner erhält die ihm laut den Bedingungen des Smart Contracts geschuldeten Bitcoins. Alle anderen potenziellen CETs, die im Falle unterschiedlicher Ergebnisse ausgeführt worden wären, werden obsolet und aufgegeben.

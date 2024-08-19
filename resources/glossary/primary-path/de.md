@@ -1,0 +1,5 @@
+---
+term: PRIMARY PATH
+---
+
+In einer Wallet-Software, die Miniscript verwendet, wie zum Beispiel Liana, bezieht sich der Primärpfad auf die Menge von Schlüsseln, die das sofortige Ausgeben von Mitteln erlauben, ohne zeitbasierte Bedingungen. Dieser Pfad ist immer zugänglich und wird für das tägliche Management von Bitcoins verwendet, ohne dass eine Wartezeit (Timelock) erforderlich ist, im Gegensatz zu Wiederherstellungspfaden. Nehmen wir das Beispiel eines Skripts, das 2 verschiedene Schlüssel enthält: Schlüssel A, der das sofortige Ausgeben von Bitcoins autorisiert, und Schlüssel B, der es erlaubt, sie nach einer durch einen Timelock von 52.560 Blöcken definierten Verzögerung auszugeben. In diesem Beispiel stammt Schlüssel A aus dem Primärpfad, während Schlüssel B aus dem Wiederherstellungspfad kommt.

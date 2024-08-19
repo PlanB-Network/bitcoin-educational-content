@@ -1,0 +1,5 @@
+---
+term: BINÄRE PRÄFIXE
+---
+
+Einheiten, die in der Informatik verwendet werden, um Vielfache von Datengrößen zu quantifizieren, die auf Potenzen von 2 basieren. Im Gegensatz zu den Präfixen des metrischen Systems, die eine Basis von 10 verwenden, multiplizieren binäre Präfixe, wie kibi (Ki), mebi (Mi), gibi (Gi) und tebi (Ti), mit Potenzen von 2 ($2^{10}$, $2^{20}$, $2^{30}$, $2^{40}$ jeweils). Diese Präfixe sind von den frühen Methoden zur Messung der Informationsgröße auf Computern übernommen. Sie finden manchmal Verwendung in Bitcoin, zum Beispiel, um die Dateigrößenbegrenzung von `BLOCKS/BLK*.DAT` Dateien zu bezeichnen, die zur Speicherung der rohen Blockchain-Daten in der Bitcoin Core Software verwendet werden. Diese Dateien haben eine maximale Kapazität von 128 Mebibyte (MiB), was etwas mehr als 134 Megabyte (MB) entspricht.

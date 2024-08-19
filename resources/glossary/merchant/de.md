@@ -1,0 +1,5 @@
+---
+term: MERCHANT
+---
+
+Jede natürliche oder juristische Person, die zustimmt, eine Ware oder Dienstleistung gegen Bitcoins zu tauschen. Es sind diese Händler, die Bitcoin seine Nützlichkeit verleihen. Je mehr eine Währung von einer breiten Palette von Händlern akzeptiert wird, desto nützlicher wird sie für Einzelpersonen. Da Händler die Fähigkeit haben, die Nützlichkeit einer Währung zu bestimmen, indem sie zustimmen, sie gegen Waren und Dienstleistungen zu tauschen, haben sie im Falle von Bitcoin auch einen signifikanten Einfluss auf die Wahl der Konsensregeln. Jeder hat eine bestimmte Macht, die proportional zur wirtschaftlichen Aktivität ist, die sie zu einem Fork beitragen können. Unter den Händlern befinden sich offensichtlich Geschäfte, aber auch Handelsplattformen, Miner und Nutzer.

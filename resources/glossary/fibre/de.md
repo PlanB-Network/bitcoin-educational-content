@@ -1,0 +1,7 @@
+---
+term: FIBRE
+---
+
+Akronym für "*Fast Internet Bitcoin Relay Engine*". Es handelt sich um ein Protokoll, das 2016 von Matt Corallo entworfen wurde, um die Verteilung von Bitcoin-Blöcken weltweit zu beschleunigen. Das Ziel war es, die Verzögerungen bei der Weiterleitung so nah wie möglich an die physischen Grenzen zu reduzieren. FIBRE zielte darauf ab, eine gerechtere Verteilung der Mining-Möglichkeiten zu gewährleisten, indem sichergestellt wurde, dass der Anteil der von einem Teilnehmer geminten Blöcke genau deren Beitrag in Bezug auf Rechenleistung widerspiegelt, unabhängig von ihrer Position im Netzwerk.
+
+Tatsächlich kann die Latenz bei der Blockübertragung großen, gut vernetzten Mining-Gruppen, die oft nahe beieinander liegen, zum Vorteil gereichen, zum Nachteil kleinerer Gruppen. Dieses Phänomen könnte mit der Zeit die Zentralisierung des Minings erhöhen und die Gesamtsicherheit des Systems verringern. Um dieses Problem anzugehen, führte FIBRE Fehlerkorrekturcodes und die Übertragung zusätzlicher Daten ein, um den Paketverlust auszugleichen, sowie die Verwendung von kompakten Blöcken, ähnlich denen, die in BIP152 beschrieben sind, alles betrieben über UDP, um bestimmte TCP-Beschränkungen zu umgehen. Dennoch wurde FIBRE im Jahr 2020 aufgegeben, hauptsächlich wegen seiner Abhängigkeit von einem einzigen Betreuer und der Tatsache, dass die Einführung von BIP152 ein solches System weniger wesentlich machte.

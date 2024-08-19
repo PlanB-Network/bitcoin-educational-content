@@ -1,0 +1,5 @@
+---
+term: MIT X11
+---
+
+Eine sehr freizügige Freie-Software-Lizenz, die es Nutzern erlaubt, die Software zu kopieren, zu modifizieren, zusammenzuführen, zu veröffentlichen, zu verteilen, zu unterlizenzieren und zu verkaufen. Sie verlangt lediglich, dass die ursprüngliche Lizenz und die Urheberrechtsvermerke in allen wesentlichen Kopien oder Verteilungen der Software beibehalten werden. Im Gegensatz zur GPL-Lizenz erfordert die MIT-Lizenz nicht, dass Anpassungen oder abgeleitete Versionen der Software unter derselben Lizenz verteilt werden. Diese Flexibilität macht die MIT X11-Lizenz zu einer beliebten Wahl für viele Open-Source-Projekte, einschließlich im Bitcoin-Ökosystem. Satoshi Nakamoto wählte diese Lizenz für die erste im Jahr 2009 veröffentlichte Version von Bitcoin, und sie wird heute noch für das Bitcoin Core-Projekt verwendet.

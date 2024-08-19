@@ -1,0 +1,13 @@
+---
+term: SIGOPS (SIGNATURE OPERATIONS)
+---
+
+Bezieht sich auf die für die Validierung von Transaktionen notwendigen digitalen Signaturoperationen. Jede Bitcoin-Transaktion kann mehrere Eingaben enthalten, von denen jede eine oder mehrere Signaturen benötigen kann, um als gültig betrachtet zu werden. Die Überprüfung dieser Signaturen erfolgt durch die Verwendung spezifischer Opcodes, die als "sigops" bezeichnet werden. Dies umfasst speziell `OP_CHECKSIG`, `OP_CHECKSIGVERIFY`, `OP_CHECKMULTISIG` und `OP_CHECKMULTISIGVERIFY`. Diese Operationen stellen eine bestimmte Arbeitslast für die Netzwerkknoten dar, die sie verifizieren müssen. Um DoS-Angriffe durch die künstliche Aufblähung der Anzahl von sigops zu verhindern, legt das Protokoll daher eine Grenze für die Anzahl der pro Block erlaubten sigops fest, um sicherzustellen, dass die Validierungslast für die Knoten handhabbar bleibt. Diese Grenze ist derzeit auf maximal 80.000 sigops pro Block festgelegt. Zur Zählung folgen die Knoten diesen Regeln:
+
+Im `scriptPubKey` zählen `OP_CHECKSIG` und `OP_CHECKSIGVERIFY` als 4 sigops. Die Opcodes `OP_CHECKMULTISIG` und `OP_CHECKMULTISIGVERIFY` zählen für 80 sigops. Tatsächlich werden diese Operationen beim Zählen mit 4 multipliziert, wenn sie nicht Teil eines SegWit-Eingangs sind (für ein P2WPKH wird die Anzahl der sigops daher 1 sein);
+
+Im `redeemScript` zählen die Opcodes `OP_CHECKSIG` und `OP_CHECKSIGVERIFY` ebenfalls als 4 sigops, `OP_CHECKMULTISIG` und `OP_CHECKMULTISIGVERIFY` werden als `4n` angerechnet, wenn sie `OP_n` vorausgehen, oder sonst als 80 sigops;
+
+Für das `witnessScript` gelten `OP_CHECKSIG` und `OP_CHECKSIGVERIFY` als 1 sigop, `OP_CHECKMULTISIG` und `OP_CHECKMULTISIGVERIFY` werden als `n` gezählt, wenn sie durch `OP_n` eingeführt werden, oder sonst als 20 sigops;
+
+In Taproot-Skripten werden sigops anders behandelt als in traditionellen Skripten. Anstatt jede Signaturoperation direkt zu zählen, führt Taproot ein sigops-Budget für jeden Transaktionseingang ein, das proportional zur Größe dieses Eingangs ist. Dieses Budget beträgt 50 sigops plus die Bytegröße des Zeugen des Eingangs. Jede Signaturoperation reduziert dieses Budget um 50. Wenn die Ausführung einer Signaturoperation das Budget unter null sinken lässt, ist das Skript ungültig. Diese Methode ermöglicht mehr Flexibilität in Taproot-Skripten und schützt gleichzeitig vor potenziellen Missbräuchen im Zusammenhang mit sigops, indem sie direkt an das Gewicht des Eingangs gekoppelt werden. Somit sind Taproot-Skripte nicht in das Limit von 80.000 sigops pro Block einbezogen.

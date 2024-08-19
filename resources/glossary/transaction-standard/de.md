@@ -1,0 +1,9 @@
+---
+term: TRANSACTION STANDARD
+---
+
+Eine Bitcoin-Transaktion, die zusätzlich zur Einhaltung der Konsensregeln auch den Standardisierungsregeln entspricht, die standardmäßig auf Bitcoin Core Nodes festgelegt sind. Diese Standardisierungsregeln werden individuell von jedem Bitcoin-Node zusätzlich zu den Konsensregeln auferlegt, um die Struktur von unbestätigten Transaktionen zu definieren, die es in seinem Mempool akzeptiert und an seine Peers weiterleitet.
+
+Diese Regeln werden somit lokal von jedem Node konfiguriert und ausgeführt und können von einem Node zum anderen variieren. Sie gelten ausschließlich für unbestätigte Transaktionen. Daher wird ein Node eine Transaktion, die es als nicht-standard ansieht, nur akzeptieren, wenn sie bereits in einem gültigen Block enthalten ist.
+
+Es wird festgestellt, dass die Mehrheit der Nodes die Standardkonfigurationen beibehält, wie sie in Bitcoin Core festgelegt sind, wodurch eine Einheitlichkeit der Standardisierungsregeln im Netzwerk entsteht. Eine Transaktion, die zwar den Konsensregeln entspricht, aber diese Standardisierungsregeln nicht respektiert, wird Schwierigkeiten haben, sich durch das Netzwerk zu verbreiten. Sie kann jedoch immer noch in einem gültigen Block enthalten sein, wenn sie einen Miner erreicht. In der Praxis werden diese Transaktionen, die als nicht-standard qualifiziert sind, oft direkt über externe Mittel an einen Miner gesendet, umgehen damit das Bitcoin Peer-to-Peer-Netzwerk. Dies ist oft der einzige Weg, eine solche Transaktion zu bestätigen. Zum Beispiel ist eine Transaktion, die keine Gebühren zuweist, sowohl nach den Konsensregeln gültig als auch nicht-standard, da die Standardrichtlinie von Bitcoin Core für den Parameter `minRelayTxFee` `0.00001` (in BTC/kB) beträgt.

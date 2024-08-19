@@ -1,0 +1,5 @@
+---
+term: RÜCKWÄRTSKOMPATIBILITÄT
+---
+
+Bezieht sich auf die Fähigkeit eines Protokollregel-Updates, die Kompatibilität mit vorherigen Versionen zu erhalten. Das bedeutet, dass die Änderungen so gestaltet sind, dass ältere Knoten (Knoten, die Versionen vor der Regeländerung ausführen) weiterhin mit dem Netzwerk interagieren und der Kette mit der meisten gesammelten Arbeit folgen können. Daher ist es wesentlich, dass die älteren Knoten weder die neuen Blöcke noch die neuen Transaktionen ablehnen. Rückwärtskompatibilität verringert erheblich die Wahrscheinlichkeit, dass ein Update das Netzwerk fragmentiert, indem es die Teilung von Knoten in Untergruppen auf verschiedenen Ketten vermeidet. Um die Kompatibilität mit vorherigen Versionen des Protokolls zu gewährleisten, muss ein Update die bestehenden Regeln verschärfen oder neue einführen. Dieses Prinzip definiert einen "Soft Fork". Im Gegensatz dazu, wenn ein Update die bestehenden Regeln lockert oder einige eliminiert, dann wird es nicht rückwärtskompatibel sein. Dies wäre ein "Hard Fork".

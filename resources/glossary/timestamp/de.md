@@ -1,0 +1,9 @@
+---
+term: TIMESTAMP
+---
+
+Das Zeitstempeln, oder "timestamp" auf Englisch, ist ein Mechanismus, der darin besteht, einem Ereignis, Daten oder einer Nachricht einen präzisen zeitlichen Marker zuzuordnen. Im allgemeinen Kontext von Computersystemen wird das Zeitstempeln verwendet, um die chronologische Reihenfolge von Operationen zu bestimmen und die Integrität von Daten über die Zeit hinweg zu überprüfen.
+
+Im spezifischen Fall von Bitcoin werden Zeitstempel verwendet, um die Chronologie von Transaktionen und Blöcken festzulegen. Jeder Block in der Blockchain enthält einen Zeitstempel, der den ungefähren Zeitpunkt seiner Erstellung angibt. Satoshi Nakamoto spricht sogar von einem "Zeitstempel-Server" in seinem White Paper, um das zu beschreiben, was wir heute als "Blockchain" bezeichnen würden. Die Rolle des Zeitstempelns bei Bitcoin besteht darin, die Chronologie von Transaktionen zu bestimmen, um ohne das Eingreifen einer zentralen Autorität festzustellen, welche Transaktion zuerst kam. Dieser Mechanismus ermöglicht es jedem Benutzer, die Nichtexistenz einer Transaktion in der Vergangenheit zu überprüfen und somit zu verhindern, dass ein bösartiger Benutzer eine Doppelausgabe durchführt. Dieser Mechanismus wird von Satoshi Nakamoto in seinem White Paper mit dem berühmten Satz gerechtfertigt: "*Die einzige Möglichkeit, das Fehlen einer Transaktion zu bestätigen, besteht darin, alle Transaktionen zu kennen.*" Dieser Standard basiert auf der Unix-Zeit, die die gesamten seit dem 1. Januar 1970 vergangenen Sekunden darstellt.
+
+> ► *Die Zeitstempelung von Blöcken auf Bitcoin ist relativ flexibel, da ein Zeitstempel nur dann als gültig betrachtet wird, wenn er größer als die Medianzeit der 11 vorhergehenden Blöcke (MTP) und kleiner als der Median der von den Knoten zurückgegebenen Zeiten (netzwerkangepasste Zeit) plus 2 Stunden ist.*

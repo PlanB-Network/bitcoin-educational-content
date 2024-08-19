@@ -1,0 +1,9 @@
+---
+term: ASICBOOST
+---
+
+ASICBOOST ist eine algorithmische Optimierungsmethode, die 2016 erfunden wurde und darauf abzielt, die Effizienz des Bitcoin-Minings um etwa 20% zu steigern, indem die Anzahl der Berechnungen, die für jeden Hash-Versuch des Headers benötigt werden, reduziert wird. Diese Technik nutzt eine Eigenschaft der SHA256-Hashfunktion, die beim Mining verwendet wird, welche die Daten vor der Verarbeitung in Blöcke unterteilt. ASICBOOST behält einen dieser Blöcke bei mehreren Hashing-Versuchen unverändert bei, was es dem Miner ermöglicht, nur einen Teil der Arbeit für diesen Block über mehrere Versuche hinweg zu erledigen. Diese Datenfreigabe ermöglicht die Wiederverwendung von Ergebnissen aus vorherigen Berechnungen, wodurch die Gesamtzahl der benötigten Berechnungen zur Findung eines gültigen Hashs reduziert wird.
+
+ASICBOOST kann in zwei Formen verwendet werden: Overt ASICBOOST und Covert ASICBOOST. Die offene Form von ASICBOOST ist für alle sichtbar, da sie das `nVersion`-Feld des Blocks als Nonce verwendet und die eigentliche `Nonce` nicht verändert. Die verdeckte Form versucht, diese Modifikationen zu verbergen, indem sie Merkle-Bäume verwendet. Diese zweite Methode ist jedoch seit der Einführung von SegWit weniger effektiv geworden, aufgrund des zweiten Merkle-Baums, der die Anzahl der benötigten Berechnungen für dessen Nutzung erhöht.
+
+Zusammenfassend ermöglicht ASICBOOST den Minern, nicht für jeden Hashing-Versuch eine wahre vollständige SHA256-Berechnung durchführen zu müssen, da ein Teil des Ergebnisses unverändert bleibt, was die Arbeit der Miner beschleunigt.

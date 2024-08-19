@@ -1,0 +1,7 @@
+---
+term: HARD FORK
+---
+
+Eine Änderung der Protokollregeln auf eine Weise, die nicht rückwärtskompatibel ist. Diese Änderung führt zu einer dauerhaften Trennung des Bitcoin-Netzwerks von Knoten in zwei unterschiedliche Gruppen: Knoten mit dem Update und Knoten ohne das Update. Diese Spaltung wird durch die Teilung der ursprünglichen Blockchain in zwei separate Blockchains materialisiert, die jedoch eine gemeinsame Geschichte teilen, daher die Verwendung des Begriffs "Fork", der ins Deutsche als "Verzweigung" oder "Gabelung" übersetzt werden kann.
+
+Eine Änderung gilt als nicht rückwärtskompatibel, wenn sie entweder umfangreich ist, was bedeutet, dass sie bestimmte Regeln des Protokolls entfernt oder weniger restriktiv macht, oder bilateral, was bedeutet, dass sie Regeln hinzufügt, die mit den alten unvereinbar sind. Mit anderen Worten, ein Hard Fork tritt auf, wenn bestimmte Knoten einen Block, der ungültig war, gültig machen. Dies führt zur Bildung einer neuen Version des Protokolls, die entweder das ursprüngliche Bitcoin ersetzen kann, wenn eine Mehrheit gefunden wird, oder zu einer unabhängigen Altcoin wird, wenn sie nur am Rande verwendet wird. Zum Beispiel ist Bitcoin Cash (BCH) ein Hard Fork von Bitcoin. Der Fork ereignete sich bei Blocknummer 478.559 am 1. August 2017.

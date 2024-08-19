@@ -1,0 +1,7 @@
+---
+term: PRUNED NODE
+---
+
+Ein Pruned Node, auf Deutsch "Beschnittener Knoten", ist ein Vollknoten, der das Beschneiden der Blockchain durchführt. Dies beinhaltet das schrittweise Entfernen der ältesten Blöcke, nachdem diese ordnungsgemäß überprüft wurden, um nur die neuesten Blöcke zu behalten. Das Aufbewahrungslimit wird in der `bitcoin.conf` Datei über den Parameter `prune=n` festgelegt, wobei `n` die maximale Größe, die die Blöcke in Megabyte (MB) einnehmen, angibt. Wenn nach diesem Parameter eine `0` notiert ist, dann ist das Beschneiden deaktiviert, und der Knoten behält die Blockchain in ihrer Gesamtheit.
+
+Beschnittene Knoten werden manchmal als unterschiedliche Typen von Knoten im Vergleich zu Vollknoten betrachtet. Die Verwendung eines beschnittenen Knotens kann besonders interessant für Nutzer sein, die mit Speicherkapazitätsbeschränkungen konfrontiert sind. Derzeit muss ein Vollknoten fast 600 GB nur für die Speicherung der Blockchain haben. Ein beschnittener Knoten kann den erforderlichen Speicherplatz auf bis zu 550 MB begrenzen. Obwohl er weniger Festplattenspeicher verwendet, behält ein beschnittener Knoten ein Niveau der Überprüfung und Validierung bei, das dem eines Vollknotens ähnlich ist. Beschnittene Knoten bieten daher ihren Nutzern im Vergleich zu leichten Knoten (SPV) mehr Vertrauen.

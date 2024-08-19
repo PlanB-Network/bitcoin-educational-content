@@ -1,0 +1,9 @@
+---
+term: GAP LIMIT
+---
+
+Ein Parameter, der in Bitcoin-Wallet-Software verwendet wird, um die maximale Anzahl an aufeinanderfolgenden ungenutzten Adressen zu bestimmen, die generiert werden, bevor die Suche nach zusätzlichen Transaktionen gestoppt wird. Die Anpassung dieses Parameters ist oft notwendig, wenn eine Wallet wiederhergestellt wird, um sicherzustellen, dass alle Transaktionen gefunden werden. Ein unzureichender Gap Limit könnte dazu führen, dass einige Transaktionen fehlen, wenn Adressen während der Ableitungsphasen übersprungen wurden. Die Erhöhung des Gap Limits ermöglicht es der Wallet, weiter in der Adresssequenz zu suchen, um alle zugehörigen Transaktionen wiederherzustellen.
+
+Tatsächlich kann ein einzelner `xpub` theoretisch mehr als 4 Milliarden Empfangsadressen (sowohl interne als auch externe Adressen) ableiten. Allerdings können Wallet-Software diese nicht alle auf Nutzung überprüfen, ohne enorme Betriebskosten zu verursachen. Daher gehen sie in Indexreihenfolge vor, da dies normalerweise die Reihenfolge ist, in der alle Wallet-Software Adressen generiert. Die Software zeichnet jede genutzte Adresse auf, bevor sie zur nächsten übergeht, und sie stoppt ihre Suche, wenn sie auf eine Anzahl von aufeinanderfolgend leeren Adressen trifft. Diese Zahl wird als Gap Limit bezeichnet.
+
+Wenn beispielsweise der Gap Limit auf `20` gesetzt ist und die Adresse `m/84'/0'/0'/0/15/` leer ist, wird die Wallet Adressen bis zu `m/84'/0'/0'/0/34/` ableiten. Wenn dieser Adressbereich ungenutzt bleibt, stoppt die Suche dort. Folglich würde eine Transaktion, die die Adresse `m/84'/0'/0'/0/40/` verwendet, in diesem Beispiel nicht erkannt werden.

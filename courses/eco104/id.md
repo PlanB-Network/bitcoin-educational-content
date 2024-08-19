@@ -165,6 +165,8 @@ Dari barter hingga penemuan koin dan mata uang kertas, uang telah mengalami sera
 
 ## Sebuah Pemeriksaan Bagaimana Kita Sampai di Sini
 
+<chapterId>4c8ebb36-a6d5-5637-93ca-9a4a222a1c58</chapterId>
+
 Dari zaman barter barang hingga era modern mata uang digital, uang telah mengalami evolusi yang menarik. Leluhur kita menggunakan cangkang, manik-manik, dan bahkan ternak sebagai alat tukar. Saat ini, kita memiliki dompet virtual dan pembayaran tanpa kontak. Ini adalah perjalanan yang luar biasa yang telah melihat berbagai iterasi, kompromi, dan adaptasi untuk memenuhi kebutuhan masyarakat yang selalu berubah.
 
 Namun, bagaimana uang yang kita gunakan berevolusi menjadi bagian penting dari kehidupan kita seperti saat ini? Dalam bagian ini, kita akan menjelajahi evolusi uang, dari bentuk awalnya hingga mata uang digital modern yang kita gunakan saat ini. Kita akan menyelami setiap iterasi utama uang, melihat bagaimana mereka telah membantu membentuk masyarakat modern kita.
@@ -921,6 +923,8 @@ _**Catatan Samping:** Jangan khawatir jika beberapa istilah ini tidak terlalu ma
 
 ## Sejarah Stablecoin
 
+<chapterId>174e2cab-ef14-5e14-99c8-8457b6fc5fee</chapterId>
+
 Stablecoin telah menjadi topik populer di dunia cryptocurrency, menawarkan alternatif yang kurang volatil dalam jangka pendek untuk cryptocurrency seperti Bitcoin. Seperti yang dijelaskan dalam pengantar modul ini, stablecoin adalah aset digital yang dikaitkan dengan aset stabil seperti mata uang fiat atau logam mulia, dirancang untuk mempertahankan nilai yang stabil. Mari kita, oleh karena itu, menjelajahi sejarah stablecoin dan melihat lebih dekat beberapa stablecoin pertama, termasuk USDt Tether, stablecoin yang paling terkenal dan banyak digunakan.
 
 _**Fakta Menarik:** Pada saat penulisan, USDt Tether memiliki volume transaksi harian rata-rata \$20 miliar. Ini melampaui volume harian bitcoin terbaru sebesar \$15 miliar. Selain itu, USDt berada di posisi ketiga untuk kapitalisasi pasar terbesar di belakang Bitcoin dan Ethereum._
@@ -943,6 +947,8 @@ Selanjutnya, seiring dengan pertumbuhan pasar stablecoin, Tether telah memperlua
 Kesimpulannya, stablecoin telah menempuh perjalanan panjang sejak awal peluncurannya. Dari hari-hari awal bitUSD dan NuBits hingga popularitas mainstream produk Tether dan kemunculan stablecoin lainnya, pasar stablecoin telah berkembang pesat. Meskipun kontroversi yang mengelilingi Tether telah menimbulkan kekhawatiran tentang transparansi dan akuntabilitas penerbit stablecoin, pasar stablecoin terus tumbuh, menawarkan jembatan global dan fleksibel ke Bitcoin. Namun, kemudahan ini datang dengan biaya peningkatan sentralisasi dan ketergantungan pada kepercayaan.
 
 ## Karakteristik Stablecoin
+
+<chapterId>21765df7-53fd-58af-9df6-7208027a0c3a</chapterId>
 
 Seperti yang seharusnya sudah jelas sekarang, stablecoin adalah jenis token digital yang dirancang untuk mempertahankan nilai stabil berdasarkan aset yang dipegang. Aset-aset ini dapat mencakup mata uang fiat, logam mulia, komoditas, atau kombinasi dari ini (misalnya, keranjang mata uang fiat).
 
@@ -1639,4 +1645,3 @@ Saat kami mengakhiri kursus ini, kami berharap Anda akan mengambil pengetahuan y
 Semoga pemahaman baru ini memberdayakan Anda untuk menavigasi dunia keuangan yang berkembang dengan percaya diri dan tujuan. Semoga sukses di jalur pertumbuhan dan penemuan Anda!
 
 Masa Depan Cerah!
-

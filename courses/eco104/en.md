@@ -1573,7 +1573,7 @@ Overall, Bitcoin has been a powerful tool for women's financial empowerment.
 
 ## Mercedes
 
-<chapterId>dfa10b75-19f6-578a-9d14-a0a41806076</chapterId>
+<chapterId>dfa10b75-19f6-578a-9d14-a0a541806076</chapterId>
 
 Born in Mexico in 1949 into impoverished circumstances, Mercedes experienced the stark inequalities plaguing her society from an early age. Throughout her childhood, she faced numerous challenges, including government repression of student movements and unique struggles experienced by women living in poverty. Moreover, the vast gap between the rich and the poor, combined with limited access to quality education, trapped her family and countless others in poverty. Frustrated by these injustices, Mercedes gravitated toward Marxism (Communism), advocating for social change and economic reform.
 

@@ -1,5 +1,5 @@
-- start_date: 2024-09-02
-  end_date: 2024-09-04
+- start_date: 2024-09-02 14:00:00
+  end_date: 2024-09-04 17:00:00
   timezone: Europe/Paris
   address_line_1: Paris, france
   address_line_2:
@@ -8,7 +8,7 @@
   builder: fulgure-ventures
   type: conference
   book_online: true
-  book_in_person: false
+  book_in_person: true
   price_dollars: 0
   available_seats: 10
   description: Big big party
@@ -16,8 +16,8 @@
   en:
   links:
     replay_url: 
-    live_url: https://www.youtube.com/embed/h5ndi2LAs5c?si=DXOvROcoGKlpRGcs
-    chat_url: https://peertube.planb.network/plugins/livechat/router/webchat/room/ef3a6eda-68df-4580-83e8-86fa1d35333e
+    live_url: 
+    chat_url: 
   tags: 
     - Lightning
     - Bitcoiner

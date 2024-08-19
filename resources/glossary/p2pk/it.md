@@ -1,0 +1,6 @@
+---
+term: P2PK
+---
+
+P2PK sta per *Pay to Public Key* (Pagare alla Chiave Pubblica). È un modello di script standard utilizzato su Bitcoin per stabilire le condizioni di spesa di un UTXO. Permette di bloccare i bitcoin direttamente su una chiave pubblica, piuttosto che su un indirizzo.
+Tecnicamente, lo script P2PK contiene una chiave pubblica e un'istruzione che richiede una corrispondente firma digitale per sbloccare i fondi. Quando il proprietario desidera spendere i bitcoin, deve fornire una firma prodotta con la chiave privata associata. Questa firma viene verificata utilizzando l'ECDSA (*Elliptic Curve Digital Signature Algorithm*). P2PK è stato spesso utilizzato nelle prime versioni di Bitcoin, in particolare da Satoshi Nakamoto. Oggi è quasi completamente in disuso.

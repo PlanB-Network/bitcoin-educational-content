@@ -1,0 +1,4 @@
+termine: UTXO
+---
+
+Acronimo di *Unspent Transaction Output* (Output di Transazione Non Speso). Un UTXO è un output di transazione che non è ancora stato speso, il che significa che non è stato utilizzato come input per una nuova transazione. Gli UTXO rappresentano la frazione di bitcoin che un utente possiede e che sono attualmente disponibili per essere spesi. Ogni UTXO è associato a uno specifico script di output (`scriptPubKey`), che definisce le condizioni necessarie per spendere i bitcoin. Le transazioni in Bitcoin consumano questi UTXO come input e creano nuovi UTXO come output. Il modello UTXO è fondamentale per Bitcoin, poiché permette una facile verifica che le transazioni non stiano tentando di spendere bitcoin che non esistono o che sono già stati spesi.

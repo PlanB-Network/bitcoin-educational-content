@@ -1,0 +1,3 @@
+termine: ELECTRUM SERVER
+
+Un indicizzatore implementato su un nodo Bitcoin completo che consente al software di portafoglio Electrum (o a qualsiasi altro portafoglio che lo supporti) di funzionare senza scaricare l'intera blockchain di Bitcoin. Un Electrum Server mantiene un indice completo degli indirizzi e delle transazioni Bitcoin, consentendo rapide query da altri software. Per semplificare, un Electrum Server agisce come una sorta di ponte tra il software del portafoglio e un nodo Bitcoin che contiene la blockchain.

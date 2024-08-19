@@ -1,0 +1,4 @@
+term: GITLAB
+---
+
+Una piattaforma di gestione e hosting del codice sorgente che facilita la collaborazione tra sviluppatori. GitLab è la principale alternativa a GitHub. La piattaforma è abbastanza simile, ma offre anche la possibilità di essere auto-ospitata. Come suggerisce il nome, GitLab è costruito sul sistema di controllo versione Git. Questa piattaforma consente quindi di tracciare le modifiche al codice, gestire le versioni e favorire la collaborazione attraverso strumenti come le pull request e le issue. Alcuni progetti legati a Bitcoin come Samourai Wallet, Whirlpool o RoninDojo utilizzano GitLab.

@@ -1,0 +1,11 @@
+domanda: Qual è il principale svantaggio dei coinswaps e degli atomic swaps in termini di privacy?
+
+risposta: Non interrompono la cronologia delle monete scambiate
+
+risposte_errate:
+  - Sono molto costosi in termini di commissioni sulle transazioni
+  - Richiedono lo scambio di informazioni personali tra le parti
+  - Possono essere soggetti ad analisi da parte delle piattaforme di scambio
+
+spiegazione: |
+  Il principale svantaggio di questi metodi è che sono molto rischiosi senza l'uso di una tecnica aggiuntiva per interrompere la cronologia della moneta.

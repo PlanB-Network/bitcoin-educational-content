@@ -1,0 +1,3 @@
+`PBKDF2` sta per *Password-Based Key Derivation Function 2*. Si tratta di un metodo per creare chiavi crittografiche a partire da una password utilizzando una funzione di derivazione. Prende in input una password, un sale crittografico e applica iterativamente una funzione predeterminata (spesso una funzione di hash come `SHA256` o un `HMAC`) a questi dati. Questo processo viene ripetuto molte volte per generare una chiave crittografica.
+
+Nel contesto di Bitcoin, `PBKDF2` è utilizzato in congiunzione con la funzione `HMAC-SHA512` per creare il seme di un portafoglio deterministico e gerarchico (seed) a partire da una frase di recupero di 12 o 24 parole. Il sale crittografico utilizzato in questo caso è la passphrase BIP39, e il numero di iterazioni è `2048`.

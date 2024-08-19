@@ -1,0 +1,5 @@
+term: BIT
+
+La parola "bit" è una contrazione dei termini inglesi "binary" e "digit". Nel contesto dell'informatica e della crittologia, un bit è l'unità fondamentale dell'informazione digitale e rappresenta la quantità minima possibile di informazione. Un bit può assumere solo due valori distinti: `0` o `1`. Questi valori sono anche chiamati stati binari e possono rappresentare varie cose, come le risposte `sì` o `no`, `vero` o `falso`, e `acceso` o `spento`. I bit sono la base dei sistemi digitali e vengono utilizzati per memorizzare e trasmettere informazioni nei computer e nelle reti. Il nome "Bitcoin" deriva probabilmente dalla concatenazione del termine "Bit", per evocare la natura elettronica del sistema di pagamento, e del termine "Coin", per suggerirne lo scopo monetario.
+
+> ► *In francese, la parola "bit" viene spesso utilizzata direttamente. Il termine inglese potrebbe essere tradotto come "cifra binaria".*

@@ -1,0 +1,13 @@
+domanda: Quali sono le due principali varianti di contratti intelligenti utilizzati nei coinswap?
+
+risposta: HTLC e PTLC
+
+risposte_errate:
+  - Multi-firma e Singola-firma
+  - Contratti Intelligenti e DApps
+  - SegWit e Taproot
+
+spiegazione: |
+  Per eseguire un coinswap, si possono utilizzare gli HTLC (Hash Time-Locked Contracts) o i PTLC (Point Time-Locked Contracts).
+
+revisionato: false

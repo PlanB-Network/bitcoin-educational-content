@@ -1,0 +1,3 @@
+termine: FULL NODE
+
+Un full node, o "Full Node" in inglese, si riferisce a un computer che esegue un client del protocollo Bitcoin e scarica, verifica e memorizza l'intera blockchain, che è la completa storia delle transazioni a partire dal blocco Genesis. Un full node verifica autonomamente tutte le transazioni e i blocchi secondo le regole di consenso di Bitcoin. Pertanto, questo tipo di nodo fornisce il più alto livello di verifica per il suo utente, e minimizza la necessità di fidarsi di una terza parte. Un full node richiede più risorse di archiviazione, potenza computazionale, RAM e banda rispetto a un light node (SPV).

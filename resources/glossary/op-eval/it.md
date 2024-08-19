@@ -1,0 +1,1 @@
+Opcode proposto da Gavin Andresen nel 2011. Prende lo script situato in cima allo stack, lo esegue come se fosse parte dello `scriptPubKey`, e ne colloca il risultato sullo stack. `OP_EVAL` è stato abbandonato a causa delle preoccupazioni relative alla complessità di questo opcode, che sarebbe stato infine superato da P2SH.

@@ -1,0 +1,5 @@
+termine: UASF
+
+Acronimo di "*User-Activated Soft Fork*". Descrive un soft fork in Bitcoin quando viene iniziato e applicato dagli utenti della rete attraverso i loro nodi, senza fare affidamento sull'approvazione dei minatori. I nodi della rete aggiornano il loro software per adottare le nuove regole del soft fork, e lasciano che le cose prendano il loro corso!
+
+Tipicamente utilizzato in situazioni di emergenza, specialmente quando i minatori sono in gran parte contrari all'adozione di un soft fork, l'UASF funge da mezzo di pressione per prevenire una concentrazione eccessiva di potere tra i minatori. In pratica, l'UASF è diventato anche uno strumento di deterrenza, brandito dagli operatori dei nodi quando i minatori abusano del loro potere. Tuttavia, se l'UASF viene effettivamente implementato, comporta dei rischi, inclusa la possibilità di una divisione della blockchain, creando una nuova catena che potrebbe mancare di valore economico e sicurezza. La prima proposta formale di un UASF è venuta dallo sviluppatore Shaolin Fry, che ha promosso BIP148 nel marzo 2017 per fare pressione sui minatori che si rifiutavano di segnalare per SegWit.

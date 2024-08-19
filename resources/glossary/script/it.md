@@ -1,0 +1,3 @@
+termine: SCRIPT
+
+Una lingua di programmazione basata su stack utilizzata per stabilire le condizioni di spesa e, quindi, per assicurare indirettamente i bitcoin. Script è essenzialmente un elenco di istruzioni, composto da operatori logici e comandi per manipolare gli stack. È materializzato attraverso l'uso di opcode che danno istruzioni specifiche eseguite dai nodi per verificare la validità di una transazione. Script è un linguaggio non Turing-completo. Può essere classificato come un linguaggio di livello intermedio (quasi di basso livello) ispirato a Forth.

@@ -1,0 +1,9 @@
+---
+term: TRANSACTION STANDARD
+---
+
+Una transazione Bitcoin che, oltre ad aderire alle regole di consenso, rientra anche nelle regole di standardizzazione impostate per default sui nodi Bitcoin Core. Queste regole di standardizzazione sono imposte individualmente da ciascun nodo Bitcoin, in aggiunta alle regole di consenso, per definire la struttura delle transazioni non confermate che accetta nel suo mempool e trasmette ai suoi pari.
+
+Queste regole sono quindi configurate ed eseguite localmente da ciascun nodo e possono variare da un nodo all'altro. Si applicano esclusivamente alle transazioni non confermate. Pertanto, un nodo accetterà una transazione che considera non standard solo se è già inclusa in un blocco valido.
+
+Si nota che la maggior parte dei nodi lascia le configurazioni di default come stabilite in Bitcoin Core, creando così una uniformità delle regole di standardizzazione attraverso la rete. Una transazione che, sebbene conforme alle regole di consenso, non rispetta queste regole di standardizzazione, avrà difficoltà a propagarsi attraverso la rete. Tuttavia, può ancora essere inclusa in un blocco valido se raggiunge un miner. Nella pratica, queste transazioni, qualificate come non standard, sono spesso trasmesse direttamente a un miner tramite mezzi esterni alla rete peer-to-peer di Bitcoin. Questo è spesso l'unico modo per confermare tale transazione. Ad esempio, una transazione che non alloca commissioni è valida secondo le regole di consenso e non standard, perché la politica di default di Bitcoin Core per il parametro `minRelayTxFee` è `0.00001` (in BTC/kB).

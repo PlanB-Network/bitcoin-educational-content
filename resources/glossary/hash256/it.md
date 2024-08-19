@@ -1,0 +1,3 @@
+Funzione crittografica utilizzata per varie applicazioni su Bitcoin. Coinvolge l'applicazione della funzione SHA256 due volte sui dati di input. Il messaggio viene passato attraverso SHA256 una volta, e il risultato di questa operazione viene utilizzato come input per un secondo passaggio attraverso SHA256. L'output di questa funzione è quindi di 256 bit.
+
+$$\text{HASH256}(x) = \text{SHA256}(\text{SHA256}(x))$$

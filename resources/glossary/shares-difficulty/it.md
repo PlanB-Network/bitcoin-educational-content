@@ -1,0 +1,5 @@
+---
+termine: DIFFICOLTÀ DELLE QUOTE
+---
+
+Una difficoltà target superiore a quella di Bitcoin (quindi meno difficile), definita da un pool di mining per qualificare un hash di una quota e valutare il contributo di ogni singolo minatore all'interno del pool. Per gestire efficacemente il carico di verifica e garantire che ogni minatore, indipendentemente dalla loro potenza computazionale, invii regolarmente quote, i pool aggiustano la difficoltà delle quote. La difficoltà assegnata a ciascun minatore determina il numero di quote che accumulano: ad esempio, se a un minatore è assegnata una difficoltà di 10 e invia 5 prove di lavoro valide a questa difficoltà, ottiene 50 quote. Un minatore più potente con una difficoltà di 100 che invia 7 prove di lavoro valide riceverà 700 quote. Questo sistema permette la quantificazione precisa del hashrate di ogni minatore e la distribuzione delle ricompense secondo il metodo di calcolo scelto per il compenso (PPS, PPLNS, TIDES...).

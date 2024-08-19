@@ -1,0 +1,3 @@
+termine: NESTED SEGWIT
+
+Uno standard di script utilizzato per incapsulare script SegWit nativi all'interno di uno script P2SH. Gli script Nested SegWit sono stati inventati al lancio di SegWit per facilitarne l'adozione. Consentono l'uso di questo nuovo standard, anche con servizi o portafogli che non sono ancora nativamente compatibili con SegWit. Agisce come una sorta di script di transizione verso il nuovo standard. Oggi, quindi, non è più molto rilevante utilizzare questi tipi di script SegWit incapsulati, poiché la maggior parte dei portafogli ha implementato SegWit nativo.

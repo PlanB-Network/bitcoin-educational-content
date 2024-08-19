@@ -1,0 +1,3 @@
+termine: GIORNATA DELLA PROVA DI POSSESSO
+
+Un'iniziativa annuale che si osserva ogni 3 gennaio (l'anniversario del blocco Genesis) e che incoraggia i possessori di Bitcoin a ritirare simultaneamente tutti i loro asset dalle piattaforme di scambio e a trasferirli in soluzioni di custodia personale. L'obiettivo è testare la solvibilità delle piattaforme di scambio, costringendole a dimostrare che detengono effettivamente i Bitcoin dei loro utenti e che non stanno partecipando a pratiche di riserva frazionaria.

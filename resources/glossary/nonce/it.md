@@ -1,0 +1,11 @@
+---
+term: NONCE
+---
+
+Nel contesto dell'informatica, il termine "nonce" si riferisce a un numero che viene utilizzato una sola volta e poi sostituito. Spesso è casuale o pseudo-casuale. I nonce sono utilizzati in vari protocolli crittografici per garantire la sicurezza del processo. Ad esempio, le firme ECDSA utilizzate all'interno del protocollo Bitcoin includono l'uso di un nonce. Questo significa che questo numero deve essere nuovo per ogni firma. Se ciò non avviene, è possibile calcolare la chiave privata utilizzata confrontando due firme che usano lo stesso nonce.
+
+I nonce sono utilizzati anche nel processo di mining di Bitcoin. I minatori incrementano questi valori modificabili all'interno dei loro blocchi candidati. Modificano il valore del nonce al fine di trovare un hash crittografico che sia inferiore o uguale al target di difficoltà. Questo processo richiede una notevole potenza computazionale, poiché comporta una ricerca esaustiva tra un grande numero di nonce possibili. Quando un minatore trova un nonce che, incluso nel suo blocco, produce un digest che soddisfa i criteri di difficoltà, il blocco viene trasmesso alla rete, e il minatore vince la ricompensa.
+
+> ► *Nel 2010, i ricercatori scoprirono che la PlayStation 3 di Sony utilizzava lo stesso nonce quando firmava diversi pacchetti di codice. Questo riutilizzo del nonce permetteva agli attaccanti di calcolare la chiave privata utilizzata per firmare il software. Con la chiave privata in mano, gli attaccanti potevano creare firme valide per qualsiasi codice, consentendo loro di eseguire software non autorizzato, inclusi giochi piratati o sistemi operativi personalizzati, direttamente sulla PS3.*
+
+> ► *Esiste un comune malinteso riguardo all'origine del termine "nonce". Alcuni sostengono che rappresenti l'abbreviazione di "number only used once" (numero utilizzato solo una volta). In realtà, l'origine della parola risale al 18° secolo e deriva dall'evoluzione semantica dell'espressione in antico inglese "then anes", che significava "per l'occasione".*

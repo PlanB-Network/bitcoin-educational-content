@@ -1,0 +1,9 @@
+---
+term: RECOVERY PHRASE
+---
+
+Una recovery phrase, talvolta chiamata anche mnemonic, seed phrase o secret phrase, è una sequenza solitamente composta da 12 o 24 parole, generata in modo pseudo-casuale da una fonte di entropia. La sequenza pseudo-casuale è sempre completata con un checksum. La frase mnemonica, insieme a una passphrase opzionale, è utilizzata per derivare deterministicamente tutte le chiavi associate a un portafoglio HD (Hierarchical Deterministic). Ciò significa che da questa frase è possibile generare e ricreare deterministicamente tutte le chiavi private e pubbliche del portafoglio Bitcoin, e di conseguenza accedere ai fondi ad esso associati. Lo scopo della recovery phrase è fornire un mezzo di backup e recupero dei bitcoin che sia sia sicuro che facile da usare.
+
+È importante conservare questa frase in un luogo sicuro e protetto, poiché chiunque ne sia in possesso avrebbe accesso ai fondi del portafoglio corrispondente. Se utilizzata nel contesto di un portafoglio tradizionale, e senza una passphrase opzionale, costituisce spesso un SPOF (Single Point Of Failure). La recovery phrase è quindi una codifica della sequenza pseudo-casuale e del checksum in parole di uso comune per facilitarne la notazione e la leggibilità da parte degli esseri umani. È costruita secondo lo standard BIP39, che definisce e ordina un elenco di 2048 parole utilizzate per questa codifica.
+
+> ► *L'elenco delle 2048 parole del BIP39 è disponibile in diverse lingue, tuttavia, si consiglia di utilizzare solo la versione inglese, in quanto è la versione più ampiamente supportata dal software dei portafogli.*

@@ -1,0 +1,1 @@
+File generato dal software bitcoind (Bitcoin Daemon) durante la sua esecuzione. Questo file contiene l'identificatore del processo (PID) dell'istanza di bitcoind attualmente in esecuzione. È utilizzato per tracciare e gestire il processo del software, consentendo ad altre applicazioni o script di identificarlo facilmente e interagire con esso se necessario.

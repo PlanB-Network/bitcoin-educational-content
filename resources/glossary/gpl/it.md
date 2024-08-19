@@ -1,0 +1,3 @@
+termine: GPL
+
+Acronimo di "*GNU General Public License*". Si tratta di una serie di licenze per il software libero originariamente create dalla Free Software Foundation. Garantisce agli utenti la libertà di utilizzare, modificare e distribuire il software. Tuttavia, la GPL richiede che qualsiasi software derivato o modificato sia anch'esso distribuito sotto la stessa licenza, assicurando che le libertà originali siano preservate in tutte le versioni del software. La GPL è spesso utilizzata per progetti open source ed è talvolta presente in progetti legati a Bitcoin. Tuttavia, la licenza iniziale del client Bitcoin di Satoshi Nakamoto era una MIT X11. Questo vale ancora per Bitcoin Core.

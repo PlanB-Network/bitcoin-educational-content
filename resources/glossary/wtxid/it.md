@@ -1,0 +1,3 @@
+termine: WTXID
+
+Un'estensione del tradizionale TXID, che include i dati witness introdotti con SegWit. Mentre il TXID è un hash dei dati della transazione esclusi i witness, il WTXID è lo `SHA256d` dell'intero dato della transazione, inclusi i witness. I WTXID sono memorizzati in un albero di Merkle separato il cui radice è posizionata nella transazione coinbase. Questa separazione consente la rimozione della malleabilità della transazione del TXID.

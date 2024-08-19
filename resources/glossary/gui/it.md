@@ -1,0 +1,1 @@
+Acronimo di "*Graphical User Interface*," o "interfaccia grafica utente" in italiano. Si tratta di un tipo di interfaccia utente che consente l'interazione con il software attraverso elementi visivi interattivi (pulsanti, icone, immagini, finestre...) e favorisce l'uso di dispositivi di puntamento (il mouse) rispetto ai comandi testuali, come avviene con la CLI.

@@ -1,0 +1,7 @@
+---
+termine: IMPLEMENTAZIONE DI BITCOIN
+---
+
+Si riferisce al software che applica e segue le regole definite dal protocollo Bitcoin. Quello che generalmente viene chiamato "Bitcoin" è il sistema di moneta elettronica. È un protocollo che specifica delle regole. È rappresentato, concretamente, da nodi che formano una rete. Questo sistema non ha specificamente del codice. È semplicemente un insieme di regole tacite ampie imposte dal consenso degli utenti attraverso i loro nodi. Tuttavia, coloro che hanno del codice informatico, e possono quindi essere sviluppati, mantenuti e modificati, sono piuttosto i software dei nodi Bitcoin. Queste sono implementazioni indipendenti del protocollo Bitcoin, che possono connettersi al resto della rete.
+
+Tra le implementazioni di Bitcoin, Bitcoin Core è di gran lunga la più diffusa, poiché rappresenta circa il 99% della rete di nodi. Tuttavia, ci sono anche implementazioni minoritarie come BTCsuite, Bcoin e Bitcoin Knots. Nonostante la diversità dei client software disponibili, il predominio di Bitcoin Core sulla rete gli conferisce un'influenza quasi esclusiva sull'applicazione del protocollo Bitcoin. Pertanto, si dice che Bitcoin Core rappresenti effettivamente il protocollo Bitcoin stesso.

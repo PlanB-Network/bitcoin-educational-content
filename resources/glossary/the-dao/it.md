@@ -1,0 +1,5 @@
+---
+termine: THE DAO
+---
+
+Progetto lanciato nel 2016 su Ethereum, mirato alla creazione di un fondo d'investimento autonomo gestito tramite smart contract. Sebbene principalmente associato a Ethereum, The DAO ha avuto un impatto significativo sull'evoluzione di Bitcoin. Nel giugno 2016, The DAO è stato vittima di un massiccio attacco hacker. In risposta, la comunità di Ethereum ha eseguito un hardfork, che si è rivelato un clamoroso fallimento. Questo incidente ha consolidato le posizioni conservative dei piccoli bloccatori durante la Guerra della Dimensione del Blocco di Bitcoin. Hanno utilizzato questo evento per argomentare contro i cambiamenti rapidi nel protocollo di Bitcoin, come sostenuto dai grandi bloccatori, e contro l'idea di eseguire hardforks, come è stato il caso su Ethereum in seguito all'hack di The DAO.

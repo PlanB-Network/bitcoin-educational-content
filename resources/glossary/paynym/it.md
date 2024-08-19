@@ -1,0 +1,5 @@
+term: PAYNYM
+
+Un identificatore unico collegato a un portafoglio Bitcoin che implementa questa opzione. I Paynym sono disponibili su Samourai Wallet e Sparrow Wallet. Originariamente, questi identificatori sono generati dal codice di pagamento del portafoglio, in conformità con il BIP47. Offrono quindi la possibilità di connettersi con un altro utente al fine di generare indirizzi di ricezione puliti e unici, senza richiedere interazione diretta. L'uso dei Paynym è stato successivamente ampliato per supportare varie altre funzionalità dell'ecosistema Samourai. Sono notevolmente utilizzati per abilitare scambi crittografati sul protocollo di comunicazione Soroban, al fine di implementare facilmente transazioni collaborative. I Paynym possono anche essere utilizzati per l'autenticazione su sistemi compatibili con il protocollo AUTH47. Ogni Paynym è caratterizzato da un identificatore unico ed è rappresentato da un'illustrazione di un robot.
+
+![](../../dictionnaire/assets/37.png)

@@ -1,0 +1,5 @@
+---
+term: HD (HIERARCHICAL-DETERMINISTIC)
+---
+
+Si riferisce a un portafoglio Bitcoin che utilizza un pezzo unico di informazione (il seed) per generare una moltitudine di coppie di chiavi pubbliche e private in modo sequenziale e riproducibile. Questo metodo di gestione delle chiavi è definito dallo standard BIP32. Il principale vantaggio dei portafogli HD è che permettono agli utenti di avere una moltitudine di diverse coppie di chiavi, in particolare per evitare il riutilizzo degli indirizzi, pur essendo in grado di rigenerare tutte dallo stesso pezzo di informazione. Questa struttura è descritta come gerarchica perché consente la creazione di un'organizzazione ad albero di molteplici chiavi e indirizzi a partire da un unico seed. Ed è deterministica nel senso che ogni seed genera sempre la stessa sequenza di chiavi in qualsiasi portafoglio che si conformi a questo sistema.

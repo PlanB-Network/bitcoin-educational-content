@@ -1,0 +1,7 @@
+---
+termine: DISTRIBUTED
+---
+
+Attributo di una rete informatica in cui il potere decisionale e il controllo sono distribuiti equamente tra tutti i partecipanti alla rete. Questa distribuzione garantisce la resilienza del sistema. È anche noto come rete peer-to-peer. A differenza di una rete decentralizzata, dove il potere è frammentato e disperso tra molteplici entità, ma dove alcune autorità centrali rimangono con più potere degli utenti, una rete distribuita elimina l'autorità centrale affidando la gestione e il controllo agli stessi utenti. Bitcoin è un esempio di sistema distribuito. Bitcoin non ha una gerarchia o un'autorità centrale. Il mantenimento del consenso, la verifica delle transazioni e l'emissione di nuove unità monetarie sono gestiti dagli utenti. Questa struttura distribuita garantisce la resilienza del sistema e la resistenza alla censura, rendendo molto difficile per un'entità singola controllarlo o manipolarlo.
+
+> ► *Alcune persone si riferiscono a Bitcoin come un sistema decentralizzato. Infatti, non è raro vedere questi due termini usati in modo interscambiabile. Un sinonimo più evocativo per l'aggettivo "distribuito" potrebbe essere "peer-to-peer", a volte abbreviato come "P2P", l'acronimo dalla traduzione inglese "Peer-to-Peer".*

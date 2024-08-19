@@ -1,0 +1,3 @@
+term: DRIVECHAIN
+
+Una forma specifica di sidechain dove i minatori della blockchain principale (Bitcoin) svolgono un ruolo diretto nella governance del two-way peg e potenzialmente nel meccanismo di consenso della sidechain. Questo protocollo è stato inventato da Paul Sztorc e potrebbe essere implementato tramite il controverso BIP300, che permetterebbe un two-way peg con i minatori, e BIP301, che abiliterebbe un uso ottimale del merged mining.

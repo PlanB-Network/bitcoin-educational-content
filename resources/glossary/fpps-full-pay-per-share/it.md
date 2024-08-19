@@ -1,0 +1,5 @@
+---
+termine: FPPS (FULL PAY PER SHARE)
+---
+
+Metodo per calcolare la compensazione dei minatori all'interno delle pool di mining. È un'evoluzione del metodo PPS (*Pay Per Share*). Compensa i minatori non solo per ogni quota valida che presentano, ma include anche una parte delle ricompense del blocco. La compensazione è calcolata sulla base della media delle transazioni precedenti e dell'hashrate della pool. In questo modo, i minatori ricevono una ricompensa per le quote presentate, sia che un blocco venga trovato o meno, ma questo metodo compensa anche per il valore atteso. Offre una compensazione stabile e prevedibile per i minatori, poiché elimina la varianza associata alla probabilità di trovare un blocco, esponendoli tuttavia alle fluttuazioni delle commissioni di mercato. Tuttavia, è più rischioso per gli operatori delle pool, poiché devono pagare i minatori anche quando non viene trovato alcun blocco, assorbendo così il rischio di varianza.

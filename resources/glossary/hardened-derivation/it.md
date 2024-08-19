@@ -1,0 +1,5 @@
+---
+termine: HARDENED DERIVATION
+---
+
+Il processo di generazione di chiavi figlie nei portafogli HD (Hierarchical Deterministic). La hardened derivation utilizza la chiave privata genitore come input per la funzione `HMAC-SHA512`, rendendo impossibile generare chiavi pubbliche figlie dalla chiave pubblica genitore e dal codice catena genitore. Il processo coinvolge la concatenazione della chiave privata genitore e di un indice maggiore o uguale a $2^{31}$, seguita dall'applicazione di `HMAC-SHA512` con il codice catena genitore. Il risultato è diviso in due parti: i primi 256 bit sono aggiunti alla chiave privata genitore per ottenere la chiave privata figlia, mentre i restanti 256 bit formano il codice catena figlio. Questo metodo assicura che, anche se una chiave pubblica estesa viene compromessa, non può essere utilizzata per derivare chiavi pubbliche figlie. Nella derivazione standard, la hardened derivation è utilizzata a tutti i livelli di derivazione fino alla profondità del conto. Nelle notazioni del percorso di derivazione, una hardened derivation è identificata con un apostrofo `'` o più raramente con una `h`.

@@ -1,0 +1,5 @@
+---
+termine: OP_CHECKMULTISIG (0XAE)
+---
+
+Verifica più firme rispetto a più chiavi pubbliche. Prende in input una serie di `N` chiavi pubbliche e `M` firme, dove `M` può essere minore o uguale a `N`. `OP_CHECKMULTISIG` verifica se almeno `M` firme corrispondono a `M` delle `N` chiavi pubbliche. Da notare che a causa di un bug storico di off-by-one, un elemento aggiuntivo viene rimosso da `OP_CHECKMULTISIG` dallo stack. Questo elemento è chiamato "elemento *dummy*". Per evitare un errore nello `scriptSig`, un `OP_0`, che è un elemento inutile, è quindi incluso per soddisfare la rimozione e aggirare il bug. Da quando è stato introdotto BIP147 (con SegWit nel 2017), l'elemento inutile consumato a causa del bug deve essere `OP_0` affinché lo script sia valido, poiché era un vettore di malleabilità. Questo opcode è stato rimosso in Tapscript.

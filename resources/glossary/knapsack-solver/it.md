@@ -1,0 +1,3 @@
+term: KNAPSACK SOLVER
+
+Un vecchio metodo utilizzato per la selezione delle monete nel portafoglio Bitcoin Core prima della versione 0.17. Il Knapsack Solver tenta di risolvere il problema della selezione delle monete iterativamente e casualmente scegliendo UTXO (Unspent Transaction Outputs, ovvero output di transazioni non spesi) e sommandoli per sottogruppi, con l'obiettivo di minimizzare le commissioni e la dimensione della transazione. Questo metodo è stato successivamente sostituito da *Branch-and-Bound*.

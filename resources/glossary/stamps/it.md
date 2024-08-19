@@ -1,0 +1,5 @@
+---
+term: STAMPS
+---
+
+Un protocollo che consente l'integrazione di dati di immagini formattate direttamente sulla blockchain di Bitcoin attraverso transazioni multisignature grezze (P2MS). STAMPS codifica il contenuto binario di un'immagine in base 64 e lo aggiunge alle chiavi di un 1/3 P2MS. Una chiave è reale ed è utilizzata per spendere i fondi, mentre le altre due sono chiavi fittizie (la cui chiave privata associata è sconosciuta) che memorizzano i dati. Codificando i dati direttamente come chiavi pubbliche piuttosto che utilizzando output `OP_RETURN`, le immagini memorizzate con il protocollo STAMPS sono particolarmente onerose in termini di carico di lavoro per i nodi. Questo metodo crea notevolmente più UTXO, aumentando la dimensione del set di UTXO e ponendo problemi ai nodi completi.

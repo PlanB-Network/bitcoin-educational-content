@@ -1,0 +1,13 @@
+domanda: Quale euristica di analisi della catena viene utilizzata dalla transazione payjoin per agire come inganno?
+
+risposta: Il COH
+
+risposte_errate:
+  - Riutilizzo dell'indirizzo
+  - Fingerprinting del portafoglio
+  - Riutilizzo della versione
+
+spiegazione: |
+  Quando un analista esamina una transazione payjoin, è portato a credere che tutti gli input provengano dalla stessa persona a causa del COH. Tuttavia, questa percezione è errata, poiché anche il destinatario del pagamento contribuisce agli input insieme al pagatore effettivo. Così, l'analisi della catena viene deviata verso un'interpretazione che si rivela falsa.
+
+recensito: false

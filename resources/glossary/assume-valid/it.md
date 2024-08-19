@@ -1,0 +1,7 @@
+---
+termine: ASSUME VALID
+---
+
+Parametro di configurazione nel client maggioritario Bitcoin Core che consente a un nodo appena inizializzato (ma che non ha ancora eseguito l'IBD) di saltare la verifica delle firme per tutte le transazioni incluse nei blocchi precedenti a un certo blocco dato. Questo famoso blocco è definito dall'impronta del suo header, ovvero il suo hash. Il blocco scelto viene rinnovato con ogni nuova versione di Bitcoin Core. All'atto della sua inizializzazione, se il nodo ha attivato questo parametro, controllerà quindi la catena degli header dei blocchi per trovare il ramo con il maggior lavoro accumulato. Se il nodo rileva l'hash fornito da Core nel ramo che ha scelto, ometterà la verifica delle firme per i blocchi precedenti. Altrimenti, il nodo procederà con una sincronizzazione tradizionale (IBD) per verificare tutto autonomamente.
+
+L'obiettivo di Assume Valid è accelerare il processo di sincronizzazione iniziale di un nodo senza compromettere la sicurezza, assumendo che la maggior parte della rete abbia già validato queste transazioni in passato. L'unico vero compromesso per il nodo è che in caso di un furto precedente di bitcoin, non ne sarà notificato. Tuttavia, può comunque garantire l'accuratezza della quantità di bitcoin emessi. I nodi continuano la verifica delle firme per le transazioni successive al blocco Assume Valid. Questo approccio si basa sull'assunzione che se una transazione è stata accettata dalla rete per abbastanza tempo senza contestazioni, è improbabile che sia fraudolenta.

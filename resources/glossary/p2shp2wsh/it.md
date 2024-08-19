@@ -1,0 +1,5 @@
+P2SH-P2WSH sta per *Pay to Script Hash - Pay to Witness Script Hash*. Si tratta di un modello di script standard utilizzato per stabilire le condizioni di spesa su un UTXO, noto anche come "Nested SegWit".
+
+P2SH-P2WSH è stato introdotto con l'implementazione di SegWit nell'agosto 2017. Questo script descrive un P2WSH avvolto all'interno di un P2SH. Blocca i bitcoin basandosi sull'hash di uno script. La differenza rispetto a un classico P2WSH è che lo script è avvolto nel `redeemScript` di un classico P2SH.
+
+Questo script è stato creato al lancio di SegWit per facilitarne l'adozione. Permette l'uso di questo nuovo standard, anche con servizi o portafogli che non sono ancora nativamente compatibili con SegWit. Oggi, quindi, non è più molto rilevante utilizzare questi tipi di script SegWit avvolti, poiché la maggior parte dei portafogli ha implementato SegWit nativo. Gli indirizzi P2SH-P2WSH sono scritti utilizzando la codifica `Base58Check` e iniziano sempre con `3`, come qualsiasi indirizzo P2SH.

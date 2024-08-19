@@ -1,0 +1,23 @@
+---
+term: COINJOIN
+---
+
+Coinjoin è una tecnica utilizzata per interrompere la tracciabilità dei bitcoin. Si basa su una transazione collaborativa con una struttura specifica dello stesso nome: la transazione coinjoin. Le transazioni coinjoin aiutano a migliorare la protezione della privacy degli utenti Bitcoin rendendo più difficile per gli osservatori esterni analizzare le transazioni. Questa struttura consente di mescolare più monete in una singola transazione, rendendo difficile determinare i collegamenti tra gli indirizzi di input e output.
+
+Il funzionamento generale di coinjoin è il seguente: diversi utenti che desiderano mescolare depositano un importo come input di una transazione. Questi input usciranno come diversi output dello stesso importo. Al termine della transazione, è impossibile determinare a quale utente appartiene quale output. Tecnicamente non c'è nessun collegamento tra gli input e gli output della transazione coinjoin. Il collegamento tra ogni utente e ogni UTXO è interrotto, allo stesso modo in cui lo è la storia di ogni moneta.
+
+![](../../dictionnaire/assets/4.png)
+
+Per permettere il coinjoin senza che nessun utente perda il controllo sui propri fondi in qualsiasi momento, la transazione viene prima costruita da un coordinatore e poi trasmessa a ciascun utente. Ognuno poi firma la transazione dal proprio lato dopo aver verificato che gli convenga, e poi tutte le firme vengono aggiunte alla transazione. Se un utente o il coordinatore tenta di rubare i fondi degli altri modificando gli output della transazione coinjoin, allora le firme saranno invalide e la transazione sarà rifiutata dai nodi. Quando la registrazione degli output dei partecipanti viene effettuata utilizzando le firme cieche di Chaum per evitare il collegamento con l'input, ciò viene definito come "Chaumian coinjoin".
+
+Questo meccanismo aumenta la riservatezza delle transazioni senza richiedere modifiche al protocollo Bitcoin. Implementazioni specifiche di coinjoin, come Whirlpool, JoinMarket o Wabisabi, offrono soluzioni per facilitare il processo di coordinamento tra i partecipanti e migliorare l'efficienza della transazione coinjoin. Ecco un esempio di una transazione coinjoin:
+
+```text
+323df21f0b0756f98336437aa3d2fb87e02b59f1946b714a7b09df04d429dec2
+```
+
+È difficile determinare con certezza chi ha introdotto per primo l'idea di coinjoin su Bitcoin e chi ha avuto l'idea di utilizzare le firme cieche di David Chaum in questo contesto. Si pensa spesso che Gregory Maxwell sia stato il primo a discuterne in [un messaggio su BitcoinTalk nel 2013](https://bitcointalk.org/index.php?topic=279249.0):
+Utilizzando le firme cieche di Chaum: Gli utenti si connettono e forniscono input (e indirizzi per il resto) così come una versione crittograficamente oscurata dell'indirizzo al quale desiderano inviare le loro monete private; il server firma i token e li restituisce. Gli utenti si riconnettono in modo anonimo, rivelano i loro indirizzi di output e li rimandano al server. Il server può vedere che tutti gli output sono stati firmati da esso e che, di conseguenza, tutti gli output provengono da partecipanti validi. Più tardi, le persone si riconnettono e firmano.
+Maxwell, G. (2013, 22 agosto). *CoinJoin: La privacy di Bitcoin per il mondo reale*. Forum BitcoinTalk. https://bitcointalk.org/index.php?topic=279249.0
+Tuttavia, ci sono menzioni precedenti, sia per le firme di Chaum nel contesto del mixing, sia per i coinjoin. [Nel giugno 2011, Duncan Townsend presenta su BitcoinTalk](https://bitcointalk.org/index.php?topic=12751.0) un mixer che utilizza le firme di Chaum in modo piuttosto simile ai moderni coinjoin Chaumiani. Nello stesso thread, c'è [un messaggio di hashcoin in risposta a Duncan Townsend](https://bitcointalk.org/index.php?topic=12751.msg315793#msg315793) per migliorare il suo mixer. Questo messaggio presenta ciò che più si avvicina ai coinjoin. Viene anche menzionato un sistema simile in [un messaggio di Alex Mizrahi nel 2012](https://gist.github.com/killerstorm/6f843e1d3ffc38191aebca67d483bd88#file-laundry), mentre stava consigliando i creatori di Tenebrix. Il termine "coinjoin" stesso non è stato inventato da Greg Maxwell, ma è venuto da un'idea di Peter Todd.
+> ► *Il termine "coinjoin" non ha una traduzione in francese. Alcuni bitcoiners usano anche i termini "mix", "mixing" o "mixage" per riferirsi alla transazione coinjoin. Il mixing è piuttosto il processo utilizzato al cuore del coinjoin. Inoltre, è importante non confondere il mixing tramite coinjoin con il mixing tramite un attore centrale che prende possesso dei bitcoin durante il processo. Questo non ha nulla a che fare con il coinjoin dove l'utente non perde il controllo dei propri bitcoin durante il processo.*

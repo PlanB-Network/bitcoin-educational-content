@@ -1,0 +1,5 @@
+---
+term: COMMITMENT TRANSACTION
+---
+
+Nel contesto di un canale bidirezionale all'interno di Lightning, il commitment transaction è una transazione che entrambe le parti creano e firmano, senza pubblicarla sulla main chain. Rappresenta lo stato corrente della distribuzione dei fondi tra le parti di un canale, con ogni pagamento Lightning che risulta in una nuova commitment transaction. Queste transazioni sono valide ma vengono trasmesse solo quando il canale viene chiuso unilateralmente. Contengono output per ciascuna parte, riflettendo la distribuzione dei fondi secondo i pagamenti Lightning effettuati dall'apertura del canale. Sono associati meccanismi di penalità per dissuadere le parti dal trasmettere stati obsoleti del canale, ovvero vecchie commitment transactions che riflettono una distribuzione errata dei fondi.

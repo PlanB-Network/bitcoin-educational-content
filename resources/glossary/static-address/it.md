@@ -1,0 +1,7 @@
+---
+termine: INDIRIZZO STATICO
+---
+
+Nel contesto dei Pagamenti Silenziosi, si riferisce a un identificativo unico che permette la ricezione di pagamenti senza riutilizzo dell'indirizzo, senza interazione e senza un collegamento visibile sulla blockchain tra i vari pagamenti e l'indirizzo statico. Questa tecnica elimina la necessità di generare nuovi indirizzi di ricezione inutilizzati per ogni transazione, evitando così le usuali interazioni in Bitcoin dove il destinatario deve fornire un nuovo indirizzo al pagatore. È in qualche modo equivalente al codice di pagamento riutilizzabile nel contesto del BIP47.
+
+Questo indirizzo è composto da due chiavi pubbliche: $B_{\text{scan}}$ per la scansione e $B_{\text{spend}}$ per la spesa, concatenate a formare l'indirizzo statico $B = B_{\text{scan}} \text{ ‖ } B_{\text{spend}}$. Il destinatario pubblica questo indirizzo, permettendo ai mittenti di derivare indirizzi di pagamento unici senza ulteriori interazioni con il destinatario. Per gestire molteplici fonti distinte di pagamenti, si può aggiungere un'etichetta a $B_{\text{spend}}$, creando così diversi indirizzi statici etichettati da $B_1$, $B_2$, ecc. Questo permette la segregazione dei pagamenti pur utilizzando un singolo indirizzo base, riducendo così il carico di lavoro per la scansione della blockchain. Tuttavia, tutti gli indirizzi statici di un'entità possono essere facilmente associati a causa dell'uso comune di $B_{\text{scan}}$.

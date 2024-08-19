@@ -1,0 +1,3 @@
+termine: ASCII
+
+Acronimo di "*American Standard Code for Information Interchange*" (Codice Standard Americano per lo Scambio di Informazioni). Si tratta di un sistema di codifica dei caratteri per computer. Lo standard ASCII utilizza 7 bit per rappresentare 128 caratteri diversi: lettere maiuscole e minuscole dell'alfabeto latino, numeri, simboli di punteggiatura e comandi di controllo, come l'interruzione di linea o la tabulazione.

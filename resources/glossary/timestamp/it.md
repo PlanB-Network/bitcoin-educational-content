@@ -1,0 +1,9 @@
+---
+term: TIMESTAMP
+---
+
+Il timestamping, o "timestamp" in inglese, è un meccanismo che comporta l'associazione di un marcatore temporale preciso con un evento, un dato o un messaggio. Nel contesto generale dei sistemi informatici, il timestamping è utilizzato per determinare l'ordine cronologico delle operazioni e per verificare l'integrità dei dati nel tempo.
+
+Nel caso specifico di Bitcoin, i timestamp sono utilizzati per stabilire la cronologia delle transazioni e dei blocchi. Ogni blocco nella blockchain contiene un timestamp che indica il momento approssimativo della sua creazione. Satoshi Nakamoto parla addirittura di un "server di timestamp" nel suo White Paper, per descrivere quello che oggi chiameremmo "blockchain". Il ruolo del timestamping in Bitcoin è determinare la cronologia delle transazioni, al fine di stabilire, senza l'intervento di un'autorità centrale, quale transazione sia avvenuta per prima. Questo meccanismo permette a ciascun utente di verificare la non-esistenza di una transazione nel passato, e quindi di prevenire che un utente malintenzionato effettui una doppia spesa. Questo meccanismo è giustificato da Satoshi Nakamoto nel suo White Paper con la famosa frase: "*L'unico modo per confermare l'assenza di una transazione è essere a conoscenza di tutte le transazioni.*" Questo standard si basa sul tempo Unix, che rappresenta i secondi totali trascorsi dal 1° gennaio 1970.
+
+> ► *Il timestamping dei blocchi su Bitcoin è relativamente flessibile, poiché affinché un timestamp sia considerato valido, è sufficiente che sia maggiore del tempo medio degli 11 blocchi precedenti (MTP) e inferiore alla media dei tempi restituiti dai nodi (tempo aggiustato dalla rete) più 2 ore.*

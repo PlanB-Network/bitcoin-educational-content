@@ -1,0 +1,9 @@
+---
+termine: GAP LIMIT
+---
+
+Un parametro utilizzato nel software dei portafogli Bitcoin per determinare il numero massimo di indirizzi consecutivi non utilizzati da generare prima di interrompere la ricerca di transazioni aggiuntive. È spesso necessario regolare questo parametro quando si recupera un portafoglio per garantire che tutte le transazioni vengano trovate. Un Gap Limit insufficiente potrebbe risultare nella perdita di alcune transazioni se gli indirizzi fossero stati saltati durante le fasi di derivazione. Aumentare il Gap Limit consente al portafoglio di cercare più avanti nella sequenza degli indirizzi, al fine di recuperare tutte le transazioni associate.
+
+Infatti, un singolo `xpub` può teoricamente derivare più di 4 miliardi di indirizzi di ricezione (sia indirizzi interni che esterni). Tuttavia, il software del portafoglio non può derivare e controllare tutti questi per l'uso senza incorrere in un enorme costo operativo. Pertanto, procedono in ordine di indice, poiché questo è normalmente l'ordine in cui tutto il software del portafoglio genera gli indirizzi. Il software registra ogni indirizzo utilizzato prima di passare al successivo, e interrompe la sua ricerca quando incontra un numero di indirizzi vuoti consecutivi. Questo numero è ciò che viene chiamato Gap Limit.
+
+Se, per esempio, il Gap Limit è impostato su `20`, e l'indirizzo `m/84'/0'/0'/0/15/` è vuoto, il portafoglio deriverà indirizzi fino a `m/84'/0'/0'/0/34/`. Se questa gamma di indirizzi rimane inutilizzata, la ricerca si ferma lì. Di conseguenza, una transazione che utilizza l'indirizzo `m/84'/0'/0'/0/40/` non sarebbe rilevata in questo esempio.

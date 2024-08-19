@@ -1,0 +1,3 @@
+termine: MERKLE BLOCK
+
+Una struttura dati utilizzata nel contesto di BIP37 (*Transaction Bloom Filtering*) per fornire una prova compatta dell'inclusione di specifiche transazioni in un blocco. È notevolmente utilizzata per i portafogli SPV. Il Merkle Block contiene gli header dei blocchi, le transazioni filtrate e un albero di Merkle parziale, consentendo ai client leggeri di verificare rapidamente se una transazione appartiene a un blocco senza scaricare tutte le transazioni.

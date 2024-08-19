@@ -1,0 +1,3 @@
+termine: MACAROON
+
+Un meccanismo di autenticazione progettato per garantire l'accesso ai servizi sui sistemi distribuiti. I Macaroon sono notevolmente utilizzati su Lightning per autenticare gli utenti quando accedono a servizi delegati. Ad esempio, con un nodo Lightning, è possibile generare un macaroon che autorizza l'esecuzione di transazioni dal proprio smartphone tramite il proprio nodo remoto. A differenza dei cookie, i macaroon hanno il vantaggio di essere criptograficamente validati dall'emittente o delegati per la verifica.

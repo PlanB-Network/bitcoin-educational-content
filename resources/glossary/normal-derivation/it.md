@@ -1,0 +1,5 @@
+---
+termine: DERIVAZIONE NORMALE
+---
+
+Il processo di generazione di chiavi figlio nei portafogli HD. La derivazione normale utilizza la chiave pubblica genitore come input per la funzione `HMAC-SHA512`, consentendo la generazione di chiavi pubbliche figlio a partire dalla chiave pubblica genitore e dal codice catena genitore. Il processo coinvolge la concatenazione della chiave pubblica genitore e di un indice inferiore a $2^{31}$, seguita dall'applicazione di `HMAC-SHA512` con il codice catena genitore. Il risultato è diviso in due parti: i primi 256 bit sono aggiunti alla chiave privata genitore per ottenere la chiave privata figlio, mentre i restanti 256 bit formano il codice catena figlio. Questo metodo garantisce che la chiave pubblica estesa possa essere utilizzata per derivare chiavi pubbliche figlio. Nella derivazione standard, la derivazione normale è utilizzata a tutti i livelli di derivazione a partire dalla profondità dell'account. Nella notazione dei percorsi di derivazione, una derivazione normale è identificata quando c'è solo l'indice senza alcun apostrofo `'`.

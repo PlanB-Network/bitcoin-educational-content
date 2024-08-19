@@ -1,0 +1,1 @@
+Nel contesto della sidechain Liquid, gli ufficiali sono nodi gestiti da entità responsabili della gestione del sistema. Hanno principalmente due ruoli: stabilire il consenso ed eseguire le transazioni come firmatari dei blocchi (*blocksigners*), oltre a proteggere i bitcoin detenuti dalla rete per garantire l'ancoraggio bilaterale (*watchmen*).

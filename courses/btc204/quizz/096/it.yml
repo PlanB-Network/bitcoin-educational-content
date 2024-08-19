@@ -1,0 +1,13 @@
+domanda: Cosa indica il set anonimo retrospettivo?
+
+risposta: Il numero di fonti probabili per un UTXO alla fine dei cicli.
+
+risposte_errate:
+  - La dimensione del gruppo di UTXO indistinguibili alla fine dei cicli.
+  - Il numero di fonti probabili per un UTXO all'inizio dei cicli.
+  - Il tempo necessario per completare un coinjoin.
+
+spiegazione: |
+  Il set anonimo retrospettivo indica il numero di fonti possibili per una data moneta, considerando l'UTXO alla fine del ciclo.
+
+revisionato: false

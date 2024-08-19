@@ -1,0 +1,3 @@
+term: ASMAP
+
+Uno strumento inventato da Gleb Naumenko e utilizzato da Bitcoin Core per migliorare la sicurezza e la topologia della rete Bitcoin diversificando le connessioni tra i nodi. Si tratta di una mappatura degli indirizzi IP ai Numeri di Sistema Autonomo (ASN), che consente una migliore distribuzione delle connessioni in uscita basata su ASN piuttosto che su prefissi IP. Questo aiuta a prevenire gli attacchi Eclipse (incluso l'attacco Erebus) rendendo più difficile per un attaccante simulare più nodi.

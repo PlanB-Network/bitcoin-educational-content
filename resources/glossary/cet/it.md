@@ -1,0 +1,4 @@
+termine: CET
+---
+
+Acronimo di "*Contract Execution Transaction*" (Transazione di Esecuzione Contrattuale). Si tratta di una transazione specifica all'interno di un DLC che facilita la liquidazione finale tra le parti basata sull'esito di un evento futuro. Quando l'oracolo pubblica una firma corrispondente al risultato dell'evento, le parti utilizzano questa firma per completare e sbloccare il CET, che invia i fondi alla parte vincitrice. Il CET firmato viene poi minato, e il vincitore riceve i bitcoin che gli sono dovuti secondo i termini del contratto intelligente. Tutti gli altri potenziali CET, che sarebbero stati eseguiti in caso di esiti diversi, diventano obsoleti e vengono abbandonati.

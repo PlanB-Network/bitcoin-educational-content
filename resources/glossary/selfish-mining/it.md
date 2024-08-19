@@ -1,0 +1,11 @@
+---
+termine: SELFISH MINING
+---
+
+Strategia (o attacco) nel mining, dove un minatore o un gruppo di minatori tiene intenzionalmente dei blocchi con una prova di lavoro valida senza trasmetterli immediatamente alla rete. L'obiettivo è mantenere un vantaggio sugli altri minatori in termini di prova di lavoro, il che potenzialmente permette loro di minare diversi blocchi di fila e pubblicarli tutti in una volta, massimizzando così i loro guadagni.
+
+In altre parole, il gruppo di minatori attaccante non mina sull'ultimo blocco validato dall'intera rete, ma piuttosto su un blocco che hanno creato loro stessi, che differisce da quello validato dalla rete. Questo processo genera una sorta di fork segreto della blockchain, che rimane sconosciuto a tutta la rete fino a quando questa catena alternativa potenzialmente supera la blockchain onesta. Una volta che la catena segreta dei minatori attaccanti diventa più lunga (cioè, contiene più lavoro accumulato) rispetto alla catena onesta e pubblica, viene poi trasmessa a tutta la rete. A quel punto, i nodi della rete, che seguono la catena più lunga (con il maggior lavoro accumulato), si sincronizzeranno con questa nuova catena. Ciò comporta una riorganizzazione.
+
+Il selfish mining è problematico perché diminuisce la sicurezza del sistema sprecando parte della potenza computazionale della rete. Se riuscito, porta anche a riorganizzazioni della blockchain, influenzando così l'affidabilità delle conferme delle transazioni per gli utenti. Questa pratica rimane rischiosa per il gruppo di minatori attaccanti, poiché spesso è più redditizio minare normalmente sull'ultimo blocco conosciuto pubblicamente piuttosto che allocare potenza computazionale a un fork segreto che probabilmente non supererà mai la blockchain onesta. Maggiore è il numero di blocchi nella riorganizzazione, minore è la probabilità di successo dell'attacco.
+
+> ► *La traduzione in inglese di "minage égoïste" è "selfish mining". Da notare, un attacco di selfish mining non deve essere confuso con un attacco di ritenzione dei blocchi.*

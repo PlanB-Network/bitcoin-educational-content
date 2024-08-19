@@ -1,0 +1,7 @@
+term: BATCHED SPENDING
+
+Il batched spending è una tecnica di spesa utilizzata principalmente da entità con un alto volume di transazioni, come le piattaforme di scambio, per ottimizzare e ridurre i costi delle transazioni. Raggruppando più pagamenti destinati a diversi destinatari in una singola transazione Bitcoin, il batched spending consente un minor consumo di spazio nei blocchi, riducendo così le commissioni associate. Il batched spending è caratterizzato da un modello riconoscibile durante l'analisi della catena. Questo modello è evidenziato dall'uso di pochi UTXO come input (spesso solo uno) e dalla creazione di più UTXO come output. L'interpretazione di questo modello è che stiamo assistendo a un batched spending. Quando si incontra questo modello nell'analisi della catena, si può dedurre che l'UTXO di input proviene da un'azienda con significativa attività economica e che gli UTXO di output si disperderanno. Alcuni apparterranno ai clienti dell'azienda. Altri possono andare verso aziende partner. Infine, ci sarà certamente un cambio che ritorna all'azienda emittente.
+
+![](../../dictionnaire/assets/8.png)
+
+> ► *In francese, "batched spending" può essere tradotto come "dépense groupée".*

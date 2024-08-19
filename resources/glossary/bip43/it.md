@@ -1,0 +1,5 @@
+---
+term: BIP43
+---
+
+Proposta di miglioramento che introduce l'uso di un livello di percorso di derivazione per descrivere il campo scopo nella struttura dei portafogli HD, precedentemente introdotta in BIP32. Secondo BIP43, il primo livello di derivazione di un portafoglio HD, subito dopo la chiave maestra denotata come `m/`, è riservato per il numero di scopo che indica lo standard di derivazione utilizzato per il resto del percorso. Questo numero è registrato come un indice rinforzato. Ad esempio, se il portafoglio segue lo standard SegWit (BIP84), l'inizio del suo percorso di derivazione sarebbe: `m/84'/`. BIP43 consente quindi di chiarire gli standard aderiti da ciascun software di portafoglio per avere una migliore interoperabilità tra di loro. La standardizzazione del resto del percorso di derivazione è descritta in BIP44.

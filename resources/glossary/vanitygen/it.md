@@ -1,0 +1,3 @@
+term: VANITYGEN
+
+Il primo software open-source da riga di comando utilizzato per creare indirizzi di ricezione personalizzati (*vanity address*). Funziona generando e testando coppie di chiavi attraverso tentativi ed errori fino a quando non viene trovato un indirizzo di ricezione che corrisponde ai criteri specificati dall'utente (come una certa sequenza di caratteri specifici). Vanitygen richiede un processo computazionale intensivo, specialmente per sequenze lunghe.

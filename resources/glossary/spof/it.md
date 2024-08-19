@@ -1,0 +1,3 @@
+term: SPOF
+
+Un Single Point of Failure (SPOF) nel campo dell'informatica si riferisce a un componente o un elemento di un sistema il cui malfunzionamento comporterebbe l'arresto completo o una significativa perdita di funzionalità dell'intero sistema. Questo potrebbe essere un pezzo di hardware, un pezzo di informazione, software, o una parte di una rete. Ad esempio, nel contesto specifico dei portafogli Bitcoin HD, la frase di recupero di 12 o 24 parole spesso agisce come un SPOF per il portafoglio. Se il suo segreto non viene mantenuto, l'intero portafoglio potrebbe essere rubato. Allo stesso modo, la sua semplice perdita potrebbe portare alla perdita di tutti i bitcoin nel portafoglio.

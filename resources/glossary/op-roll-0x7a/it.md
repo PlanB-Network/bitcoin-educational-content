@@ -1,0 +1,3 @@
+termine: OP_ROLL (0X7A)
+
+Sposta un elemento dallo stack in cima allo stack, in base alla profondità specificata dal valore in cima allo stack prima dell'operazione. Ad esempio, se il valore in cima allo stack è `4`, `OP_ROLL` selezionerà il quarto elemento dall'alto dello stack e lo sposterà in cima. `OP_ROLL` svolge la stessa funzione di `OP_PICK`, eccetto che rimuove l'elemento dalla sua posizione originale.

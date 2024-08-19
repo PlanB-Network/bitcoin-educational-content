@@ -1,0 +1,5 @@
+---
+termine: OUTPUT LINKING
+---
+
+Talvolta utilizzato come sinonimo per riferirsi al riutilizzo degli indirizzi. L'output linking si riferisce alla pratica di utilizzare lo stesso indirizzo di ricezione per bloccare più UTXO, a volte in diverse transazioni. I Bitcoin sono tipicamente bloccati utilizzando una coppia di chiavi crittografiche che corrisponde a un indirizzo unico. Poiché la blockchain è pubblica, è facile vedere quali indirizzi sono associati a quanti bitcoin. Nel caso del riutilizzo dello stesso indirizzo per più pagamenti, si può presumere che tutti gli UTXO associati appartengano alla stessa entità. Pertanto, il riutilizzo degli indirizzi pone un problema per la privacy dell'utente. Permette collegamenti deterministici tra più transazioni e UTXO, oltre a perpetuare il tracciamento dei fondi sulla catena.

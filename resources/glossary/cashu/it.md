@@ -1,0 +1,3 @@
+term: CASHU
+
+Un protocollo open-source per la valuta digitale Chaumiana, simile al sistema eCash di David Chaum, ma che opera su Bitcoin e la Lightning Network. In particolare, Cashu è ispirato a una variante di eCash proposta nel 1996 da David Wagner denominata "*Chaumian ecash without RSA*". Cashu può essere utilizzato su portafogli custodial in modo che il server non possa identificare né i proprietari dei fondi né i dettagli delle transazioni, offrendo così un miglioramento della privacy. Gli utenti possono generare token Cashu in cambio di bitcoin, che vengono firmati dal server senza conoscere l'utente. I token possono poi essere trasferiti istantaneamente tra gli utenti in modo privato e senza alcuna commissione.

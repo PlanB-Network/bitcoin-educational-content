@@ -1,0 +1,7 @@
+---
+term: HONG-KONG ROUNDTABLE
+---
+
+Un evento storico della Guerra della Dimensione del Blocco che si è svolto il 20 febbraio 2016 a Hong Kong. È stata un'importante riunione tra gli sviluppatori di Bitcoin Core e i miner per discutere della scalabilità del sistema e della strategia per aumentarla. Le tensioni erano alte prima dell'incontro, in particolare a causa dell'ascesa di Bitcoin Classic, una proposta di hard fork supportata da Gavin Andressen volta ad aumentare la dimensione del blocco a 2 MB. Figure influenti nell'ecosistema hanno partecipato ai dibattiti, inclusi Jihan Wu e Micree Zhan, i co-fondatori di Bitmain, Adam Back, il presidente di Blockstream, e Luke Dashjr, Matt Corallo e Peter Todd.
+
+I miner, frustrati dalla mancanza di progressi, minacciavano di supportare Bitcoin Classic se non fosse stato implementato un hard fork a 2 MB. Gli sviluppatori difendevano SegWit come soluzione praticabile. Dopo ore di negoziati tesi, è stato raggiunto un accordo, affermando che gli sviluppatori di Bitcoin Core avrebbero lavorato a un hard fork dopo l'implementazione di SegWit. Questo accordo doveva alleviare le tensioni, ma ha finito per creare più sfiducia e confusione. Ogni parte interpretava l'accordo diversamente, esacerbando le divisioni all'interno della comunità. Sebbene questo accordo abbia temporaneamente rallentato il momento di Bitcoin Classic, è stato visto da molti come una soluzione insoddisfacente e goffa.

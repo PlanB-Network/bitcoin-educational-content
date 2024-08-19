@@ -1,0 +1,3 @@
+Acronimo di "*Application Programming Interface*" (Interfaccia di Programmazione delle Applicazioni). Nel contesto generale dell'informatica, un'API è un insieme di regole e specifiche che il software può seguire per comunicare tra loro. Consentono agli sviluppatori di accedere a funzionalità o dati da un'applicazione, un sistema operativo o un altro servizio per il proprio software.
+
+> ► *In italiano, può essere tradotto come "interfaccia di programmazione delle applicazioni" o direttamente come "interfaccia di programmazione".*

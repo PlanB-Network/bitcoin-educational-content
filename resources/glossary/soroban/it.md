@@ -1,0 +1,3 @@
+termine: SOROBAN
+
+Protocollo di comunicazione crittografata stabilito su Tor che consente la collaborazione con altri utenti nel contesto di una transazione Cahoots. Soroban è stato sviluppato dai team di Samourai Wallet, per facilitare lo scambio di Transazioni Bitcoin Parzialmente Firmate (PSBT) tra utenti che desiderano impegnarsi in transazioni collaborative (*Stowaway*, *Stonewall*, *StonewallX2*...). Questo protocollo è utilizzato nell'app Samourai Wallet e nel software Sparrow Wallet.

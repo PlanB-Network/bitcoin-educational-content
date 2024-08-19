@@ -1,0 +1,14 @@
+---
+termine: COVENANT
+---
+
+Un meccanismo che consente l'imposizione di condizioni specifiche su come una determinata somma di denaro può essere spesa, inclusi i trasferimenti futuri. Oltre alle condizioni solitamente permesse dal linguaggio degli script su un UTXO, il covenant impone vincoli aggiuntivi su come questi Bitcoin possono essere spesi in transazioni successive. Tecnicamente, l'istituzione di un covenant avviene quando lo `scriptPubKey` di un UTXO definisce restrizioni sullo `scriptPubKey` degli output di una transazione che spende detto UTXO. Espandendo l'ambito dello script, i covenant permetterebbero numerosi sviluppi su Bitcoin come l'ancoraggio bilaterale di drivechains, l'implementazione di vaults, o il miglioramento di sistemi overlay come Lightning. Le proposte di covenant si differenziano basandosi su tre criteri:
+* Il loro ambito;
+* La loro implementazione;
+* La loro ricorsività.
+
+Ci sono molte proposte che permetterebbero l'uso di covenant su Bitcoin. Le più avanzate nel processo di implementazione sono: `OP_CHECKTEMPLATEVERIFY` (CTV), `SIGHASH_ANYPREVOUT` (APO), e `OP_VAULT`. Tra le altre proposte, ci sono: `OP_TX`, `OP_TAPLEAFUPDATEVERIFY` (TLUV), `OP_EVICT`, `OP_CHECKSIGFROMSTACKVERIFY` (CSFSV), `OP_CAT`, ecc.
+
+Per comprendere meglio il concetto di covenant, considera questa analogia: immagina una cassaforte contenente 500€ in piccole banconote. Se riesci a sbloccare questa cassaforte con la chiave giusta, allora sei libero di usare questi soldi come desideri. Questa è la situazione normale con Bitcoin. Ora, immagina che la stessa cassaforte non contenga 500€ in banconote, ma piuttosto buoni pasto del valore equivalente. Se riesci ad aprire questa cassaforte, puoi usare questa somma. Tuttavia, la tua libertà di spesa è limitata, poiché puoi utilizzare questi buoni solo per pagare in certi ristoranti. Quindi, c'è una prima condizione per spendere questi soldi, che è riuscire ad aprire la cassaforte con la chiave appropriata. Ma c'è anche una condizione aggiuntiva riguardo l'uso futuro di questa somma: deve essere spesa esclusivamente nei ristoranti partner, e non liberamente. Questo sistema di vincoli su transazioni future è ciò che viene chiamato covenant.
+
+> ► *In francese, non esiste un termine che catturi precisamente il significato della parola "covenant". Si potrebbe parlare di "clausola", "patto" o "impegno", ma questi non corrisponderebbero esattamente al termine "covenant". Questo termine è preso in prestito dalla terminologia legale che permette di descrivere una clausola contrattuale che impone obblighi persistenti su una proprietà.*

@@ -1,13 +1,13 @@
-question: Cos'è un indirizzo di ricezione Bitcoin?
+domanda: Cos'è un indirizzo di ricezione Bitcoin?
 
-answer: Una sequenza di caratteri utilizzata per ricevere bitcoin.
+risposta: Una sequenza di caratteri utilizzata per ricevere bitcoin.
 
-wrong_answers:
+risposte_errate:
   - Un codice utilizzato per inviare bitcoin.
   - Un algoritmo per minare bitcoin.
   - Un contratto intelligente.
 
-explanation: |
+spiegazione: |
   Un indirizzo di ricezione è utilizzato per ricevere bitcoin in un portafoglio.
 
-reviewed: false
+revisionato: false

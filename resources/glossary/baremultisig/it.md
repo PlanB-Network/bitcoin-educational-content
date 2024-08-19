@@ -1,0 +1,5 @@
+---
+term: BARE-MULTISIG
+---
+
+Modello standard di script P2MS utilizzato per stabilire le condizioni di spesa su un UTXO. Permette di bloccare bitcoin con più chiavi pubbliche. Per spendere questi bitcoin, deve essere fornita una firma con un numero predefinito di chiavi private associate. Ad esempio, un P2MS `2/3` ha `3` chiavi pubbliche con `3` chiavi private segrete associate. Per spendere i bitcoin bloccati con questo script P2MS, deve essere effettuata una firma con almeno `2` delle `3` chiavi private. Questo è un sistema di sicurezza a soglia. Questo script è stato inventato nel 2011 da Gavin Andresen quando aveva appena preso in carico la manutenzione del client Bitcoin principale. Oggi, P2MS è utilizzato solo marginalmente da alcune applicazioni. La grande maggioranza delle moderne multisignature utilizza altri modelli di script come P2SH o P2WSH. Rispetto a questi, P2MS è estremamente semplice. Le chiavi pubbliche di cui è composto vengono rivelate al momento della ricezione della transazione. Utilizzare un P2MS è anche più costoso rispetto ad altri script multisignature.

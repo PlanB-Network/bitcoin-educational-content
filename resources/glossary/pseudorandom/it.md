@@ -1,0 +1,7 @@
+---
+term: PSEUDO-RANDOM
+---
+
+Questo aggettivo è utilizzato per descrivere una sequenza di numeri che, sebbene sia il risultato di un processo deterministico, mostra caratteristiche vicine a quelle di una sequenza veramente casuale ideale. Il concetto di casualità ideale implica una totale assenza di prevedibilità e correlazione tra gli elementi successivi. Un numero pseudo-casuale è generato da un algoritmo deterministico e quindi, in teoria, è completamente prevedibile se si conosce lo stato iniziale del generatore.
+
+Un generatore di numeri pseudo-casuali (PRNG) è un algoritmo utilizzato per produrre tali numeri. Generalmente parte da un valore iniziale, o "seme", e poi applica una serie di trasformazioni matematiche per produrre la sequenza di numeri. A causa di questa determinabilità, è importante per la sicurezza crittografica che il seme iniziale rimanga segreto. Le sequenze pseudo-casuali sono ampiamente utilizzate in vari campi, inclusa la crittografia, poiché esibiscono un comportamento apparentemente casuale che è sufficiente per molte applicazioni. La valutazione della qualità di un PRNG si basa sulla misura in cui il suo output si avvicina alla vera casualità in termini di distribuzione, correlazioni e altre proprietà statistiche. Nel contesto di Bitcoin, i numeri pseudo-casuali sono utilizzati per produrre chiavi private, o per generare un seme per portafogli deterministici e gerarchici.

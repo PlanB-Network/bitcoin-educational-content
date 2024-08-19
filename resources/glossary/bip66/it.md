@@ -1,0 +1,5 @@
+---
+term: BIP66
+---
+
+Ha introdotto una standardizzazione del formato della firma nelle transazioni. Questo BIP è stato proposto in risposta a una divergenza nel modo in cui OpenSSL gestiva la codifica delle firme su diversi sistemi. Questa eterogeneità presentava il rischio di dividere la blockchain. BIP66 ha standardizzato il formato della firma per tutte le transazioni utilizzando una codifica DER rigorosa (*Distinguished Encoding Rules*). Questo cambiamento ha richiesto un soft fork. Per la sua attivazione, BIP66 ha poi utilizzato lo stesso meccanismo di BIP34, richiedendo che il campo `nVersion` fosse aumentato alla versione 3 e rifiutando tutti i blocchi di versione 2 o inferiore una volta raggiunta la soglia del 95% dei miner. Questa soglia è stata superata al blocco numero 363,725 il 4 luglio 2015.

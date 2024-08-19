@@ -1,0 +1,3 @@
+termine: BINARY
+
+Un sistema di numerazione in base 2, che utilizza `0` e `1` per rappresentare le informazioni. Ogni cifra in questo sistema è chiamata bit, che è l'abbreviazione di "binary digit" (cifra binaria). Nel contesto dell'informatica, il binario è la forma di rappresentazione dei dati in memoria. I computer utilizzano il binario per elaborare tutti i tipi di informazioni, in quanto corrisponde ai due stati possibili di un circuito elettronico: spento o acceso.

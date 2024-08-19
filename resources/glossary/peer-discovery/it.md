@@ -1,0 +1,9 @@
+---
+termine: PEER DISCOVERY
+---
+
+Il processo mediante il quale i nodi nella rete Bitcoin si connettono ad altri nodi per ottenere informazioni. Quando un nodo Bitcoin viene avviato per la prima volta, non ha informazioni sugli altri nodi nella rete. Tuttavia, deve stabilire connessioni per sincronizzarsi con la blockchain che ha il maggior lavoro accumulato. Diversi meccanismi sono utilizzati per scoprire questi peer, in ordine di priorità:
+* Il nodo inizia consultando il suo file locale `peers.dat`, che memorizza informazioni sui nodi con cui ha precedentemente interagito. Se il nodo è nuovo, questo file sarà vuoto e il processo passerà al passo successivo;
+* In assenza di informazioni nel file `peers.dat` (che è normale per un nodo appena lanciato), il nodo esegue query DNS ai DNS seeds. Questi server forniscono un elenco di indirizzi IP di nodi presumibilmente attivi per stabilire connessioni. Gli indirizzi dei DNS seeds sono codificati direttamente nel codice di Bitcoin Core. Questo passo è solitamente sufficiente per completare la scoperta dei peer;
+* Se i DNS seeds non rispondono entro 60 secondi, il nodo può quindi rivolgersi ai seed nodes. Questi sono nodi Bitcoin pubblici elencati in una lista statica di quasi mille voci integrata direttamente nel codice sorgente di Bitcoin Core. Il nuovo nodo utilizzerà questa lista per stabilire una prima connessione alla rete e ottenere indirizzi IP di altri nodi;
+* Nel caso molto improbabile in cui tutti i metodi precedenti falliscano, l'operatore del nodo ha sempre l'opzione di aggiungere manualmente indirizzi IP di nodi per stabilire una prima connessione.

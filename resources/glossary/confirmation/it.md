@@ -1,0 +1,5 @@
+---
+term: CONFIRMATION
+---
+
+Si riferisce al numero di blocchi per cui una transazione beneficia della loro sicurezza. Quando una transazione viene trasmessa alla rete Bitcoin, rimane inizialmente in sospeso nei mempool dei nodi. Viene poi inclusa in un blocco valido da un miner. A questo punto, la transazione è stata appena aggiunta alla blockchain, quindi beneficia della sua prima conferma. Quando un nuovo blocco viene trovato sopra il blocco che contiene la transazione in questione, riceverà una seconda conferma, e così via. Ogni nuovo blocco estratto sopra il blocco che contiene la transazione costituisce una nuova conferma. Contando il numero di conferme per una transazione, possiamo stimare il rischio che essa possa eventualmente essere annullata a causa di una riorganizzazione. Il numero di conferme ci permette di giudicare il livello di immutabilità di una transazione sulla blockchain.

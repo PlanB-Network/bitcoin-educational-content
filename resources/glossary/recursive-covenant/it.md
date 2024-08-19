@@ -1,0 +1,9 @@
+---
+termine: RECURSIVE (COVENANT)
+---
+
+Un covenant ricorsivo su Bitcoin è un tipo di contratto intelligente che impone condizioni non solo sulla transazione corrente ma anche su future transazioni che spendono gli output di questa transazione. Questo permette la creazione di catene di transazioni dove ciascuna deve aderire a certe regole definite dalla prima nella catena. La ricorsività crea una sequenza di transazioni dove ciascuna eredita le restrizioni dalla sua transazione genitore. Questo consentirebbe un controllo complesso e a lungo termine su come i bitcoin possono essere spesi, ma introdurrebbe anche rischi riguardanti la libertà di spesa e la fungibilità.
+
+Per riassumere, un covenant non ricorsivo si limiterebbe solo alla transazione che segue immediatamente quella che ha stabilito le regole. Al contrario, un covenant ricorsivo ha la capacità di imporre condizioni specifiche su un bitcoin a tempo indeterminato. Le transazioni possono seguire l'una l'altra, ma il bitcoin in questione manterrà sempre le condizioni iniziali ad esso associate. Tecnicamente, l'istituzione di un covenant non ricorsivo avviene quando il `scriptPubKey` di un UTXO definisce restrizioni sul `scriptPubKey` degli output di una transazione che spende detto UTXO. D'altra parte, l'istituzione di un covenant ricorsivo avviene quando il `scriptPubKey` di un UTXO definisce restrizioni sul `scriptPubKey` degli output di una transazione che spende detto UTXO, e su tutti i `scriptPubKey` che seguiranno la spesa di questo UTXO.
+
+Più in generale, in informatica, ciò che viene chiamato "ricorsività" è la capacità di una funzione di chiamare se stessa, creando una sorta di ciclo.

@@ -1,0 +1,3 @@
+term: ZEROLINK
+
+Un protocollo Chaumian coinjoin che mira a rompere tutti i collegamenti tra diversi insiemi di monete attraverso tecniche di mixing avanzate. Il protocollo ZeroLink si distingue per la sua capacità di proteggere l'anonimato degli utenti contro varie forme di analisi della catena a livello di transazione e di rete. ZeroLink introduce un framework per i portafogli coinjoin, con l'uso di conti segregati pre-mix e post-mix, così come una tecnica di mixing unica: il Chaumian coinjoin. Ad oggi, l'unica implementazione dei coinjoin ZeroLink è Whirlpool, disponibile su Samourai Wallet e Sparrow Wallet. Questo protocollo è stato introdotto da nopara73 e TDevD nel 2017.

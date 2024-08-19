@@ -1,0 +1,7 @@
+---
+term: HARD FORK
+---
+
+Una modifica alle regole del protocollo in modo che non sia compatibile con le versioni precedenti. Questa modifica porta a una separazione permanente della rete di nodi Bitcoin in due gruppi distinti: nodi con l'aggiornamento e nodi senza l'aggiornamento. Questa divisione si materializza con la divisione della blockchain originale in due blockchain separate, che tuttavia condividono una storia comune, da qui l'uso del termine "fork", che può essere tradotto in italiano come "biforcazione".
+
+Una modifica si dice non compatibile con le versioni precedenti quando è estensiva, nel senso che rimuove o rende certe regole del protocollo meno restrittive, o bilaterale, nel senso che aggiunge regole che sono incompatibili con quelle vecchie. In altre parole, un hard fork si verifica quando certi nodi rendono valido un blocco che prima era invalido. Questo porta alla formazione di una nuova versione del protocollo, che può sostituire il Bitcoin originale se trova una maggioranza, o diventare un altcoin indipendente se viene utilizzato solo ai margini. Ad esempio, Bitcoin Cash (BCH) è un hard fork di Bitcoin. Il fork è avvenuto al blocco numero 478,559, il 1° agosto 2017.

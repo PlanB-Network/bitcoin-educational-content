@@ -1,0 +1,1 @@
+Implementazione della Lightning Network scritta in Python specificamente per il software Electrum.

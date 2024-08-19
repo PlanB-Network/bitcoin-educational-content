@@ -1,0 +1,3 @@
+termine: MASTER KEY
+
+Nel contesto dei portafogli HD (Hierarchical Deterministic), la chiave privata master è una chiave privata unica derivata dal seed del portafoglio. Per ottenere la chiave master, la funzione `HMAC-SHA512` viene applicata al seed, utilizzando letteralmente le parole "*Bitcoin seed*" come chiave. Il risultato di questa operazione produce un output di 512 bit, con i primi 256 bit che costituiscono la chiave master, e i restanti 256 bit che formano il master chain code. La chiave master e il master chain code servono come punto di partenza per derivare tutte le chiavi private e pubbliche figlie nella struttura ad albero del portafoglio HD. Pertanto, la chiave privata master si trova al livello 0 della derivazione.

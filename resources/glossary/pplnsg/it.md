@@ -1,0 +1,1 @@
+Acronimo di "*Pay Per Last N Shares Grouped*". Si tratta di un metodo per calcolare la compensazione dei minatori all'interno dei pool di mining. PPLNSG funziona come PPLNS, ma raggruppa le quote in squadre. Questi gruppi di quote vengono poi compensati insieme.

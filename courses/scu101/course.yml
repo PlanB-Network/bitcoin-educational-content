@@ -10,62 +10,62 @@ professors:
 
 # Proofreading metadata
 original: fr
-translation_review:
+proofreading:
   cs:
-    last_reviewed:
-    next_review_urgency: 1
-    reviewers_id:
-    reward: 32248
+    last_contribution:
+    urgency: 1
+    contributors_id:
+    reward: 17386
   de:
-    last_reviewed:
-    next_review_urgency: 1
-    reviewers_id:
-    reward: 17374
+    last_contribution:
+    urgency: 1
+    contributors_id:
+    reward: 9943
   en:
-    last_reviewed:
-    next_review_urgency: 1
-    reviewers_id:
-    reward: 17374
+    last_contribution:
+    urgency: 1
+    contributors_id:
+    reward: 9943
   es:
-    last_reviewed:
-    next_review_urgency: 1
-    reviewers_id:
-    reward: 24811
+    last_contribution:
+    urgency: 1
+    contributors_id:
+    reward: 13664
   fi:
-    last_reviewed: 2024-04-02
-    next_review_urgency: 1
-    reviewers_id:
+    last_contribution: 2024-04-02
+    urgency: 1
+    contributors_id:
     - KryptoKeskus
-    reward: 17374
+    reward: 9943
   fr:
-    last_reviewed:
-    next_review_urgency: 1
-    reviewers_id:
-    reward: 8687
+    last_contribution:
+    urgency: 1
+    contributors_id:
+    reward: 4971
   it:
-    last_reviewed: 2024-07-14
-    next_review_urgency: 1
-    reviewers_id:
+    last_contribution: 2024-07-14
+    urgency: 1
+    contributors_id:
     - TinF0ilHat1
-    reward: 13655
+    reward: 8082
   ja:
-    last_reviewed:
-    next_review_urgency: 1
-    reviewers_id:
-    reward: 47122
+    last_contribution:
+    urgency: 1
+    contributors_id:
+    reward: 24829
   pt:
-    last_reviewed:
-    next_review_urgency: 1
-    reviewers_id:
-    reward: 17374
+    last_contribution:
+    urgency: 1
+    contributors_id:
+    reward: 9943
   ru:
-    last_reviewed:
-    next_review_urgency: 1
-    reviewers_id:
-    reward: 32248
+    last_contribution:
+    urgency: 1
+    contributors_id:
+    reward: 17386
   vi:
-    last_reviewed: 2024-05-05
-    next_review_urgency: 1
-    reviewers_id:
+    last_contribution: 2024-05-05
+    urgency: 1
+    contributors_id:
     - Henry-Da0
-    reward: 24811
+    reward: 13664

@@ -3,7 +3,7 @@ name: B-only 2023
 builder: b-only
 location: Annecy, France
 language:
-  - fr
+- fr
 links:
   website: https://b-only.org/
   twitter: https://twitter.com/AnnecyBitcoin
@@ -13,9 +13,9 @@ tags:
 
 # Proofreading metadata
 original: en
-translation_review:
+proofreading:
   en:
-    last_reviewed:
-    next_review_urgency: 0
-    reviewers_id:
+    last_contribution:
+    urgency: 0
+    contributors_id:
     reward: 1250

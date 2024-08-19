@@ -5,14 +5,14 @@ tags:
 
 # Proofreading metadata
 original: fr
-translation_review:
+proofreading:
   en:
-    last_reviewed:
-    next_review_urgency: 1
-    reviewers_id:
-    reward: 2778
+    last_contribution:
+    urgency: 1
+    contributors_id:
+    reward: 2639
   fr:
-    last_reviewed:
-    next_review_urgency: 1
-    reviewers_id:
-    reward: 1389
+    last_contribution:
+    urgency: 1
+    contributors_id:
+    reward: 1319

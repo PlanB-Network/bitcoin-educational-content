@@ -11,59 +11,59 @@ contributors:
 
 # Proofreading metadata
 original: fr
-translation_review:
+proofreading:
   cs:
-    last_reviewed:
-    next_review_urgency: 1
-    reviewers_id:
-    reward: 466660
+    last_contribution:
+    urgency: 1
+    contributors_id:
+    reward: 234580
   de:
-    last_reviewed:
-    next_review_urgency: 1
-    reviewers_id:
-    reward: 234580
+    last_contribution:
+    urgency: 1
+    contributors_id:
+    reward: 118540
   en:
-    last_reviewed:
-    next_review_urgency: 1
-    reviewers_id:
-    reward: 234580
+    last_contribution:
+    urgency: 1
+    contributors_id:
+    reward: 118540
   es:
-    last_reviewed:
-    next_review_urgency: 1
-    reviewers_id:
-    reward: 350620
+    last_contribution:
+    urgency: 1
+    contributors_id:
+    reward: 176560
   fi:
-    last_reviewed:
-    next_review_urgency: 1
-    reviewers_id:
-    reward: 466660
-  fr:
-    last_reviewed:
-    next_review_urgency: 1
-    reviewers_id:
-    reward: 117290
-  it:
-    last_reviewed:
-    next_review_urgency: 1
-    reviewers_id:
-    reward: 350620
-  ja:
-    last_reviewed:
-    next_review_urgency: 1
-    reviewers_id:
-    reward: 698740
-  pt:
-    last_reviewed:
-    next_review_urgency: 1
-    reviewers_id:
+    last_contribution:
+    urgency: 1
+    contributors_id:
     reward: 234580
+  fr:
+    last_contribution:
+    urgency: 1
+    contributors_id:
+    reward: 59270
+  it:
+    last_contribution:
+    urgency: 1
+    contributors_id:
+    reward: 176560
+  ja:
+    last_contribution:
+    urgency: 1
+    contributors_id:
+    reward: 350620
+  pt:
+    last_contribution:
+    urgency: 1
+    contributors_id:
+    reward: 118540
   ru:
-    last_reviewed:
-    next_review_urgency: 1
-    reviewers_id:
-    reward: 466660
+    last_contribution:
+    urgency: 1
+    contributors_id:
+    reward: 234580
   vi:
-    last_reviewed:
-    next_review_urgency: 1
-    reviewers_id:
-    reward: 698740
+    last_contribution:
+    urgency: 1
+    contributors_id:
+    reward: 350620

@@ -8,13 +8,13 @@ languages.sort()  # Sorts the language list alphabetically
 base_template = """
 # Proofreading metadata
 original:
-translation_review:"""
+proofreading:"""
 def template_language_specific(lang):
     content = f"""
   - {lang}
-      - last_reviewed: 
-      - next_review_urgency: 
-      - reviewer_id: 
+      - last_contributions: 
+      - urgency: 
+      - contributors_id: 
       - reward: """
     return content
 

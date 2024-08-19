@@ -11,60 +11,60 @@ contributors:
 
 # Proofreading metadata
 original: fr
-translation_review:
+proofreading:
   cs:
-    last_reviewed:
-    next_review_urgency: 1
-    reviewers_id:
-    reward: 64304
+    last_contribution:
+    urgency: 1
+    contributors_id:
+    reward: 33402
   de:
-    last_reviewed:
-    next_review_urgency: 1
-    reviewers_id:
-    reward: 33402
+    last_contribution:
+    urgency: 1
+    contributors_id:
+    reward: 17951
   en:
-    last_reviewed:
-    next_review_urgency: 1
-    reviewers_id:
-    reward: 33402
+    last_contribution:
+    urgency: 1
+    contributors_id:
+    reward: 17951
   es:
-    last_reviewed:
-    next_review_urgency: 1
-    reviewers_id:
-    reward: 48853
-  fi:
-    last_reviewed:
-    next_review_urgency: 1
-    reviewers_id:
-    reward: 64304
-  fr:
-    last_reviewed:
-    next_review_urgency: 1
-    reviewers_id:
-    reward: 16701
-  it:
-    last_reviewed: 2024-05-27
-    next_review_urgency: 1
-    reviewers_id:
-    - TinF0ilHat
+    last_contribution:
+    urgency: 1
+    contributors_id:
     reward: 25676
-  ja:
-    last_reviewed:
-    next_review_urgency: 1
-    reviewers_id:
-    reward: 95206
-  pt:
-    last_reviewed:
-    next_review_urgency: 1
-    reviewers_id:
+  fi:
+    last_contribution:
+    urgency: 1
+    contributors_id:
     reward: 33402
+  fr:
+    last_contribution:
+    urgency: 1
+    contributors_id:
+    reward: 8975
+  it:
+    last_contribution: 2024-05-27
+    urgency: 1
+    contributors_id:
+    - TinF0ilHat
+    reward: 14088
+  ja:
+    last_contribution:
+    urgency: 1
+    contributors_id:
+    reward: 48853
+  pt:
+    last_contribution:
+    urgency: 1
+    contributors_id:
+    reward: 17951
   ru:
-    last_reviewed:
-    next_review_urgency: 1
-    reviewers_id:
-    reward: 64304
+    last_contribution:
+    urgency: 1
+    contributors_id:
+    reward: 33402
   vi:
-    last_reviewed:
-    next_review_urgency: 1
-    reviewers_id:
-    reward: 95206
+    last_contribution:
+    urgency: 1
+    contributors_id:
+    reward: 48853

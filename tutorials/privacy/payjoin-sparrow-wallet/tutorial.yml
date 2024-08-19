@@ -14,59 +14,59 @@ credits:
   professor: pretty-private
 # Proofreading metadata
 original: fr
-translation_review:
+proofreading:
   cs:
-    last_reviewed:
-    next_review_urgency: 1
-    reviewers_id:
-    reward: 14992
+    last_contribution:
+    urgency: 1
+    contributors_id:
+    reward: 8746
   de:
-    last_reviewed:
-    next_review_urgency: 1
-    reviewers_id:
-    reward: 8746
+    last_contribution:
+    urgency: 1
+    contributors_id:
+    reward: 5623
   en:
-    last_reviewed:
-    next_review_urgency: 1
-    reviewers_id:
-    reward: 8746
+    last_contribution:
+    urgency: 1
+    contributors_id:
+    reward: 5623
   es:
-    last_reviewed:
-    next_review_urgency: 1
-    reviewers_id:
-    reward: 11869
+    last_contribution:
+    urgency: 1
+    contributors_id:
+    reward: 7184
   fi:
-    last_reviewed:
-    next_review_urgency: 1
-    reviewers_id:
-    reward: 14992
-  fr:
-    last_reviewed:
-    next_review_urgency: 1
-    reviewers_id:
-    reward: 4373
-  it:
-    last_reviewed:
-    next_review_urgency: 1
-    reviewers_id:
-    reward: 11869
-  ja:
-    last_reviewed:
-    next_review_urgency: 1
-    reviewers_id:
-    reward: 21238
-  pt:
-    last_reviewed:
-    next_review_urgency: 1
-    reviewers_id:
+    last_contribution:
+    urgency: 1
+    contributors_id:
     reward: 8746
+  fr:
+    last_contribution:
+    urgency: 1
+    contributors_id:
+    reward: 2811
+  it:
+    last_contribution:
+    urgency: 1
+    contributors_id:
+    reward: 7184
+  ja:
+    last_contribution:
+    urgency: 1
+    contributors_id:
+    reward: 11869
+  pt:
+    last_contribution:
+    urgency: 1
+    contributors_id:
+    reward: 5623
   ru:
-    last_reviewed:
-    next_review_urgency: 1
-    reviewers_id:
-    reward: 14992
+    last_contribution:
+    urgency: 1
+    contributors_id:
+    reward: 8746
   vi:
-    last_reviewed:
-    next_review_urgency: 1
-    reviewers_id:
-    reward: 21238
+    last_contribution:
+    urgency: 1
+    contributors_id:
+    reward: 11869

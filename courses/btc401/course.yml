@@ -20,59 +20,59 @@ contributors:
 
 # Proofreading metadata
 original: en
-translation_review:
+proofreading:
   cs:
-    last_reviewed:
-    next_review_urgency: 1
-    reviewers_id:
-    reward: 31652
+    last_contribution:
+    urgency: 1
+    contributors_id:
+    reward: 17076
   de:
-    last_reviewed:
-    next_review_urgency: 1
-    reviewers_id:
-    reward: 17076
+    last_contribution:
+    urgency: 1
+    contributors_id:
+    reward: 9788
   en:
-    last_reviewed:
-    next_review_urgency: 1
-    reviewers_id:
-    reward: 8538
+    last_contribution:
+    urgency: 1
+    contributors_id:
+    reward: 4894
   es:
-    last_reviewed:
-    next_review_urgency: 1
-    reviewers_id:
-    reward: 24364
+    last_contribution:
+    urgency: 1
+    contributors_id:
+    reward: 13432
   fi:
-    last_reviewed:
-    next_review_urgency: 1
-    reviewers_id:
-    reward: 31652
+    last_contribution:
+    urgency: 1
+    contributors_id:
+    reward: 17076
   fr:
-    last_reviewed:
-    next_review_urgency: 1
-    reviewers_id:
-    reward: 17076
+    last_contribution:
+    urgency: 1
+    contributors_id:
+    reward: 9788
   it:
-    last_reviewed:
-    next_review_urgency: 1
-    reviewers_id:
-    reward: 24364
+    last_contribution:
+    urgency: 1
+    contributors_id:
+    reward: 13432
   ja:
-    last_reviewed:
-    next_review_urgency: 1
-    reviewers_id:
-    reward: 46228
+    last_contribution:
+    urgency: 1
+    contributors_id:
+    reward: 24364
   pt:
-    last_reviewed:
-    next_review_urgency: 1
-    reviewers_id:
-    reward: 17076
+    last_contribution:
+    urgency: 1
+    contributors_id:
+    reward: 9788
   ru:
-    last_reviewed:
-    next_review_urgency: 1
-    reviewers_id:
-    reward: 31652
+    last_contribution:
+    urgency: 1
+    contributors_id:
+    reward: 17076
   vi:
-    last_reviewed:
-    next_review_urgency: 1
-    reviewers_id:
-    reward: 46228
+    last_contribution:
+    urgency: 1
+    contributors_id:
+    reward: 24364

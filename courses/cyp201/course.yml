@@ -12,60 +12,60 @@ contributors:
 
 # Proofreading metadata
 original: fr
-translation_review:
+proofreading:
   cs:
-    last_reviewed:
-    next_review_urgency: 1
-    reviewers_id:
-    reward: 96588
+    last_contribution:
+    urgency: 1
+    contributors_id:
+    reward: 49544
   de:
-    last_reviewed:
-    next_review_urgency: 1
-    reviewers_id:
-    reward: 49544
+    last_contribution:
+    urgency: 1
+    contributors_id:
+    reward: 26022
   en:
-    last_reviewed:
-    next_review_urgency: 1
-    reviewers_id:
-    reward: 49544
+    last_contribution:
+    urgency: 1
+    contributors_id:
+    reward: 26022
   es:
-    last_reviewed:
-    next_review_urgency: 1
-    reviewers_id:
-    reward: 73066
-  fi:
-    last_reviewed:
-    next_review_urgency: 1
-    reviewers_id:
-    reward: 96588
-  fr:
-    last_reviewed:
-    next_review_urgency: 1
-    reviewers_id:
-    reward: 24772
-  it:
-    last_reviewed: 2024-07-14
-    next_review_urgency: 1
-    reviewers_id:
-    - TinF0ilHat1
+    last_contribution:
+    urgency: 1
+    contributors_id:
     reward: 37783
-  ja:
-    last_reviewed:
-    next_review_urgency: 1
-    reviewers_id:
-    reward: 143632
-  pt:
-    last_reviewed:
-    next_review_urgency: 1
-    reviewers_id:
+  fi:
+    last_contribution:
+    urgency: 1
+    contributors_id:
     reward: 49544
+  fr:
+    last_contribution:
+    urgency: 1
+    contributors_id:
+    reward: 13011
+  it:
+    last_contribution: 2024-07-14
+    urgency: 1
+    contributors_id:
+    - TinF0ilHat1
+    reward: 20141
+  ja:
+    last_contribution:
+    urgency: 1
+    contributors_id:
+    reward: 73066
+  pt:
+    last_contribution:
+    urgency: 1
+    contributors_id:
+    reward: 26022
   ru:
-    last_reviewed:
-    next_review_urgency: 1
-    reviewers_id:
-    reward: 96588
+    last_contribution:
+    urgency: 1
+    contributors_id:
+    reward: 49544
   vi:
-    last_reviewed:
-    next_review_urgency: 1
-    reviewers_id:
-    reward: 143632
+    last_contribution:
+    urgency: 1
+    contributors_id:
+    reward: 73066

@@ -11,59 +11,59 @@ category: privacy
 
 # Proofreading metadata
 original: en
-translation_review:
+proofreading:
   cs:
-    last_reviewed:
-    next_review_urgency: 1
-    reviewers_id:
-    reward: 2612
+    last_contribution:
+    urgency: 1
+    contributors_id:
+    reward: 2556
   de:
-    last_reviewed:
-    next_review_urgency: 1
-    reviewers_id:
-    reward: 2556
+    last_contribution:
+    urgency: 1
+    contributors_id:
+    reward: 2528
   en:
-    last_reviewed:
-    next_review_urgency: 1
-    reviewers_id:
-    reward: 1278
+    last_contribution:
+    urgency: 1
+    contributors_id:
+    reward: 1264
   es:
-    last_reviewed:
-    next_review_urgency: 1
-    reviewers_id:
-    reward: 2584
+    last_contribution:
+    urgency: 1
+    contributors_id:
+    reward: 2542
   fi:
-    last_reviewed:
-    next_review_urgency: 1
-    reviewers_id:
-    reward: 2612
+    last_contribution:
+    urgency: 1
+    contributors_id:
+    reward: 2556
   fr:
-    last_reviewed:
-    next_review_urgency: 1
-    reviewers_id:
-    reward: 2556
+    last_contribution:
+    urgency: 1
+    contributors_id:
+    reward: 2528
   it:
-    last_reviewed:
-    next_review_urgency: 1
-    reviewers_id:
-    reward: 2584
+    last_contribution:
+    urgency: 1
+    contributors_id:
+    reward: 2542
   ja:
-    last_reviewed:
-    next_review_urgency: 1
-    reviewers_id:
-    reward: 2668
+    last_contribution:
+    urgency: 1
+    contributors_id:
+    reward: 2584
   pt:
-    last_reviewed:
-    next_review_urgency: 1
-    reviewers_id:
-    reward: 2556
+    last_contribution:
+    urgency: 1
+    contributors_id:
+    reward: 2528
   ru:
-    last_reviewed:
-    next_review_urgency: 1
-    reviewers_id:
-    reward: 2612
+    last_contribution:
+    urgency: 1
+    contributors_id:
+    reward: 2556
   vi:
-    last_reviewed:
-    next_review_urgency: 1
-    reviewers_id:
-    reward: 2668
+    last_contribution:
+    urgency: 1
+    contributors_id:
+    reward: 2584

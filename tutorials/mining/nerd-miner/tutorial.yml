@@ -10,59 +10,59 @@ category: hardware
 
 # Proofreading metadata
 original: en
-translation_review:
+proofreading:
   cs:
-    last_reviewed:
-    next_review_urgency: 1
-    reviewers_id:
-    reward: 11868
+    last_contribution:
+    urgency: 1
+    contributors_id:
+    reward: 7184
   de:
-    last_reviewed:
-    next_review_urgency: 1
-    reviewers_id:
-    reward: 7184
+    last_contribution:
+    urgency: 1
+    contributors_id:
+    reward: 4842
   en:
-    last_reviewed:
-    next_review_urgency: 1
-    reviewers_id:
-    reward: 3592
+    last_contribution:
+    urgency: 1
+    contributors_id:
+    reward: 2421
   es:
-    last_reviewed:
-    next_review_urgency: 1
-    reviewers_id:
-    reward: 9526
+    last_contribution:
+    urgency: 1
+    contributors_id:
+    reward: 6013
   fi:
-    last_reviewed:
-    next_review_urgency: 1
-    reviewers_id:
-    reward: 11868
+    last_contribution:
+    urgency: 1
+    contributors_id:
+    reward: 7184
   fr:
-    last_reviewed:
-    next_review_urgency: 1
-    reviewers_id:
-    reward: 7184
+    last_contribution:
+    urgency: 1
+    contributors_id:
+    reward: 4842
   it:
-    last_reviewed:
-    next_review_urgency: 1
-    reviewers_id:
-    reward: 9526
+    last_contribution:
+    urgency: 1
+    contributors_id:
+    reward: 6013
   ja:
-    last_reviewed:
-    next_review_urgency: 1
-    reviewers_id:
-    reward: 16552
+    last_contribution:
+    urgency: 1
+    contributors_id:
+    reward: 9526
   pt:
-    last_reviewed:
-    next_review_urgency: 1
-    reviewers_id:
-    reward: 7184
+    last_contribution:
+    urgency: 1
+    contributors_id:
+    reward: 4842
   ru:
-    last_reviewed:
-    next_review_urgency: 1
-    reviewers_id:
-    reward: 11868
+    last_contribution:
+    urgency: 1
+    contributors_id:
+    reward: 7184
   vi:
-    last_reviewed:
-    next_review_urgency: 1
-    reviewers_id:
-    reward: 16552
+    last_contribution:
+    urgency: 1
+    contributors_id:
+    reward: 9526

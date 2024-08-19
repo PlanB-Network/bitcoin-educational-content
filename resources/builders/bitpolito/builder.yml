@@ -4,8 +4,8 @@ address_line_1: Turin, Italy
 address_line_2: Corso Castelfidardo, 39, 10129
 address_line_3:
 language:
-  - it
-  - - en
+- it
+- - en
 links:
   twitter: https://twitter.com/bitpolito
   github: https://github.com/BitPolito
@@ -18,59 +18,59 @@ tags:
 
 # Proofreading metadata
 original: en
-translation_review:
+proofreading:
   cs:
-    last_reviewed:
-    next_review_urgency: 1
-    reviewers_id:
-    reward: 3616
+    last_contribution:
+    urgency: 1
+    contributors_id:
+    reward: 3058
   de:
-    last_reviewed:
-    next_review_urgency: 1
-    reviewers_id:
-    reward: 3058
+    last_contribution:
+    urgency: 1
+    contributors_id:
+    reward: 2779
   en:
-    last_reviewed:
-    next_review_urgency: 1
-    reviewers_id:
-    reward: 1529
+    last_contribution:
+    urgency: 1
+    contributors_id:
+    reward: 1389
   es:
-    last_reviewed:
-    next_review_urgency: 1
-    reviewers_id:
-    reward: 3337
+    last_contribution:
+    urgency: 1
+    contributors_id:
+    reward: 2918
   fi:
-    last_reviewed:
-    next_review_urgency: 1
-    reviewers_id:
-    reward: 3616
+    last_contribution:
+    urgency: 1
+    contributors_id:
+    reward: 3058
   fr:
-    last_reviewed:
-    next_review_urgency: 1
-    reviewers_id:
-    reward: 3058
+    last_contribution:
+    urgency: 1
+    contributors_id:
+    reward: 2779
   it:
-    last_reviewed:
-    next_review_urgency: 1
-    reviewers_id:
-    reward: 3337
+    last_contribution:
+    urgency: 1
+    contributors_id:
+    reward: 2918
   ja:
-    last_reviewed:
-    next_review_urgency: 1
-    reviewers_id:
-    reward: 4174
+    last_contribution:
+    urgency: 1
+    contributors_id:
+    reward: 3337
   pt:
-    last_reviewed:
-    next_review_urgency: 1
-    reviewers_id:
-    reward: 3058
+    last_contribution:
+    urgency: 1
+    contributors_id:
+    reward: 2779
   ru:
-    last_reviewed:
-    next_review_urgency: 1
-    reviewers_id:
-    reward: 3616
+    last_contribution:
+    urgency: 1
+    contributors_id:
+    reward: 3058
   vi:
-    last_reviewed:
-    next_review_urgency: 1
-    reviewers_id:
-    reward: 4174
+    last_contribution:
+    urgency: 1
+    contributors_id:
+    reward: 3337

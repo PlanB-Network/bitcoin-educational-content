@@ -4,8 +4,8 @@ address_line_1: Bali, Indonesia
 address_line_2:
 address_line_3:
 language:
-  - en
-  - in
+- en
+- in
 links:
   website: https://bitcoinindonesia.xyz
   twitter: https://x.com/btchousebali
@@ -21,14 +21,14 @@ tags:
 
 # Proofreading metadata
 original: en
-translation_review:
+proofreading:
   en:
-    last_reviewed:
-    next_review_urgency: 1
-    reviewers_id:
-    reward: 1409
+    last_contribution:
+    urgency: 1
+    contributors_id:
+    reward: 1329
   ru:
-    last_reviewed:
-    next_review_urgency: 1
-    reviewers_id:
-    reward: 3136
+    last_contribution:
+    urgency: 1
+    contributors_id:
+    reward: 2818

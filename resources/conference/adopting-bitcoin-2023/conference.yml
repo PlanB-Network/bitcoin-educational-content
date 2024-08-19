@@ -3,8 +3,8 @@ name: Adopting Bitcoin 2023
 builder: Galoy
 location: San Salvador, El Salvador
 language:
-  - en
-  - es
+- en
+- es
 links:
   website: https://adoptingbitcoin.org/2023/
   twitter: https://twitter.com/AdoptingBTC
@@ -15,9 +15,9 @@ tags:
 
 # Proofreading metadata
 original: en
-translation_review:
+proofreading:
   en:
-    last_reviewed:
-    next_review_urgency: 0
-    reviewers_id:
+    last_contribution:
+    urgency: 0
+    contributors_id:
     reward: 1250

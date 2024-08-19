@@ -15,19 +15,19 @@ credits:
 
 # Proofreading metadata
 original: fr
-translation_review:
+proofreading:
   en:
-    last_reviewed:
-    next_review_urgency: 1
-    reviewers_id:
-    reward: 5658
+    last_contribution:
+    urgency: 1
+    contributors_id:
+    reward: 4079
   fr:
-    last_reviewed:
-    next_review_urgency: 1
-    reviewers_id:
-    reward: 2829
+    last_contribution:
+    urgency: 1
+    contributors_id:
+    reward: 2039
   ru:
-    last_reviewed:
-    next_review_urgency: 1
-    reviewers_id:
-    reward: 8816
+    last_contribution:
+    urgency: 1
+    contributors_id:
+    reward: 5658

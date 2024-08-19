@@ -3,7 +3,7 @@ name: Bitcoin4India 2023
 builder:
 location: india
 language:
-  - en
+- en
 links:
   website: https://bitcoin4india.org/
   twitter: https://twitter.com/Bitcoin4India
@@ -14,9 +14,9 @@ tags:
 
 # Proofreading metadata
 original: en
-translation_review:
+proofreading:
   en:
-    last_reviewed:
-    next_review_urgency: 0
-    reviewers_id:
+    last_contribution:
+    urgency: 0
+    contributors_id:
     reward: 1250

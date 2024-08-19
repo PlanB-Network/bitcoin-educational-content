@@ -10,59 +10,59 @@ category: infrastructure
 
 # Proofreading metadata
 original: en
-translation_review:
+proofreading:
   cs:
-    last_reviewed:
-    next_review_urgency: 1
-    reviewers_id:
-    reward: 2748
+    last_contribution:
+    urgency: 1
+    contributors_id:
+    reward: 2624
   de:
-    last_reviewed:
-    next_review_urgency: 1
-    reviewers_id:
-    reward: 2624
+    last_contribution:
+    urgency: 1
+    contributors_id:
+    reward: 2562
   en:
-    last_reviewed:
-    next_review_urgency: 1
-    reviewers_id:
-    reward: 1312
+    last_contribution:
+    urgency: 1
+    contributors_id:
+    reward: 1281
   es:
-    last_reviewed:
-    next_review_urgency: 1
-    reviewers_id:
-    reward: 2686
+    last_contribution:
+    urgency: 1
+    contributors_id:
+    reward: 2593
   fi:
-    last_reviewed:
-    next_review_urgency: 1
-    reviewers_id:
-    reward: 2748
+    last_contribution:
+    urgency: 1
+    contributors_id:
+    reward: 2624
   fr:
-    last_reviewed:
-    next_review_urgency: 1
-    reviewers_id:
-    reward: 2624
+    last_contribution:
+    urgency: 1
+    contributors_id:
+    reward: 2562
   it:
-    last_reviewed:
-    next_review_urgency: 1
-    reviewers_id:
-    reward: 2686
+    last_contribution:
+    urgency: 1
+    contributors_id:
+    reward: 2593
   ja:
-    last_reviewed:
-    next_review_urgency: 1
-    reviewers_id:
-    reward: 2872
+    last_contribution:
+    urgency: 1
+    contributors_id:
+    reward: 2686
   pt:
-    last_reviewed:
-    next_review_urgency: 1
-    reviewers_id:
-    reward: 2624
+    last_contribution:
+    urgency: 1
+    contributors_id:
+    reward: 2562
   ru:
-    last_reviewed:
-    next_review_urgency: 1
-    reviewers_id:
-    reward: 2748
+    last_contribution:
+    urgency: 1
+    contributors_id:
+    reward: 2624
   vi:
-    last_reviewed:
-    next_review_urgency: 1
-    reviewers_id:
-    reward: 2872
+    last_contribution:
+    urgency: 1
+    contributors_id:
+    reward: 2686

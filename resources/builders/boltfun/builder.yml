@@ -12,59 +12,59 @@ category: education
 
 # Proofreading metadata
 original: en
-translation_review:
+proofreading:
   cs:
-    last_reviewed:
-    next_review_urgency: 1
-    reviewers_id:
-    reward: 2728
+    last_contribution:
+    urgency: 1
+    contributors_id:
+    reward: 2614
   de:
-    last_reviewed:
-    next_review_urgency: 1
-    reviewers_id:
-    reward: 2614
+    last_contribution:
+    urgency: 1
+    contributors_id:
+    reward: 2557
   en:
-    last_reviewed:
-    next_review_urgency: 1
-    reviewers_id:
-    reward: 1307
+    last_contribution:
+    urgency: 1
+    contributors_id:
+    reward: 1278
   es:
-    last_reviewed:
-    next_review_urgency: 1
-    reviewers_id:
-    reward: 2671
+    last_contribution:
+    urgency: 1
+    contributors_id:
+    reward: 2585
   fi:
-    last_reviewed:
-    next_review_urgency: 1
-    reviewers_id:
-    reward: 2728
+    last_contribution:
+    urgency: 1
+    contributors_id:
+    reward: 2614
   fr:
-    last_reviewed:
-    next_review_urgency: 1
-    reviewers_id:
-    reward: 2614
+    last_contribution:
+    urgency: 1
+    contributors_id:
+    reward: 2557
   it:
-    last_reviewed:
-    next_review_urgency: 1
-    reviewers_id:
-    reward: 2671
+    last_contribution:
+    urgency: 1
+    contributors_id:
+    reward: 2585
   ja:
-    last_reviewed:
-    next_review_urgency: 1
-    reviewers_id:
-    reward: 2842
+    last_contribution:
+    urgency: 1
+    contributors_id:
+    reward: 2671
   pt:
-    last_reviewed:
-    next_review_urgency: 1
-    reviewers_id:
-    reward: 2614
+    last_contribution:
+    urgency: 1
+    contributors_id:
+    reward: 2557
   ru:
-    last_reviewed:
-    next_review_urgency: 1
-    reviewers_id:
-    reward: 2728
+    last_contribution:
+    urgency: 1
+    contributors_id:
+    reward: 2614
   vi:
-    last_reviewed:
-    next_review_urgency: 1
-    reviewers_id:
-    reward: 2842
+    last_contribution:
+    urgency: 1
+    contributors_id:
+    reward: 2671

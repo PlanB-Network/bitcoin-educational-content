@@ -3,8 +3,8 @@ name: BTC Prague 2023
 builder: btc-prague
 location: Prague, Czech Republic
 language:
-  - en
-  - cs
+- en
+- cs
 links:
   website: https://www.btcprague.com/#
   twitter: https://twitter.com/BtcPrague
@@ -14,9 +14,9 @@ tags:
 
 # Proofreading metadata
 original: en
-translation_review:
+proofreading:
   en:
-    last_reviewed:
-    next_review_urgency: 0
-    reviewers_id:
+    last_contribution:
+    urgency: 0
+    contributors_id:
     reward: 1250

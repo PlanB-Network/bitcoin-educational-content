@@ -3,8 +3,8 @@ name: Adopting Bitcoin 2021
 builder: Galoy
 location: San Salvador, El Salvador
 language:
-  - en
-  - es
+- en
+- es
 links:
   website: https://adoptingbitcoin.org
   twitter: https://twitter.com/AdoptingBTC

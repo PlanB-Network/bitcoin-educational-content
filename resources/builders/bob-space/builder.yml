@@ -4,8 +4,8 @@ address_line_1: Bangkok, Thailand
 address_line_2:
 address_line_3:
 language:
-  - en
-  - es
+- en
+- es
 links:
   website: https://www.bobspaces.net/
   twitter: https://x.com/BOBSpace_BKK
@@ -25,54 +25,54 @@ proofreading:
     last_contribution:
     urgency: 1
     contributors_id:
-    reward: 2616
+    reward: 2558
   de:
     last_contribution:
     urgency: 1
     contributors_id:
-    reward: 2558
+    reward: 2529
   en:
     last_contribution:
     urgency: 1
     contributors_id:
-    reward: 1279
+    reward: 1264
   es:
     last_contribution:
     urgency: 1
     contributors_id:
-    reward: 2587
+    reward: 2543
   fi:
     last_contribution:
     urgency: 1
     contributors_id:
-    reward: 2616
+    reward: 2558
   fr:
     last_contribution:
     urgency: 1
     contributors_id:
-    reward: 2558
+    reward: 2529
   it:
     last_contribution:
     urgency: 1
     contributors_id:
-    reward: 2587
+    reward: 2543
   ja:
     last_contribution:
     urgency: 1
     contributors_id:
-    reward: 2674
+    reward: 2587
   pt:
     last_contribution:
     urgency: 1
     contributors_id:
-    reward: 2558
+    reward: 2529
   ru:
     last_contribution:
     urgency: 1
     contributors_id:
-    reward: 2616
+    reward: 2558
   vi:
     last_contribution:
     urgency: 1
     contributors_id:
-    reward: 2674
+    reward: 2587

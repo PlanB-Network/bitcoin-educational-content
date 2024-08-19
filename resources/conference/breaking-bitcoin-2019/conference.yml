@@ -3,7 +3,7 @@ name: Breaking Bitcoin 2019
 builder: breaking-bitcoin
 location: Amsterdam, Netherland
 language:
-  - en
+- en
 links:
   website: https://breaking-bitcoin.com/
   twitter: https://twitter.com/breakingbitcoin

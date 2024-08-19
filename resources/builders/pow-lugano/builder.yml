@@ -4,7 +4,7 @@ address_line_1: Lugano, Switzerland
 address_line_2:
 address_line_3:
 language:
-  - en
+- en
 links:
   website: https://planb.lugano.ch/
   twitter: https://x.com/planb_network
@@ -24,54 +24,54 @@ proofreading:
     last_contribution:
     urgency: 1
     contributors_id:
-    reward: 2876
+    reward: 2688
   de:
     last_contribution:
     urgency: 1
     contributors_id:
-    reward: 2688
+    reward: 2594
   en:
     last_contribution:
     urgency: 1
     contributors_id:
-    reward: 1344
+    reward: 1297
   es:
     last_contribution:
     urgency: 1
     contributors_id:
-    reward: 2782
+    reward: 2641
   fi:
     last_contribution:
     urgency: 1
     contributors_id:
-    reward: 2876
+    reward: 2688
   fr:
     last_contribution:
     urgency: 1
     contributors_id:
-    reward: 2688
+    reward: 2594
   it:
     last_contribution:
     urgency: 1
     contributors_id:
-    reward: 2782
+    reward: 2641
   ja:
     last_contribution:
     urgency: 1
     contributors_id:
-    reward: 3064
+    reward: 2782
   pt:
     last_contribution:
     urgency: 1
     contributors_id:
-    reward: 2688
+    reward: 2594
   ru:
     last_contribution:
     urgency: 1
     contributors_id:
-    reward: 2876
+    reward: 2688
   vi:
     last_contribution:
     urgency: 1
     contributors_id:
-    reward: 3064
+    reward: 2782

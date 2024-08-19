@@ -17,54 +17,54 @@ proofreading:
     last_contribution:
     urgency: 1
     contributors_id:
-    reward: 3000
+    reward: 2750
   de:
     last_contribution:
     urgency: 1
     contributors_id:
-    reward: 2750
+    reward: 2625
   en:
     last_contribution:
     urgency: 1
     contributors_id:
-    reward: 1375
+    reward: 1312
   es:
     last_contribution:
     urgency: 1
     contributors_id:
-    reward: 2875
+    reward: 2687
   fi:
     last_contribution:
     urgency: 1
     contributors_id:
-    reward: 3000
+    reward: 2750
   fr:
     last_contribution:
     urgency: 1
     contributors_id:
-    reward: 2750
+    reward: 2625
   it:
     last_contribution:
     urgency: 1
     contributors_id:
-    reward: 2875
+    reward: 2687
   ja:
     last_contribution:
     urgency: 1
     contributors_id:
-    reward: 3250
+    reward: 2875
   pt:
     last_contribution:
     urgency: 1
     contributors_id:
-    reward: 2750
+    reward: 2625
   ru:
     last_contribution:
     urgency: 1
     contributors_id:
-    reward: 3000
+    reward: 2750
   vi:
     last_contribution:
     urgency: 1
     contributors_id:
-    reward: 3250
+    reward: 2875

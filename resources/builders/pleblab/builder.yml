@@ -4,7 +4,7 @@ address_line_1: Austin, Texas
 address_line_2:
 address_line_3:
 language:
-  - en
+- en
 links:
   website: https://www.pleblab.com/
   twitter: https://twitter.com/PlebLab
@@ -24,54 +24,54 @@ proofreading:
     last_contribution:
     urgency: 1
     contributors_id:
-    reward: 2704
+    reward: 2602
   de:
     last_contribution:
     urgency: 1
     contributors_id:
-    reward: 2602
+    reward: 2551
   en:
     last_contribution:
     urgency: 1
     contributors_id:
-    reward: 1301
+    reward: 1275
   es:
     last_contribution:
     urgency: 1
     contributors_id:
-    reward: 2653
+    reward: 2576
   fi:
     last_contribution:
     urgency: 1
     contributors_id:
-    reward: 2704
+    reward: 2602
   fr:
     last_contribution:
     urgency: 1
     contributors_id:
-    reward: 2602
+    reward: 2551
   it:
     last_contribution:
     urgency: 1
     contributors_id:
-    reward: 2653
+    reward: 2576
   ja:
     last_contribution:
     urgency: 1
     contributors_id:
-    reward: 2806
+    reward: 2653
   pt:
     last_contribution:
     urgency: 1
     contributors_id:
-    reward: 2602
+    reward: 2551
   ru:
     last_contribution:
     urgency: 1
     contributors_id:
-    reward: 2704
+    reward: 2602
   vi:
     last_contribution:
     urgency: 1
     contributors_id:
-    reward: 2806
+    reward: 2653

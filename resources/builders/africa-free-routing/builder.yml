@@ -4,7 +4,7 @@ address_line_1: Africa
 address_line_2:
 address_line_3:
 language:
-  - en
+- en
 links:
   website: https://freerouting.africa/
   twitter: https://x.com/FreeRoutingAf
@@ -23,54 +23,54 @@ proofreading:
     last_contribution:
     urgency: 1
     contributors_id:
-    reward: 3160
+    reward: 2830
   de:
     last_contribution:
     urgency: 1
     contributors_id:
-    reward: 2830
+    reward: 2665
   en:
     last_contribution:
     urgency: 1
     contributors_id:
-    reward: 1415
+    reward: 1332
   es:
     last_contribution:
     urgency: 1
     contributors_id:
-    reward: 2995
+    reward: 2747
   fi:
     last_contribution:
     urgency: 1
     contributors_id:
-    reward: 3160
+    reward: 2830
   fr:
     last_contribution:
     urgency: 1
     contributors_id:
-    reward: 2830
+    reward: 2665
   it:
     last_contribution:
     urgency: 1
     contributors_id:
-    reward: 2995
+    reward: 2747
   ja:
     last_contribution:
     urgency: 1
     contributors_id:
-    reward: 3490
+    reward: 2995
   pt:
     last_contribution:
     urgency: 1
     contributors_id:
-    reward: 2830
+    reward: 2665
   ru:
     last_contribution:
     urgency: 1
     contributors_id:
-    reward: 3160
+    reward: 2830
   vi:
     last_contribution:
     urgency: 1
     contributors_id:
-    reward: 3490
+    reward: 2995

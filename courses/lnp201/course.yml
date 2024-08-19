@@ -17,56 +17,56 @@ proofreading:
     last_contribution:
     urgency: 1
     contributors_id:
-    reward: 56356
+    reward: 29428
   de:
     last_contribution:
     urgency: 1
     contributors_id:
-    reward: 29428
+    reward: 15964
   en:
     last_contribution:
     urgency: 1
     contributors_id:
-    reward: 29428
+    reward: 15964
   es:
     last_contribution:
     urgency: 1
     contributors_id:
-    reward: 42892
+    reward: 22696
   fi:
     last_contribution:
     urgency: 1
     contributors_id:
-    reward: 56356
+    reward: 29428
   fr:
     last_contribution:
     urgency: 1
     contributors_id:
-    reward: 14714
+    reward: 7982
   it:
     last_contribution: 2023-10-10
     urgency: 1
     contributors_id:
     - TinF0ilHat1
-    reward: 22696
+    reward: 12598
   ja:
     last_contribution:
     urgency: 1
     contributors_id:
     - yutaro21jp
-    reward: 42892
+    reward: 22696
   pt:
     last_contribution: 2023-12-24
     urgency: 1
     contributors_id:
-    reward: 29428
+    reward: 15964
   ru:
     last_contribution:
     urgency: 1
     contributors_id:
-    reward: 56356
+    reward: 29428
   vi:
     last_contribution:
     urgency: 1
     contributors_id:
-    reward: 83284
+    reward: 42892

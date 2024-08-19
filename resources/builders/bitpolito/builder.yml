@@ -4,8 +4,8 @@ address_line_1: Turin, Italy
 address_line_2: Corso Castelfidardo, 39, 10129
 address_line_3:
 language:
-  - it
-  - - en
+- it
+- - en
 links:
   twitter: https://twitter.com/bitpolito
   github: https://github.com/BitPolito
@@ -23,54 +23,54 @@ proofreading:
     last_contribution:
     urgency: 1
     contributors_id:
-    reward: 3616
+    reward: 3058
   de:
     last_contribution:
     urgency: 1
     contributors_id:
-    reward: 3058
+    reward: 2779
   en:
     last_contribution:
     urgency: 1
     contributors_id:
-    reward: 1529
+    reward: 1389
   es:
     last_contribution:
     urgency: 1
     contributors_id:
-    reward: 3337
+    reward: 2918
   fi:
     last_contribution:
     urgency: 1
     contributors_id:
-    reward: 3616
+    reward: 3058
   fr:
     last_contribution:
     urgency: 1
     contributors_id:
-    reward: 3058
+    reward: 2779
   it:
     last_contribution:
     urgency: 1
     contributors_id:
-    reward: 3337
+    reward: 2918
   ja:
     last_contribution:
     urgency: 1
     contributors_id:
-    reward: 4174
+    reward: 3337
   pt:
     last_contribution:
     urgency: 1
     contributors_id:
-    reward: 3058
+    reward: 2779
   ru:
     last_contribution:
     urgency: 1
     contributors_id:
-    reward: 3616
+    reward: 3058
   vi:
     last_contribution:
     urgency: 1
     contributors_id:
-    reward: 4174
+    reward: 3337

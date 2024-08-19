@@ -3,7 +3,7 @@ name: Tab Conf 2022
 builder: TabConf
 location: Atlanta, USA
 language:
-  - en
+- en
 links:
   website: https://2022.tabconf.com/
   twitter: https://twitter.com/tabconf

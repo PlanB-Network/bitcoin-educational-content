@@ -3,7 +3,7 @@ name: Tab Conf
 builder: TabConf
 location: Atlanta, USA
 language:
-  - en
+- en
 links:
   website: https://2021.tabconf.com/
   twitter: https://twitter.com/tabconf

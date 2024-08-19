@@ -4,8 +4,8 @@ address_line_1: San Salvador, El Salvador
 address_line_2:
 address_line_3:
 language:
-  - en
-  - - es
+- en
+- - es
 links:
   website: https://www.cuboplus.academy/
   twitter: https://x.com/cuboplus?t=qXP3Sckahhzw-Y_5sSGoxA&s=09
@@ -25,54 +25,54 @@ proofreading:
     last_contribution:
     urgency: 1
     contributors_id:
-    reward: 3112
+    reward: 2806
   de:
     last_contribution:
     urgency: 1
     contributors_id:
-    reward: 2806
+    reward: 2653
   en:
     last_contribution:
     urgency: 1
     contributors_id:
-    reward: 1403
+    reward: 1326
   es:
     last_contribution:
     urgency: 1
     contributors_id:
-    reward: 2959
+    reward: 2729
   fi:
     last_contribution:
     urgency: 1
     contributors_id:
-    reward: 3112
+    reward: 2806
   fr:
     last_contribution:
     urgency: 1
     contributors_id:
-    reward: 2806
+    reward: 2653
   it:
     last_contribution:
     urgency: 1
     contributors_id:
-    reward: 2959
+    reward: 2729
   ja:
     last_contribution:
     urgency: 1
     contributors_id:
-    reward: 3418
+    reward: 2959
   pt:
     last_contribution:
     urgency: 1
     contributors_id:
-    reward: 2806
+    reward: 2653
   ru:
     last_contribution:
     urgency: 1
     contributors_id:
-    reward: 3112
+    reward: 2806
   vi:
     last_contribution:
     urgency: 1
     contributors_id:
-    reward: 3418
+    reward: 2959

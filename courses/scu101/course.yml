@@ -10,62 +10,62 @@ professors:
 
 # Proofreading metadata
 original: fr
-translation_review:
+proofreading:
   cs:
-    last_reviewed:
-    next_review_urgency: 1
-    reviewers_id:
+    last_contribution:
+    urgency: 1
+    contributors_id:
     reward: 32248
   de:
-    last_reviewed:
-    next_review_urgency: 1
-    reviewers_id:
+    last_contribution:
+    urgency: 1
+    contributors_id:
     reward: 17374
   en:
-    last_reviewed:
-    next_review_urgency: 1
-    reviewers_id:
+    last_contribution:
+    urgency: 1
+    contributors_id:
     reward: 17374
   es:
-    last_reviewed:
-    next_review_urgency: 1
-    reviewers_id:
+    last_contribution:
+    urgency: 1
+    contributors_id:
     reward: 24811
   fi:
-    last_reviewed: 2024-04-02
-    next_review_urgency: 1
-    reviewers_id:
+    last_contribution: 2024-04-02
+    urgency: 1
+    contributors_id:
     - KryptoKeskus
     reward: 17374
   fr:
-    last_reviewed:
-    next_review_urgency: 1
-    reviewers_id:
+    last_contribution:
+    urgency: 1
+    contributors_id:
     reward: 8687
   it:
-    last_reviewed: 2024-07-14
-    next_review_urgency: 1
-    reviewers_id:
+    last_contribution: 2024-07-14
+    urgency: 1
+    contributors_id:
     - TinF0ilHat1
     reward: 13655
   ja:
-    last_reviewed:
-    next_review_urgency: 1
-    reviewers_id:
+    last_contribution:
+    urgency: 1
+    contributors_id:
     reward: 47122
   pt:
-    last_reviewed:
-    next_review_urgency: 1
-    reviewers_id:
+    last_contribution:
+    urgency: 1
+    contributors_id:
     reward: 17374
   ru:
-    last_reviewed:
-    next_review_urgency: 1
-    reviewers_id:
+    last_contribution:
+    urgency: 1
+    contributors_id:
     reward: 32248
   vi:
-    last_reviewed: 2024-05-05
-    next_review_urgency: 1
-    reviewers_id:
+    last_contribution: 2024-05-05
+    urgency: 1
+    contributors_id:
     - Henry-Da0
     reward: 24811

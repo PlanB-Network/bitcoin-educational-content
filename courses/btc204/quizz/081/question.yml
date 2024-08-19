@@ -7,9 +7,9 @@ tags:
 
 # Proofreading metadata
 original: fr
-translation_review:
+proofreading:
   fr:
-    last_reviewed:
-    next_review_urgency: 1
-    reviewers_id:
+    last_contribution:
+    urgency: 1
+    contributors_id:
     reward: 1327

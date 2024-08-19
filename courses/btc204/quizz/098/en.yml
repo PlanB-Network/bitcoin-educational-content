@@ -1,0 +1,13 @@
+question: What does forward anonymity measure?
+
+answer: The resistance of privacy against a past-to-present analysis.
+
+wrong_answers:
+  - The resistance of privacy against a present-to-past analysis.
+  - The resistance of privacy against a future-to-present analysis.
+  - The resistance of privacy against a future-to-past analysis.
+
+explanation: |
+  Forward anonymity measures the resistance of a coin's privacy against a past-to-present analysis (input to output).
+
+reviewed: false

@@ -1,0 +1,13 @@
+question: Among these 3 protocols, which one is not an implementation of coinjoin?
+
+answer: Chainalysis.
+
+wrong_answers:
+  - JoinMarket.
+  - Wabisabi.
+  - Whirlpool.
+
+explanation: |
+  Chainalysis is not at all an implementation of coinjoin, as it is a blockchain analysis company.
+
+reviewed: false

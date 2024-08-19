@@ -1,0 +1,13 @@
+question: What is the main difference between an enhanced ricochet and a classic ricochet?
+
+answer: The distribution of transactions over time
+
+wrong_answers:
+  - The number of transactions used
+  - The type of address used
+  - The number of outputs in the transactions
+
+explanation: |
+  The enhanced ricochet ensures that each transaction is broadcast at a distinct time and recorded in a different block, whereas the classic ricochet broadcasts all transactions within a short time frame.
+
+reviewed: false

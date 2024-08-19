@@ -1,0 +1,13 @@
+question: How is the efficiency of a Bitcoin transaction calculated in terms of privacy?
+
+answer: By comparing the actual entropy of the transaction to the maximum possible entropy.
+
+wrong_answers:
+  - By multiplying the number of inputs by the number of outputs.
+  - By multiplying the actual entropy of the transaction by the number of inputs and outputs.
+  - By comparing the number of inputs to the number of outputs.
+
+explanation: |
+  The efficiency of the transaction is calculated by subtracting the maximum entropy from the actual entropy of the analyzed transaction.
+
+reviewed: false

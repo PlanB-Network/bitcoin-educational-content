@@ -1,0 +1,13 @@
+question: How does the "stem" phase work in the Dandelion protocol?
+
+answer: The transaction is sent through a random path of nodes.
+
+wrong_answers:
+  - The transaction is immediately broadcast to all peers of the source node.
+  - The transaction is temporarily stored in a central node before being broadcast.
+  - The transaction is encrypted incrementally at each step of the broadcast.
+
+explanation: |
+  Dandelion first uses a "stem" phase where the transaction is sent through a random path of nodes. The transaction is then broadcast to the entire network in the "fluff" phase.
+
+reviewed: false

@@ -1,0 +1,13 @@
+question: What chain analysis heuristic is used by the payjoin transaction to act as a deception?
+
+answer: The COH
+
+wrong_answers:
+  - Address reuse
+  - Wallet fingerprinting
+  - Versioning reuse
+
+explanation: |
+  When an analyst examines a payjoin transaction, they are led to believe that all the inputs come from the same person because of the COH. However, this perception is incorrect, as the payment recipient also contributes to the inputs alongside the actual payer. Thus, the chain analysis is diverted towards an interpretation that turns out to be false.
+
+reviewed: false

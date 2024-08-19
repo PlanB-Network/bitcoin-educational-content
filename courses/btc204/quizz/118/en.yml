@@ -1,0 +1,13 @@
+question: Among the following answers, which one does not represent a risk when sending bitcoins that have undergone a coinjoin to a regulated platform?
+
+answer: The platform may increase transaction fees
+
+wrong_answers:
+  - The platform may freeze the funds
+  - The platform may block the user's account
+  - The platform may report suspicious behavior to the authorities
+
+explanation: |
+  If you send your coin to a regulated exchange platform, but it has recently undergone a coinjoin, the platform's chain analysis tool will detect this fact. The platform might then refuse to accept your UTXO that has undergone a coinjoin, or even demand explanations from you, with the risk of seeing your account suspended or your funds frozen. In some cases, the platform may also report your behavior to state authorities.
+
+reviewed: false

@@ -1,0 +1,13 @@
+question: What strategy does Wabisabi use to increase the anonsets of participants?
+
+answer: With a few very large transactions.
+
+wrong_answers:
+  - With many very small transactions.
+  - With a single small transaction.
+  - With no transactions.
+
+explanation: |
+  To increase the anonsets of participants, Wabisabi uses very large coinjoin transactions that group together dozens of participants.
+
+reviewed: false

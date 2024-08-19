@@ -43,7 +43,7 @@ specific_files = {"course.yml",
 
 
 def compute_reward(words, difficulty_factor, language_factor, urgency, base_fee, proofread_iteration, original):
-    reward = (urgency * (words * difficulty_factor * language_factor * 2**(-proofread_iteration+1)) + base_fee)
+    reward = (urgency * (words * difficulty_factor * language_factor * 2**(-proofread_iteration)) + base_fee)
     if original:
         reward = reward / 2
     reward = floor(reward)
@@ -52,7 +52,7 @@ def compute_reward(words, difficulty_factor, language_factor, urgency, base_fee,
 def update_reward_property(file_path, language, reward):
     data = get_yml_content(file_path)
     # Update the reward property for the specified language
-    data['translation_review'][language]['reward'] = reward
+    data['proofreading'][language]['reward'] = reward
     
     with open(file_path, 'w') as file:
         yaml.dump(data, file)
@@ -68,7 +68,7 @@ def get_words(file_path):
     data = get_yml_content(file_path)
     original = get_orignal(data)
     if not original:
-        raise ValueError("The 'original' property is not found in the file.")
+        raise ValueError(f"The 'original' property is not found in {file_path}.")
     
     directory = os.path.dirname(file_path)
     md_file = os.path.join(directory, f"{original}.md")
@@ -126,7 +126,7 @@ def is_original(data, language):
     return data['original'] == language
 
 def get_data_languages(data):
-    data_languages = list(data['translation_review'].keys())
+    data_languages = list(data['proofreading'].keys())
     return data_languages
 
 
@@ -143,18 +143,20 @@ for subfolder in subfolders:
                     file_path = os.path.join(root, file)
                     # print(file_path)
                     data = get_yml_content(file_path)
-                    words = get_words(file_path)
-                    difficulty_factor = get_difficulty_factor(data)
-                    data_languages = get_data_languages(data)
-                    for language in data_languages:
-                        language_factor = language_factors[language]
-                        reviewers_id = data['translation_review'][language]['reviewers_id']
-                        proofread_iteration = get_proofread_iteration(reviewers_id)
-                        urgency = data['translation_review'][language]['next_review_urgency']
-                        original = is_original(data, language)
-                        reward = compute_reward(words, difficulty_factor, language_factor, urgency, BASE_FEE, proofread_iteration, original)
-                        update_reward_property(file_path, language, reward)
-                        # print(f"{file_path} reward updated in {language} to {reward}")
-print("rewards set")
+                    if data.get('proofreading'):
+                        words = get_words(file_path)
+                        difficulty_factor = get_difficulty_factor(data)
+                        data_languages = get_data_languages(data)
+                        for language in data_languages:
+                            language_factor = language_factors[language]
+                            reviewers_id = data['proofreading'][language]['contributors_id']
+                            proofread_iteration = get_proofread_iteration(reviewers_id)
+                            urgency = data['proofreading'][language]['urgency']
+                            original = is_original(data, language)
+                            reward = compute_reward(words, difficulty_factor, language_factor, urgency, BASE_FEE, proofread_iteration, original)
+                            update_reward_property(file_path, language, reward)
+                            # print(f"{file_path} reward updated in {language} to {reward}")
+    print(f"rewards set for {subfolder}")
+print("reward update process finished!")
 
 

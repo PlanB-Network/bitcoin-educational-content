@@ -1,0 +1,8 @@
+question: 当Alice尝试通过发布一个旧的承诺交易来作弊时会发生什么？
+answer: Bob使用撤销密钥来惩罚Alice，并从通道中拿走所有的SAT。
+wrong_answers:
+  - Alice因其聪明才智而得到奖励。
+  - Alice和Bob分割通道中的SAT。
+  - 交易被拒绝，没有任何事情发生。
+explanation: |
+  闪电网络有一个机制来防止作弊。如果Alice尝试通过发布一个旧的承诺交易来作弊，Bob可以使用撤销密钥来惩罚Alice，并从通道中拿走所有的SAT。

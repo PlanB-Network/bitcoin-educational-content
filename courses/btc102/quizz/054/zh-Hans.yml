@@ -1,0 +1,9 @@
+question: 谁提出了“比特币高速公路”的概念？
+answer: Andreas Antonopoulos
+wrong_answers:
+  - Satoshi Nakamoto
+  - Elon Musk
+  - Vitalik Buterin
+explanation: |
+  Andreas Antonopoulos，一位著名的比特币倡导者和教育者，提出了“比特币高速公路”的概念。
+reviewed: false

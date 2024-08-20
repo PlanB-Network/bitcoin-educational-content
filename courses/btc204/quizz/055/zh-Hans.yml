@@ -1,0 +1,13 @@
+question: 什么是比特币接收地址？
+
+answer: 用于接收比特币的一串字符。
+
+wrong_answers:
+  - 用于发送比特币的代码。
+  - 用于挖掘比特币的算法。
+  - 一个智能合约。
+
+explanation: |
+  接收地址用于将比特币接收到一个钱包中。
+
+reviewed: false

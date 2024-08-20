@@ -1,0 +1,9 @@
+question: 交易过程中发生了什么
+answer: 交易的秘密
+wrong_answers:
+  - 交易的秘密
+  - 决定了一个新的秘密并创建了一个新的撤销密钥。
+  - 用新的秘密和撤销密钥更新了之前的承诺交易。
+explanation: |
+  交易过程中发生的事情
+reviewed: false

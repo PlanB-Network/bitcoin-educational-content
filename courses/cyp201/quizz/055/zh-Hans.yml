@@ -1,0 +1,9 @@
+question: 在比特币钱包中，有时用来指代私钥集合的粗俗名称是什么？
+answer: 一堆密钥（JBOC）
+wrong_answers:
+  - 一堆硬币（JBOC）
+  - 一堆加密货币（JBOC）
+  - 一堆代码（JBOC）
+explanation: |
+  来自单一主密钥派生的私有加密密钥集合，在比特币钱包中有时被稍微粗俗地称为“一堆密钥”（JBOC）。
+reviewed: false

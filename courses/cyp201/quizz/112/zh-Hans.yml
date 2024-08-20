@@ -1,0 +1,8 @@
+question: HD Wallet结构中的Depth 3有什么用途？
+answer: 它用于将钱包组织成不同的账户
+wrong_answers:
+  - 它用于派生特定用途的子密钥
+  - 它允许区分不同加密货币或网络的账户
+  - 它对应于外部和内部链
+explanation: |
+  在HD Wallet结构中，Depth 3用于将钱包组织成不同的账户，提供了更清晰、更有组织的结构。

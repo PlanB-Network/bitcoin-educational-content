@@ -1,0 +1,8 @@
+question: 如果Bob永远不去获取秘密，HTLC会发生什么？
+answer: HTLC将在一定数量的区块后过期。
+wrong_answers:
+  - HTLC将会立即被取消。
+  - HTLC将被转移给Alice。
+  - HTLC将被转移给Susie。
+explanation: |
+  如果Bob永远不去获取秘密，HTLC将在一定数量的区块后过期。这是一个内置机制，以确保合约不会无限期地处于悬而未决的状态。

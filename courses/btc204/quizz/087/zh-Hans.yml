@@ -1,0 +1,13 @@
+question: Wabisabi与Wasabi 1.0相比，如何管理变更？
+
+answer: 它将变更分割成几个小额，这些小额以相等的面额分配。
+
+wrong_answers:
+  - 它将它们合并以防止它们变成“尘埃”。
+  - 它通过使输入平等化，在coinjoin交易之前排除它们。
+  - 它自动将其转移到一个备用钱包。
+
+explanation: |
+  与Wasabi 1.0不同，在Wasabi 1.0中变更直接与用户的输入相关联，Wabisabi寻求将变更细分为几个小额，这些小额以相等的面额为所有参与者分配。
+
+reviewed: false

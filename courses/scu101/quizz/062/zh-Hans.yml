@@ -1,0 +1,8 @@
+问题: 在网络安全中需要哪些网络知识方面？
+答案: TCP/IP, VPN, 防火墙
+错误答案:
+  - HTTP, FTP, SMTP
+  - POP3, IMAP, SSH
+  - DHCP, DNS, ARP
+解释: |
+  本章提到了TCP/IP、VPN和防火墙作为网络安全所需的一些网络知识方面。

@@ -1,0 +1,8 @@
+问题: 允许将比特币锁定到一个公钥的脚本类型是什么？
+答案: Pay2PublicKey
+错误答案:
+  - Pay2Address
+  - Pay2PrivateKey
+  - Pay2Hash
+解释: |
+  允许将比特币锁定到一个公钥的脚本类型称为Pay2PublicKey。然而，用户通常更喜欢使用接收地址而不是这种脚本。

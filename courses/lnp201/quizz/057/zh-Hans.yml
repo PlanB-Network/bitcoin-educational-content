@@ -1,0 +1,8 @@
+问题：Alice的承诺交易中的HTLC-out的目的是什么？
+答案：它代表Alice发送给接收者Susie的HTLC。
+错误答案：
+  - 它代表Alice从Bob那里收到的HTLC。
+  - 它代表Alice发送给Bob的HTLC。
+  - 它代表Alice从Susie那里收到的HTLC。
+解释：
+  在给定的场景中，Alice向Susie发送一个HTLC。这在Alice的承诺交易中表示为一个HTLC-out。

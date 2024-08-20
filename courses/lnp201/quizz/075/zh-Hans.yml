@@ -1,0 +1,8 @@
+question: 在闪电网络(Lightning Network)的上下文中，什么是Keysend？
+answer: 它允许用户在没有接收者请求的情况下发送资金
+wrong_answers:
+  - 它是闪电网络中使用的一种加密类型
+  - 它是生成新比特币地址的一种方法
+  - 它是用于追踪闪电网络上交易的工具
+explanation: |
+  在闪电网络(Lightning Network)的上下文中，Keysend允许用户在没有接收者请求的情况下发送资金。发送者检索接收者的ID，创建一个预像(preimage)而不请求接收者，并在支付中包含它。

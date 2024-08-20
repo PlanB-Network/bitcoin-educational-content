@@ -1,0 +1,8 @@
+question: Lightning Network中Loop的角色是什么？
+answer: Loop是一个特殊的节点，提供LN/BTC重平衡服务。
+wrong_answers:
+  - Loop是一个连接买家和商家的节点。
+  - Loop是一个帮助打开通道的节点。
+  - Loop是一个存储所有交易的节点。
+explanation: |
+  在Lightning Network中，Loop是一个特殊的节点，提供LN/BTC重平衡的专业服务。这是通过向Loop发送流动性，然后通过另一个节点将链上余额发送回原始节点来完成的。

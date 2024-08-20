@@ -1,0 +1,8 @@
+question: Lightning Network路由过程中随机因素的目的是什么？
+answer: 为了避免总是使用相同的路由。
+wrong_answers:
+  - 增加网络的复杂性。
+  - 减少交易的速度。
+  - 侵犯用户隐私。
+explanation: |
+  Lightning Network路由过程中的随机因素用于避免总是使用相同的路由。这有助于在网络中分散负载，并增加找到成功路由进行交易的机会。

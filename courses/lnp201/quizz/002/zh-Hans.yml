@@ -1,0 +1,9 @@
+question: 什么改变了闪电支付通道中的容量分布？
+answer: 通道内的交易
+wrong_answers:
+  - 比特币汇率的变化
+  - 通道的总容量变化
+  - 比特币网络的变化
+explanation: |
+  通道内的交易不会改变通道的总容量，但它们确实改变了用户之间该容量的分布。
+reviewed: false

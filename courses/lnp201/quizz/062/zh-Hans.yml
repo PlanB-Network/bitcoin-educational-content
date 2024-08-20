@@ -1,0 +1,8 @@
+question: HTLC中哈希r的作用是什么？
+answer: 它被包含在Bob发送给Alice的发票中，并用于设置HTLC。
+wrong_answers:
+  - 它用于计算秘密S。
+  - 它用于关闭通道。
+  - 它用于转移资金。
+explanation: |
+  Bob生成一个秘密S并计算哈希r。这个哈希被包含在Bob发送给Alice的发票中，并用于设置HTLC。

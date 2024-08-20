@@ -1,0 +1,8 @@
+question: 在比特币中，以bc1q和bc1p开头的地址有什么区别？
+answer: bc1q地址使用Segwit V0，而bc1p地址使用Segwit V1。
+wrong_answers:
+  - bc1q地址使用Segwit V1，而bc1p地址使用Segwit V0。
+  - bc1q和bc1p地址都使用Segwit V0。
+  - bc1q和bc1p地址都使用Segwit V1。
+explanation: |
+  要构建一个以bc1q开头的地址，我们使用Segwit V0。另一方面，Taproot地址以bc1p开头，因为它们的版本（Segwit V1）对应于0+1=1，因此使用字符p。

@@ -1,0 +1,11 @@
+question: 在订单簿的上下文中，什么是maker和taker？
+answer: Maker是订单提供者，而taker是订单接受者。
+wrong_answers:
+  - Maker是订单接受者，而taker是订单提供者。
+  - Maker是订单制造者，而taker是订单接受者。
+  - Maker是订单接受者，而taker是订单制造者。
+explanation: |
+  在订单簿的上下文中，maker指的是那些提供订单的人，
+
+
+  而taker指的是那些接受订单的人。

@@ -1,0 +1,9 @@
+question: Bitcoin Improvement Proposals (BIPs)的目的是什么？
+answer: 它们是升级提案，旨在增强HD钱包的功能性和安全性。
+wrong_answers:
+  - 它们是提高比特币价值的提案。
+  - 它们是改变比特币挖矿过程的提案。
+  - 它们是规范比特币使用的提案。
+explanation: |
+  Bitcoin Improvement Proposals (BIPs)是旨在改善HD钱包功能性和安全性的协议。例如，BIP32引入了确定性和层次化派生密钥的概念。
+reviewed: false

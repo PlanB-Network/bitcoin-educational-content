@@ -1,0 +1,8 @@
+问题: 在segwit标准的情况下，用于计算校验和的是什么？
+答案: BCH (Bose-Chaudhuri-Hocquenghem) 程序
+错误答案:
+  - 双重SHA256哈希
+  - pbkdf2函数
+  - hmacha512函数
+解释: |
+  在segwit标准的情况下，用于计算校验和的是BCH (Bose-Chaudhuri-Hocquenghem) 程序。

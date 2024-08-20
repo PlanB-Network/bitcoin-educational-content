@@ -1,0 +1,11 @@
+question: 在静默支付中用于建立接收者和支付者之间共享秘密的加密算法叫什么名字？
+
+answer: ECDH
+
+wrong_answers:
+  - RSA
+  - DH
+  - SHA256
+
+explanation: |
+  ECDH（椭圆曲线Diffie-Hellman）算法在静默支付中被用于接收者的扫描密钥对和发送者密钥对的和之间，以建立共享秘密，该秘密将用于派生独一无二的支付地址。

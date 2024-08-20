@@ -1,0 +1,11 @@
+问题：在这三种协议中，哪一个不是coinjoin的实现？
+
+答案：Chainalysis。
+
+错误答案：
+  - JoinMarket。
+  - Wabisabi。
+  - Whirlpool。
+
+解释：
+  Chainalysis根本不是coinjoin的实现，因为它是一家区块链分析公司。

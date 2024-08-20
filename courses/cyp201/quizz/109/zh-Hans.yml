@@ -1,0 +1,8 @@
+question: 在HD钱包的上下文中，派生路径中的索引表示什么？
+answer: 在HMAC函数中使用的值
+wrong_answers:
+  - 在SHA-256函数中使用的值
+  - 在RSA函数中使用的值
+  - 在AES函数中使用的值
+explanation: |
+  在HD钱包的上下文中，派生路径中的索引表示在HMAC函数中使用的值。这用于区分同一深度下不同的子密钥对。

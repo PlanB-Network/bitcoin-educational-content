@@ -1,0 +1,8 @@
+question: 哪种技术有助于防范KYC引起的跟踪风险？
+answer: Coinjoin交易
+wrong_answers:
+  - 使用VPN
+  - 使用完整节点
+  - 通过工作证明进行验证
+explanation: |
+  Coinjoin的效果在于打破了硬币的历史记录，这有助于你抵消与KYC相关的跟踪风险。

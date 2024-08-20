@@ -1,0 +1,9 @@
+问题：在Alice的承诺交易中，谁拥有撤销密钥？
+答案：只有Alice。
+错误答案：
+  - 只有Bob。
+  - Alice和Bob都有。
+  - Alice和Bob都没有。
+解释：
+  在Alice的承诺交易中，只有Alice拥有撤销密钥。
+  这允许她在Bob尝试欺骗的情况下，不用等待Timelock结束就可以移动资金。

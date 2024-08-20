@@ -1,0 +1,8 @@
+问题：在示例中，闪电网络转账涉及的两个对等方是谁？
+答案：Alice 和 Bob。
+错误答案：
+  - Alice 和 Charlie。
+  - Bob 和 Charlie。
+  - Alice 和比特币网络。
+解释：
+  在示例中，Alice 和 Bob 是闪电网络转账涉及的两个对等方。

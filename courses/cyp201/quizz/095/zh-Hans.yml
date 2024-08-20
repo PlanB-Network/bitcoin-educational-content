@@ -1,0 +1,8 @@
+question: XPUB前缀在扩展密钥中表示什么？
+answer: 它是一个扩展公钥。
+wrong_answers:
+  - 它是一个扩展私钥。
+  - 它是一个主密钥。
+  - 它是一个子密钥。
+explanation: |
+  扩展密钥通过特定的前缀（XPRV、XPUB、YPUB、ZPUB）来识别，这些前缀表明它是扩展私钥还是公钥，以及它的具体用途。

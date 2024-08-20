@@ -1,0 +1,8 @@
+question: 比特币中使用的secp256k1曲线方程是什么？
+answer: "y² = x³ + 7 模 n"
+wrong_answers:
+  - "y² = x³ + ax + b"
+  - "y² = x³ + 7 模 p"
+  - "y² = x³ + ax + b 模 n"
+explanation: |
+  "比特币中使用的secp256k1曲线是由参数a=0和b=7定义的，其方程为y² = x³ + 7 模 n，其中n代表确定曲线阶的质数。"

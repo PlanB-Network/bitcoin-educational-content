@@ -1,0 +1,8 @@
+question: 在法国，ATM无需身份验证的交易限额是多少？
+answer: 500欧元
+wrong_answers:
+  - 1000欧元
+  - 2000欧元
+  - 3000欧元
+explanation: |
+  法国的ATM受到监管，对超过500欧元的交易需要进行身份验证。

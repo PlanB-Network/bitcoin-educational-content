@@ -1,0 +1,8 @@
+question: 企业VPN与消费者VPN有什么区别？
+answer: 企业VPN更昂贵且更复杂，而消费者VPN更易于获取且用户友好。
+wrong_answers:
+  - 企业VPN的安全性不如消费者VPN。
+  - 消费者VPN比企业VPN更昂贵。
+  - 企业VPN不加密数据，而消费者VPN则会加密。
+explanation: |
+  企业VPN是为企业设计的，通常设置和管理起来更昂贵且更复杂。另一方面，消费者VPN是为个人用户设计的，通常更易于获取且用户友好。

@@ -1,0 +1,13 @@
+问题：在比特币核心配置文件中，哪个选项允许启用或禁用P2P传输V2？
+
+答案：v2transport=
+
+错误答案：
+  - p2penable=
+  - networkv2=
+  - enablev2=
+
+解释：
+  P2P V2传输可以通过Core节点配置文件中的v2transport=选项进行修改。
+
+已审核：false

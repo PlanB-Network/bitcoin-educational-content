@@ -1,0 +1,8 @@
+question: Lightning Network 发票中的原像哈希的目的是什么？
+answer: 它被用来解锁支付
+wrong_answers:
+  - 它被用来加密发票数据
+  - 它被用来验证接收者的身份
+  - 它被用来计算交易费用
+explanation: |
+  Lightning Network 发票中的原像哈希被用来解锁支付。接收支付的一方必须提供与哈希相匹配的原像，以便接收资金。

@@ -1,0 +1,9 @@
+question: Lightning Network节点在交易中扮演什么角色？
+answer: 它们通过同意用于路由交易来收取费用。
+wrong_answers:
+  - 它们在不收取任何费用的情况下促成交易。
+  - 它们启动交易。
+  - 它们是交易的最终接收者。
+explanation: |
+  在Lightning Network中，节点通过同意被用于路由交易来收取费用。这个费用根据流动性所在的位置而有所不同。
+reviewed: false

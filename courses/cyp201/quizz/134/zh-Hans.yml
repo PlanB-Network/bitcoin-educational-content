@@ -1,0 +1,8 @@
+question: 在HD钱包中，用于从助记词和密码短语生成种子的函数是什么？
+answer: pbkdf2函数
+wrong_answers:
+  - hmacha512函数
+  - SHA256函数
+  - RIPMD160函数
+explanation: |
+  pbkdf2函数用于从助记词和密码短语生成种子，使用hmacha512和2048次迭代。然后，这个种子被用来派生主密钥和主链代码。

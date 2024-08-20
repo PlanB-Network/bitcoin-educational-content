@@ -1,0 +1,10 @@
+问题：最常用的扩展密钥前缀是什么？
+答案：xpub 和 zpub
+错误答案：
+  - xprv 和 zprv
+  - ypub 和 zpub
+  - xpub 和 ypub
+解释：|
+  最常用的前缀是 xpub 和 zpub，分别对应于
+
+  传统和隔离见证 v1 以及隔离见证 v0 标准。

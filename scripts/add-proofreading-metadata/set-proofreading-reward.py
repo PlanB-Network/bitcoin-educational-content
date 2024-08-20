@@ -88,7 +88,7 @@ def get_words(file_path):
     return word_count
 
 def get_orignal(data):
-    original = data.get('original')
+    original = data.get('original_language')
     return original
 
 
@@ -123,7 +123,7 @@ def get_yml_content(file_path):
     
 
 def is_original(data, language):
-    return data['original'] == language
+    return data['original_language'] == language
 
 def get_data_languages(data):
     data_languages = list(data['proofreading'].keys())

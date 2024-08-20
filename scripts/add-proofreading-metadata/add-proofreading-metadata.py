@@ -7,12 +7,12 @@ languages.sort()  # Sorts the language list alphabetically
 # Part of the template that is always added
 base_template = """
 # Proofreading metadata
-original:
+original_language:
 proofreading:"""
 def template_language_specific(lang):
     content = f"""
   - {lang}
-      - last_contributions: 
+      - last_contridution_date: 
       - urgency: 
       - contributors_id: 
       - reward: """
@@ -60,9 +60,9 @@ def process_directory(root_dir, subfolders):
                             if lang_presence[lang]:
                                 content_to_append += f"""
   - {lang}
-      - last_reviewed: 
-      - next_review_urgency: 
-      - reviewer_id: 
+      - last_contribution_date: 
+      - urgency: 
+      - contributors_id: 
       - reward: """
                         append_to_yaml(file_path, content_to_append)
                         print(f"Processed {file_path}")
@@ -72,7 +72,7 @@ def process_directory(root_dir, subfolders):
 # Root directory for the specific subfolders
 root_directory = '../../'
 # root_directory = '../../test-bec/'
-subfolders = ["courses", "tutorials", "resources", "professors"]
+subfolders = ["courses", "tutorials", "resources"]
 
 # Call the function with the list of subfolders to process
 process_directory(root_directory, subfolders)

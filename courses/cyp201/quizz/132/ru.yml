@@ -1,0 +1,12 @@
+question: Что такое BCH32 в контексте Bitcoin?
+answer: Это специфический для Bitcoin вариант base 32.
+wrong_answers:
+  - Это специфический для Bitcoin вариант base 64.
+  - Это специфический для Bitcoin вариант base 16.
+  - Это специфический для Bitcoin вариант base 2.
+explanation: |
+  BCH32 - это специфический для Bitcoin вариант base 32. Он используется в
+
+  конструкции
+
+  адресов Bitcoin.

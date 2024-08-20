@@ -1,0 +1,8 @@
+Вопрос: Что обозначает 'bc' в 'lnbc1m' в инвойсе Lightning Network?
+Ответ: Bitcoin mainnet
+Неверные ответы:
+  - Bitcoin Cash
+  - Блокчейн
+  - Bitcoin Core
+Объяснение: |
+  В инвойсе Lightning Network 'bc' означает Bitcoin mainnet. Это указывает на то, что запрос на оплату предназначен для основной сети Bitcoin, в отличие от тестовой сети или другой сети.

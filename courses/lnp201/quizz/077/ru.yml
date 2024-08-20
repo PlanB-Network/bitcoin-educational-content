@@ -1,0 +1,9 @@
+question: Что означает 'ln' в 'lnbc1m' в инвойсе Lightning Network?
+answer: Lightning
+wrong_answers:
+  - Litecoin
+  - Ledger Nano
+  - Длинное число
+explanation: |
+  В инвойсе Lightning Network 'ln' означает Lightning, что относится
+  к Lightning Network, решению второго уровня для Bitcoin, которое позволяет проводить быстрые транзакции с низкой стоимостью.

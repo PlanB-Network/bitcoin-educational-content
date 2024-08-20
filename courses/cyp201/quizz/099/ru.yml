@@ -1,0 +1,10 @@
+question: Какие префиксы для расширенных ключей используются наиболее часто?
+answer: xpub и zpub
+wrong_answers:
+  - xprv и zprv
+  - ypub и zpub
+  - xpub и ypub
+explanation: |
+  Наиболее часто используемые префиксы - это xpub и zpub, которые соответствуют
+
+  стандартам legacy и segwit v1 и segwit v0 соответственно.

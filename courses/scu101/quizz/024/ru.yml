@@ -1,0 +1,10 @@
+question: Какие существуют решения для шифрования данных на различных операционных системах?
+answer: BitLocker для Windows, LUKS для Linux и встроенная опция для Mac.
+wrong_answers:
+  - BitLocker для Linux, LUKS для Mac и встроенная опция для Windows.
+  - BitLocker для Mac, LUKS для Windows и встроенная опция для Linux.
+  - LUKS для всех операционных систем.
+explanation: |
+  Различные операционные системы имеют разные решения для шифрования данных.
+  BitLocker предназначен для Windows, LUKS для Linux, а Mac имеет встроенную опцию для шифрования данных.
+reviewed: false

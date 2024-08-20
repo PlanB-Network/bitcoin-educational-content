@@ -13,57 +13,57 @@ category: conference
 # Proofreading metadata
 original_language: en
 proofreading:
-  cs:
+  - language: cs
     last_contribution_date:
     urgency: 1
     contributors_id:
     reward: 2522
-  de:
+  - language: de
     last_contribution_date:
     urgency: 1
     contributors_id:
     reward: 2511
-  en:
+  - language: en
     last_contribution_date:
     urgency: 1
     contributors_id:
     reward: 1255
-  es:
+  - language: es
     last_contribution_date:
     urgency: 1
     contributors_id:
     reward: 2516
-  fi:
+  - language: fi
     last_contribution_date:
     urgency: 1
     contributors_id:
     reward: 2522
-  fr:
+  - language: fr
     last_contribution_date:
     urgency: 1
     contributors_id:
     reward: 2511
-  it:
+  - language: it
     last_contribution_date:
     urgency: 1
     contributors_id:
     reward: 2516
-  ja:
+  - language: ja
     last_contribution_date:
     urgency: 1
     contributors_id:
     reward: 2533
-  pt:
+  - language: pt
     last_contribution_date:
     urgency: 1
     contributors_id:
     reward: 2511
-  ru:
+  - language: ru
     last_contribution_date:
     urgency: 1
     contributors_id:
     reward: 2522
-  vi:
+  - language: vi
     last_contribution_date:
     urgency: 1
     contributors_id:

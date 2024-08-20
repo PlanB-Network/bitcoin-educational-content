@@ -4,23 +4,23 @@ links:
   download: 
     https://github.com/DecouvreBitcoin/sovereign-university-data/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf
   view:
-  - en: 
+  - - language: en 
       https://github.com/DecouvreBitcoin/sovereign-university-data/blob/dev/resources/bet/bip39-wordlist/assets
-  - fr: 
+  - - language: fr 
       https://github.com/DecouvreBitcoin/sovereign-university-data/blob/dev/resources/bet/bip39-wordlist/assets
-  - pt: 
+  - - language: pt 
       https://github.com/DecouvreBitcoin/sovereign-university-data/blob/dev/resources/bet/bip39-wordlist/assets
-  - es: 
+  - - language: es 
       https://github.com/DecouvreBitcoin/sovereign-university-data/blob/dev/resources/bet/bip39-wordlist/assets
-  - it: 
+  - - language: it 
       https://github.com/DecouvreBitcoin/sovereign-university-data/blob/dev/resources/bet/bip39-wordlist/assets
-  - de: 
+  - - language: de 
       https://github.com/DecouvreBitcoin/sovereign-university-data/blob/dev/resources/bet/bip39-wordlist/assets
-  - ja: 
+  - - language: ja 
       https://github.com/DecouvreBitcoin/sovereign-university-data/blob/dev/resources/bet/bip39-wordlist/assets
-  - vi: 
+  - - language: vi 
       https://github.com/DecouvreBitcoin/sovereign-university-data/blob/dev/resources/bet/bip39-wordlist/assets
-  - fi: 
+  - - language: fi 
       https://github.com/DecouvreBitcoin/sovereign-university-data/blob/dev/resources/bet/bip39-wordlist/assets
 tags:
 - bitcoin
@@ -30,57 +30,57 @@ contributors:
 # Proofreading metadata
 original_language: en
 proofreading:
-  cs:
+  - language: cs
     last_contribution_date:
     urgency: 1
     contributors_id:
     reward: 2564
-  de:
+  - language: de
     last_contribution_date:
     urgency: 1
     contributors_id:
     reward: 2532
-  en:
+  - language: en
     last_contribution_date:
     urgency: 1
     contributors_id:
     reward: 1266
-  es:
+  - language: es
     last_contribution_date:
     urgency: 1
     contributors_id:
     reward: 2548
-  fi:
+  - language: fi
     last_contribution_date:
     urgency: 1
     contributors_id:
     reward: 2564
-  fr:
+  - language: fr
     last_contribution_date:
     urgency: 1
     contributors_id:
     reward: 2532
-  it:
+  - language: it
     last_contribution_date:
     urgency: 1
     contributors_id:
     reward: 2548
-  ja:
+  - language: ja
     last_contribution_date:
     urgency: 1
     contributors_id:
     reward: 2596
-  pt:
+  - language: pt
     last_contribution_date:
     urgency: 1
     contributors_id:
     reward: 2532
-  ru:
+  - language: ru
     last_contribution_date:
     urgency: 1
     contributors_id:
     reward: 2564
-  vi:
+  - language: vi
     last_contribution_date:
     urgency: 1
     contributors_id:

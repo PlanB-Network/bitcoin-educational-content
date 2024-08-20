@@ -12,57 +12,57 @@ level: intermediate
 # Proofreading metadata
 original_language: en
 proofreading:
-  cs:
+  - language: cs
     last_contribution_date:
     urgency: 1
     contributors_id:
     reward: 6692
-  de:
+  - language: de
     last_contribution_date:
     urgency: 1
     contributors_id:
     reward: 4596
-  en:
+  - language: en
     last_contribution_date:
     urgency: 1
     contributors_id:
     reward: 2298
-  es:
+  - language: es
     last_contribution_date:
     urgency: 1
     contributors_id:
     reward: 5644
-  fi:
+  - language: fi
     last_contribution_date:
     urgency: 1
     contributors_id:
     reward: 6692
-  fr:
+  - language: fr
     last_contribution_date:
     urgency: 1
     contributors_id:
     reward: 4596
-  it:
+  - language: it
     last_contribution_date:
     urgency: 1
     contributors_id:
     reward: 5644
-  ja:
+  - language: ja
     last_contribution_date:
     urgency: 1
     contributors_id:
     reward: 8788
-  pt:
+  - language: pt
     last_contribution_date:
     urgency: 1
     contributors_id:
     reward: 4596
-  ru:
+  - language: ru
     last_contribution_date:
     urgency: 1
     contributors_id:
     reward: 6692
-  vi:
+  - language: vi
     last_contribution_date:
     urgency: 1
     contributors_id:

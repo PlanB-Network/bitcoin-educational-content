@@ -22,12 +22,12 @@ tags:
 # Proofreading metadata
 original_language: en
 proofreading:
-  en:
+  - language: en
     last_contribution_date:
     urgency: 1
     contributors_id:
     reward: 1329
-  ru:
+  - language: ru
     last_contribution_date:
     urgency: 1
     contributors_id:

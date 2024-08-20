@@ -2,7 +2,7 @@ builder: DecouvreBitcoin
 type: Visual Content
 links:
   view:
-  - en: 
+  - - language: en 
       https://penpot.planb.network/#/view/c157057b-fd28-8042-8004-4f081b21defb?page-id=c157057b-fd28-8042-8004-4f081b21defc&section=interactions&index=0&share-id=7154756b-3ebd-8040-8004-6475c2af5889&zoom=fill
   download: https://workspace.planb.network/s/GTCK3pZf8zN9rQE
 tags:
@@ -14,57 +14,57 @@ contributors:
 # Proofreading metadata
 original_language: en
 proofreading:
-  cs:
+  - language: cs
     last_contribution_date:
     urgency: 1
     contributors_id:
     reward: 2536
-  de:
+  - language: de
     last_contribution_date:
     urgency: 1
     contributors_id:
     reward: 2518
-  en:
+  - language: en
     last_contribution_date:
     urgency: 1
     contributors_id:
     reward: 1259
-  es:
+  - language: es
     last_contribution_date:
     urgency: 1
     contributors_id:
     reward: 2527
-  fi:
+  - language: fi
     last_contribution_date:
     urgency: 1
     contributors_id:
     reward: 2536
-  fr:
+  - language: fr
     last_contribution_date:
     urgency: 1
     contributors_id:
     reward: 2518
-  it:
+  - language: it
     last_contribution_date:
     urgency: 1
     contributors_id:
     reward: 2527
-  ja:
+  - language: ja
     last_contribution_date:
     urgency: 1
     contributors_id:
     reward: 2554
-  pt:
+  - language: pt
     last_contribution_date:
     urgency: 1
     contributors_id:
     reward: 2518
-  ru:
+  - language: ru
     last_contribution_date:
     urgency: 1
     contributors_id:
     reward: 2536
-  vi:
+  - language: vi
     last_contribution_date:
     urgency: 1
     contributors_id:

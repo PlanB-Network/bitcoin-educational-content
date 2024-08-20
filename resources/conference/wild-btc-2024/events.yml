@@ -12,8 +12,8 @@
   description:  We have bucks and sometimes also pigs. And we particularly care about international understanding. That's why we warmly invite you... To Bitcoin and beer. To Plebtalk and Plebwalk. Finally going steep and totally coming down. Welcome to WILD BTC 2024!
   
   language: 
-  en:
-  de:
+  - language: en
+  - language: de
   links:
     website: https://www.zumwildenmichel.de/event-details/wild-btc-2024-black-forest-bitcoin-camp-05-07-07-07-24
     replay_url:

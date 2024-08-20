@@ -13,7 +13,7 @@
   available_seats: 10
   description: 3rd guest star lecture of PlanB Biz School
   language:
-  en:
+  - language: en
   links:
     replay_url:
     live_url: https://www.youtube.com/embed/FY3QdJoGM04?si=IK0klbOGbqsdffsr

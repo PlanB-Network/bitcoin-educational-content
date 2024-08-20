@@ -15,57 +15,57 @@ credits:
 # Proofreading metadata
 original_language: en
 proofreading:
-  cs:
+  - language: cs
     last_contribution_date:
     urgency: 1
     contributors_id:
     reward: 8512
-  de:
+  - language: de
     last_contribution_date:
     urgency: 1
     contributors_id:
     reward: 5506
-  en:
+  - language: en
     last_contribution_date:
     urgency: 1
     contributors_id:
     reward: 2753
-  es:
+  - language: es
     last_contribution_date:
     urgency: 1
     contributors_id:
     reward: 7009
-  fi:
+  - language: fi
     last_contribution_date:
     urgency: 1
     contributors_id:
     reward: 8512
-  fr:
+  - language: fr
     last_contribution_date:
     urgency: 1
     contributors_id:
     reward: 5506
-  it:
+  - language: it
     last_contribution_date:
     urgency: 1
     contributors_id:
     reward: 7009
-  ja:
+  - language: ja
     last_contribution_date:
     urgency: 1
     contributors_id:
     reward: 11518
-  pt:
+  - language: pt
     last_contribution_date:
     urgency: 1
     contributors_id:
     reward: 5506
-  ru:
+  - language: ru
     last_contribution_date:
     urgency: 1
     contributors_id:
     reward: 8512
-  vi:
+  - language: vi
     last_contribution_date:
     urgency: 1
     contributors_id:

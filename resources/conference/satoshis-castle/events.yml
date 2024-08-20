@@ -11,7 +11,7 @@
   price_dollars: 0
   description: Wir finden, die perfekte Zitadelle!
   language: 
-  de:
+  - language: de
   links:
     website: https://zitadelle2024.einundzwanzig.space/
     replay_url:

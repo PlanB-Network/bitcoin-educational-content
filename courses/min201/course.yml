@@ -11,58 +11,58 @@ professors:
 # Proofreading metadata
 original_language: fr
 proofreading:
-  cs:
+  - language: cs
     last_contribution_date:
     urgency: 1
     contributors_id:
     reward: 58568
-  de:
+  - language: de
     last_contribution_date:
     urgency: 1
     contributors_id:
     reward: 30534
-  en:
+  - language: en
     last_contribution_date:
     urgency: 1
     contributors_id:
     reward: 30534
-  es:
+  - language: es
     last_contribution_date:
     urgency: 1
     contributors_id:
     reward: 44551
-  fi:
+  - language: fi
     last_contribution_date:
     urgency: 1
     contributors_id:
     reward: 58568
-  fr:
+  - language: fr
     last_contribution_date:
     urgency: 1
     contributors_id:
     reward: 15267
-  it:
+  - language: it
     last_contribution_date: 2024-07-18
     urgency: 1
     contributors_id:
     - TinF0ilHat1
     reward: 23525
-  ja:
+  - language: ja
     last_contribution_date:
     urgency: 1
     contributors_id:
     reward: 86602
-  pt:
+  - language: pt
     last_contribution_date:
     urgency: 1
     contributors_id:
     reward: 30534
-  ru:
+  - language: ru
     last_contribution_date:
     urgency: 1
     contributors_id:
     reward: 58568
-  vi:
+  - language: vi
     last_contribution_date:
     urgency: 1
     contributors_id:

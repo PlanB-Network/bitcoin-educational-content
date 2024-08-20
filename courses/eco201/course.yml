@@ -13,58 +13,58 @@ contributors:
 # Proofreading metadata
 original_language: en
 proofreading:
-  cs:
+  - language: cs
     last_contribution_date:
     urgency: 1
     contributors_id:
     reward: 55152
-  de:
+  - language: de
     last_contribution_date:
     urgency: 1
     contributors_id:
     reward: 28826
-  en:
+  - language: en
     last_contribution_date:
     urgency: 1
     contributors_id:
     reward: 14413
-  es:
+  - language: es
     last_contribution_date:
     urgency: 1
     contributors_id:
     reward: 41989
-  fi:
+  - language: fi
     last_contribution_date:
     urgency: 1
     contributors_id:
     reward: 55152
-  fr:
+  - language: fr
     last_contribution_date:
     urgency: 1
     contributors_id:
     reward: 28826
-  it:
+  - language: it
     last_contribution_date: 2024-03-27
     urgency: 1
     contributors_id:
     - TinF0ilHat1
     reward: 22244
-  ja:
+  - language: ja
     last_contribution_date:
     urgency: 1
     contributors_id:
     reward: 81478
-  pt:
+  - language: pt
     last_contribution_date:
     urgency: 1
     contributors_id:
     reward: 28826
-  ru:
+  - language: ru
     last_contribution_date:
     urgency: 1
     contributors_id:
     reward: 55152
-  vi:
+  - language: vi
     last_contribution_date:
     urgency: 1
     contributors_id:

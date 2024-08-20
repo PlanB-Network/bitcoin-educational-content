@@ -3,11 +3,11 @@ type: Educational Content
 links:
   download: https://workspace.planb.network/s/fojeJa7ZbftQTwo
   view:
-  - en: 
+  - - language: en 
       https://penpot.planb.network/#/view/c157057b-fd28-8042-8004-5004d6068cdd?page-id=7d7b7e64-d4bb-807c-8004-50116435dca5&section=interactions&index=0&share-id=7154756b-3ebd-8040-8004-64753689c627&zoom=fill
-  - fr: 
+  - - language: fr 
       https://penpot.planb.network/#/view/c157057b-fd28-8042-8004-5004d6068cdd?page-id=c2967cf3-0fc9-806b-8004-64732b2071d2&section=interactions&index=0&share-id=7154756b-3ebd-8040-8004-647396aa3682&zoom=fill
-  - es: 
+  - - language: es 
       https://penpot.planb.network/#/view/c157057b-fd28-8042-8004-5004d6068cdd?page-id=c2967cf3-0fc9-806b-8004-647329f4f5af&section=interactions&index=0&share-id=7154756b-3ebd-8040-8004-6474b451a565&zoom=fill
 tags:
 - bitcoin
@@ -18,57 +18,57 @@ contributors:
 # Proofreading metadata
 original_language: en
 proofreading:
-  cs:
+  - language: cs
     last_contribution_date:
     urgency: 1
     contributors_id:
     reward: 2560
-  de:
+  - language: de
     last_contribution_date:
     urgency: 1
     contributors_id:
     reward: 2530
-  en:
+  - language: en
     last_contribution_date:
     urgency: 1
     contributors_id:
     reward: 1265
-  es:
+  - language: es
     last_contribution_date:
     urgency: 1
     contributors_id:
     reward: 2545
-  fi:
+  - language: fi
     last_contribution_date:
     urgency: 1
     contributors_id:
     reward: 2560
-  fr:
+  - language: fr
     last_contribution_date:
     urgency: 1
     contributors_id:
     reward: 2530
-  it:
+  - language: it
     last_contribution_date:
     urgency: 1
     contributors_id:
     reward: 2545
-  ja:
+  - language: ja
     last_contribution_date:
     urgency: 1
     contributors_id:
     reward: 2590
-  pt:
+  - language: pt
     last_contribution_date:
     urgency: 1
     contributors_id:
     reward: 2530
-  ru:
+  - language: ru
     last_contribution_date:
     urgency: 1
     contributors_id:
     reward: 2560
-  vi:
+  - language: vi
     last_contribution_date:
     urgency: 1
     contributors_id:

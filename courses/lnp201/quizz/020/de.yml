@@ -5,5 +5,5 @@ wrong_answers:
   - Zahlungskanal, Bitcoin-Transaktion, Litecoin-Transaktion
   - P2P-Kommunikation, Zahlungskanal, Ripple-Transaktion
 explanation: |
-  Das Lightning Network hat drei verschiedene Kommunikationsebenen: P2P-Kommunikation (Lightning Network-Protokoll), Zahlungskanal (Lightning Network-Protokoll) und Bitcoin-Transaktion (Bitcoin-Protokoll).
+  Das Lightning Network hat drei verschiedene Kommunikationseben- language: en P2P-Kommunikation (Lightning Network-Protokoll), Zahlungskanal (Lightning Network-Protokoll) und Bitcoin-Transaktion (Bitcoin-Protokoll).
 reviewed: false

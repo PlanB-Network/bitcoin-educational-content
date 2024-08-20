@@ -38,61 +38,61 @@ contributors:
 # Proofreading metadata
 original_language: fr
 proofreading:
-  cs:
+  - language: cs
     last_contribution_date:
     urgency: 1
     contributors_id:
     reward: 43078
-  de:
+  - language: de
     last_contribution_date:
     urgency: 1
     contributors_id:
     reward: 22789
-  en:
+  - language: en
     last_contribution_date:
     urgency: 1
     contributors_id:
     reward: 22789
-  es:
+  - language: es
     last_contribution_date:
     urgency: 1
     contributors_id:
     reward: 32933
-  fi:
+  - language: fi
     last_contribution_date: 2024-04-02
     urgency: 1
     contributors_id:
     - KryptoKeskus
     reward: 22789
-  fr:
+  - language: fr
     last_contribution_date:
     urgency: 1
     contributors_id:
     reward: 11394
-  it:
+  - language: it
     last_contribution_date: 2023-10-10
     urgency: 1
     contributors_id:
     - TinF0ilHat1
     reward: 17716
-  ja:
+  - language: ja
     last_contribution_date: 2023-12-03
     urgency: 1
     contributors_id:
     - yutaro21jp
     reward: 32933
-  pt:
+  - language: pt
     last_contribution_date:
     urgency: 1
     contributors_id:
     reward: 22789
-  ru:
+  - language: ru
     last_contribution_date:
     urgency: 1
     contributors_id:
     - Reshetenko
     reward: 22789
-  vi:
+  - language: vi
     last_contribution_date: 2024-05-05
     urgency: 1
     contributors_id:

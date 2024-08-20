@@ -18,7 +18,7 @@ credits:
 # Proofreading metadata
 original_language: en
 proofreading:
-  en:
+  - language: en
     last_contribution_date:
     urgency: 1
     contributors_id:

@@ -11,7 +11,7 @@
   price_dollars: 0
   description: Descubre, aprende y comparte de la mano de especialistas de diferentes disciplinas en el evento referencia sobre Bitcoin en español.
   language: 
-  es:
+  - language: es
   links:
     website: https://wobitcoin.org/
     replay_url:

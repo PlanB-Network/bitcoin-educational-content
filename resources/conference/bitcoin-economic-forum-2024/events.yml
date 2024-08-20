@@ -11,7 +11,7 @@
   price_dollars: 0
   description: The pleb organization for bitcoin cooperation
   language: 
-  fr:
+  - language: fr
   links:
     website: https://www.breizhbitcoin.com/
     replay_url:

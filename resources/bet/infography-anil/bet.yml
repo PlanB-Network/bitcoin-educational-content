@@ -3,7 +3,7 @@ type: Educational Content
 links:
   download: https://anilsaidso.gumroad.com/
   view:
-  - en: 
+  - - language: en 
       https://penpot.planb.network/#/view/c157057b-fd28-8042-8004-4fbeca6e3f53?page-id=c157057b-fd28-8042-8004-4fbeca6e3f54&section=interactions&index=0&share-id=c157057b-fd28-8042-8004-4fcee69bb40e&zoom=fill
 tags:
 - bitcoin
@@ -13,57 +13,57 @@ contributors:
 # Proofreading metadata
 original_language: en
 proofreading:
-  cs:
+  - language: cs
     last_contribution_date:
     urgency: 1
     contributors_id:
     reward: 2550
-  de:
+  - language: de
     last_contribution_date:
     urgency: 1
     contributors_id:
     reward: 2525
-  en:
+  - language: en
     last_contribution_date:
     urgency: 1
     contributors_id:
     reward: 1262
-  es:
+  - language: es
     last_contribution_date:
     urgency: 1
     contributors_id:
     reward: 2537
-  fi:
+  - language: fi
     last_contribution_date:
     urgency: 1
     contributors_id:
     reward: 2550
-  fr:
+  - language: fr
     last_contribution_date:
     urgency: 1
     contributors_id:
     reward: 2525
-  it:
+  - language: it
     last_contribution_date:
     urgency: 1
     contributors_id:
     reward: 2537
-  ja:
+  - language: ja
     last_contribution_date:
     urgency: 1
     contributors_id:
     reward: 2575
-  pt:
+  - language: pt
     last_contribution_date:
     urgency: 1
     contributors_id:
     reward: 2525
-  ru:
+  - language: ru
     last_contribution_date:
     urgency: 1
     contributors_id:
     reward: 2550
-  vi:
+  - language: vi
     last_contribution_date:
     urgency: 1
     contributors_id:

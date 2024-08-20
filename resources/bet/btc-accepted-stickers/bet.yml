@@ -2,7 +2,7 @@ type: Visual Content
 links:
   download: https://workspace.planb.network/s/dJ7Xq7r3pHiNxG6
   view:
-  - en: 
+  - - language: en 
       https://penpot.planb.network/#/view/c157057b-fd28-8042-8004-4fd3aa223714?page-id=c157057b-fd28-8042-8004-4fd3aa223715&section=interactions&index=0&share-id=42aca05c-942b-808a-8004-6b830e1f22ac&zoom=fill
 tags:
 - bitcoin
@@ -12,57 +12,57 @@ contributors:
 # Proofreading metadata
 original_language: en
 proofreading:
-  cs:
+  - language: cs
     last_contribution_date:
     urgency: 1
     contributors_id:
     reward: 2526
-  de:
+  - language: de
     last_contribution_date:
     urgency: 1
     contributors_id:
     reward: 2513
-  en:
+  - language: en
     last_contribution_date:
     urgency: 1
     contributors_id:
     reward: 1256
-  es:
+  - language: es
     last_contribution_date:
     urgency: 1
     contributors_id:
     reward: 2519
-  fi:
+  - language: fi
     last_contribution_date:
     urgency: 1
     contributors_id:
     reward: 2526
-  fr:
+  - language: fr
     last_contribution_date:
     urgency: 1
     contributors_id:
     reward: 2513
-  it:
+  - language: it
     last_contribution_date:
     urgency: 1
     contributors_id:
     reward: 2519
-  ja:
+  - language: ja
     last_contribution_date:
     urgency: 1
     contributors_id:
     reward: 2539
-  pt:
+  - language: pt
     last_contribution_date:
     urgency: 1
     contributors_id:
     reward: 2513
-  ru:
+  - language: ru
     last_contribution_date:
     urgency: 1
     contributors_id:
     reward: 2526
-  vi:
+  - language: vi
     last_contribution_date:
     urgency: 1
     contributors_id:

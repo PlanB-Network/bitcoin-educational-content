@@ -2,8 +2,9 @@ name: Node Nation
 links:
   twitter: https://x.com/NodeNationSV_
 
-  tags:
+tags:
   - bitcoin-only
   - education
+  - technical
 
 category: education

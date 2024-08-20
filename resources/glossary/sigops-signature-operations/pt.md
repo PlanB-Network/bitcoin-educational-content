@@ -1,0 +1,13 @@
+---
+term: SIGOPS (OPERAÇÕES DE ASSINATURA)
+---
+
+Refere-se às operações de assinatura digital necessárias para validar transações. Cada transação Bitcoin pode conter múltiplas entradas, cada uma das quais pode requerer uma ou mais assinaturas para ser considerada válida. A verificação dessas assinaturas é feita por meio do uso de opcodes específicos chamados "sigops". Especificamente, isso inclui `OP_CHECKSIG`, `OP_CHECKSIGVERIFY`, `OP_CHECKMULTISIG` e `OP_CHECKMULTISIGVERIFY`. Essas operações impõem uma certa carga de trabalho nos nós da rede que devem verificá-las. Para prevenir ataques DoS através da inflação artificial do número de sigops, o protocolo, portanto, impõe um limite no número de sigops permitidos por bloco, para garantir que a carga de validação permaneça gerenciável para os nós. Este limite está atualmente definido em um máximo de 80.000 sigops por bloco. Para contar, os nós seguem estas regras:
+
+No `scriptPubKey`, `OP_CHECKSIG` e `OP_CHECKSIGVERIFY` contam como 4 sigops. Os opcodes `OP_CHECKMULTISIG` e `OP_CHECKMULTISIGVERIFY` contam por 80 sigops. De fato, durante a contagem, essas operações são multiplicadas por 4 quando não fazem parte de uma entrada SegWit (para um P2WPKH, o número de sigops será, portanto, 1);
+
+No `redeemScript`, os opcodes `OP_CHECKSIG` e `OP_CHECKSIGVERIFY` também contam como 4 sigops, `OP_CHECKMULTISIG` e `OP_CHECKMULTISIGVERIFY` são contabilizados como `4n` se precederem `OP_n`, ou 80 sigops de outra forma;
+
+Para o `witnessScript`, `OP_CHECKSIG` e `OP_CHECKSIGVERIFY` valem 1 sigop, `OP_CHECKMULTISIG` e `OP_CHECKMULTISIGVERIFY` são contados como `n` se forem introduzidos por `OP_n`, ou 20 sigops de outra forma;
+
+Em scripts Taproot, sigops são tratados de forma diferente em comparação com scripts tradicionais. Em vez de contar diretamente cada operação de assinatura, Taproot introduz um orçamento de sigops para cada entrada de transação, que é proporcional ao tamanho dessa entrada. Este orçamento é de 50 sigops mais o tamanho em bytes da testemunha da entrada. Cada operação de assinatura reduz este orçamento em 50. Se a execução de uma operação de assinatura reduzir o orçamento para abaixo de zero, o script é inválido. Este método permite mais flexibilidade em scripts Taproot, mantendo proteção contra potenciais abusos relacionados a sigops, ao vinculá-los diretamente ao peso da entrada. Assim, scripts Taproot não estão incluídos no limite de 80.000 sigops por bloco.

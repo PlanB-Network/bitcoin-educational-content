@@ -1,0 +1,9 @@
+---
+term: FORK
+---
+
+O termo "fork" tem vários significados no contexto do Bitcoin. Pode referir-se tanto a uma divisão da rede de nós em vários grupos separados, levando à criação de múltiplas blockchains diferentes, quanto a uma modificação das regras do protocolo, ou ambos simultaneamente. Para simplificar, podemos distinguir 4 categorias principais de forks:
+* O fork natural: ocorre quando há uma competição temporária entre dois blocos descobertos ao mesmo tempo na mesma altura. Este fork pode estender-se por vários blocos. Este tipo de fork resolve-se naturalmente quando uma das cadeias torna-se mais longa que a outra (com mais trabalho acumulado), levando a uma reorganização. Esta reorganização manifesta-se com todos os nós concordando novamente em uma única blockchain;
+* O fork de código: envolve a criação de uma nova criptomoeda a partir do código-fonte do Bitcoin, lançando uma nova blockchain a partir do bloco Gênesis;
+* O hard fork: representa uma modificação do protocolo Bitcoin, incompatível com versões anteriores, removendo regras ou facilitando as existentes. Isso resulta na criação de duas cadeias distintas e incompatíveis se nem todos os nós forem atualizados. A rede então se divide em duas: aqueles que adotam as novas regras e aqueles que retêm as antigas;
+* O soft fork: envolve modificações retrocompatíveis que adicionam regras ou tornam as existentes mais restritivas, sem causar uma divisão da rede. Nós que não adotam as novas regras podem continuar a seguir a mesma cadeia que os outros, desde que a maioria do poder computacional da rede suporte a cadeia atualizada.

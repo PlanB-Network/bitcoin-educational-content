@@ -1,13 +1,13 @@
-question: Qual modelo de script é mais recomendado em 2024 para maior privacidade no Bitcoin?
+pergunta: Qual modelo de script é mais recomendado em 2024 para maior privacidade no Bitcoin?
 
-answer: P2TR
+resposta: P2TR
 
-wrong_answers:
+respostas_incorretas:
   - P2PK
   - P2PKH
   - P2SH
 
-explanation: |
+explicação: |
   Para se misturar ao maior público possível, é recomendado usar o modelo de script mais amplamente adotado. Os scripts P2TR são atualmente os mais usados em transações Bitcoin.
 
-reviewed: false
+revisado: false

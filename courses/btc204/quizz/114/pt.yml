@@ -1,0 +1,13 @@
+pergunta: Por que o analista não aplicará CIOH em uma transação do tipo Stonewall?
+
+resposta: Porque há 2 saídas de mesmos valores
+
+respostas_erradas:
+  - Porque há apenas 2 entradas
+  - Porque eles não estão familiarizados com esse padrão
+  - Porque há mais saídas do que entradas
+
+explicação: |
+  Analisar uma transação Stonewall de fora não leva à aplicação de CIOH, pois a presença de duas saídas do mesmo valor sugere um padrão de coinjoin. De um ponto de vista externo, o CIOH, portanto, não é aplicável neste caso específico.
+
+revisado: false

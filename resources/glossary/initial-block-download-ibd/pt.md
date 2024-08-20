@@ -1,0 +1,7 @@
+---
+term: INITIAL BLOCK DOWNLOAD (IBD)
+---
+
+Refere-se ao processo pelo qual um nó baixa e verifica a blockchain desde o bloco Gênesis e sincroniza com outros nós na rede Bitcoin. O IBD deve ser realizado ao lançar um novo nó completo. No início dessa sincronização inicial, o nó não possui informações sobre transações anteriores. Portanto, ele baixa cada bloco de outros nós na rede, verifica sua validade e, em seguida, adiciona-o à sua versão local da blockchain. Vale ressaltar que o IBD pode ser demorado e exigir muitos recursos devido ao crescente tamanho da blockchain e do conjunto UTXO. A velocidade de sua execução depende das capacidades de computação do computador que hospeda o nó, da capacidade de RAM, da velocidade do dispositivo de armazenamento e da largura de banda. Para dar uma ideia, se você tem uma conexão de internet poderosa, e o nó está hospedado no último MacBook com bastante RAM, o IBD levará apenas algumas horas. Por outro lado, se você usar um microcomputador como um Raspberry Pi, o IBD pode levar uma semana ou mais.
+
+> ► *Em francês, geralmente é aceito referir-se diretamente a um IBD. A tradução às vezes usada é "synchronisation initiale" ou "téléchargement initial des blocs".*

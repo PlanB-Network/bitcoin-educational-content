@@ -1,0 +1,5 @@
+---
+term: SHOR (ALGORITMO)
+---
+
+Algoritmo quântico inventado em 1994 por Peter Shor que permite a fatoração de grandes inteiros em um produto de números primos em tempo polinomial. Ao reduzir o número de operações necessárias para fatorar inteiros, Shor poderia tornar impraticáveis os algoritmos de criptografia estabelecidos sobre esse problema matemático, como o RSA. Shor pode ser ligeiramente modificado para atuar em quase todos os algoritmos que usam uma estrutura de grupo. Notavelmente, já possui uma variante eficiente em criptografia de curva elíptica (ECDSA, Schnorr...). Portanto, Shor e suas variantes próximas são eficazes em algoritmos de criptografia assimétrica. Atualmente, ainda não temos um computador quântico suficientemente poderoso e estável para executar com sucesso o algoritmo de Shor.

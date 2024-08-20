@@ -1,0 +1,7 @@
+---
+termo: SEGWIT
+---
+
+SegWit, uma sigla para "Testemunha Segregada" (Segregated Witness, em inglês), é uma atualização do protocolo Bitcoin introduzida em agosto de 2017. Tem como objetivo resolver vários problemas técnicos, incluindo o problema da capacidade de transação da rede, a questão da maleabilidade das transações e facilitar futuras modificações do protocolo.
+
+Esta soft fork modifica a estrutura da transação movendo os dados da assinatura para um diretório separado. Especificamente, com o SegWit, as assinaturas são removidas do bloco principal e inseridas em uma estrutura de dados separada no final do bloco, conhecida como as testemunhas. Esta separação permite um aumento na capacidade de cada bloco sem alterar o tamanho máximo do bloco em si, que é de 1 MB no Bitcoin. Esta mudança também resolve o problema da maleabilidade das transações. Antes do SegWit, as assinaturas poderiam ser alteradas antes de uma transação ser confirmada, o que mudava o identificador da transação. Isso dificultava a construção de transações complexas, pois uma transação não confirmada poderia ter seu identificador alterado. Ao separar as assinaturas, o SegWit torna as transações não maleáveis, pois qualquer alteração nas assinaturas agora afeta apenas o identificador da testemunha (WTXID), e não o identificador da transação (TXID). Ao resolver o problema da maleabilidade, o SegWit pavimentou o caminho para futuros desenvolvimentos em cima do sistema Bitcoin, notavelmente a Lightning Network, que possibilita transações rápidas e de baixo custo.

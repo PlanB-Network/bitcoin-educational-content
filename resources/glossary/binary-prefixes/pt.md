@@ -1,0 +1,5 @@
+---
+term: PREFIXOS BINÁRIOS
+---
+
+Unidades usadas na computação para quantificar múltiplos de tamanhos de dados estabelecidos em potências de 2. Diferentemente dos prefixos do sistema métrico que usam uma base de 10, os prefixos binários, como kibi (Ki), mebi (Mi), gibi (Gi) e tebi (Ti), multiplicam por potências de 2 ($2^{10}$, $2^{20}$, $2^{30}$, $2^{40}$ respectivamente). Esses prefixos são herdados das primeiras maneiras de medir o tamanho da informação nos computadores. Eles são encontrados às vezes em Bitcoin, por exemplo, para designar o limite de tamanho de arquivo dos `BLOCKS/BLK*.DAT` que são usados para armazenar os dados brutos da blockchain no software Bitcoin Core. Esses arquivos têm uma capacidade máxima de 128 mebibytes (MiB), o que é equivalente a pouco mais de 134 megabytes (MB).

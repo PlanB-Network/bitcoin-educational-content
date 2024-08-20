@@ -1,0 +1,5 @@
+---
+term: PIZZA DAY
+---
+
+Evento celebrado todo dia 22 de maio pela comunidade Bitcoin para comemorar a primeira transação de bitcoins por um bem físico. Em 2010, Laszlo Hanyecz, um desenvolvedor de Bitcoin, [propôs no fórum BitcoinTalk](https://bitcointalk.org/index.php?topic=137.msg1141#msg1141) comprar duas grandes pizzas por 10.000 BTC, na época equivalente a cerca de 40 dólares. Em 22 de maio, ele confirmou que a oferta havia sido aceita por um estudante californiano de 19 anos, Jeremy Sturdivant, conhecido pelo pseudônimo Jercos. Ele encomendou e fez com que as pizzas fossem entregues da Papa John's para Laszlo na Flórida. Este dia marca um momento importante para o Bitcoin, pois demonstra seu potencial como moeda de troca. Todos os anos, a comunidade celebra este evento consumindo pizzas pagas em bitcoins.

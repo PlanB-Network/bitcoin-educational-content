@@ -1,0 +1,5 @@
+---
+term: FUNGIBILIDADE
+---
+
+A propriedade de uma moeda que garante que cada unidade seja intercambiável e indistinguível de outra unidade similar. O Bitcoin, como uma unidade de conta, é em princípio fungível, porque um bitcoin sempre vale outro bitcoin: 1 BTC = 1 BTC. No entanto, a rastreabilidade dos UTXOs (o suporte para as unidades) na blockchain pode, às vezes, comprometer essa fungibilidade. De fato, cada satoshi pode ser distinguido por sua história, o que lhe confere uma identidade específica. A percepção da história de cada UTXO pode influenciar o julgamento das partes sobre a fungibilidade dos bitcoins utilizados. Assim, embora a fungibilidade seja uma característica intrínseca das unidades monetárias, ela pode ser alterada pelas especificidades do meio utilizado para essas unidades, como é o caso do Bitcoin.

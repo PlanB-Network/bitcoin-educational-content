@@ -1,0 +1,5 @@
+---
+term: NSEQUENCE
+---
+
+O campo `nSequence` em uma entrada de transação Bitcoin é usado para indicar como essa entrada está bloqueada pelo tempo. Originalmente, pretendia-se permitir a substituição dinâmica de transações nos mempools para possibilitar um sistema de pagamento semelhante ao Lightning. No entanto, seu uso evoluiu com a introdução do bloqueio de tempo relativo através do BIP68. O campo `nSequence` agora pode especificar um atraso relativo antes que uma transação possa ser incluída em um bloco. Esse atraso pode ser definido em termos do número de blocos, ou como um múltiplo de 512 segundos (ou seja, tempo real). É importante notar que essa nova interpretação do campo `nSequence` só é válida se o campo `nVersion` for maior ou igual a `2`. Essa interpretação do campo `nSequence` está no nível das regras de consenso do Bitcoin. Além disso, no nível das regras de padronização, esse campo também é usado para sinalizar RBF (Replace-By-Fee). Se uma transação inclui um `nSequence` inferior a `0xfffffffe`, então ela pode ser substituída via RBF em nós que seguem essa política.

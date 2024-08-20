@@ -1,0 +1,5 @@
+---
+termo: COMPATIBILIDADE RETROATIVA
+---
+
+Refere-se à capacidade de uma atualização das regras de um protocolo manter compatibilidade com versões anteriores. Isso significa que as mudanças são projetadas de tal forma que nós antigos (nós executando versões anteriores à mudança de regra) ainda podem interagir com a rede e seguir a cadeia com o maior trabalho acumulado. Portanto, é essencial que os nós mais antigos não rejeitem os novos blocos nem as novas transações. A compatibilidade retroativa reduz significativamente a probabilidade de uma atualização fragmentar a rede, evitando assim a divisão de nós em subgrupos em cadeias diferentes. Para garantir a compatibilidade com versões anteriores do protocolo, uma atualização deve tornar as regras existentes mais rigorosas ou introduzir novas. Este princípio define um "soft fork". Por outro lado, se uma atualização relaxa as regras existentes ou elimina algumas, então ela não será retrocompatível. Isso seria um "hard fork".

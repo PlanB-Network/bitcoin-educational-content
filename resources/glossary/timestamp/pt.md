@@ -1,0 +1,9 @@
+---
+term: TIMESTAMP
+---
+
+A marcação temporal, ou "timestamp" em inglês, é um mecanismo que envolve associar um marcador temporal preciso a um evento, dado ou mensagem. No contexto geral dos sistemas de computador, a marcação temporal é usada para determinar a ordem cronológica das operações e para verificar a integridade dos dados ao longo do tempo.
+
+No caso específico do Bitcoin, os timestamps são usados para estabelecer a cronologia das transações e blocos. Cada bloco na blockchain contém um timestamp indicando o momento aproximado de sua criação. Satoshi Nakamoto até fala de um "servidor de timestamp" em seu White Paper, para descrever o que chamaríamos hoje de "blockchain". O papel da marcação temporal no Bitcoin é determinar a cronologia das transações, a fim de determinar, sem a intervenção de uma autoridade central, qual transação veio primeiro. Esse mecanismo permite que cada usuário verifique a não existência de uma transação no passado, e assim, impedir que um usuário malicioso realize um gasto duplo. Esse mecanismo é justificado por Satoshi Nakamoto em seu White Paper com a famosa frase: "*A única maneira de confirmar a ausência de uma transação é estar ciente de todas as transações.*" Este padrão é estabelecido no tempo Unix, que representa o total de segundos passados desde 1º de janeiro de 1970.
+
+> ► *A marcação temporal dos blocos no Bitcoin é relativamente flexível, pois para que um timestamp seja considerado válido, ele simplesmente precisa ser maior que o tempo médio dos 11 blocos precedentes (MTP) e menor que a média dos tempos retornados pelos nós (tempo ajustado pela rede) mais 2 horas.*

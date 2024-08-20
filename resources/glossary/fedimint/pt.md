@@ -1,0 +1,5 @@
+---
+term: FEDIMINT
+---
+
+Protocolo de pagamento e gestão de bitcoin projetado para aumentar a privacidade e reduzir a dependência da cadeia principal através do agrupamento da custódia de fundos. Fedimint foi criado por Eric Sirion em 2021. Baseia-se em um sistema bancário Chaumiano, que, em vez de ser centralizado em torno de um único ator confiável, depende de federações. Essas federações são grupos de custodiantes confiáveis que coletivamente mantêm e gerenciam os bitcoins dos usuários em seu grupo. Dentro do grupo, os usuários podem fazer pagamentos com bilhetes emitidos em troca de seus depósitos em bitcoin. A ideia do Fedimint é implantar esse conceito no nível das comunidades locais. Assim, representa uma espécie de evolução do banco de depósitos baseado em bitcoin, incorporando o sistema eCash de David Chaum, e o uso de uma federação de indivíduos confiáveis encarregados da custódia e emissão do ativo subjacente.

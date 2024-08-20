@@ -1,0 +1,7 @@
+---
+termo: BIP352
+---
+
+Proposta de melhoria por Josibake e Ruben Somsen que introduz Pagamentos Silenciosos, um método para usar endereços Bitcoin estáticos para receber pagamentos sem reutilização de endereço, interação e sem um link visível na cadeia entre diferentes pagamentos. Esta técnica elimina a necessidade de gerar novos endereços de recebimento não utilizados para cada transação, evitando assim as interações usuais no Bitcoin onde o destinatário deve fornecer um novo endereço ao pagador.
+
+Neste sistema, o pagador usa a chave pública do destinatário e sua própria chave privada para gerar um endereço novo para cada pagamento. Somente o destinatário, com sua chave privada, pode calcular a chave privada correspondente a este endereço. ECDH (*Elliptic-Curve Diffie-Hellman*), um algoritmo de troca de chaves criptográficas, é usado para estabelecer um segredo compartilhado que é então usado para derivar o endereço de recebimento e a chave privada (apenas do lado do destinatário). Para identificar os Pagamentos Silenciosos destinados a eles, os destinatários devem escanear a blockchain e examinar cada transação que corresponda aos critérios para Pagamentos Silenciosos. Diferente do BIP47, que usa uma transação de notificação para estabelecer o canal de pagamento, Pagamentos Silenciosos eliminam este passo, economizando uma transação. No entanto, a desvantagem é que o destinatário deve escanear todas as transações potenciais para determinar, aplicando ECDH, se são endereçadas a eles.

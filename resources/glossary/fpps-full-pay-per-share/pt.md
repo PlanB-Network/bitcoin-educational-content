@@ -1,0 +1,5 @@
+---
+termo: FPPS (FULL PAY PER SHARE)
+---
+
+Método para calcular a compensação dos mineradores dentro de pools de mineração. É uma evolução do método PPS (*Pay Per Share*). Ele compensa os mineradores não apenas por cada share válida que eles submetem, mas também inclui uma parte das recompensas de bloco. A compensação é calculada com base na média das transações anteriores e no hashrate da pool. Assim, os mineradores recebem uma recompensa pelas shares submetidas, quer um bloco seja encontrado ou não, mas este método também compensa pelo valor esperado. Oferece uma compensação estável e previsível para os mineradores, pois elimina a variância associada à probabilidade de encontrar um bloco, enquanto os expõe às flutuações das taxas de mercado. No entanto, é mais arriscado para os operadores de pool, pois eles devem pagar aos mineradores mesmo quando nenhum bloco é encontrado, absorvendo assim o risco de variância.

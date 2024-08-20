@@ -1,0 +1,5 @@
+---
+term: SHA256
+---
+
+Acrônimo para "*Secure Hash Algorithm 256 bits*". É uma função de hash criptográfico que produz um resumo de 256 bits. Projetado pela *National Security Agency* (NSA) no início dos anos 2000, tornou-se um padrão federal para o processamento de dados sensíveis. No protocolo Bitcoin, a função `SHA256` é onipresente. É usada para fazer o hash dos cabeçalhos de blocos como parte da prova de trabalho. `SHA256` também é utilizado no processo de derivação de um endereço de recebimento a partir de uma chave pública. Além disso, é empregado na agregação de transações e testemunhas dentro de árvores Merkle nos blocos. `SHA256` também é encontrado no cálculo de impressões digitais de chaves, no cálculo de certos checksums e em muitos outros processos relacionados ao Bitcoin. Quando aplicado duas vezes em sucessão, é referido como `HASH256`. Esta aplicação dupla é a predominantemente usada no Bitcoin. Quando `SHA256` é usado em conjunto com a função `RIPEMD160`, é referido como `HASH160`. Esta dupla hash é usada para impressões digitais de chaves e para fazer o hash de chaves públicas. A função `SHA256` faz parte da família SHA 2.

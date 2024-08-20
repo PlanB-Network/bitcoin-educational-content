@@ -1,0 +1,5 @@
+---
+term: ANCHOR OUTPUTS
+---
+
+Uma proposta destinada a melhorar a gestão das taxas de transação dentro dos canais Lightning. Com cada mudança de estado em um canal Lightning, os participantes criam e assinam uma nova transação de compromisso que reflete a nova distribuição de fundos dentro do canal. O problema com este mecanismo reside em determinar as taxas de transação no momento de sua criação. De fato, as taxas de transação na rede Bitcoin estão sujeitas a flutuações significativas, tanto para cima quanto para baixo. Se as taxas definidas para a última transação de compromisso forem insuficientes no momento do fechamento unilateral do canal, não apenas a transação levará um tempo considerável para ser confirmada, mas os mecanismos de bloqueio temporal (timelocks) também poderiam permitir o roubo de fundos. Os anchor outputs reservam uma pequena parte dos fundos em uma transação de compromisso para cobrir taxas futuras. No caso de congestionamento da rede e aumento das taxas, os anchor outputs permitem a modificação das taxas de transação após a criação da transação de compromisso, garantindo assim um fechamento suficientemente rápido do canal Lightning.

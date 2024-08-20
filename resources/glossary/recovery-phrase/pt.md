@@ -1,0 +1,9 @@
+---
+term: FRASE DE RECUPERAÇÃO
+---
+
+Uma frase de recuperação, também chamada às vezes de mnemônica, frase-semente ou frase secreta, é uma sequência geralmente composta por 12 ou 24 palavras, que é gerada de maneira pseudoaleatória a partir de uma fonte de entropia. A sequência pseudoaleatória é sempre completada com um checksum. A frase mnemônica, juntamente com uma passphrase opcional, é usada para derivar de forma determinística todas as chaves associadas a uma carteira HD (Hierarchical Deterministic). Isso significa que, a partir desta frase, é possível gerar e recriar de forma determinística todas as chaves privadas e públicas da carteira Bitcoin, e consequentemente acessar os fundos a ela associados. O propósito da frase de recuperação é fornecer um meio de backup e recuperação de bitcoins que seja seguro e fácil de usar.
+
+É importante manter essa frase em um local seguro, pois qualquer pessoa que possua a mnemônica teria acesso aos fundos da carteira correspondente. Se usada no contexto de uma carteira tradicional, e sem uma passphrase opcional, muitas vezes constitui um SPOF (Single Point Of Failure). A frase de recuperação é, portanto, uma codificação da sequência pseudoaleatória e do checksum em palavras do dia a dia para facilitar sua anotação e legibilidade por humanos. Ela é construída de acordo com o padrão BIP39, que define e ordena uma lista de 2048 palavras usadas para essa codificação.
+
+> ► *A lista de 2048 palavras do BIP39 está disponível em vários idiomas, no entanto, é aconselhável usar apenas a versão em inglês, pois é a versão mais amplamente suportada pelo software de carteira.*

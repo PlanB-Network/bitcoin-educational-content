@@ -1,0 +1,5 @@
+---
+term: MASF
+---
+
+Acrônimo para "*Miner-Activated Soft Fork*". Descreve um soft fork no Bitcoin quando sua ativação vem da ação dos mineradores. MASF são uma família de métodos de ativação de soft fork no Bitcoin. Nestas abordagens, os mineradores sinalizam seu acordo e prontidão para uma atualização de protocolo minerando blocos que apoiam o bloqueio do soft fork. Se uma maioria significativa dos mineradores votar a favor do soft fork, a atualização é considerada aceita e é ativada posteriormente. Este processo ajuda a evitar a divisão da blockchain e mantém a unidade da rede. MASF é preferido por sua abordagem mais suave e baseada em consenso, reduzindo o risco de uma divisão da blockchain enquanto garante que a maioria do poder computacional apoie a nova atualização. Métodos de ativação como BIP34, BIP9, BIP8 (se `LOT=false` ou se o limiar de votação for alcançado), ou Speedy Trial são exemplos de MASF.

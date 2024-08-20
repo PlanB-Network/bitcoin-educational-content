@@ -1,3 +1,3 @@
-name: Memes do Bitcoin
-description: |
+nome: Memes do Bitcoin
+descrição: |
   Coleção de diversos memes da nossa indústria

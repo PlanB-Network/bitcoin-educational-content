@@ -1,0 +1,5 @@
+---
+term: DERIVAÇÃO ENDURECIDA
+---
+
+O processo de gerar chaves filhas em carteiras HD (Hierarchical Deterministic). A derivação endurecida utiliza a chave privada pai como entrada para a função `HMAC-SHA512`, tornando impossível gerar chaves públicas filhas a partir da chave pública pai e do código de cadeia pai. O processo envolve a concatenação da chave privada pai e um índice maior ou igual a $2^{31}$, seguido pela aplicação de `HMAC-SHA512` com o código de cadeia pai. O resultado é dividido em duas partes: os primeiros 256 bits são adicionados à chave privada pai para obter a chave privada filha, enquanto os 256 bits restantes formam o código de cadeia filha. Este método garante que, mesmo se uma chave pública estendida for comprometida, ela não pode ser usada para derivar chaves públicas filhas. Na derivação padrão, a derivação endurecida é usada em todos os níveis de derivação até a profundidade da conta. Nas notações de caminho de derivação, uma derivação endurecida é identificada com um apóstrofo `'` ou, mais raramente, com um `h`.

@@ -1,0 +1,5 @@
+---
+term: DERIVAÇÃO NORMAL
+---
+
+O processo de gerar chaves filhas em carteiras HD (Hierarchical Deterministic). A derivação normal utiliza a chave pública pai como entrada para a função `HMAC-SHA512`, possibilitando a geração de chaves públicas filhas a partir da chave pública pai e do código de cadeia pai. O processo envolve a concatenação da chave pública pai e um índice menor que $2^{31}$, seguido pela aplicação de `HMAC-SHA512` com o código de cadeia pai. O resultado é dividido em duas partes: os primeiros 256 bits são adicionados à chave privada pai para obter a chave privada filha, enquanto os 256 bits restantes formam o código de cadeia filha. Este método garante que a chave pública estendida possa ser usada para derivar chaves públicas filhas. Na derivação padrão, a derivação normal é usada em todos os níveis de derivação a partir da profundidade da conta. Na notação dos caminhos de derivação, uma derivação normal é identificada quando há apenas o índice sem nenhum apóstrofo `'`.

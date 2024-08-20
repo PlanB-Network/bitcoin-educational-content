@@ -1,0 +1,7 @@
+---
+term: MULTISIG
+---
+
+Carteiras de assinatura múltipla, frequentemente abreviadas como "multisig", são projetadas para aumentar a segurança dos bitcoins ao exigir múltiplas assinaturas de diferentes chaves privadas para autorizar um gasto. Este método distribui o risco entre várias chaves, o que ajuda a reduzir tanto o risco de perda quanto de roubo (dependendo da configuração do multisig). Carteiras multisig operam no modelo "m-de-n", onde `m` representa o número mínimo de assinaturas necessárias para validar uma transação, e `n` é o número total de chaves envolvidas. Por exemplo, uma configuração 2-de-3 exige duas das três possíveis assinaturas para validar uma transação. Esta abordagem oferece segurança superior em comparação com carteiras de chave única, mas também introduz mais complexidade em termos de gerenciamento e backup. Além disso, transações usando padrões antigos de multisig são menos privadas e mais caras em taxas do que transações singlesig tradicionais. No entanto, inovações recentes como Taproot e o uso de descritores esperam minimizar, se não eliminar, essas desvantagens dos multisigs.
+
+> ► *Alguns bitcoiners diferenciam os termos "Multisig" e "Threshold Multisig". De fato, alguns argumentam que um multisig é necessariamente um n-de-n, enquanto um threshold multisig é um m-de-n. No entanto, na linguagem comum, é aceito referir-se a "Multisig" mesmo para m-de-n.*

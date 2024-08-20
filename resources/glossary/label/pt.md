@@ -1,0 +1,5 @@
+---
+term: LABEL
+---
+
+Rótulo ou anotação atribuída a um UTXO em uma carteira Bitcoin para lembrar sua origem. Por exemplo, se eu possuo um UTXO proveniente de uma compra P2P no Bisq com Charles, eu poderia atribuir a ele o rótulo `Non-KYC Bisq Charles`. Esta é uma boa prática que ajuda a lembrar a origem ou destino pretendido desse UTXO, o que facilita a gestão de fundos e a otimização da privacidade. Rotular torna-se ainda mais importante quando usado com o controle de moedas. De fato, ao permitir que os usuários diferenciem e selecionem precisamente UTXOs para suas transações, essa prática ajuda a evitar a fusão de UTXOs de diferentes fontes. Isso limita os riscos associados à Heurística de Propriedade Comum de Entrada (CIOH, na sigla em inglês), que pode revelar a propriedade comum das entradas de uma transação.

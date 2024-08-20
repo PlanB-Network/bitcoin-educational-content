@@ -1,0 +1,5 @@
+---
+termo: BIP12
+---
+
+Proposta por Gavin Andresen para aumentar a flexibilidade e privacidade dos scripts de transação do Bitcoin. Este BIP sugere a implementação de um novo opcode de script, chamado `OP_EVAL`, que permite a avaliação de um script contido nos dados de um `scriptSig` durante o processo de validação da transação. A principal modificação do BIP12 é permitir a inclusão de um script dentro de outro script. Esta técnica possibilita a criação de condições mais complexas que podem ser verificadas no momento do gasto, sem a necessidade de revelá-las aos usuários que enviam bitcoins para o endereço utilizado. O BIP12 foi posteriormente substituído por propostas mais seguras, notavelmente o BIP16 (P2SH), que oferece um método diferente para alcançar os mesmos objetivos que o `OP_EVAL`.

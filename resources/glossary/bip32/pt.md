@@ -1,0 +1,5 @@
+---
+termo: BIP32
+---
+
+BIP32 introduziu o conceito de uma carteira determinística hierárquica (HD wallet). Esta proposta permite a geração de uma hierarquia de pares de chaves a partir de uma `semente mestra` comum, utilizando funções de derivação unidirecionais. Cada par de chaves gerado pode, por sua vez, ser o pai de outras chaves filhas, formando assim uma estrutura semelhante a uma árvore (hierárquica). A vantagem do BIP32 é que ele possibilita o gerenciamento de múltiplos pares de chaves diferentes com a necessidade de manter apenas uma única semente para regenerá-los. Esta inovação ajudou notavelmente a combater o problema do reuso de endereços, que é sério para a privacidade do usuário. BIP32 também permite a criação de sub-ramificações dentro da mesma carteira para facilitar seu gerenciamento.

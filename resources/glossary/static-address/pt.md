@@ -1,0 +1,7 @@
+---
+term: ENDEREÇO ESTÁTICO
+---
+
+No contexto de Pagamentos Silenciosos, refere-se a um identificador único que permite o recebimento de pagamentos sem reutilização de endereço, sem interação e sem um link visível na cadeia entre os diversos pagamentos e o endereço estático. Esta técnica elimina a necessidade de gerar novos endereços de recebimento não utilizados para cada transação, evitando assim as interações usuais no Bitcoin onde o destinatário deve fornecer um novo endereço ao pagador. É de certa forma equivalente ao código de pagamento reutilizável no contexto do BIP47.
+
+Este endereço é composto por duas chaves públicas: $B_{\text{scan}}$ para escaneamento e $B_{\text{spend}}$ para gastar, concatenadas para formar o endereço estático $B = B_{\text{scan}} \text{ ‖ } B_{\text{spend}}$. O destinatário publica este endereço, permitindo que os remetentes derivem endereços de pagamento únicos sem qualquer interação adicional com o destinatário. Para gerenciar múltiplas fontes distintas de pagamentos, um rótulo pode ser adicionado a $B_{\text{spend}}$, criando assim vários endereços estáticos rotulados a partir de $B_1$, $B_2$, etc. Isso permite a segregação de pagamentos enquanto se usa um único endereço base, reduzindo assim a carga de trabalho para a varredura da blockchain. No entanto, todos os endereços estáticos de uma entidade podem ser facilmente associados devido ao uso comum de $B_{\text{scan}}$.

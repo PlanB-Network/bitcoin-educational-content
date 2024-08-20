@@ -1,0 +1,7 @@
+---
+term: HARDWARE WALLET
+---
+
+Uma hardware wallet, ou carteira física, é um dispositivo eletrônico dedicado à segurança e ao gerenciamento das chaves privadas de uma carteira Bitcoin. Esses dispositivos são projetados para fornecer uma segurança aprimorada em comparação com carteiras de software que estão em máquinas de propósito geral e diretamente conectadas à internet. Hardware wallets armazenam a frase mnemônica offline, em um dispositivo que possui uma superfície de ataque muito pequena, o que o isola de ambientes potencialmente vulneráveis. Quando uma transação é realizada, a hardware wallet assina a transação dentro do próprio dispositivo, sem expor a chave privada externamente. Uma vez que a transação é assinada, ela é transmitida para a rede Bitcoin para ser confirmada e incluída na blockchain do Bitcoin. Entre os modelos mais populares de hardware wallets estão: Ledger, Trezor, Coldcard, Passport, BitBox, Satochip, Jade e SeedSigner (a lista não é exaustiva).
+
+> ► *O termo hardware wallet pode ser expresso de diferentes maneiras em francês. Alguns se referem a ele como "portefeuille matériel" ou "portefeuille froid". Alguns bitcoiners preferem o termo "périphérique de signature", ou "dispositivo de assinatura" em inglês, para evitar a implicação de que os bitcoins estão fisicamente localizados na carteira.*

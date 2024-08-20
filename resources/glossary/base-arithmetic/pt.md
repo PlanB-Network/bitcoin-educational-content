@@ -1,0 +1,5 @@
+---
+term: BASE (ARITMÉTICA)
+---
+
+A base é um sistema de numeração que utiliza um número fixo de caracteres para representar todos os números possíveis. A base determina o número de símbolos distintos disponíveis para representar os dígitos neste sistema. Por exemplo, o sistema mais conhecido em nosso cotidiano é a base 10, também chamada de sistema decimal. Ele usa dez símbolos distintos `(0, 1, 2, 3, 4, 5, 6, 7, 8, 9)` para representar todos os números. Outros sistemas de numeração comumente usados nos campos da computação e matemática incluem o sistema binário (base 2), com dois símbolos `(0, 1)`, e o sistema hexadecimal (base 16), com dezesseis símbolos `(0, 1, 2, 3, 4, 5, 6, 7, 8, 9, A, B, C, D, E, F)`. No contexto do Bitcoin, você pode às vezes encontrar codificações na base 58 ou em uma base 32 modificada (denominada `Bech32`).

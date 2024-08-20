@@ -1,0 +1,14 @@
+---
+termo: STONEWALL X2
+---
+
+Uma forma específica de transação Bitcoin destinada a aumentar a privacidade do usuário durante um gasto, colaborando com uma terceira parte não envolvida no gasto. Este método simula um mini-coinjoin entre dois participantes, enquanto realiza um pagamento a uma terceira parte. Transações Stonewall x2 estão disponíveis tanto no aplicativo Samourai Wallet quanto no software Sparrow Wallet (ambos são interoperáveis).
+
+Sua operação é relativamente simples: utiliza um UTXO em nossa posse para fazer o pagamento e busca a ajuda de uma terceira parte que também contribui com um UTXO que possuem. A transação termina com quatro saídas: duas delas de valores iguais, uma destinada ao endereço do destinatário do pagamento, a outra a um endereço pertencente ao colaborador. Um terceiro UTXO é enviado de volta a outro endereço do colaborador, permitindo que eles recuperem o valor inicial (uma ação neutra para eles, menos as taxas de mineração), e um último UTXO retorna a um endereço que possuímos, que constitui o troco do pagamento. Assim, três diferentes papéis são definidos nas transações Stonewall x2:
+* O remetente, que realiza o pagamento efetivo;
+* O colaborador, que fornece bitcoins para melhorar o anonimato geral da transação, enquanto recupera totalmente seus fundos no final;
+* O destinatário, que pode estar alheio à natureza específica da transação e simplesmente aguarda um pagamento do remetente.
+
+![](../../dictionnaire/assets/3.png)
+
+A estrutura Stonewall x2 adiciona muita entropia à transação e confunde os rastros de análise de cadeia. De fora, tal transação pode ser interpretada como um pequeno coinjoin entre duas pessoas. Mas, na realidade, é um pagamento. Este método, portanto, gera incertezas na análise de cadeia, ou até leva a pistas falsas. Mesmo que um observador externo consiga identificar o padrão da transação Stonewall x2, eles não terão todas as informações. Eles não serão capazes de determinar qual dos dois UTXOs de valores iguais corresponde ao pagamento. Além disso, eles não serão capazes de saber quem fez o pagamento. Finalmente, eles não serão capazes de determinar se os dois UTXOs de entrada vêm de duas pessoas diferentes ou se pertencem a uma única pessoa que os fundiu. Este último ponto deve-se ao fato de que as transações Stonewall clássicas seguem exatamente o mesmo padrão das transações Stonewall x2. De fora e sem informações adicionais sobre o contexto, é impossível diferenciar uma transação Stonewall de uma transação Stonewall x2. No entanto, as primeiras não são transações colaborativas, enquanto as últimas são. Isso adiciona ainda mais dúvida sobre o gasto.

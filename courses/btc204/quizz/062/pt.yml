@@ -1,11 +1,11 @@
-question: Entre estas opções, qual não é um método para seleção automática de peças?
+pergunta: Entre estas opções, qual não é um método para seleção automática de peças?
 
-answer: Pagamentos Silenciosos
+resposta: Pagamentos Silenciosos
 
-wrong_answers:
+respostas_erradas:
   - Branch-and-Bound
   - FIFO
   - Solucionador de Mochila
 
-explanation: |
+explicação: |
   Diferente das outras três opções, Pagamentos Silenciosos não é um método para seleção de peças, mas sim um protocolo para usar endereços estáticos.

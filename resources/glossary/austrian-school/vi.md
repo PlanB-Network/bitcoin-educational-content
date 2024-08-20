@@ -1,0 +1,5 @@
+---
+term: TRƯỜNG PHÁI ÁO
+---
+
+Một trường phái kinh tế cho rằng thị trường là tập hợp các tương tác tự nguyện giữa các cá nhân, nhấn mạnh sự tự phát của trật tự kinh tế và chỉ trích sự can thiệp của nhà nước. Trường phái Áo ủng hộ vai trò của tài sản tư nhân, tự do ký kết hợp đồng và tự do thương mại, đồng thời chỉ trích ảnh hưởng tiêu cực của việc tạo ra tiền tệ đối với nền kinh tế. Những người đóng góp cho trường phái này, như Carl Menger, Ludwig von Mises và Friedrich Hayek, đã phát triển các khái niệm như hình thành giá cả, chức năng của tiền tệ, động lực của vốn và lý thuyết giá trị chủ quan. Trường phái Áo chỉ trích chủ nghĩa xã hội vì khả năng không thể thực hiện các tính toán kinh tế hiệu quả và ủng hộ một cách tiếp cận tự do. Nó coi trọng thị trường tự do và xem sự can thiệp của nhà nước là nguồn gốc của các mất cân bằng kinh tế. Nhiều người hâm mộ Bitcoin tuân theo những ý tưởng này, tin rằng Bitcoin đại diện cho một công cụ hòa hợp với triết lý này do bản chất phân tán, giới hạn trong việc tạo ra tiền tệ và khả năng hoạt động độc lập với sự can thiệp của nhà nước.

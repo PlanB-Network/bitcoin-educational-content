@@ -1,9 +1,9 @@
-question: Vai trò của một công chứng viên trong bối cảnh thừa kế Bitcoin là gì?
-answer: Để đảm bảo tuân thủ thuế
-wrong_answers:
+câu hỏi: Vai trò của một công chứng viên trong bối cảnh thừa kế Bitcoin là gì?
+câu trả lời: Để đảm bảo tuân thủ thuế
+câu trả lời sai:
   - Quản lý bitcoin của bạn sau khi bạn qua đời
   - Tạo kế hoạch thừa kế của bạn
   - Bảo vệ bitcoin của bạn
-explanation: |
+giải thích: |
   Trong bối cảnh thừa kế Bitcoin, việc thảo luận về việc thừa kế bitcoin với một công chứng viên để đảm bảo tuân thủ thuế là quan trọng.
-reviewed: false
+đã xem xét: false

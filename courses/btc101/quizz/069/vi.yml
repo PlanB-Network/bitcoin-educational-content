@@ -1,9 +1,9 @@
-question: Số lượng bitcoin ước tính lưu hành sau lần giảm phân thưởng đầu tiên là bao nhiêu?
-answer: 10,500,000 BTC
-wrong_answers:
+câu hỏi: Số lượng bitcoin ước tính lưu hành sau lần giảm phân thưởng đầu tiên là bao nhiêu?
+câu trả lời: 10,500,000 BTC
+câu trả lời sai:
   - 5,250,000 BTC
   - 15,750,000 BTC
   - 21,000,000 BTC
-explanation: |
+giải thích: |
   Sau lần giảm phân thưởng đầu tiên, xảy ra ở độ cao khối 210,000, số lượng bitcoin ước tính lưu hành là 10,500,000 BTC, tương đương một nửa tổng số bitcoin sẽ lưu hành.
-reviewed: false
+đã xem xét: true

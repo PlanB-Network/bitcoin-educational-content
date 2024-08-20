@@ -1,0 +1,9 @@
+---
+term: OP_SUCCESS
+---
+
+`OP_SUCCESS` đại diện cho một loạt các mã vận hành (opcodes) đã từng bị vô hiệu hóa trong quá khứ và hiện nay được dành riêng cho việc sử dụng trong tương lai trong Tapscript. Mục tiêu cuối cùng của chúng là để tạo điều kiện thuận lợi cho việc cập nhật và mở rộng ngôn ngữ script, bằng cách cho phép giới thiệu các chức năng mới thông qua các soft fork. Khi một trong những opcodes này được gặp trong một script, nó chỉ ra sự thành công tự động của phần đó của script, bất kể dữ liệu hay điều kiện hiện diện. Điều này có nghĩa là script tiếp tục thực thi mà không gặp lỗi, độc lập với các hoạt động trước đó.
+
+Do đó, khi một opcode mới được thêm vào một `OP_SUCCESS`, nó nhất thiết đại diện cho việc thêm vào một quy tắc hạn chế hơn so với quy tắc trước đó. Các nút đã cập nhật có thể sau đó xác minh sự tuân thủ với quy tắc này, và các nút không được cập nhật sẽ không từ chối các giao dịch liên quan và các khối bao gồm chúng, bởi vì `OP_SUCCESS` xác nhận phần đó của script. Do đó, không có hard fork.
+
+So sánh, `OP_NOP` (*No Operation*) cũng phục vụ như là các vị trí giữ chỗ trong script, nhưng chúng không có ảnh hưởng gì đến việc thực thi của script. Khi một `OP_NOP` được gặp, script đơn giản là tiếp tục mà không thay đổi trạng thái của stack hay tiến trình của script. Sự khác biệt chính, do đó, nằm ở ảnh hưởng của chúng đối với việc thực thi: `OP_SUCCESS` đảm bảo một sự qua lại thành công qua phần đó của script, trong khi `OP_NOP` là trung lập, và không ảnh hưởng đến stack hay dòng chảy của script. Các opcodes này được chỉ định bởi `OP_SUCCESSN` nơi `N` là một số được sử dụng để phân biệt các `OP_SUCCESS`.

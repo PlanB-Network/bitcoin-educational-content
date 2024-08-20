@@ -1,11 +1,11 @@
-question: Điểm khác biệt chính giữa Bitcoin và các alt-coin về mặt phi tập trung là gì?
-answer: Bitcoin là phi tập trung trong khi hầu hết các alt-coin thì không
-wrong_answers:
+câu hỏi: Điểm khác biệt chính giữa Bitcoin và các alt-coin về mặt phi tập trung là gì?
+câu trả lời: Bitcoin là phi tập trung trong khi hầu hết các alt-coin thì không
+câu trả lời sai:
   - Cả Bitcoin và các alt-coin đều phi tập trung
   - Cả Bitcoin và các alt-coin đều không phi tập trung
   - Các alt-coin là phi tập trung trong khi Bitcoin thì không
-explanation: |
+giải thích: |
   Nội dung chương rõ ràng chỉ ra rằng Bitcoin là phi tập trung trong khi
   hầu hết các alt-coin thì không. Đây là một đặc điểm quan trọng làm cho Bitcoin khác biệt so với
   các loại tiền mã hóa khác.
-reviewed: false
+đã xem xét: false

@@ -1,0 +1,7 @@
+---
+term: SEGWIT
+---
+
+SegWit, viết tắt của "Segregated Witness," là một bản cập nhật cho giao thức Bitcoin được giới thiệu vào tháng 8 năm 2017. Mục tiêu của nó là giải quyết một số vấn đề kỹ thuật, bao gồm vấn đề về khả năng xử lý giao dịch của mạng, vấn đề biến đổi giao dịch, và tạo điều kiện cho việc sửa đổi giao thức trong tương lai.
+
+Bản cập nhật này thay đổi cấu trúc giao dịch bằng cách chuyển dữ liệu chữ ký sang một thư mục riêng biệt. Cụ thể, với SegWit, chữ ký được loại bỏ khỏi khối chính và được chèn vào một cấu trúc dữ liệu riêng biệt ở cuối khối, được biết đến là các nhân chứng. Sự tách biệt này cho phép tăng khả năng chứa của mỗi khối mà không thay đổi kích thước tối đa của khối, là 1 MB trên Bitcoin. Thay đổi này cũng giải quyết vấn đề biến đổi giao dịch. Trước SegWit, chữ ký có thể được thay đổi trước khi một giao dịch được xác nhận, điều này thay đổi mã định danh giao dịch. Điều này làm cho việc xây dựng các giao dịch phức tạp trở nên khó khăn, vì một giao dịch chưa được xác nhận có thể có mã định danh của nó được thay đổi. Bằng cách tách rời các chữ ký, SegWit làm cho giao dịch không thể biến đổi, vì bất kỳ sự thay đổi nào trong chữ ký giờ đây chỉ ảnh hưởng đến mã định danh nhân chứng (WTXID), không phải mã định danh giao dịch (TXID). Bằng cách giải quyết vấn đề biến đổi, SegWit đã mở đường cho các phát triển tiếp theo trên hệ thống Bitcoin, đáng chú ý là Lightning Network, cho phép thực hiện giao dịch nhanh chóng và tiết kiệm chi phí.

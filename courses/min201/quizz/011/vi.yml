@@ -1,13 +1,13 @@
-question: Những chiến lược nào được thảo luận để chống lại sự tập trung hóa khai thác trong Bitcoin?
+Câu hỏi: Những chiến lược nào được thảo luận để chống lại sự tập trung hóa khai thác trong Bitcoin?
 
-answer: Các chiến lược được thảo luận để chống lại sự tập trung hóa khai thác trong Bitcoin bao gồm Khai thác tại nhà, giao thức Stratum V2, mở mã nguồn phần mềm khai thác, và đa dạng hóa các diễn viên và địa lý.
+Câu trả lời: Các chiến lược được thảo luận để chống lại sự tập trung hóa khai thác trong Bitcoin bao gồm Khai thác tại nhà, giao thức Stratum V2, mở mã nguồn phần mềm khai thác, và đa dạng hóa các diễn viên và địa lý.
 
-wrong_answers:
+Câu trả lời sai:
   - Các chiến lược được thảo luận để chống lại sự tập trung hóa khai thác trong Bitcoin bao gồm việc tăng kích thước khối, triển khai chứng minh cổ phần, và tạo ra một cơ quan trung ương để giám sát việc khai thác.
   - Các chiến lược được thảo luận để chống lại sự tập trung hóa khai thác trong Bitcoin bao gồm việc giảm phần thưởng khối, triển khai một phí giao dịch, và tạo ra một thuế khai thác.
   - Các chiến lược được thảo luận để chống lại sự tập trung hóa khai thác trong Bitcoin bao gồm việc tăng độ khó của việc khai thác, triển khai một giới hạn khai thác, và tạo ra một xổ số khai thác.
 
-explanation:
+Giải thích:
   Chương này thảo luận về một số chiến lược để chống lại sự tập trung hóa khai thác trong Bitcoin, bao gồm Khai thác tại nhà, giao thức Stratum V2, mở mã nguồn phần mềm khai thác, và đa dạng hóa các diễn viên và địa lý.
 
-reviewed: false
+Đã xem xét: false

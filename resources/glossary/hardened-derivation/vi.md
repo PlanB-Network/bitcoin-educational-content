@@ -1,0 +1,5 @@
+---
+term: HARDENED DERIVATION
+---
+
+Quy trình tạo ra khóa con trong ví HD. Hardened derivation sử dụng khóa riêng tư của cha mẹ làm đầu vào cho hàm `HMAC-SHA512`, làm cho việc tạo ra khóa công khai con từ khóa công khai cha mẹ và mã chuỗi cha mẹ trở nên không thể. Quy trình bao gồm việc nối khóa riêng tư của cha mẹ và một chỉ số lớn hơn hoặc bằng $2^{31}$, tiếp theo là áp dụng `HMAC-SHA512` với mã chuỗi cha mẹ. Kết quả được chia thành hai phần: 256 bit đầu tiên được cộng vào khóa riêng tư cha mẹ để thu được khóa riêng tư con, trong khi 256 bit còn lại tạo thành mã chuỗi con. Phương pháp này đảm bảo rằng ngay cả khi một khóa công khai mở rộng bị xâm phạm, nó không thể được sử dụng để tạo ra khóa công khai con. Trong quy trình dẫn xuất tiêu chuẩn, hardened derivation được sử dụng ở tất cả các cấp độ dẫn xuất cho đến độ sâu tài khoản. Trong ký hiệu đường dẫn dẫn xuất, một dẫn xuất cứng được chỉ định bằng một dấu nháy đơn `'` hoặc hiếm hơn là với một `h`.

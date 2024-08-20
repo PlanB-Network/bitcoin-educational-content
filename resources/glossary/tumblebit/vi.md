@@ -1,0 +1,5 @@
+---
+term: TUMBLEBIT
+---
+
+TumbleBit là một khái niệm về một trung tâm thanh toán ẩn danh tương thích với Bitcoin, được đề xuất vào năm 2016 bởi Ethan Heilman, Leen AlShenibr, Foteini Baldimtsi, Alessandra Scafuro và Sharon Goldberg. TumbleBit là một hệ thống trộn Bitcoin không yêu cầu sự tin tưởng vào một trung gian. Nó cho phép người dùng thực hiện các khoản thanh toán nhanh chóng, ẩn danh và ngoại tuyến thông qua một điều phối viên được gọi là Tumbler. TumbleBit đảm bảo sự ẩn danh bằng cách đảm bảo rằng ngay cả Tumbler cũng không thể liên kết khoản thanh toán của người trả tiền với người nhận của nó. Giao thức TumbleBit đảm bảo rằng Tumbler không thể ăn cắp bitcoin hoặc phát hành bitcoin giả bằng cách thực hiện các khoản thanh toán cho chính mình. Sự ẩn danh do TumbleBit cung cấp có thể so sánh với hệ thống eCash của Chaum. Tuy nhiên, khái niệm này chưa bao giờ được áp dụng rộng rãi, với các kỹ thuật bảo mật như Chaumian CoinJoin được ưa chuộng hơn.

@@ -1,10 +1,10 @@
-question: Ví nóng trong bối cảnh của Bitcoin là gì?
-answer: Một ví dùng để lưu trữ một lượng nhỏ Bitcoin trực tuyến
-wrong_answers:
+câu hỏi: Ví nóng trong bối cảnh của Bitcoin là gì?
+câu trả lời: Một ví dùng để lưu trữ một lượng nhỏ Bitcoin trực tuyến
+câu trả lời sai:
   - Một ví được sử dụng cho các giao dịch trong khí hậu nóng
   - Một ví được sử dụng để lưu trữ một lượng lớn Bitcoin
   - Một ví được sử dụng để lưu trữ Bitcoin trong một thời gian dài
-explanation: |
+giải thích: |
   Ví nóng là một ví dùng để lưu trữ một lượng nhỏ Bitcoin trực tuyến.
   Nó được coi là kém an toàn hơn ví lạnh vì dễ bị hack hơn.
-reviewed: false
+đã xem xét: false

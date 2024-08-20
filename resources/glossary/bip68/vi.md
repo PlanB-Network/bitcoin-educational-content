@@ -1,0 +1,5 @@
+---
+term: BIP68
+---
+
+Giới thiệu khả năng sử dụng thời gian khóa tương đối thông qua trường `nSequence`. Điều này cho phép một giao dịch chỉ định một độ trễ tương đối trước khi nó có thể được bao gồm trong một khối. Độ trễ này có thể được định nghĩa theo số lượng khối, hoặc như một bội số của 512 giây (tức là, thời gian thực). Lưu ý rằng cách giải thích mới này của trường `nSequence` chỉ hợp lệ nếu trường `nVersion` lớn hơn hoặc bằng `2`. Cách giải thích này của trường `nSequence` xảy ra ở cấp độ của quy tắc đồng thuận của Bitcoin. Thời gian khóa tương đối thiết lập một độ trễ bắt đầu từ sự chấp nhận của một giao dịch trước đó, trong khi thời gian khóa tuyệt đối chỉ định một thời điểm cụ thể trước đó mà giao dịch không thể được bao gồm trong một khối. BIP68 được giới thiệu thông qua một soft fork vào ngày 4 tháng 7 năm 2016, cùng với BIP112 và BIP113, được kích hoạt lần đầu tiên bằng phương pháp BIP9.

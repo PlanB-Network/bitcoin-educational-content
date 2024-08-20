@@ -1,0 +1,5 @@
+---
+term: NATURAL FORK
+---
+
+Một sự tách nhánh tạm thời của blockchain xảy ra do việc phát sóng gần như đồng thời của nhiều khối bởi các thợ mỏ khác nhau ở cùng một độ cao. Tình huống này xảy ra khi hai khối, được chỉ định là $A$ và $B$, được tìm thấy gần như cùng một lúc, dẫn đến sự chia tách tạm thời của mạng. Vì mỗi nút coi khối đầu tiên mà nó nhận được là hợp lệ, nhưng không phải ai cũng nhận được cùng một khối đầu tiên, một phần của các nút theo dõi chuỗi chứa khối $A$, trong khi phần khác theo dõi chuỗi chứa khối $B$. Sự phân nhánh này được giải quyết khi một trong hai chuỗi cạnh tranh vượt qua chuỗi kia về mặt công việc tích lũy. Tại thời điểm đó, tất cả các nút trong mạng tự động đồng ý với chuỗi dài hơn (có công việc tích lũy nhiều nhất), quá trình này được biết đến như là tái tổ chức hoặc đồng bộ hóa lại. Những phân nhánh tự nhiên này là bản chất của hoạt động phân tán của Bitcoin. Chúng hoàn toàn bình thường và được giải quyết tự động sau vài khối (thường chỉ một). Tuy nhiên, nếu chúng xảy ra quá thường xuyên, những phân nhánh này vẫn có thể gây hại, vì chúng dẫn đến sự lãng phí sức mạnh tính toán trên một nhánh sẽ cuối cùng trở nên lỗi thời.

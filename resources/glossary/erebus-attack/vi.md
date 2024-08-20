@@ -1,0 +1,5 @@
+---
+term: EREBUS (TẤN CÔNG)
+---
+
+Một hình thức tấn công cực kỳ tinh vi đối với mạng lưới Bitcoin, cho phép một Nhà cung cấp Dịch vụ Internet (ISP) độc hại cô lập các nút Bitcoin cụ thể. Do đó, đây là một dạng của tấn công Eclipse. Tấn công Erebus khai thác cấu trúc của mạng Internet, đặc biệt là các điểm qua đường bắt buộc (hay còn gọi là "nút cổ chai") trong việc định tuyến giữa các Hệ thống Tự trị (AS). Một kẻ tấn công, bằng cách kiểm soát một hệ thống tự trị, có thể thao túng lưu lượng mạng để cô lập một nút Bitcoin khỏi phần còn lại của mạng, từ đó khiến nó tin vào một trạng thái giả mạo của blockchain (các khối hoặc giao dịch không được nút đó biết đến). Sự cô lập này có thể dẫn đến việc chi tiêu kép hoặc kiểm duyệt đối với nút bị cô lập. Tấn công này đã trở nên khó khăn hơn nhiều kể từ khi phiên bản 0.20.0 của Bitcoin Core được phát hành và việc giới thiệu Asmap.

@@ -1,0 +1,7 @@
+---
+term: MULTISIG
+---
+
+Ví đa chữ ký, thường được viết tắt là "multisig," được thiết kế để tăng cường bảo mật cho bitcoin bằng cách yêu cầu nhiều chữ ký từ các khóa riêng biệt khác nhau để ủy quyền cho một giao dịch chi tiêu. Phương pháp này phân tán rủi ro giữa nhiều khóa, giúp giảm bớt cả rủi ro mất mát và trộm cắp (tùy thuộc vào cấu hình multisig). Ví multisig hoạt động trên mô hình "m-trong-n", nơi `m` đại diện cho số lượng chữ ký tối thiểu cần thiết để xác thực một giao dịch, và `n` là tổng số khóa liên quan. Ví dụ, một cài đặt 2-trong-3 yêu cầu hai trong số ba chữ ký có thể có để xác thực một giao dịch. Phương pháp này cung cấp bảo mật cao hơn so với ví chỉ sử dụng một khóa duy nhất, nhưng nó cũng giới thiệu thêm sự phức tạp về quản lý và sao lưu. Hơn nữa, giao dịch sử dụng các tiêu chuẩn multisig cũ kỹ kém riêng tư và tốn kém hơn về phí so với giao dịch singlesig truyền thống. Tuy nhiên, những đổi mới gần đây như Taproot và việc sử dụng descriptors được kỳ vọng sẽ giảm thiểu, nếu không muốn nói là loại bỏ, những nhược điểm này của multisigs.
+
+> ► *Một số người sử dụng bitcoin phân biệt giữa các thuật ngữ "Multisig" và "Threshold Multisig." Thực tế, một số người cho rằng một multisig nhất thiết là một n-trong-n, trong khi một threshold multisig là một m-trong-n. Tuy nhiên, trong ngôn ngữ thông thường, việc tham chiếu đến "Multisig" ngay cả cho m-trong-n cũng được chấp nhận.*

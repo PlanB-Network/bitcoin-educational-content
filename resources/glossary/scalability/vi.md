@@ -1,0 +1,7 @@
+---
+term: SCALABILITY
+---
+
+Đề cập đến khả năng của Bitcoin trong việc xử lý sự tăng lên về khối lượng giao dịch mà vẫn duy trì được mức độ hiệu suất chấp nhận được. Bitcoin đối mặt với những hạn chế kỹ thuật cố hữu, như kích thước khối, khoảng thời gian giữa mỗi khối, và thực tế là một giao dịch chỉ được coi là không thể thay đổi sau một số lần xác nhận. Những ràng buộc này ngăn cản Bitcoin xử lý hiệu quả một số lượng không giới hạn các giao dịch. Khi nhu cầu về không gian trong các khối tăng lên, người dùng buộc phải tăng phí họ trả để có giao dịch của họ được xử lý. Khả năng mở rộng, nghĩa là khả năng của Bitcoin trong việc xử lý sự tăng lên về khối lượng giao dịch, có thể được cải thiện bằng cách chỉnh sửa trực tiếp giao thức hoặc bằng giải pháp bên ngoài như Lightning Network. Vấn đề về khả năng mở rộng luôn là tâm điểm của những cuộc tranh luận sôi nổi trong cộng đồng. Lần đầu tiên cố gắng tăng kích thước khối diễn ra vào tháng 10 năm 2010 với [một bản vá được đề xuất bởi Jeff Garzik](https://bitcointalk.org/index.php?topic=1347.0). Chủ đề về khả năng mở rộng đáng chú ý dẫn đến cuộc chiến kích thước khối từ 2015 đến 2017.
+
+> ► *Thuật ngữ "scalabilité" là một từ mượn từ tiếng Anh. Bản dịch chính xác của thuật ngữ tiếng Anh "scalability" là "khả năng mở rộng" hoặc "quá trình mở rộng". Tuy nhiên, trong cộng đồng, việc sử dụng trực tiếp thuật ngữ "scalabilité" được chấp nhận phổ biến.*

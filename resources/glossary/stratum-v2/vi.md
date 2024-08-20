@@ -1,0 +1,5 @@
+---
+term: STRATUM V2
+---
+
+Sự phát triển của Stratum, giao thức mạng phủ nổi tiếng dành cho Bitcoin được thiết kế cho việc đào. Loại giao thức này được thiết kế để tối ưu hóa giao tiếp giữa các thợ mỏ cá nhân và máy chủ hồ bơi đào, nhằm tăng lợi nhuận của họ. Được phát triển bởi hồ bơi Braiins (trước đây là "Slush Pool"), Stratum V2 giới thiệu một số cải tiến, bao gồm giao tiếp hiệu quả hơn giữa thợ mỏ và hồ bơi đào, do đó giảm băng thông cần thiết. Nó cũng giảm nhu cầu về cơ sở hạ tầng cho các hồ bơi. Về mặt bảo mật, nó thêm xác thực mật mã để ngăn chặn các cuộc tấn công man-in-the-middle khác nhau, bao gồm nghe lén và chuyển hướng độc hại của hashrate. Một khía cạnh quan trọng của Stratum V2 là nó bao gồm các sub-protocols cho phép các thợ mỏ cá nhân chọn bộ giao dịch của riêng họ để bao gồm trong các khối họ làm việc. Tính năng này trao nhiều quyền lực hơn cho các thợ mỏ cá nhân, không giống như giao thức gốc nơi các hồ bơi có toàn quyền kiểm soát mẫu khối. Phương pháp này có thể do đó tăng cường sự phân quyền của quá trình đào bởi các hồ bơi.

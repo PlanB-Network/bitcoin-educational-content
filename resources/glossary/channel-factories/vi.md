@@ -1,0 +1,5 @@
+---
+term: CHANNEL FACTORIES
+---
+
+Một cơ chế tiên tiến đang được phát triển trên Lightning, cho phép tạo và quản lý nhiều kênh thanh toán từ một UTXO duy nhất. Channel factories sử dụng địa chỉ `n-of-n` multisig để một nhóm người dùng có thể cùng nhau giữ một UTXO duy nhất. Từ đó, họ có thể mở và đóng các kênh thanh toán giữa họ mà không cần thêm giao dịch trên chuỗi, trừ khi họ muốn rút tiền của mình khỏi nhà máy. Phương pháp này có thể giảm đáng kể chi phí và không gian chiếm dụng trên Bitcoin cho các giao dịch Lightning. Trên thực tế, điều này có nghĩa là các hoạt động mà bình thường sẽ yêu cầu giao dịch trên chuỗi cho mỗi lần mở hoặc đóng kênh có thể được thực hiện ngoại tuyến, với sự bảo đảm an toàn thông qua khả năng công bố các giao dịch chưa được công bố nếu cần thiết. Dùng lời của David A. Harding, channel factories có thể được mô tả như là các kênh Lightning được sử dụng để tạo ra các kênh Lightning khác.

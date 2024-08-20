@@ -1,0 +1,5 @@
+---
+term: TƯƠNG THÍCH NGƯỢC
+---
+
+Ám chỉ khả năng của một bản cập nhật quy tắc giao thức duy trì tương thích với các phiên bản trước đó. Điều này có nghĩa là các thay đổi được thiết kế theo cách mà các nút cũ (nút chạy các phiên bản trước khi thay đổi quy tắc) vẫn có thể tương tác với mạng và theo dõi chuỗi có nhiều công việc tích lũy nhất. Do đó, điều cần thiết là các nút cũ không từ chối các khối mới hoặc các giao dịch mới. Tương thích ngược giảm đáng kể khả năng một bản cập nhật sẽ làm phân mảnh mạng, từ đó tránh được việc chia các nút thành các nhóm phụ trên các chuỗi khác nhau. Để đảm bảo tương thích với các phiên bản trước của giao thức, một bản cập nhật phải làm cho các quy tắc hiện hành trở nên nghiêm ngặt hơn hoặc giới thiệu quy tắc mới. Nguyên tắc này định nghĩa một "soft fork". Ngược lại, nếu một bản cập nhật làm lỏng lẻo các quy tắc hiện có hoặc loại bỏ một số quy tắc, thì nó sẽ không tương thích ngược. Điều này sẽ là một "hard fork".

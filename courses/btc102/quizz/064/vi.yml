@@ -1,12 +1,12 @@
-question: Giải pháp được đề xuất cho việc mua Bitcoin định kỳ mà không gặp căng thẳng là gì?
-answer: Sử dụng giải pháp DCA
-wrong_answers:
+câu hỏi: Giải pháp được đề xuất cho việc mua Bitcoin định kỳ mà không gặp căng thẳng là gì?
+câu trả lời: Sử dụng giải pháp DCA
+câu trả lời sai:
   - Sử dụng ví nóng
   - Sử dụng ví lạnh
   - Sử dụng giải pháp không-KYC
-explanation: |
+giải thích: |
   Giải pháp được đề xuất cho việc mua Bitcoin định kỳ mà không gặp căng thẳng
   là sử dụng giải pháp DCA (Dollar Cost Averaging). Chiến lược này bao gồm việc chia
   tổng số tiền bạn muốn đầu tư qua các lần mua định kỳ để giảm bớt tác động
   của biến động giá.
-reviewed: false
+đã xem xét: false

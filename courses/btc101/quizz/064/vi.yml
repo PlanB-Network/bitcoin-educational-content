@@ -1,9 +1,9 @@
-question: Lệnh nào được sử dụng để kiểm tra số lượng bitcoin đang lưu thông trên một nút Bitcoin?
-answer: bitcoin-cli gettxoutsetinfo
-wrong_answers:
+Câu hỏi: Lệnh nào được sử dụng để kiểm tra số lượng bitcoin đang lưu thông trên một nút Bitcoin?
+Câu trả lời: bitcoin-cli gettxoutsetinfo
+Câu trả lời sai:
   - bitcoin-cli getblockchaininfo
   - bitcoin-cli getwalletinfo
   - bitcoin-cli getnetworkinfo
-explanation: |
+Giải thích: |
   Lệnh để kiểm tra số lượng bitcoin đang lưu thông trên một nút Bitcoin là bitcoin-cli gettxoutsetinfo. Lệnh này cung cấp sự minh bạch và khả năng kiểm chứng, tăng cường lòng tin vào hệ thống Bitcoin.
-reviewed: true
+Đã xem xét: true

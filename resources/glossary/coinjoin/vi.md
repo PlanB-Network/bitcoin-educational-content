@@ -1,0 +1,23 @@
+---
+term: COINJOIN
+---
+
+Coinjoin là một kỹ thuật được sử dụng để phá vỡ khả năng theo dõi của bitcoin. Nó dựa vào một giao dịch hợp tác với cấu trúc cụ thể mang tên: giao dịch coinjoin. Giao dịch coinjoin giúp cải thiện bảo vệ quyền riêng tư của người dùng Bitcoin bằng cách làm cho việc phân tích giao dịch trở nên khó khăn hơn đối với những người quan sát bên ngoài. Cấu trúc này cho phép trộn lẫn nhiều đồng tiền trong một giao dịch duy nhất, làm cho việc xác định mối liên kết giữa địa chỉ đầu vào và đầu ra trở nên khó khăn.
+
+Quy trình hoạt động chung của coinjoin như sau: các người dùng khác nhau mong muốn trộn tiền gửi một số tiền như đầu vào của một giao dịch. Những đầu vào này sẽ xuất hiện như những đầu ra khác nhau với cùng một số tiền. Khi giao dịch kết thúc, không thể xác định được đầu ra nào thuộc về người dùng nào. Về mặt kỹ thuật, không có liên kết nào giữa các đầu vào và đầu ra của giao dịch coinjoin. Liên kết giữa mỗi người dùng và mỗi UTXO bị phá vỡ, cũng như lịch sử của mỗi đồng tiền.
+
+![](../../dictionnaire/assets/4.png)
+
+Để cho phép coinjoin mà không người dùng nào mất quyền kiểm soát đối với tiền của họ vào bất kỳ thời điểm nào, giao dịch đầu tiên được xây dựng bởi một điều phối viên và sau đó được truyền đến mỗi người dùng. Mỗi người sau đó ký giao dịch ở phía mình sau khi xác minh rằng nó phù hợp với họ, và sau đó tất cả các chữ ký được thêm vào giao dịch. Nếu một người dùng hoặc điều phối viên cố gắng ăn cắp tiền của người khác bằng cách sửa đổi các đầu ra của giao dịch coinjoin, thì các chữ ký sẽ không hợp lệ và giao dịch sẽ bị các nút từ chối. Khi việc ghi lại đầu ra của người tham gia được thực hiện bằng cách sử dụng chữ ký mù của Chaum để tránh liên kết với đầu vào, điều này được gọi là "Chaumian coinjoin".
+
+Cơ chế này tăng cường tính bảo mật của giao dịch mà không yêu cầu sửa đổi gì đối với giao thức Bitcoin. Các triển khai cụ thể của coinjoin, như Whirlpool, JoinMarket, hoặc Wabisabi, cung cấp giải pháp để tạo điều kiện cho quá trình điều phối giữa các bên tham gia và tăng cường hiệu quả của giao dịch coinjoin. Dưới đây là một ví dụ về giao dịch coinjoin:
+
+```text
+323df21f0b0756f98336437aa3d2fb87e02b59f1946b714a7b09df04d429dec2
+```
+
+Khó có thể xác định chắc chắn ai là người đầu tiên giới thiệu ý tưởng về coinjoin trên Bitcoin, và ai đã có ý tưởng sử dụng chữ ký mù của David Chaum trong bối cảnh này. Thường được cho là Gregory Maxwell là người đầu tiên thảo luận về nó trong [một tin nhắn trên BitcoinTalk vào năm 2013](https://bitcointalk.org/index.php?topic=279249.0):
+Sử dụng chữ ký mù của Chaum: Người dùng kết nối và cung cấp đầu vào (và địa chỉ thay đổi) cũng như phiên bản bị mù một cách mật mã của địa chỉ mà họ muốn gửi tiền riêng của mình; máy chủ ký vào các token và trả lại chúng. Người dùng kết nối lại một cách ẩn danh, tiết lộ địa chỉ đầu ra của họ, và gửi chúng trở lại cho máy chủ. Máy chủ có thể thấy rằng tất cả các đầu ra đã được ký bởi nó và do đó, tất cả các đầu ra đều đến từ những người tham gia hợp lệ. Sau đó, mọi người kết nối lại và ký.
+Maxwell, G. (2013, August 22). *CoinJoin: Bitcoin privacy for the real world*. Diễn đàn BitcoinTalk. https://bitcointalk.org/index.php?topic=279249.0
+Tuy nhiên, đã có những đề cập sớm hơn, cả về chữ ký Chaum trong bối cảnh trộn lẫn, cũng như về coinjoins. [Vào tháng 6 năm 2011, Duncan Townsend đã trình bày trên BitcoinTalk](https://bitcointalk.org/index.php?topic=12751.0) về một bộ trộn sử dụng chữ ký Chaum một cách khá tương tự như coinjoins Chaumian hiện đại. Trong cùng một chủ đề, có [một tin nhắn từ hashcoin phản hồi Duncan Townsend](https://bitcointalk.org/index.php?topic=12751.msg315793#msg315793) để cải thiện bộ trộn của mình. Tin nhắn này trình bày điều gần giống nhất với coinjoins. Cũng có đề cập về một hệ thống tương tự trong [một tin nhắn từ Alex Mizrahi vào năm 2012](https://gist.github.com/killerstorm/6f843e1d3ffc38191aebca67d483bd88#file-laundry), khi ông đang tư vấn cho những người sáng tạo ra Tenebrix. Thuật ngữ "coinjoin" không phải do Greg Maxwell phát minh, mà nó xuất phát từ một ý tưởng của Peter Todd.
+> ► *Thuật ngữ "coinjoin" không có bản dịch tiếng Pháp. Một số người dùng bitcoin cũng sử dụng các thuật ngữ "mix", "mixing", hoặc "mixage" để chỉ giao dịch coinjoin. Mixing thực chất là quá trình được sử dụng ở trung tâm của coinjoin. Ngoài ra, quan trọng là không nhầm lẫn việc trộn lẫn thông qua coinjoins với việc trộn lẫn thông qua một bên trung gian giữ lấy bitcoin trong quá trình đó. Điều này không liên quan gì đến coinjoin, nơi người dùng không mất quyền kiểm soát bitcoin của mình trong quá trình đó.*

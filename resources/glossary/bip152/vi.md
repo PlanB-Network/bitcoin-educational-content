@@ -1,0 +1,5 @@
+---
+term: BIP152
+---
+
+Đề xuất cho "Compact Block Relay" nhằm giảm băng thông cần thiết cho việc truyền tải khối qua mạng Bitcoin. Được chấp nhận vào tháng 11 năm 2016 trong phiên bản 0.13.0 của Bitcoin Core, giao thức này cho phép truyền đạt thông tin khối một cách gọn nhẹ, dựa trên giả định rằng các nút đã có một phần lớn các giao dịch của khối gần đây trong mempool của họ. Thay vì truyền đạt từng giao dịch một cách đầy đủ, điều này sẽ dẫn đến sự trùng lặp, BIP152 đề xuất chỉ gửi các định danh ngắn cho các giao dịch đã biết với các nút ngang hàng, đi kèm với một số giao dịch được chọn (đáng chú ý là giao dịch coinbase và những giao dịch mà nút có khả năng không biết). Nút sau đó có thể yêu cầu bất kỳ giao dịch nào bị thiếu từ các nút ngang hàng của mình. Compact Block Relay do đó giảm lượng dữ liệu trao đổi trong quá trình lan truyền khối, giảm bớt sự bùng nổ băng thông và cải thiện hiệu quả tổng thể của mạng.

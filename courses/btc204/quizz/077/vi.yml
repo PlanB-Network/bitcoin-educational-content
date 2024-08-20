@@ -1,0 +1,11 @@
+câu hỏi: Sự khác biệt chính giữa coinjoin và một dịch vụ trộn tiền giữ hộ là gì?
+
+câu trả lời: Coinjoin cho phép kiểm soát đầy đủ về quỹ của mình.
+
+câu trả lời sai:
+  - Coinjoin yêu cầu việc tạm thời từ bỏ quyền kiểm soát quỹ.
+  - Dịch vụ trộn tiền an toàn hơn coinjoin.
+  - Dịch vụ trộn tiền cung cấp chất lượng trộn tốt hơn.
+
+giải thích: |
+  Nhược điểm chính của dịch vụ trộn tiền so với coinjoin là chúng yêu cầu người dùng phải từ bỏ quyền kiểm soát quỹ của mình trong quá trình trộn, điều này phơi bày họ trước rủi ro bị trộm cắp.

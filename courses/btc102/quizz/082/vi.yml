@@ -1,9 +1,9 @@
-question: Điểm chính trong quyết định đầu tư của người tích lũy Bitcoin là gì?
-answer: Tích lũy càng nhiều satoshi càng tốt
-wrong_answers:
+câu hỏi: Điểm chính trong quyết định đầu tư của người tích lũy Bitcoin là gì?
+câu trả lời: Tích lũy càng nhiều satoshi càng tốt
+câu trả lời sai:
   - Biến động giá ngắn hạn
   - Bán hàng hoá hoặc dịch vụ bằng Bitcoin
   - Mua một lượng lớn Bitcoin cùng một lúc
-explanation: |
+giải thích: |
   Điểm chính trong quyết định đầu tư của người tích lũy Bitcoin là tích lũy càng nhiều satoshi càng tốt. Điều này được thực hiện bằng cách thiết lập kế hoạch Trung bình Giá Đầu tư (DCA) và tìm kiếm các giải pháp khác để tích lũy satoshi.
-reviewed: false
+đã xem xét: false

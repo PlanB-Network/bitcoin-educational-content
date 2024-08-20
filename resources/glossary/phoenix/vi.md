@@ -1,0 +1,5 @@
+---
+term: PHOENIX
+---
+
+Một phần mềm ví di động tự quản lý được thiết kế để đơn giản hóa và làm cho việc giao dịch trên giao thức Lightning trở nên dễ dàng hơn. Nó cho phép người dùng quản lý quỹ của mình trực tiếp từ thiết bị di động của họ mà không cần phải kết nối với một nút Lightning riêng biệt. Phoenix thực sự hoạt động như một nút Lightning độc lập đầy đủ trên điện thoại (triển khai lightning). Nó hỗ trợ giao dịch Bitcoin và Lightning và cung cấp các tính năng để tạo điều kiện quản lý nút, như quản lý kênh tự động với nút Acinq. Khác với các ứng dụng ví Lightning khác, chủ yếu là custodial, Phoenix cung cấp một sự thỏa hiệp thú vị bằng cách kết hợp việc sử dụng một nút Lightning với sự tiện lợi của một ứng dụng điện thoại thông minh. Đây là một trong những giải pháp đơn giản tốt nhất cho người mới bắt đầu muốn sử dụng Lightning trong khi vẫn giữ quyền sở hữu đầy đủ bitcoin của mình (tự quản lý). Phoenix là một dự án được phát triển và duy trì bởi công ty Pháp Acinq.

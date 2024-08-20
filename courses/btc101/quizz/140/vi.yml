@@ -1,9 +1,9 @@
-question: Kích thước của blockchain Bitcoin là bao nhiêu?
-answer: Khoảng 500GB
-wrong_answers:
+câu hỏi: Kích thước của blockchain Bitcoin là bao nhiêu?
+câu trả lời: Khoảng 500GB
+câu trả lời sai:
   - Khoảng 100GB
   - Khoảng 1TB
   - Khoảng 2TB
-explanation: >-
+giải thích: >-
   Blockchain Bitcoin có kích thước khoảng 500GB.
-reviewed: false
+đã xem xét: false

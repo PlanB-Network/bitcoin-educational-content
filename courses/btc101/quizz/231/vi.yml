@@ -1,9 +1,9 @@
-question: Thời gian trung bình giữa hai khối trong giao thức Bitcoin là bao lâu?
-answer: 10 phút
-wrong_answers:
+câu hỏi: Thời gian trung bình giữa hai khối trong giao thức Bitcoin là bao lâu?
+câu trả lời: 10 phút
+câu trả lời sai:
   - 5 phút
   - 15 phút
   - 20 phút
-explanation: >-
+giải thích: >-
   Trung bình, thời gian giữa hai khối trong giao thức Bitcoin là 10 phút.
-reviewed: false
+đã xem xét: false

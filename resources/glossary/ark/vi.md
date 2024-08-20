@@ -1,0 +1,5 @@
+---
+term: ARK
+---
+
+Giao thức tầng hai mới được Burak công bố vào tháng 5 năm 2023. Giống như Lightning Network, Ark là một hệ thống hoạt động trên cơ sở blockchain chính của Bitcoin. Nó sẽ cho phép thực hiện các giao dịch bằng bitcoin một cách nhanh chóng, ẩn danh và tiết kiệm chi phí ngoài chuỗi. So với Lightning, Ark không yêu cầu tính thanh khoản đến để nhận thanh toán, điều này cải thiện đáng kể trải nghiệm người dùng. Hơn nữa, nó cung cấp sự riêng tư tương tự như các giao dịch coinjoin, trong khi Lightning là một mô hình tương đối kém trong việc bảo vệ sự riêng tư. Cuối cùng, Ark cũng có thể không tương tác nếu các covenant được thêm vào Bitcoin. Burak thường xuyên chỉ trích khả năng mở rộng của Lightning do sự phụ thuộc vào chuỗi chính và gợi ý rằng Ark có thể lý thuyết phục vụ toàn bộ dân số toàn cầu trong tự quản lý. Mặc dù Ark có thể được xem là một giao thức cạnh tranh với Lightning Network, hai hệ thống thực sự có thể tồn tại cùng nhau. Chúng thậm chí có thể bổ sung cho nhau. Tuy nhiên, quan trọng là phải lưu ý rằng, cho đến nay, Ark chỉ mới là một khái niệm. Burak chưa tiết lộ mã nguồn cho phát minh của mình.

@@ -1,0 +1,5 @@
+---
+term: ĐỘ KHÓ CỦA SHARE
+---
+
+Một mức độ khó cao hơn so với Bitcoin (do đó ít khó hơn), được một nhóm đào định nghĩa để xác định một hash của một share và đánh giá đóng góp của từng thợ mỏ cá nhân trong nhóm. Để quản lý hiệu quả tải trọng xác minh và đảm bảo rằng mọi thợ mỏ, bất kể sức mạnh tính toán của họ, đều gửi share một cách đều đặn, các nhóm điều chỉnh độ khó của các share. Độ khó được gán cho mỗi thợ mỏ xác định số lượng share họ tích lũy: ví dụ, nếu một thợ mỏ có một độ khó được gán là 10 và gửi 5 bằng chứng công việc hợp lệ ở mức độ khó này, họ nhận được 50 share. Một thợ mỏ mạnh mẽ hơn với độ khó là 100 khi gửi 7 bằng chứng công việc hợp lệ sẽ nhận được 700 share. Hệ thống này cho phép lượng định chính xác hashrate của mỗi thợ mỏ và phân phối phần thưởng theo phương pháp tính toán được chọn để bồi thường (PPS, PPLNS, TIDES...).

@@ -1,0 +1,5 @@
+---
+term: RIPEMD160
+---
+
+Thuật ngữ viết tắt cho *Research and development in Advanced Communications technologies in Europe Integrity Primitives Evaluation Message Digest 160*. Đây là một hàm băm mật mã tạo ra một bản tóm tắt 160-bit từ một đầu vào tùy ý. Nó được sử dụng trong Bitcoin để chuyển đổi một khóa công khai thành một địa chỉ nhận cho các tiêu chuẩn Legacy và SegWit v0 (đối với SegWit v1, khóa công khai không được băm). Quá trình này đầu tiên bao gồm việc áp dụng hàm băm `SHA256` lên khóa công khai, tiếp theo là việc áp dụng `RIPEMD160` lên kết quả. Sự kết hợp của hai hàm băm khác biệt này được biết đến là `HASH160` trong bối cảnh của Bitcoin. `RIPEMD160` cũng được sử dụng trong ví xác định và ví phân cấp để tính toán dấu vân tay của khóa. Cụ thể, `HASH160` được sử dụng để tính toán dấu vân tay của một khóa cha, sau đó được bao gồm trong metadata của một khóa mở rộng (xpub, xprv...).

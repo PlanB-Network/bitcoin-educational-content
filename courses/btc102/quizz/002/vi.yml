@@ -1,8 +1,8 @@
-question: Ví dụ nổi bật về một Bitcoin hard fork là gì?
-answer: Bitcoin Cash (BCH)
-wrong_answers:
+câu hỏi: Ví dụ nổi bật về một Bitcoin hard fork là gì?
+câu trả lời: Bitcoin Cash (BCH)
+câu trả lời sai:
   - Ethereum (ETH)
   - Litecoin (LTC)
   - Ripple (XRP)
-explanation: |
+giải thích: |
   Bitcoin đã trải qua nhiều hard fork theo thời gian, tạo ra các phiên bản thay thế khác nhau của đồng tiền gốc. Ví dụ nổi bật về những sự lệch lạc này bao gồm Bitcoin Cash (BCH) và Bitcoin Satoshi Vision (BSV).

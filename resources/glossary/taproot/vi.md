@@ -1,0 +1,7 @@
+---
+term: TAPROOT
+---
+
+Một bản cập nhật lớn cho giao thức Bitcoin, được chấp nhận thông qua một soft fork vào tháng 11 năm 2021. Bản cập nhật này mang lại những cải tiến đáng kể về quyền riêng tư, hiệu quả và linh hoạt bằng cách triển khai BIP340, BIP341 và BIP342. Bản cập nhật này đã được khóa tại block 687,284 vào ngày 12 tháng 6 năm 2021, khi 90% các block được tạo ra trong một khoảng thời gian đã báo hiệu sự ủng hộ, qua đó chỉ ra sự sẵn sàng của các thợ mỏ để kích hoạt bản cập nhật (*Speedy Trial*). Việc kích hoạt cuối cùng diễn ra tại block 709,632 vào ngày 14 tháng 11 năm 2021, gần bốn năm sau những cuộc thảo luận ban đầu về vấn đề này giữa Pieter Wuille, Andrew Poelstra và Gregory Maxwell. Đây là nỗ lực cập nhật lớn đầu tiên kể từ khi kích hoạt SegWit gây tranh cãi vào năm 2017.
+
+Taproot cũng là tên của BIP341, được triển khai trong soft fork cùng tên, giới thiệu một mô hình script mới có tên là P2TR. Một script P2TR khóa bitcoin trên một khóa công khai Schnorr duy nhất, được ký hiệu là $K$. Tuy nhiên, khóa này $K$ thực sự là sự kết hợp của một khóa công khai $P$ và một khóa công khai $M$, cái sau được tính toán từ gốc Merkle của một danh sách `scriptPubKey`. Bitcoin được khóa với một script P2TR có thể được chi tiêu theo hai cách riêng biệt: hoặc là bằng cách công bố một chữ ký cho khóa công khai $P$, hoặc bằng cách thỏa mãn một trong các script chứa trong cây Merkle. Lựa chọn đầu tiên được gọi là "*key path*" và lựa chọn thứ hai là "*script path*".

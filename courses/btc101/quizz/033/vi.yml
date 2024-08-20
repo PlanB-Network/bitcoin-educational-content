@@ -1,9 +1,9 @@
-question: Tại sao Bitcoin là một hình thức tiền tệ mới?
-answer: Bởi vì đó là tiền điện tử không có thực thể trung ương
-wrong_answers:
+câu hỏi: Tại sao Bitcoin là một hình thức tiền tệ mới?
+câu trả lời: Bởi vì đó là tiền điện tử không có thực thể trung ương
+câu trả lời sai:
   - Bởi vì đó là một loại tiền tệ số được bảo chứng bởi vàng
   - Bởi vì đó là một loại tiền tệ yêu cầu blockchain
   - Bởi vì Cục Dự trữ Liên bang nói vậy
-explanation: >-
+giải thích: >-
   Bitcoin có thể được coi là một hình thức tiền tệ mới, vì nó phát triển từ một mạng lưới ngang hàng không có thực thể trung ương.
-reviewed: false
+đã xem xét: true

@@ -1,0 +1,5 @@
+---
+term: ATTACK SURFACE
+---
+
+Thuật ngữ này ám chỉ tổng số các điểm nhập cảnh tiềm năng mà một kẻ tấn công có thể khai thác để truy cập vào hệ thống. Bề mặt tấn công bao gồm tất cả các giao diện, dịch vụ, cổng, giao thức, và các vector giao tiếp khác có thể bị phơi bày. Một bề mặt tấn công mở rộng tăng cường khả năng bị lỗ hổng, do đó làm cho hệ thống dễ bị tấn công hơn. Việc giảm bề mặt tấn công là một phương pháp bảo mật tốt, bao gồm việc vô hiệu hóa các dịch vụ không cần thiết. Ví dụ, trong bối cảnh của Bitcoin, ví cứng có bề mặt tấn công nhỏ hơn nhiều so với ví phần mềm. Thực tế, chúng tách biệt các khóa trên một thiết bị không kết nối với Internet, có rất ít giao diện và dịch vụ. Ngược lại, ví phần mềm được cài đặt trên các PC đa năng, có bề mặt tấn công lớn hơn nhiều do hỗ trợ nhiều chức năng và kết nối mạng.

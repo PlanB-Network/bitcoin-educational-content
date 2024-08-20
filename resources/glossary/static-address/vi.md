@@ -1,0 +1,7 @@
+---
+term: ĐỊA CHỈ TĨNH
+---
+
+Trong bối cảnh của Thanh toán Ẩn danh, đây là một định danh duy nhất cho phép nhận thanh toán mà không cần sử dụng lại địa chỉ, không cần tương tác, và không có liên kết trực tiếp trên chuỗi giữa các khoản thanh toán khác nhau và địa chỉ tĩnh. Kỹ thuật này loại bỏ nhu cầu phải tạo ra các địa chỉ nhận mới, chưa từng sử dụng cho mỗi giao dịch, từ đó tránh được sự tương tác thường thấy trong Bitcoin, nơi người nhận phải cung cấp một địa chỉ mới cho người trả tiền. Nó tương đương một cách nào đó với mã thanh toán có thể tái sử dụng trong bối cảnh của BIP47.
+
+Địa chỉ này được tạo thành từ hai khóa công khai: $B_{\text{scan}}$ dùng để quét và $B_{\text{spend}}$ dùng để chi tiêu, được nối lại để tạo thành địa chỉ tĩnh $B = B_{\text{scan}} \text{ ‖ } B_{\text{spend}}$. Người nhận công bố địa chỉ này, cho phép người gửi tạo ra các địa chỉ thanh toán duy nhất mà không cần bất kỳ sự tương tác nào khác với người nhận. Để quản lý nhiều nguồn thanh toán riêng biệt, một nhãn có thể được thêm vào $B_{\text{spend}}$, từ đó tạo ra nhiều địa chỉ tĩnh có nhãn từ $B_1$, $B_2$, v.v. Điều này cho phép phân loại các khoản thanh toán trong khi sử dụng một địa chỉ cơ sở duy nhất, từ đó giảm bớt công việc quét blockchain. Tuy nhiên, tất cả các địa chỉ tĩnh của một thực thể có thể dễ dàng được liên kết với nhau do sử dụng chung $B_{\text{scan}}$.

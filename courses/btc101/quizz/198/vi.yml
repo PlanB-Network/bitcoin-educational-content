@@ -1,9 +1,9 @@
-question: Điều gì là một trong những thứ bạn nên có trước khi mua Bitcoin?
-answer: Một ví an toàn.
-wrong_answers:
+câu hỏi: Điều gì là một trong những thứ bạn nên có trước khi mua Bitcoin?
+câu trả lời: Một ví an toàn.
+câu trả lời sai:
   - Một két sắt vật lý.
   - Một tài khoản ngân hàng.
   - Một thẻ tín dụng.
-explanation: >-
+giải thích: >-
   Văn bản đề cập rằng trước khi mua Bitcoin, bạn nên có một ví an toàn. Đây là nơi bạn sẽ lưu trữ Bitcoin của mình.
-reviewed: false
+đã xem xét: false

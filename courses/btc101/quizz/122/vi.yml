@@ -1,9 +1,9 @@
-question: Nhịp độ của mạng lưới Bitcoin là gì?
-answer: 10 phút mỗi khối
-wrong_answers:
+câu hỏi: Nhịp độ của mạng lưới Bitcoin là gì?
+câu trả lời: 10 phút mỗi khối
+câu trả lời sai:
   - 10 giây mỗi khối
   - 10 phút mỗi giao dịch
   - 10 giây mỗi giao dịch
-explanation: |
+giải thích: |
   Nhịp độ của mạng lưới Bitcoin là 10 phút mỗi khối. Điều này giống như nhịp đập của hệ thống tiền tệ Bitcoin.
-reviewed: false
+đã xem xét: true

@@ -1,0 +1,5 @@
+---
+term: MASF
+---
+
+Viết tắt của "*Miner-Activated Soft Fork*". Điều này mô tả một soft fork trong Bitcoin khi việc kích hoạt đến từ hành động của các thợ mỏ. MASF là một nhóm các phương pháp kích hoạt soft fork trên Bitcoin. Trong những cách tiếp cận này, các thợ mỏ bày tỏ sự đồng ý và sẵn sàng cho một cập nhật giao thức bằng cách khai thác các khối hỗ trợ việc khóa soft fork. Nếu một đa số lớn các thợ mỏ bỏ phiếu ủng hộ soft fork, cập nhật được coi là được chấp nhận và được kích hoạt sau đó. Quá trình này giúp tránh tách rời blockchain và duy trì sự thống nhất của mạng lưới. MASF được ưa chuộng vì cách tiếp cận dựa trên sự đồng thuận nhẹ nhàng hơn, giảm thiểu rủi ro của việc chia tách blockchain trong khi đảm bảo rằng đa số sức mạnh tính toán hỗ trợ cập nhật mới. Các phương pháp kích hoạt như BIP34, BIP9, BIP8 (nếu `LOT=false` hoặc nếu ngưỡng bỏ phiếu được đạt), hoặc Speedy Trial là những ví dụ của MASF.

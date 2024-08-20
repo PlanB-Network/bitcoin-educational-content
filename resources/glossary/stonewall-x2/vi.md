@@ -1,0 +1,14 @@
+---
+term: STONEWALL X2
+---
+
+Một dạng cụ thể của giao dịch Bitcoin nhằm tăng cường quyền riêng tư cho người dùng trong quá trình chi tiêu, bằng cách hợp tác với một bên thứ ba không tham gia vào việc chi tiêu. Phương pháp này mô phỏng một mini-coinjoin giữa hai người tham gia, trong khi thực hiện thanh toán cho một bên thứ ba. Giao dịch Stonewall x2 có sẵn trên cả ứng dụng ví Samourai và phần mềm ví Sparrow (cả hai đều tương thích với nhau).
+
+Cách hoạt động của nó tương đối đơn giản: nó sử dụng một UTXO mà chúng ta sở hữu để thực hiện thanh toán và tìm sự giúp đỡ của một bên thứ ba, người cũng đóng góp một UTXO mà họ sở hữu. Giao dịch kết thúc với bốn đầu ra: hai trong số đó có số lượng bằng nhau, một dành cho địa chỉ của người nhận thanh toán, cái khác cho một địa chỉ thuộc về người hợp tác. Một UTXO thứ ba được gửi trở lại địa chỉ khác của người hợp tác, cho phép họ khôi phục lại số lượng ban đầu (một hành động trung lập đối với họ, trừ phí khai thác), và một UTXO cuối cùng trở về địa chỉ của chúng ta, tạo thành tiền thối từ việc thanh toán. Như vậy, ba vai trò khác nhau được định nghĩa trong giao dịch Stonewall x2:
+* Người gửi, người thực hiện thanh toán hiệu quả;
+* Người hợp tác, người cung cấp bitcoin để cải thiện tính ẩn danh tổng thể của giao dịch, trong khi hoàn toàn thu hồi lại quỹ của họ ở cuối;
+* Người nhận, người có thể không biết về bản chất cụ thể của giao dịch và đơn giản chỉ chờ đợi một khoản thanh toán từ người gửi.
+
+![](../../dictionnaire/assets/3.png)
+
+Cấu trúc Stonewall x2 thêm nhiều entropy vào giao dịch và làm rối loạn các dấu vết của phân tích chuỗi. Từ bên ngoài, một giao dịch như vậy có thể được giải thích là một mini-coinjoin giữa hai người. Nhưng thực tế, đó là một khoản thanh toán. Phương pháp này do đó tạo ra những bất ổn trong phân tích chuỗi, hoặc thậm chí dẫn đến những dấu vết sai lầm. Ngay cả khi một quan sát viên bên ngoài quản lý để xác định mô hình của giao dịch Stonewall x2, họ sẽ không có tất cả thông tin. Họ sẽ không thể xác định được UTXO nào trong hai UTXO có số lượng bằng nhau tương ứng với khoản thanh toán. Hơn nữa, họ sẽ không thể biết ai đã thực hiện thanh toán. Cuối cùng, họ sẽ không thể xác định liệu hai UTXO đầu vào có đến từ hai người khác nhau hay chúng thuộc về một người đã kết hợp chúng. Điểm này là do giao dịch Stonewall cổ điển tuân theo chính xác cùng một mô hình như giao dịch Stonewall x2. Từ bên ngoài và không có thông tin bổ sung về bối cảnh, không thể phân biệt giao dịch Stonewall với giao dịch Stonewall x2. Tuy nhiên, cái trước không phải là giao dịch hợp tác, trong khi cái sau là. Điều này thêm vào càng nhiều nghi ngờ về việc chi tiêu.

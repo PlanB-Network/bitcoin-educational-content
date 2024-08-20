@@ -1,0 +1,13 @@
+Câu hỏi: Cách thức "người tạo lập" được bồi thường trong JoinMarket như thế nào?
+
+Câu trả lời: Qua phí do "người nhận" trả.
+
+Câu trả lời sai:
+  - Qua phí khai thác.
+  - Qua đóng góp tự nguyện từ "người nhận".
+  - Qua tài trợ từ cộng đồng Bitcoin.
+
+Giải thích: |
+  "Người tạo lập" để bitcoin của họ sẵn sàng cho "người nhận" và nhận phí đổi lại cho dịch vụ của họ. "Người nhận", về phần mình, trả tiền để sử dụng bitcoin của "người tạo lập" nhằm thực hiện giao dịch coinjoin của riêng họ.
+
+Đã xem xét: false

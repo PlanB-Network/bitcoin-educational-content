@@ -1,11 +1,11 @@
-question: Một cách để tạo điều kiện cho việc sử dụng Bitcoin trong các giao dịch hàng ngày là gì?
-answer: Liệt kê tất cả các nhà bán lẻ chấp nhận Bitcoin
-wrong_answers:
+câu hỏi: Một cách để tạo điều kiện cho việc sử dụng Bitcoin trong các giao dịch hàng ngày là gì?
+câu trả lời: Liệt kê tất cả các nhà bán lẻ chấp nhận Bitcoin
+câu trả lời sai:
   - Tăng giá của Bitcoin
   - Giảm số lượng Bitcoin
   - Hạn chế việc sử dụng Bitcoin
-explanation: >-
+giải thích: >-
   Một cách để tạo điều kiện cho việc sử dụng Bitcoin trong các giao dịch hàng ngày là
   liệt kê tất cả các nhà bán lẻ chấp nhận Bitcoin. Điều này có thể được thực hiện thông qua các nền tảng
   như BTCMap.
-reviewed: false
+đã xem xét: false

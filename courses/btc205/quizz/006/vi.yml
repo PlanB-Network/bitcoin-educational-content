@@ -1,10 +1,10 @@
-question: Số tiền mua hàng tối đa hàng ngày cho KYC light ở Thụy Sĩ là bao nhiêu?
-answer: 1000 euro
-wrong_answers:
+câu hỏi: Số tiền mua hàng tối đa hàng ngày cho KYC light ở Thụy Sĩ là bao nhiêu?
+câu trả lời: 1000 euro
+câu trả lời sai:
   - 500 euro
   - 1500 euro
   - 2000 euro
-explanation: |
+giải thích: |
   KYC light ở Thụy Sĩ cho phép mua và bán bitcoin
 
 

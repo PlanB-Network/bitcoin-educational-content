@@ -1,0 +1,9 @@
+---
+term: TIMESTAMP
+---
+
+Ghi thời gian, hay "timestamp" trong tiếng Anh, là một cơ chế liên quan đến việc kết hợp một dấu thời gian chính xác với một sự kiện, dữ liệu, hoặc tin nhắn. Trong bối cảnh chung của hệ thống máy tính, ghi thời gian được sử dụng để xác định thứ tự thời gian của các hoạt động và để xác minh tính toàn vẹn của dữ liệu theo thời gian.
+
+Trong trường hợp cụ thể của Bitcoin, timestamp được sử dụng để thiết lập thứ tự thời gian của các giao dịch và các khối. Mỗi khối trong blockchain chứa một timestamp chỉ thời điểm tạo ra khối đó. Satoshi Nakamoto thậm chí đã nói về một "máy chủ timestamp" trong White Paper của mình, để mô tả những gì chúng ta gọi ngày nay là "blockchain." Vai trò của việc ghi thời gian trong Bitcoin là để xác định thứ tự thời gian của các giao dịch, nhằm xác định, mà không cần sự can thiệp của một cơ quan trung ương, giao dịch nào diễn ra trước. Cơ chế này cho phép mỗi người dùng xác minh sự không tồn tại của một giao dịch trong quá khứ, và do đó ngăn chặn một người dùng có ý định xấu thực hiện giao dịch gấp đôi. Cơ chế này được Satoshi Nakamoto biện minh trong White Paper của mình với câu nổi tiếng: "*Cách duy nhất để xác nhận sự vắng mặt của một giao dịch là biết tất cả các giao dịch.*" Tiêu chuẩn này được thiết lập dựa trên thời gian Unix, đại diện cho tổng số giây đã trôi qua kể từ ngày 1 tháng 1 năm 1970.
+
+> ► *Việc ghi thời gian của các khối trên Bitcoin tương đối linh hoạt, vì để một timestamp được coi là hợp lệ, nó chỉ cần lớn hơn thời gian trung bình của 11 khối trước đó (MTP) và nhỏ hơn thời gian trung bình của các thời gian do các nút (thời gian được điều chỉnh theo mạng) trả về cộng thêm 2 giờ.*

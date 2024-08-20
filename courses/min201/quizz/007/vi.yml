@@ -1,11 +1,11 @@
-question: Điều gì xảy ra với phần thưởng khai thác trong mạng lưới Bitcoin khoảng mỗi bốn năm một lần?
-answer: Nó được giảm một nửa
-wrong_answers:
+câu hỏi: Điều gì xảy ra với phần thưởng khai thác trong mạng lưới Bitcoin khoảng mỗi bốn năm một lần?
+câu trả lời: Nó được giảm một nửa
+câu trả lời sai:
   - Nó được nhân đôi
   - Nó được nhân ba
   - Nó giữ nguyên
-explanation: |
+giải thích: |
   Phần thưởng khai thác trong mạng lưới Bitcoin được giảm một nửa sau mỗi 210,000
   khối, tương đương khoảng mỗi bốn năm một lần. Phần thưởng này đóng vai trò là một động lực mạnh mẽ
   để khuyến khích các thợ mỏ tham gia vào quá trình khai thác dù cho nó tiêu tốn nhiều năng lượng.
-reviewed: false
+đã xem xét: false

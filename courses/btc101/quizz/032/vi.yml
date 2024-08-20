@@ -1,9 +1,9 @@
-question: Làm thế nào để tạo ra tiền tệ vững chắc?
-answer: Tiền tệ là một hiện tượng xã hội tự nhiên phải phát triển từ thị trường và sự đồng thuận tự nguyện
-wrong_answers:
+câu hỏi: Làm thế nào để tạo ra tiền tệ vững chắc?
+câu trả lời: Tiền tệ là một hiện tượng xã hội tự nhiên phải phát triển từ thị trường và sự đồng thuận tự nguyện
+câu trả lời sai:
   - Chính phủ thực thi qua luật lệ
   - Con người sử dụng bạo lực và ép buộc để buộc người khác chấp nhận tiền của họ
   - Không thể tạo ra tiền tệ vững chắc
-explanation: >-
+giải thích: >-
   Tiền tệ vững chắc là một hiện tượng xã hội tự nhiên phải phát triển từ thị trường và sự đồng thuận tự nguyện. Không có con người hay nhóm người nào có thể tạo ra tiền tệ.
-reviewed: false
+đã xem xét: true

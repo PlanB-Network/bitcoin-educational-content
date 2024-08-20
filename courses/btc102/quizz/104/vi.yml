@@ -1,11 +1,11 @@
-question: Bước đầu tiên trong việc tạo ra một kế hoạch thừa kế theo chương là gì?
-answer: Chọn những người phù hợp để giúp đỡ người thừa kế của bạn.
-wrong_answers:
+câu hỏi: Bước đầu tiên trong việc tạo ra một kế hoạch thừa kế theo chương là gì?
+câu trả lời: Chọn những người phù hợp để giúp đỡ người thừa kế của bạn.
+câu trả lời sai:
   - Viết thư.
   - Thực hiện một bản kiểm kê nhanh và đơn giản.
   - Thuê một luật sư.
   - Tin tưởng một bên thứ ba.
-explanation: |
+giải thích: |
   Bước đầu tiên trong việc tạo ra một kế hoạch thừa kế, như được đề xuất trong chương,
   là chọn những người phù hợp để giúp đỡ người thừa kế của bạn.
-reviewed: false
+đã xem xét: false

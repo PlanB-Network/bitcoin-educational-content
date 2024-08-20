@@ -1,0 +1,5 @@
+---
+term: SHA256
+---
+
+Thuật ngữ viết tắt cho "*Secure Hash Algorithm 256 bits*" (Thuật toán Băm An toàn 256 bit). Đây là một hàm băm mật mã tạo ra một mã băm 256-bit. Được thiết kế bởi *Cơ quan An ninh Quốc gia* (NSA) vào đầu những năm 2000, nó đã trở thành một tiêu chuẩn liên bang cho việc xử lý dữ liệu nhạy cảm. Trong giao thức Bitcoin, hàm `SHA256` được sử dụng rộng rãi. Nó được dùng để băm tiêu đề của các khối như một phần của bằng chứng công việc. `SHA256` cũng được sử dụng trong quá trình tạo ra địa chỉ nhận từ một khóa công khai. Nó còn được áp dụng cho việc tổng hợp các giao dịch và chứng từ trong các cây Merkle trong các khối. `SHA256` cũng được tìm thấy trong việc tính toán dấu vân tay khóa, tính toán một số kiểm tra mã, và trong nhiều quy trình khác xung quanh Bitcoin. Khi được áp dụng liên tiếp hai lần, nó được gọi là `HASH256`. Việc áp dụng kép này là phương pháp chủ yếu được sử dụng trên Bitcoin. Khi `SHA256` được sử dụng kết hợp với hàm `RIPEMD160`, nó được gọi là `HASH160`. Việc băm kép này được sử dụng cho dấu vân tay khóa và băm khóa công khai. Hàm `SHA256` là một phần của gia đình SHA 2.

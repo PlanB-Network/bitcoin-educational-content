@@ -1,9 +1,9 @@
-question: Ai đã đưa ra ý tưởng về "đại lộ Bitcoin"?
-answer: Andreas Antonopoulos
-wrong_answers:
+câu hỏi: Ai đã đưa ra ý tưởng về "đại lộ Bitcoin"?
+câu trả lời: Andreas Antonopoulos
+câu trả lời sai:
   - Satoshi Nakamoto
   - Elon Musk
   - Vitalik Buterin
-explanation: |
+giải thích: |
   Andreas Antonopoulos, một người ủng hộ và giáo dục về Bitcoin nổi tiếng, đã đưa ra ý tưởng về "đại lộ Bitcoin".
-reviewed: false
+đã xem xét: false

@@ -1,9 +1,9 @@
-question: Phương pháp phổ biến mà một người tích trữ Bitcoin thường sử dụng Bitcoin là gì?
-answer: Theo cách ngang hàng
-wrong_answers:
+câu hỏi: Phương pháp phổ biến mà một người tích trữ Bitcoin thường sử dụng Bitcoin là gì?
+câu trả lời: Theo cách ngang hàng
+câu trả lời sai:
   - Qua một người môi giới
   - Bằng cách bán hàng hóa hoặc dịch vụ
   - Bằng cách tham gia vào hệ sinh thái Bitcoin
-explanation: |
+giải thích: |
   Một phương pháp phổ biến mà một người tích trữ Bitcoin thường sử dụng Bitcoin là theo cách ngang hàng. Điều này có nghĩa là họ có thể mua Bitcoin trực tiếp bằng tiền mặt với bạn bè hoặc các thành viên của cộng đồng Bitcoin.
-reviewed: false
+đã xem xét: false

@@ -1,0 +1,7 @@
+---
+term: CUỘC TẤN CÔNG DUSTING
+---
+
+Cuộc tấn công Dusting bao gồm việc gửi một lượng nhỏ bitcoin đến một số lượng lớn các địa chỉ nhận. Mục tiêu của kẻ tấn công là buộc người nhận phải gộp những lượng nhỏ này với các UTXO khác. Sau đó, kẻ tấn công theo dõi các chuyển động trong tương lai của những lượng nhỏ bitcoin này, nhằm mục đích tạo ra các cụm địa chỉ, tức là xác định xem nhiều địa chỉ có thuộc về cùng một thực thể hay không. Bằng cách liên kết thông tin thu thập được trong quá trình tấn công dusting với các dữ liệu và phương pháp phân tích chuỗi khác, kẻ tấn công có thể xác định được một số thực thể và các địa chỉ liên quan của họ. Phương pháp này chỉ đại diện cho một mối đe dọa đối với quyền riêng tư của người dùng, nhưng không ảnh hưởng đến an toàn của quỹ của họ.
+
+> ► *Một số người dùng bitcoin đề xuất không nên sử dụng thuật ngữ "cuộc tấn công dusting" vì nó có thể gây hiểu nhầm. Thực tế, thuật ngữ "dust" mô tả một điều rất cụ thể trong Bitcoin Core. Nếu cuộc tấn công dusting thực sự sử dụng dust như được mô tả trong Core, cuộc tấn công sẽ không hiệu quả. Do đó, một số người đề xuất sử dụng thuật ngữ "tái sử dụng địa chỉ bị ép buộc" để mô tả chính xác hơn về cuộc tấn công này.*

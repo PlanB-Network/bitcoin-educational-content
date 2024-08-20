@@ -1,10 +1,10 @@
-question: Những ví nào mà một người Bitcoin cực kỳ cẩn thận có thể sử dụng?
-answer: Ví Samourai cho ví nóng, Coldcard và/hoặc Seed Signer cho ví lạnh
-wrong_answers:
+câu hỏi: Những ví nào mà một người Bitcoin cực kỳ cẩn thận có thể sử dụng?
+câu trả lời: Ví Samourai cho ví nóng, Coldcard và/hoặc Seed Signer cho ví lạnh
+câu trả lời sai:
   - Ví Coinbase cho ví nóng, Ledger cho ví lạnh
   - Ví Binance cho ví nóng, Trezor cho ví lạnh
   - PayPal cho ví nóng, Tài khoản ngân hàng cho ví lạnh
-explanation: |
+giải thích: |
   Chương này đề cập đến ví Samourai cho ví nóng và Coldcard và/hoặc
   Seed Signer cho ví lạnh là những ví mà một người Bitcoin cực kỳ cẩn thận có thể sử dụng.
-reviewed: false
+đã xem xét: false

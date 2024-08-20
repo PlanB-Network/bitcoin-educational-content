@@ -1,11 +1,11 @@
-question: Mục đích của trình quản lý mật khẩu trong Bitcoin là gì?
-answer: Để lưu trữ và quản lý mật khẩu cho các giao dịch Bitcoin một cách an toàn.
-wrong_answers:
+câu hỏi: Mục đích của trình quản lý mật khẩu trong Bitcoin là gì?
+câu trả lời: Để lưu trữ và quản lý mật khẩu cho các giao dịch Bitcoin một cách an toàn.
+câu trả lời sai:
   - Để đào Bitcoin mới.
   - Để giao dịch Bitcoin.
   - Để chuyển đổi Bitcoin sang các loại tiền mã hóa khác.
-explanation: |
+giải thích: |
   Trình quản lý mật khẩu là một ứng dụng phần mềm được sử dụng để lưu trữ và
   quản lý mật khẩu của một người cho các tài khoản trực tuyến khác nhau. Trong bối cảnh của Bitcoin,
   nó được sử dụng để lưu trữ và quản lý mật khẩu cho các giao dịch Bitcoin một cách an toàn.
-reviewed: false
+đã xem xét: false

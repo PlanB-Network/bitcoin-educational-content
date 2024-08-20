@@ -1,0 +1,3 @@
+Bitcoin QT là một ứng dụng Bitcoin bao gồm giao diện đồ họa, được phát hành vào tháng 5 năm 2011. Nó tiếp nối ứng dụng được tạo ra bởi chính Satoshi. Vào năm 2014, Bitcoin QT được đổi tên thành "Bitcoin Core". Hiện nay, đây là phiên bản thực thi tham chiếu của giao thức Bitcoin. Nó đã được đóng gói cùng với `bitcoind` từ phiên bản 0.5. Hơn nữa, ngày nay, giao diện đồ họa của Bitcoin Core vẫn được gọi là `bitcoin-qt` để tham chiếu đến nguồn gốc của phần mềm.
+
+> ► *"QT" đến từ tên của thư viện được sử dụng cho giao diện đồ họa. Tên "QT" đôi khi được hiểu như một trò chơi chữ dựa trên âm thanh của từ "cute" (dễ thương).*

@@ -1,0 +1,13 @@
+câu hỏi: Chỉ số anonset hồi tưởng chỉ ra điều gì?
+
+câu trả lời: Số lượng nguồn có thể có cho một UTXO vào cuối các chu kỳ.
+
+câu trả lời sai:
+  - Kích thước của nhóm UTXO không thể phân biệt được vào cuối các chu kỳ.
+  - Số lượng nguồn có thể có cho một UTXO vào đầu các chu kỳ.
+  - Thời gian cần thiết để hoàn thành một coinjoin.
+
+giải thích: |
+  Chỉ số anonset hồi tưởng chỉ ra số lượng nguồn có thể có cho một đồng tiền, xem xét UTXO vào cuối chu kỳ.
+
+đã xem xét: false

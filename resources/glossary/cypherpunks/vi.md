@@ -1,0 +1,9 @@
+---
+term: CYPHERPUNKS
+---
+
+Một cộng đồng không chính thức và quốc tế gồm các cá nhân thúc đẩy việc sử dụng mật mã hóa như một phương tiện để đảm bảo tự do cá nhân trên Internet. Cypherpunks ủng hộ quyền cơ bản của cá nhân trong việc bảo vệ sự riêng tư của họ, đặc biệt trong bối cảnh giám sát của nhà nước và khai thác dữ liệu bởi các thực thể tư nhân đang tăng lên. Tên của họ được bắt nguồn từ các từ tiếng Anh *cypher*, có nghĩa là "mã bí mật", và *punk*. Đây là một trò chơi từ với thuật ngữ *cyberpunk*, mô tả một thể loại văn học về một tương lai dystopian nơi công nghệ tiên tiến được gắn liền với tội phạm và suy đồi trong một xã hội đang suy tàn.
+
+Phong trào cypherpunk bắt đầu từ đầu những năm 1990 khi các nhóm của những nhà mật mã hóa, lập trình viên và những người tự do chủ nghĩa bắt đầu thảo luận về hệ quả chính trị của mật mã hóa trong những cuộc họp đầu tiên của họ ở Thung lũng Silicon. Một nhân vật chủ chốt trong cộng đồng này là Tim May, người đã viết *Bản Tuyên Ngôn Anarchist Mật Mã* vào năm 1988, một văn bản cơ bản của phong trào. Một trong những khoảnh khắc quan trọng trong lịch sử của cypherpunks là sự thành lập, vào năm 1992, của "Danh sách gửi thư Cypherpunks", một danh sách phân phối email đã tạo điều kiện cho những cuộc thảo luận này. Việc xuất bản *Bản Tuyên Ngôn của Cypherpunk* bởi Eric Hughes vào năm 1993, một tài liệu mô tả mục tiêu và hành động của các cypherpunks, cũng là một sự kiện đáng chú ý.
+
+Ý tưởng về một loại tiền tệ điện tử không dựa vào một thực thể trung tâm, như Bitcoin, có nguồn gốc trong triết lý của các cypherpunks. Việc tạo ra Bitcoin thường được coi là một thành tựu lớn của tầm nhìn này, cùng với PGP, Tor, và WikiLeaks.

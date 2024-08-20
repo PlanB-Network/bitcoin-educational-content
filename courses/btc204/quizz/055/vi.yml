@@ -1,13 +1,13 @@
-question: Địa chỉ nhận Bitcoin là gì?
+câu hỏi: Địa chỉ nhận Bitcoin là gì?
 
-answer: Một chuỗi ký tự được sử dụng để nhận Bitcoin.
+câu trả lời: Một chuỗi ký tự được sử dụng để nhận Bitcoin.
 
-wrong_answers:
+câu trả lời sai:
   - Một mã được sử dụng để gửi Bitcoin.
   - Một thuật toán để đào Bitcoin.
   - Một hợp đồng thông minh.
 
-explanation: |
+giải thích: |
   Địa chỉ nhận được sử dụng để nhận Bitcoin vào ví.
 
-reviewed: false
+đã xem xét: false

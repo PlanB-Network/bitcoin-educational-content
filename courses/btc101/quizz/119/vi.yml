@@ -1,10 +1,10 @@
-question: BitcoinTalk là gì?
-answer: Một nơi thảo luận dành cho người dùng Bitcoin
-wrong_answers:
+câu hỏi: BitcoinTalk là gì?
+câu trả lời: Một nơi thảo luận dành cho người dùng Bitcoin
+câu trả lời sai:
   - Một phần mềm đào Bitcoin
   - Một ví Bitcoin
   - Một hội nghị về Bitcoin
-explanation: |
+giải thích: |
   Diễn đàn BitcoinTalk là một nơi thảo luận dành cho người dùng Bitcoin. Nó
   được tạo ra bởi Satoshi Nakamoto vào ngày 22 tháng 11 năm 2009.
-reviewed: false
+đã xem xét: true

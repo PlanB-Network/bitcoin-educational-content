@@ -1,11 +1,11 @@
-question: Chức năng của Lightning Network trong hệ sinh thái Bitcoin là gì?
-answer: Nó giúp Bitcoin mở rộng và có thêm nhiều tính năng bằng cách hoạt động như một lớp thứ hai.
-wrong_answers:
+câu hỏi: Chức năng của Lightning Network trong hệ sinh thái Bitcoin là gì?
+câu trả lời: Nó giúp Bitcoin mở rộng và có thêm nhiều tính năng bằng cách hoạt động như một lớp thứ hai.
+câu trả lời sai:
   - Đó là một loại tiền điện tử riêng biệt cạnh tranh với Bitcoin.
   - Đó là công cụ để đào Bitcoin.
   - Đó là một nền tảng để giao dịch Bitcoin.
-explanation: |
+giải thích: |
   Lightning Network là công nghệ lớp thứ hai được áp dụng cho bitcoin
   sử dụng các kênh thanh toán vi mô để mở rộng khả năng của blockchain trong việc thực hiện
   các giao dịch một cách hiệu quả hơn.
-reviewed: false
+đã xem xét: false

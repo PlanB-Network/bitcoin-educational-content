@@ -1,0 +1,5 @@
+---
+term: NSEQUENCE
+---
+
+Trường `nSequence` trong một bản ghi giao dịch Bitcoin được sử dụng để chỉ ra cách mà bản ghi này được khóa thời gian. Ban đầu, nó được dự định để cho phép thay thế động các giao dịch trong mempool nhằm kích hoạt một hệ thống thanh toán tương tự như Lightning. Tuy nhiên, việc sử dụng của nó đã phát triển với sự giới thiệu của khóa thời gian tương đối thông qua BIP68. Trường `nSequence` giờ đây có thể chỉ định một độ trễ tương đối trước khi một giao dịch có thể được bao gồm trong một khối. Độ trễ này có thể được định nghĩa theo số lượng khối, hoặc như một bội số của 512 giây (tức là, thời gian thực). Điều quan trọng cần lưu ý là sự giải thích mới này của trường `nSequence` chỉ hợp lệ nếu trường `nVersion` lớn hơn hoặc bằng `2`. Sự giải thích này của trường `nSequence` nằm ở cấp độ quy tắc đồng thuận của Bitcoin. Hơn nữa, ở cấp độ quy tắc chuẩn hóa, trường này cũng được sử dụng để tín hiệu RBF (Replace-By-Fee). Nếu một giao dịch bao gồm một `nSequence` thấp hơn `0xfffffffe`, thì nó có thể được thay thế thông qua RBF trên các nút tuân theo chính sách này.

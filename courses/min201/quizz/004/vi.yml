@@ -1,12 +1,12 @@
-question: Công cụ chính được các thợ đào sử dụng trong mạng lưới Bitcoin ngày nay là gì?
-answer: ASICs
-wrong_answers:
+câu hỏi: Công cụ chính được các thợ đào sử dụng trong mạng lưới Bitcoin ngày nay là gì?
+câu trả lời: ASICs
+câu trả lời sai:
   - CPUs
   - GPUs
   - FPGAs
-explanation: |
+giải thích: |
   Ngày nay, các thợ đào độc quyền sử dụng ASICs dành riêng cho hoạt động này,
   được tối ưu hóa
   để thử nghiệm số lượng kết hợp tối đa với lượng tiêu thụ năng lượng nhỏ nhất
   và càng nhanh càng tốt.
-reviewed: false
+đã xem xét: false

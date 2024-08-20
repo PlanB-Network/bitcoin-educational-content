@@ -1,0 +1,5 @@
+---
+term: ZEROCONF
+---
+
+Là một phương pháp rủi ro khi coi một giao dịch Bitcoin như đã hoàn tất và tiến hành thực hiện hành động tương ứng đổi lại (như là bán hàng hoá hoặc dịch vụ), trước khi giao dịch thực sự được ghi vào một khối trên blockchain. Giao dịch chưa được xác nhận, hay zeroconf, dễ bị tấn công gấp đôi chi tiêu, vì chúng chưa được ghi vào sổ cái một cách không thể đảo ngược. Zeroconf có thể được xem xét trong các bối cảnh cụ thể, nơi tốc độ là ưu tiên, như trong trường hợp của các giao dịch thương mại nhỏ hoặc trong trường hợp giao dịch giữa những người quen biết. Trong những tình huống này, rủi ro của việc chi tiêu gấp đôi thường được coi là chấp nhận được so với lợi ích của một giao dịch nhanh chóng. Tuy nhiên, đối với các giao dịch lớn, đặc biệt là khi người gửi không được biết, việc chờ đợi một số lần xác nhận trước khi coi giao dịch là không thể thay đổi là rất quan trọng. Tiêu chuẩn chấp nhận chung là chờ đợi 6 lần xác nhận, nghĩa là phải có thêm 5 khối được khai thác sau khối chứa giao dịch, để coi giao dịch đó là hoàn tất.

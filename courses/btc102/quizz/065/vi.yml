@@ -1,9 +1,9 @@
-question: Đặc điểm chính của một Hodler trong bối cảnh đầu tư Bitcoin là gì?
-answer: Họ giữ Bitcoin lâu dài.
-wrong_answers:
+câu hỏi: Đặc điểm chính của một Hodler trong bối cảnh đầu tư Bitcoin là gì?
+câu trả lời: Họ giữ Bitcoin lâu dài.
+câu trả lời sai:
   - Họ thường xuyên giao dịch Bitcoin.
   - Họ chỉ đầu tư vào Bitcoin khi giá thấp.
   - Họ bán Bitcoin ngay khi giá tăng.
-explanation: |
+giải thích: |
   Một Hodler, trong bối cảnh đầu tư Bitcoin, là người giữ Bitcoin lâu dài, tin rằng việc sử dụng và tính khan hiếm của nó sẽ tăng theo thời gian.
-reviewed: false
+đã xem xét: false

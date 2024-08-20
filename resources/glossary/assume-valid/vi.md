@@ -1,0 +1,7 @@
+---
+term: ASSUME VALID
+---
+
+Tham số cấu hình trong phần lớn các client Bitcoin Core cho phép một node vừa được khởi tạo (nhưng chưa thực hiện IBD) bỏ qua việc xác minh chữ ký cho tất cả các giao dịch được bao gồm trong các block trước một block nhất định. Block nổi tiếng này được xác định bởi dấu ấn của tiêu đề của nó, tức là hash của nó. Block được chọn được làm mới với mỗi phiên bản mới của Bitcoin Core. Khi khởi tạo, nếu node đã kích hoạt tham số này, nó sẽ kiểm tra chuỗi tiêu đề block để tìm nhánh có công việc tích lũy nhiều nhất. Nếu node phát hiện hash do Core cung cấp trong nhánh mà nó đã chọn, nó sẽ bỏ qua việc xác minh chữ ký cho các block trước đó. Ngược lại, node sẽ tiến hành đồng bộ hóa truyền thống (IBD) để tự mình xác minh mọi thứ.
+
+Mục tiêu của Assume Valid là để tăng tốc quá trình đồng bộ hóa ban đầu của một node mà không làm ảnh hưởng đến an ninh, giả định rằng phần lớn mạng lưới đã xác minh các giao dịch này trong quá khứ. Sự thỏa hiệp duy nhất thực sự cho node là trong trường hợp có trộm cắp bitcoin trước đó, nó sẽ không được thông báo. Tuy nhiên, nó vẫn có thể đảm bảo độ chính xác của số lượng bitcoin được phát hành. Các node tiếp tục việc xác minh chữ ký cho các giao dịch sau block Assume Valid. Cách tiếp cận này dựa trên giả định rằng nếu một giao dịch đã được mạng lưới chấp nhận trong thời gian đủ lâu mà không có tranh cãi, thì nó khó có thể là gian lận.

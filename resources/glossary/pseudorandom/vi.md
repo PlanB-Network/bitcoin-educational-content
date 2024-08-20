@@ -1,0 +1,7 @@
+---
+term: PSEUDO-RANDOM
+---
+
+Tính từ này được sử dụng để mô tả một chuỗi số mà, mặc dù là kết quả của một quá trình xác định, nhưng thể hiện các đặc điểm gần gũi với những đặc điểm của một chuỗi ngẫu nhiên lý tưởng. Khái niệm về sự ngẫu nhiên lý tưởng ngụ ý một sự vắng mặt hoàn toàn của khả năng dự đoán và sự liên kết giữa các phần tử kế tiếp. Một số ngẫu nhiên giả (pseudo-random number) được tạo ra bởi một thuật toán xác định và do đó, theo lý thuyết, hoàn toàn có thể dự đoán nếu người ta biết trạng thái ban đầu của bộ sinh số.
+
+Một bộ sinh số ngẫu nhiên giả (PRNG) là một thuật toán được sử dụng để sản xuất những số như vậy. Nó thường bắt đầu từ một giá trị ban đầu, hay "hạt giống," và sau đó áp dụng một loạt các biến đổi toán học để tạo ra chuỗi số. Do tính xác định này, việc giữ bí mật hạt giống ban đầu là quan trọng đối với an ninh mật mã. Các chuỗi ngẫu nhiên giả được sử dụng rộng rãi trong nhiều lĩnh vực, bao gồm mật mã học, vì chúng thể hiện hành vi dường như ngẫu nhiên đủ tốt cho nhiều ứng dụng. Việc đánh giá chất lượng của một PRNG dựa trên mức độ mà đầu ra của nó tiếp cận sự ngẫu nhiên thực sự về phân phối, các mối liên kết, và các tính chất thống kê khác. Trong bối cảnh của Bitcoin, các số ngẫu nhiên giả được sử dụng để tạo ra khóa riêng, hoặc để tạo ra một hạt giống cho ví xác định và phân cấp.

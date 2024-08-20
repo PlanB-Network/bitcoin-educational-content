@@ -1,9 +1,9 @@
-question: Quốc gia nào đã chính thức công nhận Bitcoin là phương tiện thanh toán hợp pháp kể từ năm 2021?
-answer: El Salvador
-wrong_answers:
+câu hỏi: Quốc gia nào đã chính thức công nhận Bitcoin là phương tiện thanh toán hợp pháp kể từ năm 2021?
+câu trả lời: El Salvador
+câu trả lời sai:
   - Pháp
   - Hoa Kỳ
   - Trung Quốc
-explanation: >-
+giải thích: >-
   El Salvador đã chính thức công nhận Bitcoin là phương tiện thanh toán hợp pháp kể từ năm 2021, góp phần vào sự phát triển của nền kinh tế Bitcoin trong khu vực.
-reviewed: false
+đã xem xét: false

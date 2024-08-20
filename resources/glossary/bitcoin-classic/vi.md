@@ -1,0 +1,5 @@
+---
+term: BITCOIN CLASSIC
+---
+
+Đề xuất cho một sự phân nhánh giao thức được phát động vào tháng 1 năm 2016 sau khi Bitcoin XT bị bỏ rơi. Mục tiêu là tăng giới hạn kích thước khối từ 1 MB lên 2 MB với BIP109, một cách tiếp cận được coi là ôn hòa hơn so với Bitcoin XT, đã đề xuất một sự tăng lớn hơn nhiều (8 MB + gấp đôi mỗi hai năm). Sáng kiến này được dẫn dắt bởi các nhà phát triển Gavin Andresen và Jeff Garzik, và nhận được sự ủng hộ từ các công ty lớn trong hệ sinh thái như Coinbase. Bitcoin Classic xuất hiện trong bối cảnh của cuộc leo thang căng thẳng của Cuộc Chiến Kích Thước Khối và được phân loại trong phe ủng hộ việc tăng kích thước khối lớn. Mặc dù Bitcoin Classic đã thu hút sự chú ý và sự ủng hộ từ nhiều người chơi trong ngành, cơ chế kích hoạt của nó, yêu cầu sự ủng hộ từ 75% các thợ mỏ, đã gây ra tranh cãi và cuối cùng góp phần vào sự thất bại của nó.

@@ -1,11 +1,11 @@
-question: Ví (wallet) trong ngữ cảnh của Bitcoin là gì?
-answer: Một két sắt số cho bitcoin của bạn
-wrong_answers:
+câu hỏi: Ví (wallet) trong ngữ cảnh của Bitcoin là gì?
+câu trả lời: Một két sắt số cho bitcoin của bạn
+câu trả lời sai:
   - Một thiết bị vật lý để lưu trữ bitcoin
   - Một phần mềm để đào bitcoin
   - Một nền tảng để mua và bán bitcoin
-explanation: |
+giải thích: |
   Nội dung chương giải thích rằng bitcoin được lưu trữ trong thứ được gọi là
   "ví," đó là một két sắt số cho tiền của bạn. Chỉ người giữ chìa khóa mới có thể truy cập
   vào đó.
-reviewed: false
+đã xem xét: false

@@ -1,13 +1,13 @@
-question: Yếu tố nào ảnh hưởng đến trọng lượng của một giao dịch Bitcoin?
+câu hỏi: Yếu tố nào ảnh hưởng đến trọng lượng của một giao dịch Bitcoin?
 
-answer: Số lượng đầu vào và đầu ra.
+câu trả lời: Số lượng đầu vào và đầu ra.
 
-wrong_answers:
+câu trả lời sai:
   - Kích thước của blockchain.
   - Số lượng của các đầu vào và đầu ra.
   - Tuổi của các UTXO được sử dụng.
 
-explanation: |
+giải thích: |
   Một giao dịch Bitcoin có càng nhiều đầu vào và đầu ra thì nó sẽ càng nặng về vB.
 
-reviewed: false
+đã xem xét: false

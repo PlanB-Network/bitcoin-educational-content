@@ -1,0 +1,5 @@
+---
+term: FPPS (FULL PAY PER SHARE)
+---
+
+Phương pháp tính toán tiền thưởng cho các thợ đào trong các nhóm đào. Đây là sự phát triển của phương pháp PPS (*Pay Per Share* - Trả tiền theo mỗi phần). Phương pháp này không chỉ bồi thường cho các thợ đào với mỗi phần hợp lệ họ nộp mà còn bao gồm một phần của phần thưởng khối. Tiền thưởng được tính dựa trên trung bình của các giao dịch trước đó và hashrate của nhóm. Như vậy, các thợ đào nhận được phần thưởng cho các phần đã nộp, dù có tìm thấy khối hay không, nhưng phương pháp này cũng bồi thường cho giá trị kỳ vọng. Nó cung cấp một phần thưởng ổn định và dự đoán được cho các thợ đào, vì nó loại bỏ sự biến động liên quan đến xác suất tìm thấy khối, trong khi vẫn phơi bày họ với sự biến động của phí thị trường. Tuy nhiên, đây là rủi ro lớn hơn cho các nhà điều hành nhóm đào, vì họ phải trả tiền cho các thợ đào ngay cả khi không tìm thấy khối nào, do đó họ phải chịu rủi ro biến động.

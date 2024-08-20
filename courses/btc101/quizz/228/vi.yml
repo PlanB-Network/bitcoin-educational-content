@@ -1,8 +1,8 @@
-question: Phí cho các giao dịch trên Lightning Network thường ít hơn bao nhiêu?
-answer: 0.5%
-wrong_answers:
+câu hỏi: Phí cho các giao dịch trên Lightning Network thường ít hơn bao nhiêu?
+câu trả lời: 0.5%
+câu trả lời sai:
   - 1%
   - 2%
   - 3%
-explanation: >-
+giải thích: >-
   Phí cho các giao dịch trên Lightning Network rất thấp, thường ít hơn 0.5%.

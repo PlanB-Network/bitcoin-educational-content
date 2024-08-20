@@ -1,0 +1,5 @@
+---
+term: LIQUID NETWORK
+---
+
+Một sidechain của Bitcoin được phát triển bởi Blockstream nhằm cung cấp các giao dịch nhanh chóng và bảo mật. Khác với blockchain chính của Bitcoin, Liquid sử dụng một cơ chế đồng thuận dựa trên liên minh (một nhóm các nhà điều hành nút được chọn lựa, thường là các doanh nghiệp liên quan đến Bitcoin), từ đó thay thế cơ chế đồng thuận của Nakamoto. Cách tiếp cận này tăng tốc độ giao dịch đáng kể và giảm chi phí, đồng thời cung cấp nhiều tính năng tiên tiến hơn. Liquid cũng cho phép phát hành tài sản số, bao gồm các token đại diện cho các loại tiền điện tử khác. Bitcoin trên Liquid, được biết đến là L-BTC, được liên kết với BTC thông qua hệ thống ghim hai chiều dựa trên một phần của liên minh. Các thành viên trong liên minh này được gọi là "functionaries," và họ có thể đóng vai trò cả là "người canh gác" lẫn "người ký khối."

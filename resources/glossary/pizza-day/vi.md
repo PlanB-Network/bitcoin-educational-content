@@ -1,0 +1,5 @@
+---
+term: NGÀY PIZZA
+---
+
+Sự kiện được cộng đồng Bitcoin kỷ niệm mỗi ngày 22 tháng 5 để tưởng nhớ giao dịch đầu tiên sử dụng bitcoins để mua một hàng hóa vật lý. Vào năm 2010, Laszlo Hanyecz, một nhà phát triển Bitcoin, [đề xuất trên diễn đàn BitcoinTalk](https://bitcointalk.org/index.php?topic=137.msg1141#msg1141) mua hai chiếc pizza lớn với giá 10,000 BTC, khi đó tương đương khoảng 40 đô la. Vào ngày 22 tháng 5, anh xác nhận rằng lời đề nghị đã được chấp nhận bởi một sinh viên 19 tuổi người California, Jeremy Sturdivant, được biết đến với biệt danh Jercos. Anh đã đặt và giao pizza từ Papa John's cho Laszlo ở Florida. Ngày này đánh dấu một khoảnh khắc quan trọng đối với Bitcoin khi nó chứng minh tiềm năng của mình như một loại tiền tệ giao dịch. Hàng năm, cộng đồng kỷ niệm sự kiện này bằng cách tiêu thụ pizza được thanh toán bằng bitcoins.

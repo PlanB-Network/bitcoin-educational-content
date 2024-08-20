@@ -1,10 +1,10 @@
-question: Bitcoin thực sự được lưu trữ ở đâu?
-answer: Trong blockchain của Bitcoin
-wrong_answers:
+câu hỏi: Bitcoin thực sự được lưu trữ ở đâu?
+câu trả lời: Trong blockchain của Bitcoin
+câu trả lời sai:
   - Trong ví Bitcoin
   - Trên thiết bị mà ví được cài đặt
   - Trong cục dự trữ liên bang
-explanation: |
+giải thích: |
   Mặc dù khóa riêng của bạn được lưu trữ trong ví của bạn, nhưng bitcoin thực sự được lưu trữ trong blockchain của Bitcoin, đó là sổ cái phân tán công cộng
   trong mạng ngang hàng của Bitcoin.
-reviewed: false
+đã xem xét: true

@@ -1,0 +1,7 @@
+---
+term: COLD WALLET
+---
+
+Đồng nghĩa với "hardware wallet." Một hardware wallet, hay còn gọi là ví cứng, là một thiết bị điện tử được thiết kế riêng để bảo mật và quản lý khóa riêng của ví Bitcoin. Các thiết bị này được thiết kế để cung cấp mức độ bảo mật cao hơn so với các ví phần mềm chạy trên các máy tính đa năng trực tiếp kết nối với internet. Hardware wallets lưu trữ cụm từ ghi nhớ (mnemonic phrase) ngoại tuyến, trên một thiết bị có bề mặt tấn công tối thiểu, giúp cô lập nó khỏi môi trường có thể dễ bị tấn công. Khi thực hiện một giao dịch, hardware wallet sẽ ký giao dịch ngay trong thiết bị, mà không tiết lộ khóa riêng ra bên ngoài. Sau khi giao dịch được ký, nó được truyền đến mạng Bitcoin để được xác nhận và bao gồm trong blockchain. Một số mô hình hardware wallets phổ biến bao gồm: Ledger, Trezor, Coldcard, Passport, BitBox, Satochip, Jade và SeedSigner (danh sách này không đầy đủ).
+
+> ► *Thuật ngữ hardware wallet có thể được diễn đạt theo nhiều cách khác nhau trong tiếng Pháp. Một số người gọi nó là "portefeuille matériel" hoặc "portefeuille froid." Người khác thích thuật ngữ "périphérique de signature," hay "signing device" trong tiếng Anh, để tránh ý nghĩa rằng bitcoin được lưu trữ vật lý trong ví.*

@@ -1,0 +1,1 @@
+Trong bối cảnh của Liquid sidechain, các quan chức (officials) là các nút được vận hành bởi các thực thể chịu trách nhiệm quản lý hệ thống. Họ chủ yếu đảm nhận hai vai trò: thiết lập sự đồng thuận và thực hiện các giao dịch như người ký khối (*blocksigners*), cũng như bảo vệ các bitcoin được giữ bởi mạng lưới để đảm bảo neo đôi (*watchmen*).

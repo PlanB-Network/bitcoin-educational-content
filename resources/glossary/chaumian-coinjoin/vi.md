@@ -1,0 +1,18 @@
+---
+term: CHAUMIAN COINJOIN
+---
+
+Một giao thức coinjoin sử dụng chữ ký mù của David Chaum và Tor cho việc giao tiếp giữa các thành viên tham gia và máy chủ điều phối. Mục tiêu của một Chaumian coinjoin là đảm bảo cho các thành viên rằng điều phối viên không thể ăn cắp bitcoin, cũng như không thể liên kết các đầu vào và đầu ra với nhau.
+
+Để đạt được điều này, người dùng gửi đầu vào của họ và một địa chỉ nhận được mã hóa mù cho điều phối viên. Địa chỉ này, một khi được bỏ mù, dự định nhận bitcoin dưới dạng đầu ra từ coinjoin. Điều phối viên ký vào những token này và trả lại chúng cho người dùng. Sau đó, người dùng kết nối lại một cách ẩn danh với máy chủ của điều phối viên với một danh tính Tor mới và tiết lộ địa chỉ đầu ra của họ dưới dạng văn bản rõ ràng cho việc xây dựng giao dịch. Điều phối viên có thể xác minh rằng tất cả các địa chỉ nhận này đều đến từ người dùng hợp lệ, vì anh ta đã ký vào phiên bản mù của chúng bằng khóa riêng của mình. Tuy nhiên, anh ta không thể liên kết một địa chỉ đầu ra cụ thể với một người dùng đầu vào cụ thể. Do đó, không có liên kết nào giữa các đầu vào và đầu ra, ngay cả từ góc độ của điều phối viên. Một khi giao dịch được điều phối viên xây dựng, anh ta gửi lại cho các thành viên tham gia, những người này ký vào đó để mở khóa đầu vào của họ, sau khi xác minh rằng đầu ra của họ thực sự có trong giao dịch này. Các thành viên gửi chữ ký cho điều phối viên. Một khi tất cả các chữ ký được thu thập, điều phối viên có thể phát sóng giao dịch coinjoin trên mạng Bitcoin.
+
+![](../../dictionnaire/assets/38.png)
+
+Phương pháp này đảm bảo rằng điều phối viên không thể làm tổn hại đến sự ẩn danh của các thành viên tham gia hoặc ăn cắp bitcoin trong suốt quá trình coinjoin.
+
+Khó có thể xác định chắc chắn ai là người đầu tiên giới thiệu ý tưởng về coinjoin trên Bitcoin, và ai đã có ý tưởng sử dụng chữ ký mù của David Chaum trong bối cảnh này. Thường được cho là Gregory Maxwell là người đầu tiên thảo luận về nó trong [một tin nhắn trên BitcoinTalk vào năm 2013](https://bitcointalk.org/index.php?topic=279249.0):
+
+> *"Bằng cách sử dụng chữ ký mù của Chaum: Người dùng kết nối và cung cấp đầu vào (và địa chỉ thay đổi) cũng như một phiên bản được mã hóa mù của địa chỉ mà họ muốn gửi các đồng tiền riêng tư của mình; máy chủ ký vào các token và trả lại chúng. Người dùng kết nối lại một cách ẩn danh, tiết lộ địa chỉ đầu ra của họ, và trả lại chúng cho máy chủ. Máy chủ có thể thấy rằng tất cả các đầu ra đã được anh ta ký và do đó, tất cả các đầu ra đều đến từ các thành viên hợp lệ. Sau đó, mọi người kết nối lại và ký."*
+
+Maxwell, G. (2013, August 22). *CoinJoin: Sự riêng tư của Bitcoin trong thế giới thực*. Diễn đàn BitcoinTalk. https://bitcointalk.org/index.php?topic=279249.0
+Tuy nhiên, cũng có những đề cập sớm hơn, cả về chữ ký của Chaum trong bối cảnh trộn lẫn, cũng như về coinjoins. [Vào tháng 6 năm 2011, Duncan Townsend đã trình bày trên BitcoinTalk](https://bitcointalk.org/index.php?topic=12751.0) một bộ trộn sử dụng chữ ký của Chaum một cách khá tương tự như coinjoins Chaumian hiện đại. Trong cùng một chủ đề, có [một tin nhắn từ hashcoin phản hồi Duncan Townsend](https://bitcointalk.org/index.php?topic=12751.msg315793#msg315793) để cải thiện bộ trộn của mình. Tin nhắn này chính xác là những gì giống nhất với coinjoins. Cũng có đề cập về một hệ thống tương tự trong [một tin nhắn từ Alex Mizrahi vào năm 2012](https://gist.github.com/killerstorm/6f843e1d3ffc38191aebca67d483bd88#file-laundry), khi ông đang tư vấn cho những người sáng tạo ra Tenebrix. Thuật ngữ "coinjoin" có lẽ không phải do Greg Maxwell phát minh, mà nó đến từ một ý tưởng của Peter Todd.

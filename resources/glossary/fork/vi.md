@@ -1,0 +1,9 @@
+---
+term: FORK
+---
+
+Thuật ngữ "fork" có nhiều ý nghĩa trong bối cảnh của Bitcoin. Nó có thể chỉ một sự chia tách của mạng lưới các nút thành nhiều nhóm riêng biệt, dẫn đến việc tạo ra nhiều blockchain khác nhau, hoặc là sự thay đổi của các quy tắc giao thức, hoặc cả hai cùng một lúc. Để đơn giản hóa, chúng ta có thể phân biệt 4 loại chính của fork:
+* Fork tự nhiên: xảy ra khi có sự cạnh tranh tạm thời giữa hai khối được khám phá cùng một lúc tại cùng một độ cao. Fork này có thể kéo dài qua nhiều khối. Loại fork này được giải quyết một cách tự nhiên khi một trong các chuỗi trở nên dài hơn chuỗi kia (với nhiều công việc tích lũy hơn), dẫn đến một sự tổ chức lại. Sự tổ chức lại này biểu hiện với tất cả các nút đồng ý trở lại về một blockchain duy nhất;
+* Fork mã nguồn: bao gồm việc tạo ra một loại tiền điện tử hoàn toàn mới từ mã nguồn Bitcoin, bằng cách khởi chạy một blockchain mới từ khối Genesis;
+* Hard fork: đại diện cho sự thay đổi của giao thức Bitcoin, không tương thích với các phiên bản trước đó, bằng cách loại bỏ các quy tắc hoặc làm cho các quy tắc hiện có dễ dàng hơn. Điều này dẫn đến việc tạo ra hai chuỗi riêng biệt và không tương thích nếu không phải tất cả các nút được cập nhật. Mạng lưới sau đó chia thành hai: những người chấp nhận các quy tắc mới và những người giữ lại các quy tắc cũ;
+* Soft fork: bao gồm các thay đổi tương thích ngược mà thêm quy tắc hoặc làm cho các quy tắc hiện có nghiêm ngặt hơn, mà không gây ra sự chia rẽ của mạng lưới. Các nút không chấp nhận các quy tắc mới có thể tiếp tục theo dõi cùng một chuỗi như những người khác, miễn là đa số sức mạnh tính toán của mạng lưới hỗ trợ chuỗi được cập nhật.

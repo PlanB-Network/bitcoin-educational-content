@@ -1,0 +1,11 @@
+---
+term: PAYJOIN
+---
+
+Một cấu trúc giao dịch Bitcoin cụ thể giúp tăng cường quyền riêng tư cho người dùng trong quá trình chi tiêu bằng cách hợp tác với người nhận thanh toán. Điểm độc đáo của Payjoin nằm ở khả năng tạo ra một giao dịch trông bình thường ở cái nhìn đầu tiên nhưng thực sự là một mini coinjoin giữa hai bên. Để làm được điều này, cấu trúc giao dịch bao gồm sự tham gia của người nhận thanh toán trong các input cùng với người gửi thực sự. Do đó, người nhận bao gồm một khoản thanh toán cho chính họ ở giữa giao dịch, cho phép họ được thanh toán. Ví dụ, nếu bạn mua một chiếc bánh mì baguette với giá `6,000 sats` sử dụng một UTXO của `10,000 sats`, và bạn chọn Payjoin, người bán bánh của bạn sẽ thêm một UTXO của `15,000 sats` thuộc về họ như một input, mà họ sẽ nhận lại toàn bộ như một output, ngoài ra còn có `6,000 sats` của bạn.
+
+Giao dịch Payjoin đạt được hai mục tiêu. Đầu tiên, nó nhằm mục đích đánh lạc hướng một quan sát viên bên ngoài bằng cách tạo ra một bức bình phong trong phân tích chuỗi trên Heuristic Sở Hữu Input Chung (CIOH). Thông thường, khi một giao dịch trên blockchain có nhiều input, người ta giả định rằng tất cả các input này có khả năng thuộc về cùng một thực thể. Do đó, khi một nhà phân tích xem xét một giao dịch Payjoin, họ được dẫn dắt tin rằng tất cả các input đều đến từ cùng một người. Tuy nhiên, quan điểm này không chính xác bởi vì người nhận thanh toán cũng đóng góp vào các input cùng với người thanh toán thực sự. Thứ hai, Payjoin cũng lừa dối một quan sát viên bên ngoài về số tiền thanh toán thực sự đã được thực hiện. Bằng cách xem xét cấu trúc của giao dịch, nhà phân tích có thể tin rằng số tiền thanh toán tương đương với số tiền của một trong các output. Trên thực tế, số tiền thanh toán tương ứng với không output nào. Nó thực sự là sự khác biệt giữa UTXO của người nhận trong output và UTXO của người nhận trong input. Trong trường hợp này, giao dịch Payjoin rơi vào lĩnh vực steganography. Nó cho phép ẩn số tiền thực sự của một giao dịch trong một giao dịch giả mạo hoạt động như một bức bình phong.
+
+![](../../dictionnaire/assets/14.png)
+
+> ► *Payjoin cũng đôi khi được gọi là "P2EP (Pay-to-End-Point)", "Stowaway", hoặc "giao dịch steganographic".*

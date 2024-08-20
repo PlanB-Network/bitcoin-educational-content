@@ -1,0 +1,5 @@
+---
+term: PERCOLATION
+---
+
+Ám chỉ một mô hình giúp hiểu được sự lan truyền thông tin (giao dịch và khối) qua mạng lưới nút Bitcoin. Lý thuyết percolation ban đầu là một mô hình toán học và vật lý nghiên cứu sự di chuyển và lọc của chất lỏng qua các vật liệu xốp. Nó phân tích làm thế nào, vượt qua một ngưỡng nhất định, một mạng lưới kết nối cho phép chất lỏng liên tục chảy qua vật liệu. Điều này có thể được áp dụng vào mạng máy tính để xem thông tin lan truyền như thế nào bằng cách coi các nút là các điểm có thể hoạt động hoặc không hoạt động. Trong Bitcoin, các nút do đó đóng vai trò như các lỗ xốp trong lý thuyết percolation. Mỗi nút hoạt động nhận và truyền thông tin cho các nút khác, sẽ tiếp tục truyền đạt hoặc chặn nó. Sự lan truyền của một số loại giao dịch có thể được phân tích theo ngưỡng percolation, nơi một tỷ lệ nhất định của các nút hoạt động là cần thiết để đạt đến một thợ mỏ sẽ bao gồm nó trong một khối. Lý thuyết này cung cấp một khung để đánh giá làm thế nào những thay đổi trong mạng, như sự chỉnh sửa của các quy tắc chuẩn hóa bởi một số nút, ảnh hưởng đến cơ chế lan truyền giao dịch dạng xích để đạt đến một thợ mỏ.

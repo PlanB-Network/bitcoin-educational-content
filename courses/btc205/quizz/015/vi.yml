@@ -1,10 +1,10 @@
-question: Giải pháp P2P nào sử dụng Lightning Network để thực hiện giao dịch nhanh?
-answer: RoboSat
-wrong_answers:
+câu hỏi: Giải pháp P2P nào sử dụng Lightning Network để thực hiện giao dịch nhanh?
+câu trả lời: RoboSat
+câu trả lời sai:
   - Bisq
   - Peach
   - HodlHodl
-explanation: |
+giải thích: |
   Chương này đề cập rằng RoboSat sử dụng Lightning Network để kích hoạt
   giao dịch nhanh.
-reviewed: false
+đã xem xét: false

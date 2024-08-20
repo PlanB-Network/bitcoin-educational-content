@@ -1,0 +1,5 @@
+---
+term: TÍNH CHẤT KHẢ CHUYỂN ĐỔI
+---
+
+Tính chất của một loại tiền tệ đảm bảo mỗi đơn vị có thể được trao đổi và không thể phân biệt với một đơn vị tương tự khác. Bitcoin, như một đơn vị kế toán, về nguyên tắc là có thể chuyển đổi, bởi vì một bitcoin luôn có giá trị bằng một bitcoin khác: 1 BTC = 1 BTC. Tuy nhiên, khả năng theo dõi UTXOs (hỗ trợ cho các đơn vị) trên blockchain đôi khi có thể làm ảnh hưởng đến tính chất khả chuyển đổi này. Thực tế, mỗi satoshi có thể được phân biệt bởi lịch sử của nó, điều này mang lại cho nó một danh tính cụ thể. Quan điểm về lịch sử của mỗi UTXO có thể ảnh hưởng đến phán đoán của các bên về tính chất khả chuyển đổi của các bitcoin được sử dụng. Do đó, mặc dù tính chất khả chuyển đổi là một đặc tính nội tại của các đơn vị tiền tệ, nó có thể bị thay đổi bởi các đặc điểm cụ thể của phương tiện được sử dụng cho các đơn vị này, như trường hợp của Bitcoin.

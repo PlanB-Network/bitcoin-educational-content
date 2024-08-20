@@ -1,0 +1,7 @@
+---
+term: HONG-KONG ROUNDTABLE
+---
+
+Sự kiện lịch sử của Cuộc chiến Kích thước Khối diễn ra vào ngày 20 tháng 2 năm 2016, tại Hồng Kông. Đây là một cuộc họp quan trọng giữa các nhà phát triển Bitcoin Core và các thợ mỏ để thảo luận về khả năng mở rộng của hệ thống và chiến lược để mở rộng nó. Căng thẳng tăng cao trước cuộc họp, đặc biệt là do sự xuất hiện của Bitcoin Classic, một đề xuất hard fork được Gavin Andressen ủng hộ nhằm tăng kích thước khối lên 2 MB. Những nhân vật có ảnh hưởng trong hệ sinh thái đã tham gia vào các cuộc tranh luận, bao gồm Jihan Wu và Micree Zhan, đồng sáng lập của Bitmain, Adam Back, chủ tịch của Blockstream, và Luke Dashjr, Matt Corallo, và Peter Todd.
+
+Các thợ mỏ, tỏ ra thất vọng vì sự thiếu tiến triển, đã đe dọa sẽ ủng hộ Bitcoin Classic nếu một hard fork 2 MB không được thực hiện. Các nhà phát triển đã bảo vệ SegWit như một giải pháp khả thi. Sau nhiều giờ đàm phán căng thẳng, một thỏa thuận đã được đạt được, tuyên bố rằng các nhà phát triển Bitcoin Core sẽ làm việc trên một hard fork sau khi triển khai SegWit. Thỏa thuận này được cho là sẽ giảm bớt căng thẳng, nhưng cuối cùng lại tạo ra nhiều sự nghi ngờ và nhầm lẫn hơn. Mỗi bên đã giải thích thỏa thuận một cách khác nhau, làm trầm trọng thêm sự chia rẽ trong cộng đồng. Mặc dù thỏa thuận này tạm thời làm chậm đà của Bitcoin Classic, nhưng nó được nhiều người xem là một giải pháp không thỏa đáng và vụng về.

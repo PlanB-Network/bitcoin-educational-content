@@ -1,11 +1,11 @@
-question: Mô hình script nào được khuyến nghị nhất vào năm 2024 để tăng cường quyền riêng tư trên Bitcoin?
+câu hỏi: Mô hình script nào được khuyến nghị nhất vào năm 2024 để tăng cường quyền riêng tư trên Bitcoin?
 
-answer: P2TR
+câu trả lời: P2TR
 
-wrong_answers:
+câu trả lời sai:
   - P2PK
   - P2PKH
   - P2SH
 
-explanation: |
+giải thích: |
   Để hòa mình vào đám đông lớn nhất có thể, bạn nên sử dụng mô hình script được áp dụng rộng rãi nhất. Script P2TR hiện là loại được sử dụng nhiều nhất trong các giao dịch Bitcoin.

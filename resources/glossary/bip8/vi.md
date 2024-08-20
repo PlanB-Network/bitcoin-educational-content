@@ -1,0 +1,7 @@
+---
+term: BIP8
+---
+
+Được phát triển sau các cuộc tranh luận về SegWit, sử dụng BIP9 cho việc kích hoạt của mình, BIP8 là một phương pháp kích hoạt soft fork tích hợp sẵn cơ chế UASF (*User-Activated Soft Fork*) tự động. Giống như BIP9, BIP8 sử dụng tín hiệu từ các thợ đào nhưng thêm vào tham số `LOT` (*Lock-in On Time out*). Nếu `LOT` được thiết lập thành `true`, khi kết thúc thời gian tín hiệu mà không đạt được ngưỡng yêu cầu, một UASF sẽ được tự động kích hoạt, buộc kích hoạt soft fork. Cách tiếp cận này buộc các thợ đào phải hợp tác hoặc đối mặt với việc UASF được người dùng áp đặt. Hơn nữa, không giống như BIP9, BIP8 xác định thời gian tín hiệu dựa trên độ cao của khối, loại bỏ khả năng thao túng thông qua tốc độ hash bởi các thợ đào. BIP8 cũng cho phép thiết lập ngưỡng bỏ phiếu biến đổi và giới thiệu một tham số cho độ cao khối tối thiểu để kích hoạt, cho phép các thợ đào có thời gian chuẩn bị và tín hiệu sự đồng ý trước mà không nhất thiết phải sẵn sàng. Khi một soft fork được kích hoạt thông qua BIP8 với tham số `LOT=true`, phương pháp này sử dụng một cách tiếp cận rất mạnh mẽ chống lại các thợ đào, ngay lập tức đặt họ dưới áp lực của một UASF tiềm năng. Thực sự, nó chỉ để lại cho họ 2 lựa chọn:
+* Hợp tác, và do đó, tạo điều kiện cho quá trình kích hoạt;
+* Không hợp tác, trong trường hợp đó, người dùng tự động thực hiện một UASF để áp đặt soft fork.

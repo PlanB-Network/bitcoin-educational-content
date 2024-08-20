@@ -1,0 +1,9 @@
+---
+term: PHÂN TÍCH HEURISTIC
+---
+
+Phân tích heuristic cho chuỗi Bitcoin là một nhóm các phương pháp thực nghiệm được sử dụng để truy vết dòng chảy của bitcoin trên blockchain dựa trên các đặc điểm quan sát được trong các giao dịch. Heuristic là một cách tiếp cận thực tế để giải quyết vấn đề, thường qua các phương pháp gần đúng, nhưng đại diện cho một giải pháp đủ tốt để đạt được mục tiêu đã đề ra. Những heuristic này mang lại kết quả khá đáng tin cậy, nhưng không bao giờ với độ chính xác tuyệt đối. Nói cách khác, phân tích chuỗi luôn bao gồm một mức độ khả năng trong các kết luận rút ra. Ví dụ, có thể ước lượng với độ chắc chắn nhiều hay ít rằng hai địa chỉ thuộc về cùng một thực thể, nhưng sự chắc chắn tuyệt đối luôn nằm ngoài tầm với. Mục tiêu toàn bộ của phân tích chuỗi chính xác nằm ở việc tổng hợp các heuristic khác nhau để giảm thiểu rủi ro sai lầm. Nó, theo một cách nào đó, là sự tích lũy bằng chứng cho phép chúng ta tiến gần hơn đến thực tế. Trong bối cảnh này, heuristic nội bộ và ngoại bộ được phân biệt.
+
+Heuristic nội bộ tập trung vào các đặc điểm cụ thể của một giao dịch cá nhân. Chúng bao gồm trong phân tích của mình các yếu tố như số lượng UTXOs, các script được sử dụng, phiên bản, hoặc locktimes. Ví dụ, heuristic thanh toán tròn cho phép xác định một đầu ra giao dịch có khả năng là một khoản thanh toán nếu số tiền của nó là một số tròn. Những heuristic này thường giúp xác định tiền thối (tiền trả lại cho cùng một người dùng) và do đó tiếp tục truy vết.
+
+Mặt khác, heuristic ngoại bộ phân tích sự giống nhau và các đặc điểm ngoài chính giao dịch. Chúng bao gồm toàn bộ môi trường giao dịch. Ví dụ, việc sử dụng lại một địa chỉ qua nhiều giao dịch là một heuristic ngoại bộ. CIOH cũng là một ví dụ.

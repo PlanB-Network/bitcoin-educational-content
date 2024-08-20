@@ -1,9 +1,9 @@
-question: Trong những lựa chọn sau đây, đâu là phát biểu sai khi bạn mất thiết bị chứa ví Bitcoin của mình?
-answer: Bạn có thể tái tạo ví của mình và tiêu Bitcoin bằng cách đặt lại mật khẩu
-wrong_answers:
+Câu hỏi: Trong những lựa chọn sau đây, đâu là phát biểu sai khi bạn mất thiết bị chứa ví Bitcoin của mình?
+Câu trả lời: Bạn có thể tái tạo ví của mình và tiêu Bitcoin bằng cách đặt lại mật khẩu
+Các câu trả lời sai:
   - Bạn sẽ mất tất cả Bitcoin nếu bạn không có cụm từ ghi nhớ
   - Bạn có thể xác minh bằng khóa công khai của mình rằng Bitcoin của bạn vẫn chưa được chuyển đi
   - Bạn có thể tái tạo ví của mình và tiêu Bitcoin với cụm từ ghi nhớ
-explanation: |
+Giải thích: |
   Việc mất thiết bị chứa ví của bạn không nhất thiết có nghĩa là bạn đã mất Bitcoin. Điều cho phép bạn tái tạo ví và tiêu Bitcoin của mình là cụm từ ghi nhớ.
-reviewed: true
+Đã xem xét: true

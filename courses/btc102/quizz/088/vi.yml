@@ -1,10 +1,10 @@
-question: Một lợi ích khi sử dụng nền tảng giao dịch để mua và bán bitcoin là gì?
-answer: Nó cho phép thực hiện giao dịch định kỳ theo nhu cầu của người dùng.
-wrong_answers:
+câu hỏi: Một lợi ích khi sử dụng nền tảng giao dịch để mua và bán bitcoin là gì?
+câu trả lời: Nó cho phép thực hiện giao dịch định kỳ theo nhu cầu của người dùng.
+câu trả lời sai:
   - Nó cho phép thực hiện giao dịch ẩn danh.
   - Nó tăng giá trị của Bitcoin.
   - Nó cung cấp một nền tảng cho việc đào Bitcoin.
-explanation: |
+giải thích: |
   Các nền tảng giao dịch cho phép người dùng mua và bán bitcoin một cách định kỳ và
   thuận tiện, theo nhu cầu của họ.
-reviewed: false
+đã xem xét: false

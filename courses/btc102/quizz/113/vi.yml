@@ -1,9 +1,9 @@
-question: Mục đích của xác thực hai yếu tố (2FA) trong Bitcoin là gì?
-answer: Để tăng cường bảo mật cho các giao dịch Bitcoin.
-wrong_answers:
+câu hỏi: Mục đích của xác thực hai yếu tố (2FA) trong Bitcoin là gì?
+câu trả lời: Để tăng cường bảo mật cho các giao dịch Bitcoin.
+câu trả lời sai:
   - Để khai thác Bitcoin mới.
   - Để giao dịch Bitcoin.
   - Để chuyển đổi Bitcoin sang các loại tiền mã hóa khác.
-explanation: |
+giải thích: |
   Xác thực hai yếu tố (2FA) là phương pháp xác nhận danh tính mà người dùng tuyên bố bằng cách sử dụng điều gì đó họ biết (mật khẩu) và một yếu tố thứ hai không phải là điều gì đó họ có hoặc họ là ai. Nó được sử dụng để tăng cường bảo mật cho các giao dịch Bitcoin.
-reviewed: false
+đã xem xét: false

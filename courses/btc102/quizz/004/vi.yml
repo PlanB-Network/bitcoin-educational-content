@@ -1,10 +1,10 @@
-question: Đặc điểm chung của các vụ lừa đảo trong lĩnh vực tiền mã hóa là gì?
-answer: Hứa hẹn lợi nhuận không thực tế.
-wrong_answers:
+câu hỏi: Đặc điểm chung của các vụ lừa đảo trong lĩnh vực tiền mã hóa là gì?
+câu trả lời: Hứa hẹn lợi nhuận không thực tế.
+câu trả lời sai:
   - Hứa hẹn hàng hóa vật lý.
   - Hứa hẹn sản phẩm phần mềm.
   - Hứa hẹn tiền tệ pháp định.
-explanation: |
+giải thích: |
   Các vụ lừa đảo trong lĩnh vực tiền mã hóa thường hứa hẹn lợi nhuận không thực tế.
   Điều quan trọng là không nên mù quáng tin tưởng, đặc biệt là khi đó là một banner trên internet.
-reviewed: false
+đã xem xét: false

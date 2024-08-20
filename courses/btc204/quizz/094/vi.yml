@@ -1,0 +1,13 @@
+câu hỏi: Trong các phương án dưới đây, phương án nào không được khuyến nghị để quản lý sự thay đổi doxxic của một người?
+
+câu trả lời: Gộp các UTXO doxxic lại với nhau.
+
+câu trả lời sai:
+  - Pha trộn các UTXO doxxic trong một nhóm nhỏ hơn.
+  - Quyên góp các UTXO doxxic của mình.
+  - Đánh dấu các UTXO doxxic của mình là không thể chi tiêu.
+
+giải thích: |
+  Việc gộp các UTXO doxxic lại với nhau không được khuyến nghị, vì điều này cho phép tạo ra một kết nối giữa các đầu vào của người dùng khác nhau trong Whirlpool.
+
+đã xem xét: false

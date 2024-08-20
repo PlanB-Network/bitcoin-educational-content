@@ -1,0 +1,13 @@
+Câu hỏi: Heuristic phân tích chuỗi nào được sử dụng bởi giao dịch payjoin để hoạt động như một hình thức lừa đảo?
+
+Câu trả lời: COH
+
+Câu trả lời sai:
+  - Tái sử dụng địa chỉ
+  - Dấu vân tay ví
+  - Tái sử dụng phiên bản
+
+Giải thích: |
+  Khi một nhà phân tích xem xét một giao dịch payjoin, họ được dẫn dắt tin rằng tất cả các input đều đến từ cùng một người do COH. Tuy nhiên, quan điểm này là không chính xác, vì người nhận thanh toán cũng đóng góp vào các input cùng với người thanh toán thực sự. Do đó, phân tích chuỗi được chuyển hướng về một giải thích hóa ra là sai lầm.
+
+Đã xem xét: false

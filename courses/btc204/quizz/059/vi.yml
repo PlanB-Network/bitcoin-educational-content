@@ -1,11 +1,11 @@
-question: Mức độ tái sử dụng địa chỉ trên Bitcoin nằm ở khoảng bao nhiêu?
+Câu hỏi: Mức độ tái sử dụng địa chỉ trên Bitcoin nằm ở khoảng bao nhiêu?
 
-answer: Khoảng 50%
+Câu trả lời: Khoảng 50%
 
-wrong_answers:
+Câu trả lời sai:
   - Khoảng 5%
   - Khoảng 15%
   - Khoảng 40%
 
-explanation: |
+Giải thích: |
   Kể từ đầu những năm 2010, tỷ lệ tái sử dụng địa chỉ trên Bitcoin đã dao động quanh mức 50%.

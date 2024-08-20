@@ -1,0 +1,5 @@
+---
+term: BIP9
+---
+
+Phương pháp kích hoạt các soft fork trên Bitcoin được đề xuất vào năm 2015. Nó giới thiệu một hệ thống nơi các thợ mỏ bày tỏ sự ủng hộ của họ cho một soft fork bằng cách sử dụng một bit cụ thể trong trường phiên bản của các khối. Một soft fork được đề xuất dưới BIP9 được kích hoạt nếu 95% các khối trong một khoảng thời gian 2016 khối (khoảng hai tuần, trùng với mỗi lần điều chỉnh độ khó) bày tỏ sự chấp thuận của họ. Sau khi được khóa lại, một khoảng thời gian ân hạn được cung cấp cho các thợ mỏ để chuẩn bị cho bản cập nhật trước khi kích hoạt nó. Nếu ngưỡng 95% không được đạt tới trong thời gian tối đa được phép, soft fork được bỏ qua. BIP9 cho phép việc tín hiệu hóa nhiều soft fork cùng một lúc nhưng trao quyền lực đáng kể cho các thợ mỏ, vì nếu ngưỡng yêu cầu không được đáp ứng, soft fork đơn giản là bị bỏ qua. Phương pháp này ban đầu được sử dụng cho SegWit, trước khi BIP148, đề xuất sử dụng một UASF, vào cuộc và buộc việc khóa lại thông qua BIP91.

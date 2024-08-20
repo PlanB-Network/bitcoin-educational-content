@@ -1,0 +1,5 @@
+---
+term: ANCHOR OUTPUTS
+---
+
+Một đề xuất nhằm cải thiện việc quản lý phí giao dịch trong các kênh Lightning. Với mỗi sự thay đổi trạng thái trong một kênh Lightning, các bên liên quan tạo và ký một giao dịch cam kết mới phản ánh sự phân bổ mới của quỹ trong kênh. Vấn đề với cơ chế này nằm ở việc xác định phí giao dịch vào thời điểm tạo ra nó. Thực tế, phí giao dịch trên mạng Bitcoin chịu sự biến động đáng kể, cả tăng lẫn giảm. Nếu phí được đặt cho giao dịch cam kết cuối cùng không đủ vào thời điểm đóng kênh một cách đơn phương, không chỉ giao dịch sẽ mất một lượng thời gian đáng kể để được xác nhận, mà các cơ chế khóa thời gian (timelocks) cũng có thể cho phép việc ăn cắp quỹ. Anchor outputs dành một phần nhỏ của quỹ trong một giao dịch cam kết để dành cho phí tương lai. Trong trường hợp tắc nghẽn mạng và phí tăng, anchor outputs cho phép sửa đổi phí giao dịch sau khi tạo giao dịch cam kết, do đó đảm bảo việc đóng kênh Lightning một cách đủ nhanh.

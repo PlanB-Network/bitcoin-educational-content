@@ -1,0 +1,5 @@
+---
+term: CANDIDATE BLOCK
+---
+
+Khối ứng viên là một khối đang trong quá trình được tạo ra bởi một thợ mỏ tham gia vào quá trình khai thác của hệ thống Bitcoin. Khối ứng viên là một cấu trúc dữ liệu tạm thời chứa các giao dịch đang chờ được xác nhận nhưng chưa có bằng chứng công việc hợp lệ để được thêm vào blockchain. Thợ mỏ chọn các giao dịch để bao gồm trong khối ứng viên dựa trên các yếu tố khác nhau, như phí giao dịch liên quan và các hạn chế về kích thước khối. Sau khi các giao dịch được chọn, thợ mỏ tạo ra tiêu đề khối, bao gồm phiên bản, một bản tóm tắt của các giao dịch (Merkle root), dấu thời gian, hash của khối trước đó, mục tiêu khó khăn, và một nonce. Thợ mỏ sau đó cố gắng tìm một hash của tiêu đề của mình phù hợp với mục tiêu khó khăn hiện tại. Để làm điều này, thợ mỏ thay đổi nonce có trong tiêu đề. Thợ mỏ cũng có thể thay đổi thông tin khác có trong khối ứng viên của họ. Đây là cơ chế bằng chứng công việc. Nếu thợ mỏ thành công trong việc tìm ra một hash hợp lệ, khối ứng viên trở thành một khối hợp lệ và được phát sóng đến mạng để được thêm vào blockchain.

@@ -1,0 +1,3 @@
+Trong ví HD (Hierarchical Deterministic), một tài khoản đại diện cho một lớp phái sinh ở độ sâu 3 theo BIP32. Mỗi tài khoản được đánh số tuần tự bắt đầu từ `/0'/` (phái sinh cứng, vì thực tế là `/2^31/` hoặc `/2 147 483 648/`). Chính ở độ sâu phái sinh này mà `xpubs` nổi tiếng được đặt. Ngày nay, thường chỉ một tài khoản được sử dụng trong một ví HD. Tuy nhiên, ban đầu, chúng được thiết kế để phân chia các loại sử dụng khác nhau trong cùng một ví. Ví dụ, nếu chúng ta lấy một đường dẫn phái sinh tiêu chuẩn cho một địa chỉ nhận Taproot (P2TR) bên ngoài: `m/86'/0'/0'/0/0`, chỉ số tài khoản là `/0'/` thứ hai.
+
+![](../../dictionnaire/assets/17.png)

@@ -1,0 +1,11 @@
+câu hỏi: Giao dịch payjoin có thể được coi là một giao dịch steganographic như thế nào?
+
+câu trả lời: Nó che giấu số tiền thanh toán thực sự khỏi người quan sát bên ngoài
+
+câu trả lời sai:
+  - Nó mã hóa số tiền thanh toán thực sự cho người quan sát bên ngoài
+  - Nó che giấu số tiền thanh toán thực sự khỏi người nhận
+  - Nó mã hóa số tiền thanh toán thực sự cho người nhận
+
+giải thích: |
+  Giao dịch payjoin thuộc về lĩnh vực steganography, vì nó che giấu số tiền thực sự của một giao dịch trong một giao dịch giả mạo, hoạt động như một bức bình phong cho người quan sát bên ngoài.

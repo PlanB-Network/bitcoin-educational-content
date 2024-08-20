@@ -1,0 +1,7 @@
+---
+term: LOGARITHM RỜI RẠC
+---
+
+Logarithm rời rạc là một bài toán toán học được sử dụng trong một số thuật toán mã hóa khóa công khai. Trong một nhóm tuần hoàn có thứ tự $q$, với một sinh viên $g$, nếu có một phương trình dạng $g^x = h$, thì $x$ được gọi là logarithm rời rạc của $h$ đối với cơ số $g$, modulo $q$. Nói một cách đơn giản, bài toán này liên quan đến việc xác định số mũ $x$ khi $g$, $h$, và $q$ được biết đến. Logarithm rời rạc do đó là phép nghịch đảo của phép mũ trong một nhóm tuần hoàn hữu hạn. Tuy nhiên, đối với các giá trị lớn của $q$, việc giải quyết bài toán logarithm rời rạc được coi là khó về mặt thuật toán. Tính chất này được khai thác để đảm bảo an ninh cho nhiều giao thức mã hóa, như giao thức Diffie-Hellman cho việc trao đổi khóa.
+
+Logarithm rời rạc cũng được sử dụng trong mã hóa đường cong elliptic (ECC), bao gồm trong ECDSA (*Elliptic Curve Digital Signature Algorithm*). Trong bối cảnh của đường cong elliptic, bài toán logarithm rời rạc được mở rộng để tìm một số vô hướng $k$ sao cho $k \cdot G = K$, nơi $G$ và $K$ là các điểm trên đường cong, và $\cdot$ biểu thị phép nhân điểm. Trong bối cảnh của Bitcoin, các script có thể sử dụng ECDSA hoặc giao thức Schnorr để khóa UTXOs. Cả hai đều dựa vào việc không thể tính toán được logarithm rời rạc.

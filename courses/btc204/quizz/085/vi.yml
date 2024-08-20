@@ -1,0 +1,13 @@
+câu hỏi: Mô hình ghép đôi người dùng cụ thể được JoinMarket sử dụng là gì?
+
+câu trả lời: Thị trường P2P giữa người tạo lập và người nhận.
+
+câu trả lời sai:
+  - Máy chủ phân bổ người tham gia một cách ngẫu nhiên.
+  - Giao dịch dựa trên đấu giá kiểu Hà Lan.
+  - Dịch vụ trung gian chọn người tham gia một cách thủ công.
+
+giải thích: |
+  JoinMarket hoạt động trên một thị trường giao dịch P2P nơi một số người dùng, được gọi là "người tạo lập", cung cấp bitcoin của họ để trộn, trong khi những người khác, được gọi là "người nhận", sử dụng các quỹ này để thực hiện coinjoins đổi lấy một khoản phí.
+
+đã xem xét: false

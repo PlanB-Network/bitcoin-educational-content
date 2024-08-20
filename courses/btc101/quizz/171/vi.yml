@@ -1,11 +1,11 @@
-question: Làm thế nào mà giao thức Bitcoin đảm bảo tính không thể kiểm duyệt và không thể ngăn chặn của mình?
-answer: Mỗi thành phần của giao thức được phân bố địa lý trên khắp thế giới
-wrong_answers:
+câu hỏi: Làm thế nào mà giao thức Bitcoin đảm bảo tính không thể kiểm duyệt và không thể ngăn chặn của mình?
+câu trả lời: Mỗi thành phần của giao thức được phân bố địa lý trên khắp thế giới
+câu trả lời sai:
   - Nó sử dụng một mạng lưới các nút phi tập trung
   - Nó sử dụng một thuật toán phức tạp để xác thực các giao dịch
   - Nó sử dụng một mức độ mã hóa cao
-explanation: >-
+giải thích: >-
   Giao thức Bitcoin đảm bảo tính không thể kiểm duyệt và không thể ngăn chặn của mình vì
   mỗi thành phần của giao thức được phân bố địa lý trên khắp thế giới. Ví dụ,
   có khoảng 40,000 nút Bitcoin trên tất cả các lục địa.
-reviewed: false
+đã xem xét: false

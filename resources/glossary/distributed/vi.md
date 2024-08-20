@@ -1,0 +1,7 @@
+---
+term: PHÂN TÁN
+---
+
+Đặc tính của một mạng máy tính mà quyền quyết định và kiểm soát được phân bổ đều cho tất cả các thành viên trong mạng. Sự phân bổ này đảm bảo tính kiên cường của hệ thống. Nó còn được gọi là mạng ngang hàng (peer-to-peer). Khác với mạng phi tập trung, nơi quyền lực được phân mảnh và phân tán giữa nhiều thực thể, nhưng vẫn có một số cơ quan trung ương giữ quyền lực lớn hơn người dùng, mạng phân tán loại bỏ cơ quan trung ương bằng cách giao quyền quản lý và kiểm soát cho chính người dùng. Bitcoin là một ví dụ của hệ thống phân tán. Bitcoin không có hệ thống phân cấp hay cơ quan trung ương. Việc duy trì sự đồng thuận, xác minh giao dịch, và phát hành đơn vị tiền tệ mới được thực hiện bởi người dùng. Cấu trúc phân tán này đảm bảo tính kiên cường và khả năng chống kiểm duyệt của hệ thống, làm cho việc kiểm soát hoặc thao túng bởi một thực thể đơn lẻ trở nên rất khó khăn.
+
+> ► *Một số người gọi Bitcoin là một hệ thống phi tập trung. Thực sự, không hiếm khi thấy hai thuật ngữ này được sử dụng thay thế cho nhau. Một từ đồng nghĩa gợi nhớ hơn cho tính từ "phân tán" có thể là "ngang hàng," đôi khi được viết tắt là "P2P," từ viết tắt từ bản dịch tiếng Anh "Peer-to-Peer."*

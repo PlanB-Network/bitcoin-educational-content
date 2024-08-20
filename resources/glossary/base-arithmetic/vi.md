@@ -1,0 +1,5 @@
+---
+term: BASE (ARITHMETIC)
+---
+
+Cơ số là một hệ thống đếm sử dụng một số lượng ký tự cố định để biểu diễn tất cả các số có thể. Cơ số xác định số lượng ký hiệu riêng biệt có sẵn để biểu diễn các chữ số trong hệ thống này. Ví dụ, hệ thống được biết đến nhiều nhất trong cuộc sống hàng ngày của chúng ta là cơ số 10, còn được gọi là hệ thập phân. Nó sử dụng mười ký hiệu riêng biệt `(0, 1, 2, 3, 4, 5, 6, 7, 8, 9)` để biểu diễn tất cả các số. Các hệ thống đếm khác thường được sử dụng trong lĩnh vực máy tính và toán học bao gồm hệ nhị phân (cơ số 2), với hai ký hiệu `(0, 1)`, và hệ thập lục phân (cơ số 16), với mười sáu ký hiệu `(0, 1, 2, 3, 4, 5, 6, 7, 8, 9, A, B, C, D, E, F)`. Trong bối cảnh của Bitcoin, bạn đôi khi có thể gặp phải mã hóa trong cơ số 58 hoặc trong một cơ số 32 được chỉnh sửa (được gọi là `Bech32`).

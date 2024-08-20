@@ -1,9 +1,9 @@
-question: Lightning Network được xác nhận và triển khai vào năm nào?
-answer: 2017
-wrong_answers:
+câu hỏi: Lightning Network được xác nhận và triển khai vào năm nào?
+câu trả lời: 2017
+câu trả lời sai:
   - 2015
   - 2016
   - 2018
-explanation: >-
+giải thích: >-
   Lightning Network được xác nhận và triển khai vào năm 2017.
-reviewed: false
+đã xem xét: false

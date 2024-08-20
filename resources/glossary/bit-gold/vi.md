@@ -1,0 +1,5 @@
+---
+term: BIT GOLD
+---
+
+Bit gold là một hệ thống tiền tệ số phi tập trung được Nick Szabo tưởng tượng ra vào năm 1998 và mô tả công khai vào năm 2005. Bit gold được thiết kế để tạo ra và trao đổi một nguồn tài nguyên ảo được gọi là bit gold. Hệ thống này không dựa trên bất kỳ hàng hóa vật lý nào mà nhằm mục đích tạo ra một hình thức khan hiếm không thể giả mạo. Giao thức bit gold dựa vào việc tạo ra tiền tệ thông qua bằng chứng công việc (proof of work), nơi mà các phần của bit gold được tạo ra sử dụng sức mạnh tính toán của máy tính, từ đó hình thành một chuỗi bằng chứng công việc. Mỗi bằng chứng công việc được đánh dấu thời gian và sau đó được thêm vào một sổ đăng ký tài sản. Việc xác minh và chuyển giao quyền sở hữu bit gold được thực hiện thông qua một sổ đăng ký công cộng, nơi người dùng được xác định bằng khóa công khai. Bit gold vẫn ở giai đoạn khái niệm và chưa bao giờ được triển khai. Hệ thống này là một trong những tiền thân của Bitcoin, cùng với b-money và RPoW, nhưng Satoshi dường như không biết đến sự tồn tại của nó trước khi tạo ra Bitcoin. Nó sau đó được nhắc đến trên trang web và diễn đàn của Bitcoin.

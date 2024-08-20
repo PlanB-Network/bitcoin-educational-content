@@ -1,10 +1,10 @@
-question: Vai trò của các công ty như OpenNode, Swiss Bitcoin Pay và BTCPay trong hệ sinh thái Bitcoin là gì?
-answer: Họ cung cấp các công cụ giúp việc chấp nhận Bitcoin trở nên dễ dàng đối với các doanh nghiệp.
-wrong_answers:
+câu hỏi: Vai trò của các công ty như OpenNode, Swiss Bitcoin Pay và BTCPay trong hệ sinh thái Bitcoin là gì?
+câu trả lời: Họ cung cấp các công cụ giúp việc chấp nhận Bitcoin trở nên dễ dàng đối với các doanh nghiệp.
+câu trả lời sai:
   - Họ đào Bitcoin.
   - Họ quản lý Bitcoin.
   - Họ phát hành Bitcoin.
-explanation: |
+giải thích: |
   Các công ty như OpenNode, Swiss Bitcoin Pay và BTCPay cung cấp các công cụ
   giúp việc chấp nhận Bitcoin trở nên dễ dàng đối với các doanh nghiệp, góp phần vào việc
   thúc đẩy việc sử dụng Bitcoin trong các giao dịch hàng ngày.

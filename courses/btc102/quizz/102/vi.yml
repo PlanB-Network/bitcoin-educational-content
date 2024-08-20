@@ -1,16 +1,16 @@
-question: Vai trò của những người đáng tin cậy trong kế hoạch thừa kế của bạn là gì?
+Câu hỏi: Vai trò của những người đáng tin cậy trong kế hoạch thừa kế của bạn là gì?
 
-answer: Để hỗ trợ gia đình bạn khi bạn không còn ở đây bằng cách cung cấp lời khuyên về quản lý chìa khóa và ví, giúp hiểu cách an toàn khôi phục cụm từ bí mật (hạt giống), và cung cấp sự đảm bảo trong một giao dịch.
+Câu trả lời: Để hỗ trợ gia đình bạn khi bạn không còn ở đây bằng cách cung cấp lời khuyên về quản lý chìa khóa và ví, giúp hiểu cách an toàn khôi phục cụm từ bí mật (hạt giống), và cung cấp sự đảm bảo trong một giao dịch.
 
-wrong_answers:
+Câu trả lời sai:
   - Để nhận quyền sở hữu tài sản tiền điện tử của bạn sau khi bạn qua đời, quản lý tài sản của bạn, và phân phối tài sản của bạn cho các người thừa kế.
   - Để ăn cắp tài sản tiền điện tử của bạn trước khi chúng được chuyển giao cho người thân yêu của bạn, làm tổn hại đến giao dịch của bạn, và tạo ra xung đột giữa các người thừa kế của bạn.
   - Để bỏ mặc gia đình bạn khi bạn không còn ở đây, cung cấp lời khuyên sai lệch về quản lý chìa khóa và ví, và tạo ra sự nhầm lẫn trong một giao dịch.
 
-explanation: |
+Giải thích: |
   Những người đáng tin cậy trong kế hoạch thừa kế của bạn ở đó để hỗ trợ
   gia đình bạn khi bạn không còn ở đây. Họ cung cấp lời khuyên về quản lý chìa khóa và ví,
   giúp hiểu cách an toàn khôi phục cụm từ bí mật (hạt giống), và cung cấp sự đảm bảo
   trong một giao dịch.
 
-reviewed: false
+Đã xem xét: false

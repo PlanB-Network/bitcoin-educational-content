@@ -1,10 +1,10 @@
-question: Ý nghĩa của việc Bitcoin là một đồng tiền trung lập là gì?
-answer: Nó không bị kiểm soát bởi bất kỳ thực thể hay tổ chức nào.
-wrong_answers:
+câu hỏi: Ý nghĩa của việc Bitcoin là một đồng tiền trung lập là gì?
+câu trả lời: Nó không bị kiểm soát bởi bất kỳ thực thể hay tổ chức nào.
+câu trả lời sai:
   - Nó được kiểm soát bởi một thực thể hay tổ chức duy nhất.
   - Nó được quản lý bởi chính phủ.
   - Nó chỉ được sử dụng cho các giao dịch trung lập.
-explanation: |
+giải thích: |
   Bitcoin là một đồng tiền trung lập, có nghĩa là nó không bị kiểm soát bởi bất kỳ thực thể
   hay tổ chức nào và mọi người dùng đều có quyền lợi như nhau. Đây là một khía cạnh quan trọng của tính phi tập trung của nó.
-reviewed: false
+đã xem xét: true

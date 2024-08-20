@@ -1,0 +1,5 @@
+---
+term: COMPACT BLOCK RELAY
+---
+
+Protocol được giới thiệu trong Bitcoin Core vào năm 2016 thông qua BIP152, đề xuất một phương pháp tiết kiệm băng thông cho các nút mạng. COMPACT BLOCK RELAY cho phép truyền đạt thông tin khối một cách gọn nhẹ, dựa trên giả định rằng các nút đã có hầu hết các giao dịch của một khối gần đây trong mempool của mình. Thay vì truyền đạt từng giao dịch một cách đầy đủ, điều này sẽ dẫn đến sự trùng lặp, COMPACT BLOCK RELAY đề xuất chỉ gửi các định danh ngắn cho các giao dịch đã biết đối với các nút ngang hàng, đi kèm với một số giao dịch được chọn (đáng chú ý là giao dịch coinbase và những giao dịch mà nút có khả năng không biết). Nút sau đó có thể yêu cầu bất kỳ giao dịch nào bị thiếu từ các nút ngang hàng của mình. Do đó, COMPACT BLOCK RELAY giảm lượng dữ liệu trao đổi trong quá trình lan truyền khối, giúp giảm bớt sự tăng vọt băng thông và cải thiện hiệu quả tổng thể của mạng.

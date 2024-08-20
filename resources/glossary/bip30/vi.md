@@ -1,0 +1,5 @@
+---
+term: BIP30
+---
+
+Đề xuất cải tiến liên quan đến việc triển khai một soft fork vào ngày 15 tháng 3 năm 2012, nhằm giải quyết vấn đề về việc trùng lặp mã định danh giao dịch. Trước BIP30, kỹ thuật cho phép có hai giao dịch khác nhau với cùng một mã định danh giao dịch (TXID) trong blockchain. Điều này đã xảy ra đáng chú ý hai lần đối với các giao dịch coinbase: giao dịch trong block 91,880 có cùng TXID với coinbase của block 91,722, và giao dịch trong block 91,842 có cùng TXID với coinbase của block 91,812. BIP30 đã giải quyết lỗi này bằng cách áp đặt một quy tắc mới đơn giản: không có giao dịch mới nào có thể có cùng TXID với một giao dịch đã được ghi lại trước đó trừ khi giao dịch gốc đã được tiêu thụ hoàn toàn (nghĩa là, tất cả các đầu ra của nó đã được sử dụng). Soft fork này được kích hoạt bằng phương pháp flag day. Do đó, nó là một trong những UASF đầu tiên.

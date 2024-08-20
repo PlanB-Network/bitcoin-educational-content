@@ -1,10 +1,10 @@
-question: Những nền tảng nào mà một người dùng Bitcoin lo ngại về bảo mật có thể sử dụng để mua bán không cần KYC giữa các cá nhân?
-answer: Peach, Robosats, Bisq, HodlHodl
-wrong_answers:
+câu hỏi: Những nền tảng nào mà một người dùng Bitcoin lo ngại về bảo mật có thể sử dụng để mua bán không cần KYC giữa các cá nhân?
+câu trả lời: Peach, Robosats, Bisq, HodlHodl
+câu trả lời sai:
   - Coinbase, Binance, Kraken
   - PayPal, Venmo, Cash App
   - Thẻ tín dụng, chuyển khoản ngân hàng, tiền mặt
-explanation: |
+giải thích: |
   Chương này đề cập đến Peach, Robosats, Bisq, và HodlHodl là các nền tảng
   mà một người dùng Bitcoin lo ngại về bảo mật có thể sử dụng để mua bán không cần KYC giữa các cá nhân.
-reviewed: false
+đã xem xét: false

@@ -1,8 +1,8 @@
-question: Giải pháp nào dành cho các cấu trúc lớn hoặc những người đam mê Bitcoin để chấp nhận Bitcoin?
-answer: BTCpay Server
-wrong_answers:
+câu hỏi: Giải pháp nào dành cho các cấu trúc lớn hoặc những người đam mê Bitcoin để chấp nhận Bitcoin?
+câu trả lời: BTCpay Server
+câu trả lời sai:
   - Ví Bitcoin
   - Sàn giao dịch Bitcoin
   - Đào Bitcoin
-explanation: >-
+giải thích: >-
   BTCpay Server là giải pháp cho các cấu trúc lớn hoặc những người đam mê Bitcoin để chấp nhận Bitcoin. Các giải pháp khác bao gồm OpenNode cho các doanh nghiệp trực tuyến đơn giản và Swiss Bitcoin Pay cho các nhà buôn nghiệp dư.

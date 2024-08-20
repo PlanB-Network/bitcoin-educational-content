@@ -1,0 +1,11 @@
+---
+term: FEE SNIPING
+---
+
+Một kịch bản tấn công trong đó các thợ mỏ tìm cách viết lại một khối vừa được xác nhận gần đây nhằm mục đích yêu cầu các phí giao dịch mà nó chứa, đồng thời thêm vào các giao dịch có phí cao đã xuất hiện trong thời gian chờ (mempool). Mục tiêu cuối cùng của cuộc tấn công này đối với thợ mỏ là tăng lợi nhuận của họ. Fee sniping có thể trở nên ngày càng có lợi nhuận khi phần thưởng khối giảm và phí giao dịch chiếm một phần lớn hơn trong doanh thu của các thợ mỏ. Nó cũng có lợi khi phí trong khối trước đó đáng kể cao hơn so với khối ứng viên tốt nhất tiếp theo. Để đơn giản, thợ mỏ đối mặt với lựa chọn này về mặt động cơ:
+* Đào một cách bình thường theo sau khối cuối cùng, với khả năng cao giành được phần thưởng thấp;
+* Cố gắng đào một khối trước đó (fee sniping), với khả năng thấp giành được phần thưởng cao.
+
+Cuộc tấn công này đặt ra rủi ro cho hệ thống Bitcoin, vì càng nhiều thợ mỏ áp dụng nó, càng nhiều thợ mỏ khác, ban đầu là trung thực, được khuyến khích làm điều tương tự. Thực sự, mỗi khi một thợ mỏ mới tham gia vào những người cố gắng fee sniping, khả năng một trong những thợ mỏ tấn công thành công tăng lên, và khả năng một trong những thợ mỏ trung thực mở rộng chuỗi giảm xuống. Nếu cuộc tấn công này được thực hiện một cách rộng rãi và duy trì theo thời gian, xác nhận khối sẽ không còn là chỉ báo đáng tin cậy về tính bất biến của một giao dịch Bitcoin. Điều này có thể khiến hệ thống trở nên không sử dụng được.
+
+Để đối phó với rủi ro này, hầu hết phần mềm ví tự động điền vào trường `nLocktime` sao cho nó điều kiện hóa việc xác nhận giao dịch để bao gồm trong chiều cao khối tiếp theo. Như vậy, việc bao gồm giao dịch trong một việc viết lại khối trước đó trở nên không thể. Nếu việc sử dụng rộng rãi `nLocktime` được người dùng Bitcoin áp dụng, nó giảm đáng kể động cơ cho fee sniping. Thực sự, nó khuyến khích sự tiến triển của blockchain hơn là việc viết lại của nó bằng cách giảm lợi nhuận tiềm năng từ nó. Đối với các giao dịch Taproot, BIP326 đề xuất sử dụng trường `nSequence` một cách tương tự để đạt được hiệu ứng tương đương của trường `nLocktime` cho các loại giao dịch khác. Việc sử dụng này sẽ giải quyết hai vấn đề cùng một lúc bằng cách cải thiện sự riêng tư của các giao thức tầng thứ hai sử dụng cùng một trường.

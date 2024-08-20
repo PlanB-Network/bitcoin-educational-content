@@ -1,0 +1,5 @@
+---
+term: PPLNS (PAY PER LAST N SHARES)
+---
+
+Método para calcular la remuneración de los mineros dentro del contexto de las piscinas de minería. PPLNS recompensa a los mineros basándose en su contribución de participaciones durante un período dado. En PPLNS, los pagos se realizan solo cuando la piscina encuentra un bloque y se determinan por el número de participaciones enviadas por el minero en relación con el total de participaciones recogidas durante el período observado. Este método favorece a los mineros consistentes y activos a largo plazo, ya que desalienta el salto de piscina (cambio frecuente de piscinas). La remuneración varía con la probabilidad de encontrar un bloque, lo que puede llevar a una disminución en la consistencia de los ingresos del minero (más variación que el pago por participación).

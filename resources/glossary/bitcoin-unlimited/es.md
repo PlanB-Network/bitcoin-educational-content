@@ -1,0 +1,5 @@
+---
+term: BITCOIN UNLIMITED
+---
+
+Una propuesta para actualizar el protocolo de Bitcoin que surgió a finales del verano de 2016, con el objetivo de aumentar el tamaño del bloque de manera flexible a través de un hard fork. Este fork fue apoyado por los partidarios de bloques grandes durante la Guerra del Tamaño de Bloque, notablemente por Roger Ver. A diferencia de Bitcoin Classic, Bitcoin Unlimited no estableció un límite superior para el tamaño del bloque, sino que permitió a los usuarios definir sus propios parámetros. Estos parámetros incluían el tamaño máximo de generación, el tamaño adicional del bloque y la profundidad de aceptación. Sin embargo, Bitcoin Unlimited fue criticado por su complejidad técnica y vulnerabilidades de seguridad. Esta actualización, en última instancia, nunca fue adoptada.

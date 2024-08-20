@@ -1,0 +1,5 @@
+---
+term: ECASH (DAVID CHAUM)
+---
+
+Protocolo propuesto por David Chaum en 1982, que es uno de los primeros sistemas de moneda digital diseñados para preservar el anonimato del usuario. Se basa en principios de criptografía de clave pública para crear una moneda digital que puede ser intercambiada de manera segura y anónima. eCash opera mediante la creación de tokens digitales firmados por un banco. Así, representa una evolución de los bancos de depósito, sin ser descentralizado. Durante las transacciones, estos tokens se transfieren entre las partes sin revelar las identidades de los usuarios, preservando así su privacidad. eCash es considerado un precursor de las criptomonedas. A menudo se menciona en discusiones sobre Bitcoin, con algunos queriendo usar sistemas similares a eCash como una capa adicional. Hoy en día, la tendencia se inclina más hacia los llamados sistemas "Chaumianos federados" como Fedimint.

@@ -1,0 +1,5 @@
+---
+term: OUTPUT LINKING
+---
+
+A veces se usa de manera sinónima para referirse a la reutilización de direcciones. Output linking se refiere a la práctica de usar la misma dirección de recepción para bloquear múltiples UTXOs, a veces a través de varias transacciones diferentes. Los bitcoins generalmente se bloquean usando un par de claves criptográficas que corresponden a una dirección única. Dado que la blockchain es pública, es fácil ver qué direcciones están asociadas con cuántos bitcoins. En el caso de reutilizar la misma dirección para múltiples pagos, se puede asumir que todos los UTXOs asociados pertenecen a la misma entidad. Por lo tanto, la reutilización de direcciones plantea un problema para la privacidad del usuario. Permite enlaces determinísticos entre múltiples transacciones y UTXOs, así como la perpetuación del seguimiento de fondos en la cadena.

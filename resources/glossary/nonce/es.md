@@ -1,0 +1,11 @@
+---
+term: NONCE
+---
+
+En el contexto de la informática, el término "nonce" se refiere a un número que se utiliza solo una vez y luego se reemplaza. A menudo es aleatorio o pseudoaleatorio. Los nonces se utilizan en varios protocolos criptográficos para asegurar la seguridad del proceso. Por ejemplo, las firmas ECDSA utilizadas dentro del protocolo de Bitcoin incluyen el uso de un nonce. Esto significa que este número debe ser nuevo para cada firma. Si esto no ocurre, es posible calcular la clave privada utilizada comparando dos firmas que usan el mismo nonce.
+
+Los nonces también se utilizan en el proceso de minería de Bitcoin. Los mineros incrementan estos valores modificables dentro de sus bloques candidatos. Modifican el valor del nonce con el fin de encontrar un hash criptográfico que sea menor o igual al objetivo de dificultad. Este proceso requiere una potencia computacional significativa, ya que implica una búsqueda exhaustiva entre un gran número de nonces posibles. Cuando un minero encuentra un nonce que, al incluirse en su bloque, produce un resumen que cumple con los criterios de dificultad, el bloque se transmite a la red, y el minero gana la recompensa.
+
+> ► *En 2010, investigadores descubrieron que la PlayStation 3 de Sony usaba el mismo nonce al firmar diferentes paquetes de código. Esta reutilización del nonce permitió a los atacantes calcular la clave privada utilizada para firmar el software. Con la clave privada en mano, los atacantes podían crear firmas válidas para cualquier código, permitiéndoles ejecutar software no autorizado, incluyendo juegos piratas o sistemas operativos personalizados, directamente en la PS3.*
+
+> ► *Existe un malentendido común sobre el origen del término "nonce". Algunos afirman que representa la abreviatura de "number only used once" (número utilizado solo una vez). En realidad, el origen de la palabra se remonta al siglo XVIII y proviene de la evolución semántica de la expresión en inglés antiguo "then anes", que significaba "para la ocasión".*

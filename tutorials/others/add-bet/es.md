@@ -12,11 +12,7 @@ Más allá de tutoriales y formación, PlanB Network también ofrece una vasta b
 
 *Es imperativo que todo el contenido integrado en el sitio esté libre de derechos o respete la licencia del archivo fuente. Además, todos los visuales publicados en PlanB Network están disponibles bajo la licencia [CC-BY-SA](https://creativecommons.org/licenses/by-sa/4.0/).*
 ![event](assets/01.webp)
-- Primero, necesitas tener una cuenta en GitHub. Si no sabes cómo crear una cuenta, hemos hecho un tutorial detallado para guiarte.
-
-https://planb.network/tutorials/others/create-github-account
-
-
+- Primero, necesitas tener una cuenta en GitHub. Si no sabes cómo crear una cuenta, hemos hecho [un tutorial detallado para guiarte](https://planb.network/tutorials/others/create-github-account).
 - Ve al [repositorio de GitHub de PlanB dedicado a datos](https://github.com/DecouvreBitcoin/sovereign-university-data/tree/dev/resources/bet) en la sección `resources/bet/`:
 ![event](assets/02.webp)
 - Haz clic en la parte superior derecha en el botón `Add file`, luego en `Create new file`:
@@ -45,11 +41,7 @@ tags:
 contributors:
   - 
 ```
-- **`builder`**: Indica el identificador de tu organización en la Red PlanB. Si aún no tienes un identificador de "constructor" para tu empresa, puedes crear uno siguiendo este tutorial.
-
-https://planb.network/tutorials/others/add-builder
-
- Si no tienes uno, puedes simplemente usar tu nombre, tu pseudónimo o el nombre de tu empresa sin haber creado un perfil de constructor.
+- **`builder`**: Indica el identificador de tu organización en la Red PlanB. Si aún no tienes un identificador de "constructor" para tu empresa, puedes crear uno [siguiendo este tutorial](https://planb.network/tutorials/others/add-builder). Si no tienes uno, puedes simplemente usar tu nombre, tu pseudónimo o el nombre de tu empresa sin haber creado un perfil de constructor.
 - **`type`**: Selecciona la naturaleza de tu contenido entre las siguientes dos opciones:
 	- `Educational Content` para contenidos educativos.
 	- `Visual Content` para otros tipos de contenidos diversos.
@@ -81,7 +73,7 @@ links:
 ![event](assets/09.webp)
 - Una vez que tus modificaciones a este archivo estén completas, guárdalas haciendo clic en el botón `Commit changes...`:
 ![event](assets/10.webp)
-- Añade un título para tus modificaciones, así como una breve description:
+- Añade un título para tus modificaciones, así como una breve descripción:
 ![event](assets/11.webp)
 - Haz clic en el botón verde `Propose changes`:
 ![event](assets/12.webp)
@@ -178,7 +170,7 @@ Lo que estamos haciendo aquí es anticipar el enlace futuro a tu archivo, una ve
 ![evento](assets/48.webp)
 - Una vez que tus cambios estén completos, haz clic en el botón `Commit changes...`:
 ![evento](assets/49.webp)
-- Añade un título para tus cambios, así como una breve description:
+- Añade un título para tus cambios, así como una breve descripción:
 ![evento](assets/50.webp)
 - Haz clic en el botón verde `Commit changes`:
 ![evento](assets/51.webp)

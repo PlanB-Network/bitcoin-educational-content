@@ -1,0 +1,5 @@
+---
+term: LABEL
+---
+
+Etiqueta o anotación asignada a un UTXO en una cartera de Bitcoin para recordar su origen. Por ejemplo, si poseo un UTXO proveniente de una compra P2P en Bisq con Charles, podría asignarle la etiqueta `Non-KYC Bisq Charles`. Esta es una buena práctica que ayuda a recordar el origen o destino previsto de ese UTXO, lo que facilita la gestión de fondos y la optimización de la privacidad. Etiquetar se vuelve aún más importante cuando se utiliza con el control de monedas. De hecho, al permitir a los usuarios diferenciar y seleccionar precisamente UTXOs para sus transacciones, esta práctica ayuda a evitar la fusión de UTXOs de diferentes fuentes. Esto limita los riesgos asociados con la Heurística de Propiedad de Entrada Común (CIOH, por sus siglas en inglés), que puede revelar la propiedad común de las entradas de una transacción.

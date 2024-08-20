@@ -1,0 +1,7 @@
+---
+term: BLOOM FILTER
+---
+
+Una estructura de datos probabilística utilizada para probar si un elemento es parte de un conjunto. Los Filtros de Bloom permiten realizar comprobaciones de membresía rápidamente sin tener que examinar todo el conjunto de datos. Son particularmente útiles en contextos donde el espacio y la velocidad son críticos, pero se acepta una tasa de error baja y controlada. De hecho, los Filtros de Bloom no producen falsos negativos, pero sí generan una cierta cantidad de falsos positivos. Cuando un elemento se añade al filtro, múltiples funciones hash generan posiciones en un arreglo de bits. Para verificar la membresía, se utilizan las mismas funciones hash. Si todos los bits correspondientes están establecidos, el elemento probablemente está en el conjunto, pero con un riesgo de falsos positivos. Los Filtros de Bloom se utilizan ampliamente en los campos de bases de datos y redes. Es notablemente conocido que Google los utiliza para su sistema de gestión de bases de datos comprimidas *BigTable*. En el protocolo de Bitcoin, se utilizan particularmente para las carteras SPV según el BIP37.
+
+> ► *Cuando se habla específicamente sobre el uso de Filtros de Bloom en el contexto de transacciones de Bitcoin, a veces se encuentra el término "Transaction Bloom Filtering".*

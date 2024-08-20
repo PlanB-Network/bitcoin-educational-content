@@ -1,0 +1,13 @@
+pregunta: ¿Cuál es el papel de la billetera "post-mix" en el protocolo Zerolink?
+
+respuesta: Para almacenar los UTXOs después de mezclarlos.
+
+respuestas_incorrectas:
+  - Para almacenar los UTXOs antes de mezclarlos.
+  - Para almacenar los UTXOs de cambio.
+  - Para almacenar los UTXOs de consolidación.
+
+explicación: |
+  La billetera "post-mix" está reservada para las monedas que han sido mezcladas.
+
+revisado: false

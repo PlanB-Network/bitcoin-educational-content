@@ -1,0 +1,5 @@
+---
+term: BIP68
+---
+
+Introdujo la capacidad de usar tiempos de bloqueo relativos a través del campo `nSequence`. Esto permite que una transacción especifique un retraso relativo antes de que pueda ser incluida en un bloque. Este retraso puede definirse en términos del número de bloques, o como un múltiplo de 512 segundos (es decir, tiempo real). Cabe destacar que esta nueva interpretación del campo `nSequence` solo es válida si el campo `nVersion` es mayor o igual a `2`. Esta interpretación del campo `nSequence` ocurre a nivel de las reglas de consenso de Bitcoin. El bloqueo de tiempo relativo establece un retraso a partir de la aceptación de una transacción anterior, mientras que el bloqueo de tiempo absoluto especifica un momento preciso antes del cual la transacción no puede ser incluida en un bloque. BIP68 fue introducido mediante un soft fork el 4 de julio de 2016, junto con BIP112 y BIP113, activados por primera vez utilizando el método BIP9.

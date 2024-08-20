@@ -1,0 +1,5 @@
+---
+term: BIP119
+---
+
+Introduce un nuevo opcode denominado `OP_CHECKTEMPLATEVERIFY` (CTV). CTV permitiría la creación de convenios no recursivos en transacciones, con el fin de imponer condiciones específicas sobre cómo se puede gastar una moneda dada, incluyendo en transacciones futuras. Más concretamente, habilitaría la definición de condiciones en el `scriptPubKey` de las salidas de una transacción basadas en el `scriptPubKey` del UTXO utilizado como entrada. CheckTemplateVerify está diseñado para ser simple y sin estado dinámico. Su implementación tiene como objetivo extender las capacidades de scripting de Bitcoin para facilitar varias aplicaciones como el control de congestión de transacciones, la creación de canales de pago no interactivos, DLCs, piscinas de pago... Este nuevo opcode sería introducido como reemplazo de `OP_NOP4`. Este cambio implicaría un soft fork.

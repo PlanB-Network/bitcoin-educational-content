@@ -1,0 +1,7 @@
+---
+term: BIP8
+---
+
+Desarrollado tras los debates sobre SegWit, que utilizó BIP9 para su activación, BIP8 es un método de activación de soft fork que incorpora de manera nativa un mecanismo automático de UASF (*User-Activated Soft Fork* o *Fork Suave Activado por Usuarios*). Al igual que BIP9, BIP8 utiliza la señalización de los mineros pero añade el parámetro `LOT` (*Lock-in On Time out* o *Bloqueo al Agotarse el Tiempo*). Si `LOT` se establece en `true`, al expirar el período de señalización sin alcanzar el umbral requerido, se activa automáticamente un UASF, forzando la activación del soft fork. Este enfoque obliga a los mineros a cooperar o arriesgarse a un UASF impuesto por los usuarios. Además, a diferencia de BIP9, BIP8 define el período de señalización basado en la altura del bloque, eliminando manipulaciones potenciales a través del hash rate por parte de los mineros. BIP8 también permite establecer un umbral de votación variable e introduce un parámetro para una altura mínima de bloque para la activación, dando tiempo a los mineros para prepararse y señalar su acuerdo con antelación sin necesariamente estar listos. Cuando un soft fork se activa mediante BIP8 con el parámetro `LOT=true`, esto utiliza un método muy agresivo contra los mineros que son inmediatamente puestos bajo la presión de un potencial UASF. De hecho, les deja solo 2 opciones:
+* Ser cooperativos, y así facilitar el proceso de activación;
+* Ser no cooperativos, en cuyo caso los usuarios automáticamente realizan un UASF para imponer el soft fork.

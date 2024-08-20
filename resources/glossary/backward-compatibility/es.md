@@ -1,0 +1,5 @@
+---
+term: COMPATIBILIDAD HACIA ATRÁS
+---
+
+Se refiere a la capacidad de una actualización de las reglas de un protocolo para mantener compatibilidad con versiones anteriores. Esto significa que los cambios están diseñados de tal manera que los nodos antiguos (nodos que ejecutan versiones previas al cambio de regla) aún pueden interactuar con la red y seguir la cadena con el mayor trabajo acumulado. Por lo tanto, es esencial que los nodos antiguos ni rechacen los nuevos bloques ni las nuevas transacciones. La compatibilidad hacia atrás reduce significativamente la probabilidad de que una actualización fragmente la red, evitando así la división de nodos en subgrupos en diferentes cadenas. Para asegurar la compatibilidad con versiones anteriores del protocolo, una actualización debe hacer las reglas existentes más estrictas o introducir nuevas. Este principio define un "soft fork". Por el contrario, si una actualización relaja las reglas existentes o elimina algunas, entonces no será compatible hacia atrás. Esto sería un "hard fork".

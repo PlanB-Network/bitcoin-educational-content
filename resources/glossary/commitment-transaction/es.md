@@ -1,0 +1,5 @@
+---
+term: COMMITMENT TRANSACTION
+---
+
+En el contexto de un canal bidireccional dentro de Lightning, la transacción de compromiso es una transacción que ambas partes crean y firman, sin publicarla en la cadena principal. Representa el estado actual de la distribución de fondos entre las partes de un canal, con cada pago de Lightning resultando en una nueva transacción de compromiso. Estas transacciones son válidas pero solo se transmiten cuando el canal se cierra unilateralmente. Contienen salidas para cada parte, reflejando la distribución de fondos de acuerdo con los pagos de Lightning realizados desde la apertura del canal. Se asocian mecanismos de penalización para disuadir a las partes de transmitir estados desactualizados del canal, es decir, antiguas transacciones de compromiso que reflejan una distribución incorrecta de fondos.

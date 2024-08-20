@@ -1,0 +1,5 @@
+---
+term: RUTA DE RECUPERACIÓN
+---
+
+En un software de billetera que utiliza Miniscript, como Liana por ejemplo, las rutas de recuperación se refieren a conjuntos de claves que solo se vuelven operativas después de un período definido de inactividad en el script que bloquea los bitcoins (timelock). Las rutas de recuperación son utilizables solo una vez que los timelocks han expirado, ofreciendo así un método para recuperar fondos cuando la ruta principal no está disponible. Considera el ejemplo de un script que incorpora 2 claves distintas: la clave A, que autoriza el gasto inmediato de bitcoins, y la clave B, que permite gastarlos después de un retraso definido por un timelock de 52,560 bloques. En este ejemplo, la clave A proviene de la ruta principal, mientras que la clave B proviene de la ruta de recuperación.

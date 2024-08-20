@@ -1,0 +1,5 @@
+---
+term: BIP152
+---
+
+Propuesta para el "Relay de Bloques Compactos" destinada a reducir el ancho de banda necesario para la transmisión de bloques a través de la red Bitcoin. Adoptada en noviembre de 2016 en la versión 0.13.0 de Bitcoin Core, este protocolo permite la comunicación de información de bloques de una manera compacta, basándose en la suposición de que los nodos ya tienen una gran parte de las transacciones de un bloque reciente en su mempool. En lugar de transmitir cada transacción completa, lo que resultaría en duplicación, BIP152 propone enviar solo identificadores cortos para las transacciones ya conocidas por los pares, acompañados por algunas transacciones seleccionadas (notablemente la transacción coinbase y aquellas que el nodo probablemente no conozca). El nodo puede entonces solicitar cualquier transacción faltante a sus pares. El Relay de Bloques Compactos disminuye así la cantidad de datos intercambiados durante la propagación de bloques, lo que reduce los picos de ancho de banda y mejora la eficiencia general de la red.

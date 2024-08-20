@@ -1,0 +1,7 @@
+---
+term: COLD WALLET
+---
+
+Sinónimo de "hardware wallet" (billetera de hardware). Una billetera de hardware, o billetera física, es un dispositivo electrónico dedicado a la seguridad y gestión de las claves privadas de una billetera de Bitcoin. Estos dispositivos están diseñados para proporcionar una seguridad mejorada en comparación con las billeteras de software que residen en máquinas versátiles directamente conectadas a internet. Las billeteras de hardware almacenan la frase mnemotécnica fuera de línea, en un dispositivo que tiene una superficie de ataque mínima, lo que lo aísla de entornos potencialmente vulnerables. Cuando se realiza una transacción, la billetera de hardware firma la transacción dentro del propio dispositivo, sin exponer la clave privada externamente. Una vez que la transacción está firmada, se transmite a la red de Bitcoin para ser confirmada e incluida en la blockchain. Entre los modelos más populares de billeteras de hardware se encuentran: Ledger, Trezor, Coldcard, Passport, BitBox, Satochip, Jade y SeedSigner (esta lista no es exhaustiva).
+
+> ► *El término billetera de hardware puede expresarse de diferentes maneras en francés. Algunos se refieren a ella como "portefeuille matériel" o "portefeuille froid". Otros prefieren el término "périphérique de signature", o "dispositivo de firma" en inglés, para evitar la implicación de que los bitcoins se encuentran físicamente en la billetera.*

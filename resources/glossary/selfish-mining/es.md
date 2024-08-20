@@ -1,0 +1,11 @@
+---
+term: SELFISH MINING
+---
+
+Estrategia (o ataque) en la minería, donde un minero o un grupo de mineros mantiene intencionalmente bloques con una prueba de trabajo válida sin transmitirlos inmediatamente a la red. El objetivo es mantener una ventaja sobre otros mineros en términos de prueba de trabajo, lo que potencialmente les permite minar varios bloques seguidos y publicarlos todos a la vez, maximizando así sus ganancias.
+
+En otras palabras, el grupo de mineros atacante no mina en el último bloque validado por toda la red, sino en un bloque que ellos mismos han creado, el cual difiere del validado por la red. Este proceso genera una especie de bifurcación secreta de la blockchain, que permanece desconocida para toda la red hasta que esta cadena alternativa potencialmente supera a la blockchain honesta. Una vez que la cadena secreta de los mineros atacantes se vuelve más larga (es decir, contiene más trabajo acumulado) que la cadena honesta y pública, entonces se transmite a toda la red. En ese momento, los nodos de la red, que siguen la cadena más larga (con más trabajo acumulado), se sincronizarán con esta nueva cadena. Esto resulta en una reorganización.
+
+El selfish mining es problemático porque disminuye la seguridad del sistema al desperdiciar parte del poder computacional de la red. Si tiene éxito, también conduce a reorganizaciones de la blockchain, afectando así la fiabilidad de las confirmaciones de transacciones para los usuarios. Esta práctica sigue siendo riesgosa para el grupo de mineros atacante, ya que a menudo es más rentable minar normalmente en el último bloque conocido públicamente en lugar de asignar poder computacional a una bifurcación secreta que probablemente nunca superará a la blockchain honesta. Cuanto mayor es el número de bloques en la reorganización, menor es la probabilidad de éxito del ataque.
+
+> ► *La traducción al inglés de "minage égoïste" es "selfish mining". Cabe destacar que un ataque de selfish mining no debe confundirse con un ataque de retención de bloques.*

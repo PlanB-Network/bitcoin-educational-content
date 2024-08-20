@@ -1,0 +1,5 @@
+---
+term: RIPEMD160
+---
+
+Acrónimo de *Research and development in Advanced Communications technologies in Europe Integrity Primitives Evaluation Message Digest 160*. Es una función de hash criptográfico que genera un resumen de 160 bits a partir de una entrada arbitraria. Se utiliza en Bitcoin para transformar una clave pública en una dirección de recepción para los estándares Legacy y SegWit v0 (para SegWit v1, la clave pública no se somete a hash). El proceso primero implica aplicar la función de hash `SHA256` a la clave pública, seguido por la aplicación de `RIPEMD160` sobre el resultado. Esta combinación de dos funciones de hash distintas es conocida como `HASH160` en el contexto de Bitcoin. `RIPEMD160` también se utiliza en carteras deterministas y jerárquicas para calcular las huellas digitales de las claves. Específicamente, `HASH160` se utiliza para calcular la huella digital de una clave padre, luego se incluye en los metadatos de una clave extendida (xpub, xprv...).

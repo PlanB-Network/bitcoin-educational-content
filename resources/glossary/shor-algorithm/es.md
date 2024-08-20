@@ -1,0 +1,5 @@
+---
+term: SHOR (ALGORITMO)
+---
+
+Algoritmo cuántico inventado en 1994 por Peter Shor que permite la factorización de enteros grandes en un producto de números primos en tiempo polinomial. Al reducir el número de operaciones necesarias para factorizar enteros, Shor podría hacer impracticables los algoritmos de criptografía establecidos sobre este problema matemático, como RSA. Shor puede ser ligeramente modificado para actuar sobre casi todos los algoritmos que utilizan una estructura de grupo. Notablemente, ya tiene una variante eficiente en criptografía de curva elíptica (ECDSA, Schnorr...). Por lo tanto, Shor y sus variantes cercanas son efectivas en algoritmos de criptografía asimétrica. Actualmente, aún no contamos con una computadora cuántica que sea lo suficientemente potente y estable para ejecutar con éxito el algoritmo de Shor.

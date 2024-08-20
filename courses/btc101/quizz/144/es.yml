@@ -1,9 +1,9 @@
-question: ¿Cuál es el requisito de ancho de banda para ejecutar un nodo de Bitcoin, considerando 1 bloque de 1MB cada 10 minutos?
-answer: Aproximadamente 5GB por mes
-wrong_answers:
+pregunta: ¿Cuál es el requisito de ancho de banda para ejecutar un nodo de Bitcoin, considerando 1 bloque de 1MB cada 10 minutos?
+respuesta: Aproximadamente 5GB por mes
+respuestas_incorrectas:
   - Aproximadamente 1GB por mes
   - Aproximadamente 10GB por mes
   - Aproximadamente 20GB por mes
-explanation: >-
+explicación: >-
   Considerando 1 bloque de 1MB cada 10 minutos, ejecutar un nodo de Bitcoin requiere aproximadamente 5GB por mes en ancho de banda.
-reviewed: false
+revisado: false

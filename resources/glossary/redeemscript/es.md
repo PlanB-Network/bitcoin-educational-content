@@ -1,0 +1,5 @@
+---
+term: REDEEMSCRIPT
+---
+
+Un script que define las condiciones específicas que los inputs deben cumplir para desbloquear los fondos asociados con un output P2SH. En un UTXO P2SH, el `scriptPubKey` contiene el hash del `redeemScript`. Cuando una transacción desea gastar este UTXO como un input, debe proporcionar el `redeemScript` claro que coincide con el hash contenido en el `scriptPubKey`. El `redeemScript` se proporciona entonces en el `scriptSig` del input, junto con otros elementos necesarios para satisfacer las condiciones del script, tales como firmas o claves públicas. Esta estructura encapsulada asegura que los detalles de las condiciones de gasto permanezcan ocultos hasta que los bitcoins sean realmente gastados. Se utiliza notablemente para billeteras multisignatura Legacy P2SH.

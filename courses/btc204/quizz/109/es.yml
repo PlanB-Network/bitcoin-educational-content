@@ -1,0 +1,13 @@
+pregunta: ¿Por qué suele ser complejo utilizar payjoin para un pago?
+
+respuesta: Requiere la cooperación activa del destinatario en la construcción
+
+respuestas_incorrectas:
+  - Requiere cantidades fijas para cada transacción
+  - Obliga a ambas partes a usar el mismo tipo de software
+  - Requiere que el pagador tenga al menos 2 UTXOs mayores que el valor del pago
+
+explicación: |
+  La dificultad de usar payjoin radica en su dependencia de la participación del comerciante. Como cliente, usar un payjoin es imposible si el comerciante no lo soporta.
+
+revisado: false

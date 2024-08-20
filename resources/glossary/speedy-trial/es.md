@@ -1,0 +1,9 @@
+---
+term: SPEEDY TRIAL
+---
+
+Método de activación de un soft fork inicialmente conceptualizado para Taproot a principios de 2021 por David A. Harding basado en una idea de Russell O'Connor. Su principio es usar el método BIP8 con un parámetro `LOT` establecido en `false`, mientras se reduce el período de activación a solo 3 meses. Este período de votación acortado permite una rápida verificación de la aprobación de los mineros. Si se alcanza el umbral de aprobación requerido durante uno de los períodos, el soft fork se bloquea entonces. Se activará varios meses después, dando así a los mineros el tiempo necesario para actualizar su software.
+
+El éxito de este método para Taproot, que disfrutó de un amplio consenso dentro de la comunidad de Bitcoin, sin embargo, no garantiza su efectividad para todas las actualizaciones. Aunque el método Speedy Trial permite una activación más rápida, algunos desarrolladores expresan preocupaciones sobre su uso futuro. Temen que podría llevar a una sucesión demasiado rápida de soft forks, lo que potencialmente podría amenazar la estabilidad y seguridad del protocolo de Bitcoin. Comparado con BIP8 con el parámetro `LOT=true`, el método Speedy Trial es mucho menos amenazante para los mineros. No se planea automáticamente un UASF. Este método de activación aún no ha sido formalizado dentro de un BIP.
+
+> ► *El término "Speedy Trial" se toma de la terminología legal indicando un "juicio rápido". Esto invoca el hecho de que la propuesta de mejora se presenta rápidamente ante el tribunal de mineros, para determinar sus intenciones. Es generalmente aceptado usar el término inglés directamente en español.*

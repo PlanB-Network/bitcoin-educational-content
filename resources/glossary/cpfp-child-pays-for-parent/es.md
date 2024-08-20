@@ -1,0 +1,7 @@
+---
+term: CPFP (CHILD PAYS FOR PARENT)
+---
+
+Un mecanismo transaccional destinado a acelerar la confirmación de una transacción de Bitcoin, similar a lo que hace Replace-by-Fee (RBF), pero desde el lado del destinatario. Cuando una transacción con comisiones demasiado bajas en comparación con el mercado permanece atascada en los mempools de los nodos y no se confirma lo suficientemente rápido, el destinatario puede realizar una nueva transacción, gastando los bitcoins recibidos en la transacción bloqueada, aunque aún no esté confirmada. Esta segunda transacción requiere necesariamente que la primera sea minada para ser confirmada. De esta manera, se fuerza a los mineros a incluir ambas transacciones juntas. La segunda transacción asignará mucho más en comisiones de transacción que la primera, de tal manera que la comisión promedio aliente a los mineros a incluir ambas transacciones. La transacción hija (la segunda) paga por la transacción padre que está atascada (la primera). Es por esto que se le denomina "CPFP".
+
+Así, CPFP permite al destinatario obtener sus fondos más rápidamente a pesar de las bajas comisiones iniciales incurridas por el remitente, a diferencia de RBF (*Replace-By-Fee*), que permite al remitente tomar la iniciativa para acelerar su propia transacción aumentando las comisiones.

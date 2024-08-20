@@ -1,0 +1,11 @@
+pregunta: ¿Qué heurística de análisis de cadena utiliza la transacción payjoin para actuar como un engaño?
+
+respuesta: El COH
+
+respuestas_incorrectas:
+  - Reutilización de direcciones
+  - Huellas dactilares de la cartera
+  - Reutilización de versiones
+
+explicación: |
+  Cuando un analista examina una transacción payjoin, es llevado a creer que todos los inputs provienen de la misma persona debido al COH. Sin embargo, esta percepción es incorrecta, ya que el receptor del pago también contribuye a los inputs junto al pagador real. Así, el análisis de cadena se desvía hacia una interpretación que resulta ser falsa.

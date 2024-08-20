@@ -1,0 +1,5 @@
+---
+term: MERKLE ROOT
+---
+
+Digest o "hash superior" de un árbol de Merkle, que representa un resumen de toda la información presente en el árbol. Un árbol de Merkle es una estructura acumuladora criptográfica, a veces también llamada "árbol de hash". En el contexto de Bitcoin, los árboles de Merkle se utilizan para organizar las transacciones dentro de un bloque y facilitar la verificación rápida de la inclusión de una transacción específica. Así, en los bloques de Bitcoin, la raíz de Merkle se obtiene al hashear sucesivamente las transacciones en pares hasta que solo queda un hash (la raíz de Merkle). Esto se incluye entonces en el encabezado del bloque correspondiente. Este árbol de hash también se encuentra en UTREEXO, una estructura que permite condensar el conjunto de UTXO de los nodos, y en el MAST Taproot.

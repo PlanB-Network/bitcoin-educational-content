@@ -1,0 +1,7 @@
+---
+term: MAINTAINER (CORE)
+---
+
+En el contexto del proyecto Bitcoin Core, la implementación predominante de nodos en la red de Bitcoin, los mantenedores son individuos encargados de gestionar el proyecto. Llevan la responsabilidad de su implementación. Están a cargo de la moderación en el repositorio de GitHub de Bitcoin Core y de establecer el calendario para el lanzamiento de nuevas versiones. Son principalmente responsables de llevar a cabo la fusión de solicitudes de extracción (PR) propuestas por los contribuyentes.
+
+En otras palabras, cuando una propuesta de modificación de código ha pasado por las diversas etapas de validación, son estos mantenedores quienes asumen la significativa responsabilidad de fusionar el nuevo código con el software de Bitcoin Core. Antes de proceder con esta fusión, los mantenedores verifican si el código se adhiere a los principios fundamentales del proyecto, si ha alcanzado los estándares mínimos requeridos para ser incluido, y también juzgan el consenso general de los contribuyentes sobre esta modificación. Al momento de escribir esta definición, solo quedan cinco mantenedores en Bitcoin Core: Hennadii Stepanov, Michael Ford, Ava Chow, Gloria Zhao y Ryan Ofsky.

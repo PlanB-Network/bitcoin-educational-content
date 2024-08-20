@@ -1,0 +1,5 @@
+---
+term: DIFICULTAD DE LAS PARTICIPACIONES
+---
+
+Una dificultad objetivo más alta que la de Bitcoin (por lo tanto, menos difícil), definida por un grupo de minería para calificar un hash de una participación y evaluar la contribución de cada minero individual dentro del grupo. Para gestionar eficientemente la carga de verificación y asegurar que cada minero, independientemente de su poder computacional, envíe participaciones regularmente, los grupos ajustan la dificultad de las participaciones. La dificultad asignada a cada minero determina el número de participaciones que acumulan: por ejemplo, si a un minero se le asigna una dificultad de 10 y envía 5 pruebas de trabajo válidas a esta dificultad, obtiene 50 participaciones. Un minero más poderoso con una dificultad de 100 que envía 7 pruebas de trabajo válidas recibirá 700 participaciones. Este sistema permite la cuantificación precisa del hashrate de cada minero y la distribución de recompensas de acuerdo con el método de cálculo elegido para la compensación (PPS, PPLNS, TIDES...).

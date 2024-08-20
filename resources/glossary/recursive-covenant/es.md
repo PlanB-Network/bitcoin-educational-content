@@ -1,0 +1,9 @@
+---
+term: RECURSIVE (COVENANT)
+---
+
+Un covenant recursivo en Bitcoin es un tipo de contrato inteligente que impone condiciones no solo en la transacción actual sino también en futuras transacciones que gasten las salidas de esta transacción. Esto permite la creación de cadenas de transacciones donde cada una debe adherirse a ciertas reglas definidas por la primera en la cadena. La recursividad crea una secuencia de transacciones donde cada una hereda las restricciones de su transacción padre. Esto permitiría un control complejo y a largo plazo sobre cómo se pueden gastar los bitcoins, pero también introduciría riesgos respecto a la libertad de gasto y la fungibilidad.
+
+Para resumir, un covenant no recursivo solo se limitaría a la transacción que sigue inmediatamente a la que estableció las reglas. Por el contrario, un covenant recursivo tiene la capacidad de imponer condiciones específicas sobre un bitcoin de manera indefinida. Las transacciones pueden seguir una tras otra, pero el bitcoin en cuestión siempre retendrá las condiciones iniciales adjuntas a él. Técnicamente, el establecimiento de un covenant no recursivo ocurre cuando el `scriptPubKey` de un UTXO define restricciones sobre el `scriptPubKey` de las salidas de una transacción que gasta dicho UTXO. Por otro lado, el establecimiento de un covenant recursivo ocurre cuando el `scriptPubKey` de un UTXO define restricciones sobre el `scriptPubKey` de las salidas de una transacción que gasta dicho UTXO, y sobre todos los `scriptPubKey`s que seguirán al gasto de este UTXO.
+
+Más generalmente, en computación, lo que se llama "recursividad" es la capacidad de una función para llamarse a sí misma, creando una especie de bucle.

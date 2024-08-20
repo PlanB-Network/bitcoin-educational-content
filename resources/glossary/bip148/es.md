@@ -1,0 +1,5 @@
+---
+term: BIP148
+---
+
+Propuesta introducida en marzo de 2017 por un desarrollador bajo el pseudónimo Shaolin Fry. El objetivo de BIP148 era forzar la activación de la actualización SegWit en el protocolo de Bitcoin, en respuesta a la estancación de la señalización para este soft fork por parte de los mineros a través del método BIP9. BIP148 sugería la implementación de un UASF (*User-Activated Soft Fork*) para activar forzosamente SegWit por los nodos el 15 de noviembre de 2017, si los mineros no habían bloqueado SegWit para el 1 de agosto de 2017. Si la adopción del UASF BIP148 hubiera ocurrido, los nodos de la red Bitcoin habrían rechazado los bloques que no señalaban apoyo para SegWit, ejerciendo así presión sobre los mineros para adoptar la actualización. Aunque este histórico BIP finalmente no fue activado, jugó un papel crucial en la adopción exitosa de SegWit, al obligar a los mineros a bloquear el soft fork a través de BIP91. A largo plazo, BIP148 estableció un precedente importante, demostrando la influencia que los usuarios pueden ejercer a través de sus nodos completos en las decisiones de gobernanza del protocolo de Bitcoin.

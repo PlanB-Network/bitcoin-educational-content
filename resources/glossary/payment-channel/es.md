@@ -1,0 +1,5 @@
+---
+term: PAYMENT CHANNEL
+---
+
+Dentro del marco de la Lightning Network, un canal de pago es una conexión bidireccional entre dos nodos de Lightning que permite intercambios de bitcoin fuera de la cadena (off-chain). En la cadena de bloques (on-chain), un canal de pago se representa por una dirección de multisignatura 2/2 mantenida por ambos participantes. El canal de pago requiere una transacción en la cadena de bloques para su apertura y otra para su cierre. Entre estos dos eventos, los usuarios del canal pueden llevar a cabo un número muy grande de intercambios de bitcoin fuera de la cadena en la Lightning Network, sin necesitar actividad en la cadena de bloques. En Lightning, es posible enrutar un pago a través de varios canales y nodos, con el fin de enviar bitcoins sin necesariamente abrir un canal directo con el receptor.

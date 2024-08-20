@@ -1,0 +1,7 @@
+---
+term: PRUNED NODE
+---
+
+Un nodo podado, en inglés "Pruned Node", es un nodo completo que realiza la poda de la blockchain. Esto implica eliminar progresivamente los bloques más antiguos, después de haberlos verificado debidamente, para mantener únicamente los bloques más recientes. El límite de retención se especifica en el archivo `bitcoin.conf` a través del parámetro `prune=n`, donde `n` es el tamaño máximo que ocupan los bloques en megabytes (MB). Si se indica `0` después de este parámetro, entonces la poda está deshabilitada, y el nodo retiene la blockchain en su totalidad.
+
+Los nodos podados a veces se consideran como tipos diferentes de nodos a los nodos completos. El uso de un nodo podado puede ser particularmente interesante para usuarios que enfrentan limitaciones de capacidad de almacenamiento. Actualmente, un nodo completo debe tener casi 600 GB solo para almacenar la blockchain. Un nodo podado puede limitar el almacenamiento requerido hasta 550 MB. Aunque utiliza menos espacio en disco, un nodo podado mantiene un nivel de verificación y validación similar al de un nodo completo. Por lo tanto, los nodos podados ofrecen más confianza a sus usuarios en comparación con los nodos ligeros (SPV).

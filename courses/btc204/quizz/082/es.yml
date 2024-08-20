@@ -1,0 +1,13 @@
+pregunta: ¿Qué paso del proceso Chaumian CoinJoin implica cambiar la identidad en Tor para asegurar el anonimato?
+
+respuesta: Registrar las salidas.
+
+respuestas_incorrectas:
+  - Registrar las entradas.
+  - Firmar la transacción.
+  - Transmitir la transacción.
+
+explicación: |
+  Para prevenir que el coordinador pueda vincular una salida específica con una entrada, los usuarios cambian su identidad en Tor antes de enviar sus direcciones de recepción en texto claro al coordinador.
+
+revisado: false

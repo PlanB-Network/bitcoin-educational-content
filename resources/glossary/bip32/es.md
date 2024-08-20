@@ -1,0 +1,5 @@
+---
+term: BIP32
+---
+
+BIP32 introdujo el concepto de una billetera determinista jerárquica (HD wallet). Esta propuesta permite la generación de una jerarquía de pares de claves a partir de una `semilla maestra` común, utilizando funciones de derivación unidireccionales. Cada par de claves generado puede ser a su vez el padre de otras claves hijas, formando así una estructura tipo árbol (jerárquica). La ventaja de BIP32 es que permite la gestión de múltiples pares de claves diferentes con la necesidad de mantener solo una semilla para regenerarlas. Esta innovación ha ayudado notablemente a combatir el problema de la reutilización de direcciones, lo cual es grave para la privacidad del usuario. BIP32 también permite la creación de sub-ramas dentro de la misma billetera para facilitar su gestión.

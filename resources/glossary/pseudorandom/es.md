@@ -1,0 +1,7 @@
+---
+term: PSEUDO-ALEATORIO
+---
+
+Este adjetivo se utiliza para describir una secuencia de números que, aunque es el resultado de un proceso determinista, muestra características que se acercan a las de una secuencia verdaderamente aleatoria ideal. El concepto de aleatoriedad ideal implica una total ausencia de previsibilidad y correlación entre elementos sucesivos. Un número pseudo-aleatorio es generado por un algoritmo determinista y, por lo tanto, en teoría, es completamente predecible si se conoce el estado inicial del generador.
+
+Un generador de números pseudo-aleatorios (PRNG, por sus siglas en inglés) es un algoritmo utilizado para producir dichos números. Generalmente comienza desde un valor inicial, o "semilla", y luego aplica una serie de transformaciones matemáticas para producir la secuencia de números. Debido a esta determinabilidad, es importante para la seguridad criptográfica que la semilla inicial permanezca secreta. Las secuencias pseudo-aleatorias se utilizan ampliamente en varios campos, incluida la criptografía, ya que exhiben un comportamiento aparentemente aleatorio que es suficiente para muchas aplicaciones. La evaluación de la calidad de un PRNG se basa en la medida en que su salida se acerca a la verdadera aleatoriedad en términos de distribución, correlaciones y otras propiedades estadísticas. En el contexto de Bitcoin, los números pseudo-aleatorios se utilizan para producir claves privadas, o para generar una semilla para billeteras deterministas y jerárquicas.

@@ -1,0 +1,9 @@
+---
+term: PREMIUM
+---
+
+Un monto adicional pagado sobre el precio estándar o nominal de un activo. En el contexto de Bitcoin, se puede observar un premium al realizar compras, especialmente en plataformas de intercambio, las cuales a veces utilizan esta técnica para obtener sus márgenes en el servicio de corretaje.
+
+Esta noción de premium también se puede encontrar en compras de BTC de persona a persona (peer-to-peer). De hecho, comprar bitcoins sin KYC (Know Your Customer) a menudo conlleva un premium comparado con el precio de mercado estándar, que puede variar desde el 1% hasta a veces más del 10%. Varias razones explican esta diferencia de precio. Primero, es una práctica común entre los vendedores P2P que se ha establecido con el tiempo. A continuación, los vendedores tienen tarifas de transacción asociadas con el envío de fondos al comprador. También hay un riesgo aumentado de robo en las ventas P2P en comparación con las transacciones en plataformas reguladas, lo que justifica una compensación por el riesgo asumido. Finalmente, el recargo puede estar relacionado con la demanda y la calidad del intercambio en términos de confidencialidad. Como comprador, la ganancia en confidencialidad tiene un precio que se refleja en el margen aplicado por el vendedor. Algunos bitcoiners también creen que el precio más alto de BTC comprado en P2P refleja su verdadero valor, y argumentan que los precios más bajos en plataformas reguladas son el resultado de un compromiso sobre la confidencialidad de tus datos personales.
+
+> ► *Generalmente, incluso en francés, se utiliza el término inglés "premium". Su traducción podría ser "majoración".*

@@ -1,0 +1,5 @@
+---
+term: BRC-20
+---
+
+Un estándar que permite la interacción con tokens no nativos en Bitcoin, basado en las inscripciones del protocolo Ordinals. Creado por Domo en marzo de 2023, este estándar experimental ha despertado un interés especulativo significativo, llevando a un aumento histórico en las tarifas de transacción en abril y mayo de 2023. Los tokens BRC-20 utilizan Bitcoin para almacenar y marcar con fecha y hora funciones JSON que gestionan estos activos. Las funciones son `deploy` (creación de token), `mint` (emisión de token) y `transfer` (transferencia de token). Para ejecutar este protocolo, los individuos deben mantener servidores que cataloguen todas las funciones. El estándar BRC-20 es, por lo tanto, un uso altamente ineficiente de Bitcoin en comparación con otros protocolos de creación de tokens como RGB.

@@ -1,0 +1,7 @@
+---
+term: LOGARITMO DISCRETO
+---
+
+El logaritmo discreto es un problema matemático que se utiliza en algunos algoritmos criptográficos de clave pública. En un grupo cíclico de orden $q$, con un generador $g$, si uno tiene una ecuación de la forma $g^x = h$, entonces $x$ se llama el logaritmo discreto de $h$ con respecto a la base $g$, módulo $q$. En términos simples, implica determinar el exponente $x$ cuando $g$, $h$ y $q$ son conocidos. El logaritmo discreto es, por lo tanto, el inverso de la exponencial en un grupo cíclico finito. Sin embargo, para valores grandes de $q$, resolver el problema del logaritmo discreto se considera algorítmicamente difícil. Esta propiedad se explota para asegurar la seguridad de muchos protocolos criptográficos, como el protocolo de Diffie-Hellman para el intercambio de claves.
+
+El logaritmo discreto también se utiliza en la criptografía de curvas elípticas (ECC), incluyendo en el ECDSA (*Elliptic Curve Digital Signature Algorithm*). En el contexto de las curvas elípticas, el problema del logaritmo discreto se extiende a encontrar un escalar $k$ tal que $k \cdot G = K$, donde $G$ y $K$ son puntos en la curva, y $\cdot$ representa la operación de multiplicación de puntos. En el contexto de Bitcoin, los scripts pueden usar ECDSA o el protocolo de Schnorr para bloquear UTXOs. Ambos dependen de la inviabilidad de calcular el logaritmo discreto.

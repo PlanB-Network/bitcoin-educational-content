@@ -1,0 +1,5 @@
+---
+term: DERIVACIÓN ENDURECIDA
+---
+
+El proceso de generar claves hijas en monederos HD (Hierarchical Deterministic). La derivación endurecida utiliza la clave privada del padre como entrada para la función `HMAC-SHA512`, haciendo imposible generar claves públicas hijas a partir de la clave pública del padre y el código de cadena del padre. El proceso implica concatenar la clave privada del padre y un índice mayor o igual a $2^{31}$, seguido de la aplicación de `HMAC-SHA512` con el código de cadena del padre. El resultado se divide en dos partes: los primeros 256 bits se suman a la clave privada del padre para obtener la clave privada del hijo, mientras que los 256 bits restantes forman el código de cadena del hijo. Este método asegura que incluso si una clave pública extendida se ve comprometida, no se puede utilizar para derivar claves públicas hijas. En la derivación estándar, la derivación endurecida se utiliza en todos los niveles de derivación hasta la profundidad de la cuenta. En las notaciones de ruta de derivación, una derivación endurecida se identifica con un apóstrofo `'` o más raramente con una `h`.

@@ -1,0 +1,13 @@
+pregunta: ¿Cuál es el principal rol de la transacción "Tx0" en Whirlpool?
+
+respuesta: Igualar los UTXOs.
+
+respuestas_incorrectas:
+  - Realizar la primera mezcla.
+  - Retirar los UTXOs de la piscina.
+  - Gastar los UTXOs mezclados.
+
+explicación: |
+  El objetivo de Tx0 es preparar e igualar los UTXOs para el coinjoin, dividiéndolos en unidades que corresponden a la cantidad de la piscina seleccionada, con el fin de asegurar la homogeneidad de la mezcla.
+
+revisado: false

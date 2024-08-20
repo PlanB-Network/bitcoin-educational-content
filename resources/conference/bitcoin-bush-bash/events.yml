@@ -11,7 +11,7 @@
   price_dollars: 0
   description: Meet some of your fellow Aussie Bitcoiners
   language: 
-  - language: en
+    - en
   links:
     website: https://bitcoinbushbash.info/
     replay_url:

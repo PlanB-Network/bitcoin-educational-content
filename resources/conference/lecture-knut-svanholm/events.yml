@@ -12,8 +12,8 @@
   price_dollars: 5
   available_seats: 10
   description: 5th guest star lecture of PlanB Biz School
-  language:
-  - language: en
+  language: 
+    - en
   links:
     replay_url:
     live_url: https://www.youtube.com/embed/nv78IaJ1okw?si=FParmxIYtIBL574A

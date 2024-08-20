@@ -11,8 +11,8 @@
   price_dollars: 0
   description: The biggest, most influential bitcoin event in Europe ever, again!
   language: 
-  - language: en
-  - language: cs
+    - en
+    - cs
   links:
     website: https://www.btcprague.com/#
     replay_url:

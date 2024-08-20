@@ -11,8 +11,8 @@
   book_in_person: false
   price_dollars: 0
   description: Bitcoin Circular Economies & Citadels
-  language:
-  - language: en
+  language: 
+    - en
   links:
     website:
     replay_url:

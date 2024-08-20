@@ -12,7 +12,7 @@
   price_dollars: 0
   description: Join Us for an Exciting Event at the Game Terminal in Nashville!
   language: 
-  - language: en
+    - en
   links:
     website: https://evento.so/p/evt_gXCAucxeHtx6qBTG
     replay_url:

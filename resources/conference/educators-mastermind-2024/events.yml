@@ -12,7 +12,7 @@
   price_dollars: 0
   description: Bitcoin meetup organizers, hub runners and community builders are invited to Chiang Mai, Thailand for two days of mastermind sessions and adventure in the mystical jungles of Chiang Mai. The goal is to build connections between Bitcoin educators and further our individual education efforts across the globe. 
   language: 
-  - language: en
+    - en
   links:
     website: https://www.rideofpassage.live/bitcoin-educators-mastermind
     replay_url:

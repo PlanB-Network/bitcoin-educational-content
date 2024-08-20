@@ -11,7 +11,7 @@
   price_dollars: 0
   description: Private LN event for networking
   language: 
-  - language: en
+    - en
   links:
     replay_url: https://www.youtube.com/playlist?list=PLB0XFvq7uxtkKnkopbXGUoXljqgC1hlzt
     live_url : 

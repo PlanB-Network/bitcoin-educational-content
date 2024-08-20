@@ -8,8 +8,8 @@
     projects and creators to forward-thinking developers. It is a collaborative space
     where your Bitcoin project or startup takes center stage.
   end_date: '2024-08-06 22:00:00'
-  language:
-  - language: en
+  language: 
+    - en
   links:
     live_url: ''
     replay_url: ''

@@ -10,10 +10,8 @@
   book_in_person: false
   price_dollars: 0
   description: Lugano Plan B Summer School is a special bootcamp-week in Lugano with world-class industry leaders and mentors.
-  
   language: 
-  - language: en
-
+    - en
   links:
     website: https://planb.network/en/courses/bizschool
     replay_url:

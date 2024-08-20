@@ -11,8 +11,8 @@
   price_dollars: 0
   description:  Join us in Berlin this coming October to explore the exploding ecosystem of decentralized exchange on top of the mintiest, anonymous infrastructure that's being added to the Bitcoin sovereign stack.
   language: 
-  - language: en
-  - language: de
+    - en
+    - de
   links:
     website: https://btcpp.dev/conf/berlin24
     replay_url:

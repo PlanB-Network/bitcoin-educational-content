@@ -11,7 +11,7 @@
   price_dollars: 0
   description: La conférence Bitcoin au coeur des Alpes
   language: 
-  - language: fr
+    - fr
   links:
     website: https://b-only.org/
     replay_url:

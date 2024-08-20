@@ -10,60 +10,60 @@ tags:
 - multi-coin
 
 # Proofreading metadata
-original: en
+original_language: en
 proofreading:
   cs:
-    last_contribution:
+    last_contribution_date:
     urgency: 1
     contributors_id:
     reward: 6006
   de:
-    last_contribution:
+    last_contribution_date:
     urgency: 1
     contributors_id:
     reward: 4253
   en:
-    last_contribution:
+    last_contribution_date:
     urgency: 1
     contributors_id:
     reward: 2126
   es:
-    last_contribution:
+    last_contribution_date:
     urgency: 1
     contributors_id:
     reward: 5129
   fi:
-    last_contribution:
+    last_contribution_date:
     urgency: 1
     contributors_id:
     reward: 6006
   fr:
-    last_contribution:
+    last_contribution_date:
     urgency: 1
     contributors_id:
     reward: 4253
   it:
-    last_contribution:
+    last_contribution_date:
     urgency: 1
     contributors_id:
     reward: 5129
   ja:
-    last_contribution:
+    last_contribution_date:
     urgency: 1
     contributors_id:
     reward: 7759
   pt:
-    last_contribution:
+    last_contribution_date:
     urgency: 1
     contributors_id:
     reward: 4253
   ru:
-    last_contribution:
+    last_contribution_date:
     urgency: 1
     contributors_id:
     reward: 6006
   vi:
-    last_contribution:
+    last_contribution_date:
     urgency: 1
     contributors_id:
     reward: 7759

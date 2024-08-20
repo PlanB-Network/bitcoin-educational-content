@@ -9,60 +9,60 @@ tags:
 category: infrastructure
 
 # Proofreading metadata
-original: en
+original_language: en
 proofreading:
   cs:
-    last_contribution:
+    last_contribution_date:
     urgency: 1
     contributors_id:
     reward: 2766
   de:
-    last_contribution:
+    last_contribution_date:
     urgency: 1
     contributors_id:
     reward: 2633
   en:
-    last_contribution:
+    last_contribution_date:
     urgency: 1
     contributors_id:
     reward: 1316
   es:
-    last_contribution:
+    last_contribution_date:
     urgency: 1
     contributors_id:
     reward: 2699
   fi:
-    last_contribution:
+    last_contribution_date:
     urgency: 1
     contributors_id:
     reward: 2766
   fr:
-    last_contribution:
+    last_contribution_date:
     urgency: 1
     contributors_id:
     reward: 2633
   it:
-    last_contribution:
+    last_contribution_date:
     urgency: 1
     contributors_id:
     reward: 2699
   ja:
-    last_contribution:
+    last_contribution_date:
     urgency: 1
     contributors_id:
     reward: 2899
   pt:
-    last_contribution:
+    last_contribution_date:
     urgency: 1
     contributors_id:
     reward: 2633
   ru:
-    last_contribution:
+    last_contribution_date:
     urgency: 1
     contributors_id:
     reward: 2766
   vi:
-    last_contribution:
+    last_contribution_date:
     urgency: 1
     contributors_id:
     reward: 2899

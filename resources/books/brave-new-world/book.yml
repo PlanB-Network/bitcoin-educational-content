@@ -5,60 +5,60 @@ tags:
 - social issues;
 
 # Proofreading metadata
-original: en
+original_language: en
 proofreading:
   cs:
-    last_contribution:
+    last_contribution_date:
     urgency: 1
     contributors_id:
     reward: 3320
   de:
-    last_contribution:
+    last_contribution_date:
     urgency: 1
     contributors_id:
     reward: 2910
   en:
-    last_contribution:
+    last_contribution_date:
     urgency: 1
     contributors_id:
     reward: 1455
   es:
-    last_contribution:
+    last_contribution_date:
     urgency: 1
     contributors_id:
     reward: 3115
   fi:
-    last_contribution:
+    last_contribution_date:
     urgency: 1
     contributors_id:
     reward: 3320
   fr:
-    last_contribution:
+    last_contribution_date:
     urgency: 1
     contributors_id:
     reward: 2910
   it:
-    last_contribution:
+    last_contribution_date:
     urgency: 1
     contributors_id:
     reward: 3115
   ja:
-    last_contribution:
+    last_contribution_date:
     urgency: 1
     contributors_id:
     reward: 3730
   pt:
-    last_contribution:
+    last_contribution_date:
     urgency: 1
     contributors_id:
     reward: 2910
   ru:
-    last_contribution:
+    last_contribution_date:
     urgency: 1
     contributors_id:
     reward: 3320
   vi:
-    last_contribution:
+    last_contribution_date:
     urgency: 1
     contributors_id:
     reward: 3730

@@ -10,61 +10,61 @@ contributors:
 - another-satoshi
 
 # Proofreading metadata
-original: fr
+original_language: fr
 proofreading:
   cs:
-    last_contribution:
+    last_contribution_date:
     urgency: 1
     contributors_id:
     reward: 33402
   de:
-    last_contribution:
+    last_contribution_date:
     urgency: 1
     contributors_id:
     reward: 17951
   en:
-    last_contribution:
+    last_contribution_date:
     urgency: 1
     contributors_id:
     reward: 17951
   es:
-    last_contribution:
+    last_contribution_date:
     urgency: 1
     contributors_id:
     reward: 25676
   fi:
-    last_contribution:
+    last_contribution_date:
     urgency: 1
     contributors_id:
     reward: 33402
   fr:
-    last_contribution:
+    last_contribution_date:
     urgency: 1
     contributors_id:
     reward: 8975
   it:
-    last_contribution: 2024-05-27
+    last_contribution_date: 2024-05-27
     urgency: 1
     contributors_id:
     - TinF0ilHat
     reward: 14088
   ja:
-    last_contribution:
+    last_contribution_date:
     urgency: 1
     contributors_id:
     reward: 48853
   pt:
-    last_contribution:
+    last_contribution_date:
     urgency: 1
     contributors_id:
     reward: 17951
   ru:
-    last_contribution:
+    last_contribution_date:
     urgency: 1
     contributors_id:
     reward: 33402
   vi:
-    last_contribution:
+    last_contribution_date:
     urgency: 1
     contributors_id:
     reward: 48853

@@ -20,15 +20,15 @@ tags:
 - community
 
 # Proofreading metadata
-original: en
+original_language: en
 proofreading:
   en:
-    last_contribution:
+    last_contribution_date:
     urgency: 1
     contributors_id:
     reward: 1329
   ru:
-    last_contribution:
+    last_contribution_date:
     urgency: 1
     contributors_id:
     reward: 2818

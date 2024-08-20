@@ -36,64 +36,64 @@ contributors:
 
 
 # Proofreading metadata
-original: fr
+original_language: fr
 proofreading:
   cs:
-    last_contribution:
+    last_contribution_date:
     urgency: 1
     contributors_id:
     reward: 43078
   de:
-    last_contribution:
+    last_contribution_date:
     urgency: 1
     contributors_id:
     reward: 22789
   en:
-    last_contribution:
+    last_contribution_date:
     urgency: 1
     contributors_id:
     reward: 22789
   es:
-    last_contribution:
+    last_contribution_date:
     urgency: 1
     contributors_id:
     reward: 32933
   fi:
-    last_contribution: 2024-04-02
+    last_contribution_date: 2024-04-02
     urgency: 1
     contributors_id:
     - KryptoKeskus
     reward: 22789
   fr:
-    last_contribution:
+    last_contribution_date:
     urgency: 1
     contributors_id:
     reward: 11394
   it:
-    last_contribution: 2023-10-10
+    last_contribution_date: 2023-10-10
     urgency: 1
     contributors_id:
     - TinF0ilHat1
     reward: 17716
   ja:
-    last_contribution: 2023-12-03
+    last_contribution_date: 2023-12-03
     urgency: 1
     contributors_id:
     - yutaro21jp
     reward: 32933
   pt:
-    last_contribution:
+    last_contribution_date:
     urgency: 1
     contributors_id:
     reward: 22789
   ru:
-    last_contribution:
+    last_contribution_date:
     urgency: 1
     contributors_id:
     - Reshetenko
     reward: 22789
   vi:
-    last_contribution: 2024-05-05
+    last_contribution_date: 2024-05-05
     urgency: 1
     contributors_id:
     - Henry-Da0

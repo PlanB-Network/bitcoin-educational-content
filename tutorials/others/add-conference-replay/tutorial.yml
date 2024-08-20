@@ -14,20 +14,20 @@ credits:
   professor: pretty-private
 
 # Proofreading metadata
-original: fr
+original_language: fr
 proofreading:
   en:
-    last_contribution:
+    last_contribution_date:
     urgency: 1
     contributors_id:
     reward: 4079
   fr:
-    last_contribution:
+    last_contribution_date:
     urgency: 1
     contributors_id:
     reward: 2039
   ru:
-    last_contribution:
+    last_contribution_date:
     urgency: 1
     contributors_id:
     reward: 5658

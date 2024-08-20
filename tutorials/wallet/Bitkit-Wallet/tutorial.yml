@@ -16,10 +16,10 @@ credits:
   link: https://help.bitkit.to
 
 # Proofreading metadata
-original: en
+original_language: en
 proofreading:
   en:
-    last_contribution:
+    last_contribution_date:
     urgency: 1
     contributors_id:
     reward: 1437

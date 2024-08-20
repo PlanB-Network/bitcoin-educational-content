@@ -4,24 +4,15 @@ links:
   download: 
     https://github.com/DecouvreBitcoin/sovereign-university-data/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf
   view:
-  - - language: en 
-      https://github.com/DecouvreBitcoin/sovereign-university-data/blob/dev/resources/bet/bip39-wordlist/assets
-  - - language: fr 
-      https://github.com/DecouvreBitcoin/sovereign-university-data/blob/dev/resources/bet/bip39-wordlist/assets
-  - - language: pt 
-      https://github.com/DecouvreBitcoin/sovereign-university-data/blob/dev/resources/bet/bip39-wordlist/assets
-  - - language: es 
-      https://github.com/DecouvreBitcoin/sovereign-university-data/blob/dev/resources/bet/bip39-wordlist/assets
-  - - language: it 
-      https://github.com/DecouvreBitcoin/sovereign-university-data/blob/dev/resources/bet/bip39-wordlist/assets
-  - - language: de 
-      https://github.com/DecouvreBitcoin/sovereign-university-data/blob/dev/resources/bet/bip39-wordlist/assets
-  - - language: ja 
-      https://github.com/DecouvreBitcoin/sovereign-university-data/blob/dev/resources/bet/bip39-wordlist/assets
-  - - language: vi 
-      https://github.com/DecouvreBitcoin/sovereign-university-data/blob/dev/resources/bet/bip39-wordlist/assets
-  - - language: fi 
-      https://github.com/DecouvreBitcoin/sovereign-university-data/blob/dev/resources/bet/bip39-wordlist/assets
+    - en: https://github.com/DecouvreBitcoin/sovereign-university-data/blob/dev/resources/bet/bip39-wordlist/assets
+    - fr: https://github.com/DecouvreBitcoin/sovereign-university-data/blob/dev/resources/bet/bip39-wordlist/assets
+    - pt: https://github.com/DecouvreBitcoin/sovereign-university-data/blob/dev/resources/bet/bip39-wordlist/assets
+    - es: https://github.com/DecouvreBitcoin/sovereign-university-data/blob/dev/resources/bet/bip39-wordlist/assets
+    - it: https://github.com/DecouvreBitcoin/sovereign-university-data/blob/dev/resources/bet/bip39-wordlist/assets
+    - de: https://github.com/DecouvreBitcoin/sovereign-university-data/blob/dev/resources/bet/bip39-wordlist/assets
+    - ja: https://github.com/DecouvreBitcoin/sovereign-university-data/blob/dev/resources/bet/bip39-wordlist/assets
+    - vi: https://github.com/DecouvreBitcoin/sovereign-university-data/blob/dev/resources/bet/bip39-wordlist/assets
+    - fi: https://github.com/DecouvreBitcoin/sovereign-university-data/blob/dev/resources/bet/bip39-wordlist/assets
 tags:
 - bitcoin
 - technology

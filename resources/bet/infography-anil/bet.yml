@@ -3,8 +3,7 @@ type: Educational Content
 links:
   download: https://anilsaidso.gumroad.com/
   view:
-  - - language: en 
-      https://penpot.planb.network/#/view/c157057b-fd28-8042-8004-4fbeca6e3f53?page-id=c157057b-fd28-8042-8004-4fbeca6e3f54&section=interactions&index=0&share-id=c157057b-fd28-8042-8004-4fcee69bb40e&zoom=fill
+    - en: https://penpot.planb.network/#/view/c157057b-fd28-8042-8004-4fbeca6e3f53?page-id=c157057b-fd28-8042-8004-4fbeca6e3f54&section=interactions&index=0&share-id=c157057b-fd28-8042-8004-4fcee69bb40e&zoom=fill
 tags:
 - bitcoin
 contributors:

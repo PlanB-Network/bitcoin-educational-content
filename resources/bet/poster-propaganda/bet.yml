@@ -3,8 +3,7 @@ type: Visual Content
 links:
   download: https://workspace.planb.network/s/aaA6jKxWS78axpM
   view:
-  - - language: en 
-      https://penpot.planb.network/#/view/c157057b-fd28-8042-8004-4f088ac9e6ca?page-id=c157057b-fd28-8042-8004-4f088ac9e6cb&section=interactions&index=0&share-id=c157057b-fd28-8042-8004-4f1102bda7d7&zoom=fill
+    - en: https://penpot.planb.network/#/view/c157057b-fd28-8042-8004-4f088ac9e6ca?page-id=c157057b-fd28-8042-8004-4f088ac9e6cb&section=interactions&index=0&share-id=c157057b-fd28-8042-8004-4f1102bda7d7&zoom=fill
 tags:
 - bitcoin
 - technology

@@ -3,8 +3,7 @@ type: Educational Content
 links:
   download: https://github.com/MyFirstBitcoin
   view:
-  - - language: en 
-      https://github.com/MyFirstBitcoin/Bitcoin-Diploma-2024/blob/main/Bitcoin%20Diploma%20-%202024%20-%20PDF.pdf
+    - en: https://github.com/MyFirstBitcoin/Bitcoin-Diploma-2024/blob/main/Bitcoin%20Diploma%20-%202024%20-%20PDF.pdf
 tags:
 - bitcoin
 contributors:

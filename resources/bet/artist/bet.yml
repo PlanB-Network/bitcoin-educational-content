@@ -2,8 +2,7 @@ type: Visual Content
 links:
   download: https://workspace.planb.network/s/9MXmXWwqmt7pfJs
   view:
-  - - language: en 
-      https://penpot.planb.network/#/view/7154756b-3ebd-8040-8004-50455a67f0d6?page-id=7154756b-3ebd-8040-8004-50455a67f0d7&section=interactions&index=0&share-id=7154756b-3ebd-8040-8004-504934eb0617&zoom=fill
+    - en: https://penpot.planb.network/#/view/7154756b-3ebd-8040-8004-50455a67f0d6?page-id=7154756b-3ebd-8040-8004-50455a67f0d7&section=interactions&index=0&share-id=7154756b-3ebd-8040-8004-504934eb0617&zoom=fill
 tags:
 - bitcoin
 contributors:

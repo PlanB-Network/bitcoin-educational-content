@@ -9,61 +9,61 @@ professors:
 - rabbit-hole
 
 # Proofreading metadata
-original: fr
+original_language: fr
 proofreading:
-  cs:
-    last_contribution:
+  - language: cs
+    last_contribution_date:
     urgency: 1
     contributors_id:
     reward: 58568
-  de:
-    last_contribution:
+  - language: de
+    last_contribution_date:
     urgency: 1
     contributors_id:
     reward: 30534
-  en:
-    last_contribution:
+  - language: en
+    last_contribution_date:
     urgency: 1
     contributors_id:
     reward: 30534
-  es:
-    last_contribution:
+  - language: es
+    last_contribution_date:
     urgency: 1
     contributors_id:
     reward: 44551
-  fi:
-    last_contribution:
+  - language: fi
+    last_contribution_date:
     urgency: 1
     contributors_id:
     reward: 58568
-  fr:
-    last_contribution:
+  - language: fr
+    last_contribution_date:
     urgency: 1
     contributors_id:
     reward: 15267
-  it:
-    last_contribution: 2024-07-18
+  - language: it
+    last_contribution_date: 2024-07-18
     urgency: 1
     contributors_id:
     - TinF0ilHat1
     reward: 23525
-  ja:
-    last_contribution:
+  - language: ja
+    last_contribution_date:
     urgency: 1
     contributors_id:
     reward: 86602
-  pt:
-    last_contribution:
+  - language: pt
+    last_contribution_date:
     urgency: 1
     contributors_id:
     reward: 30534
-  ru:
-    last_contribution:
+  - language: ru
+    last_contribution_date:
     urgency: 1
     contributors_id:
     reward: 58568
-  vi:
-    last_contribution:
+  - language: vi
+    last_contribution_date:
     urgency: 1
     contributors_id:
     reward: 86602

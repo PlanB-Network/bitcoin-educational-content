@@ -11,7 +11,7 @@
   price_dollars: 0
   description: the biggest bitcoin conferenceis coming to hong kong
   language: 
-  en:
+  - language: en
   links:
     website: https://b.tc/conference/asia
     replay_url:

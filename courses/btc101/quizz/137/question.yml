@@ -8,55 +8,55 @@ tags:
 - Transaction
 
 # Proofreading metadata
-original: en
+original_language: en
 proofreading:
-  cs:
-    last_contribution:
+  - language: cs
+    last_contribution_date:
     urgency: 1
     contributors_id:
     reward: 2666
-  de:
-    last_contribution:
+  - language: de
+    last_contribution_date:
     urgency: 1
     contributors_id:
     reward: 2583
-  en:
-    last_contribution:
+  - language: en
+    last_contribution_date:
     urgency: 1
     contributors_id:
     reward: 1291
-  es:
-    last_contribution:
+  - language: es
+    last_contribution_date:
     urgency: 1
     contributors_id:
     reward: 2624
-  fi:
-    last_contribution:
+  - language: fi
+    last_contribution_date:
     urgency: 1
     contributors_id:
     reward: 2666
-  fr:
-    last_contribution:
+  - language: fr
+    last_contribution_date:
     urgency: 1
     contributors_id:
     reward: 2583
-  it:
-    last_contribution:
+  - language: it
+    last_contribution_date:
     urgency: 1
     contributors_id:
     reward: 2624
-  ja:
-    last_contribution:
+  - language: ja
+    last_contribution_date:
     urgency: 1
     contributors_id:
     reward: 2749
-  pt:
-    last_contribution:
+  - language: pt
+    last_contribution_date:
     urgency: 1
     contributors_id:
     reward: 2583
-  vi:
-    last_contribution:
+  - language: vi
+    last_contribution_date:
     urgency: 1
     contributors_id:
     reward: 2749

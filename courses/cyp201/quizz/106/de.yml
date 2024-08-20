@@ -5,5 +5,5 @@ wrong_answers:
   - Master-Paare und Slave-Paare.
   - Eltern-Paare und Kind-Paare.
 explanation: |
-  In einer HD-Wallet gibt es zwei Arten von Kind-Schlüsselpaaren: gehärtete Paare und normale Paare. Diese Paare unterscheiden sich in ihrem Ableitungsprozess und ihrem Indexbereich.
+  In einer HD-Wallet gibt es zwei Arten von Kind-Schlüsselpaar- language: en gehärtete Paare und normale Paare. Diese Paare unterscheiden sich in ihrem Ableitungsprozess und ihrem Indexbereich.
 reviewed: false

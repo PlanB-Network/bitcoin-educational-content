@@ -2,7 +2,7 @@ builder: DecouvreBitcoin
 type: Visual Content
 links:
   view:
-  - en: 
+  - - language: en 
       https://penpot.planb.network/#/view/c157057b-fd28-8042-8004-4f081b21defb?page-id=c157057b-fd28-8042-8004-4f081b21defc&section=interactions&index=0&share-id=7154756b-3ebd-8040-8004-6475c2af5889&zoom=fill
   download: https://workspace.planb.network/s/GTCK3pZf8zN9rQE
 tags:
@@ -12,60 +12,60 @@ contributors:
 - rabbit-hole
 
 # Proofreading metadata
-original: en
+original_language: en
 proofreading:
-  cs:
-    last_contribution:
+  - language: cs
+    last_contribution_date:
     urgency: 1
     contributors_id:
     reward: 2536
-  de:
-    last_contribution:
+  - language: de
+    last_contribution_date:
     urgency: 1
     contributors_id:
     reward: 2518
-  en:
-    last_contribution:
+  - language: en
+    last_contribution_date:
     urgency: 1
     contributors_id:
     reward: 1259
-  es:
-    last_contribution:
+  - language: es
+    last_contribution_date:
     urgency: 1
     contributors_id:
     reward: 2527
-  fi:
-    last_contribution:
+  - language: fi
+    last_contribution_date:
     urgency: 1
     contributors_id:
     reward: 2536
-  fr:
-    last_contribution:
+  - language: fr
+    last_contribution_date:
     urgency: 1
     contributors_id:
     reward: 2518
-  it:
-    last_contribution:
+  - language: it
+    last_contribution_date:
     urgency: 1
     contributors_id:
     reward: 2527
-  ja:
-    last_contribution:
+  - language: ja
+    last_contribution_date:
     urgency: 1
     contributors_id:
     reward: 2554
-  pt:
-    last_contribution:
+  - language: pt
+    last_contribution_date:
     urgency: 1
     contributors_id:
     reward: 2518
-  ru:
-    last_contribution:
+  - language: ru
+    last_contribution_date:
     urgency: 1
     contributors_id:
     reward: 2536
-  vi:
-    last_contribution:
+  - language: vi
+    last_contribution_date:
     urgency: 1
     contributors_id:
     reward: 2554

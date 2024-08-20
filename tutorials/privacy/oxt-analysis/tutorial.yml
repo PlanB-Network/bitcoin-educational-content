@@ -14,60 +14,60 @@ credits:
   link: https://www.pandul.fr/post/analyse-de-chaine-bitcoin
 
 # Proofreading metadata
-original: fr
+original_language: fr
 proofreading:
-  cs:
-    last_contribution:
+  - language: cs
+    last_contribution_date:
     urgency: 1
     contributors_id:
     reward: 51760
-  de:
-    last_contribution:
+  - language: de
+    last_contribution_date:
     urgency: 1
     contributors_id:
     reward: 27130
-  en:
-    last_contribution:
+  - language: en
+    last_contribution_date:
     urgency: 1
     contributors_id:
     reward: 27130
-  es:
-    last_contribution:
+  - language: es
+    last_contribution_date:
     urgency: 1
     contributors_id:
     reward: 39445
-  fi:
-    last_contribution:
+  - language: fi
+    last_contribution_date:
     urgency: 1
     contributors_id:
     reward: 51760
-  fr:
-    last_contribution:
+  - language: fr
+    last_contribution_date:
     urgency: 1
     contributors_id:
     reward: 13565
-  it:
-    last_contribution:
+  - language: it
+    last_contribution_date:
     urgency: 1
     contributors_id:
     reward: 39445
-  ja:
-    last_contribution:
+  - language: ja
+    last_contribution_date:
     urgency: 1
     contributors_id:
     reward: 76390
-  pt:
-    last_contribution:
+  - language: pt
+    last_contribution_date:
     urgency: 1
     contributors_id:
     reward: 27130
-  ru:
-    last_contribution:
+  - language: ru
+    last_contribution_date:
     urgency: 1
     contributors_id:
     reward: 51760
-  vi:
-    last_contribution:
+  - language: vi
+    last_contribution_date:
     urgency: 1
     contributors_id:
     reward: 76390

@@ -11,10 +11,10 @@ contributors:
 - another-satoshi
 
 # Proofreading metadata
-original: en
+original_language: en
 proofreading:
-  en:
-    last_contribution:
+  - language: en
+    last_contribution_date:
     urgency: 1
     contributors_id:
     reward: 55098

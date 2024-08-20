@@ -11,7 +11,7 @@
   price_dollars: 0
   description: High signal, low noise. 
   language: 
-  en:
+  - language: en
   links:
     website: www.canadianbitcoinconf.com
     replay_url:

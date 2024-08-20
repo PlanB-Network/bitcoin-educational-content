@@ -5,15 +5,15 @@ tags:
 - ''
 
 # Proofreading metadata
-original: fr
+original_language: fr
 proofreading:
-  en:
-    last_contribution:
+  - language: en
+    last_contribution_date:
     urgency: 1
     contributors_id:
     reward: 2617
-  fr:
-    last_contribution:
+  - language: fr
+    last_contribution_date:
     urgency: 1
     contributors_id:
     reward: 1308

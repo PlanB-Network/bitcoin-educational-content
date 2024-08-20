@@ -5,5 +5,5 @@ wrong_answers:
   - Benutzer, Händler und Nodes
   - Käufer, Händler und Miner
 explanation: |
-  Im Lightning Network gibt es drei Arten von Personen: Käufer, die ausgehende Liquidität benötigen; Händler, die eingehende Liquidität benötigen; und Routing-Nodes, die darauf abzielen, eine ausgewogene Liquidität auf beiden Seiten zu haben.
+  Im Lightning Network gibt es drei Arten von Person- language: en Käufer, die ausgehende Liquidität benötigen; Händler, die eingehende Liquidität benötigen; und Routing-Nodes, die darauf abzielen, eine ausgewogene Liquidität auf beiden Seiten zu haben.
 reviewed: false

@@ -11,7 +11,7 @@
   price_dollars: 0
   description: The most OG Bitcoin conference in the world
   language: 
-  en:
+  - language: en
   links:
     website: https://baltichoneybadger.com/
     replay_url:

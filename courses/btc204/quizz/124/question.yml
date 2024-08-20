@@ -6,10 +6,10 @@ tags:
 - Bitcoin
 
 # Proofreading metadata
-original: fr
+original_language: fr
 proofreading:
-  fr:
-    last_contribution:
+  - language: fr
+    last_contribution_date:
     urgency: 1
     contributors_id:
     reward: 1275

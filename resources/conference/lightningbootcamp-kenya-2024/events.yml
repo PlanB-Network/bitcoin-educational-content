@@ -13,7 +13,7 @@
   price_dollars: 0
   description: Join us for a 4-day deep dive into Bitcoin Lightning Development brought to you by Africa Free Routing. Develop skills, connect with experts, and join Nairobi growing community of Bitcoin and Lightning Network innovators.
   language: 
-  en:
+  - language: en
   links:
     website: https://freerouting.africa/bitcoin-lightning-dev-bootcamp/
     replay_url:

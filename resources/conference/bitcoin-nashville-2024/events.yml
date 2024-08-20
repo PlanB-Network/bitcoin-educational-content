@@ -11,7 +11,7 @@
   price_dollars: 0
   description: The next bitcoin epoch begins in Nashville
   language: 
-  en:
+  - language: en
   links:
     website: https://b.tc/conference/2024
     replay_url:

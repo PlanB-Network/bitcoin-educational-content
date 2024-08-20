@@ -12,7 +12,7 @@
   price_dollars: 0
   description: Roy Sheinfeld, CEO di Breez, parlerà di Lightning Network, il layer 2 di Bitcoin.
   language: 
-  en:
+  - language: en
   links:
     website: https://lu.ma/o39hmet4
     replay_url:

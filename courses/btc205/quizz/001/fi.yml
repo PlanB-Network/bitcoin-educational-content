@@ -1,10 +1,10 @@
-question: Mikä on vaihtoehto täydelle KYC:lle Sveitsissä?
-answer: KYC light
-wrong_answers:
+kysymys: Mikä on vaihtoehto täydelle KYC:lle Sveitsissä?
+vastaus: KYC light
+väärät_vastaukset:
   - KYC heavy
   - KYC medium
   - KYC dark
-explanation: |
+selitys: |
   Sveitsissä vaihtoehto täydelle KYC:lle on "KYC light", joka mahdollistaa
 
 

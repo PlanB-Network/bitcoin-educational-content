@@ -1,0 +1,7 @@
+---
+termi: ECDSA
+---
+
+Lyhenne sanoista "Elliptic Curve Digital Signature Algorithm" eli elliptisen käyrän digitaalinen allekirjoitusmenetelmä. Se on digitaalinen allekirjoitusmenetelmä, joka perustuu elliptisen käyrän kryptografiaan (ECC). Se on DSA:n (Digital Signature Algorithm) variantti. ECDSA hyödyntää elliptisten käyrien ominaisuuksia tarjotakseen turvallisuustasoja, jotka ovat verrattavissa perinteisten julkisen avaimen algoritmien, kuten RSA:n, turvallisuustasoihin, mutta käyttäen huomattavasti pienempiä avaimen kokoja. ECDSA mahdollistaa avainparien (julkinen ja yksityinen avain) luomisen sekä digitaalisten allekirjoitusten luomisen ja varmentamisen.
+
+Bitcoinin kontekstissa ECDSA:a käytetään julkisten avainten johdattamiseen yksityisistä avaimista. Sitä käytetään myös transaktioiden allekirjoittamiseen, jotta voidaan täyttää skripti bitcoinien lukituksen avaamiseksi ja niiden käyttämiseksi. Bitcoinin ECDSA:ssa käytetty elliptinen käyrä on `secp256k1`, joka määritellään yhtälöllä $y^2 = x^3 + 7$. Tätä algoritmia on käytetty Bitcoinin perustamisesta lähtien vuonna 2009. Nykyään se jakaa paikkansa Schnorr-protokollan kanssa, toisen digitaalisen allekirjoitusmenetelmän, joka otettiin käyttöön Taprootin myötä vuonna 2021.

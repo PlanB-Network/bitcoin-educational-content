@@ -1,9 +1,9 @@
-question: Mikä oli "lohkosodan" lopputulos vuonna 2017?
-answer: Käyttäjät ja solmut hylkäsivät ehdotetun muutoksen lohkokoon suurentamiseksi ja aktivoivat päivityksen nimeltä SegWit
-wrong_answers:
+kysymys: Mikä oli "lohkosodan" lopputulos vuonna 2017?
+vastaus: Käyttäjät ja solmut hylkäsivät ehdotetun muutoksen lohkokoon suurentamiseksi ja aktivoivat päivityksen nimeltä SegWit
+väärät_vastaukset:
   - Käyttäjät ja solmut hyväksyivät ehdotetun muutoksen lohkokoon suurentamiseksi ja aktivoivat päivityksen nimeltä SegWit
   - Käyttäjät ja solmut hylkäsivät ehdotetun muutoksen lohkokoon suurentamiseksi eivätkä aktivoineet mitään päivityksiä
   - Käyttäjät ja solmut hyväksyivät ehdotetun muutoksen lohkokoon suurentamiseksi eivätkä aktivoineet mitään päivityksiä
-explanation: >-
+selitys: >-
   Vuoden 2017 "lohkosodassa" käyttäjät ja solmut voittivat hylkäämällä ehdotetun muutoksen lohkokoon suurentamiseksi ja aktivoimalla päivityksen nimeltä SegWit.
-reviewed: false
+arvioitu: false

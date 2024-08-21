@@ -1,9 +1,9 @@
-question: Mikä on keskimääräinen aika kahden lohkon välillä Bitcoin-protokollassa?
-answer: 10 minuuttia
-wrong_answers:
+kysymys: Mikä on keskimääräinen aika kahden lohkon välillä Bitcoin-protokollassa?
+vastaus: 10 minuuttia
+väärät_vastaukset:
   - 5 minuuttia
   - 15 minuuttia
   - 20 minuuttia
-explanation: >-
+selitys: >-
   Keskimäärin aika kahden lohkon välillä Bitcoin-protokollassa on 10 minuuttia.
-reviewed: false
+arvioitu: false

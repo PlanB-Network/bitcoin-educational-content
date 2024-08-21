@@ -1,0 +1,5 @@
+---
+termi: BIP68
+---
+
+Mahdollisti suhteellisten lukitusaikojen käytön `nSequence`-kentän kautta. Tämä sallii siirron määrittää suhteellisen viiveen ennen kuin se voidaan sisällyttää lohkoon. Tämä viive voidaan määritellä joko lohkojen lukumääränä tai 512 sekunnin kertoimena (eli reaaliaikana). Huomaa, että tämä uusi tulkinta `nSequence`-kentästä on voimassa vain, jos `nVersion`-kentän arvo on suurempi tai yhtä suuri kuin `2`. Tämä `nSequence`-kentän tulkinta tapahtuu Bitcoinin konsensus sääntöjen tasolla. Suhteellinen aikalukko asettaa viiveen alkamaan edellisen siirron hyväksymisestä, kun taas absoluuttinen aikalukko määrittää tarkan hetken, ennen jota siirtoa ei voida sisällyttää lohkoon. BIP68 otettiin käyttöön pehmeän haarukan kautta 4. heinäkuuta 2016, yhdessä BIP112:n ja BIP113:n kanssa, ja se aktivoitiin ensimmäistä kertaa käyttäen BIP9-menetelmää.

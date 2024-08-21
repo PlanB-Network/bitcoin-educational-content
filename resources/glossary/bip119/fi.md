@@ -1,0 +1,5 @@
+---
+termi: BIP119
+---
+
+Esittelee uuden operaatiokoodin nimeltä `OP_CHECKTEMPLATEVERIFY` (CTV). CTV mahdollistaisi ei-rekursiivisten sopimusten luomisen transaktioihin, jotta voidaan asettaa tiettyjä ehtoja sille, miten tietty kolikko voidaan käyttää, mukaan lukien tulevissa transaktioissa. Tarkemmin sanottuna, se mahdollistaisi ehtojen määrittelyn transaktion `scriptPubKey`-ulostuloille perustuen `scriptPubKey`-sisääntuloon, joka on käytetty UTXO:ssa. CheckTemplateVerify on suunniteltu olemaan yksinkertainen ja ilman dynaamista tilaa. Sen toteutuksen tavoitteena on laajentaa Bitcoinin skriptausmahdollisuuksia erilaisten sovellusten, kuten transaktioruuhkien hallinnan, ei-interaktiivisten maksukanavien, DLC:iden, maksualtaiden... helpottamiseksi. Tämä uusi operaatiokoodi esiteltäisiin korvaamaan `OP_NOP4`. Tämä muutos merkitsisi pehmeää haarukkaa.

@@ -1,10 +1,10 @@
-question: Mikä on yksi syy siihen, että Bitcoin kokee niin monta spekulatiivista kuplaa?
-answer: Koska Bitcoin on valuutta, jota todellisuudessa käytetään kaikkialla maailmassa.
-wrong_answers:
+kysymys: Mikä on yksi syy siihen, että Bitcoin kokee niin monta spekulatiivista kuplaa?
+vastaus: Koska Bitcoin on valuutta, jota todellisuudessa käytetään kaikkialla maailmassa.
+väärät_vastaukset:
   - Koska Bitcoinia ei todellisuudessa käytetä missään.
   - Koska Bitcoin on kupla, joka katoaa.
   - Koska Bitcoin ei ole taloudellisten syklien alainen.
-explanation: >-
+selitys: >-
   Bitcoin kokee monta spekulatiivista kuplaa, koska se on valuutta,
   jota todellisuudessa käytetään kaikkialla maailmassa.
-reviewed: false
+arvioitu: false

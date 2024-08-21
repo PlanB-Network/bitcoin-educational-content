@@ -1,0 +1,11 @@
+kysymys: Mikä on pääasiallinen ero coinjoinin ja hallinnoidun mikserin välillä?
+
+vastaus: Coinjoin mahdollistaa täyden kontrollin omien varojen yli.
+
+väärät_vastaukset:
+  - Coinjoin vaatii varojen hallinnan tilapäisen luovuttamisen.
+  - Mikserit ovat turvallisempia kuin coinjoinit.
+  - Mikserit tarjoavat parempaa sekoituslaatua.
+
+selitys: |
+  Miksereiden pääasiallinen haittapuoli verrattuna coinjoineihin on se, että ne vaativat käyttäjältä varojen hallinnan luovuttamisen sekoitusprosessin ajaksi, mikä altistaa heidät varkausriskille.

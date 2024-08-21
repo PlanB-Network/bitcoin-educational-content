@@ -1,0 +1,11 @@
+kysymys: Mikä ketjuanalyysin heuristiikkaa käytetään payjoin-siirrossa harhautuksena?
+
+vastaus: COH
+
+vaarat_vastaukset:
+  - Osoitteen uudelleenkäyttö
+  - Lompakon sormenjäljitys
+  - Version uudelleenkäyttö
+
+selitys: |
+  Kun analyytikko tutkii payjoin-siirtoa, hän uskoo kaikkien syötteiden tulevan samalta henkilöltä COH:n vuoksi. Tämä käsitys on kuitenkin virheellinen, sillä maksun vastaanottaja myös osallistuu syötteisiin yhdessä varsinaisen maksajan kanssa. Näin ollen ketjuanalyysi ohjautuu tulkintaan, joka osoittautuu vääräksi.

@@ -5,7 +5,7 @@ description: Miten osallistua opetussisällön arviointiin PlanB Networkissa?
 ![github](assets/cover.webp)
 
 ## TL;DR
-Jos haluat arvioida sisältöä PlanB Networkille, mene [kyseisen projektin sivulle](https://github.com/PlanB-Network/bitcoin-educational-content/projects?query=is%3Aopen) omalla kielelläsi. Valitse sisältö, jonka haluat arvioida, kommentoi ilmoittaaksesi ottavasi tehtävän hoitaaksesi, ja lähetä PR (pull request) suoritettuasi tehtävän kyseisen kielen haaraan.
+Jos haluat arvioida sisältöä PlanB Networkille, mene [kyseisen projektin sivulle](https://github.com/DecouvreBitcoin/sovereign-university-data/projects?query=is%3Aopen) omalla kielelläsi. Valitse sisältö, jonka haluat arvioida, kommentoi ilmoittaaksesi ottavasi tehtävän hoitaaksesi, ja lähetä PR (pull request) suoritettuasi tehtävän kyseisen kielen haaraan.
 
 Jos et ymmärtänyt yllä olevaa osaa, älä huoli, tämä opas on sinua varten!
 
@@ -32,27 +32,19 @@ Lisäksi, koska Découvre Bitcoin (DB) vastaa panosten arvioinnista ja me (DB) a
 Sinun ei tarvitse olla GitHub-asiantuntija arvioidaksesi sisältöä.
 Vaikka onkin aina parempi ymmärtää mitä teet (ja miksi), voit yksinkertaisesti noudattaa alla olevia ohjeita osallistuaksesi.
 
-Jos et kuitenkaan ole lainkaan tuttu Gitin ja GitHubin toiminnan kanssa ja haluaisit oppia lisää, voit tutustua johdantoartikkeliimme näistä työkaluista.
-
-https://planb.network/tutorials/others/basics-of-github
-
-
+Jos et kuitenkaan ole lainkaan tuttu Gitin ja GitHubin toiminnan kanssa ja haluaisit oppia lisää, voit tutustua [johdantoartikkeliimme näistä työkaluista](https://planb.network/tutorials/others/basics-of-github).
 
 ## 1. Luo tili
-* Luo tili GitHubiin aloittaaksesi osallistumisen. Jos tarvitset ohjeita tilin luomiseen GitHubissa, meillä on myös yksityiskohtainen opas.
-
-https://planb.network/tutorials/others/create-github-account
-
-
+* Luo tili GitHubiin aloittaaksesi osallistumisen. Jos tarvitset ohjeita tilin luomiseen GitHubissa, meillä on myös [yksityiskohtainen opas](https://planb.network/tutorials/others/create-github-account).
 ## **2. Mene kieliprojektisi sivulle**
-* [Projektisivu](https://github.com/PlanB-Network/bitcoin-educational-content/projects?query=is%3Aopen) sisältää kielelläsi olevaa sisältöä näytettynä Kanban-taululla.
+* [Projektisivu](https://github.com/DecouvreBitcoin/sovereign-university-data/projects?query=is%3Aopen) sisältää kielelläsi olevaa sisältöä näytettynä Kanban-taululla.
 * Etsi kortteja "Review Needed" -sarakkeesta (katso **A**). Nämä ovat tehtäviä, joita voit arvioida.
 * Jokainen kortti sisältää tiedot (katso **B**):
 	- **Sisällön tyyppi**: Kurssi, opastus tai verkkosivusto
 	- **Sisällön vaikeus**
 	- **Kiireellisyys**
 	- **Sanamäärä**
-	- **Liitetty palkkio**: Perustuu sisällön ominaisuuksiin ja käännöksen tarkkuuteen (katso [Palkkio-osa](https://github.com/PlanB-Network/bitcoin-educational-content?tab=readme-ov-file#sat-reward))
+	- **Liitetty palkkio**: Perustuu sisällön ominaisuuksiin ja käännöksen tarkkuuteen (katso [Palkkio-osa](https://github.com/DecouvreBitcoin/sovereign-university-data?tab=readme-ov-file#sat-reward))
 ![arvostelu](assets/1.webp)
 ## **3. Etsi arvosteltavaa sisältöä**
 * "Tarvitsee arvostelua" -sarakkeessa, klikkaa korttia.

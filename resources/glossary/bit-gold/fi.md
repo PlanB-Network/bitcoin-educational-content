@@ -1,0 +1,5 @@
+---
+termi: BIT GOLD
+---
+
+Bit gold on Nick Szabon vuonna 1998 konseptoima ja vuonna 2005 julkisesti kuvailema hajautettu digitaalinen valuuttajärjestelmä. Bit gold suunniteltiin tuottamaan ja vaihtamaan virtuaalista resurssia nimeltä bit gold. Tämä järjestelmä ei perustunut mihinkään fyysiseen hyödykkeeseen, vaan pyrki luomaan väärentämättömän niukkuuden muodon. Bit gold -protokolla perustui valuutan luomiseen työtodistuksen (proof of work) avulla, jossa bit gold -kappaleita luotiin tietokoneiden laskentatehon avulla, muodostaen näin työtodistusten ketjun. Jokainen työtodistus varustettiin aikaleimalla ja lisättiin omaisuusrekisteriin. Bit goldin omistuksen vahvistaminen ja siirto suoritettiin julkisen rekisterin kautta, jossa käyttäjät tunnistettiin julkisilla avaimilla. Bit gold jäi konseptuaaliseksi vaiheeksi eikä sitä koskaan toteutettu. Tämä järjestelmä on yksi Bitcoinin edeltäjistä, b-moneyn ja RPoW:n ohella, mutta Satoshi ei näyttänyt olevan tietoinen sen olemassaolosta ennen Bitcoinin luomista. Sitä mainittiin myöhemmin Bitcoinin verkkosivustolla ja foorumilla.

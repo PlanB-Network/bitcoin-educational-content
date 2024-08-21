@@ -1,0 +1,13 @@
+kysymys: Mikä termi kuvaa suojaa, jonka coinjoin tarjoaa kolikon aikaisempien transaktioiden analysointia vastaan?
+
+vastaus: Retrospektiivinen anonset.
+
+väärät_vastaukset:
+  - Prospektiivinen anonset.
+  - Jäljitettävyyden vastustus.
+  - Ajallinen yksityisyys.
+
+selitys: |
+  Suoja analyysiltä nykyhetkestä menneisyyteen on sitä, mitä kutsutaan retrospektiiviseksi anonsetiksi.
+
+arvioitu: false

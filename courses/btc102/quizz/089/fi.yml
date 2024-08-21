@@ -1,10 +1,10 @@
-question: Mikä on yksi teknologisesti pätevän Bitcoin-käyttäjän ominaisuus?
-answer: He ymmärtävät hyvin teknologioita, mukaan lukien kuumat ja kylmät Bitcoin-lompakot sekä Lightning Network.
-wrong_answers:
+kysymys: Mikä on yksi teknologisesti pätevän Bitcoin-käyttäjän ominaisuus?
+vastaus: He ymmärtävät hyvin teknologioita, mukaan lukien kuumat ja kylmät Bitcoin-lompakot sekä Lightning Network.
+väärät_vastaukset:
   - He käyttävät Bitcoinia vain pitkäaikaisena sijoituksena.
   - He käyttävät Bitcoinia vain päivittäisissä transaktioissa.
   - He käyttävät Bitcoinia vain vaihtoalustoilla.
-explanation: |
+selitys: |
   Teknologisesti pätevät Bitcoin-käyttäjät ymmärtävät Bitcoin-transaktioihin liittyvät teknologiat,
   mukaan lukien erityyppiset lompakot ja Lightning Network.
-reviewed: false
+arvioitu: false

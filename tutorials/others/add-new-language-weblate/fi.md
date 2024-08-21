@@ -18,21 +18,13 @@ Ensimmäinen askel on tarkistaa, onko kielesi jo niiden joukossa, joita olemme t
 ![language](assets/01.webp)
 - `Website frontend element` -valikosta löydät listan kaikista kielistä, joita olemme työstämässä:
 ![language](assets/02.webp)
-Jos kielesi on tässä listassa, sinun ei tarvitse lisätä sitä uudelleen. Osallistuaksesi olemassa olevan kielen kääntämiseen, olemme tehneet toisen oppaan, jonka voit tutkia.
-
-https://planb.network/tutorials/others/translate-front-weblate
-
-
+Jos kielesi on tässä listassa, sinun ei tarvitse lisätä sitä uudelleen. Osallistuaksesi olemassa olevan kielen kääntämiseen, olemme tehneet [toisen oppaan, jonka voit tutkia](https://planb.network/tutorials/others/translate-front-weblate).
 
 Jos kielesi ei ole siellä, seuraa alla olevaa opasta lisätäksesi sen.
 
 ## Uuden Kielen Lisääminen PlanB-verkkoon
 
-- Ensimmäinen askel on luoda tili Weblatessa. Jos et tiedä, miten tämä tehdään, voit seurata yksityiskohtaista opastamme.
-
-https://planb.network/tutorials/others/translate-front-weblate
-
-
+- Ensimmäinen askel on luoda tili Weblatessa. Jos et tiedä, miten tämä tehdään, voit [seurata yksityiskohtaista opastamme](https://planb.network/tutorials/others/translate-front-weblate).
 - Kun tilisi on luotu, siirry `Website frontend element` -valikkoon ja valitse `Languages`-välilehti:
 ![language](assets/03.webp)
 - Klikkaa `+`-kuvaketta ikkunan vasemmalla puolella:
@@ -44,12 +36,8 @@ https://planb.network/tutorials/others/translate-front-weblate
 - Tämän jälkeen saavut kielesi käännösten hallintasivulle:
 ![language](assets/07.webp)
 - Aloittaaksesi välittömästi frontendin kääntämisen, klikkaa `Translate`-painiketta: ![language](assets/08.webp)
-Tutustuaksesi käännösprosessiin, tutki omistettua opastamme aiheesta!
+Tutustuaksesi käännösprosessiin, tutki [omistettua opastamme aiheesta](https://planb.network/tutorials/others/translate-front-weblate)!
 
-Onnittelut, olet aloittanut prosessin kääntää PlanB-verkkosivuston uudelle kielelle! Voit aloittaa kääntämällä koko frontendin Weblaten kautta.
-
-https://planb.network/tutorials/others/translate-front-weblate
-
- Tämä sisältää kaikki verkkosivuston tekstit, lukuun ottamatta koulutussisältöä (kurssit, opastukset...), johon käytämme toista, osittain automatisoitua Humans x AI -menetelmää.
+Onnittelut, olet aloittanut prosessin kääntää PlanB-verkkosivuston uudelle kielelle! Voit aloittaa kääntämällä koko frontendin Weblaten kautta. Tämä sisältää kaikki verkkosivuston tekstit, lukuun ottamatta koulutussisältöä (kurssit, opastukset...), johon käytämme toista, osittain automatisoitua Humans x AI -menetelmää.
 Seuraavaksi voit ottaa yhteyttä @asi0_flammeus Telegramissa, joka auttaa sinua tarkastelemaan automaattisesti käännetyjä kursseja heidän mallillaan. Mikäli nämä sisällöt katsotaan tyydyttäviksi, voit edetä tarkastelemaan kaikkea muuta sivuston sisältöä (kursseja, oppaita...). Kun nämä vaiheet on suoritettu, voimme harkita uuden kielen virallista integroimista PlanB Network -verkkosivustolle, mikä mahdollistaa kaikkien kielisi puhujien pääsyn laadukkaaseen sisältöön Bitcoinista ilman esteitä.
 Suuri kiitos arvokkaasta panoksestasi! :)

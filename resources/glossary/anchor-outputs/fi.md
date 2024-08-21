@@ -1,0 +1,5 @@
+---
+termi: ANCHOR OUTPUTS
+---
+
+Ehdotus, jonka tavoitteena on parantaa transaktiomaksujen hallintaa Lightning-kanavissa. Jokaisen tilamuutoksen yhteydessä Lightning-kanavassa osapuolet luovat ja allekirjoittavat uuden sitoumustapahtuman, joka heijastaa varojen uutta jakautumista kanavassa. Ongelma tässä mekanismissa piilee transaktiomaksujen määrittämisessä niiden luomishetkellä. Todellakin, transaktiomaksut Bitcoin-verkossa ovat merkittävien vaihteluiden alaisia, sekä ylös- että alaspäin. Jos viimeiselle sitoumustapahtumalle asetetut maksut ovat riittämättömät kanavan yksipuolisen sulkemisen aikana, ei ainoastaan transaktion vahvistuminen vie huomattavan paljon aikaa, mutta aikalisämekanismit (timelocks) saattavat myös mahdollistaa varojen varastamisen. Anchor outputs varaa pienen osan varoista sitoumustapahtumassa tulevia maksuja varten. Verkon ruuhkautuessa ja maksujen noustessa anchor outputs mahdollistaa transaktiomaksujen muuttamisen sitoumustapahtuman luomisen jälkeen, varmistaen näin Lightning-kanavan riittävän nopean sulkemisen.

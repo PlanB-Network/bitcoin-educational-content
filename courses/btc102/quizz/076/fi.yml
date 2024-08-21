@@ -1,8 +1,8 @@
-question: Mikä on yleinen lähestymistapa Bitcoinien kerääjälle käyttää Bitcoinia?
-answer: Vertaisverkossa
-wrong_answers:
+kysymys: Mikä on yleinen lähestymistapa Bitcoinien kerääjälle käyttää Bitcoinia?
+vastaus: Vertaisverkossa
+väärät_vastaukset:
   - Välittäjän kautta
   - Myymällä tavaroita tai palveluita
   - Osallistumalla Bitcoin-ekosysteemiin
-explanation: |
+selitys: |
   Yleinen lähestymistapa Bitcoinien kerääjälle käyttää Bitcoinia on vertaisverkossa. Tämä tarkoittaa, että he voivat ostaa Bitcoinia suoraan käteisellä ystävien tai Bitcoin-yhteisön jäsenten kanssa.

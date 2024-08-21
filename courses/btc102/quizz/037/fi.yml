@@ -1,11 +1,11 @@
-question: Mikä on Bitcoin kyberpunk-liikkeen mukaan?
-answer: Käteisen sähköinen vastine
-wrong_answers:
+kysymys: Mikä on Bitcoin kyberpunk-liikkeen mukaan?
+vastaus: Käteisen sähköinen vastine
+vaarat_vastaukset:
   - Digitaalisen kullan muoto
   - Uudenlainen luottokortti
   - Eräänlainen kryptovaluutta
-explanation: |
+selitys: |
   Luvussa mainitaan, että kyberpunk-näkökulmasta Bitcoin vastustaa
   käteisettömää yhteiskuntaa. Se mahdollistaa täysin yksityisten ja välittäjättömien
   digitaalisten rahoitustransaktioiden luomisen. Kyberpunk-liikkeelle Bitcoin on käteisen sähköinen vastine.
-reviewed: false
+arvioitu: false

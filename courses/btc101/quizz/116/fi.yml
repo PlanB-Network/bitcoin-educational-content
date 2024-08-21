@@ -1,9 +1,9 @@
-question: Mikä on ensimmäinen kirjattu Bitcoin-siirto?
-answer: 10 BTC:n siirto Satoshi Nakamoton ja Hal Finneyn välillä
-wrong_answers:
+kysymys: Mikä on ensimmäinen kirjattu Bitcoin-siirto?
+vastaus: 10 BTC:n siirto Satoshi Nakamoton ja Hal Finneyn välillä
+vaarat_vastaukset:
   - 10 000 BTC:n siirto kahdesta pizzasta
   - 1 BTC:n siirto Satoshi Nakamoton ja Hal Finneyn välillä
   - 10 000 BTC:n siirto Laszlo Hanyeczin ja Hal Finneyn välillä
-explanation: |
+selitys: |
   Ensimmäinen kirjattu Bitcoin-siirto oli 10 BTC:n siirto Satoshi Nakamoton ja Hal Finneyn välillä.
-reviewed: false
+arvioitu: true

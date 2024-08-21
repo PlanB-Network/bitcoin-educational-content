@@ -1,13 +1,13 @@
-question: Miten osoitteita käytetään UTXOjen lukitsemiseen?
+kysymys: Miten osoitteita käytetään UTXOjen lukitsemiseen?
 
-answer: Ne sisällytetään ScriptPubKeyhin
+vastaus: Ne sisällytetään ScriptPubKeyhin
 
-wrong_answers:
+väärät_vastaukset:
   - Ne sisällytetään ScriptSig:iin
   - Ne sisällytetään coinbaseen.
   - Niitä ei sisällytetä mihinkään.
 
-explanation: |
+selitys: |
   Kun maksu suoritetaan, transaktio luo uuden UTXOn lähtökohtana käytetyistä UTXOista syötteinä. Tähän lähtökohtaan sijoitetaan skripti, joka määrittelee, miten tätä UTXOa voidaan käyttää myöhemmin. Tätä skriptiä kutsutaan ScriptPubKeyksi. Vastaanottava osoite sisällytetään tähän skriptiin.
 
-reviewed: false
+arvioitu: false

@@ -1,0 +1,7 @@
+---
+termi: Skaalautuvuus
+---
+
+Viittaa Bitcoinin kykyyn käsitellä kasvavaa transaktiomäärää säilyttäen hyväksyttävät suorituskykytasot. Bitcoin kohtaa synnynnäisiä teknisiä rajoituksia, kuten lohkon koon, aikavälin lohkojen välillä ja sen tosiasian, että transaktiota pidetään peruuttamattomana vasta useiden vahvistusten jälkeen. Nämä rajoitukset estävät Bitcoinia käsittelemästä tehokkaasti rajatonta määrää transaktioita. Kun lohkojen tilan kysyntä kasvaa, käyttäjien on pakko nostaa tarjoamiaan maksuja saadakseen transaktionsa käsiteltyä. Skaalautuvuus, tarkoittaen Bitcoinin kykyä käsitellä transaktiomäärän kasvua, voidaan parantaa joko suorilla muutoksilla protokollaan tai ulkoisilla ratkaisuilla kuten Lightning Network. Skaalautuvuuden kysymys on aina ollut kiivaiden keskustelujen ytimessä yhteisössä. Ensimmäinen yritys kasvattaa lohkon kokoa tapahtui lokakuussa 2010, kun [Jeff Garzik ehdotti korjausta](https://bitcointalk.org/index.php?topic=1347.0). Tämä skaalautuvuuden aihe johti erityisesti lohkokoon sotaan vuosien 2015 ja 2017 välillä.
+
+> ► *Termi "scalabilité" on anglismi. Englanninkielisen termin "scalability" oikea käännös on "évolutivité" tai "passage à l'échelle". Kuitenkin yhteisön sisällä on yleisesti hyväksyttyä käyttää suoraan termiä "scalabilité".*

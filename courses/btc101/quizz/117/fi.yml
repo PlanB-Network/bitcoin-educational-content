@@ -1,9 +1,9 @@
-question: Milloin Satoshi Nakamoto katosi?
-answer: Vuonna 2010
-wrong_answers:
+kysymys: Milloin Satoshi Nakamoto katosi?
+vastaus: Vuonna 2010
+vaarat_vastaukset:
   - Vuonna 2008
   - Vuonna 2009
   - Vuonna 2023
-explanation: |
+selitys: |
   Satoshi Nakamoto katosi vuonna 2010, jättäen luomuksensa yhteisön käsiin.
-reviewed: false
+arvioitu: true

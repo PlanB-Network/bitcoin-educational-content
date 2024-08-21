@@ -1,10 +1,10 @@
-question: Mikä on hyperinflaation toinen vaihe?
-answer: Valuutan romahdus & hinnannousu.
-wrong_answers:
+kysymys: Mikä on hyperinflaation toinen vaihe?
+vastaus: Valuutan romahdus & hinnannousu.
+väärät_vastaukset:
   - Luottamuksen menetys.
   - Rahanpainamisen noidankehä.
   - Uuden valuutan synty.
-explanation: |
+selitys: |
   Hyperinflaation toinen vaihe on valuutan romahdus & hinnannousu,
   juuri luottamuksen menetyksen vaiheen jälkeen.
-reviewed: false
+arvioitu: true

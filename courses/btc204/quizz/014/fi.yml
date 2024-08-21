@@ -1,9 +1,9 @@
-question: Mikä on Bitcoin-järjestelmän yksityisyyden malli?
-answer: Transaktiot ovat julkisia, mutta käyttäjien henkilöllisyys ei ole tiedossa.
-wrong_answers:
+kysymys: Mikä on Bitcoin-järjestelmän yksityisyyden malli?
+vastaus: Transaktiot ovat julkisia, mutta käyttäjien henkilöllisyys ei ole tiedossa.
+väärät_vastaukset:
   - Vain Satoshi Nakamoto pääsee käsiksi transaktiotietoihin.
   - Transaktiot ovat salattuja ja näkymättömiä verkossa.
   - Vain hallitukset pääsevät käsiksi transaktiotietoihin.
-explanation: |
+selitys: |
   Bitcoinin tapauksessa, koska tiedonkulku transaktioiden ja julkisen alueen välillä ei katkea, yksityisyyden malli perustuu käyttäjän henkilöllisyyden ja transaktioiden erottamiseen.
-reviewed: false
+arvioitu: false

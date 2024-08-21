@@ -1,10 +1,10 @@
-question: Mikä on yleinen huijaus liittyen online-lahjoituksiin kryptoalalla?
-answer: Tarjoukset, jotka väittävät kaksinkertaistavansa tai moninkertaistavansa lähettämäsi bitcoinit.
-wrong_answers:
+kysymys: Mikä on yleinen huijaus liittyen online-lahjoituksiin kryptoalalla?
+vastaus: Tarjoukset, jotka väittävät kaksinkertaistavansa tai moninkertaistavansa lähettämäsi bitcoinit.
+väärät_vastaukset:
   - Tarjoukset, jotka väittävät kaksinkertaistavansa tai moninkertaistavansa fyysiset tavarasi.
   - Tarjoukset, jotka väittävät kaksinkertaistavansa tai moninkertaistavansa fiat-valuuttasi.
   - Tarjoukset, jotka väittävät kaksinkertaistavansa tai moninkertaistavansa ohjelmistotuotteesi.
-explanation: |
+selitys: |
   Klassinen esimerkki tämän tyyppisestä huijauksesta on tarjous, joka väittää kaksinkertaistavansa
   tai moninkertaistavansa lähettämäsi bitcoinit. On tärkeää ymmärtää, että oikotietä rikastumiseen ei ole olemassa.
-reviewed: false
+arvioitu: false

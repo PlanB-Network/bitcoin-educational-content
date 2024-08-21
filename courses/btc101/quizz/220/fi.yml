@@ -1,9 +1,9 @@
-question: Mitä teksti vihjaa Bitcoinin oppimisen tahdista?
-answer: Kaiken omaksuminen kerralla on monimutkaista, joten ota aikasi
-wrong_answers:
+kysymys: Mitä teksti vihjaa Bitcoinin oppimisen tahdista?
+vastaus: Kaiken omaksuminen kerralla on monimutkaista, joten ota aikasi
+vaarat_vastaukset:
   - Kaiken oppiminen kerralla on helppoa
   - Kaiken Bitcoinista oppiminen on mahdotonta
   - Kaiken Bitcoinista oppiminen on tarpeetonta
-explanation: >-
+selitys: >-
   Teksti vihjaa, että Bitcoinin parissa on niin paljon tutkittavaa, että kaiken omaksuminen kerralla on monimutkaista, joten kannattaa ottaa aikaa.
-reviewed: false
+arvioitu: false

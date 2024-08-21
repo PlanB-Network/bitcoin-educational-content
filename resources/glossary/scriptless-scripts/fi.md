@@ -1,0 +1,5 @@
+---
+termi: SCRIPTLESS SCRIPTS
+---
+
+Alun perin Andrew Poelstran kehittämä tämä konsepti mahdollistaa älykkäiden sopimusten suorittamisen ilman, että sopimuksen logiikkaa nimenomaisesti paljastetaan Bitcoin-lohkoketjussa. Kuten nimi "scriptless scripts" vihjaa, idea perustuu skriptien (tai sopimusten) suorittamiseen ilman skriptien nimenomaista käyttöä. Nämä sopimukset hyödyntävät Schnorr-allekirjoitusten ominaisuuksia, jotka mahdollistavat *Adaptor Signatureiden* käytön, erityisesti *Atomic Swap* -toimintojen suorittamiseen. Sopimusehdot sovelletaan ja suoritetaan off-chain toimesta osapuolten toimesta, jotka ovat ainoat, jotka tietävät ehdot. Toisin kuin perinteiset älykkäät sopimukset, *Scriptless Scripts* minimoivat jalanjälkensä lohkoketjussa, mikä vähentää toiminnan kustannuksia. Nämä sopimukset ovat myös huomaamattomampia kuin perinteiset älykkäät sopimukset, jotka jättävät jälkiä lohkoketjuun. Näin ollen ne muistuttavat tavallisia transaktioita, mikä lisää niiden anonyymiysjoukkoa.

@@ -1,9 +1,9 @@
-question: Mikä on kylmän lompakon ensisijainen tarkoitus usein Bitcoinia käyttävälle henkilölle?
-answer: Säilyttää bitcoineja turvallisesti pitkällä aikavälillä.
-wrong_answers:
+kysymys: Mikä on kylmän lompakon ensisijainen tarkoitus usein Bitcoinia käyttävälle henkilölle?
+vastaus: Säilyttää bitcoineja turvallisesti pitkällä aikavälillä.
+väärät_vastaukset:
   - Lähettää ja vastaanottaa bitcoineja säännöllisesti päivittäiseen käyttöön.
   - Käydä kauppaa bitcoineilla vaihtoalustalla.
   - Louhia uusia bitcoineja.
-explanation: |
+selitys: |
   Kylmä lompakko on Bitcoin-lompakon tyyppi, joka ei ole yhteydessä internetiin, mikä tekee siitä vähemmän alttiin hakkeroinnille ja varkauksille. Sitä käytetään tyypillisesti säilyttämään bitcoineja, joita ei tarvita päivittäisissä transaktioissa.
-reviewed: false
+arvioitu: false

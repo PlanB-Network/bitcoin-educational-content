@@ -1,0 +1,5 @@
+---
+termi: RIPEMD160
+---
+
+Lyhenne sanoista *Research and development in Advanced Communications technologies in Europe Integrity Primitives Evaluation Message Digest 160*. Kyseessä on kryptografinen hajautusfunktio, joka tuottaa 160-bittisen tiivisteen mistä tahansa syötteestä. Sitä käytetään Bitcoinissa muuntamaan julkinen avain vastaanotto-osoitteeksi Legacy- ja SegWit v0 -standardeissa (SegWit v1:ssä julkista avainta ei hajauteta). Prosessi alkaa soveltamalla `SHA256` hajautusfunktiota julkiseen avaimen, minkä jälkeen tulokseen sovelletaan `RIPEMD160`. Tämän kahden erillisen hajautusfunktion yhdistelmää kutsutaan `HASH160`:ksi Bitcoinin kontekstissa. `RIPEMD160`:ää käytetään myös deterministisissä ja hierarkkisissa lompakoissa avainten sormenjälkien laskemiseen. Erityisesti `HASH160`:ää käytetään laskemaan vanhemman avaimen sormenjälki, joka sitten sisällytetään laajennetun avaimen (xpub, xprv...) metadataan.

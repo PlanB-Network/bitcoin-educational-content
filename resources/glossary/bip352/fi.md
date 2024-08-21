@@ -1,0 +1,7 @@
+---
+termi: BIP352
+---
+
+Ehdotus parannukseksi, jonka tekivät Josibake ja Ruben Somsen, esittelee Hiljaiset Maksut, menetelmän staattisten Bitcoin-osoitteiden käyttämiseen maksujen vastaanottamiseen ilman osoitteen uudelleenkäyttöä, vuorovaikutusta ja ilman näkyvää on-chain-linkkiä eri maksujen välillä. Tämä tekniikka poistaa tarpeen luoda uusia, käyttämättömiä vastaanotto-osoitteita jokaiselle transaktiolle, välttäen siten tavalliset vuorovaikutukset Bitcoinissa, joissa vastaanottajan on tarjottava uusi osoite maksajalle.
+
+Tässä järjestelmässä maksaja käyttää vastaanottajan julkista avainta ja omaa yksityistä avaintaan luodakseen tuoreen osoitteen jokaiselle maksulle. Vain vastaanottaja, omalla yksityisellä avaimellaan, voi laskea yksityisen avaimen, joka vastaa tätä osoitetta. ECDH (*Elliptic-Curve Diffie-Hellman*), kryptografinen avaintenvaihtoalgoritmi, käytetään yhteisen salaisuuden luomiseen, jota sitten käytetään vastaanotto-osoitteen ja yksityisen avaimen johdattamiseen (vain vastaanottajan puolella). Jotta vastaanottajat voivat tunnistaa heille tarkoitetut Hiljaiset Maksut, heidän on skannattava lohkoketju ja tutkittava jokaista transaktiota, joka vastaa Hiljaisten Maksujen kriteerejä. Toisin kuin BIP47, joka käyttää ilmoitustransaktiota maksukanavan perustamiseen, Hiljaiset Maksut poistavat tämän vaiheen, säästäen transaktion. Kuitenkin kompromissina on, että vastaanottajan on skannattava kaikki potentiaaliset transaktiot määrittääkseen ECDH:n soveltamisen kautta, onko ne osoitettu heille.

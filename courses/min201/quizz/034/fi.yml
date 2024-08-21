@@ -1,10 +1,10 @@
-question: Mikä on Bitcoin-yhteisön tavoite verkonhallinnan suhteen?
-answer: Vahvistaa verkon jakautumista, sensuurin vastustuskykyä ja anti-haurautta.
-wrong_answers:
+kysymys: Mikä on Bitcoin-yhteisön tavoite verkonhallinnan suhteen?
+vastaus: Vahvistaa verkon jakautumista, sensuurin vastustuskykyä ja anti-haurautta.
+väärät_vastaukset:
   - Bitcoinin hinnan nostaminen.
   - Transaktioiden nopeuttaminen.
   - Louhintavaikeuden lisääminen.
-explanation: |
+selitys: |
   Bitcoin-yhteisö pyrkii jatkuvasti vahvistamaan verkon jakautumista,
 
   sensuurin vastustuskykyä ja anti-haurautta. Tämä on linjassa

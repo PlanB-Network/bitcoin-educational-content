@@ -1,0 +1,5 @@
+---
+termi: NORMAALI JOHDANNAINEN
+---
+
+Prosessi, jossa HD-lompakoissa luodaan alijoukon avaimia. Normaali johdannainen käyttää syötteenä vanhemman julkista avainta `HMAC-SHA512`-funktiolle, mahdollistaen alijoukon julkisten avainten luomisen vanhemman julkisesta avaimesta ja vanhemman ketjukoodista. Prosessiin kuuluu vanhemman julkisen avaimen ja indeksin, joka on pienempi kuin $2^{31}$, yhdistäminen, minkä jälkeen sovelletaan `HMAC-SHA512`-funktiota vanhemman ketjukoodin kanssa. Tulos jaetaan kahteen osaan: ensimmäiset 256 bittiä lisätään vanhemman yksityiseen avaimen saadakseen alijoukon yksityisen avaimen, kun taas jäljelle jäävät 256 bittiä muodostavat alijoukon ketjukoodin. Tämä menetelmä varmistaa, että laajennettua julkista avainta voidaan käyttää alijoukon julkisten avainten johtamiseen. Standardissa johdannaisessa normaalia johdannaista käytetään kaikilla johdannaisuuden tasoilla alkaen tilin syvyydestä. Johdannaispolkujen notaatiossa normaali johdannainen tunnistetaan, kun indeksissä on vain numero ilman heittomerkkiä `'`.

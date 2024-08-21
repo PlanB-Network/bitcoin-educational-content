@@ -1,10 +1,10 @@
-question: Miksi Bitcoinia pidetään tehottomana välineenä rahanpesussa?
-answer: Koska se on täysin jäljitettävissä oleva tietokanta.
-wrong_answers:
+kysymys: Miksi Bitcoinia pidetään tehottomana välineenä rahanpesussa?
+vastaus: Koska se on täysin jäljitettävissä oleva tietokanta.
+väärät_vastaukset:
   - Koska sitä ei hyväksytä laajalti.
   - Koska sen arvo on erittäin epävakaa.
   - Koska sitä ei ole säännelty.
-explanation: |
+selitys: |
   Bitcoin, ollessaan täysin jäljitettävissä oleva tietokanta, tekee rahanpesusta erityisen
 
 

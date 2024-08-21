@@ -1,0 +1,5 @@
+---
+termi: TALOUDELLINEN ENEMMISTÖ
+---
+
+Viittaa suurimpaan osaan taloudellisesta toiminnasta, joka liittyy bitcoin-valuuttaan ja jota tuottavat kauppiaat. Kauppias määritellään minä tahansa fyysisenä tai oikeudellisena yksikkönä, joka on valmis vaihtamaan tavaran tai palvelun BTC:hen. Nämä kauppiaat, joihin kuuluvat yritykset, käyttäjät, vaihtoalustat ja louhijat, vaihtelevat kooltaan ja taloudelliselta vaikutusvallaltaan. Jotkut ovat merkittäviä toimijoita, jotka tuottavat huomattavaa taloudellista toimintaa, kun taas toiset ovat vaatimattomampia. Taloudellinen enemmistö määritellään siis niiden toimijoiden perusteella, joiden yhdistetty taloudellinen toiminta edustaa hallitsevaa osuutta tässä valuutassa. Tällä enemmistöllä on vaikutusta konsensus-sääntöihin, erityisesti haarautumistilanteessa (fork).

@@ -1,0 +1,5 @@
+---
+termi: THE DAO
+---
+
+Projekti käynnistettiin vuonna 2016 Ethereumissa, tavoitteena luoda autonomisesti toimiva sijoitusrahasto, jota hallinnoivat älykkäät sopimukset. Vaikka se liitetään ensisijaisesti Ethereumiin, The DAO:lla oli merkittävä vaikutus Bitcoinin kehitykseen. Kesäkuussa 2016 The DAO joutui massiivisen hakkeroinnin kohteeksi. Vastauksena Ethereum-yhteisö toteutti kovan haaran (hardfork), joka osoittautui äänekkääksi epäonnistumiseksi. Tämä tapahtuma vahvisti Bitcoinin lohkokoon sodan aikana konservatiivisten pienten lohkojen kantoja. He käyttivät tätä tapahtumaa argumenttina nopeita muutoksia vastaan Bitcoin-protokollassa, joita suurten lohkojen kannattajat ajoivat, ja vastustivat kovien haarautumisten (hardforks) ideaa, kuten tapahtui Ethereumissa The DAO -hakkeroinnin jälkeen.

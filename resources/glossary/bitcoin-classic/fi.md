@@ -1,0 +1,5 @@
+---
+termi: BITCOIN CLASSIC
+---
+
+Ehdotus protokollahaaraksi, joka käynnistettiin tammikuussa 2016 Bitcoin XT:n hylkäämisen jälkeen. Sen tavoitteena oli kasvattaa lohkon koon raja 1 Mt:sta 2 Mt:aan BIP109:n avulla, lähestymistapa, jota pidettiin maltillisempana verrattuna Bitcoin XT:hen, joka ehdotti paljon suurempaa kasvua (8 Mt + kaksinkertaistuminen joka toinen vuosi). Tämän aloitteen takana olivat kehittäjät Gavin Andresen ja Jeff Garzik, ja sitä tuki suuria yrityksiä ekosysteemissä, kuten Coinbase. Bitcoin Classic syntyi Blocksize Warin intensiivisen kärjistymisen kontekstissa ja luokiteltiin big blockers -leiriin. Vaikka Bitcoin Classic houkutteli huomiota ja tukea monilta alan toimijoilta, sen aktivointimekanismi, joka vaati 75% tuen louhijoilta, oli kiistanalainen ja lopulta edesauttoi sen epäonnistumista.

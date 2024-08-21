@@ -1,0 +1,9 @@
+---
+termi: PEER DISCOVERY
+---
+
+Prosessi, jonka avulla solmut Bitcoin-verkossa muodostavat yhteyksiä muihin solmuihin saadakseen tietoa. Kun Bitcoin-solmu käynnistetään ensimmäisen kerran, sillä ei ole tietoa verkon muista solmuista. Sen on kuitenkin muodostettava yhteyksiä synkronoidakseen blockchainin kanssa, jolla on eniten kumuloitunutta työtä. Useita mekanismeja käytetään näiden vertaissolmujen löytämiseen, etusijajärjestyksessä:
+* Solmu aloittaa konsultoimalla paikallista `peers.dat`-tiedostoaan, joka tallentaa tietoa solmuista, joiden kanssa se on aiemmin vuorovaikuttanut. Jos solmu on uusi, tämä tiedosto on tyhjä, ja prosessi siirtyy seuraavaan vaiheeseen;
+* Jos `peers.dat`-tiedostossa ei ole tietoa (mikä on normaalia juuri käynnistetylle solmulle), solmu suorittaa DNS-kyselyitä DNS-seedeihin. Nämä palvelimet tarjoavat listan IP-osoitteista, jotka oletettavasti ovat aktiivisia solmuja yhteyksien muodostamiseksi. DNS-seedien osoitteet on kovakoodattu Bitcoin Core -koodiin. Tämä vaihe on yleensä riittävä vertaissolmujen löytämisen viimeistelyyn;
+* Jos DNS-seedit eivät vastaa 60 sekunnin kuluessa, solmu voi kääntyä seed-solmujen puoleen. Nämä ovat julkisia Bitcoin-solmuja, jotka on listattu suoraan Bitcoin Coren lähdekoodiin integroidussa staattisessa listassa, jossa on lähes tuhat merkintää. Uusi solmu käyttää tätä listaa muodostaakseen ensimmäisen yhteyden verkkoon ja saadakseen IP-osoitteita muista solmuista;
+* Erittäin epätodennäköisessä tapauksessa, jossa kaikki edellä mainitut menetelmät epäonnistuvat, solmun operaattorilla on aina mahdollisuus manuaalisesti lisätä solmujen IP-osoitteita muodostaakseen ensimmäisen yhteyden.

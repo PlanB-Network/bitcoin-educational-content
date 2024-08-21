@@ -1,10 +1,10 @@
-question: Mikä on todennäköisyys, että joku arvaa vahingossa 12 tai 24 sanan listasi Bitcoin-lompakossa?
-answer: Äärimmäisen pieni
-wrong_answers:
+kysymys: Mikä on todennäköisyys, että joku arvaa vahingossa 12 tai 24 sanan listasi Bitcoin-lompakossa?
+vastaus: Äärimmäisen pieni
+väärät_vastaukset:
   - Korkea
   - Kohtalainen
   - Pieni
-explanation: >
+selitys: >
   Käytetyn kryptografian ansiosta jonkun mahdollisuus arvata vahingossa 12 tai 24 sanan listasi on äärimmäisen pieni.
   Se on kuin "oikean" numeron löytäminen väliltä 1 ja $2^256$, mikä on melkein verrattavissa määritellyn atomin löytämiseen maailmankaikkeudesta.
-reviewed: false
+arvioitu: true

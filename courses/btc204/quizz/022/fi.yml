@@ -1,9 +1,9 @@
-question: Mikä on kuvion nimi, joka koostuu yhdestä UTXO:sta sisääntulossa ja yhdestä UTXO:sta lähtötilanteessa?
-answer: Sweeping
-wrong_answers:
+kysymys: Mikä on kuvion nimi, joka koostuu yhdestä UTXO:sta sisääntulossa ja yhdestä UTXO:sta lähtötilanteessa?
+vastaus: Sweeping
+väärät_vastaukset:
   - Konsolidointi
   - Coinjoin
   - Eräkulutus
-explanation: |
+selitys: |
   Tämän rakenteen tulkinta on, että kyseessä on sweep, mikä tarkoittaa bitcoinien itseensiirtoa.
-reviewed: false
+arvioitu: false

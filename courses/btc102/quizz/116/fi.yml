@@ -1,8 +1,8 @@
-question: Mikä on tarkoitus kerätä bittejä hitaasti?
-answer: Antaa sijoitusstrategiasi kehittyä ajan myötä.
-wrong_answers:
+kysymys: Mikä on tarkoitus kerätä bittejä hitaasti?
+vastaus: Antaa sijoitusstrategiasi kehittyä ajan myötä.
+väärät_vastaukset:
   - Louhia uusia bittejä.
   - Käydä kauppaa bitteillä.
   - Muuntaa bitit toisiin kryptovaluuttoihin.
-explanation: |
+selitys: |
   Bittien hitaalla kerryttämisellä on strategia, joka mahdollistaa sijoituksesi kehittymisen ajan myötä. Sitä ei käytetä uusien bittien louhimiseen, bittien kauppaamiseen tai bittien muuntamiseen toisiin kryptovaluuttoihin.

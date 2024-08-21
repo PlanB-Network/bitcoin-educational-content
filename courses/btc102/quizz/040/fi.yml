@@ -1,10 +1,10 @@
-question: Mikä on Bitcoinin pääetu perinteisiin pankkitileihin verrattuna?
-answer: Täysi kontrolli omiin varoihin
-wrong_answers:
+kysymys: Mikä on Bitcoinin pääetu perinteisiin pankkitileihin verrattuna?
+vastaus: Täysi kontrolli omiin varoihin
+väärät_vastaukset:
   - Korkeammat korkotuotot
   - Matalammat transaktiomaksut
   - Nopeammat transaktioajat
-explanation: |
+selitys: |
   Luku selittää, että Bitcoin tarjoaa vahvan vaihtoehdon perinteisille
   rahoitusjärjestelmille. Se mahdollistaa jokaiselle yksityisyyden säilyttämisen, suojautumisen
   inflaatiolta ja valuutan arvon alenemiselta, autoritaaristen hallintojen ohittamisen ja suvereniteetin

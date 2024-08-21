@@ -1,10 +1,10 @@
-question: Mitkä ovat edellytykset perintösuunnitelman luomiselle kyseisen luvun mukaan?
-answer: Hetki rauhaa, ilman häiriötekijöitä; 4-5 arkkia valkoista paperia; Kynä; Kaksi kirjekuorta; Puhelin-/osoitekirja; Tietokone (valinnainen)
-wrong_answers:
+kysymys: Mitkä ovat edellytykset perintösuunnitelman luomiselle kyseisen luvun mukaan?
+vastaus: Hetki rauhaa, ilman häiriötekijöitä; 4-5 arkkia valkoista paperia; Kynä; Kaksi kirjekuorta; Puhelin-/osoitekirja; Tietokone (valinnainen)
+väärät_vastaukset:
   - Meluisa ympäristö; 10-15 arkkia valkoista paperia; Lyijykynä; Viisi kirjekuorta; Puhelin-/osoitekirja; Tietokone (pakollinen)
   - Hetki rauhaa, ilman häiriötekijöitä; 1-2 arkkia valkoista paperia; Tussi; Yksi kirjekuori; Puhelin-/osoitekirja; Tietokone (valinnainen)
   - Hetki rauhaa, häiriötekijöiden kanssa; 4-5 arkkia valkoista paperia; Kynä; Kaksi kirjekuorta; Puhelin-/osoitekirja; Tietokone (valinnainen)
-explanation: |
+selitys: |
   Luku ehdottaa, että tarvitset hetken rauhaa ilman häiriötekijöitä; 4-5 arkkia valkoista paperia; kynän; kaksi kirjekuorta; puhelin-/osoitekirjan; ja tietokoneen
   (joka on valinnainen) perintösuunnitelman luomiseen.
-reviewed: false
+arvioitu: false

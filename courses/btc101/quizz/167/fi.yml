@@ -1,12 +1,12 @@
-question: Mikä on nykyisen rahoitusjärjestelmän pääkritiikki ympäristön kannalta?
-answer: Se kannustaa ylikulutukseen ja velkaantumiseen
-wrong_answers:
+kysymys: Mikä on nykyisen rahoitusjärjestelmän pääkritiikki ympäristön kannalta?
+vastaus: Se kannustaa ylikulutukseen ja velkaantumiseen
+väärät_vastaukset:
   - Se edistää fossiilisten polttoaineiden käyttöä
   - Se ei investoi uusiutuvaan energiaan
   - Se ei säädä tavaroiden tuotantoa
-explanation: >-
+selitys: >-
   Nykyistä rahoitusjärjestelmää kritisoidaan siitä, että se kannustaa ylikulutukseen
   ja velkaantumiseen, mikä aiheuttaa vakavia ympäristöongelmia. Tämä johtuu helposta
   pääsystä luottoon, pankkien rahalaitosten toimesta tapahtuvasta rahanluonnista,
   ja osittaisvarantopankkitoiminnan käytöstä.
-reviewed: false
+arvioitu: false

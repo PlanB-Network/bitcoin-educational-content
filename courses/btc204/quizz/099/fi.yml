@@ -1,0 +1,11 @@
+kysymys: Mitä retrospektiivinen anonset mittaa?
+
+vastaus: Yksityisyyden vastustuskykyä eteenpäin-taaksepäin -analyysiä vastaan.
+
+väärät_vastaukset:
+  - Yksityisyyden vastustuskykyä taaksepäin-eteenpäin -analyysiä vastaan.
+  - Yksityisyyden vastustuskykyä nykyhetkestä-tulevaisuuteen -analyysiä vastaan.
+  - Yksityisyyden vastustuskykyä menneisyydestä-nykyhetkeen -analyysiä vastaan.
+
+selitys: |
+  Retrospektiivinen anonset mittaa kolikon yksityisyyden vastustuskykyä analyysille nykyhetkestä menneisyyteen (lähtö syötteeseen).

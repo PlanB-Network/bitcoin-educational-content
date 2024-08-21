@@ -1,8 +1,8 @@
-question: Mikä on yksi Bitcoinin pääominaisuuksista?
-answer: Sitä voidaan vaihtaa missä päin maailmaa tahansa ilman minkään tahon lupaa.
-wrong_answers:
+kysymys: Mikä on yksi Bitcoinin pääominaisuuksista?
+vastaus: Sitä voidaan vaihtaa missä päin maailmaa tahansa ilman minkään tahon lupaa.
+väärät_vastaukset:
   - Sitä voi käyttää vain tietty ryhmä ihmisiä.
   - Sen käyttö vaatii luvan keskusviranomaiselta.
   - Sitä voi käyttää vain tietyissä maissa.
-explanation: >-
+selitys: >-
   Tekstissä mainitaan, että Bitcoin on pseudonyymi ja sitä voidaan vaihtaa missä päin maailmaa tahansa ilman minkään tahon lupaa.

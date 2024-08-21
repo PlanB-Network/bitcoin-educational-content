@@ -1,0 +1,5 @@
+---
+termi: BIP9
+---
+
+Menetelmä pehmeiden haarautumien (soft forks) aktivoimiseksi Bitcoinissa, joka ehdotettiin vuonna 2015. Se esittelee järjestelmän, jossa louhijat ilmaisevat tukensa pehmeälle haarautumiselle käyttämällä tiettyä bittiä lohkojen version kentässä. BIP9:n alaisuudessa ehdotettu pehmeä haarautuminen aktivoidaan, jos 95% lohkoista yli 2016 lohkon ajanjakson aikana (noin kaksi viikkoa, mikä osuu yksiin jokaisen vaikeusasteen säädön kanssa) ilmaisee hyväksyntänsä. Tämän lukituksen jälkeen louhijoille annetaan armonaikaa valmistautua päivitykseen ennen sen aktivoimista. Jos 95% kynnystä ei saavuteta enimmäisajan kuluessa, pehmeä haarautuminen hylätään. BIP9 mahdollistaa useiden pehmeiden haarautumisten samanaikaisen signaaloinnin, mutta antaa louhijoille huomattavan vallan, sillä jos vaadittua kynnystä ei saavuteta, pehmeä haarautuminen yksinkertaisesti hylätään. Tätä menetelmää käytettiin alun perin SegWitille, ennen kuin BIP148, joka ehdottaa UASF:n (User Activated Soft Fork) käyttöä, tuli peliin ja pakotti lukituksen BIP91:n kautta.

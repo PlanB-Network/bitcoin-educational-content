@@ -1,0 +1,5 @@
+---
+termi: OSAKKEIDEN VAIKEUSASTE
+---
+
+Kohdevaikeusaste, joka on korkeampi kuin Bitcoinin (eli vähemmän vaikea), määritellään louhintapoolin toimesta arvioimaan osakkeen hashin kelpoisuutta ja kunkin yksittäisen louhijan panoksen arviointia poolissa. Tehokkaan varmennuskuorman hallinnan ja sen varmistamiseksi, että jokainen louhija, riippumatta heidän laskentatehostaan, toimittaa osakkeita säännöllisesti, poolit säätävät osakkeiden vaikeusastetta. Kullekin louhijalle määritetty vaikeusaste määrittää, kuinka monta osaketta he kerryttävät: esimerkiksi, jos louhijalle on määritetty vaikeusaste 10 ja hän toimittaa 5 kelvollista työtodistusta tällä vaikeusasteella, hän saa 50 osaketta. Tehokkaampi louhija, jonka vaikeusaste on 100 ja joka toimittaa 7 kelvollista työtodistusta, saa 700 osaketta. Tämä järjestelmä mahdollistaa kunkin louhijan hashraten tarkan mittaamisen ja palkkioiden jakamisen valitun korvauslaskentamenetelmän mukaan (PPS, PPLNS, TIDES...).

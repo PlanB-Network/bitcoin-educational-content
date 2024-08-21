@@ -1,10 +1,10 @@
-question: Mitä tarkoittavat tarjoajat ja vastaanottajat tilauskirjojen kontekstissa?
-answer: Tarjoajat ovat tilausten tarjoajia ja vastaanottajat ovat tilausten vastaanottajia.
-wrong_answers:
+kysymys: Mitä tarkoittavat tarjoajat ja vastaanottajat tilauskirjojen kontekstissa?
+vastaus: Tarjoajat ovat tilausten tarjoajia ja vastaanottajat ovat tilausten vastaanottajia.
+väärät_vastaukset:
   - Tarjoajat ovat tilausten vastaanottajia ja vastaanottajat ovat tilausten tarjoajia.
   - Tarjoajat ovat tilausten tekijöitä ja vastaanottajat ovat tilausten vastaanottajia.
   - Tarjoajat ovat tilausten vastaanottajia ja vastaanottajat ovat tilausten tekijöitä.
-explanation: |
+selitys: |
   Tilauskirjojen kontekstissa tarjoajat ovat niitä, jotka tarjoavat tilauksia ja
 
 

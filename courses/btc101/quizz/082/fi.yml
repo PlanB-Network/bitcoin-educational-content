@@ -1,9 +1,9 @@
-question: Mikä teknologiaa käytetään Bitcoin-lompakossa varojen käytön turvaamiseen Bitcoin-lompakossa?
-answer: Elliptinen käyräkryptografia
-wrong_answers:
+kysymys: Mikä teknologiaa käytetään Bitcoin-lompakossa varojen käytön turvaamiseen Bitcoin-lompakossa?
+vastaus: Elliptinen käyräkryptografia
+väärät_vastaukset:
   - Symmetrinen kryptografia
   - Kvanttikryptografia
   - RSA-kryptografia
-explanation: |
+selitys: |
   Bitcoinien käyttäminen vaatii omistajalta elliptisten käyrien käyttöä allekirjoituksen luomiseksi Bitcoin-siirtoa varten.
-reviewed: false
+arvioitu: true

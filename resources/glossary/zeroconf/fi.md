@@ -1,0 +1,5 @@
+---
+termi: ZEROCONF
+---
+
+Riskialtis käytäntö, jossa Bitcoin-siirtoa kohdellaan lopullisena ja edetään vastaavan toimenpiteen suorittamiseen (kuten hyödykkeen tai palvelun myyntiin) ennen kuin siirto on todellisuudessa sisällytetty lohkoketjun lohkoon. Vahvistamattomat siirrot eli zeroconf ovat alttiita kaksoismeno-hyökkäyksille, koska niitä ei vielä ole peruuttamattomasti kirjattu kirjanpitoon. Zeroconfia voidaan harkita erittäin spesifeissä konteksteissa, joissa nopeus on etusijalla, kuten pienissä kaupallisissa transaktioissa tai tapauksissa, joissa siirto tapahtuu tuttavien välillä. Näissä tilanteissa kaksoismenon riskiä pidetään usein hyväksyttävänä verrattuna nopean siirron hyötyyn. Siitä huolimatta merkittävissä transaktioissa, erityisesti kun lähettäjä on tuntematon, on ratkaisevan tärkeää odottaa useita vahvistuksia ennen kuin siirtoa pidetään muuttumattomana. Yleisesti hyväksytty standardi on odottaa 6 vahvistusta, mikä tarkoittaa, että viiden lisälohkon on oltava louhittu sen jälkeen, kun transaktio sisältyy yhteen, jotta sitä voidaan pitää lopullisena.

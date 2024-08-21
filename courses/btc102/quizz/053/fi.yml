@@ -1,10 +1,10 @@
-question: Mitä tarkoittaa sanoa, että Bitcoin on kuin musta aukko?
-answer: Se ei katoa ja ajan myötä se imee kaiken tielleen osuvan.
-wrong_answers:
+kysymys: Mitä tarkoittaa sanoa, että Bitcoin on kuin musta aukko?
+vastaus: Se ei katoa ja ajan myötä se imee kaiken tielleen osuvan.
+väärät_vastaukset:
   - Se lopulta romahtaa oman painonsa alla.
   - Se on uhka maailmanlaajuiselle rahoitusjärjestelmälle.
   - Se on mysteeri, jota tiedemiehet yhä yrittävät ymmärtää.
-explanation: |
+selitys: |
   Lausunto, että Bitcoin on kuin musta aukko, viittaa sen kestävyyteen
   ja sen potentiaaliin tulla hallitsevaksi rahoitusjärjestelmäksi, imien kaikki muut järjestelmät
   tielleen osuvat.

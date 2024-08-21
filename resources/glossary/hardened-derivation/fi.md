@@ -1,0 +1,5 @@
+---
+term: KOVETTU JOHDANNAINEN
+---
+
+Prosessi, jossa HD-lompakoissa luodaan lapsiavaimia. Kovetussa johdannaisessa käytetään vanhemman yksityisavainta syötteenä `HMAC-SHA512`-funktiolle, mikä tekee mahdottomaksi lapsen julkisten avainten luomisen vanhemman julkisesta avaimesta ja vanhemman ketjukoodista. Prosessiin kuuluu vanhemman yksityisavaimen ja indeksin, joka on suurempi tai yhtä suuri kuin $2^{31}$, yhdistäminen, minkä jälkeen sovelletaan `HMAC-SHA512`-funktiota vanhemman ketjukoodin kanssa. Tulos jaetaan kahteen osaan: ensimmäiset 256 bittiä lisätään vanhemman yksityisavaimen arvoon lapsen yksityisavaimen saamiseksi, kun taas jäljelle jäävät 256 bittiä muodostavat lapsen ketjukoodin. Tämä menetelmä varmistaa, että vaikka laajennettu julkinen avain vaarantuisi, sitä ei voida käyttää lapsen julkisten avainten johtamiseen. Vakiintuneessa johdannaisessa kovetettua johdannaista käytetään kaikilla johdannaisen tasoilla aina tilin syvyyteen asti. Johdannaispolun notaatioissa kovetettu johdannainen tunnistetaan heittomerkillä `'` tai harvemmin kirjaimella `h`.

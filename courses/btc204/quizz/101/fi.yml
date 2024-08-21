@@ -1,0 +1,11 @@
+kysymys: Kuinka entropia lasketaan Bitcoin-lohkoketjun analyysin kontekstissa?
+
+vastaus: Ottamalla binäärilogaritmi tulkintojen määrästä.
+
+väärät_vastaukset:
+  - Kertomalla syötteiden määrä tulosteiden määrällä.
+  - Lisäämällä syötteiden ja tulosteiden määrä.
+  - Ottamalla binäärilogaritmi syötteiden ja tulosteiden määrästä.
+
+selitys: |
+  Entropia määritellään binäärilogaritmina mahdollisten yhdistelmien määrästä.

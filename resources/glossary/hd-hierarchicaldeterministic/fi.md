@@ -1,0 +1,5 @@
+---
+termi: HD (HIERARKINEN-DETERMINISTINEN)
+---
+
+Viittaa Bitcoin-lompakkoon, joka käyttää ainutlaatuista tietoa (siemen) luodakseen joukon julkisia ja yksityisiä avainpareja sekventiaalisella ja toistettavalla tavalla. Tämän avainten hallintamenetelmän määrittelee BIP32-standardi. HD-lompakoiden pääetu on, että ne mahdollistavat käyttäjille lukuisien erilaisten avainparien hallinnan, erityisesti osoitteen uudelleenkäytön välttämiseksi, samalla kun kaikki ne voidaan uudelleenluoda yhdestä tiedonpalasta. Tätä rakennetta kuvataan hierarkisena, koska se mahdollistaa puumaisen organisaation luomisen useista avaimista ja osoitteista yhdestä siemenestä. Ja se on deterministinen siinä mielessä, että jokainen siemen tuottaa aina saman avainsekvenssin missä tahansa lompakossa, joka noudattaa tätä järjestelmää.

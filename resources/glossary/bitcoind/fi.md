@@ -1,0 +1,5 @@
+---
+termi: BITCOIND
+---
+
+Lyhenne sanoista "*Bitcoin Daemon*". Se on ohjelmisto, joka toteuttaa Bitcoin-protokollan ja mahdollistaa käyttäjien ajaa solmua niin sanottuja RPC (*Remote Procedure Call*, etäproseduurikutsu) toimintoja varten. Se on komentoriviohjelma (ilman graafista käyttöliittymää), joka toimii kommunikaatiorajapintana Bitcoinin kanssa. Toisin sanoen, se on ohjelma, joka toimii taustalla ja jonka kanssa käyttäjä voi olla vuorovaikutuksessa (daemon). `Bitcoind` oli osa Satoshi Nakamoton alkuperäistä asiakasohjelmistoa. Jotkut pitävät sitä Bitcoinin historian toisena asiakasohjelmistona, Satoshin ensimmäisen jälkeen, koska ohjelmistoversio 0.2.6 mahdollisti suorituksen daemonina ilman graafista käyttöliittymää. Myöhemmin se yhdistettiin Bitcoin QT:n kanssa vuonna 2011, asiakasohjelmisto, joka myöhemmin nimettiin uudelleen "Bitcoin Coreksi" vuonna 2014. Nykyään `bitcoind` on täysin integroitu Bitcoin Core -asiakasohjelmistoon.

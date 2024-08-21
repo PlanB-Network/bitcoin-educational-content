@@ -8,11 +8,7 @@ PlanB:n tehtävänä on tarjota huipputason koulutusresursseja Bitcoinista mahdo
 
 Haluatko lisätä uuden Bitcoin "rakentajan" PlanB-verkon sivustolle ja antaa näkyvyyttä yrityksellesi tai ohjelmistollesi, mutta et tiedä miten? Tämä opas on sinua varten!
 ![builder](assets/01.webp)
-- Ensimmäiseksi sinulla täytyy olla GitHub-tili. Jos et tiedä, miten tili luodaan, olemme tehneet yksityiskohtaisen oppaan, joka opastaa sinua.
-
-https://planb.network/tutorials/others/create-github-account
-
-
+- Ensimmäiseksi sinulla täytyy olla GitHub-tili. Jos et tiedä, miten tili luodaan, olemme tehneet [yksityiskohtaisen oppaan, joka opastaa sinua](https://planb.network/tutorials/others/create-github-account).
 - Mene [PlanB:n GitHub-repositorioon, joka on omistettu datalle](https://github.com/DecouvreBitcoin/sovereign-university-data/tree/dev/resources/builders) `resources/builder/` osiossa:
 ![builder](assets/02.webp)
 - Klikkaa oikeassa yläkulmassa `Add file` -nappia, sitten `Create new file`:
@@ -75,7 +71,7 @@ Tässä mitä kullekin avaimelle tulee täyttää:
 	- `manufacturer`.
 Esimerkiksi YAML-tiedostosi voisi näyttää tältä:
 ```yaml
-name: Bitcoin Baguette
+nimi: Bitcoin Baguette
 
 osoite_rivi_1: Pariisi, Ranska
 osoite_rivi_2:
@@ -102,7 +98,7 @@ kategoria: koulutus
 ![rakentaja](assets/09.webp)
 - Kun olet saanut muutokset valmiiksi tähän tiedostoon, tallenna ne napsauttamalla `Commit changes...` -painiketta:
 ![rakentaja](assets/10.webp)
-- Lisää muutoksillesi otsikko sekä lyhyt description:
+- Lisää muutoksillesi otsikko sekä lyhyt kuvaus:
 ![rakentaja](assets/11.webp)
 - Napsauta vihreää `Propose changes` -painiketta:
 ![rakentaja](assets/12.webp)

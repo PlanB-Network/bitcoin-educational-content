@@ -1,0 +1,11 @@
+kysymys: Miksi koordinaattori ei voi muuttaa coinjoin-transaktiota kerättyään allekirjoitukset kaikilta osallistujilta?
+
+vastaus: Sen muuttaminen mitätöisi transaktion.
+
+väärät_vastaukset:
+  - Heillä ei ole pääsyä osallistujien vastaanotto-osoitteisiin.
+  - Allekirjoitukset ovat salattuja.
+  - Transaktio on jo lähetetty Bitcoin-verkkoon.
+
+selitys: |
+  Kun osallistujat allekirjoittavat koko transaktion varmistettuaan, että kaikki on oikein, koordinaattori ei enää voi muuttaa tätä transaktiota, mukaan lukien tulosteet, mitätöimättä sitä, koska allekirjoitus kattaa koko transaktion.

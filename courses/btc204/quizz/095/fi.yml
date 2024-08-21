@@ -1,0 +1,13 @@
+kysymys: Mitä tuleva anonset osoittaa?
+
+vastaus: Erottamattomien UTXO:iden ryhmän koon syklin tulosteessa.
+
+väärät_vastaukset:
+  - Erottamattomien UTXO:iden ryhmän koon syklin syötteessä.
+  - Erottamattomien UTXO:iden ryhmän koon altaassa.
+  - Tarvittavien transaktioiden määrän anonymiteetin saavuttamiseksi.
+
+selitys: |
+  Tuleva anonset osoittaa ryhmän koon, jonka seassa tutkittu UTXO piiloutuu syklin tulosteessa, tietäen UTXO:n syötteessä, eli erottamattomien kolikoiden määrän tässä ryhmässä.
+
+arvioitu: false

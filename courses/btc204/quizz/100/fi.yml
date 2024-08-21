@@ -1,0 +1,11 @@
+kysymys: Mitä entropia tarkoittaa Bitcoinin ketjuanalyysin kontekstissa?
+
+vastaus: Analyytikoiden tiedon puutetta tarkalle transaktion konfiguraatiolle.
+
+väärät_vastaukset:
+  - Nopeus, jolla tiedot transaktiosta leviävät verkoston läpi.
+  - Käytettyjen digitaalisten allekirjoitusten kryptografisen turvallisuuden taso.
+  - Samanlaisten UTXO-ryhmän koko, jossa kolikko on piilotettu.
+
+selitys: |
+  Entropiaa käytetään mittaamaan analyytikoiden tiedon puutetta tarkalle transaktion konfiguraatiolle. Toisin sanoen, mitä korkeampi entropia, sitä vaikeammaksi analyytikoille tulee tunnistaa bitcoinien virtauksia syötteiden ja tuotosten välillä.

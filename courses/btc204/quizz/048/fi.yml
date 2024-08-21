@@ -1,13 +1,13 @@
-question: Mikä on OP_RETURN Bitcoin-siirrossa?
+kysymys: Mikä on OP_RETURN Bitcoin-siirrossa?
 
-answer: Operaatiokoodi, joka merkitsee tuloksen mitätöidyksi ja mahdollistaa datan tallennuksen.
+vastaus: Operaatiokoodi, joka merkitsee tuloksen mitätöidyksi ja mahdollistaa datan tallennuksen.
 
-wrong_answers:
+väärät_vastaukset:
   - Operaatiokoodi, joka varmentaa allekirjoituksen pätevyyden Bitcoin-siirrossa.
   - Operaatiokoodi, joka sisältää hyperlinkin IPFS:ssä tallennettuun tiedostoon.
   - Komento, joka poistaa siirron Bitcoin-lohkoketjusta.
 
-explanation: |
+selitys: |
   OP_RETURN on operaatiokoodi, joka ilmaisee kelvottoman skriptin, tehden sisältämästään tuloksesta todistettavasti käyttökelvottoman. Näin ollen, verkon solmut voivat poistaa tämän tuloksen UTXO-joukostaan. OP_RETURNia käytetään usein tallentamaan mielivaltaista dataa lohkoketjuun.
 
-reviewed: false
+arvioitu: false

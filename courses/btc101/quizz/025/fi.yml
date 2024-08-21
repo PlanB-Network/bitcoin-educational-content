@@ -1,9 +1,9 @@
-question: Mikä on Bitcoinin pääetu muihin valuuttoihin verrattuna?
-answer: Se tarjoaa erinomaisen arvonsäilyttäjän ansiosta sen tiukasti rajatun tarjonnan ja neutraaliuden vuoksi.
-wrong_answers:
+kysymys: Mikä on Bitcoinin pääetu muihin valuuttoihin verrattuna?
+vastaus: Se tarjoaa erinomaisen arvonsäilyttäjän ansiosta sen tiukasti rajatun tarjonnan ja neutraaliuden vuoksi.
+väärät_vastaukset:
   - Se on jakamaton ja kuljetettavissa
   - Se on altis rahapoliittiselle inflaatiolle
   - Sitä hyväksytään laajasti kaupankäynnissä
-explanation: |
+selitys: |
   Bitcoinin pääetu muihin valuuttoihin verrattuna on, että se tarjoaa erinomaisen arvonsäilyttäjän ansiosta sen tiukasti rajatun tarjonnan ja luottamusta vaatimattoman osapuolen puuttumisen vuoksi. Tämä tekee siitä hyvän vaihtoehdon pitkäaikaiseen säästämiseen.
-reviewed: false
+arvioitu: true

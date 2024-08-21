@@ -1,0 +1,5 @@
+---
+termi: NSEQUENCE
+---
+
+`nSequence`-kenttä Bitcoin-siirron merkinnässä käytetään ilmaisemaan, miten tämä merkintä on aikalukittu. Alun perin sen tarkoituksena oli mahdollistaa siirtojen dynaaminen korvaaminen mempooleissa, jotta voitaisiin mahdollistaa maksujärjestelmän päällyskerros, joka on samankaltainen kuin Lightning. Sen käyttö on kuitenkin kehittynyt suhteellisen aikalukituksen käyttöönoton myötä BIP68:n kautta. `nSequence`-kenttä voi nyt määrittää suhteellisen viiveen ennen kuin siirto voidaan sisällyttää lohkoon. Tämä viive voidaan määritellä joko lohkojen lukumääränä tai 512 sekunnin kertoimena (eli reaaliaikana). On tärkeää huomata, että tämä uusi tulkinta `nSequence`-kentästä on voimassa vain, jos `nVersion`-kenttä on suurempi tai yhtä suuri kuin `2`. Tämä `nSequence`-kentän tulkinta on Bitcoinin konsensus-sääntöjen tasolla. Lisäksi standardointisääntöjen tasolla tätä kenttää käytetään myös RBF:n (Replace-By-Fee) signalointiin. Jos siirrossa on `nSequence`, joka on pienempi kuin `0xfffffffe`, se voidaan korvata RBF:n kautta solmuissa, jotka noudattavat tätä politiikkaa.

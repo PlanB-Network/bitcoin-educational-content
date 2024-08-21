@@ -1,9 +1,9 @@
-question: Jos havaitsemme yksinkertaisessa maksutapahtumassa, että tulosteessa on pyöreä summa, mikä todennäköinen tulkinta voidaan tehdä?
-answer: Pyöreä tuloste ei ole enää syötteen käyttäjän hallussa.
-wrong_answers:
+kysymys: Jos havaitsemme yksinkertaisessa maksutapahtumassa, että tulosteessa on pyöreä summa, mikä todennäköinen tulkinta voidaan tehdä?
+vastaus: Pyöreä tuloste ei ole enää syötteen käyttäjän hallussa.
+väärät_vastaukset:
   - Pyöreä tuloste on tarkoitettu transaktiomaksuille.
   - Pyöreä tuloste kuuluu edelleen syötteen käyttäjälle.
   - Pyöreä tuloste on varausosoite.
-explanation: |
+selitys: |
   Kohdatessamme yksinkertaisen maksukaavan (1 syöte ja 2 tulostetta), jos toisessa tulosteessa käytetään pyöreää summaa, se edustaa maksua. Se siis poistuu syötteen käyttäjän hallusta.
-reviewed: false
+arvioitu: false

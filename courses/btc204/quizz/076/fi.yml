@@ -1,0 +1,13 @@
+kysymys: Mikä on coinjoin-tapahtuma?
+
+vastaus: Yhteistyöllinen tapahtuma, jossa useat käyttäjät yhdistävät UTXO:nsa.
+
+vaarat_vastaukset:
+  - Yhteistyöllinen tapahtuma vain kahden käyttäjän välillä.
+  - Tapahtuma, jossa yksittäinen käyttäjä lähettää varoja useisiin osoitteisiin.
+  - Tapahtuma, jossa keskeinen toimija sekoittaa asiakkaidensa bitcoineja.
+
+selitys: |
+  Coinjoin-tapahtuma on yhteistyöllinen tapahtuma, jossa useat käyttäjät sekoittavat kolikoitaan.
+
+arvioitu: false

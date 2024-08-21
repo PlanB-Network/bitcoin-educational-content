@@ -1,9 +1,9 @@
-question: Mikä on vahvistusten määrän merkitys Bitcoin-siirrossa?
-answer: Mitä enemmän siirrolla on vahvistuksia, sitä muuttumattomammaksi se muuttuu.
-wrong_answers:
+kysymys: Mikä on vahvistusten määrän merkitys Bitcoin-siirrossa?
+vastaus: Mitä enemmän siirrolla on vahvistuksia, sitä muuttumattomammaksi se muuttuu.
+väärät_vastaukset:
   - Mitä enemmän siirrolla on vahvistuksia, sitä arvokkaammaksi se muuttuu.
   - Mitä enemmän siirrolla on vahvistuksia, sitä nopeammin se käsitellään.
   - Mitä enemmän siirrolla on vahvistuksia, sitä vähemmän turvallinen se on.
-explanation: >-
+selitys: >-
   Bitcoin-siirron vahvistusten määrä kertoo, kuinka monta lohkoa on louhittu sen lohkon päälle, joka sisältää siirron. Mitä enemmän siirrolla on vahvistuksia, sitä muuttumattomammaksi se muuttuu.
-reviewed: false
+arvioitu: false

@@ -1,9 +1,9 @@
-question: Seuraavista vastauksista, mikä ei kuulu ketjuanalyysissä käytettyjen heuristiikkojen ja ominaisuuksien kolmeen pääluokkaan?
-answer: Kryptografiamallit.
-wrong_answers:
+kysymys: Seuraavista vastauksista, mikä ei kuulu ketjuanalyysissä käytettyjen heuristiikkojen ja ominaisuuksien kolmeen pääluokkaan?
+vastaus: Kryptografiamallit.
+väärät_vastaukset:
   - Transaktiomallit.
   - Sisäiset transaktioheuristiikat.
   - Ulkoiset transaktioheuristiikat.
-explanation: |
+selitys: |
   Ketjuanalyysissä käytetyt heuristiikat voidaan ryhmitellä kolmeen luokkaan; transaktiokuvioihin (tai transaktiomalleihin), sisäisiin transaktioheuristiikkoihin ja ulkoisiin transaktioheuristiikkoihin.
-reviewed: false
+arvioitu: false

@@ -1,0 +1,5 @@
+---
+termi: BIP152
+---
+
+Ehdotus "Tiivistetystä lohkon välityksestä" (Compact Block Relay), jonka tavoitteena on vähentää lohkojen siirrossa Bitcoin-verkossa tarvittavan kaistanleveyden määrää. Otettu käyttöön marraskuussa 2016 Bitcoin Coren versiossa 0.13.0, tämä protokolla mahdollistaa lohkotiedon viestinnän tiiviissä muodossa, olettaen, että solmut ovat jo saaneet suuren osan äskettäisen lohkon transaktioista omassa mempoolissaan. Sen sijaan, että jokainen transaktio lähetettäisiin kokonaisuudessaan, mikä johtaisi päällekkäisyyksiin, BIP152 ehdottaa vain lyhyiden tunnisteiden lähettämistä jo tunnettuihin transaktioihin vertaisverkossa, mukana muutama valittu transaktio (erityisesti coinbase-transaktio ja ne, joita solmu ei todennäköisesti tunne). Solmu voi sitten pyytää puuttuvat transaktiot vertaisiltaan. Tiivistetty lohkon välitys vähentää siis lohkon leviämisessä vaihdetun datan määrää, mikä pienentää kaistanleveyden piikkejä ja parantaa koko verkon tehokkuutta.

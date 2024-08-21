@@ -1,11 +1,11 @@
-question: Mitä teksti ehdottaa sinun tekevän laajentaaksesi tietämystäsi Bitcoinista?
-answer: Viittaa viime vuosina listattuihin ja luokiteltuihin resurssikirjastoihin
-wrong_answers:
+kysymys: Mitä teksti ehdottaa sinun tekevän laajentaaksesi tietämystäsi Bitcoinista?
+vastaus: Viittaa viime vuosina listattuihin ja luokiteltuihin resurssikirjastoihin
+väärät_vastaukset:
   - Osallistu Bitcoin-konferensseihin
   - Sijoita Bitcoiniin
   - Aloita Bitcoin-louhintaoperaatio
-explanation: >-
+selitys: >-
   Teksti ehdottaa, että laajentaaksesi tietämystäsi Bitcoinista, voit viitata
   resurssikirjastoihin, jotka on listattu ja luokiteltu viime vuosina, mukaan lukien
   podcastit, verkkosivustot, artikkelit, tutoriaalit, kirjat ja muu sisältö.
-reviewed: false
+arvioitu: false

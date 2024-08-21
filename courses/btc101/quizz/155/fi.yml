@@ -1,11 +1,11 @@
-question: Miten louhijat saavat korvauksen työstään?
-answer: Louhijat saavat korvauksen lohkoon sisältyvästä palkkiosta ja transaktiomaksuista.
-wrong_answers:
+kysymys: Miten louhijat saavat korvauksen työstään?
+vastaus: Louhijat saavat korvauksen lohkoon sisältyvästä palkkiosta ja transaktiomaksuista.
+väärät_vastaukset:
   - Louhijat saavat maksun Bitcoin-verkolta.
   - Louhijat saavat kiinteän palkan työstään.
   - Louhijat saavat korvauksen uusina bitcoineina.
-explanation: >-
+selitys: >-
   Kun louhija onnistuneesti louhii lohkon, hän saa palkkion uusien bitcoinien
   muodossa. Tämä palkkio sisältyy heidän louhimaansa lohkoon. Lisäksi louhijat saavat myös
   transaktiomaksuja lohkoon sisältyvistä transaktioista.
-reviewed: false
+arvioitu: false

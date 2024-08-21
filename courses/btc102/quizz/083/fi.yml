@@ -1,9 +1,9 @@
-question: Mikä on pääsyy, miksi aktiivinen Bitcoin-käyttäjä valitsisi Lightning Networkiin perustuvan lompakon jokapäiväisiin transaktioihin?
-answer: Se tehostaa Bitcoin-transaktioiden suorittamista.
-wrong_answers:
+kysymys: Mikä on pääsyy, miksi aktiivinen Bitcoin-käyttäjä valitsisi Lightning Networkiin perustuvan lompakon jokapäiväisiin transaktioihin?
+vastaus: Se tehostaa Bitcoin-transaktioiden suorittamista.
+väärät_vastaukset:
   - Se kasvattaa Bitcoinin arvoa.
   - Se mahdollistaa nimettömät transaktiot.
   - Se tarjoaa alustan Bitcoinin kaupankäynnille.
-explanation: |
+selitys: |
   Lightning Network on "kerros 2" maksuprotokolla, joka toimii lohkoketjupohjaisen kryptovaluutan, kuten Bitcoinin, päällä. Se on suunniteltu mahdollistamaan nopeat, edulliset transaktiot.
-reviewed: false
+arvioitu: false

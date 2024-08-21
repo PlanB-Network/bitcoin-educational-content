@@ -1,12 +1,12 @@
-question: Mikä on päähaaste ammattilaisille Bitcoin-louhinta-alalla?
-answer: Tulevaisuuden tehokkuuden vähenemisen ennakoiminen ja strategioiden mukauttaminen sen mukaisesti
-wrong_answers:
+kysymys: Mikä on päähaaste ammattilaisille Bitcoin-louhinta-alalla?
+vastaus: Tulevaisuuden tehokkuuden vähenemisen ennakoiminen ja strategioiden mukauttaminen sen mukaisesti
+väärät_vastaukset:
   - Halvan sähkön löytäminen
   - Sopivan sijainnin löytäminen louhintatoiminnalle
   - Sijoittajien löytäminen, jotka ovat valmiita rahoittamaan toimintaa
-explanation: |
+selitys: |
   Jatkuvien teknologisten edistysaskelten edessä louhinta-alan ammattilaisten
   on strategisesti asemoitava itsensä. Louhinta-ala on jatkuvien
   innovaatioiden alainen, ja alan toimijoiden on ennakoitava tulevaisuudessa tehokkuuden vähenemistä
   ja mukautettava strategioitaan sen mukaisesti.
-reviewed: false
+arvioitu: false

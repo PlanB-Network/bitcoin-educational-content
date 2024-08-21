@@ -1,9 +1,9 @@
-question: Mikä on yleinen haittapuoli LNP2PBot- ja RoboSat P2P -ratkaisuissa?
-answer: Ne vaativat teknistä osaamista ja ymmärrystä yksityisyydestä.
-wrong_answers:
+kysymys: Mikä on yleinen haittapuoli LNP2PBot- ja RoboSat P2P -ratkaisuissa?
+vastaus: Ne vaativat teknistä osaamista ja ymmärrystä yksityisyydestä.
+väärät_vastaukset:
   - Ne eivät helpota Bitcoinin ostamista ja myymistä.
   - Ne eivät käytä Lightning Networkia.
   - Ne eivät ole avoimen lähdekoodin ratkaisuja.
-explanation: |
+selitys: |
   Luvun mukaan sekä LNP2PBot että RoboSat vaativat teknistä
   osaamista ja ymmärrystä yksityisyydestä.

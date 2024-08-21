@@ -1,0 +1,7 @@
+---
+termi: BIP8
+---
+
+Kehitetty SegWitin aktivointia koskevien keskustelujen jälkeen, jossa käytettiin BIP9:ää sen aktivointiin, BIP8 on pehmeän haarukan aktivointimenetelmä, joka sisältää natiivisti automaattisen UASF (*User-Activated Soft Fork*) mekanismin. Kuten BIP9, BIP8 hyödyntää louhijoiden signaalointia mutta lisää `LOT` (*Lock-in On Time out*) parametrin. Jos `LOT` on asetettu `true`, signaalointijakson päättymisen jälkeen ilman vaaditun kynnyksen saavuttamista, UASF laukaistaan automaattisesti, pakottaen pehmeän haarukan aktivoinnin. Tämä lähestymistapa pakottaa louhijat olemaan yhteistyöhaluisia tai riskeeraamaan UASF:n, jonka käyttäjät määräävät. Lisäksi, toisin kuin BIP9, BIP8 määrittelee signaalointijakson lohkokorkeuden perusteella, eliminoiden potentiaaliset manipulaatiot hash-nopeuden kautta louhijoiden toimesta. BIP8 sallii myös muuttuvan äänestyskynnyksen asettamisen ja esittelee parametrin minimilohkokorkeudelle aktivointia varten, antaen louhijoille aikaa valmistautua ja signaloida suostumuksensa etukäteen ilman, että heidän tarvitsee välttämättä olla valmiita. Kun pehmeä haarukka aktivoidaan BIP8:n kautta `LOT=true` parametrilla, tämä käyttää hyvin aggressiivista menetelmää louhijoita vastaan, jotka välittömästi asetetaan potentiaalisen UASF:n paineen alle. Todellakin, se jättää heille vain 2 vaihtoehtoa:
+* Olla yhteistyöhaluinen ja siten helpottaa aktivointiprosessia;
+* Olla yhteistyöhaluton, jolloin käyttäjät automaattisesti suorittavat UASF:n pakottaakseen pehmeän haarukan.

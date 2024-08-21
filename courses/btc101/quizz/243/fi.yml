@@ -1,10 +1,10 @@
-question: Mikä on yksi mahdollisista liiketoimintamahdollisuuksista, jotka johtuvat Lightning Networkista?
-answer: Uudet taloudelliset mallit, joissa kuluttajat maksavat sisällöstä sen mukaan, mitä he kuluttavat
-wrong_answers:
+kysymys: Mikä on yksi mahdollisista liiketoimintamahdollisuuksista, jotka johtuvat Lightning Networkista?
+vastaus: Uudet taloudelliset mallit, joissa kuluttajat maksavat sisällöstä sen mukaan, mitä he kuluttavat
+väärät_vastaukset:
   - Uudet kryptovaluutat
   - Uudet lohkoketjuteknologiat
   - Uudet maksutavat
-explanation: >-
+selitys: >-
   Lightning Network avaa lukuisia jännittäviä käyttötapauksia Bitcoin-käyttäjille. Syntyvät taloudelliset mallit ja liiketoimintamahdollisuudet ovat lukuisia
   ja vaihtelevia, mukaan lukien uudet taloudelliset mallit, joissa kuluttajat maksavat sisällöstä sen mukaan, mitä he kuluttavat.
-reviewed: false
+arvioitu: false

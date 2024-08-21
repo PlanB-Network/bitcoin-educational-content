@@ -1,9 +1,9 @@
-question: Mikä on pääasiallinen riski sijoittamisessa yrityksiin, jotka myyvät louhintalaitteistoa ja hallinnoivat koneita alhaisen energian hintojen alueilla?
-answer: Sähköntoimitusongelmat ja konevikat voivat jättää sijoittajat voimattomiksi, kalliiden laitteiden kanssa, joita he eivät hallitse.
-wrong_answers:
+kysymys: Mikä on pääasiallinen riski sijoittamisessa yrityksiin, jotka myyvät louhintalaitteistoa ja hallinnoivat koneita alhaisen energian hintojen alueilla?
+vastaus: Sähköntoimitusongelmat ja konevikat voivat jättää sijoittajat voimattomiksi, kalliiden laitteiden kanssa, joita he eivät hallitse.
+väärät_vastaukset:
   - Yritykset voivat mennä konkurssiin ja sijoittajat voivat menettää rahansa.
   - Yritykset voivat olla huijauksia ja sijoittajat voivat menettää rahansa.
   - Yritykset eivät ehkä pysty myymään louhittuja bitcoineja ja sijoittajat voivat menettää rahansa.
-explanation: |
+selitys: |
   Pääasiallinen riski sijoittamisessa yrityksiin, jotka myyvät louhintalaitteistoa ja hallinnoivat koneita alhaisen energian hintojen alueilla, on se, että sähköntoimitusongelmat ja konevikat voivat jättää sijoittajat voimattomiksi, kalliiden laitteiden kanssa, joita he eivät hallitse.
-reviewed: false
+arvioitu: false

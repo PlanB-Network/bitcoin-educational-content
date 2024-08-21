@@ -1,0 +1,5 @@
+---
+termi: KANTA (ARITMETIIKKA)
+---
+
+Kanta on numerointijärjestelmä, joka käyttää kiinteää määrää merkkejä kaikkien mahdollisten numeroiden esittämiseen. Kanta määrittää, kuinka monta erillistä symbolia on käytettävissä tässä järjestelmässä numeroiden esittämiseen. Esimerkiksi kaikkein tunnetuin järjestelmä arkielämässämme on kymmenjärjestelmä eli desimaalijärjestelmä, joka käyttää kymmentä erillistä symbolia `(0, 1, 2, 3, 4, 5, 6, 7, 8, 9)` kaikkien numeroiden esittämiseen. Muita tietotekniikan ja matematiikan aloilla yleisesti käytettyjä numerointijärjestelmiä ovat binäärijärjestelmä (kanta 2), jossa on kaksi symbolia `(0, 1)`, ja heksadesimaalijärjestelmä (kanta 16), jossa on kuusitoista symbolia `(0, 1, 2, 3, 4, 5, 6, 7, 8, 9, A, B, C, D, E, F)`. Bitcoinin yhteydessä saatat joskus kohdata koodauksia kanta 58:ssa tai muokatussa kanta 32:ssa (nimeltään `Bech32`).

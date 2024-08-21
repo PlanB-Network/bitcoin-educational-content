@@ -1,0 +1,5 @@
+---
+termi: TAAKSEPÄIN YHTEENSOPIVUUS
+---
+
+Viittaa protokollasääntöjen päivityksen kykyyn ylläpitää yhteensopivuutta aikaisempien versioiden kanssa. Tämä tarkoittaa, että muutokset on suunniteltu siten, että vanhemmat solmut (solmut, jotka ajavat ennen sääntömuutosta käytössä olleita versioita) voivat edelleen olla vuorovaikutuksessa verkon kanssa ja seurata ketjua, jolla on eniten työtä kertyneenä. Siksi on olennaista, että vanhemmat solmut eivät hylkää uusia lohkoja eivätkä uusia transaktioita. Taaksepäin yhteensopivuus vähentää merkittävästi todennäköisyyttä, että päivitys pirstaloisi verkon, välttäen näin solmujen jakautumisen alaryhmiin eri ketjuissa. Jotta yhteensopivuus aikaisempien protokollaversioiden kanssa varmistetaan, päivityksen on tehtävä olemassa olevista säännöistä tiukempia tai otettava käyttöön uusia. Tämä periaate määrittelee "pehmeän haarukan" (soft fork). Päinvastoin, jos päivitys lieventää olemassa olevia sääntöjä tai poistaa joitakin, se ei ole taaksepäin yhteensopiva. Tämä olisi "kova haarukka" (hard fork).

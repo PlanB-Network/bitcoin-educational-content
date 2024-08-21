@@ -1,13 +1,13 @@
-question: Mikä on Bitcoinin vastaanotto-osoite?
+kysymys: Mikä on Bitcoinin vastaanotto-osoite?
 
-answer: Merkkijono, jota käytetään bitcoinien vastaanottamiseen.
+vastaus: Merkkijono, jota käytetään bitcoinien vastaanottamiseen.
 
-wrong_answers:
+vaarat_vastaukset:
   - Koodi, jota käytetään bitcoinien lähettämiseen.
   - Algoritmi bitcoineja louhimiseen.
   - Älykäs sopimus.
 
-explanation: |
+selitys: |
   Vastaanotto-osoitetta käytetään bitcoinien vastaanottamiseen lompakkoon.
 
-reviewed: false
+arvioitu: false

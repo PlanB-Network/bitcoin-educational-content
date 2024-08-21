@@ -1,12 +1,12 @@
-question: Mikä on pääsyy diktatuuristen hallintojen perustamiselle
+kysymys: Mikä on pääsyy diktatuuristen hallintojen perustamiselle
   kyseisen luvun mukaan?
-answer: Maailmanlaajuisesti pahenevat varallisuuserot
-wrong_answers:
+vastaus: Maailmanlaajuisesti pahenevat varallisuuserot
+vaarat_vastaukset:
   - Maailman koulutuksen puute
   - Maailman resurssien puute
   - Maailman demokratian puute
-explanation: |
+selitys: |
   Luku mainitsee, että maailmanlaajuisesti pahenevat varallisuuserot
   ovat johtaneet ääriliikkeiden nousuun, mikä on joskus johtanut
   diktatuuristen hallintojen perustamiseen.
-reviewed: false
+arvioitu: false

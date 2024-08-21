@@ -1,0 +1,5 @@
+---
+termi: ECASH (DAVID CHAUM)
+---
+
+Protokolla, jonka David Chaum ehdotti vuonna 1982, ja se on yksi ensimmäisistä digitaalisen valuutan järjestelmistä, jotka on suunniteltu säilyttämään käyttäjän nimettömyys. Se perustuu julkisen avaimen kryptografian periaatteisiin luodakseen digitaalisen valuutan, joka voidaan vaihtaa turvallisesti ja nimettömästi. eCash toimii luomalla digitaalisia tokeneita, jotka on allekirjoitettu pankin toimesta. Näin ollen se edustaa talletuspankkien evoluutiota, olematta kuitenkaan hajautettu. Transaktioiden aikana nämä tokenit siirretään osapuolten välillä paljastamatta käyttäjien identiteettejä, säilyttäen näin heidän yksityisyytensä. eCashia pidetään kryptovaluuttojen edelläkävijänä. Se nousee usein esiin keskusteluissa Bitcoinista, joidenkin halutessa käyttää eCashin kaltaisia järjestelmiä kerroksena päällä. Nykyään suuntaus on enemmän niin sanottujen "federated Chaumian" järjestelmien, kuten Fedimint, suuntaan.

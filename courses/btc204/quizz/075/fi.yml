@@ -1,0 +1,13 @@
+kysymys: Mikä on coinjoin-transaktion päätavoite?
+
+vastaus: Katkaista kolikon historia.
+
+vaarat_vastaukset:
+  - Vähentää transaktiomaksuja.
+  - Tehdä bitcoineista jäljittämättömiä.
+  - Lisätä vahvistusnopeutta.
+
+selitys: |
+  Coinjoin-transaktion tavoite on katkaista kolikon historia. Tämä tekniikka ei tarjoa pysyvää nimettömyyttä eikä se lopullisesti estä bitcoinien jäljittämistä, toisin kuin voisi luulla. Coinjoin pyrkii vain katkaisemaan historian siinä kohdassa, missä coinjoin-transaktio tehdään.
+
+arvioitu: false

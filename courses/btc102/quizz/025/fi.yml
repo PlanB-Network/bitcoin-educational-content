@@ -1,10 +1,10 @@
-question: Mikä on louhijoiden rooli Bitcoin-verkossa?
-answer: Kirjata leviävät transaktiot Bitcoin-lohkoketjuun
-wrong_answers:
+kysymys: Mikä on louhijoiden rooli Bitcoin-verkossa?
+vastaus: Kirjata leviävät transaktiot Bitcoin-lohkoketjuun
+väärät_vastaukset:
   - Luoda uusia bitcoineja
   - Säädellä bitcoinien arvoa
   - Varmistaa Bitcoin-käyttäjien identiteetti
-explanation: |
+selitys: |
   Louhijat Bitcoin-verkossa ovat vastuussa siitä, että verkossa leviävät transaktiot
   kirjataan Bitcoin-lohkoketjuun. Tämä varmistaa transaktioiden lopullisuuden.
-reviewed: false
+arvioitu: false

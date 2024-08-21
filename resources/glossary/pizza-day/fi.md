@@ -1,0 +1,5 @@
+---
+termi: PIZZA PÄIVÄ
+---
+
+Tapahtuma, jota Bitcoin-yhteisö juhlii joka vuoden toukokuun 22. päivä muistaakseen ensimmäistä kertaa, kun bitcoineja vaihdettiin fyysisestä hyödykkeestä. Vuonna 2010 Bitcoin-kehittäjä Laszlo Hanyecz [ehdotti BitcoinTalk-foorumilla](https://bitcointalk.org/index.php?topic=137.msg1141#msg1141) ostavansa kaksi isoa pizzaa 10 000 BTC:llä, joka tuolloin vastasi noin 40 dollaria. Toukokuun 22. päivänä hän vahvisti, että tarjous oli hyväksytty 19-vuotiaalta kalifornialaiselta opiskelijalta, Jeremy Sturdivantilta, joka tunnettiin nimimerkillä Jercos. Hän tilasi ja toimitti pizzat Papa John'sista Laszloille Floridaan. Tämä päivä merkitsee tärkeää hetkeä Bitcoinille, sillä se osoittaa sen potentiaalin vaihdon välineenä. Yhteisö juhlii tätä tapahtumaa joka vuosi syömällä bitcoineilla maksettuja pitsoja.

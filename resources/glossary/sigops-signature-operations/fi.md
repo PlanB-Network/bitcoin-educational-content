@@ -1,0 +1,13 @@
+---
+termi: SIGOPS (ALLEKIRJOITUSTOIMINNOT)
+---
+
+Viittaa digitaalisiin allekirjoitustoimintoihin, jotka ovat tarpeen tapahtumien vahvistamiseksi. Jokainen Bitcoin-tapahtuma voi sisältää useita syötteitä, joista jokainen voi vaatia yhden tai useamman allekirjoituksen katsottavaksi kelvolliseksi. Näiden allekirjoitusten tarkistus suoritetaan käyttämällä tiettyjä opkoodeja, joita kutsutaan "sigopsiksi". Tarkemmin sanottuna tämä sisältää `OP_CHECKSIG`, `OP_CHECKSIGVERIFY`, `OP_CHECKMULTISIG` ja `OP_CHECKMULTISIGVERIFY`. Nämä toiminnot asettavat tietyn työmäärän verkon solmuille, jotka täytyy ne vahvistaa. Jotta estettäisiin DoS-hyökkäykset keinotekoisen sigops-määrän paisuttamisen kautta, protokolla asettaa siksi rajoituksen sallittujen sigopsien määrälle per lohko, varmistaakseen, että vahvistustaakka pysyy hallittavana solmuille. Tämä raja on tällä hetkellä asetettu enintään 80 000 sigopsiin per lohko. Laskentaan solmut noudattavat näitä sääntöjä:
+
+`scriptPubKey`ssä, `OP_CHECKSIG` ja `OP_CHECKSIGVERIFY` lasketaan 4 sigopsiksi. Opcodes `OP_CHECKMULTISIG` ja `OP_CHECKMULTISIGVERIFY` lasketaan 80 sigopsiksi. Todellakin, laskettaessa näitä toimintoja kerrotaan neljällä, kun ne eivät ole osa SegWit-syötettä (P2WPKH:lle sigopsien määrä on siis 1);
+
+`redeemScript`ssä, opkoodit `OP_CHECKSIG` ja `OP_CHECKSIGVERIFY` lasketaan myös 4 sigopsiksi, `OP_CHECKMULTISIG` ja `OP_CHECKMULTISIGVERIFY` lasketaan `4n`ksi, jos ne edeltävät `OP_n`:ää, tai muuten 80 sigopsiksi;
+
+`witnessScript`ssä, `OP_CHECKSIG` ja `OP_CHECKSIGVERIFY` ovat arvoltaan 1 sigop, `OP_CHECKMULTISIG` ja `OP_CHECKMULTISIGVERIFY` lasketaan `n`:ksi, jos ne esitellään `OP_n`:n kautta, tai muuten 20 sigopsiksi;
+
+Taproot-skripteissä sigopseja käsitellään eri tavalla verrattuna perinteisiin skripteihin. Sen sijaan, että jokainen allekirjoitustoiminto laskettaisiin suoraan, Taproot esittelee sigops-budjetin jokaiselle tapahtuman syötteelle, joka on suhteessa kyseisen syötteen kokoon. Tämä budjetti on 50 sigopsia plus syötteen todisteen tavukoko. Jokainen allekirjoitustoiminto vähentää tätä budjettia 50:llä. Jos allekirjoitustoiminnon suorittaminen laskee budjetin alle nollan, skripti on kelvoton. Tämä menetelmä mahdollistaa enemmän joustavuutta Taproot-skripteissä, samalla suojellen potentiaalisilta väärinkäytöksiltä liittyen sigopseihin, yhdistämällä ne suoraan syötteen painoon. Näin ollen Taproot-skriptit eivät sisälly 80 000 sigopsin rajaan per lohko.

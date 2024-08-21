@@ -1,9 +1,9 @@
-question: Mikä on suurin mahdollinen määrä Bitcoin-yksiköitä, jotka voivat koskaan olemassa?
-answer: 21 miljoonaa yksikköä
-wrong_answers:
+kysymys: Mikä on suurin mahdollinen määrä Bitcoin-yksiköitä, jotka voivat koskaan olemassa?
+vastaus: 21 miljoonaa yksikköä
+väärät_vastaukset:
   - 25 miljoonaa yksikköä
   - 30 miljoonaa yksikköä
   - 50 miljoonaa yksikköä
-explanation: |
+selitys: |
   Bitcoinin tietokonekoodi ja kaikkien protokollaan osallistuvien käyttäjien konsensus määrittävät, että suurin mahdollinen määrä Bitcoin-yksiköitä, jotka voivat koskaan olemassa, on 21 miljoonaa.
-reviewed: false
+arvioitu: true

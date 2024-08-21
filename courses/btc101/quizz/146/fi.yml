@@ -1,10 +1,10 @@
-question: Miksi Bitcoin-solmun edullinen hinta ja saavutettavuus ovat tärkeitä?
-answer: Se edistää verkon hajauttamista
-wrong_answers:
+kysymys: Miksi Bitcoin-solmun edullinen hinta ja saavutettavuus ovat tärkeitä?
+vastaus: Se edistää verkon hajauttamista
+väärät_vastaukset:
   - Se lisää verkon transaktiokapasiteettia
   - Se vähentää verkon transaktiokapasiteettia
   - Se lisää lohkopalkkiota louhijoille
-explanation: >-
+selitys: >-
   Bitcoin-solmun edullinen hinta ja saavutettavuus ovat tärkeitä,
   koska ne edistävät verkon hajauttamista.
-reviewed: false
+arvioitu: false

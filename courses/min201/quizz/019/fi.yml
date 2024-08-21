@@ -1,9 +1,9 @@
-question: Mikä on Lightning Networkin merkitys Bitcoin-louhinnan kontekstissa?
-answer: Lightning Networkilla on potentiaali vähentää merkittävästi siirtomaksuja, mikä voi vaikuttaa louhijoiden tuloihin.
-wrong_answers:
+kysymys: Mikä on Lightning Networkin merkitys Bitcoin-louhinnan kontekstissa?
+vastaus: Lightning Networkilla on potentiaali vähentää merkittävästi siirtomaksuja, mikä voi vaikuttaa louhijoiden tuloihin.
+väärät_vastaukset:
   - Lightning Network kasvattaa lohkon kokoa, mikä lisää louhijoiden tuloja.
   - Lightning Network vähentää Bitcoin-louhinnan energiankulutusta.
   - Lightning Network nopeuttaa Bitcoin-louhintaa.
-explanation: |
+selitys: |
   Lightning Network mahdollistaa nopeat ja edulliset siirrot Bitcoinin pääketjun ulkopuolella. Tällä on potentiaali vähentää merkittävästi siirtomaksuja, mikä voi vaikuttaa louhijoiden tuloihin.
-reviewed: false
+arvioitu: false

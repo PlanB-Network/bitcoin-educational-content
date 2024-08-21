@@ -1,0 +1,13 @@
+kysymys: Miten Bitcoin-siirron tehokkuus lasketaan yksityisyyden näkökulmasta?
+
+vastaus: Vertaamalla siirron todellista entropiaa maksimaaliseen mahdolliseen entropiaan.
+
+vaarat_vastaukset:
+  - Kertomalla syötteiden määrä lähtöjen määrällä.
+  - Kertomalla siirron todellinen entropia syötteiden ja lähtöjen määrällä.
+  - Vertaamalla syötteiden määrää lähtöjen määrään.
+
+selitys: |
+  Siirron tehokkuus lasketaan vähentämällä maksimaalinen entropia analysoitavan siirron todellisesta entropiasta.
+
+arvioitu: false

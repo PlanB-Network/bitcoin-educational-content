@@ -1,9 +1,9 @@
-question: Näistä neljästä menetelmästä bitcoineja hankittaessa, mikä altistaa sinut vähiten avaintunnistuksen riskille?
-answer: Ostaminen käteisellä P2P:ssä
-wrong_answers:
+kysymys: Näistä neljästä menetelmästä bitcoineja hankittaessa, mikä altistaa sinut vähiten avaintunnistuksen riskille?
+vastaus: Ostaminen käteisellä P2P:ssä
+väärät_vastaukset:
   - Ostaminen säännellyn alustan kautta ilman KYC:tä
   - Ostaminen säännellyn alustan kautta KYC:n kanssa
   - Ostaminen PayPalin kautta P2P-välitysalustalla
-explanation: |
+selitys: |
   Bitcoinien ostaminen vertaisverkossa käteisellä on menetelmä, joka altistaa sinut vähiten avaintunnistuksen riskeille, koska se ei vaadi toimimista säännellyn yrityksen kautta ja jättää jälkiä pankkijärjestelmään. Lisäksi tämä menetelmä yleensä ei vaadi henkilötietojen paljastamista.
-reviewed: false
+arvioitu: false

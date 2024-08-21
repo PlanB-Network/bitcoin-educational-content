@@ -1,11 +1,11 @@
-question: Mitkä ovat kaksi ominaisuutta, jotka tekevät Bitcoinista sen, mitä se on tänään?
-answer: Sen avoimen lähdekoodin ja sen niukkuus
-wrong_answers:
+kysymys: Mitkä ovat kaksi ominaisuutta, jotka tekevät Bitcoinista sen, mitä se on tänään?
+vastaus: Sen avoimen lähdekoodin ja sen niukkuus
+väärät_vastaukset:
   - Sen anonyymiys ja sen hajauttaminen
   - Sen korkea arvo ja sen volatiliteetti
   - Sen helppokäyttöisyys ja sen globaali hyväksyntä
-explanation: |
+selitys: |
   Kaksi pääominaisuutta, jotka määrittelevät Bitcoinin, ovat sen avoin lähdekoodi,
   mikä tekee siitä läpinäkyvän, tarkastettavan ja kenelle tahansa käytettävissä olevan, sekä sen niukkuus,
   mikä tarkoittaa, että maailmassa tulee olemaan vain 21 miljoonaa bitcoinia.
-reviewed: false
+arvioitu: false

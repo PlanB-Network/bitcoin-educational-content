@@ -1,0 +1,5 @@
+---
+termi: SHOR (ALGORITMI)
+---
+
+Kvanttialgoritmi, jonka keksi Peter Shor vuonna 1994. Se mahdollistaa suurten kokonaislukujen jakamisen alkulukujen tuloksiin polynomiaalisessa ajassa. Vähentämällä tarvittavien toimenpiteiden määrää kokonaislukujen tekijöihin jakamisessa, Shor voisi tehdä käytännössä mahdottomaksi kryptografia-algoritmit, jotka perustuvat tähän matemaattiseen ongelmaan, kuten RSA. Shoria voidaan hieman muokata toimimaan lähes kaikissa algoritmeissa, jotka käyttävät ryhmärakennetta. Se on jo tehokkaasti muunneltavissa elliptisen käyrän kryptografiaan (ECDSA, Schnorr...). Siksi Shor ja sen läheiset variantit ovat tehokkaita asymmetrisen kryptografian algoritmeissa. Tällä hetkellä meillä ei vielä ole riittävän tehokasta ja vakaa kvanttitietokonetta, joka pystyisi onnistuneesti suorittamaan Shorin algoritmin.

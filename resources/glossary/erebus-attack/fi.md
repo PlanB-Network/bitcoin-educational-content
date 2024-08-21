@@ -1,0 +1,5 @@
+---
+termi: EREBUS (HYÖKKÄYS)
+---
+
+Erebus-hyökkäys on erittäin kehittynyt hyökkäysmuoto Bitcoin-verkkoa vastaan, joka mahdollistaa pahantahtoisen Internet-palveluntarjoajan eristää tiettyjä Bitcoin-solmuja. Se on siis eräänlainen Eclipse-hyökkäys. Erebus-hyökkäys hyödyntää Internet-verkon rakennetta, erityisesti pakollisia kulkupisteitä (tai "pullonkauloja") reitityksessä itsenäisten järjestelmien (AS) välillä. Hyökkääjä, hallitsemalla itsenäistä järjestelmää, voi manipuloida verkkoliikennettä eristääkseen Bitcoin-solmun lopusta verkosta, saaden sen uskomaan väärään tilaan lohkoketjussa (lohkot tai transaktiot, joita solmu ei tunne). Tämä eristäminen voi johtaa kaksinkertaiseen kulutukseen tai sensuuriin eristettyä solmua vastaan. Tämän hyökkäyksen toteuttaminen on tehty paljon vaikeammaksi Bitcoin Core -version 0.20.0 julkaisun ja Asmapin käyttöönoton myötä.

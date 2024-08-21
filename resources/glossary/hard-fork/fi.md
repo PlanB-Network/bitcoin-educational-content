@@ -1,0 +1,7 @@
+---
+termi: HARD FORK
+---
+
+Muutos protokollan sääntöihin tavalla, joka ei ole taaksepäin yhteensopiva. Tämä muutos johtaa Bitcoin-verkon solmujen pysyvään eriytymiseen kahteen erilliseen ryhmään: solmuihin, jotka ovat päivittyneet, ja solmuihin, jotka eivät ole päivittyneet. Tämä jakautuminen materialisoituu alkuperäisen lohkoketjun jakautumisena kahteen erilliseen lohkoketjuun, jotka kuitenkin jakavat yhteisen historian, minkä vuoksi käytetään termiä "fork", joka voidaan kääntää suomeksi "haarautuma" tai "bifurkaatio".
+
+Muutosta sanotaan olevan ei-taaksepäin yhteensopiva, kun se on joko laaja, tarkoittaen, että se poistaa tai tekee tietyistä protokollan säännöistä vähemmän rajoittavia, tai kaksisuuntainen, tarkoittaen, että se lisää sääntöjä, jotka ovat yhteensopimattomia vanhojen kanssa. Toisin sanoen, hard fork tapahtuu, kun tietyt solmut tekevät lohkon, joka oli aiemmin virheellinen, kelvolliseksi. Tämä johtaa uuden version protokollan muodostumiseen, joka voi joko korvata alkuperäisen Bitcoinin, jos enemmistö löytyy, tai tulla itsenäiseksi altcoiniksi, jos sitä käytetään vain marginaalisesti. Esimerkiksi Bitcoin Cash (BCH) on Bitcoinin hard fork. Fork tapahtui lohkonumerossa 478,559, 1. elokuuta 2017.

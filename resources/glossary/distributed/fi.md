@@ -1,0 +1,7 @@
+---
+termi: HAJAUTETTU
+---
+
+Ominaisuus tietokoneverkossa, jossa päätösvalta ja kontrolli jakautuvat tasaisesti kaikkien verkon osallistujien kesken. Tämä jakautuminen varmistaa järjestelmän resilienssin. Sitä kutsutaan myös vertaisverkoksi. Toisin kuin hajautetussa verkossa, jossa valta on pirstaloitunut ja hajautettu useiden toimijoiden kesken, mutta joissakin keskusviranomaisissa säilyy suurempi valta kuin käyttäjillä, hajautettu verkko poistaa keskusviranomaisen antamalla hallinnan ja kontrollin käyttäjille itselleen. Bitcoin on esimerkki hajautetusta järjestelmästä. Bitcoinilla ei ole hierarkiaa tai keskusviranomaista. Konsensuksen ylläpito, transaktioiden vahvistaminen ja uusien rahayksiköiden liikkeellelasku suoritetaan käyttäjien toimesta. Tämä hajautettu rakenne varmistaa järjestelmän resilienssin ja sensuurin vastustuskyvyn, tehden siitä erittäin vaikean yksittäisen toimijan hallita tai manipuloida.
+
+> ► *Jotkut ihmiset viittaavat Bitcoiniin hajautettuna järjestelmänä. Todellisuudessa näiden kahden termin käyttö toistensa synonyymeinä ei ole harvinaista. Kuvaavampi synonyymi adjektiiville "hajautettu" voisi olla "vertaisverkko", joka joskus lyhennetään "P2P", lyhenne englanninkielisestä käännöksestä "Peer-to-Peer".*

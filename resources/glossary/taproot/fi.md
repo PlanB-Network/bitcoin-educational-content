@@ -1,0 +1,7 @@
+---
+termi: TAPROOT
+---
+
+Merkittävä päivitys Bitcoin-protokollaan, joka otettiin käyttöön pehmeän haarautumisen (soft fork) kautta marraskuussa 2021. Tämä päivitys tuo merkittäviä parannuksia yksityisyyden, tehokkuuden ja joustavuuden osalta toteuttamalla BIP340, BIP341 ja BIP342. Päivitys lukittiin lohkossa 687,284 12. kesäkuuta 2021, kun 90% kyseisen ajanjakson aikana tuotetuista lohkoista ilmaisi suosionsa, osoittaen näin louhijoiden valmiuden aktivoida päivityksen (*Speedy Trial*). Aktivointi tapahtui lopulta lohkossa 709,632 14. marraskuuta 2021, lähes neljä vuotta alkuperäisten keskustelujen jälkeen aiheesta Pieter Wuillen, Andrew Poelstran ja Gregory Maxwellin välillä. Se oli ensimmäinen merkittävä päivitysyritys kiistanalaisen SegWitin aktivoinnin jälkeen vuonna 2017.
+
+Taproot on myös BIP341:n nimi, joka on toteutettu samannimisen pehmeän haarautumisen yhteydessä ja joka esittelee uuden skriptimallin nimeltään P2TR. P2TR-skripti lukitsee bitcoinit yksilölliseen Schnorrin julkiseen avaimen, jota merkitään $K$. Tämä avain $K$ on kuitenkin itse asiassa julkisen avaimen $P$ ja Merkle-juuresta lasketun toisen julkisen avaimen $M$ aggregaatti, jälkimmäinen lasketaan `scriptPubKey`-listan perusteella. P2TR-skriptillä lukitut bitcoinit voidaan kuluttaa kahdella erillisellä tavalla: joko julkaisemalla allekirjoitus julkiselle avaimelle $P$, tai täyttämällä yksi Merkle-puussa olevista skripteistä. Ensimmäistä vaihtoehtoa kutsutaan "*avainpoluksi*" ja toista "*skriptipoluksi*".

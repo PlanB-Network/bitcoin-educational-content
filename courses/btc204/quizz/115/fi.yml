@@ -1,0 +1,13 @@
+kysymys: Mikä on kimpoaminen Bitcoinin kontekstissa?
+
+vastaus: Tekniikka, joka sisältää useiden transaktioiden tekemisen itselleen
+
+vaarat_vastaukset:
+  - Yhteistyöllinen transaktio, johon osallistuu useita osapuolia
+  - Menetelmä bitcoinejen sekoittamiseksi, jotta voidaan lisätä mahdollista nimettömyyttä
+  - Tietynlaisten vaihtoalustojen erityinen coinjoin-tyyppi
+
+selitys: |
+  Kimpoaminen on tekniikka, joka sisältää useiden fiktiivisten transaktioiden tekemisen itselleen (sweeping).
+
+arvioitu: false

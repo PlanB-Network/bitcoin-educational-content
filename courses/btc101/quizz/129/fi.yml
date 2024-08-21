@@ -1,9 +1,9 @@
-question: Mikä on Bitcoin-lohkoketju?
-answer: Julkinen ja muuttumaton kaikkien Bitcoin-siirtojen kirjanpito.
-wrong_answers:
+kysymys: Mikä on Bitcoin-lohkoketju?
+vastaus: Julkinen ja muuttumaton kaikkien Bitcoin-siirtojen kirjanpito.
+vaarat_vastaukset:
   - Yksityinen ja muutettavissa oleva kaikkien Bitcoin-siirtojen kirjanpito.
   - Julkinen ja muutettavissa oleva kaikkien Bitcoin-siirtojen kirjanpito.
   - Yksityinen ja muuttumaton kaikkien Bitcoin-siirtojen kirjanpito.
-explanation: >-
+selitys: >-
   Bitcoin-lohkoketju on julkinen ja muuttumaton kaikkien Bitcoin-siirtojen kirjanpito. Se on yhteinen kirjanpito kaikille Bitcoin-käyttäjille.
-reviewed: false
+arvioitu: false

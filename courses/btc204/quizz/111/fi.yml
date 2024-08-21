@@ -1,0 +1,13 @@
+kysymys: Mikä on Stonewall x2 -siirto?
+
+vastaus: Maksutapahtuma mini-coinjoin-muodossa
+
+väärät_vastaukset:
+  - Siirto, joka jäljittelee mini-coinjoinia olematta sellainen
+  - Yksinkertainen maksutapahtuma
+  - Siirto, joka sisältää vastaanottajan syötteissä
+
+selitys: |
+  Stonewall x2 on tietty Bitcoin-siirron muoto, jonka tavoitteena on lisätä käyttäjän yksityisyyttä kulutuksen aikana, mutta tällä kertaa yhteistyössä kolmannen osapuolen kanssa, joka ei ole mukana kulutuksessa. Tämä menetelmä toimii kuin mini-coinjoin kahden osallistujan välillä, samalla kun suoritetaan maksu kolmannelle henkilölle.
+
+arvioitu: false

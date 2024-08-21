@@ -1,11 +1,11 @@
-question: Mikä on Bitcoin-sijoittamisen kultainen sääntö?
-answer: Ei sinun avaimiasi, ei sinun Bitcoinejasi.
-wrong_answers:
+kysymys: Mikä on Bitcoin-sijoittamisen kultainen sääntö?
+vastaus: Ei sinun avaimiasi, ei sinun Bitcoinejasi.
+väärät_vastaukset:
   - Älä koskaan sijoita enemmän kuin mitä voit varaa menettää.
   - Vältä trendikkäitä asioita.
   - Suunnittelu ja pitkän aikavälin näkemys ovat olennaisia menestykselle rahoitusmaailmassa.
-explanation: |
+selitys: |
   Bitcoin-sijoittamisen kultainen sääntö on "Ei sinun avaimiasi, ei sinun Bitcoinejasi."
   Tämä tarkoittaa sitä, että jos sinulla ei ole hallinnassasi yksityistä avaintasi, et todellisuudessa
   omista Bitcoinejasi.
-reviewed: false
+arvioitu: false

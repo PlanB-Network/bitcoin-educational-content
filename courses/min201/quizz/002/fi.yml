@@ -1,14 +1,14 @@
-question: Mikä on pääasiallinen ero CPU:n ja ASIC:n välillä Bitcoin-louhinnan kontekstissa?
-answer: CPU pystyy suorittamaan monenlaisia laskutoimituksia olematta erityisesti optimoitu mihinkään tiettyyn laskutoimitukseen, kun taas ASIC pystyy suorittamaan vain yhdenlaisen laskutoimituksen, mutta erittäin tehokkaasti.
-wrong_answers:
+kysymys: Mikä on pääasiallinen ero CPU:n ja ASIC:n välillä Bitcoin-louhinnan kontekstissa?
+vastaus: CPU pystyy suorittamaan monenlaisia laskutoimituksia olematta erityisesti optimoitu mihinkään tiettyyn laskutoimitukseen, kun taas ASIC pystyy suorittamaan vain yhdenlaisen laskutoimituksen, mutta erittäin tehokkaasti.
+väärät_vastaukset:
   - CPU on energiatehokkaampi kuin ASIC
   - ASIC on monipuolisempi kuin CPU
   - CPU pystyy suorittamaan vain yhdenlaisen laskutoimituksen, kun taas ASIC pystyy suorittamaan monenlaisia laskutoimituksia
-explanation: |
+selitys: |
   ASICit ovat siruja, verrattavissa CPU-siruun, kuitenkin ne on kehitetty
   suorittamaan vain yhtä tiettyä laskutoimitusta mahdollisimman tehokkaalla tavalla.
   Toisin sanoen, CPU kykenee suorittamaan monenlaisia erityyppisiä
   laskutoimituksia olematta erityisesti optimoitu mihinkään tiettyyn laskutoimitukseen
   tai toiseen, kun taas ASIC pystyy suorittamaan vain yhdenlaisen laskutoimituksen, mutta
   erittäin tehokkaasti.
-reviewed: false
+arvioitu: false

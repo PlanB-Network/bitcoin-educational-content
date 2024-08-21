@@ -1,10 +1,10 @@
-question: Mikä oli inflaatioaste Saksassa lokakuussa 1923?
-answer: 29,50%.
-wrong_answers:
+kysymys: Mikä oli inflaatioaste Saksassa lokakuussa 1923?
+vastaus: 29,50%.
+väärät_vastaukset:
   - 200,9%.
   - 50,51%.
   - 25,98%.
-explanation: |
+selitys: |
   Kuukausi, jolloin inflaatio oli korkeimmillaan Saksassa, oli lokakuu 1923, huipussaan
   29,50%.
-reviewed: false
+arvioitu: true

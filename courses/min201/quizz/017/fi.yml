@@ -1,12 +1,12 @@
-question: Mikä on sääntelyn mahdollinen vaikutus Bitcoin-louhintaan?
-answer: Jos maa, kuten Yhdysvallat, päättäisi säännellä tai kieltää tiettyjä Bitcoin-siirtoja, sillä voisi olla merkittävä vaikutus verkkoon, erityisesti jos suuri osa laskentatehosta on keskittynyt kyseiseen maahan.
-wrong_answers:
+kysymys: Mikä on sääntelyn mahdollinen vaikutus Bitcoin-louhintaan?
+vastaus: Jos maa, kuten Yhdysvallat, päättäisi säännellä tai kieltää tiettyjä Bitcoin-siirtoja, sillä voisi olla merkittävä vaikutus verkkoon, erityisesti jos suuri osa laskentatehosta on keskittynyt kyseiseen maahan.
+väärät_vastaukset:
   - Jos maa, kuten Yhdysvallat, päättäisi säännellä tai kieltää Bitcoin-louhinnan, se voisi johtaa Bitcoinin arvon nousuun.
   - Jos maa, kuten Yhdysvallat, päättäisi säännellä tai kieltää Bitcoin-louhinnan, se voisi johtaa lohkopalkkion kasvuun.
   - Jos maa, kuten Yhdysvallat, päättäisi säännellä tai kieltää Bitcoin-louhinnan, se voisi johtaa siirtonopeuden kasvuun.
-explanation: |
+selitys: |
   Luku selittää, että jos maa, kuten Yhdysvallat, päättäisi
   säännellä tai kieltää tiettyjä Bitcoin-siirtoja, sillä voisi olla merkittävä
   vaikutus verkkoon, erityisesti jos suuri osa laskentatehosta on keskittynyt
   kyseiseen maahan.
-reviewed: false
+arvioitu: false

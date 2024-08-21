@@ -1,10 +1,10 @@
-question: Mikä on yksi toimenpiteistä pitääksesi tietokoneesi optimaalisessa työskentelykunnossa?
-answer: Varmuuskopioi tietosi säännöllisesti
-wrong_answers:
+kysymys: Mikä on yksi toimenpiteistä pitääksesi tietokoneesi optimaalisessa työskentelykunnossa?
+vastaus: Varmuuskopioi tietosi säännöllisesti
+väärät_vastaukset:
   - Jaa salasanasi
   - Käytä samaa salasanaa kaikille tileille
   - Laiminlyö tietokoneesi päivittämisen
-explanation: |
+selitys: |
   Tietojesi säännöllinen varmuuskopiointi on yksi toimenpiteistä pitääksesi tietokoneesi
 
   optimaalisessa työskentelykunnossa. Se on myös perustoimenpide parantaaksesi verkko-

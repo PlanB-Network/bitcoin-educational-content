@@ -1,0 +1,5 @@
+---
+termi: LABEL
+---
+
+Label tai annotaatio, joka on liitetty UTXO:oon Bitcoin-lompakossa sen alkuperän muistamiseksi. Esimerkiksi, jos omistan UTXO:n, joka on peräisin P2P-ostosta Bisq:ssa Charlesin kanssa, voisin merkitä sen labeliksi `Non-KYC Bisq Charles`. Tämä on hyvä käytäntö, joka auttaa muistamaan kyseisen UTXO:n alkuperän tai tarkoitetun määränpään, mikä helpottaa varojen hallintaa ja yksityisyyden optimointia. Labelöinti muuttuu vielä tärkeämmäksi käytettäessä yhdessä kolikoiden hallinnan kanssa. Todellakin, sallimalla käyttäjien erottaa ja tarkasti valita UTXO:nsa transaktioihinsa, tämä käytäntö auttaa välttämään UTXO:jen yhdistämisen eri lähteistä. Tämä rajoittaa riskejä, jotka liittyvät Common Input Ownership Heuristic (CIOH) -oletukseen, joka voi paljastaa transaktion syötteiden yhteisen omistajuuden.

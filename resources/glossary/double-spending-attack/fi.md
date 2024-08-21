@@ -1,0 +1,9 @@
+---
+termi: KAKSOISMENON (HYÖKKÄYS)
+---
+
+Hyökkäys, jossa pahantahtoinen käyttäjä yrittää käyttää samaa UTXO:ta (*Käyttämätön Siirtojäännös*) useammin kuin kerran rikastuakseen transaktioihin osallistuvien osapuolten kustannuksella. Periaatteessa, kun transaktio on vahvistettu lohkossa ja lisätty lohkoketjuun, kyseisten bitcoinien käyttö on pysyvästi kirjattu, mikä estää samojen bitcoinien edelleen käytön. Kaksoismenon estäminen on jopa lohkoketjun ensisijainen hyöty.
+
+Kaksoismenohyökkäyksen kontekstissa hyökkääjä tekee ensin laillisen transaktion kauppiaan kanssa, sitten luo toisen kilpailevan transaktion käyttäen samoja kolikoita, joko lähettämällä ne takaisin itselleen määrän palauttamiseksi tai käyttämällä niitä toisen hyödykkeen tai palvelun ostamiseen eri kauppiaalta.
+
+Tämän hyökkäyksen mahdollistaa kaksi pääskenaariota. Ensimmäinen, ja hyökkääjälle yksinkertaisin, sisältää petollisen transaktion suorittamisen ennen kuin laillinen transaktio sisällytetään lohkoon. Varmistaakseen, että heidän petollinen transaktionsa vahvistetaan ensin, hyökkääjä liittää siihen huomattavasti suuremmat siirtomaksut kuin lailliseen transaktioon. Tämä on eräänlainen petollinen RBF. Tämä skenaario on mahdollinen vain, jos kauppias suostuu viimeistelemään myynnin "nollavahvistuksella", eli ilman yhtään vahvistusta maksutapahtumalle. Tämän vuoksi onkin vahvasti suositeltavaa odottaa useita vahvistuksia ennen kuin pitää transaktiota muuttumattomana. Toinen, paljon monimutkaisempi skenaario, on 51% hyökkäys. Jos hyökkääjä hallitsee merkittävän osan verkon laskentatehosta, he voivat louhia kilpailevan ketjun siihen sisältyvän laillisen transaktion kanssa, mutta sisällyttäen siihen petollisen transaktion. Kun kauppias on hyväksynyt myynnin ja hyökkääjä on onnistunut luomaan pidemmän ketjun (jossa on enemmän kumuloitunutta työtä) kuin laillinen ketju, he voivat sitten lähettää petollisen ketjunsa, jota verkon solmut pitävät validina.

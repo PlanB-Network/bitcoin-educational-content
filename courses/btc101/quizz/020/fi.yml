@@ -1,9 +1,9 @@
-question: Mitkä ovat tehokkaan valuutan kriteerit?
-answer: Vaihdettavissa, Jaettavissa, Likvidi
-wrong_answers:
+kysymys: Mitkä ovat tehokkaan valuutan kriteerit?
+vastaus: Vaihdettavissa, Jaettavissa, Likvidi
+väärät_vastaukset:
   - Vaihdettavissa, Jaettavissa, Pilaantuva
   - Vaihdettavissa, Jakamaton, Likvidi
   - Ei-vaihdettavissa, Jaettavissa, Likvidi
-explanation: |
+selitys: |
   Tehokkaan valuutan kriteerit ovat, että sen tulee olla vaihdettavissa (vaihdettavissa ilman arvon menetystä), jaettavissa (eri suuruisten transaktioiden mahdollistamiseksi) ja likvidi (helposti muunnettavissa tavaroiksi tai palveluiksi).
-reviewed: false
+arvioitu: true

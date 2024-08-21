@@ -1,10 +1,10 @@
-question: Mitä teknologioita Bitcoin-protokolla käyttää?
-answer: Kryptografia, verkkoviestintä ja lohkoketju.
-wrong_answers:
+kysymys: Mitä teknologioita Bitcoin-protokolla käyttää?
+vastaus: Kryptografia, verkkoviestintä ja lohkoketju.
+väärät_vastaukset:
   - Tekoäly, koneoppiminen ja lohkoketju.
   - Kvanttilaskenta, verkkoviestintä ja lohkoketju.
   - Kryptografia, tekoäly ja lohkoketju.
-explanation: >-
+selitys: >-
   Bitcoin-protokolla käyttää perustanaan teknologioita kuten kryptografia,
   verkkoviestintä ja lohkoketju.
-reviewed: false
+arvioitu: true

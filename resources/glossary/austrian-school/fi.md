@@ -1,0 +1,5 @@
+---
+termi: ITÄVALTALAINEN KOULUKUNTA
+---
+
+Talousajattelun koulukunta, joka teoretisoi markkinat vapaaehtoisten yksilöllisten vuorovaikutusten kokoelmana, korostaa talousjärjestyksen spontaaniutta ja kritisoi valtion interventioita. Itävaltalainen koulukunta kannattaa yksityisomaisuuden, sopimusvapauden ja vapaakaupan roolia, samalla kritisoiden rahanluonnin häiritseviä vaikutuksia talouteen. Sen edustajat, kuten Carl Menger, Ludwig von Mises ja Friedrich Hayek, ovat kehittäneet käsitteitä kuten hintamuodostus, rahan toiminto, pääoman dynamiikka ja arvon subjektiivinen teoria. Itävaltalainen koulukunta kritisoi sosialismia sen kyvyttömyydestä suorittaa tehokkaita taloudellisia laskelmia ja suosii liberaalia lähestymistapaa. Se arvostaa vapaata markkinataloutta ja näkee valtion interventionismin taloudellisten epätasapainojen lähteenä. Monet Bitcoin-entusiastit omaksuvat nämä ideat, uskoen, että Bitcoin edustaa työkalua sopusoinnussa tämän filosofian kanssa sen hajautetun luonteen, rahanluonnin rajoitusten ja kyvyn toimia riippumatta valtion interventioista ansiosta.

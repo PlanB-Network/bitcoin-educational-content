@@ -1,0 +1,7 @@
+---
+termi: STAATTINEN OSOITE
+---
+
+Silent Payments -kontekstissa viittaa uniikkiin tunnisteeseen, joka mahdollistaa maksujen vastaanottamisen ilman osoitteen uudelleenkäyttöä, ilman vuorovaikutusta ja ilman näkyvää on-chain-linkkiä eri maksujen ja staattisen osoitteen välillä. Tämä tekniikka eliminoi tarpeen luoda uusia, käyttämättömiä vastaanotto-osoitteita jokaiselle transaktiolle, välttäen siten tavalliset vuorovaikutukset Bitcoinissa, joissa vastaanottajan on tarjottava uusi osoite maksajalle. Se on jossain määrin verrattavissa uudelleenkäytettävään maksukoodiin BIP47-kontekstissa.
+
+Tämä osoite koostuu kahdesta julkisesta avaimesta: $B_{\text{scan}}$ skannausta varten ja $B_{\text{spend}}$ kuluttamista varten, jotka on yhdistetty muodostamaan staattinen osoite $B = B_{\text{scan}} \text{ ‖ } B_{\text{spend}}$. Vastaanottaja julkaisee tämän osoitteen, mahdollistaen lähettäjien johtaa uniikkeja maksuosoitteita ilman lisävuorovaikutusta vastaanottajan kanssa. Hallitakseen useita erillisiä maksulähteitä, $B_{\text{spend}}$:ään voidaan lisätä etiketti, luoden näin useita merkittyjä staattisia osoitteita $B_1$, $B_2$, jne. Tämä mahdollistaa maksujen erottelun käyttäen yhtä perusosoitetta, vähentäen siten lohkoketjun skannauksen työmäärää. Kuitenkin, kaikki yhden entiteetin staattiset osoitteet voidaan helposti yhdistää yhteisen $B_{\text{scan}}$ käytön vuoksi.

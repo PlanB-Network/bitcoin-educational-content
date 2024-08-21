@@ -1,0 +1,7 @@
+---
+termi: COLD WALLET
+---
+
+Synonyymi termille "hardware wallet". Hardware wallet eli fyysinen lompakko on elektroninen laite, joka on omistettu Bitcoin-lompakon yksityisten avainten turvallisuuden ja hallinnan varmistamiseen. Nämä laitteet on suunniteltu tarjoamaan parannettua turvallisuutta verrattuna ohjelmistolompakoihin, jotka sijaitsevat monikäyttöisissä koneissa, jotka ovat suoraan yhdistetty internetiin. Hardware-lompakot säilyttävät mnemonic-lauseen offline-tilassa, laitteessa, jolla on minimaalinen hyökkäyspinta, mikä eristää sen potentiaalisesti haavoittuvista ympäristöistä. Kun transaktio tehdään, hardware-lompakko allekirjoittaa transaktion laitteen sisällä, paljastamatta yksityistä avainta ulkopuolelle. Kun transaktio on allekirjoitettu, se lähetetään Bitcoin-verkkoon vahvistettavaksi ja sisällytettäväksi lohkoketjuun. Suosituimpien hardware-lompakoiden malleihin kuuluvat: Ledger, Trezor, Coldcard, Passport, BitBox, Satochip, Jade ja SeedSigner (tämä lista ei ole tyhjentävä).
+
+> ► *Termiä hardware wallet voidaan ilmaista eri tavoin ranskaksi. Jotkut viittaavat siihen "portefeuille matériel" tai "portefeuille froid" -termillä. Toiset suosivat termiä "périphérique de signature", eli "signing device" englanniksi, välttääkseen vihjauksen siitä, että bitcoinit sijaitsevat fyysisesti lompakossa.*

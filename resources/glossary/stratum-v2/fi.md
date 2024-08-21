@@ -1,0 +1,5 @@
+---
+termi: STRATUM V2
+---
+
+Stratum-protokollan, joka on tunnettu Bitcoinin louhintaan suunniteltu peiteverkkoprotokolla, kehitysversio. Tämän tyyppinen protokolla on suunniteltu optimoimaan viestintää yksittäisten louhijoiden ja louhintapoolien palvelimien välillä lisätäkseen niiden kannattavuutta. Braiins-poolin (aiemmin "Slush Pool") kehittämä Stratum V2 tuo mukanaan useita parannuksia, mukaan lukien tehokkaamman viestinnän louhijoiden ja louhintapoolien välillä, vähentäen siten tarvittavaa kaistanleveyttä. Se myös vähentää poolien infrastruktuuritarpeita. Turvallisuuden osalta se lisää kryptografista todennusta estääkseen erilaisia "man-in-the-middle" -hyökkäyksiä, mukaan lukien salakuuntelun ja hashraten pahantahtoisen uudelleenohjauksen. Tärkeä osa Stratum V2:ssa on, että se sisältää aliprotokollia, jotka sallivat yksittäisten louhijoiden valita omat transaktiosettinsä, jotka he sisällyttävät työstämiinsä lohkoihin. Tämä ominaisuus antaa enemmän valtaa yksittäisille louhijoille, toisin kuin alkuperäisessä protokollassa, jossa poolit hallitsivat täysin lohkomallia. Tämä menetelmä voisi siten vahvistaa louhintaprosessin hajauttamista pooleissa.

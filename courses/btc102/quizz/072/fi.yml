@@ -1,10 +1,10 @@
-question: Mikä on Hodlerin pääasiallinen psykologinen piirre?
-answer: Kärsivällisyys.
-wrong_answers:
+kysymys: Mikä on Hodlerin pääasiallinen psykologinen piirre?
+vastaus: Kärsivällisyys.
+väärät_vastaukset:
   - Impulsiivisuus.
   - Lyhytnäköisyys.
   - Kurin puute.
-explanation: |
+selitys: |
   Hodler osoittaa poikkeuksellista kärsivällisyyttä, ollen valmis odottamaan vuosia
   sijoituksensa kasvua, olematta lyhyen aikavälin markkinavaihteluiden
   vaikutuksen alaisena.

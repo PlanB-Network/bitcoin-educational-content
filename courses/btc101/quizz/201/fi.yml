@@ -1,9 +1,9 @@
-question: Mikä on KYC-säädösten tarkoitus?
-answer: Taistella terrorismirahoitusta, veronkiertoa ja rahanpesua vastaan.
-wrong_answers:
+kysymys: Mikä on KYC-säädösten tarkoitus?
+vastaus: Taistella terrorismirahoitusta, veronkiertoa ja rahanpesua vastaan.
+vaarat_vastaukset:
   - Nostaa Bitcoinin hintaa.
   - Hallita Bitcoinin tarjontaa.
   - Estää ihmisiä ostamasta Bitcoinia.
-explanation: >-
+selitys: >-
   Teksti selittää, että Tunne asiakkaasi (KYC) -säädökset vaativat käyttäjiä
   toimittamaan tunnistetietoja taistellakseen terrorismirahoitusta, veronkiertoa ja rahanpesua vastaan.

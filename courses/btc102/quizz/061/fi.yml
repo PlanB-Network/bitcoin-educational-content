@@ -1,11 +1,11 @@
-question: Mikä on non-KYC ratkaisu Bitcoinin kontekstissa?
-answer: Ratkaisu, joka mahdollistaa nimettömät Bitcoin-siirrot
-wrong_answers:
+kysymys: Mikä on non-KYC ratkaisu Bitcoinin kontekstissa?
+vastaus: Ratkaisu, joka mahdollistaa nimettömät Bitcoin-siirrot
+vaarat_vastaukset:
   - Ratkaisu, joka mahdollistaa Bitcoin-siirrot ilman internetiä
   - Ratkaisu, joka mahdollistaa Bitcoin-siirrot ilman lompakkoa
   - Ratkaisu, joka mahdollistaa Bitcoin-siirrot ilman maksuja
-explanation: |
+selitys: |
   Non-KYC (Know Your Customer) ratkaisu on ratkaisu, joka mahdollistaa
   nimettömät Bitcoin-siirrot. Se ei vaadi käyttäjältä henkilökohtaisten
   tunnistetietojen antamista.
-reviewed: false
+arvioitu: false

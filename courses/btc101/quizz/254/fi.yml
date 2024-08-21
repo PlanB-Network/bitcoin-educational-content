@@ -1,10 +1,10 @@
-question: Mikä on yksi pääkeinoista saada Bitcoineja?
-answer: Hyväksymällä niitä kaupankäynnissä tai ostamalla niitä säänneltyjen tai sääntelemättömien alustojen kautta.
-wrong_answers:
+kysymys: Mikä on yksi pääkeinoista saada Bitcoineja?
+vastaus: Hyväksymällä niitä kaupankäynnissä tai ostamalla niitä säänneltyjen tai sääntelemättömien alustojen kautta.
+väärät_vastaukset:
   - Louhimalla niitä tietokoneella.
   - Löytämällä niitä fyysisestä maailmasta.
   - Luomalla niitä käyttäen erityistä ohjelmistoa.
-explanation: >-
+selitys: >-
   Tekstissä mainitaan, että käyttäjät voivat saada Bitcoineja hyväksymällä niitä
   kaupankäynnissään tai ostamalla niitä säänneltyjen tai sääntelemättömien alustojen kautta.
-reviewed: false
+arvioitu: false

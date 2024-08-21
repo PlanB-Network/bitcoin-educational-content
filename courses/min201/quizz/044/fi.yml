@@ -1,12 +1,12 @@
-question: Mitä ovat "neitseelliset bitcoinit"?
-answer: Juuri louhitut bitcoinit, joita ei ole koskaan käytetty ja joihin ei liity mitään historiaa.
-wrong_answers:
+kysymys: Mitä ovat "neitseelliset bitcoinit"?
+vastaus: Juuri louhitut bitcoinit, joita ei ole koskaan käytetty ja joihin ei liity mitään historiaa.
+väärät_vastaukset:
   - Bitcoinit, joita on käytetty laittomissa toiminnoissa.
   - Bitcoinit, jotka on menetetty tai unohdettu.
   - Bitcoinit, jotka on säilytetty lompakossa pitkän aikaa.
-explanation: |
+selitys: |
   Neitseelliset bitcoinit ovat juuri louhittuja bitcoineja, joita ei ole koskaan käytetty
   eikä niihin liity mitään historiaa. Näitä bitcoineja pidetään usein arvokkaampina,
   koska ne eivät ole koskaan saastuneet, tarjoten jonkinlaisen takuun hylkäämisen vastaisesti
   sääntelijöiden tai suurten vaihtoalustojen toimesta.
-reviewed: false
+arvioitu: false

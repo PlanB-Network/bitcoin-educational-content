@@ -1,11 +1,11 @@
-question: Kuinka Bitcoin voi mahdollisesti auttaa ekologisessa siirtymässä?
-answer: Se edistää vihreän energian käyttöä
-wrong_answers:
+kysymys: Kuinka Bitcoin voi mahdollisesti auttaa ekologisessa siirtymässä?
+vastaus: Se edistää vihreän energian käyttöä
+väärät_vastaukset:
   - Se vähentää tavaroiden tuotantoa
   - Se säätelee resurssien kulutusta
   - Se rajoittaa kasvihuonekaasujen päästöjä
-explanation: >-
+selitys: >-
   Bitcoin edistää vihreän energian käyttöä, mikä voi mahdollisesti auttaa
   ekologisessa siirtymässä. Esimerkiksi öljykaivojen liekit, jotka polttavat
   metaania estääkseen saastumisen, voidaan sammuttaa Bitcoin-louhijoiden toimesta.
-reviewed: false
+arvioitu: false

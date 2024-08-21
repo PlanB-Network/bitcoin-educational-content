@@ -1,0 +1,13 @@
+kysymys: Mikä on pääasiallinen haittapuoli käytettäessä Toria Bitcoin-nodessa?
+
+vastaus: Viestinnän nopeuden väheneminen
+
+vaarat_vastaukset:
+  - Transaktiomaksujen kasvu
+  - Transaktion sensuurin riski
+  - Eclipsen hyökkäyksen riski nodessa
+
+selitys: |
+  Viestintä Torin kautta on hitaampaa. Tämä viive on erityisen ongelmallinen noden ensimmäisen käynnistyksen aikana, koska IBD (Initial Block Download) vaatii paljon viestintää.
+
+arvioitu: false

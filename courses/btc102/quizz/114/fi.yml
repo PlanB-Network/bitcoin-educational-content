@@ -1,9 +1,9 @@
-question: Mikä on perintösuunnitelman tarkoitus Bitcoinissa?
-answer: Varmistaa, että läheisesi voivat päästä käsiksi Bitcoineihisi kuolemasi jälkeen.
-wrong_answers:
+kysymys: Mikä on perintösuunnitelman tarkoitus Bitcoinissa?
+vastaus: Varmistaa, että läheisesi voivat päästä käsiksi Bitcoineihisi kuolemasi jälkeen.
+väärät_vastaukset:
   - Louhia uusia Bitcoineja.
   - Käydä kauppaa Bitcoineilla.
   - Muuntaa Bitcoinit toisiin kryptovaluuttoihin.
-explanation: |
+selitys: |
   Perintösuunnitelma Bitcoinissa on suunnitelma, joka varmistaa, että läheisesi voivat päästä käsiksi Bitcoineihisi kuolemasi jälkeen. Sitä ei käytetä uusien Bitcoinien louhimiseen, Bitcoinien kauppaamiseen tai Bitcoinien muuntamiseen toisiin kryptovaluuttoihin.
-reviewed: false
+arvioitu: false

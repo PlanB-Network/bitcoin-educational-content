@@ -1,9 +1,9 @@
-question: Mitkä ovat joitakin parhaita käytäntöjä, joita paranoidi Bitcoin-käyttäjä saattaisi opetella?
-answer: Kolikoiden sekoittaminen ja UTXO-hallinta
-wrong_answers:
+kysymys: Mitkä ovat joitakin parhaita käytäntöjä, joita paranoidi Bitcoin-käyttäjä saattaisi opetella?
+vastaus: Kolikoiden sekoittaminen ja UTXO-hallinta
+väärät_vastaukset:
   - Miten luottaa keskitettyihin järjestelmiin
   - Miten jakaa henkilökohtaisia tietoja turvallisesti
   - Miten käyttää luottokorttia Bitcoinin ostamiseen verkossa
-explanation: |
+selitys: |
   Luvussa mainitaan, että paranoidi Bitcoin-käyttäjä saattaisi opetella parhaita käytäntöjä, kuten kolikoiden sekoittamista ja UTXO-hallintaa osana heidän keskittymistään yksityisyyteen ja turvallisuuteen.
-reviewed: false
+arvioitu: false

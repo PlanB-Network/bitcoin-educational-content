@@ -1,9 +1,9 @@
-question: Mikä on yleinen huijaus, joka liittyy verkossa järjestettäviin kilpailuihin tai lahjoituksiin kryptoalalla?
-answer: Mainokset, jotka lupaavat ilmaisia bitcoineja.
-wrong_answers:
+kysymys: Mikä on yleinen huijaus, joka liittyy verkossa järjestettäviin kilpailuihin tai lahjoituksiin kryptoalalla?
+vastaus: Mainokset, jotka lupaavat ilmaisia bitcoineja.
+väärät_vastaukset:
   - Mainokset, jotka lupaavat fyysisiä tuotteita.
   - Mainokset, jotka lupaavat ilmaista fiat-valuuttaa.
   - Mainokset, jotka lupaavat ilmaista ohjelmistoa.
-explanation: |
+selitys: |
   Huijaukset, jotka liittyvät verkossa järjestettäviin kilpailuihin tai lahjoituksiin, ovat hyvin yleisiä kryptoalalla. Mainokset, jotka lupaavat ilmaisia bitcoineja, käytetään usein harhauttamaan kokemattomia käyttäjiä.
-reviewed: false
+arvioitu: false

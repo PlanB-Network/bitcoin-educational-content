@@ -1,6 +1,6 @@
 ---
-name: Lisäämässä Opetusvälineitä
-description: Miten lisätä uusia opetusmateriaaleja PlanB-verkkoon?
+nimi: Lisäämässä Opetusvälineitä
+kuvaus: Miten lisätä uusia opetusmateriaaleja PlanB-verkkoon?
 ---
 ![tapahtuma](assets/cover.webp)
 
@@ -12,11 +12,7 @@ Haluatko osallistua tämän tietokannan rikastuttamiseen, mutta et tiedä miten?
 
 *On ehdottoman tärkeää, että sivustoon integroitu sisältö on oikeuksista vapaa tai kunnioittaa lähdetiedoston lisenssiä. Lisäksi kaikki PlanB-verkostossa julkaistut visuaalit ovat saatavilla [CC-BY-SA](https://creativecommons.org/licenses/by-sa/4.0/) -lisenssin alaisina.*
 ![tapahtuma](assets/01.webp)
-- Ensimmäiseksi sinun on oltava tili GitHubissa. Jos et tiedä, miten tili luodaan, olemme tehneet yksityiskohtaisen oppaan, joka opastaa sinua.
-
-https://planb.network/tutorials/others/create-github-account
-
-
+- Ensimmäiseksi sinun on oltava tili GitHubissa. Jos et tiedä, miten tili luodaan, olemme tehneet [yksityiskohtaisen oppaan, joka opastaa sinua](https://planb.network/tutorials/others/create-github-account).
 - Mene [PlanB:n GitHub-repositorioon, joka on omistettu datalle](https://github.com/DecouvreBitcoin/sovereign-university-data/tree/dev/resources/bet) `resources/bet/` -osiossa:
 ![tapahtuma](assets/02.webp)
 - Klikkaa oikeassa yläkulmassa `Add file` -painiketta, sitten `Create new file`:
@@ -47,11 +43,7 @@ contributors:
 ```
 
 Tässä ovat tiedot, jotka sinun tulee täyttää kullekin kentälle:
-- **`builder`**: Ilmoita organisaatiosi tunniste PlanB-verkostossa. Jos sinulla ei vielä ole "builder"-tunnistetta yrityksellesi, voit luoda sellaisen seuraamalla tätä opasta.
-
-https://planb.network/tutorials/others/add-builder
-
- Jos sinulla ei ole tunnistetta, voit yksinkertaisesti käyttää nimeäsi, nimimerkkiäsi tai yrityksesi nimeä ilman, että olet luonut builder-profiilia.
+- **`builder`**: Ilmoita organisaatiosi tunniste PlanB-verkostossa. Jos sinulla ei vielä ole "builder"-tunnistetta yrityksellesi, voit luoda sellaisen [seuraamalla tätä opasta](https://planb.network/tutorials/others/add-builder). Jos sinulla ei ole tunnistetta, voit yksinkertaisesti käyttää nimeäsi, nimimerkkiäsi tai yrityksesi nimeä ilman, että olet luonut builder-profiilia.
 - **`type`**: Valitse sisältösi luonne seuraavista kahdesta vaihtoehdosta:
 	- `Educational Content` opetussisällölle.
 	- `Visual Content` muun tyyppisille moninaisille sisällöille.
@@ -83,7 +75,7 @@ links:
 ![event](assets/09.webp)
 - Kun olet saanut tiedoston muokkaukset valmiiksi, tallenna ne napsauttamalla `Commit changes...` -painiketta:
 ![event](assets/10.webp)
-- Lisää otsikko muutoksillesi sekä lyhyt description:
+- Lisää otsikko muutoksillesi sekä lyhyt kuvaus:
 ![event](assets/11.webp)
 - Napsauta vihreää `Propose changes` -painiketta:
 ![event](assets/12.webp)
@@ -180,7 +172,7 @@ Mitä tässä teemme, on tulevan tiedostosi linkin ennakoiminen, kun ehdotuksesi
 ![tapahtuma](assets/48.webp)
 - Kun muutoksesi ovat valmiit, napsauta `Commit changes...` -painiketta:
 ![tapahtuma](assets/49.webp)
-- Lisää muutoksillesi otsikko sekä lyhyt description:
+- Lisää muutoksillesi otsikko sekä lyhyt kuvaus:
 ![tapahtuma](assets/50.webp)
 - Napsauta vihreää `Commit changes` -painiketta:
 ![tapahtuma](assets/51.webp)

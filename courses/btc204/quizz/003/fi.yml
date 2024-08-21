@@ -1,9 +1,9 @@
-question: Mikä on Bitcoin-siirron vaikutus lähtöjen UTXOihin?
-answer: Se luo ne käyttämällä syötteissä kulutettuja UTXOja.
-wrong_answers:
+kysymys: Mikä on Bitcoin-siirron vaikutus lähtöjen UTXOihin?
+vastaus: Se luo ne käyttämällä syötteissä kulutettuja UTXOja.
+väärät_vastaukset:
   - Se kuluttaa ne tyydyttääkseen syötteet.
   - Se salaa ne vastaanottajan anonymisoimiseksi.
   - Se jakaa ne väliaikaisesti varmennusta varten.
-explanation: |
+selitys: |
   Siirron lähtöjen UTXOt luodaan kuluttamalla syötteiden UTXOt. Se on tavallaan rahan määränpää.
-reviewed: false
+arvioitu: false

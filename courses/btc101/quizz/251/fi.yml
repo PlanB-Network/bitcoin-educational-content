@@ -1,10 +1,10 @@
-question: Mikä on yksi pääongelmista sensuurissa?
-answer: Se voi tuhota ilmaisunvapauden ja kokoontumisvapauden.
-wrong_answers:
+kysymys: Mikä on yksi pääongelmista sensuurissa?
+vastaus: Se voi tuhota ilmaisunvapauden ja kokoontumisvapauden.
+väärät_vastaukset:
   - Se voi johtaa ilmaisunvapauden lisääntymiseen.
   - Se voi johtaa kokoontumisvapauden lisääntymiseen.
   - Se voi johtaa innovaation vähenemiseen.
-explanation: >-
+selitys: >-
   Tekstissä mainitaan, että sensuurin salliminen voi tuhota ilmaisunvapauden
   ja kokoontumisvapauden.
-reviewed: false
+arvioitu: false

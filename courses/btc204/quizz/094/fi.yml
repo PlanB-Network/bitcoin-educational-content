@@ -1,0 +1,13 @@
+kysymys: Seuraavista vastauksista, mikä ei ole suositeltu käytäntö hallitakseen omaa doxxic-muutostaan?
+
+vastaus: Doxxic UTXO:iden yhdistäminen yhteen.
+
+väärät_vastaukset:
+  - Doxxic UTXO:iden sekoittaminen pienemmässä altaassa.
+  - Lahjoittaminen omat doxxic UTXO:nsa.
+  - Merkitseminen omat doxxic UTXO:nsa käyttökelvottomiksi.
+
+selitys: |
+  On neuvottu välttämään doxxic UTXO:iden yhdistämistä yhteen, sillä tämä mahdollistaa yhteyksien muodostamisen eri käyttäjien syötteiden välille Whirlpoolissa.
+
+arvioitu: false

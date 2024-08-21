@@ -1,0 +1,5 @@
+---
+termi: VAIHDETTAVUUS
+---
+
+Ominaisuus valuutassa, joka varmistaa, että jokainen yksikkö on vaihdettavissa ja erottamaton toisesta vastaavasta yksiköstä. Bitcoin, yksikkönä laskettuna, on periaatteessa vaihdettava, koska yksi bitcoin on aina yhtä arvokas kuin toinen bitcoin: 1 BTC = 1 BTC. Kuitenkin UTXO:iden (yksiköitä tukeva mekanismi) jäljitettävyys lohkoketjussa voi joskus vaarantaa tämän vaihdettavuuden. Itse asiassa jokaista satoshia voidaan erottaa sen historian perusteella, mikä antaa sille erityisen identiteetin. Kunkin UTXO:n historian havaitseminen voi vaikuttaa osapuolten arvioon käytettyjen bitcoinien vaihdettavuudesta. Näin ollen, vaikka vaihdettavuus on rahayksiköiden sisäänrakennettu ominaisuus, se voi muuttua käytetyn välineen erityispiirteiden vuoksi, kuten Bitcoinin tapauksessa.

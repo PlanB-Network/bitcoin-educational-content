@@ -1,0 +1,11 @@
+kysymys: Mitä salausmenetelmää voidaan käyttää kolikoidenvaihdossa varmistamaan vaihdon turvallisuus ilman luottamuksen tarvetta?
+
+vastaus: Sovittimet allekirjoitukset
+
+väärät_vastaukset:
+  - Symmetrinen salaus
+  - ECDH
+  - Asymmetrinen salaus
+
+selitys: |
+  Kolikoidenvaihdon suorittamiseksi voidaan käyttää HTLC- tai PTLC-protokollia. Nämä kaksi protokollaa toimivat samankaltaisella tavalla käyttäen aikalukkojärjestelmää, joka varmistaa, että vaihto joko suoritetaan onnistuneesti tai peruutetaan kokonaan, mikä suojaa molempien osapuolten varojen eheyttä. HTLC- ja PTLC-protokollien pääero on, että HTLC:t käyttävät haseja ja esikuvia transaktion turvaamiseen, kun taas PTLC:t käyttävät Sovittimet allekirjoituksia.

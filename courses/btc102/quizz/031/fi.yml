@@ -1,11 +1,11 @@
-question: Mikä on Bitcoin-lompakoiden tarkoitus?
-answer: Lähettää ja vastaanottaa bitcoineja
-wrong_answers:
+kysymys: Mikä on Bitcoin-lompakoiden tarkoitus?
+vastaus: Lähettää ja vastaanottaa bitcoineja
+vaarat_vastaukset:
   - Louhia bitcoineja
   - Säilyttää fyysisiä bitcoineja
   - Muuntaa bitcoineja toisiin valuuttoihin
-explanation: |
+selitys: |
   Bitcoin-lompakoita käytetään bitcoinejen lähettämiseen ja vastaanottamiseen. Ne ovat digitaalisia
   lompakoita, jotka säilyttävät digitaaliset tunnistetiedot, jotka ovat tarpeen bitcoin-osoitteeseen pääsemiseksi
   ja bitcoinien käyttämiseksi.
-reviewed: false
+arvioitu: false

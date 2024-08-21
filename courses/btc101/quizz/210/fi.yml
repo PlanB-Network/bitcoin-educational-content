@@ -1,9 +1,9 @@
-question: Mikä maa on julistanut Bitcoinin lailliseksi maksuvälineeksi?
-answer: El Salvador
-wrong_answers:
+kysymys: Mikä maa on julistanut Bitcoinin lailliseksi maksuvälineeksi?
+vastaus: El Salvador
+väärät_vastaukset:
   - Yhdysvallat
   - Kiina
   - Intia
-explanation: >-
+selitys: >-
   El Salvador on ottanut rohkean askeleen hyväksymällä Bitcoinin kokonaisuudessaan ja julistamalla sen lailliseksi maksuvälineeksi.
-reviewed: false
+arvioitu: false

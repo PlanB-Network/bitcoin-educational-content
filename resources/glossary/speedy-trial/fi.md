@@ -1,0 +1,9 @@
+---
+termi: SPEEDY TRIAL
+---
+
+Aktivointimenetelmä pehmeälle haarautumiselle (soft fork), joka alun perin suunniteltiin Taprootille vuoden 2021 alussa David A. Hardingin toimesta Russell O'Connorin idean pohjalta. Sen periaatteena on käyttää BIP8-menetelmää `LOT`-parametrin ollessa asetettuna arvoon `false`, samalla kun aktivointiaika lyhennetään vain kolmeen kuukauteen. Tämä lyhennetty äänestysaika mahdollistaa nopean louhijoiden hyväksynnän varmistamisen. Jos vaadittu hyväksyntäkynnys saavutetaan jonakin ajanjaksona, pehmeä haarautuminen lukitaan paikoilleen. Se aktivoidaan useita kuukausia myöhemmin, antaen näin louhijoille tarvittavan ajan ohjelmistonsa päivittämiseen.
+
+Tämän menetelmän menestys Taprootille, joka nautti laajaa konsensusta Bitcoin-yhteisön sisällä, ei kuitenkaan takaa sen tehokkuutta kaikille päivityksille. Vaikka Speedy Trial -menetelmä mahdollistaa nopeamman aktivoinnin, jotkut kehittäjät ilmaisevat huolensa sen tulevasta käytöstä. He pelkäävät, että se voisi johtaa liian nopeaan pehmeiden haarautumisten sarjaan, mikä voisi potentiaalisesti uhata Bitcoin-protokollan vakautta ja turvallisuutta. Verrattuna BIP8:aan `LOT=true`-parametrin kanssa, Speedy Trial -menetelmä on paljon vähemmän uhkaava louhijoille. UASF:a (User Activated Soft Fork) ei ole suunniteltu automaattisesti. Tätä aktivointimenetelmää ei ole vielä virallisesti muotoiltu BIP:n sisällä.
+
+> ► *Termi "Speedy Trial" on lainattu oikeudellisesta terminologiasta, joka viittaa "nopeutettuun oikeudenkäyntiin". Tämä tuo esiin sen, että parannusehdotus tuodaan nopeasti louhijoiden tuomioistuimen eteen, jotta voidaan määrittää heidän aikomuksensa. On yleisesti hyväksyttyä käyttää englanninkielistä termiä suoraan suomen kielessä.*

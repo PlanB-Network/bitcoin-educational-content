@@ -1,9 +1,9 @@
-question: Mikä mekanismi on käytössä verkossa toimivilla vertaisverkko (P2P) välitysalustoilla varkausriskin vähentämiseksi?
-answer: Escrow-mekanismi.
-wrong_answers:
+kysymys: Mikä mekanismi on käytössä verkossa toimivilla vertaisverkko (P2P) välitysalustoilla varkausriskin vähentämiseksi?
+vastaus: Escrow-mekanismi.
+väärät_vastaukset:
   - Turvallinen vastaavuusalgoritmi.
   - Sähköpostivarmennusmekanismi.
   - Henkilöllisyyden varmennusmekanismi.
-explanation: |
+selitys: |
   Nämä alustat käyttävät tyypillisesti suojamekanismia, jossa bitcoinit pidetään kolmannen osapuolen toimesta kunnes myyjä vahvistaa maksun fiat-valuutassa. Tämä kolmannen osapuolen toimesta tapahtuva pidättäminen edustaa sitä, mitä kutsutaan escrow-mekanismiksi.
-reviewed: false
+arvioitu: false

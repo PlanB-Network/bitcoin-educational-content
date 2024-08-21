@@ -1,10 +1,10 @@
-question: Mitä louhinta määrittää Bitcoinille?
-answer: Alarajan hinnan
-wrong_answers:
+kysymys: Mitä louhinta määrittää Bitcoinille?
+vastaus: Alarajan hinnan
+väärät_vastaukset:
   - Ylärajan hinnan
   - Kiinteän hinnan
   - Muuttuvan hinnan
-explanation: |
+selitys: |
   Louhinta määrittää Bitcoinille alarajan hinnan, jonka alapuolella louhijat
   myisivät tappiolla. Louhinnan kustannukset vaikuttavat merkittävästi Bitcoinin hintaan.
-reviewed: false
+arvioitu: false

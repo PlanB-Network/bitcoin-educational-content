@@ -1,10 +1,10 @@
-question: Mikä on suositeltu vähimmäisodotusaika Hodlerille?
-answer: Ainakin yksi tai kaksi sykliä.
-wrong_answers:
+kysymys: Mikä on suositeltu vähimmäisodotusaika Hodlerille?
+vastaus: Ainakin yksi tai kaksi sykliä.
+väärät_vastaukset:
   - Alle vuosi.
   - Viisi kymmenen vuotta.
   - Ei ole vähimmäisodotusaikaa.
-explanation: |
+selitys: |
   Luku ehdottaa, että Hodlerin tulisi odottaa vähintään yhden tai kahden
   syklin ajan nähdäkseen sijoituksensa kasvun.
-reviewed: false
+arvioitu: false

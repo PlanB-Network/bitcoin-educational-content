@@ -1,0 +1,5 @@
+---
+termi: BIP30
+---
+
+Ehdotus parannuksesta, joka liittyy pehmeään haarautumiseen (soft fork), toteutettu 15. maaliskuuta 2012, ratkaisemaan ongelman päällekkäisistä tapahtumatunnisteista. Ennen BIP30:ta oli teknisesti mahdollista, että lohkoketjussa oli kaksi eri tapahtumaa samalla tapahtumatunnisteella (TXID). Tämä tapahtui huomattavasti kahdesti coinbase-tapahtumille: block 91,880:ssa olevalla tapahtumalla on sama TXID kuin block 91,722:n coinbase-tapahtumalla, ja block 91,842:ssa olevalla tapahtumalla on sama TXID kuin block 91,812:n coinbase-tapahtumalla. BIP30 ratkaisi tämän puutteen asettamalla uuden yksinkertaisen säännön: yksikään uusi tapahtuma ei voi olla samalla TXID:llä kuin aiemmin kirjattu tapahtuma, paitsi jos alkuperäinen tapahtuma oli täysin käytetty (ts. kaikki sen lähdöt oli käytetty). Tämä pehmeä haarautuminen aktivoitiin käyttäen lippupäivämenetelmää. Näin ollen se on yksi ensimmäisistä UASF:ista.

@@ -1,0 +1,5 @@
+---
+termi: OP_CHECKMULTISIG (0XAE)
+---
+
+Tarkistaa useita allekirjoituksia vasten useita julkisia avaimia. Se ottaa syötteenä sarjan `N` julkista avainta ja `M` allekirjoitusta, missä `M` voi olla yhtä suuri tai pienempi kuin `N`. `OP_CHECKMULTISIG` varmistaa, että vähintään `M` allekirjoitusta vastaa `M`:ää `N` julkisesta avaimesta. Huomaa, että historiallisen yhden verran vähemmän -virheen vuoksi `OP_CHECKMULTISIG` poistaa ylimääräisen elementin pinosta. Tätä elementtiä kutsutaan "*tyhjäelementiksi*". Välttääkseen virheen `scriptSig`:ssä, `OP_0`, joka on hyödytön elementti, sisällytetään täyttämään poiston vaatimus ja ohittamaan virhe. BIP147:n (johdettu SegWitin kanssa vuonna 2017) myötä virheen vuoksi kulutetun hyödyttömän elementin on oltava `OP_0`, jotta skripti olisi validi, koska se oli muunneltavuusvektori. Tämä operaatiokoodi poistettiin Tapscriptissä.

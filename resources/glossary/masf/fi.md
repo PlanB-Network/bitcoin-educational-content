@@ -1,0 +1,5 @@
+---
+termi: MASF
+---
+
+Lyhenne sanoista "*Miner-Activated Soft Fork*". Se kuvaa pehmeää haarautumista Bitcoinissa, kun sen aktivointi tapahtuu louhijoiden toimesta. MASF viittaa joukkoon pehmeän haarautumisen aktivointimenetelmiä Bitcoinissa. Näissä lähestymistavoissa louhijat ilmaisevat suostumuksensa ja valmiutensa protokollapäivitykseen louhimalla lohkoja, jotka tukevat pehmeän haarautumisen lukitsemista. Jos merkittävä enemmistö louhijoista äänestää pehmeän haarautumisen puolesta, päivitys katsotaan hyväksytyksi ja se aktivoidaan myöhemmin. Tämä prosessi auttaa välttämään lohkoketjun jakautumisen ja säilyttämään verkon yhtenäisyyden. MASF on suosittu sen lempeämmän, konsensukseen perustuvan lähestymistavan vuoksi, mikä vähentää lohkoketjun jakautumisen riskiä samalla varmistaen, että suurin osa laskentatehosta tukee uutta päivitystä. Aktivointimenetelmät kuten BIP34, BIP9, BIP8 (jos `LOT=false` tai jos äänestyskynnys saavutetaan) tai Speedy Trial ovat esimerkkejä MASF:sta.

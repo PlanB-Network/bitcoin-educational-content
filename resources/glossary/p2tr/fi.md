@@ -1,0 +1,9 @@
+---
+termi: P2TR
+---
+
+P2TR tarkoittaa *Pay to Taprootia*, joka on standardi skriptimalli, jota käytetään määrittämään kulutusehdot UTXO:lle (Käyttämätön Siirtotapahtuman Tuotos). Se otettiin käyttöön Taprootin toteutuksen yhteydessä marraskuussa 2021. P2TR hyödyntää Schnorr-protokollaa kryptografisten avainten aggregoimiseen sekä Merkle-puita vaihtoehtoisille skripteille, joita kutsutaan MASTiksi (*Merkelized Alternative Script Tree*). Toisin kuin perinteisissä siirroissa, joissa kulutusehdot ovat julkisesti nähtävillä (joskus vastaanottaessa, joskus kuluttaessa), P2TR mahdollistaa monimutkaisten skriptien piilottamisen yhden näennäisen julkisen avaimen taakse.
+
+Teknisesti P2TR-skripti lukitsee bitcoinit yksilölliselle Schnorrin julkiselle avaimelle, jota merkitään $K$. Tämä avain $K$ on kuitenkin itse asiassa yhdistelmä julkista avainta $P$ ja julkista avainta $M$, jälkimmäinen lasketaan `scriptPubKey`-luettelon Merkle-juuresta. P2TR-skriptillä lukitut bitcoinit voidaan kuluttaa kahdella erillisellä tavalla: joko julkaisemalla allekirjoitus julkiselle avaimelle $P$, tai täyttämällä yksi Merkle-puussa olevista skripteistä. Ensimmäistä vaihtoehtoa kutsutaan "*avainpoluksi*" ja toista "*skriptipoluksi*".
+
+Näin ollen P2TR mahdollistaa käyttäjille bitcoinien lähettämisen joko julkiselle avaimelle tai useille valitsemilleen skripteille. Tämän skriptin toinen etu on, että vaikka P2TR-tuloksen kuluttamiseen on useita tapoja, vain käytetty tapa tarvitsee paljastaa kulutushetkellä, mikä mahdollistaa käyttämättömien vaihtoehtojen pysymisen yksityisinä. P2TR on version 1 SegWit-tulos, mikä tarkoittaa, että P2TR-syötteiden allekirjoitukset tallennetaan siirron todistusosaan, eikä `scriptSig`-osaan. P2TR-osoitteet käyttävät `Bech32m`-koodausta ja alkavat `bc1p`:llä.

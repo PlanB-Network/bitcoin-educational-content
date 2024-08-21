@@ -1,0 +1,9 @@
+---
+termi: FORK
+---
+
+Termillä "fork" on useita merkityksiä Bitcoinin kontekstissa. Se voi viitata joko verkon solmujen jakautumiseen useisiin erillisiin ryhmiin, mikä johtaa useiden eri lohkoketjujen luomiseen, tai protokollasääntöjen muokkaukseen, tai molempiin samanaikaisesti. Yksinkertaistaaksemme voimme erottaa 4 pääkategoriaa forkeista:
+* Luonnollinen fork: tapahtuu, kun kaksi lohkoa löydetään samanaikaisesti samalla korkeudella, mikä johtaa tilapäiseen kilpailuun niiden välillä. Tämä fork voi jatkua usean lohkon ajan. Tämäntyyppinen fork ratkeaa luonnollisesti, kun toinen ketjuista tulee pidemmäksi kuin toinen (kertyneen työn määrällä mitattuna), mikä johtaa uudelleenjärjestelyyn. Tämä uudelleenjärjestely ilmenee, kun kaikki solmut pääsevät jälleen yksimielisyyteen yhdestä lohkoketjusta;
+* Koodifork: sisältää uuden kryptovaluutan luomisen Bitcoinin lähdekoodista, käynnistämällä uuden lohkoketjun Genesis-lohkosta;
+* Kovafork: edustaa Bitcoin-protokollan muokkausta, joka on yhteensopimaton aiempien versioiden kanssa, poistamalla sääntöjä tai helpottamalla olemassa olevia. Tämä johtaa kahden erillisen ja yhteensopimattoman ketjun luomiseen, jos kaikkia solmuja ei päivitetä. Verkko jakautuu kahtia: niihin, jotka omaksuvat uudet säännöt, ja niihin, jotka säilyttävät vanhat;
+* Pehmeä fork: sisältää taaksepäin yhteensopivia muutoksia, jotka lisäävät sääntöjä tai tekevät olemassa olevista säännöistä tiukempia, aiheuttamatta verkon jakautumista. Solmut, jotka eivät omaksu uusia sääntöjä, voivat jatkaa saman ketjun seuraamista kuin muutkin, edellyttäen, että suurin osa verkon laskentatehosta tukee päivitettyä ketjua.

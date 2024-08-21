@@ -1,11 +1,11 @@
-question: Mikä on Bitcoin Core -kehittäjien päärooli?
-answer: He ovat vastuussa Bitcoin-protokollan ja sen keskeisten ominaisuuksien pääkehityksestä
-wrong_answers:
+kysymys: Mikä on Bitcoin Core -kehittäjien päärooli?
+vastaus: He ovat vastuussa Bitcoin-protokollan ja sen keskeisten ominaisuuksien pääkehityksestä
+väärät_vastaukset:
   - He hallitsevat Bitcoin-verkkoa
   - He luovat uusia bitcoineja
   - He säätelevät Bitcoinin hintaa
-explanation: |
+selitys: |
   Luvun sisältö selittää, että Bitcoin Core -kehittäjät ovat vastuussa
   Bitcoin-protokollan ja sen keskeisten ominaisuuksien pääkehityksestä. He eivät
   hallitse Bitcoin-verkkoa, luo uusia bitcoineja, tai säätele Bitcoinin hintaa.
-reviewed: false
+arvioitu: false

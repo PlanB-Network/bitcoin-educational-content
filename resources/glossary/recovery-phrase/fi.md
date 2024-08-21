@@ -1,0 +1,9 @@
+---
+termi: PALAUTUSLAUSEKE
+---
+
+Palautuslauseke, jota joskus kutsutaan myös mnemoniseksi lauseeksi, siemenlausekkeeksi tai salaisuuslauseeksi, on yleensä 12 tai 24 sanasta koostuva järjestys, joka on generoitu pseudo-satunnaisesti entropian lähteestä. Pseudo-satunnainen järjestys saadaan aina päätökseen tarkistussummalla. Mnemoninen lause, yhdessä valinnaisen salasanalauseen kanssa, käytetään deterministisesti johdettavien kaikkien avainten, jotka liittyvät HD (Hierarkkinen Deterministinen) lompakkoon, muodostamiseen. Tämä tarkoittaa, että tästä lauseesta on mahdollista deterministisesti generoida ja uudelleen luoda kaikki Bitcoin-lompakon yksityiset ja julkiset avaimet ja siten päästä käsiksi siihen liittyviin varoihin. Palautuslausekkeen tarkoitus on tarjota keino varmuuskopioinnille ja bitcoinien palauttamiselle tavalla, joka on sekä turvallinen että helppokäyttöinen.
+
+On tärkeää säilyttää tämä lause turvallisessa ja suojatussa paikassa, sillä kuka tahansa, jolla on pääsy mnemoniseen lauseeseen, pääsisi käsiksi vastaavan lompakon varoihin. Perinteisen lompakon kontekstissa käytettynä, ja ilman valinnaista salasanalausetta, se muodostaa usein SPOF:n (Single Point Of Failure, yksittäinen vikapiste). Palautuslauseke on siis koodaus pseudo-satunnaisesta järjestyksestä ja tarkistussummasta arkipäiväisiin sanoihin, jotta sen merkitseminen ja ihmisten luettavuus helpottuisivat. Se on rakennettu BIP39-standardin mukaisesti, joka määrittelee ja järjestää 2048 sanan listan tätä koodausta varten.
+
+> ► *BIP39:n 2048 sanan lista on saatavilla useilla kielillä, mutta on suositeltavaa käyttää vain englanninkielistä versiota, koska se on lompakko-ohjelmiston laajimmin tukema versio.*

@@ -1,0 +1,9 @@
+---
+termi: PRIVATE KEY
+---
+
+Private key on asymmetrisen kryptografian peruselementti. Se on numero (256 bittiä Bitcoinin kontekstissa), joka edustaa kryptografista salaisuutta. Tätä avainta käytetään digitaalisesti allekirjoittamaan siirtoja ja todistamaan Bitcoinin julkisen avaimen (ja siten vastaanotto-osoitteen) omistajuus täyttämällä `scriptPubKey`. Näin ollen private keyt mahdollistavat bitcoinien käyttämisen avaamalla vastaavan julkisen avaimen yhteydessä olevat UTXO:t. Private keyt on pidettävä ehdottoman luottamuksellisina, sillä niiden paljastuminen voisi mahdollistaa pahantahtoisten kolmansien osapuolien pääsyn liittyviin varoihin.
+
+Bitcoin-järjestelmässä private key on yhdistetty julkiseen avaimen digitaalisen allekirjoitus algoritmin kautta käyttäen elliptisiä käyriä (ECDSA tai Schnorr). Julkinen avain johdetaan private keystä, mutta päinvastainen on käytännössä mahdotonta saavuttaa johtuen laskennallisen vaikeuden luonteesta, joka liittyy taustalla olevan matemaattisen ongelman (diskreetin logaritmin ongelma) ratkaisemiseen. Julkista avainta käytetään yleensä Bitcoin-osoitteen luomiseen, jota käytetään bitcoinien lukitsemiseen skriptin avulla. Kryptografiassa private keyt ovat usein satunnaisia tai pseudosatunnaisia numeroita. Bitcoinin determinististen ja hierarkkisten lompakoiden erityiskontekstissa private keyt johdetaan deterministisesti siemenestä. Private keyt sekoitetaan usein siemenen tai palautusfraasin (mnemonisen) kanssa. Kuitenkin nämä elementit ovat erillisiä.
+
+> ► *Englanniksi private key kutsutaan "private keyksi". Tätä termiä lyhennetään joskus "privkeyksi" tai "PV:ksi".*

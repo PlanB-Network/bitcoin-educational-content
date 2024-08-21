@@ -1,8 +1,8 @@
-question: Mikä on sisäisten transaktioheuristiikkojen tavoite?
-answer: Tunnistaa vaihto.
-wrong_answers:
+kysymys: Mikä on sisäisten transaktioheuristiikkojen tavoite?
+vastaus: Tunnistaa vaihto.
+väärät_vastaukset:
   - Tunnistaa petolliset transaktiot reaaliajassa.
   - Tunnistaa transaktiokuvioita.
   - Tunnistaa samaan entiteettiin kuuluva klusteri.
-explanation: |
+selitys: |
   Sisäiset heuristiikat mahdollistavat meidän tunnistaa vaihdon tavoitteena tarkkailla käyttäjää myöhemmissä transaktioissa.

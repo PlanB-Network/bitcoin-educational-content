@@ -1,11 +1,11 @@
-question: Mikä on OpenNode?
-answer: Yksinkertainen verkkoratkaisu yrityksille hyväksyä Bitcoin
-wrong_answers:
+kysymys: Mikä on OpenNode?
+vastaus: Yksinkertainen verkkoratkaisu yrityksille hyväksyä Bitcoin
+väärät_vastaukset:
   - Bitcoinin tyyppi
   - Bitcoinin louhintaohjelmisto
   - Bitcoinin vaihtoalusta
-explanation: >-
+selitys: >-
   OpenNode on yksinkertainen verkkoratkaisu yrityksille hyväksyä Bitcoin.
   Muita ratkaisuja ovat Swiss Bitcoin Pay harrastelijakauppiaille ja BTCpay Server
   suurille rakenteille tai intohimoisille bitcoin-käyttäjille.
-reviewed: false
+arvioitu: false

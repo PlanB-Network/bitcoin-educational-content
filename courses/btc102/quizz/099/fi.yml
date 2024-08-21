@@ -1,8 +1,8 @@
-question: Mikä on paranoidin Bitcoin-käyttäjän mielenlaatu Bitcoinia käytettäessä?
-answer: Varovaisuus, turvallisuus ja nimettömyys ovat ensisijaisen tärkeitä
-wrong_answers:
+kysymys: Mikä on paranoidin Bitcoin-käyttäjän mielenlaatu Bitcoinia käytettäessä?
+vastaus: Varovaisuus, turvallisuus ja nimettömyys ovat ensisijaisen tärkeitä
+väärät_vastaukset:
   - Luottamus, avoimuus ja läpinäkyvyys ovat ensisijaisen tärkeitä
   - Riskinotto, luottamus ja avoimuus ovat ensisijaisen tärkeitä
   - Tietämättömyys, luottamus ja läpinäkyvyys ovat ensisijaisen tärkeitä
-explanation: |
+selitys: |
   Luku kuvailee paranoidin Bitcoin-käyttäjän mielenlaatua sellaisena, jossa varovaisuus, turvallisuus ja nimettömyys ovat ensisijaisen tärkeitä.

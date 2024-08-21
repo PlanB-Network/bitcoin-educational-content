@@ -379,6 +379,7 @@ https://planb.network/tutorials/others/bitwarden
 ## バックアップの設定
 <chapterId>01cfcde1-77cb-506c-8df1-fa18a2e8cc6b</chapterId>
 https://planb.network/tutorials/others/proton-drive
+https://planb.network/tutorials/others/veracrypt
 ![ビデオ](https://youtu.be/wTJnlSUkDRI)
 
 ## ブラウザとVPNの変更

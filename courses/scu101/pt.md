@@ -386,6 +386,7 @@ https://planb.network/tutorials/others/bitwarden
 ## Configuração de Backup
 <chapterId>01cfcde1-77cb-506c-8df1-fa18a2e8cc6b</chapterId>
 https://planb.network/tutorials/others/proton-drive
+https://planb.network/tutorials/others/veracrypt
 ![video](https://youtu.be/wTJnlSUkDRI)
 
 ## Mudança de navegador & VPN

@@ -6,14 +6,14 @@ description: Comment chiffrer facilement un support de stockage ?
 
 De nos jours, il est important de mettre en place une stratégie pour garantir l'accessibilité, la sécurité et la sauvegarde de vos fichiers, tels que vos documents personnels, vos photos ou vos projets importants. La perte de ces données peut être catastrophique.
 
-Pour prévenir ces problèmes, je vous conseille de maintenir plusieurs sauvegardes de vos fichiers sur des supports différents. Une méthode généralement utilisée en informatique est la stratégie de sauvegarde du "_3-2-1_", qui assure la protection de vos fichiers :
+Pour prévenir ces problèmes, je vous conseille de maintenir plusieurs sauvegardes de vos fichiers sur des supports différents. Une méthode généralement utilisée en informatique est la stratégie de sauvegarde du "3-2-1", qui assure la protection de vos fichiers :
 - **3** copies de vos fichiers ;
 - Sauvegardées sur au moins **2** types de supports différents ;
 - Avec au moins **1** copie conservée hors site.
 
 Autrement dit, il est conseillé d'enregistrer vos fichiers à 3 endroits différents, en utilisant des supports de nature différente, tels que votre ordinateur, un disque dur externe, une clé USB ou un service de stockage en ligne. Et enfin, avoir une copie hors site signifie que vous devriez avoir une sauvegarde stockée en dehors de votre maison ou de votre entreprise. Ce dernier point permet d'éviter la perte totale de vos fichiers en cas de sinistres locaux tels que des incendies ou des inondations. Une copie externe, éloignée de votre domicile ou de votre entreprise, assure que vos données survivront indépendamment des risques locaux.
 
-Pour mettre en place facilement cette stratégie de sauvegarde 3-2-1, vous pouvez opter pour une solution de stockage en ligne, en synchronisant automatiquement ou périodiquement les fichiers de votre ordinateur avec ceux de votre cloud. Parmi ces solutions de sauvegarde en ligne, il y évidemment celles des grandes entreprises du numérique que vous connaissez : Google Drive, Microsoft OneDrive ou encore Apple iCloud. Cependant, ce ne sont pas les meilleures solutions pour protéger votre vié privée. Dans un tutoriel précédent, je vous ai présenté une alternative qui chiffre vos documents pour une meilleure confidentialité : Proton Drive.
+Pour mettre en place facilement cette stratégie de sauvegarde 3-2-1, vous pouvez opter pour une solution de stockage en ligne, en synchronisant automatiquement ou périodiquement les fichiers de votre ordinateur avec ceux de votre cloud. Parmi ces solutions de sauvegarde en ligne, il y a évidemment celles des grandes entreprises du numérique que vous connaissez : Google Drive, Microsoft OneDrive ou encore Apple iCloud. Cependant, ce ne sont pas les meilleures solutions pour protéger votre vie privée. Dans un tutoriel précédent, je vous ai présenté une alternative qui chiffre vos documents pour une meilleure confidentialité : Proton Drive.
 
 https://planb.network/tutorials/others/proton-drive
 
@@ -21,7 +21,7 @@ En adoptant cette stratégie de sauvegarde locale et sur le cloud, vous bénéfi
 
 01
 
-Mais il est également important de penser a la sécurité de vos supports de données pour garantir que personne d'autre que vous ou vos proches ne puisse y accéder. Les données locales et en ligne sont normalement sécurisées. Sur votre ordinateur, vous avez probablement mis en place un mot de passe, et les disques durs des ordinateurs modernes sont souvent chiffrés par défaut. Concernant votre stockage en ligne (cloud), je vous ai montré dans un tutoriel précédent comment sécuriser votre compte avec un mot de passe robuste et une authentification à deux facteurs. Cependant, pour votre troisième copie stockée sur un support physique, la seule sécurité est sa possession physique. Si un cambrioleur parvient à voler votre clé USB ou votre disque dur externe, il pourra accéder facilement à toutes vos données.
+Mais il est également important de penser à la sécurité de vos supports de données pour garantir que personne d'autre que vous ou vos proches ne puisse y accéder. Les données locales et en ligne sont normalement sécurisées. Sur votre ordinateur, vous avez probablement mis en place un mot de passe, et les disques durs des ordinateurs modernes sont souvent chiffrés par défaut. Concernant votre stockage en ligne (cloud), je vous ai montré dans un tutoriel précédent comment sécuriser votre compte avec un mot de passe robuste et une authentification à deux facteurs. Cependant, pour votre troisième copie stockée sur un support physique, la seule sécurité est sa possession physique. Si un cambrioleur parvient à voler votre clé USB ou votre disque dur externe, il pourra accéder facilement à toutes vos données.
 
 02
 
@@ -39,7 +39,7 @@ VeraCrypt est un logiciel open source disponible sur Windows, macOS et Linux, qu
 
 Ce logiciel permet de créer et de maintenir des volumes chiffrés à la volée, c'est-à-dire que vos données sont automatiquement chiffrées avant d'être sauvegardées et déchiffrées avant d'être lues. Cette méthode vous garantit que vos données restent protégées même en cas de vol de votre support de stockage. Aussi VeraCrypt chiffre non seulement les fichiers, mais également les noms de fichiers, les métadonnées, les dossiers, et même l'espace libre sur votre support de stockage.
 
-Veracrypt peut être utilisé pour chiffrer des fichiers en local ou bien des partitions entières, y compris le disque système. Il peut également être utilisé pour chiffrer entièrement un support externe tel qu'une clé USB ou un disque comme nous allons le voir dans ce tutoriel.
+Veracrypt peut être utilisé pour chiffrer des fichiers en local, ou bien des partitions entières, y compris le disque système. Il peut également être utilisé pour chiffrer entièrement un support externe tel qu'une clé USB ou un disque comme nous allons le voir dans ce tutoriel.
 
 Le gros avantage de VeraCrypt par rapport aux solutions propriétaires est qu'il est entièrement open source, ce qui signifie que son code peut être vérifié par n'importe qui.
 
@@ -77,7 +77,7 @@ L'installation est terminée.
 
 12
 
-Si vous le souhaitez, vous pouvez faire un don en bitcoins pour soutenir le développement de cet outil.
+Si vous le souhaitez, vous pouvez faire un don en bitcoins pour soutenir le développement de cet outil open source.
 
 13
 
@@ -87,7 +87,7 @@ Lors du premier lancement, vous arriverez sur cette interface :
 
 14
 
-Pour chiffrer le support de votre choix, commencez par le brancher à votre machine. Comme vous allez le découvrir plus loin, la création d'un nouveau volume chiffré sur la clé USB ou le disque va mettre beaucoup plus de temps s'il y a déjà des données sur sur ce support qu'il ne faut pas supprimer. Je vous conseille donc soit d'utiliser une clé USB vierge, soit de prendre soin de vider le support avant la création du volume afin de ne pas perdre trop de temps.
+Pour chiffrer le support de votre choix, commencez par le brancher à votre machine. Comme vous le constaterez plus loin, le processus de création d'un nouveau volume chiffré sur une clé USB ou un disque dur prendra beaucoup plus de temps si le support contient déjà des données que vous ne souhaitez pas supprimer. Je vous recommande donc d'utiliser une clé USB vierge ou de vider préalablement le support avant de créer le volume chiffré, afin de gagner du temps.
 
 Sur VeraCrypt, cliquez sur l'onglet "Volumes".
 
@@ -97,11 +97,11 @@ Puis sur le menu "Create New Volume...".
 
 16
 
-Sur la nouvelle fenêtre qui vient de s'ouvrir, sélectionnez l'option "Encrypt a non-system partition/drive", puis cliquez sur le bouton "Next".
+Dans la nouvelle fenêtre qui s'ouvre, sélectionnez l'option "Encrypt a non-system partition/drive" et cliquez sur "Next".
 
 17
 
-Vous avez ensuite le choix entre l'option "Standard VeraCrypt volume" et l'option "Hidden VeraCrypt Volume". La première option permet simplement de créer un volume chiffré sur votre support. L'option "Hidden VeraCrypt Volume" permet de créer un volume caché à l'intérieur d'un volume VeraCrypt standard. Cette méthode vous permet de nier l'existence de ce volume caché en cas de contrainte. Par exemple, si quelqu'un vous force physiquement à déchiffrer votre support, vous pouvez déchiffrer seulement la partie standard pour satisfaire l'agresseur, mais ne pas révéler la partie cachée. Dans mon exemple, je vais rester sur un volume standard.
+Vous aurez ensuite à choisir entre "Standard VeraCrypt volume" et "Hidden VeraCrypt Volume". La première option crée un volume chiffré standard sur votre support. L'option "Hidden VeraCrypt Volume" permet de créer un volume caché à l'intérieur d'un volume VeraCrypt standard. Cette méthode vous permet de nier l'existence de ce volume caché en cas de contrainte. Par exemple, si quelqu'un vous force physiquement à déchiffrer votre support, vous pouvez déchiffrer seulement la partie standard pour satisfaire l'agresseur, mais ne pas révéler la partie cachée. Dans mon exemple, je vais rester sur un volume standard.
 
 18
 
@@ -109,7 +109,7 @@ Sur la page suivante, cliquez sur le bouton "Select Device...".
 
 19
 
-Une nouvelle page s'ouvre. Vous pouvez sélectionner la partition de votre support de stockage parmi la liste des disques de votre machine. Normalement, cette partition devrait se trouver en dessous d'une ligne avec la mention "Removable Disk N". Une la partition à chiffrer sélectionnée, cliquez sur le bouton "OK".
+Une nouvelle fenêtre s'ouvre où vous pouvez sélectionner la partition de votre support de stockage parmi la liste des disques disponibles sur votre machine. Normalement, la partition que vous souhaitez chiffrer sera listée sous une ligne intitulée "Removable Disk N". Après avoir sélectionné la partition adéquate, cliquez sur le bouton "OK".
 
 20
 
@@ -117,21 +117,21 @@ Le support sélectionné apparait dans la case. Vous pouvez maintenant cliquer s
 
 21
 
-Ensuite, vous allez devoir choisir entre l'option "Create encrypted volume and format it" ou bien "Encrypt partition in place". C'est ce que je vous expliquait au début de cette partie. La première option va supprimer définitivement toutes les données présentes sur votre clé USB ou votre disque. Il faut donc sélectionner cette option seulement si votre support est vide, sinon, vous allez perdre tout ce qui se trouve dessus. Au contraire, si vous avez des données que vous souhaitez conserver, vous pouvez soit les copier ailleurs le temps de l'opération et les remettre après, dans ce cas vous pouvez choisir l'option "Create encrypted volume and format it" qui va tout effacer, mais qui est bien plus rapide. Ou bien, vous pouvez choisir l'option "Encrypt partition in place" qui vous permet de chiffrer le volume sans effacer les données qui y sont déjà présentes, mais cela prend beaucoup plus de temps. Dans mon exemple, ma clé USB est vide, je vais donc choisir la première option qui efface tout.
+Vous devrez ensuite choisir entre les options "Create encrypted volume and format it" ou "Encrypt partition in place". Comme mentionné précédemment, la première option supprimera définitivement toutes les données sur votre clé USB ou votre disque dur. Choisissez cette option uniquement si votre support est vide ; autrement, vous perdrez toutes les données qu'il contient. Si vous souhaitez conserver des données existantes, vous pouvez les transférer temporairement ailleurs, choisir "Create encrypted volume and format it" pour un processus plus rapide qui effacera tout, ou bien opter pour "Encrypt partition in place". Cette dernière option permet de chiffrer le volume sans effacer les données déjà présentes, mais le processus sera beaucoup plus long. Pour cet exemple, comme ma clé USB est vide, je sélectionne "Create encrypted volume and format it", l'option qui efface tout.
 
 22
 
-Vous pouvez ensuite choisir l'algorithme de chiffrement et la fonction de hachage utilisés. Je vous conseille de laisser les options par défaut à moins que vous ayez des besoins spécifiques. Cliquez sur le bouton "Next".
+Ensuite, vous aurez la possibilité de choisir l'algorithme de chiffrement et la fonction de hachage. Sauf si vous avez des besoins spécifiques, je vous conseille de conserver les options par défaut. Cliquez sur "Next" pour continuer.
 
 23
 
-Vérifiez que la taille de votre volume est correcte pour vous assurer que vous chiffrez bien l'intégralité de l'espace disponible sur la clé USB et non une partie seulement, puis cliquez sur "Next".
+Assurez-vous que la taille indiquée pour votre volume est correcte afin de chiffrer l'intégralité de l'espace disponible sur la clé USB, et non seulement une partie. Une fois vérifié, cliquez sur "Next".
 
 24
 
-C'est à cette étape que vous allez devoir définir le mot de passe permettant de chiffrer et de déchiffrer votre support. Il est important de choisir un mot de passe fort, car sinon, un attaquant en possession du support physique pourrait déchiffrer votre contenu en devinant le mot de passe par brute force. Le mot de passe doit être aléatoire, le plus long possible, et avec une diversité de caractères. Je vous conseille au minimum de choisir un mot de passe aléatoire de 20 caractères avec des lettre minuscules, des lettres majuscules, des chiffres et des symboles.
+À cette étape, vous devrez définir un mot de passe pour chiffrer et déchiffrer votre support. Il est important de choisir un mot de passe robuste afin d'éviter qu'un attaquant puisse déchiffrer votre contenu avec des méthodes de brute force. Le mot de passe doit être aléatoire, le plus long possible, et inclure plusieurs types de caractères. Je vous conseille d'opter pour un mot de passe aléatoire d'au moins 20 caractères comprenant des lettres minuscules, des lettres majuscules, des chiffres et des symboles.
 
-Je vous conseille également d'enregistrer votre mot de passe dans un gestionnaire de mot de passe pour pouvoir y accéder facilement et ne pas l'oublier. Dans notre cas spécifique, il vaut mieux enregistrer le mot de passe sur un gestionnaire plutôt que sur un support en papier. En effet, si vous vous faites cambrioler, on pourra vous voler votre support USB, mais le mot de passe étant sur le gestionnaire, l'attaquant ne pourra pas accéder aux données. Et inversement, si votre gestionnaire de mots de passe se fait pirater, l'attaquant ne pourra pas accéder à vos données car le mot de passe seul, sans le support physique, ne sert à rien.
+Je vous conseille également d'enregistrer votre mot de passe dans un gestionnaire de mots de passe. Cela permet d'en faciliter l'accès et de supprimer le risque d'oubli. Pour notre cas spécifique, un gestionnaire de mots de passe est préférable à un support papier. En effet, en cas de cambriolage, bien que votre support de stockage puisse être volé, le mot de passe dans le gestionnaire ne pourra pas être trouvé par l'attaquant, ce qui empêchera l'accès aux données. Inversement, si votre gestionnaire de mots de passe est compromis, l'accès physique au support reste nécessaire pour exploiter le mot de passe et accéder aux données.
 
 Pour plus d'informations sur la gestion des mots de passe, je vous conseille de découvrir cet autre tutoriel complet :
 
@@ -141,11 +141,11 @@ Renseignez votre mot de passe dans les 2 cases prévues à cet effet, puis cliqu
 
 25
 
-VeraCrypt vous demande ensuite si vous pensez stocker des fichiers plus gros que 4 GiB dans le volume qui va être chiffré. S'il vous demande ça, c'est pour présélectionner un système de fichiers adapté. Ce que l'on utilise la plupart du temps est le système FAT qui est compatible avec la majorité des système d'exploitation, mais celui-ci limite la taille des fichiers à 4 GiB au maximum. Sinon, vous pouvez également utiliser exFAT qui prend en charge les fichiers d'une taille supérieure en fonction de vos besoins.
+VeraCrypt vous demande ensuite si vous prévoyez de stocker des fichiers de taille supérieure à 4 GiB dans le volume chiffré. Cette question permet au logiciel de sélectionner le système de fichiers le plus adapté. Généralement, le système FAT est utilisé, car il est compatible avec la majorité des systèmes d'exploitation, mais il impose une limite de taille de fichier à 4 GiB maximum. Si vous avez besoin de gérer des fichiers plus volumineux, vous pouvez opter pour le système exFAT.
 
 26
 
-Ensuite, vous allez arriver sur une page permettant de générer une clé aléatoire. En réalité, c'est cette clé aléatoire qui va permettre de déchiffrer vos données. Et cette clé sera conservée dans une partie spécifique de votre support, elle-même protégée par le mot de passe que vous avez précédemment renseigné. Pour générer une bonne clé de chiffrement, il faut produire de l'entropie, et c'est justement ce que vous demande de faire VeraCrypt. En bougeant aléatoirement votre souris par dessus la fenêtre, le logiciel utiliser ces mouvement pour générer la clé aléatoire. Faites le jusqu'à ce que la jauge soit entièrement remplie. Puis cliquez sur le bouton "Format" pour lancer la création du volume chiffré.
+Ensuite, vous allez arriver sur une page permettant de générer une clé aléatoire. Cette clé aléatoire est importante, car c'est elle qui permettra de chiffrer et de déchiffrer vos données. Elle sera stockée dans une section spécifique de votre support, sécurisée par le mot de passe que vous avez précédemment établi. Pour générer une clé de chiffrement robuste, VeraCrypt a besoin d'entropie. C'est pour cela que le logiciel vous demande de bouger votre souris de manière aléatoire sur la fenêtre ; ces mouvements sont ensuite utilisés pour générer la clé. Continuez à déplacer la souris jusqu'à ce que la jauge d'entropie soit complètement remplie. Ensuite, cliquez sur "Format" pour commencer la création du volume chiffré.
 
 27
 
@@ -195,11 +195,11 @@ Pour y accéder, ouvrez votre explorateur de fichier et rendez-vous sur le disqu
 
 38
 
-Après avoir ajouté vos fichiers personnels, pour chiffrer de nouveau le volume, il suffit de cliquer sur le bouton "Dismount".
+Après avoir ajouté vos fichiers personnels sur le support, pour chiffrer de nouveau le volume, il suffit de cliquer sur le bouton "Dismount".
 
 39
 
-Votre volume n'apparait plus sur la lettre "L:", il est donc de nouveau chiffré.
+Votre volume n'apparait plus sur la lettre "L:". Il est donc de nouveau chiffré.
 
 40
 

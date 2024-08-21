@@ -119,3 +119,7 @@ Dans le menu "*AntiTracker*", sélectionnez le profil de blocage pour votre anti
 Et voilà, vous êtes désormais équipé pour profiter pleinement d'IVPN. Si vous souhaitez également renforcer la sécurité de vos comptes en ligne en utilisant un gestionnaire de mots de passe local, je vous invite à consulter notre tutoriel sur KeePass, une solution gratuite et open-source :
 
 https://planb.network/tutorials/others/keepass
+
+Si vous souhaitez découvrir un autre fournisseur de VPN similaire à IVPN, autant en termes de caractéristiques que de tarifs, je vous conseille également de consulter notre tutoriel sur Mullvad :
+
+https://planb.network/tutorials/others/mullvad

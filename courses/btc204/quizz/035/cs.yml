@@ -1,9 +1,9 @@
-question: Kdo objevil heuristiku opětovného použití adresy?
-answer: Satoshi Nakamoto
-wrong_answers:
+otázka: Kdo objevil heuristiku opětovného použití adresy?
+odpověď: Satoshi Nakamoto
+špatné_odpovědi:
   - Vitalik Buterin
   - Hal Finney
   - Gavin Andresen
-explanation: |
+vysvětlení: |
   První osobou, která diskutovala tento koncept, byl Satoshi Nakamoto v části 10 Bitcoinového bílého papíru.
-reviewed: false
+recenzováno: false

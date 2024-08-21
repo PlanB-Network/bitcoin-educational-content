@@ -1,9 +1,9 @@
-question: Jaká je jedna z hlavních charakteristik Bitcoinu?
-answer: Může být směněn kdekoli na světě bez jakéhokoli povolení od jakékoli entity.
-wrong_answers:
+otázka: Jaká je jedna z hlavních charakteristik Bitcoinu?
+odpověď: Může být směněn kdekoli na světě bez jakéhokoli povolení od jakékoli entity.
+špatné_odpovědi:
   - Může být použit pouze vybranou skupinou lidí.
   - Vyžaduje povolení od centrální autority k jeho použití.
   - Může být použit pouze v určitých zemích.
-explanation: >-
+vysvětlení: >-
   Text uvádí, že Bitcoin je pseudonymní a může být směněn kdekoli na světě bez jakéhokoli povolení od jakékoli entity.
-reviewed: false
+recenzováno: false

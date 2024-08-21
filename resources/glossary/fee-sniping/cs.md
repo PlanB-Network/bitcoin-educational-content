@@ -1,0 +1,11 @@
+---
+term: FEE SNIPING
+---
+
+Scénář útoku, při kterém se těžaři snaží přepsat nedávno potvrzený blok, aby si přivlastnili transakční poplatky, které obsahuje, zatímco přidávají transakce s vysokými poplatky, které mezitím dorazily do mempoolu. Konečným cílem tohoto útoku pro těžaře je zvýšit jejich ziskovost. Fee sniping se může stávat stále ziskovějším, jak se snižuje odměna za blok a transakční poplatky představují větší část příjmů těžařů. Může být také výhodný, když jsou poplatky obsažené v předchozím bloku výrazně vyšší než ty v dalším nejlepším kandidátním bloku. Zjednodušeně řečeno, těžař je postaven před tuto volbu z hlediska pobídek:
+* Těžit normálním způsobem po posledním bloku, s vysokou pravděpodobností výhry nízké odměny;
+* Pokusit se těžit předchozí blok (fee sniping), s nízkou pravděpodobností výhry vysoké odměny.
+
+Tento útok představuje riziko pro systém Bitcoinu, protože čím více těžařů ho přijme, tím více jsou ostatní těžaři, původně čestní, motivováni udělat totéž. Skutečně, pokaždé, když se k těm, kteří se pokoušejí o fee sniping, přidá nový těžař, pravděpodobnost, že jeden z útočících těžařů uspěje, se zvyšuje, a pravděpodobnost, že jeden z čestných těžařů rozšíří řetězec, se naopak snižuje. Pokud je tento útok prováděn masivně a udržitelně v čase, potvrzení bloků by již nebylo spolehlivým ukazatelem neměnnosti Bitcoinové transakce. To by potenciálně mohlo systém učinit nepoužitelným.
+
+Proti tomuto riziku se většina softwaru peněženek automaticky vyplňuje pole `nLocktime` tak, aby podmínila ověření transakce zařazením do výšky následujícího bloku. Tím se stává nemožným zařadit transakci do přepisu předchozího bloku. Pokud je široce používání `nLocktime` přijato uživateli Bitcoinu, výrazně se snižují pobídky pro fee sniping. Skutečně to podporuje postup blockchainu spíše než jeho přepisování tím, že snižuje potenciální zisky z něj. Pro transakce Taproot navrhuje BIP326 použití pole `nSequence` podobným způsobem, aby dosáhl ekvivalentního efektu pole `nLocktime` pro jiné typy transakcí. Toto využití by zabíjelo dvě mouchy jednou ranou tím, že by také zlepšilo soukromí protokolů druhé vrstvy, které používají stejné pole.

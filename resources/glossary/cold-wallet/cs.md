@@ -1,0 +1,7 @@
+---
+term: COLD WALLET
+---
+
+Synonymum pro "hardware wallet." Hardware wallet, neboli fyzická peněženka, je elektronické zařízení určené pro zabezpečení a správu soukromých klíčů Bitcoin peněženky. Tyto zařízení jsou navrženy tak, aby poskytovaly lepší zabezpečení ve srovnání se software peněženkami, které jsou umístěny na univerzálních zařízeních přímo připojených k internetu. Hardware peněženky uchovávají mnemonickou frázi offline na zařízení s minimální útočnou plochou, což je izoluje od potenciálně zranitelných prostředí. Když je provedena transakce, hardware peněženka transakci podepíše přímo v zařízení, aniž by byl soukromý klíč vystaven vnějšku. Jakmile je transakce podepsána, je přenesena do Bitcoinové sítě, aby byla potvrzena a začleněna do blockchainu. Mezi nejpopulárnější modely hardware peněženek patří: Ledger, Trezor, Coldcard, Passport, BitBox, Satochip, Jade a SeedSigner (tento seznam není vyčerpávající).
+
+> ► *Termín hardware wallet může být ve francouzštině vyjádřen různými způsoby. Někteří ho nazývají "portefeuille matériel" nebo "portefeuille froid." Jiní preferují termín "périphérique de signature," neboli "signing device" v angličtině, aby se vyhnuli implikaci, že bitcoiny jsou fyzicky umístěny v peněžence.*

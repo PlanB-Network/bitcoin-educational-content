@@ -1,11 +1,11 @@
-question: Jaké je doporučené použití mobilní peněženky?
-answer: Pro denní výdaje
-wrong_answers:
+otázka: Jaké je doporučené použití mobilní peněženky?
+odpověď: Pro denní výdaje
+špatné_odpovědi:
   - Pro dlouhodobé úspory
   - Pro střednědobé úspory
   - Pro velké částky
-explanation: |
+vysvětlení: |
   Mobilní peněženka je doporučena pro denní výdaje, protože s ní je snadné
   provádět transakce. Nicméně pro ukládání velkých částek nebo pro dlouhodobé úspory
   není doporučena, protože je potenciálně zranitelná vůči online hrozbám.
-reviewed: true
+recenzováno: true

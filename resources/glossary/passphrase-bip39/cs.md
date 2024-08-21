@@ -1,0 +1,11 @@
+---
+term: PASSPHRASE (BIP39)
+---
+
+Volitelné heslo, které v kombinaci s obnovovací frází poskytuje další úroveň zabezpečení pro deterministické a hierarchické Bitcoinové peněženky. HD peněženky jsou typicky generovány z obnovovací fráze skládající se z 12 nebo 24 slov. Tato obnovovací fráze je velmi důležitá, protože umožňuje obnovit všechny klíče v peněžence v případě ztráty. Nicméně představuje jediný bod selhání (SPOF). Pokud je kompromitována, bitcoiny jsou v ohrožení. Zde přichází na řadu passphrase. Jedná se o volitelné heslo, které si uživatel zvolí, a které je přidáno k obnovovací frázi pro zvýšení zabezpečení peněženky. Nesmí být zaměňováno s PIN kódem nebo obyčejným heslem, passphrase hraje roli v odvození kryptografických klíčů.
+
+Pracuje v tandemu s obnovovací frází, modifikuje seed, ze kterého jsou klíče generovány. Takže i když někdo získá vaši obnovovací frázi, bez passphrase nemohou přistupovat k vašim prostředkům. Použití passphrase v podstatě vytváří novou peněženku s odlišnými klíči. Modifikace (i mírná) passphrase vygeneruje jinou peněženku.
+
+Passphrase je libovolná a může být jakoukoliv kombinací znaků zvolenou uživatelem. Použití passphrase nabízí několik výhod. Za prvé, snižuje rizika spojená s kompromitací obnovovací fráze tím, že vyžaduje druhý faktor pro přístup k prostředkům. Dále, může být strategicky použita pro vytvoření návnadových peněženek obsahujících malé množství bitcoinů, v případě fyzického nátlaku k odcizení vašich prostředků. Nakonec, její použití je zajímavé, když si přejete kontrolovat náhodnost generování seedu HD peněženky. Passphrase musí být dostatečně složitá, aby odolala útokům hrubou silou a musí být spolehlivě uložena. Ztráta passphrase může vést k nemožnosti přístupu k prostředkům, stejně jako ztráta obnovovací fráze.
+
+> ► *Passphrase je někdy také označována jako: "dvoufaktorová seed fráze", "heslo", "rozšíření seedu", "rozšiřující slovo", nebo dokonce "13. nebo 25. slovo". Je důležité poznamenat, že v Bitcoinu existují dva typy passphrase. Nejznámější je ten popsaný výše, který závisí na BIP-39 a umožňuje zabezpečit celou HD peněženku. Nicméně BIP-38 také specifikoval způsob, jak zabezpečit jedinečný soukromý klíč s passphrase. Tento druhý typ passphrase je dnes téměř nepoužíván.*

@@ -1,0 +1,13 @@
+question: Jak funguje fáze "stem" v protokolu Dandelion?
+
+answer: Transakce je poslána přes náhodnou cestu uzlů.
+
+wrong_answers:
+  - Transakce je okamžitě vysílána všem sousedním uzlům zdrojového uzlu.
+  - Transakce je dočasně uložena v centrálním uzlu před jejím vysíláním.
+  - Transakce je na každém kroku vysílání inkrementálně šifrována.
+
+explanation: |
+  Dandelion nejprve využívá fázi "stem", kde je transakce poslána přes náhodnou cestu uzlů. Poté je transakce vysílána do celé sítě ve fázi "fluff".
+
+reviewed: false

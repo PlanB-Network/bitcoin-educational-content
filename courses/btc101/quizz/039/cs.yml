@@ -1,11 +1,11 @@
-question: Jaký je hlavní cíl Bitcoinu?
-answer: Oddělit stát od peněz
-wrong_answers:
+otázka: Jaký je hlavní cíl Bitcoinu?
+odpověď: Oddělit stát od peněz
+špatné_odpovědi:
   - Nahradit zlato jako globální standard
   - Učinit transakce rychlejšími a levnějšími
   - Zbohatnout každého
-explanation: |
+vysvětlení: |
   Bitcoin byl vytvořen s cílem oddělit stát od peněz.
   To je reakce na systémové výzvy současného finančního systému,
   kde stát má kontrolu nad peněžní zásobou a může ji manipulovat ve svůj prospěch.
-reviewed: true
+recenzováno: true

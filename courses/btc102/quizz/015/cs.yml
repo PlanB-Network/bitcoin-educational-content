@@ -1,9 +1,9 @@
-question: Jaká je hlavní výhoda používání správce hesel podle kapitoly?
-answer: Pomáhá vám nikdy nepoužít stejné heslo dvakrát
-wrong_answers:
+otázka: Jaká je hlavní výhoda používání správce hesel podle kapitoly?
+odpověď: Pomáhá vám nikdy nepoužít stejné heslo dvakrát
+špatné_odpovědi:
   - Pomáhá vám pamatovat si vaše uživatelská jména
   - Chrání váš počítač před viry
   - Generuje náhodná hesla
-explanation: |
+vysvětlení: |
   Podle kapitoly správce hesel pomáhá nikdy nepoužít stejné heslo dvakrát, vybírat složitá a bezpečná hesla a usnadňuje správu vaší online bezpečnosti.
-reviewed: false
+recenzováno: false

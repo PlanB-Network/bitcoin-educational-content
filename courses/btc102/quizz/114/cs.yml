@@ -1,9 +1,9 @@
-question: Jaký je účel dědického plánu u Bitcoinu?
-answer: Zajistit, aby vaši blízcí mohli po vaší smrti přistupovat k vašim Bitcoinům.
-wrong_answers:
+otázka: Jaký je účel dědického plánu u Bitcoinu?
+odpověď: Zajistit, aby vaši blízcí mohli po vaší smrti přistupovat k vašim Bitcoinům.
+špatné_odpovědi:
   - Těžit nové Bitcoiny.
   - Obchodovat s Bitcoiny.
   - Převádět Bitcoiny na jiné kryptoměny.
-explanation: |
+vysvětlení: |
   Dědický plán u Bitcoinu je plán, který zajišťuje, že vaši blízcí budou moci po vaší smrti přistupovat k vašim Bitcoinům. Nepoužívá se pro těžbu nových Bitcoinů, obchodování s Bitcoiny, nebo převod Bitcoinů na jiné kryptoměny.
-reviewed: false
+recenzováno: false

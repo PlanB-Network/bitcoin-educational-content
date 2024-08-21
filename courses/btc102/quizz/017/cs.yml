@@ -1,10 +1,10 @@
-question: Jaké je zlaté pravidlo investování do Bitcoinu?
-answer: Nejsou-li vaše klíče, nejsou vaše Bitcoiny.
-wrong_answers:
+otázka: Jaké je zlaté pravidlo investování do Bitcoinu?
+odpověď: Nejsou-li vaše klíče, nejsou vaše Bitcoiny.
+špatné_odpovědi:
   - Nikdy neinvestujte více, než si můžete dovolit ztratit.
   - Vyhněte se tomu, co je módní.
   - Plánování a dlouhodobé vize jsou klíčové pro úspěch ve financích.
-explanation: |
+vysvětlení: |
   Zlaté pravidlo investování do Bitcoinu je "Nejsou-li vaše klíče, nejsou vaše Bitcoiny."
   To znamená, že pokud nemáte kontrolu nad svým soukromým klíčem, skutečně
   nevlastníte své Bitcoiny.

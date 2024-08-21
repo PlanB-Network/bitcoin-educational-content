@@ -1,11 +1,11 @@
-question: Jaká strategie je používána centrálními subjekty k devalvaci fiat měny?
-answer: Zvýší počáteční peněžní masu o několik procent každý rok.
-wrong_answers:
+otázka: Jaká strategie je používána centrálními subjekty k devalvaci fiat měny?
+odpověď: Zvýší počáteční peněžní masu o několik procent každý rok.
+špatné_odpovědi:
   - Sníží počáteční peněžní masu o několik procent každý rok.
   - Udržují její peněžní masu konstantní ve srovnání s počáteční masou.
   - Náhodně kolísají její peněžní masu ve srovnání s počáteční masou.
-explanation: |
+vysvětlení: |
   Centrální subjekty často devalvují novou měnu zvýšením její peněžní masy ve srovnání
   s počáteční o několik procent každý rok. Toto tiché snižování hodnoty je často odůvodňováno
   jako v zájmu lidí.
-reviewed: false
+posouzeno: true

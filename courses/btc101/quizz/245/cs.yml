@@ -1,9 +1,9 @@
-question: Jaký je jeden možný dopad pokroku technologií AI?
-answer: Více než 80% pracovních míst zmizí kvůli AI a automatizaci.
-wrong_answers:
+otázka: Jaký je jeden možný dopad pokroku technologií AI?
+odpověď: Více než 80% pracovních míst zmizí kvůli AI a automatizaci.
+špatné_odpovědi:
   - Technologie AI způsobí, že lidé se stanou zastaralými.
   - Technologie AI povedou k poklesu lidské inteligence.
   - Technologie AI způsobí globální ekonomický kolaps.
-explanation: >-
+vysvětlení: >-
   Text uvádí, že jeden možný dopad pokroku technologií AI je, že více než 80% pracovních míst zmizí kvůli AI a automatizaci.
-reviewed: false
+recenzováno: false

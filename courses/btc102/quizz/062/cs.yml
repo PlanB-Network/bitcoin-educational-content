@@ -1,9 +1,9 @@
-question: Jaký je účel pokládání čtyř otázek před výběrem investičního plánu do Bitcoinu?
-answer: Vybrat cestu, která vám nejlépe vyhovuje
-wrong_answers:
+otázka: Jaký je účel pokládání čtyř otázek před výběrem investičního plánu do Bitcoinu?
+odpověď: Vybrat cestu, která vám nejlépe vyhovuje
+špatné_odpovědi:
   - Určit množství Bitcoinu, které byste měli koupit
   - Určit typ Bitcoinové peněženky, kterou byste měli použít
   - Určit dobu trvání vaší investice do Bitcoinu
-explanation: |
+vysvětlení: |
   Účelem pokládání čtyř otázek před výběrem investičního plánu do Bitcoinu je vybrat cestu, která vám nejlépe vyhovuje. Otázky vám pomáhají pochopit vaše investiční cíle a preference.
-reviewed: false
+recenzováno: false

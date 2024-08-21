@@ -1,11 +1,11 @@
-question: Jaký je princip Attakai v kontextu těžby Bitcoinu?
-answer: Princip Attakai se vztahuje k produktivnímu využití tepla generovaného při těžbě Bitcoinu.
-wrong_answers:
+otázka: Jaký je princip Attakai v kontextu těžby Bitcoinu?
+odpověď: Princip Attakai se vztahuje k produktivnímu využití tepla generovaného při těžbě Bitcoinu.
+špatné_odpovědi:
   - Princip Attakai se vztahuje k využití obnovitelných zdrojů energie pro těžbu Bitcoinu.
   - Princip Attakai se vztahuje k použití pokročilých chladicích systémů v těžbě Bitcoinu.
   - Princip Attakai se vztahuje k použití hardwaru s nízkou spotřebou energie v těžbě Bitcoinu.
-explanation: |
+vysvětlení: |
   Princip Attakai se vztahuje k myšlence decentralizace těžby
   prostřednictvím produktivního využití generovaného tepla. Tento koncept naznačuje, že energeticky náročná
   zařízení by mohla těžit z tepla produkovaného těžaři k ohřevu svých prostor.
-reviewed: false
+recenzováno: false

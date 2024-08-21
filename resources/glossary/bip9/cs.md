@@ -1,0 +1,5 @@
+---
+term: BIP9
+---
+
+Metoda pro aktivaci soft forků na Bitcoinu navržená v roce 2015. Představuje systém, ve kterém těžaři signalizují svou podporu pro soft fork použitím specifického bitu v poli verze bloků. Soft fork navržený podle BIP9 je aktivován, pokud 95% bloků v období 2016 bloků (přibližně dva týdny, což odpovídá každému nastavení obtížnosti) signalizuje jejich schválení. Po této uzamčení je dáno období milosti, aby se těžaři mohli připravit na aktualizaci před její aktivací. Pokud není 95% práh dosažen v maximálně stanoveném čase, soft fork je opuštěn. BIP9 umožňuje signalizaci více soft forků současně, ale dává těžařům značnou moc, protože pokud požadovaný práh není splněn, soft fork je jednoduše opuštěn. Tato metoda byla původně použita pro SegWit, než přišel BIP148, který navrhuje použití UASF, a vynutil uzamčení prostřednictvím BIP91.

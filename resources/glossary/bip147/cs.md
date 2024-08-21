@@ -1,0 +1,5 @@
+---
+term: BIP147
+---
+
+Návrh zahrnutý do soft forku SegWit, jehož cílem je řešení vektoru proměnlivosti souvisejícího s dummy elementem spotřebovaným operacemi `OP_CHECKMULTISIG` a `OP_CHECKMULTISIGVERIFY`. Kvůli historické chybě o jedna (chyba posunu jednotky) tyto 2 operace odebírají ze zásobníku další prvek nad rámec jejich základní funkce. Aby se předešlo chybě, je proto nutné na začátek `scriptSig` zahrnout dummy hodnotu, která zajistí odstranění a obejití chyby. Tato hodnota není nutná, ale musí tam být, aby byl skript platný. BIP11, který představil standard P2MS, doporučoval jako zbytečnou hodnotu vložit `OP_0`. Tento standard však nebyl vynucen na úrovni pravidel konsensu, což znamená, že tam mohl být umístěn jakýkoli hodnota bez toho, aby byla transakce neplatná. Takto obsahovaly operace `OP_CHECKMULTISIG` a `OP_CHECKMULTISIGVERIFY` vektor proměnlivosti. BIP147 zavádí nové pravidlo konsensu s názvem `NULLDUMMY`, které vyžaduje, aby tento dummy element byl prázdné pole bajtů (`OP_0`). Jakákoli jiná hodnota vede k okamžitému selhání vyhodnocení skriptu. Tato změna se vztahuje jak na před-SegWit skripty, tak na skripty P2WSH a vyžadovala soft fork.

@@ -1,0 +1,13 @@
+otázka: Proč analytik neaplikuje CIOH na transakci typu Stonewall?
+
+odpověď: Protože existují 2 výstupy se stejnými částkami
+
+špatné odpovědi:
+  - Protože existují pouze 2 vstupy
+  - Protože nejsou obeznámeni s tímto vzorem
+  - Protože je více výstupů než vstupů
+
+vysvětlení: |
+  Analýza transakce typu Stonewall z vnějšího pohledu nevede k aplikaci CIOH, jelikož přítomnost dvou výstupů se stejnou částkou naznačuje vzor coinjoin. Z vnějšího pohledu je tedy CIOH v tomto konkrétním případě neaplikovatelný.
+
+recenzováno: false

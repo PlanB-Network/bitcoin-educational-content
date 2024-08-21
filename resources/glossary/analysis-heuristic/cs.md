@@ -1,0 +1,9 @@
+---
+term: ANALYSIS HEURISTIC
+---
+
+Analýza heuristiky pro Bitcoinový řetězec je soubor empirických metod používaných k sledování toku bitcoinů na blockchainu na základě charakteristik pozorovaných v transakcích. Heuristika je praktický přístup k řešení problémů, často prostřednictvím přibližných metod, ale představuje dostatečně dobré řešení pro dosažení daného cíle. Tyto heuristiky poskytují poměrně spolehlivé výsledky, ale nikdy s absolutní přesností. Jinými slovy, analýza řetězce vždy zahrnuje určitý stupeň pravděpodobnosti ve vyvozených závěrech. Například může být s větší či menší jistotou odhadnuto, že dvě adresy patří téže entitě, ale úplná jistota je vždy mimo dosah. Celý cíl analýzy řetězce spočívá přesně v agregaci různých heuristik, aby se minimalizovalo riziko chyby. Je to jakýsi akumulace důkazů, které nám umožňují přiblížit se k realitě. V tomto kontextu se rozlišují interní a externí heuristiky.
+
+Interní heuristiky se zaměřují na charakteristiky specifické pro jednotlivou transakci. Do své analýzy zahrnují prvky jako jsou množství UTXO, použité skripty, verze nebo locktime. Například heuristika kola platby umožňuje identifikovat výstup transakce jako pravděpodobnou platbu, pokud je její částka kulaté číslo. Tyto heuristiky často umožňují identifikovat změnu (peníze vrácené stejnému uživateli) a tím pokračovat ve sledování.
+
+Externí heuristiky na druhou stranu analyzují podobnosti a charakteristiky mimo samotnou transakci. Zahrnují celé prostředí transakce. Například opětovné použití adresy v několika transakcích je externí heuristika. CIOH je také jednou z nich.

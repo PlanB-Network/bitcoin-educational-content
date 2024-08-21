@@ -1,0 +1,7 @@
+---
+term: TAPROOT
+---
+
+Velká aktualizace protokolu Bitcoinu, která byla přijata prostřednictvím měkkého forku v listopadu 2021. Tato aktualizace přináší významná vylepšení z hlediska soukromí, efektivity a flexibility implementací BIP340, BIP341 a BIP342. Tato aktualizace byla uzamčena v bloku 687,284 dne 12. června 2021, kdy 90% bloků generovaných během určitého období signalizovalo ve prospěch, čímž naznačilo připravenost těžařů aktivovat aktualizaci (*Speedy Trial*). Aktivace nakonec proběhla v bloku 709,632 dne 14. listopadu 2021, téměř čtyři roky po počátečních diskusích na toto téma mezi Pieterem Wuille, Andrewem Poelstra a Gregorym Maxwellem. Byl to první pokus o velkou aktualizaci od kontroverzní aktivace SegWitu v roce 2017.
+
+Taproot je také název BIP341, implementovaný v rámci stejnojmenného měkkého forku, který představuje nový model skriptu nazvaný P2TR. Skript P2TR uzamkne bitcoiny na unikátním Schnorr veřejném klíči, označeném jako $K$. Tento klíč $K$ je však ve skutečnosti agregátem veřejného klíče $P$ a veřejného klíče $M$, přičemž ten druhý je vypočítán z Merkleova kořene seznamu `scriptPubKey`. Bitcoiny uzamčené skriptem P2TR lze utratit dvěma odlišnými způsoby: buď zveřejněním podpisu pro veřejný klíč $P$, nebo splněním jednoho ze skriptů obsažených v Merkleově stromu. První možnost se nazývá "*key path*" a druhá "*script path*".

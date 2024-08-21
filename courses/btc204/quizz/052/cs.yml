@@ -1,13 +1,11 @@
-question: Jaký typ skriptu je používán výhradně pro Silent Payments?
+otázka: Jaký typ skriptu je používán výhradně pro Silent Payments?
 
-answer: P2TR
+odpověď: P2TR
 
-wrong_answers:
+nesprávné odpovědi:
   - P2WPKH
   - P2SP
   - P2WSH
 
-explanation: |
+vysvětlení: |
   Aby bylo usnadněno zavedení tohoto protokolu a zlepšen anonymní set jeho uživatelů, Silent Payments spoléhají výhradně na skripty P2TR (Pay to Taproot).
-
-reviewed: false

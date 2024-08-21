@@ -1,0 +1,7 @@
+---
+term: BIP352
+---
+
+Návrh na zlepšení od Josibake a Rubena Somsena, který představuje Silent Payments (Tiché platby), metodu pro používání statických Bitcoinových adres k přijímání plateb bez opakovaného použití adresy, interakce a bez viditelného on-chain spojení mezi různými platbami. Tato technika eliminuje potřebu generovat nové, nepoužité přijímací adresy pro každou transakci, čímž se vyhýbá obvyklým interakcím v Bitcoinu, kde musí příjemce poskytnout novou adresu platícímu.
+
+V tomto systému platící použije veřejný klíč příjemce a svůj vlastní soukromý klíč k vygenerování nové adresy pro každou platbu. Pouze příjemce, se svým soukromým klíčem, může vypočítat soukromý klíč odpovídající této adrese. ECDH (*Elliptic-Curve Diffie-Hellman*), algoritmus pro výměnu kryptografických klíčů, je použit k vytvoření sdíleného tajemství, které je poté použito k odvození přijímací adresy a soukromého klíče (pouze na straně příjemce). Aby identifikovali Tiché platby určené pro ně, musí příjemci prohledávat blockchain a zkoumat každou transakci odpovídající kritériím pro Tiché platby. Na rozdíl od BIP47, který používá notifikační transakci k zřízení platebního kanálu, Tiché platby tento krok eliminují, čímž ušetří transakci. Kompromisem však je, že příjemce musí prohledat všechny potenciální transakce, aby určil, aplikací ECDH, zda jsou na ně adresovány.

@@ -1,0 +1,5 @@
+---
+term: DUST LIMIT
+---
+
+Odkazuje na práh v sats, pod kterým je UTXO považováno za "prach" uzlem sítě. Tento práh je součástí standardizačních pravidel, která mohou být nezávisle upravena každým uzlem. V Bitcoin Core je tento limit určen konkrétní sazbou poplatku, nastavenou ve výchozím stavu na 3 000 sats za virtuální kilobajt (sats/kvB). Tento limit má za cíl omezit šíření transakcí obsahujících velmi malé množství bitcoinů. Skutečně, UTXO kvalifikované jako prach naznačuje, že jeho použití není ekonomicky racionální: využití tohoto UTXO by stálo více, než ho jednoduše opustit. Pokud není využití prachu racionální, naznačuje to, že takové výdaje by mohly být motivovány pouze vnějšími pobídkami, často zákeřnými. To může být problém, pokud zákeřný aktér usiluje o saturaci sítě transakcemi obsahujícími nepatrné množství, s cílem zvýšit operační zátěž na uzlech a potenciálně je bránit v zpracování jiných legitimních transakcí. Abych dal analogii (byť trochu neobratnou, přiznávám), je to trochu jako někdo, kdo se snaží zaplatit za nákupní košík za 100 € zcela jednocentovými mincemi, aby zablokoval ostatní zákazníky u pokladny.

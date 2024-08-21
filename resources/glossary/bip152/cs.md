@@ -1,0 +1,5 @@
+---
+term: BIP152
+---
+
+Návrh na "Compact Block Relay" (Kompaktní přenos bloků) cílící na snížení potřebné šířky pásma pro přenos bloků přes síť Bitcoin. Přijat v listopadu 2016 ve verzi 0.13.0 Bitcoin Core, tento protokol umožňuje komunikaci informací o bloku kompaktním způsobem, na základě předpokladu, že uzly již mají velkou část transakcí nedávného bloku ve svém mempoolu. Místo přenosu každé transakce v plném rozsahu, což by vedlo k duplikaci, BIP152 navrhuje posílat pouze krátké identifikátory pro transakce již známé vrstevníkům, doplněné o několik vybraných transakcí (zejména transakce coinbase a ty, o kterých se předpokládá, že je uzel nezná). Uzel pak může požádat své vrstevníky o chybějící transakce. Kompaktní přenos bloků tak snižuje množství vyměňovaných dat během šíření bloku, což redukuje špičky v šířce pásma a zlepšuje celkovou efektivitu sítě.

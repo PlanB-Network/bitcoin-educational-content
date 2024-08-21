@@ -1,9 +1,9 @@
-question: Který transakční model znemožňuje použití CIOH?
-answer: Kolaborativní transakce.
-wrong_answers:
+otázka: Který transakční model znemožňuje použití CIOH?
+odpověď: Kolaborativní transakce.
+špatné_odpovědi:
   - Jednoduchá platba.
   - Konsolidace.
   - Sweeping.
-explanation: |
+vysvětlení: |
   CIOH není aplikovatelný na transakce, které přijímají kolaborativní vzor, protože v tomto konkrétním případě nutně pocházejí vstupy od různých entit.
-reviewed: false
+recenzováno: false

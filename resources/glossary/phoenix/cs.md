@@ -1,0 +1,5 @@
+---
+term: PHOENIX
+---
+
+Samostatně spravovaná mobilní peněženka navržená tak, aby zjednodušila a zpřístupnila transakce na protokolu Lightning. Umožňuje uživatelům spravovat své prostředky přímo z jejich mobilních zařízení bez nutnosti připojení k samostatnému Lightning uzlu. Phoenix ve skutečnosti funguje jako plně vybavený samostatný Lightning uzel v telefonu (implementace Lightning). Podporuje transakce Bitcoinu a Lightning a nabízí funkce usnadňující správu uzlu, jako je automatické správa kanálů s uzlem Acinq. Na rozdíl od jiných aplikací Lightning peněženek, které jsou většinou spravované třetí stranou, Phoenix nabízí zajímavý kompromis kombinací použití Lightning uzlu s pohodlím mobilní aplikace. Je to jedno z nejlepších jednoduchých řešení pro začátečníka, který chce používat Lightning, přičemž si zachovává plnou vlastnictví svých bitcoinů (samostatná správa). Phoenix je projekt vyvíjený a udržovaný francouzskou společností Acinq.

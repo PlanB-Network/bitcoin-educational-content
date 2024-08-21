@@ -1,9 +1,9 @@
-question: Co Bitcoin nutí společnosti, univerzity, regulátory a jednotlivce dělat?
-answer: Zohlednit tuto novou technologii
-wrong_answers:
+otázka: Co Bitcoin nutí společnosti, univerzity, regulátory a jednotlivce dělat?
+odpověď: Zohlednit tuto novou technologii
+špatné_odpovědi:
   - Ignorovat ji
   - Zakázat ji
   - Kriminalizovat ji
-explanation: >-
+vysvětlení: >-
   Rozvoj Bitcoinu nutí společnosti, univerzity, regulátory a jednotlivce zohlednit tuto novou technologii. Musí být vytvořeny nové nástroje, služby musí být přizpůsobeny a inovace musí pokračovat, aby zajistily jejich přežití.
-reviewed: false
+recenzováno: false

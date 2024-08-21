@@ -1,9 +1,9 @@
-question: Jaké platformy by mohl používat paranoidní Bitcoiner pro nákupy bez KYC mezi jednotlivci?
-answer: Peach, Robosats, Bisq, HodlHodl
-wrong_answers:
+otázka: Jaké platformy by mohl používat paranoidní Bitcoiner pro nákupy bez KYC mezi jednotlivci?
+odpověď: Peach, Robosats, Bisq, HodlHodl
+špatné odpovědi:
   - Coinbase, Binance, Kraken
   - PayPal, Venmo, Cash App
   - Kreditní karta, bankovní převod, hotovost
-explanation: |
+vysvětlení: |
   Kapitola zmiňuje Peach, Robosats, Bisq a HodlHodl jako platformy, které by mohl používat paranoidní Bitcoiner pro nákupy bez KYC mezi jednotlivci.
-reviewed: false
+recenzováno: false

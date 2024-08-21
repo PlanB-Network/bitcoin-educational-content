@@ -1,0 +1,5 @@
+---
+term: DUMMY ELEMENT
+---
+
+Odkazuje na dodatečný a nepotřebný prvek, který je spotřebován operacemi `OP_CHECKMULTISIG` a `OP_CHECKMULTISIGVERIFY` při ověřování podpisů v transakci. Kvůli historické chybě off-by-one (chyba posunu jednotky) tyto 2 operace odstraní zásobník navíc jeden prvek kromě jejich základní funkce. Aby se předešlo chybě, je proto nutné na začátek `scriptSig` zahrnout fiktivní hodnotu, která uspokojí odstranění a obejde chybu. Tato nepotřebná hodnota se nazývá "*dummy element*". BIP11, který představil standard P2MS, doporučoval použít jako fiktivní hodnotu `OP_0`. Tento standard však nebyl vynucen na úrovni pravidel konsensu, což znamená, že tam mohl být umístěn jakýkoli hodnota, aniž by byla transakce neplatná. Tím se dummy element stal vektorem pro mutabilitu transakce. BIP147, zavedený s měkkou vidlicí SegWit, nařídil, aby tento dummy element byl přísně prázdné pole bajtů (`OP_0`), čímž eliminoval mutabilitu spojenou s tímto prvkem tím, že jakákoli nesouladná transakce byla podle pravidel konsensu neplatná. Toto pravidlo, nazvané `NULLDUMMY`, se vztahuje jak na transakce SegWit, tak na transakce před SegWit.

@@ -1,0 +1,13 @@
+otázka: Jak P2P transport V2 zlepšuje soukromí a bezpečnost komunikace mezi uzly?
+
+odpověď: Integrací příležitostného šifrování
+
+nesprávné_odpovědi:
+  - Integrací autentizace
+  - Použitím dalších relé
+  - Použitím Tor
+
+vysvětlení: |
+  P2P transport V2 zahrnuje vrstvu příležitostného šifrování, aby zvýšil soukromí a bezpečnost komunikace mezi uzly.
+
+recenzováno: false

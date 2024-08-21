@@ -1,0 +1,13 @@
+otázka: Jaká je role peněženky "post-mix" v protokolu Zerolink?
+
+odpověď: Uchovává UTXO po smíchání.
+
+špatné odpovědi:
+  - Uchovává UTXO před smícháním.
+  - Uchovává UTXO jako drobné.
+  - Uchovává konsolidační UTXO.
+
+vysvětlení: |
+  Peněženka "post-mix" je vyhrazena pro mince, které byly smíchány.
+
+recenzováno: false

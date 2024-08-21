@@ -1,10 +1,10 @@
-question: Jaké je hlavní přesvědčení Hodlera nad rámec hledání zisku?
-answer: Věří v technologii blockchain a schopnost Bitcoinu přinést pozitivní změnu ve světě.
-wrong_answers:
+otázka: Jaké je hlavní přesvědčení Hodlera nad rámec hledání zisku?
+odpověď: Věří v technologii blockchain a schopnost Bitcoinu přinést pozitivní změnu ve světě.
+špatné_odpovědi:
   - Věří v pád tradičních měn.
   - Věří ve výjimečnost jiných kryptoměn oproti Bitcoinu.
   - Věří v nestabilitu trhu s Bitcoinem.
-explanation: |
+vysvětlení: |
   Nad rámec jednoduchého hledání zisku často Hodler věří v technologii blockchain
   a schopnost Bitcoinu přinést pozitivní změnu ve světě.
-reviewed: false
+recenzováno: false

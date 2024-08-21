@@ -1,9 +1,9 @@
-question: Jaká je online dostupnost Bitcoinu?
-answer: 99,988%
-wrong_answers:
+otázka: Jaká je online dostupnost Bitcoinu?
+odpověď: 99,988%
+špatné_odpovědi:
   - 100%
   - 90,009%
   - 80,17%
-explanation: |
+vysvětlení: |
   Online dostupnost Bitcoinu je 99,988% od roku 2009.
-reviewed: false
+posouzeno: true

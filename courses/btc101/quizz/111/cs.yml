@@ -1,9 +1,9 @@
-question: Co znamená zkratka KYC?
-answer: Poznej svého zákazníka
-wrong_answers:
+otázka: Co znamená zkratka KYC?
+odpověď: Poznej svého zákazníka
+špatné_odpovědi:
   - Zachovej své peníze
   - Zadej své kódy
   - Laskavě dodržuj pravidla
-explanation: |
+vysvětlení: |
   KYC nebo Poznej svého zákazníka odkazuje na proces, kterým podniky procházejí, aby ověřily identitu svých klientů. To se obvykle dělá za účelem dodržení předpisů a prevence proti nelegálním aktivitám, jako je praní špinavých peněz nebo podvod.
-reviewed: false
+posouzeno: true

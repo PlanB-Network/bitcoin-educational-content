@@ -1,10 +1,10 @@
-question: Která země uznala Bitcoin za zákonné platidlo od roku 2021?
-answer: Salvador
-wrong_answers:
+otázka: Která země uznala Bitcoin za zákonné platidlo od roku 2021?
+odpověď: Salvador
+špatné_odpovědi:
   - Francie
   - Spojené státy
   - Čína
-explanation: >-
+vysvětlení: >-
   Salvador uznal Bitcoin za zákonné platidlo od roku 2021, což přispělo
   k rozvoji ekonomiky Bitcoinu v regionu.
-reviewed: false
+recenzováno: false

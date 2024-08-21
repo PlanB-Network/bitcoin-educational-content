@@ -8,11 +8,7 @@ Mise PlanB je poskytovat špičkové vzdělávací zdroje o Bitcoinu v co nejví
 
 Chcete přidat Bitcoin podcast na stránky sítě PlanB a zvýšit viditelnost vašeho pořadu, ale nevíte jak? Tento tutoriál je pro vás!
 ![podcast](assets/01.webp)
-- Nejprve potřebujete mít účet na GitHubu. Pokud nevíte, jak jej vytvořit, připravili jsme podrobný tutoriál, který vás provede.
-
-https://planb.network/tutorials/others/create-github-account
-
-
+- Nejprve potřebujete mít účet na GitHubu. Pokud nevíte, jak jej vytvořit, připravili jsme [podrobný tutoriál, který vás provede](https://planb.network/tutorials/others/create-github-account).
 - Přejděte na [GitHubový repozitář PlanB věnovaný datům](https://github.com/DecouvreBitcoin/sovereign-university-data/tree/dev/resources/podcasts) v sekci `resources/podcasts/`:
 ![podcast](assets/02.webp)
 - Klikněte vpravo nahoře na tlačítko `Add file` a poté na `Create new file`:

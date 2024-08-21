@@ -1,13 +1,13 @@
-question: Jak se adresy používají k uzamčení UTXO?
+otázka: Jak se adresy používají k uzamčení UTXO?
 
-answer: Jsou integrovány do ScriptPubKey
+odpověď: Jsou integrovány do ScriptPubKey
 
-wrong_answers:
+špatné odpovědi:
   - Jsou integrovány do ScriptSig
   - Jsou integrovány do coinbase.
   - Nejsou integrovány nikde.
 
-explanation: |
+vysvětlení: |
   Když je provedena platba, transakce vytvoří nové UTXO jako výstup z UTXO spotřebovaných jako vstupy. Na tomto výstupu je umístěn skript, který definuje, jak lze toto UTXO později utratit. Tento skript je známý jako ScriptPubKey. Přijímací adresa je integrována do tohoto skriptu.
 
-reviewed: false
+recenzováno: false

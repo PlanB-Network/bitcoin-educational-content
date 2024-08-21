@@ -1,0 +1,5 @@
+---
+term: FPPS (FULL PAY PER SHARE)
+---
+
+Metoda pro výpočet odměn horníků v rámci těžebních poolů. Jedná se o evoluci metody PPS (*Pay Per Share*). Odměňuje horníky nejen za každý platný podíl, který předloží, ale zahrnuje také část odměn za bloky. Kompensace je vypočítána na základě průměru předchozích transakcí a hashrate poolu. Tímto způsobem horníci obdrží odměnu za předložené podíly, ať už je blok nalezen nebo ne, ale tato metoda také kompenzuje očekávanou hodnotu. Nabízí stabilní a předvídatelnou kompenzaci pro horníky, protože eliminuje variabilitu spojenou s pravděpodobností nalezení bloku, zatímco je vystavuje kolísání tržních poplatků. Je to však riskantnější pro operátory poolů, protože musí platit horníkům i v případě, že není nalezen žádný blok, a tím absorbují riziko variability.

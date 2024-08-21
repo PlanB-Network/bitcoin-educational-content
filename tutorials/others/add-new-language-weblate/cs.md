@@ -18,21 +18,13 @@ Prvním krokem je zkontrolovat, zda váš jazyk již není mezi těmi, na který
 ![language](assets/01.webp)
 - V menu `Website frontend element` najdete seznam všech jazyků, na kterých pracujeme:
 ![language](assets/02.webp)
-Pokud je váš jazyk v tomto seznamu, není třeba jej přidávat znovu. Pro přispění k existujícímu jazyku jsme vytvořili další tutoriál, který si můžete prohlédnout.
-
-https://planb.network/tutorials/others/translate-front-weblate
-
-
+Pokud je váš jazyk v tomto seznamu, není třeba jej přidávat znovu. Pro přispění k existujícímu jazyku jsme vytvořili [další tutoriál, který si můžete prohlédnout](https://planb.network/tutorials/others/translate-front-weblate).
 
 Pokud váš jazyk tam není, postupujte podle níže uvedeného tutoriálu a přidejte ho.
 
 ## Přidání nového jazyka do sítě PlanB
 
-- Prvním krokem je vytvoření účtu na Weblate. Pokud nevíte, jak na to, můžete sledovat náš podrobný průvodce.
-
-https://planb.network/tutorials/others/translate-front-weblate
-
-
+- Prvním krokem je vytvoření účtu na Weblate. Pokud nevíte, jak na to, můžete [sledovat náš podrobný průvodce](https://planb.network/tutorials/others/translate-front-weblate).
 - Jakmile je váš účet vytvořen, přejděte do menu `Website frontend element` a vyberte záložku `Languages`:
 ![language](assets/03.webp)
 - Klikněte na `+` vlevo od okna:
@@ -44,12 +36,8 @@ https://planb.network/tutorials/others/translate-front-weblate
 - Poté přejdete na stránku správy překladu pro váš jazyk:
 ![language](assets/07.webp)
 - Pro okamžité zahájení překladu frontendu klikněte na tlačítko `Translate`: ![language](assets/08.webp)
-Pro průvodce procesem překladu si prohlédněte náš věnovaný tutoriál na toto téma!
+Pro průvodce procesem překladu si prohlédněte [náš věnovaný tutoriál na toto téma](https://planb.network/tutorials/others/translate-front-weblate)!
 
-Gratulujeme, zahájili jste proces překladu webu PlanB Network do nového jazyka! Můžete začít překládat celý frontend prostřednictvím Weblate.
-
-https://planb.network/tutorials/others/translate-front-weblate
-
- To zahrnuje veškeré texty na webu, kromě vzdělávacího obsahu (kurzy, tutoriály...), pro který používáme jinou poluautomatizovanou metodu Humans x AI.
+Gratulujeme, zahájili jste proces překladu webu PlanB Network do nového jazyka! Můžete začít překládat celý frontend prostřednictvím Weblate. To zahrnuje veškeré texty na webu, kromě vzdělávacího obsahu (kurzy, tutoriály...), pro který používáme jinou poluautomatizovanou metodu Humans x AI.
 Dále můžete kontaktovat @asi0_flammeus na Telegramu, který vám pomůže s přezkoumáním některých kurzů, které byly automaticky přeloženy jejich modelem. Pokud jsou tyto obsahy považovány za uspokojivé, můžete pokračovat v přezkumu všech ostatních obsahů na webu (kurzy, tutoriály...). Jakmile budou tyto kroky dokončeny, můžeme zvážit oficiální integraci nového jazyka na webové stránky PlanB Network, což umožní všem mluvčím vašeho jazyka přístup k kvalitnímu obsahu o Bitcoinu bez jakýchkoli bariér.
 Velké díky za váš cenný příspěvek! :)

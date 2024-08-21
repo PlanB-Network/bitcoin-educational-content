@@ -1,0 +1,5 @@
+---
+term: PŘIROZENÁ ROZVĚTVENÍ
+---
+
+Dočasné oddělení blockchainu, které vzniká téměř současným vysíláním několika bloků různými těžaři ve stejné výšce. Tato situace nastává, když jsou dva bloky, označené jako $A$ a $B$, nalezeny téměř ve stejný čas, což vede k dočasnému rozdělení sítě. Jelikož každý uzel považuje první blok, který obdržel, za platný, ale ne všichni obdrželi stejný blok jako první, část uzlů následuje řetězec obsahující blok $A$, zatímco druhá část následuje ten s blokem $B$. Toto rozvětvení je vyřešeno, když jedna ze dvou soutěžících řetězců překoná druhou z hlediska nahromaděné práce. V tom okamžiku se všechny uzly v síti automaticky shodnou na delším řetězci (s největším množstvím nahromaděné práce), proces známý jako reorganizace nebo resynchronizace. Tyto přirozené rozvětvení jsou vlastní distribuovanému provozu Bitcoinu. Jsou zcela normální a spontánně se vyřeší po několika blocích (obvykle jen po jednom). Pokud se však vyskytují příliš často, mohou být stále škodlivé, protože vedou k plýtvání výpočetním výkonem na větvi, která se nakonec stane zastaralou.

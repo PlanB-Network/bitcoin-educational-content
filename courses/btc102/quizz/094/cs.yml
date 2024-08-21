@@ -1,11 +1,11 @@
-question: Jaké jsou některé z nejlepších postupů, které by si paranoidní Bitcoiner mohl osvojit?
-answer: Míchání mincí a správa UTXO
-wrong_answers:
+otázka: Jaké jsou některé z nejlepších postupů, které by si paranoidní Bitcoiner mohl osvojit?
+odpověď: Míchání mincí a správa UTXO
+špatné_odpovědi:
   - Jak důvěřovat centralizovaným systémům
   - Jak bezpečně sdílet osobní informace
   - Jak použít kreditní kartu pro nákup Bitcoinu online
-explanation: |
+vysvětlení: |
   Kapitola uvádí, že paranoidní Bitcoiner by se mohl vzdělávat
   v nejlepších postupech, jako je míchání mincí a správa UTXO, jako součást jejich zaměření
   na soukromí a bezpečnost.
-reviewed: false
+recenzováno: false

@@ -1,0 +1,5 @@
+---
+term: SCRIPTLESS SCRIPTS
+---
+
+Původně vyvinuté Andrewem Poelstrou, tento koncept umožňuje provádění chytrých kontraktů bez explicitního zveřejňování logiky kontraktu na Bitcoin blockchainu. Jak název "scriptless scripts" naznačuje, idea je založena na provádění skriptů (nebo kontraktů) bez explicitního použití skriptů. Tyto kontrakty využívají vlastnosti Schnorrůvých podpisů, které umožňují použití *Adaptor Signatures*, zejména pro provádění *Atomic Swaps*. Podmínky kontraktu jsou aplikovány a prováděny mimo blockchain zapojenými stranami, které jsou jedinými, kdo zná podmínky. Na rozdíl od tradičních chytrých kontraktů, *Scriptless Scripts* minimalizují svou stopu na blockchainu, čímž snižují provozní náklady. Tyto kontrakty jsou také diskrétnější než tradiční chytré kontrakty, které zanechávají stopy na blockchainu. Tím se podobají obyčejným transakcím, což zvyšuje jejich anonymitu.

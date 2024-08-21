@@ -1,0 +1,5 @@
+---
+term: SHA256
+---
+
+Akronym pro "*Secure Hash Algorithm 256 bits*" (Bezpečný hašovací algoritmus 256 bitů). Jedná se o kryptografickou hašovací funkci, která produkuje 256bitový otisk. Navržený *National Security Agency* (NSA) na začátku 2000. let, stal se federálním standardem pro zpracování citlivých dat. V protokolu Bitcoinu je funkce `SHA256` všudypřítomná. Používá se pro hašování hlaviček bloků jako součást důkazu práce. `SHA256` se také používá v procesu odvozování přijímací adresy z veřejného klíče. Dále je využíván pro agregaci transakcí a svědků v Merkleových stromech v blocích. `SHA256` se nachází i ve výpočtu otisků klíčů, výpočtu určitých kontrolních součtů a v mnoha dalších procesech okolo Bitcoinu. Když je aplikován dvakrát za sebou, označuje se jako `HASH256`. Tato dvojitá aplikace je ta, která se v Bitcoinu používá převážně. Když se `SHA256` používá ve spojení s funkcí `RIPEMD160`, označuje se jako `HASH160`. Toto dvojité hašování se používá pro otisky klíčů a pro hašování veřejných klíčů. Funkce `SHA256` je součástí rodiny SHA 2.

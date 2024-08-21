@@ -1,10 +1,10 @@
-question: Co naznačuje absence mnemonické fráze v peněžence?
-answer: Peněženka není bezpečná pro dlouhodobé ukládání
-wrong_answers:
+otázka: Co naznačuje absence mnemonické fráze v peněžence?
+odpověď: Peněženka není bezpečná pro dlouhodobé ukládání
+špatné_odpovědi:
   - Peněženka je bezpečná pro dlouhodobé ukládání
   - Peněženka není bezpečná pro krátkodobé ukládání
   - Peněženka není bezpečná pro utrácení
-explanation: |
+vysvětlení: |
   Absence seznamu 12 nebo 24 slov, tj. mnemonické fráze, ve peněžence by vás měla upozornit na to, že
   peněženka není bezpečná, protože nedodržuje standardní postup zálohování.
-reviewed: false
+posouzeno: true

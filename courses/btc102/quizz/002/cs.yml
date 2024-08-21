@@ -1,11 +1,11 @@
-question: Jaký je významný příklad hard forku Bitcoinu?
-answer: Bitcoin Cash (BCH)
-wrong_answers:
+otázka: Jaký je významný příklad hard forku Bitcoinu?
+odpověď: Bitcoin Cash (BCH)
+špatné_odpovědi:
   - Ethereum (ETH)
   - Litecoin (LTC)
   - Ripple (XRP)
-explanation: |
+vysvětlení: |
   Bitcoin prošel v průběhu času několika hard forky, které vedly k vzniku různých
   alternativních verzí původní měny. Významnými příklady těchto odchylek
   jsou Bitcoin Cash (BCH) a Bitcoin Satoshi Vision (BSV).
-reviewed: false
+recenzováno: false

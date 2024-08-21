@@ -1,0 +1,5 @@
+---
+term: ANCHOR OUTPUTS
+---
+
+Návrh zaměřený na zlepšení správy poplatků za transakce v rámci Lightning kanálů. S každou změnou stavu v Lightning kanálu vytvoří a podepíší zúčastněné strany novou závaznou transakci, která odráží nové rozdělení prostředků v kanálu. Problém s tímto mechanismem spočívá v určení poplatků za transakci v době jejího vytvoření. Skutečně, poplatky za transakce v síti Bitcoin podléhají významným kolísáním, jak směrem nahoru, tak dolů. Pokud jsou poplatky stanovené pro poslední závaznou transakci nedostatečné v době jednostranného uzavření kanálu, transakce nejenže zabere značné množství času na potvrzení, ale časové zámky (timelocks) by také mohly umožnit krádež prostředků. Anchor outputs rezervují malou část prostředků v závazné transakci na pokrytí budoucích poplatků. V případě přetížení sítě a vzestupu poplatků umožňují anchor outputs modifikaci poplatků za transakci po vytvoření závazné transakce, čímž zajišťují dostatečně rychlé uzavření Lightning kanálu.

@@ -1,9 +1,9 @@
-question: Jaká je role notáře v kontextu dědictví Bitcoinů?
-answer: Zajistit dodržování daňových předpisů
-wrong_answers:
+otázka: Jaká je role notáře v kontextu dědictví Bitcoinů?
+odpověď: Zajistit dodržování daňových předpisů
+špatné_odpovědi:
   - Spravovat vaše bitcoiny po vaší smrti
   - Vytvořit váš dědický plán
   - Zabezpečit vaše bitcoiny
-explanation: |
+vysvětlení: |
   V kontextu dědictví Bitcoinů je důležité diskutovat o dědictví bitcoinů s notářem, aby bylo zajištěno dodržování daňových předpisů.
 posouzeno: false

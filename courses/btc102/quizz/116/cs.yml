@@ -1,11 +1,11 @@
-question: Jaký je účel pomalého hromadění bitcoinů?
-answer: Nechat vaši investiční strategii postupně se rozvíjet.
-wrong_answers:
+otázka: Jaký je účel pomalého hromadění bitcoinů?
+odpověď: Nechat vaši investiční strategii postupně se rozvíjet.
+špatné_odpovědi:
   - Těžit nové Bitcoiny.
   - Obchodovat s Bitcoiny.
   - Převádět Bitcoiny na jiné kryptoměny.
-explanation: |
+vysvětlení: |
   Pomalé hromadění bitcoinů je strategie, která umožňuje vaší investici
   postupně se rozvíjet. Nepoužívá se pro těžbu nových Bitcoinů, obchodování s Bitcoiny nebo
   převod Bitcoinů na jiné kryptoměny.
-reviewed: false
+recenzováno: false

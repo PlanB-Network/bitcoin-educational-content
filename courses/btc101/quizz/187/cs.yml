@@ -1,10 +1,10 @@
-question: Jaká je jedna výhoda přijímání Bitcoinu jako obchodníka?
-answer: Odolnost proti cenzuře
-wrong_answers:
+otázka: Jaká je jedna výhoda přijímání Bitcoinu jako obchodníka?
+odpověď: Odolnost proti cenzuře
+špatné_odpovědi:
   - Zvýšené transakční poplatky
   - Ochrana proti deflaci
   - Finanční omezení
-explanation: >-
+vysvětlení: >-
   Přijímání Bitcoinu jako obchodníka má několik výhod, včetně odolnosti proti cenzuře, snížených transakčních poplatků, zvýšené efektivity, ochrany proti inflaci,
   stejně jako finanční svobody a suverenity.
-reviewed: false
+recenzováno: false

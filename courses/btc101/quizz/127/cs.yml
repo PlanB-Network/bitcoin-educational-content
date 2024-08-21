@@ -1,11 +1,11 @@
-question: Jaký je účel transakčních poplatků u Bitcoinových transakcí?
-answer: Jsou to pobídka pro těžaře, aby transakci zařadili do dalšího bloku.
-wrong_answers:
+otázka: Jaký je účel transakčních poplatků u Bitcoinových transakcí?
+odpověď: Jsou to pobídka pro těžaře, aby transakci zařadili do dalšího bloku.
+špatné_odpovědi:
   - Jsou to daň uložená vládou.
   - Je to poplatek účtovaný Bitcoinovou sítí za používání jejích služeb.
   - Je to poplatek účtovaný poskytovatelem peněženky.
-explanation: |
+vysvětlení: |
   Transakční poplatky u Bitcoinových transakcí slouží jako pobídka pro těžaře,
   aby transakci zařadili do dalšího bloku. Poplatky vytvářejí volný trh pro
   zařazování transakcí do bloků.
-reviewed: false
+posouzeno: true

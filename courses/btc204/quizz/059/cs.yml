@@ -1,13 +1,13 @@
-question: Na jaké přibližné úrovni je celková míra opětovného použití adres na Bitcoinu?
+otázka: Na jaké přibližné úrovni je celková míra opětovného použití adres na Bitcoinu?
 
-answer: Asi 50%
+odpověď: Asi 50%
 
-wrong_answers:
+nesprávné_odpovědi:
   - Asi 5%
   - Asi 15%
   - Asi 40%
 
-explanation: |
+vysvětlení: |
   Od počátku 10. let 21. století se celková míra opětovného použití adres na Bitcoinu pohybuje kolem 50%.
 
-reviewed: false
+recenzováno: false

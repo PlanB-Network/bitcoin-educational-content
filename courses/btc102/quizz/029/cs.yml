@@ -1,9 +1,9 @@
-question: Jaký význam má omezenost Bitcoinu?
-answer: Na světě bude pouze 21 milionů bitcoinů a nikdy více
-wrong_answers:
+otázka: Jaký význam má omezenost Bitcoinu?
+odpověď: Na světě bude pouze 21 milionů bitcoinů a nikdy více
+špatné_odpovědi:
   - Hodnota Bitcoinu bude vždy růst
   - Těžba Bitcoinu je obtížná
   - Počet transakcí s Bitcoinem je omezený
-explanation: |
+vysvětlení: |
   Omezenost Bitcoinu odkazuje na skutečnost, že na světě bude pouze 21 milionů bitcoinů. Tato vlastnost, podobně jako u zlata, brání znehodnocení hodnoty Bitcoinu prostřednictvím nadměrného tisku peněz.
-reviewed: false
+recenzováno: false

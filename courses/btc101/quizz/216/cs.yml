@@ -1,10 +1,10 @@
-question: Jaký je status Bitcoinu v některých zemích?
-answer: Zakázán a kriminalizován
-wrong_answers:
+otázka: Jaký je status Bitcoinu v některých zemích?
+odpověď: Zakázán a kriminalizován
+špatné_odpovědi:
   - Plně přijat
   - Částečně přijat
   - Nerozřešen
-explanation: >-
+vysvětlení: >-
   Text uvádí, že některé země zakázaly a kriminalizovaly používání Bitcoinu, což přidává na složitosti přijetí Bitcoinu v závislosti na kulturách,
   epochách a národech.
-reviewed: false
+recenzováno: false

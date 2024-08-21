@@ -1,0 +1,5 @@
+---
+term: BARE-MULTISIG
+---
+
+Standardní skriptový model P2MS používaný pro stanovení podmínek výdaje na UTXO. Umožňuje uzamknout bitcoiny s více veřejnými klíči. Pro výdaj těchto bitcoinů musí být poskytnut podpis s předem definovaným počtem přidružených soukromých klíčů. Například `2/3` P2MS má `3` veřejné klíče s `3` přidruženými tajnými soukromými klíči. Pro výdaj bitcoinů uzamčených tímto P2MS skriptem musí být proveden podpis s alespoň `2` z `3` soukromých klíčů. Jedná se o systém zabezpečení na principu prahu. Tento skript byl vynalezen v roce 2011 Gavinem Andresenem, když právě převzal údržbu hlavního klienta Bitcoinu. Dnes je P2MS používán jen okrajově některými aplikacemi. Většina moderních multisignatur využívá jiné skriptové modely jako P2SH nebo P2WSH. Ve srovnání s těmito je P2MS extrémně triviální. Veřejné klíče, z nichž se skládá, jsou odhaleny při přijetí transakce. Použití P2MS je také dražší než u ostatních multisignaturních skriptů.

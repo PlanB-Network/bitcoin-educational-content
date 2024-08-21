@@ -1,9 +1,9 @@
-question: Které P2P řešení diskutované v kapitole využívá systém DAO a multisign pro řízení sporů?
-answer: Bisq
-wrong_answers:
+otázka: Které P2P řešení diskutované v kapitole využívá systém DAO a multisign pro řízení sporů?
+odpověď: Bisq
+nesprávné_odpovědi:
   - RoboSat
   - LNP2PBot
   - Peach
-explanation: |
+vysvětlení: |
   Podle kapitoly Bisq představuje nezákonné P2P řešení, které má systém DAO (Decentralizovaná Autonomní Organizace) a využívá multisign pro řízení sporů.
-reviewed: false
+recenzováno: false

@@ -1,0 +1,7 @@
+---
+term: HONG-KONG ROUNDTABLE
+---
+
+Historická událost Blocksize War, která se odehrála 20. února 2016 v Hongkongu. Jednalo se o významné setkání mezi vývojáři Bitcoin Core a těžaři, na kterém se diskutovalo o škálovatelnosti systému a strategii jeho škálování. Před setkáním bylo napětí vysoké, zejména kvůli vzestupu Bitcoin Classic, návrhu hard forku podporovanému Gavinem Andressenem, který měl zvýšit velikost bloku na 2 MB. V debatách se účastnily vlivné postavy ekosystému, včetně Jihana Wu a Micree Zhana, spoluzakladatelů Bitmainu, Adama Backa, prezidenta Blockstreamu, a Luke Dashjra, Matta Coralla a Petera Todda.
+
+Těžaři, frustrovaní z nedostatku pokroku, hrozili podporou Bitcoin Classic, pokud by nebyl implementován 2 MB hard fork. Vývojáři bránili SegWit jako životaschopné řešení. Po hodinách napjatých jednání byla dosažena dohoda, která uváděla, že vývojáři Bitcoin Core budou pracovat na hard forku po implementaci SegWitu. Tato dohoda měla uklidnit napětí, ale nakonec vytvořila více nedůvěry a zmatku. Každá strana interpretovala dohodu jinak, což prohloubilo rozdělení uvnitř komunity. Ačkoliv tato dohoda dočasně zpomalila momentum Bitcoin Classic, mnohými byla považována za neuspokojivé a neobratné řešení.

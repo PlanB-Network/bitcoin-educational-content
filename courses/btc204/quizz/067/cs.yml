@@ -1,13 +1,13 @@
-question: Která heuristika může být použita pro propojení všech vstupů konsolidace?
+otázka: Která heuristika může být použita pro propojení všech vstupů konsolidace?
 
-answer: CIOH.
+odpověď: CIOH.
 
-wrong_answers:
+nesprávné_odpovědi:
   - Opětovné použití adresy.
   - Největší výstup.
   - Kulatá platba.
 
-explanation: |
+vysvětlení: |
   Externí pozorovatel může použít CIOH k hypotéze, že všechny vstupy konsolidace patří téže entitě.
 
 posouzeno: false

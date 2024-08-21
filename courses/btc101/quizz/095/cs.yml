@@ -1,11 +1,11 @@
-question: Jaké je riziko používání úschovné peněženky?
-answer: Důvěryhodná třetí strana může kdykoliv omezit váš přístup k vašim prostředkům
-wrong_answers:
+otázka: Jaké je riziko používání úschovné peněženky?
+odpověď: Důvěryhodná třetí strana může kdykoliv omezit váš přístup k vašim prostředkům
+špatné_odpovědi:
   - Důvěryhodná třetí strana může kdykoliv zvýšit hodnotu vašich bitcoinů
   - Důvěryhodná třetí strana může kdykoliv snížit hodnotu vašich bitcoinů
   - Důvěryhodná třetí strana může kdykoliv darovat vaše bitcoiny
-explanation: |
+vysvětlení: |
   Když používáte úschovnou peněženku, nejste jediným držitelem vašich bitcoinů.
   To znamená, že důvěryhodná třetí strana může kdykoliv omezit váš přístup k vašim prostředkům,
   což vám dává stejnou úroveň finanční suverenity jako tradiční bankovní systém.
-reviewed: true
+recenzováno: true

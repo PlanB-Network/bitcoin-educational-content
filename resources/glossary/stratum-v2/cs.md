@@ -1,0 +1,5 @@
+---
+term: STRATUM V2
+---
+
+Evoluce Stratum, renomovaného protokolu pro overlay síť pro Bitcoin určeného pro těžbu. Tento typ protokolu je navržen tak, aby optimalizoval komunikaci mezi jednotlivými těžaři a servery těžebních poolů za účelem zvýšení jejich ziskovosti. Vyvinutý poolem Braiins (dříve "Slush Pool"), Stratum V2 přináší několik vylepšení, včetně efektivnější komunikace mezi těžaři a těžebními pooly, čímž se snižuje potřebná šířka pásma. Také snižuje infrastrukturní potřeby pro pooly. Z hlediska bezpečnosti přidává kryptografickou autentizaci, aby předešel různým útokům typu man-in-the-middle, včetně odposlechu a zlomyslného přesměrování hashrate. Důležitým aspektem Stratum V2 je, že zahrnuje sub-protokoly, které umožňují jednotlivým těžařům vybrat si vlastní sady transakcí, které mají být zahrnuty do bloků, na kterých pracují. Tato funkce dává více moci jednotlivým těžařům, na rozdíl od původního protokolu, kde měly pooly úplnou kontrolu nad šablonou bloku. Tato metoda by tak mohla posílit decentralizaci těžebního procesu pooly.

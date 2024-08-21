@@ -1,11 +1,11 @@
-question: Co nabízí Bitcoin každému jednotlivci?
-answer: Možnost opustit tradiční finanční systém
-wrong_answers:
+otázka: Co nabízí Bitcoin každému jednotlivci?
+odpověď: Možnost opustit tradiční finanční systém
+špatné_odpovědi:
   - Možnost rychle zbohatnout
   - Možnost investovat do akcií
   - Možnost otevřít si bankovní účet
-explanation: |
+vysvětlení: |
   Kapitola uvádí, že Bitcoin nabízí každému jednotlivci možnost opustit
   tradiční finanční systém. Je to etická volba, kterou se pravděpodobně
   jednoho dne každý bude muset rozhodnout.
-reviewed: false
+recenzováno: false

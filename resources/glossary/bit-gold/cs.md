@@ -1,0 +1,5 @@
+---
+term: BIT GOLD
+---
+
+Bit gold je decentralizovaný digitální měnový systém, který konceptualizoval Nick Szabo v roce 1998 a veřejně popsal v roce 2005. Bit gold byl navržen tak, aby generoval a vyměňoval virtuální zdroj nazvaný bit gold. Tento systém nebyl založen na žádném fyzickém zboží, ale měl za cíl vytvořit formu nezfalšovatelné vzácnosti. Protokol bit gold spoléhal na vytváření měny prostřednictvím důkazu práce (proof of work), kde kusy bit gold byly vytvořeny pomocí výpočetního výkonu počítačů, čímž se tvořil řetězec důkazů práce. Každý důkaz práce byl opatřen časovým razítkem a poté přidán do majetkového rejstříku. Ověřování a převod vlastnictví bit gold probíhal prostřednictvím veřejného rejstříku, kde byli uživatelé identifikováni veřejnými klíči. Bit gold zůstal na konceptuální úrovni a nikdy nebyl implementován. Tento systém je jedním z předchůdců Bitcoinu, společně s b-money a RPoW, ale Satoshi o jeho existenci před vytvořením Bitcoinu zdánlivě nevěděl. Později byl zmíněn na webových stránkách a fóru Bitcoinu.

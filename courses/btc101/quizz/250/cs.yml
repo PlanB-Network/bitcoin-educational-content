@@ -1,9 +1,9 @@
-question: Jaké je jedno z hlavních obav týkajících se bankovního systému?
-answer: Pravidla bankovního systému nejsou transparentní a srozumitelná pro všechny.
-wrong_answers:
+otázka: Jaké je jedno z hlavních obav týkajících se bankovního systému?
+odpověď: Pravidla bankovního systému nejsou transparentní a srozumitelná pro všechny.
+špatné_odpovědi:
   - Bankovní systém je příliš snadno pochopitelný.
   - Bankovní systém je příliš transparentní.
   - Bankovní systém je příliš decentralizovaný.
-explanation: >-
+vysvětlení: >-
   Text uvádí, že otázka, kdo by měl kontrolovat bankovní systém, je klíčová, protože pravidla bankovního systému nejsou transparentní a srozumitelná pro všechny.
-reviewed: false
+recenzováno: false

@@ -1,0 +1,13 @@
+otázka: Jaká heuristika analýzy řetězce je používána transakcí payjoin k tomu, aby působila jako klam?
+
+odpověď: COH
+
+špatné odpovědi:
+  - Opakované použití adresy
+  - Identifikace peněženky
+  - Opakované použití verze
+
+vysvětlení: |
+  Když analytik zkoumá transakci payjoin, je veden k přesvědčení, že všechny vstupy pocházejí od téhož člověka kvůli COH. Toto vnímání je však nesprávné, protože k vstupům přispívá také příjemce platby společně s vlastním plátcem. Tím je analýza řetězce odkloněna k interpretaci, která se ukáže být nepravdivá.
+
+recenzováno: false

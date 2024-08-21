@@ -1,0 +1,13 @@
+otázka: Jaká je maximální entropie transakce?
+
+odpověď: Nejvyšší entropie, které může struktura transakce dosáhnout.
+
+nesprávné_odpovědi:
+  - Nejnižší entropie, které může struktura transakce dosáhnout.
+  - Skutečná entropie transakce.
+  - Efektivita transakce.
+
+vysvětlení: |
+  Maximální entropie odkazuje na nejvyšší entropii, které může konkrétní struktura transakce teoreticky dosáhnout.
+
+recenzováno: false

@@ -1,9 +1,9 @@
-question: Jak se nazývá událost, kdy je odměna za těžbu Bitcoinových transakcí snížena na polovinu?
-answer: Halving
-wrong_answers:
+otázka: Jak se nazývá událost, kdy je odměna za těžbu Bitcoinových transakcí snížena na polovinu?
+odpověď: Halving
+špatné_odpovědi:
   - Zdvojnásobení
   - Čtvrtění
   - Ztrojnásobení
-explanation: |
+vysvětlení: |
   Programové snížení odměn za těžbu, halving každé čtyři roky,
   je událost známá jako "halving".

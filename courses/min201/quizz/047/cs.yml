@@ -1,9 +1,9 @@
-question: Jaké je hlavní riziko spojené s investováním do společností, které prodávají hardware pro těžbu a spravují stroje v lokalitách s nízkými náklady na energii?
-answer: Problémy s dodávkami energie a poruchy strojů mohou investory připravit o možnost jakékoliv kontroly, přičemž zůstanou s drahým vybavením, které nemohou ovládat.
-wrong_answers:
+otázka: Jaké je hlavní riziko spojené s investováním do společností, které prodávají hardware pro těžbu a spravují stroje v lokalitách s nízkými náklady na energii?
+odpověď: Problémy s dodávkami energie a poruchy strojů mohou investory připravit o možnost jakékoliv kontroly, přičemž zůstanou s drahým vybavením, které nemohou ovládat.
+špatné_odpovědi:
   - Společnosti mohou zbankrotovat a investoři mohou přijít o své peníze.
   - Společnosti mohou být podvody a investoři mohou přijít o své peníze.
   - Společnosti nemusí být schopny prodat vytěžené bitcoiny a investoři mohou přijít o své peníze.
-explanation: |
+vysvětlení: |
   Hlavní riziko spojené s investováním do společností, které prodávají hardware pro těžbu a spravují stroje v lokalitách s nízkými náklady na energii, spočívá v tom, že problémy s dodávkami energie a poruchy strojů mohou investory připravit o možnost jakékoliv kontroly, přičemž zůstanou s drahým vybavením, které nemohou ovládat.
 reviewed: false

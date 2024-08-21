@@ -1,9 +1,9 @@
-question: Jak by Lightning Network mohl změnit platební modely?
-answer: Uživatelé by mohli být účtováni za minutu, nebo dokonce za sekundu, strávenou při používání služby
-wrong_answers:
+otázka: Jak by Lightning Network mohl změnit platební modely?
+odpověď: Uživatelé by mohli být účtováni za minutu, nebo dokonce za sekundu, strávenou při používání služby
+špatné_odpovědi:
   - Uživatelé by mohli být účtováni paušální sazbou za používání služby
   - Uživatelé by mohli být účtováni na základě množství dat, která použijí
   - Uživatelé by mohli být účtováni na základě počtu transakcí, které provedou
-explanation: >-
+vysvětlení: >-
   S Lightning Network, místo placení měsíčního předplatného za službu, by uživatelé mohli být účtováni za minutu, nebo dokonce za sekundu, strávenou při používání služby.
 reviewed: false

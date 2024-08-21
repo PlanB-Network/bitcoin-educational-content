@@ -1,0 +1,11 @@
+otázka: Jaký termín popisuje ochranu, kterou coinjoin nabízí proti analýze budoucích transakcí mince?
+
+odpověď: Prospective anonset.
+
+nesprávné odpovědi:
+  - Retrospective anonset.
+  - Odolnost vůči sledovatelnosti.
+  - Časové soukromí.
+
+vysvětlení: |
+  Ochrana proti analýze od minulosti do současnosti se nazývá prospective anonset.

@@ -1,9 +1,9 @@
-question: Jaká je jedna charakteristika uživatele Bitcoinu, který je pragmatický a zavázaný?
-answer: Jsou aktivně zapojeni do ekosystému a aktivně ho podporují častým používáním.
-wrong_answers:
+otázka: Jaká je jedna charakteristika uživatele Bitcoinu, který je pragmatický a zavázaný?
+odpověď: Jsou aktivně zapojeni do ekosystému a aktivně ho podporují častým používáním.
+špatné_odpovědi:
   - Používají Bitcoin jen příležitostně.
   - Používají Bitcoin pouze pro dlouhodobou investici.
   - Používají Bitcoin pouze na jedné obchodní platformě.
-explanation: |
+vysvětlení: |
   Pragmatický a zavázaný uživatelé Bitcoinu jsou aktivně zapojeni do ekosystému Bitcoinu a podporují ho častým používáním.
-reviewed: false
+recenzováno: false

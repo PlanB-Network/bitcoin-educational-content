@@ -1,9 +1,9 @@
-question: Jaký je jeden z důvodů, proč Bitcoin není bublina, která zmizí?
-answer: Protože je to měna, která se skutečně používá po celém světě.
-wrong_answers:
+otázka: Jaký je jeden z důvodů, proč Bitcoin není bublina, která zmizí?
+odpověď: Protože je to měna, která se skutečně používá po celém světě.
+špatné_odpovědi:
   - Protože se ve skutečnosti nikde nepoužívá.
   - Protože je kontrolována centrální autoritou.
   - Protože je snadno padělatelná.
-explanation: >-
+vysvětlení: >-
   Bitcoin není bublina, která zmizí, ale měna, která se skutečně používá po celém světě.
-reviewed: false
+recenzováno: false

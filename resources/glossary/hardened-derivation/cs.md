@@ -1,0 +1,5 @@
+---
+term: HARDENED DERIVATION
+---
+
+Proces generování dětských klíčů v HD peněženkách. Hardened derivation využívá rodičovský soukromý klíč jako vstup pro funkci `HMAC-SHA512`, což znemožňuje generování dětských veřejných klíčů z rodičovského veřejného klíče a rodičovského řetězového kódu. Proces zahrnuje spojení rodičovského soukromého klíče a indexu většího nebo rovného $2^{31}$, následované aplikací `HMAC-SHA512` s rodičovským řetězovým kódem. Výsledek je rozdělen na dvě části: prvních 256 bitů je přidáno k rodičovskému soukromému klíči pro získání dětského soukromého klíče, zatímco zbývajících 256 bitů tvoří dětský řetězový kód. Tato metoda zajišťuje, že i v případě kompromitace rozšířeného veřejného klíče, nemůže být použit k odvození dětských veřejných klíčů. V standardní derivaci je hardened derivation používána na všech úrovních derivace až do hloubky účtu. V notacích cesty derivace je hardened derivation označena apostrofem `'` nebo vzácněji písmenem `h`.

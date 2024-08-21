@@ -8,7 +8,7 @@ Mise PlanB spočívá v poskytování špičkových vzdělávacích zdrojů o Bi
 
 Pokud si přejete přidat nový kompletní tutoriál nebo kurz na síť PlanB, budete muset vytvořit svůj profesorský profil. To vám umožní být řádně uznán za obsah, který na webu vytváříte.
 ![tutorial](assets/1.webp)
-Pokud jste již předtím přispívali do sítě PlanB, pravděpodobně již máte ID přispěvatele. Najdete ho ve vaší složce profesora přístupné [přes tuto stránku](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/professors). Pokud tomu tak je, můžete tento tutoriál přeskočit a začít přímo přispívat.
+Pokud jste již předtím přispívali do sítě PlanB, pravděpodobně již máte ID přispěvatele. Najdete ho ve vaší složce profesora přístupné [přes tuto stránku](https://github.com/DecouvreBitcoin/sovereign-university-data/tree/dev/professors). Pokud tomu tak je, můžete tento tutoriál přeskočit a začít přímo přispívat.
 ![tutorial](assets/2.webp)
 
 Pojďme společně objevit, jak přidat nového profesora v tomto tutoriálu!
@@ -21,12 +21,12 @@ Pojďme společně objevit, jak přidat nového profesora v tomto tutoriálu!
 ![tutorial](assets/3.webp)
 **Předpoklady před zahájením tutoriálu:**
 - Mít [účet na GitHubu](https://github.com/signup).
-- Mít fork [zdrojového repozitáře sítě PlanB](https://github.com/PlanB-Network/bitcoin-educational-content).
+- Mít fork [zdrojového repozitáře sítě PlanB](https://github.com/DecouvreBitcoin/sovereign-university-data).
 
 **Pokud potřebujete pomoc s získáním těchto předpokladů, mé další tutoriály vás provedou:**
-**[Porozumění Gitu a GitHubu](https://planb.network/tutorials/others/basics-of-github)**
-**[Vytvoření účtu na GitHubu](https://planb.network/tutorials/others/create-github-account)**
-**[Nastavení pracovního prostředí](https://planb.network/tutorials/others/github-desktop-work-environment)**
+- **[Porozumění Gitu a GitHubu](https://planb.network/tutorials/others/basics-of-github)**
+- **[Vytvoření účtu na GitHubu](https://planb.network/tutorials/others/create-github-account)**
+- **[Nastavení pracovního prostředí](https://planb.network/tutorials/others/github-desktop-work-environment)**
 
 ## Jak vytvořit nový profesorský profil?
 

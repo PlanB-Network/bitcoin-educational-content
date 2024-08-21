@@ -1,0 +1,5 @@
+---
+term: ZPĚTNÁ KOMPATIBILITA
+---
+
+Odkazuje na schopnost aktualizace pravidel protokolu udržet kompatibilitu s předchozími verzemi. To znamená, že změny jsou navrženy takovým způsobem, že starší uzly (uzly běžící na verzích před změnou pravidel) mohou stále interagovat se sítí a sledovat řetězec s největším nahromaděným pracovním výkonem. Je tedy zásadní, aby starší uzly nové bloky ani nové transakce neodmítaly. Zpětná kompatibilita výrazně snižuje pravděpodobnost, že aktualizace rozdělí síť, čímž se vyhne rozdělení uzlů do podskupin na různých řetězcích. Aby bylo zajištěno, že aktualizace bude kompatibilní s předchozími verzemi protokolu, musí aktualizace zpřísnit stávající pravidla nebo zavést nová. Tento princip definuje "soft fork". Naopak, pokud aktualizace uvolní stávající pravidla nebo některá odstraní, pak nebude zpětně kompatibilní. To by byl "hard fork".

@@ -22,14 +22,14 @@ Pro přispívání do PlanB Network máte 3 možnosti v závislosti na vaší ú
 ![tutoriál](assets/1.webp)
 **Předpoklady před zahájením tutoriálu:**
 - Mít [účet na GitHubu](https://github.com/signup).
-- Mít fork [zdrojového repozitáře PlanB Network](https://github.com/PlanB-Network/bitcoin-educational-content).
+- Mít fork [zdrojového repozitáře PlanB Network](https://github.com/DecouvreBitcoin/sovereign-university-data).
 - Mít [profil profesora na PlanB Network](https://planb.network/professors) (pouze pokud navrhujete kompletní tutoriál).
 
 **Pokud potřebujete pomoc s získáním těchto předpokladů, moje další tutoriály vás provedou:**
-**[Porozumění Gitu a GitHubu](https://planb.network/tutorials/others/basics-of-github)**
-**[Vytvoření účtu na GitHubu](https://planb.network/tutorials/others/create-github-account)**
-**[Nastavení pracovního prostředí](https://planb.network/tutorials/others/github-desktop-work-environment)**
-**[Vytvoření profilu profesora](https://planb.network/tutorials/others/create-teacher-profile)**
+- **[Porozumění Gitu a GitHubu](https://planb.network/tutorials/others/basics-of-github)**
+- **[Vytvoření účtu na GitHubu](https://planb.network/tutorials/others/create-github-account)**
+- **[Nastavení pracovního prostředí](https://planb.network/tutorials/others/github-desktop-work-environment)**
+- **[Vytvoření profilu profesora](https://planb.network/tutorials/others/create-teacher-profile)**
 ## Jaký typ obsahu psát na PlanB Network?
 Hledáme především tutoriály o nástrojích souvisejících s Bitcoinem nebo jeho ekosystémem. Tyto obsahy mohou být organizovány do šesti hlavních kategorií:
 - Peněženka;

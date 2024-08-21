@@ -1,9 +1,9 @@
-question: Jaký je účel správce hesel u Bitcoinu?
-answer: Bezpečně ukládat a spravovat hesla pro transakce s Bitcoinem.
-wrong_answers:
+otázka: Jaký je účel správce hesel u Bitcoinu?
+odpověď: Bezpečně ukládat a spravovat hesla pro transakce s Bitcoinem.
+špatné_odpovědi:
   - Těžit nové Bitcoiny.
   - Obchodovat s Bitcoiny.
   - Převádět Bitcoiny na jiné kryptoměny.
-explanation: |
+vysvětlení: |
   Správce hesel je softwarová aplikace, která slouží k ukládání a správě hesel uživatele pro různé online účty. V kontextu Bitcoinu je používán k bezpečnému ukládání a správě hesel pro transakce s Bitcoinem.
-reviewed: false
+recenzováno: false

@@ -1,0 +1,5 @@
+---
+term: RAKOUSKÁ ŠKOLA
+---
+
+Ekonomický směr, který teoretizuje trh jako soubor dobrovolných individuálních interakcí, zdůrazňuje spontánnost ekonomického řádu a kritizuje státní zásahy. Rakouská škola podporuje roli soukromého vlastnictví, svobody uzavírání smluv a volného obchodu, zatímco kritizuje narušující účinky tvorby peněz na ekonomiku. Její přispěvatelé, jako jsou Carl Menger, Ludwig von Mises a Friedrich Hayek, vyvinuli koncepty jako jsou tvorba cen, funkce peněz, dynamika kapitálu a subjektivní teorie hodnoty. Rakouská škola kritizuje socialismus za jeho neschopnost provádět efektivní ekonomické výpočty a preferuje liberální přístup. Oceňuje volný trh a vidí státní intervencionismus jako zdroj ekonomických nerovnováh. Mnoho nadšenců do Bitcoinu se drží těchto myšlenek, věříce, že Bitcoin představuje nástroj v souladu s touto filozofií díky jeho distribuované povaze, omezení jeho monetární tvorby a jeho schopnosti fungovat nezávisle na státním zásahu.

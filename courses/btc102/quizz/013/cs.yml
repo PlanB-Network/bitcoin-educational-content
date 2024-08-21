@@ -1,10 +1,10 @@
-question: Jaké je jedno ze základních opatření pro zlepšení návyků online bezpečnosti?
-answer: Zapnout dvoufaktorovou autentizaci (2FA)
-wrong_answers:
+otázka: Jaké je jedno ze základních opatření pro zlepšení návyků online bezpečnosti?
+odpověď: Zapnout dvoufaktorovou autentizaci (2FA)
+špatné_odpovědi:
   - Používat stejné heslo pro všechny účty
   - Zanedbávat pravidelné zálohování dat
   - Sdílet svá hesla
-explanation: |
+vysvětlení: |
   Zapnutí dvoufaktorové autentizace (2FA) je jedním ze základních opatření
 
   pro zlepšení návyků online bezpečnosti. Poskytuje další vrstvu zabezpečení

@@ -1,10 +1,10 @@
-question: Kolik bitcoinů celkem existuje?
-answer: 21 milionů
-wrong_answers:
+otázka: Kolik bitcoinů celkem existuje?
+odpověď: 21 milionů
+špatné_odpovědi:
   - 21 miliard
   - 21 tisíc
   - 21 bilionů
-explanation: |
+vysvětlení: |
   Celkem existuje pouze 21 milionů bitcoinů. To je základní aspekt
   designu Bitcoinu a přispívá k jeho vzácnosti.
-reviewed: false
+recenzováno: false

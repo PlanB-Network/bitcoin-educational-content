@@ -1,10 +1,10 @@
-question: Jaký je hlavní účel jednotky Bitcoin?
-answer: Jednotka Bitcoin je měna nezbytná pro správné fungování protokolu Bitcoin.
-wrong_answers:
+otázka: Jaký je hlavní účel jednotky Bitcoin?
+odpověď: Jednotka Bitcoin je měna nezbytná pro správné fungování protokolu Bitcoin.
+špatné_odpovědi:
   - Jednotka Bitcoin slouží k regulaci ceny Bitcoinu.
   - Jednotka Bitcoin slouží k ovládání protokolu Bitcoin.
   - Jednotka Bitcoin slouží k vytváření nových bitcoinů.
-explanation: |
+vysvětlení: |
   Jednotka Bitcoin je měna nezbytná pro správné fungování protokolu Bitcoin.
   Používá se pro transakce a spoléhá na protokol Bitcoin, aby fungovala.
-reviewed: false
+posouzeno: true

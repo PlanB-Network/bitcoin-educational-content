@@ -1,10 +1,10 @@
-question: Jaká je unikátní vlastnost P2P řešení HodlHodl?
-answer: Nabízí systém doporučení.
-wrong_answers:
+otázka: Jaká je unikátní vlastnost P2P řešení HodlHodl?
+odpověď: Nabízí systém doporučení.
+špatné_odpovědi:
   - Funguje pod TOR.
   - Používá multisign pro řízení sporů.
   - Vyžaduje vytvoření účtu pro provoz.
-explanation: |
+vysvětlení: |
   Kapitola uvádí, že HodlHodl nabízí systém doporučení, což je
   unikátní vlastnost mezi diskutovanými P2P řešeními.
-reviewed: false
+recenzováno: false

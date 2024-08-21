@@ -1,9 +1,9 @@
-question: Jaký je hlavní důvod, proč vlády a centrální banky zkoumají možnost vytvoření digitální verze své fiat měny?
-answer: Aby zajistily kontrolu a dodržely místní předpisy
-wrong_answers:
+otázka: Jaký je hlavní důvod, proč vlády a centrální banky zkoumají možnost vytvoření digitální verze své fiat měny?
+odpověď: Aby zajistily kontrolu a dodržely místní předpisy
+špatné_odpovědi:
   - Aby konkurovaly Bitcoinu
   - Aby poskytovaly ochranu soukromí
   - Aby zvýšily masový dohled
-explanation: |
+vysvětlení: |
   Obsah kapitoly vysvětluje, že ačkoli tyto projekty tvrdí, že konkuruji Bitcoinu, zůstávají centralizované, aby zajistily kontrolu a dodržely místní předpisy.
-reviewed: false
+recenzováno: false

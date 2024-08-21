@@ -1,9 +1,9 @@
-question: Co byste měli udělat po uložení obálky podle kapitoly?
-answer: Ujistěte se, že vaši dědicové vědí, že v případě potřeby musí tuto obálku vyzvednout.
-wrong_answers:
+otázka: Co byste měli udělat po uložení obálky podle kapitoly?
+odpověď: Ujistěte se, že vaši dědicové vědí, že v případě potřeby musí tuto obálku vyzvednout.
+špatné_odpovědi:
   - Ujistěte se, že vaši dědicové nevědí, že v případě potřeby musí tuto obálku vyzvednout.
   - Ujistěte se, že vaši dědicové vědí, že v případě potřeby nemusí tuto obálku vyzvednout.
   - Ujistěte se, že vaši dědicové nevědí, že v případě potřeby nemusí tuto obálku vyzvednout.
-explanation: |
+vysvětlení: |
   Po uložení obálky byste se měli ujistit, že vaši dědicové vědí, že v případě potřeby musí tuto obálku vyzvednout, jak je naznačeno v kapitole.
-reviewed: false
+recenzováno: false

@@ -1,0 +1,9 @@
+---
+term: DOUBLE SPENDING (ÚTOK)
+---
+
+Útok, při kterém se zlomyslný uživatel pokusí použít stejný UTXO (*Unspent Transaction Output* - nevyužitý výstup transakce) více než jednou, aby se obohatil na úkor stran zapojených do transakcí. V principu, jakmile je transakce potvrzena v bloku a přidána do blockchainu, je použití těchto bitcoinů trvale zaznamenáno, čímž se zabrání dalšímu vynakládání stejných bitcoinů. Prevence double spendingu je dokonce primární užitností blockchainu.
+
+V kontextu útoku double spending nejprve útočník provede legitimní transakci s obchodníkem, poté vytvoří druhou konkurenční transakci, při které utratí stejné mince, buď odesláním zpět k sobě, aby získal zpět částku, nebo jejich použitím k nákupu jiného zboží nebo služby od jiného obchodníka.
+
+Existují dva hlavní scénáře, které mohou tento útok umožnit. První, a pro útočníka nejjednodušší, zahrnuje provedení podvodné transakce před začleněním legitimní transakce do bloku. Aby zajistil, že jeho podvodná transakce bude potvrzena jako první, spojí útočník s ní výrazně vyšší transakční poplatky než s legitimní transakcí. Jedná se o druh podvodného RBF. Tento scénář je možný pouze v případě, že obchodník souhlasí s uzavřením prodeje v "zeroconf", což znamená bez jakýchkoli potvrzení pro platební transakci. Proto se silně doporučuje počkat na několik potvrzení, než bude transakce považována za neměnnou. Druhý scénář, mnohem složitější, je útok 51%. Pokud útočník ovládá významnou část výpočetního výkonu sítě, může těžit konkurenční řetězec k tomu, který obsahuje legitimní transakci, ale zahrnuje jejich podvodnou transakci. Když obchodník přijme prodej a útočníkovi se podaří vytvořit delší řetězec (s větším nahromaděným pracovním výkonem) než legitimní řetězec, mohou poté vysílat svůj podvodný řetězec, který bude uzlovými body sítě rozpoznán jako platný.

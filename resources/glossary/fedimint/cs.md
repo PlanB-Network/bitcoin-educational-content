@@ -1,0 +1,5 @@
+---
+term: FEDIMINT
+---
+
+Platební a správní protokol pro bitcoin navržený tak, aby zvýšil soukromí a snížil závislost na hlavním řetězci prostřednictvím sdružování správy fondů. Fedimint byl vytvořen Ericem Sirionem v roce 2021. Je založen na systému Chaumian bank, který, místo aby byl centralizován kolem jednoho důvěryhodného aktéra, spoléhá na federace. Tyto federace jsou skupiny důvěryhodných správců, kteří kolektivně drží a spravují bitcoiny uživatelů ve své skupině. Uvnitř skupiny mohou uživatelé provádět platby s lístky vydávanými výměnou za jejich vklady v bitcoinech. Myšlenka Fedimintu je nasadit tento koncept na úrovni místních komunit. Tím představuje jakýsi vývoj banky na vklady založené na bitcoinu, zahrnující systém eCash Davida Chauma a použití federace důvěryhodných jedinců odpovědných za úschovu a vydávání základního aktiva.

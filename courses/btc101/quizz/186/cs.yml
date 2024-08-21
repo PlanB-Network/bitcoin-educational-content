@@ -1,11 +1,11 @@
-question: Jakým způsobem lze získat bitcoiny bez jejich nákupu?
-answer: Přijímat je jako platidlo za produkty nebo služby, které nabízíte
-wrong_answers:
+otázka: Jakým způsobem lze získat bitcoiny bez jejich nákupu?
+odpověď: Přijímat je jako platidlo za produkty nebo služby, které nabízíte
+špatné_odpovědi:
   - Půjčit si je od přítele
   - Vyhrát je v loterii
   - Najít je na ulici
-explanation: >-
+vysvětlení: >-
   Jedním ze způsobů, jak získat bitcoiny bez jejich nákupu, je přijímat je jako
   platidlo za produkty nebo služby, které nabízíte. To vám umožňuje získávat
   bitcoiny prostřednictvím vaší práce.
-reviewed: false
+recenzováno: false

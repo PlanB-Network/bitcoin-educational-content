@@ -1,0 +1,5 @@
+---
+term: SHARES DIFFICULTY
+---
+
+Cílová obtížnost vyšší než ta u Bitcoinu (tedy méně obtížná), definovaná těžebním poolem pro kvalifikaci hashe podílu a posouzení příspěvku každého jednotlivého těžaře v rámci poolu. Aby bylo možné efektivně řídit zátěž ověřování a zajistit, že každý těžař, bez ohledu na jeho výpočetní výkon, pravidelně odevzdává podíly, pooly upravují obtížnost podílů. Obtížnost přiřazená každému těžaři určuje počet podílů, které nahromadí: například, pokud má těžař přiřazenou obtížnost 10 a odevzdá 5 platných důkazů práce na této obtížnosti, získá 50 podílů. Silnější těžař s obtížností 100, který odevzdá 7 platných důkazů práce, obdrží 700 podílů. Tento systém umožňuje přesné kvantifikování hashrate každého těžaře a distribuci odměn podle zvolené metody výpočtu kompenzace (PPS, PPLNS, TIDES...).

@@ -1,10 +1,10 @@
-question: Jaké je hlavní obavy týkající se environmentálních nákladů těžby Bitcoinu?
-answer: Spotřeba energie
-wrong_answers:
+otázka: Jaké je hlavní obavy týkající se environmentálních nákladů těžby Bitcoinu?
+odpověď: Spotřeba energie
+nesprávné_odpovědi:
   - Výroba ASICů
   - Recyklace ASICů
   - Cena elektřiny
-explanation: >-
+vysvětlení: >-
   Hlavní environmentální obava těžby Bitcoinu spočívá ve spotřebě energie. Ačkoliv jsou ASICy většinou vyrobeny z hliníku a dají se recyklovat nebo znovu použít, energie
   potřebná k napájení těchto strojů je významná.
-reviewed: false
+recenzováno: false

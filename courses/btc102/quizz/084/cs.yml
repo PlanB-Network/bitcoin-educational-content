@@ -1,9 +1,9 @@
-question: Jaký je hlavní účel studené peněženky pro častého uživatele Bitcoinu?
-answer: Bezpečně uchovávat bitcoiny na dlouhodobé období.
-wrong_answers:
+otázka: Jaký je hlavní účel studené peněženky pro častého uživatele Bitcoinu?
+odpověď: Bezpečně uchovávat bitcoiny na dlouhodobé období.
+špatné_odpovědi:
   - Pravidelně posílat a přijímat bitcoiny pro denní použití.
   - Obchodovat bitcoiny na platformě pro výměnu.
   - Těžit nové bitcoiny.
-explanation: |
+vysvětlení: |
   Studená peněženka je typ Bitcoinové peněženky, která není připojena k internetu, což ji činí méně náchylnou k hackování a krádeži. Typicky se používá pro uchování bitcoinů, které nejsou potřebné pro denní transakce.
-reviewed: false
+recenzováno: false

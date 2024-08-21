@@ -1,10 +1,10 @@
-question: Jaká je role horké LN peněženky pro Hodlera, který chce jít dál?
-answer: Pro utrácení nějakých Bitcoinů.
-wrong_answers:
+otázka: Jaká je role horké LN peněženky pro Hodlera, který chce jít dál?
+odpověď: Pro utrácení nějakých Bitcoinů.
+špatné_odpovědi:
   - Pro nákup více Bitcoinů.
   - Pro uložení všech jejich Bitcoinů.
   - Pro obchodování s Bitcoinem.
-explanation: |
+vysvětlení: |
   Hodler, který chce jít dál, může použít horkou LN peněženku pro utrácení
   nějakých Bitcoinů, kromě jejich držení na dlouhodobé období.
-reviewed: false
+recenzováno: false

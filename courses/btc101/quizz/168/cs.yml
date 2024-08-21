@@ -1,11 +1,11 @@
-question: Jak může Bitcoin potenciálně pomoci ekologickému přechodu?
-answer: Podporuje využívání zelené energie
-wrong_answers:
+otázka: Jak může Bitcoin potenciálně pomoci ekologickému přechodu?
+odpověď: Podporuje využívání zelené energie
+špatné_odpovědi:
   - Sníží výrobu zboží
   - Reguluje spotřebu zdrojů
   - Omezuje emise skleníkových plynů
-explanation: >-
+vysvětlení: >-
   Bitcoin podporuje využívání zelené energie, což může potenciálně pomoci
   ekologickému přechodu. Například plameny na ropných vrtech, které spalují
   metan, aby zabránily znečištění, mohou být uhašeny těžaři Bitcoinu.
-reviewed: false
+recenzováno: false

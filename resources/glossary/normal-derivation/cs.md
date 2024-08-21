@@ -1,0 +1,5 @@
+---
+term: NORMAL DERIVATION
+---
+
+Proces generování dětských klíčů v HD peněženkách. Normal derivation využívá rodičovský veřejný klíč jako vstup pro funkci `HMAC-SHA512`, což umožňuje generování dětských veřejných klíčů z rodičovského veřejného klíče a rodičovského řetězového kódu. Proces zahrnuje spojení rodičovského veřejného klíče a indexu menšího než $2^{31}$, následované aplikací `HMAC-SHA512` s rodičovským řetězovým kódem. Výsledek je rozdělen na dvě části: prvních 256 bitů je přidáno k rodičovskému soukromému klíči pro získání dětského soukromého klíče, zatímco zbývajících 256 bitů tvoří dětský řetězový kód. Tato metoda zajišťuje, že rozšířený veřejný klíč lze použít k odvození dětských veřejných klíčů. Ve standardní derivaci se normal derivation používá na všech úrovních derivace od hloubky účtu. V notaci cest derivace je normal derivation identifikována, když je zde pouze index bez jakéhokoli apostrofu `'`.

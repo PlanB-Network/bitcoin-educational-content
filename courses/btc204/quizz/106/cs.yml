@@ -1,0 +1,13 @@
+otázka: Kolik účastníků je u vstupů v transakci payjoin?
+
+odpověď: 2
+
+nesprávné odpovědi:
+  - 1
+  - 3
+  - 0
+
+vysvětlení: |
+  Jsou zde 2 účastníci: plátce a příjemce platby.
+
+recenzováno: false

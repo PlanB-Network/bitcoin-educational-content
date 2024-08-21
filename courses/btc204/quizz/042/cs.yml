@@ -1,9 +1,9 @@
-question: Které z těchto rizik není spojeno s hotovostními P2P výměnami?
-answer: Riziko úniku dat.
-wrong_answers:
+otázka: Které z těchto rizik není spojeno s hotovostními P2P výměnami?
+odpověď: Riziko úniku dat.
+nesprávné_odpovědi:
   - Riziko pro osobní bezpečnost.
   - Riziko krádeže.
   - Právní riziko.
-explanation: |
+vysvětlení: |
   Hotovostní P2P výměny představují mnoho rizik, ale nevyžadují provádění KYC. Proto neexistuje riziko úniku dat.
-reviewed: false
+recenzováno: false

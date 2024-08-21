@@ -1,10 +1,10 @@
-question: Co je AMF?
-answer: "Autorité des Marchés Financiers"
-wrong_answers:
+otázka: Co je AMF?
+odpověď: "Autorité des Marchés Financiers"
+špatné_odpovědi:
   - Americký měnový fond
   - Asociace těžebních zařízení
   - Automatizovaný peněžní tok
-explanation: >-
+vysvětlení: >-
   "AMF, neboli Autorité des Marchés Financiers, je francouzská
   organizace, která reguluje platformy, na kterých lze nakupovat bitcoiny."
-reviewed: false
+recenzováno: false

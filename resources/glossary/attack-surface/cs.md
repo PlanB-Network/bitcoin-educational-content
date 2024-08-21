@@ -1,0 +1,5 @@
+---
+term: ATTACK SURFACE
+---
+
+Odkazuje na celkový počet potenciálních vstupních bodů, které by útočník mohl využít k získání přístupu do systému. Attack surface zahrnuje všechna rozhraní, služby, porty, protokoly a další komunikační vektory, které by mohly být vystaveny. Rozšířený attack surface zvyšuje zranitelnosti, čímž činí systém náchylnějším k útokům. Snížení attack surface je dobrá bezpečnostní praxe, která zahrnuje vypnutí nepotřebných služeb. Například v kontextu Bitcoinu mají hardwarové peněženky mnohem menší attack surface než softwarové peněženky. Skutečně izolují klíče na zařízení, které není připojeno k internetu, a mají velmi málo rozhraní a služeb. Na rozdíl od toho jsou softwarové peněženky instalovány na univerzálních PC, které mají mnohem větší attack surface kvůli mnoha funkcionalitám a síťovým připojením, které podporují.

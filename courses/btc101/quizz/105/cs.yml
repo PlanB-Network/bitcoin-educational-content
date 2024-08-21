@@ -1,10 +1,10 @@
-question: Proč je soukromí důležité v kontextu Bitcoinu?
-answer: Aby se minimalizovala rizika sledování vašich prostředků
-wrong_answers:
+otázka: Proč je soukromí důležité v kontextu Bitcoinu?
+odpověď: Aby se minimalizovala rizika sledování vašich prostředků
+špatné_odpovědi:
   - Aby se snížila hodnota vašich bitcoinů
   - Aby se zabránilo krádeži vašich bitcoinů
   - Aby se platily daně z vašich bitcoinů
-explanation: |
+vysvětlení: |
   Soukromí je důležité v kontextu Bitcoinu, aby se minimalizovala rizika
   sledování vašich prostředků, což může vést k dohledu.
-reviewed: false
+posouzeno: true

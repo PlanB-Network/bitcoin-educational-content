@@ -1,9 +1,9 @@
-question: Co je Deklarace nezávislosti kyberprostoru?
-answer: Text tvrdící, že kyberprostor je odlišná sféra od fyzického světa a neměla by podléhat stejným zákonům.
-wrong_answers:
+otázka: Co je Deklarace nezávislosti kyberprostoru?
+odpověď: Text tvrdící, že kyberprostor je odlišná sféra od fyzického světa a neměla by podléhat stejným zákonům.
+špatné_odpovědi:
   - Deklarace nezávislosti Bitcoinu na tradiční finanční systémy.
   - Text tvrdící, že internet by měl být svobodný od vládní regulace.
   - Deklarace nezávislosti pirátského hnutí na jakékoliv regulaci.
-explanation: |
+vysvětlení: |
   Deklarace nezávislosti kyberprostoru byla napsána Johnem Perrym Barlowem v roce 1996 a tvrdí, že kyberprostor je odlišná sféra od fyzického světa, ve kterém průmyslové vlády nemohou uplatňovat svou autoritu.
-reviewed: true
+recenzováno: true

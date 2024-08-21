@@ -1,10 +1,10 @@
-question: Jaká je alternativa k plnému KYC ve Švýcarsku?
-answer: KYC light
-wrong_answers:
+otázka: Jaká je alternativa k plnému KYC ve Švýcarsku?
+odpověď: KYC light
+špatné_odpovědi:
   - KYC heavy
   - KYC medium
   - KYC dark
-explanation: |
+vysvětlení: |
   Ve Švýcarsku je alternativou k plnému KYC "KYC light", které umožňuje
 
 

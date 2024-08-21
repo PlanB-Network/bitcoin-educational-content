@@ -1,4 +1,4 @@
-question: Co je dust v kontextu UTXO?
+question: Co je "dust" v kontextu UTXO?
 
 answer: UTXO, jejichž hodnota je příliš nízká na to, aby pokryla potřebné poplatky pro jejich utracení.
 
@@ -11,4 +11,3 @@ explanation: |
   Dust se vztahuje na UTXO, jejichž hodnota v sats je tak nízká, že nestačí na pokrytí transakčních poplatků potřebných k jejich utracení.
 
 reviewed: false
-

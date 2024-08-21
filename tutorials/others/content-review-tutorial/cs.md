@@ -5,7 +5,7 @@ description: Jak se zapojit do recenzování vzdělávacího obsahu na síti Pla
 ![github](assets/cover.webp)
 
 ## TL;DR
-Pokud chcete recenzovat obsah pro síť PlanB, přejděte na [stránku přidruženého projektu](https://github.com/PlanB-Network/bitcoin-educational-content/projects?query=is%3Aopen) pro váš jazyk. Vyberte obsah, který chcete recenzovat, okomentujte, abyste nám dali vědět, že se úkolu ujímáte, a po dokončení odevzdejte PR na větvi přidružené k vašemu jazyku.
+Pokud chcete recenzovat obsah pro síť PlanB, přejděte na [stránku přidruženého projektu](https://github.com/DecouvreBitcoin/sovereign-university-data/projects?query=is%3Aopen) pro váš jazyk. Vyberte obsah, který chcete recenzovat, okomentujte, abyste nám dali vědět, že se úkolu ujímáte, a po dokončení odevzdejte PR na větvi přidružené k vašemu jazyku.
 
 Pokud jste nerozuměli části výše, nebojte se, tento tutoriál je pro vás!
 
@@ -32,27 +32,19 @@ Navíc, jelikož Découvre Bitcoin (DB) má na starosti hodnocení příspěvků
 Nemusíte být expertem na GitHub, abyste mohli recenzovat obsah.
 Ačkoli je vždy lepší rozumět tomu, co děláte (a proč), můžete jednoduše následovat níže uvedené pokyny k přispívání.
 
-Pokud však nejste s prací s Git a GitHubem vůbec obeznámeni a chtěli byste se dozvědět více, můžete objevit náš úvodní článek o těchto nástrojích.
-
-https://planb.network/tutorials/others/basics-of-github
-
-
+Pokud však nejste s prací s Git a GitHubem vůbec obeznámeni a chtěli byste se dozvědět více, můžete objevit [náš úvodní článek o těchto nástrojích](https://planb.network/tutorials/others/basics-of-github).
 
 ## 1. Vytvořte účet
-* Vytvořte si účet na GitHubu, abyste mohli začít přispívat. Pokud potřebujete návod, jak si vytvořit účet na GitHubu, máme také podrobný tutoriál.
-
-https://planb.network/tutorials/others/create-github-account
-
-
+* Vytvořte si účet na GitHubu, abyste mohli začít přispívat. Pokud potřebujete návod, jak si vytvořit účet na GitHubu, máme také [podrobný tutoriál](https://planb.network/tutorials/others/create-github-account).
 ## **2. Přejděte na stránku projektu ve vašem jazyce**
-* [Stránka projektu](https://github.com/PlanB-Network/bitcoin-educational-content/projects?query=is%3Aopen) obsahuje obsah ve vašem jazyce zobrazený na Kanbanové tabuli.
+* [Stránka projektu](https://github.com/DecouvreBitcoin/sovereign-university-data/projects?query=is%3Aopen) obsahuje obsah ve vašem jazyce zobrazený na Kanbanové tabuli.
 * Hledejte karty ve sloupci "Review Needed" (viz **A**). To jsou problémy, které můžete recenzovat.
 * Každá karta detailně popisuje (viz **B**):
 	- **Typ obsahu**: Kurz, tutoriál nebo webová stránka
 	- **Obtížnost obsahu**
 	- **Naléhavost**
 	- **Počet slov**
-	- **Přidružená odměna**: Založeno na vlastnostech obsahu a přesnosti překladu (viz [sekce Odměn](https://github.com/PlanB-Network/bitcoin-educational-content?tab=readme-ov-file#sat-reward))
+	- **Přidružená odměna**: Založeno na vlastnostech obsahu a přesnosti překladu (viz [sekce Odměn](https://github.com/DecouvreBitcoin/sovereign-university-data?tab=readme-ov-file#sat-reward))
 ![review](assets/1.webp)
 ## **3. Najít obsah k recenzi**
 * Ve sloupci "Potřebná recenze" klikněte na kartu.

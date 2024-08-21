@@ -1,10 +1,10 @@
-question: Jaké jsou poplatky za transakce v síti Lightning Network často nižší než?
-answer: 0,5%
-wrong_answers:
+otázka: Jaké jsou poplatky za transakce v síti Lightning Network často nižší než?
+odpověď: 0,5%
+špatné_odpovědi:
   - 1%
   - 2%
   - 3%
-explanation: >-
+vysvětlení: >-
   Poplatky za transakce v síti Lightning Network jsou extrémně nízké, často
   nižší než 0,5%.
-reviewed: false
+recenzováno: false

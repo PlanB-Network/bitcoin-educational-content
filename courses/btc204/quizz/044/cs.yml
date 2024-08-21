@@ -1,9 +1,9 @@
-question: Jaký mechanismus používají online platformy pro peer-to-peer (P2P) párování k snížení rizika krádeže?
-answer: Mechanismus escrow.
-wrong_answers:
+otázka: Jaký mechanismus používají online platformy pro peer-to-peer (P2P) párování k snížení rizika krádeže?
+odpověď: Mechanismus escrow.
+špatné_odpovědi:
   - Bezpečný algoritmus pro párování.
   - Mechanismus ověření e-mailem.
   - Mechanismus ověření identity.
-explanation: |
+vysvětlení: |
   Tyto platformy typicky používají ochranný mechanismus, kde jsou bitcoiny drženy do doby, než prodávající potvrdí platbu ve fiat měně. Tento mechanismus držení třetí stranou představuje to, co je známo jako escrow.
-reviewed: false
+recenzováno: false

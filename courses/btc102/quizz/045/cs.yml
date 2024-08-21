@@ -1,10 +1,10 @@
-question: Jaká je hlavní role vývojářů Bitcoin Core?
-answer: Jsou zodpovědní za hlavní vývoj protokolu Bitcoin a jeho základních funkcí.
-wrong_answers:
+otázka: Jaká je hlavní role vývojářů Bitcoin Core?
+odpověď: Jsou zodpovědní za hlavní vývoj protokolu Bitcoin a jeho základních funkcí.
+špatné_odpovědi:
   - Ovládají síť Bitcoin
   - Vytvářejí nové bitcoiny
   - Regulují cenu Bitcoinu
-explanation: |
+vysvětlení: |
   Obsah kapitoly vysvětluje, že vývojáři Bitcoin Core jsou zodpovědní
   za hlavní vývoj protokolu Bitcoin a jeho základních funkcí. Neovládají síť Bitcoin, nevytvářejí nové bitcoiny ani neregulují cenu Bitcoinu.
-reviewed: false
+recenzováno: false

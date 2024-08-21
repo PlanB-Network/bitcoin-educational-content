@@ -1,0 +1,10 @@
+question: Mis on Bitcoin'i plokiahel?
+answer: Andmebaas, mis salvestab kõik Bitcoin'i tehingud
+wrong_answers:
+  - Digitaalse valuuta tüüp
+  - Bitcoin'i kasutajate võrgustik
+  - Meetod bitcoin'ide kaevandamiseks
+explanation: |
+  Bitcoin'i plokiahel on andmebaas, mis salvestab kõik Bitcoin'i tehingud.
+  Seda hooldavad kaevurid, kes lisavad uusi tehinguid plokiahelasse.
+reviewed: false

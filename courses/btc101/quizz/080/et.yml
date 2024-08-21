@@ -1,0 +1,10 @@
+küsimus: Kui suur on tõenäosus, et keegi juhuslikult arvab ära teie 12 või 24 sõnast koosneva nimekirja Bitcoin'i rahakotis?
+vastus: Astronoomiliselt madal
+valed_vastused:
+  - Kõrge
+  - Mõõdukas
+  - Madal
+selgitus: >-
+  Tänu krüptograafiale, mida kasutatakse rahakoti loomiseks, on tõenäosus, et keegi juhuslikult arvab ära teie 12 või 24 sõnast koosneva nimekirja, astronoomiliselt madal.
+  See on nagu "õige" numbri leidmine vahemikus 1 kuni $2^256$, mis on peaaegu võrdne määratletud aatomi leidmisega Universumis.
+üle vaadatud: true

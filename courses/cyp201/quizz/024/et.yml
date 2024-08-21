@@ -1,0 +1,10 @@
+question: Mis on Bitcoinis kasutatava secp256k1 kõvera võrrand?
+answer: "y² = x³ + 7 modulo n"
+wrong_answers:
+  - "y² = x³ + ax + b"
+  - "y² = x³ + 7 modulo p"
+  - "y² = x³ + ax + b modulo n"
+explanation: |
+  "Bitcoinis kasutatav secp256k1 kõver on määratletud parameetritega a=0\
+  \ ja b=7, ning selle võrrand on y² = x³ + 7 modulo n, kus n tähistab\
+  \ algarvu, mis määrab kõvera järku."

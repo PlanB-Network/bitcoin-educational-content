@@ -1,0 +1,5 @@
+---
+term: EREBUS (RÜNNAK)
+---
+
+Erebus rünnak on Bitcoin võrgu vastu suunatud kõrgelt arenenud rünnaku vorm, mis võimaldab pahatahtlikul Interneti-teenuse pakkujal isoleerida kindlaid Bitcoin'i sõlmi. Seega on see Eclipse rünnaku vorm. Erebus rünnak kasutab ära Interneti võrgu struktuuri, eriti kohustuslikke läbipääsupunkte (või "kitsaskohti") marsruutimisel Autonoomsete Süsteemide (AS) vahel. Ründaja, kontrollides autonoomset süsteemi, saab manipuleerida võrguliiklust, et isoleerida Bitcoin'i sõlm ülejäänud võrgust, pannes selle uskuma valesti blockchain'i seisundisse (plokid või tehingud, mida sõlm ei tunne). See isolatsioon võib viia topeltkulutamise või tsensuuri teostamiseni isoleeritud sõlme vastu. Selle rünnaku läbiviimine on muutunud palju raskemaks pärast Bitcoin Core versiooni 0.20.0 väljalaset ja Asmap'i tutvustamist.

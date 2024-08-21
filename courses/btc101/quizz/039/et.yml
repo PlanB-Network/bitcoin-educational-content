@@ -1,0 +1,11 @@
+question: Mis on Bitcoini peamine eesmärk?
+answer: Riigi ja raha lahutamine
+wrong_answers:
+  - Asendada kuld globaalse standardina
+  - Teha tehingud kiiremaks ja odavamaks
+  - Teha kõik rikkaks
+explanation: |
+  Bitcoin loodi eesmärgiga lahutada riik rahast.
+  See on vastus praeguse finantssüsteemi süsteemsetele väljakutsetele,
+  kus riigil on kontroll raha pakkumise üle ja see võib seda oma kasuks manipuleerida.
+reviewed: true

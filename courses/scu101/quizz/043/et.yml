@@ -1,0 +1,12 @@
+question: Miks ei ole soovitatav kasutada paroolide variatsioone või lisasid?
+answer: Need ei ole turvalised ja on kergesti ära arvatavad.
+wrong_answers:
+  - Need on liiga pikad ja keerulised.
+  - Neid on raske meeles pidada.
+  - Enamik veebiteenuseid ei luba neid.
+explanation: |
+  Paroolide variatsioonid või lisad ei ole turvalised, kuna neid on
+
+  kergesti ära arvatavad. On parem kasutada täiesti juhuslikke paroole, mis ei järgi
+
+  etteaimatavaid mustreid.

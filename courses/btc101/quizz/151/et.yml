@@ -1,0 +1,11 @@
+küsimus: Mis on Töötõend (POW)?
+vastus: See on Bitcoin protokolli turvakonsensus.
+valed_vastused:
+  - See on uute bitcoinide loomise protsess.
+  - See on meetod Bitcoin tehingute kinnitamiseks.
+  - See on algoritm, mida kasutatakse bitcoinide kaevandamiseks.
+selgitus: >-
+  Töötõend on konsensusalgoritm, mida kasutatakse Bitcoin võrgus
+  tehingute kinnitamiseks ja uute plokkide loomiseks. See nõuab kaevuritelt keerukate
+  matemaatiliste probleemide lahendamist, tagades võrgu turvalisuse ja terviklikkuse.
+üle vaadatud: false

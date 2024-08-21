@@ -1,0 +1,7 @@
+---
+term: SKALEERITAVUS
+---
+
+Viitab Bitcoini võimele käidelda suurenevat tehingumahtu, säilitades samal ajal aktsepteeritavad jõudlustasemed. Bitcoinil on kaasasündinud tehnilised piirangud, nagu ploki suurus, ajavahe iga ploki vahel ja asjaolu, et tehingut peetakse muutumatuks alles pärast mitut kinnitust. Need piirangud takistavad Bitcoinil tõhusalt töödelda piiramatut hulka tehinguid. Kui nõudlus plokkides ruumi järele suureneb, on kasutajad sunnitud suurendama tasusid, mida nad pakuvad oma tehingute töötlemiseks. Skaleeritavus, tähendades Bitcoini võimet käidelda suurenevat tehingumahtu, saab parandada kas otseste muudatustega protokollis või väliste lahendustega nagu Lightning Network. Skaleeritavuse küsimus on alati olnud kogukonna intensiivsete arutelude keskmes. Esimene katse suurendada ploki suurust toimus oktoobris 2010, kui [Jeff Garzik tegi ettepaneku paigaks](https://bitcointalk.org/index.php?topic=1347.0). See skaleeritavuse teema viis eriti ploki suuruse sõjani aastatel 2015 kuni 2017.
+
+> ► *Termin "scalabilité" on anglicism. Inglise termini "scalability" korrektne tõlge on "évolutivité" või "passage à l'échelle". Siiski on kogukonnas üldiselt aktsepteeritud kasutada otse terminit "scalabilité".*

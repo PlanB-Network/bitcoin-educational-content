@@ -1,0 +1,9 @@
+küsimus: Mis toimub tehingu ajal
+vastus: Tehingu saladus
+valed_vastused:
+  - Tehingu saladus
+  - Otsustatakse uus saladus ja luuakse uus tühistamisvõti.
+  - Eelmine kohustustehing uuendatakse uue saladuse ja tühistamisvõtmega.
+selgitus: |
+  Tehingu ajal
+üle vaadatud: false

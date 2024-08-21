@@ -1,0 +1,9 @@
+küsimus: Miks vajab Alice enne tehingute avaldamist kanali avamiseks Bobi allkirja?
+vastus: Selleks, et tagada, et ta saaks oma vahendid üksi tagasi saada, kui midagi peaks valesti minema.
+valed_vastused:
+  - Kinnitamaks Bobi nõusolekut kanali avamiseks.
+  - Bobi isikusamasuse kontrollimiseks.
+  - Tehingute krüpteerimiseks turvalisuse eesmärgil.
+selgitus: |
+  Alice palub Bobilt enne tehingute avaldamist allkirja tema avaliku võtmega. See on selleks, et tagada, et ta saaks oma vahendid üksi tagasi saada, kui midagi peaks valesti minema, kuna tal on juba Bobi allkiri.
+üle vaadatud: false

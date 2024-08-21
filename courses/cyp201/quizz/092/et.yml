@@ -1,0 +1,10 @@
+question: Mis on kompresseeritud avaliku võtme suurus?
+answer: 33 baiti
+wrong_answers:
+  - 32 baiti
+  - 82 baiti
+  - 512 bitti
+explanation: |
+  Kompresseeritud avalikud võtmed on 33 baiti suurused. Nad säilitavad sama
+  
+  informatsiooni nagu kompresseerimata võtmed, kuid väiksema suurusega.

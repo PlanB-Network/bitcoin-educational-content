@@ -1,0 +1,11 @@
+question: Millised on kaks omadust, mis teevad Bitcoinist selle, mis ta täna on?
+answer: Selle avatud lähtekood ja selle nappus
+wrong_answers:
+  - Selle anonüümsus ja selle detsentraliseeritus
+  - Selle kõrge väärtus ja selle volatiilsus
+  - Selle kasutusmugavus ja selle globaalne aktsepteeritus
+explanation: |
+  Kaks peamist omadust, mis defineerivad Bitcoini, on selle avatud lähtekood,
+  mis muudab selle läbipaistvaks, auditeeritavaks ja kasutatavaks igaühe poolt, ning selle nappus,
+  mis tähendab, et maailmas saab olema ainult 21 miljonit bitcoini.
+reviewed: false

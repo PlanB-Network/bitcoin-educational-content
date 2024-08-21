@@ -1,0 +1,9 @@
+question: Mis on privaatvõtme roll Bitcoin'i tehingus?
+answer: Seda kasutatakse tehingu allkirjastamiseks ja bitcoinide vabastamiseks aadressilt.
+wrong_answers:
+  - Seda kasutatakse avaliku võtme genereerimiseks.
+  - Seda kasutatakse Bitcoin'i aadressi loomiseks.
+  - Seda kasutatakse tehinguandmete krüpteerimiseks.
+explanation: |
+  Bitcoin'i tehingus kasutab saatja oma privaatvõtit tehingu allkirjastamiseks, mis efektiivselt vabastab bitcoinid aadressilt, kus need on talletatud. See on tehinguprotsessi kriitiline osa, kuna see tagab, et ainult bitcoinide omanik saab neid kulutada.
+reviewed: false

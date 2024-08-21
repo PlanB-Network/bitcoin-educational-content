@@ -1,0 +1,13 @@
+question: Millised on Lightning maksekanalite eelised?
+answer: Need võimaldavad kasutajatel saata ja vastu võtta Bitcoini ilma, et peaksid maksma kõrgeid tehingutasusid või ootama pikki kinnitusaegu Bitcoin'i võrgustikus.
+wrong_answers:
+  - Need võimaldavad kasutajatel kaevandada Bitcoini efektiivsemalt
+  - Need võimaldavad kasutajatel hoida Bitcoini turvalisemalt
+  - Need võimaldavad kasutajatel vahetada Bitcoini teiste krüptovaluutade vastu
+explanation: |
+  Lightning maksekanalid on tõhus viis sooritada kiireid ja
+  soodsaid
+  Bitcoin'i tehinguid. Need võimaldavad kasutajatel saata ja vastu võtta Bitcoini ilma,
+  et peaksid maksma kõrgeid tehingutasusid või ootama pikki kinnitusaegu Bitcoin'i
+  võrgustikus.
+reviewed: false

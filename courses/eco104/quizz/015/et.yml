@@ -1,0 +1,12 @@
+question: Mis on peamine eelis, kui kasutada mittehoidlate rahakotte bitcoinide hoiustamiseks?
+answer: Suurenenud turvalisus ja privaatsus
+wrong_answers:
+  - Lihtne juurdepääs bitcoinidele
+  - Madalamad tehingutasud
+  - Pole vaja parooli
+explanation: |
+  Mittehoidlate rahakotid on sellised, kus olete oma vahendite ainus hoidja,
+  tähendades, et teil on täielik kontroll oma privaatvõtmete üle. Seetõttu
+  pakuvad mittehoidlate rahakotid kõrgemat turvalisuse ja privaatsuse taset
+  võrreldes hoidlate rahakottidega, kuna ainult teie olete vastutav oma vahendite turvalisuse eest.
+reviewed: true

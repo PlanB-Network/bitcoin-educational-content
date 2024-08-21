@@ -1,0 +1,14 @@
+küsimus: Mis risk on seotud KYC rakendamisega?
+vastus: Tundlike andmebaaside tsentraliseerimine, mis sisaldavad isiklikku kasutajainfot.
+valed_vastused:
+  - Tundlike andmebaaside detsentraliseerimine, mis sisaldavad isiklikku kasutajainfot.
+  - Mittetundlike andmebaaside tsentraliseerimine, mis sisaldavad isiklikku kasutajainfot.
+  - Mittetundlike andmebaaside detsentraliseerimine, mis sisaldavad isiklikku kasutajainfot.
+selgitus: |
+  KYC rakendamine viib väga tundlike
+
+
+  andmebaaside tsentraliseerimiseni, mis sisaldavad isiklikku kasutajainfot. See info, omades teatud
+
+
+  väärtust, võib müüa pahatahtlikele osapooltele.

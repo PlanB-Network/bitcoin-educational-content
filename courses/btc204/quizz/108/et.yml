@@ -1,0 +1,11 @@
+question: Millist ahela analüüsi heuristikat kasutab payjoin tehing pettuse tekitamiseks?
+
+answer: COH
+
+wrong_answers:
+  - Aadressi taaskasutus
+  - Rahakoti sõrmejälje tuvastamine
+  - Versiooni taaskasutus
+
+explanation: |
+  Kui analüütik uurib payjoin tehingut, viib see teda uskuma, et kõik sisendid pärinevad samalt isikult COH tõttu. Siiski on see taju ekslik, kuna makse saaja samuti panustab sisenditesse koos tegeliku maksjaga. Seega suunatakse ahela analüüs tõlgendusele, mis osutub valeks.

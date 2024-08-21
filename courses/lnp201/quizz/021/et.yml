@@ -1,0 +1,9 @@
+question: Kes algatab kanali avamise protsessi Lightning Network'is?
+answer: Alice
+wrong_answers:
+  - Bob
+  - Nii Alice kui ka Bob
+  - Ei Alice ega Bob
+explanation: |
+  Kanali avamise protsessis Lightning Network'is on Alice see, kes protsessi algatab. Ta edastab oma soovi avada kanal Bobile, kes vastuseks annab oma avaliku aadressi.
+reviewed: false

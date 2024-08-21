@@ -1,0 +1,9 @@
+question: Mis on BIP43 ja BIP44 eesmärk Bitcoin'i ökosüsteemis?
+answer: Nad standardiseerisid HD rahakottide struktuuri ja hierarhiat.
+wrong_answers:
+  - Nad tutvustasid 24-sõnalist mnemoonilist fraasi.
+  - Nad revolutsioneerisid võtmete genereerimise ja salvestamise viisi.
+  - Nad tegid ettepaneku lisada täiendav parool, et tugevdada üksikute võtmete turvalisust.
+explanation: |
+  BIP43 ja BIP44 standardiseerisid HD rahakottide struktuuri ja hierarhiat,
+  muutes need üldsusele kättesaadavamaks ja lihtsamini kasutatavaks.

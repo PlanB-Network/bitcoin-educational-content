@@ -1,0 +1,13 @@
+question: Mida mõõdab edasine anonüümsus?
+
+answer: Privaatsuse vastupanuvõimet minevikust-olevikku analüüsi vastu.
+
+wrong_answers:
+  - Privaatsuse vastupanuvõimet olevikust-minevikku analüüsi vastu.
+  - Privaatsuse vastupanuvõimet tulevikust-olevikku analüüsi vastu.
+  - Privaatsuse vastupanuvõimet tulevikust-minevikku analüüsi vastu.
+
+explanation: |
+  Edasine anonüümsus mõõdab mündi privaatsuse vastupanuvõimet minevikust-olevikku analüüsi (sisendist väljundini) vastu.
+
+reviewed: false

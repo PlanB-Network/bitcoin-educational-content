@@ -1,0 +1,12 @@
+question: Mis on paroolihaldur?
+answer: Tööriist, mis võimaldab sul salvestada, genereerida ja hallata oma paroole erinevate veebikontode jaoks.
+wrong_answers:
+  - Tööriist, mis aitab sul kõiki oma paroole meeles pidada.
+  - Tööriist, mis logib sind automaatselt sinu veebikontodele sisse.
+  - Tööriist, mis kaitseb su arvutit viiruste eest.
+explanation: |
+  Paroolihaldur on tööriist, mis võimaldab sul salvestada, genereerida ja
+
+  hallata oma paroole erinevate veebikontode jaoks. See aitab sul luua tugevaid
+
+  paroole ja neid meeles pidada, nii et sa ei pea seda ise tegema.

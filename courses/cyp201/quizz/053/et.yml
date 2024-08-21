@@ -1,0 +1,10 @@
+küsimus: Kui pikk on privaatvõtmete pikkus Bitcoin'i rahakotis?
+vastus: 256 bitti
+valed_vastused:
+  - 128 bitti
+  - 512 bitti
+  - 1024 bitti
+selgitus: |
+  Bitcoin'i rahakoti privaatvõtmed, mis on hädavajalikud krüptoraha
+  omamiseks, on fikseeritud pikkusega 256 bitti.
+üle vaadatud: false

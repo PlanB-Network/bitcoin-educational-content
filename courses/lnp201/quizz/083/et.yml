@@ -1,0 +1,12 @@
+question: Mis on peamine väljakutse likviidsuse haldamisel Lightning Network'is?
+answer: Likviidsuse säilitamine
+wrong_answers:
+  - Kanalite avamine
+  - Teiste sõlmedega ühenduse loomine
+  - Kanalite ostmine
+explanation: |
+  Kuigi kanalite avamine, teiste sõlmedega ühenduse loomine ja kanalite ostmine
+  on kõik osa likviidsuse haldamisest Lightning Network'is, on peamine väljakutse
+  likviidsuse säilitamine. See hõlmab likviidsuse tasakaalu hoidmist mõlemal poolel
+  marsruutimissõlmede jaoks ja sissetuleva likviidsuse tagamist kaupmeestele.
+reviewed: false

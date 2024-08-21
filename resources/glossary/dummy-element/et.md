@@ -1,0 +1,5 @@
+---
+term: DUMMY ELEMENT
+---
+
+Viitab lisaelemendile, mis on tarbetu, kuid mida tarbivad operaatorid `OP_CHECKMULTISIG` ja `OP_CHECKMULTISIGVERIFY` allkirjade kontrollimisel tehingus. Ajaloolise off-by-one vea (ühiku nihke viga) tõttu eemaldavad need 2 operaatorit lisaks oma põhifunktsioonile virnast ühe lisaelemendi. Vea vältimiseks on seega kohustuslik lisada `scriptSig` algusesse dummy väärtus, et rahuldada eemaldamist ja mööda minna veast. See tarbetu väärtus on see, mida nimetatakse "*dummy element*"-iks. BIP11, mis tutvustas P2MS standardit, soovitas kasutada dummy väärtusena `OP_0`. Siiski, seda standardit ei jõustatud konsensuse reegli tasandil, mis tähendab, et sinna võis paigutada mis tahes väärtuse ilma tehingu kehtetuks muutmata. Seega oli dummy element tehingu muudetavuse vektor. BIP147, mis tutvustati SegWiti pehme haru (soft fork) raames, nõudis, et see dummy element oleks rangelt tühi baitide massiiv (`OP_0`), kõrvaldades seeläbi selle elemendiga seotud muudetavuse, muutes mis tahes mittevastavad tehingud konsensuse reeglite kohaselt kehtetuks. See reegel, mida nimetatakse `NULLDUMMY`, kehtib nii SegWiti kui ka enne SegWiti tehingute puhul.

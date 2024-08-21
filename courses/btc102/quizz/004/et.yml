@@ -1,0 +1,10 @@
+question: Mis on krüptoraha valdkonna pettuste ühine tunnus?
+answer: Ebareaalsete tulu lubadused.
+wrong_answers:
+  - Füüsiliste kaupade lubadused.
+  - Tarkvaratoodete lubadused.
+  - Fiat-raha lubadused.
+explanation: |
+  Krüptoraha valdkonna pettused lubavad tihti ebareaalseid tulusid.
+  On oluline mitte pimesi usaldada, eriti kui tegemist on interneti bänneriga.
+reviewed: false

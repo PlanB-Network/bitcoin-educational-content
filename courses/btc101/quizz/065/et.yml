@@ -1,0 +1,9 @@
+question: Milliste majanduspõhimõtetega on Bitcoin kooskõlas?
+answer: Austria majanduse põhimõtted
+wrong_answers:
+  - Keynesi majanduse põhimõtted
+  - Marxi majanduse põhimõtted
+  - Neoklassikalise majanduse põhimõtted
+explanation: |
+  Bitcoin on kooskõlas Austria majanduse põhimõtetega. Selle piiratud kogus ja keskse jõu puudumine kaitsevad seda traditsiooniliste valuutade puhul esinevate inflatsiooniriskide eest.
+reviewed: true

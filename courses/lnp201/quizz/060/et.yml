@@ -1,0 +1,10 @@
+küsimus: Mis on Bobi poolt genereeritud salajase S eesmärk?
+vastus: Seda kasutatakse Alice'i ja Susie poolt seadistatud HTLC-de avamiseks.
+valed_vastused:
+  - Seda kasutatakse räsi r arvutamiseks.
+  - Seda kasutatakse uue HTLC loomiseks.
+  - Seda kasutatakse kanali sulgemiseks.
+selgitus: |
+  Bob genereerib salajase S ja arvutab räsi r. Seda salajast kasutatakse
+  Alice'i ja Susie poolt seadistatud HTLC-de avamiseks.
+üle vaadatud: false

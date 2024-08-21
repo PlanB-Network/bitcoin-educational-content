@@ -1,0 +1,9 @@
+---
+term: P2TR
+---
+
+P2TR tähistab *Pay to Taproot*, mis on standardne skriptimudel, mida kasutatakse kulutamistingimuste seadmiseks UTXO-s (kasutamata tehinguväljund). See võeti kasutusele Taprooti rakendamisega novembris 2021. P2TR kasutab krüptograafiliste võtmete koondamiseks Schnorri protokolli ning alternatiivsete skriptide jaoks Merkle'i puid, mida tuntakse kui MAST (*Merkelized Alternative Script Tree*). Erinevalt traditsioonilistest tehingutest, kus kulutamistingimused on avalikult nähtavad (mõnikord vastuvõtmise ajal, mõnikord kulutamise ajal), võimaldab P2TR keerukate skriptide peitmist ühe näilise avaliku võtme taha.
+
+Tehniliselt lukustab P2TR skript bitcoine unikaalse Schnorri avaliku võtmele, mida tähistatakse kui $K$. Kuid see võti $K$ on tegelikult avaliku võtme $P$ ja Merkle'i juurest arvutatud avaliku võtme $M$ koond. P2TR skriptiga lukustatud bitcoine saab kulutada kahel eristuval viisil: kas avaldades allkirja avaliku võtme $P$ jaoks või rahuldades ühte Merkle'i puus sisalduvatest skriptidest. Esimest võimalust nimetatakse "*võtmeeeks*" ja teist "*skriptiteeks*".
+
+Seega võimaldab P2TR kasutajatel saata bitcoine kas avalikule võtmele või mitmele nende valitud skriptile. Selle skripti veel üks eelis on see, et kuigi P2TR väljundi kulutamiseks on mitu võimalust, tuleb kulutamise ajal avalikustada ainult kasutatud viis, võimaldades kasutamata alternatiividel jääda privaatseks. P2TR on versioon 1 SegWit väljund, mis tähendab, et P2TR sisendite allkirjad salvestatakse tehingu tunnistajasse, mitte `scriptSig`-i. P2TR aadressid kasutavad `Bech32m` kodeeringut ja algavad `bc1p`-ga.

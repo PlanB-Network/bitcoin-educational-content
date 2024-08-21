@@ -1,0 +1,10 @@
+küsimus: Mida kasutatakse kontrollsumma arvutamiseks segwit standardi puhul?
+vastus: BCH (Bose-Chaudhuri-Hocquenghem) programm
+valed_vastused:
+  - Kahekordne SHA256 räsimine
+  - pbkdf2 funktsioon
+  - hmacha512 funktsioon
+selgitus: |
+  BCH (Bose-Chaudhuri-Hocquenghem) programmi kasutatakse kontrollsumma
+  arvutamiseks segwit standardi puhul.
+üle vaadatud: false

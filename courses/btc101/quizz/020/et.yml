@@ -1,0 +1,11 @@
+question: Millised on tõhusa valuuta kriteeriumid?
+answer: Vahetatav, Jagatav, Likviidne
+wrong_answers:
+  - Vahetatav, Jagatav, Hukkuv
+  - Vahetatav, Jagamatu, Likviidne
+  - Mittevahetatav, Jagatav, Likviidne
+explanation: |
+  Tõhusa valuuta kriteeriumid on, et see peab olema vahetatav
+  (väärtuse kaotamata asendatav), jagatav (erineva mahuga tehingute hõlbustamiseks),
+  ja likviidne (kergesti kaupadeks või teenusteks konverteeritav).
+reviewed: true

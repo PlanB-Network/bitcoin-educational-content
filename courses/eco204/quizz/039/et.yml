@@ -1,0 +1,10 @@
+question: Mis on hüperinflatsiooni mõju raha väärtusele?
+answer: See põhjustab raha kiire väärtuse languse.
+wrong_answers:
+  - See põhjustab raha väärtuse tõusu.
+  - Sellel pole mõju raha väärtusele.
+  - See põhjustab raha väärtuse ettearvamatuid kõikumisi.
+explanation: |
+  Hüperinflatsiooni perioodil kaotab raha kiiresti oma väärtuse, muutes
+  pikaajalise planeerimise keeruliseks.
+reviewed: false

@@ -1,0 +1,11 @@
+question: Mis on Lightning Network'i funktsioon Bitcoin'i ökosüsteemis?
+answer: See võimaldab Bitcoin'il laieneda ja saada juurde uusi funktsioone, toimides teise kihina.
+wrong_answers:
+  - See on eraldi krüptoraha, mis konkureerib Bitcoin'iga.
+  - See on tööriist Bitcoin'i kaevandamiseks.
+  - See on platvorm Bitcoin'iga kauplemiseks.
+explanation: |
+  Lightning Network on teise kihi tehnoloogia, mida rakendatakse bitcoin'ile,
+  kasutades mikromaksete kanaleid, et skaleerida selle plokiahela võimet
+  tehinguid tõhusamalt läbi viia.
+reviewed: false

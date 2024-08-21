@@ -1,0 +1,10 @@
+küsimus: Milliseid tööriistu kasutatakse küberjulgeolekus?
+vastus: Wireshark, Metasploit, Nmap
+valed_vastused:
+  - Photoshop, Illustrator, InDesign
+  - Excel, PowerPoint, Word
+  - AutoCAD, SolidWorks, Revit
+selgitus: |
+  Peatükk loetleb Wiresharki, Metasploiti ja Nmap'i kui mõningaid tööriistu,
+  
+  mida kasutatakse küberjulgeolekus.

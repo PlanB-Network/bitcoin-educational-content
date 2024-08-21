@@ -1,0 +1,5 @@
+---
+term: TAGURÜHILDUV ÜHILDUVUS
+---
+
+Viitab protokolli reeglite uuenduse võimele säilitada ühilduvus eelnevate versioonidega. See tähendab, et muudatused on kavandatud nii, et vanemad sõlmed (sõlmed, mis töötavad enne reeglimuudatust kasutusele võetud versioonidel) saavad endiselt võrguga suhelda ja järgida kõige rohkem tööd kogunud ahelat. Seetõttu on oluline, et vanemad sõlmed ei lükkaks tagasi uusi plokke ega uusi tehinguid. Tagurühilduvus vähendab oluliselt tõenäosust, et uuendus lõhestab võrgu, vältides seeläbi sõlmede jagunemist alamrühmadeks erinevatel ahelatel. Et tagada ühilduvus eelnevate protokolli versioonidega, peab uuendus muutma olemasolevaid reegleid rangemaks või tutvustama uusi. See põhimõte määratleb "pehme hargnemise" ("soft fork"). Vastupidi, kui uuendus lõdvendab olemasolevaid reegleid või kõrvaldab mõned, siis see ei ole tagurühilduv. See oleks "kõva hargnemine" ("hard fork").

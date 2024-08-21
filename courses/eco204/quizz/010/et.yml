@@ -1,0 +1,12 @@
+question: Milline on tarbijahinnaindeksi (CPI) mõju inflatsiooni mõõtmisele?
+answer: CPI võib tegelikku inflatsiooni alahinnata, kuna see ei võta terviklikult arvesse kinnisvara hindade arengut ning võib kompenseerida või varjata tegelikke hinnatõuse.
+wrong_answers:
+  - CPI mõõdab alati inflatsiooni täpselt.
+  - CPI ülehindab tegelikku inflatsiooni.
+  - CPI-l ei ole inflatsiooni mõõtmisel mingit mõju.
+explanation: |
+  Peatükk selgitab, et CPI-d, mida kasutatakse inflatsiooni peamise näitajana,
+  on teatud piirangud. Näiteks ei võta see terviklikult arvesse
+  kinnisvara hindade arengut. Samuti hõlmab CPI arvutamise metoodikaid,
+  mis võivad kompenseerida või varjata tegelikke hinnatõuse.
+reviewed: false

@@ -1,0 +1,13 @@
+question: Mis on Stonewall tehing?
+
+answer: Tehing, mis jäljendab mini-coinjoin'i ilma tegelikult üks olemata
+
+wrong_answers:
+  - Maksetehing mini-coinjoin'i vormis
+  - Koostööd nõudev tehing, milles osaleb kolm osapoolt
+  - Tehing, mis hõlmab saajat sisendites
+
+explanation: |
+  Stonewall on spetsiifiline Bitcoin'i tehingu vorm, mille eesmärk on suurendada kasutaja privaatsust kulutamise ajal, imiteerides kahe inimese vahelist mini-coinjoin'i, ilma et see tegelikult selline oleks.
+
+reviewed: false

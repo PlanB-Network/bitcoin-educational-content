@@ -1,0 +1,9 @@
+question: Kes avastas aadressi taaskasutuse heuristika?
+answer: Satoshi Nakamoto
+wrong_answers:
+  - Vitalik Buterin
+  - Hal Finney
+  - Gavin Andresen
+explanation: |
+  Esimene inimene, kes seda kontseptsiooni arutas, oli Satoshi Nakamoto Bitcoin'i Valge Raamatu 10. osas.
+reviewed: false

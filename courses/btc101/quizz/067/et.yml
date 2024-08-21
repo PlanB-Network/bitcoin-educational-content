@@ -1,0 +1,11 @@
+küsimus: Kui tihti toimub raskusastme kohandamine?
+vastus: Iga 2016 bloki järel
+valed_vastused:
+  - Iga 1048 bloki järel
+  - Iga 512 bloki järel
+  - Iga 4032 bloki järel
+selgitus: |
+  Raskusastme kohandamine on mehhanism, mis toimub iga
+  2016 bloki järel ehk umbes kahe nädala tagant, tagamaks, et keskmiselt lisatakse
+  uus blokk plokiahelasse iga kümne minuti järel sõltumata globaalsest hashrate'ist
+üle vaadatud: true

@@ -1,0 +1,12 @@
+question: Milline on pankade ja keskpankade bilansside mõju inflatsioonile?
+answer: Kui äsja loodud raha jääb era- ja kommertspankade bilanssidesse laenamata majandustegelastele, ei mõjuta see otseselt reaalmajandust ja seetõttu ei põhjusta see inflatsiooni.
+wrong_answers:
+  - Kui äsja loodud raha jääb era- ja kommertspankade bilanssidesse, põhjustab see alati inflatsiooni.
+  - Pankade ja keskpankade bilanssidel ei ole mingit mõju inflatsioonile.
+  - Kui äsja loodud raha laenatakse majandustegelastele, ei põhjusta see inflatsiooni.
+explanation: |
+  Peatükk selgitab, et rahatrüki ja inflatsiooni vaheline suhe sõltub sellest, kuidas äsja loodud raha tuuakse majandusse.
+  Kui see raha jääb era- ja kommertspankade bilanssidesse laenamata
+  majandustegelastele, ei mõjuta see otseselt reaalmajandust ja seetõttu,
+  ei põhjusta see inflatsiooni.
+reviewed: false

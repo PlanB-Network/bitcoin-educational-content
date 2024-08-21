@@ -1,0 +1,10 @@
+küsimus: Milline on 2% inflatsiooni mõju ostujõule viie aasta jooksul?
+vastus: Kaotate 10% oma ostujõust.
+valed_vastused:
+  - Kaotate 2% oma ostujõust.
+  - Kaotate 5% oma ostujõust.
+  - Kaotate 20% oma ostujõust.
+selgitus: |
+  2% inflatsiooni korral kaotate igal aastal 2% oma ostujõust, mis
+  viie aasta peale kokku teeb 10%.
+üle vaadatud: true

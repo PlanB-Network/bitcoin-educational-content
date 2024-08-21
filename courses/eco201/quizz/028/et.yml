@@ -1,0 +1,11 @@
+question: Mis on ajaeelistuse ja intressimäärade vaheline seos majanduses, kus kapitaliturgusid ei ole manipuleeritud?
+answer: Intressimäärade tõus tuleneb kapitali nõudluse suhtelisest suurenemisest võrreldes pakkumisega, mis näitab kõrgemat ajaeelistust. Vastupidi, intressimäärade langus toimub tänu säästude suurenemisele, mis on kapitali pakkumise suurenemine, näidates ajaeelistuse vähenemist.
+wrong_answers:
+  - Intressimäärade tõus näitab ajaeelistuse vähenemist, samas kui intressimäärade langus näitab ajaeelistuse suurenemist.
+  - Ajaeelistus ja intressimäärad on pöördvõrdelises seoses.
+  - Ajaeelistusel ja intressimääradel ei ole otseselt mingit seost.
+explanation: |
+  Majanduses, kus kapitaliturge ei ole manipuleeritud, määratakse viiteintressimäärad kapitali pakkumise ja nõudluse ristumiskohas. Seetõttu
+  esindavad need määrad kogu majanduse ajaeelistuste seisundit. Intressimäära suurenemine tuleneb kapitali nõudluse suhtelisest suurenemisest
+  võrreldes pakkumisega, mis näitab kõrgemat ajaeelistust. Vastupidi, intressimäärade langus toimub tänu säästude suurenemisele, mis on kapitali pakkumise suurenemine, näidates ajaeelistuse vähenemist.
+reviewed: false

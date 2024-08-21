@@ -1,0 +1,9 @@
+question: Miks on oluline operatsioonisüsteemi ja rakendusi regulaarselt uuendada?
+answer: Uute ohtude ja haavatavuste eest kaitsmiseks.
+wrong_answers:
+  - Masina vananemiseks.
+  - Masina aeglustamiseks.
+  - Kasutajaliidese muutmiseks.
+explanation: |
+  Regulaarsed uuendused on hädavajalikud, et kaitsta süsteemi uute ohtude ja haavatavuste eest. Nende eesmärk ei ole muuta masinat vananenuks või aeglaseks.
+reviewed: false

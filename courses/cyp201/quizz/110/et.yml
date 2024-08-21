@@ -1,0 +1,9 @@
+question: Mis on Depth 1 eesmärk HD Wallet struktuuris?
+answer: Seda kasutatakse kindla eesmärgiga lastevõtmete tuletamiseks
+wrong_answers:
+  - See võimaldab eristada kontosid erinevate krüptovaluutade või võrkude jaoks
+  - Seda kasutatakse standardse rahakoti vastuvõtvaate aadresside jaoks
+  - See vastab välistele ja sisemistele ahelatele
+explanation: |
+  HD Wallet struktuuris kasutatakse Depth 1 kindla eesmärgiga lastevõtmete tuletamiseks,
+  mida määrab indeks.

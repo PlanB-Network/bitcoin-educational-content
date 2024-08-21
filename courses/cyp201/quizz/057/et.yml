@@ -1,0 +1,9 @@
+question: Mis on peamine väljakutse arvutites juhuslike numbrite genereerimisel Bitcoin'i tehingute jaoks?
+answer: Saadud tulemused ei ole tõeliselt juhuslikud.
+wrong_answers:
+  - Protsess on enamiku kasutajate jaoks liiga keeruline.
+  - See nõuab palju arvutusvõimsust.
+  - See ei ole ühilduv kõigi arvutitüüpidega.
+explanation: |
+  Arvutid järgivad kindlaid algoritme, mis muudab tõeliselt juhuslike numbrite genereerimise keeruliseks. See on oluline väljakutse krüptograafias, kus juhuslikkus on privaatvõtmete ja Bitcoin'i tehingute turvalisuse jaoks kriitilise tähtsusega.
+reviewed: false

@@ -1,0 +1,5 @@
+---
+term: TAVAPÄRANE TULETAMINE
+---
+
+Protsess, mille käigus genereeritakse lapsvõtmed HD rahakottides. Tavapärane tuletamine kasutab sisendina vanema avalikku võtit `HMAC-SHA512` funktsiooni jaoks, võimaldades genereerida laps avalikke võtmeid vanema avaliku võtme ja vanema ahelakoodi põhjal. Protsess hõlmab vanema avaliku võtme ja indeksi, mis on väiksem kui $2^{31}$, kokkukonkateerimist, millele järgneb `HMAC-SHA512` rakendamine vanema ahelakoodiga. Tulemus jagatakse kaheks osaks: esimesed 256 bitti lisatakse vanema privaatvõtmele, et saada laps privaatvõti, samal ajal kui ülejäänud 256 bitti moodustavad laps ahelakoodi. See meetod tagab, et laiendatud avalikku võtit saab kasutada laps avalike võtmete tuletamiseks. Standardse tuletamise korral kasutatakse tavapärast tuletamist kõigil tuletamise tasemetel alates konto sügavusest. Tuletamisteede notatsioonis tuvastatakse tavapärane tuletamine, kui on olemas ainult indeks ilma ülakomata `'`.

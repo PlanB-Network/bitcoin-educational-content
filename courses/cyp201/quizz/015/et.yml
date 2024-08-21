@@ -1,0 +1,9 @@
+question: Mis on SHA256 räsifunktsiooni väljundsuurus?
+answer: 256 bitti
+wrong_answers:
+  - 512 bitti
+  - 128 bitti
+  - 1024 bitti
+explanation: |
+  SHA256 räsifunktsioon genereerib muutuva suurusega sisendist 256-bitise räsi. Seetõttu nimetatakse seda SHA256-ks.
+reviewed: false

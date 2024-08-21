@@ -1,0 +1,14 @@
+question: Mis on peamine erinevus CPU ja ASIC'i vahel Bitcoin'i kaevandamise kontekstis?
+answer: CPU suudab teostada paljusid erinevaid arvutusi ilma, et oleks eriti optimeeritud ühele kindlale arvutusele, samas kui ASIC suudab teostada ainult ühte tüüpi arvutust, kuid väga tõhusalt
+wrong_answers:
+  - CPU on energiatõhusam kui ASIC
+  - ASIC on mitmekülgsem kui CPU
+  - CPU suudab teostada ainult ühte tüüpi arvutust, samas kui ASIC suudab teostada paljusid erinevaid arvutusi
+explanation: |
+  ASIC-id on kiibid, võrreldavad CPU kiibiga, kuid neid on arendatud
+  teostama ainult ühte kindlat tüüpi arvutust võimalikult tõhusal viisil.
+  Teisisõnu, CPU on võimeline teostama paljusid erinevaid tüüpe
+  arvutusi ilma, et oleks eriti optimeeritud ühele või teisele arvutusele,
+  samas kui ASIC suudab teostada ainult ühte tüüpi arvutust, kuid
+  väga tõhusalt.
+reviewed: false

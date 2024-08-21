@@ -1,0 +1,12 @@
+question: Mis on seemne roll HD rahakoti hierarhilises organisatsioonis ja tuletamises?
+answer: Seeme mängib deterministlikku rolli kõigi teiste võtmete tuletamisel.
+wrong_answers:
+  - Seemet kasutatakse rahakoti krüpteerimiseks.
+  - Seemet kasutatakse peamise ahelakoodi genereerimiseks.
+  - Seemet kasutatakse portfelli taastamiseks.
+explanation: |
+  Seeme, mille pikkus on 128 kuni 256 bitti, genereeritakse juhuslikult või
+
+  salajase fraasi abil. See mängib deterministlikku rolli kõigi teiste
+
+  võtmete tuletamisel HD rahakotis.

@@ -1,0 +1,13 @@
+question: Mis on Stonewall x2 tehing?
+
+answer: Maksetehing mini-coinjoin'i vormis
+
+wrong_answers:
+  - Tehing, mis jäljendab mini-coinjoin'i ilma selline olemata
+  - Lihtne maksetehing
+  - Tehing, mis hõlmab saajat sisendites
+
+explanation: |
+  Stonewall x2 on spetsiifiline Bitcoin'i tehingu vorm, mille eesmärk on suurendada kasutaja privaatsust kulutamise ajal, kuid seekord kolmanda osapoole kaasamisega, kes ei osale kulutuses. See meetod toimib nagu mini-coinjoin kahe osaleja vahel, samal ajal tehes makse kolmandale isikule.
+
+reviewed: false

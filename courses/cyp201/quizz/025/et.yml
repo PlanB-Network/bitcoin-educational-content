@@ -1,0 +1,11 @@
+küsimus: Mis on kõvera järk (n) secp256k1 kõvera jaoks kümnendsüsteemis?
+vastus: 2^256 - 432420386565659656852420866394968145599
+valed_vastused:
+  - 2^256 - 2^32 - 2^9 - 2^8 - 2^7 - 2^6 - 2^4 -1
+  - 2^256 - 432420386565659656852420866394968145598
+  - 2^256 - 432420386565659656852420866394968145600
+selgitus: |
+  Kõvera järk (n) secp256k1 kõvera jaoks on punktide arv
+  kõveral, kaasa arvatud lõpmatuspunkt. secp256k1 puhul on n võrdne 2^256 -
+  432420386565659656852420866394968145599 kümnendsüsteemis.
+üle vaadatud: false

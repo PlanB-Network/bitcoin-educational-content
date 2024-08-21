@@ -1,0 +1,9 @@
+küsimus: Mis on LNP2PBot'i ja RoboSat P2P lahenduste levinud puudus?
+vastus: Nad nõuavad tehnilisi teadmisi ja privaatsuse mõistmist.
+valed_vastused:
+  - Nad ei hõlbusta Bitcoini ostmist ja müümist.
+  - Nad ei kasuta Lightning Network'i.
+  - Nad ei ole avatud lähtekoodiga.
+selgitus: |
+  Peatüki kohaselt nõuavad nii LNP2PBot kui ka RoboSat tehnilisi teadmisi ja privaatsuse mõistmist.
+üle vaadatud: false

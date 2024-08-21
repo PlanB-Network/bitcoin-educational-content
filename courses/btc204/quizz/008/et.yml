@@ -1,0 +1,9 @@
+küsimus: Kui tehingul on 2 UTXOd, millest igaüks on 5,000 satsi suurused sisendid, ja 3 UTXOd, millest igaüks on 3,000 satsi suurused väljundid, mis on tehingu tasud?
+vastus: 1,000 satsi
+valed_vastused:
+  - 1,500 satsi
+  - 2,500 satsi
+  - 3,000 satsi
+selgitus: |
+  Tehingu tasud esindavad erinevust kogu sisendite ja kogu väljundite vahel. See on see, mis jääb pärast kõikide sisendite tarbimist ja kõikide väljundite loomist. Arvutus on seega; tasud = (5000x2) - (3000x3) = 10000 - 9000 = 1000.
+üle vaadatud: false

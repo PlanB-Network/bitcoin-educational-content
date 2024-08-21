@@ -1,0 +1,9 @@
+küsimus: Mis on entroopia roll Bitcoin HD rahakotis?
+vastus: See on iga HD rahakoti alus ja hädavajalik selle turvalisuse jaoks.
+valed_vastused:
+  - See aitab tehingute kinnitamisel.
+  - See suurendab tehingute kiirust.
+  - See vähendab plokiahela suurust.
+selgitus: |
+  Entroopia ehk juhuslikkus on iga HD rahakoti alus. See on rahakoti turvalisuse jaoks hädavajalik, kuna tagab genereeritud privaatvõtmete ettearvamatuse.
+üle vaadatud: false

@@ -1,0 +1,12 @@
+question: Kuidas saavutavad stablecoinid, nagu USDt, suhtelise väärtuse stabiilsuse?
+answer: Nad on seotud stabiilse vara või valuutaga.
+wrong_answers:
+  - Nad on tagatud keskse autoriteedi või valitsuse poolt.
+  - Nad toetuvad plokiahela tehnoloogiale turvaliste tehingute jaoks.
+  - Nad on sarnaselt teiste krüptovaluutadega kõikumistele alluvad.
+explanation: |
+  Stablecoinid säilitavad suhtelise väärtuse stabiilsuse, olles seotud 
+  stabiilsema vara või valuutaga, nagu USA dollar või kuld.
+  See sidumine aitab leevendada volatiilsust, mis on sageli seotud teiste 
+  digitaalsete varadega nagu Bitcoin.
+reviewed: true

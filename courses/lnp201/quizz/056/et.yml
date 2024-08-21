@@ -1,0 +1,9 @@
+question: Kes maksab tehingutasud Lightning Network'is?
+answer: Makse saatja.
+wrong_answers:
+  - Makse saaja.
+  - Vahendajad.
+  - Võrk ise.
+explanation: |
+  Lightning Network'is maksab tehingutasud makse saatja. Need tasud võtavad endale sõlmed, mida kasutatakse tehingu suunamiseks.
+reviewed: false

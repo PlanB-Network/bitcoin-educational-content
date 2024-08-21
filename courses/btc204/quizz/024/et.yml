@@ -1,0 +1,9 @@
+küsimus: Kui me märkame tehingut, mille sisendis on 1 UTXO ja väljundites 43 UTXO-d, millist mustrit võime ära tunda?
+vastus: Grupiviisiline kulutamine
+vale_vastused:
+  - Konsolideerimine
+  - Lihtsustatud makse
+  - Koostööaline tehing
+selgitus: |
+  Selle mustri tõlgendus on, et me tegeleme grupiviisilise kulutamisega. See struktuur võimaldab sellistel üksustel nagu vahetusplatvormidel säästa tasudelt, grupeerides oma kulutused ühte tehingusse.
+üle vaadatud: false

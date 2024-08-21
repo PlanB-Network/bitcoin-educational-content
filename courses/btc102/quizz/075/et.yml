@@ -1,0 +1,8 @@
+question: Milline on parim lahendus alustamaks Bitcoiniga tutvumist ilma suure algkapitalita?
+answer: Dollar-Cost Averaging (DCA) plaani loomine
+wrong_answers:
+  - Suure hulga Bitcoini korraga ostmine
+  - Kaupade või teenuste müümine Bitcoinis
+  - Bitcoini ökosüsteemiga liitumine
+explanation: |
+  Dollar-Cost Averaging (DCA) plaani loomine on parim lahendus alustamaks Bitcoiniga tutvumist ilma suure algkapitalita. See võimaldab ostjal soetada iga nädal väikese koguse, sõltumata summast.

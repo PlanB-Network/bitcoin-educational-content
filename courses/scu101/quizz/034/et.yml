@@ -1,0 +1,9 @@
+question: Mida võivad sisaldada e-kirja manused ja pildid?
+answer: Pahavara
+wrong_answers:
+  - Rämpspost
+  - Reklaamid
+  - Reklaamsisu
+explanation: |
+  E-kirja manused ja pildid võivad sisaldada pahavara. Seetõttu ei tohiks
+  tundmatutelt või kahtlastelt saatjatelt saadud manuseid alla laadida ega avada.

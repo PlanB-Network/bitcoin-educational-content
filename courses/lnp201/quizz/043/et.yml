@@ -1,0 +1,8 @@
+question: Kes maksab sulgemistasud kooperatiivse sulgemise korral?
+answer: Isik, kes avas kanali.
+wrong_answers:
+  - Isik, kes sulges kanali.
+  - Mõlemad pooled võrdselt.
+  - Isik, kellel on kanalis kõige rohkem SAT-i.
+explanation: |
+  Kooperatiivse sulgemise korral lepivad kaks partnerit kokku kanali lõplikus seisus. Kanali avanud isik maksab sulgemistasud.

@@ -1,0 +1,11 @@
+question: Mis on eelis kasutades paroolilause Bitcoin rahakotis?
+answer: See võimaldab rakendada mitmesuguseid turvastrateegiaid
+wrong_answers:
+  - See muudab rahakoti kasutajasõbralikumaks
+  - See suurendab tehingute kiirust
+  - See vähendab tehingutega seotud tasusid
+explanation: |
+  Paroolilause on oluline vahend Bitcoin rahakottide turvalisuse tõstmiseks. See võimaldab rakendada mitmesuguseid turvastrateegiaid. Näiteks,
+  seda saab kasutada mnemoonilise fraasi duplikaatide loomiseks ja varukoopiate hõlbustamiseks.
+  See võib samuti parandada rahakoti turvalisust, leevendades mnemoonilise fraasi juhusliku genereerimisega seotud riske.
+reviewed: false

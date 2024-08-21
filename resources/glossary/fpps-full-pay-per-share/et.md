@@ -1,0 +1,5 @@
+---
+term: FPPS (FULL PAY PER SHARE)
+---
+
+Meetod kaevurite kompensatsiooni arvutamiseks kaevandusbasseinides. See on PPS (*Pay Per Share*) meetodi edasiarendus. See kompenseerib kaevureid mitte ainult iga kehtiva osaluse eest, mida nad esitavad, vaid hõlmab ka osa plokkide tasudest. Kompensatsioon arvutatakse varasemate tehingute keskmise ja basseini hashrate'i põhjal. Seega saavad kaevurid tasu esitatud osaluste eest, olenemata sellest, kas plokk leitakse või mitte, kuid see meetod kompenseerib ka oodatavat väärtust. See pakub kaevuritele stabiilset ja ettearvatavat kompensatsiooni, kuna see kõrvaldab varieeruvuse, mis on seotud ploki leidmise tõenäosusega, samal ajal kui see puutub kokku turutasude kõikumistega. Siiski on see basseinioperaatorite jaoks riskantsem, kuna nad peavad kaevuritele maksma isegi siis, kui plokki ei leita, seega absorbeerides varieeruvuse riski.

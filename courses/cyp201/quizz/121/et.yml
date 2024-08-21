@@ -1,0 +1,11 @@
+küsimus: Mis on skripti tüüp, mis võimaldab bitcoine lukustada avalikule võtmele?
+vastus: Pay2PublicKey
+valed_vastused:
+  - Pay2Address
+  - Pay2PrivateKey
+  - Pay2Hash
+selgitus: |
+  Skripti tüüp, mis võimaldab bitcoine lukustada avalikule võtmele, on nimetatud
+  Pay2PublicKey. Siiski eelistavad kasutajad üldiselt kasutada vastuvõtu aadresse selle
+  skripti asemel.
+üle vaadatud: false

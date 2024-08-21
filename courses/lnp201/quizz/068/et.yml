@@ -1,0 +1,9 @@
+question: Miks ei ole Lightning Network'is likviidsuse täpne jaotumine otse kättesaadav?
+answer: Kasutajate privaatsuse ja turvalisuse kaitsmiseks.
+wrong_answers:
+  - Plokiahela suuruse vähendamiseks.
+  - Tehingute kiiruse suurendamiseks.
+  - Võrgu keerukuse vähendamiseks.
+explanation: |
+  Lightning Network'is likviidsuse täpne jaotumine ei ole otse kättesaadav kasutajate privaatsuse ja turvalisuse kaitsmise eesmärgil. Kuigi kanalite koguvõimsus on avalik, ei avalikustata likviidsuse täpset asukohta. See takistab potentsiaalsetel ründajatel sihtida spetsiifilisi kanaleid või sõlmi, kus on kõrge likviidsus.
+reviewed: false

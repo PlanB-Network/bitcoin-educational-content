@@ -1,0 +1,10 @@
+question: Millised on kolm tüüpi inimesi Lightning Network'is?
+answer: Ostjad, kauplejad ja marsruutimissõlmed
+wrong_answers:
+  - Ostjad, müüjad ja vahendajad
+  - Kasutajad, kauplejad ja sõlmed
+  - Ostjad, kauplejad ja kaevurid
+explanation: |
+  Lightning Network'is on kolm tüüpi inimesi; ostjad, kes vajavad väljaminevat likviidsust; kauplejad, kes vajavad sissetulevat likviidsust; ja marsruutimissõlmed,
+  kes püüavad olla tasakaalus likviidsusega mõlemal poolel.
+reviewed: false

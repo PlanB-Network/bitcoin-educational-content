@@ -1,0 +1,12 @@
+question: Mis on paroolilause roll Bitcoin'i rahakotis?
+answer: See suurendab rahakoti turvalisust
+wrong_answers:
+  - See vähendab rahakoti turvalisust
+  - Sellel pole turvalisusele mingit mõju
+  - See muudab rahakoti kasutajasõbralikumaks
+explanation: |
+  Paroolilause on täiendav parool, mida saab integreerida
+  Bitcoin'i rahakotti selle turvalisuse suurendamiseks. Lisades suvalist informatsiooni, mis
+  koos mnemoonilise fraasiga võimaldab rahakoti seemne arvutamist,
+  suurendab paroolilause selle turvalisust.
+reviewed: false

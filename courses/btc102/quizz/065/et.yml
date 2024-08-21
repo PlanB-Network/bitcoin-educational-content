@@ -1,0 +1,10 @@
+question: Mis on Hodleri peamine omadus Bitcoin'i investeeringute kontekstis?
+answer: Nad hoiavad Bitcoin'i pikas perspektiivis.
+wrong_answers:
+  - Nad kauplevad Bitcoin'iga tihti.
+  - Nad investeerivad Bitcoin'i ainult siis, kui hind on madal.
+  - Nad müüvad Bitcoin'i kohe, kui hind tõuseb.
+explanation: |
+  Hodler, Bitcoin'i investeeringute kontekstis, on keegi, kes hoiab
+  Bitcoin'i pikas perspektiivis, panustades, et selle kasutus ja haruldus
+  aja jooksul suurenevad.

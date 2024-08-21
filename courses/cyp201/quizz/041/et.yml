@@ -1,0 +1,9 @@
+question: Mis on elliptilise kõvera roll avalike ja privaatvõtmete genereerimisel?
+answer: Seda kasutatakse turvaliste avalike ja privaatvõtmete genereerimiseks.
+wrong_answers:
+  - Seda kasutatakse võtmete krüpteerimiseks.
+  - Seda kasutatakse võtmete salvestamiseks.
+  - Seda kasutatakse võtmete edastamiseks.
+explanation: |
+  Elliptiline kõver on matemaatiline konstruktsioon, mida kasutatakse turvaliste avalike ja privaatvõtmete genereerimisel. Juhuslik number, mida tihti nimetatakse nonce'iks, valitakse privaatvõtmeks ja kasutatakse elliptilise kõvera võrrandis vastava avaliku võtme genereerimiseks.
+reviewed: false

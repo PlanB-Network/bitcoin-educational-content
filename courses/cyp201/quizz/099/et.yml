@@ -1,0 +1,10 @@
+question: Millised on laiendatud võtmete kõige sagedamini kasutatavad prefiksid?
+answer: xpub ja zpub
+wrong_answers:
+  - xprv ja zprv
+  - ypub ja zpub
+  - xpub ja ypub
+explanation: |
+  Kõige sagedamini kasutatavad prefiksid on xpub ja zpub, mis vastavad
+
+  vastavalt legacy ja segwit v1 ning segwit v0 standarditele.

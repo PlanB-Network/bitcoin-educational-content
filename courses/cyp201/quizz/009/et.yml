@@ -1,0 +1,9 @@
+question: Mis on täitebittide eesmärk SHA256 eeltöötlusfaasis?
+answer: Muuta sisendi suurus täiuslikuks 512 biti kordseks
+wrong_answers:
+  - Suurendada sisendi suurust 256 bitini
+  - Lisada sisendile keerukust
+  - Vähendada sisendi suurust 512 bitini
+explanation: |
+  SHA256 eeltöötlusfaasis lisatakse sisendile täitebitte, et muuta selle suurus täiuslikuks 512 biti kordseks. See on tehtud selleks, et tagada kõikide komponentide ideaalne segunemine krüptograafilises retseptis.
+reviewed: false

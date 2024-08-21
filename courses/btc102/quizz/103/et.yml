@@ -1,0 +1,9 @@
+question: Millised on levinumad väärarusaamad pärandiplaani loomise kohta Pamela Morgani järgi teoses "Cryptoasset Inheritance Planning"?
+answer: Ma pean palkama advokaadi; Ma pean usaldama kolmandat osapoolt; Planeerimine teeb minu varad vargusele kergesti kättesaadavaks; Minu krüptovaluuta väärtus on liiga madal, et seda planeerida; Minu pärijad saavad kõik ise välja mõelda; Kõik see on võimalik teha lihtsa nutilepinguga.
+wrong_answers:
+  - Ma ei pea palkama advokaati; Ma ei pea usaldama kolmandat osapoolt; Planeerimine teeb minu varad vargusele raskemini kättesaadavaks; Minu krüptovaluuta väärtus on liiga kõrge, et seda planeerida; Minu pärijad ei saa kõike ise välja mõelda; Kõik see ei ole võimalik teha lihtsa nutilepinguga.
+  - Ma pean palkama advokaadi; Ma pean usaldama kolmandat osapoolt; Planeerimine teeb minu varad vargusele raskemini kättasaadavaks; Minu krüptovaluuta väärtus on liiga kõrge, et seda planeerida; Minu pärijad saavad kõik ise välja mõelda; Kõik see ei ole võimalik teha lihtsa nutilepinguga.
+  - Ma ei pea palkama advokaati; Ma ei pea usaldama kolmandat osapoolt; Planeerimine teeb minu varad vargusele kergesti kättesaadavaks; Minu krüptovaluuta väärtus on liiga madal, et seda planeerida; Minu pärijad ei saa kõike ise välja mõelda; Kõik see on võimalik teha lihtsa nutilepinguga.
+explanation: |
+  Levinumad väärarusaamad pärandiplaani loomise kohta, nagu Pamela Morgan on öelnud teoses "Cryptoasset Inheritance Planning", on, et pead palkama advokaadi; pead usaldama kolmandat osapoolt; planeerimine teeb su varad vargusele kergesti kättesaadavaks; su krüptovaluuta väärtus on liiga madal, et seda planeerida; su pärijad saavad kõik ise välja mõelda; ja kõik see on võimalik teha lihtsa nutilepinguga.
+reviewed: false

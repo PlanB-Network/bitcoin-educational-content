@@ -1,0 +1,9 @@
+question: Mis vahe on paroolilause ja mnemoonilisel fraasil Bitcoin'i rahakotis?
+answer: Paroolilause on vaba ja võib ulatuda peaaegu lõpmatuni, samas kui mnemooniline fraas on standardiseeritud ja peab järgima teatud suuruse, kontrollsumma ja kodeeringu piiranguid.
+wrong_answers:
+  - Paroolilause on standardiseeritud, samas kui mnemooniline fraas on vaba ja võib ulatuda peaaegu lõpmatuni.
+  - Paroolilause ja mnemooniline fraas on sama.
+  - Paroolilause on valikuline, samas kui mnemooniline fraas on kohustuslik.
+explanation: |
+  HD rahakoti võtmete tuletamiseks on vajalikud nii mnemooniline fraas kui ka paroolilause. Paroolilause on vaba ja võib ulatuda peaaegu lõpmatuni. See ei sisaldu mnemoonilises fraasis, mis on standardiseeritud ja peab järgima teatud suuruse, kontrollsumma ja kodeeringu piiranguid.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Mis on HMACi eesmärk Bitcoin'i protokollis?
+answer: Seda kasutatakse pikkuse laiendamise rünnakute vastu võitlemiseks, kui tuletatakse hierarhiliselt deterministlikke (HD) rahakotte.
+wrong_answers:
+  - Seda kasutatakse mnemoonilise fraasi teisendamiseks seemneks.
+  - Seda kasutatakse fikseeritud suurusega väljundi genereerimiseks.
+  - Seda kasutatakse lisallika lisamiseks entroopias võtmestiku tuletamisel.
+explanation: |
+  HMACi peamine kasutusala on pikkuse laiendamise rünnakute vastu võitlemine, kui tuletatakse hierarhiliselt deterministlikke (HD) rahakotte. See võtab sisendiks sõnumi ja võtme ning genereerib fikseeritud suurusega väljundi.
+reviewed: false

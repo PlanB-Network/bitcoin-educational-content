@@ -1,0 +1,9 @@
+question: Mida tähendab termin 'fiduciary' valuutade kontekstis?
+answer: See viitab valuutadele, millel puudub sisemine väärtus ja mis sõltuvad usaldusest asutuste vastu, mis neid reguleerivad.
+wrong_answers:
+  - See viitab valuutadele, mida toetab kuld.
+  - See viitab valuutadele, mida kasutatakse ainult fidutsiaarseteks tehinguteks.
+  - See viitab valuutadele, mida kasutatakse ainult kindlas asutuses.
+explanation: |
+  Fidutsiaarsed valuutad on need, mida ei toeta füüsiline kaup nagu kuld või hõbe. Nende väärtus tuleneb inimeste usaldusest ja kindlustundest asutuste vastu, mis neid väljastavad ja reguleerivad.
+reviewed: true

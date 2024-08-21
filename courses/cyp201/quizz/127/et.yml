@@ -1,0 +1,9 @@
+küsimus: Mis on Bitcoinis vastuvõtu aadress?
+vastus: Tihendatud avaliku võtme tähtnumbriline esitus.
+valed_vastused:
+  - Iga Bitcoini tehingu unikaalne identifikaator.
+  - Parool Bitcoini rahakoti ligipääsuks.
+  - Digitaalne allkiri Bitcoini tehingute jaoks.
+selgitus: |
+  Bitcoinis on vastuvõtu aadress tihendatud avaliku võtme tähtnumbriline esitus. Seda kasutatakse Bitcoini tehingute vastuvõtmiseks.
+reviewed: false

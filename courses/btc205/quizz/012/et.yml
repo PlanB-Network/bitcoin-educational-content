@@ -1,0 +1,9 @@
+question: Milline P2P lahendus on kättesaadav Telegrami kaudu KYC-vabadeks Bitcoin'i ostudeks?
+answer: LNP2PBot
+wrong_answers:
+  - Bisq
+  - RoboSat
+  - Peach
+explanation: |
+  Peatüki kohaselt on LNP2PBot kättesaadav Telegrami kaudu KYC-vabadeks Bitcoin'i ostudeks.
+reviewed: false

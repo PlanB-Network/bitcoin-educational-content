@@ -1,0 +1,10 @@
+question: Mis on HTLC?
+answer: Makseleping, mida saab avada ainult saladusega.
+wrong_answers:
+  - Üks krüptoraha tüüp.
+  - Andmete krüpteerimise meetod.
+  - Üks plokiahela tüüp.
+explanation: |
+  HTLC ehk Hash Time-Locked Contract on makselepingu tüüp,
+  mida saab avada ainult saladusega. Seda kasutatakse Lightning Network'is,
+  et tagada turvaline ja tõendatav makse.

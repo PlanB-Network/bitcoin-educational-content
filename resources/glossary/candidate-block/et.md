@@ -1,0 +1,5 @@
+---
+term: KANDIDAATPLOKK
+---
+
+Kandidaatplokk on plokk, mis on Bitcoini süsteemi kaevandamisprotsessis osaleva kaevandaja poolt loomisel. Kandidaatplokk on ajutine andmestruktuur, mis sisaldab kinnitamist ootavaid tehinguid, kuid millel ei ole veel kehtivat töötõendit (proof-of-work), et seda plokiahelasse lisada. Kaevandaja valib kandidaatplokki lisatavad tehingud erinevate tegurite põhjal, nagu seotud tehingutasud ja ploki suuruse piirangud. Kui tehingud on valitud, genereerib kaevandaja ploki päise, mis sisaldab versiooni, tehingute kokkuvõtet (Merkle'i juur), ajatempli, eelmise ploki räsi, raskustaseme sihtmärki ja nönni (nonce). Seejärel üritab kaevandaja leida oma päise räsi, mis vastab praegusele raskustaseme sihtmärgile. Selleks muudab kaevandaja päises olevat nönni. Kaevandaja võib muuta ka muud oma kandidaatplokis olevat teavet. See on töötõendi mehhanism. Kui kaevandaja leiab kehtiva räsi, muutub kandidaatplokk kehtivaks plokiks ja see edastatakse võrku, et see lisataks plokiahelasse.

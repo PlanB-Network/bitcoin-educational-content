@@ -1,0 +1,11 @@
+question: Mis on BIP39 roll Bitcoin'i ökosüsteemis?
+answer: See tutvustas 24-sõnalist mnemoonilist fraasi, et muuta keerulised numbriseeriad tavalisteks sõnadeks.
+wrong_answers:
+  - See tutvustas deterministlikult ja hierarhiliselt tuletatud võtmete kontseptsiooni.
+  - See tegi ettepaneku lisada täiendav parool, et tugevdada üksikute võtmete turvalisust.
+  - See standardiseeris HD rahakottide struktuuri ja hierarhia.
+explanation: |
+  BIP39 tutvustas märkimisväärset innovatsiooni; 24-sõnaline mnemooniline fraas.
+  See süsteem tegi võimalikuks muuta keerulise, raskesti meeldejääva numbriseeria
+  tavaliste sõnade jadaks, mis on palju lihtsam meelde jätta ja hoiustada.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Mis juhtub, kui Alice üritab petta, avaldades vana oleku?
+answer: Bob saab kasutada tühistamisvõtit, et liigutada vahendeid ilma Timelocki lõppu ootamata, karistades sellega tõhusalt Alicet.
+wrong_answers:
+  - Alice saab kasutada tühistamisvõtit, et liigutada vahendeid ilma Timelocki lõppu ootamata.
+  - Bob saab pikendada Timelocki, et takistada Alicel oma raha taastamist.
+  - Alice saab kohe oma raha tagasi saada.
+explanation: |
+  Kui Alice üritab petta, avaldades vana oleku, saab Bob kasutada tühistamisvõtit, et liigutada vahendeid ilma Timelocki lõppu ootamata. See karistab tõhusalt Alicet petmise katse eest.
+reviewed: false

@@ -1,0 +1,13 @@
+question: Mis on coinjoin tehing?
+
+answer: Koostööd nõudev tehing, kus mitu kasutajat ühendavad oma UTXOd.
+
+wrong_answers:
+  - Koostööd nõudev tehing ainult kahe kasutaja vahel.
+  - Tehing, kus üks kasutaja saadab vahendid mitmele aadressile.
+  - Tehing, kus keskne tegelane segab oma klientide bitcoine.
+
+explanation: |
+  Coinjoin tehing on koostööd nõudev tehing, milles mitu kasutajat segavad oma münte.
+
+reviewed: false

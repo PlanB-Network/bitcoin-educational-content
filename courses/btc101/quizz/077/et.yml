@@ -1,0 +1,11 @@
+question: Mis on Bitcoin'i rahakoti avaliku võtme jagamise risk?
+answer: Privaatsusega seotud riskid
+wrong_answers:
+  - Riskid hävitada Bitcoin'i rahakott
+  - Riskid kaotada Bitcoin'id
+  - Riskid häkkida Bitcoin'i rahakotti
+explanation: |
+  Avaliku võtme jagamine toob kaasa privaatsusega seotud riskid, kuid mitte turvalisusega seotud riskid.
+  See on seetõttu, et avalikku võtit kasutatakse Bitcoin'i aadresside genereerimiseks ja seeläbi
+  raha vastuvõtmiseks, kuid see ei tähenda Bitcoin'ide omandiõigust.
+reviewed: true

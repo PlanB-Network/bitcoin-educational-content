@@ -1,0 +1,9 @@
+küsimus: Mis juhtub HTLC-ga, kui Bob ei võta kunagi saladust välja?
+vastus: HTLC aegub pärast teatud arvu blokke.
+valed_vastused:
+  - HTLC tühistatakse kohe.
+  - HTLC antakse üle Alice'ile.
+  - HTLC antakse üle Susie'le.
+selgitus: |
+  Kui Bob ei võta kunagi saladust välja, siis HTLC aegub pärast teatud arvu blokke. See on sisseehitatud mehhanism, et tagada leping ei jääks lõputult ootele.
+üle vaadatud: false

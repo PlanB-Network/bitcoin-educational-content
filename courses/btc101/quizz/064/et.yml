@@ -1,0 +1,11 @@
+küsimus: Mis on käsklus, et kontrollida ringluses olevate bitcoinide hulka
+  Bitcoin sõlmel?
+vastus: bitcoin-cli gettxoutsetinfo
+valed_vastused:
+  - bitcoin-cli getblockchaininfo
+  - bitcoin-cli getwalletinfo
+  - bitcoin-cli getnetworkinfo
+selgitus: |
+  Käsklus, et kontrollida ringluses olevate bitcoinide hulka Bitcoin sõlmel, on bitcoin-cli gettxoutsetinfo. See käsklus pakub läbipaistvust ja kontrollitavust,
+  tugevdades usaldust Bitcoin süsteemi vastu.
+üle vaadatud: true

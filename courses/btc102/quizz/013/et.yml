@@ -1,0 +1,12 @@
+question: Mis on üks põhilisi meetmeid, et parandada veebipõhise turvalisuse harjumusi?
+answer: Luba kahefaktoriline autentimine (2FA)
+wrong_answers:
+  - Kasuta kõikide kontode jaoks sama parooli
+  - Eira andmete regulaarset varundamist
+  - Jaga oma paroole
+explanation: |
+  Kahefaktorilise autentimise (2FA) lubamine on üks põhilisi meetmeid
+  
+  veebipõhise turvalisuse harjumuste parandamiseks. See lisab täiendava turvakihi
+  
+  sinu kõige tundlikumatele kontodele.

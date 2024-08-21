@@ -1,0 +1,11 @@
+question: Mis on HASH160 kasutamise eelis Bitcoin protokollis?
+answer: See võimaldab SHA-256 turvalisust säilitades vähendada sõrmejälje suurust.
+wrong_answers:
+  - See suurendab sõrmejälje suurust lisaturvalisuse saavutamiseks.
+  - See on vastupidavam kokkupõrgetele kui SHA-256.
+  - Selle arvutamine on kiirem kui SHA-256.
+explanation: |
+  HASH160 kasutamine Bitcoin protokollis on eeliseks, kuna see säilitab
+  SHA-256 turvalisuse samal ajal vähendades sõrmejälje suurust. See muudab selle
+  tõhusamaks turvalisust ohverdamata.
+reviewed: false

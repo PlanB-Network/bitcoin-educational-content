@@ -1,0 +1,5 @@
+---
+term: JAGATUD RASKUS
+---
+
+Sihtmäärane raskus, mis on kõrgem kui Bitcoinil (seega vähem keeruline), määratletud kaevandusbasseini poolt, et kvalifitseerida jagatud osa hajuväärtust ja hinnata iga üksikkaevandaja panust basseinis. Efektiivseks kontrollkoormuse haldamiseks ja tagamaks, et iga kaevandaja, olenemata nende arvutusvõimsusest, esitab regulaarselt jagatud osasid, kohandavad basseinid jagatud osade raskust. Iga kaevandajale määratud raskus määrab, mitu jagatud osa nad koguvad: näiteks, kui kaevandajal on määratud raskus 10 ja ta esitab 5 kehtivat töötõendit sellel raskusastmel, saavad nad 50 jagatud osa. Võimsam kaevandaja raskusastmega 100, kes esitab 7 kehtivat töötõendit, saab 700 jagatud osa. See süsteem võimaldab täpselt kvantifitseerida iga kaevandaja hashrate'i ja jaotada preemiaid vastavalt valitud arvutusmeetodile kompensatsiooni jaoks (PPS, PPLNS, TIDES...).

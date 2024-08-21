@@ -1,0 +1,9 @@
+küsimus: Miks ei saa kõik kasutada sama Bitcoin'i rahakotti?
+vastus: Kuna erinevad inimesed tähendavad erinevaid kasutusjuhte.
+valed_vastused:
+  - Kuna Bitcoin'i rahakoti kasutamine on kallis
+  - Kuna Bitcoin'i rahakoti kasutamine on ebaseaduslik
+  - Kuna inimesed ei jõua kunagi kokkuleppele sellise rahakoti nime osas
+selgitus: |
+  Kui ühele inimesele võib olla oluline turvalisus, siis teisele võib olla tähtsam kasutajasõbralikkus või konkreetsed funktsioonid. Seetõttu ei pruugi üksainus Bitcoin'i rahakott rahuldada kõikide nõudmisi, mistõttu on vajalik, et eksisteeriks mitmeid rahakoti valikuid.
+üle vaadatud: true

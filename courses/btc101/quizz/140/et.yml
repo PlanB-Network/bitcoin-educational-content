@@ -1,0 +1,9 @@
+küsimus: Kui suur on Bitcoin'i plokiahel?
+vastus: Umbes 500GB
+valed_vastused:
+  - Umbes 100GB
+  - Umbes 1TB
+  - Umbes 2TB
+selgitus: >-
+  Bitcoin'i plokiahel on umbes 500GB suurune.
+üle vaadatud: false

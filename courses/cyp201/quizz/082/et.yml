@@ -1,0 +1,10 @@
+question: Kas paroolilause on turvalisem kui lihtne parool?
+answer: "Jah"
+wrong_answers:
+  - "Ei"
+  - See sõltub parooli pikkusest
+  - See sõltub parooli keerukusest
+explanation: |
+  Paroolilause on turvalisem kui lihtne parool. Ideaalne paroolilause
+  on pikk, mitmekesine ja juhuslik. See võib tõsta rahakoti või tarkvara turvalisust.
+reviewed: false

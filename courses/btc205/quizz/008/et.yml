@@ -1,0 +1,10 @@
+question: Mis on pakkujad ja võtjad tellimusraamatute kontekstis?
+answer: Pakkujad on tellimuste esitajad ja võtjad on tellimuste vastuvõtjad.
+wrong_answers:
+  - Pakkujad on tellimuste vastuvõtjad ja võtjad on tellimuste esitajad.
+  - Pakkujad on tellimuste loojad ja võtjad on tellimuste vastuvõtjad.
+  - Pakkujad on tellimuste vastuvõtjad ja võtjad on tellimuste loojad.
+explanation: |
+  Tellimusraamatute kontekstis on pakkujad need, kes esitavad tellimusi ja
+
+  võtjad on need, kes võtavad tellimusi.

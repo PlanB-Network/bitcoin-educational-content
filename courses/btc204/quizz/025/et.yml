@@ -1,0 +1,9 @@
+küsimus: Mis on "KYC"?
+vastus: Protseduur klientide isikusamasuse tuvastamiseks ja registreerimiseks.
+valed_vastused:
+  - Krüptograafiasüsteem finantstehingute turvamiseks.
+  - Finantstehingute valideerimismeetod.
+  - Turundustehnika kliendikäitumise analüüsimiseks.
+selgitus: |
+  KYC tähendab "Know Your Customer" (Tunne oma klienti). See on tõepoolest regulatiivne protseduur kliendi isikusamasuse tuvastamiseks.
+üle vaadatud: false

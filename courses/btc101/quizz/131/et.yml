@@ -1,0 +1,9 @@
+küsimus: Mis on Bitcoini sõlme roll Bitcoini võrgustikus?
+vastus: See tegeleb uute plokkide ja nendes sisalduvate tehingute valideerimisega.
+valed_vastused:
+  - See loob uusi Bitcoine.
+  - See reguleerib Bitcoini hinda.
+  - See haldab Bitcoini võrgustikku.
+selgitus: >-
+  Bitcoini sõlm Bitcoini võrgustikus tegeleb uute plokkide ja nendes sisalduvate tehingute valideerimisega. Just selle Bitcoini sõlmede võrgustiku kaudu on võrgustik tõeliselt detsentraliseeritud.
+üle vaadatud: false

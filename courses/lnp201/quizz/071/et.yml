@@ -1,0 +1,11 @@
+küsimus: Mis on juhuslikkuse faktori eesmärk Lightning Network'i marsruutimisprotsessis?
+vastus: Vältida alati samade marsruutide kasutamist.
+valed_vastused:
+  - Võrgu keerukuse suurendamiseks.
+  - Tehingute kiiruse vähendamiseks.
+  - Kasutaja privaatsuse ohustamiseks.
+selgitus: |
+  Juhuslikkuse faktorit Lightning Network'i marsruutimisprotsessis kasutatakse selleks,
+  et vältida alati samade marsruutide kasutamist. See aitab jaotada koormust üle
+  võrgu ja suurendada eduka marsruudi leidmise võimalusi tehingule.
+üle vaadatud: false

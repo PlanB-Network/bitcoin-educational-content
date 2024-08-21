@@ -1,0 +1,11 @@
+küsimus: Miks on oluline kontrollida veebilehe avalikku võtit kasutades sertifikaadisüsteemi?
+vastus: Kinnitamaks veebilehe autentsust.
+valed_vastused:
+  - Geograafiliste piirangute möödahiilimiseks.
+  - Veebireklaamide blokeerimiseks.
+  - Veebilehele ligipääsuks ilma andmeid kasutamata.
+selgitus: |
+  Veebilehe avaliku võtme kontrollimine kasutades sertifikaadisüsteemi on oluline
+  veebilehe autentsuse kinnitamiseks. See aitab kaitsta pahatahtlike isikute eest,
+  kes võivad veebilehte jäljendada ja andmeid lihttekstina edastada.
+üle vaadatud: false

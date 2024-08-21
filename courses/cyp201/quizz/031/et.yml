@@ -1,0 +1,9 @@
+question: Mis on Bitcoin'i privaatvõtme võimalike variantide koguarv?
+answer: Peaaegu võrdne 1.158 x 10^77-ga
+wrong_answers:
+  - Täpselt 2^256
+  - Vahemikus 1 kuni n-1
+  - Umbkaudselt sama palju kui aatomeid vaadeldavas universumis
+explanation: |
+  Bitcoin'i privaatvõtme võimalike variantide koguarv on peaaegu võrdne 1.158 x 10^77-ga, mis on umbkaudselt sama palju kui aatomeid vaadeldavas universumis. See on seetõttu, et privaatvõti peab jääma vahemikku 1 kuni n-1, kus n tähistab elliptilise kõvera järku.
+reviewed: false

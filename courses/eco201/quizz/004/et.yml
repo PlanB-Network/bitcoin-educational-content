@@ -1,0 +1,9 @@
+question: Mis on Austria majandusteooria peamine lähenemine majanduse mõistmisele?
+answer: Austria majandusteooria mõistab majandust inimloogika ja sotsioloogia vaatenurgast.
+wrong_answers:
+  - Austria majandusteooria mõistab majandust matemaatiliste võrrandite kaudu.
+  - Austria majandusteooria mõistab majandust rahatrüki ja kulutamise vaatenurgast.
+  - Austria majandusteooria mõistab majandust keskpankade vaatenurgast.
+explanation: |
+  Peatükk selgitab, et Austria majandusteooria mõistab majandust inimloogika ja sotsioloogia vaatenurgast, mitte lähenemata sellele distsipliinile matemaatiliste võrrandite kaudu.
+reviewed: false

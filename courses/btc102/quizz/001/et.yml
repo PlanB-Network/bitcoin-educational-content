@@ -1,0 +1,9 @@
+question: Mis on levinud pettus, mis on seotud veebikonkursside või annetustega krüptovaluuta sektoris?
+answer: Reklaamid, mis lubavad tasuta bitcoine.
+wrong_answers:
+  - Reklaamid, mis lubavad füüsilisi kaupu.
+  - Reklaamid, mis lubavad tasuta fiat valuutat.
+  - Reklaamid, mis lubavad tasuta tarkvara.
+explanation: |
+  Pettused, mis on seotud veebikonkursside või annetustega, on krüptovaluuta sektoris väga levinud. Reklaamid, mis lubavad tasuta bitcoine, kasutatakse sageli kogenematute kasutajate petmiseks.
+reviewed: false

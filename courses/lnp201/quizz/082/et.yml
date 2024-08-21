@@ -1,0 +1,9 @@
+question: Mis on Loopi roll Lightning Network'is?
+answer: Loop on eriline sõlm, mis pakub teenust LN/BTC tasakaalustamiseks.
+wrong_answers:
+  - Loop on sõlm, mis ühendab ostjaid ja kaupmehi.
+  - Loop on sõlm, mis aitab kanaleid avada.
+  - Loop on sõlm, mis salvestab kõik tehingud.
+explanation: |
+  Lightning Network'is on Loop eriline sõlm, mis pakub professionaalset teenust LN/BTC tasakaalustamiseks. See toimub likviidsuse saatmisega Loopile läbi teise sõlme, mis seejärel saadab on-chain saldo tagasi algsele sõlmele.
+reviewed: false

@@ -1,0 +1,12 @@
+question: Mis ei ole mnemooniline fraas Bitcoin'i kontekstis?
+answer: Sinu Bitcoin'i rahakoti parool
+wrong_answers:
+  - 12 sõna nimekiri kindlast sõnastikust
+  - 24 sõna nimekiri kindlast sõnastikust
+  - saladus, et pääseda ligi oma bitcoin'i fondile
+  - Saladuskood, et pääseda ligi oma bitcoin'idele
+explanation: |
+  Mnemooniline fraas Bitcoin'i kontekstis on 12 või 24 sõna nimekiri,
+  mis võimaldab sul taastada oma rahakoti mis tahes Bitcoin'i rahakoti rakenduses. Igaühel,
+  kellel on juurdepääs sellele nimekirjale, on samuti juurdepääs sinu bitcoin'idele.
+reviewed: true

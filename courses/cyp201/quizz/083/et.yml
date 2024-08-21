@@ -1,0 +1,10 @@
+küsimus:
+  Kas on soovitatav meelde jätta Bitcoin'i rahakoti paroolilause või mnemooniline fraas?
+vastus: See on väär
+valed_vastused:
+  - See on tõene
+  - See sõltub paroolilause või mnemoonilise fraasi pikkusest
+  - See sõltub paroolilause või mnemoonilise fraasi keerukusest
+selgitus: |
+  Paroolilause või mnemoonilise fraasi meeldejätmine ei ole soovitatav. On oluline hoolitseda paroolilause varukoopiate eest, et vältida juurdepääsu kaotamist rahakotile.
+üle vaadatud: false

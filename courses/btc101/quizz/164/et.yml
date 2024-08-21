@@ -1,0 +1,12 @@
+question: Mis on Bitcoin'i peamine eelis inimestele, kes elavad finantsilise
+  surve või diktatuurirežiimi all?
+answer: See pakub finantsilist vabadust, võimaldades vältida tsensuuri ja panganduspiiranguid
+wrong_answers:
+  - See pakub stabiilset valuutat
+  - See võimaldab anonüümseid tehinguid
+  - See pakub kõrgeid investeeringutasuvusi
+explanation: >-
+  Bitcoin pakub finantsilist vabadust, võimaldades vältida tsensuuri ja
+  panganduspiiranguid. See on eriti kasulik inimestele, kes elavad finantsilise
+  surve või diktatuurirežiimi all.
+reviewed: false

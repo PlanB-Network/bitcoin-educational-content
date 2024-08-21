@@ -1,0 +1,10 @@
+question: Millal viiakse läbi väljamaksetehing Lightning Network'i ülekandes?
+answer: Kui kanal suletakse.
+wrong_answers:
+  - Kui ülekanne tehakse.
+  - Kui kanal avatakse.
+  - See ei toimu kunagi.
+explanation: |
+  Väljamaksetehing, mis kujutab kanali seisundit,
+  ei viida läbi enne, kui kanal on suletud.
+reviewed: false

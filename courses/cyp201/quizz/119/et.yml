@@ -1,0 +1,9 @@
+question: Mis on Bitcoin'i vastuvõtu aadress?
+answer: Avaliku võtme räsi, kindla vorminguga.
+wrong_answers:
+  - Unikaalne identifikaator Bitcoin'i kasutajale.
+  - Bitcoin'i kasutaja avalik võti.
+  - Skript, mis lukustab bitcoine avaliku võtme jaoks.
+explanation: |
+  Bitcoin'i vastuvõtu aadress on avaliku võtme räsi, kindla vorminguga. Seda kasutatakse vahendite vastuvõtmiseks mündil ja see genereeritakse privaatsete ja avalike võtmete paaridest.
+reviewed: false

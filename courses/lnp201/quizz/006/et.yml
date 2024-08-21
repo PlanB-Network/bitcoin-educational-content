@@ -1,0 +1,9 @@
+question: Kas Lightning maksekanalid on kahepoolsed?
+answer: "Jah"
+wrong_answers:
+  - "Ei"
+  - Ainult mõningatel juhtudel
+  - See sõltub Bitcoin'i võrgust
+explanation: |
+  Maksekanalid on kahepoolsed, mis tähendab, et neil on kaks "poolt." Näiteks, kui Alice ja Bob avavad maksekanali, saab Alice saata Bitcoini Bobile, ja Bob saab saata Bitcoini Alice'ile.
+reviewed: false

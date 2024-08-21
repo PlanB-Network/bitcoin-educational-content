@@ -1,0 +1,13 @@
+question: Mis on BIP47 peamine eesmärk?
+
+answer: Omada unikaalset identifikaatorit, et vastu võtta BTC-d ilma aadresside taaskasutamiseta.
+
+wrong_answers:
+  - Suurendada plokkide suurust kiiremate tehingute jaoks.
+  - Lubada tasudeta tehinguid Bitcoin võrgus.
+  - Teha tehingud täielikult anonüümseks Bitcoinis.
+
+explanation: |
+  BIP47 eesmärk on pakkuda unikaalset identifikaatorit, mis võimaldab vastu võtta bitcoine mitu korda ja mitmelt inimeselt, kuid ilma aadresside taaskasutamiseta, kuna see on kasutaja privaatsuse seisukohast väga halb praktika.
+
+reviewed: false

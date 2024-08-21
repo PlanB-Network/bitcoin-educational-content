@@ -1,0 +1,9 @@
+küsimus: Mis on energia kulu tähtsus Bitcoin'i kaevandamisel?
+vastus: Energiakulu on vajalik informatsiooni tootmiseks, kuid informatsiooni kontrollimine on tühine kulu. See asümmeetria tagab võrgu turvalisuse.
+valevastused:
+  - Energiakulu on vajalik ASIC masinate töötamiseks, mida kasutatakse kaevandamisel.
+  - Energiakulu on vajalik Bitcoin'i võrgu ülalpidamiseks.
+  - Energiakulu on vajalik uute bitcoinide loomiseks.
+selgitus: >-
+  Energiakulu Bitcoin'i kaevandamisel on võrgu turvalisuse jaoks kriitilise tähtsusega aspekt. Kaevandamise kõrge energiakulu muudab pahatahtliku osaleja jaoks blockchain'i manipuleerimise äärmiselt kalliks, samal ajal kui tehingute kontrollimise madal kulu tagab, et igaüks saab võrgus osaleda.
+üle vaadatud: false

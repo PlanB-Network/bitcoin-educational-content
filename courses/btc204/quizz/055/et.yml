@@ -1,0 +1,13 @@
+question: Mis on Bitcoin'i vastuvõtu aadress?
+
+answer: Tähemärkide jada, mida kasutatakse bitcoinide vastuvõtmiseks.
+
+wrong_answers:
+  - Kood, mida kasutatakse bitcoinide saatmiseks.
+  - Algoritm bitcoinide kaevandamiseks.
+  - Nutileping.
+
+explanation: |
+  Vastuvõtu aadressi kasutatakse bitcoinide rahakotti vastuvõtmiseks.
+
+reviewed: false

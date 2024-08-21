@@ -1,0 +1,11 @@
+question: Mida tähendab 'ln' väljendis 'lnbc1m' Lightning Networki arvel?
+answer: Lightning
+wrong_answers:
+  - Litecoin
+  - Ledger Nano
+  - Pikk number
+explanation: |
+  Lightning Networki arvel tähendab 'ln' Lightningut, viidates
+  Lightning Networkile, mis on Bitcoinile mõeldud teise kihi lahendus, võimaldades kiireid ja madala tasuga
+  tehinguid.
+reviewed: false

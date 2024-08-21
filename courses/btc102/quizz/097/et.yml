@@ -1,0 +1,10 @@
+question: Milliseid platvorme võib paranoiline Bitcoin'i kasutaja eelistada KYC-vabadeks ostudeks eraisikute vahel?
+answer: Peach, Robosats, Bisq, HodlHodl
+wrong_answers:
+  - Coinbase, Binance, Kraken
+  - PayPal, Venmo, Cash App
+  - Krediitkaart, pangaülekanne, sularaha
+explanation: |
+  Peatükis mainitakse Peach, Robosats, Bisq ja HodlHodl kui platvorme,
+  mida paranoiline Bitcoin'i kasutaja võib eelistada KYC-vabadeks ostudeks eraisikute vahel.
+reviewed: false

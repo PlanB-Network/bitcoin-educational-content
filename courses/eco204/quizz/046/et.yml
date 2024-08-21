@@ -1,0 +1,11 @@
+question: Mis oli esimese Cordoba maksimaalne väärtus Nicaraguas?
+answer: 1 miljon.
+wrong_answers:
+  - 500 000
+  - 10 miljonit
+  - 100 miljonit
+explanation: |
+  Nicaraguas saavutas esimene Cordoba väärtuseks 1 miljon. Teine
+  
+  Cordoba jõudis 10 miljonini.
+reviewed: false

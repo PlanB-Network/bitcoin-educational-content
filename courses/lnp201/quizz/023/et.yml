@@ -1,0 +1,11 @@
+question: Mis on väljavõtmise tehingu eesmärk Lightning Network'i ülekandes?
+answer: See esindab kanali seisundit, tagades, kes omab vahendeid pärast iga ülekannet.
+wrong_answers:
+  - See on tehing, mis liigutab vahendid ühelt poolelt teisele.
+  - See on tehing, mis avab kanali.
+  - See on tehing, mis sulgeb kanali.
+explanation: |
+  Väljavõtmise tehingut uuendatakse pärast iga Lightning Network'i ülekannet,
+  et kajastada kanali praegust seisundit. See tagab, kes omab vahendeid pärast
+  iga ülekannet, kuid seda ei täideta, kui kanalit ei suleta.
+reviewed: false

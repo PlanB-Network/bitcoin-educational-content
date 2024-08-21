@@ -1,0 +1,9 @@
+question: Kuidas määratakse sõnade arv taastefraasis, kui genereeritakse mnemooniline fraas Bitcoin'i rahakotile?
+answer: See sõltub entroopia suurusest.
+wrong_answers:
+  - See sõltub kontrollsumma suurusest.
+  - See on alati 24 sõna.
+  - See genereeritakse juhuslikult.
+explanation: |
+  Sõltuvalt entroopia suurusest koosneb taastefraas 12 sõnast 128 biti puhul, 15 sõnast 160 biti puhul ja 24 sõnast 256 biti puhul.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Miks ei suuda kuld globaalses ja digitaalses maailmas sammu pidada?
+answer: Selleks, et muuta see jagatavaks ja kergesti vahetatavaks, on vaja keskset üksust
+wrong_answers:
+  - See ei ole piisavalt väärtuslik
+  - See ei ole piisavalt haruldane
+  - See kulub ajapikku
+explanation: |
+  Kuld ei suuda globaalses ja digitaalses maailmas sammu pidada, kuna selle jagamiseks ja kergesti vahetamiseks on vajalik keskne üksus. See muudab selle vähem praktikaks kasutamiseks maailmas, kus tehingud on üha enam digitaalsed ja detsentraliseeritud.
+reviewed: true

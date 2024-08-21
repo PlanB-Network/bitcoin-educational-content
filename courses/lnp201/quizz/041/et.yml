@@ -1,0 +1,9 @@
+question: Mis vahe on lõpetamistehingu ja kohustustehingu vahel koostöölises sulgemises?
+answer: Lõpetamistehingul ei ole ajalukku (Timelock) ega tühistamisvõtit (revocation key).
+wrong_answers:
+  - Lõpetamistehingul on ajalukk ja tühistamisvõti.
+  - Lõpetamistehing on aeglasem kui kohustustehing.
+  - Lõpetamistehing on kallim kui kohustustehing.
+explanation: |
+  Koostöölises sulgemises lepivad kaks osapoolt kokku kanali lõplikus seisundis ja loovad lõpetamistehingu. See tehing erineb kohustustehingutest, kuna sellel puuduvad ajalukk ja tühistamisvõti.
+reviewed: false

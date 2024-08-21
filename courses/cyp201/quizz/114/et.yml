@@ -1,0 +1,10 @@
+question: Mis on Depth 5 eesmärk HD Wallet struktuuris?
+answer: Seda kasutatakse vastuvõtvate aadresside jaoks standard rahakotis
+wrong_answers:
+  - Seda kasutatakse kindla otstarbega lastevõtmete tuletamiseks
+  - See võimaldab eristada kontosid erinevate krüptovaluutade või võrkude jaoks
+  - See vastab välistele ja sisemistele ahelatele
+explanation: |
+  HD Wallet struktuuris kasutatakse Depth 5 vastuvõtvate aadresside jaoks
+  standard rahakotis.
+reviewed: false

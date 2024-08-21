@@ -1,0 +1,11 @@
+küsimus: Millisel aastal toimub seitsmes poolitus?
+vastus: 2036
+valed_vastused:
+  - 2032
+  - 2028
+  - 2048
+selgitus: |
+  Seitsmes poolitus peaks toimuma 2036. aastal ning hinnanguline bitcoini kogus ringluses
+  on 20,835,937.5 btc, ehk 99.22% kogu varust.
+  bitcoine ringluses.
+üle vaadatud: true

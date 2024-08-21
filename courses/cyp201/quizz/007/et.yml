@@ -1,0 +1,11 @@
+question: Milline räsifunktsioon on Bitcoin'i protokolli võtmeelement?
+answer: SHA-256
+wrong_answers:
+  - MD5
+  - SHA1
+  - SHA0
+explanation: |
+  SHA-256 on Bitcoin'i protokolli võtmeelement. Seda kasutatakse tehingute andmete
+  unikaalse ja pöördumatu sõrmejälje loomiseks, mis on kriitilise tähtsusega
+  Bitcoin'i võrgu turvalisuse ja terviklikkuse jaoks.
+reviewed: false

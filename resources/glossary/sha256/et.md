@@ -1,0 +1,5 @@
+---
+term: SHA256
+---
+
+Akrüüm fraasile "*Secure Hash Algorithm 256 bits*" (Turvaline Räsialgoritm 256 biti). See on krüptograafiline räsifunktsioon, mis toodab 256-bitise kokkuvõtte. Disainitud *National Security Agency* (NSA) poolt 2000ndate alguses, on see saanud föderaalseks standardiks tundlike andmete töötlemisel. Bitcoin protokollis on `SHA256` funktsioon kõikjal kasutusel. Seda kasutatakse bloki päiste räsimiseks osana töötõendist. `SHA256` on kasutusel ka avalikust võtmest saadud vastuvõtu aadressi tuletamise protsessis. Lisaks kasutatakse seda tehingute ja tunnistajate agregatsiooniks Merkle puudes blokkides. `SHA256` leidub ka võtmefingerprintide arvutamisel, teatud kontrollsummade arvutamisel ja paljudes teistes Bitcoiniga seotud protsessides. Kui seda rakendatakse järjestikku kaks korda, nimetatakse seda `HASH256`-ks. See kahekordne rakendamine on Bitcoinis valdavalt kasutusel. Kui `SHA256` kasutatakse koos `RIPEMD160` funktsiooniga, nimetatakse seda `HASH160`-ks. See kahekordne räsimine on kasutusel võtmefingerprintide ja avalike võtmete räsimiseks. `SHA256` funktsioon kuulub SHA 2 perekonda.

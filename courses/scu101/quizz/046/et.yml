@@ -1,0 +1,13 @@
+question: Mis on peamine puudus, kasutades ise majutatud paroolihaldurit?
+answer: Selle kasutamine nõuab rohkem tehnilisi teadmisi.
+wrong_answers:
+  - See on kallim kui kolmanda osapoole teenused.
+  - See ei paku nii palju funktsioone kui kolmanda osapoole teenused.
+  - See ei ole nii turvaline kui kolmanda osapoole teenused.
+explanation: |
+  Ise majutatud paroolihalduri kasutamine nõuab rohkem tehnilisi teadmisi,
+
+  kuna peate ise seadistama ja haldama oma serverit. Siiski, see võib pakkuda rohkem kontrolli
+
+  ja turvalisust.
+reviewed: false

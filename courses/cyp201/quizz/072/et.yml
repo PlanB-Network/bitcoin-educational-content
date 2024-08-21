@@ -1,0 +1,9 @@
+question: Mis on mnemooniline fraas Bitcoin'i rahakoti kontekstis?
+answer: See on rahakoti varukoopia.
+wrong_answers:
+  - See on rahakoti parool.
+  - See on rahakoti tehingute ajalugu.
+  - See on rahakoti digitaalne allkiri.
+explanation: |
+  Mnemooniline fraas genereeritakse, et tagada Bitcoin'i rahakoti varundamine.
+reviewed: false

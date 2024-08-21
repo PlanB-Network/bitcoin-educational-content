@@ -1,0 +1,10 @@
+question: Mis on Depth 3 eesmärk HD Wallet struktuuris?
+answer: Seda kasutatakse rahakoti korraldamiseks erinevate kontode vahel
+wrong_answers:
+  - Seda kasutatakse kindla eesmärgiga lastevõtmete tuletamiseks
+  - See võimaldab eristada kontosid erinevate krüptovaluutade või võrkude jaoks
+  - See vastab väliste ja sisemiste ahelate eristamisele
+explanation: |
+  HD Wallet struktuuris kasutatakse Depth 3 erinevate kontode vaheliseks
+  korraldamiseks, pakkudes selgemat ja organiseeritumat struktuuri.
+reviewed: false

@@ -1,0 +1,10 @@
+question: Mis on seemne pikkus HD rahakotis?
+answer: Seemnel on pikkus 128 kuni 256 bitti.
+wrong_answers:
+  - Seemnel on pikkus 64 kuni 128 bitti.
+  - Seemnel on pikkus 256 kuni 512 bitti.
+  - Seemnel on pikkus 32 kuni 64 bitti.
+explanation: |
+  HD rahakoti seemnel on pikkus 128 kuni 256 bitti. See genereeritakse
+
+  juhuslikult või salajasest fraasist.

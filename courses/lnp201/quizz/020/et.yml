@@ -1,0 +1,9 @@
+Küsimus: Mis on erinevad suhtlustasemed Lightning Network'is?
+Vastus: P2P suhtlus, Maksekanal, Bitcoin tehing
+Valed vastused:
+  - P2P suhtlus, Bitcoin tehing, Ethereum tehing
+  - Maksekanal, Bitcoin tehing, Litecoin tehing
+  - P2P suhtlus, Maksekanal, Ripple tehing
+Selgitus: |
+  Lightning Network'il on kolm erinevat suhtlustaset; P2P suhtlus (Lightning Network protokoll), Maksekanal (Lightning Network protokoll) ja Bitcoin tehing (Bitcoin protokoll).
+Üle vaadatud: false

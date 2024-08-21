@@ -1,0 +1,9 @@
+question: Mis on üks viis vastuvõtu võimekuse suurendamiseks Lightning Network'is?
+answer: Teha makseid
+wrong_answers:
+  - Avada kanaleid
+  - Ühenduda teiste sõlmedega
+  - Hoida mõlemal poolel likviidsuse tasakaalu
+explanation: |
+  Lightning Network'is on üks viis vastuvõtu võimekuse suurendamiseks teha makseid. Näiteks, kui maksad mingil põhjusel 100,000, siis nüüd saad vastu võtta 100,000.
+reviewed: false

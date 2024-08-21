@@ -1,0 +1,10 @@
+küsimus: Mis on HMAC-SHA-512-s kasutatav ploki suurus?
+vastus: 1024-bitised (128-baidised) plokid
+valed_vastused:
+  - 512-bitised (64-baidised) plokid
+  - 256-bitised (32-baidised) plokid
+  - 2048-bitised (256-baidised) plokid
+selgitus: |
+  HD rahakoti tuletamise kontekstis kasutatakse HMAC-SHA-512. Viimane
+  töötab 1024-bitiste (128-baidiste) plokkidega ja kohandab võtit vastavalt.
+üle vaadatud: false

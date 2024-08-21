@@ -1,0 +1,9 @@
+question: Mis on toores nimetus, mida mõnikord kasutatakse viitamaks privaatvõtmete kogumile Bitcoin'i rahakotis?
+answer: Lihtsalt Hunnik Võtmeid (JBOC)
+wrong_answers:
+  - Lihtsalt Hunnik Münte (JBOC)
+  - Lihtsalt Hunnik Krüptosid (JBOC)
+  - Lihtsalt Hunnik Koode (JBOC)
+explanation: |
+  Privaatsete krüptograafiliste võtmete kogumit, mis on tuletatud ühest peamisest
+  võtmest Bitcoin'i rahakotis, nimetatakse mõnikord veidi toores vormis "Lihtsalt Hunnik Võtmeid" (JBOC).

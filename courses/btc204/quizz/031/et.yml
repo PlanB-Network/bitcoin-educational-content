@@ -1,0 +1,9 @@
+küsimus: Kui lihtsas maksetehingus kasutatakse sisendis ja ühes kahest väljundist sama aadressi, milline väljund tõenäoliselt esindab tagastusraha?
+vastus: See, millel on sama aadress kui sisendil.
+valed_vastused:
+  - See, millel on kõige uuem aadress.
+  - See, millel on erinev aadress sisendist.
+  - See, millel on tundmatu aadress.
+selgitus: |
+  Kui tehingus toimub aadressi taaskasutus, on mõistlik eeldada, et kasutaja omab endiselt seotud UTXO-d. Seetõttu on tõenäoline, et väljund, millel on sama aadress kui sisendil, on tagastusraha.
+üle vaadatud: false

@@ -1,0 +1,9 @@
+küsimus: Millist osa tehingust uurime, kui otsime mustrit?
+vastus: Selle struktuuri
+valed_vastused:
+  - Selle metaandmed
+  - Selle skriptid
+  - Selle allkiri
+selgitus: |
+  Tehingu muster on lihtsalt tüüpilise tehingu üldine struktuur või mudel, mida saab leida plokiahelast, mille tõenäoline tõlgendus on teada.
+üle vaadatud: false

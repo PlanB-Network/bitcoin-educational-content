@@ -1,0 +1,10 @@
+question: Mis on maksimaalne arv bitcoine, mis kunagi luua saab?
+answer: 21 miljonit
+wrong_answers:
+  - 18 miljonit
+  - 25 miljonit
+  - 30 miljonit
+explanation: |
+  Bitcoini loomist iseloomustab fikseeritud piirang 21 miljonile
+  ühikule.
+reviewed: false

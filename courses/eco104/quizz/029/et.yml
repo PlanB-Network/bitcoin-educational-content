@@ -1,0 +1,12 @@
+question: Mis on üks põhjusi, miks Bitcoin tarbib kaevandamise kaudu energiat?
+answer: Pakkuda võimsat kaitsemehhanismi tsentraliseerimise vastu
+wrong_answers:
+  - Muuta Bitcoini kasutamine kallimaks
+  - Vähendada selle väärtust, suurendades energiakulusid
+  - Heidutada uusi kasutajaid võrguga liitumast
+explanation: |
+  Üks põhjusi, miks Bitcoin tarbib energiat kaevandamise kaudu, on 
+  pakkuda võimsat kaitsemehhanismi tsentraliseerimise ja 
+  ebaõiglase manipuleerimise vastu. Hajutatud võrgustik kaevuritest aitab ära hoida 
+  tsentraliseeritud üksuste võrgu ülevõtmist või reeglite enda kasuks manipuleerimist.
+reviewed: true

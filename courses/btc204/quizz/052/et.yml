@@ -1,0 +1,13 @@
+küsimus: Millist skripti kasutatakse ainult Silent Payments'i puhul?
+
+vastus: P2TR
+
+valed_vastused:
+  - P2WPKH
+  - P2SP
+  - P2WSH
+
+selgitus: |
+  Selle protokolli rakendamise hõlbustamiseks ja kasutajate anonüümsuse parandamiseks toetuvad Silent Payments ainult P2TR (Maksa Taproot'ile) skriptidele.
+
+üle vaadatud: false

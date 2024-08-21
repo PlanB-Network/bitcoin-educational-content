@@ -1,0 +1,10 @@
+question: Mis oli valitsuste levinud reaktsioon rahandus- või majanduskriisile, nagu näha Zimbabwe ja Weimari Vabariigi näidetel?
+answer: Range kontrolli rakendamine kapitali liikumise ja vormide üle.
+wrong_answers:
+  - Rahvusvaluuta devalveerimine.
+  - Välisinvesteeringute julgustamine.
+  - Intressimäärade tõstmine.
+explanation: |
+  Kui riik seisab silmitsi rahandus- või majanduskriisiga, on üks levinud valitsuste reaktsioon range kontrolli rakendamine kapitali liikumise ja vormide üle.
+  Seda tehakse sageli paanika ohjeldamiseks ja usalduse taastamiseks.
+reviewed: false

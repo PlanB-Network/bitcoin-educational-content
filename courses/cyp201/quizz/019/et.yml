@@ -1,0 +1,10 @@
+question: Mis on PBKDF2 roll Bitcoin protokollis?
+answer: Seda kasutatakse mnemoonilise fraasi teisendamiseks seemneks.
+wrong_answers:
+  - Seda kasutatakse pikkuse laiendamise rünnakute vastu võitlemiseks, kui tuletatakse hierarhiliselt deterministlikke (HD) rahakotte.
+  - Seda kasutatakse fikseeritud suurusega väljundi genereerimiseks.
+  - Seda kasutatakse lisallika lisamiseks entroopias võtmest tuletamisel.
+explanation: |
+  PBKDF2 kasutatakse mnemoonilise fraasi teisendamiseks seemneks. See algoritm
+  teostab 2048 vooru kasutades HMAC SHA512.
+reviewed: false

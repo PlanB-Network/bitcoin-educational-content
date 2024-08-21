@@ -1,0 +1,10 @@
+question: Milles seisneb avalike ja privaatvõtmete turvalisus?
+answer: Diskreetse logaritmi probleem
+wrong_answers:
+  - Primaarfaktoriseerimise probleem
+  - Seljakotiprobleem
+  - Rändkaupmehe probleem
+explanation: |
+  Avalike ja privaatvõtmete turvalisus põhineb diskreetse logaritmi
+  probleemil, mis on keeruline matemaatiline küsimus.
+reviewed: false

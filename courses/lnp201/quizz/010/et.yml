@@ -1,0 +1,8 @@
+question: Mis juhtub kõigi bitcoinidega Bitcoin tehingus?
+answer: Nad kõik peavad liikuma.
+wrong_answers:
+  - Nad kõik konverteeritakse fiat valuutaks.
+  - Nad kõik salvestatakse uude aadressi.
+  - Nad kõik jagatakse võrdselt osalejate vahel.
+explanation: |
+  Bitcoin tehingus peavad kõik bitcoinid liikuma. Seda nimetatakse UTXO-ks (Unspent Transaction Output), kus bitcoinide killud lahkuvad ainult selleks, et pärast omaniku juurde tagasi pöörduda.

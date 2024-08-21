@@ -1,0 +1,9 @@
+question: Mis on Bitcoin tehingu kinnituste arvu tähtsus?
+answer: Mida rohkem kinnitused tehingul on, seda muutumatumaks see muutub.
+wrong_answers:
+  - Mida rohkem kinnitused tehingul on, seda väärtuslikumaks see muutub.
+  - Mida rohkem kinnitused tehingul on, seda kiiremini see töödeldakse.
+  - Mida rohkem kinnitused tehingul on, seda vähem turvaline see on.
+explanation: >-
+  Bitcoin tehingu kinnituste arv näitab, mitu plokki on kaevandatud tehingut sisaldava ploki peale. Mida rohkem kinnitused tehingul on, seda muutumatumaks see muutub.
+reviewed: false

@@ -1,0 +1,13 @@
+question: Millist krüptograafilist meetodit kasutatakse koordinaatori takistamiseks sisendite ja väljundite seostamisel coinjoin'is?
+
+answer: Chaumi pimedad allkirjad.
+
+wrong_answers:
+  - Schnorri allkirjad.
+  - P2SH aadressid.
+  - P2TR aadressid.
+
+explanation: |
+  Niinimetatud "Chaumiani" coinjoinides kasutatakse Tor'i ja David Chaumi pimedaid allkirju, et tagada koordinaatori võimetus teada, milline väljund kuulub millisele kasutajale.
+
+reviewed: false

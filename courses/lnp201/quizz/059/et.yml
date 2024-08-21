@@ -1,0 +1,10 @@
+question: Mis juhtub kanali sunniviisilisel sulgemisel?
+answer: Kõik pooleliolevad HTLC tehingud avalikustatakse, mis võib muutuda väga kulukaks ja segaseks.
+wrong_answers:
+  - Maksed katkestatakse ja HTLC-d lahendatakse, mis on üldiselt vähem kulukas.
+  - Kanal suletakse kohe ilma lisasammudeta.
+  - Kõik pooleliolevad HTLC tehingud tühistatakse.
+explanation: |
+  Sunniviisilisel sulgemisel avalikustatakse kõik pooleliolevad HTLC tehingud. See
+  võib muutuda väga kulukaks ja segaseks seoses tehingute keerukuse ja hulgaga,
+  mis on kaasatud.

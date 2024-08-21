@@ -1,0 +1,9 @@
+question: Mis on mustri nimi, mis koosneb ühest sisendis olevast UTXO-st ja ühest väljundis olevast UTXO-st?
+answer: Pühkimine
+wrong_answers:
+  - Konsolideerimine
+  - Coinjoin
+  - Partii kulutamine
+explanation: |
+  Selle struktuuri tõlgendus on, et tegemist on pühkimisega, mis tähendab bitcoinide enesele ülekandmist.
+reviewed: false

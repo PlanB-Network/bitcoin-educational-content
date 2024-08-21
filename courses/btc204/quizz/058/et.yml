@@ -1,0 +1,13 @@
+question: Mis vahe on välistel ja sisemistel aadresside taaskasutusel tehingus?
+
+answer: Väline taaskasutus on märgatav mitme tehingu vahel, samas kui sisemine taaskasutus on märgatav ühe ja sama tehingu sees.
+
+wrong_answers:
+  - Väline taaskasutus puudutab avalikke aadresse, samas kui sisemine taaskasutus puudutab tehinguskriptides kasutatavaid privaatseid aadresse.
+  - Sisemine taaskasutus on märgatav mitme tehingu vahel, samas kui väline taaskasutus on märgatav ühe ja sama tehingu sees.
+  - Sisemine taaskasutus puudutab avalikke aadresse, samas kui väline taaskasutus puudutab tehinguskriptides kasutatavaid privaatseid aadresse.
+
+explanation: |
+  Välist aadresside taaskasutust täheldatakse, kui aadressi kasutatakse mitmes erinevas tehingus, samas kui sisemine taaskasutus puudutab aadressi, mida kasutatakse nii sama tehingu sisendites kui ka väljundites.
+
+reviewed: false

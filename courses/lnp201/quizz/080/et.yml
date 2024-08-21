@@ -1,0 +1,8 @@
+question: Mis on eelkujutise räsi eesmärk Lightning Network'i arvel?
+answer: Seda kasutatakse makse vabastamiseks
+wrong_answers:
+  - Seda kasutatakse arve andmete krüpteerimiseks
+  - Seda kasutatakse saaja isikusamasuse kontrollimiseks
+  - Seda kasutatakse tehingutasu arvutamiseks
+explanation: |
+  Eelkujutise räsi Lightning Network'i arvel kasutatakse makse vabastamiseks. Makse saaja peab esitama eelkujutise, mis vastab räsile, et vahendid kätte saada.

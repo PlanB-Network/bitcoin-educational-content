@@ -1,0 +1,9 @@
+question: Mis on SHA-256 räsifunktsiooni eesmärk hea juhusliku numbri genereerimisel?
+answer: See vähendab väga suure algse informatsioonikoguse 256 bitini.
+wrong_answers:
+  - See suurendab algse informatsiooni suurust.
+  - See krüpteerib algse informatsiooni.
+  - See kontrollib algse informatsiooni autentsust.
+explanation: |
+  SHA-256 räsifunktsiooni kasutatakse selleks, et vähendada väga suure algse informatsioonikoguse 256 bitini. See protsess aitab genereerida head juhuslikku numbrit,
+  mis on oluline privaatvõtmete ja Bitcoin'i tehingute turvalisuse jaoks.

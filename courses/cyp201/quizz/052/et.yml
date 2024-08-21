@@ -1,0 +1,9 @@
+question: Mis on BIP38 roll Bitcoin'i ökosüsteemis?
+answer: See tegi ettepaneku lisada täiendav paroolifraas, et tugevdada üksikute võtmete turvalisust.
+wrong_answers:
+  - See tutvustas 24-sõnalist mnemoonilist fraasi.
+  - See revolutsioneeris võtmete genereerimise ja salvestamise viisi.
+  - See standardiseeris HD rahakottide struktuuri ja hierarhia.
+explanation: |
+  BIP38 tegi ettepaneku lisada täiendav paroolifraas, et tugevdada üksikute võtmete turvalisust. See on üks paljudest parandustest, mida on tehtud HD rahakottide turvalisuse ja funktsionaalsuse suurendamiseks.
+reviewed: false

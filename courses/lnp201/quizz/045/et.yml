@@ -1,0 +1,11 @@
+küsimus: Mis juhtub sunniviisilise sulgemise korral, kui võrgutasu on sulgemise hetkel 1 SAT?
+vastus: Tehing makstakse üle 50 korda.
+valed_vastused:
+  - Tehing makstakse ala 50 korda.
+  - Tehing makstakse üle 2 korda.
+  - Tehing makstakse ala 2 korda.
+selgitus: |
+  Sunniviisilise sulgemise korral lähtub protokoll vaikimisi 5 korda kõrgematest tasudest kui
+  tehingu loomise hetkel. Kui võrgutasu on sulgemise hetkel 1 SAT, 
+  makstakse tehing üle 50 korda.
+üle vaadatud: false

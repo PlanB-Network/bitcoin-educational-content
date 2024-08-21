@@ -1,0 +1,11 @@
+question: Mida mõõdab tagasiulatuv anonüümsuskomplekt?
+
+answer: Privaatsuse vastupanuvõimet analüüsile tulevikust minevikku.
+
+wrong_answers:
+  - Privaatsuse vastupanuvõimet analüüsile minevikust tulevikku.
+  - Privaatsuse vastupanuvõimet analüüsile olevikust tulevikku.
+  - Privaatsuse vastupanuvõimet analüüsile minevikust olevikku.
+
+explanation: |
+  Tagasiulatuv anonüümsuskomplekt mõõdab mündi privaatsuse vastupanuvõimet analüüsile olevikust minevikku (väljundist sisendini).

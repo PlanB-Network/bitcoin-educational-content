@@ -1,0 +1,9 @@
+question: Kes on kursuse juhendaja?
+answer: "Théo Mogenet"
+wrong_answers:
+  - "Théo Boloré"
+  - Descoupes Bitcoin
+  - Mitte ükski ülaltoodust
+explanation: |
+  "Peatükis mainitakse, et kursuse juhendaja on Théo Mogenet, kirglik ja pädev Austria majanduse professor."
+reviewed: false

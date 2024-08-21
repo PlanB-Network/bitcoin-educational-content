@@ -1,0 +1,11 @@
+question: Mis on hüperinflatsioon?
+answer: Drastiline suurenemine rahamassis
+wrong_answers:
+  - Tagasihoidlik suurenemine rahamassis
+  - Drastiline vähenemine rahamassis
+  - Tagasihoidlik vähenemine rahamassis
+explanation: |
+  Hüperinflatsioon on rahanduslik nähtus,
+  see iseloomustab drastilist inflatsiooni suurenemist läbi rahatrüki ametivõimude poolt,
+  mis viib täieliku usalduse kaotamiseni valuuta vastu
+reviewed: true

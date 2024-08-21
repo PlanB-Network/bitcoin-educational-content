@@ -1,0 +1,8 @@
+küsimus: Mis on marsruutimissõlmede eesmärk seoses likviidsusega Lightning Network'is?
+vastus: Olla tasakaalus likviidsusega mõlemal pool
+valed_vastused:
+  - Avada kanaleid
+  - Ühenduda teiste sõlmedega
+  - Osta kanaleid
+selgitus: |
+  Marsruutimissõlmede jaoks Lightning Network'is on likviidsusega seotud eesmärk olla tasakaalus likviidsusega mõlemal pool. Nad püüavad samuti saavutada head ühendust paljude sõlmedega, et neid saaks võimalikult palju kasutada.

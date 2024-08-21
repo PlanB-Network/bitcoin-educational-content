@@ -1,0 +1,13 @@
+küsimus: Mis on peamine erinevus coinjoin'i ja hoiustava mikseri vahel?
+
+vastus: Coinjoin võimaldab täielikku kontrolli oma vahendite üle.
+
+valed_vastused:
+  - Coinjoin nõuab fondide ajutist hoiuleandmist.
+  - Mikserid on turvalisemad kui coinjoin'id.
+  - Mikserid pakuvad parema kvaliteediga segamist.
+
+selgitus: |
+  Peamine puudus mikserite puhul võrreldes coinjoin'idega on see, et need nõuavad kasutajalt oma vahendite hoiuleandmist segamisprotsessi ajal, mis seab nad varguse ohule.
+
+üle vaadatud: false

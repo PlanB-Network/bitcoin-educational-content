@@ -1,0 +1,9 @@
+question: Mis oli "plokkide sõja" tulemus 2017. aastal?
+answer: Kasutajad ja sõlmed lükkasid tagasi ettepaneku suurendada ploki suurust ning aktiveerisid uuenduse nimega SegWit
+wrong_answers:
+  - Kasutajad ja sõlmed nõustusid ettepanekuga suurendada ploki suurust ning aktiveerisid uuenduse nimega SegWit
+  - Kasutajad ja sõlmed lükkasid tagasi ettepaneku suurendada ploki suurust ega aktiveerinud ühtegi uuendust
+  - Kasutajad ja sõlmed nõustusid ettepanekuga suurendada ploki suurust ega aktiveerinud ühtegi uuendust
+explanation: >-
+  "Plokkide sõjas" 2017. aastal saavutasid kasutajad ja sõlmed võidu, lükates tagasi ettepaneku suurendada ploki suurust ning aktiveerides uuenduse nimega SegWit.
+reviewed: false

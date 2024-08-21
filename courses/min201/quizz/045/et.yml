@@ -1,0 +1,12 @@
+question: Mis on oma kaevandusseadmete omamise peamine eelis?
+answer: Aktiivne panustamine Bitcoini võrgu turvalisusesse ja värskelt kaevandatud bitcoinide hankimine.
+wrong_answers:
+  - Vajaduse vältimine osta Bitcoini otse.
+  - Kasumi teenimine seadmete hilisemal müügil.
+  - Teiste kaevurite usaldamise vajaduse vältimine.
+explanation: |
+  Oma kaevandusseadmete omamine pakub märkimisväärseid eeliseid. Lisaks
+  isiklikule rahulolule aktiivsest panusest Bitcoini võrgu turvalisusesse ja
+  preemiate nägemisele oma rahakotis, on atraktiivne aspekt "värskelt kaevandatud bitcoinid". Need on äsja kaevandatud bitcoinid, mida pole kunagi kulutatud
+  ja millel puudub ajalugu.
+reviewed: false

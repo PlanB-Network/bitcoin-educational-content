@@ -1,0 +1,10 @@
+question: Mis on KYC peamine eesmärk?
+answer: Võidelda rahapesu, terrorismi rahastamise ja maksudest kõrvalehoidumise vastu.
+wrong_answers:
+  - Suurendada ettevõtetele vastavusnõuete täitmisega seotud kulusid
+  - Keskendada tundlikke andmebaase, mis sisaldavad isiklikku kasutajateavet
+  - Takistada Prantsuse ettevõtete tegevust ja kahjustada nende konkurentsivõimet
+explanation: |
+  KYC ehk "Know Your Customer" (Tunne oma klienti) on regulatiivne standard, mille eesmärk on võidelda
+  rahapesu, terrorismi rahastamise ja maksudest kõrvalehoidumise vastu, nõudes eraisikust kliendi teabe
+  kogumist.

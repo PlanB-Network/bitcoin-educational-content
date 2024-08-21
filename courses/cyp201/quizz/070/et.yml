@@ -1,0 +1,10 @@
+question: Mis on entroopia eesmärk mnemoonilise fraasi genereerimisel Bitcoin'i rahakoti jaoks?
+answer: See on HD rahakoti turvalisuse nurgakivi.
+wrong_answers:
+  - See määrab taastefraasi sõnade arvu.
+  - See krüpteerib taastefraasi lisaturvalisuse tagamiseks.
+  - See kontrollib taastefraasi täpsust.
+explanation: |
+  Entroopia on HD rahakoti turvalisuse nurgakivi. On hädavajalik, et
+  see entroopia oleks juhuslik või pseudojuhuslik, et tagada rahakoti turvalisus.
+reviewed: false

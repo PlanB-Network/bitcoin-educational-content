@@ -1,0 +1,10 @@
+küsimus: Mis on 20% inflatsiooni mõju ostujõule kolme aasta jooksul?
+vastus: Kaotate 50% oma ostujõust
+valed_vastused:
+  - Kaotate 100% oma ostujõust
+  - Kaotate 60% oma ostujõust
+  - Kaotate 30% oma ostujõust
+selgitus: |
+  20% inflatsiooniga kaotate peaaegu poole oma ostujõust
+  kolme aasta jooksul.
+üle vaadatud: true

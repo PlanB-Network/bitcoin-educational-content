@@ -1,0 +1,9 @@
+question: Mis on seeme HD rahakoti kontekstis?
+answer: 512-bitine tähtnumbriline jada, mis toimib rahakoti võtmete tuletamise alusena.
+wrong_answers:
+  - Parool, mida kasutatakse rahakoti turvamiseks.
+  - Rahakoti unikaalne identifikaator.
+  - Kood, mida kasutatakse mnemoonilise fraasi genereerimiseks.
+explanation: |
+  Seeme on 512-bitine tähtnumbriline jada, mis toimib rahakoti võtmete tuletamise alusena. See saadakse kasutades pbkdf2 funktsiooni koos mnemoonilise fraasi ja parooliga.
+reviewed: false

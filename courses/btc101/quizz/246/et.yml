@@ -1,0 +1,11 @@
+question: Mis on Bitcoini seos tehnoloogia ja ühiskonna tulevikuga?
+answer: Bitcoin on tehnoloogiline revolutsioon uute suuremahuliste organisatsioonide moodustamiseks, võimaldades väärtuse vahetust ilma igasuguse usaldusväärse kolmanda osapooleta.
+wrong_answers:
+  - Bitcoin on tehisintellekti tehnoloogia vorm.
+  - Bitcoin on vahend maailma rahvastiku kontrollimiseks.
+  - Bitcoin on meetod, mille abil valitsused jälgivad oma kodanike finantstehinguid.
+explanation: >-
+  Tekst selgitab, et Bitcoin, nagu internet kommunikatsioonimooduste jaoks,
+  on tehnoloogiline revolutsioon uute suuremahuliste organisatsioonide loomiseks, tuues
+  meile võimaluse vahetada väärtust ilma igasuguse usaldusväärse kolmanda osapooleta.
+reviewed: false

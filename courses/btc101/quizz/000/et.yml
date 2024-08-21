@@ -1,0 +1,9 @@
+küsimus: Mis on Bitcoin?
+vastus: Bitcoin on võrdõiguslik elektrooniline sularahasüsteem.
+valed_vastused:
+  - Bitcoin on tüüpi füüsiline valuuta.
+  - Bitcoin on tsentraliseeritud digitaalne valuuta, mida kontrollib üksik isik.
+  - Bitcoin on tüüpi aktsia või võlakiri.
+selgitus: |
+  Nagu on öeldud valge raamatu (whitepaper) järgi, on Bitcoin võrdõiguslik arvutiprotokoll, mis juurutab rahandussüsteemi ilma kolmandate osapoolte usaldamise vajaduseta.
+üle vaadatud: true

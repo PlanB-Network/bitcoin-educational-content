@@ -1,0 +1,9 @@
+question: Mis on kaks tüüpi tasusid Lightning Network'is?
+answer: Fikseeritud tasu sõltumata summast ja muutuv tasu.
+wrong_answers:
+  - Tehingutasu ja marsruutimistasu.
+  - Saatja tasu ja saaja tasu.
+  - Võrgutasu ja kanalitasu.
+explanation: |
+  Lightning Network'is on kaks tüüpi tasusid; fikseeritud tasu sõltumata summast (vaikimisi on 1 SAT, kuid seda saab muuta) ja muutuv tasu (vaikimisi 0,01%).
+reviewed: false

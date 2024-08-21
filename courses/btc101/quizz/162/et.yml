@@ -1,0 +1,9 @@
+question: Mis on kaevurite roll Bitcoin protokollis?
+answer: Nad tagavad praeguse ja ajaloolise võrgu turvalisuse
+wrong_answers:
+  - Nad reguleerivad Bitcoini hinda
+  - Nad kontrollivad Bitcoini pakkumist
+  - Nad haldavad kasutajatevahelisi tehinguid
+explanation: >-
+  Kaevurid Bitcoin protokollis tagavad nii praeguse kui ka ajaloolise võrgu turvalisuse. Nad ei reguleeri Bitcoini hinda, ei kontrolli selle pakkumist ega halda kasutajatevahelisi tehinguid.
+reviewed: false

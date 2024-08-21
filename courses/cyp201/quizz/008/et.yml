@@ -1,0 +1,9 @@
+küsimus: Mis juhtub, kui krüptograafilisele räsifunktsioonile antakse isegi veidi erinev sisend?
+vastus: See muudab oluliselt lõplikku räsi.
+valed_vastused:
+  - See toodab sama räsi.
+  - See põhjustab räsifunktsiooni tõrke.
+  - See aeglustab räsi arvutamist.
+selgitus: |
+  Krüptograafilised räsifunktsioonid on kavandatud nii, et isegi väike kõrvalekalle sisendis muudab oluliselt lõplikku räsi. See omadus on räsifunktsiooni turvalisuse jaoks ülioluline, kuna see muudab äärmiselt raskeks leida erinevat sisendit, mis toodaks sama räsi.
+reviewed: false

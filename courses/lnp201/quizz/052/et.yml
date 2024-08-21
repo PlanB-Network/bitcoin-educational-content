@@ -1,0 +1,8 @@
+question: Kes otsustab marsruudi enne makse saatmist Lightning Network'is?
+answer: Saatja sõlm.
+wrong_answers:
+  - Saaja sõlm.
+  - Vahendaja sõlm.
+  - Võrk ise.
+explanation: |
+  Lightning Network'is on saatja sõlm see, kes otsustab marsruudi enne makse saatmist. Seega toimub parima marsruudi otsing ja saatja on ainus, kes teab marsruuti ja hinda.

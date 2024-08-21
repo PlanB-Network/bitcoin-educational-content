@@ -1,0 +1,11 @@
+question: Millised on efektiivse paroolilause tunnused Bitcoin'i rahakoti jaoks?
+answer: Pikk (20 kuni 40 tähemärki) ja mitmekesine (kasutades suurtähti, väiketähti, numbreid ja sümboleid)
+wrong_answers:
+  - Lühike ja lihtne
+  - Pikk ja lihtne
+  - Lühike ja mitmekesine
+explanation: |
+  Efektiivne paroolilause peaks olema pikk (20 kuni 40 tähemärki) ja mitmekesine
+  (kasutades suurtähti, väiketähti, numbreid ja sümboleid). See ei tohiks
+  olla otseselt seotud kasutajaga või nende keskkonnaga.
+reviewed: false

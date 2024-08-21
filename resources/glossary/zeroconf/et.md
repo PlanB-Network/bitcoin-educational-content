@@ -1,0 +1,5 @@
+---
+term: ZEROCONF
+---
+
+Riskantne praktika käsitleda Bitcoini tehingut kui lõplikku ja jätkata seotud tegevusega (näiteks kauba või teenuse müügiga) enne, kui tehing on tegelikult plokiahelas plokki lisatud. Kinnitamata tehingud ehk zeroconf on haavatavad topeltkulutamise rünnakutele, kuna neid ei ole veel pöördumatult pearaamatusse kantud. Zeroconfi võib kaaluda väga spetsiifilistes kontekstides, kus kiirus on prioriteet, nagu väikeste kaubandustehingute puhul või tehingute puhul tuttavate vahel. Sellistes olukordades peetakse topeltkulutamise riski sageli vastuvõetavaks võrreldes kiire tehingu eelisega. Siiski oluliste tehingute puhul, eriti kui saatja on tundmatu, on hädavajalik oodata mitu kinnitust enne tehingu pidamist muutumatuks. Üldiselt aktsepteeritud standard on oodata 6 kinnitust, mis tähendab, et pärast tehingut sisaldava ploki kaevandamist peab olema kaevandatud veel 5 lisaplokki, et pidada tehingut lõplikuks.

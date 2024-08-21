@@ -1,0 +1,5 @@
+---
+term: BIP9
+---
+
+Meetod pehmete kahvlite aktiveerimiseks Bitcoinis, mis pakuti välja 2015. aastal. See tutvustab süsteemi, kus kaevurid näitavad oma toetust pehmele kahvlile, kasutades blokkide versiooniväljal kindlat bitti. BIP9 alusel pakutud pehme kahvel aktiveeritakse, kui 95% blokkidest üle 2016 bloki perioodi (umbes kaks nädalat, mis langeb kokku iga raskusastme kohandamisega) annavad oma nõusoleku. Pärast seda lukustumist antakse kaevuritele ettevalmistusaeg uuenduse aktiveerimiseks. Kui 95% lävendit ei saavutata maksimaalselt ettenähtud aja jooksul, jäetakse pehme kahvel kõrvale. BIP9 võimaldab korraga mitme pehme kahvli märgistamist, kuid annab kaevuritele märkimisväärse võimu, kuna kui nõutud lävendit ei saavutata, jäetakse pehme kahvel lihtsalt kõrvale. See meetod kasutati algselt SegWiti jaoks, enne kui BIP148, mis soovitab UASF (kasutaja aktiveeritud pehme kahvel) kasutamist, mängu tuli ja sundis lukustumist BIP91 kaudu.

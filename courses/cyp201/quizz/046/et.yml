@@ -1,0 +1,11 @@
+question: Mis on lõpmatuspunktide tähtsus ECDSA algoritmis?
+answer: Kui arvutatud punkt P on lõpmatuspunkt, on allkiri kehtetu.
+wrong_answers:
+  - Kui arvutatud punkt P on lõpmatuspunkt, on allkiri kehtiv.
+  - Lõpmatuspunkti kasutatakse nonce arvutamiseks.
+  - Lõpmatuspunkti kasutatakse võtmete krüpteerimiseks.
+explanation: |
+  ECDSA algoritmis, kui arvutatud punkt P elliptilisel kõveral
+  on lõpmatuspunkt, peetakse allkirja kehtetuks. See on üks
+  kontrollidest, mida tehakse digitaalse allkirja kehtivuse tuvastamisel.
+reviewed: false

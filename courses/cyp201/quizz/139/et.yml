@@ -1,0 +1,10 @@
+question: Mida kasutatakse aadressi tuletamiseks HD rahakotis?
+answer: Kokkusurutud avalik võti
+wrong_answers:
+  - Mnemooniline fraas
+  - Paroolilause
+  - Rahakoti seeme
+explanation: |
+  Aadressi tuletamiseks HD rahakotis kasutatakse esmalt kokkusurutud avalikku võtit,
+  mis hajutatakse SHA256 ja RIPMD160 abil, seejärel arvutatakse kontrollsumma.
+reviewed: false

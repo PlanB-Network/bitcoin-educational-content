@@ -1,0 +1,12 @@
+question: Mis on Lightning autentimise eesmärk?
+answer: See genereerib iga teenuse jaoks erineva identifikaatori, ilma et oleks vaja
+  esitada e-posti aadressi või isiklikku teavet.
+wrong_answers:
+  - See kiirendab autentimisprotsessi.
+  - See võimaldab kasutada kõikide teenuste jaoks sama parooli.
+  - See saadab meeldetuletusi parooli vahetamiseks iga kuu.
+explanation: |
+  Lightning autentimine genereerib iga teenuse jaoks erineva identifikaatori,
+  ilma et oleks vaja esitada e-posti aadressi või isiklikku teavet. See võib parandada
+  privaatsust ja turvalisust, vähendades iga teenusega jagatava isikliku teabe hulka.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Kas fraasiparooli kasutamine Bitcoin'i rahakotis on kohustuslik?
+answer: Ei, selle kasutamine on valikuline
+wrong_answers:
+  - Jah, selle kasutamine on kohustuslik
+  - See sõltub rahakoti tüübist
+  - See sõltub rahakotis olevate bitcoinide hulgast
+explanation: |
+  Fraasiparool on lisaparool, mida saab integreerida Bitcoin'i rahakotti, et suurendada selle turvalisust. Selle kasutamine on valikuline ja jääb kasutaja otsustada.
+reviewed: false

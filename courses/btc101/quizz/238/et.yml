@@ -1,0 +1,10 @@
+küsimus: Mis on "raha voogedastuse" kontseptsioon Lightning Network'i kontekstis?
+vastus: Mikrotehingute tegemine iga minuti järel
+valevastused:
+  - Videosisu voogedastamine Bitcoini eest
+  - Audio sisu voogedastamine Bitcoini eest
+  - Bitcoini tehingute reaalajas voogedastamine
+selgitus: >
+  Lightning Network'i abil saame teha mikrotehinguid iga minuti järel,
+  mis avab ukse majandusmudelite katsetamiseks, kus tarbijad maksavad sisu eest
+  vastavalt sellele, mida nad tarbivad.

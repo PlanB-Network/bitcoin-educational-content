@@ -1,0 +1,11 @@
+question: Mis on pbkdf2 funktsiooni ülesanne seemne loomisel?
+answer: Seda kasutatakse koos mnemoonilise fraasi ja parooliga seemne saamiseks.
+wrong_answers:
+  - Seda kasutatakse peamise privaatvõtme genereerimiseks.
+  - Seda kasutatakse tuletatud võtmepaaride saamiseks.
+  - Seda kasutatakse peamise ahelakoodi loomiseks.
+explanation: |
+  pbkdf2 funktsioon (Password-Based Key Derivation Function 2) kasutatakse
+  koos mnemoonilise fraasi ja parooliga, et saada seeme, 512-bitine alfanumeeriline
+  jada, mis toimib alusena rahakoti võtmete tuletamiseks.
+reviewed: false

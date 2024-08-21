@@ -1,0 +1,10 @@
+question: Miks kasutatakse HMAC SHA-512 algoritmi peamise privaatvõtme ja peamise ahelakoodi loomisel?
+answer: Kuna SHA-512 funktsiooni ei olnud algselt Bitcoin'i protokollis rakendatud.
+wrong_answers:
+  - Kuna see on ainus algoritm, mis suudab genereerida 512-bitise numbri.
+  - Kuna see on kõige turvalisem algoritm.
+  - Kuna see on kõige lihtsamini kasutatav algoritm.
+explanation: |
+  Algselt ei olnud SHA-512 funktsiooni Bitcoin'i protokollis rakendatud,
+  mistõttu kasutatakse HMAC SHA-512. See algoritm nõuab tulemuse genereerimiseks sõnumit ja võtit.
+reviewed: false

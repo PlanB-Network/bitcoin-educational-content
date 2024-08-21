@@ -1,0 +1,10 @@
+question: Mis on avatud lähtekoodiga tarkvara kasutamise peamine eelis?
+answer: See võimaldab kontrollida, et ei oleks peidetud juurdepääsu teie isikuandmete varastamiseks.
+wrong_answers:
+  - See on alati tasuta.
+  - See on alati turvalisem kui suletud lähtekoodiga tarkvara.
+  - See on alati kasutajasõbralikum kui suletud lähtekoodiga tarkvara.
+explanation: |
+  Avatud lähtekoodiga tarkvara on tarkvara, mille kood on teada ja kõigile kättesaadav.
+  See võimaldab muuhulgas kontrollida, et ei oleks peidetud juurdepääsu teie isikuandmete varastamiseks. Siiski, see ei ole alati tasuta, turvalisem või kasutajasõbralikum kui suletud lähtekoodiga tarkvara.
+reviewed: false

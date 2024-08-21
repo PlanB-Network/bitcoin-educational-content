@@ -1,0 +1,12 @@
+question: Mis on BCH32 Bitcoini kontekstis?
+answer: See on Bitcoini-spetsiifiline base 32 variant.
+wrong_answers:
+  - See on Bitcoini-spetsiifiline base 64 variant.
+  - See on Bitcoini-spetsiifiline base 16 variant.
+  - See on Bitcoini-spetsiifiline base 2 variant.
+explanation: |
+  BCH32 on Bitcoini-spetsiifiline base 32 variant. Seda kasutatakse
+  
+  Bitcoini aadresside
+  
+  konstrueerimisel.

@@ -1,0 +1,9 @@
+küsimus: Kas Lightning maksekanali maht on fikseeritud?
+vastus: "Jah"
+valed_vastused:
+  - "Ei"
+  - Ainult mõnel juhul
+  - See sõltub Bitcoin'i võrgust
+selgitus: |
+  Kui kanal avatakse, määratakse sellele ette fikseeritud maht, mille kasutajad on eelnevalt kindlaks määranud.
+üle vaadatud: false

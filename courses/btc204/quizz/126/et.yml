@@ -1,0 +1,11 @@
+küsimus: Millist krüptograafilist meetodit saab kasutada müntide vahetamisel, et tagada vahetuse turvalisus ilma usalduse vajaduseta?
+
+vastus: Adapteerivad allkirjad
+
+valed_vastused:
+  - Sümmeetriline krüpteerimine
+  - ECDH
+  - Asümmeetriline krüpteerimine
+
+selgitus: |
+  Müntide vahetamiseks saab kasutada HTLC-sid või PTLC-sid. Need kaks protokolli töötavad sarnasel viisil, kasutades ajalukku süsteemi, mis tagab, et vahetus kas lõpeb edukalt või tühistatakse täielikult, mis kaitseb mõlema poole vahendite terviklikkust. Peamine erinevus HTLC-de ja PTLC-de vahel on see, et HTLC-d kasutavad tehingu turvamiseks hashe ja eelkujusid, samas kui PTLC-d kasutavad adapteerivaid allkirju.

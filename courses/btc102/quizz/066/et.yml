@@ -1,0 +1,9 @@
+küsimus: Millist rahakotti soovitatakse Hodleril kasutusele võtta?
+vastus: Külm rahakott nagu Bitbox02, Trezor või Ledger.
+valed_vastused:
+  - Kuum rahakoti mobiilirakendus.
+  - Füüsiline rahakott.
+  - Paberist rahakott.
+selgitus: |
+  Hodlerile on soovitatav alustada külma rahakotiga nagu Bitbox02, Trezor või Ledger. Need seadmed pakuvad pikas perspektiivis bitcoini jaoks turvalisust.
+reviewed: false

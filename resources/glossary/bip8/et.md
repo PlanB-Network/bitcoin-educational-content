@@ -1,0 +1,7 @@
+---
+term: BIP8
+---
+
+Arendatud SegWiti üle peetud arutelude järel, mis kasutas selle aktiveerimiseks BIP9, on BIP8 pehme kahvli (*soft fork*) aktiveerimise meetod, mis loomupäraselt sisaldab automaatset UASF-i (*User-Activated Soft Fork* ehk kasutaja aktiveeritud pehme kahvel) mehhanismi. Nagu BIP9, kasutab BIP8 kaevurite signaalimist, kuid lisab `LOT` (*Lock-in On Time out* ehk ajalõpu lukustumine) parameetri. Kui `LOT` on seatud `true` peale, siis signaalimisperioodi lõppedes ilma nõutud lävendi saavutamata, käivitatakse automaatselt UASF, sundides pehme kahvli aktiveerimist. See lähenemine sunnib kaevureid koostööd tegema või riskima kasutajate poolt peale surutud UASF-iga. Lisaks, erinevalt BIP9-st, määratleb BIP8 signaalimisperioodi ploki kõrguse alusel, kõrvaldades võimalikud manipulatsioonid läbi kaevurite hash määra. BIP8 lubab ka muutuva hääletusläve seadmist ja tutvustab parameetrit minimaalse ploki kõrguse jaoks aktiveerimisel, andes kaevuritele aega ettevalmistuseks ja nende nõusoleku signaalimiseks ilma tingimata valmis olema. Kui pehme kahvel on aktiveeritud BIP8 kaudu `LOT=true` parameetriga, kasutab see kaevurite vastu väga agressiivset meetodit, pannes nad kohe potentsiaalse UASF-i surve alla. Tõepoolest, see jätab neile ainult 2 valikut:
+* Olla koostööaldis ja seeläbi hõlbustada aktiveerimisprotsessi;
+* Olla mittekoostööaldis, sel juhul kasutajad automaatselt viivad läbi UASF-i, et peale suruda pehme kahvel.

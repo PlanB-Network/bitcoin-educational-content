@@ -1,0 +1,9 @@
+question: Mis on HD rahakoti hierarhia kõrgeim element?
+answer: Peamine privaatvõti ja peamine ahelakood
+wrong_answers:
+  - Mnemooniline fraas ja parool
+  - Alamvõtmed
+  - Rahakoti seeme
+explanation: |
+  Peamine privaatvõti ja peamine ahelakood on tuletatud rahakoti seemnest ja on HD rahakoti hierarhia kõrgeimad elemendid. Neid kasutatakse alamvõtmete tuletamiseks.
+reviewed: false

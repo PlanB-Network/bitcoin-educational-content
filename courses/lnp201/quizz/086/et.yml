@@ -1,0 +1,9 @@
+question: Mida peavad kaupmehed tegema, et hallata likviidsust Lightning Network'is?
+answer: Neil on vaja sissetulevat likviidsust teistelt sõlmedelt ja osalistelt
+wrong_answers:
+  - Nad peavad avama kanaleid
+  - Nad peavad hoidma likviidsuse tasakaalu mõlemal poolel
+  - Nad peavad kanaleid ostma
+explanation: |
+  Kaupmeeste jaoks Lightning Network'is tähendab likviidsuse haldamine sissetuleva likviidsuse vajadust teistelt sõlmedelt ja osalistelt. See tähendab, et neil peab olema ühendus teiste inimestega.
+reviewed: false

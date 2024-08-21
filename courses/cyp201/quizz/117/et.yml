@@ -1,0 +1,9 @@
+question: Milliseid matemaatilisi operatsioone kasutatakse avaliku võtme tuletamiseks lapse privaatvõtmest Bitcoinis?
+answer: Punkti liitmine ja kahekordistamine elliptilistel kõveratel.
+wrong_answers:
+  - Korrutamine ja jagamine paraboolsetel kõveratel.
+  - Lahutamine ja korrutamine hüperboolsetel kõveratel.
+  - Liitmine ja lahutamine lineaarsetel kõveratel.
+explanation: |
+  Bitcoinis tuletatakse avalik võti lapse privaatvõtmest kasutades matemaatilisi operatsioone nagu punkti liitmine ja kahekordistamine elliptilistel kõveratel. See on Bitcoin'i krüptograafilise turvalisuse fundamentaalne aspekt.
+reviewed: false

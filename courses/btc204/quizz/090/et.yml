@@ -1,0 +1,11 @@
+question: Mis teeb Whirlpooli remixid unikaalseks võrreldes teiste coinjoin implementatsioonidega?
+
+answer: Need on täiesti tasuta.
+
+wrong_answers:
+  - Need nõuavad ainult kaevandamistasude maksmist.
+  - Need on piiratud ühega kasutaja kohta.
+  - Need nõuavad ainult teenustasude maksmist.
+
+explanation: |
+  Whirlpooli remixid on 100% tasuta: ei nõuta lisateenustasusid ega kaevandamistasusid.

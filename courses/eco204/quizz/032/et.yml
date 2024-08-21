@@ -1,0 +1,11 @@
+question: Mis oli "Notgeldi" eesmärk Saksamaa majanduskriisi ajal?
+answer: See oli loodud leevendama üldkasutatava valuuta puudust.
+wrong_answers:
+  - Seda kasutati sõjakahjude hüvitamiseks.
+  - See oli protestivorm valitsuse vastu.
+  - See oli viis majanduse elavdamiseks.
+explanation: |
+  Silmitsi rahandus- ja majanduskriisiga, pöördus Saksamaa "Notgeldi" (hädaraha) poole.
+  Need märkused, mida trükkisid linnad või teatud ettevõtted, olid kavandatud
+  leevendama üldkasutatava valuuta puudust.
+reviewed: false

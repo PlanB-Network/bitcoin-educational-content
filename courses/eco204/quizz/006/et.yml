@@ -1,0 +1,12 @@
+question: Mis oli peamine põhjus hinnarevolutsiooniks 15. ja 17. sajandi vahel Euroopas?
+answer: Hinnarevolutsiooni peamiseks käivitajaks oli suur hulk väärtuslikke metalle, eriti kulda ja hõbedat, mis saabusid Ameerikast.
+wrong_answers:
+  - Hinnarevolutsiooni peamiseks käivitajaks oli suur hulk väärtuslikke metalle, eriti kulda ja hõbedat, mis viidi Ameerikasse.
+  - Hinnarevolutsiooni peamiseks käivitajaks oli suur hulk väärtuslikke metalle, eriti kulda ja hõbedat, mis saabusid Aasiast.
+  - Hinnarevolutsiooni peamiseks käivitajaks oli suur hulk väärtuslikke metalle, eriti kulda ja hõbedat, mis viidi Aasiasse.
+explanation: |
+  15. ja 17. sajandi vahelisel ajal tunnistas Euroopa märkimisväärset majandusnähtust,
+  mida tihti nimetatakse hinnarevolutsiooniks. See inflatsiooniperiood oli suuresti
+  käivitatud suure hulga väärtuslikke metalle, eriti kulda ja hõbedat, saabumisega
+  Ameerikast.
+reviewed: false

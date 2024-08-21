@@ -1,0 +1,12 @@
+question: Mis on krüptograafilise räsifunktsiooni lõppeesmärk?
+answer: Muuta suvalise suurusega informatsioon fikseeritud suurusega sõrmejäljeks.
+wrong_answers:
+  - Andmete krüpteerimine turvaliseks edastamiseks.
+  - Iga kasutaja jaoks unikaalse võtme genereerimine.
+  - Andmete kokku surumine efektiivseks salvestamiseks.
+explanation: |
+  Krüptograafilise räsifunktsiooni lõppeesmärk on muuta suvalise suurusega
+  informatsioon fikseeritud suurusega sõrmejäljeks. See sõrmejälg on unikaalne sisendi
+  andmetele, ja isegi väike muutus sisendis toob kaasa drastiliselt erineva
+  sõrmejälje.
+reviewed: false

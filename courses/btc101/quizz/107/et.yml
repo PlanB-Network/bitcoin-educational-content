@@ -1,0 +1,8 @@
+question: Mis on notari roll Bitcoin'i pärandi kontekstis?
+answer: Tagada maksudele vastavus
+wrong_answers:
+  - Hallata sinu bitcoine pärast sinu surma
+  - Luua sinu pärandiplaan
+  - Turvata sinu bitcoine
+explanation: |
+  Bitcoin'i pärandi kontekstis on oluline arutada bitcoini pärandamist notariga, et tagada maksudele vastavus.

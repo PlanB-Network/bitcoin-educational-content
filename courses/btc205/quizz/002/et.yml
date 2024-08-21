@@ -1,0 +1,9 @@
+question: Millised on kolm peatükis mainitud meetodit bitcoini ostmiseks?
+answer: Kasutades sularahaautomaate (ATM), vahetusi sõprade vahel ja interneti teel ostmine.
+wrong_answers:
+  - Kasutades krediitkaarte, vahetusi sõprade vahel ja interneti teel ostmine.
+  - Kasutades sularahaautomaate (ATM), vahetusi pereliikmete vahel ja interneti teel ostmine.
+  - Kasutades sularahaautomaate (ATM), vahetusi kolleegide vahel ja interneti teel ostmine.
+explanation: |
+  Peatükis mainitakse kolme bitcoini ostmise meetodit; kasutades sularahaautomaate (ATM), vahetusi sõprade vahel ja interneti teel ostmine.
+reviewed: false

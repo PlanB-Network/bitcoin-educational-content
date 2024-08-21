@@ -1,0 +1,9 @@
+question: Mis on kõvastunud indeksite eesmärk HD rahakoti struktuuris?
+answer: Neid kasutatakse teatud tuletiste jaoks koos apostroofiga
+wrong_answers:
+  - Neid kasutatakse kindla eesmärgiga alamvõtmete tuletamiseks
+  - Need võimaldavad eristada kontosid erinevate krüptovaluutade või võrkude jaoks
+  - Need vastavad välistele ja sisemistele ahelatele
+explanation: |
+  HD rahakoti struktuuris kasutatakse kõvastunud indekseid teatud tuletiste jaoks koos apostroofiga.
+reviewed: false

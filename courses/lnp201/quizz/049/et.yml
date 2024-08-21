@@ -1,0 +1,10 @@
+question: Mis on Lightning Network'i sõlmede roll tehingus?
+answer: Nad küsivad tasu nõustumise eest, et neid kasutatakse tehingu marsruutimiseks.
+wrong_answers:
+  - Nad hõlbustavad tehingut ilma igasuguste tasudeta.
+  - Nad algatavad tehingu.
+  - Nad on tehingu lõppsaajad.
+explanation: |
+  Lightning Network'is küsivad sõlmed tasu nõustumise eest, et neid kasutatakse
+  tehingu marsruutimiseks. See tasu erineb sõltuvalt sellest, kus likviidsus
+  asub.

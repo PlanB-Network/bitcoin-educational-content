@@ -1,0 +1,9 @@
+question: Kus bitcoine tegelikult hoitakse?
+answer: Bitcoin'i plokiahelas
+wrong_answers:
+  - Bitcoin'i rahakotis
+  - Seadmes, kus rahakott on paigaldatud
+  - Föderaalreservis
+explanation: |
+  Kuigi teie privaatvõtmed on hoitud teie rahakotis, hoitakse bitcoine tegelikult Bitcoin'i plokiahelas, mis on avalik jaotatud register Bitcoin'i võrdõiguslikus võrgustikus.
+reviewed: true

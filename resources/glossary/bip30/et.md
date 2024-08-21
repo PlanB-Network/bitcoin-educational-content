@@ -1,0 +1,5 @@
+---
+term: BIP30
+---
+
+Ettepanek täiustuseks, mis hõlmas pehmet kahvli (soft fork) rakendamist 15. märtsil 2012, et lahendada duplikaatsete tehingutunnuste probleemi. Enne BIP30 oli tehniliselt võimalik, et blockchainis eksisteeris kaks erinevat tehingut sama tehingutunnusega (TXID). See juhtus märkimisväärselt kaks korda coinbase tehingute puhul: üks blokis 91,880 omab sama TXID-d nagu coinbase blokis 91,722, ja teine blokis 91,842 omab sama TXID-d nagu coinbase blokis 91,812. BIP30 lahendas selle vea, kehtestades uue lihtsa reegli: ükski uus tehing ei tohi omada sama TXID-d kui eelnevalt salvestatud tehing, välja arvatud juhul, kui algne tehing oli täielikult kulutatud (st kõik selle väljundid olid kasutatud). See pehme kahvel aktiveeriti kasutades lipupäeva meetodit. Seega on see üks esimesi UASF-e.

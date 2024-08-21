@@ -1,0 +1,9 @@
+question: Mis on mobiilse rahakoti soovitatav kasutusviis?
+answer: Igapäevaste kulutuste jaoks
+wrong_answers:
+  - Pikaajaliste säästude jaoks
+  - Keskpikaks ajaks säästmiseks
+  - Suurte summade jaoks
+explanation: |
+  Mobiilset rahakotti soovitatakse igapäevaste kulutuste jaoks, kuna sellega on tehinguid lihtne sooritada. Siiski ei soovitata seda suurte summade hoidmiseks või pikaajaliseks säästmiseks, kuna see võib olla potentsiaalselt haavatav online-ohtude suhtes.
+reviewed: true

@@ -1,0 +1,10 @@
+küsimus: Mis versioon oli esimesel väljalastud Bitcoin tarkvaral?
+vastus: Bitcoin-0.1.0
+valed_vastused:
+  - Bitcoin-0.0.1
+  - Bitcoin-1.0.0
+  - Bitcoin-0.1.1
+selgitus: >-
+  Esimene väljalastud Bitcoin tarkvara oli Bitcoin-0.1.0. Selle teatas
+  Satoshi Nakamoto 8. jaanuaril 2009.
+üle vaadatud: true

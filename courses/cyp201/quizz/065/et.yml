@@ -1,0 +1,9 @@
+question: Mis on peamine eelis iga Bitcoin tehingu jaoks uue võtmepaari kasutamisel?
+answer: See suurendab turvalisust.
+wrong_answers:
+  - See suurendab kiirust.
+  - See suurendab anonüümsust.
+  - See suurendab seaduslikkust.
+explanation: |
+  Iga tehingu jaoks uue võtmepaari kasutamine suurendab Bitcoin tehingute turvalisust. Siiski muudab see nende varundamise keerukamaks ja säilitab konfidentsiaalsuse ainult osaliselt.
+reviewed: false

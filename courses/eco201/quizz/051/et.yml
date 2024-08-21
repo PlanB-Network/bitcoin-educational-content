@@ -1,0 +1,9 @@
+question: Mis on üks Austria majandusteooria põhiaksiomaatidest?
+answer: Üks põhiaksiomaatidest on positiivsed ajalised eelistused, mis põhinevad üksikisikute valikutel eelistada kaupu või teenuseid täna pigem kui homme.
+wrong_answers:
+  - Üks põhiaksiomaatidest on intressimäärade suvaline määramine.
+  - Üks põhiaksiomaatidest on toetumine empiirilistele andmetele.
+  - Üks põhiaksiomaatidest on ajutiste eksperimentide kasutamine hüpoteeside kinnitamiseks või ümberlükkamiseks.
+explanation: |
+  Austria majandusteoorias on üks põhiaksiomaatidest positiivsed ajalised eelistused, mis põhinevad üksikisikute valikutel eelistada kaupu või teenuseid täna pigem kui homme, tuleviku ebakindluse tõttu.
+reviewed: false

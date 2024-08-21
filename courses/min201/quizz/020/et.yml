@@ -1,0 +1,9 @@
+question: Mis on tulevikumure seoses Bitcoin'i plokkide ruumi kasutamisega?
+answer: Tulevikumure on see, et Lightning Network'i oodatava kasvu ja sellest tuleneva kanalite avamiste ning sulgemiste suurenemisega muutub ruum Bitcoin'i plokkides üha väärtuslikumaks.
+wrong_answers:
+  - Tulevikumure on see, et Bitcoin'i plokkide suurus muutub liiga suureks, et seda hallata.
+  - Tulevikumure on see, et Bitcoin'i plokkide arv ületab võrgu mahutavuse.
+  - Tulevikumure on see, et Bitcoin'i plokkide keerukus suureneb, muutes need raskesti töödeldavaks.
+explanation: |
+  Lightning Network'i oodatava kasvu ja sellest tuleneva kanalite avamiste ning sulgemiste suurenemisega muutub ruum Bitcoin'i plokkides üha väärtuslikumaks. See on viinud aruteludeni plokkide ruumi legitiimse kasutamise üle, muretsedes "spämmi" pärast plokiahelas, mis tuleneb tehingutest, mida peetakse mitteolulisteks.
+reviewed: false

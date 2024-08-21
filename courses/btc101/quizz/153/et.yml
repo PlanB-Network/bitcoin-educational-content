@@ -1,0 +1,13 @@
+question: Mis on raskusastme kohandamise eesmärk Bitcoin'i kaevandamisel?
+answer: See tasakaalustab ülemaailmset kaevandamismängu lähtudes osalejate arvust.
+wrong_answers:
+  - See suurendab kaevandamise eest saadavat tasu.
+  - See vähendab ringluses olevate bitcoinide arvu.
+  - See suurendab Bitcoin'i võrgu turvalisust.
+explanation: >-
+  Raskusastme kohandamine Bitcoin'i kaevandamisel on kavandatud tagamaks, et
+  bloki kaevandamiseks kuluv aeg püsiks ligikaudu konstantne, sõltumata
+  võrgu koguarvutusvõimsusest. See kohandab matemaatilise
+  probleemi raskusastet, mida kaevurid peavad lahendama, lähtudes kaevurite arvust,
+  kes võrgus osalevad.
+reviewed: false

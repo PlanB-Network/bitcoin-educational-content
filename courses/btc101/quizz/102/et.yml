@@ -1,0 +1,11 @@
+küsimus: Milline on üks meetod oma bitcoinide pikaajaliseks turvamiseks?
+vastus: Graveeri oma mnemooniline fraas vastupidavale materjalile nagu teras
+valevastused:
+  - Hoia neid digitaalses rahakotis
+  - Hoia neid vahetusplatvormil
+  - Jaga oma mnemoonilist fraasi usaldusväärse sõbraga
+selgitus: |
+  Oma mnemoonilise fraasi graveerimine vastupidavale materjalile nagu teras loob
+  füüsilise varukoopia sinu võtmetest, mis on vastupidav nii veekahjustustele kui ka tulele,
+  tagades seeläbi sinu bitcoinide pikaajalise turvalisuse.
+üle vaadatud: true

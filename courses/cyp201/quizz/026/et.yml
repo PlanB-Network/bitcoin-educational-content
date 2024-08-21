@@ -1,0 +1,9 @@
+question: Mis on Bitcoin'i väikseim ühik?
+answer: Satoshi
+wrong_answers:
+  - Bit
+  - Bait
+  - Münt
+explanation: |
+  Bitcoin'i süsteemis on arvestusühikuks bitcoin (tähelepanu väikesele algustähele "b"). See on jagatav kuni kaheksa kümnendkohani, kusjuures väikseim ühik on satoshi.
+reviewed: false

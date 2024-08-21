@@ -1,0 +1,10 @@
+question: Mis on peamine põhjus, miks sage Bitcoin'i kasutaja eelistaks igapäevaste tehingute jaoks Lightning Network'il põhinevat rahakotti?
+answer: See parandab Bitcoin'i tehingute tõhusust.
+wrong_answers:
+  - See suurendab Bitcoin'i väärtust.
+  - See võimaldab anonüümseid tehinguid.
+  - See pakub platvormi Bitcoin'iga kauplemiseks.
+explanation: |
+  Lightning Network on "kiht 2" makseprotokoll, mis toimib
+  plokiahela-põhise krüptoraha, nagu Bitcoin, peal. See on loodud selleks, et võimaldada kiireid, madala maksumusega tehinguid.
+reviewed: false

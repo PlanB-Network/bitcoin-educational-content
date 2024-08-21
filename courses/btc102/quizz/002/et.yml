@@ -1,0 +1,11 @@
+question: Mis on märkimisväärne näide Bitcoin'i kõvast hargnemisest?
+answer: Bitcoin Cash (BCH)
+wrong_answers:
+  - Ethereum (ETH)
+  - Litecoin (LTC)
+  - Ripple (XRP)
+explanation: |
+  Bitcoin on aja jooksul läbinud mitmeid kõvasid hargnemisi, andes tõuke erinevatele
+  algse valuuta alternatiivsetele versioonidele. Märkimisväärsed näited nendest kõrvalekalletest
+  hõlmavad Bitcoin Cash'i (BCH) ja Bitcoin Satoshi Vision'i (BSV).
+reviewed: false

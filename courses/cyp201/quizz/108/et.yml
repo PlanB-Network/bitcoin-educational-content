@@ -1,0 +1,10 @@
+question: Mis on esimene võti, mis tuletatakse seemnest HD rahakotis?
+answer: Peavõti on esimene võti, mis tuletatakse seemnest.
+wrong_answers:
+  - Lapsevõti on esimene võti, mis tuletatakse seemnest.
+  - Vanemvõti on esimene võti, mis tuletatakse seemnest.
+  - Privaatvõti on esimene võti, mis tuletatakse seemnest.
+explanation: |
+  Peavõti on esimene võti, mis tuletatakse seemnest HD rahakotis.
+
+  See võimaldab tuletada kõik teised lapse võtmepaarid.

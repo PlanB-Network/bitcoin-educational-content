@@ -1,0 +1,10 @@
+question: Mis juhtub, kui Bitcoin'i rahakoti paroolifraasi muudetakse?
+answer: Bitcoin'i rahakott muutub täiesti erinevaks
+wrong_answers:
+  - Bitcoin'i rahakott muutub kättesaamatuks
+  - Bitcoin'i rahakott jääb samaks
+  - Bitcoin'i rahakott kaotab kõik oma bitcoinid
+explanation: |
+  Kui paroolifraasi muudetakse, muutub Bitcoin'i rahakott täiesti erinevaks,
+  kuna paroolifraas mängib rolli kõikide
+  rahakoti võtmete konstrueerimisel ja arvutamisel.

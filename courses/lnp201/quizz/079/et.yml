@@ -1,0 +1,11 @@
+question: Mida tähendab 'bc' 'lnbc1m' sees Lightning Networki arvel?
+answer: Bitcoin põhivõrk
+wrong_answers:
+  - Bitcoin Cash
+  - Plokiahel
+  - Bitcoin Core
+explanation: |
+  Lightning Networki arvel tähendab 'bc' Bitcoin põhivõrku. See
+  näitab, et makse taotlus on mõeldud Bitcoin põhivõrgule, mitte testvõrgule
+  või mõnele teisele võrgule.
+reviewed: false

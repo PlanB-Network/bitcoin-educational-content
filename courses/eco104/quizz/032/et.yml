@@ -1,0 +1,11 @@
+question: Millises stsenaariumis võib stabiilne münt kaubelda üle oma seotud hinna?
+answer: Kui stabiilsete müntide nõudlus ületab vahetuse võimekuse
+wrong_answers:
+  - Kui stabiilse münti väljastaja külmutab vahendid
+  - Kui stabiilne münt on täielikult tagatud sularahareservidega
+  - Kui kasutajate poolt on tugev müügisurve
+explanation: |
+  Stabiilsed mündid võivad kaubelda üle oma seotud hinna, kui 
+  stabiilsete müntide nõudlus ületab vahetuse võimekuse 
+  rahuldada klientide nõudmisi, tüüpiliselt väiksematel vahetustel.
+reviewed: true

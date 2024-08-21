@@ -1,0 +1,11 @@
+question: Mis on üks küberturvalisuse aspektidest, mis nõuab regulaarset jälgimist?
+answer: Pidevalt arenevad ohud
+wrong_answers:
+  - Aktsiaturg
+  - Ilm
+  - Uudised
+explanation: |
+  Peatükk mainib, et küberturvalisuses nõuab pidevalt arenevate ohtude
+
+
+  regulaarset jälgimist.

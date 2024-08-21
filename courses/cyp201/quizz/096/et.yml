@@ -1,0 +1,10 @@
+question: Mis on laiendatud võtme suurus?
+answer: 82 baiti
+wrong_answers:
+  - 65 baiti
+  - 33 baiti
+  - 512 bitti
+explanation: |
+  Laiendatud võtmete suurus on 82 baiti ja nende prefiks on esitatud
+
+  baas 58 kaudu läbi heksadetsimaalseks teisenduse.

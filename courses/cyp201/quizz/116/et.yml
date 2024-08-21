@@ -1,0 +1,10 @@
+question: Mis on peamine põhjus, miks Bitcoin'i tehingutes kasutatakse avaliku võtme asemel vastuvõtu aadressi?
+answer: See vähendab avaliku võtme informatsiooni suurust.
+wrong_answers:
+  - See võimaldab aadressilt avalikule võtmele tagasi pöörduda.
+  - See säästab ruumi plokkides.
+  - See on lihtsam meelde jätta kui avalik võti.
+explanation: |
+  Peamine põhjus, miks Bitcoin'i tehingutes kasutatakse vastuvõtu aadressi avaliku võtme asemel, on avaliku võtme informatsiooni suuruse vähendamine,
+  mis algselt on 512 bitti. See ei ole mõeldud ruumi säästmiseks plokkides, vaid tehinguandmete haldamise lihtsustamiseks.
+reviewed: false

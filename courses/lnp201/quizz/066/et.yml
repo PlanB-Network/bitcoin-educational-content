@@ -1,0 +1,9 @@
+küsimus: Millist informatsiooni saab saaja saatjale edastada, et hõlbustada marsruudi otsingut Lightning Network'is?
+vastus: Summa, tema aadress, eelkujutise räsi ja viited tema kanalitele.
+valed_vastused:
+  - Saatja aadress, tehingu summa ja saaja privaatvõti.
+  - Saaja aadress, tehingu summa ja saatja privaatvõti.
+  - Tehingu summa, saaja aadress ja eelkujutise räsi.
+selgitus: |
+  Marsruudi otsingu hõlbustamiseks Lightning Network'is saab saaja saatjale edastada mitmeid informatsioonitükke. Nende hulka kuuluvad tehingu summa, saaja aadress, eelkujutise räsi (mida kasutatakse HTLC loomiseks) ja viited saaja kanalitele (mis aitavad tuvastada kanaleid piisava likviidsusega).
+üle vaadatud: false

@@ -1,0 +1,13 @@
+question: Millist tüüpi lapsvõtmepaare saab tuletada laiendatud privaatvõtmest?
+answer: Laiendatud privaatvõti võimaldab tuletada kõiki lapsvõtmeid, nii avalikke kui ka privaatseid, nii tavalises kui ka kõvastunud režiimis.
+wrong_answers:
+  - Laiendatud privaatvõti võimaldab tuletada ainult tavalisi lapsvõtmeid.
+  - Laiendatud privaatvõti võimaldab tuletada ainult kõvastunud lapsvõtmeid.
+  - Laiendatud privaatvõti ei võimalda tuletada ühtegi lapsvõtit.
+explanation: |
+  Laiendatud privaatvõti võimaldab tuletada kõiki lapsvõtmeid, nii
+
+  avalikke kui ka privaatseid, kas tavalises või kõvastunud režiimis. See erineb
+
+  laiendatud avalikust võtmest, mis võimaldab tuletada ainult tavalisi laps avalikke võtmeid.
+reviewed: false

@@ -1,0 +1,11 @@
+question: Mis on privaatvõtme turvalisuse tähtsus Bitcoin'i ökosüsteemis?
+answer: See tagab Bitcoin'i tehingute turvalisuse.
+wrong_answers:
+  - See tagab Bitcoin'i tehingute kiiruse.
+  - See tagab Bitcoin'i tehingute anonüümsuse.
+  - See tagab Bitcoin'i tehingute seaduslikkuse.
+explanation: |
+  Privaatvõtmed on nurgakivi, mis tagab Bitcoin'i tehingute turvalisuse.
+  Need peavad olema genereeritud tõeliselt juhuslikul viisil, et vältida igasugust
+  ennustatavusega seotud haavatavust.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Mis on kolm peamist sammu plokiahela analüüsis?
+answer: Plokiahela jälgimine, omaduste tuvastamine ja hüpoteeside tegemine.
+wrong_answers:
+  - Andmete kogumine, turvaline säilitamine ja aruandlus.
+  - Kasutajate tuvastamine, vahetuste reguleerimine ja pettuste vastu kaitsmine.
+  - Andmete kogumine, juhuslik valik ja denonsseerimine.
+explanation: |
+  Plokiahela analüüs hõlmab esmalt Bitcoin'i plokiahela andmetele juurdepääsu saamist, seejärel nende andmete omaduste tuvastamist ja lõpuks usutavate tõlgenduste tegemist.
+reviewed: false

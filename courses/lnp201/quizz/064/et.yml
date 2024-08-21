@@ -1,0 +1,10 @@
+question: Mis on Lightning Network?
+answer: Süsteem, mis kasutab HTLC-sid, et tagada turvaline ja tõendatav makse Bitcoin'i tehingutes.
+wrong_answers:
+  - Üks tüüpi krüptoraha.
+  - Andmete krüpteerimise meetod.
+  - Üks tüüpi plokiahel.
+explanation: |
+  Lightning Network on süsteem, mis kasutab Hash Time-Locked Contracts
+  (HTLC-sid) selleks, et tagada turvaline ja tõendatav makse Bitcoin'i tehingutes.
+reviewed: false

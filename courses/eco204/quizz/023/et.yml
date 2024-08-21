@@ -1,0 +1,12 @@
+question: Mis on termini "Burner-preneurs" tähendus hüperinflatsiooni kontekstis?
+answer: See viitab ettevõtjatele, kes õitsevad, laenates devalveeritud valuutat, et investeerida materiaalsetesse varadesse, ja seejärel tasuvad oma võlad veelgi enam devalveeritud valuutaga.
+wrong_answers:
+  - See viitab isikutele, kes põletavad kütte eesmärgil devalveeritud valuutat.
+  - See viitab isikutele, kes alustavad ettevõtteid, mis on seotud pangatähtede tootmisega.
+  - See viitab isikutele, kes kauplevad ebaseaduslikult välisvaluutadega.
+explanation: |
+  Hüperinflatsiooni perioodidel valuuta väärtus kahaneb kiiresti.
+  See loob võimalused ettevõtjatele, keda tihti nimetatakse "Burner-preneurs"iks, kes
+  laenavad devalveeritud valuutat, et investeerida materiaalsetesse varadesse, ja seejärel
+  tasuvad oma võlad veelgi enam devalveeritud valuutaga.
+reviewed: false

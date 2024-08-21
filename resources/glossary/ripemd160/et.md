@@ -1,0 +1,5 @@
+---
+term: RIPEMD160
+---
+
+Lühend terminist *Research and development in Advanced Communications technologies in Europe Integrity Primitives Evaluation Message Digest 160*. See on krüptograafiline räsifunktsioon, mis genereerib 160-bitise räsi mistahes sisendist. Seda kasutatakse Bitcoinis avaliku võtme teisendamiseks vastuvõtu aadressiks Legacy ja SegWit v0 standardite puhul (SegWit v1 puhul avalikku võtit ei räsita). Protsess hõlmab esmalt `SHA256` räsifunktsiooni rakendamist avalikule võtmele, millele järgneb `RIPEMD160` rakendamine tulemusele. Selle kahe erineva räsifunktsiooni kombinatsiooni nimetatakse Bitcoin'i kontekstis `HASH160`-ks. `RIPEMD160`-t kasutatakse ka deterministlikes ja hierarhilistes rahakottides võtmehaigutuste arvutamiseks. Konkreetselt kasutatakse `HASH160`-t vanemvõtme haigutuse arvutamiseks, mis seejärel lisatakse laiendatud võtme (xpub, xprv...) metaandmetesse.

@@ -1,0 +1,11 @@
+question: Kuidas Alice finantseerib kanalit, mida ta avab Bobiga?
+answer: Ta loob tehingu, millel on 2 UTXO-d väljundina.
+wrong_answers:
+  - Ta saadab raha otse Bobi avalikule aadressile.
+  - Ta loob tehingu, millel on 1 UTXO väljundina.
+  - Ta palub Bobil kanalit finantseerida.
+explanation: |
+  Kanali finantseerimiseks, mida ta avab Bobiga, loob Alice tehingu
+  kahe UTXO-ga väljundina; üks 2/2 mitme allkirjaga aadressile ja teine ühele oma vahetus
+  aadressidest.
+reviewed: false

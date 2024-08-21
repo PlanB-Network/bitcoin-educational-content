@@ -1,0 +1,11 @@
+question: Mis on Depth 2 eesmärk HD Wallet struktuuris?
+answer: See võimaldab eristada kontosid erinevate krüptovaluutade või võrkude jaoks
+wrong_answers:
+  - Seda kasutatakse konkreetse eesmärgi jaoks lastevõtmete tuletamiseks
+  - Seda kasutatakse standardse rahakoti saamisaadresside jaoks
+  - See vastab välistele ja sisemistele ahelatele
+explanation: |
+  HD Wallet struktuuris võimaldab Depth 2 eristada kontosid
+  erinevate krüptovaluutade või võrkude jaoks. See võimaldab rahakotti korraldada
+  erinevate rahastamisallikate põhjal.
+reviewed: false

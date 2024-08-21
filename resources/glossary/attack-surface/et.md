@@ -1,0 +1,5 @@
+---
+term: RÜNNAKPIND
+---
+
+Viitab kõikidele potentsiaalsetele sisenemispunktidele, mida ründaja võib ära kasutada süsteemi sisenemiseks. Rünnakpind hõlmab kõiki liideseid, teenuseid, porte, protokolle ja muid suhtlusvektoreid, mis võivad olla avatud. Laienenud rünnakpind suurendab haavatavusi, muutes süsteemi rünnakutele vastuvõtlikumaks. Rünnakpinna vähendamine on hea turvapraktika, mis hõlmab tarbetute teenuste keelamist. Näiteks Bitcoini kontekstis on riistvaralised rahakotid palju väiksema rünnakpinnaga kui tarkvaralised rahakotid. Tõepoolest, need isoleerivad võtmed seadmes, mis ei ole ühendatud Internetiga, omades väga vähe liideseid ja teenuseid. Seevastu tarkvaralised rahakotid on paigaldatud mitmekülgsetele arvutitele, millel on palju suurem rünnakpind tänu arvukatele funktsionaalsustele ja võrguühendustele, mida nad toetavad.

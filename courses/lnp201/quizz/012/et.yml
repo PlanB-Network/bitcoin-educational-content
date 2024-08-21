@@ -1,0 +1,9 @@
+question: Mis on mitme allkirja aadresside eesmärk Lightning Network'is?
+answer: Nad nõuavad kahe osapoole nõusolekut vahendite vabastamiseks.
+wrong_answers:
+  - Nad võimaldavad kiiremaid tehinguaegu.
+  - Nad pakuvad lisakaitset häkkimise vastu.
+  - Nad võimaldavad kasutada mitut krüptoraha.
+explanation: |
+  Mitme allkirja aadressid Lightning Network'is nõuavad kahe osapoole nõusolekut vahendite vabastamiseks. See on turvameede, mis tagab, et vahendeid saab liigutada ainult mõlema osapoole nõusolekul.
+reviewed: false

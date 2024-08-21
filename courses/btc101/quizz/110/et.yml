@@ -1,0 +1,9 @@
+question: Mis on Blockmit Bitcoin'i turvalisuse kontekstis?
+answer: Madala maksumusega lahendus oma mnemoonilise fraasi terasele graveerimiseks
+wrong_answers:
+  - Bitcoin'i rahakoti tüüp, mis võimaldab korraga allkirjastada mitu tehingut
+  - Madala maksumusega lahendus bitcoinide koduses kaevandamises
+  - Bitcoin'i rahakoti tüüp, mis nõuab bitcoinide kulutamiseks mitme allkirja olemasolu
+explanation: |
+  Blockmit on madala maksumusega lahendus oma mnemoonilise fraasi graveerimiseks vastupidavale materjalile nagu teras, tagades seeläbi oma bitcoinide pikaajalise turvalisuse.
+reviewed: true

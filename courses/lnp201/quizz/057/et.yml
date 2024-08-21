@@ -1,0 +1,10 @@
+question: Mis on HTLC-out eesmärk Alice'i kohustuslikus tehingus?
+answer: See esindab HTLC-d, mille Alice saadab saajale, Susie'le.
+wrong_answers:
+  - See esindab HTLC-d, mille Alice saab Bobilt.
+  - See esindab HTLC-d, mille Alice saadab Bobile.
+  - See esindab HTLC-d, mille Alice saab Susie'lt.
+explanation: |
+  Antud stsenaariumis saadab Alice HTLC Susie'le. See on esindatud
+  Alice'i kohustuslikus tehingus kui HTLC-out.
+reviewed: false

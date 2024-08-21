@@ -1,0 +1,9 @@
+question: Kas Bitcoin aadressi kasutamine säästab ruumi plokkides?
+answer: See ei vasta tõele
+wrong_answers:
+  - See vastab tõele
+  - Ainult juhul, kui aadress on kokku surutud
+  - Ainult juhul, kui aadress on räsitud
+explanation: |
+  Bitcoin aadressi kasutamine ei säästa ruumi plokkides. Peamine põhjus aadressi kasutamiseks on avaliku võtme informatsiooni suuruse vähendamine.
+reviewed: false

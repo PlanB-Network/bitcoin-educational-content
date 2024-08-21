@@ -1,0 +1,9 @@
+question: Mis on eelkujutise räsi roll Lightning Network'i marsruutimisprotsessis?
+answer: Seda kasutab saaja, et kätte saada HTLC-s lukustatud tehingusumma.
+wrong_answers:
+  - Seda kasutatakse tehinguandmete krüpteerimiseks.
+  - Seda kasutatakse tehingutasude arvutamiseks.
+  - Seda kasutatakse saaja aadressi kontrollimiseks.
+explanation: |
+  Lightning Network'is kasutab saaja eelkujutise räsi, et kätte saada HTLC-s lukustatud tehingusumma. Saatja annab eelkujutise räsi saajale, kes saab seda seejärel kasutada vahendite vabastamiseks.
+reviewed: false

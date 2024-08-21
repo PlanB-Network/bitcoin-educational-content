@@ -1,0 +1,8 @@
+question: Mis on SHA256 eeltöötluse teise faasi eesmärk?
+answer: Lisada algse sõnumi suuruse binaaresitus bittides
+wrong_answers:
+  - Lisada sisendile täitebitte
+  - Jaotada sisend erinevateks 512-bitisteks sõnumiblokkideks
+  - Teostada 64 arvutusringi kokkusurumisfunktsioonis
+explanation: |
+  SHA256 eeltöötluse teine faas hõlmab algse sõnumi suuruse binaaresituse lisamist bittides. See tehakse kasutades eelmisest sammust reserveeritud 64 bitti.

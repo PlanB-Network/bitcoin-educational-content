@@ -1,0 +1,9 @@
+question: Millised on kaks olulist elementi, millele HD rahakoti alus toetub?
+answer: Mnemooniline fraas ja paroolifraas.
+wrong_answers:
+  - Seemne ja peamise privaatvõtme.
+  - Peamise ahelakoodi ja seemne.
+  - Mnemooniline fraas ja peamine privaatvõti.
+explanation: |
+  HD rahakoti alus toetub kahele olulisele elemendile; mnemooniline fraas ja paroolifraas (valikuline lisaparool). Koos moodustavad nad seemne, 512-bitise alfanumeerilise jada, mis on aluseks rahakoti võtmete tuletamiseks.
+reviewed: false

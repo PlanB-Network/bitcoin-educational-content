@@ -1,0 +1,9 @@
+question: Mis on Lightning Network?
+answer: Kiht-2 lahendus Bitcoinile, mis võimaldab kiireid, madala maksumusega tehinguid
+wrong_answers:
+  - Digitaalse rahakoti tüüp Bitcoinide hoidmiseks
+  - Meetod Bitcoinide kaevandamiseks
+  - Kõikide tehingute kirje Bitcoin võrgustikus
+explanation: |
+  Lightning Network on kiht-2 lahendus Bitcoinile, mis võimaldab kiireid, madala maksumusega tehinguid. See toimib Bitcoin'i plokiahela peal ja võimaldab väljaspool ahelat toimuvaid tehinguid, mis on kiiremad ja odavamad kui ahelas toimuvad tehingud.
+reviewed: false

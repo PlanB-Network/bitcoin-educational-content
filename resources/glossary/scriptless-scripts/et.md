@@ -1,0 +1,5 @@
+---
+term: SCRIPTLESS SCRIPTS
+---
+
+Algselt arendas Andrew Poelstra välja kontseptsiooni, mis võimaldab nutilepingute täitmist ilma lepingu loogikat Bitcoin'i plokiahelas otseselt paljastamata. Nagu nimetus "scriptless scripts" (skriptivabad skriptid) viitab, põhineb idee skriptide (või lepingute) täitmisel ilma skripte otseselt kasutamata. Need lepingud kasutavad Schnorri allkirjade omadusi, mis võimaldavad *Adaptor Signatures* (adapterallkirjade) kasutamist, eriti *Atomic Swaps* (aatomvahetuste) läbiviimiseks. Lepingu tingimusi rakendatakse ja täidetakse off-chain ehk plokiahelast väljaspool asjaosaliste poolt, kes on ainsad, kes tingimustest teadlikud on. Erinevalt traditsioonilistest nutilepingutest, minimeerivad *Scriptless Scripts* oma jalajälge plokiahelas, vähendades seeläbi operatsioonikulu. Need lepingud on ka diskreetsemad kui traditsioonilised nutilepingud, mis jätavad plokiahelasse jälgi. Seega meenutavad nad tavalisi tehinguid, mis suurendab nende anonüümsuse hulka.

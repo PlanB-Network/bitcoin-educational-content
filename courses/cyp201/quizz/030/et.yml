@@ -1,0 +1,11 @@
+küsimus: Mis võrrand defineerib elliptilist kõverat?
+vastus: "y² = x³ + ax + b"
+valed_vastused:
+  - "y² = x³ + ax"
+  - "y² = x³ + b"
+  - "y² = x³ + ax - b"
+selgitus: |
+  "Elliptilist kõverat defineerib võrrand y² = x³ + ax + b.\
+  \ Igal selle kõvera punktil on eristuv sümmeetria, mis on võtmetähtsusega\
+  \ selle kasulikkuses krüptograafias."
+üle vaadatud: false

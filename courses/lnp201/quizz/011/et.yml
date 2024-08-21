@@ -1,0 +1,11 @@
+question: Mis on mitme allkirjaga aadress Lightning Network'i kontekstis?
+answer: Aadress, mis nõuab vahendite vabastamiseks kahte allkirja.
+wrong_answers:
+  - Aadress, mida saavad kasutada mitmed kasutajad.
+  - Aadress, mis suudab hoida mitut tüüpi krüptorahasid.
+  - Aadress, millele pääseb ligi mitmest seadmest.
+explanation: |
+  Lightning Network'is kasutatakse mitme allkirjaga aadresse. Need
+  aadressid
+  nõuavad vahendite vabastamiseks kahte allkirja ehk kahte privaatvõtit. See tähendab, et
+  kaks osapoolt peavad raha vabastamiseks nõustuma.

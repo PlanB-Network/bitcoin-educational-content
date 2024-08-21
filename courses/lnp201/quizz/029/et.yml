@@ -1,0 +1,8 @@
+küsimus: Kui palju SAT-i on Alicel näites alguses?
+vastus: 130,000 SAT.
+valed_vastused:
+  - 100,000 SAT.
+  - 90,000 SAT.
+  - 0 SAT.
+selgitus: |
+  Näites avab Alice kanali Bobiga, omades tema poolel 130,000 SAT-i.

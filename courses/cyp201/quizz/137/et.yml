@@ -1,0 +1,11 @@
+question: Mida kasutatakse kontrollsumma arvutamiseks vanema standardi puhul?
+answer: Kahekordne SHA256 räsistamine
+wrong_answers:
+  - BCH programm
+  - pbkdf2 funktsioon
+  - hmacha512 funktsioon
+explanation: |
+  Aadressi tuletamiseks räsistatakse kõigepealt kokkusurutud avalik võti kasutades
+  SHA256 ja RIPMD160, seejärel arvutatakse kontrollsumma. Kahekordset SHA256 räsistamist
+  kasutatakse kontrollsumma arvutamiseks vanema standardi puhul.
+reviewed: false

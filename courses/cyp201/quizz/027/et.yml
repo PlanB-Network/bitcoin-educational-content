@@ -1,0 +1,11 @@
+question: Mida hoiustab Bitcoin'i rahakott?
+answer: Privaatvõtmed, mis on vajalikud Bitcoin'ide omandiõiguse tõestamiseks
+wrong_answers:
+  - Bitcoin'id ise
+  - Avalikud võtmed, mis on vajalikud Bitcoin'ide omandiõiguse tõestamiseks
+  - Bitcoin'ide tehingute ajalugu
+explanation: |
+  Tegelikkuses hoiustab Bitcoin'i rahakott privaatvõtmeid, mis on vajalikud
+  Bitcoin'ide omandiõiguse tõestamiseks. Bitcoin'id ise on salvestatud plokiahelasse,
+  detsentraliseeritud andmebaasi, mis arhiveerib kõik tehingud.
+reviewed: false

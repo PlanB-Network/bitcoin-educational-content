@@ -1,0 +1,11 @@
+question: Miks on soovitatav kasutada Bitcoin'i tehingute jaoks avatud lähtekoodiga rahakotte?
+answer: Need võimaldavad juhusliku numbri genereerimise kontrollimist.
+wrong_answers:
+  - Need on odavamad kui suletud lähtekoodiga rahakotid.
+  - Need on kiiremad kui suletud lähtekoodiga rahakotid.
+  - Need on turvalisemad kui suletud lähtekoodiga rahakotid.
+explanation: |
+  Avatud lähtekoodiga rahakotid võimaldavad kasutajatel kontrollida juhusliku numbri
+  genereerimist, mis on oluline samm privaatvõtmete ja Bitcoin'i
+  tehingute turvalisuse tagamisel.
+reviewed: false

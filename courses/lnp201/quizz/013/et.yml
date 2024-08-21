@@ -1,0 +1,10 @@
+question: Mis on Lightning Network?
+answer: Kiht 2 protokoll Bitcoin'i peal, mis võimaldab kiiremaid tehinguid.
+wrong_answers:
+  - Üks tüüpi krüptoraha.
+  - Blockchain'i uurija.
+  - Digitaalne rahakott bitcoinide hoidmiseks.
+explanation: |
+  Lightning Network on kiht 2 protokoll Bitcoin'i peal. See on
+  loodud selleks, et võimaldada kiiremaid tehinguid, luues väljaspool ahelat maksekanaleid.
+reviewed: false

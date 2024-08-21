@@ -1,0 +1,9 @@
+küsimus: Mis on BTCMap?
+vastus: Platvorm, mis loetleb kõik kaupmehed, kes aktsepteerivad Bitcoini
+valed_vastused:
+  - Kaardi kõigist maailma Bitcoin'i kaevandustest
+  - Kaardi kõigist maailma Bitcoin'i vahetustest
+  - Kaardi kõigist maailma Bitcoin'i kasutajatest
+selgitus: >-
+  BTCMap on avatud lähtekoodiga ja koostööprojekt, mis loetleb kõik kaupmehed, kes aktsepteerivad Bitcoini, samuti erinevad Bitcoin'i kogukonnad üle maailma.
+üle vaadatud: false

@@ -1,0 +1,8 @@
+question: Mis on krüptograafiliste räsifunktsioonide roll allalaaditud tarkvara terviklikkuse kontrollimisel?
+answer: Nad toimivad digitaalsete valvuritena, kontrollides allalaaditud tarkvara terviklikkust.
+wrong_answers:
+  - Nad krüpteerivad tarkvara, et kaitsta seda häkkerite eest.
+  - Nad pakivad tarkvara kokku, et vähendada allalaadimisaega.
+  - Nad genereerivad iga allalaadimise jaoks unikaalse võtme.
+explanation: |
+  Krüptograafilised räsifunktsioonid mängivad olulist rolli allalaaditud tarkvara terviklikkuse kontrollimisel. Võrreldes allalaaditud faili räsi oodatava räsiga, saab kontrollida, et faili ei ole manipuleeritud.

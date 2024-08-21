@@ -1,0 +1,9 @@
+question: Mis on peamise ahelakoodi roll hierarhilises organisatsioonis ja HD rahakoti tuletamisel?
+answer: Sellel on oluline roll portfelli taastamisel seemnest.
+wrong_answers:
+  - Seda kasutatakse seemne genereerimiseks.
+  - Seda kasutatakse lastevõtmete tuletamiseks.
+  - Seda kasutatakse rahakoti krüpteerimiseks.
+explanation: |
+  Peamine ahelakood on hädavajalik portfelli taastamiseks seemnest.
+  Kõik samast seemnest tuletatud võtmed omavad sama peamist ahelakoodi.

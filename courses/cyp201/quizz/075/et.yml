@@ -1,0 +1,9 @@
+question: Millist funktsiooni kasutatakse seemne genereerimiseks paroolilausest Bitcoin'i rahakotis?
+answer: pbkdf2
+wrong_answers:
+  - sha256
+  - md5
+  - bcrypt
+explanation: |
+  Funktsiooni pbkdf2 kasutatakse seemne genereerimiseks paroolilausest Bitcoin'i rahakotis. See seeme võimaldab tuletada kõik rahakoti alamvõtmepaarid.
+reviewed: false

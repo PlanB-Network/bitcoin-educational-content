@@ -1,0 +1,10 @@
+question: Mille lühend on HMAC?
+answer: Räsi-põhine sõnumi autentimiskood
+wrong_answers:
+  - Hierarhiline peamise autentimiskood
+  - Räsitud peamise autentimiskood
+  - Hierarhiline sõnumi autentimiskood
+explanation: |
+  HMAC tähistab räsi-põhist sõnumi autentimiskoodi. See on sõnumi autentimiskoodi (MAC) tüüp, mis hõlmab krüptograafilist räsi funktsiooni ja
+  salajast krüptograafilist võtit.
+reviewed: false

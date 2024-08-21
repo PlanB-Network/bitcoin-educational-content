@@ -1,0 +1,11 @@
+question: Mis on maksimaalne Bitcoin'i kogus, mida saab korraga Lightning maksekanalis üle kanda?
+answer: Kasutajate poolt ette määratud fikseeritud maht
+wrong_answers:
+  - Kahe kasutaja poolt omatava Bitcoin'i kogusumma
+  - Kogu Lightning Network'is oleva Bitcoin'i kogusumma
+  - Kanalis seni tehtud tehingute kogusumma
+explanation: |
+  Kui Lightning maksekanal avatakse, määratakse sellele fikseeritud maht,
+  mis on kasutajate poolt ette määratud. See maht esindab maksimaalset Bitcoin'i kogust,
+  mida saab kanalis korraga üle kanda.
+reviewed: false

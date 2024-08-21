@@ -1,0 +1,9 @@
+question: Mis on keskpanga digitaalsete valuutade (CBDC-de) võimalik puudus?
+answer: Need võivad piirata üksikisikute finantsvabadust ja soodustada autoritaarseid kuritarvitusi.
+wrong_answers:
+  - Need võivad viia rahapakkumise vähenemiseni.
+  - Need võivad viia Bitcoini väärtuse languseni.
+  - Need võivad viia kulla väärtuse languseni.
+explanation: |
+  Keskpanga digitaalsed valuutad (CBDC-d) võivad potentsiaalselt piirata üksikisikute finantsvabadust ja soodustada autoritaarseid kuritarvitusi. See on seetõttu, et need võimaldaksid kesksemalt planeeritud majandust, andes keskpangale veelgi suurema kontrolli rahapakkumise üle.
+reviewed: true

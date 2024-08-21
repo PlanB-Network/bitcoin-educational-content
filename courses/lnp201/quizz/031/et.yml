@@ -1,0 +1,12 @@
+question: Mis on tagasivõtmisvõtme eesmärk kohustuslikus tehingus?
+answer: See võimaldab teisel poolel liigutada vahendeid ilma Timelocki lõppu ootamata, kui üks osapooltest üritab petta.
+wrong_answers:
+  - See võimaldab teisel poolel kohe oma raha tagasi saada.
+  - See võimaldab teisel poolel luua uue kohustusliku tehingu.
+  - See võimaldab teisel poolel pikendada Timelocki.
+explanation: |
+  Tagasivõtmisvõti on turvameede kohustuslikus tehingus.
+  Kui üks osapooltest üritab petta, avaldades vana seisundi, saab teine osapool
+  kasutada tagasivõtmisvõtit vahendite liigutamiseks ilma Timelocki lõppu ootamata,
+  tõhusalt petturit karistades.
+reviewed: false

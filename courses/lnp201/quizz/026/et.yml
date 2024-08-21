@@ -1,0 +1,9 @@
+question: Mis juhtub vahenditega Lightning Network'i ülekandes?
+answer: Vahendid ei liigu, kuid lõplik saldo uuendatakse.
+wrong_answers:
+  - Vahendid kantakse ühelt poolelt teisele.
+  - Vahendid lukustatakse kuni kanali sulgemiseni.
+  - Vahendid saadetakse Bitcoin'i võrku.
+explanation: |
+  Lightning Network'i ülekandes vahendid tegelikult ei liigu. Selle asemel uuendatakse lõplikku saldot allkirjastatud, kuid mitte avaldatud on-chain tehinguga.
+reviewed: false

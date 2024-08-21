@@ -1,0 +1,8 @@
+question: Mis on lisavõimalus Bitcoin'i rahakoti turvalisuse suurendamiseks?
+answer: Paroolilause lisamine.
+wrong_answers:
+  - Teise mäluabifraasi lisamine.
+  - Digiallkirja lisamine.
+  - Tehingute ajaloo lisamine.
+explanation: |
+  Paroolilause lisamine on lisavõimalus Bitcoin'i rahakoti turvalisuse suurendamiseks.

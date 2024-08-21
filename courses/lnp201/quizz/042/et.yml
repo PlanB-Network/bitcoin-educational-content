@@ -1,0 +1,9 @@
+question: Miks on sunnitud sulgemine tasude ja võimaliku kaevurite poolt valideerimise osas riskantsem?
+answer: Kuna tasud määrati ajal, mil tehing loodi minevikus, ja võrgustik on sellest ajast alates muutunud.
+wrong_answers:
+  - Kuna tasud on sunnitud sulgemisel alati kõrgemad.
+  - Kuna kaevurid on vähem tõenäoline, et valideerivad sunnitud sulgemist.
+  - Kuna tasud on sunnitud sulgemisel ettearvamatud.
+explanation: |
+  Sunnitud sulgemisel määrati tasud ajal, mil tehing loodi minevikus. Võrgustik on sellest ajast alates muutunud, nii et protokoll lähtub tasudest, mis on 5 korda kõrgemad kui need olid tehingu loomise hetkel. See teeb sunnitud sulgemise tasude ja võimaliku kaevurite poolt valideerimise osas riskantsemaks.
+reviewed: false

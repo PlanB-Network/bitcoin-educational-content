@@ -1,0 +1,9 @@
+question: Igaüks saab Bitcoin'i koodi kopeerida, muutes selle väärtusetuks, kas see on õige või vale?
+answer: Õige
+wrong_answers:
+  - Vale
+explanation: |
+  Kuigi Bitcoin'i kood on avatud lähtekoodiga ja seda saab kopeerida, 
+  ei tulene bitcoin'i väärtus selle koodist. Selle väärtus tuleneb 
+  selle kasutajate võrgustikust ning usaldusest ja vastuvõtust, mida see on aja jooksul üles ehitanud.
+reviewed: true

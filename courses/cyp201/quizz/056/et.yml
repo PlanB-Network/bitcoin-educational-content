@@ -1,0 +1,10 @@
+question: Mida tähendab seeme Bitcoin'i rahakotis?
+answer: See on juhuslik või pseudojuhuslik number, millest genereeritakse mitu võtit.
+wrong_answers:
+  - See on parool rahakotile juurdepääsuks.
+  - See on esimene Bitcoin'i tehing, mis on rahakotis registreeritud.
+  - See on rahakoti omaniku digitaalne allkiri.
+explanation: |
+  Seeme Bitcoin'i rahakotis peaks olema juhuslik või pseudojuhuslik
+  number. See seeme võimaldab genereerida mitu võtit, mis on olulised
+  krüptoraha omamiseks.

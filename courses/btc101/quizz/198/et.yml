@@ -1,0 +1,9 @@
+question: Mis on üks asi, mida peaksid omama enne Bitcoini ostmist?
+answer: Turvaline rahakott.
+wrong_answers:
+  - Füüsiline seif.
+  - Pangakonto.
+  - Krediitkaart.
+explanation: >-
+  Tekstis mainitakse, et enne Bitcoini ostmist peaksid omama turvalist rahakotti. See on koht, kus sa hoiad oma Bitcoini.
+reviewed: false

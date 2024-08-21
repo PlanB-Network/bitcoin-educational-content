@@ -1,0 +1,9 @@
+question: Mis on Hierarhiliste Deterministlike Rahakottide (HD rahakotid) peamine eelis?
+answer: Nad võimaldavad deterministlikku ja hierarhilist lastevõtmepaaride genereerimist ühest informatsioonitükist.
+wrong_answers:
+  - Nad võimaldavad mitme privaatvõtme genereerimist ühest avalikust võtmest.
+  - Nad võimaldavad mitme avaliku võtme genereerimist ühest privaatvõtmest.
+  - Nad võimaldavad mitme rahakoti genereerimist ühest võtmepaarist.
+explanation: |
+  HD rahakotid võimaldavad deterministlikku ja hierarhilist lastevõtmepaaride genereerimist ühest informatsioonitükist. See teeb võtmete genereerimise ja haldamise lihtsamaks, säilitades samal ajal kõrge turvalisuse taseme.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Mis on häkkerite esimene rünnakuvektor?
+answer: E-kirjad
+wrong_answers:
+  - Sotsiaalmeedia
+  - Internetipõhised ostukeskkonnad
+  - Pangaveebisaidid
+explanation: |
+  E-kirjad on häkkerite esimene rünnakuvektor. Nad kasutavad õngitsemiskatseid, et koguda tundlikku teavet nagu teie kasutajatunnused ja paroolid.
+reviewed: false

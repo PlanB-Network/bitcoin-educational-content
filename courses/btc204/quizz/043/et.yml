@@ -1,0 +1,9 @@
+question: Mis on peamine eelis online P2P vahetuste puhul võrreldes füüsiliste sularahatehingutega?
+answer: Vähem riske isiklikule turvalisusele.
+wrong_answers:
+  - Vähem varguse riske.
+  - Rohkem privaatsust ostjale.
+  - Madalamad tehingutasud.
+explanation: |
+  Online P2P vahetused jätab rohkem jälgi ja on rohkem avatud varguse riskidele kui sularahas P2P vahetused. Tehingutasude osas on need üldiselt võrdsed või isegi kõrgemad, eriti kui protsess nõuab mitut sammu. Siiski peitub online P2P vahetuste peamine eelis kasutajate isikliku turvalisuse riskide vähendamises võrreldes sularahatehingutega.
+reviewed: false

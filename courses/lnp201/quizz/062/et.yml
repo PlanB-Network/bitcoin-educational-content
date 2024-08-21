@@ -1,0 +1,8 @@
+question: Mis on räsi r roll HTLC-s?
+answer: See on lisatud arvele, mille Bob saadab Alice'ile ja mida kasutatakse HTLC seadistamiseks.
+wrong_answers:
+  - Seda kasutatakse salajase S arvutamiseks.
+  - Seda kasutatakse kanali sulgemiseks.
+  - Seda kasutatakse raha ülekandmiseks.
+explanation: |
+  Bob genereerib salajase S ja arvutab räsi r. See räsi lisatakse arvele, mille Bob saadab Alice'ile ja mida kasutatakse HTLC seadistamiseks.

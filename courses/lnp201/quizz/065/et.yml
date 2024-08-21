@@ -1,0 +1,10 @@
+question: Mis juhtub kanali koostööl põhineval sulgemisel?
+answer: Maksed katkestatakse ja HTLC-d lahendatakse, mis on üldiselt vähem kulukas.
+wrong_answers:
+  - Kõik käimasolevad HTLC tehingud avalikustatakse, mis võib muutuda väga kulukaks ja segaseks.
+  - Kanal suletakse kohe ilma lisasammudeta.
+  - Kõik käimasolevad HTLC tehingud tühistatakse.
+explanation: |
+  Koostööl põhineval sulgemisel maksed katkestatakse ja HTLC-d lahendatakse.
+  See on üldiselt vähem kulukas kui sunnitud sulgemine, kus kõik käimasolevad HTLC tehingud
+  avalikustatakse.

@@ -1,0 +1,13 @@
+question: Mis on peamine oht, mis on seotud aadressi korduvkasutusega?
+
+answer: See võimaldab erinevate tehingute ja ühise omandi vahel luua deterministlikke seoseid muret tekitavate UTXO-de osas.
+
+wrong_answers:
+  - See paljastab kasutaja IP-aadressi teistele võrgu osalistele tehingu valideerimise ajal.
+  - See vähendab digitaalallkirja mehhanismide efektiivsust, mis nõrgestab tehingute turvalisust.
+  - See toob kaasa tehingutasude suurenemise aadressi korduvkasutusest põhjustatud ummikute tõttu.
+
+explanation: |
+  Kui sama aadressi kasutatakse mitme tehingu jaoks, muutub võimalikuks järeldada, et kõik selle aadressiga seotud bitcoiinid kuuluvad samale isikule.
+
+reviewed: false

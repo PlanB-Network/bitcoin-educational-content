@@ -1,0 +1,11 @@
+question: Mis on üks põhjus, miks on oluline teha põhjalik uurimistöö enne stablecoini usaldamist?
+answer: Mõned stablecoinid on läbipaistvuse ja hoolsuse osas puudulikud
+wrong_answers:
+  - Stablecoinidel ei ole seotud riske
+  - Stablecoinid on alati täielikult reservidega tagatud
+  - Mõned stablecoinid on valitsuse poolt reguleeritud
+explanation: |
+  Kõik stablecoinid ei paku sama läbipaistvuse taset.
+  Seetõttu on oluline teha põhjalik uurimistöö
+  enne märkimisväärse varanduse usaldamist ükskõik millisele konkreetsele stablecoinile.
+reviewed: true

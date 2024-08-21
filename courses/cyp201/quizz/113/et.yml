@@ -1,0 +1,8 @@
+question: Millele vastab Sügavus 0 HD rahakoti struktuuris?
+answer: Peavõti ja peamine ahelakood
+wrong_answers:
+  - Lapsevõtmed ja lapse ahelakood
+  - Välised ja sisemised ahelad
+  - Vastuvõtvad aadressid tavalises rahakotis
+explanation: |
+  HD rahakoti struktuuris vastab Sügavus 0 peavõtmel ja peamisel ahelakoodil.

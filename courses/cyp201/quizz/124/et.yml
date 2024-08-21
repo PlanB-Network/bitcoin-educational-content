@@ -1,0 +1,11 @@
+question: Mis on vastuvõtvate aadresside peamine roll Bitcoin süsteemis?
+answer: Need võimaldavad mündil vahendeid vastu võtta.
+wrong_answers:
+  - Need võimaldavad mündilt vahendeid saata.
+  - Need võimaldavad uusi bitcoine kaevandada.
+  - Need võimaldavad tehinguid kontrollida.
+explanation: |
+  Vastuvõtvate aadresside peamine roll Bitcoin süsteemis on võimaldada
+  mündil vahendeid vastu võtta. Need genereeritakse privaat- ja avalike
+  võtmete paaridest.
+reviewed: false

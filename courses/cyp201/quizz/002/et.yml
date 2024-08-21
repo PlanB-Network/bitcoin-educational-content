@@ -1,0 +1,14 @@
+question: Millised neli omadust peab krüptograafiline räsifunktsioon omama, et seda peetaks turvaliseks?
+answer: Pöördumatuse, võltsimiskindluse, kokkupõrgete vastupanu ja teise eelkujutise vastupanu.
+wrong_answers:
+  - Kiirus, efektiivsus, kokkupõrgete vastupanu ja pöördumatus.
+  - Kokkupõrgete vastupanu, võltsimiskindlus, skaleeritavus ja pöördumatus.
+  - Pöördumatus, kokkupõrgete vastupanu, võltsimiskindlus ja kiirus.
+explanation: |
+  Turvalisel krüptograafilisel räsifunktsioonil peab olema neli põhilist tugevust;
+  pöördumatus
+  (tähendab, et algset sisendit ei ole võimalik väljundist tuletada), võltsimiskindlus
+  (tähendab, et on raske luua erinevat sisendit, mis annab sama väljundi), kokkupõrgete vastupanu
+  (tähendab, et on raske leida kahte erinevat sisendit, mis annavad sama väljundi) ja teise eelkujutise vastupanu
+  (tähendab, et on raske leida erinevat sisendit, mis annab sama väljundi kui antud sisend).
+reviewed: false

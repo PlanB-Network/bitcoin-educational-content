@@ -1,0 +1,14 @@
+question: Mis on täieliku KYC alternatiiv Šveitsis?
+answer: KYC light
+wrong_answers:
+  - KYC heavy
+  - KYC medium
+  - KYC dark
+explanation: |
+  Šveitsis on täieliku KYC alternatiiviks "KYC light", mis võimaldab
+
+
+  bitcoine osta ja müüa ilma identifitseerimist esitamata, niikaua
+
+
+  kui ostusumma ei ületa 1000 eurot päevas.

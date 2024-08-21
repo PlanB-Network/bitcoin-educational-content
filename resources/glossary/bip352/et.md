@@ -1,0 +1,7 @@
+---
+term: BIP352
+---
+
+Ettepanek täiustuseks Josibake ja Ruben Somsen poolt, mis tutvustab Vaikivaid Makseid, meetodit staatiliste Bitcoin aadresside kasutamiseks maksete vastuvõtmiseks ilma aadressi taaskasutuseta, suhtluseta ja ilma nähtava on-ahela seoseta erinevate maksete vahel. See tehnika kõrvaldab vajaduse genereerida iga tehingu jaoks uued, kasutamata vastuvõtu aadressid, vältides seeläbi tavalisi suhtlusi Bitcoinis, kus saaja peab maksjale andma uue aadressi.
+
+Selles süsteemis kasutab maksja saaja avalikku võtit ja oma privaatvõtit, et genereerida iga makse jaoks värske aadress. Ainult saaja, oma privaatvõtmega, suudab arvutada sellele aadressile vastava privaatvõtme. ECDH (*Elliptic-Curve Diffie-Hellman*), krüptograafiline võtmevahetuse algoritm, kasutatakse ühise saladuse loomiseks, mida seejärel kasutatakse vastuvõtu aadressi ja privaatvõtme tuletamiseks (ainult saaja poolel). Selleks, et tuvastada neile mõeldud Vaikivad Maksed, peavad saajad skaneerima plokiahelat ja uurima iga Vaikivate Maksete kriteeriumidele vastavat tehingut. Erinevalt BIP47-st, mis kasutab teavitustehingut maksekanali loomiseks, kõrvaldavad Vaikivad Maksed selle sammu, säästes tehingu. Siiski on kompromissiks see, et saaja peab skaneerima kõik potentsiaalsed tehingud, et määrata, rakendades ECDH-d, kas need on adresseeritud neile.

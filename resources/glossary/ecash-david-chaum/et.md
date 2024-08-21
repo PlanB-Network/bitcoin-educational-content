@@ -1,0 +1,5 @@
+---
+term: ECASH (DAVID CHAUM)
+---
+
+Protokoll, mille pakkus välja David Chaum 1982. aastal, on üks esimesi digitaalse valuuta süsteeme, mis on loodud kasutaja anonüümsuse säilitamiseks. See põhineb avaliku võtme krüptograafia põhimõtetel, et luua digitaalne valuuta, mida saab turvaliselt ja anonüümselt vahetada. eCash toimib, luues digitaalsed märgid, mille on allkirjastanud pank. Seega kujutab see endast hoiupankade evolutsiooni, olles samas mitte detsentraliseeritud. Tehingute käigus vahetatakse neid märke osapoolte vahel ilma kasutajate identiteeti paljastamata, säilitades seeläbi nende privaatsuse. eCashit peetakse krüptovaluutade eelkäijaks. See tuleb sageli esile aruteludes Bitcoin'i üle, mõned soovivad kasutada eCashiga sarnaseid süsteeme kui kihti peal. Tänapäeval on trend pigem nn "föderaalsete Chaumian" süsteemide poole nagu Fedimint.

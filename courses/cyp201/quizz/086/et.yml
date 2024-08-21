@@ -1,0 +1,11 @@
+question: Mis on HMAC SHA-512 algoritmi tulemus?
+answer: 512-bitine number, jagatud kaheks osaks; vasakpoolsed 256 bitti esindavad peamist privaatvõtit, samal ajal kui parempoolsed 256 bitti esindavad peamist ahelakoodi.
+wrong_answers:
+  - 256-bitine number, mis esindab peamist privaatvõtit.
+  - 256-bitine number, mis esindab peamist ahelakoodi.
+  - 512-bitine number, mis esindab seemet.
+explanation: |
+  HMAC SHA-512 tulemus on 512-bitine number, jagatud kaheks osaks;
+  vasakpoolsed 256 bitti esindavad peamist privaatvõtit, samal ajal kui parempoolsed 256
+  bitti esindavad peamist ahelakoodi.
+reviewed: false

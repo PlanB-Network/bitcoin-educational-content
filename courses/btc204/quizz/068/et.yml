@@ -1,0 +1,13 @@
+question: Kuidas saame minimeerida COIH mõjusid UTXOde konsolideerimisel?
+
+answer: Konsolideerides ainult samast allikast pärit UTXOsid.
+
+wrong_answers:
+  - Saates UTXOsid kolmandate osapoolte aadressidele.
+  - Valides UTXOsid juhuslikult, et vältida äratuntavaid mustreid.
+  - Konsolideerides UTXOsid madala aktiivsuse perioodidel.
+
+explanation: |
+  Kui leiad end olukorrast, kus on vaja oma bitcoine konsolideerida, eelista esmajärjekorras konsolideerida UTXOsid samast allikast.
+
+reviewed: false

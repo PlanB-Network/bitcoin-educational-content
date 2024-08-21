@@ -1,0 +1,11 @@
+question: Mis on digitaalallkirjade peamine eesmärk Bitcoin'i protokollis?
+answer: Tõestada konkreetse avaliku võtmega seotud privaatvõtme omamist
+wrong_answers:
+  - Tehinguandmete krüpteerimiseks
+  - Uute bitcoinide genereerimiseks
+  - Saatja isikusamasuse kontrollimiseks
+explanation: |
+  Bitcoin'i protokolli tuumikus kasutatakse digitaalallkirju matemaatiliste
+  tõestustena, mis demonstreerivad konkreetse avaliku võtmega seotud
+  privaatvõtme omamist.
+reviewed: false

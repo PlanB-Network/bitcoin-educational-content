@@ -1,0 +1,12 @@
+question: Mis on Lightning Network'i arve?
+answer: See on maksepäringu tihe esitus
+wrong_answers:
+  - See on kõikide Lightning Network'i tehingute kirje
+  - See on tööriist Bitcoini kaevandamiseks
+  - See on digitaalse rahakoti tüüp Bitcoini hoidmiseks
+explanation: |
+  Lightning Network'i arve on maksepäringu tihe esitus.
+  See sisaldab olulist informatsiooni nagu makstav summa, saaja, loomise
+  ajatempel ja potentsiaalselt muu informatsioon nagu eelkujutise räsi,
+  maksesaladus, marsruudi vihjed ja aegumisaeg.
+reviewed: false

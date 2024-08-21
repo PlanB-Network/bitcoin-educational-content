@@ -1,0 +1,9 @@
+question: Mis on UTXOd Bitcoini kontekstis?
+answer: Kulutamata Tehingu Väljundid
+wrong_answers:
+  - Jälitamatud Tehingu Väljundid
+  - Kinnitamata Tehingu Väljundid
+  - Kinnitamata Tehingu Väljundid
+explanation: |
+  UTXOd ehk "Kulutamata Tehingu Väljundid" esindavad kasutaja kulutamata tehingu väljundeid. Nende bitcoinide kulutamiseks peab isik tõestama omandiõigust privaatvõtmele, mis vastab igale UTXO-le seotud avalikule võtmele.
+reviewed: false

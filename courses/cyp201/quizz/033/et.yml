@@ -1,0 +1,11 @@
+question: Mis on skalaarne korrutamine punktiga n elliptilisel kõveral?
+answer: Võrdne selle punkti endaga n korda liitmisega
+wrong_answers:
+  - Võrdne selle punkti endast n korda lahutamisega
+  - Võrdne selle punkti endaga n korda korrutamisega
+  - Võrdne selle punkti endaga n korda jagamisega
+explanation: |
+  Skalaarne korrutamine punktiga n elliptilisel kõveral on võrdne
+  selle punkti endaga n korda liitmisega. See toiming on aluseks
+  avalike võtmete arvutamisel Bitcoin süsteemis.
+reviewed: false

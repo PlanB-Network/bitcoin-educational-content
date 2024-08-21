@@ -1,0 +1,9 @@
+question: Mis on Bitcoin'i avaliku võtme suurus?
+answer: 512-bitine number
+wrong_answers:
+  - 256-bitine number
+  - 128-bitine number
+  - 1024-bitine number
+explanation: |
+  Bitcoin süsteemis kasutatakse unikaalset privaatvõtit, et tuletada 512-bitine avalik võti.
+reviewed: false

@@ -1,0 +1,12 @@
+question: Mida tähendab eesliide 0,3 Bitcoin'i avalikus võtmes?
+answer: See näitab y väärtuse paarsust.
+wrong_answers:
+  - See näitab y väärtuse paarisust.
+  - See näitab avaliku võtme versiooni.
+  - See näitab avaliku võtme suurust.
+explanation: |
+  Näites, kus avalik võti kuulub Satoshi Nakamotole, näitab eesliide
+
+  0,3 y väärtuse paaritust. See on osa protsessist, kus Bitcoin'i avalik
+
+  võti tehakse kompaktsemaks.

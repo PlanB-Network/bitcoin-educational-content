@@ -1,0 +1,11 @@
+question: Mis on Bitcoin rahakoti peamine funktsioon?
+answer: See viitab privaatsete krüptograafiliste võtmete kogumile, mis on tuletatud ühest peamisest võtmest.
+wrong_answers:
+  - See on füüsiline seade, mis hoiustab krüptorahasid.
+  - See on digitaalne platvorm krüptorahade ostuks ja müügiks.
+  - See on tarkvara, mis kaevandab uusi bitcoine.
+explanation: |
+  Bitcoin rahakott, eriti Hierarhiline Deterministlik Rahakott (HD
+  rahakott), on privaatsete krüptograafiliste võtmete kogum, mis on tuletatud ühest peamisest
+  võtmest. Need võtmed on hädavajalikud krüptoraha omamiseks.
+reviewed: false

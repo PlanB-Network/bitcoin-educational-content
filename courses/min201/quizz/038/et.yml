@@ -1,0 +1,12 @@
+question: Mis on Attakai algatus Bitcoin'i kaevandamise kontekstis?
+answer: Algatus, mille eesmärk on muuta kaevandamine kättesaadavamaks ja vähem kahjulikuks, samal ajal võrgustikule kaasa aidates
+wrong_answers:
+  - Algatus, mille eesmärk on tõsta Bitcoin'i hinda
+  - Algatus, mille eesmärk on vähendada võrgu hashrate'i
+  - Algatus, mille eesmärk on keskendada hashimisvõimsus
+explanation: |
+  Attakai algatus püüab muuta Bitcoin'i kaevandamise kättesaadavamaks ja
+  vähem kahjulikuks. See julgustab inimesi kaevandama kodus taskukohasema riistvaraga
+  ja lahendustega, et vähendada müra saastet. Algatus rõhutab ka turvalisuse ja
+  detsentraliseerituse tähtsust Bitcoin'i võrgustikus.
+reviewed: false

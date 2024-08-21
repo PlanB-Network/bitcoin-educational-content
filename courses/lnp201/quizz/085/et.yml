@@ -1,0 +1,9 @@
+question: Mis on kõige lihtsam ülesanne likviidsuse haldamiseks Lightning Network'is?
+answer: Kanalite avamine ostjatele
+wrong_answers:
+  - Ühenduse loomine teiste sõlmedega kaupmeestele
+  - Likviidsuse tasakaalu hoidmine mõlemal poolel marsruutimissõlmede jaoks
+  - Kanalite ostmine kaupmeestele
+explanation: |
+  Ostjate jaoks Lightning Network'is on kõige lihtsam ülesanne likviidsuse haldamisel kanalite avamine. See annab neile väljamineva likviidsuse.
+reviewed: false

@@ -1,0 +1,12 @@
+question: Mis on sibulmarsruutimine Lightning Network'i kontekstis?
+answer: Meetod, kus vahendajad ei tea, kes on lõplik saaja ega kes maksu sooritab.
+wrong_answers:
+  - Meetod, kus vahendajad teavad nii saatjat kui ka saajat.
+  - Meetod, kus ainult saatja teab marsruuti ja hinda.
+  - Meetod, kus lõplik saaja otsustab marsruudi enne makse sooritamist.
+explanation: |
+  Sibulmarsruutimine Lightning Network'is on meetod, kus vahendajad
+  ei tea, kes on lõplik saaja ega kes maksu sooritab. Sõlm
+  peab hoidma võrgu plaani, et leida oma marsruut, kuid ükski vahendajatest
+  ei oma mingit informatsiooni.
+reviewed: false

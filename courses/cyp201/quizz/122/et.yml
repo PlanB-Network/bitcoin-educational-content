@@ -1,0 +1,8 @@
+question: Mida peavad Bitcoin'i kasutajad saatjale andma, kui nad soovivad bitcoine vastu võtta?
+answer: Vastuvõtu aadress
+wrong_answers:
+  - Oma avalik võti
+  - Oma privaatvõti
+  - Oma Bitcoin'i rahakoti parool
+explanation: |
+  Kui Bitcoin'i kasutaja soovib bitcoine vastu võtta, annavad nad saatjale vastuvõtu aadressi. See aadress on nende avaliku võtme räsi, mis on spetsiifilises formaadis.

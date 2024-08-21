@@ -1,0 +1,9 @@
+question: Mis juhtub, kui luuakse uus kohustuslik tehing?
+answer: Otsustatakse uus saladus ja luuakse uus tühistamisvõti ning eelmine kohustuslik tehing tuleb hävitada, andes üle tühistamissaladuse.
+wrong_answers:
+  - Eelmine kohustuslik tehing jäetakse varukoopiana alles.
+  - Luuakse uus ajalukk ja eelmine kohustuslik tehing uuendatakse.
+  - Eelmine kohustuslik tehing uuendatakse uue saladuse ja tühistamisvõtmega.
+explanation: |
+  Kui luuakse uus kohustuslik tehing, otsustatakse uus saladus ja uus tühistamisvõti. Eelmine kohustuslik tehing tuleb hävitada, andes üle tühistamissaladuse, et vältida olukorda, kus mõni osapool võib pettuse teel avaldada vana seisundi.
+reviewed: false

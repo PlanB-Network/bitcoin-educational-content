@@ -1,0 +1,11 @@
+question: Mis on soovitatav praktika, kui sisestate USB mälupulga oma arvutisse?
+answer: Ärge sisestage tundmatuid või kahtlaseid USB mälupulki.
+wrong_answers:
+  - Sisestage suvaline USB mälupulk ilma kontrollimata.
+  - Formaatige alati USB mälupulk enne selle sisestamist.
+  - Sisestage USB mälupulk ja seejärel kontrollige viiruste suhtes.
+explanation: |
+  Tundmatute või kahtlaste USB mälupulkade sisestamine võib süsteemi avada pahatahtlikele
+  programmidele, mis võivad automaatselt käivituda sisestamisel. USB mälupulga kontrollimine on
+  kasutu, kui see on juba sisestatud.
+reviewed: false

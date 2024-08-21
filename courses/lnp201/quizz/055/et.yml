@@ -1,0 +1,8 @@
+question: Mis juhtub kanali likviidsusega, kui tehing tehakse Lightning Network'is?
+answer: Likviidsus jaotatakse ümber marsruudil kahe osapoole vahel.
+wrong_answers:
+  - Likviidsus jääb samaks.
+  - Likviidsus kantakse üle teisele kanalile.
+  - Likviidsus suureneb.
+explanation: |
+  Lightning Network'is, kui tehing tehakse, jaotatakse likviidsus ümber marsruudil kahe osapoole vahel.

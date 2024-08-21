@@ -1,0 +1,5 @@
+---
+term: BITCOIN XT
+---
+
+Bitcoin XT on Bitcoin'i haru, mille 2015. aastal käivitas tuntud arendaja Mike Hearn ja mida toetas Gavin Andresen (Bitcoin'i endine peamine hooldaja pärast Satoshi lahkumist). Algselt oli Bitcoin XT Bitcoin'i protokolli rakendus, mis oli ühilduv Bitcoin Core'iga. Siiski, 2015. aasta augustis, võttis Bitcoin XT versioon 0.11A kasutusele BIP101: ettepaneku kõva haru (hard fork) kohta, et suurendada ploki suuruse limiiti 1 MB-lt 8 MB-le, plaaniga kahekordistada seda suurust iga kahe aasta tagant kuni jõudmiseni veidi üle 8 GB ploki kohta aastaks 2036. See ettepanek oli üks peamisi põhjuseid Blocksize Sõja tekkeks, mis toimus aastatel 2015 kuni 2017. Seda toetas oluline osa kaevuritest ja mõjukad ettevõtted nagu BitPay, Blockchain.info ja Circle. Lõpuks ei õnnestunud Bitcoin XT-l koguda piisavalt toetust kogukonnalt ja Mike Hearn teatas lõpuks oma lahkumisest kogukonnast ja oma bitcoinide müügist. Ta väljendas oma pettumust blogipostituses, märkides eriti, et Bitcoin oli ebaõnnestunud.

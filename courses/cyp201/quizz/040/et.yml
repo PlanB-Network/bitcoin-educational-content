@@ -1,0 +1,9 @@
+question: Mis on unikaalse nonce kasutamise tähtsus ECDSA algoritmis?
+answer: See aitab vältida turvarünnete toimumist.
+wrong_answers:
+  - See suurendab algoritmi kiirust.
+  - See vähendab arvutuslikku keerukust.
+  - See on algoritmi toimimiseks nõutav.
+explanation: |
+  Unikaalse nonce kasutamine ECDSA algoritmis on kriitilise tähtsusega turvalisuse säilitamiseks. Nonce'i taaskasutamine võib kaasa tuua haavatavusi, nagu näitas PlayStation 3 häkkimine, mis oli kompromiteeritud nonce'i taaskasutamise tõttu.
+reviewed: false

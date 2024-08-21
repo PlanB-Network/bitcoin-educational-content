@@ -1,0 +1,9 @@
+question: Mis on XOR operaatori roll SHA256 tihendusfunktsioonis?
+answer: Töödelda bitte ükshaaval vastavalt nende järjestusele
+wrong_answers:
+  - Tagastada 1 ainult siis, kui mõlemad operandid on võrdsed 1-ga
+  - Tagastada operandi vastandväärtus
+  - Nihutada bitte paremale valitud arvu võrra
+explanation: |
+  SHA256 tihendusfunktsioonis kasutatakse XOR operaatorit, et töödelda bitte ükshaaval vastavalt nende järjestusele. See toimub tõeväärtustabeli abil.
+reviewed: false

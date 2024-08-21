@@ -1,0 +1,9 @@
+question: Mis on Bitcoini skaleeritavuse probleem?
+answer: Väljakutse rakendada rahandussüsteemi, mis suudab pakkuda üha suurenevat arvu tehinguid sekundis, kui see on omaks võetud.
+wrong_answers:
+  - Raskused uute Bitcoinide kaevandamisel.
+  - Bitcoini hinna volatiilsus.
+  - Bitcoinile regulatsiooni puudumine.
+explanation: >-
+  Skaleeritavuse probleem viitab väljakutsele rakendada rahandussüsteemi, mis on võimeline pakkuma üha suurenevat arvu tehinguid sekundis, kui see on omaks võetud.
+reviewed: false

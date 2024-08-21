@@ -1,0 +1,9 @@
+question: Kuidas kaevurid oma töö eest tasu saavad?
+answer: Kaevurid saavad tasu läbi ploki sees sisalduva preemia ja tehingutasude kaudu.
+wrong_answers:
+  - Kaevurid saavad tasu Bitcoin võrgustikult.
+  - Kaevurid saavad oma töö eest fikseeritud palka.
+  - Kaevurid kompenseeritakse uute bitcoinidega.
+explanation: >-
+  Kui kaevur edukalt kaevandab ploki, saavad nad preemiana uusi bitcoine. See preemia on lisatud plokki, mille nad kaevandasid. Lisaks saavad kaevurid ka tehingutasusid tehingutelt, mis on plokis sisalduvad.
+reviewed: false

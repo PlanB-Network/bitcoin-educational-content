@@ -1,0 +1,9 @@
+question: Mis on ploki suurus Bitcoin'i protokollis?
+answer: 1MB
+wrong_answers:
+  - 0.5MB
+  - 2MB
+  - 3MB
+explanation: >-
+  Ploki suurus Bitcoin'i protokollis on 1MB.
+reviewed: false

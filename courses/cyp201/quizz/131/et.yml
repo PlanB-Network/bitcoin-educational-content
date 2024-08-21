@@ -1,0 +1,12 @@
+question: Mis on HRP laiendamise eesmärk Bitcoin aadressis?
+answer: See võimaldab eraldada iga tähemärgi viimased viis bitti, tugevdades seeläbi kontrollsummat.
+wrong_answers:
+  - See suurendab aadressi suurust.
+  - See krüpteerib aadressi turvalisuse eesmärgil.
+  - See võimaldab aadressis veaparandust.
+explanation: |
+  HRP laiendamine hõlmab iga tähe kodeerimist 2ndal alusel, võttes
+
+  iga tähemärgi esimesed kolm bitti, sisestades eraldaja 0 ja seejärel liites
+
+  iga tähemärgi viimased viis bitti. See protsess tugevdab kontrollsummat.

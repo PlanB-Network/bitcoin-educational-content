@@ -1,0 +1,8 @@
+question: Mis muudab võimsuse jaotust Lightningi maksekanalis?
+answer: Tehingud kanali sees
+wrong_answers:
+  - Muutused Bitcoini vahetuskursis
+  - Muutused kanali koguvõimsuses
+  - Muutused Bitcoin võrgus
+explanation: |
+  Tehingud kanali sees ei muuda kanali koguvõimsust, kuid need muudavad selle võimsuse jaotust kasutajate vahel.

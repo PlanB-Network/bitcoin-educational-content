@@ -1,0 +1,9 @@
+question: Miks on neitsilikud bitcoiinid eriti hinnas suurte institutsionaalsete mängijate seas?
+answer: Nad saavad tagada oma digitaalvarade legitiimsuse reguleerivatele asutustele.
+wrong_answers:
+  - Nad saavad neid müüa kõrgema hinnaga.
+  - Nad saavad neid kasutada ebaseaduslikeks tegevusteks.
+  - Nad saavad vältida nende pealt makse maksmast.
+explanation: |
+  Neitsilikud bitcoiinid on eriti hinnas suurte institutsionaalsete mängijate seas, kuna nad saavad tagada oma digitaalvarade legitiimsuse reguleerivatele asutustele. Neid bitcoiine ei ole kunagi "määritud", pakkudes teatud garantiid tagasilükkamise vastu regulaatorite või suurte vahetusplatvormide poolt.
+reviewed: false

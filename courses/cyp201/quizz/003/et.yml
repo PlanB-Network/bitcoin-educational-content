@@ -1,0 +1,11 @@
+question: Miks peetakse SHA0, SHA1 ja MD5 vananenuks räsifunktsioonideks?
+answer: Nad on kaotanud oma vastupanuvõime kokkupõrgetele.
+wrong_answers:
+  - Nad on liiga aeglased arvutamiseks.
+  - Nad toodavad liiga suuri sõrmejälgi.
+  - Nad ei ole pöördumatud.
+explanation: |
+  SHA0, SHA1 ja MD5 peetakse vananenuks räsifunktsioonideks, kuna nad
+  on kaotanud oma vastupanuvõime kokkupõrgetele. See tähendab, et suhteliselt kergesti on
+  võimalik leida kaks erinevat sisendit, mis toodavad sama väljundi, mis on suur turvarisk.
+reviewed: false

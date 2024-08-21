@@ -1,0 +1,12 @@
+question: Mis on BIP32 tähtsus Bitcoin'i ökosüsteemis?
+answer: See muutis radikaalselt võtmete genereerimise ja salvestamise viisi, tutvustades deterministlikult ja hierarhiliselt tuletatud võtmete kontseptsiooni.
+wrong_answers:
+  - See tutvustas 24-sõnalist mnemoonilist fraasi.
+  - See tegi ettepaneku lisada täiendav parool, et tugevdada üksikute võtmete turvalisust.
+  - See standardiseeris HD rahakottide struktuuri ja hierarhia.
+explanation: |
+  BIP32, mis käivitati 2012. aastal, muutis radikaalselt viisi, kuidas neid võtmeid genereeritakse
+  ja salvestatakse, tutvustades deterministlikult ja hierarhiliselt tuletatud
+  võtmete kontseptsiooni. See lihtsustab oluliselt nende võtmete salvestamise protsessi, säilitades
+  samal ajal nende turvalisuse taseme.
+reviewed: false

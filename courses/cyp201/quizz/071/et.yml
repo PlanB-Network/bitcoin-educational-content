@@ -1,0 +1,9 @@
+question: Kuidas muudetakse bitid fraasideks Bitcoin'i rahakoti mnemoonilise fraasi loomisel?
+answer: Iga segment seostatakse sõnaga 2048 sõna nimekirjast.
+wrong_answers:
+  - Iga bitt seostatakse sõnaga 2048 sõna nimekirjast.
+  - Iga segment seostatakse sõnaga 1024 sõna nimekirjast.
+  - Iga bitt seostatakse sõnaga 1024 sõna nimekirjast.
+explanation: |
+  Bitide muutmiseks fraasideks seostatakse iga segment sõnaga 2048 sõna nimekirjast.
+reviewed: false

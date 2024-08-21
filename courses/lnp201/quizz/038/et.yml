@@ -1,0 +1,10 @@
+küsimus: Kes loob tehingu Timelockiga?
+vastus: Isik, kes saadab raha.
+valed_vastused:
+  - Isik, kes saab raha.
+  - Mõlemad osapooled loovad tehingu Timelockiga.
+  - Kumbki osapool ei loo tehingut Timelockiga.
+selgitus: |
+  Isik, kes saadab raha, loob tehingu Timelockiga.
+  See takistab neil kohe oma raha tagasi saamast.
+üle vaadatud: false

@@ -1,0 +1,10 @@
+question: Mida teeb Alice pärast Bobi avaliku aadressi saamist?
+answer: Ta loob 2/2 multi-sig aadressi.
+wrong_answers:
+  - Ta saadab raha Bobi avalikule aadressile.
+  - Ta avaldab tehingu Bitcoin'i võrgus.
+  - Ta küsib Bobilt tema allkirja.
+explanation: |
+  Pärast Bobi avaliku aadressi saamist kasutab Alice seda koos oma enda
+  avaliku aadressiga, et luua 2/2 multi-sig aadress. See on aadress, millele ta
+  saadab raha kanali avamiseks.

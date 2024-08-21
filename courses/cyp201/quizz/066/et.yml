@@ -1,0 +1,8 @@
+question: Mis on kontrollsumma eesmärk mnemoonilise fraasi genereerimisel Bitcoin'i rahakotile?
+answer: See tagab taastefraasi täpsuse kontrollimise.
+wrong_answers:
+  - See genereerib rahakoti entroopia.
+  - See määrab taastefraasi sõnade arvu.
+  - See krüpteerib taastefraasi lisaturvalisuse tagamiseks.
+explanation: |
+  Kontrollsumma saadakse entroopia läbiviimisel SHA256 funktsiooni kaudu ja esimese 8 biti hash'i võtmisega. Ilma selle kontrollsummateta võib fraasis esinev viga põhjustada erineva rahakoti loomise ja seega vahendite kaotuse.

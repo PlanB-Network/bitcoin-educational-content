@@ -1,0 +1,7 @@
+---
+term: KÜLM RAHAKOTT
+---
+
+Sünonüüm "riistvara rahakotile". Riistvara rahakott ehk füüsiline rahakott on elektrooniline seade, mis on pühendatud Bitcoin'i rahakoti privaatvõtmete turvalisusele ja haldamisele. Need seadmed on loodud pakkuma suuremat turvalisust võrreldes tarkvara rahakottidega, mis asuvad otse internetiga ühendatud mitmekülgsetes masinates. Riistvara rahakotid säilitavad mnemoonilist fraasi offline režiimis, seadmel, millel on minimaalne rünnaku pind, mis isoleerib selle potentsiaalselt haavatavatest keskkondadest. Kui tehing tehakse, allkirjastab riistvara rahakott tehingu seadme sees, ilma privaatvõtit väliselt paljastamata. Kui tehing on allkirjastatud, edastatakse see Bitcoin'i võrku, et seda kinnitataks ja lisataks plokiahelasse. Riistvara rahakottide seas populaarsemad mudelid on: Ledger, Trezor, Coldcard, Passport, BitBox, Satochip, Jade ja SeedSigner (see loetelu ei ole ammendav).
+
+> ► *Terminit riistvara rahakott võib prantsuse keeles väljendada erinevalt. Mõned viitavad sellele kui "portefeuille matériel" või "portefeuille froid". Teised eelistavad terminit "périphérique de signature" ehk inglise keeles "signing device", et vältida muljet, nagu asuksid bitcoini'd füüsiliselt rahakotis.*

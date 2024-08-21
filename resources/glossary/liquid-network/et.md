@@ -1,0 +1,5 @@
+---
+term: LIQUID NETWORK
+---
+
+Bitcoin'i kõrvalahel, mille on välja töötanud Blockstream, et pakkuda kiireid ja konfidentsiaalseid tehinguid. Erinevalt Bitcoin'i peamisest plokiahelast kasutab Liquid konsensuse mehhanismi, mis põhineb föderatsioonil (valitud rühm sõlmeoperaatoreid, tavaliselt Bitcoin'iga seotud ettevõtted), asendades seeläbi Nakamoto konsensuse mehhanismi. See lähenemine kiirendab oluliselt tehinguid ja vähendab kulusid, pakkudes samal ajal rohkem arenenud funktsioone. Liquid võimaldab ka digitaalvarade, sealhulgas teisi krüptorahasid esindavate tokenite, emiteerimist. Liquidis olevaid Bitcoine, tuntud kui L-BTC, seotakse BTC-ga kahepoolse kinnitussüsteemi kaudu, mis põhineb föderatsiooni osal. Selle föderatsiooni osalejaid nimetatakse "funktsionäärideks" ja nad võivad tegutseda nii "valvuritena" kui ka "plokkide allkirjastajatena".

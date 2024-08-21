@@ -1,0 +1,11 @@
+question: Mis on tehingute limiit ilma identifitseerimiseta sularahaautomaatides Prantsusmaal?
+answer: 500 eurot
+wrong_answers:
+  - 1000 eurot
+  - 2000 eurot
+  - 3000 eurot
+explanation: |
+  Sularahaautomaadid Prantsusmaal on reguleeritud ja nõuavad tehingute puhul
+
+
+  üle 500 euro identifitseerimist.

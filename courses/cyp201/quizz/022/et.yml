@@ -1,0 +1,9 @@
+question: Mis on Bitcoini protokolli turvamehhanismi kaks peamist komponenti?
+answer: HMAC ja PBKDF2 tuletusalgoritmid
+wrong_answers:
+  - SHA-256 ja RIPEMD-160 räsifunktsioonid
+  - Elliptilise kõvera digitaalallkirja algoritm (ECDSA) ja SHA-256 räsifunktsioon
+  - RSA ja Diffie-Hellmani võtmevahetus
+explanation: |
+  HMAC ja PBKDF2 tuletusalgoritmid on Bitcoini protokolli turvamehhanismi võtmekomponendid. Need takistavad mitmesuguseid potentsiaalseid rünnakuid ja tagavad Bitcoini rahakottide terviklikkuse.
+reviewed: false

@@ -1,0 +1,10 @@
+küsimus: Kuidas võib Lightning Network muuta olemasolevaid ärimudeleid videomängude tööstuses?
+vastus: See võimaldab mängijatel mängides panustada väga väikeseid rahasummasid
+valed_vastused:
+  - See võimaldab mängijatel mängides kaevandada Bitcoini
+  - See võimaldab mänguarendajatel aktsepteerida Bitcoini oma mängude eest maksmisel
+  - See võimaldab mängijatel osta mängusiseseid esemeid Bitcoiniga
+selgitus: >-
+  Lightning Network võimaldab mängijatel mängides panustada väga väikeseid rahasummasid,
+  näiteks mõned satoshid. See võimaldab luua panuse, mis ergutab konkurentsi, samal ajal oluliselt suurendades
+  bottide kasutuselevõtu kulu.

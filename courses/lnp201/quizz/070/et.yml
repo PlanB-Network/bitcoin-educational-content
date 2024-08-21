@@ -1,0 +1,13 @@
+question: Mis on tehingute suunamise eesmärk Lightning Network'is?
+answer: Optimeerida tehingute kiirust, turvalisust ja efektiivsust, säilitades samal ajal kasutaja privaatsuse.
+wrong_answers:
+  - Suurendada plokiahela suurust.
+  - Vähendada tehingute kiirust.
+  - Ohustada kasutaja privaatsust.
+explanation: |
+  Tehingute suunamise eesmärk Lightning Network'is on optimeerida
+  tehingute kiirust, turvalisust ja efektiivsust. See saavutatakse arvestades
+  erinevaid faktoreid nagu tasud, HTLC aegumisaeg, vahendavate sõlmede arv,
+  ja juhuslikkuse faktor. Samal ajal on süsteem kavandatud säilitama kasutaja
+  privaatsust, mitte avaldades täpset likviidsuse jaotust.
+reviewed: false

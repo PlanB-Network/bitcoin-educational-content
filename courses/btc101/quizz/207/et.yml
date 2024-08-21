@@ -1,0 +1,9 @@
+question: Mis on üks potentsiaalsetest riskidest, kui jätta oma Bitcoin vahetusplatvormile?
+answer: Häkkimise ja vahendite blokeerimise riskid.
+wrong_answers:
+  - Risk, et platvorm tõstab Bitcoini hinda.
+  - Risk, et platvorm kontrollib Bitcoini pakkumist.
+  - Risk, et platvorm takistab sul rohkem Bitcoini ostma.
+explanation: >-
+  Tekst mainib, et oma Bitcoini jätmine vahetusplatvormile võib sind
+  avada häkkimise ja vahendite blokeerimise riskidele.

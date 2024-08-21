@@ -1,0 +1,10 @@
+question:
+  Kas on võimalik taastada Bitcoin aadressist avalik võti või avalikust võtmest privaatvõti?
+answer: See on väär
+wrong_answers:
+  - See on tõsi
+  - Ainult avalikust võtmest privaatvõtmeni
+  - Ainult aadressilt avalikule võtmele
+explanation: |
+  Bitcoinis ei ole võimalik taastada aadressist avalikku võtit ega avalikust võtmest privaatvõtit. See on Bitcoin'i krüptograafilise turvalisuse võtmeaspekt. 
+reviewed: false

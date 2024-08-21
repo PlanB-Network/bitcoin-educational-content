@@ -1,0 +1,7 @@
+---
+term: SEGWIT
+---
+
+SegWit, lühend sõnadest "Segregated Witness" (eraldiseisev tunnistaja), on Bitcoin'i protokolli uuendus, mis tutvustati augustis 2017. Selle eesmärk on lahendada mitmeid tehnilisi probleeme, sealhulgas võrgu tehingute mahutavuse probleem, tehingute muudetavuse küsimus ja tulevaste protokolli muudatuste hõlbustamine.
+
+See pehme kahvel muudab tehingute struktuuri, viies allkirjade andmed eraldi kataloogi. Konkreetselt SegWit'i puhul eemaldatakse allkirjad põhiblokist ja sisestatakse need eraldi andmestruktuuri bloki lõppu, mida tuntakse tunnistajatena. See eraldamine võimaldab suurendada iga bloki mahutavust ilma maksimaalset bloki suurust ise muutmata, mis Bitcoin'is on 1 MB. See muudatus lahendab ka tehingute muudetavuse probleemi. Enne SegWit'i võisid allkirju muuta enne tehingu kinnitamist, mis muutis tehingu identifikaatori. See tegi keerukate tehingute koostamise keeruliseks, kuna kinnitamata tehingu identifikaatorit võidi muuta. Allkirjade eraldamisega muudab SegWit tehingud muudetamatuks, kuna allkirjade muutmine mõjutab nüüd ainult tunnistaja identifikaatorit (WTXID), mitte tehingu identifikaatorit (TXID). Muudetavuse probleemi lahendamisega on SegWit sillutanud tee edasisteks arendusteks Bitcoin'i süsteemi peal, eriti Lightning Network'i jaoks, mis võimaldab kiireid ja madala maksumusega tehinguid.

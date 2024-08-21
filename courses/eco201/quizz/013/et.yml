@@ -1,0 +1,12 @@
+question: Mis on peamine probleem osalise reservi süsteemiga?
+answer: Peamine probleem osalise reservi süsteemiga on see, et olulised väljavõtmised konkreetsest pangast võivad potentsiaalselt viia selle pankrotini.
+wrong_answers:
+  - Peamine probleem osalise reservi süsteemiga on see, et see takistab pankadel raha laenamist.
+  - Peamine probleem osalise reservi süsteemiga on see, et see nõuab pankadelt rohkem reservide hoidmist, kui nad hoiustena saavad.
+  - Peamine probleem osalise reservi süsteemiga on see, et see takistab pankadel uue raha loomist.
+explanation: |
+  Osalise reservi süsteemis hoiavad pangad vaid osa oma hoiustajate
+  vahenditest reservis, laenates ülejäänu välja. Kui paljud kliendid korraga kiirustavad
+  oma vahendeid välja võtma, ei pruugi pangal olla piisavalt reserve, et neid nõudmisi rahuldada,
+  mis potentsiaalselt võib viia pankrotini.
+reviewed: false

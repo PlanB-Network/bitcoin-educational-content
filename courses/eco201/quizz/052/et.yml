@@ -1,0 +1,11 @@
+question: Mis on Kaasaegse RahaTeooria (MMT) pooldajate seisukoht seoses rahatrükkimisega?
+answer: MMT pooldajad on toetanud rahatrükkimist poliitiliste eesmärkide saavutamiseks.
+wrong_answers:
+  - MMT pooldajad on igasuguse rahatrükkimise vastu.
+  - MMT pooldajad usuvad, et rahatrükkimist peaks kontrollima keskpank.
+  - MMT pooldajad usuvad, et rahatrükkimist tuleks vältida inflatsiooni riski tõttu.
+explanation: |
+  Kaasaegse RahaTeooria (MMT) pooldajad on toetanud rahatrükkimist
+  poliitiliste eesmärkide saavutamiseks, kasutades argumentidena inflatsiooni puudumist
+  aastatel 2008 kuni 2019.
+reviewed: false

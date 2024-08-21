@@ -1,0 +1,5 @@
+---
+term: BIP112
+---
+
+Tutvustab Bitcoin Script keeles operatsioonikoodi `OP_CHECKSEQUENCEVERIFY` (CSV). See operatsioon võimaldab luua tehinguid, mille kehtivus muutub efektiivseks alles pärast teatud viivitust, mis on määratletud kas plokkide arvu või ajaperioodi järgi, võrreldes eelmise tehinguga. `OP_CHECKSEQUENCEVERIFY` võrdleb pinu tipus olevat väärtust sisendi `nSequence` välja väärtusega. Kui see on suurem ja kõik muud tingimused on täidetud, on skript kehtiv. Seega piirab `OP_CHECKSEQUENCEVERIFY` võimalikke väärtusi sisendi `nSequence` välja jaoks, mis kulutab selle, ning see `nSequence` väli ise piirab, millal tehingut, mis sisaldab seda sisendit, saab plokki lisada. BIP112 tutvustati pehme forki kaudu 4. juulil 2016, koos BIP68 ja BIP113-ga, mis aktiveeriti esmakordselt kasutades BIP9 meetodit.

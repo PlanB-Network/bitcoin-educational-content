@@ -1,0 +1,11 @@
+question: Mida esindavad konstandid K SHA-256 funktsiooni töötlemisel?
+answer: Esimese 64 algarvu kuupjuurte kümnendkohtade esimesed 32 bitti
+wrong_answers:
+  - Esimese 64 algarvu ruutjuurte kümnendkohtade esimesed 32 bitti
+  - Esimese 8 algarvu kuupjuurte kümnendkohtade esimesed 32 bitti
+  - Esimese 8 algarvu ruutjuurte kümnendkohtade esimesed 32 bitti
+explanation: |
+  SHA-256 funktsiooni töötlemisel esindavad konstandid K, alates 0 kuni 63,
+  esimese 64 algarvu kuupjuurte kümnendkohtade esimesi 32 bitti. Neid kasutatakse
+  krüptograafilise retsepti põhikomponentidena.
+reviewed: false

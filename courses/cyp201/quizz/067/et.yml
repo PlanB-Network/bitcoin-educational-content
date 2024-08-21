@@ -1,0 +1,8 @@
+question: Kuidas määratakse kontrollsumma suurus Bitcoin'i rahakoti mnemoonilise fraasi genereerimisel?
+answer: Jagades entroopia suuruse 32-ga.
+wrong_answers:
+  - Korrutades entroopia suuruse 32-ga.
+  - Lisades entroopia suurusele 32.
+  - Lahutades entroopia suurusest 32.
+explanation: |
+  Kontrollsumma suurus määratakse entroopia suuruse jagamisel 32-ga. Näiteks 256-bitine entroopia genereerib 8-bitise kontrollsumma.

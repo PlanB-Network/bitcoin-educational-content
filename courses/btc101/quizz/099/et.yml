@@ -1,0 +1,9 @@
+question: Mida peaksite tegema pärast seda, kui olete oma mnemoonilise fraasi sõnad üles kirjutanud?
+answer: Tehke teine koopia ja hoidke seda eraldi kohas
+wrong_answers:
+  - Jagage seda usaldusväärse sõbraga
+  - Saatke see endale e-postiga
+  - Hoidke seda oma telefonis
+explanation: |
+  Kui olete oma mnemoonilise fraasi sõnad üles kirjutanud, on soovitatav teha teine koopia ja hoida seda esimesest eraldi kohas. See tagab varukoopia olemasolu esimese koopia kaotsimineku või õnnetuse korral.
+reviewed: true

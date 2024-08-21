@@ -1,0 +1,9 @@
+question: Mis on kõige sagedamini kasutatav standard 24-sõnalise taastefraasi jaoks Bitcoin'i rahakotis?
+answer: Entroopia 256 bitti.
+wrong_answers:
+  - Entroopia 128 bitti.
+  - Entroopia 160 bitti.
+  - Entroopia 512 bitti.
+explanation: |
+  Kõige sagedamini kasutatav standard 24-sõnalise taastefraasi jaoks on entroopia 256 bitti.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Mis on SHA-256 funktsiooni töötlemisel algvektorid?
+answer: Esimese 8 algarvu ruutjuurte kümnendkohtade esimesed 32 bitti
+wrong_answers:
+  - Esimese 8 algarvu kuupjuurte kümnendkohtade esimesed 32 bitti
+  - Esimese 64 algarvu ruutjuurte kümnendkohtade esimesed 32 bitti
+  - Esimese 64 algarvu kuupjuurte kümnendkohtade esimesed 32 bitti
+explanation: |
+  SHA-256 funktsiooni töötlemisel on algvektorid, A-st H-ni, esimese 8 algarvu ruutjuurte kümnendkohtade esimesed 32 bitti. Neid kasutatakse krüptograafilise retsepti põhikomponentidena.
+reviewed: false

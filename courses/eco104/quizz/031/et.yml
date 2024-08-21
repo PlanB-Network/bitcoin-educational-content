@@ -1,0 +1,9 @@
+question: Mis on peamine põhjus lühiajaliseks hinnakõikumiseks stablecoinides?
+answer: Madal likviidsustase börsidel
+wrong_answers:
+  - Puudulikud reservid väljavõtmisnõudluste rahuldamiseks
+  - Häkkimised, mis ohustavad stablecoini
+  - Stablecoinide depegging
+explanation: |
+  Lühiajaline hinnakõikumine stablecoinides on tihti tingitud likviidsusprobleemidest, kus väiksematel börsidel võib puududa võimekus rahuldada klientide nõudmisi, põhjustades ajutisi hinnakõikumisi.
+reviewed: true

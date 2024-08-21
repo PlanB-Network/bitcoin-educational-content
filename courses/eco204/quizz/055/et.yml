@@ -1,0 +1,11 @@
+question: Mis on peamine järeldus loengust, kuidas ületada hüperinflatsiooni?
+answer: Hüperinflatsiooni ületamiseks on mitmeid strateegiaid, kuid need toimivad ainult siis, kui elanikkonnal on nende suhtes usaldus ja valitsusele on seatud ranged piirangud.
+wrong_answers:
+  - Hüperinflatsiooni ületamise ainus viis on dollariseerimine
+  - Hüperinflatsiooni ületamise ainus viis on uue valuuta kasutuselevõtt
+  - Hüperinflatsiooni saab ületada lihtsalt rahapakkumise suurendamisega
+explanation: |
+  Loeng viitab sellele, et hüperinflatsiooni ületamiseks on mitmeid strateegiaid,
+  nagu dollariseerimine või uue valuuta kasutuselevõtt. Siiski, need lahendused toimivad
+  ainult siis, kui elanikkonnal on nende suhtes usaldus ja valitsusele on seatud ranged piirangud.
+reviewed: false

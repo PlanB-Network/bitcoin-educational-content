@@ -1,0 +1,5 @@
+---
+term: MASF
+---
+
+Akronüüm fraasile "*Miner-Activated Soft Fork*". See kirjeldab pehmet haru (soft fork) Bitcoinis, mille aktiveerimine toimub kaevurite tegevuse kaudu. MASF on Bitcoinis pehme haru aktiveerimise meetodite perekond. Nendes lähenemistes annavad kaevurid oma nõusoleku ja valmisoleku protokolli uuenduseks, kaevandades plokke, mis toetavad pehme haru lukustamist. Kui märkimisväärne enamus kaevuritest hääletab pehme haru poolt, peetakse uuendust aktsepteerituks ja see aktiveeritakse hiljem. See protsess aitab vältida plokiahela lõhenemist ja säilitab võrgu ühtsuse. MASF on eelistatud oma leebema, konsensusel põhineva lähenemise tõttu, vähendades plokiahela lõhenemise riski, tagades samal ajal, et enamus arvutusvõimsusest toetab uut uuendust. Aktiveerimismeetodid nagu BIP34, BIP9, BIP8 (kui `LOT=false` või kui hääletuskünnis on saavutatud) või Speedy Trial on MASF näited.

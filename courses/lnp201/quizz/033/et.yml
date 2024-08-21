@@ -1,0 +1,10 @@
+question: Kes saab kasutada tagasivõtmisvõtit enne Timelocki lõppu?
+answer: Isik, kes saab raha.
+wrong_answers:
+  - Isik, kes loob tehingu Timelockiga.
+  - Mõlemad osapooled saavad kasutada tagasivõtmisvõtit enne Timelocki lõppu.
+  - Kumbki osapool ei saa kasutada tagasivõtmisvõtit enne Timelocki lõppu.
+explanation: |
+  Isik, kes saab raha, saab kasutada tagasivõtmisvõtit enne Timelocki lõppu,
+  juhul kui ühelt kanali poolelt teisele Lightning Networkis toimub pettus.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Mis sõnum on sisaldatud Bitcoin'i plokiahela esimeses plokis?
+answer: 03/jaan/2009 Kantsler on teise pankade päästepaketi lävel.
+wrong_answers:
+  - Me võime võita suure lahingu relvavõidujooksus ja saavutada mitmeks aastaks uue vabaduse territooriumi.
+  - Valitsused on osavad lõikama maha tsentraalselt juhitud võrkude pead nagu Napster, kuid puhtad P2P võrgud nagu Gnutella ja Tor näivad endiselt püsivat.
+  - Mitte ükski ülaltoodust
+explanation: |
+  Bitcoin'i plokiahela esimene plokk, tuntud ka kui genesis-plokk, sisaldab sõnumit 03/jaan/2009 Kantsler on teise pankade päästepaketi lävel, mis on selle päeva Time ajakirja pealkiri, et ajatempliga märkida genesis-plokki.
+reviewed: true

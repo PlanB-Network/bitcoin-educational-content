@@ -1,0 +1,8 @@
+question: Mida näitab indeks tuletustee kontekstis HD rahakoti puhul?
+answer: Väärtus, mida kasutatakse HMAC funktsioonis
+wrong_answers:
+  - Väärtus, mida kasutatakse SHA-256 funktsioonis
+  - Väärtus, mida kasutatakse RSA funktsioonis
+  - Väärtus, mida kasutatakse AES funktsioonis
+explanation: |
+  HD rahakoti kontekstis näitab indeks tuletustee juures väärtust, mida kasutatakse HMAC funktsioonis. Seda kasutatakse erinevate lastevõtmete paaride eristamiseks samal sügavusel.

@@ -1,0 +1,9 @@
+question: Mis on kahaneva piirkasulikkuse kontseptsioon?
+answer: Iga järgnev hüve ühik on vähem ihaldatud kui eelnev.
+wrong_answers:
+  - Iga järgnev hüve ühik on rohkem ihaldatud kui eelnev.
+  - Iga järgnev hüve ühik on sama ihaldatud kui eelnev.
+  - Iga järgneva hüve ühiku ihaldatus kõigub ettearvamatult.
+explanation: |
+  Kahaneva piirkasulikkuse kontseptsioon väidab, et iga järgnev hüve ühik on vähem ihaldatud kui eelnev. See on seetõttu, et kui inimene omandab hüvest rohkem, siis iga järgnev ühik sellest hüvest pakub vähem kasulikkust.
+reviewed: false

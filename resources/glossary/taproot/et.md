@@ -1,0 +1,7 @@
+---
+term: TAPROOT
+---
+
+Suur uuendus Bitcoin'i protokollis, mis võeti kasutusele pehme kahvli kaudu novembris 2021. See uuendus toob olulisi parandusi privaatsuse, efektiivsuse ja paindlikkuse osas, rakendades BIP340, BIP341 ja BIP342. Uuendus lukustati plokis 687,284 12. juunil 2021, kui 90% antud perioodi jooksul genereeritud plokkidest andsid märku toetusest, näidates seeläbi kaevurite valmisolekut uuenduse aktiveerimiseks (*Speedy Trial*). Aktiveerimine toimus lõpuks plokis 709,632 14. novembril 2021, peaaegu neli aastat pärast esialgseid arutelusid teema üle Pieter Wuille, Andrew Poelstra ja Gregory Maxwelli vahel. See oli esimene suur uuenduskatse pärast SegWiti vastuolulist aktiveerimist 2017. aastal.
+
+Taproot on ka BIP341 nimi, mis on rakendatud samanimelise pehme kahvli raames ja tutvustab uut skriptimudelit nimega P2TR. P2TR skript lukustab bitcoinid unikaalsele Schnorri avalikule võtmele, tähistatud kui $K$. Siiski, see võti $K$ on tegelikult avaliku võtme $P$ ja avaliku võtme $M$ agregaat, viimane arvutatakse `scriptPubKey` nimekirja Merkle'i juurest. P2TR skriptiga lukustatud bitcoinid saab kulutada kahel eristuval viisil: kas avaldades allkirja avalikule võtmele $P$, või rahuldades ühe Merkle'i puus sisalduva skripti. Esimest võimalust nimetatakse "*võtmee tee*" ja teist "*skripti tee*".

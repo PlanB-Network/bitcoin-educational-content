@@ -1,0 +1,8 @@
+question: Mis on Timelock'i eesmärk kohustuslikus tehingus?
+answer: See lukustab vahendid kuni kindla plokini.
+wrong_answers:
+  - See lukustab tehingu kuni kindla plokini.
+  - See lukustab kanali kuni kindla plokini.
+  - See lukustab tagasivõtmisvõtme kuni kindla plokini.
+explanation: |
+  Timelock kohustuslikus tehingus lukustab vahendid kuni kindla plokini. See takistab tehingu loonud poolel kohe oma raha tagasi saamast.

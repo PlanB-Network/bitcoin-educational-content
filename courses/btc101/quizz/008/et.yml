@@ -1,0 +1,10 @@
+question: Mida tähendab see, et Bitcoin on neutraalne valuuta?
+answer: See ei ole ühegi üksuse või institutsiooni kontrolli all.
+wrong_answers:
+  - See on ühe üksuse või institutsiooni kontrolli all.
+  - Seda reguleerib valitsus.
+  - Seda kasutatakse ainult neutraalsete tehingute jaoks.
+explanation: |
+  Bitcoin on neutraalne valuuta, mis tähendab, et seda ei kontrolli ükski üksus
+  ega institutsioon ja iga kasutaja omab samu õigusi. See on selle detsentraliseerituse võtmeaspekt.
+reviewed: true

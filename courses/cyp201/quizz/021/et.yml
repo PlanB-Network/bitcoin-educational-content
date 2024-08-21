@@ -1,0 +1,10 @@
+question: Mitu vooru teeb PBKDF2 kasutades HMAC SHA512?
+answer: 2048 vooru
+wrong_answers:
+  - 1024 vooru
+  - 512 vooru
+  - 4096 vooru
+explanation: |
+  PBKDF2-i kasutatakse mnemoonilise fraasi teisendamiseks seemneks. See algoritm
+  teostab 2048 vooru kasutades HMAC SHA512.
+reviewed: false

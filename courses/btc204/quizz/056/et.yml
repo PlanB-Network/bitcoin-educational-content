@@ -1,0 +1,13 @@
+küsimus: Kuidas kasutatakse aadresse UTXO-de lukustamiseks?
+
+vastus: Need on integreeritud ScriptPubKey-sse
+
+valed_vastused:
+  - Need on integreeritud ScriptSig-sse
+  - Need on integreeritud coinbase'i.
+  - Neid ei ole integreeritud kuhugi.
+
+selgitus: |
+  Kui makse tehakse, loob tehing uue UTXO väljundina UTXO-dest, mida kasutatakse sisenditena. Sellele väljundile paigutatakse skript, mis määratleb, kuidas seda UTXO-d hiljem kulutada saab. Seda skripti tuntakse kui ScriptPubKey. Vastuvõtva aadress on integreeritud sellesse skripti.
+
+üle vaadatud: false

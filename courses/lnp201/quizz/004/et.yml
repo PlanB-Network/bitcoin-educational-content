@@ -1,0 +1,10 @@
+question: Mis on Lightning Network?
+answer: Teise kihi maksetaristu, mis on ehitatud Bitcoin'i võrgustikule ja võimaldab kiireid ning madala maksumusega tehinguid
+wrong_answers:
+  - Üks tüüp Bitcoin'i rahakotist
+  - Meetod Bitcoin'i kaevandamiseks
+  - Üks tüüp Bitcoin'i vahetusest
+explanation: |
+  Lightning Network on teise kihi maksetaristu, mis on ehitatud
+  Bitcoin'i võrgustikule ja võimaldab kiireid ning madala maksumusega tehinguid.
+reviewed: false

@@ -1,0 +1,7 @@
+---
+term: DISKREETNE LOGARITM
+---
+
+Diskreetne logaritm on matemaatiline probleem, mida kasutatakse mõningates avaliku võtme krüptograafilistes algoritmides. Tsüklilises grupis järjekorraga $q$, genereerijaga $g$, kui on olemas võrrand kujul $g^x = h$, siis $x$ nimetatakse $h$ diskreetseks logaritmiks aluse $g$ suhtes, modulo $q$. Lihtsustatult öeldes hõlmab see eksponendi $x$ määramist, kui $g$, $h$ ja $q$ on teada. Seega on diskreetne logaritm lõplikus tsüklilises grupis eksponentsiaalfunktsiooni pöördvõrdeline. Siiski, suurte $q$ väärtuste korral peetakse diskreetse logaritmi probleemi lahendamist algoritmiliselt keeruliseks. Seda omadust kasutatakse paljude krüptograafiliste protokollide, nagu Diffie-Hellmani protokoll võtmevahetuseks, turvalisuse tagamiseks.
+
+Diskreetset logaritmi kasutatakse ka elliptilise kõvera krüptograafias (ECC), sealhulgas ECDSA-s (*Elliptilise Kõvera Digitaalallkirja Algoritm*). Elliptiliste kõverate kontekstis laieneb diskreetse logaritmi probleem skalaari $k$ leidmisele nii, et $k \cdot G = K$, kus $G$ ja $K$ on punktid kõveral ja $\cdot$ tähistab punktide korrutamise operatsiooni. Bitcoini kontekstis võivad skriptid kasutada lukustamiseks kas ECDSA-d või Schnorri protokolli. Mõlemad sõltuvad diskreetse logaritmi arvutamise teostamatusest.

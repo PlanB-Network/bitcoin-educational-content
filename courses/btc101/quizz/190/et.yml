@@ -1,0 +1,9 @@
+question: Mis on AMF?
+answer: "Autorité des Marchés Financiers"
+wrong_answers:
+  - Ameerika Monetaarfond
+  - Kaevandusrajatiste Assotsiatsioon
+  - Automaatne Rahavoog
+explanation: >-
+  "AMF ehk Autorité des Marchés Financiers on Prantsuse organisatsioon,
+  mis reguleerib platvorme, kus saab osta bitcoine."

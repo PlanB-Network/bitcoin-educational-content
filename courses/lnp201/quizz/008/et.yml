@@ -1,0 +1,10 @@
+question:
+  Kas Lightning maksekanali maht piirab tehingute koguarvu või Bitcoini kogumahtu, mida saab kanali kaudu edastada?
+answer: See on väär
+wrong_answers:
+  - See on tõsi
+  - See kehtib ainult mõnedel juhtudel
+  - See sõltub Bitcoin'i võrgust
+explanation: |
+  Kuigi Lightning maksekanali maht on fikseeritud, ei piira see tehingute koguarvu ega Bitcoini kogumahtu, mida saab kanali kaudu edastada.
+reviewed: false

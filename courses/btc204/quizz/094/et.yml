@@ -1,0 +1,13 @@
+question: Järgnevatest vastustest, milline ei ole soovitatud praktika oma doxxiliste muutuste haldamiseks?
+
+answer: Doxxiliste UTXOde ühendamine.
+
+wrong_answers:
+  - Doxxiliste UTXOde segamine väiksemas basseinis.
+  - Oma doxxiliste UTXOde annetamine.
+  - Oma doxxiliste UTXOde märkimine mittekulutatavaks.
+
+explanation: |
+  On soovitatav vältida doxxiliste UTXOde ühendamist, kuna see võimaldab luua seose erinevate kasutaja sisendite vahel Whirlpoolis.
+
+reviewed: false

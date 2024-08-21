@@ -1,0 +1,9 @@
+question: Mis on rahatrüki tagajärg?
+answer: See viib inflatsioonini, järk-järgult vaesestades elanikkonda.
+wrong_answers:
+  - See viib deflatsioonini, järk-järgult rikastades elanikkonda.
+  - See viib stabiilse majanduseni ilma inflatsiooni või deflatsioonita.
+  - See viib rahapakkumise vähenemiseni.
+explanation: |
+  Rahatrükk ehk uue raha loomine keskpankade poolt viib inflatsioonini. See on seetõttu, et rahapakkumise suurenemine vähendab raha ostujõudu, viies kõrgemate hindade ja säästude väärtuse languseni.
+reviewed: true

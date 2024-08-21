@@ -1,0 +1,9 @@
+---
+term: KAHEKORDNE KULUTAMINE (RÜNNAK)
+---
+
+Rünne, kus pahatahtlik kasutaja üritab sama UTXO-d (*Kasutamata Tehingu Väljund*) kasutada rohkem kui üks kord, et rikastuda tehingutes osalevate osapoolte arvelt. Põhimõtteliselt, kui tehing on kinnitatud blokis ja lisatud plokiahelasse, siis nende bitcoinide kasutamine on jäädavalt registreeritud, takistades samade bitcoinide edasist kulutamist. Kahekordse kulutamise vältimine on isegi plokiahela peamine kasutegur.
+
+Kahekordse kulutamise rünnaku kontekstis teeb ründaja esmalt legitiimse tehingu kaupmehega, seejärel loob teise konkureeriva tehingu, kulutades samu münte, kas saates need tagasi endale, et summat taastada, või kasutades neid teise kauba või teenuse ostmiseks erinevalt kaupmehelt.
+
+Selle rünnaku võimaldamiseks on kaks peamist stsenaariumi. Esimene, ja lihtsaim ründaja jaoks, hõlmab petturliku tehingu sooritamist enne, kui legitiimne tehing on blokki lisatud. Et tagada oma petturliku tehingu esmajärjekorras kinnitamine, seostab ründaja sellega oluliselt suuremad tehingutasud kui legitiimse tehinguga. See on omamoodi petturlik RBF. See stsenaarium on võimalik ainult juhul, kui kaupmees nõustub müügi lõpule viima "zeroconf" režiimis, tähendades ilma ühegi kinnitusteta maksetehingule. Seetõttu on tungivalt soovitatav oodata mitu kinnitust enne tehingu muutumatuna kaalumist. Teine, palju keerulisem stsenaarium, on 51% rünnak. Kui ründaja kontrollib olulist osa võrgu arvutusvõimsusest, võivad nad kaevandada konkureeriva ahela legitiimse tehingut sisaldava ahela asemel, kuid lisades sinna oma petturliku tehingu. Kui kaupmees on müügi aktsepteerinud ja ründajal on õnnestunud luua pikem ahel (rohkem kogunenud tööd) kui legitiimne ahel, saavad nad seejärel oma petturliku ahela võrku edastada, mida võrgu sõlmed tunnistavad kehtivana.

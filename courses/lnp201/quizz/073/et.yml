@@ -1,0 +1,9 @@
+question: Mida tähendab '1m' Lightning Networki arvel?
+answer: See tähistab summat milli Bitcoinides (0.0001 BTC)
+wrong_answers:
+  - See tähistab Lightning Networki versiooni
+  - See tähistab tehingutasu
+  - See tähistab ploki kõrgust
+explanation: |
+  Lightning Networki arvel tähistab '1m' summat milli Bitcoinides (0.0001 BTC). 'M' tähistab millit, mis on meetermõõdustiku eesliide, tähistades kordajat 10^-3. Seega '1m' võrdub 0.0001 BTC või 100,000 satoshiga.
+reviewed: false

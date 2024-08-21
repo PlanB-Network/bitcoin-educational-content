@@ -1,0 +1,11 @@
+question: Millist algoritmi kasutatakse avaliku võtme genereerimiseks?
+answer: ECDSA (Elliptic Curve Digital Signature Algorithm)
+wrong_answers:
+  - "RSA (Rivest–Shamir–Adleman)"
+  - SHA-256 (Secure Hash Algorithm 256)
+  - AES (Advanced Encryption Standard)
+explanation: |
+  Avalik võti genereeritakse kasutades ECDSA (Elliptic Curve Digital Signature
+  
+  Algorithm) algoritmi.
+reviewed: false

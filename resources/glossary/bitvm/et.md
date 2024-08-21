@@ -1,0 +1,5 @@
+---
+term: BITVM
+---
+
+Protokoll, mille tutvustas Robin Linus 2023. aastal, eesmärgiga laiendada Bitcoin'i rakenduste arendamise võimekust. BitVM võimaldab suvaliselt sooritada mistahes arvutusoperatsiooni ja kasutab seda arvutust kaasatud bitcoinide suunamiseks. Protokoll hõlmab kõikide arvutuste toimumist väljaspool ahelat, samal ajal võimaldades arvutust ahelas vaidlustada, kui teine osapool väidab, et tulemus on petlik. Seega pakub BitVM Bitcoinile peaaegu Turing-täielikku arvutusvõimekust, ilma et oleks vaja teha muudatusi konsensuse tasemel. BitVM jäljendab `NAND` loogikavärava käitumist, kasutades kombineeritult opkoode `OP_BOOLAND` (mis jäljendab `AND` loogikavärava käitumist) ja `OP_NOT` (mis jäljendab `NOT` loogikavärava käitumist). Tõepoolest, seda `NAND` loogikaväravat saab kasutada ahelas, et jäljendada kõigi teiste olemasolevate loogikaväravate käitumist. Seda nimetatakse "universaalseks väravaks". Laienduseks, `NAND` loogikaväravate seeria võib seega jäljendada ükskõik millist arvutuslikku ahelat. BitVM-i idee on salvestada need `NAND` arvutusjärjestused Taproot tehingu MAST-i lehtedena.

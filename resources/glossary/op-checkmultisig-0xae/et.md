@@ -1,0 +1,5 @@
+---
+term: OP_CHECKMULTISIG (0XAE)
+---
+
+Kontrollib mitut allkirja vastu mitmeid avalikke võtmeid. Sisendina võetakse rida `N` avalikku võtit ja `M` allkirja, kus `M` võib olla väiksem või võrdne `N`-ga. `OP_CHECKMULTISIG` kontrollib, kas vähemalt `M` allkirja vastavad `M`-le `N` avalikust võtmest. Pane tähele, et ajaloolise ühe võrra nihkes oleva vea tõttu eemaldab `OP_CHECKMULTISIG` lisaelemendi virnast. Seda elementi nimetatakse "*dummy element*" ehk ebaoluliseks elemendiks. Vältimaks vea tekkimist `scriptSig`-is, lisatakse seetõttu `OP_0`, mis on kasutu element, et rahuldada eemaldamist ja mööda minna veast. Alates BIP147 (tutvustatud SegWit'iga 2017), peab vea tõttu tarbitud kasutu element olema `OP_0`, et skript kehtiks, kuna see oli muudetavuse vektor. See operatsioonikood eemaldati Tapscriptis.

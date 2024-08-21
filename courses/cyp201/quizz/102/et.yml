@@ -1,0 +1,9 @@
+question: Kuidas saadakse lapsvõtme tuletamisel laps avalik võti?
+answer: Laps avalik võti saadakse, korrutades laps eravõtme elliptilise kõvera generaatoriga.
+wrong_answers:
+  - Laps avalik võti saadakse, liites laps eravõtme elliptilise kõvera generaatoriga.
+  - Laps avalik võti saadakse, lahutades laps eravõtme elliptilise kõvera generaatorist.
+  - Laps avalik võti saadakse, jagades laps eravõtme elliptilise kõvera generaatoriga.
+explanation: |
+  Laps avalik võti saadakse, korrutades laps eravõtme elliptilise kõvera generaatoriga. See on osa matemaatilistest arvutustest, mida kasutatakse lapsvõtmete tuletamisel.
+reviewed: false

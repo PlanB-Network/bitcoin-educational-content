@@ -1,0 +1,13 @@
+question: Kuidas töötab "varre" faas Karikakra protokollis?
+
+answer: Tehing saadetakse läbi juhusliku sõlmede tee.
+
+wrong_answers:
+  - Tehing edastatakse kohe kõigile lähtesõlme partneritele.
+  - Tehing salvestatakse ajutiselt kesksõlmes enne edastamist.
+  - Tehing krüpteeritakse järk-järgult iga edastusetapi juures.
+
+explanation: |
+  Karikakra kasutab esmalt "varre" faasi, kus tehing saadetakse läbi juhusliku sõlmede tee. Seejärel edastatakse tehing kogu võrgustikule "udusulgede" faasis.
+
+reviewed: false

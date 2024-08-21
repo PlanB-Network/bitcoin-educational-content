@@ -1,0 +1,8 @@
+question: Miks on oluline varundada Bitcoin'i rahakoti 24-sõnaline taastefraas?
+answer: Et vältida vahendite kaotust.
+wrong_answers:
+  - Taastefraasi täpsuse kontrollimiseks.
+  - Rahakoti entroopia genereerimiseks.
+  - Taastefraasi krüpteerimiseks lisaturvalisuse tagamiseks.
+explanation: |
+  24-sõnalise taastefraasi varundamine on oluline, et vältida vahendite kaotust.

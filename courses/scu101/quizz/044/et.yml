@@ -1,0 +1,12 @@
+question: Miks on oluline järk-järgult asendada oma vanad paroolid paroolihalduri poolt genereeritud paroolidega?
+answer: Paroolihalduri poolt genereeritud paroolid on tugevamad ja pikemad, pakkudes suuremat turvalisust.
+wrong_answers:
+  - Vanad paroolid kustutatakse automaatselt paroolihalduri poolt.
+  - Paroolihaldurid saavad salvestada ainult piiratud arvu paroole.
+  - Paroolihaldurid nõuavad, et kõik paroolid oleksid nende poolt genereeritud.
+explanation: |
+  Paroolihalduri poolt genereeritud paroolid on tugevamad ja pikemad, pakkudes
+
+  suuremat turvalisust. Asendades järk-järgult oma vanad paroolid nendega, saate tõsta
+
+  oma veebikontode turvalisust.

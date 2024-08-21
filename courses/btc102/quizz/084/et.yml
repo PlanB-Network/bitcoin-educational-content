@@ -1,0 +1,11 @@
+küsimus: Mis on peamine eesmärk külma rahakoti kasutamisel sagedasele Bitcoin'i kasutajale?
+vastus: Bitcoine turvaliselt pikaajaliselt hoida.
+valed_vastused:
+  - Regulaarselt bitcoine igapäevaseks kasutamiseks saatmiseks ja vastuvõtmiseks.
+  - Bitcoinidega kauplemiseks vahetusplatvormil.
+  - Uute bitcoinide kaevandamiseks.
+selgitus: |
+  Külm rahakott on Bitcoin'i rahakoti tüüp, mis ei ole ühendatud
+  internetiga, muutes selle vähem haavatavaks häkkimisele ja vargusele. Tavaliselt kasutatakse seda
+  bitcoinide hoidmiseks, mida ei ole igapäevaste tehingute jaoks vaja.
+üle vaadatud: false

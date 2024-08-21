@@ -1,0 +1,12 @@
+question: Milliseid tegureid arvestatakse Lightning Network'is kõige tõenäolisemalt edukate marsruutide hindamisel?
+answer: Tasud, HTLC aegumistähtaeg, vahendavate sõlmede arv ja juhuslikkuse faktor.
+wrong_answers:
+  - Tehingu suurus, ploki kõrgus ja tehingutasud.
+  - Tehingutasud, ploki suurus ja tehingu kinnitamise aeg.
+  - Tehingu kinnitamise aeg, ploki kõrgus ja tehingu suurus.
+explanation: |
+  Kõige tõenäolisemalt edukate marsruutide hindamisel Lightning Network'is
+  arvestavad sõlmed mitmeid tegureid. Nende hulka kuuluvad iga marsruudi tasud,
+  HTLC-de aegumistähtajad, vahendavate sõlmede arv ja juhuslikkuse
+  faktor, et vältida alati samade marsruutide kasutamist.
+reviewed: false

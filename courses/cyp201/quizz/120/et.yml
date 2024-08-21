@@ -1,0 +1,10 @@
+question: Mis on avaliku võtme algne suurus Bitcoinis?
+answer: 512 bitti
+wrong_answers:
+  - 256 bitti
+  - 1024 bitti
+  - 128 bitti
+explanation: |
+  Avaliku võtme algne suurus Bitcoinis on 512 bitti.
+  Vastuvõtva aadressi kasutamine aitab seda suurust vähendada.
+reviewed: false

@@ -1,0 +1,9 @@
+küsimus: Millist formaadi esitust kasutatakse segwit standardi puhul, et saada HD rahakoti aadress?
+vastus: bech32 formaat
+valed_vastused:
+  - base 58 formaat
+  - SHA256 formaat
+  - RIPMD160 formaat
+selgitus: |
+  Pärast kontrollsumma arvutamist kasutatakse pärandstandardi puhul base 58 formaadi esitust, samas kui segwit standardi puhul kasutatakse bech32 formaati, et saada HD rahakoti aadress.
+üle vaadatud: false

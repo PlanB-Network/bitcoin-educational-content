@@ -1,0 +1,9 @@
+küsimus: Kui me märkame tehingut, millel on sisenditena 6 UTXO-d ja väljundina ainult üks UTXO, millise tõenäolise tõlgenduse võime teha?
+vastus: Kõik sisendites olevad UTXO-d kuulusid samale kasutajale ja see kasutaja on endiselt väljundis oleva UTXO omanik.
+valed_vastused:
+  - Sisendites olevad UTXO-d tulid erinevatelt kasutajatelt, kes tegid koostööd ühe tehingu jaoks.
+  - Kõik sisendites olevad UTXO-d kuulusid samale kasutajale ja väljundis olev kuulub nüüd teisele kasutajale.
+  - Sisendites olevad UTXO-d tulid 2 erinevalt kasutajalt ja väljundis olev kuulub endiselt nendele 2 kasutajale.
+selgitus: |
+  Tõenäoliselt on tegemist konsolideerimisega. Seega on sisendite ja väljundi ühine omandus.
+üle vaadatud: false

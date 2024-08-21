@@ -1,0 +1,12 @@
+question: Mida tähendab vanasõna "Mitte sinu hashrate, mitte sinu tasu" Bitcoin'i kaevandamise kontekstis?
+answer: Kui sa ei kontrolli hashrate'i, siis sa ei kontrolli ka kaevandamise tasusid.
+wrong_answers:
+  - Kui sul ei ole kõrget hashrate'i, siis sa ei saa ühtegi tasu.
+  - Kui sa ei oma Bitcoin'i, siis sa ei saa ühtegi tasu.
+  - Kui sul ei ole kaevandamismasinat, siis sa ei saa ühtegi tasu.
+explanation: |
+  Vanasõna "Mitte sinu hashrate, mitte sinu tasu" on sarnane tuntud
+  vanasõnaga krüptoraha maailmas, "Mitte sinu võtmed, mitte sinu Bitcoinid." See tähendab,
+  et kui sa ei kontrolli hashrate'i, siis sa ei kontrolli ka kaevandamise tasusid.
+  See on seetõttu, et kaevandamisest saadavad tasud on otseselt proportsionaalsed hashrate'iga.
+reviewed: false

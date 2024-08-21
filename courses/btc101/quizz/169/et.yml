@@ -1,0 +1,9 @@
+question: Kuidas premeerib Bitcoin'i protokoll kaevurit, kes leiab järgmisele plokile kehtiva räsi?
+answer: Preemiaga, mis on määratletud konsensuse reeglitega ja kõikide kehtivas plokis sisalduvate tehingute tehingutasudega
+wrong_answers:
+  - Fikseeritud koguse Bitcoin'iga
+  - Protsendiga kogu Bitcoin'i varust
+  - Kõikide kehtivas plokis sisalduvate tehingute tehingutasudega
+explanation: >-
+  Bitcoin'i protokoll premeerib kaevurit, kes leiab järgmisele plokile kehtiva räsi, preemiaga, mille suurus on määratletud konsensuse reeglitega, samuti kõikide kehtivas plokis sisalduvate tehingute tehingutasudega.
+reviewed: false

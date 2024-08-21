@@ -1,0 +1,11 @@
+question: Milline neist ei ole Bitcoini eelis valuutana?
+answer: Seda saab kasutada maksude tasumiseks
+wrong_answers:
+  - See on jagatav
+  - See on transporteeritav
+  - See on loata raha
+explanation: >
+  Bitcoin, tänu oma omadustele nagu jagatavus, kontrollitavus, loata olemus ja transporteeritavus, pakub
+  suurepärast väärtuse säilitamise vahendit. Lisaks, kui neutraalne internetivaluuta, esindab see
+  head vahetusvahendit, mis ei tunne piire.
+reviewed: true

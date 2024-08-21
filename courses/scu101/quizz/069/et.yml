@@ -1,0 +1,12 @@
+question: Millised on DOH (DNS over HTTPS) ja DOT (DNS over TLS) kasutamise eelised?
+answer: Nad krüpteerivad DNS-ühenduse, tagades suurema privaatsuse ja turvalisuse ning väldivad "man in the middle" ründeid.
+wrong_answers:
+  - Nad kiirendavad internetiühendust.
+  - Nad blokeerivad kõik reklaamid.
+  - Nad võimaldavad juurdepääsu blokeeritud veebilehtedele.
+explanation: |
+  DOH (DNS over HTTPS) ja DOT (DNS over TLS) krüpteerivad DNS-ühenduse,
+  tagades suurema privaatsuse ja turvalisuse. Neid protokolle kasutatakse laialdaselt ettevõtetes
+  nende parema turvalisuse tõttu ning neid toetavad omal jõul Windows, Android ja
+  iPhone. Nad parandavad privaatsust ja turvalisust, väldides "man in the middle" ründeid.
+reviewed: false

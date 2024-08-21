@@ -1,0 +1,7 @@
+---
+term: HONG-KONGI ÜMARLAUD
+---
+
+Ajalooline sündmus Blocksize Sõjas, mis toimus 20. veebruaril 2016 Hong Kongis. See oli oluline kohtumine Bitcoin Core arendajate ja kaevurite vahel, et arutada süsteemi skaleeritavust ja strateegiat selle laiendamiseks. Kohtumise eel olid pinged kõrged, eriti seoses Bitcoin Classicu tõusuga, mis oli kõva hargnemise ettepanek, mida toetas Gavin Andressen ja mille eesmärk oli suurendada ploki suurust 2 MB-ni. Ökosüsteemi mõjukad tegelased osalesid debattides, sealhulgas Jihan Wu ja Micree Zhan, Bitmaini kaasasutajad, Adam Back, Blockstreami president, ning Luke Dashjr, Matt Corallo ja Peter Todd.
+
+Kaevurid, kes olid edusammude puudumise tõttu frustreeritud, ähvardasid toetada Bitcoin Classicut, kui 2 MB kõva hargnemist ei rakendata. Arendajad kaitsesid SegWiti kui elujõulist lahendust. Pärast tundidepikkuseid pingelisi läbirääkimisi jõuti kokkuleppele, mis sätestas, et Bitcoin Core arendajad töötavad kõva hargnemise kallal pärast SegWiti rakendamist. See kokkulepe pidi pingeid leevendama, kuid lõpuks tekitas see rohkem umbusku ja segadust. Mõlemad pooled tõlgendasid kokkulepet erinevalt, süvendades kogukonna lõhesid. Kuigi see kokkulepe aeglustas ajutiselt Bitcoin Classicu hoogu, peeti seda paljude poolt rahuldamatuks ja kohmakaks lahenduseks.

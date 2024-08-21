@@ -1,0 +1,11 @@
+question: Mis on tagasivõtmisvõtme eesmärk Lightning Network'is?
+answer: Karistada osalejat, kes üritab petta, avaldades vana kohustuse tehingu.
+wrong_answers:
+  - Premeerida osalejat, kes petab edukalt.
+  - Avada uus kanal.
+  - Valideerida tehingut.
+explanation: |
+  Tagasivõtmisvõti on mehhanism Lightning Network'is, et vältida petmist. Kui osaleja üritab petta, avaldades vana kohustuse tehingu,
+  saab teine osaleja kasutada tagasivõtmisvõtit, et petjat karistada ja võtta
+  kõik SATid kanalist.
+reviewed: false

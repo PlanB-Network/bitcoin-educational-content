@@ -1,0 +1,9 @@
+küsimus: Mida teeb Alice 0.0007 BTC UTXO-ga, kui ta avab kanali Bobiga?
+vastus: Ta saadab selle ühele oma vahetusadressidest.
+valed_vastused:
+  - Ta saadab selle Bobi avalikule aadressile.
+  - Ta saadab selle 2/2 mitme allkirjaga aadressile.
+  - Ta hoiab selle oma enda aadressil.
+selgitus: |
+  Kui Alice avab kanali Bobiga, loob ta tehingu, millel on 2 väljundit UTXO-na. Üks UTXO 0.0013 BTC läheb 2/2 mitme allkirjaga aadressile ja teine UTXO 0.0007 BTC läheb ühele tema vahetusadressidest.
+üle vaadatud: false

@@ -1,0 +1,11 @@
+question: Mis on Bitcoini Täiustamise Ettepanekute (BIPide) eesmärk?
+answer: Need on uuendusettepanekud, mis parandavad HD rahakottide funktsionaalsust ja turvalisust.
+wrong_answers:
+  - Need on ettepanekud Bitcoin'i väärtuse suurendamiseks.
+  - Need on ettepanekud Bitcoin'i kaevandamisprotsessi muutmiseks.
+  - Need on ettepanekud Bitcoin'i kasutamise reguleerimiseks.
+explanation: |
+  Bitcoini Täiustamise Ettepanekud (BIPid) on protokollid, mille eesmärk on parandada
+  HD rahakottide funktsionaalsust ja turvalisust. Näiteks BIP32 tutvustas
+  deterministlikult ja hierarhiliselt tuletatud võtmete kontseptsiooni.
+reviewed: false

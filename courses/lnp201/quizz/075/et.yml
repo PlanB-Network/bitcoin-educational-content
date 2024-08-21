@@ -1,0 +1,11 @@
+question: Mis on Keysend Lightning Network'i kontekstis?
+answer: See võimaldab kasutajal saata raha ilma saaja taotluseta
+wrong_answers:
+  - See on krüpteerimise tüüp, mida kasutatakse Lightning Network'is
+  - See on meetod uute Bitcoin'i aadresside genereerimiseks
+  - See on tööriist tehingute jälgimiseks Lightning Network'is
+explanation: |
+  Keysend Lightning Network'i kontekstis võimaldab kasutajal saata
+  raha ilma saaja taotluseta. Saatja hangib saaja
+  ID, loob eelkujutise ilma saajalt küsimata ja lisab selle maksesse.
+reviewed: false

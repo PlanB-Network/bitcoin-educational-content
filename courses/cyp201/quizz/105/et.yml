@@ -1,0 +1,13 @@
+küsimus: Millist funktsiooni kasutatakse alamvõtmete tuletamisel?
+vastus: Alamvõtmete tuletamisel kasutatakse HMAC-SHA512 funktsiooni.
+valed_vastused:
+  - Alamvõtmete tuletamisel kasutatakse SHA256 funktsiooni.
+  - Alamvõtmete tuletamisel kasutatakse MD5 funktsiooni.
+  - Alamvõtmete tuletamisel kasutatakse SHA1 funktsiooni.
+selgitus: |
+  Alamvõtmete tuletamisel kasutatakse HMAC-SHA512 funktsiooni. See
+
+  funktsioon kasutab vanemvõtit, mis on ühendatud indeksiga ja võtmepaari
+
+  seotud ahelakoodiga.
+üle vaadatud: false

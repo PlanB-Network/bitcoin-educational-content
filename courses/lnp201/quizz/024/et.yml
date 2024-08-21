@@ -1,0 +1,11 @@
+question: Mis juhtub väljamaksetehinguga pärast Lightning Network'i ülekannet?
+answer: See uuendatakse, et kajastada kanali uut jääki.
+wrong_answers:
+  - See viiakse täide ja vahendid kantakse üle.
+  - See tühistatakse ja luuakse uus tehing.
+  - See jääb samaks.
+explanation: |
+  Pärast Lightning Network'i ülekannet uuendatakse väljamaksetehingut,
+  et see kajastaks kanali uut jääki. See tehing ei viida täide, välja arvatud
+  juhul, kui kanal suletakse.
+reviewed: false

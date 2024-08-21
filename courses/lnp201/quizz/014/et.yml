@@ -1,0 +1,9 @@
+question: Mis on väljamaksetehingu eesmärk Lightning Network'is kanali avamise protsessis?
+answer: See võimaldab Alicel oma vahendid tagasi saada, kui midagi peaks valesti minema.
+wrong_answers:
+  - See võimaldab Bobil nõuda oma osa vahenditest.
+  - Seda kasutatakse kanali avamise protsessi lõpuleviimiseks.
+  - Seda kasutatakse vahendite ülekandmiseks Alicelt Bobile.
+explanation: |
+  Väljamaksetehing luuakse Alice'i poolt enne vahendite hoiustamise avaldamist multi-sig'is. See tehing võimaldab Alicel kulutada vahendeid multi-sig aadressilt oma aadressile. See on tehtud selleks, et tagada, et ta saaks oma vahendid tagasi, kui midagi peaks valesti minema.
+reviewed: false

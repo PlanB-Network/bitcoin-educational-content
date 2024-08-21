@@ -1,0 +1,9 @@
+question: Millist fraasi kasutatakse HMAC SHA-512 algoritmi abil peamise privaatvõtme arvutamiseks?
+answer: Bitcoin SEED
+wrong_answers:
+  - Bitcoin KEY
+  - Bitcoin WALLET
+  - Bitcoin HASH
+explanation: |
+  Peamine privaatvõti arvutatakse seemnest ja fraasist "Bitcoin SEED". See fraas on identne kõigi HD rahakoti tuletiste puhul, tagades järjepidevuse erinevate rahakottide vahel.
+reviewed: false

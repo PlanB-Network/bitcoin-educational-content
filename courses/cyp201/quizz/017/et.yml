@@ -1,0 +1,9 @@
+question: Mis on SHA256 räsifunktsiooni peamine eelis?
+answer: Selle vastupidavus sisendi leidmisel räsi põhjal, samal ajal kui räsi kontrollimine antud sisendi jaoks on mehaaniliselt lihtne toiming
+wrong_answers:
+  - Selle võime genereerida 512-bitine räsi muutuva suurusega sisendist
+  - Selle kasutamine täitebittide lisamiseks sisendi suuruse suurendamiseks
+  - Selle kasutamine XOR, AND ja NOT operaatoritega bittide töötlemiseks
+explanation: |
+  SHA256 räsifunktsiooni peamine eelis on selle vastupidavus sisendi leidmisel räsi põhjal, samal ajal kui räsi kontrollimine antud sisendi jaoks on mehaaniliselt lihtne toiming. See teeb sellest eelistatud valiku paljude digitaalsüsteemide turvamisel, eriti Bitcoin protokollis.
+reviewed: false

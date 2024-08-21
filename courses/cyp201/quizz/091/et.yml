@@ -1,0 +1,10 @@
+question: Mis on laiendatud võtme koorma suurus?
+answer: 65 baiti
+wrong_answers:
+  - 33 baiti
+  - 32 baiti
+  - 82 baiti
+explanation: |
+  Laiendatud võtme koorma moodustavad ahelakood (32 baiti)
+  ja vanemvõti (33 baiti), kokku 65 baiti.
+reviewed: false

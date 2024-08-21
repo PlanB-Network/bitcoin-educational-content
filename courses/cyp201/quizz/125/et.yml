@@ -1,0 +1,9 @@
+question: Mis on Bitcoinis kompresseeritud avaliku võtme suurus?
+answer: 264 bitti
+wrong_answers:
+  - 520 bitti
+  - 128 bitti
+  - 256 bitti
+explanation: |
+  Bitcoinis hõivab toores avalik võti 520 bitti. Tänu kasutatava elliptilise kõvera sümmeetriale on võimalik avalikku võtit kompresseerida, vähendades selle suurust 520 bittilt 264 bittile.
+reviewed: false

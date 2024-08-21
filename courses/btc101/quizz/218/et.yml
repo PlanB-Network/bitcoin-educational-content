@@ -1,0 +1,8 @@
+question: Mis on teksti järgi Bitcoini omaksvõtu olemus?
+answer: Viiruslik
+wrong_answers:
+  - Aeglane ja järjepidev
+  - Kiire ja kontrollimatu
+  - Hüplik ja ettearvamatu
+explanation: >-
+  Tekst kirjeldab Bitcoini omaksvõttu kui viiruslikku, viidates sellele, et see levib kiiresti ja laialdaselt ühelt inimeselt teisele, palju nagu viirus.

@@ -1,0 +1,12 @@
+question: Millist funktsiooni kasutatakse seemne genereerimiseks mnemoonilisest fraasist ja
+  paroolifraasist HD rahakotis?
+answer: pbkdf2 funktsioon
+wrong_answers:
+  - hmacha512 funktsioon
+  - SHA256 funktsioon
+  - RIPMD160 funktsioon
+explanation: |
+  pbkdf2 funktsiooni kasutatakse seemne genereerimiseks mnemoonilisest fraasist
+  ja paroolifraasist, kasutades hmacha512 ja 2048 iteratsiooni. See seeme seejärel kasutatakse
+  peamise võtme ja peamise ahelakoodi tuletamiseks.
+reviewed: false

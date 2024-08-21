@@ -1,0 +1,8 @@
+question: Mis on kaevurite tasu Bitcoin'i võrgus?
+answer: Uued bitcoinid ja tehingutasud.
+wrong_answers:
+  - Ainult uued bitcoinid.
+  - Ainult tehingutasud.
+  - Kaevuritele ei ole tasu.
+explanation: |
+  Kaevurid Bitcoin'i võrgus saavad oma töö eest, mis seisneb tehingute valideerimises ja plokkide loomises, tasuks uusi bitcoine ja tehingutasusid.

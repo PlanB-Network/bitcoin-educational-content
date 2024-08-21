@@ -1,0 +1,5 @@
+---
+term: BIT GOLD
+---
+
+Bit gold on detsentraliseeritud digitaalse valuuta süsteem, mille kontseptsiooni töötas välja Nick Szabo 1998. aastal ja kirjeldas avalikult 2005. aastal. Bit gold oli loodud genereerima ja vahetama virtuaalset ressurssi nimega bit gold. See süsteem ei põhinenud ühelgi füüsilisel kaubal, vaid oli suunatud võltsimatu nappuse loomisele. Bit goldi protokoll tugines valuuta loomisele töötõenduse (proof of work) kaudu, kus bit goldi tükid loodi arvutite arvutusvõimsust kasutades, moodustades nii töötõenduste ahela. Iga töötõend oli ajatempliga märgistatud ja seejärel lisatud vara registrisse. Bit goldi omandiõiguse kontrollimine ja üleandmine toimus avaliku registri kaudu, kus kasutajad olid tuvastatud avalike võtmetega. Bit gold jäi kontseptuaalseks etapiks ja seda ei rakendatud kunagi. See süsteem on üks Bitcoin'i eelkäijatest, koos b-money ja RPoW-ga, kuid Satoshi ei tundunud olevat selle olemasolust teadlik enne Bitcoin'i loomist. Hiljem mainiti seda Bitcoin'i veebisaidil ja foorumis.

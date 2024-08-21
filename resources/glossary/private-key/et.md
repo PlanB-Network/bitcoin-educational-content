@@ -1,0 +1,9 @@
+---
+term: PRIVAATVÕTI
+---
+
+Privaatvõti on asümmeetrilise krüptograafia põhielement. See on number (256 bitti Bitcoini kontekstis), mis esindab krüptograafilist saladust. Seda võtit kasutatakse tehingute digitaalseks allkirjastamiseks ja Bitcoini avaliku võtme (ja laiendatult, vastuvõtu aadressi) omandiõiguse tõestamiseks, rahuldades `scriptPubKey` nõudeid. Seega võimaldavad privaatvõtmed bitcoinide kulutamist, avades vastava avaliku võtme seotud UTXO-d (kasutamata tehinguväljundid). Privaatvõtmeid tuleb hoida rangelt konfidentsiaalsetena, kuna nende avalikustamine võib võimaldada pahatahtlikel kolmandatel osapooltel seotud vahendite üle kontrolli võtta.
+
+Bitcoini süsteemis on privaatvõti seotud avaliku võtmega digitaalse allkirja algoritmi kaudu, kasutades elliptilisi kõveraid (ECDSA või Schnorr). Avalik võti tuletatakse privaatvõtmest, kuid vastupidist on praktiliselt võimatu saavutada arvutusliku raskuse tõttu, mis on omane aluseks oleva matemaatilise probleemi (diskreetse logaritmi probleemi) lahendamisele. Avalikku võtit kasutatakse üldiselt Bitcoini aadressi genereerimiseks, mida kasutatakse bitcoinide lukustamiseks skripti abil. Krüptograafias on privaatvõtmed sageli juhuslikud või pseudojuhuslikud numbrid. Bitcoini spetsiifilises kontekstis deterministlikes ja hierarhilistes rahakottides tuletatakse privaatvõtmed deterministlikult seemnest. Privaatvõtmeid aetakse sageli segamini seemne või taastefraasiga (mnemoonika). Siiski on need elemendid eristatavad.
+
+> ► *Inglise keeles nimetatakse privaatvõtit "private key". See termin on mõnikord lühendatud kui "privkey" või "PV".*

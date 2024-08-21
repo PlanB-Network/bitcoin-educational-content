@@ -1,0 +1,10 @@
+question: Mis on Lightning maksekanal?
+answer: Omamoodi "privaatne rada" kahe kasutaja vahel, mis võimaldab kiireid ja korduvaid Bitcoin'i tehinguid
+wrong_answers:
+  - Üks tüüpi Bitcoin'i rahakott
+  - Meetod Bitcoin'i kaevandamiseks
+  - Üks tüüpi Bitcoin'i vahetus
+explanation: |
+  Lightning maksekanal on omamoodi "privaatne rada" kahe kasutaja vahel,
+  mis võimaldab kiireid ja korduvaid Bitcoin'i tehinguid.
+reviewed: false

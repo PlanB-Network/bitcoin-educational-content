@@ -1,0 +1,9 @@
+question: Mis on esimene samm kanali avamisel Lightning Network'is?
+answer: Kaks osapoolt suhtlevad oma kavatsusest kanal avada.
+wrong_answers:
+  - Alice saadab raha Bobi avalikule aadressile.
+  - Alice loob 2/2 multi-sig aadressi.
+  - Alice avaldab tehingu Bitcoin'i võrgustikus.
+explanation: |
+  Esimene samm kanali avamisel Lightning Network'is on kahe osapoole suhtlus nende kavatsusest kanal avada. Näiteks võib Alice öelda: "Tere, ma tahan kanalit avada!" ja Bob võib vastata: "Olgu, siin on minu avalik aadress."
+reviewed: false

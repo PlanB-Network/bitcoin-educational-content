@@ -1,0 +1,10 @@
+question: Mis on kõvastunud tuletiste algusindeks?
+answer: 2^31
+wrong_answers:
+  - 2^32
+  - 2^30
+  - 2^33
+explanation: |
+  Kõvastunud tuletised algavad indeksitest, mis on kahe astmed, eriti
+
+  2^31.

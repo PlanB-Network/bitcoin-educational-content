@@ -1,0 +1,9 @@
+küsimus: Mis on üks iseloomulik tunnus Bitcoin'i kasutajale, kes on tehnoloogiliselt pädev?
+vastus: Neil on hea arusaam tehnoloogiatest, sealhulgas kuumadest ja külmadest Bitcoin'i rahakottidest ning Lightning Network'ist.
+valed_vastused:
+  - Nad kasutavad Bitcoin'i ainult pikaajaliseks investeeringuks.
+  - Nad kasutavad Bitcoin'i ainult igapäevasteks tehinguteks.
+  - Nad kasutavad Bitcoin'i ainult vahetusplatvormidel.
+selgitus: |
+  Tehnoloogiliselt pädevad Bitcoin'i kasutajad mõistavad Bitcoin'i tehingutega seotud tehnoloogiaid, sealhulgas erinevaid rahakottide tüüpe ja Lightning Network'i.
+üle vaadatud: false

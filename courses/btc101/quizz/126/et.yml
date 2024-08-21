@@ -1,0 +1,12 @@
+question: Mis on Bitcoin'i tehing?
+answer: Bitcoin'ide omandiõiguse üleandmine, kasutades krüptograafiat.
+wrong_answers:
+  - Bitcoin'ide füüsiline vahetamine, kasutades notarit.
+  - Bitcoin'ide omandiõiguse üleandmine, kasutades füüsilist aadressi.
+  - Bitcoin'ide omandiõiguse üleandmine, kasutades e-posti aadressi.
+explanation: |
+  Bitcoin'i tehing on digitaalne Bitcoin'ide omandiõiguse üleandmine,
+  kasutades Bitcoin'i aadressi, mis on tuletatud elliptilise kõvera krüptograafia abil.
+  See aadress on unikaalne isiku Bitcoin'i rahakotile,
+  kes Bitcoin'e vastu võtab.
+reviewed: true

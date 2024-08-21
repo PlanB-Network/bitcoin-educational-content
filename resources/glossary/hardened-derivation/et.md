@@ -1,0 +1,5 @@
+---
+term: TUGEVNENUD TULETAMINE
+---
+
+Protsess, mille käigus genereeritakse lapsvõtmeid HD rahakottides. Tugevnenud tuletamine kasutab sisendina vanema privaatvõtit `HMAC-SHA512` funktsiooni jaoks, muutes laps avalike võtmete genereerimise vanema avaliku võtme ja vanema ahelakoodi abil võimatuks. Protsess hõlmab vanema privaatvõtme ja indeksi, mis on suurem või võrdne $2^{31}$, kokkuliitmist, millele järgneb `HMAC-SHA512` rakendamine vanema ahelakoodiga. Tulemus jagatakse kaheks osaks: esimesed 256 bitti lisatakse vanema privaatvõtmele, et saada laps privaatvõti, samal ajal kui ülejäänud 256 bitti moodustavad laps ahelakoodi. See meetod tagab, et isegi kui laiendatud avalik võti on kompromiteeritud, ei saa seda kasutada laps avalike võtmete tuletamiseks. Standardse tuletamise korral kasutatakse tugevnenud tuletamist kõigil tuletamise tasemetel kuni konto sügavuseni. Tuletamise tee notatsioonides tähistatakse tugevnenud tuletamist apostroofiga `'` või harvemini `h`-ga.

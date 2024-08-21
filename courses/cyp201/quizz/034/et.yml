@@ -1,0 +1,10 @@
+question: Mis on Bitcoin'i privaatvõtme suurus?
+answer: 256-bitine number
+wrong_answers:
+  - 512-bitine number
+  - 128-bitine number
+  - 1024-bitine number
+explanation: |
+  Bitcoin'i süsteemis on privaatvõti juhuslik või pseudojuhuslik 256-bitine
+  number.
+reviewed: false

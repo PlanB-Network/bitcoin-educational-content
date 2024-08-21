@@ -1,0 +1,12 @@
+question: Mis on ECDSA algoritmi eesmärk Bitcoin'i tehingute kontekstis?
+answer: Digitaalallkirjade valideerimine.
+wrong_answers:
+  - Tehinguandmete krüpteerimine.
+  - Bitcoin'i aadresside genereerimine.
+  - Uute Bitcoin'ide kaevandamine.
+explanation: |
+  ECDSA (Elliptic Curve Digital Signature Algorithm) kasutatakse
+  Bitcoin'i tehingute kontekstis digitaalallkirjade valideerimiseks. See võimaldab
+  tehingu saajal kinnitada allkirjastatud sõnumi autentsust ilma,
+  et oleks vaja saatja privaatvõtit.
+reviewed: false

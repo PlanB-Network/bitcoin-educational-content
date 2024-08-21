@@ -1,0 +1,11 @@
+question: Mis on soovitatav viis ühekordsete paroolide (OTP-de) hoidmiseks?
+answer: Hoidke OTP-sid oma mobiilseadmes.
+wrong_answers:
+  - Kirjutage need paberile.
+  - Hoidke neid oma e-postis.
+  - Jätke meelde.
+explanation: |
+  Optimaalse turvalisuse tagamiseks on soovitatav hoida ühekordseid paroole (OTP-sid)
+  oma mobiilseadmes. See on seetõttu, et mobiilseadmed on üldiselt turvalisemad
+  ja vähem tõenäoliselt kompromiteeritavad kui teised hoiustamismeetodid.
+reviewed: false

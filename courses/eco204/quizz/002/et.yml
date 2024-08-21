@@ -1,0 +1,9 @@
+question: Mis on inflatsiooni definitsioon Roberti järgi?
+answer: Inflatsioon on maksevahendite liigne suurenemine, mis põhjustab hindade tõusu ja valuuta väärtuse langust.
+wrong_answers:
+  - Inflatsioon on maksevahendite vähenemine, mis põhjustab hindade tõusu ja valuuta väärtuse langust.
+  - Inflatsioon on maksevahendite liigne suurenemine, mis põhjustab hindade langust ja valuuta väärtuse langust.
+  - Inflatsioon on maksevahendite liigne suurenemine, mis põhjustab hindade tõusu ja valuuta väärtuse tõusu.
+explanation: |
+  Roberti sõnul määratletakse inflatsiooni kui maksevahendite (paberraha, kapital) liigset suurenemist, mis põhjustab hindade tõusu ja valuuta väärtuse langust.
+reviewed: false

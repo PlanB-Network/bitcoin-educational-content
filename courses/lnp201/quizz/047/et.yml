@@ -1,0 +1,11 @@
+question: Mis toimub koostööl põhinevas sulgemises?
+answer: Kaks osapoolt suhtlevad ja lepivad kokku kanali sulgemises, kinnitavad kanali lõpliku seisundi ja loovad sulgemistehingu.
+wrong_answers:
+  - Üks osapool sunnib kanali sulgemist.
+  - Üks osapool üritab petta, avaldades vana kohustustehingu.
+  - Kaks osapoolt vaidlevad kanalis järelejäänud SATi üle.
+explanation: |
+  Koostööl põhinevas sulgemises suhtlevad kaks osapoolt ja lepivad kokku
+  kanali sulgemises. Nad peatavad kõik tehingud ja kinnitavad kanali lõpliku seisundi.
+  Seejärel loovad nad sulgemistehingu.
+reviewed: false

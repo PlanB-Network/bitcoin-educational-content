@@ -1,0 +1,11 @@
+---
+term: PASSPHRASE (BIP39)
+---
+
+Valikuline parool, mis koos taastefraasiga pakub deterministlikele ja hierarhilistele Bitcoin rahakottidele lisakihti turvalisust. HD rahakotid genereeritakse tavaliselt taastefraasist, mis koosneb 12 või 24 sõnast. See taastefraas on väga oluline, kuna see võimaldab kõikide võtmete taastamist rahakotis kaotuse korral. Siiski, see kujutab endast ühtset rikkepunkti (SPOF). Kui see on kompromiteeritud, on bitcoini varad ohus. Siin tulebki mängu passphrase. See on valikuline parool, mille kasutaja valib, ja mis lisatakse taastefraasile, et suurendada rahakoti turvalisust. Erinevalt PIN-koodist või tavalisest paroolist, mängib passphrase rolli krüptograafiliste võtmete tuletamisel.
+
+See töötab koos taastefraasiga, muutes seemne, millest võtmed genereeritakse. Seega, isegi kui keegi saab kätte teie taastefraasi, ilma passphrase'ita ei saa nad teie vahendeid kätte. Passphrase'i kasutamine loob sisuliselt uue rahakoti erinevate võtmetega. Passphrase'i muutmine (isegi veidi) genereerib erineva rahakoti.
+
+Passphrase on suvaline ja võib olla mis tahes kasutaja valitud tähemärkide kombinatsioon. Passphrase'i kasutamisel on mitmeid eeliseid. Esiteks, see vähendab taastefraasi kompromiteerimisega seotud riske, nõudes teist faktorit vahenditele juurdepääsuks. Järgmisena, seda saab strateegiliselt kasutada petterahakottide loomiseks, mis sisaldavad väikeseid bitcoini summasid, juhul kui teid füüsiliselt sunnitakse oma vahendeid varastama. Lõpuks, selle kasutamine on huvitav, kui soovitakse kontrollida HD rahakoti seemne genereerimise juhuslikkust. Passphrase peab olema piisavalt keeruline, et vastu pidada jõurünnakutele ja see tuleb usaldusväärselt salvestada. Passphrase'i kaotus võib viia vahenditele juurdepääsu võimatusele, nagu ka taastefraasi kaotus.
+
+> ► *Passphrase'i nimetatakse mõnikord ka: "kahefaktoriline seemnefraas," "parool," "seemne laiendus," "laiendussõna," või isegi "13. või 25. sõna." On märkimisväärne, et Bitcoinil on kahte tüüpi passphrase'e. Kõige tuntum on eespool kirjeldatud, mis sõltub BIP-39-st ja võimaldab terve HD rahakoti turvamist. Siiski, BIP-38 oli samuti määranud viisi unikaalse privaatvõtme turvamiseks passphrase'iga. See teine tüüpi passphrase on tänapäeval peaaegu enam mitte kasutusel.*

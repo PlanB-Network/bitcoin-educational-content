@@ -1,0 +1,13 @@
+question: Mis on tehingu maksimaalne entroopia?
+
+answer: Kõrgeim entroopia, mida tehingu struktuur saavutada võib.
+
+wrong_answers:
+  - Madalaim entroopia, mida tehingu struktuur saavutada võib.
+  - Tehingu tegelik entroopia.
+  - Tehingu efektiivsus.
+
+explanation: |
+  Maksimaalne entroopia viitab kõrgeimale entroopiale, mida konkreetne tehingu struktuur teoreetiliselt saavutada võib.
+
+reviewed: false

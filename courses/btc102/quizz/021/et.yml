@@ -1,0 +1,12 @@
+question: Mis on üks levinumaid vigu, mida algajad investorid teevad, sisenedes
+  Bitcoini maailma?
+answer: Liigne investeerimine
+wrong_answers:
+  - Alainvesteerimine
+  - Investeerimine ainult Bitcoini
+  - Üldse mitte investeerimine Bitcoini
+explanation: |
+  Üks levinumaid vigu, mida algajad investorid teevad, sisenedes
+  Bitcoini maailma, on liigne investeerimine, mis tähendab rohkem raha investeerimist, kui nad
+  endale lubada saavad. See võib viia finantsprobleemideni, kui Bitcoini väärtus langeb.
+reviewed: false

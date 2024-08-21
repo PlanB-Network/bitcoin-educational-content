@@ -1,0 +1,5 @@
+---
+term: BARE-MULTISIG
+---
+
+Standardne skriptimudel P2MS, mida kasutatakse kulutamistingimuste seadmiseks UTXO-le. See võimaldab lukustada bitcoine mitme avaliku võtmega. Nende bitcoinide kulutamiseks tuleb esitada allkiri eelnevalt määratletud arvu vastavate privaatvõtmetega. Näiteks `2/3` P2MS-il on `3` avalikku võtit `3` vastava salajase privaatvõtmega. Selle P2MS skriptiga lukustatud bitcoinide kulutamiseks tuleb teha allkiri vähemalt `2`ga `3`st privaatvõtmest. See on läviväärtusega turvasüsteem. Selle skripti leiutas 2011. aastal Gavin Andresen, kui ta oli just võtnud üle peamise Bitcoin klientrakenduse hoolduse. Tänapäeval kasutavad P2MS-i vaid mõned rakendused marginaalselt. Enamik kaasaegseid multisignatuure kasutab teisi skriptimudeleid nagu P2SH või P2WSH. Võrreldes nendega on P2MS äärmiselt lihtne. Selle koosseisu kuuluvad avalikud võtmed paljastatakse tehingu vastuvõtmisel. P2MS-i kasutamine on ka kallim kui teiste multisignatuuri skriptide puhul.

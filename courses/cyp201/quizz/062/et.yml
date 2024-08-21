@@ -1,0 +1,10 @@
+question: Mis on peamine risk, mis on seotud oma mnemoonilise fraasi genereerimisega täringuid kasutades Bitcoin tehingute jaoks?
+answer: See võib kaasa tuua teatud riske.
+wrong_answers:
+  - See võib viia ettearvatavate numbrite genereerimiseni.
+  - See võib viia duplikaatnumbrite genereerimiseni.
+  - See võib viia kehtetute numbrite genereerimiseni.
+explanation: |
+  Oma mnemoonilise fraasi genereerimine täringuid kasutades võib kaasa tuua teatud riske.
+  Seetõttu on soovitatav kasutada juhuslikult genereeritud paroolifraasi nende riskide maandamiseks.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Mis on ECDSA funktsiooni pöördumatuse tähtsus Bitcoin'i rahakoti turvalisuses?
+answer: Privaatvõtme taastamine avaliku võtme põhjal on võimatu
+wrong_answers:
+  - Privaatvõtme taastamine avaliku võtme põhjal on võimalik
+  - Avaliku võtme taastamine privaatvõtme põhjal on võimalik
+  - Avaliku võtme taastamine privaatvõtme põhjal on võimatu
+explanation: |
+  ECDSA funktsioon on pöördumatu, mis tähendab, et privaatvõtme taastamine avaliku võtme põhjal on võimatu. See pöördumatus on Bitcoin'i rahakoti turvalisuse nurgakivi.
+reviewed: false

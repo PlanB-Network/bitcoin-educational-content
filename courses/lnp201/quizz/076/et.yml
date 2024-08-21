@@ -1,0 +1,11 @@
+küsimus: Mis on Lightning Networki arve vaikimisi aegumistähtaeg?
+vastus: 1 tund
+valed_vastused:
+  - 24 tundi
+  - 30 minutit
+  - 2 tundi
+selgitus: |
+  Lightning Networki arve vaikimisi aegumistähtaeg on 1 tund.
+  See tähendab, et kui arvet ei maksta selle aja jooksul, muutub see
+  kehtetuks.
+üle vaadatud: false

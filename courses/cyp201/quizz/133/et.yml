@@ -1,0 +1,12 @@
+question: Mis on entroopia roll Hierarhilises Deterministlikus (HD) rahakotis koos BIP32-ga?
+answer: Seda kasutatakse mnemoonilise fraasi genereerimiseks juhuslikust numbrist.
+wrong_answers:
+  - Seda kasutatakse rahakoti seemne genereerimiseks.
+  - Seda kasutatakse alamvõtmete tuletamiseks.
+  - Seda kasutatakse kontrollsumma arvutamiseks.
+explanation: |
+  Hierarhilises Deterministlikus (HD) rahakotis koos BIP32-ga mängib entroopia
+  keskset rolli, kuna seda kasutatakse mnemoonilise fraasi genereerimiseks juhuslikust numbrist.
+  See mnemooniline fraas saab seejärel kodeerida lihtsalt meeldejäävateks sõnadeks
+  kasutades BIP39-s pakutud 2048 sõna nimekirja.
+reviewed: false

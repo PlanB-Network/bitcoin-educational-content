@@ -1,0 +1,10 @@
+question: Mis on nonce eesmärk Bitcoin'i tehingute kontekstis?
+answer: Seda kasutatakse digitaalse allkirja loomiseks.
+wrong_answers:
+  - Seda kasutatakse tehinguandmete krüpteerimiseks.
+  - Seda kasutatakse tehinguandmete salvestamiseks.
+  - Seda kasutatakse tehinguandmete edastamiseks.
+explanation: |
+  Bitcoin'i tehingute kontekstis kasutatakse nonce'i digitaalse allkirja loomisel. Täpsemalt kasutatakse seda kindla
+  arvu V ja kahest osast koosneva digitaalse allkirja, S1 ja S2, arvutamisel.
+reviewed: false

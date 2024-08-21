@@ -1,0 +1,5 @@
+---
+term: BIP148
+---
+
+Ettepanek, mis tutvustati märtsis 2017 arendaja poolt, kes kasutas pseudonüümi Shaolin Fry. BIP148 eesmärk oli sundida SegWiti uuenduse aktiveerimist Bitcoin'i protokollis, reageerides kaevurite poolt selle pehme kahvli jaoks signaalimise stagnatsioonile BIP9 meetodi kaudu. BIP148 pakkus välja UASF (*User-Activated Soft Fork*) rakendamise, et sundida SegWiti aktiveerimist sõlmede poolt 15. novembril 2017, kui kaevurid ei olnud SegWiti lukustanud 1. augustiks 2017. Kui BIP148 UASF oleks vastu võetud, oleksid Bitcoin võrgu sõlmed keeldunud blokkidest, mis ei andnud märku toetusest SegWitile, avaldades seeläbi survet kaevuritele uuenduse vastuvõtmiseks. Kuigi see ajalooline BIP lõpuks ei aktiveeritud, mängis see olulist rolli SegWiti edukas vastuvõtmises, sundides kaevureid lukustama pehme kahvli BIP91 kaudu. Pikemas perspektiivis seadis BIP148 olulise pretsedendi, demonstreerides kasutajate mõju, mida nad saavad avaldada oma täissõlmede kaudu Bitcoin protokolli haldusotsuste üle.

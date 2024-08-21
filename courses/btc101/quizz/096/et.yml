@@ -1,0 +1,9 @@
+question: Millest on privaatvõti tihti esindatud Bitcoin'i rahakotis?
+answer: 12 või 24 sõnast koosnev nimekiri
+wrong_answers:
+  - 12 või 48 sõnast koosnev nimekiri
+  - 32 sõnast koosnev nimekiri
+  - 64 sõnast koosnev nimekiri
+explanation: |
+  Bitcoin'i rahakotis on privaatvõti tihti esindatud 12 või 24 sõnast koosneva nimekirjana, mida tuntakse ka kui "seemne" või "mnemoonilise fraasi" all.
+reviewed: true

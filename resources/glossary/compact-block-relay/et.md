@@ -1,0 +1,5 @@
+---
+term: KOMPAKTNE BLOKI EDASTUS
+---
+
+Protokoll, mis tutvustati Bitcoin Core'is 2016. aastal läbi BIP152, mis pakub võrgusõlmedele ribalaiust säästvat meetodit. Kompaktne bloki edastus võimaldab blokiinformatsiooni edastamist kompaktsel viisil, lähtudes eeldusest, et sõlmedel on juba enamik hiljutise bloki tehingutest oma memopuhvris. Selle asemel, et edastada iga tehingut täies mahus, mis tooks kaasa dubleerimise, pakub kompaktne bloki edastus ainult lühikeste identifikaatorite saatmist juba tuntud tehingute jaoks, millele lisanduvad mõned valitud tehingud (märkimisväärselt coinbase tehing ja need, mida sõlm tõenäoliselt ei tea). Sõlm saab seejärel küsida puuduvaid tehinguid oma eakaaslastelt. Kompaktne bloki edastus vähendab seega bloki levitamise ajal vahetatava andmemahtu, mis omakorda alandab ribalaiuse tippe ja parandab võrgu üldist efektiivsust.

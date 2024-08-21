@@ -1,0 +1,9 @@
+Küsimus: Kes on kaks osapoolt, kes on seotud Lightning Network'i ülekandega näites?
+Vastus: Alice ja Bob.
+Valed vastused:
+  - Alice ja Charlie.
+  - Bob ja Charlie.
+  - Alice ja Bitcoin'i võrk.
+Selgitus: |
+  Näites on Alice ja Bob kaks osapoolt, kes on seotud Lightning Network'i ülekandega.
+Üle vaadatud: false

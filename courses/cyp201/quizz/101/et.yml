@@ -1,0 +1,9 @@
+question: Mis vahe on tavaliste alamvõtmete ja kõvastunud alamvõtmete indeksivahemikel?
+answer: Tavalistel alamvõtmetel on indeksivahemik 0-st 2 astmes 31 miinus 1-ni, samas kui kõvastunud alamvõtmetel on indeksivahemik 2 astmes 31-st 2 astmes 32 miinus 1-ni.
+wrong_answers:
+  - Tavalistel alamvõtmetel on indeksivahemik 0-st 2 astmes 32 miinus 1-ni, samas kui kõvastunud alamvõtmetel on indeksivahemik 2 astmes 31-st 2 astmes 31 miinus 1-ni.
+  - Nii tavalistel kui ka kõvastunud alamvõtmetel on sama indeksivahemik.
+  - Tavaliste ja kõvastunud alamvõtmete indeksivahemikes pole vahet.
+explanation: |
+  Tavaliste alamvõtmete indeksivahemik on 0-st 2 astmes 31 miinus 1-ni, samas kui kõvastunud alamvõtmete indeksivahemik on 2 astmes 31-st 2 astmes 32 miinus 1-ni.
+reviewed: false

@@ -1,0 +1,8 @@
+question: Mis on kiireim ja vähim kulukas kanali sulgemise tüüp?
+answer: Kooperatiivne sulgemine.
+wrong_answers:
+  - Sunnitud sulgemine.
+  - Sulgemine petturi poolt.
+  - Kiiruse ja kulu osas ei ole erinevusi sulgemise tüüpide vahel.
+explanation: |
+  Kooperatiivse sulgemise korral suhtlevad mõlemad osapooled ja lepivad kokku kanali lõplikus seisundis. See on kiireim ja vähim kulukas variant.

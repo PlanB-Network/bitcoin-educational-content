@@ -1,0 +1,14 @@
+question: Kui võtate enda hoida oma digitaalse rahakoti, mis on esimene asi, mida peaksite tegema, et minimeerida kaotuse riski?
+answer: Varundage oma rahakoti taastefraas
+wrong_answers:
+  - Jagage oma privaatvõtmeid usaldusväärse osapoolega
+  - Tehke märge oma taastefraasist ja salvestage see oma arvutisse
+  - Keelake kahefaktoriline autentimine (2FA)
+explanation: |
+  Kõigepealt ja kõige tähtsamalt, varundage oma rahakott, kui võtate enda hoida.
+  Riistvaralised rahakotid on varustatud taastefraasiga, mis on sõnade kogum, mida 
+  saab kasutada teie privaatvõtmete taastamiseks, juhul kui teie seade kaob või saab kahjustada.
+  Looge sellest taastefraasist füüsiline koopia, näiteks metallist [seemneplaat](https://coincodex.com/article/23147/best-metal-crypto-wallets-for-seed-phrase-storage/), ja 
+  hoidke seda turvalises kohas. On oluline hoida seda taastefraasi turvaliselt. 
+  ÄRGE jagage seda kunagi kellegagi.
+reviewed: true

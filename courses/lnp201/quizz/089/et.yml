@@ -1,0 +1,9 @@
+question: Mida peab ostja tegema, et hallata likviidsust Lightning Network'is?
+answer: Avada kanaleid
+wrong_answers:
+  - Ühenduda teiste sõlmedega
+  - Hoida mõlemal poolel likviidsuse tasakaalu
+  - Osta kanaleid
+explanation: |
+  Ostjate jaoks Lightning Network'is tähendab likviidsuse haldamine kanalite avamist. See annab neile väljamineva likviidsuse.
+reviewed: false

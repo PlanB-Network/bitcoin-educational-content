@@ -1,0 +1,12 @@
+küsimus: Mis juhtuks, kui kasutaja otsustab järgida teisi reegleid, mis tühistavad
+  praegused konsensuse reeglid?
+vastus: Sõlm ei ole enam osa Bitcoin võrgustikust
+valed_vastused:
+  - Sõlm saab osaks erinevast Bitcoin võrgustikust
+  - Sõlme karistatakse Bitcoin võrgustiku poolt
+  - Sõlme premeeritakse Bitcoin võrgustiku poolt
+selgitus: >-
+  Kui kasutaja otsustab järgida teisi reegleid, mis tühistavad praegused
+  konsensuse
+  reeglid, siis see sõlm ei ole enam osa Bitcoin võrgustikust.
+üle vaadatud: false

@@ -1,0 +1,11 @@
+question: Mis on peamine eesmärk kasutada juhuarvugeneraatorit (RNG) Bitcoin'i tehingutes?
+answer: Tagada privaatvõtmete terviklikkus.
+wrong_answers:
+  - Tagada tehingute kiirus.
+  - Tagada tehingute anonüümsus.
+  - Tagada tehingute seaduslikkus.
+explanation: |
+  RNG-d kasutatakse juhuslike numbrite genereerimiseks, mis on kriitilise tähtsusega
+  Bitcoin'i tehingute privaatvõtmete terviklikkuse jaoks. See aitab vältida mis tahes haavatavust,
+  mis on seotud ettearvatavusega.
+reviewed: false

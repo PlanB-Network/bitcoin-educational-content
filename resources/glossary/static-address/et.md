@@ -1,0 +1,7 @@
+---
+term: STAATILINE AADRESS
+---
+
+Vaiksete maksete kontekstis viitab see unikaalsele identifikaatorile, mis võimaldab maksete vastuvõtmist ilma aadressi korduvkasutuseta, ilma interaktsioonita ja ilma nähtava ahelasisese seoseta erinevate maksete ja staatilise aadressi vahel. See tehnika kõrvaldab vajaduse genereerida iga tehingu jaoks uued, kasutamata vastuvõtu aadressid, vältides seeläbi tavalisi interaktsioone Bitcoinis, kus saaja peab maksjale andma uue aadressi. See on mingil määral võrreldav korduvkasutatava maksekoodiga BIP47 kontekstis.
+
+See aadress koosneb kahest avalikust võtmest: $B_{\text{scan}}$ skaneerimiseks ja $B_{\text{spend}}$ kulutamiseks, mis on ühendatud, et moodustada staatiline aadress $B = B_{\text{scan}} \text{ ‖ } B_{\text{spend}}$. Saaja avaldab selle aadressi, võimaldades saatjatel tuletada unikaalseid makseaadresse ilma edasise suhtluseta saajaga. Mitme eristuva makseallika haldamiseks saab $B_{\text{spend}}$-le lisada sildi, luues nii mitu sildistatud staatilist aadressi alates $B_1$, $B_2$ jne. See võimaldab maksete eraldamist kasutades üht baasaadressi, vähendades seeläbi plokiahela skaneerimise töökoormust. Siiski, kõiki ühe üksuse staatilisi aadresse saab kergesti seostada tänu $B_{\text{scan}}$ ühisele kasutusele.

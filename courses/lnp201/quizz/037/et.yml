@@ -1,0 +1,12 @@
+küsimus: Kas keegi saab petta, avaldades kohustuse tehingus vana oleku?
+vastus: "Jah"
+valed_vastused:
+  - "Ei"
+  - Ainult juhul, kui neil on tühistamisvõti.
+  - Ainult juhul, kui nad lõid tehingu ajalukuga.
+selgitus: |
+  Keegi saab petta, avaldades kohustuse tehingus vana oleku,
+  kuna mõlemal osapoolel on avaldamata tehingu eelallkiri.
+  Siiski on olemas meetmed nagu ajalukk ja tühistamisvõti, et
+  seda ära hoida.
+üle vaadatud: false

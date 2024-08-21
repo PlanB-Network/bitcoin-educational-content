@@ -1,0 +1,9 @@
+question: Mis on kaevurite roll Bitcoin'i võrgustikus?
+answer: Kaevurid on hädavajalikud uute bitcoinide loomiseks ja Bitcoin'i võrgustiku turvalisuse tagamiseks.
+wrong_answers:
+  - Kaevurid vastutavad Bitcoin'i hinna reguleerimise eest.
+  - Kaevurid vastutavad Bitcoin'i rahakottide loomise eest.
+  - Kaevurid vastutavad Bitcoin'i protokolli kontrollimise eest.
+explanation: >-
+  Kaevurid mängivad Bitcoin'i võrgustikus kriitilist rolli, kuna nad vastutavad uute bitcoinide loomise ja Bitcoin'i võrgustiku turvalisuse tagamise eest, tarbides elektrienergiat tehingute ploki hashimiseks.
+reviewed: true

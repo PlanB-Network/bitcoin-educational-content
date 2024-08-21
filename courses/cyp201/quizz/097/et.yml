@@ -1,0 +1,8 @@
+question: Mis on laiendatud võtmete eesmärk HD rahakotis?
+answer: Neid kasutatakse alamvõtmete tuletamiseks.
+wrong_answers:
+  - Neid kasutatakse peavõtme genereerimiseks.
+  - Neid kasutatakse rahakoti krüpteerimiseks.
+  - Neid kasutatakse tehingute kinnitamiseks.
+explanation: |
+  Laiendatud võtmeid kasutatakse alamvõtmete tuletamiseks ja nende kasutamiseks on vajalik nii vanemvõti kui ka vastav ahelakood.

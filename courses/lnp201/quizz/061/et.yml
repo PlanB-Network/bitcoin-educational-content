@@ -1,0 +1,8 @@
+question: Mis juhtub, kui HTLC aegub?
+answer: Raha tagastatakse saatjale.
+wrong_answers:
+  - Raha kantakse saajale.
+  - Raha läheb kaotsi.
+  - Raha kantakse kolmandale osapoolele.
+explanation: |
+  Kui saaja ei avalikusta saladust kindla aja jooksul, siis HTLC aegub ja raha tagastatakse saatjale.

@@ -1,0 +1,11 @@
+question: Mis on digitaalse allkirja eesmärk Bitcoin'i tehingute kontekstis?
+answer: Tõestada, et olete privaatvõtme omanik, ilma seda paljastamata.
+wrong_answers:
+  - Tehinguandmete krüpteerimiseks.
+  - Tehinguandmete salvestamiseks.
+  - Tehinguandmete edastamiseks.
+explanation: |
+  Bitcoin'i tehingute kontekstis kasutatakse digitaalset allkirja selleks,
+  et tõestada, et olete privaatvõtme omanik, ilma seda paljastamata. See saavutatakse
+  kasutades ECDSA algoritmi.
+reviewed: false

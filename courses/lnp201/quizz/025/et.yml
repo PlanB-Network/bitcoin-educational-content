@@ -1,0 +1,8 @@
+question: Mis on pühendumustehingu roll Lightning Network'is?
+answer: See uuendab kanali saldo pärast iga ülekannet.
+wrong_answers:
+  - See avab kanali.
+  - See sulgeb kanali.
+  - See kannab vahendid üle.
+explanation: |
+  Pühendumustehing on uuem tehing, mis uuendab kanali saldo pärast iga ülekannet. See ei ole täidetud, kui kanal ei ole suletud.

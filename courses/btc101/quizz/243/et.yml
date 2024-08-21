@@ -1,0 +1,10 @@
+question: Mis on üks potentsiaalsetest ärivõimalustest, mis tulenevad Lightning Network'ist?
+answer: Uued majandusmudelid, kus tarbijad maksavad sisu eest vastavalt sellele, mida nad tarbivad
+wrong_answers:
+  - Uued krüptovaluutad
+  - Uued plokiahela tehnoloogiad
+  - Uued maksemeetodid
+explanation: >-
+  Lightning Network avab Bitcoin'i kasutajatele hulgaliselt põnevaid kasutusjuhte. Sellest tulenevad majandusmudelid ja ärivõimalused on arvukad
+  ja mitmekesised, sealhulgas uued majandusmudelid, kus tarbijad maksavad sisu eest vastavalt sellele, mida nad tarbivad.
+reviewed: false

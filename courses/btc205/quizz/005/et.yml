@@ -1,0 +1,11 @@
+question: Miks peetakse Bitcoini ebaefektiivseks vahendiks rahapesuks?
+answer: Kuna see on täielikult jälgitav andmebaas.
+wrong_answers:
+  - Kuna seda ei aktsepteerita laialdaselt.
+  - Kuna see on väga volatiilne.
+  - Kuna see ei ole reguleeritud.
+explanation: |
+  Bitcoin, olles täielikult jälgitav andmebaas, muudab rahapesu eriti
+
+
+  keeruliseks. Bitcoini kasutamist kurjategijate poolt saab jälitada.

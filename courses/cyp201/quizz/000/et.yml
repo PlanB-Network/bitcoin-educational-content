@@ -1,0 +1,12 @@
+question: Mis on sahtlite põhimõte krüptograafiliste räsifunktsioonide kontekstis?
+answer: See selgitab, miks hoolimata meie parimatest jõupingutustest on kokkupõrgete vältimine võimatu väljundi suuruse piirangu tõttu.
+wrong_answers:
+  - See selgitab räsifunktsioonide salvestusmehhanismi.
+  - See kirjeldab räsi loomise protsessi.
+  - See on põhimõte, mis selgitab räsifunktsioonide pöördumatust.
+explanation: |
+  Sahtlite põhimõte krüptograafiliste räsifunktsioonide kontekstis
+  selgitab, et väljundi suuruse piirangu tõttu on kokkupõrgete vältimine võimatu.
+  See on seetõttu, et võimalikke sisendeid on rohkem kui väljundeid, nii et mõned sisendid peavad
+  paratamatult jagama sama väljundit.
+reviewed: false

@@ -1,0 +1,10 @@
+question: Mis määrab, kas tehing on võimalik Lightning maksekanalis?
+answer: Fondide saatja peab omama piisavalt Bitcoini oma kanali poolel
+wrong_answers:
+  - Kanali koguvõimsus peab olema piisav tehingu katmiseks
+  - Fondide saaja peab omama piisavalt Bitcoini oma kanali poolel
+  - Tehingu peab heaks kiitma Bitcoin'i võrk
+explanation: |
+  Selleks, et tehing oleks Lightning maksekanalis võimalik,
+  peab fondide saatja omama piisavalt Bitcoini oma kanali poolel.
+reviewed: false

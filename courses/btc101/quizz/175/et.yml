@@ -1,0 +1,11 @@
+question: Mis on üks viis Bitcoin'i volatiilsuse leevendamiseks?
+answer: Finantsilised riskimaandused (stablecoin'id)
+wrong_answers:
+  - Kogu oma raha investeerimine Bitcoin'i.
+  - Turutrendide eiramine.
+  - Rohkem Bitcoin'i ostmine, kui hind langeb.
+explanation: >-
+  Bitcoin'i volatiilsust on võimalik leevendada mitmete lahendustega,
+  nagu finantsilised riskimaandused (stablecoin'id), tugev pikaajaline usk (hodling) või lihtsalt
+  mitte panustada 100% oma rahast Bitcoin'i, ilma midagi mõistmata.
+reviewed: false

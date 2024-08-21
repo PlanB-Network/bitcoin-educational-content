@@ -1,0 +1,12 @@
+question: Bernoldi sõnul, mis on ainus viis inflatsiooni lõpetamiseks?
+answer: Viia läbi rahareform ja kehtestada valitsusele piirangud
+wrong_answers:
+  - Suurendada rahapakkumist
+  - Vähendada rahapakkumist
+  - Võtta kasutusele võõrvaluuta
+explanation: |
+  Bernoldi ettepaneku kohaselt on ainus viis inflatsiooni lõpetamiseks viia läbi
+  rahareform ja kehtestada valitsusele piirangud. See hõlmab institutsiooni,
+  näiteks keskpanga, loomist, mis tegutseb sõltumatult
+  valitsuse poliitilistest otsustest.
+reviewed: false

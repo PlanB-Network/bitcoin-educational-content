@@ -1,0 +1,11 @@
+question: Kes omab tagasivõtmisvõtit Alice'i kohustustehingus?
+answer: Ainult Alice.
+wrong_answers:
+  - Ainult Bob.
+  - Nii Alice kui ka Bob.
+  - Ei Alice ega Bob.
+explanation: |
+  Alice'i kohustustehingus omab tagasivõtmisvõtit ainult Alice.
+  See võimaldab tal vahendeid liigutada ilma Timelocki lõppu ootamata, kui
+  Bob üritab petta.
+reviewed: false

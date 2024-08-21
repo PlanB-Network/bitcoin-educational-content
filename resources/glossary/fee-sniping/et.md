@@ -1,0 +1,11 @@
+---
+term: TASU SNAIPIMINE
+---
+
+Ründe stsenaarium, milles kaevurid püüavad ümber kirjutada hiljuti kinnitatud plokki, et nõuda selles sisalduvaid tehingutasusid, lisades samal ajal kõrge tasuga tehinguid, mis on vahepeal mempooli saabunud. Selle ründe lõppeesmärk kaevurile on oma kasumlikkuse suurendamine. Tasu snaipimine võib muutuda üha kasumlikumaks, kuna ploki preemia väheneb ja tehingutasud moodustavad suurema osa kaevurite tulust. See võib olla ka eeliseks, kui eelmises plokis sisalduvad tasud on oluliselt kõrgemad kui järgmises parimas kandidaatplokis. Lihtsustatult seisab kaevur selle valiku ees stiimulite osas:
+* Kaevandada tavalisel viisil järgides viimast plokki, kõrge tõenäosusega võita väike preemia;
+* Püüda kaevandada eelmist plokki (tasu snaipimine), madala tõenäosusega võita suur preemia.
+
+See rünnak kujutab endast ohtu Bitcoin süsteemile, kuna mida rohkem kaevureid seda kasutab, seda enam on ka alguses ausad kaevurid motiveeritud sama tegema. Tõepoolest, iga kord, kui uus kaevur liitub neid, kes üritavad tasu snaipida, suureneb tõenäosus, et üks ründavatest kaevuritest õnnestub, ja väheneb tõenäosus, et üks ausatest kaevuritest pikendab ahelat. Kui seda rünnakut viiakse läbi massiliselt ja pidevalt, ei oleks ploki kinnitused enam usaldusväärne näitaja Bitcoin tehingu muutumatusest. See võiks potentsiaalselt muuta süsteemi kasutuskõlbmatuks.
+
+Selle riski vastu võitlemiseks täidavad enamik rahakottide tarkvara automaatselt `nLocktime` välja nii, et see tingib tehingu valideerimise järgmise ploki kõrgusele lisamisega. Seega muutub võimatuks tehingu lisamine eelmise ploki ümberkirjutamisse. Kui `nLocktime` laialdane kasutamine Bitcoin kasutajate poolt võetakse omaks, vähendab see oluliselt tasu snaipimise stiimuleid. Tõepoolest, see julgustab blockchaini edenemist pigem kui selle ümberkirjutamist, vähendades sellest saadavat potentsiaalset kasumit. Taproot tehingute jaoks pakub BIP326 `nSequence` välja kasutamist sarnasel viisil, et saavutada `nLocktime` välja jaoks teiste tehingutüüpide puhul samaväärne efekt. Selle kasutamine tapaks kaks kärbest ühe hoobiga, parandades samuti teise kihi protokollide privaatsust, mis kasutavad sama välja.

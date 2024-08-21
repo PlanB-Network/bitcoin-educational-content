@@ -1,0 +1,5 @@
+---
+term: PHOENIX
+---
+
+Iseseisvalt hallatav mobiilne rahakottide tarkvara, mis on loodud Lightning protokolli tehingute lihtsustamiseks ja kättesaadavamaks muutmiseks. See võimaldab kasutajatel hallata oma vahendeid otse oma mobiilseadmetest ilma vajaduseta ühenduda eraldi Lightning sõlmega. Phoenix tegutseb tegelikult täisfunktsionaalse iseseisva Lightning sõlmena telefonis (Lightning rakendus). See toetab Bitcoin'i ja Lightning tehinguid ning pakub funktsioone sõlme haldamise hõlbustamiseks, nagu automaatne kanalihaldus Acinq sõlmega. Erinevalt teistest peamiselt hoiustajate poolt hallatavatest Lightning rahakoti rakendustest, pakub Phoenix huvitavat kompromissi Lightning sõlme kasutamise ja nutitelefoni rakenduse mugavuse ühendamisel. See on üks parimaid lihtsaid lahendusi algajale, kes soovib kasutada Lightning'i säilitades samal ajal täieliku omandiõiguse oma bitcoinidele (iseseisev hoidmine). Phoenix on projekti arendanud ja haldab Prantsuse ettevõte Acinq.

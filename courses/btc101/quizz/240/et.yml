@@ -1,0 +1,8 @@
+question: Mis on üks võimalikest kasudest, mida Lightning Network võib pakkuda sisuloojatele?
+answer: Nad oleksid motiveeritud tootma kvaliteetset sisu, et hoida kasutajate tähelepanu
+wrong_answers:
+  - Nad saaksid oma sisu eest küsida suuremat tasu
+  - Nad saaksid jõuda laiema publikuni
+  - Nad saaksid toota sisu kiiremini
+explanation: >-
+  Lightning Network'i abil oleksid sisuloojad motiveeritud tootma kvaliteetset sisu, et hoida kasutajate tähelepanu. Kasutajad omakorda maksaksid ainult tarbitud sisu eest, elimineerides seeläbi ettemaksuga tellimustasud.

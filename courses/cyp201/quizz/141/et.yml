@@ -1,0 +1,11 @@
+question: Mis on laiendatud võti HD rahakotis?
+answer: See saadakse, kui ühendatakse vanemvõti selle ahelakoodiga.
+wrong_answers:
+  - See on kõrgeim element HD rahakoti hierarhias.
+  - Seda kasutatakse rahakoti seemne genereerimiseks.
+  - Seda kasutatakse kontrollsumma arvutamiseks.
+explanation: |
+  Lapsevõtme tuletamine sõltub mitmest tegurist, sealhulgas
+  vanemvõtmest ja vastavast ahelakoodist. Laiendatud võti saadakse, kui
+  ühendatakse vanemvõti selle ahelakoodiga.
+reviewed: false

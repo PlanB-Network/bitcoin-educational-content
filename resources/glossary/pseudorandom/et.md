@@ -1,0 +1,7 @@
+---
+term: PSEUDO-JUHUSLIK
+---
+
+See omadussõna kirjeldab numbrijada, mis kuigi on deterministliku protsessi tulemus, ilmutab omadusi, mis on lähedased ideaalse tõeliselt juhusliku jada omadustele. Ideaalse juhuslikkuse kontseptsioon tähendab täielikku ettearvamatust ja korrelatsiooni puudumist järjestikuste elementide vahel. Pseudo-juhuslikku numbrit genereerib deterministlik algoritm ja seetõttu on see teoreetiliselt täielikult ettearvatav, kui teatakse generaatori algseisundit.
+
+Pseudo-juhuslike numbrite generaator (PRNG) on algoritm, mida kasutatakse selliste numbrite tootmiseks. See algab tavaliselt algväärtusest ehk "seemnest" ja seejärel rakendab numbrijada tootmiseks mitmesuguseid matemaatilisi transformatsioone. Tänu sellele determinismile on krüptograafilise turvalisuse seisukohast oluline, et algne seeme püsiks salajas. Pseudo-juhuslikke jadasid kasutatakse laialdaselt erinevates valdkondades, sealhulgas krüptograafias, kuna need ilmutavad näiliselt juhuslikku käitumist, mis paljudel juhtudel on piisav. PRNG kvaliteedi hindamine põhineb selle väljundi lähedusel tõelisele juhuslikkusele jaotuse, korrelatsioonide ja muude statistiliste omaduste osas. Bitcoini kontekstis kasutatakse pseudo-juhuslikke numbreid privaatvõtmete tootmiseks või deterministlike ja hierarhiliste rahakottide seemne genereerimiseks.

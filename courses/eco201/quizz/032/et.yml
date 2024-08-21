@@ -1,0 +1,12 @@
+question: Mis on majandustegevuse lõppeesmärk Carl Mengeri järgi?
+answer: Majandustegevuse lõppeesmärk on tarbimine.
+wrong_answers:
+  - Majandustegevuse lõppeesmärk on tootmine.
+  - Majandustegevuse lõppeesmärk on säästmine.
+  - Majandustegevuse lõppeesmärk on investeerimine.
+explanation: |
+  Carl Mengeri järgi peetakse kaupu majanduskaupadeks (väärtustatuks)
+  ainult seetõttu, et need on vahendid individuaalselt valitud ja hinnatud eesmärkide saavutamiseks. Seega,
+  Mengeri jaoks on majandusanalüüsi lähtepunktiks tarbekaupad ehk lõppkaubad, kuna need
+  esindavad majandustegevuse lõppeesmärki.
+reviewed: false

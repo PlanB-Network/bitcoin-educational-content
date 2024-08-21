@@ -1,0 +1,9 @@
+question: Mis juhtub, kui Alice üritab petta, avaldades vana kohustuse tehingu?
+answer: Bob kasutab tühistamisvõtit, et Alicet karistada ja võtta kanalist kõik SATid.
+wrong_answers:
+  - Alicet premeeritakse tema nutikuse eest.
+  - Alice ja Bob jagavad kanalist saadud SATid.
+  - Tehing lükatakse tagasi ja midagi ei juhtu.
+explanation: |
+  Lightning Network'il on mehhanism pettuse vältimiseks. Kui Alice üritab petta, avaldades vana kohustuse tehingu, saab Bob kasutada tühistamisvõtit, et Alicet karistada ja võtta kanalist kõik SATid.
+reviewed: false

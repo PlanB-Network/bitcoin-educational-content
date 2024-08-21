@@ -1,0 +1,9 @@
+question: Kes on tänatud kursuse loomise eest?
+answer: "Théo Mogenet"
+wrong_answers:
+  - Descoupes Bitcoin
+  - "Théo Boloré"
+  - Ükski ülaltoodust
+explanation: |
+  "Peatükis mainitakse, et Théod tänatakse kursuse loomise eest."
+reviewed: false

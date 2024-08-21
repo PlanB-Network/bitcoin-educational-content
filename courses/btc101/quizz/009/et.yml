@@ -1,0 +1,10 @@
+question: Milliseid tehnoloogiaid kasutab Bitcoin'i protokoll?
+answer: Krüptograafia, võrgusuhtlus ja plokiahel.
+wrong_answers:
+  - Tehisintellekt, masinõpe ja plokiahel.
+  - Kvantarvutus, võrgusuhtlus ja plokiahel.
+  - Krüptograafia, tehisintellekt ja plokiahel.
+explanation: >-
+  Bitcoin'i protokoll kasutab aluseks olevaid tehnoloogiaid nagu krüptograafia,
+  võrgusuhtlus ja plokiahel.
+reviewed: true

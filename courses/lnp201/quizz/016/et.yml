@@ -1,0 +1,9 @@
+question: Mis on 2/2 multi-sig aadressi tähtsus Lightning Network'is kanali avamise protsessis?
+answer: See on aadress, kuhu Alice saadab raha kanali avamiseks.
+wrong_answers:
+  - See on aadress, millelt Alice saadab raha kanali avamiseks.
+  - See on aadress, kuhu Bob saadab raha kanali avamiseks.
+  - See on aadress, millelt Bob saadab raha kanali avamiseks.
+explanation: |
+  Kanali avamise protsessis loob Alice 2/2 multi-sig aadressi, kasutades enda ja Bobi avalikke aadresse. Seejärel teeb ta bitcoin'i tehingu, et saata raha sellele aadressile kanali avamiseks.
+reviewed: false

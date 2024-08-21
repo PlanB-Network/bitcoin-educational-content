@@ -1,0 +1,12 @@
+küsimus: Mis on praegune kaevandamispreemia Bitcoin'i võrgus?
+vastus: Uute bitcoinide loomine ja tehingutasud
+valed_vastused:
+  - Ainult uute bitcoinide loomine
+  - Ainult tehingutasud
+  - Uute bitcoinide loomine, tehingutasud ja boonus kiireimale kaevandajale
+selgitus: |
+  Praegune kaevandamispreemia Bitcoin'i võrgus on kahekordne. See hõlmab
+  uute bitcoinide loomist, mis on alates 50 bitcoinist iga kümne minuti järel
+  alguses vähenenud tänaseks (2023) 6,25 bitcoinini. See hõlmab ka tehingutasusid ehk kaevandamistasusid,
+  mille kaevandaja otsustab oma plokki kaasata. 
+kontrollitud: false

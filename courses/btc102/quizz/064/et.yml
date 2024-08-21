@@ -1,0 +1,12 @@
+question: Mis on soovitatud lahendus korduvateks Bitcoin'i ostudeks ilma stressita?
+answer: Kasutage DCA lahendust
+wrong_answers:
+  - Kasutage kuumat rahakotti
+  - Kasutage külma rahakotti
+  - Kasutage mitte-KYC lahendust
+explanation: |
+  Soovitatud lahendus korduvateks Bitcoin'i ostudeks ilma stressita
+  on kasutada DCA (Dollar Cost Averaging) lahendust. See strateegia hõlmab
+  investeerimiseks mõeldud kogusumma jaotamist perioodiliste ostude vahel, et vähendada
+  volatiilsuse mõju.
+reviewed: false

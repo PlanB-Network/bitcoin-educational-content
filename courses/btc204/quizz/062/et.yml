@@ -1,0 +1,11 @@
+question: Nende valikute hulgast, milline ei ole automaatse osade valiku meetod?
+
+answer: Vaikivad Maksed
+
+wrong_answers:
+  - Oksa-ja-Piiri
+  - FIFO
+  - Seljakoti Lahendaja
+
+explanation: |
+  Erinevalt teistest kolmest valikust, Vaikivad Maksed ei ole osade valimise meetod, vaid protokoll staatiliste aadresside kasutamiseks.

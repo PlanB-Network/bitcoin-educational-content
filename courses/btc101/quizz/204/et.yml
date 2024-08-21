@@ -1,0 +1,9 @@
+question: Mis on üks asjadest, mida peaksid arvestama DCA platvormi valimisel?
+answer: Kättesaadavus sinu riigis.
+wrong_answers:
+  - Platvormi logo värv.
+  - Kasutajate arv platvormil.
+  - Platvormi vanus.
+explanation: >-
+  Tekstis mainitakse, et DCA platvormi valimisel sõltub valik rohkem kättesaadavusest sinu riigis.
+reviewed: false

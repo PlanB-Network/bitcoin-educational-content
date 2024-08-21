@@ -1,0 +1,9 @@
+question: Mis juhtub, kui tehingukatse ebaõnnestub Lightning Network'is likviidsuse puudumise tõttu?
+answer: Proovitakse teist marsruuti, kuni tehing õnnestub.
+wrong_answers:
+  - Tehing tühistatakse ja vahendid tagastatakse saatjale.
+  - Tehing pannakse ootele, kuni piisav likviidsus on saadaval.
+  - Tehing suunatakse automaatselt ümber kanalisse, kus on piisav likviidsus.
+explanation: |
+  Lightning Network'is, kui tehingukatse ebaõnnestub kanalis likviidsuse puudumise tõttu, proovib sõlm teist marsruuti. See protsess jätkub, kuni tehing õnnestub. See mehhanism tagab, et tehinguid saab lõpule viia isegi siis, kui esialgselt valitud marsruudil ei ole piisavalt likviidsust.
+reviewed: false

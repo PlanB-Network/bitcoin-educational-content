@@ -1,0 +1,9 @@
+question: Mis on tavaline teine samm 2FA-s?
+answer: Rakenduse, nagu Google Authenticator või Authy, genereeritud kood.
+wrong_answers:
+  - Telefonikõne kontoomanikule
+  - E-kiri kontoomanikule
+  - Kiri saadetud kontoomaniku koduaadressile
+explanation: |
+  Teine samm 2FA-s võib olla ajutine kood, mis saadetakse SMS-i teel, rakenduse poolt genereeritud kood või füüsiline turvavõti.
+reviewed: false

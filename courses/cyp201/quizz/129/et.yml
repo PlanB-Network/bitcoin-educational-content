@@ -1,0 +1,12 @@
+question: Mis on HRP (Human Readable Part) Bitcoin'i aadressis?
+answer: See on sisendinformatsiooni osa, mis on vajalik BCH programmi jaoks.
+wrong_answers:
+  - See on avaliku võtme räsi.
+  - See on aadressi kontrollsumma.
+  - See on aadressiga seotud privaatvõti.
+explanation: |
+  BCH programm nõuab mitmeid sisendandmeid, sealhulgas HRP
+  
+  (Human Readable Part), mida on vaja laiendada. See on osa protsessist,
+  
+  Bitcoin'i aadressi konstrueerimisel.

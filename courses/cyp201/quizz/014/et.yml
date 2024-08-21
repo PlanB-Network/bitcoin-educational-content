@@ -1,0 +1,10 @@
+küsimus: Mitu arvutusvooru viiakse läbi SHA256 tihendusfunktsioonis?
+vastus: 64
+valed_vastused:
+  - 32
+  - 128
+  - 256
+selgitus: |
+  SHA256 tihendusfunktsioonis viiakse läbi 64 arvutusvooru.
+  Nagu jalgrattavõistlusel, parandab iga ring funktsiooni positsiooni.
+üle vaadatud: false

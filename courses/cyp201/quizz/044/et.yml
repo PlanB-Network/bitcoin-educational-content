@@ -1,0 +1,11 @@
+question: Mis on generaatorpunkti roll elliptilisel kõveral?
+answer: Seda kasutatakse punkti arvutamiseks elliptilisel kõveral.
+wrong_answers:
+  - Seda kasutatakse nonce'i genereerimiseks.
+  - Seda kasutatakse võtmete krüpteerimiseks.
+  - Seda kasutatakse võtmete salvestamiseks.
+explanation: |
+  Generaatorpunkt on spetsiifiline punkt elliptilisel kõveral, mida
+  kasutatakse teiste punktide arvutamisel kõveral. Seda kasutatakse avalike ja privaatvõtmete
+  genereerimisel, samuti digitaalsete allkirjade loomisel ja kontrollimisel.
+reviewed: false

@@ -1,0 +1,10 @@
+küsimus: Mis on HodlHodl P2P lahenduse ainulaadne omadus?
+vastus: See pakub soovitussüsteemi.
+valed_vastused:
+  - See toimib TOR-i alusel.
+  - See kasutab vaidluste haldamiseks multisigni.
+  - Selle kasutamiseks on vajalik konto loomine.
+selgitus: |
+  Peatükis mainitakse, et HodlHodl pakub soovitussüsteemi, mis on
+  ainulaadne omadus võrreldes arutatud P2P lahendustega.
+üle vaadatud: false

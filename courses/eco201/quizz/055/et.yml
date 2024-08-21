@@ -1,0 +1,10 @@
+question: Mis on aksioomide roll Austria majandusmõtlemises?
+answer: Aksioomid on põhielemendid, millest saab teha loogilisi järeldusi.
+wrong_answers:
+  - Aksioomid on Austria majandusmõtlemises ebaolulised.
+  - Aksioome kasutatakse muutujate vaheliste suhete loomiseks tuginedes empiirilistele andmetele.
+  - Aksioome kasutatakse hüpoteeside kinnitamiseks või ümberlükkamiseks ajutiste eksperimentide kaudu.
+explanation: |
+  Austria majandusmõtlemises mängivad aksioomid olulist rolli. Need on
+  põhielemendid, millest saab teha loogilisi järeldusi.
+reviewed: false

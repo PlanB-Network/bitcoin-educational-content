@@ -1,0 +1,11 @@
+question: Milleks kasutatakse kuumat rahakotti Bitcoin'i kontekstis?
+answer: Regulaarseks bitcoinide saatmiseks ja vastuvõtmiseks igapäevaseks kasutamiseks.
+wrong_answers:
+  - Bitcoinide turvaliseks hoiustamiseks pikaks ajaks.
+  - Uute bitcoinide kaevandamiseks.
+  - Bitcoinidega kauplemiseks vahetusplatvormil.
+explanation: |
+  Kuum rahakott on tüüpi Bitcoin'i rahakott, mis on ühendatud internetiga,
+  muutes selle sobilikuks igapäevasteks tehinguteks. Siiski on see rohkem
+  altid häkkimisele ja vargusele kui külm rahakott.
+reviewed: false

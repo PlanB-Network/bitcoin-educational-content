@@ -1,0 +1,9 @@
+question: Mis on Ludwig von Misesi peamine argument tema artiklis "Majandusarvestus sotsialistlikus ühiskonnas"?
+answer: Ratsionaalne majandusorganisatsioon on võimatu ilma tootmistegurite vahepealsete hindadeta.
+wrong_answers:
+  - Sotsialism on moraalselt kapitalismist üle.
+  - Kapitalism on ainus elujõuline majandussüsteem.
+  - Sotsialism võib toota inimesi, kes on ilma kapitalistlikest instinktidest.
+explanation: |
+  Mises väitis, et ilma turuta, mis määrab tootmistegurite vahepealsed hinnad, muutub ressursside kasutamise ratsionaliseerimine tööstusharude lõikes võimatuks. See tähendab, et isegi kui iga firma või majanduse alamosa sees on täiuslik organisatsioon, ei suuda kogu majandus tõhusalt kohanduda ressursside kättesaadavuse, tootmistingimuste ja tarbijate eelistuste muutustega.
+reviewed: false

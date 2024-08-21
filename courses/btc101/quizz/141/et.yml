@@ -1,0 +1,11 @@
+küsimus:
+  Kui palju maksab Bitcoin'i sõlme käitamine Raspberry Pi 4-l aastas elektrikulu mõttes?
+vastus: Natuke vähem kui 10€ aastas
+valed_vastused:
+  - Umbes 50€ aastas
+  - Umbes 100€ aastas
+  - Umbes 200€ aastas
+selgitus: >-
+  Bitcoin'i sõlme käitamine Raspberry Pi 4-l maksab elektrikulu mõttes natuke vähem kui\
+  10€ aastas.
+üle vaadatud: false

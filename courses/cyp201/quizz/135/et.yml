@@ -1,0 +1,10 @@
+question: Mis on paroolilause eesmärk HD rahakotis?
+answer: See toimib krüptograafilise soolana, mis lisab rahakotile lisakihi kaitset.
+wrong_answers:
+  - Seda kasutatakse rahakoti seemne genereerimiseks.
+  - Seda kasutatakse tuletatud võtmete saamiseks.
+  - Seda kasutatakse kontrollsumma arvutamiseks.
+explanation: |
+  Paroolilause HD rahakotis toimib krüptograafilise soolana, mis lisab
+  rahakotile lisakihi kaitset. Seda kasutatakse koos mnemoonilise fraasiga,
+  et genereerida rahakoti seeme.

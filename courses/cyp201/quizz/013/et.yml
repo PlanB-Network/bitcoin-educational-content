@@ -1,0 +1,10 @@
+question: Mis on JA operaatori roll SHA256 tihendusfunktsioonis?
+answer: Tagastada 1 ainult siis, kui mõlemad operandid on võrdsed 1-ga
+wrong_answers:
+  - Töödelda bitte ükshaaval vastavalt nende järjestusele
+  - Tagastada operandi vastandväärtus
+  - Nihutada bitte paremale valitud arvu võrra
+explanation: |
+  SHA256 tihendusfunktsioonis kasutatakse JA operaatorit, et tagastada
+  1 ainult siis, kui mõlemad operandid on võrdsed 1-ga. See tehakse kasutades tõeväärtustabelit.
+reviewed: false

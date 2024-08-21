@@ -1,0 +1,9 @@
+question: Mis on kanali likviidsus Lightning Network'is?
+answer: Satoshide hulk, mida saab kanali kaudu üle kanda.
+wrong_answers:
+  - Tehingute arv, mida saab kanali kaudu teha.
+  - Kiirus, millega tehinguid saab kanali kaudu teha.
+  - Tehingu tegemise maksumus kanali kaudu.
+explanation: |
+  Lightning Network'is viitab kanali likviidsus satoshide hulgale, mida saab kanali kaudu üle kanda. Nende kanalite likviidsust ei saa üle kanda teistesse likviidsuskanalitesse.
+reviewed: false

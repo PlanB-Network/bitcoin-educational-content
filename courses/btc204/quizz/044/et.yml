@@ -1,0 +1,8 @@
+question: Millist mehhanismi kasutavad veebipõhised peer-to-peer (P2P) vahendusplatvormid varguse riski vähendamiseks?
+answer: Escrow mehhanismi.
+wrong_answers:
+  - Turvaline sobitamisalgoritm.
+  - E-posti kinnitamise mehhanism.
+  - Isikutuvastuse mehhanism.
+explanation: |
+  Need platvormid kasutavad tavaliselt kaitsemehhanismi, kus bitcoine hoitakse seni, kuni müüja kinnitab makse fiat-rahas. See kolmanda osapoole poolt hoidmise mehhanism on tuntud kui escrow.

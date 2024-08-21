@@ -1,0 +1,10 @@
+küsimus: Mis on Lightning Network Bitcoin'i kontekstis?
+vastus: Teise kihi tehnoloogia, mis toob uue nägemuse sellest, mis Bitcoin on.
+valed_vastused:
+  - Bitcoin'i kaevurite võrgustik.
+  - Uut tüüpi Bitcoin.
+  - Bitcoin'i kauplemisplatvorm.
+selgitus: |
+  Lightning Network on "kiht 2" makseprotokoll, mis toimib
+  plokiahela-põhise krüptoraha (nagu Bitcoin) peal. See on loodud selleks,
+  et võimaldada kiireid tehinguid osalevate sõlmede vahel.

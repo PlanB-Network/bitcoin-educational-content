@@ -1,0 +1,9 @@
+question: Mis on TOR võrk?
+answer: Võrk, mis pakub anonüümsust, varjates kasutaja IP-aadressi ja võimaldades juurdepääsu Darknetile.
+wrong_answers:
+  - Võrk, mis kaitseb teie seadet viiruste ja muu pahavara eest.
+  - Võrk, mis peidab teie veebitegevust teie internetiteenuse pakkujalt.
+  - Võrk, mis võimaldab teil sirvida internetti kiiremini.
+explanation: |
+  TOR (The Onion Router) võrk on võrk, mis pakub anonüümsust, varjates kasutaja IP-aadressi ja võimaldades juurdepääsu Darknetile. Seda kasutavad ajakirjanikud, vabadusaktivistid ja teised, kes soovivad põgeneda tsensuuri eest autoritaarsetes riikides.
+reviewed: false

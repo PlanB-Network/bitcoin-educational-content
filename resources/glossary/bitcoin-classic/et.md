@@ -1,0 +1,5 @@
+---
+term: BITCOIN CLASSIC
+---
+
+Ettepanek protokolli hargnemiseks, mis käivitati jaanuaris 2016 pärast Bitcoin XT hülgamist. Selle eesmärk oli suurendada ploki suuruse limiiti 1 MB-lt 2 MB-le BIP109 abil, mis oli peetud mõõdukamaks lähenemiseks võrreldes Bitcoin XT-ga, mis pakkus palju suuremat suurenemist (8 MB + kahekordistumine iga kahe aasta tagant). Selle algatuse eestvedajateks olid arendajad Gavin Andresen ja Jeff Garzik ning seda toetasid suured ettevõtted ökosüsteemis nagu Coinbase. Bitcoin Classic tekkis Blocksize Sõja intensiivse eskaleerumise kontekstis ja klassifitseeriti suurte blokeerijate leeri hulka. Kuigi Bitcoin Classic tõmbas paljude sektori osalejate tähelepanu ja toetuse, oli selle aktiveerimismehhanism, mis nõudis kaevuritelt 75% toetust, vastuoluline ja lõppkokkuvõttes aitas kaasa selle ebaõnnestumisele.

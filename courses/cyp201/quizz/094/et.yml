@@ -1,0 +1,12 @@
+question: Mis on ahelakoodi eesmärk laiendatud võtmes?
+answer: See võimaldab spetsiifilisi tuletisi alamvõtmetest.
+wrong_answers:
+  - Seda kasutatakse peavõtme genereerimiseks.
+  - Seda kasutatakse laiendatud võtme krüpteerimiseks.
+  - Seda kasutatakse laiendatud võtme autentsuse kontrollimiseks.
+explanation: |
+  Ahelakood on koos vanemvõtmega hädavajalik alamvõtmete tuletamiseks.
+
+  Vanemvõtme ahelakoodiga kokku liites saadakse laiendatud privaatne
+
+  või avalik võti.

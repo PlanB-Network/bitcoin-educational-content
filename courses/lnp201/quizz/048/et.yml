@@ -1,0 +1,11 @@
+question: Mis on sundlõpetus?
+answer: Üks osapool soovib kanalit sulgeda, kuid teine osapool ei vasta, seega avaldab esimene osapool kõige uuema kohustuse tehingu.
+wrong_answers:
+  - Mõlemad osapooled nõustuvad kanali sulgemisega ja loovad sulgemistehingu.
+  - Üks osapool üritab petta, avaldades vana kohustuse tehingu.
+  - Mõlemad osapooled vaidlevad kanalis järelejäänud SATi üle.
+explanation: |
+  Sundlõpetus toimub siis, kui üks osapool soovib kanalit sulgeda, kuid
+  teine osapool ei vasta, kuna nad on võrguühenduseta. Esimene osapool avaldab siis
+  kõige uuema kohustuse tehingu.
+reviewed: false

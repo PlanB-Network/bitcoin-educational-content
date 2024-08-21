@@ -1,0 +1,5 @@
+---
+term: BIP16
+---
+
+BIP16 tutvustas *Pay-to-Script-Hash* (P2SH) kontseptsiooni, mis tõlkes tähendab "maksa skripti räsi järgi". Esialgu 2012. aastal välja pakutud ja 2013. aastal aktiveeritud, oli BIP16 eesmärk lihtsustada tehingute kasutamist, mis nõuavad keerukaid skripte, nagu multisignatuuriga tehingud, lubades kasutajatel maksta skripti nõutava räsi järgi, mitte skripti enda järgi. See uuendus vähendas algse tehingu andmemahtu, nihutades täieliku skripti esitamise kohustuse poolele, kes bitcoine kulutab. Samuti võimaldas see skripti avalikustada alles bitcoinide kulutamise hetkel, mitte vastuvõtmise ajal. BIP16 omab ajaloolist tähtsust, kuna see esindab üht esimest suuremat muudatust Bitcoin'i protokollis pärast Nakamoto taandumist 2011. aastal. See BIP oli väga tuliste debattide keskmes, mis isegi viisid Gavin Andreseni, Satoshi järeltulija kui peamise hooldaja, ajutisele eemalolekule. Olemas oli mitmeid teisi ettepanekuid, mõned neist olid isegi lähedal aktiveerimisele BIP16 asemel.

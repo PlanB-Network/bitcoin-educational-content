@@ -1,0 +1,11 @@
+question: Mis on räsi krüptograafiliste räsifunktsioonide kontekstis?
+answer: Unikaalne ja fikseeritud suurusega digitaalne sõrmejälg, mille loob räsifunktsioon.
+wrong_answers:
+  - Üks tüüpi krüpteerimisalgoritm.
+  - Võti andmete dekrüpteerimiseks.
+  - Meetod andmete kokkupakkimiseks.
+explanation: |
+  Krüptograafiliste räsifunktsioonide kontekstis on räsi unikaalne ja
+  fikseeritud suurusega digitaalne sõrmejälg, mille loob räsifunktsioon. See esindab
+  sisendandmeid viisil, mis on unikaalne ja pöördumatu.
+reviewed: false

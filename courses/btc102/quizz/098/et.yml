@@ -1,0 +1,9 @@
+question: Milliseid rahakotte võiks kasutada paranoiline Bitcoin'i kasutaja?
+answer: Samourai rahakott kui kuum rahakott, Coldcard ja/või Seed Signer kui külm rahakott
+wrong_answers:
+  - Coinbase rahakott kui kuum rahakott, Ledger kui külm rahakott
+  - Binance rahakott kui kuum rahakott, Trezor kui külm rahakott
+  - PayPal kui kuum rahakott, Pangakonto kui külm rahakott
+explanation: |
+  Peatükk mainib Samourai rahakotti kui kuuma rahakotti ja Coldcardi ja/või Seed Signerit kui külma rahakotti, mida paranoiline Bitcoin'i kasutaja võiks kasutada.
+reviewed: false

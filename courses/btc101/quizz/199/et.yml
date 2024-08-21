@@ -1,0 +1,10 @@
+question: Mis on dollar cost averaging?
+answer: Väikeste Bitcoin'i koguste ostmine regulaarsete intervallidega.
+wrong_answers:
+  - Suure hulga Bitcoin'i korraga ostmine.
+  - Bitcoin'i ostmine ainult siis, kui hind langeb.
+  - Bitcoin'i ostmine ainult siis, kui hind tõuseb.
+explanation: >-
+  Tekst selgitab, et dollar cost averaging hõlmab väikeste Bitcoin'i koguste
+  ostu regulaarsete intervallidega. See meetod silub hinna üle aja ja
+  tagab Bitcoin'i koguse järjepideva kasvu.

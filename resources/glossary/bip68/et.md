@@ -1,0 +1,5 @@
+---
+term: BIP68
+---
+
+Tutvustas võimalust kasutada suhtelisi lukustusaegu läbi `nSequence` välja. See võimaldab tehingul määrata suhtelise viivituse enne, kui see saab olla blokki lisatud. See viivitus võib olla määratletud kas blokkide arvuna või 512 sekundi (st reaalaja) kordsetena. Pane tähele, et see uus `nSequence` välja tõlgendus on kehtiv ainult juhul, kui `nVersion` välja väärtus on suurem või võrdne `2`-ga. Selle `nSequence` välja tõlgendus toimub Bitcoin'i konsensuse reeglite tasandil. Suhteline ajalukk seab viivituse alates eelmise tehingu aktsepteerimisest, samas kui absoluutne ajalukk määrab täpse hetke, enne mida tehingut ei saa blokki lisada. BIP68 tutvustati pehme tarkvarauuenduse kaudu 4. juulil 2016, koos BIP112 ja BIP113-ga, aktiveeritud esimest korda kasutades BIP9 meetodit.

@@ -1,0 +1,11 @@
+küsimus: Mis peaks olema peamine mure, kui omate bitcoine?
+vastus: Oma vahendite turvalisus
+valed_vastused:
+  - Oma bitcoinide väärtus dollarites
+  - Bitcoinide omamise seaduslikkus
+  - Loa saamine oma bitcoinide kulutamiseks
+selgitus: |
+  Kui omate bitcoine, on peamine mure oma vahendite turvalisus.
+  See on seetõttu, et bitcoinid, nagu iga teinegi valuuta, võivad olla varastatud või kaotsi minna,
+  kui neid korralikult ei turvata.
+üle vaadatud: true

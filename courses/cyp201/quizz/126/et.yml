@@ -1,0 +1,10 @@
+question: Mis on BCH (Bose-Chaudhuri-Hocquenghem) kontrollsumma tehnoloogia eesmärk Bitcoin'i aadressides?
+answer: See võimaldab tuvastada vigu ja vähendab tähemärkide arvu, mis on vajalik aadressi esitamiseks.
+wrong_answers:
+  - See krüpteerib aadressi turvalisuse eesmärgil.
+  - See suurendab tähemärkide arvu, mis on vajalik aadressi esitamiseks.
+  - See võimaldab parandada vigu aadressis.
+explanation: |
+  BCH kontrollsumma tehnoloogiat kasutatakse Bitcoin'i aadressides vea tuvastamiseks.
+
+  See aitab samuti vähendada tähemärkide arvu, mis on vajalik aadressi esitamiseks, muutes selle kasutamise lihtsamaks.

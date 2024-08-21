@@ -1,0 +1,12 @@
+question: Mida näitab XPUB eesliide pikendatud võtmes?
+answer: See on pikendatud avalik võti.
+wrong_answers:
+  - See on pikendatud privaatvõti.
+  - See on peavõti.
+  - See on alamvõti.
+explanation: |
+  Pikendatud võtmed on identifitseeritud spetsiifiliste eesliidetega (XPRV, XPUB, YPUB,
+
+  ZPUB), mis näitavad, kas tegemist on pikendatud privaat- või avaliku võtmega, samuti
+
+  nende konkreetse eesmärgi.

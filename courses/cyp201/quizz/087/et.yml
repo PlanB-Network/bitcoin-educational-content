@@ -1,0 +1,10 @@
+question: Mis on peamise privaatvõtme ja rahakoti laiendatud võtmete vaheline suhe?
+answer: Peamine privaatvõti on esimene privaatvõti, mis on tuletatud seemnest ja ei ole ühenduses rahakoti laiendatud võtmetega.
+wrong_answers:
+  - Peamine privaatvõti on tuletatud rahakoti laiendatud võtmetest.
+  - Peamine privaatvõti on sama mis rahakoti laiendatud võtmed.
+  - Peamine privaatvõti on kasutusel rahakoti laiendatud võtmete genereerimiseks.
+explanation: |
+  Peamine privaatvõti on esimene privaatvõti, mis on tuletatud seemnest
+  ja ei ole ühenduses rahakoti laiendatud võtmetega.
+reviewed: false

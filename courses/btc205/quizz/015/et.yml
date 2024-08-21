@@ -1,0 +1,9 @@
+küsimus: Milline P2P lahendus kasutab kiirete tehingute jaoks Lightning Network'i?
+vastus: RoboSat
+valed_vastused:
+  - Bisq
+  - Peach
+  - HodlHodl
+selgitus: |
+  Peatükis mainitakse, et RoboSat kasutab kiirete tehingute võimaldamiseks Lightning Network'i.
+üle vaadatud: false

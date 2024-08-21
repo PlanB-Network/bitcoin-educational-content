@@ -1,0 +1,11 @@
+question: Mis on Lightning Network?
+answer: Maksekanalite võrgustik.
+wrong_answers:
+  - Üks krüptoraha tüüp.
+  - Plokiahela tehnoloogia.
+  - Digitaalne rahakott Bitcoinile.
+explanation: |
+  Lightning Network on maksekanalite võrgustik. Tuhandeid
+  partnereid oma likviidsuskanalitega on omavahel ühendatud, võimaldades
+  tehingute sooritamist omavahel mitteühendatud partnerite vahel.
+reviewed: false

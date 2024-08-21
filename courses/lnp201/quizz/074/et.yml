@@ -1,0 +1,9 @@
+question: Mis on LNURL meta-protokolli eesmärk Lightning Network arvel?
+answer: See võimaldab esitada otse satoshi summat, selle asemel, et teha päring
+wrong_answers:
+  - See krüpteerib arve andmed
+  - See kinnitab saaja isikusamasust
+  - See arvutab tehingu tasu
+explanation: |
+  LNURL meta-protokoll Lightning Network arvel võimaldab esitada otse satoshi summat, selle asemel, et teha päring. See omadus parandab kasutajakogemust, muutes makseprotsessi paindlikumaks.
+reviewed: false

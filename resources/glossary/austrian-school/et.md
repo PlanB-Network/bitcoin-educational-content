@@ -1,0 +1,5 @@
+---
+term: AUSTRIA KOOLKOND
+---
+
+Majandusmõtte koolkond, mis teoreetiseerib turgu kui vabatahtlike individuaalsete interaktsioonide kogumit, rõhutab majanduskorra spontaansust ja kritiseerib riiklikke sekkumisi. Austria koolkond pooldab eraomandi, lepinguvabaduse ja vabakaubanduse rolli, samal ajal kritiseerides rahaloomise häirivaid mõjusid majandusele. Selle panustajad, nagu Carl Menger, Ludwig von Mises ja Friedrich Hayek, on välja töötanud kontseptsioone nagu hinnakujunemine, raha funktsioon, kapitali dünaamika ja subjektiivne väärtusteooria. Austria koolkond kritiseerib sotsialismi selle võimetuse eest teostada efektiivseid majandusarvestusi ja eelistab liberaalset lähenemist. See väärtustab vaba turgu ja näeb riiklikku sekkumist majanduse tasakaalutuste allikana. Paljud Bitcoin'i entusiastid järgivad neid ideid, uskudes, et Bitcoin esindab tööriista, mis on kooskõlas selle filosoofiaga tänu oma hajutatud olemusele, selle rahaloomise piirangutele ja võimele toimida sõltumatult riiklikust sekkumisest.

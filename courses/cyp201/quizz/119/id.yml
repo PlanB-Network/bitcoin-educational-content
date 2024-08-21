@@ -1,0 +1,8 @@
+pertanyaan: Apa itu alamat penerima Bitcoin?
+jawaban: Sebuah hash dari kunci publik, dengan format spesifik.
+jawaban_salah:
+  - Sebuah pengenal unik untuk pengguna Bitcoin.
+  - Kunci publik dari pengguna Bitcoin.
+  - Sebuah skrip yang mengunci bitcoin ke sebuah kunci publik.
+penjelasan: |
+  Alamat penerima Bitcoin adalah sebuah hash dari kunci publik, dengan format spesifik. Alamat ini digunakan untuk menerima dana pada sebuah koin dan dihasilkan dari pasangan kunci privat dan kunci publik.

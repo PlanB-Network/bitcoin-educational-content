@@ -1,0 +1,12 @@
+pertanyaan: Apa arti penting dari BIP32 dalam ekosistem Bitcoin?
+jawaban: Ini merevolusi cara kunci dihasilkan dan disimpan, memperkenalkan konsep kunci yang diturunkan secara deterministik dan hierarkis.
+jawaban_salah:
+  - Ini memperkenalkan frasa mnemonik 24 kata.
+  - Ini mengusulkan penambahan passphrase tambahan untuk memperkuat keamanan kunci individu.
+  - Ini menstandarkan struktur dan hierarki dompet HD.
+penjelasan: |
+  BIP32, diluncurkan pada tahun 2012, merevolusi cara kunci-kunci ini dihasilkan
+  dan disimpan, memperkenalkan konsep kunci yang diturunkan secara deterministik dan hierarkis.
+  Ini sangat menyederhanakan proses penyimpanan kunci-kunci ini, sambil mempertahankan
+  tingkat keamanan mereka.
+ditinjau: false

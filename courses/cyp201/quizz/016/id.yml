@@ -1,0 +1,9 @@
+pertanyaan: Apa tujuan dari fase kedua pra-pemrosesan dalam SHA256?
+jawaban: Untuk menambahkan representasi biner dari ukuran pesan awal, dalam bit
+jawaban_salah:
+  - Untuk menambahkan bit padding ke input
+  - Untuk memisahkan input menjadi blok pesan 512-bit yang berbeda
+  - Untuk melakukan 64 putaran perhitungan dalam fungsi kompresi
+penjelasan: |
+  Fase kedua pra-pemrosesan dalam SHA256 melibatkan penambahan representasi biner dari ukuran pesan awal, dalam bit. Ini dilakukan menggunakan 64 bit yang disediakan dari langkah sebelumnya.
+direview: false

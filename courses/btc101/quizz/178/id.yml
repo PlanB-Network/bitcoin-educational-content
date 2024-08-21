@@ -1,0 +1,8 @@
+pertanyaan: Apa tren umum Bitcoin karena jumlahnya yang terbatas dan proses pemotongan separuhnya?
+jawaban: Tren umum ke atas.
+jawaban_salah:
+  - Tren umum ke bawah.
+  - Tidak ada tren sama sekali.
+  - Tren yang berfluktuasi liar tanpa pola yang dapat dikenali.
+penjelasan: >-
+  Bitcoin, karena jumlahnya yang terbatas sebanyak 21 juta bitcoin dan proses pemotongan separuhnya (memotong penciptaan moneter setiap 4 tahun sekali rata-rata), mengikuti tren umum ke atas.

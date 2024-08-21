@@ -1,0 +1,8 @@
+pertanyaan: Siapa dua rekan yang terlibat dalam transfer Jaringan Lightning dalam contoh tersebut?
+jawaban: Alice dan Bob.
+jawaban_salah:
+  - Alice dan Charlie.
+  - Bob dan Charlie.
+  - Alice dan jaringan Bitcoin.
+penjelasan: |
+  Dalam contoh tersebut, Alice dan Bob adalah dua rekan yang terlibat dalam transfer Jaringan Lightning.

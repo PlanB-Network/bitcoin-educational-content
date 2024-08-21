@@ -1,0 +1,10 @@
+pertanyaan: Apa yang dimaksud dengan 'ln' dalam 'lnbc1m' pada faktur Jaringan Kilat?
+jawaban: Kilat
+jawaban_salah:
+  - Litecoin
+  - Ledger Nano
+  - Nomor panjang
+penjelasan: |
+  Dalam faktur Jaringan Kilat, 'ln' merupakan singkatan dari Kilat, merujuk
+  pada Jaringan Kilat, sebuah solusi lapisan-2 untuk Bitcoin yang memungkinkan transaksi
+  cepat dengan biaya rendah.

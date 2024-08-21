@@ -1,0 +1,10 @@
+pertanyaan: Apa itu seed dalam konteks HD Wallet?
+jawaban: Sebuah urutan alfanumerik 512-bit yang berfungsi sebagai dasar untuk menurunkan kunci-kunci dompet.
+jawaban_salah:
+  - Sebuah kata sandi yang digunakan untuk mengamankan dompet.
+  - Sebuah pengenal unik untuk dompet.
+  - Sebuah kode yang digunakan untuk menghasilkan frasa mnemonik.
+penjelasan: |
+  Seed adalah urutan alfanumerik 512-bit yang berfungsi sebagai dasar
+  untuk menurunkan kunci-kunci dompet. Seed diperoleh menggunakan fungsi pbkdf2 dengan
+  frasa mnemonik dan passphrase.

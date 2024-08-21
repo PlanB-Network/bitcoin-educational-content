@@ -1,0 +1,10 @@
+pertanyaan: Siapa yang menentukan rute sebelum mengirim pembayaran di Jaringan Lightning?
+jawaban: Node pengirim.
+jawaban_salah:
+  - Node penerima.
+  - Node perantara.
+  - Jaringan itu sendiri.
+penjelasan: |
+  Di Jaringan Lightning, node pengirimlah yang menentukan rute
+  sebelum mengirim pembayaran. Oleh karena itu, ada pencarian untuk rute terbaik dan
+  pengirim adalah satu-satunya yang mengetahui rute dan harga tersebut.

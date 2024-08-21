@@ -1,0 +1,11 @@
+pertanyaan: Apa peran kurva eliptik dalam menghasilkan kunci publik dan kunci privat?
+jawaban: Digunakan untuk menghasilkan kunci publik dan kunci privat yang aman.
+jawaban_salah:
+  - Digunakan untuk mengenkripsi kunci.
+  - Digunakan untuk menyimpan kunci.
+  - Digunakan untuk mentransmisikan kunci.
+penjelasan: |
+  Kurva eliptik adalah konstruksi matematika yang digunakan dalam generasi
+  kunci publik dan kunci privat yang aman. Sebuah angka acak, sering disebut nonce, dipilih
+  sebagai kunci privat dan digunakan dalam persamaan kurva eliptik untuk menghasilkan
+  kunci publik yang sesuai.

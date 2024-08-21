@@ -1,0 +1,9 @@
+pertanyaan: Apa yang terjadi jika Alice mencoba berbuat curang dengan mempublikasikan status lama?
+jawaban: Bob dapat menggunakan kunci pembatalan untuk memindahkan dana tanpa menunggu akhir dari Timelock, secara efektif menghukum Alice.
+jawaban_salah:
+  - Alice dapat menggunakan kunci pembatalan untuk memindahkan dana tanpa menunggu akhir dari Timelock.
+  - Bob dapat memperpanjang Timelock untuk mencegah Alice mendapatkan kembali uangnya.
+  - Alice dapat segera mendapatkan kembali uangnya.
+penjelasan: |
+  Jika Alice mencoba berbuat curang dengan mempublikasikan status lama, Bob dapat menggunakan kunci pembatalan untuk memindahkan dana tanpa menunggu akhir dari Timelock. Ini secara efektif menghukum Alice karena mencoba berbuat curang.
+ditinjau: false

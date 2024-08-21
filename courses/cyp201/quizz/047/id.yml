@@ -1,0 +1,11 @@
+pertanyaan: Apa tujuan dari nonce dalam konteks transaksi Bitcoin?
+jawaban: Digunakan dalam pembuatan tanda tangan digital.
+jawaban_salah:
+  - Digunakan untuk mengenkripsi data transaksi.
+  - Digunakan untuk menyimpan data transaksi.
+  - Digunakan untuk mentransmisikan data transaksi.
+penjelasan: |
+  Dalam konteks transaksi Bitcoin, nonce digunakan dalam pembuatan
+  tanda tangan digital. Secara spesifik, digunakan dalam perhitungan sebuah
+  angka V dan tanda tangan digital yang terdiri dari dua bagian, S1 dan S2.
+ditinjau: false

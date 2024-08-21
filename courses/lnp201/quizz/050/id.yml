@@ -1,0 +1,8 @@
+pertanyaan: Apa dua jenis biaya dalam Jaringan Lightning?
+jawaban: Biaya tetap tanpa memandang jumlah dan biaya variabel.
+jawaban_salah:
+  - Biaya transaksi dan biaya perutean.
+  - Biaya pengirim dan biaya penerima.
+  - Biaya jaringan dan biaya saluran.
+penjelasan: |
+  Dalam Jaringan Lightning, terdapat dua jenis biaya; biaya tetap tanpa memandang jumlah (defaultnya adalah 1 SAT tetapi dapat dimodifikasi) dan biaya variabel (0,01% secara default).

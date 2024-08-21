@@ -1,0 +1,13 @@
+pertanyaan: Apa perbedaan utama antara coinjoin dan mixer kustodian?
+
+jawaban: Coinjoin memungkinkan kontrol penuh atas dana seseorang.
+
+jawaban_salah:
+  - Coinjoin memerlukan penyerahan sementara hak asuh atas dana.
+  - Mixer lebih aman daripada coinjoin.
+  - Mixer menyediakan pencampuran kualitas yang lebih baik.
+
+penjelasan: |
+  Kerugian utama dari mixer dibandingkan dengan coinjoin adalah mereka memerlukan pengguna untuk menyerahkan hak asuh atas dana mereka selama proses pencampuran, yang memaparkan mereka pada risiko pencurian.
+
+ditinjau: false

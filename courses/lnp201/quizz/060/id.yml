@@ -1,0 +1,10 @@
+pertanyaan: Apa tujuan dari rahasia S yang dihasilkan oleh Bob?
+jawaban: Digunakan untuk membuka kunci HTLC yang disiapkan oleh Alice dan Susie.
+jawaban_salah:
+  - Digunakan untuk menghitung hash r.
+  - Digunakan untuk membuat HTLC baru.
+  - Digunakan untuk menutup saluran.
+penjelasan: |
+  Bob menghasilkan sebuah rahasia S dan menghitung hash r. Rahasia ini digunakan
+  untuk membuka kunci HTLC yang disiapkan oleh Alice dan Susie.
+ditinjau: false

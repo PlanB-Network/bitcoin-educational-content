@@ -1,0 +1,5 @@
+---
+term: SHITCOIN
+---
+
+Istilah kasar yang sering digunakan dalam dunia cryptocurrency untuk menggambarkan altcoin yang dianggap tidak memiliki nilai atau masa depan. Istilah ini digunakan dalam dua konteks berbeda: dalam lingkungan cryptocurrency secara umum, ini merujuk pada proyek yang kekurangan inovasi teknologi, tidak memiliki kasus penggunaan yang konkret, atau terutama merupakan hasil dari spekulasi berlebihan. Bagi para maksimalis Bitcoin, istilah ini mencakup semua cryptocurrency selain Bitcoin (BTC), sehingga membuat "shitcoin" sinonim dengan "altcoin." Kata ini merupakan kombinasi dari "shit," yang memiliki arti sama dalam bahasa Inggris, dan "coin." Penggunaan awal istilah ini berasal dari pesan yang diposting oleh pengguna Ribuck pada tanggal 8 November 2010, di forum Bitcoin Talk.

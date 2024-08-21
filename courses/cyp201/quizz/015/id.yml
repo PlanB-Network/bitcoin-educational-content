@@ -1,0 +1,9 @@
+pertanyaan: Berapa ukuran output dari fungsi hash SHA256?
+jawaban: 256 bit
+jawaban_salah:
+  - 512 bit
+  - 128 bit
+  - 1024 bit
+penjelasan: |
+  Fungsi hash SHA256 menghasilkan hash 256-bit dari input berukuran variabel. Inilah alasan mengapa disebut SHA256.
+ditinjau: false

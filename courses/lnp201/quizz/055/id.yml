@@ -1,0 +1,9 @@
+pertanyaan: Apa yang terjadi pada likuiditas sebuah saluran ketika sebuah transaksi dilakukan di Jaringan Lightning?
+jawaban: Likuiditas didistribusikan ulang sepanjang rute antara kedua pihak.
+jawaban_salah:
+  - Likuiditas tetap sama.
+  - Likuiditas dipindahkan ke saluran lain.
+  - Likuiditas bertambah.
+penjelasan: |
+  Di Jaringan Lightning, ketika sebuah transaksi dilakukan, likuiditas didistribusikan ulang sepanjang rute antara kedua pihak.
+ditinjau: false

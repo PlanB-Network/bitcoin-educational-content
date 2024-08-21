@@ -1,0 +1,5 @@
+---
+term: BITCOIN XT
+---
+
+Bitcoin XT adalah sebuah fork dari Bitcoin yang diluncurkan pada tahun 2015 oleh pengembang terkenal Mike Hearn dan didukung oleh Gavin Andresen (mantan pemelihara utama Bitcoin setelah kepergian Satoshi). Awalnya, Bitcoin XT merupakan implementasi dari protokol Bitcoin yang kompatibel dengan Bitcoin Core. Namun, pada Agustus 2015, versi Bitcoin XT 0.11A mengadopsi BIP101: sebuah usulan hard fork untuk meningkatkan batas ukuran blok dari 1 MB menjadi 8 MB, dengan rencana penggandaan ukuran ini setiap dua tahun hingga mencapai sedikit lebih dari 8 GB per blok pada tahun 2036. Usulan ini merupakan salah satu penyebab utama dari Perang Ukuran Blok yang terjadi antara tahun 2015 dan 2017. Usulan ini didukung oleh sebagian besar penambang, dan oleh perusahaan-perusahaan berpengaruh seperti BitPay, Blockchain.info, dan Circle. Pada akhirnya, Bitcoin XT gagal mendapatkan dukungan yang cukup dari komunitas, dan Mike Hearn akhirnya mengumumkan kepergiannya dari komunitas tersebut dan penjualan bitcoinnya. Dia mengungkapkan kekecewaannya dalam sebuah postingan blog, dengan menyatakan secara terkenal bahwa Bitcoin telah gagal.

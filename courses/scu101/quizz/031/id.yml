@@ -1,0 +1,10 @@
+pertanyaan: Apa yang harus Anda lakukan jika mendeteksi virus di komputer Anda?
+jawaban: Putuskan koneksi dari internet, lakukan pemindaian antivirus secara penuh, dan hapus file yang terinfeksi.
+jawaban_salah:
+  - Terus menggunakan komputer seperti biasa.
+  - Matikan komputer dan biarkan mati selama beberapa jam.
+  - Hapus semua file di komputer.
+penjelasan: |
+  Jika Anda mendeteksi virus di komputer Anda, Anda harus memutuskan koneksi dari internet untuk mencegah virus tersebut menyebar atau berkomunikasi dengan hacker.
+  Kemudian, lakukan pemindaian antivirus secara penuh dan hapus file yang terinfeksi.
+ditinjau: false

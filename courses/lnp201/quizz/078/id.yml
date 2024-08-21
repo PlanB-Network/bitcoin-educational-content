@@ -1,0 +1,10 @@
+pertanyaan: Apa itu faktur Jaringan Petir?
+jawaban: Ini adalah representasi padat dari permintaan pembayaran
+jawaban_salah:
+  - Ini adalah catatan dari semua transaksi di Jaringan Petir
+  - Ini adalah alat untuk menambang Bitcoin
+  - Ini adalah jenis dompet digital untuk menyimpan Bitcoin
+penjelasan: |
+  Faktur Jaringan Petir adalah representasi padat dari permintaan pembayaran.
+  Ini berisi informasi kunci seperti jumlah yang harus dibayar, penerima, cap waktu pembuatan,
+  dan potensial informasi lain seperti hash dari preimage, rahasia pembayaran, petunjuk rute, dan waktu kadaluwarsa.

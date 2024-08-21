@@ -1,0 +1,11 @@
+pertanyaan: Apa yang ditekankan oleh frasa "Bukan kunci Anda, bukan Bitcoin Anda"?
+jawaban: Pentingnya memiliki kunci privat untuk dompet Bitcoin
+jawaban_salah:
+  - Pentingnya memiliki kunci fisik untuk mengakses Bitcoin Anda
+  - Pentingnya menyimpan Bitcoin Anda di tempat yang aman
+  - Pentingnya tidak membagikan detail akun Bitcoin Anda
+penjelasan: |
+  Bab ini menjelaskan bahwa frasa "Bukan kunci Anda, bukan Bitcoin Anda"
+  menekankan pentingnya memiliki kunci privat untuk dompet Bitcoin. Dengan memiliki
+  kunci privat, Anda memiliki kontrol penuh atas Bitcoin yang terkandung di dalamnya.
+ditinjau: false

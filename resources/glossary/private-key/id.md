@@ -1,0 +1,9 @@
+---
+term: KUNCI PRIBADI
+---
+
+Kunci pribadi adalah elemen fundamental dari kriptografi asimetris. Ini adalah sebuah angka (256 bit dalam konteks Bitcoin) yang mewakili sebuah rahasia kriptografi. Kunci ini digunakan untuk menandatangani transaksi secara digital dan membuktikan kepemilikan sebuah kunci publik Bitcoin (dan dengan perluasan, sebuah alamat penerima) dengan memenuhi `scriptPubKey`. Oleh karena itu, kunci pribadi memungkinkan pengeluaran bitcoin dengan membuka UTXO yang terkait dengan kunci publik yang bersangkutan. Kunci pribadi harus dijaga kerahasiaannya secara ketat, karena pengungkapan mereka dapat memungkinkan pihak ketiga yang beritikad buruk untuk mengambil kontrol atas dana yang terkait.
+
+Dalam sistem Bitcoin, kunci pribadi dihubungkan dengan kunci publik melalui algoritma tanda tangan digital menggunakan kurva elips (ECDSA atau Schnorr). Kunci publik diturunkan dari kunci pribadi, tetapi sebaliknya praktis tidak mungkin dicapai karena kesulitan komputasi yang melekat dalam memecahkan masalah matematika yang mendasarinya (masalah logaritma diskrit). Kunci publik umumnya digunakan untuk menghasilkan alamat Bitcoin, yang digunakan untuk mengunci bitcoin menggunakan skrip. Dalam kriptografi, kunci pribadi sering kali adalah angka acak atau pseudo-acak. Dalam konteks spesifik dompet Bitcoin deterministik dan hierarkis, kunci pribadi diturunkan secara deterministik dari seed. Kunci pribadi sering kali disalahartikan dengan seed atau dengan frasa pemulihan (mnemonik). Namun, elemen-elemen ini berbeda.
+
+> ► *Dalam bahasa Inggris, kunci pribadi disebut "private key." Istilah ini terkadang disingkat sebagai "privkey," atau "PV."*

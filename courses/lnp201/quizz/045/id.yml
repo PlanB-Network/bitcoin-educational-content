@@ -1,0 +1,11 @@
+pertanyaan: Apa yang terjadi dalam penutupan paksa jika biaya jaringan adalah 1 SAT pada saat penutupan?
+jawaban: Transaksi tersebut dibayar lebih sebanyak 50 kali.
+jawaban_salah:
+  - Transaksi tersebut dibayar kurang sebanyak 50 kali.
+  - Transaksi tersebut dibayar lebih sebanyak 2 kali.
+  - Transaksi tersebut dibayar kurang sebanyak 2 kali.
+penjelasan: |
+  Dalam penutupan paksa, protokol secara default menetapkan biaya 5 kali lebih tinggi dari
+  biaya saat ini ketika transaksi dibuat. Jika biaya jaringan adalah 1 SAT pada
+  saat penutupan, transaksi tersebut dibayar lebih sebanyak 50 kali.
+ditinjau: false

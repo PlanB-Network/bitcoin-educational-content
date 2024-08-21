@@ -1,0 +1,10 @@
+pertanyaan: Apa yang disimpan oleh dompet Bitcoin?
+jawaban: Kunci privat yang diperlukan untuk membuktikan kepemilikan atas bitcoin
+jawaban_salah:
+  - Bitcoin itu sendiri
+  - Kunci publik yang diperlukan untuk membuktikan kepemilikan atas bitcoin
+  - Riwayat transaksi dari bitcoin
+penjelasan: |
+  Pada kenyataannya, dompet Bitcoin menyimpan kunci privat yang diperlukan untuk membuktikan
+  kepemilikan atas bitcoin. Bitcoin itu sendiri dicatat di blockchain,
+  sebuah basis data terdesentralisasi yang mengarsip semua transaksi.

@@ -1,0 +1,10 @@
+pertanyaan: Apa itu Jaringan Lightning?
+jawaban: Sebuah jaringan dari saluran pembayaran.
+jawaban_salah:
+  - Sebuah jenis mata uang kripto.
+  - Sebuah teknologi blockchain.
+  - Sebuah dompet digital untuk Bitcoin.
+penjelasan: |
+  Jaringan Lightning adalah sebuah jaringan dari saluran pembayaran. Ribuan
+  rekanan dengan saluran likuiditas mereka sendiri terhubung satu sama lain, dan dengan demikian menggunakan
+  diri mereka sendiri untuk melakukan transaksi antar rekanan yang tidak terhubung.

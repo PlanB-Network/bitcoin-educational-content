@@ -1,0 +1,5 @@
+---
+term: FUNGIBILITY
+---
+
+Properti dari sebuah mata uang yang memastikan setiap unitnya dapat ditukar dan tidak dapat dibedakan dari unit lain yang serupa. Bitcoin, sebagai unit akun, pada prinsipnya adalah fungible, karena satu bitcoin selalu bernilai sama dengan bitcoin lainnya: 1 BTC = 1 BTC. Namun, kemampuan pelacakan UTXOs (dukungan untuk unit-unit tersebut) di blockchain terkadang dapat mengganggu fungibilitas ini. Memang, setiap satoshi dapat dibedakan berdasarkan sejarahnya, yang memberikannya identitas spesifik. Persepsi terhadap sejarah setiap UTXO dapat mempengaruhi penilaian pihak-pihak terhadap fungibilitas bitcoin yang digunakan. Dengan demikian, meskipun fungibilitas adalah karakteristik intrinsik dari unit-unit moneter, hal ini dapat diubah oleh spesifikasi dari media yang digunakan untuk unit-unit tersebut, seperti halnya dengan Bitcoin.

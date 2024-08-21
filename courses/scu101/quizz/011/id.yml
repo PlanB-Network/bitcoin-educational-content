@@ -1,0 +1,10 @@
+pertanyaan: Apa tujuan dari protokol HTTPS?
+jawaban: Ia mengenkripsi data pada situs web untuk memastikan pertukaran yang aman antara pengguna dan situs web.
+jawaban_salah:
+  - Ia memungkinkan pengguna untuk melewati pembatasan geografis.
+  - Ia memungkinkan pengguna untuk memblokir iklan online.
+  - Ia memungkinkan pengguna untuk mengakses internet tanpa menggunakan data.
+penjelasan: |
+  Protokol HTTPS digunakan untuk mengenkripsi data pada situs web, memastikan bahwa
+  data yang ditukarkan antara pengguna dan situs web aman. Ini membantu melindungi
+  dari pihak ketiga yang mungkin menyadap data.

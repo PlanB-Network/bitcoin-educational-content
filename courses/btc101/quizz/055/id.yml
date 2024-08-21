@@ -1,0 +1,10 @@
+pertanyaan: Berapa tingkat inflasi di Jerman pada Oktober 1923?
+jawaban: 29,50%.
+jawaban_salah:
+  - 200,9%.
+  - 50,51%.
+  - 25,98%.
+penjelasan: |
+  Bulan dengan inflasi tertinggi di Jerman adalah Oktober 1923, mencapai puncaknya
+  sebesar 29,50%.
+ditinjau: true

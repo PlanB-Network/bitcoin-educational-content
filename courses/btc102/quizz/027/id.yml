@@ -1,0 +1,11 @@
+pertanyaan: Apa yang dimaksud dengan keabadian dari blockchain Bitcoin?
+jawaban: Tidak dapat diubah seiring waktu
+jawaban_salah:
+  - Tidak dapat dihack
+  - Tidak dapat disalin
+  - Tidak dapat dihapus
+penjelasan: |
+  Keabadian dari blockchain Bitcoin berarti bahwa setelah sebuah transaksi
+  telah dicatat, transaksi tersebut tidak dapat diubah atau dihapus. Hal ini menjamin integritas dan
+  keandalan dari blockchain.
+ditinjau: false

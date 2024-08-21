@@ -1,0 +1,8 @@
+pertanyaan: Apa dasar keamanan kunci publik dan kunci privat?
+jawaban: Masalah logaritma diskrit
+jawaban_salah:
+  - Masalah faktorisasi prima
+  - Masalah knapsack
+  - Masalah salesman keliling
+penjelasan: |
+  Keamanan kunci publik dan kunci privat bergantung pada masalah logaritma diskrit, sebuah pertanyaan matematika yang kompleks.

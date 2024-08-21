@@ -1,0 +1,11 @@
+pertanyaan: Apa yang harus menjadi perhatian utama ketika Anda memiliki bitcoin?
+jawaban: Keamanan dana Anda
+jawaban_salah:
+  - Nilai dalam dolar dari bitcoin Anda
+  - Legalitas memiliki bitcoin
+  - Izin untuk menghabiskan bitcoin Anda
+penjelasan: |
+  Ketika Anda memiliki bitcoin, perhatian utama adalah keamanan dana Anda.
+  Ini karena bitcoin, seperti bentuk mata uang lainnya, dapat dicuri atau hilang
+  jika tidak diamankan dengan benar.
+ditinjau: true

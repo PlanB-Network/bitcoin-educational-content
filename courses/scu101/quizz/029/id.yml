@@ -1,0 +1,10 @@
+pertanyaan: Apa solusi sederhana untuk melindungi data Anda dari serangan ransomware?
+jawaban: Secara rutin membackup data penting Anda ke perangkat penyimpanan eksternal atau layanan penyimpanan online yang aman.
+jawaban_salah:
+  - Memasang berbagai perangkat lunak antivirus pada komputer Anda.
+  - Secara rutin mengganti komputer Anda.
+  - Menggunakan jaringan Wi-Fi publik.
+penjelasan: |
+  Secara rutin membackup data Anda memungkinkan Anda untuk memulihkan data Anda dalam
+  kejadian serangan siber atau kegagalan perangkat keras tanpa kehilangan informasi penting.
+ditinjau: false

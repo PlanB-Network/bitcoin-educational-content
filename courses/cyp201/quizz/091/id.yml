@@ -1,0 +1,10 @@
+pertanyaan: Berapa ukuran payload dalam kunci yang diperluas?
+jawaban: 65 byte
+jawaban_salah:
+  - 33 byte
+  - 32 byte
+  - 82 byte
+penjelasan: |
+  Payload dari kunci yang diperluas terdiri dari kode rantai (32 byte)
+  dan kunci induk (33 byte), dengan total 65 byte.
+ditinjau: false

@@ -1,0 +1,12 @@
+pertanyaan: Apa tujuan dari kode rantai dalam kunci yang diperluas?
+jawaban: Ini memungkinkan untuk derivasi spesifik dari kunci anak.
+jawaban_salah:
+  - Digunakan untuk menghasilkan kunci induk.
+  - Digunakan untuk mengenkripsi kunci yang diperluas.
+  - Digunakan untuk memverifikasi keaslian kunci yang diperluas.
+penjelasan: |
+  Kode rantai, bersama dengan kunci induk, sangat penting untuk mendapatkan
+
+  kunci anak. Dengan menggabungkan kunci induk dengan kode rantai, sebuah kunci privat yang diperluas
+
+  atau kunci publik diperoleh.

@@ -1,0 +1,9 @@
+pertanyaan: Apa itu frasa mnemonik dalam konteks dompet Bitcoin?
+jawaban: Ini adalah cadangan dari dompet tersebut.
+jawaban_salah:
+  - Ini adalah kata sandi untuk dompet tersebut.
+  - Ini adalah riwayat transaksi dari dompet tersebut.
+  - Ini adalah tanda tangan digital dari dompet tersebut.
+penjelasan: |
+  Frasa mnemonik dihasilkan untuk memastikan cadangan dari dompet Bitcoin.
+ditinjau: false

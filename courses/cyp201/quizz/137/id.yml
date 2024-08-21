@@ -1,0 +1,10 @@
+pertanyaan: Apa yang digunakan untuk menghitung checksum dalam kasus standar warisan?
+jawaban: Peng-hashingan Ganda SHA256
+jawaban_salah:
+  - Program BCH
+  - Fungsi pbkdf2
+  - Fungsi hmacha512
+penjelasan: |
+  Untuk mendapatkan sebuah alamat, kunci publik yang dikompresi pertama-tama di-hash menggunakan
+  SHA256 dan RIPMD160, dan kemudian sebuah checksum dihitung. Peng-hashingan Ganda SHA256 digunakan
+  untuk menghitung checksum dalam kasus standar warisan.

@@ -1,0 +1,9 @@
+pertanyaan: Apa risiko utama yang terkait dengan menghasilkan frasa mnemonik sendiri menggunakan dadu untuk transaksi Bitcoin?
+jawaban: Ini mungkin menyajikan beberapa risiko.
+jawaban_salah:
+  - Ini dapat menyebabkan generasi angka yang dapat diprediksi.
+  - Ini dapat menyebabkan generasi angka duplikat.
+  - Ini dapat menyebabkan generasi angka yang tidak valid.
+penjelasan: |
+  Menghasilkan frasa mnemonik sendiri menggunakan dadu mungkin menyajikan beberapa risiko.
+  Oleh karena itu, disarankan untuk menggunakan frasa sandi yang dihasilkan secara acak untuk mengurangi risiko-risiko ini.

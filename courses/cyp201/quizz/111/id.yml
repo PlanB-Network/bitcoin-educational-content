@@ -1,0 +1,11 @@
+pertanyaan: Apa tujuan dari Kedalaman 2 dalam struktur Dompet HD?
+jawaban: Ini memungkinkan diferensiasi akun untuk berbagai mata uang kripto atau jaringan
+jawaban_salah:
+  - Ini digunakan untuk menghasilkan kunci anak untuk tujuan tertentu
+  - Ini digunakan untuk alamat penerimaan dalam dompet standar
+  - Ini sesuai dengan rantai eksternal dan internal
+penjelasan: |
+  Dalam struktur Dompet HD, Kedalaman 2 memungkinkan diferensiasi akun
+  untuk berbagai mata uang kripto atau jaringan. Ini memungkinkan pengorganisasian dompet berdasarkan
+  berbagai sumber dana.
+ditinjau: false

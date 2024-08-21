@@ -1,0 +1,5 @@
+---
+term: BIP322
+---
+
+Mengusulkan standar baru untuk menggantikan BIP137 dalam menandatangani pesan dengan kunci privat Bitcoin dan alamat yang terkait, guna membuktikan kepemilikan suatu alamat. Tanda tangan ini berguna untuk berbagai aplikasi seperti bukti dana, audit, dan penggunaan lain yang memerlukan autentikasi alamat melalui kunci privatnya. Dibandingkan dengan BIP137, BIP322 memperluas standar penandatanganan pesan melampaui alamat tradisional, menggunakan pendekatan berbasis skrip. Ini memungkinkan perangkat lunak dompet untuk menandatangani pesan untuk skrip apa pun yang bisa mereka buka untuk menghabiskan bitcoin. Untuk melakukan ini, metode tersebut melibatkan penandatanganan teks dengan menghasilkan tanda tangan untuk transaksi Bitcoin virtual. Untuk alamat P2PKH tradisional, BIP322 tetap kompatibel dengan format tanda tangan tradisional.

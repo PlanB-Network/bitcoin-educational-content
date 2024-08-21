@@ -1,0 +1,10 @@
+pertanyaan: Bagaimana cara Alice mendanai saluran yang dia buka dengan Bob?
+jawaban: Dia membuat transaksi dengan 2 UTXO sebagai output.
+jawaban_salah:
+  - Dia mengirim uang langsung ke alamat publik Bob.
+  - Dia membuat transaksi dengan 1 UTXO sebagai output.
+  - Dia meminta Bob untuk mendanai saluran tersebut.
+penjelasan: |
+  Untuk mendanai saluran yang dia buka dengan Bob, Alice membuat transaksi
+  dengan 2 UTXO sebagai output; satu ke alamat multi-sig 2/2 dan satu ke salah satu alamat kembalian
+  miliknya.

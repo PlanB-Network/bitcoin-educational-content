@@ -1,0 +1,13 @@
+pertanyaan: Apa tujuan dari autentikasi Lightning?
+jawaban: Ini menghasilkan pengenal yang berbeda untuk setiap layanan, tanpa perlu
+  menyediakan alamat email atau informasi pribadi.
+jawaban_salah:
+  - Ini mempercepat proses autentikasi.
+  - Ini memungkinkan Anda menggunakan kata sandi yang sama untuk semua layanan.
+  - Ini mengirimkan pengingat untuk mengubah kata sandi setiap bulan.
+penjelasan: |
+  Autentikasi Lightning menghasilkan pengenal yang berbeda untuk setiap layanan,
+  tanpa perlu menyediakan alamat email atau informasi pribadi. Ini dapat meningkatkan
+  privasi dan keamanan dengan mengurangi jumlah informasi pribadi yang dibagikan
+  dengan setiap layanan.
+ditinjau: false

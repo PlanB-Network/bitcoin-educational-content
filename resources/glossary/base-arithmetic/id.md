@@ -1,0 +1,5 @@
+---
+term: BASE (ARITMATIKA)
+---
+
+Basis adalah sistem penomoran yang menggunakan jumlah karakter tetap untuk mewakili semua angka yang mungkin. Basis menentukan jumlah simbol berbeda yang tersedia untuk mewakili digit dalam sistem ini. Sebagai contoh, sistem yang paling dikenal dalam kehidupan sehari-hari kita adalah basis 10, yang juga disebut sistem desimal. Sistem ini menggunakan sepuluh simbol berbeda `(0, 1, 2, 3, 4, 5, 6, 7, 8, 9)` untuk mewakili semua angka. Sistem penomoran lain yang umum digunakan di bidang komputasi dan matematika termasuk sistem biner (basis 2), dengan dua simbol `(0, 1)`, dan sistem heksadesimal (basis 16), dengan enam belas simbol `(0, 1, 2, 3, 4, 5, 6, 7, 8, 9, A, B, C, D, E, F)`. Dalam konteks Bitcoin, Anda mungkin kadang-kadang menemukan pengkodean dalam basis 58 atau dalam basis 32 yang dimodifikasi (disebut `Bech32`).

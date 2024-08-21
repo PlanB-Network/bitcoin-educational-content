@@ -1,0 +1,9 @@
+pertanyaan: Apa peran dari Loop di Lightning Network?
+jawaban: Loop adalah node khusus yang menawarkan layanan untuk menyeimbangkan kembali LN/BTC.
+jawaban_salah:
+  - Loop adalah node yang menghubungkan pembeli dan pedagang.
+  - Loop adalah node yang membantu membuka saluran.
+  - Loop adalah node yang menyimpan semua transaksi.
+penjelasan: |
+  Di Lightning Network, Loop adalah node khusus yang menawarkan layanan profesional untuk menyeimbangkan kembali LN/BTC. Ini dilakukan dengan mengirimkan likuiditas ke Loop melalui node lain, yang kemudian mengirimkan saldo on-chain kembali ke node asal.
+direview: false

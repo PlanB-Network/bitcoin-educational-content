@@ -1,0 +1,10 @@
+pertanyaan: Apa dampak inflasi 20% terhadap daya beli selama 3 tahun?
+jawaban: Anda kehilangan 50% dari daya beli Anda
+jawaban_salah:
+  - Anda kehilangan 100% dari daya beli Anda
+  - Anda kehilangan 60% dari daya beli Anda
+  - Anda kehilangan 30% dari daya beli Anda
+penjelasan: |
+  Dengan inflasi 20%, Anda kehilangan hampir setengah dari daya beli Anda dalam
+  3 tahun.
+ditinjau: true

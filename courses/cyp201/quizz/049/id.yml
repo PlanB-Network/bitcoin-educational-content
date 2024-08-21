@@ -1,0 +1,11 @@
+pertanyaan: Apa tujuan dari Bitcoin Improvement Proposals (BIPs)?
+jawaban: Mereka adalah proposal peningkatan yang meningkatkan fungsionalitas dan keamanan dari dompet HD.
+jawaban_salah:
+  - Mereka adalah proposal untuk meningkatkan nilai Bitcoin.
+  - Mereka adalah proposal untuk mengubah proses penambangan Bitcoin.
+  - Mereka adalah proposal untuk mengatur penggunaan Bitcoin.
+penjelasan: |
+  Bitcoin Improvement Proposals (BIPs) adalah protokol yang bertujuan untuk meningkatkan
+  fungsionalitas dan keamanan dari dompet HD. Sebagai contoh, BIP32 memperkenalkan
+  konsep kunci yang diturunkan secara deterministik dan hierarkis.
+ditinjau: false

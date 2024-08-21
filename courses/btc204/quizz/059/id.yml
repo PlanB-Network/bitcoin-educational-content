@@ -1,0 +1,13 @@
+pertanyaan: Pada tingkat berapa secara keseluruhan tingkat penggunaan ulang alamat pada Bitcoin?
+
+jawaban: Sekitar 50%
+
+jawaban_salah:
+  - Sekitar 5%
+  - Sekitar 15%
+  - Sekitar 40%
+
+penjelasan: |
+  Sejak awal tahun 2010-an, tingkat penggunaan ulang alamat pada Bitcoin telah berfluktuasi sekitar 50%.
+
+ditinjau: false

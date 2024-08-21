@@ -1,0 +1,7 @@
+---
+term: CPFP (CHILD PAYS FOR PARENT)
+---
+
+Mekanisme transaksional yang bertujuan untuk mempercepat konfirmasi transaksi Bitcoin, serupa dengan apa yang dilakukan oleh Replace-by-Fee (RBF), tetapi dari sisi penerima. Ketika sebuah transaksi dengan biaya terlalu rendah dibandingkan dengan pasar tetap terjebak di mempool node dan tidak segera dikonfirmasi, penerima dapat membuat transaksi baru, menghabiskan bitcoin yang diterima dalam transaksi yang terblokir, meskipun belum dikonfirmasi. Transaksi kedua ini secara mutlak memerlukan transaksi pertama untuk ditambang agar dapat dikonfirmasi. Dengan demikian, penambang dipaksa untuk memasukkan kedua transaksi bersamaan. Transaksi kedua akan mengalokasikan jauh lebih banyak dalam biaya transaksi daripada yang pertama, sedemikian rupa sehingga rata-rata biaya mendorong penambang untuk memasukkan kedua transaksi. Transaksi anak (yang kedua) membayar untuk transaksi induk yang terjebak (yang pertama). Inilah sebabnya mengapa ini disebut sebagai "CPFP."
+
+Dengan demikian, CPFP memungkinkan penerima untuk memperoleh dana mereka lebih cepat meskipun biaya awal yang rendah yang dikeluarkan oleh pengirim, tidak seperti RBF (*Replace-By-Fee*), yang memungkinkan pengirim untuk mengambil inisiatif mempercepat transaksi mereka sendiri dengan meningkatkan biaya.

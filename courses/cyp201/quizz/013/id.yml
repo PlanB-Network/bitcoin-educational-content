@@ -1,0 +1,10 @@
+pertanyaan: Apa peran operator AND dalam fungsi kompresi SHA256?
+jawaban: Untuk mengembalikan 1 hanya jika kedua operand sama dengan 1
+jawaban_salah:
+  - Untuk memproses bit satu per satu sesuai dengan peringkatnya
+  - Untuk mengembalikan nilai berlawanan dari sebuah operand
+  - Untuk menggeser bit ke kanan dengan jumlah tertentu
+penjelasan: |
+  Dalam fungsi kompresi SHA256, operator AND digunakan untuk mengembalikan
+  1 hanya jika kedua operand sama dengan 1. Ini dilakukan menggunakan tabel kebenaran.
+ditinjau: false

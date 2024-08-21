@@ -1,0 +1,8 @@
+pertanyaan: Berapa kebutuhan bandwidth untuk menjalankan sebuah node Bitcoin, dengan asumsi 1 blok 1MB setiap 10 menit?
+jawaban: Sekitar 5GB per bulan
+jawaban_salah:
+  - Sekitar 1GB per bulan
+  - Sekitar 10GB per bulan
+  - Sekitar 20GB per bulan
+penjelasan: >-
+  Dengan asumsi 1 blok 1MB setiap 10 menit, menjalankan sebuah node Bitcoin membutuhkan bandwidth sekitar 5GB per bulan.

@@ -1,0 +1,11 @@
+pertanyaan: Apa alasan utama menggunakan alamat penerima daripada kunci publik dalam transaksi Bitcoin?
+jawaban: Ini mengurangi ukuran informasi kunci publik.
+jawaban_salah:
+  - Ini memungkinkan untuk membalikkan dari alamat ke kunci publik.
+  - Ini menghemat ruang dalam blok.
+  - Ini lebih mudah diingat daripada kunci publik.
+penjelasan: |
+  Alasan utama menggunakan alamat penerima daripada kunci publik dalam transaksi Bitcoin adalah untuk mengurangi ukuran informasi kunci publik,
+  yang awalnya adalah 512 bit. Ini bukan untuk menghemat ruang dalam blok, tetapi untuk membuat
+  data transaksi lebih mudah dikelola.
+ditinjau: false

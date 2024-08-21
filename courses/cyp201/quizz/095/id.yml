@@ -1,0 +1,12 @@
+pertanyaan: Apa yang ditunjukkan oleh prefiks XPUB pada kunci yang diperluas?
+jawaban: Ini adalah kunci publik yang diperluas.
+jawaban_salah:
+  - Ini adalah kunci privat yang diperluas.
+  - Ini adalah kunci utama.
+  - Ini adalah kunci anak.
+penjelasan: |
+  Kunci yang diperluas diidentifikasi oleh prefiks spesifik (XPRV, XPUB, YPUB,
+
+  ZPUB) yang menunjukkan apakah itu kunci privat atau publik yang diperluas, serta
+
+  tujuan spesifiknya.'

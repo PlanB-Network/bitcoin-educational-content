@@ -1,0 +1,11 @@
+pertanyaan: Berapa jumlah maksimum unit Bitcoin yang dapat ada?
+jawaban: 21 juta
+jawaban_salah:
+  - 3 triliun
+  - 100 juta
+  - Tidak ada batas
+penjelasan: |
+  Total pasokan Bitcoin dibatasi pada 21 juta unit. Ini adalah
+  fitur kunci dari Bitcoin yang membedakannya dari mata uang fidusia, yang dapat
+  dicetak dalam jumlah tak terbatas oleh bank sentral.
+ditinjau: true

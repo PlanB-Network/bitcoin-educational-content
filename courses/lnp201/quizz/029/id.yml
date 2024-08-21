@@ -1,0 +1,9 @@
+pertanyaan: Berapa banyak SAT yang dimiliki Alice di awal contoh?
+jawaban: 130.000 SAT.
+jawaban_salah:
+  - 100.000 SAT.
+  - 90.000 SAT.
+  - 0 SAT.
+penjelasan: |
+  Dalam contoh tersebut, Alice membuka saluran dengan Bob dengan 130.000 SAT di sisinya.
+ditinjau: false

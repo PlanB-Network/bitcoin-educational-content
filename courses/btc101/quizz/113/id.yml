@@ -1,0 +1,9 @@
+pertanyaan: Mengapa tidak semua orang bisa menggunakan Dompet Bitcoin yang sama?
+jawaban: Karena kebutuhan setiap individu berbeda-beda.
+jawaban_salah:
+  - Karena menggunakan Dompet Bitcoin itu mahal
+  - Karena menggunakan Dompet Bitcoin itu ilegal
+  - Karena orang-orang tidak akan pernah sepakat tentang nama dompet tersebut
+penjelasan: |
+  Sementara satu orang mungkin mengutamakan keamanan, orang lain mungkin menghargai kemudahan penggunaan atau fitur khusus. Oleh karena itu, satu Dompet Bitcoin mungkin tidak dapat memenuhi kebutuhan semua orang, membuatnya perlu untuk adanya berbagai pilihan dompet.
+ditinjau: true

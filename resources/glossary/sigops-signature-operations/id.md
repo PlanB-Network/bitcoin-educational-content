@@ -1,0 +1,13 @@
+---
+term: SIGOPS (OPERASI TANDA TANGAN)
+---
+
+Merujuk pada operasi tanda tangan digital yang diperlukan untuk memvalidasi transaksi. Setiap transaksi Bitcoin dapat berisi beberapa input, masing-masing mungkin memerlukan satu atau lebih tanda tangan untuk dianggap valid. Verifikasi tanda tangan ini dilakukan melalui penggunaan opcodes tertentu yang disebut "sigops". Secara spesifik, ini termasuk `OP_CHECKSIG`, `OP_CHECKSIGVERIFY`, `OP_CHECKMULTISIG`, dan `OP_CHECKMULTISIGVERIFY`. Operasi ini memberikan beban tertentu pada node jaringan yang harus memverifikasinya. Untuk mencegah serangan DoS melalui inflasi buatan jumlah sigops, protokol oleh karena itu memberlakukan batasan pada jumlah sigops yang diizinkan per blok, untuk memastikan bahwa beban validasi tetap dapat dikelola oleh node. Batas ini saat ini ditetapkan pada maksimum 80.000 sigops per blok. Untuk menghitung, node mengikuti aturan ini:
+
+Dalam `scriptPubKey`, `OP_CHECKSIG` dan `OP_CHECKSIGVERIFY` dihitung sebagai 4 sigops. Opcodes `OP_CHECKMULTISIG` dan `OP_CHECKMULTISIGVERIFY` dihitung untuk 80 sigops. Memang, selama penghitungan, operasi ini dikalikan dengan 4 ketika mereka tidak menjadi bagian dari input SegWit (untuk P2WPKH, jumlah sigops akan menjadi 1);
+
+Dalam `redeemScript`, opcodes `OP_CHECKSIG` dan `OP_CHECKSIGVERIFY` juga dihitung sebagai 4 sigops, `OP_CHECKMULTISIG` dan `OP_CHECKMULTISIGVERIFY` dihitung sebagai `4n` jika mereka mendahului `OP_n`, atau 80 sigops sebaliknya;
+
+Untuk `witnessScript`, `OP_CHECKSIG` dan `OP_CHECKSIGVERIFY` bernilai 1 sigop, `OP_CHECKMULTISIG` dan `OP_CHECKMULTISIGVERIFY` dihitung sebagai `n` jika mereka diperkenalkan oleh `OP_n`, atau 20 sigops sebaliknya;
+
+Dalam skrip Taproot, sigops diperlakukan berbeda dibandingkan dengan skrip tradisional. Alih-alih langsung menghitung setiap operasi tanda tangan, Taproot memperkenalkan anggaran sigops untuk setiap input transaksi, yang proporsional dengan ukuran input tersebut. Anggaran ini adalah 50 sigops ditambah ukuran byte dari saksi input. Setiap operasi tanda tangan mengurangi anggaran ini sebesar 50. Jika eksekusi operasi tanda tangan menurunkan anggaran di bawah nol, skrip tersebut tidak valid. Metode ini memungkinkan lebih banyak fleksibilitas dalam skrip Taproot, sambil menjaga perlindungan terhadap potensi penyalahgunaan terkait sigops, dengan langsung menghubungkannya ke bobot input. Dengan demikian, skrip Taproot tidak termasuk dalam batas 80.000 sigops per blok.

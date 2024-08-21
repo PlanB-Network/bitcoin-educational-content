@@ -1,0 +1,9 @@
+pertanyaan: Apa fungsi utama dari dompet Bitcoin?
+jawaban: Ini merujuk pada kumpulan kunci kriptografi pribadi yang berasal dari satu kunci induk.
+jawaban_salah:
+  - Ini adalah perangkat fisik yang menyimpan mata uang kripto.
+  - Ini adalah platform digital untuk membeli dan menjual mata uang kripto.
+  - Ini adalah perangkat lunak yang menambang bitcoin baru.
+penjelasan: |
+  Dompet Bitcoin, khususnya Dompet Deterministik Hierarkis (HD wallet), adalah kumpulan kunci kriptografi pribadi yang berasal dari satu kunci induk. Kunci-kunci ini sangat penting untuk kepemilikan mata uang kripto.
+ditinjau: false

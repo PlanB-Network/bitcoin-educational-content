@@ -1,0 +1,9 @@
+pertanyaan: Operasi matematika apa yang digunakan untuk menurunkan kunci publik dari kunci privat anak dalam Bitcoin?
+jawaban: Penjumlahan titik dan penggandaan pada kurva eliptik.
+jawaban_salah:
+  - Perkalian dan pembagian pada kurva parabola.
+  - Pengurangan dan perkalian pada kurva hiperbolik.
+  - Penjumlahan dan pengurangan pada kurva linier.
+penjelasan: |
+  Dalam Bitcoin, kunci publik diturunkan dari kunci privat anak menggunakan operasi matematika seperti penjumlahan titik dan penggandaan pada kurva eliptik. Ini adalah aspek fundamental dari keamanan kriptografi Bitcoin.
+ditinjau: false

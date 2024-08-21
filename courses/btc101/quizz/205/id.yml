@@ -1,0 +1,9 @@
+pertanyaan: Apa salah satu alasan mengapa Anda harus mengkonsolidasikan UTXO Anda di dompet Anda dari waktu ke waktu?
+jawaban: Untuk menghindari biaya yang tidak perlu selama transaksi.
+jawaban_salah:
+  - Untuk meningkatkan nilai Bitcoin Anda.
+  - Untuk mencegah Bitcoin Anda dicuri.
+  - Untuk memastikan Bitcoin Anda selalu tersedia.
+penjelasan: >-
+  Teks menyebutkan bahwa mengkonsolidasikan UTXO Anda di dompet Anda dari waktu ke waktu sangat penting untuk mengelola bitcoin Anda secara efektif dan menghindari biaya yang tidak perlu selama transaksi.
+ditinjau: false

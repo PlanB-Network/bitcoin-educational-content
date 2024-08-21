@@ -1,0 +1,10 @@
+pertanyaan: Apa persamaan kurva secp256k1 yang digunakan dalam Bitcoin?
+jawaban: "y² = x³ + 7 modulo n"
+jawaban_salah:
+  - "y² = x³ + ax + b"
+  - "y² = x³ + 7 modulo p"
+  - "y² = x³ + ax + b modulo n"
+penjelasan: |
+  "Kurva secp256k1 yang digunakan dalam Bitcoin didefinisikan oleh parameter a=0\
+  \ dan b=7, dan persamaannya adalah y² = x³ + 7 modulo n, di mana n mewakili\
+  \ bilangan prima yang menentukan urutan dari kurva tersebut."

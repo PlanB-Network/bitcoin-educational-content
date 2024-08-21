@@ -1,0 +1,5 @@
+---
+term: BIP9
+---
+
+Metode untuk mengaktifkan soft fork pada Bitcoin yang diusulkan pada tahun 2015. Ini memperkenalkan sistem di mana penambang menunjukkan dukungan mereka untuk soft fork dengan menggunakan bit spesifik dalam bidang versi blok. Soft fork yang diusulkan di bawah BIP9 diaktifkan jika 95% dari blok selama periode 2016 blok (sekitar dua minggu, bertepatan dengan setiap penyesuaian kesulitan) menunjukkan persetujuan mereka. Setelah ini dikunci, periode rahmat diberikan untuk penambang untuk mempersiapkan pembaruan sebelum aktivasi. Jika ambang batas 95% tidak tercapai dalam waktu maksimum yang dialokasikan, soft fork ditinggalkan. BIP9 memungkinkan untuk penandaan beberapa soft fork secara bersamaan tetapi memberikan kekuatan yang cukup besar kepada penambang, karena jika ambang batas yang diperlukan tidak terpenuhi, soft fork hanya ditinggalkan. Metode ini awalnya digunakan untuk SegWit, sebelum BIP148, yang menyarankan penggunaan UASF, masuk ke dalam permainan dan memaksa penguncian melalui BIP91.

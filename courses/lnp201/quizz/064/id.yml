@@ -1,0 +1,9 @@
+pertanyaan: Apa itu Jaringan Lightning?
+jawaban: Sebuah sistem yang menggunakan HTLCs untuk memastikan pembayaran yang aman dan dapat diverifikasi dalam transaksi Bitcoin.
+jawaban_salah:
+  - Sejenis mata uang kripto.
+  - Sebuah metode enkripsi data.
+  - Sejenis blockchain.
+penjelasan: |
+  Jaringan Lightning adalah sistem yang menggunakan Kontrak Waktu-Terkunci Hash (HTLCs) untuk memastikan pembayaran yang aman dan dapat diverifikasi dalam transaksi Bitcoin.
+ditinjau: false

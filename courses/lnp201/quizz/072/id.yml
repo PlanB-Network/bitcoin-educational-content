@@ -1,0 +1,11 @@
+pertanyaan: Apa peran dari preimage hash dalam proses routing Jaringan Lightning?
+jawaban: Digunakan oleh penerima untuk mengambil jumlah transaksi yang terkunci dalam HTLC.
+jawaban_salah:
+  - Digunakan untuk mengenkripsi data transaksi.
+  - Digunakan untuk menghitung biaya transaksi.
+  - Digunakan untuk memverifikasi alamat penerima.
+penjelasan: |
+  Dalam Jaringan Lightning, preimage hash digunakan oleh penerima
+  untuk mengambil jumlah transaksi yang terkunci dalam HTLC. Pengirim memberikan preimage
+  hash kepada penerima, yang kemudian dapat menggunakannya untuk membuka kunci dana tersebut.
+ditinjau: false

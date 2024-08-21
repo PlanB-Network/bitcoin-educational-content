@@ -1,0 +1,9 @@
+pertanyaan: Apa itu penjelajahan pribadi?
+jawaban: Sebuah fitur yang mencegah penyimpanan riwayat penjelajahan, file internet sementara, data formulir, cookie, dan nama pengguna serta kata sandi oleh peramban internet.
+jawaban_salah:
+  - Sebuah fitur yang menyembunyikan aktivitas online Anda dari penyedia layanan internet Anda.
+  - Sebuah fitur yang memungkinkan Anda menjelajah internet secara anonim.
+  - Sebuah fitur yang melindungi perangkat Anda dari virus dan perangkat lunak berbahaya lainnya.
+penjelasan: |
+  Penjelajahan pribadi adalah fitur yang mencegah penyimpanan riwayat penjelajahan, file internet sementara, data formulir, cookie, dan nama pengguna serta kata sandi oleh peramban internet. Namun, fitur ini tidak menyembunyikan aktivitas online Anda dari penyedia layanan internet Anda atau memungkinkan Anda untuk menjelajah internet secara anonim.
+ditinjau: false

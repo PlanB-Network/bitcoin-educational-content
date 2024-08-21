@@ -1,0 +1,7 @@
+pertanyaan: Apa arti dari ketidakbalikan fungsi ECDSA dalam keamanan dompet Bitcoin?
+jawaban: Tidak mungkin untuk mengambil kembali kunci privat dari kunci publik
+jawaban_salah:
+  - Tidak mungkin untuk mengambil kembali kunci publik dari kunci privat
+penjelasan: |
+  Fungsi ECDSA adalah tidak dapat dibalik, artinya tidak mungkin untuk mengambil kembali kunci privat dari kunci publik. Ketidakbalikan ini adalah dasar dari keamanan dompet Bitcoin.
+ditinjau: false

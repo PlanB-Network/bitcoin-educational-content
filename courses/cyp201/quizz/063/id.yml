@@ -1,0 +1,9 @@
+pertanyaan: Apa pentingnya keamanan kunci privat dalam ekosistem Bitcoin?
+jawaban: Ini menjamin keamanan transaksi Bitcoin.
+jawaban_salah:
+  - Ini menjamin kecepatan transaksi Bitcoin.
+  - Ini menjamin anonimitas transaksi Bitcoin.
+  - Ini menjamin legalitas transaksi Bitcoin.
+penjelasan: |
+  Kunci privat adalah batu penjuru yang menjamin keamanan transaksi Bitcoin. Mereka harus dihasilkan secara benar-benar acak untuk menghindari kerentanan yang terkait dengan keprediksian.
+ditinjau: false

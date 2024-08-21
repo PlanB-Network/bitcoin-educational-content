@@ -1,0 +1,10 @@
+pertanyaan: Siapa yang membuat transaksi dengan Timelock?
+jawaban: Orang yang mengirim uang.
+jawaban_salah:
+  - Orang yang menerima uang.
+  - Kedua belah pihak membuat transaksi dengan Timelock.
+  - Tidak ada pihak yang membuat transaksi dengan Timelock.
+penjelasan: |
+  Orang yang mengirim uanglah yang membuat transaksi dengan Timelock.
+  Ini mencegah mereka untuk segera mengambil kembali uang mereka.
+ditinjau: false

@@ -1,0 +1,11 @@
+pertanyaan: Apa saja beberapa keterampilan yang dibutuhkan dalam keamanan siber?
+jawaban: Analisis log, respons insiden
+jawaban_salah:
+  - Desain grafis, pengeditan video
+  - Penjualan, pemasaran
+  - Memasak, membuat kue
+penjelasan: |
+  Bab tersebut menyebutkan analisis log dan respons insiden sebagai beberapa
+
+
+  keterampilan yang dibutuhkan dalam keamanan siber.

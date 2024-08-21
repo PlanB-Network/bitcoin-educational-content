@@ -1,0 +1,11 @@
+---
+term: PAYJOIN
+---
+
+Struktur transaksi Bitcoin spesifik yang meningkatkan privasi pengguna selama melakukan pembayaran dengan berkolaborasi dengan penerima pembayaran. Keunikan Payjoin terletak pada kemampuannya untuk menghasilkan transaksi yang tampak biasa pada pandangan pertama tetapi sebenarnya adalah mini coinjoin antara dua pihak. Untuk ini, struktur transaksi melibatkan penerima pembayaran dalam input bersama dengan pengirim sebenarnya. Dengan demikian, penerima menyertakan pembayaran kepada diri mereka sendiri di tengah transaksi yang memungkinkan mereka dibayar. Sebagai contoh, jika Anda membeli baguette seharga `6,000 sats` menggunakan UTXO sebesar `10,000 sats`, dan Anda memilih Payjoin, pembuat roti Anda akan menambahkan UTXO sebesar `15,000 sats` milik mereka sebagai input, yang akan mereka ambil kembali secara penuh sebagai output, selain dari `6,000 sats` Anda.
+
+Transaksi Payjoin memenuhi dua tujuan. Pertama, bertujuan untuk menyesatkan pengamat eksternal dengan menciptakan umpan dalam analisis rantai pada Heuristik Kepemilikan Input Bersama (Common Input Ownership Heuristic - CIOH). Biasanya, ketika sebuah transaksi di blockchain memiliki beberapa input, diasumsikan bahwa semua input ini kemungkinan besar milik entitas yang sama. Dengan demikian, ketika seorang analis memeriksa transaksi Payjoin, mereka dibuat percaya bahwa semua input berasal dari orang yang sama. Namun, persepsi ini salah karena penerima pembayaran juga berkontribusi pada input bersama dengan pembayar sebenarnya. Kedua, Payjoin juga menipu pengamat eksternal tentang jumlah pembayaran sebenarnya yang dilakukan. Dengan memeriksa struktur transaksi, analis mungkin percaya bahwa pembayaran setara dengan jumlah salah satu output. Pada kenyataannya, jumlah pembayaran sesuai dengan tidak satu pun dari output. Ini sebenarnya adalah perbedaan antara UTXO penerima di output dan UTXO penerima di input. Dalam hal ini, transaksi Payjoin masuk ke ranah steganografi. Ini memungkinkan menyembunyikan jumlah sebenarnya dari sebuah transaksi dalam transaksi palsu yang bertindak sebagai umpan.
+
+![](../../dictionnaire/assets/14.png)
+
+> ► *Payjoin juga terkadang disebut "P2EP (Pay-to-End-Point)", "Stowaway", atau "transaksi steganografi".*

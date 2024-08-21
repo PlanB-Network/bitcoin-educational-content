@@ -1,0 +1,11 @@
+pertanyaan: Berapa nilai maksimum dari Cordoba pertama di Nikaragua?
+jawaban: 1 juta.
+jawaban_salah:
+  - 500.000
+  - 10 juta
+  - 100 juta
+penjelasan: |
+  Di Nikaragua, Cordoba pertama mencapai nilai 1 juta. Cordoba kedua
+
+  mencapai 10 juta.'
+ditinjau: false

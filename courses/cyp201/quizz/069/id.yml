@@ -1,0 +1,8 @@
+pertanyaan: Apa standar yang paling umum digunakan untuk frasa pemulihan 24 kata dalam dompet Bitcoin?
+jawaban: Entropi 256 bit.
+jawaban_salah:
+  - Entropi 128 bit.
+  - Entropi 160 bit.
+  - Entropi 512 bit.
+penjelasan: |
+  Standar yang paling umum digunakan untuk frasa pemulihan 24 kata adalah entropi 256 bit.

@@ -1,0 +1,8 @@
+pertanyaan: Apa yang dapat terkandung dalam lampiran dan gambar email?
+jawaban: Malware
+jawaban_salah:
+  - Spam
+  - Iklan
+  - Konten promosi
+penjelasan: |
+  Lampiran dan gambar email dapat mengandung malware. Oleh karena itu, Anda tidak boleh mengunduh atau membuka lampiran dari pengirim yang tidak dikenal atau mencurigakan.

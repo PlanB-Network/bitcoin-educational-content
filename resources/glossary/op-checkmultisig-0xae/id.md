@@ -1,0 +1,5 @@
+---
+term: OP_CHECKMULTISIG (0XAE)
+---
+
+Memeriksa beberapa tanda tangan terhadap beberapa kunci publik. Ini mengambil sebagai input serangkaian `N` kunci publik dan `M` tanda tangan, di mana `M` bisa kurang dari atau sama dengan `N`. `OP_CHECKMULTISIG` memverifikasi jika setidaknya `M` tanda tangan cocok dengan `M` dari `N` kunci publik. Perlu dicatat bahwa karena bug off-by-one historis, sebuah elemen tambahan dihapus oleh `OP_CHECKMULTISIG` dari tumpukan. Elemen ini disebut "*elemen dummy*". Untuk menghindari kesalahan dalam `scriptSig`, sebuah `OP_0`, yang merupakan elemen tidak berguna, oleh karena itu dimasukkan untuk memenuhi penghapusan dan menghindari bug. Sejak BIP147 (diperkenalkan dengan SegWit pada tahun 2017), elemen tidak berguna yang dikonsumsi karena bug harus `OP_0` agar skrip valid, karena itu adalah vektor malleability. Opcode ini dihapus dalam Tapscript.

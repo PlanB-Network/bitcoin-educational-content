@@ -1,0 +1,11 @@
+pertanyaan: Apa praktik terbaik untuk keamanan optimal dengan autentikasi kuat?
+jawaban: Gunakan alamat email yang aman, pengelola kata sandi yang aman, dan terapkan 2FA menggunakan YubiKeys.
+jawaban_salah:
+  - Gunakan kata sandi umum untuk semua akun, dan hindari 2FA
+  - Gunakan kata sandi sederhana dan mengandalkan data biometrik untuk 2FA
+  - Gunakan alamat email yang aman, tetapi hindari pengelola kata sandi dan 2FA
+penjelasan: |
+  Untuk keamanan optimal, disarankan untuk menggunakan alamat email yang aman,
+  pengelola kata sandi yang aman, dan menerapkan 2FA menggunakan YubiKeys. Juga disarankan untuk
+  membeli dua YubiKeys untuk mengantisipasi kehilangan atau pencurian.
+ditinjau: false

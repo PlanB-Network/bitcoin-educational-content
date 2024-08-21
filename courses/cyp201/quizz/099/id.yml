@@ -1,0 +1,9 @@
+pertanyaan: Apa prefiks yang paling sering digunakan untuk kunci ekstensi?
+jawaban: xpub dan zpub
+jawaban_salah:
+  - xprv dan zprv
+  - ypub dan zpub
+  - xpub dan ypub
+penjelasan: |
+  Prefiks yang paling sering digunakan adalah xpub dan zpub, yang sesuai
+  dengan standar legacy dan segwit v1 serta segwit v0, masing-masing.

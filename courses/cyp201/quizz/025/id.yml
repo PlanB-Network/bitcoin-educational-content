@@ -1,0 +1,11 @@
+pertanyaan: Berapakah orde kurva (n) untuk kurva secp256k1 dalam desimal?
+jawaban: 2^256 - 432420386565659656852420866394968145599
+jawaban_salah:
+  - 2^256 - 2^32 - 2^9 - 2^8 - 2^7 - 2^6 - 2^4 -1
+  - 2^256 - 432420386565659656852420866394968145598
+  - 2^256 - 432420386565659656852420866394968145600
+penjelasan: |
+  Orde kurva (n) untuk kurva secp256k1 adalah jumlah titik pada
+  kurva, termasuk titik di tak hingga. Untuk secp256k1, n sama dengan 2^256 -
+  432420386565659656852420866394968145599 dalam desimal.
+ditinjau: false

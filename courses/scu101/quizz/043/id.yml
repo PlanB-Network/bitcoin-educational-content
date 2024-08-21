@@ -1,0 +1,12 @@
+pertanyaan: Mengapa tidak disarankan untuk menggunakan variasi atau tambahan pada kata sandi?
+jawaban: Mereka tidak aman dan dapat dengan mudah ditebak.
+jawaban_salah:
+  - Mereka terlalu panjang dan kompleks.
+  - Mereka sulit diingat.
+  - Mereka tidak diizinkan oleh sebagian besar layanan online.
+penjelasan: |
+  Variasi atau tambahan pada kata sandi tidak aman karena dapat
+  
+  dengan mudah ditebak. Lebih baik menggunakan kata sandi yang sepenuhnya acak yang tidak mengikuti
+  
+  pola yang dapat diprediksi.

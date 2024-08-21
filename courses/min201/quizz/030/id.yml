@@ -1,0 +1,10 @@
+pertanyaan: Apa ancaman potensial dari Proof of Stake dalam jaringan Bitcoin?
+jawaban: Mereka yang sudah memiliki jumlah mata uang yang besar memiliki kekuatan yang tidak seimbang, mencerminkan ketidaksetaraan kekuasaan yang sudah ada.
+jawaban_salah:
+  - Ini memerlukan hambatan masuk yang signifikan.
+  - Ini tidak memungkinkan partisipasi skala kecil.
+  - Ini tidak memerlukan sumber daya nyata.
+penjelasan: |
+  Dalam jaringan Proof of Stake, mereka yang sudah memiliki jumlah mata uang yang besar memiliki kekuatan yang tidak seimbang. Dinamika ini berpotensi memperpanjang
+  
+  sentralisasi dan konsentrasi kekuasaan di tangan segelintir orang.

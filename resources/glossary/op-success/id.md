@@ -1,0 +1,9 @@
+---
+term: OP_SUCCESS
+---
+
+`OP_SUCCESS` mewakili serangkaian opcode yang di masa lalu dinonaktifkan dan kini disediakan untuk penggunaan di masa depan dalam Tapscript. Tujuan utamanya adalah untuk memfasilitasi pembaruan dan ekstensi dari bahasa skrip, dengan memungkinkan pengenalan fungsionalitas baru melalui soft fork. Ketika salah satu dari opcode ini ditemukan dalam sebuah skrip, itu menandakan keberhasilan otomatis dari bagian skrip tersebut, terlepas dari data atau kondisi yang ada. Ini berarti bahwa skrip melanjutkan eksekusinya tanpa kegagalan, independen dari operasi sebelumnya.
+
+Dengan demikian, ketika sebuah opcode baru ditambahkan pada sebuah `OP_SUCCESS`, ini secara inheren mewakili penambahan aturan yang lebih restriktif dari yang sebelumnya. Node yang diperbarui kemudian dapat memverifikasi kepatuhan dengan aturan ini, dan node yang tidak diperbarui tidak akan menolak transaksi terkait dan blok yang menyertakannya, karena `OP_SUCCESS` memvalidasi bagian dari skrip tersebut. Oleh karena itu, tidak terjadi hard fork.
+
+Sebagai perbandingan, `OP_NOP` (*No Operation*) juga berfungsi sebagai placeholder dalam skrip, tetapi mereka tidak memiliki efek pada eksekusi skrip. Ketika sebuah `OP_NOP` ditemukan, skrip hanya melanjutkan tanpa mengubah keadaan stack atau progresi dari skrip. Perbedaan kunci, oleh karena itu, adalah dalam dampak mereka terhadap eksekusi: `OP_SUCCESS` menjamin sebuah perjalanan sukses melalui bagian skrip tersebut, sementara `OP_NOP` bersifat netral, dan tidak mempengaruhi baik stack maupun alur dari skrip. Opcode ini ditandai dengan `OP_SUCCESSN` di mana `N` adalah angka yang digunakan untuk membedakan `OP_SUCCESS`.

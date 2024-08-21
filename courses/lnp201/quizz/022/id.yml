@@ -1,0 +1,11 @@
+pertanyaan: Apa yang dilakukan Alice dengan UTXO sebesar 0.0007 BTC ketika ia membuka saluran dengan Bob?
+jawaban: Dia mengirimkannya ke salah satu alamat kembalian miliknya.
+jawaban_salah:
+  - Dia mengirimkannya ke alamat publik Bob.
+  - Dia mengirimkannya ke alamat multi-sig 2/2.
+  - Dia menyimpannya di alamatnya sendiri.
+penjelasan: |
+  Ketika Alice membuka saluran dengan Bob, ia membuat transaksi dengan 2
+  UTXO sebagai output. Satu UTXO sebesar 0.0013 BTC dikirim ke alamat multi-sig 2/2, dan
+  UTXO lainnya sebesar 0.0007 BTC dikirim ke salah satu alamat kembalian miliknya.
+ditinjau: false

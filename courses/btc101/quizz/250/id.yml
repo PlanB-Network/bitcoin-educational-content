@@ -1,0 +1,9 @@
+pertanyaan: Apa salah satu kekhawatiran utama tentang sistem perbankan?
+jawaban: Aturan permainan perbankan tidak transparan dan mudah dipahami oleh semua orang.
+jawaban_salah:
+  - Sistem perbankan terlalu mudah untuk dipahami.
+  - Sistem perbankan terlalu transparan.
+  - Sistem perbankan terlalu desentralisasi.
+penjelasan: >-
+  Teks menyebutkan bahwa pertanyaan tentang siapa yang harus mengontrol sistem perbankan sangat krusial karena aturan permainan perbankan tidak transparan dan
+  mudah dipahami oleh semua orang.

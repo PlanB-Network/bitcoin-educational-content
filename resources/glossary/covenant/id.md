@@ -1,0 +1,14 @@
+---
+term: COVENANT
+---
+
+Mekanisme yang memungkinkan penempatan kondisi tertentu pada bagaimana sejumlah mata uang tertentu dapat dibelanjakan, termasuk dalam transaksi masa depan. Melampaui kondisi yang biasanya diizinkan oleh bahasa skrip pada sebuah UTXO, covenant memberlakukan batasan tambahan pada bagaimana Bitcoin ini dapat dibelanjakan dalam transaksi berikutnya. Secara teknis, pembentukan sebuah covenant terjadi ketika `scriptPubKey` dari sebuah UTXO mendefinisikan batasan pada `scriptPubKey` dari output sebuah transaksi yang menghabiskan UTXO tersebut. Dengan memperluas cakupan skrip, covenant akan memungkinkan berbagai pengembangan pada Bitcoin seperti pengikatan bilateral drivechains, implementasi vaults, atau peningkatan sistem overlay seperti Lightning. Proposal covenant dibedakan berdasarkan tiga kriteria:
+* Cakupan mereka;
+* Implementasi mereka;
+* Rekursivitas mereka.
+
+Ada banyak proposal yang akan memungkinkan penggunaan covenant pada Bitcoin. Yang paling maju dalam proses implementasi adalah: `OP_CHECKTEMPLATEVERIFY` (CTV), `SIGHASH_ANYPREVOUT` (APO), dan `OP_VAULT`. Di antara proposal lainnya, ada: `OP_TX`, `OP_TAPLEAFUPDATEVERIFY` (TLUV), `OP_EVICT`, `OP_CHECKSIGFROMSTACKVERIFY` (CSFSV), `OP_CAT`, dll.
+
+Untuk lebih memahami konsep covenant, pertimbangkan analogi ini: bayangkan sebuah brankas yang berisi 500€ dalam bentuk uang kertas kecil. Jika Anda berhasil membuka brankas ini dengan kunci yang tepat, maka Anda bebas menggunakan uang ini sesuai keinginan Anda. Ini adalah situasi normal dengan Bitcoin. Sekarang, bayangkan bahwa brankas yang sama tidak berisi 500€ dalam bentuk uang kertas, melainkan voucher makan dengan nilai yang setara. Jika Anda berhasil membuka brankas ini, Anda dapat menggunakan jumlah ini. Namun, kebebasan Anda untuk menghabiskannya dibatasi, karena Anda hanya dapat menggunakan voucher ini untuk membayar di restoran tertentu. Jadi, ada satu kondisi pertama untuk menghabiskan uang ini, yaitu berhasil membuka brankas dengan kunci yang tepat. Tetapi ada juga kondisi tambahan mengenai penggunaan masa depan dari jumlah ini: harus dihabiskan secara eksklusif di restoran mitra, dan tidak bebas. Sistem batasan pada transaksi masa depan inilah yang disebut sebagai covenant.
+
+> ► *Dalam bahasa Prancis, tidak ada istilah yang secara tepat menangkap makna dari kata "covenant". Seseorang dapat berbicara tentang "klausul", "pakt", atau "komitmen", tetapi ini tidak akan persis sesuai dengan istilah "covenant". Istilah ini dipinjam dari terminologi hukum yang memungkinkan mendeskripsikan klausul kontraktual yang memberlakukan kewajiban persisten pada sebuah properti.*

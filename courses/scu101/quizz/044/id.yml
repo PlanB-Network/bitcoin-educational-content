@@ -1,0 +1,13 @@
+pertanyaan: Mengapa penting untuk secara bertahap mengganti password lama Anda dengan yang dihasilkan oleh pengelola kata sandi?
+jawaban: Kata sandi yang dihasilkan oleh pengelola kata sandi lebih kuat dan lebih panjang, menawarkan lebih banyak keamanan.
+jawaban_salah:
+  - Kata sandi lama secara otomatis dihapus oleh pengelola kata sandi.
+  - Pengelola kata sandi hanya dapat menyimpan jumlah kata sandi yang terbatas.
+  - Pengelola kata sandi mengharuskan semua kata sandi dihasilkan oleh mereka.
+penjelasan: |
+  Kata sandi yang dihasilkan oleh pengelola kata sandi lebih kuat dan lebih panjang, menawarkan
+
+  lebih banyak keamanan. Dengan secara bertahap mengganti kata sandi lama Anda dengan ini, Anda dapat meningkatkan
+
+  keamanan akun online Anda.
+ditinjau: false

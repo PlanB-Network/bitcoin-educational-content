@@ -1,0 +1,5 @@
+---
+term: BIP68
+---
+
+Memperkenalkan kemampuan untuk menggunakan waktu kunci relatif melalui bidang `nSequence`. Ini memungkinkan sebuah transaksi untuk menentukan penundaan relatif sebelum dapat dimasukkan dalam sebuah blok. Penundaan ini dapat didefinisikan dalam bentuk jumlah blok, atau sebagai kelipatan dari 512 detik (yaitu, waktu nyata). Perlu dicatat bahwa interpretasi baru dari bidang `nSequence` ini hanya valid jika bidang `nVersion` lebih besar atau sama dengan `2`. Interpretasi dari bidang `nSequence` ini terjadi pada tingkat aturan konsensus Bitcoin. Waktu kunci relatif menetapkan penundaan yang dimulai dari penerimaan transaksi sebelumnya, sementara waktu kunci absolut menentukan momen spesifik sebelum transaksi tidak dapat dimasukkan dalam sebuah blok. BIP68 diperkenalkan melalui soft fork pada 4 Juli 2016, bersamaan dengan BIP112 dan BIP113, diaktifkan untuk pertama kalinya menggunakan metode BIP9.

@@ -1,0 +1,12 @@
+pertanyaan: Apa yang ditunjukkan oleh prefiks 0,3 pada kunci publik Bitcoin?
+jawaban: Ini menunjukkan nilai y yang ganjil.
+jawaban_salah:
+  - Ini menunjukkan nilai y yang genap.
+  - Ini menunjukkan versi dari kunci publik.
+  - Ini menunjukkan ukuran dari kunci publik.
+penjelasan: |
+  Dalam contoh kunci publik yang dimiliki oleh Satoshi Nakamoto, sebuah prefiks
+
+  0,3 menunjukkan nilai y yang ganjil. Ini merupakan bagian dari proses kompresi sebuah kunci
+
+  publik dalam Bitcoin.

@@ -1,0 +1,10 @@
+pertanyaan: Apa itu HTLC?
+jawaban: Sebuah kontrak pembayaran yang hanya dapat dibuka dengan sebuah rahasia.
+jawaban_salah:
+  - Sejenis mata uang kripto.
+  - Sebuah metode enkripsi data.
+  - Sejenis blockchain.
+penjelasan: |
+  HTLC, atau Hash Time-Locked Contract, adalah sebuah jenis kontrak pembayaran
+  yang hanya dapat dibuka dengan sebuah rahasia. Ini digunakan dalam Lightning Network untuk
+  memastikan pembayaran yang aman dan dapat diverifikasi.

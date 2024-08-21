@@ -1,0 +1,11 @@
+pertanyaan: Apa tujuan dari biaya transaksi dalam transaksi Bitcoin?
+jawaban: Mereka merupakan insentif bagi penambang untuk memasukkan transaksi tersebut ke dalam blok berikutnya.
+jawaban_salah:
+  - Mereka adalah pajak yang dikenakan oleh pemerintah.
+  - Mereka adalah biaya yang dikenakan oleh jaringan Bitcoin untuk menggunakan layanannya.
+  - Mereka adalah biaya yang dikenakan oleh penyedia dompet.
+penjelasan: |
+  Biaya transaksi dalam transaksi Bitcoin berfungsi sebagai insentif bagi penambang
+  untuk memasukkan transaksi ke dalam blok berikutnya. Biaya tersebut menciptakan pasar bebas untuk
+  memasukkan transaksi dalam blok.
+ditinjau: true

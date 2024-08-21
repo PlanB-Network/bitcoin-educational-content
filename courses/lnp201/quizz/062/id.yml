@@ -1,0 +1,9 @@
+pertanyaan: Apa peran dari hash r dalam HTLC?
+jawaban: Hash tersebut termasuk dalam invoice yang dikirim oleh Bob ke Alice dan digunakan untuk mengatur HTLC.
+jawaban_salah:
+  - Digunakan untuk menghitung rahasia S.
+  - Digunakan untuk menutup saluran.
+  - Digunakan untuk mentransfer uang.
+penjelasan: |
+  Bob menghasilkan sebuah rahasia S dan menghitung hash r. Hash ini termasuk dalam invoice yang dikirim oleh Bob ke Alice dan digunakan untuk mengatur HTLC.
+ditinjau: false

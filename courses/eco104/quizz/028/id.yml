@@ -1,0 +1,9 @@
+pertanyaan: Siapapun dapat menduplikasi kode Bitcoin, membuatnya tidak bernilai, benar atau salah?
+jawaban: Benar
+jawaban_salah:
+  - Salah
+penjelasan: |
+  Meskipun kode untuk Bitcoin bersifat open source dan dapat disalin,
+  nilai dari bitcoin tidak berasal dari kodenya. Nilai tersebut berasal dari
+  jaringan penggunanya serta kepercayaan dan adopsi yang telah dibangun seiring waktu.
+ditinjau: true

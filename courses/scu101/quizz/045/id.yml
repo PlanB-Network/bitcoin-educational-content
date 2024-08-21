@@ -1,0 +1,13 @@
+pertanyaan: Apa keuntungan utama menggunakan pengelola kata sandi?
+jawaban: Ini membantu Anda membuat kata sandi yang kuat dan mengingatnya, sehingga Anda tidak perlu melakukannya.
+jawaban_salah:
+  - Ini secara otomatis masuk ke akun online Anda.
+  - Ini melindungi komputer Anda dari virus.
+  - Ini menyimpan semua kata sandi Anda di satu tempat, membuatnya lebih mudah untuk ditemukan.
+penjelasan: |
+  Pengelola kata sandi membantu Anda membuat kata sandi yang kuat dan mengingatnya,
+
+  sehingga Anda tidak perlu melakukannya. Ini menyimpan semua kata sandi Anda dengan cara yang aman dan menghasilkan
+
+  kata sandi yang kuat untuk Anda.'
+diulas: false

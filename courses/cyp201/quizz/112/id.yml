@@ -1,0 +1,9 @@
+pertanyaan: Apa tujuan dari Kedalaman 3 dalam struktur Dompet HD?
+jawaban: Digunakan untuk mengorganisir dompet ke dalam berbagai akun
+jawaban_salah:
+  - Digunakan untuk menurunkan kunci anak untuk tujuan tertentu
+  - Memungkinkan diferensiasi akun untuk berbagai cryptocurrency atau jaringan
+  - Sesuai dengan rantai eksternal dan internal
+penjelasan: |
+  Dalam struktur Dompet HD, Kedalaman 3 digunakan untuk mengorganisir dompet ke dalam
+  berbagai akun, menyediakan struktur yang lebih jelas dan lebih terorganisir.

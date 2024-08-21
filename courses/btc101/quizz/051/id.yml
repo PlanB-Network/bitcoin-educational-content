@@ -1,0 +1,10 @@
+pertanyaan: Apa dampak inflasi 2% terhadap daya beli selama 5 tahun?
+jawaban: Anda kehilangan 10% dari daya beli Anda.
+jawaban_salah:
+  - Anda kehilangan 2% dari daya beli Anda.
+  - Anda kehilangan 5% dari daya beli Anda.
+  - Anda kehilangan 20% dari daya beli Anda.
+penjelasan: |
+  Dengan inflasi 2%, Anda kehilangan 2% dari daya beli Anda setiap tahun, yang
+  berjumlah menjadi 10% selama 5 tahun.
+ditinjau: true

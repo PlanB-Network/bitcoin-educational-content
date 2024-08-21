@@ -1,0 +1,10 @@
+pertanyaan: Apa tujuan dari HTLC-out dalam transaksi komitmen Alice?
+jawaban: Ini mewakili HTLC yang Alice kirimkan kepada penerima, Susie.
+jawaban_salah:
+  - Ini mewakili HTLC yang Alice terima dari Bob.
+  - Ini mewakili HTLC yang Alice kirimkan kepada Bob.
+  - Ini mewakili HTLC yang Alice terima dari Susie.
+penjelasan: |
+  Dalam skenario yang diberikan, Alice mengirimkan sebuah HTLC kepada Susie. Ini diwakilkan
+  dalam transaksi komitmen Alice sebagai HTLC-out.
+ditinjau: false

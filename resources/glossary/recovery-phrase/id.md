@@ -1,0 +1,9 @@
+---
+term: FRASA PEMULIHAN
+---
+
+Frasa pemulihan, yang terkadang juga disebut mnemonic, frasa benih, atau frasa rahasia, adalah urutan yang biasanya terdiri dari 12 atau 24 kata, yang dihasilkan secara pseudo-acak dari sumber entropi. Urutan pseudo-acak ini selalu dilengkapi dengan checksum. Frasa mnemonic, bersama dengan passphrase opsional, digunakan untuk secara deterministik menurunkan semua kunci yang terkait dengan dompet HD (Hierarchical Deterministic). Ini berarti dari frasa ini, dimungkinkan untuk secara deterministik menghasilkan dan merekreasi semua kunci privat dan publik dari dompet Bitcoin, dan akibatnya mengakses dana yang terkait dengannya. Tujuan dari frasa pemulihan adalah untuk menyediakan sarana cadangan dan pemulihan bitcoin yang aman dan mudah digunakan.
+
+Penting untuk menyimpan frasa ini di lokasi yang aman dan terlindungi, karena siapa pun yang memiliki mnemonic akan memiliki akses ke dana dari dompet yang bersangkutan. Jika digunakan dalam konteks dompet tradisional, dan tanpa passphrase opsional, seringkali ini merupakan SPOF (Single Point Of Failure). Frasa pemulihan dengan demikian adalah pengkodean dari urutan pseudo-acak dan checksum ke dalam kata-kata sehari-hari untuk memfasilitasi notasi dan keterbacaannya oleh manusia. Ini dibangun menurut standar BIP39, yang mendefinisikan dan mengurutkan daftar 2048 kata yang digunakan untuk pengkodean ini.
+
+> ► *Daftar 2048 kata dari BIP39 tersedia dalam beberapa bahasa, namun, disarankan untuk hanya menggunakan versi Bahasa Inggris, karena itu adalah versi yang paling luas didukung oleh perangkat lunak dompet.*

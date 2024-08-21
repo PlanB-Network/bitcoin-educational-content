@@ -1,0 +1,9 @@
+pertanyaan: Berapa panjang kunci privat dalam dompet Bitcoin?
+jawaban: 256 bit
+jawaban_salah:
+  - 128 bit
+  - 512 bit
+  - 1024 bit
+penjelasan: |
+  Kunci privat dalam dompet Bitcoin, yang sangat penting untuk kepemilikan cryptocurrency, memiliki panjang tetap yaitu 256 bit.
+ditinjau: false

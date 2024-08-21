@@ -1,0 +1,11 @@
+pertanyaan: Apa itu vektor inisialisasi dalam pemrosesan fungsi SHA-256?
+jawaban: 32 bit pertama dari bagian desimal akar kuadrat dari 8 bilangan prima pertama
+jawaban_salah:
+  - 32 bit pertama dari bagian desimal akar kubik dari 8 bilangan prima pertama
+  - 32 bit pertama dari bagian desimal akar kuadrat dari 64 bilangan prima pertama
+  - 32 bit pertama dari bagian desimal akar kubik dari 64 bilangan prima pertama
+penjelasan: |
+  Dalam pemrosesan fungsi SHA-256, vektor inisialisasi, dari
+  A sampai H, adalah 32 bit pertama dari bagian desimal akar kuadrat dari 8
+  bilangan prima pertama. Ini digunakan sebagai bahan dasar dalam resep kriptografi.
+reviewed: false

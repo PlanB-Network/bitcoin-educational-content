@@ -1,0 +1,9 @@
+pertanyaan: Apa perbedaan utama antara penjelajahan pribadi dan menggunakan jaringan TOR?
+jawaban: TOR menyamarkan alamat IP pengguna, sementara penjelajahan pribadi tidak.
+jawaban_salah:
+  - Penjelajahan pribadi dan TOR adalah hal yang sama.
+  - Penjelajahan pribadi menyamarkan alamat IP pengguna, sementara TOR tidak.
+  - TOR meninggalkan jejak lokal di komputer Anda, sementara penjelajahan pribadi tidak.
+penjelasan: |
+  Penjelajahan pribadi adalah fitur yang mencegah penyimpanan riwayat penjelajahan, file internet sementara, data formulir, cookie, dan nama pengguna serta kata sandi oleh peramban internet. Namun, fitur ini tidak menyembunyikan penjelajahan dari penyedia layanan internet Anda. Di sisi lain, jaringan TOR menawarkan anonimitas dengan menyamarkan alamat IP pengguna dan memungkinkan akses ke Darknet.
+ditinjau: false

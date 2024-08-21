@@ -1,0 +1,11 @@
+pertanyaan: Apa peran BIP39 dalam ekosistem Bitcoin?
+jawaban: Ini memperkenalkan frasa mnemonik 24 kata untuk mengubah urutan angka yang kompleks menjadi kata-kata biasa.
+jawaban_salah:
+  - Ini memperkenalkan konsep kunci yang diturunkan secara deterministik dan hierarkis.
+  - Ini mengusulkan penambahan passphrase tambahan untuk memperkuat keamanan kunci individu.
+  - Ini menstandarkan struktur dan hierarki dompet HD.
+penjelasan: |
+  BIP39 memperkenalkan sebuah inovasi penting; frasa mnemonik 24 kata.
+  Sistem ini memungkinkan untuk mengubah urutan angka yang kompleks dan sulit diingat
+  menjadi serangkaian kata-kata biasa, yang jauh lebih mudah untuk dihafal dan disimpan.
+ditinjau: false

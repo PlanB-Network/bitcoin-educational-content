@@ -1,0 +1,12 @@
+pertanyaan: Apa tujuan dari transaksi penarikan dalam proses pembukaan sebuah kanal di Lightning Network?
+jawaban: Ini memungkinkan Alice untuk mengambil kembali dananya jika terjadi sesuatu yang tidak diinginkan.
+jawaban_salah:
+  - Ini memungkinkan Bob untuk mengklaim bagian dananya.
+  - Digunakan untuk menyelesaikan proses pembukaan kanal.
+  - Digunakan untuk mentransfer dana dari Alice ke Bob.
+penjelasan: |
+  Transaksi penarikan dibuat oleh Alice sebelum mempublikasikan
+  deposit dana di multi-sig. Transaksi ini memungkinkan Alice untuk menghabiskan dana
+  dari alamat multi-sig ke alamat miliknya. Ini dilakukan untuk memastikan bahwa dia
+  dapat mengambil kembali dananya jika terjadi sesuatu yang tidak diinginkan.
+reviewed: false

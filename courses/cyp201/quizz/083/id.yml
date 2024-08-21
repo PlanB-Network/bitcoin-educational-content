@@ -1,0 +1,10 @@
+pertanyaan:
+  Apakah disarankan untuk menghafal passphrase atau mnemonic phrase untuk dompet Bitcoin?
+jawaban: Ini salah
+jawaban_salah:
+  - Ini benar
+  - Tergantung pada panjangnya passphrase atau mnemonic phrase
+  - Tergantung pada kompleksitas passphrase atau mnemonic phrase
+penjelasan: |
+  Tidak disarankan untuk menghafal passphrase atau mnemonic phrase. Sangat penting untuk menjaga cadangan passphrase agar tidak kehilangan akses ke dompet.
+ditinjau: false

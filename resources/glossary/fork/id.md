@@ -1,0 +1,9 @@
+---
+term: FORK
+---
+
+Istilah "fork" memiliki beberapa makna dalam konteks Bitcoin. Ini dapat merujuk pada pemisahan jaringan node menjadi beberapa kelompok terpisah, yang mengarah pada penciptaan beberapa blockchain yang berbeda, atau modifikasi dari aturan protokol, atau keduanya secara bersamaan. Untuk menyederhanakan, kita dapat membedakan 4 kategori utama dari fork:
+* Fork alami: terjadi ketika ada persaingan sementara antara dua blok yang ditemukan pada saat yang sama di tingkat yang sama. Fork ini dapat berlangsung selama beberapa blok. Tipe fork ini terpecahkan secara alami ketika salah satu rantai menjadi lebih panjang dari yang lain (dengan lebih banyak pekerjaan yang terakumulasi), yang mengarah pada reorganisasi. Reorganisasi ini termanifestasi dengan semua node yang setuju lagi pada satu blockchain;
+* Fork kode: melibatkan penciptaan cryptocurrency baru dari kode sumber Bitcoin, dengan meluncurkan blockchain baru dari blok Genesis;
+* Hard fork: merupakan modifikasi dari protokol Bitcoin, tidak kompatibel dengan versi sebelumnya, dengan menghapus aturan atau mempermudah aturan yang ada. Ini menghasilkan penciptaan dua rantai yang berbeda dan tidak kompatibel jika tidak semua node diperbarui. Jaringan kemudian terbagi menjadi dua: mereka yang mengadopsi aturan baru dan mereka yang mempertahankan aturan lama;
+* Soft fork: melibatkan modifikasi retrokompatibel yang menambahkan aturan atau membuat aturan yang ada lebih restriktif, tanpa menyebabkan pemisahan jaringan. Node yang tidak mengadopsi aturan baru dapat terus mengikuti rantai yang sama dengan yang lain, asalkan mayoritas kekuatan komputasi jaringan mendukung rantai yang diperbarui.

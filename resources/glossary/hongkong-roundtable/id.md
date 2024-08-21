@@ -1,0 +1,7 @@
+---
+term: HONG-KONG ROUNDTABLE
+---
+
+Sebuah peristiwa bersejarah dari Perang Ukuran Blok yang terjadi pada 20 Februari 2016, di Hong Kong. Ini merupakan pertemuan penting antara pengembang Bitcoin Core dan penambang untuk membahas skalabilitas sistem dan strategi untuk meningkatkannya. Ketegangan meningkat sebelum pertemuan, terutama karena munculnya Bitcoin Classic, sebuah usulan hard fork yang didukung oleh Gavin Andressen yang bertujuan untuk meningkatkan ukuran blok menjadi 2 MB. Tokoh-tokoh berpengaruh dalam ekosistem berpartisipasi dalam debat, termasuk Jihan Wu dan Micree Zhan, pendiri bersama Bitmain, Adam Back, presiden Blockstream, dan Luke Dashjr, Matt Corallo, dan Peter Todd.
+
+Penambang, frustrasi karena kurangnya kemajuan, mengancam akan mendukung Bitcoin Classic jika hard fork 2 MB tidak diimplementasikan. Pengembang membela SegWit sebagai solusi yang layak. Setelah berjam-jam negosiasi yang tegang, sebuah kesepakatan dicapai, menyatakan bahwa pengembang Bitcoin Core akan bekerja pada hard fork setelah implementasi SegWit. Kesepakatan ini seharusnya meredakan ketegangan, tetapi pada akhirnya menciptakan lebih banyak ketidakpercayaan dan kebingungan. Setiap pihak menafsirkan kesepakatan tersebut secara berbeda, memperburuk perpecahan dalam komunitas. Meskipun kesepakatan ini sementara memperlambat momentum Bitcoin Classic, banyak yang melihatnya sebagai solusi yang tidak memuaskan dan canggung.

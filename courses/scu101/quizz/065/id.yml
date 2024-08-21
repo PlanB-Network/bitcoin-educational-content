@@ -1,0 +1,11 @@
+pertanyaan: Apa praktik terbaik untuk menyimpan Kata Sandi Sekali Pakai (OTP)?
+jawaban: Simpan OTP di perangkat seluler Anda.
+jawaban_salah:
+  - Tulis di atas kertas.
+  - Simpan di email Anda.
+  - Hafalkan.
+penjelasan: |
+  Untuk keamanan optimal, disarankan untuk menyimpan OTP (Kata Sandi Sekali Pakai)
+  di perangkat seluler Anda. Ini karena perangkat seluler umumnya lebih aman
+  dan kurang mungkin dikompromikan dibandingkan metode penyimpanan lainnya.
+ditinjau: false

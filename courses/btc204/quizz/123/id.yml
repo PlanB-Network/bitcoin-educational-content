@@ -1,0 +1,13 @@
+pertanyaan: Apa kelemahan utama menggunakan Tor untuk node Bitcoin?
+
+jawaban: Penurunan kecepatan komunikasi
+
+jawaban_salah:
+  - Peningkatan biaya transaksi
+  - Risiko sensor transaksi
+  - Risiko serangan Eclipse pada node
+
+penjelasan: |
+  Komunikasi melalui Tor lebih lambat. Latensi ini menjadi masalah khususnya saat peluncuran awal node, karena IBD (Initial Block Download) memerlukan banyak komunikasi.
+
+ditinjau: false

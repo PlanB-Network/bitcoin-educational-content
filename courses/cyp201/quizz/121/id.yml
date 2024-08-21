@@ -1,0 +1,11 @@
+pertanyaan: Apa jenis skrip yang memungkinkan untuk mengunci bitcoin ke sebuah kunci publik?
+jawaban: Pay2PublicKey
+jawaban_salah:
+  - Pay2Address
+  - Pay2PrivateKey
+  - Pay2Hash
+penjelasan: |
+  Jenis skrip yang memungkinkan untuk mengunci bitcoin ke sebuah kunci publik disebut
+  Pay2PublicKey. Namun, pengguna umumnya lebih memilih menggunakan alamat penerima
+  daripada skrip ini.
+direview: false

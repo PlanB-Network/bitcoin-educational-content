@@ -1,0 +1,10 @@
+pertanyaan: Berapa waktu kedaluwarsa default untuk sebuah invoice Jaringan Lightning?
+jawaban: 1 jam
+jawaban_salah:
+  - 24 jam
+  - 30 menit
+  - 2 jam
+penjelasan: |
+  Waktu kedaluwarsa default untuk sebuah invoice Jaringan Lightning adalah 1 jam.
+  Ini berarti jika invoice tidak dibayar dalam jangka waktu tersebut, maka akan menjadi
+  tidak valid.

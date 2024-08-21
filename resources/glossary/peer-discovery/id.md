@@ -1,0 +1,9 @@
+---
+term: PEER DISCOVERY
+---
+
+Proses di mana node dalam jaringan Bitcoin terhubung dengan node lain untuk mendapatkan informasi. Ketika sebuah node Bitcoin pertama kali diluncurkan, ia tidak memiliki informasi tentang node lain dalam jaringan. Namun, node tersebut harus menjalin koneksi untuk sinkronisasi dengan blockchain yang memiliki pekerjaan terakumulasi terbanyak. Beberapa mekanisme digunakan untuk menemukan peer ini, berurutan berdasarkan prioritas:
+* Node mulai dengan mengkonsultasikan file `peers.dat` lokalnya, yang menyimpan informasi tentang node dengan mana ia sebelumnya telah berinteraksi. Jika node tersebut baru, file ini akan kosong, dan proses akan berlanjut ke langkah selanjutnya;
+* Dalam keadaan tidak ada informasi dalam file `peers.dat` (yang normal untuk node yang baru diluncurkan), node melakukan kueri DNS ke DNS seeds. Server-server ini menyediakan daftar alamat IP dari node yang diduga aktif untuk menjalin koneksi. Alamat dari DNS seeds ini terkode keras dalam kode Bitcoin Core. Langkah ini biasanya cukup untuk menyelesaikan penemuan peer;
+* Jika DNS seeds tidak merespon dalam waktu 60 detik, node kemudian dapat beralih ke seed nodes. Ini adalah node Bitcoin publik yang terdaftar dalam daftar statis hampir seribu entri yang terintegrasi langsung ke dalam kode sumber Bitcoin Core. Node baru akan menggunakan daftar ini untuk menjalin koneksi pertama ke jaringan dan mendapatkan alamat IP dari node lain;
+* Dalam kasus yang sangat tidak mungkin di mana semua metode sebelumnya gagal, operator node selalu memiliki opsi untuk secara manual menambahkan alamat IP dari node untuk menjalin koneksi pertama.

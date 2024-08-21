@@ -1,0 +1,9 @@
+pertanyaan: Apa tujuan dari checksum dalam pembuatan frasa mnemonik untuk dompet Bitcoin?
+jawaban: Ini memastikan verifikasi keakuratan dari frasa pemulihan.
+jawaban_salah:
+  - Ini menghasilkan entropi untuk dompet.
+  - Ini menentukan jumlah kata dalam frasa pemulihan.
+  - Ini mengenkripsi frasa pemulihan untuk keamanan tambahan.
+penjelasan: |
+  Checksum diperoleh dengan melewati entropi melalui fungsi SHA256 dan mengambil 8 bit pertama dari hash. Tanpa checksum ini, kesalahan dalam frasa bisa mengakibatkan pembuatan dompet yang berbeda dan oleh karena itu kehilangan dana.
+ditinjau: false

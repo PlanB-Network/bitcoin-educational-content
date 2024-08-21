@@ -1,0 +1,10 @@
+pertanyaan: Berapa ukuran awal dari informasi kunci publik dalam Bitcoin?
+jawaban: 512 bit
+jawaban_salah:
+  - 256 bit
+  - 1024 bit
+  - 128 bit
+penjelasan: |
+  Ukuran awal dari informasi kunci publik dalam Bitcoin adalah 512 bit.
+  Menggunakan alamat penerima membantu mengurangi ukuran ini.
+ditinjau: false

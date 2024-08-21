@@ -1,0 +1,9 @@
+pertanyaan: Apa itu UTXO pada Bitcoin?
+jawaban: Sebuah bagian dari bitcoin yang belum digunakan.
+jawaban_salah:
+  - Sebuah alamat Bitcoin untuk menerima dana.
+  - Sebuah jenis dompet Bitcoin khusus.
+  - Sebuah algoritma enkripsi untuk Bitcoin.
+penjelasan: |
+  UTXO adalah output transaksi yang belum digunakan, jadi pada dasarnya adalah “sebuah bagian dari bitcoin”.
+ditinjau: false

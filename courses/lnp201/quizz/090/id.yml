@@ -1,0 +1,11 @@
+pertanyaan: Apa salah satu cara untuk meningkatkan kapasitas penerimaan di Jaringan Lightning?
+jawaban: Melakukan pembayaran
+jawaban_salah:
+  - Membuka saluran
+  - Terhubung ke node lain
+  - Menjaga keseimbangan likuiditas di kedua sisi
+penjelasan: |
+  Di Jaringan Lightning, salah satu cara untuk meningkatkan kapasitas penerimaan adalah dengan
+  melakukan pembayaran. Sebagai contoh, jika Anda membayar 100.000 untuk suatu alasan tertentu, sekarang Anda dapat
+  menerima 100.000.
+ditinjau: false

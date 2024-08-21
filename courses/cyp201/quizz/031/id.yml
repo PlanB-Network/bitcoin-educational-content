@@ -1,0 +1,8 @@
+pertanyaan: Berapa jumlah total kemungkinan untuk kunci privat Bitcoin?
+jawaban: Hampir sama dengan 1.158 x 10^77
+jawaban_salah:
+  - Tepat 2^256
+  - Antara 1 dan n-1
+  - Kurang lebih jumlah atom yang ada di alam semesta yang dapat diamati
+penjelasan: |
+  Jumlah total kemungkinan untuk kunci privat Bitcoin hampir sama dengan 1.158 x 10^77, yang kurang lebih sama dengan jumlah atom yang ada di alam semesta yang dapat diamati. Ini karena kunci privat harus berada di antara 1 dan n-1, di mana n mewakili urutan dari kurva eliptik.

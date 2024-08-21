@@ -1,0 +1,5 @@
+---
+term: MIT X11
+---
+
+Sebuah lisensi perangkat lunak bebas yang sangat permisif yang memungkinkan pengguna untuk menyalin, memodifikasi, menggabungkan, menerbitkan, mendistribusikan, memberikan sublisensi, dan menjual perangkat lunak tersebut. Lisensi ini hanya mengharuskan agar lisensi asli dan pemberitahuan hak cipta dipertahankan dalam semua salinan atau distribusi perangkat lunak yang substansial. Berbeda dengan lisensi GPL, lisensi MIT tidak mengharuskan adaptasi atau versi turunan dari perangkat lunak didistribusikan di bawah lisensi yang sama. Fleksibilitas ini membuat lisensi MIT X11 menjadi pilihan populer untuk banyak proyek sumber terbuka, termasuk dalam ekosistem Bitcoin. Satoshi Nakamoto memilih lisensi ini untuk versi pertama Bitcoin yang dirilis pada tahun 2009, dan lisensi ini masih digunakan untuk proyek Bitcoin Core hingga saat ini.

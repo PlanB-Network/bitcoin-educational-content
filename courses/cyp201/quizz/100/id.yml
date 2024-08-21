@@ -1,0 +1,8 @@
+pertanyaan: Apa peran dari kode rantai induk dalam organisasi hierarkis dan turunan dari dompet HD?
+jawaban: Ini memainkan peran penting dalam memulihkan portofolio dari benih.
+jawaban_salah:
+  - Digunakan untuk menghasilkan benih.
+  - Digunakan untuk menurunkan kunci anak.
+  - Digunakan untuk mengenkripsi dompet.
+penjelasan: |
+  Kode rantai induk sangat penting untuk memulihkan portofolio dari benih. Semua kunci yang diturunkan dari benih yang sama akan memiliki kode rantai induk yang sama.

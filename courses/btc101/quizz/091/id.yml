@@ -1,0 +1,11 @@
+pertanyaan: Apa penggunaan yang direkomendasikan untuk dompet fisik offline, atau cold?
+jawaban: Untuk menyimpan jumlah besar
+jawaban_salah:
+  - Untuk pengeluaran sehari-hari
+  - Untuk jumlah kecil
+  - Untuk tabungan jangka pendek
+penjelasan: |
+  Dompet fisik offline, atau cold, direkomendasikan untuk menyimpan jumlah besar
+  karena lebih sedikit rentan terhadap ancaman online. Namun, tidak direkomendasikan
+  untuk pengeluaran sehari-hari karena kurang mudah diakses untuk transaksi harian.
+ditinjau: true

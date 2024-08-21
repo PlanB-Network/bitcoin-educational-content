@@ -1,0 +1,11 @@
+pertanyaan: Bagaimana Jaringan Lightning berpotensi digunakan untuk menyewakan barang?
+jawaban: Pengguna dapat dikenakan biaya per menit, atau bahkan per detik, untuk waktu mereka menggunakan barang tersebut
+jawaban_salah:
+  - Pengguna dapat dikenakan biaya tetap untuk menyewa barang tersebut
+  - Pengguna dapat dikenakan biaya berdasarkan nilai barang tersebut
+  - Pengguna dapat dikenakan biaya berdasarkan kondisi barang tersebut
+penjelasan: >-
+  Dengan Jaringan Lightning, dapat dibayangkan untuk menggunakan sistem ini untuk
+  menyewakan barang. Pengguna dapat dikenakan biaya per menit, atau bahkan per detik, untuk waktu
+  mereka menggunakan barang tersebut.
+ditinjau: false

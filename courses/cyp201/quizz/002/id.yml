@@ -1,0 +1,14 @@
+pertanyaan: Apa empat kekuatan yang harus dimiliki oleh fungsi hash kriptografi agar diakui sebagai aman?
+jawaban: Tidak dapat dibalikkan, tahan terhadap pemalsuan, tahan terhadap tabrakan, dan tahan terhadap preimage kedua.
+jawaban_salah:
+  - Kecepatan, efisiensi, tahan terhadap tabrakan, dan tidak dapat dibalikkan.
+  - Tahan terhadap tabrakan, tahan terhadap pemalsuan, skalabilitas, dan tidak dapat dibalikkan.
+  - Tidak dapat dibalikkan, tahan terhadap tabrakan, tahan terhadap pemalsuan, dan kecepatan.
+penjelasan: |
+  Fungsi hash kriptografi yang aman harus memiliki empat kekuatan utama;
+  tidak dapat dibalikkan
+  (berarti mustahil untuk mendapatkan input asli dari output), tahan terhadap pemalsuan (berarti sulit untuk membuat input berbeda yang menghasilkan
+  output yang sama), tahan terhadap tabrakan (berarti sulit untuk menemukan dua input berbeda yang menghasilkan
+  output yang sama), dan tahan terhadap preimage kedua (berarti sulit untuk menemukan input berbeda yang menghasilkan
+  output yang sama seperti input yang diberikan).
+reviewed: false

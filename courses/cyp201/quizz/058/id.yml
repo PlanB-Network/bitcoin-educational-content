@@ -1,0 +1,10 @@
+pertanyaan: Apa peran entropi dalam dompet HD Bitcoin?
+jawaban: Ini adalah dasar dari setiap dompet HD dan sangat penting untuk keamanannya.
+jawaban_salah:
+  - Ini membantu dalam verifikasi transaksi.
+  - Ini meningkatkan kecepatan transaksi.
+  - Ini mengurangi ukuran blockchain.
+penjelasan: |
+  Entropi, atau keacakan, adalah dasar dari setiap dompet HD. Ini sangat penting
+  untuk keamanan dompet karena memastikan ketidakterdugaan dari kunci privat yang dihasilkan.
+ditinjau: false

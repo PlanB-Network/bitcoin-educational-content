@@ -1,0 +1,11 @@
+pertanyaan: Manakah dari opsi berikut ini bukan merupakan keuntungan dari mata uang fiat?
+jawaban: Mereka tunduk pada inflasi moneter
+jawaban_salah:
+  - Mereka mudah dibawa
+  - Mereka mudah dibagi
+  - Mereka diterima oleh semua negara
+penjelasan: |
+  Mata uang fiat, seperti dolar dan euro, sangat likuid dan
+  mudah dibawa karena sekarang sebagian besar digital. Namun, nilai mereka terus
+  terkikis oleh inflasi moneter.
+ditinjau: true

@@ -1,0 +1,10 @@
+pertanyaan: Apa tujuan dari entropi dalam generasi frasa mnemonik untuk dompet Bitcoin?
+jawaban: Ini adalah dasar dari keamanan dompet HD.
+jawaban_salah:
+  - Ini menentukan jumlah kata dalam frasa pemulihan.
+  - Ini mengenkripsi frasa pemulihan untuk keamanan tambahan.
+  - Ini memverifikasi keakuratan dari frasa pemulihan.
+penjelasan: |
+  Entropi adalah dasar dari keamanan dompet HD. Sangat penting bahwa
+  entropi ini bersifat acak atau pseudo-acak untuk menjamin keamanan dompet.
+ditinjau: false

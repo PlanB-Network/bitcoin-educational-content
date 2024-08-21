@@ -1,0 +1,5 @@
+---
+term: NSEQUENCE
+---
+
+Bidang `nSequence` dalam sebuah entri transaksi Bitcoin digunakan untuk menunjukkan bagaimana entri tersebut dikunci waktu (time-locked). Awalnya, ini dimaksudkan untuk memungkinkan penggantian dinamis transaksi di mempool untuk mengaktifkan sistem pembayaran serupa dengan Lightning. Namun, penggunaannya telah berkembang dengan pengenalan kunci waktu relatif melalui BIP68. Bidang `nSequence` sekarang dapat menentukan penundaan relatif sebelum transaksi dapat dimasukkan dalam blok. Penundaan ini dapat didefinisikan dalam istilah jumlah blok, atau sebagai kelipatan dari 512 detik (yaitu, waktu nyata). Penting untuk dicatat bahwa interpretasi baru dari bidang `nSequence` ini hanya valid jika bidang `nVersion` lebih besar atau sama dengan `2`. Interpretasi bidang `nSequence` ini berada pada tingkat aturan konsensus Bitcoin. Selain itu, pada tingkat aturan standarisasi, bidang ini juga digunakan untuk mensinyalkan RBF (Replace-By-Fee). Jika sebuah transaksi mencakup `nSequence` lebih rendah dari `0xfffffffe`, maka transaksi tersebut dapat digantikan melalui RBF di node yang mengikuti kebijakan ini.

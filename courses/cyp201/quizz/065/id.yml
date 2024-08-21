@@ -1,0 +1,8 @@
+pertanyaan: Apa keuntungan utama menggunakan pasangan kunci baru untuk setiap transaksi Bitcoin?
+jawaban: Ini meningkatkan keamanan.
+jawaban_salah:
+  - Ini meningkatkan kecepatan.
+  - Ini meningkatkan anonimitas.
+  - Ini meningkatkan legalitas.
+penjelasan: |
+  Menggunakan pasangan kunci baru untuk setiap transaksi meningkatkan keamanan transaksi Bitcoin. Namun, hal ini mempersulit pencadangan mereka dan hanya sebagian mempertahankan kerahasiaan.

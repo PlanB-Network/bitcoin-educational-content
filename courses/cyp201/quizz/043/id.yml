@@ -1,0 +1,11 @@
+pertanyaan: Apa urutan kurva secp256k1 yang digunakan dalam Bitcoin?
+jawaban: 2^256 - 432420386565659656852420866394968145599
+jawaban_salah:
+  - 2^256
+  - 2^256 - 1
+  - 2^256 - 432420386565659656852420866394968145598
+penjelasan: |
+  Urutan kurva secp256k1 yang digunakan dalam Bitcoin adalah 2^256 -
+  432420386565659656852420866394968145599.
+  Ini adalah jumlah titik pada kurva.
+ditinjau: false

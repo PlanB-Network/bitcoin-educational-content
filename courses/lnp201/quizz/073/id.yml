@@ -1,0 +1,11 @@
+pertanyaan: Apa yang diwakili oleh '1m' dalam 'lnbc1m' pada faktur Jaringan Lightning?
+jawaban: Ini mewakili jumlah dalam milli Bitcoin (0.0001 BTC)
+jawaban_salah:
+  - Ini mewakili versi dari Jaringan Lightning
+  - Ini mewakili biaya transaksi
+  - Ini mewakili tinggi blok
+penjelasan: |
+  Dalam faktur Jaringan Lightning, '1m' mewakili jumlah dalam milli Bitcoin
+  (0.0001 BTC). 'M' merupakan singkatan dari milli, yang adalah awalan metrik yang menunjukkan faktor
+  10^-3. Oleh karena itu, '1m' sama dengan 0.0001 BTC atau 100.000 satoshi.
+ditinjau: false

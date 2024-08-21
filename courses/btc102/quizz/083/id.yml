@@ -1,0 +1,10 @@
+pertanyaan: Apa alasan utama pengguna Bitcoin yang sering melakukan transaksi memilih dompet berbasis Lightning Network untuk transaksi sehari-hari?
+jawaban: Ini meningkatkan efisiensi transaksi Bitcoin.
+jawaban_salah:
+  - Ini meningkatkan nilai Bitcoin.
+  - Ini memungkinkan transaksi anonim.
+  - Ini menyediakan platform untuk perdagangan Bitcoin.
+penjelasan: |
+  Lightning Network adalah protokol pembayaran "lapisan 2" yang beroperasi di
+  atas cryptocurrency berbasis blockchain seperti Bitcoin. Ini dirancang untuk memungkinkan
+  transaksi cepat dengan biaya rendah.

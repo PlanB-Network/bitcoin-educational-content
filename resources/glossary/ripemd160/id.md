@@ -1,0 +1,5 @@
+---
+term: RIPEMD160
+---
+
+Akronim untuk *Research and development in Advanced Communications technologies in Europe Integrity Primitives Evaluation Message Digest 160*. Ini adalah fungsi hash kriptografi yang menghasilkan digest 160-bit dari input yang sembarang. Fungsi ini digunakan dalam Bitcoin untuk mengubah kunci publik menjadi alamat penerima untuk standar Legacy dan SegWit v0 (untuk SegWit v1, kunci publik tidak di-hash). Proses ini pertama-tama melibatkan penerapan fungsi hash `SHA256` pada kunci publik, diikuti oleh penerapan `RIPEMD160` pada hasilnya. Kombinasi dua fungsi hash yang berbeda ini dikenal sebagai `HASH160` dalam konteks Bitcoin. `RIPEMD160` juga digunakan dalam dompet deterministik dan hierarkis untuk menghitung sidik jari kunci. Secara spesifik, `HASH160` digunakan untuk menghitung sidik jari dari kunci induk, kemudian dimasukkan dalam metadata dari kunci yang diperluas (xpub, xprv...).

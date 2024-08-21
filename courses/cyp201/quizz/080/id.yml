@@ -1,0 +1,9 @@
+pertanyaan: Apa keuntungan menggunakan passphrase dalam dompet Bitcoin?
+jawaban: Ini dapat memungkinkan penerapan berbagai strategi keamanan
+jawaban_salah:
+  - Ini membuat dompet lebih ramah pengguna
+  - Ini meningkatkan kecepatan transaksi
+  - Ini mengurangi biaya yang terkait dengan transaksi
+penjelasan: |
+  Passphrase adalah alat penting untuk meningkatkan keamanan dompet Bitcoin. Ini dapat memungkinkan penerapan berbagai strategi keamanan. Sebagai contoh, ini dapat digunakan untuk membuat duplikat dan memfasilitasi cadangan dari frasa mnemonik. Ini juga dapat meningkatkan keamanan dompet dengan mengurangi risiko yang terkait dengan generasi acak dari frasa mnemonik.
+ditinjau: false

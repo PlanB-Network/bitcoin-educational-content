@@ -1,0 +1,10 @@
+pertanyaan: Apa yang dimaksud dengan HMAC?
+jawaban: Kode Otentikasi Pesan Berbasis Hash
+jawaban_salah:
+  - Kode Otentikasi Master Hierarkis
+  - Kode Otentikasi Master yang Di-hash
+  - Kode Otentikasi Pesan Hierarkis
+penjelasan: |
+  HMAC adalah singkatan dari Kode Otentikasi Pesan Berbasis Hash. Ini merupakan
+  jenis kode otentikasi pesan (MAC) yang melibatkan fungsi hash kriptografis dan
+  kunci kriptografis rahasia.

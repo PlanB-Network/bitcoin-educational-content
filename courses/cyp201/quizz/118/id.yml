@@ -1,0 +1,13 @@
+pertanyaan:
+  Apakah mungkin untuk mengembalikan dari alamat Bitcoin ke kunci publik, atau dari
+  kunci publik ke kunci privat?
+jawaban: Ini salah
+jawaban_salah:
+  - Ini benar
+  - Hanya dari kunci publik ke kunci privat
+  - Hanya dari alamat ke kunci publik
+penjelasan: |
+  Dalam Bitcoin, tidak mungkin untuk mengembalikan dari alamat ke kunci publik,
+  maupun dari kunci publik ke kunci privat. Ini adalah aspek kunci dari keamanan kriptografi
+  Bitcoin.
+ditinjau: false

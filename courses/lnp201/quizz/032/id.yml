@@ -1,0 +1,9 @@
+pertanyaan: Apa yang terjadi ketika transaksi komitmen baru dibuat?
+jawaban: Sebuah rahasia baru diputuskan dan kunci pembatalan baru dibuat, dan transaksi komitmen sebelumnya harus dihancurkan dengan memberikan rahasia pembatalan.
+jawaban_salah:
+  - Transaksi komitmen sebelumnya disimpan sebagai cadangan.
+  - Timelock baru dibuat dan transaksi komitmen sebelumnya diperbarui.
+  - Transaksi komitmen sebelumnya diperbarui dengan rahasia baru dan kunci pembatalan.
+penjelasan: |
+  Ketika transaksi komitmen baru dibuat, sebuah rahasia baru dan kunci pembatalan baru diputuskan. Transaksi komitmen sebelumnya harus dihancurkan dengan memberikan rahasia pembatalan untuk mencegah pihak mana pun dari kecurangan dengan mempublikasikan keadaan lama.
+ditinjau: false

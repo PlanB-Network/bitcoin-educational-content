@@ -1,0 +1,9 @@
+pertanyaan: Berapa banyak SAT yang dimiliki Bob setelah transfer kedua dalam contoh tersebut?
+jawaban: 40.000 SAT.
+jawaban_salah:
+  - 30.000 SAT.
+  - 10.000 SAT.
+  - 0 SAT.
+penjelasan: |
+  Dalam contoh tersebut, setelah transfer kedua, Bob memiliki 40.000 SAT.
+ditinjau: false

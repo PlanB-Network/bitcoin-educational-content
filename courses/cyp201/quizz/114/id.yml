@@ -1,0 +1,10 @@
+pertanyaan: Apa tujuan dari Kedalaman 5 dalam struktur Dompet HD?
+jawaban: Digunakan untuk alamat penerimaan dalam dompet standar
+jawaban_salah:
+  - Digunakan untuk menghasilkan kunci anak untuk tujuan tertentu
+  - Memungkinkan diferensiasi akun untuk berbagai mata uang kripto atau jaringan
+  - Sesuai dengan rantai eksternal dan internal
+penjelasan: |
+  Dalam struktur Dompet HD, Kedalaman 5 digunakan untuk alamat penerimaan dalam
+  dompet standar.
+ditinjau: false

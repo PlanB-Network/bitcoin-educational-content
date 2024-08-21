@@ -1,0 +1,5 @@
+---
+term: SHARES DIFFICULTY
+---
+
+Kesulitan target yang lebih tinggi daripada Bitcoin (dengan demikian lebih rendah kesulitannya), yang ditentukan oleh sebuah mining pool untuk mengkualifikasi hash dari sebuah share dan menilai kontribusi dari setiap penambang individu dalam pool tersebut. Untuk mengelola beban verifikasi secara efisien dan memastikan bahwa setiap penambang, terlepas dari kekuatan komputasi mereka, mengirimkan share secara teratur, pool menyesuaikan kesulitan dari share tersebut. Kesulitan yang ditugaskan kepada setiap penambang menentukan jumlah share yang mereka kumpulkan: misalnya, jika seorang penambang memiliki kesulitan yang ditugaskan sebesar 10 dan mengirimkan 5 bukti kerja yang valid pada kesulitan ini, mereka memperoleh 50 share. Seorang penambang yang lebih kuat dengan kesulitan 100 yang mengirimkan 7 bukti kerja yang valid akan menerima 700 share. Sistem ini memungkinkan untuk kuantifikasi yang tepat dari hashrate setiap penambang dan distribusi hadiah sesuai dengan metode perhitungan kompensasi yang dipilih (PPS, PPLNS, TIDES...).

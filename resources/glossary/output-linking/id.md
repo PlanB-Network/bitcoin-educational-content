@@ -1,0 +1,5 @@
+---
+term: OUTPUT LINKING
+---
+
+Kadang-kadang digunakan secara sinonim untuk merujuk pada penggunaan ulang alamat. Output linking merujuk pada praktik menggunakan alamat penerima yang sama untuk mengunci beberapa UTXO, terkadang melintasi beberapa transaksi yang berbeda. Bitcoin biasanya dikunci menggunakan pasangan kunci kriptografi yang sesuai dengan alamat unik. Karena blockchain bersifat publik, mudah untuk melihat alamat mana yang terkait dengan berapa banyak bitcoin. Dalam kasus menggunakan ulang alamat yang sama untuk beberapa pembayaran, dapat diasumsikan bahwa semua UTXO yang terkait milik entitas yang sama. Oleh karena itu, penggunaan ulang alamat menimbulkan masalah bagi privasi pengguna. Hal ini memungkinkan adanya kaitan deterministik antara beberapa transaksi dan UTXO, serta memperpanjang pelacakan dana di rantai.

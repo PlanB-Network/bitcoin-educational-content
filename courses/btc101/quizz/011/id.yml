@@ -1,0 +1,9 @@
+pertanyaan: Bagaimana Lightning Network meningkatkan skalabilitas untuk transaksi Bitcoin?
+jawaban: Ini menggunakan jaringan p2p dari saluran pembayaran untuk membuat transaksi off-chain.
+jawaban_salah:
+  - Ini menggunakan pihak terpusat yang dipercaya untuk memproses transaksi dengan efisien.
+  - Ini menggunakan blockchain lain untuk mengagregasi transaksi dalam blok besar.
+  - Ini menggunakan pengguna yang dipercaya untuk membuat cadangan federal dari bitcoin.
+penjelasan: |
+  Lightning Network dengan penggunaan saluran pembayaran dapat merutekan transaksi off-chain dengan biaya lebih rendah dan lebih cepat.
+ditinjau: true

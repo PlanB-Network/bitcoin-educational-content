@@ -1,0 +1,11 @@
+pertanyaan: Apa pentingnya distribusi geografis dari node Bitcoin?
+jawaban: Hal ini membuat hampir mustahil untuk menghancurkan semua salinan blockchain.
+jawaban_salah:
+  - Ini menentukan harga Bitcoin di berbagai wilayah.
+  - Ini mempengaruhi kecepatan transaksi Bitcoin.
+  - Ini menentukan jumlah Bitcoin yang dapat ditambang di sebuah wilayah.
+penjelasan: >-
+  Distribusi geografis dari node Bitcoin membuat hampir mustahil
+  untuk menghancurkan semua salinan blockchain. Ini karena node-node tersebut tersebar
+  dan akan sulit untuk secara fisik menyita semuanya.
+ditinjau: false

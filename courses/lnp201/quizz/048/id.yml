@@ -1,0 +1,11 @@
+pertanyaan: Apa itu penutupan paksa?
+jawaban: Satu rekan ingin menutup saluran, tetapi rekan lainnya tidak merespon, sehingga rekan pertama mempublikasikan transaksi komitmen terbaru.
+jawaban_salah:
+  - Kedua rekan sepakat untuk menutup saluran dan membuat transaksi penutupan.
+  - Satu rekan mencoba menipu dengan mempublikasikan transaksi komitmen lama.
+  - Kedua rekan bertarung atas SAT yang tersisa di saluran.
+penjelasan: |
+  Penutupan paksa terjadi ketika satu rekan ingin menutup saluran, tetapi
+  rekan lainnya tidak merespon karena mereka sedang offline. Rekan pertama kemudian mempublikasikan
+  transaksi komitmen terbaru.
+ditinjau: false

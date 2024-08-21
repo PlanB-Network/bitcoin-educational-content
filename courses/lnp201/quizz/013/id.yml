@@ -1,0 +1,9 @@
+pertanyaan: Apa itu Lightning Network?
+jawaban: Sebuah protokol lapisan 2 di atas Bitcoin yang memungkinkan transaksi lebih cepat.
+jawaban_salah:
+  - Sejenis mata uang kripto.
+  - Sebuah eksplorer blockchain.
+  - Sebuah dompet digital untuk menyimpan bitcoin.
+penjelasan: |
+  Lightning Network adalah protokol lapisan 2 di atas Bitcoin. Ini dirancang untuk memungkinkan transaksi lebih cepat dengan membuat saluran pembayaran di luar rantai.
+ditinjau: false

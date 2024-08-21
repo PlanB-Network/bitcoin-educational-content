@@ -1,0 +1,12 @@
+pertanyaan: Bagaimana bitcoin baru diciptakan dan diperkenalkan ke dalam peredaran?
+jawaban: Melalui penambangan sebagai hadiah untuk menambahkan transaksi baru ke blockchain
+jawaban_salah:
+  - Melalui penerbitan otoritas terpusat
+  - Dengan membelinya dari bursa Bitcoin
+  - Dengan menerima mereka sebagai biaya transaksi
+penjelasan: |
+  Bitcoin baru diperkenalkan ke dalam peredaran melalui proses yang disebut penambangan.
+  Penambang bersaing satu sama lain untuk menambahkan transaksi baru ke blockchain.
+  Sebagai imbalan atas pekerjaan mereka, penambang diberi hadiah dengan bitcoin yang baru diciptakan.
+  Proses ini juga memverifikasi dan mengamankan transaksi di jaringan Bitcoin.
+ditinjau: true

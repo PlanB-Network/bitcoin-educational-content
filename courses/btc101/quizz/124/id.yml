@@ -1,0 +1,10 @@
+pertanyaan: Apa versi dari perangkat lunak Bitcoin yang pertama kali dirilis?
+jawaban: Bitcoin-0.1.0
+jawaban_salah:
+  - Bitcoin-0.0.1
+  - Bitcoin-1.0.0
+  - Bitcoin-0.1.1
+penjelasan: >-
+  Perangkat lunak Bitcoin yang pertama kali dirilis adalah Bitcoin-0.1.0. Ini diumumkan
+  oleh Satoshi Nakamoto pada tanggal 8 Januari 2009.
+ditinjau: true

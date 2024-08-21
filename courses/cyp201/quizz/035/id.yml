@@ -1,0 +1,10 @@
+pertanyaan: Berapa ukuran kunci publik Bitcoin?
+jawaban: Angka 512-bit
+jawaban_salah:
+  - Angka 256-bit
+  - Angka 128-bit
+  - Angka 1024-bit
+penjelasan: |
+  Kunci privat yang unik digunakan untuk menghasilkan kunci publik 512-bit dalam
+  sistem Bitcoin.
+ditinjau: false

@@ -1,0 +1,10 @@
+pertanyaan: Apa tantangan utama dalam menghasilkan angka acak pada komputer untuk transaksi Bitcoin?
+jawaban: Hasil yang diperoleh tidak benar-benar acak.
+jawaban_salah:
+  - Prosesnya terlalu kompleks untuk sebagian besar pengguna.
+  - Ini memerlukan banyak daya komputasi.
+  - Tidak kompatibel dengan semua jenis komputer.
+penjelasan: |
+  Komputer mengikuti algoritma yang ditetapkan, yang membuatnya sulit untuk menghasilkan
+  angka acak yang sebenarnya. Ini merupakan tantangan signifikan dalam kriptografi, di mana keacakan
+  sangat penting untuk keamanan kunci privat dan transaksi Bitcoin.

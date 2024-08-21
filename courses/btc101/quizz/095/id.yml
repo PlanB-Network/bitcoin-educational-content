@@ -1,0 +1,12 @@
+pertanyaan: Apa risiko menggunakan dompet kustodian?
+jawaban: Pihak ketiga yang dipercaya dapat membatasi akses Anda ke dana Anda kapan saja
+jawaban_salah:
+  - Pihak ketiga yang dipercaya dapat meningkatkan nilai bitcoin Anda kapan saja
+  - Pihak ketiga yang dipercaya dapat menurunkan nilai bitcoin Anda kapan saja
+  - Pihak ketiga yang dipercaya dapat memberikan bitcoin Anda kapan saja
+penjelasan: |
+  Ketika Anda menggunakan dompet kustodian, Anda bukanlah satu-satunya pemegang bitcoin Anda.
+  Ini berarti bahwa pihak ketiga yang dipercaya dapat membatasi akses Anda ke dana Anda kapan
+  saja, memberikan Anda tingkat kedaulatan finansial yang sama seperti dengan sistem perbankan
+  tradisional.
+ditinjau: true

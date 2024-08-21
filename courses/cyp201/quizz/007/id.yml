@@ -1,0 +1,9 @@
+pertanyaan: Fungsi hash apa yang merupakan elemen kunci dalam protokol Bitcoin?
+jawaban: SHA-256
+jawaban_salah:
+  - MD5
+  - SHA1
+  - SHA0
+penjelasan: |
+  SHA-256 merupakan elemen kunci dalam protokol Bitcoin. Fungsi ini digunakan untuk menciptakan sidik jari unik dan tidak dapat dibalikkan dari data transaksi, yang sangat penting untuk keamanan dan integritas jaringan Bitcoin.
+ditinjau: false

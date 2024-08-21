@@ -1,0 +1,11 @@
+pertanyaan: Apa tujuan dari Proof of Work dalam jaringan Bitcoin?
+jawaban: Proof of Work memastikan kebenaran informasi tanpa perlu pihak ketiga yang dipercaya.
+jawaban_salah:
+  - Proof of Work digunakan untuk menciptakan bitcoin baru.
+  - Proof of Work digunakan untuk memverifikasi transaksi Bitcoin.
+  - Proof of Work digunakan untuk mengamankan jaringan Bitcoin.
+penjelasan: >-
+  Proof of Work adalah algoritma konsensus yang digunakan dalam jaringan Bitcoin
+  untuk memvalidasi transaksi dan menciptakan blok baru. Ini memerlukan para penambang untuk menyelesaikan masalah matematika yang kompleks,
+  yang memastikan keaslian informasi dalam jaringan tanpa perlu pihak ketiga yang dipercaya.
+ditinjau: false

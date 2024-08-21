@@ -1,0 +1,7 @@
+---
+term: BLOOM FILTER
+---
+
+Struktur data probabilistik yang digunakan untuk menguji apakah sebuah elemen merupakan bagian dari sebuah set. Bloom Filter memungkinkan pemeriksaan keanggotaan dengan cepat tanpa harus menguji seluruh dataset. Mereka sangat berguna dalam konteks di mana ruang dan kecepatan menjadi kritis, tetapi tingkat kesalahan yang rendah dan terkontrol dapat diterima. Memang, Bloom Filter tidak menghasilkan false negatives, tetapi mereka menghasilkan sejumlah false positives. Ketika sebuah elemen ditambahkan ke filter, beberapa fungsi hash menghasilkan posisi dalam sebuah array bit. Untuk memeriksa keanggotaan, fungsi hash yang sama digunakan. Jika semua bit yang sesuai telah diatur, elemen tersebut kemungkinan ada dalam set, tetapi dengan risiko false positives. Bloom Filter banyak digunakan di bidang basis data dan jaringan. Secara khusus diketahui bahwa Google menggunakannya untuk sistem manajemen basis data terkompresi *BigTable*. Dalam protokol Bitcoin, mereka digunakan khususnya untuk dompet SPV sesuai dengan BIP37.
+
+> ► *Ketika secara spesifik berbicara tentang penggunaan Bloom Filter dalam konteks transaksi Bitcoin, istilah "Transaction Bloom Filtering" terkadang ditemui.*

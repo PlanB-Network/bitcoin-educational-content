@@ -1,0 +1,14 @@
+---
+term: STONEWALL X2
+---
+
+Sebuah bentuk transaksi Bitcoin tertentu yang bertujuan untuk meningkatkan privasi pengguna selama melakukan pembayaran, dengan berkolaborasi dengan pihak ketiga yang tidak terlibat dalam pengeluaran tersebut. Metode ini mensimulasikan mini-coinjoin antara dua peserta, sambil melakukan pembayaran kepada pihak ketiga. Transaksi Stonewall x2 tersedia baik pada aplikasi Samourai Wallet maupun perangkat lunak Sparrow Wallet (keduanya interoperable).
+
+Operasinya cukup sederhana: menggunakan UTXO yang kita miliki untuk melakukan pembayaran dan mencari bantuan dari pihak ketiga yang juga menyumbangkan UTXO yang mereka miliki. Transaksi berakhir dengan empat output: dua di antaranya dengan jumlah yang sama, satu ditujukan untuk alamat penerima pembayaran, yang lainnya ke alamat yang dimiliki oleh kolaborator. UTXO ketiga dikirim kembali ke alamat lain milik kolaborator, memungkinkan mereka untuk memulihkan jumlah awal (sebuah tindakan netral bagi mereka, minus biaya penambangan), dan UTXO terakhir kembali ke alamat yang kita miliki, yang merupakan kembalian dari pembayaran. Dengan demikian, tiga peran berbeda didefinisikan dalam transaksi Stonewall x2:
+* Pengirim, yang melakukan pembayaran efektif;
+* Kolaborator, yang menyediakan bitcoin untuk meningkatkan anonimitas keseluruhan transaksi, sambil sepenuhnya memulihkan dana mereka di akhir;
+* Penerima, yang mungkin tidak menyadari sifat spesifik dari transaksi dan hanya menunggu pembayaran dari pengirim.
+
+![](../../dictionnaire/assets/3.png)
+
+Struktur Stonewall x2 menambahkan banyak entropi ke transaksi dan membingungkan jejak analisis rantai. Dari luar, transaksi semacam itu dapat diinterpretasikan sebagai coinjoin kecil antara dua orang. Namun pada kenyataannya, itu adalah pembayaran. Metode ini dengan demikian menghasilkan ketidakpastian dalam analisis rantai, atau bahkan mengarah pada jejak palsu. Meskipun pengamat eksternal berhasil mengidentifikasi pola transaksi Stonewall x2, mereka tidak akan memiliki semua informasi. Mereka tidak akan dapat menentukan mana dari dua UTXO dengan jumlah yang sama yang sesuai dengan pembayaran. Lebih lanjut, mereka tidak akan dapat mengetahui siapa yang melakukan pembayaran. Akhirnya, mereka tidak akan dapat menentukan apakah dua UTXO input berasal dari dua orang yang berbeda atau jika mereka milik satu orang yang menggabungkannya. Poin terakhir ini disebabkan oleh fakta bahwa transaksi Stonewall klasik mengikuti pola yang sama persis dengan transaksi Stonewall x2. Dari luar dan tanpa informasi tambahan tentang konteks, mustahil untuk membedakan transaksi Stonewall dari transaksi Stonewall x2. Namun, yang pertama bukan transaksi kolaboratif, sementara yang terakhir adalah. Ini menambahkan lebih banyak keraguan tentang pengeluaran.

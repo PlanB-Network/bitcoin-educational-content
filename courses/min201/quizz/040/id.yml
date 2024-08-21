@@ -1,0 +1,10 @@
+pertanyaan: Apa yang ditetapkan oleh penambangan untuk Bitcoin?
+jawaban: Harga dasar
+jawaban_salah:
+  - Harga maksimal
+  - Harga tetap
+  - Harga variabel
+penjelasan: |
+  Penambangan menetapkan harga dasar untuk Bitcoin, di bawah itu penambang akan
+  menjual dengan rugi. Biaya penambangan sangat mempengaruhi harga Bitcoin.
+ditinjau: false

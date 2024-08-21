@@ -1,0 +1,12 @@
+pertanyaan: Mengapa penutupan paksa lebih berisiko dalam hal biaya dan validasi yang mungkin dilakukan oleh penambang?
+jawaban: Karena biaya ditentukan ketika transaksi dibuat di masa lalu dan jaringan telah berubah sejak saat itu.
+jawaban_salah:
+  - Karena biaya selalu lebih tinggi dalam penutupan paksa.
+  - Karena penambang kurang mungkin untuk memvalidasi penutupan paksa.
+  - Karena biaya tidak dapat diprediksi dalam penutupan paksa.
+penjelasan: |
+  Dalam penutupan paksa, biaya ditentukan ketika transaksi dibuat
+  di masa lalu. Jaringan telah berubah sejak saat itu, sehingga protokol beralih ke biaya
+  5 kali lebih tinggi dari biaya saat transaksi dibuat. Ini membuat
+  penutupan paksa lebih berisiko dalam hal biaya dan validasi yang mungkin dilakukan oleh penambang.
+ditinjau: false

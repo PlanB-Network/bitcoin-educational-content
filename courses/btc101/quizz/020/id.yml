@@ -1,0 +1,11 @@
+pertanyaan: Apa kriteria untuk mata uang yang efektif?
+jawaban: Dapat ditukar, Dapat dibagi, Likuid
+jawaban_salah:
+  - Dapat ditukar, Dapat dibagi, Mudah rusak
+  - Dapat ditukar, Tidak dapat dibagi, Likuid
+  - Tidak dapat ditukar, Dapat dibagi, Likuid
+penjelasan: |
+  Kriteria untuk mata uang yang efektif adalah harus dapat ditukar
+  (dapat ditukar tanpa kehilangan nilai), dapat dibagi (untuk memfasilitasi transaksi dengan volume yang berbeda),
+  dan likuid (mudah diubah menjadi barang atau jasa).
+ditinjau: true

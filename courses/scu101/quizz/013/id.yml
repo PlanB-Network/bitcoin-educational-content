@@ -1,0 +1,8 @@
+pertanyaan: Mengapa lebih aman menggunakan penyedia titik akses Wi-Fi Eropa, seperti SNCF?
+jawaban: Mereka tidak menjual kembali data koneksi pengguna karena regulasi GDPR.
+jawaban_salah:
+  - Mereka menyediakan kecepatan internet yang lebih cepat.
+  - Mereka memungkinkan pengguna untuk menghindari pembatasan geografis.
+  - Mereka memblokir iklan online.
+penjelasan: |
+  Di Uni Eropa, perlindungan data diatur oleh Regulasi Perlindungan Data Umum (GDPR). Oleh karena itu, penyedia titik akses Wi-Fi Eropa, seperti SNCF, tidak menjual kembali data koneksi pengguna, membuat mereka lebih aman untuk digunakan.

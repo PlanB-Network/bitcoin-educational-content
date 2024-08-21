@@ -1,0 +1,11 @@
+pertanyaan: Apa perbedaan antara rentang indeks kunci anak normal dan kunci anak yang diperkuat?
+jawaban: Kunci anak normal memiliki rentang indeks dari 0 hingga 2 pangkat 31 dikurangi 1, sementara kunci anak yang diperkuat memiliki rentang indeks dari 2 pangkat 31 hingga 2 pangkat 32 dikurangi 1.
+jawaban_salah:
+  - Kunci anak normal memiliki rentang indeks dari 0 hingga 2 pangkat 32 dikurangi 1, sementara kunci anak yang diperkuat memiliki rentang indeks dari 2 pangkat 31 hingga 2 pangkat 31 dikurangi 1.
+  - Baik kunci anak normal maupun kunci anak yang diperkuat memiliki rentang indeks yang sama.
+  - Tidak ada perbedaan dalam rentang indeks kunci anak normal dan kunci anak yang diperkuat.
+penjelasan: |
+  Rentang indeks kunci anak normal adalah dari 0 hingga 2 pangkat
+  31 dikurangi 1, sementara rentang indeks kunci anak yang diperkuat adalah dari 2 pangkat
+  31 hingga 2 pangkat 32 dikurangi 1.
+ditinjau: false

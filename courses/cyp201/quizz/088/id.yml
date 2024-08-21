@@ -1,0 +1,8 @@
+pertanyaan: Apa dua elemen esensial yang menjadi dasar dari HD Wallet?
+jawaban: Frase mnemonik dan kata sandi tambahan.
+jawaban_salah:
+  - Seed dan kunci privat utama.
+  - Kode rantai utama dan seed.
+  - Frase mnemonik dan kunci privat utama.
+penjelasan: |
+  Dasar dari HD Wallet bergantung pada dua elemen esensial; frase mnemonik dan kata sandi tambahan (password tambahan opsional). Bersama-sama, mereka membentuk seed, sebuah urutan alfanumerik 512-bit yang berfungsi sebagai dasar untuk menghasilkan kunci-kunci dompet.

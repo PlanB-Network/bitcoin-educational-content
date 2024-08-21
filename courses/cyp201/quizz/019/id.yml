@@ -1,0 +1,10 @@
+pertanyaan: Apa peran PBKDF2 dalam protokol Bitcoin?
+jawaban: Digunakan untuk mengonversi frasa mnemonik menjadi seed.
+jawaban_salah:
+  - Digunakan untuk melawan serangan perpanjangan panjang saat menghasilkan dompet deterministik hierarkis (HD).
+  - Digunakan untuk menghasilkan output berukuran tetap.
+  - Digunakan untuk menambahkan sumber entropi tambahan dalam derivasi kunci.
+penjelasan: |
+  PBKDF2 digunakan untuk mengonversi frasa mnemonik menjadi seed. Algoritma ini
+  melakukan 2048 putaran menggunakan HMAC SHA512.
+ditinjau: false

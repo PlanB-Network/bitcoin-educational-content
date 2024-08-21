@@ -1,0 +1,9 @@
+---
+term: RECURSIVE (COVENANT)
+---
+
+Covenant rekursif pada Bitcoin adalah jenis kontrak pintar yang memberlakukan kondisi tidak hanya pada transaksi saat ini tetapi juga pada transaksi masa depan yang menggunakan output dari transaksi ini. Hal ini memungkinkan pembuatan rantai transaksi di mana setiap transaksi harus mematuhi aturan tertentu yang ditetapkan oleh yang pertama dalam rantai. Rekursivitas menciptakan urutan transaksi di mana setiap transaksi mewarisi pembatasan dari transaksi induknya. Ini memungkinkan kontrol yang kompleks dan jangka panjang atas bagaimana bitcoin dapat dihabiskan, tetapi juga memperkenalkan risiko terkait kebebasan pengeluaran dan fungibilitas.
+
+Untuk merangkum, covenant non-rekursif hanya akan membatasi dirinya pada transaksi yang langsung mengikuti transaksi yang menetapkan aturan tersebut. Sebaliknya, covenant rekursif memiliki kemampuan untuk memberlakukan kondisi spesifik pada bitcoin secara tidak terbatas. Transaksi dapat mengikuti satu sama lain, tetapi bitcoin yang bersangkutan akan selalu mempertahankan kondisi awal yang melekat padanya. Secara teknis, pembentukan covenant non-rekursif terjadi ketika `scriptPubKey` dari sebuah UTXO mendefinisikan pembatasan pada `scriptPubKey` dari output transaksi yang menggunakan UTXO tersebut. Di sisi lain, pembentukan covenant rekursif terjadi ketika `scriptPubKey` dari sebuah UTXO mendefinisikan pembatasan pada `scriptPubKey` dari output transaksi yang menggunakan UTXO tersebut, dan pada semua `scriptPubKey` yang akan mengikuti penggunaan UTXO ini.
+
+Secara umum, dalam komputasi, yang disebut "rekursivitas" adalah kemampuan sebuah fungsi untuk memanggil dirinya sendiri, menciptakan semacam loop.

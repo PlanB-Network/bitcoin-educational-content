@@ -1,0 +1,10 @@
+pertanyaan: Apa yang terjadi dalam penutupan saluran yang kooperatif?
+jawaban: Pembayaran terganggu dan HTLC diselesaikan, yang umumnya lebih murah.
+jawaban_salah:
+  - Semua transaksi HTLC yang sedang berlangsung dipublikasikan, yang bisa menjadi sangat mahal dan berantakan.
+  - Saluran langsung ditutup tanpa langkah tambahan.
+  - Semua transaksi HTLC yang sedang berlangsung dibatalkan.
+penjelasan: |
+  Dalam penutupan yang kooperatif, pembayaran terganggu dan HTLC diselesaikan.
+  Ini umumnya lebih murah daripada penutupan paksa, di mana semua transaksi HTLC yang sedang berlangsung
+  dipublikasikan.

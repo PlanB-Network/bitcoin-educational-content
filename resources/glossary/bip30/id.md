@@ -1,0 +1,5 @@
+---
+term: BIP30
+---
+
+Proposal untuk perbaikan yang melibatkan sebuah soft fork yang diimplementasikan pada 15 Maret 2012, untuk menyelesaikan masalah pengidentifikasi transaksi duplikat. Sebelum BIP30, secara teknis mungkin untuk memiliki dua transaksi berbeda dengan pengidentifikasi transaksi (TXID) yang sama di blockchain. Hal ini terjadi dua kali untuk transaksi coinbase: yang satu di blok 91,880 memiliki TXID yang sama dengan coinbase dari blok 91,722, dan yang satu di blok 91,842 memiliki TXID yang sama dengan coinbase dari blok 91,812. BIP30 menyelesaikan kelemahan ini dengan memberlakukan aturan baru yang sederhana: tidak ada transaksi baru yang dapat memiliki TXID yang sama dengan transaksi yang telah dicatat sebelumnya kecuali transaksi asli telah sepenuhnya digunakan (yaitu, semua outputnya telah digunakan). Soft fork ini diaktifkan menggunakan metode flag day. Dengan demikian, ini merupakan salah satu UASF pertama.

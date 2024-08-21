@@ -1,0 +1,12 @@
+pertanyaan: Informasi apa yang dapat diberikan penerima kepada pengirim untuk memfasilitasi pencarian rute di Lightning Network?
+jawaban: Jumlahnya, alamatnya, hash dari preimage, dan indikasi tentang channelnya.
+jawaban_salah:
+  - Alamat pengirim, jumlah transaksi, dan kunci privat penerima.
+  - Alamat penerima, jumlah transaksi, dan kunci privat pengirim.
+  - Jumlah transaksi, alamat penerima, dan hash dari preimage.
+penjelasan: |
+  Untuk memfasilitasi pencarian rute di Lightning Network, penerima
+  dapat memberikan beberapa informasi kepada pengirim. Ini termasuk jumlah transaksi,
+  alamat penerima, hash dari preimage (yang digunakan untuk membuat
+  HTLC), dan indikasi tentang channel penerima (yang dapat membantu mengidentifikasi
+  channel dengan likuiditas yang cukup).

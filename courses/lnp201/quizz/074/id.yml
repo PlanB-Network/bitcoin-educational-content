@@ -1,0 +1,11 @@
+pertanyaan: Apa tujuan dari meta-protokol LNURL dalam sebuah faktur Jaringan Lightning?
+jawaban: Ini memungkinkan untuk menyediakan jumlah satoshi secara langsung daripada membuat permintaan
+jawaban_salah:
+  - Ini mengenkripsi data faktur
+  - Ini memverifikasi identitas penerima
+  - Ini menghitung biaya transaksi
+penjelasan: |
+  Meta-protokol LNURL dalam sebuah faktur Jaringan Lightning memungkinkan untuk menyediakan
+  jumlah satoshi secara langsung daripada membuat permintaan. Fitur ini meningkatkan pengalaman pengguna
+  dengan membuat proses pembayaran menjadi lebih fleksibel.
+ditinjau: false

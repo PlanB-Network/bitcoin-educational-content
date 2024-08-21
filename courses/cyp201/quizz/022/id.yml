@@ -1,0 +1,11 @@
+pertanyaan: Apa dua komponen kunci dalam mekanisme keamanan protokol Bitcoin?
+jawaban: Algoritma derivasi HMAC dan PBKDF2
+jawaban_salah:
+  - Fungsi hash SHA-256 dan RIPEMD-160
+  - Algoritma Tanda Tangan Digital Kurva Eliptik (ECDSA) dan fungsi hash SHA-256
+  - RSA dan pertukaran kunci Diffie-Hellman
+penjelasan: |
+  Algoritma derivasi HMAC dan PBKDF2 adalah komponen kunci dalam mekanisme keamanan
+  protokol Bitcoin. Mereka mencegah berbagai potensi serangan dan
+  memastikan integritas dompet Bitcoin.
+ditinjau: false

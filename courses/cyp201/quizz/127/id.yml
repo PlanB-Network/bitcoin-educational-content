@@ -1,0 +1,9 @@
+pertanyaan: Apa itu alamat penerimaan dalam Bitcoin?
+jawaban: Representasi alfanumerik dari kunci publik yang dikompres.
+jawaban_salah:
+  - Pengenal unik untuk setiap transaksi Bitcoin.
+  - Kata sandi untuk mengakses dompet Bitcoin.
+  - Tanda tangan digital untuk transaksi Bitcoin.
+penjelasan: |
+  Alamat penerimaan dalam Bitcoin adalah representasi alfanumerik dari
+  kunci publik yang dikompres. Ini digunakan untuk menerima transaksi Bitcoin.

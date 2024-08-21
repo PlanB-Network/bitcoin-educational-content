@@ -1,0 +1,10 @@
+pertanyaan: Apa opsi tambahan untuk meningkatkan keamanan dompet Bitcoin?
+jawaban: Menambahkan passphrase.
+jawaban_salah:
+  - Menambahkan frasa mnemonik kedua.
+  - Menambahkan tanda tangan digital.
+  - Menambahkan riwayat transaksi.
+penjelasan: |
+  Menambahkan passphrase merupakan opsi tambahan untuk meningkatkan keamanan
+  dompet Bitcoin.
+ditinjau: false

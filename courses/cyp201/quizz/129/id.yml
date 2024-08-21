@@ -1,0 +1,12 @@
+pertanyaan: Apa itu HRP (Human Readable Part) dalam alamat Bitcoin?
+jawaban: Ini adalah bagian dari informasi masukan yang diperlukan untuk program BCH.
+jawaban_salah:
+  - Ini adalah hash dari kunci publik.
+  - Ini adalah checksum dari alamat tersebut.
+  - Ini adalah kunci privat yang terkait dengan alamat tersebut.
+penjelasan: |
+  Program BCH memerlukan beberapa informasi masukan, termasuk HRP
+  
+  (Human Readable Part) yang perlu diperluas. Ini adalah bagian dari proses
+  
+  pembuatan alamat Bitcoin.

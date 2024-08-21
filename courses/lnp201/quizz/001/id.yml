@@ -1,0 +1,9 @@
+pertanyaan: Apa yang menentukan apakah sebuah transaksi dimungkinkan dalam saluran pembayaran Lightning?
+jawaban: Pengguna yang mengirim dana harus memiliki cukup Bitcoin di sisi saluran mereka
+jawaban_salah:
+  - Kapasitas total dari saluran harus cukup untuk menutupi transaksi
+  - Pengguna yang menerima dana harus memiliki cukup Bitcoin di sisi saluran mereka
+  - Transaksi harus disetujui oleh jaringan Bitcoin
+penjelasan: |
+  Untuk sebuah transaksi dimungkinkan dalam saluran pembayaran Lightning, pengguna yang mengirim dana harus memiliki cukup Bitcoin di sisi saluran mereka.
+ditinjau: false

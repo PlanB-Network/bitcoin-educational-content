@@ -1,0 +1,10 @@
+pertanyaan: Apa itu Jaringan Petir?
+jawaban: Sebuah jaringan pembayaran yang menggunakan protokol Bitcoin untuk memungkinkan transaksi super cepat.
+jawaban_salah:
+  - Sebuah jenis cryptocurrency baru.
+  - Teknologi blockchain yang terpisah dari Bitcoin.
+  - Sebuah metode untuk menambang Bitcoin.
+penjelasan: >-
+  Jaringan Petir adalah sebuah jaringan pembayaran yang menggunakan protokol Bitcoin
+  untuk memungkinkan transaksi cepat. Ini bukan sebuah cryptocurrency terpisah atau metode untuk
+  menambang Bitcoin.

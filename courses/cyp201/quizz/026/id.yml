@@ -1,0 +1,9 @@
+pertanyaan: Apa unit terkecil dari Bitcoin?
+jawaban: Satoshi
+jawaban_salah:
+  - Bit
+  - Byte
+  - Coin
+penjelasan: |
+  Dalam sistem Bitcoin, unit akun adalah bitcoin (perhatikan "b" kecil). Bitcoin dapat dibagi hingga delapan tempat desimal, dengan unit terkecilnya adalah satoshi.
+ditinjau: false

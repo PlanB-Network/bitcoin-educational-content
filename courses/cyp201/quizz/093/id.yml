@@ -1,0 +1,10 @@
+pertanyaan: Apa indeks awal untuk derivasi yang diperkeras?
+jawaban: 2^31
+jawaban_salah:
+  - 2^32
+  - 2^30
+  - 2^33
+penjelasan: |
+  Derivasi yang diperkeras dimulai dari indeks yang merupakan pangkat dari 2, secara spesifik
+  
+  2^31.

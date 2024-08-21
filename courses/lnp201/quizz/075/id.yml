@@ -1,0 +1,10 @@
+pertanyaan: Apa itu Keysend dalam konteks Lightning Network?
+jawaban: Ini memungkinkan pengguna untuk mengirim uang tanpa memerlukan permintaan dari penerima
+jawaban_salah:
+  - Ini adalah jenis enkripsi yang digunakan dalam Lightning Network
+  - Ini adalah metode untuk menghasilkan alamat Bitcoin baru
+  - Ini adalah alat untuk melacak transaksi di Lightning Network
+penjelasan: |
+  Keysend dalam konteks Lightning Network memungkinkan pengguna untuk mengirim
+  uang tanpa memerlukan permintaan dari penerima. Pengirim mengambil ID penerima,
+  membuat preimage tanpa meminta penerima, dan menyertakannya dalam pembayaran.

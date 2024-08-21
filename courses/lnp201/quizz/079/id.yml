@@ -1,0 +1,11 @@
+pertanyaan: Apa yang diwakili oleh 'bc' dalam 'lnbc1m' pada faktur Lightning Network?
+jawaban: Bitcoin mainnet
+jawaban_salah:
+  - Bitcoin Cash
+  - Rantai blok
+  - Bitcoin Core
+penjelasan: |
+  Dalam faktur Lightning Network, 'bc' merupakan singkatan dari Bitcoin mainnet. Ini
+  menunjukkan bahwa permintaan pembayaran tersebut untuk Bitcoin mainnet, bukan untuk testnet
+  atau jaringan lainnya.
+ditinjau: false

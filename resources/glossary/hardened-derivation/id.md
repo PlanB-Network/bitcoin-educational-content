@@ -1,0 +1,5 @@
+---
+term: HARDENED DERIVATION
+---
+
+Proses menghasilkan kunci anak dalam dompet HD. Hardened derivation menggunakan kunci privat induk sebagai input untuk fungsi `HMAC-SHA512`, membuatnya tidak mungkin untuk menghasilkan kunci publik anak dari kunci publik induk dan kode rantai induk. Proses ini melibatkan penggabungan kunci privat induk dan indeks yang lebih besar atau sama dengan $2^{31}$, diikuti dengan aplikasi `HMAC-SHA512` dengan kode rantai induk. Hasilnya dibagi menjadi dua bagian: 256 bit pertama ditambahkan ke kunci privat induk untuk mendapatkan kunci privat anak, sementara 256 bit yang tersisa membentuk kode rantai anak. Metode ini memastikan bahwa bahkan jika kunci publik yang diperluas dikompromikan, itu tidak dapat digunakan untuk menurunkan kunci publik anak. Dalam derivasi standar, hardened derivation digunakan di semua tingkat derivasi hingga kedalaman akun. Dalam notasi jalur derivasi, derivasi yang diperkuat diidentifikasi dengan tanda apostrof `'` atau lebih jarang dengan `h`.

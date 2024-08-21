@@ -1,0 +1,7 @@
+---
+term: HARDWARE WALLET
+---
+
+Hardware wallet, atau dompet fisik, adalah sebuah perangkat elektronik yang didedikasikan untuk keamanan dan pengelolaan kunci privat dari dompet Bitcoin. Perangkat ini dirancang untuk menyediakan keamanan yang lebih baik dibandingkan dengan dompet perangkat lunak yang berada pada mesin umum dan terhubung langsung ke internet. Hardware wallet menyimpan frasa mnemonik secara offline, pada perangkat yang memiliki permukaan serangan yang sangat kecil, yang mengisolasi dari lingkungan yang berpotensi rentan. Ketika sebuah transaksi dilakukan, hardware wallet menandatangani transaksi di dalam perangkat itu sendiri, tanpa mengungkapkan kunci privat ke luar. Setelah transaksi ditandatangani, transaksi tersebut ditransmisikan ke jaringan Bitcoin untuk dikonfirmasi dan dimasukkan ke dalam blockchain Bitcoin. Di antara model-model hardware wallet yang paling populer adalah: Ledger, Trezor, Coldcard, Passport, BitBox, Satochip, Jade, dan SeedSigner (daftar ini tidak lengkap).
+
+> ► *Istilah hardware wallet dapat diungkapkan dengan berbagai cara dalam bahasa Prancis. Beberapa menyebutnya sebagai "portefeuille matériel" atau "portefeuille froid." Beberapa bitcoiner lebih memilih istilah "périphérique de signature," atau "perangkat penandatangan" dalam bahasa Inggris, untuk menghindari implikasi bahwa bitcoin secara fisik berada di dalam dompet.*

@@ -1,0 +1,9 @@
+pertanyaan: Apa nama kasar yang terkadang digunakan untuk merujuk pada kumpulan kunci privat dalam dompet Bitcoin?
+jawaban: Just a Bunch Of Keys (JBOC)
+jawaban_salah:
+  - Just a Bunch Of Coins (JBOC)
+  - Just a Bunch Of Cryptos (JBOC)
+  - Just a Bunch Of Codes (JBOC)
+penjelasan: |
+  Kumpulan kunci kriptografi privat yang berasal dari satu kunci induk dalam dompet Bitcoin terkadang disebut dengan nama yang sedikit lebih kasar, yaitu "Just a Bunch Of Keys" (JBOC).
+ditinjau: false

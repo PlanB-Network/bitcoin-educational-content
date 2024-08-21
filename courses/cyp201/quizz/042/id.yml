@@ -1,0 +1,11 @@
+pertanyaan: Apa tujuan dari tanda tangan digital dalam konteks transaksi Bitcoin?
+jawaban: Untuk membuktikan bahwa Anda adalah pemegang kunci privat tanpa mengungkapkannya.
+jawaban_salah:
+  - Untuk mengenkripsi data transaksi.
+  - Untuk menyimpan data transaksi.
+  - Untuk mentransmisikan data transaksi.
+penjelasan: |
+  Dalam konteks transaksi Bitcoin, tanda tangan digital digunakan untuk
+  membuktikan bahwa Anda adalah pemegang kunci privat tanpa mengungkapkannya. Hal ini dicapai
+  menggunakan algoritma ECDSA.
+ditinjau: false

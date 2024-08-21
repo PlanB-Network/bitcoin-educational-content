@@ -1,0 +1,10 @@
+pertanyaan: Apa peran dari node Lightning Network dalam sebuah transaksi?
+jawaban: Mereka memungut biaya untuk setuju digunakan untuk merutekan transaksi.
+jawaban_salah:
+  - Mereka memfasilitasi transaksi tanpa biaya apapun.
+  - Mereka menginisiasi transaksi.
+  - Mereka adalah penerima akhir dari transaksi.
+penjelasan: |
+  Dalam Lightning Network, node memungut biaya untuk setuju digunakan
+  untuk merutekan transaksi. Biaya ini berbeda tergantung pada di mana likuiditas
+  berada.

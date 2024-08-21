@@ -1,0 +1,11 @@
+pertanyaan: Apakah saluran pembayaran Lightning bersifat dua arah?
+jawaban: "Ya"
+jawaban_salah:
+  - "Tidak"
+  - Hanya dalam beberapa kasus
+  - Tergantung pada jaringan Bitcoin
+penjelasan: |
+  Saluran pembayaran bersifat dua arah, yang berarti mereka memiliki dua "sisi." Sebagai
+  contoh, jika Alice dan Bob membuka saluran pembayaran, Alice dapat mengirim Bitcoin ke Bob,
+  dan Bob dapat mengirim Bitcoin ke Alice.
+ditinjau: false

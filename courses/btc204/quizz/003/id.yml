@@ -1,0 +1,9 @@
+pertanyaan: Apa pengaruh transaksi Bitcoin terhadap UTXO di output?
+jawaban: Ini menciptakannya dengan menggunakan UTXO yang dikonsumsi di input.
+jawaban_salah:
+  - Ini mengkonsumsinya untuk memenuhi input.
+  - Ini mengenkripsinya untuk menyamarkan penerima.
+  - Ini membaginya sementara untuk verifikasi.
+penjelasan: |
+  UTXO di output dari transaksi diciptakan dengan mengkonsumsi UTXO di input. Ini, dalam suatu cara, adalah tujuan dari uang tersebut.
+ditinjau: false

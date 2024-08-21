@@ -1,0 +1,7 @@
+---
+term: TERDISTRIBUSI
+---
+
+Atribut dari jaringan komputer di mana kekuasaan pengambilan keputusan dan kontrol tersebar merata di antara semua peserta jaringan. Distribusi ini memastikan ketahanan sistem. Ini juga disebut sebagai jaringan peer-to-peer. Tidak seperti jaringan terdesentralisasi, di mana kekuatan terfragmentasi dan tersebar di antara beberapa entitas, tetapi di mana beberapa otoritas pusat tetap memiliki kekuatan lebih besar daripada pengguna, jaringan terdistribusi menghilangkan otoritas pusat dengan menyerahkan pengelolaan dan kontrol kepada pengguna itu sendiri. Bitcoin adalah contoh dari sistem terdistribusi. Bitcoin tidak memiliki hierarki atau otoritas pusat. Pemeliharaan konsensus, verifikasi transaksi, dan penerbitan unit moneter baru dilakukan oleh pengguna. Struktur terdistribusi ini memastikan ketahanan sistem dan resistensi terhadap sensor, membuatnya sangat sulit bagi satu entitas untuk mengontrol atau memanipulasinya.
+
+> ► *Beberapa orang menyebut Bitcoin sebagai sistem terdesentralisasi. Memang, tidak jarang melihat kedua istilah ini digunakan secara bergantian. Sebuah sinonim yang lebih menggugah untuk kata sifat "terdistribusi" bisa jadi "peer-to-peer," terkadang disingkat sebagai "P2P," akronim dari terjemahan bahasa Inggris "Peer-to-Peer."*

@@ -1,0 +1,9 @@
+pertanyaan: Apa yang diberikan oleh pengguna Bitcoin kepada pengirim ketika mereka ingin menerima bitcoin?
+jawaban: Sebuah alamat penerima
+jawaban_salah:
+  - Kunci publik mereka
+  - Kunci privat mereka
+  - Kata sandi dompet Bitcoin mereka
+penjelasan: |
+  Ketika pengguna Bitcoin ingin menerima bitcoin, mereka memberikan sebuah alamat penerima kepada pengirim. Alamat ini adalah hash dari kunci publik mereka, dengan format tertentu.
+ditinjau: false

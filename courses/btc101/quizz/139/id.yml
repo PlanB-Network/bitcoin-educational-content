@@ -1,0 +1,9 @@
+pertanyaan: Berapa jumlah perkiraan node yang tersebar di seluruh dunia per September 2023?
+jawaban: 45.000 node
+jawaban_salah:
+  - 10.000 node
+  - 100.000 node
+  - 500.000 node
+penjelasan: >-
+  Per September 2023, terdapat sekitar 45.000 node yang tersebar di seluruh dunia.
+ditinjau: false

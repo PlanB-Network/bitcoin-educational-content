@@ -1,0 +1,12 @@
+pertanyaan: Apa itu onion routing dalam konteks Lightning Network?
+jawaban: Sebuah metode di mana perantara tidak mengetahui siapa penerima akhir, maupun siapa yang mengirim pembayaran.
+jawaban_salah:
+  - Sebuah metode di mana perantara mengetahui baik pengirim maupun penerima.
+  - Sebuah metode di mana hanya pengirim yang mengetahui rute dan harga.
+  - Sebuah metode di mana penerima akhir menentukan rute sebelum mengirim pembayaran.
+penjelasan: |
+  Onion routing dalam Lightning Network adalah metode di mana perantara
+  tidak mengetahui siapa penerima akhir, maupun siapa yang mengirim pembayaran. Node
+  harus menyimpan rencana dari jaringan untuk menemukan rutenya, tetapi tidak satu pun dari perantara
+  memiliki informasi apapun.
+ditinjau: false

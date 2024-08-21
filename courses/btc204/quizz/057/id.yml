@@ -1,0 +1,13 @@
+pertanyaan: Apa ancaman utama yang terkait dengan penggunaan ulang alamat?
+
+jawaban: Hal ini memungkinkan untuk menetapkan hubungan deterministik antara berbagai transaksi dan kepemilikan bersama dari UTXO yang bersangkutan.
+
+jawaban_salah:
+  - Hal ini mengekspos alamat IP pengguna kepada peserta jaringan lainnya selama validasi transaksi.
+  - Hal ini mengurangi efektivitas mekanisme tanda tangan digital, yang melemahkan keamanan transaksi.
+  - Hal ini menyebabkan peningkatan biaya transaksi karena kemacetan yang disebabkan oleh penggunaan ulang alamat.
+
+penjelasan: |
+  Jika alamat yang sama digunakan untuk beberapa transaksi, menjadi mungkin untuk menyimpulkan bahwa semua bitcoin yang terkait dengan alamat tersebut milik orang yang sama.
+
+ditinjau: false

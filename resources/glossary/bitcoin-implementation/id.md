@@ -1,0 +1,7 @@
+---
+term: IMPLEMENTASI BITCOIN
+---
+
+Merujuk pada perangkat lunak yang menerapkan dan mengikuti aturan yang ditetapkan oleh protokol Bitcoin. Yang umumnya disebut "Bitcoin" adalah sistem uang elektronik. Ini adalah protokol yang menentukan aturan. Secara konkret, diwakili oleh node yang membentuk jaringan. Sistem ini secara spesifik tidak memiliki kode. Ini hanyalah sekumpulan aturan luas yang tidak tertulis yang diberlakukan oleh konsensus pengguna melalui node mereka. Namun, yang memiliki kode komputer, dan oleh karena itu dapat dikembangkan, dipelihara, dan dimodifikasi, adalah perangkat lunak node Bitcoin itu sendiri. Ini adalah implementasi independen dari protokol Bitcoin, yang dapat terhubung ke sisa jaringan.
+
+Di antara implementasi Bitcoin, Bitcoin Core adalah yang paling luas, karena mewakili sekitar 99% dari jaringan node. Namun, ada juga implementasi minoritas seperti BTCsuite, Bcoin, dan Bitcoin Knots. Meskipun ada keragaman klien perangkat lunak yang tersedia, dominasi Bitcoin Core di jaringan memberikannya pengaruh yang hampir eksklusif terhadap penerapan protokol Bitcoin. Oleh karena itu, dikatakan bahwa Bitcoin Core secara efektif mewakili protokol Bitcoin itu sendiri.

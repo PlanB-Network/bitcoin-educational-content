@@ -1,0 +1,9 @@
+pertanyaan: Apa yang akan terjadi jika seorang pengguna memutuskan untuk mengikuti aturan lain yang membuat aturan konsensus saat ini tidak valid?
+jawaban: Node tersebut tidak akan lagi menjadi bagian dari jaringan Bitcoin
+jawaban_salah:
+  - Node tersebut akan menjadi bagian dari jaringan Bitcoin yang berbeda
+  - Node tersebut akan dikenai sanksi oleh jaringan Bitcoin
+  - Node tersebut akan diberi hadiah oleh jaringan Bitcoin
+penjelasan: >-
+  Jika seorang pengguna memutuskan untuk mengikuti aturan lain yang membuat aturan konsensus saat ini tidak valid, maka node tersebut tidak akan lagi menjadi bagian dari jaringan Bitcoin.
+ditinjau: false

@@ -1,0 +1,8 @@
+pertanyaan: Siapa yang membayar biaya transaksi di Lightning Network?
+jawaban: Pengirim pembayaran.
+jawaban_salah:
+  - Penerima pembayaran.
+  - Perantara.
+  - Jaringan itu sendiri.
+penjelasan: |
+  Di Lightning Network, pengirim pembayaranlah yang membayar biaya transaksi. Biaya ini dikenakan oleh node yang digunakan untuk merutekan transaksi.

@@ -1,0 +1,8 @@
+pertanyaan: Mengapa disarankan untuk membatasi jumlah ekstensi yang dipasang pada browser Anda?
+jawaban: Untuk menghindari potensi masalah keamanan dan kinerja.
+jawaban_salah:
+  - Untuk menghemat ruang penyimpanan pada perangkat Anda.
+  - Untuk mencegah browser dari crash.
+  - Untuk menghindari dilacak oleh situs pihak ketiga.
+penjelasan: |
+  Meskipun ekstensi browser dapat menyediakan fungsionalitas yang berguna, mereka juga dapat menimbulkan risiko keamanan karena dapat mengakses data dan aktivitas browsing Anda. Selain itu, memiliki terlalu banyak ekstensi dapat memperlambat browser Anda dan mempengaruhi kinerjanya.

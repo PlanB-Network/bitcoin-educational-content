@@ -1,0 +1,9 @@
+pertanyaan: Berapa jumlah total kemungkinan untuk sebuah kunci privat secara teori?
+jawaban: 2^256
+jawaban_salah:
+  - 2^128
+  - 2^512
+  - 2^1024
+penjelasan: |
+  Jumlah total kemungkinan untuk sebuah kunci privat secara teori adalah
+  2^256, namun pada kenyataannya, jumlahnya sedikit kurang dari itu.

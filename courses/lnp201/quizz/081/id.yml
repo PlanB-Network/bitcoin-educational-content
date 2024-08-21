@@ -1,0 +1,11 @@
+pertanyaan: Apa itu Lightning Network?
+jawaban: Solusi lapisan-2 untuk Bitcoin yang memungkinkan transaksi cepat dengan biaya rendah
+jawaban_salah:
+  - Sejenis dompet digital untuk menyimpan Bitcoin
+  - Sebuah metode untuk menambang Bitcoin
+  - Catatan dari semua transaksi di jaringan Bitcoin
+penjelasan: |
+  Lightning Network adalah solusi lapisan-2 untuk Bitcoin yang memungkinkan
+  transaksi cepat dengan biaya rendah. Ini beroperasi di atas blockchain Bitcoin dan memungkinkan
+  transaksi di luar rantai, yang lebih cepat dan lebih murah daripada transaksi di dalam rantai.
+ditinjau: false

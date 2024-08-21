@@ -1,0 +1,9 @@
+pertanyaan: Apa itu kunci ekstensi dalam dompet HD?
+jawaban: Ini diperoleh dengan menggabungkan kunci induk dengan kode rantainya.
+jawaban_salah:
+  - Ini adalah elemen tertinggi dalam hierarki dompet HD.
+  - Ini digunakan untuk menghasilkan benih dompet.
+  - Ini digunakan untuk menghitung checksum.
+penjelasan: |
+  Turunan dari kunci anak bergantung pada beberapa faktor, termasuk kunci induk dan kode rantai yang sesuai. Kunci ekstensi diperoleh dengan menggabungkan kunci induk dengan kode rantainya.
+ditinjau: false

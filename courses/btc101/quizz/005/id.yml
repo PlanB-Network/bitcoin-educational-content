@@ -1,0 +1,10 @@
+pertanyaan: Apa tujuan utama dari unit Bitcoin?
+jawaban: Unit Bitcoin adalah mata uang yang diperlukan untuk fungsi yang tepat dari protokol Bitcoin.
+jawaban_salah:
+  - Unit Bitcoin digunakan untuk mengatur harga Bitcoin.
+  - Unit Bitcoin digunakan untuk mengontrol protokol Bitcoin.
+  - Unit Bitcoin digunakan untuk menciptakan bitcoin baru.
+penjelasan: |
+  Unit Bitcoin adalah mata uang yang diperlukan untuk fungsi yang tepat dari protokol Bitcoin.
+  Digunakan untuk transaksi dan bergantung pada protokol Bitcoin untuk berfungsi.
+ditinjau: true

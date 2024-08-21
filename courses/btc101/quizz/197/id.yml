@@ -1,0 +1,10 @@
+pertanyaan: Apa salah satu risiko yang terkait dengan pembelian Bitcoin?
+jawaban: Harganya bisa turun menjadi 0.
+jawaban_salah:
+  - Dapat dengan mudah dicuri.
+  - Dapat diduplikasi.
+  - Dapat hilang secara fisik.
+penjelasan: >-
+  Teks tersebut menyebutkan bahwa Bitcoin adalah aset keuangan yang sangat fluktuatif dan
+  harganya bisa turun menjadi 0. Ini adalah salah satu risiko yang terkait dengan pembelian Bitcoin.
+ditinjau: false

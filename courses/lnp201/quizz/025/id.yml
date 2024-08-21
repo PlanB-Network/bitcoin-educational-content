@@ -1,0 +1,10 @@
+pertanyaan: Apa peran dari transaksi komitmen dalam Jaringan Lightning?
+jawaban: Ini memperbarui saldo dari saluran setelah setiap transfer.
+jawaban_salah:
+  - Ini membuka saluran.
+  - Ini menutup saluran.
+  - Ini mentransfer dana.
+penjelasan: |
+  Transaksi komitmen adalah transaksi yang lebih baru yang memperbarui
+  saldo dari saluran setelah setiap transfer. Transaksi ini tidak dilaksanakan kecuali saluran
+  ditutup.

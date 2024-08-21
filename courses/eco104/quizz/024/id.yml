@@ -1,0 +1,11 @@
+pertanyaan: Apa itu Halving dalam konteks Bitcoin?
+jawaban: Sebuah fitur dalam kode Bitcoin yang memotong separuh hadiah penambangan setiap empat tahun
+jawaban_salah:
+  - Sebuah proses meningkatkan adopsi global Bitcoin
+  - Mekanisme yang mencegah nilai bitcoin dari kehancuran
+  - Istilah yang digunakan untuk mendeskripsikan peristiwa ketika harga bitcoin melonjak
+penjelasan: |
+  Halving adalah fitur dalam kode Bitcoin yang memotong hadiah penambangan 
+  menjadi setengah kira-kira setiap empat tahun. Peristiwa ini berdampak 
+  pada pendapatan penambang dan memberikan tekanan ke atas pada harga bitcoin.
+ditinjau: true

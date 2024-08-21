@@ -1,0 +1,8 @@
+pertanyaan: Apa saja beberapa bahasa pemrograman yang digunakan dalam keamanan siber?
+jawaban: Python, C, Java
+jawaban_salah:
+  - HTML, CSS, JavaScript
+  - Swift, Kotlin, Ruby
+  - PHP, Perl, Lua
+penjelasan: |
+  Bab ini mencantumkan Python, C, dan Java sebagai beberapa bahasa pemrograman yang digunakan dalam keamanan siber.

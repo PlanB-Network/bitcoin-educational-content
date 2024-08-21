@@ -1,0 +1,9 @@
+---
+term: CYPHERPUNKS
+---
+
+Sebuah komunitas informal dan internasional dari individu-individu yang mendorong penggunaan kriptografi sebagai sarana untuk menjamin kebebasan individu di Internet. Cypherpunks mendukung hak fundamental individu untuk melindungi privasi mereka, terutama dalam konteks peningkatan pengawasan negara dan eksploitasi data oleh entitas swasta. Nama mereka berasal dari kata dalam bahasa Inggris *cypher*, yang berarti "kode rahasia", dan *punk*. Ini merupakan permainan kata dari istilah *cyberpunk*, yang menggambarkan genre sastra yang menggambarkan masa depan distopia di mana teknologi canggih terjalin dengan kejahatan dan kemerosotan masyarakat.
+
+Gerakan cypherpunk berawal dari awal tahun 1990-an ketika kelompok-kelompok kriptografer, pemrogram, dan libertarian mulai mendiskusikan implikasi politik dari kriptografi selama pertemuan awal mereka di Silicon Valley. Salah satu tokoh kunci dalam komunitas ini adalah Tim May, yang menulis *Crypto Anarchist Manifesto* pada tahun 1988, sebuah teks dasar dari gerakan tersebut. Di antara momen-momen kunci dalam sejarah cypherpunks adalah pendirian, pada tahun 1992, dari "Cypherpunks mailing list", sebuah daftar distribusi email yang memfasilitasi diskusi ini. Publikasi *Cypherpunk's Manifesto* oleh Eric Hughes pada tahun 1993, sebuah dokumen yang menguraikan tujuan dan tindakan dari cypherpunks, juga merupakan peristiwa penting.
+
+Ide tentang mata uang elektronik yang tidak bergantung pada entitas pusat, seperti Bitcoin, berakar pada filosofi cypherpunks. Penciptaan Bitcoin sering dianggap sebagai pencapaian besar dari visi ini, bersama dengan PGP, Tor, dan WikiLeaks.

@@ -1,0 +1,10 @@
+pertanyaan: Apa pentingnya menggunakan kata sandi yang kuat untuk keamanan komputer?
+jawaban: Untuk mencegah akses tidak sah ke sistem.
+jawaban_salah:
+  - Untuk membuat sistem berjalan lebih cepat.
+  - Untuk meningkatkan kapasitas penyimpanan.
+  - Untuk meningkatkan antarmuka pengguna.
+penjelasan: |
+  Kata sandi yang kuat sangat penting untuk keamanan komputer guna mencegah
+  akses tidak sah ke sistem.
+ditinjau: false

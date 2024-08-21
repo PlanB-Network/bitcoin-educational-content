@@ -1,0 +1,7 @@
+---
+istilah: SERANGAN DEBU
+---
+
+Serangan Debu melibatkan pengiriman jumlah bitcoin yang sangat kecil ke sejumlah besar alamat penerima. Tujuan penyerang adalah untuk memaksa penerima menggabungkan jumlah-jumlah kecil ini dengan UTXO lainnya. Penyerang kemudian melacak pergerakan masa depan dari jumlah bitcoin kecil ini, dengan tujuan membentuk kluster alamat, yaitu, untuk menentukan apakah beberapa alamat milik entitas yang sama. Dengan mengkorelasikan informasi yang dikumpulkan selama serangan debu dengan data lain dan heuristik yang digunakan dalam analisis rantai, dimungkinkan bagi penyerang untuk mengidentifikasi entitas tertentu dan alamat yang terkait dengan mereka. Metode ini hanya mewakili ancaman terhadap privasi pengguna, tetapi tidak mempengaruhi keamanan dana mereka.
+
+> ► *Beberapa pengguna bitcoin menyarankan untuk tidak lagi menggunakan istilah "serangan debu" karena dapat menyesatkan. Memang, istilah "debu" menggambarkan sesuatu yang sangat spesifik dalam Bitcoin Core. Jika serangan debu benar-benar menggunakan debu seperti yang dijelaskan dalam Core, serangan tersebut akan tidak efektif. Oleh karena itu, beberapa menyarankan menggunakan istilah "pemakaian ulang alamat paksa" untuk mendeskripsikan serangan ini dengan lebih akurat.*

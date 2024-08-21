@@ -1,0 +1,10 @@
+pertanyaan: Teknologi apa saja yang digunakan oleh protokol Bitcoin?
+jawaban: Kriptografi, komunikasi jaringan, dan blockchain.
+jawaban_salah:
+  - Kecerdasan buatan, pembelajaran mesin, dan blockchain.
+  - Komputasi kuantum, komunikasi jaringan, dan blockchain.
+  - Kriptografi, kecerdasan buatan, dan blockchain.
+penjelasan: >-
+  Protokol Bitcoin menggunakan teknologi dasar seperti kriptografi,
+  komunikasi jaringan, dan blockchain.
+ditinjau: true

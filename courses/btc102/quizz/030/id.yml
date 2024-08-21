@@ -1,0 +1,9 @@
+pertanyaan: Apa itu blockchain Bitcoin?
+jawaban: Sebuah basis data yang mencatat semua transaksi Bitcoin
+jawaban_salah:
+  - Sejenis mata uang digital
+  - Jaringan pengguna Bitcoin
+  - Metode penambangan bitcoin
+penjelasan: |
+  Blockchain Bitcoin adalah sebuah basis data yang mencatat semua transaksi Bitcoin.
+  Ini dipelihara oleh para penambang yang menambahkan transaksi baru ke dalam blockchain.

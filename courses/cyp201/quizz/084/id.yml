@@ -1,0 +1,10 @@
+pertanyaan: Apa fungsi dari fungsi pbkdf2 dalam pembuatan seed?
+jawaban: Fungsi tersebut digunakan bersama dengan frasa mnemonik dan passphrase untuk mendapatkan seed.
+jawaban_salah:
+  - Fungsi tersebut digunakan untuk menghasilkan kunci privat utama.
+  - Fungsi tersebut digunakan untuk menurunkan pasangan kunci anak.
+  - Fungsi tersebut digunakan untuk membuat kode rantai utama.
+penjelasan: |
+  Fungsi pbkdf2 (Password-Based Key Derivation Function 2) digunakan
+  bersama dengan frasa mnemonik dan passphrase untuk mendapatkan seed, sebuah urutan alfanumerik 512-bit
+  yang berfungsi sebagai dasar untuk menurunkan kunci-kunci dompet.

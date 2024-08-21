@@ -1,0 +1,10 @@
+pertanyaan: Apa tujuan dari hash dari preimage dalam sebuah invoice Jaringan Lightning?
+jawaban: Digunakan untuk membuka pembayaran
+jawaban_salah:
+  - Digunakan untuk mengenkripsi data invoice
+  - Digunakan untuk memverifikasi identitas penerima
+  - Digunakan untuk menghitung biaya transaksi
+penjelasan: |
+  Hash dari preimage dalam sebuah invoice Jaringan Lightning digunakan untuk membuka
+  pembayaran. Penerima pembayaran harus menyediakan preimage yang cocok
+  dengan hash untuk menerima dana.

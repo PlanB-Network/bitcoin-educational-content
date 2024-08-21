@@ -1,0 +1,9 @@
+pertanyaan: Apa kekhawatiran utama mengenai biaya lingkungan dari penambangan Bitcoin?
+jawaban: Konsumsi energi
+jawaban_salah:
+  - Produksi ASIC
+  - Daur ulang ASIC
+  - Biaya listrik
+penjelasan: >-
+  Kekhawatiran lingkungan utama dari penambangan Bitcoin adalah konsumsi energi. Meskipun ASIC sebagian besar terbuat dari aluminium dan dapat didaur ulang atau digunakan kembali, energi yang diperlukan untuk mengoperasikan mesin-mesin ini signifikan.
+ditinjau: false

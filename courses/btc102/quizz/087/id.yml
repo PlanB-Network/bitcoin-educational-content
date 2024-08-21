@@ -1,0 +1,9 @@
+pertanyaan: Jenis pengguna apa yang paling mungkin membutuhkan dompet Bitcoin panas dan dingin?
+jawaban: Pengguna yang perlu menggunakan Bitcoin secara rutin.
+jawaban_salah:
+  - Pengguna yang hanya menggunakan Bitcoin sesekali.
+  - Pengguna yang menambang Bitcoin.
+  - Pengguna yang hanya berinvestasi dalam Bitcoin untuk jangka panjang.
+penjelasan: |
+  Pengguna Bitcoin reguler membutuhkan dompet panas untuk transaksi harian dan
+  dompet dingin untuk penyimpanan jangka panjang yang aman.

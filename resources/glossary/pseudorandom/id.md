@@ -1,0 +1,7 @@
+---
+term: PSEUDO-RANDOM
+---
+
+Adjektif ini digunakan untuk menggambarkan urutan angka yang, meskipun merupakan hasil dari proses deterministik, menampilkan karakteristik yang dekat dengan karakteristik dari urutan acak yang ideal. Konsep keacakan ideal menyiratkan total ketiadaan prediktabilitas dan korelasi antar elemen berturut-turut. Sebuah angka pseudo-random dihasilkan oleh algoritma deterministik dan oleh karena itu, secara teori, sepenuhnya dapat diprediksi jika seseorang mengetahui keadaan awal dari generator tersebut.
+
+Sebuah generator angka pseudo-random (PRNG) adalah algoritma yang digunakan untuk menghasilkan angka-angka tersebut. Umumnya dimulai dari nilai awal, atau "seed," dan kemudian menerapkan serangkaian transformasi matematika untuk menghasilkan urutan angka. Karena determinabilitas ini, penting bagi keamanan kriptografi bahwa seed awal tetap rahasia. Urutan pseudo-random banyak digunakan di berbagai bidang, termasuk kriptografi, karena mereka menunjukkan perilaku yang tampaknya acak yang cukup untuk banyak aplikasi. Evaluasi kualitas PRNG didasarkan pada sejauh mana keluarannya mendekati keacakan sejati dalam hal distribusi, korelasi, dan sifat statistik lainnya. Dalam konteks Bitcoin, angka pseudo-random digunakan untuk menghasilkan kunci privat, atau untuk menghasilkan seed untuk dompet deterministik dan hierarkis.

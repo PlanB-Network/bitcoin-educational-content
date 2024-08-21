@@ -1,0 +1,10 @@
+pertanyaan: Apa yang terjadi jika passphrase dari dompet Bitcoin diubah?
+jawaban: Dompet Bitcoin menjadi sepenuhnya berbeda
+jawaban_salah:
+  - Dompet Bitcoin menjadi tidak dapat diakses
+  - Dompet Bitcoin tetap sama
+  - Dompet Bitcoin kehilangan semua bitcoinnya
+penjelasan: |
+  Jika passphrase diubah, dompet Bitcoin menjadi sepenuhnya berbeda
+  karena passphrase berperan dalam pembangunan dan perhitungan semua kunci
+  dompet tersebut.

@@ -1,0 +1,11 @@
+pertanyaan: Apa peran dari kunci privat dalam transaksi Bitcoin?
+jawaban: Digunakan untuk menandatangani transaksi dan membuka kunci bitcoin dari alamat tersebut.
+jawaban_salah:
+  - Digunakan untuk menghasilkan kunci publik.
+  - Digunakan untuk membuat alamat Bitcoin.
+  - Digunakan untuk mengenkripsi data transaksi.
+penjelasan: |
+  Dalam transaksi Bitcoin, pengirim menggunakan kunci privat mereka untuk menandatangani
+  transaksi, yang secara efektif membuka kunci bitcoin dari alamat tempat mereka disimpan.
+  Ini adalah bagian penting dari proses transaksi, karena memastikan bahwa hanya pemilik
+  bitcoin yang dapat menghabiskannya.

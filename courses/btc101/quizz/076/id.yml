@@ -1,0 +1,10 @@
+pertanyaan: Apa peran kunci publik dalam dompet Bitcoin?
+jawaban: Digunakan untuk menghasilkan alamat Bitcoin dan dengan demikian menerima uang
+jawaban_salah:
+  - Digunakan untuk mengenkripsi transaksi Bitcoin
+  - Digunakan untuk mengakses dompet Bitcoin
+  - Digunakan untuk membackup dompet Bitcoin
+penjelasan: |
+  Kunci publik diturunkan dari kunci pribadi dan digunakan untuk menghasilkan alamat Bitcoin
+  agar dapat menerima uang.
+ditinjau: true

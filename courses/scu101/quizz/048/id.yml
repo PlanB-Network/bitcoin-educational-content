@@ -1,0 +1,11 @@
+pertanyaan: Apa langkah kedua yang umum dalam 2FA?
+jawaban: Kode yang dihasilkan oleh aplikasi seperti Google Authenticator atau Authy.
+jawaban_salah:
+  - Panggilan telepon kepada pemilik akun
+  - Email kepada pemilik akun
+  - Surat yang dikirim ke alamat rumah pemilik akun
+penjelasan: |
+  Langkah kedua dalam 2FA bisa berupa kode sementara yang dikirim melalui SMS, kode
+  yang dihasilkan
+  oleh sebuah aplikasi, atau kunci keamanan fisik.
+ditinjau: false

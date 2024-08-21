@@ -1,0 +1,8 @@
+pertanyaan: Fungsi apa yang digunakan untuk menghasilkan seed dari frasa mnemonik dan passphrase dalam dompet HD?
+jawaban: Fungsi pbkdf2
+jawaban_salah:
+  - Fungsi hmacha512
+  - Fungsi SHA256
+  - Fungsi RIPMD160
+penjelasan: |
+  Fungsi pbkdf2 digunakan untuk menghasilkan seed dari frasa mnemonik dan passphrase, menggunakan hmacha512 dan 2048 iterasi. Seed ini kemudian digunakan untuk menurunkan kunci utama dan kode rantai utama.

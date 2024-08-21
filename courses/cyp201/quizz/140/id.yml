@@ -1,0 +1,9 @@
+pertanyaan: Apa yang digunakan untuk menghitung checksum dalam kasus standar segwit?
+jawaban: Program BCH (Bose-Chaudhuri-Hocquenghem)
+jawaban_salah:
+  - Penghashan Double SHA256
+  - Fungsi pbkdf2
+  - Fungsi hmacha512
+penjelasan: |
+  Program BCH (Bose-Chaudhuri-Hocquenghem) digunakan untuk menghitung
+  checksum dalam kasus standar segwit.

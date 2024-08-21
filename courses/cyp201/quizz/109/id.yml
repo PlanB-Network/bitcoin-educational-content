@@ -1,0 +1,8 @@
+pertanyaan: Apa yang ditunjukkan oleh indeks dalam jalur derivasi dalam konteks HD Wallet?
+jawaban: Nilai yang digunakan dalam fungsi HMAC
+jawaban_salah:
+  - Nilai yang digunakan dalam fungsi SHA-256
+  - Nilai yang digunakan dalam fungsi RSA
+  - Nilai yang digunakan dalam fungsi AES
+penjelasan: |
+  Dalam konteks HD Wallet, indeks dalam jalur derivasi menunjukkan nilai yang digunakan dalam fungsi HMAC. Ini digunakan untuk membedakan antara pasangan kunci anak yang berbeda pada kedalaman yang sama.

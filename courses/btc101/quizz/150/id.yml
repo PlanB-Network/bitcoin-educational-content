@@ -1,0 +1,10 @@
+pertanyaan: Apa peran penambang dalam jaringan Bitcoin?
+jawaban: Penambang mengamankan jaringan dan menambahkan transaksi ke dalam blok.
+jawaban_salah:
+  - Penambang menciptakan bitcoin baru.
+  - Penambang memverifikasi identitas pengguna Bitcoin.
+  - Penambang menetapkan harga Bitcoin.
+penjelasan: >-
+  Penambang menggunakan kekuatan komputasi mereka untuk menyelesaikan masalah matematika yang kompleks,
+  yang memungkinkan mereka untuk menambahkan transaksi baru ke dalam blockchain. Proses ini mengamankan
+  jaringan dan menjaga integritasnya.

@@ -1,0 +1,11 @@
+pertanyaan: Apa keuntungan utama dari Dompet Deterministik Hierarkis (HD wallets)?
+jawaban: Mereka memungkinkan untuk generasi pasangan kunci anak yang deterministik dan hierarkis dari satu potongan informasi.
+jawaban_salah:
+  - Mereka memungkinkan untuk generasi beberapa kunci privat dari satu kunci publik.
+  - Mereka memungkinkan untuk generasi beberapa kunci publik dari satu kunci privat.
+  - Mereka memungkinkan untuk generasi beberapa dompet dari satu pasangan kunci.
+penjelasan: |
+  Dompet HD memungkinkan untuk generasi pasangan kunci anak yang deterministik dan hierarkis
+  dari satu potongan informasi. Ini membuat generasi dan
+  pengelolaan kunci menjadi lebih mudah sambil mempertahankan tingkat keamanan yang tinggi.
+ditinjau: false

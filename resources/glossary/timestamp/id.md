@@ -1,0 +1,9 @@
+---
+term: TIMESTAMP
+---
+
+Penanda waktu, atau "timestamp" dalam bahasa Inggris, adalah mekanisme yang melibatkan asosiasi penanda temporal yang tepat dengan sebuah peristiwa, data, atau pesan. Dalam konteks umum sistem komputer, penanda waktu digunakan untuk menentukan urutan kronologis operasi dan untuk memverifikasi integritas data seiring waktu.
+
+Dalam kasus spesifik Bitcoin, timestamp digunakan untuk menetapkan kronologi transaksi dan blok. Setiap blok dalam blockchain berisi timestamp yang menunjukkan momen perkiraan pembuatannya. Satoshi Nakamoto bahkan berbicara tentang "server timestamp" dalam White Paper-nya, untuk menggambarkan apa yang kita sebut hari ini sebagai "blockchain." Peran penanda waktu dalam Bitcoin adalah untuk menentukan kronologi transaksi, guna menentukan, tanpa intervensi otoritas pusat, transaksi mana yang terjadi lebih dulu. Mekanisme ini memungkinkan setiap pengguna untuk memverifikasi ketiadaan transaksi di masa lalu, dan dengan demikian untuk mencegah pengguna jahat melakukan double spend. Mekanisme ini dibenarkan oleh Satoshi Nakamoto dalam White Paper-nya dengan frase terkenal: "*Satu-satunya cara untuk mengonfirmasi ketiadaan transaksi adalah dengan mengetahui semua transaksi.*" Standar ini didirikan pada waktu Unix, yang mewakili total detik yang telah berlalu sejak 1 Januari 1970.
+
+> ► *Penanda waktu blok pada Bitcoin cukup fleksibel, karena agar timestamp dianggap valid, ia hanya perlu lebih besar dari waktu median dari 11 blok sebelumnya (MTP) dan kurang dari median waktu yang dikembalikan oleh node (waktu yang disesuaikan jaringan) ditambah 2 jam.*

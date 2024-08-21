@@ -1,0 +1,8 @@
+pertanyaan: Apa yang terjadi pada dana dalam transfer Jaringan Lightning?
+jawaban: Dana tersebut tidak pernah berpindah, tetapi saldo akhir diperbarui.
+jawaban_salah:
+  - Dana tersebut ditransfer dari satu sisi ke sisi lain.
+  - Dana tersebut dikunci sampai saluran ditutup.
+  - Dana tersebut dikirim ke jaringan Bitcoin.
+penjelasan: |
+  Dalam transfer Jaringan Lightning, dana tersebut tidak pernah berpindah. Sebaliknya, saldo akhir diperbarui melalui transaksi on-chain yang ditandatangani namun tidak dipublikasikan.

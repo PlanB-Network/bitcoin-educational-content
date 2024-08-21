@@ -1,0 +1,10 @@
+pertanyaan: Apa yang dimaksud dengan Depth 0 dalam struktur HD Wallet?
+jawaban: Kunci induk dan kode rantai induk
+jawaban_salah:
+  - Kunci anak dan kode rantai anak
+  - Rantai eksternal dan internal
+  - Alamat penerima dalam dompet standar
+penjelasan: |
+  Dalam struktur HD Wallet, Depth 0 merujuk pada kunci induk dan
+  kode rantai induk.
+ditinjau: false

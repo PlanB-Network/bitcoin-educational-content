@@ -1,0 +1,12 @@
+pertanyaan: Apa tujuan dari kunci pembatalan dalam transaksi komitmen?
+jawaban: Ini memungkinkan pihak lain untuk memindahkan dana tanpa menunggu akhir dari Timelock jika salah satu pihak mencoba untuk curang.
+jawaban_salah:
+  - Ini memungkinkan pihak lain untuk segera mendapatkan kembali uang mereka.
+  - Ini memungkinkan pihak lain untuk membuat transaksi komitmen baru.
+  - Ini memungkinkan pihak lain untuk memperpanjang Timelock.
+penjelasan: |
+  Kunci pembatalan adalah ukuran keamanan dalam transaksi komitmen.
+  Jika salah satu pihak mencoba untuk curang dengan mempublikasikan keadaan lama, pihak lain dapat menggunakan
+  kunci pembatalan untuk memindahkan dana tanpa menunggu akhir dari Timelock,
+  secara efektif menghukum penipu tersebut.
+ditinjau: false

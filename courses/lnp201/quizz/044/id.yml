@@ -1,0 +1,9 @@
+pertanyaan: Apa jenis penutupan saluran yang paling cepat dan paling murah?
+jawaban: Penutupan kooperatif.
+jawaban_salah:
+  - Penutupan paksa.
+  - Penutupan oleh penipu.
+  - Tidak ada perbedaan kecepatan dan biaya antara jenis-jenis penutupan.
+penjelasan: |
+  Dalam penutupan kooperatif, kedua pihak berkomunikasi dan setuju pada keadaan akhir dari saluran tersebut. Ini adalah opsi yang paling cepat dan paling murah.
+ditinjau: false

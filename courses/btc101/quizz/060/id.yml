@@ -1,0 +1,10 @@
+pertanyaan: Apa nama proses yang memverifikasi transaksi pada jaringan Bitcoin?
+jawaban: Mining
+jawaban_salah:
+  - Digging
+  - Harvesting
+  - Farming
+penjelasan: |
+  Proses yang memverifikasi transaksi pada jaringan Bitcoin disebut
+  mining. Penambang melakukan tugas kriptografi dan diberi imbalan dengan penerbitan bitcoin baru.
+ditinjau: true

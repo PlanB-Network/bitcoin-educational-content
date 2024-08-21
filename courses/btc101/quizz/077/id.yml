@@ -1,0 +1,10 @@
+pertanyaan: Apa risiko dari berbagi kunci publik dari dompet Bitcoin?
+jawaban: Risiko terhadap privasi
+jawaban_salah:
+  - Risiko merusak dompet Bitcoin
+  - Risiko kehilangan Bitcoin
+  - Risiko peretasan dompet Bitcoin
+penjelasan: |
+  Berbagi kunci publik melibatkan risiko terhadap privasi, tetapi tidak terhadap keamanan.
+  Hal ini karena kunci publik digunakan untuk menghasilkan alamat Bitcoin dan dengan demikian menerima
+  uang, tetapi itu tidak mewakili kepemilikan atas Bitcoin.

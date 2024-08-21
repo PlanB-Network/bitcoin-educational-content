@@ -1,0 +1,11 @@
+pertanyaan: Apa yang terjadi ketika Alice mencoba berbuat curang dengan mempublikasikan transaksi komitmen lama?
+jawaban: Bob menggunakan kunci pembatalan untuk menghukum Alice dan mengambil semua SAT dari saluran tersebut.
+jawaban_salah:
+  - Alice dihadiahi karena kecerdikannya.
+  - Alice dan Bob membagi SAT dari saluran tersebut.
+  - Transaksi ditolak dan tidak terjadi apa-apa.
+penjelasan: |
+  Lightning Network memiliki mekanisme untuk mencegah kecurangan. Jika Alice mencoba
+  berbuat curang dengan mempublikasikan transaksi komitmen lama, Bob dapat menggunakan kunci pembatalan
+  untuk menghukum Alice dan mengambil semua SAT dari saluran tersebut.
+ditinjau: false

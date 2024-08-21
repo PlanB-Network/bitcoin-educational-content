@@ -1,0 +1,5 @@
+---
+term: SHA256
+---
+
+Akronim untuk "*Secure Hash Algorithm 256 bits*". Ini adalah fungsi hash kriptografis yang menghasilkan digest 256-bit. Dirancang oleh *National Security Agency* (NSA) pada awal tahun 2000-an, ini telah menjadi standar federal untuk pengolahan data sensitif. Dalam protokol Bitcoin, fungsi `SHA256` sangat umum digunakan. Ini digunakan untuk meng-hash header blok sebagai bagian dari bukti kerja. `SHA256` juga digunakan dalam proses mendapatkan alamat penerima dari kunci publik. Selain itu, digunakan untuk agregasi transaksi dan saksi dalam pohon Merkle di blok. `SHA256` juga ditemukan dalam perhitungan sidik jari kunci, perhitungan beberapa checksum, dan dalam banyak proses lain seputar Bitcoin. Ketika diterapkan dua kali berturut-turut, ini disebut sebagai `HASH256`. Aplikasi ganda ini adalah yang paling banyak digunakan pada Bitcoin. Ketika `SHA256` digunakan bersama dengan fungsi `RIPEMD160`, ini disebut sebagai `HASH160`. Penggandaan hash ini digunakan untuk sidik jari kunci dan untuk meng-hash kunci publik. Fungsi `SHA256` adalah bagian dari keluarga SHA 2.

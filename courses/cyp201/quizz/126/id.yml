@@ -1,0 +1,12 @@
+pertanyaan: Apa tujuan dari teknologi checksum BCH (Bose-Chaudhuri-Hocquenghem) dalam alamat Bitcoin?
+jawaban: Ini memungkinkan untuk deteksi kesalahan dan mengurangi jumlah karakter yang diperlukan untuk merepresentasikan sebuah alamat.
+jawaban_salah:
+  - Ini mengenkripsi alamat untuk tujuan keamanan.
+  - Ini meningkatkan jumlah karakter yang diperlukan untuk merepresentasikan sebuah alamat.
+  - Ini memungkinkan untuk koreksi kesalahan dalam alamat.
+penjelasan: |
+  Teknologi checksum BCH digunakan dalam alamat Bitcoin untuk deteksi kesalahan.
+
+  Ini juga berkontribusi dalam mengurangi jumlah karakter yang diperlukan untuk merepresentasikan sebuah
+
+  alamat, membuatnya lebih mudah digunakan.

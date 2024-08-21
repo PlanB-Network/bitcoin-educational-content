@@ -1,0 +1,13 @@
+pertanyaan: Apa perbedaan antara alamat yang dimulai dengan bc1q dan bc1p dalam Bitcoin?
+jawaban: Alamat bc1q menggunakan Segwit V0, sementara alamat bc1p menggunakan Segwit V1.
+jawaban_salah:
+  - Alamat bc1q menggunakan Segwit V1, sementara alamat bc1p menggunakan Segwit V0.
+  - Baik alamat bc1q maupun bc1p menggunakan Segwit V0.
+  - Baik alamat bc1q maupun bc1p menggunakan Segwit V1.
+penjelasan: |
+  Untuk membangun alamat yang dimulai dengan bc1q, kita menggunakan Segwit V0. Alamat Taproot,
+
+  di sisi lain, dimulai dengan bc1p karena versinya (Segwit V1) sesuai
+
+  dengan 0+1=1, oleh karena itu penggunaan karakter p.'
+reviewed: false

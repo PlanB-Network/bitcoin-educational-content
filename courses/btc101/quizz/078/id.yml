@@ -1,0 +1,11 @@
+pertanyaan: Opsi mana yang salah ketika kehilangan perangkat tempat Anda menyimpan dompet Bitcoin Anda?
+jawaban: Anda dapat membuat ulang dompet Anda dan menggunakan bitcoin Anda dengan mereset kata sandi Anda
+jawaban_salah:
+  - Anda kehilangan semua Bitcoin Anda jika Anda tidak memiliki frasa mnemonik
+  - Anda dapat memverifikasi dengan kunci publik Anda bahwa bitcoin Anda belum berpindah
+  - Anda dapat membuat ulang dompet Anda dan menggunakan bitcoin Anda dengan frasa mnemonik
+penjelasan: |
+  Kehilangan perangkat tempat Anda menyimpan dompet Anda tidak selalu
+  berarti kehilangan Bitcoin Anda. Yang memungkinkan Anda untuk membuat ulang dompet Anda dan menggunakan
+  bitcoin Anda adalah frasa mnemonik.
+ditinjau: true

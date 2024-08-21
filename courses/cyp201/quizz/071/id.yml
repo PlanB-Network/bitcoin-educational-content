@@ -1,0 +1,9 @@
+pertanyaan: Bagaimana bit-bit ditransformasikan menjadi frasa dalam generasi frasa mnemonik untuk dompet Bitcoin?
+jawaban: Setiap segmen dikaitkan dengan sebuah kata dari daftar 2048 kata.
+jawaban_salah:
+  - Setiap bit dikaitkan dengan sebuah kata dari daftar 2048 kata.
+  - Setiap segmen dikaitkan dengan sebuah kata dari daftar 1024 kata.
+  - Setiap bit dikaitkan dengan sebuah kata dari daftar 1024 kata.
+penjelasan: |
+  Untuk mentransformasikan bit menjadi frasa, setiap segmen dikaitkan dengan sebuah kata dari daftar 2048 kata.
+ditinjau: false

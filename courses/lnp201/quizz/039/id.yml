@@ -1,0 +1,9 @@
+pertanyaan: Apa yang terjadi selama transaksi
+jawaban: Rahasia transaksi
+jawaban_salah:
+  - Rahasia transaksi
+  - Sebuah rahasia baru ditentukan dan kunci pembatalan baru dibuat.
+  - Transaksi komitmen sebelumnya diperbarui dengan rahasia baru dan kunci pembatalan.
+penjelasan: |
+  Selama transaksi
+ditinjau: false

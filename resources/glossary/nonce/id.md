@@ -1,0 +1,11 @@
+---
+term: NONCE
+---
+
+Dalam konteks komputasi, istilah "nonce" merujuk pada sebuah angka yang digunakan hanya sekali lalu digantikan. Angka tersebut seringkali acak atau pseudo-acak. Nonce digunakan dalam berbagai protokol kriptografi untuk memastikan keamanan proses tersebut. Sebagai contoh, tanda tangan ECDSA yang digunakan dalam protokol Bitcoin mencakup penggunaan nonce. Ini berarti bahwa angka tersebut harus baru untuk setiap tanda tangan. Jika ini tidak terjadi, maka dimungkinkan untuk menghitung kunci privat yang digunakan dengan membandingkan dua tanda tangan yang menggunakan nonce yang sama.
+
+Nonce juga digunakan dalam proses penambangan Bitcoin. Penambang meningkatkan nilai-nilai yang dapat dimodifikasi ini dalam blok kandidat mereka. Mereka memodifikasi nilai nonce untuk menemukan hash kriptografi yang lebih rendah dari atau sama dengan target kesulitan. Proses ini membutuhkan kekuatan komputasi yang signifikan, karena melibatkan pencarian menyeluruh di antara sejumlah besar nonce yang mungkin. Ketika seorang penambang menemukan nonce yang, ketika dimasukkan dalam blok mereka, menghasilkan digest yang memenuhi kriteria kesulitan, blok tersebut disiarkan ke jaringan, dan penambang memenangkan hadiah.
+
+> ► *Pada tahun 2010, peneliti menemukan bahwa PlayStation 3 milik Sony menggunakan nonce yang sama saat menandatangani paket kode yang berbeda. Penggunaan kembali nonce ini memungkinkan penyerang untuk menghitung kunci privat yang digunakan untuk menandatangani perangkat lunak. Dengan kunci privat di tangan, penyerang dapat membuat tanda tangan yang valid untuk kode apa pun, memungkinkan mereka untuk menjalankan perangkat lunak yang tidak sah, termasuk permainan bajakan atau sistem operasi kustom, langsung di PS3.*
+
+> ► *Ada kesalahpahaman umum tentang asal usul istilah "nonce." Beberapa orang mengklaim itu mewakili singkatan dari "number only used once." Pada kenyataannya, asal usul kata tersebut berasal dari abad ke-18 dan datang dari evolusi semantik dari ekspresi Bahasa Inggris Kuno "then anes," yang berarti "untuk kesempatan itu."*

@@ -1,0 +1,10 @@
+pertanyaan: Siapa yang memulai proses pembukaan saluran di Lightning Network?
+jawaban: Alice
+jawaban_salah:
+  - Bob
+  - Alice dan Bob
+  - Tidak Alice maupun Bob
+penjelasan: |
+  Dalam proses pembukaan saluran di Lightning Network, Alice adalah
+  orang yang memulai proses tersebut. Dia menyampaikan niatnya untuk membuka saluran
+  kepada Bob, yang memberikan alamat publiknya sebagai respons.

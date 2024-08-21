@@ -1,0 +1,11 @@
+pertanyaan: Apa yang terjadi dalam penutupan paksa saluran?
+jawaban: Semua transaksi HTLC yang sedang berlangsung dipublikasikan, yang bisa menjadi sangat mahal dan berantakan.
+jawaban_salah:
+  - Pembayaran terganggu dan HTLC diselesaikan, yang umumnya kurang mahal.
+  - Saluran langsung ditutup tanpa langkah tambahan.
+  - Semua transaksi HTLC yang sedang berlangsung dibatalkan.
+penjelasan: |
+  Dalam penutupan paksa, semua transaksi HTLC yang sedang berlangsung dipublikasikan. Ini
+  bisa menjadi sangat mahal dan berantakan karena kompleksitas dan jumlah transaksi
+  yang terlibat.
+ditinjau: false

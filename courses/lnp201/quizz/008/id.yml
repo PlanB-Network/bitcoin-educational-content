@@ -1,0 +1,14 @@
+pertanyaan:
+  Apakah kapasitas dari sebuah saluran pembayaran Lightning membatasi jumlah total
+  transaksi atau total volume Bitcoin yang dapat ditransmisikan melalui
+  saluran tersebut?
+jawaban: Ini salah
+jawaban_salah:
+  - Ini benar
+  - Ini hanya benar dalam beberapa kasus
+  - Ini tergantung pada jaringan Bitcoin
+penjelasan: |
+  Meskipun kapasitas dari sebuah saluran pembayaran Lightning itu tetap, hal ini
+  tidak membatasi jumlah total transaksi atau total volume Bitcoin yang dapat
+  ditransmisikan melalui saluran tersebut.
+ditinjau: false

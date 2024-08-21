@@ -1,0 +1,5 @@
+---
+term: ZEROCONF
+---
+
+Praktik berisiko memperlakukan transaksi Bitcoin sebagai final, dan melanjutkan eksekusi tindakan yang terkait sebagai balasannya (seperti penjualan barang atau jasa), sebelum transaksi tersebut benar-benar dimasukkan dalam sebuah blok di blockchain. Transaksi yang belum dikonfirmasi, atau zeroconf, rentan terhadap serangan double-spend, karena mereka belum tercatat secara tak terbalikkan dalam buku besar. Zeroconf mungkin dipertimbangkan dalam konteks yang sangat spesifik, di mana kecepatan menjadi prioritas, seperti dalam kasus transaksi komersial kecil atau dalam kasus transaksi antar kenalan. Dalam situasi ini, risiko double spending seringkali dianggap dapat diterima dibandingkan dengan manfaat transaksi yang cepat. Namun demikian, untuk transaksi yang signifikan, terutama ketika pengirim tidak dikenal, sangat penting untuk menunggu beberapa konfirmasi sebelum menganggap transaksi sebagai tidak dapat diubah. Standar yang umum diterima adalah menunggu 6 konfirmasi, yang berarti 5 blok tambahan harus ditambang setelah yang menyertakan transaksi, untuk menganggapnya sebagai final.

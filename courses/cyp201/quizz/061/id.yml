@@ -1,0 +1,10 @@
+pertanyaan: Mengapa disarankan untuk menggunakan dompet open-source untuk transaksi Bitcoin?
+jawaban: Mereka memungkinkan verifikasi dari generasi nomor acak.
+jawaban_salah:
+  - Mereka lebih murah daripada dompet closed-source.
+  - Mereka lebih cepat daripada dompet closed-source.
+  - Mereka lebih aman daripada dompet closed-source.
+penjelasan: |
+  Dompet open-source memungkinkan pengguna untuk memverifikasi generasi dari
+  nomor acak, yang merupakan langkah penting dalam memastikan keamanan kunci privat dan transaksi
+  Bitcoin.

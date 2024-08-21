@@ -1,0 +1,10 @@
+pertanyaan: Apa itu Lightning Network?
+jawaban: Infrastruktur pembayaran lapis kedua yang dibangun di atas jaringan Bitcoin yang memungkinkan transaksi cepat dan biaya rendah
+jawaban_salah:
+  - Sejenis dompet Bitcoin
+  - Metode menambang Bitcoin
+  - Sejenis bursa Bitcoin
+penjelasan: |
+  Lightning Network adalah infrastruktur pembayaran lapis kedua yang dibangun
+  di atas jaringan Bitcoin yang memungkinkan transaksi cepat dan biaya rendah.
+ditinjau: false

@@ -1,0 +1,10 @@
+pertanyaan: Apa tujuan dari kunci ekstended dalam dompet HD?
+jawaban: Digunakan untuk menurunkan kunci anak.
+jawaban_salah:
+  - Digunakan untuk menghasilkan kunci induk.
+  - Digunakan untuk mengenkripsi dompet.
+  - Digunakan untuk memverifikasi transaksi.
+penjelasan: |
+  Kunci ekstended digunakan untuk menurunkan kunci anak dan memerlukan baik kunci
+
+  induk maupun kode rantai yang sesuai.

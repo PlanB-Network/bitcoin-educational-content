@@ -1,0 +1,11 @@
+pertanyaan: Apa arti jumlah konfirmasi dalam transaksi Bitcoin?
+jawaban: Semakin banyak konfirmasi yang dimiliki sebuah transaksi, semakin tidak dapat diubah transaksi tersebut.
+jawaban_salah:
+  - Semakin banyak konfirmasi yang dimiliki sebuah transaksi, semakin berharga transaksi tersebut.
+  - Semakin banyak konfirmasi yang dimiliki sebuah transaksi, semakin cepat transaksi tersebut diproses.
+  - Semakin banyak konfirmasi yang dimiliki sebuah transaksi, semakin tidak aman transaksi tersebut.
+penjelasan: >-
+  Jumlah konfirmasi dalam transaksi Bitcoin menunjukkan berapa banyak
+  blok yang telah ditambang di atas blok yang mengandung transaksi tersebut. Semakin
+  banyak konfirmasi yang dimiliki sebuah transaksi, semakin tidak dapat diubah transaksi tersebut.
+ditinjau: false

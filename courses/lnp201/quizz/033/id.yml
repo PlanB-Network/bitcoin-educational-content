@@ -1,0 +1,10 @@
+pertanyaan: Siapa yang dapat menggunakan kunci pembatalan sebelum akhir dari Timelock?
+jawaban: Orang yang menerima uang.
+jawaban_salah:
+  - Orang yang membuat transaksi dengan Timelock.
+  - Kedua belah pihak dapat menggunakan kunci pembatalan sebelum akhir dari Timelock.
+  - Tidak ada pihak yang dapat menggunakan kunci pembatalan sebelum akhir dari Timelock.
+penjelasan: |
+  Orang yang menerima uang dapat menggunakan kunci pembatalan sebelum
+  akhir dari Timelock dalam kasus kecurangan dari satu sisi ke sisi lain dari sebuah saluran
+  di Jaringan Lightning.

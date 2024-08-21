@@ -1,0 +1,11 @@
+pertanyaan: Apa tujuan dari dompet "dingin" dalam Bitcoin?
+jawaban: Untuk menyimpan Bitcoin secara aman.
+jawaban_salah:
+  - Untuk menambang Bitcoin baru.
+  - Untuk berdagang Bitcoin.
+  - Untuk mengonversi Bitcoin ke dalam kriptokurensi lain.
+penjelasan: |
+  Dompet "dingin", yang juga dikenal sebagai dompet perangkat keras, adalah perangkat yang dirancang
+  untuk menyimpan Bitcoin secara aman. Ini tidak digunakan untuk menambang Bitcoin baru, berdagang Bitcoin,
+  atau mengonversi Bitcoin ke dalam kriptokurensi lain.
+ditinjau: false

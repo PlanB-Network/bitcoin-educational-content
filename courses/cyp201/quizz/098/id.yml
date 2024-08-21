@@ -1,0 +1,8 @@
+pertanyaan: Algoritma apa yang digunakan untuk menghasilkan kunci publik?
+jawaban: ECDSA (Elliptic Curve Digital Signature Algorithm)
+jawaban_salah:
+  - "RSA (Rivest–Shamir–Adleman)"
+  - SHA-256 (Secure Hash Algorithm 256)
+  - AES (Advanced Encryption Standard)
+penjelasan: |
+  Kunci publik dihasilkan menggunakan algoritma ECDSA (Elliptic Curve Digital Signature Algorithm).

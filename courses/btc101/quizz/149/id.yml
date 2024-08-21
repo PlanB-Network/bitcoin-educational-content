@@ -1,0 +1,10 @@
+pertanyaan: Apa itu Jaringan Lightning?
+jawaban: Sebuah jaringan pembayaran Bitcoin instan yang menggunakan blockchain Bitcoin
+jawaban_salah:
+  - Sebuah jaringan blockchain terpisah dari blockchain Bitcoin
+  - Sebuah jaringan penambang Bitcoin
+  - Sebuah jaringan pertukaran Bitcoin
+penjelasan: >-
+  Jaringan Lightning adalah sebuah jaringan pembayaran Bitcoin instan yang menggunakan
+  blockchain Bitcoin.
+ditinjau: false

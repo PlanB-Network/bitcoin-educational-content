@@ -1,0 +1,14 @@
+pertanyaan: Apa alternatif untuk KYC penuh di Swiss?
+jawaban: KYC ringan
+jawaban_salah:
+  - KYC berat
+  - KYC sedang
+  - KYC gelap
+penjelasan: |
+  Di Swiss, alternatif untuk KYC penuh adalah "KYC ringan" yang memungkinkan
+
+
+  pembelian dan penjualan bitcoin tanpa menyediakan identifikasi, selama
+
+
+  jumlah pembelian tidak melebihi 1000 euro per hari.

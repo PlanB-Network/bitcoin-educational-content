@@ -1,0 +1,5 @@
+---
+term: BIP23
+---
+
+BIP ini merupakan perluasan dari BIP22, bertujuan untuk mendorong adopsinya oleh perangkat lunak yang digunakan oleh kolam penambangan, khususnya oleh protokol Getwork, pendahulu dari Stratum. Diusulkan oleh Luke Dashjr, perluasan ini berusaha untuk mengintegrasikan standar BIP22 ke dalam Getwork secara default, untuk memfasilitasi adopsinya oleh kolam penambangan. Tujuan utama dari BIP23 adalah untuk mentransmisikan seluruh template blok kepada penambang, sehingga memungkinkan mereka untuk mengaudit dan mungkin memodifikasi struktur blok yang diusulkan oleh kolam. Pendekatan ini bertujuan untuk mengurangi kekhawatiran terkait dengan sentralisasi penambangan, dengan memberikan kontrol yang lebih besar dan transparansi yang lebih baik kepada penambang individu atas proses pembuatan blok.

@@ -1,0 +1,8 @@
+pertanyaan: Apa tujuan dari Timelock dalam transaksi komitmen?
+jawaban: Ia mengunci dana sampai blok tertentu.
+jawaban_salah:
+  - Ia mengunci transaksi sampai blok tertentu.
+  - Ia mengunci saluran sampai blok tertentu.
+  - Ia mengunci kunci pembatalan sampai blok tertentu.
+penjelasan: |
+  Timelock dalam transaksi komitmen mengunci dana sampai blok tertentu. Ini mencegah pihak yang membuat transaksi dari segera mendapatkan kembali uang mereka.

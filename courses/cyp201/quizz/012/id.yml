@@ -1,0 +1,9 @@
+pertanyaan: Apa peran operator XOR dalam fungsi kompresi SHA256?
+jawaban: Untuk memproses bit demi bit sesuai dengan urutannya
+jawaban_salah:
+  - Untuk mengembalikan 1 hanya jika kedua operand sama dengan 1
+  - Untuk mengembalikan nilai berlawanan dari sebuah operand
+  - Untuk menggeser bit ke kanan sejumlah pilihan
+penjelasan: |
+  Dalam fungsi kompresi SHA256, operator XOR digunakan untuk memproses
+  bit demi bit sesuai dengan urutannya. Ini dilakukan menggunakan tabel kebenaran.

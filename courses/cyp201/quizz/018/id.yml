@@ -1,0 +1,11 @@
+pertanyaan: Apa tujuan dari HMAC dalam protokol Bitcoin?
+jawaban: Digunakan untuk mengatasi serangan perpanjangan panjang saat menghasilkan dompet deterministik hierarkis (HD).
+jawaban_salah:
+  - Digunakan untuk mengubah frasa mnemonik menjadi seed.
+  - Digunakan untuk menghasilkan output berukuran tetap.
+  - Digunakan untuk menambahkan sumber entropi tambahan dalam derivasi kunci.
+penjelasan: |
+  HMAC terutama digunakan untuk mengatasi serangan perpanjangan panjang saat menghasilkan
+  dompet deterministik hierarkis (HD). Ini mengambil pesan dan kunci sebagai input
+  dan menghasilkan output berukuran tetap.
+ditinjau: false

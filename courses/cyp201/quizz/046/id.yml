@@ -1,0 +1,10 @@
+pertanyaan: Apa arti dari titik di tak hingga dalam algoritma ECDSA?
+jawaban: Jika titik yang dihitung P adalah titik di tak hingga, tanda tangan dianggap tidak valid.
+jawaban_salah:
+  - Jika titik yang dihitung P adalah titik di tak hingga, tanda tangan dianggap valid.
+  - Titik di tak hingga digunakan untuk menghitung nonce.
+  - Titik di tak hingga digunakan untuk mengenkripsi kunci.
+penjelasan: |
+  Dalam algoritma ECDSA, jika titik yang dihitung P pada kurva eliptik
+  adalah titik di tak hingga, tanda tangan dianggap tidak valid. Ini adalah salah satu
+  pemeriksaan yang dilakukan selama validasi tanda tangan digital.

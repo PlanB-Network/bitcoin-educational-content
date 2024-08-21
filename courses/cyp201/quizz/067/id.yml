@@ -1,0 +1,9 @@
+pertanyaan: Bagaimana cara menentukan ukuran checksum dalam pembuatan frasa mnemonik untuk dompet Bitcoin?
+jawaban: Dengan membagi ukuran entropi dengan 32.
+jawaban_salah:
+  - Dengan mengalikan ukuran entropi dengan 32.
+  - Dengan menambahkan 32 ke ukuran entropi.
+  - Dengan mengurangi 32 dari ukuran entropi.
+penjelasan: |
+  Ukuran checksum ditentukan dengan membagi ukuran entropi dengan 32. Sebagai contoh, entropi 256-bit menghasilkan checksum 8-bit.
+ditinjau: false

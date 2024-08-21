@@ -1,0 +1,11 @@
+pertanyaan: Berapa banyak putaran perhitungan yang dilakukan dalam fungsi kompresi
+  dari SHA256?
+jawaban: 64
+jawaban_salah:
+  - 32
+  - 128
+  - 256
+penjelasan: |
+  Dalam fungsi kompresi dari SHA256, dilakukan 64 putaran perhitungan.
+  Seperti dalam balapan sepeda, setiap putaran meningkatkan posisi dari fungsi tersebut.
+ditinjau: false

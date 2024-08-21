@@ -1,0 +1,11 @@
+pertanyaan: Apa persamaan yang mendefinisikan kurva eliptik?
+jawaban: "y² = x³ + ax + b"
+jawaban_salah:
+  - "y² = x³ + ax"
+  - "y² = x³ + b"
+  - "y² = x³ + ax - b"
+penjelasan: |
+  "Kurva eliptik didefinisikan oleh persamaan y² = x³ + ax + b.\
+  \ Setiap titik pada kurva ini memiliki simetri yang khas yang merupakan kunci kegunaannya\
+  \ dalam kriptografi."
+ditinjau: false

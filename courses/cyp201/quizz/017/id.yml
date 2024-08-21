@@ -1,0 +1,12 @@
+pertanyaan: Apa keuntungan utama dari fungsi hash SHA256?
+jawaban: Ketahanannya untuk menemukan input dari hash, sementara memverifikasi hash untuk input yang diberikan adalah tindakan yang secara mekanis sederhana
+jawaban_salah:
+  - Kemampuannya untuk menghasilkan hash 512-bit dari input berukuran variabel
+  - Penggunaannya pada bit padding untuk meningkatkan ukuran input
+  - Penggunaannya pada operator XOR, AND, dan NOT untuk memproses bit-bit
+penjelasan: |
+  Keuntungan utama dari fungsi hash SHA256 adalah ketahanannya untuk menemukan
+  input dari hash, sementara memverifikasi hash untuk input yang diberikan adalah tindakan
+  yang secara mekanis sederhana. Ini membuatnya menjadi pilihan yang disukai untuk mengamankan berbagai sistem digital,
+  terutama dalam protokol Bitcoin.
+reviewed: false

@@ -1,0 +1,10 @@
+pertanyaan: Apa yang terjadi pada transaksi penarikan setelah transfer Jaringan Lightning?
+jawaban: Ini diperbarui untuk mencerminkan saldo baru dari saluran tersebut.
+jawaban_salah:
+  - Ini dieksekusi dan dana ditransfer.
+  - Ini dibuang dan transaksi baru dibuat.
+  - Ini tetap sama.
+penjelasan: |
+  Setelah transfer Jaringan Lightning, transaksi penarikan diperbarui
+  untuk mencerminkan saldo baru dari saluran tersebut. Transaksi ini tidak dieksekusi kecuali
+  saluran ditutup.

@@ -1,0 +1,11 @@
+pertanyaan: Apa metode standar untuk membackup kunci privat dalam dompet Bitcoin?
+jawaban: Memasukkan frasa mnemonik Anda ke dalam perangkat lunak dompet apa pun
+jawaban_salah:
+  - Menyimpan frasa mnemonik Anda dalam file digital
+  - Menulis frasa mnemonik Anda di papan tulis
+  - Berbagi frasa mnemonik Anda dengan teman yang dipercaya
+penjelasan: |
+  Metode standar untuk membackup kunci privat dalam dompet Bitcoin
+  adalah dengan memasukkan frasa mnemonik Anda ke dalam perangkat lunak dompet apa pun. Ini memungkinkan Anda untuk
+  mengembalikan dompet Anda.
+ditinjau: true

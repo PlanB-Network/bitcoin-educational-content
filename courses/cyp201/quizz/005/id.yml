@@ -1,0 +1,12 @@
+pertanyaan: Apa tujuan utama dari fungsi hash kriptografi?
+jawaban: Untuk mengubah informasi berukuran sembarang menjadi sidik jari berukuran tetap.
+jawaban_salah:
+  - Untuk mengenkripsi data agar transmisi aman.
+  - Untuk menghasilkan kunci unik untuk setiap pengguna.
+  - Untuk mengompres data agar penyimpanannya efisien.
+penjelasan: |
+  Tujuan utama dari fungsi hash kriptografi adalah untuk mengubah
+  informasi berukuran sembarang
+  menjadi sidik jari berukuran tetap. Sidik jari ini unik untuk data masukan,
+  dan bahkan perubahan kecil pada data masukan akan menghasilkan sidik jari yang sangat berbeda.
+ditinjau: false

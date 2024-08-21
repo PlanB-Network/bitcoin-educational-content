@@ -1,0 +1,8 @@
+pertanyaan: Berapa ukuran kunci privat Bitcoin?
+jawaban: Angka 256-bit
+jawaban_salah:
+  - Angka 512-bit
+  - Angka 128-bit
+  - Angka 1024-bit
+penjelasan: |
+  Dalam sistem Bitcoin, kunci privat adalah angka acak atau pseudo-acak 256-bit.

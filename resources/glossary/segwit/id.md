@@ -1,0 +1,7 @@
+---
+term: SEGWIT
+---
+
+SegWit, singkatan dari "Segregated Witness," adalah pembaruan pada protokol Bitcoin yang diperkenalkan pada Agustus 2017. Tujuannya adalah untuk menyelesaikan beberapa masalah teknis, termasuk masalah kapasitas transaksi jaringan, masalah malleability transaksi, dan memfasilitasi modifikasi protokol di masa depan.
+
+Soft fork ini memodifikasi struktur transaksi dengan memindahkan data tanda tangan ke direktori terpisah. Secara spesifik, dengan SegWit, tanda tangan dihapus dari blok utama dan dimasukkan ke dalam struktur data terpisah di akhir blok, yang dikenal sebagai saksi. Pemisahan ini memungkinkan peningkatan kapasitas setiap blok tanpa mengubah ukuran blok maksimum itu sendiri, yang adalah 1 MB pada Bitcoin. Perubahan ini juga menyelesaikan masalah malleability transaksi. Sebelum SegWit, tanda tangan bisa diubah sebelum transaksi dikonfirmasi, yang mengubah pengidentifikasi transaksi. Hal ini membuat sulit untuk membangun transaksi yang kompleks, karena transaksi yang belum dikonfirmasi bisa memiliki pengidentifikasinya diubah. Dengan memisahkan tanda tangan, SegWit membuat transaksi tidak dapat dimanipulasi, karena perubahan apa pun pada tanda tangan sekarang hanya mempengaruhi pengidentifikasi saksi (WTXID), bukan pengidentifikasi transaksi (TXID). Dengan menyelesaikan masalah malleability, SegWit telah membuka jalan untuk pengembangan lebih lanjut di atas sistem Bitcoin, terutama Lightning Network, yang memungkinkan transaksi cepat dan biaya rendah.

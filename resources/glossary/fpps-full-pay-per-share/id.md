@@ -1,0 +1,5 @@
+---
+term: FPPS (FULL PAY PER SHARE)
+---
+
+Metode untuk menghitung kompensasi penambang dalam kolam penambangan. Ini merupakan evolusi dari metode PPS (*Pay Per Share*). Metode ini mengkompensasi penambang tidak hanya untuk setiap saham yang valid yang mereka kirimkan tetapi juga termasuk bagian dari hadiah blok. Kompensasi dihitung berdasarkan rata-rata transaksi sebelumnya dan hashrate kolam. Dengan demikian, penambang menerima hadiah untuk saham yang dikirimkan, apakah blok ditemukan atau tidak, tetapi metode ini juga mengkompensasi untuk nilai yang diharapkan. Ini menawarkan kompensasi yang stabil dan dapat diprediksi untuk penambang, karena menghilangkan varians yang terkait dengan probabilitas menemukan blok, sambil memaparkan mereka pada fluktuasi biaya pasar. Namun, ini lebih berisiko bagi operator kolam, karena mereka harus membayar penambang bahkan ketika tidak ada blok yang ditemukan, dengan demikian menyerap risiko varians.

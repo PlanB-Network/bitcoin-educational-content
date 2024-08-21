@@ -1,0 +1,11 @@
+pertanyaan: Mengapa algoritma HMAC SHA-512 digunakan dalam pembuatan kunci privat utama dan kode rantai utama?
+jawaban: Karena fungsi SHA-512 tidak awalnya diimplementasikan dalam protokol Bitcoin.
+jawaban_salah:
+  - Karena itu adalah satu-satunya algoritma yang dapat menghasilkan angka 512-bit.
+  - Karena itu adalah algoritma yang paling aman.
+  - Karena itu adalah algoritma yang paling mudah digunakan.
+penjelasan: |
+  Awalnya, fungsi SHA-512 tidak diimplementasikan dalam protokol Bitcoin,
+  itulah sebabnya HMAC SHA-512 digunakan. Algoritma ini memerlukan sebuah pesan dan kunci untuk
+  menghasilkan sebuah hasil.
+ditinjau: false

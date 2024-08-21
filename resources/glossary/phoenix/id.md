@@ -1,0 +1,5 @@
+---
+term: PHOENIX
+---
+
+Sebuah perangkat lunak dompet seluler self-custodial yang dirancang untuk menyederhanakan dan membuat transaksi pada protokol Lightning lebih mudah diakses. Pengguna dapat mengelola dana mereka langsung dari perangkat seluler mereka tanpa perlu terhubung ke node Lightning terpisah. Phoenix sebenarnya beroperasi sebagai node Lightning mandiri lengkap di telepon (implementasi lightning). Ini mendukung transaksi Bitcoin dan Lightning serta menawarkan fitur untuk memudahkan manajemen node, seperti manajemen saluran otomatis dengan node Acinq. Berbeda dengan aplikasi dompet Lightning lainnya yang kebanyakan bersifat custodial, Phoenix menawarkan kompromi menarik dengan menggabungkan penggunaan node Lightning dengan kenyamanan aplikasi smartphone. Ini adalah salah satu solusi sederhana terbaik bagi pemula yang ingin menggunakan Lightning sambil tetap memiliki kepemilikan penuh atas bitcoin mereka (self-custody). Phoenix adalah proyek yang dikembangkan dan dipelihara oleh perusahaan Prancis Acinq.

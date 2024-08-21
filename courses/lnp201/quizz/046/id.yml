@@ -1,0 +1,12 @@
+pertanyaan: Apa tujuan dari kunci pembatalan dalam Lightning Network?
+jawaban: Untuk menghukum peserta yang mencoba curang dengan mempublikasikan transaksi komitmen lama.
+jawaban_salah:
+  - Untuk memberi hadiah kepada peserta yang berhasil curang.
+  - Untuk membuka saluran baru.
+  - Untuk memvalidasi transaksi.
+penjelasan: |
+  Kunci pembatalan adalah mekanisme dalam Lightning Network untuk mencegah
+  kecurangan. Jika seorang peserta mencoba curang dengan mempublikasikan transaksi komitmen lama,
+  peserta lain dapat menggunakan kunci pembatalan untuk menghukum penipu dan mengambil
+  semua SAT dari saluran tersebut.
+direview: false

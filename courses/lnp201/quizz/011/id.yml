@@ -1,0 +1,11 @@
+pertanyaan: Apa itu alamat multi-tanda tangan dalam konteks Jaringan Lightning?
+jawaban: Alamat yang memerlukan dua tanda tangan untuk membuka dana.
+jawaban_salah:
+  - Alamat yang dapat digunakan oleh banyak pengguna.
+  - Alamat yang dapat menyimpan berbagai jenis mata uang kripto.
+  - Alamat yang dapat diakses dari berbagai perangkat.
+penjelasan: |
+  Dalam Jaringan Lightning, alamat multi-tanda tangan digunakan. Alamat-alamat ini
+  memerlukan dua tanda tangan, atau dua kunci privat, untuk membuka dana. Ini berarti bahwa
+  dua pihak harus setuju untuk membuka uang tersebut.
+ditinjau: false

@@ -1,0 +1,11 @@
+pertanyaan: Apa tiga tipe orang di Jaringan Lightning?
+jawaban: Pembeli, pedagang, dan node perutean
+jawaban_salah:
+  - Pembeli, penjual, dan perantara
+  - Pengguna, pedagang, dan node
+  - Pembeli, pedagang, dan penambang
+penjelasan: |
+  Di Jaringan Lightning, ada tiga tipe orang; pembeli, yang
+  membutuhkan likuiditas keluar; pedagang, yang membutuhkan likuiditas masuk; dan node perutean,
+  yang bertujuan untuk seimbang dengan likuiditas di kedua sisi.
+ditinjau: false

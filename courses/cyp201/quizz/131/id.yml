@@ -1,0 +1,12 @@
+pertanyaan: Apa tujuan dari ekspansi HRP dalam alamat Bitcoin?
+jawaban: Ini memungkinkan isolasi lima bit terakhir dari setiap karakter, sehingga memperkuat checksum.
+jawaban_salah:
+  - Ini meningkatkan ukuran alamat.
+  - Ini mengenkripsi alamat untuk tujuan keamanan.
+  - Ini memungkinkan koreksi kesalahan dalam alamat.
+penjelasan: |
+  Ekspansi HRP melibatkan pengkodean setiap huruf dalam basis 2, mengambil
+
+  tiga bit pertama dari setiap karakter dengan memasukkan pemisah 0, dan kemudian menggabungkan
+
+  lima bit terakhir dari setiap karakter. Proses ini memperkuat checksum.

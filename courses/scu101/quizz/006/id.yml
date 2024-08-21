@@ -1,0 +1,11 @@
+pertanyaan: Apa itu cookies dalam konteks penjelajahan online?
+jawaban: Berkas yang dibuat oleh situs web untuk menyimpan informasi pada perangkat Anda.
+jawaban_salah:
+  - Potongan kecil data yang dikirim dari sebuah situs web dan disimpan di komputer pengguna oleh peramban web pengguna.
+  - Program yang melacak aktivitas online Anda.
+  - Virus yang dapat merusak perangkat Anda.
+penjelasan: |
+  Dalam konteks penjelajahan online, cookies adalah berkas yang dibuat oleh situs web
+  untuk menyimpan informasi pada perangkat Anda. Mereka digunakan untuk mengingat preferensi Anda,
+  informasi login, dan data lainnya untuk meningkatkan pengalaman penjelajahan Anda.
+ditinjau: false

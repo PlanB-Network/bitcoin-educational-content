@@ -1,0 +1,10 @@
+pertanyaan: Apa peran BIP38 dalam ekosistem Bitcoin?
+jawaban: Ini mengusulkan penambahan passphrase tambahan untuk memperkuat keamanan kunci individu.
+jawaban_salah:
+  - Ini memperkenalkan frasa mnemonik 24 kata.
+  - Ini merevolusi cara kunci dihasilkan dan disimpan.
+  - Ini menstandarkan struktur dan hierarki dompet HD.
+penjelasan: |
+  BIP38 mengusulkan penambahan passphrase tambahan untuk memperkuat keamanan
+  kunci individu. Ini adalah salah satu dari banyak perbaikan yang dibuat untuk meningkatkan keamanan
+  dan fungsionalitas dompet HD.

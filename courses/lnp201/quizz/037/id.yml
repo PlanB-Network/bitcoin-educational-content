@@ -1,0 +1,12 @@
+pertanyaan: Apakah seseorang dapat berbuat curang dengan mempublikasikan keadaan lama dalam transaksi komitmen?
+jawaban: "Ya"
+jawaban_salah:
+  - "Tidak"
+  - Hanya jika mereka memiliki kunci pembatalan.
+  - Hanya jika mereka membuat transaksi dengan Timelock.
+penjelasan: |
+  Seseorang dapat berbuat curang dengan mempublikasikan keadaan lama dalam transaksi komitmen
+  karena kedua peserta memiliki pra-tanda tangan dari transaksi yang belum dipublikasikan.
+  Namun, ada tindakan pencegahan seperti Timelock dan kunci pembatalan yang ditempatkan untuk mencegah
+  hal ini.
+ditinjau: false

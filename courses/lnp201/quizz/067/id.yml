@@ -1,0 +1,12 @@
+pertanyaan: Faktor-faktor apa yang dipertimbangkan saat memperkirakan rute paling mungkin berhasil di Jaringan Lightning?
+jawaban: Biaya, waktu kedaluwarsa HTLC, jumlah node perantara, dan faktor keacakan.
+jawaban_salah:
+  - Ukuran transaksi, tinggi blok, dan biaya transaksi.
+  - Biaya transaksi, ukuran blok, dan waktu konfirmasi transaksi.
+  - Waktu konfirmasi transaksi, tinggi blok, dan ukuran transaksi.
+penjelasan: |
+  Saat memperkirakan rute paling mungkin berhasil di Jaringan Lightning,
+  node mempertimbangkan beberapa faktor. Ini termasuk biaya yang terkait dengan setiap rute,
+  waktu kedaluwarsa dari HTLC, jumlah node perantara, dan faktor keacakan
+  untuk menghindari selalu menggunakan rute yang sama.
+ditinjau: false

@@ -1,0 +1,11 @@
+pertanyaan: Apa peran dari passphrase dalam dompet Bitcoin?
+jawaban: Ini meningkatkan keamanan dompet
+jawaban_salah:
+  - Ini menurunkan keamanan dompet
+  - Ini tidak memiliki efek pada keamanan dompet
+  - Ini membuat dompet lebih ramah pengguna
+penjelasan: |
+  Passphrase adalah kata sandi tambahan yang dapat diintegrasikan ke dalam
+  dompet Bitcoin untuk meningkatkan keamanannya. Dengan menambahkan informasi sembarang yang,
+  bersama dengan frasa mnemonik, memungkinkan perhitungan seed dompet,
+  passphrase meningkatkan keamanannya.

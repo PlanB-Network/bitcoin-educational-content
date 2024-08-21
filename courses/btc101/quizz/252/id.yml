@@ -1,0 +1,11 @@
+pertanyaan: Apa salah satu manfaat utama Bitcoin bagi orang tanpa rekening bank?
+jawaban: Bitcoin memungkinkan kesetaraan dalam transaksi, tanpa memandang status sosial atau posisi politik Anda.
+jawaban_salah:
+  - Bitcoin memungkinkan ketidaksetaraan dalam transaksi.
+  - Bitcoin hanya menguntungkan orang dengan rekening bank.
+  - Bitcoin hanya menguntungkan orang dengan status sosial tinggi.
+penjelasan: >-
+  Teks tersebut menyebutkan bahwa ada 2,4 miliar orang di dunia tanpa
+  rekening bank, dan Bitcoin memungkinkan kesetaraan dalam transaksi, tanpa memandang
+  status sosial atau posisi politik Anda.
+ditinjau: false

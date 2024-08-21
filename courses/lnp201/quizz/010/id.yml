@@ -1,0 +1,9 @@
+pertanyaan: Apa yang terjadi pada semua bitcoin dalam sebuah transaksi Bitcoin?
+jawaban: Semuanya harus berpindah.
+jawaban_salah:
+  - Semuanya dikonversi menjadi mata uang fiat.
+  - Semuanya disimpan di alamat baru.
+  - Semuanya dibagi rata di antara para peserta.
+penjelasan: |
+  Dalam sebuah transaksi Bitcoin, semua bitcoin harus berpindah. Ini disebut sebagai UTXO (Unspent Transaction Output), di mana bit-bit bitcoin akan semua meninggalkan hanya untuk kembali ke pemilik setelahnya.
+ditinjau: false

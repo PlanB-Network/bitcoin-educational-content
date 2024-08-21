@@ -1,0 +1,9 @@
+pertanyaan: Apa tujuan dari fungsi hash SHA-256 dalam menghasilkan nomor acak yang baik?
+jawaban: Ia mereduksi sepotong informasi awal yang sangat besar menjadi 256 bit.
+jawaban_salah:
+  - Ia meningkatkan ukuran dari informasi awal.
+  - Ia mengenkripsi informasi awal.
+  - Ia memverifikasi keaslian dari informasi awal.
+penjelasan: |
+  Fungsi hash SHA-256 digunakan untuk mereduksi sepotong informasi awal yang sangat besar menjadi 256 bit. Proses ini membantu dalam menghasilkan nomor acak yang baik,
+  yang sangat penting untuk keamanan kunci privat dan transaksi Bitcoin.

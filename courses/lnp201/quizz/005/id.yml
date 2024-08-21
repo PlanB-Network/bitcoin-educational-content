@@ -1,0 +1,11 @@
+pertanyaan: Apa saja manfaat dari saluran pembayaran Lightning?
+jawaban: Mereka memungkinkan pengguna untuk mengirim dan menerima Bitcoin tanpa harus membayar biaya transaksi yang tinggi atau menunggu periode konfirmasi yang lama di jaringan Bitcoin
+jawaban_salah:
+  - Mereka memungkinkan pengguna untuk menambang Bitcoin lebih efisien
+  - Mereka memungkinkan pengguna untuk menyimpan Bitcoin dengan lebih aman
+  - Mereka memungkinkan pengguna untuk menukar Bitcoin dengan mata uang kripto lainnya
+penjelasan: |
+  Saluran pembayaran Lightning adalah cara yang efisien untuk melakukan transaksi Bitcoin yang cepat dan
+  murah. Mereka memungkinkan pengguna untuk mengirim dan menerima Bitcoin tanpa harus
+  membayar biaya transaksi yang tinggi atau menunggu periode konfirmasi yang lama di jaringan Bitcoin.
+ditinjau: false

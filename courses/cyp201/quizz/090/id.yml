@@ -1,0 +1,8 @@
+pertanyaan: Apa frasa yang digunakan bersama dengan algoritma HMAC SHA-512 untuk menghitung kunci privat utama?
+jawaban: Bitcoin SEED
+jawaban_salah:
+  - Bitcoin KEY
+  - Bitcoin WALLET
+  - Bitcoin HASH
+penjelasan: |
+  Kunci privat utama dihitung dari seed dan frasa "Bitcoin SEED". Frasa ini identik untuk semua derivasi dompet HD, memastikan konsistensi di seluruh dompet.

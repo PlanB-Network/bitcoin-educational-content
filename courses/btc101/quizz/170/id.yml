@@ -1,0 +1,8 @@
+pertanyaan: Apa keuntungan utama dari mesin SHA256 khusus, atau ASICS, dalam penambangan Bitcoin?
+jawaban: Mereka meningkatkan laju hash per joule
+jawaban_salah:
+  - Mereka mengurangi konsumsi energi
+  - Mereka meningkatkan kecepatan transaksi
+  - Mereka meningkatkan keamanan jaringan
+penjelasan: >-
+  Mesin SHA256 khusus, atau ASICS, meningkatkan laju hash per joule dalam penambangan Bitcoin. Ini berarti jumlah percobaan per detik dan per energi yang dikonsumsi.

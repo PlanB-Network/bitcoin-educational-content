@@ -1,0 +1,11 @@
+pertanyaan: Apa itu hiperinflasi?
+jawaban: Peningkatan drastis dalam massa moneter
+jawaban_salah:
+  - Peningkatan halus dalam massa moneter
+  - Penurunan drastis dalam massa moneter
+  - Penurunan halus dalam massa moneter
+penjelasan: |
+  Hiperinflasi adalah fenomena moneter,
+  ditandai dengan peningkatan drastis dalam inflasi melalui pencetakan uang oleh otoritas,
+  yang mengarah pada kehilangan kepercayaan total terhadap sebuah mata uang
+ditinjau: true

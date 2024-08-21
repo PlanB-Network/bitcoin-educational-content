@@ -1,0 +1,9 @@
+pertanyaan: Apa yang terjadi pada HTLC jika Bob tidak pernah mengambil rahasia tersebut?
+jawaban: HTLC akan kedaluwarsa setelah jumlah blok tertentu.
+jawaban_salah:
+  - HTLC akan segera dibatalkan.
+  - HTLC akan ditransfer ke Alice.
+  - HTLC akan ditransfer ke Susie.
+penjelasan: |
+  Jika Bob tidak pernah mengambil rahasia tersebut, HTLC akan kedaluwarsa setelah jumlah blok tertentu. Ini adalah mekanisme bawaan untuk memastikan bahwa kontrak tidak dibiarkan menggantung tanpa batas waktu.
+ditinjau: false

@@ -1,0 +1,8 @@
+pertanyaan: Apa peran dari sebuah node Bitcoin dalam jaringan Bitcoin?
+jawaban: Node tersebut menangani validasi blok baru dan transaksi yang termasuk di dalamnya.
+jawaban_salah:
+  - Node tersebut menciptakan Bitcoin baru.
+  - Node tersebut mengatur harga Bitcoin.
+  - Node tersebut mengelola jaringan Bitcoin.
+penjelasan: >-
+  Sebuah node Bitcoin dalam jaringan Bitcoin menangani validasi blok baru dan transaksi yang termasuk di dalamnya. Melalui jaringan node Bitcoin inilah jaringan tersebut benar-benar terdesentralisasi.

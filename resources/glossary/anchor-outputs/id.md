@@ -1,0 +1,5 @@
+---
+term: ANCHOR OUTPUTS
+---
+
+Sebuah usulan yang bertujuan untuk meningkatkan pengelolaan biaya transaksi dalam saluran Lightning. Dengan setiap perubahan status dalam saluran Lightning, para pemangku kepentingan menciptakan dan menandatangani transaksi komitmen baru yang mencerminkan distribusi dana baru dalam saluran tersebut. Masalah dengan mekanisme ini terletak pada penentuan biaya transaksi pada saat pembuatannya. Memang, biaya transaksi di jaringan Bitcoin tunduk pada fluktuasi yang signifikan, baik ke atas maupun ke bawah. Jika biaya yang ditetapkan untuk transaksi komitmen terakhir tidak cukup pada saat penutupan saluran secara sepihak, tidak hanya transaksi tersebut akan memakan waktu yang cukup lama untuk dikonfirmasi, tetapi mekanisme penguncian temporal (timelocks) juga dapat memungkinkan pencurian dana. Anchor outputs menyisihkan sebagian kecil dari dana dalam transaksi komitmen untuk menutupi biaya masa depan. Dalam kejadian kemacetan jaringan dan kenaikan biaya, anchor outputs memungkinkan untuk modifikasi biaya transaksi setelah pembuatan transaksi komitmen, sehingga memastikan penutupan saluran Lightning dengan cukup cepat.

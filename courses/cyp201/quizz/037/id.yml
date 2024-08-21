@@ -1,0 +1,9 @@
+pertanyaan: Apa algoritma yang digunakan Bitcoin untuk menghubungkan kunci privat dan kunci publik?
+jawaban: Elliptic Curve Digital Signature Algorithm (ECDSA)
+jawaban_salah:
+  - Advanced Encryption Standard (AES)
+  - Rivest-Shamir-Adleman (RSA)
+  - Secure Hash Algorithm 2 (SHA-2)
+penjelasan: |
+  Bitcoin menggunakan Elliptic Curve Digital Signature Algorithm (ECDSA)
+  untuk menghubungkan kunci privat dan kunci publik.

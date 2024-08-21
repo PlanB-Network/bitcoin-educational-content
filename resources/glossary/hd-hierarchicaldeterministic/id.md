@@ -1,0 +1,5 @@
+---
+term: HD (HIERARCHICAL-DETERMINISTIC)
+---
+
+Merujuk pada dompet Bitcoin yang menggunakan sepotong informasi unik (seed) untuk menghasilkan berbagai pasangan kunci publik dan privat secara berurutan dan dapat direproduksi. Metode pengelolaan kunci ini didefinisikan oleh standar BIP32. Keuntungan utama dari dompet HD adalah mereka memungkinkan pengguna untuk memiliki berbagai pasangan kunci yang berbeda, terutama untuk menghindari penggunaan ulang alamat, sambil dapat meregenerasi semuanya dari satu potong informasi. Struktur ini digambarkan sebagai hierarkis karena memungkinkan pembuatan organisasi seperti pohon dari banyak kunci dan alamat dari satu seed. Dan ini deterministik dalam arti bahwa setiap seed selalu menghasilkan urutan kunci yang sama di dompet mana pun yang sesuai dengan sistem ini.

@@ -1,0 +1,9 @@
+pertanyaan: Apa proses yang dilakukan oleh penambang untuk memvalidasi transaksi dan memasukkannya ke dalam sebuah blok?
+jawaban: Bukti kerja
+jawaban_salah:
+  - Bukti kepemilikan
+  - Bukti otoritas
+  - Bukti pembakaran
+penjelasan: >-
+  Penambang memvalidasi transaksi dan memasukkannya ke dalam sebuah blok melalui proses yang disebut "bukti kerja". Ini melibatkan penyelesaian sebuah teka-teki kriptografi.
+ditinjau: false

@@ -1,0 +1,9 @@
+pertanyaan: Berapa peluang seseorang secara tidak sengaja menebak daftar 12 atau 24 kata dalam dompet Bitcoin Anda?
+jawaban: Sangat rendah sekali
+jawaban_salah:
+  - Tinggi
+  - Sedang
+  - Rendah
+penjelasan: >
+  Berkat kriptografi yang digunakan untuk membuat dompet tersebut, peluang seseorang secara tidak sengaja menebak daftar 12 atau 24 kata Anda sangat rendah sekali. Hal ini seperti menemukan "angka" yang tepat antara 1 dan $2^256$, yang hampir setara dengan menemukan atom tertentu di Alam Semesta.
+ditinjau: true

@@ -1,0 +1,10 @@
+pertanyaan: Apa peran dari titik generator pada kurva eliptik?
+jawaban: Digunakan untuk menghitung titik pada kurva eliptik.
+jawaban_salah:
+  - Digunakan untuk menghasilkan nonce.
+  - Digunakan untuk mengenkripsi kunci.
+  - Digunakan untuk menyimpan kunci.
+penjelasan: |
+  Titik generator adalah titik spesifik pada kurva eliptik yang
+  digunakan dalam perhitungan titik lain pada kurva. Ini digunakan dalam generasi
+  kunci publik dan kunci privat, serta dalam pembuatan dan verifikasi tanda tangan digital.

@@ -1,0 +1,9 @@
+pertanyaan: Apa pertanyaan utama tentang kepemilikan mandiri ketika memilih dompet Bitcoin?
+jawaban: Apakah Anda pemilik dana tersebut ataukah Anda menyerahkan kontrol uang Anda kepada pihak ketiga?
+jawaban_salah:
+  - Apakah dompet tersebut aman dengan passphrase?
+  - Apakah dompet tersebut memungkinkan penerimaan dan pengiriman bitcoin?
+  - Bisakah saya membagikan dompet saya kepada orang lain?
+penjelasan: |
+  Ketika memilih dompet Bitcoin, pertanyaan utama adalah: Apakah Anda pemilik dana tersebut ataukah Anda menyerahkan kontrol uang Anda kepada pihak ketiga? Ini karena pemegang kunci privat adalah pemilik Bitcoin tersebut.
+ditinjau: true

@@ -1,0 +1,10 @@
+pertanyaan: Apa itu prinsip laci dalam konteks fungsi hash kriptografi?
+jawaban: Ini menjelaskan mengapa, meskipun dengan upaya terbaik kita, penghindaran tabrakan adalah tidak mungkin karena keterbatasan ukuran output.
+jawaban_salah:
+  - Ini menjelaskan mekanisme penyimpanan dari fungsi hash.
+  - Ini mendeskripsikan proses pembuatan hash.
+  - Ini adalah prinsip yang menjelaskan tentang irreversibilitas fungsi hash.
+penjelasan: |
+  Prinsip laci dalam konteks fungsi hash kriptografi menjelaskan bahwa karena keterbatasan ukuran output, penghindaran tabrakan adalah tidak mungkin. Ini karena ada lebih banyak input yang mungkin daripada output, sehingga beberapa input harus
+  secara tak terelakkan berbagi output yang sama.
+ditinjau: false

@@ -1,0 +1,9 @@
+pertanyaan: Apa yang dimaksud dengan seed dalam dompet Bitcoin?
+jawaban: Ini adalah angka acak atau pseudo-acak dari mana beberapa kunci dihasilkan.
+jawaban_salah:
+  - Ini adalah kata sandi untuk mengakses dompet.
+  - Ini adalah transaksi Bitcoin pertama yang dicatat dalam dompet.
+  - Ini adalah tanda tangan digital pemilik dompet.
+penjelasan: |
+  Seed dalam dompet Bitcoin seharusnya merupakan angka acak atau pseudo-acak. Seed ini memungkinkan untuk penghasilan beberapa kunci, yang sangat penting
+  untuk kepemilikan cryptocurrency.

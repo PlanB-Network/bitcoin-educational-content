@@ -1,0 +1,11 @@
+pertanyaan: Apa tujuan dari alamat multi-signature di Lightning Network?
+jawaban: Mereka memerlukan dua pihak untuk setuju membuka kunci dana.
+jawaban_salah:
+  - Mereka memungkinkan waktu transaksi yang lebih cepat.
+  - Mereka memberikan keamanan tambahan terhadap peretasan.
+  - Mereka memungkinkan penggunaan berbagai mata uang kripto.
+penjelasan: |
+  Alamat multi-signature di Lightning Network memerlukan dua pihak
+  untuk setuju membuka kunci dana. Ini adalah langkah keamanan yang memastikan bahwa dana
+  hanya bisa dipindahkan dengan persetujuan kedua belah pihak.
+reviewed: false

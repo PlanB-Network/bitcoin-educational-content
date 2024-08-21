@@ -1,0 +1,9 @@
+pertanyaan: Apa elemen tertinggi dalam hierarki dompet HD?
+jawaban: Kunci privat induk dan kode rantai induk
+jawaban_salah:
+  - Frasa mnemonik dan kata sandi
+  - Kunci anak
+  - Benih dompet
+penjelasan: |
+  Kunci privat induk dan kode rantai induk diturunkan dari benih dompet dan merupakan elemen tertinggi dalam hierarki dompet HD. Mereka digunakan untuk menurunkan kunci anak.
+ditinjau: false

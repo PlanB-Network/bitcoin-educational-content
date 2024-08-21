@@ -1,0 +1,11 @@
+pertanyaan: Apa tujuan dari faktor keacakan dalam proses perutean Jaringan Lightning?
+jawaban: Untuk menghindari penggunaan rute yang sama terus-menerus.
+jawaban_salah:
+  - Untuk meningkatkan kompleksitas jaringan.
+  - Untuk menurunkan kecepatan transaksi.
+  - Untuk mengkompromikan privasi pengguna.
+penjelasan: |
+  Faktor keacakan dalam proses perutean Jaringan Lightning digunakan
+  untuk menghindari penggunaan rute yang sama terus-menerus. Ini membantu mendistribusikan beban
+  di seluruh jaringan dan meningkatkan peluang menemukan rute sukses untuk sebuah transaksi.
+ditinjau: false

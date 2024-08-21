@@ -1,0 +1,10 @@
+pertanyaan: Apakah kapasitas dari saluran pembayaran Lightning itu tetap?
+jawaban: "Ya"
+jawaban_salah:
+  - "Tidak"
+  - Hanya dalam beberapa kasus
+  - Tergantung pada jaringan Bitcoin
+penjelasan: |
+  Ketika sebuah saluran dibuka, kapasitasnya ditetapkan secara tetap, yang didefinisikan
+  terlebih dahulu oleh pengguna.
+ditinjau: false

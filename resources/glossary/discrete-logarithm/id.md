@@ -1,0 +1,7 @@
+---
+term: LOGARITMA DISKRIT
+---
+
+Logaritma diskrit adalah masalah matematika yang digunakan dalam beberapa algoritma kriptografi kunci publik. Dalam sebuah grup siklik berorde $q$, dengan sebuah generator $g$, jika seseorang memiliki persamaan dalam bentuk $g^x = h$, maka $x$ disebut logaritma diskrit dari $h$ terhadap basis $g$, modulo $q$. Dengan kata sederhana, ini melibatkan penentuan eksponen $x$ ketika $g$, $h$, dan $q$ diketahui. Logaritma diskrit ini merupakan kebalikan dari eksponensial dalam sebuah grup siklik terbatas. Namun, untuk nilai $q$ yang besar, memecahkan masalah logaritma diskrit dianggap sulit secara algoritmik. Sifat ini dimanfaatkan untuk memastikan keamanan banyak protokol kriptografi, seperti protokol Diffie-Hellman untuk pertukaran kunci.
+
+Logaritma diskrit juga digunakan dalam kriptografi kurva eliptik (ECC), termasuk dalam ECDSA (*Elliptic Curve Digital Signature Algorithm*). Dalam konteks kurva eliptik, masalah logaritma diskrit diperluas untuk menemukan skalar $k$ sedemikian sehingga $k \cdot G = K$, di mana $G$ dan $K$ adalah titik-titik pada kurva, dan $\cdot$ mewakili operasi perkalian titik. Dalam konteks Bitcoin, skrip dapat menggunakan baik ECDSA atau protokol Schnorr untuk mengunci UTXO. Keduanya mengandalkan ketidakmungkinan menghitung logaritma diskrit.

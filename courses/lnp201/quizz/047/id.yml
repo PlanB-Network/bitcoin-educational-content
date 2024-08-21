@@ -1,0 +1,11 @@
+pertanyaan: Apa yang terjadi dalam penutupan kooperatif?
+jawaban: Kedua peer berkomunikasi dan setuju untuk menutup saluran, memvalidasi keadaan akhir dari saluran tersebut, dan membuat transaksi penutupan.
+jawaban_salah:
+  - Satu peer memaksa penutupan saluran.
+  - Satu peer mencoba menipu dengan mempublikasikan transaksi komitmen lama.
+  - Kedua peer bertengkar atas SAT yang tersisa di saluran.
+penjelasan: |
+  Dalam penutupan kooperatif, kedua peer berkomunikasi dan setuju untuk menutup
+  saluran. Mereka menghentikan semua transaksi dan memvalidasi keadaan akhir dari saluran tersebut.
+  Kemudian mereka membuat transaksi penutupan.
+ditinjau: false

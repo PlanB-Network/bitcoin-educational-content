@@ -1,0 +1,10 @@
+pertanyaan: Berapa banyak putaran yang dilakukan PBKDF2 menggunakan HMAC SHA512?
+jawaban: 2048 putaran
+jawaban_salah:
+  - 1024 putaran
+  - 512 putaran
+  - 4096 putaran
+penjelasan: |
+  PBKDF2 digunakan untuk mengubah frasa mnemonik menjadi sebuah seed. Algoritma ini
+  melakukan 2048 putaran menggunakan HMAC SHA512.
+ditinjau: false

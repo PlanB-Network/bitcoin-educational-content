@@ -1,0 +1,7 @@
+---
+term: TAPROOT
+---
+
+Sebuah pembaruan besar pada protokol Bitcoin, yang diadopsi melalui soft fork pada November 2021. Pembaruan ini membawa peningkatan signifikan dalam hal privasi, efisiensi, dan fleksibilitas dengan mengimplementasikan BIP340, BIP341, dan BIP342. Pembaruan ini dikunci pada blok 687,284 pada 12 Juni 2021, ketika 90% dari blok yang dihasilkan selama periode tersebut menunjukkan dukungan, sehingga menunjukkan kesiapan penambang untuk mengaktifkan pembaruan (*Speedy Trial*). Aktivasi akhirnya terjadi pada blok 709,632 pada 14 November 2021, hampir empat tahun setelah diskusi awal tentang masalah tersebut antara Pieter Wuille, Andrew Poelstra, dan Gregory Maxwell. Ini adalah upaya pembaruan besar pertama sejak aktivasi SegWit yang kontroversial pada 2017.
+
+Taproot juga merupakan nama dari BIP341, yang diimplementasikan dalam soft fork dengan nama yang sama, yang memperkenalkan model skrip baru bernama P2TR. Skrip P2TR mengunci bitcoin pada kunci publik Schnorr unik, yang ditandai sebagai $K$. Namun, kunci $K$ ini sebenarnya merupakan agregat dari kunci publik $P$ dan kunci publik $M$, yang terakhir dihitung dari akar Merkle dari daftar `scriptPubKey`. Bitcoin yang dikunci dengan skrip P2TR dapat dihabiskan dengan dua cara yang berbeda: baik dengan mempublikasikan tanda tangan untuk kunci publik $P$, atau dengan memenuhi salah satu skrip yang terkandung dalam pohon Merkle. Opsi pertama disebut sebagai "*key path*" dan yang kedua sebagai "*script path*".

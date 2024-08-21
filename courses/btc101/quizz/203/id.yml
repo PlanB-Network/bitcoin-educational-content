@@ -1,0 +1,11 @@
+pertanyaan: Apa yang harus Anda lakukan setelah membeli Bitcoin di platform pertukaran?
+jawaban: Tarik Bitcoin ke dompet Anda.
+jawaban_salah:
+  - Biarkan saja di platform tersebut.
+  - Jual segera.
+  - Transfer ke platform lain.
+penjelasan: >-
+  Teks menyarankan bahwa setelah membeli Bitcoin, disarankan untuk segera
+  menarik Bitcoin dari platform pertukaran untuk meminimalisir risiko peretasan
+  dan pemblokiran dana.
+direview: false

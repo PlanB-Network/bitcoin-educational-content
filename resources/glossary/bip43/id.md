@@ -1,0 +1,5 @@
+---
+term: BIP43
+---
+
+Proposal untuk perbaikan yang memperkenalkan penggunaan tingkat jalur derivasi untuk mendeskripsikan bidang tujuan dalam struktur dompet HD, yang sebelumnya diperkenalkan dalam BIP32. Menurut BIP43, tingkat pertama derivasi dari sebuah dompet HD, tepat setelah kunci induk yang ditandai sebagai `m/`, diperuntukkan untuk nomor tujuan yang menunjukkan standar derivasi yang digunakan untuk sisa jalur tersebut. Nomor ini dicatat sebagai indeks yang diperkuat. Sebagai contoh, jika dompet mengikuti standar SegWit (BIP84), awal dari jalur derivasinya akan menjadi: `m/84'/`. BIP43 dengan demikian memungkinkan untuk klarifikasi standar yang diikuti oleh setiap perangkat lunak dompet untuk memiliki interoperabilitas yang lebih baik di antara mereka. Standardisasi dari sisa jalur derivasi dijelaskan dalam BIP44.

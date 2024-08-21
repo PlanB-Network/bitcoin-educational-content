@@ -1,0 +1,5 @@
+---
+term: EREBUS (ATTACK)
+---
+
+Sebuah bentuk serangan yang sangat canggih terhadap jaringan Bitcoin yang memungkinkan Penyedia Layanan Internet (ISP) yang beritikad buruk untuk mengisolasi node-node Bitcoin tertentu. Dengan demikian, ini merupakan bentuk serangan Eclipse. Serangan Erebus memanfaatkan struktur jaringan Internet, khususnya titik-titik lewat wajib (atau "bottlenecks") dalam perutean antar Sistem Otonom (AS). Seorang penyerang, dengan mengendalikan sistem otonom, dapat memanipulasi lalu lintas jaringan untuk mengisolasi sebuah node Bitcoin dari sisanya jaringan, sehingga membuatnya percaya pada keadaan blockchain yang salah (blok atau transaksi yang tidak diketahui oleh node tersebut). Isolasi ini dapat menyebabkan pengeluaran ganda atau sensor terhadap node yang diisolasi. Serangan ini telah menjadi jauh lebih sulit sejak dirilisnya versi Bitcoin Core 0.20.0 dan pengenalan Asmap.

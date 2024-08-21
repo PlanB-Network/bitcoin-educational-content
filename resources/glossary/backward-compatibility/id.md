@@ -1,0 +1,5 @@
+---
+term: KOMPATIBILITAS MUNDUR
+---
+
+Merujuk pada kemampuan pembaruan aturan protokol untuk mempertahankan kompatibilitas dengan versi sebelumnya. Ini berarti bahwa perubahan dirancang sedemikian rupa sehingga node lama (node yang menjalankan versi sebelum perubahan aturan) masih dapat berinteraksi dengan jaringan dan mengikuti rantai dengan pekerjaan terakumulasi terbanyak. Oleh karena itu, sangat penting bahwa node lama tidak menolak blok baru maupun transaksi baru. Kompatibilitas mundur secara signifikan mengurangi kemungkinan bahwa pembaruan akan memecah belah jaringan, sehingga menghindari pembagian node menjadi sub-grup pada rantai yang berbeda. Untuk memastikan kompatibilitas dengan versi sebelumnya dari protokol, pembaruan harus membuat aturan yang ada menjadi lebih ketat atau memperkenalkan yang baru. Prinsip ini mendefinisikan "soft fork". Sebaliknya, jika pembaruan merelaksasi aturan yang ada atau mengeliminasi beberapa, maka itu tidak akan kompatibel mundur. Ini akan menjadi "hard fork".

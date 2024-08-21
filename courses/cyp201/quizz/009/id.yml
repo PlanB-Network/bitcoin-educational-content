@@ -1,0 +1,11 @@
+pertanyaan: Apa tujuan dari bit padding dalam fase pra-pemrosesan SHA256?
+jawaban: Untuk membuat ukuran input mencapai kelipatan sempurna dari 512 bit
+jawaban_salah:
+  - Untuk meningkatkan ukuran input menjadi 256 bit
+  - Untuk menambah kompleksitas pada input
+  - Untuk mengurangi ukuran input menjadi 512 bit
+penjelasan: |
+  Dalam fase pra-pemrosesan SHA256, bit padding ditambahkan ke input
+  untuk membuat ukurannya mencapai kelipatan sempurna dari 512 bit. Hal ini dilakukan untuk memastikan bahwa
+  semua bahan bercampur dengan sempurna dalam resep kriptografi.
+ditinjau: false

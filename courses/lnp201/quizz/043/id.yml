@@ -1,0 +1,10 @@
+pertanyaan: Siapa yang membayar biaya penutupan dalam penutupan kooperatif?
+jawaban: Orang yang membuka saluran.
+jawaban_salah:
+  - Orang yang menutup saluran.
+  - Kedua belah pihak secara sama rata.
+  - Orang dengan SAT terbanyak di saluran.
+penjelasan: |
+  Dalam penutupan kooperatif, kedua rekan sepakat pada keadaan akhir dari
+  saluran. Orang yang membuka saluran membayar biaya penutupan.
+ditinjau: false

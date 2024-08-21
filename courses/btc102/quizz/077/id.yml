@@ -1,0 +1,10 @@
+pertanyaan: Apa itu satoshi dalam konteks Bitcoin?
+jawaban: Unit terkecil dari Bitcoin
+jawaban_salah:
+  - Sejenis dompet Bitcoin
+  - Metode membeli Bitcoin
+  - Platform pertukaran Bitcoin
+penjelasan: |
+  Dalam konteks Bitcoin, satoshi (atau SAT) adalah unit terkecil dari
+  Bitcoin. Para pengumpul Bitcoin bertujuan untuk mengakumulasi sebanyak mungkin satoshi.
+ditinjau: false

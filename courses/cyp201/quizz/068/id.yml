@@ -1,0 +1,10 @@
+pertanyaan: Bagaimana jumlah kata dalam frasa pemulihan ditentukan dalam generasi
+  frasa mnemonik untuk dompet Bitcoin?
+jawaban: Itu tergantung pada ukuran entropi.
+jawaban_salah:
+  - Itu tergantung pada ukuran checksum.
+  - Selalu 24 kata.
+  - Itu dihasilkan secara acak.
+penjelasan: |
+  Tergantung pada ukuran entropi, frasa pemulihan akan terdiri
+  dari 12 kata untuk 128 bit, 15 kata untuk 160 bit, dan 24 kata untuk 256 bit.

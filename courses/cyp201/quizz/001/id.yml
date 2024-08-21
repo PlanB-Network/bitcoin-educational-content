@@ -1,0 +1,11 @@
+pertanyaan: Apa keuntungan menggunakan HASH160 dalam protokol Bitcoin?
+jawaban: Ini memungkinkan keamanan SHA-256 sambil mengurangi ukuran sidik jari.
+jawaban_salah:
+  - Ini meningkatkan ukuran sidik jari untuk keamanan tambahan.
+  - Ini lebih tahan terhadap tabrakan daripada SHA-256.
+  - Ini lebih cepat dihitung daripada SHA-256.
+penjelasan: |
+  HASH160 dalam protokol Bitcoin menguntungkan karena mempertahankan
+  keamanan SHA-256 sambil mengurangi ukuran sidik jari. Ini membuatnya
+  lebih efisien tanpa mengorbankan keamanan.
+ditinjau: false

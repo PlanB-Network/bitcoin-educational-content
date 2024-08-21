@@ -1,0 +1,12 @@
+pertanyaan: Jenis pasangan kunci anak apa saja yang dapat diturunkan dari kunci privat terluas?
+jawaban: Kunci privat terluas memungkinkan penurunan semua kunci anak, baik publik maupun privat, dalam mode normal atau diperkuat.
+jawaban_salah:
+  - Kunci privat terluas hanya memungkinkan penurunan kunci anak normal.
+  - Kunci privat terluas hanya memungkinkan penurunan kunci anak diperkuat.
+  - Kunci privat terluas tidak memungkinkan penurunan kunci anak apa pun.
+penjelasan: |
+  Kunci privat terluas memungkinkan penurunan semua kunci anak, baik
+
+  publik maupun privat, baik dalam mode normal maupun diperkuat. Ini berbeda dengan
+
+  kunci publik terluas, yang hanya memungkinkan penurunan kunci anak publik normal.

@@ -1,0 +1,9 @@
+pertanyaan: Pada tahun berapa diperkirakan penciptaan bitcoin akan berhenti?
+jawaban: 2140
+jawaban_salah:
+  - 2050
+  - 2030
+  - 2200
+penjelasan: |
+  Karena mekanisme pemotongan separuh (halving), dapat diprediksi secara matematis bahwa penciptaan bitcoin akan berhenti pada tahun 2140, ketika jumlah total bitcoin mencapai batasnya yaitu 21 juta.
+ditinjau: true

@@ -1,0 +1,9 @@
+pertanyaan: Apa itu saluran pembayaran Lightning?
+jawaban: Sejenis "jalur pribadi" antara dua pengguna yang memungkinkan transaksi Bitcoin yang cepat dan berulang
+jawaban_salah:
+  - Sejenis dompet Bitcoin
+  - Sebuah metode menambang Bitcoin
+  - Sejenis bursa Bitcoin
+penjelasan: |
+  Saluran pembayaran Lightning adalah sejenis "jalur pribadi" antara dua pengguna
+  yang memungkinkan transaksi Bitcoin yang cepat dan berulang.

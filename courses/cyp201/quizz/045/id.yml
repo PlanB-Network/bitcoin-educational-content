@@ -1,0 +1,11 @@
+pertanyaan: Apa tujuan dari algoritma ECDSA dalam konteks transaksi Bitcoin?
+jawaban: Untuk memvalidasi tanda tangan digital.
+jawaban_salah:
+  - Untuk mengenkripsi data transaksi.
+  - Untuk menghasilkan alamat Bitcoin.
+  - Untuk menambang Bitcoin baru.
+penjelasan: |
+  ECDSA (Elliptic Curve Digital Signature Algorithm) digunakan dalam
+  konteks transaksi Bitcoin untuk memvalidasi tanda tangan digital. Ini memungkinkan
+  penerima transaksi untuk mengonfirmasi keaslian pesan yang ditandatangani tanpa
+  memerlukan kunci privat pengirim.

@@ -1,0 +1,23 @@
+---
+term: COINJOIN
+---
+
+Coinjoin adalah teknik yang digunakan untuk memutuskan jejak keberadaan bitcoin. Teknik ini mengandalkan transaksi kolaboratif dengan struktur khusus yang bernama sama: transaksi coinjoin. Transaksi coinjoin membantu meningkatkan perlindungan privasi pengguna Bitcoin dengan membuatnya lebih sulit bagi pengamat eksternal untuk menganalisis transaksi. Struktur ini memungkinkan pencampuran beberapa koin dalam satu transaksi, sehingga sulit untuk menentukan hubungan antara alamat input dan output.
+
+Operasi umum dari coinjoin adalah sebagai berikut: pengguna yang berbeda yang ingin mencampur menyetorkan sejumlah uang sebagai input dari sebuah transaksi. Input ini akan keluar sebagai output yang berbeda dengan jumlah yang sama. Di akhir transaksi, tidak mungkin untuk menentukan output mana yang milik pengguna mana. Secara teknis tidak ada hubungan antara input dan output dari transaksi coinjoin. Hubungan antara setiap pengguna dan setiap UTXO diputus, sama seperti sejarah setiap koin.
+
+![](../../dictionnaire/assets/4.png)
+
+Untuk memungkinkan coinjoin tanpa pengguna kehilangan kendali atas dana mereka kapan pun, transaksi pertama kali dibangun oleh koordinator dan kemudian ditransmisikan ke setiap pengguna. Setiap pengguna kemudian menandatangani transaksi di sisi mereka setelah memverifikasi bahwa itu sesuai dengan mereka, dan kemudian semua tanda tangan ditambahkan ke transaksi. Jika pengguna atau koordinator mencoba mencuri dana orang lain dengan memodifikasi output dari transaksi coinjoin, maka tanda tangan akan menjadi tidak valid dan transaksi akan ditolak oleh node. Ketika pencatatan output peserta dilakukan menggunakan tanda tangan buta Chaum untuk menghindari kaitan dengan input, ini disebut sebagai "Chaumian coinjoin".
+
+Mekanisme ini meningkatkan kerahasiaan transaksi tanpa memerlukan modifikasi pada protokol Bitcoin. Implementasi spesifik dari coinjoin, seperti Whirlpool, JoinMarket, atau Wabisabi, menawarkan solusi untuk memfasilitasi proses koordinasi di antara peserta dan meningkatkan efisiensi transaksi coinjoin. Berikut adalah contoh dari transaksi coinjoin:
+
+```text
+323df21f0b0756f98336437aa3d2fb87e02b59f1946b714a7b09df04d429dec2
+```
+
+Sulit untuk menentukan dengan pasti siapa yang pertama kali memperkenalkan ide coinjoin pada Bitcoin, dan siapa yang memiliki ide menggunakan tanda tangan buta David Chaum dalam konteks ini. Seringkali dianggap bahwa Gregory Maxwell adalah orang pertama yang membahasnya dalam [pesan di BitcoinTalk pada tahun 2013](https://bitcointalk.org/index.php?topic=279249.0):
+Menggunakan tanda tangan buta Chaum: Pengguna terhubung dan menyediakan input (dan alamat perubahan) serta versi yang secara kriptografis dibutakan dari alamat tempat mereka ingin mengirim koin pribadi mereka; server menandatangani token dan mengembalikannya. Pengguna terhubung kembali secara anonim, membuka alamat output mereka, dan mengirimkannya kembali ke server. Server dapat melihat bahwa semua output telah ditandatangani olehnya dan bahwa, akibatnya, semua output berasal dari peserta yang valid. Kemudian, orang terhubung kembali dan menandatangani.
+Maxwell, G. (2013, Agustus 22). *CoinJoin: Privasi Bitcoin untuk dunia nyata*. Forum BitcoinTalk. https://bitcointalk.org/index.php?topic=279249.0
+Namun, ada penyebutan lebih awal, baik untuk tanda tangan Chaum dalam konteks pencampuran, maupun untuk coinjoins. [Pada Juni 2011, Duncan Townsend mempresentasikan di BitcoinTalk](https://bitcointalk.org/index.php?topic=12751.0) sebuah mixer yang menggunakan tanda tangan Chaum dengan cara yang cukup mirip dengan coinjoin Chaumian modern. Dalam thread yang sama, ada [pesan dari hashcoin sebagai respons kepada Duncan Townsend](https://bitcointalk.org/index.php?topic=12751.msg315793#msg315793) untuk meningkatkan mixer-nya. Pesan ini memperkenalkan apa yang paling mirip dengan coinjoins. Juga ada penyebutan sistem serupa dalam [pesan dari Alex Mizrahi pada tahun 2012](https://gist.github.com/killerstorm/6f843e1d3ffc38191aebca67d483bd88#file-laundry), saat ia sedang memberi nasihat kepada pencipta Tenebrix. Istilah "coinjoin" sendiri tidak ditemukan oleh Greg Maxwell, tetapi berasal dari ide oleh Peter Todd.
+> ► *Istilah "coinjoin" tidak memiliki terjemahan dalam bahasa Prancis. Beberapa pengguna bitcoin juga menggunakan istilah "mix", "mixing", atau "mixage" untuk merujuk pada transaksi coinjoin. Mixing lebih merupakan proses yang digunakan di inti coinjoin. Juga, penting untuk tidak mengacaukan mixing melalui coinjoins dengan mixing melalui aktor pusat yang mengambil kepemilikan bitcoin selama proses tersebut. Ini tidak ada hubungannya dengan coinjoin di mana pengguna tidak kehilangan kontrol atas bitcoin mereka selama proses tersebut.*

@@ -1,0 +1,13 @@
+pertanyaan: Apa langkah perantara yang dapat diambil untuk menyembunyikan koneksi ketika Anda tidak menggunakan node Bitcoin Anda sendiri?
+
+jawaban: Penggunaan Tor.
+
+jawaban_salah:
+  - Penggunaan firewall.
+  - Penggunaan dompet terenkripsi.
+  - Penggunaan dompet ganda.
+
+penjelasan: |
+  Untuk membatasi risiko diamati, solusi perantara adalah menggunakan perangkat lunak dompet yang memungkinkan Anda menyembunyikan koneksi Anda melalui Tor.
+
+ditinjau: false

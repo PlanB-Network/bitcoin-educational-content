@@ -1,0 +1,8 @@
+pertanyaan: Apakah menggunakan alamat Bitcoin menghemat ruang dalam blok?
+jawaban: Ini salah
+jawaban_salah:
+  - Ini benar
+  - Hanya jika alamatnya dikompresi
+  - Hanya jika alamatnya di-hash
+penjelasan: |
+  Menggunakan alamat Bitcoin tidak menghemat ruang dalam blok. Alasan utama menggunakan alamat adalah untuk mengurangi ukuran informasi kunci publik.

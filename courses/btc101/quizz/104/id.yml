@@ -1,0 +1,12 @@
+pertanyaan: Apa yang bukan merupakan frasa mnemonik dalam konteks Bitcoin?
+jawaban: Sebuah password untuk dompet Bitcoin Anda
+jawaban_salah:
+  - sebuah daftar 12 kata dari kamus spesifik
+  - sebuah daftar 24 kata dari kamus spesifik
+  - rahasia untuk mengakses dana bitcoin Anda
+  - Kode rahasia untuk mengakses bitcoin Anda
+penjelasan: |
+  Frasa mnemonik dalam konteks Bitcoin adalah daftar 12 atau 24 kata
+  yang memungkinkan Anda untuk mengembalikan dompet Anda di aplikasi dompet Bitcoin mana pun. Siapa pun
+  yang memiliki akses ke daftar ini juga memiliki akses ke bitcoin Anda.
+ditinjau: true

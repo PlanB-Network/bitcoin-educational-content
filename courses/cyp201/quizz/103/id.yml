@@ -1,0 +1,12 @@
+pertanyaan: Apa peran dari seed dalam organisasi hierarkis dan turunan dari dompet HD?
+jawaban: Seed memainkan peran deterministik dalam turunan dari semua kunci lainnya.
+jawaban_salah:
+  - Seed digunakan untuk mengenkripsi dompet.
+  - Seed digunakan untuk menghasilkan master chain code.
+  - Seed digunakan untuk memulihkan portofolio.
+penjelasan: |
+  Seed, dengan panjang 128 hingga 256 bit, dihasilkan secara acak atau
+  
+  dari frasa rahasia. Ini memainkan peran deterministik dalam turunan dari semua
+  
+  kunci lainnya dalam dompet HD.

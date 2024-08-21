@@ -1,0 +1,11 @@
+---
+term: SELFISH MINING
+---
+
+Strategi (atau serangan) dalam penambangan, di mana seorang penambang atau sekelompok penambang sengaja menyimpan blok dengan bukti kerja yang valid tanpa segera menyiarkannya ke jaringan. Tujuannya adalah untuk mempertahankan keunggulan atas penambang lain dalam hal bukti kerja, yang berpotensi memungkinkan mereka untuk menambang beberapa blok secara berturut-turut dan menerbitkannya sekaligus, sehingga memaksimalkan keuntungan mereka.
+
+Dengan kata lain, kelompok penambang yang menyerang tidak menambang pada blok terakhir yang divalidasi oleh seluruh jaringan, tetapi pada blok yang mereka ciptakan sendiri, yang berbeda dari yang divalidasi oleh jaringan. Proses ini menghasilkan semacam fork rahasia dari blockchain, yang tetap tidak diketahui oleh seluruh jaringan sampai rantai alternatif ini berpotensi melampaui blockchain yang jujur. Setelah rantai rahasia dari penambang yang menyerang menjadi lebih panjang (yaitu, mengandung lebih banyak pekerjaan terakumulasi) daripada rantai yang jujur dan publik, maka rantai tersebut disiarkan ke seluruh jaringan. Pada titik itu, node jaringan, yang mengikuti rantai terpanjang (dengan pekerjaan terakumulasi terbanyak), akan sinkronisasi dengan rantai baru ini. Ini mengakibatkan reorganisasi.
+
+Selfish mining bermasalah karena menurunkan keamanan sistem dengan membuang sebagian dari kekuatan komputasi jaringan. Jika berhasil, ini juga menyebabkan reorganisasi blockchain, sehingga mempengaruhi keandalan konfirmasi transaksi bagi pengguna. Praktik ini tetap berisiko bagi kelompok penambang yang menyerang, karena seringkali lebih menguntungkan untuk menambang secara normal pada blok terakhir yang diketahui secara publik daripada mengalokasikan kekuatan komputasi ke fork rahasia yang mungkin tidak akan pernah melampaui blockchain yang jujur. Semakin banyak jumlah blok dalam reorganisasi, semakin rendah probabilitas keberhasilan serangan.
+
+> ► *Terjemahan bahasa Inggris dari "minage égoïste" adalah "selfish mining". Catatan, serangan selfish mining tidak boleh disamakan dengan serangan penahanan blok.*

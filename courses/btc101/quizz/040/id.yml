@@ -1,0 +1,11 @@
+pertanyaan: Apa strategi yang digunakan oleh entitas pusat untuk menurunkan nilai mata uang fiat?
+jawaban: Mereka meningkatkan massa moneter awal beberapa persen setiap tahun.
+jawaban_salah:
+  - Mereka mengurangi massa moneter awal beberapa persen setiap tahun.
+  - Mereka menjaga massa moneter tetap konstan dibandingkan dengan massa awal.
+  - Mereka mengfluktuasi massa moneter secara acak dibandingkan dengan massa awal.
+penjelasan: |
+  Entitas pusat seringkali menurunkan nilai mata uang baru dengan meningkatkan massa moneternya dibandingkan
+  dengan yang awal beberapa persen setiap tahun. Penurunan nilai ini seringkali dibenarkan
+  sebagai kepentingan bagi masyarakat.
+ditinjau: true

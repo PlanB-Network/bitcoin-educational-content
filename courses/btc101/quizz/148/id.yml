@@ -1,0 +1,9 @@
+pertanyaan: Apa hasil dari "perang blok" pada tahun 2017?
+jawaban: Pengguna dan node menolak perubahan yang diusulkan untuk meningkatkan ukuran blok, dan mengaktifkan pembaruan yang disebut SegWit
+jawaban_salah:
+  - Pengguna dan node menerima perubahan yang diusulkan untuk meningkatkan ukuran blok, dan mengaktifkan pembaruan yang disebut SegWit
+  - Pengguna dan node menolak perubahan yang diusulkan untuk meningkatkan ukuran blok, dan tidak mengaktifkan pembaruan apa pun
+  - Pengguna dan node menerima perubahan yang diusulkan untuk meningkatkan ukuran blok, dan tidak mengaktifkan pembaruan apa pun
+penjelasan: >-
+  Dalam "perang blok" pada tahun 2017, pengguna dan node berhasil menolak perubahan yang diusulkan untuk meningkatkan ukuran blok, dan mengaktifkan pembaruan yang disebut SegWit.
+ditinjau: false

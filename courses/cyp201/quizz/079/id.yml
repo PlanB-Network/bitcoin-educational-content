@@ -1,0 +1,11 @@
+pertanyaan: Apa perbedaan antara passphrase dan mnemonic phrase dalam dompet Bitcoin?
+jawaban: Passphrase bersifat bebas dan dapat mencapai ukuran yang hampir tak terbatas, sementara mnemonic phrase distandarisasi dan harus mengikuti batasan tertentu mengenai ukuran, checksum, dan pengkodean.
+jawaban_salah:
+  - Passphrase distandarisasi, sementara mnemonic phrase bersifat bebas dan dapat mencapai ukuran yang hampir tak terbatas.
+  - Passphrase dan mnemonic phrase adalah sama.
+  - Passphrase bersifat opsional, sementara mnemonic phrase adalah wajib.
+penjelasan: |
+  Untuk menurunkan kunci dari dompet HD, baik mnemonic phrase maupun
+  passphrase diperlukan. Passphrase bersifat bebas dan dapat mencapai ukuran yang hampir tak terbatas. Passphrase tidak termasuk dalam mnemonic phrase, yang distandarisasi dan harus
+  mengikuti batasan tertentu mengenai ukuran, checksum, dan pengkodean.
+ditinjau: false

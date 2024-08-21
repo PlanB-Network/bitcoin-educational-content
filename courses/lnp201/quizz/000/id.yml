@@ -1,0 +1,11 @@
+pertanyaan: Berapa jumlah maksimum Bitcoin yang dapat ditransmisikan dalam sebuah saluran pembayaran Lightning pada satu waktu tertentu?
+jawaban: Kapasitas tetap yang ditentukan terlebih dahulu oleh pengguna
+jawaban_salah:
+  - Jumlah total Bitcoin yang dimiliki oleh kedua pengguna
+  - Jumlah total Bitcoin di seluruh Jaringan Lightning
+  - Jumlah total Bitcoin yang telah ditransaksikan di saluran tersebut sejauh ini
+penjelasan: |
+  Ketika sebuah saluran pembayaran Lightning dibuka, saluran tersebut diberikan sebuah kapasitas tetap,
+  yang ditentukan terlebih dahulu oleh pengguna. Kapasitas ini mewakili jumlah maksimum
+  Bitcoin yang dapat ditransmisikan dalam saluran pada satu waktu tertentu.
+ditinjau: false

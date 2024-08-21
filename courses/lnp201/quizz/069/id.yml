@@ -1,0 +1,9 @@
+pertanyaan: Apa yang terjadi ketika sebuah upaya transaksi gagal karena likuiditas yang tidak cukup di Lightning Network?
+jawaban: Rute lain dicoba sampai transaksi berhasil dilakukan.
+jawaban_salah:
+  - Transaksi dibatalkan dan dana dikembalikan ke pengirim.
+  - Transaksi ditahan sampai likuiditas yang cukup tersedia.
+  - Transaksi secara otomatis dialihkan ke saluran dengan likuiditas yang cukup.
+penjelasan: |
+  Di Lightning Network, jika sebuah upaya transaksi gagal karena likuiditas yang tidak cukup dalam sebuah saluran, node akan mencoba rute lain. Proses ini berlanjut sampai transaksi berhasil dilakukan. Mekanisme ini memastikan bahwa transaksi dapat diselesaikan meskipun rute yang awalnya dipilih tidak memiliki cukup likuiditas.
+ditinjau: false

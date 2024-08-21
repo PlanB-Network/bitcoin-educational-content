@@ -1,0 +1,9 @@
+pertanyaan: Berapa ukuran kunci publik yang dikompresi dalam Bitcoin?
+jawaban: 264 bit
+jawaban_salah:
+  - 520 bit
+  - 128 bit
+  - 256 bit
+penjelasan: |
+  Dalam Bitcoin, sebuah kunci publik mentah menempati 520 bit. Namun, berkat simetri dari kurva eliptik yang digunakan, kita dapat mengompresi kunci publik untuk mengurangi ukurannya dari 520 menjadi 264 bit.
+ditinjau: false

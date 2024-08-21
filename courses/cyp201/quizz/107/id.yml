@@ -1,0 +1,10 @@
+pertanyaan: Berapa panjang seed dalam sebuah dompet HD?
+jawaban: Seed memiliki panjang 128 hingga 256 bit.
+jawaban_salah:
+  - Seed memiliki panjang 64 hingga 128 bit.
+  - Seed memiliki panjang 256 hingga 512 bit.
+  - Seed memiliki panjang 32 hingga 64 bit.
+penjelasan: |
+  Seed dalam sebuah dompet HD memiliki panjang 128 hingga 256 bit. Seed ini dihasilkan
+
+  secara acak atau dari sebuah frasa rahasia.

@@ -1,0 +1,11 @@
+pertanyaan: Apa itu likuiditas sebuah kanal di Jaringan Lightning?
+jawaban: Jumlah satoshi yang dapat ditransfer melalui kanal tersebut.
+jawaban_salah:
+  - Jumlah transaksi yang dapat dilakukan melalui kanal tersebut.
+  - Kecepatan transaksi dapat dilakukan melalui kanal tersebut.
+  - Biaya melakukan transaksi melalui kanal tersebut.
+penjelasan: |
+  Di Jaringan Lightning, likuiditas sebuah kanal merujuk pada jumlah
+  satoshi yang dapat ditransfer melalui kanal tersebut. Likuiditas dari
+  kanal-kanal ini tidak dapat ditransfer ke kanal likuiditas lainnya.
+ditinjau: false

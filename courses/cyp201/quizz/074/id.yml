@@ -1,0 +1,9 @@
+pertanyaan: Mengapa sangat penting untuk membackup frasa pemulihan 24 kata dari dompet Bitcoin?
+jawaban: Untuk mencegah kehilangan dana.
+jawaban_salah:
+  - Untuk memverifikasi keakuratan frasa pemulihan.
+  - Untuk menghasilkan entropi untuk dompet.
+  - Untuk mengenkripsi frasa pemulihan demi keamanan tambahan.
+penjelasan: |
+  Membackup frasa pemulihan 24 kata sangat penting untuk mencegah kehilangan dana.
+ditinjau: false

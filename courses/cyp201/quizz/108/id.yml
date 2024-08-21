@@ -1,0 +1,11 @@
+pertanyaan: Apa kunci pertama yang diturunkan dari seed dalam dompet HD?
+jawaban: Kunci induk adalah kunci pertama yang diturunkan dari seed.
+jawaban_salah:
+  - Kunci anak adalah kunci pertama yang diturunkan dari seed.
+  - Kunci orang tua adalah kunci pertama yang diturunkan dari seed.
+  - Kunci pribadi adalah kunci pertama yang diturunkan dari seed.
+penjelasan: |
+  Kunci induk adalah kunci pertama yang diturunkan dari seed dalam dompet HD.
+
+  Ini memungkinkan untuk penurunan semua pasangan kunci anak lainnya.'
+reviewed: false

@@ -1,0 +1,12 @@
+pertanyaan: Apa dua jenis pasangan kunci anak dalam dompet HD?
+jawaban: Pasangan yang diperkuat dan pasangan normal.
+jawaban_salah:
+  - Pasangan publik dan pasangan pribadi.
+  - Pasangan induk dan pasangan anak.
+  - Pasangan orang tua dan pasangan anak.
+penjelasan: |
+  Dalam dompet HD, terdapat dua jenis pasangan kunci anak; pasangan yang diperkuat
+
+  dan pasangan normal. Pasangan ini berbeda dalam proses derivasi mereka dan rentang indeks
+
+  mereka.

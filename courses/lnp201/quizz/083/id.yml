@@ -1,0 +1,12 @@
+pertanyaan: Apa tantangan utama dalam mengelola likuiditas pada Lightning Network?
+jawaban: Mempertahankan likuiditas
+jawaban_salah:
+  - Membuka saluran
+  - Menghubungkan ke node lain
+  - Membeli saluran
+penjelasan: |
+  Meskipun membuka saluran, menghubungkan ke node lain, dan membeli saluran
+  semuanya merupakan bagian dari pengelolaan likuiditas pada Lightning Network, tantangan utama
+  adalah mempertahankan likuiditas. Ini melibatkan menjaga keseimbangan likuiditas di kedua sisi
+  untuk node routing dan memastikan likuiditas masuk untuk pedagang.
+ditinjau: false

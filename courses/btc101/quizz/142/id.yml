@@ -1,0 +1,10 @@
+pertanyaan: Apa itu node yang dipangkas dalam konteks Bitcoin?
+jawaban: Node yang hanya menyimpan N blok terakhir dalam memori
+jawaban_salah:
+  - Node yang hanya memvalidasi transaksi
+  - Node yang hanya mentransmisikan informasi ke node lain
+  - Node yang hanya menegakkan aturan protokol Bitcoin
+penjelasan: >-
+  Node yang dipangkas dalam konteks Bitcoin adalah node yang hanya menyimpan
+  N blok terakhir dalam memori.
+ditinjau: false

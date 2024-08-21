@@ -1,0 +1,11 @@
+pertanyaan: Apa dampak potensial dari larangan penambangan di suatu wilayah?
+jawaban: Ini dapat menyebabkan penurunan signifikan dalam hashrate dan harga Bitcoin
+jawaban_salah:
+  - Ini dapat menyebabkan peningkatan harga Bitcoin
+  - Ini dapat menyebabkan peningkatan hashrate jaringan
+  - Ini dapat menyebabkan peningkatan jumlah node aktif dalam jaringan
+penjelasan: |
+  Larangan penambangan di suatu wilayah, seperti yang terjadi di China, dapat menyebabkan
+  penurunan signifikan dalam hashrate dan harga Bitcoin. Namun, ini dapat cepat
+  pulih.
+ditinjau: false

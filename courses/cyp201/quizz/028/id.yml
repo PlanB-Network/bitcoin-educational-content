@@ -1,0 +1,10 @@
+pertanyaan: Apa itu UTXOs dalam konteks Bitcoin?
+jawaban: Unspent Transaction Outputs
+jawaban_salah:
+  - Untraceable Transaction Outputs
+  - Unverified Transaction Outputs
+  - Unconfirmed Transaction Outputs
+penjelasan: |
+  UTXOs, atau "Unspent Transaction Outputs," mewakili output transaksi yang belum dibelanjakan
+  yang dimiliki oleh pengguna. Untuk menghabiskan bitcoin ini, seseorang harus menunjukkan kepemilikan
+  kunci privat yang sesuai dengan kunci publik yang terkait dengan setiap UTXO.

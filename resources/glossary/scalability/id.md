@@ -1,0 +1,7 @@
+---
+term: SKALABILITAS
+---
+
+Merujuk pada kemampuan Bitcoin untuk menangani peningkatan volume transaksi sambil mempertahankan tingkat kinerja yang dapat diterima. Bitcoin menghadapi keterbatasan teknis inheren, seperti ukuran blok, interval waktu antara setiap blok, dan fakta bahwa transaksi hanya dianggap tidak dapat diubah setelah beberapa konfirmasi. Keterbatasan ini mencegah Bitcoin dari memproses jumlah transaksi yang tidak terbatas secara efisien. Ketika permintaan untuk ruang dalam blok meningkat, pengguna dipaksa untuk meningkatkan biaya yang mereka tawarkan agar transaksi mereka diproses. Skalabilitas, yang berarti kemampuan Bitcoin untuk menangani peningkatan volume transaksi, dapat ditingkatkan baik dengan modifikasi langsung pada protokol atau dengan solusi eksternal seperti Lightning Network. Isu skalabilitas selalu menjadi inti dari debat intens dalam komunitas. Upaya pertama untuk meningkatkan ukuran blok terjadi pada Oktober 2010 dengan [sebuah patch yang diusulkan oleh Jeff Garzik](https://bitcointalk.org/index.php?topic=1347.0). Topik skalabilitas ini secara khusus menyebabkan perang ukuran blok antara tahun 2015 dan 2017.
+
+> ► *Istilah "scalabilité" adalah sebuah Anglicisme. Terjemahan yang benar dari istilah bahasa Inggris "scalability" adalah "évolutivité" atau "passage à l'échelle". Namun, umumnya diterima dalam komunitas untuk menggunakan istilah "scalabilité" secara langsung.*

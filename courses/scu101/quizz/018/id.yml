@@ -1,0 +1,11 @@
+pertanyaan: Apa praktik yang direkomendasikan untuk menggunakan akun administrator di Windows?
+jawaban: Buat dua akun terpisah; sebuah akun administrator dan sebuah akun untuk penggunaan sehari-hari.
+jawaban_salah:
+  - Gunakan akun administrator untuk penggunaan sehari-hari.
+  - Buat beberapa akun administrator.
+  - Jangan membuat akun administrator.
+penjelasan: |
+  Menggunakan akun administrator untuk penggunaan sehari-hari di Windows dapat meningkatkan
+  risiko keamanan sistem. Disarankan untuk membuat dua akun terpisah;
+  satu untuk tugas administratif dan satu lagi untuk penggunaan sehari-hari.
+ditinjau: false

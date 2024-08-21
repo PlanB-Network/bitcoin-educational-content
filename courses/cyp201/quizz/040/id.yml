@@ -1,0 +1,10 @@
+pertanyaan: Apa pentingnya menggunakan nonce unik dalam algoritma ECDSA?
+jawaban: Ini membantu menghindari serangan keamanan.
+jawaban_salah:
+  - Ini meningkatkan kecepatan algoritma.
+  - Ini mengurangi kompleksitas komputasi.
+  - Ini diperlukan agar algoritma dapat berfungsi.
+penjelasan: |
+  Penggunaan nonce unik dalam algoritma ECDSA sangat penting untuk menjaga
+  keamanan. Menggunakan kembali nonce dapat menyebabkan kerentanan, seperti yang ditunjukkan oleh peretasan
+  PlayStation 3, yang dikompromikan karena penggunaan kembali nonce.

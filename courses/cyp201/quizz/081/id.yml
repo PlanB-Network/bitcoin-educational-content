@@ -1,0 +1,11 @@
+pertanyaan: Apakah penggunaan passphrase dalam dompet Bitcoin wajib?
+jawaban: Tidak, penggunaannya opsional
+jawaban_salah:
+  - Ya, penggunaannya wajib
+  - Tergantung pada jenis dompetnya
+  - Tergantung pada jumlah bitcoin dalam dompet
+penjelasan: |
+  Passphrase adalah kata sandi tambahan yang dapat diintegrasikan ke
+  dalam dompet Bitcoin untuk meningkatkan keamanannya. Penggunaannya opsional dan tergantung
+  pada kebijakan pengguna.
+ditinjau: false

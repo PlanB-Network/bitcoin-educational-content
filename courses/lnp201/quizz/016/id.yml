@@ -1,0 +1,11 @@
+pertanyaan: Apa arti dari alamat 2/2 multi-sig dalam proses membuka kanal di Lightning Network?
+jawaban: Itu adalah alamat di mana Alice mengirim uang untuk membuka kanal.
+jawaban_salah:
+  - Itu adalah alamat dari mana Alice mengirim uang untuk membuka kanal.
+  - Itu adalah alamat di mana Bob mengirim uang untuk membuka kanal.
+  - Itu adalah alamat dari mana Bob mengirim uang untuk membuka kanal.
+penjelasan: |
+  Dalam proses membuka kanal, Alice membuat alamat 2/2 multi-sig
+  menggunakan alamat publik miliknya dan Bob. Kemudian dia melakukan transaksi bitcoin untuk mengirim
+  uang ke alamat ini guna membuka kanal.
+ditinjau: false

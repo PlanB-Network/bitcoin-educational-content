@@ -1,0 +1,9 @@
+pertanyaan: Apa yang harus dilakukan pembeli untuk mengelola likuiditas di Jaringan Lightning?
+jawaban: Membuka saluran
+jawaban_salah:
+  - Terhubung ke node lain
+  - Menjaga keseimbangan likuiditas di kedua sisi
+  - Membeli saluran
+penjelasan: |
+  Bagi pembeli di Jaringan Lightning, mengelola likuiditas melibatkan pembukaan
+  saluran. Ini memberi mereka likuiditas keluar.

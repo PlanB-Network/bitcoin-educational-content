@@ -1,0 +1,11 @@
+pertanyaan: Mengapa disarankan untuk mengunduh perangkat lunak dari situs web resmi penerbit daripada situs generik?
+jawaban: Untuk memastikan perangkat lunak bebas dari perangkat lunak berbahaya.
+jawaban_salah:
+  - Untuk mendukung penerbit secara finansial.
+  - Karena perangkat lunak biasanya lebih murah di situs web resmi.
+  - Karena perangkat lunak di situs generik biasanya usang.
+penjelasan: |
+  Mengunduh perangkat lunak dari situs web resmi penerbit memastikan
+  bahwa Anda mendapatkan versi perangkat lunak yang sah, yang bebas dari
+  perangkat lunak berbahaya apa pun yang dapat merusak perangkat Anda atau mencuri data Anda.
+ditinjau: false

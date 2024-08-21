@@ -1,0 +1,11 @@
+pertanyaan: Heuristik analisis rantai apa yang digunakan oleh transaksi payjoin untuk bertindak sebagai penipuan?
+
+jawaban: COH
+
+jawaban_salah:
+  - Penggunaan alamat kembali
+  - Pencetakan sidik jari dompet
+  - Penggunaan versi kembali
+
+penjelasan: |
+  Ketika seorang analis memeriksa transaksi payjoin, mereka dipimpin untuk percaya bahwa semua input berasal dari orang yang sama karena COH. Namun, persepsi ini salah, karena penerima pembayaran juga menyumbang pada input bersama dengan pembayar sebenarnya. Dengan demikian, analisis rantai dialihkan ke interpretasi yang ternyata salah.

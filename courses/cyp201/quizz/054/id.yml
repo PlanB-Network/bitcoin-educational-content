@@ -1,0 +1,10 @@
+pertanyaan: Apa tujuan dari BIP43 dan BIP44 dalam ekosistem Bitcoin?
+jawaban: Mereka menstandarkan struktur dan hierarki dari dompet HD.
+jawaban_salah:
+  - Mereka memperkenalkan frasa mnemonik 24 kata.
+  - Mereka merevolusi cara kunci dihasilkan dan disimpan.
+  - Mereka mengusulkan penambahan passphrase tambahan untuk memperkuat keamanan kunci individu.
+penjelasan: |
+  BIP43 dan BIP44 menstandarkan struktur dan hierarki dari dompet HD,
+  membuatnya lebih mudah diakses dan lebih mudah digunakan untuk masyarakat umum.
+ditinjau: false

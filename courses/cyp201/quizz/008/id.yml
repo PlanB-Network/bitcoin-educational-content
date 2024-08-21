@@ -1,0 +1,10 @@
+pertanyaan: Apa yang terjadi jika bahkan input yang sedikit menyimpang diberikan kepada fungsi hash kriptografi?
+jawaban: Ini secara signifikan mengubah hash akhir.
+jawaban_salah:
+  - Ini menghasilkan hash yang sama.
+  - Ini menyebabkan fungsi hash gagal.
+  - Ini memperlambat perhitungan hash.
+penjelasan: |
+  Fungsi hash kriptografi dirancang sedemikian rupa sehingga bahkan penyimpangan kecil pada input secara signifikan mengubah hash akhir. Sifat ini sangat penting
+  untuk keamanan fungsi hash, karena membuatnya sangat sulit untuk menemukan
+  input yang berbeda yang menghasilkan hash yang sama.

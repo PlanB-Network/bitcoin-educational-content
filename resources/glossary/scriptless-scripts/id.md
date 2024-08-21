@@ -1,0 +1,5 @@
+---
+term: SCRIPTLESS SCRIPTS
+---
+
+Konsep ini awalnya dikembangkan oleh Andrew Poelstra, memungkinkan eksekusi kontrak pintar tanpa secara eksplisit mengekspos logika kontrak di blockchain Bitcoin. Seperti namanya "scriptless scripts" menunjukkan, ide ini didasarkan pada eksekusi skrip (atau kontrak) tanpa secara eksplisit menggunakan skrip. Kontrak ini memanfaatkan properti dari tanda tangan Schnorr, yang memungkinkan penggunaan *Adaptor Signatures*, terutama untuk melakukan *Atomic Swaps*. Kondisi kontrak diterapkan dan dieksekusi di luar rantai oleh pihak-pihak yang terlibat, yang merupakan satu-satunya yang mengetahui syarat-syaratnya. Tidak seperti kontrak pintar tradisional, *Scriptless Scripts* meminimalkan jejak mereka di blockchain, sehingga mengurangi biaya operasi. Kontrak ini juga lebih diskrit daripada kontrak pintar tradisional, yang meninggalkan jejak di blockchain. Dengan demikian, mereka menyerupai transaksi biasa, yang meningkatkan set anonimitas mereka.

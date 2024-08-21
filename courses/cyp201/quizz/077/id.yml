@@ -1,0 +1,10 @@
+pertanyaan: Apa ciri-ciri passphrase yang efektif untuk dompet Bitcoin?
+jawaban: Panjang (20 sampai 40 karakter) dan beragam (menggunakan huruf besar, huruf kecil, angka, dan simbol)
+jawaban_salah:
+  - Pendek dan sederhana
+  - Panjang dan sederhana
+  - Pendek dan beragam
+penjelasan: |
+  Sebuah passphrase yang efektif haruslah panjang (20 sampai 40 karakter) dan beragam
+  (menggunakan huruf besar, huruf kecil, angka, dan simbol). Ini tidak seharusnya
+  secara langsung terkait dengan pengguna atau lingkungan mereka.

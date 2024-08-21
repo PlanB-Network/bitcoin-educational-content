@@ -1,0 +1,10 @@
+pertanyaan: Siapa itu cypherpunks?
+jawaban: Sebuah kelompok orang yang mulai mempertanyakan secara mendalam tentang peran privasi dan kebebasan di era digital.
+jawaban_salah:
+  - Sebuah kelompok peretas yang mencuri informasi dari pemerintah.
+  - Sebuah kelompok orang yang menciptakan Bitcoin.
+  - Sebuah kelompok orang yang menentang penggunaan teknologi.
+penjelasan: |
+  Cypherpunks adalah kelompok individu yang percaya bahwa kriptografi
+  dapat berfungsi sebagai alat untuk melindungi hak individu dari gangguan pemerintah
+  dan korporasi besar.

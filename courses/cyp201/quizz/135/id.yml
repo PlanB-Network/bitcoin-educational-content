@@ -1,0 +1,10 @@
+pertanyaan: Apa tujuan dari passphrase dalam dompet HD?
+jawaban: Ini berfungsi sebagai garam kriptografi yang menambahkan lapisan perlindungan ekstra ke dompet.
+jawaban_salah:
+  - Ini digunakan untuk menghasilkan seed dompet.
+  - Ini digunakan untuk menurunkan kunci anak.
+  - Ini digunakan untuk menghitung checksum.
+penjelasan: |
+  Passphrase dalam dompet HD berfungsi sebagai garam kriptografi yang menambahkan
+  lapisan perlindungan ekstra ke dompet. Ini digunakan bersama dengan frasa mnemonik
+  untuk menghasilkan seed dompet.

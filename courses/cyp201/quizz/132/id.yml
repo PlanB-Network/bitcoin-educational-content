@@ -1,0 +1,12 @@
+pertanyaan: Apa itu BCH32 dalam konteks Bitcoin?
+jawaban: Ini adalah varian spesifik Bitcoin dari base 32.
+jawaban_salah:
+  - Ini adalah varian spesifik Bitcoin dari base 64.
+  - Ini adalah varian spesifik Bitcoin dari base 16.
+  - Ini adalah varian spesifik Bitcoin dari base 2.
+penjelasan: |
+  BCH32 adalah varian spesifik Bitcoin dari base 32. Ini digunakan dalam
+
+  konstruksi
+
+  alamat Bitcoin.

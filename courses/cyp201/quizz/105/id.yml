@@ -1,0 +1,12 @@
+pertanyaan: Fungsi apa yang digunakan dalam derivasi kunci anak?
+jawaban: Fungsi HMAC-SHA512 digunakan dalam derivasi kunci anak.
+jawaban_salah:
+  - Fungsi SHA256 digunakan dalam derivasi kunci anak.
+  - Fungsi MD5 digunakan dalam derivasi kunci anak.
+  - Fungsi SHA1 digunakan dalam derivasi kunci anak.
+penjelasan: |
+  Fungsi HMAC-SHA512 digunakan dalam derivasi kunci anak. Fungsi ini
+
+  menggunakan kunci induk yang digabungkan dengan indeks dan kode rantai yang terkait
+
+  dengan pasangan kunci.'

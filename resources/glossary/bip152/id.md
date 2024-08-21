@@ -1,0 +1,5 @@
+---
+term: BIP152
+---
+
+Proposal untuk "Compact Block Relay" bertujuan untuk mengurangi bandwidth yang diperlukan untuk transmisi blok melalui jaringan Bitcoin. Diadopsi pada November 2016 dalam versi 0.13.0 dari Bitcoin Core, protokol ini memungkinkan komunikasi informasi blok secara kompak, berdasarkan asumsi bahwa node sudah memiliki sebagian besar transaksi blok terkini dalam mempool mereka. Alih-alih mengirimkan setiap transaksi secara lengkap, yang akan menghasilkan duplikasi, BIP152 mengusulkan pengiriman hanya identifikasi singkat untuk transaksi yang sudah diketahui oleh peer, disertai dengan beberapa transaksi terpilih (khususnya transaksi coinbase dan transaksi yang kemungkinan besar tidak diketahui oleh node). Node kemudian dapat meminta transaksi yang hilang dari peer-nya. Compact Block Relay dengan demikian mengurangi jumlah data yang ditukar selama propagasi blok, yang mengurangi lonjakan bandwidth dan meningkatkan efisiensi keseluruhan jaringan.

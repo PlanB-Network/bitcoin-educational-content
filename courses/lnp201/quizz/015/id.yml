@@ -1,0 +1,8 @@
+pertanyaan: Mengapa Alice membutuhkan tanda tangan Bob sebelum mempublikasikan transaksi untuk membuka sebuah kanal?
+jawaban: Untuk memastikan dia dapat memulihkan dana miliknya sendiri jika terjadi sesuatu yang tidak diinginkan.
+jawaban_salah:
+  - Untuk mengonfirmasi persetujuan Bob membuka kanal tersebut.
+  - Untuk memverifikasi identitas Bob.
+  - Untuk mengenkripsi transaksi demi keamanan.
+penjelasan: |
+  Alice meminta tanda tangan dari Bob dengan kunci publiknya sebelum mempublikasikan transaksi. Ini dilakukan untuk memastikan bahwa dia dapat memulihkan dana miliknya sendiri jika terjadi sesuatu yang tidak diinginkan, karena dia sudah memiliki tanda tangan Bob.

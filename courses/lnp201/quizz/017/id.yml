@@ -1,0 +1,11 @@
+pertanyaan: Apa langkah pertama dalam membuka saluran di Lightning Network?
+jawaban: Dua peer menyampaikan niat mereka untuk membuka saluran.
+jawaban_salah:
+  - Alice mengirim uang ke alamat publik Bob.
+  - Alice membuat alamat multi-sig 2/2.
+  - Alice mempublikasikan sebuah transaksi ke jaringan Bitcoin.
+penjelasan: |
+  Langkah pertama dalam membuka saluran di Lightning Network adalah untuk
+  dua peer menyampaikan niat mereka untuk membuka saluran. Sebagai contoh, Alice mungkin
+  berkata, "Hai, saya ingin membuka saluran!" dan Bob mungkin menjawab, "Oke, ini alamat publik saya."
+ditinjau: false

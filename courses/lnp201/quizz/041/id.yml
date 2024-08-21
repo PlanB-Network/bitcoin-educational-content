@@ -1,0 +1,11 @@
+pertanyaan: Apa perbedaan antara transaksi penutupan dan transaksi komitmen dalam penutupan kooperatif?
+jawaban: Transaksi penutupan tidak memiliki Timelock dan kunci pembatalan.
+jawaban_salah:
+  - Transaksi penutupan memiliki Timelock dan kunci pembatalan.
+  - Transaksi penutupan lebih lambat daripada transaksi komitmen.
+  - Transaksi penutupan lebih mahal daripada transaksi komitmen.
+penjelasan: |
+  Dalam penutupan kooperatif, kedua peer setuju pada keadaan akhir dari
+  saluran dan membuat transaksi penutupan. Transaksi ini berbeda dari transaksi komitmen
+  karena tidak memiliki Timelock dan kunci pembatalan.
+ditinjau: false

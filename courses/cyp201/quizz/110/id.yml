@@ -1,0 +1,9 @@
+pertanyaan: Apa tujuan dari Depth 1 dalam struktur Dompet HD?
+jawaban: Digunakan untuk menurunkan kunci anak untuk tujuan tertentu
+jawaban_salah:
+  - Memungkinkan diferensiasi akun untuk berbagai mata uang kripto atau jaringan
+  - Digunakan untuk alamat penerima dalam dompet standar
+  - Sesuai dengan rantai eksternal dan internal
+penjelasan: |
+  Dalam struktur Dompet HD, Depth 1 digunakan untuk menurunkan kunci anak
+  untuk tujuan tertentu, yang ditentukan oleh indeks.

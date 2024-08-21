@@ -1,0 +1,9 @@
+pertanyaan: Bagaimana pengguna mentransfer kepemilikan uang mereka di jaringan Bitcoin?
+jawaban: Dengan menandatangani transaksi secara digital menggunakan kunci privat mereka.
+jawaban_salah:
+  - Dengan secara fisik menyerahkan Bitcoin mereka.
+  - Dengan mengirim email kepada penerima.
+  - Dengan memberikan alamat Bitcoin mereka kepada penerima.
+penjelasan: >-
+  Pengguna di jaringan Bitcoin mentransfer kepemilikan uang mereka dengan menandatangani transaksi secara digital menggunakan kunci privat mereka. Ini memverifikasi bahwa mereka adalah pemilik dari Bitcoin yang ingin mereka transfer.
+ditinjau: false

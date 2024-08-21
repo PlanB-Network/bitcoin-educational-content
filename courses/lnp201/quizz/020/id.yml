@@ -1,0 +1,9 @@
+pertanyaan: Apa saja tingkatan komunikasi yang berbeda dalam Jaringan Lightning?
+jawaban: Komunikasi P2P, Saluran pembayaran, Transaksi Bitcoin
+jawaban_salah:
+  - Komunikasi P2P, Transaksi Bitcoin, Transaksi Ethereum
+  - Saluran pembayaran, Transaksi Bitcoin, Transaksi Litecoin
+  - Komunikasi P2P, Saluran pembayaran, Transaksi Ripple
+penjelasan: |
+  Jaringan Lightning memiliki tiga tingkatan komunikasi yang berbeda; Komunikasi P2P (protokol Jaringan Lightning), Saluran pembayaran (protokol Jaringan Lightning), dan Transaksi Bitcoin (protokol Bitcoin).
+ditinjau: false

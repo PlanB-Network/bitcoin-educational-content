@@ -1,0 +1,11 @@
+pertanyaan: Apa tujuan dari transaksi penarikan dalam transfer Jaringan Lightning?
+jawaban: Ini mewakili keadaan saluran, menjamin siapa yang memiliki dana setelah setiap transfer.
+jawaban_salah:
+  - Ini adalah transaksi yang memindahkan dana dari satu sisi ke sisi lain.
+  - Ini adalah transaksi yang membuka saluran.
+  - Ini adalah transaksi yang menutup saluran.
+penjelasan: |
+  Transaksi penarikan diperbarui setelah setiap transfer Jaringan Lightning
+  untuk mencerminkan keadaan terkini dari saluran. Ini menjamin siapa yang memiliki dana setelah
+  setiap transfer, tetapi tidak dieksekusi kecuali saluran ditutup.
+ditinjau: false

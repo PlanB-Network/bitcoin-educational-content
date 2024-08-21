@@ -1,0 +1,11 @@
+pertanyaan: Apa itu hash dalam konteks fungsi hash kriptografi?
+jawaban: Sidik jari digital yang unik dan berukuran tetap yang dihasilkan oleh fungsi hash.
+jawaban_salah:
+  - Sejenis algoritma enkripsi.
+  - Kunci yang digunakan untuk mendekripsi data.
+  - Metode untuk mengompres data.
+penjelasan: |
+  Dalam konteks fungsi hash kriptografi, hash adalah sidik jari digital yang unik dan
+  berukuran tetap yang dihasilkan oleh fungsi hash. Ini merepresentasikan
+  data input dengan cara yang unik dan tidak dapat dibalikkan.
+ditinjau: false

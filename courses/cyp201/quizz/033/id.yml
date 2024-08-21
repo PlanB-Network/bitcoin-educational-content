@@ -1,0 +1,11 @@
+pertanyaan: Apa itu perkalian skalar suatu titik dengan n pada kurva eliptik?
+jawaban: Setara dengan menambahkan titik tersebut dengan dirinya sendiri sebanyak n kali
+jawaban_salah:
+  - Setara dengan mengurangkan titik tersebut dari dirinya sendiri sebanyak n kali
+  - Setara dengan mengalikan titik tersebut dengan dirinya sendiri sebanyak n kali
+  - Setara dengan membagi titik tersebut dengan dirinya sendiri sebanyak n kali
+penjelasan: |
+  Perkalian skalar suatu titik dengan n pada kurva eliptik setara
+  dengan menambahkan titik tersebut dengan dirinya sendiri sebanyak n kali. Operasi ini merupakan dasar untuk menghitung
+  kunci publik dalam sistem Bitcoin.
+ditinjau: false

@@ -1,0 +1,10 @@
+pertanyaan: Apa yang dilakukan Alice setelah menerima alamat publik Bob?
+jawaban: Dia membuat alamat multi-sig 2/2.
+jawaban_salah:
+  - Dia mengirim uang ke alamat publik Bob.
+  - Dia mempublikasikan sebuah transaksi ke jaringan Bitcoin.
+  - Dia meminta tanda tangan Bob.
+penjelasan: |
+  Setelah menerima alamat publik Bob, Alice menggunakan alamat tersebut bersama dengan
+  alamat publiknya sendiri untuk membuat alamat multi-sig 2/2. Ini adalah alamat tempat dia
+  akan mengirim uang untuk membuka kanal.

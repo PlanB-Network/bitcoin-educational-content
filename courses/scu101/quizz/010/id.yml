@@ -1,0 +1,11 @@
+pertanyaan: Apa perbedaan antara VPN perusahaan dan VPN konsumen?
+jawaban: VPN perusahaan lebih mahal dan kompleks, sementara VPN konsumen lebih mudah diakses dan ramah pengguna.
+jawaban_salah:
+  - VPN perusahaan kurang aman dibandingkan VPN konsumen.
+  - VPN konsumen lebih mahal daripada VPN perusahaan.
+  - VPN perusahaan tidak mengenkripsi data, sementara VPN konsumen melakukannya.
+penjelasan: |
+  VPN perusahaan dirancang untuk bisnis dan biasanya lebih mahal
+  serta kompleks untuk diatur dan dikelola. Di sisi lain, VPN konsumen dirancang
+  untuk pengguna individu dan umumnya lebih mudah diakses dan ramah pengguna.
+ditinjau: false

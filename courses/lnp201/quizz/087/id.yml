@@ -1,0 +1,8 @@
+pertanyaan: Apa tujuan dari node routing dalam hal likuiditas di Lightning Network?
+jawaban: Untuk seimbang dengan likuiditas di kedua sisi
+jawaban_salah:
+  - Untuk membuka saluran
+  - Untuk terhubung ke node lain
+  - Untuk membeli saluran
+penjelasan: |
+  Untuk node routing di Lightning Network, tujuan dalam hal likuiditas adalah untuk seimbang dengan likuiditas di kedua sisi. Mereka juga bertujuan untuk memiliki koneksi yang baik dengan banyak node agar dapat digunakan sebanyak mungkin.

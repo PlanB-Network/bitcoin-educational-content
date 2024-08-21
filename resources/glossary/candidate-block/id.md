@@ -1,0 +1,5 @@
+---
+term: CANDIDATE BLOCK
+---
+
+Candidate block adalah blok yang sedang dalam proses pembuatan oleh penambang yang berpartisipasi dalam proses penambangan sistem Bitcoin. Candidate block merupakan struktur data sementara yang berisi transaksi yang menunggu untuk dikonfirmasi tetapi belum memiliki bukti kerja yang valid untuk ditambahkan ke blockchain. Penambang memilih transaksi untuk dimasukkan ke dalam candidate block berdasarkan berbagai faktor, seperti biaya transaksi yang terkait dan batasan ukuran blok. Setelah transaksi dipilih, penambang menghasilkan header blok, yang mencakup versi, digest dari transaksi (akar Merkle), cap waktu, hash dari blok sebelumnya, target kesulitan, dan nonce. Kemudian, penambang mencoba menemukan hash dari header-nya yang memenuhi target kesulitan saat ini. Untuk melakukan ini, penambang memodifikasi nonce yang ada di header. Penambang juga dapat memodifikasi informasi lain yang ada di candidate block mereka. Ini adalah mekanisme bukti kerja. Jika penambang berhasil menemukan hash yang valid, candidate block menjadi blok yang valid dan disiarkan ke jaringan untuk ditambahkan ke blockchain.

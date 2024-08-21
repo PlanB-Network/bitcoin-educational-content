@@ -1,0 +1,9 @@
+pertanyaan: Apa yang mengubah distribusi kapasitas dalam saluran pembayaran Lightning?
+jawaban: Transaksi di dalam saluran
+jawaban_salah:
+  - Perubahan dalam nilai tukar Bitcoin
+  - Perubahan dalam kapasitas total saluran
+  - Perubahan dalam jaringan Bitcoin
+penjelasan: |
+  Transaksi di dalam saluran tidak mengubah kapasitas total dari
+  saluran tersebut, tetapi mereka mengubah distribusi kapasitas tersebut antara pengguna.

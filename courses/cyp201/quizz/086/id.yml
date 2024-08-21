@@ -1,0 +1,11 @@
+pertanyaan: Apa hasil dari algoritma HMAC SHA-512?
+jawaban: Sebuah angka 512-bit, dibagi menjadi dua bagian; 256 bit paling kiri mewakili kunci privat utama, sementara 256 bit paling kanan mewakili kode rantai utama.
+jawaban_salah:
+  - Sebuah angka 256-bit yang mewakili kunci privat utama.
+  - Sebuah angka 256-bit yang mewakili kode rantai utama.
+  - Sebuah angka 512-bit yang mewakili seed.
+penjelasan: |
+  Hasil dari HMAC SHA-512 adalah sebuah angka 512-bit, dibagi menjadi dua bagian;
+  256 bit paling kiri mewakili kunci privat utama, sementara 256 bit paling kanan
+  mewakili kode rantai utama.
+ditinjau: false

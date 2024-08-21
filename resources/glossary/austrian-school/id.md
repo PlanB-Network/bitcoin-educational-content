@@ -1,0 +1,5 @@
+---
+istilah: AUSTRIAN SCHOOL
+---
+
+Sebuah aliran pemikiran ekonomi yang menggambarkan pasar sebagai kumpulan interaksi individu yang sukarela, menekankan pada spontanitas tatanan ekonomi, dan mengkritik intervensi negara. Austrian School menganjurkan peran dari properti pribadi, kebebasan kontraktual, dan perdagangan bebas, sambil mengkritik efek mengganggu dari penciptaan moneter terhadap ekonomi. Kontributornya, seperti Carl Menger, Ludwig von Mises, dan Friedrich Hayek, telah mengembangkan konsep seperti pembentukan harga, fungsi uang, dinamika kapital, dan teori nilai subjektif. Austrian School mengkritik sosialisme karena ketidakmampuannya melakukan perhitungan ekonomi yang efisien dan mendukung pendekatan liberal. Aliran ini menghargai pasar bebas dan melihat intervensionisme negara sebagai sumber ketidakseimbangan ekonomi. Banyak penggemar Bitcoin mengikuti ide-ide ini, percaya bahwa Bitcoin mewakili alat yang harmonis dengan filosofi ini karena sifatnya yang terdistribusi, pembatasan penciptaan moneternya, dan kemampuannya untuk beroperasi secara independen dari intervensi negara.

@@ -1,0 +1,9 @@
+pertanyaan: Apa itu trilema blockchain?
+jawaban: Sebuah protokol berbasis blockchain hanya dapat memenuhi dua dari tiga aspek: desentralisasi, keamanan, dan skalabilitas.
+jawaban_salah:
+  - Sebuah protokol berbasis blockchain hanya dapat memenuhi satu dari desentralisasi, keamanan, dan skalabilitas.
+  - Sebuah protokol berbasis blockchain dapat memenuhi semua aspek desentralisasi, keamanan, dan skalabilitas.
+  - Sebuah protokol berbasis blockchain tidak dapat memenuhi aspek desentralisasi, keamanan, dan skalabilitas sama sekali.
+penjelasan: |
+  Trilema blockchain merujuk pada tantangan bahwa sebuah protokol berbasis blockchain hanya dapat memenuhi dua dari tiga aspek: desentralisasi, keamanan, dan skalabilitas.
+ditinjau: false

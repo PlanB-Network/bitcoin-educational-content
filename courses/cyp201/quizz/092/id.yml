@@ -1,0 +1,10 @@
+pertanyaan: Berapa ukuran kunci publik yang dikompresi?
+jawaban: 33 byte
+jawaban_salah:
+  - 32 byte
+  - 82 byte
+  - 512 bit
+penjelasan: |
+  Kunci publik yang dikompresi memiliki ukuran 33 byte. Mereka mempertahankan informasi yang sama
+
+  seperti kunci yang tidak dikompresi, tetapi dengan ukuran yang lebih kecil.

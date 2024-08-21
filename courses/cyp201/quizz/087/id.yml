@@ -1,0 +1,10 @@
+pertanyaan: Apa hubungan antara kunci privat utama dan kunci ekstensi dari dompet?
+jawaban: Kunci privat utama adalah kunci privat pertama yang diturunkan dari seed dan tidak memiliki koneksi dengan kunci ekstensi dari dompet.
+jawaban_salah:
+  - Kunci privat utama diturunkan dari kunci ekstensi dari dompet.
+  - Kunci privat utama sama dengan kunci ekstensi dari dompet.
+  - Kunci privat utama digunakan untuk menghasilkan kunci ekstensi dari dompet.
+penjelasan: |
+  Kunci privat utama adalah kunci privat pertama yang diturunkan dari seed
+  dan tidak memiliki koneksi dengan kunci ekstensi dari dompet.
+ditinjau: false

@@ -1,0 +1,8 @@
+pertanyaan: Mengapa data biometrik dianggap kurang aman dibandingkan kombinasi pengetahuan dan kepemilikan untuk 2FA?
+jawaban: Data biometrik seharusnya tetap berada pada perangkat autentikasi dan tidak boleh diungkapkan secara online.
+jawaban_salah:
+  - Data biometrik lebih mudah dipalsukan
+  - Data biometrik lebih sulit diingat
+  - Data biometrik lebih mahal untuk diimplementasikan
+penjelasan: |
+  Data biometrik dianggap kurang aman karena seharusnya tetap berada pada perangkat autentikasi dan tidak boleh diungkapkan secara online. Jika data tersebut diungkapkan secara online, data tersebut dapat dicuri dan digunakan untuk akses tidak sah.

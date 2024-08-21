@@ -1,0 +1,5 @@
+---
+term: NORMAL DERIVATION
+---
+
+Proses menghasilkan kunci anak dalam dompet HD. Normal derivation menggunakan kunci publik induk sebagai input untuk fungsi `HMAC-SHA512`, memungkinkan generasi kunci publik anak dari kunci publik induk dan kode rantai induk. Proses ini melibatkan penggabungan kunci publik induk dan indeks kurang dari $2^{31}$, diikuti dengan aplikasi `HMAC-SHA512` dengan kode rantai induk. Hasilnya dibagi menjadi dua bagian: 256 bit pertama ditambahkan ke kunci privat induk untuk memperoleh kunci privat anak, sementara 256 bit yang tersisa membentuk kode rantai anak. Metode ini memastikan bahwa kunci publik yang diperluas dapat digunakan untuk menurunkan kunci publik anak. Dalam derivasi standar, normal derivation digunakan di semua tingkat derivasi dari kedalaman akun. Dalam notasi jalur derivasi, derivasi normal diidentifikasi ketika hanya ada indeks tanpa apostrof `'`.

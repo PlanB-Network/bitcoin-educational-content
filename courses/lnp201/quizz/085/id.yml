@@ -1,0 +1,8 @@
+pertanyaan: Apa tugas termudah untuk mengelola likuiditas di Jaringan Lightning?
+jawaban: Membuka saluran untuk pembeli
+jawaban_salah:
+  - Menghubungkan ke node lain untuk pedagang
+  - Mempertahankan keseimbangan likuiditas di kedua sisi untuk node perutean
+  - Membeli saluran untuk pedagang
+penjelasan: |
+  Untuk pembeli di Jaringan Lightning, tugas termudah untuk mengelola likuiditas adalah membuka saluran. Ini memberi mereka likuiditas keluar.

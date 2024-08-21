@@ -1,0 +1,10 @@
+pertanyaan: Apa itu Lightning Network?
+jawaban: Teknologi yang dapat memungkinkan transaksi Bitcoin dengan cepat.
+jawaban_salah:
+  - Teknologi yang memperlambat transaksi Bitcoin.
+  - Teknologi yang tidak memiliki dampak pada transaksi Bitcoin.
+  - Teknologi yang membuat transaksi Bitcoin menjadi kurang aman.
+penjelasan: |
+  Lightning Network adalah teknologi yang dapat meningkatkan transaksi Bitcoin,
+  membuatnya lebih cepat dan lebih efisien. Ini adalah upaya untuk menyelesaikan masalah skalabilitas yang dihadapi oleh Bitcoin.
+ditinjau: true

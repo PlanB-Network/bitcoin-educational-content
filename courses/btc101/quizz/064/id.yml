@@ -1,0 +1,11 @@
+pertanyaan: Apa perintah untuk memverifikasi jumlah bitcoin yang beredar pada
+  sebuah node Bitcoin?
+jawaban: bitcoin-cli gettxoutsetinfo
+jawaban_salah:
+  - bitcoin-cli getblockchaininfo
+  - bitcoin-cli getwalletinfo
+  - bitcoin-cli getnetworkinfo
+penjelasan: |
+  Perintah untuk memverifikasi jumlah bitcoin yang beredar pada sebuah node Bitcoin adalah bitcoin-cli gettxoutsetinfo. Perintah ini memberikan transparansi dan dapat diverifikasi,
+  memperkuat kepercayaan pada sistem Bitcoin.
+ditinjau: true

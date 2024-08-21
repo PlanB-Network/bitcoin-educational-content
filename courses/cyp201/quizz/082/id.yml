@@ -1,0 +1,9 @@
+pertanyaan: Apakah passphrase lebih aman daripada password sederhana?
+jawaban: "Ya"
+jawaban_salah:
+  - "Tidak"
+  - Tergantung pada panjang password
+  - Tergantung pada kompleksitas password
+penjelasan: |
+  Sebuah passphrase lebih aman daripada password sederhana. Passphrase yang ideal itu panjang, bervariasi, dan acak. Ini dapat meningkatkan keamanan sebuah dompet atau perangkat lunak yang selalu terhubung (hot software).
+ditinjau: false

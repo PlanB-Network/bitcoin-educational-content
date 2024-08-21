@@ -1,0 +1,11 @@
+pertanyaan: Apa peran dari fungsi hash kriptografi dalam memverifikasi integritas
+  dari perangkat lunak yang diunduh?
+jawaban: Mereka bertindak sebagai penjaga digital, memverifikasi integritas dari perangkat lunak yang diunduh.
+jawaban_salah:
+  - Mereka mengenkripsi perangkat lunak untuk melindunginya dari hacker.
+  - Mereka mengompres perangkat lunak untuk mengurangi waktu unduh.
+  - Mereka menghasilkan kunci unik untuk setiap unduhan.
+penjelasan: |
+  Fungsi hash kriptografi memainkan peran krusial dalam memverifikasi integritas
+  dari perangkat lunak yang diunduh. Dengan membandingkan hash dari file yang diunduh dengan hash yang diharapkan,
+  seseorang dapat memverifikasi bahwa file tersebut tidak telah diubah.

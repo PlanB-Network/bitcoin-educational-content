@@ -1,0 +1,10 @@
+pertanyaan: Kapan transaksi penarikan dilaksanakan dalam transfer Jaringan Lightning?
+jawaban: Ketika saluran ditutup.
+jawaban_salah:
+  - Ketika transfer dilakukan.
+  - Ketika saluran dibuka.
+  - Tidak pernah dilaksanakan.
+penjelasan: |
+  Transaksi penarikan, yang mewakili keadaan saluran,
+  tidak dilaksanakan kecuali saluran ditutup.
+ditinjau: false

@@ -1,0 +1,10 @@
+pertanyaan: Apa peran unit bitcoin dalam kehidupan sehari-hari?
+jawaban: Digunakan untuk membeli dan menjual barang dan jasa.
+jawaban_salah:
+  - Digunakan untuk menambang bitcoin baru.
+  - Digunakan untuk mengatur harga Bitcoin.
+  - Digunakan untuk mengontrol protokol Bitcoin.
+penjelasan: |
+  Dalam kehidupan sehari-hari, orang menggunakan unit Bitcoin untuk membeli dan menjual barang dan
+  jasa. Ini bergantung pada protokol Bitcoin untuk berfungsi.
+ditinjau: true

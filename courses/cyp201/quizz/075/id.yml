@@ -1,0 +1,8 @@
+pertanyaan: Fungsi apa yang digunakan untuk menghasilkan seed dari passphrase dalam dompet Bitcoin?
+jawaban: pbkdf2
+jawaban_salah:
+  - sha256
+  - md5
+  - bcrypt
+penjelasan: |
+  Fungsi pbkdf2 digunakan untuk menghasilkan seed dari passphrase dalam dompet Bitcoin. Seed ini memungkinkan derivasi dari semua pasangan kunci anak dari dompet tersebut.

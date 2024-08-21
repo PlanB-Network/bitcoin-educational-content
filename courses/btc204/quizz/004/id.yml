@@ -1,0 +1,9 @@
+pertanyaan: Apa yang mengamankan UTXO pada Bitcoin?
+jawaban: Melalui skrip yang mendefinisikan kondisi pengeluaran.
+jawaban_salah:
+  - Melalui verifikasi periodik oleh penambang.
+  - Melalui basis data terpusat.
+  - Melalui verifikasi identitas pengguna.
+penjelasan: |
+  Output dari transaksi Bitcoin adalah UTXO yang diamankan dengan skrip. Skrip ini mengharuskan kondisi pengeluaran yang telah ditentukan sebelumnya dipenuhi agar UTXO dapat dihabiskan.
+ditinjau: false

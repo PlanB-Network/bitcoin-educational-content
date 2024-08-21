@@ -1,0 +1,12 @@
+pertanyaan: Apa tujuan utama dari tanda tangan digital dalam protokol Bitcoin?
+jawaban: Untuk menunjukkan kepemilikan kunci privat yang terkait dengan kunci publik tertentu
+jawaban_salah:
+  - Untuk mengenkripsi data transaksi
+  - Untuk menghasilkan bitcoin baru
+  - Untuk memverifikasi identitas pengirim
+penjelasan: |
+  Di inti protokol Bitcoin, tanda tangan digital digunakan sebagai
+  bukti matematis
+  yang menunjukkan kepemilikan kunci privat yang terkait dengan kunci publik
+  tertentu.
+ditinjau: false

@@ -1,0 +1,9 @@
+pertanyaan: Apa kekhawatiran utama dengan Single Sign-On (SSO) yang ditawarkan oleh raksasa internet?
+jawaban: Ini menimbulkan masalah dalam hal ketersediaan dan risiko sensor.
+jawaban_salah:
+  - Sulit untuk digunakan.
+  - Membutuhkan banyak ruang penyimpanan.
+  - Tidak kompatibel dengan semua situs web.
+penjelasan: |
+  Single Sign-On (SSO) yang ditawarkan oleh raksasa internet menimbulkan masalah dalam hal ketersediaan dan risiko sensor. Ini karena jika penyedia SSO mengalami gangguan atau memutuskan untuk memblokir pengguna, pengguna dapat kehilangan akses ke semua layanan yang menggunakan SSO tersebut untuk otentikasi.
+ditinjau: false

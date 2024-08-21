@@ -1,0 +1,9 @@
+pertanyaan: Berapa waktu rata-rata antara dua blok dalam protokol Bitcoin?
+jawaban: 10 menit
+jawaban_salah:
+  - 5 menit
+  - 15 menit
+  - 20 menit
+penjelasan: >-
+  Rata-rata, waktu antara dua blok dalam protokol Bitcoin adalah 10 menit.
+ditinjau: false

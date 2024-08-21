@@ -1,0 +1,11 @@
+pertanyaan: Siapa yang memiliki kunci pembatalan dalam transaksi komitmen Alice?
+jawaban: Hanya Alice.
+jawaban_salah:
+  - Hanya Bob.
+  - Alice dan Bob.
+  - Tidak Alice maupun Bob.
+penjelasan: |
+  Dalam transaksi komitmen Alice, hanya Alice yang memiliki kunci pembatalan.
+  Hal ini memungkinkan dia untuk memindahkan dana tanpa menunggu berakhirnya Timelock jika
+  Bob mencoba untuk curang.
+ditinjau: false

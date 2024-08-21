@@ -1,0 +1,11 @@
+pertanyaan: Format representasi apa yang digunakan untuk standar segwit untuk mendapatkan alamat dompet HD?
+jawaban: Format bech32
+jawaban_salah:
+  - Format base 58
+  - Format SHA256
+  - Format RIPMD160
+penjelasan: |
+  Setelah menghitung checksum, representasi format base 58 digunakan
+  untuk standar warisan, sementara format bech32 digunakan untuk standar segwit, untuk
+  mendapatkan alamat dompet HD.
+ditinjau: false

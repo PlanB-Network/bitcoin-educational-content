@@ -1,0 +1,12 @@
+pertanyaan: Apa tujuan dari perutean transaksi di Lightning Network?
+jawaban: Untuk mengoptimalkan kecepatan, keamanan, dan efisiensi transaksi sambil menjaga privasi pengguna.
+jawaban_salah:
+  - Untuk meningkatkan ukuran blockchain.
+  - Untuk menurunkan kecepatan transaksi.
+  - Untuk mengkompromikan privasi pengguna.
+penjelasan: |
+  Tujuan dari perutean transaksi di Lightning Network adalah untuk mengoptimalkan
+  kecepatan, keamanan, dan efisiensi transaksi. Ini dicapai dengan mempertimbangkan
+  berbagai faktor seperti biaya, waktu kedaluwarsa HTLC, jumlah node perantara,
+  dan faktor keacakan. Pada saat yang sama, sistem dirancang untuk menjaga privasi pengguna
+  dengan tidak mengungkapkan distribusi likuiditas yang tepat.

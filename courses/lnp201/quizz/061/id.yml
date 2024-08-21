@@ -1,0 +1,8 @@
+pertanyaan: Apa yang terjadi ketika HTLC berakhir?
+jawaban: Uang dikembalikan ke pengirim.
+jawaban_salah:
+  - Uang ditransfer ke penerima.
+  - Uang hilang.
+  - Uang ditransfer ke pihak ketiga.
+penjelasan: |
+  Jika penerima tidak mengungkapkan rahasia dalam jangka waktu tertentu, HTLC akan berakhir dan uang akan dikembalikan ke pengirim.

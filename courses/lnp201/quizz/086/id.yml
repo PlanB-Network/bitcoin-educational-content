@@ -1,0 +1,10 @@
+pertanyaan: Apa yang dibutuhkan pedagang untuk mengelola likuiditas di Jaringan Lightning?
+jawaban: Mereka membutuhkan likuiditas masuk dari node dan aktor lainnya
+jawaban_salah:
+  - Mereka perlu membuka saluran
+  - Mereka perlu mempertahankan keseimbangan likuiditas di kedua sisi
+  - Mereka perlu membeli saluran
+penjelasan: |
+  Bagi pedagang di Jaringan Lightning, mengelola likuiditas melibatkan kebutuhan akan
+  likuiditas masuk dari node dan aktor lainnya. Ini berarti mereka harus memiliki orang
+  yang terhubung dengan mereka.

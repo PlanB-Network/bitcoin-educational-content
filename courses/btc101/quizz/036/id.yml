@@ -1,0 +1,11 @@
+pertanyaan: Apa arti istilah 'fidusiari' dalam konteks mata uang?
+jawaban: Ini merujuk pada mata uang yang tidak memiliki nilai intrinsik dan bergantung pada kepercayaan pada institusi yang mengaturnya.
+jawaban_salah:
+  - Ini merujuk pada mata uang yang didukung oleh emas.
+  - Ini merujuk pada mata uang yang digunakan hanya untuk transaksi fidusiari.
+  - Ini merujuk pada mata uang yang digunakan hanya di dalam institusi tertentu.
+penjelasan: |
+  Mata uang fidusiari adalah mata uang yang tidak didukung oleh komoditas fisik
+  seperti emas atau perak. Nilai mereka berasal dari kepercayaan dan keyakinan orang
+  pada institusi yang menerbitkan dan mengaturnya.
+ditinjau: true

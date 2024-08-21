@@ -1,0 +1,12 @@
+pertanyaan: Apa peran entropi dalam dompet Hierarchical Deterministic (HD) dengan BIP32?
+jawaban: Digunakan untuk menghasilkan frasa mnemonik dari sebuah angka acak.
+jawaban_salah:
+  - Digunakan untuk menghasilkan benih dompet.
+  - Digunakan untuk menurunkan kunci anak.
+  - Digunakan untuk menghitung checksum.
+penjelasan: |
+  Dalam dompet Hierarchical Deterministic (HD) dengan BIP32, entropi memainkan
+  peran sentral karena digunakan untuk menghasilkan frasa mnemonik dari sebuah angka acak.
+  Frasa mnemonik ini kemudian dapat dikodekan menjadi serangkaian kata yang mudah diingat
+  menggunakan daftar 2048 kata yang disediakan dalam BIP39.
+ditinjau: false

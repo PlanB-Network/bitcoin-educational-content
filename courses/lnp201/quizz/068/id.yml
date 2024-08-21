@@ -1,0 +1,8 @@
+pertanyaan: Mengapa distribusi likuiditas yang tepat di Lightning Network tidak dapat diakses secara langsung?
+jawaban: Untuk menjaga privasi dan keamanan pengguna.
+jawaban_salah:
+  - Untuk mengurangi ukuran blockchain.
+  - Untuk meningkatkan kecepatan transaksi.
+  - Untuk mengurangi kompleksitas jaringan.
+penjelasan: |
+  Distribusi likuiditas yang tepat di Lightning Network tidak dapat diakses secara langsung untuk menjaga privasi dan keamanan pengguna. Meskipun kapasitas total dari saluran adalah publik, lokasi pasti dari likuiditas tidak diungkapkan. Ini mencegah potensi penyerang menargetkan saluran atau node tertentu dengan likuiditas tinggi.

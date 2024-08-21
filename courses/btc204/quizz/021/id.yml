@@ -1,0 +1,9 @@
+pertanyaan: Apa pola pembayaran sederhana pada Bitcoin?
+jawaban: 1 atau lebih UTXO pada input dan 2 UTXO pada output.
+jawaban_salah:
+  - 1 UTXO pada input dan 1 UTXO pada output
+  - Beberapa UTXO pada input dan 1 UTXO pada output
+  - 5 UTXO pada input dan 5 UTXO pada output
+penjelasan: |
+  Dalam pembayaran sederhana, pengguna menggunakan satu atau lebih UTXO sebagai input untuk memenuhi dalam output sebuah UTXO pembayaran dan sebuah UTXO kembalian (jadi 2 UTXO).
+ditinjau: false

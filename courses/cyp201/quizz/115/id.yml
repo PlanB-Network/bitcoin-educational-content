@@ -1,0 +1,10 @@
+pertanyaan: Apa tujuan dari indeks yang diperkuat dalam struktur Dompet HD?
+jawaban: Mereka digunakan dengan tanda apostrof untuk beberapa derivasi tertentu
+jawaban_salah:
+  - Mereka digunakan untuk menurunkan kunci anak untuk tujuan tertentu
+  - Mereka memungkinkan diferensiasi akun untuk berbagai mata uang kripto atau jaringan
+  - Mereka sesuai dengan rantai eksternal dan internal
+penjelasan: |
+  Dalam struktur Dompet HD, indeks yang diperkuat digunakan dengan tanda apostrof
+  untuk beberapa derivasi tertentu.
+ditinjau: false

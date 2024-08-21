@@ -1,0 +1,10 @@
+pertanyaan: Apa yang digunakan untuk menurunkan alamat dalam dompet HD?
+jawaban: Kunci publik yang dikompres
+jawaban_salah:
+  - Frasa mnemonik
+  - Kata sandi
+  - Benih dompet
+penjelasan: |
+  Untuk menurunkan alamat dalam dompet HD, kunci publik yang dikompres pertama-tama
+  di-hash menggunakan SHA256 dan RIPMD160, kemudian checksum dihitung.
+ditinjau: false

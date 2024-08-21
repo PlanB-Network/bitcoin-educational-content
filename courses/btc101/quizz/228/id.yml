@@ -1,0 +1,9 @@
+pertanyaan: Biaya untuk transaksi di Lightning Network seringkali kurang dari berapa persen?
+jawaban: 0,5%
+jawaban_salah:
+  - 1%
+  - 2%
+  - 3%
+penjelasan: >-
+  Biaya untuk transaksi di Lightning Network sangat rendah, seringkali kurang dari 0,5%.
+ditinjau: false

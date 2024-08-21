@@ -1,0 +1,10 @@
+pertanyaan: Apa tujuan utama dari Penghasil Angka Acak (RNG) dalam transaksi Bitcoin?
+jawaban: Untuk memastikan integritas kunci privat.
+jawaban_salah:
+  - Untuk memastikan kecepatan transaksi.
+  - Untuk memastikan anonimitas transaksi.
+  - Untuk memastikan legalitas transaksi.
+penjelasan: |
+  RNG digunakan untuk menghasilkan angka acak, yang sangat penting untuk integritas
+  kunci privat dalam transaksi Bitcoin. Ini membantu mencegah kerentanan
+  yang terkait dengan prediktabilitas.

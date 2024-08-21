@@ -1,0 +1,9 @@
+pertanyaan: Apa satuan Bitcoin yang digunakan di Jaringan Lightning?
+jawaban: Sats
+jawaban_salah:
+  - Bitcoin
+  - Ether
+  - Litecoin
+penjelasan: >-
+  Jaringan Lightning menggunakan sats (desimal dari bitcoin) untuk berfungsi.
+ditinjau: false

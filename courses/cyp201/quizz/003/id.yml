@@ -1,0 +1,12 @@
+pertanyaan: Mengapa SHA0, SHA1, dan MD5 dianggap sebagai fungsi hash yang usang?
+jawaban: Mereka telah kehilangan resistensi mereka terhadap tabrakan.
+jawaban_salah:
+  - Mereka terlalu lambat untuk dihitung.
+  - Mereka menghasilkan sidik jari yang terlalu besar.
+  - Mereka tidak dapat dibalik.
+penjelasan: |
+  SHA0, SHA1, dan MD5 dianggap sebagai fungsi hash yang usang karena mereka
+  telah kehilangan resistensi mereka terhadap tabrakan. Ini berarti bahwa relatif mudah untuk
+  menemukan dua input berbeda yang menghasilkan output yang sama, yang merupakan cacat keamanan
+  yang besar.
+ditinjau: false

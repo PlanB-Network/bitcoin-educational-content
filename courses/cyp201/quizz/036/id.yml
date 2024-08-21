@@ -1,0 +1,9 @@
+pertanyaan: Apa titik awal untuk menghitung semua kunci publik pengguna dalam sistem Bitcoin?
+jawaban: Titik G
+jawaban_salah:
+  - Titik K
+  - Titik U
+  - Titik O
+penjelasan: |
+  Titik G adalah titik awal untuk menghitung semua kunci publik pengguna dalam sistem Bitcoin.
+ditinjau: false

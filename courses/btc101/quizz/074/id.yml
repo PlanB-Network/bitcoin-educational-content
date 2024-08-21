@@ -1,0 +1,11 @@
+pertanyaan: Di mana sebenarnya bitcoin disimpan?
+jawaban: Di blockchain Bitcoin
+jawaban_salah:
+  - Di dompet Bitcoin
+  - Di perangkat tempat dompet tersebut terinstal
+  - Di cadangan federal
+penjelasan: |
+  Meskipun kunci privat Anda disimpan di dalam dompet Anda, bitcoin itu sendiri
+  sebenarnya disimpan di blockchain Bitcoin, yang merupakan buku besar terdistribusi publik
+  dalam jaringan peer-to-peer Bitcoin.
+ditinjau: true

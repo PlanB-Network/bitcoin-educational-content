@@ -1,0 +1,11 @@
+pertanyaan: Bagaimana kunci publik anak diperoleh dalam derivasi kunci anak?
+jawaban: Kunci publik anak diperoleh dengan mengalikan kunci privat anak dengan generator dari kurva eliptik.
+jawaban_salah:
+  - Kunci publik anak diperoleh dengan menambahkan kunci privat anak ke generator dari kurva eliptik.
+  - Kunci publik anak diperoleh dengan mengurangkan kunci privat anak dari generator dari kurva eliptik.
+  - Kunci publik anak diperoleh dengan membagi kunci privat anak dengan generator dari kurva eliptik.
+penjelasan: |
+  Kunci publik anak diperoleh dengan mengalikan kunci privat anak
+  dengan generator dari kurva eliptik. Ini merupakan bagian dari perhitungan matematis
+  yang digunakan dalam derivasi kunci anak.
+ditinjau: false

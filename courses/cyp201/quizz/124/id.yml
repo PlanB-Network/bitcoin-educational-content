@@ -1,0 +1,10 @@
+pertanyaan: Apa peran utama dari alamat penerima dalam sistem Bitcoin?
+jawaban: Mereka memungkinkan untuk menerima dana pada sebuah koin.
+jawaban_salah:
+  - Mereka memungkinkan untuk mengirim dana dari sebuah koin.
+  - Mereka memungkinkan untuk menambang bitcoin baru.
+  - Mereka memungkinkan untuk memverifikasi transaksi.
+penjelasan: |
+  Peran utama dari alamat penerima dalam sistem Bitcoin adalah untuk memungkinkan
+  penerimaan dana pada sebuah koin. Mereka dihasilkan dari pasangan kunci privat dan publik.
+ditinjau: false

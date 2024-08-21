@@ -1,0 +1,9 @@
+---
+term: GAP LIMIT
+---
+
+Sebuah parameter yang digunakan dalam perangkat lunak dompet Bitcoin untuk menentukan jumlah maksimum alamat yang tidak digunakan secara berturut-turut yang dihasilkan sebelum menghentikan pencarian transaksi tambahan. Penyesuaian parameter ini sering kali diperlukan ketika memulihkan dompet untuk memastikan bahwa semua transaksi ditemukan. Gap Limit yang tidak cukup bisa mengakibatkan beberapa transaksi hilang jika alamat dilewati selama fase derivasi. Meningkatkan Gap Limit memungkinkan dompet untuk mencari lebih jauh dalam urutan alamat, agar dapat memulihkan semua transaksi yang terkait.
+
+Memang, sebuah `xpub` secara teoritis dapat menghasilkan lebih dari 4 miliar alamat penerima (baik alamat internal maupun eksternal). Namun, perangkat lunak dompet tidak dapat menghasilkan dan memeriksa semuanya untuk penggunaan tanpa menimbulkan biaya operasional yang besar. Oleh karena itu, mereka melanjutkan dalam urutan indeks, karena ini biasanya adalah urutan di mana semua perangkat lunak dompet menghasilkan alamat. Perangkat lunak mencatat setiap alamat yang digunakan sebelum beralih ke yang berikutnya, dan menghentikan pencariannya ketika menemukan sejumlah alamat kosong secara berturut-turut. Jumlah ini adalah yang disebut Gap Limit.
+
+Jika, misalnya, Gap Limit ditetapkan menjadi `20`, dan alamat `m/84'/0'/0'/0/15/` kosong, dompet akan menghasilkan alamat hingga `m/84'/0'/0'/0/34/`. Jika rentang alamat ini tetap tidak digunakan, pencarian berhenti di sana. Akibatnya, sebuah transaksi yang menggunakan alamat `m/84'/0'/0'/0/40/` tidak akan terdeteksi dalam contoh ini.

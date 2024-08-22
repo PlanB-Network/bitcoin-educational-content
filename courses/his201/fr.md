@@ -782,7 +782,7 @@ Martti Malmi met aussi en place un forum et un wiki, toujours sur la page Source
 >
 > *original: "The new Bitcoin website/portal is up at bitcoin.sourceforge.net. Forums and a wiki are included, so you're welcome to join discussion and wiki documentation."*
 
-Ce forum rencontre son public. Il semble qu'il [donne](https://mmalmi.github.io/satoshi/#email-27) même lieu à la création d'un canal IRC dédié au développement (`#bitcoin-dev`) en août. Nous ne disposons néanmoins pas d'archive car il n'était accessible que pour ses membres.
+Ce forum rencontre son public. Il semble qu'il [donne](https://mmalmi.github.io/satoshi/#email-27) même lieu à la création d'un canal IRC dédié au développement (#bitcoin-dev) en août. Nous ne disposons néanmoins pas d'archive car il n'était accessible que pour ses membres.
 
 Au fil des mois, de plus en plus de gens s'inscrivent et interviennent sur ce premier forum, ce qui fait prendre conscience à Satoshi que l'infrastructure logicielle mise en place par Malmi n'est pas suffisante. Le 5 novembre, il écrit au jeune Finlandais pour suggérer la création d'un nouveau forum qui serait à même de recevoir un trafic plus élevé :
 
@@ -1272,7 +1272,7 @@ Après le slashdotting de Bitcoin en juillet 2010, la récompense financière é
 
 Taux de hachage total du réseau du 11 juillet au 5 octobre 2010 (source : [CoinWarz](https://www.coinwarz.com/mining/bitcoin/hashrate-chart))
 
-Le plus gros mineur de cette période est un développeur allemand qui se fait appeler ArtForz. Après avoir l'existence de Bitcoin par le biais de Slashdot, il s'investit rapidement dans le développement du logiciel et passe beaucoup de temps sur le canal IRC `#bitcoin-dev`. En particulier, il développe son propre algorithme de minage par GPU avec OpenCL, qu'il fait fonctionner avec la carte graphique de son ordinateur.
+Le plus gros mineur de cette période est un développeur allemand qui se fait appeler ArtForz. Après avoir l'existence de Bitcoin par le biais de Slashdot, il s'investit rapidement dans le développement du logiciel et passe beaucoup de temps sur le canal IRC #bitcoin-dev. En particulier, il développe son propre algorithme de minage par GPU avec OpenCL, qu'il fait fonctionner avec la carte graphique de son ordinateur.
 
 Il se met à générer des bitcoins le 19 juillet. Le 25 juillet, dans un fil sondant les utilisateurs sur leur nombre de bitcoins possédés, ArtForz [affirme](https://web.archive.org/web/20151121004205/https://bitcointalk.org/index.php?topic=564.msg5617#msg5617) avoir généré 1 700 bitcoins en 6 jours, ce qui correspond à 4 % du taux de hachage, soit 80 MH/s. Peu à peu, il construit une grande ferme de minage, qui sera connue sous le nom d'« ArtFarm ». En août, sa ferme [comprend](https://www.ofnumbers.com/2014/04/20/how-artforz-changed-the-history-of-bitcoin-mining/) 6 ATI Radeon HD 5770, ce qui lui permet de passer de 76 MH/s le 9 août à environ 450 MH/s le 13.
 

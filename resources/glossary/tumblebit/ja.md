@@ -1,0 +1,5 @@
+---
+term: TUMBLEBIT
+---
+
+TumbleBitは、2016年にEthan Heilman、Leen AlShenibr、Foteini Baldimtsi、Alessandra Scafuro、Sharon Goldbergによって提案された、Bitcoinと互換性のある匿名支払いハブのコンセプトです。TumbleBitは、中間者を信頼する必要がないBitcoinミキシングシステムです。ユーザーは、Tumblerと呼ばれるコーディネーターを通じて、迅速で匿名性の高い、オフチェーンの支払いを行うことができます。TumbleBitは、Tumblerでさえも支払い者の支払いとその受取人をリンクできないようにすることで匿名性を保証します。TumbleBitプロトコルは、Tumblerがビットコインを盗んだり、自身に支払いを行うために偽のビットコインを発行したりすることができないようにします。TumbleBitによって提供される匿名性は、Chaum eCashシステムのそれと比較できます。しかし、このコンセプトは広く採用されることはなく、Chaumian CoinJoinのようなプライバシー技術が好まれています。

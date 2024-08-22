@@ -1,9 +1,9 @@
-question: Lightning Networkを自分で試す一つの方法は何ですか？
-answer: ポッドキャストアプリケーションFountainを試すこと
-wrong_answers:
+質問: Lightning Networkを自分で試す一つの方法は何ですか？
+回答: ポッドキャストアプリケーションFountainを試すこと
+誤った回答:
   - Bitcoinをマイニングすること
   - Bitcoinを購入すること
   - 新しい暗号通貨を作成すること
-explanation: >-
+説明: >-
   Lightning Networkを自分で試す一つの方法は、ポッドキャストアプリケーションFountainを試すことです。これにより、お気に入りのポッドキャストを聴くことで少量のsats（サトシ）を報酬として得ることができます。
-reviewed: false
+レビュー済み: false

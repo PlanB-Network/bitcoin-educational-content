@@ -1,0 +1,5 @@
+---
+term: WHIRLPOOL STAT TOOL
+---
+
+Whirlpool内の混合されたコインの見込みおよび振り返りの匿名セットと、プール内でのその拡散率を提供する、Samourai Walletによって開発されたオンラインコマンドラインソフトウェアです。WSTはHyperLogLogPlusPlusアルゴリズムを使用しており、これは非常に大きなデータセット内の異なる値の数を推定します。

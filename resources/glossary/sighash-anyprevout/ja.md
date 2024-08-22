@@ -1,0 +1,7 @@
+---
+term: SIGHASH_ANYPREVOUT
+---
+
+Bitcoinにおける新しいSigHashフラグ修飾子の実装提案で、BIP118で導入されました。`SIGHASH_ANYPREVOUT`は、特にLightning Network上の支払いチャネルやEltooアップデートのような高度なアプリケーションにおいて、トランザクション管理の柔軟性を高めることができます。`SIGHASH_ANYPREVOUT`は、署名を特定の以前のUTXO（*Any Previous Output*）に結びつけないようにします。`SIGHASH_ALL`と組み合わせて使用することで、トランザクションの全てのアウトプットに署名することができますが、インプットには署名しません。これにより、特定の条件が満たされる限り、異なるトランザクションで署名を再利用することが可能になります。
+
+> ► *このSigHash修飾子SIGHASH_ANYPREVOUTは、Joseph Poonが2016年に彼のLightning Networkの概念を強化するために最初に提案したSIGHASH_NOINPUTのアイデアから派生しています。*

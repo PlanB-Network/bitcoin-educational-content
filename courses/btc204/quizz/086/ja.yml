@@ -1,0 +1,13 @@
+question: これら3つのプロトコルのうち、どれがcoinjoinの実装ではありませんか？
+
+answer: Chainalysis。
+
+wrong_answers:
+  - JoinMarket。
+  - Wabisabi。
+  - Whirlpool。
+
+explanation: |
+  Chainalysisはcoinjoinの実装では全くありません。それはブロックチェーン分析会社です。
+
+reviewed: false

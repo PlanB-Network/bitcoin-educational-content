@@ -8,11 +8,7 @@ PlanBのミッションは、可能な限り多くの言語でビットコイン
 
 **PlanBネットワークサイトにビットコインに関連する本を追加して、あなたの作品の可視性を高めたいですが、方法がわからないですか？このチュートリアルはあなたのためです！**
 ![book](assets/01.webp)
-- まず、GitHubアカウントを持っている必要があります。アカウントの作成方法がわからない場合は、詳細なチュートリアルを用意しています。
-
-https://planb.network/tutorials/others/create-github-account
-
-
+- まず、GitHubアカウントを持っている必要があります。アカウントの作成方法がわからない場合は、[詳細なチュートリアルを用意しています](https://planb.network/tutorials/others/create-github-account)。
 - `resources/books/`セクションにある[PlanB専用のデータGitHubリポジトリ](https://github.com/DecouvreBitcoin/sovereign-university-data/tree/dev/resources/books)にアクセスしてください：
 ![book](assets/02.webp)
 - 右上の`Add file`ボタンをクリックし、次に`Create new file`をクリックします：

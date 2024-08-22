@@ -1,9 +1,9 @@
-question: 最初のBitcoin取引のブロック番号は何ですか？
-answer: ブロック170
-wrong_answers:
+質問: 最初のBitcoin取引のブロック番号は何ですか？
+回答: ブロック170
+誤った回答:
   - ブロック1
   - ブロック17
   - ブロック1700
-explanation: |
+説明: |
   最初のBitcoin取引は、Satoshi NakamotoとHal Finneyの間で行われた10BTCの取引で、ブロック170に記録されています。
 確認済み: true

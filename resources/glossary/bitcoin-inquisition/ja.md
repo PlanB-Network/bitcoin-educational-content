@@ -1,0 +1,5 @@
+---
+term: BITCOIN INQUISITION
+---
+
+Bitcoin Inquisitionは、Signetのようなテストネットワーク上で新しいBitcoin改善提案の統合を制御された環境でテストすることを目的としたBitcoin Coreソフトウェアのフォークです。例えば、BIP118（ANYPREVOUT）やBIP119（CHECKTEMPLATEVERIFY）のサポートが含まれます。Bitcoin Inquisitionの目標は、これらの変更に関連するアプリケーション、利点、リスク、および妥協点をより良く理解するために実験を行うことです。Bitcoin InquisitionはAnthony Townsによって維持されています。

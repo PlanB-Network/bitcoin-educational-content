@@ -1,0 +1,5 @@
+---
+term: BIP118
+---
+
+Bitcoinの改善を目指した提案で、`SIGHASH_ANYPREVOUT` と `SIGHASH_ANYPREVOUTANYSCRIPT` の2つの新しいSigHashフラグ修飾子を導入することを目的としています。これらの機能は、特にスマートコントラクトやLightning Networkのようなオーバーレイソリューションにおいて、Bitcoinトランザクションの能力を拡張します。BIP118は、特にEltooの使用を可能にすることが注目されます。`SIGHASH_ANYPREVOUT`の主な利点は、複数のトランザクションにわたって署名を再利用できるようにすることで、より柔軟性を提供します。具体的には、これらのSigHashesは、トランザクションの入力のいずれもカバーしない署名を可能にします。

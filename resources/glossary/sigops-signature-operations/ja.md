@@ -1,0 +1,13 @@
+---
+term: SIGOPS (SIGNATURE OPERATIONS)
+---
+
+デジタル署名操作に関連し、トランザクションの検証に必要な操作を指します。各ビットコイントランザクションには複数の入力が含まれることがあり、それぞれが有効とみなされるためには一つ以上の署名が必要になる場合があります。これらの署名の検証は、「sigops」と呼ばれる特定のオペコードを使用して行われます。具体的には、`OP_CHECKSIG`、`OP_CHECKSIGVERIFY`、`OP_CHECKMULTISIG`、および`OP_CHECKMULTISIGVERIFY`が含まれます。これらの操作は、それらを検証する必要があるネットワークノードに一定の負荷を課します。sigopsの数を人為的に増やすことによるDoS攻撃を防ぐため、プロトコルではブロックごとに許可されるsigopsの数に上限を設け、検証負荷がノードにとって管理可能な範囲内に収まるようにしています。現在、この上限はブロックあたり最大80,000sigopsに設定されています。ノードは以下のルールに従ってカウントします：
+
+`scriptPubKey`では、`OP_CHECKSIG`と`OP_CHECKSIGVERIFY`は4sigopsとしてカウントされます。オペコード`OP_CHECKMULTISIG`と`OP_CHECKMULTISIGVERIFY`は80sigopsとしてカウントされます。実際にカウントする際、これらの操作はSegWit入力の一部ではない場合に4倍されます（P2WPKHの場合、sigopsの数は1になります）。
+
+`redeemScript`では、オペコード`OP_CHECKSIG`と`OP_CHECKSIGVERIFY`も4sigopsとしてカウントされ、`OP_CHECKMULTISIG`と`OP_CHECKMULTISIGVERIFY`は`OP_n`に先行する場合は`4n`として、それ以外の場合は80sigopsとして計算されます。
+
+`witnessScript`では、`OP_CHECKSIG`と`OP_CHECKSIGVERIFY`は1sigopsの価値があり、`OP_CHECKMULTISIG`と`OP_CHECKMULTISIGVERIFY`は`OP_n`によって導入される場合は`n`として、それ以外の場合は20sigopsとしてカウントされます。
+
+Taprootスクリプトでは、従来のスクリプトと比較してsigopsが異なる方法で扱われます。各署名操作を直接カウントする代わりに、Taprootは各トランザクション入力に対してsigopsの予算を導入し、これはその入力のサイズに比例します。この予算は入力の証人のバイトサイズに加えて50sigopsです。各署名操作はこの予算を50減らします。署名操作の実行によって予算がゼロ以下になると、スクリプトは無効となります。この方法により、Taprootスクリプトではより柔軟性が提供されると同時に、入力の重さに直接リンクされることにより、sigopsに関連する潜在的な悪用に対する保護が維持されます。したがって、Taprootスクリプトはブロックあたり80,000sigopsの制限に含まれません。

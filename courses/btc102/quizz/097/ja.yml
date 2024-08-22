@@ -1,9 +1,9 @@
-question: 個人間でKYCを必要としない購入に対して、警戒心の強いビットコイン愛好者が利用するかもしれないプラットフォームは何ですか？
-answer: Peach, Robosats, Bisq, HodlHodl
-wrong_answers:
+質問: 個人間でKYCを必要としない購入に対して、警戒心の強いビットコイン愛好者が利用するかもしれないプラットフォームは何ですか？
+回答: Peach, Robosats, Bisq, HodlHodl
+誤った回答:
   - Coinbase, Binance, Kraken
   - PayPal, Venmo, Cash App
   - クレジットカード、銀行振込、現金
-explanation: |
+説明: |
   この章では、個人間でKYCを必要としない購入に対して、警戒心の強いビットコイン愛好者が利用するかもしれないプラットフォームとしてPeach、Robosats、Bisq、HodlHodlが挙げられています。
-reviewed: false
+レビュー済み: false

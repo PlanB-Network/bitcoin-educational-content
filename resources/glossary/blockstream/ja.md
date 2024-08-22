@@ -1,0 +1,5 @@
+---
+term: BLOCKSTREAM
+---
+
+Bitcoinに関連するソリューションの開発を専門とする企業。Blockstreamは、Liquidサイドチェーン、Lightning Network Core Lightningの実装、JadeおよびGreenウォレットを開始しました。また、Bitcoin Coreの開発者を雇用していることでも知られています。Blockstreamは現在、cypherpunkで暗号学者のAdam Backによって率いられています。彼は、Bitcoinのプルーフオブワークのインスピレーションとなったプロトコル、Hashcashの発明者です。

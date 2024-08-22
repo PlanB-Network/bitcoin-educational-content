@@ -1,9 +1,9 @@
-question: 日常取引において、頻繁にBitcoinを使用するユーザーがLightning Networkに基づくウォレットを選択する主な理由は何ですか？
-answer: Bitcoin取引の効率を向上させます。
-wrong_answers:
+質問: 日常取引において、頻繁にBitcoinを使用するユーザーがLightning Networkに基づくウォレットを選択する主な理由は何ですか？
+回答: Bitcoin取引の効率を向上させます。
+誤った回答:
   - Bitcoinの価値を高めます。
   - 匿名で取引を可能にします。
   - Bitcoinの取引プラットフォームを提供します。
-explanation: |
+説明: |
   Lightning Networkは、Bitcoinのようなブロックチェーンベースの暗号通貨の上で動作する「レイヤー2」の支払いプロトコルです。これは、迅速で低コストの取引を可能にするために設計されています。
-reviewed: false
+レビュー済み: false

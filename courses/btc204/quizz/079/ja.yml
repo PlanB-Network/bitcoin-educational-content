@@ -1,0 +1,11 @@
+question: コインジョインによって提供される、コインの将来の取引の分析からの保護を表す用語は何ですか？
+
+answer: Prospective anonset.
+
+wrong_answers:
+  - Retrospective anonset.
+  - Traceability resistance.
+  - Temporal privacy.
+
+explanation: |
+  過去から現在にかけての分析からの保護を提供するものが、prospective anonsetと呼ばれます。

@@ -1,9 +1,9 @@
-question: Hodlerが最初に使い始めるのに推奨されるウォレットは何ですか？
-answer: Bitbox02、Trezor、またはLedgerのようなコールドウォレット。
-wrong_answers:
+質問: Hodlerが最初に使い始めるのに推奨されるウォレットは何ですか？
+回答: Bitbox02、Trezor、またはLedgerのようなコールドウォレット。
+誤った回答:
   - ホットウォレットのモバイルアプリ。
   - 物理的なウォレット。
   - 紙のウォレット。
-explanation: |
+説明: |
   Hodlerにとって、Bitbox02、Trezor、またはLedgerのようなコールドウォレットから始めることが推奨されます。これらのデバイスは、長期にわたるビットコインのセキュリティを提供します。
-reviewed: false
+レビュー済み: false

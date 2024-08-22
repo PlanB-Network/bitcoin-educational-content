@@ -8,11 +8,7 @@ PlanBのミッションは、できるだけ多くの言語でBitcoinに関す�
 
 あなたの会社やソフトウェアに可視性を与えるために、PlanB Networkサイトに新しいBitcoin "ビルダー"を追加したいですか？しかし、どのようにすればよいかわかりませんか？このチュートリアルはあなたのためのものです！
 ![builder](assets/01.webp)
-- まず、GitHubアカウントを持っている必要があります。アカウントの作成方法がわからない場合は、詳細なチュートリアルを用意しています。
-
-https://planb.network/tutorials/others/create-github-account
-
-
+- まず、GitHubアカウントを持っている必要があります。アカウントの作成方法がわからない場合は、[詳細なチュートリアルを用意しています](https://planb.network/tutorials/others/create-github-account)。
 - `resources/builder/`セクションにある[PlanB専用のデータGitHubリポジトリ](https://github.com/DecouvreBitcoin/sovereign-university-data/tree/dev/resources/builders)にアクセスしてください：
 ![builder](assets/02.webp)
 - 右上の`Add file`ボタンをクリックし、次に`Create new file`をクリックします：

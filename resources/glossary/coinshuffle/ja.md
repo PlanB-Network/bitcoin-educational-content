@@ -1,0 +1,5 @@
+---
+term: COINSHUFFLE
+---
+
+Tim Ruffing、Pedro Moreno-Sanchez、Aniket Kateによって2014年に提案されたBitcoinミキシングプロトコルで、Gregory Maxwellによって形式化されたアイデアに触発されました。Coinshuffleは、信頼できる第三者を必要とせずにコインの履歴を切り離すことを可能にします。このプロトコルは、中間者であっても支払者と受取人をリンクすることができないことを保証します。このコンセプトは広く採用されることはなく、Chaumian coinjoinのようなプライバシー技術が好まれています。

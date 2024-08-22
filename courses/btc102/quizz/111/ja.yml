@@ -1,9 +1,9 @@
-question: Lightning Networkの文脈におけるBitcoinノードの目的は何ですか？
-answer: Lightning NetworkによってもたらされたBitcoinの新しい側面を理解し、探求することです。
-wrong_answers:
+質問: Lightning Networkの文脈におけるBitcoinノードの目的は何ですか？
+回答: Lightning NetworkによってもたらされたBitcoinの新しい側面を理解し、探求することです。
+誤った回答:
   - 新しいBitcoinを採掘すること。
   - Bitcoinを取引すること。
   - Bitcoinを保存すること。
-explanation: |
+説明: |
   Lightning Networkの文脈におけるBitcoinノードは、Lightning NetworkによってもたらされたBitcoinの新しい側面を理解し、探求するために使用されます。新しいBitcoinを採掘したり、Bitcoinを取引したり、Bitcoinを保存するために使用されるわけではありません。
-reviewed: false
+レビュー済み: false

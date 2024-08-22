@@ -1,0 +1,5 @@
+---
+term: SLIP
+---
+
+「Satoshi Labs Improvement Proposals」の略称です。これは、Trezorハードウェアウォレットの背後にある企業であるSatoshiLabsから発信された、Bitcoinの使用を改善または標準化することを目的とした一連の提案です。これらの提案は、既存の標準を豊かにする目的で、BIP（Bitcoin Improvement Proposals）への拡張としてしばしば機能します。SatoshiLabsによって行われた技術的決定の詳細で、BIP内には収まらないものの、他のソフトウェアウォレットやハードウェアウォレットの開発者、特にプロセスの標準化に貢献する場合には関連性が残るものです。

@@ -14,13 +14,13 @@ Pour les commerçants prêts à mettre les mains dans le cambouis et qui veulent
 
 https://planb.network/tutorials/merchant/btcpay-server
 
-Au milieu de toutes ces solutions, il y a Swiss Bitcoin Pay qui semble être un compromis très intéressant alliant facilité d'utilisation, fonctionnalités et sécurité. Cette solution convient aussi bien aux très petits commerces qu'aux plus grandes structures, que vous recherchiez la simplicité d'utilisation ou un outil favorisant la self-custody. Dans ce tutoriel, vous allez découvrir comment utiliser facilement Swiss Bitcoin Pay pour accepter le bitcoin dans votre commerce.
+Au milieu de toutes ces solutions, il y a Swiss Bitcoin Pay qui semble être un compromis très intéressant alliant facilité d'utilisation, fonctionnalités et sécurité. Cette solution convient aussi bien aux très petits commerces qu'aux plus grandes structures, que vous recherchiez la simplicité d'utilisation ou un outil favorisant la self custody. Dans ce tutoriel, vous allez découvrir comment utiliser facilement Swiss Bitcoin Pay pour accepter le bitcoin dans votre commerce.
 
 ## Pourquoi accepter le bitcoin dans son commerce ?
 
 Accepter le bitcoin comme moyen de paiement offre de nombreux avantages pour votre entreprise. Premièrement, le bitcoin fonctionne un peu comme de l'argent liquide, mais sans les inconvénients de l'argent liquide. Comme pour le cash, les bitcoins reçus en paiement ne nécessitent pas de passer par le circuit bancaire traditionnel. Il s'agit d'une transaction peer-to-peer directe de votre client à vous-même, à moins que vous n'utilisiez un intermédiaire de paiement.
 
-De plus, un paiement en bitcoin offre une finalité instantanée avec Lightning et prend seulement quelques minutes dans le cas d'un paiement onchain. Une fois confirmé, il n'est pas possible d'annuler un paiement en bitcoins. Si vous optez pour la self-custody, vous contrôlez directement vos bitcoins, ce qui renforce encore l'autonomie financière de votre commerce.
+De plus, un paiement en bitcoin offre une finalité instantanée avec Lightning et prend seulement quelques minutes dans le cas d'un paiement onchain. Une fois confirmé, il n'est pas possible d'annuler un paiement en bitcoins. Si vous optez pour la self custody, vous contrôlez directement vos bitcoins, ce qui renforce encore l'autonomie financière de votre commerce.
 
 Avec le bitcoin, vous réaliserez également des économies significatives sur les commissions et les frais bancaires. Utiliser Bitcoin élimine le besoin d'acheter ou de louer un terminal de paiement ; un ordinateur ou un simple smartphone suffit. De plus, en acceptant directement les paiements en bitcoins, vous éviterez les commissions habituellement prélevées sur les transactions. Même si vous passez par un intermédiaire pour le traitement des paiements, les frais associés aux transactions en bitcoins sont généralement bien inférieurs à ceux des banques traditionnelles.
 
@@ -32,13 +32,13 @@ Si vous avez une clientèle internationale, le bitcoin présente l'avantage d'ê
 
 Pour les commerces en ligne, Bitcoin est également une méthode de paiement efficace pour accepter des paiements à distance de manière sécurisée, sans avoir à passer par les systèmes bancaires traditionnels. Cette utilisation était d'ailleurs l'une des intentions originelles de Satoshi Nakamoto, l'inventeur de Bitcoin, qui le décrivait comme "Un système de cash électronique pair-à-pair".
 
-Enfin, intégrer Bitcoin à votre commerce peut aussi faire partie d'une stratégie marketing. Accepter le BTC peut positionner votre entreprise comme innovante, flexible et adaptée aux évolutions technologiques, tout en vous ouvrant à un nouveau marché. Selon [une étude de KPMG](https://kpmg.com/fr/fr/home/media/press-releases/2024/03/web3-crypto-actifs-adan.html), 12 % des Français possèdent des cryptomonnaies, et une grande majorité d'entre eux détient du bitcoin. En acceptant ce moyen de paiement, vous pouvez attirer cette clientèle qui souhaite dépenser ses sats, qui autrement n'aurait peut-être jamais fréquenté votre commerce. C'est également une bonne manière de vous faire connaître auprès de la génération Z.
+Enfin, intégrer Bitcoin à votre commerce peut aussi faire partie d'une stratégie marketing. Accepter le BTC peut positionner votre entreprise comme innovante, flexible et adaptée aux évolutions technologiques, tout en vous ouvrant à un nouveau marché. Selon [une étude de KPMG](https://kpmg.com/fr/fr/home/media/press-releases/2024/03/web3-crypto-actifs-adan.html), 12 % des Français possèdent des cryptomonnaies, et une grande majorité d'entre eux détiennent du bitcoin. En acceptant ce moyen de paiement, vous pouvez attirer cette clientèle qui souhaite dépenser ses sats, qui autrement n'aurait peut-être jamais fréquenté votre commerce. C'est également une bonne manière de vous faire connaître auprès de la génération Z.
 
-À mon avis, accepter le bitcoin devrait être vu comme une opportunité à faible risque pouvant avoir un impact positif significatif sur votre entreprise. Si l'expérience s'avère non fructueuse, les coûts engagés resteront minimes. Le principal coût réside dans le temps nécessaire à la mise en place d'une solution pour accepter le BTC, mais comme vous allez le découvrir dans ce tutoriel, c'est désormais très simple et rapide à réaliser.
+À mon avis, accepter le bitcoin devrait être vu comme une opportunité à faible risque pouvant avoir un impact positif significatif sur votre entreprise. Si l'expérience s'avère infructueuse, les coûts engagés resteront minimes. Le principal coût réside dans le temps nécessaire à la mise en place d'une solution pour accepter le BTC, mais comme vous allez le découvrir dans ce tutoriel, c'est désormais très simple et rapide à réaliser.
 
 ## Présentation de Swiss Bitcoin Pay
 
-Swiss Bitcoin Pay est une solution permettant aux commerçants d'accepter des paiements en bitcoins de manière simple. Elle intègre une application PoS (Point of Sale) avec une interface utilisateur intuitive, facile à utiliser pour vos employés sans nécessiter de connaissances techniques approfondies. Contrairement à un portefeuille Bitcoin classique, l'application Swiss Bitcoin Pay est uniquement destinée à l'encaissement de bitcoins, ce qui permet de confier l'appareil aux employés sans risques. Vous avez la possibilité d'utiliser plusieurs applications de PoS connectées au même compte Swiss Bitcoin Pay, ce qui facilite leur déploiement que ce soit sur une tablette en caisse ou sur les smartphones de vos employés. L'application Swiss Bitcoin Pay peut être installée sur des appareils sous Android et iOS, et elle est également disponible en version web pour les ordinateurs.
+Swiss Bitcoin Pay est une solution permettant aux commerçants d'accepter des paiements en bitcoins de manière simple. Elle intègre une application PoS (Point of Sale) avec une interface utilisateur intuitive, facile à utiliser pour vos employés sans nécessiter de connaissances techniques approfondies. Contrairement à un portefeuille Bitcoin classique, l'application Swiss Bitcoin Pay est uniquement destinée à l'encaissement de bitcoins, ce qui permet de confier l'appareil aux employés sans risques. Vous avez la possibilité d'utiliser plusieurs applications de PoS connectées au même compte Swiss Bitcoin Pay, ce qui facilite leur déploiement que ce soit sur une tablette, en caisse ou sur les smartphones de vos employés. L'application Swiss Bitcoin Pay peut être installée sur des appareils sous Android et iOS, et elle est également disponible en version web pour les ordinateurs.
 
 Swiss Bitcoin Pay offre deux options pour la gestion des paiements : les fonds peuvent être soit retirés directement en bitcoins sur une adresse spécifique, soit convertis en monnaie étatique et déposés sur un compte bancaire. Cette opération est automatisée et s'effectue quotidiennement toutes les 24 heures. Ainsi, vous n'avez pas à gérer manuellement les paiements en bitcoins ou via le Lightning Network ; Swiss Bitcoin Pay s'occupe de tout pour vous. Chaque jour, vous recevrez le solde des paiements sur votre portefeuille personnel ou votre compte bancaire, selon votre préférence. Bien que ce ne soit pas une solution 100 % non-custodiale comme celle offerte par BTCPay Server par exemple, Swiss Bitcoin Pay représente un compromis intéressant entre praticité et sécurité, car l'intermédiaire ne conserve vos recettes que pendant 24 heures avant de vous transférer les fonds. De plus, à la différence d'autres solutions custodiales, Swiss Bitcoin Pay ne requiert aucune vérification d'identité (KYC) pour votre commerce.
 
@@ -60,7 +60,7 @@ Cliquez sur le bouton "Sign up".
 
 03
 
-Choisissez un nom pour votre compte. Cela peut-être le nom commercial de votre entreprise.
+Choisissez un nom pour votre compte. Cela peut être le nom commercial de votre entreprise.
 
 04
 
@@ -84,11 +84,11 @@ Si vous choisissez de recevoir vos fonds via le système bancaire, vous devrez f
 
 09
 
-L'option "onchain" permet de recevoir tous vos paiements sur une unique adresse Bitcoin. Cependant, je vous déconseille cette option car elle entraîne la réutilisation d'une même adresse, ce qui peut nuire fortement à votre confidentialité.
+L'option "onchain" permet de recevoir tous vos paiements sur une unique adresse Bitcoin. Cependant, je vous déconseille cette option, car elle entraîne la réutilisation d'une même adresse, ce qui peut nuire fortement à votre confidentialité.
 
 Si vous choisissez de recevoir vos paiements en bitcoins onchain, il est préférable d'utiliser une clé publique étendue avec l'option "x/y/zpub". Ainsi, Swiss Bitcoin Pay pourra dériver une nouvelle adresse vierge pour chaque retrait.
 
-Si vous anticipez un volume de paiements en bitcoins relativement faible, vous pouvez également choisir de recevoir les paiements directement via le Lightning Network. Pour ce faire, vous devrez fournir une adresse Lightning, et vos fonds seront transférés immédiatement après chaque paiement, contrairement aux options onchain qui regroupent tous les encaissements en un seul paiement journalier.
+Si vous anticipez un volume de paiements en bitcoins relativement faible, vous pouvez également choisir de recevoir les paiements directement via le Lightning Network. Pour ce faire, vous devrez fournir une adresse Lightning. Vos fonds seront transférés immédiatement après chaque paiement, contrairement aux options onchain qui regroupent tous les encaissements en un seul paiement journalier.
 
 Évidemment, ce choix affecte uniquement le mode de paiement de Swiss Bitcoin Pay à votre entreprise. Vos clients pourront toujours vous payer via le Lightning Network ou onchain, indépendamment de l'option que vous sélectionnez ici.
 
@@ -100,7 +100,7 @@ Vous devrez ensuite payer 1 sat pour vérifier votre adresse Lightning. Dans le 
 
 11
 
-Enfin, vous avez la possibilité d'ajouter un code de parrainage. Si vous souhaitez nous soutenir, vous pouvez utiliser le code "DecouvreBitcoin" afin qu'une partie de vos commissions nous soient concédées. Merci ! :)
+Enfin, vous avez la possibilité d'ajouter un code de parrainage. Si vous souhaitez nous soutenir, vous pouvez utiliser le code "DecouvreBitcoin" afin qu'une partie de vos commissions nous soient reversées. Merci ! :)
 
 12
 
@@ -156,7 +156,7 @@ Notez le nouveau nom de ce processeur d'encaissement, puis cliquez sur le bouton
 
 ## Comment encaisser sur Swiss Bitcoin Pay ?
 
-Pour encaisser c'est très simple, une fois sur un PoS, tappez le montant à encaisser.
+Pour encaisser c'est très simple, une fois sur un PoS, renseignez le montant à encaisser.
 
 25
 
@@ -168,7 +168,7 @@ Puis cliquez sur le bouton "OK".
 
 27
 
-Patientez quelques seconde le temps que Swiss Bitocin Pay crée l'invoice Lightning et l'adresse de réception.
+Patientez quelques secondes le temps que Swiss Bitcoin Pay crée l'invoice Lightning et l'adresse de réception.
 
 28
 

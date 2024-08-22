@@ -30,7 +30,7 @@ Au quotidien, les paiements en bitcoins offrent plus de praticité et de flexibi
 
 Si vous avez une clientèle internationale, le bitcoin présente l'avantage d'être une monnaie mondiale, ce qui élimine ainsi le besoin pour vos clients de faire du change.
 
-Pour les commerces en ligne, Bitcoin est également une méthode de paiement efficace pour accepter des paiements à distance de manière sécurisée, sans avoir à passer par les systèmes bancaires traditionnels. Cette utilisation était d'ailleurs l'une des intentions originelles de Satoshi Nakamoto, l'inventeur de Bitcoin, qui le décrivait comme "Un système de cash électronique pair-à-pair".
+Pour les commerces en ligne, Bitcoin est également une méthode de paiement efficace pour accepter des paiements à distance de manière sécurisée, sans avoir à passer par les systèmes bancaires traditionnels. Cette utilisation était d'ailleurs l'une des intentions originelles de Satoshi Nakamoto, l'inventeur de Bitcoin, qui le décrivait comme "*Un système de cash électronique pair-à-pair*".
 
 Enfin, intégrer Bitcoin à votre commerce peut aussi faire partie d'une stratégie marketing. Accepter le BTC peut positionner votre entreprise comme innovante, flexible et adaptée aux évolutions technologiques, tout en vous ouvrant à un nouveau marché. Selon [une étude de KPMG](https://kpmg.com/fr/fr/home/media/press-releases/2024/03/web3-crypto-actifs-adan.html), 12 % des Français possèdent des cryptomonnaies, et une grande majorité d'entre eux détiennent du bitcoin. En acceptant ce moyen de paiement, vous pouvez attirer cette clientèle qui souhaite dépenser ses sats, qui autrement n'aurait peut-être jamais fréquenté votre commerce. C'est également une bonne manière de vous faire connaître auprès de la génération Z.
 
@@ -52,11 +52,11 @@ Rendez-vous sur [le site officiel de Swiss Bitcoin Pay](https://swiss-bitcoin-pa
 
 01
 
-Cliquez sur le bouton "Dashboard".
+Cliquez sur le bouton "*Dashboard*".
 
 02
 
-Cliquez sur le bouton "Sign up".
+Cliquez sur le bouton "*Sign up*".
 
 03
 
@@ -84,9 +84,9 @@ Si vous choisissez de recevoir vos fonds via le système bancaire, vous devrez f
 
 09
 
-L'option "onchain" permet de recevoir tous vos paiements sur une unique adresse Bitcoin. Cependant, je vous déconseille cette option, car elle entraîne la réutilisation d'une même adresse, ce qui peut nuire fortement à votre confidentialité.
+L'option "*onchain*" permet de recevoir tous vos paiements sur une unique adresse Bitcoin. Cependant, je vous déconseille cette option, car elle entraîne la réutilisation d'une même adresse, ce qui peut nuire fortement à votre confidentialité.
 
-Si vous choisissez de recevoir vos paiements en bitcoins onchain, il est préférable d'utiliser une clé publique étendue avec l'option "x/y/zpub". Ainsi, Swiss Bitcoin Pay pourra dériver une nouvelle adresse vierge pour chaque retrait.
+Si vous choisissez de recevoir vos paiements en bitcoins onchain, il est préférable d'utiliser une clé publique étendue avec l'option "*x/y/zpub*". Ainsi, Swiss Bitcoin Pay pourra dériver une nouvelle adresse vierge pour chaque retrait.
 
 Si vous anticipez un volume de paiements en bitcoins relativement faible, vous pouvez également choisir de recevoir les paiements directement via le Lightning Network. Pour ce faire, vous devrez fournir une adresse Lightning. Vos fonds seront transférés immédiatement après chaque paiement, contrairement aux options onchain qui regroupent tous les encaissements en un seul paiement journalier.
 
@@ -100,11 +100,11 @@ Vous devrez ensuite payer 1 sat pour vérifier votre adresse Lightning. Dans le 
 
 11
 
-Enfin, vous avez la possibilité d'ajouter un code de parrainage. Si vous souhaitez nous soutenir, vous pouvez utiliser le code "DecouvreBitcoin" afin qu'une partie de vos commissions nous soient reversées. Merci ! :)
+Enfin, vous avez la possibilité d'ajouter un code de parrainage. Si vous souhaitez nous soutenir, vous pouvez utiliser le code "*DecouvreBitcoin*" afin qu'une partie de vos commissions nous soient reversées. Merci ! :)
 
 12
 
-Une fois toutes les informations remplies, cliquez sur le bouton "Envoyer".
+Une fois toutes les informations remplies, cliquez sur le bouton "*Envoyer*".
 
 13
 
@@ -134,7 +134,7 @@ Si vous préférez avoir le PoS sous forme d'application, rendez-vous sur votre 
 
 19
 
-Lors de la première ouverture, cliquez sur le bouton "Scanner le code QR d'activation".
+Lors de la première ouverture, cliquez sur le bouton "*Scanner le code QR d'activation*".
 
 20
 
@@ -146,11 +146,11 @@ Vous êtes maintenant connecté au système PoS en tant qu'employé, ce qui sign
 
 22
 
-Si vous le souhaitez, vous pouvez modifier le nom du PoS qui apparaît lors des encaissements dans votre compte administrateur. Vous pouvez nommer le terminal selon son emplacement spécifique (par exemple, "Bar Mezzanine", "Service Drive", "Chef de Rang Carré n°3", "Commis de Salle n°2", "Caisse n°7", "Terrasse", "Caisse Express", "Réception", "Conciergerie", "Spa/Bien-être"...) ou selon le nom de l'employé qui l'utilise. Pour ce faire, cliquez sur le nom actuel du PoS situé sous le nom de l'entreprise en haut de l'écran.
+Si vous le souhaitez, vous pouvez modifier le nom du PoS qui apparaît lors des encaissements dans votre compte administrateur. Vous pouvez nommer le terminal selon son emplacement spécifique (par exemple, "*Bar Mezzanine*", "*Service Drive*", "*Chef de Rang Carré n°3*", "*Commis de Salle n°2*", "*Caisse n°7*", "*Terrasse*", "*Caisse Express*", "*Réception*", "*Conciergerie*", "*Spa/Bien-être*"...) ou selon le nom de l'employé qui l'utilise. Pour ce faire, cliquez sur le nom actuel du PoS situé sous le nom de l'entreprise en haut de l'écran.
 
 23
 
-Notez le nouveau nom de ce processeur d'encaissement, puis cliquez sur le bouton "Send".
+Notez le nouveau nom de ce processeur d'encaissement, puis cliquez sur le bouton "*Send*".
 
 24
 
@@ -160,11 +160,11 @@ Pour encaisser c'est très simple, une fois sur un PoS, renseignez le montant à
 
 25
 
-Dans la case "Note", vous pouvez noter une information qui sera attachée au paiement, notamment dans vos rapports. Vous pouvez par exemple noter le bien ou le service vendu.
+Dans la case "*Note*", vous pouvez noter une information qui sera attachée au paiement, notamment dans vos rapports. Vous pouvez par exemple noter le bien ou le service vendu.
 
 26
 
-Puis cliquez sur le bouton "OK".
+Puis cliquez sur le bouton "*OK*".
 
 27
 
@@ -198,7 +198,7 @@ Pour gérer plus précisément votre commerce, tout se passe sur votre dashboard
 
 34
 
-Cliquez en haut à droite de l'écran sur le bouton "Dashboard", puis renseignez votre adresse mail ainsi que votre mot de passe.
+Cliquez en haut à droite de l'écran sur le bouton "*Dashboard*", puis renseignez votre adresse mail ainsi que votre mot de passe.
 
 35
 
@@ -206,15 +206,15 @@ Vous arriverez ensuite sur cette interface.
 
 36
 
-Dans l'onglet "Home", vous pouvez voir le solde des paiements en attente de retrait ainsi que les dernières activités de votre compte.
+Dans l'onglet "*Home*", vous pouvez voir le solde des paiements en attente de retrait ainsi que les dernières activités de votre compte.
 
 37
 
-Dans l'onglet "Activity", vous pouvez consulter le détail de toutes vos transactions.
+Dans l'onglet "*Activity*", vous pouvez consulter le détail de toutes vos transactions.
 
 38
 
-Par exemple, sur mon tableau de bord, je peux voir que le PoS "Chef de Rang - Carré 3" a encaissé une bière à 5 € le 22/08/2024 à 17:08.
+Par exemple, sur mon tableau de bord, je peux voir que le PoS "*Chef de Rang - Carré 3*" a encaissé une bière à 5 € le 22/08/2024 à 17:08.
 
 39
 
@@ -226,23 +226,23 @@ Et enfin, je peux voir toutes les transactions de retrait vers mon portefeuille 
 
 41
 
-Pour paramétrer l'export de rapports, cliquez sur le bouton "Export".
+Pour paramétrer l'export de rapports, cliquez sur le bouton "*Export*".
 
 42
 
-Dans l'onglet "Manual", vous pouvez faire un export ponctuel de vos transactions. Choisissez simplement une période, puis sélectionnez les informations que vous souhaitez inclure dans votre rapport.
+Dans l'onglet "*Manual*", vous pouvez faire un export ponctuel de vos transactions. Choisissez simplement une période, puis sélectionnez les informations que vous souhaitez inclure dans votre rapport.
 
 43
 
-Puis cliquez sur le bouton "Export" pour télécharger un fichier `.csv` de vos transactions.
+Puis cliquez sur le bouton "*Export*" pour télécharger un fichier `.csv` de vos transactions.
 
 44
 
-Dans l'onglet "Recurring", vous pouvez planifier des exports automatiques récurrents. Sélectionnez la fréquence de génération des exports, et sélectionnez les informations que vous souhaitez inclure dans le rapport.
+Dans l'onglet "*Recurring*", vous pouvez planifier des exports automatiques récurrents. Sélectionnez la fréquence de génération des exports, et sélectionnez les informations que vous souhaitez inclure dans le rapport.
 
 45
 
-Enfin, renseignez l'adresse mail où sera envoyé le rapport. Vous pouvez par exemple renseigner directement l'adresse email de votre comptable. Cliquez sur le bouton "Save" pour enregistrer cet export programmé.
+Enfin, renseignez l'adresse mail où sera envoyé le rapport. Vous pouvez par exemple renseigner directement l'adresse email de votre comptable. Cliquez sur le bouton "*Save*" pour enregistrer cet export programmé.
 
 46
 
@@ -250,14 +250,14 @@ L'onglet invoice vous permet de générer une facture pour un paiement ponctuel.
 
 47
 
-Dans l'onglet "Limits & verification", vous pouvez consulter vos limites d'encaissement quotidiennes et annuelles. Vous avez également la possibilité de réaliser une vérification d'identité afin de débloquer des limites plus élevées.
+Dans l'onglet "*Limits & verification*", vous pouvez consulter vos limites d'encaissement quotidiennes et annuelles. Vous avez également la possibilité de réaliser une vérification d'identité afin de débloquer des limites plus élevées.
 
 48
 
-L'onglet "Referral" vous permet de gérer tout ce qui est relatif au parrainage.
+L'onglet "*Referral*" vous permet de gérer tout ce qui est relatif au parrainage.
 
 49
 
-Enfin, dans l'onglet "Settings", vous avez la possibilité de modifier les informations que vous avez fournies lors de l'inscription, notamment les méthodes de retrait et la répartition entre bitcoin et fiat.
+Enfin, dans l'onglet "*Settings*", vous avez la possibilité de modifier les informations que vous avez fournies lors de l'inscription, notamment les méthodes de retrait et la répartition entre bitcoin et fiat.
 
 Félicitations ! Vous avez désormais mis en place un système de processeur de paiement pour accepter le bitcoin dans votre commerce. Si vous souhaitez également découvrir BTCPay Server, une solution plus avancée et plus complexe, je vous recommande de suivre notre formation complète spécifiquement consacrée à ce logiciel : [BTC305](https://planb.network/courses/btc305).

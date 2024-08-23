@@ -1,0 +1,9 @@
+question: Qui a été l'auteur du premier article de présentation de Bitcoin publié en français ?
+answer: Lucien Grondin (grondilu)
+wrong_answers:
+  - Lionel Dricot (Ploum)
+  - Amaury Séchet (deadalnix)
+  - David François (davout)
+explanation: |
+ Il s'agissait d'un [texte](https://linuxfr.org/news/connaissez-vous-les-bitcoins) publié le 30 septembre 2010 sur LinuxFr.org et intitulé « Connaissez-vous les bitcoins ? ».
+reviewed: false

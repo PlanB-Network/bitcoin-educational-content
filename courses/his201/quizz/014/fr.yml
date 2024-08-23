@@ -1,0 +1,9 @@
+question: Qui a inventé le concept de preuve de travail ?
+answer: Cynthia Dwork et Moni Naor
+wrong_answers:
+  - Markus Jakobsson et Ari Juel
+  - Adam Back
+  - Satoshi Nakamoto
+explanation: |
+ Ils ont décrit le concept en 1992. Markus Jakobsson et Ari Juel ont créé le terme « proof of work ». Adam Back a repris le concept pour Hashcash.
+reviewed: false

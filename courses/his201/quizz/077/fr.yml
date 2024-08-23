@@ -1,0 +1,9 @@
+question: À quelle date a été créée la liste de diffusion bitcoin-development ?
+answer: Le 12 juin 2011
+wrong_answers:
+  - Le 13 janvier 2011
+  - Le 7 mars 2011
+  - Le 19 septembre 2011
+explanation: |
+ Elle a été créée par le développeur Jeff Garzik, et permettait de discuter formellement des changements à apporter à Bitcoin.
+reviewed: false

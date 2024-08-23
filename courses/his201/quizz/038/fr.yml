@@ -1,0 +1,9 @@
+question: Quel était le nom de la première application dépositaire permettant un usage simple de Bitcoin sur mobile créée en avril 2010 ?
+answer: MyBitcoin
+wrong_answers:
+  - Bitcoin Wallet
+  - BTC 2 PSC
+  - Privacy Shark
+explanation: |
+ Elle a été [promue](https://bitcointalk.org/index.php?topic=30.msg1035#msg1035) sur le forum le 30 avril 2010 par un certain komoto.
+reviewed: false

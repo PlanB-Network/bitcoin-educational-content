@@ -1,0 +1,10 @@
+question: Sur quel procédé se fonde le modèle de monnaie électronique eCash ?
+answer: Les signatures aveugles
+wrong_answers:
+  - Les signatures de groupe
+  - Les signatures de cercle
+  - Les signatures à seuil
+explanation: |
+ eCash se fonde sur le procédé de signature aveugle, qui permet à un signataire de signer quelque chose sans voir ce qu'il signe.
+reviewed: false
+

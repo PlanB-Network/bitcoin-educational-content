@@ -1,0 +1,9 @@
+question: Où est-ce que Nick Szabo a-t-il initialement présenté son concept de bit gold en 1998 ?
+answer: La liste de diffusion libtech-l
+wrong_answers:
+  - La liste de diffusion des cypherpunks
+  - La Cryptography mailing list
+  - La liste de diffusion des extropiens
+explanation: |
+ Il s'agissait de sa propre liste de diffusion privée, où intervenaient des cypherpunks comme Wei Dai et Hal Finney et des économistes comme Larry White et George Selgin.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Quel économiste a déclaré en 1999 que « la seule chose qui manque, mais qui sera bientôt développée, c'est un argent liquide électronique fiable » ?
+answer: Milton Friedman
+wrong_answers:
+  - Friedrich Hayek
+  - Murray Rothbard
+  - Paul Krugman
+explanation: |
+ Prix Nobel d'économie et fondateur de l'École de Chicago, il a fait cette prédiction au [micro](https://www.youtube.com/watch?v=mlwxdyLnMXM&t=872s) de la National Taxpayers Union Foundation.
+reviewed: false

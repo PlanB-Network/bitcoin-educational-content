@@ -1,0 +1,9 @@
+question: Quelle variation du prix du bitcoin durant la semaine qui a suivi la présentation de la cryptomonnaie sur Slashdot ?
+answer: De 0,008 $ à 0,08 $
+wrong_answers:
+  - De 0,001 $ à 0,008 $
+  - De 0,08 $ à 0,50 $
+  - De 0,50 $ à 1 $
+explanation: |
+ Cette variation correspondait à une multiplication par 10 ! Le taux de hachage a subi une hausse similaire.
+reviewed: false

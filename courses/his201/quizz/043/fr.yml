@@ -1,0 +1,9 @@
+question: Qu'offrait le robinet à bitcoins (Bitcoin Faucet) créé en juin 2010 par Gavin Andresen ?
+answer: Des bitcoins
+wrong_answers:
+  - Des bons d'achat
+  - Des réductions de frais pour Bitcoin Market
+  - Des chances de miner un bloc
+explanation: |
+ Ce service distribuait initialement 5 bitcoins par requête, pour que les gens essaient le système. Ce montant a été réduit au cours du temps et le faucet a fermé en 2012.
+reviewed: false

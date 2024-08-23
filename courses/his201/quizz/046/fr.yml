@@ -1,0 +1,9 @@
+question: Quel numéro de version du logiciel a été présenté sur Slashdot en juillet 2010 :
+answer: v0.3
+wrong_answers:
+  - v0.1
+  - v0.2
+  - v0.4
+explanation: |
+ C'est à l'occasion de la sortie de cette version, préparée de longue date par Satoshi et Martti, qu'un nouvel effort de communication a eu lieu.
+reviewed: false

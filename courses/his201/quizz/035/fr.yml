@@ -1,0 +1,9 @@
+question: Quand a eu lieu le premier échange entre le bitcoin et le dollar ?
+answer: Le 12 octobre 2009
+wrong_answers:
+  - Le 8 mai 2009
+  - Le 30 décembre 2009
+  - Le 11 mars 2010
+explanation: |
+ Martti a cédé 5 050 bitcoins à NLS qui lui a viré 5,02 $ sur son compte PayPal. Cela correspondait à un prix unitaire d'environ 0,001 $.
+reviewed: false

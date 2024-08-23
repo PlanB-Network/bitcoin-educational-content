@@ -1,0 +1,9 @@
+question: Qui a conçu le premier véritable logo de Bitcoin (B majuscule doré traversé par deux barres verticales) en février 2010 ?
+answer: Satoshi Nakamoto
+wrong_answers:
+  - NewLibertyStandard
+  - Martti Malmi
+  - bitboy
+explanation: |
+ Il a utilisé la suggestion de NewLibertyStandard d'utiliser le symbole du baht thaïlandais (฿). Le logo orange a quant à lui été créé par un certain bitboy.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Qui a créé la plateforme de change Mt. Gox le 18 juillet 2010, une semaine après le « grand slashdotting » de Bitcoin ?
+answer: Jed McCaleb
+wrong_answers:
+  - Mark Karpelès
+  - Martti Malmi
+  - Gavin Andresen
+explanation: |
+ Il a créé cette place de marché performante « sur un coup de tête », en constatant à quel point il était pénible de se procurer du bitcoin contre des dollars (notamment sur Bitcoin Market).
+reviewed: false

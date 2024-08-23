@@ -1,0 +1,9 @@
+question: Quels étaient les schémas de sorties de script standardes reconnues par le logiciel en septembre 2010 ?
+answer: La réception par une clé publique (P2PK) et la réception par une adresse (P2PKH)
+wrong_answers:
+  - La réception par une adresse (P2PKH) et la réception par un script de signature multipartite (P2MS)
+  - La réception par une adresse (P2PKH) et la réception par un script (P2SH)
+  - La réception par une clé publique (P2PK) et la réception par un script (P2SH)
+explanation: |
+ C'étaient les deux types utilisés depuis les débuts de Bitcoin. Le type P2MS a été rendus standard en mars 2012. Le type P2SH a été ajouté au protocole en avril 2012.
+reviewed: false

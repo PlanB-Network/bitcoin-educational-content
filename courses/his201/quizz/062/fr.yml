@@ -1,0 +1,9 @@
+question: En quoi consiste l'estimation du taux de hachage d'un membre d'une coopérative par preuve de travail partielles ?
+answer: Récupérer des preuves de travail de degré inférieur à la difficulté du réseau produites par le hacheur
+wrong_answers:
+  - Récupérer l'empreinte d'un tampon incluant le premier octet de chaque hachage du bloc produit par le hacheur
+  - Récupérer la facture d'électricité du hacheur tous les mois
+  - Récupérer les preuves de travail produites sur un réseau de difficulté inférieure, comme BitDNS
+explanation: |
+ Cette méthode simple a été proposée par ribuck, Nils Schneider et Gavin Andresen [sur le forum](https://bitcointalk.org/index.php?topic=1458.msg16951#msg16951) le 14 octobre 2010. ()
+reviewed: false

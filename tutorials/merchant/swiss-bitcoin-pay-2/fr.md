@@ -4,6 +4,8 @@ description: Comment accepter facilement des paiements en bitcoins ?
 ---
 ![cover](assets/cover.webp)
 
+![video](https://youtu.be/_yAyJReq3Dg)
+
 Aujourd'hui, de nombreuses solutions existent pour les commerçants qui souhaitent accepter le bitcoin comme moyen de paiement. Pour les petites structures qui souhaitent une mise en place informelle, il suffit d'installer un portefeuille chaud, voire un portefeuille Lightning, pour recevoir des paiements directement sur celui-ci. Les entreprises plus importantes, qui ont besoin de tenir une comptabilité, devront plutôt opter pour un système spécialisé de traitement des paiements. Plusieurs options sont disponibles également dans ce domaine.
 
 Pour ceux qui préfèrent ne pas s'embêter et recevoir des fonds en monnaie fiat directement sur leur compte bancaire, il existe des solutions custodiales comme Open Node :

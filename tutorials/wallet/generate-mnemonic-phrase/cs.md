@@ -25,7 +25,7 @@ Pro ruční vytvoření vaší obnovovací fráze budete potřebovat:
 - List papíru;
 - Pero nebo tužku, ideálně různých barev pro usnadnění organizace;
 - Několik kostek, aby se minimalizovala rizika zkreslení spojená s nevyváženou kostkou;
-- [Seznam 2048 BIP39 slov](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/tutorials/others/generate-mnemonic-phrase/assets/BIP39-WORDLIST.pdf) vytištěný.
+- [Seznam 2048 BIP39 slov](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf) vytištěný.
 
 Následně se stane nutné použití počítače s terminálem pro výpočet kontrolního součtu. Právě z tohoto důvodu doporučuji proti ruční generaci mnemonické fráze. Podle mého názoru zásah počítače, i při dodržení opatření uvedených v tomto tutoriálu, výrazně zvyšuje zranitelnost peněženky.
 Pro experimentální přístup týkající se "fiktivní peněženky" je možné použít váš běžný počítač a jeho terminál. Nicméně pro rigoróznější přístup zaměřený na omezení rizik kompromitace vaší fráze by bylo ideální použít PC odpojené od internetu (nejlépe bez wifi komponenty nebo kabelového RJ45 připojení), vybavené minimem periferií (všechny by měly být připojeny kabelem, aby se vyhnulo Bluetooth) a především běžící na amnestické distribuci Linuxu, jako je [Tails](https://tails.boum.org/index.fr.html), spuštěné z odnímatelného média.
@@ -59,7 +59,7 @@ Každý z těchto balíčků reprezentuje číslo v binární formě, které bud
 
 ![mnemonic](assets/notext/5.webp)
 
-Nakonec nám číslo v desítkové soustavě řekne pozici odpovídajícího slova v [seznamu 2048 slov BIP39](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/tutorials/others/generate-mnemonic-phrase/assets/BIP39-WORDLIST.pdf). Zbývá už jen vybrat tato slova, aby se složila obnovovací fráze pro naši peněženku.
+Nakonec nám číslo v desítkové soustavě řekne pozici odpovídajícího slova v [seznamu 2048 slov BIP39](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf). Zbývá už jen vybrat tato slova, aby se složila obnovovací fráze pro naši peněženku.
 
 ![mnemonic](assets/notext/6.webp)
 
@@ -205,7 +205,7 @@ S získanými desítkovými čísly nyní můžeme lokalizovat odpovídající s
 
 ![mnemonic](assets/notext/24.webp)
 Po tomto nastavení máte hodnost každého slova v seznamu. Zbývá už jen každé slovo identifikovat podle jeho čísla. Samozřejmě, stejně jako u všech ostatních kroků, nesmíte použít počítač k provedení této konverze. Proto se ujistěte, že máte seznam vytisknutý předem.
-[**-> Vytiskněte seznam BIP39 ve formátu A4.**](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/tutorials/others/generate-mnemonic-phrase/assets/BIP39-WORDLIST.pdf)
+[**-> Vytiskněte seznam BIP39 ve formátu A4.**](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf)
 
 Například, pokud číslo odvozené z prvního řádku je 1721, odpovídající slovo bude 1721. na seznamu:
 ```plaintext

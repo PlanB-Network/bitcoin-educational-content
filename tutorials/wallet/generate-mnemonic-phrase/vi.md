@@ -25,7 +25,7 @@ Thông thường, cụm từ này được cung cấp trực tiếp cho bạn kh
 - Một tờ giấy;
 - Một cây bút hoặc bút chì, lý tưởng là có màu sắc khác nhau để dễ dàng tổ chức;
 - Một số xúc xắc, để giảm thiểu rủi ro về sự thiên vị liên quan đến một xúc xắc không cân bằng;
-- [Danh sách 2048 từ BIP39](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/tutorials/others/generate-mnemonic-phrase/assets/BIP39-WORDLIST.pdf) được in ra.
+- [Danh sách 2048 từ BIP39](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf) được in ra.
 
 Sau đó, việc sử dụng một máy tính với terminal sẽ trở nên cần thiết để tính toán mã kiểm tra. Chính vì lý do này mà tôi khuyên bạn không nên tự tạo cụm từ ghi nhớ. Theo ý kiến của tôi, sự can thiệp của một máy tính, ngay cả dưới các biện pháp phòng ngừa được đề cập trong hướng dẫn này, làm tăng đáng kể khả năng bị tấn công của một ví.
 Đối với một phương pháp thử nghiệm liên quan đến "ví giả tưởng", bạn có thể sử dụng máy tính thường ngày và terminal của nó. Tuy nhiên, để tiếp cận một cách nghiêm ngặt hơn nhằm giảm thiểu rủi ro làm lộ cụm từ bí mật của bạn, lý tưởng nhất là sử dụng một PC không kết nối internet (ưu tiên không có thành phần wifi hoặc kết nối dây RJ45), trang bị tối thiểu các thiết bị ngoại vi (tất cả phải được kết nối bằng cáp, để tránh Bluetooth), và quan trọng nhất, chạy trên một bản phân phối Linux không lưu trữ dữ liệu như [Tails](https://tails.boum.org/index.fr.html), khởi động từ một thiết bị gắn ngoài.
@@ -60,7 +60,7 @@ Mỗi gói này đại diện cho một số trong hệ nhị phân sẽ sau đ�
 
 ![mnemonic](assets/notext/5.webp)
 
-Cuối cùng, số thập phân cho chúng ta biết vị trí của từ tương ứng trong [danh sách 2048 từ BIP39](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/tutorials/others/generate-mnemonic-phrase/assets/BIP39-WORDLIST.pdf). Tất cả những gì còn lại là chọn những từ này để tạo thành cụm từ khôi phục cho ví của chúng ta.
+Cuối cùng, số thập phân cho chúng ta biết vị trí của từ tương ứng trong [danh sách 2048 từ BIP39](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf). Tất cả những gì còn lại là chọn những từ này để tạo thành cụm từ khôi phục cho ví của chúng ta.
 
 ![mnemonic](assets/notext/6.webp)
 
@@ -190,7 +190,7 @@ Với các số thập phân đã thu được, giờ đây chúng ta có thể 
 
 ![mnemonic](assets/notext/24.webp)
 Sau khi điều chỉnh này, bạn sẽ có thứ hạng của từng từ trong danh sách. Tất cả những gì còn lại là xác định mỗi từ bằng số của nó. Rõ ràng, như với tất cả các bước khác, bạn không được sử dụng máy tính để thực hiện việc chuyển đổi này. Do đó, hãy chắc chắn bạn đã in danh sách trước đó.
-[**-> In danh sách BIP39 ở định dạng A4.**](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/tutorials/others/generate-mnemonic-phrase/assets/BIP39-WORDLIST.pdf)
+[**-> In danh sách BIP39 ở định dạng A4.**](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf)
 
 Ví dụ, nếu số thu được từ dòng đầu tiên là 1721, từ tương ứng sẽ là từ thứ 1721 trong danh sách:
 ```plaintext

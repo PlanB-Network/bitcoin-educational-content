@@ -25,7 +25,7 @@ For the creation of your recovery phrase by hand, you will need:
 - A sheet of paper;
 - A pen or pencil, ideally of different colors to facilitate organization;
 - Several dice, to minimize the risks of bias related to an unbalanced die;
-- [The list of 2048 BIP39 words](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/tutorials/others/generate-mnemonic-phrase/assets/BIP39-WORDLIST.pdf) printed out.
+- [The list of 2048 BIP39 words](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf) printed out.
 
 Subsequently, the use of a computer with a terminal will become necessary for the calculation of the checksum. It is precisely for this reason that I advise against the manual generation of the mnemonic phrase. In my opinion, the intervention of a computer, even under the precautions mentioned in this tutorial, significantly increases the vulnerability of a wallet.
 
@@ -62,7 +62,7 @@ Each of these packets represents a number in binary which will then be converted
 
 ![mnemonic](assets/notext/5.webp)
 
-Finally, the number in decimal tells us the position of the corresponding word in [the list of 2048 BIP39 words](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/tutorials/others/generate-mnemonic-phrase/assets/BIP39-WORDLIST.pdf). All that remains is to select these words to compose the recovery phrase for our wallet.
+Finally, the number in decimal tells us the position of the corresponding word in [the list of 2048 BIP39 words](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf). All that remains is to select these words to compose the recovery phrase for our wallet.
 
 ![mnemonic](assets/notext/6.webp)
 
@@ -216,7 +216,7 @@ With the decimal numbers obtained, we can now locate the corresponding words in 
 
 After this adjustment, you have the rank of each word within the list. All that remains is to identify each word by its number. Obviously, as with all the other steps, you must not use your computer to perform this conversion. Therefore, make sure you have printed the list beforehand.
 
-[**-> Print the BIP39 list in A4 format.**](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/tutorials/others/generate-mnemonic-phrase/assets/BIP39-WORDLIST.pdf)
+[**-> Print the BIP39 list in A4 format.**](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf)
 
 For example, if the number derived from the first line is 1721, the corresponding word will be the 1721st on the list:
 ```plaintext

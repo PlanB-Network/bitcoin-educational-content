@@ -47,9 +47,9 @@ Comme vous pouvez le voir sur l’écran, il faut supprimer la partie `stratum+t
 
 Dans ce tutoriel, nous utilisons la pool de minage Braiins, mais vous êtes libre d'en choisir une autre. Vous pouvez retrouver nos tutoriels sur les pools de minage [sur le site de PlanB Network](https://planb.network/en/tutorials/mining).
 
-Ensuite, dans `User`, renseignez votre identifiant puis le `Password`. Généralement, il s'agit de `"x"` ou `"Anything123"`.
+Ensuite, dans `User`, renseignez votre identifiant puis le `Password`, généralement, il s'agit de `"x"` ou `"Anything123"`.
 
-Le paramètre `Core Voltage` doit être laissé à `1200` par défaut, et pour `Frequency`, laissez également la valeur par défaut dans un premier temps. Il sera possible de modifier ce paramètre plus tard pour obtenir plus de puissance de calcul. Cependant, il faudra veiller à ce que la température de la puce ne dépasse pas 65°C, car le BitAxe n'a pas de système pour réduire les performances en cas de surchauffe. Si la température dépasse trop les 65°C, cela pourrait endommager votre BitAxe.
+Le paramètre `Core Voltage` doit être laissé à `1200` par défaut, et pour `Frequency`, laissez également la valeur par défaut dans un premier temps. Il sera possible de modifier ce paramètre plus tard pour obtenir plus de puissance de calcul. Cependant, il faudra veiller à ce que la température de la puce ne dépasse pas 65-70°C, car le BitAxe n'a pas de système pour réduire les performances en cas de surchauffe. Si la température dépasse trop les 65°C, cela pourrait endommager votre BitAxe.
 
 ![signup](assets/7.webp)
 

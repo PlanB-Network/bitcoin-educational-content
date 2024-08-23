@@ -1568,7 +1568,7 @@ Jedním z hlavních nedostatků JoinMarketu je jeho složitost použití, která
 
 ![BTC204](assets/notext/53/02.webp)
 
-Zdroj: [JAM](https://github.com/joinmarket-webui/jam/blob/devel/docs/assets/screenshot-dark.png)
+Zdroj: [JAM](https://github.com/joinmarket-webui/jam/blob/devel/docs/assets/screenshot-dark.webp)
 
 Nicméně, technická bariéra zůstává hlavní překážkou. V ekosystému coinjoin, kde je důvěrnost zvýšena počtem účastníků, jakékoli omezení snižující přístupnost přímo ovlivňuje dostupnou likviditu, což je klíčový faktor pro efektivitu míchání. Bitcoin, již nikový ve finančních transakcích, vidí své využití coinjoinů jako sub-niku a JoinMarket představuje ještě specializovanější frakci, čímž omezuje jeho potenciál zvýšit anonsety svých uživatelů.
 Přestože má JoinMarket díky svému inovativnímu P2P modelu pro coinjoins některé významné nevýhody, zejména pokud jde o strukturu transakcí. Na rozdíl od jiných implementací, jako je Whirlpool, JoinMarket negarantuje dokonalou rovnost mezi výstupy a je možné sledovat deterministické vazby mezi vstupy a výstupy. Navíc mu chybí nástroje, které by zabránily opětovnému míchání mincí, které již byly smíchány, což by mohlo ohrozit důvěrnost, kterou uživatelé hledají. Nakonec, ačkoliv je koncept JoinMarketu zajímavý, zejména pro ty, kteří mají zájem o dynamický trh s likviditou, jeho strukturální slabiny a technická složitost jej v mé opinii činí méně atraktivním, jak pro nováčky, tak pro odborníky hledající implementaci coinjoin.

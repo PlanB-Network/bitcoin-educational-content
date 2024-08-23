@@ -1472,7 +1472,7 @@ Yksi JoinMarketin päähaitoista on sen käytön monimutkaisuus, joka vaatii tie
 
 ![BTC204](assets/notext/53/02.webp)
 
-Lähde: [JAM](https://github.com/joinmarket-webui/jam/blob/devel/docs/assets/screenshot-dark.png)
+Lähde: [JAM](https://github.com/joinmarket-webui/jam/blob/devel/docs/assets/screenshot-dark.webp)
 
 Tekninen este on kuitenkin edelleen merkittävä este. Coinjoin-ekosysteemissä, jossa luottamuksellisuus lisääntyy osallistujien määrän myötä, mikä tahansa este, joka vähentää saavutettavuutta, vaikuttaa suoraan saatavilla olevaan likviditeettiin, joka on sekoittamisen tehokkuuden kannalta ratkaiseva tekijä. Bitcoin, joka on jo itsessään rahoitustransaktioiden erikoisala, näkee coinjoinien käytön ala-alana, ja JoinMarket edustaa vielä erikoistuneempaa osaa, rajoittaen sen potentiaalia lisätä käyttäjiensä anonsetteja.
 Huolimatta innovatiivisesta P2P-matching-mallistaan coinjoineissa, JoinMarketilla on merkittäviä haittoja, erityisesti transaktiorakenteen osalta. Toisin kuin muissa toteutuksissa, kuten Whirlpool, JoinMarket ei takaa täydellistä yhtäläisyyttä lähtöjen välillä, ja on mahdollista jäljittää deterministisiä linkkejä syötteiden ja tulosteiden välillä. Lisäksi siitä puuttuvat työkalut estämään jo kerran sekoitettujen kolikoiden uudelleensekoittumisen, mikä voisi vaarantaa käyttäjien tavoitteleman luottamuksellisuuden. Lopuksi, vaikka JoinMarketin konsepti on mielenkiintoinen, erityisesti niille, jotka ovat kiinnostuneita dynaamisesta likviditeettimarkkinasta, sen rakenteelliset heikkoudet ja tekninen monimutkaisuus tekevät siitä mielestäni vähemmän houkuttelevan, sekä aloittelijoille että asiantuntijoille, jotka etsivät coinjoin-toteutusta.

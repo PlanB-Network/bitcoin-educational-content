@@ -565,8 +565,6 @@ int64 GetBlockValue(int64 nFees)
 
 Il se crée 100 bitcoins durant la première période de 100 000 blocs, 50 durant la deuxième période, etc. de sorte que la quantité totale de bitcoins converge vers 20 millions. Chaque bitcoin (COIN) est divisible en 100 centimes (CENT), qui sont eux-mêmes divisibles en 10 000 unités de base, si bien qu'un bitcoin peut être divisé en 1 million d'unités plus petites, et non en 100 millions comme dans la version 0.1 qui sortira en janvier.
 
-img: graphe de production
-
 Hal Finney et Ray Dillinger [réalisent](https://www.linkedin.com/pulse/id-known-what-we-were-starting-ray-dillinger/) alors un examen minutieux du code. Chacun se concentre sur une partie spécifique du système : Ray Dillinger s'intéresse à la partie concernant le consensus, et Hal Finney étudie le système de script.
 
 Le 10 décembre, Satoshi [crée](https://web.archive.org/web/20131016004654/http://sourceforge.net/p/bitcoin/mailman/bitcoin-list/?viewmonth=200812) la liste de diffusion bitcoin-list, qui est hébergée sur SourceForge. Cette liste aura peu de succès, même si quelques courriels de personnes intéressées y seront envoyés au fur et à mesure des années. Quoi qu'il en soit, tout cela démontre que tout est en place pour le lancement du prototype, un évènement qui adviendra un mois plus tard, au début de l'année 2009.
@@ -1723,7 +1721,9 @@ Photographie publiée par jimbobway sur le forum le jour de la parité avec le d
 
 L'effervescence médiatique du printemps a en effet pour conséquence de créer progressivement un phénomène spéculatif sans précédent. Après avoir stagné autour de 1 $ pendant plusieurs mois, le prix remonte et atteint 3 $ à la fin du mois d'avril. En mai, il est de 8 $. Enfin, le 8 juin, le prix du bitcoin atteint un sommet historique de 32 $ sur Mt. Gox ! Cette hausse correpond à une multiplication par 160 en 6 mois.
 
-img: graphique du prix entre janvier et juin 2011
+![Prix moyen du BTC entre le 1er janvier et le 30 juin 2011](assets/img/ch13/11.webp)
+
+Prix moyen du BTC entre le 1er janvier et le 30 juin 2011 (source : [Bitbo.io](https://calendar.bitbo.io/price/))
 
 Bien évidemment, ce mouvement spéculatif fait penser à une bulle financière, c'est-à-dire à une surévaluation d'un produit financier par rapport à sa valeur fondamentale. Dans le cas d'une monnaie comme le bitcoin, il s'agit d'un enthousiasme passager qui se traduit par une hausse vertigineuse du cours, suivie d'une baisse brutale provoquée par le manque de conviction des nouveaux participants. C'est ainsi que l'évolution du prix est [qualifiée](https://web.archive.org/web/20110530074512/http://blogs.reuters.com/columns/2011/05/27/virtual-bitcoins-are-appealing-but-probably-doomed/) de « bulle » (*original: "bubble"*) par un chroniqueur de Reuters le 27 mai, dans une des premières « notices nécrologiques » de Bitcoin.
 

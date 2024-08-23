@@ -1,6 +1,7 @@
-- start_date: 2024-09-20
-  end_date: 2024-09-20 
-  address_line_1: Mexico City, Mexico
+- start_date: 2024-09-19
+  end_date: 2024-09-19
+  timezone: America/Mexico_City
+  address_line_1: 
   address_line_2:
   address_line_3: 
   name: Startup Day in Mexico City

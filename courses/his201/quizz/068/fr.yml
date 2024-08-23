@@ -1,0 +1,9 @@
+question: De quelle maladie le cypherpunk Hal Finney a-t-il appris être atteint en août 2009, quelques mois après avoir découvert Bitcoin ?
+answer: La maladie de Charcot
+wrong_answers:
+  - La maladie de Huntington
+  - La maladie d'Alzheimer
+  - La maladie de Parkinson
+explanation: |
+ Celle-ci, appelée amyotrophic lateral sclerosis (ALS) dans le monde anglophone, lui a été [diagnostiquée](https://www.lesswrong.com/posts/bshZiaLefDejvPKuS/dying-outside) en août 2009. Il est décédé des suites de cette maladie en 2014.
+reviewed: false

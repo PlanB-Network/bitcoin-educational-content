@@ -1,0 +1,9 @@
+question:  À quel endroit Satoshi Nakamoto a-t-il publié le livre blanc de Bitcoin le 31 octobre 2008 ?
+answer: La Cryptography mailing list
+wrong_answers:
+  - Reddit
+  - Twitter
+  - Hackernews
+explanation: |
+ Héritière de la liste des cypherpunks, cette liste de diffusion de courrier électronique était gérée par le développeur Perry Metzger depuis 1996.
+reviewed: false

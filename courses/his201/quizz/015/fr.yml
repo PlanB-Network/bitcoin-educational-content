@@ -1,0 +1,9 @@
+question: Quel était l'objectif initial de l'algorithme de preuve de travail Hashcash conçu par Adam Back ?
+answer: Lutter contre le courrier électronique indésirable
+wrong_answers:
+  - Garantir la valeur d'une unité de compte
+  - Arriver à un consensus sur un réseau pair à pair
+  - Faire bouillir les océans
+explanation: |
+ Hashcash permettait de requérir une preuve de travail pour chaque courriel reçu, ce qui été censé limiter le spam.
+reviewed: false

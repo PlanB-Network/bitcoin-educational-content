@@ -1,0 +1,9 @@
+question: Quels chercheurs ont été cités par Satoshi Nakamoto dans le livre blanc de Bitcoin pour leurs travaux sur l'horodatage certifié ?
+answer: Stuart Haber et Scott Scornetta
+wrong_answers:
+  - Leslie Lamport, Robert Shostak et Marshall Pease
+  - Cynthia Dwork et Moni Naor
+  - Ronald Rivest et Adi Shamir
+explanation: |
+ Trois articles de Haber et Scornetta des années 90 ont été cités dans le livre blanc. Ils sont connus pour avoir créé [la première chaîne temporelle d'horodatages](https://www.vice.com/en/article/j5nzx4/what-was-the-first-blockchain), publiée dans le New York Times à partir de 1992.
+reviewed: false

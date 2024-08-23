@@ -1,0 +1,9 @@
+question: Quelle monnaie basée sur l'or et l'argent a été créée par Bernard von NotHaus en 1998 ?
+answer: Le Liberty Dollar
+wrong_answers:
+  - Liberty Reserve
+  - e-gold
+  - GoldMoney
+explanation: |
+ On pouvait retrouver cette monnaie sous forme de pièces d'argent et de billets représentatifs, puis sous forme numérique à partir de 2003.
+reviewed: false

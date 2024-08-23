@@ -1,0 +1,9 @@
+question: Suite au value overflow incident, quel mécanisme a été ajouté au logiciel par Satoshi pour limiter l'impact de l'exploitation d'éventuelles vulnérabilités sur le système ?
+answer: Le système d'alerte
+wrong_answers:
+  - Le caractère standard des transactions
+  - La limite de taille des blocs
+  - Les codes opération OP_NOP
+explanation: |
+ Ce système d'alerte effectif lui permettait, à l'aide d'une clé privée, d'avertir les nœuds du réseau en cas de problème technique et de suspendre quelques commandes de l'API.
+reviewed: false

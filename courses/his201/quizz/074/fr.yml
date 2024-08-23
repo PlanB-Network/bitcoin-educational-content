@@ -1,0 +1,9 @@
+question: Quel était le premier prénom de l'ingénieur des télécommunications de Temple City qu'une journaliste de Newsweek a pris pour Satoshi Nakamoto en mars 2014 ?
+answer: Dorian
+wrong_answers:
+  - Prentice
+  - Satoshi
+  - Patoshi
+explanation: |
+ Son nom complet était Dorian Prentice Satoshi Nakamoto. Il était d'origine japonaise. Cf. [l'article de Newsweek](https://www.newsweek.com/2014/03/14/face-behind-bitcoin-247957.html).
+reviewed: false

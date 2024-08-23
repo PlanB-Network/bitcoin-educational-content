@@ -1,0 +1,9 @@
+question: Quelle fonction, conçue en octobre 2010 par le mineur m0mchil, permettait aux nœuds clients de récupérer un bloc candidat et de renvoyer la preuve de travail si une solution était trouvée ?
+answer: getwork
+wrong_answers:
+  - stratum
+  - gethash
+  - getcredit
+explanation: |
+ Il l'a publiée le 1er octobre. Satoshi a inclus une version modifiée de cette fonction au logiciel principal le 23 novembre.
+reviewed: false

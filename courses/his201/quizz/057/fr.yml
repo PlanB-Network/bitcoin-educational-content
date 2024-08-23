@@ -1,0 +1,9 @@
+question: Quel mineur allemand a détenu 20 % du taux de hachage du réseau Bitcoin pendant plusieurs mois en 2010 ?
+answer: ArtForz
+wrong_answers:
+  - tcatm
+  - m0mchil
+  - knightmb
+explanation: |
+ Il a mis en place une ferme de minage composée de cartes graphiques (appelée « ArtFarm ») pendant l'été 2010, de sorte qu'il possédait non négligeable une avance sur ses concurrents de l'automne.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Comment s'appelle le fondateur du Parti pirate suédois qui a décrit Bitcoin comme « le Napster de la banque » en mai 2011 ?
+answer: Rick Falkvinge
+wrong_answers:
+  - Smári McCarthy
+  - Edward Snowden
+  - Florian Hufsky
+explanation: |
+ Épris de liberté, Bitcoin lui a [paru](https://falkvinge.net/2011/05/11/with-the-napster-of-banking-round-the-corner-bring-out-your-popcorn/) être une bonne idée quand il l'a découvert. Il a été un promoteur majeur de la cryptomonnaie dans les années qui ont suivi.
+reviewed: false

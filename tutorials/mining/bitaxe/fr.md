@@ -2,7 +2,7 @@
 
 BitAxe est un projet open source créé par Skot et [disponible sur GitHub](https://github.com/skot/bitaxe) qui permet d'expérimenter le minage à moindre coût.
 
-Il a rétro-ingénieré le fonctionnement des célèbres Antminer S19 de Bitmain, leader du marché des ASICs, les machines spécialisées pour le minage de bitcoins. Désormais, il est possible d'utiliser ces puces puissantes dans de nouveaux projets open source. Contrairement au Nerdminer, le BitAxe possède une puissance de calcul suffisante pour être connecté à une pool de minage, ce qui vous permettra de récupérer régulièrement quelques satoshis. En revanche, le Nerdminer ne peut être connecté qu'à ce qu’on appelle une solopool, qui fonctionne comme une sorte de ticket de loto : vous avez une chance infime de remporter la récompense complète d'un bloc.
+Il a rétro-ingénieré le fonctionnement des célèbres Antminer S19 de Bitmain, leader du marché des ASICs, les machines spécialisées pour le minage de bitcoins. Désormais, il est possible d'utiliser ces puces puissantes dans de nouveaux projets open source. Contrairement au Nerdminer, le BitAxe possède une puissance de calcul suffisante pour être connecté à une pool de minage, ce qui vous permettra de récupérer régulièrement quelques satoshis. Le Nerdminer lui ne peut être connecté qu'à ce qu’on appelle une solopool, qui fonctionne comme une sorte de ticket de loto : vous avez une chance infime de remporter la récompense complète d'un bloc.
 
 
 Il existe plusieurs versions du BitAxe, avec différentes puces et performances :

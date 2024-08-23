@@ -1,0 +1,13 @@
+builder: VeraCrypt
+
+tags:
+  - security
+  - privacy
+  - encryption
+
+category: general
+
+level: intermediary
+
+credits:
+  professor: pretty-private

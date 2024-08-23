@@ -370,7 +370,7 @@ Kuldreegel: Küberturvalisus on liikuv sihtmärk, mis kohandub teie õppimisteek
 
 <chapterId>afc9ab5d-7664-5a9b-ab50-225ac9ba8f7c</chapterId>
 
-Pange tähele, et hetkel sisaldab see kursuse osa ainult prantsuskeelseid õpetusi. Me töötame hetkel video tõlkimisega teie keelde. Kui soovite meid tõlkimisel aidata, võtke meiega ühendust [GitHub](https://github.com/DecouvreBitcoin/sovereign-university-data) kaudu.
+https://planb.network/tutorials/others/proton-mail
 
 ![video](https://youtu.be/vpYJYWhmEZg)
 
@@ -378,29 +378,40 @@ Pange tähele, et hetkel sisaldab see kursuse osa ainult prantsuskeelseid õpetu
 
 <chapterId>09468ec1-95b7-56a4-a636-7618044568e1</chapterId>
 
+https://planb.network/tutorials/others/authy
+
+https://planb.network/tutorials/others/security-key
+
 ![video](https://youtu.be/mNcAKRDmz5o)
 
 ## Paroolihalduri loomine
 
 <chapterId>ed579680-4e7b-5f65-8541-14e519a3b242</chapterId>
-
+https://planb.network/tutorials/others/bitwarden
+https://planb.network/tutorials/others/keypass
 ![video](https://youtu.be/y7Xkv4E5YmU)
 
 ## Oma kontode turvamine
 
 <chapterId>7a774b34-aed0-57dd-b8f7-cf3be51c0d70</chapterId>
+
+https://planb.network/tutorials/others/bitwarden
+https://planb.network/tutorials/others/keypass
 ![video](https://youtu.be/0JHZRALmGY0)
 
 ## Varundamise seadistamine
 
 <chapterId>01cfcde1-77cb-506c-8df1-fa18a2e8cc6b</chapterId>
-
+https://planb.network/tutorials/others/proton-drive
+https://planb.network/tutorials/others/veracrypt
 ![video](https://youtu.be/wTJnlSUkDRI)
 
 ## Brauseri ja VPN-i vahetus
 
 <chapterId>8dc08feb-313c-5259-a54f-64aa68a07608</chapterId>
-
+https://planb.network/tutorials/others/ivpn
+https://planb.network/tutorials/others/mullvad
+https://planb.network/tutorials/others/tor-browser
 ![video](https://youtu.be/vc6-Ouca09g)
 
 # Mine kaugemale

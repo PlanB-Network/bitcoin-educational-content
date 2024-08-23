@@ -1533,7 +1533,7 @@ Um dos principais inconvenientes do JoinMarket é sua complexidade de uso, que r
 
 ![BTC204](assets/notext/53/02.webp)
 
-Fonte: [JAM](https://github.com/joinmarket-webui/jam/blob/devel/docs/assets/screenshot-dark.png)
+Fonte: [JAM](https://github.com/joinmarket-webui/jam/blob/devel/docs/assets/screenshot-dark.webp)
 
 No entanto, a barreira técnica permanece um obstáculo importante. No ecossistema de coinjoin, onde a confidencialidade é aprimorada pelo número de participantes, qualquer limitação que reduza a acessibilidade afeta diretamente a liquidez disponível, que é um fator crucial para a eficiência da mistura. O Bitcoin, já um nicho em transações financeiras, vê seu uso de coinjoins como um subnicho, e o JoinMarket representa uma fração ainda mais especializada, restringindo assim seu potencial para aumentar os anonsets de seus usuários.
 Apesar de seu inovador modelo P2P de correspondência para coinjoins, o JoinMarket apresenta algumas desvantagens significativas, especialmente em termos de estrutura transacional. Ao contrário de outras implementações como o Whirlpool, o JoinMarket não garante igualdade perfeita entre as saídas, e é possível rastrear ligações determinísticas entre entradas e saídas. Além disso, falta ferramentas para impedir que moedas que já foram misturadas juntas sejam misturadas novamente, o que poderia comprometer a confidencialidade buscada pelos usuários. Finalmente, embora o conceito do JoinMarket seja interessante, especialmente para aqueles interessados em um mercado de liquidez dinâmico, suas fraquezas estruturais e complexidade técnica o tornam, na minha opinião, menos atraente, tanto para novatos quanto para especialistas que buscam uma implementação de coinjoin.

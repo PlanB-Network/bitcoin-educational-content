@@ -14,7 +14,7 @@ Pour les commerçants prêts à mettre les mains dans le cambouis et qui veulent
 
 https://planb.network/tutorials/merchant/btcpay-server
 
-Au milieu de toutes ces solutions, il y a Swiss Bitcoin Pay qui semble être un compromis très intéressant alliant facilité d'utilisation, fonctionnalités et sécurité. Cette solution convient aussi bien aux très petits commerces qu'aux plus grandes structures, que vous recherchiez la simplicité d'utilisation ou un outil favorisant la self custody. Dans ce tutoriel, vous allez découvrir comment utiliser facilement Swiss Bitcoin Pay pour accepter le bitcoin dans votre commerce.
+Au milieu de toutes ces solutions, il y a Swiss Bitcoin Pay qui semble être un compromis très intéressant alliant facilité d'utilisation, fonctionnalités et sécurité. Cette solution convient aussi bien aux très petits commerces qu'aux plus grandes structures. Dans ce tutoriel, vous allez découvrir comment utiliser facilement Swiss Bitcoin Pay pour accepter le bitcoin dans votre commerce.
 
 ## Pourquoi accepter le bitcoin dans son commerce ?
 
@@ -30,7 +30,7 @@ Au quotidien, les paiements en bitcoins offrent plus de praticité et de flexibi
 
 Si vous avez une clientèle internationale, le bitcoin présente l'avantage d'être une monnaie mondiale, ce qui élimine ainsi le besoin pour vos clients de faire du change.
 
-Pour les commerces en ligne, Bitcoin est également une méthode de paiement efficace pour accepter des paiements à distance de manière sécurisée, sans avoir à passer par les systèmes bancaires traditionnels. Cette utilisation était d'ailleurs l'une des intentions originelles de Satoshi Nakamoto, l'inventeur de Bitcoin, qui le décrivait comme "*Un système de cash électronique pair-à-pair*".
+Pour les commerces en ligne, Bitcoin est également une méthode efficace pour accepter des paiements à distance de manière sécurisée, sans avoir à passer par les systèmes bancaires traditionnels. Cette utilisation était d'ailleurs l'une des intentions originelles de Satoshi Nakamoto, l'inventeur de Bitcoin, qui le décrivait comme "*Un système de cash électronique pair-à-pair*".
 
 Enfin, intégrer Bitcoin à votre commerce peut aussi faire partie d'une stratégie marketing. Accepter le BTC peut positionner votre entreprise comme innovante, flexible et adaptée aux évolutions technologiques, tout en vous ouvrant à un nouveau marché. Selon [une étude de KPMG](https://kpmg.com/fr/fr/home/media/press-releases/2024/03/web3-crypto-actifs-adan.html), 12 % des Français possèdent des cryptomonnaies, et une grande majorité d'entre eux détiennent du bitcoin. En acceptant ce moyen de paiement, vous pouvez attirer cette clientèle qui souhaite dépenser ses sats, qui autrement n'aurait peut-être jamais fréquenté votre commerce. C'est également une bonne manière de vous faire connaître auprès de la génération Z.
 
@@ -38,11 +38,11 @@ Enfin, intégrer Bitcoin à votre commerce peut aussi faire partie d'une straté
 
 ## Présentation de Swiss Bitcoin Pay
 
-Swiss Bitcoin Pay est une solution permettant aux commerçants d'accepter des paiements en bitcoins de manière simple. Elle intègre une application PoS (Point of Sale) avec une interface utilisateur intuitive, facile à utiliser pour vos employés sans nécessiter de connaissances techniques approfondies. Contrairement à un portefeuille Bitcoin classique, l'application Swiss Bitcoin Pay est uniquement destinée à l'encaissement de bitcoins, ce qui permet de confier l'appareil aux employés sans risques. Vous avez la possibilité d'utiliser plusieurs applications de PoS connectées au même compte Swiss Bitcoin Pay, ce qui facilite leur déploiement que ce soit sur une tablette, en caisse ou sur les smartphones de vos employés. L'application Swiss Bitcoin Pay peut être installée sur des appareils sous Android et iOS, et elle est également disponible en version web pour les ordinateurs.
+Swiss Bitcoin Pay est une solution permettant aux commerçants d'accepter des paiements en bitcoins de manière simple. Elle intègre une application PoS (*Point of Sale*) avec une interface utilisateur intuitive, facile à prendre en mains pour vos employés sans nécessiter de connaissances techniques approfondies. Contrairement à un portefeuille Bitcoin classique, l'application Swiss Bitcoin Pay est uniquement destinée à l'encaissement de bitcoins, ce qui permet de confier l'appareil aux employés sans risques. Vous avez la possibilité d'utiliser plusieurs applications de PoS connectées au même compte Swiss Bitcoin Pay, ce qui facilite leur déploiement que ce soit sur une tablette, en caisse ou sur les smartphones de vos employés. L'application Swiss Bitcoin Pay peut être installée sur des appareils sous Android et iOS, et elle est également disponible en version web pour les ordinateurs.
 
 Swiss Bitcoin Pay offre deux options pour la gestion des paiements : les fonds peuvent être soit retirés directement en bitcoins sur une adresse spécifique, soit convertis en monnaie étatique et déposés sur un compte bancaire. Cette opération est automatisée et s'effectue quotidiennement toutes les 24 heures. Ainsi, vous n'avez pas à gérer manuellement les paiements en bitcoins ou via le Lightning Network ; Swiss Bitcoin Pay s'occupe de tout pour vous. Chaque jour, vous recevrez le solde des paiements sur votre portefeuille personnel ou votre compte bancaire, selon votre préférence. Bien que ce ne soit pas une solution 100 % non-custodiale comme celle offerte par BTCPay Server par exemple, Swiss Bitcoin Pay représente un compromis intéressant entre praticité et sécurité, car l'intermédiaire ne conserve vos recettes que pendant 24 heures avant de vous transférer les fonds. De plus, à la différence d'autres solutions custodiales, Swiss Bitcoin Pay ne requiert aucune vérification d'identité (KYC) pour votre commerce.
 
-Les frais associés à l'utilisation de Swiss Bitcoin Pay sont très compétitifs : la première année, une commission de 0,21 % est appliquée sur les transactions. Par la suite, les frais s'élèvent à 1 % pour les paiements conservés en bitcoins et à 1,5 % pour ceux convertis en monnaie fiat.
+Les frais associés à l'utilisation de Swiss Bitcoin Pay sont très compétitifs : la première année, une commission de 0,21 % est appliquée sur les transactions. Par la suite, les frais s'élèvent à 1 % pour les paiements conservés en bitcoins et à 1,5 % pour ceux convertis en monnaie fiat. Mais il faut noter qu'en contrepartie, ils prennent en charge à 100 % les frais de transaction sur Bitcoin pour tous vos retraits.
 
 Swiss Bitcoin Pay se présente donc comme une alternative intéressante entre les solutions entièrement custodiales et les systèmes autohébergés plus complexes tels que BTCPay Server. C'est un bon compromis entre simplicité, sécurité et autonomie financière pour le commerçant.
 
@@ -54,7 +54,7 @@ Cliquez sur le bouton "*Dashboard*".
 ![SWISS BITCOIN PAY](assets/notext/02.webp)
 Cliquez sur le bouton "*Sign up*".
 ![SWISS BITCOIN PAY](assets/notext/03.webp)
-Choisissez un nom pour votre compte. Cela peut être le nom commercial de votre entreprise.
+Choisissez un nom pour votre compte. Cela peut être le nom commercial de votre entreprise (c'est ce nom qui apparaitra sur le portefeuille de vos clients dans leur historique de transactions).
 ![SWISS BITCOIN PAY](assets/notext/04.webp)
 Renseignez une adresse email.
 ![SWISS BITCOIN PAY](assets/notext/05.webp)
@@ -64,7 +64,7 @@ Définissez votre devise locale.
 ![SWISS BITCOIN PAY](assets/notext/07.webp)
 Choisissez ensuite la manière dont vous souhaitez recevoir vos fonds en ajustant le curseur : soit 100 % en bitcoins, soit 100 % en devise locale, ou bien la répartition de votre choix entre les deux.
 ![SWISS BITCOIN PAY](assets/notext/08.webp)
-Si vous choisissez de recevoir vos fonds via le système bancaire, vous devrez fournir les identifiants de votre compte bancaire. Si vous préférez recevoir vos fonds en bitcoins, plusieurs options de réception s'offrent à vous.
+Si vous choisissez de recevoir vos fonds via le système bancaire en devise locale, vous devrez fournir les identifiants de votre compte bancaire. Si vous préférez recevoir vos fonds en bitcoins, plusieurs options de réception s'offrent à vous.
 ![SWISS BITCOIN PAY](assets/notext/09.webp)
 L'option "*onchain*" permet de recevoir tous vos paiements sur une unique adresse Bitcoin. Cependant, je vous déconseille cette option, car elle entraîne la réutilisation d'une même adresse, ce qui peut nuire fortement à votre confidentialité.
 
@@ -94,11 +94,11 @@ Si vous souhaitez utiliser le PoS sur un smartphone ou une tablette, vous avez d
 ![SWISS BITCOIN PAY](assets/notext/17.webp)
 Puis scannez simplement le QR code présent sur votre interface avec l'appareil de votre choix.
 ![SWISS BITCOIN PAY](assets/notext/18.webp)
-Si vous préférez avoir le PoS sous forme d'application, rendez-vous sur votre magasin d'application Google Play Store ou App Store et installez Swiss Bitcoin Pay.
+Si vous préférez avoir le PoS sous forme d'application, rendez-vous sur votre magasin d'application [Google Play Store](https://play.google.com/store/apps/details?id=ch.swissbitcoinpay.checkout) ou [App Store](https://apps.apple.com/us/app/swiss-bitcoin-pay/id6444370155) et installez Swiss Bitcoin Pay. L'application est également disponible directement au format `.apk` sur leur site web, ou sur [le store F-Droid](https://f-droid.org/packages/ch.swissbitcoinpay.checkout/).
 ![SWISS BITCOIN PAY](assets/notext/19.webp)
 Lors de la première ouverture, cliquez sur le bouton "*Scanner le code QR d'activation*".
 ![SWISS BITCOIN PAY](assets/notext/20.webp)
-Scannez QR code présent sur votre dashboard.
+Scannez le QR code présent sur votre dashboard.
 ![SWISS BITCOIN PAY](assets/notext/21.webp)
 Vous êtes maintenant connecté au système PoS en tant qu'employé, ce qui signifie que cette machine est uniquement autorisée à encaisser les paiements sans avoir la capacité de modifier les paramètres de votre compte d'entreprise.
 ![SWISS BITCOIN PAY](assets/notext/22.webp)
@@ -152,7 +152,7 @@ Puis cliquez sur le bouton "*Export*" pour télécharger un fichier `.csv` de vo
 ![SWISS BITCOIN PAY](assets/notext/44.webp)
 Dans l'onglet "*Recurring*", vous pouvez planifier des exports automatiques récurrents. Sélectionnez la fréquence de génération des exports, et sélectionnez les informations que vous souhaitez inclure dans le rapport.
 ![SWISS BITCOIN PAY](assets/notext/45.webp)
-Enfin, renseignez l'adresse mail où sera envoyé le rapport. Vous pouvez par exemple renseigner directement l'adresse email de votre comptable. Cliquez sur le bouton "*Save*" pour enregistrer cet export programmé.
+Enfin, renseignez l'adresse email où sera envoyé le rapport. Vous pouvez par exemple renseigner directement l'adresse email de votre comptable. Cliquez sur le bouton "*Save*" pour enregistrer cet export programmé.
 ![SWISS BITCOIN PAY](assets/notext/46.webp)
 L'onglet invoice vous permet de générer une facture pour un paiement ponctuel.
 ![SWISS BITCOIN PAY](assets/notext/47.webp)

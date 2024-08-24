@@ -35,6 +35,9 @@ The course aims to equip participants with a deep understanding of Bitcoin's und
 
 Participants are expected to bring a strong sense of curiosity, an eagerness to learn at a professional level, and some foundational knowledge in development. While a detailed background in Bitcoin is not required, a basic understanding of coding principles and an openness to engaging with complex technical concepts are essential for making the most of the accelerator.
 
+#### Tools
+Throughout the course, participants will leverage key tools that will aid their understanding and enhance their learning experience. The use of Linux, the command line interface, GitHub, and Docker will be integral in providing a hands-on approach to Bitcoin development. These tools will facilitate working with the Bitcoin software stack, managing development environments, and collaborating on projects in a real-world setting.
+
 ## Why Bitcoin
 <chapterId>89a0aa8b-90bd-58b2-82b3-bc5e1f82eaeb</chapterId>
 

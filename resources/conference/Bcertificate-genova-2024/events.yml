@@ -1,0 +1,24 @@
+- start_date: 2024-09-04 18:45:00
+  end_date: 2024-09-04 19:45:00
+  timezone: Europe/Rome
+  address_line_1: Genova, italy
+  address_line_2:
+  address_line_3: 
+  name: Back to school – ₿ Certificate
+  builder: 
+  type: exam
+  book_online: true
+  book_in_person: false
+  price_dollars: 0
+  description: Private LN event for networking
+  language: 
+    - en
+    - it
+  links:
+    website: https://www.meetup.com/fr-FR/bitcoin-meetup-geneva/events/302790658/?_xtd=gqFyqTE5MDMzODg3OKFwo2FwaQ%3D%3D&from=ref
+    replay_url:
+    live_url : 
+  tags: 
+    - Lightning
+    - Bitcoiner
+    - education

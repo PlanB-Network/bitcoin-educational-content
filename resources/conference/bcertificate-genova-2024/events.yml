@@ -6,11 +6,11 @@
   address_line_3: 
   name: Back to school – ₿ Certificate
   builder: 
-  type: exam
-  book_online: true
+  type: exam  
+  book_online: false
   book_in_person: false
   price_dollars: 0
-  description: Private LN event for networking
+  description: September's meetup will be academic in spirit, with a knowledge test on Bitcoin and related subjects organised in collaboration with Plan B, a network of bitcoiner communities.
   language: 
     - en
     - it

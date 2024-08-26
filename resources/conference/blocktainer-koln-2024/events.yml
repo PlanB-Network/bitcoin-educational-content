@@ -1,5 +1,5 @@
-- start_date: 2024-10-03
-  end_date: 2024-10-05
+- start_date: 2024-09-22
+  end_date: 2024-09-22 
   address_line_1: Köln, germany
   address_line_2: MMC Studios, Köln
   address_line_3: 
@@ -13,7 +13,7 @@
   language: 
     - de
   links:
-    website: https://bitcoin-oasis.com/
+    website: https://www.blocktrainer.de/blocktrainer-community-event-2024
     replay_url:
     live_url :
   tags: 

@@ -1,0 +1,23 @@
+- start_date: 2024-10-03
+  end_date: 2024-10-05
+  address_line_1: Abu Dhabi, UAE
+  address_line_2:  
+  address_line_3: 
+  name: Bitcoin Oasis 2.1 | Sky and Sand
+  builder: 
+  type: conference
+  book_online: false
+  book_in_person: false
+  price_dollars: 0
+  description:  The only business conference in the arabic world for Bitcoin industry leaders and investors
+  language: 
+    - en
+  links:
+    website: https://bitcoin-oasis.com/
+    replay_url:
+    live_url :
+  tags: 
+    - bitcoiner
+    - general
+
+

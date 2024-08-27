@@ -51,7 +51,7 @@ Throughout the course, participants will leverage key tools that will aid their 
 
 Welcome to the first lecture of the **Cubo Plus** educational program. Today, we are diving into the world of Bitcoin, led by Ricky, the founder of the **Bitcoin Italia Podcast**. Ricky is a passionate human rights activist who uses Bitcoin as a tool to protect and promote human rights. With over six years of experience, Ricky has traveled extensively, documenting Bitcoin adoption in emerging markets like El Salvador and Guatemala. His work goes beyond podcasting; he’s also active on YouTube (**Bitcoin Explorers**) and Twitter (**BTC Explorer**, **Ricky6**). Ricky's commitment to Bitcoin stems from his belief that it offers financial freedom and privacy, challenging traditional, centralized banking systems.
 
-![Unbanked Population](assets/en/1/1.webp1)
+![Unbanked Population](assets/en/1/1.webp)
 _The Global Unbanked Population_
 
 This lecture, **"Why El Salvador Needs Bitcoin,"** provides an overview of the **Bitcoin protocol**, its roots in the **Cypherpunk movement**, and its role as a tool for freedom—enabling **uncensored money**, **financial inclusion**, and much more.

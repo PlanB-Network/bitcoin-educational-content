@@ -1410,61 +1410,61 @@ BTCPay服务器提供两种标准模式：夜间和白天模式。您可以通�
 
 #### 服务器品牌创建
 
-服务器管理员可以通过设置您公司的服务器范围品牌来更改 BTCPay Server 的品牌。由于 BTCPay Server 是 FOSS，服务器管理员可以白标签软件并更改外观以适应他们的业务。
+服务器管理员可以通过设置您公司的服务器范围品牌来更改BTCPay服务器的品牌。由于BTCPay服务器是一种FOSS，服务器管理员可以给软件白色标签并更改外观，使其适合他们的商业。
 
 ![image](assets/en/84.webp)
 
 ### 维护
 
-作为服务器管理员，您的用户期望您好好照顾服务器。在 BTCPay Server 的维护标签页中，管理员可以进行一些基本维护。设置 BTCPay Server 实例的域名，重启或清理服务器。可能最重要的是，运行更新。
+作为服务器管理员，您的用户期望您妥善管理服务器。在BTCPay服务器的维护标签页中，管理员可以进行一些基本维护。设置BTCPay服务器实例的域名，重启或清理服务器，以及最重要的是运行更新。
 
-BTCPay Server 是一个开源项目，频繁更新。每个新版本都通过您的 BTCPay Server 通知或 BTCPay Server 通过其官方渠道通信来宣布。
+BTCPay服务器是一个开源项目，频繁更新。每个新版本信息都将通过您的BTCPay服务器或其官方渠道通信来宣布。
 
 ![image](assets/en/85.webp)
 
 #### 域名
 
-在设置 BTCPay Server 之后，管理员可能想要改变他原来的域名。在维护标签页中，管理员可以更改域名。点击确认并在域名上设置适当的 DNS 记录后，BTCPay Server 更新并重启以返回到新域名。
+设置BTCPay服务器之后，管理员可能需要改变他原来的域名。在维护标签页中，管理员可以更改域名。点击确认并在域名上设置适当的DNS记录后，BTCPay服务器将更新并重启以返回到新域名。
 
 ![image](assets/en/86.webp)
 
 #### 重启
 
-重启 BTCPay Server 及相关服务。
+重启BTCPay服务器及相关服务。
 
 ![image](assets/en/87.webp)
 
 #### 清理
-BTCPay Server 通过 Docker 组件运行；随着更新，可能会留下 Docker 镜像、临时文件等残留物。服务器管理员可以通过运行清理脚本来清理这些内容，并在他们的环境中回收空间。
+BTCPay服务器为其运行而使用Docker组件；每次进行更新，此过程可能会留下Docker镜像、临时文件等残余文件。服务器管理员可以通过运行清理脚本来清理这些多余文件，以释放存储空间。
 ![image](assets/en/88.webp)
 
 #### 更新
 
-可能是维护标签页中最重要的选项。BTCPay Server 由社区构建，因此，其更新周期比大多数软件产品更频繁。当 BTCPay Server 有新版本发布时，管理员将在他们的通知中心收到通知。通过点击更新按钮，BTCPay Server 将检查 GitHub 上的最新版本，更新服务器并重启。在更新之前，总是建议服务器管理员阅读通过 BTCPay Server 官方渠道分发的发布说明。
+这个功能可能是维护标签页中的最重要部分。BTCPay服务器由社区构建，因此，其更新周期比大多数软件产品更频繁。当BTCPay服务器有新版本发布时，管理员将在他们的通知中心收到通知。通过点击更新按钮，BTCPay服务器将检查GitHub上的最新版本，更新服务器并重启。在更新之前，我们建议服务器管理员要总是阅读通过BTCPay服务器官方渠道分发的发布说明。
 
 ![image](assets/en/89.webp)
 
 ### 日志
 
-面对问题从来都不是一件有趣的事情。本文档解释了最常见的工作流程和步骤，以高效地识别您的问题并自己解决或在社区的帮助下解决。
+面对问题时，您绝不会感到轻松或愉快。本文档讲述了最常见的工作流程和步骤，以高效地识别您的问题并自己解决或在社区的帮助下解决。
 
-识别问题至关重要。
+问题识别至关重要。
 
-#### 复现问题
+#### 问题重现
 
-首先也是最重要的，尝试确定问题发生的时机。尝试复现问题。尝试更新并重启您的服务器，以验证您是否可以复现您的问题。如果它更好地描述了您的问题，请截图。
+首先，重要的是要尝试识别问题发生的时机。尝试更新并重启您的服务器，以验证您是否可以使同样的问题重现。您也可以截图以更好地分析并解决问题。
 
 ##### 更新服务器
 
-如果您的 BTCPay Server 版本比 BTCPay Server 的[最新版本](https://github.com/btcpayserver/btcpayserver/releases)旧得多。更新您的服务器可能会解决问题。
+如果您的BTCPay服务器版本比BTCPay服务器的[最新版本](https://github.com/btcpayserver/btcpayserver/releases)旧得多，服务器更新可能会解决问题。
 
 ##### 重启服务器
 
-重启服务器是解决许多最常见的 BTCPay Server 问题的简单方法。您可能需要 SSH 进入您的服务器来重启它。
+重启服务器是解决许多最常见的BTCPay服务器问题的简单方法。您可能需要通过SSH连接到您的服务器以进行重启。
 
 ##### 重启服务
 
-对于某些问题，您可能只需要重启 BTCPay Server 部署中的特定服务。例如，重启 lets encrypt 容器以续订 SSL 证书。
+对于一些问题，您可能只需要重启BTCPay服务器中的特定服务。例如，重启 lets encrypt 容器以更新SSL证书。
 
 ```bash
 sudo su -
@@ -1472,21 +1472,21 @@ cd btcpayserver-docker
 docker restart letsencrypt-nginx-proxy-companion
 ```
 
-使用 docker ps 来找到您想要重启的其他服务的名称。
+您可以使用docker ps来找到您想要重启的服务名称。
 
 #### 查看日志
 
-日志可以提供一个重要的信息片段。在接下来的段落中，我们将描述如何获取 BTCPay 各个部分的日志信息。
+日志可以提供一条关键的信息。在接下来的段落中，我们将描述如何获取 BTCPay各个部分的日志信息。
 
 ##### BTCPay 日志
 
-从 v1.0.3.8 版本开始，您可以轻松地从前端访问 BTCPay Server 日志。如果您是服务器管理员，请转到服务器设置 > 日志并打开日志文件。如果您不知道日志中的特定错误意味着什么，请在故障排除时提及它。
+自v1.0.3.8版本发布以来，您可简单地从前端访问BTCPay服务器日志。如果您是服务器管理员，请转到服务器设置 > 日志并打开日志文件。如果您未知日志中的特定错误的意思，请在故障排除时提及它。
 
-如果您想要更详细的日志，并且正在使用 Docker 部署，您可以使用命令行查看特定 Docker 容器的日志。请参阅这些[指导](https://docs.btcpayserver.org/FAQ/ServerSettings/#how-to-ssh-into-my-btcpay-running-on-vp%C2%80)以 SSH 进入运行在 VPS 上的 BTCPay 实例。
+如果您想要更详细的日志，并且正在使用Docker，您可以使用命令行查看特定 Docker 容器的日志。请参阅这些[SSH相关的指导](https://docs.btcpayserver.org/FAQ/ServerSettings/#how-to-ssh-into-my-btcpay-running-on-vp%C2%80)（关于运行在VPS上的BTCPay实例）
 
-在下一页，BTCPay Server 使用的容器名称的通用列表。
+下一页将提供BTCPay服务器使用的容器名称的通用列表。
 
-运行下面的命令以按容器名称打印日志。替换容器名称以查看其他容器的日志。
+运行下面的命令以按容器名称输出日志。替换容器名称以查看其他容器的日志。
 
 ```bash
 sudo su -
@@ -1512,9 +1512,9 @@ docker logs --tail 100 generated_btcpayserver_1
 | Tor          | tor-gen                           |
 | Tor          | tor                               |
 
-###### 闪电网络 LND - Docker
+###### 闪电网络LND-Docker
 
-当使用 Docker 时，有几种方法可以访问您的 LND 日志。首先以 root 登录：
+使用Docker时，您可以通过几种方法来访问LND日志。首先，您可以以root用户身份登录：
 
 ```bash
 sudo su -
@@ -1523,17 +1523,17 @@ cd btcpayserver-docker
 # 查找容器名称：
 <partId>6f124f36-b51c-5e53-a734-08fb1f20db25</partId>
 docker ps
-# 通过容器名称打印日志：
+# 按照容器名称输出日志：
 docker logs --tail 100 btcpayserver_lnd_bitcoin
 ```
 
-或者，您可以通过使用容器 ID 快速打印日志（只需要唯一 ID 字符的前两个字符，例如最左边的两个字符）：
+或者，您可以使用容器ID来快速输出日志（您只需要输入ID的独特字符，如ID的前两个字符）：
 
 ```bash
 docker logs '添加您的容器 ID'
 ```
 
-如果出于任何原因您需要更多日志
+如果您需要更多日志
 
 ```bash
 sudo su -
@@ -1541,15 +1541,15 @@ cd /var/lib/docker/volumes/generated_lnd_bitcoin_datadir/_data/logs/bitcoin/main
 ls
 ```
 
-您将看到类似
+您将看到与下述相似的结果
 
 ```bash
 lnd.log lnd.log.13 lnd.log.15 lnd.log.16.gz lnd.log.17.gz
 ```
 
-要访问这些日志的未压缩日志，请执行 `cat lnd.log` 或如果您想要另一个，请使用 `cat lnd.log.15`。
+如果您想要访问这些日志的未压缩日志，请执行 `cat lnd.log` 或如果您想要另一个方法，您也可以使用 `cat lnd.log.15`。
 
-要访问 `.gzip` 中的压缩日志，请使用 `gzip -d lnd.log.16.gz`（在这种情况下，我们正在访问 `lnd.log.16.gz`）。这应该会给您一个新文件，您可以执行 `cat lnd.log.16`。如果上述操作不起作用，您可能需要先使用 `sudo apt-get install gzip` 安装 gzip。
+如果您想要访问 `.gzip` 中的压缩日志，请使用 `gzip -d lnd.log.16.gz`（这是为了访问 `lnd.log.16.gz`）。这应该将为您提供一个新文件，您可以运行 `cat lnd.log.16`。如果上述操作不起作用，您可能需要先使用 `sudo apt-get install gzip` 来安装 gzip。
 
 ###### 闪电网络 c-lightning - Docker
 
@@ -1561,7 +1561,7 @@ docker ps
 docker logs '在这里添加您的容器 ID'
 ```
 
-或者，使用这个
+或者，使用：
 
 ```bash
 docker logs --tail 100 btcpayserver_clightning_bitcoin
@@ -1575,17 +1575,17 @@ bitcoin-lightning-cli.sh getlog
 
 #### 比特币节点日志
 
-除了[查看日志](https://docs.btcpayserver.org/Troubleshooting/#2-looking-through-the-logs)您的 Bitcoind 容器外，您还可以使用任何[bitcoin-cli 命令](https://developer.bitcoin.org/reference/rpc/index.html)
+除了[查看日志](https://docs.btcpayserver.org/Troubleshooting/#2-looking-through-the-logs)您的Bitcoin容器外，您还可以使用任何[bitcoin-cli命令](https://developer.bitcoin.org/reference/rpc/index.html)
 
-[(打开新窗口)](https://developer.bitcoin.org/reference/rpc/index.html) 从您的比特币节点获取信息。BTCPay 包含一个脚本，允许您轻松与您的比特币节点通信。
+[(打开新窗口)](https://developer.bitcoin.org/reference/rpc/index.html)以获取来自您的比特币节点的信息。BTCPay包含一个脚本，使您能够与您的比特币节点进行通信。
 
-在 btcpayserver-docker 文件夹内，使用您的节点获取区块链信息：
+在btcpayserver-docker文件夹内，您可以使用您的节点来获取区块链信息：
 
 ```bash
 bitcoin-cli.sh getblockchaininfo
 ```
-BTCPay Server具有本地文件系统，并直接将商店（产品）资产、标志和品牌上传到服务器。服务器的文件系统只能由服务器管理员访问；商店所有者可以在商店级别上传他们的标志/品牌。
-当服务器管理员处于文件存储选项卡时，可以直接上传到您的服务器或更改文件存储提供商为本地文件系统或Azure Blob存储。
+BTCPay Server具有本地文件系统，并直接将商店（产品）资产、标志和品牌上传到服务器上。服务器的文件系统只能由服务器管理员访问；商店主可以在商店设置范围内上传他们的标志/品牌。
+在文件存储的页面时，您可以直接将其中的文件上传到您的服务器或更改文件存储提供商为本地文件系统或Azure Blob存储。
 
 ![image](assets/en/90.webp)
 
@@ -1593,30 +1593,30 @@ BTCPay Server具有本地文件系统，并直接将商店（产品）资产、�
 
 ### 技能总结
 
-在本节中，您学到了以下内容：
+在本节中，您已学到以下内容：
 
 - 商店和服务器设置之间的区别，特别是它们与用户、角色和电子邮件的关系
-- 为Lightning或Bitcoin热钱包的使用和创建、新用户注册和电子邮件通知设置服务器范围的策略。
-- 如何添加自定义主题（而不是提供的简单明暗选项）以及创建自定义标志
+- 为闪电网络或比特币热钱包的使用和创建、新用户注册和电子邮件通知设置服务器范围的策略。
+- 如何添加自定义模式（而不仅提供的简单明暗选项）以及创建自定义标志
 - 通过提供的GUI执行简单的服务器维护任务
 - 解决问题，包括获取Docker容器或您的节点的任何详细信息
 - 管理文件存储
 
 ### 知识评估
 
-#### KA 概念复习
+#### 知识评估：概念复习
 
-通过服务器与商店设置分配的角色有何不同，以及一个比另一个更有潜在用途的描述是什么？
+通过服务器与商店设置分配的角色有何不同？这些角色分别适合适用于什么样的情况？
 
-#### KA 实践复习
+#### 知识评估：实践复习
 
-描述在“策略”选项卡中启用的一些可能的用例。
+描述在“策略”标签中启用的一些可能的用例。
 
-#### KA 实践复习
+#### 知识评估：实践复习
 
-描述管理员在“维护”选项卡中可能定期进行的一些操作。
+描述管理员在“维护”标签中可能定期进行的一些操作。
 
-## BTCPay Server - 支付
+## BTCPay服务器 - 支付
 
 <chapterId>e2b71ff9-3f4f-5e71-9771-8e03fbbef00f</chapterId>
 

@@ -59,7 +59,7 @@ Si vous avez correctement saisi vos informations, l'appareil devrait se connecte
 
 ### Dashboard et écran
 
-Trois affichages différents vont défiler. Sur la troisième page, vous verrez l'information `IP`, qui est l'adresse IP vous permettant de vous connecter au dashboard. Ici, l’adresse est `192.168.1.19`.
+Sur le petit écran du BitAxe trois affichages différents vont défiler. Sur la troisième page, vous verrez l'information `IP`, qui est l'adresse IP vous permettant de vous connecter au dashboard. Ici, l’adresse est `192.168.1.19`.
 
 ![signup](assets/8.webp) ![signup](assets/9.webp) ![signup](assets/10.webp)
 

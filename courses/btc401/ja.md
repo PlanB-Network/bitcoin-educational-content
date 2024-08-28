@@ -266,6 +266,11 @@ Adam GibsonはJoinmarketについての洞察を提供し、このCoinJoin実装
 
 ライトニングウォーカーのグループは、MySQL、JavaScript、およびZDBのAPIを使用した送金サービスのソリューションを発表します。
 
+
+## このコースについてのフィードバックをお寄せください
+<chapterId>8765f77b-f65e-379d-87a9-40aa2cb96713</chapterId>
+<isCourseReview>true</isCourseReview>
+
 ## 謝辞
 <chapterId>33cb95cf-91d1-555b-a33b-0e3bd6745c33</chapterId>
 

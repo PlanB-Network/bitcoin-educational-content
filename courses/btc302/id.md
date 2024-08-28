@@ -1560,6 +1560,11 @@ Untuk mencapai ini, kami akan memulai dengan pengalaman dari beberapa komunitas 
 
 Tentu saja, **di negara lain, legislasi dan fungsi asosiasi berbeda**. Namun, banyak poin akan sangat berguna untuk membuat asosiasi atau mengorganisir acara besar; dan **kami berharap bitcoiner lain akan datang untuk melengkapi pelatihan ini dengan cara yang spesifik untuk negara mereka**.
 
+
+## Beri kami umpan balik tentang kursus ini
+<chapterId>fb00c4ff-0e37-70ae-59e6-ef10a08ec744</chapterId>
+<isCourseReview>true</isCourseReview>
+
 ## Jaga Diri Anda
 
 <chapterId>cf1631cb-ddbe-55c7-be8c-26a5652979a0</chapterId>

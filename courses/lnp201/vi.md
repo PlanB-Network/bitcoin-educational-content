@@ -548,6 +548,11 @@ Tuy nhiên, quan trọng là phải lưu ý rằng các nút định tuyến Lig
 
 Cuối cùng, tương lai của Bitcoin hứa hẹn với một dự báo có thể đạt một triệu trong năm năm. Để đảm bảo sự chuyên nghiệp hóa của ngành và tạo ra một hệ thống thay thế cho hệ thống ngân hàng hiện tại, quan trọng là phải đóng góp cho mạng lưới và ngừng tin tưởng.
 
+
+## Cho chúng tôi biết phản hồi của bạn về khóa học này
+<chapterId>ec4b0ae7-8b2d-9675-ce25-59bd9db754c8</chapterId>
+<isCourseReview>true</isCourseReview>
+
 ## Lời cảm ơn và tiếp tục khám phá hố thỏ
 <chapterId>afc0d72b-4fbc-5893-90b2-e27fb519ad02</chapterId>
 

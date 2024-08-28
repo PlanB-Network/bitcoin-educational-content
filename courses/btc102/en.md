@@ -1002,6 +1002,11 @@ I am truly proud that you have reached this stage. I sincerely mean it. What to 
 
 In any case, all our courses are free, and many resources or tutorials are available on our platform to accompany you. Good luck with your studies!
 
+
+## Give us some feedback about this course
+<chapterId>387a1a92-7a16-d985-a861-0a84259dca6a</chapterId>
+<isCourseReview>true</isCourseReview>
+
 ## Follow up
 <chapterId>b082b8eb-dabc-5d79-94cf-eb8f48fc1968</chapterId>
 

@@ -1314,6 +1314,11 @@ Qua đó, **chúng tôi cũng sẽ chi tiết một điểm quan trọng khác: 
 ####
 Tất nhiên, **ở các quốc gia khác, luật pháp và cách thức hoạt động của các tổ chức là khác nhau**. Tuy nhiên, nhiều điểm sẽ rất hữu ích cho việc tạo lập một tổ chức hoặc tổ chức một sự kiện lớn; và **chúng tôi hy vọng rằng các bitcoiner khác sẽ đến bổ sung cho khóa đào tạo này theo cách đặc thù cho quốc gia của họ**.
 
+
+## Cho chúng tôi biết phản hồi của bạn về khóa học này
+<chapterId>fb00c4ff-0e37-70ae-59e6-ef10a08ec744</chapterId>
+<isCourseReview>true</isCourseReview>
+
 ## Chăm Sóc Bản Thân
 <chapterId>cf1631cb-ddbe-55c7-be8c-26a5652979a0</chapterId>
 

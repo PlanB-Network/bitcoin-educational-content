@@ -137,6 +137,11 @@ objectives:
 # Заключение
 <partId>aff1e861-e6a3-58ad-af6a-33ceaedbda99</partId>
 
+
+## Оставьте отзыв о данном курсе
+<chapterId>a1279272-6ffd-bcd1-d38a-3d0d502f00fd</chapterId>
+<isCourseReview>true</isCourseReview>
+
 ## Заключительное слово
 <chapterId>d47b792e-d269-595b-9290-4788aba6e298</chapterId>
 Спасибо, что приняли участие в этом курсе! Надеемся, он вам понравился.

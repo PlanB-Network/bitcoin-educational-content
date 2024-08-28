@@ -271,6 +271,11 @@ Le groupe de Satoshi Fellowship présente une application de jeu LN utilisant Ln
 
 Le groupe Lighting Walker présente sa solution pour un service de transfert d'argent utilisant MySQL, JavaScript et l'API de ZDB.
 
+
+## Donnez-nous votre avis sur ce cours
+<chapterId>8765f77b-f65e-379d-87a9-40aa2cb96713</chapterId>
+<isCourseReview>true</isCourseReview>
+
 ## Remerciements
 <chapterId>33cb95cf-91d1-555b-a33b-0e3bd6745c33</chapterId>
 

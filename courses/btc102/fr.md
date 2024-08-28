@@ -1034,6 +1034,11 @@ Je suis vraiment fier que vous ayez atteint ce stade. Je le pense sincèrement. 
 
 Dans tous les cas, toutes nos formations restent gratuites et de nombreuses ressources ou tutoriels sont disponibles sur notre plateforme pour vous accompagner. Bonne continuation dans vos études !## Note la formation !
 
+
+## Donnez-nous votre avis sur ce cours
+<chapterId>387a1a92-7a16-d985-a861-0a84259dca6a</chapterId>
+<isCourseReview>true</isCourseReview>
+
 ## Soutiens la formation !
 <chapterId>b082b8eb-dabc-5d79-94cf-eb8f48fc1968</chapterId>
 

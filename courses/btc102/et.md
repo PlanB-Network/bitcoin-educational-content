@@ -972,6 +972,11 @@ Olen tõeliselt uhke, et olete jõudnud selle etapini. Ma tõesti mõtlen seda. 
 
 Igal juhul on kõik meie kursused tasuta ja meie platvormil on saadaval palju ressursse või õpetusi, mis teid saadavad. Edu õpingutes!
 
+
+## Andke meile tagasisidet selle kursuse kohta
+<chapterId>387a1a92-7a16-d985-a861-0a84259dca6a</chapterId>
+<isCourseReview>true</isCourseReview>
+
 ## Järeltegevus
 <chapterId>b082b8eb-dabc-5d79-94cf-eb8f48fc1968</chapterId>
 

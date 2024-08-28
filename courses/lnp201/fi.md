@@ -568,6 +568,11 @@ On kuitenkin tärkeää huomata, että Lightning-reitityssolmuja saatetaan sää
 
 Lopuksi, Bitcoinin tulevaisuus on lupaava mahdollisen miljoonan arvon ennustuksella viidessä vuodessa. Alan ammattimaistumisen ja olemassa olevan pankkijärjestelmän vaihtoehdon luomisen varmistamiseksi on tärkeää osallistua verkkoon ja lopettaa luottaminen.
 
+
+## Anna meille palautetta tästä kurssista
+<chapterId>ec4b0ae7-8b2d-9675-ce25-59bd9db754c8</chapterId>
+<isCourseReview>true</isCourseReview>
+
 ## Kiitokset ja jatka kaninkolon tutkimista
 <chapterId>afc0d72b-4fbc-5893-90b2-e27fb519ad02</chapterId>
 

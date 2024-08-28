@@ -931,6 +931,11 @@ Scrisse Frédéric Bastiat in un breve opuscolo intitolato Lo Stato.
 
 <partId>3b62de5c-5d4a-5182-ab14-f7ef13c97e28</partId>
 
+
+## Dacci un feedback su questo corso
+<chapterId>9815fa10-e9be-5d7c-3d62-17e9631fc2b2</chapterId>
+<isCourseReview>true</isCourseReview>
+
 ## L'eredità di Frédéric Bastiat
 
 <chapterId>2a2a181a-e477-5be1-ba1f-af59490c364e</chapterId>

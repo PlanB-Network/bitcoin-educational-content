@@ -264,6 +264,11 @@ Satoshi Fellowship -ryhmä esittelee LN-peliapplikaation käyttäen LnBitsiä ja
 
 Lightning Walker -ryhmä esittelee ratkaisunsa rahansiirtopalvelulle käyttäen MySQL:ää, JavaScriptiä ja ZDB:n API:a.
 
+
+## Anna meille palautetta tästä kurssista
+<chapterId>8765f77b-f65e-379d-87a9-40aa2cb96713</chapterId>
+<isCourseReview>true</isCourseReview>
+
 ## Kiitokset
 <chapterId>33cb95cf-91d1-555b-a33b-0e3bd6745c33</chapterId>
 

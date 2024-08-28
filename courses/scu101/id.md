@@ -477,6 +477,11 @@ Harus juga dicatat bahwa Internet sangat terpusat dan sebagian besar berada di b
 
 Sebagai bagian dari modul pelatihan "Security 101" di Découvre Bitcoin Academy, kami juga membahas autentikasi Lightning. Sistem ini menghasilkan pengenal yang berbeda untuk setiap layanan, tanpa perlu menyediakan alamat email atau informasi pribadi. Dimungkinkan untuk memiliki identitas terdesentralisasi yang dikontrol pengguna, tetapi ada kekurangan standarisasi dan normalisasi dalam proyek identitas terdesentralisasi. Manajer paket seperti Nuget dan Chocolaté, yang memungkinkan pengunduhan perangkat lunak sumber terbuka di luar Microsoft Store, direkomendasikan untuk menghindari serangan jahat. Singkatnya, DNS sangat penting untuk keamanan online, tetapi perlu untuk tetap waspada terhadap serangan potensial pada server DNS.
 
+
+## Beri kami umpan balik tentang kursus ini
+<chapterId>1b62e1df-b421-b96e-deb0-3b0ba39db81a</chapterId>
+<isCourseReview>true</isCourseReview>
+
 ## Pengakuan dan terus menggali lubang kelinci
 
 <chapterId>df3a962a-a96e-5006-b904-0dd9d4a072dd</chapterId>

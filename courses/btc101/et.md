@@ -1288,6 +1288,11 @@ Palju õnne BTC 101 kursuse lõpetamise puhul! Loodan siiralt, et see meeldis te
 
 See kursus, nagu kogu see ülikooli sisu, on teile tasuta pakutud meie kogukonna poolt. Meid saate toetada, jagades seda teistega, saades ülikooli liikmeks ja isegi panustades selle arengusse läbi [meie GitHubi](https://github.com/DecouvreBitcoin/sovereign-university-data). Kogu meeskonna nimel, aitäh!
 
+
+## Andke meile tagasisidet selle kursuse kohta
+<chapterId>6e0366eb-c77b-b52a-033a-b56d06342f70</chapterId>
+<isCourseReview>true</isCourseReview>
+
 ## Hinnake koolitust
 
 <chapterId>44d01865-5c89-55a5-a397-a014960eec0f</chapterId>

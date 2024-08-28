@@ -500,6 +500,11 @@ objectives:
 
 # Заключение
 <partId>ae828713-d133-559f-93c2-101cb5245fca</partId>
+
+## Оставьте отзыв о данном курсе
+<chapterId>fa4cca15-67ed-b108-fc85-322e2a14e52b</chapterId>
+<isCourseReview>true</isCourseReview>
+
 ## Дальнейшее изучение
 <chapterId>64faaed4-84b9-5b8c-9736-a959e8e6cd9d</chapterId>
 

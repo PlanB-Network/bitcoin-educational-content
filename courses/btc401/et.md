@@ -264,6 +264,11 @@ Satoshi Fellowshipi grupp esitleb LN mängurakendust, kasutades LnBitsi ja Mongo
 
 Lightning Walkeri grupp esitleb oma lahendust rahaülekannete teenusele, kasutades MySQL, JavaScripti ja ZDB API.
 
+
+## Andke meile tagasisidet selle kursuse kohta
+<chapterId>8765f77b-f65e-379d-87a9-40aa2cb96713</chapterId>
+<isCourseReview>true</isCourseReview>
+
 ## Tunnustused
 <chapterId>33cb95cf-91d1-555b-a33b-0e3bd6745c33</chapterId>
 

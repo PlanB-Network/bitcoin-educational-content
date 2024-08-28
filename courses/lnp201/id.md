@@ -602,6 +602,11 @@ Namun, penting untuk dicatat bahwa node routing Lightning dapat diatur di masa d
 
 Akhirnya, masa depan Bitcoin menjanjikan dengan proyeksi kemungkinan satu juta dalam lima tahun. Untuk memastikan profesionalisasi industri dan penciptaan sistem alternatif untuk sistem perbankan yang ada, penting untuk berkontribusi pada jaringan dan berhenti mempercayai.
 
+
+## Beri kami umpan balik tentang kursus ini
+<chapterId>ec4b0ae7-8b2d-9675-ce25-59bd9db754c8</chapterId>
+<isCourseReview>true</isCourseReview>
+
 ## Pengakuan dan Terus Menggali Lubang Kelinci
 
 <chapterId>afc0d72b-4fbc-5893-90b2-e27fb519ad02</chapterId>

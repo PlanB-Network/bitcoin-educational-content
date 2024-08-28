@@ -2426,6 +2426,11 @@ Satoshi's Fellowship's group presents a LN gaming app using LnBits and MongoDB, 
 
 Lightning Walker's group presents their solution for Remittances Service using MySQL, JavaScript and ZDB's API.
 
+
+## Give us some feedback about this course
+<chapterId>8765f77b-f65e-379d-87a9-40aa2cb96713</chapterId>
+<isCourseReview>true</isCourseReview>
+
 ## Acknowledgments
 
 <chapterId>33cb95cf-91d1-555b-a33b-0e3bd6745c33</chapterId>

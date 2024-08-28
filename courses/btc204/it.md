@@ -784,9 +784,41 @@ Pertanto, sembra probabile che l'utente che ha fornito l'UTXO come input detenga
 **_Esercizio 5:_**
 Possiamo vedere che 8 transazioni possono essere associate all'identità di Loïc. Tra queste, 4 coinvolgono la ricezione di bitcoin:
 
-````plaintext
-//todo translate exo 5 from 7
 
+```plaintext
+2d9575553c99578268ffba49a1b2adc3b85a29926728bd0280703a04d051eace
+8b70bd322e6118b8a002dbdb731d16b59c4a729c2379af376ae230cf8cdde0dd
+d5864ea93e7a8db9d3fb113651d2131567e284e868021e114a67c3f5fb616ac4
+bc4dcf2200c88ac1f976b8c9018ce70f9007e949435841fc5681fd33308dd762
+```
+
+L'altro 4 riguarda l'invio di bitcoin:
+
+```plaintext
+8b52fe3c2cf8bef60828399d1c776c0e9e99e7aaeeff721fff70f4b68145d540
+c12499e9a865b9e920012e39b4b9867ea821e44c047d022ebb5c9113f2910ed6
+a6dbebebca119af3d05c0196b76f80fdbf78f20368ebef1b7fd3476d0814517d
+3aeb7ce02c35eaecccc0a97a771d92c3e65e86bedff42a8185edd12ce89d89cc
+```
+***Esercizio 6:***
+Se esaminiamo il modello di questa transazione, è evidente che si tratta di una spesa raggruppata. Infatti, la transazione ha un singolo input e 51 output, il che indica un'attività economica significativa. Possiamo quindi ipotizzare che Loïc abbia effettuato un prelievo di bitcoin da una piattaforma di scambio.
+
+Diversi elementi rafforzano questa ipotesi. Innanzitutto, il tipo di script utilizzato per proteggere l'UTXO in input è uno script P2SH multisig 2/3, che indica un livello avanzato di sicurezza tipico delle piattaforme di scambio:
+
+```plaintext
+OP_PUSHNUM_2
+OP_PUSHBYTES_33 03eae02975918af86577e1d8a257773118fd6ceaf43f1a543a4a04a410e9af4a59
+OP_PUSHBYTES_33 03ba37b6c04aaf7099edc389e22eeb5eae643ce0ab89ac5afa4fb934f575f24b4e
+OP_PUSHBYTES_33 03d95ef2dc0749859929f3ed4aa5668c7a95baa47133d3abec25896411321d2d2d
+OP_PUSHNUM_3
+OP_CHECKMULTISIG
+```
+Inoltre, l'indirizzo analizzato `3PUv9tQMSDCEPSMsYSopA5wDW86pwRFbNF` è stato riutilizzato in più di 220.000 transazioni diverse, il che è spesso caratteristico delle piattaforme di scambio, generalmente non preoccupate per la loro privacy. L'euristica temporale applicata a questo indirizzo mostra anche una diffusione regolare delle transazioni quasi giornaliera per un periodo di 3 mesi, con orari prolungati su 24 ore, suggerendo l'attività continua di una piattaforma di scambio.
+
+Infine, i volumi elaborati da questa entità sono enormi. Infatti, l'indirizzo ha ricevuto e inviato 44 BTC durante 222.262 transazioni tra dicembre 2022 e marzo 2023. Questi volumi significativi confermano ulteriormente la probabile natura dell'attività di una piattaforma di scambio.
+
+***Esercizio 7:***
+Analizzando i tempi di conferma delle transazioni, si possono notare i seguenti orari UTC:
 ```plaintext
 05:43
 20:51
@@ -2393,6 +2425,8 @@ m/47'/0'/0'/
 
 Per darvi un'idea di come appare un codice di pagamento, ecco il mio:
 ```plaintext
+M8TJSBiQmNQDwTogMAbyqJe2PE2kQXjtgh88MRTxsrnHC8zpEtJ8j7Aj628oUFk8X6P5rJ7P5qDudE4Hwq9JXSRzGcZJbdJAjM9oVQ1UKU5j2nr7VR5
+```
 Questo codice può essere anche codificato in un codice QR, per facilitarne la comunicazione, proprio come un classico indirizzo di ricezione.
 
 Per quanto riguarda i PayNym Bots, questi robot che a volte si vedono su Twitter, sono rappresentazioni visive del codice di pagamento, creati da Samourai Wallet. Sono generati tramite una funzione di hashing, che gli conferisce quasi unicità. Appaiono sotto forma di una piccola stringa di caratteri che inizia con `+`:
@@ -2422,7 +2456,11 @@ Il codice di pagamento di 80 byte si suddivide come segue:
 
 Ecco la rappresentazione esadecimale del mio codice di pagamento riutilizzabile già presentato nella sezione precedente:
 ```plaintext
+0x010002a0716529bae6b36c5c9aa518a52f9c828b46ad8d907747f0d09dcd4d9a39e97c3c5f37c470c390d842f364086362f6122f412e2b0c7e7fc6e32287e364a7a36a00000000000000000000000000
 ```
+
+![BTC204](assets/fr/66/7.webp)
+
 Prima di tutto, è necessario aggiungere il byte prefisso `P` all'inizio per indicare chiaramente che si tratta di un codice di pagamento. Questo byte è rappresentato da `0x47`:
 ```plaintext
 0x47010002a0716529bae6b36c5c9aa518a52f9c828b46ad8d907747f0d09dcd4d9a39e97c3c5f37c470c390d842f364086362f6122f412e2b0c7e7fc6e32287e364a7a36a00000000000000000000000000
@@ -2810,6 +2848,8 @@ E infine, il padding per raggiungere 80 byte, la dimensione standard di un `OP_R
 Per capire meglio, ecco il mio codice di pagamento in chiaro in base 58:
 
 ````text
+PM8TJQCyt6ovbozreUCBrfKqmSVmTzJ5vjqse58LnBzKFFZTwny3KfCDdwTqAEYVasn11tTMPc2FJsFygFd3YzsHvwNXLEQNADgxeGnMK8Ugmin62TZU
+```
 Quando si confronta il mio codice di pagamento in chiaro con l'`OP_RETURN`, è evidente che l'HRP (`0x47`) e il checksum (`0x8604e4db`) non vengono trasmessi. Questo è previsto, poiché queste informazioni sono destinate agli esseri umani.
 Successivamente, possiamo identificare la versione (`0x01`), il campo di bit (`0x00`) e la parità della chiave pubblica (`0x02`). E, alla fine del codice di pagamento, i byte vuoti (`0x00000000000000000000000000`) sono utilizzati per riempire il codice fino a un totale di 80 byte. Tutti questi metadati vengono trasmessi in chiaro (non criptati).
 

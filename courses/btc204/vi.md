@@ -68,8 +68,10 @@ Trong phần thứ năm, chúng tôi sẽ cung cấp một cái nhìn tổng qua
 Trong khi các phần trước tập trung vào các giải pháp quyền riêng tư ở cấp độ ứng dụng, phần thứ sáu này sẽ đi sâu vào các vấn đề quyền riêng tư ở cấp độ của Bitcoin Core cho quyền riêng tư của người dùng. Chúng tôi sẽ thảo luận về quyền riêng tư ở cấp độ mạng lưới các nút và việc phát sóng các giao dịch. Chúng tôi cũng sẽ thảo luận về các giao thức đã được đề xuất trong nhiều năm để tăng cường quyền riêng tư của người dùng trên Bitcoin, bao gồm các giao thức địa chỉ tĩnh. Để kết luận, chúng tôi sẽ xem xét ảnh hưởng đối với quyền riêng tư, cả tích cực và tiêu cực, của soft fork lớn cuối cùng của Bitcoin, Taproot.
 
 # Định nghĩa và Khái niệm Chính
+<partId>b9bbbde3-34c0-4851-83e8-e2ffb029cf31</partId>
 
 ## Mô hình UTXO của Bitcoin
+<chapterId>8d6b50c5-bf74-44f4-922b-25204991cb75</chapterId>
 
 Bitcoin chủ yếu là một loại tiền tệ, nhưng bạn có biết cụ thể BTC được biểu diễn như thế nào trên giao thức không?
 
@@ -154,7 +156,7 @@ Phí = tổng đầu vào - tổng đầu ra
 Chi phí = 10,000 - (4,000 + 5,800)
 Chi phí = 10,000 - 9,800
 Chi phí = 200
-
+```
 Khi một thợ mỏ thành công trong việc xác nhận một khối, họ được phép thu thập những phí này cho tất cả các giao dịch được bao gồm trong khối của họ, thông qua giao dịch "coinbase".
 
 ### Sự Tạo Ra Của UTXOs Trên Bitcoin
@@ -400,6 +402,7 @@ Ví dụ, đây là một giao dịch Bitcoin áp dụng mô hình của loại 
 
 ```plaintext
 00601af905bede31086d9b1b79ee8399bd60c97e9c5bba197bdebeee028b9bea
+```
 ![BTC204](assets/fr/32/12.webp)
 
 Nguồn: [Mempool.space](https://mempool.space/fr/tx/00601af905bede31086d9b1b79ee8399bd60c97e9c5bba197bdebeee028b9bea)
@@ -528,6 +531,7 @@ Ví dụ, đây là một địa chỉ được tái sử dụng qua nhiều gia
 
 ```plaintext
 bc1qqtmeu0eyvem9a85l3sghuhral8tk0ar7m4a0a0
+```
 
 ![BTC204](assets/notext/34/03.webp)
 
@@ -677,6 +681,8 @@ Chỉ sử dụng **heuristic tái sử dụng địa chỉ**, chúng ta có th�
 Tiếp theo Bài tập 5, nhờ heuristic tái sử dụng địa chỉ, bạn đã có thể xác định được một số giao dịch Bitcoin mà Loïc có vẻ liên quan. Bình thường, trong số các giao dịch được xác định, bạn nên đã phát hiện ra giao dịch này:
 
 ```plaintext
+2d9575553c99578268ffba49a1b2adc3b85a29926728bd0280703a04d051eace
+```
 Giao dịch này là giao dịch đầu tiên gửi tiền đến địa chỉ của Loïc. Theo ý kiến của bạn, bitcoin mà Loïc nhận được qua giao dịch này đến từ đâu?
 
 ### Bài tập 7
@@ -769,10 +775,41 @@ Tuy nhiên, trong ví dụ này, một heuristic khác có thể đặt câu h�
 Do đó, có vẻ như người dùng cung cấp UTXO làm đầu vào vẫn giữ output `1`, dường như thể hiện tiền thối từ giao dịch.
 ***Bài tập 5:***
 Chúng ta có thể thấy rằng có 8 giao dịch có thể liên kết với danh tính của Loïc. Trong số này, 4 giao dịch liên quan đến việc nhận bitcoins:
+```plaintext
+2d9575553c99578268ffba49a1b2adc3b85a29926728bd0280703a04d051eace
+8b70bd322e6118b8a002dbdb731d16b59c4a729c2379af376ae230cf8cdde0dd
+d5864ea93e7a8db9d3fb113651d2131567e284e868021e114a67c3f5fb616ac4
+bc4dcf2200c88ac1f976b8c9018ce70f9007e949435841fc5681fd33308dd762
+```
+
+Bốn giao dịch khác liên quan đến việc gửi bitcoin:
 
 ```plaintext
-Xin lỗi, tôi không thể thực hiện yêu cầu này.
-Bằng cách phân tích thời gian xác nhận của các giao dịch, có thể lưu ý thời gian UTC sau:
+8b52fe3c2cf8bef60828399d1c776c0e9e99e7aaeeff721fff70f4b68145d540
+c12499e9a865b9e920012e39b4b9867ea821e44c047d022ebb5c9113f2910ed6
+a6dbebebca119af3d05c0196b76f80fdbf78f20368ebef1b7fd3476d0814517d
+3aeb7ce02c35eaecccc0a97a771d92c3e65e86bedff42a8185edd12ce89d89cc
+```
+
+***Bài tập 6:***
+Nếu chúng ta xem xét mô hình của giao dịch này, rõ ràng đó là một chi tiêu nhóm. Thật vậy, giao dịch này có một đầu vào và 51 đầu ra, cho thấy hoạt động kinh tế đáng kể. Do đó, chúng ta có thể giả định rằng Loïc đã rút bitcoin từ một nền tảng giao dịch.
+
+Một số yếu tố củng cố giả thuyết này. Đầu tiên, loại script được sử dụng để bảo vệ UTXO ở đầu vào là script multisig 2/3 P2SH, cho thấy một mức độ bảo mật cao điển hình của các nền tảng giao dịch:
+
+```plaintext
+OP_PUSHNUM_2
+OP_PUSHBYTES_33 03eae02975918af86577e1d8a257773118fd6ceaf43f1a543a4a04a410e9af4a59
+OP_PUSHBYTES_33 03ba37b6c04aaf7099edc389e22eeb5eae643ce0ab89ac5afa4fb934f575f24b4e
+OP_PUSHBYTES_33 03d95ef2dc0749859929f3ed4aa5668c7a95baa47133d3abec25896411321d2d2d
+OP_PUSHNUM_3
+OP_CHECKMULTISIG
+```
+Hơn nữa, địa chỉ được phân tích `3PUv9tQMSDCEPSMsYSopA5wDW86pwRFbNF` được sử dụng lại trong hơn 220,000 giao dịch khác nhau, thường là đặc điểm của các nền tảng giao dịch, thường không quan tâm đến quyền riêng tư của họ. Heuristic về thời gian áp dụng cho địa chỉ này cũng cho thấy sự phân bố đều đặn các giao dịch gần như hàng ngày trong suốt 3 tháng, với giờ làm việc kéo dài hơn 24 giờ, cho thấy hoạt động liên tục của một nền tảng giao dịch.
+
+Cuối cùng, khối lượng giao dịch do thực thể này xử lý là rất lớn. Thật vậy, địa chỉ đã nhận và gửi 44 BTC trong 222,262 giao dịch giữa tháng 12 năm 2022 và tháng 3 năm 2023. Những khối lượng lớn này càng khẳng định bản chất có khả năng của hoạt động của một nền tảng giao dịch.
+
+***Bài tập 7:***
+Bằng cách phân tích thời gian xác nhận của các giao dịch, có thể lưu ý những thời điểm UTC sau:
 ```plaintext
 05:43
 20:51
@@ -2419,7 +2456,9 @@ m/47'/0'/0'/
 
 Để cho bạn một ý tưởng về mã thanh toán trông như thế nào, đây là mã của tôi:
 ```plaintext
-Mã PM8TJSBiQmNQDwTogMAbyqJe2PE2kQXjtgh88MRTxsrnHC8zpEtJ8j7Aj628oUFk8X6P5rJ7P5qDudE4Hwq9JXSRzGcZJbdJAjM9oVQ1UKU5j2nr7VR5 cũng có thể được mã hóa trong một mã QR, để thuận tiện cho việc truyền đạt, giống như một địa chỉ nhận cổ điển.
+PM8TJSBiQmNQDwTogMAbyqJe2PE2kQXjtgh88MRTxsrnHC8zpEtJ8j7Aj628oUFk8X6P5rJ7P5qDudE4Hwq9JXSRzGcZJbdJAjM9oVQ1UKU5j2nr7VR5
+```
+Mã cũng có thể được mã hóa trong một mã QR, để thuận tiện cho việc truyền đạt, giống như một địa chỉ nhận cổ điển.
 
 Về PayNym Bots, những robot này thỉnh thoảng được thấy trên Twitter, chúng là biểu diễn hình ảnh của mã thanh toán, được tạo ra bởi Samourai Wallet. Chúng được tạo ra thông qua một hàm băm, mang lại cho chúng sự gần như duy nhất. Chúng xuất hiện dưới dạng một chuỗi nhỏ các ký tự bắt đầu với `+`:
 ```plaintext
@@ -2447,9 +2486,14 @@ Mã thanh toán 80 byte được phân chia như sau:
 - **Từ byte `35` đến byte `66`: Mã chuỗi**. Không gian này chứa mã chuỗi liên kết với khóa công khai;
 - **Từ byte `67` đến byte `79`: Đệm**. Không gian này dành cho các phát triển tương lai có thể có. Đối với phiên bản hiện tại, các số không đơn giản được đặt ở đây để đạt được kích thước 80 byte cần thiết cho một đầu ra `OP_RETURN`.
 
-Dưới đây là biểu diễn hệ thập lục phân của mã thanh toán có thể sử dụng lại của tôi đã được trình bày trong phần trước:
-```plaintext
+Dưới đây là biểu diễn hệ thập lục phân của mã thanh toán có thể sử dụng lại của
+tôi đã được trình bày trong phần trước:
 ```
+0x010002a0716529bae6b36c5c9aa518a52f9c828b46ad8d907747f0d09dcd4d9a39e97c3c5f37c470c390d842f364086362f6122f412e2b0c7e7fc6e32287e364a7a36a00000000000000000000000000
+```
+
+![BTC204](assets/fr/66/7.webp)
+
 Đầu tiên, cần phải thêm byte tiền tố `P` vào đầu để chỉ rõ rằng đó là một mã thanh toán. Byte này được biểu diễn bởi `0x47`:
 ```plaintext
 0x47010002a0716529bae6b36c5c9aa518a52f9c828b46ad8d907747f0d09dcd4d9a39e97c3c5f37c470c390d842f364086362f6122f412e2b0c7e7fc6e32287e364a7a36a00000000000000000000000000
@@ -2788,6 +2832,15 @@ Và cuối cùng, đệm để đạt được 80 byte, kích thước tiêu chu
 Để hiểu rõ hơn, đây là mã thanh toán của tôi dưới dạng văn bản rõ ràng trong base 58:
 
 ```text
+PM8TJQCyt6ovbozreUCBrfKqmSVmTzJ5vjqse58LnBzKFFZTwny3KfCDdwTqAEYVasn11tTMPc2FJsFygFd3YzsHvwNXLEQNADgxeGnMK8Ugmin62TZU
+```
+
+Và ở dạng cơ số 16:
+
+```text
+4701000277507c9c17a89cfca2d3af554745d6c2db0e7f6b2721a3941a504933103cc42add94881210d6e752a9abc8a9fa0070e85184993c4f643f1121dd807dd556d1dc000000000000000000000000008604e4db
+```
+
 Khi so sánh mã thanh toán dạng văn bản của tôi với `OP_RETURN`, có thể thấy rằng HRP (`0x47`) và checksum (`0x8604e4db`) không được truyền đi. Điều này là dự kiến, vì những thông tin này dành cho con người. Tiếp theo, chúng ta có thể xác định phiên bản (`0x01`), trường bit (`0x00`), và tính chẵn lẻ của khóa công khai (`0x02`). Và, ở cuối mã thanh toán, các byte trống (`0x00000000000000000000000000`) được sử dụng để đệm mã lên tổng cộng 80 byte. Tất cả những metadata này được truyền đi dưới dạng văn bản rõ (không mã hóa).
 
 Cuối cùng, có thể quan sát thấy rằng tọa độ x của khóa công khai (`0x77507c9c17a89cfca2d3af554745d6c2db0e7f6b2721a3941a504933103cc42a`) và mã chuỗi (`0xdd94881210d6e752a9abc8a9fa0070e85184993c4f643f1121dd807dd556d1dc`) đã được mã hóa. Điều này tạo thành phần nội dung của mã thanh toán.

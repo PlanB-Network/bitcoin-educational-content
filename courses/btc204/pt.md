@@ -537,7 +537,8 @@ Fonte: S. Nakamoto, "Bitcoin: Um Sistema de Dinheiro Eletrônico Peer-to-Peer", 
 Por exemplo, aqui está um endereço reutilizado em várias transações:
 
 ```plaintext
-```bc1qqtmeu0eyvem9a85l3sghuhral8tk0ar7m4a0a0```
+bc1qqtmeu0eyvem9a85l3sghuhral8tk0ar7m4a0a0
+```
 
 ![BTC204](assets/notext/34/03.webp)
 
@@ -778,6 +779,21 @@ Portanto, parece provável que o usuário que forneceu o UTXO como entrada ainda
 Podemos ver que 8 transações podem ser associadas à identidade de Loïc. Entre estas, 4 envolvem o recebimento de bitcoins:
 
 ```plaintext
+2d9575553c99578268ffba49a1b2adc3b85a29926728bd0280703a04d051eace
+8b70bd322e6118b8a002dbdb731d16b59c4a729c2379af376ae230cf8cdde0dd
+d5864ea93e7a8db9d3fb113651d2131567e284e868021e114a67c3f5fb616ac4
+bc4dcf2200c88ac1f976b8c9018ce70f9007e949435841fc5681fd33308dd762
+```
+
+Os outros 4 envolvem o envio de bitcoins:
+
+```plaintext
+8b52fe3c2cf8bef60828399d1c776c0e9e99e7aaeeff721fff70f4b68145d540
+c12499e9a865b9e920012e39b4b9867ea821e44c047d022ebb5c9113f2910ed6
+a6dbebebca119af3d05c0196b76f80fdbf78f20368ebef1b7fd3476d0814517d
+3aeb7ce02c35eaecccc0a97a771d92c3e65e86bedff42a8185edd12ce89d89cc
+```
+
 ***Exercício 6:***
 Se examinarmos o modelo desta transação, é aparente que se trata de um gasto agrupado. De fato, a transação possui uma única entrada e 51 saídas, o que indica uma atividade econômica significativa. Podemos, portanto, hipotetizar que Loïc realizou um saque de bitcoins de uma plataforma de câmbio.
 
@@ -1991,14 +2007,12 @@ O cálculo do score de Boltzmann envolve dividir o número de interpretações n
 
 $$
 \begin{align*}
-```markdown
-\begin{align*}
 \text{Interpretações (IN.0 > OUT.3)} &= 512 \\
 \text{Total de Interpretações} &= 1496 \\
 \text{Pontuação} &= \frac{512}{1496} \\
 \text{Pontuação} &= 34\%
 \end{align*}
-```
+$$
 
 Se revisarmos o exemplo de um Whirlpool coinjoin 8x8 Surge Cycle, a tabela Boltzmann ficaria assim:
 
@@ -2024,7 +2038,7 @@ Aqui, observamos que a probabilidade de cada saída originar-se da entrada #0 é
 ### Links Determinísticos
 
 Também é possível calcular o número de links determinísticos em uma transação. Este indicador revela quantas conexões entre as entradas e saídas na transação analisada são indiscutíveis, com uma probabilidade de 100%. Este indicador pode então ser complementado pelo cálculo da razão de links determinísticos. A razão fornece uma perspectiva sobre o peso desses links determinísticos dentro de todos os links da transação.
-```
+
 Por exemplo, uma transação do tipo Whirlpool coinjoin mostra uma ligação determinística nula entre as entradas e saídas, exibindo assim um indicador de 0 ligações e uma proporção de 0%. Por outro lado, em nossa segunda transação de pagamento simples examinada (com uma entrada e 2 saídas), o indicador nos diz que existem 2 ligações determinísticas e a proporção atinge 100%. Portanto, um indicador nulo sinaliza excelente privacidade devido à ausência de conexões diretas e incontestáveis entre as entradas e saídas.
 ### Como Calcular Esses Indicadores?
 Calcular esses indicadores manualmente usando as equações que forneci é relativamente simples. A principal dificuldade reside em determinar o número de possíveis interpretações de uma transação. Para uma transação padrão, esse cálculo pode ser realizado manualmente. No entanto, para um coinjoin, a tarefa é significativamente mais complexa.
@@ -2474,6 +2488,8 @@ m/47'/0'/0'/
 
 Para lhe dar uma ideia de como é um código de pagamento, aqui está o meu:
 ```plaintext
+PM8TJSBiQmNQDwTogMAbyqJe2PE2kQXjtgh88MRTxsrnHC8zpEtJ8j7Aj628oUFk8X6P5rJ7P5qDudE4Hwq9JXSRzGcZJbdJAjM9oVQ1UKU5j2nr7VR5
+```
 Este código também pode ser codificado em um código QR, para facilitar sua comunicação, assim como um endereço de recebimento clássico.
 
 Quanto aos PayNym Bots, esses robôs que às vezes são vistos no Twitter, são representações visuais do código de pagamento, criados pela Samourai Wallet. Eles são gerados por meio de uma função de hash, o que lhes confere quase unicidade. Eles aparecem na forma de uma pequena sequência de caracteres que começa com `+`:
@@ -2502,9 +2518,9 @@ O código de pagamento de 80 bytes se divide da seguinte forma:
 - **Do byte `67` ao byte `79`: O preenchimento**. Este espaço é destinado a possíveis desenvolvimentos futuros. Para a versão atual, zeros são simplesmente colocados aqui para alcançar o tamanho de 80 bytes necessário para uma saída `OP_RETURN`.
 
 Aqui está a representação hexadecimal do meu código de pagamento reutilizável já apresentado na seção anterior:
-```plaintext
 ```
 0x010002a0716529bae6b36c5c9aa518a52f9c828b46ad8d907747f0d09dcd4d9a39e97c3c5f37c470c390d842f364086362f6122f412e2b0c7e7fc6e32287e364a7a36a00000000000000000000000000
+```
 
 ![BTC204](assets/fr/66/7.webp)
 
@@ -2848,6 +2864,14 @@ E, finalmente, o preenchimento para alcançar 80 bytes, o tamanho padrão de um 
 Para entender melhor, aqui está o meu código de pagamento em texto simples em base 58:
 
 ```text
+PM8TJQCyt6ovbozreUCBrfKqmSVmTzJ5vjqse58LnBzKFFZTwny3KfCDdwTqAEYVasn11tTMPc2FJsFygFd3YzsHvwNXLEQNADgxeGnMK8Ugmin62TZU
+```
+
+E na base 16:
+
+```text
+4701000277507c9c17a89cfca2d3af554745d6c2db0e7f6b2721a3941a504933103cc42add94881210d6e752a9abc8a9fa0070e85184993c4f643f1121dd807dd556d1dc000000000000000000000000008604e4db
+```
 Ao comparar meu código de pagamento em texto simples com o `OP_RETURN`, é notável que o HRP (`0x47`) e o checksum (`0x8604e4db`) não são transmitidos. Isso é esperado, pois essas informações são destinadas aos humanos.
 A seguir, podemos identificar a versão (`0x01`), o campo de bits (`0x00`) e a paridade da chave pública (`0x02`). E, no final do código de pagamento, os bytes vazios (`0x00000000000000000000000000`) são usados para preencher o código até um total de 80 bytes. Todos esses metadados são transmitidos em texto simples (não criptografado).
 

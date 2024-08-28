@@ -122,7 +122,7 @@ def get_yml_content(file_path):
     
     
 
-def is_original(data, language):
+def is_original(data, language)
     return data['original_language'] == language
 
 def get_data_languages(data):

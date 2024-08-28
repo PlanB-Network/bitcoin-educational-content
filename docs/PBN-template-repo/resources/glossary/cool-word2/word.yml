@@ -4,17 +4,15 @@
 
 # en_word
 # Write the word in English. It will be the basis for identifying the word in the glossary.
-en_word: COOL WORD
+en_word: COOL WORD 2
 
 # related_words
 # If there are existing words in glossary which are related to this word, it's possible to write them here, one per line.
 # Feel free to add as many related words as possible to enrich the glossary experience.
 # You have to use the en_word name of the words you want to relate.
-# E.g.: if you wan to relate the words https://planb.network/en/resources/word/yprv and https://planb.network/en/resources/word/extended-key 
-# you should use the following
+# E.g.: if you wan to relate the word "cool word" you should use the following
 related_words:
-- XPRV
-- EXTENDED KEY
+- COOL WORD
 
 # tags
 # List the associated tags to the word
@@ -24,7 +22,7 @@ tags:
 
 # Original language
 # Write the original language of the word when newly added
-original_language: fr
+original_language: en
 
 # Proofreading metadata
 # This information are provided by PBN team, no need to specify if you are a contributor.

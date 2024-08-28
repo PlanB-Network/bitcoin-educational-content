@@ -3597,6 +3597,11 @@ Vzhledem k tomu, že se jedná o novou funkci, je doporučeno být opatrný a vy
 
 _K vytvoření této kapitoly o Silent Payments jsem použil [web s vysvětlením Silent Payments](https://silentpayments.xyz/) a [dokument s vysvětlením BIP352](https://github.com/bitcoin/bips/blob/master/bip-0352.mediawiki)._
 
+
+## Dejte nám zpětnou vazbu k tomuto kurzu
+<chapterId>07855ef4-5a15-4e61-6537-13e14fc57843</chapterId>
+<isCourseReview>true</isCourseReview>
+
 ## Závěr
 
 <chapterId>cd8e5c67-50e4-4dcd-8e04-88ba5ec95305</chapterId>

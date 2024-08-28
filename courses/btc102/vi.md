@@ -968,6 +968,11 @@ Tôi thực sự tự hào vì bạn đã đạt đến giai đoạn này. Tôi 
 
 Dù trường hợp nào, tất cả các khóa học của chúng tôi đều miễn phí, và nhiều tài nguyên hoặc hướng dẫn có sẵn trên nền tảng của chúng tôi để đi cùng bạn. Chúc bạn may mắn với việc học!
 
+
+## Cho chúng tôi biết phản hồi của bạn về khóa học này
+<chapterId>387a1a92-7a16-d985-a861-0a84259dca6a</chapterId>
+<isCourseReview>true</isCourseReview>
+
 ## Theo dõi
 <chapterId>b082b8eb-dabc-5d79-94cf-eb8f48fc1968</chapterId>
 

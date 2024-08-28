@@ -1289,6 +1289,11 @@ Selamat, Anda telah menyelesaikan kursus BTC 101 ini! Kami sungguh berharap Anda
 
 Komunitas ini telah menyediakan kursus ini, serta semua konten di universitas ini kepada Anda secara gratis. Untuk mendukung kami, Anda dapat membagikannya dengan orang lain, menjadi anggota universitas, dan bahkan berkontribusi pada pengembangannya melalui [GitHub kami](https://github.com/DecouvreBitcoin/sovereign-university-data). Mewakili seluruh anggota tim, kami ucapkan terima kasih!
 
+
+## Beri kami umpan balik tentang kursus ini
+<chapterId>6e0366eb-c77b-b52a-033a-b56d06342f70</chapterId>
+<isCourseReview>true</isCourseReview>
+
 ## Catat pelatihan
 
 <chapterId>44d01865-5c89-55a5-a397-a014960eec0f</chapterId>

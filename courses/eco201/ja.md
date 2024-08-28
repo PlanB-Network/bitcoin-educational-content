@@ -505,6 +505,11 @@ ZIRPのもう一つの予期せぬ結果は、政府が大規模な支出に従�
 
 # 結論
 <partId>ae828713-d133-559f-93c2-101cb5245fca</partId>
+
+## このコースについてのフィードバックをお寄せください
+<chapterId>fa4cca15-67ed-b108-fc85-322e2a14e52b</chapterId>
+<isCourseReview>true</isCourseReview>
+
 ## さらなる研究
 <chapterId>64faaed4-84b9-5b8c-9736-a959e8e6cd9d</chapterId>
 

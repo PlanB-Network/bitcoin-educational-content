@@ -936,6 +936,11 @@ Following the bank panic of 1796, a phenomenon occurred where everyone tried to 
 
 Central banks have evolved to become lenders of last resort, suspending the convertibility of their currency into gold. Although this action was initially intended as a temporary solution, it ultimately became permanent, marking the advent of the concept of the lender of last resort. This transformation has shaped central banks as we know them today. However, in more fragile economies, this ability to print money at will can lead to undesirable consequences, such as hyperinflation, if used irresponsibly.
 
+
+## Give us some feedback about this course
+<chapterId>6654099e-bd72-9183-9bf0-fefdc1c1e4c0</chapterId>
+<isCourseReview>true</isCourseReview>
+
 ## Books and Resources
 <chapterId>c44e4519-0741-527b-b3b0-3f513e87147d</chapterId>
 

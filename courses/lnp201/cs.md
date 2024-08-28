@@ -570,6 +570,11 @@ Je však důležité poznamenat, že směrovací uzly Lightning mohou být v bud
 
 Nakonec, budoucnost Bitcoinu je slibná s možnou projekcí jednoho milionu za pět let. Pro zajištění profesionalizace průmyslu a vytvoření alternativního systému k existujícímu bankovnímu systému je důležité přispívat do sítě a přestat důvěřovat.
 
+
+## Dejte nám zpětnou vazbu k tomuto kurzu
+<chapterId>ec4b0ae7-8b2d-9675-ce25-59bd9db754c8</chapterId>
+<isCourseReview>true</isCourseReview>
+
 ## Poděkování a pokračujte v prozkoumávání králičí nory
 <chapterId>afc0d72b-4fbc-5893-90b2-e27fb519ad02</chapterId>
 

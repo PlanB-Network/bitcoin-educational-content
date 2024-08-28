@@ -857,6 +857,11 @@ A seguito del panico bancario del 1796, si verificò un fenomeno in cui tutti ce
 
 Le banche centrali sono evolute per diventare prestatori di ultima istanza, sospendendo la convertibilità della loro moneta in oro. Sebbene questa azione fosse inizialmente concepita come una soluzione temporanea, è diventata infine permanente, segnando così l'avvento del concetto di prestatore di ultima istanza. Questa trasformazione ha plasmato le banche centrali come le conosciamo oggi. Tuttavia, in economie più fragili, questa capacità di stampare moneta a volontà può comportare conseguenze indesiderate, come l'iperinflazione, se utilizzata in modo irresponsabile.
 
+
+## Dacci un feedback su questo corso
+<chapterId>6654099e-bd72-9183-9bf0-fefdc1c1e4c0</chapterId>
+<isCourseReview>true</isCourseReview>
+
 ## Libri e risorse
 <chapterId>c44e4519-0741-527b-b3b0-3f513e87147d</chapterId>
 

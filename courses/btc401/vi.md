@@ -264,6 +264,11 @@ Nhóm Học Bổng của Satoshi trình bày một ứng dụng trò chơi LN s�
 
 Nhóm Lightning Walker trình bày giải pháp của họ cho Dịch Vụ Chuyển Tiền sử dụng MySQL, JavaScript và API của ZDB.
 
+
+## Cho chúng tôi biết phản hồi của bạn về khóa học này
+<chapterId>8765f77b-f65e-379d-87a9-40aa2cb96713</chapterId>
+<isCourseReview>true</isCourseReview>
+
 ## Lời Cảm Ơn
 <chapterId>33cb95cf-91d1-555b-a33b-0e3bd6745c33</chapterId>
 

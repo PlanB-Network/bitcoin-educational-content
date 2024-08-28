@@ -1303,6 +1303,11 @@ K tomu využijeme zkušenosti několika francouzských komunit, které již své
 ####
 Samozřejmě **v jiných zemích se legislativa a fungování asociací liší**. Mnoho bodů však bude velmi užitečných pro založení asociace nebo organizaci velké akce; a **doufáme, že další bitcoinisté doplní toto školení o informace specifické pro jejich zemi**.
 
+
+## Dejte nám zpětnou vazbu k tomuto kurzu
+<chapterId>fb00c4ff-0e37-70ae-59e6-ef10a08ec744</chapterId>
+<isCourseReview>true</isCourseReview>
+
 ## Pečujte o sebe
 <chapterId>cf1631cb-ddbe-55c7-be8c-26a5652979a0</chapterId>
 

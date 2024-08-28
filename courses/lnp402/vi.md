@@ -136,6 +136,11 @@ Chúc bạn học tốt.
 # Kết luận
 <partId>aff1e861-e6a3-58ad-af6a-33ceaedbda99</partId>
 
+
+## Cho chúng tôi biết phản hồi của bạn về khóa học này
+<chapterId>a1279272-6ffd-bcd1-d38a-3d0d502f00fd</chapterId>
+<isCourseReview>true</isCourseReview>
+
 ## Lời kết
 <chapterId>d47b792e-d269-595b-9290-4788aba6e298</chapterId>
 

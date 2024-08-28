@@ -5,12 +5,13 @@ It covers the following aspects:
 
 - [Purpose](#purpose)
 - [Repository Hierarchy](#repository-hierarchy)
+- [Supported Languages](#supported-languages)
 - [Expected Format for Different Types of Content](#expected-format-for-different-types-of-content)
 - [How to Contribute](#how-to-contribute)
 
 ## Purpose
 
-The PlanB Content Repo is designed to serve as a centralized hub for high-quality educational resources related to Bitcoin. Its key objectives include:
+The PlanB Content Repo is designed to serve as a centralised hub for high-quality educational resources related to Bitcoin. Its key objectives include:
 
 - Facilitating understanding and adoption of Bitcoin technology.
 - Providing access to a wide range of educational materials, software, and hardware recommendations.
@@ -19,7 +20,7 @@ The PlanB Content Repo is designed to serve as a centralized hub for high-qualit
 
 ## Supported Languages
 
-The PlanB content is available in the following languages:
+Thanks to our contributors, the PlanB content is available in many languages such as but not limited to the following ones:
 
 - Arabic: [Review Dashboard](https://github.com/orgs/DecouvreBitcoin/projects/16)
 - Danish: [Review Dashboard](https://github.com/orgs/DecouvreBitcoin/projects/24)
@@ -39,7 +40,7 @@ As we believe in the [value-4-value model](./value-4-value-model.md), we are alw
 
 ## Repository Hierarchy
 
-The repository is organized according to the following hierarchy:
+The repository is organised according to the following hierarchy:
 
 - [Courses](./course_documentation.md): Course content are stored here and must respect some format specification 
 - [Tutorials](./tutorial_documentation.md): Tutorials are stored in categories and must respect some format specification
@@ -47,7 +48,7 @@ The repository is organized according to the following hierarchy:
 - [Exam](./exam_documentation.md): Exams and quizzes are stored here, and each of them has their own set of format specification
 - [Standards](./standard_documentation.md): standards are stored here and must respect some format specification
 
-For general aspect and specification that are used throughout the entire repo, please refere to the guidelines provided [here](./format_guidelines.md)
+For general aspect and specification that are used throughout the entire repo, please refer to the guidelines provided [here](./format_guidelines.md)
 
 
 Here's a visual representation of it:

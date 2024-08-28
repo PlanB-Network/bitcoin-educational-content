@@ -7,10 +7,10 @@ As one of the main missions of the PlanB Network Content repo is to lower down t
 If you have another approach that seems relevant, feel free to post an [issue](https://github.com/DecouvreBitcoin/sovereign-university-data/issues/new) to discuss about it. 
 
 # LLM-Translator approach
-
+TBD
 
 # Transleet approach
-
+TBD
 
 
 

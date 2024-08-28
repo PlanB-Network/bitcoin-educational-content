@@ -32,12 +32,12 @@ As an example, we use here a course named BTC101. The folder "btc101", named aft
 - a [yaml file](#yaml-course-file) which describes the course
 - several language specific [markdown files](#markdown-course-files) that contain the written courses
 - an [assets folder](#assets-course-folder) that contains all the images used in the course
-- a quizz folder (optional) containing quizz to make a knowledge self-assessment during the course
+- a quizz folder (optional) containing quiz to make a knowledge self-assessment during the course
 - an exam folder (not implemented yet)
 - an exercise folder (not implemented yet)
 - a teachable folder (not implemented yet)
 
-**NB.** If you are writting a paid course, you will have to additionaly read this [section](#Paid-course) to add some needed metadata specific to this type of content. 
+**NB.** If you are writing a paid course, you will have to additionally read this [section](#Paid-course) to add some needed metadata specific to this type of content. 
 
 ## Yaml course file
 
@@ -62,7 +62,7 @@ This [yaml file](./format_guidelines.md#yaml-format-guidelines) must contains al
 
 ## Markdown course files
 
-Markdown files contain the written course and must be placed in the course folder. Additionnaly, since it is language-specific, the language code used to name it will reflect the language used in the file. These files MUST respect precise formatting rules to be properly rendered on our website (cf. [course formatting section](#Course formatting rules)). You can either read our [tutorial](008%20DB%20x%20PBN/PlanB%20Network.md) on our website or our [documentation page](./content-translation-process.md), if you want to learn more about the translation process. 
+Markdown files contain the written course and must be placed in the course folder. Additionally, since it is language-specific, the language code used to name it will reflect the language used in the file. These files MUST respect precise formatting rules to be properly rendered on our website (cf. [course formatting section](#Course formatting rules)). You can either read our [tutorial](008%20DB%20x%20PBN/PlanB%20Network.md) on our website or our [documentation page](./content-translation-process.md), if you want to learn more about the translation process. 
 
 Let's start describing a markdown course file. 
 Here again we'll used the beginning of btc101's `es.md` file as an example: 

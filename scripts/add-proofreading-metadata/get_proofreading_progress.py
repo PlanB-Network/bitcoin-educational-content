@@ -1,17 +1,6 @@
 import os
 from proofreading import *
 
-specific_files = {"course.yml",
-                  "question.yml",
-                  "tutorial.yml",
-                  "book.yml",
-                  # "podcast.yml",
-                  "word.yml",
-                  "bet.yml",
-                  "builder.yml",
-                  "conference.yml"
-                  }
-
 def ask_which_content_type(specific_files):
     content_types = [file_name.replace('.yml', '') for file_name in specific_files]
 

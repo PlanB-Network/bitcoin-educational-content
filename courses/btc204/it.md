@@ -1491,17 +1491,17 @@ Nello stesso thread, c'è [un messaggio di hashcoin in risposta a Duncan Townsen
 
 Zerolink è un protocollo di mixing completo che integra coinjoin Chaumiani e varie strategie per proteggere l'anonimato degli utenti contro diverse forme di analisi della catena, riducendo notevolmente gli errori legati alla gestione del portafoglio. Questo protocollo [è stato introdotto da nopara73 e TDevD nel 2017](https://github.com/nopara73/ZeroLink/blob/master/README.md).
 
-![BTC204](assets/notext/52/14.webp)
+![BTC204](assets/notext/52/11.webp)
 
 Come suggerisce il nome, il principio di Zerolink è quello di effettuare transazioni coinjoin che assicurano l'impossibilità di tracciare i collegamenti tra gli input e gli output. Questa caratteristica è ottenuta garantendo che tutti gli output presentino importi perfettamente identici.
 
-![BTC204](assets/notext/52/11.webp)
-Una misura preventiva importante di Zerolink comporta la separazione completa degli UTXO non miscelati dagli UTXO miscelati utilizzando insiemi distinti di chiavi crittografiche, o addirittura portafogli separati. In questo modo, il portafoglio "pre-mix", destinato alle monete prima del mixing, è differenziato dal portafoglio "post-mix", riservato alle monete che sono state miscelate.
 ![BTC204](assets/notext/52/12.webp)
+Una misura preventiva importante di Zerolink comporta la separazione completa degli UTXO non miscelati dagli UTXO miscelati utilizzando insiemi distinti di chiavi crittografiche, o addirittura portafogli separati. In questo modo, il portafoglio "pre-mix", destinato alle monete prima del mixing, è differenziato dal portafoglio "post-mix", riservato alle monete che sono state miscelate.
+![BTC204](assets/notext/52/13.webp)
 
 Questa rigorosa separazione degli UTXO serve principalmente a prevenire associazioni accidentali tra un UTXO miscelato e uno non miscelato. Infatti, se tali collegamenti si verificano, l'efficacia del coinjoin sull'UTXO miscelato è annullata senza che l'utente ne sia consapevole, compromettendo così la riservatezza di un UTXO la cui storia si credeva fosse stata interrotta. Questi collegamenti possono sorgere sia attraverso il riutilizzo degli indirizzi per assicurare un UTXO miscelato con uno non miscelato, sia applicando l'Euristica di Proprietà Comune dell'Input (CIOH), se l'utente consuma UTXO miscelati e non miscelati come input della stessa transazione. Separando i portafogli pre-mixing e post-mixing, queste associazioni accidentali sono evitate e l'utente è protetto contro errori involontari.
 
-![BTC204](assets/notext/52/13.webp)
+![BTC204](assets/notext/52/14.webp)
 Questa separazione offre anche la possibilità di applicare regole distinte tra i portafogli pre-mixing e post-mixing a livello del software del portafoglio. Ad esempio, nel portafoglio post-mix, il software può proibire la fusione degli UTXO in input per prevenire l'applicazione del CIOH che comprometterebbe l'anonset dell'utente. È anche possibile standardizzare l'uso di script e opzioni di transazione (come la segnalazione di RBF, ad esempio) per prevenire l'identificazione tramite le impronte digitali del portafoglio.
 Attualmente, Whirlpool è l'unica implementazione di coinjoin che applica rigorosamente il protocollo Zerolink. Nel capitolo seguente, esploreremo le diverse implementazioni di coinjoin esistenti e i vantaggi e svantaggi di ciascuna.
 

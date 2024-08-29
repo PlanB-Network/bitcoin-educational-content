@@ -1582,17 +1582,17 @@ In the same thread, there is [a message from hashcoin in response to Duncan Town
 
 Zerolink is a comprehensive mixing protocol that integrates Chaumian coinjoins and various strategies to protect users' anonymity against several forms of chain analysis, notably minimizing errors related to wallet management. This protocol [was introduced by nopara73 and TDevD in 2017](https://github.com/nopara73/ZeroLink/blob/master/README.md).
 
-![BTC204](assets/notext/52/14.webp)
+![BTC204](assets/notext/52/11.webp)
 
 As its name suggests, the principle of Zerolink is to carry out coinjoin transactions that ensure the impossibility of tracing the links between the inputs and outputs. This characteristic is achieved by ensuring that all outputs present perfectly identical amounts.
 
-![BTC204](assets/notext/52/11.webp)
-An important preventive measure by Zerolink involves completely separating unmixed UTXOs from mixed UTXOs by using distinct sets of cryptographic keys, or even separate wallets. This way, the "pre-mix" wallet, intended for coins before mixing, is differentiated from the "post-mix" wallet, reserved for coins that have been mixed.
 ![BTC204](assets/notext/52/12.webp)
+An important preventive measure by Zerolink involves completely separating unmixed UTXOs from mixed UTXOs by using distinct sets of cryptographic keys, or even separate wallets. This way, the "pre-mix" wallet, intended for coins before mixing, is differentiated from the "post-mix" wallet, reserved for coins that have been mixed.
+![BTC204](assets/notext/52/13.webp)
 
 This strict separation of UTXOs primarily serves to prevent accidental associations between a mixed UTXO and an unmixed UTXO. Indeed, if such links occur, the effectiveness of the coinjoin on the mixed UTXO is nullified without the user being aware, thus compromising the confidentiality of a UTXO whose history they believed had been severed. These links can arise either through address reuse on securing a mixed UTXO with an unmixed one, or by applying the Common-Input-Ownership Heuristic (CIOH), if the user consumes mixed and unmixed UTXOs as inputs of the same transaction. By separating the pre-mixing and post-mixing wallets, these accidental associations are avoided, and the user is protected against involuntary errors.
 
-![BTC204](assets/notext/52/13.webp)
+![BTC204](assets/notext/52/14.webp)
 
 This separation also offers the possibility to apply distinct rules between the pre-mixing and post-mixing wallets at the wallet software level. For example, in the post-mix wallet, the software can prohibit the merging of UTXOs into inputs to prevent the application of the CIOH which would compromise the user's anonset. It is also possible to standardize the use of scripts and transaction options (like the signaling of RBF, for example) to prevent identification by wallet fingerprints.
 

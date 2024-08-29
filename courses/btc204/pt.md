@@ -1512,17 +1512,17 @@ No mesmo tópico, há [uma mensagem de hashcoin em resposta a Duncan Townsend](h
 
 Zerolink é um protocolo de mistura abrangente que integra Chaumian coinjoins e várias estratégias para proteger o anonimato dos usuários contra várias formas de análise de cadeia, notavelmente minimizando erros relacionados à gestão de carteiras. Este protocolo [foi introduzido por nopara73 e TDevD em 2017](https://github.com/nopara73/ZeroLink/blob/master/README.md).
 
-![BTC204](assets/notext/52/14.webp)
+![BTC204](assets/notext/52/11.webp)
 
 Como o nome sugere, o princípio do Zerolink é realizar transações coinjoin que garantem a impossibilidade de rastrear os links entre as entradas e saídas. Esta característica é alcançada garantindo que todos os outputs apresentem quantias perfeitamente idênticas.
 
-![BTC204](assets/notext/52/11.webp)
-Uma medida preventiva importante do Zerolink envolve separar completamente UTXOs não misturados de UTXOs misturados, usando conjuntos distintos de chaves criptográficas, ou até carteiras separadas. Desta forma, a carteira "pré-mix", destinada a moedas antes da mistura, é diferenciada da carteira "pós-mix", reservada para moedas que foram misturadas.
 ![BTC204](assets/notext/52/12.webp)
+Uma medida preventiva importante do Zerolink envolve separar completamente UTXOs não misturados de UTXOs misturados, usando conjuntos distintos de chaves criptográficas, ou até carteiras separadas. Desta forma, a carteira "pré-mix", destinada a moedas antes da mistura, é diferenciada da carteira "pós-mix", reservada para moedas que foram misturadas.
+![BTC204](assets/notext/52/13.webp)
 
 Esta separação estrita de UTXOs serve principalmente para prevenir associações acidentais entre um UTXO misturado e um não misturado. De fato, se tais links ocorrerem, a eficácia do coinjoin no UTXO misturado é anulada sem que o usuário esteja ciente, comprometendo assim a confidencialidade de um UTXO cujo histórico ele acreditava ter sido cortado. Esses links podem surgir tanto pelo reuso de endereços ao assegurar um UTXO misturado com um não misturado, quanto pela aplicação da Heurística de Propriedade Comum de Entrada (CIOH), se o usuário consumir UTXOs misturados e não misturados como entradas da mesma transação. Ao separar as carteiras de pré-mistura e pós-mistura, essas associações acidentais são evitadas, e o usuário é protegido contra erros involuntários.
 
-![BTC204](assets/notext/52/13.webp)
+![BTC204](assets/notext/52/14.webp)
 Esta separação também oferece a possibilidade de aplicar regras distintas entre as carteiras de pré-mistura e pós-mistura no nível do software da carteira. Por exemplo, na carteira pós-mistura, o software pode proibir a fusão de UTXOs em entradas para evitar a aplicação do CIOH, o que comprometeria o anonset do usuário. Também é possível padronizar o uso de scripts e opções de transação (como o sinal de RBF, por exemplo) para prevenir identificação por impressões digitais da carteira.
 Atualmente, o Whirlpool é a única implementação de coinjoin que aplica rigorosamente o protocolo Zerolink. No capítulo seguinte, exploraremos as diferentes implementações de coinjoin existentes e as vantagens e desvantagens de cada uma.
 

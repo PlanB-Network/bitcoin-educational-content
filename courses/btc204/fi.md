@@ -1546,17 +1546,17 @@ Samassa keskusteluketjussa on [viesti hashcoinilta vastauksena Duncan Townsendil
 
 Zerolink on kattava sekoitusprotokolla, joka yhdistää Chaumian coinjoinit ja erilaisia strategioita käyttäjien anonymiteetin suojaamiseksi useita ketjuanalyysin muotoja vastaan, erityisesti vähentäen lompakonhallintaan liittyviä virheitä. Tämän protokollan [esittelivät nopara73 ja TDevD vuonna 2017](https://github.com/nopara73/ZeroLink/blob/master/README.md).
 
-![BTC204](assets/notext/52/14.webp)
+![BTC204](assets/notext/52/11.webp)
 
 Kuten nimestä voi päätellä, Zerolinkin periaate on suorittaa coinjoin-transaktioita, jotka takaavat linkkien jäljittämisen mahdottomuuden syötteiden ja tuotosten välillä. Tämä ominaisuus saavutetaan varmistamalla, että kaikki tuotokset ovat täysin identtisiä määriltään.
 
-![BTC204](assets/notext/52/11.webp)
-Tärkeä ennaltaehkäisevä toimenpide Zerolinkissa on sekoittamattomien UTXOjen täydellinen erottaminen sekoitetuista UTXOista käyttämällä erillisiä kryptografisia avaimia tai jopa erillisiä lompakoita. Näin "ennakko-sekoitus" lompakko, joka on tarkoitettu kolikoille ennen sekoittamista, erotetaan "jälkisekoitus" lompakosta, joka on varattu sekoitetuille kolikoille.
 ![BTC204](assets/notext/52/12.webp)
+Tärkeä ennaltaehkäisevä toimenpide Zerolinkissa on sekoittamattomien UTXOjen täydellinen erottaminen sekoitetuista UTXOista käyttämällä erillisiä kryptografisia avaimia tai jopa erillisiä lompakoita. Näin "ennakko-sekoitus" lompakko, joka on tarkoitettu kolikoille ennen sekoittamista, erotetaan "jälkisekoitus" lompakosta, joka on varattu sekoitetuille kolikoille.
+![BTC204](assets/notext/52/13.webp)
 
 Tämä UTXOjen tiukka erottaminen palvelee ensisijaisesti vahinkoon perustuvien yhdistämisten estämistä sekoitetun UTXOn ja sekoittamattoman UTXOn välillä. Todellakin, jos tällaisia linkkejä esiintyy, coinjoinin tehokkuus sekoitetussa UTXOssa mitätöidään ilman, että käyttäjä on tietoinen, mikä vaarantaa UTXOn luottamuksellisuuden, jonka he uskoivat irrotetun historiastaan. Nämä linkit voivat syntyä joko osoitteen uudelleenkäytön kautta turvattaessa sekoitettu UTXO sekoittamattoman kanssa, tai soveltamalla Common-Input-Ownership Heuristic (CIOH) -periaatetta, jos käyttäjä käyttää sekä sekoitettuja että sekoittamattomia UTXOja saman transaktion syötteinä. Ennakko-sekoituksen ja jälkisekoituksen lompakoiden erottamisen avulla nämä vahingossa tapahtuvat yhdistämiset vältetään, ja käyttäjä suojataan tahattomilta virheiltä.
 
-![BTC204](assets/notext/52/13.webp)
+![BTC204](assets/notext/52/14.webp)
 Tämä erottelu tarjoaa myös mahdollisuuden soveltaa erillisiä sääntöjä ennen sekoitusta ja sekoituksen jälkeen oleville lompakoille lompakko-ohjelmiston tasolla. Esimerkiksi sekoituksen jälkeisessä lompakossa ohjelmisto voi kieltää UTXO:iden yhdistämisen syötteiksi estääkseen CIOH:n soveltamisen, mikä vaarantaisi käyttäjän anonsetin. On myös mahdollista standardoida skriptien ja transaktiovaihtoehtojen käyttö (kuten RBF:n merkitseminen esimerkiksi) estääkseen tunnistamisen lompakon sormenjäljillä.
 Tällä hetkellä Whirlpool on ainoa coinjoinin toteutus, joka soveltaa Zerolink-protokollaa tiukasti. Seuraavassa luvussa tutkimme erilaisia olemassa olevia coinjoin-toteutuksia sekä kunkin etuja ja haittoja.
 

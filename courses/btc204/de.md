@@ -1563,17 +1563,17 @@ Im selben Thread gibt es [eine Nachricht von hashcoin als Antwort an Duncan Town
 
 Zerolink ist ein umfassendes Mixing-Protokoll, das Chaumian CoinJoins und verschiedene Strategien integriert, um die Anonymität der Benutzer gegen mehrere Formen der Kettenanalyse zu schützen, insbesondere um Fehler im Zusammenhang mit der Wallet-Verwaltung zu minimieren. Dieses Protokoll [wurde 2017 von nopara73 und TDevD eingeführt](https://github.com/nopara73/ZeroLink/blob/master/README.md).
 
-![BTC204](assets/notext/52/14.webp)
+![BTC204](assets/notext/52/11.webp)
 
 Wie der Name schon sagt, besteht das Prinzip von Zerolink darin, CoinJoin-Transaktionen durchzuführen, die die Unmöglichkeit sicherstellen, die Verbindungen zwischen den Eingängen und Ausgängen zurückzuverfolgen. Diese Eigenschaft wird dadurch erreicht, dass alle Ausgänge perfekt identische Beträge aufweisen.
 
-![BTC204](assets/notext/52/11.webp)
-Eine wichtige präventive Maßnahme von Zerolink besteht darin, ungemischte UTXOs vollständig von gemischten UTXOs zu trennen, indem unterschiedliche Sätze von kryptografischen Schlüsseln oder sogar separate Wallets verwendet werden. Auf diese Weise wird das "Pre-Mix"-Wallet, das für Münzen vor dem Mischen vorgesehen ist, vom "Post-Mix"-Wallet unterschieden, das für Münzen reserviert ist, die gemischt wurden.
 ![BTC204](assets/notext/52/12.webp)
+Eine wichtige präventive Maßnahme von Zerolink besteht darin, ungemischte UTXOs vollständig von gemischten UTXOs zu trennen, indem unterschiedliche Sätze von kryptografischen Schlüsseln oder sogar separate Wallets verwendet werden. Auf diese Weise wird das "Pre-Mix"-Wallet, das für Münzen vor dem Mischen vorgesehen ist, vom "Post-Mix"-Wallet unterschieden, das für Münzen reserviert ist, die gemischt wurden.
+![BTC204](assets/notext/52/13.webp)
 
 Diese strikte Trennung der UTXOs dient in erster Linie dazu, zufällige Verbindungen zwischen einem gemischten UTXO und einem ungemischten UTXO zu verhindern. Tatsächlich, wenn solche Verbindungen auftreten, wird die Wirksamkeit des CoinJoins auf dem gemischten UTXO zunichte gemacht, ohne dass der Benutzer sich dessen bewusst ist, was die Vertraulichkeit eines UTXO, dessen Geschichte er für getrennt hielt, kompromittiert. Diese Verbindungen können entweder durch die Wiederverwendung von Adressen beim Sichern eines gemischten UTXO mit einem ungemischten oder durch Anwendung der Common-Input-Ownership Heuristic (CIOH) entstehen, wenn der Benutzer gemischte und ungemischte UTXOs als Eingaben derselben Transaktion verbraucht. Durch die Trennung der Pre-Mixing- und Post-Mixing-Wallets werden diese zufälligen Verbindungen vermieden und der Benutzer vor unfreiwilligen Fehlern geschützt.
 
-![BTC204](assets/notext/52/13.webp)
+![BTC204](assets/notext/52/14.webp)
 Diese Trennung bietet auch die Möglichkeit, unterschiedliche Regeln zwischen den Wallets vor und nach dem Mixing auf der Ebene der Wallet-Software anzuwenden. Zum Beispiel kann in der Wallet nach dem Mixing die Software das Zusammenführen von UTXOs zu Inputs verbieten, um die Anwendung des CIOH zu verhindern, was den Anonset des Benutzers kompromittieren würde. Es ist auch möglich, die Verwendung von Skripten und Transaktionsoptionen (wie das Signalisieren von RBF, zum Beispiel) zu standardisieren, um eine Identifizierung durch Wallet-Fingerabdrücke zu verhindern.
 Derzeit ist Whirlpool die einzige Implementierung von Coinjoin, die das Zerolink-Protokoll streng anwendet. Im folgenden Kapitel werden wir die verschiedenen vorhandenen Coinjoin-Implementierungen und die Vor- und Nachteile jeder einzelnen erkunden.
 

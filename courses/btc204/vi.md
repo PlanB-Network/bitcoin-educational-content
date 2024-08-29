@@ -1483,17 +1483,17 @@ Trong cùng một chủ đề, có [một tin nhắn từ hashcoin phản hồi 
 
 Zerolink là một giao thức trộn lẫn toàn diện tích hợp coinjoins Chaumian và các chiến lược khác nhau để bảo vệ sự ẩn danh của người dùng chống lại nhiều hình thức phân tích chuỗi, đặc biệt là giảm thiểu lỗi liên quan đến quản lý ví. Giao thức này [được nopara73 và TDevD giới thiệu vào năm 2017](https://github.com/nopara73/ZeroLink/blob/master/README.md).
 
-![BTC204](assets/notext/52/14.webp)
+![BTC204](assets/notext/52/11.webp)
 
 Như tên gọi của nó, nguyên tắc của Zerolink là thực hiện các giao dịch coinjoin đảm bảo không thể truy vết được các liên kết giữa các đầu vào và đầu ra. Đặc điểm này được đạt được bằng cách đảm bảo rằng tất cả các đầu ra có số lượng hoàn toàn giống nhau.
 
-![BTC204](assets/notext/52/11.webp)
-Một biện pháp phòng ngừa quan trọng của Zerolink bao gồm việc tách biệt hoàn toàn UTXOs chưa trộn lẫn với UTXOs đã trộn lẫn bằng cách sử dụng các bộ khóa mật mã khác nhau, hoặc thậm chí là các ví riêng biệt. Như vậy, ví "pre-mix", dành cho các đồng tiền trước khi trộn, được phân biệt với ví "post-mix", dành riêng cho các đồng tiền đã được trộn.
 ![BTC204](assets/notext/52/12.webp)
+Một biện pháp phòng ngừa quan trọng của Zerolink bao gồm việc tách biệt hoàn toàn UTXOs chưa trộn lẫn với UTXOs đã trộn lẫn bằng cách sử dụng các bộ khóa mật mã khác nhau, hoặc thậm chí là các ví riêng biệt. Như vậy, ví "pre-mix", dành cho các đồng tiền trước khi trộn, được phân biệt với ví "post-mix", dành riêng cho các đồng tiền đã được trộn.
+![BTC204](assets/notext/52/13.webp)
 
 Sự phân chia UTXOs này chủ yếu nhằm mục đích ngăn chặn sự liên kết vô tình giữa một UTXO đã trộn và một UTXO chưa trộn. Thực sự, nếu những liên kết như vậy xảy ra, hiệu quả của coinjoin trên UTXO đã trộn sẽ bị vô hiệu hóa mà người dùng không hề biết, từ đó làm mất đi sự bảo mật của một UTXO mà họ tin rằng lịch sử của nó đã được cắt đứt. Những liên kết này có thể phát sinh do việc sử dụng lại địa chỉ khi bảo vệ một UTXO đã trộn với một UTXO chưa trộn, hoặc bằng cách áp dụng Heuristic Sở Hữu Đầu Vào Chung (CIOH), nếu người dùng sử dụng UTXOs đã trộn và chưa trộn làm đầu vào của cùng một giao dịch. Bằng cách tách biệt ví trước và sau khi trộn, những liên kết vô tình này được tránh khỏi và người dùng được bảo vệ khỏi những lỗi không mong muốn.
 
-![BTC204](assets/notext/52/13.webp)
+![BTC204](assets/notext/52/14.webp)
 Sự tách biệt này cũng mở ra khả năng áp dụng các quy tắc riêng biệt giữa ví trước khi trộn và sau khi trộn ở cấp độ phần mềm ví. Ví dụ, trong ví sau khi trộn, phần mềm có thể cấm việc kết hợp các UTXO thành đầu vào để ngăn chặn việc áp dụng CIOH, điều này sẽ làm lộ thông tin về tập ẩn danh của người dùng. Cũng có thể chuẩn hóa việc sử dụng kịch bản và các tùy chọn giao dịch (như việc báo hiệu RBF, ví dụ) để ngăn chặn việc nhận dạng qua dấu vân tay ví.
 
 Hiện tại, Whirlpool là triển khai duy nhất của coinjoin mà áp dụng chặt chẽ giao thức Zerolink. Trong chương tiếp theo, chúng ta sẽ khám phá các triển khai coinjoin khác nhau hiện có và ưu nhược điểm của từng loại.

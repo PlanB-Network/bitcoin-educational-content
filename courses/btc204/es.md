@@ -1580,17 +1580,17 @@ En el mismo hilo, hay [un mensaje de hashcoin en respuesta a Duncan Townsend](ht
 
 Zerolink es un protocolo de mezclado integral que integra coinjoins chaumianos y varias estrategias para proteger el anonimato de los usuarios contra varias formas de análisis de cadena, minimizando notablemente los errores relacionados con la gestión de billeteras. Este protocolo [fue introducido por nopara73 y TDevD en 2017](https://github.com/nopara73/ZeroLink/blob/master/README.md).
 
-![BTC204](assets/notext/52/14.webp)
+![BTC204](assets/notext/52/11.webp)
 
 Como su nombre sugiere, el principio de Zerolink es llevar a cabo transacciones coinjoin que aseguran la imposibilidad de rastrear los enlaces entre las entradas y salidas. Esta característica se logra asegurando que todas las salidas presenten montos perfectamente idénticos.
 
-![BTC204](assets/notext/52/11.webp)
-Una medida preventiva importante por parte de Zerolink implica separar completamente los UTXOs no mezclados de los UTXOs mezclados utilizando conjuntos distintos de claves criptográficas, o incluso billeteras separadas. De esta manera, la billetera "pre-mezcla", destinada a monedas antes de mezclar, se diferencia de la billetera "post-mezcla", reservada para monedas que han sido mezcladas.
 ![BTC204](assets/notext/52/12.webp)
+Una medida preventiva importante por parte de Zerolink implica separar completamente los UTXOs no mezclados de los UTXOs mezclados utilizando conjuntos distintos de claves criptográficas, o incluso billeteras separadas. De esta manera, la billetera "pre-mezcla", destinada a monedas antes de mezclar, se diferencia de la billetera "post-mezcla", reservada para monedas que han sido mezcladas.
+![BTC204](assets/notext/52/13.webp)
 
 Esta estricta separación de UTXOs sirve principalmente para prevenir asociaciones accidentales entre un UTXO mezclado y uno no mezclado. De hecho, si tales enlaces ocurren, la efectividad del coinjoin en el UTXO mezclado se anula sin que el usuario sea consciente, comprometiendo así la confidencialidad de un UTXO cuya historia creían haber cortado. Estos enlaces pueden surgir ya sea por reutilización de direcciones al asegurar un UTXO mezclado con uno no mezclado, o aplicando la Heurística de Propiedad Común de Entrada (CIOH, por sus siglas en inglés), si el usuario consume UTXOs mezclados y no mezclados como entradas de la misma transacción. Al separar las billeteras de pre-mezcla y post-mezcla, se evitan estas asociaciones accidentales, y el usuario está protegido contra errores involuntarios.
 
-![BTC204](assets/notext/52/13.webp)
+![BTC204](assets/notext/52/14.webp)
 Esta separación también ofrece la posibilidad de aplicar reglas distintas entre las carteras de pre-mezcla y post-mezcla a nivel del software de la cartera. Por ejemplo, en la cartera post-mezcla, el software puede prohibir la fusión de UTXOs en entradas para prevenir la aplicación del CIOH, lo cual comprometería el conjunto anónimo del usuario. También es posible estandarizar el uso de scripts y opciones de transacción (como la señalización de RBF, por ejemplo) para prevenir la identificación por huellas de cartera.
 
 Actualmente, Whirlpool es la única implementación de coinjoin que aplica rigurosamente el protocolo Zerolink. En el siguiente capítulo, exploraremos las diferentes implementaciones de coinjoin existentes y las ventajas y desventajas de cada una.

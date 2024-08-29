@@ -26,6 +26,14 @@ def load_supported_languages():
 def get_languages_list(languages_dict):
     return list(languages_dict.keys())
 
+def get_language_list_for_content(file_path):
+    supported_languages = load_supported_languages()
+    detected_languages = []
+    for file_name in os.listdir(file_path):
+        base_name = os.path.splitext(file_name)[0]
+        if base_name in supported_languages:
+            detected_languages.append(base_name)
+    return detected_languages
 
 def load_difficulty_dict():
     with open('./content_difficulty.yml', 'r') as file:

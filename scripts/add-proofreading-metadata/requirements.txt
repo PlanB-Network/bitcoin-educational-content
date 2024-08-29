@@ -1,0 +1,12 @@
+attrs==24.2.0
+blessed==1.20.0
+editor==1.6.6
+fuzzysearch==0.7.3
+inquirer==3.4.0
+readchar==4.2.0
+ruamel.yaml==0.18.6
+ruamel.yaml.clib==0.2.8
+runs==1.2.2
+six==1.16.0
+wcwidth==0.2.13
+xmod==1.8.1

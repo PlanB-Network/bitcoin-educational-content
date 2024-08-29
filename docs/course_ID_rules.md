@@ -12,12 +12,28 @@
 
 # Discipline List
 
+- ACCO = Accounting
 - BIZ = Business
 - BTC = Bitcoin 
-- CSV = 
+- CSV = Client Side Validation
 - CYP = Cryptography
+- DATA = Data Analysis
+- DIY = Do It Yourself
+- DSN = Design
 - ECO = Economy
+- ENTRE = Entrepreneurship
+- FIN = Finance
+- HIST = History
 - LNP = Lightning 
 - MIN = Minning
+- NET= Network
+- NRG = Energy
+- OPSC = Open Source
 - PHI = Philosofy 
+- POS = Point of Sales
+- PRTCL = Protocol
+- SCRIPT = Script
 - SCU = Security
+- SIDECHAIN = Sidechain
+- SOCIO = Sociology
+- SOV = Sovereignity

@@ -1,6 +1,7 @@
 import os
 from math import floor
 from ruamel.yaml import YAML
+from datetime import date
 
 BASE_FEE = 2500
 yaml = YAML()
@@ -83,16 +84,40 @@ def get_orignal(data):
     original = data.get('original_language')
     return original
 
-def update_reward_property(file_path, language, reward):
-    data = get_yml_content(file_path)
-    ## TODO: write modification logic   
+def update_proofreading_inline_property(data, language, property_name, property_value):
+    # TODO: add check for type of input depending of the property name
+    # date or interger
+    for entry in data['proofreading']:
+        if entry['language'] == language:
+            entry[property_name] = property_value
+            break
+
+def update_yml_data(file_path, data):
+    current_data = get_yml_content(file_path)
+    current_data.update(data)
     with open(file_path, 'w') as file:
-        yaml.dump(data, file)
+        yaml.dump(current_data, file)
 
+def get_proofreading_property(data, language, property_name):
+    for entry in data['proofreading']:
+        if entry['language'] == language:
+            return entry[property_name]
+    
+def get_proofreading_state(data, language):
+    contributors_id = get_proofreading_property(data, language, 'contributors_id')
+    if contributors_id == None:
+        return 0
+    else:
+        return round(len(contributors_id)/3, 2)
+  
+def add_proofreading_contributor(data, language, contributor_id):
+    for entry in data['proofreading']:
+        if entry['language'] == language:
+            if entry['contributors_id'] is None:
+                entry['contributors_id'] = []
 
-# used as playground
-languages_dict = load_supported_languages()
-difficulty_dict = load_difficulty_dict()
-print(languages_dict)
-print(difficulty_dict['wizard'])
-print(get_languages_list(languages_dict))
+            entry['contributors_id'].append(contributor_id)
+            print('added')
+            break
+    
+

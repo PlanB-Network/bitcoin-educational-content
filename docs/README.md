@@ -4,8 +4,8 @@ This documentation aims to facilitate efficient and effective participation in t
 It covers the following aspects:
 
 - [Purpose](#purpose)
-- [Repository Hierarchy](#repository-hierarchy)
 - [Supported Languages](#supported-languages)
+- [Repository Hierarchy](#repository-hierarchy)
 - [Expected Format for Different Types of Content](#expected-format-for-different-types-of-content)
 - [How to Contribute](#how-to-contribute)
 
@@ -20,22 +20,12 @@ The PlanB Content Repo is designed to serve as a centralised hub for high-qualit
 
 ## Supported Languages
 
-Thanks to our contributors, the PlanB content is available in many languages such as but not limited to the following ones:
+Thanks to our contributors, the PlanB content is available in many languages and we are able to add new languages around the clock!
 
-- Arabic: [Review Dashboard](https://github.com/orgs/DecouvreBitcoin/projects/16)
-- Danish: [Review Dashboard](https://github.com/orgs/DecouvreBitcoin/projects/24)
-- English: [Website](https://planb.network/en), [Review Dashboard](https://github.com/orgs/DecouvreBitcoin/projects/21)
-- Finnish: [Review Dashboard](https://github.com/orgs/DecouvreBitcoin/projects/32)
-- French: [Website](https://planb.network/fr), [Review Dashboard](https://github.com/orgs/DecouvreBitcoin/projects/13)
-- German: [Website](https://planb.network/de), [Review Dashboard](https://github.com/orgs/DecouvreBitcoin/projects/17)
-- Italian: [Website](https://planb.network/it), [Review Dashboard](https://github.com/orgs/DecouvreBitcoin/projects/19)
-- Japanese: [Review Dashboard](https://github.com/orgs/DecouvreBitcoin/projects/15)
-- Polish: [Review Dashboard](https://github.com/orgs/DecouvreBitcoin/projects/34)
-- Portuguese: [Website](https://planb.network/pt), [Review Dashboard](https://github.com/orgs/DecouvreBitcoin/projects/20)
-- Spanish: [Website](https://planb.network/es), [Review Dashboard](https://github.com/orgs/DecouvreBitcoin/projects/18)
-- Thaï: [Review Dashboard](https://github.com/orgs/DecouvreBitcoin/projects/30)
+To see which languages are already available, just browse our [website](https://planb.network) and switch to your preferred language.
 
-**If your language is not listed here, please suggest it by opening an [issue](https://github.com/DecouvreBitcoin/sovereign-university-data/issues/new).**
+If you want to contribute to any existing content by proofreading it to improve translation quality or you want to add a missing language, please read our [Readme file](https://github.com/PlanB-Network/bitcoin-educational-content?tab=readme-ov-file#how-can-you-contribute) dedicated section, have a look to our [Content Translation & Proofreading Dashboard](https://github.com/orgs/PlanB-Network/projects/3) and engage with us in the [Telegram Content Builder Group](https://t.me/PlanBNetwork_ContentBuilder)
+
 As we believe in the [value-4-value model](./value-4-value-model.md), we are always looking for contributors that are willing to review content in exchange of some sats (and knowledge). 
 
 ## Repository Hierarchy

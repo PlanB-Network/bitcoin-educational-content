@@ -6,6 +6,8 @@ The name of folder for any course represents its unique identifier known as the 
 
 This folder has a specific structure that is extensively detailed in the next section.
 
+You can find complete specifications about courses in the [PBN Template Repo](/PBN-template-repo/courses/) folder with full examples of folder and files structure and extensive comments inside all files to understand how to properly format your course.
+
 # Course Folder Structure
 
 Any course folder should be placed in the `courses/` folder and respect the following structure:
@@ -54,15 +56,12 @@ contributors:
   - another-satoshi
 ```
 
-This [yaml file](./format_guidelines.md#yaml-format-guidelines) must contains all the relevant metadata of the course which are defined via the following properties:
-- `level`: you can set the difficulty to the following values `beginner`, `intermediate`, `advanced`, `developer`
-- `hours`: an evaluation of the number of hours that would be needed to complete the course
-- `professors`: a list of all professors that have participated in this course, by using the associated [PlanB-UID](./planb-uid.md) (see [professor documentation page](./professor_documentation.md))
-- `contributors`: a list of all contributors that have participated in the maintenance of the course folder, by using the associated [PlanB-UID](./planb-uid.md)
+This yaml file must contains all the relevant metadata of the course which are defined in [the course yml template](/docs/PBN-template-repo/courses/topic101/course.yml).
+
 
 ## Markdown course files
 
-Markdown files contain the written course and must be placed in the course folder. Additionally, since it is language-specific, the language code used to name it will reflect the language used in the file. These files MUST respect precise formatting rules to be properly rendered on our website (cf. [course formatting section](#Course formatting rules)). You can either read our [tutorial](008%20DB%20x%20PBN/PlanB%20Network.md) on our website or our [documentation page](./content-translation-process.md), if you want to learn more about the translation process. 
+Markdown files contain the written course and must be placed in the course folder. Additionally, since it is language-specific, the language code used to name it will reflect the language used in the file. These files MUST respect precise formatting rules to be properly rendered on our website. You can find full examples in [the course md template](/docs/PBN-template-repo/courses/topic101/en.md).
 
 Let's start describing a markdown course file. 
 Here again we'll used the beginning of btc101's `es.md` file as an example: 
@@ -116,6 +115,7 @@ The markdown course file is divided in 3 parts. The first two parts would be use
 	- Note that this structure is used to create the outline of the course and that each chapter is rendered on a single page, so try to evaluate a user-friendly (not too short and not too long) length for your chapter. 
 	- On the other hand, parts (resp. subchapters) are used as way to better group similar chapters (resp. split paragraphs on slightly different matter) and could be used to better reflect the intentions of the course 
 	- For further detail on the formatting, please look at the next paragraph [Course formatting rules](#course-formatting-rules).
+
 ### Course formatting rules
 
 These are the rules for properly formatting course content:
@@ -127,7 +127,7 @@ These are the rules for properly formatting course content:
 - each chapter has a unique ID (see [chapter ID section](#Chapter ID))
 - a course contains a header part, delimited by `---`
 - a course contains an introduction part, delimited by `+++`
-- if a chapter is provided or written by another teacher, you can mention it via the html tag `<professor>contributor-id</professor>`. Note that the professor must be present in the [professor folder](./professor-documentation.md)
+- if a chapter is provided or written by another teacher, you can mention it via the html tag `<professor>contributor-id</professor>`. Note that the professor must be present in the [professor folder](../professors/)
 
 #### Chapter ID
 
@@ -146,11 +146,9 @@ Additionally in the `assets/` folder a `thumbnail.webp` file is required, it wil
 
 ## Optional folders within course folder
 
-### Quizz folder 
+### Quizz folder
+TBD
 
-### Exam folder 
-
-### Exercise folder 
-### Teachable folder
 
 # Paid Course
+TBD

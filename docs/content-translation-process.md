@@ -4,14 +4,10 @@ As one of the main missions of the PlanB Network Content repo is to lower down t
 - [LLM-translator](#LLM-Translator approach): python-program that batch translate any `.md` or `.txt` files while keeping the document formatting
 - [Transleet](#Transleet approach): a recently developed web software that is mainly used for translating entire books effortlessly
 
-If you have another approach that seems relevant, feel free to post an [issue](https://github.com/DecouvreBitcoin/sovereign-university-data/issues/new) to discuss about it. 
+If you have another approach that seems relevant, feel free to post an [issue](https://github.com/PlanB-Network/bitcoin-educational-content/issues/new) to discuss about it. 
 
 # LLM-Translator approach
 TBD
 
 # Transleet approach
 TBD
-
-
-
-

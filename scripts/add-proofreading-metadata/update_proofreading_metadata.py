@@ -62,8 +62,8 @@ def add_new_contribution_to(content_path):
     print()
     if new_contribution == 'y':
         contributor_id = input("Enter the github username of the contributor: ")
-        # add_proofreading_contributor(data, selected_language, contributor_id) 
-        # update_yml_data(content_path, data)
+        add_proofreading_contributor(data, selected_language, contributor_id) 
+        update_yml_data(content_path, data)
         print(f"{contributor_id} added a new proofreader of {content_name} in {selected_language}")
         reward = get_proofreading_property(data, selected_language, 'reward')
         print(f"{contributor_id} has won {reward} sats for that proofreading")
@@ -116,19 +116,19 @@ def main():
     print("Let's update proofreading data!")
     root_directory = '../../'
     update_proofreading()
-    while True:
-        question = "Do you want to modify a proofreading section of a content? (new contributor or urgency change)"
-        user_response = ask_yes_no_question(question)
-        if user_response == 'y':
-            selected_subfolder_path = ask_for_subfolder(root_directory, specific_files)
-            if selected_subfolder_path:
-                print(f"Selected subfolder: {selected_subfolder_path}")
-                add_new_contribution_to(selected_subfolder_path)
-            else:
-                print("No valid subfolder with specific files was found.")
-        elif user_response == 'n':
-            print("Exiting the contribution loop. No more contributions to add.")
-            break
+    # while True:
+    #     question = "Do you want to modify a proofreading section of a content? (new contributor or urgency change)"
+    #     user_response = ask_yes_no_question(question)
+    #     if user_response == 'y':
+    #         selected_subfolder_path = ask_for_subfolder(root_directory, specific_files)
+    #         if selected_subfolder_path:
+    #             print(f"Selected subfolder: {selected_subfolder_path}")
+    #             add_new_contribution_to(selected_subfolder_path)
+    #         else:
+    #             print("No valid subfolder with specific files was found.")
+    #     elif user_response == 'n':
+    #         print("Exiting the contribution loop. No more contributions to add.")
+    #         break
 
 if __name__ == "__main__":
     main()

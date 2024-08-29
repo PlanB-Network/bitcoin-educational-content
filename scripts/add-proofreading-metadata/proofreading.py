@@ -7,6 +7,7 @@ BASE_FEE = 2500
 yaml = YAML()
 yaml.preserve_quotes = True
 
+specific_files = {"course.yml",
 def load_supported_languages():
     with open('./supported_languages.yml', 'r') as file:
         languages_dict = yaml.load(file)

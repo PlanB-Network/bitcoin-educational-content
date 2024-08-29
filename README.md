@@ -77,7 +77,7 @@ This repo is organized around three main directories, which are:
 Each individual piece of content, which is a markdown file, is defined by its location in this tree structure and by its language in the name. For instance, the Italian tutorial about Nerd-Miner would have the following path:
 
 ```
-./sovereign-university-data/tutorials/mining/nerd-miner/it.md
+./tutorials/mining/nerd-miner/it.md
 ```
 
 If you want to learn more about our repo structure and content format, check out our [documentation](./docs/README.md).

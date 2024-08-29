@@ -18,6 +18,13 @@ specific_files = {"course.yml",
                   "conference.yml"
                   }
 
+def get_existing_file_path(content_path, specific_files):
+    for file_name in specific_files:
+        file_path = os.path.join(content_path, file_name)
+        if os.path.isfile(file_path):
+            return file_path
+    return None
+
 def load_supported_languages():
     with open('./supported_languages.yml', 'r') as file:
         languages_dict = yaml.load(file)
@@ -127,7 +134,10 @@ def update_proofreading_reward(file_path, language):
     proofread_iteration = get_proofreading_state(data, language)
     urgency = get_proofreading_property(data, language, 'urgency')
 
-    reward = compute_reward(words, difficulty_factor, language_factor, urgency, BASE_FEE, proofread_iteration)
+    if proofread_iteration < 3:
+      reward = compute_reward(words, difficulty_factor, language_factor, urgency, BASE_FEE, proofread_iteration)
+    else:
+      reward = 0
     update_proofreading_inline_property(data, language, 'reward', reward)
 
 def update_yml_data(file_path, data):

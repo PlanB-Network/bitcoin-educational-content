@@ -23,7 +23,7 @@ def ask_for_subfolder(root_directory, specific_files):
             return None
         question = [
             inquirer.List('subfolder',
-                          message=f"Select a subfolder in {root_directory}:",
+                          message=f"Select a subfolder in {root_directory}",
                           choices=subfolders,
                           carousel=True,
                           ),
@@ -42,7 +42,7 @@ def select_language_to_update(content_path):
     content_languages = get_language_list_for_content(content_path)
     question = [
         inquirer.List('language_choice',
-                      message="Select the language to update:",
+                      message="Select the language to update",
                       choices=sorted(content_languages),
                       carousel=True)
     ]
@@ -51,46 +51,85 @@ def select_language_to_update(content_path):
     print(f"You selected to update the content for: {selected_language}")
     return selected_language
 
-def update_content_proofreading(content_path):
+def add_new_contribution_to(content_path):
     selected_language = select_language_to_update(content_path)    
-    # ask if they want to add contributor
-      # if so add new contributor
-    # ask if they want to update the urgency for next proofreading 
-      # print current urgency before and if they want update it
+    file_path = get_existing_file_path(content_path, specific_files)
+    data = get_yml_content(file_path)
+    content_name = os.path.basename(content_path)
+
+    question_contributor = f"Do you want to add a new contributor to {content_name} in {selected_language}?"
+    new_contribution = ask_yes_no_question(question_contributor)
+    print()
+    if new_contribution == 'y':
+        contributor_id = input("Enter the github username of the contributor: ")
+        # add_proofreading_contributor(data, selected_language, contributor_id) 
+        # update_yml_data(content_path, data)
+        print(f"{contributor_id} added a new proofreader of {content_name} in {selected_language}")
+        reward = get_proofreading_property(data, selected_language, 'reward')
+        print(f"{contributor_id} has won {reward} sats for that proofreading")
+    
+    question_urgency = f"Do you want to change the urgency of the proofreading of {content_name} in {selected_language}"
+    change_urgency = ask_yes_no_question(question_urgency)
+    if change_urgency == 'y':
+        current_urgency = get_proofreading_property(data, selected_language, 'urgency')
+        print(f"Current urgency is: {current_urgency}")
+
+        while True:
+            new_urgency = input("Enter the new urgency value (integer): ")
+            try:
+                new_urgency = int(new_urgency)
+                break  # Exit the loop if conversion to int was successful
+            except ValueError:
+                print("Please enter a valid integer.")
+        update_proofreading_inline_property(data, selected_language, 'urgency', new_urgency)    
+
+    update_proofreading_reward(file_path, selected_language)
+
+    data = get_yml_content(file_path)
+    reward = get_proofreading_property(data, selected_language, 'reward')
+    state = get_proofreading_state(data, selected_language)
+    if state < 3: 
+        left = 3-state
+        print(f"{content_name} requires {left} proofreading(s) in {selected_language}")
+        print(f"Next reward for this proofreading is {reward} sats!")
+        
+    else:
+        print(f"Congrats! {content_name} requires no more proofreading in {selected_language}")
+
+
     # update reward for this content for this language
     # tell the state of that proofreading language and the next reward
     # associated to it
+def ask_yes_no_question(question):
+    while True:
+        response = input(question+" [y/n]: ").strip().lower()
+        if response in ['y', 'n']:
+            return response
+        else:
+            print("Please enter 'y' for yes or 'n' for no.")
 
+def update_proofreading():
+    print('Automatic Update for Proofreading section in progress...')
+    print('Automatic update done!')
 
 def main():
     print("Let's update proofreading data!")
-    
     root_directory = '../../'
-    specific_files = {
-        "course.yml",
-        "question.yml",
-        "tutorial.yml",
-        "book.yml",
-        "word.yml",
-        "bet.yml",
-        "builder.yml",
-        "conference.yml"
-    }
-    
-    selected_subfolder_path = ask_for_subfolder(root_directory, specific_files)
-    
-    if selected_subfolder_path:
-        print(f"Final selected subfolder: {selected_subfolder_path}")
-    else:
-        print("No valid subfolder with specific files was found.")
-    update_content_proofreading(selected_subfolder_path)
+    update_proofreading()
+    while True:
+        question = "Do you want to modify a proofreading section of a content? (new contributor or urgency change)"
+        user_response = ask_yes_no_question(question)
+        if user_response == 'y':
+            selected_subfolder_path = ask_for_subfolder(root_directory, specific_files)
+            if selected_subfolder_path:
+                print(f"Selected subfolder: {selected_subfolder_path}")
+                add_new_contribution_to(selected_subfolder_path)
+            else:
+                print("No valid subfolder with specific files was found.")
+        elif user_response == 'n':
+            print("Exiting the contribution loop. No more contributions to add.")
+            break
 
-    # update the proofreading section in case of new translation
-    # ask if a new proofreading contribution has to be added
-    # if so ask for which content 
-    # then for which languaguage
-    # ask if another contribution need to be add (loop 2 steps ahead)
-    # 
 if __name__ == "__main__":
     main()
 

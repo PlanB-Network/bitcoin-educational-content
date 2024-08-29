@@ -8,6 +8,16 @@ yaml = YAML()
 yaml.preserve_quotes = True
 
 specific_files = {"course.yml",
+                  "question.yml",
+                  "tutorial.yml",
+                  "book.yml",
+                  # "podcast.yml",
+                  "word.yml",
+                  "bet.yml",
+                  "builder.yml",
+                  "conference.yml"
+                  }
+
 def load_supported_languages():
     with open('./supported_languages.yml', 'r') as file:
         languages_dict = yaml.load(file)
@@ -27,6 +37,7 @@ def compute_reward(words, difficulty_factor, language_factor, urgency, base_fee,
     reward = (urgency * (words * difficulty_factor * language_factor * 2**(-proofread_iteration)) + base_fee)
     reward = floor(reward)
     return reward
+
 
 def get_yml_content(file_path):
     with open(file_path, 'r', encoding='utf-8') as file:
@@ -93,6 +104,24 @@ def update_proofreading_inline_property(data, language, property_name, property_
             entry[property_name] = property_value
             break
 
+
+def is_original(data, language):
+    return data['original_language'] == language
+
+def update_proofreading_reward(file_path, language):
+    data = get_yml_content(file_path)
+    words = get_words(file_path)
+    difficulty_factor = get_difficulty_factor(file_path)
+
+    language_factors = load_supported_languages()
+    language_factor = language_factors[language]
+
+    proofread_iteration = get_proofreading_state(data, language)
+    urgency = get_proofreading_property(data, language, 'urgency')
+
+    reward = compute_reward(words, difficulty_factor, language_factor, urgency, BASE_FEE, proofread_iteration)
+    update_proofreading_inline_property(data, language, 'reward', reward)
+
 def update_yml_data(file_path, data):
     current_data = get_yml_content(file_path)
     current_data.update(data)
@@ -109,7 +138,7 @@ def get_proofreading_state(data, language):
     if contributors_id == None:
         return 0
     else:
-        return round(len(contributors_id)/3, 2)
+        return  len(contributors_id)
   
 def add_proofreading_contributor(data, language, contributor_id):
     for entry in data['proofreading']:

@@ -1,4 +1,4 @@
-# Add proofreading metadata
+Add proofreading metadata
 
 author: asi0
 
@@ -29,11 +29,11 @@ author: asi0
   - [x] function: update yaml file with new values
   - [x] function: add new contributor to a language
 - for update-proofreading-metadata
-  - [ ] function: get specific data for given content and language
-  - [ ] function: add new language section for update process
   - [ ] function: add new supported language
-  - [ ] function: ask for new contribution
-  - [ ] function to update proofreading metadata
+  - [x] function: get specific data for given content and language
+  - [x] function: ask for new contribution
+  - [x] function to update proofreading metadata
+  - [ ] function: add new language section for update process
     - hypothesis: for any new content there is ALWAYS at least the proofreading section in the original language with the author mentionned as the first proofreading
     - hypothesis 2: only check for code language present is a dictionnary with the associated language difficulty factor
     - this allows us to reduce the update process to a single case : check if {code_language}.yml or md does the code language is listed in the proofreading section

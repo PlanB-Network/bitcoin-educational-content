@@ -29,7 +29,7 @@ author: asi0
   - [x] function: update yaml file with new values
   - [x] function: add new contributor to a language
 - for update-proofreading-metadata
-  - [ ] function: add new supported language
+  - [x] function: add new supported language
   - [x] function: get specific data for given content and language
   - [x] function: ask for new contribution
   - [x] function to update proofreading metadata
@@ -46,3 +46,7 @@ author: asi0
       - reward:
       - set urgency to 1 per default
       - compute the corresponding reward
+
+## Workflow for automatic proofreading update
+
+1.

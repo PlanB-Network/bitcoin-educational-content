@@ -77,16 +77,16 @@ This repo is organized around three main directories, which are:
 Each individual piece of content, which is a markdown file, is defined by its location in this tree structure and by its language in the name. For instance, the Italian tutorial about Nerd-Miner would have the following path:
 
 ```
-./sovereign-university-data/tutorials/mining/nerd-miner/it.md
+./tutorials/mining/nerd-miner/it.md
 ```
 
 If you want to learn more about our repo structure and content format, check out our [documentation](./docs/README.md).
 
 Instead, if you want to have a bird-eye view of our published contents and proposals, check the below:
 
-- [Course Dashboard](https://github.com/orgs/DecouvreBitcoin/projects/3/views/1)
-- [Tutorial Dashboard](https://github.com/orgs/DecouvreBitcoin/projects/5)
-- [Resources Dashboard](https://github.com/orgs/DecouvreBitcoin/projects/6)
+- [Course Dashboard](https://github.com/orgs/PlanB-Network/projects/5)
+- [Tutorial Dashboard](https://github.com/orgs/PlanB-Network/projects/6)
+- [Resources Dashboard](https://github.com/orgs/PlanB-Network/projects/4)
 
 ## Incentive model: Value-4-Value
 

@@ -1404,6 +1404,10 @@ Para Hayek, la inestabilidad pasada de la economía de mercado resulta del hecho
 Hayek creía que un mercado libre de monedas privadas conduciría a una mayor estabilidad monetaria. Casi 50 años después, una criptomoneda como Bitcoin encarna la visión competitiva de Hayek al ofrecer una alternativa descentralizada al sistema monopolístico de los bancos centrales. Bitcoin, con su límite de emisión de 21 millones de unidades, es una garantía contra la inflación y la arbitrariedad de los reguladores.
 
 
+
+## Danos tu opinión sobre este curso
+<chapterId>6759868f-749d-5fe7-bbb1-24f603e8b34e</chapterId>
+<isCourseReview>true</isCourseReview>
 ## Conclusión: el poder de las ideas
 
 <chapterId>50676155-c071-5bee-a14e-0c251f0375da</chapterId>

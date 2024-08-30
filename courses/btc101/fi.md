@@ -1235,6 +1235,10 @@ Onnittelut BTC 101 -kurssin suorittamisesta! Toivon vilpittömästi, että nauti
 Tämä kurssi, kuten kaikki tämän yliopiston sisältö, on tarjottu sinulle ilmaiseksi yhteisömme toimesta. Voit tukea meitä jakamalla sen muiden kanssa, liittymällä yliopiston jäseneksi ja jopa osallistumalla sen kehittämiseen [GitHubissamme](https://github.com/PlanB-Network/bitcoin-educational-content). Koko tiimin puolesta, kiitos!
 
 
+
+## Anna meille palautetta tästä kurssista
+<chapterId>585729e2-b0ab-51b5-89ec-593e3ea22c57</chapterId>
+<isCourseReview>true</isCourseReview>
 ## Arvioi koulutus
 <chapterId>44d01865-5c89-55a5-a397-a014960eec0f</chapterId>
 

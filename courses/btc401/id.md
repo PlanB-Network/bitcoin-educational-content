@@ -265,6 +265,10 @@ Grup Fellowship Satoshi mempresentasikan aplikasi game LN menggunakan LnBits dan
 Grup Lightning Walker mempresentasikan solusi mereka untuk Layanan Remitansi menggunakan MySQL, JavaScript dan API ZDB.
 
 
+
+## Beri kami umpan balik tentang kursus ini
+<chapterId>7f4f46e2-de71-5387-8609-9785fb9e5946</chapterId>
+<isCourseReview>true</isCourseReview>
 ## Pengakuan
 <chapterId>33cb95cf-91d1-555b-a33b-0e3bd6745c33</chapterId>
 

@@ -137,6 +137,10 @@ LNトスカーナイベントの第1週
 <partId>aff1e861-e6a3-58ad-af6a-33ceaedbda99</partId>
 
 
+
+## このコースについてのフィードバックをお寄せください
+<chapterId>9331e519-9e5c-5639-9d0d-055587d8ba4c</chapterId>
+<isCourseReview>true</isCourseReview>
 ## 締めの言葉
 <chapterId>d47b792e-d269-595b-9290-4788aba6e298</chapterId>
 

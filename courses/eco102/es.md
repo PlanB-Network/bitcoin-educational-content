@@ -1043,6 +1043,10 @@ Escribió Frédéric Bastiat en un breve folleto titulado El Estado.
 <partId>3b62de5c-5d4a-5182-ab14-f7ef13c97e28</partId>
 
 
+
+## Danos tu opinión sobre este curso
+<chapterId>db20170d-ceb6-56cd-b4e5-c690942f8b29</chapterId>
+<isCourseReview>true</isCourseReview>
 ## El Legado de Frédéric Bastiat
 
 <chapterId>2a2a181a-e477-5be1-ba1f-af59490c364e</chapterId>

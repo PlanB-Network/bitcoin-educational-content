@@ -138,6 +138,10 @@ Hodně štěstí ve studiu.
 <partId>aff1e861-e6a3-58ad-af6a-33ceaedbda99</partId>
 
 
+
+## Dejte nám zpětnou vazbu k tomuto kurzu
+<chapterId>9331e519-9e5c-5639-9d0d-055587d8ba4c</chapterId>
+<isCourseReview>true</isCourseReview>
 ## Závěrečné slovo
 <chapterId>d47b792e-d269-595b-9290-4788aba6e298</chapterId>
 Děkujeme, že jste se zúčastnili tohoto kurzu! Doufáme, že se vám líbil.

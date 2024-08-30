@@ -1308,6 +1308,10 @@ Cambiar el sistema financiero requiere cambiar la moneda. Satoshi creó Bitcoin 
 Este curso, junto con todo el contenido presente en esta universidad, te ha sido ofrecido de forma gratuita por nuestra comunidad. Para apoyarnos, puedes compartirlo con tus amigos, convertirte en miembro de la universidad e incluso contribuir a su desarrollo a través de [nuestro GitHub](https://github.com/PlanB-Network/bitcoin-educational-content). ¡En nombre de todo el equipo, gracias!
 
 
+
+## Danos tu opinión sobre este curso
+<chapterId>585729e2-b0ab-51b5-89ec-593e3ea22c57</chapterId>
+<isCourseReview>true</isCourseReview>
 ## Califica el curso
 <chapterId>44d01865-5c89-55a5-a397-a014960eec0f</chapterId>
 

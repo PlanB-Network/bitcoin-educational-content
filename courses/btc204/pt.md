@@ -3473,6 +3473,10 @@ Como essa funcionalidade é recente, é aconselhável exercer cautela e evitar u
 *Para criar este capítulo sobre Pagamentos Silenciosos, usei [o site de explicação dos Pagamentos Silenciosos](https://silentpayments.xyz/) e [o documento de explicação do BIP352](https://github.com/bitcoin/bips/blob/master/bip-0352.mediawiki).*
 
 
+
+## Dê-nos seu feedback sobre este curso
+<chapterId>195d149f-80fa-5816-8b46-995a9226d082</chapterId>
+<isCourseReview>true</isCourseReview>
 ## Conclusão
 <chapterId>cd8e5c67-50e4-4dcd-8e04-88ba5ec95305</chapterId>
 

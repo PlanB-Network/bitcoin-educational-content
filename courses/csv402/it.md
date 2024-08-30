@@ -110,6 +110,10 @@ Buona fortuna con i tuoi studi e se hai bisogno di contattare il nostro team o g
 <partId>b0baebfc-d146-5938-849a-f835fafb386f</partId>
 
 
+
+## Dacci un feedback su questo corso
+<chapterId>0217e8b0-942a-5fee-bd91-9a866551eff3</chapterId>
+<isCourseReview>true</isCourseReview>
 ## Parola finale
 <chapterId>0309536d-c336-56a0-869e-a8395ed8d9ae</chapterId>
 Grazie per aver partecipato ai corsi RGB offerti da PlanB Network in collaborazione con Fulgur'Ventures. Estendiamo la nostra gratitudine ai nostri insegnanti per il loro supporto. Se sei interessato a continuare il tuo lavoro con RGB, ecco una lista utile di risorse da esplorare:

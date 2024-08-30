@@ -894,6 +894,10 @@ Theo sau cơn hoảng loạn ngân hàng năm 1796, một hiện tượng xảy 
 Các ngân hàng trung ương đã phát triển để trở thành người cho vay cuối cùng, tạm ngừng khả năng chuyển đổi tiền tệ của họ thành vàng. Mặc dù hành động này ban đầu được dự định là một giải pháp tạm thời, nhưng cuối cùng nó đã trở nên vĩnh viễn, đánh dấu sự ra đời của khái niệm về người cho vay cuối cùng. Sự chuyển đổi này đã hình thành các ngân hàng trung ương như chúng ta biết ngày nay. Tuy nhiên, trong các nền kinh tế mong manh hơn, khả năng in tiền tùy ý này có thể dẫn đến những hậu quả không mong muốn, như lạm phát cực kỳ cao, nếu sử dụng không có trách nhiệm.
 
 
+
+## Cho chúng tôi biết phản hồi của bạn về khóa học này
+<chapterId>1a37317e-372a-5241-b478-8316d44f9283</chapterId>
+<isCourseReview>true</isCourseReview>
 ## Sách và Tài Nguyên
 <chapterId>c44e4519-0741-527b-b3b0-3f513e87147d</chapterId>
 

@@ -1242,6 +1242,10 @@ Gratulujeme k dokončení tohoto kurzu BTC 101! Doufám, že se vám líbil a ot
 Tento kurz, stejně jako veškerý obsah na této univerzitě, vám byl nabídnut zdarma naší komunitou. Můžete nás podpořit tím, že jej sdílíte s ostatními, stanete se členem univerzity a dokonce přispějete k jejímu rozvoji prostřednictvím [našeho GitHubu](https://github.com/PlanB-Network/bitcoin-educational-content). Jménem celého týmu, děkujeme!
 
 
+
+## Dejte nám zpětnou vazbu k tomuto kurzu
+<chapterId>585729e2-b0ab-51b5-89ec-593e3ea22c57</chapterId>
+<isCourseReview>true</isCourseReview>
 ## Ohodnoťte školení
 <chapterId>44d01865-5c89-55a5-a397-a014960eec0f</chapterId>
 

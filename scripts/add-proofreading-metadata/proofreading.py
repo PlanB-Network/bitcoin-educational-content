@@ -30,6 +30,10 @@ def load_supported_languages():
         languages_dict = yaml.load(file)
     return languages_dict
 
+def save_supported_languages(languages_dict):
+    with open('./supported_languages.yml', 'w') as file:
+        yaml.dump(languages_dict, file)
+
 def get_languages_list(languages_dict):
     return list(languages_dict.keys())
 
@@ -118,7 +122,6 @@ def update_proofreading_inline_property(data, language, property_name, property_
         if entry['language'] == language:
             entry[property_name] = property_value
             break
-
 
 def is_original(data, language):
     return data['original_language'] == language

@@ -112,9 +112,38 @@ def update_proofreading():
     print('Automatic Update for Proofreading section in progress...')
     print('Automatic update done!')
 
+
+def add_new_supported_language(code_language, language_difficulty):
+    try:
+        # Ensure language_difficulty is a float with two decimal places
+        language_difficulty = round(float(language_difficulty), 2)
+    except ValueError:
+        print("Language difficulty must be a numeric value.")
+        return
+
+    languages_dict = load_supported_languages()
+
+    if code_language in languages_dict:
+        print(f"{code_language} is already in the list of supported languages.")
+    else:
+        # Adding new entry with validated and formatted difficulty
+        languages_dict[code_language] = language_difficulty
+        save_supported_languages(languages_dict)
+        print(f"Added {code_language} with difficulty {language_difficulty:.2f} to the list of supported languages.")
+
 def main():
     print("Let's update proofreading data!")
     root_directory = '../../'
+    while True:
+        question_language = "Do you want to add a new supported language?"
+        new_language = ask_yes_no_question(question_language)
+        if new_language == 'y':
+            code_language = input("Enter the code language:")
+            language_difficulty = input(f"Enter the difficulty of {code_language}:")
+            add_new_supported_language(code_language, language_difficulty)
+        else:
+            break
+
     update_proofreading()
     # while True:
     #     question = "Do you want to modify a proofreading section of a content? (new contributor or urgency change)"

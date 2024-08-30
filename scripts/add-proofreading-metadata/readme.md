@@ -46,7 +46,3 @@ author: asi0
       - reward:
       - set urgency to 1 per default
       - compute the corresponding reward
-
-## Workflow for automatic proofreading update
-
-1.

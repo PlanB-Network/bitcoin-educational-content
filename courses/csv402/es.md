@@ -112,10 +112,10 @@ Buena suerte con sus estudios, y si necesitan comunicarse con nuestro equipo o l
 <partId>b0baebfc-d146-5938-849a-f835fafb386f</partId>
 
 
-## Danos tu opinión sobre este curso
-<chapterId>988b415c-4146-7bfe-9e8b-b3c0e0e1acf1</chapterId>
-<isCourseReview>true</isCourseReview>
 
+## Danos tu opinión sobre este curso
+<chapterId>0217e8b0-942a-5fee-bd91-9a866551eff3</chapterId>
+<isCourseReview>true</isCourseReview>
 ## Palabra de cierre
 <chapterId>0309536d-c336-56a0-869e-a8395ed8d9ae</chapterId>
 

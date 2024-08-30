@@ -270,10 +270,10 @@ Il gruppo di Satoshi's Fellowship presenta un'app di gioco LN utilizzando LnBits
 Il gruppo di Lightning Walker presenta la loro soluzione per il servizio di rimessa utilizzando MySQL, JavaScript e l'API di ZDB.
 
 
-## Dacci un feedback su questo corso
-<chapterId>8765f77b-f65e-379d-87a9-40aa2cb96713</chapterId>
-<isCourseReview>true</isCourseReview>
 
+## Dacci un feedback su questo corso
+<chapterId>7f4f46e2-de71-5387-8609-9785fb9e5946</chapterId>
+<isCourseReview>true</isCourseReview>
 ## Riconoscimenti 
 <chapterId>33cb95cf-91d1-555b-a33b-0e3bd6745c33</chapterId>
 

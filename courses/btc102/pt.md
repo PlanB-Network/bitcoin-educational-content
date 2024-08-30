@@ -990,10 +990,10 @@ Estou realmente orgulhoso de você ter alcançado essa etapa. Eu realmente acred
 De qualquer forma, todos os nossos cursos são gratuitos e muitos recursos ou tutoriais estão disponíveis em nossa plataforma para acompanhá-lo. Boa sorte em seus estudos!## Note a formação!
 
 
-## Dê-nos seu feedback sobre este curso
-<chapterId>387a1a92-7a16-d985-a861-0a84259dca6a</chapterId>
-<isCourseReview>true</isCourseReview>
 
+## Dê-nos seu feedback sobre este curso
+<chapterId>3f43175a-fb7a-5b1c-a887-7dcf615d7a3a</chapterId>
+<isCourseReview>true</isCourseReview>
 ## Apoie a formação!
 <chapterId>b082b8eb-dabc-5d79-94cf-eb8f48fc1968</chapterId>
 

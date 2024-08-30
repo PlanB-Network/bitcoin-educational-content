@@ -890,10 +890,10 @@ Después del pánico bancario de 1796, se produjo un fenómeno en el que todo el
 Los bancos centrales han evolucionado para convertirse en prestamistas de último recurso, suspendiendo la convertibilidad de su moneda en oro. Aunque esta acción fue concebida inicialmente como una solución temporal, finalmente se convirtió en permanente, marcando así el surgimiento del concepto de prestamista de último recurso. Esta transformación ha dado forma a los bancos centrales tal como los conocemos hoy en día. Sin embargo, en economías más frágiles, esta capacidad de imprimir dinero a voluntad puede tener consecuencias no deseadas, como la hiperinflación, si se utiliza de manera irresponsable.
 
 
-## Danos tu opinión sobre este curso
-<chapterId>6654099e-bd72-9183-9bf0-fefdc1c1e4c0</chapterId>
-<isCourseReview>true</isCourseReview>
 
+## Danos tu opinión sobre este curso
+<chapterId>1a37317e-372a-5241-b478-8316d44f9283</chapterId>
+<isCourseReview>true</isCourseReview>
 ## Libros y recursos
 <chapterId>c44e4519-0741-527b-b3b0-3f513e87147d</chapterId>
 

@@ -1019,10 +1019,10 @@ Napsal Frédéric Bastiat v krátké brožuře nazvané Stát.
 <partId>3b62de5c-5d4a-5182-ab14-f7ef13c97e28</partId>
 
 
-## Dejte nám zpětnou vazbu k tomuto kurzu
-<chapterId>9815fa10-e9be-5d7c-3d62-17e9631fc2b2</chapterId>
-<isCourseReview>true</isCourseReview>
 
+## Dejte nám zpětnou vazbu k tomuto kurzu
+<chapterId>db20170d-ceb6-56cd-b4e5-c690942f8b29</chapterId>
+<isCourseReview>true</isCourseReview>
 ## Dědictví Frédérica Bastiata
 
 <chapterId>2a2a181a-e477-5be1-ba1f-af59490c364e</chapterId>
@@ -1053,5 +1053,4 @@ Ale jak Bastiat trefně ukázal, státní zásah má perversní účinky, které
 ![image](assets/image/20/IMG09.webp)
 Pokud se na věci podíváme z tohoto úhlu, vysvětloval Reagan zaměstnancům GE, takzvané zázraky státních výdajů se jeví v úplně jiném světle. Protože daně odradí od produkce a bohatství vytvořené veřejnými výdaji nemůže plně kompenzovat ty, které byly zabráněny vzniknout daněmi vybíranými na pokrytí těchto výdajů.
 ![obrázek](assets/image/20/IMG10.webp)
-
 Ve své podstatě Reagan převzal od Bastiata několik klíčových prvků liberální vize společnosti a člověka: primát občanské společnosti nad státem, hodnotu volby a individuální odpovědnosti, důležitost podnikatele ve tvorbě bohatství, význam flexibilního a minimálního právního rámce, který umožňuje důvěru a respektování smluv, základní zákon, že bohatství musí být vytvořeno, než může být rozděleno, touhu dát každému šanci na konkurenčních trzích…

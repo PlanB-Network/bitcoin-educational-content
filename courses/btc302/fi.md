@@ -1563,10 +1563,10 @@ Tämän saavuttamiseksi aloitamme kokemuksista, joita useilla ranskalaisilla yht
 Tietenkin **muissa maissa lainsäädäntö ja yhdistysten toiminta ovat erilaisia**. Monet kohdat ovat kuitenkin hyvin hyödyllisiä yhdistyksen perustamiseen tai suuren tapahtuman järjestämiseen; ja **toivomme, että muut bitcoinistit täydentävät tätä koulutusta tavalla, joka on erityinen heidän maalleen**.
 
 
-## Anna meille palautetta tästä kurssista
-<chapterId>fb00c4ff-0e37-70ae-59e6-ef10a08ec744</chapterId>
-<isCourseReview>true</isCourseReview>
 
+## Anna meille palautetta tästä kurssista
+<chapterId>08a35d2a-204b-519a-9bb1-588665a037fa</chapterId>
+<isCourseReview>true</isCourseReview>
 ## Huolehdi itsestäsi
 
 <chapterId>cf1631cb-ddbe-55c7-be8c-26a5652979a0</chapterId>

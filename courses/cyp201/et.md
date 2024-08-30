@@ -813,10 +813,10 @@ Teine laialdaselt kasutatav krüptograafiline meetod Bitcoin'i protokollis on di
 ![video](https://youtu.be/c9MvtGJsEvY?si=bQ1N5NCd6op0G6nW)
 
 
-## Andke meile tagasisidet selle kursuse kohta
-<chapterId>d244dd7d-88c8-be4a-b3e8-0bcfdd745156</chapterId>
-<isCourseReview>true</isCourseReview>
 
+## Andke meile tagasisidet selle kursuse kohta
+<chapterId>0cd71541-a7fd-53db-b66a-8611b6a28b04</chapterId>
+<isCourseReview>true</isCourseReview>
 ## Järeldus ja Lõpp
 <chapterId>d291428b-3cfa-5394-930e-4b514be82d5a</chapterId>
 
@@ -832,5 +832,4 @@ Julgustame teid seda intervjuud vaatama, et jätkata krüptograafia põneva vald
 See kursus, nagu ka kogu selle ülikooli sisu, on teile tasuta kättesaadavaks tehtud meie kogukonna poolt. Meie toetamiseks võite seda teistega jagada, saada ülikooli liikmeks ja isegi aidata selle arendamisele kaasa GitHubi kaudu. Kogu meeskonna nimel, aitäh!
 
 ### Hinda kursust
-
 Koolituse hindamissüsteem integreeritakse varsti sellesse uude E-õppe platvormi! Seniks suur tänu kursuse läbimise eest ja kui see teile meeldis, kaaluge palun selle jagamist teistega.

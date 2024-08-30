@@ -981,10 +981,10 @@ Ich bin wirklich stolz, dass Sie diesen Meilenstein erreicht haben. Ich meine es
 In jedem Fall bleiben alle unsere Schulungen kostenlos, und es stehen viele Ressourcen oder Tutorials auf unserer Plattform zur Verfügung, um Sie zu begleiten. Viel Erfolg bei Ihren Studien!## Beachten Sie die Schulung!
 
 
-## Geben Sie uns Ihr Feedback zu diesem Kurs
-<chapterId>387a1a92-7a16-d985-a861-0a84259dca6a</chapterId>
-<isCourseReview>true</isCourseReview>
 
+## Geben Sie uns Ihr Feedback zu diesem Kurs
+<chapterId>3f43175a-fb7a-5b1c-a887-7dcf615d7a3a</chapterId>
+<isCourseReview>true</isCourseReview>
 ## Unterstützen Sie die Schulung!
 <chapterId>b082b8eb-dabc-5d79-94cf-eb8f48fc1968</chapterId>
 

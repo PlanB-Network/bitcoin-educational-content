@@ -814,10 +814,10 @@ Le résultat final est un taux de hachage plus élevé par watt d’électricit�
 
 
 
-## Donnez-nous votre avis sur ce cours
-<chapterId>1faf65d4-22ae-40f8-44da-d5ef10bbb4be</chapterId>
-<isCourseReview>true</isCourseReview>
 
+## Donnez-nous votre avis sur ce cours
+<chapterId>6af13742-df68-5cf4-b7aa-93dc0c2eaae9</chapterId>
+<isCourseReview>true</isCourseReview>
 ## Contrôler un Antminer S9 depuis son smartphone
 <chapterId>6e7c234a-a445-5070-b087-531d16c42107</chapterId>
 

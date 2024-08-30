@@ -906,10 +906,10 @@ Vuoden 1796 pankkipaniikin jälkeen tapahtui ilmiö, jossa kaikki yrittivät sii
 Keskuspankit ovat kehittyneet viimeisenä lainanantajana toimiviksi tahoiksi, keskeyttäen valuuttansa vaihdettavuuden kultaan. Vaikka tämä toimenpide oli alun perin tarkoitettu väliaikaiseksi ratkaisuksi, se lopulta muuttui pysyväksi, merkiten viimeisen lainanantajan käsitteen syntyä. Tämä muutos on muovannut keskuspankkeja, kuten me ne tänään tunnemme. Kuitenkin herkemmissä talouksissa tämä kyky painaa rahaa mielin määrin voi johtaa ei-toivottuihin seurauksiin, kuten hyperinflaatioon, jos sitä käytetään vastuuttomasti.
 
 
-## Anna meille palautetta tästä kurssista
-<chapterId>6654099e-bd72-9183-9bf0-fefdc1c1e4c0</chapterId>
-<isCourseReview>true</isCourseReview>
 
+## Anna meille palautetta tästä kurssista
+<chapterId>1a37317e-372a-5241-b478-8316d44f9283</chapterId>
+<isCourseReview>true</isCourseReview>
 ## Kirjat ja Resurssit
 
 <chapterId>c44e4519-0741-527b-b3b0-3f513e87147d</chapterId>

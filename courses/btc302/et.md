@@ -1574,10 +1574,10 @@ Selle saavutamiseks alustame mitmete Prantsuse kogukondade kogemusest, kes on ju
 Loomulikult **erinevad teistes riikides seadusandlus ja ühingute toimimine**. Paljud punktid, siiski, on väga kasulikud ühingu loomiseks või suurürituse korraldamiseks; ja **loodame, et teised bitcoinid täiendavad seda koolitust viisil, mis on spetsiifiline nende riigile**.
 
 
-## Andke meile tagasisidet selle kursuse kohta
-<chapterId>fb00c4ff-0e37-70ae-59e6-ef10a08ec744</chapterId>
-<isCourseReview>true</isCourseReview>
 
+## Andke meile tagasisidet selle kursuse kohta
+<chapterId>08a35d2a-204b-519a-9bb1-588665a037fa</chapterId>
+<isCourseReview>true</isCourseReview>
 ## Hoolitse enda eest
 
 <chapterId>cf1631cb-ddbe-55c7-be8c-26a5652979a0</chapterId>

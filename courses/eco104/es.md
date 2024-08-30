@@ -1563,10 +1563,10 @@ Ahora que has pasado por el Módulo "Superando Dudas", tendrás que poner a prue
 <partId>204d7367-ae08-5348-98c8-8b74c6c1b261</partId>
 
 
-## Danos tu opinión sobre este curso
-<chapterId>5e4900cb-a7c2-d689-88a5-56afe69c1d9f</chapterId>
-<isCourseReview>true</isCourseReview>
 
+## Danos tu opinión sobre este curso
+<chapterId>86e358bb-88f4-5d20-af53-93f0f3524590</chapterId>
+<isCourseReview>true</isCourseReview>
 ## Comentarios de Cierre
 <chapterId>2b27b4dd-10e1-56a7-978e-1e5085f9aaff</chapterId>
 
@@ -1588,5 +1588,4 @@ A lo largo de nuestro viaje juntos, nuestro objetivo ha sido doble: proporcionar
 Al concluir este curso, esperamos que apliques el conocimiento adquirido aquí en tus empeños personales o profesionales. Ya sea que te encuentres navegando desafíos financieros, impulsado por la curiosidad, aspirando a invertir, o buscando aprovechar estas tecnologías para emprendimientos comerciales, esperamos que las valiosas perspectivas obtenidas de este curso se vuelvan invaluables en tu camino.
 
 ¡Que este nuevo entendimiento te empodere para navegar el mundo evolutivo de las finanzas con confianza y propósito! ¡La mejor de las suertes en tu camino de crecimiento y descubrimiento!
-
 ¡El Futuro es Brillante!

@@ -270,10 +270,10 @@ Die Gruppe Satoshi Fellowship präsentiert eine LN-Gaming-App mit LnBits und Mon
 Die Gruppe Lightning Walker präsentiert ihre Lösung für den Remittenzdienst unter Verwendung von MySQL, JavaScript und der ZDB-API.
 
 
-## Geben Sie uns Ihr Feedback zu diesem Kurs
-<chapterId>8765f77b-f65e-379d-87a9-40aa2cb96713</chapterId>
-<isCourseReview>true</isCourseReview>
 
+## Geben Sie uns Ihr Feedback zu diesem Kurs
+<chapterId>7f4f46e2-de71-5387-8609-9785fb9e5946</chapterId>
+<isCourseReview>true</isCourseReview>
 ## Danksagungen
 <chapterId>33cb95cf-91d1-555b-a33b-0e3bd6745c33</chapterId>
 

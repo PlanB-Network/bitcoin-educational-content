@@ -454,10 +454,10 @@ On myös huomattava, että Internet on erittäin keskitetty ja suurelta osin ame
 Osana "Security 101" -koulutusmoduulia Découvre Bitcoin Academyssa keskustelimme myös Lightning-autentikoinnista. Tämä järjestelmä luo erilaisen tunnisteen kullekin palvelulle, ilman että tarvitsee antaa sähköpostiosoitetta tai henkilökohtaisia tietoja. On mahdollista omistaa käyttäjän hallitsemia hajautettuja identiteettejä, mutta hajautettujen identiteettiprojektien standardoinnissa ja normalisoinnissa on puutteita. Paketinhallintajärjestelmiä, kuten Nuget ja Chocolaté, jotka mahdollistavat avoimen lähdekoodin ohjelmiston lataamisen Microsoft Storen ulkopuolelta, suositellaan välttämään haitallisia hyökkäyksiä. Yhteenvetona DNS on ratkaisevan tärkeä online-turvallisuudelle, mutta on välttämätöntä pysyä valppaana mahdollisten hyökkäysten varalta DNS-palvelimia vastaan.
 
 
-## Anna meille palautetta tästä kurssista
-<chapterId>1b62e1df-b421-b96e-deb0-3b0ba39db81a</chapterId>
-<isCourseReview>true</isCourseReview>
 
+## Anna meille palautetta tästä kurssista
+<chapterId>6be74d2d-2116-5386-9d92-c4c3e2103c68</chapterId>
+<isCourseReview>true</isCourseReview>
 ## Kiitokset ja jatka kaninkolon tutkimista
 <chapterId>df3a962a-a96e-5006-b904-0dd9d4a072dd</chapterId>
 

@@ -804,10 +804,10 @@ Một phương pháp mã hóa khác được sử dụng rộng rãi trên giao 
 ![video](https://youtu.be/c9MvtGJsEvY?si=bQ1N5NCd6op0G6nW)
 
 
-## Cho chúng tôi biết phản hồi của bạn về khóa học này
-<chapterId>d244dd7d-88c8-be4a-b3e8-0bcfdd745156</chapterId>
-<isCourseReview>true</isCourseReview>
 
+## Cho chúng tôi biết phản hồi của bạn về khóa học này
+<chapterId>0cd71541-a7fd-53db-b66a-8611b6a28b04</chapterId>
+<isCourseReview>true</isCourseReview>
 ## Kết luận và Kết thúc
 <chapterId>d291428b-3cfa-5394-930e-4b514be82d5a</chapterId>
 

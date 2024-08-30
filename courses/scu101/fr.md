@@ -484,10 +484,10 @@ Autres considérations clés
 Dans le cadre du module de formation "Sécurité 101" de Découvre Bitcoin sur l'Académie, nous avons également discuté de l'authentification Lightning. Ce système génère un identifiant différent par service, sans nécessité de renseigner une adresse email ou des informations personnelles. Il est possible d'avoir des identités décentralisées contrôlées par l'utilisateur, mais il manque de normalisation et de standardisation dans les projets d'identité décentralisée. Les gestionnaires de paquets tels que Nuget et Chocolaté, qui permettent de télécharger des logiciels open source en dehors du Microsoft Store, sont recommandés pour éviter les attaques malveillantes. En somme, le DNS est crucial pour la sécurité en ligne, mais il est nécessaire de rester vigilant face aux attaques potentielles sur les serveurs DNS.
 
 
-## Donnez-nous votre avis sur ce cours
-<chapterId>1b62e1df-b421-b96e-deb0-3b0ba39db81a</chapterId>
-<isCourseReview>true</isCourseReview>
 
+## Donnez-nous votre avis sur ce cours
+<chapterId>6be74d2d-2116-5386-9d92-c4c3e2103c68</chapterId>
+<isCourseReview>true</isCourseReview>
 ## Remerciements et continuez à creuser le terrier du lapin
 <chapterId>df3a962a-a96e-5006-b904-0dd9d4a072dd</chapterId>
 

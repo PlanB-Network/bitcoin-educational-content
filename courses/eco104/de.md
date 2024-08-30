@@ -1566,10 +1566,10 @@ Nachdem Sie das Modul "Zweifel überwinden" durchlaufen haben, müssen Sie Ihr n
 <partId>204d7367-ae08-5348-98c8-8b74c6c1b261</partId>
 
 
-## Geben Sie uns Ihr Feedback zu diesem Kurs
-<chapterId>5e4900cb-a7c2-d689-88a5-56afe69c1d9f</chapterId>
-<isCourseReview>true</isCourseReview>
 
+## Geben Sie uns Ihr Feedback zu diesem Kurs
+<chapterId>86e358bb-88f4-5d20-af53-93f0f3524590</chapterId>
+<isCourseReview>true</isCourseReview>
 ## Schlussbemerkungen
 <chapterId>2b27b4dd-10e1-56a7-978e-1e5085f9aaff</chapterId>
 
@@ -1591,5 +1591,4 @@ Auf unserer gemeinsamen Reise war unser Ziel zweifach: Ihnen ein tieferes Verst�
 Zum Abschluss dieses Kurses hoffen wir, dass Sie das hier erworbene Wissen auf Ihre persönlichen oder beruflichen Bestrebungen anwenden werden. Ob Sie sich finanziellen Herausforderungen stellen, aus Neugier getrieben sind, zu investieren beabsichtigen oder diese Technologien für geschäftliche Unternehmungen nutzen möchten, wir hoffen, dass die wertvollen Einblicke, die Sie aus diesem Kurs gewonnen haben, auf Ihrem Weg unschätzbar werden.
 
 Möge dieses neu gewonnene Verständnis Sie befähigen, die sich entwickelnde Welt der Finanzen mit Vertrauen und Zielstrebigkeit zu navigieren. Viel Glück auf Ihrem Weg des Wachstums und der Entdeckung!
-
 Die Zukunft ist hell!

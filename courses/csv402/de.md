@@ -111,10 +111,10 @@ Viel Glück bei Ihren Studien, und wenn Sie unser Team oder den Lehrer kontaktie
 <partId>b0baebfc-d146-5938-849a-f835fafb386f</partId>
 
 
-## Geben Sie uns Ihr Feedback zu diesem Kurs
-<chapterId>988b415c-4146-7bfe-9e8b-b3c0e0e1acf1</chapterId>
-<isCourseReview>true</isCourseReview>
 
+## Geben Sie uns Ihr Feedback zu diesem Kurs
+<chapterId>0217e8b0-942a-5fee-bd91-9a866551eff3</chapterId>
+<isCourseReview>true</isCourseReview>
 ## Abschließende Worte
 <chapterId>0309536d-c336-56a0-869e-a8395ed8d9ae</chapterId>
 

@@ -265,10 +265,10 @@ Satoshi Fellowshipi grupp esitleb LN mängurakendust, kasutades LnBitsi ja Mongo
 Lightning Walkeri grupp esitleb oma lahendust rahaülekannete teenusele, kasutades MySQL, JavaScripti ja ZDB API.
 
 
-## Andke meile tagasisidet selle kursuse kohta
-<chapterId>8765f77b-f65e-379d-87a9-40aa2cb96713</chapterId>
-<isCourseReview>true</isCourseReview>
 
+## Andke meile tagasisidet selle kursuse kohta
+<chapterId>7f4f46e2-de71-5387-8609-9785fb9e5946</chapterId>
+<isCourseReview>true</isCourseReview>
 ## Tunnustused
 <chapterId>33cb95cf-91d1-555b-a33b-0e3bd6745c33</chapterId>
 
@@ -282,5 +282,4 @@ Soovime tänada meie hariduspanustajaid:
 - asi0
 - Gabriel Comte
 Nende ekspertiis on olnud selle kursuse edu jaoks hindamatu. See on olnud esimene kursus, mis põhineb Cubo+ algatuse 1. väljaandel, toimunud juulis 2023. Täname kõiki osalejaid ja õpetajaid, et olite osa sellest uuenduslikust haridusteekonnast. See märgib algust sellele, mida loodame, saab olema pikk ja viljakas teekond Bitcoin'i arenduse maailma. Kuna te olete esimene kohort, on teie osalus seadnud standardi tulevastele klassidele.
-
 Jätkake uurimist, õppimist ja panustamist Bitcoin'i ökosüsteemi. Siin omandatud teadmised on vaid lähtepunkt. Jätkake küülikuurgu kaevamist ja avastate aina laieneva võimaluste maailma.

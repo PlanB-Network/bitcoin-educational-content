@@ -1336,10 +1336,10 @@ Per Hayek, l'instabilità passata dell'economia di mercato deriva dal fatto che 
 Hayek riteneva che un mercato libero di valute private avrebbe portato a una maggiore stabilità monetaria. Quasi 50 anni dopo, una criptovaluta come Bitcoin incarna la visione competitiva di Hayek offrendo un'alternativa decentralizzata al sistema monopolistico delle banche centrali. Bitcoin, con il suo limite di emissione di 21 milioni di unità, è una garanzia contro l'inflazione e l'arbitrarietà dei regolatori.
 
 
-## Dacci un feedback su questo corso
-<chapterId>2fff3034-4f7f-e855-066f-ae16556c248f</chapterId>
-<isCourseReview>true</isCourseReview>
 
+## Dacci un feedback su questo corso
+<chapterId>6759868f-749d-5fe7-bbb1-24f603e8b34e</chapterId>
+<isCourseReview>true</isCourseReview>
 ## Conclusione: il potere delle idee
 
 <chapterId>50676155-c071-5bee-a14e-0c251f0375da</chapterId>

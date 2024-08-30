@@ -136,10 +136,10 @@ Bonne chance dans vos études.
 <partId>aff1e861-e6a3-58ad-af6a-33ceaedbda99</partId>
 
 
-## Donnez-nous votre avis sur ce cours
-<chapterId>a1279272-6ffd-bcd1-d38a-3d0d502f00fd</chapterId>
-<isCourseReview>true</isCourseReview>
 
+## Donnez-nous votre avis sur ce cours
+<chapterId>9331e519-9e5c-5639-9d0d-055587d8ba4c</chapterId>
+<isCourseReview>true</isCourseReview>
 ## Mot de la fin
 <chapterId>d47b792e-d269-595b-9290-4788aba6e298</chapterId>
 

@@ -109,10 +109,10 @@ Semoga sukses dengan studi Anda, dan jika Anda perlu menghubungi tim kami atau g
 <partId>b0baebfc-d146-5938-849a-f835fafb386f</partId>
 
 
-## Beri kami umpan balik tentang kursus ini
-<chapterId>988b415c-4146-7bfe-9e8b-b3c0e0e1acf1</chapterId>
-<isCourseReview>true</isCourseReview>
 
+## Beri kami umpan balik tentang kursus ini
+<chapterId>0217e8b0-942a-5fee-bd91-9a866551eff3</chapterId>
+<isCourseReview>true</isCourseReview>
 ## Kata Penutup
 <chapterId>0309536d-c336-56a0-869e-a8395ed8d9ae</chapterId>
 
@@ -123,5 +123,4 @@ Terima kasih telah berpartisipasi dalam kursus RGB yang ditawarkan oleh PlanB Ne
 - https://rgb.tech/docs/
 - https://www.youtube.com/LNP-BP
 - https://twitter.com/lnp_bp
-
 Terima kasih dan semoga sukses dengan studi Anda di PlanB Network.

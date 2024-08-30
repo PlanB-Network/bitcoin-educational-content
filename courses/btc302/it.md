@@ -1308,10 +1308,10 @@ Per raggiungere questo obiettivo, inizieremo con l'esperienza di diverse comunit
 Naturalmente, **in altri paesi, la legislazione e il funzionamento delle associazioni sono diversi**. Tuttavia, molti punti saranno molto utili per creare un'associazione o organizzare un evento importante; e **speriamo che altri bitcoiner verranno a integrare questa formazione in modo specifico per il loro paese**.
 
 
-## Dacci un feedback su questo corso
-<chapterId>fb00c4ff-0e37-70ae-59e6-ef10a08ec744</chapterId>
-<isCourseReview>true</isCourseReview>
 
+## Dacci un feedback su questo corso
+<chapterId>08a35d2a-204b-519a-9bb1-588665a037fa</chapterId>
+<isCourseReview>true</isCourseReview>
 ## Prenditi Cura di Te Stesso
 <chapterId>cf1631cb-ddbe-55c7-be8c-26a5652979a0</chapterId>
 

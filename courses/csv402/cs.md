@@ -111,10 +111,10 @@ Hodně štěstí ve vašem studiu a pokud potřebujete kontaktovat náš tým ne
 <partId>b0baebfc-d146-5938-849a-f835fafb386f</partId>
 
 
-## Dejte nám zpětnou vazbu k tomuto kurzu
-<chapterId>988b415c-4146-7bfe-9e8b-b3c0e0e1acf1</chapterId>
-<isCourseReview>true</isCourseReview>
 
+## Dejte nám zpětnou vazbu k tomuto kurzu
+<chapterId>0217e8b0-942a-5fee-bd91-9a866551eff3</chapterId>
+<isCourseReview>true</isCourseReview>
 ## Závěrečné slovo
 <chapterId>0309536d-c336-56a0-869e-a8395ed8d9ae</chapterId>
 
@@ -124,5 +124,4 @@ Děkujeme za účast v kurzech RGB nabízených sítí PlanB ve spolupráci s Fu
 - https://www.rgbfaq.com/
 - https://rgb.tech/docs/
 - https://www.youtube.com/LNP-BP- https://twitter.com/lnp_bp
-
 Děkuji a přeji hodně štěstí ve vašem studiu na PlanB Network.

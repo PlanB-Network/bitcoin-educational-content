@@ -937,10 +937,10 @@ Após o pânico bancário de 1796, ocorreu um fenômeno em que todos buscavam su
 Os bancos centrais evoluíram para se tornarem emprestadores de última instância, suspendendo a conversibilidade de sua moeda em ouro. Embora essa ação tenha sido inicialmente concebida como uma solução temporária, acabou se tornando permanente, marcando assim o surgimento do conceito de emprestador de última instância. Essa transformação moldou os bancos centrais como os conhecemos hoje. No entanto, em economias mais frágeis, essa capacidade de imprimir dinheiro à vontade pode ter consequências indesejáveis, como a hiperinflação, se for usada de forma irresponsável.
 
 
-## Dê-nos seu feedback sobre este curso
-<chapterId>6654099e-bd72-9183-9bf0-fefdc1c1e4c0</chapterId>
-<isCourseReview>true</isCourseReview>
 
+## Dê-nos seu feedback sobre este curso
+<chapterId>1a37317e-372a-5241-b478-8316d44f9283</chapterId>
+<isCourseReview>true</isCourseReview>
 ## Livros e recursos
 <chapterId>c44e4519-0741-527b-b3b0-3f513e87147d</chapterId>
 

@@ -977,10 +977,10 @@ _(フランソワ・ケネ、重農主義の指導者)_
 <partId>3b62de5c-5d4a-5182-ab14-f7ef13c97e28</partId>
 
 
-## このコースについてのフィードバックをお寄せください
-<chapterId>9815fa10-e9be-5d7c-3d62-17e9631fc2b2</chapterId>
-<isCourseReview>true</isCourseReview>
 
+## このコースについてのフィードバックをお寄せください
+<chapterId>db20170d-ceb6-56cd-b4e5-c690942f8b29</chapterId>
+<isCourseReview>true</isCourseReview>
 ## フレデリック・バスティアの遺産
 
 <chapterId>2a2a181a-e477-5be1-ba1f-af59490c364e</chapterId>

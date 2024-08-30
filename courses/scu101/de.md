@@ -473,10 +473,10 @@ Weitere Schlüsselüberlegungen
 Im Rahmen des Lernmoduls "Sicherheit 101" von Entdecke Bitcoin auf der Akademie haben wir auch über die Lightning-Authentifizierung diskutiert. Dieses System generiert für jeden Dienst eine andere Kennung, ohne dass eine E-Mail-Adresse oder persönliche Informationen angegeben werden müssen. Es ist möglich, dezentralisierte Identitäten zu haben, die vom Benutzer kontrolliert werden, aber es fehlt an Normierung und Standardisierung in dezentralisierten Identitätsprojekten. Paketmanager wie Nuget und Chocolaté, die das Herunterladen von Open-Source-Software außerhalb des Microsoft Stores ermöglichen, werden empfohlen, um böswillige Angriffe zu verhindern. Zusammenfassend lässt sich sagen, dass das DNS für die Online-Sicherheit von entscheidender Bedeutung ist, aber es ist notwendig, wachsam gegenüber potenziellen Angriffen auf DNS-Server zu bleiben.
 
 
-## Geben Sie uns Ihr Feedback zu diesem Kurs
-<chapterId>1b62e1df-b421-b96e-deb0-3b0ba39db81a</chapterId>
-<isCourseReview>true</isCourseReview>
 
+## Geben Sie uns Ihr Feedback zu diesem Kurs
+<chapterId>6be74d2d-2116-5386-9d92-c4c3e2103c68</chapterId>
+<isCourseReview>true</isCourseReview>
 ## Danksagungen und graben Sie weiter im Kaninchenbau
 <chapterId>df3a962a-a96e-5006-b904-0dd9d4a072dd</chapterId>
 

@@ -1304,10 +1304,10 @@ K tomu využijeme zkušenosti několika francouzských komunit, které již své
 Samozřejmě **v jiných zemích se legislativa a fungování asociací liší**. Mnoho bodů však bude velmi užitečných pro založení asociace nebo organizaci velké akce; a **doufáme, že další bitcoinisté doplní toto školení o informace specifické pro jejich zemi**.
 
 
-## Dejte nám zpětnou vazbu k tomuto kurzu
-<chapterId>fb00c4ff-0e37-70ae-59e6-ef10a08ec744</chapterId>
-<isCourseReview>true</isCourseReview>
 
+## Dejte nám zpětnou vazbu k tomuto kurzu
+<chapterId>08a35d2a-204b-519a-9bb1-588665a037fa</chapterId>
+<isCourseReview>true</isCourseReview>
 ## Pečujte o sebe
 <chapterId>cf1631cb-ddbe-55c7-be8c-26a5652979a0</chapterId>
 
@@ -1325,5 +1325,4 @@ Naopak, **požádejte o pomoc bitcoinisty, kteří již touto stejnou galerií p
 
 ![image](assets/fr/chapter39/63.webp)
 Samostatně může člověk rychle prozkoumat jednu z mnoha galerií bitcoinové nory, až dosáhne jejího konce. Ale pak je tu cesta zpět. A poté všechny ostatní směry k prozkoumání. **Když však vytvoříte a/nebo se připojíte ke komunitě bitcoinistů, sdílíte a pravidelně si s nimi vyměňujete informace, prozkoumáte všechny směry bitcoinové nory současně**.
-
 Je to v té chvíli, kdy mnohem rychleji, než byste to udělali sami, můžete říci: "Bitcoinu jsem porozuměl".

@@ -1395,10 +1395,10 @@ Félicitations pour avoir terminé cette formation BTC 101 ! J'espère de tout c
 Ce cours, ainsi que l'intégralité du contenu présent sur cette université, vous a été offert gratuitement par notre communauté. Pour nous soutenir, vous pouvez le partager autour de vous, devenir membre de l'université et même contribuer à son développement via [notre GitHub](https://github.com/PlanB-Network/bitcoin-educational-content). Au nom de toute l'équipe, merci !
 
 
-## Donnez-nous votre avis sur ce cours
-<chapterId>6e0366eb-c77b-b52a-033a-b56d06342f70</chapterId>
-<isCourseReview>true</isCourseReview>
 
+## Donnez-nous votre avis sur ce cours
+<chapterId>585729e2-b0ab-51b5-89ec-593e3ea22c57</chapterId>
+<isCourseReview>true</isCourseReview>
 ## Note la formation
 <chapterId>44d01865-5c89-55a5-a397-a014960eec0f</chapterId>
 

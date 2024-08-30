@@ -1023,10 +1023,10 @@ Frédéric Bastiat đã viết trong một cuốn sách nhỏ có tựa đề Nh
 <partId>3b62de5c-5d4a-5182-ab14-f7ef13c97e28</partId>
 
 
-## Cho chúng tôi biết phản hồi của bạn về khóa học này
-<chapterId>9815fa10-e9be-5d7c-3d62-17e9631fc2b2</chapterId>
-<isCourseReview>true</isCourseReview>
 
+## Cho chúng tôi biết phản hồi của bạn về khóa học này
+<chapterId>db20170d-ceb6-56cd-b4e5-c690942f8b29</chapterId>
+<isCourseReview>true</isCourseReview>
 ## Di sản của Frédéric Bastiat
 
 <chapterId>2a2a181a-e477-5be1-ba1f-af59490c364e</chapterId>

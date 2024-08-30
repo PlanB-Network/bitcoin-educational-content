@@ -1488,10 +1488,6 @@ For Hayek, the past instability of the market economy results from the fact that
 Hayek believed that a free market of private currencies would lead to greater monetary stability. Nearly 50 years later, a cryptocurrency like Bitcoin embodies Hayek's competitive vision by offering a decentralized alternative to the monopolistic system of central banks. Bitcoin, with its emission limit of 21 million units, is a guarantee against inflation and the arbitrariness of regulators.
 
 
-## Give us some feedback about this course
-<chapterId>2fff3034-4f7f-e855-066f-ae16556c248f</chapterId>
-<isCourseReview>true</isCourseReview>
-
 ## Conclusion: the power of ideas
 
 <chapterId>50676155-c071-5bee-a14e-0c251f0375da</chapterId>

@@ -119,5 +119,4 @@ objectives:
 - https://rgb.tech/docs/
 - https://www.youtube.com/LNP-BP
 - https://twitter.com/lnp_bp
-
 感谢您，祝您在PlanB网络的学习之旅好运。

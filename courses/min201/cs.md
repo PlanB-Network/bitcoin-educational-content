@@ -702,10 +702,6 @@ Toto stanovuje horní limit pro hash rate, kterého může stroj dosáhnout. Aut
 Výsledkem je vyšší hash rate na watt elektrické energie, což znamená větší ziskové marže pro těžaře. Důvodem, proč stroje nejsou distribuovány s tímto typem softwaru, je to, že variabilita strojů je nežádoucí, protože zákazníci chtějí přesně vědět, co kupují, takže je špatný nápad, aby výrobci prodávali produkt, který nemá konzistentní a předvídatelný výkon z jednoho stroje na druhý. Kromě toho vyžaduje autotuning na úrovni čipů značné vývojové zdroje, jelikož je složité jej implementovat. Výrobci již vynakládají mnoho zdrojů na vývoj vlastních firmware. Existují softwarová řešení, která umožňují autotuning, jako například Braiins OS+. Kromě toho zlepšují výkon ASIC až o 20 %.
 
 
-## Dejte nám zpětnou vazbu k tomuto kurzu
-<chapterId>1faf65d4-22ae-40f8-44da-d5ef10bbb4be</chapterId>
-<isCourseReview>true</isCourseReview>
-
 ## Ovládání Antmineru S9 z vašeho smartphonu
 <chapterId>6e7c234a-a445-5070-b087-531d16c42107</chapterId>
 

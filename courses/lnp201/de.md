@@ -597,10 +597,6 @@ Für Händler ist es notwendig, Liquidität zu verwalten, um Zahlungen im Lightn
 Schließlich ist die Zukunft von Bitcoin vielversprechend, mit einer möglichen Projektion von einer Million in fünf Jahren. Um die Professionalisierung der Branche und die Schaffung eines alternativen Systems zum bestehenden Bankensystem zu gewährleisten, ist es wichtig, zum Netzwerk beizutragen und aufzuhören, zu vertrauen.
 
 
-## Geben Sie uns Ihr Feedback zu diesem Kurs
-<chapterId>ec4b0ae7-8b2d-9675-ce25-59bd9db754c8</chapterId>
-<isCourseReview>true</isCourseReview>
-
 ## Dankeschön und weiterhin den Kaninchenbau erkunden
 <chapterId>afc0d72b-4fbc-5893-90b2-e27fb519ad02</chapterId>
 

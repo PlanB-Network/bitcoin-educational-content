@@ -978,11 +978,6 @@ Olen todella ylpeä siitä, että olet saavuttanut tämän vaiheen. Tarkoitan si
 Joka tapauksessa kaikki kurssimme ovat ilmaisia, ja monia resursseja tai opetusohjelmia on saatavilla alustallamme saattamaan sinut matkallasi. Onnea opintoihisi!
 
 
-## Anna meille palautetta tästä kurssista
-<chapterId>387a1a92-7a16-d985-a861-0a84259dca6a</chapterId>
-<isCourseReview>true</isCourseReview>
-
 ## Seuranta
 <chapterId>b082b8eb-dabc-5d79-94cf-eb8f48fc1968</chapterId>
-
 Tämä kurssi, kuten kaikki tämän yliopiston tarjoama sisältö, on tarjottu sinulle maksutta yhteisömme toimesta. Tukemaan meitä, voit jakaa sen muiden kanssa, liittyä yliopiston jäseneksi ja jopa osallistua sen kehittämiseen GitHubin kautta. Koko tiimin puolesta, kiitos!

@@ -549,10 +549,6 @@ Tuy nhiên, quan trọng là phải lưu ý rằng các nút định tuyến Lig
 Cuối cùng, tương lai của Bitcoin hứa hẹn với một dự báo có thể đạt một triệu trong năm năm. Để đảm bảo sự chuyên nghiệp hóa của ngành và tạo ra một hệ thống thay thế cho hệ thống ngân hàng hiện tại, quan trọng là phải đóng góp cho mạng lưới và ngừng tin tưởng.
 
 
-## Cho chúng tôi biết phản hồi của bạn về khóa học này
-<chapterId>ec4b0ae7-8b2d-9675-ce25-59bd9db754c8</chapterId>
-<isCourseReview>true</isCourseReview>
-
 ## Lời cảm ơn và tiếp tục khám phá hố thỏ
 <chapterId>afc0d72b-4fbc-5893-90b2-e27fb519ad02</chapterId>
 
@@ -565,5 +561,4 @@ Trước hết, một lời cảm ơn lớn đến Fanis Makalakis vì đã cung
 Sau đó, nếu bạn muốn giúp đỡ dự án, đừng ngần ngại tài trợ cho chúng tôi trên Patreon. Quyên góp của bạn sẽ được sử dụng để sản xuất nội dung cho các khóa học mới và tất nhiên, bạn sẽ là người đầu tiên được thông báo (bao gồm cả khóa học tiếp theo của Fanis đang được thực hiện!).
 
 Cuộc phiêu lưu Mạng Lưới Lightning tiếp tục với khóa học Umbrel và việc triển khai một nút Mạng Lưới Lightning. Lý thuyết đã kết thúc và đã đến lúc thực hành với khóa học LN 202 bây giờ!
-Hôn và hẹn gặp lại bạn sớm!
-Rogzy
+RogzyHôn và hẹn gặp lại bạn sớm!

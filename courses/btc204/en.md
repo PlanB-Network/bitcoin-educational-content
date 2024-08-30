@@ -3627,10 +3627,6 @@ Since this feature is recent, it is advisable to exercise caution and avoid usin
 *To create this chapter on Silent Payments, I used [the Silent Payments explanation site](https://silentpayments.xyz/) and [the BIP352 explanation document](https://github.com/bitcoin/bips/blob/master/bip-0352.mediawiki).*
 
 
-## Give us some feedback about this course
-<chapterId>07855ef4-5a15-4e61-6537-13e14fc57843</chapterId>
-<isCourseReview>true</isCourseReview>
-
 ## Conclusion
 <chapterId>cd8e5c67-50e4-4dcd-8e04-88ba5ec95305</chapterId>
 

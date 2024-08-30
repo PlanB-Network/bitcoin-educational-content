@@ -976,11 +976,6 @@ Saya benar-benar bangga bahwa Anda telah mencapai tahap ini. Saya benar-benar be
 Dalam hal apapun, semua kursus kami gratis, dan banyak sumber daya atau tutorial tersedia di platform kami untuk menemani Anda. Semoga berhasil dengan studi Anda!
 
 
-## Beri kami umpan balik tentang kursus ini
-<chapterId>387a1a92-7a16-d985-a861-0a84259dca6a</chapterId>
-<isCourseReview>true</isCourseReview>
-
 ## Tindak Lanjut
 <chapterId>b082b8eb-dabc-5d79-94cf-eb8f48fc1968</chapterId>
-
 Kursus ini, serta seluruh konten yang tersedia di universitas ini, telah disediakan kepada Anda secara gratis oleh komunitas kami. Untuk mendukung kami, Anda dapat membagikannya dengan orang lain, menjadi anggota universitas, dan bahkan berkontribusi pada pengembangannya melalui GitHub. Atas nama seluruh tim, terima kasih!

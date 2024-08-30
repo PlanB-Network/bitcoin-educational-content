@@ -1405,10 +1405,6 @@ Hayeken mukaan markkinatalouden menneisyys epävakaus johtuu siitä, että markk
 Hayek uskoi, että yksityisten valuuttojen vapaa markkinatalous johtaisi suurempaan rahapoliittiseen vakauden. Lähes 50 vuotta myöhemmin kryptovaluutta, kuten Bitcoin, ilmentää Hayekin kilpailullista visiota tarjoten hajautetun vaihtoehdon keskuspankkien monopolistiselle järjestelmälle. Bitcoin, sen 21 miljoonan yksikön emissiorajalla, on takuu inflaatiota ja sääntelijöiden mielivaltaa vastaan.
 
 
-## Anna meille palautetta tästä kurssista
-<chapterId>2fff3034-4f7f-e855-066f-ae16556c248f</chapterId>
-<isCourseReview>true</isCourseReview>
-
 ## Johtopäätös: ideoiden voima
 
 <chapterId>50676155-c071-5bee-a14e-0c251f0375da</chapterId>

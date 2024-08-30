@@ -800,10 +800,6 @@ Toinen laajalti käytetty kryptografinen menetelmä Bitcoin-protokollassa on dig
 ![video](https://youtu.be/c9MvtGJsEvY?si=bQ1N5NCd6op0G6nW)
 
 
-## Anna meille palautetta tästä kurssista
-<chapterId>d244dd7d-88c8-be4a-b3e8-0bcfdd745156</chapterId>
-<isCourseReview>true</isCourseReview>
-
 ## Yhteenveto ja loppu
 <chapterId>d291428b-3cfa-5394-930e-4b514be82d5a</chapterId>
 
@@ -818,5 +814,4 @@ Katso tämä haastattelu jatkaaksesi kryptografian kiehtovan alueen tutkimista. 
 ### Tukemme
 Tämä kurssi, kuten kaikki tämän yliopiston sisältö, on tarjottu sinulle ilmaiseksi yhteisömme toimesta. Voit tukea meitä jakamalla sen muiden kanssa, liittymällä yliopiston jäseneksi ja jopa osallistumalla sen kehittämiseen GitHubin kautta. Koko tiimin puolesta, kiitos!
 ### Arvioi kurssi
-
 Koulutuksen arvostelujärjestelmä integroidaan pian tähän uuteen E-oppimisalustaan! Siihen asti, suurkiitokset kurssin suorittamisesta, ja jos pidit siitä, harkitse sen jakamista muiden kanssa.

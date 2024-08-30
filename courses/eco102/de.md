@@ -1013,10 +1013,6 @@ Schrieb Frédéric Bastiat in einer kurzen Broschüre mit dem Titel Der Staat.
 <partId>3b62de5c-5d4a-5182-ab14-f7ef13c97e28</partId>
 
 
-## Geben Sie uns Ihr Feedback zu diesem Kurs
-<chapterId>9815fa10-e9be-5d7c-3d62-17e9631fc2b2</chapterId>
-<isCourseReview>true</isCourseReview>
-
 ## Das Erbe von Frédéric Bastiat
 
 <chapterId>2a2a181a-e477-5be1-ba1f-af59490c364e</chapterId>
@@ -1047,5 +1043,4 @@ Aber wie Bastiat treffend demonstrierte, hat staatliches Eingreifen perverse Eff
 ![image](assets/image/20/IMG09.webp)
 Wenn wir die Dinge aus diesem Blickwinkel betrachten, erklärte Reagan den GE-Mitarbeitern, erscheinen die sogenannten Wunder der Staatsausgaben in einem völlig anderen Licht. Denn Steuern entmutigen die Produktion, und der durch öffentliche Ausgaben geschaffene Reichtum kann diejenigen, die durch die zur Finanzierung dieser Ausgaben erhobenen Steuern an der Entstehung gehindert wurden, nicht vollständig kompensieren.
 ![Bild](assets/image/20/IMG10.webp)
-
 Im Wesentlichen übernahm Reagan von Bastiat mehrere Schlüsselelemente einer liberalen Vision von Gesellschaft und Mensch: die Vorrangstellung der Zivilgesellschaft vor dem Staat, den Wert der Wahl und der individuellen Verantwortung, die Bedeutung des Unternehmers bei der Schaffung von Wohlstand, die Wichtigkeit eines flexiblen und minimalen rechtlichen Rahmens, der Vertrauen und Respekt für Verträge ermöglicht, das grundlegende Gesetz, dass Wohlstand geschaffen werden muss, bevor er verteilt werden kann, den Wunsch, jedem eine Chance auf wettbewerbsorientierten Märkten zu geben…

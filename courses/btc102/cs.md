@@ -975,11 +975,6 @@ Jsem opravdu hrdý, že jste dosáhli této fáze. Myslím to upřímně. Co dě
 V každém případě jsou všechny naše kurzy zdarma a na naší platformě je k dispozici mnoho zdrojů a tutoriálů, které vás mohou doprovázet. Hodně štěstí ve vašem studiu!
 
 
-## Dejte nám zpětnou vazbu k tomuto kurzu
-<chapterId>387a1a92-7a16-d985-a861-0a84259dca6a</chapterId>
-<isCourseReview>true</isCourseReview>
-
 ## Follow up
 <chapterId>b082b8eb-dabc-5d79-94cf-eb8f48fc1968</chapterId>
-
 Tento kurz, stejně jako veškerý obsah dostupný na této univerzitě, vám byl poskytnut zdarma naší komunitou. Abyste nás podpořili, můžete ho sdílet s ostatními, stát se členem univerzity a dokonce přispět k jejímu rozvoji prostřednictvím GitHubu. Jménem celého týmu vám děkujeme!

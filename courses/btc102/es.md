@@ -984,10 +984,6 @@ Realmente estoy orgulloso de que hayas alcanzado este punto. Lo digo sincerament
 En cualquier caso, todas nuestras formaciones siguen siendo gratuitas y hay muchos recursos o tutoriales disponibles en nuestra plataforma para acompañarte. ¡Buena suerte en tus estudios!
 
 
-## Danos tu opinión sobre este curso
-<chapterId>387a1a92-7a16-d985-a861-0a84259dca6a</chapterId>
-<isCourseReview>true</isCourseReview>
-
 ## ¡Apoya la formación!
 <chapterId>b082b8eb-dabc-5d79-94cf-eb8f48fc1968</chapterId>
 

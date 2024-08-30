@@ -2378,10 +2378,6 @@ Umbrelでの設定は、以前の2つのホスト型オプションとどのよ�
 <partId>d72e6fa5-0870-5f00-9143-9466ed22e2bd</partId>
 
 
-## このコースについてのフィードバックをお寄せください
-<chapterId>b7d7c8a7-ef23-bfa0-3618-26f5a7ea467d</chapterId>
-<isCourseReview>true</isCourseReview>
-
 ## コース結論
 
 <chapterId>c07ac2a5-f97e-5c57-8a80-4955b48128d4</chapterId>

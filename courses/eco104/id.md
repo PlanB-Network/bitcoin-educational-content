@@ -1622,10 +1622,6 @@ Sekarang setelah Anda melewati Modul "Mengatasi Keraguan", Anda harus menguji pe
 <partId>204d7367-ae08-5348-98c8-8b74c6c1b261</partId>
 
 
-## Beri kami umpan balik tentang kursus ini
-<chapterId>5e4900cb-a7c2-d689-88a5-56afe69c1d9f</chapterId>
-<isCourseReview>true</isCourseReview>
-
 ## Penutup
 
 <chapterId>2b27b4dd-10e1-56a7-978e-1e5085f9aaff</chapterId>

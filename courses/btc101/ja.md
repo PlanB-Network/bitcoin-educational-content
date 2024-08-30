@@ -1275,10 +1275,6 @@ BTC101コースの修了おめでとうございます！あなたがこのコ�
 このコースは、私たちのコミュニティによって無料で提供されています。私たちをサポートするために、他の人と共有したり、このサイトのメンバーになったり、[GitHub](https://github.com/PlanB-Network/bitcoin-educational-content)を通じて開発に貢献したりすることができます。チーム全員を代表して、心から感謝を申し上げます。ありがとう！
 
 
-## このコースについてのフィードバックをお寄せください
-<chapterId>6e0366eb-c77b-b52a-033a-b56d06342f70</chapterId>
-<isCourseReview>true</isCourseReview>
-
 ## トレーニングについての注意事項
 <chapterId>44d01865-5c89-55a5-a397-a014960eec0f</chapterId>
 

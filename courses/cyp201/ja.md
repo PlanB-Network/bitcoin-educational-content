@@ -790,10 +790,6 @@ Bitcoinプロトコルで広く使用されている暗号技術の方法の一�
 ![ビデオ](https://youtu.be/c9MvtGJsEvY?si=bQ1N5NCd6op0G6nW)
 
 
-## このコースについてのフィードバックをお寄せください
-<chapterId>d244dd7d-88c8-be4a-b3e8-0bcfdd745156</chapterId>
-<isCourseReview>true</isCourseReview>
-
 ## 結論と終わり
 <chapterId>d291428b-3cfa-5394-930e-4b514be82d5a</chapterId>
 

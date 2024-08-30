@@ -137,10 +137,6 @@ LNトスカーナイベントの第1週
 <partId>aff1e861-e6a3-58ad-af6a-33ceaedbda99</partId>
 
 
-## このコースについてのフィードバックをお寄せください
-<chapterId>a1279272-6ffd-bcd1-d38a-3d0d502f00fd</chapterId>
-<isCourseReview>true</isCourseReview>
-
 ## 締めの言葉
 <chapterId>d47b792e-d269-595b-9290-4788aba6e298</chapterId>
 
@@ -149,5 +145,4 @@ LNトスカーナイベントの第1週
 このセミナーからさらに学びたい場合は、このプラットフォームで利用可能なRGBコースに参加することをお勧めします。
 
 また、他のコースをチェックして、数多くのリソースから学習を続けることもできます。
-
 このコースを提供してくれたFulgur Ventureと、参加してくれた講師の皆さんに大きな感謝を申し上げます。

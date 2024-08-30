@@ -3458,10 +3458,6 @@ sp1qqvhjvsq2vz8zwrw372vuzle7472zup2ql3pz64yn5cpkw5ngv2n6jq4nl8cgm6zmu48yk3eq33ry
 *Для создания этой главы о Silent Payments я использовал [сайт с объяснением Silent Payments](https://silentpayments.xyz/) и [документ с объяснением BIP352](https://github.com/bitcoin/bips/blob/master/bip-0352.mediawiki).*
 
 
-## Оставьте отзыв о данном курсе
-<chapterId>07855ef4-5a15-4e61-6537-13e14fc57843</chapterId>
-<isCourseReview>true</isCourseReview>
-
 ## Заключение
 <chapterId>cd8e5c67-50e4-4dcd-8e04-88ba5ec95305</chapterId>
 

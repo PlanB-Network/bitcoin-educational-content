@@ -1951,10 +1951,6 @@ You can find a short description of the license [here](https://creativecommons.o
 You can find a complete version of the license [here](https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode). 
 
 
-## Give us some feedback about this course
-<chapterId>aa239ff3-e18f-b480-d74c-52e92c3c6301</chapterId>
-<isCourseReview>true</isCourseReview>
-
 ## Notation
 <chapterId>07250f8d-ad7c-5531-a70c-4417d6d1b865</chapterId>
 

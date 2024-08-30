@@ -756,10 +756,6 @@ Questo pone un limite superiore alla velocità di hashing che una macchina può 
 Il risultato finale è una velocità di hashing più elevata per watt di elettricità, il che significa margini di profitto più elevati per i minatori. La ragione per cui le macchine non vengono distribuite con questo tipo di software è che la varianza per macchina non è desiderabile, poiché i clienti vogliono sapere esattamente cosa stanno ottenendo ed è quindi una cattiva idea per i produttori vendere un prodotto che non ha prestazioni costanti e prevedibili da una macchina all'altra. Inoltre, l'autoregolazione del chip richiede considerevoli risorse di sviluppo, poiché è complessa da implementare. I produttori già spendono molte risorse per sviluppare i propri firmware. Ci sono soluzioni software che consentono di implementare l'autotuning, come Braiins OS+. Inoltre, migliora le prestazioni dell'ASIC fino al 20%.
 
 
-## Dacci un feedback su questo corso
-<chapterId>1faf65d4-22ae-40f8-44da-d5ef10bbb4be</chapterId>
-<isCourseReview>true</isCourseReview>
-
 ## Controllare un Antminer S9 dal proprio smartphone
 <chapterId>6e7c234a-a445-5070-b087-531d16c42107</chapterId>
 

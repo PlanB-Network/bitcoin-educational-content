@@ -265,10 +265,6 @@ Nhóm Học Bổng của Satoshi trình bày một ứng dụng trò chơi LN s�
 Nhóm Lightning Walker trình bày giải pháp của họ cho Dịch Vụ Chuyển Tiền sử dụng MySQL, JavaScript và API của ZDB.
 
 
-## Cho chúng tôi biết phản hồi của bạn về khóa học này
-<chapterId>8765f77b-f65e-379d-87a9-40aa2cb96713</chapterId>
-<isCourseReview>true</isCourseReview>
-
 ## Lời Cảm Ơn
 <chapterId>33cb95cf-91d1-555b-a33b-0e3bd6745c33</chapterId>
 
@@ -283,5 +279,4 @@ Chúng tôi muốn ghi nhận sự đóng góp của các giáo viên của chú
 - Gabriel Comte
 
 Chuyên môn của họ đã vô cùng quý báu cho sự thành công của khóa học này. Đây đã là khóa học đầu tiên dựa trên ấn bản đầu tiên của sáng kiến Cubo+, được tổ chức vào tháng 7 năm 2023. Cảm ơn tất cả các thành viên và giáo viên đã tham gia vào hành trình giáo dục tiên phong này. Điều này đánh dấu sự bắt đầu của những gì chúng tôi hy vọng sẽ là một hành trình dài và quảng đại vào thế giới phát triển Bitcoin. Là lớp đầu tiên, sự tham gia của các bạn đã thiết lập tiêu chuẩn cho các lớp học tương lai.
-
 Hãy tiếp tục khám phá, học hỏi và đóng góp cho hệ sinh thái Bitcoin. Kiến thức thu được ở đây chỉ là điểm khởi đầu. Tiếp tục đào sâu vào hố thỏ, và bạn sẽ khám phá ra một thế giới cơ hội ngày càng mở rộng.

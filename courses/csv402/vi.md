@@ -111,10 +111,6 @@ Chúc bạn may mắn với việc học của mình, và nếu bạn cần liê
 <partId>b0baebfc-d146-5938-849a-f835fafb386f</partId>
 
 
-## Cho chúng tôi biết phản hồi của bạn về khóa học này
-<chapterId>988b415c-4146-7bfe-9e8b-b3c0e0e1acf1</chapterId>
-<isCourseReview>true</isCourseReview>
-
 ## Lời kết
 <chapterId>0309536d-c336-56a0-869e-a8395ed8d9ae</chapterId>
 
@@ -125,5 +121,4 @@ Cảm ơn bạn đã tham gia các khóa học về RGB do Mạng lưới PlanB 
 - https://rgb.tech/docs/
 - https://www.youtube.com/LNP-BP
 - https://twitter.com/lnp_bp
-
 Cảm ơn bạn và chúc bạn may mắn với việc học tập tại Mạng lưới PlanB.

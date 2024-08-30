@@ -751,10 +751,6 @@ See seab ülemise piiri masina hashimiskiirusele. Autotuning on protsess, kus al
 Lõpptulemuseks on suurem hashimiskiirus vati kohta, mis tähendab kaevuritele suuremaid kasumimarginaale. Põhjus, miks masinaid ei jaotata sellise tarkvaraga, on see, et masinate varieeruvus on ebasoovitav, kuna kliendid soovivad täpselt teada, mida nad saavad, seega on tootjate jaoks halb mõte müüa toodet, millel ei ole ühelt masinalt teisele järjepidevat ja etteaimatavat jõudlust. Lisaks nõuab kiibi tasemel autotuning märkimisväärseid arendusressursse, kuna selle rakendamine on keeruline. Tootjad kulutavad juba palju ressursse oma püsivara arendamisele. On olemas tarkvaralahendusi, mis võimaldavad autotuningut, nagu näiteks Braiins OS+. Lisaks ASIC-i jõudluse parandamisele kuni 20%.
 
 
-## Andke meile tagasisidet selle kursuse kohta
-<chapterId>1faf65d4-22ae-40f8-44da-d5ef10bbb4be</chapterId>
-<isCourseReview>true</isCourseReview>
-
 ## Antminer S9 juhtimine oma nutitelefonist
 
 <chapterId>6e7c234a-a445-5070-b087-531d16c42107</chapterId>

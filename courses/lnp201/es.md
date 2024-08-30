@@ -620,10 +620,6 @@ Para los comerciantes, es necesario gestionar la liquidez para aceptar pagos en 
 Por último, el futuro de Bitcoin es prometedor con una posible proyección de un millón en cinco años. Para asegurar la profesionalización de la industria y la creación de un sistema alternativo al sistema bancario existente, es importante contribuir a la red y dejar de confiar.
 
 
-## Danos tu opinión sobre este curso
-<chapterId>ec4b0ae7-8b2d-9675-ce25-59bd9db754c8</chapterId>
-<isCourseReview>true</isCourseReview>
-
 ## Agradecimientos y sigue excavando la madriguera del conejo
 <chapterId>afc0d72b-4fbc-5893-90b2-e27fb519ad02</chapterId>
 

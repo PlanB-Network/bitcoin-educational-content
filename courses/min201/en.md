@@ -740,6 +740,11 @@ This puts an upper limit on the hash rate a machine can have. Autotuning is a pr
 
 The end result is a higher hash rate per watt of electricity, which means larger profit margins for miners. The reason why machines are not distributed with this type of software is that machine variance is undesirable, as customers want to know exactly what they are getting, so it is a bad idea for manufacturers to sell a product that does not have consistent and predictable performance from one machine to another. Additionally, chip-level autotuning requires considerable development resources, as it is complex to implement. Manufacturers already spend a lot of resources developing their own firmwares. There are software solutions that allow for autotuning, such as Braiins OS+. In addition to improving ASIC performance by up to 20%.
 
+
+
+## Give us some feedback about this course
+<chapterId>6af13742-df68-5cf4-b7aa-93dc0c2eaae9</chapterId>
+<isCourseReview>true</isCourseReview>
 ## Controlling an Antminer S9 from your smartphone
 <chapterId>6e7c234a-a445-5070-b087-531d16c42107</chapterId>
 

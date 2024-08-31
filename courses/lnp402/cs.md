@@ -137,6 +137,11 @@ Hodně štěstí ve studiu.
 # Závěr
 <partId>aff1e861-e6a3-58ad-af6a-33ceaedbda99</partId>
 
+
+
+## Dejte nám zpětnou vazbu k tomuto kurzu
+<chapterId>9331e519-9e5c-5639-9d0d-055587d8ba4c</chapterId>
+<isCourseReview>true</isCourseReview>
 ## Závěrečné slovo
 <chapterId>d47b792e-d269-595b-9290-4788aba6e298</chapterId>
 Děkujeme, že jste se zúčastnili tohoto kurzu! Doufáme, že se vám líbil.
@@ -144,5 +149,4 @@ Děkujeme, že jste se zúčastnili tohoto kurzu! Doufáme, že se vám líbil.
 Pokud chcete pokračovat ve vzdělávání z tohoto semináře, doporučujeme se zapojit do kurzů RGB dostupných na této platformě.
 
 Můžete také prozkoumat naše další kurzy a pokračovat ve studiu z našich mnoha zdrojů.
-
 Velké díky patří Fulgur Venture za nabídnutí tohoto kurzu a našim učitelům za jejich účast.

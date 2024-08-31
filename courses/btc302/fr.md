@@ -1419,6 +1419,11 @@ Pour ce faire, nous partirons de l'expérience de plusieurs communautés frança
 ####
 Bien évidemment, **dans d'autres pays, la législation et le fonctionnement associatif est différent**. De nombreux points seront cependant forts utiles à la création d'une association ou à l'organisation d'un événement d'envergure; et **nous espérons que d'autres bitcoiners viendront compléter cette formation de manière spécifique à leur pays**.
 
+
+
+## Donnez-nous votre avis sur ce cours
+<chapterId>08a35d2a-204b-519a-9bb1-588665a037fa</chapterId>
+<isCourseReview>true</isCourseReview>
 ## Faire attention à soi
 <chapterId>cf1631cb-ddbe-55c7-be8c-26a5652979a0</chapterId>
 

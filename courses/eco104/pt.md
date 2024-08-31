@@ -1554,6 +1554,11 @@ Agora que você passou pelo Módulo "Superando Dúvidas", terá que testar seu c
 # Observações Finais
 <partId>204d7367-ae08-5348-98c8-8b74c6c1b261</partId>
 
+
+
+## Dê-nos seu feedback sobre este curso
+<chapterId>86e358bb-88f4-5d20-af53-93f0f3524590</chapterId>
+<isCourseReview>true</isCourseReview>
 ## Observações Finais
 <chapterId>2b27b4dd-10e1-56a7-978e-1e5085f9aaff</chapterId>
 
@@ -1575,5 +1580,4 @@ Ao longo de nossa jornada juntos, nosso objetivo foi duplo: fornecer a você um 
 Ao concluirmos este curso, esperamos que você aplique o conhecimento adquirido aqui em seus empreendimentos pessoais ou profissionais. Seja você alguém navegando por desafios financeiros, movido pela curiosidade, aspirando a investir ou buscando aproveitar essas tecnologias para empreendimentos comerciais, esperamos que as valiosas percepções obtidas neste curso se tornem inestimáveis em sua jornada.
 
 Que este novo entendimento o empodere para navegar pelo mundo em evolução das finanças com confiança e propósito. Boa sorte em seu caminho de crescimento e descoberta!
-
 O Futuro é Brilhante!

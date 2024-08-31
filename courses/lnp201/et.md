@@ -608,6 +608,11 @@ Siiski on oluline märkida, et tulevikus võidakse Lightning'i marsruutimissõlm
 
 Lõpuks on Bitcoin'i tulevik lubav, võimaliku prognoosiga üks miljon viie aasta jooksul. Tööstuse professionaalsuse tagamiseks ja olemasoleva pangandussüsteemi alternatiivse süsteemi loomiseks on oluline panustada võrku ja lõpetada usaldamine.
 
+
+
+## Andke meile tagasisidet selle kursuse kohta
+<chapterId>38814c99-eb7b-5772-af49-4386ee2ce9b0</chapterId>
+<isCourseReview>true</isCourseReview>
 ## Tunnustused ja jätkake jäneseurgu uurimist
 
 <chapterId>afc0d72b-4fbc-5893-90b2-e27fb519ad02</chapterId>

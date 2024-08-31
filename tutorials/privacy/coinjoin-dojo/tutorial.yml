@@ -1,3 +1,4 @@
+id: c4b20263-5b30-4c74-ae59-dc8d0f8715c2
 builder: Dojo Samourai
 
 tags:
@@ -5,7 +6,7 @@ tags:
 - coinjoin
 - mix
 
-category: bitcoin
+category: on-chain
 
 level: advanced
 

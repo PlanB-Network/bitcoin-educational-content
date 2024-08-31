@@ -504,6 +504,11 @@ Metodologi adalah aspek penting dalam ekonomi dan dalam ilmu sosial pada umumnya
 
 # Kesimpulan
 <partId>ae828713-d133-559f-93c2-101cb5245fca</partId>
+
+
+## Beri kami umpan balik tentang kursus ini
+<chapterId>29d4323c-e34e-5834-bf03-2f3ed10d751b</chapterId>
+<isCourseReview>true</isCourseReview>
 ## Studi Lanjutan
 <chapterId>64faaed4-84b9-5b8c-9736-a959e8e6cd9d</chapterId>
 
@@ -539,5 +544,4 @@ Jika Anda ingin terus mendalami topik ekonomi Austria, saya sarankan beberapa wa
 - [Apakah Bitcoin itu kanan, kiri, atau anarkis?](https://youtu.be/4fXGxzLtIIw)
 - [Untuk menyelamatkan planet, tinggalkan dolar dan euro](https://youtu.be/iHagDlH4bf8)
 - [Mengapa kenaikan suku bunga tidak mungkin?](https://youtu.be/iHagDlH4bf8)
-
 Selain itu, lanjutkan pembelajaran Anda dengan pelatihan dan tutorial lain dari universitas!

@@ -1,3 +1,4 @@
+id: 087a0e49-61cd-41f5-8440-ac7b157bdd62
 builder: Payjoin - Sparrow Wallet
 
 tags:
@@ -6,7 +7,7 @@ tags:
 - P2EP
 - Sparrow
 
-category: bitcoin
+category: on-chain
 
 level: advanced
 

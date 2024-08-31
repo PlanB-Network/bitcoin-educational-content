@@ -4,13 +4,17 @@
 
 # en_word
 # Write the word in English. It will be the basis for identifying the word in the glossary.
-en_word: ACCOUNT
+en_word: COOL WORD
 
 # related_words
-# if there are further words related to this word, write them here
-# WIP: related specifications not yet available)
+# If there are existing words in glossary which are related to this word, it's possible to write them here, one per line.
+# Feel free to add as many related words as possible to enrich the glossary experience.
+# You have to use the en_word name of the words you want to relate.
+# E.g.: if you wan to relate the words https://planb.network/en/resources/word/yprv and https://planb.network/en/resources/word/extended-key 
+# you should use the following
 related_words:
-- DERIVATION PATH
+- XPRV
+- EXTENDED KEY
 
 # tags
 # List the associated tags to the word
@@ -30,7 +34,6 @@ original_language: fr
 # - urgency: level of urgency from 1 (low urgency) to X(high urgency)
 # - contributors_id: list of contributors PBN ids
 # - reward: amount of sats available for reward
-# - 
 proofreading:
   - language: en
     last_contribution_date:

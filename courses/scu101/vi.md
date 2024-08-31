@@ -493,6 +493,11 @@ Các phương án thay thế để chống lại quảng cáo xâm nhập bao g�
 
 Là một phần của mô-đun đào tạo "Bảo mật 101" tại Découvre Bitcoin Academy, chúng ta cũng đã thảo luận về xác thực Lightning. Hệ thống này tạo ra một định danh khác nhau cho mỗi dịch vụ, mà không cần cung cấp địa chỉ email hay thông tin cá nhân. Có thể có các danh tính phi tập trung do người dùng kiểm soát, nhưng đang thiếu sự tiêu chuẩn hóa trong các dự án danh tính phi tập trung. Các trình quản lý gói như Nuget và Chocolaté, cho phép tải xuống phần mềm mã nguồn mở ngoài Microsoft Store, được khuyến nghị dùng để tránh các cuộc tấn công độc hại. Tóm lại, DNS rất quan trọng cho bảo mật trực tuyến, nhưng cần phải luôn cảnh giác trước các cuộc tấn công tiềm năng vào máy chủ DNS.
 
+
+
+## Cho chúng tôi biết phản hồi của bạn về khóa học này
+<chapterId>6be74d2d-2116-5386-9d92-c4c3e2103c68</chapterId>
+<isCourseReview>true</isCourseReview>
 ## Lời cảm ơn và tiếp tục khám phá
 
 <chapterId>df3a962a-a96e-5006-b904-0dd9d4a072dd</chapterId>

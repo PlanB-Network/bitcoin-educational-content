@@ -105,7 +105,7 @@ def ask_yes_no_question(question):
         response = input(question+" [y/n]: ").strip().lower()
         if response in ['y', 'n']:
             return response
-        else:
+        else
             print("Please enter 'y' for yes or 'n' for no.")
 
 def update_proofreading(root_dir, specific_files):
@@ -133,8 +133,21 @@ def update_proofreading(root_dir, specific_files):
                 
                 if os.path.isfile(language_file_path_yml) or os.path.isfile(language_file_path_md):
                     if not check_language_existence(data, language):
-                        print(f"Proofreading section missing for {language} in {dirpath}")
+                        print(f"Proofreading section missing for {language}")
                         missing_proofreading_section = True
+                        # Add the proofreading section at the end of the YAML file
+                        proofreading_section = (
+                            f"  - language: {language}\n"
+                            f"    last_contribution_date:\n"
+                            f"    urgency: 1\n"
+                            f"    contributors_id:\n"
+                            f"    reward:\n"
+                        )
+
+                        with open(yml_filepath, 'a', encoding='utf-8') as file:
+                            file.write(proofreading_section)
+                        
+                        update_proofreading_reward(yml_filepath, language)
 
             if not missing_proofreading_section:
                 print(f"Everything updated in {dirpath}")

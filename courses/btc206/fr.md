@@ -24,6 +24,26 @@ Ce qui est partagé ici est une synthèse de mes connaissances et de mes expéri
 
 # I/ Introduction
 
+Ordinals a été proposé par Casey Rodarmor[^0].
+
+<!--Transcript depuis [Casey Rodarmor - From Ordinals to Runes: Meet Bitcoin’s Most Controversial Dev](https://www.youtube.com/watch?v=sqfCarDdXPM) :-->
+
+Casey a quitté l'école à 15 ans pour aller travailler dans des petits boulots. A 21 ans il découvre la programmation et veut en faire son métier. Il rattrape ses dernières années dans un [collège communautaire](https://fr.wikipedia.org/wiki/Coll%C3%A8ge_communautaire) avant d'intégrer Berkeley en Sciences de l'Informatique (Computer sciences). Il poursuit chez Google comme Ingénieur Fiabilité sur site ([Site Reliability Engineering](https://fr.wikipedia.org/wiki/Site_Reliability_Engineering)) puis rejoint l'équipe de [Chaincode Labs](https://chaincode.com/) en 2015. Chez Chaincode Labs il a maintenu Bitcoin core en réalisant des petites missions: nettoyage de certains PRs (Pull Requests), remaniement d'une partie des tests, et d'autres taches de maintenance. 
+
+En 2019, il découvre [Art Blocks | Generative digital art](https://www.artblocks.io/), qui publie et promeut l'art géneratif. Fasciné par cet algorithmisation de l'art, il veut en faire. En se lancant dans *"les NFTs"* il voit les défaillances voir le non-sens informatique de devoir déployer un contrat pour écrire une URL renvoyant vers un lien IPFS (ou autres) stockant le JPEG. Il lui semble évident qu'il faut l'écrire on-chain. En tant que Bitcoin maximalist[^1], il développe alors un outil qui permettrait de faire ceci : écrire concrétement l'image sur Bitcoin. 
+
+C'est alors que né **Ordinals**. 
+
+Pour plus de détails sur la vie de Casey (et son avis) vous pouvez consulter: 
+[Casey Rodarmor's Resume](https://rodarmor.com/resume/index.html).
+[Casey Rodarmor - From Ordinals to Runes: Meet Bitcoin’s Most Controversial Dev](https://www.youtube.com/watch?v=sqfCarDdXPM)
+
+Le protocole Oridnals a connu sa première inscription le 14 décembre 2022 [Inscription #0](https://ordiscan.com/inscription/0).
+
+Ordinals est un protocole qui permet d'inscrire facilement des données sur Bitcoin et de les retrouver. 
+
+Dans *L'élégance de Bitcoin* (Les contrats autonomes, l'inscription de données arbitraires et métaprotocoles pp.332-340), **Ludovic Lars** retrouve des trésors cachés dans Bitcoin comme l'hommage à Len Sassaman en art ASCII ![hommage_len](./assets/hommage_len.jpg) [source image](https://hellotoken.io/dordinals/) et bien d'autres[^1]. 
+
 Ordinals a été proposé par Casey Rodarmor ([Casey (@rodarmor) | Twitter](https://twitter.com/rodarmor/), [R O D A R M O R](https://rodarmor.com/), [casey (Casey Rodarmor) | Github](https://github.com/casey/)). 
 En 2015, il travailla activement sur Bitcoin Core où il réalisa une série de mises-à-jours et le remaniement d'une partie des tests de Bitcoin Core ([Casey Rodarmor's Resume](https://rodarmor.com/resume/index.html)). Il fit cela en tant que développeur pour ChainCode Labs ([Chaincode Labs](https://chaincode.com/)).
 Le protocole Oridnals a connu sa première inscription le 14 décembre 2022 [Inscription #0](https://ordiscan.com/inscription/0).
@@ -344,6 +364,10 @@ Comme parlé précédemment brc-20, cbrc-20,… applique le principe du : premie
 Un projet important à mentionner est : 
 **Taproot Wizard** 🧙 
 Histoire et indexation des informations. 
+
+[^0]: ([Casey (@rodarmor) | Twitter](https://twitter.com/rodarmor/), [R O D A R M O R](https://rodarmor.com/), [casey (Casey Rodarmor) | Github](https://github.com/casey/))
+
+[^1]: Bitcoin maxi 
 
 [^1]: Pour un peu d'histoire cypherpunk : [Len Sassaman and Satoshi: a Cypherpunk history | Medium](https://evanhatch.medium.com/len-sassaman-and-satoshi-e483c85c2b10).
 

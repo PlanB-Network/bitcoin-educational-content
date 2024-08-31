@@ -147,9 +147,10 @@ def update_proofreading(root_dir, specific_files):
                         with open(yml_filepath, 'a', encoding='utf-8') as file:
                             file.write(proofreading_section)
                         
-                        update_proofreading_reward(yml_filepath, language)
                         print(f"Proofreading section added for {language}")
                         print()
+
+                    update_proofreading_reward(yml_filepath, language)
 
             if not missing_proofreading_section:
                 print(f"Everything updated in {dirpath}")

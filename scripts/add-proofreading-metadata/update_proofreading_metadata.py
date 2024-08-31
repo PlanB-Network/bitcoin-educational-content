@@ -63,7 +63,7 @@ def add_new_contribution_to(content_path):
     if new_contribution == 'y':
         contributor_id = input("Enter the github username of the contributor: ")
         add_proofreading_contributor(data, selected_language, contributor_id) 
-        update_yml_data(content_path, data)
+        update_yml_data(file_path, data)
         print(f"{contributor_id} added a new proofreader of {content_name} in {selected_language}")
         reward = get_proofreading_property(data, selected_language, 'reward')
         print(f"{contributor_id} has won {reward} sats for that proofreading")
@@ -82,8 +82,8 @@ def add_new_contribution_to(content_path):
             except ValueError:
                 print("Please enter a valid integer.")
         update_proofreading_inline_property(data, selected_language, 'urgency', new_urgency)    
-
-    update_proofreading_reward(file_path, selected_language)
+    evaluated_reward = evaluate_proofreading_reward(file_path, selected_language)
+    update_proofreading_reward(file_path, selected_language, evaluated_reward)
 
     data = get_yml_content(file_path)
     reward = get_proofreading_property(data, selected_language, 'reward')
@@ -98,6 +98,7 @@ def add_new_contribution_to(content_path):
 
 def ask_yes_no_question(question):
     while True:
+        print()
         response = input(question+" [y/n]: ").strip().lower()
         if response in ['y', 'n']:
             return response
@@ -195,7 +196,7 @@ def main():
         else:
             break
 
-    update_proofreading(root_directory, specific_files)
+    # update_proofreading(root_directory, specific_files)
     while True:
         question = "Do you want to modify a proofreading section of a content? (new contributor or urgency change)"
         user_response = ask_yes_no_question(question)

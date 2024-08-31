@@ -184,6 +184,5 @@ def add_proofreading_contributor(data, language, contributor_id):
                 entry['contributors_id'] = []
 
             entry['contributors_id'].append(contributor_id)
-            print('added')
             break
     

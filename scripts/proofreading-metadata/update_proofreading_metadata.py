@@ -1,5 +1,6 @@
 import os
 import inquirer
+from tqdm import tqdm
 from proofreading import *
 
 def get_subfolder_choices(root_directory):
@@ -64,7 +65,7 @@ def add_new_contribution_to(content_path):
         contributor_id = input("Enter the github username of the contributor: ")
         add_proofreading_contributor(data, selected_language, contributor_id) 
         update_yml_data(file_path, data)
-        print(f"{contributor_id} added a new proofreader of {content_name} in {selected_language}")
+        print(f"{contributor_id} added as new proofreader of {content_name} in {selected_language}")
         reward = get_proofreading_property(data, selected_language, 'reward')
         print(f"{contributor_id} has won {reward} sats for that proofreading")
     
@@ -107,65 +108,62 @@ def ask_yes_no_question(question):
 
 def update_proofreading(root_dir, specific_files):
     print('Automatic Update for Proofreading section in progress...')
-
+    
     full_update_question = "Do you want to check all the rewards? (NB. long process)"
     full_reward_update = ask_yes_no_question(full_update_question)
 
+    # Gather all directories and files to process
+    all_dirs = []
     for dirpath, dirnames, filenames in os.walk(root_dir):
-        
         dirnames[:] = [d for d in dirnames if d != 'docs']
-        translated_content = [f for f in filenames if f in specific_files]
-        
-        if translated_content:
-            print()
-            print(f"Checking for {dirpath}")
-            missing_proofreading_section = False
-            yml_filepath = get_existing_file_path(dirpath, specific_files)
-            data = get_yml_content(yml_filepath)  
-            existing_languages = get_language_list_for_content(dirpath)
+        if any(f in filenames for f in specific_files):
+            all_dirs.append((dirpath, [f for f in filenames if f in specific_files]))
 
-            for language in existing_languages:
-                language_file_yml = f'{language}.yml'
-                language_file_md = f'{language}.md'
+    progress_bar = tqdm(total=len(all_dirs), desc="Updating Proofreading", unit="file")
 
-                language_file_path_yml = os.path.join(dirpath, language_file_yml)
-                language_file_path_md = os.path.join(dirpath, language_file_md)
+    for dirpath, translated_content in all_dirs:
+        missing_proofreading_section = False
+        yml_filepath = get_existing_file_path(dirpath, specific_files)
+        data = get_yml_content(yml_filepath)
+        existing_languages = get_language_list_for_content(dirpath)
+
+        for language in existing_languages:
+            language_file_yml = f'{language}.yml'
+            language_file_md = f'{language}.md'
+
+            language_file_path_yml = os.path.join(dirpath, language_file_yml)
+            language_file_path_md = os.path.join(dirpath, language_file_md)
+
+            if os.path.isfile(language_file_path_yml) or os.path.isfile(language_file_path_md):
                 
-                if os.path.isfile(language_file_path_yml) or os.path.isfile(language_file_path_md):
-                    
-                    reward_already_update = False
-                    if not check_language_existence(data, language):
-                        print(f"Proofreading section missing for {language}")
-                        missing_proofreading_section = True
-                        proofreading_section = (
-                            f"  - language: {language}\n"
-                            f"    last_contribution_date:\n"
-                            f"    urgency: 1\n"
-                            f"    contributors_id:\n"
-                            f"    reward:\n"
-                        )
+                reward_already_update = False
+                if not check_language_existence(data, language):
+                    missing_proofreading_section = True
+                    proofreading_section = (
+                        f"  - language: {language}\n"
+                        f"    last_contribution_date:\n"
+                        f"    urgency: 1\n"
+                        f"    contributors_id:\n"
+                        f"    reward:\n"
+                    )
 
-                        with open(yml_filepath, 'a', encoding='utf-8') as file:
-                            file.write(proofreading_section)
-                        
+                    with open(yml_filepath, 'a', encoding='utf-8') as file:
+                        file.write(proofreading_section)
 
-                        evaluated_reward = evaluate_proofreading_reward(yml_filepath, language)
+                    evaluated_reward = evaluate_proofreading_reward(yml_filepath, language)
+                    update_proofreading_reward(yml_filepath, language, evaluated_reward)
+                    reward_already_update = True
+
+                if full_reward_update == 'y' and not reward_already_update:
+                    current_reward = get_proofreading_property(data, language, 'reward')
+                    evaluated_reward = evaluate_proofreading_reward(yml_filepath, language)
+                    if current_reward != evaluated_reward:
                         update_proofreading_reward(yml_filepath, language, evaluated_reward)
-                        print(f"Proofreading section added for {language}")
-                        reward_already_update = True
-                        print()
 
-                    if full_reward_update == 'y' and not reward_already_update:
-                        current_reward = get_proofreading_property(data, language, 'reward')
-                        evaluated_reward = evaluate_proofreading_reward(yml_filepath, language)
-                        if current_reward != evaluated_reward:
-                            update_proofreading_reward(yml_filepath, language, evaluated_reward)
+        progress_bar.update(1)
 
-            if not missing_proofreading_section:
-                print(f"Everything updated in {dirpath}")
-
+    progress_bar.close()
     print('Automatic update done!')
-
 
 def add_new_supported_language(code_language, language_difficulty):
     try:
@@ -196,7 +194,7 @@ def main():
         else:
             break
 
-    # update_proofreading(root_directory, specific_files)
+    update_proofreading(root_directory, specific_files)
     while True:
         question = "Do you want to modify a proofreading section of a content? (new contributor or urgency change)"
         user_response = ask_yes_no_question(question)

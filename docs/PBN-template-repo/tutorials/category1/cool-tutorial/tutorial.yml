@@ -2,14 +2,14 @@
 
 # Builder
 # Write the builder name
-builder: Bisq
+builder: Cool tutorial
 
 # Level
 # Level can be one of following:
 # - beginner
 # - intermediate
 # - advanced
-level: beginner
+level: intermediate
 
 # Category
 # Category can be choosen from the following list:
@@ -37,7 +37,7 @@ level: beginner
 # └── OTHERS/
 #     ├── General
 #     └── Contribution
-category: peer-to-peer
+category: backup
 
 # Tags
 # List the associated tags to the tutorial

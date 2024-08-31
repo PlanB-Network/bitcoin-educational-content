@@ -129,7 +129,7 @@ def is_original(data, language):
 def update_proofreading_reward(file_path, language):
     data = get_yml_content(file_path)
     words = get_words(file_path)
-    difficulty_factor = get_difficulty_factor(file_path)
+    difficulty_factor = get_difficulty_factor(data)
 
     language_factors = load_supported_languages()
     language_factor = language_factors[language]

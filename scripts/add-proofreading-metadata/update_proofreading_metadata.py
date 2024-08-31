@@ -108,8 +108,37 @@ def ask_yes_no_question(question):
         else:
             print("Please enter 'y' for yes or 'n' for no.")
 
-def update_proofreading():
+def update_proofreading(root_dir, specific_files):
     print('Automatic Update for Proofreading section in progress...')
+
+    for dirpath, dirnames, filenames in os.walk(root_dir):
+        
+        dirnames[:] = [d for d in dirnames if d != 'docs']
+        translated_content = [f for f in filenames if f in specific_files]
+        
+        if translated_content:
+            print()
+            print(f"Checking for {dirpath}")
+            missing_proofreading_section = False
+            yml_filepath = get_existing_file_path(dirpath, specific_files)
+            data = get_yml_content(yml_filepath)  
+            existing_languages = get_language_list_for_content(dirpath)
+
+            for language in existing_languages:
+                language_file_yml = f'{language}.yml'
+                language_file_md = f'{language}.md'
+
+                language_file_path_yml = os.path.join(dirpath, language_file_yml)
+                language_file_path_md = os.path.join(dirpath, language_file_md)
+                
+                if os.path.isfile(language_file_path_yml) or os.path.isfile(language_file_path_md):
+                    if not check_language_existence(data, language):
+                        print(f"Proofreading section missing for {language} in {dirpath}")
+                        missing_proofreading_section = True
+
+            if not missing_proofreading_section:
+                print(f"Everything updated in {dirpath}")
+
     print('Automatic update done!')
 
 
@@ -144,7 +173,7 @@ def main():
         else:
             break
 
-    update_proofreading()
+    update_proofreading(root_directory, specific_files)
     # while True:
     #     question = "Do you want to modify a proofreading section of a content? (new contributor or urgency change)"
     #     user_response = ask_yes_no_question(question)

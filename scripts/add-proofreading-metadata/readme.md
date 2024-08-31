@@ -36,6 +36,7 @@ author: asi0
   - [ ] function: add new language section for update process
     - hypothesis: for any new content there is ALWAYS at least the proofreading section in the original language with the author mentionned as the first proofreading
     - hypothesis 2: only check for code language present is a dictionnary with the associated language difficulty factor
+    - hypothesis 3: we consider that the `supported_languages.yml` is up-to-date.
     - this allows us to reduce the update process to a single case : check if {code_language}.yml or md does the code language is listed in the proofreading section
     - if so go on
     - otherwise

@@ -2,8 +2,8 @@ id: c9826fd9-c2b4-4d1e-8c78-809122de1654
 builder: Nerd miner
 
 tags:
-- mining
-- do it yourself
+  - mining
+  - do it yourself
 
 level: intermediate
 
@@ -26,7 +26,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 2421
+    reward: 4842
   - language: es
     last_contribution_date:
     urgency: 1
@@ -67,3 +67,18 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 9526
+  - language: et
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 7184
+  - language: id
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 8355
+  - language: zh-Hans
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 8355

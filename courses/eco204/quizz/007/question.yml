@@ -3,8 +3,8 @@ difficulty: hard
 duration: 45
 author: DecouvreBitcoin
 tags:
-- Inflation
-- Price Increase
+  - Inflation
+  - Price Increase
 
 # Proofreading metadata
 original_language: en
@@ -23,7 +23,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 1332
+    reward: 2665
   - language: es
     last_contribution_date:
     urgency: 1

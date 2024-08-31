@@ -2,10 +2,10 @@ id: 31d96647-029b-43e8-9fb5-95ec5dde72b0
 builder: Samouraï
 
 tags:
-- node
-- privacy
-- whirlpool
-- Coinjoin
+  - node
+  - privacy
+  - whirlpool
+  - Coinjoin
 
 category: bitcoin
 
@@ -32,7 +32,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 9783
+    reward: 19567
   - language: es
     last_contribution_date:
     urgency: 1
@@ -73,3 +73,18 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 53701
+  - language: et
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 36634
+  - language: id
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 45167
+  - language: zh-Hans
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 45167

@@ -3,8 +3,8 @@ difficulty: easy
 duration: 15
 author: DecouvreBitcoin
 tags:
-- 2FA
-- Online security
+  - 2FA
+  - Online security
 
 # Proofreading metadata
 original_language: en
@@ -23,7 +23,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 1270
+    reward: 2540
   - language: es
     last_contribution_date:
     urgency: 1

@@ -6,9 +6,9 @@ credits:
   link: https://grunch.dev/blog/
 
 tags:
-- node
-- privacy
-- infrastructure
+  - node
+  - privacy
+  - infrastructure
 
 category: rgb
 
@@ -31,7 +31,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 6272
+    reward: 12544
   - language: es
     last_contribution_date:
     urgency: 1
@@ -72,3 +72,18 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 32632
+  - language: et
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 22588
+  - language: id
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 27610
+  - language: zh-Hans
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 27610

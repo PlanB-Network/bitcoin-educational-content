@@ -3,9 +3,9 @@ difficulty: intermediate
 duration: 30
 author: DecouvreBitcoin
 tags:
-- Central Banks
-- Financial Crises
-- Banking
+  - Central Banks
+  - Financial Crises
+  - Banking
 
 # Proofreading metadata
 original_language: en
@@ -24,7 +24,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 1322
+    reward: 2645
   - language: es
     last_contribution_date:
     urgency: 1

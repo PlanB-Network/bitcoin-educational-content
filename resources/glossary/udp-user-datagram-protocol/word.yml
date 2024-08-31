@@ -1,8 +1,8 @@
 en_word: UDP (USER DATAGRAM PROTOCOL)
 related_words:
-- FIBRE
+  - FIBRE
 tags:
-- ''
+  - ''
 
 # Proofreading metadata
 original_language: fr
@@ -16,4 +16,4 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 1292
+    reward: 2584

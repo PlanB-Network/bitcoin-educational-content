@@ -1,8 +1,8 @@
 author: "Murray Rothbard"
 level: intermediate
 tags:
-- history
-- economy
+  - history
+  - economy
 
 # Proofreading metadata
 original_language: en
@@ -21,7 +21,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 1362
+    reward: 2724
   - language: es
     last_contribution_date:
     urgency: 1
@@ -62,3 +62,18 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 3172
+  - language: id
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 3060
+  - language: zh-Hans
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 3060
+  - language: et
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2948

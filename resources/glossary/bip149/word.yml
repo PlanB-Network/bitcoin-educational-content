@@ -1,14 +1,14 @@
 en_word: BIP149
 related_words:
-- BIP8
-- BIP9
-- BIP91
-- BIP148
-- UASF
-- MASF
-- ACTIVATION METHOD
+  - BIP8
+  - BIP9
+  - BIP91
+  - BIP148
+  - UASF
+  - MASF
+  - ACTIVATION METHOD
 tags:
-- ''
+  - ''
 
 # Proofreading metadata
 original_language: fr
@@ -22,4 +22,4 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 1386
+    reward: 2773

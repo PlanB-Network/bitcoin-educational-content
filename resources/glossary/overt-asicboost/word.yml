@@ -1,9 +1,9 @@
 en_word: OVERT ASICBOOST
 related_words:
-- ASICBOOST
-- COVERT ASICBOOST
+  - ASICBOOST
+  - COVERT ASICBOOST
 tags:
-- ''
+  - ''
 
 # Proofreading metadata
 original_language: fr
@@ -17,4 +17,4 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 1299
+    reward: 2599

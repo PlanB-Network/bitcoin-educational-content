@@ -4,9 +4,9 @@ links:
   twitter: https://twitter.com/River
 
 tags:
-- education
-- development
-- privact
+  - education
+  - development
+  - privact
 
 category: infrastructure
 
@@ -27,7 +27,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 1267
+    reward: 2534
   - language: es
     last_contribution_date:
     urgency: 1
@@ -68,3 +68,18 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 2602
+  - language: id
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2585
+  - language: zh-Hans
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2585
+  - language: et
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2568

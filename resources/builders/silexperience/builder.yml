@@ -6,8 +6,8 @@ links:
 category: manufacturer
 
 tags:
-- 3D printed
-- Art
+  - 3D printed
+  - Art
 
 # Proofreading metadata
 original_language: en
@@ -26,7 +26,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 1258
+    reward: 2517
   - language: es
     last_contribution_date:
     urgency: 1
@@ -67,3 +67,18 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 2551
+  - language: id
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2542
+  - language: zh-Hans
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2542
+  - language: et
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2534

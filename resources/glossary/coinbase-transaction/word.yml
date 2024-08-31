@@ -1,8 +1,8 @@
 en_word: COINBASE (TRANSACTION)
 related_words:
-- MATURITY PERIOD
+  - MATURITY PERIOD
 tags:
-- ''
+  - ''
 
 # Proofreading metadata
 original_language: fr
@@ -16,4 +16,4 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 1391
+    reward: 2783

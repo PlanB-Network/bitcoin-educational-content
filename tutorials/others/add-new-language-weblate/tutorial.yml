@@ -2,8 +2,8 @@ id: eef2f5c0-1aba-48a3-b8f0-a57feb761d86
 builder: PlanB Contribution
 
 tags:
-- Weblate
-- PlanB Network
+  - Weblate
+  - PlanB Network
 
 category: contribution
 
@@ -44,7 +44,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 1544
+    reward: 3088
   - language: it
     last_contribution_date:
     urgency: 1
@@ -70,3 +70,18 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 4264
+  - language: et
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 3676
+  - language: id
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 3970
+  - language: zh-Hans
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 3970

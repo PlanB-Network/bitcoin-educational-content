@@ -4,9 +4,9 @@ links:
   website: https://www.walletofsatoshi.com/
   twitter: https://twitter.com/walletofsatoshi
 tags:
-- custodial
-- bitcoin-only
-- LN wallet
+  - custodial
+  - bitcoin-only
+  - LN wallet
 
 category: Wallet
 
@@ -27,7 +27,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 1256
+    reward: 2512
   - language: es
     last_contribution_date:
     urgency: 1
@@ -68,3 +68,18 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 2536
+  - language: id
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2530
+  - language: zh-Hans
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2530
+  - language: et
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2524

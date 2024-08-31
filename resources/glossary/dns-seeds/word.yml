@@ -1,8 +1,8 @@
 en_word: DNS SEEDS
 related_words:
-- SEED NODES
+  - SEED NODES
 tags:
-- ''
+  - ''
 
 # Proofreading metadata
 original_language: fr
@@ -16,4 +16,4 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 1376
+    reward: 2753

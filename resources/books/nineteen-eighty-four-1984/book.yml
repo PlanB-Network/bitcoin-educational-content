@@ -1,9 +1,9 @@
 author: George Orwell
 level: intermediate
 tags:
-- fiction
-- dystopia
-- politics
+  - fiction
+  - dystopia
+  - politics
 
 # Proofreading metadata
 original_language: en
@@ -22,7 +22,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 1266
+    reward: 2532
   - language: es
     last_contribution_date:
     urgency: 1
@@ -63,3 +63,18 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 2596
+  - language: id
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2580
+  - language: zh-Hans
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2580
+  - language: et
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2564

@@ -3,9 +3,9 @@ difficulty: easy
 duration: 15
 author: DecouvreBitcoin
 tags:
-- Bitcoin
-- Lightning Network
-- Cryptocurrency
+  - Bitcoin
+  - Lightning Network
+  - Cryptocurrency
 
 # Proofreading metadata
 original_language: en
@@ -24,7 +24,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 1281
+    reward: 2563
   - language: es
     last_contribution_date:
     urgency: 1

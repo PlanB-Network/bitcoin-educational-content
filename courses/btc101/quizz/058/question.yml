@@ -3,8 +3,8 @@ difficulty: hard
 duration: 45
 author: DecouvreBitcoin
 tags:
-- Hyperinflation
-- Money History
+  - Hyperinflation
+  - Money History
 
 # Proofreading metadata
 original_language: en
@@ -23,7 +23,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 1298
+    reward: 2597
   - language: es
     last_contribution_date:
     urgency: 1

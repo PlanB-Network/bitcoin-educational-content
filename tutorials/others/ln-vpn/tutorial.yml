@@ -2,9 +2,9 @@ id: 044e814a-85d8-444e-bd5f-3cf739729025
 builder: LNVPN
 
 tags:
-- privacy
-- security
-- VPN
+  - privacy
+  - security
+  - VPN
 
 level: advanced
 
@@ -46,7 +46,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 2178
+    reward: 4357
   - language: it
     last_contribution_date:
     urgency: 1
@@ -72,3 +72,18 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 8071
+  - language: et
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 6214
+  - language: id
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 7142
+  - language: zh-Hans
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 7142

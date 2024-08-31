@@ -1,11 +1,11 @@
 author: Karo Zagorus
 level: intermediate
 tags:
-- bitcoin
-- society
-- economics
-- technology
-- privacy
+  - bitcoin
+  - society
+  - economics
+  - technology
+  - privacy
 
 # Proofreading metadata
 original_language: en
@@ -24,7 +24,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 1408
+    reward: 2816
   - language: es
     last_contribution_date:
     urgency: 1
@@ -65,3 +65,18 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 3448
+  - language: id
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 3290
+  - language: zh-Hans
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 3290
+  - language: et
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 3132

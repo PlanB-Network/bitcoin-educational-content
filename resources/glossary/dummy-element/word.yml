@@ -1,9 +1,9 @@
 en_word: DUMMY ELEMENT
 related_words:
-- BIP147
-- OP_CHECKMULTISIG
+  - BIP147
+  - OP_CHECKMULTISIG
 tags:
-- ''
+  - ''
 
 # Proofreading metadata
 original_language: fr
@@ -17,4 +17,4 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 1351
+    reward: 2703

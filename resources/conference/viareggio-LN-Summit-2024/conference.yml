@@ -3,14 +3,14 @@ name: Tuscany Lightning Summit 2024
 builder: PlanB
 location: Viareggio, Italy
 language:
-- en
+  - en
 links:
   website:
   twitter:
 tags:
-- Bitcoiner
-- General
-- Lightning Network
+  - Bitcoiner
+  - General
+  - Lightning Network
 
 # Proofreading metadata
 original_language: en
@@ -19,4 +19,4 @@ proofreading:
     last_contribution_date:
     urgency: 0
     contributors_id:
-    reward: 1250
+    reward: 2500

@@ -3,9 +3,9 @@ links:
   website: https://zksnacks.com/
 
 tags:
-- education
-- development
-- privact
+  - education
+  - development
+  - privact
 
 category: privacy
 
@@ -26,7 +26,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 1264
+    reward: 2528
   - language: es
     last_contribution_date:
     urgency: 1
@@ -67,3 +67,18 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 2584
+  - language: id
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2570
+  - language: zh-Hans
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2570
+  - language: et
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2556

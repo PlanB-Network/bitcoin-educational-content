@@ -2,8 +2,8 @@ id: e0bb1afe-becd-44a6-a940-88a463756589
 builder: Ricochet
 
 tags:
-- privacy
-- Samourai
+  - privacy
+  - Samourai
 
 category: on-chain
 
@@ -44,7 +44,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 2883
+    reward: 5767
   - language: it
     last_contribution_date:
     urgency: 1
@@ -70,3 +70,18 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 12301
+  - language: et
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 9034
+  - language: id
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 10667
+  - language: zh-Hans
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 10667

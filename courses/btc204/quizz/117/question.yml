@@ -3,7 +3,7 @@ difficulty: intermediate
 duration: 15
 author: pretty-private
 tags:
-- Bitcoin
+  - Bitcoin
 
 # Proofreading metadata
 original_language: fr
@@ -12,4 +12,4 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 1273
+    reward: 2547

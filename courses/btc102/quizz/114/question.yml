@@ -3,8 +3,8 @@ difficulty: intermediate
 duration: 30
 author: DecouvreBitcoin
 tags:
-- Bitcoin
-- Inheritance Plan
+  - Bitcoin
+  - Inheritance Plan
 
 # Proofreading metadata
 original_language: en
@@ -23,7 +23,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 1291
+    reward: 2583
   - language: es
     last_contribution_date:
     urgency: 1

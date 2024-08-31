@@ -3,8 +3,8 @@ difficulty: intermediate
 duration: 30
 author: DecouvreBitcoin
 tags:
-- Bitcoin Basis
-- Self Custody
+  - Bitcoin Basis
+  - Self Custody
 
 # Proofreading metadata
 original_language: en
@@ -23,7 +23,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 1313
+    reward: 2627
   - language: es
     last_contribution_date:
     urgency: 1

@@ -1,9 +1,9 @@
 en_word: SDK (SOFTWARE DEVELOPMENT KIT)
 related_words:
-- BDK
-- LDK
+  - BDK
+  - LDK
 tags:
-- ''
+  - ''
 
 # Proofreading metadata
 original_language: fr
@@ -17,4 +17,4 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 1291
+    reward: 2583

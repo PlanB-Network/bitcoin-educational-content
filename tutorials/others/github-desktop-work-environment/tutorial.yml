@@ -2,9 +2,9 @@ id: 5862003b-9d76-47f5-a9e0-5ec74256a8ba
 builder: GitHub
 
 tags:
-- GitHub
-- Contribution
-- PlanB Network
+  - GitHub
+  - Contribution
+  - PlanB Network
 
 category: contribution
 
@@ -45,7 +45,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 2111
+    reward: 4223
   - language: it
     last_contribution_date:
     urgency: 1
@@ -71,3 +71,13 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 7669
+  - language: id
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 6807
+  - language: zh-Hans
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 6807

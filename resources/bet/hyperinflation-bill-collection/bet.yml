@@ -5,10 +5,10 @@ links:
     - en: https://penpot.planb.network/#/view/c157057b-fd28-8042-8004-4f081b21defb?page-id=c157057b-fd28-8042-8004-4f081b21defc&section=interactions&index=0&share-id=7154756b-3ebd-8040-8004-6475c2af5889&zoom=fill
   download: https://workspace.planb.network/s/GTCK3pZf8zN9rQE
 tags:
-- bitcoin
-- economy
+  - bitcoin
+  - economy
 contributors:
-- rabbit-hole
+  - rabbit-hole
 
 # Proofreading metadata
 original_language: en
@@ -27,7 +27,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 1259
+    reward: 2518
   - language: es
     last_contribution_date:
     urgency: 1
@@ -68,3 +68,18 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 2554
+  - language: id
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2545
+  - language: zh-Hans
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2545
+  - language: et
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2536

@@ -5,9 +5,9 @@ links:
   nostr: npub1uq70uqgas9pyhds2zt57kr9se8rg3s68ztphjnq82ts8rzeknmeql7u0c2
 
 tags:
-- bitcoin-only
-- layer-2
-- infrastructure
+  - bitcoin-only
+  - layer-2
+  - infrastructure
 
 category: infrastructure
 
@@ -28,7 +28,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 1272
+    reward: 2545
   - language: es
     last_contribution_date:
     urgency: 1
@@ -69,3 +69,18 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 2635
+  - language: id
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2612
+  - language: zh-Hans
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2612
+  - language: et
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2590

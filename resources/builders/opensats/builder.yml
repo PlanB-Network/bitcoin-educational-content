@@ -6,8 +6,8 @@ links:
 category: investment
 
 tags:
-- donateur
-- education
+  - donateur
+  - education
 
 # Proofreading metadata
 original_language: en
@@ -26,7 +26,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 1265
+    reward: 2531
   - language: es
     last_contribution_date:
     urgency: 1
@@ -67,3 +67,18 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 2593
+  - language: id
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2577
+  - language: zh-Hans
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2577
+  - language: et
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2562

@@ -4,11 +4,11 @@ level: intermediate
 hours: 10
 
 professors:
-- rabbit-hole
-- electric-ankle
+  - rabbit-hole
+  - electric-ankle
 
 contributors:
-- another-satoshi
+  - another-satoshi
 
 # Proofreading metadata
 original_language: fr
@@ -17,4 +17,4 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 6716
+    reward: 13450

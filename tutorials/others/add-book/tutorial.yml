@@ -2,9 +2,9 @@ id: d3bd9f9a-1859-4d81-8c55-0b720a8740c9
 builder: PlanB Contribution
 
 tags:
-- GitHub
-- Book
-- PlanB Network
+  - GitHub
+  - Book
+  - PlanB Network
 
 category: contribution
 
@@ -45,7 +45,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 1992
+    reward: 3984
   - language: it
     last_contribution_date:
     urgency: 1
@@ -71,3 +71,18 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 6952
+  - language: et
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 5468
+  - language: id
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 6210
+  - language: zh-Hans
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 6210

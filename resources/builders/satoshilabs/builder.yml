@@ -5,9 +5,9 @@ links:
   github: https://github.com/trezor
 
 tags:
-- security-solution
-- open-source
-- wallet
+  - security-solution
+  - open-source
+  - wallet
 
 category: wallet
 
@@ -28,7 +28,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 1316
+    reward: 2632
   - language: es
     last_contribution_date:
     urgency: 1
@@ -69,3 +69,18 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 2896
+  - language: id
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2830
+  - language: zh-Hans
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2830
+  - language: et
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2764

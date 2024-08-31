@@ -5,9 +5,9 @@ links:
   twitter: https://twitter.com/Blockstream
 
 tags:
-- infrastructure
-- wallet
-- mining
+  - infrastructure
+  - wallet
+  - mining
 
 category: infrastructure
 
@@ -28,7 +28,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 1299
+    reward: 2598
   - language: es
     last_contribution_date:
     urgency: 1
@@ -69,3 +69,18 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 2794
+  - language: id
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2745
+  - language: zh-Hans
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2745
+  - language: et
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2696

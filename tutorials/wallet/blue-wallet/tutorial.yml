@@ -6,9 +6,9 @@ level: beginner
 category: mobile
 
 tags:
-- open-source
-- lightning
-- self-custodial
+  - open-source
+  - lightning
+  - self-custodial
 
 credits:
   professor: dance-attack
@@ -31,7 +31,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 1423
+    reward: 2847
   - language: es
     last_contribution_date:
     urgency: 1
@@ -72,3 +72,18 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 3541
+  - language: et
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 3194
+  - language: id
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 3367
+  - language: zh-Hans
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 3367

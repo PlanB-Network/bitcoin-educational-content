@@ -1,9 +1,9 @@
 author: "R.H. Coase"
 level: intermediate
 tags:
-- econimic
-- law
-- business
+  - econimic
+  - law
+  - business
 
 # Proofreading metadata
 original_language: en
@@ -22,7 +22,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 1420
+    reward: 2840
   - language: es
     last_contribution_date:
     urgency: 1
@@ -63,3 +63,18 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 3520
+  - language: id
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 3350
+  - language: zh-Hans
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 3350
+  - language: et
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 3180

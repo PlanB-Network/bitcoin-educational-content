@@ -4,8 +4,8 @@ builder: BitAxe
 category: mining
 
 tags:
-- mining
-- Hardware
+  - mining
+  - Hardware
 
 level: advanced
 
@@ -13,3 +13,11 @@ credits:
   professor: case-memory
 
 # Proofreading metadata
+original_language: fr
+proofreading:
+  - language: fr
+    last_contribution_date: 2024-08-31
+    urgency: 1
+    contributors_id:
+      - jimzap
+    reward: 4358

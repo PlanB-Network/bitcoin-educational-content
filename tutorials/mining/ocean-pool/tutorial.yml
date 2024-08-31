@@ -4,8 +4,8 @@ builder: Ocean
 category: pools
 
 tags:
-- mining
-- Pool
+  - mining
+  - Pool
 
 level: advanced
 
@@ -29,7 +29,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 4271
+    reward: 8542
   - language: es
     last_contribution_date:
     urgency: 1
@@ -70,3 +70,18 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 20626
+  - language: et
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 14584
+  - language: id
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 17605
+  - language: zh-Hans
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 17605

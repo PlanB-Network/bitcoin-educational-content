@@ -1,8 +1,8 @@
 en_word: CURRENCY TYPE
 related_words:
-- DERIVATION PATH
+  - DERIVATION PATH
 tags:
-- ''
+  - ''
 
 # Proofreading metadata
 original_language: fr
@@ -16,4 +16,4 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 1324
+    reward: 2648

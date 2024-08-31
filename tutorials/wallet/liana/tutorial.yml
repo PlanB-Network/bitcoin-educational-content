@@ -6,9 +6,9 @@ level: advanced
 category: desktop
 
 tags:
-- timelocked
-- open-source
-- self-custodial
+  - timelocked
+  - open-source
+  - self-custodial
 
 # Proofreading metadata
 original_language: en
@@ -27,7 +27,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 1355
+    reward: 2710
   - language: es
     last_contribution_date:
     urgency: 1
@@ -68,3 +68,18 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 3130
+  - language: et
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2920
+  - language: id
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 3025
+  - language: zh-Hans
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 3025

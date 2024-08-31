@@ -6,8 +6,8 @@ level: advanced
 category: hardware
 
 tags:
-- self-custodial
-- multi-coin
+  - self-custodial
+  - multi-coin
 
 credits:
   professor: rebuild-kiss
@@ -30,7 +30,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 4518
+    reward: 9037
   - language: es
     last_contribution_date:
     urgency: 1
@@ -71,3 +71,18 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 22111
+  - language: et
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 15574
+  - language: id
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 18842
+  - language: zh-Hans
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 18842

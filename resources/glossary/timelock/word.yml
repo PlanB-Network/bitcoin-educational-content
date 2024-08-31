@@ -1,11 +1,11 @@
 en_word: TIMELOCK
 related_words:
-- OP_CHECKLOCKTIMEVERIFY
-- OP_CHECKSEQUENCEVERIFY
-- NLOCKTIME
-- NSEQUENCE
+  - OP_CHECKLOCKTIMEVERIFY
+  - OP_CHECKSEQUENCEVERIFY
+  - NLOCKTIME
+  - NSEQUENCE
 tags:
-- ''
+  - ''
 
 # Proofreading metadata
 original_language: fr
@@ -19,4 +19,4 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 1317
+    reward: 2635

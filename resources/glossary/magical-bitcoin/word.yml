@@ -1,8 +1,8 @@
 en_word: MAGICAL BITCOIN
 related_words:
-- BDK (BITCOIN DEV KIT)
+  - BDK (BITCOIN DEV KIT)
 tags:
-- ''
+  - ''
 
 # Proofreading metadata
 original_language: fr
@@ -16,4 +16,4 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 1258
+    reward: 2517

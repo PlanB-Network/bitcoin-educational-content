@@ -1,7 +1,7 @@
 id: 26937006-dfe5-404e-9ee4-e82e422c5cf2
 tags:
-- security
-- lightning-network
+  - security
+  - lightning-network
 
 level: advanced
 
@@ -30,7 +30,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 2312
+    reward: 4624
   - language: es
     last_contribution_date:
     urgency: 1
@@ -71,3 +71,18 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 8872
+  - language: et
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 6748
+  - language: id
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 7810
+  - language: zh-Hans
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 7810

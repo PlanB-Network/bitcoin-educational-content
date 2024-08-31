@@ -2,9 +2,9 @@ id: 0354b793-c301-48af-af75-f87569756375
 builder: Whirlpool Stats Tools
 
 tags:
-- privacy
-- WST
-- coinjoin
+  - privacy
+  - WST
+  - coinjoin
 
 category: analysis
 
@@ -45,7 +45,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 5246
+    reward: 10492
   - language: it
     last_contribution_date:
     urgency: 1
@@ -71,3 +71,18 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 26476
+  - language: et
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 18484
+  - language: id
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 22480
+  - language: zh-Hans
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 22480

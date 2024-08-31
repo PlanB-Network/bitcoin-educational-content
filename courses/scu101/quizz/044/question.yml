@@ -3,9 +3,9 @@ difficulty: hard
 duration: 45
 author: DecouvreBitcoin
 tags:
-- password manager
-- online security
-- password replacement
+  - password manager
+  - online security
+  - password replacement
 
 # Proofreading metadata
 original_language: en
@@ -24,7 +24,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 1299
+    reward: 2599
   - language: es
     last_contribution_date:
     urgency: 1

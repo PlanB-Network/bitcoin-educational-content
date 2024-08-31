@@ -4,8 +4,8 @@ links:
   twitter: https://twitter.com/Ten31vc
 
 tags:
-- VC
-- bitcoin-investment
+  - VC
+  - bitcoin-investment
 
 category: investment
 
@@ -26,7 +26,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 1258
+    reward: 2517
   - language: es
     last_contribution_date:
     urgency: 1
@@ -67,3 +67,18 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 2551
+  - language: id
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2542
+  - language: zh-Hans
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2542
+  - language: et
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2534

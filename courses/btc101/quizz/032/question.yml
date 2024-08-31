@@ -3,9 +3,9 @@ difficulty: hard
 duration: 45
 author: DecouvreBitcoin
 tags:
-- Money History
-- Market Dynamics
-- Sound Money
+  - Money History
+  - Market Dynamics
+  - Sound Money
 
 # Proofreading metadata
 original_language: en
@@ -24,7 +24,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 1289
+    reward: 2579
   - language: es
     last_contribution_date:
     urgency: 1

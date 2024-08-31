@@ -3,9 +3,9 @@ difficulty: easy
 duration: 15
 author: DecouvreBitcoin
 tags:
-- Austrian School
-- Business Cycle
-- Economics
+  - Austrian School
+  - Business Cycle
+  - Economics
 
 # Proofreading metadata
 original_language: en
@@ -24,7 +24,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 1286
+    reward: 2572
   - language: es
     last_contribution_date:
     urgency: 1

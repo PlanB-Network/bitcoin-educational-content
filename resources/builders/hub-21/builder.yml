@@ -4,8 +4,8 @@ address_line_1: Belgrade, Serbia
 address_line_2: Vase Čarapića 15, Beograd 11000
 address_line_3:
 language:
-- en
-- sr
+  - en
+  - sr
 links:
   website: https://hub21.rs/
   twitter: https://twitter.com/hub21rs
@@ -13,9 +13,9 @@ links:
   youtube: https://www.youtube.com/@dvadesetjedan
 
 tags:
-- bitcoin-only
-- education
-- communities
+  - bitcoin-only
+  - education
+  - communities
 # Proofreading metadata
 original_language: en
 proofreading:
@@ -33,7 +33,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 1290
+    reward: 2580
   - language: es
     last_contribution_date:
     urgency: 1
@@ -74,3 +74,18 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 2740
+  - language: id
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2700
+  - language: zh-Hans
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2700
+  - language: et
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2660

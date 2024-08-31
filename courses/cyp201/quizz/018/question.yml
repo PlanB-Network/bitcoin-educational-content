@@ -3,9 +3,9 @@ difficulty: hard
 duration: 45
 author: DecouvreBitcoin
 tags:
-- Bitcoin
-- Cryptography
-- HMAC
+  - Bitcoin
+  - Cryptography
+  - HMAC
 
 # Proofreading metadata
 original_language: en
@@ -24,7 +24,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 1297
+    reward: 2595
   - language: es
     last_contribution_date:
     urgency: 1

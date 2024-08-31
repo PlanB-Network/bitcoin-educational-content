@@ -6,9 +6,9 @@ credits:
   link: https://armantheparman.com/bitcoincore/
 
 tags:
-- node
-- privacy
-- infrastructure
+  - node
+  - privacy
+  - infrastructure
 
 category: bitcoin
 
@@ -31,7 +31,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 2904
+    reward: 5809
   - language: es
     last_contribution_date:
     urgency: 1
@@ -72,3 +72,18 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 12427
+  - language: et
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 9118
+  - language: id
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 10772
+  - language: zh-Hans
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 10772

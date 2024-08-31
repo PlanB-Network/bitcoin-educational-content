@@ -4,7 +4,7 @@ address_line_1: Africa
 address_line_2:
 address_line_3:
 language:
-- en
+  - en
 links:
   website: https://freerouting.africa/
   twitter: https://x.com/FreeRoutingAf
@@ -12,9 +12,9 @@ links:
     https://primal.net/p/npub1j8w9vaymagphmvfvkk7tt9cxfneejmctez6yw5nfp0m8qxteptcsjv8nud
 
 tags:
-- finance
-- education
-- lightning
+  - finance
+  - education
+  - lightning
 
 # Proofreading metadata
 original_language: en
@@ -23,54 +23,69 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 2830
+    reward: 2834
   - language: de
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 2665
+    reward: 2667
   - language: en
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 1332
+    reward: 2667
   - language: es
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 2747
+    reward: 2750
   - language: fi
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 2830
+    reward: 2834
   - language: fr
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 2665
+    reward: 2667
   - language: it
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 2747
+    reward: 2750
   - language: ja
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 2995
+    reward: 3001
   - language: pt
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 2665
+    reward: 2667
   - language: ru
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 2830
+    reward: 2834
   - language: vi
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 2995
+    reward: 3001
+  - language: id
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2917
+  - language: zh-Hans
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2917
+  - language: et
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2834

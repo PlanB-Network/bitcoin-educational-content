@@ -4,8 +4,8 @@ builder: Peach
 level: beginner
 
 tags:
-- light-KYC
-- bitcoin-only
+  - light-KYC
+  - bitcoin-only
 
 category: peer-to-peer
 
@@ -26,7 +26,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 1296
+    reward: 2593
   - language: es
     last_contribution_date:
     urgency: 1
@@ -67,3 +67,18 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 2779
+  - language: et
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2686
+  - language: id
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2732
+  - language: zh-Hans
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2732

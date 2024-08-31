@@ -4,9 +4,9 @@ links:
   twitter: https://twitter.com/breakingbitcoin
 
 tags:
-- bitcoin-only
-- security
-- technical
+  - bitcoin-only
+  - security
+  - technical
 
 category: conference
 
@@ -27,7 +27,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 1280
+    reward: 2561
   - language: es
     last_contribution_date:
     urgency: 1
@@ -68,3 +68,18 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 2683
+  - language: id
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2652
+  - language: zh-Hans
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2652
+  - language: et
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2622

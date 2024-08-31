@@ -3,8 +3,8 @@ difficulty: intermediate
 duration: 30
 author: DecouvreBitcoin
 tags:
-- Economics
-- Time Preference
+  - Economics
+  - Time Preference
 
 # Proofreading metadata
 original_language: en
@@ -23,7 +23,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 1333
+    reward: 2667
   - language: es
     last_contribution_date:
     urgency: 1

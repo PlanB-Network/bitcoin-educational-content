@@ -4,11 +4,11 @@ level: beginner
 hours: 3
 
 professors:
-- rebel-space
+  - rebel-space
 
 contributors:
-- rabbit-hole
-- another-satoshi
+  - rabbit-hole
+  - another-satoshi
 
 # Proofreading metadata
 original_language: fr
@@ -17,54 +17,54 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 39716
+    reward: 39734
   - language: de
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 21108
+    reward: 21117
   - language: en
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 21108
+    reward: 21117
   - language: es
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 30412
+    reward: 30425
   - language: fi
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 39716
+    reward: 39734
   - language: fr
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 10554
+    reward: 21117
   - language: it
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 30412
+    reward: 30425
   - language: ja
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 58324
+    reward: 58351
   - language: pt
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 21108
+    reward: 21117
   - language: ru
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 39716
+    reward: 39734
   - language: vi
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 58324
+    reward: 58351

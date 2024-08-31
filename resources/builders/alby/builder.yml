@@ -8,8 +8,8 @@ links:
 category: wallet
 
 tags:
-- bitcoin-only
-- wallet
+  - bitcoin-only
+  - wallet
 
 # Proofreading metadata
 original_language: en
@@ -28,7 +28,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 1282
+    reward: 2564
   - language: es
     last_contribution_date:
     urgency: 1
@@ -69,3 +69,18 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 2692
+  - language: id
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2660
+  - language: zh-Hans
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2660
+  - language: et
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2628

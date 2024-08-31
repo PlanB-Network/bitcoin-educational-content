@@ -1,9 +1,9 @@
 en_word: FORK
 related_words:
-- HARD FORK
-- SOFT FORK
+  - HARD FORK
+  - SOFT FORK
 tags:
-- ''
+  - ''
 
 # Proofreading metadata
 original_language: fr
@@ -17,4 +17,4 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 1395
+    reward: 2790

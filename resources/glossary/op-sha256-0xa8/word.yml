@@ -1,8 +1,8 @@
 en_word: OP_SHA256 (0XA8)
 related_words:
-- SHA256
+  - SHA256
 tags:
-- ''
+  - ''
 
 # Proofreading metadata
 original_language: fr
@@ -16,4 +16,4 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 1261
+    reward: 2523

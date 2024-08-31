@@ -2,10 +2,10 @@ id: 087a0e49-61cd-41f5-8440-ac7b157bdd62
 builder: Payjoin - Sparrow Wallet
 
 tags:
-- privacy
-- payjoin
-- P2EP
-- Sparrow
+  - privacy
+  - payjoin
+  - P2EP
+  - Sparrow
 
 category: on-chain
 
@@ -45,7 +45,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 2811
+    reward: 5623
   - language: it
     last_contribution_date:
     urgency: 1
@@ -71,3 +71,18 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 11869
+  - language: et
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 8746
+  - language: id
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 10307
+  - language: zh-Hans
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 10307

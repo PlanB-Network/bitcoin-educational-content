@@ -10,10 +10,10 @@ level: advanced
 category: lightning-network
 
 tags:
-- open-source
-- self-custodial
-- lightning
-- LND
+  - open-source
+  - self-custodial
+  - lightning
+  - LND
 
 # Proofreading metadata
 original_language: en
@@ -32,7 +32,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 4509
+    reward: 9019
   - language: es
     last_contribution_date:
     urgency: 1
@@ -73,3 +73,18 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 22057
+  - language: et
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 15538
+  - language: id
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 18797
+  - language: zh-Hans
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 18797

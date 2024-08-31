@@ -4,10 +4,10 @@ level: beginner
 hours: 10
 
 professors:
-- rabbit-hole
+  - rabbit-hole
 
 contributors:
-- another-satoshi
+  - another-satoshi
 
 # Proofreading metadata
 original_language: fr
@@ -16,55 +16,70 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 33402
+    reward: 33420
   - language: de
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 17951
+    reward: 17960
   - language: en
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 17951
+    reward: 17960
   - language: es
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 25676
+    reward: 25690
   - language: fi
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 33402
+    reward: 33420
   - language: fr
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 8975
+    reward: 17960
   - language: it
     last_contribution_date: 2024-05-27
     urgency: 1
     contributors_id:
-    - TinF0ilHat
-    reward: 14088
+      - TinF0ilHat
+    reward: 14095
   - language: ja
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 48853
+    reward: 48880
   - language: pt
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 17951
+    reward: 17960
   - language: ru
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 33402
+    reward: 33420
   - language: vi
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 48853
+    reward: 48880
+  - language: et
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 33420
+  - language: id
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 41150
+  - language: zh-Hans
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 41150

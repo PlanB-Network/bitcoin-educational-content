@@ -4,11 +4,11 @@ level: intermediate
 hours: 12
 
 professors:
-- genius-flight
+  - genius-flight
 
 contributors:
-- rabbit-hole
-- another-satoshi
+  - rabbit-hole
+  - another-satoshi
 
 # Proofreading metadata
 original_language: fr
@@ -17,54 +17,54 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 71572
+    reward: 71608
   - language: de
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 37036
+    reward: 37054
   - language: en
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 37036
+    reward: 37054
   - language: es
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 54304
+    reward: 54331
   - language: fi
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 71572
+    reward: 71608
   - language: fr
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 18518
+    reward: 37054
   - language: it
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 54304
+    reward: 54331
   - language: ja
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 106108
+    reward: 106162
   - language: pt
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 37036
+    reward: 37054
   - language: ru
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 71572
+    reward: 71608
   - language: vi
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 106108
+    reward: 106162

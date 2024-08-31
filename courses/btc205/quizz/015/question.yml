@@ -3,9 +3,9 @@ difficulty: easy
 duration: 15
 author: DecouvreBitcoin
 tags:
-- Bitcoin
-- P2P solutions
-- RoboSat
+  - Bitcoin
+  - P2P solutions
+  - RoboSat
 
 # Proofreading metadata
 original_language: en
@@ -24,7 +24,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 1268
+    reward: 2537
   - language: es
     last_contribution_date:
     urgency: 1

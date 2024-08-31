@@ -1,9 +1,9 @@
 en_word: WTXID
 related_words:
-- TXID
-- SEGWIT
+  - TXID
+  - SEGWIT
 tags:
-- ''
+  - ''
 
 # Proofreading metadata
 original_language: fr
@@ -17,4 +17,4 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 1287
+    reward: 2575

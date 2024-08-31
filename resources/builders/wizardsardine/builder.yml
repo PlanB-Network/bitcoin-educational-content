@@ -5,9 +5,9 @@ links:
   github: https://github.com/wizardsardine
 
 tags:
-- bitcoin-only
-- open-source
-- wallet
+  - bitcoin-only
+  - open-source
+  - wallet
 
 category: wallet
 
@@ -28,7 +28,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 1298
+    reward: 2597
   - language: es
     last_contribution_date:
     urgency: 1
@@ -69,3 +69,18 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 2791
+  - language: id
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2742
+  - language: zh-Hans
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2742
+  - language: et
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2694

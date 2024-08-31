@@ -1,9 +1,9 @@
 author: Jake Adelstein
 level: intermediate
 tags:
-- bitcoin
-- finance
-- technology
+  - bitcoin
+  - finance
+  - technology
 
 # Proofreading metadata
 original_language: en
@@ -22,7 +22,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 1268
+    reward: 2536
   - language: es
     last_contribution_date:
     urgency: 1
@@ -63,3 +63,18 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 2608
+  - language: id
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2590
+  - language: zh-Hans
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2590
+  - language: et
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2572

@@ -2,9 +2,9 @@ id: c4b20263-5b30-4c74-ae59-dc8d0f8715c2
 builder: Dojo Samourai
 
 tags:
-- privacy
-- coinjoin
-- mix
+  - privacy
+  - coinjoin
+  - mix
 
 category: on-chain
 
@@ -45,7 +45,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 10563
+    reward: 21127
   - language: it
     last_contribution_date:
     urgency: 1
@@ -71,3 +71,13 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 58381
+  - language: id
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 49067
+  - language: zh-Hans
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 49067

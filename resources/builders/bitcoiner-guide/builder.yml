@@ -6,9 +6,9 @@ links:
   Nostr: npub15c88nc8d44gsp4658dnfu5fahswzzu8gaxm5lkuwjud068swdqfspxssvx
 
 tags:
-- bitcoin-only
-- open-source
-- education
+  - bitcoin-only
+  - open-source
+  - education
 
 category: education
 
@@ -29,7 +29,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 1284
+    reward: 2568
   - language: es
     last_contribution_date:
     urgency: 1
@@ -70,3 +70,18 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 2704
+  - language: id
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2670
+  - language: zh-Hans
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2670
+  - language: et
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2636

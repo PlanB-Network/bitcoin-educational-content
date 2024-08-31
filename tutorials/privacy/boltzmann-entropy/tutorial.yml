@@ -2,9 +2,9 @@ id: 738e45af-18a6-4ce6-af1a-1bf58e15f1fe
 builder: Boltzmann Calculator
 
 tags:
-- privacy
-- entropy
-- Boltzmann
+  - privacy
+  - entropy
+  - Boltzmann
 
 category: analysis
 
@@ -45,7 +45,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 4631
+    reward: 9262
   - language: it
     last_contribution_date:
     urgency: 1
@@ -71,3 +71,18 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 22786
+  - language: et
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 16024
+  - language: id
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 19405
+  - language: zh-Hans
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 19405

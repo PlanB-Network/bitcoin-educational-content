@@ -1,7 +1,7 @@
 en_word: SIGHASH_ALL (0X01)
 related_words: []
 tags:
-- ''
+  - ''
 
 # Proofreading metadata
 original_language: fr
@@ -15,4 +15,4 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 1293
+    reward: 2586

@@ -5,9 +5,9 @@ links:
   github: https://github.com/cryptoadvance
 
 tags:
-- wallet
-- open-source
-- bitcoin-only
+  - wallet
+  - open-source
+  - bitcoin-only
 
 category: wallet
 
@@ -28,7 +28,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 1270
+    reward: 2541
   - language: es
     last_contribution_date:
     urgency: 1
@@ -69,3 +69,18 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 2623
+  - language: id
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2602
+  - language: zh-Hans
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2602
+  - language: et
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2582

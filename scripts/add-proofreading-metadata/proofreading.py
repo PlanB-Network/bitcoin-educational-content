@@ -7,6 +7,7 @@ BASE_FEE = 2500
 yaml = YAML()
 yaml.preserve_quotes = True
 yaml.indent(mapping=2, sequence=4, offset=2)
+yaml.width = 10000  # Increase the width to avoid line wrapping
 
 specific_files = {"course.yml",
                   "question.yml",

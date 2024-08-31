@@ -111,6 +111,9 @@ def ask_yes_no_question(question):
 def update_proofreading(root_dir, specific_files):
     print('Automatic Update for Proofreading section in progress...')
 
+    full_update_question = "Do you want to check all the rewards? (NB. long process)"
+    full_reward_update = ask_yes_no_question(full_update_question)
+
     for dirpath, dirnames, filenames in os.walk(root_dir):
         
         dirnames[:] = [d for d in dirnames if d != 'docs']
@@ -121,7 +124,6 @@ def update_proofreading(root_dir, specific_files):
             print(f"Checking for {dirpath}")
             missing_proofreading_section = False
             yml_filepath = get_existing_file_path(dirpath, specific_files)
-            print(yml_filepath)
             data = get_yml_content(yml_filepath)  
             existing_languages = get_language_list_for_content(dirpath)
 
@@ -133,6 +135,8 @@ def update_proofreading(root_dir, specific_files):
                 language_file_path_md = os.path.join(dirpath, language_file_md)
                 
                 if os.path.isfile(language_file_path_yml) or os.path.isfile(language_file_path_md):
+                    
+                    reward_already_update = False
                     if not check_language_existence(data, language):
                         print(f"Proofreading section missing for {language}")
                         missing_proofreading_section = True
@@ -148,13 +152,18 @@ def update_proofreading(root_dir, specific_files):
                         with open(yml_filepath, 'a', encoding='utf-8') as file:
                             file.write(proofreading_section)
                         
+
+                        evaluated_reward = evaluate_proofreading_reward(yml_filepath, language)
+                        update_proofreading_reward(yml_filepath, language, evaluated_reward)
                         print(f"Proofreading section added for {language}")
+                        reward_already_update = True
                         print()
 
-                    current_reward = get_proofreading_property(data, language, 'reward')
-                    evaluated_reward = evaluate_proofreading_reward(yml_filepath, language)
-                    if current_reward != evaluated_reward:
-                        update_proofreading_reward(yml_filepath, language, evaluated_reward)
+                    if full_reward_update == 'y' and not reward_already_update:
+                        current_reward = get_proofreading_property(data, language, 'reward')
+                        evaluated_reward = evaluate_proofreading_reward(yml_filepath, language)
+                        if current_reward != evaluated_reward:
+                            update_proofreading_reward(yml_filepath, language, evaluated_reward)
 
             if not missing_proofreading_section:
                 print(f"Everything updated in {dirpath}")

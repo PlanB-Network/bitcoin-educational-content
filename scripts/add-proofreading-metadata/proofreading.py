@@ -154,6 +154,13 @@ def get_proofreading_property(data, language, property_name):
         if entry['language'] == language:
             return entry[property_name]
     
+def check_language_existence(data, language):
+    exist = False
+    for entry in data['proofreading']:
+        if entry['language'] == language:
+            exist = True
+    return exist
+
 def get_proofreading_state(data, language):
     contributors_id = get_proofreading_property(data, language, 'contributors_id')
     if contributors_id == None:
@@ -171,4 +178,3 @@ def add_proofreading_contributor(data, language, contributor_id):
             print('added')
             break
     
-

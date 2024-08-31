@@ -1,64 +1,64 @@
 ---
-name: Lấy Bitcoin đầu tiên của bạn
-goal: Lấy Bitcoin đầu tiên của bạn và lưu trữ chúng một cách an toàn trong một ví Bitcoin sử dụng cụm từ ghi nhớ và một kế hoạch thừa kế.
+name: Sở hữu những đồng bitcoin đầu tiên của bạn
+goal: Sở hữu những đồng bitcoin đầu tiên của bạn và lưu trữ chúng một cách an toàn trong một ví Bitcoin sử dụng cụm từ ghi nhớ với một kế hoạch thừa kế.
 objectives:
-  - Cập nhật bảo mật trực tuyến của bạn
+  - Cập nhật vấn đề bảo mật trực tuyến của bạn
   - Hiểu các khái niệm chính liên quan đến Bitcoin
-  - Thiết lập ví đầu tiên của bạn phù hợp với nhu cầu và nguồn lực của bạn
-  - Tìm hiểu nơi và cách lấy Bitcoin đầu tiên của bạn
-  - Thiết lập một kế hoạch thừa kế
+  - Thiết lập ví Bitcoin đầu tiên phù hợp với nhu cầu và nguồn lực của bạn
+  - Tìm hiểu nơi và cách để sở hữu những đồng bitcoin đầu tiên của bạn
+  - Thiết lập một kế hoạch thừa kế cho số bitcoin của bạn
 ---
 
-# Hành trình đến với Bitcoin đầu tiên của bạn
+# Hành trình đến với những đồng bitcoin đầu tiên của bạn
 
 Ngành công nghiệp xung quanh Bitcoin đang bùng nổ.
 
-Những thay đổi công nghệ và tài chính trong thế giới mới này chỉ đang tăng tốc, và việc tận dụng cơ hội và bắt đầu lạc vào "Hố Thỏ Bitcoin" là do bạn. Cuộc phiêu lưu này sẽ giàu kiến thức và sẽ thúc đẩy bạn phải đặt câu hỏi về nhiều niềm tin của mình. Nó sẽ trả lại cho bạn tự do và cho phép bạn lấy lại quyền riêng tư, chủ quyền và độc lập tài chính.
+Những thay đổi về mặt công nghệ và tài chính trong thế giới Bitcoin chỉ mới bắt đầu tăng tốc, việc có tận dụng cơ hội và bắt đầu khám phá "Hang thỏ Bitcoin" là hay không là do bạn. Cuộc phiêu lưu này sẽ làm giàu kiến thức và thúc đẩy bạn phải đặt nghi vấn về những niềm tin của mình. Hành trình này sẽ trả lại sự tự do và cho phép bạn lấy lại quyền riêng tư, chủ quyền và sự độc lập tài chính của bản thân.
 
-Để giúp bạn bắt đầu cuộc phiêu lưu này, tôi đã tạo ra khóa học miễn phí này. Chỉ Bitcoin, không lẫn lộn, không có tiền điện tử khác, một khóa học đi thẳng vào vấn đề. Khóa học này được thiết kế để thích ứng với bạn và cho phép bạn chọn con đường phù hợp với mình.
+Để giúp bạn bắt đầu cuộc phiêu lưu này, tôi đã tạo ra khóa học miễn phí này. Chỉ Bitcoin, không lẫn lộn, không có tiền điện tử khác, một khóa học đi thẳng vào vấn đề. Khóa học này được thiết kế phù hợp với bạn và cho phép bạn chọn con đường phù hợp với mình.
 
 +++
 
-# Giới thiệu và điều kiện tiên quyết để hiểu Bitcoin
+# Giới thiệu về khoá học và điều kiện tiên quyết để hiểu Bitcoin
 <partId>008c49b7-5e17-5973-87f2-ba28429b2697</partId>
 
 ## Giới thiệu về khóa học BTC102
 <chapterId>bfc96999-0ee1-5c41-8297-1b629f50cffc</chapterId>
 
-Chào mừng bạn đến với BTC 102! Một khóa học thực hành sẽ hướng dẫn bạn thiết lập kế hoạch Bitcoin của mình! Qua khóa học này, chúng ta sẽ chuẩn bị lấy Bitcoin đầu tiên của mình, bảo mật chúng một cách đúng đắn, và đảm bảo một bước vào ngành công nghiệp mới một cách suôn sẻ.
+Chào mừng bạn đến với BTC 102! Một khóa học thực hành nhằm hướng dẫn bạn thiết lập kế hoạch Bitcoin của mình! Qua khóa học này, chúng ta sẽ chuẩn bị để bạn có thể sở hữu những bitcoin đầu tiên của mình, bảo mật chúng một cách đúng đắn, và đảm bảo cho bạn một cách suôn sẻ vào ngành công nghiệp này.
 
-Ngành công nghiệp Bitcoin vẫn còn trẻ và được coi là một hiện tượng đang phát triển liên tục. Mặc dù đã cố gắng quản lý thị trường này nhiều năm, nó vẫn cực kỳ tự do do bản chất của giao thức cơ bản của nó.
+Ngành công nghiệp Bitcoin vẫn còn trẻ và được coi là một hiện tượng đang tiến hoá không ngừng. Mặc dù (các chính phủ) đã nỗ lực tìm cách để quản lý thị trường này trong nhiều năm, nó vẫn là một thị trường rất tự do nhờ vào bản chất của giao thức côt lõi của nó.
 
-Vì không thể được quản lý hoàn toàn, Bitcoin đã có thể phát triển một cách tự nhiên và phân cấp hơn 14 năm. Do đó, đây là một ngành công nghiệp đang trong giai đoạn bùng nổ sơ khai và mong muốn tiếp tục phát triển.
+Vì không thể bị quản lý hoàn toàn bởi luật pháp, Bitcoin đã có thể phát triển một cách tự nhiên và phi tập trung trong hơn 14 năm qua. Do đó, đây là một ngành công nghiệp đang trong giai đoạn bùng nổ ban đầu và khát khao tiếp tục phát triển.
 
-Với sự bùng nổ của các đổi mới và khả năng, cũng đến với lừa đảo, gian lận, và rủi ro. Không cần phải nói, hành trình của bạn trong Bitcoin sẽ không tránh khỏi những trở ngại hoặc sai lầm. Tuy nhiên, để giúp bạn tránh chúng càng nhiều càng tốt, khóa học này sẽ phục vụ như một hướng dẫn thực hành để bắt đầu. Mặt khác, khóa học BTC 101 là lý thuyết hơn để hiểu cách Bitcoin hoạt động.
+Với sự bùng nổ của các sáng kiến, đi kèm với đó là rủi ro, gian lận và những trò lừa đảo ăn theo. Phải nói rõ rằng, hành trình Bitcoin của bạn sẽ không tránh khỏi những trở ngại hoặc sai lầm. Tuy nhiên, để giúp bạn tránh được chúng một cách tốt nhất, khóa học này được tao ra như một hướng dẫn thực tế để bạn bắt đầu. Mặt khác, khóa học BTC 101 thiên về lý thuyết hơn nhằm giúp bạn hiểu cách Bitcoin hoạt động.
 
 Trong khóa học này, chúng ta sẽ tập trung vào 4 khía cạnh:
 
-- Xem lại cơ bản và điều kiện tiên quyết để đảm bảo chúng ta không bị lừa đảo hoặc mất tiền một cách ngốc nghếch.
-- Xem xét cơ bản tại sao Bitcoin quan trọng và hiểu ngành công nghiệp của nó. Điều này sẽ củng cố niềm tin của chúng ta và giúp chúng ta hiểu chúng ta đang tham gia vào cái gì.
-- Thiết lập ví Bitcoin đầu tiên của bạn và thực hiện giao dịch mua Bitcoin đầu tiên thông qua một nền tảng giao dịch. Tại đây, chúng ta sẽ tìm kiếm giải pháp phù hợp nhất với nhu cầu của bạn. Cuối cùng, phần cuối sẽ đề cập đến một khái niệm cơ bản cho sự an toàn của bạn, nhưng thường bị bỏ qua trong ngành: cách tạo một kế hoạch thừa kế Bitcoin.
+- Xem lại những kiến thức cơ bản và điều kiện tiên quyết để đảm bảo rằng chúng ta không bị lừa đảo hoặc mất tiền một cách ngốc nghếch.
+- Đánh giá từ nền tảng để hiểu tại sao Bitcoin quan trọng và hiểu về ngành công nghiệp xoay quanh nó. Điều này sẽ củng cố niềm tin và giúp chúng ta hiểu được bản đang tham gia vào cái gì.
+- Thiết lập ví Bitcoin đầu tiên và thực hiện giao dịch mua Bitcoin đầu tiên thông qua một sàn giao dịch. Tại đây, chúng ta sẽ tìm kiếm giải pháp phù hợp nhất với nhu cầu của bạn. Cuối cùng, phần cuối sẽ đề cập đến một khái niệm cơ bản liên quan tới sự an toàn của bạn, nhưng thường bị bỏ qua trong ngành: cách tạo ra một kế hoạch thừa kế Bitcoin.
 
-Như bạn thấy, mục đích của khóa đào tạo này là để đồng hành cùng bạn sao cho bạn tuân thủ các phương pháp tốt nhất của ngành công nghiệp của chúng tôi ngay từ đầu, một cách đơn giản và nhanh chóng!
+Như bạn thấy, mục đích của khóa đào tạo này là đồng hành để giúp bạn tuân thủ các thao tác, hành vi chuẩn mực đối với ngành công nghiệp này ngay từ đầu, một cách đơn giản và nhanh chóng.
 
-Chúc may mắn :)
+Chúc bạn may mắn :)
 
 ## Lừa đảo và Gian lận Tài chính
 <chapterId>8af2948b-2ab5-54c4-862c-3414b8a285a2</chapterId>
 
-Chúng ta đang ở trong một ngành công nghiệp nơi hai nhánh chính đang nổi lên trong lĩnh vực "tiền điện tử":
+Ngành công nghiệp "tiền điện tử" đang có hai nhánh chính nổi lên:
 
-1. Ngành công nghiệp Bitcoin, tập trung vào một loại tiền tệ vững chắc thông qua một giao thức chuyển giá trị phi tập trung (Bitcoin). Nó coi trọng quyền riêng tư và chủ quyền cá nhân và dần dần xây dựng các dự án dài hạn với mức độ kiên cường và an toàn cao.
+1. Ngành công nghiệp Bitcoin, tập trung vào một loại tiền tệ mạnh thông qua một giao thức chuyển giá trị phi tập trung (Bitcoin). Nó coi trọng quyền riêng tư và chủ quyền cá nhân và dần dần xây dựng các dự án dài hạn có mức độ an toàn cao cũng như có tính kiên cường.
 
-2. Ngành công nghiệp tiền điện tử toàn cầu, hướng tới fintech, "blockchain," và các đổi mới tập trung khác. Nó đang phát triển nhanh chóng và cố gắng định vị mình như là xu hướng mới.
+2. Ngành công nghiệp tiền điện tử toàn cầu, hướng tới fintech, "blockchain," và các đổi mới mang tính tập trung hoá khác. Nó đang phát triển nhanh chóng và cố gắng định vị mình như là xu hướng mới.
 
 Toàn bộ trọng tâm của trường đại học này là về vũ trụ Bitcoin, không phải crypto.
-Lĩnh vực tiền mã hóa, bao gồm Bitcoin, vẫn còn khá mới mẻ và ít được quản lý. Do đó, nó chứa đựng nhiều loại lừa đảo khác nhau. Việc hiểu biết về những nguy hiểm và nhận biết các bẫy thường gặp là rất quan trọng. Dưới đây là một số tình huống lừa đảo thường gặp:
+Lĩnh vực tiền mã hóa, bao gồm Bitcoin, vẫn còn khá mới mẻ và ít được quản lý. Do đó, nó chứa đựng nhiều loại hình lừa đảo khác nhau. Do đó, hiểu biết về sự nguy hiểm và các bẫy thường gặp là rất quan trọng. Dưới đây là một số tình huống lừa đảo thường gặp:
 - Quyên góp trực tuyến & xổ số
 - Các kế hoạch Ponzi
 - Pump & Dump (Bơm và Xả)
-- Nhóm và người ảnh hưởng về Shitcoin
-- Lệch lạc / Hard Fork
+- Các cộng đồng và những người ảnh hưởng quảng bá shitcoin
+- Hard Fork - Chia tách cứng
 - Hacks (Tấn công mạng)
 - Tiền chuộc giả
 - Lừa đảo mật khẩu
@@ -66,106 +66,107 @@ Lĩnh vực tiền mã hóa, bao gồm Bitcoin, vẫn còn khá mới mẻ và �
 
 ![scam](assets/prerequis/6.webp)
 
-Trong lĩnh vực đầu tư tài chính, các hệ thống bán hàng đa cấp và kế hoạch Ponzi nổi bật như những mô hình bất hợp pháp. Chúng hoạt động bằng cách sử dụng tiền của nhà đầu tư mới để trả cho những người tham gia trước. Tuy nhiên, bản chất không bền vững và sự phụ thuộc vào sự xuất hiện của người mới để duy trì hệ thống khiến chúng có khả năng sụp đổ không thể tránh khỏi.
+Trong lĩnh vực đầu tư tài chính, các hệ thống bán hàng đa cấp và kế hoạch Ponzi nổi bật như những mô hình bất hợp pháp. Chúng hoạt động bằng cách sử dụng tiền của nhà đầu tư mới để trả cho những người tham gia trước. Tuy nhiên, bản chất không bền vững và việc phụ thuộc sự tham gia của người mới để duy trì hệ thống làm cho việc sụp đổ của chúng là điều không thể tránh khỏi.
 
 ![ponzi scheme](assets/prerequis/7.webp)
 
-Những hệ thống này thường được đặc trưng bởi các yếu tố đáng ngờ như không có giá trị nội tại, hứa hẹn lợi nhuận không thực tế, và các chiến lược tiếp thị khuyến khích giới thiệu để thu hút nhà đầu tư mới. Sự chậm trễ không thể giải thích được trong việc rút tiền và việc sử dụng hồ sơ giả trên các mạng xã hội để quảng cáo cũng là dấu hiệu của những lừa đảo này. Do bản chất bất hợp pháp và không đạo đức cũng như rủi ro tài chính mà chúng đại diện, việc tránh xa chúng là rất quan trọng.
-Cuối cùng, những hệ thống này đều định sẽ thất bại. Theo thời gian, yêu cầu về số lượng người tham gia mới ngày càng tăng để giữ hệ thống hoạt động trở nên không thể vượt qua. Khi điểm này được đạt tới, ảo tưởng tan biến, hệ thống sụp đổ, và nhà đầu tư thường phải đối mặt với việc không thể thu hồi lại khoản đầu tư của mình.
+Những hệ thống này thường được đặc trưng bởi các yếu tố đáng ngờ như không có giá trị nội tại, hứa hẹn lợi nhuận không thực tế, và các chiến lược tiếp thị khuyến khích giới thiệu để thu hút nhà đầu tư mới. Sự chậm trễ trong việc rút tiền của nhà đầu tư nhưng không có lý do rõ ràng và việc sử dụng hồ sơ giả trên các mạng xã hội để quảng cáo cũng là dấu hiệu của những mô hình lừa đảo này. Do bản chất bất hợp pháp và phi đạo đức cũng như rủi ro tài chính mà chúng mang lại, bạn cần tránh xa chúng.
+Cuối cùng, những hệ thống này đều sẽ sụp đổ. Theo thời gian, lượng người mới tham gia vào hệ thống sẽ không đủ theo yêu cầu để duy trì hoạt động bình thường của toàn hệ thống. Khi đó, ảo tưởng tan biến, hệ thống sụp đổ, và nhà đầu tư thường phải đối mặt với việc không thể thu hồi lại khoản đầu tư của mình.
 
-Các kế hoạch Ponzi có thể biểu hiện theo nhiều cách khác nhau. Đôi khi, chúng được ngụy trang dưới dạng các đợt phát hành token mới hoặc Initial Coin Offerings (ICOs), kết hợp các hợp đồng thông minh, nỗ lực độc quyền hóa tiền tệ fiat, hoặc thậm chí là các chương trình tiếp thị mà không có sản phẩm thực sự. Tuy nhiên, qua điều tra kỹ lưỡng và thẩm định, những hệ thống này được phát hiện không tạo ra giá trị thực sự. Chúng chỉ đơn giản là phân phối lại tiền từ người mới tham gia để trả cho những người tham gia cũ.
+Các kế hoạch Ponzi có thể biểu hiện ra bên ngoài theo nhiều cách khác nhau. Đôi khi, chúng được ngụy trang dưới dạng các đợt phát hành token mới (ICOs), kết hợp với các hợp đồng thông minh, nỗ lực độc quyền hóa tiền tệ fiat, hoặc thậm chí là các chương trình quảng bá mà không có sản phẩm thực sự. Tuy nhiên, qua điều tra kỹ lưỡng và thẩm định, những hệ thống này được phát hiện không tạo ra giá trị thực sự. Chúng chỉ đơn giản là dùng tiền của người mới tham gia để trả lãi cho những người tham gia trước.
 
-Gần đây, thế giới tiền mã hóa đã chứng kiến một làn sóng các dự án liên quan đến Tài chính Phi tập trung (DeFi) đáng chú ý. Một số dự án này có thể sử dụng sự kết hợp của các loại tiền mã hóa chất lượng thấp, hợp đồng thông minh, và hệ thống lãi suất để cung cấp những giải pháp tài chính dường như kỳ diệu. Việc thận trọng và thẩm định kỹ lưỡng trước những lời đề nghị cực kỳ lừa đảo này là rất quan trọng.
+Gần đây, thế giới tiền mã hóa đã chứng kiến một làn sóng các dự án liên quan đến Tài chính Phi tập trung (DeFi), một làn sóng rất đáng được quan tâm. Một số dự án này có thể là sự kết hợp của các loại tiền mã hóa chất lượng thấp, hợp đồng thông minh, và hệ thống lãi suất để cung cấp những giải pháp tài chính dường như kỳ diệu. Bạn cần thận trọng và thẩm định kỹ khi đối mặt với những lời đề nghị rất "có mùi lừa đảo" như thế này.
 
-Cần lưu ý rằng nội dung của khóa học này chỉ nhằm mục đích giáo dục và không nên được hiểu là lời khuyên tài chính. Lời khuyên "tin tưởng, nhưng kiểm chứng" vẫn là một nguyên tắc quan trọng. Việc mỗi người tiến hành nghiên cứu của riêng mình và đưa ra quyết định tài chính thông minh là rất cần thiết.
+Cần lưu ý rằng nội dung của khóa học này chỉ nhằm mục đích giáo dục và không nên được hiểu là lời khuyên tài chính. Lời khuyên "tin tưởng, nhưng kiểm chứng" vẫn là một nguyên tắc quan trọng. Quan trọng là mỗi người phải tự nghiên cứu và đưa ra quyết định tài chính của riêng mình một cách thông minh.
 
-Pump and Dump (P&D) là một hình thức thao túng tài chính nổi tiếng có thể gây ra những rối loạn lớn trên thị trường. Nó được đặc trưng bởi một cuộc tấn công phối hợp nhằm tăng giá của một tài sản một cách nhân tạo thông qua các cơ chế khác nhau, như tiếp thị mạnh mẽ, sử dụng thuật toán, hoặc trí tuệ nhân tạo. Mục tiêu là sau đó bán những tài sản được định giá cao để thu lợi nhuận.
+Pump and Dump (P&D) là một hình thức thao túng tài chính nổi tiếng có thể gây ra sự rối loạn lớn trên thị trường. Nó là một cuộc tấn công được phối hợp nhằm làm tăng giá của một tài sản một cách nhân tạo thông qua các cơ chế khác nhau, như quảng bá mạnh mẽ, sử dụng thuật toán, hoặc trí tuệ nhân tạo. Mục tiêu là sau đó bán các tài sản được định giá cao để thu lợi nhuận.
 
 ![Pump and dump](assets/prerequis/8.webp)
 
 Chiến lược Pump and Dump thường tuân theo một mô hình rõ ràng:
 
-1. Một nhà lãnh đạo ý kiến hoặc một nhóm nhà đầu tư trước tiên mua một số lượng lớn cổ phiếu hoặc tài sản khác được nhắm mục tiêu.
-2. Sau đó, họ tạo ra sự hứng thú quanh những tài sản này và lan truyền thông tin thổi phồng hoặc gây hiểu lầm để thu hút nhà đầu tư khác.
-3. Sự hứng thú này kích hoạt FOMO (Nỗi sợ bỏ lỡ) trong số các nhà đầu tư con người và bot đầu tư, những người bắt đầu mua các tài sản này một cách hàng loạt.
-4. Một khi giá đã tăng đủ, các nhà lãnh đạo bán số lượng lớn tài sản của họ, do đó thu được lợi nhuận đáng kể.
+1. Đầu tiên, một người có ảnh hưởng hoặc một nhóm nhà đầu tư mua một số lượng lớn cổ phiếu hoặc tài sản mục tiêu.
+2. Sau đó, họ tạo ra sự hứng thú xung quanh những tài sản này và lan truyền các thông tin được thổi phồng hoặc gây hiểu lầm để thu hút nhà đầu tư khác.
+3. Sự hứng thú này kích hoạt tâm lý FOMO (Nỗi sợ bỏ lỡ cơ hội) trong cộng đồng các nhà đầu tư cũng như các hệ thống bot giao dịch, những người này sẽ bắt đầu mạnh tay mua các tài sản này.
+4. Một khi giá đã tăng đủ, những kẻ cầm đầu sẽ bán số lượng lớn tài sản của họ, do đó thu được lợi nhuận đáng kể.
 5. Việc bán tháo hàng loạt dẫn đến sự sụt giảm mạnh về giá của tài sản, khiến nhiều nhà đầu tư chịu tổn thất nặng nề.
-Việc hiểu rõ việc tham gia vào những chiến lược như vậy là bất hợp pháp và có thể dẫn đến cáo buộc thao túng thị trường là rất quan trọng. Ngoài ra, những chiến lược này thường được tổ chức bởi các nhóm có ảnh hưởng lớn yêu cầu phí thành viên. Mặc dù một số người tham gia có thể đạt được lợi nhuận ngắn hạn, nhưng chiến lược Pump and Dump nói chung không mang lại lợi nhuận trong dài hạn. Do đó, được khuyến nghị tập trung vào giáo dục tài chính và đầu tư có trách nhiệm, thay vì bị lôi kéo bởi những thủ thuật thao túng như vậy. Việc có kiến thức vững chắc và áp dụng một cách tiếp cận dài hạn là chìa khóa thiết yếu để thành công trong thế giới đầu tư.
+Quan trọng là bạn cần hiểu rằng việc tham gia vào những chiến lược như vậy là bất hợp pháp và có thể dẫn đến cáo buộc thao túng thị trường . Ngoài ra, những chiến lược này thường được tổ chức bởi các nhóm có ảnh hưởng lớn yêu cầu phí thành viên. Mặc dù một số người tham gia có thể đạt được lợi nhuận ngắn hạn, nhưng chiến lược Pump and Dump nói chung không mang lại lợi nhuận trong dài hạn. Do đó, chúng ta chỉ nên tập trung vào nâng cao kiến thức tài chính và đầu tư có trách nhiệm, thay vì bị lôi kéo bởi những thủ thuật thao túng như vậy. Việc có kiến thức vững chắc và áp dụng một cách tiếp cận dài hạn là chìa khóa quan trọng để thành công trong thế giới đầu tư.
 
-Các trò lừa đảo liên quan đến cuộc thi trực tuyến hoặc quyên góp là rất phổ biến trong lĩnh vực tiền điện tử. Quảng cáo hứa hẹn bitcoin miễn phí thường được sử dụng để lừa gạt người dùng không có kinh nghiệm. Nguyên tắc quan trọng cần nhớ là không bao giờ gửi bitcoin với kỳ vọng nhận lại chúng và cảnh giác với những lời hứa về lợi nhuận không thực tế. Rất quan trọng là không mù quáng tin tưởng, đặc biệt là khi nói đến một biểu ngữ trên internet.
+Các trò lừa đảo liên quan đến cuộc thi hoặc quyên góp trực tuyến cũng rất phổ biến trong lĩnh vực tiền điện tử. Thủ đoạn quảng cáo hứa hẹn tặng bitcoin miễn phí thường được sử dụng để lừa gạt người ít kinh nghiệm. Nguyên tắc quan trọng cần nhớ là không bao giờ gửi bitcoin với kỳ vọng sẽ nhận lại chúng và cảnh giác với những lời hứa về lợi nhuận không thực tế. Quan trọng là bạn được tin tưởng mù quáng, đặc biệt là các lời chào mời trên internet.
 
-Một ví dụ điển hình của loại lừa đảo này là một lời đề nghị tuyên bố sẽ nhân đôi hoặc tăng gấp nhiều lần số bitcoin bạn gửi. Quan trọng là phải hiểu rằng không có giải pháp ma thuật nào để trở nên giàu có ngay lập tức.
+Một ví dụ điển hình của loại hình lừa đảo này là một lời đề nghị gửi bitcoin của bạn đến một ví nào đó với tuyên bố sẽ nhận lại mức nhân đôi hoặc tăng gấp nhiều lần số bitcoin bạn gửi. Sẽ chẳng có giải pháp ma thuật nào để giúp bạn trở nên giàu có ngay lập tức cả, đó là nguyên tắc quan trọng bạn cần hiểu rõ.
 
 ![donation scam](assets/prerequis/9.webp)
 
-Một chiến thuật thường được sử dụng khác là quyên góp "shitcoins," hoặc các loại tiền điện tử giá trị thấp. Một số dự án tiền điện tử tập trung sẽ tiến hành nhiều hoạt động tiếp thị và cung cấp token miễn phí như quà. Cần phải rất cẩn thận với những lời đề nghị này, vì hoặc là token không có giá trị, hoặc quà tặng chỉ đơn giản được sử dụng để thu hút sự chú ý và quảng bá giao dịch, cờ bạc và các trò lừa đảo khác. Ngay cả khi những lời đề nghị này không phải lúc nào cũng là gian lận, bất hợp pháp hoặc gây hiểu lầm, sự cảnh giác vẫn là điều cần thiết.
-Trên Twitter, chẳng hạn, các bot có thể giả mạo nhân vật nổi tiếng và đề nghị những thỏa thuận không tưởng để lừa đảo mọi người. Những tài khoản này sử dụng cùng tên và hình ảnh hồ sơ như nhân vật đó, và do đó có thể lừa đảo người dùng ít kinh nghiệm hơn. Luôn đảm bảo xác minh tính hợp pháp của tài khoản trước khi tương tác với nó.
-Cũng quan trọng là phải cảnh giác với các liên kết được gửi qua email. Luôn kiểm tra liên kết trước khi nhấp vào nó và chú ý đến danh tính của người gửi.
+Một chiến thuật thường được sử dụng khác là quyên góp "shitcoins," hoặc các loại tiền điện tử giá trị thấp. Một số dự án tiền điện tử tập trung sẽ tiến hành nhiều hoạt động tiếp thị và cung cấp token miễn phí như quà. Cần phải rất cẩn trọng với những lời đề nghị này, vì hoặc là token không có giá trị, hoặc quà tặng chỉ đơn giản được sử dụng để thu hút sự chú ý và quảng bá giao dịch, cờ bạc và các trò lừa đảo khác. Ngay cả khi những lời đề nghị này không phải lúc nào cũng là gian lận, bất hợp pháp hoặc gây hiểu lầm, bạn vẫn nên đề cao cảnh giác.
+Trên Twitter (nay là X), chẳng hạn, các bot có thể giả mạo nhân vật nổi tiếng và đưa ra  những đề xuất tốt không tưởng để lừa đảo mọi người. Những tài khoản này sử dụng cùng tên và hình ảnh hồ sơ như nhân vật đó, và do đó có thể lừa đảo người dùng non kinh nghiệm. Luôn đảm bảo xác minh tính hợp pháp của tài khoản trước khi tương tác với nó.
+Chúng ta cũng cần phải cảnh giác với các liên kết được gửi qua email. Luôn kiểm tra liên kết trước khi nhấp vào nó và chú ý đến danh tính của người gửi.
 
-Cuối cùng, đây là một số mẹo để tránh các trò lừa đảo trực tuyến:
+Cuối cùng, một số mẹo để tránh các trò lừa đảo trực tuyến mà chúng ta có thể áp dụng:
 
-- Những người trung thực sẽ không bao giờ yêu cầu bạn gửi tiền trực tiếp.
-- Không bao giờ gửi bitcoin đến một địa chỉ không rõ.
+- Những người trung thực, đàng hoàng sẽ không bao giờ yêu cầu bạn gửi tiền trực tiếp.
+- Không bao giờ gửi bitcoin đến một địa chỉ không rõ chủ sở hữu.
 - Lời hứa về lợi nhuận không thực tế luôn đáng ngờ.
 - Các cuộc thi có khả năng bị dàn xếp.
-- Bạn sẽ luôn thu được nhiều hơn bằng cách học hơn là chơi.
+- Bạn sẽ luôn đạt được nhiều thành quả hơn bằng cách học thay vì chơi.
 - Khi có nghi ngờ, không hành động ngay lập tức. Dành thời gian để suy nghĩ và nghiên cứu. FOMO (Nỗi sợ bỏ lỡ) có thể là kẻ thù tồi tệ nhất của bạn.
   Luôn nhớ rằng tự mình nghiên cứu trước khi đưa ra quyết định đầu tư.
 
-Bitcoin đã trải qua nhiều hard forks theo thời gian, tạo ra các phiên bản thay thế khác nhau của đồng tiền gốc. Những sự lệch lạc này thường là công việc của các nhà phát triển tìm cách thực hiện những thay đổi đáng kể đối với giao thức Bitcoin, hoặc đôi khi của những cá nhân xấu có ý định lừa đảo nhà đầu tư ngây thơ. Việc phân biệt Bitcoin thực sự với những phiên bản phái sinh này là rất quan trọng để tránh rơi vào bẫy tiềm ẩn. Những ví dụ đáng chú ý về những sự lệch lạc này bao gồm Bitcoin Cash (BCH) và Bitcoin Satoshi Vision (BSV). Mặc dù mang tên "Bitcoin," những dự án này chủ yếu dựa vào chiến thuật tiếp thị và quảng cáo sai lệch để thu hút sự chú ý của nhà đầu tư.
+Bitcoin đã trải qua một số hard forks theo thời gian, tạo ra các phiên bản thay thế khác nhau của đồng tiền gốc. Những sự lệch lạc này thường là nỗ lực của các nhà phát triển tìm cách thực hiện những thay đổi đáng kể đối với giao thức Bitcoin, hoặc đôi khi của những cá nhân xấu có ý định lừa đảo nhà đầu tư ngây thơ. Việc phân biệt Bitcoin thực sự với những phiên bản phái sinh này là rất quan trọng để tránh rơi vào bẫy tiềm ẩn. Những ví dụ đáng chú ý về các phiên bản phái sinh này bao gồm Bitcoin Cash (BCH) và Bitcoin Satoshi Vision (BSV). Mặc dù mang tên "Bitcoin," những dự án này chủ yếu dựa vào chiến thuật tiếp thị và quảng cáo sai lệch để thu hút sự chú ý của nhà đầu tư.
 
 ![donation scam](assets/prerequis/10.webp)
 
-Một câu nói phổ biến trong thế giới đầu tư là: "Nếu nó trông giống như một trò lừa đảo, hành xử như một trò lừa đảo, và đảm bảo rằng nó không phải là trò lừa đảo, thì khả năng cao đó là một trò lừa đảo."
+Một câu nói nổi tiếng trong thế giới đầu tư là: "Nếu nó trông giống như một trò lừa đảo, hành xử như một trò lừa đảo, và cam đoan rằng nó không phải là trò lừa đảo, thì khả năng cao đó là một trò lừa đảo."
 
-Cần lưu ý rằng một số sự lệch lạc này được tài trợ tốt và chi tiêu nhiều vào giao tiếp để lừa đảo người dùng. Ví dụ, trang web "Bitcoin.com" liên quan đến Bitcoin Cash, không phải Bitcoin gốc, điều này có thể gây nhầm lẫn cho người mới. Trang web chính thức của Bitcoin là "bitcoin.org".
-Thế giới của tiền mã hóa là mảnh đất màu mỡ cho mọi loại nhân vật, bị thu hút bởi khả năng đạt được lợi nhuận đáng kể. Thật không may, trong số họ, có những cá nhân với ý đồ xấu xa sử dụng nhiều chiến thuật để lừa đảo và gạt gẫm nhà đầu tư. Những chiến thuật này có thể bao gồm việc công khai quảng cáo các kế hoạch kim tự tháp, giả mạo người tạo ra Bitcoin, Satoshi Nakamoto, sao chép công việc của người khác, hoặc đưa ra những lời hứa giả dối. Ngoài ra, một số cá nhân này tạo ra các token tiền mã hóa vô dụng và Đợt Phát Hành Coin Ban Đầu (ICOs) nhằm lừa đảo nhà đầu tư.
+Cần lưu ý rằng một số phiên bản phái sinh được tài trợ tốt và chi tiêu nhiều vào quảng bá, tiếp thị để lừa đảo người dùng. Ví dụ, trang web "Bitcoin.com" liên quan đến Bitcoin Cash, không phải Bitcoin gốc, điều này có thể gây nhầm lẫn cho người mới. Trang web chính thức của Bitcoin là "bitcoin.org".
+
+Tiền mã hóa là mảnh đất màu mỡ cho mọi loại kiểu nhân cách, bị thu hút bởi khả năng đạt được lợi nhuận đáng kể. Thật không may, trong số họ, có những cá nhân với ý đồ xấu xa sử dụng nhiều chiến thuật để lừa đảo nhà đầu tư. Những chiến thuật này có thể bao gồm việc công khai quảng bá các kế hoạch kim tự tháp, giả mạo người tạo ra Bitcoin, Satoshi Nakamoto, sao chép sản phẩm của người khác, hoặc đưa ra những lời hứa giả dối. Ngoài ra, một số cá nhân tạo ra các token tiền mã hóa vô dụng và phát hành ra công chúng thông qua các đợt ICOs nhằm lừa đảo nhà đầu tư.
 
 ![donation scam](assets/prerequis/11.webp)
 
-Cộng đồng Bitcoin thường xuyên huy động để lên án những hành động này, nhưng có thể mất một thời gian trước khi hệ thống pháp luật có thể hành động chống lại những cá nhân này.
+Cộng đồng Bitcoin thường xuyên lên án những hành động này, nhưng có thể sẽ cần một khoảng thời gian trước khi hệ thống pháp luật có thể hành động chống lại những cá nhân này.
 
-Do đó, việc cần thiết là phải luôn cảnh giác và tập trung trong các tương tác với thế giới tiền mã hóa. Lời khuyên cá nhân của tôi sẽ là hãy bỏ qua những cá nhân và hành vi này. Họ không xứng đáng với thời gian hay năng lượng của bạn. Thay vào đó, hãy dành những nguồn lực này để tích lũy kiến thức và hiểu biết về thị trường tiền mã hóa để có thể điều hướng thế giới này một cách thông tin và an toàn.
+Do đó, việc cần thiết là phải luôn cảnh giác và sáng suốt khi tương tác với thế giới tiền mã hóa. Lời khuyên cá nhân của tôi sẽ là hãy bỏ qua những cá nhân và hành vi này. Họ không xứng đáng với thời gian hay năng lượng của bạn. Thay vào đó, hãy dành những nguồn lực này để tích lũy kiến thức và hiểu biết về thị trường tiền mã hóa để có thể khám phá thế giới này một cách an toàn và có hiểu biết.
 
-Cần phải cẩn thận với "những người ảnh hưởng về tiền mã hóa" hoặc "gurus". Những cá nhân này thường có những mục tiêu cá nhân và có thể tham gia vào nhiều dự án mà họ muốn quảng bá, ngay cả khi chúng không luôn là lợi ích tốt nhất cho nhà đầu tư.
+Cần phải cẩn thận với "những người ảnh hưởng về tiền mã hóa - crypto influencers" hoặc "gurus". Những cá nhân này thường có những mục tiêu cá nhân và có thể tham gia vào nhiều dự án mà họ muốn quảng bá, ngay cả khi chúng không đem lại lợi ích tốt nhất cho nhà đầu tư.
 
 Những người ảnh hưởng này có thể cố gắng quảng bá các loại tiền mã hóa không đáng tin cậy, hoặc "shitcoins," và áp dụng các chiến lược khác nhau để tăng giá trị của khoản đầu tư của họ, ngay cả khi chúng không an toàn hoặc có thể là gian lận.
-Dưới đây là một số lời khuyên để điều hướng môi trường này:
+Dưới đây là một số lời khuyên để bạn có thể khám phá môi trường này:
 
-- Hãy cảnh giác với bất kỳ ai quảng cáo một loại tiền mã hóa cụ thể hoặc đề nghị giao dịch.
+- Hãy cảnh giác với bất kỳ ai quảng bá một loại tiền mã hóa cụ thể hoặc đề nghị giao dịch.
 - "Lời khuyên miễn phí" thường không thực sự miễn phí và có thể che giấu ý đồ khác.
-- Suy nghĩ kỹ trước khi trả tiền cho giáo dục giao dịch. Có nhiều nguồn lực miễn phí có sẵn để giúp bạn hiểu thị trường tiền mã hóa (ví dụ, kênh YouTube 'ukspreadbetting').
+- Suy nghĩ kỹ trước khi trả tiền cho các khoá học đào tạo về giao dịch. Có nhiều nguồn lực miễn phí có sẵn để giúp bạn hiểu thị trường tiền mã hóa (ví dụ, kênh YouTube 'ukspreadbetting').
 - Không thể đơn giản sao chép giao dịch của người khác và mong đợi kết quả tương tự.
 - Hãy nhớ rằng chỉ vì ai đó nói điều gì đó không nhất thiết làm cho nó trở nên đúng.
 
-Cách tốt nhất để bảo vệ bản thân là thực hiện nghiên cứu của riêng bạn và xác minh các nguồn thông tin. Xem một video trên YouTube không đủ để xác minh nguồn.
+Cách tốt nhất để bảo vệ bản thân là thực hiện nghiên cứu của riêng bạn và xác minh các nguồn thông tin. Xem một video trên YouTube không đủ để xác minh các nguồn thông tin.
 
 Quan trọng là phải lưu ý rằng mọi người đều có mục tiêu của riêng họ, bao gồm cả tôi. Tôi tin vào Bitcoin và mục tiêu của tôi là quảng bá nó. Tôi hy vọng sẽ được hưởng lợi từ việc quảng bá này, cả về mặt chính trị và tài chính. Không có nội dung nào hoàn toàn miễn phí - nếu một sản phẩm hoặc dịch vụ có vẻ miễn phí, có khả năng là vì bạn là sản phẩm.
-Luôn nhớ rằng không phải ai cũng sẽ minh bạch về ý định của họ. Luôn đặt câu hỏi về mục đích của hành động của ai đó và không mù quáng tin tưởng họ.
+Luôn nhớ rằng không phải ai cũng sẽ minh bạch về ý định của họ. Luôn đặt câu hỏi về mục đích hành động của ai đó và không mù quáng tin tưởng họ.
 
-## An ninh trực tuyến
+## Bảo mật trực tuyến
 <chapterId>f0873bf2-6a6f-5485-bb7a-d84be14f404d</chapterId>
 
-Ngoài lừa đảo tiền mã hóa và lừa đảo tài chính, lý do chính dẫn đến việc mất bitcoin liên quan đến quản lý an ninh trực tuyến kém. Thường xuyên xảy ra trường hợp mọi người sử dụng cùng một mật khẩu cho tất cả các tài khoản của họ, quên cập nhật máy tính, và bỏ qua việc sao lưu dữ liệu định kỳ. Nếu bạn lo lắng về những thực hành này, đừng lo, luôn có khả năng cải thiện thói quen an ninh trực tuyến của bạn. Dưới đây là một số biện pháp cơ bản để thực hiện:
+Ngoài lừa đảo tiền mã hóa và lừa đảo tài chính, lý do chính dẫn đến việc mất bitcoin liên quan đến quản lý bảo mật trực tuyến kém. Thường xuyên xảy ra trường hợp mọi người sử dụng cùng một mật khẩu cho tất cả các tài khoản của họ, quên cập nhật máy tính, và bỏ qua việc sao lưu dữ liệu định kỳ. Nếu bạn lo lắng về những thực hành này, đừng lo, bạn luôn có thể cải thiện thói quen bảo mật trực tuyến của bản thân. Dưới đây là một số biện pháp cơ bản để thực hiện:
 
 - Sử dụng một trình quản lý mật khẩu (xem hướng dẫn LastPass),
 - Kích hoạt xác thực hai yếu tố (2FA),
-- Giữ máy tính của bạn được cập nhật và không có malware,
+- Giữ máy tính của bạn được cập nhật và không có phần mềm độc hại,
 - Đánh giá cao sự riêng tư của bạn bằng cách sử dụng các công cụ chuyên dụng (Signal, Tor, ProtonMail).
 
-Nếu chủ đề này hoàn toàn mới mẻ với bạn, khóa học SECU 101 có thể thú vị để khám phá nó chi tiết.
+Nếu chủ đề này hoàn toàn mới mẻ với bạn, bạn nên khám phá chi tiết khóa học SECU 101, đó là một khoá học rất thú vị.
 
 Việc giữ cho máy tính của bạn ở tình trạng làm việc tối ưu là rất quan trọng, cho dù bạn quan tâm đến Bitcoin hay không. Một bản cập nhật không chỉ để thêm tính năng mới: nó cũng sửa chữa lỗi và cải thiện bảo mật của phần mềm của bạn. Vì vậy, hãy đảm bảo:
 
-- Luôn cập nhật phần mềm của bạn,
-- Sử dụng phần mềm antivirus đáng tin cậy.
-- Hãy cẩn thận khi tải các tệp xuống,
-- Thường xuyên sao lưu dữ liệu của bạn,
-- Không bao giờ chia sẻ mật khẩu của bạn.
+- Luôn cập nhật phần mềm của bản thân,
+- Sử dụng phần mềm diệt vi rút đáng tin cậy.
+- Hãy cẩn thận khi tải xuống các tệp tin,
+- Thường xuyên sao lưu dữ liệu của bản thân,
+- Không bao giờ chia sẻ mật khẩu của bản thân.
 
-Một lời khuyên bổ sung: cân nhắc mua một ổ cứng di động và thực hiện sao lưu toàn bộ các tệp quan trọng của bạn. Điều này có thể vô giá trong trường hợp máy tính hỏng.
+Một lời khuyên bổ sung: cân nhắc mua một ổ cứng di động và thực hiện sao lưu toàn bộ các dữ liệu quan trọng của bạn. Điều này có thể vô giá trong trường hợp máy tính hỏng.
 
-Trình quản lý mật khẩu là một phần mềm lưu trữ và quản lý mật khẩu của bạn. Nó giúp bạn không bao giờ sử dụng cùng một mật khẩu hai lần, chọn mật khẩu phức tạp và an toàn, và tạo điều kiện cho việc quản lý an ninh trực tuyến của bạn. Bạn chỉ cần nhớ một mật khẩu chính. Đây là một công cụ miễn phí mà mọi người nên tận dụng. Bạn có thể bắt đầu sử dụng nó một cách dần dần và một khi bạn quen với nó, bạn sẽ thấy nó vô cùng tiện lợi và dễ sử dụng.
+Trình quản lý mật khẩu là một phần mềm lưu trữ và quản lý mật khẩu của bạn. Nó giúp bạn không bao giờ sử dụng cùng một mật khẩu hai lần, chọn mật khẩu phức tạp và an toàn, và quản lý bảo mật trực tuyến của bạn. Bạn chỉ cần nhớ một mật khẩu chính. Đây là một công cụ miễn phí mà mọi người nên tận dụng. Bạn có thể bắt đầu sử dụng nó từ từ và một khi bạn quen với nó, bạn sẽ thấy nó vô cùng tiện lợi và dễ sử dụng.
 
 ![quản lý mật khẩu](assets/prerequis/12.webp)
 
@@ -174,7 +175,7 @@ Trình quản lý mật khẩu là một phần mềm lưu trữ và quản lý 
 ![quản lý mật khẩu](assets/prerequis/3.webp)
 ![quản lý mật khẩu](assets/prerequis/4.webp)
 
-Một VPN, hay Mạng Riêng Ảo, bảo vệ sự riêng tư của bạn bằng cách che giấu địa chỉ IP của bạn. Mặc dù nó không làm bạn hoàn toàn ẩn danh, nhưng vẫn là một bước đơn giản và hiệu quả để cải thiện sự riêng tư trực tuyến của bạn. Chọn một VPN, tải xuống và sử dụng nó là một quy trình dễ dàng để thiết lập.
+Một VPN, hay Mạng Riêng Ảo, bảo vệ sự riêng tư bằng cách che giấu địa chỉ IP của bạn. Mặc dù nó không làm bạn hoàn toàn ẩn danh, nhưng vẫn là một bước đơn giản và hiệu quả để cải thiện sự riêng tư trực tuyến của bạn. Chọn một VPN, tải xuống và sử dụng nó là một quy trình dễ dàng để thiết lập.
 
 Sự ẩn danh trực tuyến là cần thiết cho một xã hội tự do và thịnh vượng. Nó cho phép tự do biểu đạt, bảo vệ nhân chứng, và đổi mới. Quyền riêng tư là một quyền con người cơ bản. Để tiếp tục bảo vệ sự riêng tư của bạn, hãy cân nhắc sử dụng:
 
@@ -187,20 +188,20 @@ Sự ẩn danh trực tuyến là cần thiết cho một xã hội tự do và 
 
 Một lần nữa, nếu bạn quan tâm đến chủ đề này, khóa học SECU 101 có sẵn để hướng dẫn bạn.
 
-## Mẹo cho Người Mới Bắt Đầu
+## Mẹo cho người mới bắt đầu
 <chapterId>33134b3f-92c1-5185-afb6-88599e47e801</chapterId>
 
-Giáo dục chính quy dạy chúng ta rất ít về đầu tư. Kết quả là, chúng ta thường tự mình bước vào lĩnh vực đầu tư mới và phức tạp này.
+Giáo dục chính quy dạy chúng ta rất ít về đầu tư. Kết quả là, chúng ta thường tự mình khám phá lĩnh vực đầu tư mới và phức tạp này.
 
 Trong phần này, chúng ta sẽ xem xét một số sai lầm phổ biến mà nhà đầu tư mới mắc phải khi bước vào thế giới Bitcoin, và làm thế nào bạn có thể tránh rơi vào những bẫy tương tự. Chúng ta cũng sẽ thảo luận về cách lên kế hoạch đầu tư Bitcoin một cách khôn ngoan. Các chủ đề chúng ta sẽ bao gồm:
 
 - Cảnh giác với "Shitcoins" hoặc các loại tiền điện tử khác không có giá trị nội tại.
 - Chỉ đầu tư số tiền bạn có thể chấp nhận mất.
 - Hiểu biết sự khác biệt giữa giao dịch và đầu tư.
-- Nhận thức về hậu quả thuế.
-- Quản lý chìa khóa riêng của bạn một cách cẩn thận.
-- Tầm quan trọng của việc giữ mình khiêm tốn và kín đáo.
-- Áp dụng quan điểm dài hạn.
+- Nhận thức về nghĩa vụ thuế.
+- Quản lý chìa khóa riêng tư của bạn một cách cẩn thận.
+- Tầm quan trọng của việc gìn giữ sự khiêm tốn, thận trọng và kín đáo của bản thân
+- Áp dụng tầm nhìn dài hạn.
 
 ![quản lý mật khẩu](assets/prerequis/0.webp)
 
@@ -969,10 +970,11 @@ Tôi thực sự tự hào vì bạn đã đạt đến giai đoạn này. Tôi 
 Dù trường hợp nào, tất cả các khóa học của chúng tôi đều miễn phí, và nhiều tài nguyên hoặc hướng dẫn có sẵn trên nền tảng của chúng tôi để đi cùng bạn. Chúc bạn may mắn với việc học!
 
 
-
 ## Cho chúng tôi biết phản hồi của bạn về khóa học này
-<chapterId>3f43175a-fb7a-5b1c-a887-7dcf615d7a3a</chapterId>
+<chapterId>387a1a92-7a16-d985-a861-0a84259dca6a</chapterId>
 <isCourseReview>true</isCourseReview>
+
 ## Theo dõi
 <chapterId>b082b8eb-dabc-5d79-94cf-eb8f48fc1968</chapterId>
+
 Khóa học này, cũng như tất cả nội dung có sẵn trên trường đại học này, đã được cung cấp cho bạn miễn phí bởi cộng đồng của chúng tôi. Để hỗ trợ chúng tôi, bạn có thể chia sẻ nó với người khác, trở thành thành viên của trường đại học, và thậm chí đóng góp vào sự phát triển của nó qua GitHub. Thay mặt cho toàn bộ đội ngũ, cảm ơn bạn!

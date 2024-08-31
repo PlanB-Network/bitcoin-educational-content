@@ -6,6 +6,7 @@ from datetime import date
 BASE_FEE = 2500
 yaml = YAML()
 yaml.preserve_quotes = True
+yaml.indent(mapping=2, sequence=4, offset=2)
 
 specific_files = {"course.yml",
                   "question.yml",
@@ -141,7 +142,6 @@ def update_proofreading_reward(file_path, language):
       reward = compute_reward(words, difficulty_factor, language_factor, urgency, BASE_FEE, proofread_iteration)
     else:
       reward = 0
-    print(reward)
     update_proofreading_inline_property(data, language, 'reward', reward)
     update_yml_data(file_path, data)
 
@@ -180,7 +180,3 @@ def add_proofreading_contributor(data, language, contributor_id):
             print('added')
             break
     
-test_filepath = '../../courses/btc101/course.yml'
-data = get_yml_content(test_filepath)
-print(get_difficulty_factor(data))
-update_proofreading_reward(test_filepath, 'fr')

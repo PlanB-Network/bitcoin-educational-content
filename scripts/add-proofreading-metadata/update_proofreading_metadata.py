@@ -121,6 +121,7 @@ def update_proofreading(root_dir, specific_files):
             print(f"Checking for {dirpath}")
             missing_proofreading_section = False
             yml_filepath = get_existing_file_path(dirpath, specific_files)
+            print(yml_filepath)
             data = get_yml_content(yml_filepath)  
             existing_languages = get_language_list_for_content(dirpath)
 

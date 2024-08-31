@@ -105,7 +105,7 @@ def ask_yes_no_question(question):
         response = input(question+" [y/n]: ").strip().lower()
         if response in ['y', 'n']:
             return response
-        else
+        else:
             print("Please enter 'y' for yes or 'n' for no.")
 
 def update_proofreading(root_dir, specific_files):

@@ -151,7 +151,10 @@ def update_proofreading(root_dir, specific_files):
                         print(f"Proofreading section added for {language}")
                         print()
 
-                    update_proofreading_reward(yml_filepath, language)
+                    current_reward = get_proofreading_property(data, language, 'reward')
+                    evaluated_reward = evaluate_proofreading_reward(yml_filepath, language)
+                    if current_reward != evaluated_reward:
+                        update_proofreading_reward(yml_filepath, language, evaluated_reward)
 
             if not missing_proofreading_section:
                 print(f"Everything updated in {dirpath}")

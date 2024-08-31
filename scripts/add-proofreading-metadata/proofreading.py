@@ -127,7 +127,7 @@ def update_proofreading_inline_property(data, language, property_name, property_
 def is_original(data, language):
     return data['original_language'] == language
 
-def update_proofreading_reward(file_path, language):
+def evaluate_proofreading_reward(file_path, language):
     data = get_yml_content(file_path)
     words = get_words(file_path)
     difficulty_factor = get_difficulty_factor(data)
@@ -137,9 +137,15 @@ def update_proofreading_reward(file_path, language):
 
     proofread_iteration = get_proofreading_state(data, language)
     urgency = get_proofreading_property(data, language, 'urgency')
+    reward = compute_reward(words, difficulty_factor, language_factor, urgency, BASE_FEE, proofread_iteration)
+    return reward
+    
+def update_proofreading_reward(file_path, language, evaluated_reward):
+    data = get_yml_content(file_path)
+    proofread_iteration = get_proofreading_state(data, language)
 
     if proofread_iteration < 3:
-      reward = compute_reward(words, difficulty_factor, language_factor, urgency, BASE_FEE, proofread_iteration)
+      reward = evaluated_reward
     else:
       reward = 0
     update_proofreading_inline_property(data, language, 'reward', reward)

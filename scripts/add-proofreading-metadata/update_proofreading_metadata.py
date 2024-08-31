@@ -78,7 +78,7 @@ def add_new_contribution_to(content_path):
             new_urgency = input("Enter the new urgency value (integer): ")
             try:
                 new_urgency = int(new_urgency)
-                break  # Exit the loop if conversion to int was successful
+                break  
             except ValueError:
                 print("Please enter a valid integer.")
         update_proofreading_inline_property(data, selected_language, 'urgency', new_urgency)    
@@ -96,10 +96,6 @@ def add_new_contribution_to(content_path):
     else:
         print(f"Congrats! {content_name} requires no more proofreading in {selected_language}")
 
-
-    # update reward for this content for this language
-    # tell the state of that proofreading language and the next reward
-    # associated to it
 def ask_yes_no_question(question):
     while True:
         response = input(question+" [y/n]: ").strip().lower()
@@ -140,7 +136,6 @@ def update_proofreading(root_dir, specific_files):
                     if not check_language_existence(data, language):
                         print(f"Proofreading section missing for {language}")
                         missing_proofreading_section = True
-                        # Add the proofreading section at the end of the YAML file
                         proofreading_section = (
                             f"  - language: {language}\n"
                             f"    last_contribution_date:\n"
@@ -173,7 +168,6 @@ def update_proofreading(root_dir, specific_files):
 
 def add_new_supported_language(code_language, language_difficulty):
     try:
-        # Ensure language_difficulty is a float with two decimal places
         language_difficulty = round(float(language_difficulty), 2)
     except ValueError:
         print("Language difficulty must be a numeric value.")
@@ -184,7 +178,6 @@ def add_new_supported_language(code_language, language_difficulty):
     if code_language in languages_dict:
         print(f"{code_language} is already in the list of supported languages.")
     else:
-        # Adding new entry with validated and formatted difficulty
         languages_dict[code_language] = language_difficulty
         save_supported_languages(languages_dict)
         print(f"Added {code_language} with difficulty {language_difficulty:.2f} to the list of supported languages.")
@@ -203,19 +196,19 @@ def main():
             break
 
     update_proofreading(root_directory, specific_files)
-    # while True:
-    #     question = "Do you want to modify a proofreading section of a content? (new contributor or urgency change)"
-    #     user_response = ask_yes_no_question(question)
-    #     if user_response == 'y':
-    #         selected_subfolder_path = ask_for_subfolder(root_directory, specific_files)
-    #         if selected_subfolder_path:
-    #             print(f"Selected subfolder: {selected_subfolder_path}")
-    #             add_new_contribution_to(selected_subfolder_path)
-    #         else:
-    #             print("No valid subfolder with specific files was found.")
-    #     elif user_response == 'n':
-    #         print("Exiting the contribution loop. No more contributions to add.")
-    #         break
+    while True:
+        question = "Do you want to modify a proofreading section of a content? (new contributor or urgency change)"
+        user_response = ask_yes_no_question(question)
+        if user_response == 'y':
+            selected_subfolder_path = ask_for_subfolder(root_directory, specific_files)
+            if selected_subfolder_path:
+                print(f"Selected subfolder: {selected_subfolder_path}")
+                add_new_contribution_to(selected_subfolder_path)
+            else:
+                print("No valid subfolder with specific files was found.")
+        elif user_response == 'n':
+            print("Exiting the contribution loop. No more contributions to add.")
+            break
 
 if __name__ == "__main__":
     main()

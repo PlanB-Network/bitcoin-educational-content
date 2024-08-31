@@ -3,7 +3,7 @@ difficulty: easy
 duration: 15
 author: DecouvreBitcoin
 tags:
-- Bitcoin Protocol
+  - Bitcoin Protocol
 
 # Proofreading metadata
 original_language: en
@@ -22,7 +22,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 1292
+    reward: 2585
   - language: es
     last_contribution_date:
     urgency: 1

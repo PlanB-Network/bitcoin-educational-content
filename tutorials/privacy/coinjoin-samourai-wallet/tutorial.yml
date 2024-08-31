@@ -1,9 +1,9 @@
 builder: Coinjoin - Samourai Wallet
 
 tags:
-- privacy
-- coinjoin
-- mix
+  - privacy
+  - coinjoin
+  - mix
 
 category: bitcoin
 
@@ -44,7 +44,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 7992
+    reward: 15984
   - language: it
     last_contribution_date:
     urgency: 1
@@ -70,3 +70,18 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 42952
+  - language: et
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 29468
+  - language: id
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 36210
+  - language: zh-Hans
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 36210

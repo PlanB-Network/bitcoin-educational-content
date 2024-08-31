@@ -3,14 +3,14 @@ name: Africa Bitcoin Conference 2023
 builder:
 location: Accra, Ghana
 language:
-- en
+  - en
 links:
   website: https://afrobitcoin.org/
   twitter: https://twitter.com/AfroBitcoinOrg
 tags:
-- Bitcoiner
-- General
-- lightning network
+  - Bitcoiner
+  - General
+  - lightning network
 
 # Proofreading metadata
 original_language: en
@@ -19,4 +19,4 @@ proofreading:
     last_contribution_date:
     urgency: 0
     contributors_id:
-    reward: 1250
+    reward: 2500

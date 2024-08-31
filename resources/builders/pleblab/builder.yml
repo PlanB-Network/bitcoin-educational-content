@@ -4,7 +4,7 @@ address_line_1: Austin, Texas
 address_line_2:
 address_line_3:
 language:
-- en
+  - en
 links:
   website: https://www.pleblab.com/
   twitter: https://twitter.com/PlebLab
@@ -14,8 +14,8 @@ links:
     https://primal.net/profile/npub1an84q6c03wml5lf0uwcqcr20ydwv0t0lvv0xktlcfs9seattef8sdhz6yg
 
 tags:
-- education
-- finance
+  - education
+  - finance
 
 # Proofreading metadata
 original_language: en
@@ -34,7 +34,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 1275
+    reward: 2551
   - language: es
     last_contribution_date:
     urgency: 1
@@ -75,3 +75,18 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 2653
+  - language: id
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2627
+  - language: zh-Hans
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2627
+  - language: et
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2602

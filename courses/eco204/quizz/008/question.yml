@@ -3,9 +3,9 @@ difficulty: hard
 duration: 45
 author: DecouvreBitcoin
 tags:
-- Inflation
-- Deflation
-- Money Supply
+  - Inflation
+  - Deflation
+  - Money Supply
 
 # Proofreading metadata
 original_language: en
@@ -24,7 +24,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 1319
+    reward: 2639
   - language: es
     last_contribution_date:
     urgency: 1

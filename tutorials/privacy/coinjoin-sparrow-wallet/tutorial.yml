@@ -1,9 +1,9 @@
 builder: Coinjoin - Sparrow Wallet
 
 tags:
-- privacy
-- coinjoin
-- mix
+  - privacy
+  - coinjoin
+  - mix
 
 category: bitcoin
 
@@ -44,7 +44,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 7657
+    reward: 15314
   - language: it
     last_contribution_date:
     urgency: 1
@@ -70,3 +70,18 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 40942
+  - language: et
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 28128
+  - language: id
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 34535
+  - language: zh-Hans
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 34535

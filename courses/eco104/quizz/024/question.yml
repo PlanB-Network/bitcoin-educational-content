@@ -3,8 +3,8 @@ difficulty: easy
 duration: 30
 author: LookingGlass
 tags:
-- Bitcoin Protocol
-- Halving
+  - Bitcoin Protocol
+  - Halving
 
 # Proofreading metadata
 original_language: en
@@ -23,7 +23,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 1296
+    reward: 2593
   - language: es
     last_contribution_date:
     urgency: 1

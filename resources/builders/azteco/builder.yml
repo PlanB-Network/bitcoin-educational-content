@@ -4,9 +4,9 @@ links:
   twitter: https://twitter.com/azteco_
 
 tags:
-- exchange
-- peer to peer
-- privacy
+  - exchange
+  - peer to peer
+  - privacy
 
 category: exchange
 # Proofreading metadata
@@ -26,7 +26,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 1260
+    reward: 2521
   - language: es
     last_contribution_date:
     urgency: 1
@@ -67,3 +67,18 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 2563
+  - language: id
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2552
+  - language: zh-Hans
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2552
+  - language: et
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2542

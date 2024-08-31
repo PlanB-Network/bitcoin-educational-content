@@ -3,9 +3,9 @@ difficulty: easy
 duration: 15
 author: DecouvreBitcoin
 tags:
-- Inflation
-- Demand Pull
-- Cost Push
+  - Inflation
+  - Demand Pull
+  - Cost Push
 
 # Proofreading metadata
 original_language: en
@@ -24,7 +24,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 1324
+    reward: 2648
   - language: es
     last_contribution_date:
     urgency: 1

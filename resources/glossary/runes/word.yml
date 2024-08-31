@@ -1,10 +1,10 @@
 en_word: RUNES
 related_words:
-- ORDINALS THEORY
-- INSCRIPTIONS
-- DIGITAL ARTIFACTS
+  - ORDINALS THEORY
+  - INSCRIPTIONS
+  - DIGITAL ARTIFACTS
 tags:
-- ''
+  - ''
 
 # Proofreading metadata
 original_language: fr
@@ -18,4 +18,4 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 1287
+    reward: 2575

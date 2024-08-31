@@ -5,10 +5,10 @@ level: advanced
 hours: 10
 
 professors:
-- light-storm
+  - light-storm
 
 contributors:
-- another-satoshi
+  - another-satoshi
 
 # Proofreading metadata
 original_language: fr
@@ -17,54 +17,69 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 132790
+    reward: 132844
   - language: de
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 67645
+    reward: 67672
   - language: en
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 67645
+    reward: 67672
   - language: es
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 100217
+    reward: 100258
   - language: fi
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 132790
+    reward: 132844
   - language: fr
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 33822
+    reward: 67672
   - language: it
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 100217
+    reward: 100258
   - language: ja
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 197935
+    reward: 198016
   - language: pt
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 67645
+    reward: 67672
   - language: ru
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 132790
+    reward: 132844
   - language: vi
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 197935
+    reward: 198016
+  - language: et
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 132844
+  - language: id
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 165430
+  - language: zh-Hans
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 165430

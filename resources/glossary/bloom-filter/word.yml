@@ -1,8 +1,8 @@
 en_word: BLOOM FILTER
 related_words:
-- BIP37
+  - BIP37
 tags:
-- ''
+  - ''
 
 # Proofreading metadata
 original_language: fr
@@ -16,4 +16,4 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 1350
+    reward: 2701

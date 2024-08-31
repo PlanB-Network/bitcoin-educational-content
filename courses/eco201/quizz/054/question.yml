@@ -3,9 +3,9 @@ difficulty: easy
 duration: 15
 author: DecouvreBitcoin
 tags:
-- Austrian economics
-- Keynesian economics
-- Monetarist economics
+  - Austrian economics
+  - Keynesian economics
+  - Monetarist economics
 
 # Proofreading metadata
 original_language: en
@@ -24,7 +24,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 1315
+    reward: 2630
   - language: es
     last_contribution_date:
     urgency: 1

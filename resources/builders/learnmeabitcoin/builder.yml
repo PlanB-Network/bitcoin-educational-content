@@ -8,7 +8,7 @@ links:
 category: education
 
 tags:
-- education
+  - education
 
 # Proofreading metadata
 original_language: en
@@ -27,7 +27,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 1322
+    reward: 2645
   - language: es
     last_contribution_date:
     urgency: 1
@@ -68,3 +68,18 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 2935
+  - language: id
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2862
+  - language: zh-Hans
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2862
+  - language: et
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2790

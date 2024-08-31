@@ -5,8 +5,8 @@ level: intermediate
 category: centralized
 
 tags:
-- multi-coin
-- full KYC
+  - multi-coin
+  - full KYC
 
 # Proofreading metadata
 original_language: en
@@ -25,7 +25,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 1318
+    reward: 2636
   - language: es
     last_contribution_date:
     urgency: 1
@@ -66,3 +66,18 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 2908
+  - language: et
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2772
+  - language: id
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2840
+  - language: zh-Hans
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2840

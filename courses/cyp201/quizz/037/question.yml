@@ -3,10 +3,10 @@ difficulty: easy
 duration: 15
 author: DecouvreBitcoin
 tags:
-- Bitcoin
-- ECDSA
-- Public key
-- Private key
+  - Bitcoin
+  - ECDSA
+  - Public key
+  - Private key
 
 # Proofreading metadata
 original_language: en
@@ -25,7 +25,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 1277
+    reward: 2555
   - language: es
     last_contribution_date:
     urgency: 1

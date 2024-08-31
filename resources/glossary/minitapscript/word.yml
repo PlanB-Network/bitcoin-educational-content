@@ -1,9 +1,9 @@
 en_word: MINITAPSCRIPT
 related_words:
-- MINISCRIPT
-- TAPSCRIPT
+  - MINISCRIPT
+  - TAPSCRIPT
 tags:
-- ''
+  - ''
 
 # Proofreading metadata
 original_language: fr
@@ -17,4 +17,4 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 1274
+    reward: 2549

@@ -1,9 +1,9 @@
 author: Robert T. Kiyosaki
 level: beginner
 tags:
-- personal finance
-- wealth building
-- investing
+  - personal finance
+  - wealth building
+  - investing
 
 # Proofreading metadata
 original_language: en
@@ -22,7 +22,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 1307
+    reward: 2614
   - language: es
     last_contribution_date:
     urgency: 1
@@ -63,3 +63,18 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 2842
+  - language: id
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2785
+  - language: zh-Hans
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2785
+  - language: et
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2728

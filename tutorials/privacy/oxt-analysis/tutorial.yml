@@ -1,9 +1,9 @@
 builder: OXT - Chain Analysis
 
 tags:
-- privacy
-- education
-- analysis
+  - privacy
+  - education
+  - analysis
 
 category: analysis
 
@@ -45,7 +45,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 13565
+    reward: 27130
   - language: it
     last_contribution_date:
     urgency: 1
@@ -71,3 +71,18 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 76390
+  - language: et
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 51760
+  - language: id
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 64075
+  - language: zh-Hans
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 64075

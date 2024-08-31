@@ -1,8 +1,8 @@
 en_word: BIP39
 related_words:
-- RECOVERY PHRASE (MNEMONIC)
+  - RECOVERY PHRASE (MNEMONIC)
 tags:
-- ''
+  - ''
 
 # Proofreading metadata
 original_language: fr
@@ -16,4 +16,4 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 1295
+    reward: 2591

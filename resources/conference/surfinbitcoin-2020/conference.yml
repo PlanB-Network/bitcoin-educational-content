@@ -3,14 +3,14 @@ name: Surfin Bitcoin 2020
 builder: StackinSat
 location: Biarritz, France
 language:
-- fr
+  - fr
 links:
   website: https://surfinbitcoin.com/
   twitter: https://twitter.com/SurfinBitcoin
 tags:
-- International
-- All Public
-- General
+  - International
+  - All Public
+  - General
 
 # Proofreading metadata
 original_language: en
@@ -19,4 +19,4 @@ proofreading:
     last_contribution_date:
     urgency: 0
     contributors_id:
-    reward: 1250
+    reward: 2500

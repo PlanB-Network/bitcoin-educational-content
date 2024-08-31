@@ -1,9 +1,9 @@
 author: Richard M. Stallman, Lawrence Lessig
 level: intermediate
 tags:
-- technology
-- law
-- open source
+  - technology
+  - law
+  - open source
 
 # Proofreading metadata
 original_language: en
@@ -22,7 +22,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 1417
+    reward: 2834
   - language: es
     last_contribution_date:
     urgency: 1
@@ -63,3 +63,18 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 3502
+  - language: id
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 3335
+  - language: zh-Hans
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 3335
+  - language: et
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 3168

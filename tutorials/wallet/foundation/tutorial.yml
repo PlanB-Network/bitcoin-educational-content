@@ -5,8 +5,8 @@ level: advanced
 category: hardware
 
 tags:
-- self-custodial
-- Open-source
+  - self-custodial
+  - Open-source
 
 # Proofreading metadata
 original_language: en
@@ -25,7 +25,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 1494
+    reward: 2989
   - language: es
     last_contribution_date:
     urgency: 1
@@ -66,3 +66,18 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 3967
+  - language: et
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 3478
+  - language: id
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 3722
+  - language: zh-Hans
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 3722

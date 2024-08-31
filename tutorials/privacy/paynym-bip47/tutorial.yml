@@ -1,8 +1,8 @@
 builder: Loïc morel
 
 tags:
-- privacy
-- BIP
+  - privacy
+  - BIP
 
 category: bitcoin
 
@@ -45,7 +45,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 19589
+    reward: 39178
   - language: it
     last_contribution_date:
     urgency: 1
@@ -71,3 +71,18 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 112534
+  - language: et
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 75856
+  - language: id
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 94195
+  - language: zh-Hans
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 94195

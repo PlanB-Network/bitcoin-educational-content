@@ -1,9 +1,9 @@
 author: Andrew Dickson White
 level: intermediate
 tags:
-- economy
-- history
-- finance
+  - economy
+  - history
+  - finance
 
 # Proofreading metadata
 original_language: en
@@ -22,7 +22,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 1377
+    reward: 2754
   - language: es
     last_contribution_date:
     urgency: 1
@@ -63,3 +63,18 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 3262
+  - language: id
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 3135
+  - language: zh-Hans
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 3135
+  - language: et
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 3008

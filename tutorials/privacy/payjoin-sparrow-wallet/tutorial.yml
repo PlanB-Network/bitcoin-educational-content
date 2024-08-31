@@ -1,10 +1,10 @@
 builder: Payjoin - Sparrow Wallet
 
 tags:
-- privacy
-- payjoin
-- P2EP
-- Sparrow
+  - privacy
+  - payjoin
+  - P2EP
+  - Sparrow
 
 category: bitcoin
 
@@ -44,7 +44,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 2811
+    reward: 5623
   - language: it
     last_contribution_date:
     urgency: 1
@@ -70,3 +70,18 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 11869
+  - language: et
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 8746
+  - language: id
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 10307
+  - language: zh-Hans
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 10307

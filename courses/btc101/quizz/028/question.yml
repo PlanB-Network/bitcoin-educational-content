@@ -3,8 +3,8 @@ difficulty: hard
 duration: 45
 author: DecouvreBitcoin
 tags:
-- Currency Basis
-- Money History
+  - Currency Basis
+  - Money History
 
 # Proofreading metadata
 original_language: en
@@ -23,7 +23,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 1295
+    reward: 2591
   - language: es
     last_contribution_date:
     urgency: 1

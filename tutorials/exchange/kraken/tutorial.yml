@@ -1,9 +1,9 @@
 builder: Kraken
 
 tags:
-- lightning-network
-- Full KYC
-- multi-coin
+  - lightning-network
+  - Full KYC
+  - multi-coin
 
 category: centralized
 
@@ -26,7 +26,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 1286
+    reward: 2572
   - language: es
     last_contribution_date:
     urgency: 1
@@ -67,3 +67,18 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 2716
+  - language: et
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2644
+  - language: id
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2680
+  - language: zh-Hans
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2680

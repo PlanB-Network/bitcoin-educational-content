@@ -1,8 +1,8 @@
 en_word: DANDELION
 related_words:
-- BIP156
+  - BIP156
 tags:
-- ''
+  - ''
 
 # Proofreading metadata
 original_language: fr
@@ -16,4 +16,4 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 1338
+    reward: 2676

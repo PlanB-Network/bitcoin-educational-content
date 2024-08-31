@@ -3,9 +3,9 @@ difficulty: easy
 duration: 15
 author: DecouvreBitcoin
 tags:
-- Austrian Economics
-- Subjective Value
-- Carl Menger
+  - Austrian Economics
+  - Subjective Value
+  - Carl Menger
 
 # Proofreading metadata
 original_language: en
@@ -24,7 +24,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 1296
+    reward: 2593
   - language: es
     last_contribution_date:
     urgency: 1

@@ -5,8 +5,8 @@ level: intermediate
 category: hardware
 
 tags:
-- self-custodial
-- Open-source
+  - self-custodial
+  - Open-source
 
 credits:
   professor: rebuild-kiss
@@ -29,7 +29,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 2469
+    reward: 4938
   - language: es
     last_contribution_date:
     urgency: 1
@@ -70,3 +70,18 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 9814
+  - language: et
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 7376
+  - language: id
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 8595
+  - language: zh-Hans
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 8595

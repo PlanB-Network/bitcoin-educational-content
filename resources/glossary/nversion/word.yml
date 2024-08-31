@@ -1,8 +1,8 @@
 en_word: NVERSION
 related_words:
-- NSEQUENCE
+  - NSEQUENCE
 tags:
-- ''
+  - ''
 
 # Proofreading metadata
 original_language: fr
@@ -16,4 +16,4 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 1301
+    reward: 2603

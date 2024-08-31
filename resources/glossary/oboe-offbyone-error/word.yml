@@ -1,9 +1,9 @@
 en_word: OBOE (OFF-BY-ONE ERROR)
 related_words:
-- DUMMY ELEMENT
-- BIP147
+  - DUMMY ELEMENT
+  - BIP147
 tags:
-- ''
+  - ''
 
 # Proofreading metadata
 original_language: fr
@@ -17,4 +17,4 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 1292
+    reward: 2584

@@ -3,8 +3,8 @@ builder: Public Pool
 category: pools
 
 tags:
-- mining
-- Pool
+  - mining
+  - Pool
 
 level: advanced
 
@@ -18,5 +18,5 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 2219
+    reward: 4438
 

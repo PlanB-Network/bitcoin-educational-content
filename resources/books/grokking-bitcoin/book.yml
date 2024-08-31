@@ -1,9 +1,9 @@
 author: Kalle Rosenbaum
 level: intermediate
 tags:
-- bitcoin
-- technology
-- education
+  - bitcoin
+  - technology
+  - education
 
 # Proofreading metadata
 original_language: en
@@ -22,7 +22,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 1333
+    reward: 2666
   - language: es
     last_contribution_date:
     urgency: 1
@@ -63,3 +63,18 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 2998
+  - language: id
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2915
+  - language: zh-Hans
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2915
+  - language: et
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2832

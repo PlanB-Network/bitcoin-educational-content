@@ -4,8 +4,8 @@ links:
   twitter: https://twitter.com/Breez_Tech
   github: https://github.com/breez/breezmobile
 tags:
-- bitcoin-only
-- lightning-wallet
+  - bitcoin-only
+  - lightning-wallet
 
 category: wallet
 
@@ -26,7 +26,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 1325
+    reward: 2650
   - language: es
     last_contribution_date:
     urgency: 1
@@ -67,3 +67,18 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 2950
+  - language: id
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2875
+  - language: zh-Hans
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2875
+  - language: et
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2800

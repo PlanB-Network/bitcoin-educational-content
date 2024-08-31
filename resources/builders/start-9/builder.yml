@@ -5,8 +5,8 @@ links:
   github: https://github.com/Start9Labs
 
 tags:
-- nodes
-- infrastructure
+  - nodes
+  - infrastructure
 
 category: node
 
@@ -27,7 +27,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 1314
+    reward: 2628
   - language: es
     last_contribution_date:
     urgency: 1
@@ -68,3 +68,18 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 2884
+  - language: id
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2820
+  - language: zh-Hans
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2820
+  - language: et
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2756

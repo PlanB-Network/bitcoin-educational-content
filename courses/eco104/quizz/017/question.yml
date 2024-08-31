@@ -3,7 +3,7 @@ difficulty: easy
 duration: 30
 author: LookingGlass
 tags:
-- Stablecoin
+  - Stablecoin
 
 # Proofreading metadata
 original_language: en
@@ -22,7 +22,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 1303
+    reward: 2607
   - language: es
     last_contribution_date:
     urgency: 1

@@ -6,8 +6,8 @@ links:
   youtube: https://www.youtube.com/@PlanBNetwork
 
 tags:
-- education
-- finance
+  - education
+  - finance
 
 category: education
 
@@ -28,7 +28,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 1285
+    reward: 2571
   - language: es
     last_contribution_date:
     urgency: 1
@@ -69,3 +69,18 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 2713
+  - language: id
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2677
+  - language: zh-Hans
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2677
+  - language: et
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2642

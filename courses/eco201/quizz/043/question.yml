@@ -3,9 +3,9 @@ difficulty: hard
 duration: 45
 author: DecouvreBitcoin
 tags:
-- Austrian Economics
-- Socialism
-- Economic Calculation
+  - Austrian Economics
+  - Socialism
+  - Economic Calculation
 
 # Proofreading metadata
 original_language: en
@@ -24,7 +24,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 1310
+    reward: 2620
   - language: es
     last_contribution_date:
     urgency: 1

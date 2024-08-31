@@ -3,8 +3,8 @@ difficulty: easy
 duration: 30
 author: LookingGlass
 tags:
-- Bitcoin Benefit
-- Human Rights
+  - Bitcoin Benefit
+  - Human Rights
 
 # Proofreading metadata
 original_language: en
@@ -23,7 +23,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 1306
+    reward: 2613
   - language: es
     last_contribution_date:
     urgency: 1

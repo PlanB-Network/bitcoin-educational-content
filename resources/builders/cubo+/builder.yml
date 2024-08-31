@@ -4,8 +4,8 @@ address_line_1: San Salvador, El Salvador
 address_line_2:
 address_line_3:
 language:
-- en
-- - es
+  - en
+  -   - es
 links:
   website: https://www.cuboplus.academy/
   twitter: https://x.com/cuboplus?t=qXP3Sckahhzw-Y_5sSGoxA&s=09
@@ -13,9 +13,9 @@ links:
   instagram: https://www.instagram.com/cubo_plus/
 
 tags:
-- education
-- development
-- lightning
+  - education
+  - development
+  - lightning
 
 
 # Proofreading metadata
@@ -35,7 +35,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 1326
+    reward: 2653
   - language: es
     last_contribution_date:
     urgency: 1
@@ -76,3 +76,18 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 2959
+  - language: id
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2882
+  - language: zh-Hans
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2882
+  - language: et
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2806

@@ -3,15 +3,15 @@ name: PlanB Lugano Forum 2023
 builder: lugano-planb
 location: Lugano, Switzerland
 language:
-- en
-- it
+  - en
+  - it
 links:
   website: https://planb.lugano.ch/planb-forum/
   twitter: https://twitter.com/LuganoPlanB
 tags:
-- International
-- All Public
-- General
+  - International
+  - All Public
+  - General
 
 # Proofreading metadata
 original_language: en
@@ -20,4 +20,4 @@ proofreading:
     last_contribution_date:
     urgency: 0
     contributors_id:
-    reward: 1250
+    reward: 2500

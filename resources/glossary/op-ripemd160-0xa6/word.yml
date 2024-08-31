@@ -1,8 +1,8 @@
 en_word: OP_RIPEMD160 (0XA6)
 related_words:
-- RIPEMD160
+  - RIPEMD160
 tags:
-- ''
+  - ''
 
 # Proofreading metadata
 original_language: fr
@@ -16,4 +16,4 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 1261
+    reward: 2523

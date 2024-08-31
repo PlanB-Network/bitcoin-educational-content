@@ -1,8 +1,8 @@
 en_word: SILENT PAYMENTS
 related_words:
-- LABEL (SILENT PAYMENTS)
+  - LABEL (SILENT PAYMENTS)
 tags:
-- ''
+  - ''
 
 # Proofreading metadata
 original_language: fr
@@ -16,4 +16,4 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 1591
+    reward: 3183

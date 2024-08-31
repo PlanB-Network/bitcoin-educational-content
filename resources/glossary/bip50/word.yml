@@ -1,9 +1,9 @@
 en_word: BIP50
 related_words:
-- LEVELDB
-- BERKELEYDB
+  - LEVELDB
+  - BERKELEYDB
 tags:
-- ''
+  - ''
 
 # Proofreading metadata
 original_language: fr
@@ -17,4 +17,4 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 1273
+    reward: 2546

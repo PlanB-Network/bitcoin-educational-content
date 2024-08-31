@@ -1,9 +1,9 @@
 builder: PlanB Contribution
 
 tags:
-- GitHub
-- Conference
-- PlanB Network
+  - GitHub
+  - Conference
+  - PlanB Network
 
 category: contribution
 
@@ -44,7 +44,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 1808
+    reward: 3617
   - language: it
     last_contribution_date:
     urgency: 1
@@ -70,3 +70,13 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 5851
+  - language: id
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 5292
+  - language: zh-Hans
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 5292

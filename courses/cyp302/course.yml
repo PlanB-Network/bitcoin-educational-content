@@ -4,11 +4,11 @@ level: advanced
 hours: 10
 
 professors:
-- myth-initial
+  - myth-initial
 
 contributors:
-- rabbit-hole
-- another-satoshi
+  - rabbit-hole
+  - another-satoshi
 
 # Proofreading metadata
 original_language: en
@@ -17,4 +17,4 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 55098
+    reward: 110227

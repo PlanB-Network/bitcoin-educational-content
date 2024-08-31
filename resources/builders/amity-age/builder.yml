@@ -4,8 +4,8 @@ address_line_1: Roatan, Honduras
 address_line_2: Calle Principal, Pristine Bay
 address_line_3:
 language:
-- en
-- - es
+  - en
+  -   - es
 links:
   website: https://www.amityage.com/
   twitter: https://twitter.com/AmityAge
@@ -13,8 +13,8 @@ links:
 
 
 tags:
-- finance
-- education
+  - finance
+  - education
 
 # Proofreading metadata
 original_language: en
@@ -33,7 +33,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 1297
+    reward: 2594
   - language: es
     last_contribution_date:
     urgency: 1
@@ -74,3 +74,18 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 2782
+  - language: id
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2735
+  - language: zh-Hans
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2735
+  - language: et
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2688

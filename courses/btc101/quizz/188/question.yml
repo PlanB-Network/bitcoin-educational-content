@@ -3,8 +3,8 @@ difficulty: easy
 duration: 15
 author: DecouvreBitcoin
 tags:
-- Bitcoin
-- BTCMap
+  - Bitcoin
+  - BTCMap
 
 # Proofreading metadata
 original_language: en
@@ -23,7 +23,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 1289
+    reward: 2578
   - language: es
     last_contribution_date:
     urgency: 1

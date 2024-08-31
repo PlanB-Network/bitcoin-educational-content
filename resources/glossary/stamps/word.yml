@@ -1,9 +1,9 @@
 en_word: STAMPS
 related_words:
-- UTREEXO
-- UTXO SET
+  - UTREEXO
+  - UTXO SET
 tags:
-- ''
+  - ''
 
 # Proofreading metadata
 original_language: fr
@@ -17,4 +17,4 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 1315
+    reward: 2630

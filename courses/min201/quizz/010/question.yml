@@ -3,8 +3,8 @@ difficulty: hard
 duration: 45
 author: DecouvreBitcoin
 tags:
-- Bitcoin mining
-- Energy management
+  - Bitcoin mining
+  - Energy management
 
 # Proofreading metadata
 original_language: en
@@ -23,7 +23,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 1328
+    reward: 2656
   - language: es
     last_contribution_date:
     urgency: 1

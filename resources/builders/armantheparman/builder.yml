@@ -6,8 +6,8 @@ links:
 
 
 tags:
-- education
-- development
+  - education
+  - development
 
 category: education
 
@@ -28,7 +28,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 1288
+    reward: 2577
   - language: es
     last_contribution_date:
     urgency: 1
@@ -69,3 +69,18 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 2731
+  - language: id
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2692
+  - language: zh-Hans
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2692
+  - language: et
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2654

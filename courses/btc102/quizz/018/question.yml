@@ -3,10 +3,10 @@ difficulty: hard
 duration: 45
 author: DecouvreBitcoin
 tags:
-- Bitcoin
-- Trading
-- Investing
-- Holding
+  - Bitcoin
+  - Trading
+  - Investing
+  - Holding
 
 # Proofreading metadata
 original_language: en
@@ -25,7 +25,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 1340
+    reward: 2681
   - language: es
     last_contribution_date:
     urgency: 1

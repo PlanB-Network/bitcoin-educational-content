@@ -1,8 +1,8 @@
 en_word: OP_TRUE (0X51)
 related_words:
-- OP_1
+  - OP_1
 tags:
-- ''
+  - ''
 
 # Proofreading metadata
 original_language: fr
@@ -16,4 +16,4 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 1254
+    reward: 2508

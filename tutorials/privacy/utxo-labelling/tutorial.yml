@@ -1,9 +1,9 @@
 builder: Labelling UTXO
 
 tags:
-- privacy
-- education
-- coin control
+  - privacy
+  - education
+  - coin control
 
 category: bitcoin
 
@@ -44,7 +44,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 2657
+    reward: 5314
   - language: it
     last_contribution_date:
     urgency: 1
@@ -70,3 +70,13 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 10942
+  - language: id
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 9535
+  - language: zh-Hans
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 9535

@@ -5,11 +5,11 @@ level: beginner
 category: mobile
 
 tags:
-- wallet
-- lightning-network
-- self-custodial
-- open-source
-- on-chain
+  - wallet
+  - lightning-network
+  - self-custodial
+  - open-source
+  - on-chain
 
 credits:
   professor: casual-chaos
@@ -22,4 +22,4 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 1437
+    reward: 2874

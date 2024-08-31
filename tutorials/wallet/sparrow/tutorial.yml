@@ -5,9 +5,9 @@ level: advanced
 category: desktop
 
 tags:
-- self-custodial
-- open-source
-- privacy
+  - self-custodial
+  - open-source
+  - privacy
 
 # Proofreading metadata
 original_language: en
@@ -26,7 +26,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 2166
+    reward: 4333
   - language: es
     last_contribution_date:
     urgency: 1
@@ -67,3 +67,18 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 7999
+  - language: et
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 6166
+  - language: id
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 7082
+  - language: zh-Hans
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 7082

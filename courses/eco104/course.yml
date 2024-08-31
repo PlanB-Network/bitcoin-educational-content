@@ -4,10 +4,10 @@ level: beginner
 hours: 6
 
 professors:
-- hybrid-tornado
+  - hybrid-tornado
 
 contributors:
-- hybrid-tornado
+  - hybrid-tornado
 
 # Proofreading metadata
 original_language: en
@@ -16,49 +16,64 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 73128
+    reward: 73148
   - language: de
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 37814
+    reward: 37824
   - language: en
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 18907
+    reward: 37824
   - language: es
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 55471
+    reward: 55486
   - language: fi
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 73128
+    reward: 73148
   - language: fr
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 37814
+    reward: 37824
   - language: it
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 55471
+    reward: 55486
   - language: ja
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 108442
+    reward: 108472
   - language: pt
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 37814
+    reward: 37824
   - language: vi
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 108442
+    reward: 108472
+  - language: et
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 73148
+  - language: id
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 90810
+  - language: zh-Hans
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 90810

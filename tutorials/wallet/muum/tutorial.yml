@@ -5,8 +5,8 @@ level: beginner
 category: mobile
 
 tags:
-- lightning-network
-- self-custodial
+  - lightning-network
+  - self-custodial
 
 credits:
   professor: write-school
@@ -29,7 +29,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 3061
+    reward: 6123
   - language: es
     last_contribution_date:
     urgency: 1
@@ -70,3 +70,18 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 13369
+  - language: et
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 9746
+  - language: id
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 11557
+  - language: zh-Hans
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 11557

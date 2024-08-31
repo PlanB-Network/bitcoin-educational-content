@@ -5,8 +5,8 @@ level: advanced
 category: mobile
 
 tags:
-- muli-sig
-- self-custodial
+  - muli-sig
+  - self-custodial
 
 
 # Proofreading metadata
@@ -26,7 +26,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 1683
+    reward: 3367
   - language: es
     last_contribution_date:
     urgency: 1
@@ -67,3 +67,13 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 5101
+  - language: id
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 4667
+  - language: zh-Hans
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 4667

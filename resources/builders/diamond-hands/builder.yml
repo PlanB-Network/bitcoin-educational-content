@@ -5,7 +5,7 @@ address_line_2:
 address_line_3:
 language:
   - ja
-  - - en
+  -   - en
 links:
   website: https://diamondhands.technology/en/
   twitter: https://twitter.com/DiamondHandsLN
@@ -24,4 +24,4 @@ proofreading:
     urgency: 1
     contributors_id:
       - Asi0Flammeus
-    reward:
+    reward: 2538

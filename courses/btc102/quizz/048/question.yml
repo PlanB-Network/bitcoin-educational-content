@@ -3,9 +3,9 @@ difficulty: hard
 duration: 45
 author: DecouvreBitcoin
 tags:
-- Bitcoin
-- Cryptocurrency
-- Blockchain
+  - Bitcoin
+  - Cryptocurrency
+  - Blockchain
 
 # Proofreading metadata
 original_language: en
@@ -24,7 +24,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 1282
+    reward: 2565
   - language: es
     last_contribution_date:
     urgency: 1

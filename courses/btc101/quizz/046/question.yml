@@ -3,8 +3,8 @@ difficulty: hard
 duration: 45
 author: DecouvreBitcoin
 tags:
-- Financial System
-- Incentives
+  - Financial System
+  - Incentives
 
 # Proofreading metadata
 original_language: en
@@ -23,7 +23,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 1307
+    reward: 2615
   - language: es
     last_contribution_date:
     urgency: 1

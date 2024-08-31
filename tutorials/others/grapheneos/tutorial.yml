@@ -3,8 +3,8 @@ builder: GrapenOs
 category: general
 
 tags:
-- privacy
-- education
+  - privacy
+  - education
 
 level: advanced
 
@@ -44,7 +44,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 9282
+    reward: 18565
   - language: it
     last_contribution_date:
     urgency: 1
@@ -70,3 +70,18 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 50695
+  - language: et
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 34630
+  - language: id
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 42662
+  - language: zh-Hans
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 42662

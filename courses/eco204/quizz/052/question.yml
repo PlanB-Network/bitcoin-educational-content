@@ -3,9 +3,9 @@ difficulty: hard
 duration: 45
 author: DecouvreBitcoin
 tags:
-- Monetary reform
-- Public trust
-- Bernold
+  - Monetary reform
+  - Public trust
+  - Bernold
 
 # Proofreading metadata
 original_language: en
@@ -24,7 +24,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 1298
+    reward: 2596
   - language: es
     last_contribution_date:
     urgency: 1

@@ -3,10 +3,10 @@ builder: payjoin
 category: bitcoin
 
 tags:
-- privacy
-- education
-- payjoin
-- P2EP
+  - privacy
+  - education
+  - payjoin
+  - P2EP
 
 level: advanced
 
@@ -44,7 +44,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 2825
+    reward: 5650
   - language: it
     last_contribution_date:
     urgency: 1
@@ -70,3 +70,18 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 11950
+  - language: et
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 8800
+  - language: id
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 10375
+  - language: zh-Hans
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 10375

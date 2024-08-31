@@ -3,9 +3,9 @@ difficulty: hard
 duration: 45
 author: DecouvreBitcoin
 tags:
-- Bitcoin
-- Blockchain
-- Immutability
+  - Bitcoin
+  - Blockchain
+  - Immutability
 
 # Proofreading metadata
 original_language: en
@@ -24,7 +24,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 1283
+    reward: 2566
   - language: es
     last_contribution_date:
     urgency: 1

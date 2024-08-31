@@ -1,9 +1,9 @@
 builder: Dojo Samourai
 
 tags:
-- privacy
-- coinjoin
-- mix
+  - privacy
+  - coinjoin
+  - mix
 
 category: bitcoin
 
@@ -44,7 +44,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 10563
+    reward: 21127
   - language: it
     last_contribution_date:
     urgency: 1
@@ -70,3 +70,13 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 58381
+  - language: id
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 49067
+  - language: zh-Hans
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 49067

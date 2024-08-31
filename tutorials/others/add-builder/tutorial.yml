@@ -1,10 +1,10 @@
 builder: PlanB Contrubtion
 
 tags:
-- GitHub
-- Company
-- Software
-- PlanB Network
+  - GitHub
+  - Company
+  - Software
+  - PlanB Network
 
 category: contribution
 
@@ -45,7 +45,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 1982
+    reward: 3965
   - language: it
     last_contribution_date:
     urgency: 1
@@ -71,3 +71,18 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 6895
+  - language: et
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 5430
+  - language: id
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 6162
+  - language: zh-Hans
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 6162

@@ -3,9 +3,9 @@ difficulty: easy
 duration: 15
 author: DecouvreBitcoin
 tags:
-- Bitcoin
-- HD Wallet
-- Index
+  - Bitcoin
+  - HD Wallet
+  - Index
 
 # Proofreading metadata
 original_language: en
@@ -24,7 +24,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 1287
+    reward: 2575
   - language: es
     last_contribution_date:
     urgency: 1

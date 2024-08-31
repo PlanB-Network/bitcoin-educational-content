@@ -1,9 +1,9 @@
 author: "Andreas Antonopoulos"
 level: beginner
 tags:
-- bitcoin
-- economy
-- technology
+  - bitcoin
+  - economy
+  - technology
 
 # Proofreading metadata
 original_language: en
@@ -22,7 +22,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 1311
+    reward: 2623
   - language: es
     last_contribution_date:
     urgency: 1
@@ -63,3 +63,18 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 2869
+  - language: id
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2807
+  - language: zh-Hans
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2807
+  - language: et
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2746

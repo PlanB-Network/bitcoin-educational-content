@@ -1,8 +1,8 @@
 author: Pamela Morgan
 level: intermediate
 tags:
-- bitcoin
-- security
+  - bitcoin
+  - security
 
 
 # Proofreading metadata
@@ -22,7 +22,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 1485
+    reward: 2970
   - language: es
     last_contribution_date:
     urgency: 1
@@ -63,3 +63,18 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 3910
+  - language: id
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 3675
+  - language: zh-Hans
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 3675
+  - language: et
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 3440

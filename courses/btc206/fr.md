@@ -354,7 +354,7 @@ Pour un usage plus user friendly voici quelques outils que j'utilise ou dont j'a
 ## 2. Les Projets
 
 La propriété issues d'ordinals est définit consensuellement comme étant le premier à écrire un fichier (vu comme "message" au sein du protocole). 
-Idée importante dans la définition de sous-protocoles pour créer le consensus. Autrement dit, si vous êtes le premier à inscrire une image ou un message (comme nous le verrons ci-dessous) vous en êtes le propriétaire ; les suivants ne le seront pas (bien que posssédant une version de l'image ou du message. 
+Idée importante dans la définition de sous-protocoles pour créer le consensus. Autrement dit, si vous êtes le premier à inscrire une image ou un message (comme nous le verrons ci-dessous) vous en êtes le propriétaire ; les suivants ne le seront pas (bien que posssédant une version de l'image ou du message). 
 
 Comme discuté précédemment brc-20, cbrc-20,… applique le principe du : premier arrivé premier servi. On reverra cela avec Bitmap.
 

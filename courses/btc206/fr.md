@@ -10,17 +10,22 @@ objectives:
 
 
 # 0/ Précautions
-
-Avertissement : Risques.
-
+⚠️ ATTENTION
 Nous n'avons pas de certitudes sur la continuité d'Ordinals. Il se peut que ce protocole devienne obsolète à long terme. 
-Ceci reste une expérimentation en version alpha (au 25/06/24) et peut subir des modifications majeures. 
+Ceci reste une expérimentation en version beta (au 01/09/24) encore en alpha jusqu'au 25/96/24 et peut subir des modifications majeures. 
 
-La version actuelle est : `ord 0.19`. 
+La version actuelle est : `ord 0.19.1`. 
 
 Au vue de l'arrivée récente du protocole il n'y a pas encore de personne formée à ce sujet. J'ai découvert Ordinals en février 2023 et je ne suis qu'un explorateur de ce protocole.
 
 Ce qui est partagé ici est une synthèse de mes connaissances et de mes expériences, et peut être amené à évoluer. Comme dans le cas de Bitcoin il est important de se tenir à jour des évolutions du/des protocole(s).
+
+## 1. Préambule
+
+J'ai adopté un discours et des explications qui ne suivent pas l'ordre utilisé en général comme dans [What is Ordinals and runes protocol?](https://youtu.be/g1jsHW-MX7A?si=5G3yOW0nVDIWR-38). 
+
+J'ai pris le parti de mettre en avant l'enveloppe qui constitue selon moi le cœur de cette nouveauté et de passer les sats et l'*ordinal theory* ensuite. 
+Les projets discutés et présentés ont pour but de sensibiliser et d'expliquer l'histoire en train de se faire. Bien d'autres projets sont en train de se faire et ce cours reste une introduction générale aux Ordinals. Des cours plus avancés seront disponibles et l'histoire pourra éventuellement être traitée dans des pages dédiées. 
 
 # I/ Introduction
 
@@ -30,13 +35,14 @@ Ordinals a été proposé par Casey Rodarmor[^1].
 
 Casey a quitté l'école à 15 ans pour aller travailler dans des petits boulots. A 21 ans il découvre la programmation et veut en faire son métier. Il rattrape ses dernières années dans un [collège communautaire](https://fr.wikipedia.org/wiki/Coll%C3%A8ge_communautaire) avant d'intégrer Berkeley en Sciences de l'Informatique (Computer sciences). Il poursuit chez Google comme Ingénieur Fiabilité sur site ([Site Reliability Engineering](https://fr.wikipedia.org/wiki/Site_Reliability_Engineering)) puis rejoint l'équipe de [Chaincode Labs](https://chaincode.com/) en 2015. Chez Chaincode Labs il a maintenu Bitcoin core en réalisant des petites missions: nettoyage de certains PRs (Pull Requests), remaniement d'une partie des tests, et d'autres taches de maintenance. 
 
-En 2019, il découvre [Art Blocks | Generative digital art](https://www.artblocks.io/), qui publie et promeut l'art géneratif. Fasciné par cet algorithmisation de l'art, il veut en faire. En se lancant dans *"les NFTs"* il voit les défaillances voir le non-sens informatique de devoir déployer un contrat pour écrire une URL renvoyant vers un lien IPFS (ou autres) stockant le JPEG. Il lui semble évident qu'il faut l'écrire on-chain. En tant que Bitcoin maximalist[^2], il développe alors un outil qui permettrait de faire ceci : écrire concrétement l'image sur Bitcoin. 
+En 2019, il découvre [Art Blocks | Generative digital art](https://www.artblocks.io/), qui publie et promeut l'art géneratif. Fasciné par cet algorithmisation de l'art, il veut en faire. En se lancant dans *"les NFTs"* il voit les défaillances voir le non-sens informatique de devoir déployer un contrat pour écrire une URL renvoyant vers un lien IPFS (ou autres) stockant le JPEG. Il lui semble évident qu'il faut l'écrire *on-chain*. En tant que Bitcoin maximaliste[^2], il développe alors un outil qui permettrait de faire ceci : écrire **concrétement** l'image sur Bitcoin. 
 
 C'est alors que né **Ordinals**. 
 
 Pour plus de détails sur la vie de Casey (et son avis) vous pouvez consulter: 
 [Casey Rodarmor's Resume](https://rodarmor.com/resume/index.html).
 [Casey Rodarmor - From Ordinals to Runes: Meet Bitcoin’s Most Controversial Dev](https://www.youtube.com/watch?v=sqfCarDdXPM)
+Vous pouvez écouter son podcast en anglais: [Hell Money](https://hell.money/) co-host par [Realizing Erin](https://www.youtube.com/realizingerin).  
 
 Le protocole Oridnals a connu sa première inscription le 14 décembre 2022 [Inscription #0](https://ordiscan.com/inscription/0).
 
@@ -45,14 +51,14 @@ Ordinals est un protocole qui permet d'inscrire facilement des données sur Bitc
 Dans *L'élégance de Bitcoin* (Les contrats autonomes, l'inscription de données arbitraires et métaprotocoles pp.332-340), **Ludovic Lars** retrouve des trésors cachés dans Bitcoin comme l'hommage à Len Sassaman en art ASCII ![hommage_len](./assets/hommage_len.jpg) [source image](https://hellotoken.io/dordinals/) et bien d'autres[^3]. 
 
 On voit ici que l'on sait inscrire des données sur Bitcoin depuis longtemps, mais qu'il nous est difficile de les retrouver. On dit alors que ces éléments ne sont pas indexés nativement[^4].
-Ordinals est entre-autre une réponse à ceci en permettant de facilement retrouver tout ce qui est inscrit par cette méthode en utilisant un indexer[^5] puis un [explorer](https://ordinals.com).
+Ordinals est entre-autre une réponse à ceci en permettant de facilement retrouver tout ce qui est inscrit par cette méthode en utilisant un indexer[^5] permettant la créationd'[explorer](https://ordinals.com).
 
 Ordinals est un protocole qui permet l'écriture de larges données sur Bitcoin et d'en tracer la possession. 
 On parle d'**enveloppe**, d'**index** (ou d'indexer[^5]) et de **satoshis** (les unités de Bitcoin) pour tracer la propriété.
 
 Nous allons donc voir comment cela fonctionne, comment on peut utiliser ce protocole et présenter quelques projets important de l'écosystem Ordinals.
 
-Avant cela on peut se demander si Ordinals est unique ?
+Avant cela on peut se demander si Ordinals est unique.
 
 ## Ordinals est-il unique ?
 Il existe d'autres protocoles à enveloppe sur Bitcoin (comme Atomicals) ou sur d'autres blockchain (comme Dogecoin).
@@ -80,20 +86,20 @@ Pour vous plonger dans ce protocole je vous invite à consulter [la documentatio
 Doginals est une copie du protocole Ordinals qui utilise exactement la même enveloppe mais sur la blockchain Dogecoin[^9]. 
 On y retrouve alors l'univers Ordinals avec souvent quelques mois de retard. 
 Un avantage d'avoir Ordinals sur Dogecoin (via Doginals) est le coût indéniablement moindre des inscriptions ainsi que la rapidité des transactions.
-De plus, on y trouve une culture différente de celle d'Ordinals. Les volumes sont évidemment dérisoire comparé à ceux d'Ordinals mais il y a tout de même un peu de trafic.
-Doginals souffre néanmoins de mauvais indexers et d'outils encore peu développés aussi bien pour inscrire que pour intéragir avec le protocole.
+De plus, on y trouve une culture un peu différente de celle d'Ordinals, plus tourné autour de la culture Dogecoin elle-même. Les volumes sont dérisoires comparé à ceux d'Ordinals mais il y a tout de même un peu de trafic.
+Doginals souffre néanmoins de mauvais indexers et d'outils encore peu développés aussi bien pour inscrire que pour interagir avec le protocole.
 
 L'intégration annoncée des Doginals dans [mydoge wallet](https://www.mydoge.com/) peut être une étape vers une utilisation plus simple et plus répandue de ce protocole.  
 
-Le site web principal autour de doginals est [doggy.market](https://doggy.market), un site d'achat/vente de doginals et de DRC-20[^6].
+Les principaux sites web autour de doginals pour l'achat et la vente d'inscriptions sont : [doggy.market](https://doggy.market) et [drc-20.org](https://drc-20.org/)[^6]. 
 
-Les protocoles de type inscriptions sont encore balbutiant et peuvent être à la manière d'Atomicals assez différent d'Ordinals. Néanmoins, ce travail d'apprentissage sur Ordinals sera toujours bénéfique pour comprendre les évolutions futures. 
+Les protocoles de type inscriptions sont encore balbutiants et peuvent être à la manière d'Atomicals assez différents d'Ordinals. Néanmoins, ce travail d'apprentissage sur Ordinals sera toujours bénéfique pour comprendre les évolutions futures. 
 
 # II/ Le cœur d'Ordinals
 **Ici nous regardons les détails de l'enveloppe et des tags du protocole.**
 
 Dans une transaction Bitcoin on peut mettre un message. Ce message doit respecter une certaine structure et utiliser des "fonctions" du protocole Bitcoin.
-Ces "fonctions" sont appelées des <u>opérations</u> et sont nommé `OP_CODE` (on utilise la notation `OP_OPERATION` par exemple `OP_ADD` pour l'opération d'addition). 
+Ces "fonctions" sont appelées des <u>opérations</u> et sont nommées `OP_CODE` (on utilise la notation `OP_OPERATION` par exemple `OP_ADD` pour l'opération d'addition). 
 Ces opérations sont envoyées au *réseau Bitcoin*[^7] dans des transactions.
 
 Via des `OP_CODEs` on peut réaliser des opérations algorithmique sur le réseau Bitcoin, on appelle cela un `script`. Pour plus de détail : [Opcodes used in Bitcoin Script - Bitcoin Wiki](https://wiki.bitcoinsv.io/index.php/Opcodes_used_in_Bitcoin_Script)
@@ -140,7 +146,7 @@ Les opérations `OP_PUSH 1` et `OP_PUSH 0` sont des opérations qui permettent d
 
 La question qui peut se poser est : qu'est-ce que le format [MIME](https://developer.mozilla.org/fr/docs/Web/HTTP/Basics_of_HTTP/MIME_types/Common_types) ?
 
-Le format MIME est un standard d'Internet initialement prévu pour détailler le type de fichier envoyé dans courrier électronique. Il permet d'indiquer le type de contenu d'un message[^10].
+Le format MIME est un standard d'Internet initialement prévu pour détailler le type de fichier envoyé dans un courrier électronique. Il permet d'indiquer le type de contenu d'un message[^10].
 
 La plupart des extensions de fichier (`.jpg`, `.pdf`, `.mp3`, ...) ont un type MIME associé (voir: [RFC 2046](https://datatracker.ietf.org/doc/html/rfc2046)). 
 Pour Ordinals en fonction du fichier que l'on souhaite inscrire le type MIME est sélectionné puis écrit en conséquence. 
@@ -157,7 +163,7 @@ Un exemple plutôt sympa est l'inscription 466 : [Yet Another Doom Clone](https:
 Vous pouvez avoir un détail du nombre d'inscriptions par type MIME sur [ordinals.com/status](https://ordinals.com/status).
 
 ### Activité
-Trouver une inscription de type MIME `text/html;charset=utf-8`, `image/jpeg`, `image/webp`, `video/mp4`, `image/gif` et `text/javascript`.
+Trouver des inscriptions de type MIME `text/html;charset=utf-8`, `image/jpeg`, `image/webp`, `video/mp4`, `image/gif` et `text/javascript`.
 
 Pour cela trouver un explorer Ordinals qui vous permet de filtrer les inscriptions pour obtenir ces types MIME.
 <!--Explorer possible : ord.io-->
@@ -165,16 +171,16 @@ Pour cela trouver un explorer Ordinals qui vous permet de filtrer les inscriptio
 ### Activité avancée
 Créer le script de création d'une transaction depuis `createrawtransaction` avec une librairie ou langage quelconque. (Sympa en bitcoin-cli, mais pas de copier-coller du Rust de [./src/subcommand/wallet/inscribe.rs](https://github.com/ordinals/ord))
 
-**Détails sur les inscriptions brc-20**
+### Détails sur les inscriptions brc-20
 Comme on l'a vu pour faire une inscription simple on a juste besoin de spécifier le type de notre fichier et de l'envoyer sur Bitcoin.
 
 En mars 2023 [domodata](https://domo-2.gitbook.io/brc-20-experiment) a proposé un standard permettant de créer et échanger des tokens sur Bitcoin via l'enveloppe Ordinals. On appelle ce standard **brc-20** et nous allons voir quel est-il et comment fonctionne-t-il. 
 
-Le nom du standard est une référence au standard ERC-20 d'Ethereum. Le but de ce standard est d'être facile et de fonctionner. Il s'agit en effet de la première expérimentation dans cette direction. Loin d'être parfait et optimiser il a le mérite de fonctionner. 
+Le nom du standard est une référence au standard ERC-20 d'Ethereum. Le but de ce standard est d'être facile et de fonctionner. Il s'agit en effet de la première expérimentation dans cette direction. Loin d'être parfait et optimisé il a le mérite de fonctionner. 
 
-Mais, comment ?
+**Mais, comment ?**
  
-Pour créer un token brc-20 il suffit de créer une inscription avec le type MIME `application/json` et de respecter la structure suivante : 
+Pour créer un token brc-20 il suffit de créer une inscription avec le type MIME `application/json` et de respecter la structure suivante pour le fichier inscrit : 
 ```json
 {
     "p": "brc-20",
@@ -194,7 +200,7 @@ On voit ici qu'on est une fois de plus face à un protocole. Ce protocole possè
 Chaque opération prend des paramètres particuliers et doit respecter la structure attendue pour être indexée.
 
 Comme pour Ordinals il faut un indexer, qui à l'instar d'Ordinals fait un peu plus que simplement permettre de retrouver les tokens. 
-L'indexer brc-20, permet non seulement de tenir à jour les tokens existants mais tiens également une balance pour chaque wallet ayant minté ou transféré des tokens. On dit que le protocole est *stateful*, il prend en compte l'état du système. 
+L'indexer brc-20, permet non seulement de tenir à jour les tokens existants mais tiens également une balance pour chaque wallet ayant minté ou transféré des tokens. On dit que le protocole est *stateful*, il prend en compte l'état du système[^15]. 
 
 Le *mint* est assez simple, il suffit d'inscrire le fichier suivant : 
 ```json
@@ -222,10 +228,10 @@ On voit donc qu'avec des fichiers JSON simples on peut créer des tokens en util
 
 D'autres expérimentations plus poussées sont en cours du côté de [Trac ecosystem](https://trac.network/).
 **Trac** se définit comme un ecosystème avec plusieurs protocoles permettant de créer des tokens, réalisés des swaps, du staking ou encore des tokens d'authentification. Le développement est en cours et si vous voulez en savoir plus en français je vous invite à écouter l'[OP_SPACE 006: Tap Protocol -> TOUT !](https://x.com/i/spaces/1lPJqbbnzwmxb). 
-
+Une autre expérimentation était : [`cbrc-20`](https://www.ord.io/preview/130c79034450163f36fcde8e27f96904dc42e535f28aacd5af3b9a18d0b1c7f9i0?type=text/html&raw=true) pour un standard de token plus avancé que brc-20 et plus natif à Ordinals dans sa définition. On verra par la suite quel est l'outil principal d'Ordinals utilisé par cbrc-20. 
 
 ## 2. Les *tags*
-Les *tags* ou étiquette en français permettent une spécification des messages protocolaires. Cela permet d'ajouter du contexte à l'inscription brute vue en partie 1.
+Les *tags* ou étiquettes en français permettent une spécification des messages protocolaires. Cela permet d'ajouter du contexte à l'inscription brute vue en partie 1.
 
 Ci-dessous un détail des *tags* possibles :
 ```
@@ -272,7 +278,7 @@ Trouver un ou deux projets utilisant certains tags avancées et expliquer commen
 Par exemple, [`cbrc-20`](https://www.ord.io/preview/130c79034450163f36fcde8e27f96904dc42e535f28aacd5af3b9a18d0b1c7f9i0?type=text/html&raw=true) avait proposé un standard de token utilisant le tag `metaprotocol` ainsi qu'une syntaxe avancée (vrn) permettant des utilisations plus poussées que brc-20 comme le transfer en un message (xmail), le swap ou encore le staking.  
 
 
-### Récusivité
+### Récursivité
 
 Pour aller plus loin on peut également parler de récursivité. Comme on l'a vu précédemment on peut inscrire des fichiers javascript ou html. 
 Un tel fichier peut alors accéder à la mémoire interne de son lieu de stockage. Mais... Où est-il stocké ? 
@@ -284,6 +290,8 @@ Cela nous permet d'écrire du code qui utilise d'autres inscriptions. Par exempl
 Ainsi, on peut créer un site web React utilisant cette librairie entièrement on-chain : [Psyop website](https://ordiscan.com/inscription/25949479).
 
 La récursivité est aujourd'hui très utilisée dans Ordinals. 
+
+Ici vous trouverez une liste assez complète de packages js déployé sur ordinals : [jokie88/ordinalpublicgoods: A list of resources inscribed on bitcoin](https://github.com/jokie88/ordinalpublicgoods?tab=readme-ov-file#ordinal-public-goods).
 
 ### Activité 
 
@@ -335,7 +343,7 @@ Pour utiliser Ordinals il faut des outils.
 Si vous êtes un développeur ou familier des lignes de commandes vous pouvez utiliser directement la ligne de commande [`ord`](https://github.com/ordinals/ord) pour inscrire et indexer Ordinals. Pour cela il vous faudra ~1To de disponible pour avoir un full node Bitcoin avec l'option `txindex=1` activée.
 Pour l'installation de `ord` vous pouvez suivre la très bonne vidéo [@pazNGMI: How To Setup A Bitcoin Node & Ord Wallet](https://www.youtube.com/watch?v=tdC8kmjn5N0). Pour la partie node Bitcoin je vous invite à consulter directement PlanB Network [Tutoriels nodes](https://planb.network/fr/tutorials/node).
 
-Pour un usage plus user friendly voici quelques outils que j'utilise ou dont j'ai entendu parler [^8]:
+Pour un usage plus user friendly voici quelques outils que j'utilise ou dont j'ai entendu parler[^8]:
 
 - Explorers : [ordinals.com](https://ordinals.com), [ordiscan.com](https://ordiscan.com), [ordpool.space](https://ordpool.space), [ord.io](https://ord.io), ...
 
@@ -456,7 +464,7 @@ Cela permet néanmoins de sensibiliser de nombreuses personnes au code Bitcoin e
 
 [^1]: ([Casey (@rodarmor) | Twitter](https://twitter.com/rodarmor/), [R O D A R M O R](https://rodarmor.com/), [casey (Casey Rodarmor) | Github](https://github.com/casey/))
 
-[^2]: Bitcoin maxi 
+[^2]: Bitcoin maximaliste se dit des personnes mettant en avant le fait que Seul Bitcoin a une véritable valeur monétaire. Les autres cryptos sont en général désignées par *Shitcoin* de la part des maximalistes. Il existe plusieurs courant du maximalisme allant du minimalisme au toxic maximalisme. Les détails dépassent largement le cadre de cet introduction à Ordinals.  
 
 [^3]: Pour un peu d'histoire cypherpunk : [Len Sassaman and Satoshi: a Cypherpunk history | Medium](https://evanhatch.medium.com/len-sassaman-and-satoshi-e483c85c2b10).
 
@@ -483,7 +491,7 @@ Cela permet néanmoins de sensibiliser de nombreuses personnes au code Bitcoin e
 [^14]: En ce moment, mempool.space propose un service d'accéleration de transaction basé sur ce principe d'accord (off-chain, pris entre le mineur et l'utilisateur par l'intermédiaire de mempool). Est-ce que ces accords successifs avec TaprootWizards et Runestone ont joués pour quelque chose ?
 
 
-
+[^15]: Pour un exemple de protocole *stateless* on peut penser à Bitcoin qui ne stocke que les UTXO et non pas les états des adresses (nativement) en opposition à Ethereum qui stocke les états de chaque adresses au cours du temps. Ethereum est un exemple de protocole *stateful*. 
 
 
 

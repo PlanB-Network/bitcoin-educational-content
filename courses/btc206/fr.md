@@ -16,7 +16,7 @@ Ceci reste une expérimentation en version beta (au 01/09/24) encore en alpha ju
 
 La version actuelle est : `ord 0.19.1`. 
 
-Au vue de l'arrivée récente du protocole il n'y a pas encore de personne formée à ce sujet. J'ai découvert Ordinals en février 2023 et je ne suis qu'un explorateur de ce protocole.
+Au vue de l'arrivée récente du protocole il n'y a pas encore de personne formées à ce sujet. J'ai découvert Ordinals en février 2023 et je ne suis qu'un explorateur de ce protocole.
 
 Ce qui est partagé ici est une synthèse de mes connaissances et de mes expériences, et peut être amené à évoluer. Comme dans le cas de Bitcoin il est important de se tenir à jour des évolutions du/des protocole(s).
 
@@ -27,36 +27,40 @@ J'ai adopté un discours et des explications qui ne suivent pas l'ordre utilisé
 J'ai pris le parti de mettre en avant l'enveloppe qui constitue selon moi le cœur de cette nouveauté et de passer les sats et l'*ordinal theory* ensuite. 
 Les projets discutés et présentés ont pour but de sensibiliser et d'expliquer l'histoire en train de se faire. Bien d'autres projets sont en train de se faire et ce cours reste une introduction générale aux Ordinals. Des cours plus avancés seront disponibles et l'histoire pourra éventuellement être traitée dans des pages dédiées. 
 
+**Définition (Protocole, messages protocolaires)**: Ensemble de règles suivis par un réseau (informatique ou humain) dans le but de produire un service. Un protocole permet à un réseau de communiquer des messages suivant les règles établies, on parle de **messages protocolaires**. 
+
+*Example*: 
+- Bitcoin est un protocole informatique monétaire, ses messages sont des transactions ;
+- http signifiant Protocole de transfer Hypertext (*HyperText Transfer Protocol*) est un protocole informatique pour s'échanger des pages webs ou des fichiers via le réseau Internet, ses messages sont appelés [des requêtes](https://www.ionos.fr/digitalguide/hebergement/aspects-techniques/requete-http/) ;
+- Le vote des lois est un protocole humain, ses messages sont les échanges au cours du processus de décision puis la communication de sa validation.
+<!-- 
+D'autres exemples peuvent être ajoutés ou modifiés si nécessaire mais le but est de fixer les esprits sur ce qu'est un protocole et montrer qu'on y ait habitué. 
+-->
+
 # I/ Introduction
 
 Ordinals a été proposé par Casey Rodarmor[^1].
 
 <!--Transcript depuis [Casey Rodarmor - From Ordinals to Runes: Meet Bitcoin’s Most Controversial Dev](https://www.youtube.com/watch?v=sqfCarDdXPM) :-->
 
-Casey a quitté l'école à 15 ans pour aller travailler dans des petits boulots. A 21 ans il découvre la programmation et veut en faire son métier. Il rattrape ses dernières années dans un [collège communautaire](https://fr.wikipedia.org/wiki/Coll%C3%A8ge_communautaire) avant d'intégrer Berkeley en Sciences de l'Informatique (Computer sciences). Il poursuit chez Google comme Ingénieur Fiabilité sur site ([Site Reliability Engineering](https://fr.wikipedia.org/wiki/Site_Reliability_Engineering)) puis rejoint l'équipe de [Chaincode Labs](https://chaincode.com/) en 2015. Chez Chaincode Labs il a maintenu Bitcoin core en réalisant des petites missions: nettoyage de certains PRs (Pull Requests), remaniement d'une partie des tests, et d'autres taches de maintenance. 
-
-En 2019, il découvre [Art Blocks | Generative digital art](https://www.artblocks.io/), qui publie et promeut l'art géneratif. Fasciné par cet algorithmisation de l'art, il veut en faire. En se lancant dans *"les NFTs"* il voit les défaillances voir le non-sens informatique de devoir déployer un contrat pour écrire une URL renvoyant vers un lien IPFS (ou autres) stockant le JPEG. Il lui semble évident qu'il faut l'écrire *on-chain*. En tant que Bitcoin maximaliste[^2], il développe alors un outil qui permettrait de faire ceci : écrire **concrétement** l'image sur Bitcoin. 
+Casey découvre [Art Blocks | Generative digital art](https://www.artblocks.io/) en 2019, qui publie et promeut l'art géneratif. Fasciné par cet algorithmisation de l'art, il veut en faire. 
+En se lancant dans *"les NFTs"* il voit les défaillances voir le non-sens informatique de devoir déployer un contrat pour écrire une URL renvoyant vers un lien IPFS (ou autres) stockant le JPEG. Il lui semble évident qu'il faut l'écrire *on-chain*. En tant que Bitcoin maximaliste[^2], il développe alors un outil qui permettrait de faire ceci : écrire **concrétement** l'image sur Bitcoin. 
 
 C'est alors que né **Ordinals**. 
 
-Pour plus de détails sur la vie de Casey (et son avis) vous pouvez consulter: 
-[Casey Rodarmor's Resume](https://rodarmor.com/resume/index.html).
-[Casey Rodarmor - From Ordinals to Runes: Meet Bitcoin’s Most Controversial Dev](https://www.youtube.com/watch?v=sqfCarDdXPM)
-Vous pouvez écouter son podcast en anglais: [Hell Money](https://hell.money/) co-host par [Realizing Erin](https://www.youtube.com/realizingerin).  
-
 Le protocole Oridnals a connu sa première inscription le 14 décembre 2022 [Inscription #0](https://ordiscan.com/inscription/0).
-
-Ordinals est un protocole qui permet d'inscrire facilement des données sur Bitcoin et de les retrouver. 
+Intuitivement, ordinals est un protocole qui permet d'inscrire facilement des données sur Bitcoin et de les retrouver. 
 
 Dans *L'élégance de Bitcoin* (Les contrats autonomes, l'inscription de données arbitraires et métaprotocoles pp.332-340), **Ludovic Lars** retrouve des trésors cachés dans Bitcoin comme l'hommage à Len Sassaman en art ASCII ![hommage_len](./assets/hommage_len.jpg) [source image](https://hellotoken.io/dordinals/) et bien d'autres[^3]. 
 
 On voit ici que l'on sait inscrire des données sur Bitcoin depuis longtemps, mais qu'il nous est difficile de les retrouver. On dit alors que ces éléments ne sont pas indexés nativement[^4].
-Ordinals est entre-autre une réponse à ceci en permettant de facilement retrouver tout ce qui est inscrit par cette méthode en utilisant un indexer[^5] permettant la créationd'[explorer](https://ordinals.com).
+Ordinals est entre-autre une réponse à ceci en permettant de facilement retrouver tout ce qui est inscrit par cette méthode en utilisant un indexer[^5] permettant la création d'[explorer](https://ordinals.com).
 
-Ordinals est un protocole qui permet l'écriture de larges données sur Bitcoin et d'en tracer la possession. 
-On parle d'**enveloppe**, d'**index** (ou d'indexer[^5]) et de **satoshis** (les unités de Bitcoin) pour tracer la propriété.
+Ordinals est un protocole qui permet l'écriture de larges données sur Bitcoin et d'en tracer la possession. Ordinals est appelé un protocole à enveloppe 
+On parle d'**enveloppe**, d'**index** (ou d'indexer[^5]) et de **satoshis** (les unités de Bitcoin, pour tracer la propriété), qui sont les trois pilliers d'Oridnals. 
+<!-- Ce cours prend le partie de positionner l'enveloppe en premier lieu puis d'expliquer comment Ordinals utilise les satoshis, mais la version inverse est également possible -->
 
-Nous allons donc voir comment cela fonctionne, comment on peut utiliser ce protocole et présenter quelques projets important de l'écosystem Ordinals.
+Nous allons donc voir comment cela fonctionne, comment on peut utiliser ce protocole et présenter quelques projets important de l'écosysteme Ordinals.
 
 Avant cela on peut se demander si Ordinals est unique.
 
@@ -462,7 +466,7 @@ Cela permet néanmoins de sensibiliser de nombreuses personnes au code Bitcoin e
 
 [Covenants, OP_CAT et OP_CTV : Tout savoir sur la prochaine mise à jour de Bitcoin](https://cryptoast.fr/covenants-opcat-opctv-tout-savoir-prochaine-mise-a-jour-bitcoin/)
 
-[^1]: ([Casey (@rodarmor) | Twitter](https://twitter.com/rodarmor/), [R O D A R M O R](https://rodarmor.com/), [casey (Casey Rodarmor) | Github](https://github.com/casey/))
+[^1]: Casey a quitté l'école à 15 ans pour aller travailler dans des petits boulots. A 21 ans il découvre la programmation et veut en faire son métier. Il rattrape ses dernières années dans un [collège communautaire](https://fr.wikipedia.org/wiki/Coll%C3%A8ge_communautaire) avant d'intégrer Berkeley en Sciences de l'Informatique (Computer sciences). Il poursuit chez Google comme Ingénieur Fiabilité sur site ([Site Reliability Engineering](https://fr.wikipedia.org/wiki/Site_Reliability_Engineering)) puis rejoint l'équipe de [Chaincode Labs](https://chaincode.com/) en 2015. Chez Chaincode Labs il a maintenu Bitcoin core en réalisant des petites missions: nettoyage de certains PRs (Pull Requests), remaniement d'une partie des tests, et d'autres taches de maintenance. Pour plus de détails sur la vie de Casey (et son avis) vous pouvez consulter: [Casey Rodarmor's Resume](https://rodarmor.com/resume/index.html). [Casey Rodarmor - From Ordinals to Runes: Meet Bitcoin’s Most Controversial Dev](https://www.youtube.com/watch?v=sqfCarDdXPM) Vous pouvez écouter son podcast en anglais: [Hell Money](https://hell.money/) co-host par [Realizing Erin](https://www.youtube.com/realizingerin). ([Casey (@rodarmor) | Twitter](https://twitter.com/rodarmor/), [R O D A R M O R](https://rodarmor.com/), [casey (Casey Rodarmor) | Github](https://github.com/casey/))
 
 [^2]: Bitcoin maximaliste se dit des personnes mettant en avant le fait que Seul Bitcoin a une véritable valeur monétaire. Les autres cryptos sont en général désignées par *Shitcoin* de la part des maximalistes. Il existe plusieurs courant du maximalisme allant du minimalisme au toxic maximalisme. Les détails dépassent largement le cadre de cet introduction à Ordinals.  
 

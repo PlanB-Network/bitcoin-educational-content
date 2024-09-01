@@ -375,7 +375,7 @@ La première collection revendiquée sur Ordinals sont les [**Bitcoin Schrooms**
 
 Le compte de la communauté est celui-ci : [@bitcoinshroom](https://x.com/bitcoinshroom). 
 
-On voit bien ici une collection d'art génératif (créé algorithmiquement) reprenant les codes d'internet, des memes et de Bitcoin. Vous pouvez vous balader sur [bitcoinshrooms/com](https://bitcoinshrooms.com) pour y voir des références à l'Orange Pill, Bitcoin Magazine, à l'euro et l'union européenne, BTCServer ou encore à d'autres collections (certainement le plus ironique). 
+On voit bien ici une collection d'art génératif (créé algorithmiquement) reprenant les codes d'internet, des memes et de Bitcoin. Vous pouvez vous balader sur [bitcoinshrooms.com](https://bitcoinshrooms.com) pour y voir des références à l'Orange Pill, Bitcoin Magazine, à l'euro et l'union européenne, BTCServer ou encore à d'autres collections (certainement le plus ironique). 
 La collection ne s'est pas inscrite en une seule fois et permet de mettre en lumière la jeunesse de l'écosystème Ordinals. En effet, la collection est mal indexée sur certains sites comme [gamma.io](https://gamma.io/ordinals/collections/bitcoinshrooms) ou [ordiscan](https://ordiscan.com/collection/bitcoin-shrooms?sort=oldest) qui n'ont pas les mêmes.
 Par exemple, le fichier de définition de la collection ne contient pas le shroom ci-dessus [inscriptions.json](https://github.com/ordinals-wallet/ordinals-collections/blob/main/collections/bitcoin-shrooms/inscriptions.json), pourtant bien dans la collection d'après [le site officiel](https://bitcoinshrooms.com).
 Les inscriptions de cette collection se sont échangés pour plusieurs BTC chacunes et s'échange pour les moins chers autour de 1,9 BTC actuellement (Août 24)[^11]. 

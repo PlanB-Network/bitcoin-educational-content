@@ -15,4 +15,5 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 2695
+      - LoicPandul
+    reward: 1347

@@ -2,6 +2,8 @@ import os
 import inquirer
 from tqdm import tqdm
 from proofreading import *
+from datetime import datetime
+
 
 def get_subfolder_choices(root_directory):
     subfolders = [
@@ -64,6 +66,12 @@ def add_new_contribution_to(content_path):
     if new_contribution == 'y':
         contributor_id = input("Enter the github username of the contributor: ")
         add_proofreading_contributor(data, selected_language, contributor_id) 
+
+        current_date = datetime.now()
+        current_date = current_date.date()
+        update_proofreading_inline_property(data, selected_language,
+                                            'last_contribution_date', current_date)
+
         update_yml_data(file_path, data)
         print(f"{contributor_id} added as new proofreader of {content_name} in {selected_language}")
         reward = get_proofreading_property(data, selected_language, 'reward')

@@ -34,9 +34,10 @@ proofreading:
     contributors_id:
     reward: 2730
   - language: fr
-    last_contribution_date:
+    last_contribution_date: 2024-09-01
     urgency: 1
     contributors_id:
+      - LoicPandul
     reward: 2615
   - language: it
     last_contribution_date:

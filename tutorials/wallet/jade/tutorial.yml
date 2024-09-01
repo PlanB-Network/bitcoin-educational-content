@@ -1,6 +1,7 @@
+id: 7d62bf0c-f460-4e68-9635-af9b731dabc3
 builder: Blockstream
 
-level: intermediary
+level: intermediate
 
 category: hardware
 
@@ -11,3 +12,77 @@ tags:
 credits:
   professor: rebuild-kiss
   link: https://armantheparman.com/jade/
+
+# Proofreading metadata
+original_language: en
+proofreading:
+  - language: cs
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 8512
+  - language: de
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 5506
+  - language: en
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 5506
+  - language: es
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 7009
+  - language: fi
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 8512
+  - language: fr
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 5506
+  - language: it
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 7009
+  - language: ja
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 11518
+  - language: pt
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 5506
+  - language: ru
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 8512
+  - language: vi
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 11518
+  - language: et
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 8512
+  - language: id
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 10015
+  - language: zh-Hans
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 10015

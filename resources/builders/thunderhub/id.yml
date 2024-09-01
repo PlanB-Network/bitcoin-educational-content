@@ -1,0 +1,6 @@
+description: |
+  ThunderHub adalah platform sumber terbuka yang memungkinkan Anda untuk mengelola dan memantau node Lightning Anda dari perangkat apa pun.
+
+  Beberapa fitur kunci termasuk mengirim dan menerima pembayaran Lightning dan On-Chain, opsi penyeimbangan ulang, penggunaan ln-pay dan ln-withdraw dari halaman utama, dan mengelola saluran untuk likuiditas optimal. ThunderHub terintegrasi dengan BTCPay, RaspiBlitz, MyNode, Voltage, Umbrel, dan Start9's EmbassyOS, dan mendukung versi node LND terbaru. Platform ini juga menyediakan laporan transaksi dan detail pembayaran yang diteruskan, serta menawarkan Mode Malam/Hari untuk kenyamanan pengguna.
+contributors:
+  - rabbit-hole

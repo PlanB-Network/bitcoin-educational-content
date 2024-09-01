@@ -4,3 +4,77 @@ tags:
   - business
   - management
   - personal development
+
+# Proofreading metadata
+original_language: en
+proofreading:
+  - language: cs
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2976
+  - language: de
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2738
+  - language: en
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2738
+  - language: es
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2857
+  - language: fi
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2976
+  - language: fr
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2738
+  - language: it
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2857
+  - language: ja
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 3214
+  - language: pt
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2738
+  - language: ru
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2976
+  - language: vi
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 3214
+  - language: id
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 3095
+  - language: zh-Hans
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 3095
+  - language: et
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2976

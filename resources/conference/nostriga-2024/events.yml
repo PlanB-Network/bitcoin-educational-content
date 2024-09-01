@@ -10,10 +10,8 @@
   book_in_person: false
   price_dollars: 0
   description: Nostr.World Unconference 3rd Edition
-  
   language: 
     - en
-
   links:
     website: https://nostr.world/
     

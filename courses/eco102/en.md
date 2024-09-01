@@ -1095,6 +1095,11 @@ Wrote Frédéric Bastiat in a short pamphlet titled The State.
 
 <partId>3b62de5c-5d4a-5182-ab14-f7ef13c97e28</partId>
 
+
+
+## Give us some feedback about this course
+<chapterId>db20170d-ceb6-56cd-b4e5-c690942f8b29</chapterId>
+<isCourseReview>true</isCourseReview>
 ## The Legacy of Frédéric Bastiat
 
 <chapterId>2a2a181a-e477-5be1-ba1f-af59490c364e</chapterId>
@@ -1129,5 +1134,4 @@ But as Bastiat aptly demonstrated, state intervention has perverse effects that 
 If we look at things from this angle, Reagan explained to GE employees, the so-called miracles of state spending appear in a completely different light. Because taxes discourage production, and the wealth created by public spending cannot fully compensate for those that were prevented from being born by the taxes levied to pay for these expenses.
 
 ![image](assets/image/20/IMG10.webp)
-
 In essence, Reagan took from Bastiat several key elements of a liberal vision of society and man: the primacy of civil society over the State, the value of choice and individual responsibility, the importance of the entrepreneur in wealth creation, the importance of a flexible and minimal legal framework, which allows for trust and respect for contracts, the fundamental law that wealth must be created before it can be distributed, the desire to give everyone a chance in competitive markets…

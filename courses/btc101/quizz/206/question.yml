@@ -3,6 +3,60 @@ difficulty: hard
 duration: 45
 author: DecouvreBitcoin
 tags:
-- Bitcoin
-- FOMO
-- FUD
+  - Bitcoin
+  - FOMO
+  - FUD
+
+# Proofreading metadata
+original_language: en
+proofreading:
+  - language: cs
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2630
+  - language: de
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2565
+  - language: en
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2565
+  - language: es
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2597
+  - language: fi
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2630
+  - language: fr
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2565
+  - language: it
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2597
+  - language: ja
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2695
+  - language: pt
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2565
+  - language: vi
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2695

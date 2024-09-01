@@ -1,0 +1,6 @@
+description: |
+  Electrum adalah dompet Bitcoin yang serbaguna yang mengutamakan keamanan pengguna dan fleksibilitas.
+
+  Dompet ini mendukung berbagai platform termasuk mobile, desktop, dan antarmuka baris perintah. Kunci privat Anda dienkripsi dan disimpan di perangkat Anda, memastikan bahwa mereka tidak pernah terpapar. Lebih lanjut, Electrum menggunakan frasa rahasia untuk memungkinkan pemulihan dana, dan menyediakan akses cepat ke blockchain Bitcoin melalui jaringan servernya. Dompet ini mendukung penyimpanan "dingin" offline untuk menjaga keamanan kunci privat Anda, dan menawarkan kemampuan multisig untuk membagi izin pengeluaran koin. Electrum juga memverifikasi semua transaksi dalam riwayat Anda menggunakan Verifikasi Pembayaran Sederhana (SPV), dan memungkinkan integrasi plugin pihak ketiga, seperti layanan multisig dan dompet perangkat keras.
+contributors:
+  - lubang-kelinci

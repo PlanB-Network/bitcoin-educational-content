@@ -3,6 +3,60 @@ difficulty: intermediate
 duration: 30
 author: DecouvreBitcoin
 tags:
-- Bitcoin
-- Lightning Network
-- Transaction Routing
+  - Bitcoin
+  - Lightning Network
+  - Transaction Routing
+
+# Proofreading metadata
+original_language: en
+proofreading:
+  - language: cs
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2738
+  - language: de
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2619
+  - language: en
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2619
+  - language: es
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2678
+  - language: fi
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2738
+  - language: fr
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2619
+  - language: it
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2678
+  - language: ja
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2857
+  - language: pt
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2619
+  - language: vi
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2857

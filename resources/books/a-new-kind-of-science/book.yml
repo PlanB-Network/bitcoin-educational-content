@@ -1,5 +1,79 @@
 author: "Stephen Wolfram"
-level: expert
+level: advanced
 tags:
   - science
   - Technology
+
+# Proofreading metadata
+original_language: en
+proofreading:
+  - language: cs
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 3526
+  - language: de
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 3013
+  - language: en
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 3013
+  - language: es
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 3269
+  - language: fi
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 3526
+  - language: fr
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 3013
+  - language: it
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 3269
+  - language: ja
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 4039
+  - language: pt
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 3013
+  - language: ru
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 3526
+  - language: vi
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 4039
+  - language: id
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 3782
+  - language: zh-Hans
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 3782
+  - language: et
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 3526

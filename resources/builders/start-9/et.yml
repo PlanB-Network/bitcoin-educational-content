@@ -1,0 +1,6 @@
+description: |
+  Start9 eesmärk on lahendada usalduse probleem tänases digitaalses maailmas, kus andmete kontroll on suur mure.
+
+  Ettevõte annab teile võimu omada ja kontrollida oma andmeid, käitades isiklikku serverit, mis oli traditsiooniliselt kättesaadav ainult tehnikahuvilistele isikutele või jõukatele üksustele. Start9 abil saate käitada täielikku Bitcoin'i sõlme, et kinnitada tehinguid, Lightning'i sõlme, et saada täielik kontroll oma Bitcoin'i üle Lightning Network'is, ja sisuliselt saada oma digitaalseks üksuseks. Seda võimaldab EmbassyOS, brauseripõhine operatsioonisüsteem isiklikele serveritele. Hoolimata potentsiaalselt hirmutavast isikliku serveri käitamisest, tagab Start9 põhjaliku klienditoe, sealhulgas üksikasjaliku kasutusjuhendi, KKK, õpetused ja otsese juurdepääsu tehnilise ekspertide kogukonnale.
+contributors:
+  - rabbit-hole

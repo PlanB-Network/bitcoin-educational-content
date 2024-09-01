@@ -3,3 +3,17 @@ related_words:
   - NLOCKTIME
 tags:
   - ''
+
+# Proofreading metadata
+original_language: fr
+proofreading:
+  - language: en
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2768
+  - language: fr
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2768

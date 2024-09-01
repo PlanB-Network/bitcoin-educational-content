@@ -2,11 +2,20 @@ year: 2024-05
 name: Bitblockboom 2024
 builder: Bitblockboom
 location: Dallas, USA
-language: 
+language:
   - en
 links:
   website: https://bitblockboom.com/
   twitter: https://twitter.com/bitblockboom
-tags: 
+tags:
   - Bitcoiner
   - General
+
+# Proofreading metadata
+original_language: en
+proofreading:
+  - language: en
+    last_contribution_date:
+    urgency: 0
+    contributors_id:
+    reward: 2500

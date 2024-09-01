@@ -1057,6 +1057,11 @@ Suite à la panique bancaire de 1796, un phénomène s'est produit où tout le m
 
 Les banques centrales ont évolué pour devenir des prêteurs de dernier recours, suspendant la convertibilité de leur monnaie en or. Bien que cette action ait été initialement conçue comme une solution temporaire, elle est finalement devenue permanente, marquant ainsi l'avènement du concept du prêteur de dernier recours. Cette transformation a façonné les banques centrales telles que nous les connaissons aujourd'hui. Cependant, dans des économies plus fragiles, cette capacité à imprimer de la monnaie à volonté peut entraîner des conséquences indésirables, comme l'hyperinflation, si elle est utilisée de manière irresponsable.
 
+
+
+## Donnez-nous votre avis sur ce cours
+<chapterId>1a37317e-372a-5241-b478-8316d44f9283</chapterId>
+<isCourseReview>true</isCourseReview>
 ## Livres et ressources
 <chapterId>c44e4519-0741-527b-b3b0-3f513e87147d</chapterId>
 

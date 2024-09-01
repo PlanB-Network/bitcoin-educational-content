@@ -1,5 +1,79 @@
 author: Pirate Hash
-level: expert
+level: advanced
 tags:
   - bitcoin
   - technology;
+
+# Proofreading metadata
+original_language: en
+proofreading:
+  - language: cs
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2584
+  - language: de
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2542
+  - language: en
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2542
+  - language: es
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2563
+  - language: fi
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2584
+  - language: fr
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2542
+  - language: it
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2563
+  - language: ja
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2626
+  - language: pt
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2542
+  - language: ru
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2584
+  - language: vi
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2626
+  - language: id
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2605
+  - language: zh-Hans
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2605
+  - language: et
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2584

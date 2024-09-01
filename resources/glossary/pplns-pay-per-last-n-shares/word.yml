@@ -3,3 +3,17 @@ related_words:
   - SHARES
 tags:
   - ''
+
+# Proofreading metadata
+original_language: fr
+proofreading:
+  - language: en
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2630
+  - language: fr
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2630

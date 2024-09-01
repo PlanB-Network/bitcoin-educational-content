@@ -5,5 +5,5 @@ wrong_answers:
   - Erstellen Sie mehrere Administrator-Konten.
   - Erstellen Sie kein Administrator-Konto.
 explanation: |
-  Die Verwendung eines Administrator-Kontos für den täglichen Gebrauch unter Windows kann das System größeren Sicherheitsrisiken aussetzen. Es wird empfohlen, zwei separate Konten zu erstellen: eines für administrative Aufgaben und ein weiteres für den täglichen Gebrauch.
+  Die Verwendung eines Administrator-Kontos für den täglichen Gebrauch unter Windows kann das System größeren Sicherheitsrisiken aussetzen. Es wird empfohlen, zwei separate Konten zu erstell- language: en eines für administrative Aufgaben und ein weiteres für den täglichen Gebrauch.
 reviewed: false

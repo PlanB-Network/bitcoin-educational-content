@@ -1,3 +1,4 @@
+id: 7ea5f5a4-e728-4ff9-b3f9-cf20aa6fc2bd
 builder: Galoy
 
 level: beginner
@@ -8,3 +9,77 @@ tags:
   - custodial
   - lightning
   - open-source
+
+# Proofreading metadata
+original_language: en
+proofreading:
+  - language: cs
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2632
+  - language: de
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2566
+  - language: en
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2566
+  - language: es
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2599
+  - language: fi
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2632
+  - language: fr
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2566
+  - language: it
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2599
+  - language: ja
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2698
+  - language: pt
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2566
+  - language: ru
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2632
+  - language: vi
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2698
+  - language: et
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2632
+  - language: id
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2665
+  - language: zh-Hans
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2665

@@ -1,3 +1,4 @@
+id: 0d177e6b-e167-4b25-8e38-4ec74213d1fb
 builder: DecouvreBitcoin
 
 category: hardware
@@ -10,3 +11,77 @@ level: advanced
 
 credits:
   professor: case-memory
+
+# Proofreading metadata
+original_language: en
+proofreading:
+  - language: cs
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 40036
+  - language: de
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 21268
+  - language: en
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 21268
+  - language: es
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 30652
+  - language: fi
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 40036
+  - language: fr
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 21268
+  - language: it
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 30652
+  - language: ja
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 58804
+  - language: pt
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 21268
+  - language: ru
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 40036
+  - language: vi
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 58804
+  - language: et
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 40036
+  - language: id
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 49420
+  - language: zh-Hans
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 49420

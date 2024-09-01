@@ -3,6 +3,60 @@ difficulty: hard
 duration: 45
 author: DecouvreBitcoin
 tags:
-- Hyperinflation
-- Monetary Dynamics
-- Inflation
+  - Hyperinflation
+  - Monetary Dynamics
+  - Inflation
+
+# Proofreading metadata
+original_language: en
+proofreading:
+  - language: cs
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2598
+  - language: de
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2549
+  - language: en
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2549
+  - language: es
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2573
+  - language: fi
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2598
+  - language: fr
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2549
+  - language: it
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2573
+  - language: ja
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2647
+  - language: pt
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2549
+  - language: vi
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2647

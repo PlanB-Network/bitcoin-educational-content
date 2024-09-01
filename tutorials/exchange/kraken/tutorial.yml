@@ -1,3 +1,4 @@
+id: 1ef03e25-9b42-49bd-a47d-249e1a13cfc6
 builder: Kraken
 
 tags:
@@ -7,4 +8,78 @@ tags:
 
 category: centralized
 
-level: intermediary
+level: intermediate
+
+# Proofreading metadata
+original_language: en
+proofreading:
+  - language: cs
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2644
+  - language: de
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2572
+  - language: en
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2572
+  - language: es
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2608
+  - language: fi
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2644
+  - language: fr
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2572
+  - language: it
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2608
+  - language: ja
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2716
+  - language: pt
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2572
+  - language: ru
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2644
+  - language: vi
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2716
+  - language: et
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2644
+  - language: id
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2680
+  - language: zh-Hans
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2680

@@ -2,8 +2,8 @@ name: Hub 21
 category: communities
 address_line_1: Belgrade, Serbia
 address_line_2: Vase Čarapića 15, Beograd 11000
-address_line_3: 
-language: 
+address_line_3:
+language:
   - en
   - sr
 links:
@@ -14,5 +14,78 @@ links:
 
 tags:
   - bitcoin-only
-  - education  
+  - education
   - communities
+# Proofreading metadata
+original_language: en
+proofreading:
+  - language: cs
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2660
+  - language: de
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2580
+  - language: en
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2580
+  - language: es
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2620
+  - language: fi
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2660
+  - language: fr
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2580
+  - language: it
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2620
+  - language: ja
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2740
+  - language: pt
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2580
+  - language: ru
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2660
+  - language: vi
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2740
+  - language: id
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2700
+  - language: zh-Hans
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2700
+  - language: et
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2660

@@ -2,3 +2,17 @@ en_word: OP_VER (0X62)
 related_words: []
 tags:
   - ''
+
+# Proofreading metadata
+original_language: fr
+proofreading:
+  - language: en
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2543
+  - language: fr
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2543

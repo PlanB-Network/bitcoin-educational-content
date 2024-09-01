@@ -1,3 +1,4 @@
+id: c4b20263-5b30-4c74-ae59-dc8d0f8715c2
 builder: Dojo Samourai
 
 tags:
@@ -5,9 +6,78 @@ tags:
   - coinjoin
   - mix
 
-category: bitcoin
+category: on-chain
 
 level: advanced
 
 credits:
   professor: pretty-private
+
+# Proofreading metadata
+original_language: fr
+proofreading:
+  - language: cs
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 39754
+  - language: de
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 21127
+  - language: en
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 21127
+  - language: es
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 30440
+  - language: fi
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 39754
+  - language: fr
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 21127
+  - language: it
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 30440
+  - language: ja
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 58381
+  - language: pt
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 21127
+  - language: ru
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 39754
+  - language: vi
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 58381
+  - language: id
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 49067
+  - language: zh-Hans
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 49067

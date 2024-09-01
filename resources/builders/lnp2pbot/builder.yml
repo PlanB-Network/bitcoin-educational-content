@@ -9,3 +9,77 @@ tags:
   - exchange
 
 category: exchange
+
+# Proofreading metadata
+original_language: en
+proofreading:
+  - language: cs
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2520
+  - language: de
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2510
+  - language: en
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2510
+  - language: es
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2515
+  - language: fi
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2520
+  - language: fr
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2510
+  - language: it
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2515
+  - language: ja
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2530
+  - language: pt
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2510
+  - language: ru
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2520
+  - language: vi
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2530
+  - language: id
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2525
+  - language: zh-Hans
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2525
+  - language: et
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2520

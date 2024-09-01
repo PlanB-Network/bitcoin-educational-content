@@ -2,10 +2,84 @@ builder: Phneep
 type: Visual Content
 links:
   download: https://workspace.planb.network/s/aaA6jKxWS78axpM
-  view: 
+  view:
     - en: https://penpot.planb.network/#/view/c157057b-fd28-8042-8004-4f088ac9e6ca?page-id=c157057b-fd28-8042-8004-4f088ac9e6cb&section=interactions&index=0&share-id=c157057b-fd28-8042-8004-4f1102bda7d7&zoom=fill
 tags:
   - bitcoin
   - technology
 contributors:
   - rabbit-hole
+
+# Proofreading metadata
+original_language: en
+proofreading:
+  - language: cs
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2542
+  - language: de
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2521
+  - language: en
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2521
+  - language: es
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2531
+  - language: fi
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2542
+  - language: fr
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2521
+  - language: it
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2531
+  - language: ja
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2563
+  - language: pt
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2521
+  - language: ru
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2542
+  - language: vi
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2563
+  - language: id
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2552
+  - language: zh-Hans
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2552
+  - language: et
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2542

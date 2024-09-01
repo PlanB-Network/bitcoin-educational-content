@@ -2,3 +2,17 @@ en_word: ECLIPSE (ATTACK)
 related_words: []
 tags:
   - ''
+
+# Proofreading metadata
+original_language: fr
+proofreading:
+  - language: en
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2583
+  - language: fr
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2583

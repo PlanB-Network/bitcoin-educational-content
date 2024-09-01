@@ -4,3 +4,72 @@ tags:
   - environment
   - energy
   - economy
+
+# Proofreading metadata
+original_language: en
+proofreading:
+  - language: cs
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2726
+  - language: de
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2613
+  - language: en
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2613
+  - language: es
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2669
+  - language: fi
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2726
+  - language: fr
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2613
+  - language: it
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2669
+  - language: ja
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2839
+  - language: pt
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2613
+  - language: ru
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2726
+  - language: vi
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2839
+  - language: id
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2782
+  - language: zh-Hans
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2782

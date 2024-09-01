@@ -1,6 +1,80 @@
 author: Joseph Salerno
-level: expert
+level: advanced
 tags:
   - economy
   - finance
   - history
+
+# Proofreading metadata
+original_language: en
+proofreading:
+  - language: cs
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 3244
+  - language: de
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2872
+  - language: en
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2872
+  - language: es
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 3058
+  - language: fi
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 3244
+  - language: fr
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2872
+  - language: it
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 3058
+  - language: ja
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 3616
+  - language: pt
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2872
+  - language: ru
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 3244
+  - language: vi
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 3616
+  - language: id
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 3430
+  - language: zh-Hans
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 3430
+  - language: et
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 3244

@@ -1,6 +1,7 @@
+id: 76d6bf36-f4b5-422e-8579-edf149021525
 builder: Breez
 
-level: intermediary
+level: intermediate
 
 category: merchant
 
@@ -9,3 +10,77 @@ tags:
   - lightning
   - infrasctructure
   - POS
+
+# Proofreading metadata
+original_language: en
+proofreading:
+  - language: cs
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 7272
+  - language: de
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 4886
+  - language: en
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 4886
+  - language: es
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 6079
+  - language: fi
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 7272
+  - language: fr
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 4886
+  - language: it
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 6079
+  - language: ja
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 9658
+  - language: pt
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 4886
+  - language: ru
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 7272
+  - language: vi
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 9658
+  - language: et
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 7272
+  - language: id
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 8465
+  - language: zh-Hans
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 8465

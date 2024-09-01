@@ -3,6 +3,60 @@ difficulty: hard
 duration: 45
 author: DecouvreBitcoin
 tags:
-- Austrian Economics
-- Austrian Business Cycle Theory
-- Economic Calculation
+  - Austrian Economics
+  - Austrian Business Cycle Theory
+  - Economic Calculation
+
+# Proofreading metadata
+original_language: en
+proofreading:
+  - language: cs
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2756
+  - language: de
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2628
+  - language: en
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2628
+  - language: es
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2692
+  - language: fi
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2756
+  - language: fr
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2628
+  - language: it
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2692
+  - language: ja
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2884
+  - language: pt
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2628
+  - language: vi
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2884

@@ -4,3 +4,72 @@ tags:
   - banking
   - finance
   - economy
+
+# Proofreading metadata
+original_language: en
+proofreading:
+  - language: cs
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 3032
+  - language: de
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2766
+  - language: en
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2766
+  - language: es
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2899
+  - language: fi
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 3032
+  - language: fr
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2766
+  - language: it
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2899
+  - language: ja
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 3298
+  - language: pt
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2766
+  - language: ru
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 3032
+  - language: vi
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 3298
+  - language: id
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 3165
+  - language: zh-Hans
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 3165

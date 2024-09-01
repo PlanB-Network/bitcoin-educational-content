@@ -2,11 +2,20 @@ year: 2024-04
 name: Adopting Bitcoin Cap Town 2024
 builder: Galoy
 location: Cap Town, South Africa
-language: 
+language:
   - en
 links:
   website: https://za24.adoptingbitcoin.org/
   twitter: https://twitter.com/AdoptingBTC
-tags: 
+tags:
   - Bitcoiner
   - circular economy
+
+# Proofreading metadata
+original_language: en
+proofreading:
+  - language: en
+    last_contribution_date:
+    urgency: 0
+    contributors_id:
+    reward: 2500

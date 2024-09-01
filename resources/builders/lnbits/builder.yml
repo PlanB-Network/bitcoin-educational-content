@@ -9,3 +9,77 @@ tags:
   - lightning-infrastructure
 
 category: wallet
+
+# Proofreading metadata
+original_language: en
+proofreading:
+  - language: cs
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 3000
+  - language: de
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2750
+  - language: en
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2750
+  - language: es
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2875
+  - language: fi
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 3000
+  - language: fr
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2750
+  - language: it
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2875
+  - language: ja
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 3250
+  - language: pt
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2750
+  - language: ru
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 3000
+  - language: vi
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 3250
+  - language: id
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 3125
+  - language: zh-Hans
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 3125
+  - language: et
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 3000

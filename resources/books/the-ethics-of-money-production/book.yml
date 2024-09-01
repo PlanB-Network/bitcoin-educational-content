@@ -1,6 +1,80 @@
 author: "Jörg Guido Hulsamn"
-level: expert
+level: advanced
 tags:
   - bitcoin
   - technology
   - history
+
+# Proofreading metadata
+original_language: en
+proofreading:
+  - language: cs
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 3268
+  - language: de
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2884
+  - language: en
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2884
+  - language: es
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 3076
+  - language: fi
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 3268
+  - language: fr
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2884
+  - language: it
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 3076
+  - language: ja
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 3652
+  - language: pt
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2884
+  - language: ru
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 3268
+  - language: vi
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 3652
+  - language: id
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 3460
+  - language: zh-Hans
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 3460
+  - language: et
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 3268

@@ -4,3 +4,72 @@ tags:
   - bitcoin
   - finance
   - economy
+
+# Proofreading metadata
+original_language: en
+proofreading:
+  - language: cs
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2530
+  - language: de
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2515
+  - language: en
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2515
+  - language: es
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2522
+  - language: fi
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2530
+  - language: fr
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2515
+  - language: it
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2522
+  - language: ja
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2545
+  - language: pt
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2515
+  - language: ru
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2530
+  - language: vi
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2545
+  - language: id
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2537
+  - language: zh-Hans
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2537

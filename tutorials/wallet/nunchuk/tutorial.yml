@@ -1,3 +1,4 @@
+id: fc1b553f-5298-4e75-9f34-8af19025f1b1
 builder: Nunchuk
 
 level: advanced
@@ -8,3 +9,72 @@ tags:
   - muli-sig
   - self-custodial
 
+
+# Proofreading metadata
+original_language: en
+proofreading:
+  - language: cs
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 4234
+  - language: de
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 3367
+  - language: en
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 3367
+  - language: es
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 3800
+  - language: fi
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 4234
+  - language: fr
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 3367
+  - language: it
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 3800
+  - language: ja
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 5101
+  - language: pt
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 3367
+  - language: ru
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 4234
+  - language: vi
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 5101
+  - language: id
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 4667
+  - language: zh-Hans
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 4667

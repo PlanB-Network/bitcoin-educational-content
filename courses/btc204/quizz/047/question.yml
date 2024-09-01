@@ -4,3 +4,57 @@ duration: 15
 author: pretty-private
 tags:
   - Bitcoin
+
+# Proofreading metadata
+original_language: fr
+proofreading:
+  - language: cs
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2762
+  - language: de
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2631
+  - language: en
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2631
+  - language: es
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2696
+  - language: fi
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2762
+  - language: fr
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2631
+  - language: it
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2696
+  - language: ja
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2893
+  - language: pt
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2631
+  - language: vi
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2893

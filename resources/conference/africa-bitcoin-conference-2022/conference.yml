@@ -1,13 +1,22 @@
 year: 2022-12
 name: Africa Bitcoin Conference 2022
-builder: 
+builder:
 location: Accra, Ghana
-language: 
-   - en
+language:
+  - en
 links:
   website: https://afrobitcoin.org/
   twitter: https://twitter.com/AfroBitcoinOrg
-tags: 
+tags:
   - Bitcoiner
   - General
   - lightning network
+
+# Proofreading metadata
+original_language: en
+proofreading:
+  - language: en
+    last_contribution_date:
+    urgency: 0
+    contributors_id:
+    reward: 2500

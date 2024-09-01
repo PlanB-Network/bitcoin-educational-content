@@ -4,3 +4,77 @@ tags:
   - economy
   - politics
   - finance
+
+# Proofreading metadata
+original_language: en
+proofreading:
+  - language: cs
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 3044
+  - language: de
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2772
+  - language: en
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2772
+  - language: es
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2908
+  - language: fi
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 3044
+  - language: fr
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2772
+  - language: it
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2908
+  - language: ja
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 3316
+  - language: pt
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2772
+  - language: ru
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 3044
+  - language: vi
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 3316
+  - language: id
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 3180
+  - language: zh-Hans
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 3180
+  - language: et
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 3044

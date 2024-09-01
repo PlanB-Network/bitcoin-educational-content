@@ -1,11 +1,11 @@
 name: Amity Age
 category: communities
-address_line_1: Roatan, Honduras 
+address_line_1: Roatan, Honduras
 address_line_2: Calle Principal, Pristine Bay
-address_line_3: 
-language: 
+address_line_3:
+language:
   - en
-  - es 
+  -   - es
 links:
   website: https://www.amityage.com/
   twitter: https://twitter.com/AmityAge
@@ -13,5 +13,79 @@ links:
 
 
 tags:
-  - finance  
+  - finance
   - education
+
+# Proofreading metadata
+original_language: en
+proofreading:
+  - language: cs
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2688
+  - language: de
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2594
+  - language: en
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2594
+  - language: es
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2641
+  - language: fi
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2688
+  - language: fr
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2594
+  - language: it
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2641
+  - language: ja
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2782
+  - language: pt
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2594
+  - language: ru
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2688
+  - language: vi
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2782
+  - language: id
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2735
+  - language: zh-Hans
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2735
+  - language: et
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2688

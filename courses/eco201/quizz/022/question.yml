@@ -3,6 +3,60 @@ difficulty: hard
 duration: 45
 author: DecouvreBitcoin
 tags:
-- Bitcoin
-- Division of labor
-- Game theory
+  - Bitcoin
+  - Division of labor
+  - Game theory
+
+# Proofreading metadata
+original_language: en
+proofreading:
+  - language: cs
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2766
+  - language: de
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2633
+  - language: en
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2633
+  - language: es
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2699
+  - language: fi
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2766
+  - language: fr
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2633
+  - language: it
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2699
+  - language: ja
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2899
+  - language: pt
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2633
+  - language: vi
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2899

@@ -2,11 +2,20 @@ year: 2023-04
 name: Bitcoin++ 2023
 builder: Bitcoin++
 location: Austin, USA
-language: 
+language:
   - en
 links:
   website: https://btcplusplus.dev/
   twitter: https://twitter.com/btcplusplus
-tags: 
+tags:
   - Bitcoiner
   - technical
+
+# Proofreading metadata
+original_language: en
+proofreading:
+  - language: en
+    last_contribution_date:
+    urgency: 0
+    contributors_id:
+    reward: 2500

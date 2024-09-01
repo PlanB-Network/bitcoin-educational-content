@@ -1,3 +1,4 @@
+id: 557be706-35a9-4375-a563-d55ab5c69f55
 builder: Braiins
 
 category: pools
@@ -10,3 +11,77 @@ level: advanced
 
 credits:
   professor: case-memory
+
+# Proofreading metadata
+original_language: en
+proofreading:
+  - language: cs
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 9028
+  - language: de
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 5764
+  - language: en
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 5764
+  - language: es
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 7396
+  - language: fi
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 9028
+  - language: fr
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 5764
+  - language: it
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 7396
+  - language: ja
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 12292
+  - language: pt
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 5764
+  - language: ru
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 9028
+  - language: vi
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 12292
+  - language: et
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 9028
+  - language: id
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 10660
+  - language: zh-Hans
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 10660

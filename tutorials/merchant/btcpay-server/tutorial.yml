@@ -1,3 +1,4 @@
+id: 928eb01e-824b-4b57-a3e8-8727633beddc
 builder: BTCPay Server
 
 level: advanced
@@ -7,3 +8,77 @@ tags:
   - point of sales
   - non-KYC
   - open-source
+
+# Proofreading metadata
+original_language: en
+proofreading:
+  - language: cs
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2986
+  - language: de
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2743
+  - language: en
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2743
+  - language: es
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2864
+  - language: fi
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2986
+  - language: fr
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2743
+  - language: it
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2864
+  - language: ja
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 3229
+  - language: pt
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2743
+  - language: ru
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2986
+  - language: vi
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 3229
+  - language: et
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2986
+  - language: id
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 3107
+  - language: zh-Hans
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 3107

@@ -3,6 +3,60 @@ difficulty: easy
 duration: 15
 author: DecouvreBitcoin
 tags:
-- Bitcoin
-- Inflation
-- Economics
+  - Bitcoin
+  - Inflation
+  - Economics
+
+# Proofreading metadata
+original_language: en
+proofreading:
+  - language: cs
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2740
+  - language: de
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2620
+  - language: en
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2620
+  - language: es
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2680
+  - language: fi
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2740
+  - language: fr
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2620
+  - language: it
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2680
+  - language: ja
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2860
+  - language: pt
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2620
+  - language: vi
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2860

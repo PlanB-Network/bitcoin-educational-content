@@ -1,12 +1,21 @@
 year: 2023-05
 name: bitcare 2023
-builder: 
+builder:
 location: Brescia, Italy
-language: 
-   - it
+language:
+  - it
 links:
   website: https://bitcareforum.it/
   twitter: https://twitter.com/bitcareforum24
-tags: 
+tags:
   - Bitcoiner
   - General
+
+# Proofreading metadata
+original_language: en
+proofreading:
+  - language: en
+    last_contribution_date:
+    urgency: 0
+    contributors_id:
+    reward: 2500

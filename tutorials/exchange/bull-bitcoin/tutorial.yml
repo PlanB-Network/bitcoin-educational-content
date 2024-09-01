@@ -1,3 +1,4 @@
+id: 60a58596-e54c-41ba-855d-f9edb76cfb0e
 builder: Bull Bitcoin
 
 tags:
@@ -7,4 +8,78 @@ tags:
 
 category: centralized
 
-level: intermediary
+level: intermediate
+
+# Proofreading metadata
+original_language: en
+proofreading:
+  - language: cs
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 6692
+  - language: de
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 4596
+  - language: en
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 4596
+  - language: es
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 5644
+  - language: fi
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 6692
+  - language: fr
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 4596
+  - language: it
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 5644
+  - language: ja
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 8788
+  - language: pt
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 4596
+  - language: ru
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 6692
+  - language: vi
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 8788
+  - language: et
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 6692
+  - language: id
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 7740
+  - language: zh-Hans
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 7740

@@ -5,5 +5,5 @@ wrong_answers:
   - Eine Gebühr des Senders und eine Gebühr des Empfängers.
   - Eine Netzwerkgebühr und eine Kanalgebühr.
 explanation: |
-  Im Lightning Network gibt es zwei Arten von Gebühren: eine feste Gebühr, unabhängig von der Höhe (Standardwert ist 1 SAT, kann jedoch geändert werden) und eine variable Gebühr (standardmäßig 0,01%).
+  Im Lightning Network gibt es zwei Arten von Gebühr- language: en eine feste Gebühr, unabhängig von der Höhe (Standardwert ist 1 SAT, kann jedoch geändert werden) und eine variable Gebühr (standardmäßig 0,01%).
 reviewed: false

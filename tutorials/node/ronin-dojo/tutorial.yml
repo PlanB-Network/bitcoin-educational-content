@@ -1,3 +1,4 @@
+id: 31d96647-029b-43e8-9fb5-95ec5dde72b0
 builder: Samouraï
 
 tags:
@@ -13,3 +14,77 @@ level: advanced
 credits:
   professor: pretty-private
   link: https://www.pandul.fr/post/installer-et-utiliser-son-n%C5%93ud-bitcoin-ronindojo
+
+# Proofreading metadata
+original_language: en
+proofreading:
+  - language: cs
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 36634
+  - language: de
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 19567
+  - language: en
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 19567
+  - language: es
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 28100
+  - language: fi
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 36634
+  - language: fr
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 19567
+  - language: it
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 28100
+  - language: ja
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 53701
+  - language: pt
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 19567
+  - language: ru
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 36634
+  - language: vi
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 53701
+  - language: et
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 36634
+  - language: id
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 45167
+  - language: zh-Hans
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 45167

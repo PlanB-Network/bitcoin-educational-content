@@ -1,3 +1,4 @@
+id: a7224674-85c4-4045-9baf-37018d89550c
 builder: Bitkit
 
 level: beginner
@@ -14,3 +15,12 @@ tags:
 credits:
   professor: casual-chaos
   link: https://help.bitkit.to
+
+# Proofreading metadata
+original_language: en
+proofreading:
+  - language: en
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2874

@@ -3,3 +3,77 @@ level: intermediate
 tags:
   - bitcoin
   - economy
+
+# Proofreading metadata
+original_language: en
+proofreading:
+  - language: cs
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 3036
+  - language: de
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2768
+  - language: en
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2768
+  - language: es
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2902
+  - language: fi
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 3036
+  - language: fr
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2768
+  - language: it
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2902
+  - language: ja
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 3304
+  - language: pt
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2768
+  - language: ru
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 3036
+  - language: vi
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 3304
+  - language: id
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 3170
+  - language: zh-Hans
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 3170
+  - language: et
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 3036

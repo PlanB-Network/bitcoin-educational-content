@@ -1,3 +1,4 @@
+id: 1ee068ca-ddaf-4bec-b44e-b41a9abfdef6
 builder: PlanB Contribution
 
 tags:
@@ -10,3 +11,77 @@ level: beginner
 
 credits:
   professor: another-satoshi
+
+# Proofreading metadata
+original_language: fr
+proofreading:
+  - language: cs
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 4658
+  - language: de
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 3579
+  - language: en
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 3579
+  - language: es
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 4118
+  - language: fi
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 4658
+  - language: fr
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 3579
+  - language: it
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 4118
+  - language: ja
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 5737
+  - language: pt
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 3579
+  - language: ru
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 4658
+  - language: vi
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 5737
+  - language: et
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 4658
+  - language: id
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 5197
+  - language: zh-Hans
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 5197

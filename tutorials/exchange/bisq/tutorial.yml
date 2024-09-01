@@ -1,3 +1,4 @@
+id: fe244bfa-dcc4-4522-8ec7-92223373ed04
 builder: Bisq
 
 level: advanced
@@ -8,3 +9,77 @@ tags:
   - peer-to-peer
   - open-source
   - bitcoin-only
+
+# Proofreading metadata
+original_language: en
+proofreading:
+  - language: cs
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 10156
+  - language: de
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 6328
+  - language: en
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 6328
+  - language: es
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 8242
+  - language: fi
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 10156
+  - language: fr
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 6328
+  - language: it
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 8242
+  - language: ja
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 13984
+  - language: pt
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 6328
+  - language: ru
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 10156
+  - language: vi
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 13984
+  - language: et
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 10156
+  - language: id
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 12070
+  - language: zh-Hans
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 12070

@@ -3,6 +3,60 @@ difficulty: easy
 duration: 15
 author: DecouvreBitcoin
 tags:
-- Bitcoin
-- Lightning Network
-- Payment Channels
+  - Bitcoin
+  - Lightning Network
+  - Payment Channels
+
+# Proofreading metadata
+original_language: en
+proofreading:
+  - language: cs
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2676
+  - language: de
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2588
+  - language: en
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2588
+  - language: es
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2632
+  - language: fi
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2676
+  - language: fr
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2588
+  - language: it
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2632
+  - language: ja
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2764
+  - language: pt
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2588
+  - language: vi
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2764

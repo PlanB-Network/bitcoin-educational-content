@@ -3,6 +3,60 @@ difficulty: intermediate
 duration: 30
 author: DecouvreBitcoin
 tags:
-- Lightning Network
-- Bitcoin
-- Payment models
+  - Lightning Network
+  - Bitcoin
+  - Payment models
+
+# Proofreading metadata
+original_language: en
+proofreading:
+  - language: cs
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2706
+  - language: de
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2603
+  - language: en
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2603
+  - language: es
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2654
+  - language: fi
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2706
+  - language: fr
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2603
+  - language: it
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2654
+  - language: ja
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2809
+  - language: pt
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2603
+  - language: vi
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2809

@@ -1,3 +1,4 @@
+id: 738e45af-18a6-4ce6-af1a-1bf58e15f1fe
 builder: Boltzmann Calculator
 
 tags:
@@ -11,3 +12,77 @@ level: advanced
 
 credits:
   professor: pretty-private
+
+# Proofreading metadata
+original_language: fr
+proofreading:
+  - language: cs
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 16024
+  - language: de
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 9262
+  - language: en
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 9262
+  - language: es
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 12643
+  - language: fi
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 16024
+  - language: fr
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 9262
+  - language: it
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 12643
+  - language: ja
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 22786
+  - language: pt
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 9262
+  - language: ru
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 16024
+  - language: vi
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 22786
+  - language: et
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 16024
+  - language: id
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 19405
+  - language: zh-Hans
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 19405

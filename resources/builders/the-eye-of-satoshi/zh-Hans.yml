@@ -1,0 +1,4 @@
+description: |
+  Satoshi之眼是一个遵守BOLT13的Lightning监视塔，使用Rust语言编写。
+contributors:
+  - rabbit-hole

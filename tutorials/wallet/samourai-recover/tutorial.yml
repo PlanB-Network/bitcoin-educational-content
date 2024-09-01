@@ -1,3 +1,4 @@
+id: 23bb6221-ea3e-42e6-a5b7-e6dbef5073c3
 builder: Samourai Recover
 
 tags:
@@ -11,3 +12,77 @@ level: beginner
 
 credits:
   professor: pretty-private
+
+# Proofreading metadata
+original_language: en
+proofreading:
+  - language: cs
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 13948
+  - language: de
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 8224
+  - language: en
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 8224
+  - language: es
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 11086
+  - language: fi
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 13948
+  - language: fr
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 8224
+  - language: it
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 11086
+  - language: ja
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 19672
+  - language: pt
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 8224
+  - language: ru
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 13948
+  - language: vi
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 19672
+  - language: et
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 13948
+  - language: id
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 16810
+  - language: zh-Hans
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 16810

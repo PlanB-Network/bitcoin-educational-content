@@ -1,3 +1,4 @@
+id: 7d66c440-d5f6-4a1f-b3f0-14ca4664f1c4
 builder: PlanB Contribution
 
 tags:
@@ -11,3 +12,77 @@ level: beginner
 
 credits:
   professor: pretty-private
+
+# Proofreading metadata
+original_language: fr
+proofreading:
+  - language: cs
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 4990
+  - language: de
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 3745
+  - language: en
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 3745
+  - language: es
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 4367
+  - language: fi
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 4990
+  - language: fr
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 3745
+  - language: it
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 4367
+  - language: ja
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 6235
+  - language: pt
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 3745
+  - language: ru
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 4990
+  - language: vi
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 6235
+  - language: et
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 4990
+  - language: id
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 5612
+  - language: zh-Hans
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 5612

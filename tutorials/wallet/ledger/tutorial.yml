@@ -1,3 +1,4 @@
+id: c6fc7d82-91e7-4c74-bad7-cbff7fea7a88
 builder: Ledger
 
 level: advanced
@@ -11,3 +12,77 @@ tags:
 credits:
   professor: rebuild-kiss
   link: https://armantheparman.com/ledgersparrow/
+
+# Proofreading metadata
+original_language: en
+proofreading:
+  - language: cs
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 15574
+  - language: de
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 9037
+  - language: en
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 9037
+  - language: es
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 12305
+  - language: fi
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 15574
+  - language: fr
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 9037
+  - language: it
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 12305
+  - language: ja
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 22111
+  - language: pt
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 9037
+  - language: ru
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 15574
+  - language: vi
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 22111
+  - language: et
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 15574
+  - language: id
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 18842
+  - language: zh-Hans
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 18842

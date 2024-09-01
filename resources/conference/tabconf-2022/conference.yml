@@ -2,12 +2,21 @@ year: 2022
 name: Tab Conf 2022
 builder: TabConf
 location: Atlanta, USA
-language: 
-   - en
+language:
+  - en
 links:
   website: https://2022.tabconf.com/
   twitter: https://twitter.com/tabconf
-tags: 
+tags:
   - Bitcoiner
-  - technical 
+  - technical
   - lightning network
+
+# Proofreading metadata
+original_language: en
+proofreading:
+  - language: en
+    last_contribution_date:
+    urgency: 0
+    contributors_id:
+    reward: 2500

@@ -3,5 +3,59 @@ difficulty: easy
 duration: 15
 author: DecouvreBitcoin
 tags:
-- Online browsing
-- Private browsing
+  - Online browsing
+  - Private browsing
+
+# Proofreading metadata
+original_language: en
+proofreading:
+  - language: cs
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2728
+  - language: de
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2614
+  - language: en
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2614
+  - language: es
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2671
+  - language: fi
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2728
+  - language: fr
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2614
+  - language: it
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2671
+  - language: ja
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2842
+  - language: pt
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2614
+  - language: vi
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2842

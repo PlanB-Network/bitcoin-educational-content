@@ -1,0 +1,88 @@
+id: 47507d90-e6af-4cac-b01b-01a14d7a8228
+builder: Mnemonic Phrase - Dice Roll
+
+tags:
+  - Mnemonic Phrase
+  - Cryptography
+  - Dice Roll
+
+category: backup
+
+level: advanced
+
+credits:
+  professor: pretty-private
+
+# Proofreading metadata
+original_language: fr
+proofreading:
+  - language: cs
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 25102
+  - language: de
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 13801
+  - language: en
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 13801
+  - language: es
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 19451
+  - language: fi
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 25102
+  - language: fr
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 13801
+  - language: it
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 19451
+  - language: ja
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 36403
+  - language: pt
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 13801
+  - language: ru
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 25102
+  - language: vi
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 36403
+  - language: et
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 25102
+  - language: id
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 30752
+  - language: zh-Hans
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 30752

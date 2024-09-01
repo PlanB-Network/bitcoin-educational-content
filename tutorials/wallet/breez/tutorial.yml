@@ -1,6 +1,7 @@
+id: 46a6867b-c74b-45e7-869c-10a4e0263c06
 builder: Breez
 
-level: intermediary
+level: intermediate
 
 category: mobile
 
@@ -8,3 +9,77 @@ tags:
   - self-custodial
   - lightning
   - open-source
+
+# Proofreading metadata
+original_language: en
+proofreading:
+  - language: cs
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 3712
+  - language: de
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 3106
+  - language: en
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 3106
+  - language: es
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 3409
+  - language: fi
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 3712
+  - language: fr
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 3106
+  - language: it
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 3409
+  - language: ja
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 4318
+  - language: pt
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 3106
+  - language: ru
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 3712
+  - language: vi
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 4318
+  - language: et
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 3712
+  - language: id
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 4015
+  - language: zh-Hans
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 4015

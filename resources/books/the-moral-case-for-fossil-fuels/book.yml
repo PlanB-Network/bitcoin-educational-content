@@ -4,3 +4,77 @@ tags:
   - economy
   - environment
   - ethics
+
+# Proofreading metadata
+original_language: en
+proofreading:
+  - language: cs
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 3060
+  - language: de
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2780
+  - language: en
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2780
+  - language: es
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2920
+  - language: fi
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 3060
+  - language: fr
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2780
+  - language: it
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2920
+  - language: ja
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 3340
+  - language: pt
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2780
+  - language: ru
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 3060
+  - language: vi
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 3340
+  - language: id
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 3200
+  - language: zh-Hans
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 3200
+  - language: et
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 3060

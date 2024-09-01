@@ -2,16 +2,91 @@ name: PlebLab
 category: communities
 address_line_1: Austin, Texas
 address_line_2:
-address_line_3: 
-language: 
+address_line_3:
+language:
   - en
 links:
   website: https://www.pleblab.com/
   twitter: https://twitter.com/PlebLab
   github: https://www.github.com/PlebLab
   youtube: https://www.youtube.com/channel/UCoUUXOdWNOSv_MTtYXMUwDA
-  nostr: https://primal.net/profile/npub1an84q6c03wml5lf0uwcqcr20ydwv0t0lvv0xktlcfs9seattef8sdhz6yg
+  nostr: 
+    https://primal.net/profile/npub1an84q6c03wml5lf0uwcqcr20ydwv0t0lvv0xktlcfs9seattef8sdhz6yg
 
 tags:
   - education
   - finance
+
+# Proofreading metadata
+original_language: en
+proofreading:
+  - language: cs
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2602
+  - language: de
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2551
+  - language: en
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2551
+  - language: es
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2576
+  - language: fi
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2602
+  - language: fr
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2551
+  - language: it
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2576
+  - language: ja
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2653
+  - language: pt
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2551
+  - language: ru
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2602
+  - language: vi
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2653
+  - language: id
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2627
+  - language: zh-Hans
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2627
+  - language: et
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2602

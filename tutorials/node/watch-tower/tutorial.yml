@@ -1,3 +1,4 @@
+id: 26937006-dfe5-404e-9ee4-e82e422c5cf2
 tags:
   - security
   - lightning-network
@@ -9,4 +10,79 @@ category: lightning-network
 builder: The eye of Satoshi
 
 credits:
-  link: https://blog.summerofbitcoin.org/bitcoin-lightning-and-the-eye-of-satoshi-watchtower-revolutionizing-transactions-and-security//
+  link: 
+    https://blog.summerofbitcoin.org/bitcoin-lightning-and-the-eye-of-satoshi-watchtower-revolutionizing-transactions-and-security//
+
+# Proofreading metadata
+original_language: en
+proofreading:
+  - language: cs
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 6748
+  - language: de
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 4624
+  - language: en
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 4624
+  - language: es
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 5686
+  - language: fi
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 6748
+  - language: fr
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 4624
+  - language: it
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 5686
+  - language: ja
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 8872
+  - language: pt
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 4624
+  - language: ru
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 6748
+  - language: vi
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 8872
+  - language: et
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 6748
+  - language: id
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 7810
+  - language: zh-Hans
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 7810

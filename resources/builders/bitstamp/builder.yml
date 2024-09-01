@@ -9,3 +9,77 @@ tags:
   - KYC
 
 category: exchange
+
+# Proofreading metadata
+original_language: en
+proofreading:
+  - language: cs
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2572
+  - language: de
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2536
+  - language: en
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2536
+  - language: es
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2554
+  - language: fi
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2572
+  - language: fr
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2536
+  - language: it
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2554
+  - language: ja
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2608
+  - language: pt
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2536
+  - language: ru
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2572
+  - language: vi
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2608
+  - language: id
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2590
+  - language: zh-Hans
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2590
+  - language: et
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2572

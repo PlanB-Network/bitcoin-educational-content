@@ -1,3 +1,4 @@
+id: 08d43d7a-0b22-4638-a151-578d48d32d88
 builder: GrapenOs
 
 category: general
@@ -11,3 +12,77 @@ level: advanced
 credits:
   professor: cover-brother
   link: https://bitcoiner.guide/grapheneos/
+
+# Proofreading metadata
+original_language: fr
+proofreading:
+  - language: cs
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 34630
+  - language: de
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 18565
+  - language: en
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 18565
+  - language: es
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 26597
+  - language: fi
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 34630
+  - language: fr
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 18565
+  - language: it
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 26597
+  - language: ja
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 50695
+  - language: pt
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 18565
+  - language: ru
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 34630
+  - language: vi
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 50695
+  - language: et
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 34630
+  - language: id
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 42662
+  - language: zh-Hans
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 42662

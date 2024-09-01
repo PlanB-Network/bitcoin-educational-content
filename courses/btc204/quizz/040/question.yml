@@ -3,4 +3,58 @@ difficulty: intermediate
 duration: 15
 author: pretty-private
 tags:
-- Bitcoin
+  - Bitcoin
+
+# Proofreading metadata
+original_language: fr
+proofreading:
+  - language: cs
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2730
+  - language: de
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2615
+  - language: en
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2615
+  - language: es
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2672
+  - language: fi
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2730
+  - language: fr
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2615
+  - language: it
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2672
+  - language: ja
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2845
+  - language: pt
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2615
+  - language: vi
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2845

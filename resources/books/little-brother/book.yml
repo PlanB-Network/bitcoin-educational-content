@@ -4,3 +4,77 @@ tags:
   - fiction
   - technology
   - privacy
+
+# Proofreading metadata
+original_language: en
+proofreading:
+  - language: cs
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2968
+  - language: de
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2734
+  - language: en
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2734
+  - language: es
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2851
+  - language: fi
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2968
+  - language: fr
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2734
+  - language: it
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2851
+  - language: ja
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 3202
+  - language: pt
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2734
+  - language: ru
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2968
+  - language: vi
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 3202
+  - language: id
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 3085
+  - language: zh-Hans
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 3085
+  - language: et
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2968

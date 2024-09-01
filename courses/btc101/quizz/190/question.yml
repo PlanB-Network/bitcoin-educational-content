@@ -3,5 +3,59 @@ difficulty: intermediate
 duration: 30
 author: DecouvreBitcoin
 tags:
-- Bitcoin
-- AMF
+  - Bitcoin
+  - AMF
+
+# Proofreading metadata
+original_language: en
+proofreading:
+  - language: cs
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2596
+  - language: de
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2548
+  - language: en
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2548
+  - language: es
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2572
+  - language: fi
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2596
+  - language: fr
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2548
+  - language: it
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2572
+  - language: ja
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2644
+  - language: pt
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2548
+  - language: vi
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2644

@@ -3,6 +3,60 @@ difficulty: hard
 duration: 45
 author: DecouvreBitcoin
 tags:
-- Bitcoin
-- Inflation
-- Monetary history
+  - Bitcoin
+  - Inflation
+  - Monetary history
+
+# Proofreading metadata
+original_language: en
+proofreading:
+  - language: cs
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2952
+  - language: de
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2726
+  - language: en
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2726
+  - language: es
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2839
+  - language: fi
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2952
+  - language: fr
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2726
+  - language: it
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2839
+  - language: ja
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 3178
+  - language: pt
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2726
+  - language: vi
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 3178

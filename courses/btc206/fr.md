@@ -25,11 +25,11 @@ Ce qui est partagé ici est une synthèse de mes connaissances et de mes expéri
 J'ai adopté un discours et des explications qui ne suivent pas l'ordre utilisé en général comme dans [What is Ordinals and runes protocol?](https://youtu.be/g1jsHW-MX7A?si=5G3yOW0nVDIWR-38). 
 
 J'ai pris le parti de mettre en avant l'enveloppe qui constitue selon moi le cœur de cette nouveauté et de passer les sats et l'*ordinal theory* ensuite. 
-Les projets discutés et présentés ont pour but de sensibiliser et d'expliquer l'histoire en train de se faire. Bien d'autres projets sont en train de se faire et ce cours reste une introduction générale aux Ordinals. Des cours plus avancés seront disponibles et l'histoire pourra éventuellement être traitée dans des pages dédiées. 
+Les projets discutés et présentés ici ont pour but de sensibiliser et d'expliquer l'histoire en train de se faire. Ce cours reste une introduction générale aux Ordinals. Des cours plus avancés seront disponibles et l'histoire pourra éventuellement être traitée dans des pages dédiées. 
 
 **Définition (Protocole, messages protocolaires)**: Ensemble de règles suivis par un réseau (informatique ou humain) dans le but de produire un service. Un protocole permet à un réseau de communiquer des messages suivant les règles établies, on parle de **messages protocolaires**. 
 
-*Example*: 
+*Exemples*: 
 - Bitcoin est un protocole informatique monétaire, ses messages sont des transactions ;
 - http signifiant Protocole de transfer Hypertext (*HyperText Transfer Protocol*) est un protocole informatique pour s'échanger des pages webs ou des fichiers via le réseau Internet, ses messages sont appelés [des requêtes](https://www.ionos.fr/digitalguide/hebergement/aspects-techniques/requete-http/) ;
 - Le vote des lois est un protocole humain, ses messages sont les échanges au cours du processus de décision puis la communication de sa validation.
@@ -44,11 +44,11 @@ Ordinals a été proposé par Casey Rodarmor[^1].
 <!--Transcript depuis [Casey Rodarmor - From Ordinals to Runes: Meet Bitcoin’s Most Controversial Dev](https://www.youtube.com/watch?v=sqfCarDdXPM) :-->
 
 Casey découvre [Art Blocks | Generative digital art](https://www.artblocks.io/) en 2019, qui publie et promeut l'art géneratif. Fasciné par cet algorithmisation de l'art, il veut en faire. 
-En se lancant dans *"les NFTs"* il voit les défaillances voir le non-sens informatique de devoir déployer un contrat pour écrire une URL renvoyant vers un lien IPFS (ou autres) stockant le JPEG. Il lui semble évident qu'il faut l'écrire *on-chain*. En tant que Bitcoin maximaliste[^2], il développe alors un outil qui permettrait de faire ceci : écrire **concrétement** l'image sur Bitcoin. 
+En se lancant dans *"les NFTs"* il voit les défaillances obligant la rédaction d'un contrat dans lequel on stocke une URL renvoyant vers un lien IPFS (ou autres) stockant le JPEG. Il lui semble évident qu'il faut l'écrire *on-chain*. En tant que Bitcoin maximaliste[^2], il développe alors un outil qui permettrait de faire ceci : écrire **concrétement** l'image sur Bitcoin. 
 
-C'est alors que né **Ordinals**. 
+C'est alors que nait **Ordinals**. 
 
-Le protocole Oridnals a connu sa première inscription le 14 décembre 2022 [Inscription #0](https://ordiscan.com/inscription/0).
+Le protocole Ordinals a connu sa première inscription le 14 décembre 2022 [Inscription #0](https://ordiscan.com/inscription/0).
 Intuitivement, ordinals est un protocole qui permet d'inscrire facilement des données sur Bitcoin et de les retrouver. 
 
 Dans *L'élégance de Bitcoin* (Les contrats autonomes, l'inscription de données arbitraires et métaprotocoles pp.332-340), **Ludovic Lars** retrouve des trésors cachés dans Bitcoin comme l'hommage à Len Sassaman en art ASCII ![hommage_len](./assets/hommage_len.jpg) [source image](https://hellotoken.io/dordinals/) et bien d'autres[^3]. 

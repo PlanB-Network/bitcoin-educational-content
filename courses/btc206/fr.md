@@ -54,10 +54,9 @@ Intuitivement, ordinals est un protocole qui permet d'inscrire facilement des do
 Dans *L'élégance de Bitcoin* (Les contrats autonomes, l'inscription de données arbitraires et métaprotocoles pp.332-340), **Ludovic Lars** retrouve des trésors cachés dans Bitcoin comme l'hommage à Len Sassaman en art ASCII ![hommage_len](./assets/hommage_len.jpg) [source image](https://hellotoken.io/dordinals/) et bien d'autres[^3]. 
 
 On voit ici que l'on sait inscrire des données sur Bitcoin depuis longtemps, mais qu'il nous est difficile de les retrouver. On dit alors que ces éléments ne sont pas indexés nativement[^4].
-Ordinals est entre-autre une réponse à ceci en permettant de facilement retrouver tout ce qui est inscrit par cette méthode en utilisant un indexer[^5] permettant la création d'[explorer](https://ordinals.com).
 
-Ordinals est un protocole qui permet l'écriture de larges données sur Bitcoin et d'en tracer la possession. Ordinals est appelé un protocole à enveloppe 
-On parle d'**enveloppe**, d'**index** (ou d'indexer[^5]) et de **satoshis** (les unités de Bitcoin, pour tracer la propriété), qui sont les trois pilliers d'Oridnals. 
+Ordinals autorise cette utilisation. 
+On parle d'**enveloppe**, d'**index** (ou d'indexer[^5]) et de **satoshis** (les unités de Bitcoin, pour tracer la propriété), qui sont les trois pilliers d'Ordinals. 
 <!-- Ce cours prend le partie de positionner l'enveloppe en premier lieu puis d'expliquer comment Ordinals utilise les satoshis, mais la version inverse est également possible -->
 
 Nous allons donc voir comment cela fonctionne, comment on peut utiliser ce protocole et présenter quelques projets important de l'écosysteme Ordinals.

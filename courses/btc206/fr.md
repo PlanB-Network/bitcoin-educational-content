@@ -12,7 +12,7 @@ objectives:
 # 0/ Précautions
 ⚠️ ATTENTION
 Nous n'avons pas de certitudes sur la continuité d'Ordinals. Il se peut que ce protocole devienne obsolète à long terme. 
-Ceci reste une expérimentation en version beta (au 01/09/24) encore en alpha jusqu'au 25/96/24 et peut subir des modifications majeures. 
+Ceci reste une expérimentation en version beta (au 01/09/24) encore en alpha jusqu'au 25/06/24 et peut subir des modifications majeures. 
 
 La version actuelle est : `ord 0.19.1`. 
 

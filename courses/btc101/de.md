@@ -70,7 +70,7 @@ Es ist wichtig zu verstehen, dass Bitcoin ein neues Geldsystem ist, das unsere B
 **Abschnitt 5 - Das Lightning Network**
 
 - Kapitel 17 - Einführung in das Lightning Network
-- Kapitel 18 - Anwendungsfälle des Lightning Network
+- Kapitel 18 - Anwendungsfälle des Lightning Network aaa
 
 Bevor wir die Definition und Funktionsweise des Geldes in einer Gesellschaft behandeln (Kapitel 1), beginnen wir mit der Entstehung von Bitcoin. Bitcoin ist eine relativ neue Technologie, die im Jahr 2009 gestartet wurde und einzigartig ist. Es ist also normal, dass man nicht alles sofort versteht. Tatsächlich muss man, wie beim Erlernen der Nutzung von Internet oder eines Autos, nicht alle technischen Details von Bitcoin kennen, um es zu nutzen (Geld empfangen, bezahlen, seine Gelder sichern).
 

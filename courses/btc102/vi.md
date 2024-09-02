@@ -653,30 +653,30 @@ Một nền tảng DCA để tích lũy bitcoin.
 
 - [Relai](https://planb.network/tutorials/exchange/relai)
 - [Bull Bitcoin](https://planb.network/tutorials/exchange/bull-bitcoin)
-Những người theo chiến lược này cũng có thể, tất nhiên, sử dụng một môi giới để mua lớn một lần như một hodler, nhưng nói chung, stacking là khái niệm về việc thường xuyên thêm sats vào ví của họ. Một cách tiếp cận phổ biến hơn sẽ là học cách sử dụng Bitcoin theo cách ngang hàng và do đó mua bitcoin trực tiếp bằng tiền mặt với bạn bè hoặc các thành viên của cộng đồng Bitcoin.
+Những người theo chiến lược này cũng có thể, tất nhiên, sử dụng một môi giới để mua số lượng lớn trong một lần như một hodler, nhưng nói chung, stacking là khái niệm về việc thường xuyên thêm sats vào ví của họ. Một cách tiếp cận phổ biến hơn sẽ là học cách sử dụng Bitcoin theo cách ngang hàng và do đó mua bitcoin trực tiếp bằng tiền mặt với bạn bè hoặc các thành viên của cộng đồng Bitcoin.
 
 ### Điều này có phải là dành cho bạn?
 
 Chân dung Tâm lý của Người Stacking
 
 - Chiến lược và Tổ chức:
-  Người stacking có cách tiếp cận chiến lược trong việc tích lũy Bitcoin. Họ lên kế hoạch đầu tư một cách cẩn thận và tổ chức trong việc thực hiện kế hoạch DCA (Dollar-Cost Averaging) của họ.
+  Người stacking có cách tiếp cận chiến lược trong việc tích lũy Bitcoin. Họ lên kế hoạch đầu tư một cách cẩn thận và thực hiện nghiêm túc kế hoạch DCA của mình.
 
 - Hướng tới Mục tiêu:
-  Mục tiêu chính của họ rõ ràng: tích lũy càng nhiều satoshi càng tốt. Sự tập trung này hướng dẫn hành động và quyết định đầu tư của họ, bất kể giá tăng vọt hay giảm sâu.
+  Mục tiêu chính của họ rõ ràng: tích lũy càng nhiều satoshi càng tốt. Sự tập trung này dẫn dắt hành động và quyết định đầu tư của họ, bất kể giá tăng vọt hay giảm sâu.
 
 - Kiến thức Tài chính:
-  Họ hiểu tầm quan trọng của việc đa dạng hóa và đầu tư đều đặn, do đó giảm thiểu rủi ro và tối ưu hóa lợi nhuận tiềm năng. Điều này được thực hiện thông qua việc trung bình giá và do đó không quan tâm đến biến động giá ngắn hạn.
+  Họ hiểu tầm quan trọng của việc đa dạng hóa và đầu tư đều đặn, do đó giảm thiểu rủi ro và tối ưu được hóa lợi nhuận tiềm năng. Điều này được thực hiện thông qua việc trung bình giá và do đó không quan tâm đến biến động giá trong ngắn hạn.
 
 - Chủ động:
-  Tích cực tìm kiếm thêm cơ hội để kiếm Bitcoin, dù là bán hàng hóa hoặc dịch vụ hoặc khám phá các lĩnh vực khác trong hệ sinh thái Bitcoin.
+  Tích cực tìm kiếm thêm cơ hội để kiếm thêm bitcoin, dù đó là bán hàng hóa, dịch vụ hay khám phá các lĩnh vực khác trong hệ sinh thái Bitcoin.
 
-Người stacking là một cá nhân có phương pháp và tập trung, với một kế hoạch rõ ràng để tối đa hóa việc tích lũy satoshis của họ. Họ thể hiện sự chủ động và kiến thức tài chính, không ngừng tìm cách tối ưu và bảo vệ khoản đầu tư Bitcoin của mình. Cách tiếp cận của họ được đặc trưng bởi sự nhất quán và tổ chức hoàn hảo, đưa họ trên con đường tăng trưởng ổn định và liên tục của danh mục Bitcoin.
+Người stacking là một cá nhân có phương pháp và sự tập trung cao, với một kế hoạch rõ ràng để tối đa hóa việc tích lũy satoshis của họ. Họ thể hiện sự chủ động và kiến thức tài chính, không ngừng tìm cách tối ưu và bảo vệ khoản đầu tư vào bitcoin của mình. Cách tiếp cận của họ được đặc trưng bởi sự nhất quán và được tổ chức tốt, giúp danh mục bitcoin của họ tăng trưởng ổn định và liên tục.
 
 ## Người Dùng
 <chapterId>e0a022ab-207c-571f-b4ad-c432214a756c</chapterId>
 
-Cuối cùng, loại bitcoiner cuối cùng có thể được nhắc đến trong một khóa học giới thiệu là bitcoiner cần sử dụng Bitcoin thường xuyên. Dù do nghĩa vụ chuyên nghiệp hay đơn giản là mong muốn hỗ trợ hệ sinh thái, việc cung cấp giải pháp phù hợp cho việc sử dụng thường xuyên là cần thiết.
+Cuối cùng, loại bitcoiner cuối cùng có thể được nhắc đến trong một khóa học giới thiệu là những bitcoiner cần sử dụng Bitcoin thường xuyên. Dù là do trách nhiệm công việc hay chỉ đơn giản là mong muốn hỗ trợ hệ sinh thái, họ cần được cung cáp các giải pháp phù hợp để sử dụng Bitcoin thường xuyên.
 
 ![hình ảnh](assets/tuto/12.webp)
 
@@ -687,16 +687,16 @@ Cuối cùng, loại bitcoiner cuối cùng có thể được nhắc đến tro
 - Một ví lạnh để lưu trữ bitcoin một cách an toàn cho dài hạn.
 - Một ví nóng để thường xuyên gửi và nhận bitcoin cho việc sử dụng hàng ngày.
 
-Loại hồ sơ này có lẽ sẽ chọn một ví dựa trên Lightning Network cho giao dịch hàng ngày, cũng như một ví phần cứng cho việc lưu trữ dài hạn.
+Người dùng loại này có lẽ sẽ chọn một ví dựa trên Lightning Network cho giao dịch hàng ngày, cũng như một ví phần cứng cho việc lưu trữ dài hạn.
 
-Để tiếp xúc với Bitcoin, loại hồ sơ này sẽ có một số lựa chọn:
+Để tiếp xúc với Bitcoin, người dùng sẽ có một số lựa chọn:
 
-- Sử dụng các giải pháp ngang hàng như Peach để nhanh chóng mua hoặc bán bitcoin một cách không KYC.
+- Sử dụng các giải pháp ngang hàng như Peach để nhanh chóng mua hoặc bán bitcoin mà không cần KYC.
 - Sử dụng một nền tảng giao dịch để thường xuyên mua và bán bitcoin theo nhu cầu của họ.
 
 ### Hướng dẫn
 
-Ví Nóng LN
+Ví Nóng Lightning Network
 
 - [Phoenix](https://planb.network/tutorials/wallet/phoenix)
 - [Wallet of Satoshi](https://planb.network/tutorials/wallet/wallet-of-satoshi)
@@ -714,32 +714,32 @@ Nền Tảng Mua
 - [Robosats](https://planb.network/tutorials/exchange/robosats)
 - [kraken](https://planb.network/tutorials/exchange/kraken)
 
-### Điều này có phải là dành cho bạn?
+### Bạn có phải là người dùng loại này?
 
-- Thực dụng và Cam kết:
-  Người dùng là thực dụng và nhận thức được ưu và nhược điểm của Bitcoin. Họ tích cực tham gia vào hệ sinh thái và hỗ trợ nó thông qua việc sử dụng thường xuyên.
+- Tính thực dụng và Cam kết:
+  Người dùng rất thực dụng và nhận thức được ưu và nhược điểm của Bitcoin. Họ tích cực tham gia vào hệ sinh thái và hỗ trợ nó thông qua việc sử dụng thường xuyên.
 
-- Có Năng lực Công nghệ:
-Họ có hiểu biết tốt về công nghệ, bao gồm ví Bitcoin nóng và lạnh cũng như Mạng Lưới Lightning.
+- Có hiểu biết về Công nghệ:
+Họ có hiểu biết tốt về công nghệ, bao gồm ví Bitcoin nóng và lạnh cũng như Lightning Network.
 - Linh hoạt và Thích nghi:
   Họ sẵn lòng sử dụng các giải pháp và nền tảng khác nhau để đáp ứng nhu cầu thay đổi liên tục của mình.
 
-Người dùng là một cá nhân am hiểu công nghệ, đang tích cực tham gia sử dụng Bitcoin. Họ luôn tìm cách cải thiện hiệu quả và an toàn cho các giao dịch và tài sản Bitcoin của mình. Sự linh hoạt và cam kết với hệ sinh thái được phản ánh qua việc họ sẵn lòng sử dụng đa dạng giải pháp, từ ví lightning đến các giải pháp giao dịch nhanh. Trong khi tích cực tham gia vào các giao dịch Bitcoin, họ không lơ là an toàn, đảm bảo sự phân chia rõ ràng giữa bitcoin dùng hàng ngày và những bitcoin giữ lâu dài.
+Người dùng là một cá nhân am hiểu công nghệ, đang tích cực tham gia vào việc sử dụng Bitcoin. Họ luôn tìm cách cải thiện hiệu quả và an toàn cho các giao dịch và bitcoin của mình. Sự linh hoạt và cam kết với hệ sinh thái được phản ánh qua việc họ sẵn lòng áp dụng đa dạng các giải pháp, từ ví Lightning đến các giải pháp giao dịch nhanh. Trong khi tích cực tham gia vào các giao dịch Bitcoin, họ không lơ là sự an toàn, đảm bảo sự phân chia rõ ràng giữa bitcoin dùng hàng ngày và những bitcoin giữ lâu dài.
 
-## Người Bitcoin Hoài Nghi
+## Bitcoiner theo chủ nghĩa hoài nghi
 <chapterId>5c624acd-662e-5134-ab7a-fb75cde7c3f8</chapterId>
 
-Tôi muốn thêm vào đây về người Bitcoin hoài nghi. Loại người này không muốn tiết lộ thông tin cá nhân qua KYC (Know Your Customer), muốn giữ gần gũi với sự ẩn danh, và đặt sự quan trọng lớn vào quyền riêng tư của mình. Người Bitcoin hoài nghi cũng sẽ sử dụng LN qua node riêng của họ và làm việc trên an ninh của mình.
+Tôi muốn thêm vào đây một tập những Bitcoiner luôn hoài nghi mọi thứ. Họ không muốn tiết lộ thông tin cá nhân qua KYC (Know Your Customer), thích sự ẩn danh, và đặt quyền riêng tư lên hàng đầu. Bitcoiner loại này cũng sẽ sử dụng Lightning Network qua node riêng của họ và tự bảo mật cho chính mình. 
 
 ![image](assets/tuto/13.webp)
 
 ### Kế Hoạch
 
-Đối với loại hồ sơ này, giải pháp cho người mới bắt đầu khá đơn giản:
+Nếu muốn trở thành tập người dùng này, giải pháp cho người mới bắt đầu khá đơn giản:
 
 - Sử dụng ATM Bitcoin
-- Mua bán tiền mặt trong các cuộc gặp trực tiếp
-- Bán hàng lấy Bitcoin
+- Mua bán sử dụng tiền mặt trong các cuộc gặp trực tiếp
+- Bán hàng lấy bitcoin
 
 Sau đó, họ cần học cách trộn coin, quản lý UTXO (Unspent Transaction Outputs) của mình, và nhiều thứ khác chưa được đề cập trong khóa học này. Nếu cần, tất cả thông tin đều có sẵn trên trường đại học để dần trở thành một người Bitcoin "hoài nghi".
 
@@ -758,23 +758,23 @@ Mua bán không KYC giữa các cá nhân:
 - [Bisq](https://planb.network/tutorials/exchange/bisq)
 - [HodlHodl](https://planb.network/tutorials/exchange/hodlhodl)
 
-### Liệu đây có phải là dành cho bạn?
+### Bạn có phù hợp để trở thành một Bitcoiner "hoài nghi"?
 
 - Cảnh giác và An toàn:
-  Người hoài nghi đặt sự quan trọng lớn vào quyền riêng tư và an ninh trực tuyến của mình. Sự cảnh giác này mở rộng ra tất cả các tương tác của họ, đặc biệt là những tương tác liên quan đến Bitcoin và tiền mã hóa.
+  Người hoài nghi cực kỳ coi trọng quyền riêng tư và bảo mật trực tuyến của mình. Sự cảnh giác này mở rộng ra tất cả các tương tác của họ, đặc biệt là những tương tác liên quan đến Bitcoin và tiền mã hóa.
 
 - Độc lập:
-  Ưa thích quản lý tự chủ tài sản và an ninh của mình, họ thiết lập node riêng và chủ động làm việc trên an ninh trực tuyến của mình, thể hiện mong muốn mạnh mẽ về sự độc lập và kiểm soát.
+  Ưa thích việc tự quản lý tài sản và bảo mật của mình, họ thiết lập node riêng và chủ động thiết lập bảo mật trực tuyến cho bản thân, thể hiện mong muốn mạnh mẽ về duy trì sự độc lập và kiểm soát.
 
 - Không tin tưởng:
-  Sự không tin tưởng vào các hệ thống tập trung và quy trình KYC là đặc điểm nổi bật của người hoài nghi. Sự ngần ngại trong việc chia sẻ thông tin cá nhân hướng dẫn họ đến các nền tảng và dịch vụ tôn trọng và bảo tồn sự ẩn danh.
+  Đặc điểm nổi bật của Bitcoiner dạng này là không tin tưởng vào các hệ thống tập trung và các quy trình KYC. Do ngần ngại trong việc chia sẻ thông tin cá nhân nên họ hướng đến các nền tảng và dịch vụ tôn trọng và duy trì sự ẩn danh.
 
 - Có kiến thức và Chăm chỉ:
-  Nhận thức được sự phức tạp của tiền mã hóa, người hoài nghi dành thời gian để tự giáo dục mình về các phương pháp tốt nhất để bảo vệ và quản lý tài sản của mình, như trộn coin và quản lý UTXO.
+  Nhận thức được sự phức tạp của tiền mã hóa, Bitcoiner "hoài nghi" dành thời gian để tự đào tạo cho bản thân các phương pháp tốt nhất để bảo vệ và quản lý tài sản của mình, như trộn coin và quản lý UTXO.
 
 - Thực dụng:
-  Trong khi đánh giá cao sự ẩn danh và an toàn, người hoài nghi vẫn thực dụng trong các lựa chọn của mình, sử dụng các giải pháp đã được chứng minh và đáng tin cậy để bảo vệ bitcoin của mình trong khi điều hướng hệ sinh thái tiền mã hóa.
-Trong tâm trí của người Paranoid, sự cẩn trọng, an ninh và ẩn danh là tối quan trọng. Những ưu tiên này định hình một cách tiếp cận cẩn thận và được suy nghĩ kỹ lưỡng khi sử dụng Bitcoin, thúc đẩy sự tự lực và cẩn trọng. Người Paranoid sẵn lòng đầu tư thời gian và công sức để đảm bảo an ninh và riêng tư cho bitcoin của họ, đồng thời khéo léo điều hướng trong hệ sinh thái để tránh phơi bày không cần thiết. Mặc dù có thể xuất hiện quá mức cẩn thận đối với một số người, nhưng người Paranoid coi sự chăm chỉ và chú ý đến chi tiết của mình là thiết yếu cho sự tham gia thành công và an toàn trong thế giới Bitcoin.
+  Trong khi đánh giá cao sự ẩn danh và an toàn, Bitcoiner "hoài nghi" vẫn thực dụng trong các lựa chọn của mình, sử dụng các giải pháp đã được kiểm chứng và đáng tin cậy để bảo vệ bitcoin của mình trong quá trình khám phá hệ sinh thái tiền mã hóa.
+Trong tâm trí của Bitcoiner "hoài nghi", sự cẩn trọng, bảo mật và ẩn danh là tối quan trọng. Những ưu tiên này định hình một cách tiếp cận cẩn thận và được suy nghĩ kỹ lưỡng khi sử dụng Bitcoin, thúc đẩy sự tự lực và cẩn trọng. Bitcoiner "hoài nghi" sẵn lòng đầu tư thời gian và công sức để đảm bảo an toàn và riêng tư cho bitcoin của họ, đồng thời khéo léo khám phá, sử dụng hệ sinh thái để không làm lộ thông tin. Mặc dù sẽ có một số người "cẩn thận quá mức", Bitcoiner "hoài nghi" cho rằng sự chăm chỉ và chú ý tới các chi tiết là điều cốt lõi dẫn tới sự thành công và an toàn của họ trong thế giới Bitcoin.
 
 # Tương lai với Bitcoin
 <partId>98199b14-ad0f-5da7-ae99-8e5f5819f153</partId>
@@ -783,7 +783,7 @@ Trong tâm trí của người Paranoid, sự cẩn trọng, an ninh và ẩn da
 <chapterId>233c88d3-2e8e-5eba-ac06-efe67a209038</chapterId>
 
 Hãy tưởng tượng kịch bản dram này.
-Một tai nạn xe hơi, BOOM, và bạn không còn ở thế giới này nữa. Bạn biến mất, để lại gia đình mình không có chuyên gia Bitcoin. Họ không biết tiền ở đâu, nhưng họ nhớ bạn liên tục nhắc đến các thuật ngữ như khóa, danh sách từ, và tính không thể đảo ngược của giao dịch Bitcoin. Họ vô cùng đau buồn, bối rối, và giờ đây phải tự mình tìm hiểu mọi thứ. Mặc dù tình huống này có vẻ đáng sợ, nhưng đó là một khả năng thực tế không thể bỏ qua. Bạn có hai lựa chọn: dành từ 15 phút đến 1 giờ để thiết lập một kế hoạch di sản, hoặc không làm gì cả. Không ai sẽ phán xét, nhưng nếu có người phụ thuộc vào bạn, 15 phút đó có thể tạo ra sự khác biệt lớn một ngày nào đó. Quyết định là của bạn.
+Một tai nạn xe hơi, BOOM, và bạn không còn ở thế giới này nữa. Bạn biến mất, gia đình bạn bị mất đi một chuyên gia về Bitcoin. Họ không biết tiền ở đâu, nhưng họ nhớ bạn liên tục nhắc đến các thuật ngữ như khóa, danh sách từ, và tính không thể đảo ngược của giao dịch Bitcoin. Họ vô cùng đau buồn, bối rối, và giờ đây phải tự mình tìm hiểu mọi thứ. Mặc dù tình huống này có vẻ đáng sợ, nhưng đó là một khả năng thực tế không thể bỏ qua. Bạn có hai lựa chọn: dành từ 15 phút đến 1 giờ để thiết lập một kế hoạch di sản, hoặc không làm gì cả. Không ai sẽ phán xét, nhưng nếu có người phụ thuộc vào bạn, 15 phút đó có thể tạo ra sự khác biệt lớn một ngày nào đó. Quyết định là của bạn.
 
 - Lựa chọn 1: Người thân của bạn mở một bức thư chứa kế hoạch dễ hiểu và dễ thực hiện để an toàn khôi phục tất cả tài sản tiền mã hóa của bạn.
 - Lựa chọn 2: Để người thân tự tìm hiểu. Nếu họ thiếu ví, một sàn giao dịch, tài sản, hoặc nếu họ làm hỏng một giao dịch, xui cho họ, tiền bị mất.
@@ -797,22 +797,22 @@ Theo Pamela Morgan trong "Cryptoasset Inheritance Planning" (trang 10), mục ti
 
 **Bản quyền:** Bài học tiếp theo không phải do tôi tạo ra...
 
-Hầu hết các khái niệm, ý tưởng, và hành động được đề xuất trong bài học này (6.1 BRH) đều đến từ cuốn sách của Pamela Morgan có tựa đề "Cryptoasset Inheritance Planning." Cuốn sách này cung cấp một quy trình dễ theo dõi, bước đến bước để nhanh chóng thiết lập kế hoạch di sản Bitcoin của bạn. Quy trình này được nhiều chuyên gia an ninh trong ngành xác nhận. Mặc dù đây là một điểm xuất phát tuyệt vời để tạo kế hoạch di sản, nhưng đó KHÔNG phải là lời khuyên pháp lý, và bạn luôn luôn (như mọi khi) nên xác minh nguồn, thách thức ý tưởng, và tự mình nghiên cứu. Pamela đã rất hào phóng cho phép tôi sử dụng công trình của bà. Tôi xin chân thành cảm ơn bà.
+Hầu hết các khái niệm, ý tưởng, và hành động được đề xuất trong bài học này (6.1 BRH) đều đến từ cuốn sách của Pamela Morgan có tựa đề "Cryptoasset Inheritance Planning." Cuốn sách này cung cấp một quy trình dễ theo dõi, từng bước một để nhanh chóng thiết lập kế hoạch thừa kế bitcoin của bạn. Quy trình này được nhiều chuyên gia an ninh trong ngành xác nhận. Mặc dù đây là một điểm xuất phát tuyệt vời để tạo kế hoạch di sản, nhưng đó KHÔNG phải là lời khuyên pháp lý, và bạn luôn luôn (như mọi khi) nên xác minh nguồn, thách thức ý tưởng, và tự mình nghiên cứu. Pamela đã rất hào phóng cho phép tôi sử dụng công trình của bà. Tôi xin chân thành cảm ơn bà.
 
 ![pamela morgan](assets/heritage/0.webp)
 
-Trong bài học này, chúng ta chỉ tập trung vào phần đầu của cuốn sách của bà. Tôi sẽ đảm nhận vai trò của một người dùng Bitcoin điển hình để tạo thư di sản của riêng mình. Quy trình sẽ đơn giản cho bây giờ, và chúng ta sẽ tạo một phiên bản phức tạp hơn với các loại hồ sơ khác nhau sau.
+Trong bài học này, chúng ta chỉ tập trung vào phần đầu cuốn sách của bà. Tôi sẽ đảm nhận vai trò của một người dùng Bitcoin điển hình để tạo thư di sản của riêng mình. Quy trình sẽ đơn giản cho bây giờ, và chúng ta sẽ tạo một phiên bản phức tạp hơn với các kiểu Bitcoiner khác sau.
 
 Hãy theo dõi hành trình của Cédric:
 
 - Nhà đầu tư dài hạn.
 - Sở hữu một ví vật lý và một ví di động.
-- Sử dụng một nền tảng giao dịch duy nhất với xác minh danh tính (KYC).
+- Sử dụng một nền tảng giao dịch duy nhất có xác minh danh tính (KYC).
 - Được giới thiệu về Bitcoin bởi anh họ.
 - Không sở hữu hợp đồng thông minh, Lightning Network (LN), hoặc alt-coins.
 
 ### Yêu cầu:
-Tôi yêu cầu 30 phút thời gian của bạn, không phải cho bản thân tôi hay bạn, mà cho những người thân yêu của bạn. Lập kế hoạch di sản là một chủ đề khó khăn, thường bị phủ nhận và quên lãng. Vì đây là nhiệm vụ cuối cùng cần hoàn thành, quá nhiều người bị phân tâm và cuối cùng mất trắng tất cả BTC của họ một cách ngớ ngẩn. Vì vậy, hãy dành ra 30 phút và làm điều đó. Đó là BƯỚC CUỐI CÙNG!
+Tôi yêu cầu 30 phút thời gian của bạn, không phải cho bản thân tôi hay bạn, mà cho những người thân yêu của bạn. Lập kế hoạch thừa kế là một chủ đề khó khăn, thường bị phủ nhận và quên lãng. Vì đây là nhiệm vụ cuối cùng cần hoàn thành, quá nhiều người bị phân tâm và cuối cùng mất trắng tất cả BTC của họ một cách ngớ ngẩn. Vì vậy, hãy dành ra 30 phút và làm điều đó. Đó là BƯỚC CUỐI CÙNG!
 Bạn cần gì?
 
 - Một khoảnh khắc yên tĩnh, không bị phân tâm
@@ -820,7 +820,7 @@ Bạn cần gì?
 - Một cây bút
 - Hai phong bì
 - Một cuốn điện thoại/sổ địa chỉ
-- Một máy tính (tùy chọn theo ý kiến của tôi)
+- Một máy tính (tùy chọn theo quan điểm của tôi)
 
 ![pamela morgan](assets/heritage/1.webp)
 
@@ -838,12 +838,12 @@ Theo Pamela Morgan trong "Cryptoasset Inheritance Planning" trang 18, những hi
 Cần thiết phải chỉ định hai người sẽ hỗ trợ gia đình bạn khi bạn không còn ở đây. Như vậy, người thân yêu của bạn sẽ có một người dùng Bitcoin đáng tin cậy, cập nhật công nghệ để dựa vào trong quá trình phục hồi. Những người này có thể:
 
 - Tư vấn về quản lý khóa và ví.
-- Giúp hiểu cách phục hồi an toàn các cụm từ bí mật (seeds).
-- Cung cấp sự đảm bảo trong một giao dịch.
+- Hỗ trợ cách phục hồi an toàn các cụm từ bí mật (seeds).
+- Cung cấp sự đảm bảo an toàn trong một giao dịch.
 
 Luôn có sự đánh đổi giữa chuyên môn kỹ thuật, khả năng sẵn có và sự tin tưởng. Nếu bạn không chắc chắn ai nên đảm nhận vai trò này, tạo một bảng đơn giản để giúp bạn quyết định.
 
-Phân chia trách nhiệm: Người đáng tin cậy KHÔNG BAO GIỜ được truy cập vào khóa riêng của bạn. Vai trò duy nhất của họ là giúp người thân yêu của bạn hiểu hệ thống bảo mật của Bitcoin và tăng cường sự tự tin. Đó là lý do bạn chọn hai người đáng tin cậy. Nếu cần, bạn cũng có thể tìm đến một tổ chức bên thứ ba (luật sư chuyên môn hoặc dịch vụ lập kế hoạch di sản).
+Phân chia trách nhiệm: Người đáng tin cậy KHÔNG BAO GIỜ được truy cập vào khóa riêng tư của bạn. Vai trò duy nhất của họ là giúp người thân yêu của bạn hiểu hệ thống bảo mật của Bitcoin và tăng cường sự tự tin. Đó là lý do bạn chọn hai người đáng tin cậy. Nếu cần, bạn cũng có thể tìm đến một tổ chức bên thứ ba (luật sư chuyên môn hoặc dịch vụ lập kế hoạch thừa kế).
 
 | Người Đáng Tin Cậy | Độ Tin Cậy | Kiến Thức BTC | Thông Tin Liên Lạc | Ghi chú |
 | -------------- | ----- | ------------- | ---------- | ---- |
@@ -860,7 +860,7 @@ Quan trọng là phải suy nghĩ về tất cả các nơi bạn có đô la ho
 - Ví di động
 - Ví vật lý
 
-Xem xét cách bạn đã bảo mật chúng và nơi những bản sao lưu này được lưu trữ. Hiện tại không cần thiết phải có hai vị trí sao lưu. Mục tiêu là chụp nhanh trạng thái BẢO MẬT HIỆN TẠI của bạn. Chúng ta có thể cải thiện nó sau! Đây chỉ là phiên bản đầu tiên để đảm bảo an ninh cho bạn lúc này, chúng ta sẽ đi vào chi tiết sau.
+Xem xét cách bạn đã bảo mật chúng và nơi những bản sao lưu này được lưu trữ. Hiện tại không cần thiết phải có hai vị trí sao lưu. Mục tiêu là chụp nhanh trạng thái BẢO MẬT HIỆN TẠI của bạn. Chúng ta có thể cải thiện nó sau! Đây chỉ là phiên bản đầu tiên để đảm bảo an toàn cho bạn lúc này, chúng ta sẽ đi vào chi tiết sau.
 
 | Chung               | Phần Mềm / Phần Cứng | Tài Sản        | Vị Trí             | Sao Lưu (khóa riêng)            | Mật khẩu (PIN, cụm từ bí mật)     | Ghi chú                                                                                                                        |
 | --------------------- | ------------------- | ------------- | --------------------- | -------------------------------- | ------------------------------ | --------------------------------------------------------------------------------------------------------------------------- |
@@ -870,7 +870,7 @@ Xem xét cách bạn đã bảo mật chúng và nơi những bản sao lưu nà
 
 ĐỪNG BỊ PHÂN TÂM! Bạn có thể cảm thấy cần phải chuyển những tài sản này để:
 
-- Cải thiện an ninh của bạn?
+- Cải thiện an toàn của bạn?
 - Bán một số tài sản?
 - Mua thêm tài sản khác?
 
@@ -899,19 +899,19 @@ Tôi yêu các bạn sâu đậm và tôi biết các bạn sẽ mạnh mẽ.
 Tôi viết bức thư này để cho các bạn biết rằng tôi sở hữu các tài sản tiền ảo có thể có giá trị.
 Xin hãy đọc bức thư này một cách cẩn thận và toàn bộ trước khi thực hiện bất kỳ hành động nào. Những tài sản này khác biệt so với các tài sản khác, vì một khi chúng được chuyển đi, không có cách nào để khôi phục chúng."
 
-Tiếp theo, chúng tôi bao gồm "phần cố vấn". Phần này có thể gây nhầm lẫn cho người thừa kế của bạn, đặc biệt nếu bạn nhắc đến những người hoặc tổ chức mà họ không quen thuộc. Hãy cụ thể về:
+Tiếp theo, chúng ta sẽ đính kèm "phần cố vấn". Phần này có thể gây nhầm lẫn cho người thừa kế của bạn, đặc biệt nếu bạn nhắc đến những người hoặc tổ chức mà họ không quen thuộc. Hãy cụ thể về:
 
 - Cách liên hệ với họ
 - Cách nhận diện họ
 - Các lĩnh vực chuyên môn của họ.
-- Làm thế nào họ có thể tự giáo dục bản thân.
+- Làm thế nào để người thân của bạn có thể tự đào tạo cho bản thân.
 
 "Dưới đây là danh sách những người tôi tin tưởng để trả lời câu hỏi của các bạn và hỗ trợ các bạn trong quá trình khám phá và chuyển giao những tài sản này. Liên hệ với những cá nhân được liệt kê, nhưng đừng dựa vào một người duy nhất để quản lý quá trình. Hãy cảnh giác với tất cả các cố vấn, kể cả những người trong danh sách này. Mọi người đều có thể mắc sai lầm, vì vậy hãy chắc chắn bạn hiểu những gì họ đang làm một cách tốt nhất có thể và đừng ngần ngại đặt câu hỏi và xác minh câu trả lời cho chính mình.
 
 Dưới đây là những người có thể giúp bạn trả lời câu hỏi và hướng dẫn bạn qua quá trình này:
-(Thêm tên của các cố vấn của bạn vào đây, mối quan hệ của họ với tổ chức (nếu có), thông tin liên lạc của họ, và cách họ nên xác minh danh tính của mình, ví dụ như keybase, ảnh.)- Anh trai tôi Bob; +33 09 XX 68 18 36; Bobmybrother@gmail.com. Bạn có thể tin tưởng Bob giúp đỡ bạn trong quá trình này. Mặc dù anh ấy có thể không phải là người có kỹ năng kỹ thuật nhất, nhưng anh ấy là người đúng để đặt câu hỏi về mọi thứ và thực hiện cẩn trọng để đảm bảo thành công của bạn một cách an toàn. • Anh họ tôi Nathan; +33 09 XX 29 35; NathanDeladzcroix@Hotmail.com. Chính Nathan đã giới thiệu tôi với Bitcoin. Anh ấy rất am hiểu về công nghệ và có thể trả lời hầu hết các câu hỏi của bạn. Anh ấy cũng sở hữu một số bitcoin và có thể hướng dẫn bạn về mặt kỹ thuật. Bạn đã gặp anh ấy vài lần tại các buổi họp mặt gia đình, và tôi đã đính kèm một bức ảnh của anh ấy ở đây.
-- Ricco; @RiccoSFC trên Twitter; Ricco425@protonmail.com. Tôi đã làm việc chặt chẽ với Ricco nhiều năm. Bạn chưa bao giờ gặp anh ấy, vì vậy hãy chắc chắn bạn đang nói chuyện với đúng người bằng cách hỏi anh ấy "Tên con chó của Cédric là gì?" Nếu anh ấy trả lời "12", thì đó là đúng. Ricco là một chuyên gia về Bitcoin rất thân thiện và am hiểu. Anh ấy sẽ trả lời tất cả các câu hỏi của bạn và bạn có thể tin tưởng vào phán đoán của anh ấy về an ninh của bitcoin. Đừng ngần ngại liên hệ với anh ấy, tôi đã gặp anh ấy vài lần và anh ấy biết mọi thứ liên quan đến bạn và Maia.
-- Có vẻ lạ, nhưng hãy liên hệ với tất cả họ. Ngoài ra, bạn có thể tự giáo dục mình bằng cách nghe Andreas Antonopoulos trên YouTube và mua cuốn sách "Cryptoasset Inheritance Planning" của Pamela Morgan."
+(Thêm tên của các cố vấn của bạn vào đây, mối quan hệ của họ với tổ chức (nếu có), thông tin liên lạc của họ, và cách họ nên xác minh danh tính của mình, ví dụ như thông tin cơ bản, ảnh.)- Anh trai tôi Bob; +33 09 XX 68 18 36; Bobmybrother@gmail.com. Bạn có thể tin tưởng Bob giúp đỡ bạn trong quá trình này. Mặc dù anh ấy có thể không phải là người có kỹ năng kỹ thuật nhất, nhưng anh ấy là người đúng để đặt câu hỏi về mọi thứ và thực hiện cẩn trọng để đảm bảo thành công của bạn một cách an toàn. • Anh họ tôi Nathan; +33 09 XX 29 35; NathanDeladzcroix@Hotmail.com. Chính Nathan đã giới thiệu tôi với Bitcoin. Anh ấy rất am hiểu về công nghệ và có thể trả lời hầu hết các câu hỏi của bạn. Anh ấy cũng sở hữu một số bitcoin và có thể hướng dẫn bạn về mặt kỹ thuật. Bạn đã gặp anh ấy vài lần tại các buổi họp mặt gia đình, và tôi đã đính kèm một bức ảnh của anh ấy ở đây.
+- Ricco; @RiccoSFC trên Twitter; Ricco425@protonmail.com. Tôi đã làm việc chặt chẽ với Ricco nhiều năm. Bạn chưa bao giờ gặp anh ấy, vì vậy hãy chắc chắn bạn đang nói chuyện với đúng người bằng cách hỏi anh ấy "Tên con chó của Cédric là gì?" Nếu anh ấy trả lời "12", thì đó là đúng. Ricco là một chuyên gia về Bitcoin rất thân thiện và am hiểu. Anh ấy sẽ trả lời tất cả các câu hỏi của bạn và bạn có thể tin tưởng vào phán đoán của anh ấy về bảo mật bitcoin. Đừng ngần ngại liên hệ với anh ấy, tôi đã gặp anh ấy vài lần và anh ấy biết mọi thứ liên quan đến bạn và Maia.
+- Có vẻ lạ, nhưng hãy liên hệ với tất cả họ. Ngoài ra, bạn có thể tự đào tạo bản thân bằng cách nghe Andreas Antonopoulos trên YouTube và mua cuốn sách "Cryptoasset Inheritance Planning" của Pamela Morgan."
 
 Và bây giờ, chúng ta thêm phần Khoản Mục. Bắt đầu bằng cách liệt kê các thiết bị và nơi bạn giữ bitcoin.
 
@@ -919,7 +919,7 @@ Và bây giờ, chúng ta thêm phần Khoản Mục. Bắt đầu bằng cách 
 - Máy tính để bàn: nền tảng giao dịch, ứng dụng, trò chơi, trang web
 - Chuyển sang ví vật lý
 - Cụm từ bí mật (passphrase)
-- Multisig
+- Ví đa chữ ký - Multisig
 
 Khi đề cập đến vị trí lưu trữ bản sao lưu, sử dụng một địa điểm chung chung, không phải địa chỉ cụ thể. Nếu bạn sở hữu bất kỳ thứ gì khác ngoài bitcoin, vui lòng cho chúng tôi biết.
 
@@ -928,26 +928,26 @@ Khi đề cập đến vị trí lưu trữ bản sao lưu, sử dụng một đ
 (Thêm vào đây khoản mục tài sản tiền mã hóa của bạn)
 
 - "Tôi đã sử dụng điện thoại của mình (Samsung Galaxy S8) để truy cập ví Samourai của mình. Khóa riêng bảo vệ ví được lưu trữ trong két sắt ngân hàng và một bản sao khác với Chú Bob. Mã PIN để mở khóa điện thoại và ví được giữ ở nhà và nhà bà tôi.
-- Tôi sử dụng máy tính Dell 2018 của mình để truy cập một nền tảng giao dịch trực tuyến gọi là Bitstamp. Tôi có thể vẫn còn Bitcoin hoặc đô la trên nền tảng này. Để truy cập tài khoản của tôi, bạn sẽ cần liên hệ trực tiếp với họ hoặc đăng nhập vào tài khoản của tôi (hãy cẩn thận, điều này có thể bất hợp pháp - kiểm tra luật pháp địa phương của bạn).
+- Tôi sử dụng máy tính Dell 2018 của mình để truy cập một nền tảng giao dịch trực tuyến gọi là Bitstamp. Có thể tôi vẫn còn bitcoin hoặc đô la trên nền tảng này. Để truy cập tài khoản của tôi, bạn sẽ cần liên hệ trực tiếp với họ hoặc đăng nhập vào tài khoản của tôi (hãy cẩn thận, điều này có thể bất hợp pháp - kiểm tra luật pháp địa phương của bạn).
 - Tôi đã sử dụng một trình quản lý mật khẩu để truy cập, và bạn sẽ tìm thấy bản sao lưu của tôi trong két sắt ngân hàng. Tài khoản cũng được bảo vệ bởi xác thực hai yếu tố, mà bạn có thể truy cập thông qua điện thoại của tôi (Samsung Galaxy S8) hoặc sử dụng mã sao lưu được lưu trữ ở nhà.
-- Tôi cũng có BTC trên một thiết bị Trezor Model One. Tôi truy cập nó thông qua PC và trang web Trezor.io. Các khóa riêng sao lưu được lưu trữ trong két sắt ngân hàng và với Chú Bob. Mã PIN được giữ ở nhà và với mẹ tôi. Thiết bị nói chung có thể ở trong két an toàn tại văn phòng của tôi.
+- Tôi cũng có BTC trên một thiết bị Trezor Model One. Tôi truy cập nó thông qua PC và trang web Trezor.io. Các khóa riêng tư sao lưu được lưu trữ trong két sắt ngân hàng và với Chú Bob. Mã PIN được giữ ở nhà và với mẹ tôi. Thiết bị nói chung có thể ở trong két an toàn tại văn phòng của tôi.
 - Tôi sử dụng một cụm mật khẩu bảo mật cao cấp cho thiết bị Trezor của mình. Bản sao lưu của cụm mật khẩu này được lưu trữ tại nhà và cùng với mẹ tôi.
 
-"Xin lưu ý: Bạn sẽ tìm thấy một bản sao của di chúc của tôi, có ngày tháng là 17 tháng 4 năm 2018, trong thư mục tài liệu của tôi. Luật sư của tôi, Dwight Schrute, có trụ sở tại Scranton, Pennsylvania, cũng có một bản sao. Hãy cẩn thận và luôn nhớ tình yêu của tôi dành cho bạn." 26/06/2023, Cedric
+"Xin lưu ý: Bạn sẽ tìm thấy một bản sao di chúc của tôi, có ngày tháng là 17 tháng 4 năm 2018, trong thư mục tài liệu của tôi. Luật sư của tôi, Dwight Schrute, có trụ sở tại Scranton, Pennsylvania, cũng có một bản sao. Hãy cẩn thận và luôn nhớ tình yêu của tôi dành cho bạn." 26/06/2023, Cedric
 
-Bây giờ, hãy xem xét công việc của chúng ta (Dựa trên "Cryptoasset Inheritance Planning" của Pamela Morgan, trang 44 (dịch bởi Découvre Bitcoin)):
+Bây giờ, hãy xem xét công việc của chúng ta (Dựa trên "Cryptoasset Inheritance Planning" của Pamela Morgan, trang 44):
 
 - Hỗ trợ: Đảm bảo bạn đã cung cấp tên, thông tin liên lạc và nếu có thể, hình ảnh.
 - Thiết bị: Đảm bảo bạn đã liệt kê điện thoại, máy tính, ví vật lý và ví giấy của mình.
 - Tài sản: Đảm bảo bạn đã bao gồm danh sách các tài sản của mình.
 - Sàn giao dịch: Kiểm tra xem bạn đã liệt kê tất cả các sàn giao dịch giữ tiền cho bạn chưa.
 - Truy cập: Liệt kê thông tin họ sẽ cần để tìm vị trí lưu trữ của bạn và tất cả các mã truy cập cần thiết.
-Nếu bạn đã kiểm tra tất cả các mục, thì bạn đã sẵn sàng cho các bước cuối cùng! Làm một bản sao của bức thư này và giữ cả hai bản trong một phong bì. Dán kín nó, ký tên lên phong bì và lưu trữ phong bì này ở một nơi an toàn nhưng dễ truy cập. Đảm bảo người thừa kế của bạn biết họ cần lấy phong bì này nếu cần. Đừng ngần ngại mua cuốn sách của Pamela để tìm hiểu sâu hơn về chủ đề này và dành thời gian để cải thiện kế hoạch thừa kế của bạn. Cũng thảo luận với công chứng viên của bạn để hợp pháp hóa kế hoạch này vào di chúc chính thức của bạn.
+Nếu bạn đã kiểm tra tất cả các mục, thì bạn đã sẵn sàng cho các bước cuối cùng! Làm một bản sao của bức thư này và giữ cả hai bản trong một phong bì. Dán kín nó, ký tên lên phong bì và lưu trữ phong bì này ở một nơi an toàn nhưng dễ truy cập. Đảm bảo người thừa kế của bạn biết họ cần lấy phong bì này nếu cần. Đừng ngần ngại mua cuốn sách của Pamela để tìm hiểu sâu hơn về chủ đề này và dành thời gian để cải thiện kế hoạch thừa kế của bạn. Cùng thảo luận với công chứng viên của bạn để hợp pháp hóa kế hoạch này vào di chúc chính thức của bạn.
 
 Xin chúc mừng! Bạn đã có phiên bản đầu tiên của kế hoạch thừa kế, và đó là một khởi đầu tuyệt vời!
 
-_Cryptoasset Inheritance Planning, Hướng dẫn đơn giản cho chủ sở hữu, Pamela Morgan, ESQ. Bản quyền 2018 bởi Merkle Bloom LLC, Tất cả các quyền được bảo lưu. CC-BY_ Một lời cảm ơn lớn đến Pamela Morgan vì công việc quý báu của bà và cho phép tôi chia sẻ nó. Cảm ơn cũng gửi đến tất cả mọi người đã đóng góp vào việc viết nó.
-Các bạn là tuyệt vời :D Đội của tôi và sinh viên của tôi cũng cảm ơn bạn!
+_Cryptoasset Inheritance Planning, Hướng dẫn đơn giản cho chủ sở hữu, Pamela Morgan, ESQ. Bản quyền 2018 bởi Merkle Bloom LLC, Tất cả các quyền được bảo lưu. CC-BY_ Một lời cảm ơn lớn đến Pamela Morgan vì công việc quý báu của bà và cho phép tôi chia sẻ nó. Tôi cũng cảm ơn tất cả những người đã đóng góp vào việc tạo nên cuốn sách.
+Các bạn rất tuyệt vời :D Đội ngũ của tôi và sinh viên của tôi cũng rất biết ơn bạn!
 
 # Lời cảm ơn và tiếp tục khám phá
 <partId>2a6ec097-a3e7-5f1d-a1ec-ae2b0b199e40</partId>
@@ -955,18 +955,18 @@ Các bạn là tuyệt vời :D Đội của tôi và sinh viên của tôi cũn
 ## Xin chúc mừng! BẠN LÀ TOP 0.1%
 <chapterId>5f4cfab9-9af1-584b-a1fe-a0769a991f19</chapterId>
 
-Nếu bạn đã theo dõi nội dung của chúng tôi từ đầu, bạn giờ đây là một công dân thực sự của thế kỷ 21 và là một trong những người có kinh nghiệm nhất trong lĩnh vực Bitcoin! Bạn sử dụng trình quản lý mật khẩu và xác thực hai yếu tố (2FA). Bạn hiểu Bitcoin là gì và tại sao nó quan trọng. Bạn sở hữu Bitcoin và có cách an toàn để mua hoặc kiếm thêm. Bạn đã lưu trữ Bitcoin của mình trong một ví "lạnh" và đã thực hiện quản lý khóa đúng cách. Bạn đã tạo kế hoạch thừa kế cho người thân yêu của mình. Bây giờ bạn đã an toàn và có thể thư giãn! Thưởng thức một ly bia và tự hào về bản thân!
+Nếu bạn đã theo dõi nội dung của chúng tôi từ đầu, bạn giờ đây đã là một công dân thực sự của thế kỷ 21 và là một trong những người có kinh nghiệm nhất trong lĩnh vực Bitcoin! Bạn sử dụng trình quản lý mật khẩu và xác thực hai yếu tố (2FA). Bạn hiểu Bitcoin là gì và tại sao nó quan trọng. Bạn sở hữu Bitcoin và có cách an toàn để mua hoặc sở hữu thêm. Bạn đã lưu trữ bitcoin của mình trong một ví "lạnh" và đã thực hiện quản lý khóa đúng cách. Bạn đã tạo kế hoạch thừa kế cho người thân yêu của mình. Bây giờ bạn đã an toàn và có thể thư giãn! Thưởng thức một ly bia và tự hào về bản thân!
 
-Tôi thực sự tự hào vì bạn đã đạt đến giai đoạn này. Tôi thực sự ý nghĩa nó. Bạn nên làm gì tiếp theo? Mặc dù bạn chắc chắn nên thư giãn bây giờ và tự hào về bản thân, nhưng hành trình của bạn với Bitcoin chưa kết thúc, và nó sẽ không bao giờ thực sự kết thúc. Dưới đây là một số lựa chọn cho những gì tiếp theo:
-1. Bạn có thể tiếp tục như bạn đã làm cho đến nay. Tiếp tục tích lũy bitcoin một cách từ từ và để chiến lược của bạn được triển khai theo thời gian. Bạn đã có một mức độ an ninh đủ, mọi thứ đều đã được sắp xếp, và bạn đã làm những gì cần thiết cho bản thân và gia đình mình. Bạn không cần phải trở thành một chuyên gia giao dịch, và bạn không cần phải biết nhiều hơn về đầu tư. Có lẽ bạn đã có một công việc bên lề, và mặc dù Bitcoin thật sự thú vị, mục tiêu chính của bạn là đạt đến giai đoạn này. Đây là trường hợp của đa số bạn, và tôi tôn trọng điều đó. Tôi rất vui mừng rằng bạn đã đi được xa đến vậy trong "hố thỏ" Bitcoin, và tôi hy vọng hành trình đã thú vị. Cảm ơn bạn đã tin tưởng tôi giúp bảo vệ những bitcoin đầu tiên của bạn.
+Tôi thực sự tự hào vì bạn đã đạt đến giai đoạn này. Bạn nên làm gì tiếp theo? Mặc dù bạn chắc chắn nên thư giãn bây giờ và tự hào về bản thân, nhưng hành trình của bạn với Bitcoin chưa kết thúc, và nó sẽ không bao giờ thực sự kết thúc. Dưới đây là một số lựa chọn mà bạn có thể cân nhắc tiếp theo:
+1. Bạn có thể tiếp tục như bạn đã làm cho đến nay. Tiếp tục tích lũy bitcoin một cách từ từ và để chiến lược của bạn phát huy hiệu quả theo thời gian. Bạn đã có một mức độ bảo mật đủ, mọi thứ đều đã được sắp xếp, và bạn đã làm những gì cần thiết cho bản thân và gia đình mình. Bạn không cần phải trở thành một chuyên gia giao dịch (trader), và bạn không cần phải biết nhiều hơn về đầu tư. Có lẽ bạn đã có một công việc không liên quan tới Bitcoin, và mặc dù Bitcoin thật sự thú vị, mục tiêu chính của bạn là đạt đến giai đoạn này. Đây là trường hợp của đại đa số mọi người, và tôi tôn trọng điều đó. Tôi rất vui mừng rằng bạn đã đi được xa đến vậy trong "chiếc hang thỏ không đáy" mang tên Bitcoin, và tôi hy vọng rằng đó là một hành trình thú vị. Cảm ơn bạn đã tin tưởng để tôi hỗ trợ bạn bảo vệ những bitcoin đầu tiên của mình.
 
-2. Bạn có thể muốn tiếp tục giáo dục bản thân về các khía cạnh kỹ thuật, ý thức hệ, và triết học của Bitcoin. Nếu bạn cảm thấy như hành trình của mình chỉ mới bắt đầu, tôi khuyến khích bạn tiếp tục tìm hiểu về Bitcoin. Có rất nhiều điều để học mà đôi khi khó biết bắt đầu từ đâu. Dưới đây là danh sách các khóa học và đào tạo có thể đi cùng bạn:
+2. Bạn có thể muốn tiếp tục giáo dục bản thân về các khía cạnh kỹ thuật, ý thức hệ, và triết học của Bitcoin. Nếu bạn cảm thấy như hành trình của mình chỉ mới bắt đầu, tôi khuyến khích bạn tiếp tục tìm hiểu về Bitcoin. Có rất nhiều điều để học mà đôi khi khó biết bắt đầu từ đâu. Dưới đây là danh sách các khóa học và đào tạo có thể phù hợp với bạn:
 
-- Bitcoin node và Lightning Network: Lightning Network, như chúng ta đã thấy vài lần, mang lại một tầm nhìn hoàn toàn mới về Bitcoin. Qua lớp thứ hai này, có nhiều khả năng, và một ngành công nghiệp hoàn toàn mới đang được xây dựng trên nó. Để đi cùng bạn trong quá trình khám phá, tôi mời bạn tham gia khóa học lý thuyết LN 201 hoặc khóa học thực hành LN 202. Cả hai khóa học đều dễ tiếp cận với mọi người ở giai đoạn này của quá trình học và có thể giúp bạn hiểu rõ hơn về khía cạnh mới này của Bitcoin.
+- Bitcoin node và Lightning Network: Lightning Network, như chúng ta đã nhắc đến vài lần, mang lại một tầm nhìn hoàn toàn mới về Bitcoin. Qua lớp thứ hai này, có nhiều khả năng, và một ngành công nghiệp hoàn toàn mới đang được xây dựng trên đó. Để đi cùng bạn trong quá trình khám phá, tôi mời bạn tham gia khóa học lý thuyết LN 201 hoặc khóa học thực hành LN 202. Cả hai khóa học đều dễ tiếp cận với mọi người ở giai đoạn này của quá trình học và có thể giúp bạn hiểu rõ hơn về khía cạnh mới này của Bitcoin.
 
-- Kinh tế học Áo: Nếu kinh tế và tài chính là những chủ đề bạn quan tâm, thì khóa học ECON 201 có lẽ là lựa chọn đúng đắn để khám phá sâu hơn về kinh tế học Áo. Tại đây, bạn sẽ khám phá trường phái kinh tế này, đối lập với Keynesian truyền thống. Đây là một điểm khởi đầu tốt để đặt câu hỏi về hệ thống của chúng ta và hiểu chúng ta đã đến đây như thế nào từ góc độ lạm phát và thao túng tiền tệ.
+- Kinh tế học Áo: Nếu kinh tế và tài chính là những chủ đề bạn quan tâm, thì khóa học ECON 201 có lẽ là lựa chọn đúng đắn để khám phá sâu hơn về kinh tế học Áo. Tại đây, bạn sẽ khám phá trường phái kinh tế này, đối lập với trường phái Keynesian truyền thống. Đây là một điểm khởi đầu tốt để đặt câu hỏi về hệ thống của chúng ta và hiểu chúng ta đã đến đây như thế nào từ góc độ lạm phát và thao túng tiền tệ.
 
-- Giải pháp cho người bán hàng: Cuối cùng, nếu bạn có xu hướng thực sự sử dụng Bitcoin, bạn có thể đến mục hướng dẫn của chúng tôi và khám phá nhiều giải pháp cho người bán hàng. Điều này có thể mang lại cho bạn cơ hội trong lĩnh vực của chúng tôi, nhưng cũng giúp doanh nghiệp hoặc bạn bè của bạn chấp nhận Bitcoin trong thương mại của họ và do đó tạo ra một nền kinh tế địa phương dựa trên Bitcoin trong thành phố của bạn!
+- Giải pháp cho người bán hàng: Cuối cùng, nếu bạn có xu hướng muốn thực sự sử dụng Bitcoin, bạn có thể đến mục hướng dẫn của chúng tôi và khám phá nhiều giải pháp cho người bán hàng. Điều này không những có thể mang lại cho bạn cơ hội trong lĩnh vực của chúng tôi, mà còn giúp doanh nghiệp hoặc bạn bè của bạn chấp nhận Bitcoin trong công việc kinh doanh họ và do đó tạo ra một nền kinh tế địa phương dựa trên Bitcoin trong thành phố của bạn!
 
 Dù trường hợp nào, tất cả các khóa học của chúng tôi đều miễn phí, và nhiều tài nguyên hoặc hướng dẫn có sẵn trên nền tảng của chúng tôi để đi cùng bạn. Chúc bạn may mắn với việc học!
 

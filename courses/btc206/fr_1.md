@@ -81,10 +81,138 @@ L'intégration prochaine de Doginals dans [mydoge wallet](https://www.mydoge.com
 
 Bien que les protocoles d'inscription comme Atomicals offrent une approche assez différente de celle d'Ordinals, comprendre Ordinals est bénéfique pour saisir les évolutions futures de ces technologies.
 
+# II/ Le cœur d'Ordinals
+
+**Focus sur les détails de l'enveloppe et des tags du protocole.**
+
+Dans une transaction Bitcoin, il est possible d'insérer un message qui doit suivre une structure spécifique et utiliser certaines "fonctions" propres au protocole Bitcoin. Ces "fonctions" sont désignées sous le terme <u>opérations</u> et nommées `OP_CODE` (par exemple, `OP_ADD` pour l'opération d'addition). Ces opérations sont transmises au *réseau Bitcoin*[^7] via des transactions.
+
+Les `OP_CODEs` permettent d'exécuter des opérations algorithmiques sur le réseau Bitcoin, ce qu'on appelle un `script` (toute transaction Bitcoin nécessite l'utilisation de script). Pour plus de détails, voir : [Opcodes used in Bitcoin Script - Bitcoin Wiki](https://wiki.bitcoinsv.io/index.php/Opcodes_used_in_Bitcoin_Script).
+
+Ordinals peut être considéré comme une proposition de standardisation des scripts Bitcoin pour faciliter l'écriture de grandes quantités de données sur Bitcoin et en suivre la possession. Cela illustre le lien étroit entre le script Bitcoin et les protocoles d'inscription sur Bitcoin. 
+Les protocoles d'inscription utilisent généralement la structure de script suivante : 
+```
+OP_FALSE
+OP_IF
+    OP_PUSHDATA <ID_DU_PROTOCOLE>
+    OP_PUSHDATA <REGLE_APPLIQUEE>
+    ...
+    OP_PUSHDATA <DONNEES>
+OP_ENDIF
+```
+Bien que la forme exacte puisse varier d'un protocole à l'autre, tous les protocoles d'inscription actuels reposent sur une structure similaire. Nous appelons ce script une **enveloppe**, qui sert à encapsuler les données sur Bitcoin.
+
+Dans ce cours, nous nous concentrerons principalement sur l'enveloppe Ordinals, mais vous pourrez facilement trouver les détails de l'enveloppe d'Atomicals dans la documentation fournie par la communauté Atomicals.
+
+## 1. L'enveloppe
+
+Basiquement, on pousse les informations suivantes via l'enveloppe : 
+```
+"ord"
+
+"Type" (MIME format) 
+
+"Données"
+```
+
+Autrement dit, on envoie le script suivant sur Bitcoin : 
+```
+OP_FALSE
+OP_IF
+    OP_PUSHDATA "ord"
+    OP_PUSH 1
+    OP_PUSHDATA <TYPE MIME>
+    OP_PUSH 0
+    OP_PUSHDATA <DONNEES>
+OP_ENDIF
+```
+
+Les opérations `OP_PUSH 1` et `OP_PUSH 0` sont utilisées pour séparer les champs de l'enveloppe. Ces séparateurs sont appelés **tags**, et nous détaillerons leur utilité plus loin.
+
+### Qu'est-ce que le format MIME ?
+
+Le format MIME est un standard internet initialement conçu pour spécifier le type de fichier envoyé dans un courrier électronique. Il permet d'indiquer le type de contenu d'un fichier (source : [MIME](https://developer.mozilla.org/fr/docs/Web/HTTP/Basics_of_HTTP/MIME_types/Common_types)). Chaque extension de fichier (`.jpg`, `.pdf`, `.mp3`, ...) a un type MIME associé, comme défini dans la [RFC 2046](https://datatracker.ietf.org/doc/html/rfc2046).
+
+Dans le contexte d'Ordinals, le type MIME est sélectionné en fonction du fichier que l'on souhaite inscrire, afin de :
+
+- Faciliter la récupération des données inscrites selon leur type.
+- Assurer une présentation adéquate des données dans les explorers, permettant ainsi une visualisation correcte du contenu inscrit.
+
+Avec la possibilité d'inscrire n'importe quel format MIME, on peut stocker sur Bitcoin des formats variés comme du HTML, du CSS, du JavaScript, ainsi que des fichiers audio ou vidéo.
+
+Pour des exemples concrets, voir l'article [{In-On}-Chain](https://6120.eu/posts/in-on-chain/). Un exemple notable est l'inscription 466 : [Yet Another Doom Clone](https://ordinals.com/content/521f8eccffa4c41a3a7728dd012ea5a4a02feed81f41159231251ecf1e5c79dai0), qui est un jeu codé entièrement en HTML, assurant que DOOM reste toujours accessible via Bitcoin. Le code source est disponible sur [Inscription #466 | Ordiscan](https://ordiscan.com/inscription/466), en cliquant sur **view source code** en haut de la fenêtre d'affichage.
+
+Pour voir le nombre d'inscriptions par type MIME, consultez [ordinals.com/status](https://ordinals.com/status).
+
+### Activité
+
+Trouvez des inscriptions de type MIME `text/html;charset=utf-8`, `image/jpeg`, `image/webp`, `video/mp4`, `image/gif` et `text/javascript` en utilisant un explorer Ordinals qui permet de filtrer par types MIME.
+<!-- Explorer possible : ord.io -->
+
+### Activité avancée
+
+Créez le script de création d'une transaction utilisant `createrawtransaction` avec une bibliothèque ou un langage de votre choix. (Intéressant à faire en bitcoin-cli, mais évitez de copier-coller du Rust depuis [./src/subcommand/wallet/inscribe.rs](https://github.com/ordinals/ord))
+
+### Détails sur les inscriptions brc-20
+
+En mars 2023, [domodata](https://domo-2.gitbook.io/brc-20-experiment) a proposé un standard nommé **brc-20**, permettant de créer et d'échanger des tokens sur Bitcoin via l'enveloppe Ordinals. Ce nom fait référence au standard ERC-20 d'Ethereum et vise à offrir une solution simple et fonctionnelle pour les tokens sur Bitcoin. Bien qu'il ne soit pas parfait ni optimisé, il fonctionne et constitue une première expérimentation dans ce domaine.
+
+#### Fonctionnement du standard brc-20
+
+Pour créer un token brc-20, il suffit de créer une inscription avec le type MIME `application/json` ou ``text/plain;charset=utf-8` et de respecter la structure JSON suivante : 
+```json
+{
+    "p": "brc-20",
+    "op": "deploy",
+    "tick": "TICK",
+    "supply": "xx",
+    "lim": 1000000
+}
+```
+
+Les éléments constitutifs de cette structure sont :
+- `p` : le protocole, ici brc-20.
+- `op` : l'opération à réaliser, ici *deploy* pour le déploiement d'un token.
+- `tick` : le ticker du token, qui doit comporter 4 caractères pour être indexé correctement.
+- `supply` : la quantité totale de tokens possibles.
+- `lim` : le nombre maximum de tokens pouvant être émis par opération de *mint*.
+
+Ce protocole comprend trois opérations principales : *deploy*, *mint* (pour créer des tokens), et *transfer* (pour échanger des tokens). Chaque opération requiert des paramètres spécifiques et doit respecter la structure attendue pour être indexée correctement.
+
+#### Indexation et gestion des tokens
+
+Un indexer spécifique est nécessaire. Cet indexer fait plus que simplement indexer les tokens : il tient également à jour les balances pour chaque portefeuille ayant participé à des opérations de *mint* ou de *transfer*. Le protocole est considéré comme *stateful* car il prend en compte l'état du système[^15].
+
+Pour *mint* des tokens, on utilise une structure JSON simplifiée : 
+```json
+{
+    "p": "brc-20",
+    "op": "mint",
+    "tick": "TICK",
+    "amt": "xx"
+}
+```
+
+Si le montant spécifié dépasse la limite établie dans l'opération de *deploy*, l'opération est refusée et les tokens ne sont pas émis. Si le montant est inférieur ou égal à la limite, les tokens sont ajoutés au solde de l'adresse initiatrice.
+
+Pour transférer des tokens, une autre structure JSON est nécessaire, et ce fichier doit ensuite être transféré à l'adresse de destination : 
+```json
+{
+    "p": "brc-20",
+    "op": "transfer",
+    "tick": "TICK",
+    "amt": "xx"
+}
+```
+
+Ces opérations démontrent comment des fichiers JSON simples peuvent être utilisés pour créer des tokens via l'enveloppe Ordinals avec un indexer brc-20.
+
+#### Autres expérimentations
+
+Plusieurs autres expérimentations sont en cours, notamment avec l'[écosystème Trac](https://trac.network/), qui propose plusieurs protocoles pour la création de tokens, des swaps, du staking, et des tokens d'authentification. Pour plus d'informations en français sur ces développements, vous pouvez écouter l'[OP_SPACE 006: Tap Protocol -> TOUT !](https://x.com/i/spaces/1lPJqbbnzwmxb). Une autre initiative, [`cbrc-20`](https://www.ord.io/preview/130c79034450163f36fcde8e27f96904dc42e535f28aacd5af3b9a18d0b1c7f9i0?type=text/html&raw=true), propose un standard de token plus avancé et plus natif à Ordinals dans sa définition, démontrant l'évolution continue de ces technologies.
 
 
-
-[^1]: ([Casey (@rodarmor) | Twitter](https://twitter.com/rodarmor/), [R O D A R M O R](https://rodarmor.com/), [casey (Casey Rodarmor) | Github](https://github.com/casey/))
+[^1]: Casey a quitté l'école à 15 ans pour aller travailler dans des petits boulots. A 21 ans il découvre la programmation et veut en faire son métier. Il rattrape ses dernières années dans un [collège communautaire](https://fr.wikipedia.org/wiki/Coll%C3%A8ge_communautaire) avant d'intégrer Berkeley en Sciences de l'Informatique (Computer sciences). Il poursuit chez Google comme Ingénieur Fiabilité sur site ([Site Reliability Engineering](https://fr.wikipedia.org/wiki/Site_Reliability_Engineering)) puis rejoint l'équipe de [Chaincode Labs](https://chaincode.com/) en 2015. Chez Chaincode Labs il a maintenu Bitcoin core en réalisant des petites missions: nettoyage de certains PRs (Pull Requests), remaniement d'une partie des tests, et d'autres taches de maintenance. Pour plus de détails sur la vie de Casey (et son avis) vous pouvez consulter: [Casey Rodarmor's Resume](https://rodarmor.com/resume/index.html). [Casey Rodarmor - From Ordinals to Runes: Meet Bitcoin’s Most Controversial Dev](https://www.youtube.com/watch?v=sqfCarDdXPM) Vous pouvez écouter son podcast en anglais: [Hell Money](https://hell.money/) co-host par [Realizing Erin](https://www.youtube.com/realizingerin). ([Casey (@rodarmor) | Twitter](https://twitter.com/rodarmor/), [R O D A R M O R](https://rodarmor.com/), [casey (Casey Rodarmor) | Github](https://github.com/casey/))
 
 [^2]: Bitcoin maximaliste se dit des personnes mettant en avant le fait que Seul Bitcoin a une véritable valeur monétaire. Les autres cryptos sont en général désignées par *Shitcoin* de la part des maximalistes. Il existe plusieurs courant du maximalisme allant du minimalisme au toxic maximalisme. Les détails dépassent largement le cadre de cet introduction à Ordinals.  
 

@@ -5,5 +5,5 @@ wrong_answers:
   - La limite de taille des blocs
   - Le caractère standard des transactions
 explanation: |
- Ces derniers étaient des instructions muettes qui n'invalidaient pas le script si exécutées. Elles ont permis l'ajout de OP_CHECKLOCKTIMEVERIFY et OP_CHECKSEQUENCEVERIFY au protocole en 2015 / 2016.
+  Ces derniers étaient des instructions muettes qui n'invalidaient pas le script si exécutées. Elles ont permis l'ajout de OP_CHECKLOCKTIMEVERIFY et OP_CHECKSEQUENCEVERIFY au protocole en 2015 / 2016.
 reviewed: false

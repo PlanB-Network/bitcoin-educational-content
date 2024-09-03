@@ -5,5 +5,5 @@ wrong_answers:
   - Nils Schneider (tcatm)
   - Pieter Wuille (sipa)
 explanation: |
- Ce « Bitcoin Block Explorer » permettait de consulter des informations détaillées sur les blocs, les adresses et les transactions grâce à un navigateur web.
+  Ce « Bitcoin Block Explorer » permettait de consulter des informations détaillées sur les blocs, les adresses et les transactions grâce à un navigateur web.
 reviewed: false

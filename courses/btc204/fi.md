@@ -2381,6 +2381,8 @@ Ricochet tarkoittaa yksinkertaisesti bitcoinien lähettämistä itselleen. On t�
 
 Seuraavassa luvussa tutkimme erilaisia tekniikoita salaisiin omaisuuden siirtoihin. Nämä menetelmät eroavat radikaalisti tähän asti tarkastelluista sekä toiminnan että tulosten osalta.
 
+https://planb.network/tutorials/privacy/ricochet
+ 
 ## Salaiset Omaisuuden Siirrot
 
 <chapterId>a2067036-849c-4d6b-87d2-44235cfae7a1</chapterId>

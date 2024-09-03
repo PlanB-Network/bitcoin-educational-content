@@ -2267,6 +2267,8 @@ Il ricochet consiste semplicemente nell'inviare bitcoin a se stessi. È del tutt
 
 Nel capitolo seguente, esploriamo diverse tecniche per i trasferimenti segreti di proprietà. Questi metodi differiscono radicalmente da quelli che abbiamo esaminato finora, sia in termini di funzionamento che di risultati.
 
+https://planb.network/tutorials/privacy/ricochet
+ 
 ## Trasferimenti Segreti di Proprietà
 <chapterId>a2067036-849c-4d6b-87d2-44235cfae7a1</chapterId>
 

@@ -2250,6 +2250,8 @@ Samouraiアプリケーションはリコシェットの2つのバリアント�
 
 次の章では、秘密の財産転送のための異なる技術を探ります。これらの方法は、これまでに検討したものとは、操作と結果の両方の点で根本的に異なります。
 
+https://planb.network/tutorials/privacy/ricochet
+ 
 ## 秘密の財産転送
 <chapterId>a2067036-849c-4d6b-87d2-44235cfae7a1</chapterId>
 

@@ -2347,6 +2347,8 @@ Ricochet jednoduše zahrnuje poslání bitcoinů sami sobě. Je zcela možné pr
 
 V následující kapitole prozkoumáme různé techniky pro tajné převody majetku. Tyto metody se radikálně liší od těch, které jsme dosud zkoumali, jak z hlediska provozu, tak výsledků.
 
+https://planb.network/tutorials/privacy/ricochet
+ 
 ## Tajné převody majetku
 <chapterId>a2067036-849c-4d6b-87d2-44235cfae7a1</chapterId>
 

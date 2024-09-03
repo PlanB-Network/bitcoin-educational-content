@@ -12,28 +12,36 @@
 
 # Discipline List
 
-- ACCO = Accounting
-- BIZ = Business
-- BTC = Bitcoin 
-- CSV = Client Side Validation
-- CYP = Cryptography
-- DATA = Data Analysis
-- DIY = Do It Yourself
-- DSN = Design
-- ECO = Economy
-- ENTRE = Entrepreneurship
-- FIN = Finance
-- HIST = History
-- LNP = Lightning 
-- MIN = Minning
-- NET= Network
-- NRG = Energy
-- OPSC = Open Source
-- PHI = Philosofy 
-- POS = Point of Sales
-- PRTCL = Protocol
-- SCRIPT = Script
-- SCU = Security
-- SIDECHAIN = Sidechain
-- SOCIO = Sociology
-- SOV = Sovereignity
+- Bitcoin
+	- Bitcoin - BTC
+- Business
+	- Business - BIZ
+	- Accounting - ACC
+	- Data Analysis - DAT
+	- Entrepreneurship - ENT
+	- Finance - FIN 
+	- Point of Sales - POS
+- Mining
+	- Mining  - MIN 
+	- Energy - ENR
+- Protocol 
+	- Protocol - PRO
+	- Client Side Validation - CSV
+	- Script - SCR
+	- SideChain - SID 
+	- Lightning Network Protocol - LNP
+	- Network - NET
+- Security
+	- Security - SCU
+	- Cryptography - CYP
+	- Cybersecurity - CYB
+- Sociology
+	- Sociology - SOC
+	- Economy - ECO
+	- History - HIS
+	- Philosophy - PHI
+- Sovereignty
+	- Sovereignty - SOV
+	- Do It Yourself - DIY 
+	- Open-Source - OPE
+	- Learning Machine - LEA

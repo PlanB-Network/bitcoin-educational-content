@@ -1453,7 +1453,7 @@ At the end of the transaction, it becomes impossible to associate a specific out
 
 ![BTC204](assets/notext/51/04.webp)
 Let's take the example of Alice. She wants to send about 100,000 sats to her sister Eve for her birthday. However, Alice does not want Eve to be able to trace the history of her transactions because she does not want to reveal how many bitcoins she holds or how she obtained them. To do this, Alice decides to break the history of her UTXO with a coinjoin transaction. She organizes with Bob, Charles, David, and Frank to carry out a collaborative transaction:
-- Alice, Bob, Charles, David, and Frank each commit a UTXO of 100,500 sats (with 500 sats for mining fees) as inputs for the transaction:
+- Alice, Bob, Charles, David, and Frank each commit a UTXO of 105,000 sats (with 5,000 sats for mining fees) as inputs for the transaction:
 
 ![BTC204](assets/notext/51/05.webp)
 

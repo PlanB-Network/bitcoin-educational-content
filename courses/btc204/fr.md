@@ -1569,7 +1569,7 @@ Le principe du coinjoin repose sur une approche collaborative : plusieurs utilis
 
 Prenons l'exemple d'Alice. Elle veut envoyer environ 100 000 sats à sa sœur Eve pour son anniversaire. Toutefois, Alice ne souhaite pas qu'Eve puisse tracer l'historique de ses transactions, car elle ne veut pas révéler combien de bitcoins elle détient ni comment elle les a obtenus. Pour cela, Alice décide de casser l'historique de son UTXO avec une transaction coinjoin. Elle s'organise avec Bob, Charles, David et Frank pour réaliser une transaction collaborative :
 
-- Alice, Bob, Charles, David et Frank engagent chacun un UTXO de 100 500 sats (avec 500 sats pour les frais de minage) comme inputs de la transaction :
+- Alice, Bob, Charles, David et Frank engagent chacun un UTXO de 105 000 sats (avec 5 000 sats pour les frais de minage) comme inputs de la transaction :
 
 ![BTC204](assets/notext/51/05.webp)
 

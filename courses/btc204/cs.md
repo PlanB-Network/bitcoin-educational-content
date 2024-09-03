@@ -1412,7 +1412,7 @@ Princip coinjoinu spočívá v kolaborativním přístupu: několik uživatelů,
 Na konci transakce se stává nemožným spojit konkrétní výstup s známým uživatelem na vstupu. Mezi vstupy a výstupy neexistuje přímá spojitost, což narušuje asociaci mezi uživateli a jejich UTXO, stejně jako historii každé mince.
 
 ![BTC204](assets/notext/51/04.webp)
-Pojďme si vzít příklad Alice. Chce poslat své sestře Eve k narozeninám přibližně 100 000 satoshi (sats). Alice však nechce, aby Eve mohla sledovat historii jejích transakcí, protože nechce odhalit, kolik bitcoinů vlastní nebo jak je získala. Aby toho dosáhla, rozhodne se Alice přerušit historii svého UTXO pomocí transakce coinjoin. Organizuje spolupráci s Bobem, Charlesem, Davidem a Frankem, aby provedli společnou transakci: - Alice, Bob, Charles, David a Frank každý vloží UTXO o velikosti 100 500 sats (s 500 sats na těžební poplatky) jako vstupy pro transakci:
+Pojďme si vzít příklad Alice. Chce poslat své sestře Eve k narozeninám přibližně 100 000 satoshi (sats). Alice však nechce, aby Eve mohla sledovat historii jejích transakcí, protože nechce odhalit, kolik bitcoinů vlastní nebo jak je získala. Aby toho dosáhla, rozhodne se Alice přerušit historii svého UTXO pomocí transakce coinjoin. Organizuje spolupráci s Bobem, Charlesem, Davidem a Frankem, aby provedli společnou transakci: - Alice, Bob, Charles, David a Frank každý vloží UTXO o velikosti 105 000 sats (s 5 000 sats na těžební poplatky) jako vstupy pro transakci:
 
 ![BTC204](assets/notext/51/05.webp)
 

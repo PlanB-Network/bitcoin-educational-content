@@ -1390,7 +1390,7 @@ O princípio do coinjoin se baseia em uma abordagem colaborativa: vários usuár
 Ao final da transação, torna-se impossível associar uma saída específica a um usuário conhecido na entrada. Não existe um vínculo direto entre as entradas e saídas, o que quebra a associação entre os usuários e seus UTXOs, bem como o histórico de cada moeda.
 
 ![BTC204](assets/notext/51/04.webp)
-Vamos tomar o exemplo de Alice. Ela quer enviar cerca de 100.000 sats para sua irmã Eve pelo aniversário dela. No entanto, Alice não quer que Eve consiga rastrear o histórico de suas transações porque ela não quer revelar quantos bitcoins ela possui ou como os obteve. Para fazer isso, Alice decide quebrar o histórico do seu UTXO com uma transação coinjoin. Ela organiza com Bob, Charles, David e Frank para realizar uma transação colaborativa: - Alice, Bob, Charles, David e Frank cada um compromete um UTXO de 100.500 sats (com 500 sats para taxas de mineração) como entradas para a transação:
+Vamos tomar o exemplo de Alice. Ela quer enviar cerca de 100.000 sats para sua irmã Eve pelo aniversário dela. No entanto, Alice não quer que Eve consiga rastrear o histórico de suas transações porque ela não quer revelar quantos bitcoins ela possui ou como os obteve. Para fazer isso, Alice decide quebrar o histórico do seu UTXO com uma transação coinjoin. Ela organiza com Bob, Charles, David e Frank para realizar uma transação colaborativa: - Alice, Bob, Charles, David e Frank cada um compromete um UTXO de 105.000 sats (com 5.000 sats para taxas de mineração) como entradas para a transação:
 
 ![BTC204](assets/notext/51/05.webp)
 

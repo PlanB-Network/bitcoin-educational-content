@@ -1433,7 +1433,7 @@ Am Ende der Transaktion wird es unmöglich, einen spezifischen Ausgang mit einem
 ![BTC204](assets/notext/51/04.webp)
 Lassen Sie uns das Beispiel von Alice nehmen. Sie möchte etwa 100.000 Sats an ihre Schwester Eve zu ihrem Geburtstag senden. Allerdings möchte Alice nicht, dass Eve die Historie ihrer Transaktionen nachverfolgen kann, da sie nicht offenlegen möchte, wie viele Bitcoins sie besitzt oder wie sie diese erhalten hat. Um dies zu tun, entscheidet sich Alice, die Historie ihres UTXO mit einer Coinjoin-Transaktion zu unterbrechen. Sie organisiert mit Bob, Charles, David und Frank eine kollaborative Transaktion:
 
-- Alice, Bob, Charles, David und Frank verpflichten sich jeweils einen UTXO von 100.500 Sats (mit 500 Sats für Mining-Gebühren) als Eingaben für die Transaktion:
+- Alice, Bob, Charles, David und Frank verpflichten sich jeweils einen UTXO von 105.000 Sats (mit 5.000 Sats für Mining-Gebühren) als Eingaben für die Transaktion:
 
 ![BTC204](assets/notext/51/05.webp)
 

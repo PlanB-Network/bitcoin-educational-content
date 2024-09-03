@@ -1375,7 +1375,7 @@ Nguyên tắc của coinjoin dựa trên một cách tiếp cận hợp tác: nh
 Cuối cùng của giao dịch, việc liên kết một đầu ra cụ thể với một người dùng đã biết ở đầu vào trở nên không thể. Không có liên kết trực tiếp nào tồn tại giữa các đầu vào và đầu ra, điều này phá vỡ mối liên kết giữa người dùng và UTXO của họ, cũng như lịch sử của mỗi đồng tiền.
 
 ![BTC204](assets/notext/51/04.webp)
-Hãy lấy ví dụ về Alice. Cô ấy muốn gửi khoảng 100,000 sats cho chị gái mình, Eve, nhân dịp sinh nhật. Tuy nhiên, Alice không muốn Eve có thể truy vết lịch sử giao dịch của mình vì cô ấy không muốn tiết lộ số lượng bitcoin mình sở hữu hoặc cách cô ấy có được chúng. Để làm điều này, Alice quyết định phá vỡ lịch sử của UTXO của mình bằng một giao dịch coinjoin. Cô ấy tổ chức cùng với Bob, Charles, David và Frank để thực hiện một giao dịch hợp tác: Alice, Bob, Charles, David và Frank mỗi người cam kết một UTXO của 100,500 sats (với 500 sats cho phí khai thác) làm đầu vào cho giao dịch:
+Hãy lấy ví dụ về Alice. Cô ấy muốn gửi khoảng 100,000 sats cho chị gái mình, Eve, nhân dịp sinh nhật. Tuy nhiên, Alice không muốn Eve có thể truy vết lịch sử giao dịch của mình vì cô ấy không muốn tiết lộ số lượng bitcoin mình sở hữu hoặc cách cô ấy có được chúng. Để làm điều này, Alice quyết định phá vỡ lịch sử của UTXO của mình bằng một giao dịch coinjoin. Cô ấy tổ chức cùng với Bob, Charles, David và Frank để thực hiện một giao dịch hợp tác: Alice, Bob, Charles, David và Frank mỗi người cam kết một UTXO của 105,000 sats (với 5,000 sats cho phí khai thác) làm đầu vào cho giao dịch:
 
 ![BTC204](assets/notext/51/05.webp)
 

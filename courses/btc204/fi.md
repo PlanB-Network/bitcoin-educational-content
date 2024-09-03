@@ -1432,7 +1432,7 @@ Coinjoinin periaate perustuu yhteistyöhön: useat käyttäjät, jotka haluavat 
 Tapahtuman lopussa on mahdotonta yhdistää tiettyä ulostuloa tunnettuun käyttäjään sisääntulossa. Sisääntulojen ja ulostulojen välillä ei ole suoraa yhteyttä, mikä katkaisee yhteyden käyttäjien ja heidän UTXOjensa välillä sekä kunkin kolikon historian.
 
 ![BTC204](assets/notext/51/04.webp)
-Käytetään esimerkkinä Alicea. Hän haluaa lähettää noin 100 000 satoshia sisarelleen Evelle syntymäpäivälahjaksi. Alice ei kuitenkaan halua Even pystyvän jäljittämään hänen transaktioidensa historiaa, koska hän ei halua paljastaa, kuinka monta bitcoinia hän omistaa tai miten hän on ne saanut. Tätä varten Alice päättää katkaista UTXO:nsa historian coinjoin-transaktiolla. Hän järjestää Bobin, Charlesin, Davidin ja Frankin kanssa yhteistyössä toteutettavan transaktion: Alice, Bob, Charles, David ja Frank sitoutuvat kukin antamaan 100 500 satoshia (josta 500 satoshia on kaivosmaksuja) syötteinä transaktiolle:
+Käytetään esimerkkinä Alicea. Hän haluaa lähettää noin 100 000 satoshia sisarelleen Evelle syntymäpäivälahjaksi. Alice ei kuitenkaan halua Even pystyvän jäljittämään hänen transaktioidensa historiaa, koska hän ei halua paljastaa, kuinka monta bitcoinia hän omistaa tai miten hän on ne saanut. Tätä varten Alice päättää katkaista UTXO:nsa historian coinjoin-transaktiolla. Hän järjestää Bobin, Charlesin, Davidin ja Frankin kanssa yhteistyössä toteutettavan transaktion: Alice, Bob, Charles, David ja Frank sitoutuvat kukin antamaan 105 000 satoshia (josta 5 000 satoshia on kaivosmaksuja) syötteinä transaktiolle:
 
 ![BTC204](assets/notext/51/05.webp)
 

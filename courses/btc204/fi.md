@@ -7,7 +7,6 @@ objectives:
   - Käyttää menetelmiä ja työkaluja yksityisyytesi suojaamiseen Bitcoinissa
   - Ymmärtää ketjuanalyysimenetelmiä ja kehittää puolustusstrategioita
 ---
-
 # Suojaa yksityisyytesi Bitcoinissa
 
 Maailmassa, jossa rahoitustransaktioiden yksityisyys on vähitellen muuttumassa ylellisyydeksi, on olennaista ymmärtää ja hallita yksityisyyden suojan periaatteita Bitcoinin käytössäsi. Tämä koulutus antaa sinulle kaikki avaimet, sekä teoreettiset että käytännölliset, saavuttaaksesi tämän itsenäisesti.
@@ -1104,7 +1103,10 @@ Kaikki nämä automaattisen UTXO-valinnan menetelmät voivat olla tehokkaita tra
 
 ### Opas UTXO-merkintään
 
-Jos haluat oppia merkitsemään UTXO:si, olemme tehneet kattavan oppaan pääasiallisista olemassa olevista Bitcoin-lompakko-ohjelmistoista. Löydä se [klikkaamalla tästä](https://planb.network/tutorials/privacy/utxo-labelling).
+Jos haluat oppia, kuinka merkitä UTXO:si, olemme tehneet täydellisen oppaan tärkeimmistä olemassa olevista Bitcoin-lompakko-ohjelmistoista:
+
+https://planb.network/tutorials/privacy/utxo-labelling
+
 
 ## KYC ja avaintunnistus
 

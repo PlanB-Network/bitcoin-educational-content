@@ -7,7 +7,6 @@ objectives:
   - Používat metody a nástroje k ochraně vašeho soukromí na Bitcoinu
   - Porozumět metodám analýzy řetězce a vyvinout obranné strategie
 ---
-
 # Ochrana vašeho soukromí na Bitcoinu
 
 Ve světě, kde se soukromí finančních transakcí postupně stává luxusem, je zásadní porozumět a ovládnout principy ochrany soukromí při vašem používání Bitcoinu. Toto školení vám dává všechny klíče, jak teoretické, tak praktické, k dosažení tohoto cíle samostatně.
@@ -1077,8 +1076,10 @@ _Branch-and-Bound_ (BNB), často přezdívaný "Murchův algoritmus" s odkazem n
 Všechny tyto metody automatického výběru UTXO mohou být účinné při snižování transakčních poplatků, ale často jsou neefektivní při zachování soukromí uživatele. Tyto algoritmy skutečně mohou sloučit několik UTXO do vstupů, čímž odhalují společné vlastnictví těchto UTXO kvůli COH. Zřejmě tyto metody nemohou zohlednit štítky připojené k UTXO, které jsou klíčové pro vědomé rozhodování o tom, které mince odhalit příjemci transakce. V současné době je jediným řešením pro optimalizaci soukromí při výběru mincí provádět to ručně.
 
 ### Tutoriál k označování UTXO
+  
+Pokud se chcete dozvědět, jak označit své UTXO, připravili jsme kompletní návod pro hlavní dostupné Bitcoin peněženky:
 
-Pokud se chcete naučit, jak označovat vaše UTXO, připravili jsme kompletní tutoriál o hlavním existujícím softwaru Bitcoin peněženky. Najdete ho [kliknutím zde](https://planb.network/tutorials/privacy/utxo-labelling).
+https://planb.network/tutorials/privacy/utxo-labelling  
 
 ## KYC a identifikace klíčů
 

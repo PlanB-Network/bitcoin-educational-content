@@ -7,7 +7,6 @@ objectives:
   - Methoden und Werkzeuge zum Schutz Ihrer Privatsphäre bei Bitcoin anwenden
   - Kettenanalysemethoden verstehen und Verteidigungsstrategien entwickeln
 ---
-
 # Schützen Sie Ihre Privatsphäre bei Bitcoin
 
 In einer Welt, in der die Privatsphäre finanzieller Transaktionen allmählich zum Luxus wird, ist es wesentlich, die Prinzipien des Datenschutzes bei der Nutzung von Bitcoin zu verstehen und zu beherrschen. Diese Schulung gibt Ihnen alle theoretischen und praktischen Schlüssel, um dies autonom zu erreichen.
@@ -1103,7 +1102,10 @@ All diese Methoden der automatischen UTXO-Auswahl können effektiv sein, um Tran
 
 ### Tutorial zur UTXO-Beschriftung
 
-Wenn Sie lernen möchten, wie Sie Ihre UTXOs beschriften, haben wir ein komplettes Tutorial zur vorhandenen Bitcoin-Wallet-Software erstellt. Finden Sie es [hier durch Klicken](https://planb.network/tutorials/privacy/utxo-labelling).
+Wenn Sie erfahren möchten, wie Sie Ihre UTXOs etikettieren können, haben wir ein vollständiges Tutorial zu den wichtigsten Bitcoin-Wallet-Softwarelösungen erstellt:
+
+https://planb.network/tutorials/privacy/utxo-labelling
+
 
 ## KYC und Schlüsselidentifikation
 

@@ -1,17 +1,26 @@
 name: The School of Bitcoin
 category: communities
 address_line_1: Melbourne, Australia
-address_line_2: 
-address_line_3: 
-language: 
+address_line_2:
+address_line_3:
+language:
   - en
 links:
   website: https://theschoolofbitcoin.com/
   github: https://v4v.theschoolofbitcoin.com/
   nostr: https://nosta.me/npub19p345mfx9cdks8a7p5vzyt9vkhavueh7g57murk24mwa0mn08fes8wdkan
-  
 
 tags:
-  - finance  
+  - finance
   - education
   - technology
+
+# Proofreading metadata
+original_language: en
+proofreading:
+  - language: en
+    last_contribution_date: 2024-08-31
+    urgency: 1
+    contributors_id:
+      - Asi0Flammeus
+    reward: 2545

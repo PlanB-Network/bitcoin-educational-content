@@ -4,19 +4,11 @@ level: wizard
 hours: 20
 
 professors:
-- diamond-jar
-- another-satoshi
-- mad-salad
-- radio-talent
-- because-drama
-- happy-panda
-- best-lion
-- kangaroo-junk
-- old-uncle
+  - old-uncle
 
 contributors:
-- another-satoshi
-- rabbit-hole
+  - another-satoshi
+  - rabbit-hole
 
 # Proofreading metadata
 original_language: en
@@ -25,54 +17,70 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 17076
+    reward: 167868
   - language: de
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 9788
+    reward: 85184
   - language: en
-    last_contribution_date:
+    last_contribution_date: 2024-08-30
     urgency: 1
     contributors_id:
-    reward: 4894
+      - jramos0
+    reward: 85184
   - language: es
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 13432
+    reward: 126526
   - language: fi
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 17076
+    reward: 167868
   - language: fr
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 9788
+    reward: 85184
   - language: it
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 13432
+    reward: 126526
   - language: ja
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 24364
+    reward: 250552
   - language: pt
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 9788
+    reward: 85184
   - language: ru
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 17076
+    reward: 167868
   - language: vi
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 24364
+    reward: 250552
+  - language: et
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 167868
+  - language: id
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 209210
+  - language: zh-Hans
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 209210

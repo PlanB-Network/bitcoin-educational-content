@@ -1,12 +1,13 @@
+id: 848b6a23-deb2-4c5f-a27e-93e2f842140f
 builder: payjoin
 
-category: bitcoin
+category: on-chain
 
 tags:
-- privacy
-- education
-- payjoin
-- P2EP
+  - privacy
+  - education
+  - payjoin
+  - P2EP
 
 level: advanced
 
@@ -41,10 +42,11 @@ proofreading:
     contributors_id:
     reward: 8800
   - language: fr
-    last_contribution_date:
+    last_contribution_date: 2024-09-01
     urgency: 1
     contributors_id:
-    reward: 2825
+      - Asi0Flammeus
+    reward: 5650
   - language: it
     last_contribution_date:
     urgency: 1
@@ -70,3 +72,18 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 11950
+  - language: et
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 8800
+  - language: id
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 10375
+  - language: zh-Hans
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 10375

@@ -1,9 +1,9 @@
 author: Neal Stephenson
 level: intermediate
 tags:
-- technology
-- fiction
-- cryptography
+  - technology
+  - fiction
+  - cryptography
 
 # Proofreading metadata
 original_language: en
@@ -19,10 +19,11 @@ proofreading:
     contributors_id:
     reward: 2966
   - language: en
-    last_contribution_date:
+    last_contribution_date: 2024-09-01
     urgency: 1
     contributors_id:
-    reward: 1483
+      - Asi0Flammeus
+    reward: 2966
   - language: es
     last_contribution_date:
     urgency: 1
@@ -63,3 +64,18 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 3898
+  - language: id
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 3665
+  - language: zh-Hans
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 3665
+  - language: et
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 3432

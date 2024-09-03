@@ -1,3 +1,4 @@
+id: 968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 builder: Mullvad
 
 tags:
@@ -11,3 +12,14 @@ level: beginner
 
 credits:
   professor: pretty-private
+
+
+# Proofreading metadata
+original_language: fr
+proofreading:
+  - language: fr
+    last_contribution_date: 2024-08-31
+    urgency: 1
+    contributors_id:
+      - LoicPandul
+    reward: 3497

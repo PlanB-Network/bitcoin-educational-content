@@ -3,9 +3,9 @@ difficulty: intermediate
 duration: 30
 author: DecouvreBitcoin
 tags:
-- Bitcoin
-- Lightning Network
-- HTLC
+  - Bitcoin
+  - Lightning Network
+  - HTLC
 
 # Proofreading metadata
 original_language: en
@@ -21,10 +21,11 @@ proofreading:
     contributors_id:
     reward: 2567
   - language: en
-    last_contribution_date:
+    last_contribution_date: 2024-09-01
     urgency: 1
     contributors_id:
-    reward: 1283
+      - Asi0Flammeus
+    reward: 2567
   - language: es
     last_contribution_date:
     urgency: 1

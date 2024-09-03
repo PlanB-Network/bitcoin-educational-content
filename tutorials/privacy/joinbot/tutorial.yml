@@ -1,10 +1,11 @@
+id: 3f36a853-c761-44b9-9ca2-b5f8bfe72cb1
 builder: Joinbot
 
 tags:
-- privacy
-- education
+  - privacy
+  - education
 
-category: bitcoin
+category: on-chain
 
 level: advanced
 
@@ -41,10 +42,11 @@ proofreading:
     contributors_id:
     reward: 16096
   - language: fr
-    last_contribution_date:
+    last_contribution_date: 2024-09-01
     urgency: 1
     contributors_id:
-    reward: 4649
+      - Asi0Flammeus
+    reward: 9298
   - language: it
     last_contribution_date:
     urgency: 1
@@ -70,3 +72,18 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 22894
+  - language: et
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 16096
+  - language: id
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 19495
+  - language: zh-Hans
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 19495

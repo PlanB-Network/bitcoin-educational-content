@@ -1,9 +1,9 @@
 en_word: FORCED ADDRESS REUSE
 related_words:
-- DUST
-- DUST LIMIT
+  - DUST
+  - DUST LIMIT
 tags:
-- ''
+  - ''
 
 # Proofreading metadata
 original_language: fr
@@ -14,7 +14,8 @@ proofreading:
     contributors_id:
     reward: 2659
   - language: fr
-    last_contribution_date:
+    last_contribution_date: 2024-07-26
     urgency: 1
     contributors_id:
+      - LoicPandul
     reward: 1329

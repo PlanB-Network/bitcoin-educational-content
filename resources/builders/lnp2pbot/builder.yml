@@ -4,9 +4,9 @@ links:
   website: https://lnp2pbot.com/
   twitter: https://twitter.com/lnp2pBot
 tags:
-- Open-source
-- bitcoi only
-- exchange
+  - Open-source
+  - bitcoi only
+  - exchange
 
 category: exchange
 
@@ -24,10 +24,11 @@ proofreading:
     contributors_id:
     reward: 2510
   - language: en
-    last_contribution_date:
+    last_contribution_date: 2024-09-01
     urgency: 1
     contributors_id:
-    reward: 1255
+      - Asi0Flammeus
+    reward: 2510
   - language: es
     last_contribution_date:
     urgency: 1
@@ -68,3 +69,18 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 2530
+  - language: id
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2525
+  - language: zh-Hans
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2525
+  - language: et
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2520

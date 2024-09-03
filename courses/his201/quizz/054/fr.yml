@@ -1,0 +1,9 @@
+question: Quel développeur américain a repéré un « bloc étrange » lors du value overflow incident le 15 août 2010 ?
+answer: Jeff Garzik
+wrong_answers:
+  - Gavin Andresen
+  - Nils Schneider
+  - Christian Decker
+explanation: |
+  Ce bloc, exploitant une faille, créait plus de 184 milliards de bitcoins.
+reviewed: false

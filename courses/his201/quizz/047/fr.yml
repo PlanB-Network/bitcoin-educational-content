@@ -1,0 +1,9 @@
+question: Quel aspect de Bitcoin Satoshi a-t-il souhaité mettre en retrait dans sa communication en juillet 2010 ?
+answer: L'anonymat des transactions
+wrong_answers:
+  - La politique monétaire
+  - Le commerce électronique
+  - La programmabilité
+explanation: |
+  Au sujet de l'ébauche de présentation pour Slashdot, il a déclaré ne pas vouloir « mettre l'aspect "anonyme" au premier plan ». Il a expliqué ses raisons à Martti Malmi [en privé](https://mmalmi.github.io/satoshi/#email-197).
+reviewed: false

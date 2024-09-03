@@ -2406,6 +2406,11 @@ Como a configuração no Umbrel difere das duas opções hospedadas anteriorment
 
 <partId>d72e6fa5-0870-5f00-9143-9466ed22e2bd</partId>
 
+
+
+## Dê-nos seu feedback sobre este curso
+<chapterId>d90bb93d-b894-551e-9fd6-6855c739a904</chapterId>
+<isCourseReview>true</isCourseReview>
 ## Conclusão do Curso
 
 <chapterId>c07ac2a5-f97e-5c57-8a80-4955b48128d4</chapterId>

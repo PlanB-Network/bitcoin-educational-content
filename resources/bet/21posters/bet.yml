@@ -7,10 +7,10 @@ links:
     fr: https://penpot.planb.network/#/view/c157057b-fd28-8042-8004-5004d6068cdd?page-id=c2967cf3-0fc9-806b-8004-64732b2071d2&section=interactions&index=0&share-id=7154756b-3ebd-8040-8004-647396aa3682&zoom=fill
     es: https://penpot.planb.network/#/view/c157057b-fd28-8042-8004-5004d6068cdd?page-id=c2967cf3-0fc9-806b-8004-647329f4f5af&section=interactions&index=0&share-id=7154756b-3ebd-8040-8004-6474b451a565&zoom=fill
 tags:
-- bitcoin
-- technology
+  - bitcoin
+  - technology
 contributors:
-- rabbit-hole
+  - rabbit-hole
 
 # Proofreading metadata
 original_language: en
@@ -26,10 +26,11 @@ proofreading:
     contributors_id:
     reward: 2530
   - language: en
-    last_contribution_date:
+    last_contribution_date: 2024-09-01
     urgency: 1
     contributors_id:
-    reward: 1265
+      - Asi0Flammeus
+    reward: 2530
   - language: es
     last_contribution_date:
     urgency: 1
@@ -70,3 +71,18 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 2590
+  - language: id
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2575
+  - language: zh-Hans
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2575
+  - language: et
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2560

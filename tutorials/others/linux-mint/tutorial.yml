@@ -1,3 +1,4 @@
+id: da44852e-513f-4004-949a-8fde60c1bca5
 builder: Lunix Mint
 
 level: advanced
@@ -5,9 +6,9 @@ level: advanced
 category: general
 
 tags:
-- privacy
-- open-source
-- OS
+  - privacy
+  - open-source
+  - OS
 
 credits:
   professor: rebuild-kiss
@@ -42,10 +43,11 @@ proofreading:
     contributors_id:
     reward: 16108
   - language: fr
-    last_contribution_date:
+    last_contribution_date: 2024-09-01
     urgency: 1
     contributors_id:
-    reward: 4652
+      - Asi0Flammeus
+    reward: 9304
   - language: it
     last_contribution_date:
     urgency: 1
@@ -71,3 +73,18 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 22912
+  - language: et
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 16108
+  - language: id
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 19510
+  - language: zh-Hans
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 19510

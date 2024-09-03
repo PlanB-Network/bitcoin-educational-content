@@ -1,11 +1,12 @@
+id: e566803d-ab3f-4d98-9136-5462009262ef
 builder: Coinjoin - Samourai Wallet
 
 tags:
-- privacy
-- coinjoin
-- mix
+  - privacy
+  - coinjoin
+  - mix
 
-category: bitcoin
+category: on-chain
 
 level: intermediate
 
@@ -41,10 +42,11 @@ proofreading:
     contributors_id:
     reward: 29468
   - language: fr
-    last_contribution_date:
+    last_contribution_date: 2024-09-01
     urgency: 1
     contributors_id:
-    reward: 7992
+      - Asi0Flammeus
+    reward: 15984
   - language: it
     last_contribution_date:
     urgency: 1
@@ -70,3 +72,18 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 42952
+  - language: et
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 29468
+  - language: id
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 36210
+  - language: zh-Hans
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 36210

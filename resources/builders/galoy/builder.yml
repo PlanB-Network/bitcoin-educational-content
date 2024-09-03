@@ -4,9 +4,9 @@ links:
   twitter: https://twitter.com/GaloyMoney
   github: https://github.com/GaloyMoney
 tags:
-- bitcoin-only
-- open-source
-- lightning-infrastructure
+  - bitcoin-only
+  - open-source
+  - lightning-infrastructure
 
 category: infrastructure
 
@@ -24,10 +24,11 @@ proofreading:
     contributors_id:
     reward: 2676
   - language: en
-    last_contribution_date:
+    last_contribution_date: 2024-09-01
     urgency: 1
     contributors_id:
-    reward: 1338
+      - Asi0Flammeus
+    reward: 2676
   - language: es
     last_contribution_date:
     urgency: 1
@@ -68,3 +69,18 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 3028
+  - language: id
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2940
+  - language: zh-Hans
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2940
+  - language: et
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2852

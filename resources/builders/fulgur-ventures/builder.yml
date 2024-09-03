@@ -4,8 +4,8 @@ links:
   twitter: https://twitter.com/fulgurventures
 
 tags:
-- Bitcoin-investment
-- VC
+  - Bitcoin-investment
+  - VC
 
 category: investment
 
@@ -23,10 +23,11 @@ proofreading:
     contributors_id:
     reward: 2557
   - language: en
-    last_contribution_date:
+    last_contribution_date: 2024-09-01
     urgency: 1
     contributors_id:
-    reward: 1278
+      - Asi0Flammeus
+    reward: 2557
   - language: es
     last_contribution_date:
     urgency: 1
@@ -67,3 +68,18 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 2671
+  - language: id
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2642
+  - language: zh-Hans
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2642
+  - language: et
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2614

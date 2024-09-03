@@ -4,15 +4,15 @@ address_line_1: Taipei, Taiwan
 address_line_2:
 address_line_3:
 language:
-- zh-tw
-- en
+  - zh-tw
+  - en
 links:
   youtube: https://www.youtube.com/@PlanBSummerSchoolTaiwan
 
 tags:
-- bitcoin-only
-- eduaction
-- community
+  - bitcoin-only
+  - eduaction
+  - community
 
 # Proofreading metadata
 original_language: en
@@ -28,10 +28,11 @@ proofreading:
     contributors_id:
     reward: 2552
   - language: en
-    last_contribution_date:
+    last_contribution_date: 2024-09-01
     urgency: 1
     contributors_id:
-    reward: 1276
+      - Asi0Flammeus
+    reward: 2552
   - language: es
     last_contribution_date:
     urgency: 1
@@ -73,3 +74,18 @@ proofreading:
     contributors_id:
     reward: 2656
 
+  - language: id
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2630
+  - language: zh-Hans
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2630
+  - language: et
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2604

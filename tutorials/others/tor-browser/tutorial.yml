@@ -1,3 +1,4 @@
+id: a847e83c-31ef-4439-9eac-742b255129bb
 builder: Tor
 
 tags:
@@ -11,3 +12,14 @@ level: beginner
 
 credits:
   professor: pretty-private
+
+
+# Proofreading metadata
+original_language: fr
+proofreading:
+  - language: fr
+    last_contribution_date: 2024-08-31
+    urgency: 1
+    contributors_id:
+      - LoicPandul
+    reward: 3400

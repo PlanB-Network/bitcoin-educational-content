@@ -1,3 +1,4 @@
+id: 76d6bf36-f4b5-422e-8579-edf149021525
 builder: Breez
 
 level: intermediate
@@ -5,10 +6,10 @@ level: intermediate
 category: merchant
 
 tags:
-- wallet
-- lightning
-- infrasctructure
-- POS
+  - wallet
+  - lightning
+  - infrasctructure
+  - POS
 
 # Proofreading metadata
 original_language: en
@@ -24,10 +25,11 @@ proofreading:
     contributors_id:
     reward: 4886
   - language: en
-    last_contribution_date:
+    last_contribution_date: 2024-09-01
     urgency: 1
     contributors_id:
-    reward: 2443
+      - Asi0Flammeus
+    reward: 4886
   - language: es
     last_contribution_date:
     urgency: 1
@@ -68,3 +70,18 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 9658
+  - language: et
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 7272
+  - language: id
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 8465
+  - language: zh-Hans
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 8465

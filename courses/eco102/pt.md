@@ -1043,6 +1043,11 @@ Escreveu Frédéric Bastiat em um pequeno panfleto intitulado O Estado.
 
 <partId>3b62de5c-5d4a-5182-ab14-f7ef13c97e28</partId>
 
+
+
+## Dê-nos seu feedback sobre este curso
+<chapterId>db20170d-ceb6-56cd-b4e5-c690942f8b29</chapterId>
+<isCourseReview>true</isCourseReview>
 ## O Legado de Frédéric Bastiat
 
 <chapterId>2a2a181a-e477-5be1-ba1f-af59490c364e</chapterId>
@@ -1073,5 +1078,4 @@ Mas, como Bastiat demonstrou de forma apta, a intervenção estatal tem efeitos 
 ![image](assets/image/20/IMG09.webp)
 Se olharmos as coisas sob este ângulo, Reagan explicou aos funcionários da GE, os chamados milagres dos gastos estatais aparecem sob uma luz completamente diferente. Porque os impostos desencorajam a produção, e a riqueza criada pelo gasto público não pode compensar totalmente aquelas que foram impedidas de nascer pelos impostos arrecadados para pagar por essas despesas.
 ![image](assets/image/20/IMG10.webp)
-
 Em essência, Reagan retirou de Bastiat vários elementos-chave de uma visão liberal da sociedade e do homem: a primazia da sociedade civil sobre o Estado, o valor da escolha e da responsabilidade individual, a importância do empreendedor na criação de riqueza, a importância de um quadro legal flexível e mínimo, que permite confiança e respeito pelos contratos, a lei fundamental de que a riqueza deve ser criada antes que possa ser distribuída, o desejo de dar a todos uma chance nos mercados competitivos…

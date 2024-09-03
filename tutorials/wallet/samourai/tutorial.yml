@@ -1,3 +1,4 @@
+id: 46f88b20-5d1e-47e0-be53-237ff8737956
 builder: Samourai
 
 level: intermediate
@@ -5,9 +6,9 @@ level: intermediate
 category: mobile
 
 tags:
-- open-source
-- Privacy
-- self-custodial
+  - open-source
+  - Privacy
+  - self-custodial
 
 # Proofreading metadata
 original_language: en
@@ -23,10 +24,11 @@ proofreading:
     contributors_id:
     reward: 3854
   - language: en
-    last_contribution_date:
+    last_contribution_date: 2024-09-01
     urgency: 1
     contributors_id:
-    reward: 1927
+      - Asi0Flammeus
+    reward: 3854
   - language: es
     last_contribution_date:
     urgency: 1
@@ -67,3 +69,18 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 6562
+  - language: et
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 5208
+  - language: id
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 5885
+  - language: zh-Hans
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 5885

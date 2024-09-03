@@ -3,10 +3,10 @@ difficulty: intermediate
 duration: 30
 author: DecouvreBitcoin
 tags:
-- VPN
-- Online Security
-- Enterprise VPN
-- Consumer VPN
+  - VPN
+  - Online Security
+  - Enterprise VPN
+  - Consumer VPN
 
 # Proofreading metadata
 original_language: en
@@ -22,10 +22,11 @@ proofreading:
     contributors_id:
     reward: 2597
   - language: en
-    last_contribution_date:
+    last_contribution_date: 2024-09-01
     urgency: 1
     contributors_id:
-    reward: 1298
+      - Asi0Flammeus
+    reward: 2597
   - language: es
     last_contribution_date:
     urgency: 1

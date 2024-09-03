@@ -109,6 +109,11 @@ Edu õpingutes ja kui on vaja meie meeskonnaga või õpetajaga ühendust võtta,
 # Järeldus
 <partId>b0baebfc-d146-5938-849a-f835fafb386f</partId>
 
+
+
+## Andke meile tagasisidet selle kursuse kohta
+<chapterId>0217e8b0-942a-5fee-bd91-9a866551eff3</chapterId>
+<isCourseReview>true</isCourseReview>
 ## Lõppsõna
 <chapterId>0309536d-c336-56a0-869e-a8395ed8d9ae</chapterId>
 
@@ -119,5 +124,4 @@ Täname, et osalesite PlanB Network'i poolt koostöös Fulgur'Ventures'iga pakut
 - https://rgb.tech/docs/
 - https://www.youtube.com/LNP-BP
 - https://twitter.com/lnp_bp
-
 Täname ja soovime edu teie õpingutes PlanB Network'is.

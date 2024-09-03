@@ -1,11 +1,12 @@
+id: 0ddb3854-6f38-4466-b4e2-f66c028e0dd8
 builder: Ronin Dojo v2
 
 tags:
-- node
-- Raspberry Pi
-- privacy
-- whirlpool
-- Coinjoin
+  - node
+  - Raspberry Pi
+  - privacy
+  - whirlpool
+  - Coinjoin
 
 category: bitcoin
 
@@ -28,10 +29,11 @@ proofreading:
     contributors_id:
     reward: 22726
   - language: en
-    last_contribution_date:
+    last_contribution_date: 2024-09-01
     urgency: 1
     contributors_id:
-    reward: 11363
+      - Asi0Flammeus
+    reward: 22726
   - language: es
     last_contribution_date:
     urgency: 1
@@ -72,3 +74,18 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 63178
+  - language: et
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 42952
+  - language: id
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 53065
+  - language: zh-Hans
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 53065

@@ -3,9 +3,9 @@ difficulty: hard
 duration: 45
 author: DecouvreBitcoin
 tags:
-- Bitcoin
-- Economics
-- Monetary system
+  - Bitcoin
+  - Economics
+  - Monetary system
 
 # Proofreading metadata
 original_language: en
@@ -21,10 +21,11 @@ proofreading:
     contributors_id:
     reward: 2616
   - language: en
-    last_contribution_date:
+    last_contribution_date: 2024-09-01
     urgency: 1
     contributors_id:
-    reward: 1308
+      - Asi0Flammeus
+    reward: 2616
   - language: es
     last_contribution_date:
     urgency: 1

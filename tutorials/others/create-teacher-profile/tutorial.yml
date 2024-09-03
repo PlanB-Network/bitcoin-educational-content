@@ -1,9 +1,10 @@
+id: 8ba9ba49-8fac-437a-a435-c38eebc8f8a4
 builder: PlanB Contribution
 
 tags:
-- GitHub
-- Professors
-- PlanB Network
+  - GitHub
+  - Professors
+  - PlanB Network
 
 category: contribution
 
@@ -41,10 +42,11 @@ proofreading:
     contributors_id:
     reward: 6234
   - language: fr
-    last_contribution_date:
+    last_contribution_date: 2024-09-01
     urgency: 1
     contributors_id:
-    reward: 2183
+      - Asi0Flammeus
+    reward: 4367
   - language: it
     last_contribution_date:
     urgency: 1
@@ -70,3 +72,18 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 8101
+  - language: et
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 6234
+  - language: id
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 7167
+  - language: zh-Hans
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 7167

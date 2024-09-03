@@ -1,9 +1,9 @@
 author: Julian Assange & Jacob Appelbaum
 level: intermediate
 tags:
-- technology
-- privacy
-- politics
+  - technology
+  - privacy
+  - politics
 
 # Proofreading metadata
 original_language: en
@@ -19,10 +19,11 @@ proofreading:
     contributors_id:
     reward: 3040
   - language: en
-    last_contribution_date:
+    last_contribution_date: 2024-09-01
     urgency: 1
     contributors_id:
-    reward: 1520
+      - Asi0Flammeus
+    reward: 3040
   - language: es
     last_contribution_date:
     urgency: 1
@@ -63,3 +64,18 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 4120
+  - language: id
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 3850
+  - language: zh-Hans
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 3850
+  - language: et
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 3580

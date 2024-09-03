@@ -3,9 +3,9 @@ difficulty: easy
 duration: 15
 author: DecouvreBitcoin
 tags:
-- Bitcoin Basis
-- Money History
-- Bitcoin Origins
+  - Bitcoin Basis
+  - Money History
+  - Bitcoin Origins
 
 # Proofreading metadata
 original_language: en
@@ -21,10 +21,11 @@ proofreading:
     contributors_id:
     reward: 2557
   - language: en
-    last_contribution_date:
+    last_contribution_date: 2024-09-01
     urgency: 1
     contributors_id:
-    reward: 1278
+      - Asi0Flammeus
+    reward: 2557
   - language: es
     last_contribution_date:
     urgency: 1

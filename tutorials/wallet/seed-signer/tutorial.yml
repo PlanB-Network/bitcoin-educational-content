@@ -1,3 +1,4 @@
+id: ee2c284a-0e23-49a4-b0ca-4a4702072973
 builder: Seed Signer
 
 level: advanced
@@ -5,9 +6,9 @@ level: advanced
 category: hardware
 
 tags:
-- DIY
-- Open-source
-- self-custodial
+  - DIY
+  - Open-source
+  - self-custodial
 
 # Proofreading metadata
 original_language: en
@@ -23,10 +24,11 @@ proofreading:
     contributors_id:
     reward: 4429
   - language: en
-    last_contribution_date:
+    last_contribution_date: 2024-09-01
     urgency: 1
     contributors_id:
-    reward: 2214
+      - Asi0Flammeus
+    reward: 4429
   - language: es
     last_contribution_date:
     urgency: 1
@@ -67,3 +69,18 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 8287
+  - language: et
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 6358
+  - language: id
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 7322
+  - language: zh-Hans
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 7322

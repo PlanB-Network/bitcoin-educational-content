@@ -1,8 +1,8 @@
 author: "G. Edward Griffin"
 level: intermediate
 tags:
-- history
-- fiction
+  - history
+  - fiction
 
 # Proofreading metadata
 original_language: en
@@ -18,10 +18,11 @@ proofreading:
     contributors_id:
     reward: 2788
   - language: en
-    last_contribution_date:
+    last_contribution_date: 2024-09-01
     urgency: 1
     contributors_id:
-    reward: 1394
+      - Asi0Flammeus
+    reward: 2788
   - language: es
     last_contribution_date:
     urgency: 1
@@ -62,3 +63,18 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 3364
+  - language: id
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 3220
+  - language: zh-Hans
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 3220
+  - language: et
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 3076

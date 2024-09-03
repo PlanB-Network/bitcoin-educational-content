@@ -541,5 +541,4 @@ ZIRP的另一个意外后果是，它鼓励政府进行大规模支出。由于�
 - [比特币是右翼、左翼还是无政府主义？](https://youtu.be/4fXGxzLtIIw)
 - [为了拯救地球，放弃美元和欧元](https://youtu.be/iHagDlH4bf8)
 - [为什么利率上升是不可能的？](https://youtu.be/iHagDlH4bf8)
-
 否则，继续通过大学提供的其他培训和教程来学习吧！

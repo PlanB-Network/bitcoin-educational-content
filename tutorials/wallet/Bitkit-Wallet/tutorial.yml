@@ -1,3 +1,4 @@
+id: a7224674-85c4-4045-9baf-37018d89550c
 builder: Bitkit
 
 level: beginner
@@ -5,11 +6,11 @@ level: beginner
 category: mobile
 
 tags:
-- wallet
-- lightning-network
-- self-custodial
-- open-source
-- on-chain
+  - wallet
+  - lightning-network
+  - self-custodial
+  - open-source
+  - on-chain
 
 credits:
   professor: casual-chaos
@@ -19,7 +20,8 @@ credits:
 original_language: en
 proofreading:
   - language: en
-    last_contribution_date:
+    last_contribution_date: 2024-09-01
     urgency: 1
     contributors_id:
-    reward: 1437
+      - Asi0Flammeus
+    reward: 2874

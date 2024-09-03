@@ -6,9 +6,9 @@ links:
   nostr: npub1xnf02f60r9v0e5kty33a404dm79zr7z2eepyrk5gsq3m7pwvsz2sazlpr5
 
 tags:
-- bitcoin-only
-- open-source
-- lightning-infrastructure
+  - bitcoin-only
+  - open-source
+  - lightning-infrastructure
 
 category: wallet
 
@@ -26,10 +26,11 @@ proofreading:
     contributors_id:
     reward: 2522
   - language: en
-    last_contribution_date:
+    last_contribution_date: 2024-09-01
     urgency: 1
     contributors_id:
-    reward: 1261
+      - Asi0Flammeus
+    reward: 2522
   - language: es
     last_contribution_date:
     urgency: 1
@@ -70,3 +71,18 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 2566
+  - language: id
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2555
+  - language: zh-Hans
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2555
+  - language: et
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2544

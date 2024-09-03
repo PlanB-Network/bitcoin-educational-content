@@ -1,8 +1,9 @@
+id: 1ee068ca-ddaf-4bec-b44e-b41a9abfdef6
 builder: PlanB Contribution
 
 tags:
-- PlanB Network
-- Review
+  - PlanB Network
+  - Review
 
 category: contribution
 
@@ -40,10 +41,11 @@ proofreading:
     contributors_id:
     reward: 4658
   - language: fr
-    last_contribution_date:
+    last_contribution_date: 2024-09-01
     urgency: 1
     contributors_id:
-    reward: 1789
+      - Asi0Flammeus
+    reward: 3579
   - language: it
     last_contribution_date:
     urgency: 1
@@ -69,3 +71,18 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 5737
+  - language: et
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 4658
+  - language: id
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 5197
+  - language: zh-Hans
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 5197

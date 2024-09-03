@@ -4,8 +4,8 @@ links:
   twitter: https://twitter.com/Holepunch_to
 
 tags:
-- privacy
-- infrastructure
+  - privacy
+  - infrastructure
 
 category: infrastructure
 
@@ -23,10 +23,11 @@ proofreading:
     contributors_id:
     reward: 2579
   - language: en
-    last_contribution_date:
+    last_contribution_date: 2024-09-01
     urgency: 1
     contributors_id:
-    reward: 1289
+      - Asi0Flammeus
+    reward: 2579
   - language: es
     last_contribution_date:
     urgency: 1
@@ -67,3 +68,13 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 2737
+  - language: id
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2697
+  - language: zh-Hans
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2697

@@ -4,9 +4,9 @@ links:
   view:
     - en: https://penpot.planb.network/#/view/7154756b-3ebd-8040-8004-50497ed3cf63?page-id=7154756b-3ebd-8040-8004-50497ed3cf64&section=interactions&index=0&share-id=7154756b-3ebd-8040-8004-5064c124f790&zoom=fill
 tags:
-- bitcoin
+  - bitcoin
 contributors:
-- rabbit-hole
+  - rabbit-hole
 
 # Proofreading metadata
 original_language: en
@@ -22,10 +22,11 @@ proofreading:
     contributors_id:
     reward: 2512
   - language: en
-    last_contribution_date:
+    last_contribution_date: 2024-09-01
     urgency: 1
     contributors_id:
-    reward: 1256
+      - Asi0Flammeus
+    reward: 2512
   - language: es
     last_contribution_date:
     urgency: 1

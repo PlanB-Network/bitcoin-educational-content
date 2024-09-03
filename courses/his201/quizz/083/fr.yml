@@ -1,0 +1,9 @@
+question: Quel niveau maximal le prix du bitcoin a-t-il atteint en juin 2011 ?
+answer: 32 $
+wrong_answers:
+  - 1 $
+  - 3 $
+  - 8 $
+explanation: |
+  Le 8 juin, le prix du bitcoin atteint un sommet historique de 32 $ sur Mt. Gox. Il est néanmoins vite redescendu.
+reviewed: false

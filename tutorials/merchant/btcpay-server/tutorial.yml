@@ -1,12 +1,13 @@
+id: 928eb01e-824b-4b57-a3e8-8727633beddc
 builder: BTCPay Server
 
 level: advanced
 
 category: merchant
 tags:
-- point of sales
-- non-KYC
-- open-source
+  - point of sales
+  - non-KYC
+  - open-source
 
 # Proofreading metadata
 original_language: en
@@ -22,10 +23,11 @@ proofreading:
     contributors_id:
     reward: 2743
   - language: en
-    last_contribution_date:
+    last_contribution_date: 2024-09-01
     urgency: 1
     contributors_id:
-    reward: 1371
+      - Asi0Flammeus
+    reward: 2743
   - language: es
     last_contribution_date:
     urgency: 1
@@ -66,3 +68,18 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 3229
+  - language: et
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2986
+  - language: id
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 3107
+  - language: zh-Hans
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 3107

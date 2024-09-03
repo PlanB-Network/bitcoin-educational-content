@@ -1,10 +1,11 @@
+id: b5834c46-6dcc-4064-8d68-1ef529991d3d
 builder: PlanB Contrubtion
 
 tags:
-- GitHub
-- Company
-- Software
-- PlanB Network
+  - GitHub
+  - Company
+  - Software
+  - PlanB Network
 
 category: contribution
 
@@ -42,10 +43,11 @@ proofreading:
     contributors_id:
     reward: 5430
   - language: fr
-    last_contribution_date:
+    last_contribution_date: 2024-09-01
     urgency: 1
     contributors_id:
-    reward: 1982
+      - Asi0Flammeus
+    reward: 3965
   - language: it
     last_contribution_date:
     urgency: 1
@@ -71,3 +73,18 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 6895
+  - language: et
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 5430
+  - language: id
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 6162
+  - language: zh-Hans
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 6162

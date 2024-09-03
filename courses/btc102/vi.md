@@ -968,7 +968,11 @@ Tôi thực sự tự hào vì bạn đã đạt đến giai đoạn này. Tôi 
 
 Dù trường hợp nào, tất cả các khóa học của chúng tôi đều miễn phí, và nhiều tài nguyên hoặc hướng dẫn có sẵn trên nền tảng của chúng tôi để đi cùng bạn. Chúc bạn may mắn với việc học!
 
+
+
+## Cho chúng tôi biết phản hồi của bạn về khóa học này
+<chapterId>3f43175a-fb7a-5b1c-a887-7dcf615d7a3a</chapterId>
+<isCourseReview>true</isCourseReview>
 ## Theo dõi
 <chapterId>b082b8eb-dabc-5d79-94cf-eb8f48fc1968</chapterId>
-
 Khóa học này, cũng như tất cả nội dung có sẵn trên trường đại học này, đã được cung cấp cho bạn miễn phí bởi cộng đồng của chúng tôi. Để hỗ trợ chúng tôi, bạn có thể chia sẻ nó với người khác, trở thành thành viên của trường đại học, và thậm chí đóng góp vào sự phát triển của nó qua GitHub. Thay mặt cho toàn bộ đội ngũ, cảm ơn bạn!

@@ -1,7 +1,7 @@
 author: Leonard Mlodinow
 level: beginner
 tags:
-- economic
+  - economic
 
 # Proofreading metadata
 original_language: en
@@ -17,10 +17,11 @@ proofreading:
     contributors_id:
     reward: 2660
   - language: en
-    last_contribution_date:
+    last_contribution_date: 2024-09-01
     urgency: 1
     contributors_id:
-    reward: 1330
+      - Asi0Flammeus
+    reward: 2660
   - language: es
     last_contribution_date:
     urgency: 1
@@ -61,3 +62,18 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 2980
+  - language: id
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2900
+  - language: zh-Hans
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2900
+  - language: et
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2820

@@ -1,0 +1,9 @@
+question: Par quel nom désigne-t-on le problème du consensus au sein d'un réseau distribué ?
+answer: Le problème des généraux byzantins
+wrong_answers:
+  - Le problème des centurions romains
+  - Le problème des colonels albanais
+  - Le problème des taishos japonais
+explanation: |
+  Le nom de ce problème (formalisé par Lamport, Shostak et Pease en 1982) a été choisi pour ne pas offenser le lecteur, personne ne s'étant jamais identifié comme byzantin.
+reviewed: false

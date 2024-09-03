@@ -3244,6 +3244,8 @@ Bob může poté vrátit Alice peníze stejným způsobem, jakým mu poslala pla
 ![BTC204](assets/cs/66/26.webp)
 _Velké poděkování [Fanis Michalakis](https://x.com/FanisMichalakis) za jeho recenzi a cenné odborné rady k článku, který inspiroval k napsání této kapitoly!_
 
+https://planb.network/tutorials/privacy/paynym-bip47
+
 ## Tiché platby
 
 <chapterId>2871d594-414e-4598-a830-91c9eb84dfb8</chapterId>

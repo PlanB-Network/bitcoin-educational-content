@@ -3110,6 +3110,9 @@ Bob sau đó có thể hoàn tiền cho Alice theo cùng một cách mà cô ấ
 
 ![BTC204](assets/vi/66/26.webp)
 *Xin chân thành cảm ơn [Fanis Michalakis](https://x.com/FanisMichalakis) vì đã xem xét và đưa ra những lời khuyên chuyên môn quý báu về bài viết đã truyền cảm hứng cho việc viết chương này!*
+
+https://planb.network/tutorials/privacy/paynym-bip47
+
 ## Thanh Toán Ẩn Danh
 <chapterId>2871d594-414e-4598-a830-91c9eb84dfb8</chapterId>
 BIP47 đã bị chỉ trích vì sự không hiệu quả của nó trên chuỗi khối. Như đã giải thích trong chương trước, nó đòi hỏi một giao dịch thông báo cho mỗi người nhận mới. Ràng buộc này trở nên không đáng kể nếu người ta dự định thiết lập một kênh thanh toán lâu dài với người nhận này. Thực sự, một giao dịch thông báo mở đường cho một số lượng gần như vô hạn các khoản thanh toán BIP47 tiếp theo.

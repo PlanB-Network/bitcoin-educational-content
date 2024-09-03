@@ -3281,6 +3281,8 @@ Bob kann dann Alice auf die gleiche Weise eine Rückerstattung senden, wie sie i
 ![BTC204](assets/de/66/26.webp)
 _Ein großes Dankeschön an [Fanis Michalakis](https://x.com/FanisMichalakis) für seine Überprüfung und wertvollen Expertenrat zu dem Artikel, der die Inspiration für das Schreiben dieses Kapitels war!_
 
+https://planb.network/tutorials/privacy/paynym-bip47
+
 ## Stille Zahlungen
 
 <chapterId>2871d594-414e-4598-a830-91c9eb84dfb8</chapterId>

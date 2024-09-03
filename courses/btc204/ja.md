@@ -2196,6 +2196,10 @@ StonewallとStonewall x2トランザクションは、Samourai Walletアプリ�
 
 次の章では、これまでに研究したものに加えて非常に有用であるが、比較的知られていない別のプライバシー技術について学びます。
 
+https://planb.network/tutorials/privacy/stonewall
+
+https://planb.network/tutorials/privacy/stonewall-x2
+ 
 ## リコシェ
 <chapterId>db9a20ac-a149-443d-884b-ea6c03f28499</chapterId>
 

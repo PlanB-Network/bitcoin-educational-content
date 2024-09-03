@@ -2220,6 +2220,10 @@ Tuttavia, proprio come con i payjoin, a seguito dell'arresto dei fondatori di Sa
 
 Nel prossimo capitolo, studieremo un'altra tecnica di privacy relativamente sconosciuta, ma molto utile in aggiunta a quanto abbiamo già studiato.
 
+https://planb.network/tutorials/privacy/stonewall
+
+https://planb.network/tutorials/privacy/stonewall-x2
+ 
 ## Rimbalzi
 <chapterId>db9a20ac-a149-443d-884b-ea6c03f28499</chapterId>
 

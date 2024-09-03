@@ -2220,6 +2220,10 @@ Cũng có thể thực hiện thủ công loại giao dịch này từ bất k�
 
 Trong chương tiếp theo, chúng ta sẽ nghiên cứu một kỹ thuật bảo mật khác tương đối không được biết đến, nhưng rất hữu ích bổ sung cho những gì chúng ta đã nghiên cứu.
 
+https://planb.network/tutorials/privacy/stonewall
+
+https://planb.network/tutorials/privacy/stonewall-x2
+ 
 ## Ricochets
 
 <chapterId>db9a20ac-a149-443d-884b-ea6c03f28499</chapterId>

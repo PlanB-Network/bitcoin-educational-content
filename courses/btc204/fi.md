@@ -2202,6 +2202,10 @@ Payjoinin käytön vaikeus piilee sen riippuvuudessa kauppiaan osallistumisesta.
 
 Ratkaisu voisi olla käyttää transaktiorakenteita, jotka tuovat epäselvyyttä ketjuanalyysiin vaatimatta vastaanottajan yhteistyötä. Tämä mahdollistaisi maksujemme yksityisyyden parantamisen riippumatta kauppiaiden aktiivisesta osallistumisesta. Tämä on juuri se, mitä tulemme tutkimaan seuraavassa luvussa.
 
+https://planb.network/tutorials/privacy/payjoin-sparrow-wallet
+
+https://planb.network/tutorials/privacy/payjoin-samourai-wallet
+
 ## Mini-Payjoin Coinjoins
 
 <chapterId>300777ee-30ae-43d7-ab00-479dac3522c1</chapterId>

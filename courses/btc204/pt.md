@@ -2136,6 +2136,10 @@ A dificuldade de usar payjoin reside na sua dependência da participação do co
 
 Uma solução seria usar estruturas transacionais que introduzem ambiguidade na análise da cadeia sem requerer a cooperação do destinatário. Isso nos permitiria melhorar a privacidade dos nossos pagamentos sem depender da participação ativa dos comerciantes. É precisamente isso que estudaremos no próximo capítulo.
 
+https://planb.network/tutorials/privacy/payjoin-sparrow-wallet
+
+https://planb.network/tutorials/privacy/payjoin-samourai-wallet
+
 ## Mini-Payjoin Coinjoins
 <chapterId>300777ee-30ae-43d7-ab00-479dac3522c1</chapterId>
 

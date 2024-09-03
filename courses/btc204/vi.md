@@ -2113,6 +2113,10 @@ Khó khăn trong việc sử dụng payjoin nằm ở việc nó phụ thuộc v
 
 Một giải pháp sẽ là sử dụng các cấu trúc giao dịch giới thiệu sự mơ hồ trong phân tích chuỗi mà không yêu cầu sự hợp tác của người nhận. Điều này sẽ cho phép chúng ta cải thiện sự riêng tư của các khoản thanh toán mà không phụ thuộc vào sự tham gia tích cực của người bán hàng. Đây chính xác là điều chúng ta sẽ nghiên cứu trong chương tiếp theo.
 
+https://planb.network/tutorials/privacy/payjoin-sparrow-wallet
+
+https://planb.network/tutorials/privacy/payjoin-samourai-wallet
+
 ## Mini-Payjoin Coinjoins
 <chapterId>300777ee-30ae-43d7-ab00-479dac3522c1</chapterId>
 

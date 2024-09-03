@@ -8,7 +8,6 @@ objectives:
 ---
 
 # A Dive into the History of Bitcoin's Creation
-<partId>9cd81305-f808-4c60-be9b-6d08628ef81e</partId>
 
 Welcome to this course dedicated to the history of Bitcoin's creation! As a user, you might have wondered where the tool you are using comes from. Moreover, you may not understand the references sometimes made to the people and events that have marked the short history of cryptocurrency. Finally, studying this history will allow you to better understand Bitcoin itself, by exposing the context that shaped its slow formation.
 

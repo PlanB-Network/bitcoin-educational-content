@@ -114,8 +114,6 @@ La signature numérique repose à l'inverse sur le fait d'utiliser la clé priv�
 La cryptographie asymétrique a été découverte indépendamment par plusieurs chercheurs au cours des années 70. Néanmoins, les premiers à présenter ce qu'ils avaient trouvé ont été Whitfield Diffie et Martin Hellman, deux cryptographes de l'université Stanford. En novembre 1976, ils ont publié un article intitulé « [New Directions in Cryptography](https://ee.stanford.edu/~hellman/publications/24.pdf) » dans la revue *IEEE Transactions on Information Theory*, qui décrivait un algorithme d'échange de clés (destiné à la transmission de clés secrètes pour le chiffrement symétrique) ainsi qu'un procédé de signature numérique. Dans l'introduction de cet article, ils écrivaient :
 
 > « Nous sommes aujourd'hui à la veille d'une révolution dans le domaine de la cryptographie. Le développement de matériel numérique bon marché a permis de s'affranchir des limites de conception de l'informatique mécanique et de ramener le coût des dispositifs cryptographiques de haute qualité à un niveau tel qu'ils peuvent être utilisés dans des applications commerciales telles que les distributeurs de billets distants et les terminaux d'ordinateurs. À leur tour, ces applications créent un besoin pour de nouveaux types de systèmes cryptographiques qui minimisent la nécessité de canaux de distribution de clés sécurisés et fournissent l'équivalent d'une signature écrite. Dans le même temps, les développements théoriques de la théorie de l'information et de l'informatique promettent de fournir des cryptosystèmes dont la sécurité est prouvée, transformant ainsi cet art ancien en science. »
->
-> *original: "We stand today on the brink of a revolution in cryptography. The development of cheap digital hardware has freed it from the design limitations of mechanical computing and brought the cost of high grade cryptographic devices down to where they can be used in such commercial applications as remote cash dispensers and computer terminals. In turn, such applications create a need for new types of cryptographic systems which minimize the necessity of secure key distribution channels and supply the equivalent of a written signature. At the same time, theoretical developments in information theory and computer science show promise of providing provably secure cryptosystems, changing this ancient art into a science."*
 
 Voici une photographie de 1977, prise par Chuck Painter pour le Stanford News Service, où l'on peut voir Whitfield Diffie (à droite) et Martin Hellman (au centre). La personne à gauche est le cryptographe Ralph Merkle, qui était sur le point de faire la même découverte.
 
@@ -138,16 +136,12 @@ David Chaum dans les années 90 (source : [Elixxir](https://www.youtube.com/wat
 Dans son [article fondateur](https://www.cs.ru.nl/~jhh/pub/secsem/chaum1985bigbrother.pdf), « *Security Without Identification: Transaction Systems to Make Big Brother Obsolete* » publié en 1985 dans *Communications of the ACM*, il écrivait :
 
 > « Les bases d'une société de dossiers sont en train d'être établies, société dans laquelle les ordinateurs pourraient être utilisés pour déduire les modes de vie, les habitudes, les déplacements et les associations des individus à partir de données collectées dans le cadre de transactions de consommation ordinaires. L'incertitude quant à la sécurité des données contre les abus de ceux qui les conservent ou les exploitent peut avoir un "effet paralysant", incitant les gens à modifier leurs activités observables. À mesure que l'informatisation se généralise, ces problèmes risquent de s'aggraver considérablement. »
->
-> *original: "The foundation is being laid for a dossier society, in which computers could be used to infer individuals' life-styles, habits, whereabouts, and associations from data collected in ordinary consumer transactions. Uncertainty about whether data will remain secure against abuse by those maintaining or tapping it can have a 'chilling effect,' causing people to alter their observable activities. As computerization becomes more pervasive, the potential for these problems will grow dramatically."*
 
 Cette obsession pour la protection de la vie privée explique son intérêt pour le domaine de la cryptographie, auquel il a contribué dès l'année 1979. En 1981, il a décrit les bases de la communication anonyme au travers de réseaux de mélange (*mix networks*), qui servirait notamment aux services de relai de courriel (Mixmaster) et au réseau anonyme Tor. En 1982, il a participé à la fondation de l'*International Association for Cryptologic Research* (IACR) lors de la conférence annuelle CRYPTO '82. La même année (et c'est ce qui nous intéresse ici), dans un [article](https://sceweb.sce.uhcl.edu/yang/teaching/csci5234WebSecurityFall2011/Chaum-blind-signatures.PDF) intitulé « *Blind Signature for Untraceable Payments* » il a publié le procédé de signature aveugle, qui est à la base de son modèle de monnaie électronique respectueux de la vie privée : eCash.
 
 Comme [l'expliquait](https://chaum.com/wp-content/uploads/2022/01/05-07-96-DigiCash_s-Ecash%E2%84%A2-to-be-Issued-by-Deutsche-Bank.pdf) David Chaum dans un communiqué de presse en 1996 :
 
 > « Ecash [*sic*\] est une forme numérique d'argent liquide qui fonctionne sur Internet, où l'argent liquide papier ne peut pas exister. Comme les espèces, il offre aux consommateurs une réelle possibilité de cacher ce qu'ils achètent. »
->
-> *original: "Ecash is a digital form of cash that works on the Internet where paper cash can't. Like cash, it offers consumers true privacy in what they buy."*
 
 Le modèle eCash est un concept de monnaie numérique permettant aux clients de réaliser des paiements qui sont relativement confidentiels. C'est une forme d'argent liquide, dans le sens où les utilisateurs peuvent conserver des billets numériques directement, et non sur un compte géré par un tiers de confiance. Le système repose cependant sur des serveurs, appelés des banques (*banks*) ou des monnaieries (*mints*), qui émettent et remplacent les billets des utilisateurs à chaque transaction. Lorsqu'un billet est transféré, le destinataire l'envoie à sa banque qui se charge de le vérifier et de lui en redonner un ou plusieurs autres. Les banques entretiennent chacune un registre des billets dépensés pour empêcher la double dépense. Chaque système eCash est chapeauté par une autorité centrale qui délivre les habilitations.
 
@@ -211,8 +205,6 @@ Enfin, le modèle de David Chaum a considérablement influencé Satoshi Nakamoto
 Avec Bitcoin, Satoshi Nakamoto a créé une monnaie numérique robuste et confidentielle, un réel argent liquide électronique. En cela, il a réalisé la [prédiction](https://www.youtube.com/watch?v=mlwxdyLnMXM&t=872s) de Milton Friedman, prix Nobel d'économie et fondateur de l'École de Chicago, qui disait au micro de la National Taxpayers Union Foundation en 1999 :
 
 > « Je pense qu'Internet va devenir l'une des forces majeures qui va réduire le rôle de l'État. La seule chose qui manque, mais qui sera bientôt développée, c'est un argent liquide électronique fiable, une méthode qui permette de transférer des fonds de A à B sur Internet sans que A connaisse B ou que B connaisse A. »
->
-> Original: "I think that the Internet is going to be one of the major forces for reducing the role of government. The one thing that's missing, but that will soon be developed, is a reliable e-cash, a method whereby on the internet you can transfer funds from A to B without A knowing B or B knowing A."
 
 ## Les monnaies numériques privées
 <chapterId>43035fa3-2805-4331-a6fb-070931d749cf</chapterId>
@@ -230,8 +222,6 @@ L'histoire des États-Unis a été caractérisée par une grande pluralité mon�
 Toutefois, les choses ont changé avec la guerre de Sécession, gagnée par l'Union, dans un processus de centralisation du pouvoir. Ainsi, une loi du Congrès du 8 juin 1864 a interdit la frappe privée de pièces. Cette loi, qui est aujourd'hui devenue la section 486 du titre 18 du Code des États-Unis (*18 U.S. Code § 486*), [disposait](https://www.law.cornell.edu/uscode/text/18/486) :
 
 > « Quiconque, sauf dans le cas où cela est autorisé par la loi, fabrique, met en circulation ou fait passer, ou tente de mettre en circulation ou de faire passer, des pièces d'or ou d'argent ou d'autres métaux, ou des alliages de métaux, destinées à être utilisées comme monnaie courante, qu'elles ressemblent à des pièces des États-Unis ou de pays étrangers, ou qu'elles soient de conception originale, sera condamné à une amende en vertu du présent titre ou à une peine d'emprisonnement de cinq ans au maximum, ou aux deux. »
->
-> *original: "Whoever, except as authorized by law, makes or utters or passes, or attempts to utter or pass, any coins of gold or silver or other metal, or alloys of metals, intended for use as current money, whether in the resemblance of coins of the United States or of foreign countries, or of original design, shall be fined under this title or imprisoned not more than five years, or both."*
 
 Pour faire appliquer ces restrictions, une agence étatique a été fondée en 1965 par Abraham Lincoln : le Secret Service. La mission initiale du Secret Service était de lutter contre le faux-monnayage et la fraude financière en général. Elle servait, de façon détournée, à affermir le seigneuriage de l'État fédéral en confiant le monopole sur la production de monnaie à l'*United States Mint*.
 
@@ -286,8 +276,6 @@ Alors que la bulle Internet battait son plein, le produit a connu une progressio
 La vision originelle de PayPal était révolutionnaire, conformément à la vision libertarienne de Peter Thiel. Voici quel était le discours de ce dernier à l'automne 1999, rapporté par Eric Jackson en 2012 dans *The PayPal Wars* :
 
 > « Ce que nous qualifions de "pratique" pour les utilisateurs américains sera révolutionnaire pour les pays en développement. Les États de nombre de ces pays jouent avec leur monnaie. Ils ont recours à l'inflation et parfois à des dévaluations monétaires massives, comme nous l'avons vu en Russie et dans plusieurs pays d'Asie du Sud-Est l'année dernière, pour priver leurs citoyens de leurs richesses. La plupart des gens ordinaires n'ont jamais l'occasion d'ouvrir un compte à l'étranger ou de mettre la main sur plus de quelques billets d'une monnaie stable comme le dollar américain. Un jour, PayPal sera en mesure de changer cette situation. À l'avenir, lorsque notre service sera disponible en dehors des États-Unis et que la pénétration d'Internet continuera à s'étendre à tous les niveaux économiques, PayPal permettra aux citoyens du monde entier d'exercer un contrôle plus direct sur leurs monnaies qu'ils ne l'ont jamais fait auparavant. Il sera pratiquement impossible pour les États corrompus de voler les richesses de leurs citoyens par leurs anciens moyens, car, dans le cas où ils essaient, les citoyens se tourneront vers le dollar, la livre ou le yen, abandonnant ainsi leur monnaie locale sans valeur pour quelque chose de plus sûr. »
->
-> *original: "Of course, what we're calling 'convenient' for American users will be revolutionary for the developing world. Many of these countries' governments play fast and loose with their currencies. They use inflation and sometimes wholesale currency devaluations, like we saw in Russia and several Southeast Asian countries last year, to take wealth away from their citizens. Most of the ordinary people there never have an opportunity to open an offshore account or to get their hands on more than a few bills of a stable currency like U.S. dollars. Eventually PayPal will be able to change this. In the future, when we make our service available outside the U.S. and as Internet penetration continues to expand to all economic tiers of people, PayPal will give citizens worldwide more direct control over their currencies than they ever had before. It will be nearly impossible for corrupt governments to steal wealth from their people through their old means because if they try the people will switch to dollars or Pounds or Yen, in effect dumping the worthless local currency for something more secure."*
 
 ![Peter Thiel le 20 octobre 1999 lors de son discours donné à Oakland en Californie pour l'Independent Institute](assets/img/ch2/4.webp)
 
@@ -468,14 +456,10 @@ Le présent chapitre traite de la naissance de Bitcoin qui a eu lieu entre l'aut
 Si on en croit son [propre](https://www.metzdowd.com/pipermail/cryptography/2008-November/014863.html) [témoignage](https://bitcointalk.org/index.php?topic=13.msg46#msg46), Satoshi Nakamoto se met à travailler sur Bitcoin durant le printemps 2007. Après avoir [effectué](https://web.archive.org/web/20140511100607/https://bitcoinfoundation.org/forum/index.php?/topic/54-my-first-message-to-satoshi/#entry514) diverses recherches sur le sujet des monnaies numériques, il finit par trouver un moyen de résoudre le problème de la double dépense sans tiers de confiance. Pendant plus d'un an, il garde secret son modèle, souhaitant le peaufiner pour s'assurer de sa solidité. Tel qu'il [l'écrira](https://bitcointalk.org/index.php?topic=195.msg1617#msg1617) plus tard :
 
 > « À un moment donné, j'ai été convaincu qu'il y avait un moyen de mettre en place ce système sans requérir aucune confiance et je n'ai pas pu m'empêcher de continuer à y penser. &nbsp;Le travail a consisté bien plus à concevoir qu'à coder. »
->
-> *original: "At some point I became convinced there was a way to do this without any trust required at all and couldn't resist to keep thinking about it. &nbsp;Much more of the work was designing than coding."*
 
 Pour s'assurer qu'il fonctionne correctement, Satoshi [programme](https://www.metzdowd.com/pipermail/cryptography/2008-November/014832.html) un prototype avant de rédiger le livre blanc. Cette manière de faire est à l'opposé de ce qui se fait d'ordinaire au sein de la communauté universitaire, où les concepts sont présentés formellement dans des articles scientifiques avant d'être mis en application. Le créateur de Bitcoin [affirmera](https://www.metzdowd.com/pipermail/cryptography/2008-November/014832.html) :
 
 > « En fait, j'ai fait ça un peu à l'envers. &nbsp;J'ai dû écrire tout le code avant de pouvoir me convaincre que je pouvais résoudre tous les problèmes, et je n'ai écrit le papier qu'après. »
->
-> *original: "I actually did this kind of backwards. &nbsp;I had to write all the code before I could convince myself that I could solve every problem, then I wrote the paper."*
 
 ### La préparation
 
@@ -504,8 +488,6 @@ Le 31 octobre 2008, Satoshi Nakamoto publie la [première version du livre blanc
 Dans son premier [courriel](https://www.metzdowd.com/pipermail/cryptography/2008-October/014810.html) adressé à la liste, Satoshi écrit sobrement :
 
 > « J'ai travaillé sur un nouveau système d'argent liquide électronique qui est entièrement pair à pair, dépourvu de tiers de confiance. »
->
-> *original: "I've been working on a new electronic cash system that's fully peer-to-peer, with no trusted third party."*
 
 Il liste également les propriétés principales de son modèle :
 
@@ -542,8 +524,6 @@ Ce mécanisme de consensus permet d'imposer toutes sortes de règles et incitati
 Grâce à cet ajustement de la difficulté, Bitcoin peut donc avoir une politique monétaire, c'est-à-dire que le montant de nouvelles unités émises par le protocole peut être déterminé à l'avance. Au départ, il est prévu que l'émission monétaire soit constante, afin d'inciter les nœuds producteurs à apporter leur puissance de calcul au réseau, et il n'y a pas de frais de transaction. Tel que l'écrit Satoshi Nakamoto dans la section « Incitation » du [livre blanc](assets/pdf/bitcoin-20081003.pdf) :
 
 > « L'ajout régulier d'une quantité constante de nouvelles unités est analogue aux mineurs d'or qui dépensent des ressources pour ajouter de l'or dans la circulation. »
->
-> *original: "The steady addition of a constant of amount of new coins is analogous to gold miners expending resources to add gold to circulation."*
 
 Cette propriété, confirmée par Satoshi [sur la liste de diffusion](https://www.metzdowd.com/pipermail/cryptography/2008-November/014831.html) et [dans sa correspondance privée](https://mmalmi.github.io/satoshi/#email-3), n'échappe pas à James A. Donald. Le 9 novembre, ce dernier [reproche](https://www.metzdowd.com/pipermail/cryptography/2008-November/014837.html) ainsi au « travail de suivi de qui possède quoi » (c'est-à-dire au minage) d'être « payé par le seigneuriage » et de « nécessiter de l'inflation », même s'il fait remarquer qu'« une inflation prévisible est moins choquante qu'une inflation qui est traficotée de temps à autre pour transférer des richesses d'un groupe électoral à un autre ». (*original: "in the proposed system the work of tracking who owns what coins is paid for by seigniorage, which requires inflation. This is not an intolerable flaw - predictable inflation is less objectionable than inflation that gets jiggered around from time to time to transfer wealth from one voting block to another."*) En outre, il [remarque](https://www.metzdowd.com/pipermail/cryptography/2008-November/014841.html) aussi qu'un nœud minier qui « ignore toutes les dépenses dont il ne se préoccupe pas » ne subit « aucune conséquence négative », évoquant par là le problème de la censure. (*original: "If one node is ignoring all spends that it does not care about, it suffers no adverse consequences."*)
 
@@ -574,8 +554,6 @@ Le 10 décembre, Satoshi [crée](https://web.archive.org/web/20131016004654/http
 Le 8 janvier 2009 à 19 heures 27, Satoshi Nakamoto publie la première version du logiciel (numérotée 0.1.0) sur la liste de diffusion de Metzdowd.com. Le code source en C++ est publié de manière ouverte sous licence libre (MIT), de sorte que n'importe qui peut le copier, le modifier et l'utiliser à sa guise. Il contient notamment les données du bloc de genèse, le premier bloc de la chaîne à partir duquel cette dernière doit se prolonger. Le logiciel ne fonctionne que sous Windows. Dans son [courriel](https://www.metzdowd.com/pipermail/cryptography/2009-January/014994.html) d'annonce, Satoshi écrit :
 
 > « Voici la première version de Bitcoin, un nouveau système de monnaie électronique qui utilise un réseau pair à pair pour empêcher la double dépense. &nbsp;C'est un système complètement décentralisé, sans serveur ni autorité centrale. »
->
-> *original: "Announcing the first release of Bitcoin, a new electronic cash system that uses a peer-to-peer network to prevent double-spending. &nbsp;It's completely decentralized with no server or central authority."*
 
 Il précise que « le logiciel est encore en version alpha et en phase expérimentale » et qu'« il n'y a aucune garantie que l'état du système ne doive pas être redémarré à un moment donné ». (*original: "The software is still alpha and experimental. &nbsp;There's no guarantee the system's state won't have to be restarted at some point if it becomes necessary"*) Il y a deux moyens d'obtenir des bitcoins : en les réceptionnant fonds de quelqu'un d'autre, ou bien en activant la génération de pièces par CPU. Il y a également deux façons d'envoyer des unités : en utilisant l'adresse IP du destinataire, ou bien en passant par une adresse Bitcoin, ce qui permet d'envoyer un paiement hors-ligne. Enfin, le courriel décrit la politique monétaire finale de Bitcoin, dont nous parlerons dans le chapitre suivant.
 
@@ -648,16 +626,6 @@ Cela nous amène au second élément présenté par Satoshi le jour du lancement
 > etc.
 >
 > Lorsque cela sera épuisé, le système pourra prendre en charge les frais de transaction si nécessaire. »
->
-> *original: "Total circulation will be 21,000,000 coins. &nbsp;It'll be distributed to network nodes when they make blocks, with the amount cut in half every 4 years.
->
-> first 4 years: 10,500,000 coins<br>
-> next 4 years: 5,250,000 coins<br>
-> next 4 years: 2,625,000 coins<br>
-> next 4 years: 1,312,500 coins<br>
-> etc...
->
-> When that runs out, the system can support transaction fees if needed. &nbsp;It's based on open market competition, and there will probably always be nodes willing to process transactions for free."*
 
 Quelques jours plus tard, Hal Finney [réagit](https://www.metzdowd.com/pipermail/cryptography/2009-January/015004.html) favorablement à cette politique monétaire sur la liste en s'enthousiasmant du fait que « le système peut être configuré pour n'autoriser qu'un nombre maximum certain d'unités à être générées ». (*original: "It's interesting that the system can be configured to only allow a certain maximum number of coins ever to be generated.*) Dans son courriel, il estime que si Bitcoin devient « le système de paiement dominant utilisé dans le monde entier » (*original: "the dominant payment system in use throughout the world"*), chaque unité aura alors « une valeur d'environ 10 millions » de dollars. (*original: "a value of about $10 million"*) Il conclut en écrivant que « la possibilité de générer des unités aujourd'hui avec quelques centimes de temps de calcul » peut constituer « un très bon pari ». (*original: "the possibility of generating coins today with a few cents of compute time may be quite a good bet"*) Même si l'estimation est contestable (car elle se base sur une valorisation du bitcoin qui serait équivalente à la totalité de la richesse mondiale), le raisonnement se tient.
 
@@ -684,8 +652,6 @@ Le 27, Hal Finney [évoque](https://www.metzdowd.com/pipermail/cryptography/2009
 Un autre soutien provient du cypherpunk Zooko Wilcox-O'Hearn, qui travaille alors sur Tahoe-LAFS, un système de partage de fichiers héritier de [Mojo Nation](https://www.salon.com/2000/10/09/mojo_nation/), projet populaire au début des années 2000. Le 26 janvier, au sein de la discussion sur la liste, il glisse le lien vers un billet qu'il a publié le jour-même sur son blog intitulé « [*Decentralized Money*](https://web.archive.org/web/20090303195936/http://testgrid.allmydata.org:3567/uri/URI:DIR2-RO:j74uhg25nwdpjpacl6rkat2yhm:kav7ijeft5h7r7rxdp5bgtlt3viv32yabqajkrdykozia5544jqa/wiki.html#%5B%5BDecentralized%20Money%5D%5D) », où il cite les différents projets de monnaies numériques (DigiCash, bit gold, b-money) et où il fait la part belle à Bitcoin. Il écrit notamment :
 
 > « Ce que je veux, c'est une monnaie que tout le monde puisse utiliser de manière pratique et peu coûteuse, mais que **personne** n'ait le pouvoir de manipuler. &nbsp;Je veux que personne n'ait le pouvoir de gonfler ou de dégonfler la masse monétaire ; que personne n'ait le pouvoir de surveiller, de taxer ou d'empêcher les transactions. &nbsp;Un véritable équivalent numérique de l'or, dans les périodes et les lieux où l'or était la monnaie universelle. »
->
-> *original: "What I want is a currency which everyone can cheaply and conveniently use but which **no-one** has the power to manipulate. &nbsp;No-one has the power to inflate or deflate the currency supply, no-one has the power to monitor, tax, or prevent transactions. &nbsp;Truly the digital equivalent of gold, during the times and places when gold was the universal currency."*
 
 Un lien vers ce texte finira par être [ajouté](https://web.archive.org/web/20090303195936/http://bitcoin.org/) sur Bitcoin.org quelques semaines après. Et Satoshi [remerciera](https://bitcointalk.org/index.php?topic=890.msg10723#msg10723) personnellement Zooko un an et demi plus tard pour cette petite aide.
 
@@ -696,8 +662,6 @@ Comme nous l'avons dit, si la communication de Satoshi se restreint au départ �
 Le 11 février, Satoshi publie un [message d'introduction](https://p2pfoundation.ning.com/forum/topics/bitcoin-open-source) présentant Bitcoin sur le forum (p2pfoundation.ning.com), dont il envoie une [copie](https://diyhpl.us/~bryan/irc/bitcoin-satoshi/p2presearch-again/p2pfoundation.net/backups/p2p_research-archives/2009-February/001347.html) par courriel à la liste (p2p-research). Dans ce texte, il écrit :
 
 > « Le problème fondamental de la monnaie conventionnelle est toute la confiance nécessaire pour la faire fonctionner. &nbsp;Il faut faire confiance à la banque centrale pour qu'elle ne déprécie pas la monnaie, mais l'histoire des monnaies fiat est pleine de violations de cette confiance. &nbsp;Il faut faire confiance aux banques pour détenir notre argent et le transférer par voie électronique, mais elles le prêtent par vagues de bulles de crédit avec à peine une fraction en réserve. &nbsp;Nous devons leur faire confiance pour protéger notre vie privée, pour ne pas laisser les voleurs d'identité vider nos comptes. &nbsp;Leurs frais généraux considérables rendent les micropaiements impossibles. »
->
-> *original: "The root problem with conventional currency is all the trust that's required to make it work. The central bank must be trusted not to debase the currency, but the history of fiat currencies is full of breaches of that trust. Banks must be trusted to hold our money and transfer it electronically, but they lend it out in waves of credit bubbles with barely a fraction in reserve. We have to trust them with our privacy, trust them not to let identity thieves drain our accounts. Their massive overhead costs make micropayments impossible."*
 
 Sur son [profil](https://p2pfoundation.ning.com/profile/SatoshiNakamoto), il indique être un homme japonais, mais ce n'est pas tout. Une mise à jour de l'interface en 2011 fera apparaître son âge : 35 ans, soit 32 ou 33 ans en 2009. Puis, on [découvrira](https://www.reddit.com/r/Bitcoin/comments/229qvr/happy_birthday_satoshi_nakamoto/) en 2014 qu'il a indiqué une date de naissance particulière : le 5 avril 1975. Cette date, d'apparence bénigne, est vraisemblablement une date composite faisant référence à l'interdiction pour les citoyens américains de détenir de l'or entre 1933 et 1975 aux États-Unis. Le jour du 5 avril se rapporte au jour de l'instauration de cette interdiction par l'[Ordre exécutif 6102](https://www.presidency.ucsb.edu/documents/executive-order-6102-forbidding-the-hoarding-gold-coin-gold-bullion-and-gold-certificates) signé par le président Franklin Delano Roosevelt le 5 avril 1933, et l'année 1975 correspond à son année d'abrogation lors de l'entrée en vigueur de la [Public Law 93-373](https://www.govtrack.us/congress/bills/93/s2665/text). Ce détail est très important puisque cette prohibition a mis fin à l'étalon-or classique (où chacun pouvait obtenir de l'or en échange d'un billet représentatif), a permis de dévaluer le dollar (par le biais du *Gold Reserve Act* en 1934) et a facilité l'instauration du régime monétaire à taux de change flottants que nous connaissons suite au *Nixon Shock* de 1971.
 
@@ -708,20 +672,15 @@ Profil de Satoshi Nakamoto sur le forum de la Fondation P2P le 17 mars 2011 (sou
 Ce n'est pas la seule référence aux métaux précieux qui se retrouve dans les interventions de Satoshi. Le créateur de Bitcoin [écrit](https://p2pfoundation.ning.com/forum/topics/bitcoin-open-source?commentId=2003008:Comment:9562) ainsi dans les commentaires le 18 février :
 
 > « Il n'y a personne pour agir en tant que banque centrale ou réserve fédérale afin d'ajuster la masse monétaire au fur et à mesure que le nombre d'utilisateurs augmente. &nbsp;Il aurait fallu qu'un tiers de confiance détermine la valeur, car je ne connais aucun moyen pour un logiciel de connaître la valeur des choses dans le monde réel. &nbsp;S'il existait un moyen astucieux, ou si nous voulions faire confiance à quelqu'un pour gérer activement la masse monétaire afin de l'ancrer à quelque chose, les règles auraient pu être programmées à cet effet. &nbsp;En ce sens, c'est un système qui se comporte davantage comme un métal précieux. »
->
-> *original: "To Sepp's question, indeed there is nobody to act as central bank or federal reserve to adjust the money supply as the population of users grows. &nbsp;That would have required a trusted party to determine the value, because I don't know a way for software to know the real world value of things. &nbsp;If there was some clever way, or if we wanted to trust someone to actively manage the money supply to peg it to something, the rules could have been programmed for that. &nbsp;In this sense, it's more typical of a precious metal."*
 
 Satoshi Nakamoto est aussi actif sur la liste de diffusion où il échange notamment avec Martien van Steenbergen, un consultant en gestion de projet néerlandais. Le 13 février, il aborde le sujet de la programmabilité de Bitcoin et [écrit](https://diyhpl.us/~bryan/irc/bitcoin-satoshi/p2presearch-again/p2pfoundation.net/backups/p2p_research-archives/2009-February/001362.html) à ce dernier :
 
 > « Je considère Bitcoin comme une pierre angulaire, comme une première étape si l'on veut mettre en œuvre des monnaies sociales de pair à pair programmables telles que décrites par les idées de Marc \[Fawzi\] et d'autres discutées ici. &nbsp;Il faut d'abord qu'une monnaie pair à pair basique et normale fonctionne. &nbsp;Une fois qu'elle est établie et éprouvée, il est facile de passer à l'étape suivante, celle de la monnaie automatique dynamique.
 >
 > J'aime beaucoup l'idée de communautés virtuelles, sans appartenance géographique, qui expérimentent de nouveaux paradigmes économiques. »
->
-> *original: "I see Bitcoin as a foundation and first step if you want to implement programmable P2P social currencies like Marc's ideas and others discussed here. &nbsp;First you need normal, basic P2P currency working. &nbsp;Once that is established and proven out, dynamic smart money is an easy next step.*
->
-> *I love the idea of virtual, non-geographic communities experimenting with new economic paradigms."*
 
 Tout cela montre que le créateur de Bitcoin cherche à s'adapter à son public et qu'il fait ce qu'il peut pour pousser les gens à s'intéresser à sa découverte.
+
 
 ### Mike Hearn et les 21 millions
 
@@ -734,8 +693,6 @@ Le 12 avril, Mike Hearn envoie un [courriel](https://plan99.net/~mike/satoshi-em
 Mike Hearn et Satoshi Nakamoto discutent de différents aspects de Bitcoin comme le passage à l'échelle, les micropaiements, le fonctionnement du logiciel ou l'absence de rétrofacturation. En particulier, Mike Hearn demande à Satoshi pourquoi il a choisi la quantité de « 24 millions » (*sic*) pour le montant total de bitcoins et si ces derniers peuvent être fractionnés. Satoshi donne alors l'explication suivante :
 
 > « Mon choix pour le nombre d'unités et le programme de distribution était une estimation éclairée. &nbsp;C'était un choix difficile, car une fois le réseau en marche, ces paramètres étaient verrouillés et nous étions bloqués avec eux. &nbsp;Je voulais choisir quelque chose qui rendrait les prix similaires à ceux des monnaies existantes, mais c'était très difficile sans avoir connaissance de l'avenir. &nbsp;J'ai fini par choisir un entre-deux. &nbsp;Si Bitcoin reste une petite niche, il vaudra moins par unité que les monnaies existantes. &nbsp;Si l'on imagine qu'il est utilisé pour une partie du commerce mondial, alors il n'y aura que 21 millions d'unités pour le monde entier, donc elles vaudront beaucoup plus par unité. &nbsp;Les valeurs sont des entiers codés sur 64 bits avec 8 décimales, donc une unité est représentée en interne par 100 000 000. &nbsp;Il y a beaucoup de granularité si jamais les prix usuels deviennent petits. &nbsp;Par exemple, si 0,001 \[Bitcoin\] vaut 1 euro, il peut être plus facile de changer l'emplacement de la virgule, de sorte que si on a 1 Bitcoin, il sera désormais affiché comme 1000, et 0,001 sera affiché comme 1. »
->
-> *original: "My choice for the number of coins and distribution schedule was an educated guess. &nbsp;It was a difficult choice, because once the network is going it's locked in and we're stuck with it. &nbsp;I wanted to pick something that would make prices similar to existing currencies, but without knowing the future, that's very hard. &nbsp;I ended up picking something in the middle. &nbsp;If Bitcoin remains a small niche, it'll be worth less per unit than existing currencies. &nbsp;If you imagine it being used for some fraction of world commerce, then there's only going to be 21 million coins for the whole world, so it would be worth much more per unit. &nbsp;Values are 64-bit integers with 8 decimal places, so 1 coin is represented internally as 100000000. &nbsp;There's plenty of granularity if typical prices become small. &nbsp;For example, if 0.001 is worth 1 Euro, then it might be easier to change where the decimal point is displayed, so if you had 1 Bitcoin it's now displayed as 1000, and 0.001 is displayed as 1."*
 
 Il [expliquera](https://plan99.net/~mike/satoshi-emails/thread3.html) plus tard à Mike Hearn qu'il a « pensé à 100 BTC \[par bloc\] et à 42 millions » mais que le nombre des 42 millions lui « paraissait élevé ». (*original: "I thought about 100 BTC and 42 million, but 42 million seemed high."*)
 
@@ -746,8 +703,6 @@ Après avoir contacté Satoshi, Mike Hearn commence à utiliser le logiciel sur 
 La communication de Satoshi ne laisse pas non plus indifférent un jeune étudiant en informatique finlandais du nom de Martti Malmi. Ce dernier découvre Bitcoin début avril, par l'intermédiaire du texte sur le forum de la Fondation P2P. Le 9, il se met à utiliser le logiciel et mine son premier bloc (le bloc 10 351). Dans la soirée, il rédige une courte présentation de Bitcoin où il soutient l'hypothèse anarchiste que « la monnaie pair à pair pourrait faire disparaître l'État ». (*original: "P2P Currency could make the government extinct?"*). Il publie son texte sous le pseudonyme Trickster(n) sur deux forums libertariens de sensibilités différentes : anti-state.com (ASC) et le forum de Freedomain Radio (le média de l'anarcho-capitaliste Stefan Molyneux). Martti écrit :
 
 > « Le système est anonyme, et aucun État ne pourrait possiblement taxer ou empêcher les transactions. Il n'y a pas de banque centrale qui puisse déprécier la devise avec la création illimitée de nouvelle monnaie. L'adoption généralisée d'un tel système ressemblerait à quelque chose qui pourrait avoir un effet dévastateur sur la capacité de l'État à se nourrir à partir de son bétail. »
->
-> *original: "The system is anonymous, and no government could possibly tax or prevent the transactions. There's no central bank to debase the currency with unlimited creation of new money. A widespread adoption of such a system sounds like something that could have a devastating effect on the state's ability to feed on its livestock."*
 
 ![Martti Malmi en 2013](assets/img/ch5/5.webp)
 
@@ -767,8 +722,6 @@ Satoshi [approuve](https://mmalmi.github.io/satoshi/#email-5) globalement cette 
 Le printemps 2009 est également marqué par l'apparition du mot « cryptomonnaie » (« *cryptocurrency* » en anglais) qui est initialement utilisé pour se référer à Bitcoin. Le 11 mai, Satoshi [écrit](https://mmalmi.github.io/satoshi/#email-19) ainsi à Martti Malmi :
 
 > « Quelqu'un a proposé le mot "cryptomonnaie"... c'est peut-être un mot que nous devrions utiliser pour décrire Bitcoin, ça te plaît ? »
->
-> *original: "Someone came up with the word "cryptocurrency"... maybe it's a word we should use when describing Bitcoin, do you like it?"*
 
 Le jeune Finlandais approuve et avance que « *The P2P Cryptocurrency* » (« La cryptomonnaie pair à pair ») pourrait être le slogan de Bitcoin. Cette suggestion sera mise à exécution : le titre de la page de présentation deviendra « *Bitcoin P2P Cryptocurrency* » et l'annonce de la version 0.3 en juillet 2010 décrira le projet comme « *Bitcoin, the P2P cryptocurrency* ».
 
@@ -785,8 +738,6 @@ Ce forum rencontre son public. Il semble qu'il [donne](https://mmalmi.github.io/
 Au fil des mois, de plus en plus de gens s'inscrivent et interviennent sur ce premier forum, ce qui fait prendre conscience à Satoshi que l'infrastructure logicielle mise en place par Malmi n'est pas suffisante. Le 5 novembre, il écrit au jeune Finlandais pour suggérer la création d'un nouveau forum qui serait à même de recevoir un trafic plus élevé :
 
 > « Maintenant que le forum sur bitcoin.sourceforge.net gagne en popularité, nous devrions vraiment chercher un endroit qui héberge gratuitement la gestion d'un forum complet. »
->
-> *original: "Now that the forum on bitcoin.sourceforge.net is catching on, we really should look for somewhere that freehosts full blown forum software."*
 
 Après quelques discussions sur la solution technique à adopter, Martti Malmi [installe](https://mmalmi.github.io/satoshi/#email-93) le forum sur son serveur le 17 novembre et Satoshi se met à le [configurer](https://mmalmi.github.io/satoshi/#email-99) le 19 novembre. À partir du 22, le créateur de Bitcoin y transfère quelques questions-réponses provenant de l'ancien forum qui abordent les sujets de la confidentialité, du minage et de Linux. Il publie également un [message de bienvenue](https://bitcointalk.org/index.php?topic=5.msg28#msg28). Le 25, le forum est [mis en ligne](https://mmalmi.github.io/satoshi/#email-110) à l'adresse bitcoin.org/smf.
 
@@ -814,8 +765,6 @@ Dans les chapitres précédents, nous avons observé comment Satoshi Nakamoto a 
 L'émergence de la valeur du bitcoin n'était en revanche pas une chose aisée. Il s'agissait en effet de donner une importance économique à un objet qui n'en avait pas auparavant, et ce pour des raisons entièrement subjectives. Hal Finney l'expliquait très bien dans son [courriel](https://www.metzdowd.com/pipermail/cryptography/2009-January/015004.html) du 11 janvier 2009 adressé à la *Cryptography mailing list*, où il écrivait :
 
 > « Un des problèmes immédiats avec n'importe quelle nouvelle monnaie est de savoir comment lui donner une valeur. Même en ignorant le problème pratique lié au fait que quasiment personne ne l'acceptera au début, il est toujours difficile de trouver un argument raisonnable justifiant l'attribution d'une valeur non nulle pour les unités. »
->
-> *original: "One immediate problem with any new currency is how to value it. Even ignoring the practical problem that virtually no one will accept it at first, there is still a difficulty in coming up with a reasonable argument in favor of a particular non-zero value for the coins."*
 
 Ainsi, le phénomène monétaire nécessitait une première évaluation qui se fasse pour une raison non monétaire. Comme l'[écrivait](https://mmalmi.github.io/satoshi/#email-1) Satoshi à Martti, il fallait une « étincelle » pour lancer la combustion d'un matériau inflammable. (*original: "They concede that something is flammable, but argue that it'll never burn because there'll never be a spark."*)
 
@@ -832,16 +781,12 @@ Le premier motif, qui est probablement le moins important, est la curiosité tec
 La deuxième raison pour miner est la motivation idéologique. Beaucoup des premiers utilisateurs du logiciel le font « pour la bonne cause », en raison de leurs croyances personnelles. Ils mettent à disposition leur puissance de calcul pour contribuer à la naissance d'une monnaie numérique robuste qui ne repose sur aucune autorité centrale. Hal Finney est le premier à mettre en avant cette conception le 13 novembre 2008 en [écrivant](https://www.metzdowd.com/pipermail/cryptography/2008-November/014848.html) :
 
 > « Le système bitcoin s'avère socialement utile et appréciable, de sorte que les opérateurs de nœuds ont le sentiment d'apporter une contribution bénéfique au monde par leurs efforts (à l'instar des divers projets informatiques "@Home" dans le cadre desquels les gens mettent bénévolement leurs ressources informatiques au service d'une bonne cause). »
->
-> *original: "The bitcoin system turns out to be socially useful and valuable, so that node operators feel that they are making a beneficial contribution to the world by their efforts (similar to the various '@Home' compute projects where people volunteer their compute resources for good causes)."*
 
 En particulier, Bitcoin s'inscrit bien dans le mouvement libertarien étasunien, qui défend le marché libre exacerbé et qui est résolument hostile à l'État, et en particulier à sa mainmise sur la monnaie (« [*End The Fed*](https://en.wikipedia.org/wiki/End_the_Fed) »). C'est pourquoi Satoshi [répond](https://www.metzdowd.com/pipermail/cryptography/2008-November/014853.html) à Hal Finney en écrivant que son argument est « très attrayant pour le point de vue libertarien » dans la mesure où il est possible de « l'expliquer correctement ». (*original: "It's very attractive to the libertarian viewpoint if we can explain it properly."*)
 
 Le troisième moteur derrière le fait de se mettre à miner est l'intérêt spéculatif. Comme nous l'avons expliqué dans le chapitre précédent, la politique monétaire de Bitcoin constitue l'un de ses arguments de vente principaux. Si la quantité de bitcoins en circulation doit tendre vers une quantité fixe (21 millions d'unités), alors leur prix unitaire pourrait devenir très élevé au fur et à mesure que des gens rejoindront l'économie. C'est notamment cet argument qui convainc Dustin Trammell de commencer très vite à générer des bitcoins, comme il le confie à Satoshi dans leur [correspondance privée](https://www.dustintrammell.com/s/Satoshi_Nakamoto.zip) :
 
 > « C'est l'une des raisons qui m'ont poussé à démarrer un nœud si rapidement. &nbsp;Mes systèmes ne font pas grand-chose d'autre lorsqu'ils sont inactifs, alors pourquoi ne pas créer des BitCoins ? &nbsp;Et s'ils valent quelque chose un jour ... ? Ce sera un bonus ! »
->
-> *original: "Yes, I saw that message and was one of the other reasons I started up a node so quickly. &nbsp;My systems aren't doing much of anything else while idle, so why not create BitCoins? &nbsp;And if they're worth something someday...? Bonus!"*
 
 Les deux dernières raisons sont bien plus importantes dans la mesure où elles poussent les gens à miner en continu. Ainsi, durant l'année 2009, plusieurs personnes poussées par ces raisons produisent un nombre conséquent de blocs en apportant leur puissance de calcul au réseau. Parmi ces personnes, on retrouve notamment :
 
@@ -860,8 +805,6 @@ Les deux dernières raisons sont bien plus importantes dans la mesure où elles 
 En octobre 2009, il met en place le premier service de change permettant aux gens de convertir leurs dollars en bitcoins et leurs bitcoins en dollars. Il s'inscrit sur le forum consacré à Bitcoin sur SourceForge et y annonce l'ouverture de son service. Pour estimer le taux de change, il se fonde sur le coût énergétique qui lui est nécessaire pour obtenir une unité, en prenant en compte le prix de l'électricité à son emplacement et la fréquence de sa production personnelle. Sur sa page, il [écrit](https://web.archive.org/web/20091229132610/http://newlibertystandard.wetpaint.com/page/Exchange+Rate) :
 
 > « Notre taux de change est calculé en divisant 1,00 $ par la quantité moyenne d'électricité nécessaire pour faire fonctionner un ordinateur avec une utilisation du processeur élevée pendant un an, soit 1331,5 kWh, multipliée par le coût résidentiel moyen de l'électricité aux États-Unis pour l'année précédente, soit 0,1136 $, le tout divisé par 12 mois, divisé par le nombre de bitcoins générés par mon ordinateur au cours des 30 derniers jours. »
->
-> *original: "Our exchange rate is calculated by dividing $1.00 by the average amount of electricity required to run a computer with high CPU for a year, 1331.5 kWh, multiplied by the the average residential cost of electricity in the United States for the previous year, $0.1136, divided by 12 months divided by the number of bitcoins generated by my computer over the past 30 days."*
 
 Voici les taux de change indicatifs du service, également publiés sur la page personnelle de NLS :
 
@@ -872,8 +815,6 @@ Les échanges se règlent par courriel à l'adresse newlibertystandard@gmail.com
 Le 8 octobre, Martti Malmi [informe](https://mmalmi.github.io/satoshi/#email-34) Satoshi de l'existence du service de NLS. Le créateur de Bitcoin réagit positivement à cette nouvelle, car il songeait [depuis quelque temps](https://mmalmi.github.io/satoshi/#email-28) à mettre en place un moyen de garantir la valeur des bitcoins pour récompenser le minage et lancer la dynamique économique du système. Le 16 octobre, il [écrira](https://mmalmi.github.io/satoshi/#email-35) ainsi à son bras droit :
 
 > « Il est encourageant de voir que davantage de personnes s'intéressent au projet, comme ce site NewLibertyStandard. &nbsp;J'aime son approche de l'estimation de la valeur basée sur l'électricité. &nbsp;Il est instructif de voir quelles explications les gens adoptent. &nbsp;Elles peuvent aider à découvrir une manière simplifiée de comprendre \[Bitcoin\] qui puisse le rendre plus accessible aux masses. &nbsp;De nombreux concepts complexes dans le monde ont une explication simpliste qui satisfait 80 % des gens, et une explication complète qui satisfait les 20 % restants, ceux qui voient les défauts de l'explication simpliste. »
->
-> *original: "It's encouraging to see more people taking an interest such as that NewLibertyStandard site. &nbsp;I like his approach to estimating the value based on electricity. &nbsp;It's educational to see what explanations people adopt. &nbsp;They may help discover a simplified way of understanding it that makes it more accessible to the masses. &nbsp;Many complex concepts in the world have a simplistic explanation that satisfies 80% of people, and a complete explanation that satisfies the other 20% who see the flaws in the simplistic explanation."*
 
 À la suite de l'annonce de NLS, Martti Malmi rentre en contact avec lui. Les deux personnes s'accordent alors pour réaliser un échange. Dans la nuit du 11 au 12 octobre 2009, la première vente de bitcoins en dollars est finalisée : Martti [cède](https://twitter.com/marttimalmi/status/423455561703624704) 5 050 bitcoins provenant de sa production minière à NLS qui lui vire 5,02 $ sur son compte PayPal. Cela correspond à un prix unitaire d'environ 0,001 $.
 
@@ -886,8 +827,6 @@ Dans les mois qui suivent, le service de NLS sera un élément central du dével
 Le début de l'année 2010 est marqué par les balbutiements des échanges commerciaux en cryptomonnaie. NewLibertyStandard, qui est le premier à accepter effectivement de recevoir du bitcoin en l'échange d'un autre bien économique (des dollars en l'occurrence), est aussi premier promoteur de cet essor économique. Le 19 janvier 2010, juste après son inscription sur le nouveau forum, il [écrit](https://bitcointalk.org/index.php?topic=15.msg111#msg111) le texte suivant :
 
 > « Des gens m'ont acheté des bitcoins et m'en ont vendus. L'offre et la demande, même si elle sont faibles, existent déjà et c'est tout ce qu'il faut. Proposer d'échanger des bitcoins contre une autre monnaie n'est en fin de compte pas différent de l'échange de bitcoins contre des biens ou des services. Les monnaies sont des biens et le change est un service. J'ai essayé de penser à quoi acheter ou vendre avec des bitcoins, en dehors des dollars américains, mais je n'ai rien trouvé. N'hésitez pas à nous tenir au courant de ce que vous déciderez de vendre en bitcoins. Pour ce qui est de la question de l'épuisement des fonds, j'ai prévu un don quotidien dans mon budget. Vous pouvez acheter tous mes dollars ou bitcoins aujourd'hui, mais il y en aura toujours plus demain et après-demain. Toutes les personnes qui achètent ou vendent des biens en utilisant des bitcoins, y compris les changeurs, font progresser l'économie de Bitcoin. Que tout le monde fasse sa part. Achetez ou vendez quelque chose en échange de bitcoins ! »
->
-> *original: "I have had people buy bitcoins from me and sell bitcoins to me. Supply and demand, albeit only a small amount, already exists and is all that is really needed. Offering to exchange bitcoins for another currency is ultimately no different from exchanging bitcoins for goods or services. Currencies are goods and exchanging them is a service. I have been trying to think of something besides USD dollars which I can try to buy or sell using bitcoins, but I can't think of anything. Please let us know about whatever you decide to sell for bitcoins. As for the issue of burning through funds, I have written a daily donation into my budget. You can buy all my USD dollars or bitcoins today, but there will always be more tomorrow and the next day. Each person who buys or sells goods using bitcoins, including exchangers, is increasing the bitcoin economy. Everyone, do your part. Buy or sell something in exchange for bitcoins!"*
 
 L'effort de coordination se fait principalement sur le forum. Le 27 janvier, un utilisateur néerlandais se faisant appeler giik crée un [fil](https://bitcointalk.org/index.php?topic=30.0) intitulé « *We accept Bitcoins* » dans lequel il propose de lister les différents services qui acceptent le bitcoin. C'est d'ailleurs à cette époque que le nouveau forum commence à se populariser, et les messages se multiplient. Le 7 février, Satoshi [fait ainsi remarquer](https://mmalmi.github.io/satoshi/#email-153) à Martti Malmi que « le forum est vraiment en train de décoller » et qu'il ne s'attendait pas « à ce qu'il y ait autant d'activité aussi rapidement ». (*original: "The forum sure is taking off. &nbsp;I didn't expect to have so much activity so fast."*)
 
@@ -918,8 +857,6 @@ On voit également le premier service dépositaire dédié à Bitcoin apparaîtr
 À cette époque, les portefeuilles légers (dits « SPV ») n'existent pas, si bien que Satoshi Nakamoto lui-même juge qu'il est alors acceptable de passer par ce type de logiciel, même si cette utilisation va à l'encontre du principe de désintermédiation à la base de Bitcoin. Le 18 mai 2010, il [écrit](https://bitcointalk.org/index.php?topic=125.msg1149#msg1149) ainsi sur le forum :
 
 > « Entretemps, des sites comme [vekja.net](http://vekja.net) et [www.mybitcoin.com](http://www.mybitcoin.com) ont expérimenté des système basés sur des comptes. &nbsp;On crée un compte sur un site web, on y conserve ses bitcoins et on les transfère depuis et vers ce dernier. &nbsp;Créer un compte sur un site web est beaucoup plus facile que d'installer un logiciel et d'apprendre à l'utiliser, et c'est une méthode plus familière pour la plupart des gens. &nbsp;Le seul inconvénient c'est qu'il faut faire confiance au site, mais cela ne pose pas de problème pour la petite monnaie destinée aux micropaiements et aux dépenses diverses. &nbsp;Il s'agit d'un moyen facile de commencer, et on peut passer au logiciel bitcoin proprement dit si les montants reçus deviennent plus importants. »
->
-> *original: "In the meantime, sites like [vekja.net](http://vekja.net) and [www.mybitcoin.com](http://www.mybitcoin.com) have been experimenting with account-based sites. &nbsp;You create an account on a website and hold your bitcoins on account there and transfer in and out. &nbsp;Creating an account on a website is a lot easier than installing and learning to use software, and a more familiar way of doing it for most people. &nbsp;The only disadvantage is that you have to trust the site, but that's fine for pocket change amounts for micropayments and misc expenses. &nbsp;It's an easy way to get started and if you get larger amounts then you can upgrade to the actual bitcoin software."
 
 Enfin, le 19 mai, un utilisateur se faisant appeler Teppy commence à [accepter](https://bitcointalk.org/index.php?topic=30.msg1159#msg1159) le bitcoin pour le jeu massivement multijoueur dont il est l'administrateur, *A Tale in the Desert*.
 
@@ -943,19 +880,6 @@ Toutefois, cette question n'a jamais dérangé Satoshi, qui voyait l'amorçage d
 > Si, pour une raison ou pour une autre, ce métal acquérait une quelconque valeur, alors toute personne souhaitant transférer de la richesse sur une longue distance pourrait en acheter, le transmettre, et faire en sorte que le destinataire le vende.
 >
 > Peut-être qu'il pourrait obtenir une valeur initiale de manière circulaire, comme vous l'avez suggéré, en étant apprécié par des personnes prévoyant son utilité potentielle pour l'échange. (J'en voudrais certainement) Peut-être que des collectionneurs, ou n'importe quelle raison arbitraire, pourraient en être à l'origine. »
->
-> *original: "As a thought experiment, imagine there was a base metal as scarce as gold but with the following properties:*<br>
-> *\- boring grey in colour*<br>
-> *\- not a good conductor of electricity*<br>
-> *\- not particularly strong, but not ductile or easily malleable either*<br>
-> *\- not useful for any practical or ornamental purpose*
->
-> *and one special, magical property:*<br>
-> *\- can be transported over a communications channel*
->
-> *If it somehow acquired any value at all for whatever reason, then anyone wanting to transfer wealth over a long distance could buy some, transmit it, and have the recipient sell it.*
->
-> *Maybe it could get an initial value circularly as you've suggested, by people foreseeing its potential usefulness for exchange. &nbsp;(I would definitely want some) &nbsp;Maybe collectors, any random reason could spark it."*
 
 # Le premier essor de Bitcoin
 <partId>557d792d-34d5-4a10-8977-82afdcfe402b</partId>
@@ -978,8 +902,6 @@ Satoshi Nakamoto est très soucieux de l'augmentation de cette difficulté et ma
 Malgré cet enthousiasme à propos de l'accroissement de la puissance de calcul sur le réseau, Satoshi cherche néanmoins à ralentir la spécialisation du minage pour favoriser la distribution des unités. Jusqu'alors, les mineurs sollicitaient leurs processeurs centraux (CPU) pour extraire les nouveaux bitcoins. Néanmoins, ces processeurs s'avèrent peu performants pour effectuer des opérations répétées, comparés aux processeurs graphiques (GPU) qui sont largement plus adaptées à ce type de calcul répétitif. Par conséquent, tout le monde sait à ce moment-là que cette évolution est inéluctable, y compris Satoshi lui-même. Le 19 décembre 2009, il [déclare](https://bitcointalk.org/index.php?topic=12.msg54#msg54) ainsi :
 
 > « Nous devrions nous mettre d'accord pour reporter la course aux armements des processeurs graphiques aussi longtemps que possible pour le bien du réseau. &nbsp;Les nouveaux utilisateurs pourront beaucoup plus facilement se mettre à niveau s'ils n'ont pas à se préoccuper des pilotes et de la compatibilité des GPU. &nbsp;Il est intéressant de constater que toute personne disposant d'un simple processeur central peut rivaliser de manière relativement égale à l'heure actuelle. »
->
-> *original: "We should have a gentleman's agreement to postpone the GPU arms race as long as we can for the good of the network. &nbsp;It's much easer to get new users up to speed if they don't have to worry about GPU drivers and compatibility. &nbsp;It's nice how anyone with just a CPU can compete fairly equally right now."*
 
 Cependant, quelques mois plus tard, la boîte de Pandore est ouverte. Le fauteur de trouble est Laszlo Hanyecz, développeur américain d'origine hongroise de 28 ans, qui vit en Floride. Celui-ci découvre Bitcoin en avril 2010. Le 9, il se [procure](https://mempool.space/tx/faf172f5dc06b0ae03268555dddcd65be47e9a8a8bb44a122b12bfaf735f9a81#vout=1) 3 300 bitcoins auprès de NLS pour environ 20 $, puis essaie le système en faisant quelques transferts. Le 18, il tente d'engorger le réseau en multipliant les transactions à partir de son [adresse publique](https://mempool.space/address/1XPTgDRhN8RFnzniWCddobD9iKZatrvH4), mais ce dernier tient le coup.
 
@@ -992,8 +914,6 @@ Par la suite, il [adapte](https://bitcointalk.org/index.php?topic=116.msg972#msg
 À la fin du mois d'avril, Laszlo contacte Satoshi pour lui demander son avis, mais ce dernier ne répond que le 17 mai. Le créateur de Bitcoin lui [demande](https://www.reddit.com/r/Bitcoin/comments/36vnmr/heres_what_satoshi_wrote_to_the_man_responsible/) alors de ralentir ses opérations afin que le minage reste accessible pour le plus grand nombre :
 
 > « L'un des principaux attraits pour les nouveaux utilisateurs est que toute personne disposant d'un ordinateur peut générer des unités gratuites. Lorsqu'il y aura 5 000 utilisateurs, cette incitation s'estompera peut-être, mais pour l'instant, c'est toujours vrai. Les processeurs graphiques limiteraient prématurément cette incitation à ceux qui disposent d'un matériel GPU haut de gamme. Il est inévitable que les clusters de calcul GPU finiront par accaparer toutes les unités générées, mais je ne veux pas précipiter l'arrivée de ce jour-là. \[...\] Je ne veux pas passer pour un socialiste, je me moque de la concentration des richesses, mais pour l'instant, nous obtenons plus de croissance en donnant cet argent à 100 % des gens qu'en le donnant à 20 %. En outre, plus nous retarderons la course aux armements des GPU, plus les bibliothèques OpenCL deviendront matures, et plus nombreux seront ceux qui disposeront de cartes graphiques compatibles avec OpenCL. »
->
-> *original: "A big attraction to new users is that anyone with a computer can generate some free coins. When there are 5000 users, that incentive may fade, but for now it's still true. GPUs would prematurely limit the incentive to only those with high end GPU hardware. It's inevitable that GPU compute clusters will eventually hog all the generated coins, but I don't want to hasten that day. (...) I don't mean to sound like a socialist, I don't care if wealth is concentrated, but for now, we get more growth by giving that money to 100% of the people than giving it to 20%. Also, the longer we can delay the GPU arms race, the more mature the OpenCL libraries get, and the more people will have OpenCL compatible video cards."*
 
 Laszlo ne tient pas vraiment compte de cet avertissement et continue de miner des blocs avec sa carte graphique. Il génère ainsi des dizaines de milliers de bitcoins au cours des mois qui suivent. Toutefois, il faudra attendre le mois d'octobre pour voir le minage par GPU se généraliser.
 
@@ -1024,8 +944,6 @@ Le minage de Satoshi est donc résolument altruiste comme le [fera remarquer](ht
 Le mois de mai 2010 est également marqué par un évènement fondateur : le premier achat d'un bien physique en bitcoins. C'est Laszlo Hanyecz qui fait le premier pas. Alors qu'il a accumulé plus de 20 000 bitcoins grâce à son algorithme, il cherche à les réinjecter dans l'économie en obtenant des pizzas. Le 18 mai, il écrit l'[annonce](https://bitcointalk.org/index.php?topic=137.msg1141#msg1141) suivante sur le forum :
 
 > « Je paierai 10 000 bitcoins pour deux ou trois pizzas... genre peut-être 2 grandes pour qu'il m'en reste le lendemain. &nbsp;J'aime avoir des restes de pizza à grignoter pour plus tard. &nbsp;Vous pouvez faire la pizza vous-même et l'amener jusqu'à chez moi ou la commander pour moi dans un service de livraison, mais mon objectif c'est de me faire livrer, en échange de bitcoins, de la nourriture que je n'ai pas à commander ou à préparer moi-même ; un peu comme lorsqu'on commande un "plateau de petit-déjeuner" dans un hôtel ou autre, on vous apporte juste quelque chose à manger et vous êtes content ! \[...\] Si vous êtes intéressé, faites-le moi savoir et nous pourrons nous arranger. »
->
-> *original: "I'll pay 10,000 bitcoins for a couple of pizzas.. like maybe 2 large ones so I have some left over for the next day. &nbsp;I like having left over pizza to nibble on later. &nbsp;You can make the pizza yourself and bring it to my house or order it for me from a delivery place, but what I'm aiming for is getting food delivered in exchange for bitcoins where I don't have to order or prepare it myself, kind of like ordering a 'breakfast platter' at a hotel or something, they just bring you something to eat and you're happy! (...) If you're interested please let me know and we can work out a deal."*
 
 Cette offre trouve preneur au bout de quatre jours. C'est un jeune Californien du nom de Jeremy Sturdivant qui accepte l'échange sur la messagerie instantanée IRC.
 
@@ -1042,8 +960,6 @@ Cela clôt le premier achat d'un bien physique en bitcoins, même si cet achat e
 Le 12 juin, Laszlo Hanyecz [réitère](https://bitcointalk.org/index.php?topic=137.msg1526#msg1526) son offre en écrivant sur le forum :
 
 > « Il s'agit d'une offre ouverte au fait... J'échangerai 10 000 BTC contre 2 de ces pizzas à n'importe quel moment tant que j'ai les fonds. »
->
-> *original: "This is an open offer by the way... I will trade 10,000 BTC for 2 of these pizzas any time as long as I have the funds"*
 
 Il réalisera ainsi plusieurs autres transactions du même type, jusqu'au 4 août où il [écrira](https://bitcointalk.org/index.php?topic=137.msg7544#msg7544) qu'il ne peut pas vraiment se « permettre de continuer à faire ça » puisqu'il ne peut plus « générer des milliers d'unités par jour ». (*original: "I can't really afford to keep doing it since I can't generate thousands of coins a day anymore"*) En cause : la hausse du prix amenée par l'afflux de Slashdot du 11 juillet, ce qui lui vaudra par ailleurs les remarques moqueuses des membres du forum, qui sous-entendent qu'il aurait mieux fait de garder ses bitcoins. Quelques mois plus tard en novembre, alors que le prix du bitcoin gravite autour des 25 centimes, l'utilisateur ribuck [écrira](https://bitcointalk.org/index.php?topic=137.msg25352#msg25352) de manière quasi prophétique : « Cette pizza deviendra-t-elle la première pizza à un million de dollars ? » (*original: "Will this eventually become the world's first million-dollar pizza?"*)
 
@@ -1060,16 +976,12 @@ Gavin Andresen à Townsville dans le Queensland en Australie (source : [archive
 Curieux et inventif, il se met rapidement à travailler sur un projet personnel : un « *Bitcoin Faucet* » (ou « robinet à bitcoins » en français) qui donne des bitcoins à quiconque en fait la requête. Le 11 juin, il [lance](https://bitcointalk.org/index.php?topic=183.msg1488#msg1488) son service et le présente sur le forum de la façon suivante :
 
 > « Pour mon premier projet de programmation sur Bitcoin, j'ai décidé de faire quelque chose qui semble vraiment stupide : j'ai créé un site web qui distribue des bitcoins. \[...\] &nbsp;Pourquoi ? Parce que je veux que le projet Bitcoin réussisse, et je pense qu'il a plus de chances de réussir si les gens peuvent obtenir une poignée d'unités pour l'essayer. »
->
-> *original: "For my first Bitcoin coding project, I decided to do something that sounds really dumb: &nbsp;I created a web site that gives away Bitcoins. (...) &nbsp;Why? &nbsp;Because I want the Bitcoin project to succeed, and I think it is more likely to be a success if people can get a handful of coins to try it out."*
 
 Satoshi réagit favorablement au lancement de ce service, même s'il ne le remarque pas tout de suite. Une semaine plus tard, le 18 juin, il le [félicite](https://bitcointalk.org/index.php?topic=183.msg1620#msg1620) en écrivant qu'il s'agit d'un « excellent choix pour un premier projet » et qu'il avait « prévu de faire exactement la même chose si personne d'autre ne le faisait ». (*original: "Excellent choice of a first project, nice work. &nbsp;I had planned to do this exact thing if someone else didn't do it, so when it gets too hard for mortals to generate 50BTC, new users could get some coins to play with right away."*)
 
 La contribution de Gavin Andresen ne s'arrête pas là. Il s'intéresse profondément à la façon dont Bitcoin fonctionne et entreprend de disséquer le code. Il [découvre](https://bitcointalk.org/index.php?topic=195.msg1606#msg1606) ainsi le système de script intégré au protocole, chose qu'il s'empresse de partager sur le forum. Il fait part de son appréhension vis-à-vis de cette possibilité, car cette dernière réduit la sécurité du système (« la complexité est l'ennemi de la sécurité ») et rend plus difficile le développement d'une seconde implémentation logicielle. Satoshi [explique](https://bitcointalk.org/index.php?topic=195.msg1611#msg1611) alors la raison derrière l'intégration de ce mécanisme, qu'il appelle Script :
 
 > « La nature de Bitcoin est telle que, dès la version 0.1 lancée, son fonctionnement de base était gravé dans le marbre pour le reste de son existence. &nbsp;C'est pour cette raison que je voulais concevoir Bitcoin pour qu'il supporte tous les types de transaction auxquels je pouvais penser. \[...\] &nbsp;La solution était script, qui généralisait le problème de façon à ce que les parties contractantes puissent décrire leurs transactions comme des prédicats que les nœuds du réseau évaluaient. &nbsp;Les nœuds ont seulement besoin de comprendre la transaction dans la mesure où ils évaluent si les conditions de l'expéditeur sont remplies ou non. »
->
-> *original: "The nature of Bitcoin is such that once version 0.1 was released, the core design was set in stone for the rest of its lifetime. &nbsp;Because of that, I wanted to design it to support every possible transaction type I could think of. (...) &nbsp;The solution was script, which generalizes the problem so transacting parties can describe their transaction as a predicate that the node network evaluates. &nbsp;The nodes only need to understand the transaction to the extent of evaluating whether the sender's conditions are met."*
 
 Gavin s'impliquera également dans le développement du logiciel en [implémentant](https://sourceforge.net/p/bitcoin/code/101/) le lancement automatique au démarrage pour Linux, en s'intéressant à l'API (il sera [crédité](https://bitcointalk.org/index.php?topic=570.msg5707#msg5707) pour son amélioration dans la version 0.3.3) et en participant au déploiement du réseau de test (dont il a [l'idée](https://bitcointalk.org/index.php?topic=240.msg2104#msg2104) le 9 juin). Il échangera en privé avec Satoshi, dont il deviendra progressivement le bras droit, Martti Malmi étant [très occupé](https://mmalmi.github.io/satoshi/#email-191) avec son nouvel emploi à plein temps.
 
@@ -1095,8 +1007,6 @@ Le 22 juin, Satoshi [demande](https://bitcointalk.org/index.php?topic=199.msg165
 Le 6 juillet, Satoshi Nakamoto annonce la sortie de la version 0.3 du logiciel. Sachant que cette version risque d'être importante pour l'avancée de Bitcoin, il soigne la présentation et il [écrit](https://bitcointalk.org/index.php?topic=238.msg2004#msg2004) :
 
 > « Voici la version 0.3 de Bitcoin, la cryptomonnaie pair à pair ! &nbsp;Bitcoin est une monnaie numérique qui utilise la cryptographie et un réseau distribué pour remplacer le besoin d'un serveur central de confiance. &nbsp;Échappez au risque d'inflation arbitraire propre aux monnaies gérées de manière centralisée ! &nbsp;La circulation totale du bitcoin est limitée à 21 millions d'unités. &nbsp;Les unités sont progressivement distribuées aux nœuds du réseau en fonction de la puissance de calcul qu'ils fournissent, de sorte que vous pouvez en obtenir une partie en mettant à contribution votre temps CPU inactif. »
->
-> *original :"Announcing version 0.3 of Bitcoin, the P2P cryptocurrency! &nbsp;Bitcoin is a digital currency using cryptography and a distributed network to replace the need for a trusted central server. &nbsp;Escape the arbitrary inflation risk of centrally managed currencies! &nbsp;Bitcoin's total circulation is limited to 21 million coins. &nbsp;The coins are gradually released to the network's nodes based on the CPU power they contribute, so you can get a share of them by contributing your idle CPU time."*
 
 ### Une présentation pour Slashdot
 
@@ -1117,14 +1027,10 @@ Plusieurs membres du forum font des suggestions pour qu'il améliore ce texte. S
 Dans un [courriel](https://mmalmi.github.io/satoshi/#email-197) adressé à Martti Malmi quelques heures plus tard, Satoshi donne deux raisons principales pour expliquer cette volonté de mise en retrait de l'anonymat : le danger pour l'utilisateur et la perception du public. Il écrit :
 
 > « Je pense que nous devrions mettre moins l'accent sur l'aspect anonyme. &nbsp;Avec la popularité des adresses bitcoin au lieu de l'envoi par IP, nous ne pouvons pas donner l'impression que tout est automatiquement anonyme. &nbsp;Il est possible d'être pseudonyme, mais il faut être prudent. \[...\] &nbsp;De plus, "anonyme" sonne un peu suspect. &nbsp;Je pense que les gens qui veulent de l'anonymat le découvriront sans que nous en fassions la promotion. »
->
-> *original :"I think we should de-emphasize the anonymous angle. &nbsp;With the popularity of bitcoin addresses instead of sending by IP, we can't give the impression it's automatically anonymous. &nbsp;It's possible to be pseudonymous, but you have to be careful. (...) &nbsp;Also, anonymous sounds a bit shady. &nbsp;I think the people who want anonymous will still figure it out without us trumpeting it."*
 
 Il conclut son message sur le forum par :
 
 > « Désolé d'être rabat-joie. &nbsp;L'écriture d'une description de ce truc pour le grand public est sacrément difficile. &nbsp;Il n'y a rien à quoi se rapporter. »
->
-> *original: "Sorry to be a wet blanket. &nbsp;Writing a description for this thing for general audiences is bloody hard. &nbsp;There's nothing to relate it to."*
 
 Par la suite, Teppy corrige la présentation en prenant en compte les suggestions. Ainsi, au début du mois de juillet, on constate que le discours autour de Bitcoin est bien calibré, ce qui montre qu'il est mûr pour connaître un afflux sans précédent.
 
@@ -1133,16 +1039,12 @@ Par la suite, Teppy corrige la présentation en prenant en compte les suggestion
 Le 11 juillet 2010, une version rectifiée de la présentation de Bitcoin rédigée par Teppy est [publiée](https://news.slashdot.org/story/10/07/11/1747245/Bitcoin-Releases-Version-03) sur Slashdot. Celle-ci est la suivante :
 
 > « Que pensez-vous de cette technologie disruptrice ? Bitcoin est une monnaie numérique basée sur un réseau pair à pair, sans banque centrale, et sans frais de transaction. À l'aide d'un concept de preuve de travail, les nœuds brûlent des cycles de processeur pour chercher des paquets d'unités et diffusent leurs résultats sur le réseau. L'analyse de la consommation d'énergie révèle que la valeur marchande des bitcoins est déjà supérieure à la valeur de l'énergie nécessaire pour les générer, ce qui indique une demande saine. La communauté a bon espoir que la monnaie restera hors de portée de tout État. »
->
-> *original: "How's this for a disruptive technology? Bitcoin is a peer-to-peer, network-based digital currency with no central bank, and no transaction fees. Using a proof-of-work concept, nodes burn CPU cycles searching for bundles of coins, broadcasting their findings to the network. Analysis of energy usage indicates that the market value of Bitcoins is already above the value of the energy needed to generate them, indicating healthy demand. The community is hopeful the currency will remain outside the reach of any government."*
 
 ![Logo de Slashdot en 2010](assets/img/ch8/1.webp)
 
 La publication est remarquée et près de 500 commentaires sont publiés en quelques jours. Du côté de Bitcoin, ce succès provoque un afflux massif de visiteurs sur le site et sur le forum. L'utilisation de la chaîne explose : le nombre de transactions effectuées sur le réseau passe de 42 le 10 juillet à 1 641 le 12, pour atteindre 5 554 le 14, un record absolu. Le système tient le choc malgré la montée en charge. Le 14, le développeur Gavin Andresen [écrit](https://bitcointalk.org/index.php?topic=286.msg2745#msg2745) ainsi sur le forum :
 
 > « Je pense que Satoshi a fait un travail fantastique : au cours des deux derniers jours où Bitcoin a été "slashdotté", je n'ai entendu parler d'AUCUN problème de perte de transactions Bitcoin, ni de panne du réseau en raison de la charge, ou de quelque problème que ce soit concernant les fonctionnalités de base.
->
-> *original: "I think Satoshi has done an amazingly fantastic job; over the last two days of Bitcoin being 'slashdotted' I haven't heard of ANY problems with Bitcoin transactions getting lost, or of the network crashing due to the load, or any problem at all with the core functionality."*
 
 La première conséquence de cet afflux est que le prix du bitcoin connaît une hausse fulgurante, en [passant](https://bitcoin.zorinaq.com/price/) de 0,008 $ à 0,08 $ en une semaine, soit une multiplication par 10 !
 
@@ -1210,8 +1112,6 @@ Ce correctif permet aux mineurs de rejeter la transaction incriminée comme inva
 Le lendemain matin, peu après 8 heures, la situation conflictuelle est résolue. La chaîne correcte devient plus longue que l'autre, ce qui fait tous les nœuds doivent alors suivre cette chaîne, qu'ils appliquent le correctif ou non. Cet incident a perturbé l'activité du réseau pendant environ 15 heures, mais la réactivité de la communauté a été exemplaire. Satoshi [écrit](https://bitcointalk.org/index.php?topic=823.msg9734#msg9734) ainsi vers 13 heures :
 
 > « Il semble que nous ayons dépassé la mauvaise chaîne aux alentours de la hauteur 74689. &nbsp;Les nœuds 0.3.9 et inférieurs indiquent le numéro de bloc courant depuis quelques heures. \[...\] &nbsp;Merci à tous pour votre réaction rapide ! »
->
-> original: "It looks like we overtook the bad chain somewhere around 74689. &nbsp;0.3.9 and lower nodes have been responding with the current block number for some hours now. (...) Thanks to everyone for the quick response!"
 
 ### Le système d'alerte
 
@@ -1346,8 +1246,6 @@ Mais ce n'est pas tout. À la fin du mois de juillet, Martti Malmi commence à m
 C'est avec la communauté française que les choses changent, notamment grâce à l'action d'un individu : Lucien Grondin, aussi connu sous le pseudonyme grondilu. Le 26 septembre, ce dernier découvre Bitcoin et s'enthousiasme immédiatement pour le projet. En fin de soirée, il écrit ainsi [sur IRC](https://web.archive.org/web/20131201235643/http://www.bitcoinstats.com/irc/bitcoin-dev/logs/2010/09/26#l1285544830) :
 
 > « Mon dieu, je n'arrive pas à dormir ! Je n'arrête pas de penser à ces trucs géniaux. Pour moi, le bitcoin est "l'or du cyperespace" \[sic\]. Je suis juste émerveillé. »
->
-> *original: "gosh I can't sleep ! I keep thinking about this great stuff. To me bitcoin is the "cyperspace gold" \[sic\]. I'm just amazed."*
 
 Quelques jours plus tard, le 30, il publie une [dépêche](https://linuxfr.org/news/connaissez-vous-les-bitcoins) en français sur LinuxFr.org (DLFP). Celle-ci, intitulée « Connaissez-vous les bitcoins ? », est probablement le premier texte de présentation de Bitcoin écrit dans la langue de Molière. L'article touche un grand nombre de personnes, générant près de 350 commentaires. En voici le premier paragraphe tel qu'il [apparaît](https://web.archive.org/web/20101003105210/http://linuxfr.org/2010/09/30/27430.html) à ce moment-là :
 
@@ -1416,8 +1314,6 @@ Quelques jours plus, un [billet](https://web.archive.org/web/20101117060233/http
 Il s'agit d'une très bonne nouvelle pour Bitcoin car les deux initiatives partagent des valeurs communes. De plus, l'EFF est réputée pour avoir apporté une protection légale aux projets de préservation de la vie privée et de partage de données comme Tor et BitTorrent. Satoshi Nakamoto lui-même en est conscient et est particulièrement favorable aux actions de l'organisation, comme le montre son [commentaire](https://mmalmi.github.io/satoshi/#email-254) fait dans un de ses courriels adressé à Gavin Andresen le 6 janvier 2011 :
 
 > « L'EFF est très importante. &nbsp;Nous voulons entretenir de bonnes relations avec elle. &nbsp;Nous sommes le type de projet qu'ils apprécient ; ils ont aidé le projet TOR et ont fait beaucoup pour protéger le partage de fichiers en P2P. »
->
-> *original: "EFF is really important. &nbsp;We want to have a good relationship with them. &nbsp;We're the type of project they like; they've helped the TOR project and done a lot to protect P2P file sharing."*
 
 ### Le retour de Hal Finney
 
@@ -1428,14 +1324,10 @@ Le 30 novembre, il s'inscrit sur le forum de Bitcoin et commence à participer a
 De plus, il étudie le code, qu'il n'a pas observé depuis le lancement, et s'aperçoit de tout le travail qui a été fait. Cet élément le pousse à [écrire](https://bitcointalk.org/index.php?topic=2188.msg29223#msg29223) le commentaire suivant sur le forum le 11 décembre :
 
 > « C'est, il me semble, un travail impressionnant, même si j'aimerais qu'il y ait plus de commentaires. J'ai surtout étudié les modules init, main, script et un peu de net. C'est de la mécanique puissante. »
->
-> *original: "To me it looks like an impressive job, although I'd wish for more comments. Now I've mostly studied the init, main, script and a bit of net modules. This is some powerful machinery."*
 
 Deux heures plus tard, Satoshi lui [répond](https://bitcointalk.org/index.php?topic=2188.msg29259#msg29259) :
 
 > « Ça me touche beaucoup venant de toi, Hal. &nbsp;Merci. »
->
-> *original: "That means a lot coming from you, Hal. &nbsp;Thanks."*
 
 C'est alors l'antépénultième message public du créateur de Bitcoin, qui disparaîtra quelques mois plus tard.
 
@@ -1461,8 +1353,6 @@ Satoshi est en effet le meneur attitré du projet, soit ce qu'on appelle dans le
 Le code source de Bitcoin reste cependant libre, de sorte que n'importe qui peut le copier et le modifier, ce qui empêche l'évolution du protocole d'être complètement arbitraire. Tel que l'[exprime](https://buildingbitcoin.org/bitcoin-dev/log-2010-11-19.html#l-1538) Jeff Garzik le 19 novembre :
 
 > « \[S\]atoshi a sorti des chiffres magiques de son chapeau, et nous soutenons collectivement cette direction. \[...\] À la minute où Satoshi fera quelque chose de fou qui n'est pas soutenu par la communauté, il y aura un véritable embranchement du protocole / de la base de code. »
->
-> *original: "satoshi came up with magic numbers out of thin air, and we collectively support that leadership (...) the minute satoshi does something crazy and not supported by the community, is the moment the protocol/codebase is truly forked."*
 
 Ainsi, le rôle de meneur de Satoshi n'empêche pas la critique d'avoir lieu. C'est pourquoi des tensions apparaissent progressivement dans la communauté à partir du mois de juillet. On voit par exemple surgir des contestations à l'occasion du [déploiement](https://bitcointalk.org/index.php?topic=898.msg10745#msg10745) du système d'alerte en août ou de la [modification](https://bitcointalk.org/index.php?topic=1901.msg24050#msg24050) de la fonction `getwork` de m0mchil en novembre. La frustration vis-à-vis de cette prise de décision dictatoriale est parfois exprimée de manière [beaucoup plus ouverte](https://buildingbitcoin.org/bitcoin-dev/log-2010-11-24.html#l-384) sur IRC.
 
@@ -1485,22 +1375,16 @@ Amir Taaki en décembre 2012 à Bratislava (source : [Mitch Altman](https://www
 Hackeur, anarchiste et [joueur de poker](https://bitcointalk.org/index.php?topic=1487.0), celui-ci a fraîchement appris l'existence du modèle de Satoshi Nakamoto. Il voit dans la situation de WikiLeaks une opportunité de démontrer l'utilité de Bitcoin. Le 10 novembre, il [écrit](https://bitcointalk.org/index.php?topic=1735.msg21271#msg21271) le message suivant sur le forum :
 
 > « Je voulais envoyer une lettre à Wikileaks à propos de Bitcoin car, malheureusement, ils ont subi plusieurs incidents où leurs fonds ont été saisis dans le passé. \[...\] Quelqu'un sait où leur envoyer un message ? »
->
-> *original: "I wanted to send a letter to Wikileaks about Bitcoin since unfortunately they've had several incidents where their funds have been seized in the past. (...) Anyone know where to send a message to them?"*
 
 Les réactions à cette proposition sont mitigées. [D'après](https://bitcointalk.org/index.php?topic=1735.msg21283#msg21283) un utilisateur (ShadowOfHarbringer) « cela peut être bénéfique pour wikileaks, mais pas nécessairement pour Bitcoin ». (*original: "this may be good for wikileaks, but not nocessarily good for Bitcoin"*) Un autre (creighto) [écrit](https://bitcointalk.org/index.php?topic=1735.msg21415#msg21415) que « le plus tard sera le mieux » et que « plus les États attendent pour agir, plus le réseau bitcoin se renforce et plus il devient difficile de lui nuire ». (*original: "The later the better. &nbsp;The longer that governments wait to act, the stronger the bitcoin network grows, and the harder it becomes to harm it."*)
 
 Quelques semaines plus tard, le 3 décembre, PayPal décide de geler le compte de WikiLeaks et publie un [communiqué](https://web.archive.org/web/20101206112350/https://www.thepaypalblog.com/2010/12/paypal-statement-regarding-wikileaks/) dans la nuit. Le lendemain matin, le développeur Wladimir van der Laan [relaie](https://bitcointalk.org/index.php?topic=1735.msg26737#msg26737) cette nouvelle sur le forum :
 
 > « Paypal vient de les bloquer et tente de convaincre d'autres banques étasuniennes de faire de même. Ce serait le moment idéal pour mettre en place les dons en bitcoins. »
->
-> *original: "Paypal just blocked them, and they're trying to get other US banks do the same. This would be a great moment to open bitcoin donations."*
 
 Cette évolution de la situation renforce le débat. Un individu est particulièrement favorable à l'acception du Bitcoin par WikiLeaks : il s'agit de Robert S. Horning, un ingénieur en informatique vivant dans l'Utah, qui est [blogueur](https://www.blogger.com/profile/12496217305843430098) et contributeur pour Wikipédia, et qui a découvert Bitcoin suite au slashdotting de juillet. Ce jour-là, il écrit un long texte dans lequel il explique que soutenir WikiLeaks est la chose à faire d'un point de vue moral et que l'État entendra de toute façon parler de Bitcoin tôt ou tard. Il conclut :
 
 > « En gros, allons-y. &nbsp;Encourageons Wikileaks à utiliser les Bitcoins et je suis prêt à faire face à tout risque ou retombée de cet acte. »
->
-> *original: "Basically, bring it on. &nbsp;Let's encourage Wikileaks to use Bitcoins and I'm willing to face any risk or fallout from that act."*
 
 ### Le départ précipité de Satoshi
 
@@ -1511,20 +1395,12 @@ Satoshi n'est pas du tout de l'avis de Robert Horning et s'oppose à l'idée de 
 > Le projet a besoin de grandir progressivement pour que le logiciel puisse se renforcer en cours de route.
 >
 > J'appelle WikiLeaks à ne pas commencer à utiliser Bitcoin. &nbsp;Bitcoin est une petite communauté expérimentale encore naissante. &nbsp;Vous n'obtiendriez rien de plus que quelques piécettes et l'agitation que vous apporteriez nous détruirait probablement à ce stade. »
->
-> *original: "No, don't 'bring it on'.*
->
-> *The project needs to grow gradually so the software can be strengthened along the way.*
->
-> *I make this appeal to WikiLeaks not to try to use Bitcoin. &nbsp;Bitcoin is a small beta community in its infancy. &nbsp;You would not stand to get more than pocket change, and the heat you would bring would likely destroy us at this stage."*
 
 Dans les jours qui suivent, c'est un véritable blocus financier qui s'organise contre WikiLeaks, auquel participent Mastercard et Visa, mais aussi Western Union, Bank of America et d'autres acteurs, ce qui [met en péril](https://wikileaks.org/Banking-Blockade.html) la survie financière de l'ONG. Cette offensive rend l'acceptation du bitcoin encore plus pertinente et l'idée se répand naturellement.
 
 Le 11 décembre, un article mettant en avant la possibilité d'une utilisation de Bitcoin par WikiLeaks est [publié](https://www.pcworld.com/article/499375/could_wikileaks_scandal_lead_to_new_virtual_currency.html) sur PC World, l'un des plus grands sites web américains consacrés à l'informatique. Ce texte, écrit par le journaliste [Keir Thomas](https://www.keirthomas.com/how-i-caused-the-bitcoin-guy-to-go-into-hiding/), s'intitule « *Could the Wikileaks Scandal Lead to New Virtual Currency?* ». La boîte de Pandore est ouverte : l'article de PC World sera lu par de nombreuses personnes, dont probablement les responsables de WikiLeaks, ce qui poussera l'ONG à envisager ce moyen de paiement. L'article est rapidement évoqué sur le forum et la réaction du créateur de Bitcoin est sans appel. Ce dernier [écrit](https://bitcointalk.org/index.php?topic=2216.msg29280#msg29280) :
 
 > « Il aurait été bon d'attirer cette attention dans un tout autre contexte. &nbsp;WikiLeaks a donné un coup de pied dans le nid de frelons, et l'essaim se dirige maintenant vers nous. »
->
-> *original: "It would have been nice to get this attention in any other context. &nbsp;WikiLeaks has kicked the hornet's nest, and the swarm is headed towards us."*
 
 Le lendemain, Satoshi [publie](https://bitcointalk.org/index.php?topic=2228.msg29479#msg29479) son dernier message public sur le forum, qui annonce la sortie d'une nouvelle version du logiciel (v0.3.19) améliorant notamment la gestion des attaques par déni de service. Puis, il se retire du feu des projecteurs, ne communiquant plus qu'en privé avec ses plus proches collaborateurs.
 
@@ -1543,8 +1419,6 @@ Tout d'abord, il tient à ajouter leurs adresses de courriel à la [page de cont
 Mais ce n'est pas tout. Satoshi souhaite également transmettre son contrôle sur le logiciel à Gavin Andresen. Gavin, qui a déjà obtenu un accès en écriture au dépôt sur SourceForge [en octobre](https://sourceforge.net/p/bitcoin/code/165/), devient le mainteneur principal du dépôt. Le 19 décembre, il [crée](https://api.github.com/repos/bitcoin/bitcoin) le dépôt sur GitHub, étant probablement plus à l'aise avec Git. Le même jour, il écrit un long message sur le forum expliquant qu'il va s'impliquer plus dans le développement. Il [annonce](https://bitcointalk.org/index.php?topic=2367.msg31651#msg31651) :
 
 > « Avec la bénédiction de Satoshi, et avec beaucoup de réticence, je vais commencer à gérer le projet Bitcoin de manière plus active. »
->
-> *original: "With Satoshi's blessing, and with great reluctance, I'm going to start doing more active project management for bitcoin."*
 
 Satoshi transmet le contrôle sur le site web, le forum et le wiki à Martti, qui co-gérait déjà ces éléments. Puis, il se volatilise définitivement durant le printemps 2011.
 
@@ -1553,24 +1427,18 @@ Parmi les dernières personnes à communiquer avec Satoshi, il y a aussi Mike He
 Le 26 avril 2011, Satoshi envoie un [dernier message](http://gavinandresen.ninja/eleven-years-ago-today) par courrier électronique à Gavin, dans lequel il écrit :
 
 > « J'aimerais que tu évites de parler de moi comme d'un personnage sombre et mystérieux, la presse tourne simplement ça sous l'angle d'une monnaie pirate. &nbsp;Peut-être que tu devrais plutôt parler du projet open source et donner plus de crédit aux développeurs qui contribuent : cela aide à les motiver. »
->
-> *original: "I wish you wouldn't keep talking about me as a mysterious shadowy figure, the press just turns that into a pirate currency angle. &nbsp;Maybe instead make it about the open source project and give more credit to your dev contributors; it helps motivate them."*
 
 Satoshi fait ici référence à un [article](https://www.forbes.com/forbes/2011/0509/technology-psilocybin-bitcoins-gavin-andresen-crypto-currency.html) d'Andy Greenberg publié sur le site de Forbes quelques jours auparavant, dans lequel il est présenté comme « un personnage mystérieux, obsédé par la vie privée » (*original: "a mysterious, privacy-obsessed figure"*) et où Bitcoin est mis en avant comme un moyen de se procurer des drogues illégales (c'est en effet la période où la plateforme Silk Road commence à avoir du succès). Dans son courriel à Gavin, Satoshi joint également la clé d'alerte, permettant d'avertir le réseau en cas de problème technique.
 
 Enfin, début mai, il fait également ses adieux à Martti. Ses derniers mots pour son premier bras droit sont les suivants :
 
 > « Je suis passé à autre chose et je ne serai probablement plus là à l'avenir. »
->
-> *original (Digital Gold p. 81): "I've moved to other things and probably won't be around in the future."*
 
 ### La CIA, WikiLeaks et l'EFF
 
 Le 26 avril 2011, Gavin Andresen envoie un [dernier courriel](http://gavinandresen.ninja/eleven-years-ago-today) à Satoshi Nakamoto, auquel ce dernier ne répondra pas. Dans ce courriel, il [indique](http://gavinandresen.ninja/eleven-years-ago-today) avoir été invité par l'In-Q-Tel, un fonds américain de capital-investissement géré par la CIA, afin qu'il présente Bitcoin. Il a très bien conscience du type de réaction que cette visite va engendrer mais décide tout de même d'y aller. Il se justifie en écrivant à Satoshi :
 
 > « J'espère qu'en parlant directement avec "eux" et, plus important encore, en écoutant leurs questions/préoccupations, ils considéreront Bitcoin comme je le fais - comme une monnaie tout simplement meilleure, plus efficace, moins sujette aux caprices de la politique. Pas comme un outil de marché noir tout-puissant qui sera utilisé par les anarchistes pour renverser le Système. »
->
-> *original: "I hope that by talking directly to 'them' and, more importantly, listening to their questions/concerns, they will think of Bitcoin the way I do– as a just-plain-better, more efficient, less-subject-to-political-whims money. Not as an all-powerful black-market tool that will be used by anarchists to overthrow The System."*
 
 Le lendemain, Gavin [annonce](https://bitcointalk.org/index.php?topic=6652.msg97181#msg97181) la nouvelle sur le forum en toute transparence. Il précise avoir été payé 3000 $ pour ce voyage. Toutefois, cela n'émeut pas tellement la communauté qui comprend sa démarche, même si évidemment la méfiance est de mise. La visite de Gavin dans les locaux de la CIA [se passe](https://twitter.com/gavinandresen/status/80785477342478336) le 14 juin.
 
@@ -1593,12 +1461,6 @@ Cette dimension mystérieuse entourant le créateur de Bitcoin a par ailleurs é
 > Pour certains, c'était un ange gardien. Pour d'autres, \[une énigme,\] un fantôme, toujours un peu à l'écart.
 >
 > Que représente le S ? »
->
-> *original: "How do you find someone who has spent a lifetime covering his tracks?*
->
-> *For some, he was a guardian angel. For others, a ghost, who never quite fit in.*
->
-> *What's the S stand for?"*
 
 ## La prise de relai de la communauté
 <chapterId>16c5e6d6-2412-48c6-9687-6af92cf0d89a</chapterId>
@@ -1606,8 +1468,6 @@ Cette dimension mystérieuse entourant le créateur de Bitcoin a par ailleurs é
 Après le départ de Satoshi Nakamoto, il a été nécessaire de faire sans lui. Heureusement, Bitcoin était un projet libre, auquel tout le monde pouvait contribuer, de sorte que la disparition de son fondateur n'a pas été fatale pour lui. Comme l'[écrivait](https://bitcointalk.org/index.php?topic=628.msg6578#msg6578) le développeur Jeff Garzik en juillet 2010 (à propos de l'éventualité d'une absence du fondateur) :
 
 > « Les gens s'inquiètent beaucoup des règles et de leur élaboration. &nbsp;Mais il n'y a aucun besoin de plan de continuité du gouvernement ici. &nbsp;Tant que le code source reste ouvert, c'est suffisant. &nbsp;S'il existe un besoin et suffisamment d'intérêt, la communauté s'en chargera. &nbsp;Faites confiance à la communauté. »
->
-> *original: "People worry an awful lot about rules and rule-making. &nbsp;But there is no driving need for any Continuity of Government plan, here. &nbsp;As long as the source code remains open, that is sufficient. &nbsp;If there is a need, and enough interest, the community will provide. &nbsp;Trust in the community."*
 
 Toutefois, cette disparition n'a pas été sans heurts. L'absence de Satoshi impliquait qu'il n'y avait plus d'autorité d'où émanait la direction à prendre. Il fallait se coordonner, tant du point de vue du développement logiciel que de la communication externe. Les membres de la communauté naissante de Bitcoin ont dû ainsi faire de nombreux efforts pour normaliser ces pratiques.
 

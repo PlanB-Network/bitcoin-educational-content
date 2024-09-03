@@ -2182,7 +2182,7 @@ https://planb.network/tutorials/privacy/payjoin-sparrow-wallet
 
 https://planb.network/tutorials/privacy/payjoin-samourai-wallet
 
-## Mini-Payjoin Coinjoins
+## Mini-coinjoiny pro platby
 <chapterId>300777ee-30ae-43d7-ab00-479dac3522c1</chapterId>
 
 Pokud hledáte způsob, jak provést platební transakci při zachování určitého stupně soukromí, payjoin je dobrá volba. Ale jak jsme viděli, payjoin vyžaduje zapojení příjemce. Co dělat, pokud tento odmítne účastnit se payjoinu, nebo pokud jednoduše preferujete nezapojovat ho? Alternativou je použití transakce Stonewall nebo Stonewall x2. Podívejme se blíže na tyto dva typy transakcí.

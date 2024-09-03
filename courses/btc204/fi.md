@@ -2206,7 +2206,7 @@ https://planb.network/tutorials/privacy/payjoin-sparrow-wallet
 
 https://planb.network/tutorials/privacy/payjoin-samourai-wallet
 
-## Mini-Payjoin Coinjoins
+## Maksujen mini-coinjoinit
 
 <chapterId>300777ee-30ae-43d7-ab00-479dac3522c1</chapterId>
 

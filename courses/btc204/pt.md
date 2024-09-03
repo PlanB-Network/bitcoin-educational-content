@@ -2140,7 +2140,7 @@ https://planb.network/tutorials/privacy/payjoin-sparrow-wallet
 
 https://planb.network/tutorials/privacy/payjoin-samourai-wallet
 
-## Mini-Payjoin Coinjoins
+## Mini-coinjoins de pagamento
 <chapterId>300777ee-30ae-43d7-ab00-479dac3522c1</chapterId>
 
 Ao procurar fazer uma transação de pagamento preservando um certo grau de privacidade, payjoin é uma boa opção. Mas como vimos, payjoin requer o envolvimento do destinatário. O que fazer então se este se recusar a participar em um payjoin, ou se simplesmente preferir não envolvê-lo? Uma alternativa é usar uma transação Stonewall ou Stonewall x2. Vamos dar uma olhada mais de perto nestes dois tipos de transações.

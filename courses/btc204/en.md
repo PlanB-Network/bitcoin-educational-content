@@ -2232,7 +2232,7 @@ https://planb.network/tutorials/privacy/payjoin-sparrow-wallet
 
 https://planb.network/tutorials/privacy/payjoin-samourai-wallet
 
-## Mini-Payjoin Coinjoins
+## Payment Mini-Coinjoins
 <chapterId>300777ee-30ae-43d7-ab00-479dac3522c1</chapterId>
 
 When looking to make a payment transaction while preserving a certain degree of privacy, payjoin is a good option. But as we have seen, payjoin requires the involvement of the recipient. What to do then if the latter refuses to participate in a payjoin, or if you simply prefer not to involve them? An alternative is to use a Stonewall or Stonewall x2 transaction. Let's take a closer look at these two types of transactions.

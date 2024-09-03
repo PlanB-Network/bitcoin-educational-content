@@ -2146,6 +2146,8 @@ Leider sind diese Tools derzeit nicht betriebsbereit, nachdem die Gründer von S
 
 Nun, da wir Coinjoins im Detail besprochen haben, werden wir im letzten Abschnitt unseres Trainings andere verfügbare Datenschutztechniken bei Bitcoin erkunden. Wir werden Payjoins, spezifische Transaktionstypen Pseudo-Coinjoins, statische Adressprotokolle sowie Maßnahmen untersuchen, die darauf abzielen, die Privatsphäre nicht auf Transaktionsebene, sondern auf der Ebene des Netzwerks von Knoten zu verbessern.
 
+https://planb.network/tutorials/privacy/boltzmann-entropy
+
 # Verständnis der Herausforderungen anderer fortgeschrittener Datenschutztechniken
 <partId>19989ae6-d608-4acf-b698-2cf1e7e5e6ae</partId>
 

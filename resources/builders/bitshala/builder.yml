@@ -1,4 +1,10 @@
 name: Bitshala
+category: communities
+address_line_1: Bangalore, India
+address_line_2:
+address_line_3:
+language:
+  - en
 links:
   website: https://www.bitshala.org
   twitter: https://twitter.com/bitshala_org
@@ -7,8 +13,6 @@ links:
 tags:
   - education
   - development
-
-category: education
 
 # Proofreading metadata
 original_language: en

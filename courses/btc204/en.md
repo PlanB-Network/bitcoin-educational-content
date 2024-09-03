@@ -2408,6 +2408,8 @@ Ricochet simply involves sending bitcoins to oneself. It is entirely possible to
 
 In the following chapter, we explore different techniques for secret property transfers. These methods differ radically from those we have examined so far, both in terms of operation and results.
 
+https://planb.network/tutorials/privacy/ricochet
+ 
 ## Secret Property Transfers
 <chapterId>a2067036-849c-4d6b-87d2-44235cfae7a1</chapterId>
 

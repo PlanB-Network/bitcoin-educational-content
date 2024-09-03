@@ -2275,6 +2275,8 @@ Ricochet đơn giản chỉ là việc gửi bitcoins cho chính mình. Hoàn to
 
 Trong chương tiếp theo, chúng ta sẽ khám phá các kỹ thuật khác nhau cho việc chuyển giao tài sản bí mật. Những phương pháp này khác biệt rõ rệt so với những gì chúng ta đã xem xét cho đến nay, cả về cách thức hoạt động và kết quả.
 
+https://planb.network/tutorials/privacy/ricochet
+ 
 ## Chuyển Giao Tài Sản Bí Mật
 <chapterId>a2067036-849c-4d6b-87d2-44235cfae7a1</chapterId>
 

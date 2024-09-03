@@ -2380,6 +2380,8 @@ Ricochet besteht einfach darin, Bitcoins an sich selbst zu senden. Es ist durcha
 
 Im folgenden Kapitel erkunden wir verschiedene Techniken für geheime Eigentumsübertragungen. Diese Methoden unterscheiden sich radikal von denen, die wir bisher untersucht haben, sowohl in Bezug auf die Funktionsweise als auch die Ergebnisse.
 
+https://planb.network/tutorials/privacy/ricochet
+ 
 ## Geheime Eigentumsübertragungen
 <chapterId>a2067036-849c-4d6b-87d2-44235cfae7a1</chapterId>
 

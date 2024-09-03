@@ -3,5 +3,60 @@ difficulty: hard
 duration: 45
 author: DecouvreBitcoin
 tags:
-- Bitcoin Protocol
-- Halving
+  - Bitcoin Protocol
+  - Halving
+
+# Proofreading metadata
+original_language: en
+proofreading:
+  - language: cs
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2590
+  - language: de
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2545
+  - language: en
+    last_contribution_date: 2024-09-01
+    urgency: 1
+    contributors_id:
+      - Asi0Flammeus
+    reward: 2545
+  - language: es
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2567
+  - language: fi
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2590
+  - language: fr
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2545
+  - language: it
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2567
+  - language: ja
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2635
+  - language: pt
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2545
+  - language: vi
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2635

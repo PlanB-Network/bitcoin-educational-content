@@ -353,7 +353,7 @@ Antminer S9 koostuu seuraavista osista:
 Käytettyä konetta ostaessa on tärkeää tarkistaa, että kaikki osat ovat mukana ja toimivat. Vaihdon aikana sinun tulisi pyytää myyjää käynnistämään kone tarkistaaksesi sen toimivuuden. On tärkeää varmistaa, että laite käynnistyy oikein, ja sitten tarkistaa internet-yhteys kytkemällä Ethernet-kaapeli ja pääsemällä Bitmainin kirjautumisliittymään verkkoselaimen kautta samassa paikallisverkossa. Tämän IP-osoitteen löydät yhdistämällä internet-reitittimesi liittymään ja etsimällä yhdistettyjä laitteita. Tämän osoitteen tulisi olla seuraavassa muodossa: 192.168.x.x
 
 ![kuva](assets/guide-achat/8.webp)
-Tarkista myös, että oletusarvoiset tunnukset toimivat (käyttäjänimi: root, salasana: root). Jos oletusarvoiset tunnukset eivät toimi, sinun tarvitsee nollata laite.
+Tarkista myös, että oletusarvoiset tunnukset toimivat (käyttäjäname: root, salasana: root). Jos oletusarvoiset tunnukset eivät toimi, sinun tarvitsee nollata laite.
 ![kuva](assets/guide-achat/9.webp)
 
 Kun olet yhdistänyt, sinun pitäisi pystyä näkemään kunkin hashboardin tila hallintapaneelissa. Jos louhija on yhdistetty pooliin, sinun pitäisi nähdä kaikkien hashboardien toimivan. On tärkeää huomata, että louhijat pitävät paljon melua, mikä on normaalia. Varmista myös, että tuulettimet toimivat kunnolla.
@@ -496,7 +496,7 @@ Voit löytää koneesi IP-osoitteen käyttämällä BOS toolbox -työkalua tai s
 
 Oletustunnukset ovat samat kuin alkuperäisessä käyttöjärjestelmässä.
 
-- käyttäjänimi: root
+- käyttäjäname: root
 - salasana: (ei ole)
 
 Tämän jälkeen sinut toivottaa tervetulleeksi Braiins OS+ -hallintapaneeli.
@@ -704,6 +704,11 @@ Tämä asettaa ylärajan koneen hash-nopeudelle. Autotuning on prosessi, jossa a
 
 Lopputuloksena on korkeampi hash-nopeus wattia kohden, mikä tarkoittaa suurempia voittomarginaaleja louhijoille. Syy siihen, miksi koneita ei jaeta tämän tyyppisen ohjelmiston kanssa, on se, että koneiden vaihtelu on epätoivottavaa, koska asiakkaat haluavat tietää tarkalleen, mitä he saavat, joten valmistajille on huono idea myydä tuotetta, jolla ei ole johdonmukaista ja ennustettavaa suorituskykyä koneesta toiseen. Lisäksi sirutason autotuning vaatii huomattavia kehitysresursseja, sillä sen toteuttaminen on monimutkaista. Valmistajat käyttävät jo paljon resursseja kehittäessään omia firmwarejaan. On olemassa ohjelmistoratkaisuja, jotka mahdollistavat autotuningin, kuten Braiins OS+. Lisäksi ASIC-suorituskyvyn parantaminen jopa 20%:lla.
 
+
+
+## Anna meille palautetta tästä kurssista
+<chapterId>6af13742-df68-5cf4-b7aa-93dc0c2eaae9</chapterId>
+<isCourseReview>true</isCourseReview>
 ## Antminer S9:n hallinta älypuhelimellasi
 <chapterId>6e7c234a-a445-5070-b087-531d16c42107</chapterId>
 

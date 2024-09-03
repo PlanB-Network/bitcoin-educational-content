@@ -1018,6 +1018,11 @@ Kirjoitti Frédéric Bastiat lyhyessä pamfletissa nimeltä Valtio.
 
 <partId>3b62de5c-5d4a-5182-ab14-f7ef13c97e28</partId>
 
+
+
+## Anna meille palautetta tästä kurssista
+<chapterId>db20170d-ceb6-56cd-b4e5-c690942f8b29</chapterId>
+<isCourseReview>true</isCourseReview>
 ## Frédéric Bastiatin perintö
 
 <chapterId>2a2a181a-e477-5be1-ba1f-af59490c364e</chapterId>
@@ -1048,5 +1053,4 @@ Mutta kuten Bastiat osuvasti osoitti, valtion interventiolla on perverssejä vai
 ![kuva](assets/image/20/IMG09.webp)
 Jos tarkastelemme asioita tästä näkökulmasta, Reagan selitti GE:n työntekijöille, niin kutsutut valtion menojen ihmeet näyttäytyvät täysin eri valossa. Koska verotus vähentää tuotantoa, ja julkisen menon luoma vauraus ei voi täysin korvata niitä, jotka estettiin syntymästä veroilla, jotka kerättiin näiden kulujen kattamiseksi.
 ![kuva](assets/image/20/IMG10.webp)
-
 Ytimessään Reagan otti Bastiatilta useita avainelementtejä liberaalin yhteiskunta- ja ihmiskuvan osalta: siviiliyhteiskunnan ensisijaisuus valtioon nähden, valinnan ja yksilöllisen vastuun arvo, yrittäjän merkitys vaurauden luomisessa, joustavan ja minimaalisen lainsäädännön tärkeys, mikä mahdollistaa luottamuksen ja sopimusten kunnioittamisen, peruslaki, jonka mukaan vauraus on luotava ennen kuin sitä voidaan jakaa, halu antaa jokaiselle mahdollisuus kilpailullisilla markkinoilla…

@@ -9,3 +9,63 @@ professors:
 contributors:
   - rabbit-hole
   - another-satoshi
+
+# Proofreading metadata
+original_language: fr
+proofreading:
+  - language: cs
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 71608
+  - language: de
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 37054
+  - language: en
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 37054
+  - language: es
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 54331
+  - language: fi
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 71608
+  - language: fr
+    last_contribution_date: 2024-06-08
+    urgency: 1
+    contributors_id:
+      - elDaz2
+    reward: 37054
+  - language: it
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 54331
+  - language: ja
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 106162
+  - language: pt
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 37054
+  - language: ru
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 71608
+  - language: vi
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 106162

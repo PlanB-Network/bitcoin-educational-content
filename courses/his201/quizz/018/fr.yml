@@ -1,0 +1,9 @@
+question: Quelle était la particularité de RPOW par rapport aux autres concepts de monnaie numérique que sont eCash, b-money et bit gold ?
+answer: Il se basait sur un serveur transparent
+wrong_answers:
+  - Il utilisait la preuve de travail
+  - Son unité de compte n'était adossée à rien
+  - Les utilisateurs possédaient des billets numériques de coupures spécifiques plutôt que des comptes
+explanation: |
+  Il faisait usage de la preuve de travail comme b-money et bit gold. Il n'y avait pas d'adossement comme dans bit gold. Comme eCash (et comme Bitcoin plus tard), RPOW permettait de détenir des billets numériques individuels, plutôt qu'un compte, et était en cela relativement confidentiel.
+reviewed: false

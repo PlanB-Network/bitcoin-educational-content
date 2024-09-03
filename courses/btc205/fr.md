@@ -389,6 +389,11 @@ La formation souligne l'importance du rôle de l'éducation dans la compréhensi
 
 En conclusion, Bitcoin est présenté comme une monnaie décentralisée nécessitant une éducation publique et une ouverture d'esprit pour être pleinement compris et utilisé. La formation vise à aider les participants à comprendre les diverses solutions d'achat en pair à pair et à utiliser ces outils pour renforcer leur anonymat et leur sécurité lors de l'utilisation de Bitcoin.
 
+
+
+## Donnez-nous votre avis sur ce cours
+<chapterId>a6410a99-adfc-50fd-a004-8048be620c8a</chapterId>
+<isCourseReview>true</isCourseReview>
 ## Article bonus sur la vie privée
 <chapterId>9f1aa75a-3031-58b2-9d4a-11a5c4197302</chapterId>
 

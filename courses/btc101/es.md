@@ -1296,9 +1296,10 @@ Cambiar el sistema financiero requiere cambiar la moneda. Satoshi creó Bitcoin 
 ¡Felicitaciones por completar este curso BTC 101! Espero de todo corazón que te haya gustado y abierto puertas. Tu descubrimiento de Bitcoin apenas está comenzando y te invito a explorar todos los demás cursos disponibles en la universidad.
 
 - [BTC 102](https://planb.network/courses/btc102) te ayudará a establecer tu plan de Bitcoin
-- [LN 201](https://planb.network/courses/ln201) y [LN 202](https://planb.network/course/ln202) te permitirán descubrir la Lightning Network, una red de pagos de segunda capa.
-- [ECON 201](https://planb.network/courses/econ201) abordará la economía austriaca- [ SECU 101 ](https://planb.network/courses/secu101) te permitirá actualizar tu seguridad digital
-- [MINAGE 201](https://planb.network/courses/min201) para aprender más sobre la minería
+- [LNP 201](https://planb.network/courses/lnp201) te permitirá descubrir la Lightning Network, una red de pagos de segunda capa.
+- [ECO 201](https://planb.network/courses/eco201) abordará la economía austriaca
+- [SCU 101 ](https://planb.network/courses/scu101) te permitirá actualizar tu seguridad digital
+- [MIN 201](https://planb.network/courses/min201) para aprender más sobre la minería
 - y muchos más...
 
 ## Apóyanos
@@ -1306,6 +1307,11 @@ Cambiar el sistema financiero requiere cambiar la moneda. Satoshi creó Bitcoin 
 
 Este curso, junto con todo el contenido presente en esta universidad, te ha sido ofrecido de forma gratuita por nuestra comunidad. Para apoyarnos, puedes compartirlo con tus amigos, convertirte en miembro de la universidad e incluso contribuir a su desarrollo a través de [nuestro GitHub](https://github.com/PlanB-Network/bitcoin-educational-content). ¡En nombre de todo el equipo, gracias!
 
+
+
+## Danos tu opinión sobre este curso
+<chapterId>585729e2-b0ab-51b5-89ec-593e3ea22c57</chapterId>
+<isCourseReview>true</isCourseReview>
 ## Califica el curso
 <chapterId>44d01865-5c89-55a5-a397-a014960eec0f</chapterId>
 

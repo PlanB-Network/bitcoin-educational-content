@@ -1403,6 +1403,11 @@ Für Hayek resultiert die vergangene Instabilität der Marktwirtschaft aus der T
 ![image](assets/6/img-006.webp)
 Hayek glaubte, dass ein freier Markt privater Währungen zu größerer monetärer Stabilität führen würde. Fast 50 Jahre später verkörpert eine Kryptowährung wie Bitcoin Hayeks Wettbewerbsvision, indem sie eine dezentralisierte Alternative zum monopolistischen System der Zentralbanken bietet. Bitcoin, mit seinem Emissionslimit von 21 Millionen Einheiten, ist eine Garantie gegen Inflation und die Willkür von Regulierungsbehörden.
 
+
+
+## Geben Sie uns Ihr Feedback zu diesem Kurs
+<chapterId>6759868f-749d-5fe7-bbb1-24f603e8b34e</chapterId>
+<isCourseReview>true</isCourseReview>
 ## Schlussfolgerung: die Macht der Ideen
 
 <chapterId>50676155-c071-5bee-a14e-0c251f0375da</chapterId>

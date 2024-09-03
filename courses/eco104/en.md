@@ -36,9 +36,11 @@ This course has been sponsored by TETHER
 +++
 
 # Introduction
+
 <partId>d44d9f32-c72e-58a4-9855-12e29f3e763c</partId>
 
 ## Introduction
+
 <chapterId>2eaf5947-8180-540e-9418-c40bf04e07ce</chapterId>
 
 ### We live in a world where:
@@ -80,9 +82,11 @@ By the end of this course, you will not only have gained powerful knowledge and 
 We are excited to have you join us on this journey into the depths of our monetary system.
 
 # The Price of Progress - A Closer Look at Our Financial System
+
 <partId>25ed8242-1b5a-5b53-b833-824b0dd80bcc</partId>
 
 ## An Introduction to Money
+
 <chapterId>927ad49a-d8d6-5dd3-9250-cdcadcbf425e</chapterId>
 
 Money is a fascinating and essential part of our daily lives. We use it daily to buy groceries, pay bills, and make countless transactions. But what is money, really? At its core, money is simply a medium of exchange, a tool that allows us to trade goods and services with one another. It's an abstract concept we all take for granted, yet it's fundamental to our economic system.
@@ -165,6 +169,7 @@ In the upcoming modules, we'll explore two popular forms of money: Bitcoin and s
 From bartering to the invention of coins and paper currency, money has undergone a series of transformations to adapt to the ever-changing needs of society. As we move on to the next chapter, let's alter course, directing our attention toward the evolution of money.
 
 ## An Examination of How We Got Here
+
 <chapterId>4c8ebb36-a6d5-5637-93ca-9a4a222a1c58</chapterId>
 
 From the days of bartering goods to the modern era of digital currencies, money has undergone a fascinating evolution. Our forefathers used shells, beads, and even livestock as a medium of exchange. Today, we have virtual wallets and contactless payments. It's a remarkable journey that has seen countless iterations, trade-offs, and adaptations to meet the ever-changing needs of society.
@@ -307,6 +312,7 @@ These are complex questions that require careful consideration and reflection. H
 As we continue our exploration of the world of money, it's important to acknowledge the significant changes that have taken place since the rise of fiat currencies. While these currencies have brought a level of convenience and stability, they have also presented new challenges, such as inflation, rising debt levels, and wealth inequality. In the next section, we will delve deeper into these issues, and in the following modules, we'll explore potential solutions to these tricky problems.
 
 ## A Look at Where We Are and What We Can Expect Moving Forward
+
 <chapterId>0c38e8fd-c973-57a5-a673-abec706f6054</chapterId>
 
 As we discussed in the previous chapter, historically, money has often been backed by a commodity like gold. The benefits of this cannot be overstated. Not only did this connection mean that such money’s value was directly tied to the value of the commodity, but it also meant that the currency issuer, typically the government, was limited in how much money it could print as it would have to obtain more gold.
@@ -449,6 +455,7 @@ Fortunately, there are options available to us. With the emergence of Bitcoin, w
 As we move forward, we encourage you to approach this new technology with an open mind and a critical eye, exploring how it can offer an alternative to our present-day financial systems. By doing so, we have the potential to address the problems of rising inequality and social unrest while building a more sustainable and equitable economic future.
 
 ## Exam
+
 <chapterId>f25c229f-2af0-5324-bc40-e90f7668985a</chapterId>
 
 Now that you went through the Module "The Price of Progress" you will have to test your newly acquirred knowledge to make sure that you have understood the last sections. We'll start with several Open-Ended Questions and then a small quizz.
@@ -460,9 +467,11 @@ Now that you went through the Module "The Price of Progress" you will have to te
 5. In light of the information provided about debt and inflation, what is your opinion on the sustainability of the current monetary system? Do you think our current system is beneficial or detrimental in the long run?
 
 # Financial Liberation - An Introduction to Bitcoin
+
 <partId>c00843b2-bde3-57bb-ae2e-8ecad6631d71</partId>
 
 ## Pioneers, Innovators, & the Foundations of Bitcoin
+
 <chapterId>37d779ce-46b5-56d1-91d8-d04442236e35</chapterId>
 
 Welcome to Module Two, where we'll explore the fascinating world of Bitcoin. Building on our understanding of the history of money, this module will cover the following topics:
@@ -567,6 +576,7 @@ These points combined mean that Bitcoin offers anybody financial privacy, securi
 To end, regardless of who Satoshi Nakamoto is, it is undeniable that the invention of Bitcoin has sparked a new way of thinking about the transfer of value.
 
 ## How Does Bitcoin Work? The Inner Workings of This Magical Internet Money
+
 <chapterId>b0f736fc-ed4d-5887-b22e-d958db9144d1</chapterId>
 
 Bitcoin is often referred to as magical internet money… and for a good reason. Think about it – with Bitcoin, you can send value to anyone, anywhere in the world, without the need for a middleman like a bank or government. It's like having control of your own personal bank, the power to transfer funds across borders with just a few clicks of a button.
@@ -649,6 +659,7 @@ As explained throughout this section, while Bitcoin may appear as a complex cryp
 Each of these roles is essential to the functionality and success of Bitcoin as a digital currency. By entrusting these crucial tasks to the key players, Bitcoin can operate as a secure, transparent, and accountable medium of exchange for all users, making it a significant achievement in the history of currency.
 
 ## What Makes Bitcoin Different From Fiat?
+
 <chapterId>5ef55778-cbcf-5c7e-960d-a2fcdf1a4006</chapterId>
 
 In the previous section, we delved into the unique functionality of Bitcoin that sets it apart from traditional currencies and how Bitcoin achieve the coveted badge of being decentralised. Now, let's shift our focus and explore how Bitcoin differs from fiat in terms of the characteristics that make a currency great. Only by examining these key characteristics can we gain a deeper understanding of why Bitcoin is unique and in a world of its own when it comes to money.
@@ -752,6 +763,7 @@ Bitcoin's unique characteristics as a store of value, medium of exchange, and un
 Furthermore, these combined attributes not only position Bitcoin as a potent instrument for storing and building wealth over the long term (bitcoin the asset) but also offer many advantages for those looking to employ Bitcoin as a transactional medium (Bitcoin the network). This starkly contrasts fiat currencies, which necessitate trust and intermediaries in both scenarios. This makes Bitcoin an attractive currency for individuals and businesses alike, regardless of whether it is used for saving or transacting.
 
 ## Interacting With Bitcoin
+
 <chapterId>050a95af-e9c2-5ec3-b9c8-55ec174d309c</chapterId>
 
 Bitcoin has taken the monetary system by storm, captivating the attention of developing countries, tech-savvy individuals and investors alike. However, with its rapid growth, many wonder how this digital asset can compete with traditional payment methods like Visa and Mastercard. Additionally, individuals are curious about how they can personally engage with Bitcoin.
@@ -857,6 +869,7 @@ Although we often hear that Bitcoin can never rival Visa or Mastercard, hopefull
 Bitcoin's biggest advantage is that it allows us to have self-custody of a digital asset, which was never possible before. If you feel overwhelmed after going through this section, don't worry. Taking control of your own bitcoin is a powerful step towards financial freedom, but it also comes with new responsibilities. However, with a little bit of research and due diligence, these new responsibilities will quickly become second nature to you, and you'll feel comfortable taking on the task of safely securing your bitcoin.
 
 ## Exam
+
 <chapterId>1c7b8165-d67b-5f7c-a1cb-b83db58b77c7</chapterId>
 
 Now that you went through the Module "An Examination of How We Got Here" you will have to test your newly acquirred knowledge to make sure that you have understood the last sections. We'll start with several Open-Ended Questions and then a small quizz.
@@ -869,9 +882,11 @@ Now that you went through the Module "An Examination of How We Got Here" you wil
 6. Consider a scenario where you need to send money to a family member in a different country. How could Bitcoin's peer-to-peer nature and low fees benefit you in this situation?
 
 # Stability Amidst Chaos - An Introduction to Tether & the World of Stablecoins
+
 <partId>60b1f3c4-e161-53fe-84ca-88d8cd62aa75</partId>
 
 ## An Introduction to Tether & the World of Stablecoins
+
 <chapterId>427a72b5-8af7-503e-bc45-bb8b95483993</chapterId>
 
 As previously discussed, money has been an essential part of humanity for thousands of years. It has helped us purchase goods and services, enabled us to trade with one another, and assisted us in storing wealth.
@@ -937,6 +952,7 @@ In conclusion, as our society continues to evolve and technology advances, so to
 _**Side Note:** Don't worry if some of these terms don't quite make sense. We will explore each of the topics in greater detail throughout this module._
 
 ## History of Stablecoins
+
 <chapterId>174e2cab-ef14-5e14-99c8-8457b6fc5fee</chapterId>
 
 Stablecoins have become a popular topic in the cryptocurrency world, offering a less volatile alternative in the short term to cryptocurrencies like Bitcoin. As detailed in the introduction to this module, stablecoins are digital assets that are pegged to a stable asset like fiat currency or precious metals, designed to maintain a stable value. Let's, therefore, explore the history of stablecoins and take a closer look at some of the first stablecoins, including Tether’s USDt, the most well-known and widely used stablecoin.
@@ -964,6 +980,7 @@ Furthermore, as the stablecoin market has grown, Tether has expanded its reach t
 In conclusion, stablecoins have come a long way since their inception. From the early days of bitUSD and NuBits to the mainstream popularity of Tether products and the emergence of other stablecoins, the stablecoin market has evolved rapidly. While the controversies surrounding Tether have raised concerns about the transparency and accountability of stablecoin issuers, the stablecoin market continues to grow, offering a global and flexible bridge to Bitcoin. However, this convenience comes at the cost of increased centralisation and reliance on trust.
 
 ## Characteristics of Stablecoins
+
 <chapterId>21765df7-53fd-58af-9df6-7208027a0c3a</chapterId>
 
 As should be evident by now, a stablecoin is a type of digital token designed to maintain a stable value based on an underlying pegged asset. These assets can include fiat currency, precious metals, commodities, or a combination of these (e.g. a basket of fiat currencies).
@@ -1052,6 +1069,7 @@ In conclusion, stablecoins offer a bridge between the traditional world and Bitc
 While stablecoins are often considered safe due to their “stable” nature, it's important to remember that they are not entirely risk-free. Since stablecoins rely on centralised issuers, i.e., Tether, and financial institutions, there is a potential for loss. To mitigate these risks, it is crucial to thoroughly research different stablecoins before investing. By doing so, you can make informed decisions and minimise the potential for unexpected losses.
 
 ## Advantages of Tether’s Stablecoin Offerings
+
 <chapterId>a6806b45-b92e-5791-8f5f-804098a522b2</chapterId>
 
 Meet Adanna, a young woman living in a rural African village where the CFA Franc, which has lost a staggering [99.5%](https://bitcoinmagazine.com/culture/bitcoin-a-currency-of-decolonization) of its purchasing power over the last 70 years, is the only currency available— making saving, an impossibility.
@@ -1177,6 +1195,7 @@ And if that wasn't enough, these stablecoins not only increase the usability of 
 Overall, stablecoins, like USDt and XAUt, have the potential to transform the lives of billions by offering them access to inclusive and much-needed financial services.
 
 ## Exam
+
 <chapterId>1294d874-6edb-5feb-b070-0ead1836bd0b</chapterId>
 
 Now that you went through the Module "Stability Amidst Chaos" you will have to test your newly acquirred knowledge to make sure that you have understood the last sections. We'll start with several Open-Ended Questions and then a small quizz.
@@ -1188,9 +1207,11 @@ Now that you went through the Module "Stability Amidst Chaos" you will have to t
 5. In your opinion, what measures should stablecoin issuers take to ensure the stability and trustworthiness of their stablecoins? How important is it for stablecoin issuers to be transparent about their reserve practices and provide regular reports?
 
 # Overcoming Doubts - Debunking Common Misconceptions & Real-World Use Cases
+
 <partId>246a7dc0-a203-5b2e-ae13-9c8f08e6bfad</partId>
 
 ## Misconceptions
+
 <chapterId>4da9319d-6306-500f-adbb-5fa31c673cd2</chapterId>
 
 Bitcoin has been surrounded by pushback, criticism and misconceptions since its birth in 2009. Despite its growth in popularity and adoption, many still consider it a bubble waiting to burst. Along these same lines, stablecoins have attracted similar attention and scepticism. The idea of a currency backed by a stable asset sounds promising, but many people misunderstand how stablecoins work and their potential impact on the financial system.
@@ -1503,6 +1524,7 @@ By objectively assessing any pushback you encounter, you can better navigate the
 Ultimately, the future of decentralised finance rests with those willing to venture beyond the confines of convention, challenge preconceived notions, and evaluate information objectively. Strive to make informed decisions about Bitcoin and stablecoins based on accurate knowledge and a balanced understanding of their capabilities and limitations.
 
 ## Roya Mahboob
+
 <chapterId>0b6f7ce6-69be-5735-b34c-b1822ff23356</chapterId>
 
 In today's globalised world, access to financial services is a critical component of economic participation and independence. Despite this, far too many individuals are still excluded from the traditional banking system, with women often bearing the brunt of this exclusion. Shockingly, although an unnecessary [one-quarter](https://www.worldbank.org/en/publication/globalfindex) of the global population remains unbanked, in countries like Saudi Arabia, [36.5%](https://content.11fs.com/article/financial-exclusion-and-the-gender-gap-in-the-middle-east#:~:text=In%20the%20last%20few%20years,63.5%25%20%2D%20a%20huge%20shift.) of women lack access to basic banking services, preventing them from fully participating in their country's economy and society.
@@ -1550,6 +1572,7 @@ Furthermore, with the help of Mahboob and Bitcoin, these women in Afghanistan ca
 Overall, Bitcoin has been a powerful tool for women's financial empowerment.
 
 ## Mercedes
+
 <chapterId>dfa10b75-19f6-578a-9d14-a0a541806076</chapterId>
 
 Born in Mexico in 1949 into impoverished circumstances, Mercedes experienced the stark inequalities plaguing her society from an early age. Throughout her childhood, she faced numerous challenges, including government repression of student movements and unique struggles experienced by women living in poverty. Moreover, the vast gap between the rich and the poor, combined with limited access to quality education, trapped her family and countless others in poverty. Frustrated by these injustices, Mercedes gravitated toward Marxism (Communism), advocating for social change and economic reform.
@@ -1571,6 +1594,7 @@ Filled with hope and excitement, Mercedes sees the potential for Bitcoin to chan
 Mercedes' life has been an incredible journey, and the impact of Bitcoin on her life is truly remarkable. Her story serves as a beacon of hope for Bitcoin to bring about meaningful change and empower individuals from all walks of life. As an advocate for financial equality, she leverages her extensive knowledge and travel experiences to educate and uplift those marginalised by traditional financial systems. Her ongoing efforts exemplify how one person's passion and determination can inspire positive change in communities worldwide.
 
 ## Stablecoin Stories
+
 <chapterId>7b6d8d57-905d-5168-9be6-3df7c938de2a</chapterId>
 
 As we approach the end of this course, we'd like to present a collection of inspiring stablecoin stories. These testimonials showcase real-life experiences from individuals, business owners, and companies who have harnessed the power of stablecoins to elevate their lives.
@@ -1659,6 +1683,7 @@ HR Agency, Nigeria
 We hope you’ve found these stories inspiring. That said, it should be clear that stablecoins, such as USDt, play a pivotal role in enabling individuals access to fast and efficient international transfers, USD invoicing and payments, wages denominated in USD, and, most importantly, a relatively stable store of value compared to the countless volatile currencies. Without stablecoins, many of these individuals would face significant barriers when tapping into the global marketplace, connecting with international family members, or reaching otherwise inaccessible customers. Stablecoins have undeniably enhanced their financial connectivity and provided a valuable tool for navigating the complexities of our global economy.
 
 ## Exam
+
 <chapterId>3b23b0ae-41a7-53b0-bc48-7343a64f28bc</chapterId>
 
 Now that you went through the Module "Overcomming Doubts" you will have to test your newly acquirred knowledge to make sure that you have understood the last sections. We'll start with several Open-Ended Questions and then a small quizz.
@@ -1670,9 +1695,16 @@ Now that you went through the Module "Overcomming Doubts" you will have to test 
 5. Reflecting on the comparisons between Bitcoin's energy consumption and other industries, is it fair to single out Bitcoin for its energy usage? Why or why not?
 
 # Closing Remarks
+
 <partId>204d7367-ae08-5348-98c8-8b74c6c1b261</partId>
 
+
+
+## Give us some feedback about this course
+<chapterId>86e358bb-88f4-5d20-af53-93f0f3524590</chapterId>
+<isCourseReview>true</isCourseReview>
 ## Closing Remarks
+
 <chapterId>2b27b4dd-10e1-56a7-978e-1e5085f9aaff</chapterId>
 
 Congratulations on making it to the end of the course! You've come a long way. Throughout this journey, we've delved into a wide array of topics, including:

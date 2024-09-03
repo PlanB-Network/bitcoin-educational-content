@@ -3,6 +3,61 @@ difficulty: hard
 duration: 45
 author: DecouvreBitcoin
 tags:
-- Bitcoin
-- Mining
-- Energy Cost
+  - Bitcoin
+  - Mining
+  - Energy Cost
+
+# Proofreading metadata
+original_language: en
+proofreading:
+  - language: cs
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2752
+  - language: de
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2626
+  - language: en
+    last_contribution_date: 2024-09-01
+    urgency: 1
+    contributors_id:
+      - Asi0Flammeus
+    reward: 2626
+  - language: es
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2689
+  - language: fi
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2752
+  - language: fr
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2626
+  - language: it
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2689
+  - language: ja
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2878
+  - language: pt
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2626
+  - language: vi
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2878

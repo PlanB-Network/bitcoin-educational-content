@@ -1243,10 +1243,10 @@ Mudar o sistema financeiro requer mudar a moeda. Satoshi criou o Bitcoin em 2008
 Parabéns por concluir este curso BTC 101! Espero sinceramente que você tenha gostado e que tenha aberto portas para você. Sua descoberta do bitcoin está apenas começando e convido você a explorar todos os outros cursos disponíveis na universidade.
 
 - [BTC 102](https://planb.network/courses/btc102) irá ajudá-lo a criar seu plano bitcoin
-- [LN 201](https://planb.network/courses/ln201) e [LN 202](https://planb.network/courses/ln202) permitirão que você descubra a Lightning Network, uma rede de pagamento de segunda camada
-- [ECON 201](https://planb.network/courses/econ201) abordará a economia austríaca
-- [SECU 101](https://planb.network/courses/secu101) permitirá que você atualize sua segurança digital
-- [MINAGE 201](https://planb.network/courses/min201) para saber mais sobre mineração
+- [LNP 201](https://planb.network/courses/lnp201) permitirá que você descubra a Lightning Network, uma rede de pagamento de segunda camada
+- [ECO 201](https://planb.network/courses/eco201) abordará a economia austríaca
+- [SCU 101](https://planb.network/courses/scu101) permitirá que você atualize sua segurança digital
+- [MIN 201](https://planb.network/courses/min201) para saber mais sobre mineração
 - e muitos outros...
 
 ## Apoie-nos
@@ -1254,6 +1254,11 @@ Parabéns por concluir este curso BTC 101! Espero sinceramente que você tenha g
 
 Este curso, assim como todo o conteúdo presente nesta universidade, foi oferecido gratuitamente pela nossa comunidade. Para nos apoiar, você pode compartilhá-lo com outras pessoas, tornar-se membro da universidade e até mesmo contribuir para o seu desenvolvimento através do [nosso GitHub](https://github.com/PlanB-Network/bitcoin-educational-content). Em nome de toda a equipe, obrigado!
 
+
+
+## Dê-nos seu feedback sobre este curso
+<chapterId>585729e2-b0ab-51b5-89ec-593e3ea22c57</chapterId>
+<isCourseReview>true</isCourseReview>
 ## Avalie o curso
 <chapterId>44d01865-5c89-55a5-a397-a014960eec0f</chapterId>
 

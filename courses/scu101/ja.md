@@ -353,33 +353,42 @@ Have I Been Pwned (https://haveibeenpwned.com/) のウェブサイトを使用�
 ## メールボックスの設定
 <chapterId>afc9ab5d-7664-5a9b-ab50-225ac9ba8f7c</chapterId>
 
-現時点では、このコースの一部にはフランス語のハウツー・チュートリアルのみが含まれています。私たちは現在、ビデオを翻訳してあなたの言語で公開する作業を行っています。翻訳を手伝っていただける場合は、[GitHub](https://github.com/PlanB-Network/bitcoin-educational-content)経由でお問い合わせください。
+https://planb.network/tutorials/others/proton-mail
 
 ![ビデオ](https://youtu.be/vpYJYWhmEZg)
 
 ## 2FAでのセキュリティ強化
 <chapterId>09468ec1-95b7-56a4-a636-7618044568e1</chapterId>
 
+https://planb.network/tutorials/others/authy
+
+https://planb.network/tutorials/others/security-key
+
 ![ビデオ](https://youtu.be/mNcAKRDmz5o)
 
 ## パスワードマネージャーの作成
 <chapterId>ed579680-4e7b-5f65-8541-14e519a3b242</chapterId>
-
+https://planb.network/tutorials/others/bitwarden
+https://planb.network/tutorials/others/keepass
 ![ビデオ](https://youtu.be/y7Xkv4E5YmU)
 
 ## アカウントのセキュリティ強化
 <chapterId>7a774b34-aed0-57dd-b8f7-cf3be51c0d70</chapterId>
-
+https://planb.network/tutorials/others/bitwarden
+https://planb.network/tutorials/others/keepass
 ![ビデオ](https://youtu.be/0JHZRALmGY0)
 
 ## バックアップの設定
 <chapterId>01cfcde1-77cb-506c-8df1-fa18a2e8cc6b</chapterId>
-
+https://planb.network/tutorials/others/proton-drive
+https://planb.network/tutorials/others/veracrypt
 ![ビデオ](https://youtu.be/wTJnlSUkDRI)
 
 ## ブラウザとVPNの変更
 <chapterId>8dc08feb-313c-5259-a54f-64aa68a07608</chapterId>
-
+https://planb.network/tutorials/others/ivpn
+https://planb.network/tutorials/others/mullvad
+https://planb.network/tutorials/others/tor-browser
 ![ビデオ](https://youtu.be/vc6-Ouca09g)
 
 # より深く掘り下げる
@@ -449,6 +458,11 @@ Passkizは、パスワード管理のための別の実行可能で安全な代�
 
 "Découvre Bitcoin Academy"の「セキュリティ101」トレーニングモジュールの一環として、Lightning認証についても議論しました。このシステムは、メールアドレスや個人情報を提供する必要なく、各サービスに異なる識別子を生成します。ユーザーが制御する分散型アイデンティティが可能ですが、分散型アイデンティティプロジェクトには標準化と正規化が不足しています。Microsoft Storeの外でオープンソースソフトウェアをダウンロードすることを可能にするパッケージマネージャー、例えばNugetやChocolatéは、悪意のある攻撃を避けるために推奨されます。要約すると、DNSはオンラインセキュリティにとって重要ですが、DNSサーバーに対する潜在的な攻撃に対して警戒を続ける必要があります。
 
+
+
+## このコースについてのフィードバックをお寄せください
+<chapterId>6be74d2d-2116-5386-9d92-c4c3e2103c68</chapterId>
+<isCourseReview>true</isCourseReview>
 ## 謝辞とさらに深く掘り下げる
 <chapterId>df3a962a-a96e-5006-b904-0dd9d4a072dd</chapterId>
 

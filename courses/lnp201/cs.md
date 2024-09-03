@@ -570,6 +570,11 @@ Je však důležité poznamenat, že směrovací uzly Lightning mohou být v bud
 
 Nakonec, budoucnost Bitcoinu je slibná s možnou projekcí jednoho milionu za pět let. Pro zajištění profesionalizace průmyslu a vytvoření alternativního systému k existujícímu bankovnímu systému je důležité přispívat do sítě a přestat důvěřovat.
 
+
+
+## Dejte nám zpětnou vazbu k tomuto kurzu
+<chapterId>38814c99-eb7b-5772-af49-4386ee2ce9b0</chapterId>
+<isCourseReview>true</isCourseReview>
 ## Poděkování a pokračujte v prozkoumávání králičí nory
 <chapterId>afc0d72b-4fbc-5893-90b2-e27fb519ad02</chapterId>
 
@@ -582,5 +587,4 @@ Pokud chcete projekt podpořit, neváhejte nás sponzorovat na Patreonu. Vaše d
 Dobrodružství s Lightning Network pokračuje s výcvikem Umbrel a implementací uzlu Lightning Network. Teorie je za námi a je čas na praxi s kurzem LN 202 teď!
 
 Polibky a brzy na viděnou!
-
 Rogzy'

@@ -8,3 +8,63 @@ professors:
   - pretty-private
 
 contributors:
+
+# Proofreading metadata
+original_language: fr
+proofreading:
+  - language: cs
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 234616
+  - language: de
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 118558
+  - language: en
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 118558
+  - language: es
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 176587
+  - language: fi
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 234616
+  - language: fr
+    last_contribution_date: 2024-09-01
+    urgency: 1
+    contributors_id:
+      - LoicPandul
+    reward: 118558
+  - language: it
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 176587
+  - language: ja
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 350674
+  - language: pt
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 118558
+  - language: ru
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 234616
+  - language: vi
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 350674

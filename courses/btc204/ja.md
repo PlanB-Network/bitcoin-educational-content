@@ -2094,6 +2094,10 @@ payjoinを使用する難しさは、商人の参加に依存していること�
 
 解決策は、受取人の協力を必要とせずにチェーン分析に曖昧さを導入するトランザクション構造を使用することです。これにより、商人の積極的な参加に依存することなく、支払いのプライバシーを向上させることができます。これは、次の章で詳しく学ぶことです。
 
+https://planb.network/tutorials/privacy/payjoin-sparrow-wallet
+
+https://planb.network/tutorials/privacy/payjoin-samourai-wallet
+
 ## Mini-Payjoin Coinjoins
 <chapterId>300777ee-30ae-43d7-ab00-479dac3522c1</chapterId>
 

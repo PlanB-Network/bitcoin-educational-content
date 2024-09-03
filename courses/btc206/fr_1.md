@@ -159,7 +159,7 @@ En mars 2023, [domodata](https://domo-2.gitbook.io/brc-20-experiment) a proposé
 
 #### Fonctionnement du standard brc-20
 
-Pour créer un token brc-20, il suffit de créer une inscription avec le type MIME `application/json` ou ``text/plain;charset=utf-8` et de respecter la structure JSON suivante : 
+Pour créer un token brc-20, il suffit de créer une inscription avec le type MIME `application/json` ou `text/plain;charset=utf-8` et de respecter la structure JSON suivante : 
 ```json
 {
     "p": "brc-20",
@@ -210,6 +210,97 @@ Ces opérations démontrent comment des fichiers JSON simples peuvent être util
 #### Autres expérimentations
 
 Plusieurs autres expérimentations sont en cours, notamment avec l'[écosystème Trac](https://trac.network/), qui propose plusieurs protocoles pour la création de tokens, des swaps, du staking, et des tokens d'authentification. Pour plus d'informations en français sur ces développements, vous pouvez écouter l'[OP_SPACE 006: Tap Protocol -> TOUT !](https://x.com/i/spaces/1lPJqbbnzwmxb). Une autre initiative, [`cbrc-20`](https://www.ord.io/preview/130c79034450163f36fcde8e27f96904dc42e535f28aacd5af3b9a18d0b1c7f9i0?type=text/html&raw=true), propose un standard de token plus avancé et plus natif à Ordinals dans sa définition, démontrant l'évolution continue de ces technologies.
+
+
+### Récursivité
+
+La récursivité dans les inscriptions Ordinals permet d'accéder à des éléments spécifiques dans Bitcoin via des *endpoints* définis dans la [documentation officielle](https://docs.ordinals.com/inscriptions/recursion.html). Ces endpoints suivent le format `/r/<OPTION>/<ID>`, où `OPTION` désigne une catégorie et `ID` l'identifiant de l'inscription ou de l'objet considéré.
+
+Cette fonctionnalité permet d'écrire du code qui interagit avec d'autres inscriptions depuis Bitcoin. Par exemple, le code de React@18.2.0 est disponible [on-chain](https://ordinals.com/content/7f403153b6484f7d24f50a51e1cdf8187219a3baf103ef0df5ea2437fb9de874i0) et peut être utilisé pour créer des sites web entièrement on-chain, comme démontré par le [site web Psyop](https://ordiscan.com/inscription/25949479).
+
+La récursivité est devenue un outil couramment utilisé dans les projets Ordinals, permettant l'intégration de divers packages JavaScript, comme ceux listés par [jokie88/ordinalpublicgoods](https://github.com/jokie88/ordinalpublicgoods?tab=readme-ov-file#ordinal-public-goods).
+
+### Activité
+
+Trouvez une collection importante qui utilise la récursivité.
+
+
+## 3. L'interprétation des satoshis et l'`index` pour la propriété
+
+Le protocole Ordinals, développé par Casey Rodarmor, applique une numérotation unique à chaque satoshi généré par le réseau Bitcoin, une méthode connue sous le nom de *Ordinal Theory*. Cette numérotation se fait automatiquement à mesure que de nouveaux blocs sont minés. Selon cette théorie, dans une UTXO contenant une inscription, le premier satoshi est celui qui porte l'inscription.
+
+Le principe de numérotation suit la règle du *First In First Out* (FIFO), ce qui facilite la traçabilité des satoshis via l'indexer. Par défaut, la propriété d'une inscription est attribuée au premier satoshi de l'UTXO. Cependant, il est possible de spécifier un autre satoshi pour porter une inscription, ce qui nécessite alors de suivre la chaîne de propriété de ce satoshi spécifique.
+
+Les informations de localisation de ces satoshis sont accessibles grâce aux indexers et peuvent être consultées sur des interfaces telles que [ordinals.com](https://ordinals.com) ou directement via le fichier `index.redb`.
+
+Certains satoshis sont considérés comme rares et donc plus précieux. Par exemple, le tout premier satoshi miné par Satoshi Nakamoto est légendaire; les premiers satoshis minés lors de chaque halving sont rares; et les premiers satoshis de chaque bloc sont non-commun (*uncommon*). La communauté ajoute des niveaux de rareté, comme les *pizza sats* du célèbre Bitcoin Pizza Day, enrichissant ainsi leur valeur de collection.
+
+
+### Activité 
+En prenant connaissance des [points d'accès](https://docs.ordinals.com/guides/explorer.html) donné dans la documentation et des explorers trouvés précédemment donner des sats rares et/ou vérifier la rareté de certains sats. 
+![API Endpoints](./assets/endpoints_ordinals.png)
+
+Trouver une collection ayant été entièrement inscrite sur des sats particuliers. 
+<!--Pizza Ninja-->
+
+Un bon thread au sujet de la rareté réalisé par [@Besbtc](https://x.com/Besbtc) : [Sat rarity](https://x.com/Besbtc/status/1739987968922632240). 
+<!--Proposer à Besbtc de faire un tuto sats rares.-->
+
+#### Pour aller plus loin
+
+La ligne de commande `ord` permet également d'étudier les sats. Pour cela il faut avoir l'index qui est convenanblement configuré. 
+> Donner la configuration pour chasser les sats.
+
+> Discuter du format redb. 
+
+<!--Proposer à Crypto9ine de faire un tuto sur la chasse aux sats en cli.-->
+
+# III/ L'utilisation & les projets
+
+Après avoir exploré le fonctionnement et les concepts d'Ordinals, intéressons-nous à son application pratique et aux projets développés sur cette base.
+
+## 1. Les outils
+
+Pour utiliser Ordinals, plusieurs outils sont disponibles :
+- Pour les développeurs et les utilisateurs avertis, la ligne de commande [`ord`](https://github.com/ordinals/ord) permet d'inscrire et d'indexer les éléments sur Ordinals. Il est nécessaire de disposer d'environ 1To pour un full node Bitcoin avec `txindex=1` activé. Des tutoriels pour installer `ord` et configurer un node Bitcoin sont disponibles, notamment chez [PlanB Network](https://planb.network/fr/tutorials/node) et dans cette vidéo de [@pazNGMI](https://www.youtube.com/watch?v=tdC8kmjn5N0).
+
+- Pour une expérience plus conviviale, divers explorers et wallets sont disponibles :
+  - Explorers : [ordinals.com](https://ordinals.com), [ordiscan.com](https://ordiscan.com), [ordpool.space](https://ordpool.space), [ord.io](https://ord.io)
+  - Wallets : [Unisat](https://unisat.io), [Xverse](https://xverse.app), [Magic Eden](https://wallet.magiceden.io/)
+  - Outils d'inscription : [Unisat](https://unisat.io), [ordinals bot](https://ordinalsbot.com), [looksordinals.com](https://looksordinals.com), [Chisel](https://chisel.xyz) [Cool pour les inscriptions parent/enfants]
+
+Cela ne constitue pas un conseil d'utilisation. Ces outils peuvent mener à des pertes partielles ou totales si l'ont découvre des failles. Faites attention et prenez en considération que Ledger gère Ordinals pour vos pièces les plus rares. 
+
+## 2. Les Projets
+
+L'approche "premier arrivé, premier servi" d'Ordinals définit que le premier à inscrire un fichier est considéré comme son propriétaire. Cette notion est fondamentale pour établir le consensus au sein des sous-protocoles développés sur Ordinals.
+
+### a. Premières collections
+L'histoire !
+![inscription0](https://ordinals.com/content/6fb976ab49dcec017f1e201e84395983204ae1a7c2abf7ced0a85d692e442799i0)
+
+*Si vous souhaitez visualiser les premières inscriptions réalisées je vous invite à consulter [Inscriptions | Ordiscan](https://ordiscan.com/inscriptions?types=image&sort=oldest).*
+
+Les premières collections sur Ordinals, comme les [**Bitcoin Schrooms** | @BitcoinShrooms](https://x.com/BitcoinShrooms) avec 224 inscriptions, illustrent bien l'aspect communautaire et créatif de cet écosystème. Vous pouvez vous balader sur [bitcoinshrooms.com](https://bitcoinshrooms.com) pour y voir des références à l'Orange Pill, Bitcoin Magazine, à l'euro et l'union européenne, BTCServer ou encore à d'autres collections (certainement le plus ironique).
+![Shroom 0](https://ordinals.com/content/9163af650dcdeeeb9a7e1f47f693b51921dce3bdf2475e69360ec83d9956f5d7i0)
+
+Les inscriptions de cette collection se sont échangés pour plusieurs BTC chacunes et s'échange pour les moins chers autour de 1,9 BTC actuellement (Août 24)[^11]. 
+
+La collection suivante qui est la première collection inscrite en une seule fois et indexée entièrement on-chain sont les [**Bitcoin Rocks** | @ordrocks](https://x.com/ordrocks), *100 inscriptions*: 
+![Rock 0](https://ordinals.com/content/e8ce0fcb238b377b3a6b9921333e26fbec5c5724c5bf6e783c3dcc1129794508i0)
+`inscription_id:e8ce0fcb238b377b3a6b9921333e26fbec5c5724c5bf6e783c3dcc1129794508i0`
+
+La liste exhaustive de toutes les Bitcoin rocks sont listées sur l'[inscription #191](https://ordiscan.com/inscription/191). 
+Certains mystères demeurent comme : comment ont-ils réalisés ces inscriptions ? Mon hypothèse est qu'ils l'ont réalisés avec l'aide d'un mineur pour n'avoir que ces transactions ordinals-ci dans le bloc. Est-ce un premier test pour le premier bloc le plus lourd de l'histoire Bitcoin via des inscriptions ?  
+Bien que peu liquide le floor sur [Magic Eden](https://magiceden.io/ordinals/marketplace/bitcoinrocks) est à 4 BTC.
+
+
+Enfin, [**Bitcoin Wizard** | @bitcoinwizardry](https://x.com/bitcoinwizardry) avec 1 300 inscriptions est un exemple de collection tirée d'un meme populaire de Reddit, incarnant la culture et l'histoire de Bitcoin.
+
+![r/bitcoin](https://ordinals.com/content/b1c5baa2593b256068635bbc475e0cc439d66c2dcf12e9de6f3aaeaf96ff818bi0)
+
+Ces exemples démontrent la diversité et la richesse des projets développés sur Ordinals, ainsi que la jeunesse et l'immaturité de cet écosystème qui offre encore beaucoup de potentiel à explorer.
+
 
 
 [^1]: Casey a quitté l'école à 15 ans pour aller travailler dans des petits boulots. A 21 ans il découvre la programmation et veut en faire son métier. Il rattrape ses dernières années dans un [collège communautaire](https://fr.wikipedia.org/wiki/Coll%C3%A8ge_communautaire) avant d'intégrer Berkeley en Sciences de l'Informatique (Computer sciences). Il poursuit chez Google comme Ingénieur Fiabilité sur site ([Site Reliability Engineering](https://fr.wikipedia.org/wiki/Site_Reliability_Engineering)) puis rejoint l'équipe de [Chaincode Labs](https://chaincode.com/) en 2015. Chez Chaincode Labs il a maintenu Bitcoin core en réalisant des petites missions: nettoyage de certains PRs (Pull Requests), remaniement d'une partie des tests, et d'autres taches de maintenance. Pour plus de détails sur la vie de Casey (et son avis) vous pouvez consulter: [Casey Rodarmor's Resume](https://rodarmor.com/resume/index.html). [Casey Rodarmor - From Ordinals to Runes: Meet Bitcoin’s Most Controversial Dev](https://www.youtube.com/watch?v=sqfCarDdXPM) Vous pouvez écouter son podcast en anglais: [Hell Money](https://hell.money/) co-host par [Realizing Erin](https://www.youtube.com/realizingerin). ([Casey (@rodarmor) | Twitter](https://twitter.com/rodarmor/), [R O D A R M O R](https://rodarmor.com/), [casey (Casey Rodarmor) | Github](https://github.com/casey/))

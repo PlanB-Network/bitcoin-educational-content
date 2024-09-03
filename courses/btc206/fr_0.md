@@ -302,20 +302,16 @@ Trouver une collection importante utilisant la recursivité.
 
 <!--Ex : [RSIC METAPROTOCOL](https://www.ord.io/56718386)-->
 
-## 3. L'interprétation des satoshis et l'`index` pour la propriété ?
+## 3. L'interprétation des satoshis et l'`index` pour la propriété
 
-Le protocole Ordinals a été proposé par Casey avec une théorie de la propriété. Cette théorie appelée Théorie des Ordinals (*Ordinal Theory*) définie une numérotation de chaque satoshi (sat) produit par le réseau Bitcoin.
+Le protocole Ordinals, proposé par Casey Rodarmor, introduit une numérotation de chaque satoshi produit par le réseau Bitcoin, connue sous le nom de *Ordinal Theory*. Cette numérotation s'effectue à mesure que de nouveaux blocs sont minés. Dans une UTXO contenant une inscription la théorie Ordinal admet que l'inscription est portée par le premier satoshi de l'UTXO. 
+Le modèle de numérotation proposé par la théorie est le principe du *First In First Out* (FIFO). C'est le principe régissant la traçabilité des satoshis au sein de l'indexer. 
+Une fois cette traçabilité acquise on peut tracer la propriété d'une inscription via le premier satoshi de l'UTXO concernée, par défaut. On peut également (au sein du protocole) décider du satoshi sur lequel on souhaite inscrire. Afin de tracer la propriété d'une inscription attachée il nous faudra tracer la propriété successive de ce satoshi. 
 
-Une fois la numérotation effectuée (qui continue à mesure que de nouveaux blocs sont minés) il a déclaré que l'inscription se faisait sur un sat: le premier de l'UTXO.
-Ainsi, on peut tracer la propriété d'une inscription par la propriété du sat qui la contient.
+Les informations sur la localisation de ces satoshis sont fournies par les indexers et peuvent être consultées via des interfaces comme [ordinals.com](https://ordinals.com) ou directement via le fichier `index.redb`.
 
-> Cela se fait par l'information de la localisation *location* donnée par l'indexer à propos du sat.  
+Certains satoshis sont considérés comme rares et ont une valeur de collection accrue. Par exemple, le premier satoshi miné par Satoshi Nakamoto qui est légendaire, les premiers satoshis minés lors de chaque halving qui sont rares, ou encore les premiers satoshis de chaque bloc sont valorisés. Des niveaux de rareté supplémentaires sont créés par la communauté, comme les *pizza sats* liés au célèbre Bitcoin Pizza Day.
 
-L'accès à ces informations peuvent se faire de plusieurs manières en fonction des usages et des besoins. 
-De l'interface web [ordinals.com](https://ordinals.com) à la manipulation directe via le fichier `index.redb`.
-
-De plus, une fois la numérotation effectuée, il y a des sats qui sont considérés comme rares. Par exemple, le premier sat miné par Satoshi est légendaire, le premier sat miné lors de chaque halving est rare ou encore le premier sat de chaque bloc est considéré comme *uncommon* (pas commun). 
-Ces sats tout comme la numismatic (étude des pièces de monnaie) sont des éléments de collection et peuvent être échangés. De nouveaux niveaux de raretés sont créés par les utilisateurs d'Ordinals. Par exemple, les sats ayant servi à payer la Pizza (du Bitcoin pizza day) sont identifiés comme les *pizza sats*.
 
 ### Activité 
 En prenant connaissance des [points d'accès](https://docs.ordinals.com/guides/explorer.html) donné dans la documentation et des explorers trouvés précédemment donner des sats rares et/ou vérifier la rareté de certains sats. 

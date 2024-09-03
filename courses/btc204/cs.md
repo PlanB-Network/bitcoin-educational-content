@@ -2283,6 +2283,10 @@ Je také možné manuálně provést tento typ transakce z jakéhokoli softwaru 
 
 V další kapitole se budeme věnovat další technice ochrany soukromí, která je relativně neznámá, ale je velmi užitečná v doplnění toho, co jsme již studovali.
 
+https://planb.network/tutorials/privacy/stonewall
+
+https://planb.network/tutorials/privacy/stonewall-x2
+
 ## Ricochets
 <chapterId>db9a20ac-a149-443d-884b-ea6c03f28499</chapterId>
 

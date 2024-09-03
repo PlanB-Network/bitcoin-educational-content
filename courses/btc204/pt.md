@@ -2242,6 +2242,10 @@ Também é possível realizar manualmente este tipo de transação a partir de q
 
 No próximo capítulo, estudaremos outra técnica de privacidade que é relativamente desconhecida, mas é muito útil além do que já estudamos.
 
+https://planb.network/tutorials/privacy/stonewall
+
+https://planb.network/tutorials/privacy/stonewall-x2
+ 
 ## Ricochetes
 
 <chapterId>db9a20ac-a149-443d-884b-ea6c03f28499</chapterId>

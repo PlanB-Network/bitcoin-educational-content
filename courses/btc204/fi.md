@@ -2313,6 +2313,10 @@ On myös mahdollista suorittaa tämäntyyppinen siirto manuaalisesti mistä taha
 
 Seuraavassa luvussa tutkimme toista yksityisyyden suojan tekniikkaa, joka on suhteellisen tuntematon, mutta erittäin hyödyllinen lisänä siihen, mitä olemme jo tutkineet.
 
+https://planb.network/tutorials/privacy/stonewall
+
+https://planb.network/tutorials/privacy/stonewall-x2
+
 ## Ricochets
 
 <chapterId>db9a20ac-a149-443d-884b-ea6c03f28499</chapterId>

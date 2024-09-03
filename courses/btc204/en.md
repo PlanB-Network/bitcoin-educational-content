@@ -2342,6 +2342,10 @@ It is also possible to manually perform this type of transaction from any Bitcoi
 
 In the next chapter, we will study another privacy technique that is relatively unknown, but is very useful in addition to what we have already studied.
 
+https://planb.network/tutorials/privacy/stonewall
+
+https://planb.network/tutorials/privacy/stonewall-x2
+
 ## Ricochets
 
 <chapterId>db9a20ac-a149-443d-884b-ea6c03f28499</chapterId>

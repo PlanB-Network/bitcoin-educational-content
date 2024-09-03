@@ -1,5 +1,4 @@
-author: "Timi Ajiboye, Luis Buenaventura, Alex Gladstein, Lily Liu, Alexander Lloyd,
-  Alejandro Machado, Jimmy Song, Alena Vranova"
+author: "Timi Ajiboye, Luis Buenaventura, Alex Gladstein, Lily Liu, Alexander Lloyd, Alejandro Machado, Jimmy Song, Alena Vranova"
 level: beginner
 tags:
   - bitcoin
@@ -18,9 +17,10 @@ proofreading:
     contributors_id:
     reward: 2602
   - language: en
-    last_contribution_date:
+    last_contribution_date: 2024-09-01
     urgency: 1
     contributors_id:
+      - Asi0Flammeus
     reward: 2602
   - language: es
     last_contribution_date:

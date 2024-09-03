@@ -1,5 +1,4 @@
-author: "Bitcoin and Bible Group, Jimmy Song, Gabe Higgins, Derek Waltchack, Robert
-  Breedlove, J.M. Bush, Julia Tourianski, Lyle Pratt, George Mekhail"
+author: "Bitcoin and Bible Group, Jimmy Song, Gabe Higgins, Derek Waltchack, Robert Breedlove, J.M. Bush, Julia Tourianski, Lyle Pratt, George Mekhail"
 level: beginner
 tags:
   - bitcoin
@@ -20,9 +19,10 @@ proofreading:
     contributors_id:
     reward: 2673
   - language: en
-    last_contribution_date:
+    last_contribution_date: 2024-09-01
     urgency: 1
     contributors_id:
+      - Asi0Flammeus
     reward: 2673
   - language: es
     last_contribution_date:

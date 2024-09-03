@@ -1,0 +1,9 @@
+question: De quel quotidien britannique était tiré le titre de une inclus dans le bloc de genèse de Bitcoin en janvier 2009 ?
+answer: The Times
+wrong_answers:
+  - The Guardian
+  - The Independent
+  - The Telegraph
+explanation: |
+  L'inscription exacte était « The Times 03/Jan/2009 Chancellor on brink of second bailout for banks ».
+reviewed: false

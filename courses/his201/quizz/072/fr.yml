@@ -1,0 +1,9 @@
+question: À qui Satoshi a-t-il transmis la charge du développement du logiciel lors de son départ ?
+answer: Gavin Andresen
+wrong_answers:
+  - Martti Malmi
+  - Jeff garzik
+  - Mike Hearn
+explanation: |
+  Gavin avait préalablement [déclaré](https://bitcointalk.org/index.php?topic=2367.msg31651#msg31651) qu'il allait « gérer le projet Bitcoin de manière plus active » et avait ouvert le dépôt GitHub en décembre 2010.
+reviewed: false

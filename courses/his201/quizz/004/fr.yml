@@ -1,0 +1,9 @@
+question: En quelle année a été mis en application de le concept d'eCash de David Chaum ?
+answer: 1994
+wrong_answers:
+  - 1993
+  - 1995
+  - 1996
+explanation: |
+  Il a été mis en application dans un premier temps par les cypherpunks en février, avant de faire l'objet d'un essai par DigiCash par le biais de l'émission de « CyberBucks » en octobre.
+reviewed: false

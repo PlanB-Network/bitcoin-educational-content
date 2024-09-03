@@ -1825,6 +1825,12 @@ Seuraamme tiiviisti tämän tapauksen kehitystä sekä siihen liittyvien työkal
 
 Seuraavassa luvussa tutustumme siihen, mitä "anonsetit" ovat, kuinka näitä indikaattoreita lasketaan, ja kuinka ne voivat auttaa meitä arvioimaan coinjoin-syklien tehokkuutta.
 
+https://planb.network/tutorials/privacy/coinjoin-sparrow-wallet
+
+https://planb.network/tutorials/privacy/coinjoin-samourai-wallet
+
+https://planb.network/tutorials/privacy/coinjoin-dojo
+
 ## Anonyymiusjoukot
 
 <chapterId>be1093dc-1a74-40e5-9545-2b97a7d7d431</chapterId>

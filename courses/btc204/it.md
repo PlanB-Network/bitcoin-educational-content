@@ -1761,6 +1761,12 @@ Stiamo seguendo da vicino l'evoluzione di questo caso così come gli sviluppi ri
 
 Nel prossimo capitolo, scopriremo cosa sono gli "anonsets", come vengono calcolati questi indicatori e come possono aiutarci a stimare l'efficacia dei cicli di coinjoin.
 
+https://planb.network/tutorials/privacy/coinjoin-sparrow-wallet
+
+https://planb.network/tutorials/privacy/coinjoin-samourai-wallet
+
+https://planb.network/tutorials/privacy/coinjoin-dojo
+
 ## Set di Anonimato
 
 <chapterId>be1093dc-1a74-40e5-9545-2b97a7d7d431</chapterId>

@@ -1768,6 +1768,12 @@ HD кошелек теоретически может производить д�
 
 В следующей главе мы узнаем, что такое "anonsets", как рассчитываются эти показатели и как они могут помочь нам оценить эффективность циклов coinjoin.
 
+https://planb.network/tutorials/privacy/coinjoin-sparrow-wallet
+
+https://planb.network/tutorials/privacy/coinjoin-samourai-wallet
+
+https://planb.network/tutorials/privacy/coinjoin-dojo
+
 ## Наборы Анонимности
 <chapterId>be1093dc-1a74-40e5-9545-2b97a7d7d431</chapterId>
 

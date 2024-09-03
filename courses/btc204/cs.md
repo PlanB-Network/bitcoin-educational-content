@@ -1806,6 +1806,12 @@ Pozorně sledujeme vývoj této kauzy i vývoj přidružených nástrojů. Ujist
 
 V další kapitole se dozvíme, co jsou "anonsety", jak se tyto ukazatele vypočítávají a jak nám mohou pomoci odhadnout účinnost cyklů coinjoin.
 
+https://planb.network/tutorials/privacy/coinjoin-sparrow-wallet
+
+https://planb.network/tutorials/privacy/coinjoin-samourai-wallet
+
+https://planb.network/tutorials/privacy/coinjoin-dojo
+
 ## Sady anonymity
 
 <chapterId>be1093dc-1a74-40e5-9545-2b97a7d7d431</chapterId>

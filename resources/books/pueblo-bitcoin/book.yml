@@ -12,3 +12,8 @@ proofreading:
     contributors_id:
       - davidecoltro
     reward: 2549
+  - language: en
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2566

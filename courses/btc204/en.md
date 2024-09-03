@@ -1858,6 +1858,12 @@ We are closely following the evolution of this case as well as developments conc
 
 In the next chapter, we will discover what "anonsets" are, how these indicators are calculated, and how they can help us estimate the effectiveness of coinjoin cycles.
 
+https://planb.network/tutorials/privacy/coinjoin-sparrow-wallet
+
+https://planb.network/tutorials/privacy/coinjoin-samourai-wallet
+
+https://planb.network/tutorials/privacy/coinjoin-dojo
+
 ## Anonymity Sets
 <chapterId>be1093dc-1a74-40e5-9545-2b97a7d7d431</chapterId>
 

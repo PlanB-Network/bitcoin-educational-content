@@ -1751,6 +1751,12 @@ Chúng tôi đang chú ý theo dõi sự phát triển của vụ việc này c�
 
 Trong chương tiếp theo, chúng ta sẽ khám phá "anonsets" là gì, cách các chỉ số này được tính toán, và làm thế nào chúng có thể giúp chúng ta ước lượng hiệu quả của các chu kỳ coinjoin.
 
+https://planb.network/tutorials/privacy/coinjoin-sparrow-wallet
+
+https://planb.network/tutorials/privacy/coinjoin-samourai-wallet
+
+https://planb.network/tutorials/privacy/coinjoin-dojo
+
 ## Bộ Anonimity
 <chapterId>be1093dc-1a74-40e5-9545-2b97a7d7d431</chapterId>
 

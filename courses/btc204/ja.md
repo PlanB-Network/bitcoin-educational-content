@@ -1740,6 +1740,12 @@ Samourai Walletの創設者が2024年4月24日に逮捕され、サーバーが�
 
 次の章では、「anonsets」が何であるか、これらの指標がどのように計算されるか、そしてcoinjoinサイクルの効果をどのように推定するのに役立つかを学びます。
 
+https://planb.network/tutorials/privacy/coinjoin-sparrow-wallet
+
+https://planb.network/tutorials/privacy/coinjoin-samourai-wallet
+
+https://planb.network/tutorials/privacy/coinjoin-dojo
+
 ## 匿名セット
 <chapterId>be1093dc-1a74-40e5-9545-2b97a7d7d431</chapterId>
 

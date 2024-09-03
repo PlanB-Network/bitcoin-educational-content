@@ -1,3 +1,4 @@
+id: 04b319cf-8cbe-4027-b26f-840571f2244f
 builder: Blixt Wallet
 
 level: advanced
@@ -11,3 +12,73 @@ tags:
 
 credits:
   professor: motor-chef
+
+# Proofreading metadata
+original_language: en
+proofreading:
+  - language: cs
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 33178
+  - language: de
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 17839
+  - language: en
+    last_contribution_date: 2024-09-01
+    urgency: 1
+    contributors_id:
+      - Asi0Flammeus
+    reward: 17839
+  - language: es
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 25508
+  - language: fi
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 33178
+  - language: fr
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 17839
+  - language: it
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 25508
+  - language: ja
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 48517
+  - language: pt
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 17839
+  - language: ru
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 33178
+  - language: vi
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 48517
+  - language: id
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 40847
+  - language: zh-Hans
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 40847

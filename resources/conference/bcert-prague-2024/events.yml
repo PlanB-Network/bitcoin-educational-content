@@ -11,7 +11,7 @@
   price_dollars: 21000
   available_seats: 50
   description: 5th edition of PlanB Network's B-CERT exam during Dev/hack/day 
-  language:
+  language: 
     - en
   links:
     website: 

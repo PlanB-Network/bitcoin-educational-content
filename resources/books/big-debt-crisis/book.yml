@@ -1,5 +1,80 @@
 author: "Ray Dalio"
-level: expert
+level: advanced
 tags:
   - economy
   - finance
+
+# Proofreading metadata
+original_language: en
+proofreading:
+  - language: cs
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 3214
+  - language: de
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2857
+  - language: en
+    last_contribution_date: 2024-09-01
+    urgency: 1
+    contributors_id:
+      - Asi0Flammeus
+    reward: 2857
+  - language: es
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 3035
+  - language: fi
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 3214
+  - language: fr
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2857
+  - language: it
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 3035
+  - language: ja
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 3571
+  - language: pt
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2857
+  - language: ru
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 3214
+  - language: vi
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 3571
+  - language: id
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 3392
+  - language: zh-Hans
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 3392
+  - language: et
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 3214

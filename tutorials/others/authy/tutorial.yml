@@ -1,0 +1,24 @@
+id: a76ab26b-71b0-473c-aa7c-c49153705eb7
+builder: Twilio
+
+tags:
+  - 2FA
+  - security
+
+category: general
+
+level: beginner
+
+credits:
+  professor: pretty-private
+
+
+# Proofreading metadata
+original_language: fr
+proofreading:
+  - language: fr
+    last_contribution_date: 2024-08-31
+    urgency: 1
+    contributors_id:
+      - LoicPandul
+    reward: 3134

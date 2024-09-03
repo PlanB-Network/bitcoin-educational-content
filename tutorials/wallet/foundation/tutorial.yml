@@ -1,3 +1,4 @@
+id: d8463385-47da-4689-9b5a-39853396e428
 builder: Foundation
 
 level: advanced
@@ -7,3 +8,78 @@ category: hardware
 tags:
   - self-custodial
   - Open-source
+
+# Proofreading metadata
+original_language: en
+proofreading:
+  - language: cs
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 3478
+  - language: de
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2989
+  - language: en
+    last_contribution_date: 2024-09-01
+    urgency: 1
+    contributors_id:
+      - Asi0Flammeus
+    reward: 2989
+  - language: es
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 3233
+  - language: fi
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 3478
+  - language: fr
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2989
+  - language: it
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 3233
+  - language: ja
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 3967
+  - language: pt
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2989
+  - language: ru
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 3478
+  - language: vi
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 3967
+  - language: et
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 3478
+  - language: id
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 3722
+  - language: zh-Hans
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 3722

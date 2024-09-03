@@ -1,0 +1,8 @@
+title: "Unix Programmeerimise Kunst"
+publication_year: 2003
+cover: cover_en.webp
+original: true
+description: |
+  "Unix Programmeerimise Kunst" autoriks on Eric S. Raymond ja see on kesktaseme juhend, mis uurib Unixi programmeerimise filosoofiat, disainipõhimõtteid ja praktilisi aspekte. Raamat käsitleb teemasid nagu Unixi programmeerimiskeskkond, shelli skriptimine, süsteemikutsed ja protsessidevaheline suhtlus. Selgete selgituste ja näidetega tutvustab raamat Unixi jõudu ja paindlikkust programmeerimisplatvormina, rõhutades samal ajal lihtsust ja modulaarset disaini. Samuti arutletakse Unixi arenduse ajaloo ja koostöölise olemuse üle. Kokkuvõttes pakub see väärtuslikke teadmisi arendajatele, kes soovivad parandada oma Unixi programmeerimisoskusi.
+contributors:
+  - rabbit-hole

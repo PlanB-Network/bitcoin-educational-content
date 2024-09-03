@@ -1,3 +1,4 @@
+id: 902db648-8b03-4561-966f-6ff5f88072aa
 builder: LND
 
 credits:
@@ -13,3 +14,78 @@ tags:
   - self-custodial
   - lightning
   - LND
+
+# Proofreading metadata
+original_language: en
+proofreading:
+  - language: cs
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 15538
+  - language: de
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 9019
+  - language: en
+    last_contribution_date: 2024-09-01
+    urgency: 1
+    contributors_id:
+      - Asi0Flammeus
+    reward: 9019
+  - language: es
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 12278
+  - language: fi
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 15538
+  - language: fr
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 9019
+  - language: it
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 12278
+  - language: ja
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 22057
+  - language: pt
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 9019
+  - language: ru
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 15538
+  - language: vi
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 22057
+  - language: et
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 15538
+  - language: id
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 18797
+  - language: zh-Hans
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 18797

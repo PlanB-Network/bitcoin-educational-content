@@ -12,7 +12,7 @@
   price_dollars: 5
   available_seats: 10
   description: 4th guest star lecture of PlanB Biz School
-  language:
+  language: 
     - en
   links:
     replay_url:

@@ -1,6 +1,7 @@
+id: 0f681345-abff-4bdc-819c-4ae800129cdf
 builder: Acinq
 
-level: Intermediary
+level: intermediate
 
 category: mobile
 
@@ -8,3 +9,78 @@ tags:
   - open-source
   - lightning-network
   - self-custodial
+
+# Proofreading metadata
+original_language: en
+proofreading:
+  - language: cs
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 8964
+  - language: de
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 5732
+  - language: en
+    last_contribution_date: 2024-09-01
+    urgency: 1
+    contributors_id:
+      - Asi0Flammeus
+    reward: 5732
+  - language: es
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 7348
+  - language: fi
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 8964
+  - language: fr
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 5732
+  - language: it
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 7348
+  - language: ja
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 12196
+  - language: pt
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 5732
+  - language: ru
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 8964
+  - language: vi
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 12196
+  - language: et
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 8964
+  - language: id
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 10580
+  - language: zh-Hans
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 10580

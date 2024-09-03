@@ -10,7 +10,6 @@
   book_in_person: false
   price_dollars: 0
   description: The first international Bitcoin-native conference in Tokyo, Japan.
-  
   language: 
     - en
     - ja

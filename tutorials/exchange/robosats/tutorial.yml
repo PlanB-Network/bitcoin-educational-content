@@ -1,3 +1,4 @@
+id: b60e4f7c-533a-4295-9f6d-5368152e8c06
 builder: RoboSats
 
 level: intermediate
@@ -12,3 +13,78 @@ category: peer-to-peer
 credits:
   professor: cover-brother
   link: https://bitcoiner.guide/robosats/
+
+# Proofreading metadata
+original_language: en
+proofreading:
+  - language: cs
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 10272
+  - language: de
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 6386
+  - language: en
+    last_contribution_date: 2024-09-01
+    urgency: 1
+    contributors_id:
+      - Asi0Flammeus
+    reward: 6386
+  - language: es
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 8329
+  - language: fi
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 10272
+  - language: fr
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 6386
+  - language: it
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 8329
+  - language: ja
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 14158
+  - language: pt
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 6386
+  - language: ru
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 10272
+  - language: vi
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 14158
+  - language: et
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 10272
+  - language: id
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 12215
+  - language: zh-Hans
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 12215

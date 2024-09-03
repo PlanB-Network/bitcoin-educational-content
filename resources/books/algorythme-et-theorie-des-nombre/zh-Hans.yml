@@ -1,0 +1,8 @@
+title: "算法与数论"
+publication_year: 2014
+cover: cover_fr.webp
+original: true
+description: |
+  皮埃尔·奥迪贝尔（Pierre Audibert）的著作《算法与数论》是数学和计算机科学学生及专业人士的参考书。本书深入探讨了数论及用于解决该领域复杂问题的算法。作者还涵盖了群论、代数几何和密码学等相关主题，并提供实际例子来阐明关键概念。这本书适合有数论和编程先验知识的经验丰富的读者，但对于这些领域的高级学生和研究人员也有用。
+contributors:
+  - rabbit-hole

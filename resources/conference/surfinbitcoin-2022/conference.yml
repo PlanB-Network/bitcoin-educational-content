@@ -2,13 +2,23 @@ year: 2022-08
 name: Surfin Bitcoin 2022
 builder: StackinSat
 location: Biarritz, France
-language: 
+language:
   - fr
   - en
 links:
   website: https://surfinbitcoin.com/
   twitter: https://twitter.com/SurfinBitcoin
-tags: 
+tags:
   - International
   - All Public
   - General
+
+# Proofreading metadata
+original_language: en
+proofreading:
+  - language: en
+    last_contribution_date: 2024-09-01
+    urgency: 0
+    contributors_id:
+      - Asi0Flammeus
+    reward: 2500

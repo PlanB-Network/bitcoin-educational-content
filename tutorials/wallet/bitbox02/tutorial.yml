@@ -1,6 +1,7 @@
+id: 6af8940f-e19b-4008-8c83-81017032608c
 builder: Shift Crypto
 
-level: intermediary
+level: intermediate
 
 category: hardware
 
@@ -11,3 +12,78 @@ tags:
 credits:
   professor: rebuild-kiss
   link: https://armantheparman.com/bitbox02/
+
+# Proofreading metadata
+original_language: en
+proofreading:
+  - language: cs
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 7376
+  - language: de
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 4938
+  - language: en
+    last_contribution_date: 2024-09-01
+    urgency: 1
+    contributors_id:
+      - Asi0Flammeus
+    reward: 4938
+  - language: es
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 6157
+  - language: fi
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 7376
+  - language: fr
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 4938
+  - language: it
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 6157
+  - language: ja
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 9814
+  - language: pt
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 4938
+  - language: ru
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 7376
+  - language: vi
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 9814
+  - language: et
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 7376
+  - language: id
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 8595
+  - language: zh-Hans
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 8595

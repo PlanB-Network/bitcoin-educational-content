@@ -1,0 +1,25 @@
+id: 5a0cd5df-29f1-4382-a817-975a96646e68
+builder: IVPN
+
+tags:
+  - VPN
+  - security
+  - privacy
+
+category: general
+
+level: beginner
+
+credits:
+  professor: pretty-private
+
+
+# Proofreading metadata
+original_language: fr
+proofreading:
+  - language: fr
+    last_contribution_date: 2024-08-31
+    urgency: 1
+    contributors_id:
+      - LoicPandul
+    reward: 3407

@@ -1,13 +1,22 @@
 year: 2023
 name: Dakar Bitcoin Day 2023
-builder: 
+builder:
 location: Dakar, Senegal
-language: 
-   - fr
+language:
+  - fr
 links:
   website: https://surfinbitcoin.com/
   twitter: https://twitter.com/dakarbtcdays
-tags: 
+tags:
   - International
   - All Public
   - General
+# Proofreading metadata
+original_language: en
+proofreading:
+  - language: en
+    last_contribution_date: 2024-09-01
+    urgency: 0
+    contributors_id:
+      - Asi0Flammeus
+    reward: 2500

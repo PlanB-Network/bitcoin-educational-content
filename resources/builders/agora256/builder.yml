@@ -10,3 +10,78 @@ tags:
   - blog
   - education
   - privacy
+
+# Proofreading metadata
+original_language: en
+proofreading:
+  - language: cs
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 3074
+  - language: de
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2787
+  - language: en
+    last_contribution_date: 2024-09-01
+    urgency: 1
+    contributors_id:
+      - Asi0Flammeus
+    reward: 2787
+  - language: es
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2930
+  - language: fi
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 3074
+  - language: fr
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2787
+  - language: it
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2930
+  - language: ja
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 3361
+  - language: pt
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2787
+  - language: ru
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 3074
+  - language: vi
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 3361
+  - language: id
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 3217
+  - language: zh-Hans
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 3217
+  - language: et
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 3074

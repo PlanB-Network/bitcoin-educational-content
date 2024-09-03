@@ -1,6 +1,7 @@
+id: 3920caba-509d-49c0-85f8-68db6291c2d4
 builder: Get Alby
 
-level: intermediary
+level: intermediate
 
 category: desktop
 
@@ -8,3 +9,78 @@ tags:
   - open-source
   - self-custodial
   - lightning
+
+# Proofreading metadata
+original_language: en
+proofreading:
+  - language: cs
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2628
+  - language: de
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2564
+  - language: en
+    last_contribution_date: 2024-09-01
+    urgency: 1
+    contributors_id:
+      - Asi0Flammeus
+    reward: 2564
+  - language: es
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2596
+  - language: fi
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2628
+  - language: fr
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2564
+  - language: it
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2596
+  - language: ja
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2692
+  - language: pt
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2564
+  - language: ru
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2628
+  - language: vi
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2692
+  - language: et
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2628
+  - language: id
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2660
+  - language: zh-Hans
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2660

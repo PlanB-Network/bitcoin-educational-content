@@ -1,3 +1,4 @@
+id: d997f80f-8a96-45b5-8a4e-a3e1b7788c52
 builder: Labelling UTXO
 
 tags:
@@ -5,9 +6,79 @@ tags:
   - education
   - coin control
 
-category: bitcoin
+category: on-chain
 
-level: intermediary
+level: intermediate
 
 credits:
   professor: pretty-private
+
+# Proofreading metadata
+original_language: fr
+proofreading:
+  - language: cs
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 8128
+  - language: de
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 5314
+  - language: en
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 5314
+  - language: es
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 6721
+  - language: fi
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 8128
+  - language: fr
+    last_contribution_date: 2024-09-01
+    urgency: 1
+    contributors_id:
+      - Asi0Flammeus
+    reward: 5314
+  - language: it
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 6721
+  - language: ja
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 10942
+  - language: pt
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 5314
+  - language: ru
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 8128
+  - language: vi
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 10942
+  - language: id
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 9535
+  - language: zh-Hans
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 9535

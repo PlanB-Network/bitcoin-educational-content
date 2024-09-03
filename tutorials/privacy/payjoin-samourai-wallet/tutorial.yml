@@ -1,3 +1,4 @@
+id: 48a5c711-ee3d-44db-b812-c55913080eab
 builder: Payjoin - Samourai Wallet
 
 tags:
@@ -6,9 +7,84 @@ tags:
   - P2EP
   - Samourai
 
-category: bitcoin
+category: on-chain
 
 level: advanced
 
 credits:
   professor: pretty-private
+
+# Proofreading metadata
+original_language: fr
+proofreading:
+  - language: cs
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 9958
+  - language: de
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 6229
+  - language: en
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 6229
+  - language: es
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 8093
+  - language: fi
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 9958
+  - language: fr
+    last_contribution_date: 2024-09-01
+    urgency: 1
+    contributors_id:
+      - Asi0Flammeus
+    reward: 6229
+  - language: it
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 8093
+  - language: ja
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 13687
+  - language: pt
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 6229
+  - language: ru
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 9958
+  - language: vi
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 13687
+  - language: et
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 9958
+  - language: id
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 11822
+  - language: zh-Hans
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 11822

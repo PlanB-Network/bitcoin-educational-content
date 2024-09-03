@@ -1,0 +1,23 @@
+- start_date: 2024-09-22
+  end_date: 2024-09-22 
+  address_line_1: Köln, germany
+  address_line_2: MMC Studios, Köln
+  address_line_3: 
+  name: Blocktrainer at the Movies
+  builder: 
+  type: conference
+  book_online: false
+  book_in_person: false
+  price_dollars: 0
+  description:  The "Blocktrainer at the Movies" event is a gathering for the German-speaking Bitcoin community, taking place on September 21, 2024, at the renowned MMC Studios in Cologne. It will host up to 1,000 passionate Bitcoiners, offering a unique experience to celebrate Bitcoin in a different setting.
+  language: 
+    - de
+  links:
+    website: https://www.blocktrainer.de/blocktrainer-community-event-2024
+    replay_url:
+    live_url :
+  tags: 
+    - bitcoiner
+    - general
+
+

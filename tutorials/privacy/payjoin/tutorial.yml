@@ -1,6 +1,7 @@
+id: 848b6a23-deb2-4c5f-a27e-93e2f842140f
 builder: payjoin
 
-category: bitcoin
+category: on-chain
 
 tags:
   - privacy
@@ -12,3 +13,77 @@ level: advanced
 
 credits:
   professor: pretty-private
+# Proofreading metadata
+original_language: fr
+proofreading:
+  - language: cs
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 8800
+  - language: de
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 5650
+  - language: en
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 5650
+  - language: es
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 7225
+  - language: fi
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 8800
+  - language: fr
+    last_contribution_date: 2024-09-01
+    urgency: 1
+    contributors_id:
+      - Asi0Flammeus
+    reward: 5650
+  - language: it
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 7225
+  - language: ja
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 11950
+  - language: pt
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 5650
+  - language: ru
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 8800
+  - language: vi
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 11950
+  - language: et
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 8800
+  - language: id
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 10375
+  - language: zh-Hans
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 10375

@@ -1,3 +1,4 @@
+id: 2f4093da-6d03-4f26-8378-b9351d0dbc90
 builder: Blue Wallet
 
 level: beginner
@@ -12,3 +13,78 @@ tags:
 credits:
   professor: dance-attack
   link: https://agora256.com/bluewallet-une-introduction/
+
+# Proofreading metadata
+original_language: en
+proofreading:
+  - language: cs
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 3194
+  - language: de
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2847
+  - language: en
+    last_contribution_date: 2024-09-01
+    urgency: 1
+    contributors_id:
+      - Asi0Flammeus
+    reward: 2847
+  - language: es
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 3020
+  - language: fi
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 3194
+  - language: fr
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2847
+  - language: it
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 3020
+  - language: ja
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 3541
+  - language: pt
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2847
+  - language: ru
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 3194
+  - language: vi
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 3541
+  - language: et
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 3194
+  - language: id
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 3367
+  - language: zh-Hans
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 3367

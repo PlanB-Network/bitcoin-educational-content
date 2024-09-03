@@ -3,3 +3,78 @@ level: beginner
 tags:
   - self-help
   - psychology;
+
+# Proofreading metadata
+original_language: en
+proofreading:
+  - language: cs
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2716
+  - language: de
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2608
+  - language: en
+    last_contribution_date: 2024-09-01
+    urgency: 1
+    contributors_id:
+      - Asi0Flammeus
+    reward: 2608
+  - language: es
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2662
+  - language: fi
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2716
+  - language: fr
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2608
+  - language: it
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2662
+  - language: ja
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2824
+  - language: pt
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2608
+  - language: ru
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2716
+  - language: vi
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2824
+  - language: id
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2770
+  - language: zh-Hans
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2770
+  - language: et
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2716

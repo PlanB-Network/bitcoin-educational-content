@@ -1,12 +1,22 @@
 year: 2022-09
 name: Watch Out 2022
-builder: 
+builder:
 location: Madrid, Spain
-language: 
-   - es
+language:
+  - es
 links:
   website: https://wobitcoin.org/
   twitter: https://twitter.com/Wo_Bitcoin
-tags: 
+tags:
   - Bitcoiner
   - General
+
+# Proofreading metadata
+original_language: en
+proofreading:
+  - language: en
+    last_contribution_date: 2024-09-01
+    urgency: 0
+    contributors_id:
+      - Asi0Flammeus
+    reward: 2500

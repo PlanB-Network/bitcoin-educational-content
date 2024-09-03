@@ -1,6 +1,81 @@
 author: "Vernor Vinge "
-level: expert
+level: advanced
 tags:
   - cyberpunk
   - artificial intelligence
   - science fiction
+
+# Proofreading metadata
+original_language: en
+proofreading:
+  - language: cs
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 3262
+  - language: de
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2881
+  - language: en
+    last_contribution_date: 2024-09-01
+    urgency: 1
+    contributors_id:
+      - Asi0Flammeus
+    reward: 2881
+  - language: es
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 3071
+  - language: fi
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 3262
+  - language: fr
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2881
+  - language: it
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 3071
+  - language: ja
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 3643
+  - language: pt
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2881
+  - language: ru
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 3262
+  - language: vi
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 3643
+  - language: id
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 3452
+  - language: zh-Hans
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 3452
+  - language: et
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 3262

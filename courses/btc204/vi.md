@@ -2117,7 +2117,7 @@ https://planb.network/tutorials/privacy/payjoin-sparrow-wallet
 
 https://planb.network/tutorials/privacy/payjoin-samourai-wallet
 
-## Mini-Payjoin Coinjoins
+## Mini-coinjoin thanh toán
 <chapterId>300777ee-30ae-43d7-ab00-479dac3522c1</chapterId>
 
 Khi muốn thực hiện một giao dịch thanh toán trong khi bảo tồn một mức độ riêng tư nhất định, payjoin là một lựa chọn tốt. Nhưng như chúng ta đã thấy, payjoin yêu cầu sự tham gia của người nhận. Phải làm gì nếu người nhận từ chối tham gia vào một payjoin, hoặc nếu bạn đơn giản là không muốn liên quan họ? Một lựa chọn khác là sử dụng giao dịch Stonewall hoặc Stonewall x2. Hãy xem xét kỹ hơn hai loại giao dịch này.

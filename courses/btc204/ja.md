@@ -2098,7 +2098,7 @@ https://planb.network/tutorials/privacy/payjoin-sparrow-wallet
 
 https://planb.network/tutorials/privacy/payjoin-samourai-wallet
 
-## Mini-Payjoin Coinjoins
+## 支払いのミニコインジョイン
 <chapterId>300777ee-30ae-43d7-ab00-479dac3522c1</chapterId>
 
 ある程度のプライバシーを保持しながら支払いトランザクションを行う場合、payjoinは良い選択肢です。しかし、見てきたように、payjoinは受取人の関与を必要とします。では、受取人がpayjoinへの参加を拒否した場合、または単に彼らを巻き込みたくない場合はどうすればよいでしょうか？代替案として、StonewallまたはStonewall x2トランザクションを使用することができます。これら2種類のトランザクションをもう少し詳しく見てみましょう。

@@ -14,3 +14,8 @@ proofreading:
     contributors_id:
       - lugaxker
     reward:
+  - language: en
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 87346

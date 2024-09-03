@@ -1377,7 +1377,7 @@ Il principio del coinjoin si basa su un approccio collaborativo: diversi utenti 
 Al termine della transazione, diventa impossibile associare un output specifico a un utente conosciuto in input. Non esiste un collegamento diretto tra gli input e gli output, il che interrompe l'associazione tra gli utenti e i loro UTXO, così come la storia di ogni moneta.
 
 ![BTC204](assets/notext/51/04.webp)
-Prendiamo l'esempio di Alice. Vuole inviare circa 100.000 satoshi (sats) a sua sorella Eve per il suo compleanno. Tuttavia, Alice non vuole che Eve possa tracciare la storia delle sue transazioni perché non vuole rivelare quanti bitcoin possiede o come li ha ottenuti. Per fare ciò, Alice decide di interrompere la storia del suo UTXO con una transazione coinjoin. Si organizza con Bob, Charles, David e Frank per effettuare una transazione collaborativa: Alice, Bob, Charles, David e Frank impegnano ciascuno un UTXO di 100.500 sats (con 500 sats per le commissioni di mining) come input per la transazione:
+Prendiamo l'esempio di Alice. Vuole inviare circa 100.000 satoshi (sats) a sua sorella Eve per il suo compleanno. Tuttavia, Alice non vuole che Eve possa tracciare la storia delle sue transazioni perché non vuole rivelare quanti bitcoin possiede o come li ha ottenuti. Per fare ciò, Alice decide di interrompere la storia del suo UTXO con una transazione coinjoin. Si organizza con Bob, Charles, David e Frank per effettuare una transazione collaborativa: Alice, Bob, Charles, David e Frank impegnano ciascuno un UTXO di 105.000 sats (con 5.000 sats per le commissioni di mining) come input per la transazione:
 
 ![BTC204](assets/notext/51/05.webp)
 

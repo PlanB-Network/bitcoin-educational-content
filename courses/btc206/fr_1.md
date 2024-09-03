@@ -257,49 +257,46 @@ La ligne de commande `ord` permet également d'étudier les sats. Pour cela il f
 
 # III/ L'utilisation & les projets
 
-Après avoir exploré le fonctionnement et les concepts d'Ordinals, intéressons-nous à son application pratique et aux projets développés sur cette base.
+Nous avons examiné en détail le fonctionnement on-chain d'Ordinals et les concepts qui le sous-tendent. Désormais, explorons les utilisations concrètes et les projets développés sur cette infrastructure.
 
 ## 1. Les outils
 
-Pour utiliser Ordinals, plusieurs outils sont disponibles :
-- Pour les développeurs et les utilisateurs avertis, la ligne de commande [`ord`](https://github.com/ordinals/ord) permet d'inscrire et d'indexer les éléments sur Ordinals. Il est nécessaire de disposer d'environ 1To pour un full node Bitcoin avec `txindex=1` activé. Des tutoriels pour installer `ord` et configurer un node Bitcoin sont disponibles, notamment chez [PlanB Network](https://planb.network/fr/tutorials/node) et dans cette vidéo de [@pazNGMI](https://www.youtube.com/watch?v=tdC8kmjn5N0).
+L'utilisation d'Ordinals nécessite des outils spécifiques. Pour les développeurs et les utilisateurs à l'aise avec les commandes, la ligne de commande [`ord`](https://github.com/ordinals/ord) permet d'inscrire et d'indexer sur Ordinals. Pour cela, il est nécessaire de disposer d'environ 1 To d'espace pour héberger un full node Bitcoin avec l'option `txindex=1` activée. Vous pouvez suivre les instructions détaillées dans la vidéo de [@pazNGMI: How To Setup A Bitcoin Node & Ord Wallet](https://www.youtube.com/watch?v=tdC8kmjn5N0) et consulter les [Tutoriels nodes](https://planb.network/fr/tutorials/node) de PlanB Network pour la configuration du node Bitcoin.
 
-- Pour une expérience plus conviviale, divers explorers et wallets sont disponibles :
-  - Explorers : [ordinals.com](https://ordinals.com), [ordiscan.com](https://ordiscan.com), [ordpool.space](https://ordpool.space), [ord.io](https://ord.io)
-  - Wallets : [Unisat](https://unisat.io), [Xverse](https://xverse.app), [Magic Eden](https://wallet.magiceden.io/)
-  - Outils d'inscription : [Unisat](https://unisat.io), [ordinals bot](https://ordinalsbot.com), [looksordinals.com](https://looksordinals.com), [Chisel](https://chisel.xyz) [Cool pour les inscriptions parent/enfants]
-
-Cela ne constitue pas un conseil d'utilisation. Ces outils peuvent mener à des pertes partielles ou totales si l'ont découvre des failles. Faites attention et prenez en considération que Ledger gère Ordinals pour vos pièces les plus rares. 
+Pour ceux qui préfèrent une approche plus conviviale :
+- **Explorers** comme [ordinals.com](https://ordinals.com), [ordiscan.com](https://ordiscan.com), [ordpool.space](https://ordpool.space), et [ord.io](https://ord.io) sont disponibles.
+- **Wallets** tels que [Unisat](https://unisat.io), [Xverse](https://xverse.app), et [Magic Eden](https://wallet.magiceden.io/) facilitent la gestion des inscriptions.
+- **Outils d'inscription** comme [Unisat](https://unisat.io), [ordinals bot](https://ordinalsbot.com), [looksordinals.com](https://looksordinals.com), et [Chisel](https://chisel.xyz) permettent de réaliser des inscriptions, notamment des structures parent/enfant.
 
 ## 2. Les Projets
 
-L'approche "premier arrivé, premier servi" d'Ordinals définit que le premier à inscrire un fichier est considéré comme son propriétaire. Cette notion est fondamentale pour établir le consensus au sein des sous-protocoles développés sur Ordinals.
+Dans Ordinals, la propriété est attribuée sur la base du premier à écrire un fichier. Ce principe de "premier arrivé, premier servi" est crucial pour définir le consensus au sein des sous-protocoles.
 
 ### a. Premières collections
-L'histoire !
+
+L'histoire des Ordinals commence par quelques collections pionnières, chacune illustrant un aspect unique de ce que la technologie peut offrir.
+
+**Histoire initiale :**
 ![inscription0](https://ordinals.com/content/6fb976ab49dcec017f1e201e84395983204ae1a7c2abf7ced0a85d692e442799i0)
+*Pour explorer les premières inscriptions réalisées, consultez [Inscriptions | Ordiscan](https://ordiscan.com/inscriptions?types=image&sort=oldest).*
 
-*Si vous souhaitez visualiser les premières inscriptions réalisées je vous invite à consulter [Inscriptions | Ordiscan](https://ordiscan.com/inscriptions?types=image&sort=oldest).*
-
-Les premières collections sur Ordinals, comme les [**Bitcoin Schrooms** | @BitcoinShrooms](https://x.com/BitcoinShrooms) avec 224 inscriptions, illustrent bien l'aspect communautaire et créatif de cet écosystème. Vous pouvez vous balader sur [bitcoinshrooms.com](https://bitcoinshrooms.com) pour y voir des références à l'Orange Pill, Bitcoin Magazine, à l'euro et l'union européenne, BTCServer ou encore à d'autres collections (certainement le plus ironique).
+**Bitcoin Schrooms | @BitcoinShrooms**
 ![Shroom 0](https://ordinals.com/content/9163af650dcdeeeb9a7e1f47f693b51921dce3bdf2475e69360ec83d9956f5d7i0)
+`inscription_id: 9163af650dcdeeeb9a7e1f47f693b51921dce3bdf2475e69360ec83d9956f5d7i0`
+Cette collection de 224 inscriptions d'art génératif capte les codes de l'internet, des mèmes et de Bitcoin. Vous pouvez découvrir plus sur cette collection en visitant [bitcoinshrooms.com](https://bitcoinshrooms.com), qui contient des références à l'Orange Pill, Bitcoin Magazine, à l'euro et à l'Union européenne. Malgré son succès, elle est inégalement indexée sur des plateformes comme [gamma.io](https://gamma.io/ordinals/collections/bitcoinshrooms) et [ordiscan](https://ordiscan.com/collection/bitcoin-shrooms?sort=oldest), reflétant la jeunesse de l'écosystème Ordinals. Ces inscriptions ont été échangées pour plusieurs BTC, avec les moins chères actuellement autour de 1,9 BTC (Août 24).
 
-Les inscriptions de cette collection se sont échangés pour plusieurs BTC chacunes et s'échange pour les moins chers autour de 1,9 BTC actuellement (Août 24)[^11]. 
-
-La collection suivante qui est la première collection inscrite en une seule fois et indexée entièrement on-chain sont les [**Bitcoin Rocks** | @ordrocks](https://x.com/ordrocks), *100 inscriptions*: 
+**Bitcoin Rocks | @ordrocks**
 ![Rock 0](https://ordinals.com/content/e8ce0fcb238b377b3a6b9921333e26fbec5c5724c5bf6e783c3dcc1129794508i0)
-`inscription_id:e8ce0fcb238b377b3a6b9921333e26fbec5c5724c5bf6e783c3dcc1129794508i0`
+`inscription_id: e8ce0fcb238b377b3a6b9921333e26fbec5c5724c5bf6e783c3dcc1129794508i0`
+Première collection inscrite en une seule fois et entièrement on-chain, listée sur l'[inscription #191](https://ordiscan.com/inscription/191). Ces inscriptions soulèvent des questions sur leur réalisation, probablement avec l'aide d'un mineur pour isoler ces transactions dans un bloc, peut-être le premier grand test de charge pour un bloc Bitcoin.
 
-La liste exhaustive de toutes les Bitcoin rocks sont listées sur l'[inscription #191](https://ordiscan.com/inscription/191). 
-Certains mystères demeurent comme : comment ont-ils réalisés ces inscriptions ? Mon hypothèse est qu'ils l'ont réalisés avec l'aide d'un mineur pour n'avoir que ces transactions ordinals-ci dans le bloc. Est-ce un premier test pour le premier bloc le plus lourd de l'histoire Bitcoin via des inscriptions ?  
-Bien que peu liquide le floor sur [Magic Eden](https://magiceden.io/ordinals/marketplace/bitcoinrocks) est à 4 BTC.
-
-
-Enfin, [**Bitcoin Wizard** | @bitcoinwizardry](https://x.com/bitcoinwizardry) avec 1 300 inscriptions est un exemple de collection tirée d'un meme populaire de Reddit, incarnant la culture et l'histoire de Bitcoin.
-
+**Bitcoin Wizard | @bitcoinwizardry**
 ![r/bitcoin](https://ordinals.com/content/b1c5baa2593b256068635bbc475e0cc439d66c2dcf12e9de6f3aaeaf96ff818bi0)
+`inscription_id: b1c5baa2593b256068635bbc475e0cc439d66c2dcf12e9de6f3aaeaf96ff818bi0`
+Directement issu de [Reddit r/BitcoinWizard](https://www.reddit.com/r/BitcoinWizard/), cette collection tire son origine d'une campagne marketing pour Bitcoin lancée en février 2013, qui a popularisé l'image du "Sorcier Bitcoin". Cette image est devenue emblématique pour la communauté Bitcoin, symbolisant l'aspect magique de la monnaie numérique.
 
-Ces exemples démontrent la diversité et la richesse des projets développés sur Ordinals, ainsi que la jeunesse et l'immaturité de cet écosystème qui offre encore beaucoup de potentiel à explorer.
+Ces collections mettent en lumière non seulement la créativité mais aussi l'immaturité de l'écosystème Ordinals, illustrant le potentiel immense mais aussi les défis de son exploitation à grande échelle.
+
 
 
 

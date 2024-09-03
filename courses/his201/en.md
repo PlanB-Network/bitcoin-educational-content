@@ -29,7 +29,7 @@ This course aims to tell you the story of the creation of Bitcoin in a way you'v
 
 Bitcoin was designed by an individual (or a group) using the pseudonym Satoshi Nakamoto. On October 31, 2008, he shared a white paper describing his model via an obscure email mailing list on the Internet. On January 8, 2008, he implemented his concept by publishing the software's source code and launching the network by mining the first blocks of the chain. Eager to attract a critical number of users, he promoted his creation across various communication channels.
 
-After a difficult start, the system's bootstrapping finally took place in October 2009, when the unit of account -- also called bitcoin -- gained a price. The first merchant services began to appear at the beginning of 2010, starting with exchange services that bridged to the dollar. It was also around this time that mining with a graphics card, more efficient, was initially implemented, and the first exchange for a physical good, specifically a pizza, took place, following the initiative of Laszlo Hanyecz.
+After a difficult start, the system's bootstrapping finally took place in October 2009, when the unit of account – also called bitcoin – gained a price. The first merchant services began to appear at the beginning of 2010, starting with exchange services that bridged to the dollar. It was also around this time that mining with a graphics card, more efficient, was initially implemented, and the first exchange for a physical good, specifically a pizza, took place, following the initiative of Laszlo Hanyecz.
 
 The project really took off during the summer of 2010, following the publication of an article on the very popular site Slashdot. The exchange with the dollar, Bitcoin mining, and the software development significantly improved during this period. From the fall, Satoshi Nakamoto gradually began to withdraw, stopping public writing and gradually delegating his tasks. He eventually disappeared completely in the spring of 2011, after handing over his access to his right-hand men, Martti Malmi and Gavin Andresen. The community finally took over and managed to carry the project to what it is today.
 
@@ -52,19 +52,19 @@ Finally, the Bitcoin project is the heir to the ethos of the cypherpunk movement
 
 This course is divided into four parts, which respectively focus on the origins of Bitcoin (3 chapters), its slow emergence (3 chapters), its initial rise (3 chapters), and the formation of its community (4 chapters). In total, it includes 12 chapters which are as follows (the concerned period is also specified):
 
-- eCash: Chaumian electronic cash (1976--1998)
-- Private Digital Currencies (1996--2013)
-- Decentralized Models Before Nakamoto (1982--2012)
-- The Birth of Bitcoin (August 2008--Jan. 2009)
-- Presentation to the World (Jan. 2009--Oct. 2009)
-- The Bootstrapping of Cryptocurrency (Oct. 2009--Apr. 2010)
-- Graphics Cards, Pizzas, and Free Bitcoins (Apr. 2010--June 2010)
-- The Great Slashdotting (June 2010--July 2010)
-- The First Technical Troubles (July 2010--Sept. 2010)
-- The Digital Gold Rush (Sept. 2010--Oct. 2010)
-- The Blossoming of the Ecosystem (Oct. 2010--Dec. 2010)
-- The Disappearance of Satoshi (Dec. 2010--Apr. 2011)
-- The Community Takes Over (Apr. 2011--Sept. 2011)
+- eCash: Chaumian electronic cash (1976–1998)
+- Private Digital Currencies (1996–2013)
+- Decentralized Models Before Nakamoto (1982–2012)
+- The Birth of Bitcoin (August 2008–Jan. 2009)
+- Presentation to the World (Jan. 2009–Oct. 2009)
+- The Bootstrapping of Cryptocurrency (Oct. 2009–Apr. 2010)
+- Graphics Cards, Pizzas, and Free Bitcoins (Apr. 2010–June 2010)
+- The Great Slashdotting (June 2010–July 2010)
+- The First Technical Troubles (July 2010–Sept. 2010)
+- The Digital Gold Rush (Sept. 2010–Oct. 2010)
+- The Blossoming of the Ecosystem (Oct. 2010–Dec. 2010)
+- The Disappearance of Satoshi (Dec. 2010–Apr. 2011)
+- The Community Takes Over (Apr. 2011–Sept. 2011)
 
 ### Details
 
@@ -162,7 +162,7 @@ The transfer of the signed note is done by giving it to another user of the syst
 - He immediately sends the received note to his bank;
 - Bob's bank checks that the note has not already been used and, if so, signs a new note or credits Bob's account (if there is backing).
 
-All this implies that no bank in the system can link the payment to Alice's identity, which explains why we talk about customer confidentiality. The merchant (here, Bob) is, however, obliged to go through a bank to confirm the payment, and his bank can therefore be aware of the amounts received. Moreover, the system depends on a trusted third party -- the central authority that designates the participating banks -- which makes it fragile by design.
+All this implies that no bank in the system can link the payment to Alice's identity, which explains why we talk about customer confidentiality. The merchant (here, Bob) is, however, obliged to go through a bank to confirm the payment, and his bank can therefore be aware of the amounts received. Moreover, the system depends on a trusted third party – the central authority that designates the participating banks – which makes it fragile by design.
 
 ### Implementations of eCash
 
@@ -266,7 +266,7 @@ However, things did not evolve in the desired direction, and PayPal had to compl
 Thus, we observe that attempts to create centralized services as alternatives to the existing system have all eventually been halted, in one way or another. The disadvantage of these models is that they rely on a trusted third party, which can go bankrupt, abscond with the funds, or be controlled by the authorities. In the latter case, the service in question faces a dilemma: adapt by complying with financial regulations, as GoldMoney and PayPal did, or perish by refusing to comply, a fate suffered by e-gold, Liberty Reserve, and the Liberty Dollar.
 The closure of these systems was contemporary with the creation and early days of Bitcoin. Consequently, Satoshi Nakamoto and the early users of Bitcoin were well aware of them. As for Satoshi, he [was aware](https://www.metzdowd.com/pipermail/cryptography/2009-January/015041.html) of the model used by e-gold and [mentioned](https://bitcointalk.org/index.php?topic=87.msg807#msg807) Pecunix and Liberty Reserve several times in his public and private interventions.
 
-It is because of this fragility of centralized systems that proponents of freedom -- including notably the cypherpunks -- sought to create a *decentralized* currency. It was necessary to find a way to avoid placing the entire system's infrastructure on a single point. That's why several "trust-minimizing" models emerged in the late 1990s and early 2000s, before the discovery of Bitcoin. The next chapter will be dedicated to these models.
+It is because of this fragility of centralized systems that proponents of freedom – including notably the cypherpunks – sought to create a *decentralized* currency. It was necessary to find a way to avoid placing the entire system's infrastructure on a single point. That's why several "trust-minimizing" models emerged in the late 1990s and early 2000s, before the discovery of Bitcoin. The next chapter will be dedicated to these models.
 
 ## Decentralized Models Before Nakamoto
 <chapterId>a104f23c-e9c3-4457-a194-d87cc5f35f13</chapterId>
@@ -318,7 +318,7 @@ Adam Back in 2001 (source: [archive of Adam Back's personal page](https://web.ar
 
 But the cypherpunks did not limit themselves to considering proof of work as a simple means of limiting spam; they also wanted to use it as a way to guarantee the cost of producing a digital currency. Thus, in 1997, Adam Back [envisaged](https://cypherpunks.venona.com/date/1997/04/msg00822.html) this idea himself, but he was aware that the proofs of work thus obtained could not be transferred in a fully distributed manner (because of the double-spending problem) and that it was therefore necessary to go through a centralized system like eCash. Similarly, in 1996, cryptographers Ronald Rivest and Adi Shamir described [MicroMint](https://people.csail.mit.edu/rivest/pubs/RS96a.pdf), a centralized micropayment system whose coins were supposed to be impossible to counterfeit thanks to the production of proofs of work.
 
-A good arrangement had to be found that would allow such a model to function robustly and sustainably. This is what the cypherpunks Wei Dai, Nick Szabo, and Hal Finney tried to develop with their respective protocols -- b-money, bit gold, and RPOW -- which we will examine next. And this is what Satoshi Nakamoto ended up doing by including Hashcash in his design of Bitcoin.
+A good arrangement had to be found that would allow such a model to function robustly and sustainably. This is what the cypherpunks Wei Dai, Nick Szabo, and Hal Finney tried to develop with their respective protocols – b-money, bit gold, and RPOW – which we will examine next. And this is what Satoshi Nakamoto ended up doing by including Hashcash in his design of Bitcoin.
 
 ### b-money: the decentralized stablecoin
 The first protocol to emerge from the cypherpunk movement was b-money, a decentralized digital currency model conceptualized by Wei Dai in 1998. He was a young Chinese-American cryptographer living in Seattle and working for Microsoft, who got involved in the mailing list starting in 1994. He notably made a name for himself by creating the open-source Crypto++ library, which was later used in Bitcoin software.
@@ -914,7 +914,7 @@ On July 5, Teppy writes a presentation that he plans to submit himself to Slashd
 > "How's this for a disruptive technology? Bitcoin is a buyer-anonymous, seller-anonymous cryptocurrency with no central bank, and no transaction fees. Using a concept similar to Hashcash, clients burn CPU cycles attempting to discover some of the 21,000,000 Bitcoins that will eventually be found. It is expected that over time, the market value of Bitcoins will reach parity with the energy needed to generate them, resulting in an energy-backed currency outside the reach of any government."
 
 Several forum members make suggestions for improving this text. Satoshi [intervenes](https://bitcointalk.org/index.php?topic=234.msg1976#msg1976) himself a few hours after the first message to give his opinion. He writes that he "really appreciates the effort," but that "there are a lot of problems," then he lists the elements that bother him:
-- Regarding the absence of state influence, he exercises caution by writing that he does not "certainly engage in that kind of provocation or claim"; (*original: "'The developers expect that this will result in a stable-with-respect-to-energy currency outside the reach of any government.' -- I am definitely not making any such taunt or assertion."*)
+- Regarding the absence of state influence, he exercises caution by writing that he does not "certainly engage in that kind of provocation or claim"; (*original: "'The developers expect that this will result in a stable-with-respect-to-energy currency outside the reach of any government.' – I am definitely not making any such taunt or assertion."*)
 - Concerning the backing by energy, he considers that the currency "is not stable with respect to energy" and adds: "This subject has been discussed. It is not linked to the cost of energy. NLS's energy-based estimate was a good starting point, but market forces will increasingly dominate.";
 - Regarding the anonymous aspect of the system, he states that he does not want to "highlight the 'anonymous' aspect" and that he had "intended to modify the homepage" in this regard. (*original "We don't want to lead with 'anonymous'. (I've been meaning to edit the homepage)"*)
 

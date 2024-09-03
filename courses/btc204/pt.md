@@ -2065,6 +2065,8 @@ Infelizmente, após a prisão dos fundadores da Samourai, essas ferramentas atua
 
 Agora que discutimos coinjoins em detalhes, exploraremos outras técnicas de privacidade disponíveis no Bitcoin na última seção do nosso treinamento. Examinaremos payjoins, tipos específicos de transações pseudo-coinjoins, protocolos de endereço estático, bem como medidas voltadas para aprimorar a privacidade não no nível da transação, mas no nível da rede de nós.
 
+https://planb.network/tutorials/privacy/boltzmann-entropy
+
 # Entendendo os desafios de outras técnicas avançadas de privacidade
 <partId>19989ae6-d608-4acf-b698-2cf1e7e5e6ae</partId>
 

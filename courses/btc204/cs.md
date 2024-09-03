@@ -2106,6 +2106,8 @@ Bohužel, po zatčení zakladatelů Samourai, tyto nástroje momentálně nejsou
 
 Nyní, když jsme podrobně diskutovali o coinjoinech, prozkoumáme v poslední části našeho školení další dostupné techniky soukromí na Bitcoinu. Budeme zkoumat payjoiny, specifické typy transakcí pseudo-coinjoin, protokoly s pevnou adresou, stejně jako opatření zaměřená na zvýšení soukromí ne na úrovni transakce, ale na úrovni sítě uzlů.
 
+https://planb.network/tutorials/privacy/boltzmann-entropy
+
 # Porozumění významu dalších pokročilých technik soukromí
 <partId>19989ae6-d608-4acf-b698-2cf1e7e5e6ae</partId>
 

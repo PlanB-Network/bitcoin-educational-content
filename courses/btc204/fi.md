@@ -2128,6 +2128,8 @@ Valitettavasti Samourain perustajien pidätyksen jälkeen nämä työkalut eivä
 
 Nyt kun olemme käsitelleet coinjoineja yksityiskohtaisesti, tutkimme muita Bitcoinissa saatavilla olevia yksityisyyden suojaustekniikoita koulutuksemme viimeisessä osassa. Tarkastelemme payjoineja, erityisiä tapahtumatyyppejä pseudo-coinjoineja, staattisia osoiteprotokollia sekä toimenpiteitä, jotka tähtäävät yksityisyyden parantamiseen ei tapahtumatasolla, vaan solmujen verkon tasolla.
 
+https://planb.network/tutorials/privacy/boltzmann-entropy
+
 # Muiden edistyneiden yksityisyyden suojaustekniikoiden panokset ymmärtäminen
 
 <partId>19989ae6-d608-4acf-b698-2cf1e7e5e6ae</partId>

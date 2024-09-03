@@ -5,5 +5,5 @@ wrong_answers:
   - 4 Mo
   - 8 Mo
 explanation: |
- Le paramètre MAX_BLOCK_SIZE a été ajouté en juillet, puis la limite a été imposée à tous les nœuds du réseau à partir du 12 septembre.
+  Le paramètre MAX_BLOCK_SIZE a été ajouté en juillet, puis la limite a été imposée à tous les nœuds du réseau à partir du 12 septembre.
 reviewed: false

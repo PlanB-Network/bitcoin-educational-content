@@ -8,7 +8,6 @@ objectives:
 ---
 
 # Une plongée dans l'histoire de la création de Bitcoin
-<partId>9cd81305-f808-4c60-be9b-6d08628ef81e</partId>
 
 Bienvenue dans ce cours consacré à l'histoire de la création de Bitcoin ! En tant qu'utilisateur, il est possible que vous vous soyez demandé d'où vient l'outil dont vous vous servez. De plus, vous pouvez ne pas comprendre les références parfois faites aux personnes et aux évènements qui ont marqué la courte histoire de la cryptomonnaie. Enfin, étudier cette histoire vous permettra de mieux comprendre Bitcoin en tant que tel, en exposant le contexte qui a façonné sa lente formation.
 

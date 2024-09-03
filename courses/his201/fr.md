@@ -30,7 +30,7 @@ Ce cours vise à vous raconter l'histoire de la création de Bitcoin comme vous 
 
 Bitcoin a été conçu par un individu (ou un groupe) utilisant le pseudonyme de Satoshi Nakamoto. Le 31 octobre 2008, ce dernier a partagé un livre blanc décrivant son modèle via une obscure liste de diffusion de courrier électronique sur Internet. Le 8 janvier 2008, il a mis en application son concept en publiant le code source du logiciel et en lançant le réseau par le minage des premiers blocs de la chaîne. Soucieux d'attirer un nombre critique d'utilisateurs, il a fait la promotion de sa création sur divers canaux de communication.
 
-Après des débuts difficiles, l'amorçage du système a finalement eu lieu en octobre 2009, lorsque l'unité de compte -- aussi appelée le bitcoin -- a acquis un prix. Les premiers services commerçants ont commencé à apparaître au début de l'année 2010, à commencer par les services de change qui faisaient le pont avec le dollar. C'est également à cette époque que le minage par carte graphique, plus efficace, a été initialement implémenté, et que le premier échange contre un bien physique, en l'occurrence une pizza, a eu lieu, suite à l'initiative de Laszlo Hanyecz.
+Après des débuts difficiles, l'amorçage du système a finalement eu lieu en octobre 2009, lorsque l'unité de compte – aussi appelée le bitcoin – a acquis un prix. Les premiers services commerçants ont commencé à apparaître au début de l'année 2010, à commencer par les services de change qui faisaient le pont avec le dollar. C'est également à cette époque que le minage par carte graphique, plus efficace, a été initialement implémenté, et que le premier échange contre un bien physique, en l'occurrence une pizza, a eu lieu, suite à l'initiative de Laszlo Hanyecz.
 
 Le projet a réellement pris au cours de l'été 2010, suite à la publication d'un article sur le site très populaire Slashdot. Le change avec le dollar, le minage de Bitcoin et le développement informatique du logiciel se sont considérablement améliorés durant cette période. À partir de l'automne, Satoshi Nakamoto s'est progressivement mis en retrait, en arrêtant d'écrire publiquement et en déléguant peu à peu ses tâches. Il a fini par disparaître complètement au printemps 2011, après avoir transmis ses accès à ses bras droits, Martti Malmi et Gavin Andresen. La communauté a finalement pris le relai et a su porter le projet pour en faire ce qu'il est aujourd'hui.
 
@@ -53,19 +53,19 @@ Le projet Bitcoin est enfin l'héritier de l'éthos du mouvement des cypherpunks
 
 Ce cours est divisé en quatre parties, qui s'intéressent respectivement aux origines de Bitcoin (3 chapitres), à sa lente émergence (3 chapitres), à son essor initial (3 chapitres) et à la formation de sa communauté (4 chapitres). Au total, il comprend 12 chapitres qui sont les suivants (on précise également la période concernée) :
 
-- eCash : l'argent liquide électronique chaumien (1976--1998)
-- Les monnaies numériques privées (1996--2013)
-- Les modèles décentralisés avant Nakamoto (1982--2012)
-- La naissance de Bitcoin (août 2008--janv. 2009)
-- La présentation au monde (janv. 2009--oct. 2009)
-- L'amorçage de la cryptomonnaie (oct. 2009--avr. 2010)
-- Cartes graphiques, pizzas et bitcoins gratuits (avr. 2010--juin 2010)
-- Le grand slashdotting (juin 2010--juil. 2010)
-- Les premiers ennuis techniques (juil. 2010--sept. 2010)
-- La ruée vers l'or numérique (sept. 2010--oct. 2010)
-- La floraison de l'écosystème (oct. 2010--déc. 2010)
-- La disparition de Satoshi (déc. 2010--avr. 2011)
-- La prise de relai de la communauté (avr. 2011--sept. 2011)
+- eCash : l'argent liquide électronique chaumien (1976–1998)
+- Les monnaies numériques privées (1996–2013)
+- Les modèles décentralisés avant Nakamoto (1982–2012)
+- La naissance de Bitcoin (août 2008–janv. 2009)
+- La présentation au monde (janv. 2009–oct. 2009)
+- L'amorçage de la cryptomonnaie (oct. 2009–avr. 2010)
+- Cartes graphiques, pizzas et bitcoins gratuits (avr. 2010–juin 2010)
+- Le grand slashdotting (juin 2010–juil. 2010)
+- Les premiers ennuis techniques (juil. 2010–sept. 2010)
+- La ruée vers l'or numérique (sept. 2010–oct. 2010)
+- La floraison de l'écosystème (oct. 2010–déc. 2010)
+- La disparition de Satoshi (déc. 2010–avr. 2011)
+- La prise de relai de la communauté (avr. 2011–sept. 2011)
 
 ### Précisions
 
@@ -170,7 +170,7 @@ Le transfert du billet signé se fait en le donnant à un autre utilisateur du s
 - Il envoie immédiatement le billet réceptionné à sa banque ;
 - La banque de Bob vérifie que le billet n'a pas déjà été utilisé et, le cas échéant, signe un nouveau billet ou crédite le compte de Bob (s'il y a un adossement).
 
-Tout cela implique qu'aucune banque du système ne peut relier le paiement à l'identité d'Alice, ce qui explique pourquoi on parle de confidentialité pour le client. Le commerçant (ici, Bob) est en revanche obligé de passer par une banque pour confirmer le paiement, et sa banque peut donc avoir connaissance des montants reçus. De plus, le système dépend d'un tiers de confiance -- l'autorité centrale qui désigne les banques participantes -- ce qui le rend fragile par conception.
+Tout cela implique qu'aucune banque du système ne peut relier le paiement à l'identité d'Alice, ce qui explique pourquoi on parle de confidentialité pour le client. Le commerçant (ici, Bob) est en revanche obligé de passer par une banque pour confirmer le paiement, et sa banque peut donc avoir connaissance des montants reçus. De plus, le système dépend d'un tiers de confiance – l'autorité centrale qui désigne les banques participantes – ce qui le rend fragile par conception.
 
 ### Les mises en œuvre de eCash
 
@@ -289,7 +289,7 @@ Ainsi, nous constatons que les tentatives de créer des services centralisés al
 
 La fermeture de ces derniers systèmes a été contemporaine de la création et des débuts de Bitcoin. Par conséquent, Satoshi Nakamoto et les premiers utilisateurs de Bitcoin les connaissaient bien. Pour ce qui est de Satoshi, il [avait connaissance](https://www.metzdowd.com/pipermail/cryptography/2009-January/015041.html) du modèle utilisé par e-gold et a [évoqué](https://bitcointalk.org/index.php?topic=87.msg807#msg807) à plusieurs reprises Pecunix et Liberty Reserve dans ses interventions publiques et privées.
 
-C'est à cause de cette fragilité des systèmes centralisés que les partisans de la liberté -- dont notamment les cypherpunks -- ont cherché à créer une monnaie *décentralisée*. Il fallait trouver un moyen d'éviter de faire reposer l'intégralité de l'infrastructure du système sur un point unique. C'est pourquoi plusieurs modèles « minimisant la confiance » ont émergé à la fin des années 1990 et au début des années 2000, avant la découverte de Bitcoin. Le prochain chapitre sera consacré à ces modèles.
+C'est à cause de cette fragilité des systèmes centralisés que les partisans de la liberté – dont notamment les cypherpunks – ont cherché à créer une monnaie *décentralisée*. Il fallait trouver un moyen d'éviter de faire reposer l'intégralité de l'infrastructure du système sur un point unique. C'est pourquoi plusieurs modèles « minimisant la confiance » ont émergé à la fin des années 1990 et au début des années 2000, avant la découverte de Bitcoin. Le prochain chapitre sera consacré à ces modèles.
 
 ## Les modèles décentralisés avant Nakamoto
 <chapterId>a104f23c-e9c3-4457-a194-d87cc5f35f13</chapterId>
@@ -351,7 +351,7 @@ Adam Back en 2001 (source : [archive de la page personnelle d'Adam Back](https:
 
 Mais les cypherpunks ne se limitaient pas à considérer la preuve de travail comme un simple moyen de limiter le spam ; ils souhaitaient également l'utiliser comme une manière de garantir le coût de production d'une monnaie numérique. Ainsi, en 1997, Adam Back [envisageait](https://cypherpunks.venona.com/date/1997/04/msg00822.html) lui-même cette idée, mais il avait conscience que les preuves de travail ainsi obtenues ne pouvaient pas être transférées d'une manière pleinement distribuée (à cause du problème de la double dépense) et qu'il fallait par conséquent passer par un système centralisé à la eCash. De même, en 1996, les cryptographes Ronald Rivest et Adi Shamir ont décrit [MicroMint](https://people.csail.mit.edu/rivest/pubs/RS96a.pdf), un système de micropaiement centralisé dont les pièces devaient être impossibles à contrefaire grâce à la production de preuves de travail.
 
-Il fallait trouver un bon agencement qui puisse permettre à un tel modèle de fonctionner de manière robuste et durable. C'est ce que les cypherpunks Wei Dai, Nick Szabo et Hal Finney ont essayé de mettre au point avec leurs protocoles respectifs -- b-money, bit gold et RPOW -- que nous allons étudier dans la suite. Et c'est ce que Satoshi Nakamoto a fini par faire en incluant Hashcash dans sa conception de Bitcoin.
+Il fallait trouver un bon agencement qui puisse permettre à un tel modèle de fonctionner de manière robuste et durable. C'est ce que les cypherpunks Wei Dai, Nick Szabo et Hal Finney ont essayé de mettre au point avec leurs protocoles respectifs – b-money, bit gold et RPOW – que nous allons étudier dans la suite. Et c'est ce que Satoshi Nakamoto a fini par faire en incluant Hashcash dans sa conception de Bitcoin.
 
 ### b-money : le stablecoin décentralisé
 
@@ -477,7 +477,7 @@ Le lendemain, ayant lu le résumé envoyé par Satoshi (mais pas le papier), Ada
 
 Le surlendemain, le 22 août, Satoshi envoie donc un courriel à Wei Dai pour lui dire qu'il « se prépare à publier un document qui étend \[ses\] idées à un système complètement fonctionnel » et pour lui demander l'année de publication de sa page sur la b-money afin d'y faire référence dans le livre blanc. Comme dans le cas de son échange avec Adam Back, il partage à Wei Dai l'ébauche du livre blanc.
 
-Malgré ces interactions, Adam Back et Wei Dai ne s'intéressent pas immédiatement au concept de Satoshi. Ce ne sera que des années plus tard qu'ils reviendront vers Bitcoin : Wei Dai en 2010--2011 et Adam Back en 2013.
+Malgré ces interactions, Adam Back et Wei Dai ne s'intéressent pas immédiatement au concept de Satoshi. Ce ne sera que des années plus tard qu'ils reviendront vers Bitcoin : Wei Dai en 2010–2011 et Adam Back en 2013.
 
 De son côté, Satoshi finit de se préparer pour rendre son invention publique. Le 3 octobre, il termine la première version du livre blanc de Bitcoin, dont le nom est désormais choisi. Le 5 octobre, il s'inscrit sur la plateforme de gestion de projets SourceForge, là où le code source ouvert du logiciel sera hébergé et maintenu jusqu'en 2011.
 

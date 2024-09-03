@@ -1844,6 +1844,8 @@ Por exemplo, vamos imaginar que nossa moeda na saída do ciclo de coinjoin benef
 
 Como vimos neste capítulo, os anonsets só podem ser calculados se houver uma certa homogeneidade na estrutura dos coinjoins. E precisamente, no próximo capítulo, descobriremos como quantificar esta homogeneidade em uma transação Bitcoin, seja ela um coinjoin ou uma transação mais tradicional.
 
+https://planb.network/tutorials/privacy/wst-anonsets
+
 ## Entropia
 <chapterId>e4fe289d-618b-49a2-84c9-68c562e708b4</chapterId>
 

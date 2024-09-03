@@ -1898,6 +1898,8 @@ On mahdollista manuaalisesti laskea omat anonsetit käyttäen lohkoketjuselainta
 
 Kuten tässä luvussa olemme nähneet, anonsetteja voidaan laskea vain, jos coinjoineissa on tietty homogeenisuus rakenteessa. Ja juuri tässä seuraavassa luvussa tulemme tutkimaan, kuinka mitata tätä homogeenisuutta Bitcoin-tapahtumassa, olipa kyseessä sitten coinjoin tai perinteisempi tapahtuma.
 
+https://planb.network/tutorials/privacy/wst-anonsets
+
 ## Entropia
 
 <chapterId>e4fe289d-618b-49a2-84c9-68c562e708b4</chapterId>

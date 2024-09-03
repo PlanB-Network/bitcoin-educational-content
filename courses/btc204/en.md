@@ -1930,6 +1930,8 @@ It is possible to manually calculate one's anonsets using a block explorer for s
 
 As we have seen in this chapter, anonsets can only be calculated if there is a certain homogeneity in the structure of the coinjoins. And precisely, in the next chapter, we will discover how to quantify this homogeneity in a Bitcoin transaction, whether it is a coinjoin or a more traditional transaction.
 
+https://planb.network/tutorials/privacy/wst-anonsets
+
 ## Entropy
 <chapterId>e4fe289d-618b-49a2-84c9-68c562e708b4</chapterId>
 

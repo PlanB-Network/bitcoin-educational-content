@@ -1879,6 +1879,8 @@ Je možné ručně vypočítat své anonsety pomocí prohlížeče bloků pro ma
 
 Jak jsme viděli v této kapitole, anonsety lze vypočítat pouze v případě, že existuje určitá homogenita ve struktuře coinjoinů. A přesně v další kapitole se dozvíme, jak kvantifikovat tuto homogenitu v Bitcoinové transakci, ať už jde o coinjoin nebo tradičnější transakci.
 
+https://planb.network/tutorials/privacy/wst-anonsets
+
 ## Entropie
 
 <chapterId>e4fe289d-618b-49a2-84c9-68c562e708b4</chapterId>

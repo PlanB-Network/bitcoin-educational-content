@@ -1819,6 +1819,8 @@ Có thể tính toán anonsets của một người bằng cách sử dụng m�
 
 Như chúng ta đã thấy trong chương này, anonsets chỉ có thể được tính toán nếu có một sự đồng nhất nhất định trong cấu trúc của các coinjoins. Và chính xác, trong chương tiếp theo, chúng ta sẽ khám phá cách định lượng sự đồng nhất này trong một giao dịch Bitcoin, dù đó là một coinjoin hay một giao dịch truyền thống hơn.
 
+https://planb.network/tutorials/privacy/wst-anonsets
+
 ## Entropy
 <chapterId>e4fe289d-618b-49a2-84c9-68c562e708b4</chapterId>
 

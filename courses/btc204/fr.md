@@ -1194,7 +1194,9 @@ Toutes ces méthodes de sélection automatique des UTXOs peuvent être efficaces
 
 ### Tutoriel sur l'étiquetage des UTXOs
 
-Si vous souhaitez découvrir comment apposer une étiquette sur vos UTXOs, nous avons fait un tutoriel complet sur les principaux logiciels de portefeuille Bitcoin existants. Retrouvez-le [en cliquant ici](https://planb.network/tutorials/privacy/utxo-labelling).
+Si vous souhaitez découvrir comment apposer une étiquette sur vos UTXOs, nous avons fait un tutoriel complet sur les principaux logiciels de portefeuille Bitcoin existants : 
+
+https://planb.network/tutorials/privacy/utxo-labelling
 
 ## Le KYC et l'identification des clés
 <chapterId>cec6b9d9-0eed-4f85-bc4e-1e9aa59ca605</chapterId>

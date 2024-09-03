@@ -7,7 +7,6 @@ objectives:
   - Sử dụng các phương pháp và công cụ để bảo vệ quyền riêng tư của bạn trên Bitcoin
   - Hiểu các phương pháp phân tích chuỗi và phát triển chiến lược phòng thủ
 ---
-
 # Bảo Vệ Quyền Riêng Tư Của Bạn Trên Bitcoin
 
 Trong một thế giới mà quyền riêng tư của các giao dịch tài chính dần trở thành một thứ xa xỉ, việc hiểu và thành thạo các nguyên tắc bảo vệ quyền riêng tư trong việc sử dụng Bitcoin của bạn là điều cần thiết. Khóa học này cung cấp cho bạn tất cả các chìa khóa, cả lý thuyết và thực hành, để đạt được điều này một cách tự chủ.
@@ -1056,7 +1055,10 @@ Tất cả các phương pháp tự động lựa chọn UTXO này có thể hi�
 
 ### Hướng dẫn về Gắn Nhãn UTXO
 
-Nếu bạn muốn học cách gắn nhãn cho UTXO của mình, chúng tôi đã tạo một hướng dẫn đầy đủ về phần mềm ví Bitcoin chính hiện nay. Tìm hiểu [bằng cách nhấp vào đây](https://planb.network/tutorials/privacy/utxo-labelling).
+Nếu bạn muốn tìm hiểu cách gắn nhãn UTXO của mình, chúng tôi đã tạo một hướng dẫn hoàn chỉnh về các phần mềm ví Bitcoin chính hiện có:
+
+https://planb.network/tutorials/privacy/utxo-labelling
+
 
 ## KYC và Xác Định Khóa
 <chapterId>cec6b9d9-0eed-4f85-bc4e-1e9aa59ca605</chapterId>

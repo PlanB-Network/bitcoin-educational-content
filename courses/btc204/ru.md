@@ -1064,7 +1064,10 @@ bc1ps5gd2ys8kllz9alpmcwxqegn7kl3elrpnnlegwkm3xpq2h8da07spxwtf5
 
 ### Учебник по маркировке UTXO
 
-Если вы хотите узнать, как маркировать свои UTXO, мы подготовили полный учебник по основному существующему программному обеспечению Bitcoin-кошелька. Найдите его [нажав здесь](https://planb.network/tutorials/privacy/utxo-labelling).
+Если вы хотите узнать, как маркировать свои UTXO, мы подготовили полный учебник по основным существующим программам для Bitcoin-кошельков:
+
+https://planb.network/tutorials/privacy/utxo-labelling
+
 
 ## KYC и ключевая идентификация
 <chapterId>cec6b9d9-0eed-4f85-bc4e-1e9aa59ca605</chapterId>

@@ -7,7 +7,6 @@ objectives:
   - Bitcoin上でプライバシーを保護するための方法とツールを使用する
   - チェーン分析方法を理解し、防御戦略を開発する
 ---
-
 # Bitcoin上でのプライバシーを守る
 
 金融取引のプライバシーが徐々に贅沢品となっていく世界で、Bitcoinの使用におけるプライバシー保護の原則を理解し、習得することは不可欠です。このトレーニングは、理論的かつ実践的な両面から、これを自律的に達成するためのすべての鍵を提供します。
@@ -1049,7 +1048,10 @@ FIFO（*First In First Out*）やLIFO（*Last In First Out*）などのUTXO選�
 
 ### UTXOラベリングに関するチュートリアル
 
-UTXOをラベル付けする方法を学びたい場合は、主要な既存のBitcoinウォレットソフトウェアに関する完全なチュートリアルを作成しました。[ここをクリックして](https://planb.network/tutorials/privacy/utxo-labelling)見つけてください。
+あなたのUTXOにラベルを付ける方法を知りたい場合は、既存の主要なビットコインウォレットソフトウェアに関する完全なチュートリアルを作成しました：
+
+https://planb.network/tutorials/privacy/utxo-labelling
+
 
 ## KYCとキー識別
 <chapterId>cec6b9d9-0eed-4f85-bc4e-1e9aa59ca605</chapterId>

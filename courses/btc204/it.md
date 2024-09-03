@@ -7,7 +7,6 @@ objectives:
   - Utilizzare metodi e strumenti per proteggere la propria privacy su Bitcoin
   - Comprendere i metodi di analisi della catena e sviluppare strategie di difesa
 ---
-
 # Proteggi la tua privacy su Bitcoin
 
 In un mondo in cui la privacy delle transazioni finanziarie sta gradualmente diventando un lusso, comprendere e padroneggiare i principi della protezione della privacy nel tuo utilizzo di Bitcoin è essenziale. Questa formazione ti fornisce tutte le chiavi, sia teoriche che pratiche, per raggiungere questo obiettivo autonomamente.
@@ -1070,7 +1069,10 @@ Tutti questi metodi di selezione automatica degli UTXO possono essere efficaci n
 
 ### Tutorial sull'Etichettatura degli UTXO
 
-Se vuoi imparare come etichettare i tuoi UTXO, abbiamo realizzato un tutorial completo sul principale software di portafoglio Bitcoin esistente. Trovalo [cliccando qui](https://planb.network/tutorials/privacy/utxo-labelling).
+Se desideri scoprire come etichettare i tuoi UTXO, abbiamo realizzato un tutorial completo sui principali software di portafoglio Bitcoin esistenti:
+
+https://planb.network/tutorials/privacy/utxo-labelling
+
 
 ## KYC e Identificazione Chiave
 

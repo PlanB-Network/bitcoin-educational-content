@@ -1112,7 +1112,10 @@ All these methods of automatic UTXO selection can be effective in reducing trans
 
 ### Tutorial on UTXO Labeling
 
-If you want to learn how to label your UTXOs, we have made a complete tutorial on the main existing Bitcoin wallet software. Find it [by clicking here](https://planb.network/tutorials/privacy/utxo-labelling).
+If you want to learn how to label your UTXOs, we have created a complete tutorial on the main existing Bitcoin wallet software:
+
+https://planb.network/tutorials/privacy/utxo-labelling
+
 
 ## KYC and Key Identification
 <chapterId>cec6b9d9-0eed-4f85-bc4e-1e9aa59ca605</chapterId>

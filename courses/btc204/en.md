@@ -3280,6 +3280,8 @@ Bob can then refund Alice in the same way she sent him payments. The roles are r
 
 *A big thank you to [Fanis Michalakis](https://x.com/FanisMichalakis) for his review and valuable expert advice on the article that inspired the writing of this chapter!*
 
+https://planb.network/tutorials/privacy/paynym-bip47
+
 ## Silent Payments
 <chapterId>2871d594-414e-4598-a830-91c9eb84dfb8</chapterId>
 BIP47 has been criticized for its inefficiency onchain. As explained in the previous chapter, it requires a notification transaction for each new recipient. This constraint becomes negligible if one plans to establish a lasting payment channel with this recipient. Indeed, a single notification transaction paves the way for an almost infinite number of subsequent BIP47 payments.

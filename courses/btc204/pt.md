@@ -3143,6 +3143,9 @@ Bob pode então reembolsar Alice da mesma forma que ela lhe enviou pagamentos. O
 
 ![BTC204](assets/pt/66/26.webp)
 *Um grande agradecimento a [Fanis Michalakis](https://x.com/FanisMichalakis) por sua revisão e valioso conselho especializado sobre o artigo que inspirou a escrita deste capítulo!*
+
+https://planb.network/tutorials/privacy/paynym-bip47
+
 ## Pagamentos Silenciosos
 <chapterId>2871d594-414e-4598-a830-91c9eb84dfb8</chapterId>
 O BIP47 tem sido criticado por sua ineficiência na blockchain. Como explicado no capítulo anterior, ele requer uma transação de notificação para cada novo destinatário. Esta restrição torna-se negligenciável se alguém planeja estabelecer um canal de pagamento duradouro com este destinatário. De fato, uma única transação de notificação abre caminho para um número quase infinito de pagamentos BIP47 subsequentes.

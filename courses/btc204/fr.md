@@ -3507,6 +3507,8 @@ Bob peut alors rembourser Alice de la même manière qu'elle lui a envoyé des p
 
 *Un grand merci à [Fanis Michalakis](https://x.com/FanisMichalakis) pour sa relecture et ses précieux conseils d'expert sur l'article qui a inspiré la rédaction de ce chapitre !*
 
+https://planb.network/tutorials/privacy/paynym-bip47
+
 ## Silent Payments
 <chapterId>2871d594-414e-4598-a830-91c9eb84dfb8</chapterId>
 

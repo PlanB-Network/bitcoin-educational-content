@@ -3256,6 +3256,8 @@ Bob voi sitten hyvittää Alicen samalla tavalla kuin hän lähetti hänelle mak
 ![BTC204](assets/fi/66/26.webp)
 _Suuri kiitos [Fanis Michalakisille](https://x.com/FanisMichalakis) hänen arvokkaasta asiantuntija-arviostaan ja neuvostaan artikkeliin, joka inspiroi tämän luvun kirjoittamista!_
 
+https://planb.network/tutorials/privacy/paynym-bip47
+
 ## Hiljaiset Maksut
 
 <chapterId>2871d594-414e-4598-a830-91c9eb84dfb8</chapterId>

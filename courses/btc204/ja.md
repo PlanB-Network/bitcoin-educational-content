@@ -3087,6 +3087,8 @@ BIP47支払いを受け取り、対応する秘密鍵を計算するために私
 ![BTC204](assets/ja/66/26.webp)
 *この章の執筆に触発された記事のレビューと貴重な専門的アドバイスをしてくださった[Fanis Michalakis](https://x.com/FanisMichalakis)に大きな感謝を！*
 
+https://planb.network/tutorials/privacy/paynym-bip47
+
 ## サイレントペイメント
 <chapterId>2871d594-414e-4598-a830-91c9eb84dfb8</chapterId>
 

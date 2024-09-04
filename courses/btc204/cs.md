@@ -66,13 +66,11 @@ Jak můžeme mluvit o soukromí na Bitcoinu bez diskuse o coinjoinech? V sekci 4
 ### Sekce 5: Porozumění důležitosti dalších pokročilých technik ochrany soukromí
 
 V páté sekci poskytneme přehled všech ostatních existujících technik ochrany vašeho soukromí na Bitcoinu, kromě coinjoin. V průběhu let vývojáři projevili pozoruhodnou kreativitu při návrhu nástrojů zaměřených na soukromí. Prozkoumáme všechny tyto metody, jako jsou payjoin, spolupracující transakce, Coin Swap a Atomic Swap, a podrobně popíšeme jejich fungování, cíle a potenciální slabiny.
-![BTC204](assets/cs/11/5.webp)
 
-### Sekce 6: Prozkoumání návrhů na vylepšení protokolu souvisejících s soukromím
+Budeme se také zabývat ochranou soukromí na úrovni sítě uzlů a šířením transakcí. Budeme také diskutovat o různých protokolech, které byly v průběhu let navrženy ke zlepšení ochrany soukromí uživatelů v Bitcoinu, včetně protokolů statických adres.
 
-Zatímco předchozí sekce se zaměřovaly na řešení soukromí na úrovni aplikací, tato šestá sekce se ponoří do problémů soukromí na úrovni Bitcoin Core pro soukromí uživatelů. Budeme diskutovat o soukromí na úrovni sítě uzlů a o vysílání transakcí. Také probereme různé protokoly, které byly během let navrženy za účelem zvýšení soukromí uživatelů na Bitcoinu, včetně protokolů se statickými adresami. Na závěr prozkoumáme dopady na soukromí, jak pozitivní, tak negativní, posledního velkého soft forku Bitcoinu, Taproot.
+![BTC204](assets/notext/11/5.webp)
 
-![BTC204](assets/notext/67/07.webp)
 
 # Definice a klíčové pojmy
 

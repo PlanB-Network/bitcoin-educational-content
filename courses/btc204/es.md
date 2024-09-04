@@ -65,13 +65,12 @@ En la tercera sección de nuestro entrenamiento, llegamos al meollo del asunto: 
 
 ### Sección 5: Entendiendo los Desafíos de Otras Técnicas Avanzadas de Privacidad
 
-En la quinta sección, proporcionaremos una visión general de todas las demás técnicas existentes para proteger tu privacidad en Bitcoin, aparte de coinjoin. A lo largo de los años, los desarrolladores han mostrado una creatividad notable en el diseño de herramientas dedicadas a la privacidad. Examinaremos todos estos métodos, como payjoin, transacciones colaborativas, Coin Swap y Atomic Swap, detallando su funcionamiento, objetivos y posibles debilidades. ![BTC204](assets/es/11/5.webp)
+En la quinta sección, proporcionaremos una visión general de todas las demás técnicas existentes para proteger tu privacidad en Bitcoin, aparte de coinjoin. A lo largo de los años, los desarrolladores han mostrado una creatividad notable en el diseño de herramientas dedicadas a la privacidad. Examinaremos todos estos métodos, como payjoin, transacciones colaborativas, Coin Swap y Atomic Swap, detallando su funcionamiento, objetivos y posibles debilidades. 
 
-### Sección 6: Explorando Propuestas de Mejora del Protocolo Relacionadas con la Privacidad
+También abordaremos la privacidad a nivel de la red de nodos y la difusión de las transacciones. También discutiremos los diferentes protocolos que se han propuesto a lo largo de los años para mejorar la privacidad de los usuarios en Bitcoin, incluidos los protocolos de direcciones estáticas.
 
-Mientras que las secciones anteriores se centraron en soluciones de privacidad a nivel de aplicación, esta sexta sección profundizará en los problemas de privacidad a nivel de Bitcoin Core para la privacidad de los usuarios. Discutiremos la privacidad en la red de nodos y la transmisión de transacciones. También discutiremos los diversos protocolos que se han propuesto a lo largo de los años para mejorar la privacidad de los usuarios en Bitcoin, incluyendo protocolos de dirección estática. Para concluir, examinaremos los impactos en la privacidad, tanto positivos como negativos, del último gran soft fork de Bitcoin, Taproot.
+![BTC204](assets/notext/11/5.webp)
 
-![BTC204](assets/notext/67/07.webp)
 
 # Definiciones y Conceptos Clave
 

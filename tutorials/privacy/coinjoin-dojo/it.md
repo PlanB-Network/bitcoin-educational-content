@@ -65,7 +65,7 @@ Questi imperativi hanno guidato le scelte degli sviluppatori di Samourai Wallet 
 
 [-> Scopri di più sugli anonset di Whirlpool.](https://planb.network/tutorials/privacy/wst-anonsets)
 
-### Le piscine e le commissioni per coinjoin
+### Le Pool e le commissioni per coinjoin
 Affinché questi cicli multipli aumentino efficacemente l'anonset, deve essere stabilito un certo quadro per limitare le quantità di UTXO utilizzati. Whirlpool definisce quindi diversi pool, o gruppi.
 
 Una pool rappresenta un gruppo di utenti, che concordano sulla quantità di UTXO da utilizzare per ottimizzare il processo di coinjoin. Ogni pool specifica un importo fisso per l'UTXO a cui l'utente deve attenersi per partecipare. Quindi, per eseguire coinjoin con Whirlpool, è necessario selezionare una specifico pool tra le seguenti:
@@ -76,7 +76,7 @@ Una pool rappresenta un gruppo di utenti, che concordano sulla quantità di UTXO
 
 Unendoti ad una pool con i tuoi bitcoin, questi verranno divisi per generare UTXO che sono perfettamente omogenei con quelli degli altri partecipanti. Ogni pool ha un limite massimo; quindi, per importi che superano questo limite, sarai costretto o a fare due ingressi separati all'interno della stessa pool o a passare ad un'altra pool con un importo maggiore:
 
-| Piscina (bitcoin) | Importo massimo per ingresso (bitcoin) |
+| Pool (bitcoin) | Importo massimo per ingresso (bitcoin) |
 |-------------------|----------------------------------------|
 | 0,5               | 35                                     |
 | 0,05              | 3,5                                    |

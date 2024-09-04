@@ -6,7 +6,7 @@ description: Comment acheter des biens et des services en BTC avec Bitrefill ?
 
 Bien que le bitcoin soit aujourd'hui principalement considéré comme un moyen d'épargne, il n'en demeure pas moins une monnaie, dont l'utilité réside dans sa capacité à circuler de main en main. Si les commerçants autour de chez vous acceptent le bitcoin comme moyen de paiement, vous avez la possibilité de les dépenser directement chez eux. Malheureusement, cette pratique n'est pas encore très répandue, et la plupart des commerçants n'acceptent pas encore le BTC de manière native.
 
-La meilleure solution reste évidemment d'orange pill les commerçants locaux pour qu'ils acceptent le bitcoin, en leur expliquant les avantages de ce système. Vous pouvez d'ailleurs utiliser comme support les tutoriels disponibles dans [la section "commerçants"](https://planb.network/tutorials/merchant) de notre site. Cette stratégie peut être efficace avec les petits commerçants indépendants, mais elle s'avère plus complexe pour les grandes enseignes nationales, car les interlocuteurs sur place ne sont généralement pas ceux qui prennent les décisions relatives aux moyens de paiement.
+La meilleure solution reste évidemment d'orange pill les commerçants locaux pour qu'ils acceptent le bitcoin, en leur expliquant les avantages de ce système. Vous pouvez d'ailleurs utiliser comme support les tutoriels disponibles dans [la section "*commerçants*"](https://planb.network/tutorials/merchant) de notre site. Cette stratégie peut être efficace avec les petits commerçants indépendants, mais elle s'avère plus complexe pour les grandes enseignes nationales, car les interlocuteurs sur place ne sont généralement pas ceux qui prennent les décisions relatives aux moyens de paiement.
 
 En attendant une adoption plus massive de la part de ces enseignes, vous pouvez y dépenser vos bitcoins en utilisant un moyen de paiement intermédiaire : les cartes-cadeaux. Et c'est justement ce que propose de vous fournir Bitrefill.
 
@@ -22,9 +22,9 @@ Bitrefill est très simple à utiliser. Pour ouvrir un compte, il faut juste fou
 
 Rendez-vous sur [le site officiel de Bitrefill](https://www.bitrefill.com).
 ![BITREFILL](assets/notext/02.webp)
-Cliquez en haut à droite de la fenêtre sur "Login".
+Cliquez en haut à droite de la fenêtre sur "*Login*".
 ![BITREFILL](assets/notext/03.webp)
-Cliquez sur "Create account".
+Cliquez sur "*Create account*".
 ![BITREFILL](assets/notext/04.webp)
 Renseignez une adresse email. Si vous souhaitez conserver l'anonymat de votre compte, assurez-vous d'utiliser une adresse email qui ne révèle pas votre nom. Ensuite, définissez un mot de passe fort.
 ![BITREFILL](assets/notext/05.webp)
@@ -34,21 +34,21 @@ https://planb.network/tutorials/others/proton-mail
 
 https://planb.network/tutorials/others/bitwarden
 
-Ensuite, cliquez sur le bouton "Create account".
+Ensuite, cliquez sur le bouton "*Create account*".
 ![BITREFILL](assets/notext/06.webp)
 Rendez-vous dans votre boite mail pour récupérer le code de vérification.
 ![BITREFILL](assets/notext/07.webp)
-Renseignez-le dans la case "Login code" puis cliquez de nouveau sur le bouton "Create account".
+Renseignez-le dans la case "*Login code*" puis cliquez de nouveau sur le bouton "*Create account*".
 ![BITREFILL](assets/notext/08.webp)
 Et voilà, votre compte est bien créé !
 ![BITREFILL](assets/notext/09.webp)
 Je vous conseille également de mettre en place le 2FA pour sécuriser votre compte. Pour ce faire, cliquez sur votre profil en haut à droite de l'écran.
 ![BITREFILL](assets/notext/10.webp)
-Cliquez sur le menu "Settings".
+Cliquez sur le menu "*Settings*".
 ![BITREFILL](assets/notext/11.webp)
-Et rendez-vous dans l'onglet "Login & Security".
+Et rendez-vous dans l'onglet "*Login & Security*".
 ![BITREFILL](assets/notext/12.webp)
-Dans la section "Two factor authentication", cliquez sur le bouton "Enable" et suivez le processus de mise en place.
+Dans la section "*Two factor authentication*", cliquez sur le bouton "*Enable*" et suivez le processus de mise en place.
 ![BITREFILL](assets/notext/13.webp)
 Pour en savoir plus sur comment utiliser l'authentification à deux facteurs pour sécuriser vos comptes en ligne, je vous conseille de découvrir cet autre tutoriel :
 
@@ -66,13 +66,13 @@ Je vous conseille ensuite de prendre le temps de consulter l'espace commentaires
 ![BITREFILL](assets/notext/17.webp)
 Dans cette section, vous trouverez souvent de petits conseils d'autres utilisateurs.
 ![BITREFILL](assets/notext/18.webp)
-Dans les parties "Description" et "How to redeem" vous trouverez des précisions supplémentaires sur la carte-cadeaux.
+Dans les parties "*Description*" et "*How to redeem*" vous trouverez des précisions supplémentaires sur la carte-cadeaux.
 ![BITREFILL](assets/notext/19.webp)
 Si vous souhaitez l'acheter, cliquez sur la case indiquant le montant afin de sélectionner la valeur de votre carte-cadeau.
 ![BITREFILL](assets/notext/20.webp)
-Si tout vous convient, cliquez sur le bouton "Add to cart".
+Si tout vous convient, cliquez sur le bouton "*Add to cart*".
 ![BITREFILL](assets/notext/21.webp)
-Puis cliquez sur "Checkout" si vous souhaitez acheter seulement cette carte pour le moment.
+Puis cliquez sur "*Checkout*" si vous souhaitez acheter seulement cette carte pour le moment.
 ![BITREFILL](assets/notext/22.webp)
 Choisissez ensuite une méthode de paiement. Vous pouvez soit payer onchain, soit sur le Lightning Network. Dans mon cas, c'est un petit montant, je vais donc payer sur LN.
 ![BITREFILL](assets/notext/23.webp)
@@ -81,11 +81,11 @@ Il vous suffit de scanner et de régler l'invoice avec votre portefeuille Lightn
 Une fois l'invoice payée, vous obtiendrez immédiatement l'accès à la carte-cadeau pour la majorité des cartes.
 
 ![BITREFILL](assets/notext/25.webp)
-Pour accéder à son code, cliquez sur le bouton "Click to unseal".
+Pour accéder à son code, cliquez sur le bouton "*Click to unseal*".
 ![BITREFILL](assets/notext/26.webp)
 Il vous suffit alors de copier le code et de l'utiliser sur le site web de l'enseigne ou de le présenter en caisse dans un magasin physique.
 ![BITREFILL](assets/notext/27.webp)
-Vous pouvez retrouver toutes vos carte-cadeaux en cliquant sur votre profil en haut à droite, puis sur le menu "My Products".
+Vous pouvez retrouver toutes vos carte-cadeaux en cliquant sur votre profil en haut à droite, puis sur le menu "*My Products*".
 ![BITREFILL](assets/notext/28.webp)
 Je vous recommande aussi de télécharger l'application Bitrefill, disponible sur le [Google Play Store](https://play.google.com/store/apps/details?id=com.bitrefill.app) et l'[App Store](https://apps.apple.com/in/app/bitrefill/id1378102623), pour pouvoir acheter et utiliser des cartes-cadeaux au quotidien dans les magasins physiques.
 

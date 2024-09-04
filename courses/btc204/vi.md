@@ -63,9 +63,9 @@ Làm sao chúng ta có thể nói về quyền riêng tư trên Bitcoin mà khô
 ### Phần 5: Hiểu về Các Kỹ Thuật Quyền Riêng Tư Nâng Cao Khác
 Trong phần thứ năm, chúng tôi sẽ cung cấp một cái nhìn tổng quan về tất cả các kỹ thuật khác hiện có để bảo vệ quyền riêng tư của bạn trên Bitcoin, ngoài coinjoin. Trải qua nhiều năm, các nhà phát triển đã thể hiện sự sáng tạo đáng kể trong việc thiết kế các công cụ dành riêng cho quyền riêng tư. Chúng tôi sẽ xem xét tất cả các phương pháp này, như payjoin, giao dịch hợp tác, Coin Swap và Atomic Swap, chi tiết về cách hoạt động, mục tiêu và điểm yếu tiềm ẩn.
 
-### Phần 6: Khám phá Đề xuất Cải tiến Giao thức Liên quan đến Quyền Riêng tư
+Chúng tôi cũng sẽ đề cập đến quyền riêng tư ở cấp độ mạng nút và sự phân phối của các giao dịch. Chúng tôi cũng sẽ thảo luận về các giao thức khác nhau đã được đề xuất trong những năm qua để tăng cường quyền riêng tư của người dùng trên Bitcoin, bao gồm các giao thức địa chỉ tĩnh.
 
-Trong khi các phần trước tập trung vào các giải pháp quyền riêng tư ở cấp độ ứng dụng, phần thứ sáu này sẽ đi sâu vào các vấn đề quyền riêng tư ở cấp độ của Bitcoin Core cho quyền riêng tư của người dùng. Chúng tôi sẽ thảo luận về quyền riêng tư ở cấp độ mạng lưới các nút và việc phát sóng các giao dịch. Chúng tôi cũng sẽ thảo luận về các giao thức đã được đề xuất trong nhiều năm để tăng cường quyền riêng tư của người dùng trên Bitcoin, bao gồm các giao thức địa chỉ tĩnh. Để kết luận, chúng tôi sẽ xem xét ảnh hưởng đối với quyền riêng tư, cả tích cực và tiêu cực, của soft fork lớn cuối cùng của Bitcoin, Taproot.
+![BTC204](assets/notext/11/5.webp)
 
 # Định nghĩa và Khái niệm Chính
 <partId>b9bbbde3-34c0-4851-83e8-e2ffb029cf31</partId>

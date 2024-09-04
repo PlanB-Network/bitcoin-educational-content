@@ -64,13 +64,10 @@ How can we talk about privacy on Bitcoin without discussing coinjoins? In sectio
 
 ### Section 5: Understanding the Stakes of Other Advanced Privacy Techniques
 In the fifth section, we will provide an overview of all the other existing techniques to protect your privacy on Bitcoin, aside from coinjoin. Over the years, developers have shown remarkable creativity in designing tools dedicated to privacy. We will examine all these methods, such as payjoin, collaborative transactions, Coin Swap, and Atomic Swap, detailing their operation, goals, and potential weaknesses.
-![BTC204](assets/en/11/5.webp)
 
-### Section 6: Exploring Protocol Improvement Proposals Related to Privacy
+We will also address privacy at the level of the node network and the dissemination of transactions. We will also discuss the various protocols that have been proposed over the years to enhance user privacy on Bitcoin, including static address protocols.
 
-While the previous sections focused on application-level privacy solutions, this sixth section will delve into the privacy issues at the level of Bitcoin Core for users' privacy. We will discuss privacy at the network of nodes level and the broadcasting of transactions. We will also discuss the various protocols that have been proposed over the years to enhance users' privacy on Bitcoin, including static address protocols. To conclude, we will examine the impacts on privacy, both positive and negative, of Bitcoin's last major soft fork, Taproot.
-
-![BTC204](assets/notext/67/07.webp)
+![BTC204](assets/notext/11/5.webp)
 
 # Definitions and Key Concepts
 <partId>b9bbbde3-34c0-4851-83e8-e2ffb029cf31</partId>

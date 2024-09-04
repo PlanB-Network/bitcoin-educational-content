@@ -69,13 +69,9 @@ Comment parler de confidentialité sur Bitcoin sans aborder les coinjoins ? Dans
 
 Dans la cinquième section, nous ferons un tour d'horizon de toutes les autres techniques existantes pour protéger votre vie privée sur Bitcoin, en dehors du coinjoin. Au fil des années, les développeurs ont fait preuve d'une créativité remarquable pour concevoir des outils dédiés à la confidentialité. Nous examinerons toutes ces méthodes, telles que le payjoin, les transactions collaboratives, le Coin Swap et l'Atomic Swap, en détaillant leur fonctionnement, leurs objectifs et leurs éventuelles faiblesses.
 
-![BTC204](assets/fr/11/5.webp)
+Nous aborderons également la confidentialité au niveau du réseau de nœuds et de la diffusion des transactions. Nous discuterons aussi des différents protocoles qui ont été proposés au fil des années pour renforcer la confidentialité des utilisateurs sur Bitcoin, notamment les protocoles d'adresses statiques.
 
-### Section 6 : Découvrir les propositions d'amélioration du protocole en lien avec la confidentialité
-
-Alors que les sections précédentes se concentraient sur les solutions de confidentialité applicatives, cette sixième section se penchera sur les enjeux au niveau de Bitcoin Core pour la vie privée des utilisateurs. Nous aborderons la confidentialité au niveau du réseau de nœuds et de la diffusion des transactions. Nous discuterons également des différents protocoles qui ont été proposés au fil des années pour renforcer la confidentialité des utilisateurs sur Bitcoin, notamment les protocoles d'adresses statiques. Pour conclure, nous examinerons les impacts sur la confidentialité, tant positifs que négatifs, du dernier grand soft fork de Bitcoin, Taproot.
-
-![BTC204](assets/notext/67/07.webp)
+![BTC204](assets/notext/11/5.webp)
 
 # Définitions et concepts clés
 <partId>b9bbbde3-34c0-4851-83e8-e2ffb029cf31</partId>

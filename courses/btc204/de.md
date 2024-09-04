@@ -59,13 +59,11 @@ Wie können wir über Datenschutz bei Bitcoin sprechen, ohne Coinjoins zu diskut
 ### Abschnitt 5: Verständnis der Einsätze anderer fortgeschrittener Datenschutztechniken
 
 Im fünften Abschnitt werden wir einen Überblick über alle anderen bestehenden Techniken zum Schutz Ihrer Privatsphäre bei Bitcoin geben, abgesehen von CoinJoin. Im Laufe der Jahre haben Entwickler bemerkenswerte Kreativität bei der Entwicklung von Werkzeugen zum Schutz der Privatsphäre gezeigt. Wir werden all diese Methoden untersuchen, wie PayJoin, kollaborative Transaktionen, Coin Swap und Atomic Swap, und ihre Funktionsweise, Ziele und potenzielle Schwächen detailliert beschreiben.
-![BTC204](assets/de/11/5.webp)
 
-### Abschnitt 6: Erkundung von Protokollverbesserungsvorschlägen im Zusammenhang mit Privatsphäre
+Wir werden auch die Privatsphäre auf der Ebene des Knotennetzwerks und die Verbreitung von Transaktionen ansprechen. Wir werden auch die verschiedenen Protokolle diskutieren, die im Laufe der Jahre vorgeschlagen wurden, um die Privatsphäre der Benutzer auf Bitcoin zu verbessern, einschließlich statischer Adressprotokolle.
 
-Während sich die vorherigen Abschnitte auf Lösungen zur Privatsphäre auf Anwendungsebene konzentrierten, wird dieser sechste Abschnitt die Datenschutzprobleme auf der Ebene von Bitcoin Core für die Privatsphäre der Nutzer untersuchen. Wir werden den Datenschutz auf der Ebene des Netzwerks von Knoten und die Übertragung von Transaktionen diskutieren. Außerdem werden wir die verschiedenen Protokolle, die im Laufe der Jahre vorgeschlagen wurden, um die Privatsphäre der Nutzer bei Bitcoin zu verbessern, einschließlich statischer Adressprotokolle, besprechen. Abschließend werden wir die Auswirkungen auf die Privatsphäre, sowohl positive als auch negative, des letzten großen Soft Forks von Bitcoin, Taproot, untersuchen.
+![BTC204](assets/notext/11/5.webp)
 
-![BTC204](assets/notext/67/07.webp)
 
 # Definitionen und Schlüsselkonzepte
 

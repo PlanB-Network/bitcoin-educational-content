@@ -67,9 +67,9 @@ Miten voimme puhua Bitcoinin yksityisyydestä puhumatta coinjoineista? Neljänne
 
 Viidennessä osiossa tarjoamme yleiskatsauksen kaikista muista olemassa olevista tekniikoista, joilla voit suojata yksityisyyttäsi Bitcoinissa coinjoinin lisäksi. Vuosien varrella kehittäjät ovat osoittaneet huomattavaa luovuutta suunnitellessaan yksityisyyteen keskittyviä työkaluja. Tarkastelemme kaikkia näitä menetelmiä, kuten payjoinia, yhteistyössä tehtyjä transaktioita, Coin Swapia ja Atomic Swapia, yksityiskohtaisesti niiden toimintaa, tavoitteita ja mahdollisia heikkouksia.
 
-### Osa 6: Tutkitaan yksityisyyteen liittyviä protokollaparannusehdotuksia
+Käsittelemme myös yksityisyyttä solmuverkoston tasolla ja tapahtumien levitystä. Keskustelemme myös eri protokollista, joita on ehdotettu vuosien varrella käyttäjien yksityisyyden parantamiseksi Bitcoinissa, mukaan lukien staattisten osoitteiden protokollat.
 
-Aikaisemmat osiot keskittyivät sovellustason yksityisyysratkaisuihin, tämä kuudes osio sukeltaa syvemmälle Bitcoin Coren tasolla oleviin yksityisyysongelmiin käyttäjien yksityisyyden kannalta. Keskustelemme yksityisyydestä solmujen verkoston tasolla ja transaktioiden lähettämisestä. Käsittelemme myös erilaisia protokollia, jotka on ehdotettu vuosien varrella parantamaan käyttäjien yksityisyyttä Bitcoinissa, mukaan lukien staattiset osoiteprotokollat. Lopuksi tarkastelemme Bitcoinin viimeisimmän merkittävän pehmeän haarukan, Taprootin, positiivisia ja negatiivisia vaikutuksia yksityisyyteen.
+![BTC204](assets/notext/11/5.webp)
 
 # Määritelmät ja keskeiset käsitteet
 

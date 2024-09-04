@@ -86,7 +86,7 @@ Unendoti ad una pool con i tuoi bitcoin, questi verranno divisi per generare UTX
 Come accennato in precedenza, un UTXO è considerato appartenente ad una pool quando è pronto per essere integrato in un coinjoin. Tuttavia, ciò non significa che l'utente perda il possesso di esso. **Attraverso i diversi cicli di mix, mantieni il pieno controllo delle tue chiavi e, di conseguenza, dei tuoi bitcoin.** Questo è ciò che differenzia la tecnica del coinjoin da altre tecniche di mix centralizzate.
 
 Per entrare in una pool di coinjoin, devono essere pagate le commissioni di servizio così come le commissioni di mining. Le commissioni di servizio sono fisse per ogni pool e sono destinate a compensare i team responsabili dello sviluppo e della manutenzione di Whirlpool.
-Le commissioni di servizio per l'utilizzo di Whirlpool devono essere pagate solo una volta all'ingresso nella pool. Dopo questo passaggio, hai l'opportunità di partecipare ad un numero illimitato di remix senza alcuna commissione aggiuntiva. Ecco le attuali commissioni fisse per ogni piscina:
+Le commissioni di servizio per l'utilizzo di Whirlpool devono essere pagate solo una volta all'ingresso nella pool. Dopo questo passaggio, hai l'opportunità di partecipare ad un numero illimitato di remix senza alcuna commissione aggiuntiva. Ecco le attuali commissioni fisse per ogni pool:
 
 | Pool (bitcoin) | Commissione di ingresso (bitcoin) |
 | -------------- | --------------------------------- |

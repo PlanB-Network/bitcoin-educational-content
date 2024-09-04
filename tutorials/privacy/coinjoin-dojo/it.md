@@ -100,7 +100,7 @@ Queste commissioni funzionano essenzialmente come un biglietto d'ingresso per la
 
 Prima di procedere ai coinjoin, l'utente ha quindi la scelta tra 2 strategie:
 - Optare per una pool più piccola per minimizzare le commissioni di servizio, sapendo che ricerà in cambio diversi piccoli UTXO;
-- Ppreferire una pool più grande, accettando di pagare commissioni più elevate, ottenendo meno UTXO ma di importo maggiore.
+- Preferire una pool più grande, accettando di pagare commissioni più elevate, ottenendo meno UTXO ma di importo maggiore.
 
 Generalmente si sconsiglia di unire diversi UTXO mixati dopo i cicli di coinjoin, poiché ciò potrebbe compromettere la riservatezza acquisita (dimunendo anche la riservatezza di tutti i partecipanti che avevano partecipato ai coinjoin), soprattutto a causa dell'Euristica di Proprietà Comune dell'Input (CIOH). Pertanto, potrebbe essere saggio scegliere una pool più grande, anche se ciò significa pagare di più, per evitare di avere troppi UTXO di piccolo valore in uscita. L'utente deve valutare questi compromessi per scegliere la pool che preferisce.
 
@@ -129,7 +129,7 @@ Tutti questi account sono collegati ad un unico seed, che consente all'utente di
 Ora esaminiamo le diverse fasi di un coinjoin Whirlpool all'interno di questi account.
 
 ### Le diverse fasi dei coinjoin su Whirlpool
-**Fase 1: Il Tx0**
+**Fase 1: La Tx0**
 Il punto di partenza di qualsiasi coinjoin Whirlpool è l'account **deposito**. Questo account è quello che utilizzi automaticamente quando crei un nuovo portafoglio Bitcoin. Questo account deve essere accreditato con i bitcoin che si desidera mixare.
 La `Tx0` rappresenta il primo passo nel processo di mixing di Whirlpool. Ha lo scopo di preparare ed omogeneizzare l'UTXO per il coinjoin, dividendo questi ultimi in unità corrispondenti all'importo della pool selezionata, per garantire l'omogeneità del mixing. Gli UTXO omogeneizzati vengono quindi inviati all'account **premix**. Per quanto riguarda la differenza che non può entrare nella pool, viene separata in un account specifico: il **bad bank** (o "cambio tossico").
 Questa transazione iniziale `Tx0` serve anche per le commissioni di servizio dovute al coordinatore del mix. A differenza dei passaggi successivi, questa transazione non è collaborativa; l'utente deve quindi sostenere tutte le commissioni di mining:

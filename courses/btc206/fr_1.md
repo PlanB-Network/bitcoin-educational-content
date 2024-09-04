@@ -283,7 +283,7 @@ L'histoire des Ordinals commence par quelques collections pionnières, chacune i
 **Bitcoin Schrooms | @BitcoinShrooms**
 ![Shroom 0](https://ordinals.com/content/9163af650dcdeeeb9a7e1f47f693b51921dce3bdf2475e69360ec83d9956f5d7i0)
 `inscription_id: 9163af650dcdeeeb9a7e1f47f693b51921dce3bdf2475e69360ec83d9956f5d7i0`
-Cette collection de 224 inscriptions d'art génératif capte les codes de l'internet, des mèmes et de Bitcoin. Vous pouvez découvrir plus sur cette collection en visitant [bitcoinshrooms.com](https://bitcoinshrooms.com), qui contient des références à l'Orange Pill, Bitcoin Magazine, à l'euro et à l'Union européenne. Malgré son succès, elle est inégalement indexée sur des plateformes comme [gamma.io](https://gamma.io/ordinals/collections/bitcoinshrooms) et [ordiscan](https://ordiscan.com/collection/bitcoin-shrooms?sort=oldest), reflétant la jeunesse de l'écosystème Ordinals. Ces inscriptions ont été échangées pour plusieurs BTC, avec les moins chères actuellement autour de 1,9 BTC (Août 24).
+Cette collection de 224 inscriptions d'art génératif capte les codes de l'internet, des mèmes et de Bitcoin. Vous pouvez découvrir plus sur cette collection en visitant [bitcoinshrooms.com](https://bitcoinshrooms.com), qui contient des références à l'Orange Pill, Bitcoin Magazine, à l'euro et à l'Union européenne et bien d'autres. Malgré son succès, elle est inégalement indexée sur des plateformes comme [gamma.io](https://gamma.io/ordinals/collections/bitcoinshrooms) et [ordiscan](https://ordiscan.com/collection/bitcoin-shrooms?sort=oldest), reflétant la jeunesse de l'écosystème Ordinals. Ces inscriptions ont été échangées pour plusieurs BTC, avec les moins chères actuellement autour de 1,9 BTC (Août 24).
 
 **Bitcoin Rocks | @ordrocks**
 ![Rock 0](https://ordinals.com/content/e8ce0fcb238b377b3a6b9921333e26fbec5c5724c5bf6e783c3dcc1129794508i0)
@@ -293,10 +293,74 @@ Première collection inscrite en une seule fois et entièrement on-chain, listé
 **Bitcoin Wizard | @bitcoinwizardry**
 ![r/bitcoin](https://ordinals.com/content/b1c5baa2593b256068635bbc475e0cc439d66c2dcf12e9de6f3aaeaf96ff818bi0)
 `inscription_id: b1c5baa2593b256068635bbc475e0cc439d66c2dcf12e9de6f3aaeaf96ff818bi0`
-Directement issu de [Reddit r/BitcoinWizard](https://www.reddit.com/r/BitcoinWizard/), cette collection tire son origine d'une campagne marketing pour Bitcoin lancée en février 2013, qui a popularisé l'image du "Sorcier Bitcoin". Cette image est devenue emblématique pour la communauté Bitcoin, symbolisant l'aspect magique de la monnaie numérique.
+Directement issu de [Reddit r/BitcoinWizard](https://www.reddit.com/r/BitcoinWizard/), cette collection tire son origine d'une campagne marketing pour Bitcoin lancée en février 2013, qui a popularisé l'image du "Sorcier Bitcoin". Cette image est devenue emblématique pour la communauté Bitcoin, symbolisant l'aspect magique de la monnaie numérique : *"Magic Internet Money"*.
 
 Ces collections mettent en lumière non seulement la créativité mais aussi l'immaturité de l'écosystème Ordinals, illustrant le potentiel immense mais aussi les défis de son exploitation à grande échelle.
 
+Nous parlerons des **Taproot Wizards** qui se sont basés sur ce meme pour construire leur empire. On pourra également noter les [**Bitcoin Punks**](https://bitcoinpunks.com/) *10k inscriptions*, inscrits assez rapidement, faisant référence aux *cryptopunks*.
+![punk inscription#420](https://ordinals.com/content/5a55780e69b923d418ac6212151540c4c4462088e3e6d52522a466d36c006cdai0) 
+`inscription_id:5a55780e69b923d418ac6212151540c4c4462088e3e6d52522a466d36c006cdai0`
+
+
+### b. Bitmap
+
+Le projet [Bitmap](https://bitmap.community/) explore une approche unique à la notion de propriété sur la blockchain Bitcoin, en introduisant l'idée d'un métaverse où les blocs Bitcoin eux-mêmes sont des biens de propriété. Selon ce protocole, le premier à inscrire `NumeroDeBloc.bitmap` devient le propriétaire du bloc Bitcoin correspondant.
+
+La création de Bitmap est *possiblement* attribuée à [TheBlockRunner](https://www.youtube.com/@TheBlockRunner), qui a su fédérer une communauté importante autour de ce projet. Les participants sont passionnés par le potentiel et soutiennent activement l'évolution de Bitmap.
+
+**Rarefication des blocs et traits de collection :**
+- La communauté a développé [Blocktributes](https://8bit-1.gitbook.io/blocktributes), un guide détaillant la rareté des blocs basée sur leurs caractéristiques spécifiques telles que les frais de transaction, la récompense de bloc, et le nombre de transactions.
+- Les [définitions de traits](https://docs.bitmap.community/bitmap.community/trait-definitions) offrent une analyse approfondie des blocs, ce qui incite les détenteurs et les investisseurs à étudier minutieusement chaque bloc avant toute transaction. Des caractéristiques comme les blocs minés par le [Patoshi](https://bitcoin.fr/satoshi-etait-il-un-mineur-cupide/), ou ceux avec moins de 100, 1 000 ou 100 000 transactions, sont valorisés pour leur rareté.
+
+Bien que l'échange et la spéculation soient les activités principales actuellement, Bitmap nourrit de grandes ambitions pour son métaverse, incluant des jeux qui rappellent [Minecraft](https://www.minecraft.net/fr-fr), où les joueurs peuvent extraire des ressources des transactions contenues dans chaque bloc.
+
+Pour rester informé sur les derniers développements de Bitmap, vous pouvez suivre leurs mises à jour sur leur compte X (anciennement Twitter).
+
+
+### c. Taproot Wizard
+
+Un projet notable dans l'écosystème Ordinals est [**Taproot Wizard** 🧙 | Manifesto](https://taprootwizards.com/manifesto), avec 2 108 inscriptions[^12].
+![taproot wizard](https://ordinals.com/content/0301e0480b374b32851a9462db29dc19fe830a7f7d7a88b81612b9d42099c0aei0)
+
+Ce projet, porté par des figures telles que [Udi Wertheimer | @udiWertheimer](https://x.com/udiwertheimer) et [Eric Wall | @ercwl](https://x.com/ercwl), et illustré par [0xFar | @0xfar](https://x.com/0xfar), s'inspire clairement de Bitcoin Wizards.
+
+**Historique et impact :**
+Taproot Wizard a marqué les esprits en étant la première collection à inscrire un bloc Bitcoin particulièrement lourd, [Block 774628](https://mempool.space/block/0000000000000000000515e202c8ae73c8155fc472422d7593af87aa74f2cf3d?showDetails=true), une prouesse réalisée en partenariat avec la pool [Luxor Technology | @luxor](https://x.com/luxor). Cette démarche illustre la capacité des mineurs à sélectionner spécifiquement les transactions pour un bloc, facilitant ainsi le passage de transactions choisies[^14].
+
+**Acquisition et distribution :**
+Initialement, les Taproot Wizards n'étaient pas vendus sur le marché secondaire. Les intéressés devaient tweeter la *txid* de l'image ci-dessus pour tenter d'en obtenir une. Bien que la distribution exacte reste non divulguée, des personnalités telles que [Jameson Lopp | @lopp](https://x.com/lopp) sont réputées posséder des Taproot Wizards, bien que les détails des wallets ne soient pas publics.
+
+**Développements et ambitions :**
+Après cette première phase, le projet a dévoilé un manifesto ambitieux proposant la création d'un "Wizard Village" et d'une école de sorcier, visant à établir une communauté forte et engagée. L'adhésion à cette communauté exige des contributions significatives, avec des récompenses sous forme de whitelist permettant l'achat de nouveaux Wizards pour les contributeurs les plus actifs.
+
+**Engagement communautaire et quêtes sociales :**
+Par leur école de Sorciers, Taproot Wizard constitue une force de frappe conséquente sur les réseaux sociaux. Afin d'obtenir des Whitelists précieuses ou de tenter d'acquérir un Quantum Cat, ils ont lancé les quêtes `Mission: OP_CAT`. Les participants doivent réaliser une série de tweets sur différents sujets pour participer. La première mission demandait :
+> Write the story of your biggest Bitcoin (or crypto) challenge
+
+Leur message suivant cette première mission était très inspirant :
+> Today, you showed us that we have a legion of cadets filled with grit and mettle. Today, you inspired us with your stories of struggle and growth. Today, we collectively took the first step.
+> The journey has just begun. Tomorrow we continue. Every day, we will continue. We will stride forward together until we usher in an era of magic the likes that Bitcoin has never seen.
+
+**Implications technologiques et communautaires :**
+Les fondateurs utilisent des concepts comme les [*covenants*](https://fr.wikipedia.org/wiki/Covenant), envisagés pour imposer des règles spécifiques aux adresses Bitcoin via des modifications protocolaires. Des propositions comme `OP_CAT` sont débattues dans la communauté pour leur potentiel à transformer la gestion des transactions Bitcoin, comme discuté dans [Bitcoin OPTECH #200](https://bitcoinops.org/en/newsletters/2022/05/18/#when-would-enabling-op-cat-allow-recursive-covenants).
+
+**Pourquoi faire ?**
+Cette initiative vise non seulement à sensibiliser un large public au code Bitcoin, mais aussi à l'impliquer activement dans le développement de nouvelles fonctionnalités. Les actions de Taproot Wizard montrent que l'éducation et l'engagement communautaire peuvent coexister avec des objectifs commerciaux et technologiques, ajoutant une couche de complexité et d'attrait au projet.
+
+Qu'en pensez-vous ? Est-ce bénéfique pour l'écosystème ? 
+
+Pour en savoir plus sur les covenants et les mises à jour proposées pour Bitcoin, vous pouvez consulter [Covenants, OP_CAT et OP_CTV : Tout savoir sur la prochaine mise à jour de Bitcoin](https://cryptoast.fr/covenants-opcat-opctv-tout-savoir-prochaine-mise-a-jour-bitcoin/).
+
+
+## Conclusion
+
+Au terme de notre exploration approfondie des Ordinals, notamment l'enveloppe sur laquelle nous reviendrons dans des discussions techniques futures, il est essentiel de reconnaître le dynamisme des projets et des communautés utilisant la timechain de Bitcoin. Des initiatives telles que Taproot Wizard invitent les utilisateurs à s'engager activement, mais il est crucial de questionner les motivations sous-jacentes et les résultats de ces engagements. Quel est le but réel de ces projets, au-delà de la participation communautaire ?
+
+Il est également important de rester critique et vigilant face aux développements actuels. Bien que ces projets puissent paraître innovants et bénéfiques, ils soulèvent des questions sur leur durabilité, leur impact à long terme sur la timechain de Bitcoin, et les implications pour ceux qui y investissent du temps et des ressources.
+
+Regardant vers l'avenir, les protocoles à inscriptions sur Bitcoin (et les protocoles associés) offrent des opportunités substantielles, tant sur le plan professionnel que personnel. Ils ouvrent de nouvelles avenues pour les créateurs, les développeurs et les entrepreneurs désireux de façonner l'avenir du numérique. Cependant, comme avec toute innovation, il convient d'approcher avec une compréhension complète des risques et des avantages potentiels.
+
+En conclusion, alors que nous continuons à naviguer dans le monde complexe des Ordinals et des inscriptions sur des protocoles *Bitcoin-based*, la prudence, l'éducation et l'engagement éclairé resteront nos meilleurs outils pour exploiter au mieux ces technologies émergentes.
 
 
 

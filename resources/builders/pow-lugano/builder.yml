@@ -1,15 +1,15 @@
 name: PoW Space
 category: communities
 address_line_1: Lugano, Switzerland
-address_line_2:
+address_line_2: Contrada di Sassello 10, 6900 Lugano, Switzerland
 address_line_3:
 language:
   - en
+  - it
 links:
   website: https://pow.space/
-  twitter: https://x.com/planb_network
-  youtube: https://www.youtube.com/channel/UCOT9XfrKaiKunSGYSQNmRrg
-  instagram: https://www.instagram.com/luganoplanb
+  twitter: https://x.com/pow_space
+  instagram: https://www.instagram.com/pow_space_lugano
 
 
 tags:

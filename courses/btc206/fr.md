@@ -319,7 +319,7 @@ Pour rester informé sur les derniers développements de Bitmap, vous pouvez sui
 
 ### c. Taproot Wizard
 
-Un projet notable dans l'écosystème Ordinals est [**Taproot Wizard** 🧙 | Manifesto](https://taprootwizards.com/manifesto), avec 2 108 inscriptions[^12].
+Un projet notable dans l'écosystème Ordinals est [**Taproot Wizard** 🧙 | Manifesto](https://taprootwizards.com/manifesto), avec 2 108 inscriptions.
 ![taproot wizard](https://ordinals.com/content/0301e0480b374b32851a9462db29dc19fe830a7f7d7a88b81612b9d42099c0aei0)
 
 Ce projet, porté par des figures telles que [Udi Wertheimer | @udiWertheimer](https://x.com/udiwertheimer) et [Eric Wall | @ercwl](https://x.com/ercwl), et illustré par [0xFar | @0xfar](https://x.com/0xfar), s'inspire clairement de Bitcoin Wizards.
@@ -385,8 +385,6 @@ En conclusion, alors que nous continuons à naviguer dans le monde complexe des 
 [^10]: [RFC 2045 | Format of Internet Message Bodies](https://datatracker.ietf.org/doc/html/rfc2045), [RFC 2046 | Media Types](https://datatracker.ietf.org/doc/html/rfc2046).
 
 [^11]: Les chiffres historique à ce sujet manque mais vous pouvez chercher sur [OpenOrdex](https://openordex.org/collection?slug=bitcoin-shrooms) si cela vous intéresse. 
-
-[^12]: 
 
 [^13]: Plus gros airdrop Bitcoin jamais réalisé ayant occasioné le minage du bloc: [Block 832849](https://mempool.space/block/00000000000000000000e37d10aa5a5ece8dba4a20f011280ae3d1880414ff7e). Un *airdrop* est un envoi gratuit d'inscription(s) ou de jeton(s). 
 

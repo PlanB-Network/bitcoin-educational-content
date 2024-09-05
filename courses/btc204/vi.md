@@ -1,10 +1,10 @@
 ---
-name: Bảo vệ quyền riêng tư trong thế giới Bitcoin
+name: Bảo vệ quyền riêng tư trên không gian Bitcoin
 goal: Hiểu và thành thạo các nguyên tắc bảo vệ quyền riêng tư khi sử dụng Bitcoin
 objectives:
   - Định nghĩa các khái niệm lý thuyết cần thiết để hiểu rõ vấn đề bảo vệ quyền riêng tư
-  - Biết cách nhận diện và giảm thiểu rủi ro liên quan đến việc mất quyền riêng tư của người dùng trong không gian Bitcoin
-  - Sử dụng các phương pháp và công cụ để bảo vệ quyền riêng tư của bạn trong không gian Bitcoin
+  - Biết cách nhận diện và giảm thiểu rủi ro liên quan đến việc mất quyền riêng tư của người dùng trên không gian Bitcoin
+  - Sử dụng các phương pháp và công cụ để bảo vệ quyền riêng tư của bạn trên không gian Bitcoin
   - Hiểu các phương pháp phân tích chuỗi và phát triển các chiến lược phòng thủ
 ---
 
@@ -35,12 +35,12 @@ Bitcoin không chỉ tồn tại với mục đích "Giá Tăng - Number Go Up -
 Bitcoin mang lại một lối thoát bình yên khỏi ách thống trị của các quốc gia, cho phép bạn tận hưởng trọn vẹn quyền tự nhiên của mình, không thể bị thách thức bởi các luật lệ hiện hành. Nhờ phát minh của Satoshi Nakamoto, bạn có quyền lực để thực thi quyền riêng tư về tài sản và lấy lại quyền tự do giao kết hợp đồng.
 
 Tuy nhiên, Bitcoin không mặc định ẩn danh, điều này có thể tạo ra rủi ro cho các cá nhân tham gia vào nền kinh tế ngầm, đặc biệt là ở các khu vực đang sống dưới các chế độ độc tài. Nhưng đó không phải là điều nguy hiểm duy nhất. Do bitcoin là một tài sản có giá trị và không thể kiểm duyệt, nó có thể thu hút sự chú ý của kẻ trộm. Do đó, bảo vệ quyền riêng tư của bạn cũng trở thành một vấn đề an ninh: nó có thể giúp bạn ngăn chặn các cuộc tấn công mạng và hành vi tấn công vật lý ngoài đời thực.
-Như chúng ta sẽ thấy, mặc dù bản thân giao thức Bitcoin mang lại một số tính năng bảo vệ sự riêng tư, điều quan trọng là chúng ta phải biết sử dụng các công cụ bổ sung để tối ưu hóa và bảo vệ quyền riêng tư này. Khóa học này được thiết kế như một khóa học tổng quát và toàn diện để hiểu về các vấn đề liên quan đến quyền riêng tư trong không gian Bitcoin. Mỗi khái niệm kỹ thuật được thảo luận chi tiết và được hỗ trợ bằng các sơ đồ minh hoạ. Mục tiêu của chúng tôi là giúp cho kiến thức trở nên dễ tiếp cận với mọi người, kể cả người mới bắt đầu và người dùng ở trình độ trung bình. Đối với những người dùng Bitcoin có kinh nghiệm hơn, trong suốt khoá học này, chúng tôi cũng đề cập đến các khái niệm kỹ thuật rất chi tiết và đôi khi ít được biết đến để làm sâu sắc thêm sự hiểu biết về từng chủ đề.
+Như chúng ta sẽ thấy, mặc dù bản thân giao thức Bitcoin mang lại một số tính năng bảo vệ sự riêng tư, điều quan trọng là chúng ta phải biết sử dụng các công cụ bổ sung để tối ưu hóa và bảo vệ quyền riêng tư này. Khóa học này được thiết kế như một khóa học tổng quát và toàn diện để hiểu về các vấn đề liên quan đến quyền riêng tư trên không gian Bitcoin. Mỗi khái niệm kỹ thuật được thảo luận chi tiết và được hỗ trợ bằng các sơ đồ minh hoạ. Mục tiêu của chúng tôi là giúp cho kiến thức trở nên dễ tiếp cận với mọi người, kể cả người mới bắt đầu và người dùng ở trình độ trung bình. Đối với những người dùng Bitcoin có kinh nghiệm hơn, trong suốt khoá học này, chúng tôi cũng đề cập đến các khái niệm kỹ thuật rất chi tiết và đôi khi ít được biết đến để làm sâu sắc thêm sự hiểu biết về từng chủ đề.
 
 Mục tiêu của khóa học này không phải là làm cho bạn trở nên hoàn toàn ẩn danh trong việc sử dụng Bitcoin, mà là cung cấp cho bạn các công cụ cần thiết để biết cách bảo vệ quyền riêng tư của mình theo mục tiêu cá nhân. Bạn toàn quyền tự do lựa chọn từ các khái niệm và công cụ được đưa ra ở đây để phát triển chiến lược riêng của mình, phù hợp với mục tiêu và nhu cầu cụ thể của bản thân.
 
 ### Phần 1: Các định nghĩa và khái niệm chính
-Để bắt đầu, chúng ta sẽ cùng nhau xem kỹ lại các nguyên tắc cơ bản quản trị sự vận hành của Bitcoin, để sau đó có thể tiếp cận dần với các khái niệm liên quan đến quyền riêng tư. Việc nắm vững một số khái niệm cơ bản như UTXOs, địa chỉ nhận, hoặc scripts rất quan trọng, vì điều đó sẽ giúp bạn có thể hiểu trọn vẹn các khái niệm mà chúng tôi sẽ đề cập trong các phần tiếp theo. Chúng tôi cũng sẽ giới thiệu mô hình tổng quát về quyền riêng tư trong không gian Bitcoin, theo cách Satoshi Nakamoto hình dung, điều này sẽ cho phép chúng ta nắm bắt được các vấn đề và rủi ro liên quan.
+Để bắt đầu, chúng ta sẽ cùng nhau xem kỹ lại các nguyên tắc cơ bản quản trị sự vận hành của Bitcoin, để sau đó có thể tiếp cận dần với các khái niệm liên quan đến quyền riêng tư. Việc nắm vững một số khái niệm cơ bản như UTXOs, địa chỉ nhận, hoặc scripts rất quan trọng, vì điều đó sẽ giúp bạn có thể hiểu trọn vẹn các khái niệm mà chúng tôi sẽ đề cập trong các phần tiếp theo. Chúng tôi cũng sẽ giới thiệu mô hình tổng quát về quyền riêng tư trên không gian Bitcoin, theo cách Satoshi Nakamoto hình dung, điều này sẽ cho phép chúng ta nắm bắt được các vấn đề và rủi ro liên quan.
 ![BTC204](assets/vi/11/1.webp)
 
 ### Phần 2: Hiểu về phân tích chuối và các bảo vệ quyền riêng tư trước hoạt động này
@@ -57,12 +57,12 @@ Trong phần thứ ba của khóa học, chúng ta đi vào vấn đề chính: 
 
 ### Phần 4: Hiểu về giao dịch trộn coin - Coinjoin
 
-Làm sao chúng ta có thể nói về quyền riêng tư trong không gian Bitcoin mà không thảo luận về trộn coin - coinjoins? Trong phần 4, chúng ta sẽ khám phá mọi thứ bạn cần biết về phương pháp trộn này. Bạn sẽ học được trộn coin là gì, lịch sử và mục tiêu của nó, cũng như các hình thức trộn coin khác nhau hiện hành. Cuối cùng, đối với người dùng có kinh nghiệm hơn, chúng ta sẽ khám phá về anonsets và entropy, và cách tính toán các chỉ số này.
+Làm sao chúng ta có thể nói về quyền riêng tư trên không gian Bitcoin mà không thảo luận về trộn coin - coinjoins? Trong phần 4, chúng ta sẽ khám phá mọi thứ bạn cần biết về phương pháp trộn này. Bạn sẽ học được trộn coin là gì, lịch sử và mục tiêu của nó, cũng như các hình thức trộn coin khác nhau hiện hành. Cuối cùng, đối với người dùng có kinh nghiệm hơn, chúng ta sẽ khám phá về anonsets và entropy, và cách tính toán các chỉ số này.
 
 ![BTC204](assets/vi/11/4.webp)
 
 ### Phần 5: Hiểu về các kỹ thuật nâng cao liên quan tới quyền riêng tư
-Trong phần thứ năm, chúng tôi sẽ cung cấp một cái nhìn tổng quan về tất cả các kỹ thuật khác hiện có để bảo vệ quyền riêng tư của bạn trong không gian Bitcoin, ngoài coinjoin. Trải qua nhiều năm, các nhà phát triển đã thể hiện sự sáng tạo xuất sắc trong việc thiết kế các công cụ chuyên dụng để bảo vệ quyền riêng tư. Chúng ta sẽ khám phá tất cả các phương pháp này, như payjoin, giao dịch hợp tác, Coin Swap và Atomic Swap, chi tiết về cách hoạt động, mục tiêu và điểm yếu tiềm ẩn.
+Trong phần thứ năm, chúng tôi sẽ cung cấp một cái nhìn tổng quan về tất cả các kỹ thuật khác hiện có để bảo vệ quyền riêng tư của bạn trên không gian Bitcoin, ngoài coinjoin. Trải qua nhiều năm, các nhà phát triển đã thể hiện sự sáng tạo xuất sắc trong việc thiết kế các công cụ chuyên dụng để bảo vệ quyền riêng tư. Chúng ta sẽ khám phá tất cả các phương pháp này, như payjoin, giao dịch hợp tác, Coin Swap và Atomic Swap, chi tiết về cách hoạt động, mục tiêu và điểm yếu tiềm ẩn.
 
 ### Phần 6: Khám phá các đề xuất cải tiến giao thức liên quan đến quyền riêng tư
 
@@ -108,7 +108,7 @@ Vì khái niệm về tài khoản không tồn tại trong Bitcoin, số dư c�
 - 2 BTC
 ```
 
-Tổng số dư của ví bạn sẽ là `17 BTC`.
+Tổng số dư ví của bạn sẽ là `17 BTC`.
 
 ![BTC204](assets/vi/21/4.webp)
 
@@ -117,30 +117,30 @@ Tổng số dư của ví bạn sẽ là `17 BTC`.
 
 ### Các đầu vào và đầu ra của một giao dịch
 
-Một giao dịch Bitcoin là một hoạt động được ghi lại trên blockchain cho phép chuyển quyền sở hữu bitcoins từ một người này sang người khác. Cụ thể hơn, vì chúng ta đang ở trong mô hình UTXO và không có tài khoản, giao dịch đáp ứng các điều kiện chi tiêu đã bảo vệ một hoặc nhiều UTXOs, tiêu thụ chúng, và tương đương tạo ra UTXOs mới được trao điều kiện chi tiêu mới. Nói ngắn gọn, một giao dịch di chuyển bitcoins từ một script được thỏa mãn sang một script mới nhằm bảo vệ chúng.
+Một giao dịch Bitcoin là một hoạt động được ghi lại trên blockchain cho phép chuyển quyền sở hữu bitcoin từ người này sang người khác. Cụ thể hơn, vì chúng ta đang ở trong mô hình UTXO và không có tài khoản, giao dịch thoả mãn các điều kiện chi tiêu đã bảo vệ một hoặc nhiều UTXO, sẽ tiêu thụ chúng, và tạo ra các UTXO mới với các điều kiện chi tiêu mới. Nói ngắn gọn, một giao dịch di chuyển bitcoin từ một script được đáp ứng sang một script mới nhằm bảo vệ chúng.
 
 ![BTC204](assets/vi/22/1.webp)
 
-Mỗi giao dịch Bitcoin do đó bao gồm một hoặc nhiều đầu vào và một hoặc nhiều đầu ra. Các đầu vào là UTXOs được tiêu thụ bởi giao dịch để tạo ra các đầu ra. Các đầu ra là UTXOs mới sẽ có thể sử dụng như đầu vào cho các giao dịch tương lai.
+Mỗi giao dịch Bitcoin do đó bao gồm một hoặc nhiều đầu vào và một hoặc nhiều đầu ra. Các đầu vào là các UTXO được tiêu thụ bởi giao dịch đó để tạo ra các đầu ra mới. Các đầu ra là các UTXO mới sẽ có thể sử dụng như đầu vào cho các giao dịch tương lai.
 
 ![BTC204](assets/vi/22/2.webp)
-**> Bạn có biết?** Lý thuyết, một giao dịch bitcoin có thể có vô số lượng đầu vào và đầu ra. Chỉ có kích thước tối đa của một khối giới hạn số lượng này. Mỗi đầu vào trong một giao dịch Bitcoin đề cập đến một UTXO (Unspent Transaction Output) trước đó chưa được tiêu. Để sử dụng một UTXO làm đầu vào, người giữ nó phải chứng minh rằng họ là chủ sở hữu hợp pháp bằng cách xác thực script liên quan đến nó, tức là, bằng cách đáp ứng điều kiện chi tiêu được áp đặt. Nói chung, điều này liên quan đến việc cung cấp một chữ ký số được tạo ra bằng khóa riêng tương ứng với khóa công khai đã ban đầu bảo vệ UTXO đó. Script do đó xác minh rằng chữ ký khớp với khóa công khai được sử dụng khi nhận tiền.
+**> Bạn có biết?** Về lý thuyết, một giao dịch Bitcoin có thể có không giới hạn số lượng đầu vào và đầu ra. Thứ duy nhất giới hạn số lượng này là kích thước tối đa của một khối. Mỗi đầu vào trong một giao dịch Bitcoin là một UTXO (Unspent Transaction Output) trước đó chưa được tiêu. Để sử dụng một UTXO làm đầu vào, người giữ nó phải chứng minh rằng họ là chủ sở hữu hợp pháp bằng cách xác thực script liên quan đến nó, tức là, bằng cách đáp ứng điều kiện chi tiêu được áp đặt. Nói chung, điều này liên quan đến việc cung cấp một chữ ký số được tạo ra bằng khóa riêng tư tương ứng với khóa công khai đã được dùng để bảo vệ UTXO đó lúc ban đầu. Script do đó xác minh rằng chữ ký (dùng để chi tiêu) khớp với khóa công khai được sử dụng để nhận tiền lúc trước.
 ![BTC204](assets/vi/22/3.webp)
 
-Mỗi đầu ra, mặt khác, chỉ rõ số lượng bitcoin được chuyển giao, cũng như người nhận. Người nhận được xác định bởi một script mới mà, nói chung, khóa UTXO mới tạo với một địa chỉ nhận hoặc một khóa công khai mới.
+Mỗi đầu ra, mặt khác, định rõ số lượng bitcoin được chuyển giao, cũng như người nhận. Người nhận được xác định bởi một script mới mà, nói chung, nó sẽ khóa UTXO mới tạo với một địa chỉ nhận hoặc một khóa công khai mới.
 
-Để một giao dịch được coi là hợp lệ theo quy tắc đồng thuận, tổng số của các đầu ra phải nhỏ hơn hoặc bằng tổng số của các đầu vào. Nói cách khác, tổng số UTXO mới được tạo ra bởi giao dịch không được vượt quá số lượng UTXO được tiêu thụ như đầu vào. Nguyên tắc này là hợp lý: nếu bạn chỉ có một lượng `500,000 SATS`, bạn không thể thực hiện một giao dịch mua `700,000 SATS`.
+Để một giao dịch được coi là hợp lệ theo quy tắc đồng thuận, tổng số của các đầu ra phải nhỏ hơn hoặc bằng tổng số của các đầu vào. Nói cách khác, tổng số bitcoin trong các UTXO mới được tạo ra bởi giao dịch không được vượt quá số lượng bitcoin trong các UTXO được tiêu thụ như đầu vào. Nguyên tắc này là hợp lý: nếu bạn chỉ có một lượng `500,000 SAT`, bạn không thể thực hiện một giao dịch mua `700,000 SAT`.
 
-### Thay đổi và Tổng hợp trong một Giao dịch Bitcoin
+### Tiền thừa và Sự hợp nhất trong một giao dịch Bitcoin
 
-Hành động của một giao dịch Bitcoin đối với UTXO có thể được so sánh với việc nấu chảy một đồng tiền vàng. Thực tế, một UTXO không thể chia nhỏ, nhưng chỉ có thể kết hợp. Điều này có nghĩa là người dùng không thể đơn giản chia một UTXO đại diện cho một lượng bitcoin nhất định thành nhiều UTXO nhỏ hơn. Họ phải tiêu thụ hoàn toàn nó trong một giao dịch để tạo ra một hoặc nhiều UTXO mới với các giá trị tùy ý trong đầu ra, phải nhỏ hơn hoặc bằng giá trị ban đầu.
+Sự vận hành của một giao dịch Bitcoin dựa trên các UTXO có thể được so sánh với việc nấu chảy một đồng tiền vàng. Thực tế, một UTXO không thể chia nhỏ, nhưng chỉ có thể hợp nhất. Điều này có nghĩa là người dùng không thể đơn giản chia một UTXO đại diện cho một lượng bitcoin nhất định thành nhiều UTXO đại diện có những lượng bitcoin nhỏ hơn để dùng cho các mục đích khác nhau. Họ phải tiêu thụ hoàn toàn nó trong một giao dịch để tạo ra một hoặc nhiều UTXO mới với các giá trị tùy ý trong đầu ra, phải nhỏ hơn hoặc bằng giá trị ban đầu.
 
 Cơ chế này tương tự như đối với một đồng tiền vàng. Hãy tưởng tượng bạn sở hữu một đồng tiền 2 ounce và bạn muốn thực hiện một thanh toán 1 ounce, giả sử người bán không thể trả lại tiền thừa. Bạn sẽ cần phải nấu chảy đồng tiền của mình và đúc 2 đồng mới mỗi đồng 1 ounce.
-Trên Bitcoin, hoạt động tương tự. Hãy tưởng tượng Alice có một UTXO của `10,000 SATS` và cô ấy muốn mua một chiếc bánh mì với giá `4,000 SATS`. Alice sẽ thực hiện một giao dịch với một đầu vào là 1 UTXO của `10,000 SATS` mà cô ấy sẽ tiêu thụ hoàn toàn, và trong đầu ra, cô ấy sẽ tạo ra 2 UTXO với giá trị là `4,000 SATS` và `6,000 SATS`. UTXO của `4,000 SATS` sẽ được gửi đến người bán bánh mì như là thanh toán cho chiếc bánh mì, trong khi UTXO của `6,000 SATS` sẽ trở lại với Alice như là tiền thừa. UTXO này trở lại với người gửi ban đầu của giao dịch được gọi là "tiền thừa" trong thuật ngữ Bitcoin.
+Cách vận hành tương tự được áp dụng với Bitcoin. Hãy tưởng tượng Alice có một UTXO của `10,000 SAT` và cô ấy muốn mua một chiếc bánh mì với giá `4,000 SAT`. Alice sẽ thực hiện một giao dịch với một đầu vào là 1 UTXO của `10,000 SAT` mà cô ấy sẽ tiêu thụ hoàn toàn, và trong đầu ra, cô ấy sẽ tạo ra 2 UTXO với giá trị là `4,000 SAT` và `6,000 SAT`. UTXO của `4,000 SAT` sẽ được gửi đến người bán bánh mì như là khoản thanh toán cho chiếc bánh mì, trong khi UTXO của `6,000 SAT` sẽ được quay trở lại với Alice như là tiền thừa được thối lại. UTXO này trở lại với người gửi ban đầu của giao dịch được gọi là "tiền thừa" trong thuật ngữ Bitcoin.
 ![BTC204](assets/vi/22/4.webp)
-Bây giờ hãy tưởng tượng rằng Alice không có một UTXO duy nhất là `10,000 SATS`, mà là hai UTXO mỗi cái là `3,000 SATS`. Trong tình huống này, không có UTXO nào đủ để chi trả `4,000 SATS` cho chiếc bánh mì. Do đó, Alice phải sử dụng cả hai UTXO là `3,000 SATS` làm đầu vào cho giao dịch của mình cùng một lúc. Như vậy, tổng số tiền đầu vào sẽ đạt `6,000 SATS`, cho phép cô ấy chi trả `4,000 SATS` cho người bán bánh. Phương pháp này, liên quan đến việc nhóm nhiều UTXO trong đầu vào của một giao dịch, thường được gọi là "tổng hợp".![BTC204](assets/vi/22/5.webp)
+Bây giờ tưởng tượng rằng Alice không sở hữu một UTXO `10,000 SAT`, mà là hai UTXO mỗi cái là `3,000 SAT`. Trong tình huống này, không có UTXO nào đủ để chi trả `4,000 SAT` cho chiếc bánh mì. Do đó, Alice phải sử dụng cả hai UTXO là `3,000 SAT` làm đầu vào cho giao dịch của mình cùng một lúc. Như vậy, tổng số tiền đầu vào sẽ đạt `6,000 SAT`, cho phép cô ấy chi trả `4,000 SAT` cho người bán bánh. Phương pháp này, liên quan đến việc nhóm nhiều UTXO trong đầu vào của một giao dịch, thường được gọi là "hợp nhất".![BTC204](assets/vi/22/5.webp)
 
-### Phí Giao Dịch
+### Phí giao dịch
 
 Một cách trực giác, người ta có thể nghĩ rằng phí giao dịch cũng đại diện cho một đầu ra của giao dịch. Nhưng trên thực tế, điều này không đúng. Phí của một giao dịch đại diện cho sự chênh lệch giữa tổng số tiền đầu vào và tổng số tiền đầu ra. Điều này có nghĩa là, sau khi sử dụng một phần giá trị của đầu vào để chi trả cho các đầu ra mong muốn trong một giao dịch, một số tiền nhất định từ đầu vào còn lại không được sử dụng. Số tiền dư này tạo thành phí giao dịch.
 
@@ -148,97 +148,97 @@ Một cách trực giác, người ta có thể nghĩ rằng phí giao dịch c�
 Phí = tổng đầu vào - tổng đầu ra
 ```
 
-Hãy quay lại ví dụ về Alice, người có một UTXO là `10,000 SATS` và muốn mua một chiếc bánh mì với giá `4,000 SATS`. Alice tạo một giao dịch với UTXO của mình là `10,000 SATS` làm đầu vào. Sau đó, cô ấy tạo một đầu ra là `4,000 SATS` dành cho người bán bánh để thanh toán cho chiếc bánh mì. Để khuyến khích các thợ mỏ bao gồm giao dịch của mình vào một khối, Alice dành `200 SATS` làm phí. Cô ấy do đó tạo ra một đầu ra thứ hai, số tiền thừa, sẽ trả lại cho cô ấy, lên đến `5,800 SATS`.
+Hãy quay lại ví dụ về Alice, người có một UTXO là `10,000 SAT` và muốn mua một chiếc bánh mì với giá `4,000 SAT`. Alice tạo một giao dịch với UTXO của mình là `10,000 SAT` làm đầu vào. Sau đó, cô ấy tạo một đầu ra là `4,000 SAT` dành cho người bán bánh để thanh toán cho chiếc bánh mì. Để khuyến khích các thợ mỏ bao đưa dịch của mình vào một khối, Alice dành `200 SAT` làm phí. Cô ấy do đó tạo ra một đầu ra thứ hai, số tiền thừa, sẽ trả lại cho cô ấy, lên đến `5,800 SAT`.
 ![BTC204](assets/vi/22/6.webp)
 
-Bằng cách áp dụng công thức phí, chúng ta thực sự thấy rằng còn lại `200 SATS` cho các thợ mỏ:
+Bằng cách áp dụng công thức phí, chúng ta thực sự thấy rằng còn lại `200 SAT` cho các thợ mỏ:
 ```plaintext
 Phí = tổng đầu vào - tổng đầu ra
-Chi phí = 10,000 - (4,000 + 5,800)
-Chi phí = 10,000 - 9,800
-Chi phí = 200
+Phí giao dịch = 10,000 - (4,000 + 5,800)
+Phí giao dịch = 10,000 - 9,800
+Phí giao dịch = 200
 ```
-Khi một thợ mỏ thành công trong việc xác nhận một khối, họ được phép thu thập những phí này cho tất cả các giao dịch được bao gồm trong khối của họ, thông qua giao dịch "coinbase".
+Khi một thợ mỏ thành công trong việc xác nhận một khối, họ được phép thu thập những phí này cho tất cả các giao dịch được đưa vào trong khối của họ, thông qua giao dịch "coinbase".
 
-### Sự Tạo Ra Của UTXOs Trên Bitcoin
+### Sự hình thành các UTXO trong Bitcoin
 
-Nếu bạn đã theo dõi các đoạn văn trước một cách chú ý, bạn bây giờ biết rằng UTXOs chỉ có thể được tạo ra bằng cách tiêu thụ các UTXOs khác đã tồn tại. Do đó, các đồng tiền trên Bitcoin tạo thành một chuỗi liên tục. Tuy nhiên, bạn có thể tự hỏi làm thế nào những UTXOs đầu tiên trong chuỗi này xuất hiện. Điều này đặt ra một vấn đề tương tự như câu hỏi gà và trứng: những UTXOs ban đầu này đến từ đâu?
+Nếu chú ý theo dõi các ý phía trước, bây giờ, bạn đã biết rằng các UTXO chỉ có thể được tạo ra bằng cách tiêu thụ các UTXO khác đã tồn tại. Do đó, các đồng tiền trên Bitcoin tạo thành một chuỗi liên tục. Tuy nhiên, bạn có thể tự hỏi cách mà các UTXO đầu tiên xuất hiện. Điều này đặt ra một tình huống tương tự như vấn đề con gà và quả trứng: các UTXO này đến từ đâu?
 
 Câu trả lời nằm ở **giao dịch coinbase**.
 
-Coinbase là một loại giao dịch Bitcoin đặc biệt, duy nhất cho mỗi khối và luôn là cái đầu tiên trong số chúng. Nó cho phép thợ mỏ đã tìm thấy một bằng chứng công việc hợp lệ nhận phần thưởng khối của họ. Phần thưởng này bao gồm hai yếu tố: **phần thưởng khối** và **phí giao dịch** mà chúng ta đã nói về trong phần trước.
+Coinbase là một loại giao dịch Bitcoin đặc biệt, độc nhất và luôn là giao dịch đầu tiên của mỗi khối. Nó cho phép thợ đào đã tìm thấy một bằng chứng công việc hợp lệ nhận phần thưởng khối của họ. Phần thưởng này bao gồm hai thành phần: **trợ cấp khối - bitcoin mới** và **phí giao dịch** mà chúng ta đã nói về trong phần trước.
 
-Đặc điểm độc đáo của giao dịch coinbase là nó là giao dịch duy nhất có thể tạo ra bitcoin từ không khí mỏng, không cần tiêu thụ đầu vào để tạo ra đầu ra của mình. Những bitcoin mới được tạo ra này tạo thành những gì có thể được gọi là "UTXOs gốc".
+Giao dịch coinbase độc đáo ở chỗ nó là loại giao dịch duy nhất tạo ra bitcoin mới, từ hư không, không cần tiêu thụ đầu vào để tạo ra đầu ra của mình. Những đồng bitcoin được "in mới" này tạo thành những gì có thể được gọi là "các UTXO gốc".
 ![BTC204](assets/vi/22/7.webp)
-Các bitcoin từ phần thưởng khối được tạo mới từ không, theo một lịch trình phát hành đã được thiết lập trước trong các quy tắc đồng thuận. Phần thưởng khối được giảm một nửa sau mỗi 210,000 khối, khoảng cứ mỗi bốn năm, trong một quá trình được gọi là "halving". Ban đầu, 50 bitcoin được tạo ra với mỗi phần thưởng, nhưng số lượng này đã dần giảm; hiện tại, là 3.125 bitcoin mỗi khối.
+Các bitcoin từ trợ cấp khối được tạo mới từ "hư không", theo một lịch trình phát hành đã được thiết lập trước trong các quy tắc đồng thuận. Trợ cấp khối bị giảm đi một nửa sau mỗi 210.000 khối, khoảng cứ mỗi bốn năm, trong một sự kiện được gọi là "halving". Ban đầu, 50 bitcoin mới được tạo ra ứng với mỗi khối, nhưng số lượng này đã dần giảm; hiện tại, là 3,125 bitcoin mỗi khối.
 
-Về phần liên quan đến phí giao dịch, mặc dù nó cũng đại diện cho BTC mới được tạo, chúng không được vượt quá sự chênh lệch giữa tổng số đầu vào và đầu ra của tất cả các giao dịch trong một khối. Chúng ta đã thấy trước đó rằng các phí này đại diện cho phần của đầu vào không được sử dụng trong đầu ra của các giao dịch. Phần này về mặt kỹ thuật là "mất" trong quá trình giao dịch, và người khai thác có quyền tái tạo giá trị này dưới dạng một hoặc nhiều UTXO mới. Do đó, đây là một sự chuyển giao giá trị từ người gửi giao dịch đến người khai thác thêm nó vào blockchain.
+Về phần liên quan đến phí giao dịch, mặc dù nó cũng đại diện cho BTC mới được tạo, chúng không được vượt quá sự chênh lệch giữa tổng số đầu vào và đầu ra của tất cả các giao dịch trong một khối. Chúng ta đã thấy trước đó rằng các phí này đại diện cho phần của đầu vào không được sử dụng trong đầu ra của các giao dịch. Phần này về mặt kỹ thuật là "mất" trong quá trình giao dịch, và người khai thác có quyền tái tạo giá trị này dưới dạng một hoặc nhiều UTXO mới. Do đó, đây là một sự chuyển giao giá trị từ người giao dịch đến thợ đào, người thêm giao dịch đó vào blockchain.
 
-**> Bạn có biết?** Các bitcoin được tạo ra bởi một giao dịch coinbase phải chịu một thời gian chờ đợi 100 khối trước khi chúng có thể được người khai thác chi tiêu. Quy tắc này nhằm mục đích tránh những phức tạp liên quan đến việc sử dụng bitcoin mới tạo trên một chuỗi có thể sau này trở nên lỗi thời.
-### Ý Nghĩa của Mô Hình UTXO
-Đầu tiên, mô hình UTXO ảnh hưởng trực tiếp đến phí giao dịch trên Bitcoin. Do khả năng chứa của mỗi khối là có hạn, các người khai thác ưu tiên các giao dịch cung cấp phí tốt nhất tương đối với không gian chúng sẽ chiếm trong khối. Thực tế, càng nhiều UTXO một giao dịch bao gồm dưới dạng đầu vào và đầu ra, giao dịch càng nặng và do đó, yêu cầu phí cao hơn. Đây là một trong những lý do tại sao thường có nỗ lực giảm số lượng UTXO trong ví của chúng ta, điều này cũng có thể ảnh hưởng đến quyền riêng tư, một chủ đề mà chúng ta sẽ đi sâu vào chi tiết trong phần thứ ba của khóa học này.
+**> Bạn có biết?** Các bitcoin được tạo ra bởi một giao dịch coinbase phải trải qua một thời gian chờ đợi 100 khối trước khi chúng có thể được thợ đào chi tiêu. Quy tắc này nhằm mục đích tránh những phức tạp liên quan đến việc sử dụng bitcoin mới tạo trên một chuỗi mà sau này, nó có thể trở thành một chuỗi bị bỏ rơi (chuỗi không còn tiếp tục được xem là chuỗi hợp lệ).
+### Ý Nghĩa của mô hình UTXO
+Đầu tiên, mô hình UTXO ảnh hưởng trực tiếp đến phí giao dịch trên Bitcoin. Do dung lượng của mỗi khối là có hạn, các thợ đào sẽ ưu tiên các giao dịch chấp nhận trả mức phí tính theo không gian lưu trữ tốt nhất. Thực tế, càng chứa nhiều UTXO dưới dạng đầu vào và đầu ra, giao dịch đó càng nặng (tính theo dung lượng lưu trữ của bộ nhớ) và do đó, yêu cầu phí cao hơn. Đây là một trong những lý do tại sao thường có nỗ lực giảm số lượng UTXO trong ví của chúng ta, điều này cũng có thể ảnh hưởng đến quyền riêng tư, một chủ đề mà chúng ta sẽ đi sâu vào chi tiết trong phần thứ ba của khóa học này.
 
-Tiếp theo, như đã đề cập trong các phần trước, tiền trên Bitcoin về cơ bản là một chuỗi của UTXO. Mỗi giao dịch do đó tạo ra một liên kết giữa một UTXO quá khứ và một UTXO tương lai. UTXO do đó cho phép theo dõi rõ ràng lộ trình của bitcoin từ khi chúng được tạo ra đến khi chúng được chi tiêu hiện tại. Sự minh bạch này có thể được xem một cách tích cực, vì nó cho phép mỗi người dùng đảm bảo tính xác thực của các bitcoin nhận được. Tuy nhiên, cũng chính trên nguyên tắc về khả năng theo dõi và kiểm toán này mà phân tích chuỗi được dựa vào, một thực hành nhằm xâm phạm quyền riêng tư của bạn. Chúng ta sẽ nghiên cứu thực hành này một cách sâu rộng trong phần thứ hai của khóa học.
+Tiếp theo, như đã đề cập trong các phần trước, tiền trên Bitcoin về cơ bản là một chuỗi của các UTXO. Mỗi giao dịch do đó tạo ra một liên kết giữa một UTXO quá khứ và một UTXO tương lai. UTXO do đó cho phép theo dõi rõ ràng lộ trình của bitcoin từ khi chúng được tạo ra đến khi chúng được chi tiêu hiện tại. Sự minh bạch này có thể được xem là một yếu tố tích cực, vì nó cho phép mỗi người dùng đảm bảo tính xác thực của các bitcoin nhận được. Tuy nhiên, cũng chính trên nguyên tắc về khả năng theo dõi và kiểm chứng này mà phân tích chuỗi được dựa vào, một hoạt động hướng tới xâm phạm quyền riêng tư của bạn. Chúng ta sẽ nghiên cứu về hoạt động phân tích chuỗi này một cách sâu rộng trong phần thứ hai của khóa học.
 
-## Mô Hình Quyền Riêng Tư của Bitcoin
+## Mô hình quyền riêng tư của Bitcoin
 <chapterId>769d8963-3ed5-4094-b21d-9203c7d9e465</chapterId>
 
-### Tiền Tệ: Tính Xác Thực, Tính Toàn Vẹn, và Giao Dịch Đôi
-Một trong những chức năng của tiền tệ là giải quyết vấn đề về sự trùng hợp kép của nhu cầu. Trong một hệ thống dựa trên trao đổi hàng hóa, việc thực hiện một giao dịch đòi hỏi không chỉ tìm ra một cá nhân đang cung cấp một hàng hóa phù hợp với nhu cầu của tôi mà còn phải cung cấp cho họ một hàng hóa có giá trị tương đương thỏa mãn nhu cầu của họ. Việc tìm kiếm sự cân bằng này chứng tỏ là phức tạp.
+### Tiền tệ: Tính xác thực, tính toàn vẹn và hoạt động lặp chi
+Một trong những chức năng của tiền tệ là giải quyết vấn đề về sự trùng khớp của nhu cầu. Trong một nền kinh tế dựa trên hàng đổi hàng, việc thực hiện một giao dịch đòi hỏi không chỉ tìm ra một cá nhân đang cung cấp loại hàng hóa phù hợp với nhu cầu của mình mà chúng ta còn phải có khả năng cung cấp cho họ loại hàng hóa có giá trị tương đương và thỏa mãn nhu cầu của họ. Việc tìm kiếm sự cân bằng này đã được chứng minh là rất phực tạp.
 
 ![BTC204](assets/notext/23/1.webp)
 
-Chính vì vậy chúng ta sử dụng tiền tệ, cho phép chuyển giao giá trị cả về không gian và thời gian.
+Chính vì vậy chúng ta sử dụng tiền tệ, cho phép dịch chuyển giá trị theo cả không gian và thời gian.
 
 ![BTC204](assets/notext/23/2.webp)
 
-Để tiền tệ giải quyết vấn đề này, điều cần thiết là bên cung cấp hàng hóa hoặc dịch vụ phải được thuyết phục về khả năng của họ để chi tiêu số tiền đó sau này. Do đó, bất kỳ cá nhân nào hợp lý muốn chấp nhận một loại tiền tệ, dù là kỹ thuật số hay vật lý, sẽ đảm bảo rằng nó đáp ứng hai tiêu chí cơ bản:
-- **Đồng tiền phải còn nguyên vẹn và chính hãng;**- **và nó không được phép được chi tiêu hai lần.**
-Khi sử dụng tiền tệ vật lý, đặc điểm đầu tiên là phức tạp nhất để xác định. Trong các giai đoạn khác nhau của lịch sử, tính toàn vẹn của đồng tiền kim loại thường xuyên bị xâm phạm bởi các hành vi như cắt xén hoặc khoan. Ví dụ, trong thời cổ đại Rome, việc người dân cạo viền của đồng tiền vàng để thu thập một ít kim loại quý, trong khi vẫn giữ chúng cho các giao dịch tương lai là điều phổ biến. Giá trị nội tại của đồng tiền do đó bị giảm, nhưng giá trị mặt tiền vẫn giữ nguyên. Đây chính là lý do tại sao sau này người ta đúc rãnh ở viền của đồng tiền.
+Để tiền tệ giải quyết vấn đề này, điều cần thiết là phải thuyết phục được bên cung cấp hàng hóa hoặc dịch vụ rằng họ có thể chi tiêu số tiền họ nhận được vào thời điểm mà họ muốn. Do đó, khi chấp nhận một loại tiền tệ nào đó, bất kỳ cá nhân khôn ngoan nào cũng muốn loại tiền đó, dù là tiền kỹ thuật số hay tiền vật lý, sẽ đảm bảo rằng nó đáp ứng hai tiêu chí cơ bản:
+- **Đồng tiền phải còn nguyên vẹn và thật - đáng tin cậy;**- **và nó không được phép bị lặp chi.**
+Khi sử dụng tiền tệ vật lý, đặc điểm đầu tiên là phức tạp nhất để xác định. Trong các giai đoạn khác nhau của lịch sử, tính toàn vẹn của đồng tiền kim loại thường xuyên bị xâm phạm bởi các hành vi như cắt xén hoặc khoan. Ví dụ, trong thời Rome cổ đại, việc người dân cạo viền của đồng tiền vàng để thu thập một ít kim loại quý, trong khi vẫn giữ chúng cho các giao dịch tương lai, là điều phổ biến. Giá trị nội tại của đồng tiền do đó bị giảm, nhưng giá trị danh nghĩa vẫn giữ nguyên. Đây chính là lý do tại sao sau này người ta đúc rãnh ở viền của đồng tiền.
 
-Tính chính hãng cũng là một đặc điểm khó xác minh với phương tiện tiền tệ vật lý. Ngày nay, các kỹ thuật chống làm giả ngày càng phức tạp, buộc các thương nhân phải đầu tư vào các hệ thống xác minh đắt tiền.
+Tính xác thực cũng là một đặc điểm khó xác minh với tiền tệ vật lý. Ngày nay, các kỹ thuật chống làm giả ngày càng phức tạp, buộc các thương nhân phải đầu tư vào các hệ thống xác minh đắt tiền.
 
-Mặt khác, do bản chất của chúng, việc chi tiêu hai lần không phải là vấn đề đối với tiền tệ vật lý. Nếu tôi đưa cho bạn một tờ €10, nó không thể quay trở lại tay tôi mà chuyển vào tay bạn, tự nhiên loại trừ bất kỳ khả năng nào của việc chi tiêu cùng một đơn vị tiền tệ nhiều lần. Nói ngắn gọn, tôi sẽ không thể chi tiêu lại tờ €10 đó.
+Ở mặt khác, do bản chất của chúng, hiện tượng lặp chi không phải là vấn đề đối với tiền tệ vật lý. Nếu tôi đưa cho bạn một tờ €10, nó hoàn toàn được chuyển vào tay bạn, và không thể tự quay trở lại tay tôi, điều này loại trừ bất kỳ khả năng nào của việc chi tiêu cùng một đồng tiền nhiều lần. Nói ngắn gọn, tôi sẽ không thể chi tiêu lại tờ €10 mà tôi đã tiêu trước đó.
 
 ![BTC204](assets/notext/23/3.webp)
 
-Đối với tiền tệ số, khó khăn là khác biệt. Việc đảm bảo tính chính hãng và toàn vẹn của một đồng tiền thường đơn giản hơn. Như chúng ta đã thấy trong phần trước, mô hình UTXO của Bitcoin cho phép truy vết một đồng tiền trở lại nguồn gốc của nó, từ đó xác minh rằng nó thực sự được tạo ra theo quy tắc đồng thuận bởi một thợ mỏ.
+Đối với tiền tệ số, chúng ta gặp những khó khăn khác với tiền tệ vật lý. Việc đảm bảo tính xác thực và toàn vẹn của một đồng tiền số thường đơn giản hơn. Như chúng ta đã thấy trong phần trước, mô hình UTXO của Bitcoin cho phép truy vết một đồng tiền trở lại nguồn gốc của nó, từ đó xác minh rằng nó thực sự được tạo ra theo quy tắc đồng thuận bởi một thợ đào.
 
-Tuy nhiên, việc đảm bảo không có việc chi tiêu hai lần là phức tạp hơn, vì bất kỳ hàng hóa số nào cơ bản cũng là thông tin. Không giống như hàng hóa vật lý, thông tin không chia sẻ trong các giao dịch mà lan truyền bằng cách nhân bản. Ví dụ, nếu tôi gửi cho bạn một tài liệu qua email, nó sau đó được nhân bản. Ở phía bạn, bạn không thể xác minh chắc chắn rằng tôi đã xóa bản gốc của tài liệu.
+Tuy nhiên, rất phức tạp để đảm bảo không có sự lặp chi, vì về bản chất, bất kỳ hàng hóa số nào cũng là một dạng thông tin. Không giống như hàng hóa vật lý, thông tin không chia nhỏ trong các giao dịch mà lan truyền bằng cách nhân bản. Ví dụ, nếu tôi gửi cho bạn một tài liệu qua email, nó sẽ được nhân bản (lúc này, bạn nhận được tài liệu, và tôi vẫn còn tài liệu đó, trừ trường hợp tôi quyết định xoá nó đi). Ở phía bạn, bạn không thể xác minh chắc chắn rằng tôi đã xóa bản gốc của tài liệu.
 
 ![BTC204](assets/notext/23/4.webp)
 
-### Ngăn Chặn Việc Chi Tiêu Hai Lần trên Bitcoin
-Cách duy nhất để tránh sự nhân bản của một hàng hóa số là biết tất cả các giao dịch trong hệ thống. Theo cách này, người ta có thể biết ai sở hữu cái gì và cập nhật số dư của mọi người dựa trên các giao dịch được thực hiện. Đây là những gì được thực hiện, ví dụ, với tiền ghi sổ trong hệ thống ngân hàng. Khi bạn trả €10 cho một thương nhân bằng thẻ tín dụng, ngân hàng ghi lại giao dịch này và cập nhật sổ cái.
-Trên Bitcoin, việc ngăn chặn chi tiêu hai lần được thực hiện theo cùng một cách. Mục tiêu là xác nhận sự vắng mặt của một giao dịch đã chi tiêu các đồng tiền đó. Nếu những đồng tiền này chưa bao giờ được sử dụng, thì chúng ta có thể chắc chắn rằng không có việc chi tiêu hai lần nào xảy ra. Nguyên tắc này được mô tả bởi Satoshi Nakamoto trong Bản Trắng với câu nổi tiếng này:
+### Ngăn chặn lặp chi trên Bitcoin
+Cách duy nhất để tránh sự nhân bản của một hàng hóa số là biết tất cả các giao dịch trong toàn hệ thống. Theo cách này, người ta có thể biết ai sở hữu cái gì và cập nhật khoản nắm giữ của mọi người dựa trên các giao dịch được thực hiện. Đây là những gì được thực hiện, ví dụ, với tiền ghi sổ trong hệ thống ngân hàng. Khi bạn trả €10 cho một thương nhân bằng thẻ tín dụng, ngân hàng ghi lại giao dịch này và cập nhật sổ cái.
+Trên Bitcoin, việc ngăn chặn lặp chi được thực hiện theo cùng một phương pháp như vậy. Mục tiêu là xác nhận sự vắng mặt của một giao dịch đã chi tiêu các đồng tiền đó. Nếu những đồng tiền này chưa bao giờ được sử dụng, thì chúng ta có thể chắc chắn rằng không có việc chi tiêu hai lần nào xảy ra. Nguyên tắc này được mô tả bởi Satoshi Nakamoto trong bản cáo bạch (whitepaper) với câu nói nổi tiếng này:
 
 **"*Cách duy nhất để xác nhận sự vắng mặt của một giao dịch là biết tất cả các giao dịch.*"**
 
-Tuy nhiên, không giống như mô hình ngân hàng, không có mong muốn phải tin tưởng vào một thực thể trung ương trên Bitcoin. Cần thiết cho tất cả người dùng có thể xác nhận sự vắng mặt này của việc chi tiêu hai lần, mà không phụ thuộc vào bên thứ ba. Do đó, mọi người phải biết tất cả các giao dịch Bitcoin. Đây là lý do tại sao các giao dịch Bitcoin được phát sóng công khai trên tất cả các nút mạng và được ghi lại rõ ràng trên blockchain.
+Tuy nhiên, không giống như mô hình ngân hàng, không có mong muốn phải tin tưởng vào một thực thể tập trung đối với Bitcoin. Việc tất cả người dùng có thể xác nhận sự vắng mặt này để xác định rằng không có lặp chi xảy ra, mà không phụ thuộc vào bên thứ ba là điều rất cần thiết. Do đó, mọi người phải biết được tất cả các giao dịch diễn ra trên mạng lưới Bitcoin. Đây là lý do tại sao các giao dịch Bitcoin được phát tán và lan truyền công khai trên tất cả các nút mạng và được ghi lại rõ ràng trên blockchain của Bitcoin.
 
-Chính sự phổ biến công khai này của thông tin làm phức tạp việc bảo vệ quyền riêng tư trên Bitcoin. Trong hệ thống ngân hàng truyền thống, theo lý thuyết, chỉ có tổ chức tài chính mới biết về các giao dịch được thực hiện. Mặt khác, trên Bitcoin, tất cả người dùng đều được thông báo về tất cả các giao dịch, qua các nút tương ứng của họ.
+Chính sự công khai này của thông tin làm phức tạp việc bảo vệ quyền riêng tư trên mạng lưới Bitcoin. Trong hệ thống ngân hàng truyền thống, theo lý thuyết, chỉ có tổ chức tài chính mới được biết về tất cả các giao dịch được thực hiện (người dùng chỉ biết đến các giao dịch mà họ thực hiện). Còn trên mạng lưới Bitcoin, tất cả người dùng đều được cung cấp thông tin về tất cả các giao dịch, qua các nút tương ứng của họ.
 
 ### Mô hình quyền riêng tư: hệ thống ngân hàng so với Bitcoin
-Trong hệ thống truyền thống, tài khoản ngân hàng của bạn được liên kết với danh tính của bạn. Người quản lý ngân hàng có thể biết tài khoản ngân hàng nào thuộc về khách hàng nào và những giao dịch nào được liên kết với nó. Tuy nhiên, dòng thông tin này bị cắt đứt giữa ngân hàng và lĩnh vực công cộng. Nói cách khác, không thể biết được số dư và các giao dịch của một tài khoản ngân hàng thuộc về một cá nhân khác. Chỉ có ngân hàng mới có quyền truy cập vào thông tin này.
+Trong hệ thống truyền thống, tài khoản ngân hàng của bạn được liên kết với danh tính của bạn. Người quản lý ngân hàng có thể biết tài khoản ngân hàng nào thuộc về khách hàng nào và những giao dịch nào được liên kết với nó. Tuy nhiên, dòng thông tin này bị cắt đứt giữa ngân hàng và khu vực công cộng. Nói cách khác, việc biết được số dư và các giao dịch của một tài khoản ngân hàng thuộc về một cá nhân khác là điều bất khả thi. Chỉ có ngân hàng mới có quyền truy cập vào thông tin này.
 
-Ví dụ, người quản lý ngân hàng của bạn biết rằng bạn mua bánh mì baguette mỗi sáng tại tiệm bánh ở khu phố, nhưng hàng xóm của bạn không biết về giao dịch này. Do đó, dòng thông tin chỉ có thể truy cập bởi các bên liên quan, đặc biệt là ngân hàng, nhưng vẫn không thể truy cập bởi những người bên ngoài.
+Ví dụ, người quản lý ngân hàng của bạn biết rằng bạn mua bánh mì ba-tê mỗi sáng tại tiệm bánh ở khu phố, nhưng hàng xóm của bạn không biết về giao dịch này. Do đó, dòng thông tin chỉ có thể truy cập bởi các bên liên quan, đặc biệt là ngân hàng, nhưng vẫn không thể truy cập được bởi những người bên ngoài.
 
-Do ràng buộc về việc phổ biến công khai các giao dịch mà chúng ta đã thấy ở phần trước, mô hình bảo mật của Bitcoin không thể theo mô hình của hệ thống ngân hàng. Trong trường hợp của Bitcoin, vì dòng thông tin không thể bị ngắt quãng giữa các giao dịch và lĩnh vực công cộng, **mô hình bảo mật dựa trên sự tách biệt giữa danh tính của người dùng và chính các giao dịch**.
+Do ràng buộc về việc khuếch tán công khai các giao dịch mà chúng ta đã thấy ở phần trước, mô hình bảo mật của Bitcoin không thể theo mô hình của hệ thống ngân hàng. Trong trường hợp của Bitcoin, vì dòng thông tin không thể bị ngắt quãng giữa các giao dịch và khu vực công cộng, **mô hình quyền riêng tư được xây dựng dựa trên sự tách biệt giữa danh tính của người dùng và chính các giao dịch**.
 
-Ví dụ, nếu bạn mua bánh mì baguette từ người bán bằng cách thanh toán bằng BTC, hàng xóm của bạn, người sở hữu node đầy đủ của riêng mình, có thể thấy giao dịch của bạn diễn ra, giống như họ có thể thấy tất cả các giao dịch khác trong hệ thống. Tuy nhiên, nếu nguyên tắc bảo mật được tôn trọng, họ không nên có khả năng liên kết giao dịch cụ thể này với danh tính của bạn.
+Ví dụ, nếu bạn dùng BTC để mua bánh mì ta-tê từ người bán, hàng xóm của bạn, người sở hữu nút đầy đủ của riêng mình, có thể thấy giao dịch của bạn diễn ra, giống như họ có thể thấy tất cả các giao dịch khác trong hệ thống. Tuy nhiên, nếu nguyên tắc bảo mật được tôn trọng, họ không nên có khả năng liên kết một giao dịch cụ thể này với danh tính đời thực của bạn.
 ![BTC204](assets/vi/23/9.webp)
 
-Nhưng vì các giao dịch Bitcoin được công bố công khai, vẫn có khả năng thiết lập các liên kết giữa chúng để suy luận thông tin về các bên liên quan. Hoạt động này thậm chí còn là một chuyên môn riêng gọi là "phân tích chuỗi". Trong phần tiếp theo của khóa học, tôi mời bạn khám phá cơ bản của phân tích chuỗi để hiểu cách bitcoins của bạn được theo dõi và biết cách bảo vệ mình tốt hơn.
+Nhưng vì các giao dịch Bitcoin được công bố công khai, vẫn có khả năng thiết lập các liên kết giữa chúng để suy luận ra thông tin về các bên liên quan. Hoạt động này thậm chí còn hình thành một ngành chuyên môn riêng gọi là "phân tích chuỗi". Trong phần tiếp theo của khóa học, tôi mời bạn khám phá cơ bản về phân tích chuỗi để hiểu cách bitcoin của bạn bị theo dõi và biết cách bảo vệ mình tốt hơn.
 
-# Hiểu về Phân Tích Chuỗi và Cách Bảo Vệ Bản Thân
+# Hiểu về phân tích chuối và cách bảo vệ bản thân
 <partId>4739371e-9fef-45b0-bcaa-b7a4df6b4470</partId>
 
-## Phân Tích Chuỗi trên Bitcoin là gì?
+## Phân tích chuỗi trên mạng lưới Bitcoin là gì?
 <chapterId>7d198ba6-4af2-4f24-86cb-3c79cb25627e</chapterId>
 
-### Định Nghĩa và Hoạt Động
+### Định nghĩa và cách vận hành
 
-Phân tích chuỗi là một thực hành bao gồm tất cả các phương pháp được sử dụng để theo dõi dòng chảy của bitcoins trên blockchain. Nói chung, phân tích chuỗi dựa vào việc quan sát các đặc điểm trong các mẫu giao dịch trước đó. Sau đó, nó liên quan đến việc xác định những đặc điểm tương tự trong một giao dịch mà người ta muốn phân tích, và suy luận các giả thuyết hợp lý. Phương pháp giải quyết vấn đề này từ một cách tiếp cận thực tế, để tìm một giải pháp đủ tốt, được gọi là "heuristic".
+Phân tích chuỗi là một thực hành bao gồm tất cả các phương pháp được sử dụng để theo dõi dòng chảy của các đồng bitcoin (chính xác hơn là các mẩu bitcoin) trên blockchain. Nói chung, phân tích chuỗi dựa vào việc quan sát các đặc điểm trong các mẫu giao dịch trước đó. Sau đó, xác định những đặc điểm tương tự trong một giao dịch mà người ta muốn phân tích, và suy luận các giả thuyết hợp lý. Phương pháp giải quyết vấn đề này từ một cách tiếp cận thực tế, để tìm một giải pháp đủ tốt, được gọi là "phỏng đoán - heuristic".
 
 Để đơn giản hóa, phân tích chuỗi được thực hiện trong ba bước chính:
 1. **Quan sát blockchain;**
@@ -247,71 +247,71 @@ Phân tích chuỗi là một thực hành bao gồm tất cả các phương ph
 
 ![BTC204](assets/vi/31/1.webp)
 
-Phân tích chuỗi có thể được thực hiện bởi bất kỳ ai. Chỉ cần có quyền truy cập vào thông tin công cộng của blockchain thông qua một node đầy đủ để quan sát các chuyển động của giao dịch và đưa ra giả thuyết. Cũng có các công cụ miễn phí giúp tạo điều kiện cho việc phân tích này, như trang web [OXT.me](https://oxt.me/) mà chúng ta sẽ khám phá chi tiết trong hai chương cuối cùng của phần này. Tuy nhiên, rủi ro chính đối với quyền riêng tư đến từ các công ty chuyên về phân tích chuỗi. Những công ty này đã đưa phân tích chuỗi lên quy mô công nghiệp và bán dịch vụ của họ cho các tổ chức tài chính hoặc chính phủ. Trong số các công ty này, Chainalysis có lẽ là cái tên nổi tiếng nhất.
+Phân tích chuỗi có thể được thực hiện bởi bất kỳ ai. Chỉ cần truy cập vào thông tin công cộng của blockchain thông qua một node đầy đủ để quan sát các chuyển động của giao dịch và đưa ra giả thuyết. Cũng có các công cụ miễn phí hỗ trợ cho việc phân tích này, như trang web [OXT.me](https://oxt.me/) mà chúng ta sẽ khám phá chi tiết trong hai chương cuối cùng của phần này. Tuy nhiên, rủi ro chính đối với quyền riêng tư đến từ các công ty chuyên về phân tích chuỗi. Những công ty này đã đưa phân tích chuỗi lên quy mô công nghiệp và bán dịch vụ của họ cho các tổ chức tài chính hoặc chính phủ. Trong số các công ty này, Chainalysis có lẽ là cái tên nổi tiếng nhất.
 
-### Mục Tiêu của Phân Tích Chuỗi
-Một trong những mục tiêu của phân tích chuỗi là nhóm các hoạt động khác nhau trên Bitcoin để xác định tính độc đáo của người dùng thực hiện chúng. Sau đó, sẽ có thể cố gắng liên kết nhóm hoạt động này với một danh tính thực. ![BTC204](assets/notext/31/2.webp)
+### Mục tiêu của phân tích chuỗi
+Một trong những mục tiêu của phân tích chuỗi là phân loại theo nhóm các hoạt động khác nhau trên mạng lưới Bitcoin để xác định sự riêng nhất của người dùng thực hiện chúng. Sau đó, sẽ có thể cố gắng liên kết nhóm hoạt động này với một danh tính thực. ![BTC204](assets/notext/31/2.webp)
 
-Nhớ lại chương trước. Tôi đã giải thích lý do tại sao mô hình bảo mật của Bitcoin ban đầu dựa vào việc tách biệt danh tính của người dùng khỏi các giao dịch của họ. Do đó, có thể sẽ nghĩ rằng phân tích chuỗi là không cần thiết, vì ngay cả khi ai đó quản lý để nhóm các hoạt động trên chuỗi, họ không thể liên kết chúng với một danh tính thực.
+Nhớ lại chương trước. Tôi đã giải thích lý do tại sao mô hình bảo mật của Bitcoin ban đầu dựa vào việc tách biệt danh tính của người dùng khỏi các giao dịch của họ. Do đó, có thể sẽ nghĩ rằng phân tích chuỗi là không cần thiết, vì ngay cả khi ai đó có khả năng phân loại thành nhóm các hoạt động trên chuỗi, họ không thể liên kết chúng với một danh tính thực.
 
-Theo lý thuyết, phát biểu này là chính xác. Trong phần đầu của khóa học này, chúng ta đã thấy rằng các cặp khóa mật mã được sử dụng để thiết lập các điều kiện trên UTXO. Bản chất, những cặp khóa này không tiết lộ bất kỳ thông tin nào về danh tính của người giữ chúng. Do đó, ngay cả khi ai đó thành công trong việc nhóm các hoạt động liên quan đến các cặp khóa khác nhau, điều này không nói lên điều gì về thực thể đứng sau những hoạt động này.
+Theo lý thuyết, phát biểu này là chính xác. Trong phần đầu của khóa học này, chúng ta đã thấy rằng các cặp khóa mật mã được sử dụng để thiết lập các điều kiện trên từng UTXO. Bản chất, những cặp khóa này không tiết lộ bất kỳ thông tin nào về danh tính của người giữ chúng. Do đó, ngay cả khi ai đó thành công trong việc phân loại thành nhóm các hoạt động liên quan đến các cặp khóa khác nhau, điều này không nói lên điều gì về thực thể đứng sau những hoạt động này.
 
 ![BTC204](assets/notext/31/3.webp)
 
-Tuy nhiên, thực tế thực hành lại phức tạp hơn nhiều. Có rất nhiều hành vi có nguy cơ liên kết một danh tính thực với một hoạt động trên chuỗi. Trong phân tích, điều này được gọi là điểm nhập cảnh, và có rất nhiều điểm như vậy.
+Tuy nhiên, hoạt động này trong thực tế lại phức tạp hơn nhiều. Có rất nhiều hành vi có nguy cơ liên kết một danh tính thực với một hoạt động trên chuỗi. Trong phân tích, điều này được gọi là điểm vào, và có rất nhiều điểm như vậy.
 
-Phổ biến nhất, tất nhiên, là KYC (*Know Your Customer*). Nếu bạn rút bitcoin của mình từ một nền tảng được quản lý về một trong những địa chỉ nhận cá nhân của bạn, thì một số người có thể liên kết danh tính của bạn với địa chỉ này. Rộng hơn, một điểm nhập cảnh có thể là bất kỳ hình thức tương tác nào giữa cuộc sống thực của bạn và một giao dịch Bitcoin. Ví dụ, nếu bạn công bố một địa chỉ nhận trên các mạng xã hội của mình, điều này có thể là một điểm nhập cảnh cho phân tích. Nếu bạn thực hiện một khoản thanh toán bằng bitcoin cho người bán bánh của mình, họ có thể liên kết khuôn mặt của bạn (là một phần của danh tính của bạn) với một địa chỉ Bitcoin.
+Phổ biến nhất, tất nhiên, là KYC (*Know Your Customer*). Nếu bạn rút bitcoin của mình từ một nền tảng giao dịch được quản lý về một trong những địa chỉ nhận cá nhân của bạn, thì một số người có thể liên kết danh tính của bạn với địa chỉ này. Rộng hơn, một điểm vào có thể là bất kỳ hình thức tương tác nào giữa cuộc sống thực của bạn và một giao dịch Bitcoin. Ví dụ, nếu bạn công bố một địa chỉ nhận trên các mạng xã hội của mình, điều này có thể là một điểm nhập vào cho việc phân tích. Nếu bạn thực hiện một khoản thanh toán bằng bitcoin cho người bán bánh của mình, họ có thể liên kết khuôn mặt của bạn (là một phần của danh tính của bạn) với một địa chỉ Bitcoin.
 
-Những điểm nhập cảnh này gần như không thể tránh khỏi trong việc sử dụng Bitcoin. Mặc dù người ta có thể tìm cách hạn chế phạm vi của chúng, chúng sẽ vẫn tồn tại. Đó là lý do tại sao việc kết hợp các phương pháp nhằm bảo vệ quyền riêng tư của bạn là rất quan trọng. Mặc dù duy trì sự tách biệt giữa danh tính thực của bạn và các giao dịch của bạn là một cách tiếp cận thú vị, nó vẫn chưa đủ ngày nay. Thực tế, nếu tất cả các hoạt động trên chuỗi của bạn có thể được nhóm lại, thì điểm nhập cảnh nhỏ nhất cũng có khả năng làm lộ lớp duy nhất của quyền riêng tư mà bạn đã thiết lập.
+Những điểm vào này gần như không thể tránh khỏi trong việc sử dụng Bitcoin. Mặc dù người ta có thể tìm cách hạn chế phạm vi của chúng, chúng sẽ vẫn tồn tại. Đó là lý do tại sao việc kết hợp các phương pháp nhằm bảo vệ quyền riêng tư của bạn là rất quan trọng. Mặc dù duy trì sự tách biệt giữa danh tính thực của bạn và các giao dịch của bạn là một cách tiếp cận thú vị, cho đến hiện tại, nó vẫn chưa đủ để bảo vệ hiệu quả quyền riêng tư của bản. Thực tế, nếu tất cả các hoạt động trên chuỗi của bạn có thể được phân loại theo nhóm, thì một điểm vào nhỏ nhất cũng có khả năng làm lộ lớp bảo vệ quyền riêng tư duy nhất mà bạn đã thiết lập.
 
 ![BTC204](assets/notext/31/4.webp)
 
-### Phòng Thủ Chống Lại Phân Tích Chuỗi
-Do đó, cũng cần phải có khả năng đối mặt với phân tích blockchain trong việc sử dụng Bitcoin của chúng ta. Bằng cách tiến hành theo cách này, chúng ta có thể giảm thiểu việc tổng hợp các hoạt động của mình và hạn chế ảnh hưởng của một điểm nhập cảnh đối với quyền riêng tư của chúng ta.
+### Phòng thủ chống lại phân tích chuỗi
+Do đó, chúng ta cũng cần phải có khả năng đối mặt với phân tích chuỗi trong việc sử dụng Bitcoin của mình. Làm được điều đó, chúng ta có thể giảm thiểu việc các hoạt động của mình bị thu thập và hạn chế ảnh hưởng của một điểm vào đối với quyền riêng tư của chúng ta.
 ![BTC204](assets/notext/31/5.webp)
 
-Thực sự, để đối phó tốt hơn với phân tích blockchain, cách tiếp cận tốt nhất là làm quen với các phương pháp được sử dụng trong phân tích blockchain. Nếu bạn muốn biết cách cải thiện quyền riêng tư của mình trên Bitcoin, bạn phải hiểu những phương pháp này. Điều này sẽ cho phép bạn hiểu rõ hơn về các kỹ thuật như [coinjoin](https://planb.network/fr/tutorials/privacy/coinjoin-samourai-wallet) hoặc [payjoin](https://planb.network/fr/tutorials/privacy/payjoin) (các kỹ thuật mà chúng ta sẽ nghiên cứu trong các phần cuối của khóa học), và giảm thiểu những sai lầm bạn có thể mắc phải.
-Trong phần này, chúng ta có thể ví dụ như việc mã hóa và giải mã mã hóa. Một nhà mã hóa giỏi trước hết phải là một nhà phân tích mã hóa giỏi. Để tưởng tượng ra một thuật toán mã hóa mới, người ta phải biết nó sẽ phải đối mặt với những cuộc tấn công nào, và cũng phải nghiên cứu tại sao các thuật toán trước đó bị phá vỡ. Nguyên tắc tương tự áp dụng cho quyền riêng tư trên Bitcoin. Hiểu biết về các phương pháp phân tích blockchain là chìa khóa để bảo vệ chống lại nó. Đó là lý do tại sao tôi đề xuất một phần hoàn chỉnh về phân tích blockchain trong khóa học này.
+Thực ra, để đối phó tốt hơn với phân tích chuỗi, cách tiếp cận tốt nhất là nắm bắt được các phương pháp đang được dùng trong phân tích chuỗi. Nếu muốn biết cách cải thiện quyền riêng tư của mình trên Bitcoin, bạn phải hiểu những phương pháp này. Điều này sẽ cho phép bạn hiểu rõ hơn về các kỹ thuật như [trộn coin - coinjoin](https://planb.network/fr/tutorials/privacy/coinjoin-samourai-wallet) hoặc [payjoin](https://planb.network/fr/tutorials/privacy/payjoin) (các kỹ thuật mà chúng ta sẽ nghiên cứu trong các phần cuối của khóa học), và giảm thiểu những sai lầm có thể mắc phải.
+Trong phần này, chúng ta có thể ví dụ như việc mã hóa và giải mã mã hóa. Một nhà mã hóa giỏi trước hết phải là một nhà phân tích mã hóa giỏi. Để tưởng tượng ra một thuật toán mã hóa mới, người ta phải biết nó sẽ phải đối mặt với những cuộc tấn công nào, và cũng phải nghiên cứu tại sao các thuật toán trước đó bị phá vỡ. Nguyên tắc tương tự áp dụng cho quyền riêng tư trên mạng lưới Bitcoin. Hiểu biết về các phương pháp phân tích chuỗi là chìa khóa để bảo vệ chống lại nó. Đó là lý do tại sao tôi đề xuất một phần hoàn chỉnh về phân tích chuỗi trong khóa học này.
 ### Các phương pháp phân tích blockchain
 
-Quan trọng là phải hiểu rằng phân tích blockchain không phải là một khoa học chính xác. Nó dựa trên các quy tắc suy luận từ các quan sát trước đó hoặc các diễn giải logic. Những quy tắc này cho phép đạt được kết quả khá đáng tin cậy, nhưng không bao giờ với độ chính xác tuyệt đối. Nói cách khác, **phân tích blockchain luôn bao gồm một khía cạnh xác suất trong các kết luận được đưa ra**. Ví dụ, có thể ước lượng với độ chắc chắn nhiều hay ít rằng hai địa chỉ thuộc về cùng một thực thể, nhưng sự chắc chắn tuyệt đối luôn nằm ngoài tầm với.
+Quan trọng là chúng ta cần hiểu được rằng phân tích chuỗi không phải là một môn khoa học chính xác. Nó dựa trên các quy tắc suy luận từ các quan sát trước đó hoặc các diễn giải logic. Những quy tắc này cho phép đạt được kết quả khá đáng tin cậy, nhưng không bao giờ là với độ chính xác tuyệt đối cả. Nói cách khác, **phân tích chuỗi luôn tồn tại yếu tố xác suất trong các kết luận được đưa ra**. Ví dụ, có thể ước lượng với độ chắc chắn nhiều hay ít rằng hai địa chỉ thuộc về cùng một thực thể, nhưng sự chắc chắn tuyệt đối luôn nằm ngoài tầm với.
 
-Mục tiêu toàn bộ của phân tích blockchain nằm chính xác trong việc tổng hợp các quy tắc suy luận khác nhau nhằm giảm thiểu rủi ro sai lầm. Nó, theo một cách nào đó, là sự tích lũy của bằng chứng cho phép chúng ta tiếp cận thực tế một cách chặt chẽ hơn.
+Mục tiêu trọn vẹn của phân tích chuỗi nằm chính xác trong việc tổng hợp các phép suy luận - heuristic khác nhau nhằm giảm thiểu rủi ro sai lầm. Nó, theo một cách nào đó, là sự tích lũy bằng chứng nhằm cho phép chúng ta tiếp cận thực tế một cách chặt chẽ hơn.
 
-Những quy tắc suy luận nổi tiếng này có thể được phân loại vào các danh mục khác nhau mà chúng ta sẽ chi tiết cùng nhau:
+Những phỏng đoán nổi tiếng này có thể được phân loại vào các danh mục khác nhau mà chúng ta sẽ chi tiết cùng nhau:
 - **Mô hình giao dịch (hoặc mô hình giao dịch);**
-- **Quy tắc suy luận nội bộ của giao dịch;**
-- **Quy tắc suy luận bên ngoài của giao dịch.**
+- **Phép suy luận nội bộ của giao dịch;**
+- **Phép suy luận dựa trên các yếu tố bên ngoài của giao dịch.**
 
-### Satoshi Nakamoto và phân tích blockchain
-Cần lưu ý rằng hai quy tắc suy luận đầu tiên cho phân tích chuỗi được phát hiện bởi chính Satoshi Nakamoto. Ông thảo luận về chúng trong phần 10 của Bản Trắng Bitcoin. Đó là:
-- Quy tắc suy luận Sở hữu Đầu vào Chung (CIOH);
+### Satoshi Nakamoto và phân tích chuỗi
+Cần lưu ý rằng hai quy tắc suy luận đầu tiên cho phân tích chuỗi được phát hiện bởi chính Satoshi Nakamoto. Ông thảo luận về chúng trong phần 10 của Bản cáo bạch Bitcoin. Đó là:
+- Phép suy luận dựa trên sở hữu đầu vào chung (Common Input Ownership Heuristic - CIOH);
 - và việc sử dụng lại địa chỉ.
 
 ![BTC204](assets/notext/31/6.webp)
 
-Nguồn: S. Nakamoto, "Bitcoin: Hệ thống Tiền tệ Điện tử Ngang hàng", https://bitcoin.org/bitcoin.pdf, 2009.
+Nguồn: S. Nakamoto, "Bitcoin: Hệ thống tiền điện tử ngang hàng", https://bitcoin.org/bitcoin.pdf, 2009.
 
-Trong các chương tiếp theo, chúng ta sẽ khám phá những gì chúng bao gồm, nhưng đã là điều thú vị khi lưu ý rằng hai quy tắc suy luận này vẫn giữ một vị thế quan trọng trong phân tích chuỗi ngày nay.
+Trong các chương tiếp theo, chúng ta sẽ khám phá nội hàm của hai phép suy luận này, nhưng điều thú vị bạn cần lưu ý là hai quy tắc suy luận này vẫn giữ một vị thế quan trọng trong phân tích chuỗi ngày nay.
 
-## Mô Hình Giao Dịch
+## Mô hình giao dịch
 <chapterId>d365a101-2d37-46a5-bfb9-3c51e37bf96b</chapterId>
 
-Một mô hình giao dịch đơn giản là một mô hình hoặc cấu trúc tổng thể của một giao dịch điển hình có thể được tìm thấy trên blockchain, mà việc diễn giải có khả năng được biết đến. Khi nghiên cứu các mô hình, chúng ta sẽ tập trung vào một giao dịch duy nhất mà chúng ta sẽ phân tích ở mức độ cao.
+Một mô hình giao dịch đơn giản là một mô hình hoặc cấu trúc tổng thể của một giao dịch điển hình có thể được tìm thấy trên blockchain, mà việc diễn giải nó có khả năng đã được biết đến. Khi nghiên cứu các mô hình, chúng ta sẽ tập trung vào một giao dịch duy nhất mà chúng ta sẽ phân tích ở mức độ cao.
 
-Nói cách khác, chúng ta chỉ xem xét số lượng UTXOs trong đầu vào và số lượng UTXOs trong đầu ra, không chú tâm vào các chi tiết cụ thể hơn hoặc môi trường của giao dịch. Từ mô hình được quan sát, chúng ta sẽ có thể diễn giải bản chất của giao dịch. Chúng ta sau đó sẽ tìm kiếm các đặc điểm trong cấu trúc của nó và suy luận một diễn giải.
+Nói cách khác, chúng ta chỉ xem xét số lượng các UTXO trong đầu vào và số lượng các UTXO trong đầu ra, không chú tâm vào các chi tiết cụ thể hơn hoặc bối cảnh của giao dịch. Từ mô hình được quan sát, chúng ta sẽ có thể diễn giải bản chất của giao dịch. Chúng ta sau đó sẽ tìm kiếm các đặc điểm trong cấu trúc của nó và suy ra một diễn giải.
 
 ![BTC204](assets/vi/32/01.webp)
 
 Trong phần này, chúng ta sẽ cùng khám phá các mô hình giao dịch chính có thể gặp trong phân tích chuỗi, và cho mỗi mô hình, tôi sẽ cung cấp cho bạn diễn giải có khả năng của cấu trúc này, cùng với một ví dụ cụ thể.
 
-### Gửi Đơn Giản (hoặc Thanh Toán Đơn Giản)
+### Giao dịch gửi bitcoin đơn giản (hoặc giao dịch thanh toán đơn giản)
 
-Chúng ta bắt đầu với một mô hình rất phổ biến, vì đó là mô hình xuất hiện trong hầu hết các khoản thanh toán bitcoin. Mô hình thanh toán đơn giản được đặc trưng bởi việc tiêu thụ một hoặc nhiều UTXOs trong đầu vào và sản xuất 2 UTXOs trong đầu ra. Mô hình này sẽ trông như thế này:
+Chúng ta bắt đầu với một mô hình rất phổ biến, vì đó là mô hình xuất hiện trong hầu hết các khoản thanh toán bitcoin. Mô hình thanh toán đơn giản được đặc trưng bởi việc tiêu thụ một hoặc nhiều UTXO trong đầu vào và tạo thành 2 UTXO trong đầu ra. Mô hình này sẽ trông như thế này:
 
 ![BTC204](assets/vi/32/02.webp)
-Khi chúng ta nhận thấy cấu trúc giao dịch này trên blockchain, chúng ta có thể rút ra một giải thích. Như tên của nó gợi ý, mô hình này chỉ ra rằng chúng ta đang chứng kiến một giao dịch gửi tiền hoặc thanh toán. Người dùng đã sử dụng UTXO của chính mình trong đầu vào để thỏa mãn trong đầu ra một UTXO thanh toán và một UTXO thối (tiền trả lại cho cùng một người dùng).
-Do đó, chúng ta biết rằng người dùng quan sát được có khả năng không còn sở hữu một trong hai UTXO ở đầu ra (UTXO thanh toán), nhưng họ vẫn giữ sở hữu UTXO khác (UTXO thối).
+Khi thấy cấu trúc giao dịch này trên blockchain, chúng ta có thể rút ra một giải thích. Như tên của nó gợi ý, mô hình này chỉ ra rằng chúng ta đang chứng kiến một giao dịch gửi tiền hoặc thanh toán. Người dùng đã sử dụng UTXO của chính mình trong đầu vào để thỏa mãn trong đầu ra một UTXO thanh toán và một UTXO thối tiền (trả lại tiền dư cho cùng một người dùng).
+Do đó, chúng ta biết rằng người dùng quan sát được có khả năng không còn sở hữu một trong hai UTXO ở đầu ra (UTXO thanh toán), nhưng họ vẫn giữ sở hữu UTXO khác (UTXO thối tiền).
 Tại thời điểm này, chúng ta không thể xác định đầu ra nào đại diện cho UTXO nào, vì đây không phải là mục tiêu của việc nghiên cứu mô hình. Chúng ta sẽ đạt được điều này bằng cách dựa vào các phép suy luận mà chúng ta sẽ nghiên cứu trong các phần tiếp theo. Tại giai đoạn này, mục tiêu của chúng ta giới hạn ở việc xác định bản chất của giao dịch đang được nghiên cứu, trong trường hợp này, là một giao dịch gửi đơn giản.
 
 Ví dụ, đây là một giao dịch Bitcoin tuân theo mô hình gửi đơn giản:
@@ -324,19 +324,19 @@ b6cc79f45fd2d7669ff94db5cb14c45f1f879ea0ba4c6e3d16ad53a18c34b769
 
 Nguồn: [Mempool.space](https://mempool.space/fr/tx/b6cc79f45fd2d7669ff94db5cb14c45f1f879ea0ba4c6e3d16ad53a18c34b769)
 
-Sau ví dụ đầu tiên này, bạn nên hiểu rõ hơn về ý nghĩa của việc nghiên cứu một "mô hình giao dịch". Chúng ta xem xét một giao dịch chỉ dựa trên cấu trúc của nó, không xem xét môi trường xung quanh hoặc các chi tiết cụ thể của giao dịch. Chúng ta chỉ quan sát nó một cách toàn cầu trong bước đầu tiên này.
+Sau ví dụ đầu tiên này, bạn nên hiểu rõ hơn về ý nghĩa của việc nghiên cứu một "mô hình giao dịch". Chúng ta xem xét một giao dịch chỉ dựa trên cấu trúc của nó, không xem xét môi trường xung quanh hoặc các chi tiết cụ thể của giao dịch. Chúng ta chỉ quan sát toàn cảnh nó trong bước đầu tiên này.
 
 Bây giờ bạn đã hiểu mô hình là gì, hãy chuyển sang các mô hình khác hiện có.
 
 ### Sweeping
 
-Mô hình thứ hai này được đặc trưng bởi việc tiêu thụ một UTXO duy nhất làm đầu vào và tạo ra một UTXO duy nhất làm đầu ra.
+Mô hình thứ hai này được đặc trưng bởi việc tiêu thụ một UTXO duy nhất làm đầu vào và tạo thành một UTXO duy nhất làm đầu ra.
 
 ![BTC204](assets/vi/32/04.webp)
 
-Giải thích của mô hình này là chúng ta đang chứng kiến một giao dịch tự chuyển. Người dùng đã chuyển bitcoin của mình cho chính mình, sang một địa chỉ khác mà họ sở hữu. Vì không có sự thay đổi nào trong giao dịch, rất khó có khả năng chúng ta đang chứng kiến một giao dịch thanh toán. Thực tế, khi một giao dịch thanh toán được thực hiện, gần như không thể cho người thanh toán có một UTXO chính xác khớp với số tiền mà người bán yêu cầu, cộng với phí giao dịch. Nói chung, người thanh toán do đó buộc phải tạo ra một đầu ra thối.
+Giải thích của mô hình này là chúng ta đang chứng kiến một giao dịch tự chuyển. Người dùng đã chuyển bitcoin của mình cho chính mình, sang một địa chỉ khác mà họ sở hữu. Vì không có sự thay đổi nào trong giao dịch, rất khó có khả năng chúng ta đang chứng kiến một giao dịch thanh toán. Thực tế, khi một giao dịch thanh toán được thực hiện, việc người thanh toán có một UTXO chính xác khớp với số tiền mà người bán yêu cầu, cộng với phí giao dịch, gần như là không thể. Nói chung, người thanh toán do đó buộc phải tạo ra một đầu ra để thối tiền thừa.
 
-Chúng ta sau đó biết rằng người dùng quan sát được có khả năng vẫn giữ sở hữu UTXO này. Trong bối cảnh phân tích chuỗi, nếu chúng ta biết UTXO được sử dụng làm đầu vào trong giao dịch thuộc về Alice, chúng ta có thể giả định rằng UTXO ở đầu ra cũng thuộc về cô ấy. Điều sẽ trở nên thú vị sau này là tìm ra các phép suy luận nội bộ của giao dịch có thể củng cố giả định này (chúng ta sẽ nghiên cứu những phép suy luận này trong chương 3.3).
+Nhờ đó, chúng ta biết rằng người dùng quan sát được có khả năng vẫn sở hữu UTXO này. Trong bối cảnh phân tích chuỗi, nếu chúng ta biết UTXO được sử dụng làm đầu vào trong giao dịch thuộc về Alice, chúng ta có thể giả định rằng UTXO ở đầu ra cũng thuộc về cô ấy. Điều sẽ trở nên thú vị sau này là tìm ra các quy tắc suy luận nội bộ của giao dịch nhằm củng cố giả định này (chúng ta sẽ nghiên cứu những phép suy luận này trong chương 3.3).
 
 Ví dụ, đây là một giao dịch Bitcoin tuân theo mô hình sweeping:
 
@@ -345,21 +345,21 @@ Ví dụ, đây là một giao dịch Bitcoin tuân theo mô hình sweeping:
 ```
 
 ![BTC204](assets/vi/32/05.webp)
-Nguồn: [Mempool.space](https://mempool.space/fr/tx/35f1072a0fda5ae106efb4fda871ab40e1f8023c6c47f396441ad4b995ea693d) Tuy nhiên, loại mô hình này cũng có thể tiết lộ một giao dịch tự chuyển đến tài khoản của một nền tảng giao dịch tiền mã hóa. Việc nghiên cứu các địa chỉ đã biết và bối cảnh của giao dịch sẽ cho phép chúng ta biết đó là một giao dịch quét vào ví tự quản lý hay là một rút tiền đến nền tảng. Thực tế, các địa chỉ của nền tảng giao dịch thường dễ dàng nhận diện.
+Nguồn: [Mempool.space](https://mempool.space/fr/tx/35f1072a0fda5ae106efb4fda871ab40e1f8023c6c47f396441ad4b995ea693d) Tuy nhiên, loại mô hình này cũng có thể tiết lộ một giao dịch tự chuyển đến tài khoản của một nền tảng giao dịch tiền mã hóa. Việc nghiên cứu các địa chỉ đã biết và bối cảnh của giao dịch sẽ cho phép chúng ta biết đó là một giao dịch sweeping vào ví tự quản lý hay là một giao dịch gửi tiền vào một nền tảng giao dịch. Thực tế, các địa chỉ của nền tảng giao dịch thường dễ dàng bị nhận diện.
 
-Hãy quay lại ví dụ của Alice: nếu việc quét dẫn đến một địa chỉ đã biết của nền tảng (như Binance, chẳng hạn), điều này có thể có nghĩa là bitcoin đã được chuyển ra khỏi quyền sở hữu trực tiếp của Alice, có lẽ với ý định bán chúng hoặc lưu trữ chúng trên nền tảng này. Ngược lại, nếu địa chỉ đích là không biết, có thể giả định rằng đó đơn giản là một ví khác vẫn thuộc về Alice. Nhưng loại nghiên cứu này thuộc về lĩnh vực heuristics hơn là nghiên cứu mô hình.
+Hãy quay lại ví dụ của Alice: nếu việc sweeping dẫn đến một địa chỉ đã biết của nền tảng (như Binance, chẳng hạn), điều này có thể có nghĩa là bitcoin đã được chuyển ra khỏi quyền sở hữu trực tiếp của Alice, có lẽ với ý định bán chúng hoặc lưu trữ chúng trên nền tảng này. Ngược lại, nếu địa chỉ đích là không biết, có thể giả định rằng đó đơn giản là một ví khác vẫn thuộc về Alice. Nhưng loại nghiên cứu này thuộc về các phép suy luận - heuristics hơn là nghiên cứu mô hình.
 
-### Tổng hợp
+### Giao dịch hợp nhất
 
-Mô hình này được đặc trưng bởi việc tiêu thụ nhiều UTXOs làm đầu vào và sản xuất một UTXO duy nhất làm đầu ra.
+Mô hình này được đặc trưng bởi việc tiêu thụ nhiều UTXO làm đầu vào và tạo thành một UTXO duy nhất làm đầu ra.
 
 ![BTC204](assets/vi/32/06.webp)
 
-Việc giải thích mô hình này là chúng ta đang ở trong tình huống của một quá trình tổng hợp. Đây là một thực hành phổ biến giữa người dùng Bitcoin, nhằm mục đích hợp nhất nhiều UTXOs để chuẩn bị cho một sự tăng giá phí giao dịch có thể xảy ra. Bằng cách thực hiện thao tác này trong một khoảng thời gian khi phí thấp, có thể tiết kiệm phí trong tương lai. Chúng ta sẽ nói nhiều hơn về thực hành này trong chương 4.3.
+Việc giải thích mô hình này là chúng ta đang ở trong tình huống của một quá trình tổng hợp. Đây là một hoạt động phổ biến của người dùng Bitcoin, nhằm mục đích hợp nhất nhiều UTXO để chuẩn bị cho một đợt tăng phí giao dịch có thể xảy ra. Bằng cách thực hiện thao tác này trong khoảng thời gian khi phí giao dịch đang thấp, người dùng có thể tiết kiệm phí trong tương lai. Chúng ta sẽ nói nhiều hơn về hoạt động này trong chương 4.3.
 
-Chúng ta có thể suy luận rằng người dùng đứng sau mô hình giao dịch này có khả năng sở hữu tất cả các UTXOs ở đầu vào và vẫn giữ UTXO ở đầu ra. Đây chắc chắn là một giao dịch tự chuyển.
+Chúng ta có thể suy luận rằng người dùng đứng sau mô hình giao dịch này có khả năng sở hữu tất cả các UTXO ở đầu vào và vẫn giữ UTXO ở đầu ra. Đây chắc chắn là một giao dịch tự chuyển.
 
-Giống như việc quét, loại mô hình này cũng có thể tiết lộ một giao dịch tự chuyển đến tài khoản của một nền tảng giao dịch. Việc nghiên cứu các địa chỉ đã biết và bối cảnh của giao dịch sẽ cho phép chúng ta biết đó là một quá trình tổng hợp vào ví tự quản lý hay là một rút tiền đến nền tảng.
+Giống như mô hình sweeping, loại mô hình này cũng có thể tiết lộ một giao dịch tự chuyển đến tài khoản của một nền tảng giao dịch. Việc nghiên cứu các địa chỉ đã biết và bối cảnh của giao dịch sẽ cho phép chúng ta biết đó là một quá trình tổng hợp vào ví tự quản lý hay là một hoạt động chuyển tiền đến nền tảng giao dịch.
 
 Ví dụ, đây là một giao dịch Bitcoin áp dụng mô hình tổng hợp:
 
@@ -373,13 +373,13 @@ Nguồn: [Mempool.space](https://mempool.space/fr/tx/77c16914211e237a9bd51a7ce0b
 Trong bối cảnh phân tích chuỗi, mô hình này có thể tiết lộ nhiều thông tin. Ví dụ, nếu chúng ta biết một trong các đầu vào thuộc về Alice, chúng ta có thể giả định rằng tất cả các đầu vào khác và đầu ra của giao dịch này cũng thuộc về cô ấy. Giả định này sau đó sẽ cho phép chúng ta truy ngược lại qua các chuỗi giao dịch trước đó để khám phá và phân tích các giao dịch khác có thể liên quan đến Alice.
 ![BTC204](assets/vi/32/08.webp)
 
-### Chi Tiêu Nhóm
+### Chi tiêu theo nhóm
 
-Mô hình này được đặc trưng bởi việc tiêu thụ một số ít UTXOs làm đầu vào (thường chỉ một) và sản xuất nhiều UTXOs làm đầu ra.
+Mô hình này được đặc trưng bởi việc tiêu thụ một số ít UTXO làm đầu vào (thường chỉ một) và tạo thành nhiều UTXO ở đầu ra.
 
 ![BTC204](assets/vi/32/09.webp)
-Việc giải thích mô hình này là chúng ta đang chứng kiến một hoạt động chi tiêu nhóm. Đây là một thực hành có khả năng tiết lộ hoạt động kinh tế đáng kể, chẳng hạn như một nền tảng giao dịch, ví dụ. Chi tiêu nhóm cho phép các thực thể này tiết kiệm phí bằng cách kết hợp chi tiêu của họ vào một giao dịch duy nhất.
-Chúng ta có thể suy luận từ mô hình này rằng đầu vào UTXO đến từ một công ty có hoạt động kinh tế đáng kể và rằng các đầu ra UTXO sẽ được phân tán. Nhiều đầu ra sẽ thuộc về khách hàng của công ty đã rút bitcoin từ nền tảng. Số khác có thể đi về phía các công ty đối tác. Cuối cùng, chắc chắn sẽ có một hoặc nhiều giao dịch quay trở lại công ty phát hành.
+Việc giải thích mô hình này là chúng ta đang chứng kiến một hoạt động chi tiêu nhóm. Giao dịch loại này có khả năng tiết lộ một hoạt động kinh tế có quy mô đáng kể, chẳng hạn như một nền tảng giao dịch. Chi tiêu nhóm cho phép các thực thể này tiết kiệm phí bằng cách kết hợp các khoản chi của họ vào một giao dịch duy nhất.
+Chúng ta có thể suy luận từ mô hình này rằng UTXO đầu vào đến từ một công ty có hoạt động kinh tế có quy mô đáng kể và rằng các đầu ra UTXO sẽ được phân tán. Nhiều đầu ra sẽ thuộc về khách hàng của công ty đã rút bitcoin từ nền tảng. Số khác có thể đi về phía các công ty đối tác. Cuối cùng, chắc chắn sẽ có một hoặc nhiều giao dịch quay trở lại công ty phát hành giao dịch.
 
 Ví dụ, đây là một giao dịch Bitcoin áp dụng mô hình chi tiêu nhóm (có khả năng, đó là một giao dịch được phát hành bởi nền tảng Bybit):
 
@@ -391,15 +391,15 @@ Ví dụ, đây là một giao dịch Bitcoin áp dụng mô hình chi tiêu nh�
 
 Nguồn: [Mempool.space](https://mempool.space/fr/tx/8a7288758b6e5d550897beedd13c70bcbaba8709af01a7dbcc1f574b89176b43)
 
-### Giao Dịch Đặc Thù Theo Giao Thức
+### Giao dịch đặc thù theo giao thức
 
-Trong số các mô hình giao dịch, chúng ta cũng có thể xác định các mô hình tiết lộ việc sử dụng một giao thức cụ thể. Ví dụ, Whirlpool coinjoins (mà chúng ta sẽ thảo luận trong phần 5) sẽ có một cấu trúc dễ nhận biết cho phép chúng được phân biệt với các giao dịch truyền thống khác.
+Trong số các mô hình giao dịch, chúng ta cũng có thể xác định các mô hình tiết lộ việc sử dụng một giao thức cụ thể. Ví dụ, giao dịch trộn coi trên Whirlpool (mà chúng ta sẽ thảo luận trong phần 5) sẽ có một cấu trúc dễ nhận biết cho phép chúng được phân biệt với các giao dịch truyền thống khác.
 
 ![BTC204](assets/vi/32/11.webp)
 
 Việc phân tích mô hình này gợi ý rằng chúng ta có khả năng đang chứng kiến một giao dịch hợp tác. Cũng có thể quan sát thấy một coinjoin. Nếu giả thuyết sau này chứng minh là chính xác, thì số lượng đầu ra có thể cung cấp cho chúng ta một ước lượng gần đúng về số lượng người tham gia trong coinjoin.
 
-Ví dụ, đây là một giao dịch Bitcoin áp dụng mô hình của loại giao dịch hợp tác coinjoin:
+Ví dụ, đây là một giao dịch Bitcoin áp dụng mô hình của loại giao dịch trộn coin hợp tác:
 
 ```plaintext
 00601af905bede31086d9b1b79ee8399bd60c97e9c5bba197bdebeee028b9bea
@@ -410,30 +410,30 @@ Nguồn: [Mempool.space](https://mempool.space/fr/tx/00601af905bede31086d9b1b79e
 
 Có nhiều giao thức khác có cấu trúc đặc thù của riêng mình. Do đó, chúng ta có thể phân biệt các giao dịch của loại Wabisabi, giao dịch Stamps, hoặc thậm chí là Runes, ví dụ.
 
-Nhờ các mô hình giao dịch này, chúng ta đã có thể giải thích một số thông tin về một giao dịch cụ thể. Nhưng cấu trúc của giao dịch không phải là nguồn thông tin duy nhất cho việc phân tích. Chúng ta cũng có thể nghiên cứu chi tiết của nó. Những chi tiết này, nội bộ của một giao dịch, là những gì tôi muốn gọi là "heuristics nội bộ," và chúng ta sẽ nghiên cứu chúng trong chương tiếp theo.
+Nhờ các mô hình giao dịch này, chúng ta đã có thể giải thích một số thông tin về một giao dịch cụ thể. Nhưng cấu trúc của giao dịch không phải là nguồn thông tin duy nhất cho việc phân tích. Chúng ta cũng có thể nghiên cứu các chi tiết của nó. Những chi tiết này, nội bộ của một giao dịch, là những gì tôi muốn gọi là "heuristics nội bộ," và chúng ta sẽ nghiên cứu chúng trong chương tiếp theo.
 
-## Heuristics Nội Bộ
+## Phép suy luận nội bộ
 <chapterId>c54b5abe-872f-40f4-a0d0-c59faff228ba</chapterId>
 
-Heuristics nội bộ là một đặc điểm cụ thể được xác định bên trong chính giao dịch, không cần phải xem xét môi trường xung quanh, cho phép chúng ta đưa ra suy luận. Khác với các mô hình tập trung vào cấu trúc tổng thể của giao dịch ở mức độ cao, heuristics nội bộ dựa trên bộ dữ liệu có thể trích xuất. Điều này bao gồm:
+Một suy luận nội bộ - heuristic nội bộ là một đặc điểm cụ thể được xác định bên trong chính giao dịch, không cần phải xem xét tới bối cảnh xung quanh, cho phép chúng ta đưa ra suy luận. Khác với các mô hình tập trung vào cấu trúc tổng thể của giao dịch ở mức độ cao, suy luận nội bộ dựa trên bộ dữ liệu có thể trích xuất. Điều này bao gồm:
 - Số lượng các UTXO khác nhau cả đầu vào và đầu ra;
 - Mọi thứ liên quan đến script: địa chỉ nhận, phiên bản, thời gian khóa...
 
-Nói chung, loại phương pháp suy luận này sẽ cho phép chúng ta xác định sự thay đổi trong một giao dịch cụ thể. Bằng cách làm như vậy, chúng ta có thể tiếp tục theo dõi một thực thể qua nhiều giao dịch khác nhau. Thực sự, nếu chúng ta xác định được một UTXO thuộc về một người dùng mà chúng ta muốn theo dõi, điều quan trọng là phải xác định, khi họ thực hiện một giao dịch, đầu ra nào được chuyển cho người dùng khác và đầu ra nào đại diện cho phần tiền thối, do đó vẫn thuộc về họ.
+Nói chung, loại phương pháp suy luận này sẽ cho phép chúng ta xác định sự thay đổi trong một giao dịch cụ thể. Bằng cách làm như vậy, chúng ta có thể tiếp tục theo dõi một thực thể qua nhiều giao dịch khác nhau. Thực vậy, nếu chúng ta xác định được một UTXO thuộc về một người dùng mà chúng ta muốn theo dõi, điều quan trọng là phải xác định, khi họ thực hiện một giao dịch, đầu ra nào được chuyển cho người dùng khác và đầu ra nào đại diện cho phần tiền thối, do đó vẫn thuộc về họ.
 
 ![BTC204](assets/vi/33/01.webp)
 
-Một lần nữa, tôi nhắc bạn rằng những phương pháp suy luận này không hoàn toàn chính xác. Khi xem xét riêng lẻ, chúng chỉ cho phép chúng ta xác định các kịch bản có thể. Chính sự tích lũy của nhiều phương pháp suy luận giúp giảm bớt sự không chắc chắn, mặc dù không bao giờ loại bỏ hoàn toàn nó.
+Một lần nữa, tôi muốn nhắc bạn rằng những phương pháp suy luận này không hoàn toàn chính xác. Khi xem xét riêng lẻ, chúng chỉ cho phép chúng ta xác định các kịch bản có thể. Chính sự tích lũy của nhiều suy luận giúp giảm bớt sự không chắc chắn, tất nhiên, không bao giờ loại bỏ hoàn toàn sự không chắc chắn.
 
-### Điểm Tương Đồng Nội Bộ
+### Những điểm tương đồng nội bộ
 
 Phương pháp suy luận này liên quan đến việc nghiên cứu sự tương đồng giữa các đầu vào và đầu ra của cùng một giao dịch. Nếu chúng ta quan sát thấy cùng một đặc điểm trên các đầu vào và chỉ trên một đầu ra của giao dịch, thì có khả năng đầu ra này là phần tiền thối.
 
 Đặc điểm rõ ràng nhất là việc tái sử dụng một địa chỉ nhận trong cùng một giao dịch.
 
 ![BTC204](assets/vi/33/02.webp)
-Phương pháp suy luận này để lại ít không gian cho sự nghi ngờ. Trừ khi khóa riêng tư của một người đã bị hack, cùng một địa chỉ nhận không thể không tiết lộ hoạt động của một người dùng duy nhất. Sự giải thích theo sau là phần tiền thối từ giao dịch là đầu ra với cùng một địa chỉ như đầu vào. Điều này cho phép tiếp tục theo dõi cá nhân dựa trên phần tiền thối này.
-Ví dụ, đây là một giao dịch mà phương pháp suy luận này có thể được áp dụng một cách hợp lý:
+Phương pháp suy luận này để lại một chút không gian cho sự nghi ngờ. Trừ khi khóa riêng tư của một người đã bị hack, cùng một địa chỉ nhận không thể không tiết lộ hoạt động của một người dùng duy nhất. Sự giải thích theo sau là phần tiền thối từ giao dịch là đầu ra với cùng một địa chỉ như đầu vào. Điều này cho phép tiếp tục theo dõi cá nhân dựa trên phần tiền thối này.
+Ví dụ, đây là một giao dịch mà cách suy luận này có thể được áp dụng một cách hợp lý:
 
 ```plaintext
 54364146665bfc453a55eae4bfb8fdf7c721d02cb96aadc480c8b16bdeb8d6d0
@@ -443,13 +443,13 @@ Ví dụ, đây là một giao dịch mà phương pháp suy luận này có th�
 
 Nguồn: [Mempool.space](https://mempool.space/tx/54364146665bfc453a55eae4bfb8fdf7c721d02cb96aadc480c8b16bdeb8d6d0)
 
-Những điểm tương đồng giữa đầu vào và đầu ra không dừng lại ở việc tái sử dụng địa chỉ. Bất kỳ sự giống nhau nào trong việc sử dụng script cũng có thể cho phép áp dụng một phương pháp suy luận. Ví dụ, đôi khi có thể quan sát thấy cùng một phiên bản giữa một đầu vào và một trong các đầu ra của giao dịch.
+Những điểm tương đồng giữa đầu vào và đầu ra không dừng lại ở việc tái sử dụng địa chỉ. Bất kỳ sự giống nhau nào trong việc sử dụng script cũng có thể cho phép đưa ra một suy luận. Ví dụ, đôi khi có thể quan sát thấy cùng một phiên bản giữa một đầu vào và một trong các đầu ra của giao dịch.
 
 ![BTC204](assets/vi/33/04.webp)
 
 Trong sơ đồ này, chúng ta có thể thấy rằng đầu vào số 0 mở khóa một script P2WPKH (SegWit V0 bắt đầu với `bc1q`). Đầu ra số 0 sử dụng cùng một loại script. Tuy nhiên, đầu ra số 1 sử dụng một script P2TR (SegWit V1 bắt đầu với `bc1p`). Sự giải thích của đặc điểm này là có khả năng địa chỉ có cùng phiên bản với đầu vào là địa chỉ tiền thối. Do đó, nó vẫn thuộc về cùng một người dùng.
 
-Đây là một giao dịch mà phương pháp suy luận này có thể được áp dụng một cách hợp lý:
+Đây là một giao dịch mà cách suy luận này có thể được áp dụng một cách hợp lý:
 
 ```plaintext
 db07516288771ce5d0a06b275962ec4af1b74500739f168e5800cbcb0e9dd578
@@ -458,25 +458,25 @@ db07516288771ce5d0a06b275962ec4af1b74500739f168e5800cbcb0e9dd578
 ![BTC204](assets/notext/33/05.webp)
 
 Nguồn: [Mempool.space](https://mempool.space/tx/db07516288771ce5d0a06b275962ec4af1b74500739f168e5800cbcb0e9dd578)
-Trong trường hợp này, chúng ta có thể thấy rằng đầu vào số 0 và đầu ra số 1 sử dụng kịch bản P2WPKH (SegWit V0), trong khi đầu ra số 0 sử dụng một loại kịch bản khác, P2PKH (Legacy). Vào đầu những năm 2010, phương pháp suy luận này dựa trên việc phiên bản hóa của các kịch bản không thực sự hữu ích do sự hạn chế của các loại kịch bản có sẵn. Tuy nhiên, theo thời gian và với các bản cập nhật liên tiếp của Bitcoin, một sự đa dạng ngày càng tăng của các loại kịch bản đã được giới thiệu. Phương pháp suy luận này trở nên ngày càng quan trọng bởi vì, với một phạm vi rộng lớn hơn của các loại kịch bản, người dùng được chia thành các nhóm nhỏ hơn, do đó tăng cơ hội áp dụng phương pháp suy luận này về việc tái sử dụng phiên bản nội bộ. Vì lý do này, chỉ từ góc độ riêng tư, nên chọn loại kịch bản phổ biến nhất. Ví dụ, khi tôi viết những dòng này, kịch bản Taproot (`bc1p`) được sử dụng ít thường xuyên hơn so với kịch bản SegWit V0 (`bc1q`). Mặc dù loại trước đem lại lợi ích về kinh tế và riêng tư trong một số bối cảnh cụ thể, đối với các sử dụng chữ ký đơn giản truyền thống, có thể sẽ khôn ngoan khi tuân theo một tiêu chuẩn cũ hơn vì lý do riêng tư, cho đến khi tiêu chuẩn mới được áp dụng rộng rãi hơn.
-### Thanh Toán Số Tròn
+Trong trường hợp này, chúng ta có thể thấy rằng đầu vào số 0 và đầu ra số 1 sử dụng kịch bản P2WPKH (SegWit V0), trong khi đầu ra số 0 sử dụng một loại kịch bản khác, P2PKH (Legacy). Vào đầu những năm 2010, phương pháp suy luận này dựa trên việc phiên bản hóa của các kịch bản không thực sự hữu ích do sự hạn chế của các loại kịch bản có sẵn. Tuy nhiên, theo thời gian và với các bản cập nhật liên tiếp của Bitcoin, các loại kịch bản đã được giới thiệu ngày càng đa dạng. Phương pháp suy luận này trở nên ngày càng quan trọng bởi vì, với một phạm vi các loại kịch bản rộng lớn hơn, người dùng được chia thành các nhóm nhỏ hơn, do đó tăng cơ hội áp dụng phương pháp suy luận này về việc tái sử dụng phiên bản nội bộ. Vì lý do này, chỉ từ góc độ quyền riêng tư, nên chọn loại kịch bản phổ biến nhất. Ví dụ, khi tôi viết những dòng này, kịch bản Taproot (`bc1p`) được sử dụng ít thường xuyên hơn so với kịch bản SegWit V0 (`bc1q`). Mặc dù loại trước đem lại lợi ích về kinh tế và quyền riêng tư trong một số bối cảnh cụ thể, đối với các giao dịch sử dụng chữ ký đơn giản truyền thống, có thể sẽ khôn ngoan khi tuân theo một tiêu chuẩn cũ hơn vì lý do riêng tư, cho đến khi tiêu chuẩn mới được áp dụng rộng rãi hơn.
+### Thanh toán số tròn
 
 Một phương pháp suy luận nội bộ khác có thể giúp chúng ta xác định đầu ra thay đổi là phương pháp của số tròn. Nói chung, khi đối mặt với một mô hình thanh toán đơn giản (1 đầu vào và 2 đầu ra), nếu một trong các đầu ra chi tiêu một số tiền tròn, thì nó đại diện cho việc thanh toán.
 
 ![BTC204](assets/vi/33/06.webp)
 
-Bằng cách loại trừ, nếu một đầu ra đại diện cho việc thanh toán, đầu ra còn lại đại diện cho sự thay đổi. Do đó, có thể suy luận rằng người dùng nhập giao dịch vẫn giữ đầu ra được xác định là sự thay đổi.
+Bằng cách loại trừ, nếu một đầu ra đại diện cho việc thanh toán, đầu ra còn lại đại diện cho tiền thối. Do đó, có thể suy luận rằng người dùng tạo giao dịch vẫn giữ đầu ra được xác định là tiền thối.
 
-Cần lưu ý rằng phương pháp suy luận này không phải lúc nào cũng áp dụng được, vì phần lớn các khoản thanh toán vẫn được thực hiện bằng đơn vị tiền tệ fiat. Thực tế, khi một người bán hàng ở Pháp chấp nhận bitcoin, thông thường, họ không hiển thị giá cố định bằng sats. Họ sẽ chọn một sự chuyển đổi giữa giá bằng euro và số lượng bitcoin cần thanh toán. Do đó, không nên có một số tròn trong đầu ra giao dịch.
+Cần lưu ý rằng phương pháp suy luận này không phải lúc nào cũng áp dụng được, vì phần lớn các khoản thanh toán vẫn được thực hiện bằng đơn vị tiền tệ pháp định. Thực tế, khi một người bán hàng ở Pháp chấp nhận bitcoin, thông thường, họ không hiển thị giá cố định bằng sats. Họ sẽ chọn một sự chuyển đổi giữa giá bằng euro và số lượng bitcoin cần thanh toán. Do đó, sẽ không có một số tròn trong đầu ra giao dịch.
 
-Tuy nhiên, một nhà phân tích có thể cố gắng thực hiện việc chuyển đổi này bằng cách tính toán tỷ giá hối đoái hiệu lực khi giao dịch được phát sóng trên mạng. Hãy lấy ví dụ về một giao dịch với một đầu vào của `97,552 sats` và hai đầu ra, một là `31,085 sats` và cái kia là `64,152 sats`. Ngay từ cái nhìn đầu tiên, giao dịch này không dường như liên quan đến các số tiền tròn. Tuy nhiên, bằng cách áp dụng tỷ giá €64,339 vào thời điểm giao dịch, chúng ta có được một sự chuyển đổi sang euro như sau:
+Tuy nhiên, một nhà phân tích có thể cố gắng thực hiện việc chuyển đổi này bằng cách tính toán tỷ giá hối đoái hiệu lực khi giao dịch được phát tán trên mạng. Hãy lấy ví dụ về một giao dịch với một đầu vào của `97,552 sat` và hai đầu ra, một là `31,085 sat` và cái kia là `64,152 sat`. Ngay từ cái nhìn đầu tiên, giao dịch này dường như không liên quan đến các số tiền tròn. Tuy nhiên, bằng cách áp dụng tỷ giá €64,339 vào thời điểm giao dịch, chúng ta có được một sự chuyển đổi sang euro như sau:
 - Một đầu vào của €62.76;
 - Một đầu ra của €20;
 - Một đầu ra của €41.27.
-Một khi được chuyển đổi sang tiền tệ fiat, giao dịch này cho phép áp dụng phương pháp suy luận về thanh toán số tròn. Đầu ra của €20 có khả năng dành cho một người bán hàng, hoặc ít nhất là đã thay đổi chủ sở hữu. Bằng cách suy luận, đầu ra của €41.27 có khả năng vẫn thuộc về người dùng ban đầu.
+Một khi được chuyển đổi sang tiền pháp định, giao dịch này cho phép áp dụng phương pháp suy luận về thanh toán số tròn. Đầu ra của €20 có khả năng dành cho một người bán hàng, hoặc ít nhất là đã thay đổi chủ sở hữu. Bằng cách suy luận, đầu ra của €41.27 có khả năng vẫn thuộc về người dùng ban đầu.
 ![BTC204](assets/vi/33/07.webp)
 
-Nếu một ngày nào đó, Bitcoin trở thành đơn vị tính toán ưa thích trong các giao dịch của chúng ta, phương pháp suy luận này có thể trở nên còn hữu ích hơn cho việc phân tích.
+Nếu một ngày nào đó, Bitcoin trở thành đơn vị tính toán ưa thích trong các giao dịch của chúng ta, phương pháp suy luận này có thể sẽ trở nên hữu ích hơn nữa cho việc phân tích.
 
 Ví dụ, đây là một giao dịch mà phương pháp suy luận này có thể được áp dụng:
 
@@ -486,15 +486,15 @@ Ví dụ, đây là một giao dịch mà phương pháp suy luận này có th�
 
 ![BTC204](assets/notext/33/08.webp)
 Nguồn: [Mempool.space](https://mempool.space/tx/2bcb42fab7fba17ac1b176060e7d7d7730a7b807d470815f5034d52e96d2828a)
-### Đầu Ra Lớn Nhất
+### Đầu ra lớn nhất
 
-Khi một khoảng cách đủ lớn được phát hiện giữa hai đầu ra của giao dịch trong một mô hình thanh toán đơn giản, có thể ước lượng rằng đầu ra lớn hơn có khả năng là tiền thối.
+Khi có sự chênh lệch đủ lớn được phát hiện giữa hai đầu ra của giao dịch trong một mô hình thanh toán đơn giản, có thể ước lượng rằng đầu ra lớn hơn có khả năng là tiền thối.
 
 ![BTC204](assets/vi/33/09.webp)
 
-Heuristic này về đầu ra lớn nhất có lẽ là không chính xác nhất trong tất cả. Nếu chỉ xác định bởi chính nó, nó khá yếu. Tuy nhiên, đặc điểm này có thể được kết hợp với các heuristic khác để giảm bớt sự không chắc chắn của chúng ta trong việc giải thích.
+Suy luận dựa trên đầu ra lớn nhất có lẽ là không chính xác nhất trong tất cả. Nếu chỉ xác định bởi chính nó, nó khá yếu. Tuy nhiên, đặc điểm này có thể được kết hợp với các suy luận khác để giảm bớt sự không chắc chắn của chúng ta trong việc giải thích.
 
-Ví dụ, nếu chúng ta xem xét một giao dịch có một đầu ra với một số tiền tròn và một đầu ra khác với số tiền lớn hơn, việc áp dụng chung heuristic về thanh toán tròn số và heuristic về đầu ra lớn nhất cho phép chúng ta giảm bớt mức độ không chắc chắn của mình.
+Ví dụ, nếu chúng ta xem xét một giao dịch có một đầu ra với một số tiền tròn và một đầu ra khác với số tiền lớn hơn, việc áp dụng chung suy luận về thanh toán tròn số và suy luận về đầu ra lớn nhất cho phép chúng ta giảm bớt mức độ không chắc chắn của mình.
 
 Ví dụ, đây là một giao dịch mà heuristic này có thể được áp dụng:
 
@@ -506,27 +506,27 @@ b79d8f8e4756d34bbb26c659ab88314c220834c7a8b781c047a3916b56d14dcf
 
 Nguồn: [Mempool.space](https://mempool.space/tx/b79d8f8e4756d34bbb26c659ab88314c220834c7a8b781c047a3916b56d14dcf)
 
-## Heuristic Bên Ngoài
+## Suy luận dựa trên các yếu tố bên ngoài - Heuristic bên ngoài
 <chapterId>4a170e3b-200d-431a-8285-18a23ff617ba</chapterId>
-Việc nghiên cứu về heuristic bên ngoài bao gồm việc phân tích sự giống nhau, các mẫu và đặc điểm của một số yếu tố không phải là bản chất của giao dịch. Nói cách khác, nếu trước đây chúng ta chỉ giới hạn trong việc khai thác các yếu tố nội tại của giao dịch với heuristic nội bộ, bây giờ chúng ta mở rộng lĩnh vực phân tích của mình ra môi trường giao dịch nhờ vào heuristic bên ngoài.
+Việc nghiên cứu về suy luận dựa trên các yếu tố bên ngoài bao gồm việc phân tích sự giống nhau, các mẫu và đặc điểm của một số yếu tố không phải là bản chất của giao dịch. Nói cách khác, nếu trước đây chúng ta chỉ giới hạn trong việc khai thác các yếu tố nội tại của giao dịch với suy luận nội bộ, bây giờ chúng ta mở rộng lĩnh vực phân tích của mình ra bối cảnh của giao dịch nhờ vào suy luận bên ngoài.
 
-### Tái Sử Dụng Địa Chỉ
+### Tái sử dụng địa chỉ ví
 
-Đây là một trong những heuristic được biết đến nhiều nhất trong số những người hâm mộ Bitcoin. Tái sử dụng địa chỉ cho phép thiết lập một liên kết giữa các giao dịch khác nhau và các UTXO khác nhau. Nó được quan sát khi một địa chỉ nhận Bitcoin được sử dụng nhiều lần.
+Đây là một trong những phép suy luận được biết đến nhiều nhất trong số những người ủng hộ Bitcoin. Tái sử dụng địa chỉ cho phép thiết lập một liên kết giữa các giao dịch khác nhau và các UTXO khác nhau. Nó được quan sát khi một địa chỉ nhận bitcoin được sử dụng nhiều lần.
 
-Do đó, có thể khai thác tái sử dụng địa chỉ trong cùng một giao dịch như một heuristic nội bộ để xác định tiền thối (như chúng ta đã thấy trong chương trước). Tuy nhiên, tái sử dụng địa chỉ cũng có thể phục vụ như một heuristic bên ngoài để nhận biết sự độc đáo của một thực thể đằng sau nhiều giao dịch.
+Do đó, có thể khai thác hành vi tái sử dụng địa chỉ trong cùng một giao dịch như một suy luận nội bộ để xác định tiền thối (như chúng ta đã thấy trong chương trước). Tuy nhiên, hành vi tái sử dụng địa chỉ cũng có thể phục vụ như một suy luận bên ngoài để nhận biết sự độc đáo của một thực thể đằng sau nhiều giao dịch.
 
-Việc giải thích tái sử dụng địa chỉ là tất cả các UTXO bị khóa trên địa chỉ này thuộc về (hoặc đã thuộc về) cùng một thực thể. Heuristic này để lại ít không gian cho sự không chắc chắn. Khi có thể xác định nó, việc giải thích theo sau rất có khả năng tương ứng với thực tế. Do đó, nó cho phép nhóm các hoạt động onchain khác nhau.
+Việc giải thích tái sử dụng địa chỉ là tất cả các UTXO bị khóa trên địa chỉ này thuộc về (hoặc đã thuộc về) cùng một thực thể. Phép suy luận này để lại một không gian nhỏ cho sự không chắc chắn. Khi có thể xác định nó, việc giải thích theo sau rất có khả năng tương ứng với thực tế. Do đó, nó cho phép phân loại theo nhóm các hoạt động trên chuỗi khác nhau.
 
 ![BTC204](assets/vi/34/01.webp)
 
-Như đã giải thích trong phần giới thiệu của phần 3 này, heuristic này được phát hiện bởi chính Satoshi Nakamoto. Trong Bản Thảo, ông cụ thể đề cập đến một giải pháp cho người dùng để tránh sản xuất nó, đó là đơn giản chỉ sử dụng một địa chỉ mới cho mỗi giao dịch mới:
+Như đã giải thích trong phần giới thiệu của phần 3 này, phép suy luận này được phát hiện bởi chính Satoshi Nakamoto. Trong bản cáo bạch, ông đề cập chi tiết đến một giải pháp cho người dùng để tránh việc tái sử dụng địa chỉ ví, đó là đơn giản chỉ sử dụng một địa chỉ mới cho mỗi giao dịch mới:
 
-"_Là một bức tường lửa bổ sung, một cặp khóa mới có thể được sử dụng cho mỗi giao dịch để giữ chúng không bị liên kết với một chủ sở hữu chung._"
+"_Như một một bức tường lửa bổ sung, một cặp khóa mới có thể được sử dụng cho mỗi giao dịch để giữ chúng không bị liên kết với một chủ sở hữu chung._"
 
 ![BTC204](assets/notext/34/02.webp)
 
-Nguồn: S. Nakamoto, "Bitcoin: Hệ thống Tiền tệ Điện tử Ngang hàng", https://bitcoin.org/bitcoin.pdf, 2009.
+Nguồn: S. Nakamoto, "Bitcoin: Hệ thống tiền điện tử ngang hàng", https://bitcoin.org/bitcoin.pdf, 2009.
 
 Ví dụ, đây là một địa chỉ được tái sử dụng qua nhiều giao dịch:
 
@@ -538,32 +538,32 @@ bc1qqtmeu0eyvem9a85l3sghuhral8tk0ar7m4a0a0
 
 Nguồn: [Mempool.space](https://mempool.space/address/bc1qqtmeu0eyvem9a85l3sghuhral8tk0ar7m4a0a0)
 
-### Sự Tương Đồng Của Script và Dấu Vân Tay Ví
+### Sự tương đồng script và dấu vân tay của ví
 
 Ngoài việc tái sử dụng địa chỉ, có nhiều phương pháp phân tích khác cho phép liên kết các hành động với cùng một ví hoặc một nhóm địa chỉ.
-Đầu tiên và quan trọng nhất, một nhà phân tích có thể tận dụng sự tương đồng trong việc sử dụng script. Ví dụ, các script thiểu số như multisig có thể được nhận diện dễ dàng hơn so với script SegWit V0. Càng nhiều người chúng ta ẩn mình trong, càng khó để bị phát hiện. Đây là lý do tại sao, trong các giao thức Coinjoin tốt, tất cả các thành viên sử dụng chính xác cùng một loại script.
-Một cách rộng rãi hơn, một nhà phân tích cũng có thể tập trung vào các dấu vân tay đặc trưng của một ví. Đây là các quy trình cụ thể liên quan đến một cách sử dụng mà người ta có thể muốn nhận diện với mục đích khai thác chúng như các phương pháp phân tích dấu vết. Nói cách khác, nếu người ta quan sát thấy sự tích tụ của cùng một đặc điểm nội bộ trên các giao dịch được gán cho thực thể đang được truy vết, người ta có thể cố gắng nhận diện những đặc điểm tương tự trên các giao dịch khác.
+Đầu tiên và quan trọng nhất, một nhà phân tích có thể tận dụng sự tương đồng trong việc sử dụng script. Ví dụ, các script ít gặp như multisig có thể được nhận diện dễ dàng hơn so với các script SegWit V0. Càng nhiều người chúng ta ẩn mình trong một loại script, càng khó để bị phát hiện. Đây là lý do tại sao, trong các giao thức trộn coin tốt, tất cả các thành viên sử dụng chính xác cùng một loại script.
+Một cách rộng rãi hơn, một nhà phân tích cũng có thể tập trung vào các dấu vân tay đặc trưng của một ví. Đây là các quy trình cụ thể liên quan đến một cách sử dụng mà người ta có thể muốn nhận diện với mục đích khai thác chúng như các phép suy luận truy dấu vết. Nói cách khác, nếu người ta quan sát thấy sự tích tụ của cùng một đặc điểm nội bộ trên các giao dịch được gán cho thực thể đang được truy vết, người ta có thể cố gắng nhận diện những đặc điểm tương tự trên các giao dịch khác.
 
-Ví dụ, có thể nhận diện được rằng người dùng được truy vết hệ thống hóa gửi tiền thừa của họ đến các địa chỉ P2TR (`bc1p…`). Nếu quy trình này lặp lại, nó có thể được sử dụng như một phương pháp phân tích cho việc tiếp tục phân tích của chúng ta. Các dấu vân tay khác cũng có thể được sử dụng, như thứ tự của các UTXOs, vị trí của tiền thừa trong các outputs, việc báo hiệu RBF (Replace-by-Fee), hoặc thậm chí, số phiên bản, trường `nSequence`, và trường `nLockTime`.
+Ví dụ, có thể nhận diện được rằng người dùng được truy vết hệ thống hóa gửi tiền thừa của họ đến các địa chỉ P2TR (`bc1p…`). Nếu quy trình này lặp lại, nó có thể được sử dụng như một phép suy luận cho việc tiếp tục phân tích của chúng ta. Các dấu vân tay khác cũng có thể được sử dụng, như thứ tự của các UTXO, vị trí của tiền thừa trong các đầu ra, tín hiệu RBF (Replace-by-Fee), hoặc thậm chí, số phiên bản, trường `nSequence`, và trường `nLockTime`.
 
 ![BTC204](assets/vi/34/04.webp)
 
 Như [@LaurentMT](https://twitter.com/LaurentMT) đã chỉ ra trong [Space Kek #19](https://podcasters.spotify.com/pod/show/decouvrebitcoin/episodes/SpaceKek-19---Analyse-de-chane--anonsets-et-entropie-e1vfuji) (một podcast bằng tiếng Pháp), việc sử dụng dấu vân tay ví trong phân tích chuỗi tăng đáng kể theo thời gian. Thực tế, số lượng loại script ngày càng tăng và việc triển khai dần dần các tính năng mới bởi phần mềm ví làm tăng sự khác biệt. Thậm chí, có thể xác định chính xác phần mềm được sử dụng bởi thực thể đang được truy vết. Do đó, quan trọng là phải hiểu rằng việc nghiên cứu dấu vân tay của một ví đặc biệt có liên quan đối với các giao dịch gần đây, hơn là đối với những giao dịch được khởi xướng vào đầu những năm 2010.
 
-Tóm lại, một dấu vân tay có thể là bất kỳ thực hành cụ thể nào, được thực hiện tự động bởi ví hoặc thủ công bởi người dùng, có thể được tìm thấy trên các giao dịch khác để hỗ trợ chúng ta trong phân tích.
+Tóm lại, một dấu vân tay có thể là bất kỳ hành vi cụ thể nào, được thực hiện tự động bởi ví hoặc thủ công bởi người dùng, có thể được tìm thấy trên các giao dịch khác để hỗ trợ chúng ta trong phân tích.
 
-### Heuristic Sở Hữu Đầu Vào Chung (CIOH)
+### Phép suy luận dựa trên việc sở hữu đầu vào chung (CIOH)
 
-CIOH, viết tắt của "Common Input Ownership Heuristic" trong tiếng Anh, là một phương pháp phân tích cho rằng khi một giao dịch bao gồm nhiều đầu vào, những đầu vào này có khả năng đều đến từ một thực thể duy nhất. Do đó, quyền sở hữu của chúng là chung.
-Để áp dụng Heuristic Sở Hữu Đầu Vào Chung (Common Input Ownership Heuristic - CIOH), trước tiên chúng ta quan sát một giao dịch có nhiều đầu vào. Có thể ít như 2 đầu vào hoặc nhiều đến 30 đầu vào. Một khi đặc điểm này được xác định, chúng ta kiểm tra xem giao dịch có không phù hợp với một mô hình giao dịch đã biết. Ví dụ, nếu nó có 5 đầu vào với số lượng gần như nhau và 5 đầu ra với số lượng chính xác như nhau, chúng ta biết đó là cấu trúc của một coinjoin. Do đó, chúng ta không thể áp dụng CIOH.
+CIOH, viết tắt của "Common Input Ownership Heuristic" trong tiếng Anh, là một phương pháp suy luận cho rằng khi một giao dịch bao gồm nhiều đầu vào, những đầu vào này có khả năng đều đến từ một thực thể duy nhất. Do đó, quyền sở hữu của chúng là chung.
+Để áp dụng CIOH, trước tiên chúng ta quan sát một giao dịch có nhiều đầu vào. Có thể ít như 2 đầu vào hoặc nhiều lên đến 30 đầu vào. Một khi đặc điểm này được xác định, chúng ta kiểm tra xem giao dịch có phù hợp với một mô hình giao dịch đã biết hay không. Ví dụ, nếu nó có 5 đầu vào với số lượng gần như nhau và 5 đầu ra với số lượng chính xác như nhau, chúng ta biết đó là cấu trúc của một giao dịch trộn coin. Do đó, chúng ta không thể áp dụng CIOH.
 
 Tuy nhiên, nếu giao dịch không phù hợp với bất kỳ mô hình giao dịch hợp tác nào đã biết, thì chúng ta có thể suy luận rằng tất cả các đầu vào có khả năng đến từ cùng một thực thể. Điều này có thể rất hữu ích để mở rộng một cụm đã biết hoặc tiếp tục truy vết.
 
-CIOH được phát hiện bởi Satoshi Nakamoto. Ông thảo luận về nó trong phần 10 của Bản Trắng:
+CIOH được phát hiện bởi Satoshi Nakamoto. Ông thảo luận về nó trong phần 10 của bản cáo bạch:
 
 "_[...] mối liên kết là không thể tránh khỏi với các giao dịch đa đầu vào, chúng nhất thiết tiết lộ rằng các đầu vào của chúng được sở hữu bởi cùng một chủ sở hữu. Rủi ro là nếu chủ sở hữu của một khóa được tiết lộ, các liên kết có thể tiết lộ các giao dịch khác thuộc về cùng một chủ sở hữu._"
 
-Điều đặc biệt thú vị là lưu ý rằng Satoshi Nakamoto, ngay cả trước khi Bitcoin chính thức ra mắt, đã nhận diện được hai điểm yếu chính về quyền riêng tư của người dùng, đó là CIOH và việc tái sử dụng địa chỉ. Sự nhìn xa trông rộng như vậy thật đáng chú ý, vì những heuristic này vẫn, ngay cả ngày nay, là những công cụ hữu ích nhất trong phân tích chuỗi.
+Điều đặc biệt thú vị là lưu ý rằng Satoshi Nakamoto, ngay cả trước khi Bitcoin chính thức ra mắt, đã nhận diện được hai điểm yếu chính về quyền riêng tư của người dùng, đó là CIOH và việc tái sử dụng địa chỉ ví. Sự nhìn xa trông rộng như vậy thật đáng chú ý, vì những phép suy luận này vẫn, ngay cả cho tới ngày nay, là những công cụ hữu ích nhất trong phân tích chuỗi.
 
 Để cho bạn một ví dụ, đây là một giao dịch mà chúng ta có thể áp dụng CIOH:
 
@@ -573,33 +573,33 @@ CIOH được phát hiện bởi Satoshi Nakamoto. Ông thảo luận về nó t
 
 Nguồn: [Mempool.space](https://mempool.space/tx/20618e63b6eed056263fa52a2282c8897ab2ee71604c7faccfe748e1a202d712)
 
-### Dữ Liệu Ngoại Tuyến
+### Dữ liệu ngoại tuyến
 
 Rõ ràng, phân tích chuỗi không chỉ giới hạn ở dữ liệu trên chuỗi. Bất kỳ dữ liệu nào từ các phân tích trước đó hoặc có sẵn trên internet cũng có thể được sử dụng để tinh chỉnh một phân tích.
-Ví dụ, nếu quan sát thấy các giao dịch được truy vết luôn được phát sóng từ cùng một nút Bitcoin và địa chỉ IP của nó có thể được xác định, có thể có khả năng phát hiện các giao dịch khác từ cùng một thực thể, ngoài việc xác định một phần danh tính của người gửi. Mặc dù việc này không dễ dàng thực hiện, vì nó đòi hỏi phải vận hành nhiều nút, có thể một số công ty chuyên về phân tích chuỗi sử dụng nó.
+Ví dụ, nếu quan sát thấy các giao dịch được truy vết luôn được phát sóng từ cùng một nút Bitcoin và địa chỉ IP của nó có thể được xác định, có thể có khả năng phát hiện các giao dịch khác từ cùng một thực thể, ngoài việc xác định một phần danh tính của người gửi. Mặc dù việc này không dễ dàng thực hiện, vì nó đòi hỏi phải vận hành nhiều nút, một số công ty chuyên về phân tích chuỗi có thể đã sử dụng nó.
 
 Nhà phân tích cũng có lựa chọn dựa vào các phân tích trước đó đã được công bố mã nguồn mở, hoặc trên các phân tích trước đó của chính họ. Có thể một người sẽ tìm thấy một đầu ra chỉ đến một cụm địa chỉ đã được xác định trước đó. Đôi khi, cũng có thể dựa vào các đầu ra chỉ đến một nền tảng giao dịch, địa chỉ của những công ty này thường được biết đến.
 
 Tương tự, người ta có thể thực hiện phân tích bằng cách loại trừ. Ví dụ, nếu trong quá trình phân tích một giao dịch với hai đầu ra, một trong số chúng được liên kết với một cụm địa chỉ đã biết nhưng khác biệt với thực thể đang được truy vết, thì có thể giải thích rằng đầu ra kia có khả năng đại diện cho số tiền thối.
 
-Phân tích chuỗi cũng bao gồm một phần của OSINT (*Open Source Intelligence*) có tính chất tổng quát hơn với các tìm kiếm trên internet. Đó là lý do tại sao không nên công bố địa chỉ nhận trực tiếp trên mạng xã hội hoặc trên một trang web, dù dưới một bí danh hay không.
+Phân tích chuỗi cũng bao gồm một phần của OSINT (*Open Source Intelligence*) có tính chất tổng quát hơn với các tìm kiếm trên internet. Đó là lý do tại sao không nên công khai trực tiếp địa chỉ nhận bitcoin trên mạng xã hội hoặc trên một trang web, dù dưới một bí danh hay không.
 
 ![BTC204](assets/notext/34/10.webp)
 
-### Mô Hình Thời Gian
-Ít được nghĩ đến, nhưng một số hành vi của con người có thể được nhận biết trên chuỗi. Có lẽ điều hữu ích nhất trong phân tích có thể là mô hình giấc ngủ của bạn! Vâng, khi bạn đang ngủ, bạn có lẽ không thực hiện giao dịch Bitcoin. Vì bạn thường ngủ vào cùng một khoảng thời gian, nên việc sử dụng phân tích thời gian trong phân tích chuỗi là phổ biến. Điều này đơn giản bao gồm việc lập danh mục các giờ mà giao dịch của một thực thể cụ thể được phát sóng đến mạng Bitcoin. Phân tích các mô hình thời gian này cho phép chúng ta suy luận nhiều thông tin.
+### Mô hình thời gian
+Ít được nghĩ đến, nhưng một số hành vi của con người có thể được nhận biết trên chuỗi. Có lẽ điều hữu ích nhất trong phân tích có thể là mẫu hình giấc ngủ của bạn! Vâng, khi bạn đang ngủ, bạn có lẽ không thực hiện giao dịch Bitcoin. Vì bạn thường ngủ vào cùng một khoảng thời gian, nên việc sử dụng phân tích thời gian trong phân tích chuỗi là phổ biến. Điều này đơn giản là bao gồm việc lập danh mục các giờ mà giao dịch của một thực thể cụ thể được phát sóng đến mạng Bitcoin. Phân tích các mô hình thời gian này cho phép chúng ta suy luận nhiều thông tin.
 
-Trước hết, phân tích thời gian đôi khi cho phép xác định bản chất của thực thể được truy vết. Nếu quan sát thấy giao dịch được phát sóng liên tục trong 24 giờ, thì điều này sẽ tiết lộ một hoạt động kinh tế mạnh mẽ. Thực thể đứng sau những giao dịch này có khả năng là một công ty, có thể là quốc tế, và có lẽ với các thủ tục tự động bên trong.
+Trước hết, phân tích thời gian đôi khi cho phép xác định bản chất của thực thể được truy vết. Nếu quan sát thấy giao dịch được phát sóng liên tục trong 24 giờ, thì điều này sẽ tiết lộ một hoạt động kinh tế mạnh mẽ. Thực thể đứng sau những giao dịch này có khả năng là một công ty, có thể là quốc tế, và có lẽ có các quá trình tự động bên trong.
 
 Ví dụ, [tôi đã nhận ra mô hình này vài tháng trước](https://twitter.com/Loic_Pandul/status/1701127409712452072) bằng cách phân tích [giao dịch đã nhầm lẫn phân bổ 19 bitcoin vào phí](https://mempool.space/tx/d5392d474b4c436e1c9d1f4ff4be5f5f9bb0eb2e26b61d2781751474b7e870fd). Một phân tích thời gian đơn giản đã cho phép tôi giả định rằng chúng ta đang xử lý một dịch vụ tự động, và do đó có khả năng là một thực thể lớn như một nền tảng giao dịch.
 
-Thực sự, vài ngày sau, người ta phát hiện ra rằng quỹ thuộc về PayPal, thông qua nền tảng giao dịch Paxos.
+Thực sự, vài ngày sau, người ta phát hiện ra rằng số tiền đó thuộc về PayPal, thông qua nền tảng giao dịch Paxos.
 
 Ngược lại, nếu chúng ta thấy rằng mô hình thời gian phân bố rải rác qua 16 giờ cụ thể, thì chúng ta có thể ước lượng rằng chúng ta đang xử lý một người dùng cá nhân, hoặc có thể là một doanh nghiệp địa phương tùy thuộc vào khối lượng giao dịch.
 
 Ngoài bản chất của thực thể được quan sát, mô hình thời gian cũng có thể cho chúng ta một vị trí xấp xỉ của người dùng nhờ vào múi giờ. Chúng ta có thể liên kết các giao dịch khác, và sử dụng dấu thời gian của những giao dịch này như một phép suy luận bổ sung có thể được thêm vào phân tích của chúng ta.
 
-Ví dụ, trên địa chỉ được sử dụng lại mà tôi đã nói về trước đây, chúng ta có thể quan sát thấy rằng các giao dịch, dù là đến hay đi, đều tập trung trong một khoảng thời gian 13 giờ.
+Ví dụ, trên địa chỉ được sử dụng lại mà tôi đã nói về trước đây, chúng ta có thể quan sát thấy rằng các giao dịch, dù là đến hay đi, đều tập trung trong một khoảng thời gian kéo dài 13 giờ.
 
 ```plaintext
 bc1qqtmeu0eyvem9a85l3sghuhral8tk0ar7m4a0a0
@@ -611,13 +611,13 @@ Nguồn: OXT.me
 
 Khoảng thời gian này có khả năng tương ứng với Châu Âu, Châu Phi, hoặc Trung Đông. Do đó, chúng ta có thể suy luận rằng người dùng đứng sau những giao dịch này sống ở đó.
 
-Trong một lĩnh vực khác, đây cũng là một phân tích thời gian kiểu này đã cho phép giả thuyết rằng Satoshi Nakamoto không hoạt động từ Nhật Bản, mà thực sự từ Hoa Kỳ: [*The Time Zones of Satoshi Nakamoto*](https://medium.com/@insearchofsatoshi/the-time-zones-of-satoshi-nakamoto-aa40f035178f)
+Trong một lĩnh vực khác, đây cũng là một phân tích thời gian kiểu này đã cho phép giả thuyết rằng Satoshi Nakamoto không hoạt động từ Nhật Bản, mà thực sự là từ Hoa Kỳ: [*The Time Zones of Satoshi Nakamoto*](https://medium.com/@insearchofsatoshi/the-time-zones-of-satoshi-nakamoto-aa40f035178f)
 
-## Ứng Dụng Thực Tế với một Block Explorer
+## Ứng dụng thực tế của một trình duyệt blockchain
 <chapterId>6493cf2f-225c-405f-9375-c4304f1087ed</chapterId>
 
-Trong chương cuối cùng này, chúng ta sẽ cụ thể áp dụng các khái niệm mà chúng ta đã nghiên cứu cho đến nay. Tôi sẽ trình bày cho bạn các ví dụ về giao dịch Bitcoin thực tế, và bạn sẽ cần phải trích xuất thông tin mà tôi yêu cầu.
-Lý tưởng nhất, cho những bài tập này, việc sử dụng một công cụ phân tích chuỗi chuyên nghiệp sẽ được ưu tiên. Tuy nhiên, kể từ khi các nhà sáng lập của Samourai Wallet bị bắt, công cụ phân tích miễn phí duy nhất OXT.me không còn khả dụng nữa. Do đó, chúng ta sẽ chọn một trình khám phá block cổ điển cho những bài tập này. Tôi khuyên sử dụng [Mempool.space](https://mempool.space/) vì nó có nhiều tính năng và dải công cụ phân tích chuỗi, nhưng bạn cũng có thể chọn một trình khám phá khác như [Bitcoin Explorer](https://bitcoinexplorer.org/). Để bắt đầu, tôi sẽ trình bày các bài tập. Sử dụng trình khám phá block của bạn để hoàn thành chúng và ghi lại câu trả lời của bạn trên một tờ giấy. Sau đó, ở cuối chương này, tôi sẽ cung cấp các câu trả lời để bạn có thể kiểm tra và sửa chữa kết quả của mình.
+Trong chương cuối cùng này, chúng ta sẽ cụ thể áp dụng các khái niệm mà chúng ta đã nghiên cứu cho đến hiện tại. Tôi sẽ đưa ra các ví dụ về giao dịch Bitcoin thực tế, và bạn sẽ cần phải trích xuất thông tin mà tôi yêu cầu.
+Lý tưởng nhất, cho những bài tập này, việc sử dụng một công cụ phân tích chuỗi chuyên nghiệp sẽ được ưu tiên. Tuy nhiên, kể từ khi các nhà sáng lập của Samourai Wallet bị bắt, công cụ phân tích miễn phí duy nhất OXT.me không còn khả dụng nữa. Do đó, chúng ta sẽ chọn một trình khám phá block cổ điển cho những bài tập này. Tôi khuyên sử dụng [Mempool.space](https://mempool.space/) vì nó có nhiều tính năng và dải công cụ phân tích chuỗi, nhưng bạn cũng có thể chọn một trình khám phá khác như [Bitcoin Explorer](https://bitcoinexplorer.org/). Để bắt đầu, tôi sẽ đưa ra các bài tập. Sử dụng trình khám duyệt blockchain của bạn để hoàn thành chúng và ghi lại câu trả lời của bạn trên một tờ giấy. Sau đó, ở cuối chương này, tôi sẽ cung cấp các câu trả lời để bạn có thể kiểm tra và sửa chữa kết quả của mình.
 
 *Giao dịch được chọn cho những bài tập này được chọn một cách có phần ngẫu nhiên chỉ dựa trên đặc điểm của chúng. Chương này chỉ nhằm mục đích giáo dục và thông tin. Tôi muốn làm rõ rằng tôi không ủng hộ hoặc khuyến khích việc sử dụng những công cụ này cho mục đích xấu. Mục tiêu là dạy bạn cách tự bảo vệ mình chống lại phân tích chuỗi, không phải để tiến hành phân tích nhằm tiết lộ thông tin cá nhân của người khác.*
 
@@ -651,7 +651,7 @@ ID giao dịch cần phân tích:
 
 Mô hình của giao dịch này là gì?
 
-Sau khi xác định mô hình của nó, sử dụng các heuristics nội bộ của giao dịch, đầu ra nào có khả năng đại diện cho số tiền thối?
+Sau khi xác định mô hình của nó, sử dụng các phép suy luận nội bộ của giao dịch, đầu ra nào có khả năng đại diện cho số tiền thối?
 
 ### Bài tập 4
 
@@ -662,10 +662,10 @@ ID giao dịch cần phân tích:
 ```
 
 Mô hình của giao dịch này là gì?
-Sau khi xác định mô hình của nó, sử dụng các heuristics nội bộ của giao dịch, đầu ra nào có khả năng đại diện cho số tiền thối?
+Sau khi xác định mô hình của nó, sử dụng các phép suy luận nội bộ của giao dịch, đầu ra nào có khả năng đại diện cho số tiền thối?
 ### Bài tập 5
 
-Hãy tưởng tượng rằng Loïc đã đăng một trong những địa chỉ Bitcoin nhận của mình trên mạng xã hội Twitter:
+Hãy tưởng tượng rằng Loïc đã đăng một trong những địa chỉ nhận bitcoin của mình trên mạng xã hội Twitter:
 
 ![BTC204](assets/notext/35/1.webp)
 
@@ -673,13 +673,13 @@ Hãy tưởng tượng rằng Loïc đã đăng một trong những địa chỉ
 bc1qja0hycrv7g9ww00jcqanhfpqmzx7luqalum3vu
 ```
 
-Chỉ sử dụng **heuristic tái sử dụng địa chỉ**, chúng ta có thể liên kết những giao dịch Bitcoin nào với danh tính của Loïc?
+Chỉ sử dụng **phép suy luận tái sử dụng địa chỉ**, chúng ta có thể liên kết những giao dịch Bitcoin nào với danh tính của Loïc?
 
 *Rõ ràng, tôi không phải là chủ sở hữu thực sự của địa chỉ nhận này và tôi không đăng nó trên mạng xã hội. Đó là một địa chỉ tôi chọn ngẫu nhiên từ blockchain.*
 
 ### Bài tập 6
 
-Tiếp theo Bài tập 5, nhờ heuristic tái sử dụng địa chỉ, bạn đã có thể xác định được một số giao dịch Bitcoin mà Loïc có vẻ liên quan. Bình thường, trong số các giao dịch được xác định, bạn nên đã phát hiện ra giao dịch này:
+Tiếp theo Bài tập 5, nhờ phép suy luận tái sử dụng địa chỉ, bạn đã có thể xác định được một số giao dịch Bitcoin mà Loïc có vẻ liên quan. Bình thường, trong số các giao dịch được xác định, bạn nên đã phát hiện ra giao dịch này:
 
 ```plaintext
 2d9575553c99578268ffba49a1b2adc3b85a29926728bd0280703a04d051eace
@@ -705,16 +705,16 @@ Chỉ quan sát giao dịch này, chúng ta có thể giải thích thông tin g
 ### Giải pháp cho các bài tập
 
 ***Bài tập 1:***
-Mô hình của giao dịch này là một khoản thanh toán đơn giản. Nếu chúng ta chỉ nghiên cứu cấu trúc của nó, chúng ta có thể giải thích rằng một đầu ra đại diện cho tiền thối và đầu ra khác đại diện cho một khoản thanh toán thực sự. Do đó, chúng ta biết rằng người dùng quan sát được có khả năng không còn sở hữu một trong hai UTXO ở đầu ra (cái dành cho thanh toán), nhưng vẫn sở hữu UTXO khác (cái dành cho tiền thối).
+Mô hình của giao dịch này là một khoản thanh toán đơn giản. Nếu chúng ta chỉ nghiên cứu cấu trúc của nó, chúng ta có thể giải thích rằng một đầu ra đại diện cho tiền thối và đầu ra khác đại diện cho một khoản thanh toán thực sự. Do đó, chúng ta biết rằng người dùng được quan sát có khả năng không còn sở hữu một trong hai UTXO ở đầu ra (cái dành cho thanh toán), nhưng vẫn sở hữu UTXO khác (cái dành cho tiền thối).
 
 ***Bài tập 2:***
-Mô hình của giao dịch này là chi tiêu hàng loạt. Mô hình này có khả năng chỉ ra hoạt động kinh tế đáng kể, chẳng hạn như một nền tảng giao dịch, ví dụ. Chúng ta có thể suy luận rằng UTXO ở đầu vào đến từ một công ty có hoạt động kinh tế đáng kể và rằng các UTXO ở đầu ra sẽ được phân tán. Một số sẽ thuộc về khách hàng của công ty đã rút bitcoin của họ về ví tự quản. Số khác có thể đi đến các công ty đối tác. Cuối cùng, chắc chắn sẽ có một phần tiền thối trở lại công ty phát hành.
+Mô hình của giao dịch này là chi tiêu hàng loạt. Mô hình này có khả năng chỉ ra hoạt động kinh tế có quy mô đáng kể, chẳng hạn như một nền tảng giao dịch, ví dụ. Chúng ta có thể suy luận rằng UTXO ở đầu vào đến từ một công ty có hoạt động kinh tế ở quy mô đáng kể và rằng các UTXO ở đầu ra sẽ được phân tán. Một số sẽ thuộc về khách hàng của công ty đã rút bitcoin của họ về ví tự quản. Số khác có thể đi đến các công ty đối tác. Cuối cùng, chắc chắn sẽ có một phần tiền thối trở lại công ty phát hành.
 
 ***Bài tập 3:***
 
 Mô hình của giao dịch này là một khoản thanh toán đơn giản. Do đó, chúng ta có thể áp dụng các phép suy luận nội bộ cho giao dịch để cố gắng xác định tiền thối.
 
-Tôi cá nhân đã xác định được ít nhất hai phép suy luận nội bộ hỗ trợ cùng một giả thuyết:
+Cá nhân tôi đã xác định được ít nhất hai phép suy luận nội bộ hỗ trợ cùng một giả thuyết:
 - Sự tái sử dụng cùng một loại script;
 - Đầu ra lớn nhất.
 
@@ -737,24 +737,24 @@ bc1qyfuytw8pcvg5vx37kkgwjspg73rpt56l5mx89k
 ```
 
 Do đó, chúng ta có thể giả định rằng đầu ra `0` tương ứng với một khoản thanh toán và đầu ra `1` là tiền thối của giao dịch, điều này có nghĩa là người dùng ở đầu vào vẫn sở hữu đầu ra `1`.
-Để hỗ trợ hoặc bác bỏ giả thuyết này, chúng ta có thể tìm kiếm các heuristic khác mà hoặc là xác nhận suy nghĩ của chúng ta hoặc giảm khả năng giả thuyết của chúng ta là chính xác.
-Tôi đã phát hiện ra ít nhất một heuristic khác. Đó là output lớn nhất. Output `0` có giá trị `123,689 sats`, trong khi output `1` có giá trị `505,839 sats`. Do đó, có một sự khác biệt đáng kể giữa hai output này. Heuristic của output lớn nhất gợi ý rằng output có dung lượng lớn nhất có khả năng là tiền thối. Heuristic này do đó càng củng cố giả thuyết ban đầu của chúng ta.
+Để hỗ trợ hoặc bác bỏ giả thuyết này, chúng ta có thể tìm kiếm các phép suy luận khác nhằm hoặc là xác nhận suy nghĩ của chúng ta hoặc giảm khả năng giả thuyết của chúng ta là chính xác.
+Tôi đã phát hiện ra ít nhất một  phép suy luận khác. Đó là đầu ra lớn nhất. Đầu ra `0` có giá trị `123,689 sat`, trong khi đầu ra `1` có giá trị `505,839 sat`. Do đó, có một sự khác biệt đáng kể giữa hai đầu ra này. Phép suy luận của đầu ra lớn nhất gợi ý rằng đầu ra có dung lượng lớn nhất có khả năng là tiền thối. Phép suy luận này này do đó càng củng cố giả thuyết ban đầu của chúng ta.
 
-Có vẻ như người dùng cung cấp UTXO ở đầu vào vẫn giữ output `1`, dường như thể hiện tiền thối của giao dịch.
+Có vẻ như người dùng cung cấp UTXO ở đầu vào vẫn giữ đầu ra `1`, và đó dường như tiền thối của giao dịch.
 
 ***Bài tập 4:***
-Mô hình của giao dịch này là một giao dịch thanh toán đơn giản. Do đó, chúng ta có thể áp dụng các heuristic nội bộ vào giao dịch để cố gắng xác định tiền thối.
-Tôi cá nhân đã xác định được ít nhất hai heuristic nội bộ hỗ trợ cùng một giả thuyết:
+Mô hình của giao dịch này là một giao dịch thanh toán đơn giản. Do đó, chúng ta có thể áp dụng các phép suy luận nội bộ vào giao dịch để cố gắng xác định tiền thối.
+Cá nhân tôi đã xác định được ít nhất hai phép suy luận nội bộ hỗ trợ cùng một giả thuyết:
 - Sử dụng lại cùng một loại script;
-- Output của một số lượng tròn.
+- Đầu ra của một số lượng tròn.
 
-Heuristic rõ ràng nhất là việc sử dụng lại cùng một loại script. Thực sự, output `0` là một `P2SH`, có thể nhận biết qua địa chỉ nhận bắt đầu bằng `3`:
+Phép suy luận rõ ràng nhất là việc sử dụng lại cùng một loại script. Thực sự, đầu ra `0` là một `P2SH`, có thể nhận biết qua địa chỉ nhận bắt đầu bằng `3`:
 
 ```plaintext
 3FSH5Mnq6S5FyQoKR9Yjakk3X4KCGxeaD4
 ```
 
-Trong khi output `1` là một `P2WPKH`, có thể nhận biết qua địa chỉ bắt đầu bằng `bc1q`:
+Trong khi đầu ra `1` là một `P2WPKH`, có thể nhận biết qua địa chỉ bắt đầu bằng `bc1q`:
 
 ```plaintext
 bc1qvdywdcfsyavt4v8uxmmrdt6meu4vgeg439n7sg
@@ -766,14 +766,14 @@ UTXO được sử dụng làm đầu vào cho giao dịch này cũng sử dụn
 bc1qku3f2y294h3ks5eusv63dslcua2xnlzxx0k6kp
 ```
 
-Do đó, chúng ta có thể giả định rằng output `0` tương ứng với một khoản thanh toán và output `1` là tiền thối của giao dịch, điều này có nghĩa là người dùng ở đầu vào vẫn sở hữu output `1`.
+Do đó, chúng ta có thể giả định rằng đầu ra `0` tương ứng với một khoản thanh toán và đầu ra `1` là tiền thối của giao dịch, điều này có nghĩa là người dùng ở đầu vào vẫn sở hữu đầu ra `1`.
 
-Để hỗ trợ hoặc bác bỏ giả thuyết này, chúng ta có thể tìm kiếm các heuristic khác mà hoặc là xác nhận suy nghĩ của chúng ta hoặc giảm khả năng giả thuyết của chúng ta là chính xác.
+Để hỗ trợ hoặc bác bỏ giả thuyết này, chúng ta có thể tìm kiếm các phép suy luận khác mà hoặc là xác nhận suy nghĩ của chúng ta hoặc giảm khả năng giả thuyết của chúng ta là chính xác.
 
-Tôi đã phát hiện ra ít nhất một heuristic khác. Đó là output của một số lượng tròn. Output `0` có giá trị `70,000 sats`, trong khi output `1` có giá trị `22,962 sats`. Do đó, chúng ta đang có mặt trước một output hoàn toàn tròn trong đơn vị tiền tệ BTC. Heuristic của output tròn gợi ý rằng UTXO với một số lượng tròn có khả năng là khoản thanh toán, và bằng cách loại trừ, cái khác đại diện cho tiền thối. Heuristic này do đó càng củng cố giả thuyết ban đầu của chúng ta.
+Tôi đã phát hiện ra ít nhất một phép suy luận khác. Đó là đầu ra của một số lượng tròn. Đầu ra `0` có giá trị `70,000 sat`, trong khi output `1` có giá trị `22,962 sat`. Do đó, chúng ta đang có trước mặt một đầu ra hoàn toàn tròn trong đơn vị tiền tệ BTC. Phép suy luận của đầu ra tròn gợi ý rằng UTXO với một số lượng tròn có khả năng là khoản thanh toán, và bằng cách loại trừ, cái khác đại diện cho tiền thối. Phép suy luận này do đó càng củng cố giả thuyết ban đầu của chúng ta.
 
-Tuy nhiên, trong ví dụ này, một heuristic khác có thể đặt câu hỏi về giả thuyết ban đầu của chúng ta. Thực sự, output `0` lớn hơn output `1`. Nếu chúng ta dựa vào heuristic rằng output lớn nhất thường là tiền thối, chúng ta có thể suy luận rằng output `0` là tiền thối. Tuy nhiên, giả thuyết phản bác này có vẻ không thuyết phục, vì hai heuristic khác dường như thuyết phục hơn nhiều so với heuristic của output lớn nhất. Do đó, có vẻ hợp lý khi duy trì giả thuyết ban đầu của chúng ta bất chấp mâu thuẫn rõ ràng này.
-Do đó, có vẻ như người dùng cung cấp UTXO làm đầu vào vẫn giữ output `1`, dường như thể hiện tiền thối từ giao dịch.
+Tuy nhiên, trong ví dụ này, một phép suy luận khác có thể đặt câu hỏi về giả thuyết ban đầu của chúng ta. Thực sự, đầu ra `0` lớn hơn đầu ra `1`. Nếu chúng ta dựa vào phép suy luận rằng đầu ra lớn nhất thường là tiền thối, chúng ta có thể suy luận rằng đầu ra `0` là tiền thối. Tuy nhiên, giả thuyết phản bác này có vẻ không thuyết phục, vì hai phép suy luận khác dường như thuyết phục hơn nhiều so với phép suy luận của đầu ra lớn nhất. Do đó, có vẻ hợp lý khi duy trì giả thuyết ban đầu của chúng ta bất chấp mâu thuẫn rõ ràng này.
+Do đó, có vẻ như người dùng cung cấp UTXO làm đầu vào vẫn giữ đầu ra `1`, dường như đó là tiền thối từ giao dịch.
 ***Bài tập 5:***
 Chúng ta có thể thấy rằng có 8 giao dịch có thể liên kết với danh tính của Loïc. Trong số này, 4 giao dịch liên quan đến việc nhận bitcoins:
 ```plaintext

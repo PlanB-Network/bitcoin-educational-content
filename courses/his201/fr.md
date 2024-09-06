@@ -23,7 +23,7 @@ Ce cours est bien évidemment centré sur la figure de Satoshi Nakamoto dont vou
 ## Introduction à l'histoire de la création de Bitcoin
 <chapterId>85290407-1aa3-4cb4-890a-aed23441afb7</chapterId>
 
-Ce cours vise à vous raconter l'histoire de la création de Bitcoin comme vous ne l'avez jamais lu ailleurs. Celle-ci est trop souvent méconnue, bien qu'elle regorge de détails fascinants. Nous nous attacherons ainsi à la décrire dans toute sa complexité, de la conception par Satoshi Nakamoto à sa disparition précoce et à la prise de relai par la communauté.
+Ce cours vise à vous raconter l'histoire de la création de Bitcoin comme vous ne l'avez jamais lue ailleurs. Celle-ci est trop souvent méconnue, bien qu'elle regorge de détails fascinants. Nous nous attacherons ainsi à la décrire dans toute sa complexité, de la conception par Satoshi Nakamoto à sa disparition précoce et à la prise de relai par la communauté.
 
 ### Petit aperçu
 

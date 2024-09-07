@@ -57,7 +57,7 @@ Trong phần thứ ba của khóa học, chúng ta đi vào vấn đề chính: 
 
 ### Phần 4: Hiểu về giao dịch trộn coin - trộn coin
 
-Làm sao chúng ta có thể nói về quyền riêng tư trên không gian Bitcoin mà không thảo luận về trộn coin - trộn coins? Trong phần 4, chúng ta sẽ khám phá mọi thứ bạn cần biết về phương pháp trộn này. Bạn sẽ học được trộn coin là gì, lịch sử và mục tiêu của nó, cũng như các hình thức trộn coin khác nhau hiện hành. Cuối cùng, đối với người dùng có kinh nghiệm hơn, chúng ta sẽ khám phá về anonsets và entropy, và cách tính toán các chỉ số này.
+Làm sao chúng ta có thể nói về quyền riêng tư trên không gian Bitcoin mà không thảo luận về trộn coin - trộn coins? Trong phần 4, chúng ta sẽ khám phá mọi thứ bạn cần biết về phương pháp trộn này. Bạn sẽ học được trộn coin là gì, lịch sử và mục tiêu của nó, cũng như các hình thức trộn coin khác nhau hiện hành. Cuối cùng, đối với người dùng có kinh nghiệm hơn, chúng ta sẽ khám phá về các tập hợp ẩn danh (anonset) và entropy, và cách tính toán các chỉ số này.
 
 ![BTC204](assets/vi/11/4.webp)
 
@@ -1392,9 +1392,9 @@ Hãy lấy ví dụ về Alice. Cô ấy muốn gửi khoảng 100,000 satoshi c
 
 ![BTC204](assets/notext/51/08.webp)
 
-Trong kịch bản này, Alice đã sử dụng kỹ thuật trộn coin để tăng cường quyền riêng tư của mình chống lại phân tích "hồi tưởng". Thực vâuk, Alice tự bảo vệ mình khỏi khả năng mà Eve có thể phân tích bằng cách bắt đầu từ một giao dịch cụ thể để truy vết lịch sử của UTXO phía sau. Sự bảo vệ này chống lại phân tích từ hiện tại về quá khứ là những gì chúng ta gọi là anonset hồi tưởng. Chúng ta sẽ đi sâu vào khái niệm này một cách chi tiết hơn trong những chương cuối của phần này.
+Trong kịch bản này, Alice đã sử dụng kỹ thuật trộn coin để tăng cường quyền riêng tư của mình chống lại phân tích "hồi tưởng". Thực vâuk, Alice tự bảo vệ mình khỏi khả năng mà Eve có thể phân tích bằng cách bắt đầu từ một giao dịch cụ thể để truy vết lịch sử của UTXO phía sau. Sự bảo vệ này chống lại phân tích từ hiện tại về quá khứ là những gì chúng ta gọi là tập hợp ẩn danh hồi tưởng. Chúng ta sẽ đi sâu vào khái niệm này một cách chi tiết hơn trong những chương cuối của phần này.
 
-Tuy nhiên, trộn coin cũng cung cấp khả năng tăng cường quyền riêng tư chống lại phân tích từ quá khứ đến hiện tại, được gọi là anonset tương lai. Hãy quay lại ví dụ của chúng ta khi Alice gửi 98,000 satoshi cho Eve nhân dịp sinh nhật, nhưng đảo ngược vai trò. Bây giờ hãy tưởng tượng rằng Eve lo lắng về quyền riêng tư của mình. Thực sự, Alice có thể bị cám dỗ theo dõi đồng tiền cô ấy gửi cho Eve để thu thập thông tin. Eve có thể hợp UTXO mà cô ấy vừa nhận với tất cả các UTXO khác của mình, hành động này có thể tiết lộ cho Alice số lượng bitcoin cô ấy giữ trong ví. Để tránh điều này, Eve cũng có thể phá vỡ lịch sử của đồng tiền mà cô ấy vừa nhận.
+Tuy nhiên, trộn coin cũng cung cấp khả năng tăng cường quyền riêng tư chống lại phân tích từ quá khứ đến hiện tại, được gọi là tập hợp ẩn danh tương lai. Hãy quay lại ví dụ của chúng ta khi Alice gửi 98,000 satoshi cho Eve nhân dịp sinh nhật, nhưng đảo ngược vai trò. Bây giờ hãy tưởng tượng rằng Eve lo lắng về quyền riêng tư của mình. Thực sự, Alice có thể bị cám dỗ theo dõi đồng tiền cô ấy gửi cho Eve để thu thập thông tin. Eve có thể hợp UTXO mà cô ấy vừa nhận với tất cả các UTXO khác của mình, hành động này có thể tiết lộ cho Alice số lượng bitcoin cô ấy giữ trong ví. Để tránh điều này, Eve cũng có thể phá vỡ lịch sử của đồng tiền mà cô ấy vừa nhận.
 - Eve, Grace, Mallory, Oscar và Victor mỗi người dùng một UTXO của 98,000 sats làm đầu vào trong một giao dịch Bitcoin:
 ![BTC204](assets/notext/51/09.webp)
 
@@ -1426,7 +1426,7 @@ Do đó, ngày nay, người dùng ưa thích trộn coin hơn, vì nó cho phé
 ## Zerolink và trộn coin Chaumian
 <chapterId>326c9654-b359-4906-b23d-d6518dd5dc3e</chapterId>
 
-Sự riêng tư được mang lại bởi giao dịch trộn coin có được dựa trên kích thước của nhóm mà đồng tiền của chúng ta được ẩn đi. Do đó, cần phải tìm càng nhiều người tham gia càng tốt. Hoàn toàn có thể thực hiện một giao dịch trộn coin thủ công, với những người dùng mà một người tự tìm được, nhưng phương pháp này phức tạp, và nó không cho phép đạt được các anonset lớn.
+Sự riêng tư được mang lại bởi giao dịch trộn coin có được dựa trên kích thước của nhóm mà đồng tiền của chúng ta được ẩn đi. Do đó, cần phải tìm càng nhiều người tham gia càng tốt. Hoàn toàn có thể thực hiện một giao dịch trộn coin thủ công, với những người dùng mà một người tự tìm được, nhưng phương pháp này phức tạp, và nó không cho phép đạt được các tập hợp ẩn danh lớn.
 
 Đó là lý do tại sao các nhà điều phối trộn coin đã phát triển trên Bitcoin. Vai trò của họ là kết nối các người dùng khác nhau và truyền đạt thông tin cần thiết cho việc thực hiện thành công giao dịch hợp tác.
 
@@ -1462,7 +1462,7 @@ Trong "trộn coin Chaumian," việc sử dụng Tor và chữ ký mù của Dav
 - Sau khi thu thập chữ ký từ tất cả những người tham gia trộn coin, điều phối viên có thể phát sóng giao dịch trên mạng lưới Bitcoin, để nó có thể được thêm vào một khối.
 Trong hệ thống này, điều phối viên không thể liên kết một đầu vào với một đầu ra cụ thể. Hơn nữa, họ không thể chiếm đoạt quỹ của người tham gia, vì họ không bao giờ có quyền truy cập vào các khóa riêng tư cần thiết để mở khóa các UTXOs của người tham gia. Trong suốt quá trình, và cho đến hết bước 3, họ cũng không có quyền truy cập vào các chữ ký. Khi Alice và các thành viên khác ký vào giao dịch chung, sau khi đảm bảo mọi thứ đều chính xác, điều phối viên không thể thay đổi giao dịch này, bao gồm cả các đầu ra, mà không làm mất hiệu lực của nó. Điều này do đó ngăn chặn được việc điều phối viên ăn cắp bitcoin.
 
-Cuối cùng, khi ghi lại đầu ra của họ trong giao dịch, người dùng trộn coin muốn có những bảo đảm tương tự như một công dân khi bỏ phiếu trong một cuộc bầu cử. Có một sự song song giữa khía cạnh công cộng và riêng tư của những hành động này. Một mặt, có những gì người ta muốn giữ kín: đối với cử tri, họ không muốn lá phiếu của mình được liên kết với danh tính của họ; đối với người dùng trộn coin, họ không muốn đầu ra của mình được liên kết với đầu vào của mình. Thực vậy, nếu điều phối viên, hoặc bất kỳ bên nào khác, có thể thiết lập một liên kết giữa một đầu vào và một đầu ra, trộn coin mất hết mục đích của nó. Như đã giải thích trước đó, trộn coin phải hoạt động như một sự phân tách lịch sử của một đồng tiền. Sự phân tách này xảy ra chính xác khi không thể liên kết một đầu vào cụ thể với một đầu ra cụ thể trong giao dịch trộn coin (anonset tương lai) và ngược lại (anonset hồi tưởng).
+Cuối cùng, khi ghi lại đầu ra của họ trong giao dịch, người dùng trộn coin muốn có những bảo đảm tương tự như một công dân khi bỏ phiếu trong một cuộc bầu cử. Có một sự song song giữa khía cạnh công cộng và riêng tư của những hành động này. Một mặt, có những gì người ta muốn giữ kín: đối với cử tri, họ không muốn lá phiếu của mình được liên kết với danh tính của họ; đối với người dùng trộn coin, họ không muốn đầu ra của mình được liên kết với đầu vào của mình. Thực vậy, nếu điều phối viên, hoặc bất kỳ bên nào khác, có thể thiết lập một liên kết giữa một đầu vào và một đầu ra, trộn coin mất hết mục đích của nó. Như đã giải thích trước đó, trộn coin phải hoạt động như một sự phân tách lịch sử của một đồng tiền. Sự phân tách này xảy ra chính xác khi không thể liên kết một đầu vào cụ thể với một đầu ra cụ thể trong giao dịch trộn coin (tập hợp ẩn danh tương lai) và ngược lại (tập hợp ẩn danh hồi tưởng).
 
 Mặt khác, có khía cạnh công cộng: cử tri muốn đảm bảo lá phiếu của họ được bao gồm trong hòm phiếu; tương tự, người dùng trộn coin muốn đảm bảo đầu ra của họ được bao gồm trong giao dịch trộn coin. Thực vậy, việc các thành viên của một giao dịch trộn coin có thể xác minh sự hiện diện của đầu ra của mình trước khi ký giao dịch là hoàn toàn cần thiết, nếu không điều phối viên có thể ăn cắp tiền.
 
@@ -1533,7 +1533,7 @@ Wabisabi là một ứng dụng trộn coin khác, với cách tiếp cận tậ
 
 ![BTC204](assets/notext/53/03.webp)
 
-Vào cuối những năm 2010, Wasabi đã áp dụng một cấu trúc giao dịch cho trộn coin của mình hoàn toàn khác biệt so với Whirlpool. Để tăng anonsets cho các thành viên tham gia, Wasabi sử dụng các giao dịch trộn coin rất lớn, nhóm hàng chục người tham gia. Ngược lại, Whirlpool chọn lựa nhiều giao dịch nhỏ, cho phép tăng lũy thừa anonsets với mỗi chu kỳ.
+Vào cuối những năm 2010, Wasabi đã áp dụng một cấu trúc giao dịch cho trộn coin của mình hoàn toàn khác biệt so với Whirlpool. Để tăng tập hợp ẩn danh cho các thành viên tham gia, Wasabi sử dụng các giao dịch trộn coin rất lớn, nhóm hàng chục người tham gia. Ngược lại, Whirlpool chọn lựa nhiều giao dịch nhỏ, cho phép tăng lũy thừa tập hợp ẩn danh với mỗi chu kỳ.
 
 Các phương pháp quản lý tiền thối cũng phân biệt hai ứng dụng này. Với Whirlpool, tiền thối được loại trừ và tách biệt khỏi các UTXO trước các chu kỳ trộn coin nhờ vào TX0, một khái niệm mà tôi sẽ giải thích thêm trong chương tiếp theo. Tại Wasabi, ngược lại, tiền thối tạo thành một trong những đầu ra của giao dịch trộn coin, duy trì các liên kết định trước giữa một số đầu vào và đầu ra.
 
@@ -1548,14 +1548,14 @@ Dưới Wabisabi, cùng một giao dịch sẽ tạo ra 3 đầu ra của 100,00
 ![BTC204](assets/notext/53/06.webp)
 Cá nhân tôi thấy rằng việc quản lý tiền lẻ trong Wabisabi đặt ra một số rủi ro có thể làm giảm hiệu quả của nó về mặt quyền riêng tư:
 - Khi một người dùng đóng góp với một UTXO lớn hơn đáng kể so với những người dùng khác, họ không tránh khỏi việc hoàn thành giao dịch với một lượng tiền thối sẽ được liên kết với đầu vào của họ. Điều này đi ngược lại mục tiêu ban đầu của giao thức, là loại bỏ bất kỳ khoản tiền thối nào có thể bị nhận dạng;
-- Việc nhân lên các mệnh giá để phân mảnh tiền thối có thể huỷ hoại hiệu quả của quá trình pha trộn. Quá trình này có thể dẫn đến sự giảm số lượng anonsets cho một số đầu ra, khi chúng trở nên dễ nhận dạng hơn;
-- Phương pháp này cũng tạo ra các UTXO có giá trị thấp gây ra vấn đề quản lý cho người dùng. Những UTXO nhỏ này, nếu trở nên quá tốn kém để chi tiêu so với giá trị, có thể trở thành "bụi". Hiện tượng này thúc đẩy người dùng hợp nhất nhiều UTXO thành đầu vào trong các giao dịch tương lai hoặc tổng hợp chúng. Trong cả hai trường hợp, do sở hữu chung - COH, điều này có thể giảm anonsets đạt được hoặc hoàn toàn hủy bỏ lợi ích về mặt quyền riêng tư đã thu được thông qua giao dịch trộn coin ban đầu.
+- Việc nhân lên các mệnh giá để phân mảnh tiền thối có thể huỷ hoại hiệu quả của quá trình pha trộn. Quá trình này có thể dẫn đến sự giảm số lượng tập hợp ẩn danh cho một số đầu ra, khi chúng trở nên dễ nhận dạng hơn;
+- Phương pháp này cũng tạo ra các UTXO có giá trị thấp gây ra vấn đề quản lý cho người dùng. Những UTXO nhỏ này, nếu trở nên quá tốn kém để chi tiêu so với giá trị, có thể trở thành "bụi". Hiện tượng này thúc đẩy người dùng hợp nhất nhiều UTXO thành đầu vào trong các giao dịch tương lai hoặc tổng hợp chúng. Trong cả hai trường hợp, do sở hữu chung - COH, điều này có thể giảm tập hợp ẩn danh đạt được hoặc hoàn toàn hủy bỏ lợi ích về mặt quyền riêng tư đã thu được thông qua giao dịch trộn coin ban đầu.
 
 Khác với Whirlpool, sử dụng giao thức ZeroLink đảm bảo sự tách biệt nghiêm ngặt giữa UTXO trước và sau khi trộn, Wabisabi không duy trì sự phân chia nghiêm ngặt này. Cũng đã có vấn đề về việc tái sử dụng địa chỉ bởi một số khách hàng Wasabi, rõ ràng là rất bất lợi cho người dùng.
 
 Trong phiên bản 2.0 của Wasabi, một chính sách phí trộn coin mới đã được triển khai. Bây giờ, phí điều phối được đặt ở mức 0.3% cho UTXO lớn hơn 0.01 bitcoin, trong khi đối với các UTXO nhỏ hơn, những phí này hoàn toàn được miễn. Hơn nữa, việc tái pha trộn cho những UTXO nhỏ này là miễn phí, mặc dù phí cho thợ đào vẫn do người dùng chịu trách nhiệm cho tất cả các giao dịch, bao gồm cả tái pha trộn.
 
-Điều này tương phản với chính sách của Whirlpool, nơi phí cố định, bất kể kích thước của anonsets đạt được. Với Wasabi 2.0, mặc dù phí điều phối được miễn cho các UTXO nhỏ, người dùng vẫn phải trả phí thợ đào cho tất cả các giao dịch, bao gồm cả tái pha trộn.
+Điều này tương phản với chính sách của Whirlpool, nơi phí cố định, bất kể kích thước của tập hợp ẩn danh đạt được. Với Wasabi 2.0, mặc dù phí điều phối được miễn cho các UTXO nhỏ, người dùng vẫn phải trả phí thợ đào cho tất cả các giao dịch, bao gồm cả tái pha trộn.
 Tính đến thời điểm viết bài, việc sử dụng Wabisabi đã trở nên phức tạp hơn đáng kể sau các sự kiện gần đây. Thực vậy, sau vụ bắt giữ các nhà sáng lập của Samourai Wallet, zkSNACKs, công ty tài trợ và quản lý phát triển Wasabi, đã thông báo việc ngừng dịch vụ điều phối trộn coin vào ngày 1 tháng 6 năm 2024. Đây là điều phối viên được đặt mặc định trên Wasabi, nắm giữ phần lớn lượng thanh khoản.
 
 Do điều phối viên chính này đã đóng cửa, người dùng giờ đây phải kết nối với các điều phối viên độc lập mới. Sự thay đổi này đặt ra mối quan ngại: một mặt, các điều phối viên mới có thể không có đủ lượng thanh khoản, do đó giảm hiệu quả của trộn coin về mặt quyền riêng tư. Mặt khác, có rủi ro gặp phải một điều phối viên có ý đồ xấu. Tình hình này tạo ra thêm những rủi ro đáng kể mới cho những người muốn sử dụng Wabisabi.
@@ -1592,23 +1592,23 @@ Do đó, giao dịch Whirlpool được đặc trưng bởi số lượng đầu
 - 8 đầu vào và 8 đầu ra.
 
 ![BTC204](assets/notext/54/05.webp)
-Mô hình được đề xuất bởi Whirlpool dựa trên các giao dịch trộn coin nhỏ nhỏ. Khác với Wabisabi và JoinMarket, nơi sự vững chắc của các anonsets phụ thuộc vào lượng người tham gia trong một chu kỳ (hoặc vài chu kỳ), Whirlpool đặt cược vào việc kết nối nhiều chu kỳ nhỏ. Trong mô hình này, người dùng chỉ phải chịu phí khi họ lần đầu tiên tham gia vào một pool, cho phép họ tham gia vào nhiều lần remix mà không phải trả thêm phí. Những người tham gia mới là người trả phí đào cho những người tái pha trộn.
+Mô hình được đề xuất bởi Whirlpool dựa trên các giao dịch trộn coin nhỏ nhỏ. Khác với Wabisabi và JoinMarket, nơi sự vững chắc của các tập hợp ẩn danh phụ thuộc vào lượng người tham gia trong một chu kỳ (hoặc vài chu kỳ), Whirlpool đặt cược vào việc kết nối nhiều chu kỳ nhỏ. Trong mô hình này, người dùng chỉ phải chịu phí khi họ lần đầu tiên tham gia vào một pool, cho phép họ tham gia vào nhiều lần remix mà không phải trả thêm phí. Những người tham gia mới là người trả phí đào cho những người tái pha trộn.
 
-Với mỗi lần trộn coin thêm vào mà một đồng tiền tham gia, cùng với các đối tác đã gặp trong quá khứ, các anonsets sẽ tăng lên theo cấp số nhân. Mục tiêu, do đó, là tận dụng những lần tái trộn miễn phí này, mỗi lần xảy ra, góp phần tăng cường mật độ của các anonsets liên quan đến mỗi đồng tiền đã được trộn.
+Với mỗi lần trộn coin thêm vào mà một đồng tiền tham gia, cùng với các đối tác đã gặp trong quá khứ, các tập hợp ẩn danh sẽ tăng lên theo cấp số nhân. Mục tiêu, do đó, là tận dụng những lần tái trộn miễn phí này, mỗi lần xảy ra, góp phần tăng cường mật độ của các tập hợp ẩn danh liên quan đến mỗi đồng tiền đã được trộn.
 
 ![BTC204](assets/notext/54/06.webp)
 
 Whirlpool được thiết kế với hai yêu cầu quan trọng:
 - Khả năng triển khai trên thiết bị di động, vì Samourai Wallet là một ứng dụng chủ yếu dành cho điện thoại thông minh;
-- Tốc độ của các chu kỳ rtái pha trộn để khuyến khích sự tăng đáng kể trong anonsets.
+- Tốc độ của các chu kỳ rtái pha trộn để khuyến khích sự tăng đáng kể trong tập hợp ẩn danh.
 
-Những yêu cầu này đã định hướng lựa chọn của các nhà phát triển Samourai Wallet trong việc thiết kế Whirlpool, khiến họ hạn chế số lượng người tham gia mỗi chu kỳ. Quá ít người tham gia sẽ làm giảm hiệu quả của trộn coin, giảm đáng kể các anonsets được tạo ra trong mỗi chu kỳ, trong khi quá nhiều người tham gia sẽ gây ra vấn đề quản lý trên các ứng dụng di động và cản trở dòng chảy của các chu kỳ.
+Những yêu cầu này đã định hướng lựa chọn của các nhà phát triển Samourai Wallet trong việc thiết kế Whirlpool, khiến họ hạn chế số lượng người tham gia mỗi chu kỳ. Quá ít người tham gia sẽ làm giảm hiệu quả của trộn coin, giảm đáng kể các tập hợp ẩn danh được tạo ra trong mỗi chu kỳ, trong khi quá nhiều người tham gia sẽ gây ra vấn đề quản lý trên các ứng dụng di động và cản trở dòng chảy của các chu kỳ.
 
-Cuối cùng, không cần phải có một số lượng lớn người tham gia mỗi giao dịch trộn coin trên Whirlpool vì các anonsets được tạo ra qua việc tích lũy nhiều chu kỳ trộn coin. Nguyên tắc quan trọng nhất ở đây là sự đồng nhất của các UTXO của tất cả người tham gia, vì điều này cho phép một sự trộn lẫn hoàn hảo, và do đó, tận dụng tối đa các chu kỳ trộn và tái trộn.
+Cuối cùng, không cần phải có một số lượng lớn người tham gia mỗi giao dịch trộn coin trên Whirlpool vì các tập hợp ẩn danh được tạo ra qua việc tích lũy nhiều chu kỳ trộn coin. Nguyên tắc quan trọng nhất ở đây là sự đồng nhất của các UTXO của tất cả người tham gia, vì điều này cho phép một sự trộn lẫn hoàn hảo, và do đó, tận dụng tối đa các chu kỳ trộn và tái trộn.
 
 ### Các pool và phí trộn coin
 
-Để những chu kỳ này có thể tăng hiệu quả các anonsets của các đồng tiền đã trộn, một khuôn khổ nhất định phải được thiết lập để hạn chế số lượng các UTXO được sử dụng. Whirlpool do đó xác định các pools khác nhau.
+Để những chu kỳ này có thể tăng hiệu quả các tập hợp ẩn danh của các đồng tiền đã trộn, một khuôn khổ nhất định phải được thiết lập để hạn chế số lượng các UTXO được sử dụng. Whirlpool do đó xác định các pools khác nhau.
 
 Một pool đại diện cho một nhóm người dùng muốn trộn lẫn với nhau, đồng ý về số lượng cac UTXO để sử dụng nhằm tối ưu hóa quá trình trộn coin trong khi duy trì sự đồng nhất hoàn hảo của các đồng tiền. Mỗi pool quy định một lượng cố định cho UTXO, mà người dùng phải tuân thủ để tham gia. Do đó, để thực hiện trộn coin với Whirlpool, bạn cần chọn một pool. Các pool có sẵn vào thời điểm hiện tại là như sau:
 - 0.5 bitcoin;
@@ -1647,7 +1647,7 @@ Thực vậy, trong mỗi giao dịch trộn coin Whirlpool, 2 người dùng tr
 
 ![BTC204](assets/vi/54/07.webp)
 
-Nhờ vào hệ thống phí này, Whirlpool thực sự khác biệt so với các ứng dụng trộn coin khác vì anonsets của các UTXO không tỷ lệ với chi phí được trả bởi người dùng. Do đó, có thể đạt được mức độ ẩn danh cao đáng kể mà chỉ cần trả phí gia nhập vào pool và phí đào cho 2 giao dịch (các `Tx0` và giao dịch trộn coin ban đầu).
+Nhờ vào hệ thống phí này, Whirlpool thực sự khác biệt so với các ứng dụng trộn coin khác vì tập hợp ẩn danh của các UTXO không tỷ lệ với chi phí được trả bởi người dùng. Do đó, có thể đạt được mức độ ẩn danh cao đáng kể mà chỉ cần trả phí gia nhập vào pool và phí đào cho 2 giao dịch (các `Tx0` và giao dịch trộn coin ban đầu).
 Một điểm quan trọng cần lưu ý là người dùng cũng sẽ phải chịu phí đào để rút UTXO của họ khỏi pool sau khi thực hiện nhiều lần trộn coin, trừ khi họ đã chọn tùy chọn `mix to`, cho phép cung cấp một địa chỉ bên ngoài sẽ trực tiếp nhận được số tiền như một đầu ra của trộn coin, mà không cần bất kỳ giao dịch bổ sung nào.
 
 ### Tài khoản ví HD
@@ -1709,7 +1709,7 @@ Kết thúc những đợt trộn ban đầu này, tài khoản **trước trộ
 
 ### Các lần trộn Lại
 Sau lần trộn đầu tiên, các UTXO được chuyển đến tài khoản **sau trộn**. Tài khoản này tập hợp cả các UTXO đã được trộn và những UTXO đang chờ được trộn lại. Khi khách hàng Whirlpool hoạt động, các UTXO trong tài khoản **sau trộn** tự động sẵn sàng cho việc trộn lại và sẽ được chọn ngẫu nhiên để tham gia vào các chu kỳ trộn mới.
-Bạn cần lưu ý rằng, các lần trộn lại sau đó là miễn phí 100%: không yêu cầu thêm phí dịch vụ hoặc phí đào. Do đó, giá trị các UTXO trong tài khoản **sau trộn** không đổi và đồng thời cải thiện anonsets của họ. Đó là lý do tại sao việc cho phép những đồng tiền này tham gia vào nhiều chu kỳ trộn coin lại là điều quan trọng. Nó không tốn của bạn bất cứ điều gì, và nó tăng cấp độ ẩn danh của chúng.
+Bạn cần lưu ý rằng, các lần trộn lại sau đó là miễn phí 100%: không yêu cầu thêm phí dịch vụ hoặc phí đào. Do đó, giá trị các UTXO trong tài khoản **sau trộn** không đổi và đồng thời cải thiện tập hợp ẩn danh của họ. Đó là lý do tại sao việc cho phép những đồng tiền này tham gia vào nhiều chu kỳ trộn coin lại là điều quan trọng. Nó không tốn của bạn bất cứ điều gì, và nó tăng cấp độ ẩn danh của chúng.
 Khi bạn quyết định chi tiêu các UTXO đã được trộn lẫn, bạn có thể làm điều này trực tiếp từ tài khoản **sau trộn** của mình. Người dùng khuyến nghị giữ các UTXO đã trộn trong tài khoản này để hưởng lợi từ việc tái trộn miễn phí và để ngăn chúng rời khỏi chu trình Whirlpool, điều này có thể làm giảm quyền riêng tư của chúng.
 
 ### Làm thế nào để quản lý tài khoản sau trộn một cách đúng đắn?
@@ -1722,7 +1722,7 @@ Việc kết hợp các UTXO là lỗi thường gặp nhất. Cần tránh kế
 
 ![BTC204](assets/notext/54/13.webp)
 
-Một điều nữa cũng rất quan trọng là phải cẩn thận khi tổng hợp các UTXO đã trộn với nhau. Việc hợp nhất vừa phải là có thể xem xét nếu các UTXO đã trộn của bạn có anonsets đáng kể, nhưng điều này sẽ không tránh khỏi làm giảm bảo mật các đồng tiền của bạn. Đảm bảo rằng việc hợp nhất không quá đáng kể hoặc thực hiện sau một số lượng lần tái trộn không đủ, với rủi ro thiết lập các liên kết có thể suy luận giữa các UTXO của bạn trước và sau các chu kỳ trộn coin. Trong trường hợp nghi ngờ về những thao tác này, cách tốt nhất là không hợp nhất các UTXO sau trộn, và chuyển chúng từng cái một vào ví cứng của bạn, tạo một địa chỉ trắng mới mỗi lần. Một lần nữa, nhớ gắn nhãn đúng cách cho mỗi UTXO nhận được.
+Một điều nữa cũng rất quan trọng là phải cẩn thận khi tổng hợp các UTXO đã trộn với nhau. Việc hợp nhất vừa phải là có thể xem xét nếu các UTXO đã trộn của bạn có tập hợp ẩn danh đáng kể, nhưng điều này sẽ không tránh khỏi làm giảm bảo mật các đồng tiền của bạn. Đảm bảo rằng việc hợp nhất không quá đáng kể hoặc thực hiện sau một số lượng lần tái trộn không đủ, với rủi ro thiết lập các liên kết có thể suy luận giữa các UTXO của bạn trước và sau các chu kỳ trộn coin. Trong trường hợp nghi ngờ về những thao tác này, cách tốt nhất là không hợp nhất các UTXO sau trộn, và chuyển chúng từng cái một vào ví cứng của bạn, tạo một địa chỉ trắng mới mỗi lần. Một lần nữa, nhớ gắn nhãn đúng cách cho mỗi UTXO nhận được.
 Người dùng cũng được khuyến cáo không chuyển các UTXO sau trộn của mình vào một ví sử dụng các script không phổ biến. Ví dụ, nếu bạn nhập Whirlpool từ một ví đa chữ ký sử dụng kịch bản `P2WSH`, bạn chỉ có một cơ hội nhỏ bạn sẽ được trộn lẫn với những người dùng khác có cùng loại ví ban đầu. Nếu bạn rút các UTXO sau trộn của mình về cùng một ví đa chữ ký đó, mức độ riêng tư của các bitcoin đã trộn của bạn sẽ bị giảm đáng kể. Ngoài script, có nhiều dấu vân tay ví khác có thể làm bạn nhầm lẫn.
 Như với bất kỳ giao dịch Bitcoin nào, không sử dụng lại các địa chỉ nhận cũng là điều rất quan trọng. Mỗi giao dịch mới nên được nhận trên một địa chỉ trắng mới.
 
@@ -1750,12 +1750,12 @@ Tuy nhiên, vẫn có khả năng công cụ này có thể được đưa vào 
 
 Chúng tôi đang chú ý theo dõi diễn biến của vụ việc này cũng như các công cụ liên quan. Hãy yên tâm rằng chúng tôi sẽ cập nhật khóa học này khi có thông tin mới.
 
-Trong chương tiếp theo, chúng ta sẽ khám phá "anonsets" là gì, cách các chỉ số này được tính toán, và làm thế nào chúng có thể giúp chúng ta ước lượng được hiệu quả của các chu kỳ trộn coin.
+Trong chương tiếp theo, chúng ta sẽ khám phá "tập hợp ẩn danh" là gì, cách các chỉ số này được tính toán, và làm thế nào chúng có thể giúp chúng ta ước lượng được hiệu quả của các chu kỳ trộn coin.
 
-## Các thiết lập ẩn danh
+## Các tập hợp ẩn danh - Anonymity Sets
 <chapterId>be1093dc-1a74-40e5-9545-2b97a7d7d431</chapterId>
 
-Sau khi nghiên cứu cách trộn coin hoạt động và những thách thức liên quan đến việc trộn hiệu quả, bây giờ chúng ta sẽ học cách đo lường hiệu quả của hoạt động này. Làm thế nào để xác định được mức độ hiệu quả và mức độ ẩn danh mà một đồng tiền đạt được sau quá trình trộn coin? Đây là những gì chúng ta sẽ khám phá trong chương này với các thiết lập ẩn danh hay "anonsets" trong tiếng Anh.
+Sau khi nghiên cứu cách trộn coin hoạt động và những thách thức liên quan đến việc trộn hiệu quả, bây giờ chúng ta sẽ học cách đo lường hiệu quả của hoạt động này. Làm thế nào để xác định được mức độ hiệu quả và mức độ ẩn danh mà một đồng tiền đạt được sau quá trình trộn coin? Đây là những gì chúng ta sẽ khám phá trong chương này với các tập hợp ẩn danh hay "anonsets" trong tiếng Anh.
 
 ### Nhắc lại về tính hữu dụng của việc trộn coin
 Ích lợi của trộn coin nằm ở khả năng tạo ra sự phủ nhận hợp lý bằng cách ngâm đồng tiền của bạn trong một nhóm các đồng tiền không thể phân biệt được. Mục tiêu của hành động này là để phá vỡ các liên kết theo dõi, cả từ quá khứ đến hiện tại và từ hiện tại trở về quá khứ.
@@ -1766,58 +1766,58 @@ Ngược lại, một nhà phân tích biết UTXO của bạn tại điểm tho
 
 ![BTC204](assets/vi/55/02.webp)
 
-Để đánh giá độ khó cho một nhà phân tích trong việc liên kết quá khứ với hiện tại và ngược lại, cần phải định lượng kích thước của các nhóm đồng coin đồng nhất mà trong đó coin của bạn được ẩn giấu. Thước đo này cho chúng ta biết số lượng phân tích có khả năng tương đương. Ví dụ, nếu phân tích chính xác bị lẫn trong 3 phân tích khác có khả năng bằng nhau, mức độ ẩn giấu của bạn rất thấp. Tuy nhiên, nếu phân tích chính xác nằm trong một tập hợp của 20000 phân tích, tất cả đều có khả năng tương đương, đồng coin của bạn được ẩn giấu rất tốt. Và cụ thể, kích thước của các nhóm này đại diện cho các chỉ số được gọi là "anonsets".
+Để đánh giá độ khó cho một nhà phân tích trong việc liên kết quá khứ với hiện tại và ngược lại, cần phải định lượng kích thước của các nhóm đồng coin đồng nhất mà trong đó coin của bạn được ẩn giấu. Thước đo này cho chúng ta biết số lượng phân tích có khả năng tương đương. Ví dụ, nếu phân tích chính xác bị lẫn trong 3 phân tích khác có khả năng bằng nhau, mức độ ẩn giấu của bạn rất thấp. Tuy nhiên, nếu phân tích chính xác nằm trong một tập hợp của 20000 phân tích, tất cả đều có khả năng tương đương, đồng coin của bạn được ẩn giấu rất tốt. Và cụ thể, kích thước của các nhóm này đại diện cho các chỉ số được gọi là "tập hợp ẩn danh".
 
-### Hiểu về Anonsets
+### Hiểu về tập hợp ẩn danh
 
-Anonsets là các chỉ số giúp đánh giá mức độ riêng tư của một UTXO cụ thể. Cụ thể hơn, chúng đo lường số lượng các UTXO không thể phân biệt được trong tập hợp bao gồm các đồng coin đang được nghiên cứu. Yêu cầu về một tập hợp UTXO đồng nhất có nghĩa là anonsets thường được tính toán qua các chu kỳ trộn coin. Việc sử dụng các chỉ số này đặc biệt liên quan đến trộn coin Whirlpool do tính đồng nhất của chúng.
+Tập hợp ẩn danh là các chỉ số giúp đánh giá mức độ riêng tư của một UTXO cụ thể. Cụ thể hơn, chúng đo lường số lượng các UTXO không thể phân biệt được trong tập hợp bao gồm các đồng coin đang được nghiên cứu. Yêu cầu về một tập hợp UTXO đồng nhất có nghĩa là tập hợp ẩn danh thường được tính toán qua các chu kỳ trộn coin. Việc sử dụng các chỉ số này đặc biệt liên quan đến trộn coin Whirlpool do tính đồng nhất của chúng.
 
-Anonsets cho phép, khi cần thiết, đánh giá chất lượng của các trộn coin. Một kích thước anonset lớn biểu thị một mức độ ẩn danh cao, vì nó trở nên khó khăn để phân biệt một UTXO cụ thể trong tập hợp đồng nhất.
+Tập hợp ẩn danh cho phép, khi cần thiết, đánh giá chất lượng của các trộn coin. Một kích thước tập hợp ẩn danh lớn biểu thị một mức độ ẩn danh cao, vì nó trở nên khó khăn để phân biệt một UTXO cụ thể trong tập hợp đồng nhất.
 
-Có 2 loại anonsets:
-- **Anonset tương lai;**
-- **Anonset hồi tưởng.**
+Có 2 loại tập hợp ẩn danh:
+- **Tập hợp ẩn danh tương lai;**
+- **Tập hợp ẩn danh hồi tưởng.**
 
-### Anonset tương lai
+### Tập hợp ẩn danh tương lai
 
-Anonset tương lai chỉ ra kích thước của nhóm mà UTXO đang được nghiên cứu được ẩn giấu tại điểm thoát của chu kỳ, biết UTXO tại điểm nhập, tức là số lượng đồng coin không thể phân biệt được hiện diện trong nhóm này. Trong tiếng Anh, tên của chỉ số này là "forward anonset", hoặc "forward-looking metrics".
+Tập hợp ẩn danh tương lai chỉ ra kích thước của nhóm mà UTXO đang được nghiên cứu được ẩn giấu tại điểm thoát của chu kỳ, biết UTXO tại điểm nhập, tức là số lượng đồng coin không thể phân biệt được hiện diện trong nhóm này. Trong tiếng Anh, tên của chỉ số này là "forward anonset", hoặc "forward-looking metrics".
 Chỉ số này cho phép đo lường khả năng chống lại việc phân tích từ quá khứ đến hiện tại (từ đầu vào đến đầu ra).
 ![BTC204](assets/vi/55/03.webp)
 
 Chỉ số này ước lượng mức độ UTXO của bạn được bảo vệ khỏi các nỗ lực tái tạo lịch sử của nó từ điểm nhập vào đến điểm thoát ra trong quá trình trộn coin.
 
-Ví dụ, nếu giao dịch của bạn tham gia vào chu kỳ trộn coin đầu tiên và hai chu kỳ con cháu bổ sung được hoàn thành, anonset tương lai của coin của bạn sẽ là `13`:
+Ví dụ, nếu giao dịch của bạn tham gia vào chu kỳ trộn coin đầu tiên và hai chu kỳ con cháu bổ sung được hoàn thành, tập hợp ẩn danh tương lai của coin của bạn sẽ là `13`:
 
 ![BTC204](assets/notext/55/04.webp)
 
-Ví dụ, hãy tưởng tượng rằng đồng coin của chúng ta tại điểm nhập của chu kỳ trộn coin được hưởng một anonset tương lai của `86,871`. Thực tế, điều này có nghĩa là nó được ẩn giấu trong số `86,871` đồng coin (mẫu coin) không thể phân biệt được. Đối với một quan sát viên bên ngoài biết về đồng coin này tại điểm bắt đầu của các chu kỳ trộn coin và cố gắng truy tìm điểm thoát của nó, họ sẽ đối mặt với `86,871` UTXO khả dĩ, mỗi UTXO có một xác suất giống nhau được tìm thấy.
+Ví dụ, hãy tưởng tượng rằng đồng coin của chúng ta tại điểm nhập của chu kỳ trộn coin được hưởng một tập hợp ẩn danh tương lai của `86,871`. Thực tế, điều này có nghĩa là nó được ẩn giấu trong số `86,871` đồng coin (mẫu coin) không thể phân biệt được. Đối với một quan sát viên bên ngoài biết về đồng coin này tại điểm bắt đầu của các chu kỳ trộn coin và cố gắng truy tìm điểm thoát của nó, họ sẽ đối mặt với `86,871` UTXO khả dĩ, mỗi UTXO có một xác suất giống nhau được tìm thấy.
 
 ![BTC204](assets/vi/55/05.webp)
 
-### Anonset hồi tưởng
-Chỉ số anonset hồi tưởng chỉ ra số lượng nguồn có thể có cho một đồng tiền cụ thể, biết UTXO tại điểm thoát của chu kỳ. Chỉ số này đo lường khả năng chống lại việc phân tích từ hiện tại về quá khứ (từ điểm thoát đến điểm nhập) của đồng tiền, tức là mức độ khó khăn cho một nhà phân tích khi truy vết nguồn gốc của đồng tiền của bạn, trước các chu kỳ trộn coin. Trong tiếng Anh, tên của chỉ số này là "backward anonset," hoặc "backward-looking metrics."
+### Tập hợp ẩn danh hồi tưởng
+Chỉ số tập hợp ẩn danh hồi tưởng chỉ ra số lượng nguồn có thể có cho một đồng tiền cụ thể, biết UTXO tại điểm thoát của chu kỳ. Chỉ số này đo lường khả năng chống lại việc phân tích từ hiện tại về quá khứ (từ điểm thoát đến điểm nhập) của đồng tiền, tức là mức độ khó khăn cho một nhà phân tích khi truy vết nguồn gốc của đồng tiền của bạn, trước các chu kỳ trộn coin. Trong tiếng Anh, tên của chỉ số này là "backward anonset," hoặc "backward-looking metrics."
 ![BTC204](assets/vi/55/06.webp)
 
-Biết UTXO của bạn tại điểm thoát của các chu kỳ, anonset hồi tưởng xác định số lượng giao dịch Tx0 tiềm năng có thể đã tạo thành điểm nhập của bạn vào các chu kỳ trộn coin. Trong sơ đồ dưới đây, điều này tương ứng với tổng số của tất cả các bong bóng màu cam.
+Biết UTXO của bạn tại điểm thoát của các chu kỳ, tập hợp ẩn danh hồi tưởng xác định số lượng giao dịch Tx0 tiềm năng có thể đã tạo thành điểm nhập của bạn vào các chu kỳ trộn coin. Trong sơ đồ dưới đây, điều này tương ứng với tổng số của tất cả các bong bóng màu cam.
 
 ![BTC204](assets/notext/55/07.webp)
 
-Ví dụ, hãy tưởng tượng rằng đồng tiền của chúng ta tại điểm thoát của chu kỳ trộn coin hưởng lợi từ một anonset hồi tưởng là `42,185`. Thực tế, điều này có nghĩa là có `42,185` nguồn tiềm năng cho UTXO này. Nếu một quan sát viên bên ngoài xác định đồng tiền này tại cuối các chu kỳ và tìm cách truy vết nguồn gốc của nó, họ sẽ đối mặt với `42,185` nguồn khả dĩ, tất cả đều có xác suất như nhau là nguồn gốc đang được tìm kiếm.
+Ví dụ, hãy tưởng tượng rằng đồng tiền của chúng ta tại điểm thoát của chu kỳ trộn coin hưởng lợi từ một tập hợp ẩn danh hồi tưởng là `42,185`. Thực tế, điều này có nghĩa là có `42,185` nguồn tiềm năng cho UTXO này. Nếu một quan sát viên bên ngoài xác định đồng tiền này tại cuối các chu kỳ và tìm cách truy vết nguồn gốc của nó, họ sẽ đối mặt với `42,185` nguồn khả dĩ, tất cả đều có xác suất như nhau là nguồn gốc đang được tìm kiếm.
 
 ![BTC204](assets/vi/55/08.webp)
 
-### Làm thế nào để tính toán anonsets một cách cụ thể?
-Có thể tính toán anonsets của một UTXO bằng cách sử dụng một trình duyệt khối cho các anonsets nhỏ. Tuy nhiên, đối với các anonsets lớn hơn, việc sử dụng một công cụ chuyên biệt trở nên cần thiết. Theo kiến thức của tôi, phần mềm duy nhất có khả năng thực hiện nhiệm vụ này là *Whirlpool Stats Tool*, một công cụ Python được phát triển bởi các đội ngũ tại Samourai và OXT. Thật không may, công cụ được dùng để trích xuất dữ liệu từ blockchain này hiện đang ngừng hoạt động sau vụ bắt giữ các nhà sáng lập của Samourai và việc ngừng hoạt động của OXT.
+### Làm thế nào để tính toán tập hợp ẩn danh một cách cụ thể?
+Có thể tính toán tập hợp ẩn danh của một UTXO bằng cách sử dụng một trình duyệt khối cho các tập hợp ẩn danh nhỏ. Tuy nhiên, đối với các tập hợp ẩn danh lớn hơn, việc sử dụng một công cụ chuyên biệt trở nên cần thiết. Theo kiến thức của tôi, phần mềm duy nhất có khả năng thực hiện nhiệm vụ này là *Whirlpool Stats Tool*, một công cụ Python được phát triển bởi các đội ngũ tại Samourai và OXT. Thật không may, công cụ được dùng để trích xuất dữ liệu từ blockchain này hiện đang ngừng hoạt động sau vụ bắt giữ các nhà sáng lập của Samourai và việc ngừng hoạt động của OXT.
 ![BTC204](assets/notext/55/09.webp)
 
-Như chúng ta đã thấy trong chương này, anonsets chỉ có thể được tính toán nếu có một sự đồng nhất nhất định trong cấu trúc của các hoạt động trộn coin. Và chính xác, trong chương tiếp theo, chúng ta sẽ khám phá cách định lượng sự đồng nhất này trong một giao dịch Bitcoin, dù đó là một giao dịch trộn coin hay một giao dịch truyền thống hơn.
+Như chúng ta đã thấy trong chương này, tập hợp ẩn danh chỉ có thể được tính toán nếu có một sự đồng nhất nhất định trong cấu trúc của các hoạt động trộn coin. Và chính xác, trong chương tiếp theo, chúng ta sẽ khám phá cách định lượng sự đồng nhất này trong một giao dịch Bitcoin, dù đó là một giao dịch trộn coin hay một giao dịch truyền thống hơn.
 
 ## Entropy
 <chapterId>e4fe289d-618b-49a2-84c9-68c562e708b4</chapterId>
 
 Như chúng ta đã thấy trong phần này về trộn coin, sự đồng nhất của các UTXO trong đầu vào và đầu ra đóng một vai trò quan trọng trong việc cải thiện tính bảo mật của một giao dịch Bitcoin. Tham số này cho phép chống lại phân tích chuỗi một cách khéo léo. Có một số phương pháp có thể đo lường sự đồng nhất này, nhưng theo ý kiến của tôi, một trong những phương pháp hiệu quả nhất là sử dụng các chỉ số được cung cấp bởi công cụ *Boltzmann*, được phát triển bởi các đội ngũ tại OXT và Samourai Wallet, đặc biệt là entropy của giao dịch. Đây là điều chúng ta sẽ nghiên cứu chi tiết trong chương này.
 
-Khác với anonsets, được tính toán trên một tập hợp các giao dịch, các chỉ số mà chúng ta sẽ trình bày ở đây tập trung duy nhất vào một giao dịch duy nhất, dù đó là một giao dịch trộn coin hay một giao dịch truyền thống hơn.
+Khác với tập hợp ẩn danh, được tính toán trên một tập hợp các giao dịch, các chỉ số mà chúng ta sẽ trình bày ở đây tập trung duy nhất vào một giao dịch duy nhất, dù đó là một giao dịch trộn coin hay một giao dịch truyền thống hơn.
 
 ### Số lượng các cách diễn giải
 Dấu hiệu đầu tiên có thể quan sát được trong một giao dịch Bitcoin là tổng số lượng các cách diễn giải có thể có trong mắt của một người quan sát bên ngoài khi phân tích giao dịch. Xét đến giá trị của các UTXO tham gia trong giao dịch, dấu hiệu này chỉ ra số cách mà các đầu vào có thể được liên kết với các đầu ra. Nói cách khác, nó xác định số lượng những cách diễn giải khả dĩ mà một giao dịch có thể tạo ra trong dòng chảy của bitcoin từ góc độ của một người quan sát bên ngoài đang phân tích nó.
@@ -2039,7 +2039,7 @@ Bây giờ chúng ta đã thảo luận chi tiết về trộn coin, chúng ta s
 ## Các giao dịch Payjoin
 <chapterId>c1e90b95-f709-4574-837b-2ec26b11286f</chapterId>
 
-Trộn coin đại diện cho phương pháp hiệu quả nhất để đưa sự không chắc chắn vào việc truy vết tiền trong quá trình phân tích chuỗi. Như chúng ta đã thấy trong các chương trước, để đạt được việc trộn hiệu quả, các đầu vào và đầu ra cần phải càng đồng nhất càng tốt. Hơn nữa, việc tiền được tích hợp vào một nhóm lớn càng nhiều càng tốt để tối đa hóa các anonsets là rất quan trọng. Do đó, để trộn coin được hiệu quả, chúng phải liên quan đến một số lượng lớn các đồng coin đồng nhất. Điều này đòi hỏi các giao dịch trộn coin có một cấu trúc rất cứng nhắc: số lượng được xác định trước, và tất cả các bên tham gia phải tuân thủ chúng để đảm bảo sự đồng nhất của quá trình. Ngoài ra, trộn coin yêu cầu sự đồng bộ giữa tất cả các bên tham gia và điều phối viên trong quá trình xây dựng giao dịch.
+Trộn coin đại diện cho phương pháp hiệu quả nhất để đưa sự không chắc chắn vào việc truy vết tiền trong quá trình phân tích chuỗi. Như chúng ta đã thấy trong các chương trước, để đạt được việc trộn hiệu quả, các đầu vào và đầu ra cần phải càng đồng nhất càng tốt. Hơn nữa, việc tiền được tích hợp vào một nhóm lớn càng nhiều càng tốt để tối đa hóa các tập hợp ẩn danh là rất quan trọng. Do đó, để trộn coin được hiệu quả, chúng phải liên quan đến một số lượng lớn các đồng coin đồng nhất. Điều này đòi hỏi các giao dịch trộn coin có một cấu trúc rất cứng nhắc: số lượng được xác định trước, và tất cả các bên tham gia phải tuân thủ chúng để đảm bảo sự đồng nhất của quá trình. Ngoài ra, trộn coin yêu cầu sự đồng bộ giữa tất cả các bên tham gia và điều phối viên trong quá trình xây dựng giao dịch.
 Những yêu cầu này làm cho trộn coin không phù hợp cho các khoản thanh toán trực tiếp. Ví dụ, nếu bạn sở hữu một mảnh 1 triệu satoshi trong một pool trộn coin, việc sử dụng nó trực tiếp cho một khoảnthanh toán sẽ phức tạp. Điều này sẽ yêu cầu sự đồng bộ với các bên tham gia khác và điều phối viên để xây dựng giao dịch hợp tác chính xác vào thời điểm bạn cần thực hiện thanh toán, và số tiền mua phải chính xác bằng giá trị của mảnh bitcoin đó của bạn, điều này thực tế là không thể đạt được. Do đó, một giao dịch trộn coin theo bản chất là một giao dịch sweeping hợp tác, có nghĩa là thường là cùng một chủ sở hữu của các đầu vào được tìm thấy trong các đầu ra.
 Tuy nhiên, sẽ thú vị khi có các cấu trúc giao dịch cho phép thực hiện thanh toán thực tế trong khi vẫn mang lại sự hoài nghi trong phân tích chuỗi. Đây chính xác là những gì chúng ta sẽ khám phá trong chương này và chương tiếp theo.
 
@@ -2278,7 +2278,7 @@ Trong chương tiếp theo, chúng ta sẽ khám phá các kỹ thuật khác nh
 
 Trong số các kỹ thuật bảo mật trên Bitcoin, còn có phương pháp chuyển giao tài sản bí mật. Phương pháp này nhằm mục đích chuyển quyền sở hữu bitcoin từ một người này sang người khác, và ngược lại, mà không làm cho giao dịch này được hiển thị rõ ràng trên blockchain. Hãy cùng nhau nghiên cứu các kỹ thuật khác nhau cũng như ưu và nhược điểm của chúng.
 
-### CoinSwap
+### CoinSwap - Đổi tiền
 CoinSwap dựa trên một khái niệm tương đối đơn giản: nó sử dụng hợp đồng thông minh để tạo điều kiện cho việc chuyển quyền sở hữu bitcoin giữa hai người dùng, mà không cần sự tin tưởng và không làm cho việc chuyển này được hiển thị rõ ràng trên blockchain.
 ![BTC204](assets/notext/64/01.webp)
 Hãy tưởng tượng một ví dụ đơn giản với Alice và Bob. Alice sở hữu 1 BTC được bảo vệ bằng khóa riêng tư A, và Bob cũng sở hữu 1BTC, được bảo vệ bằng khóa riêng tư B. Về lý thuyết, họ có thể trao đổi khóa riêng tư của mình qua một kênh giao tiếp bên ngoài để thực hiện việc chuyển giao bí mật.
@@ -2302,95 +2302,95 @@ Trong một kịch bản coinswap sử dụng HTLC hoặc PTLC giữa Alice và 
 Việc sử dụng Chữ ký thích nghi rất thú vị trong bối cảnh này, vì nó cho phép bỏ qua các kịch bản truyền thống (đây là một cơ chế đôi khi được gọi là "_scriptless scripts_"). Tính năng này giúp giảm phí liên quan đến việc trao đổi. Một lợi ích lớn khác của Chữ ký thích nghi là chúng không yêu cầu sử dụng một mã băm chung cho cả hai bên của giao dịch, do đó tránh lộ liên kết trực tiếp giữa họ trong một số loại trao đổi.
 ### Chữ ký thích nghi
 
-Chữ kỹ thích nghi là một phương pháp mật mã học tích hợp một chữ ký hợp lệ với một chữ ký bổ sung, được gọi là "_chữ ký điều chỉnh_," để tiết lộ một phần dữ liệu bí mật. Cơ chế này được thiết kế theo cách mà biết 2 trong 3 yếu tố sau đây: chữ ký hợp lệ, chữ ký điều chỉnh, và bí mật, cho phép suy luận ra yếu tố thứ ba còn thiếu. Một tính chất thú vị của phương pháp này là, nếu chúng ta biết chữ ký điều chỉnh của đối tác và điểm cụ thể trên đường cong elliptic liên quan đến bí mật được sử dụng để tính toán chữ ký điều chỉnh này, chúng ta có thể suy ra chữ ký điều chỉnh của mình sẽ tương thích với bí mật đó, mà không bao giờ có truy cập trực tiếp vào bí mật đó.
-Trong một giao dịch đổi tiền xu, việc sử dụng Chữ ký Điều chỉnh (Adaptor Signatures) cho phép việc tiết lộ đồng thời hai thông tin nhạy cảm giữa các bên tham gia, từ đó tránh được nhu cầu về sự tin tưởng lẫn nhau. Hãy lấy một ví dụ để minh họa quy trình này với Alice và Bob, những người muốn trao đổi quyền sở hữu 1 BTC mỗi người, nhưng không tin tưởng lẫn nhau. Họ sử dụng Chữ ký Điều chỉnh để loại bỏ nhu cầu về sự tin tưởng trong giao dịch này. Dưới đây là cách họ tiến hành:
-* Alice khởi xướng giao dịch bằng cách tạo một giao dịch $m_A$ gửi 1 BTC cho Bob. Cô ấy tạo ra một chữ ký $s_A$, xác thực giao dịch này, sử dụng khóa riêng $p_A$ ($P_A = p_A \cdot G$), một nonce $n_A$ ($N_A = n_A \cdot G$), và một bí mật $t$ ($T = t \cdot G$):
+Chữ kỹ thích nghi là một phương pháp mật mã học tích hợp một chữ ký hợp lệ với một chữ ký bổ sung, được gọi là "_chữ ký thích nghi_," để tiết lộ một phần dữ liệu bí mật. Cơ chế này được thiết kế theo cách mà nếu biết 2 trong 3 yếu tố sau đây: chữ ký hợp lệ, chữ ký thích nghi, và bí mật, chúng ta có thể suy luận ra yếu tố thứ ba còn thiếu. Một tính chất thú vị của phương pháp này là, nếu chúng ta biết chữ ký thích nghi của đối tác và điểm cụ thể trên đường cong e líp liên quan đến bí mật được sử dụng để tính toán chữ ký thích nghi này, chúng ta có thể suy ra chữ ký thích nghi của mình sẽ tương thích với bí mật đó, mà không cần truy cập trực tiếp vào bí mật đó.
+Trong một giao dịch đổi tiền, việc sử dụng Chữ ký thích nghi (Adaptor Signatures) cho phép việc tiết lộ đồng thời hai thông tin nhạy cảm giữa các bên tham gia, từ đó tránh được nhu cầu về sự tin tưởng lẫn nhau. Hãy lấy một ví dụ để minh họa quy trình này với Alice và Bob, những người muốn trao đổi quyền sở hữu 1 BTC của nhau, nhưng không tin tưởng lẫn nhau. Họ sử dụng Chữ ký thích nghi để loại bỏ nhu cầu về sự tin tưởng trong giao dịch này. Dưới đây là cách họ tiến hành:
+* Alice khởi xướng giao dịch bằng cách tạo một giao dịch m_A gửi 1 BTC cho Bob. Cô ấy tạo ra một chữ ký s_A, xác thực giao dịch này, sử dụng khóa riêng tư p_A (P_A = p_A \cdot G), một nonce n_A (N_A = n_A \cdot G), và một bí mật t (T = t \cdot G):
 
 $$s_A = n_A + t + H(N_A + T \parallel P_A \parallel m_A) \cdot p_A$$
 
-* Alice tính toán chữ ký điều chỉnh $s_A'$ bằng cách trừ đi bí mật $t$ từ chữ ký thực sự $s_A$ của mình:
+* Alice tính toán chữ ký thích nghi s_A' bằng cách trừ đi bí mật t từ chữ ký thực sự s_A của mình:
 
 $$s_A' = s_A - t$$
 
-* Alice gửi cho Bob chữ ký điều chỉnh $s'_A$, giao dịch chưa ký $m_A$, điểm tương ứng với bí mật ($T$), và điểm tương ứng với nonce ($N_A$). Những yếu tố này tạo thành cái gọi là "*adaptor*". Điều quan trọng cần lưu ý là, chỉ với thông tin này, Bob không thể khôi phục được BTC của Alice.
-* Tuy nhiên, Bob có khả năng xác minh rằng Alice không cố gắng lừa đảo anh ta. Để làm điều này, anh ta kiểm tra xem chữ ký điều chỉnh $s_A'$ của Alice có thực sự tương ứng với giao dịch đề xuất $m_A$ hay không. Nếu phương trình sau đây là chính xác, anh ta có thể chắc chắn rằng chữ ký điều chỉnh của Alice là hợp lệ:
+* Alice gửi cho Bob chữ ký thích nghi s_A', giao dịch chưa ký m_A của cô ấy, điểm tương ứng với bí mật trên đường cong e líp (T), và điểm tương ứng với nonce (N_A). Những yếu tố này tạo thành cái gọi là "*adaptor - thể thích nghi*". Điều quan trọng cần lưu ý là, chỉ với thông tin này, Bob không thể khôi phục được BTC của Alice.
+* Tuy nhiên, Bob có khả năng xác minh rằng Alice không cố gắng lừa đảo anh ta. Để làm điều này, anh ta kiểm tra xem chữ ký thích nghi s_A' của Alice có thực sự tương ứng với giao dịch đề xuất m_A hay không. Nếu phương trình sau đây là chính xác, anh ta có thể chắc chắn rằng chữ ký thích nghi của Alice là hợp lệ:
 $$s_A' \cdot G = N_A + H(N_A + T \parallel P_A \parallel m_A) \cdot P_A$$
 
-* Việc xác minh này cung cấp cho Bob đủ bảo đảm để tiếp tục với giao dịch một cách tự tin. Sau đó, anh ta tạo giao dịch của mình $m_B$, dự định gửi 1 BTC cho Alice, và tạo ra chữ ký điều chỉnh $s_B'$ của mình, cũng sẽ được liên kết với cùng một bí mật $t$. Tại thời điểm này, chỉ có Alice biết giá trị của $t$; Bob chỉ biết điểm tương ứng $T$ mà Alice đã truyền cho anh ta:
+* Việc xác minh này cung cấp sự bảo đảm cho Bob tiếp tục giao dịch một cách tự tin. Sau đó, anh ta tạo giao dịch của mình m_B, dự định gửi 1 BTC cho Alice, và tạo ra chữ ký thích nghi s_B' của mình, cũng sẽ được liên kết với cùng một bí mật t. Tại thời điểm này, chỉ có Alice biết giá trị của t; Bob chỉ biết điểm tương ứng T mà Alice đã truyền cho anh ta:
 
 $$s_B' = n_B + H(N_B + T \parallel P_B \parallel m_B) \cdot p_B$$
 
-* Bob truyền cho Alice chữ ký điều chỉnh $s_B'$ của mình, giao dịch chưa ký $m_B$, cũng như điểm tương ứng với bí mật ($T$) và điểm tương ứng với nonce ($N_B$). Alice, người biết bí mật $t$, giờ đây có thể kết hợp chữ ký điều chỉnh $s_B'$ của Bob với bí mật này để tạo ra một chữ ký hợp lệ $s_B$ cho giao dịch $m_B$ sẽ chuyển BTC của Bob cho cô ấy:
+* Bob truyền cho Alice chữ ký thích nghi s_B' của mình, giao dịch chưa ký m_B, cũng như điểm tương ứng với bí mật (T) và điểm tương ứng với nonce (N_B). Alice, người biết bí mật t, giờ đây có thể kết hợp chữ ký thích nghi s_B' của Bob với bí mật này để tạo ra một chữ ký hợp lệ s_B cho giao dịch m_B sẽ chuyển BTC của Bob cho cô ấy:
 
 $$s_B = s_B' + t$$
 
 $$(s_B' + t) \cdot G = N_B + T + H(N_B + T \parallel P_B \parallel m_B) \cdot P_B$$
 
-* Alice phát sóng giao dịch đã ký này $m_B$ trên blockchain Bitcoin để khôi phục BTC mà Bob hứa hẹn. Khi Bob thấy giao dịch này trên blockchain, anh ta có thể trích xuất chữ ký $s_B = s_B' + t$. Với thông tin này, Bob sau đó có thể tách ra bí mật nổi tiếng $t$ mà anh ta cần.
+* Alice phát sóng giao dịch đã ký m_B trên blockchain Bitcoin để khôi phục BTC mà Bob hứa hẹn. Khi Bob thấy giao dịch này trên blockchain, anh ta có thể trích xuất chữ ký s_B = s_B' + t. Với thông tin này, Bob sau đó có thể tách ra bí mật nổi tiếng t mà anh ta cần.
 $$t = (s_B' + t) - s_B' = s_B - s_B'$$
-* Và thực sự, bí mật $t$ này là yếu tố duy nhất còn thiếu để Bob tạo ra chữ ký hợp lệ $s_A$ từ chữ ký điều chỉnh của Alice $s_A'$. Chữ ký này cho phép xác thực giao dịch $m_A$ mà gửi BTC từ Alice sang Bob. Sau đó, Bob tính toán $s_A$ và lần lượt phát sóng giao dịch $m_A$ trên blockchain:
+* Và thực sự, bí mật t này là yếu tố duy nhất còn thiếu để Bob tạo ra chữ ký hợp lệ s_A từ chữ ký thích nghi s_A' của Alice. Chữ ký này cho phép xác thực giao dịch m_A gửi BTC từ Alice sang Bob. Sau đó, Bob tính toán s_A và tiếp đến phát sóng giao dịch m_A trên blockchain:
 
 $$s_A = s_A' + t$$
 
 $$(s_A' + t) \cdot G = N_A + T + H(N_A + T \parallel P_A \parallel m_A) \cdot P_A$$
-Hãy tóm tắt cách hoạt động của Chữ ký Điều chỉnh trong một giao dịch đổi tiền. Ban đầu, Alice gửi cho Bob một giao dịch chưa ký kết cùng với một điều chỉnh, cho phép Bob xác minh rằng bí mật được tiết lộ sau này sẽ cho anh ta quyền truy cập vào bitcoin. Đổi lại, Bob gửi cho Alice giao dịch chưa ký kết và điều chỉnh của mình. Alice sau đó có thể hoàn tất giao dịch của Bob và thu hồi bitcoin bằng cách phát sóng một giao dịch hợp lệ sử dụng bí mật. Khi giao dịch này được công bố trên blockchain, Bob có khả năng trích xuất bí mật và do đó mở khóa giao dịch của Alice. Do đó, nếu Alice khởi xướng việc chuyển bitcoin của Bob, anh ta có thể, lần lượt, truy cập vào bitcoin của Alice mà không cần sự tin tưởng lẫn nhau.
+Hãy tóm tắt cách hoạt động của Chữ ký thích nghi trong một giao dịch đổi tiền. Ban đầu, Alice gửi cho Bob một giao dịch chưa ký kèm với một adaptor - thể thích nghi, cho phép Bob xác minh rằng bí mật được tiết lộ sau này sẽ cho anh ta quyền truy cập vào bitcoin. Đổi lại, Bob gửi cho Alice giao dịch chưa ký và thể thích nghi của anh ta. Alice sau đó có thể hoàn tất giao dịch của Bob và thu hồi bitcoin bằng cách phát sóng một giao dịch hợp lệ sử dụng bí mật. Khi giao dịch này được công bố trên blockchain, Bob có khả năng trích xuất bí mật và do đó mở khóa giao dịch của Alice. Do đó, nếu Alice khởi xướng việc chuyển bitcoin của Bob, anh ta, ở chiều của mình, có thể truy cập vào bitcoin của Alice mà không cần sự tin tưởng lẫn nhau.
 Đáng chú ý là giao dịch đổi tiền lần đầu tiên được đề xuất bởi [Gregory Maxwell vào tháng 10 năm 2013 trên BitcoinTalk](https://bitcointalk.org/index.php?topic=321228.0).
 
-### Giao Dịch Nguyên Tử
+### Atomic Swap - Hoán đổi nguyên tử
 
-Tương tự như giao dịch đổi tiền và sử dụng cùng một loại hợp đồng thông minh, cũng có thể thực hiện giao dịch nguyên tử. Giao dịch nguyên tử cho phép trao đổi trực tiếp các loại tiền điện tử khác nhau, như BTC và XMR, giữa hai người dùng mà không cần tin tưởng hoặc sự can thiệp của bên trung gian. Các giao dịch này được gọi là "nguyên tử" vì chúng chỉ có hai kết quả có thể: hoặc là giao dịch thành công và cả hai bên đều hài lòng, hoặc nó thất bại và mỗi bên giữ lại tiền điện tử ban đầu của mình, do đó loại bỏ nhu cầu phải tin tưởng vào bên kia.
+Tương tự như giao dịch swap và sử dụng cùng một loại hợp đồng thông minh, chúng ta cũng có thể thực hiện hoán đổi nguyên tử. Hoán đổi nguyên tử cho phép trao đổi trực tiếp các loại tiền điện tử khác nhau, như BTC và XMR, giữa hai người dùng mà không cần tin tưởng hoặc sự can thiệp của bên trung gian. Các giao dịch này được gọi là "nguyên tử" vì chúng chỉ có hai kết quả có thể: hoặc là giao dịch thành công và cả hai bên đều hài lòng, hoặc nó thất bại và mỗi bên giữ lại số tiền điện tử ban đầu của mình, do đó loại bỏ nhu cầu phải tin tưởng vào bên kia.
 
 ![BTC204](assets/notext/64/05.webp)
 
-Giao dịch nguyên tử và giao dịch đổi tiền chia sẻ phương pháp hoạt động tương tự và cung cấp những ưu và nhược điểm giống nhau về quyền riêng tư. Thực sự, từ góc độ của Bitcoin, một giao dịch nguyên tử có thể so sánh với một giao dịch đổi tiền được thực hiện trong hai bước. Đầu tiên, chúng ta đổi BTC của mình lấy một loại tiền điện tử khác, và sau đó loại tiền điện tử này có thể được đổi lấy BTC khác. Cuối cùng, chúng ta thu hồi BTC của người dùng khác. Đây là lý do tại sao, trong phân tích vấn đề quyền riêng tư, tôi nhóm hai giao thức này dưới danh mục giao dịch bí mật chuyển quyền sở hữu.
+Hoán đổi nguyên tử và giao dịch đổi tiền chia sẻ phương pháp hoạt động tương tự và cung cấp những ưu và nhược điểm giống nhau về quyền riêng tư. Thực vậy, từ góc độ của Bitcoin, một hoán đổi nguyên tử có thể so sánh với một giao dịch đổi tiền được thực hiện trong hai bước. Đầu tiên, chúng ta đổi BTC của mình lấy một loại tiền điện tử khác, và sau đó loại tiền điện tử này có thể được đổi lấy BTC khác. Cuối cùng, chúng ta thu hồi BTC của người dùng khác. Đây là lý do tại sao, trong phân tích vấn đề quyền riêng tư, tôi nhóm hai giao thức này dưới danh mục giao dịch bí mật chuyển quyền sở hữu.
 
 ![BTC204](assets/notext/64/06.webp)
 
-Tuy nhiên, không giống như giao dịch đổi tiền, giao dịch nguyên tử có thể có sự mất cân đối về khả năng cung cấp thanh khoản, đặc biệt là trong các giao dịch BTC/XMR. Thông thường, việc đổi bitcoin lấy altcoin dễ dàng hơn, do có nhu cầu cao đối với bitcoin, giữ cho mức phí thấp cho hướng chuyển đổi này. Tuy nhiên, việc đổi altcoin để lấy BTC có thể phức tạp hơn do nhu cầu thấp, thường dẫn đến mức phí rất cao.
+Tuy nhiên, không giống như giao dịch đổi tiền, hoán đổi nguyên tử có thể có sự mất cân đối về khả năng cung cấp thanh khoản, đặc biệt là trong các giao dịch BTC/XMR. Thông thường, việc đổi bitcoin lấy altcoin dễ dàng hơn, do có nhu cầu cao đối với bitcoin, giữ cho mức phí thấp cho hướng chuyển đổi này. Tuy nhiên, việc đổi altcoin để lấy BTC có thể phức tạp hơn do nhu cầu thấp, thường dẫn đến mức phí rất cao.
 
-Cuối cùng, khi một giao dịch nguyên tử liên quan đến bitcoin trên chuỗi và bitcoin trên mạng Lightning, chúng ta sau đó gọi đó là một "*giao dịch lặn*".
+Cuối cùng, khi một hoán đổi nguyên tử liên quan đến bitcoin trên chuỗi và bitcoin trên mạng Lightning, chúng ta sau đó gọi đó là một "*hoán đổi tàu ngầm*".
 
-### Thực Sự Có Ích Không?
-Các phương pháp chuyển quyền sở hữu bí mật, như giao dịch đổi tiền và giao dịch nguyên tử, có lợi thế là lừa dối các phép phân tích chuỗi. Các phương pháp này có thể tạo ra ấn tượng rằng các giao dịch liên quan đến cùng một người dùng, mặc dù quyền sở hữu thực sự đã được chuyển giao. Tuy nhiên, nhược điểm chính của các phương pháp này là chúng rất rủi ro nếu không sử dụng thêm kỹ thuật để phá vỡ lịch sử của đồng tiền.
-Quả thực, khi Alice thực hiện một giao dịch coinswap hoặc atomic swap với Bob, cô ấy đã trao đổi quyền sở hữu bitcoin của mình lấy bitcoin của Bob. Trong trường hợp của atomic swap, giao dịch bao gồm một altcoin, nhưng nguyên tắc vẫn giữ nguyên. Do đó, Alice kết thúc với đồng tiền $B$ và Bob với đồng tiền $A$. Điều này làm tăng sự nghi ngờ trong phân tích chuỗi, nhưng lịch sử của các đồng tiền vẫn có thể được truy vết. Nếu một nhà phân tích kiểm tra đồng tiền $A$, họ có thể truy vết lại các hoạt động trước đó của Alice, và ngược lại đối với đồng tiền $B$.
+### Các phương pháp có thực sự hữu ích?
+Các phương pháp chuyển quyền sở hữu bí mật, như giao dịch đổi tiền và hoán đổi nguyên tử, có lợi thế là đánh lừa các phép suy luận trong phân tích chuỗi. Các phương pháp này có thể tạo ra ấn tượng rằng các giao dịch liên quan đến cùng một người dùng, mặc dù quyền sở hữu thực sự đã được chuyển giao. Tuy nhiên, nhược điểm chính của các phương pháp này là chúng rất rủi ro nếu không sử dụng thêm kỹ thuật để phá vỡ lịch sử của đồng tiền.
+Thực vậy, khi Alice thực hiện một giao dịch đổi tiền hoặc hoán đổi nguyên tử với Bob, cô ấy đã trao đổi quyền sở hữu bitcoin của mình để lấy bitcoin của Bob. Trong trường hợp của hoán đổi nguyên tử, giao dịch bao gồm một altcoin, nhưng nguyên tắc vẫn giữ nguyên. Do đó, khi hoàn thành, Alice nhận được đồng tiền B và Bob nhận được đồng tiền A. Điều này làm tăng sự nghi ngờ trong phân tích chuỗi, nhưng lịch sử của các đồng tiền vẫn có thể bị truy vết. Nếu một nhà phân tích kiểm tra đồng tiền A, họ có thể truy vết lại các hoạt động trước đó của Alice, và ngược lại đối với đồng tiền B.
 ![BTC204](assets/vi/64/07.webp)
 
-Từ quan điểm của Alice, rủi ro là lịch sử của đồng tiền $B$ có thể được coi là đáng ngờ bởi một số tổ chức. Nếu, ví dụ, Bob đã có được đồng tiền $B$ thông qua một hành vi phạm tội như hack, đồng tiền này sẽ vẫn liên kết với các hoạt động bất hợp pháp của anh ta. Alice có thể sẽ phát hiện mình sở hữu một đồng tiền mà cô ấy không thể chuyển nhượng trên các nền tảng giao dịch được quy định mà không rủi ro bị đóng băng tài sản, hoặc thậm chí bị buộc tội về các tội ác của Bob, mặc dù cô ấy không liên quan gì đến chúng.
+Từ góc nhìn của Alice, rủi ro là lịch sử của đồng tiền B có thể được coi là đáng ngờ bởi một số tổ chức. Nếu, ví dụ, Bob đã có được đồng tiền B thông qua một hành vi phạm tội như hack, đồng tiền này sẽ vẫn liên kết với các hoạt động bất hợp pháp của anh ta. Có thể, Alice sẽ phát hiện rằng mình đang sở hữu một đồng tiền mà cô ấy không thể chuyển nhượng trên các nền tảng giao dịch được quy định mà không tránh được rủi ro bị đóng băng tài sản, hoặc thậm chí bị buộc tội về các tội ác của Bob, mặc dù cô ấy không liên quan gì đến chúng.
 
 ![BTC204](assets/vi/64/08.webp)
 
-Và tất nhiên, các phương pháp bảo mật như coinswap hoặc atomic swap được ưa chuộng bởi những tội phạm mà tài sản của họ đang bị cơ quan chức năng giám sát. Những giao thức này cung cấp cho họ cơ hội để thoát khỏi bitcoin đang bị giám sát của mình đổi lấy bitcoin hoàn toàn có thể thay thế được. Điều này cũng cho phép họ tạo ra một sự phân tâm, hướng cơ quan chức năng về phía người dùng khác. Do đó, có một lợi ích kép cho những cá nhân này.
+Và tất nhiên, các phương pháp bảo mật như đổi tiền hoặc hoán đổi nguyên tử được ưa chuộng bởi những tội phạm mà tài sản của họ đang bị cơ quan chức năng giám sát. Những giao thức này cung cấp cho họ cơ hội để thoát khỏi số bitcoin đang bị giám sát của mình để đổi lấy số bitcoin hoàn toàn có đổi lẫn được. Điều này cũng cho phép họ tạo ra một sự phân tâm, hướng cơ quan chức năng về phía người dùng khác. Do đó, có một lợi ích kép cho những cá nhân này.
 
-Với trộn coin, ngay cả khi đồng tiền của bạn được trộn lẫn với bitcoin đang bị giám sát, lịch sử của đồng tiền được phá vỡ, điều này cung cấp một hình thức chối bỏ có khả năng xảy ra mà không tồn tại trong các giao thức chuyển giao tài sản bí mật như coinswap hoặc atomic swap.
+Với trộn coin, ngay cả khi đồng tiền của bạn được trộn lẫn với bitcoin đang bị giám sát, lịch sử của đồng tiền bị phá vỡ, điều này mang lại một hình thức chối bỏ mà chúng ta không thể có được qua các giao thức chuyển giao tài sản bí mật như đổi tiền hoặc hoán đổi nguyên tử.
 
 ![BTC204](assets/notext/64/09.webp)
-Nếu Alice muốn tránh mọi rủi ro, cô ấy cần phải sử dụng một phương pháp để phá vỡ lịch sử của đồng tiền $B$, chẳng hạn như chạy nó qua trộn coins, ví dụ. Điều này đặt ra một câu hỏi về việc kết hợp chuyển giao quyền sở hữu bí mật và trộn coin. trộn coin, bằng cách phá vỡ lịch sử của một đồng tiền, đã cung cấp một mức độ riêng tư đủ cho Alice. Do đó, theo ý kiến của tôi, nếu Alice đang tìm cách bảo vệ quyền riêng tư của mình, sẽ thận trọng hơn khi tiến hành trực tiếp với trộn coin thay vì tham gia vào một coinswap theo sau bởi một trộn coin.
-Để các phương pháp chuyển giao quyền sở hữu bí mật thực sự hiệu quả và tránh rủi ro liên kết lịch sử của người dùng $A$ với người dùng $B$, một cách nghịch lý, việc sử dụng của họ cần được biết đến rộng rãi. Nếu coinswap được sử dụng rộng rãi và cơ quan chức năng biết đến thực hành phổ biến này, thì một hình thức chối bỏ có khả năng xảy ra có thể được thiết lập. Tuy nhiên, miễn là việc sử dụng các giao dịch này vẫn còn hạn chế, tôi tin rằng các phương pháp này sẽ vẫn quá rủi ro cho người dùng.
+Nếu Alice muốn tránh mọi rủi ro, cô ấy cần phải sử dụng một phương pháp để phá vỡ lịch sử của đồng tiền B, chẳng hạn như đưa nó qua một quy trình trộn coin. Điều này đặt ra một câu hỏi về việc kết hợp chuyển giao quyền sở hữu bí mật và trộn coin. Trộn coin, bằng cách phá vỡ lịch sử của một đồng tiền, đã mang lại một mức độ riêng tư đủ cho Alice. Do đó, theo ý kiến của tôi, nếu Alice đang tìm cách bảo vệ quyền riêng tư của mình, sẽ khôn ngoan hơn khi thực hiện một quy trình trộn coin luôn thay vì đổi tiền xong rồi lại tiếp tục thực hiện trộn coin.
+Để các phương pháp chuyển giao quyền sở hữu bí mật thực sự hiệu quả và tránh rủi ro liên kết lịch sử của người dùng A với người dùng B, một cách nghịch lý, hoạt động này cần được biết đến rộng rãi. Nếu đổi tiền được sử dụng rộng rãi và cơ quan chức năng biết đến hoạt động phổ biến này, thì sẽ có khả năng thiết lập được sự chối bỏ hợp lý (plausible deniability) . Tuy nhiên, nếu việc sử dụng các phương pháp này vẫn còn hạn chế, tôi tin rằng chũng vẫn còn quá rủi ro cho người dùng.
 
 Cho đến nay, chúng ta chủ yếu đã nghiên cứu các phương pháp bảo mật ở cấp độ giao dịch. Trong chương tiếp theo, chúng ta sẽ khám phá các vấn đề ở cấp độ mạng và sự phát tán của giao dịch.
 
-## Quyền Riêng Tư trên Mạng P2P
+## Quyền riêng tư trên mạng lưới ngang hàng
 <chapterId>04a2467b-db84-4076-a9ff-919be5135106</chapterId>
 
-Trong phần 4, chúng ta đã thảo luận về tầm quan trọng của việc sử dụng một nốt đầy đủ để bảo vệ quyền riêng tư của các giao dịch của bạn. Tuy nhiên, điều quan trọng là phải hiểu rằng chính nốt của bạn cũng có thể bị tấn công nhằm mục đích trích xuất thông tin về các hoạt động của bạn. Trong chương này, chúng ta sẽ do đó xem xét các biện pháp bảo vệ quyền riêng tư khác nhau, không phải ở cấp độ của các giao dịch chính nó hoặc dòng chảy của bitcoin, mà ở cấp độ mạng.
+Trong phần 4, chúng ta đã thảo luận về tầm quan trọng của việc sử dụng một nốt đầy đủ để bảo vệ quyền riêng tư của các giao dịch của bản thân. Tuy nhiên, quan trọng là phải được hiểu rằng chính nốt của bạn cũng có thể bị tấn công nhằm mục đích trích xuất thông tin về các hoạt động của bạn. Do đó, trong chương này, chúng ta sẽ xem xét các biện pháp bảo vệ quyền riêng tư khác nhau, không phải ở cấp độ của các giao dịch hoặc dòng dịch chuyển của bitcoin, mà ở cấp độ mạng lưới.
 
 ### Dandelion
-Một cách để tránh các cuộc tấn công giả mạo danh tính là sử dụng đề xuất Dandelion. Giao thức phát sóng này đã được hình thức hóa trong BIP156, nhưng nó chưa bao giờ được triển khai trên Bitcoin.
-Ý tưởng của Dandelion là cải thiện sự riêng tư của việc định tuyến giao dịch trong mạng lưới Bitcoin để chống lại các hình thức tấn công khác nhau. Mục tiêu chính của nó là che giấu nốt nguồn ban đầu phát sóng một giao dịch trên mạng. Việc tiết lộ nốt này có thể liên kết một giao dịch Bitcoin với một địa chỉ IP cụ thể (nếu nốt hoạt động trên clearnet), có thể cung cấp một điểm nhập cho phân tích chuỗi.
-Sự liên kết giữa một hoạt động trên Bitcoin và một địa chỉ IP đại diện cho một rủi ro đáng kể đối với quyền riêng tư của người dùng. Thực tế, nhiều thực thể có thể dễ dàng liên kết một địa chỉ IP với một danh tính cá nhân. Điều này đặc biệt bao gồm chính phủ và các nhà cung cấp dịch vụ Internet. Hơn nữa, thông tin này có thể trở nên công khai, ví dụ, nếu địa chỉ IP và dữ liệu cá nhân của bạn bị tiết lộ do rò rỉ trong quá trình hack cơ sở dữ liệu của một trang web.
-Trong hoạt động tiêu chuẩn của Bitcoin, các giao dịch được một người dùng tạo trên phần mềm ví của họ được truyền đến nốt cá nhân của họ. nốt này ngay lập tức phát sóng giao dịch mới cho tất cả các đối tác mà nó kết nối.
+Một cách để tránh các cuộc tấn công phá vỡ sự ẩn danh là sử dụng đề xuất Dandelion. Giao thức phát sóng này đã được chính thức hóa trong BIP156, nhưng nó chưa bao giờ được triển khai trên Bitcoin.
+Ý tưởng của Dandelion là cải thiện sự riêng tư của việc định tuyến giao dịch trong mạng lưới Bitcoin để chống lại các hình thức tấn công khác nhau. Mục tiêu chính của nó là che giấu nốt nguồn phát sóng ban đầu của một giao dịch trên mạng. Việc tiết lộ nốt này có thể liên kết một giao dịch Bitcoin với một địa chỉ IP cụ thể (nếu nốt hoạt động trên clearnet), có thể cung cấp một điểm vào cho phân tích chuỗi.
+Sự liên kết giữa một hoạt động trên mạng lưới Bitcoin và một địa chỉ IP là một rủi ro đáng kể đối với quyền riêng tư của người dùng. Thực vậy, nhiều thực thể có thể dễ dàng liên kết một địa chỉ IP với một danh tính cá nhân. Bao gồm chính phủ và các nhà cung cấp dịch vụ Internet. Hơn nữa, thông tin này có thể trở nên công khai, ví dụ, nếu địa chỉ IP và dữ liệu cá nhân của bạn bị tiết lộ do rò rỉ trong quá trình hack cơ sở dữ liệu của một trang web.
+Trong hoạt động tiêu chuẩn của mạng lưới Bitcoin, các giao dịch được một người dùng tạo trên phần mềm ví của họ được truyền đến nốt cá nhân của họ. Nốt này ngay lập tức phát sóng giao dịch mới cho tất cả các đối tác mà nó kết nối.
 
 ![BTC204](assets/notext/65/01.webp)
 
-Các đối tác sau đó xác minh giao dịch để đảm bảo nó tuân thủ các quy tắc đồng thuận và quy tắc chuẩn hóa địa phương. Một khi được xác nhận, mỗi đối tác lần lượt truyền giao dịch cho các đối tác của mình, và cứ thế tiếp tục.
+Các đối tác sau đó xác minh giao dịch để đảm bảo nó tuân thủ các quy tắc đồng thuận và quy tắc chuẩn hóa cục bộ. Một khi được xác nhận, mỗi đối tác lần lượt truyền giao dịch cho các đối tác của mình, và cứ thế tiếp tục.
 
 ![BTC204](assets/notext/65/02.webp)
 
-Việc phân phối các giao dịch đang chờ được tích hợp vào một khối được thực hiện một cách khá cân đối và có thể dự đoán theo thống kê. Lỗ hổng này có thể bị các nốt gián điệp cộng tác khai thác, những nốt này hợp tác để giám sát và phân tích mạng, nhằm mục đích xác định nốt đầu tiên đã phát sóng một giao dịch. Nếu một quan sát viên quản lý để xác định nốt nguồn, họ có thể giả định rằng giao dịch bắt nguồn từ người vận hành nốt đó. Loại quan sát này có thể liên kết giao dịch, thông thường là ẩn danh, với các địa chỉ IP cụ thể.
+Việc phân phối các giao dịch đang chờ để tích hợp vào một khối được thực hiện một cách khá cân bằng và có thể dự đoán theo thống kê. Lỗ hổng này có thể bị các nốt gián điệp thông đồng khai thác, những nốt này thông đồng với nhau để giám sát và phân tích mạng, nhằm mục đích xác định nốt đầu tiên đã phát sóng một giao dịch. Nếu một quan sát viên xác định được nốt nguồn, họ có thể giả định rằng giao dịch bắt nguồn từ người vận hành nốt đó. Loại quan sát này có thể liên kết giao dịch, thông thường là ẩn danh, với các địa chỉ IP cụ thể.
 
 ![BTC204](assets/notext/65/03.webp)
 
-Mục tiêu của BIP156 là giải quyết vấn đề này. Để làm điều này, nó giới thiệu một giai đoạn bổ sung trong việc phát sóng một giao dịch mới để bảo tồn sự ẩn danh trước khi phổ biến rộng rãi. Dandelion trước tiên sử dụng một giai đoạn "stem" nơi giao dịch được gửi qua một con đường ngẫu nhiên của các nốt.
+Mục tiêu của BIP156 là giải quyết vấn đề này. Để làm điều này, nó giới thiệu một giai đoạn bổ sung trong việc phát sóng một giao dịch mới để bảo tồn sự ẩn danh trước khi nó được phát tán rộng rãi. Dandelion trước tiên sử dụng một giai đoạn "stem" nơi giao dịch được gửi qua một con đường ngẫu nhiên của các nốt.
 
 ![BTC204](assets/notext/65/04.webp)
 
@@ -2400,64 +2400,66 @@ Sau đó, giao dịch được phát sóng cho toàn bộ mạng trong giai đo�
 
 Stem và fluff là những tham chiếu đến hành vi của sự lan truyền giao dịch qua mạng, giống như hình dạng của một bông hoa bồ công anh.
 
-Do đó, các nốt gián điệp có thể tiềm năng truy vết giao dịch trở lại nốt đã khởi xướng giai đoạn fluff (phát sóng lớn), nhưng nốt này không phải là nốt đầu tiên phát sóng giao dịch, vì nó nhận được nó từ nốt cuối cùng trong stem. Nếu các nốt gián điệp không thể truy vết ngược lên stem, họ cũng không thể xác định nốt nguồn.
+Theo đó, các nốt gián điệp có tiềm năng truy được vết của giao dịch trở lại nốt đã khởi xướng giai đoạn fluff, nhưng nốt này không phải là nốt đầu tiên phát sóng giao dịch, vì nó nhận được nó từ nốt cuối cùng trong giai đoạn stem. Nếu các nốt gián điệp không thể truy vết ngược lên stem, họ không thể xác định được nốt nguồn.
 
 ![BTC204](assets/notext/65/06.webp)
-Ngay cả khi có sự hiện diện của các nốt gián điệp trong giai đoạn stem, sự nghi ngờ luôn tồn tại bởi vì ngay khi họ gặp một nốt trung thực trong đồ thị lan truyền, các gián điệp không thể xác định liệu nốt này là nguồn gốc hay chỉ là một trung gian.
+Ngay cả khi có sự hiện diện của các nốt gián điệp trong giai đoạn stem, sự nghi ngờ luôn tồn tại bởi vì ngay khi họ gặp một nốt trung thực trong đồ thị lan truyền, các node gián điệp không thể xác định liệu nốt này là nốt nguồn hay chỉ là một trung gian.
 ![BTC204](assets/notext/65/07.webp)
-Phương pháp định tuyến này làm mờ dấu vết dẫn đến nốt nguồn, khiến việc truy vết một giao dịch qua mạng trở lại nguồn gốc trở nên khó khăn. Dandelion do đó cải thiện quyền riêng tư bằng cách hạn chế khả năng của đối thủ để phá vỡ sự ẩn danh của mạng. Phương pháp này càng hiệu quả hơn khi giao dịch trong giai đoạn "cuống" qua một nốt mà mã hóa thông tin liên lạc mạng của mình, như với Tor hoặc P2P Transport V2.
-BIP156 chưa được tích hợp vào Bitcoin Core và hiện được phân loại dưới trạng thái "bị từ chối". Một trong những mối quan tâm chính về giao thức này nằm ở việc, trong giai đoạn cuống, giao dịch phải được chuyển tiếp bởi các nốt trung gian trước khi được xác minh. Như chúng ta đã thấy, trong mô hình bình thường của Bitcoin, mỗi nốt trước tiên xác minh giao dịch trước khi phát sóng nó cho các nốt đồng nghiệp của mình. Nếu một giao dịch không tuân thủ các quy tắc đồng thuận hoặc các quy tắc chuẩn hóa cục bộ của nốt, nó sẽ bỏ qua và không phát sóng nó. Quy trình này quan trọng để chống lại các cuộc tấn công DoS, vì chỉ có các giao dịch hợp lệ mới được phát sóng cho toàn bộ mạng. Các giao dịch không hợp lệ, có thể được tạo ra hàng loạt để làm quá tải mạng, được dừng lại tại nốt đầu tiên gặp phải và không lan truyền. Rủi ro chính với Dandelion là giao thức mới này có thể giới thiệu các vector mới cho các cuộc tấn công DoS bằng cách cho phép phát sóng các giao dịch không hợp lệ qua một phần của mạng.
+Phương pháp định tuyến này làm mờ dấu vết dẫn đến nốt nguồn, khiến việc truy vết một giao dịch qua mạng trở lại nguồn gốc trở nên khó khăn. Dandelion do đó cải thiện quyền riêng tư bằng cách hạn chế khả năng của đối thủ có thể phá vỡ sự ẩn danh của mạng lưới. Phương pháp này càng hiệu quả hơn khi giao dịch trong giai đoạn "stem" qua một nốt đã mã hóa thông tin liên lạc của mình, như với Tor hoặc P2P Transport V2.
+BIP156 chưa được tích hợp vào Bitcoin Core và hiện được phân loại dưới trạng thái "bị từ chối". Một trong những mối quan tâm chính về giao thức này nằm ở việc, trong giai đoạn "stem", giao dịch phải được chuyển tiếp bởi các nốt trung gian trước khi được xác thực. Như chúng ta đã thấy, trong mô hình bình thường của Bitcoin, mỗi nốt phải xác thực giao dịch trước khi phát sóng nó cho các nốt đồng nghiệp của mình. Nếu một giao dịch không tuân thủ các quy tắc đồng thuận hoặc các quy tắc chuẩn hóa cục bộ của nốt, nó sẽ bỏ qua và không phát sóng nó. Đây là quy trình quan trọng để chống lại các cuộc tấn công từ chối dịch vụ DoS, vì chỉ có các giao dịch hợp lệ mới được phát sóng ra toàn bộ mạng lưới. Các giao dịch không hợp lệ, có thể được tạo ra hàng loạt để làm quá tải mạng, bị chặn lại ngay tại nốt đầu tiên chúng gặp phải và không thể lan truyền tiếp. Rủi ro chính với Dandelion là giao thức mới này có thể tạo ra các điểm yếu mới cho các cuộc tấn công DoS bằng cách cho phép phát sóng các giao dịch không hợp lệ qua một phần của mạng lưới.
 
 ### P2P Transport V2
 
-P2P Transport V2 là một giao thức mạng khác được trình bày trong BIP324. Đây là phiên bản mới của giao thức vận chuyển P2P của Bitcoin mà bao gồm mã hóa cơ hội để cải thiện tính bảo mật và bảo mật của các thông tin liên lạc giữa các nốt.
+P2P Transport V2 là một giao thức mạng khác được trình bày trong BIP324. Đây là phiên bản mới của giao thức vận chuyển P2P của Bitcoin. Nó tích hợp mã hoá cơ hội (OE - Opportunistic Encryption) để cải thiện tính bảo mật và bảo mật của các thông tin liên lạc giữa các nốt.
 
-Cải tiến này nhằm giải quyết một số vấn đề với phiên bản cơ bản của giao thức P2P. Một mặt, nó làm cho dữ liệu trao đổi không thể phân biệt với các loại dữ liệu khác lưu thông trên Internet đối với một quan sát viên thụ động. Mục tiêu chính là ngăn chặn chính phủ, các nhà cung cấp dịch vụ Internet, hoặc các nhà cung cấp VPN từ việc giám sát hàng loạt người dùng Bitcoin. Điều này cũng làm phức tạp nhiệm vụ cho các thực thể này để xác định liệu một người dùng Internet cũng là một người dùng Bitcoin, tức là họ đang vận hành một nốt đầy đủ.
-P2P V2 cũng góp phần giảm rủi ro kiểm duyệt và tấn công thông qua việc phát hiện các mẫu cụ thể trong các gói dữ liệu. Nó làm phức tạp và tăng chi phí thực hiện các loại tấn công Sybil khác nhau ở cấp độ mạng. Một cuộc tấn công Sybil xảy ra khi một diễn viên tạo ra nhiều danh tính giả mạo để có được lợi thế không công bằng. Trong bối cảnh của mạng Bitcoin, điều này thường biểu hiện như một diễn viên kiểm soát một số lượng lớn nốt đầy đủ và sử dụng chúng một cách hung hăng để nhân lên các kết nối. Các cuộc tấn công Sybil có thể là thụ động, nhằm thu thập thông tin và xâm phạm quyền riêng tư của người dùng, hoặc chủ động, dưới hình thức tấn công Eclipse. Cuộc tấn công sau cô lập một nốt cụ thể khỏi phần còn lại của mạng, cho phép kiểm duyệt người dùng hoặc thay đổi dữ liệu họ nhận được. Cuối cùng, P2P V2 cũng làm cho các cuộc tấn công *Man-In-The-Middle* (MITM) tốn kém hơn và dễ phát hiện hơn.
-Mã hóa được thực hiện bởi P2P V2 không bao gồm xác thực để không thêm vào sự phức tạp không cần thiết, và để không làm tổn hại đến bản chất không cần phép của kết nối mạng. Giao thức vận chuyển P2P mới này tuy nhiên cung cấp bảo mật tốt hơn chống lại các cuộc tấn công thụ động và làm cho các cuộc tấn công chủ động đáng kể tốn kém và dễ phát hiện hơn. Sự giới thiệu của một dòng dữ liệu ngẫu nhiên giả trong các thông điệp mạng làm phức tạp nhiệm vụ cho các kẻ tấn công muốn kiểm duyệt hoặc thao túng thông tin liên lạc.
+Cải tiến này nhằm giải quyết một số vấn đề ở phiên bản cơ bản của giao thức P2P. Một mặt, nó làm cho dữ liệu trao đổi không thể phân biệt với các loại dữ liệu khác lưu thông trên Internet đối với một quan sát viên thụ động. Mục tiêu chính là ngăn chặn chính phủ, các nhà cung cấp dịch vụ Internet, hoặc các nhà cung cấp VPN thực hiện việc giám sát hàng loạt người dùng Bitcoin. Điều này cũng làm cho nhiệm vụ xác định liệu một người dùng Internet cũng là một người dùng Bitcoin hay không (tức là họ đang vận hành một nốt đầy đủ hay không) trở nên phức tạp.
+P2P V2 cũng góp phần giảm rủi ro kiểm duyệt và tấn công thông qua việc phát hiện các mẫu cụ thể trong các gói dữ liệu. Nó làm phức tạp và tăng chi phí thực hiện các loại tấn công mạo nhận (Sybil Attack) khác nhau ở cấp độ mạng. Một cuộc tấn công mạo nhận xảy ra khi một người tạo ra nhiều danh tính giả mạo để có được lợi thế không công bằng. Trong bối cảnh của mạng Bitcoin, điều này thường thể hiện ra như một thực thể kiểm soát một số lượng lớn nốt đầy đủ và sử dụng chúng một cách hung hăng để nhân lên các kết nối. Các cuộc tấn công mạo nhận có thể là thụ động, nhằm thu thập thông tin và xâm phạm quyền riêng tư của người dùng, hoặc chủ động, dưới hình thức tấn công Eclipse. Cuộc tấn công Eclipse cô lập một nốt cụ thể khỏi phần còn lại của mạng, cho phép kiểm duyệt người dùng hoặc thay đổi dữ liệu họ nhận được. Cuối cùng, P2P V2 cũng làm cho các cuộc tấn công kẻ trung gian *Man-In-The-Middle* (MITM) trở nên tốn kém hơn và dễ bị phát hiện hơn.
+Quá trình mã hóa được thực hiện bởi P2P V2 không bao gồm xác thực để tránh việc tạo thêm sự phức tạp không cần thiết, và để không làm tổn hại đến bản chất không cần sự cấp phép của kết nối mạng lưới. Tuy vậy, giao thức vận chuyển P2P mới này cung cấp bảo mật tốt hơn chống lại các cuộc tấn công thụ động và làm cho các cuộc tấn công chủ động trở nên tốn kém và dễ phát hiện hơn một cách đáng kể. Sự có mặt của một dòng dữ liệu ngẫu nhiên giả trong các thông điệp mạng làm cho nhiệm vụ của những kẻ tấn công muốn kiểm duyệt hoặc thao túng thông tin liên lạc trở nên phức tạp hơn.
 
-Vận chuyển P2P V2 được bao gồm như một tùy chọn (vô hiệu hóa theo mặc định) trong phiên bản 26.0 của Bitcoin Core, được triển khai vào tháng 12 năm 2023. Sau đó, nó được kích hoạt theo mặc định trong phiên bản 27.0 vào tháng 4 năm 2024. Nó có thể được chỉnh sửa với tùy chọn `v2transport=` trong tệp cấu hình.
+Vận chuyển P2P V2 được bao gồm như một tùy chọn (theo mặc định là vô hiệu hoá) trong phiên bản 26.0 của Bitcoin Core, được triển khai vào tháng 12 năm 2023. Sau đó, nó được kích hoạt theo mặc định trong phiên bản 27.0 vào tháng 4 năm 2024. Nó có thể được chỉnh sửa với tùy chọn `v2transport=` trong tệp cấu hình.
+
+### Tỏ
 Một giải pháp tương đối đơn giản khác để tránh rủi ro mất bảo mật thông tin cho một nốt trong mạng là chạy hoàn toàn dưới Tor.
-Tor là một mạng của các máy chủ chuyển tiếp (nốt) giúp ẩn danh nguồn gốc của các kết nối TCP trên internet. Nó hoạt động bằng cách đóng gói dữ liệu trong nhiều lớp mã hóa. Mỗi nốt chuyển tiếp loại bỏ một lớp để tiết lộ địa chỉ của nốt tiếp theo, cho đến khi đạt đến điểm đến cuối cùng. Mạng Tor đảm bảo ẩn danh bằng cách ngăn chặn các nốt trung gian biết cả nguồn gốc và điểm đến của dữ liệu, làm cho việc truy vết hoạt động của người dùng trở nên rất khó khăn.
+Tor là một mạng của các máy chủ chuyển tiếp (nốt) giúp ẩn danh nguồn gốc của các kết nối TCP trên internet. Nó hoạt động bằng cách đóng gói dữ liệu trong nhiều lớp mã hóa. Mỗi nốt chuyển tiếp loại bỏ một lớp để tiết lộ địa chỉ của nốt tiếp theo, cho đến khi đạt đến điểm đến cuối cùng. Mạng Tor đảm bảo ẩn danh bằng cách ngăn chặn việc các nốt trung gian biết cả nguồn gốc và điểm đến của dữ liệu, làm cho việc truy vết hoạt động của người dùng trở nên rất khó khăn.
 
 ![BTC204](assets/notext/65/08.webp)
 Vì vậy, Tor không chỉ mã hóa dữ liệu truyền thông mà còn cho phép che giấu nguồn gốc và điểm đến của các thông tin liên lạc. Bằng cách sử dụng Tor cho việc truyền thông của nốt cá nhân, chúng ta tăng cường quyền riêng tư cho các giao dịch của mình: Nhà cung cấp dịch vụ Internet (ISP) không thể giải mã các thông tin liên lạc, và các nốt khác trong mạng Bitcoin không thể xác định địa chỉ IP của nốt nguồn. Hơn nữa, Tor cũng ẩn việc bạn sử dụng Bitcoin khỏi ISP của bạn.
 
 Rủi ro chính liên quan đến phương pháp này là Tor là một giao thức độc lập với Bitcoin. Nếu bạn có một nốt Bitcoin dưới Tor và Tor ngừng hoạt động, thì nốt Bitcoin của bạn sẽ không thể giao tiếp được nữa.
 
-Ngoài ra, cần lưu ý rằng giao tiếp qua Tor chậm hơn. Độ trễ này đặc biệt gây phiền toái trong quá trình khởi chạy ban đầu của một nốt, vì Việc Tải xuống Khối Ban đầu (IBD) đòi hỏi nhiều giao tiếp. Do đó, việc đồng bộ hóa ban đầu của bạn với mạng Bitcoin có thể kéo dài đáng kể khi sử dụng Tor. Cũng có thể thực hiện IBD trên clearnet, sau đó kích hoạt Tor sau. Mặc dù phương pháp này tiết lộ sự tồn tại của nốt Bitcoin của bạn cho ISP, nhưng nó bảo vệ thông tin liên quan đến các giao dịch cá nhân của bạn một khi bạn chuyển sang Tor.
+Ngoài ra, cần lưu ý rằng giao tiếp qua Tor chậm hơn. Độ trễ này đặc biệt gây phiền toái trong quá trình khởi chạy ban đầu của một nốt, vì việc tải xuống ba đầu (IBD) đòi hỏi nhiều giao tiếp. Do đó, việc đồng bộ hóa ban đầu của bạn với mạng Bitcoin có thể kéo dài đáng kể khi sử dụng Tor. Cũng có thể thực hiện IBD trên clearnet, sau đó kích hoạt Tor sau. Mặc dù phương pháp này tiết lộ sự tồn tại nốt Bitcoin của bạn cho ISP, nhưng nó bảo vệ thông tin liên quan đến các giao dịch cá nhân của bạn một khi bạn chuyển sang Tor.
 
 Sau khi khám phá các phương pháp bảo mật ở cấp độ mạng, tôi cũng muốn giới thiệu trong các chương tiếp theo hai giải pháp tinh tế để tránh việc sử dụng lại địa chỉ: BIP47 và Silent Payments.
 
-## BIP47 và Mã Thanh Toán Có Thể Sử Dụng Lại
+## BIP47 và Mã thanh toán có thể tái sử dụng
 <chapterId>ad88e076-a04b-4aec-b3b2-7b4760175504</chapterId>
 
-Như chúng ta đã thấy trong phần 3, việc sử dụng lại địa chỉ đặt ra một trở ngại lớn cho quyền riêng tư của người dùng trên giao thức Bitcoin. Để giảm thiểu những rủi ro này, việc tạo một địa chỉ nhận mới cho mỗi khoản thanh toán mới nhận được trong ví là điều được khuyến nghị mạnh mẽ. Mặc dù việc tạo một địa chỉ mới ngày nay được đơn giản hóa bởi việc sử dụng phần mềm hiện đại và ví phân cấp xác định, thực hành này có thể có vẻ trái ngược với trực giác.
+Như chúng ta đã thấy trong phần 3, việc sử dụng lại địa chỉ đặt ra một trở ngại lớn cho quyền riêng tư của người dùng trên giao thức Bitcoin. Để giảm thiểu những rủi ro này, việc tạo một địa chỉ nhận mới cho mỗi khoản thanh toán mới nhận được trong ví là điều được khuyến nghị mạnh mẽ. Mặc dù việc tạo một địa chỉ mới ngày nay được đơn giản hóa bởi việc sử dụng phần mềm hiện đại và ví phân cấp tấ định, thực hành này có vẻ trái ngược với trực giác.
 
 ![BTC204](assets/notext/66/1.webp)
 
-Ví dụ, trong hệ thống ngân hàng truyền thống, chúng ta quen với việc chia sẻ IBAN của mình, luôn luôn giữ nguyên. Một khi đã thông báo cho ai đó, họ có thể gửi cho chúng ta nhiều khoản thanh toán mà không cần phải tương tác lại với chúng ta. Các neo-bank cũng cung cấp nhiều khả năng hiện đại hơn như sử dụng địa chỉ email duy nhất trên PayPal hoặc RevTags trên Revolut. Ngay cả ngoài lĩnh vực tài chính, các bộ nhận dạng hàng ngày của chúng ta như địa chỉ bưu điện, số điện thoại và địa chỉ email cũng là duy nhất và vĩnh viễn. Chúng ta không cần phải làm mới chúng với mỗi tương tác mới.
+Ví dụ, trong hệ thống ngân hàng truyền thống, chúng ta quen với việc chia sẻ IBAN của mình, luôn luôn giữ nguyên. Một khi đã thông báo cho ai đó, họ có thể gửi cho chúng ta nhiều khoản thanh toán mà không cần phải tương tác lại với chúng ta. Các ngân hàng hiện đại cũng cung cấp nhiều tính năng hiện đại hơn như sử dụng địa chỉ email duy nhất trên PayPal hoặc RevTags trên Revolut. Ngay cả ngoài lĩnh vực tài chính, các bộ nhận dạng hàng ngày của chúng ta như địa chỉ bưu điện, số điện thoại và địa chỉ email cũng là duy nhất và vĩnh viễn. Chúng ta không cần phải làm mới chúng với mỗi tương tác mới.
 
 ![BTC204](assets/notext/66/2.webp)
-Tuy nhiên, hoạt động của Bitcoin khác biệt: việc tạo một địa chỉ nhận mới cho mỗi giao dịch đến là điều bắt buộc. Sự thỏa hiệp giữa sự tiện lợi và quyền riêng tư này có từ ngay nguồn gốc của Bitcoin White Paper. Từ việc xuất bản phiên bản đầu tiên của tài liệu này vào cuối năm 2008, Satoshi Nakamoto đã cảnh báo chúng ta về rủi ro này:
+Tuy nhiên, hoạt động của Bitcoin khác biệt: việc tạo một địa chỉ nhận mới cho mỗi giao dịch đến là điều bắt buộc. Sự thỏa hiệp giữa sự tiện lợi và quyền riêng tư này có từ ngay trong bản cáo bạch của Bitcoin (Bitcoin Whitepaper). Từ lần công bố phiên bản đầu tiên của tài liệu này vào cuối năm 2008, Satoshi Nakamoto đã cảnh báo chúng ta về rủi ro này:
 **"*Như một bức tường lửa bổ sung, một cặp khóa mới có thể được sử dụng cho mỗi giao dịch để giữ chúng không liên kết với một chủ sở hữu chung.*"**
-Có nhiều phương pháp để nhận nhiều khoản thanh toán vào một định danh duy nhất mà không gây ra việc tái sử dụng địa chỉ. Mỗi phương pháp đều có những sự thỏa hiệp và hạn chế của riêng nó. Trong số các phương pháp này là BIP47, một đề xuất được phát triển bởi Justus Ranvier và công bố vào năm 2015. Đề xuất này nhằm tạo ra các mã thanh toán có thể tái sử dụng cho phép thực hiện nhiều giao dịch với cùng một người mà tránh được việc tái sử dụng địa chỉ. Về bản chất, BIP47 tìm cách cung cấp một hệ thống thanh toán trực quan như một định danh duy nhất, đồng thời bảo vệ sự riêng tư của các giao dịch.
+Có nhiều phương pháp để nhận nhiều khoản thanh toán vào một định danh duy nhất mà không gây ra việc tái sử dụng địa chỉ. Mỗi phương pháp đều có những sự thỏa hiệp và hạn chế của riêng nó. Một trong số các phương pháp này là BIP47, một đề xuất được phát triển bởi Justus Ranvier và công bố vào năm 2015. Đề xuất này nhằm tạo ra các mã thanh toán có thể tái sử dụng cho phép thực hiện nhiều giao dịch với cùng một người mà tránh được việc tái sử dụng địa chỉ ví. Về bản chất, BIP47 tìm cách cung cấp một hệ thống thanh toán trực quan như một định danh duy nhất, đồng thời bảo vệ sự riêng tư của các giao dịch.
 ![BTC204](assets/notext/66/3.webp)
 
-BIP47 không trực tiếp cải thiện sự riêng tư của người dùng, vì một khoản thanh toán BIP47 cung cấp cùng một mức độ riêng tư như một giao dịch Bitcoin cổ điển sử dụng địa chỉ mới. Tuy nhiên, nó làm cho việc sử dụng Bitcoin trở nên thuận tiện và trực quan hơn, một sự thuận tiện mà, bình thường, sẽ phải đánh đổi sự riêng tư. Nhờ có BIP47, sự thuận tiện này đạt được cùng một mức độ riêng tư như một giao dịch cổ điển. Đây là lý do tại sao BIP47 là một công cụ quý giá cho việc bảo tồn sự riêng tư.
+BIP47 không trực tiếp cải thiện sự riêng tư của người dùng, vì một khoản thanh toán BIP47 cung cấp cùng một mức độ riêng tư như một giao dịch Bitcoin cổ điển sử dụng địa chỉ mới. Tuy nhiên, nó làm cho việc sử dụng Bitcoin trở nên thuận tiện và trực quan hơn, một sự thuận tiện mà, bình thường, sẽ phải đánh đổi bởi sự riêng tư. Nhờ có BIP47, sự thuận tiện này đạt được cùng một mức độ riêng tư như một giao dịch cổ điển. Đây là lý do tại sao BIP47 là một công cụ quý giá để bảo vệ sự riêng tư.
 
 Ban đầu, BIP47 là một đề xuất được đưa ra để tích hợp vào Bitcoin Core, nhưng nó chưa bao giờ được chấp nhận. Một số phần mềm vẫn chọn để triển khai nó theo cách riêng của họ ở cấp độ ứng dụng. Do đó, các đội ngũ tại Samourai Wallet đã phát triển triển khai BIP47 của riêng họ có tên là "PayNym".
 
-### Nguyên Tắc Chung của BIP47 và PayNym
+### Nguyên tắc chung của BIP47 và PayNym
 
-Mục tiêu của BIP47 là cho phép việc nhận nhiều khoản thanh toán mà không gây ra việc tái sử dụng địa chỉ. Nó dựa vào việc sử dụng một mã thanh toán có thể tái sử dụng, cho phép các bên gửi khác nhau gửi nhiều khoản thanh toán vào một mã duy nhất thuộc về người dùng khác. Do đó, người nhận không phải cung cấp một địa chỉ mới cho mỗi giao dịch, điều này giúp họ dễ dàng trao đổi hơn đồng thời bảo vệ sự riêng tư của họ.
+Mục tiêu của BIP47 là cho phép việc nhận nhiều khoản thanh toán mà không gây ra việc tái sử dụng địa chỉ. Nó dựa vào việc sử dụng một mã thanh toán có thể tái sử dụng, cho phép các bên khác nhau gửi nhiều khoản thanh toán vào một mã duy nhất thuộc về người dùng khác. Do đó, người nhận không phải cung cấp một địa chỉ mới cho mỗi giao dịch, điều này giúp họ dễ dàng trao đổi hơn đồng thời bảo vệ sự riêng tư của họ.
 
 ![BTC204](assets/vi/66/4.webp)
 
 Một người dùng có thể chia sẻ mã thanh toán của mình một cách tự do, dù là trên mạng xã hội hay trên trang web của họ, mà không lo mất đi sự riêng tư, không giống như những gì sẽ xảy ra với một địa chỉ nhận cổ điển hoặc một khóa công khai.
-Để thực hiện một giao dịch, cả hai bên phải có một ví Bitcoin với triển khai BIP47, như PayNym trên Samourai Wallet hoặc Sparrow Wallet. Việc sử dụng chung mã thanh toán của họ tạo ra một kênh bí mật giữa họ. Để thiết lập kênh này một cách hiệu quả, người gửi phải thực hiện một giao dịch cụ thể trên blockchain Bitcoin, được biết đến là "giao dịch thông báo" (Tôi sẽ cung cấp thêm chi tiết về điều này sau).
+Để thực hiện một giao dịch, cả hai bên phải có một ví Bitcoin với triển khai BIP47, như PayNym trên Samourai Wallet hoặc Sparrow Wallet. Việc sử dụng chung mã thanh toán tạo ra một kênh bí mật giữa họ. Để thiết lập kênh này một cách hiệu quả, người gửi phải thực hiện một giao dịch cụ thể trên blockchain Bitcoin, được biết đến là "giao dịch thông báo" (Tôi sẽ cung cấp thêm chi tiết về điều này sau).
 
-Sự kết hợp của mã thanh toán của cả hai người dùng tạo ra các bí mật chung, từ đó cho phép tạo ra một số lượng lớn địa chỉ Bitcoin nhận duy nhất (chính xác là 2^32, hoặc khoảng 4 tỷ). Do đó, các khoản thanh toán thực hiện qua BIP47 thực sự không được gửi đến chính mã thanh toán, mà là đến các địa chỉ nhận cổ điển được tạo ra từ mã thanh toán của các người dùng liên quan.
+Sự kết hợp của mã thanh toán của cả hai người dùng tạo ra các bí mật chung, từ đó cho phép tạo ra một số lượng lớn địa chỉ Bitcoin nhận đọc nhất (chính xác là 2^32, hoặc khoảng 4 tỷ). Do đó, các khoản thanh toán thực hiện qua BIP47 thực sự không được gửi đến chính mã thanh toán, mà là đến các địa chỉ nhận cổ điển được tạo ra từ mã thanh toán của những người dùng liên quan.
 
 Mã thanh toán do đó phục vụ như một định danh ảo được tạo ra từ hạt giống của ví. Trong cấu trúc phân cấp của ví, mã thanh toán được đặt ở cấp độ 3, tức là, ở cấp độ tài khoản.
 
@@ -2468,13 +2470,13 @@ Mục tiêu phái sinh cho BIP47 được xác định bởi chỉ số `47'` (`
 m/47'/0'/0'/
 ```
 
-Để cho bạn một ý tưởng về mã thanh toán trông như thế nào, đây là mã của tôi:
+Đây là mã thanh toán của tôi, một ví dụ để bạn có thể hình dung về một mã thanh toán:
 ```plaintext
 PM8TJSBiQmNQDwTogMAbyqJe2PE2kQXjtgh88MRTxsrnHC8zpEtJ8j7Aj628oUFk8X6P5rJ7P5qDudE4Hwq9JXSRzGcZJbdJAjM9oVQ1UKU5j2nr7VR5
 ```
-Mã cũng có thể được mã hóa trong một mã QR, để thuận tiện cho việc truyền đạt, giống như một địa chỉ nhận cổ điển.
+Mã cũng có thể được mã hóa thành một mã QR, để thuận tiện cho việc truyền đạt, giống như một địa chỉ nhận cổ điển.
 
-Về PayNym Bots, những robot này thỉnh thoảng được thấy trên Twitter, chúng là biểu diễn hình ảnh của mã thanh toán, được tạo ra bởi Samourai Wallet. Chúng được tạo ra thông qua một hàm băm, mang lại cho chúng sự gần như duy nhất. Chúng xuất hiện dưới dạng một chuỗi nhỏ các ký tự bắt đầu với `+`:
+Về PayNym Bots, những robot này thỉnh thoảng được thấy trên Twitter, chúng là biểu diễn hình ảnh của mã thanh toán, được tạo ra bởi Samourai Wallet. Chúng được tạo ra thông qua một hàm băm, mang lại cho chúng sự gần như là độc nhất. Chúng xuất hiện dưới dạng một chuỗi nhỏ các ký tự bắt đầu với `+`:
 ```plaintext
 +throbbingpond8B1
 +twilightresonance487
@@ -2487,21 +2489,21 @@ Những avatar này cũng có thể được biểu diễn dưới dạng hình 
 
 Mặc dù những robot này không có chức năng kỹ thuật cụ thể nào trong khuôn khổ của BIP47, chúng đóng vai trò trong việc tạo điều kiện cho các tương tác giữa người dùng bằng cách cung cấp một danh tính hình ảnh dễ nhận biết.
 
-Trong các phần tiếp theo của chương này dành riêng cho BIP47, chúng ta sẽ xem xét chi tiết cách thức hoạt động của nó, với một sự nhấn mạnh đặc biệt vào các phương pháp mật mã học được sử dụng. Để hiểu đầy đủ những giải thích kỹ thuật này, điều cần thiết là phải hiểu trước cấu trúc của ví HD, các quy trình phát sinh khóa, và các nguyên tắc cơ bản của mật mã học dựa trên đường cong elliptic. Nếu bạn muốn tìm hiểu sâu hơn về những khái niệm này, một khóa học miễn phí khác có sẵn trên PlanB Network: [CRYPTO 301](https://planb.network/en/courses/crypto301). Tôi vẫn khuyên bạn nên theo dõi chúng, vì việc hiểu rõ cơ chế kỹ thuật của BIP47 sẽ giúp bạn dễ dàng hiểu các đề xuất tương tự khác mà chúng tôi sẽ thảo luận trong các chương tiếp theo.
-### Mã Thanh Toán Có Thể Sử Dụng Lại
+Trong các phần tiếp theo của chương được dành riêng cho BIP47 này, chúng ta sẽ xem xét chi tiết cách thức hoạt động của nó, và nhấn mạnh đặc biệt vào các phương pháp mật mã học được sử dụng. Để hiểu đầy đủ những giải thích kỹ thuật này, điều cần thiết là phải hiểu trước cấu trúc của ví HD - ví phân cấp tất định, các quy trình phát sinh khóa, và các nguyên tắc cơ bản của mật mã học dựa trên đường cong e líp. Nếu bạn muốn tìm hiểu sâu hơn về những khái niệm này, một khóa học miễn phí khác có sẵn trên PlanB Network: [CRYPTO 301](https://planb.network/en/courses/crypto301). Tôi vẫn khuyên bạn nên theo dõi chúng, vì việc hiểu rõ cơ chế kỹ thuật của BIP47 sẽ giúp bạn dễ dàng hiểu các đề xuất tương tự khác mà chúng ta sẽ thảo luận trong các chương tiếp theo.
+### Mã thanh toán có thể sử dụng lại
 
 Như đã đề cập trước đó, mã thanh toán có thể sử dụng lại nằm ở độ sâu 3 của ví HD, làm cho nó tương đương với một `xpub`, cả về vị trí của nó trong cấu trúc ví và vai trò của nó.
 
-Mã thanh toán 80 byte được phân chia như sau:
-- **Byte `0`: Phiên bản**. Đối với phiên bản đầu tiên của BIP47, byte này được thiết lập là `0x01`;
-- **Byte `1`: Trường bit**. Không gian này được dành riêng để tích hợp các chỉ dẫn bổ sung trong các sử dụng cụ thể. Đối với sử dụng tiêu chuẩn với PayNym, byte này được định nghĩa là `0x00`;
-- **Byte `2`: Tính chẵn lẻ của `y`**. Byte này là `0x02` hoặc `0x03`, chỉ ra rằng tọa độ tung của khóa công khai là chẵn hay lẻ, vì một khóa công khai nén được sử dụng;
+Mã thanh toán 80 byte sẽ bao gồm:
+- **Byte `0`: Phiên bản - Version**. Đối với phiên bản đầu tiên của BIP47, byte này được thiết lập là `0x01`;
+- **Byte `1`: Trường bit - Bit Filed**. Không gian này được dành riêng để tích hợp các chỉ dẫn bổ sung trong các sử dụng cụ thể. Đối với cách sử dụng tiêu chuẩn với PayNym, byte này được định nghĩa là `0x00`;
+- **Byte `2`: Tính chẵn lẻ của `y`**. Byte này là `0x02` hoặc `0x03`, chỉ ra rằng tung độ của khóa công khai là chẵn hay lẻ, vì một khóa công khai nén được sử dụng ở đây;
 - **Từ byte `3` đến byte `34`: Giá trị `x`**. Những byte này đại diện cho hoành độ của khóa công khai. Sự kết hợp của `x` và tính chẵn lẻ của `y` tạo thành khóa công khai nén hoàn chỉnh;
-- **Từ byte `35` đến byte `66`: Mã chuỗi**. Không gian này chứa mã chuỗi liên kết với khóa công khai;
-- **Từ byte `67` đến byte `79`: Đệm**. Không gian này dành cho các phát triển tương lai có thể có. Đối với phiên bản hiện tại, các số không đơn giản được đặt ở đây để đạt được kích thước 80 byte cần thiết cho một đầu ra `OP_RETURN`.
+- **Từ byte `35` đến byte `66`: Mã chuỗi - Chain Code**. Không gian này chứa mã chuỗi liên kết với khóa công khai;
+- **Từ byte `67` đến byte `79`: Đệm - Padding**. Không gian này dành cho các phát triển tương lai có thể có. Đối với phiên bản hiện tại, các số không đơn giản được đặt ở đây để đạt được kích thước 80 byte cần thiết cho một đầu ra `OP_RETURN`.
 
 Dưới đây là biểu diễn hệ thập lục phân của mã thanh toán có thể sử dụng lại của
-tôi đã được trình bày trong phần trước:
+tôi đã được nếu ra trong phần trước:
 ```
 0x010002a0716529bae6b36c5c9aa518a52f9c828b46ad8d907747f0d09dcd4d9a39e97c3c5f37c470c390d842f364086362f6122f412e2b0c7e7fc6e32287e364a7a36a00000000000000000000000000
 ```
@@ -2518,25 +2520,25 @@ Cuối cùng, để đảm bảo tính toàn vẹn của mã thanh toán, một 
 0x47010002a0716529bae6b36c5c9aa518a52f9c828b46ad8d907747f0d09dcd4d9a39e97c3c5f37c470c390d842f364086362f6122f412e2b0c7e7fc6e32287e364a7a36a00000000000000000000000000567080c4
 ```
 
-Sau khi hoàn thành các bước này, mã thanh toán đã sẵn sàng. Điều còn lại là chuyển đổi nó thành base 58 để thu được phiên bản cuối cùng:
+Sau khi hoàn thành các bước này, mã thanh toán đã sẵn sàng. Điều còn lại là chuyển đổi nó thành hệ Base58 để thu được phiên bản cuối cùng:
 ```plaintext
 PM8TJSBiQmNQDwTogMAbyqJe2PE2kQXjtgh88MRTxsrnHC8zpEtJ8j7Aj628oUFk8X6P5rJ7P5qDudE4Hwq9JXSRzGcZJbdJAjM9oVQ1UKU5j2nr7VR5
 ```
 
-Trong quá trình tạo mã thanh toán này, chúng tôi sử dụng một khóa công khai nén và một mã chuỗi. Cả hai đều được suy ra từ một quá trình suy ra định hình và phân cấp từ hạt giống của ví. Đường dẫn suy ra được sử dụng để đạt được điều này là:
+Trong quá trình tạo mã thanh toán này, chúng ta sử dụng một khóa công khai nén và một mã chuỗi. Cả hai đều được suy ra từ một quá trình dẫn xuất tất định và phân cấp từ hạt giống của ví. Đường dẫn xuất được sử dụng để đạt được điều này là:
 ```plaintext
 m/47'/0'/0'/
 ```
-Để tạo ra khóa công khai nén và mã chuỗi liên quan cho mã thanh toán có thể sử dụng lại, chúng tôi bắt đầu bằng cách tính toán khóa riêng tư chính từ hạt giống của ví. Sau đó, chúng tôi tiếp tục suy ra một cặp khóa con sử dụng chỉ số `47 + 2^31` (suy ra cứng). Bước này được theo sau bởi hai lần suy ra cặp khóa con nữa, mỗi lần sử dụng chỉ số `2^31` (suy ra cứng).
+Để tạo ra khóa công khai nén và mã chuỗi liên quan cho mã thanh toán có thể sử dụng lại, chúng ta bắt đầu bằng cách tính toán khóa riêng tư chính từ hạt giống của ví. Sau đó, chúng ta tiếp tục suy ra một cặp khóa con sử dụng chỉ số `47 + 2^31` (dẫn xuất cứng). Bước này được theo sau bởi hai lần xuất ra các cặp khóa con, mỗi lần sử dụng chỉ số `2^31` (dẫn xuất cứng).
 
-### Trao Đổi Khóa Elliptic-Curve Diffie-Hellman (ECDH)
-Giao thức mật mã nằm ở trung tâm của BIP47 được gọi tắt là ECDH, cho *Elliptic-Curve Diffie-Hellman*. Phương pháp này là một biến thể của giao thức trao đổi khóa Diffie-Hellman gốc.
+### Trao đổi khoá Đường cong e-líp Diffie-Hellman (ECDH)
+Giao thức mật mã nằm ở trung tâm của BIP47 được gọi tắt là ECDH - *Elliptic-Curve Diffie-Hellman*. Phương pháp này là một biến thể của giao thức trao đổi khóa Diffie-Hellman gốc.
 
 Được giới thiệu vào năm 1976, Diffie-Hellman là một giao thức thỏa thuận khóa cho phép hai bên, mỗi bên được trang bị một cặp khóa (công khai và riêng tư), thỏa thuận về một bí mật chung, ngay cả khi giao tiếp chỉ qua một kênh công cộng và không an toàn.
 
 ![BTC204](assets/vi/66/10.webp)
 
-Bí mật chung này (ở đây, là chìa khóa màu xanh), sau đó có thể được sử dụng cho các hoạt động khác. Thông thường, bí mật chung này có thể được sử dụng để mã hóa và giải mã giao tiếp qua mạng không an toàn:
+Bí mật chung này (ở đây, là chìa khóa màu xanh), sau đó có thể được sử dụng cho các hoạt động khác. Thông thường, bí mật chung này có thể được sử dụng để mã hóa và giải mã giao tiếp qua một mạng lưới không an toàn:
 
 ![BTC204](assets/notext/66/11.webp)
 
@@ -2544,43 +2546,43 @@ Bí mật chung này (ở đây, là chìa khóa màu xanh), sau đó có thể 
 - Alice và Bob thỏa thuận về một màu chung, ở đây là màu vàng, đây là dữ liệu công khai (kẻ tấn công biết màu này);
 - Alice chọn một màu bí mật, ở đây là màu đỏ, và trộn hai màu để thu được màu cam;
 - Bob cũng chọn một màu bí mật, ở đây là màu xanh, và trộn nó với màu vàng để thu được màu xanh lá;
-- Sau đó, họ trao đổi màu sắc thu được, màu cam và màu xanh lá. Việc trao đổi này có thể diễn ra qua một mạng không an toàn và được quan sát;
+- Sau đó, họ trao đổi màu sắc thu được, màu cam và màu xanh lá. Việc trao đổi này có thể diễn ra qua một mạng không an toàn và bị quan sát;
 - Bằng cách trộn màu xanh lá của Bob với màu bí mật của mình, Alice tạo ra màu nâu;
 - Bob, làm tương tự với màu cam của Alice và màu xanh bí mật của mình, cũng thu được màu nâu.
 
 ![BTC204](assets/vi/66/12.webp)
 
-Trong sự đơn giản hóa này, màu nâu đại diện cho bí mật chung giữa Alice và Bob. Điều quan trọng cần hiểu là, trong thực tế, kẻ tấn công không thể tách màu cam và màu xanh lá để khám phá màu bí mật của Alice hoặc Bob.
+Trong ví dụ đơn giản hóa này, màu nâu đại diện cho bí mật chung giữa Alice và Bob. Điều quan trọng cần hiểu là, trong thực tế, kẻ tấn công không thể tách màu cam và màu xanh lá để khám phá màu bí mật của Alice hoặc Bob.
 
 Bây giờ, hãy xem xét cách giao thức này thực sự hoạt động, không phải với các phép ẩn dụ màu sắc, mà sử dụng số thực và số học mô-đun!
 Trước khi thảo luận về các cơ chế của Diffie-Hellman, cho phép tôi nhắc bạn về hai khái niệm toán học thiết yếu mà chúng ta sẽ cần:
 
-- Một **số nguyên tố** là một số tự nhiên chỉ có hai ước số: $1$ và chính nó. Ví dụ, $7$ là một số nguyên tố vì nó chỉ có thể chia hết cho $1$ và $7$. Ngược lại, $8$ không phải là số nguyên tố vì nó có thể chia hết cho $1$, $2$, $4$, và $8$. Do đó, nó có bốn ước số nguyên dương thay vì hai;
-- **Modulo** (ký hiệu $mod$ hoặc $\%$) là một phép toán toán học mà, giữa hai số nguyên, trả về số dư của phép chia Euclid của số thứ nhất cho số thứ hai. Ví dụ, $16 \bmod 5 = 1$.
+- Một **số nguyên tố** là một số tự nhiên chỉ có hai ước số: 1 và chính nó. Ví dụ, 7 là một số nguyên tố vì nó chỉ có thể chia hết cho 1 và 7. Ngược lại, 8 không phải là số nguyên tố vì nó có thể chia hết cho 1, 2, 4 và 8. Do đó, nó có bốn ước số nguyên dương thay vì hai;
+- **Modulo - số dư** (ký hiệu mod hoặc %) là một phép toán toán học mà, giữa hai số nguyên, trả về số dư của phép chia của số thứ nhất cho số thứ hai. Ví dụ, 16 \mod 5 = 1.
 
-**Giao thức trao đổi khóa Diffie-Hellman giữa Alice và Bob diễn ra như sau:**
+**Việc trao đổi khóa Diffie-Hellman giữa Alice và Bob diễn ra như sau:**
 
-- Alice và Bob thỏa thuận về hai số chung: $p$ và $g$. $p$ là một số nguyên tố, và số này càng lớn thì Diffie-Hellman càng an toàn. $g$ là một căn nguyên thủy của $p$. Hai số này có thể được thông báo một cách công khai qua một mạng không an toàn. Chúng đại diện cho tương đương của **màu vàng** trong sự đơn giản hóa trước đó. Do đó, rất quan trọng là Alice và Bob sử dụng chính xác cùng một giá trị cho $p$ và $g$.
-- Một khi các tham số này được xác định, Alice và Bob mỗi người chọn một số ngẫu nhiên bí mật. Alice đặt tên cho số ngẫu nhiên bí mật của mình là $a$ (tương đương với **màu đỏ**) và Bob đặt tên cho số của mình là $b$ (tương đương với **màu xanh dương**). Những số này phải được giữ bí mật tuyệt đối.
-- Thay vì trực tiếp trao đổi các số $a$ và $b$, mỗi bên tính toán $A$ và $B$ như sau:
+- Alice và Bob thỏa thuận về hai số chung: p và g. p là một số nguyên tố, và số này càng lớn thì Diffie-Hellman càng an toàn. g là một căn nguyên thủy của p. Hai số này có thể được thông báo một cách công khai qua một mạng lưới không an toàn. Chúng đại diện cho tương đương của **màu vàng** trong ví dụ đơn giản hóa trước đó. Do đó, rất quan trọng là Alice và Bob sử dụng chính xác cùng một giá trị cho p và g.
+- Một khi các tham số này được xác định, Alice và Bob mỗi người chọn một số ngẫu nhiên bí mật. Alice đặt tên cho số ngẫu nhiên bí mật của mình là a (tương đương với **màu đỏ**) và Bob đặt tên cho số của mình là b (tương đương với **màu xanh dương**). Những số này phải được giữ bí mật tuyệt đối.
+- Thay vì trực tiếp trao đổi các số a và b, mỗi bên tính toán A và B như sau:
 
-$A$ bằng $g$ nâng lên lũy thừa của $a$ theo modulo $p$:
+A bằng g nâng lên lũy thừa của a theo modulo p:
 
 $$
 A = g^a \bmod p
 $$
 
-$B$ bằng $g$ nâng lên lũy thừa của $b$ theo modulo $p$:
+B bằng g nâng lên lũy thừa của b theo modulo p:
 
 $$
 B = g^b \bmod p
 $$
 
-- Các giá trị $A$ (tương đương với **màu cam**) và $B$ (tương đương với **màu xanh lá**) được trao đổi giữa hai bên. Việc trao đổi này có thể diễn ra công khai trên một mạng không an toàn;
+- Các giá trị A (tương đương với **màu cam**) và B (tương đương với **màu xanh lá**) được trao đổi giữa hai bên. Việc trao đổi này có thể diễn ra công khai trên một mạng không an toàn;
 
-- Alice, sau khi nhận được $B$, tính giá trị của $z$ như sau:
+- Alice, sau khi nhận được B, tính giá trị của x như sau:
 
-$z$ bằng $B$ nâng lên lũy thừa của $a$ theo modulo $p$:
+x bằng B nâng lên lũy thừa của $a$ theo modulo p:
 
 $$
 z = B^a \bmod p
@@ -2613,9 +2615,9 @@ $$
 z = g^{ba} \bmod p
 $$
 
-- Về phía mình, Bob, sau khi nhận được $A$, cũng tính giá trị của $z$ theo cách sau:
+- Về phía mình, Bob, sau khi nhận được A, cũng tính giá trị của z theo cách sau:
 
-$z$ bằng $A$ nâng lên lũy thừa của $b$ theo modulo $p$:
+z bằng A nâng lên lũy thừa của b theo modulo p:
 
 $$
 z = A^b \bmod p
@@ -2635,90 +2637,90 @@ $$
 z = g^{ba} \bmod p
 $$
 
-Nhờ vào tính phân phối của toán tử modulo, Alice và Bob thu được chính xác cùng một giá trị $z$. Số này đại diện cho bí mật chung của họ, tương đương với **màu nâu** trong sự đơn giản hóa trước đó với các chậu sơn. Giờ đây, họ có thể sử dụng bí mật chung này để mã hóa thông tin liên lạc của mình một cách đối xứng trên một mạng không an toàn.
+Nhờ vào tính phân phối của toán tử modulo, Alice và Bob thu được chính xác cùng một giá trị z. Số này đại diện cho bí mật chung của họ, tương đương với **màu nâu** trong ví dụ đơn giản hóa trước đó với các lọ sơn. Giờ đây, họ có thể sử dụng bí mật chung này để mã hóa thông tin liên lạc của mình một cách đối xứng trên một mạng lưới không an toàn.
 
 ![BTC204](assets/notext/66/13.webp)
 
-Kẻ tấn công, ngay cả khi có trong tay $p$, $g$, $A$, và $B$ (các giá trị công khai), sẽ không thể tính toán được $a$, $b$, hoặc $z$ (các giá trị riêng tư). Để làm được điều này, người ta phải đảo ngược phép lũy thừa, một thao tác không thể thực hiện mà không thử tất cả các khả năng từng cái một, vì nó tương đương với việc tính logarit rời rạc, tức là nghịch đảo của phép mũ trong một nhóm chu kỳ hữu hạn.
+Kẻ tấn công, ngay cả khi có trong tay p, g A và B (các giá trị công khai), sẽ không thể tính toán được a, b, hoặc z (các giá trị riêng tư). Để làm được điều này, người ta phải đảo ngược phép lũy thừa, một thao tác không thể thực hiện nếu không thử từng cái một, vì nó tương đương với việc tính logarit rời rạc, tức là nghịch đảo của phép mũ trong một nhóm chu kỳ hữu hạn.
 
-Do đó, miễn là các giá trị của $a$, $b$, và $p$ đủ lớn, giao thức Diffie-Hellman được coi là an toàn. Thông thường, với các tham số 2048-bit (một số có 600 chữ số trong hệ thập phân), việc thử tất cả các khả năng cho $a$ và $b$ sẽ không khả thi. Cho đến nay, với những con số như vậy, thuật toán này được coi là an toàn.
-Đây chính xác là nơi mà nhược điểm chính của giao thức Diffie-Hellman nằm ở. Để đảm bảo an toàn, thuật toán phải sử dụng các số lớn. Đó là lý do tại sao, ngày nay, thuật toán ECDH (*Elliptic Curve Diffie-Hellman*), một biến thể của Diffie-Hellman dựa trên một đường cong đại số, cụ thể hơn là một đường cong elliptic, được ưa chuộng. Cách tiếp cận này cho phép làm việc với các số nhỏ hơn nhiều trong khi vẫn duy trì an ninh tương đương, từ đó giảm bớt nguồn lực cần thiết cho việc tính toán và lưu trữ.
+Do đó, miễn là các giá trị của a, b và p đủ lớn, giao thức Diffie-Hellman được coi là an toàn. Thông thường, với các tham số 2048-bit (một số có 600 chữ số trong hệ thập phân), việc thử tất cả các khả năng cho a và b sẽ không khả thi. Cho đến nay, với những con số như vậy, thuật toán này được coi là an toàn.
+Đây chính xác là nơi mà nhược điểm chính của giao thức Diffie-Hellman tồn tại. Để đảm bảo an toàn, thuật toán phải sử dụng các số lớn. Đó là lý do tại sao, ngày nay, thuật toán ECDH (*Elliptic Curve Diffie-Hellman*), một biến thể của Diffie-Hellman dựa trên một đường cong đại số, cụ thể hơn là một đường cong e-líp, được ưa chuộng. Cách tiếp cận này cho phép làm việc với các số nhỏ hơn nhiều trong khi vẫn duy trì mức độ bảo mật tương đương, từ đó giảm bớt nguồn lực cần thiết cho việc tính toán và lưu trữ.
 
-Nguyên tắc chung của thuật toán vẫn giữ nguyên. Tuy nhiên, thay vì sử dụng một số ngẫu nhiên $a$ và một số $A$ được tính từ $a$ thông qua lũy thừa mô-đun, chúng ta sử dụng một cặp khóa được thiết lập trên một đường cong elliptic. Thay vì dựa vào tính phân phối của toán tử modulo, chúng ta sử dụng luật nhóm trên các đường cong elliptic, và cụ thể hơn là tính kết hợp của luật này.
+Nguyên tắc chung của thuật toán vẫn giữ nguyên. Tuy nhiên, thay vì sử dụng một số ngẫu nhiên a và một số A được tính từ a thông qua lũy thừa mô-đun, chúng ta sử dụng một cặp khóa được thiết lập trên một đường cong e-líp. Thay vì dựa vào tính phân phối của toán tử modulo, chúng ta sử dụng luật nhóm trên các đường cong e-líp, và cụ thể hơn là tính kết hợp của luật này.
 
-Để giải thích ngắn gọn nguyên tắc của mật mã học đường cong elliptic, một khóa riêng được biểu diễn bởi một số ngẫu nhiên từ $1$ đến $n-1$, nơi $n$ đại diện cho thứ tự của đường cong. Mặt khác, khóa công khai là một điểm cụ thể trên đường cong này, được thu được từ khóa riêng thông qua các phép toán cộng điểm và nhân đôi điểm bắt đầu từ điểm sinh, theo phương trình:
+Để giải thích ngắn gọn nguyên tắc của mật mã học đường cong e-líp, một khóa riêng tư được biểu diễn bởi một số ngẫu nhiên từ 1 đến n-1, nơi n đại diện cho thứ tự của đường cong. Mặt khác, khóa công khai là một điểm cụ thể trên đường cong này, thu được từ khóa riêng tư thông qua các phép toán cộng điểm và nhân đôi điểm bắt đầu từ điểm sinh, theo phương trình:
 $$
 K = k \cdot G
 $$
 
-Trong công thức này, $K$ biểu diễn khóa công khai, $k$ là khóa riêng, và $G$ là điểm sinh.
+Trong công thức này, K là khóa công khai, k là khóa riêng tư, và G là điểm sinh.
 
-Một trong những đặc điểm quan trọng của các khóa này là việc tính toán $K$ từ $k$ và $G$ dễ dàng, trong khi việc tìm $k$ từ $K$ và $G$ gần như là không thể. Sự bất đối xứng này tạo ra một hàm một chiều. Nói cách khác, việc tính toán khóa công khai nếu biết khóa riêng là dễ dàng, nhưng việc tìm khóa riêng từ khóa công khai là không thể. Sự an toàn này vẫn dựa trên độ khó tính toán của logarit rời rạc.
+Một trong những đặc điểm quan trọng của các khóa này là việc tính toán K từ k và G dễ dàng, trong khi việc tìm k từ K và G gần như là không thể. Sự bất đối xứng này tạo ra một hàm một chiều. Nói cách khác, việc tính toán khóa công khai nếu biết khóa riêng tư thì dễ dàng, nhưng việc tìm khóa riêng từ khóa công khai là không thể. Sự an toàn này vẫn dựa trên độ khó tính toán của logarit rời rạc.
 
 Chúng ta sẽ sử dụng tính chất này để điều chỉnh thuật toán Diffie-Hellman của mình. **Nguyên tắc hoạt động của ECDH như sau:**
 
 - Alice và Bob cùng nhau thỏa thuận một đường cong elliptic an toàn về mặt mật mã và các tham số của nó. Thông tin này là công khai;
 
-- Alice tạo ra một số ngẫu nhiên $ka$ sẽ là khóa riêng của cô ấy. Khóa riêng này phải được giữ bí mật. Cô ấy xác định khóa công khai $Ka$ của mình bằng cách cộng và nhân đôi các điểm trên đường cong elliptic đã chọn:
+- Alice tạo ra một số ngẫu nhiên ka sẽ là khóa riêng tư của cô ấy. Khóa riêng tư này phải được giữ bí mật. Cô ấy xác định khóa công khai Ka của mình bằng cách cộng và nhân đôi các điểm trên đường cong e-líp đã chọn:
 
 $$
 K_a = k_a \cdot G
 $$
 
-- Bob cũng tạo ra một số ngẫu nhiên $kb$ sẽ là khóa riêng của anh ấy. Anh ấy tính toán khóa công khai $Kb$ liên quan:
+- Bob cũng tạo ra một số ngẫu nhiên kb sẽ là khóa riêng của anh ấy. Anh ấy tính toán khóa công khai Kb liên quan:
 
 $$
 K_b = k_b \cdot G
 $$
 
-- Alice và Bob trao đổi khóa công khai $Ka$ và $Kb$ qua một mạng công cộng không an toàn.
+- Alice và Bob trao đổi khóa công khai Ka và Kb qua một mạng công cộng không an toàn.
 
-- Alice tính toán một điểm $(x,y)$ trên đường cong bằng cách áp dụng khóa riêng $ka$ của cô ấy vào khóa công khai $Kb$ của Bob:
+- Alice tính toán một điểm (x,y) trên đường cong bằng cách áp dụng khóa riêng tư ka của cô ấy vào khóa công khai Kb của Bob:
 
 $$
 (x,y) = k_a \cdot K_b
 $$
 
-- Bob tính toán một điểm $(x,y)$ trên đường cong bằng cách áp dụng khóa riêng $kb$ của anh ấy vào khóa công khai $Ka$ của Alice:
+- Bob tính toán một điểm (x,y) trên đường cong bằng cách áp dụng khóa riêng kb của anh ấy vào khóa công khai Ka của Alice:
 
 $$
 (x,y) = k_b \cdot K_a
 $$
 
-- Alice và Bob thu được cùng một điểm trên đường cong elliptic. Bí mật chung sẽ là tọa độ x $x$ của điểm này.
+- Alice và Bob thu được cùng một điểm trên đường cong elliptic. Bí mật chung sẽ là tọa độ theo trục x, x,  của điểm này.
 
 Họ thực sự thu được cùng một bí mật chung vì:
 (x,y) = k_a \cdot K_b = k_a \cdot (k_b \cdot G) = (k_a \cdot k_b) \cdot G = (k_b \cdot k_a) \cdot G = k_b \cdot (k_a \cdot G) = k_b \cdot K_a$$
-Kẻ tấn công quan sát mạng công cộng không bảo mật chỉ có thể thu thập được khóa công khai của từng bên và các tham số của đường cong elliptic đã chọn. Như đã giải thích trước đó, riêng thông tin này không đủ để xác định khóa riêng. Do đó, kẻ tấn công không thể tìm ra bí mật chung giữa Alice và Bob.
+Kẻ tấn công quan sát mạng công cộng không bảo mật chỉ có thể thu thập được khóa công khai của từng bên và các tham số của đường cong e-líp đã chọn. Như đã giải thích trước đó, riêng thông tin này không đủ để xác định khóa riêng tư. Do đó, kẻ tấn công không thể tìm ra bí mật chung giữa Alice và Bob.
 
-ECDH do đó là một thuật toán cho phép trao đổi khóa. Nó thường được sử dụng kết hợp với các phương pháp mật mã khác để thiết lập một giao thức hoàn chỉnh. Ví dụ, ECDH được tích hợp vào cốt lõi của TLS (*Transport Layer Security*), một giao thức mã hóa và xác thực được sử dụng cho lớp vận chuyển của internet. TLS sử dụng ECDHE cho việc trao đổi khóa, một biến thể của ECDH nơi mà các khóa là tạm thời, để cung cấp tính bảo mật liên tục. Ngoài ra, TLS sử dụng các thuật toán xác thực như ECDSA, các thuật toán mã hóa như AES, và các hàm băm như SHA256.
+ECDH do đó là một thuật toán cho phép trao đổi khóa. Nó thường được sử dụng kết hợp với các phương pháp mật mã khác để thiết lập một giao thức hoàn chỉnh. Ví dụ, ECDH được tích hợp vào cốt lõi của TLS (*Transport Layer Security - Bảo mật lớp vận chuyển*), một giao thức mã hóa và xác thực được sử dụng cho lớp vận chuyển của internet. TLS sử dụng ECDHE cho việc trao đổi khóa, một biến thể của ECDH nơi mà các khóa là tạm thời, để cung cấp tính bảo mật liên tục. Ngoài ra, TLS sử dụng các thuật toán xác thực như ECDSA, các thuật toán mã hóa như AES, và các hàm băm như SHA256.
 
-TLS chịu trách nhiệm cho chữ `s` trong `https` cũng như ổ khóa hiển thị trên thanh địa chỉ của trình duyệt của bạn, biểu tượng của giao tiếp được mã hóa. Bằng cách theo dõi khóa học này, bạn do đó đang sử dụng ECDH, và rất có thể bạn sử dụng nó hàng ngày mà không hề biết.
+TLS chịu trách nhiệm cho chữ `s` trong `https` cũng như ổ khóa hiển thị trên thanh địa chỉ của trình duyệt của bạn, biểu tượng của giao tiếp được mã hóa. Bằng cách theo dõi khóa học này, bạn đang sử dụng ECDH, và rất có thể bạn sử dụng nó hàng ngày mà không hề biết.
 
-### Giao Dịch Thông Báo
+### Giao dịch thông báo
 
-Như chúng ta đã thấy trong phần trước, ECDH là một biến thể của trao đổi Diffie-Hellman sử dụng các cặp khóa được thiết lập trên một đường cong elliptic. Thuận tiện là, chúng ta đã sở hữu nhiều cặp khóa tuân theo tiêu chuẩn này trong ví Bitcoin của mình! Ý tưởng của BIP47 là sử dụng các cặp khóa từ ví Bitcoin phân cấp xác định của cả hai bên để thiết lập bí mật chung và tạm thời giữa họ. Trong bối cảnh của BIP47, ECDHE (*Elliptic Curve Diffie-Hellman Ephemeral*) được sử dụng thay thế.
+Như chúng ta đã thấy trong phần trước, ECDH là một biến thể của trao đổi Diffie-Hellman sử dụng các cặp khóa được thiết lập trên một đường cong e-líp. Điều thuận tiện là, chúng ta đã sở hữu nhiều cặp khóa tuân theo tiêu chuẩn này trong ví Bitcoin của mình! Ý tưởng của BIP47 là sử dụng các cặp khóa từ ví HD của cả hai bên để thiết lập bí mật chung và tạm thời giữa họ. Trong bối cảnh của BIP47, ECDHE (*Elliptic Curve Diffie-Hellman Ephemeral*) được sử dụng thay cho ECDH.
 
 ![BTC204](assets/notext/66/14.webp)
 
-ECDHE được sử dụng lần đầu tiên trong BIP47 để truyền mã thanh toán từ người gửi đến người nhận. Đây là **giao dịch thông báo** nổi tiếng. Bước này rất quan trọng vì để BIP47 hoạt động hiệu quả, cả hai bên tham gia (người gửi và người nhận) phải biết mã thanh toán của nhau. Kiến thức này cho phép việc suy ra các khóa công khai tạm thời và do đó, các địa chỉ nhận trống liên quan.
-Trước sự trao đổi này, người gửi lôgic đã biết mã thanh toán của người nhận vì họ đã thu thập nó ngoại tuyến, ví dụ, từ trang web của họ, một hóa đơn, hoặc trên mạng xã hội của họ. Tuy nhiên, người nhận có thể không nhất thiết biết mã thanh toán của người gửi. Tuy nhiên, mã này phải được truyền đến họ; nếu không, họ sẽ không thể suy ra các khóa tạm thời cần thiết để xác định các địa chỉ nơi bitcoin của họ được lưu trữ, cũng như truy cập vào quỹ của họ. Mặc dù việc truyền mã của người gửi có thể kỹ thuật được thực hiện ngoại tuyến thông qua các phương tiện giao tiếp khác, điều này gây ra vấn đề nếu ví cần được khôi phục chỉ từ hạt giống.
-Quả thực, khác với các địa chỉ thông thường, địa chỉ BIP47 không được tạo ra trực tiếp từ seed của người nhận—sử dụng `xpub` sẽ đơn giản hơn trong trường hợp này—nhưng là kết quả của việc tính toán kết hợp cả hai mã thanh toán: của người gửi và của người nhận. Do đó, nếu người nhận mất ví và cố gắng khôi phục nó từ seed của họ, họ sẽ khôi phục được mã thanh toán của mình, được tạo ra trực tiếp từ seed của họ. Tuy nhiên, để tìm ra các địa chỉ tạm thời, họ cần phải có mã thanh toán của tất cả mọi người đã gửi bitcoin cho họ qua BIP47. Do đó, giao dịch thông báo trở nên quan trọng, cho phép lưu trữ thông tin này trên blockchain Bitcoin, đồng thời có thể tìm thấy nó một cách dễ dàng mà không cần phải tìm qua hàng tỷ giao dịch được thực hiện kể từ khi nó ra đời vào năm 2009.
+ECDHE được sử dụng lần đầu tiên trong BIP47 để chuyển mã thanh toán từ người gửi đến người nhận. Đây là **giao dịch thông báo**. Bước này rất quan trọng vì để BIP47 hoạt động hiệu quả, cả hai bên tham gia (người gửi và người nhận) phải biết mã thanh toán của nhau. Điều này cho phép việc họ xuất ra các khóa công khai tạm thời và do đó, các địa chỉ nhận trống liên quan.
+Trước khi trao đổi, về mặt logic, người gửi đã biết mã thanh toán của người nhận vì họ đã thu thập nó ngoại tuyến, ví dụ, từ trang web của họ, một hóa đơn, hoặc trên mạng xã hội của họ. Tuy nhiên, người nhận có thể không nhất thiết biết mã thanh toán của người gửi. Tuy nhiên, mã này phải được truyền đến họ; nếu không, họ sẽ không thể suy ra các khóa tạm thời cần thiết để xác định các địa chỉ nơi bitcoin của họ được lưu trữ, cũng như truy cập vào tiền của họ. Mặc dù về mặt kỹ thuật, việc truyền mã của người gửi có thể được thực hiện ngoại tuyến thông qua các phương tiện giao tiếp khác, điều này gây ra vấn đề nếu ví cần được khôi phục chỉ từ hạt giống.
+Quả thực, khác với các địa chỉ thông thường, địa chỉ BIP47 không được tạo ra trực tiếp từ hạt giống của người nhận—sử dụng `xpub` sẽ đơn giản hơn trong trường hợp này—nhưng là kết quả của việc tính toán kết hợp cả hai mã thanh toán: của người gửi và của người nhận. Do đó, nếu người nhận mất ví và cố gắng khôi phục nó từ hạt giống của họ, họ sẽ khôi phục được mã thanh toán của mình, được tạo ra trực tiếp từ hạt giống của họ. Tuy nhiên, để tìm ra các địa chỉ tạm thời, họ cần phải có mã thanh toán của tất cả mọi người đã gửi bitcoin cho họ qua BIP47. Do đó, giao dịch thông báo trở nên quan trọng, cho phép lưu trữ thông tin này trên blockchain Bitcoin, đồng thời có thể tìm thấy nó một cách dễ dàng mà không cần phải tìm qua hàng tỷ giao dịch được thực hiện kể từ khi nó ra đời vào năm 2009.
 ![BTC204](assets/vi/66/15.webp)
 
-Vì vậy, sẽ có thể triển khai BIP47 mà không cần đến giao dịch thông báo, miễn là mỗi người dùng giữ một bản sao lưu của mã thanh toán của đối tác. Tuy nhiên, phương pháp này chứng minh là phức tạp để quản lý miễn là một giải pháp đơn giản, mạnh mẽ và hiệu quả cho việc tạo ra, lưu trữ và cập nhật các bản sao lưu này không được phát triển. Trong tình hình hiện tại, giao dịch thông báo do đó trở nên gần như không thể thiếu.
+Vì vậy, sẽ có thể triển khai BIP47 mà không cần đến giao dịch thông báo, miễn là mỗi người dùng giữ một bản sao lưu của mã thanh toán của đối tác. Tuy nhiên, phương pháp này chứng minh là phức tạp để quản lý nếu một giải pháp đơn giản, mạnh mẽ và hiệu quả cho việc tạo ra, lưu trữ và cập nhật các bản sao lưu này không được phát triển. Do đó, trong tình hình hiện tại, giao dịch thông báo trở nên gần như không thể thiếu.
 
-Trong các chương tiếp theo, chúng ta sẽ nghiên cứu các giao thức khác với mục tiêu tương tự như BIP47, nhưng không yêu cầu giao dịch thông báo. Tuy nhiên, những phương án thay thế này cũng đưa ra những thỏa hiệp riêng của chúng.
+Trong các chương tiếp theo, chúng ta sẽ nghiên cứu các giao thức khác với mục tiêu tương tự như BIP47, nhưng không yêu cầu giao dịch thông báo. Tuy nhiên, những phương án thay thế này lại tạo ra những thỏa hiệp riêng của chúng.
 
-Ngoài vai trò trong việc sao lưu mã thanh toán, giao dịch thông báo cũng đóng vai trò là một chức năng thông báo cho người nhận, như tên gọi của nó. Nó báo hiệu cho ứng dụng của người nhận biết rằng một kênh thanh toán mới đã được thiết lập, và do đó đề xuất giám sát các địa chỉ tạm thời kết quả.
+Ngoài vai trò trong việc sao lưu mã thanh toán, giao dịch thông báo cũng thực hiện chức năng thông báo cho người nhận, như tên gọi của nó. Nó báo hiệu cho ứng dụng của người nhận biết rằng một kênh thanh toán mới đã được thiết lập, và do đó đề xuất giám sát các địa chỉ tạm thời được tạo ra.
 
-### Mô Hình Riêng Tư của BIP47
+### Mô hình riêng tư của BIP47
 
-Trước khi chi tiết hoạt động kỹ thuật của giao dịch thông báo, quan trọng là phải thảo luận về mô hình riêng tư liên quan đến BIP47, điều này biện minh cho một số biện pháp được thực hiện trong quá trình tạo ra giao dịch ban đầu này.
+Trước khi chi tiết hoá hoạt động kỹ thuật của giao dịch thông báo, quan trọng là phải thảo luận về mô hình riêng tư liên quan đến BIP47, điều này giải thích cho một số biện pháp được thực hiện trong quá trình tạo ra giao dịch ban đầu này.
 Mã thanh toán, bản thân nó, không đặt ra rủi ro trực tiếp đối với sự riêng tư. Khác với mô hình Bitcoin truyền thống, mục tiêu là phá vỡ liên kết giữa danh tính của người dùng và các giao dịch của họ (được công khai) bằng cách bảo vệ sự ẩn danh của khóa và địa chỉ, mã thanh toán có thể được liên kết một cách công khai với một danh tính mà không gây ra mối đe dọa.
 Quả thực, mã thanh toán không được sử dụng để trực tiếp tạo ra các địa chỉ nhận thanh toán BIP47. Thay vào đó, các địa chỉ này được tạo ra thông qua việc áp dụng ECDH giữa các khóa được tạo ra từ mã thanh toán của hai bên liên quan.
 
-Do đó, một mã thanh toán bản thân nó không trực tiếp dẫn đến mất riêng tư, vì chỉ có địa chỉ thông báo được tạo ra từ nó. Mặc dù địa chỉ này có thể tiết lộ một số thông tin, nó bình thường không cho phép phát hiện các bên mà bạn đang thực hiện giao dịch, trừ khi qua phân tích chuỗi kỹ lưỡng. Quả thực, nếu người gửi sử dụng UTXOs có thể liên kết với danh tính của họ để thực hiện giao dịch thông báo, thì có thể suy luận rằng danh tính của họ có lẽ liên quan đến các khoản thanh toán BIP47 đến mã thanh toán của bạn. Điều này sẽ không tiết lộ các giao dịch cơ bản nhưng sẽ chỉ ra sự tồn tại có khả năng của chúng.
+Do đó, một mã thanh toán bản thân nó không trực tiếp dẫn đến đánh mất sự riêng tư, vì chỉ có địa chỉ thông báo được tạo ra từ nó. Mặc dù địa chỉ này có thể tiết lộ một số thông tin, bình thường, nó không cho phép phát hiện các bên mà bạn đang thực hiện giao dịch, trừ khi qua phân tích chuỗi kỹ lưỡng. Quả thực, nếu người gửi sử dụng cac UTXO có thể liên kết với danh tính của họ để thực hiện giao dịch thông báo, thì có thể suy luận rằng danh tính của họ có lẽ liên kết đến các khoản thanh toán BIP47 đến mã thanh toán của bạn. Điều này sẽ không tiết lộ các giao dịch cơ bản nhưng sẽ chỉ ra sự tồn tại có khả năng của chúng.
 
 Do đó, việc duy trì sự tách biệt nghiêm ngặt giữa mã thanh toán của người dùng là cần thiết. Hướng tới mục tiêu này, bước giao tiếp ban đầu của mã là một thời điểm quan trọng cho sự riêng tư của thanh toán, nhưng lại bắt buộc cho sự hoạt động đúng đắn của giao thức. Nếu một trong các mã thanh toán có thể được lấy công khai (như trên một trang web), mã thứ hai, của người gửi, không được liên kết với mã đầu tiên trong bất kỳ trường hợp nào.
 
@@ -2728,67 +2730,67 @@ Hãy lấy một ví dụ cụ thể: Tôi muốn quyên góp cho một phong tr
 - Tôi lấy lại mã thanh toán này;
 - Trước khi tiến hành gửi, tôi phải đảm bảo rằng họ biết mã thanh toán của riêng tôi, mã này cũng được liên kết với danh tính của tôi vì tôi sử dụng nó để nhận giao dịch trên các mạng xã hội của mình.
 
-Làm thế nào để truyền mã của tôi mà không có rủi ro? Việc sử dụng các phương tiện liên lạc thông thường có thể dẫn đến rò rỉ thông tin, và do đó, có thể liên kết tôi với phong trào chính trị này. Giao dịch thông báo cung cấp một giải pháp nhờ vào lớp mã hóa mà cụ thể ngăn chặn sự liên kết này giữa hai mã. Mặc dù đây không phải là phương pháp duy nhất để truyền mã thanh toán của người gửi một cách bí mật, nhưng nó được chứng minh là rất hiệu quả.
+Làm thế nào để truyền mã của tôi mà không có rủi ro? Việc sử dụng các phương tiện liên lạc thông thường có thể dẫn đến rò rỉ thông tin, và do đó, có thể liên kết tôi với phong trào chính trị này. Giao dịch thông báo mang lại cho chúng ta một giải pháp nhờ vào lớp mã hóa mà được tạo ra để ngăn chặn sự liên kết này giữa hai mã. Mặc dù đây không phải là phương pháp duy nhất để truyền mã thanh toán của người gửi một cách bí mật, nhưng nó được chứng minh là rất hiệu quả.
 
-Trong sơ đồ dưới đây, các đường màu cam chỉ ra các điểm nơi dòng thông tin phải bị gián đoạn, và các mũi tên màu đen cho thấy các kết nối có thể tiềm năng được quan sát bởi bên thứ ba:
+Trong sơ đồ dưới đây, các đường màu cam chỉ ra các điểm nơi dòng thông tin phải bị gián đoạn, và các mũi tên màu đen cho thấy các kết nối tiềm năng có thể bị quan sát bởi bên thứ ba:
 ![BTC204](assets/vi/66/16.webp)
-Trong thực tế, trong mô hình riêng tư truyền thống của Bitcoin, thường phức tạp để hoàn toàn tách biệt dòng thông tin giữa cặp khóa và người dùng, đặc biệt là trong các giao dịch từ xa. Ví dụ, trong bối cảnh của một chiến dịch quyên góp, người nhận phải không thể tránh khỏi việc tiết lộ một địa chỉ hoặc một khóa công khai qua trang web hoặc mạng xã hội của họ. Việc sử dụng đúng BIP47, đặc biệt là với giao dịch thông báo, cho phép vượt qua vấn đề này nhờ vào ECDHE và lớp mã hóa mà chúng ta sẽ nghiên cứu thêm.
+Trong thực tế, trong mô hình riêng tư truyền thống của Bitcoin, việc hoàn toàn tách biệt dòng thông tin giữa cặp khóa và người dùng, đặc biệt là trong các giao dịch từ xa là rất phức tạp. Ví dụ, trong bối cảnh của một chiến dịch quyên góp, người nhận bắt buộc phải tiết lộ một địa chỉ hoặc một khóa công khai qua trang web hoặc mạng xã hội của họ. Việc sử dụng đúng BIP47, đặc biệt là với giao dịch thông báo, cho phép vượt qua vấn đề này nhờ vào ECDHE và lớp mã hóa mà chúng ta sẽ nghiên cứu thêm.
 
-Tất nhiên, mô hình riêng tư cổ điển của Bitcoin vẫn áp dụng cho các khóa công khai thoáng qua, được tạo ra từ sự kết hợp của hai mã thanh toán. Hai mô hình thực sự bổ sung cho nhau. Điều tôi muốn nhấn mạnh ở đây là, trái ngược với việc sử dụng thông thường một khóa công khai để nhận bitcoin, mã thanh toán có thể được liên kết với một danh tính cụ thể, bởi vì thông tin "_Alice thực hiện giao dịch với Bob_" được phá vỡ ở một giai đoạn khác. Mã thanh toán được sử dụng để tạo địa chỉ thanh toán, nhưng chỉ dựa trên quan sát blockchain, là không thể liên kết một giao dịch thanh toán BIP47 với các mã thanh toán được sử dụng để thực hiện nó, trừ khi các UTXO liên quan đã được liên kết với một danh tính trước đó và người dùng đã liên kết các mã thanh toán của họ với danh tính tương ứng của họ.
+Tất nhiên, mô hình riêng tư cổ điển của Bitcoin vẫn áp dụng cho các khóa công khai dùng tạm, được tạo ra từ sự kết hợp của hai mã thanh toán. Hai mô hình thực sự bổ sung cho nhau. Điều tôi muốn nhấn mạnh ở đây là, trái ngược với việc sử dụng một khóa công khai theo cách thông thường để nhận bitcoin, mã thanh toán có thể được liên kết với một danh tính cụ thể, bởi vì thông tin "_Alice thực hiện giao dịch với Bob_" được phá vỡ ở một giai đoạn khác. Mã thanh toán được sử dụng để tạo địa chỉ thanh toán, nhưng chỉ dựa trên quan sát blockchain, là không thể liên kết một giao dịch thanh toán BIP47 với các mã thanh toán được sử dụng để thực hiện nó, trừ khi các UTXO liên quan đã được liên kết với một danh tính trước đó và người dùng đã liên kết các mã thanh toán của họ với danh tính tương ứng của họ.
 
-Tóm lại, mô hình riêng tư được cung cấp bởi các giao dịch thanh toán BIP47 có thể được coi là vượt trội so với cơ sở của Bitcoin, mặc dù nó không phải là phép màu bằng bất cứ phương tiện nào.
+Tóm lại, mô hình riêng tư được cung cấp bởi các giao dịch thanh toán BIP47 có thể được coi là vượt trội so với cơ sở của Bitcoin, mặc dù nó không phải là phép màu theo bất kỳ nghĩa nào.
 
-### Xây dựng Giao dịch Thông Báo
+### Xây dựng giao dịch thông báo
 
-Bây giờ, hãy xem giao dịch thông báo này hoạt động như thế nào. Hãy tưởng tượng Alice muốn gửi tiền cho Bob với BIP47. Trong ví dụ của tôi, Alice đóng vai trò là người gửi và Bob là người nhận. Người sau đã công bố mã thanh toán của mình trên trang web của mình. Do đó, Alice đã biết mã thanh toán của Bob.
+Bây giờ, hãy xem cách giao dịch thông báo này hoạt động. Hãy tưởng tượng Alice muốn gửi tiền cho Bob với BIP47. Trong ví dụ của tôi, Alice đóng vai trò là người gửi và Bob là người nhận. Người sau đã công bố mã thanh toán của mình trên trang web của mình. Do đó, Alice đã biết mã thanh toán của Bob.
 
 **1- Alice tính toán một bí mật chung với ECDH:**
 
 - Cô ấy chọn một cặp khóa từ ví HD của mình nằm trên một nhánh khác từ mã thanh toán của mình. Lưu ý, cặp này không nên dễ dàng được liên kết với địa chỉ thông báo của Alice, cũng như với danh tính của Alice (xem phần trước);
 
-- Alice chọn khóa riêng từ cặp này. Chúng ta gọi nó là $a$ (chữ thường);
+- Alice chọn khóa riêng từ cặp này. Chúng ta gọi nó là a (chữ thường);
 
 $$
 a
 $$
-- Alice lấy khóa công khai liên kết với địa chỉ thông báo của Bob. Khóa này là con gái đầu tiên được phái sinh từ mã thanh toán của Bob (chỉ mục $/0$). Chúng ta gọi khóa công khai này là $B$ (chữ hoa). Khóa riêng liên kết với khóa công khai này được gọi là $b$ (chữ thường). $B$ được xác định bằng cách cộng và nhân đôi các điểm trên đường cong elliptic từ $G$ (điểm sinh) với $b$ (khóa riêng):
+- Alice lấy khóa công khai liên kết với địa chỉ thông báo của Bob. Khóa này là con gái đầu tiên được sinh ra từ mã thanh toán của Bob (chỉ mục /0). Chúng ta gọi khóa công khai này là B (chữ hoa). Khóa riêng tư liên kết với khóa công khai này được gọi là b (chữ thường). B được xác định bằng cách cộng và nhân đôi các điểm trên đường cong e-líp từ G (điểm sinh) với b (khóa riêng tư):
 $$ B = b \cdot G $$
-- Alice tính toán một điểm bí mật $S$ (viết hoa) trên đường cong elliptic bằng cách cộng và nhân đôi các điểm bằng cách áp dụng khóa riêng $a$ của cô ấy từ khóa công khai $B$ của Bob.
+- Alice tính toán một điểm bí mật S (viết hoa) trên đường cong e-líp bằng cách cộng và nhân đôi các điểm bằng cách áp dụng khóa riêng tư a của cô ấy từ khóa công khai B của Bob.
 $$ S = a \cdot B $$
 
-- Alice tính toán hệ số làm mờ $f$ sẽ cho phép cô ấy mã hóa mã thanh toán của mình. Để làm điều này, cô ấy sẽ xác định một số ngẫu nhiên giả với hàm HMAC-SHA512. Trong đầu vào thứ hai của hàm này, cô ấy sử dụng một giá trị mà chỉ Bob mới có thể truy xuất: $x$ là hoành độ của điểm bí mật đã được tính toán trước đó. Đầu vào đầu tiên là $o$ là UTXO được tiêu thụ trong đầu vào của giao dịch này (outpoint).
+- Alice tính toán hệ số làm mờ $f$ sẽ cho phép cô ấy mã hóa mã thanh toán của mình. Để làm điều này, cô ấy sẽ xác định một số giả ngẫu nhiên với hàm HMAC-SHA512. Trong đầu vào thứ hai của hàm này, cô ấy sử dụng một giá trị mà chỉ Bob mới có thể truy xuất: x là hoành độ của điểm bí mật đã được tính toán trước đó. Đầu vào đầu tiên o là UTXO được tiêu thụ trong đầu vào của giao dịch này (điểm ra - outpoint).
 
 $$ f = \text{HMAC-SHA512}(o, x) $$
 
-**2- Alice chuyển đổi mã thanh toán cá nhân của mình thành cơ số 2 (nhị phân).**
+**2- Alice chuyển đổi mã thanh toán cá nhân của mình sang cơ số 2 (nhị phân).**
 
 **3- Cô ấy sử dụng hệ số làm mờ này như một khóa để thực hiện mã hóa đối xứng trên payload của mã thanh toán của mình.** Thuật toán mã hóa được sử dụng đơn giản là `XOR`. Phép toán được thực hiện tương đương với mã Vernam, còn được gọi là "One-Time Pad".
 
-- Alice đầu tiên chia hệ số làm mờ của mình thành hai phần: 32 byte đầu tiên được gọi là $f1$ và 32 byte cuối cùng được gọi là $f2$. Như vậy, chúng ta có:
+- Alice đầu tiên chia hệ số làm mờ của mình thành hai phần: 32 byte đầu tiên được gọi là f1 và 32 byte cuối cùng được gọi là f2. Như vậy, chúng ta có:
 
 $$ f = f1 || f2 $$
 
-- Alice tính toán $x'$ được mã hóa của hoành độ khóa công khai $x$ của mã thanh toán của mình, và $c'$ được mã hóa của mã chuỗi $c$ một cách riêng biệt. $f1$ và $f2$ lần lượt đóng vai trò như các khóa mã hóa. Phép toán được sử dụng là `XOR` (hoặc độc quyền).
+- Alice tính toán x' được mã hóa của hoành độ khóa công khai x của mã thanh toán của mình, và c' được mã hóa của mã chuỗi c một cách riêng biệt. f1 và f2 lần lượt đóng vai trò như các khóa mã hóa. Phép toán được sử dụng là `XOR` (hoặc độc quyền).
 
 $$ x' = x \oplus f1 $$
 $$ c' = c \oplus f2 $$
 
-- Alice thay thế các giá trị thực của hoành độ khóa công khai $x$ và mã chuỗi $c$ trong mã thanh toán của mình bằng các giá trị được mã hóa $x'$ và $c'$.
-**4-** Hiện tại Alice có mã thanh toán của mình với payload được mã hóa. Cô ấy sẽ xây dựng và phát sóng một giao dịch bao gồm khóa công khai $A$ của mình làm đầu vào, một đầu ra đến địa chỉ thông báo của Bob, và một đầu ra `OP_RETURN` chứa mã thanh toán của cô ấy với payload được mã hóa. **Giao dịch này là giao dịch thông báo**.
+- Alice thay thế các giá trị thực của hoành độ khóa công khai x và mã chuỗi c trong mã thanh toán của mình bằng các giá trị được mã hóa x' và c'.
+**4-** Hiện tại Alice có mã thanh toán của mình với payload được mã hóa. Cô ấy sẽ xây dựng và phát sóng một giao dịch bao gồm khóa công khai A của mình làm đầu vào, một đầu ra đến địa chỉ thông báo của Bob, và một đầu ra `OP_RETURN` chứa mã thanh toán của cô ấy với payload được mã hóa. **Giao dịch này là giao dịch thông báo**.
 Một `OP_RETURN` là một opcode đánh dấu một đầu ra giao dịch Bitcoin như không hợp lệ. Ngày nay, nó được sử dụng để phát sóng hoặc neo thông tin trên blockchain Bitcoin. Tối đa 80 byte dữ liệu có thể được lưu trữ, được viết trên chuỗi và do đó có thể nhìn thấy bởi tất cả người dùng khác.
 
-Như chúng ta đã thấy trong các phần trước, ECDH được sử dụng để tạo ra một bí mật chung giữa hai người dùng giao tiếp qua mạng không an toàn, có thể được quan sát bởi kẻ tấn công. Trong BIP47, ECDH được sử dụng cho giao tiếp qua mạng Bitcoin, bản chất là một mạng giao tiếp minh bạch được nhiều kẻ tấn công quan sát. Bí mật chung được tính toán thông qua trao đổi khóa ECDH sau đó được sử dụng để mã hóa thông tin bí mật cần truyền đạt: mã thanh toán của người gửi (Alice).
+Như chúng ta đã thấy trong các phần trước, ECDH được sử dụng để tạo ra một bí mật chung giữa hai người dùng giao tiếp qua một mạng lưới không an toàn, có thể được quan sát bởi kẻ tấn công. Trong BIP47, ECDH được sử dụng cho giao tiếp qua mạng Bitcoin, bản chất là một mạng giao tiếp minh bạch được nhiều kẻ tấn công quan sát. Bí mật chung được tính toán thông qua trao đổi khóa ECDH sau đó được sử dụng để mã hóa thông tin bí mật cần truyền đạt: mã thanh toán của người gửi (Alice).
 
 Hãy tóm tắt lại các bước mà chúng ta vừa xem xét cùng nhau để thực hiện một giao dịch thông báo:
 - Alice lấy mã thanh toán và địa chỉ thông báo của Bob;
 - Alice chọn một UTXO mà cô ấy sở hữu trong ví HD của mình với cặp khóa tương ứng;
-- Cô ấy tính toán một điểm bí mật trên đường cong elliptic sử dụng ECDH;
+- Cô ấy tính toán một điểm bí mật trên đường cong e-líp sử dụng ECDH;
 - Cô ấy sử dụng điểm bí mật này để tính toán một HMAC, đó là hệ số làm mờ;
 - Cô ấy sử dụng hệ số làm mờ này để mã hóa payload của mã thanh toán cá nhân của mình;
 - Cô ấy sử dụng một đầu ra giao dịch `OP_RETURN` để truyền đạt mã thanh toán được che giấu cho Bob.
 ![BTC204](assets/vi/66/17.webp)
 
-### Giao Dịch Thông Báo: Nghiên Cứu Cụ Thể
+### Giao thông báo: Nghiên cứu cụ thể
 
 Để hiểu rõ hơn về cách hoạt động, đặc biệt là việc sử dụng `OP_RETURN`, hãy cùng nhau xem xét một giao dịch thông báo thực tế. Tôi đã thực hiện một giao dịch như vậy trên testnet, bạn có thể tìm thấy [bằng cách nhấp vào đây](https://mempool.space/fr/testnet/tx/0e2e4695a3c49272ef631426a9fd2dae6ec3a469e3a39a3db51aa476cd09de2e).
 
@@ -2796,10 +2798,10 @@ Hãy tóm tắt lại các bước mà chúng ta vừa xem xét cùng nhau để
 
 Quan sát giao dịch này, chúng ta có thể thấy nó có một đầu vào và 4 đầu ra:
 - Đầu ra đầu tiên là `OP_RETURN` chứa mã thanh toán được che giấu của tôi;
-- Đầu ra thứ hai của 546 sats chỉ đến địa chỉ thông báo của người nhận của tôi;
-- Đầu ra thứ ba của 15,000 sats đại diện cho phí dịch vụ, vì tôi đã sử dụng Samourai Wallet để xây dựng giao dịch này;
-- Đầu ra thứ tư của 2 triệu sats đại diện cho tiền thối, tức là sự chênh lệch còn lại từ đầu vào của tôi quay trở lại một địa chỉ khác thuộc về tôi.
-Thú vị nhất để nghiên cứu rõ ràng là đầu ra số 0 sử dụng `OP_RETURN`. Hãy xem xét kỹ hơn nội dung của nó. Đây là `scriptPubKey` dưới dạng hệ thập lục phân:
+- Đầu ra thứ hai chứa 546 satoshi chỉ đến địa chỉ thông báo của người nhận;
+- Đầu ra thứ ba chứa 15,000 satoshi được dùng để trả phí dịch vụ, vì tôi đã sử dụng Samourai Wallet để xây dựng giao dịch này;
+- Đầu ra thứ tư chứa 2 triệu satoshi là tiền thối, tức là sự chênh lệch còn lại từ đầu vào của tôi quay trở lại một địa chỉ khác thuộc về tôi.
+Điều thú vị nhất để nghiên cứu rõ ràng là đầu ra số 0 sử dụng `OP_RETURN`. Hãy xem xét kỹ hơn nội dung của nó. Đây là `scriptPubKey` dưới dạng hệ thập lục phân:
 
 ```text
 6a4c50010002b13b2911719409d704ecc69f74fa315a6cb20fdd6ee39bc9874667703d67b164927b0e88f89f3f8b963549eab2533b5d7ed481a3bea7e953b546b4e91b6f50d800000000000000000000000000
@@ -2843,13 +2845,13 @@ Và cuối cùng, đệm để đạt được 80 byte, kích thước tiêu chu
 00000000000000000000000000
 ```
 
-Để hiểu rõ hơn, đây là mã thanh toán của tôi dưới dạng văn bản rõ ràng trong base 58:
+Để hiểu rõ hơn, đây là mã thanh toán của tôi dưới dạng văn bản rõ ràng trong hệ Base58:
 
 ```text
 PM8TJQCyt6ovbozreUCBrfKqmSVmTzJ5vjqse58LnBzKFFZTwny3KfCDdwTqAEYVasn11tTMPc2FJsFygFd3YzsHvwNXLEQNADgxeGnMK8Ugmin62TZU
 ```
 
-Và ở dạng cơ số 16:
+Và ở hệ Base16:
 
 ```text
 4701000277507c9c17a89cfca2d3af554745d6c2db0e7f6b2721a3941a504933103cc42add94881210d6e752a9abc8a9fa0070e85184993c4f643f1121dd807dd556d1dc000000000000000000000000008604e4db
@@ -2884,7 +2886,7 @@ $$
 010011 \oplus 110110 = 100101
 $$
 
-Với ECDH, việc sử dụng XOR làm lớp mã hóa là phù hợp đặc biệt. Đầu tiên, vì toán tử này, mã hóa là đối xứng. Điều này cho phép người nhận giải mã mã thanh toán bằng cùng một khóa được sử dụng để mã hóa. Khóa mã hóa và giải mã được tính từ bí mật chung nhờ ECDH. Tính đối xứng này được kích hoạt bởi các tính chất giao hoán và kết hợp của toán tử XOR:
+Với ECDH, việc sử dụng XOR làm lớp mã hóa đặc biệt phù hợp. Đầu tiên, vì với toán tử này, mã hóa là đối xứng. Điều này cho phép người nhận giải mã mã thanh toán bằng cùng một khóa được sử dụng để mã hóa. Chìa khóa mã hóa và giải mã được tính từ bí mật chung nhờ ECDH. Tính đối xứng này được kích hoạt bởi các tính chất giao hoán và kết hợp của toán tử XOR:
 
 - Các tính chất khác:
 
@@ -2917,44 +2919,44 @@ D \oplus L = D \oplus (D \oplus E) = D \oplus D \oplus E = 0 \oplus E = E \\
 \therefore D \oplus L = E
 $$
 
-Tiếp theo, phương pháp mã hóa này rất giống với mã Vernam (One-Time Pad), là thuật toán mã hóa duy nhất được biết đến cho đến nay có độ bảo mật tuyệt đối. Để mã Vernam có được đặc tính này, khóa mã hóa phải hoàn toàn ngẫu nhiên, phải có kích thước bằng với thông điệp, và chỉ được sử dụng một lần. Trong phương pháp mã hóa được sử dụng ở đây cho BIP47, khóa thực sự có kích thước bằng với thông điệp, yếu tố làm mờ chính xác bằng kích thước của sự kết hợp giữa tọa độ x của khóa công khai với mã chuỗi của mã thanh toán. Khóa mã hóa này thực sự chỉ được sử dụng một lần. Tuy nhiên, khóa này không phải là kết quả của sự ngẫu nhiên hoàn hảo vì nó là một HMAC. Nó khá giả ngẫu nhiên. Do đó, nó không phải là mã Vernam, nhưng phương pháp này tương tự.
+Tiếp theo, phương pháp mã hóa này rất giống với mã Vernam (One-Time Pad - Đệm một lần), là thuật toán mã hóa duy nhất được biết đến cho đến nay có độ bảo mật tuyệt đối. Để mã Vernam có được đặc tính này, khóa mã hóa phải hoàn toàn ngẫu nhiên, phải có kích thước bằng với thông điệp, và chỉ được sử dụng một lần. Trong phương pháp mã hóa được sử dụng cho BIP47, khóa thực sự có kích thước bằng với thông điệp, yếu tố làm mờ chính xác bằng kích thước của sự kết hợp giữa tọa độ x của khóa công khai với mã chuỗi của mã thanh toán. Khóa mã hóa này thực sự chỉ được sử dụng một lần. Tuy nhiên, khóa này không phải là kết quả của sự ngẫu nhiên hoàn hảo vì nó là một HMAC - Hash-based Message Authentication Code (Mã xác thực tin nhắn dựa trên mã băm). Nó khá giả ngẫu nhiên. Do đó, nó không phải là mã Vernam, nhưng phương pháp này tương tự.
 
-### Nhận Giao Dịch Thông Báo
+### Nhận giao dịch thông báo
 
-Bây giờ Alice đã gửi giao dịch thông báo cho Bob, hãy xem anh ấy giải mã nó như thế nào. Nhắc lại, Bob phải có khả năng truy cập vào mã thanh toán của Alice. Không có thông tin này, như chúng ta sẽ thấy trong phần sau, anh ấy sẽ không thể suy ra các cặp khóa được tạo bởi Alice, và do đó, anh ấy sẽ không thể truy cập vào bitcoin của mình nhận qua BIP47. Hiện tại, payload của mã thanh toán của Alice được mã hóa. Hãy xem Bob giải mã nó như thế nào.
+Bây giờ Alice đã gửi giao dịch thông báo cho Bob, hãy xem anh ấy giải mã nó như thế nào. Nhắc lại, Bob phải có khả năng truy cập vào mã thanh toán của Alice. Không có thông tin này, như chúng ta sẽ thấy trong phần sau, anh ấy sẽ không thể suy ra các cặp khóa được tạo bởi Alice, và do đó, anh ấy sẽ không thể truy cập vào số bitcoin mình nhận được thông qua BIP47. Hiện tại, payload của mã thanh toán của Alice được mã hóa. Hãy xem Bob giải mã nó như thế nào.
 
-**1-** Bob theo dõi các giao dịch tạo ra outputs với địa chỉ thông báo của mình.
+**1-** Bob theo dõi các giao dịch tạo ra các đầu vào với địa chỉ thông báo của mình.
 
-**2-** Khi một giao dịch có output trên địa chỉ thông báo của mình, Bob phân tích nó để xem nó có chứa output OP_RETURN theo tiêu chuẩn BIP47 hay không.
+**2-** Khi một giao dịch có đầu ra dấn đến địa chỉ thông báo của mình, Bob phân tích nó để xem nó có chứa đầu ra OP_RETURN theo tiêu chuẩn BIP47 hay không.
 
-**3-** Nếu byte đầu tiên của payload OP_RETURN là `0x01`, Bob bắt đầu tìm kiếm một bí mật chia sẻ có thể có với ECDH:
-- Bob chọn khóa công khai trong input của giao dịch. Đó là, khóa công khai của Alice được gọi là $A$ với:
+**3-** Nếu byte đầu tiên của payload OP_RETURN là `0x01`, Bob bắt đầu tìm kiếm một bí mật được chia sẻ khả dĩ với ECDH:
+- Bob chọn khóa công khai trong đầu vào của giao dịch. Đó là, khóa công khai của Alice được gọi là A với:
 
 $$ A = a \cdot G $$
 
-- Bob chọn khóa riêng $b$ liên quan đến địa chỉ thông báo cá nhân của mình:
+- Bob chọn khóa riêng b liên quan đến địa chỉ thông báo cá nhân của mình:
 
 $$ b $$
-- Bob tính điểm bí mật $S$ (bí mật chia sẻ ECDH) trên đường cong elliptic bằng cách cộng và nhân đôi các điểm, áp dụng khóa riêng $b$ của mình vào khóa công khai $A$ của Alice:
+- Bob tính điểm bí mật S (bí mật chia sẻ ECDH) trên đường cong e-líp bằng cách cộng và nhân đôi các điểm, áp dụng khóa riêng b của mình vào khóa công khai A của Alice:
 $$ S = b \cdot A $$
 
-- Bob xác định yếu tố làm mờ $f$ sẽ cho phép anh ấy giải mã payload của mã thanh toán của Alice. Cùng một cách mà Alice đã tính trước đó, Bob sẽ tìm $f$ bằng cách áp dụng HMAC-SHA512 trên $x$ tọa độ x của điểm bí mật $S$, và trên $o$ UTXO được tiêu thụ như input trong giao dịch thông báo này:
+- Bob xác định yếu tố làm mờ f sẽ cho phép anh ấy giải mã payload của mã thanh toán của Alice. Cùng một cách mà Alice đã tính trước đó, Bob sẽ tìm f bằng cách áp dụng HMAC-SHA512 trên tung độ x của điểm bí mật S, và trên UTXO o được tiêu thụ như đầu vào trong giao dịch thông báo này:
 
 $$ f = \text{HMAC-SHA512}(o, x) $$
 
-**4-** Bob giải mã dữ liệu trong OP_RETURN của giao dịch thông báo như một mã thanh toán. Anh ấy sẽ đơn giản giải mã payload của mã thanh toán tiềm năng này bằng cách sử dụng yếu tố làm mờ $f$:
-- Bob chia yếu tố làm mờ $f$ thành 2 phần: 32 byte đầu tiên của $f$ sẽ là $f1$ và 32 byte cuối cùng sẽ là $f2$;
-- Bob giải mã tọa độ x đã mã hóa $x'$ của khóa công khai từ mã thanh toán của Alice:
+**4-** Bob giải mã dữ liệu trong OP_RETURN của giao dịch thông báo như một mã thanh toán. Anh ấy sẽ giải mã payload của mã thanh toán tiềm năng này một cách đơn giản sử dụng yếu tố làm mờ f:
+- Bob chia yếu tố làm mờ f thành 2 phần: 32 byte đầu tiên của f sẽ là f1 và 32 byte cuối cùng sẽ là f2;
+- Bob giải mã tọa độ x đã mã hóa x' của khóa công khai từ mã thanh toán của Alice:
 
 $$ x = x' \oplus f1 $$
 
-- Bob giải mã giá trị mã chuỗi đã mã hóa $c'$ từ mã thanh toán của Alice:
+- Bob giải mã giá trị mã chuỗi đã mã hóa c' từ mã thanh toán của Alice:
 
 $$ c = c' \oplus f2 $$
 
 **5-** Bob kiểm tra xem giá trị của khóa công khai từ mã thanh toán của Alice có thực sự thuộc nhóm secp256k1 hay không. Nếu đúng, anh ta coi đây là một mã thanh toán hợp lệ. Nếu không, anh ta sẽ bỏ qua giao dịch này.
 
-Giờ đây, khi Bob đã biết mã thanh toán của Alice, cô ấy có thể gửi cho anh ta tới `2^32` khoản thanh toán, mà không bao giờ cần thực hiện một giao dịch thông báo kiểu này nữa.
+Giờ đây, khi Bob đã biết mã thanh toán của Alice, cô ấy có thể gửi cho anh ta tới `2^32` khoản thanh toán (khoảng hơn 4 tỷ), mà không bao giờ cần thực hiện một giao dịch thông báo kiểu này nữa.
 
 Tại sao điều này lại hoạt động? Làm thế nào Bob có thể xác định được cùng một yếu tố làm mờ như Alice, và do đó giải mã mã thanh toán của cô ấy? Hãy xem xét kỹ hơn vai trò của ECDH trong những gì chúng ta vừa mô tả.
 
@@ -2962,10 +2964,10 @@ Trước hết, chúng ta đang đối mặt với mã hóa đối xứng. Đi�
 
 $$ f = f1 || f2 $$
 
-Do đó, Alice và Bob phải thu được cùng một giá trị cho $f$, mà không trực tiếp truyền đạt nó vì một kẻ tấn công có thể đánh cắp nó và giải mã thông tin bí mật. Yếu tố làm mờ này được thu được bằng cách áp dụng HMAC-SHA512 trên 2 giá trị:
+Do đó, Alice và Bob phải thu được cùng một giá trị cho f, mà không trực tiếp truyền đạt nó vì một kẻ tấn công có thể đánh cắp nó và giải mã thông tin bí mật. Yếu tố làm mờ này thu được bằng cách áp dụng HMAC-SHA512 trên 2 giá trị:
 - tọa độ x của một điểm bí mật;
 - và UTXO được tiêu thụ như đầu vào trong giao dịch.
-Do đó, Bob cần hai thông tin này để giải mã payload của mã thanh toán của Alice. Đối với UTXO như đầu vào, Bob có thể đơn giản lấy nó bằng cách quan sát giao dịch thông báo. Đối với điểm bí mật, Bob sẽ phải sử dụng ECDH. Như đã thấy trong phần trước về Diffie-Hellman, chỉ bằng cách trao đổi khóa công khai tương ứng và bí mật áp dụng khóa riêng của họ vào khóa công khai của người kia, Alice và Bob có thể tìm ra một điểm cụ thể và bí mật trên đường cong elliptic. Giao dịch thông báo dựa vào cơ chế này:
+Do đó, Bob cần hai thông tin này để giải mã payload của mã thanh toán của Alice. Đối với UTXO như đầu vào, Bob có thể đơn giản lấy nó bằng cách quan sát giao dịch thông báo. Đối với điểm bí mật, Bob sẽ phải sử dụng ECDH. Như đã thấy trong phần trước về Diffie-Hellman, chỉ bằng cách trao đổi khóa công khai tương ứng và bí mật áp dụng khóa riêng tư của họ vào khóa công khai của người kia, Alice và Bob có thể tìm ra một điểm cụ thể và bí mật trên đường cong e-líp. Giao dịch thông báo dựa vào cơ chế này:
 - Cặp khóa của Bob:
 
 $$ B = b \cdot G $$
@@ -2974,15 +2976,15 @@ $$ B = b \cdot G $$
 
 $$ A = a \cdot G $$
 
-- Đối với một điểm bí mật $S (x, y)$:
+- Đối với một điểm bí mật S(x, y):
 
 $$ S = a \cdot B = a \cdot (b \cdot G) = (b \cdot a) \cdot G = b \cdot A $$
 
 ![BTC204](assets/vi/66/19.webp)
 
-Giờ đây, khi Bob biết mã thanh toán của Alice, anh ta sẽ có thể phát hiện các khoản thanh toán BIP47 của cô ấy, và anh ta có thể suy ra các khóa riêng để mở khóa bitcoin nhận được.
+Giờ đây, khi Bob biết mã thanh toán của Alice, anh ta sẽ có thể phát hiện các khoản thanh toán BIP47 của cô ấy, và anh ta có thể suy ra các khóa riêng để mở khóa số bitcoin nhận được.
 
-Hãy tóm tắt lại các bước mà chúng ta vừa trải qua để nhận và giải thích một giao dịch thông báo:
+Hãy tóm tắt lại các bước mà chúng ta vừa trải qua để nhận và diễn giải một giao dịch thông báo:
 - Bob theo dõi các đầu ra giao dịch đến địa chỉ thông báo của mình;
 - Khi anh ta phát hiện một đầu ra, anh ta lấy thông tin chứa trong OP_RETURN;
 - Bob chọn khóa công khai trong đầu vào và tính toán một điểm bí mật sử dụng ECDH;
@@ -2991,140 +2993,140 @@ Hãy tóm tắt lại các bước mà chúng ta vừa trải qua để nhận v
 
 ![BTC204](assets/vi/66/20.webp)
 
-### Giao Dịch Thanh Toán BIP47
+### Giao dịch thanh toán BIP47
 
 Bây giờ, hãy cùng nhau nghiên cứu quy trình thanh toán với BIP47. Để nhắc lại tình hình hiện tại:
-- Alice biết mã thanh toán của Bob, mà cô đơn giản lấy từ website của anh ta;
+- Alice biết mã thanh toán của Bob bằng cách đơn giản là lấy từ website của anh ta;
 - Bob biết mã thanh toán của Alice nhờ vào giao dịch thông báo; Alice sẽ thực hiện một khoản thanh toán đầu tiên cho Bob. Cô ấy sẽ có thể thực hiện nhiều khoản thanh toán khác theo cùng một cách.
 
-Trước khi giải thích quy trình này, tôi nghĩ rằng quan trọng là phải nhắc lại các chỉ số mà chúng tôi đang làm việc hiện tại. Đường dẫn phái sinh của một mã thanh toán được mô tả như sau: `m/47'/0'/0'`. Độ sâu tiếp theo phân phối các chỉ số theo cách này:
-- Cặp con bình thường (không cứng) đầu tiên là cái được sử dụng để tạo ra địa chỉ thông báo mà chúng tôi đã nói về trong phần trước: `m/47'/0'/0'/0`;
+Trước khi giải thích quy trình này, tôi nghĩ, quan trọng là phải nhắc lại các chỉ số mà chúng ta đang làm việc hiện tại. Đường dẫn xuất của một mã thanh toán được mô tả như sau: `m/47'/0'/0'`. Độ sâu tiếp theo phân phối các chỉ số theo cách này:
+- Cặp con bình thường (không cứng) đầu tiên là cái được sử dụng để tạo ra địa chỉ thông báo mà chúng ta đã nói về trong phần trước: `m/47'/0'/0'/0`;
 - Các cặp khóa con bình thường được sử dụng trong ECDH để tạo ra địa chỉ nhận thanh toán BIP47 như chúng ta sẽ thấy trong phần này: từ `m/47'/0'/0'/0` đến `m/47'/0'/0'/2 147 483 647`;
 - Các cặp khóa con cứng là các mã thanh toán tạm thời: từ `m/47'/0'/0'/0'` đến `m/47'/0'/0'/2 147 483 647'`.
 
-Bất cứ khi nào Alice muốn gửi một khoản thanh toán cho Bob, cô ấy phái sinh một địa chỉ mới, độc nhất, chưa từng sử dụng, cảm ơn lại giao thức ECDH:
-- Alice chọn khóa riêng đầu tiên được phái sinh từ mã thanh toán cá nhân có thể tái sử dụng của mình:
+Bất cứ khi nào Alice muốn gửi một khoản thanh toán cho Bob, cô ấy tạo ra một địa chỉ mới, độc nhất, chưa từng sử dụng, nhờ giao thức ECDH:
+- Alice chọn khóa riêng đầu tiên được sinh ra từ mã thanh toán cá nhân có thể tái sử dụng của mình:
 
 $$ a $$
 
-- Alice chọn khóa công khai chưa sử dụng đầu tiên được phái sinh từ mã thanh toán của Bob. Khóa công khai này, chúng ta sẽ gọi nó là $B$. Nó được liên kết với khóa riêng $b$ mà chỉ Bob biết:
+- Alice chọn khóa công khai chưa sử dụng đầu tiên được sinh ra từ mã thanh toán của Bob. Khóa công khai này, chúng ta sẽ gọi nó là B. Nó được liên kết với khóa riêng b mà chỉ Bob biết:
 
 $$ B = b \cdot G $$
 
-- Alice tính toán một điểm bí mật $S$ trên đường cong elliptic bằng cách cộng và nhân đôi điểm bằng cách áp dụng khóa riêng $a$ của mình vào khóa công khai $B$ của Bob:
+- Alice tính toán một điểm bí mật S trên đường cong e-líp bằng cách cộng và nhân đôi điểm bằng cách áp dụng khóa riêng a của mình vào khóa công khai B của Bob:
 
 $$ S = a \cdot B $$
 
-- Từ điểm bí mật này, Alice sẽ tính toán bí mật chung $s$ (chữ thường). Để làm điều này, cô ấy chọn tọa độ x của điểm bí mật $S$ được gọi là $Sx$, và cô ấy đưa giá trị này qua hàm băm SHA256:
+- Từ điểm bí mật này, Alice sẽ tính toán bí mật chung s (chữ thường). Để làm điều này, cô ấy chọn tọa độ x của điểm bí mật S được gọi là Sx, và cô ấy đưa giá trị này qua hàm băm SHA256:
 
 $$ S = (Sx, Sy) $$
 $$ s = \text{SHA256}(Sx) $$
 
-- Alice sử dụng bí mật chung $s$ này để tính toán một địa chỉ nhận thanh toán Bitcoin. Ban đầu, cô ấy xác minh rằng $s$ nằm trong phạm vi của đường cong secp256k1. Nếu không, cô ấy tăng chỉ số của khóa công khai của Bob để phái sinh một bí mật chung khác;
-- Thứ hai, cô ấy tính toán một khóa công khai $K0$ bằng cách cộng trên đường cong elliptic các điểm $B$ và $s·G$. Nói cách khác, Alice cộng khóa công khai được phái sinh từ mã thanh toán của Bob $B$ với một điểm khác được tính toán trên đường cong elliptic bằng cách cộng và nhân đôi với bí mật chung $s$ từ điểm sinh của đường cong secp256k1 $G$. Điểm mới này đại diện cho một khóa công khai, và chúng ta gọi nó là $K0$:
+- Alice sử dụng bí mật chung s này để tính toán một địa chỉ nhận thanh toán Bitcoin. Ban đầu, cô ấy xác minh rằng s nằm trong phạm vi của đường cong secp256k1. Nếu không, cô ấy tăng chỉ số của khóa công khai của Bob để sinh ra một bí mật chung khác;
+- Thứ hai, cô ấy tính toán một khóa công khai K0 bằng cách cộng trên đường cong e-líp các điểm B và s·G. Nói cách khác, Alice cộng khóa công khai được phái sinh từ mã thanh toán của Bob B với một điểm khác được tính toán trên đường cong e-líp bằng cách cộng và nhân đôi với bí mật chung s từ điểm sinh của đường cong secp256k1 G. Điểm mới này đại diện cho một khóa công khai, và chúng ta gọi nó là K0:
 
 $$ K0 = B + s \cdot G $$
 
-- Với khóa công khai $K0$ này, Alice có thể phái sinh một địa chỉ nhận mới chuẩn (ví dụ, SegWit V0 trong bech32).
-Một khi Alice đã có được địa chỉ nhận của Bob $K0$, cô ấy có thể thực hiện một giao dịch Bitcoin theo cách chuẩn. Để làm điều này, cô ấy chọn một UTXO mà cô ấy sở hữu, được bảo vệ bởi một cặp khóa từ một nhánh khác của ví HD của mình, và chi tiêu nó để thỏa mãn một đầu ra cho địa chỉ của Bob $K0$. Quan trọng là phải lưu ý rằng khoản thanh toán này, một khi địa chỉ được phái sinh, tuân theo một quy trình thông thường và không còn phụ thuộc vào các khóa liên quan đến BIP47.
+- Với khóa công khai K0 này, Alice có thể phái sinh một địa chỉ nhận tiêu chuẩn mới (ví dụ, SegWit V0 trong bech32).
+Một khi Alice đã có được địa chỉ nhận của Bob K0, cô ấy có thể thực hiện một giao dịch Bitcoin theo cách tiêu chuẩn. Để làm điều này, cô ấy chọn một UTXO mà cô ấy sở hữu, được bảo vệ bởi một cặp khóa từ một nhánh khác trong ví HD của mình, và chi tiêu nó để thỏa mãn một đầu ra cho địa chỉ của Bob K0. Quan trọng là phải lưu ý rằng khoản thanh toán này, một khi địa chỉ được sinh ra, tuân theo một quy trình thông thường và không còn phụ thuộc vào các khóa liên quan đến BIP47.
 Hãy cùng ôn lại các bước mà chúng ta vừa trải qua để thực hiện một giao dịch BIP47:
 - Alice chọn khóa riêng con đầu tiên được sinh ra từ mã thanh toán cá nhân của cô ấy;
-- Cô ấy tính toán một điểm bí mật trên đường cong elliptic sử dụng ECDH từ khóa công khai con chưa được sử dụng đầu tiên từ mã thanh toán của Bob;
+- Cô ấy tính toán một điểm bí mật trên đường cong e-líp sử dụng ECDH từ khóa công khai con chưa được sử dụng đầu tiên từ mã thanh toán của Bob;
 - Cô ấy sử dụng điểm bí mật này để tính toán một bí mật chung với SHA256;
-- Cô ấy sử dụng bí mật chung này để tính toán một điểm bí mật mới trên đường cong elliptic;
+- Cô ấy sử dụng bí mật chung này để tính toán một điểm bí mật mới trên đường cong e-líp;
 - Cô ấy thêm điểm bí mật mới này vào khóa công khai của Bob;
-- Cô ấy nhận được một khóa công khai tạm thời mới mà chỉ Bob có khóa riêng tương ứng;
-- Alice có thể thực hiện một giao dịch tiêu chuẩn với Bob với địa chỉ nhận tạm thời được sinh ra.
+- Cô ấy nhận được một khóa công khai tạm thời mới mà chỉ Bob có khóa riêng tư tương ứng;
+- Alice có thể thực hiện một giao dịch tiêu chuẩn với Bob thông qua địa chỉ nhận tạm thời được vừa được sinh ra từ khoá công khai trên.
 
 ![BTC204](assets/vi/66/21.webp)
 
-Nếu Alice muốn thực hiện một khoản thanh toán thứ hai, cô ấy sẽ theo dõi các bước như trước, ngoại trừ lần này cô ấy sẽ chọn khóa công khai con thứ hai từ mã thanh toán của Bob. Cụ thể, cô ấy sẽ sử dụng khóa chưa được sử dụng tiếp theo. Cô ấy do đó sẽ nhận được một địa chỉ nhận mới thuộc về Bob, được chỉ định là $K1$:
+Nếu Alice muốn thực hiện một khoản thanh toán thứ hai, cô ấy sẽ tuân theo các bước như trước, ngoại trừ lần này cô ấy sẽ chọn khóa công khai con thứ hai từ mã thanh toán của Bob. Cụ thể, cô ấy sẽ sử dụng khóa chưa được sử dụng tiếp theo. Cô ấy do đó sẽ nhận được một địa chỉ nhận mới thuộc về Bob, được chỉ định là K1:
 
 ![BTC204](assets/vi/66/22.webp)
 
 Cô ấy có thể tiếp tục theo cách này và sinh ra tới `2^32` địa chỉ chưa được sử dụng thuộc về Bob.
 
-Từ quan điểm bên ngoài, bằng cách quan sát blockchain, lý thuyết là không thể phân biệt một giao dịch BIP47 với một giao dịch tiêu chuẩn. Dưới đây là một ví dụ về giao dịch BIP47 trên Testnet:
+Từ góc nhìn bên ngoài, theo lý thuyết, bằng cách quan sát blockchain, không thể phân biệt một giao dịch BIP47 với một giao dịch tiêu chuẩn. Dưới đây là một ví dụ về giao dịch BIP47 trên Testnet:
 
 ```text
 94b2e59510f2e1fa78411634c98a77bbb638e28fb2da00c9f359cd5fc8f87254
 ```
 
-Điều này trông giống như một giao dịch tiêu chuẩn với một đầu vào đã được sử dụng, một đầu ra thanh toán, và một thay đổi:
+Điều này trông giống như một giao dịch tiêu chuẩn với một đầu vào đã được sử dụng, một đầu ra để thanh toán, và một đầu ra thối tiền:
 
 ![BTC204](assets/notext/66/23.webp)
 
-### Nhận Giao Dịch BIP47 và Sinh Khóa Riêng
+### Nhận giao dịch BIP47 và Sinh khoá riêng
 
 Alice vừa thực hiện khoản thanh toán đầu tiên của mình đến một địa chỉ BIP47 mới thuộc về Bob. Bây giờ, hãy xem Bob nhận thanh toán này như thế nào. Chúng ta cũng sẽ xem tại sao Alice không có quyền truy cập vào khóa riêng của địa chỉ mà cô ấy vừa tạo ra, và làm thế nào Bob lấy lại khóa này để chi tiêu bitcoin mà anh ấy vừa nhận được.
-Ngay khi Bob nhận được giao dịch thông báo từ Alice, anh ấy sinh ra khóa công khai BIP47 $K0$ ngay cả trước khi cô ấy gửi bất kỳ khoản thanh toán nào. Sau đó, anh ấy theo dõi bất kỳ khoản thanh toán nào đến địa chỉ liên quan. Thực tế, anh ấy ngay lập tức sinh ra một số địa chỉ mà anh ấy sẽ theo dõi ($K0$, $K1$, $K2$, $K3$...). Dưới đây là cách anh ấy sinh ra khóa công khai này $K0$:
-- Bob chọn khóa con riêng đầu tiên được sinh ra từ mã thanh toán của mình. Khóa riêng này được gọi là $b$. Nó được liên kết với khóa công khai $B$ mà Alice đã sử dụng trong các bước trước:
+Ngay khi Bob nhận được giao dịch thông báo từ Alice, anh ấy sinh ra khóa công khai BIP47 K0 ngay cả trước khi cô ấy gửi bất kỳ khoản thanh toán nào. Sau đó, anh ấy theo dõi bất kỳ khoản thanh toán nào đến địa chỉ liên quan. Thực tế, anh ấy ngay lập tức sinh ra một số địa chỉ mà anh ấy sẽ theo dõi (K0, K1, K2, K3...). Dưới đây là cách anh ấy sinh ra khóa công khai K0 này:
+- Bob chọn khóa con riêng đầu tiên được sinh ra từ mã thanh toán của mình. Khóa riêng này được gọi là b. Nó được liên kết với khóa công khai B mà Alice đã sử dụng trong các bước trước:
 
 $$ b $$
 
-- Bob chọn khóa công khai đầu tiên của Alice được sinh ra từ mã thanh toán của cô ấy. Khóa này được gọi là $A$. Nó được liên kết với khóa riêng $a$ mà Alice đã sử dụng, và chỉ có Alice biết. Bob có thể thực hiện quá trình này vì anh ấy biết mã thanh toán của Alice được truyền cho anh ấy với giao dịch thông báo:
+- Bob chọn khóa công khai đầu tiên của Alice được sinh ra từ mã thanh toán của cô ấy. Khóa này được gọi là A. Nó được liên kết với khóa riêng a mà Alice đã sử dụng, và chỉ có Alice biết. Bob có thể thực hiện quá trình này vì anh ấy biết mã thanh toán của Alice được truyền cho anh ấy với giao dịch thông báo:
 
 $$ A = a \cdot G $$
 
-- Bob tính toán điểm bí mật $S$, bằng cách cộng và nhân đôi các điểm trên đường cong elliptic, áp dụng khóa riêng $b$ của mình vào khóa công khai $A$ của Alice. Tại đây chúng ta tìm thấy việc sử dụng ECDH đảm bảo rằng điểm này $S$ sẽ giống nhau cho cả Bob và Alice:
+- Bob tính toán điểm bí mật S, bằng cách cộng và nhân đôi các điểm trên đường cong e-líp, áp dụng khóa riêng b của mình vào khóa công khai A của Alice. Tại đây chúng ta tìm thấy việc sử dụng ECDH đảm bảo rằng điểm này S sẽ giống nhau cho cả Bob và Alice:
 
 $$ S = b \cdot A $$
-- Giống như Alice, Bob tách biệt tọa độ x của điểm này $S$. Chúng tôi đã đặt tên giá trị này là $Sx$. Anh ta đưa giá trị này qua hàm SHA256 để tìm ra bí mật chung $s$ (chữ thường):
+- Giống như Alice, Bob tách biệt tọa độ x của điểm S này. Chúng ta đã đặt tên giá trị này là Sx. Anh ta đưa giá trị này qua hàm SHA256 để tìm ra bí mật chung s (chữ thường):
 $$ s = \text{SHA256}(Sx) $$
 
-- Giống như Alice, Bob tính toán điểm $s·G$ trên đường cong elliptic. Sau đó, anh ta cộng điểm bí mật này với khóa công khai của mình $B$. Anh ta sau đó nhận được một điểm mới trên đường cong elliptic mà anh ta giải thích là khóa công khai $K0$:
+- Giống như Alice, Bob tính toán điểm s·G trên đường cong e-líp. Sau đó, anh ta cộng điểm bí mật này với khóa công khai B của mình. Anh ta sau đó nhận được một điểm mới trên đường cong e-líp mà anh ta xem là khóa công khai KO:
 
 $$ K0 = B + s \cdot G $$
 
-Một khi Bob có khóa công khai $K0$, anh ta có thể suy ra khóa riêng tư tương ứng để có thể chi tiêu bitcoin của mình. Anh ta là người duy nhất có thể tạo ra khóa riêng tư này:
+Một khi Bob có khóa công khai K0, anh ta có thể suy ra khóa riêng tư tương ứng để có thể chi tiêu bitcoin của mình. Anh ta là người duy nhất có thể tạo ra khóa riêng tư này:
 
-- Bob cộng khóa riêng tư con của mình $b$ được suy ra từ mã thanh toán cá nhân của mình. Anh ta là người duy nhất có thể nhận được giá trị của $b$. Sau đó, anh ta cộng $b$ với bí mật chung $s$ để nhận được $k0$, khóa riêng tư của $K0$:
+- Bob cộng khóa riêng tư con của mình b được suy ra từ mã thanh toán cá nhân của mình. Anh ta là người duy nhất có thể biết được giá trị của b. Sau đó, anh ta cộng b với bí mật chung s để nhận được k0, khóa riêng tư của K0:
 
 $$ k0 = b + s $$
 
-Nhờ vào luật nhóm của đường cong elliptic, Bob chính xác nhận được khóa riêng tư tương ứng với khóa công khai mà Alice sử dụng. Chúng ta có:
+Nhờ vào luật nhóm của đường cong e-líp, Bob nhận được khóa riêng tư tương ứng với khóa công khai mà Alice sử dụng một cách chính xác. Chúng ta có:
 
 $$ K0 = k0 \cdot G $$
 Tôi sẽ tóm tắt các bước chúng ta vừa trải qua cùng nhau để nhận một khoản thanh toán BIP47 và tính toán khóa riêng tư tương ứng:
 - Bob chọn khóa riêng tư con đầu tiên được suy ra từ mã thanh toán cá nhân của mình;
-- Anh ta tính toán một điểm bí mật trên đường cong elliptic sử dụng ECDH từ khóa công khai con đầu tiên được suy ra từ mã chuỗi của Alice;
+- Anh ta tính toán một điểm bí mật trên đường cong e-líp sử dụng ECDH từ khóa công khai con đầu tiên được suy ra từ mã chuỗi của Alice;
 - Anh ta sử dụng điểm bí mật này để tính toán một bí mật chung với SHA256;
-- Anh ta sử dụng bí mật chung này để tính toán một điểm bí mật mới trên đường cong elliptic;
+- Anh ta sử dụng bí mật chung này để tính toán một điểm bí mật mới trên đường cong e-líp;
 - Anh ta cộng điểm bí mật mới này với khóa công khai cá nhân của mình;
 - Anh ta nhận được một khóa công khai tạm thời mới, mà Alice sẽ gửi khoản thanh toán đầu tiên của cô ấy;
 - Bob tính toán khóa riêng tư tương ứng với khóa công khai tạm thời này bằng cách cộng khóa riêng tư con của mình được suy ra từ mã thanh toán và bí mật chung.
 
 ![BTC204](assets/vi/66/24.webp)
 
-Vì Alice không thể nhận được $b$ (khóa riêng tư của Bob), cô ấy không thể xác định $k0$ (khóa riêng tư tương ứng với địa chỉ nhận BIP47 của Bob). Một cách sơ đồ, chúng ta có thể biểu diễn việc tính toán bí mật chung $S$ như thế này:
+Vì Alice không thể có được b (khóa riêng tư của Bob), cô ấy không thể xác định được k0 (khóa riêng tư tương ứng với địa chỉ nhận BIP47 của Bob). Chúng ta có thể biểu diễn sơ đồ hoá việc tính toán bí mật chung S như thế này:
 
 ![BTC204](assets/vi/66/19.webp)
 
-Một khi bí mật chung được tìm thấy với ECDH, Alice và Bob tính toán khóa công khai thanh toán BIP47 $K0$, và Bob cũng tính toán khóa riêng tư tương ứng $k0$:
+Một khi bí mật chung được tìm thấy với ECDH, Alice và Bob tính toán khóa công khai thanh toán BIP47 K0, và Bob cũng tính toán khóa riêng tư tương ứng k0:
 
 ![BTC204](assets/vi/66/25.webp)
 
-### Hoàn tiền cho Khoản Thanh toán BIP47
+### Hoàn tiền cho khoản toán BIP47
 
-Vì Bob biết mã thanh toán có thể tái sử dụng của Alice, anh ta đã có tất cả thông tin cần thiết để gửi lại tiền cho cô ấy. Anh ta sẽ không cần phải liên hệ lại với Alice để yêu cầu bất kỳ thông tin nào. Anh ta chỉ cần thông báo cho cô ấy bằng một giao dịch thông báo, đặc biệt là để cô ấy có thể lấy lại địa chỉ BIP47 của mình với hạt giống của mình, và sau đó anh ta cũng có thể gửi cho cô ấy tới `2^32` khoản thanh toán.
+Vì Bob biết mã thanh toán có thể tái sử dụng của Alice, anh ta đã có tất cả thông tin cần thiết để gửi lại tiền cho cô ấy. Anh ta sẽ không cần phải liên hệ lại với Alice để yêu cầu bất kỳ thông tin nào. Anh ta chỉ cần thông báo cho cô ấy bằng một giao dịch thông báo, nhằm giúp cô ấy có thể lấy lại địa chỉ BIP47 và hạt giống của mình, và sau đó anh ta cũng có thể gửi cho cô ấy tới `2^32` khoản thanh toán.
 
 Chức năng hoàn tiền là đặc thù của BIP47 và là một trong những ưu điểm so với các phương pháp khác mà chúng ta sẽ nghiên cứu trong các chương tiếp theo, như Silent Payments.
 
 Bob sau đó có thể hoàn tiền cho Alice theo cùng một cách mà cô ấy đã gửi cho anh ta các khoản thanh toán. Vai trò được đảo ngược:
 
 ![BTC204](assets/vi/66/26.webp)
-*Xin chân thành cảm ơn [Fanis Michalakis](https://x.com/FanisMichalakis) vì đã xem xét và đưa ra những lời khuyên chuyên môn quý báu về bài viết đã truyền cảm hứng cho việc viết chương này!*
-## Thanh Toán Ẩn Danh
+*Xin chân thành cảm ơn [Fanis Michalakis](https://x.com/FanisMichalakis) vì đã duyệt bài và đưa ra những lời khuyên chuyên môn quý báu về bài viết đã truyền cảm hứng cho việc viết chương này!*
+## Thanh toán ẩn danh
 <chapterId>2871d594-414e-4598-a830-91c9eb84dfb8</chapterId>
-BIP47 đã bị chỉ trích vì sự không hiệu quả của nó trên chuỗi khối. Như đã giải thích trong chương trước, nó đòi hỏi một giao dịch thông báo cho mỗi người nhận mới. Ràng buộc này trở nên không đáng kể nếu người ta dự định thiết lập một kênh thanh toán lâu dài với người nhận này. Thực sự, một giao dịch thông báo mở đường cho một số lượng gần như vô hạn các khoản thanh toán BIP47 tiếp theo.
+BIP47 đã bị chỉ trích vì sự không hiệu quả của nó trên chuỗi. Như đã giải thích trong chương trước, nó đòi hỏi một giao dịch thông báo cho mỗi người nhận mới. Ràng buộc này trở nên không trở thành vấn đề lớn nếu người ta dự định thiết lập một kênh thanh toán lâu dài với người nhận này. Thực vậy, một giao dịch thông báo mở đường cho một số lượng gần như vô hạn các khoản thanh toán BIP47 tiếp theo.
 
-Tuy nhiên, trong một số tình huống, giao dịch thông báo có thể là một trở ngại cho người dùng. Lấy ví dụ về một khoản quyên góp một lần cho một người nhận: với một địa chỉ Bitcoin cổ điển, một giao dịch duy nhất là đủ để thực hiện khoản quyên góp. Nhưng với BIP47, hai giao dịch là cần thiết: một cho thông báo và một khác cho khoản thanh toán thực sự. Khi nhu cầu về không gian khối thấp và phí giao dịch tối thiểu, bước thêm này nói chung không phải là vấn đề. Tuy nhiên, trong những thời kỳ tắc nghẽn, phí giao dịch có thể trở nên cực kỳ cao cho một khoản thanh toán đơn lẻ, có thể gấp đôi chi phí cho người dùng so với một giao dịch Bitcoin tiêu chuẩn, điều này có thể không được người dùng chấp nhận.
+Tuy nhiên, trong một số tình huống, giao dịch thông báo có thể là một trở ngại cho người dùng. Lấy ví dụ về một khoản quyên góp một lần cho một người nhận: với một địa chỉ Bitcoin cổ điển, một giao dịch duy nhất là đủ để thực hiện khoản quyên góp. Nhưng với BIP47, hai giao dịch là cần thiết: một cho thông báo và một cho khoản thanh toán thực sự. Khi nhu cầu về không gian khối thấp và phí giao dịch tối thiểu, bước thêm này không phải là vấn đề. Tuy nhiên, trong những thời kỳ tắc nghẽn, phí giao dịch có thể trở nên cực kỳ cao cho một khoản thanh toán đơn lẻ, việc gấp đôi chi phí cho người dùng so với một giao dịch Bitcoin tiêu chuẩn có thể không được người dùng chấp nhận.
 
-Đối với những tình huống mà người dùng dự định chỉ thực hiện một vài khoản thanh toán cho một định danh cố định, các giải pháp khác đã được phát triển. Trong số đó có Thanh Toán Ẩn Danh, được mô tả trong [BIP352](https://github.com/bitcoin/bips/blob/master/bip-0352.mediawiki). Giao thức này cho phép sử dụng một định danh cố định để nhận thanh toán mà không tạo ra việc sử dụng lại địa chỉ, và không yêu cầu sử dụng giao dịch thông báo. Hãy xem xét cách giao thức này hoạt động.
+Đối với những tình huống mà người dùng dự định chỉ thực hiện một vài khoản thanh toán cho một định danh cố định, các giải pháp khác đã được phát triển. Trong số đó có thanh toán ẩn danh, được mô tả trong [BIP352](https://github.com/bitcoin/bips/blob/master/bip-0352.mediawiki). Giao thức này cho phép sử dụng một định danh cố định để nhận thanh toán mà không tạo ra việc sử dụng lại địa chỉ, và không yêu cầu sử dụng giao dịch thông báo. Hãy xem xét cách giao thức này hoạt động.
 
 ---
 
-*Để hiểu đầy đủ chương này, điều cần thiết là phải quen thuộc với cách hoạt động của ECDH (Elliptic Curve Diffie-Hellman) và việc phát sinh khóa mật mã trong một ví HD. Những khái niệm này đã được chi tiết trong chương trước về BIP47. Tôi sẽ không đi sâu vào chúng ở đây. Nếu bạn chưa quen với những khái niệm này, tôi khuyên bạn nên tham khảo chương trước trước khi tiếp tục với chương này. Tôi cũng sẽ không tái bàn về những rủi ro liên quan đến việc tái sử dụng địa chỉ nhận, cũng như tầm quan trọng của việc có một định danh duy nhất để nhận thanh toán.*
+*Để hiểu đầy đủ chương này, điều cần thiết là phải quen thuộc với cách hoạt động của ECDH (Elliptic Curve Diffie-Hellman) và việc dẫn xuất ra khóa mật mã trong một ví HD. Những khái niệm này đã được chi tiết hoá trong chương trước về BIP47. Tôi sẽ không đi sâu vào chúng ở đây. Nếu bạn chưa quen với những khái niệm này, tôi khuyên bạn nên tham khảo chương trước trước khi tiếp tục với chương này. Tôi cũng sẽ không bàn lại về những rủi ro liên quan đến việc tái sử dụng địa chỉ nhận, cũng như tầm quan trọng của việc có một định danh duy nhất để nhận thanh toán.*
 
 ---
 
@@ -3134,94 +3136,95 @@ Như đã thảo luận trong chương về BIP47, giao dịch thông báo chủ
 - Nó thông báo cho người nhận;
 - Nó truyền mã thanh toán của người gửi.
 
-Người ta có thể nghĩ một cách ngây thơ rằng quá trình thông báo này có thể được thực hiện ngoại tuyến. Trên lý thuyết, điều này hoàn toàn khả thi: chỉ cần cho người nhận chỉ ra một phương tiện liên lạc để nhận mã thanh toán BIP47 từ người gửi. Tuy nhiên, cách tiếp cận này đặt ra hai vấn đề lớn:
-- Đầu tiên, điều này sẽ chuyển quá trình truyền mã sang một giao thức liên lạc khác. Các vấn đề liên quan đến chi phí và quyền riêng tư của giao dịch vẫn tồn tại, nhưng chỉ đơn giản là được chuyển sang giao thức mới này. Về mặt quyền riêng tư, điều này cũng có thể tạo ra một liên kết giữa danh tính của người dùng và hoạt động trên chuỗi khối, điều mà chúng ta mong muốn tránh bằng cách thực hiện thông báo trực tiếp trên blockchain. Hơn nữa, việc thực hiện thông báo ngoài blockchain sẽ giới thiệu rủi ro kiểm duyệt (như việc chặn tiền) mà không tồn tại trên Bitcoin;
-- Tiếp theo, điều này sẽ tạo ra một vấn đề về khôi phục. Với BIP47, người nhận phải biết chắc chắn mã thanh toán của người gửi để truy cập vào quỹ. Điều này đúng tại thời điểm nhận tiền, nhưng cũng đúng trong trường hợp khôi phục quỹ thông qua hạt giống trong trường hợp mất ví. Với thông báo onchain, rủi ro này được tránh, vì người dùng có thể tìm và giải mã các giao dịch thông báo chỉ bằng cách biết hạt giống của mình. Tuy nhiên, nếu việc thông báo được thực hiện ngoài blockchain, người dùng sẽ cần duy trì một bản sao lưu động của tất cả mã thanh toán đã nhận, điều này không thực tế cho người dùng trung bình.
-Tất cả những hạn chế này làm cho việc sử dụng thông báo onchain trở nên không thể thiếu trong bối cảnh của BIP47. Tuy nhiên, Silent Payments cụ thể tìm cách tránh bước thông báo onchain này do chi phí của nó. Do đó, giải pháp được chấp nhận không phải là di chuyển thông báo, mà là loại bỏ hoàn toàn nó. Để đạt được điều này, một sự thỏa hiệp phải được chấp nhận: đó là việc quét. Khác với BIP47, nơi người dùng biết chính xác nơi tìm quỹ của mình nhờ vào giao dịch thông báo, trong bối cảnh của Silent Payments, người dùng phải kiểm tra tất cả các giao dịch Bitcoin hiện có để phát hiện bất kỳ khoản thanh toán nào có thể dành cho họ. Để giảm bớt gánh nặng hoạt động này, việc tìm kiếm Silent Payments chỉ giới hạn ở các giao dịch có khả năng chứa các khoản thanh toán như vậy, cụ thể là những giao dịch bao gồm ít nhất một đầu ra Taproot P2TR. Việc quét cũng tập trung độc quyền vào các giao dịch từ ngày tạo ví (không cần quét các giao dịch trở lại năm 2009 nếu ví được tạo vào năm 2024).
+Người ta có thể nghĩ một cách ngây thơ rằng quá trình thông báo này có thể được thực hiện ngoại tuyến. Trên lý thuyết, điều này hoàn toàn khả thi: chỉ cần cho người nhận đưa ra một phương tiện liên lạc để nhận mã thanh toán BIP47 từ người gửi. Tuy nhiên, cách tiếp cận này đặt ra hai vấn đề lớn:
+- Đầu tiên, điều này sẽ chuyển quá trình truyền mã sang một giao thức liên lạc khác. Các vấn đề liên quan đến chi phí và quyền riêng tư của giao dịch vẫn tồn tại, nhưng chỉ đơn giản là được chuyển sang giao thức mới này. Về mặt quyền riêng tư, điều này cũng có thể tạo ra một liên kết giữa danh tính của người dùng và hoạt động trên chuỗi khối, điều mà chúng ta mong muốn tránh bằng cách thực hiện thông báo trực tiếp trên blockchain. Hơn nữa, việc thực hiện thông báo ngoài blockchain sẽ đối diện với rủi ro bị kiểm duyệt (như việc chặn tiền), điều không tồn tại trên mạng lưới Bitcoin;
+- Tiếp theo, điều này sẽ tạo ra một vấn đề tronq quá trình khôi phục. Với BIP47, người nhận phải biết chắc chắn mã thanh toán của người gửi để truy cập vào tiền. Điều này đúng tại thời điểm nhận tiền, nhưng cũng đúng trong trường hợp khôi phục quỹ thông qua hạt giống trong trường hợp mất ví. Với thông báo trên blockchain, chúng ta tránh được rủi ro này, vì người dùng có thể tìm và giải mã các giao dịch thông báo chỉ bằng cách biết hạt giống của mình. Tuy nhiên, nếu việc thông báo được thực hiện ngoài blockchain, người dùng sẽ cần duy trì một bản sao lưu động của tất cả mã thanh toán đã nhận, điều này không thực tế cho người dùng ở trình độ trung bình.
+Tất cả những hạn chế này làm cho việc sử dụng thông báo trên blockchain (thông báo onchain) trở nên không thể thiếu trong bối cảnh của BIP47. Tuy nhiên, Silent Payments tập trung chuyên biệt vào việc tìm cách tránh bước thông báo onchain này do chi phí của nó. Do đó, giải pháp được chấp nhận không phải là di chuyển thông báo, mà là loại bỏ hoàn toàn nó. Để đạt được điều này, một sự thỏa hiệp phải được chấp nhận: đó là việc quét. Khác với BIP47, nơi người dùng biết chính xác nơi để truy cập tiền của mình nhờ vào giao dịch thông báo, trong bối cảnh của Silent Payments, người dùng phải kiểm tra tất cả các giao dịch Bitcoin hiện có để phát hiện bất kỳ khoản thanh toán nào là dành cho họ. Để giảm bớt gánh nặng của hoạt động này, việc tìm kiếm Silent Payments chỉ giới hạn ở các giao dịch có khả năng chứa các khoản thanh toán như vậy, cụ thể là những giao dịch bao gồm ít nhất một đầu ra Taproot P2TR. Việc quét cũng chỉ tập trung vào các giao dịch từ ngày tạo ví (không cần quét các giao dịch trở lại năm 2009 nếu ví được tạo vào năm 2024).
 
-Do đó, bạn có thể thấy tại sao BIP47 và Silent Payments, mặc dù hướng tới một mục tiêu tương tự, lại liên quan đến những thỏa hiệp khác nhau và **do đó thực sự phục vụ cho các trường hợp sử dụng khác nhau**. Đối với các khoản thanh toán một lần, như quyên góp không thường xuyên, Silent Payments phù hợp hơn do chi phí thấp hơn. Ngược lại, đối với các giao dịch thường xuyên cho cùng một người nhận, như trong trường hợp của các nền tảng giao dịch hoặc hồ bơi khai thác, BIP47 có thể được ưu tiên.
-Hãy cùng nhau khám phá cách thức kỹ thuật của Silent Payments để hiểu rõ hơn về những hậu quả của chúng. Để làm điều này, tôi đề xuất chúng ta áp dụng cùng một cách tiếp cận như tài liệu giải thích của BIP352. Chúng ta sẽ dần dần phân tích các phép tính cần thực hiện, từng phần tử một, biện minh cho mỗi sự bổ sung mới.
+Do đó, bạn có thể thấy tại sao BIP47 và Silent Payments, mặc dù hướng tới một mục tiêu tương tự, lại liên quan đến những thỏa hiệp khác nhau và **do đó thực sự phục vụ cho các trường hợp sử dụng khác nhau**. Đối với các khoản thanh toán một lần, như quyên góp không thường xuyên, Silent Payments phù hợp hơn do chi phí thấp hơn. Ngược lại, đối với các giao dịch thường xuyên cho cùng một người nhận, như trong trường hợp của các nền tảng giao dịch hoặc pook đào, BIP47 có thể được ưu tiên.
+Hãy cùng nhau khám phá cách thức hoạt động của Silent Payments về mặt kỹ thuật để hiểu rõ hơn về ứng dụng của chúng. Để làm điều này, tôi đề xuất chúng ta áp dụng cùng một cách tiếp cận như tài liệu giải thích của BIP352. Chúng ta sẽ dần dần phân tích các phép tính cần thực hiện, từng phần tử một.
 ### Một số khái niệm cần hiểu
 
-Trước khi bắt đầu, điều quan trọng cần làm rõ là Silent Payments dựa hoàn toàn vào việc sử dụng các loại script P2TR (*Pay to Taproot*). Khác với BIP47, không cần phải suy ra các địa chỉ nhận từ các khóa công khai con bằng cách băm chúng. Thực tế, trong tiêu chuẩn P2TR, khóa công khai đã được chỉnh sửa được sử dụng trực tiếp và công khai trong địa chỉ. Do đó, một địa chỉ nhận Taproot cơ bản là một khóa công khai kèm theo một số metadata. Khóa công khai này đã được chỉnh sửa là sự tổng hợp của hai khóa công khai khác: một cho phép chi tiêu trực tiếp và truyền thống thông qua một chữ ký đơn giản, và khóa khác đại diện cho gốc Merkle của MAST, cho phép chi tiêu tuân theo sự thỏa mãn của một trong các điều kiện có thể được ghi trong cây Merkle.
+Trước khi bắt đầu, điều quan trọng cần làm rõ là Silent Payments dựa hoàn toàn vào việc sử dụng các loại script P2TR (*Pay to Taproot*). Khác với BIP47, Silent Payments không cần phải tạo ra các địa chỉ nhận từ các khóa công khai con bằng cách băm chúng. Thực tế, trong tiêu chuẩn P2TR, khóa công khai đã được chỉnh sửa (tweaked public key) được sử dụng trực tiếp và công khai trong địa chỉ. Do đó, một địa chỉ nhận Taproot cơ bản là một khóa công khai kèm theo một số metadata. Khóa công khai này đã được chỉnh sửa là sự tổng hợp của hai khóa công khai khác: một cho phép chi tiêu trực tiếp và truyền thống thông qua một chữ ký đơn giản, và khóa khác đại diện cho gốc Merkle của MAST (Merkelized Alternative Script Tree), cho phép chi tiêu tuân theo sự thỏa mãn của một trong các điều kiện có thể được ghi trong cây Merkle.
 
 ![BTC204](assets/vi/67/01.webp)
 
-Quyết định giới hạn Silent Payments độc quyền cho Taproot được thúc đẩy bởi hai lý do chính:
-- Đầu tiên, nó đáng kể làm cho việc triển khai và cập nhật trong tương lai trong phần mềm ví dễ dàng hơn, vì chỉ cần tuân theo một tiêu chuẩn;
-- Thứ hai, cách tiếp cận này giúp cải thiện tập hợp ẩn danh của người dùng bằng cách khuyến khích họ không phân tán giữa các loại script khác nhau, tạo ra các dấu vân tay ví khác nhau trong phân tích chuỗi (để biết thêm thông tin về khái niệm này, tôi mời bạn tham khảo chương 4 của phần 2).
+Quyết định giới hạn Silent Payments chỉ danh cho Taproot được thúc đẩy bởi hai lý do chính:
+- Đầu tiên, nó làm cho việc triển khai và cập nhật trong tương lai trong phần mềm ví dễ dàng hơn đáng kể, vì chỉ cần tuân theo một tiêu chuẩn;
+- Thứ hai, cách tiếp cận này giúp cải thiện tập hợp ẩn danh (anonset) của người dùng bằng cách khuyến khích họ không phân tán giữa các loại script khác nhau, hoạt động thường tạo ra các dấu vân tay ví khác nhau trong phân tích chuỗi (để biết thêm thông tin về khái niệm này, tôi mời bạn tham khảo chương 4 của phần 2).
 
 ### Sự suy diễn ngây thơ của một khóa công khai Silent Payments
-Hãy bắt đầu với một ví dụ đơn giản giúp bạn hiểu về cơ chế hoạt động cốt lõi của SP (Silent Payments - Thanh toán Ẩn danh). Lấy ví dụ về Alice và Bob, hai người dùng Bitcoin. Alice muốn gửi bitcoin cho Bob vào một địa chỉ nhận mới. Ba mục tiêu cần được đạt được trong quá trình này:
+Hãy bắt đầu với một ví dụ đơn giản giúp bạn hiểu về cơ chế hoạt động cốt lõi của SP (Silent Payments - Thanh toán ẩn danh). Lấy ví dụ về Alice và Bob, hai người dùng Bitcoin. Alice muốn gửi bitcoin cho Bob vào một địa chỉ nhận mới. Ba mục tiêu cần được đạt được trong quá trình này:
 - Alice phải có thể tạo ra một địa chỉ mới;
 - Bob phải có thể xác định một khoản thanh toán được gửi đến địa chỉ cụ thể này;
-- Bob phải có thể lấy được khóa riêng liên kết với địa chỉ này để có thể chi tiêu số tiền của mình.
+- Bob phải có thể lấy được khóa riêng tư liên kết với địa chỉ này để có thể chi tiêu số tiền của mình.
 
 Alice có một UTXO trong ví Bitcoin của mình được bảo vệ bằng cặp khóa sau:
-- $a$: khóa riêng;
-- $A$: khóa công khai ($A = a \cdot G$)
+- a: khóa riêng tư;
+- A: khóa công khai ($A = a \cdot G$)
 
 Bob có một địa chỉ SP mà anh ấy đã công bố trên internet với:
-- $b$: khóa riêng;
-- $B$: khóa công khai ($B = b \cdot G$)
-Bằng cách truy xuất địa chỉ của Bob, Alice có thể tính toán một địa chỉ trống mới thuộc về Bob sử dụng ECDH. Hãy gọi địa chỉ này là $P$:
+- b: khóa riêng;
+- B: khóa công khai ($B = b \cdot G$)
+Bằng cách truy xuất địa chỉ của Bob, Alice có thể tính toán một địa chỉ trống mới thuộc về Bob sử dụng ECDH. Hãy gọi địa chỉ này là P:
 $$  P = B + \text{hash}(a \cdot B) \cdot G  $$
 
-Trong phương trình này, Alice đơn giản tính toán tích vô hướng của khóa riêng $a$ của mình và khóa công khai $B$ của Bob. Cô ấy truyền kết quả này qua một hàm băm được biết đến bởi tất cả. Giá trị đầu ra sau đó được nhân vô hướng với điểm sinh $G$ của đường cong elliptic `secp256k1`. Cuối cùng, Alice cộng điểm thu được với khóa công khai $B$ của Bob. Một khi Alice có được địa chỉ $P$, cô ấy sử dụng nó như một đầu ra trong một giao dịch, nghĩa là cô ấy gửi bitcoin đến nó.
+Trong phương trình này, Alice đơn giản tính toán tích vô hướng của khóa riêng tư a của mình và khóa công khai B của Bob. Cô ấy truyền kết quả này qua một hàm băm được biết đến bởi tất cả. Giá trị đầu ra sau đó được nhân vô hướng với điểm sinh G của đường cong e-líp `secp256k1`. Cuối cùng, Alice cộng điểm thu được với khóa công khai B của Bob. Một khi Alice có được địa chỉ P, cô ấy sử dụng nó như một đầu ra trong một giao dịch, nghĩa là cô ấy gửi bitcoin đến nó.
 
-> *Trong bối cảnh của Silent Payments, hàm "băm" tương ứng với hàm băm SHA256 được gắn cụ thể với `BIP0352/SharedSecret`, đảm bảo rằng các băm được tạo ra là duy nhất cho giao thức này và không thể tái sử dụng trong các bối cảnh khác, đồng thời cung cấp bảo vệ bổ sung chống lại việc tái sử dụng nonce trong chữ ký. Tiêu chuẩn này tương ứng với cái được [quy định trong BIP340 cho chữ ký Schnorr](https://github.com/bitcoin/bips/blob/master/bip-0340.mediawiki) trên `secp256k1`.*
+> *Trong bối cảnh của Silent Payments, hàm "băm" tương ứng với hàm băm SHA256 được gắn cụ thể với `BIP0352/SharedSecret`, đảm bảo rằng các mã băm được tạo ra là duy nhất cho giao thức này và không thể tái sử dụng trong các bối cảnh khác, đồng thời cung cấp bảo vệ bổ sung chống lại việc tái sử dụng nonce trong chữ ký. Tiêu chuẩn này tương ứng với cái được [quy định trong BIP340 cho chữ ký Schnorr](https://github.com/bitcoin/bips/blob/master/bip-0340.mediawiki) trên `secp256k1`.*
 
-Nhờ vào các tính chất của đường cong elliptic mà ECDH dựa vào, chúng ta biết rằng:
+Nhờ vào các tính chất của đường cong e-líp mà ECDH dựa vào, chúng ta biết rằng:
 
 $$  a \cdot B = b \cdot A  $$
 
-Do đó, Bob sẽ có thể tính toán được địa chỉ nhận mà Alice đã gửi bitcoin. Để làm điều này, anh ấy theo dõi tất cả các giao dịch Bitcoin phù hợp với tiêu chí của Silent Payments và áp dụng phép tính sau đây cho từng giao dịch để xem liệu thanh toán có được gửi đến mình không (*quét*):
+Do đó, Bob sẽ có thể tính toán được địa chỉ nhận mà Alice đã gửi bitcoin. Để làm điều này, anh ấy theo dõi tất cả các giao dịch Bitcoin phù hợp với tiêu chí của Silent Payments và áp dụng phép tính sau đây cho từng giao dịch để xem liệu thanh toán có được gửi đến mình không (*quét - scanning*):
 
 $$  P' = B + \text{hash}(b \cdot A) \cdot G  $$
 
-Khi anh ấy quét giao dịch của Alice, anh ấy nhận ra rằng $P'$ bằng $P$. Anh ấy do đó biết rằng khoản thanh toán này được gửi đến mình:
+Khi anh ấy quét giao dịch của Alice, anh ấy nhận ra rằng P' bằng P. Anh ấy do đó biết rằng khoản thanh toán này được gửi đến mình:
 
 $$  P' = B + \text{hash}(b \cdot A) \cdot G = B + \text{hash}(a \cdot B) \cdot G = P   $$
 
-Từ đó, Bob sẽ có thể tính toán được khóa riêng $p$ cho phép chi tiêu địa chỉ $P$:
+Từ đó, Bob sẽ có thể tính toán được khóa riêng tư p cho phép chi tiêu tiền trong địa chỉ P:
 
 $$  p = (b + \text{hash}(b \cdot A)) \bmod n  $$
 
-Như bạn có thể thấy, để tính toán khóa riêng $p$ này, người ta nhất thiết phải có khóa riêng $b$. Chỉ có Bob mới có khóa riêng $b$ này. Do đó, anh ấy thực sự sẽ là người duy nhất có thể chi tiêu bitcoin được gửi đến địa chỉ Silent Payments của mình.
+Như bạn có thể thấy, để tính toán khóa riêng tư p này, người ta nhất thiết phải có khóa riêng b. Chỉ có Bob mới có khóa riêng b này. Do đó, anh ấy thực sự sẽ là người duy nhất có thể chi tiêu bitcoin được gửi đến địa chỉ Silent Payments của mình.
 
 ![BTC204](assets/notext/67/02.webp)
 *Chú thích:*
-- $B$: Khóa công khai / địa chỉ tĩnh được công bố bởi Bob
-- $b$: Khóa riêng của Bob
-- $A$: Khóa công khai của UTXO của Alice được sử dụng làm đầu vào cho giao dịch
-- $a$: Khóa riêng của Alice
-- $G$: Điểm sinh của đường cong elliptic `secp256k1`
-- $\text{SHA256}$: Hàm băm SHA256 được gắn thẻ với `BIP0352/SharedSecret`
-- $s$: Bí mật chung ECDH
-- $P$: Khóa công khai / địa chỉ duy nhất để thanh toán cho Bob
+- B: Khóa công khai / địa chỉ tĩnh được công bố bởi Bob
+- b: Khóa riêng của Bob
+- A: Khóa công khai của UTXO của Alice được sử dụng làm đầu vào cho giao dịch
+- a: Khóa riêng của Alice
+- G: Điểm sinh của đường cong e-líp `secp256k1`
+- SHA256: Hàm băm SHA256 được gắn thẻ với `BIP0352/SharedSecret`
+- s: Bí mật ECDH chung 
+- P: Khóa công khai / địa chỉ duy nhất để thanh toán cho Bob
 
-Dưới đây là một cách tiếp cận ban đầu khá ngây thơ khi sử dụng địa chỉ tĩnh của Bob, được ký hiệu là $B$, để tạo ra một địa chỉ duy nhất $P$ để gửi bitcoin. Tuy nhiên, phương pháp này quá đơn giản và có một số lỗi cần được sửa chữa. Vấn đề đầu tiên là, trong kế hoạch này, Alice không thể tạo nhiều đầu ra cho Bob trong cùng một giao dịch.
+Dưới đây là một cách tiếp cận ban đầu khá ngây thơ khi sử dụng địa chỉ tĩnh của Bob, được ký hiệu là B, để tạo ra một địa chỉ duy nhất P để gửi bitcoin. Tuy nhiên, phương pháp này quá đơn giản và có một số lỗi cần được sửa chữa. Vấn đề đầu tiên là, trong kế hoạch này, Alice không thể tạo nhiều đầu ra cho Bob trong cùng một giao dịch.
 
 ### Làm thế nào để tạo nhiều đầu ra?
 
-Trong ví dụ từ phần trước, Alice tạo một đầu ra duy nhất sẽ đi đến Bob tại địa chỉ duy nhất của anh ấy $P$. Với cùng một đầu vào được chọn, Alice không thể tạo hai địa chỉ mới hoàn toàn cho Bob, vì phương pháp sử dụng sẽ luôn dẫn đến cùng một kết quả cho $P$, do đó là cùng một địa chỉ. Tuy nhiên, có thể có nhiều tình huống mà Alice muốn chia thanh toán của mình cho Bob thành nhiều số tiền nhỏ hơn, do đó tạo ra nhiều UTXO. Do đó, cần phải tìm ra một phương pháp cho phép điều này được thực hiện.
+Trong ví dụ từ phần trước, Alice tạo một đầu ra duy nhất sẽ đi đến Bob tại địa chỉ duy nhất của anh ấy P. Với cùng một đầu vào được chọn, Alice không thể tạo hai địa chỉ mới hoàn toàn cho Bob, vì phương pháp sử dụng sẽ luôn dẫn đến cùng một kết quả cho P, do đó là cùng một địa chỉ. Tuy nhiên, có thể có nhiều tình huống mà Alice muốn chia thanh toán của mình cho Bob thành nhiều số tiền nhỏ hơn, do đó tạo ra nhiều UTXO. Do đó, cần phải tìm ra một phương pháp cho phép điều này được thực hiện.
 
-Để đạt được điều này, chúng ta sẽ chỉnh sửa nhẹ phép tính mà Alice thực hiện để tạo ra $P$, sao cho cô ấy có thể tạo ra hai địa chỉ khác nhau cho Bob, cụ thể là $P_0$ và $P_1$.
+Để đạt được điều này, chúng ta sẽ chỉnh sửa nhẹ phép tính mà Alice thực hiện để tạo ra P, sao cho cô ấy có thể tạo ra hai địa chỉ khác nhau cho Bob, cụ thể là P_0 và P_1.
 
-Để chỉnh sửa phép tính và nhận được 2 địa chỉ khác nhau, chỉ cần thêm một số nguyên làm thay đổi kết quả. Do đó, Alice sẽ thêm $0$ vào phép tính của mình để nhận được địa chỉ $P_0$ và $1$ để nhận được địa chỉ $P_1$. Hãy gọi số nguyên này là $i$:
+Để chỉnh sửa phép tính và nhận được 2 địa chỉ khác nhau, chỉ cần thêm một số nguyên làm thay đổi kết quả. Do đó, Alice sẽ thêm 0 vào phép tính của mình để nhận được địa chỉ P_0 và thêm 1 để nhận được địa chỉ P_1. Hãy gọi số nguyên này là i:
 
 $$  P_i = B + \text{hash}(a \cdot B \text{ ‖ } i) \cdot G  $$
 
-Quy trình tính toán vẫn không thay đổi so với phương pháp trước, ngoại trừ lần này Alice sẽ nối $a \cdot B$ với $i$ trước khi tiến hành băm. Sau đó chỉ cần thay đổi $i$ để có một địa chỉ mới thuộc về Bob. Ví dụ:
+Quy trình tính toán vẫn không thay đổi so với phương pháp trước, ngoại trừ lần này Alice sẽ nối a.B với i trước khi tiến hành băm. Sau đó chỉ cần thay đổi i để có một địa chỉ mới thuộc về Bob. Ví dụ:
 
 $$  P_0 = B + \text{hash}(a \cdot B \text{ ‖ } 0) \cdot G  $$
 
 $$  P_1 = B + \text{hash}(a \cdot B \text{ ‖ } 1) \cdot G  $$
-Khi Bob quét blockchain để tìm các Khoản Thanh Toán Ẩn dành cho mình, anh ấy bắt đầu bằng cách sử dụng $i = 0$ cho địa chỉ $P_0$. Nếu anh ấy không tìm thấy khoản thanh toán nào trên $P_0$, anh ấy kết luận rằng giao dịch này không chứa Khoản Thanh Toán Ẩn nào dành cho mình và dừng việc phân tích nó. Tuy nhiên, nếu $P_0$ hợp lệ và chứa một khoản thanh toán cho mình, anh ấy tiếp tục với $P_1$ trong cùng một giao dịch để kiểm tra xem Alice có thực hiện khoản thanh toán thứ hai không. Nếu $P_1$ hóa ra không hợp lệ, anh ấy sẽ dừng tìm kiếm giao dịch này; nếu không, anh ấy tiếp tục kiểm tra các giá trị tiếp theo của $i$:
+
+Khi Bob quét blockchain để tìm các khoản thanh toán ẩn dành cho mình, anh ấy bắt đầu bằng cách sử dụng i = 0 cho địa chỉ P_0. Nếu anh ấy không tìm thấy khoản thanh toán nào trên P_0, anh ấy kết luận rằng giao dịch này không chứa khoản thanh toán ẩn nào dành cho mình và dừng việc phân tích nó. Tuy nhiên, nếu P_0 hợp lệ và chứa một khoản thanh toán cho mình, anh ấy tiếp tục với P_1 trong cùng một giao dịch để kiểm tra xem Alice có thực hiện khoản thanh toán thứ hai không. Nếu P_1 không hợp lệ, anh ấy sẽ dừng tìm kiếm giao dịch này; nếu không, anh ấy tiếp tục kiểm tra các giá trị tiếp theo của i:
 $$  P_0 = B + \text{hash}(b \cdot A \text{ ‖ } 0) \cdot G  $$
 $$  P_1 = B + \text{hash}(b \cdot A \text{ ‖ } 1 + \text{inputHash}) \cdot G  $$
 
-Vì Bob ngay lập tức dừng lại ở $i = 0$ nếu $P_0$ không mang lại kết quả gì, việc sử dụng số nguyên này gần như không tạo thêm gánh nặng hoạt động nào cho Bob trong bước quét các giao dịch.
+Vì Bob ngay lập tức dừng lại ở i = 0 nếu P_0 không mang lại kết quả gì, việc sử dụng số nguyên này gần như không tạo thêm gánh nặng nào cho hoạt động quét các giao dịch của Bob.
 
 Sau đó, Bob có thể tính toán các khóa riêng theo cùng một cách:
 
@@ -3236,35 +3239,35 @@ p_1 = (b + \text{hash}(b \cdot A \text{ ‖ } 1 + \text{inputHash})) \bmod n
 ![BTC204](assets/notext/67/03.webp)
 
 *Chú thích:*
-- $B$: Khóa công khai / địa chỉ tĩnh được Bob công bố
-- $b$: Khóa riêng của Bob
-- $A$: Khóa công khai của UTXO của Alice được sử dụng làm đầu vào cho giao dịch
-- $a$: Khóa riêng của Alice
-- $G$: Điểm sinh của đường cong elliptic `secp256k1`
-- $\text{SHA256}$: Hàm băm SHA256 được gắn thẻ với `BIP0352/SharedSecret`
-- $s_0$: Bí mật ECDH chia sẻ đầu tiên
-- $s_1$: Bí mật ECDH chia sẻ thứ hai
-- $P_0$: Khóa công khai / địa chỉ duy nhất đầu tiên cho việc thanh toán cho Bob
-- $P_1$: Khóa công khai / địa chỉ duy nhất thứ hai cho việc thanh toán cho Bob
+- B: Khóa công khai / địa chỉ tĩnh được Bob công bố
+- b: Khóa riêng tư của Bob
+- A: Khóa công khai của UTXO của Alice được sử dụng làm đầu vào cho giao dịch
+- a: Khóa riêng của Alice
+- G: Điểm sinh của đường cong e-líp `secp256k1`
+- SHA256: Hàm băm SHA256 được gắn thẻ với `BIP0352/SharedSecret`
+- s_0: Bí mật ECDH chung đầu tiên
+- s_1: Bí mật ECDH chung thứ hai
+- P_0: Khóa công khai / địa chỉ duy nhất đầu tiên để thanh toán cho Bob
+- P_1: Khóa công khai / địa chỉ duy nhất thứ hai để thanh toán cho Bob
 
-Với phương pháp này, chúng ta bắt đầu có một giao thức tốt, nhưng vẫn còn một số thách thức cần vượt qua, đặc biệt là việc ngăn chặn việc tái sử dụng địa chỉ.
+Với phương pháp này, chúng ta bắt đầu có một giao thức tốt, nhưng vẫn còn một số thách thức cần vượt qua, đặc biệt là ngăn chặn việc tái sử dụng địa chỉ.
 
 ### Làm thế nào để tránh tái sử dụng địa chỉ?
-Như chúng ta đã thấy trong các phần trước, Alice sử dụng cặp khóa bảo vệ UTXO của mình, mà cô ấy sẽ tiêu để tính toán bí mật ECDH chia sẻ với Bob. Bí mật này cho phép cô ấy tạo ra địa chỉ duy nhất $P_0$. Tuy nhiên, cặp khóa ($a$, $A$) được Alice sử dụng có thể bảo vệ nhiều UTXO nếu cô ấy đã sử dụng lại địa chỉ này nhiều lần. Trong trường hợp Alice thực hiện hai khoản thanh toán cho địa chỉ tĩnh $B$ của Bob sử dụng hai UTXO được bảo vệ bởi cùng một khóa $A$, điều này sẽ dẫn đến việc tái sử dụng địa chỉ cho Bob.
-> *Tái sử dụng địa chỉ là một thực hành rất xấu cho quyền riêng tư của người dùng. Để hiểu tại sao, tôi khuyên bạn nên xem lại các phần đầu của khóa học này.*
+Như chúng ta đã thấy trong các phần trước, Alice sử dụng cặp khóa bảo vệ UTXO của mình, mà cô ấy sẽ tiêu để tính toán bí mật chung ECDH với Bob. Bí mật này cho phép cô ấy tạo ra địa chỉ duy nhất P_0. Tuy nhiên, cặp khóa (a, A) được Alice sử dụng có thể bảo vệ nhiều UTXO nếu cô ấy đã sử dụng lại địa chỉ này nhiều lần. Trong trường hợp Alice thực hiện hai khoản thanh toán cho địa chỉ tĩnh B của Bob sử dụng hai UTXO được bảo vệ bởi cùng một khóa A, điều này sẽ dẫn đến việc tái sử dụng địa chỉ cho Bob.
+> *Tái sử dụng địa chỉ là một hoạt động ảnh hưởng rất xấu cho quyền riêng tư của người dùng. Để hiểu tại sao, tôi khuyên bạn nên xem lại các phần đầu của khóa học này.*
 
-Thực sự, vì địa chỉ duy nhất $P_0$ được tạo ra từ $A$ và $B$, nếu Alice tạo ra một địa chỉ thứ hai cho một khoản thanh toán thứ hai cho $B$, với cùng một khóa $A$, cô ấy sẽ kết thúc với cùng một địa chỉ $P_0$. Để tránh rủi ro này và ngăn chặn việc tái sử dụng địa chỉ trong Silent Payments, chúng ta cần chỉnh sửa một chút trong các phép tính của mình.
+Thực vậy, vì địa chỉ duy nhất P_0 được tạo ra từ A và B, nếu Alice tạo ra một địa chỉ thứ hai cho một khoản thanh toán thứ hai cho B, với cùng một khóa A, cô ấy sẽ nhận được cùng một địa chỉ P_0. Để tránh rủi ro này và ngăn chặn việc tái sử dụng địa chỉ trong Silent Payments, chúng ta cần chỉnh sửa một chút trong các phép tính của mình.
 
-Điều chúng ta muốn là mỗi UTXO được Alice tiêu dùng làm đầu vào của một khoản thanh toán sẽ tạo ra một địa chỉ duy nhất phía Bob, ngay cả khi nhiều UTXO được bảo vệ bởi cùng một cặp khóa. Do đó, chỉ cần thêm một tham chiếu đến UTXO trong việc tính toán địa chỉ duy nhất $P_0$. Tham chiếu này đơn giản sẽ là băm của UTXO được tiêu dùng làm đầu vào:
+Điều chúng ta muốn là mỗi UTXO được Alice tiêu dùng làm đầu vào của một khoản thanh toán sẽ tạo ra một địa chỉ duy nhất phía Bob, ngay cả khi nhiều UTXO được bảo vệ bởi cùng một cặp khóa. Do đó, chỉ cần thêm một tham chiếu đến UTXO trong việc tính toán địa chỉ duy nhất P_0. Tham chiếu này đơn giản sẽ là mã băm của UTXO được tiêu dùng làm đầu vào:
 
 $$  \text{inputHash} = \text{hash}(\text{outpoint} \text{ ‖ } A)  $$
 
-Và tham chiếu đầu vào này, Alice sẽ thêm vào trong việc tính toán của mình về địa chỉ duy nhất $P_0$:
-Trong quá trình quét của mình, Bob cũng có thể thêm $\text{inputHash}$, vì tất cả những gì anh ấy cần làm là quan sát giao dịch để suy luận $\text{outpoint}$:
+Với tham chiếu đầu vào này, Alice sẽ thêm vào trong việc tính toán của mình về địa chỉ duy nhất P_0:
+Trong quá trình quét của mình, Bob cũng có thể thêm inputHash, vì tất cả những gì anh ấy cần làm là quan sát giao dịch để suy luận ra outpoint:
 
 $$  P_0 = B + \text{hash}(\text{inputHash} \cdot b \cdot A \text{ ‖ } 0) \cdot G  $$
 
-Khi anh ấy tìm thấy một $P_0$ hợp lệ, anh ấy có thể tính toán khóa riêng tương ứng $p_0$:
+Khi anh ấy tìm thấy một P_0 hợp lệ, anh ấy có thể tính toán khóa riêng tương ứng p_0:
 
 $$ 
 p_0 = (b + \text{hash}(\text{inputHash} \cdot b \cdot A \text{ ‖ } 0)) \bmod n
@@ -3273,57 +3276,57 @@ p_0 = (b + \text{hash}(\text{inputHash} \cdot b \cdot A \text{ ‖ } 0)) \bmod n
 ![BTC204](assets/notext/67/04.webp)
 
 *Chú giải:*
-- $B$: Khóa công khai / địa chỉ tĩnh được Bob công bố
-- $b$: Khóa riêng của Bob
-- $A$: Khóa công khai của UTXO của Alice được sử dụng làm đầu vào cho giao dịch
-- $a$: Khóa riêng của Alice
-- $H$: Hash của UTXO được sử dụng làm đầu vào
-- $G$: Điểm sinh của đường cong elliptic `secp256k1`
-- $\text{SHA256}$: Hàm hash SHA256 được gắn thẻ với `BIP0352/SharedSecret`
-- $s_0$: Bí mật chung ECDH đầu tiên
-- $P_0$: Khóa công khai / địa chỉ thanh toán duy nhất cho Bob
+- B: Khóa công khai / địa chỉ tĩnh được Bob công bố
+- b: Khóa riêng tư của Bob
+- A: Khóa công khai của UTXO của Alice được sử dụng làm đầu vào cho giao dịch
+- a: Khóa riêng tư của Alice
+- H: Hash của UTXO được sử dụng làm đầu vào
+- G: Điểm sinh của đường cong e-líp `secp256k1`
+- SHA256: Hàm hash SHA256 được gắn thẻ với `BIP0352/SharedSecret`
+- s_0: Bí mật ECDH chung đầu tiên
+- P_0: Khóa công khai / địa chỉ thanh toán duy nhất cho Bob
 
-Hiện tại, các phép tính của chúng tôi giả định rằng Alice sử dụng một đầu vào duy nhất cho giao dịch của mình. Tuy nhiên, cô ấy nên có thể sử dụng nhiều đầu vào. Do đó, về phía Bob, cho mỗi giao dịch chứa nhiều đầu vào, lý thuyết anh ấy sẽ cần phải tính toán ECDH cho mỗi đầu vào để xác định xem một khoản thanh toán có dành cho mình hay không. Phương pháp này không thỏa đáng, vì vậy chúng ta cần tìm một giải pháp để giảm bớt khối lượng công việc!
+Hiện tại, các phép tính của chúng ta giả định rằng Alice sử dụng một đầu vào duy nhất cho giao dịch của mình. Tuy nhiên, cô ấy nên có thể sử dụng nhiều đầu vào. Do đó, về phía Bob, theo lý thuyết, cho mỗi giao dịch chứa nhiều đầu vào, anh ấy sẽ cần phải tính toán ECDH cho mỗi đầu vào để xác định xem một khoản thanh toán có dành cho mình hay không. Phương pháp này không thỏa đáng, vì vậy chúng ta cần tìm một giải pháp để giảm bớt khối lượng công việc!
 
 ### Chỉnh sửa các khóa công khai trong đầu vào
 
-Để giải quyết vấn đề này, thay vì sử dụng cặp khóa bảo vệ một đầu vào cụ thể trên phía Alice, chúng ta sẽ sử dụng tổng của tất cả các cặp khóa được sử dụng trong các đầu vào của giao dịch. Tổng này sau đó sẽ được coi là một cặp khóa mới. Kỹ thuật này được biết đến là "tweak".
+Để giải quyết vấn đề này, thay vì sử dụng cặp khóa bảo vệ một đầu vào cụ thể phía Alice, chúng ta sẽ sử dụng tổng của tất cả các cặp khóa được sử dụng trong các đầu vào của giao dịch. Tổng này sau đó sẽ được coi là một cặp khóa mới. Kỹ thuật này được biết đến là "tweak".
 
 Ví dụ, hãy tưởng tượng giao dịch của Alice có 3 đầu vào, mỗi đầu vào được bảo vệ bằng một cặp khóa khác nhau:
-- $a_0$ bảo vệ đầu vào #0;
-- $a_1$ bảo vệ đầu vào #1;
-- $a_2$ bảo vệ đầu vào #2.
+- a_0 bảo vệ đầu vào #0;
+- a_1 bảo vệ đầu vào #1;
+- a_2 bảo vệ đầu vào #2.
 
 ![BTC204](assets/notext/67/05.webp)
 
-Theo phương pháp được mô tả ở trên, Alice sẽ phải chọn một cặp khóa duy nhất trong số $a_0$, $a_1$, và $a_2$ để tính toán bí mật ECDH và tạo ra địa chỉ thanh toán duy nhất $P$ từ địa chỉ tĩnh $B$ của Bob. Tuy nhiên, cách tiếp cận này yêu cầu Bob phải kiểm tra từng khả năng một cách tuần tự, bắt đầu với $a_0$, sau đó là $a_1$, và tiếp tục như vậy, cho đến khi xác định được một cặp tạo ra một địa chỉ $P$ hợp lệ. Quá trình này đòi hỏi Bob phải thực hiện tính toán ECDH trên tất cả các đầu vào của tất cả các giao dịch, làm tăng đáng kể khối lượng công việc quét.
+Theo phương pháp được mô tả ở trên, Alice sẽ phải chọn một cặp khóa duy nhất trong số a_0, a_1 và a_2 để tính toán bí mật ECDH và tạo ra địa chỉ thanh toán duy nhất P từ địa chỉ tĩnh B của Bob. Tuy nhiên, cách tiếp cận này yêu cầu Bob phải kiểm tra từng khả năng một cách tuần tự, bắt đầu với a_0, sau đó là a_1, và tiếp tục như vậy, cho đến khi xác định được một cặp tạo ra một địa chỉ P hợp lệ. Quá trình này đòi hỏi Bob phải thực hiện tính toán ECDH trên tất cả các đầu vào của tất cả các giao dịch, làm tăng đáng kể khối lượng công việc quét.
 
-Để tránh điều này, chúng ta sẽ yêu cầu Alice thực hiện tính toán của $P$ sử dụng tổng của tất cả các khóa trong đầu vào. Lấy ví dụ của chúng ta, khóa riêng được chỉnh sửa $a$ sẽ được tính như sau:
+Để tránh điều này, chúng ta sẽ yêu cầu Alice thực hiện tính toán của P sử dụng tổng của tất cả các khóa trong đầu vào. Lấy ví dụ của chúng ta, khóa riêng được chỉnh sửa a sẽ được tính như sau:
 
 $$  a = a_0 + a_1 + a_2  $$
 Tương tự, Alice và Bob sẽ có thể tính toán khóa công khai đã được điều chỉnh:
 $$  A = A_0 + A_1 + A_2  $$
-Nhờ phương pháp này, Bob chỉ cần tính tổng các khóa công khai của giao dịch, sau đó tính toán bí mật ECDH từ $A$ chỉ một lần, giúp giảm đáng kể số lượng tính toán cần thực hiện cho bước quét. Tuy nhiên, nhớ lại từ phần trước. Chúng ta đã bao gồm trong tính toán của mình giá trị băm $\text{inputHash}$ được sử dụng như một nonce để ngăn chặn việc tái sử dụng địa chỉ:
+Nhờ phương pháp này, Bob chỉ cần tính tổng các khóa công khai của giao dịch, sau đó tính toán bí mật ECDH từ A chỉ một lần, giúp giảm đáng kể số lượng tính toán cần thực hiện cho bước quét. Tuy nhiên, nhớ lại từ phần trước,chúng ta đã bao gồm trong tính toán của mình giá trị mã băm inputHash được sử dụng như một số ngẫu nhiên để ngăn chặn việc tái sử dụng địa chỉ:
 
 $$  \text{inputHash} = \text{hash}(\text{outpoint} \text{ ‖ } A)  $$
 
-Nhưng nếu có nhiều đầu vào trong một giao dịch, cần phải xác định $\text{outpoint}$ nào được chọn trong tính toán này. Theo BIP352, tiêu chí lựa chọn $\text{outpoint}$ để sử dụng là chọn cái nhỏ nhất theo thứ tự từ điển, có nghĩa là chọn UTXO xuất hiện đầu tiên theo thứ tự bảng chữ cái. Phương pháp này chuẩn hóa UTXO được chọn trong mỗi giao dịch. Ví dụ, nếu $\text{outpoint}$ nhỏ nhất theo thứ tự từ điển là $\text{outpoint}_L$, việc tính toán $\text{inputHash}$ sẽ là:
+Nhưng nếu có nhiều đầu vào trong một giao dịch, cần phải xác định outpoint nào được chọn trong tính toán này. Theo BIP352, tiêu chí lựa chọn outpoint để sử dụng là chọn cái nhỏ nhất theo thứ tự từ điển, có nghĩa là chọn UTXO xuất hiện đầu tiên theo thứ tự bảng chữ cái. Phương pháp này chuẩn hóa UTXO được chọn trong mỗi giao dịch. Ví dụ, nếu outpoint nhỏ nhất theo thứ tự từ điển là outpoint_L, việc tính toán inputHash sẽ là:
 
 $$  \text{inputHash} = \text{hash}(\text{outpoint}_L \text{ ‖ } A)  $$
 
-Các phép tính sau đó vẫn giống như đã trình bày trong phần trước, ngoại trừ việc khóa riêng $a$ và khóa công khai tương ứng $A$ không còn là một cặp bảo vệ một đầu vào duy nhất, mà bây giờ đại diện cho sự điều chỉnh của tất cả các cặp khóa trong các đầu vào.
+Các phép tính sau đó vẫn giống như đã trình bày trong phần trước, ngoại trừ việc khóa riêng a và khóa công khai tương ứng A không còn là một cặp bảo vệ một đầu vào duy nhất, mà bây giờ đại diện cho sự điều chỉnh của tất cả các cặp khóa trong các đầu vào.
 
-### Tách Biệt Khóa Chi Tiêu và Khóa Quét
+### Tách riêng khoá chi tiêu và khoá quét
 
-Cho đến nay, chúng ta đã thảo luận về địa chỉ tĩnh Silent Payment $B$ như một khóa công khai duy nhất. Nhớ lại, chính khóa công khai $B$ này được Alice sử dụng để tạo ra bí mật ECDH chung, từ đó được sử dụng để tính toán địa chỉ thanh toán duy nhất $P$. Bob sử dụng khóa công khai $B$ này và khóa riêng tương ứng $b$ để quét giao dịch. Nhưng anh ấy cũng sử dụng khóa riêng $b$ để tính toán khóa riêng $p$ cho phép chi tiêu từ địa chỉ $P$.
+Cho đến nay, chúng ta đã thảo luận về địa chỉ tĩnh Silent Payment B như một khóa công khai duy nhất. Nhớ lại, chính khóa công khai B này được Alice sử dụng để tạo ra bí mật ECDH chung, từ đó được sử dụng để tính toán địa chỉ thanh toán duy nhất P. Bob sử dụng khóa công khai B này và khóa riêng tương ứng b để quét giao dịch. Nhưng anh ấy cũng sử dụng khóa riêng b để tính toán khóa riêng p cho phép chi tiêu từ tiền từ địa chỉ P.
 
-Nhược điểm của phương pháp này là khóa riêng $b$, được sử dụng để tính toán tất cả các khóa riêng cho các địa chỉ nhận Silent Payments, cũng được Bob sử dụng để quét giao dịch. Bước này yêu cầu khóa $b$ phải có sẵn trên một phần mềm ví kết nối với internet, điều này làm tăng nguy cơ bị đánh cắp so với việc giữ nó trên một ví lạnh. Lý tưởng nhất, sẽ có lợi nếu có thể tận dụng Silent Payments trong khi vẫn giữ khóa riêng $b$, kiểm soát quyền truy cập vào tất cả các khóa riêng khác, được bảo mật trên một ví cứng. May mắn thay, giao thức đã được điều chỉnh để cho phép chính xác điều đó.
+Nhược điểm của phương pháp này là khóa riêng b, vừa được sử dụng để tính toán tất cả các khóa riêng cho các địa chỉ nhận Silent Payments, vừa được Bob sử dụng để quét giao dịch. Bước này yêu cầu khóa b phải có sẵn trên một phần mềm ví kết nối với internet, điều này làm tăng nguy cơ bị đánh cắp so với việc giữ nó trên một ví lạnh. Lý tưởng nhất, sẽ có lợi nếu có thể tận dụng Silent Payments trong khi vẫn giữ khóa riêng b, kiểm soát quyền truy cập vào tất cả các khóa riêng khác, được bảo mật trên một ví cứng. May mắn thay, giao thức đã điều chỉnh để cho phép chính xác điều đó.
 Để đạt được điều này, BIP352 quy định rằng người nhận sử dụng 2 cặp khóa khác nhau:
-- $B_{\text{spend}}$: để tính toán các khóa riêng của địa chỉ thanh toán duy nhất;
-- $B_{\text{scan}}$: để tìm địa chỉ thanh toán duy nhất.
+- B_spend: để tính toán các khóa riêng của địa chỉ thanh toán duy nhất;
+- B_scan: để tìm địa chỉ thanh toán duy nhất.
 
-Như vậy, Bob có thể giữ khóa riêng $b_{\text{spend}}$ trên một ví cứng và sử dụng khóa riêng $b_{\text{scan}}$ trên phần mềm trực tuyến để tìm các Silent Payments của mình, mà không tiết lộ $b_{\text{spend}}$. Tuy nhiên, cả hai khóa công khai $B_{\text{scan}}$ và $B_{\text{spend}}$ đều được công bố công khai, vì chúng được tìm thấy trong địa chỉ tĩnh $B$ của Bob:
-Để tính toán một địa chỉ thanh toán duy nhất $P_0$ thuộc về Bob, Alice sẽ thực hiện phép tính sau:
+Như vậy, Bob có thể giữ khóa riêng tư b_spend trên một ví cứng và sử dụng khóa riêng tư b_scan trên phần mềm trực tuyến để tìm các Silent Payments của mình, mà không tiết lộ b_spend. Tuy nhiên, cả hai khóa công khai B_scan và B_spend đều được công bố công khai, vì chúng được tìm thấy trong địa chỉ tĩnh B của Bob:
+Để tính toán một địa chỉ thanh toán duy nhất P_0 thuộc về Bob, Alice sẽ thực hiện phép tính sau:
 
 $$  P_0 = B_{\text{spend}} + \text{hash}(\text{inputHash} \cdot a \cdot B_{\text{scan}} \text{ ‖ } 0) \cdot G  $$
 
@@ -3331,86 +3334,86 @@ $$  P_0 = B_{\text{spend}} + \text{hash}(\text{inputHash} \cdot a \cdot B_{\text
 
 $$  P_0 = B_{\text{spend}} + \text{hash}(\text{inputHash} \cdot b_{\text{scan}} \cdot A \text{ ‖ } 0) \cdot G  $$
 
-Như bạn thấy, cho đến nay, Bob chưa cần sử dụng $b_{\text{spend}}$ nằm trong ví cứng của mình. Khi anh ấy muốn chi tiêu $P_0$, anh ấy có thể thực hiện phép tính sau để tìm khóa riêng $p_0$:
+Như bạn thấy, cho đến nay, Bob chưa cần sử dụng b_spend nằm trong ví cứng của mình. Khi anh ấy muốn chi tiêu P_0, anh ấy có thể thực hiện phép tính sau để tìm khóa riêng p_0:
 
 $$ p_0 = (b_{\text{spend}} + \text{hash}(\text{inputHash} \cdot b_{\text{scan}} \cdot A \text{ ‖ } 0)) \bmod n $$
 
 ![BTC204](assets/notext/67/06.webp)
 
 *Chú thích:*
-- $B_{\text{scan}}$: Khóa công khai quét của Bob (địa chỉ tĩnh)
-- $b_{\text{scan}}$: Khóa riêng quét của Bob
-- $B_{\text{spend}}$: Khóa công khai chi tiêu của Bob (địa chỉ tĩnh)
-- $b_{\text{spend}}$: Khóa riêng chi tiêu của Bob
-- $A$: Tổng các khóa công khai trong đầu vào (tweak)
-- $a$: Khóa riêng tương ứng với khóa công khai đã được tweak
-- $H$: Hash của UTXO nhỏ nhất (theo thứ tự từ điển) được sử dụng trong đầu vào
-- $G$: Điểm sinh của đường cong elliptic `secp256k1`
-- $\text{SHA256}$: Hàm băm SHA256 được gắn thẻ với `BIP0352/SharedSecret`
-- $s_0$: Bí mật chung ECDH đầu tiên
-- $P_0$: Khóa công khai / địa chỉ thanh toán duy nhất đầu tiên cho Bob
+- B_scan: Khóa công khai quét của Bob (địa chỉ tĩnh)
+- b_scan: Khóa riêng tư quét của Bob
+- B_spend: Khóa công khai chi tiêu của Bob (địa chỉ tĩnh)
+- b_spend: Khóa riêng tư chi tiêu của Bob
+- A: Tổng các khóa công khai trong đầu vào (tweak)
+- a: Khóa riêng tương ứng với khóa công khai đã được tweak
+- H: Mã băm của UTXO nhỏ nhất (theo thứ tự từ điển) được sử dụng trong đầu vào
+- G: Điểm sinh của đường cong e-líp `secp256k1`
+- SHA256: Hàm băm SHA256 được gắn thẻ với `BIP0352/SharedSecret`
+- s_0: Bí mật ECDH chung đầu tiên
+- P_0: Khóa công khai / địa chỉ thanh toán duy nhất đầu tiên cho Bob
 
 ### Sử dụng địa chỉ SP với nhãn
 
-Bob do đó có một địa chỉ tĩnh $B$ cho Thanh toán Kín như sau:
+Bob có một địa chỉ tĩnh B cho Thanh toán ẩn như sau:
 
 $$ B = B_{\text{scan}} \text{ ‖ } B_{\text{spend}} $$
 
-Vấn đề với phương pháp này là nó không cho phép phân biệt các khoản thanh toán khác nhau được gửi đến địa chỉ này. Ví dụ, nếu Bob có 2 khách hàng khác nhau cho doanh nghiệp của mình và anh ấy muốn phân biệt rõ ràng các khoản thanh toán từ mỗi người, anh ấy sẽ cần 2 địa chỉ tĩnh khác nhau. Một giải pháp ngây thơ, với cách tiếp cận hiện tại, sẽ là Bob tạo ra hai ví riêng biệt, mỗi ví với địa chỉ tĩnh riêng của mình, hoặc thậm chí thiết lập hai địa chỉ tĩnh khác nhau trong cùng một ví. Tuy nhiên, giải pháp này đòi hỏi quét toàn bộ blockchain hai lần (một lần cho mỗi địa chỉ) để phát hiện các khoản thanh toán dành cho mỗi địa chỉ tương ứng. Việc quét kép này làm tăng không hợp lý gánh nặng hoạt động cho Bob.
-Để giải quyết vấn đề này, BIP352 sử dụng một hệ thống gán nhãn cho phép sử dụng các địa chỉ tĩnh khác nhau mà không làm tăng không hợp lý khối lượng công việc để tìm kiếm các Khoản Thanh Toán Ẩn trên blockchain. Để thực hiện điều này, một số nguyên $m$ được thêm vào khóa công khai chi tiêu $B_{\text{spend}}$. Số nguyên này có thể nhận giá trị $1$ cho địa chỉ tĩnh đầu tiên, sau đó là $2$ cho địa chỉ thứ hai, và cứ thế tiếp tục. Các khóa chi tiêu $B_{\text{spend}}$ từ đây sẽ được gọi là $B_m$ và sẽ được xây dựng theo cách này:
+Vấn đề với phương pháp này là nó không cho phép phân biệt các khoản thanh toán khác nhau được gửi đến địa chỉ này. Ví dụ, nếu Bob có 2 khách hàng khác nhau cho doanh nghiệp của mình và anh ấy muốn phân biệt rõ ràng các khoản thanh toán từ mỗi người, anh ấy sẽ cần 2 địa chỉ tĩnh khác nhau. Một giải pháp ngây thơ, với cách tiếp cận hiện tại, sẽ là Bob tạo ra hai ví riêng biệt, mỗi ví với địa chỉ tĩnh riêng, hoặc thậm chí thiết lập hai địa chỉ tĩnh khác nhau trong cùng một ví. Tuy nhiên, giải pháp này đòi hỏi quét toàn bộ blockchain hai lần (một lần cho một địa chỉ) để phát hiện các khoản thanh toán dành cho mỗi địa chỉ tương ứng. Việc quét kép này làm tăng gánh nặng hoạt động cho Bob một cách không hợp lý.
+Để giải quyết vấn đề này, BIP352 sử dụng một hệ thống gán nhãn cho phép sử dụng các địa chỉ tĩnh khác nhau mà không làm tăng khối lượng công việc để tìm kiếm các khoản thanh toán ẩn trên blockchain một cách không hợp lý. Để thực hiện điều này, một số nguyên m được thêm vào khóa công khai chi tiêu B_spend. Số nguyên này có thể nhận giá trị 1 cho địa chỉ tĩnh đầu tiên, sau đó là 2 cho địa chỉ thứ hai, và cứ thế tiếp tục. Các khóa chi tiêu B_spend từ đây sẽ được gọi là B_m và sẽ được xây dựng theo cách này:
 $$  B_m = B_{\text{spend}} + \text{hash}(b_{\text{scan}} \text{ ‖ } m) \cdot G  $$
 
-Ví dụ, cho khóa chi tiêu đầu tiên với nhãn $1$:
+Ví dụ, cho khóa chi tiêu đầu tiên với nhãn 1:
 
 $$  B_1 = B_{\text{spend}} + \text{hash}(b_{\text{scan}} \text{ ‖ } 1) \cdot G  $$
 
-Địa chỉ tĩnh được công bố bởi Bob bây giờ sẽ bao gồm $B_{\text{scan}}$ và $B_m$. Ví dụ, địa chỉ tĩnh đầu tiên với nhãn $1$ sẽ là:
+Địa chỉ tĩnh được công bố bởi Bob bây giờ sẽ bao gồm B_scan và B_m. Ví dụ, địa chỉ tĩnh đầu tiên với nhãn 1 sẽ là:
 
 $$ B = B_{\text{scan}} \text{ ‖ } B_1 $$
 
-> *Chúng ta chỉ bắt đầu từ nhãn 1 vì nhãn 0 được dành riêng cho việc thay đổi.*
+> *Chúng ta chỉ bắt đầu từ nhãn 1 vì nhãn 0 được dành riêng cho tiền thối.*
 
-Về phần mình, Alice sẽ suy ra địa chỉ thanh toán duy nhất $P$ theo cách tương tự như trước, nhưng sử dụng $B_1$ mới thay vì $B_{\text{spend}}$.
+Về phần mình, Alice sẽ suy ra địa chỉ thanh toán duy nhất P theo cách tương tự như trước, nhưng sử dụng địa chỉ mới là B_1 thay vì B_spend.
 $$  P_0 = B_1 + \text{hash}(\text{inputHash} \cdot a \cdot B_{\text{scan}} \text{ ‖ } 0) \cdot G  $$
 
-Trên thực tế, Alice có thể không biết rằng Bob có một địa chỉ được gán nhãn, vì cô ấy đơn giản sử dụng phần thứ hai của địa chỉ tĩnh mà anh ấy cung cấp cho cô ấy, trong trường hợp này, là giá trị $B_1$ thay vì $B_{\text{spend}}$.
+Trên thực tế, Alice có thể không biết rằng Bob có một địa chỉ được gán nhãn, vì cô ấy đơn giản sử dụng phần thứ hai của địa chỉ tĩnh mà anh ấy cung cấp cho cô ấy, trong trường hợp này, là giá trị B_1 thay vì B_spend
 
-Để quét các khoản thanh toán, Bob sẽ luôn sử dụng giá trị của địa chỉ tĩnh ban đầu của mình với $B_{\text{spend}}$ theo cách này:
+Để quét các khoản thanh toán, Bob sẽ luôn sử dụng giá trị của địa chỉ tĩnh ban đầu của mình với B_spend theo cách này:
 
 $$   P_0 = B_{\text{spend}} + \text{hash}(\text{inputHash} \cdot b_{\text{scan}} \cdot A \text{ ‖ } 0) \cdot G  $$
 
-Sau đó, anh ấy chỉ cần trừ giá trị mà mình tìm thấy cho $P_0$ từ mỗi đầu ra một cách lần lượt. Anh ấy sau đó kiểm tra xem kết quả của những phép trừ này có trùng khớp với giá trị của một trong những nhãn mà anh ấy sử dụng trong ví của mình hay không. Nếu trùng khớp, ví dụ, cho đầu ra #4 với nhãn $1$, điều này có nghĩa là đầu ra này là một Khoản Thanh Toán Ẩn liên quan đến địa chỉ tĩnh được gán nhãn $B_1$ của anh ấy:
+Sau đó, anh ấy chỉ cần trừ giá trị mà mình tìm thấy cho P_0 từ mỗi đầu ra một cách lần lượt. Anh ấy sau đó kiểm tra xem kết quả của những phép trừ này có trùng khớp với giá trị của một trong những nhãn mà anh ấy sử dụng trong ví của mình hay không. Nếu trùng khớp, ví dụ, cho đầu ra #4 với nhãn 1, điều này có nghĩa là đầu ra này là một khoản thanh toán ẩn liên quan đến địa chỉ tĩnh được gán nhãn B_1 của anh ấy:
 
 $$ Out_4 - P_0 = \text{hash}(b_{\text{scan}} \text{ ‖ } 1) \cdot G $$
 
 Điều này hoạt động bởi vì:
 
 $$  B_1 = B_{\text{spend}} + \text{hash}(b_{\text{scan}} \text{ ‖ } 1) \cdot G  $$
-Nhờ phương pháp này, Bob có thể sử dụng nhiều địa chỉ tĩnh ($B_1$, $B_2$, $B_3$...), tất cả đều được tạo ra từ địa chỉ tĩnh cơ bản của anh ấy ($B = B_{\text{scan}} \text{ ‖ } B_{\text{spend}}$), để phân loại mục đích sử dụng một cách chính xác. Tuy nhiên, việc tách biệt các địa chỉ tĩnh này chỉ có giá trị từ góc độ quản lý ví cá nhân và không cho phép tách biệt các danh tính. Vì tất cả chúng đều có cùng $B_{\text{scan}}$, việc liên kết tất cả các địa chỉ tĩnh với nhau và suy luận rằng chúng thuộc về một thực thể duy nhất là rất dễ dàng.
+Nhờ phương pháp này, Bob có thể sử dụng nhiều địa chỉ tĩnh (B_1, B_2, B_3...), tất cả đều được tạo ra từ địa chỉ tĩnh cơ bản của anh ấy B = B_scan ‖ B_spend, để phân loại mục đích sử dụng một cách chính xác. Tuy nhiên, việc tách biệt các địa chỉ tĩnh này chỉ có giá trị từ góc độ quản lý ví cá nhân và không mang lại sự tách biệt về danh tính. Vì tất cả chúng đều có cùng B_scan, việc liên kết tất cả các địa chỉ tĩnh với nhau và suy luận rằng chúng thuộc về một thực thể duy nhất là rất dễ dàng.
 
 ![BTC204](assets/notext/67/07.webp)
 
 *Chú thích:*
-- $B_{\text{scan}}$: Khóa công khai quét của Bob (địa chỉ tĩnh)
-- $b_{\text{scan}}$: Khóa riêng quét của Bob
-- $B_{\text{spend}}$: Khóa công khai chi tiêu của Bob (địa chỉ ban đầu)
-- $B_m$: Khóa công khai chi tiêu được gắn nhãn của Bob (địa chỉ tĩnh)
-- $b_m$: Khóa riêng chi tiêu được gắn nhãn của Bob
-- $A$: Tổng của các khóa công khai đầu vào (tweak)
-- $a$: Khóa riêng tương ứng với khóa công khai đã được tweak
-- $H$: Băm của UTXO nhỏ nhất (theo thứ tự từ điển) được sử dụng làm đầu vào
-- $G$: Điểm sinh của đường cong elliptic `secp256k1`
-- $\text{SHA256}$: Hàm băm SHA256 được gắn thẻ với `BIP0352/SharedSecret`
-- $s_0$: Bí mật ECDH chia sẻ đầu tiên
-- $P_0$: Khóa công khai / địa chỉ thanh toán duy nhất đầu tiên cho Bob
-- $p_0$: Khóa riêng của địa chỉ thanh toán duy nhất đầu tiên cho Bob
-- $X$: Băm của khóa riêng quét với nhãn
+- B_scan: Khóa công khai quét của Bob (địa chỉ tĩnh)
+- b_scan: Khóa riêng tư quét của Bob
+- B_spend: Khóa công khai chi tiêu của Bob (địa chỉ ban đầu)
+- B_m: Khóa công khai chi tiêu được gắn nhãn của Bob (địa chỉ tĩnh)
+- b_m: Khóa riêng tư chi tiêu được gắn nhãn của Bob
+- A: Tổng của các khóa công khai đầu vào (tweak)
+- a: Khóa riêng tư tương ứng với khóa công khai đã được điều chỉnh
+- H: Mã băm của UTXO nhỏ nhất (theo thứ tự từ điển) được sử dụng làm đầu vào
+- G: Điểm sinh của đường cong e-líp `secp256k1`
+- SHA256: Hàm băm SHA256 được gắn thẻ với `BIP0352/SharedSecret`
+- s_0: Bí mật ECDH chung đầu tiên
+- P_0: Khóa công khai / địa chỉ thanh toán duy nhất đầu tiên cho Bob
+- p_0: Khóa riêng tư của địa chỉ thanh toán duy nhất đầu tiên cho Bob
+- X: Mã băm của khóa riêng tư quét với nhãn
 
-### Làm thế nào để Tạo một Địa Chỉ Thanh Toán Ẩn?
+### Làm thế nào để tạo ra một địa chỉ thanh toán ẩn
 
-Để tạo một địa chỉ Thanh Toán Ẩn chuyên dụng, trước tiên người ta phải tạo ra 2 cặp khóa trong ví HD Bitcoin của mình:
-- Cặp $b_{\text{scan}}$, $B_{\text{scan}}$ để tìm kiếm các khoản thanh toán gửi đến chúng ta;
-- Cặp $b_{\text{spend}}$, $B_{\text{spend}}$ để chi tiêu bitcoin mà chúng ta đã nhận.
+Để tạo một địa chỉ thanh toán ẩn chuyên dụng, trước tiên người ta phải tạo ra 2 cặp khóa trong ví HD của mình:
+- Cặp b_scan, B_scan để tìm kiếm các khoản thanh toán gửi đến chúng ta;
+- Cặp b_spend, B_spend để chi tiêu số bitcoin mà chúng ta đã nhận.
 
 Các cặp này được tạo ra theo các đường dẫn sau (*Bitcoin Mainnet*):
 
@@ -3423,22 +3426,22 @@ Một khi có sẵn 2 cặp khóa này, người ta chỉ cần nối chúng l�
 
 $$ B = B_{\text{scan}} \text{ ‖ } B_{\text{spend}} $$
 
-Nếu muốn sử dụng nhãn, $B_{\text{spend}}$ được thay thế bằng $B_m$:
+Nếu muốn sử dụng nhãn, B_spend được thay thế bằng B_m:
 
 $$ B = B_{\text{scan}} \text{ ‖ } B_m $$
 
-Với nhãn $m$:
+Với nhãn m:
 
 $$  B_m = B_{\text{spend}} + \text{hash}(b_{\text{scan}} \text{ ‖ } m) \cdot G  $$
 
-Một khi payload này có sẵn, người ta thêm HRP (*Phần Dễ Đọc*) `sp` và phiên bản `q` (= phiên bản 0). Một checksum cũng được thêm vào, và địa chỉ được định dạng trong bech32m.
+Một khi payload này có sẵn, người ta thêm HRP (*Phần dễ đọc*) `sp` và phiên bản `q` (= phiên bản 0). Một checksum cũng được thêm vào, và địa chỉ được định dạng trong bech32m.
 Ví dụ, đây là địa chỉ Silent Payments tĩnh của tôi:
 ```text
 sp1qqvhjvsq2vz8zwrw372vuzle7472zup2ql3pz64yn5cpkw5ngv2n6jq4nl8cgm6zmu48yk3eq33ryc7aam6jrvrg0d0uuyzecfhx2wgsumcurv77e
 ```
-Một điểm quan trọng liên quan đến địa chỉ tĩnh, mà bạn có thể đã nhập trong các phần trước, là những địa chỉ này không hiển thị trong các giao dịch Bitcoin. Chỉ có các địa chỉ thanh toán $P$, được sử dụng trong các outputs, mới xuất hiện trên blockchain theo định dạng Taproot tiêu chuẩn. Do đó, từ bên ngoài, không thể phân biệt một giao dịch liên quan đến Silent Payment với một giao dịch thông thường sử dụng outputs P2TR.
+Một điểm quan trọng liên quan đến địa chỉ tĩnh, mà bạn có thể đã biết trong các phần trước, là những địa chỉ này không hiển thị trong các giao dịch Bitcoin. Chỉ có các địa chỉ thanh toán P, được sử dụng trong các đầu ra, mới xuất hiện trên blockchain theo định dạng Taproot tiêu chuẩn. Do đó, từ bên ngoài, không thể phân biệt một giao dịch liên quan đến Silent Payment với một giao dịch thông thường sử dụng đầu ra P2TR.
 
-Giống như với BIP47, không thể thiết lập một kết nối giữa một địa chỉ tĩnh $B$ và một địa chỉ thanh toán $P$ được tạo ra từ $B$. Thực tế, ngay cả khi Eve, một kẻ tấn công tiềm năng, cố gắng quét blockchain với địa chỉ tĩnh $B$ của Bob, cô ấy sẽ không thể thực hiện các phép tính cần thiết để xác định $P$. Để làm điều này, cô ấy cần có khóa quét riêng tư $b_{\text{scan}}$ của Bob hoặc khóa riêng tư của người gửi $a$, nhưng cả hai yếu tố này, tất nhiên, đều là riêng tư. Do đó, có thể liên kết rõ ràng địa chỉ tĩnh của một người với một hình thức danh tính cá nhân.
+Giống như với BIP47, không thể thiết lập một kết nối giữa một địa chỉ tĩnh B và một địa chỉ thanh toán P được tạo ra từ B. Thực tế, ngay cả khi Eve, một kẻ tấn công tiềm năng, cố gắng quét blockchain với địa chỉ tĩnh B của Bob, cũng không thể thực hiện được các phép tính cần thiết để xác định P. Để làm điều này, cô ấy cần có khóa quét riêng tư b_scan của Bob hoặc khóa riêng tư của người gửi a, nhưng cả hai yếu tố này, tất nhiên, đều là riêng tư. Do đó, có thể liên kết rõ ràng địa chỉ tĩnh của một người với một hình thức danh tính cá nhân.
 
 ### Làm thế nào để sử dụng Silent Payments?
 
@@ -3461,10 +3464,10 @@ Vì tính năng này là mới, nên cần thận trọng và tránh sử dụng
 ## Kết luận
 <chapterId>cd8e5c67-50e4-4dcd-8e04-88ba5ec95305</chapterId>
 
-Xin chúc mừng bạn đã hoàn thành khóa đào tạo này về quyền riêng tư trong Bitcoin!
+Xin chúc mừng bạn đã hoàn thành khóa đào tạo này về quyền riêng tư trên mạng lưới Bitcoin!
 
-Chúng tôi đã đề cập đến nhiều chủ đề kỹ thuật và tiên tiến trong khóa đào tạo này, nhưng không nhất thiết phải sử dụng tất cả các công cụ được trình bày. Mục tiêu chính là trao quyền cho bạn để chọn lựa thông tin bạn muốn tiết lộ và thông tin bạn muốn giữ kín trong việc sử dụng Bitcoin của mình. Điều này thể hiện bản chất cốt lõi của việc bảo vệ quyền riêng tư. Để đưa ra quyết định thông tin nào nên chia sẻ hoặc giấu kín, cần phải nhận thức được hậu quả của các hành động của mình. Tôi hy vọng khóa đào tạo này đã giúp bạn có được kiến thức này.
+Chúng tôi đã đề cập đến nhiều chủ đề  nâng cao và thiên về kỹ thuật trong khoá này, nhưng bạn không nhất thiết phải sử dụng tất cả các công cụ được trình bày ở đây. Mục tiêu chính là trao quyền cho bạn để chọn lựa thông tin bạn muốn tiết lộ và thông tin bạn muốn giữ kín trong việc sử dụng Bitcoin của mình. Điều này thể hiện bản chất cốt lõi của việc bảo vệ quyền riêng tư. Để đưa ra quyết định thông tin nào nên chia sẻ hoặc giấu kín, cần phải nhận thức được hậu quả của các hành động của mình. Tôi hy vọng khóa đào tạo này đã giúp bạn có được những kiến thức này.
 Nếu tôi phải chọn phần quan trọng nhất của khóa đào tạo này, tôi sẽ chọn phần dành riêng cho phân tích chuỗi. Hiểu biết về các kỹ thuật mà kẻ tấn công tiềm năng của bạn sử dụng là cách tốt nhất để bảo vệ bản thân. Do đó, lời khuyên của tôi sẽ là xem xét kỹ lưỡng phần này và cố gắng nắm bắt tất cả các chi tiết.
-Trong khóa đào tạo này, chúng tôi tập trung độc quyền vào vấn đề riêng tư của Bitcoin trên chuỗi chính. Các vấn đề về riêng tư trên các hệ thống lớp thứ hai, như Lightning Network và sidechains, cũng rất đáng kể và có những đặc điểm cụ thể. Mặc dù việc sử dụng các giao dịch ngoại tuyến có thể là một chiến lược hiệu quả để lách qua nhiều rủi ro về khả năng theo dõi trên Bitcoin mà chúng tôi đã nghiên cứu, nó cũng đưa bạn đến với những rủi ro khác mà cũng rất quan trọng để nhận biết. Đó là lý do tại sao những chủ đề này sẽ được đề cập trong một khóa đào tạo chuyên sâu trong tương lai trên PlanB Network.
+Trong khóa đào tạo này, chúng tôi chỉ tập trung vào vấn đề quyền riêng tư của Bitcoin trên chuỗi chính. Các vấn đề về riêng tư trên các hệ thống lớp thứ hai, như Lightning Network và sidechains, cũng rất quan trọng và có những đặc điểm cụ thể. Mặc dù việc sử dụng các giao dịch ngoại tuyến có thể là một chiến lược hiệu quả để lách qua nhiều rủi ro về khả năng theo dõi trên mạng lưới Bitcoin mà chúng ta đã nghiên cứu, nó cũng đưa bạn đến với những rủi ro khác mà chúng ta cần nhận biết. Đó là lý do tại sao những chủ đề này sẽ được đề cập trong một khóa đào tạo chuyên sâu trong tương lai trên PlanB Network.
 
-Nếu bạn thích khóa đào tạo này, tôi sẽ rất biết ơn nếu bạn có thể chia sẻ nó với bạn bè và trên mạng xã hội. Cảm ơn bạn! :)
+Nếu bạn thích khóa đào tạo này, tôi sẽ rất biết ơn nếu bạn có thể chia sẻ nó với bạn bè của bạn và trên mạng xã hội. Cảm ơn bạn! :)

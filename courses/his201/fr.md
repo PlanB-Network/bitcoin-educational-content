@@ -23,7 +23,7 @@ Ce cours est bien évidemment centré sur la figure de Satoshi Nakamoto dont vou
 ## Introduction à l'histoire de la création de Bitcoin
 <chapterId>85290407-1aa3-4cb4-890a-aed23441afb7</chapterId>
 
-Ce cours vise à vous raconter l'histoire de la création de Bitcoin comme vous ne l'avez jamais lu ailleurs. Celle-ci est trop souvent méconnue, bien qu'elle regorge de détails fascinants. Nous nous attacherons ainsi à la décrire dans toute sa complexité, de la conception par Satoshi Nakamoto à sa disparition précoce et à la prise de relai par la communauté.
+Ce cours vise à vous raconter l'histoire de la création de Bitcoin comme vous ne l'avez jamais lue ailleurs. Celle-ci est trop souvent méconnue, bien qu'elle regorge de détails fascinants. Nous nous attacherons ainsi à la décrire dans toute sa complexité, de la conception par Satoshi Nakamoto à sa disparition précoce et à la prise de relai par la communauté.
 
 ### Petit aperçu
 
@@ -1460,15 +1460,15 @@ Les premiers meet-ups entre utilisateurs de Bitcoin ont lieu à l'initiative de 
 
 Le mois de février marque aussi la [première présentation filmée](https://www.youtube.com/watch?v=koIq58UoNfE) de Bitcoin, qui est réalisée par Gavin Andresen le 8 à l'occasion d'un évènement organisé dans sa ville de résidence, Amherst, dans le Massachusetts. Intitulée « *Making Money* », l'exposé du nouveau mainteneur principal du projet contient de nombreux éléments de langage qui caractériseront la façon de présenter la cryptomonnaie dans les années qui suivront.
 
-![Gavin Andresen lors de sa présentation de Bitcoin à Amherst en février 2011](assets/img/ch13/6.webp)<br>Gavin Andresen lors de sa présentation de Bitcoin à Amherst en février 2011 (source : [Youtube](https://www.youtube.com/watch?v=koIq58UoNfE))
+![Vidéo (Youtube) de l'intervention de Gavin à Amherst en février 2011](https://www.youtube.com/watch?v=koIq58UoNfE)
 
 Même si les premiers évènements ont lieu aux États-Unis, la communauté française n'est pas en reste. Le 25 mai, à l'occasion de la venue de Gavin Andresen à Paris, un déjeuner est organisé dans le quartier de la Défense, où sont notamment présents Lucien Grondin, David François et Jon Matonis (qui est aussi de passage).
 
-![Rencontre à la Défense à Paris avec Gavin Andresen, en chemise rose](assets/img/ch13/7.webp)<br>Rencontre à la Défense à Paris avec Gavin Andresen, en chemise rose (source : [archive du forum](https://web.archive.org/web/20140715000000*/https://bitcointalk.org/index.php?topic=5587.40))
+![Rencontre à la Défense à Paris avec Gavin Andresen, en chemise rose](assets/img/ch13/6.webp)<br>Rencontre à la Défense à Paris avec Gavin Andresen, en chemise rose (source : [archive du forum](https://web.archive.org/web/20140715000000*/https://bitcointalk.org/index.php?topic=5587.40))
 
 Un mois plus tard, le 15 juin, la première présentation publique de Bitcoin en français [a lieu](https://bitcointalk.org/index.php?topic=11384.msg225831#msg225831), encore à Paris. Elle est le fait de Renaud Lifchitz (nono2357), jeune expert en sécurité informatique, qui a découvert Bitcoin un an auparavant. Le [contenu présenté](https://prezi.com/tikwkjt9ouey/bitcoin-une-monnaie-electronique-pour-tous/) est de très bonne qualité et l'audience répond à l'appel, si bien que la salle est bondée.
 
-![Présentation de Bitcoin par Renaud Lifchitz le 15 juin 2011](assets/img/ch13/8.webp)<br>Présentation de Bitcoin par Renaud Lifchitz le 15 juin 2011 (source : [archive du forum](https://web.archive.org/web/20140406141205/https://bitcointalk.org/index.php?topic=11384.0))
+![Présentation de Bitcoin par Renaud Lifchitz le 15 juin 2011](assets/img/ch13/7.webp)<br>Présentation de Bitcoin par Renaud Lifchitz le 15 juin 2011 (source : [archive du forum](https://web.archive.org/web/20140406141205/https://bitcointalk.org/index.php?topic=11384.0))
 
 Suite à cette expérience, la communauté parisienne [organise](https://bitcointalk.org/index.php?topic=21991.msg276443#msg276443) un apéritif, qui a lieu le 11 juillet. Celui-ci réunit des personnes comme Pierre Noizat ou Émilien Dutang.
 
@@ -1488,7 +1488,7 @@ Tout d'abord, les vidéos sur le sujet fleurissent sur Youtube. Le 22 mars, la p
 
 En avril, le sujet de la monnaie numérique est abordé par des grands noms de la presse généraliste comme [The Atlantic](https://www.theatlantic.com/business/archive/2011/04/how-to-start-your-own-private-currency/73327/), [Time Magazine](https://techland.time.com/2011/04/16/online-cash-bitcoin-could-challenge-governments/) et [Forbes](https://www.forbes.com/forbes/2011/0509/technology-psilocybin-bitcoins-gavin-andresen-crypto-currency.html). En mai, le mouvement s'amplifie et Bitcoin est évoqué un peu partout, notamment dans [Wired UK](https://web.archive.org/web/20110517122859/http://www.wired.co.uk/news/archive/2011-05/16/bitcoin-p2p-currency), sur [Slate](https://slate.com/business/2011/05/bitcoin-why-the-new-electronic-currency-is-a-favorite-of-libertarian-hipsters-and-criminals.html), sur [Gizmodo](https://gizmodo.com/what-is-bitcoin-5803124) et sur [TechCrunch](https://techcrunch.com/2011/05/20/bitcoin-ven-and-the-end-of-currency/).
 
-![Gavin Andresen dans Forbes en avril 2011](assets/img/ch13/9.webp)<br>Gavin Andresen dans Forbes en avril 2011 (source : [archive de Forbes](https://web.archive.org/web/20110502052302/https://www.forbes.com/forbes/2011/0509/technology-psilocybin-bitcoins-gavin-andresen-crypto-currency.html))
+![Gavin Andresen dans Forbes en avril 2011](assets/img/ch13/8.webp)<br>Gavin Andresen dans Forbes en avril 2011 (source : [archive de Forbes](https://web.archive.org/web/20110502052302/https://www.forbes.com/forbes/2011/0509/technology-psilocybin-bitcoins-gavin-andresen-crypto-currency.html))
 
 La radio est également utilisée pour parler de la cryptomonnaie. Un épisode d'une émission de la radio canadienne CBC Radio est [consacré](https://web.archive.org/web/20110227214049/http://www.cbc.ca/spark/2011/02/spark-139-february-27-march-2-2011/) au sujet de la monnaie et de Bitcoin le 27 février. Bitcoin est également mentionné dans plusieurs épisodes de FreeTalkLive, une émission d'orientation libertarienne aux États-Unis. En particulier, le sujet est [abordé](https://web.archive.org/web/20110318163416/http://www.freetalklive.com/content/podcast_2011_03_16) plus longuement le 16 mars 2011, notamment dans le cadre de l'essor de Silk Road. Enfin, le 24 mai, Bitcoin est le sujet d'une [courte capsule](https://www.npr.org/2011/05/24/136620231/what-are-bitcoins) sur la *National Public Radio* aux États-Unis.
 
@@ -1498,11 +1498,11 @@ Les blogueurs individuels sont de même intéressés. C'est le cas de Rick Falkv
 
 La popularisation de Bitcoin fait que son prix augmente de manière significative. Alors qu'il est redescendu à 20 centimes en décembre 2010, il atteint la parité avec le dollar le 9 février 2011. À ce moment-là, Hal Finney [déclare](https://bitcointalk.org/index.php?topic=2734.msg37307#msg37307) que les membres de la communauté ont « vraiment de la chance d'être au début d'un nouveau phénomène potentiellement explosif ». Il a du flair, car ce qui se produit ensuite est fulgurant.
 
-![Photographie postée par jimbobway sur le forum le jour de la parité avec le dollar](assets/img/ch13/10.webp)<br>Photographie publiée par jimbobway sur le forum le jour de la parité avec le dollar (source : [Bitcointalk](https://bitcointalk.org/index.php?topic=2734.msg37144#msg37144))
+![Photographie postée par jimbobway sur le forum le jour de la parité avec le dollar](assets/img/ch13/9.webp)<br>Photographie publiée par jimbobway sur le forum le jour de la parité avec le dollar (source : [Bitcointalk](https://bitcointalk.org/index.php?topic=2734.msg37144#msg37144))
 
 L'effervescence médiatique du printemps a en effet pour conséquence de créer progressivement un phénomène spéculatif sans précédent. Après avoir stagné autour de 1 $ pendant plusieurs mois, le prix remonte et atteint 3 $ à la fin du mois d'avril. En mai, il est de 8 $. Enfin, le 8 juin, le prix du bitcoin atteint un sommet historique de 32 $ sur Mt. Gox ! Cette hausse correpond à une multiplication par 160 en 6 mois.
 
-![Prix moyen du BTC entre le 1er janvier et le 30 juin 2011](assets/img/ch13/11.webp)<br>Prix moyen du BTC entre le 1er janvier et le 30 juin 2011 (source : [Bitbo.io](https://calendar.bitbo.io/price/))
+![Prix moyen du BTC entre le 1er janvier et le 30 juin 2011](assets/img/ch13/10.webp)<br>Prix moyen du BTC entre le 1er janvier et le 30 juin 2011 (source : [Bitbo.io](https://calendar.bitbo.io/price/))
 
 Bien évidemment, ce mouvement spéculatif fait penser à une bulle financière, c'est-à-dire à une surévaluation d'un produit financier par rapport à sa valeur fondamentale. Dans le cas d'une monnaie comme le bitcoin, il s'agit d'un enthousiasme passager qui se traduit par une hausse vertigineuse du cours, suivie d'une baisse brutale provoquée par le manque de conviction des nouveaux participants. C'est ainsi que l'évolution du prix est [qualifiée](https://web.archive.org/web/20110530074512/http://blogs.reuters.com/columns/2011/05/27/virtual-bitcoins-are-appealing-but-probably-doomed/) de « bulle » par un chroniqueur de Reuters le 27 mai, dans une des premières « notices nécrologiques » de Bitcoin.
 

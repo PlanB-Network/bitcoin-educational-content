@@ -1,5 +1,5 @@
 ---
-name: Bảo vệ quyền riêng tư trên không gian Bitcoin
+name: Bảo vệ quyền riêng tư trên mạng lưới Bitcoin
 goal: Hiểu và thành thạo các nguyên tắc bảo vệ quyền riêng tư khi sử dụng Bitcoin
 objectives:
   - Định nghĩa các khái niệm lý thuyết cần thiết để hiểu rõ vấn đề bảo vệ quyền riêng tư
@@ -8,11 +8,11 @@ objectives:
   - Hiểu các phương pháp phân tích chuỗi và phát triển các chiến lược phòng thủ
 ---
 
-# Bảo vệ quyền riêng tư của bạn trong thế giới Bitcoin
+# Bảo vệ quyền riêng tư của bạn trên mạng lưới Bitcoin
 
 Trong một thế giới mà quyền riêng tư của các giao dịch tài chính dần trở thành một thứ xa xỉ, bạn cẩn phải hiểu và thành thạo các nguyên tắc bảo vệ quyền riêng tư trong việc sử dụng Bitcoin của mình, vì đây là điều rất cần thiết. Khóa học này sẽ cung cấp tất cả các chìa khóa, cả lý thuyết lẫn thực hành, để bạn có thể đạt được điều này một cách tự chủ.
 
-Ngày nay, trong hệ sinh thái Bitcoin, có các công ty chuyên về phân tích chuỗi. Lĩnh vực kinh doanh cốt lõi của họ chính xác là xâm nhập vào không gian riêng tư của bạn, nhằm xâm phạm tính bảo mật trong các giao dịch của bạn. Thực tế, "quyền riêng tư" trên Bitcoin không tồn tại. Do đó, chính bạn, người dùng, phải khẳng định quyền tự nhiên của mình và bảo vệ tính bảo mật trong các giao dịch của mình. Không ai khác sẽ làm điều đó cho bạn.
+Ngày nay, trong hệ sinh thái Bitcoin, có các công ty chuyên về phân tích chuỗi. Lĩnh vực kinh doanh cốt lõi của họ chính xác là xâm nhập vào không gian riêng tư của bạn, nhằm xâm phạm tính bảo mật trong các giao dịch của bạn. Thực tế, "quyền riêng tư" trên mạng lưới Bitcoin không tồn tại. Do đó, chính bạn, người dùng, phải khẳng định quyền tự nhiên của mình và bảo vệ tính bảo mật trong các giao dịch của mình. Không ai khác sẽ làm điều đó cho bạn.
 
 Khóa học này được trình bày như một hành trình hoàn chỉnh và tổng quát. Mỗi khái niệm kỹ thuật được chi tiết hóa và hỗ trợ bằng các sơ đồ minh hoạ. Mục tiêu là làm cho kiến thức trở nên dễ tiếp cận với mọi người. BTC204 do đó phù hợp cho cả người mới bắt đầu và người dùng ở trình độ trung cấp, đã có kinh nghiệm tương đối với Bitcoin. Khóa học này cũng mang lại giá trị cộng thêm cho đại đa số các Bitcoiner kỳ cựu, do chúng tôi đào sâu vào một số khái niệm kỹ thuật thường không được biết đến.
 

@@ -145,7 +145,7 @@ In its technical operation, the eCash model is based on the blind signature proc
 
 Here is an illustration of the different steps involved in the creation and replacement of a Chaumian note (from *L'Élégance de Bitcoin*):
 
-![Creation and replacement of a Chaumian note](assets/notext/ch1/5.webp)
+![Creation and replacement of a Chaumian note](assets/en/ch1/5.webp)
 
 The actions (each corresponding to a mathematical operation or an information transmission) are as follows:
 

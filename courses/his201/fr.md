@@ -150,7 +150,7 @@ Dans son fonctionnement technique, le modèle eCash se fonde sur le procédé de
 
 Voici une illustration des différentes étapes qui interviennent dans la création et le remplacement d'un billet chaumien (provenant de *L'Élégance de Bitcoin*) :
 
-![Création et remplacement d'un billet chaumien](assets/notext/ch1/5.webp)
+![Création et remplacement d'un billet chaumien](assets/fr/ch1/5.webp)
 
 Les actions (qui correspondent chacune à une opération mathématique ou à une transmission d'information) sont les suivantes :
 

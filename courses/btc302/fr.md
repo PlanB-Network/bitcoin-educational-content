@@ -1424,6 +1424,7 @@ Bien évidemment, **dans d'autres pays, la législation et le fonctionnement ass
 ## Donnez-nous votre avis sur ce cours
 <chapterId>08a35d2a-204b-519a-9bb1-588665a037fa</chapterId>
 <isCourseReview>true</isCourseReview>
+
 ## Faire attention à soi
 <chapterId>cf1631cb-ddbe-55c7-be8c-26a5652979a0</chapterId>
 

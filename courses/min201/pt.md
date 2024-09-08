@@ -752,6 +752,7 @@ O resultado final é uma taxa de hashing mais alta por watt de eletricidade, o q
 ## Dê-nos seu feedback sobre este curso
 <chapterId>6af13742-df68-5cf4-b7aa-93dc0c2eaae9</chapterId>
 <isCourseReview>true</isCourseReview>
+
 ## Controlando um Antminer S9 pelo smartphone
 <chapterId>6e7c234a-a445-5070-b087-531d16c42107</chapterId>
 

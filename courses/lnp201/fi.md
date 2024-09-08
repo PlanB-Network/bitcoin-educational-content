@@ -573,6 +573,7 @@ Lopuksi, Bitcoinin tulevaisuus on lupaava mahdollisen miljoonan arvon ennustukse
 ## Anna meille palautetta tästä kurssista
 <chapterId>38814c99-eb7b-5772-af49-4386ee2ce9b0</chapterId>
 <isCourseReview>true</isCourseReview>
+
 ## Kiitokset ja jatka kaninkolon tutkimista
 <chapterId>afc0d72b-4fbc-5893-90b2-e27fb519ad02</chapterId>
 

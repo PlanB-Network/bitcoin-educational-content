@@ -1279,6 +1279,7 @@ BTC101コースの修了おめでとうございます！あなたがこのコ�
 ## このコースについてのフィードバックをお寄せください
 <chapterId>585729e2-b0ab-51b5-89ec-593e3ea22c57</chapterId>
 <isCourseReview>true</isCourseReview>
+
 ## トレーニングについての注意事項
 <chapterId>44d01865-5c89-55a5-a397-a014960eec0f</chapterId>
 

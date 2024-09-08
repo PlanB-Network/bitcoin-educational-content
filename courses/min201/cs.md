@@ -706,6 +706,7 @@ Výsledkem je vyšší hash rate na watt elektrické energie, což znamená vět
 ## Dejte nám zpětnou vazbu k tomuto kurzu
 <chapterId>6af13742-df68-5cf4-b7aa-93dc0c2eaae9</chapterId>
 <isCourseReview>true</isCourseReview>
+
 ## Ovládání Antmineru S9 z vašeho smartphonu
 <chapterId>6e7c234a-a445-5070-b087-531d16c42107</chapterId>
 

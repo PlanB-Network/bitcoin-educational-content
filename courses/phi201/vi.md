@@ -1415,6 +1415,7 @@ Hayek tin rằng một thị trường tự do của các đồng tiền tư nh�
 ## Cho chúng tôi biết phản hồi của bạn về khóa học này
 <chapterId>6759868f-749d-5fe7-bbb1-24f603e8b34e</chapterId>
 <isCourseReview>true</isCourseReview>
+
 ## Kết luận: sức mạnh của ý tưởng
 
 <chapterId>50676155-c071-5bee-a14e-0c251f0375da</chapterId>

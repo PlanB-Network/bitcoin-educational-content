@@ -972,7 +972,7 @@ Dù trường hợp nào, tất cả các khóa học của chúng tôi đều m
 
 
 ## Cho chúng tôi biết phản hồi của bạn về khóa học này
-<chapterId>387a1a92-7a16-d985-a861-0a84259dca6a</chapterId>
+<chapterId>3f43175a-fb7a-5b1c-a887-7dcf615d7a3a</chapterId>
 <isCourseReview>true</isCourseReview>
 
 ## Theo dõi

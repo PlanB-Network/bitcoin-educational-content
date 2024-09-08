@@ -331,54 +331,52 @@ Prenez donc votre mal en patience, essayez de dicter des consignes (des "prompts
 ## Quels canaux de communication privilégier?
 <chapterId>b4f4eef6-1035-5290-848a-2b7f9391c77a</chapterId>
 
-Comme dit précédemment, en fonction des motivations et habitudes de chacun, les canaux de communication d'une communauté peuvent être différents.
+Comme dit précédemment, les canaux de communication d'une communauté peuvent différer suivant les motivations et habitudes. 
+Par exemple, **en France, en Allemagne et en Italie, Telegram et Twitter sont les canaux de communication principaux**. Ils sont ainsi devenus au fil du temps des "standards de communication" pour les communautés Bitcoin de ces pays. À contrario, en République Tchèque, les nombreuses communautés qui s'y sont développées utilisent **Matrix**, un protocole chiffré de messagerie instantanée. Dans leur pays, Telegram n'est donc que peu utilisé.
 
-Par exemple, **en France, en Allemagne et en Italie, Telegram et Twitter sont les canaux de communication principaux**. Ils sont ainsi devenus au fil du temps des "standards de communication" pour les communautés Bitcoin de ces pays. Certaines communautés utilisent toutefois d'autres canaux en plus, dans des objectifs précis.
-À contrario, en République Tchèque, les nombreuses communautés qui s'y sont développées utilisent **Matrix**, un protocole de messagerie instantanée chiffré. Dans leur pays, Telegram n'est donc que peu utilisé.
-
-En ce sens, **dans l'objectif de choisir ses canaux de communication, le plus pertinent est de commencer par prendre exemple sur les communautés limitrophes de son pays**.
-Pour ce faire, accéder à la carte [btcmap.org](https://btcmap.org/communities/map#0/0/0/) vous donnera un avis déjà bien précis des canaux de communication les plus utilisés dans votre pays.
+En ce sens, **lorsque vous devrez choisir les canaux de communication de votre communauté, le plus pertinent est de commencer par prendre exemple sur les communautés limitrophes de votre pays**.
+Pour ce faire, jeter un oeil à la carte [btcmap.org](https://btcmap.org/communities/map#0/0/0/) vous donnera un avis déjà bien précis des canaux de communication les plus utilisés autour de vous.
 En Suisse par exemple, les informations sont principalement relayées par le biais du Telegram, du Twitter et du site internet de la communauté.
 
 ![image](assets/fr/chapter6/img17.webp)
 ####
-**Dans le cas de la France (et de la francophonie de manière générale), le principal canal de communication est Telegram**. Plus de 90% des meet-ups français en ont d'ailleurs un: c'est un "must-have".
+**Dans le cas de la France (et de la francophonie de manière générale), le principal canal de communication est donc Telegram**. Plus de 90% des meet-ups français en ont d'ailleurs un: c'est un "must-have".
 Par suite, **le principal réseau social utilisé par les communautés est Twitter** (70% des meet-ups français); réseau social sur lequel une majorité de bitcoiners sont présents.
-De plus, près de 30% des meet-ups français (mais également tous les meet-ups canadiens) possèdent un compte - payant - sur l'application **Meetup**. Cela peut en effet être un excellent moyen de donner de la visibilité à ses événements en dehors de l'écosystème Bitcoin.
-Enfin, 30% des meet-ups français ont également un **site internet**; et 10%, un serveur **Discord** et un compte **NOSTR**.
+En parallèle, près de 30% des meet-ups français (mais également tous les meet-ups canadiens) possèdent un compte payant sur l'application **Meetup**. Cela peut en effet être un excellent moyen de donner de la visibilité à ses événements en dehors de l'écosystème Bitcoin.
+Enfin, 30% des meet-ups français ont également un **site internet**; et 10%, un serveur **Discord** et/ou un compte **NOSTR**.
 ####
-Évidemment, d'autres canaux de communication et réseaux sociaux sont parfois utilisés: Matrix, Keet, Signal, Facebook, Instagram, LinkedIn, etc. **Chaque communauté est en effet libre de développer les canaux qu'elle souhaite**.
-Il va cependant s'en dire que, **plus les canaux de communication et réseaux sociaux sont multipliés, plus cela demande du temps pour le(ou les) organisateur(s) de s'en occuper**, d'y poster les informations importantes régulièrement et de modérer si besoin.
+Évidemment, d'autres canaux de communication et réseaux sociaux sont parfois utilisés: Matrix, Keet, Signal, Facebook, Instagram, LinkedIn, etc. Chaque communauté est en effet libre d'utiliser les canaux qu'elle souhaite.
+Il va cependant s'en dire que, **plus les canaux de communication et réseaux sociaux sont multipliés, plus cela demande du temps pour le(ou les) organisateur(s) de s'en occuper**, d'y poster les informations importantes, de modérer en cas de spam, etc.
 ####
-**Pour toute personne souhaitant lancer une communauté en France, il est donc conseillé pour commencer de ne créer que:**
-- **un groupe Telegram**;
-- **un compte Twitter**.
+Toute personne souhaitant lancer une communauté en France serait donc avisée de commencer à ne créer que:
+- un groupe Telegram;
+- un compte Twitter.
 
 En fonction de votre temps et de vos envies, vous pourrez par la suite développer d'autres réseaux; quitte à en **attribuer la modération à des futurs membres de votre communauté**.
 
 ## Créer et configurer un canal, un groupe ou un super-groupe Telegram
 <chapterId>d13714ce-8f08-53e9-bedd-b6a3aaac5dad</chapterId>
 
-Comme dit précédemment, Telegram est un "must-have" dans de nombreux pays. Toutefois, lors de la création du canal de communication de sa communauté sur cette application de messagerie instantanée, il est important de comprendre les différences entre:
+Comme dit précédemment, Telegram est un "must-have" dans de nombreux pays. Toutefois, avant de créer un canal de communication pour sa communauté sur Telegram, il est important de comprendre les différences entre:
 - un canal Telegram;
 - un groupe Telegram;
 - un super-groupe Telegram.
 
-Nous le verrons alors par la suite, mais **il est très fortement recommandé de choisir "groupe Telegram" lors de la création** (voire, suivant vos objectifs, "super-groupe Telegram").
+Nous le verrons alors par la suite, mais **il est très fortement recommandé de choisir "groupe Telegram" lors de la création** (quitte à la transformer en "super-groupe Telegram" par la suite, si besoin).
 ####
-Pour les tutoriels qui suivront, nous utiliserons l'application APK "Telegram+"; application qui permet de pouvoir aller plus loin dans la configuration de son Telegram. Cela n'est toutefois pas nécessaire, la création d'un groupe ou super-groupe Telegram pouvant se faire désormais très facilement sur téléphone:
+Pour les tutoriels qui suivront, nous utiliserons l'application APK "Telegram+"; application qui permet de pouvoir aller plus loin dans la configuration de son Telegram. Cela n'est toutefois pas nécessaire, car la création d'un groupe ou super-groupe Telegram peut se faire désormais très facilement sur téléphone:
 ![Tutoriel Telegram+](https://www.youtube.com/watch?v=Z5mE-LksBZw)
 
 ### Créer un canal Telegram
 
 Si vous souhaitez créer un endroit où vos membres peuvent échanger ensemble de manière directe, se répondent les uns aux autres, etc. alors un canal Telegram n'est absolument pas ce sur quoi vous devez vous tourner !
-Passez donc directement à la section suivante, intitulée [Créer un groupe Telegram](LIEN).
+Passez donc directement à la section suivante, intitulée [Créer un groupe Telegram](https://planb.network/fr/courses/btc302/d13714ce-8f08-53e9-bedd-b6a3aaac5dad).
 
 En effet, **un canal Telegram n'est qu'une vitrine des informations postées par les administrateurs, dans lequel les membres ne pourront pas faire grand chose de plus qu'ajouter des émojis**.
 
 ![image](assets/fr/chapter7/img18-fr.webp)
 
-Il est toutefois possible d'ajouter la possibilité pour les membres du canal de commenter chaque post de l'administrateur du canal, mais cela se fera dans des discussions séparées; clivant fortement les échanges. **La création d'un canal Telegram n'est donc généralement pas conseillée pour une communauté**.
+Il est toutefois possible d'ajouter la possibilité pour les membres du canal de commenter chaque post de l'administrateur du canal, comme sur la photo précédente; mais cela se fera dans des discussions séparées, clivant fortement les échanges. **La création d'un canal Telegram n'est donc généralement pas conseillée pour une communauté**.
 ####
 Tutoriel pour créer un canal Telegram:
 ![Tutoriel canal Telegram](https://www.youtube.com/watch?v=N5S7cgySV8U)
@@ -386,7 +384,7 @@ Tutoriel pour créer un canal Telegram:
 ### Créer un groupe Telegram 
 
 À contrario, **créer un groupe Telegram est tout à fait pertinent**.
-En effet, pour prendre des exemples connus comme les groupes Messenger ou WhatsApp, toutes les personnes qui rejoindront ce **groupe Telegram pourront échanger ensemble, se répondre; et cela, toujours dans une même discussion**.
+En effet, à l'image des applications de messagerie telles que Messenger ou WhatsApp, toutes les personnes qui rejoindront ce **groupe Telegram pourront échanger ensemble, se répondre; et cela, dans la même discussion**.
 
 ![image](assets/fr/chapter7/img19-en.webp)
 
@@ -406,26 +404,27 @@ Il n'est donc plus nécessaire de télécharger "Telegram+" pour réaliser cette
 
 ### Créer un super-groupe Telegram
 
-Le point négatif d'un groupe Telegram est que, lorsqu'il commence à y avoir plusieurs centaines de membres, les discussions en parallèle dans le même canal de communication commencent à devenir fouillies. Cela entraîne alors un effet indésirable: certains membres ne suivent plus quotidiennement le groupe Telegram, les amenant parfois à râter des informations importantes; comme par exemple la date du prochain meet-up.
+Le point négatif d'un groupe Telegram est que, lorsqu'il commence à y avoir plusieurs centaines de membres, les discussions dans ce même canal de communication commencent à devenir fouillies. Cela entraîne alors un effet indésirable: certains membres ne suivent plus quotidiennement le groupe Telegram, les amenant parfois à râter des informations importantes; comme par exemple la date du prochain meet-up.
 
-Pour remédier à cela, plusieurs solutions peuvent être appliquées:
-1. **épingler en tant qu'administrateur les messages importants**, pour que tout le monde en soit notifié (appuyer 1 fois avec son doigt sur le message en question, puis sélectionner "Épinger");
-2. proposer à sa communauté d'**utiliser un serveur Discord** avec des canaux de communication divers et variés, que chacun peut rendre muet s'il le souhaite;
-3. de **créer un "super-groupe" Telegram**.
+Pour remédier à cela, plusieurs solutions existent:
+1. **épinglez en tant qu'administrateur les messages importants**, pour que tout le monde en soit notifié (appuyez pour cela 1 fois avec votre doigt sur le message en question, puis sélectionnez "Épinger");
+2. proposez à la communauté d'**utiliser un serveur Discord** avec des canaux de communication divers et variés, que chacun peut rendre muet s'il le souhaite;
+3. **créez un "super-groupe" Telegram**.
 #### 
+####
 Mais qu'est-ce qu'un super-groupe Telegram?
 
-C'est tout simplement **un groupe Telegram dans lequel on y intègre plusieurs "sujets"**. Ainsi, un sujet **"Informations importantes"** peut être créé, dans lequel on n'y postera que les informations importantes et associées aux prochains événements / meet-ups.
+C'est tout simplement **un groupe Telegram dans lequel on y intègre plusieurs "sujets"**. Un sujet **"Informations importantes"** peut alors être créé, dans lequel on n'y postera que les informations essentielles associées aux prochains événements / meet-ups.
 Un sujet **"Général"** peut également être mis en place, dans lequel tous les membres pourraient discuter.
-Enfin, **des sujets spécifiques** (minage, développement d'un projet, prochaine conférence, etc.) peuvent être ajoutés.
+Enfin, **des sujets spécifiques** (minage, développement d'un projet, prochaine conférence, etc.) peuvent apparaître en fonction des besoins.
 
-À vous de modifier cela en fonction de vos envies; à l'image par exemple du super-groupe d'Abidjan Bitcoin Meet-up.
+À vous de modifier votre super-groupe en fonction de vos envies, à l'image par exemple du super-groupe d'Abidjan Bitcoin Meet-up.
 
 ![image](assets/fr/chapter7/img20-fr.webp)
 ####
-Toutefois, il est à noter qu'**un super-groupe Telegram peut être plus difficile à utiliser pour certains membres**. En effet, parfois, certains ne parviennent pas à comprendre **comment accéder aux autres sujets de ce super-groupe** (pour cela, il suffit simplement de cliquer sur le logo du groupe; et cela ouvre la liste des sujets créés). Les aider en leur envoyant une petite vidéo tutorielle en capture d'écran peut alors être une bonne idée.
+Toutefois, il est à noter qu'**un super-groupe Telegram peut être plus difficile à utiliser pour certains membres**. En effet, parfois, certains ne parviennent pas à comprendre **comment accéder aux autres sujets de ce super-groupe** (pour cela, il suffit de simplement de cliquer sur le logo du groupe dans le menu général Telegram; et cela ouvre la liste des sujets créés). Les aider en leur envoyant en capture d'écran la procédure peut être une bonne idée.
 ####
-De manière générale, il n'existe pas un nombre de membres type à partir duquel il est pertinent d'utiliser un super-groupe Telegram plutôt qu'un groupe Telegram. C'est donc à vous de faire ce choix, en fonction des besoins et demandes de vos membres; tout en sachant qu'un groupe Telegram peut être facilement converti en super-groupe Telegram (et inversement). Pour cela, il suffit de créer un sujet (ou de tous les supprimer).
+De manière générale, il n'existe pas un nombre de membres donné à partir duquel il est pertinent d'utiliser un super-groupe Telegram plutôt qu'un groupe Telegram. C'est donc à vous de faire ce choix, en fonction des besoins et demandes de vos membres; tout en sachant qu'un groupe Telegram peut être facilement converti en super-groupe Telegram (et inversement). Pour cela, il suffit de créer un sujet (ou de tous les supprimer sauf le "Général").
 ####
 Tutoriel pour créer un super-groupe Telegram:
 ![Tutoriel super-groupe Telegram](https://www.youtube.com/watch?v=GWVqpjBtg-U)
@@ -437,7 +436,7 @@ Il n'est donc plus nécessaire de télécharger "Telegram+" pour réaliser ces t
 ## Paramétrer son groupe ou super-groupe Telegram
 <chapterId>35e674b3-5924-50b0-98f1-83a56c9a186d</chapterId>
 
-Maintenant que vous avez créé votre groupe (ou super-groupe) Telegram, est venu le moment de **réfléchir aux permissions de ce dernier; ainsi qu'à sa modération**. Et, évidemment, chaque communauté est libre de faire comme elle le souhaite !
+Maintenant que vous avez créé votre groupe (ou super-groupe) Telegram, est venu le moment de **réfléchir aux permissions de ce dernier ainsi qu'à sa modération**. Évidemment, chaque communauté est libre de faire comme elle le souhaite.
 
 Toutefois, **d'expérience, il est préférable de retirer aux membres les permissions**:
 - **envoyer un sondage**;
@@ -451,19 +450,18 @@ Il est également **très fortement conseillé d'écrire une description de son 
 
 > Bienvenue sur le Telegram de @Bitcoin[VILLE] 🔥
 > 
-> Nous organisons un meet-up tous les premiers mercredis du mois, au bar [NOM_DU_BAR] à [VILLE] 🍻
+> Nous organisons un meet-up tous les premiers mercredis du mois au bar [NOM_DU_BAR], à [VILLE] 🍻
 > 
-> Pour accéder à nos autres réseaux sociaux: [LIEN_SOUHAITÉ] 🌐
+> Pour accéder à nos autres réseaux sociaux: [LIEN] 🌐
 
 ![image](assets/fr/chapter8/img21.webp)
 
 On observe d'ailleurs, sur l'image ci-dessus, que le lien d'invitation a été customisé par les administrateurs du groupe Telegram Bitcoin Lille, car ce dernier est public.
 ####
 Par la suite, dans "Paramètres du groupe", il peut être pertinent de **valider "Approuver les nouveaux membres"**.
-En effet, d'expérience, il est déjà arrivé qu'un groupe Telegram d'une communauté Bitcoin se fasse attaquer par plusieurs milliers de faux comptes souhaitant rejoindre le groupe dans l'objectif de le spammer et de le détruire.
-En plus de permettre en amont le retrait des faux comptes pornographiques souhaitant accéder à votre groupe, **activer l'approbation des membres vous sauvera avec certitude d'une attaque de type spam**.
+En effet, il est déjà arrivé qu'un groupe Telegram d'une communauté Bitcoin se fasse attaquer par plusieurs milliers de faux comptes souhaitant rejoindre le groupe dans l'objectif de le spammer et de le détruire. **Activer l'approbation des membres vous sauvera donc d'une attaque spam**.
 
-Enfin, dans la partie "Administrateurs", il est possible d'ajouter un "Anti-spam agressif", supprimant automatiquement les messages considérés comme tel. Cela n'est toutefois pas forcément nécessaire.
+Enfin, dans la partie "Administrateurs", il est possible d'ajouter un "Anti-spam agressif" qui supprime automatiquement les messages considérés comme tel. Cela n'est toutefois pas forcément nécessaire.
 
 
 ##  Insérer un bot multi-fonction dans un canal Telegram
@@ -471,10 +469,10 @@ Enfin, dans la partie "Administrateurs", il est possible d'ajouter un "Anti-spam
 
 **Une autre possibilité pour paramétrer et sécuriser son groupe ou super-groupe Telegram est d'ajouter un bot multi-fonction**. Cela permet en effet d'aller beaucoup plus loin dans sa configuration.
 
-Parmi les multiples options possibles avec **le bot [@GroupHelpBot](https://telegram.me/grouphelpbot)**, on note entre autre:
+Parmi les multiples options possibles avec **le bot [@GroupHelpBot](https://telegram.me/grouphelpbot)**, les plus intéressantes sont:
 - **ajouter un règlement** (commande /rules);
 - configurer un **mécanisme anti-spam**;
-- ajouter un **message automatique de bienvenue, personnalisable, automatiquem à l'entrée d'un nouveau membre et qui se supprime après quelques minutes**; 
+- ajouter un **message automatique de bienvenue, personnalisable, automatique à l'entrée d'un nouveau membre et qui se supprime après quelques minutes**; 
 - configurer le **mécanisme anti-flood**;
 - ajouter une commande @administrateur;
 - ajouter des blocages;
@@ -485,7 +483,7 @@ Parmi les multiples options possibles avec **le bot [@GroupHelpBot](https://tele
 
 ![image](assets/fr/chapter9/img22-fr.webp)
 
-Trois autres idées simples sont:
+Trois autres possibilités simples sont:
 - **créer une commande** "/lien" permettant d'envoyer le lien d'accès au groupe Telegram;
 - même chose pour obtenir les réseaux sociaux ("/reseaux") ou votre potentiel règlement en cas de modération ("/reglement");
 - **bloquer l'entrée de bots** et les "entrées/sorties".
@@ -495,28 +493,26 @@ D'innombrables options supplémentaires s'offrent également à vous. Un conseil
 Tutoriel pour ajouter un bot multi-fonction à un groupe ou super-groupe Telegram:
 ![Tutoriel bot multi-fonction Telegram](https://www.youtube.com/watch?v=l72GZcEFDtU)
 
-Petite remarque: comme dit précédemment, toute cette procédure peut être désormais réalisée sur téléphone.
+Petite remarque: comme dit précédemment, toute cette procédure peut être désormais réalisée sur téléphone. Il n'y a en effet plus besoin de l'application Telegram+.
 
 ## Créer un serveur Discord
 <chapterId>eef2a965-4c24-5f3a-8013-72cc7d315314</chapterId>
 
-À l'augmentation du nombre de membres dans son groupe Telegram, la transformation en un super-groupe Telegram peut être la solution.
-Toutefois, comme dit précédemment, **les potentielles "difficultés d'utilisation" et l'augmentation du nombre de sujets et de messages dans un super-groupe Telegram peut entraîner un début de désintérêt pour une partie des membres actifs**.
+Lorsque le nombre de membres dans votre groupe Telegram sera trop important, le transformer en un super-groupe Telegram peut être la solution.
+Toutefois, comme dit précédemment, **les potentielles "difficultés d'utilisation" et l'augmentation du nombre de sujets et de messages pourront entraîner un début de désintérêt pour une partie des membres actifs**.
 
-**Discord se présente alors comme une alternative** à la création d'un super-groupe Telegram, puisqu'il permet de **créer des salons textuels et vocaux spécifiques**; et, surtout, que ses utilisateurs peuvent rendre muet tous les salons qui ne les intéressent pas.
-
-Évidemment, en plus de Telegram et de Twitter, cela demande encore un peu plus de temps pour s'en occuper; en particulier lors de sa configuration et de son lancement.
+**Discord se présente alors comme une alternative** à la création d'un super-groupe Telegram puisqu'il permet de **créer des salons textuels et vocaux spécifiques**. Mais aussi, que ses utilisateurs peuvent rendre muet tous les salons qui ne les intéressent pas. En plus de Telegram et de Twitter, cela demande évidemment un peu plus de temps pour s'en occuper; en particulier lors de sa configuration et de son lancement.
 
 Dans l'objectif de vous faciliter la tâche, **nous vous partageons donc un [serveur Discord pré-fait, duplicable et modifiable](https://discord.com/template/bDY4eXXJk2C8) à votre guise**:
 ![Tutoriel serveur Discord duplicable](https://www.youtube.com/watch?v=i3V6_359Ajw)
 ####
-Ainsi, lorsqu'il est bien construit, un serveur Discord peut être un véritable atout pour sa communauté. En effet, de nombreux bitcoiners utilisent déjà quotidiennement Discord (et pas Telegram), et leur **permettre de suivre les conversations du groupe Telegram directement au sein même du serveur Discord est un gain conséquent de temps**. Et inversement.
+Lorsqu'il est bien construit, un serveur Discord peut être un véritable atout pour sa communauté. En effet, de nombreux bitcoiners utilisent déjà quotidiennement cette application, et leur **permettre de suivre les conversations du groupe Telegram directement au sein même du serveur Discord est un gain conséquent de temps**. Et inversement.
 
 C'est la raison pour laquelle un bot open-source nommé [TediCross](https://github.com/TediCross/TediCross) a été développé. Son objectif est simple: transférer automatiquement les messages d'un salon textuel Discord vers un groupe Telegram (ou un sujet d'un super-groupe Telegram); et inversement. Cela peut donc être très intéressant à mettre en place.
 #### 
-Toutefois, il n'est pas sans noter que son installation n'est pas très évidente, qu'**il faille continuellement faire tourner une invite de commande (CMD) sur un ordinateur pour que ce bot fonctionne**; mais aussi, qu'il y a parfois un bug d'erreur. Heureusement, dans cette situation, il suffit simplement de le relancer; et tout rentre alors dans l'ordre.
+Toutefois, il n'est pas sans noter que son installation n'est pas très évidente, qu'**il faut continuellement faire tourner une invite de commande (CMD) sur un ordinateur pour que ce bot fonctionne**; mais aussi, qu'il y a parfois un bug d'erreur. Heureusement, dans cette situation, il suffit simplement de le relancer; et tout rentre alors dans l'ordre.
 
-Dans l'optique de vous faire de nouveau gagner du temps, voici un tutoriel expliquant comment ajouter un bot multi-fonction à un groupe ou super-groupe Telegram:
+Dans l'optique de vous faire de nouveau gagner du temps, voici un tutoriel expliquant comment ajouter ce bot multi-fonction à un groupe ou super-groupe Telegram:
 ![Tutoriel bot TediCross Discord - Telegram](https://www.youtube.com/watch?v=e4YAPG0ITF8)
 
 ## Réfléchir à d'autres canaux de communication, privés et plus sécurisés
@@ -526,11 +522,11 @@ Comme dit précédemment dans cette partie, Twitter et Telegram sont les deux pr
 Toutefois, vous n'êtes pas sans savoir que **Telegram n'est pas la messagerie la plus sécurisée et la plus confidentielle et que Twitter l'entreprise la plus libre de ses mouvements du monde**.
 En ce sens, **il est tout à fait pertinent - lorsque vous aurez du temps à y allouer - de commencer à réfléchir à des alternatives**.
 
-C'est d'ailleurs la raison pour laquelle, dans les prochains mois, des tutoriels d'utilisation de protocoles de communication plus confidentiels et plus sécurisés seront proposés [au sein même de ce cours, sur planb.network](LIEN).
+C'est d'ailleurs la raison pour laquelle, dans les prochains mois, des tutoriels d'utilisation de protocoles de communication plus confidentiels et plus sécurisés seront proposés au sein même de ce cours et sur planb.network; en particulier sur les applications de communication décentralisées, sécurisées et paramétrables que sont Simplex et Element.
 ####
-Mais pourquoi réfléchir à ces alternatives?
+Mais pourquoi réfléchir à ces alternatives? 
+Tout simplement parce qu'à l'image du réseau social NOSTR, ces dernières sont décentralisées et chiffrées. En plus du **gain de confidentialité** pour votre communauté, cela permet également de **se prémunir d'une fermeture (voire censure) de votre groupe ou super-groupe Telegram**.
 
-Tout simplement parce qu'à l'image du réseau social NOSTR comme des applications de communication Matrix, Signal ou Element, ces dernières sont décentralisées et/ou chiffrées. En plus du **gain de confidentialité** dans les échanges réalisés entre les différents membres de votre communauté, cela permet également de **se prémunir d'une fermeture (censure?) de votre groupe ou super-groupe Telegram**.
 Qu'y a-t-il donc de mieux, à l'image du protocole Bitcoin, que d'**être incensurable et immuable**?
 
 # Lancer ses réseaux sociaux

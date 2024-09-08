@@ -1573,6 +1573,7 @@ Hayek pensait qu’un marché libre des monnaies privées mènerait à une plus 
 ## Donnez-nous votre avis sur ce cours
 <chapterId>6759868f-749d-5fe7-bbb1-24f603e8b34e</chapterId>
 <isCourseReview>true</isCourseReview>
+
 ## Conclusion : le pouvoir des idées
 <chapterId>50676155-c071-5bee-a14e-0c251f0375da</chapterId>
 

@@ -1370,6 +1370,7 @@ Of course, **in other countries, legislation and the functioning of associations
 ## Give us some feedback about this course
 <chapterId>08a35d2a-204b-519a-9bb1-588665a037fa</chapterId>
 <isCourseReview>true</isCourseReview>
+
 ## Take Care of Yourself
 <chapterId>cf1631cb-ddbe-55c7-be8c-26a5652979a0</chapterId>
 

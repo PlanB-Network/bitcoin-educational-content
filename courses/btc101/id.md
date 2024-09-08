@@ -1294,6 +1294,7 @@ Komunitas ini telah menyediakan kursus ini, serta semua konten di universitas in
 ## Beri kami umpan balik tentang kursus ini
 <chapterId>585729e2-b0ab-51b5-89ec-593e3ea22c57</chapterId>
 <isCourseReview>true</isCourseReview>
+
 ## Catat pelatihan
 
 <chapterId>44d01865-5c89-55a5-a397-a014960eec0f</chapterId>

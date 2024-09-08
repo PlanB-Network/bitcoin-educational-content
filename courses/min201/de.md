@@ -749,6 +749,7 @@ Das Endergebnis ist eine höhere Hash-Rate pro Watt Stromverbrauch, was bedeutet
 ## Geben Sie uns Ihr Feedback zu diesem Kurs
 <chapterId>6af13742-df68-5cf4-b7aa-93dc0c2eaae9</chapterId>
 <isCourseReview>true</isCourseReview>
+
 ## Steuern Sie einen Antminer S9 von Ihrem Smartphone aus
 <chapterId>6e7c234a-a445-5070-b087-531d16c42107</chapterId>
 

@@ -1048,6 +1048,7 @@ Escreveu Frédéric Bastiat em um pequeno panfleto intitulado O Estado.
 ## Dê-nos seu feedback sobre este curso
 <chapterId>db20170d-ceb6-56cd-b4e5-c690942f8b29</chapterId>
 <isCourseReview>true</isCourseReview>
+
 ## O Legado de Frédéric Bastiat
 
 <chapterId>2a2a181a-e477-5be1-ba1f-af59490c364e</chapterId>

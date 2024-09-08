@@ -3664,6 +3664,7 @@ _Para crear este capítulo sobre Pagos Silenciosos, utilicé [el sitio de explic
 ## Danos tu opinión sobre este curso
 <chapterId>195d149f-80fa-5816-8b46-995a9226d082</chapterId>
 <isCourseReview>true</isCourseReview>
+
 ## Conclusión
 
 <chapterId>cd8e5c67-50e4-4dcd-8e04-88ba5ec95305</chapterId>

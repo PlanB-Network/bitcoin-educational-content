@@ -116,6 +116,7 @@ Buena suerte con sus estudios, y si necesitan comunicarse con nuestro equipo o l
 ## Danos tu opinión sobre este curso
 <chapterId>0217e8b0-942a-5fee-bd91-9a866551eff3</chapterId>
 <isCourseReview>true</isCourseReview>
+
 ## Palabra de cierre
 <chapterId>0309536d-c336-56a0-869e-a8395ed8d9ae</chapterId>
 

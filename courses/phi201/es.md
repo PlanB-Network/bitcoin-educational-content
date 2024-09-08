@@ -1408,6 +1408,7 @@ Hayek creía que un mercado libre de monedas privadas conduciría a una mayor es
 ## Danos tu opinión sobre este curso
 <chapterId>6759868f-749d-5fe7-bbb1-24f603e8b34e</chapterId>
 <isCourseReview>true</isCourseReview>
+
 ## Conclusión: el poder de las ideas
 
 <chapterId>50676155-c071-5bee-a14e-0c251f0375da</chapterId>

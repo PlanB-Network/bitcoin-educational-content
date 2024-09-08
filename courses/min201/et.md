@@ -755,6 +755,7 @@ Lõpptulemuseks on suurem hashimiskiirus vati kohta, mis tähendab kaevuritele s
 ## Andke meile tagasisidet selle kursuse kohta
 <chapterId>6af13742-df68-5cf4-b7aa-93dc0c2eaae9</chapterId>
 <isCourseReview>true</isCourseReview>
+
 ## Antminer S9 juhtimine oma nutitelefonist
 
 <chapterId>6e7c234a-a445-5070-b087-531d16c42107</chapterId>

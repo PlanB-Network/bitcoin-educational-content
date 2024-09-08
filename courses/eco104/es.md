@@ -1567,6 +1567,7 @@ Ahora que has pasado por el Módulo "Superando Dudas", tendrás que poner a prue
 ## Danos tu opinión sobre este curso
 <chapterId>86e358bb-88f4-5d20-af53-93f0f3524590</chapterId>
 <isCourseReview>true</isCourseReview>
+
 ## Comentarios de Cierre
 <chapterId>2b27b4dd-10e1-56a7-978e-1e5085f9aaff</chapterId>
 

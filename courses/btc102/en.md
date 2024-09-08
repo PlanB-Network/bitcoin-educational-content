@@ -1007,6 +1007,7 @@ In any case, all our courses are free, and many resources or tutorials are avail
 ## Give us some feedback about this course
 <chapterId>3f43175a-fb7a-5b1c-a887-7dcf615d7a3a</chapterId>
 <isCourseReview>true</isCourseReview>
+
 ## Follow up
 <chapterId>b082b8eb-dabc-5d79-94cf-eb8f48fc1968</chapterId>
 This course, as well as all the content available on this university, has been provided to you free of charge by our community. To support us, you can share it with others, become a member of the university, and even contribute to its development via GitHub. On behalf of the entire team, thank you!

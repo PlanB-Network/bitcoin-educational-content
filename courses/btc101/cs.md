@@ -1246,6 +1246,7 @@ Tento kurz, stejně jako veškerý obsah na této univerzitě, vám byl nabídnu
 ## Dejte nám zpětnou vazbu k tomuto kurzu
 <chapterId>585729e2-b0ab-51b5-89ec-593e3ea22c57</chapterId>
 <isCourseReview>true</isCourseReview>
+
 ## Ohodnoťte školení
 <chapterId>44d01865-5c89-55a5-a397-a014960eec0f</chapterId>
 

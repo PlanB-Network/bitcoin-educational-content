@@ -536,19 +536,19 @@ Qu'y a-t-il donc de mieux, à l'image du protocole Bitcoin, que d'**être incens
 <chapterId>b20f12e4-c5de-5f02-80c7-b7fc6cadd3ac</chapterId>
 
 Ça y est, votre communauté est lancée et vous disposez désormais d'un ou de plusieurs canaux de communication (Telegram et/ou Matrix par exemple) !
-Par contre, vous y êtes pour le moment... seul(e). Il va donc falloir **faire - un peu - de communication**.
+Malheureusement, vous y êtes pour le moment... seul(e). Il va donc falloir **faire - un peu - de communication**.
 
-Il en effet est évident que si personne ne parvient à accéder à vos canaux de communication, sur lesquels vous posterez régulièrement des informations (date du prochain meet-up, projets, etc.), vous allez oeuvrer dans le vide. C'est la raison pour laquelle **les réseaux sociaux - et certaines plateformes précises, dont nous parlerons par la suite - vont jouer un rôle prépondérant dans le développement de votre communauté**.
+En effet, si personne ne parvient à accéder aux canaux de communication sur lesquels vous postez régulièrement les informations de votre communauté (date du prochain meet-up, projets, etc.), il est évident que vous allez oeuvrer dans le vide. C'est la raison pour laquelle **les réseaux sociaux - et certaines plateformes précises, dont nous parlerons par la suite - vont jouer un rôle prépondérant dans le développement de votre communauté**.
 
-Parmi ces réseaux sociaux, **Twitter se positionne comme un quasi-incontournable dans le monde de Bitcoin**. En ce sens, il semble important de **disposer d'un profil sur cette plateforme**; quand bien même sa centralisation et son développement sont loin d'être corrects.
-C'est la raison pour laquelle un **profil NOSTR spécifique à votre communauté** peut également être créé, dans l'idée d'anticiper de potentielles restrictions et/ou censures sur Twitter. Après tout: mieux vaut prévenir que guérir.
+Parmi eux, **Twitter se positionne comme quasi-incontournable dans la bitcoinsphère**. En ce sens, il semble important de **disposer d'un profil sur cette plateforme**; quand bien même sa centralisation et son développement sont loin d'être irréprochables.
+C'est la raison pour laquelle un **profil NOSTR spécifique à votre communauté** peut également être créé, en particulier si vous avec en tête d'anticiper de potentielles restrictions et/ou censures sur Twitter. Après tout: mieux vaut prévenir que guérir.
+C'est notamment ce qu'a décidé de faire le collectif FREE Madeira, à Madère.
 
 ![image](assets/fr/chapter13/img23bis.webp)
 
-D'autres réseaux sociaux peuvent évidemment être utilisés. C'est le cas de Facebook (cas d'un groupe ou d'une page Facebook) ou même LinkedIn.
-Néanmoins, il est à rappeller que **plus il y a de canaux de communication et de réseaux sociaux à créer - et donc à alimenter -, plus cela prend du temps. Il vaut donc mieux se concentrer sur les plus pertinents; et Twitter (et NOSTR) semblent être de bons candidats**.
+D'autres réseaux sociaux peuvent évidemment être utilisés. C'est le cas de Facebook (avec un groupe voire une page) ou même LinkedIn.
+Néanmoins, il est à rappeller que **plus il y a de canaux de communication et de réseaux sociaux à gérer et à alimenter, plus cela prend du temps. Il vaut donc peut-être mieux se concentrer sur les plus pertinents, et Twitter (et NOSTR) semblent être de bons candidats**.
 
-Dans la suite de ce cours, nous expliquerons en détail comment créer un compte Twitter et comment l'utiliser avec pertinence pour gagner un maximum en visibilité. Des explications et tutoriels similaires concernant NOSTR seront ajoutés à cette partie [Lancer ses réseaux sociaux](LIEN), d'ici quelques semaines.
 
 ## Créer un profil Twitter
 <chapterId>c8d73097-8eba-5530-918c-221002954110</chapterId>
@@ -556,52 +556,52 @@ Dans la suite de ce cours, nous expliquerons en détail comment créer un compte
 Très simple d'utilisation, Twitter est un réseau social nécessitant la modification de certains paramètres afin de gagner en confidentialité.
 
 **Lors de la création d'un nouveau compte Twitter, quatre informations essentielles doivent être renseignées**:
-1. **le @ Twitter**, qui définira votre identité et vous permettra d'être facilement recherchable. Si votre communauté se nomme "Bitcoin [VILLE]", il est donc tout à fait pertinent de choisir "@Bitcoin[VILLE]";
-2. **le logo et la bannière** que vous aurez créés pour votre communauté ou votre meet-up (voir section [Créer un logo, une affiche et une bannière](LIEN));
-3. **la description**, qui vous permettra en une centaine de caractères de donner les informations importantes sur votre communauté. Cela peut par exemple être:
+1/ **le @ Twitter**, qui définira votre identité et vous permettra d'être facilement recherchable. Si votre communauté se nomme "Bitcoin [VILLE]", il est donc tout à fait pertinent de choisir "@Bitcoin[VILLE]";
+2/ **le logo et la bannière** que vous aurez créés pour votre communauté ou votre meet-up (voir section [Créer un logo, une affiche et une bannière](https://planb.network/fr/courses/btc302/3470a31f-0190-5e87-8af0-6a00e79267ef));
+3/ **la description**, qui vous permettra en une centaine de caractères de donner les informations importantes sur votre communauté. Cela peut par exemple être:
 > Compte officiel de la communauté Bitcoin [VILLE] #BTC | Meet-ups tous les 1ers mercredis du mois à [NOM_DU_BAR] de [VILLE] 🍻 | Nous rejoindre sur Telegram 🔽
-4. En dessous de cette description, il est également possible d'**insérer un lien**. Ce dernier peut alors amener les utilisateurs à accéder à une page "réseaux sociaux" disponible sur le site internet de votre communauté, comme il peut les amener vers votre canal de communication Telegram.
+4/ En dessous de cette description, il est possible d'**insérer un lien**. Ce dernier peut alors amener les utilisateurs à accéder à une page "réseaux sociaux" disponible sur le site internet de votre communauté, comme il peut les amener vers votre canal de communication Telegram. À vous de choisir ce que vous souhaitez mettre en valeur.
 
 ![image](assets/fr/chapter14/img24-fr.webp)
 
-De plus, **quelques paramètres de confidentialité semblent être pertinents à modifiés**; les plus pertinents étant évidemment:
-* le fait de **laisser son compte Twitter en mode "public"** (posts visibles par n'importe qui);
-* de **pouvoir être identifiable par tout le monde** (attention aux scams);
-* de **désactiver le suivi de localisation et le partage de données à d'autres entités** (question de confidentialité).
+De plus, **quelques paramètres de confidentialité sont pertinents à modifier**:
+* **laisser son compte Twitter en mode "public"** (posts visibles par n'importe qui);
+* **pouvoir être identifiable par tout le monde**;
+* **désactiver le suivi de localisation et le partage de données à d'autres entités** (dans les paramètres de confidentialité).
 #### 
-Au fil du temps, vous viendrez alors à poster sur Twitter. Ces tweets annonceront alors votre prochain événement, une information importante dans l'écosystème ou même une annonce d'une autre communauté que vous suivez.
-Or, comme l'immense majorité des réseaux sociaux, **la visibilité est le nerf de la guerre**.
+####
+À chaque événement, vous viendrez alors certainement annoncer sur Twitter les informations utiles. Or, comme l'immense majorité des réseaux sociaux, **la visibilité est le nerf de la guerre**.
 
 Afin de vous faire gagner une quantité de temps assez conséquente, nous avons pris le temps d'étudier le [code open-source de l'algorithme de classement de Twitter](https://github.com/twitter).
 Voici donc **les principaux points auxquels il faut faire attention pour que votre visibilité s'accroisse**:
 * Généralités:
-    - **tweetez dans la langue que vous avez paramétrée** sur votre compte Twitter, ou en anglais (pénalité démentielle sinon);
+    - **tweetez dans la langue que vous avez paramétrée** sur votre compte Twitter, ou en anglais (sinon, vous serez pénalisé démentiellement);
     - **ne tweetez que des informations liées au domaine d'expertise de votre compte** (pénalité forte sinon);
-    - tweetez 1 à 2 fois par jour (la régularité est importante);
+    - tweetez 1 à 2 fois par jour;
     - **tweetez sur des horaires à forte visibilité** (le plus intéressant étant le jeudi ou vendredi entre 8h et 10h; voir le "Twitter Analytics" de votre compte).
 
 * Lors de l'écriture d'un tweet:
     - **ajoutez une photo** (voire une vidéo);
     - **ajoutez un seul hashtag à votre tweet** (#Bitcoin est généralement le plus pertinent. Si cela a du sens, et à condition qu'il soit lié au domaine d'expertise de votre compte, ajoutez un hashtag en tendance);
-    - **encouragez votre communauté à liker** (poids de 0,5), **à retweeter** (poids de 1) **mais surtout à répondre** (poids de 27 !);
-    - **répondez aux personnes qui répondent à vos tweets** (poids de 75 !);
+    - **encouragez votre communauté à liker** (poids de 0,5), **à retweeter** (poids de 1) **mais surtout à répondre** (poids de 27 !!);
+    - **répondez aux personnes qui répondent à vos tweets** (poids de 75 !!);
     - **n'ajoutez pas de lien dans votre tweet initial** (cela peut se faire dans le premier commentaire par exemple);
     - écrivez les mots en entier, sans utiliser d'abréviations.
 
 * D'autres points à noter:
     - tweetez en fonction des tendances, à condition qu'elles soient dans le domaine d'expertise de votre compte;
-    - **repostez / retweetez les tweets les plus vus**;
+    - **repostez / retweetez vos tweets les plus vus**;
     - **réalisez de temps en temps des sondages**;
     - **écrivez si possible des threads**;
-    - encouragez votre communauté à aller voir et à suivre votre profil.
+    - encouragez votre communauté à aller voir puis à suivre votre profil.
 ####
-De plus, **il est possible d'épingler sur votre profil Twitter un tweet auquel vous souhaiteriez donner une visibilité importante**.
+De plus, **il est possible d'épingler sur votre profil Twitter un tweet ou thread auquel vous souhaiteriez donner une visibilité importante**, à l'image de la communauté Bitcoin Witsand en Afrique du Sud.
 
 ![image](assets/fr/chapter14/img25-en.webp)
 
-Notez également qu'il est possible, sur téléphone comme ordinateur, d'être connecté simultanément à deux comptes Twitter en même temps. Cela peut être très pratique pour ne pas avoir à se connecter / déconnecter entre son compte personnel et son compte communautaire; tout comme cela peut vous jouez des tours si vous postez involontairement avec le compte de votre communauté une photo de vous déguisé... Prudence, donc !
+Notez également qu'il est possible, sur téléphone comme ordinateur, d'être connecté à deux comptes Twitter en même temps. Cela peut être très pratique pour ne pas avoir à se connecter / déconnecter entre son compte personnel et son compte communautaire; tout comme cela peut vous jouez des tours si vous postez involontairement avec le compte de votre communauté une photo de vous en soirée... Prudence, donc !
 ####
-Enfin, bien que votre nom d'utilisateur "@Bitcoin[VILLE]" est unique et vous appartient désormais, il peut être pertinent de créer en amont les comptes "@Bitcoin_[VILLE]", "@[VILLE]Bitcoin" ou "@[VILLE]_Bitcoin" afin d'**être certain que personne ne cherchera à dupliquer votre identité**. Mieux vaut en effet anticiper !
+Enfin, bien que votre nom d'utilisateur "@Bitcoin[VILLE]" est unique et vous appartient désormais, il peut être pertinent d'anticiper de potentiels faux comptes et donc de créer en amont les comptes "@Bitcoin_[VILLE]", "@[VILLE]Bitcoin" ou "@[VILLE]_Bitcoin". Vous serez alors **presque certain que personne ne cherchera à dupliquer l'identité du compte de votre communauté**.
 ####
 Tutoriel pour créer un compte Twitter:
 ![Tutoriel compte Twitter](https://www.youtube.com/watch?v=pp3DDakV0bA)
@@ -609,21 +609,21 @@ Tutoriel pour créer un compte Twitter:
 ## Se rapprocher des meet-ups limitrophes
 <chapterId>12a21c3b-235a-5292-8209-67bf60f61e49</chapterId>
 
-Maintenant que vos canaux de communication et réseaux sociaux ont été créés, paramétrés et saupoudrés de l'empreinte visuelle de votre ville / communauté / meet-up, il est désormais venu le moment de suivre les "bonnes personnes" sur ces derniers.
+Maintenant que vos canaux de communication et réseaux sociaux ont été créés, paramétrés et saupoudrés de l'empreinte visuelle de votre ville / communauté / meet-up, il est désormais venu le moment de suivre les "bonnes personnes".
 
-Sur Twitter, cela peut commencer par **suivre certains comptes oeuvrant au développement de Bitcoin au niveau international**, comme @Bitcoin, @bitcoincoreorg, @planb_network, @FBCEglobal, par retweeter le fameux "Running bitcoin" du 11 janvier 2009 de @halfin; mais aussi - et surtout - par **suivre les comptes des communautés et meet-ups Bitcoin de son pays**.
+Sur Twitter, cela peut commencer par **suivre certains comptes oeuvrant au développement de Bitcoin au niveau international**, comme [@Bitcoin](https://twitter.com/Bitcoin) et [@planb_network](https://twitter.com/planb_network); d'initiatives, comme [@FBCEglobal](https://twitter.com/FBCEglobal); par retweeter le fameux "Running bitcoin" du 11 janvier 2009 de [@halfin](https://twitter.com/halfin); mais aussi - et surtout - par **suivre les comptes des communautés et meet-ups Bitcoin de son pays**.
 En effet, **cela permettra mutuellement de se suivre, de se taguer et donc de collectivement gagner en visibilité**.
 C'est d'ailleurs le cas entre la cinquantaine de communautés Bitcoin françaises; et il en est de même avec la majorité des initiatives "Satoshi Spritz" en Italie et "Einundzwanzig" en Allemagne.
 
 Bien que cela puisse paraître inutile aux yeux de certain(e)s, **suivre les comptes des communautés et initiatives locales / de son pays peut amener indirectement à la réalisation de projets communs**, voire de "partenariats". C'est ainsi que les communautés Bitcoin Liège et Bitcoin Lille sont venues à prendre contact (c'est le cas aussi de Bitcoin Aix et Bitcoin Marseille); les amenant désormais à effectuer au moins une fois par an un meet-up commun.
-Le cas des repas du **Cercle du Coin** en est un autre exemple.
+Le cas des repas du **Cercle du Coin** est un autre exemple.
 
 ![image](assets/fr/chapter15/img26bis.webp)
 
-De plus, en France, il peut également être pertinent de **suivre les initiatives @KonsensusFR, @bitcoinpointfr, @DecouvreBitcoin et @btcmap**. Ce ne sont évidemment que des propositions, et chaque communauté est bien évidemment libre de faire ce qu'il lui plaît, en toute décentralisation et en toute autonomie.
-L'intérêt de se suivre mutuellement est toutefois assez simple: s'apporter mutuellement de la visibilité. En effet, plus vous serez présents sur les réseaux, plus l'on parlera de vous; et plus l'on parlera de vous, plus il y aura de personnes susceptibles de venir à vos événements. Liker / retweeter sur les réseaux sociaux les posts des autres communautés peut également être intéressant.
+De plus, en France, il peut également être pertinent de **suivre les initiatives [@KonsensusFR](https://twitter.com/KonsensusFR), [@bitcoinpointfr](https://twitter.com/bitcoinpointfr), [@DecouvreBitcoin](https://twitter.com/DecouvreBitcoin) et [@btcmap](https://twitter.com/btcmap)**. Ce ne sont évidemment que des propositions, et chaque communauté est évidemment libre de faire ce qu'il lui plaît, en toute décentralisation et en toute autonomie.
+Néanmoins, comme dit précédemment, l'intérêt de se suivre mutuellement est toutefois assez simple: s'apporter mutuellement de la visibilité. En effet, plus vous serez présents sur les réseaux, plus l'on parlera de vous; et plus l'on parlera de vous, plus il y aura de personnes susceptibles de venir à vos événements. Liker et retweeter sur les réseaux sociaux les posts des autres communautés peut également être pertinent.
 ####
-En parallèle, il est également possible de **proposer aux organisateurs de meet-ups et personnes ayant créé une communauté de se retrouver sur un créneau prédéfini, et cela lors des événements physiques**. Cela peut alors permettre de faire un point sur le ressenti de chacun, de discuter de l'évolution des communautés présentes, de partager des idées de projets qui ont aboutis; mais également, de se proposer mutuellement des solutions lorsque cela est nécessaire. Un retour écrit peut alors être, si souhaité, partagé après cette "réunion" aux organisateurs(rices) des communautés de votre pays qui n'étaient pas présent(e)s.
+En parallèle, il est évidemment possible de **proposer aux organisateurs de meet-ups et aux bitcoiners ayant créé une communauté de se réunir à deux ou trois reprises dans l'année en visio afin de faire un point sur l'évolution de leurs projets et de leur communauté. Cela peut d'ailleurs se faire lors des événements physiques**; et l'objectif est simple: faire un point sur le ressenti de chacun, sur l'évolution des communautés présentes, mais aussi de partager des idées de projets qui ont aboutis, de se proposer mutuellement des solutions lorsque cela est nécessaire, etc. Un bilan écrit de cette réunion peut alors être partagé après cette "réunion" aux organisateurs(rices) des communautés de votre pays qui n'étaient pas présent(e)s.
 
 ## [Btcmap.org](https://btcmap.org/)
 <chapterId>365f43d4-7b2c-5961-a184-157b8c1a0116</chapterId>

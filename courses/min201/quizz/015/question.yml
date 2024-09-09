@@ -3,5 +3,60 @@ difficulty: easy
 duration: 15
 author: DecouvreBitcoin
 tags:
-- Bitcoin mining
-- Lottery principle
+  - Bitcoin mining
+  - Lottery principle
+
+# Proofreading metadata
+original_language: en
+proofreading:
+  - language: cs
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2788
+  - language: de
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2644
+  - language: en
+    last_contribution_date: 2024-09-01
+    urgency: 1
+    contributors_id:
+      - Asi0Flammeus
+    reward: 1322
+  - language: es
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2716
+  - language: fi
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2788
+  - language: fr
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2644
+  - language: it
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2716
+  - language: ja
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2932
+  - language: pt
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2644
+  - language: vi
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2932

@@ -364,21 +364,26 @@ https://planb.network/tutorials/others/security-key
 ## Salasananhallintaohjelman luominen
 <chapterId>ed579680-4e7b-5f65-8541-14e519a3b242</chapterId>
 https://planb.network/tutorials/others/bitwarden
+https://planb.network/tutorials/others/keepass
 ![video](https://youtu.be/y7Xkv4E5YmU)
 
 ## Tilien turvaaminen
 <chapterId>7a774b34-aed0-57dd-b8f7-cf3be51c0d70</chapterId>
 https://planb.network/tutorials/others/bitwarden
+https://planb.network/tutorials/others/keepass
 ![video](https://youtu.be/0JHZRALmGY0)
 
 ## Varmuuskopiointiasetukset
 <chapterId>01cfcde1-77cb-506c-8df1-fa18a2e8cc6b</chapterId>
 https://planb.network/tutorials/others/proton-drive
+https://planb.network/tutorials/others/veracrypt
 ![video](https://youtu.be/wTJnlSUkDRI)
 
 ## Selaimen vaihto & VPN
 <chapterId>8dc08feb-313c-5259-a54f-64aa68a07608</chapterId>
-
+https://planb.network/tutorials/others/ivpn
+https://planb.network/tutorials/others/mullvad
+https://planb.network/tutorials/others/tor-browser
 ![video](https://youtu.be/vc6-Ouca09g)
 
 # Syvennä osaamistasi
@@ -447,6 +452,12 @@ Tietokoneturvallisuus voi vaarantua yksinkertaisilla käytännöillä ja oletuss
 On myös huomattava, että Internet on erittäin keskitetty ja suurelta osin amerikkalaisessa hallinnassa. DNS-palvelin voi olla sensuurin kohteena ja usein käyttää harhaanjohtavaa DNS:ää estääkseen pääsyn tietyille sivustoille. DNS on vanha ja riittämättömän turvallinen protokolla, mikä voi johtaa turvallisuusongelmiin. Uusia protokollia, kuten DNSsec, on kehitetty, mutta niitä ei vielä laajasti käytetä. Sensuurin ja mainosten eston kiertämiseksi on mahdollista valita vaihtoehtoisia DNS-palveluntarjoajia. Tunkeilevien mainosten vaihtoehtoja ovat Google DNS, OpenDNS ja muut riippumattomat palvelut. Standardi DNS-protokolla jättää DNS-kyselyt näkyviin internet-palveluntarjoajalle. DOH (DNS over HTTPS) ja DOT (DNS over TLS) salaavat DNS-yhteyden, tarjoten suurempaa yksityisyyttä ja turvallisuutta. Nämä protokollat ovat laajalti käytössä yrityksissä niiden parannetun turvallisuuden vuoksi ja niitä tuetaan natiivisti Windowsissa, Androidissa ja iPhonessa. DOH:n ja DOT:n käyttämiseksi TLS-isäntänimi on syötettävä IP-osoitteen sijaan. Ilmaisia DOH- ja DOT-palveluntarjoajia on saatavilla verkossa. DOH ja DOT parantavat yksityisyyttä ja turvallisuutta välttämällä "man in the middle" -hyökkäykset. Muita keskeisiä huomioita
 
 Osana "Security 101" -koulutusmoduulia Découvre Bitcoin Academyssa keskustelimme myös Lightning-autentikoinnista. Tämä järjestelmä luo erilaisen tunnisteen kullekin palvelulle, ilman että tarvitsee antaa sähköpostiosoitetta tai henkilökohtaisia tietoja. On mahdollista omistaa käyttäjän hallitsemia hajautettuja identiteettejä, mutta hajautettujen identiteettiprojektien standardoinnissa ja normalisoinnissa on puutteita. Paketinhallintajärjestelmiä, kuten Nuget ja Chocolaté, jotka mahdollistavat avoimen lähdekoodin ohjelmiston lataamisen Microsoft Storen ulkopuolelta, suositellaan välttämään haitallisia hyökkäyksiä. Yhteenvetona DNS on ratkaisevan tärkeä online-turvallisuudelle, mutta on välttämätöntä pysyä valppaana mahdollisten hyökkäysten varalta DNS-palvelimia vastaan.
+
+
+
+## Anna meille palautetta tästä kurssista
+<chapterId>6be74d2d-2116-5386-9d92-c4c3e2103c68</chapterId>
+<isCourseReview>true</isCourseReview>
 
 ## Kiitokset ja jatka kaninkolon tutkimista
 <chapterId>df3a962a-a96e-5006-b904-0dd9d4a072dd</chapterId>

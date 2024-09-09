@@ -363,21 +363,26 @@ https://planb.network/tutorials/others/security-key
 ## Vytvoření správce hesel
 <chapterId>ed579680-4e7b-5f65-8541-14e519a3b242</chapterId>
 https://planb.network/tutorials/others/bitwarden
+https://planb.network/tutorials/others/keepass
 ![video](https://youtu.be/y7Xkv4E5YmU)
 
 ## Zabezpečení vašich účtů
 <chapterId>7a774b34-aed0-57dd-b8f7-cf3be51c0d70</chapterId>
 https://planb.network/tutorials/others/bitwarden
+https://planb.network/tutorials/others/keepass
 ![video](https://youtu.be/0JHZRALmGY0)
 
 ## Nastavení zálohování
 <chapterId>01cfcde1-77cb-506c-8df1-fa18a2e8cc6b</chapterId>
 https://planb.network/tutorials/others/proton-drive
+https://planb.network/tutorials/others/veracrypt
 ![video](https://youtu.be/wTJnlSUkDRI)
 
 ## Změna prohlížeče & VPN
 <chapterId>8dc08feb-313c-5259-a54f-64aa68a07608</chapterId>
-
+https://planb.network/tutorials/others/ivpn
+https://planb.network/tutorials/others/mullvad
+https://planb.network/tutorials/others/tor-browser
 ![video](https://youtu.be/vc6-Ouca09g)
 
 # Jít dále
@@ -447,6 +452,12 @@ Je třeba poznamenat, že internet je silně centralizovaný a většinou pod am
 Alternativy k rušivým reklamám zahrnují Google DNS, OpenDNS a další nezávislé služby. Standardní DNS protokol nechává DNS dotazy viditelné pro poskytovatele internetových služeb. DOH (DNS přes HTTPS) a DOT (DNS přes TLS) šifrují DNS spojení, čímž poskytují větší soukromí a bezpečnost. Tyto protokoly jsou široce používány v podnicích díky jejich zvýšené bezpečnosti a jsou nativně podporovány Windows, Androidem a iPhonem. Pro použití DOH a DOT je nutné místo IP adresy zadat TLS hostname. Online jsou dostupní bezplatní poskytovatelé DOH a DOT. DOH a DOT zlepšují soukromí a bezpečnost tím, že se vyhnou útokům "man in the middle". Další klíčové úvahy
 
 Jako součást výukového modulu "Security 101" na Découvre Bitcoin Academy jsme také diskutovali o autentizaci Lightning. Tento systém generuje pro každou službu odlišný identifikátor, aniž by bylo nutné poskytovat e-mailovou adresu nebo osobní informace. Je možné mít uživatelem kontrolované decentralizované identity, ale chybí standardizace a normalizace v projektech decentralizované identity. Doporučují se správci balíčků, jako jsou Nuget a Chocolaté, které umožňují stahování open-source softwaru mimo Microsoft Store, aby se předešlo škodlivým útokům. Shrnutí, DNS je pro online bezpečnost zásadní, ale je nutné zůstat ostražitý vůči možným útokům na DNS servery.
+
+
+
+## Dejte nám zpětnou vazbu k tomuto kurzu
+<chapterId>6be74d2d-2116-5386-9d92-c4c3e2103c68</chapterId>
+<isCourseReview>true</isCourseReview>
 
 ## Poděkování a pokračujte ve zkoumání králičí nory
 <chapterId>df3a962a-a96e-5006-b904-0dd9d4a072dd</chapterId>

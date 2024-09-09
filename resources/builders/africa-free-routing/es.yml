@@ -5,7 +5,7 @@ description: |
    Bitcoin, que es la mejor forma de dinero! Hay tanto por amar, y estamos emocionados de ayudar
    a los africanos a comenzar con esta tecnología transformadora.
 
-   Nuestros servicios incluyen:
+   Nuestros servicios incluy- language: en
 
    - Configuración Completa de Nodo Lightning
    - Configuración de Infraestructura Lightning
@@ -21,5 +21,5 @@ description: |
     como organizar bootcamps de Lightning para la próxima generación de desarrolladores de Lightning, organizar
     seminarios web sobre cómo operar nodos lightning, etc., subrayan nuestro compromiso con esta tecnología transformadora. Únete a nosotros para revolucionar los pagos en el continente.
     
-colaboradores:
+colaborador- language: es
   - rabbit-hole

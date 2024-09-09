@@ -1,0 +1,22 @@
+- start_date: 2024-11-19
+  end_date: 2024-11-23
+  address_line_1: Roatán, Honduras
+  address_line_2: 
+  address_line_3: 
+  name: Bitcoin Roatan Retreat
+  builder: Amity Age
+  type: conference
+  book_online: false
+  book_in_person: false
+  price_dollars: 0
+  description: Come to relax and chill with fellow Bitcoiners and explore the most friendly Bitcoin jurisdiction in the world (Próspera) while supporting more than 50 businesses accepting bitcoin across the island. All during unforgettable 5 days on a beautiful Caribbean island - Roatán
+  language: 
+    - en
+  links:
+    website: https://www.amityage.com/brr
+    replay_url:
+    live_url :
+  tags: 
+    - International
+    - Bitcoiner
+    - Education

@@ -885,6 +885,12 @@ Následkem bankovní paniky z roku 1796 nastal jev, kdy každý se snažil posun
 
 Centrální banky se vyvinuly v poskytovatele poslední instance, pozastavující přeměnitelnost své měny na zlato. Ačkoli bylo toto opatření původně zamýšleno jako dočasné řešení, nakonec se stalo trvalým, což znamenalo příchod konceptu poskytovatele poslední instance. Tato transformace formovala centrální banky, jak je známe dnes. Avšak ve zranitelnějších ekonomikách může tato schopnost libovolně tisknout peníze vést k nežádoucím důsledkům, jako je hyperinflace, pokud je používána nezodpovědně.
 
+
+
+## Dejte nám zpětnou vazbu k tomuto kurzu
+<chapterId>1a37317e-372a-5241-b478-8316d44f9283</chapterId>
+<isCourseReview>true</isCourseReview>
+
 ## Knihy a zdroje
 <chapterId>c44e4519-0741-527b-b3b0-3f513e87147d</chapterId>
 
@@ -903,5 +909,4 @@ Hyperinflace je fascinující téma, které bylo studováno prostřednictvím r�
 - "Umírání peněz: Poučení z velkých německých a amerických inflací" od Jense O. Parssona. Komparativní analýza inflačních krizí v Německu a ve Spojených státech.
 
 - "Pád peněz: Hyperinflace v Německu a zničení střední třídy" od Fredericka Taylora. Vyprávění o sociálním a ekonomickém dopadu hyperinflace na německou společnost.
-
 - "Měnové rady pro rozvojové země: Příručka" od Steve Hanke a Kurta Schuler. Ačkoliv je zaměření na měnové rady, tato kniha nabízí perspektivu, jak se vyhnout situacím hyperinflace.

@@ -1,0 +1,9 @@
+question: Quel membre du forum a rendu public son algorithme de minage suite à un généreux don de Jeff Garzik le 18 septembre 2010 ?
+answer: puddinpop
+wrong_answers:
+  - nelisky
+  - m0mchil
+  - tcatm
+explanation: |
+  Il profitait jusqu'ici d'une commission sur l'usage de son logiciel. Il l'a [publié](https://bitcointalk.org/index.php?topic=133.msg13135#msg13135) sous licence libre.
+reviewed: false

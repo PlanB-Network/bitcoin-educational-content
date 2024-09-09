@@ -110,6 +110,12 @@ Onnea opintoihisi, ja jos tarvitset yhteydenottoa tiimiimme tai opettajiin, käy
 # Yhteenveto
 <partId>b0baebfc-d146-5938-849a-f835fafb386f</partId>
 
+
+
+## Anna meille palautetta tästä kurssista
+<chapterId>0217e8b0-942a-5fee-bd91-9a866551eff3</chapterId>
+<isCourseReview>true</isCourseReview>
+
 ## Loppusanat
 <chapterId>0309536d-c336-56a0-869e-a8395ed8d9ae</chapterId>
 
@@ -119,5 +125,4 @@ Kiitos osallistumisestasi PlanB Networkin yhteistyössä Fulgur'Venturesin kanss
 - https://www.rgbfaq.com/
 - https://rgb.tech/docs/
 - https://www.youtube.com/LNP-BP- https://twitter.com/lnp_bp
-
 Kiitos ja onnea opintoihisi PlanB Networkissa.

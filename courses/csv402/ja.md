@@ -107,6 +107,12 @@ Bitcoinの最も先進的なトピックの1つであるこのコースを楽し
 # 結論
 <partId>b0baebfc-d146-5938-849a-f835fafb386f</partId>
 
+
+
+## このコースについてのフィードバックをお寄せください
+<chapterId>0217e8b0-942a-5fee-bd91-9a866551eff3</chapterId>
+<isCourseReview>true</isCourseReview>
+
 ## 締めの言葉
 <chapterId>0309536d-c336-56a0-869e-a8395ed8d9ae</chapterId>
 
@@ -117,5 +123,4 @@ PlanB NetworkとFulgur'Venturesの共同で提供されるRGBコースに参加�
 - https://rgb.tech/docs/
 - https://www.youtube.com/LNP-BP
 - https://twitter.com/lnp_bp
-
 ご参加いただきありがとうございました。PlanB Networkでの学習を引き続き頑張ってください。

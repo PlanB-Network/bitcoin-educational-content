@@ -701,6 +701,12 @@ Dnes existuje nový pokrok v softwaru a firmwaru pro těžbu nazvaný autotuning
 Toto stanovuje horní limit pro hash rate, kterého může stroj dosáhnout. Autotuning je proces, při kterém algoritmy vyhodnocují optimální frekvence pro hashování jednotlivých čipů, místo aby byl celý stroj považován za jednotnou jednotku. To znamená, že čip vyšší kvality, který dokáže provést více hashů za sekundu, dostane vyšší frekvenci, a čip nižší kvality, který dokáže provést relativně méně hashů, dostane nižší frekvenci. Autotuning na úrovni čipů je v podstatě způsob, jak optimalizovat výkon ASIC prostřednictvím softwaru a firmware, který na něm běží.
 Výsledkem je vyšší hash rate na watt elektrické energie, což znamená větší ziskové marže pro těžaře. Důvodem, proč stroje nejsou distribuovány s tímto typem softwaru, je to, že variabilita strojů je nežádoucí, protože zákazníci chtějí přesně vědět, co kupují, takže je špatný nápad, aby výrobci prodávali produkt, který nemá konzistentní a předvídatelný výkon z jednoho stroje na druhý. Kromě toho vyžaduje autotuning na úrovni čipů značné vývojové zdroje, jelikož je složité jej implementovat. Výrobci již vynakládají mnoho zdrojů na vývoj vlastních firmware. Existují softwarová řešení, která umožňují autotuning, jako například Braiins OS+. Kromě toho zlepšují výkon ASIC až o 20 %.
 
+
+
+## Dejte nám zpětnou vazbu k tomuto kurzu
+<chapterId>6af13742-df68-5cf4-b7aa-93dc0c2eaae9</chapterId>
+<isCourseReview>true</isCourseReview>
+
 ## Ovládání Antmineru S9 z vašeho smartphonu
 <chapterId>6e7c234a-a445-5070-b087-531d16c42107</chapterId>
 

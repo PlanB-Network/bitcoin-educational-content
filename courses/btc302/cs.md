@@ -689,7 +689,7 @@ V každém případě, vše bude záviset na krátkodobém, střednědobém a dl
 <chapterId>405d389e-6a32-5777-af8d-293380d2e8fd</chapterId>
 
 Hledání místa pro organizování vašich akcí není nutně jednoduché. Zdá se však nezbytné, **aby toto místo bylo umístěno ve městě vaší komunity**.
-Zároveň je třeba zvážit mnoho kritérií. Mezi nimi:
+Zároveň je třeba zvážit mnoho kritérií. Mezi name:
 1) poloha místa: je snadno **dostupné veřejnou dopravou? Autem?** Lze tam bez obtíží parkovat?
 2) je místo **příjemné a ne příliš hlučné?** Hledáte formální místo (coworkingové centrum, zasedací místnost) nebo neformální (bar, nebo dokonce restaurace)? 3) má místo **dostatečnou kapacitu pro vaše potřeby?** A to i v případě večera, kdy se hraje rugby nebo Liga mistrů? 4) má místo **videoprojektor a klidné místo pro vaše prezentace?** 5) nakonec, v případě baru (nebo dokonce restaurace), **umožňuje jídelní lístek, aby si každý mohl objednat jídlo a pití?** K těmto bodům lze přidat tři důležité poznámky: - v případě, že byste večer chtěli **rozdělit na dvě části** (nejprve **prezentace ve formálním prostoru**, aby se každý mohl lépe soustředit; poté **změna místa k pokračování večera v uvolněnější atmosféře v baru** nebo restauraci), je důležité si uvědomit, že tato změna místa uprostřed večera povede k tomu, že **někteří účastníci toho využijí jako příležitost k odchodu. Proto tento typ uspořádání není doporučen**; - během vašich prvních setkání se pravděpodobně objeví málo lidí, a tak pravděpodobně neprovedete prezentaci. V tomto smyslu se nezdá nutné seznámit se s majitelem a prezentovat vaše cíle atd. Nicméně, **jakmile se vaše setkání stanou pravidelnými a dobře navštěvovanými, zdá se relevantní představit se, ukázat váš vážný zájem a vaše přání pravidelně přicházet**. To může vést k mnoha diskusím (automatické měsíční rezervace, zdarma nápoje a/nebo talíře, slevy, diskuse o Bitcoinu, přijímání Bitcoinu jako platební metody atd.) Samozřejmě, v případě, že konkrétně hledáte místo s videoprojektorem pro prezentace, zdá se nezbytné požádat o schůzku (osobně, nebo dokonce telefonicky) s majitelem a/nebo manažerem předem, abyste prezentovali váš projekt a vaše cíle;
 
@@ -1303,6 +1303,12 @@ K tomu využijeme zkušenosti několika francouzských komunit, které již své
 ####
 Samozřejmě **v jiných zemích se legislativa a fungování asociací liší**. Mnoho bodů však bude velmi užitečných pro založení asociace nebo organizaci velké akce; a **doufáme, že další bitcoinisté doplní toto školení o informace specifické pro jejich zemi**.
 
+
+
+## Dejte nám zpětnou vazbu k tomuto kurzu
+<chapterId>08a35d2a-204b-519a-9bb1-588665a037fa</chapterId>
+<isCourseReview>true</isCourseReview>
+
 ## Pečujte o sebe
 <chapterId>cf1631cb-ddbe-55c7-be8c-26a5652979a0</chapterId>
 
@@ -1320,5 +1326,4 @@ Naopak, **požádejte o pomoc bitcoinisty, kteří již touto stejnou galerií p
 
 ![image](assets/fr/chapter39/63.webp)
 Samostatně může člověk rychle prozkoumat jednu z mnoha galerií bitcoinové nory, až dosáhne jejího konce. Ale pak je tu cesta zpět. A poté všechny ostatní směry k prozkoumání. **Když však vytvoříte a/nebo se připojíte ke komunitě bitcoinistů, sdílíte a pravidelně si s nimi vyměňujete informace, prozkoumáte všechny směry bitcoinové nory současně**.
-
 Je to v té chvíli, kdy mnohem rychleji, než byste to udělali sami, můžete říci: "Bitcoinu jsem porozuměl".

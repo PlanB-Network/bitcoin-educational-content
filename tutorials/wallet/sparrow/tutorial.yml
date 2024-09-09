@@ -1,3 +1,4 @@
+id: 7e9a77c0-013d-4f8e-a811-408b71dc7607
 builder: Sparrow
 
 level: advanced
@@ -8,3 +9,78 @@ tags:
   - self-custodial
   - open-source
   - privacy
+
+# Proofreading metadata
+original_language: en
+proofreading:
+  - language: cs
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 6166
+  - language: de
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 4333
+  - language: en
+    last_contribution_date: 2024-09-01
+    urgency: 1
+    contributors_id:
+      - Asi0Flammeus
+    reward: 2166
+  - language: es
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 5249
+  - language: fi
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 6166
+  - language: fr
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 4333
+  - language: it
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 5249
+  - language: ja
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 7999
+  - language: pt
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 4333
+  - language: ru
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 6166
+  - language: vi
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 7999
+  - language: et
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 6166
+  - language: id
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 7082
+  - language: zh-Hans
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 7082

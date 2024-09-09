@@ -1551,7 +1551,7 @@ LND-lokien tarkastelu Dockeria käyttäen onnistuu muutamalla tavalla. Kirjaudu 
 sudo su -
 Siirry oikeaan hakemistoon:
 cd btcpayserver-docker
-# Etsi kontin nimi:
+# Etsi kontin name:
 docker ps
 Tulosta lokit kontin nimellä:
 docker logs --tail 100 btcpayserver_lnd_bitcoin
@@ -2416,6 +2416,12 @@ Miten asennus Umbrelissa eroaa kahdesta aiemmasta isännöidystä vaihtoehdosta?
 # Yhteenveto
 
 <partId>d72e6fa5-0870-5f00-9143-9466ed22e2bd</partId>
+
+
+
+## Anna meille palautetta tästä kurssista
+<chapterId>d90bb93d-b894-551e-9fd6-6855c739a904</chapterId>
+<isCourseReview>true</isCourseReview>
 
 ## Kurssin Yhteenveto
 

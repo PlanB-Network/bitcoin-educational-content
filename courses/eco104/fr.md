@@ -1563,6 +1563,12 @@ Maintenant que vous avez suivi le Module "Surmonter les Doutes", vous devrez tes
 # Remarques de Clôture
 <partId>204d7367-ae08-5348-98c8-8b74c6c1b261</partId>
 
+
+
+## Donnez-nous votre avis sur ce cours
+<chapterId>86e358bb-88f4-5d20-af53-93f0f3524590</chapterId>
+<isCourseReview>true</isCourseReview>
+
 ## Remarques de Clôture
 <chapterId>2b27b4dd-10e1-56a7-978e-1e5085f9aaff</chapterId>
 
@@ -1584,5 +1590,4 @@ Tout au long de notre voyage ensemble, notre objectif a été double : vous four
 En concluant ce cours, nous espérons que vous appliquerez les connaissances acquises ici à vos poursuites personnelles ou professionnelles. Que vous vous trouviez à naviguer des défis financiers, poussé par la curiosité, aspirant à investir, ou cherchant à exploiter ces technologies pour des entreprises, nous espérons que les précieuses informations tirées de ce cours deviendront inestimables dans votre parcours.
 
 Puisse cette nouvelle compréhension vous permettre de naviguer dans le monde évolutif de la finance avec confiance et objectif. Bonne chance sur votre chemin de croissance et de découverte !
-
 L'avenir est radieux !

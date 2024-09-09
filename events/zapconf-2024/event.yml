@@ -1,0 +1,24 @@
+- start_date: 2024-09-22
+  end_date: 2024-09-22
+  address_line_1: Virtual World
+  address_line_2:  
+  address_line_3: 
+  name: ZapConf 2024
+  builder: ZEBEDEE
+  type: conference
+  book_online: false
+  book_in_person: false
+  price_dollars: 0
+  description:  A virtual world conference without compromise on experienced focused on Lightning and Nostr.
+  language: 
+    - en
+  links:
+    website: https://www.zapconf.xyz/
+    replay_url:
+    live_url :
+  tags: 
+    - bitcoiner
+    - general
+
+
+

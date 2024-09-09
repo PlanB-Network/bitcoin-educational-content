@@ -393,7 +393,7 @@ https://planb.network/tutorials/others/security-key
 <chapterId>ed579680-4e7b-5f65-8541-14e519a3b242</chapterId>
 
 https://planb.network/tutorials/others/bitwarden
-
+https://planb.network/tutorials/others/keepass
 ![video](https://youtu.be/y7Xkv4E5YmU)
 
 ## Bảo vệ tài khoản của bạn
@@ -401,7 +401,7 @@ https://planb.network/tutorials/others/bitwarden
 <chapterId>7a774b34-aed0-57dd-b8f7-cf3be51c0d70</chapterId>
 
 https://planb.network/tutorials/others/bitwarden
-
+https://planb.network/tutorials/others/keepass
 ![video](https://youtu.be/0JHZRALmGY0)
 
 ## Thiết lập sao lưu
@@ -409,13 +409,16 @@ https://planb.network/tutorials/others/bitwarden
 <chapterId>01cfcde1-77cb-506c-8df1-fa18a2e8cc6b</chapterId>
 
 https://planb.network/tutorials/others/proton-drive
+https://planb.network/tutorials/others/veracrypt
 
 ![video](https://youtu.be/wTJnlSUkDRI)
 
 ## Thay đổi trình duyệt & VPN
 
 <chapterId>8dc08feb-313c-5259-a54f-64aa68a07608</chapterId>
-
+https://planb.network/tutorials/others/ivpn
+https://planb.network/tutorials/others/mullvad
+https://planb.network/tutorials/others/tor-browser
 ![video](https://youtu.be/vc6-Ouca09g)
 
 # Đi sâu hơn
@@ -489,6 +492,12 @@ Cũng cần lưu ý rằng Internet có tính tập trung cao và phần lớn n
 Các phương án thay thế để chống lại quảng cáo xâm nhập bao gồm Google DNS, OpenDNS và các dịch vụ độc lập khác. Giao thức DNS tiêu chuẩn để lộ truy vấn DNS cho nhà cung cấp dịch vụ internet. DOH (DNS qua HTTPS) và DOT (DNS qua TLS) mã hóa kết nối DNS, cung cấp sự riêng tư và bảo mật cao hơn. Các giao thức này được sử dụng rộng rãi trong doanh nghiệp do bảo mật tăng cường và được tự động hỗ trợ bởi Windows, Android và iPhone. Để sử dụng DOH và DOT, cần nhập tên máy chủ TLS thay vì địa chỉ IP. Các nhà cung cấp DOH và DOT miễn phí có sẵn trực tuyến. DOH và DOT cải thiện sự riêng tư và bảo mật bằng cách tránh các cuộc tấn công "người đứng giữa".
 
 Là một phần của mô-đun đào tạo "Bảo mật 101" tại Découvre Bitcoin Academy, chúng ta cũng đã thảo luận về xác thực Lightning. Hệ thống này tạo ra một định danh khác nhau cho mỗi dịch vụ, mà không cần cung cấp địa chỉ email hay thông tin cá nhân. Có thể có các danh tính phi tập trung do người dùng kiểm soát, nhưng đang thiếu sự tiêu chuẩn hóa trong các dự án danh tính phi tập trung. Các trình quản lý gói như Nuget và Chocolaté, cho phép tải xuống phần mềm mã nguồn mở ngoài Microsoft Store, được khuyến nghị dùng để tránh các cuộc tấn công độc hại. Tóm lại, DNS rất quan trọng cho bảo mật trực tuyến, nhưng cần phải luôn cảnh giác trước các cuộc tấn công tiềm năng vào máy chủ DNS.
+
+
+
+## Cho chúng tôi biết phản hồi của bạn về khóa học này
+<chapterId>6be74d2d-2116-5386-9d92-c4c3e2103c68</chapterId>
+<isCourseReview>true</isCourseReview>
 
 ## Lời cảm ơn và tiếp tục khám phá
 

@@ -3,6 +3,61 @@ difficulty: hard
 duration: 45
 author: DecouvreBitcoin
 tags:
-- Bitcoin
-- Miners
-- Proof of Work
+  - Bitcoin
+  - Miners
+  - Proof of Work
+
+# Proofreading metadata
+original_language: en
+proofreading:
+  - language: cs
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2618
+  - language: de
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2559
+  - language: en
+    last_contribution_date: 2024-09-01
+    urgency: 1
+    contributors_id:
+      - Asi0Flammeus
+    reward: 1279
+  - language: es
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2588
+  - language: fi
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2618
+  - language: fr
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2559
+  - language: it
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2588
+  - language: ja
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2677
+  - language: pt
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2559
+  - language: vi
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2677

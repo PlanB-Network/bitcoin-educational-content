@@ -501,6 +501,12 @@ Metodologia on olennainen osa taloustieteessä ja yhteiskuntatieteissä yleensä
 
 # Johtopäätös
 <partId>ae828713-d133-559f-93c2-101cb5245fca</partId>
+
+
+## Anna meille palautetta tästä kurssista
+<chapterId>29d4323c-e34e-5834-bf03-2f3ed10d751b</chapterId>
+<isCourseReview>true</isCourseReview>
+
 ## Jatkotutkimukset
 <chapterId>64faaed4-84b9-5b8c-9736-a959e8e6cd9d</chapterId>
 
@@ -536,5 +542,4 @@ Jos haluat syventyä edelleen Itävallan taloustieteen aiheeseen, suosittelen us
 - [Onko Bitcoin oikeistolainen, vasemmistolainen vai anarkistinen?](https://youtu.be/4fXGxzLtIIw)
 - [Pelastaaksesi planeetan, hylkää dollari ja euro](https://youtu.be/iHagDlH4bf8)
 - [Miksi korkojen nousu on mahdotonta?](https://youtu.be/iHagDlH4bf8)
-
 Muussa tapauksessa, jatka oppimistasi muiden koulutusten ja opastusten parissa yliopistolta!

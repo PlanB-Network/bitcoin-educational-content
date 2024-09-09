@@ -3,6 +3,61 @@ difficulty: hard
 duration: 45
 author: DecouvreBitcoin
 tags:
-- 2FA
-- Security
-- Best practices
+  - 2FA
+  - Security
+  - Best practices
+
+# Proofreading metadata
+original_language: en
+proofreading:
+  - language: cs
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2702
+  - language: de
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2601
+  - language: en
+    last_contribution_date: 2024-09-01
+    urgency: 1
+    contributors_id:
+      - Asi0Flammeus
+    reward: 1300
+  - language: es
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2651
+  - language: fi
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2702
+  - language: fr
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2601
+  - language: it
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2651
+  - language: ja
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2803
+  - language: pt
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2601
+  - language: vi
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2803

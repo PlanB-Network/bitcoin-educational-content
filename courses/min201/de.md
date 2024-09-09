@@ -744,6 +744,12 @@ Dies setzt eine Obergrenze für die Hash-Rate, die eine Maschine haben kann. Das
 
 Das Endergebnis ist eine höhere Hash-Rate pro Watt Stromverbrauch, was bedeutet, dass die Miner höhere Gewinnmargen erzielen können. Der Grund, warum Maschinen nicht mit dieser Art von Software ausgeliefert werden, ist, dass eine Maschinenvarianz unerwünscht ist, da die Kunden genau wissen wollen, was sie bekommen, und es daher keine gute Idee für die Hersteller ist, ein Produkt zu verkaufen, das von Maschine zu Maschine keine konstanten und vorhersehbaren Leistungen aufweist. Darüber hinaus erfordert das Chip-Autotuning erhebliche Entwicklungsressourcen, da es komplex ist, umzusetzen. Die Hersteller investieren bereits viele Ressourcen in die Entwicklung ihrer eigenen Firmware. Es gibt Softwarelösungen, die das Autotuning ermöglichen, wie z.B. Braiins OS+. Diese verbessern die Leistung des ASICs um bis zu 20%.
 
+
+
+## Geben Sie uns Ihr Feedback zu diesem Kurs
+<chapterId>6af13742-df68-5cf4-b7aa-93dc0c2eaae9</chapterId>
+<isCourseReview>true</isCourseReview>
+
 ## Steuern Sie einen Antminer S9 von Ihrem Smartphone aus
 <chapterId>6e7c234a-a445-5070-b087-531d16c42107</chapterId>
 

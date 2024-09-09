@@ -21,7 +21,6 @@ base_event = {
     'address_line_2': '',
     'address_line_3': '',
     'name': 'Bitcoin Project Day at PlebLab',
-    'builder': 'PlebLab',
     'type': 'course',
     'book_online': False,
     'book_in_person': False,

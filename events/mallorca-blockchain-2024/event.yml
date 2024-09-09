@@ -1,0 +1,24 @@
+- start_date: 2024-07-11
+  end_date: 2024-07-14
+  address_line_1: Templin, Germany
+  address_line_2: zwischen, Templin 
+  address_line_3: 
+  name: Sommerfest Zitadelle Uckermark
+  builder:  
+  type: conference
+  book_online: false
+  book_in_person: false
+  price_dollars: 0
+  description: A small but a nice Bitcoiner camp, the firewood is there, the lawn is mowed, the grill and the stereo system have been thoroughly checked to make sure they are working properly.
+  language: 
+    - en
+    - de
+  links:
+    website: https://x.com/ZitadelleUM
+    replay_url:
+    live_url :
+  tags: 
+    - bitcoiner
+    - general
+
+

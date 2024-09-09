@@ -1,0 +1,23 @@
+- start_date: 2024-09-05 07:00:00
+  end_date: 2024-09-08 15:00:00
+  timezone: Europe/Prague  
+  address_line_1: Prague, Czech Republic
+  address_line_2:
+  address_line_3: 
+  name: Bitcoin Educators Academy Praha
+  builder: Amity Age
+  type: course
+  book_online: false
+  book_in_person: false
+  price_dollars: 0
+  description: You will be able to orange pill everyone. You will learn soft skills, for example how to handle objections, what real-life analogies to use so it's not overwhelming for pre-coiners, etc. 
+  language: 
+    - en
+  links:
+    website: https://docs.google.com/forms/d/e/1FAIpQLSfhgXH99WLVR373wzUWA_RJFQRehMLCrcKGnflImO05Q29EwA/viewform
+    replay_url:
+    live_url :
+  tags: 
+    - International
+    - Bitcoiner
+    - Education

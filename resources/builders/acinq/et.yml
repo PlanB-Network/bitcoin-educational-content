@@ -1,0 +1,10 @@
+description: |
+  Asutatud 2014. aastal, ACINQ on Prantsuse idufirma, mis loob tooteid ja teenuseid Bitcoin ökosüsteemi jaoks. Me asume Pariisis, Prantsusmaal.
+
+  Oleme alates 2015. aastast panustanud ja arendanud Lightning protokolli. Meie põhiline tehnoloogiline alus on eclair, Lightning'i täielik rakendus, mille fookus on jõudlusel ja usaldusväärsusel.
+
+  ACINQ on oluline operaator ja likviidsuse pakkuja Lightning Network'is. Me juhime võrgustiku suurimat sõlmpunkti, kus kasutame ära oma Lightning'i alaseid teadmisi.
+
+  Oleme ka Phoenixi arendajad, mis on tipptasemel isehoolduslik Bitcoin Lightning rahakott.
+contributors:
+  - rabbit-hole

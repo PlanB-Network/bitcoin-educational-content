@@ -748,6 +748,12 @@ Esto pone un límite superior a la tasa de hashing que una máquina puede tener.
 
 El resultado final es una tasa de hashing más alta por vatio de electricidad, lo que significa márgenes de beneficio más grandes para los mineros. La razón por la cual las máquinas no se distribuyen con este tipo de software es que la variabilidad por máquina no es deseable, ya que los clientes quieren saber exactamente lo que están obteniendo y, por lo tanto, es una mala idea para los fabricantes vender un producto que no tiene un rendimiento constante y predecible de una máquina a otra. Además, la autorregulación por chip requiere considerables recursos de desarrollo, ya que es compleja de implementar. Los fabricantes ya gastan muchos recursos en desarrollar sus propios firmwares. Existen soluciones de software que permiten implementar la autorregulación, como Braiins OS+. Además de mejorar el rendimiento del ASIC hasta en un 20%.
 
+
+
+## Danos tu opinión sobre este curso
+<chapterId>6af13742-df68-5cf4-b7aa-93dc0c2eaae9</chapterId>
+<isCourseReview>true</isCourseReview>
+
 ## Controlar un Antminer S9 desde un smartphone
 <chapterId>6e7c234a-a445-5070-b087-531d16c42107</chapterId>
 

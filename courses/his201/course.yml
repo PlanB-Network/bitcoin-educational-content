@@ -1,0 +1,21 @@
+topic: social studies
+subtopic: history
+level: intermediate
+hours: 15
+
+professors:
+  - satoshi-brother
+
+original_language: fr
+proofreading:
+  - language: fr
+    last_contribution_date: 2024-08-20
+    urgency: 1
+    contributors_id:
+      - lugaxker
+    reward: 41794
+  - language: en
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 83588

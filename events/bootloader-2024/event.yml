@@ -1,0 +1,23 @@
+- start_date: 2024-06-21 
+  end_date: 2024-06-21 
+  address_line_1: Cyberspace
+  address_line_2: 
+  address_line_3: 
+  name: BootLoader
+  builder: 
+  type: conference
+  book_online: false
+  book_in_person: false
+  price_dollars: 0
+  description: Join us for a free one-day virtual session to help your Bitcoin company grow.
+  language: 
+    - en
+  links:
+    website: https://wolfnyc.com/bootloader 
+    replay_url:
+    live_url :
+  tags: 
+    - bitcoiner
+    - general
+
+

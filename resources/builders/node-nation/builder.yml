@@ -1,0 +1,20 @@
+name: Node Nation
+links:
+  twitter: https://x.com/NodeNationSV_
+
+tags:
+  - bitcoin-only
+  - education
+  - technical
+
+category: education
+
+# Proofreading metadata
+original_language: en
+proofreading:
+  - language: en
+    last_contribution_date: 2024-08-31
+    urgency: 1
+    contributors_id:
+      - Asi0Flammeus
+    reward: 1337

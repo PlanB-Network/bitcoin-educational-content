@@ -9,3 +9,78 @@ tags:
   - DCA
 
 category: exchange
+
+# Proofreading metadata
+original_language: en
+proofreading:
+  - language: cs
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2750
+  - language: de
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2625
+  - language: en
+    last_contribution_date: 2024-09-01
+    urgency: 1
+    contributors_id:
+      - Asi0Flammeus
+    reward: 1312
+  - language: es
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2687
+  - language: fi
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2750
+  - language: fr
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2625
+  - language: it
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2687
+  - language: ja
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2875
+  - language: pt
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2625
+  - language: ru
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2750
+  - language: vi
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2875
+  - language: id
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2812
+  - language: zh-Hans
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2812
+  - language: et
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2750

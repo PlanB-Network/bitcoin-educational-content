@@ -1,0 +1,22 @@
+year: 2023-09
+name: Watch Out 2023
+builder:
+location: Spain
+language:
+  - es
+links:
+  website: https://wobitcoin.org/
+  twitter: https://twitter.com/Wo_Bitcoin
+tags:
+  - Bitcoiner
+  - General
+
+# Proofreading metadata
+original_language: en
+proofreading:
+  - language: en
+    last_contribution_date: 2024-09-01
+    urgency: 0
+    contributors_id:
+      - Asi0Flammeus
+    reward: 1250

@@ -1,0 +1,7 @@
+description: |
+  ThunderHub 是一个开源平台，允许您从任何设备管理和监控您的Lightning节点。
+
+  其中一些关键功能包括发送和接收Lightning和On-Chain支付，重新平衡选项，从首页使用ln-pay和ln-withdraw，以及管理频道以获得最佳流动性。ThunderHub与BTCPay、RaspiBlitz、MyNode、Voltage、Umbrel和Start9的EmbassyOS集成，并且支持最新的LND节点版本。该平台还提供交易报告和转发支付的详细信息，并为用户方便提供夜间/白天模式。
+
+contributors:
+  - rabbit-hole

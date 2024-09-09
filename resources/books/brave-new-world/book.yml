@@ -3,3 +3,78 @@ level: intermediate
 tags:
   - science fiction
   - social issues;
+
+# Proofreading metadata
+original_language: en
+proofreading:
+  - language: cs
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 3320
+  - language: de
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2910
+  - language: en
+    last_contribution_date: 2024-09-01
+    urgency: 1
+    contributors_id:
+      - Asi0Flammeus
+    reward: 1455
+  - language: es
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 3115
+  - language: fi
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 3320
+  - language: fr
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2910
+  - language: it
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 3115
+  - language: ja
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 3730
+  - language: pt
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2910
+  - language: ru
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 3320
+  - language: vi
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 3730
+  - language: id
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 3525
+  - language: zh-Hans
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 3525
+  - language: et
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 3320

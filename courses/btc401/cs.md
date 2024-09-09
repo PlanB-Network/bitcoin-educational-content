@@ -264,6 +264,12 @@ Skupina Satoshi Fellowship prezentuje LN herní aplikaci s použitím LnBits a M
 
 Skupina Lightning Walker prezentuje své řešení pro službu remitencí s použitím MySQL, JavaScript a API ZDB.
 
+
+
+## Dejte nám zpětnou vazbu k tomuto kurzu
+<chapterId>7f4f46e2-de71-5387-8609-9785fb9e5946</chapterId>
+<isCourseReview>true</isCourseReview>
+
 ## Poděkování
 <chapterId>33cb95cf-91d1-555b-a33b-0e3bd6745c33</chapterId>
 
@@ -277,5 +283,4 @@ Rádi bychom poděkovali našim lektorům:
 - asi0
 - Gabriel Comte
 Jejich odbornost byla neocenitelná pro úspěch tohoto kurzu. Tento kurz byl prvním kurzem založeným na 1. vydání iniciativy Cubo+, který se konal v červenci 2023. Děkujeme všem účastníkům a vzdělavatelům, že jste byli součástí této průkopnické vzdělávací cesty. Znamená to začátek toho, co doufáme, že bude dlouhá a plodná cesta do světa vývoje Bitcoinu. Jako první skupina jste stanovili standard pro budoucí třídy.
-
 Pokračujte v prozkoumávání, učení se a přispívání do ekosystému Bitcoinu. Zde získané znalosti jsou pouze výchozím bodem. Pokračujte ve prozkoumávání zajíčí nory a objevíte stále se rozšiřující svět příležitostí.

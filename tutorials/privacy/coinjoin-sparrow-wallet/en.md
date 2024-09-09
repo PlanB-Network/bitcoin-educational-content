@@ -310,7 +310,7 @@ To use this option, start by opening the recipient wallet alongside your coinjoi
 
 ![sparrow](assets/notext/35.webp)
 
-Then, go to the `UTXOs` tab, and select the coins that interest you, then click on the `Mix to...` button at the bottom of the window.
+Then, go to the `UTXOs` tab, then click on the `Mix to...` button at the bottom of the window.
 
 ![sparrow](assets/notext/36.webp)
 

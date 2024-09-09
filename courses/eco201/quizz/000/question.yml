@@ -3,6 +3,61 @@ difficulty: hard
 duration: 45
 author: DecouvreBitcoin
 tags:
-- Economics
-- Austrian Economics
-- Keynesian Economics
+  - Economics
+  - Austrian Economics
+  - Keynesian Economics
+
+# Proofreading metadata
+original_language: en
+proofreading:
+  - language: cs
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2856
+  - language: de
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2678
+  - language: en
+    last_contribution_date: 2024-09-01
+    urgency: 1
+    contributors_id:
+      - Asi0Flammeus
+    reward: 1339
+  - language: es
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2767
+  - language: fi
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2856
+  - language: fr
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2678
+  - language: it
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2767
+  - language: ja
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 3034
+  - language: pt
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2678
+  - language: vi
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 3034

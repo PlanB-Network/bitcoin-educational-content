@@ -381,21 +381,26 @@ https://planb.network/tutorials/others/security-key
 ## Erstellung eines Passwort-Managers
 <chapterId>ed579680-4e7b-5f65-8541-14e519a3b242</chapterId>
 https://planb.network/tutorials/others/bitwarden
+https://planb.network/tutorials/others/keepass
 ![video](https://youtu.be/y7Xkv4E5YmU)
 
 ## Absicherung Ihrer Konten
 <chapterId>7a774b34-aed0-57dd-b8f7-cf3be51c0d70</chapterId>
 https://planb.network/tutorials/others/bitwarden
+https://planb.network/tutorials/others/keepass
 ![video](https://youtu.be/0JHZRALmGY0)
 
 ## Einrichtung eines Back-ups
 <chapterId>01cfcde1-77cb-506c-8df1-fa18a2e8cc6b</chapterId>
 https://planb.network/tutorials/others/proton-drive
+https://planb.network/tutorials/others/veracrypt
 ![video](https://youtu.be/wTJnlSUkDRI)
 
 ## Browserwechsel & VPN
 <chapterId>8dc08feb-313c-5259-a54f-64aa68a07608</chapterId>
-
+https://planb.network/tutorials/others/ivpn
+https://planb.network/tutorials/others/mullvad
+https://planb.network/tutorials/others/tor-browser
 ![video](https://youtu.be/vc6-Ouca09g)
 # Gehen Sie weiter
 <partId>77113cad-a6d8-57e5-b903-50c223b277ba</partId>
@@ -466,6 +471,12 @@ Alternativen zu aufdringlicher Werbung sind unter anderem [Google DNS](https://d
 Weitere Schlüsselüberlegungen
 
 Im Rahmen des Lernmoduls "Sicherheit 101" von Entdecke Bitcoin auf der Akademie haben wir auch über die Lightning-Authentifizierung diskutiert. Dieses System generiert für jeden Dienst eine andere Kennung, ohne dass eine E-Mail-Adresse oder persönliche Informationen angegeben werden müssen. Es ist möglich, dezentralisierte Identitäten zu haben, die vom Benutzer kontrolliert werden, aber es fehlt an Normierung und Standardisierung in dezentralisierten Identitätsprojekten. Paketmanager wie Nuget und Chocolaté, die das Herunterladen von Open-Source-Software außerhalb des Microsoft Stores ermöglichen, werden empfohlen, um böswillige Angriffe zu verhindern. Zusammenfassend lässt sich sagen, dass das DNS für die Online-Sicherheit von entscheidender Bedeutung ist, aber es ist notwendig, wachsam gegenüber potenziellen Angriffen auf DNS-Server zu bleiben.
+
+
+
+## Geben Sie uns Ihr Feedback zu diesem Kurs
+<chapterId>6be74d2d-2116-5386-9d92-c4c3e2103c68</chapterId>
+<isCourseReview>true</isCourseReview>
 
 ## Danksagungen und graben Sie weiter im Kaninchenbau
 <chapterId>df3a962a-a96e-5006-b904-0dd9d4a072dd</chapterId>

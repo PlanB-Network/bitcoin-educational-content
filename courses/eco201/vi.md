@@ -506,6 +506,12 @@ Phương pháp luận là một khía cạnh thiết yếu trong kinh tế học
 
 # Kết luận
 <partId>ae828713-d133-559f-93c2-101cb5245fca</partId>
+
+
+## Cho chúng tôi biết phản hồi của bạn về khóa học này
+<chapterId>29d4323c-e34e-5834-bf03-2f3ed10d751b</chapterId>
+<isCourseReview>true</isCourseReview>
+
 ## Học thêm
 <chapterId>64faaed4-84b9-5b8c-9736-a959e8e6cd9d</chapterId>
 
@@ -541,5 +547,4 @@ Nếu bạn muốn tiếp tục khám phá về chủ đề kinh tế học Áo,
 - [Bitcoin thuộc phe phải, phe trái, hay là người vô chính phủ?](https://youtu.be/4fXGxzLtIIw)
 - [Để cứu lấy hành tinh, hãy rời bỏ đô la và euro](https://youtu.be/iHagDlH4bf8)
 - [Tại sao việc tăng lãi suất là không thể?](https://youtu.be/iHagDlH4bf8)
-
 Nếu không, hãy tiếp tục việc học của bạn với các khóa đào tạo và hướng dẫn khác từ trường đại học!

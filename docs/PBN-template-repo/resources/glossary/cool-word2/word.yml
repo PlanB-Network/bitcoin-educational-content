@@ -1,0 +1,45 @@
+# Characteristic of a glossary word
+# Each word is contained in a folder named after it. E.g.: if the word is "account" there will be a folder named "account"
+# with related files inside such folder.
+
+# en_word
+# Write the word in English. It will be the basis for identifying the word in the glossary.
+en_word: COOL WORD 2
+
+# related_words
+# If there are existing words in glossary which are related to this word, it's possible to write them here, one per line.
+# Feel free to add as many related words as possible to enrich the glossary experience.
+# You have to use the en_word name of the words you want to relate.
+# E.g.: if you wan to relate the word "cool word" you should use the following
+related_words:
+- COOL WORD
+
+# tags
+# List the associated tags to the word
+# The list of tags is composed of 21 items that can be found here (list not yet available)
+tags:
+- ''
+
+# Original language
+# Write the original language of the word when newly added
+original_language: en
+
+# Proofreading metadata
+# This information are provided by PBN team, no need to specify if you are a contributor.
+# for PBN staff: an entry is created for each language specifying:
+# - language: language to review
+# - last_contribution_date: the date when last contribution has been received
+# - urgency: level of urgency from 1 (low urgency) to X(high urgency)
+# - contributors_id: list of contributors PBN ids
+# - reward: amount of sats available for reward
+proofreading:
+  - language: en
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2615
+  - language: fr
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 1307

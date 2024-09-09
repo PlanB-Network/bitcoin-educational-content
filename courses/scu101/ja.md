@@ -369,21 +369,26 @@ https://planb.network/tutorials/others/security-key
 ## パスワードマネージャーの作成
 <chapterId>ed579680-4e7b-5f65-8541-14e519a3b242</chapterId>
 https://planb.network/tutorials/others/bitwarden
+https://planb.network/tutorials/others/keepass
 ![ビデオ](https://youtu.be/y7Xkv4E5YmU)
 
 ## アカウントのセキュリティ強化
 <chapterId>7a774b34-aed0-57dd-b8f7-cf3be51c0d70</chapterId>
 https://planb.network/tutorials/others/bitwarden
+https://planb.network/tutorials/others/keepass
 ![ビデオ](https://youtu.be/0JHZRALmGY0)
 
 ## バックアップの設定
 <chapterId>01cfcde1-77cb-506c-8df1-fa18a2e8cc6b</chapterId>
 https://planb.network/tutorials/others/proton-drive
+https://planb.network/tutorials/others/veracrypt
 ![ビデオ](https://youtu.be/wTJnlSUkDRI)
 
 ## ブラウザとVPNの変更
 <chapterId>8dc08feb-313c-5259-a54f-64aa68a07608</chapterId>
-
+https://planb.network/tutorials/others/ivpn
+https://planb.network/tutorials/others/mullvad
+https://planb.network/tutorials/others/tor-browser
 ![ビデオ](https://youtu.be/vc6-Ouca09g)
 
 # より深く掘り下げる
@@ -452,6 +457,12 @@ Passkizは、パスワード管理のための別の実行可能で安全な代�
 侵入的な広告の代替手段には、Google DNS、OpenDNS、その他の独立したサービスが含まれます。標準のDNSプロトコルでは、DNSクエリがインターネットサービスプロバイダーに見える状態になります。DOH（DNS over HTTPS）とDOT（DNS over TLS）はDNS接続を暗号化し、より高いプライバシーとセキュリティを提供します。これらのプロトコルは、強化されたセキュリティのために企業で広く使用されており、Windows、Android、iPhoneにネイティブでサポートされています。DOHとDOTを使用するには、IPアドレスの代わりにTLSホスト名を入力する必要があります。無料のDOHとDOTプロバイダーはオンラインで利用可能です。DOHとDOTは「中間者攻撃」を避けることでプライバシーとセキュリティを向上させます。その他の重要な考慮事項
 
 "Découvre Bitcoin Academy"の「セキュリティ101」トレーニングモジュールの一環として、Lightning認証についても議論しました。このシステムは、メールアドレスや個人情報を提供する必要なく、各サービスに異なる識別子を生成します。ユーザーが制御する分散型アイデンティティが可能ですが、分散型アイデンティティプロジェクトには標準化と正規化が不足しています。Microsoft Storeの外でオープンソースソフトウェアをダウンロードすることを可能にするパッケージマネージャー、例えばNugetやChocolatéは、悪意のある攻撃を避けるために推奨されます。要約すると、DNSはオンラインセキュリティにとって重要ですが、DNSサーバーに対する潜在的な攻撃に対して警戒を続ける必要があります。
+
+
+
+## このコースについてのフィードバックをお寄せください
+<chapterId>6be74d2d-2116-5386-9d92-c4c3e2103c68</chapterId>
+<isCourseReview>true</isCourseReview>
 
 ## 謝辞とさらに深く掘り下げる
 <chapterId>df3a962a-a96e-5006-b904-0dd9d4a072dd</chapterId>

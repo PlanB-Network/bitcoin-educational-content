@@ -3,6 +3,61 @@ difficulty: intermediate
 duration: 30
 author: DecouvreBitcoin
 tags:
-- Money History
-- Communication
-- Technology
+  - Money History
+  - Communication
+  - Technology
+
+# Proofreading metadata
+original_language: en
+proofreading:
+  - language: cs
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2774
+  - language: de
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2637
+  - language: en
+    last_contribution_date: 2024-09-01
+    urgency: 1
+    contributors_id:
+      - Asi0Flammeus
+    reward: 1318
+  - language: es
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2705
+  - language: fi
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2774
+  - language: fr
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2637
+  - language: it
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2705
+  - language: ja
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2911
+  - language: pt
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2637
+  - language: vi
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2911

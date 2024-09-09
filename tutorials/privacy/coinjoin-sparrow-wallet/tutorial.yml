@@ -1,3 +1,4 @@
+id: 84def86d-faf5-4589-807a-83be60720c8b
 builder: Coinjoin - Sparrow Wallet
 
 tags:
@@ -5,9 +6,85 @@ tags:
   - coinjoin
   - mix
 
-category: bitcoin
+category: on-chain
 
 level: intermediate
 
 credits:
   professor: pretty-private
+
+# Proofreading metadata
+original_language: fr
+proofreading:
+  - language: cs
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 28128
+  - language: de
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 15314
+  - language: en
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 15314
+  - language: es
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 21721
+  - language: fi
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 28128
+  - language: fr
+    last_contribution_date: 2024-09-01
+    urgency: 1
+    contributors_id:
+      - Asi0Flammeus
+    reward: 7657
+  - language: it
+    last_contribution_date: 2024-09-09
+    urgency: 1
+    contributors_id:
+      - Tinf0ilHat1
+    reward: 10860
+  - language: ja
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 40942
+  - language: pt
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 15314
+  - language: ru
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 28128
+  - language: vi
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 40942
+  - language: et
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 28128
+  - language: id
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 34535
+  - language: zh-Hans
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 34535

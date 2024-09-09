@@ -1410,6 +1410,12 @@ Vào năm 1976, Hayek đã đề xuất một lựa chọn thay thế cho độc
 ![image](assets/6/img-006.webp)
 Hayek tin rằng một thị trường tự do của các đồng tiền tư nhân sẽ dẫn đến sự ổn định tiền tệ lớn hơn. Gần 50 năm sau, một loại tiền điện tử như Bitcoin thể hiện tầm nhìn cạnh tranh của Hayek bằng cách cung cấp một lựa chọn phi tập trung thay thế cho hệ thống độc quyền của các ngân hàng trung ương. Bitcoin, với giới hạn phát hành 21 triệu đơn vị, là một bảo đảm chống lại lạm phát và sự tùy tiện của các nhà quản lý.
 
+
+
+## Cho chúng tôi biết phản hồi của bạn về khóa học này
+<chapterId>6759868f-749d-5fe7-bbb1-24f603e8b34e</chapterId>
+<isCourseReview>true</isCourseReview>
+
 ## Kết luận: sức mạnh của ý tưởng
 
 <chapterId>50676155-c071-5bee-a14e-0c251f0375da</chapterId>

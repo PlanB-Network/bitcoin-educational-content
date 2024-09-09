@@ -1,3 +1,4 @@
+id: 0354b793-c301-48af-af75-f87569756375
 builder: Whirlpool Stats Tools
 
 tags:
@@ -11,3 +12,78 @@ level: advanced
 
 credits:
   professor: pretty-private
+
+# Proofreading metadata
+original_language: fr
+proofreading:
+  - language: cs
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 18484
+  - language: de
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 10492
+  - language: en
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 10492
+  - language: es
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 14488
+  - language: fi
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 18484
+  - language: fr
+    last_contribution_date: 2024-09-01
+    urgency: 1
+    contributors_id:
+      - Asi0Flammeus
+    reward: 5246
+  - language: it
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 14488
+  - language: ja
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 26476
+  - language: pt
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 10492
+  - language: ru
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 18484
+  - language: vi
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 26476
+  - language: et
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 18484
+  - language: id
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 22480
+  - language: zh-Hans
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 22480

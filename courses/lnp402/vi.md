@@ -136,6 +136,12 @@ Chúc bạn học tốt.
 # Kết luận
 <partId>aff1e861-e6a3-58ad-af6a-33ceaedbda99</partId>
 
+
+
+## Cho chúng tôi biết phản hồi của bạn về khóa học này
+<chapterId>9331e519-9e5c-5639-9d0d-055587d8ba4c</chapterId>
+<isCourseReview>true</isCourseReview>
+
 ## Lời kết
 <chapterId>d47b792e-d269-595b-9290-4788aba6e298</chapterId>
 
@@ -144,5 +150,4 @@ Cảm ơn bạn đã tham gia khóa học này! Chúng tôi hy vọng bạn đã
 Nếu bạn muốn tiếp tục học hỏi từ hội thảo này, chúng tôi khuyến khích bạn tham gia các khóa học RGB có sẵn trên nền tảng này.
 
 Bạn cũng có thể xem các khóa học khác của chúng tôi và tiếp tục học từ nhiều nguồn lực khác nhau của chúng tôi.
-
 Một lời cảm ơn lớn đến Fulgur Venture đã tài trợ cho khóa học này và đến các giáo viên của chúng tôi đã tham gia.

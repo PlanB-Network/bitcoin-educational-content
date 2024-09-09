@@ -1,0 +1,9 @@
+question: En quelle unité se mesure le taux de hachage du réseau durant la seconde moitié de l'année 2010 ?
+answer: En GH/s
+wrong_answers:
+  - En MH/s
+  - En TH/s
+  - En PH/s
+explanation: |
+  Le taux de hachage passe de 1,35 GH/s le 13 juillet à 120 GH/s le 31 décembre 2010.
+reviewed: false

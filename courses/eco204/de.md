@@ -922,6 +922,12 @@ Nach der Bankpanik von 1796 trat ein Phänomen auf, bei dem jeder versuchte, die
 
 Zentralbanken haben sich zu Kreditgebern letzter Instanz entwickelt, indem sie die Umtauschbarkeit ihrer Währung in Gold ausgesetzt haben. Obwohl diese Maßnahme ursprünglich als temporäre Lösung gedacht war, wurde sie schließlich dauerhaft und markierte somit die Einführung des Konzepts des Kreditgebers letzter Instanz. Diese Transformation hat die Zentralbanken geprägt, wie wir sie heute kennen. In schwächeren Volkswirtschaften kann diese Fähigkeit, Geld nach Belieben zu drucken, jedoch unerwünschte Folgen wie Hyperinflation haben, wenn sie unverantwortlich eingesetzt wird.
 
+
+
+## Geben Sie uns Ihr Feedback zu diesem Kurs
+<chapterId>1a37317e-372a-5241-b478-8316d44f9283</chapterId>
+<isCourseReview>true</isCourseReview>
+
 ## Bücher und Ressourcen
 <chapterId>c44e4519-0741-527b-b3b0-3f513e87147d</chapterId>
 

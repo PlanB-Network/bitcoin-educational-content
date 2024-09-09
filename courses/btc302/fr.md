@@ -662,11 +662,11 @@ Une fois qu'un petit groupe de bitcoiners vous aura rejoint, il n'y aura plus qu
 ## Pourquoi lancer un meet-up régulier avec sa communauté?
 <chapterId>ed8e471c-3b99-57e2-a042-2d4e8a40b137</chapterId>
 
-Maintenant que les réseaux sociaux et les canaux de communication de votre communauté ont été lancés, il n'y a plus qu'à faire acte de présence sur ces plateformes et les nouveaux membres devraient se présenter d'eux-même, engageant petit à petit les discussions.
-Cela peut donc vous permettre de libérer du temps dans l'objectif de réfléchir à la création d'une rencontre de type "meet-up", avec le format que vous souhaitez. En particulier si vous commencez à sentir une certaine ferveur au sein de votre communauté.
+Maintenant que les réseaux sociaux et les canaux de communication de votre communauté ont été lancés, il n'y a plus qu'à faire acte de présence sur ces plateformes. Les nouveaux membres devraient par la suite se présenter d'eux-même, engageant petit à petit la discussion.
+Cela vous permettra donc de vous libérer du temps, qui pourrait par exemple vous perrmettre de réfléchir à la création d'une rencontre de type "meet-up"; quelqu'en soit son format. Cela s'accentuera d'ailleurs lorsque vous commencerez à sentir une certaine ferveur au sein de votre communauté.
 
 Comme dit précédemment, **un meet-up Bitcoin peut donc être vu comme le "niveau" suivant d'une communauté**. Il permet d'une part, **à ses membres bitcoiners, de se rencontrer**; et d'autre part, d'**éduquer les nouvelles personnes intéressées par cet écosystème**.
-Un événement de type "meet-up" va ainsi permettre - à votre échelle - de **créer dans votre ville un engouement autour de Bitcoin**; qui pourra s'étoffer au fil du temps en fonction des projets que votre communauté réalisera.
+Un événement de ce type va ainsi permettre à votre échelle de **créer dans votre ville un engouement autour de Bitcoin**, qui pourra s'étoffer au fil du temps en fonction des projets que votre communauté réalisera.
 
 ![image](assets/fr/chapter17/28bis.webp)
 
@@ -676,56 +676,57 @@ Il est donc important de **commencer par se fixer des objectifs atteignables pou
 ## Le premier meet-up: quand, et (pour)quoi?
 <chapterId>f3f8a614-cfb4-5994-a2e8-d56e6f8e3347</chapterId>
 
-Il est tout à fait possible, quelques semaines seulement après la création d'une communauté, de lancer un événement de type meet-up.
-Cependant, dans cette situation, votre communauté ne se sera certainement pas beaucoup développée. Cela signifie donc qu'il est envisageable que peu de personnes risquent de se présenter. Voire aucune.
-Par conséquent, il semble pertinent de **proposer l'organisation d'un meet-up à partir du moment où il commence à y avoir quelques personnes impliquées dans les canaux de communication** de votre communauté; disons par exemple **une petite dizaine de membres**. Cela peut donc être assez rapide.
+Il est tout à fait possible que vous décidiez de lancer un événement de type meet-up à peine quelques semaines après la création de votre communauté.
+Cependant, dans cette situation, votre communauté ne se sera certainement pas beaucoup développée. Cela signifie donc qu'il est envisageable que personne ne se présente à votre événement.
+Par conséquent, il semble pertinent de n'**organiser un meet-up qu'à partir du moment où il commence à y avoir quelques personnes impliquées dans les canaux de communication** de votre communauté; disons par exemple **une petite dizaine de membres**. Cela peut donc être assez rapide, mais est également dépendant des personnalités de chacun.
 
-Une fois que vous sentez cette petite étincelle, il vous est alors tout à fait possible de proposer l'idée d'une rencontre en présentiel. Si cette idée reccueille l'intérêt d'autres personnes, il vous suffit alors de **définir la date de votre premier meet-up**.
-Pour ce faire, il est certainement préférable de ne pas vous-même fixer une date fixe au départ, mais de plutôt **proposer - une dizaine de jours avant - un sondage contenant différents jours et plages horaires**. Ainsi, en fonction des votes de chacun, cela permettra de **maximiser la présence des membres**, de créer plus d'émulations; mais aussi, de **mieux "optimiser" votre temps**.
+Une fois que vous sentirez cette petite étincelle, viendra alors la possibilité de proposer l'idée d'une rencontre en présentiel. Si cette idée recueille l'intérêt d'autres personnes, il vous suffira alors de **définir la date de votre premier meet-up**.
+Pour ce faire, il est certainement préférable de ne pas vous-même la fixer mais de plutôt **proposer - une dizaine de jours avant - un sondage contenant différents jours et plages horaires**. Ainsi, en fonction des votes de chacun, vous pourrez **maximiser la présence de membres**, de créer plus d'émulations; mais aussi, de **mieux "optimiser" votre temps**.
 
 ![image](assets/fr/chapter18/29-fr.webp)
 
-Il est alors important de ne pas se fixer d'idée fixe, en amont, de comment ce meet-up se déroulera, de combien vous serez, des thèmes de discussion, etc. Vous risquez entre autre d'être déçus; et les participants, de potentiellement se sentir "oppressés".
-Il semble en ce sens préférable de laisser les choses se faire naturellement, autour d'un verre par exemple. Les discussions devraient alors être faciles; et cela, quitte à amener la discussion sur Bitcoin si vous êtes en tête à tête avec une brebis égarée.
+Il est alors important que vous ne vous fixiez pas d'idée préconçue de comment ce meet-up se déroulera, de combien vous serez, des thèmes de discussion, etc. En effet, vous risqueriez d'être déçu; et les participants, de se sentir potentiellement "oppressés".
+Il semble en ce sens préférable de laisser les choses se faire naturellement, autour d'un verre par exemple. Les discussions devraient alors être faciles; et cela, quitte à recentrer la discussion autour de Bitcoin si vous êtes en tête à tête avec une brebis égarée.
 ####
 Si vous souhaitez toutefois **anticiper certains blancs, vous pouvez prévoir différentes "activités" ou points de chute**. Cela peut être:
 - un ordinateur ou un smartphone avec la **[mempool](https://mempool.space/)**;
 - l'apport d'un livre;
 - l'apport d'un **Nerdminer**, Bitaxe, FPGA voire même ASIC;
 - la présence d'un **flyer Bitcoin**;
-- la réflexion autour d'un visuel / logo Bitcoin plus développé pour votre communauté;
+- la réflexion autour d'un visuel / logo Bitcoin pour votre communauté;
 - un **[jeu de cartes Bitcoin](https://www.maximalist.ovh/accueil/20-game-le-coin-de-table.html)**;
 - la **[carte btcmap.org](https://btcmap.org/)** des communautés et des commerces;
-- un petit: "Eh, au fait, **t'as déjà envoyé du Bitcoin en Lightning?**"
+- l'envoi / la réception de Bitcoin en **Lightning**.
 
-À noter toutefois que, lorque le meet-up n'est qu'à ses débuts, il n'est pas forcément pertinent de réaliser une présentation formelle. Lorsque vous êtes peu, il semblent préférable de plutôt réaliser cela sous la forme de discussions, de manière plus ouvertes et plus conviviales.
+À noter toutefois: lorque le meet-up n'est qu'à ses débuts, il n'est pas forcément pertinent de réaliser une présentation formelle. Lorsque vous êtes peu, il semble en effet préférable de réaliser cela sous la forme de discussion, de manière plus ouverte et plus conviviale.
 
 ![image](assets/fr/chapter18/30.webp)
 ####
-Une fois que votre meet-up se sera déroulé, vous aurez probablement envie d'en réaliser un autre. **Tant que votre communauté est encore petite, il semble préférable de continuer à proposer la date par sondage; par exemple, une fois par mois (voire tous les deux mois)**. À vous d'en discuter avec votre communauté.
+Une fois que votre meet-up se sera déroulé, vous aurez probablement envie d'en réaliser un autre. **Tant que votre communauté est encore petite, il semble préférable de continuer à proposer la date par sondage; par exemple, une fois par mois (voire tous les deux mois)**. À vous d'en discuter sur les canaux de communication que vous utilisez.
 
 Toutefois, dans le cas où **un groupe régulier de bitcoiners et d'intéressés se développe**, il semble pertinent de **planifier ce moment de manière plus régulière**; pour plusieurs raisons:
-1) cela permet aux membres plus facilement de planifier leur venue;
-2) cela permet également d'**instaurer une "habitude"**. Ainsi, quelqu'un ne suivant plus quotidiennement les canaux de communication ou réseaux du meet-up (par manque de temps) et connaissant le jour habituel de votre rencontre dans le mois peut alors y passer, "comme d'habitude".
+1) cela permet pour tout le monde de plus facilement planifier sa venue;
+2) cela permet également d'**instaurer une "habitude"**. Ainsi, quelqu'un ne suivant plus quotidiennement les canaux de communication ou réseaux du meet-up (par manque de temps par exemple) et connaissant le jour habituel de votre rencontre peut alors passer, "comme d'habitude".
 ####
-Ce second point est d'ailleurs très important. C'est une des raisons pour laquelle, **en France, la majorité des meet-ups se déroulent le premier mercredi de chaque mois**; suite à l'initiative des "ambassadeurs", lancée par [DecouvreBitcoin](https://decouvrebitcoin.fr/).
-En Allemagne, il n'y a pas de jour prédéfini au niveau national; de même en Italie.
+Ce second point est très important. C'est d'ailleurs une des raisons pour lesquelles, **en France, la majorité des meet-ups se déroulent le premier mercredi de chaque mois** (voir l'initiative des "ambassadeurs", lancée par [DecouvreBitcoin](https://decouvrebitcoin.fr/) en 2022).
+En Allemagne, il n'y a pas au niveau national de jour prédéfini; de même en Italie.
 
 Toutefois, il est à souligner qu'**avoir tous les meet-ups nationaux le même jour engendre un problème de centralisation**. En plus de la question de la sûreté, les bitcoiners présents au meet-up de leur ville respective ne peuvent donc pas participer aux événements Bitcoin des communautés limitrophes.
-À vous donc de vous positionner. Pour ce faire, **échanger avec le (ou les) meet-up(s) le(s) plus proche(s) peut permettre d'arriver à une décision pertinente**.
+À vous donc de vous positionner; et pour ce faire, **échanger avec le (ou les) meet-up(s) le(s) plus proche(s) peut permettre d'arriver à une décision commune pertinente**.
+####
 #### 
-Enfin, lorsque votre communauté deviendra conséquent et que vos meet-ups commenceront à se remplir, il est tout à fait possible de proposer:
+Enfin, lorsque votre communauté deviendra conséquente et que vos meet-ups se rempliront, il est tout à fait possible de proposer:
 * **un objectif précis à chacun de vos meet-ups**;
 * voire même **un second événement dans le mois**.
 
 Dans le premier cas, bien qu'il faille être attentif à la sensibilité et aux envies de chacun, cela peut permettre à toutes les personnes présentes de **sortir de l'événement avec de nouvelles connaissances**, tout en recentrant les sujets de conversation autour de Bitcoin (si ces derniers divergeaient).
-Dans le second cas, un deuxième événement dans le mois permet par exemple d'**aborder un thème spécifique, comme la mise en place de sessions "débutants" et/ou d'ateliers** (minage, lightning, installation de noeud, etc.).
+Dans le second cas, un deuxième événement dans le mois peut par exemple permettre d'**aborder un thème spécifique, comme la mise en place de sessions "débutants" et/ou d'ateliers** (minage, lightning, installation de noeud, etc.).
 
 ![image](assets/fr/chapter18/31.webp)
 
-Gardez toutefois en tête que **cela demande une organisation plus importante; et vous prendra donc plus de temps** (bien que de nombreuses ressources open-source seront disponibles dans la partie 6/8, intitulée "[Des exemples de projets et d’initiatives](LIEN).
+Gardez toutefois en tête que **cela demande une organisation plus importante; et vous prendra donc plus de temps**. Mais heureusement, dans la [partie 6/8 de ce cours](https://planb.network/fr/courses/btc302/3213d87a-1998-5972-ab93-97a5769ba279), vous seront proposées de nombreuses ressources open-source réutilisables.
 
-Quoi qu'il en soit, tout cela dépendra du plan d'action, à court, à moyen et à long terme que vous (ou votre communauté) vous serez fixés.
+Quoi qu'il en soit, tout cela dépendra du plan d'action à court, à moyen et à long terme que vous (ou votre communauté) vous serez fixés.
 
 ## La recherche d'un lieu
 <chapterId>405d389e-6a32-5777-af8d-293380d2e8fd</chapterId>

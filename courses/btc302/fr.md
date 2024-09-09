@@ -620,37 +620,40 @@ Le cas des repas du **Cercle du Coin** est un autre exemple.
 
 ![image](assets/fr/chapter15/img26bis.webp)
 
-De plus, en France, il peut également être pertinent de **suivre les initiatives [@KonsensusFR](https://twitter.com/KonsensusFR), [@bitcoinpointfr](https://twitter.com/bitcoinpointfr), [@DecouvreBitcoin](https://twitter.com/DecouvreBitcoin) et [@btcmap](https://twitter.com/btcmap)**. Ce ne sont évidemment que des propositions, et chaque communauté est évidemment libre de faire ce qu'il lui plaît, en toute décentralisation et en toute autonomie.
-Néanmoins, comme dit précédemment, l'intérêt de se suivre mutuellement est toutefois assez simple: s'apporter mutuellement de la visibilité. En effet, plus vous serez présents sur les réseaux, plus l'on parlera de vous; et plus l'on parlera de vous, plus il y aura de personnes susceptibles de venir à vos événements. Liker et retweeter sur les réseaux sociaux les posts des autres communautés peut également être pertinent.
+De plus, en France, il peut également être pertinent de **suivre les initiatives [@KonsensusFR](https://twitter.com/KonsensusFR), [@bitcoinpointfr](https://twitter.com/bitcoinpointfr), [@DecouvreBitcoin](https://twitter.com/DecouvreBitcoin) et [@btcmap](https://twitter.com/btcmap)**. Ce ne sont évidemment que des propositions, et chaque communauté est évidemment libre de faire ce qu'il lui plaît; en toute décentralisation et en toute autonomie.
+Néanmoins, comme dit précédemment, l'intérêt de se suivre est de s'apporter mutuellement de la visibilité. Ainsi, plus vous mettrez en avant votre communauté et celles de votre région / pays sur les réseaux, plus l'on parlera de vous; et plus l'on parlera de vous, plus il y aura de personnes susceptibles de venir à vos événements. 
+Liker et retweeter sur les réseaux sociaux les posts des autres communautés peut donc aider fortement à leur (et à votre) développement.
 ####
-En parallèle, il est évidemment possible de **proposer aux organisateurs de meet-ups et aux bitcoiners ayant créé une communauté de se réunir à deux ou trois reprises dans l'année en visio afin de faire un point sur l'évolution de leurs projets et de leur communauté. Cela peut d'ailleurs se faire lors des événements physiques**; et l'objectif est simple: faire un point sur le ressenti de chacun, sur l'évolution des communautés présentes, mais aussi de partager des idées de projets qui ont aboutis, de se proposer mutuellement des solutions lorsque cela est nécessaire, etc. Un bilan écrit de cette réunion peut alors être partagé après cette "réunion" aux organisateurs(rices) des communautés de votre pays qui n'étaient pas présent(e)s.
+En parallèle, il est évidemment possible de **proposer aux organisateurs de meet-ups et aux bitcoiners ayant créé une communauté de se réunir deux ou trois fois dans l'année en visio afin de faire un point sur l'évolution des projets nationaux et des communautés associées. Cela peut également se faire lors des événements physiques**, l'objectif étant simple: écouter le ressenti de chacun, discuter de l'évolution des communautés présentes, mais aussi partager des idées et projets qui ont aboutis, de proposer des solutions lorsque cela est nécessaire, etc. Un bilan écrit de cette réunion peut même être partagé après cette "réunion" aux organisateurs(rices) des communautés de votre pays qui n'étaient pas présent(e)s.
 
 ## [Btcmap.org](https://btcmap.org/)
 <chapterId>365f43d4-7b2c-5961-a184-157b8c1a0116</chapterId>
 
-À ce stade, votre communauté est déjà lancée. Il ne reste plus qu'à attendre l'arrivée de nouveaux bitcoiners et de nouvelles personnes intéressées, dans l'optique de la développer.
+À ce stade, votre communauté est déjà lancée. Il ne reste plus qu'à attendre l'arrivée de nouvelles personnes intéressées dans l'optique de la développer.
 
-Cependant, vous ne pouvez pas aller plus loin sans savoir qu'**il existe des plateformes permettant aux bitcoiners intéressés de trouver des communautés et meet-ups près de chez eux**.
+Cependant, vous ne pouvez pas aller plus loin sans savoir qu'**il existe des plateformes permettant aux bitcoiners intéressés de trouver les communautés et meet-ups près de chez eux**.
 C'est la raison pour laquelle **il est crucial que vous preniez quelques minutes pour faire une demande de référencement sur ces sites / plateformes**.
 ####
 Parmi celles-ci, on note notamment:
-* **[Btcmap.org](https://btcmap.org/)**, site internet qui regroupe deux cartes mis à jour quotidiennement: **[la carte mondiale des commerces acceptant Bitcoin](https://btcmap.org/map)**, et **[la carte des communautés mondiales](https://btcmap.org/communities)**. De nombreux bitcoiners, lors de leurs vacances ou même dans leur quotidien, scrutent régulièrement ces cartes afin de pouvoir faire de nouvelles rencontres ou de nouveaux achats. **Btcmap est clairement LA référence mondiale. Et pour votre visibilité, votre communauté se doit d'y être référencée.**
-* **[BitcoinerEvents](https://www.bitcoinerevents.com/)** est un site internet créé par des bitcoiners, pour les bitcoiners. Il est ainsi possible d'**y poster les prochains événements de sa communauté**. Malheureusement, en France, cette plateforme est relativement peu utilisée.
-* en fonction des pays, il existe également des initiatives uniques. C'est notamment le cas, **en France, du site internet [bitcoin.fr](https://bitcoin.fr/events/categories/evenements/), qui recense chaque mois les dizaines d'événements Bitcoin en France**. Si vous ne les avez donc pas encore suivis sur Twitter ou contactés pour donner les informations de votre communauté et/ou de vos événements, c'est le moment ! **Par ailleurs, dans l'optique de les aider à tenir à jour ce calendrier d'événements français, il serait appréciable que toutes les communautés Bitcoin françaises prennent l'habitude:**
+* **[Btcmap.org](https://btcmap.org/)**, site internet qui regroupe deux cartes mis à jour quotidiennement: **[la carte mondiale des commerces acceptant Bitcoin](https://btcmap.org/map)** et **[la carte des communautés mondiales](https://btcmap.org/communities/map)**. De nombreux bitcoiners, lors de leurs vacances ou même dans leur quotidien, scrutent régulièrement ces cartes afin de pouvoir faire de nouvelles rencontres ou de nouveaux achats. **Btcmap est clairement LA référence mondiale. Et pour votre visibilité, votre communauté se doit d'y être référencée.**
+* **[BitcoinerEvents](https://www.bitcoinerevents.com/)**, site internet créé par des bitcoiners, pour les bitcoiners. Il est possible d'**y poster les prochains événements de sa communauté**. Toutefois, en France, cette plateforme est relativement peu utilisée.
+* en fonction des pays, il existe également des initiatives spécifiques. C'est notamment le cas, **en France, du site internet [bitcoin.fr](https://bitcoin.fr/events/categories/evenements/), qui recense chaque mois les dizaines d'événements Bitcoin dans le pays**. Si vous ne les avez donc pas encore suivis sur Twitter ou contactés pour donner les informations de votre communauté et/ou de vos événements, c'est le moment ! **Par ailleurs, dans l'optique de les aider à tenir à jour ce calendrier d'événements français, il serait appréciable que toutes les communautés Bitcoin françaises prennent l'habitude:**
     * **de mentionner @bitcoinpointfr sur Twitter à chaque nouvelle annonce d'événement de sa communauté**;
-    * **d'épingler dans son groupe Telegram communautaire l'annonce de ce dit événement**.
+    * **d'épingler dans son groupe Telegram communautaire les annonces de nouveaux événements**.
 
 ![image](assets/fr/chapter16/img27bis.webp)
 #### 
-Il n'est pas sans noter que d'autres plateformes et applications permettent également de gagner en visibilité. **[Meetup](https://www.meetup.com/)** est l'une d'elles. En effet, il s'agit d'un site internet (et d'une application sur téléphone) permettant de créer un événement; mais aussi de chercher ceux autour de chez soi.
-Malheureusement, pour pouvoir créer des meet-ups, il faut débourser près de 8€ par mois (soit environ 90€ par an), ce qui est onéreux pour une communauté qui n'est encore ni structurée ni mature. Toutefois, Meetup est très utilisée dans certains pays, en particulier au Canada et aux États-Unis; son principal intérêt étant qu'elle permet de gérer de manière intégrée les inscriptions aux rencontres.
+Il n'est pas sans noter que d'autres plateformes et applications permettent également de gagner en visibilité. **[Meetup](https://www.meetup.com/)** est l'une d'elles, et il s'agit d'un site internet (et d'une application sur téléphone) permettant de créer un événement et de chercher ceux autour de chez soi.
+Malheureusement, pour pouvoir y créer des événements, il faut débourser près de 8€ par mois (soit environ 90€ par an), ce qui est onéreux pour une communauté qui n'est encore ni structurée ni mature. Toutefois, Meetup est très utilisée dans certains pays, en particulier au Canada et aux États-Unis; son principal intérêt étant qu'elle permet de gérer les inscriptions aux rencontres.
 
-En parallèle, **[Orangepillapp](https://www.orangepillapp.com/)** est une application téléphone payante permettant aux bitcoiners à se rencontrer. Elle est toutefois, elle aussi, payante (50 000 sats/an, ou 200 000 sats à vie).
+En parallèle, **[Orangepillapp](https://www.orangepillapp.com/)** est une application téléphone permettant aux bitcoiners de se rencontrer. Elle est toutefois, elle aussi, payante (50 000 sats/an, ou 200 000 sats à vie).
 ####
-Bien qu'elles permettent de développer la visibilité de votre communauté et de vos événements, ces deux dernières applications ne sont toutefois pas conseillées au lancement de votre communauté, tout simplement car elles sont payantes.
+####
+Bien qu'elles permettent de développer la visibilité de votre communauté et de vos événements, ces deux dernières applications ne sont pas conseillées au lancement de votre communauté, tout simplement car elles sont payantes.
 **Débuter avec un référencement sur [btcmap.org](https://btcmap.org/), sur [BitcoinerEvents](https://www.bitcoinerevents.com/); et pour les communautés françaises, sur [bitcoin.fr](https://bitcoin.fr) est donc clairement suffisant**.
-#### 
-Toutes nos félicitations ! Votre **communauté est créée**, vos **visuels réalisés**, vos **objectifs fixés**, vos **canaux de communication établis**, vos **réseaux sociaux lancés** et votre **stratégie de visibilité établie**.
+####
+####
+Toutes nos félicitations ! Votre **communauté est désormais créée**, vos **visuels réalisés**, vos **objectifs fixés**, vos **canaux de communication établis**, vos **réseaux sociaux lancés** et votre **stratégie de visibilité décidée**.
 Une fois qu'un petit groupe de bitcoiners vous aura rejoint, il n'y aura plus qu'à passer à l'étape supérieure: **se lancer dans la folle aventure d'un meet-up Bitcoin !**
 
 # Organiser un meet-up Bitcoin

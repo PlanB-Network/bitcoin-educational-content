@@ -10,7 +10,7 @@ language_factors = {
     'en': 1.00,  # English
     'fr': 1.00,  # French
     'de': 1.00,  # German
-    'es': 1.50,  # Spanish
+    'es': 1.50,  # Spanish 
     'it': 1.50,  # Italian
     'cs': 2.00,  # Czech
     'vi': 3.00,  # Vietnamese

@@ -1,6 +1,6 @@
 import os 
 from math import floor 
-from ruamel.yaml import YAML
+from ruamel.yaml import YAML 
 
 BASE_FEE = 2500
 yaml = YAML()

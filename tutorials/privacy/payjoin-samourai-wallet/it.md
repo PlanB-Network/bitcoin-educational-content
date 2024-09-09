@@ -47,7 +47,7 @@ Per effettuare una transazione remota Cahoots, nello specifico un PayJoin (Stowa
 
 **Ecco la procedura per stabilire questa connessione:**
 
-Per iniziare, è necessario ottenere il codice di pagamento del Paynym del destinatario per il Payjoin. Nell'applicazione Samourai Wallet, il destinatario deve toccare l'icona del loro Paynym (il piccolo robot) situata in alto a sinistra dello schermo, e quindi fare clic sul loro nickname Paynym, che inizia con `+...`. Ad esempio, il mio è `+namelessmode0aF`. Se il tuo collaboratore utilizza Sparrow Wallet, ti invito a consultare il nostro tutorial dedicato cliccando qui.
+Per iniziare, è necessario ottenere il codice di pagamento del Paynym del destinatario per il Payjoin. Nell'applicazione Samourai Wallet, il destinatario deve toccare l'icona del suo Paynym (il piccolo robot) situata in alto a sinistra dello schermo, e quindi fare clic sul loro nickname Paynym, che inizia con `+...`. Ad esempio, il mio è `+namelessmode0aF`. Se il tuo collaboratore utilizza Sparrow Wallet, ti invito a consultare il nostro tutorial dedicato cliccando qui.
 
 ![connexion paynym samourai](assets/notext/2.webp)
 
@@ -60,13 +60,13 @@ Dal tuo lato, avvia l'applicazione Samourai Wallet e accedi al menu "PayNyms" al
 
 Quindi fai clic sul "+" blu in basso a destra dello schermo.
 ![ajouter paynym collaborateur](assets/notext/4.webp)
-Puoi quindi incollare il codice di pagamento del tuo collaboratore selezionando `COLLER LE CODE PAIEMENT`, o aprire la fotocamera per scansionare il loro codice QR premendo `SCANNEZ LE CODE QR`.![paste paynym identifier](assets/notext/5.webp)
+Puoi quindi incollare il codice di pagamento del tuo collaboratore selezionando `INCOLLA IL CODICE DI PAGAMENTO`, o aprire la fotocamera per scansionare il loro codice QR premendo `SCANNERRIZA IL QR CODE`.![paste paynym identifier](assets/notext/5.webp)
 
-Fai clic sul pulsante `SUIVRE`.
+Fai clic sul pulsante `AVANTI`.
 ![follow paynym](assets/notext/6.webp)
 Conferma facendo clic su `YES`.
 ![confirm follow paynym](assets/notext/7.webp)
-Il software ti offrirà quindi un pulsante `SE CONNECTER`. Non è necessario fare clic su questo pulsante per il nostro tutorial. Questo passaggio è richiesto solo se hai intenzione di effettuare pagamenti all'altro Paynym nell'ambito del BIP47, che non è correlato al nostro tutorial.
+Il software ti offrirà quindi un pulsante `CONNETTI`. Non è necessario fare clic su questo pulsante per il nostro tutorial. Questo passaggio è richiesto solo se hai intenzione di effettuare pagamenti all'altro Paynym nell'ambito del BIP47, che non è correlato al nostro tutorial.
 ![connect paynym](assets/notext/8.webp)
 Una volta che il Paynym del destinatario è seguito dal tuo Paynym, ripeti questa operazione in direzione opposta in modo che il destinatario ti segua anche. Puoi quindi effettuare un Payjoin.
 

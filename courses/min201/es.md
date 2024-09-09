@@ -753,6 +753,7 @@ El resultado final es una tasa de hashing más alta por vatio de electricidad, l
 ## Danos tu opinión sobre este curso
 <chapterId>6af13742-df68-5cf4-b7aa-93dc0c2eaae9</chapterId>
 <isCourseReview>true</isCourseReview>
+
 ## Controlar un Antminer S9 desde un smartphone
 <chapterId>6e7c234a-a445-5070-b087-531d16c42107</chapterId>
 

@@ -7,7 +7,6 @@ objectives:
   - Methoden und Werkzeuge zum Schutz Ihrer Privatsphäre bei Bitcoin anwenden
   - Kettenanalysemethoden verstehen und Verteidigungsstrategien entwickeln
 ---
-
 # Schützen Sie Ihre Privatsphäre bei Bitcoin
 
 In einer Welt, in der die Privatsphäre finanzieller Transaktionen allmählich zum Luxus wird, ist es wesentlich, die Prinzipien des Datenschutzes bei der Nutzung von Bitcoin zu verstehen und zu beherrschen. Diese Schulung gibt Ihnen alle theoretischen und praktischen Schlüssel, um dies autonom zu erreichen.
@@ -59,13 +58,11 @@ Wie können wir über Datenschutz bei Bitcoin sprechen, ohne Coinjoins zu diskut
 ### Abschnitt 5: Verständnis der Einsätze anderer fortgeschrittener Datenschutztechniken
 
 Im fünften Abschnitt werden wir einen Überblick über alle anderen bestehenden Techniken zum Schutz Ihrer Privatsphäre bei Bitcoin geben, abgesehen von CoinJoin. Im Laufe der Jahre haben Entwickler bemerkenswerte Kreativität bei der Entwicklung von Werkzeugen zum Schutz der Privatsphäre gezeigt. Wir werden all diese Methoden untersuchen, wie PayJoin, kollaborative Transaktionen, Coin Swap und Atomic Swap, und ihre Funktionsweise, Ziele und potenzielle Schwächen detailliert beschreiben.
-![BTC204](assets/de/11/5.webp)
 
-### Abschnitt 6: Erkundung von Protokollverbesserungsvorschlägen im Zusammenhang mit Privatsphäre
+Wir werden auch die Privatsphäre auf der Ebene des Knotennetzwerks und die Verbreitung von Transaktionen ansprechen. Wir werden auch die verschiedenen Protokolle diskutieren, die im Laufe der Jahre vorgeschlagen wurden, um die Privatsphäre der Benutzer auf Bitcoin zu verbessern, einschließlich statischer Adressprotokolle.
 
-Während sich die vorherigen Abschnitte auf Lösungen zur Privatsphäre auf Anwendungsebene konzentrierten, wird dieser sechste Abschnitt die Datenschutzprobleme auf der Ebene von Bitcoin Core für die Privatsphäre der Nutzer untersuchen. Wir werden den Datenschutz auf der Ebene des Netzwerks von Knoten und die Übertragung von Transaktionen diskutieren. Außerdem werden wir die verschiedenen Protokolle, die im Laufe der Jahre vorgeschlagen wurden, um die Privatsphäre der Nutzer bei Bitcoin zu verbessern, einschließlich statischer Adressprotokolle, besprechen. Abschließend werden wir die Auswirkungen auf die Privatsphäre, sowohl positive als auch negative, des letzten großen Soft Forks von Bitcoin, Taproot, untersuchen.
+![BTC204](assets/notext/11/5.webp)
 
-![BTC204](assets/notext/67/07.webp)
 
 # Definitionen und Schlüsselkonzepte
 
@@ -1103,7 +1100,10 @@ All diese Methoden der automatischen UTXO-Auswahl können effektiv sein, um Tran
 
 ### Tutorial zur UTXO-Beschriftung
 
-Wenn Sie lernen möchten, wie Sie Ihre UTXOs beschriften, haben wir ein komplettes Tutorial zur vorhandenen Bitcoin-Wallet-Software erstellt. Finden Sie es [hier durch Klicken](https://planb.network/tutorials/privacy/utxo-labelling).
+Wenn Sie erfahren möchten, wie Sie Ihre UTXOs etikettieren können, haben wir ein vollständiges Tutorial zu den wichtigsten Bitcoin-Wallet-Softwarelösungen erstellt:
+
+https://planb.network/tutorials/privacy/utxo-labelling
+
 
 ## KYC und Schlüsselidentifikation
 
@@ -1433,7 +1433,7 @@ Am Ende der Transaktion wird es unmöglich, einen spezifischen Ausgang mit einem
 ![BTC204](assets/notext/51/04.webp)
 Lassen Sie uns das Beispiel von Alice nehmen. Sie möchte etwa 100.000 Sats an ihre Schwester Eve zu ihrem Geburtstag senden. Allerdings möchte Alice nicht, dass Eve die Historie ihrer Transaktionen nachverfolgen kann, da sie nicht offenlegen möchte, wie viele Bitcoins sie besitzt oder wie sie diese erhalten hat. Um dies zu tun, entscheidet sich Alice, die Historie ihres UTXO mit einer Coinjoin-Transaktion zu unterbrechen. Sie organisiert mit Bob, Charles, David und Frank eine kollaborative Transaktion:
 
-- Alice, Bob, Charles, David und Frank verpflichten sich jeweils einen UTXO von 100.500 Sats (mit 500 Sats für Mining-Gebühren) als Eingaben für die Transaktion:
+- Alice, Bob, Charles, David und Frank verpflichten sich jeweils einen UTXO von 105.000 Sats (mit 5.000 Sats für Mining-Gebühren) als Eingaben für die Transaktion:
 
 ![BTC204](assets/notext/51/05.webp)
 
@@ -1841,6 +1841,12 @@ Wir verfolgen die Entwicklung dieses Falls sowie Entwicklungen bezüglich zugeh�
 
 Im nächsten Kapitel werden wir entdecken, was "Anonsets" sind, wie diese Indikatoren berechnet werden und wie sie uns helfen können, die Wirksamkeit von Coinjoin-Zyklen einzuschätzen.
 
+https://planb.network/tutorials/privacy/coinjoin-sparrow-wallet
+
+https://planb.network/tutorials/privacy/coinjoin-samourai-wallet
+
+https://planb.network/tutorials/privacy/coinjoin-dojo
+
 ## Anonymitätssets
 
 <chapterId>be1093dc-1a74-40e5-9545-2b97a7d7d431</chapterId>
@@ -1905,6 +1911,8 @@ Es ist möglich, seine Anonsets manuell mit einem Block-Explorer für kleine Set
 ![BTC204](assets/notext/55/09.webp)
 
 Wie wir in diesem Kapitel gesehen haben, können Anonsets nur berechnet werden, wenn es eine gewisse Homogenität in der Struktur der Coinjoins gibt. Und genau das werden wir im nächsten Kapitel entdecken, wie man diese Homogenität in einer Bitcoin-Transaktion quantifiziert, egal ob es sich um einen Coinjoin oder eine traditionellere Transaktion handelt.
+
+https://planb.network/tutorials/privacy/wst-anonsets
 
 ## Entropie
 
@@ -2136,6 +2144,8 @@ Leider sind diese Tools derzeit nicht betriebsbereit, nachdem die Gründer von S
 
 Nun, da wir Coinjoins im Detail besprochen haben, werden wir im letzten Abschnitt unseres Trainings andere verfügbare Datenschutztechniken bei Bitcoin erkunden. Wir werden Payjoins, spezifische Transaktionstypen Pseudo-Coinjoins, statische Adressprotokolle sowie Maßnahmen untersuchen, die darauf abzielen, die Privatsphäre nicht auf Transaktionsebene, sondern auf der Ebene des Netzwerks von Knoten zu verbessern.
 
+https://planb.network/tutorials/privacy/boltzmann-entropy
+
 # Verständnis der Herausforderungen anderer fortgeschrittener Datenschutztechniken
 <partId>19989ae6-d608-4acf-b698-2cf1e7e5e6ae</partId>
 
@@ -2203,7 +2213,11 @@ Die Schwierigkeit bei der Verwendung von Payjoin liegt in seiner Abhängigkeit v
 
 Eine Lösung wäre die Verwendung von Transaktionsstrukturen, die in der Kettenanalyse Ambiguität einführen, ohne die Zusammenarbeit des Empfängers zu erfordern. Dies würde es uns ermöglichen, die Privatsphäre unserer Zahlungen zu verbessern, ohne auf die aktive Teilnahme von Händlern angewiesen zu sein. Genau das werden wir im nächsten Kapitel untersuchen.
 
-## Mini-Payjoin Coinjoins
+https://planb.network/tutorials/privacy/payjoin-sparrow-wallet
+
+https://planb.network/tutorials/privacy/payjoin-samourai-wallet
+
+## Mini-Coinjoins für Zahlungen
 <chapterId>300777ee-30ae-43d7-ab00-479dac3522c1</chapterId>
 
 Wenn man eine Zahlungstransaktion durchführen möchte, während man einen gewissen Grad an Privatsphäre bewahrt, ist Payjoin eine gute Option. Aber wie wir gesehen haben, erfordert Payjoin die Beteiligung des Empfängers. Was tun, wenn dieser sich weigert, an einem Payjoin teilzunehmen, oder wenn man es einfach vorzieht, ihn nicht einzubeziehen? Eine Alternative ist die Verwendung einer Stonewall- oder Stonewall x2-Transaktion. Lassen Sie uns diese beiden Arten von Transaktionen genauer betrachten.
@@ -2303,6 +2317,10 @@ Es ist auch möglich, diesen Typ von Transaktion manuell von jeder Bitcoin-Walle
 
 Im nächsten Kapitel werden wir eine weitere Datenschutztechnik untersuchen, die relativ unbekannt ist, aber zusätzlich zu dem, was wir bereits studiert haben, sehr nützlich ist.
 
+https://planb.network/tutorials/privacy/stonewall
+
+https://planb.network/tutorials/privacy/stonewall-x2
+
 ## Ricochets
 
 <chapterId>db9a20ac-a149-443d-884b-ea6c03f28499</chapterId>
@@ -2364,6 +2382,8 @@ Ricochet besteht einfach darin, Bitcoins an sich selbst zu senden. Es ist durcha
 
 Im folgenden Kapitel erkunden wir verschiedene Techniken für geheime Eigentumsübertragungen. Diese Methoden unterscheiden sich radikal von denen, die wir bisher untersucht haben, sowohl in Bezug auf die Funktionsweise als auch die Ergebnisse.
 
+https://planb.network/tutorials/privacy/ricochet
+ 
 ## Geheime Eigentumsübertragungen
 <chapterId>a2067036-849c-4d6b-87d2-44235cfae7a1</chapterId>
 
@@ -3271,6 +3291,8 @@ Bob kann dann Alice auf die gleiche Weise eine Rückerstattung senden, wie sie i
 ![BTC204](assets/de/66/26.webp)
 _Ein großes Dankeschön an [Fanis Michalakis](https://x.com/FanisMichalakis) für seine Überprüfung und wertvollen Expertenrat zu dem Artikel, der die Inspiration für das Schreiben dieses Kapitels war!_
 
+https://planb.network/tutorials/privacy/paynym-bip47
+
 ## Stille Zahlungen
 
 <chapterId>2871d594-414e-4598-a830-91c9eb84dfb8</chapterId>
@@ -3637,6 +3659,7 @@ _Um dieses Kapitel über Silent Payments zu erstellen, habe ich [die Silent Paym
 ## Geben Sie uns Ihr Feedback zu diesem Kurs
 <chapterId>195d149f-80fa-5816-8b46-995a9226d082</chapterId>
 <isCourseReview>true</isCourseReview>
+
 ## Schlussfolgerung
 
 <chapterId>cd8e5c67-50e4-4dcd-8e04-88ba5ec95305</chapterId>

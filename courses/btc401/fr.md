@@ -276,6 +276,7 @@ Le groupe Lighting Walker présente sa solution pour un service de transfert d'a
 ## Donnez-nous votre avis sur ce cours
 <chapterId>7f4f46e2-de71-5387-8609-9785fb9e5946</chapterId>
 <isCourseReview>true</isCourseReview>
+
 ## Remerciements
 <chapterId>33cb95cf-91d1-555b-a33b-0e3bd6745c33</chapterId>
 

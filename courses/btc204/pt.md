@@ -7,7 +7,6 @@ objectives:
   - Utilizar métodos e ferramentas para proteger sua privacidade no Bitcoin
   - Compreender os métodos de análise de cadeia e desenvolver estratégias de defesa
 ---
-
 # Proteja Sua Privacidade no Bitcoin
 
 Em um mundo onde a privacidade das transações financeiras está gradualmente se tornando um luxo, entender e dominar os princípios de proteção da privacidade no seu uso do Bitcoin é essencial. Este treinamento oferece todas as chaves, tanto teóricas quanto práticas, para alcançar isso de forma autônoma.
@@ -63,13 +62,10 @@ Como podemos falar sobre privacidade no Bitcoin sem discutir coinjoins? Na seç�
 
 ### Seção 5: Entendendo os Desafios de Outras Técnicas Avançadas de Privacidade
 Na quinta seção, forneceremos uma visão geral de todas as outras técnicas existentes para proteger sua privacidade no Bitcoin, além do coinjoin. Ao longo dos anos, os desenvolvedores demonstraram uma criatividade notável ao projetar ferramentas dedicadas à privacidade. Examinaremos todos esses métodos, como payjoin, transações colaborativas, Coin Swap e Atomic Swap, detalhando seu funcionamento, objetivos e potenciais fraquezas.
-![BTC204](assets/pt/11/5.webp)
 
-### Seção 6: Explorando Propostas de Melhoria de Protocolo Relacionadas à Privacidade
+Também abordaremos a privacidade no nível da rede de nós e a disseminação de transações. Também discutiremos os vários protocolos que foram propostos ao longo dos anos para aumentar a privacidade dos usuários no Bitcoin, incluindo protocolos de endereços estáticos.
 
-Enquanto as seções anteriores focaram em soluções de privacidade no nível de aplicação, esta sexta seção mergulhará nas questões de privacidade no nível do Bitcoin Core para a privacidade dos usuários. Discutiremos a privacidade na rede de nós e a transmissão de transações. Também discutiremos os vários protocolos que foram propostos ao longo dos anos para aprimorar a privacidade dos usuários no Bitcoin, incluindo protocolos de endereço estático. Para concluir, examinaremos os impactos na privacidade, tanto positivos quanto negativos, do último grande soft fork do Bitcoin, o Taproot.
-
-![BTC204](assets/notext/67/07.webp)
+![BTC204](assets/notext/11/5.webp)
 
 # Definições e Conceitos Chave
 <partId>b9bbbde3-34c0-4851-83e8-e2ffb029cf31</partId>
@@ -1064,7 +1060,10 @@ Todos esses métodos de seleção automática de UTXO podem ser eficazes na redu
 
 ### Tutorial sobre Etiquetagem de UTXO
 
-Se você quer aprender como etiquetar seus UTXOs, fizemos um tutorial completo sobre o principal software de carteira Bitcoin existente. Encontre-o [clicando aqui](https://planb.network/tutorials/privacy/utxo-labelling).
+Se você deseja descobrir como rotular seus UTXOs, nós fizemos um tutorial completo sobre os principais softwares de carteira Bitcoin existentes:
+
+https://planb.network/tutorials/privacy/utxo-labelling
+
 
 ## KYC e Identificação de Chave
 <chapterId>cec6b9d9-0eed-4f85-bc4e-1e9aa59ca605</chapterId>
@@ -1390,7 +1389,7 @@ O princípio do coinjoin se baseia em uma abordagem colaborativa: vários usuár
 Ao final da transação, torna-se impossível associar uma saída específica a um usuário conhecido na entrada. Não existe um vínculo direto entre as entradas e saídas, o que quebra a associação entre os usuários e seus UTXOs, bem como o histórico de cada moeda.
 
 ![BTC204](assets/notext/51/04.webp)
-Vamos tomar o exemplo de Alice. Ela quer enviar cerca de 100.000 sats para sua irmã Eve pelo aniversário dela. No entanto, Alice não quer que Eve consiga rastrear o histórico de suas transações porque ela não quer revelar quantos bitcoins ela possui ou como os obteve. Para fazer isso, Alice decide quebrar o histórico do seu UTXO com uma transação coinjoin. Ela organiza com Bob, Charles, David e Frank para realizar uma transação colaborativa: - Alice, Bob, Charles, David e Frank cada um compromete um UTXO de 100.500 sats (com 500 sats para taxas de mineração) como entradas para a transação:
+Vamos tomar o exemplo de Alice. Ela quer enviar cerca de 100.000 sats para sua irmã Eve pelo aniversário dela. No entanto, Alice não quer que Eve consiga rastrear o histórico de suas transações porque ela não quer revelar quantos bitcoins ela possui ou como os obteve. Para fazer isso, Alice decide quebrar o histórico do seu UTXO com uma transação coinjoin. Ela organiza com Bob, Charles, David e Frank para realizar uma transação colaborativa: - Alice, Bob, Charles, David e Frank cada um compromete um UTXO de 105.000 sats (com 5.000 sats para taxas de mineração) como entradas para a transação:
 
 ![BTC204](assets/notext/51/05.webp)
 
@@ -1776,6 +1775,12 @@ Estamos acompanhando de perto a evolução deste caso, bem como os desenvolvimen
 
 No próximo capítulo, descobriremos o que são "anonsets", como esses indicadores são calculados e como eles podem nos ajudar a estimar a eficácia dos ciclos de coinjoin.
 
+https://planb.network/tutorials/privacy/coinjoin-sparrow-wallet
+
+https://planb.network/tutorials/privacy/coinjoin-samourai-wallet
+
+https://planb.network/tutorials/privacy/coinjoin-dojo
+
 ## Conjuntos de Anonimato
 <chapterId>be1093dc-1a74-40e5-9545-2b97a7d7d431</chapterId>
 
@@ -1835,6 +1840,8 @@ Por exemplo, vamos imaginar que nossa moeda na saída do ciclo de coinjoin benef
 ![BTC204](assets/notext/55/09.webp)
 
 Como vimos neste capítulo, os anonsets só podem ser calculados se houver uma certa homogeneidade na estrutura dos coinjoins. E precisamente, no próximo capítulo, descobriremos como quantificar esta homogeneidade em uma transação Bitcoin, seja ela um coinjoin ou uma transação mais tradicional.
+
+https://planb.network/tutorials/privacy/wst-anonsets
 
 ## Entropia
 <chapterId>e4fe289d-618b-49a2-84c9-68c562e708b4</chapterId>
@@ -2055,6 +2062,8 @@ Infelizmente, após a prisão dos fundadores da Samourai, essas ferramentas atua
 
 Agora que discutimos coinjoins em detalhes, exploraremos outras técnicas de privacidade disponíveis no Bitcoin na última seção do nosso treinamento. Examinaremos payjoins, tipos específicos de transações pseudo-coinjoins, protocolos de endereço estático, bem como medidas voltadas para aprimorar a privacidade não no nível da transação, mas no nível da rede de nós.
 
+https://planb.network/tutorials/privacy/boltzmann-entropy
+
 # Entendendo os desafios de outras técnicas avançadas de privacidade
 <partId>19989ae6-d608-4acf-b698-2cf1e7e5e6ae</partId>
 
@@ -2130,7 +2139,11 @@ A dificuldade de usar payjoin reside na sua dependência da participação do co
 
 Uma solução seria usar estruturas transacionais que introduzem ambiguidade na análise da cadeia sem requerer a cooperação do destinatário. Isso nos permitiria melhorar a privacidade dos nossos pagamentos sem depender da participação ativa dos comerciantes. É precisamente isso que estudaremos no próximo capítulo.
 
-## Mini-Payjoin Coinjoins
+https://planb.network/tutorials/privacy/payjoin-sparrow-wallet
+
+https://planb.network/tutorials/privacy/payjoin-samourai-wallet
+
+## Mini-coinjoins de pagamento
 <chapterId>300777ee-30ae-43d7-ab00-479dac3522c1</chapterId>
 
 Ao procurar fazer uma transação de pagamento preservando um certo grau de privacidade, payjoin é uma boa opção. Mas como vimos, payjoin requer o envolvimento do destinatário. O que fazer então se este se recusar a participar em um payjoin, ou se simplesmente preferir não envolvê-lo? Uma alternativa é usar uma transação Stonewall ou Stonewall x2. Vamos dar uma olhada mais de perto nestes dois tipos de transações.
@@ -2230,6 +2243,10 @@ Também é possível realizar manualmente este tipo de transação a partir de q
 
 No próximo capítulo, estudaremos outra técnica de privacidade que é relativamente desconhecida, mas é muito útil além do que já estudamos.
 
+https://planb.network/tutorials/privacy/stonewall
+
+https://planb.network/tutorials/privacy/stonewall-x2
+ 
 ## Ricochetes
 
 <chapterId>db9a20ac-a149-443d-884b-ea6c03f28499</chapterId>
@@ -2289,6 +2306,8 @@ Ricochete simplesmente envolve enviar bitcoins para si mesmo. É totalmente poss
 
 No capítulo seguinte, exploramos diferentes técnicas para transferências secretas de propriedade. Estes métodos diferem radicalmente daqueles que examinamos até agora, tanto em termos de operação quanto de resultados.
 
+https://planb.network/tutorials/privacy/ricochet
+ 
 ## Transferências Secretas de Propriedade
 <chapterId>a2067036-849c-4d6b-87d2-44235cfae7a1</chapterId>
 
@@ -3133,6 +3152,9 @@ Bob pode então reembolsar Alice da mesma forma que ela lhe enviou pagamentos. O
 
 ![BTC204](assets/pt/66/26.webp)
 *Um grande agradecimento a [Fanis Michalakis](https://x.com/FanisMichalakis) por sua revisão e valioso conselho especializado sobre o artigo que inspirou a escrita deste capítulo!*
+
+https://planb.network/tutorials/privacy/paynym-bip47
+
 ## Pagamentos Silenciosos
 <chapterId>2871d594-414e-4598-a830-91c9eb84dfb8</chapterId>
 O BIP47 tem sido criticado por sua ineficiência na blockchain. Como explicado no capítulo anterior, ele requer uma transação de notificação para cada novo destinatário. Esta restrição torna-se negligenciável se alguém planeja estabelecer um canal de pagamento duradouro com este destinatário. De fato, uma única transação de notificação abre caminho para um número quase infinito de pagamentos BIP47 subsequentes.
@@ -3477,6 +3499,7 @@ Como essa funcionalidade é recente, é aconselhável exercer cautela e evitar u
 ## Dê-nos seu feedback sobre este curso
 <chapterId>195d149f-80fa-5816-8b46-995a9226d082</chapterId>
 <isCourseReview>true</isCourseReview>
+
 ## Conclusão
 <chapterId>cd8e5c67-50e4-4dcd-8e04-88ba5ec95305</chapterId>
 

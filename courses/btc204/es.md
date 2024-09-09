@@ -7,7 +7,6 @@ objectives:
   - Utilizar métodos y herramientas para proteger tu privacidad en Bitcoin
   - Entender los métodos de análisis de cadena y desarrollar estrategias de defensa
 ---
-
 # Protege Tu Privacidad en Bitcoin
 
 En un mundo donde la privacidad de las transacciones financieras se está convirtiendo gradualmente en un lujo, entender y dominar los principios de protección de la privacidad en tu uso de Bitcoin es esencial. Este entrenamiento te brinda todas las claves, tanto teóricas como prácticas, para lograrlo de manera autónoma.
@@ -66,13 +65,12 @@ En la tercera sección de nuestro entrenamiento, llegamos al meollo del asunto: 
 
 ### Sección 5: Entendiendo los Desafíos de Otras Técnicas Avanzadas de Privacidad
 
-En la quinta sección, proporcionaremos una visión general de todas las demás técnicas existentes para proteger tu privacidad en Bitcoin, aparte de coinjoin. A lo largo de los años, los desarrolladores han mostrado una creatividad notable en el diseño de herramientas dedicadas a la privacidad. Examinaremos todos estos métodos, como payjoin, transacciones colaborativas, Coin Swap y Atomic Swap, detallando su funcionamiento, objetivos y posibles debilidades. ![BTC204](assets/es/11/5.webp)
+En la quinta sección, proporcionaremos una visión general de todas las demás técnicas existentes para proteger tu privacidad en Bitcoin, aparte de coinjoin. A lo largo de los años, los desarrolladores han mostrado una creatividad notable en el diseño de herramientas dedicadas a la privacidad. Examinaremos todos estos métodos, como payjoin, transacciones colaborativas, Coin Swap y Atomic Swap, detallando su funcionamiento, objetivos y posibles debilidades. 
 
-### Sección 6: Explorando Propuestas de Mejora del Protocolo Relacionadas con la Privacidad
+También abordaremos la privacidad a nivel de la red de nodos y la difusión de las transacciones. También discutiremos los diferentes protocolos que se han propuesto a lo largo de los años para mejorar la privacidad de los usuarios en Bitcoin, incluidos los protocolos de direcciones estáticas.
 
-Mientras que las secciones anteriores se centraron en soluciones de privacidad a nivel de aplicación, esta sexta sección profundizará en los problemas de privacidad a nivel de Bitcoin Core para la privacidad de los usuarios. Discutiremos la privacidad en la red de nodos y la transmisión de transacciones. También discutiremos los diversos protocolos que se han propuesto a lo largo de los años para mejorar la privacidad de los usuarios en Bitcoin, incluyendo protocolos de dirección estática. Para concluir, examinaremos los impactos en la privacidad, tanto positivos como negativos, del último gran soft fork de Bitcoin, Taproot.
+![BTC204](assets/notext/11/5.webp)
 
-![BTC204](assets/notext/67/07.webp)
 
 # Definiciones y Conceptos Clave
 
@@ -1115,7 +1113,10 @@ Todos estos métodos de selección automática de UTXO pueden ser efectivos en r
 
 ### Tutorial sobre Etiquetado de UTXO
 
-Si quieres aprender cómo etiquetar tus UTXOs, hemos realizado un tutorial completo sobre el principal software de billetera Bitcoin existente. Encuéntralo [haciendo clic aquí](https://planb.network/tutorials/privacy/utxo-labelling).
+Si desea descubrir cómo etiquetar sus UTXOs, hemos hecho un tutorial completo sobre los principales softwares de monedero de Bitcoin existentes:
+
+https://planb.network/tutorials/privacy/utxo-labelling
+
 
 ## KYC y Identificación Clave
 
@@ -1451,7 +1452,7 @@ El principio del coinjoin se basa en un enfoque colaborativo: varios usuarios qu
 Al final de la transacción, se vuelve imposible asociar una salida específica con un usuario conocido en entrada. No existe un vínculo directo entre las entradas y salidas, lo que rompe la asociación entre los usuarios y sus UTXOs, así como el historial de cada moneda.
 
 ![BTC204](assets/notext/51/04.webp)
-Tomemos el ejemplo de Alice. Ella quiere enviar alrededor de 100,000 sats a su hermana Eve por su cumpleaños. Sin embargo, Alice no quiere que Eve pueda rastrear el historial de sus transacciones porque no quiere revelar cuántos bitcoins posee o cómo los obtuvo. Para hacer esto, Alice decide romper el historial de su UTXO con una transacción coinjoin. Se organiza con Bob, Charles, David y Frank para llevar a cabo una transacción colaborativa: Alice, Bob, Charles, David y Frank comprometen cada uno un UTXO de 100,500 sats (con 500 sats para las tarifas de minería) como entradas para la transacción:
+Tomemos el ejemplo de Alice. Ella quiere enviar alrededor de 100,000 sats a su hermana Eve por su cumpleaños. Sin embargo, Alice no quiere que Eve pueda rastrear el historial de sus transacciones porque no quiere revelar cuántos bitcoins posee o cómo los obtuvo. Para hacer esto, Alice decide romper el historial de su UTXO con una transacción coinjoin. Se organiza con Bob, Charles, David y Frank para llevar a cabo una transacción colaborativa: Alice, Bob, Charles, David y Frank comprometen cada uno un UTXO de 105,000 sats (con 5,000 sats para las tarifas de minería) como entradas para la transacción:
 
 ![BTC204](assets/notext/51/05.webp)
 
@@ -1859,6 +1860,12 @@ Estamos siguiendo de cerca la evolución de este caso, así como los desarrollos
 
 En el próximo capítulo, descubriremos qué son los "anonsets", cómo se calculan estos indicadores y cómo pueden ayudarnos a estimar la efectividad de los ciclos de coinjoin.
 
+https://planb.network/tutorials/privacy/coinjoin-sparrow-wallet
+
+https://planb.network/tutorials/privacy/coinjoin-samourai-wallet
+
+https://planb.network/tutorials/privacy/coinjoin-dojo
+
 ## Conjuntos de Anonimato
 
 <chapterId>be1093dc-1a74-40e5-9545-2b97a7d7d431</chapterId>
@@ -1923,6 +1930,8 @@ Es posible calcular manualmente los anonsets usando un explorador de bloques par
 ![BTC204](assets/notext/55/09.webp)
 
 Como hemos visto en este capítulo, los anonsets solo se pueden calcular si hay cierta homogeneidad en la estructura de los coinjoins. Y precisamente, en el próximo capítulo, descubriremos cómo cuantificar esta homogeneidad en una transacción de Bitcoin, ya sea un coinjoin o una transacción más tradicional.
+
+https://planb.network/tutorials/privacy/wst-anonsets
 
 ## Entropía
 
@@ -2149,6 +2158,8 @@ Desafortunadamente, tras el arresto de los fundadores de Samourai, estas herrami
 
 Ahora que hemos discutido los coinjoins en detalle, exploraremos otras técnicas de privacidad disponibles en Bitcoin en la última sección de nuestra formación. Examinaremos las transacciones payjoin, tipos de transacciones específicas pseudo-coinjoins, protocolos de dirección estática, así como medidas destinadas a mejorar la privacidad no a nivel de transacción, sino en la red de nodos.
 
+https://planb.network/tutorials/privacy/boltzmann-entropy
+
 # Entendiendo las implicaciones de otras técnicas avanzadas de privacidad
 <partId>19989ae6-d608-4acf-b698-2cf1e7e5e6ae</partId>
 
@@ -2224,7 +2235,11 @@ La dificultad de usar payjoin radica en su dependencia de la participación del 
 
 Una solución sería usar estructuras transaccionales que introduzcan ambigüedad en el análisis de la cadena sin requerir la cooperación del destinatario. Esto nos permitiría mejorar la privacidad de nuestros pagos sin depender de la participación activa de los comerciantes. Esto es precisamente lo que estudiaremos en el próximo capítulo.
 
-## Mini-Payjoin Coinjoins
+https://planb.network/tutorials/privacy/payjoin-sparrow-wallet
+
+https://planb.network/tutorials/privacy/payjoin-samourai-wallet
+
+## Mini-coinjoins de pago
 <chapterId>300777ee-30ae-43d7-ab00-479dac3522c1</chapterId>
 
 Cuando se busca realizar una transacción de pago preservando cierto grado de privacidad, payjoin es una buena opción. Pero como hemos visto, payjoin requiere la implicación del destinatario. ¿Qué hacer entonces si este último se niega a participar en un payjoin, o si simplemente prefieres no involucrarlo? Una alternativa es usar una transacción Stonewall o Stonewall x2. Veamos más de cerca estos dos tipos de transacciones.
@@ -2324,6 +2339,11 @@ También es posible realizar manualmente este tipo de transacción desde cualqui
 
 En el próximo capítulo, estudiaremos otra técnica de privacidad que es relativamente desconocida, pero es muy útil además de lo que ya hemos estudiado.
 
+
+https://planb.network/tutorials/privacy/stonewall
+
+https://planb.network/tutorials/privacy/stonewall-x2
+
 ## Ricochets
 <chapterId>db9a20ac-a149-443d-884b-ea6c03f28499</chapterId>
 
@@ -2382,6 +2402,8 @@ Ricochet simplemente implica enviar bitcoins a uno mismo. Es completamente posib
 
 En el siguiente capítulo, exploramos diferentes técnicas para transferencias secretas de propiedad. Estos métodos difieren radicalmente de los que hemos examinado hasta ahora, tanto en términos de operación como de resultados.
 
+https://planb.network/tutorials/privacy/ricochet
+ 
 ## Transferencias Secretas de Propiedad
 <chapterId>a2067036-849c-4d6b-87d2-44235cfae7a1</chapterId>
 
@@ -3297,6 +3319,8 @@ Bob puede entonces reembolsar a Alice de la misma manera que ella le envió pago
 ![BTC204](assets/es/66/26.webp)
 _Un gran agradecimiento a [Fanis Michalakis](https://x.com/FanisMichalakis) por su revisión y valiosos consejos expertos sobre el artículo que inspiró la escritura de este capítulo!_
 
+https://planb.network/tutorials/privacy/paynym-bip47
+
 ## Pagos Silenciosos
 
 <chapterId>2871d594-414e-4598-a830-91c9eb84dfb8</chapterId>
@@ -3664,6 +3688,7 @@ _Para crear este capítulo sobre Pagos Silenciosos, utilicé [el sitio de explic
 ## Danos tu opinión sobre este curso
 <chapterId>195d149f-80fa-5816-8b46-995a9226d082</chapterId>
 <isCourseReview>true</isCourseReview>
+
 ## Conclusión
 
 <chapterId>cd8e5c67-50e4-4dcd-8e04-88ba5ec95305</chapterId>

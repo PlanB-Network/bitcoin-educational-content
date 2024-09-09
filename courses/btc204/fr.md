@@ -69,13 +69,9 @@ Comment parler de confidentialité sur Bitcoin sans aborder les coinjoins ? Dans
 
 Dans la cinquième section, nous ferons un tour d'horizon de toutes les autres techniques existantes pour protéger votre vie privée sur Bitcoin, en dehors du coinjoin. Au fil des années, les développeurs ont fait preuve d'une créativité remarquable pour concevoir des outils dédiés à la confidentialité. Nous examinerons toutes ces méthodes, telles que le payjoin, les transactions collaboratives, le Coin Swap et l'Atomic Swap, en détaillant leur fonctionnement, leurs objectifs et leurs éventuelles faiblesses.
 
-![BTC204](assets/fr/11/5.webp)
+Nous aborderons également la confidentialité au niveau du réseau de nœuds et de la diffusion des transactions. Nous discuterons aussi des différents protocoles qui ont été proposés au fil des années pour renforcer la confidentialité des utilisateurs sur Bitcoin, notamment les protocoles d'adresses statiques.
 
-### Section 6 : Découvrir les propositions d'amélioration du protocole en lien avec la confidentialité
-
-Alors que les sections précédentes se concentraient sur les solutions de confidentialité applicatives, cette sixième section se penchera sur les enjeux au niveau de Bitcoin Core pour la vie privée des utilisateurs. Nous aborderons la confidentialité au niveau du réseau de nœuds et de la diffusion des transactions. Nous discuterons également des différents protocoles qui ont été proposés au fil des années pour renforcer la confidentialité des utilisateurs sur Bitcoin, notamment les protocoles d'adresses statiques. Pour conclure, nous examinerons les impacts sur la confidentialité, tant positifs que négatifs, du dernier grand soft fork de Bitcoin, Taproot.
-
-![BTC204](assets/notext/67/07.webp)
+![BTC204](assets/notext/11/5.webp)
 
 # Définitions et concepts clés
 <partId>b9bbbde3-34c0-4851-83e8-e2ffb029cf31</partId>
@@ -1194,7 +1190,9 @@ Toutes ces méthodes de sélection automatique des UTXOs peuvent être efficaces
 
 ### Tutoriel sur l'étiquetage des UTXOs
 
-Si vous souhaitez découvrir comment apposer une étiquette sur vos UTXOs, nous avons fait un tutoriel complet sur les principaux logiciels de portefeuille Bitcoin existants. Retrouvez-le [en cliquant ici](https://planb.network/tutorials/privacy/utxo-labelling).
+Si vous souhaitez découvrir comment apposer une étiquette sur vos UTXOs, nous avons fait un tutoriel complet sur les principaux logiciels de portefeuille Bitcoin existants : 
+
+https://planb.network/tutorials/privacy/utxo-labelling
 
 ## Le KYC et l'identification des clés
 <chapterId>cec6b9d9-0eed-4f85-bc4e-1e9aa59ca605</chapterId>
@@ -1569,7 +1567,7 @@ Le principe du coinjoin repose sur une approche collaborative : plusieurs utilis
 
 Prenons l'exemple d'Alice. Elle veut envoyer environ 100 000 sats à sa sœur Eve pour son anniversaire. Toutefois, Alice ne souhaite pas qu'Eve puisse tracer l'historique de ses transactions, car elle ne veut pas révéler combien de bitcoins elle détient ni comment elle les a obtenus. Pour cela, Alice décide de casser l'historique de son UTXO avec une transaction coinjoin. Elle s'organise avec Bob, Charles, David et Frank pour réaliser une transaction collaborative :
 
-- Alice, Bob, Charles, David et Frank engagent chacun un UTXO de 100 500 sats (avec 500 sats pour les frais de minage) comme inputs de la transaction :
+- Alice, Bob, Charles, David et Frank engagent chacun un UTXO de 105 000 sats (avec 5 000 sats pour les frais de minage) comme inputs de la transaction :
 
 ![BTC204](assets/notext/51/05.webp)
 
@@ -2004,6 +2002,12 @@ Nous suivons de près l'évolution de cette affaire ainsi que les développement
 
 Dans le chapitre suivant, nous allons découvrir ce que sont les "anonsets", comment ces indicateurs sont calculés, et en quoi ils peuvent nous aider pour estimer l'efficacité des cycles de coinjoins.
 
+https://planb.network/tutorials/privacy/coinjoin-sparrow-wallet
+
+https://planb.network/tutorials/privacy/coinjoin-samourai-wallet
+
+https://planb.network/tutorials/privacy/coinjoin-dojo
+
 ## Les ensembles d'anonymat
 <chapterId>be1093dc-1a74-40e5-9545-2b97a7d7d431</chapterId>
 
@@ -2072,6 +2076,8 @@ Il est possible de calculer manuellement ses anonsets avec un explorateur de blo
 ![BTC204](assets/notext/55/09.webp)
 
 Comme nous avons vu dans ce chapitre, les anonset ne peuvent être calculés que s'il existe une certaine homogénéité dans la structure des coinjoins. Et justement, nous allons découvrir dans le prochain chapitre comment quantifier cette homogénéité sur une transaction Bitcoin, qu'il s'agisse d'un coinjoin ou d'une transaction plus classique.
+
+https://planb.network/tutorials/privacy/wst-anonsets
 
 ## L'entropie
 <chapterId>e4fe289d-618b-49a2-84c9-68c562e708b4</chapterId>
@@ -2303,6 +2309,8 @@ Hélas, suite à l'arrestation des fondateurs de Samourai, ces outils ne sont pl
 
 Maintenant que nous avons abordé en détail les coinjoins, nous allons étudier les autres techniques de confidentialité disponibles sur Bitcoin dans la dernière section de notre formation. Nous examinerons les payjoins, les types de transactions spécifiques pseudo-coinjoins, les protocoles d'adresses statiques, ainsi que les mesures visant à renforcer la confidentialité non pas au niveau des transactions elles-mêmes, mais au niveau du réseau de nœuds.
 
+https://planb.network/tutorials/privacy/boltzmann-entropy
+
 # Connaître les enjeux d'autres techniques de confidentialité avancées
 <partId>19989ae6-d608-4acf-b698-2cf1e7e5e6ae</partId>
 
@@ -2388,6 +2396,10 @@ L'implémentation de payjoin la plus avancée était seulement les Stowaway sur 
 La difficulté d'utilisation du payjoin réside dans sa dépendance vis-à-vis de la participation du commerçant. En tant que client, l'utilisation d'un payjoin est impossible si le commerçant ne le prend pas en charge. Cela ajoute une difficulté supplémentaire lors d'un achat : non seulement il est compliqué de trouver des commerçants acceptant le bitcoin, mais si l'on cherche en plus ceux qui supportent les payjoins, cela devient encore plus compliqué.
 
 Une solution serait d'utiliser des structures transactionnelles qui introduisent de l'ambiguïté dans l'analyse de la chaîne sans nécessiter la coopération du destinataire. Cela nous permettrait d'améliorer la confidentialité de nos paiements sans dépendre de la participation active des commerçants. C'est justement ce que nous allons étudier dans le prochain chapitre.
+
+https://planb.network/tutorials/privacy/payjoin-sparrow-wallet
+
+https://planb.network/tutorials/privacy/payjoin-samourai-wallet
 
 ## Les mini-coinjoins de paiement
 <chapterId>300777ee-30ae-43d7-ab00-479dac3522c1</chapterId>
@@ -2500,6 +2512,10 @@ Il est également possible de réaliser manuellement ce type de transaction depu
 
 Dans le prochain chapitre, nous allons étudier une autre technique de confidentialité qui assez peu connue, mais qui est très utile en complément de ce que nous avons déjà étudié.
 
+https://planb.network/tutorials/privacy/stonewall
+
+https://planb.network/tutorials/privacy/stonewall-x2
+
 ## Les ricochets
 <chapterId>db9a20ac-a149-443d-884b-ea6c03f28499</chapterId>
 
@@ -2566,6 +2582,8 @@ Le ricochet consiste simplement à s'envoyer des bitcoins à soi-même. Il est d
 
 Dans le chapitre suivant, nous étudions différentes techniques de transferts secrets de propriété. Ces méthodes diffèrent radicalement de celles que nous avons examinées jusqu'à présent, tant en termes de fonctionnement que de résultats.
 
+https://planb.network/tutorials/privacy/ricochet
+ 
 ## Les transferts secrets de propriété
 <chapterId>a2067036-849c-4d6b-87d2-44235cfae7a1</chapterId>
 
@@ -3497,6 +3515,8 @@ Bob peut alors rembourser Alice de la même manière qu'elle lui a envoyé des p
 
 *Un grand merci à [Fanis Michalakis](https://x.com/FanisMichalakis) pour sa relecture et ses précieux conseils d'expert sur l'article qui a inspiré la rédaction de ce chapitre !*
 
+https://planb.network/tutorials/privacy/paynym-bip47
+
 ## Silent Payments
 <chapterId>2871d594-414e-4598-a830-91c9eb84dfb8</chapterId>
 
@@ -3874,6 +3894,7 @@ Puisque cette fonctionnalité est récente, il est conseillé de faire preuve de
 ## Donnez-nous votre avis sur ce cours
 <chapterId>195d149f-80fa-5816-8b46-995a9226d082</chapterId>
 <isCourseReview>true</isCourseReview>
+
 ## Conclusion
 <chapterId>cd8e5c67-50e4-4dcd-8e04-88ba5ec95305</chapterId>
 

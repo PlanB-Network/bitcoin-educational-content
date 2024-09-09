@@ -488,6 +488,7 @@ Dans le cadre du module de formation "Sécurité 101" de Découvre Bitcoin sur l
 ## Donnez-nous votre avis sur ce cours
 <chapterId>6be74d2d-2116-5386-9d92-c4c3e2103c68</chapterId>
 <isCourseReview>true</isCourseReview>
+
 ## Remerciements et continuez à creuser le terrier du lapin
 <chapterId>df3a962a-a96e-5006-b904-0dd9d4a072dd</chapterId>
 

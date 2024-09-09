@@ -1409,6 +1409,7 @@ Hayek uskoi, että yksityisten valuuttojen vapaa markkinatalous johtaisi suuremp
 ## Anna meille palautetta tästä kurssista
 <chapterId>6759868f-749d-5fe7-bbb1-24f603e8b34e</chapterId>
 <isCourseReview>true</isCourseReview>
+
 ## Johtopäätös: ideoiden voima
 
 <chapterId>50676155-c071-5bee-a14e-0c251f0375da</chapterId>

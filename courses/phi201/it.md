@@ -1340,6 +1340,7 @@ Hayek riteneva che un mercato libero di valute private avrebbe portato a una mag
 ## Dacci un feedback su questo corso
 <chapterId>6759868f-749d-5fe7-bbb1-24f603e8b34e</chapterId>
 <isCourseReview>true</isCourseReview>
+
 ## Conclusione: il potere delle idee
 
 <chapterId>50676155-c071-5bee-a14e-0c251f0375da</chapterId>

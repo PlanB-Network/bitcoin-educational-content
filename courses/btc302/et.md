@@ -1578,6 +1578,7 @@ Loomulikult **erinevad teistes riikides seadusandlus ja ühingute toimimine**. P
 ## Andke meile tagasisidet selle kursuse kohta
 <chapterId>08a35d2a-204b-519a-9bb1-588665a037fa</chapterId>
 <isCourseReview>true</isCourseReview>
+
 ## Hoolitse enda eest
 
 <chapterId>cf1631cb-ddbe-55c7-be8c-26a5652979a0</chapterId>

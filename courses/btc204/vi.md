@@ -7,7 +7,6 @@ objectives:
   - Sử dụng các phương pháp và công cụ để bảo vệ quyền riêng tư của bạn trên Bitcoin
   - Hiểu các phương pháp phân tích chuỗi và phát triển chiến lược phòng thủ
 ---
-
 # Bảo Vệ Quyền Riêng Tư Của Bạn Trên Bitcoin
 
 Trong một thế giới mà quyền riêng tư của các giao dịch tài chính dần trở thành một thứ xa xỉ, việc hiểu và thành thạo các nguyên tắc bảo vệ quyền riêng tư trong việc sử dụng Bitcoin của bạn là điều cần thiết. Khóa học này cung cấp cho bạn tất cả các chìa khóa, cả lý thuyết và thực hành, để đạt được điều này một cách tự chủ.
@@ -63,9 +62,9 @@ Làm sao chúng ta có thể nói về quyền riêng tư trên Bitcoin mà khô
 ### Phần 5: Hiểu về Các Kỹ Thuật Quyền Riêng Tư Nâng Cao Khác
 Trong phần thứ năm, chúng tôi sẽ cung cấp một cái nhìn tổng quan về tất cả các kỹ thuật khác hiện có để bảo vệ quyền riêng tư của bạn trên Bitcoin, ngoài coinjoin. Trải qua nhiều năm, các nhà phát triển đã thể hiện sự sáng tạo đáng kể trong việc thiết kế các công cụ dành riêng cho quyền riêng tư. Chúng tôi sẽ xem xét tất cả các phương pháp này, như payjoin, giao dịch hợp tác, Coin Swap và Atomic Swap, chi tiết về cách hoạt động, mục tiêu và điểm yếu tiềm ẩn.
 
-### Phần 6: Khám phá Đề xuất Cải tiến Giao thức Liên quan đến Quyền Riêng tư
+Chúng tôi cũng sẽ đề cập đến quyền riêng tư ở cấp độ mạng nút và sự phân phối của các giao dịch. Chúng tôi cũng sẽ thảo luận về các giao thức khác nhau đã được đề xuất trong những năm qua để tăng cường quyền riêng tư của người dùng trên Bitcoin, bao gồm các giao thức địa chỉ tĩnh.
 
-Trong khi các phần trước tập trung vào các giải pháp quyền riêng tư ở cấp độ ứng dụng, phần thứ sáu này sẽ đi sâu vào các vấn đề quyền riêng tư ở cấp độ của Bitcoin Core cho quyền riêng tư của người dùng. Chúng tôi sẽ thảo luận về quyền riêng tư ở cấp độ mạng lưới các nút và việc phát sóng các giao dịch. Chúng tôi cũng sẽ thảo luận về các giao thức đã được đề xuất trong nhiều năm để tăng cường quyền riêng tư của người dùng trên Bitcoin, bao gồm các giao thức địa chỉ tĩnh. Để kết luận, chúng tôi sẽ xem xét ảnh hưởng đối với quyền riêng tư, cả tích cực và tiêu cực, của soft fork lớn cuối cùng của Bitcoin, Taproot.
+![BTC204](assets/notext/11/5.webp)
 
 # Định nghĩa và Khái niệm Chính
 <partId>b9bbbde3-34c0-4851-83e8-e2ffb029cf31</partId>
@@ -1056,7 +1055,10 @@ Tất cả các phương pháp tự động lựa chọn UTXO này có thể hi�
 
 ### Hướng dẫn về Gắn Nhãn UTXO
 
-Nếu bạn muốn học cách gắn nhãn cho UTXO của mình, chúng tôi đã tạo một hướng dẫn đầy đủ về phần mềm ví Bitcoin chính hiện nay. Tìm hiểu [bằng cách nhấp vào đây](https://planb.network/tutorials/privacy/utxo-labelling).
+Nếu bạn muốn tìm hiểu cách gắn nhãn UTXO của mình, chúng tôi đã tạo một hướng dẫn hoàn chỉnh về các phần mềm ví Bitcoin chính hiện có:
+
+https://planb.network/tutorials/privacy/utxo-labelling
+
 
 ## KYC và Xác Định Khóa
 <chapterId>cec6b9d9-0eed-4f85-bc4e-1e9aa59ca605</chapterId>
@@ -1375,7 +1377,7 @@ Nguyên tắc của coinjoin dựa trên một cách tiếp cận hợp tác: nh
 Cuối cùng của giao dịch, việc liên kết một đầu ra cụ thể với một người dùng đã biết ở đầu vào trở nên không thể. Không có liên kết trực tiếp nào tồn tại giữa các đầu vào và đầu ra, điều này phá vỡ mối liên kết giữa người dùng và UTXO của họ, cũng như lịch sử của mỗi đồng tiền.
 
 ![BTC204](assets/notext/51/04.webp)
-Hãy lấy ví dụ về Alice. Cô ấy muốn gửi khoảng 100,000 sats cho chị gái mình, Eve, nhân dịp sinh nhật. Tuy nhiên, Alice không muốn Eve có thể truy vết lịch sử giao dịch của mình vì cô ấy không muốn tiết lộ số lượng bitcoin mình sở hữu hoặc cách cô ấy có được chúng. Để làm điều này, Alice quyết định phá vỡ lịch sử của UTXO của mình bằng một giao dịch coinjoin. Cô ấy tổ chức cùng với Bob, Charles, David và Frank để thực hiện một giao dịch hợp tác: Alice, Bob, Charles, David và Frank mỗi người cam kết một UTXO của 100,500 sats (với 500 sats cho phí khai thác) làm đầu vào cho giao dịch:
+Hãy lấy ví dụ về Alice. Cô ấy muốn gửi khoảng 100,000 sats cho chị gái mình, Eve, nhân dịp sinh nhật. Tuy nhiên, Alice không muốn Eve có thể truy vết lịch sử giao dịch của mình vì cô ấy không muốn tiết lộ số lượng bitcoin mình sở hữu hoặc cách cô ấy có được chúng. Để làm điều này, Alice quyết định phá vỡ lịch sử của UTXO của mình bằng một giao dịch coinjoin. Cô ấy tổ chức cùng với Bob, Charles, David và Frank để thực hiện một giao dịch hợp tác: Alice, Bob, Charles, David và Frank mỗi người cam kết một UTXO của 105,000 sats (với 5,000 sats cho phí khai thác) làm đầu vào cho giao dịch:
 
 ![BTC204](assets/notext/51/05.webp)
 
@@ -1751,6 +1753,12 @@ Chúng tôi đang chú ý theo dõi sự phát triển của vụ việc này c�
 
 Trong chương tiếp theo, chúng ta sẽ khám phá "anonsets" là gì, cách các chỉ số này được tính toán, và làm thế nào chúng có thể giúp chúng ta ước lượng hiệu quả của các chu kỳ coinjoin.
 
+https://planb.network/tutorials/privacy/coinjoin-sparrow-wallet
+
+https://planb.network/tutorials/privacy/coinjoin-samourai-wallet
+
+https://planb.network/tutorials/privacy/coinjoin-dojo
+
 ## Bộ Anonimity
 <chapterId>be1093dc-1a74-40e5-9545-2b97a7d7d431</chapterId>
 
@@ -1810,6 +1818,8 @@ Có thể tính toán anonsets của một người bằng cách sử dụng m�
 ![BTC204](assets/notext/55/09.webp)
 
 Như chúng ta đã thấy trong chương này, anonsets chỉ có thể được tính toán nếu có một sự đồng nhất nhất định trong cấu trúc của các coinjoins. Và chính xác, trong chương tiếp theo, chúng ta sẽ khám phá cách định lượng sự đồng nhất này trong một giao dịch Bitcoin, dù đó là một coinjoin hay một giao dịch truyền thống hơn.
+
+https://planb.network/tutorials/privacy/wst-anonsets
 
 ## Entropy
 <chapterId>e4fe289d-618b-49a2-84c9-68c562e708b4</chapterId>
@@ -2032,6 +2042,8 @@ Thật không may, sau vụ bắt giữ các nhà sáng lập của Samourai, nh
 
 Bây giờ chúng ta đã thảo luận chi tiết về coinjoins, chúng ta sẽ khám phá các kỹ thuật bảo mật khác có sẵn trên Bitcoin trong phần cuối cùng của khóa đào tạo của chúng ta. Chúng ta sẽ xem xét payjoins, các loại giao dịch cụ thể pseudo-coinjoins, các giao thức địa chỉ tĩnh, cũng như các biện pháp nhằm tăng cường quyền riêng tư không ở cấp độ giao dịch mà ở cấp độ mạng lưới các nút.
 
+https://planb.network/tutorials/privacy/boltzmann-entropy
+
 # Hiểu biết về các kỹ thuật bảo mật nâng cao khác
 <partId>19989ae6-d608-4acf-b698-2cf1e7e5e6ae</partId>
 
@@ -2107,7 +2119,11 @@ Khó khăn trong việc sử dụng payjoin nằm ở việc nó phụ thuộc v
 
 Một giải pháp sẽ là sử dụng các cấu trúc giao dịch giới thiệu sự mơ hồ trong phân tích chuỗi mà không yêu cầu sự hợp tác của người nhận. Điều này sẽ cho phép chúng ta cải thiện sự riêng tư của các khoản thanh toán mà không phụ thuộc vào sự tham gia tích cực của người bán hàng. Đây chính xác là điều chúng ta sẽ nghiên cứu trong chương tiếp theo.
 
-## Mini-Payjoin Coinjoins
+https://planb.network/tutorials/privacy/payjoin-sparrow-wallet
+
+https://planb.network/tutorials/privacy/payjoin-samourai-wallet
+
+## Mini-coinjoin thanh toán
 <chapterId>300777ee-30ae-43d7-ab00-479dac3522c1</chapterId>
 
 Khi muốn thực hiện một giao dịch thanh toán trong khi bảo tồn một mức độ riêng tư nhất định, payjoin là một lựa chọn tốt. Nhưng như chúng ta đã thấy, payjoin yêu cầu sự tham gia của người nhận. Phải làm gì nếu người nhận từ chối tham gia vào một payjoin, hoặc nếu bạn đơn giản là không muốn liên quan họ? Một lựa chọn khác là sử dụng giao dịch Stonewall hoặc Stonewall x2. Hãy xem xét kỹ hơn hai loại giao dịch này.
@@ -2208,6 +2224,10 @@ Cũng có thể thực hiện thủ công loại giao dịch này từ bất k�
 
 Trong chương tiếp theo, chúng ta sẽ nghiên cứu một kỹ thuật bảo mật khác tương đối không được biết đến, nhưng rất hữu ích bổ sung cho những gì chúng ta đã nghiên cứu.
 
+https://planb.network/tutorials/privacy/stonewall
+
+https://planb.network/tutorials/privacy/stonewall-x2
+ 
 ## Ricochets
 
 <chapterId>db9a20ac-a149-443d-884b-ea6c03f28499</chapterId>
@@ -2259,6 +2279,8 @@ Ricochet đơn giản chỉ là việc gửi bitcoins cho chính mình. Hoàn to
 
 Trong chương tiếp theo, chúng ta sẽ khám phá các kỹ thuật khác nhau cho việc chuyển giao tài sản bí mật. Những phương pháp này khác biệt rõ rệt so với những gì chúng ta đã xem xét cho đến nay, cả về cách thức hoạt động và kết quả.
 
+https://planb.network/tutorials/privacy/ricochet
+ 
 ## Chuyển Giao Tài Sản Bí Mật
 <chapterId>a2067036-849c-4d6b-87d2-44235cfae7a1</chapterId>
 
@@ -3100,6 +3122,9 @@ Bob sau đó có thể hoàn tiền cho Alice theo cùng một cách mà cô ấ
 
 ![BTC204](assets/vi/66/26.webp)
 *Xin chân thành cảm ơn [Fanis Michalakis](https://x.com/FanisMichalakis) vì đã xem xét và đưa ra những lời khuyên chuyên môn quý báu về bài viết đã truyền cảm hứng cho việc viết chương này!*
+
+https://planb.network/tutorials/privacy/paynym-bip47
+
 ## Thanh Toán Ẩn Danh
 <chapterId>2871d594-414e-4598-a830-91c9eb84dfb8</chapterId>
 BIP47 đã bị chỉ trích vì sự không hiệu quả của nó trên chuỗi khối. Như đã giải thích trong chương trước, nó đòi hỏi một giao dịch thông báo cho mỗi người nhận mới. Ràng buộc này trở nên không đáng kể nếu người ta dự định thiết lập một kênh thanh toán lâu dài với người nhận này. Thực sự, một giao dịch thông báo mở đường cho một số lượng gần như vô hạn các khoản thanh toán BIP47 tiếp theo.
@@ -3444,6 +3469,7 @@ Vì tính năng này là mới, nên cần thận trọng và tránh sử dụng
 ## Cho chúng tôi biết phản hồi của bạn về khóa học này
 <chapterId>195d149f-80fa-5816-8b46-995a9226d082</chapterId>
 <isCourseReview>true</isCourseReview>
+
 ## Kết luận
 <chapterId>cd8e5c67-50e4-4dcd-8e04-88ba5ec95305</chapterId>
 

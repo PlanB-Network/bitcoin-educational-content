@@ -7,7 +7,6 @@ objectives:
   - Bitcoin上でプライバシーを保護するための方法とツールを使用する
   - チェーン分析方法を理解し、防御戦略を開発する
 ---
-
 # Bitcoin上でのプライバシーを守る
 
 金融取引のプライバシーが徐々に贅沢品となっていく世界で、Bitcoinの使用におけるプライバシー保護の原則を理解し、習得することは不可欠です。このトレーニングは、理論的かつ実践的な両面から、これを自律的に達成するためのすべての鍵を提供します。
@@ -62,9 +61,9 @@ Bitcoin上のプライバシーについて話すことができるでしょう�
 ### セクション5: 他の高度なプライバシー技術の問題の理解
 第5節では、coinjoin以外にBitcoinでプライバシーを守るための既存の技術全般について概観します。年月を経て、開発者たちはプライバシーに特化したツールを設計する際に顕著な創造性を発揮してきました。payjoin、共同トランザクション、Coin Swap、Atomic Swapなど、これらの方法をすべて検討し、それらの操作方法、目的、および潜在的な弱点について詳細を述べます。
 
-### 第6節：プライバシーに関連するプロトコル改善提案の探求
+私たちは、ノードネットワークのレベルでのプライバシーとトランザクションの伝播についても取り上げます。また、ユーザーのプライバシーを向上させるために、過去数年間に提案された様々なプロトコル、特に静的アドレスプロトコルについても議論します。
 
-前の節ではアプリケーションレベルのプライバシー解決策に焦点を当てましたが、この第6節では、ユーザーのプライバシーに関するBitcoin Coreのレベルでのプライバシー問題に深く踏み込みます。ノードのネットワークレベルでのプライバシーとトランザクションのブロードキャストについて議論します。また、Bitcoin上でユーザーのプライバシーを強化するために年月を経て提案されてきたさまざまなプロトコルについても議論します。これには、静的アドレスプロトコルが含まれます。最後に、Bitcoinの最後の主要なソフトフォークであるTaprootがプライバシーに与える影響、良い面も悪い面も検討します。
+![BTC204](assets/notext/11/5.webp)
 
 # 定義とキーコンセプト
 <partId>b9bbbde3-34c0-4851-83e8-e2ffb029cf31</partId>
@@ -1049,7 +1048,10 @@ FIFO（*First In First Out*）やLIFO（*Last In First Out*）などのUTXO選�
 
 ### UTXOラベリングに関するチュートリアル
 
-UTXOをラベル付けする方法を学びたい場合は、主要な既存のBitcoinウォレットソフトウェアに関する完全なチュートリアルを作成しました。[ここをクリックして](https://planb.network/tutorials/privacy/utxo-labelling)見つけてください。
+あなたのUTXOにラベルを付ける方法を知りたい場合は、既存の主要なビットコインウォレットソフトウェアに関する完全なチュートリアルを作成しました：
+
+https://planb.network/tutorials/privacy/utxo-labelling
+
 
 ## KYCとキー識別
 <chapterId>cec6b9d9-0eed-4f85-bc4e-1e9aa59ca605</chapterId>
@@ -1358,7 +1360,7 @@ coinjoinの原理は、協力的なアプローチに依存しています：ビ
 トランザクションの終わりには、特定の出力を入力の既知のユーザーと関連付けることが不可能になります。入力と出力の間に直接的なリンクは存在せず、これによりユーザーとそのUTXO、および各コインの履歴の間の関連付けが断たれます。
 
 ![BTC204](assets/notext/51/04.webp)
-Aliceの例を見てみましょう。彼女は誕生日に妹のEveに約100,000 satsを送りたいと考えています。しかし、Aliceは自分が保有しているビットコインの量やそれをどのように入手したかを明かしたくないため、Eveが自分の取引履歴を追跡できるようにはしたくありません。これを実現するために、Aliceは自分のUTXOの履歴をcoinjoin取引で断ち切ることに決めました。彼女はBob、Charles、David、Frankと協力して取引を行うことを組織しました：- Alice、Bob、Charles、David、Frankはそれぞれ100,500 sats（マイニング手数料として500 sats）のUTXOを入力としてコミットし、取引に参加します：
+Aliceの例を見てみましょう。彼女は誕生日に妹のEveに約100,000 satsを送りたいと考えています。しかし、Aliceは自分が保有しているビットコインの量やそれをどのように入手したかを明かしたくないため、Eveが自分の取引履歴を追跡できるようにはしたくありません。これを実現するために、Aliceは自分のUTXOの履歴をcoinjoin取引で断ち切ることに決めました。彼女はBob、Charles、David、Frankと協力して取引を行うことを組織しました：- Alice、Bob、Charles、David、Frankはそれぞれ105,000 sats（マイニング手数料として5,000 sats）のUTXOを入力としてコミットし、取引に参加します：
 
 ![BTC204](assets/notext/51/05.webp)
 
@@ -1740,6 +1742,12 @@ Samourai Walletの創設者が2024年4月24日に逮捕され、サーバーが�
 
 次の章では、「anonsets」が何であるか、これらの指標がどのように計算されるか、そしてcoinjoinサイクルの効果をどのように推定するのに役立つかを学びます。
 
+https://planb.network/tutorials/privacy/coinjoin-sparrow-wallet
+
+https://planb.network/tutorials/privacy/coinjoin-samourai-wallet
+
+https://planb.network/tutorials/privacy/coinjoin-dojo
+
 ## 匿名セット
 <chapterId>be1093dc-1a74-40e5-9545-2b97a7d7d431</chapterId>
 
@@ -1796,6 +1804,8 @@ Anonsetsは、適切な場合には、CoinJoinsの品質を判断するのに役
 ![BTC204](assets/notext/55/09.webp)
 
 この章で見てきたように、アノンセットはコインジョインの構造にある程度の均一性がある場合にのみ計算できます。そして正確に、次の章では、ビットコイントランザクションがコインジョインであるか、より伝統的なトランザクションであるかにかかわらず、この均一性をどのように定量化するかを発見します。
+
+https://planb.network/tutorials/privacy/wst-anonsets
 
 ## エントロピー
 <chapterId>e4fe289d-618b-49a2-84c9-68c562e708b4</chapterId>
@@ -2013,6 +2023,8 @@ $$
 
 コインジョインについて詳しく説明した今、私たちはトレーニングの最後のセクションでBitcoinに利用可能な他のプライバシー技術を探究します。ペイジョイン、特定の取引タイプの擬似コインジョイン、静的アドレスプロトコル、および取引レベルではなくノードのネットワークレベルでのプライバシーを強化するための措置を検討します。
 
+https://planb.network/tutorials/privacy/boltzmann-entropy
+
 # 他の高度なプライバシー技術の課題を理解する
 <partId>19989ae6-d608-4acf-b698-2cf1e7e5e6ae</partId>
 
@@ -2088,7 +2100,11 @@ payjoinを使用する難しさは、商人の参加に依存していること�
 
 解決策は、受取人の協力を必要とせずにチェーン分析に曖昧さを導入するトランザクション構造を使用することです。これにより、商人の積極的な参加に依存することなく、支払いのプライバシーを向上させることができます。これは、次の章で詳しく学ぶことです。
 
-## Mini-Payjoin Coinjoins
+https://planb.network/tutorials/privacy/payjoin-sparrow-wallet
+
+https://planb.network/tutorials/privacy/payjoin-samourai-wallet
+
+## 支払いのミニコインジョイン
 <chapterId>300777ee-30ae-43d7-ab00-479dac3522c1</chapterId>
 
 ある程度のプライバシーを保持しながら支払いトランザクションを行う場合、payjoinは良い選択肢です。しかし、見てきたように、payjoinは受取人の関与を必要とします。では、受取人がpayjoinへの参加を拒否した場合、または単に彼らを巻き込みたくない場合はどうすればよいでしょうか？代替案として、StonewallまたはStonewall x2トランザクションを使用することができます。これら2種類のトランザクションをもう少し詳しく見てみましょう。
@@ -2184,6 +2200,10 @@ StonewallとStonewall x2トランザクションは、Samourai Walletアプリ�
 
 次の章では、これまでに研究したものに加えて非常に有用であるが、比較的知られていない別のプライバシー技術について学びます。
 
+https://planb.network/tutorials/privacy/stonewall
+
+https://planb.network/tutorials/privacy/stonewall-x2
+ 
 ## リコシェ
 <chapterId>db9a20ac-a149-443d-884b-ea6c03f28499</chapterId>
 
@@ -2234,6 +2254,8 @@ Samouraiアプリケーションはリコシェットの2つのバリアント�
 
 次の章では、秘密の財産転送のための異なる技術を探ります。これらの方法は、これまでに検討したものとは、操作と結果の両方の点で根本的に異なります。
 
+https://planb.network/tutorials/privacy/ricochet
+ 
 ## 秘密の財産転送
 <chapterId>a2067036-849c-4d6b-87d2-44235cfae7a1</chapterId>
 
@@ -3077,6 +3099,8 @@ BIP47支払いを受け取り、対応する秘密鍵を計算するために私
 ![BTC204](assets/ja/66/26.webp)
 *この章の執筆に触発された記事のレビューと貴重な専門的アドバイスをしてくださった[Fanis Michalakis](https://x.com/FanisMichalakis)に大きな感謝を！*
 
+https://planb.network/tutorials/privacy/paynym-bip47
+
 ## サイレントペイメント
 <chapterId>2871d594-414e-4598-a830-91c9eb84dfb8</chapterId>
 
@@ -3420,6 +3444,7 @@ Silent Paymentsの提案は比較的最近のもので、これまでに実装�
 ## このコースについてのフィードバックをお寄せください
 <chapterId>195d149f-80fa-5816-8b46-995a9226d082</chapterId>
 <isCourseReview>true</isCourseReview>
+
 ## 結論
 <chapterId>cd8e5c67-50e4-4dcd-8e04-88ba5ec95305</chapterId>
 

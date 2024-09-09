@@ -463,6 +463,7 @@ Passkizは、パスワード管理のための別の実行可能で安全な代�
 ## このコースについてのフィードバックをお寄せください
 <chapterId>6be74d2d-2116-5386-9d92-c4c3e2103c68</chapterId>
 <isCourseReview>true</isCourseReview>
+
 ## 謝辞とさらに深く掘り下げる
 <chapterId>df3a962a-a96e-5006-b904-0dd9d4a072dd</chapterId>
 

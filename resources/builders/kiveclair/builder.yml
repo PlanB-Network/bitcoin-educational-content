@@ -13,7 +13,7 @@ links:
 
 tags:
   - development
-  - eduaction
+  - education
 
 # Proofreading metadata
 original_language: en
@@ -33,7 +33,7 @@ proofreading:
     urgency: 1
     contributors_id:
       - Asi0Flammeus
-    reward: 2588
+    reward: 1294
   - language: es
     last_contribution_date:
     urgency: 1

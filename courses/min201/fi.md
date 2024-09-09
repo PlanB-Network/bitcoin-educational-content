@@ -709,6 +709,7 @@ Lopputuloksena on korkeampi hash-nopeus wattia kohden, mikä tarkoittaa suurempi
 ## Anna meille palautetta tästä kurssista
 <chapterId>6af13742-df68-5cf4-b7aa-93dc0c2eaae9</chapterId>
 <isCourseReview>true</isCourseReview>
+
 ## Antminer S9:n hallinta älypuhelimellasi
 <chapterId>6e7c234a-a445-5070-b087-531d16c42107</chapterId>
 

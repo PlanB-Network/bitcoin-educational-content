@@ -498,6 +498,7 @@ Là một phần của mô-đun đào tạo "Bảo mật 101" tại Découvre Bi
 ## Cho chúng tôi biết phản hồi của bạn về khóa học này
 <chapterId>6be74d2d-2116-5386-9d92-c4c3e2103c68</chapterId>
 <isCourseReview>true</isCourseReview>
+
 ## Lời cảm ơn và tiếp tục khám phá
 
 <chapterId>df3a962a-a96e-5006-b904-0dd9d4a072dd</chapterId>

@@ -2377,6 +2377,11 @@ Umbrel 上的设置与之前两个托管选项有何不同？
 
 <partId>d72e6fa5-0870-5f00-9143-9466ed22e2bd</partId>
 
+
+## 给我们关于这门课程的反馈
+<chapterId>d90bb93d-b894-551e-9fd6-6855c739a904</chapterId>
+<isCourseReview>true</isCourseReview>
+
 ## 课程总结
 
 <chapterId>c07ac2a5-f97e-5c57-8a80-4955b48128d4</chapterId>

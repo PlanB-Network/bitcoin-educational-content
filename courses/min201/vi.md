@@ -714,6 +714,7 @@ Kết quả cuối cùng là tốc độ hash cao hơn mỗi watt điện năng,
 ## Cho chúng tôi biết phản hồi của bạn về khóa học này
 <chapterId>6af13742-df68-5cf4-b7aa-93dc0c2eaae9</chapterId>
 <isCourseReview>true</isCourseReview>
+
 ## Điều khiển Antminer S9 từ điện thoại thông minh của bạn
 <chapterId>6e7c234a-a445-5070-b087-531d16c42107</chapterId>
 

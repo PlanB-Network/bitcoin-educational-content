@@ -1315,6 +1315,7 @@ Natürlich sind **in anderen Ländern die Gesetzgebung und die Funktionsweise vo
 ## Geben Sie uns Ihr Feedback zu diesem Kurs
 <chapterId>08a35d2a-204b-519a-9bb1-588665a037fa</chapterId>
 <isCourseReview>true</isCourseReview>
+
 ## Kümmern Sie sich um sich selbst
 <chapterId>cf1631cb-ddbe-55c7-be8c-26a5652979a0</chapterId>
 

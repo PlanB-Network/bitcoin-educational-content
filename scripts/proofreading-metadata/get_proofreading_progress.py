@@ -1,5 +1,5 @@
 import os
-from proofreading import *
+from proofreading import * 
 
 def ask_which_content_type(specific_files):
     content_types = [file_name.replace('.yml', '') for file_name in specific_files]

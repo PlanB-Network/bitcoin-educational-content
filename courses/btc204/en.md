@@ -1362,7 +1362,7 @@ One of the most used heuristics in chain analysis is the COIH (*Common Input Own
 
 ![BTC204](assets/notext/45/04.webp)
 
-In practical terms, this means that an external observer can know that all the merged UTXOs likely belong to the same person and that the output always belongs to this same person. This is obviously problematic for your privacy, as you are linking different histories. For example, imagine that I consolidate 3 UTXOs purchased P2P and with a UTXO bought on a platform through a KYC process.
+
 In practice, this means that an external observer can deduce that all the consolidated UTXOs likely belong to the same person and that the single output generated also belongs to them. This situation can compromise your privacy by linking different transaction histories. For example, let's say I consolidate 3 UTXOs acquired in P2P with a UTXO obtained via a platform that requires KYC:
 ![BTC204](assets/notext/45/05.webp)
 

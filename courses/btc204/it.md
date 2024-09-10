@@ -1292,7 +1292,7 @@ Una delle euristiche più utilizzate nell'analisi delle catene è la COIH (_Comm
 
 ![BTC204](assets/notext/45/04.webp)
 
-In termini pratici, ciò significa che un osservatore esterno può sapere che tutti gli UTXO fusi appartengono probabilmente alla stessa persona e che l'output appartiene sempre a questa stessa persona. Questo è ovviamente problematico per la tua privacy, poiché stai collegando diverse storie. Per esempio, immagina che io consolidi 3 UTXO acquistati P2P e con un UTXO comprato su una piattaforma attraverso un processo KYC.
+
 In pratica, ciò significa che un osservatore esterno può dedurre che tutti gli UTXO consolidati appartengono probabilmente alla stessa persona e che l'unico output generato appartiene anche a loro. Questa situazione può compromettere la tua privacy collegando diverse storie di transazione. Per esempio, diciamo che consolido 3 UTXO acquisiti in P2P con un UTXO ottenuto tramite una piattaforma che richiede KYC:
 ![BTC204](assets/notext/45/05.webp)
 

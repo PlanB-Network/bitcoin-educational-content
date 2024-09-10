@@ -1319,7 +1319,7 @@ Jedna z nejčastěji používaných heuristik v analýze blockchainu je COIH (_C
 
 ![BTC204](assets/notext/45/04.webp)
 
-V praktickém smyslu to znamená, že vnější pozorovatel může vědět, že všechna sloučená UTXO pravděpodobně patří téže osobě a že výstup vždy patří této samé osobě. To je samozřejmě problematické pro vaše soukromí, protože spojujete různé historie. Například si představte, že konsoliduji 3 UTXO zakoupené P2P a s UTXO zakoupeným na platformě prostřednictvím procesu KYC.
+
 V praxi to znamená, že vnější pozorovatel může usoudit, že všechna konsolidovaná UTXO pravděpodobně patří téže osobě a že jediný vygenerovaný výstup jim také patří. Tato situace může ohrozit vaše soukromí spojením různých historií transakcí. Představme si, že konsoliduji 3 UTXO získané P2P s UTXO získaným prostřednictvím platformy vyžadující KYC:
 ![BTC204](assets/notext/45/05.webp)
 

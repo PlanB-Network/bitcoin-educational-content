@@ -81,7 +81,7 @@ Các vai trò là:
 
 - 1 Khách hàng - Customer
 - 1 Người bán hàng - Merchant
-- 7 đến 9 nốt Bitcoin - Bitcoin Nodes
+- 7 đến 9 node Bitcoin - Bitcoin Nodes
 
 **Thiết lập trò chơi như sau:**
 
@@ -110,7 +110,7 @@ Khách hàng mua một sản phẩm từ cửa hàng bằng Bitcoin.
 
 - Thiết lập:
   - Xem sơ đồ minh hoạ trong Figjam đính kèm - [Sơ đồ Hoạt động](https://www.figma.com/file/ckmvMq02Jm2MegSsVCDFhc/Day-1-Classroom-Activity?type=whiteboard&node-id=0-1&t=KR31ofMaJX6S95UL-0).
-  - Thay thế Ngân hàng bằng chín sinh viên sẽ đóng vai trò là Máy tính (Các nốt/Thợ đào Bitcoin) trong mạng lưới.
+  - Thay thế Ngân hàng bằng chín sinh viên sẽ đóng vai trò là Máy tính (Các node/Thợ đào Bitcoin) trong mạng lưới.
 - Mỗi Máy tính trong số 9 máy này có bản ghi lịch sử đầy đủ về tất cả các giao dịch đã từng được thực hiện (do đó, số dư chính xác mà không có sự giả mạo), cũng như một bộ quy tắc:
   - Xác minh giao dịch được ký đúng cách (chìa khóa phù hợp với ổ khóa)
   - Phát sóng và nhận giao dịch hợp lệ từ các đối tác ngang hàng trong mạng lưới, loại bỏ những giao dịch không hợp lệ (bao gồm cả những giao dịch lặp chi - tiêu một đồng tiền hai lần)
@@ -138,7 +138,7 @@ Khách hàng mua một sản phẩm từ cửa hàng bằng Bitcoin.
   - Không cần sự tin tưởng giữa các bên (ngoại trừ tin tưởng vào việc Người bán sẽ gửi hàng), giống như một giao dịch tiền mặt theo nhiều cách.
   - Tiền được sở hữu trực tiếp bởi các cá nhân.
   - Sổ cái Bitcoin được biểu diễn bằng đô la cho đơn giản, nhưng thực tế, đơn vị của nó là BTC.
-  - Chúng tôi mô phỏng một giao dịch đơn lẻ được phát sóng, nhưng thực tế, có nhiều giao dịch đang chờ xử lý trên mạng lưới Bitcoin, và mỗi khối bao gồm hàng ngàn giao dịch cùng một lúc. Các nốt cũng kiểm tra để đảm bảo không có giao dịch lặp chi nào đang chờ xử lý.
+  - Chúng tôi mô phỏng một giao dịch đơn lẻ được phát sóng, nhưng thực tế, có nhiều giao dịch đang chờ xử lý trên mạng lưới Bitcoin, và mỗi khối bao gồm hàng ngàn giao dịch cùng một lúc. Các node cũng kiểm tra để đảm bảo không có giao dịch lặp chi nào đang chờ xử lý.
 - Các tình huống gian lận:
   - Nếu khách hàng không có đủ lượng BTC trị giá $25
     - Họ sẽ không thể tạo giao dịch vì “mở khóa” và “sở hữu” là một và cùng một thứ, và máy tính kiểm tra giao dịch được ký đúng cách; nếu không, họ sẽ từ chối nó.
@@ -157,7 +157,7 @@ Thảo luận về một số sự đơn giản hóa được áp dụng trong b
 
 Định nghĩa các thuật ngữ chính được giới thiệu trong phần trước:
 
-- Node - Nốt
+- Node
 - Mempool
 - Difficulty Target - Mục tiêu độ khó
 - Block
@@ -180,7 +180,7 @@ Mục tiêu của  bài học này sẽ là hiểu chung về phần mềm BTCPa
 
 Nếu bạn theo dõi khóa học này một mình, bạn có thể tìm danh sách các máy chủ của bên thứ ba cho mục đích Demo tại https://directory.btcpayserver.org/filter/hosts. Chúng tôi khuyến cáo không sử dụng các tùy chọn của bên thứ ba này làm môi trường kinh doanh sản xuất thực, nhưng chúng phục vụ tốt cho mục đích giới thiệu về việc sử dụng Bitcoin và BTCPay Server.
 
-Là một người mới BTCPay Server, bạn có thể đã có kinh nghiệm thiết lập một nốt Bitcoin trước đây. Khóa học này sẽ nói cụ thể về các lớp của phần mềm BTCPay Server.
+Là một người mới BTCPay Server, bạn có thể đã có kinh nghiệm thiết lập một node Bitcoin trước đây. Khóa học này sẽ nói cụ thể về các lớp của phần mềm BTCPay Server.
 
 Nhiều tùy chọn trong BTCPay Server tồn tại dưới dạng này hay dạng khác trong các phần mềm liên quan đến ví Bitcoin khác.
 
@@ -316,7 +316,7 @@ Mô tả cách xác thực hai yếu tố dựa trên ứng dụng giúp bảo v
 ## Tạo một cửa hàng mới
 
 <chapterId>463b3634-b49f-5512-a711-3b2e096fc2e0</chapterId>
-Khi một người dùng mới đăng nhập vào BTCPay Server, môi trường của họ là trống trơn và cần có cửa hàng đầu tiên. BTCPay Server sẽ cung cấp cho người dùng tùy chọn ‘Create your store - Tạo cửa hàng của bạn’ (1). Một Cửa hàng có thể được xem như là một ngôi nhà cho nhu cầu Bitcoin của bạn. Một nốt BTCPay Server mới sẽ bắt đầu với việc đồng bộ hóa Blockchain Bitcoin (2). Tùy thuộc vào cơ sở hạ tầng bạn chạy BTCPay Server ở trên đố, việc đồng bộ này có thể mất từ vài giờ đến vài ngày. Phiên bản hiện tại của server được hiển thị ở góc dưới bên phải của giao diện người dùng của bạn. Điều này hữu ích cho việc tham khảo khi khắc phục sự cố.
+Khi một người dùng mới đăng nhập vào BTCPay Server, môi trường của họ là trống trơn và cần có cửa hàng đầu tiên. BTCPay Server sẽ cung cấp cho người dùng tùy chọn ‘Create your store - Tạo cửa hàng của bạn’ (1). Một Cửa hàng có thể được xem như là một ngôi nhà cho nhu cầu Bitcoin của bạn. Một node BTCPay Server mới sẽ bắt đầu với việc đồng bộ hóa Blockchain Bitcoin (2). Tùy thuộc vào cơ sở hạ tầng bạn chạy BTCPay Server ở trên đố, việc đồng bộ này có thể mất từ vài giờ đến vài ngày. Phiên bản hiện tại của server được hiển thị ở góc dưới bên phải của giao diện người dùng của bạn. Điều này hữu ích cho việc tham khảo khi khắc phục sự cố.
 ![hình ảnh](assets/en/7.webp)
 
 ### Tạo cửa hàng
@@ -442,7 +442,7 @@ Trong phần này, bạn đã học được:
 
 - Sự khác biệt giữa ví nóng và ví lạnh về chức năng cũng như những sự đánh đổi của chúng.
 
-### Đánh giá kiến thức về các khái niệm
+### Đánh giá kiến thức lý thuyết
 
 - Ví tiền là gì?
 - Sự khác biệt giữa ví nóng và ví lạnh là gì?
@@ -544,7 +544,7 @@ BTCPay Server luôn yêu cầu tạo địa chỉ có sẵn tiếp theo để tr
 
 Tính năng quét lại dựa vào “Scantxoutset” của Bitcoin Core 0.17.0 để quét trạng thái hiện tại của blockchain (gọi là UTXO Set) để tìm các coin thuộc về lược đồ phái sinh được địn dạng. Quét lại ví giải quyết hai vấn đề mà người dùng BTCPay Server gặp phải.
 
-1. Vấn đề giới hạn khoảng trống - Hầu hết các ví bên thứ ba là ví nhẹ (light wallet) chia sẻ một nốt giữa nhiều người dùng. Ví dựa vào nốt đầy đủ và nốt rút gọn giới hạn số lượng (thường là 20) địa chỉ rỗng mà chúng theo dõi trên blockchain để tránh vấn đề ảnh hưởng tới hiệu suất. BTCPay Server tạo ra một địa chỉ mới cho mỗi hóa đơn. Do đó, sau khi BTCPay Server tạo ra 20 hóa đơn chưa thanh toán liên tiếp, ví bên ngoài ngừng tìm kiếm các giao dịch, giả định rằng không có giao dịch mới nào xảy ra. Ví bên ngoài của bạn sẽ không hiển thị chúng một khi các hóa đơn được thanh toán trên lần thứ 21, 22, v.v. Ngược lại, ví của BTCPay Server theo dõi bất kỳ địa chỉ nào nó tạo ra cùng với một giới hạn khoảng trống lớn hơn nhiều. Nó không phụ thuộc vào bên thứ ba và luôn có thể hiển thị số dư chính xác.
+1. Vấn đề giới hạn khoảng trống - Hầu hết các ví bên thứ ba là ví nhẹ (light wallet) chia sẻ một node giữa nhiều người dùng. Ví dựa vào node đầy đủ và node rút gọn giới hạn số lượng (thường là 20) địa chỉ rỗng mà chúng theo dõi trên blockchain để tránh vấn đề ảnh hưởng tới hiệu suất. BTCPay Server tạo ra một địa chỉ mới cho mỗi hóa đơn. Do đó, sau khi BTCPay Server tạo ra 20 hóa đơn chưa thanh toán liên tiếp, ví bên ngoài ngừng tìm kiếm các giao dịch, giả định rằng không có giao dịch mới nào xảy ra. Ví bên ngoài của bạn sẽ không hiển thị chúng một khi các hóa đơn được thanh toán trên lần thứ 21, 22, v.v. Ngược lại, ví của BTCPay Server theo dõi bất kỳ địa chỉ nào nó tạo ra cùng với một giới hạn khoảng trống lớn hơn nhiều. Nó không phụ thuộc vào bên thứ ba và luôn có thể hiển thị số dư chính xác.
 2. Giải pháp giới hạn khoảng trống - Nếu [ví bên ngoài/ví hiện tại](https://docs.btcpayserver.org/WalletSetup/#use-an-existing-wallet) của bạn cho phép cấu hình giới hạn khoảng trống, cách đơn giản là tăng nó lên. Tuy nhiên, đa số ví không cho phép làm điều này. Chỉ có một số ít ví cho phép cấu hình giới hạn khoảng trống mà chúng tôi biết đến là Electrum, Wasabi và Sparrow Wallet. Thật không may, bạn có thể gặp vấn đề với nhiều ví khác. Để có trải nghiệm người dùng tốt nhất và bảo mật, hãy cân nhắc từ bỏ ví ngoài và sử dụng ví nội bộ của BTCPay Server.
 
 #### BTCPay Server sử dụng “mempoolfullrbf=1”
@@ -583,7 +583,7 @@ Tùy chọn ví nóng trong BTCPay Server cho phép sử dụng các tính năng
 
 Tùy chọn thứ hai mà BTCPay Server cung cấp trong việc tạo ví mới là tạo một ví chỉ dùng để xem (Watch-Only Wallet). BTCPay Server sẽ tạo ra khóa riêng tư của bạn một lần. Sau khi người dùng xác nhận đã ghi lại cụm từ hạt giống của họ, BTCPay Server sẽ xóa khóa riêng tư khỏi máy chủ. Kết quả là, cửa hàng của bạn giờ đây có một ví chỉ dùng để xem được kết nối với nó. Để chi tiêu số tiền nhận được trên ví chỉ dùng để xem của bạn, xem chương cách gửi, hoặc là sử dụng BTCPay Server Vault, hoặc PSBT (giao dịch bitcoin được ký một phần), hoặc ít được khuyến khích nhất, nhập thủ công cụm từ hạt giống của bạn.
 
-Bạn đã tạo một 'Cửa hàng' mới trong phần trước đây. Trình cài đặt sẽ tiếp tục bằng cách yêu cầu thiết lập ví - `Set up a wallet` hoặc thiết lập một nốt Lightning - `Set up a Linghtning node`. Trong ví dụ này, bạn sẽ theo quy trình hướng dẫn thiết lập ví (1).
+Bạn đã tạo một 'Cửa hàng' mới trong phần trước đây. Trình cài đặt sẽ tiếp tục bằng cách yêu cầu thiết lập ví - `Set up a wallet` hoặc thiết lập một node Lightning - `Set up a Linghtning node`. Trong ví dụ này, bạn sẽ theo quy trình hướng dẫn thiết lập ví (1).
 
 ![image](assets/en/21.webp)
 
@@ -642,13 +642,13 @@ Chọn segwit (được khuyến nghị) là loại địa chỉ ví ưa thích 
 
 ### Ví dụ: Ghi chép cụm từ hạt giống
 
-Đây là một khoảnh khắc rất đặc biệt và an toàn để sử dụng Bitcoin. Như đã đề cập trước đó, chỉ bạn mới nên có quyền truy cập hoặc biết về cụm từ Seed của mình. Khi bạn theo dõi cùng một giáo viên và lớp học, cụm từ Seed được tạo ra chỉ nên được sử dụng trong khóa học này. Quá nhiều yếu tố, ánh mắt tò mò từ bạn cùng lớp, hệ thống không an toàn, và nhiều yếu tố khác làm cho những chìa khóa này chỉ mang tính giáo dục và không đáng tin cậy. Tuy nhiên, các chìa khóa được tạo ra vẫn nên được lưu trữ cho các ví dụ trong khóa học.
+Đây là một khoảnh khắc rất đặc biệt và an toàn để sử dụng Bitcoin. Như đã đề cập trước đó, chỉ bạn mới nên có quyền truy cập hoặc biết về cụm từ hạt giống của mình. Khi bạn theo dõi cùng một giáo viên và lớp học, cụm từ hạt giống tạo ra chỉ nên được sử dụng trong khóa học này. Quá nhiều yếu tố, ánh mắt tò mò từ bạn cùng lớp, hệ thống không an toàn, và nhiều yếu tố khác làm cho những chìa khóa này chỉ mang tính giáo dục và không đáng tin cậy. Tuy nhiên, các chìa khóa được tạo ra vẫn nên được lưu trữ cho các ví dụ trong khóa học.
 
-Phương pháp đầu tiên chúng ta sẽ sử dụng trong tình huống hiện tại, cũng là phương pháp ít an toàn nhất, là ghi chép cụm từ Seed theo đúng thứ tự. Một thẻ cụm từ Seed có trong tài liệu khóa học được cung cấp cho sinh viên hoặc tìm thấy trên GitHub của BTCPay Server. Chúng ta sẽ sử dụng thẻ này để ghi chép các từ được tạo ra ở bước trước. Hãy chắc chắn ghi chúng theo đúng thứ tự. Sau khi bạn đã ghi chép, kiểm tra lại với những gì được cung cấp bởi phần mềm để đảm bảo bạn đã ghi chép đúng thứ tự. Sau khi bạn đã ghi chép, nhấp vào hộp kiểm xác nhận bạn đã ghi chép cụm từ Seed của mình một cách chính xác.
+Phương pháp đầu tiên chúng ta sẽ sử dụng trong tình huống hiện tại, cũng là phương pháp ít an toàn nhất, là ghi chép cụm từ hạt giống theo đúng thứ tự. Một thẻ cụm từ hạt giống có trong tài liệu khóa học được cung cấp cho sinh viên hoặc tìm thấy trên GitHub của BTCPay Server. Chúng ta sẽ sử dụng thẻ này để ghi chép các từ được tạo ra ở bước trước. Hãy chắc chắn ghi chúng theo đúng thứ tự. Sau khi bạn đã ghi chép, kiểm tra lại với phần mềm để đảm bảo bạn đã ghi chép đúng thứ tự. Sau khi bạn đã ghi chép, nhấp vào hộp xác nhận bạn đã ghi chép cụm từ hạt giống của mình một cách chính xác.
 
-### Ví dụ: Lưu trữ cụm từ Seed trên một Hardware Wallet
+### Ví dụ: Lưu trữ cụm từ hạt giống trên một ví phần cứng
 
-Trong khóa học này, chúng tôi đề cập đến việc lưu trữ cụm từ Seed trên một hardware wallet. Theo dõi khóa học này cùng một giáo viên có thể không luôn bao gồm thiết bị như vậy. Trong tài liệu hướng dẫn của khóa học, đã viết một danh sách các hardware wallet được cung cấp phù hợp với bài tập này.
+Trong khóa học này, chúng tôi đề cập đến việc lưu trữ cụm từ hạt giống trên một ví phần cứng. Theo dõi khóa học này cùng một giáo viên có thể sẽ không có thiết bị như vậy. Trong tài liệu hướng dẫn của khóa học, có một danh sách các ví cứng được cung cấp phù hợp với bài tập này.
 Chúng ta sẽ sử dụng kho lưu trữ BTCPay Server và ví cứng Blockstream Jade trong ví dụ này.
 Bạn cũng có thể theo dõi qua video để tham khảo cách kết nối ví cứng.
 ![BTCPay Server - Cách kết nối ví cứng của bạn với BTCPay Vault.](https://youtu.be/s4qbGxef43A)
@@ -657,47 +657,47 @@ Tải về kho lưu trữ BTCPay Server: https://github.com/btcpayserver/BTCPayS
 
 Hãy chắc chắn bạn đã tải về các tệp đúng cho hệ thống của mình. Người dùng Windows nên tải gói [BTCPayServerVault-2.0.5-setup.exe](https://github.com/btcpayserver/BTCPayServer.Vault/releases/download/Vault%2Fv2.0.5/BTCPayServerVault-2.0.5-setup.exe), người dùng Mac tải [BTCPayServerVault-osx-x64-2.0.5.dmg](https://github.com/btcpayserver/BTCPayServer.Vault/releases/download/Vault%2Fv2.0.5/BTCPayServerVault-osx-x64-2.0.5.dmg), và người dùng Linux nên tải [BTCPayServerVault-Linux-2.0.5.tar.gz](https://github.com/btcpayserver/BTCPayServer.Vault/releases/download/Vault%2Fv2.0.5/BTCPayServerVault-Linux-2.0.5.tar.gz)
 
-Sau khi cài đặt BTCPay Server Vault, khởi động phần mềm bằng cách nhấp vào biểu tượng trên Màn hình Desktop của bạn. Khi BTCPay Server Vault được cài đặt đúng cách và khởi động lần đầu tiên, nó sẽ yêu cầu quyền được sử dụng với Ứng dụng Web. Nó sẽ yêu cầu cấp quyền truy cập cho BTCPay Server cụ thể mà bạn làm việc. Chấp nhận các điều kiện này. BTCPay Server Vault giờ đây sẽ tìm kiếm thiết bị cứng. Một khi thiết bị được tìm thấy, BTCPay Server sẽ nhận ra rằng Vault đang chạy và đã tìm thấy thiết bị của bạn.
+Sau khi cài đặt BTCPay Server Vault, khởi động phần mềm bằng cách nhấp vào biểu tượng trên màn hình của bạn. Khi BTCPay Server Vault được cài đặt đúng cách và khởi động lần đầu tiên, nó sẽ yêu cầu quyền được sử dụng với ứng dụng Web. Nó sẽ yêu cầu cấp quyền truy cập cho BTCPay Server cụ thể mà bạn làm việc. Chấp nhận các điều kiện này. BTCPay Server Vault giờ đây sẽ tìm kiếm ví cứng. Một khi thiết bị được tìm thấy, BTCPay Server sẽ nhận ra rằng Vault đang chạy và đã tìm thấy thiết bị của bạn.
 
 **!Lưu Ý!**
 
-Không cung cấp khóa SSH hoặc tài khoản quản trị máy chủ cho bất kỳ ai khác ngoài các quản trị viên khi sử dụng ví nóng. Bất kỳ ai có quyền truy cập vào các tài khoản này sẽ có quyền truy cập vào các quỹ trong Ví Nóng.
+Không cung cấp khóa SSH hoặc tài khoản quản trị máy chủ cho bất kỳ ai khác ngoài các quản trị viên khi sử dụng ví nóng. Bất kỳ ai có quyền truy cập vào các tài khoản này sẽ có quyền truy cập vào các quỹ trong ví nóng
 
-### Tóm Tắt Kỹ Năng
+### Tóm tắt kỹ năng
 
 Trong phần này, bạn đã học được những điều sau:
 
 - Cách xem giao dịch của ví Bitcoin và các phân loại khác nhau của nó.
-- Các lựa chọn khác nhau khi gửi từ ví Bitcoin, từ ví cứng đến ví nóng.
+- Các lựa chọn khác nhau khi gửi từ ví Bitcoin, từ ví cứng cho đến ví nóng.
 - Vấn đề giới hạn khoảng trống khi sử dụng hầu hết các ví và cách khắc phục.
 - Cách tạo một ví Bitcoin mới trong BTCPay Server, bao gồm lưu trữ khóa trong ví cứng và sao lưu cụm từ khôi phục.
 
-Trong mục tiêu này, bạn đã học cách tạo một ví Bitcoin mới trong BTCPay Server. Chúng ta chưa đi vào cách bảo mật hoặc sử dụng những khóa đó. Trong cái nhìn tổng quan nhanh về mục tiêu này, bạn đã học cách thiết lập cửa hàng đầu tiên. Bạn đã học cách tạo cụm từ Khôi phục Bitcoin.
+Trong phần này, bạn đã học cách tạo một ví Bitcoin mới trong BTCPay Server. Chúng ta chưa đi vào cách bảo mật hoặc sử dụng những khóa đó. Tổng quát về phần này, bạn đã học cách thiết lập cửa hàng đầu tiên trên BTCPay Server. Bạn đã học cách tạo cụm từ hạt giống khôi phục Bitcoin.
 
-### Đánh Giá Kiến Thức Thực Hành
+### Đánh giá kiến thức thực hành
 
-Mô tả một phương pháp để tạo khóa và một kế hoạch bảo mật chúng, cùng với các sự đánh đổi/ rủi ro của kế hoạch bảo mật.
+Mô tả một phương pháp để tạo khóa và một kế hoạch bảo mật chúng, cùng với các sự đánh đổi/ rủi ro của phương pháp bảo mật.
 
-## Ví Lightning BTCPay Server
+## Ví Lightning trên BTCPay Server
 
 <chapterId>1bbece7e-0197-57e6-a93a-561cf384d946</chapterId>
 
-Khi một quản trị viên máy chủ thiết lập một thể hiện BTCPay Server mới, anh ta có thể thiết lập một triển khai mạng lưới Lightning, LND, Core Lightning, hoặc Eclair; xem Phần Cấu hình BTCPay Server để biết hướng dẫn cài đặt chi tiết hơn.
-Nếu được áp dụng trong một lớp học, việc kết nối một node Lightning với BTCPay Server của bạn được thực hiện thông qua một Node tùy chỉnh. Người dùng không phải là quản trị viên máy chủ trên BTCPay Server sẽ không thể sử dụng node Lightning nội bộ mặc định. Điều này nhằm bảo vệ chủ sở hữu máy chủ khỏi việc mất tiền. Các quản trị viên máy chủ có thể cài đặt một Plugin để cung cấp quyền truy cập vào node Lightning của họ thông qua LNBank; điều này nằm ngoài phạm vi của cuốn sách này; đọc thêm về LNBank trên trang plugin chính thức.
+Khi một quản trị viên server thiết lập một BTCPay Server Instance mới, anh ta có thể thiết lập một bản triển khai mạng lưới Lightning, LND, Core Lightning, hoặc Eclair; xem Phần Cấu hình BTCPay Server để biết hướng dẫn cài đặt chi tiết hơn.
+Nếu được áp dụng trong một lớp học, việc kết nối một node Lightning với BTCPay Server của bạn được thực hiện thông qua một node tùy chỉnh. Người dùng không phải là quản trị viên trên BTCPay Server sẽ không thể sử dụng node Lightning nội bộ mặc định. Điều này nhằm bảo vệ chủ sở hữu khỏi việc mất tiền. Các quản trị viên server có thể cài đặt một plugin để cung cấp quyền truy cập vào node Lightning của họ thông qua LNBank; điều này nằm ngoài phạm vi của khoá này; đọc thêm về LNBank trên trang plugin chính thức.
 
-### Kết nối node nội bộ (quản trị viên máy chủ)
+### Kết nối node nội bộ (quản trị viên server)
 
-Quản trị viên máy chủ có thể sử dụng Node Lightning nội bộ của BTCPay Server. Bất kể triển khai Lightning nào, việc kết nối với node Lightning nội bộ đều giống nhau.
+Quản trị viên server có thể sử dụng node Lightning nội bộ của BTCPay Server. Bất kể triển khai Lightning nào, việc kết nối với node Lightning nội bộ đều giống nhau.
 
-Đi tới cửa hàng đã thiết lập trước đó và nhấp vào ví "Lightning" trong menu bên trái. BTCPay Server cung cấp hai khả năng thiết lập, sử dụng Node nội bộ (chỉ dành cho quản trị viên máy chủ theo mặc định) hoặc một node tùy chỉnh (kết nối bên ngoài). Các quản trị viên máy chủ có thể nhấp vào tùy chọn "Sử dụng node nội bộ". Không cần cấu hình thêm. Nhấp vào nút "lưu" và chú ý thông báo nói rằng, "Node Lightning BTC đã được cập nhật". Cửa hàng giờ đây đã thành công trong việc có khả năng mạng Lightning.
+Đi tới cửa hàng đã thiết lập trước đó và nhấp vào ví "Lightning" trong menu bên trái. BTCPay Server cung cấp hai khả năng thiết lập, sử dụng node nội bộ (chỉ dành cho quản trị viên server theo mặc định) hoặc một node tùy chỉnh (kết nối bên ngoài). Các quản trị viên có thể nhấp vào tùy chọn "Sử dụng node nội bộ - Use internal node". Không cần cấu hình thêm. Nhấp vào nút "lưu - save" và chú ý thông báo nói rằng, "Node Lightning BTC đã được cập nhật - BTC Lightning node updated". Cửa hàng giờ đây đã thành công hỗ trợ mạng Lightning.
 
-### Kết nối node bên ngoài (người dùng máy chủ/chủ cửa hàng)
+### Kết nối node bên ngoài (người dùng server/chủ cửa hàng)
 
-Vì chủ cửa hàng theo mặc định không được phép sử dụng Node Lightning của quản trị viên máy chủ. Việc kết nối cần được thực hiện với một node bên ngoài, hoặc là node thuộc sở hữu của chủ cửa hàng trước khi thiết lập BTCPay Server, một plugin LNBank nếu được quản trị viên máy chủ cung cấp, hoặc một giải pháp giữ hộ như Alby.
+Do chủ cửa hàng theo mặc định không được phép sử dụng node Lightning của quản trị viên, nên kết nối cần được thực hiện với một node bên ngoài, hoặc là node thuộc sở hữu của chủ cửa hàng trước khi thiết lập BTCPay Server, một plugin LNBank nếu được quản trị viên cung cấp, hoặc một giải pháp giữ hộ (custodial) như Alby.
 
-Đi tới cửa hàng đã thiết lập trước đó và nhấp vào "Lightning" dưới ví trong menu bên trái. Vì chủ cửa hàng không được phép sử dụng node nội bộ theo mặc định, tùy chọn này bị vô hiệu hóa. Sử dụng một node tùy chỉnh là tùy chọn duy nhất mặc định có sẵn cho chủ cửa hàng.
+Đi tới cửa hàng đã thiết lập trước đó và nhấp vào "Lightning" dưới Wallet trong menu bên trái. Vì chủ cửa hàng không được phép sử dụng node nội bộ theo mặc định, tùy chọn này bị vô hiệu hóa. Sử dụng một node tùy chỉnh là tùy chọn duy nhất mặc định có sẵn cho chủ cửa hàng.
 
-BTCPay Server cần thông tin kết nối; thông tin cụ thể cho một triển khai Lightning sẽ được cung cấp bởi giải pháp đã thiết lập trước đó (hoặc giải pháp giữ hộ). Trong BTCPay Server, chủ cửa hàng có thể sử dụng các kết nối sau;
+BTCPay Server cần thông tin kết nối; thông tin cụ thể cho một bản triển khai Lightning sẽ được cung cấp bởi giải pháp đã thiết lập trước đó (hoặc giải pháp giữ hộ). Trong BTCPay Server, chủ cửa hàng có thể sử dụng các kết nối sau;
 
 - C-lightning qua TCP hoặc Unix domain socket connection.
 - Lightning Charge qua HTTPS
@@ -707,18 +707,18 @@ BTCPay Server cần thông tin kết nối; thông tin cụ thể cho một tri�
 
 ![image](assets/en/31.webp)
 
-Nhấp vào "kiểm tra kết nối" để đảm bảo bạn đã nhập đúng chi tiết kết nối. Sau khi kết nối được xác nhận là tốt, nhấp lưu, và BTCPay Server hiển thị cửa hàng được cập nhật với Node Lightning.
+Nhấp vào "Kiểm tra kết nối - Test connection" để đảm bảo bạn đã nhập đúng chi tiết kết nối. Sau khi kết nối được xác nhận là tốt, nhấp lưu, và BTCPay Server hiển thị cửa hàng được cập nhật với node Lightning.
 
-### Quản lý node Lightning nội bộ LND (Quản trị viên máy chủ)
+### Quản lý node Lightning nội bộ LND (Quản trị viên server)
 
-Sau khi kết nối Node Lightning nội bộ, các quản trị viên máy chủ sẽ nhận thấy các ô mới trên Bảng điều khiển cụ thể cho thông tin Lightning.
+Sau khi kết nối node Lightning nội bộ, các quản trị viên sẽ nhận thấy các ô mới trên bảng điều khiển dành cho thông tin Lightning.
 
 - Số dư Lightning
 - BTC trong các kênh
-  - BTC mở kênh
+  - BTC trong các kênh mở
   - BTC số dư nội bộ
   - BTC số dư từ xa
-  - BTC đóng kênh
+  - BTC trong các kênh đang đóng
 - BTC On-chain
   - BTC đã xác nhận
   - BTC chưa xác nhận
@@ -726,40 +726,40 @@ Sau khi kết nối Node Lightning nội bộ, các quản trị viên máy ch�
 - Dịch vụ Lightning
   - Ride the Lightning (RTL).
 
-Bằng cách nhấp vào biểu tượng Ride the Lightning trong ô "Dịch vụ Lightning" hoặc "Lightning" dưới ví trong menu bên trái, các quản trị viên máy chủ có thể truy cập RTL để quản lý node Lightning.
+Bằng cách nhấp vào biểu tượng Ride the Lightning trong ô "Dịch vụ Lightning - Lightning Services" hoặc "Lightning" dưới ví trong menu bên trái, các quản trị viên có thể truy cập RTL để quản lý node Lightning.
 
 **Lưu ý!**
 
-Kết nối Node Lightning nội bộ thất bại - Nếu kết nối nội bộ thất bại, xác nhận:
+Kết nối node Lightning nội bộ sẽ thất bại nếu kết nối nội bộ thất bại, xác nhận:
 
 1. Node Bitcoin on-chain đã được đồng bộ hóa đầy đủ
-2. Node Lightning nội bộ được "Kích hoạt" dưới "Lightning" > "Cài đặt" > "Cài đặt Lightning BTC"
-   Nếu bạn không thể kết nối với node Lightning của mình, hãy thử khởi động lại máy chủ của bạn, hoặc đọc thêm chi tiết trong tài liệu chính thức của BTCPay Server tại đây; https://docs.btcpayserver.org/Troubleshooting/ . Bạn không thể chấp nhận thanh toán lightning trong cửa hàng của mình cho đến khi node Lightning của bạn hiển thị trạng thái "Online". Hãy thử kiểm tra kết nối Lightning của bạn bằng cách nhấp vào liên kết "Public Node Info"
+2. Node Lightning nội bộ được "Kích hoạt - Enabled" dưới "Lightning" > "Cài đặt - Settings" > "Cài đặt Lightning BTC - BTC Lightning Settings"
+   Nếu bạn không thể kết nối với node Lightning của mình, hãy thử khởi động lại server của bạn, hoặc đọc thêm chi tiết trong tài liệu chính thức của BTCPay Server tại đây; https://docs.btcpayserver.org/Troubleshooting/. Bạn không thể chấp nhận thanh toán Lightning trong cửa hàng của mình cho đến khi node Lightning của bạn hiển thị trạng thái "Online". Hãy thử kiểm tra kết nối Lightning của bạn bằng cách nhấp vào liên kết "Public Node Info"
 
 ### Ví Lightning
 
-Trong tùy chọn ví Lightning ở thanh menu bên trái, các quản trị viên máy chủ sẽ tìm thấy quyền truy cập dễ dàng đến RTL, thông tin node công cộng của họ, và các cài đặt Lightning đặc biệt cho cửa hàng BTCPay Server của họ.
+Trong tùy chọn ví Lightning ở thanh menu bên trái, các quản trị viên server sẽ tìm thấy quyền truy cập dễ dàng đến RTL, thông tin node công khai của họ, và các cài đặt Lightning đặc biệt cho cửa hàng BTCPay Server của họ.
 
 #### Thông tin node nội bộ
 
-Các quản trị viên máy chủ có thể nhấp vào thông tin node nội bộ và xem qua trạng thái máy chủ (Online/ Offline) và chuỗi kết nối cho Clearnet hoặc Tor.
+Các quản trị viên có thể nhấp vào thông tin node nội bộ và xem qua trạng thái máy chủ (Online/ Offline) và chuỗi kết nối cho Clearnet hoặc Tor.
 
 ![image](assets/en/32.webp)
 
 #### Thay đổi kết nối
 
-Nếu chủ cửa hàng quyết định sử dụng thay đổi trong Cài đặt Lightning - Thay đổi kết nối.
-Bên cạnh thông tin node công cộng, chủ cửa hàng có thể tìm thấy tùy chọn này. Nó sẽ quay trở lại cài đặt ban đầu cho kết nối node lightning bên ngoài, điền thông tin node Lightning mới, nhấp lưu và cập nhật cửa hàng với thông tin node mới.
+Nếu chủ cửa hàng quyết định thay đổi trong Cài đặt Lightning - Thay đổi kết nối (Change connection).
+Bên cạnh thông tin node công khai, chủ cửa hàng có thể tìm thấy tùy chọn này. Nó sẽ quay trở lại cài đặt ban đầu cho kết nối node Lightning bên ngoài, điền thông tin node Lightning mới, nhấp lưu và cập nhật cửa hàng với thông tin node mới.
 
 ![image](assets/en/33.webp)
 
 #### Dịch vụ
 
-Nếu quản trị viên máy chủ quyết định cài đặt nhiều dịch vụ cho việc triển khai Lightning, chúng sẽ được liệt kê ở đây. Với việc triển khai LND tiêu chuẩn, quản trị viên sẽ có Ride The Lightning (RTL) là công cụ quản lý node tiêu chuẩn.
+Nếu quản trị viên quyết định cài đặt nhiều dịch vụ cho việc triển khai Lightning, chúng sẽ được liệt kê ở đây. Với việc triển khai LND tiêu chuẩn, quản trị viên sẽ có Ride The Lightning (RTL) là công cụ quản lý node tiêu chuẩn.
 
 #### Cài đặt ví BTC Lightning
 
-Sau khi thêm node Lightning vào cửa hàng ở bước trước, trong cài đặt của ví Lightning, chủ cửa hàng vẫn có thể chọn vô hiệu hóa nó cho cửa hàng của họ bằng cách sử dụng Toggle ở đầu cài đặt Lightning.
+Sau khi thêm node Lightning vào cửa hàng ở bước trước, trong cài đặt của ví Lightning, chủ cửa hàng vẫn có thể chọn vô hiệu hóa nó cho cửa hàng của họ bằng cách sử dụng nút toggle ở đầu cài đặt Lightning.
 
 ![image](assets/en/34.webp)
 
@@ -768,13 +768,13 @@ Sau khi thêm node Lightning vào cửa hàng ở bước trước, trong cài �
 Chủ cửa hàng có thể thiết lập các tham số sau để nâng cao trải nghiệm Lightning cho khách hàng của họ.
 
 - Hiển thị số lượng thanh toán Lightning bằng Satoshis.
-- Thêm gợi ý nhảy cho các kênh riêng tư vào hóa đơn Lightning.
+- Thêm gợi ý các kênh riêng tư vào hóa đơn Lightning.
 - Thống nhất URL/QR code thanh toán on-chain và Lightning tại điểm thanh toán.
 - Thiết lập mẫu mô tả cho hóa đơn lightning.
 
 #### LNURL
 
-Chủ cửa hàng có thể chọn sử dụng hoặc không sử dụng LNURL. Một URL Mạng Lightning, hay LNURL, là một tiêu chuẩn đề xuất cho các tương tác giữa Người thanh toán Lightning và người nhận thanh toán. Nói ngắn gọn, một LNURL là một url được mã hóa bech32 có tiền tố là lnurl. Ví Lightning được mong đợi giải mã URL, liên hệ với URL, và chờ đợi một đối tượng JSON với hướng dẫn tiếp theo, đặc biệt là một thẻ xác định hành vi của lnurl.
+Chủ cửa hàng có thể chọn sử dụng hoặc không sử dụng LNURL. Một URL của Lightning Network, hay LNURL, là một tiêu chuẩn đề xuất cho các tương tác giữa người thanh toán Lightning và người nhận thanh toán. Nói ngắn gọn, một LNURL là một url được mã hóa bech32 có tiền tố là lnurl. Ví Lightning sẽ giải mã URL, liên hệ với URL, và chờ đợi một đối tượng JSON với hướng dẫn tiếp theo, đặc biệt là một thẻ xác định hành vi của LNURL.
 
 - Kích hoạt LNURL
 - Chế độ LNURL Cổ điển
@@ -785,15 +785,15 @@ Chủ cửa hàng có thể chọn sử dụng hoặc không sử dụng LNURL. 
 
 #### Kết nối với Lightning bằng node nội bộ (Quản trị viên)
 
-Tùy chọn này chỉ có sẵn nếu bạn là Quản trị viên của phiên bản này hoặc nếu Quản trị viên đã thay đổi cài đặt mặc định nơi người dùng có thể sử dụng node lightning nội bộ.
+Tùy chọn này chỉ có sẵn nếu bạn là quản trị viên của phiên bản này hoặc nếu quản trị viên đã thay đổi cài đặt mặc định nơi người dùng có thể sử dụng node Lightning nội bộ.
 
-Là một quản trị viên, nhấp vào Ví Lightning trong thanh menu bên trái. BTCPay Server sẽ yêu cầu sử dụng một trong hai tùy chọn để kết nối một Node Lightning, một node nội bộ hoặc một node bên ngoài tùy chỉnh. Nhấp vào Sử dụng node nội bộ và nhấp lưu.
+Là một quản trị viên, nhấp vào ví Lightning trong thanh menu bên trái. BTCPay Server sẽ yêu cầu sử dụng một trong hai tùy chọn để kết nối một node Lightning, một node nội bộ hoặc một node bên ngoài tùy chỉnh. Nhấp vào `Sử dụng node nội bộ - Use internal node` và nhấp lưu.
 
 #### Quản lý node Lightning của bạn (RTL)
 
-Sau khi kết nối với node lightning nội bộ, BTCPay Server sẽ cập nhật và hiển thị thông báo "BTC Lightning node đã được cập nhật", xác nhận bạn đã kết nối Lightning với cửa hàng của mình.
+Sau khi kết nối với node Lightning nội bộ, BTCPay Server sẽ cập nhật và hiển thị thông báo "Node Lightning BTC đã được cập nhật - BTC Lightning node updated", xác nhận bạn đã kết nối Lightning với cửa hàng của mình.
 
-Quản lý node lightning là nhiệm vụ của Quản trị viên máy chủ. Điều này bao gồm:
+Quản lý node lightning là nhiệm vụ của quản trị viên server. Điều này bao gồm:
 
 - Quản lý giao dịch
 - Quản lý thanh khoản
@@ -801,45 +801,45 @@ Quản lý node lightning là nhiệm vụ của Quản trị viên máy chủ. 
   - Thanh khoản đầu ra
 - Quản lý đối tác và kênh
   - Đối tác đã kết nối
-  - Phí kênh
+  - Phí của kênh
   - Trạng thái kênh
 - Thực hiện sao lưu thường xuyên các trạng thái kênh.
 - Kiểm tra báo cáo định tuyến.
 - Hoặc sử dụng các dịch vụ như Loop.
 
-Tất cả các công việc quản lý node Lightning đều được thực hiện thông qua RTL (giả sử bạn đang chạy trên triển khai LND). Quản trị viên có thể nhấp vào Lightning Wallet trong BTCPay Server và tìm nút để mở RTL. Bảng điều khiển chính của BTCPay Server giờ đây được cập nhật với các ô Lightning Network, bao gồm quyền truy cập nhanh đến RTL.
+Tất cả các công việc quản lý node Lightning đều được thực hiện thông qua RTL (giả sử bạn đang chạy trên bản triển khai LND). Quản trị viên có thể nhấp vào Lightning Wallet trong BTCPay Server và tìm nút để mở RTL. Bảng điều khiển chính của BTCPay Server giờ đây được cập nhật với các ô Lightning Network, bao gồm quyền truy cập nhanh đến RTL.
 
 ### Ví dụ 2
 
-#### Kết nối với lightning qua Alby
+#### Kết nối với Lightning qua Alby
 
-Khi kết nối với một người giữ hộ như Alby, chủ cửa hàng trước tiên nên tạo một tài khoản, truy cập: https://getalby.com/
+Khi kết nối với một đơn vị giữ hộ (custodial) như Alby, chủ cửa hàng trước tiên nên tạo một tài khoản, truy cập: https://getalby.com/
 
 ![hình ảnh](assets/en/35.webp)
 
 Sau khi tạo tài khoản Alby, đi đến cửa hàng BTCPay Server của bạn.
 
-Bước 1: Nhấp vào 'Set up a Lightning node' trên Bảng điều khiển hoặc 'Lightning' dưới mục ví.
+Bước 1: Nhấp vào 'Cài đặt một node Lightning - Set up a Lightning node' trên Bảng điều khiển hoặc 'Lightning' dưới mục ví.
 
 ![hình ảnh](assets/en/36.webp)
 
-Bước 2: Nhập thông tin xác thực kết nối ví được cung cấp bởi Alby. Trên Bảng điều khiển của Alby, nhấp vào Ví. Tại đây bạn sẽ tìm thấy "Wallet Connection Credentials". Sao chép các thông tin này. Dán thông tin xác thực từ Alby vào trường cấu hình kết nối trong BTCPay Server.
+Bước 2: Nhập thông tin xác thực kết nối ví được cung cấp bởi Alby. Trên bảng điều khiển (Dashboard) của Alby, nhấp vào ví. Tại đây bạn sẽ tìm thấy "Wallet Connection Credentials". Sao chép các thông tin này. Dán thông tin xác thực từ Alby vào trường cấu hình kết nối trong BTCPay Server.
 
 ![hình ảnh](assets/en/37.webp)
 
-Bước 3: Sau khi cung cấp cho BTCPay Server các chi tiết kết nối, nhấp vào nút "Test Connection" để đảm bảo kết nối hoạt động đúng cách. Chú ý đến thông báo "Connection to lightning node successful" ở đầu màn hình của bạn. Điều này xác nhận mọi thứ hoạt động ổn định.
+Bước 3: Sau khi cung cấp cho BTCPay Server các chi tiết kết nối, nhấp vào nút "Test Connection" để đảm bảo kết nối hoạt động đúng cách. Chú ý đến thông báo "Kết nối tới node Lightning thành công - Connection to lightning node successful" ở đầu màn hình của bạn. Điều này xác nhận mọi thứ hoạt động ổn định.
 
 ![hình ảnh](assets/en/38.webp)
 
-Bước 4: Nhấp lưu, và cửa hàng của bạn giờ đây đã được kết nối với một node lightning qua Alby.
+Bước 4: Nhấp lưu, và cửa hàng của bạn giờ đây đã được kết nối với một node Lightning thông qua Alby.
 
 ![hình ảnh](assets/en/39.webp)
 
 **!Lưu ý!**
 
-Không bao giờ tin tưởng một giải pháp Lightning giữ hộ với giá trị nhiều hơn bạn sẵn lòng mất.
+Không bao giờ tin tưởng một giải pháp Lightning giữ hộ với giá trị nhiều hơn só tiền bạn sẵn lòng mất.
 
-### Tóm tắt Kỹ năng
+### Tóm tắt kỹ năng
 
 Trong phần này bạn đã học:
 
@@ -847,7 +847,7 @@ Trong phần này bạn đã học:
 - Nội dung và chức năng của các ô liên quan đến Lightning trên Bảng điều khiển
 - Cách cấu hình ví Lightning sử dụng Voltage Surge hoặc Alby
 
-### Đánh giá Kiến thức Thực hành
+### Đánh giá kiến thức thực hành
 
 Mô tả một số lựa chọn khác nhau để kết nối ví Lightning với cửa hàng của bạn.
 
@@ -855,15 +855,15 @@ Mô tả một số lựa chọn khác nhau để kết nối ví Lightning vớ
 
 <partId>25e88b81-e1ab-515f-a035-09f2a3075556</partId>
 
-## Tổng quan Bảng điều khiển
+## Tổng quan về bảng điều khiển (Dashboard)
 
 <chapterId>410ff28b-a272-5c91-93e0-48d5b28c53ab</chapterId>
 
-BTCPay Server là một gói phần mềm có tính chất mô-đun. Tuy nhiên, có những tiêu chuẩn mà mọi BTCPay Server đều có và Quản trị viên/người dùng sẽ tương tác với. Bắt đầu với Bảng điều khiển. Điểm nhập chính của mọi BTCPay Server sau khi đăng nhập. Bảng điều khiển cung cấp cái nhìn tổng quan về hiệu suất của cửa hàng, số dư ví hiện tại, và các giao dịch cuối cùng trong 7 ngày qua. Vì đây là một cái nhìn có tính chất mô-đun, các Plugin có thể tận dụng cái nhìn này cho lợi ích của mình và tạo các ô của riêng họ trên Bảng điều khiển. Trong sách hướng dẫn này, chúng tôi chỉ nói về các plugin/ứng dụng tiêu chuẩn và các cái nhìn tương ứng của chúng qua BTCPay Server.
+BTCPay Server là một gói phần mềm được đóng gói thành các mô-đun. Tuy nhiên, có những tiêu chuẩn mà mọi BTCPay Server đều có và quản trị viên/người dùng sẽ tương tác với. Bắt đầu với bảng điều khiển. Điểm vào chính của mọi BTCPay Server sau khi đăng nhập. Bảng điều khiển cung cấp giao diện tổng quan về hiệu suất của cửa hàng, số dư ví hiện tại, và các giao dịch cuối cùng trong 7 ngày qua. Vì đây là một cái nhìn có tính chất mô-đun, các Plugin có thể tận dụng cái nhìn này cho lợi ích của mình và tạo các ô của riêng họ trên bảng điều khiển. Trong hướng dẫn này, chúng tôi chỉ nói về các plugin/ứng dụng tiêu chuẩn và giao diện tương ứng của chúng qua BTCPay Server.
 
-### Các ô Bảng điều khiển
+### Các ô trên bảng điều khiển
 
-Trong cái nhìn chính của bảng điều khiển BTCPay Server có một số ô tiêu chuẩn có sẵn. Các ô này dành cho Chủ cửa hàng hoặc Quản trị viên để nhanh chóng quản lý cửa hàng của mình trong một cái nhìn tổng quan.
+Trong giao diện chính của bảng điều khiển BTCPay Server có một số ô tiêu chuẩn có sẵn. Các ô này dành cho chủ cửa hàng hoặc quản trị viên để họ có thể nhanh chóng quản lý cửa hàng của mình trong giao diện tổng quan.
 
 - Số dư ví
 - Hoạt động giao dịch
@@ -871,74 +871,76 @@ Trong cái nhìn chính của bảng điều khiển BTCPay Server có một s�
 - Dịch vụ Lightning (nếu Lightning được kích hoạt trên cửa hàng)
 - Giao dịch gần đây.
 - Hóa đơn gần đây
-- Các chiến dịch gây quỹ đang hoạt động
+- Các chiến dịch gây quỹ cộng đồng đang hoạt động
 - Hiệu suất cửa hàng / các mặt hàng bán chạy nhất.
-  Ô Số Dư Ví cung cấp cái nhìn tổng quan nhanh về quỹ và hiệu suất của ví bạn. Nó có thể được xem bằng BTC hoặc tiền tệ Fiat trong biểu đồ hàng tuần, hàng tháng, hoặc hàng năm.
+
+### Số dư ví - Wallet Balance
+  Ô số dư ví cung cấp cái nhìn tổng quan nhanh về tiền trong ví và hiệu suất ví của bạn. Chúng ta có thể xem bằng BTC hoặc tiền pháp định trong biểu đồ hàng tuần, hàng tháng, hoặc hàng năm.
   ![image](assets/en/40.webp)
 
-### Hoạt động Giao dịch
+### Hoạt động giao dịch - Transaction Activity
 
-Cạnh Ô Số Dư Ví, BTCPay Server hiển thị tổng quan nhanh về các khoản thanh toán đang chờ, số lượng Giao dịch trong 7 ngày qua, và nếu cửa hàng của bạn đã phát hành bất kỳ khoản hoàn tiền nào. Nhấn vào nút Quản lý sẽ đưa bạn vào quản lý cho các khoản thanh toán đang chờ (tìm hiểu thêm về thanh toán trong BTCPay Server - chương về Thanh toán).
+Cạnh ô số dư ví, BTCPay Server hiển thị tổng quan nhanh về các khoản thanh toán đang chờ, số lượng giao dịch trong 7 ngày qua, và nếu cửa hàng của bạn đã phát hành bất kỳ khoản hoàn tiền nào. Nhấn vào nút quản lý sẽ đưa bạn vào khu vực quản lý các khoản thanh toán đang chờ (tìm hiểu thêm về thanh toán trong BTCPay Server - chương về Thanh toán).
 
 ![image](assets/en/41.webp)
 
-### Số Dư Lightning
+### Số dư Lightning - Lightning Balance
 
 Chỉ hiển thị khi Lightning được kích hoạt.
 
-Khi Quản trị viên đã cho phép truy cập mạng Lightning, bảng điều khiển BTCPay Server giờ đây có một ô mới với thông tin về nút Lightning của bạn. Bao nhiêu BTC trong các kênh, cách này được cân bằng cục bộ hay từ xa (dung lượng vào hoặc ra) nếu các kênh đang đóng hoặc mở, và bao nhiêu bitcoin được giữ trên chuỗi trên nút lightning.
+Khi quản trị viên đã cấp phép cho Lightning Network, bảng điều khiển BTCPay Server giờ đây có một ô mới với thông tin về node Lightning của bạn. Bao nhiêu BTC trong các kênh, các kênh này được cân bằng cục bộ hay từ xa (dung lượng vào hoặc ra) nếu các kênh đang đóng hoặc mở, và bao nhiêu bitcoin được giữ on-chain trên nút Lightning.
 
 ![image](assets/en/42.webp)
 
-### Dịch Vụ Lightning
+### Dịch vụ Lightning - Lightning Services
 
 Chỉ hiển thị khi lightning được kích hoạt.
 
-Cạnh việc xem số dư Lightning trên bảng điều khiển BTCPay Server, các quản trị viên cũng sẽ thấy ô cho Dịch Vụ Lightning. Tại đây, các quản trị viên có thể tìm thấy các nút nhanh cho các công cụ họ sử dụng để quản lý nút Lightning của mình; ví dụ, Ride the Lightning là một trong những công cụ tiêu chuẩn với BTCPay Server cho quản lý nút Lightning.
+Bên cạnh việc xem số dư Lightning trên bảng điều khiển BTCPay Server, các quản trị viên cũng sẽ thấy ô cho Dịch vụ Lightning. Tại đây, các quản trị viên có thể tìm thấy các nút thao tác nhanh cho các công cụ họ sử dụng để quản lý node Lightning của mình; ví dụ, Ride the Lightning (RTL) là một trong những công cụ tiêu chuẩn với BTCPay Server cho quản lý node Lightning.
 
 ![image](assets/en/43.webp)
 
-### Giao dịch Gần Đây
+### Giao dịch gần đây - Recent Transactions
 
-Ô giao dịch gần đây sẽ hiển thị các giao dịch gần đây nhất của cửa hàng bạn. Chỉ với một cú nhấp, Quản trị viên của phiên bản BTCPay Server có thể xem giao dịch mới nhất và xem liệu có cần chú ý đến nó không.
+Ô giao dịch gần đây sẽ hiển thị các giao dịch gần đây nhất từ cửa hàng của bạn. Chỉ với một cú nhấp, quản trị viên của BTCPay Server Instance có thể xem giao dịch mới nhất và xem liệu có cần chú ý đến nó không.
 
 ![image](assets/en/44.webp)
 
-### Hóa đơn Gần Đây
+### Hóa đơn gần đây - Recent invoices
 
-Ô hóa đơn gần đây hiển thị 6 hóa đơn mới nhất được tạo bởi BTCPay Server của bạn, bao gồm Trạng thái và số tiền hóa đơn. Ô cũng bao gồm một nút "Xem tất cả" để dễ dàng truy cập tổng quan hóa đơn đầy đủ.
+Ô hóa đơn gần đây hiển thị 6 hóa đơn mới nhất được tạo bởi BTCPay Server của bạn, bao gồm trạng thái và số tiền hóa đơn. Ô cũng bao gồm một nút "Xem tất cả - View all" để dễ dàng truy cập dữ liệu hóa đơn đầy đủ.
 
 ![image](assets/en/45.webp)
 
-### Điểm Bán Hàng và Quyên góp
+### Điểm bán hàng và huy động vốn cộng đồng - Point of Sale and Crowdfunds
 
-Vì BTCPay Server cung cấp một bộ plugin tiêu chuẩn hoặc ứng dụng, Điểm Bán Hàng và Quyên góp là hai plugin chính của BTCPay Server. Với mỗi cửa hàng và ví, người dùng BTCPay Server có thể tạo bất kỳ Điểm Bán Hàng hoặc Quyên góp nào mà họ thấy phù hợp. Mỗi cái sẽ tạo một ô bảng điều khiển mới hiển thị hiệu suất của plugin.
+Vì BTCPay Server cung cấp một bộ plugin hoặc ứng dụng tiêu chuẩn, điểm bán hàng và huy động vốn cộng đồng là hai plugin chính của BTCPay Server. Với mỗi cửa hàng và ví, người dùng BTCPay Server có thể tạo bất kỳ điểm bán hàng hoặc đợt huy động vốn cộng đồng nào mà họ thấy phù hợp. Mỗi cái sẽ tạo một ô bảng điều khiển mới hiển thị hiệu suất của plugin.
 
 ![image](assets/en/46.webp)
 
-Chú ý sự khác biệt nhỏ giữa ô Điểm Bán Hàng và Quyên góp. Quản trị viên thấy các mặt hàng bán chạy nhất trong ô Điểm Bán Hàng. Trong ô Quyên góp, điều này trở thành Top Perks. Cả hai ô đều có các nút nhanh để quản lý ứng dụng tương ứng và xem các hóa đơn gần đây được tạo bởi các mặt hàng hàng đầu hoặc top perks.
+Chú ý sự khác biệt nhỏ giữa ô điểm bán hàng và ô huy động vốn cộng đồng. Quản trị viên thấy các mặt hàng bán chạy nhất trong ô điểm bán hàng. Trong ô huy động vốn cộng đồng, điều này trở thành Top Perks. Cả hai ô đều có các nút thao tác nhanh để quản lý ứng dụng tương ứng và xem các hóa đơn gần đây được tạo bởi các mặt hàng hàng đầu hoặc top perks.
 
 ![image](assets/en/47.webp)
 
 **!?Lưu Ý!?**
 
-Biểu đồ số dư và giao dịch gần đây chỉ có sẵn cho phương thức thanh toán trên chuỗi. Thông tin về số dư và giao dịch Mạng Lightning đang trong danh sách công việc. Tính đến Phiên bản BTCPay Server 1.6.0, số dư Mạng Lightning cơ bản đã có sẵn.
+Biểu đồ số dư và giao dịch gần đây chỉ có sẵn cho phương thức thanh toán trên chuỗi. Thông tin về số dư và giao dịch Lightning Network đang trong danh sách công việc cần làm. Tính đến Phiên bản BTCPay Server 1.6.0, số dư Lightning cơ bản đã có sẵn.
 
-### Tóm Tắt Kỹ Năng
+### Tóm tắt kỹ năng
 
 Trong phần này, bạn đã học được những điều sau:
 
-- Cấu trúc cơ bản của các ô trên trang chính được biết đến là Bảng Điều Khiển.
+- Cấu trúc cơ bản của các ô trên bảng điều khiển
 - Hiểu biết cơ bản về nội dung của mỗi ô.
 
-### Đánh Giá Kiến Thức
+### Đánh giá kiến thức
 
-Liệt kê càng nhiều ô từ Bảng Điều Khiển từ trí nhớ của bạn.
+Liệt kê càng nhiều ô của bảng điều khiển từ trí nhớ của bạn càng tốt
 
-## BTCPay Server - Cài Đặt Cửa Hàng
+## BTCPay Server - Cài đặt cửa hàng
 
 <chapterId>e8faef7b-278d-550e-a511-bc3a442daf64</chapterId>
-Trong phần mềm BTCPay Server, chúng ta biết đến 2 loại cài đặt. Cài đặt cụ thể cho Cửa hàng BTCPay Server, nút cài đặt được tìm thấy ở thanh menu bên trái dưới Dashboard, và cài đặt BTCPay Server, được tìm thấy ở cuối thanh menu ngay trên Account. Cài đặt cụ thể cho Server BTCPay Server chỉ có thể được xem bởi các quản trị viên Server.
+Trong phần mềm BTCPay Server, chúng ta biết đến 2 loại cài đặt. Cài đặt cụ thể cho Cửa hàng BTCPay Server, nút cài đặt được tìm thấy ở thanh menu bên trái dưới bảng điều khiển - dashboard, và cài đặt BTCPay Server, được tìm thấy ở cuối thanh menu ngay trên Account. Cài đặt cụ thể cho Server BTCPay Server chỉ có thể xem được bởi các quản trị viên server.
 Cài đặt cửa hàng bao gồm nhiều tab để phân loại từng bộ cài đặt.
 
 - General
@@ -952,45 +954,45 @@ Cài đặt cửa hàng bao gồm nhiều tab để phân loại từng bộ cà
 - Emails
 - Forms
 
-### General
+### Cài đặt chung - General
 
-Trong tab Cài đặt Chung, chủ cửa hàng thiết lập thương hiệu và mặc định thanh toán của họ. Tại thiết lập ban đầu của cửa hàng, một tên cửa hàng đã được đặt; điều này sẽ được phản ánh trong Cài đặt Chung dưới Store Name. Tại đây, chủ cửa hàng cũng có thể thiết lập trang web của họ để phù hợp với thương hiệu và một Store ID để Quản trị viên nhận biết trong cơ sở dữ liệu.
+Trong tab cài đặt Chung, chủ cửa hàng thiết lập thương hiệu và mặc định thanh toán của họ. Tại thiết lập ban đầu của cửa hàng, một tên cửa hàng đã được đặt; điều này sẽ được phản ánh trong Cài đặt chung dưới Store Name - Tên cửa hàng. Tại đây, chủ cửa hàng cũng có thể thiết lập trang web của họ để phù hợp với thương hiệu và một Store ID để quản trị viên nhận biết trong cơ sở dữ liệu.
 
-#### Branding
+#### Thương hiệu - Branding
 
-Vì BTCPay Server là FOSS, chủ cửa hàng có thể làm thương hiệu tùy chỉnh để phù hợp với cửa hàng của mình. Thiết lập màu sắc thương hiệu, lưu trữ logo của thương hiệu và thêm CSS tùy chỉnh cho các trang đối diện với khách hàng/công chúng (Hóa đơn, Yêu cầu Thanh toán, Rút tiền)
+Vì BTCPay Server là FOSS, chủ cửa hàng có thể làm thương hiệu tùy chỉnh để phù hợp với cửa hàng của mình. Thiết lập màu sắc thương hiệu, lưu trữ logo của thương hiệu và thêm CSS tùy chỉnh cho các trang đối diện với khách hàng/công chúng (Hóa đơn, Yêu cầu thanh toán, Rút tiền)
 
-#### Payment
+#### Thanh toán - Payment
 
-Trong cài đặt thanh toán, chủ cửa hàng thiết lập tiền tệ mặc định cho cửa hàng của họ (bằng Bitcoin hoặc bất kỳ tiền tệ fiat nào).
+Trong cài đặt thanh toán, chủ cửa hàng thiết lập tiền tệ mặc định cho cửa hàng của họ (bằng Bitcoin hoặc bất kỳ đồng tiền pháp định nào).
 
 #### Cho phép bất kỳ ai tạo hóa đơn
 
-Cài đặt này dành cho các nhà phát triển hoặc người xây dựng trên BTCPay Server. Với cài đặt này được bật cho cửa hàng của bạn, nó cho phép thế giới bên ngoài tạo hóa đơn trên thể hiện BTCPay Server của bạn.
+Cài đặt này dành cho các nhà phát triển hoặc người xây dựng trên BTCPay Server. Với cài đặt này được bật cho cửa hàng của bạn, nó cho phép thế giới bên ngoài tạo hóa đơn trên BTCPay Server Instance của bạn.
 
-#### Thêm phí bổ sung (phí mạng) vào hóa đơn
+#### Thêm phí bổ sung (phí mạng lưới) vào hóa đơn
 
-Một tính năng trong BTCPay để bảo vệ các nhà bán hàng khỏi các cuộc tấn công bụi hoặc khách hàng gây ra chi phí cao về phí sau này khi nhà bán hàng cần di chuyển một lượng lớn bitcoin cùng một lúc. Ví dụ, khách hàng tạo một hóa đơn 20$ và thanh toán một phần, trả 1$ 20 lần cho đến khi hóa đơn được thanh toán đầy đủ. Bây giờ nhà bán hàng có một giao dịch lớn hơn, làm tăng chi phí khai thác trong trường hợp nhà bán hàng quyết định di chuyển số tiền đó sau này. Mặc định, BTCPay áp dụng một chi phí mạng bổ sung vào tổng số tiền của hóa đơn để bao gồm chi phí đó cho nhà bán hàng khi hóa đơn được thanh toán bằng nhiều giao dịch. BTCPay cung cấp một số tùy chọn để tùy chỉnh tính năng bảo vệ này. Bạn có thể áp dụng phí mạng:
+Một tính năng trong BTCPay để bảo vệ các nhà bán hàng khỏi các cuộc tấn công bụi hoặc khách hàng gây ra chi phí cao về phí sau này khi nhà bán hàng cần di chuyển một lượng lớn bitcoin cùng một lúc. Ví dụ, khách hàng tạo một hóa đơn 20$ và thanh toán một phần, trả 1$ 20 lần cho đến khi hóa đơn được thanh toán đầy đủ. Bây giờ nhà bán hàng có một giao dịch lớn hơn, làm tăng chi phí khai thác trong trường hợp nhà bán hàng quyết định di chuyển số tiền đó sau này. Mặc định, BTCPay áp dụng một khoản phí mạng lưới bổ sung vào tổng số tiền của hóa đơn để bao gồm chi phí đó cho nhà bán hàng khi hóa đơn được thanh toán bằng nhiều giao dịch. BTCPay cung cấp một số tùy chọn để tùy chỉnh tính năng bảo vệ này. Bạn có thể áp dụng phí mạng:
 
-- Chỉ khi khách hàng thực hiện nhiều hơn một lần thanh toán cho hóa đơn (Trong ví dụ trên, nếu khách hàng tạo một hóa đơn 20\$ và trả 1\$, tổng số tiền hóa đơn còn nợ bây giờ là 19\$ + phí mạng. Phí mạng được áp dụng sau lần thanh toán đầu tiên)
-- Trên mỗi lần thanh toán (bao gồm cả lần thanh toán đầu tiên, trong ví dụ của chúng ta, tổng số sẽ là 20\$ + phí mạng ngay lập tức, ngay cả trong lần thanh toán đầu tiên)
-- Không bao giờ thêm phí mạng (vô hiệu hóa hoàn toàn phí mạng)
+- Chỉ khi khách hàng thực hiện nhiều hơn một lần thanh toán cho hóa đơn (Trong ví dụ trên, nếu khách hàng tạo một hóa đơn 20\$ và trả 1\$, tổng số tiền hóa đơn còn nợ bây giờ là 19\$ + phí mạng lưới. Phí mạng lưới được áp dụng sau lần thanh toán đầu tiên)
+- Trên mỗi lần thanh toán (bao gồm cả lần thanh toán đầu tiên, trong ví dụ của chúng ta, tổng số sẽ là 20\$ + phí mạng lưới ngay lập tức, ngay cả trong lần thanh toán đầu tiên)
+- Không bao giờ thêm phí mạng lưới (vô hiệu hóa hoàn toàn phí mạng lưới)
 
-Mặc dù nó bảo vệ khỏi các giao dịch bụi, nhưng nó cũng có thể phản ánh tiêu cực đối với doanh nghiệp nếu không được thông báo đúng cách. Khách hàng có thể có thêm câu hỏi và nghĩ rằng bạn đang tính phí quá cao.
+Mặc dù nó bảo vệ khỏi các giao dịch bụi, nhưng nó cũng có thể ảnh hưởng tiêu cực đối với doanh nghiệp nếu không được thông báo đúng cách. Khách hàng có thể có thắc mắc và nghĩ rằng bạn đang tính phí quá cao.
 
 #### Hóa đơn hết hạn nếu số tiền đầy đủ không được thanh toán sau?
 
-Bộ đếm thời gian của hóa đơn được thiết lập mặc định là 15 phút. Bộ đếm thời gian là một cơ chế bảo vệ chống lại sự biến động vì nó khóa số lượng Bitcoin theo tỷ giá Bitcoin so với tiền tệ fiat. Nếu khách hàng không thanh toán hóa đơn trong khoảng thời gian đã định, hóa đơn được coi là hết hạn. Hóa đơn được coi là "đã thanh toán" ngay khi giao dịch hiển thị trên blockchain (0-xác nhận) nhưng được coi là "hoàn thành" khi đạt được số lần xác nhận mà nhà bán hàng đã định (thường là 1-6). Bộ đếm thời gian có thể tùy chỉnh theo phút.
+Bộ đếm thời gian của hóa đơn được thiết lập mặc định là 15 phút. Bộ đếm thời gian là một cơ chế bảo vệ chống lại sự biến động vì nó khóa số lượng bitcoin theo tỷ giá bitcoin / tiền pháp định. Nếu khách hàng không thanh toán hóa đơn trong khoảng thời gian đã định, hóa đơn được coi là hết hạn. Hóa đơn được coi là "đã thanh toán" ngay khi giao dịch hiển thị trên blockchain (0-xác nhận) nhưng được coi là "hoàn thành" khi đạt được số lần xác nhận mà nhà bán hàng đã định (thường là 1-6). Bộ đếm thời gian có thể tùy chỉnh theo phút.
 
 #### Xem xét hóa đơn đã thanh toán ngay cả khi số tiền thanh toán ít hơn X% so với dự kiến?
 
-Khi khách hàng sử dụng ví giao dịch để trực tiếp thanh toán cho một hóa đơn, sàn giao dịch sẽ thu một khoản phí nhỏ. Điều này có nghĩa là hóa đơn đó không được coi là đã hoàn thành hoàn toàn. Hóa đơn sẽ nhận được trạng thái "đã thanh toán một phần". Bạn có thể thiết lập tỷ lệ phần trăm ở đây nếu một người bán hàng muốn chấp nhận hóa đơn thanh toán thiếu.
+Khi khách hàng sử dụng ví sàn giao dịch để trực tiếp thanh toán cho một hóa đơn, sàn giao dịch sẽ thu một khoản phí nhỏ. Điều này có nghĩa là hóa đơn đó không được coi là đã thanh toán hoàn toàn. Hóa đơn sẽ nhận được trạng thái "đã thanh toán một phần". Bạn có thể thiết lập tỷ lệ phần trăm ở đây nếu một người bán hàng muốn chấp nhận hóa đơn thanh toán thiếu.
 
-### Tỷ lệ
+### Tỷ giá - Rates
 
-Trong BTCPay Server, khi một hóa đơn được tạo ra, nó luôn cần giá Bitcoin sang tiền tệ fiat chính xác và cập nhật nhất. Khi tạo một cửa hàng mới trong BTCPay Server, quản trị viên được yêu cầu thiết lập nguồn giá ưa thích của họ; sau khi cửa hàng được thiết lập, chủ sở hữu cửa hàng luôn có thể thay đổi nguồn giá của mình trong tab này.
+Trong BTCPay Server, khi một hóa đơn được tạo ra, nó luôn cần có thông tin chính xác và cập nhật nhất về mức giá của bitcoin theo tiền pháp định. Khi tạo một cửa hàng mới trong BTCPay Server, quản trị viên được yêu cầu thiết lập nguồn giá ưa thích của họ; sau khi cửa hàng được thiết lập, chủ sở hữu cửa hàng luôn có thể thay đổi nguồn giá của mình trong tab này.
 
-#### Quy tắc tỷ lệ nâng cao
+#### Quy tắc tỷ giá nâng cao
 
 Chủ yếu được sử dụng bởi người dùng có kinh nghiệm. Nếu được bật, chủ sở hữu cửa hàng có thể tạo các kịch bản xung quanh hành vi giá và cách tính phí khách hàng của họ.
 
@@ -998,57 +1000,57 @@ Chủ yếu được sử dụng bởi người dùng có kinh nghiệm. Nếu �
 
 Một nơi kiểm tra nhanh cho các cặp tiền tệ ưa thích của bạn. Điều này cũng bao gồm tính năng kiểm tra các cặp tiền tệ mặc định qua truy vấn REST.
 
-### Giao diện Thanh toán
+### Giao diện thanh toán - Checkout Appearance
 
-Tab Giao diện Thanh toán bắt đầu với các cài đặt cụ thể cho hóa đơn và phương thức thanh toán mặc định, và kích hoạt các phương thức thanh toán cụ thể khi đáp ứng được các yêu cầu đã đặt.
+Tab giao diện thanh toán bắt đầu với các cài đặt cụ thể cho hóa đơn và phương thức thanh toán mặc định, và kích hoạt các phương thức thanh toán cụ thể khi đáp ứng được các yêu cầu đã thiết lập.
 
 #### Cài đặt hóa đơn
 
 Phương thức thanh toán mặc định. BTCPay Server trong cấu hình tiêu chuẩn có ba lựa chọn.
 
-- BTC (trên chuỗi)
+- BTC (On-chain)
 - BTC (LNURL-pay)
-- BTC (Ngoài chuỗi & Lightning)
+- BTC (Off-chain & Lightning)
 
-Chúng ta có thể thiết lập các tham số cho cửa hàng của mình, nơi khách hàng chỉ tương tác với Lightning khi giá nhỏ hơn X số tiền và ngược lại cho giao dịch trên chuỗi khi X lớn hơn Y luôn hiển thị tùy chọn thanh toán trên chuỗi.
+Chúng ta có thể thiết lập các tham số cho cửa hàng của mình, nơi khách hàng chỉ tương tác với Lightning khi giá nhỏ hơn X và ngược lại cho giao dịch trên chuỗi khi X lớn hơn Y.
 
 ![image](assets/en/48.webp)
 
 #### Thanh toán
 
-Tính đến phiên bản phát hành 1.7 của BTCPay Server, một giao diện Thanh toán mới đã được giới thiệu, được gọi là Checkout V2. Kể từ phiên bản 1.9 được chuẩn hóa, quản trị viên và chủ sở hữu cửa hàng vẫn có thể thiết lập giao diện thanh toán về phiên bản trước. Bằng cách sử dụng chuyển đổi "Sử dụng giao diện thanh toán cổ điển", chủ sở hữu cửa hàng có thể đặt cửa hàng trở lại trải nghiệm thanh toán trước đó. BTCPay Server cũng có một bộ các cài đặt sẵn cho Thương mại Trực tuyến hoặc trải nghiệm tại cửa hàng.
+Tính đến phiên bản phát hành 1.7 của BTCPay Server, một giao diện thanh toán mới đã được giới thiệu, được gọi là Checkout V2. Kể từ phiên bản 1.9 được chuẩn hóa, quản trị viên và chủ sở hữu cửa hàng vẫn có thể thiết lập giao diện thanh toán về phiên bản trước. Bằng cách sử dụng chuyển đổi "Sử dụng giao diện thanh toán cổ điển - Use the classic checkout", chủ sở hữu cửa hàng có thể đặt cửa hàng trở lại trải nghiệm thanh toán trước đó. BTCPay Server cũng có một bộ các cài đặt sẵn cho thương mại điện tử hoặc trải nghiệm tại cửa hàng.
 
 ![image](assets/en/49.webp)
 
-Khi khách hàng tương tác với cửa hàng và tạo ra một hóa đơn, có một thời gian hết hạn cho hóa đơn. Theo mặc định, BTCPay Server thiết lập điều này là 5 phút, và Quản trị viên có thể thiết lập điều này theo như họ thấy phù hợp. Trang thanh toán có thể được tùy chỉnh thêm bằng cách kiểm tra các tham số sau:
+Khi khách hàng tương tác với cửa hàng và tạo ra một hóa đơn, có một thời gian hết hạn cho hóa đơn. Theo mặc định, BTCPay Server thiết lập giới hạn này là 5 phút, và quản trị viên có thể thiết lập giới hạn này theo mức họ thấy phù hợp. Trang thanh toán có thể được tùy chỉnh thêm bằng cách kiểm tra các tham số sau:
 
-- Kỷ niệm việc thanh toán bằng cách hiển thị confetti
-- Hiển thị tiêu đề cửa hàng (Tên và logo)
+- Chào mừng việc thanh toán bằng cách hiển thị hiệu ứng tung hoa
+- Hiển thị thông tin thương hiệu cửa hàng (Tên và logo)
 - Hiển thị nút "Thanh toán trong ví"
-- Thống nhất URL/QR của thanh toán trên chuỗi và ngoài chuỗi
-- Hiển thị số lượng thanh toán Lightning bằng Satoshis
+- Thống nhất URL/QR của thanh toán on-chain và off-chain
+- Hiển thị khoản thanh toán Lightning bằng Satoshis
 - Tự động phát hiện ngôn ngữ khi thanh toán
 
 ![image](assets/en/50.webp)
 
-Khi Tự động phát hiện ngôn ngữ không được thiết lập, BTCPay Server, theo mặc định, sẽ hiển thị tiếng Anh. Chủ sở hữu cửa hàng có thể thay đổi mặc định này sang ngôn ngữ ưa thích của họ.
+Khi chức năng tự động phát hiện ngôn ngữ không được thiết lập, BTCPay Server, theo mặc định, sẽ hiển thị tiếng Anh. Chủ sở hữu cửa hàng có thể thay đổi mặc định này sang ngôn ngữ ưa thích của họ.
 
 ![image](assets/en/51.webp)
 
-Nhấp vào Drop down và Chủ sở hữu cửa hàng có thể thiết lập một Tiêu đề HTML Tùy chỉnh để hiển thị trên trang thanh toán.
+Nhấp vào nút sổ xuống và chủ cửa hàng có thể thiết lập một Tiêu đề HTML tùy chỉnh để hiển thị trên trang thanh toán.
 
 ![image](assets/en/52.webp)
 
-Để đảm bảo khách hàng biết phương thức thanh toán của mình, chủ sở hữu cửa hàng có thể rõ ràng thiết lập thanh toán của mình luôn yêu cầu người dùng chọn phương thức thanh toán ưa thích của họ. Khi hóa đơn được thanh toán, BTCPay Server cho phép khách hàng quay trở lại cửa hàng trực tuyến. Chủ sở hữu cửa hàng có thể thiết lập điều hướng này sau khi khách hàng đã thanh toán tự động.
+Để đảm bảo khách hàng biết phương thức thanh toán của mình, chủ cửa hàng có thể thiết lập rõ ràng rằng thanh toán của mình luôn yêu cầu người dùng chọn phương thức thanh toán ưa thích của họ. Khi hóa đơn được thanh toán, BTCPay Server cho phép khách hàng quay trở lại cửa hàng trực tuyến. Chủ cửa hàng có thể thiết lập điều hướng này sau khi khách hàng đã thanh toán tự động.
 
 ![image](assets/en/53.webp)
 
 #### Biên lai công khai
 
-Trong cài đặt biên lai công khai, chủ sở hữu cửa hàng có thể thiết lập các trang biên lai thành công khai và hiển thị danh sách thanh toán trên trang biên lai cũng như mã QR của biên lai để khách hàng dễ dàng truy cập số hóa.
+Trong cài đặt biên lai công khai, chủ cửa hàng có thể thiết lập các trang biên lai thành công khai và hiển thị danh sách thanh toán trên trang biên lai cũng như mã QR của biên lai để khách hàng dễ dàng truy cập điện tử.
 ![image](assets/vi/54.webp)
 
-### Token Truy Cập
+### Token truy cập
 
 Token truy cập được sử dụng để ghép nối với một số tích hợp thương mại điện tử hoặc tích hợp xây dựng tùy chỉnh.
 
@@ -1056,7 +1058,7 @@ Token truy cập được sử dụng để ghép nối với một số tích h
 
 ### Người Dùng
 
-Người dùng cửa hàng là nơi chủ cửa hàng có thể quản lý nhân viên của mình, tài khoản của họ và quyền truy cập vào cửa hàng. Sau khi nhân viên tạo tài khoản của họ, chủ cửa hàng có thể thêm người dùng cụ thể vào cửa hàng dưới dạng Khách hoặc chủ sở hữu. Để xác định thêm vai trò của nhân viên, tham khảo phần tiếp theo về “Cài đặt Cửa hàng BTCPay Server - Vai trò.”
+Người dùng cửa hàng là nơi chủ cửa hàng có thể quản lý nhân viên của mình, tài khoản của họ và quyền truy cập vào cửa hàng. Sau khi nhân viên tạo tài khoản của họ, chủ cửa hàng có thể thêm người dùng cụ thể vào cửa hàng dưới dạng khách hoặc chủ sở hữu. Để xác định thêm vai trò của nhân viên, tham khảo phần tiếp theo về “Cài đặt cửa hàng BTCPay Server - Vai trò.”
 
 ![image](assets/vi/56.webp)
 
@@ -1064,59 +1066,59 @@ Người dùng cửa hàng là nơi chủ cửa hàng có thể quản lý nhân
 
 Chủ cửa hàng có thể thấy vai trò tiêu chuẩn của người dùng không đủ quan trọng. Trong cài đặt vai trò tùy chỉnh, chủ cửa hàng có thể xác định nhu cầu cụ thể cho mỗi vai trò trong doanh nghiệp của mình.
 
-(1) Để tạo một vai trò mới, nhấn vào nút "+ Thêm vai trò".
+(1) Để tạo một vai trò mới, nhấn vào nút "+ Thêm vai trò - Add role".
 
 ![image](assets/vi/57.webp)
 
-(2) Nhập tên Vai trò, ví dụ, "Thu Ngân".
+(2) Nhập tên Vai trò, ví dụ, "Thu Ngân - Cashier".
 
 ![image](assets/vi/58.webp)
 
-(3) Cấu hình các quyền riêng lẻ cho vai trò.
+(3) Thiết lập các quyền riêng cho từng vai trò.
 
 - Chỉnh sửa cửa hàng của bạn.
-- Quản lý tài khoản giao dịch liên kết với cửa hàng của bạn.
-  - Xem tài khoản giao dịch liên kết với cửa hàng của bạn.
-- Quản lý các khoản thanh toán kéo của bạn.
-- Tạo các khoản thanh toán kéo.
-  - Tạo các khoản thanh toán kéo không được phê duyệt.
+- Quản lý tài khoản sàn giao dịch liên kết với cửa hàng của bạn.
+  - Xem tài khoản sàn giao dịch liên kết với cửa hàng của bạn.
+- Quản lý các yêu cầu thanh toán của bạn.
+- Tạo các yêu cầu thanh toán.
+  - Tạo các yêu cầu thành toán không được phê duyệt.
 - Chỉnh sửa hóa đơn.
   - Xem hóa đơn.
   - Tạo hóa đơn.
-  - Tạo hóa đơn từ các nút lightning liên kết với cửa hàng của bạn.
+  - Tạo hóa đơn từ các node lightning liên kết với cửa hàng của bạn.
 - Xem cửa hàng của bạn.
   - Xem hóa đơn.
   - Xem các yêu cầu thanh toán của bạn.
   - Chỉnh sửa webhook của cửa hàng.
 - Chỉnh sửa các yêu cầu thanh toán của bạn.
   - Xem các yêu cầu thanh toán của bạn.
-- Sử dụng các nút lightning liên kết với cửa hàng của bạn.
-  - Xem các hóa đơn lightning liên kết với cửa hàng của bạn.
-  - Tạo hóa đơn từ các nút lightning liên kết với cửa hàng của bạn.
-- Gửi tiền vào tài khoản giao dịch liên kết với cửa hàng của bạn.
-- Rút tiền từ tài khoản giao dịch về cửa hàng của bạn.
-- Giao dịch tiền trên tài khoản giao dịch của cửa hàng.
+- Sử dụng các node Lightning liên kết với cửa hàng của bạn.
+  - Xem các hóa đơn Lightning liên kết với cửa hàng của bạn.
+  - Tạo hóa đơn từ các node Lightning liên kết với cửa hàng của bạn.
+- Gửi tiền vào tài khoản sàn giao dịch liên kết với cửa hàng của bạn.
+- Rút tiền từ tài khoản sàn giao dịch về cửa hàng của bạn.
+- Giao dịch tiền trên tài khoản sàn giao dịch của cửa hàng.
 
-Khi vai trò được tạo, tên sẽ được cố định và không thể thay đổi sau khi ở chế độ chỉnh sửa.
+Khi vai trò được tạo, tên sẽ được cố định và không thể thay đổi sau đó ở chế độ chỉnh sửa.
 
 ![image](assets/vi/59.webp)
 
 ### Webhooks
 
-Trong BTCPay Server, việc tạo một "Webhook" mới khá dễ dàng. Trong tab Cài đặt Cửa hàng BTCPay Server - Webhooks, chủ cửa hàng có thể dễ dàng tạo một webhook mới bằng cách nhấn vào "+ Tạo Webhook". Webhooks cho phép BTCPay Server gửi các sự kiện HTTP liên quan đến cửa hàng của bạn đến các máy chủ khác hoặc tích hợp thương mại điện tử.
+Trong BTCPay Server, việc tạo một "Webhook" mới khá dễ dàng. Trong tab Cài đặt cửa hàng BTCPay Server - Webhooks, chủ cửa hàng có thể dễ dàng tạo một webhook mới bằng cách nhấn vào "+ Tạo Webhook - + Add Webhook". Webhooks cho phép BTCPay Server gửi các sự kiện HTTP liên quan đến cửa hàng của bạn đến các server khác hoặc tích hợp thương mại điện tử.
 
 ![image](assets/vi/60.webp)
 
-Bạn đang ở trong giao diện tạo Webhook. Đảm bảo bạn biết URL Payload của mình và dán nó vào BTCPay Server của bạn. Trong khi bạn đã dán URL Payload, phía dưới nó hiển thị bí mật webhook. Sao chép bí mật webhook và cung cấp nó trên điểm cuối. Khi mọi thứ đã được thiết lập, bạn có thể chuyển đổi trong BTCPay Server để Giao lại tự động. Chúng tôi sẽ cố gắng giao lại bất kỳ giao hàng nào thất bại sau 10 giây, 1 phút, và lên đến 6 lần sau 10 phút. Bạn có thể chuyển đổi giữa mọi sự kiện hoặc chỉ định các sự kiện theo nhu cầu của bạn. Hãy chắc chắn kích hoạt webhook và nhấn Thêm webhook để lưu nó.
+Bạn đang ở trong giao diện tạo Webhook. Đảm bảo bạn biết URL Payload của mình và dán nó vào BTCPay Server của bạn. Trong khi bạn đã dán URL Payload, phía dưới nó hiển thị bí mật webhook. Sao chép bí mật webhook và cung cấp nó cho đầu cuối. Khi mọi thứ đã được thiết lập, bạn có thể chuyển đổi trong BTCPay Server để Giao lại tự động. Chúng ta sẽ cố gắng giao lại bất kỳ giao hàng nào thất bại sau 10 giây, 1 phút, và lên đến 6 lần sau 10 phút. Bạn có thể chuyển đổi giữa mọi sự kiện hoặc chỉ định các sự kiện theo nhu cầu của bạn. Hãy chắc chắn kích hoạt webhook (Enabled) và nhấn Thêm webhook để lưu nó.
 
 ![image](assets/vi/61.webp)
 
-Webhooks không được thiết kế để tương thích với API Bitpay. Có hai IPN riêng biệt (trong thuật ngữ BitPay: "Thông báo Thanh toán Tức thì") trong BTCPay Server.
+Webhooks không được thiết kế để tương thích với API Bitpay. Có hai IPN riêng biệt (trong thuật ngữ BitPay: "Thông báo thanh toán tức thì") trong BTCPay Server.
 
 - Webhook
 - Thông báo
 
-Chỉ sử dụng URL Thông báo khi bạn tạo hóa đơn qua api Bitpay.
+Chỉ sử dụng URL Thông báo khi bạn tạo hóa đơn qua API Bitpay.
 
 ### Quy Trình Thanh Toán
 

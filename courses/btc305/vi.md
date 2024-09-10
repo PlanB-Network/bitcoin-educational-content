@@ -2,22 +2,21 @@
 name: Bitcoin và BTCPay Server
 goal: Cài đặt BTCPay Server cho doanh nghiệp của bạn
 objectives:
-  - Hiểu BTCPay Server là gì.
-  - Tự host và cấu hình BTCPay Server.
-  - Sử dụng BTCPay Server trong kinh doanh hàng ngày.
+  - Hiểu rõ về BTCPay Server.
+  - Self-host và cấu hình cho BTCPay Server.
+  - Sử dụng BTCPay Server trong hoạt động kinh doanh hàng ngày.
 ---
 
-test
 
 # Bitcoin và BTCPay Server
 
-Đây là một khóa học giới thiệu về Cách vận hành BTCPay Server được viết bởi Alekos và Bas, sau đó được điều chỉnh theo Định dạng Khóa học PlanB bởi melontwist và asi0.
+Đây là một khóa học giới thiệu về Cách vận hành của BTCPay Server được viết bởi Alekos và Bas, sau đó được điều chỉnh theo định dạng một khóa học trên PlanB bởi melontwist và asi0.
 
-MỘT CÂU CHUYỆN CHƯA KẾT THÚC
+MỘT CÂU CHUYỆN CHƯA CÓ HỒI KẾT - AN UNFINSHED STORY
 
-"Đây Là Dối Trá, Niềm Tin Của Tôi Nơi Bạn Đã Bị Phá Vỡ, Tôi Sẽ Làm Cho Bạn Trở Nên Lỗi Thời".
+"Đây là sự dối trá, niềm tin của tôi dành cho bạn đã bị phá vỡ, tôi sẽ làm cho bạn trở nên lỗi thời". - "This Is Lies, My Trust In You Is Broken, I Will Make You Obsolete".
 
-Sản xuất bởi Quỹ BTCPay Server
+Sản phẩm của BTCPay Server Foundation
 
 +++
 
@@ -25,123 +24,123 @@ Sản xuất bởi Quỹ BTCPay Server
 
 <partId>59e43fe3-b494-5da6-b4b4-9df5bdf08916</partId>
 
-## Lời khen ngợi dành cho Tác giả của Bitcoin và BTCPay Server
+## Lời ngợi ca dành cho cha đẻ của Bitcoin và cha đẻ của BTCPay Server
 
 <chapterId>e1fe6294-3c82-5203-9537-779f9087c35a</chapterId>
 
-Hãy bắt đầu với việc BTCPay Server là gì và nó xuất phát từ đâu. Chúng tôi coi trọng sự minh bạch và một số tiêu chuẩn nhất định để tạo dựng niềm tin trong không gian Bitcoin.
-Một dự án trong lĩnh vực này đã phá vỡ những giá trị này. Nicolas Dorier, nhà phát triển chính của BTCPay Server, đã coi đó là chuyện cá nhân và hứa sẽ làm cho họ trở nên lỗi thời. Và đây chúng ta, nhiều năm sau, đang làm việc hướng tới tương lai đó, hoàn toàn mã nguồn mở, hàng ngày.
+BTCPay Server là gì và nó ra đời từ đâu? Chúng ta hãy bắt đầu từ câu hỏi này. Chúng ta đề cao sự minh bạch và một số tiêu chuẩn nhất định để tạo dựng niềm tin trong không gian Bitcoin.
+Một dự án trong lĩnh vực này đã phá vỡ những giá trị này. Nicolas Dorier, nhà phát triển chính của BTCPay Server, đã coi đó là chuyện cá nhân và hứa sẽ làm cho những giá trị đó trở nên lỗi thời. Và sau nhiều năm, chúng ta đang hàng ngày nỗ lực để hướng tới tương lai đó, hoàn toàn mã nguồn mở.
 
-> Đây là dối trá, niềm tin của tôi nơi bạn đã bị phá vỡ, tôi sẽ làm cho bạn trở nên lỗi thời.
+> Đây là sự dối trá, niềm tin của tôi dành cho bạn đã bị phá vỡ, tôi sẽ làm cho bạn trở nên lỗi thời.
 > Nicolas Dorier
 
-Sau những lời nói của Nicolas, đã đến lúc bắt đầu xây dựng. Rất nhiều công sức đã được đổ vào cái mà chúng ta bây giờ gọi là BTCPay Server. Nhiều người muốn giúp đỡ với sự đẩy mạnh này. Những người dễ nhận biết nhất là r0ckstardev, MrKukks, Pavlenex, và người bán hàng đầu tiên sử dụng phần mềm này, astupidmoose.
+Sau những lời nói của Nicolas, đã đến lúc bắt đầu xây dựng, kiến tạo. Rất nhiều công sức đã được đổ vào thứ mà chúng ta bây giờ gọi là BTCPay Server. Nhiều người đã hỗ trợ thúc đẩy sáng kiến này. Những người được công nhận nhất là r0ckstardev, MrKukks, Pavlenex, và người bán hàng đầu tiên sử dụng phần mềm này, astupidmoose.
 
-Mã nguồn mở có nghĩa là gì, và điều gì đi vào một dự án như vậy?
+Mã nguồn mở có nghĩa là gì, và điều gì tạo nên một dự án như vậy?
 
-FOSS là viết tắt của Free & Open-Source Software (Phần Mềm Miễn Phí và Mã Nguồn Mở). Cái đầu tiên ám chỉ các điều khoản cho phép bất kỳ ai cũng có thể sao chép, chỉnh sửa, và thậm chí phân phối các phiên bản của phần mềm (kể cả với mục đích lợi nhuận). Cái sau ám chỉ việc chia sẻ mã nguồn một cách công khai, khuyến khích công chúng đóng góp và cải thiện nó.
-Điều này thu hút những người dùng có kinh nghiệm hứng thú với việc đóng góp vào phần mềm mà họ đã sử dụng và tạo ra giá trị từ đó, chứng minh theo thời gian sẽ chiến thắng trong việc áp dụng so với phần mềm độc quyền. Điều này phù hợp với tinh thần Bitcoin rằng “thông tin khao khát được tự do”. Nó đưa những người đam mê lại với nhau tạo thành một cộng đồng và đơn giản là vui vẻ hơn. Giống như Bitcoin, FOSS là điều không thể tránh khỏi.
+FOSS là viết tắt của Free & Open-Source Software (Phần mềm miễn phí và mã nguồn mở). Cái đầu tiên (Free) ám chỉ các điều khoản cho phép bất kỳ ai cũng có thể sao chép, chỉnh sửa, và thậm chí phân phối các phiên bản của phần mềm (kể cả với mục đích lợi nhuận). Cái sau (Open-Source) ám chỉ việc chia sẻ mã nguồn một cách công khai, khuyến khích công chúng đóng góp và cải thiện nó.
+Điều này thu hút những người dùng có kinh nghiệm hứng thú với việc đóng góp vào phần mềm mà họ đã sử dụng và tạo ra giá trị từ đó. Theo thời gian, phần mềm dạng này được chứng minh sẽ chiến thắng về phạm vi áp dụng so với phần mềm độc quyền. Điều này phù hợp với tinh thần của Bitcoin là “thông tin luôn khát khao được tự do”. Nó tập hợp những con người đam mê lại với nhau tạo thành một cộng đồng và đơn giản là tạo ra nhiều niềm vui hơn. Giống như Bitcoin, FOSS là tất yếu.
 
 ### Trước khi chúng ta bắt đầu
 
-Khóa học này bao gồm nhiều phần. Nhiều phần sẽ được giáo viên của bạn trong lớp học đảm nhận, môi trường thử nghiệm mà bạn có quyền truy cập, một máy chủ được host cho bạn, và có thể là một tên miền. Nếu bạn hoàn thành khóa học này một cách độc lập, xin lưu ý rằng các môi trường được ghi nhãn là DEMO sẽ không có sẵn cho bạn.
-Lưu ý. Nếu bạn theo dõi khóa học này qua lớp học, tên máy chủ có thể khác nhau tùy thuộc vào cài đặt lớp học của bạn. Biến trong tên máy chủ có thể khác nhau do điều này.
+Khóa học này bao gồm nhiều phần. Nhiều phần sẽ được giáo viên của bạn trong lớp học đảm nhận, môi trường thử nghiệm mà bạn có quyền truy cập vào, một máy chủ được host cho chính bạn, và có thể là một tên miền. Nếu bạn hoàn thành khóa học này một cách độc lập, xin lưu ý rằng các môi trường được ghi nhãn là DEMO sẽ không có sẵn cho bạn.
+Lưu ý. Nếu bạn theo dõi khóa học này qua lớp học, tên máy chủ có thể khác nhau tùy thuộc vào cài đặt lớp học của bạn. Các biến trong tên máy chủ có thể khác nhau do điều này.
 
 ### Cấu trúc Khóa học
 
-Mỗi chương có mục tiêu và đánh giá kiến thức. Trong khóa học này, chúng tôi sẽ đề cập đến từng điều này và có một bản tóm tắt các tính năng chính tại mỗi khối bài học (tức là chương). Hình minh họa được sử dụng để cung cấp phản hồi trực quan và củng cố các khái niệm chính một cách trực quan. Mục tiêu được đặt ra ngay từ đầu mỗi khối bài học. Những mục tiêu này vượt ra ngoài một danh sách kiểm tra. Chúng cung cấp cho bạn một hướng dẫn vào một bộ kỹ năng mới. Đánh giá Kiến thức ngày càng trở nên thách thức hơn trong việc thiết lập BTCPay Server của bạn.
+Mỗi chương đều có mục tiêu và đánh giá kiến thức. Trong khóa học này, chúng ta sẽ đề cập đến từng điều này và có một bản tóm tắt các tính năng chính tại mỗi khối bài học (tức là chương). Hình minh họa được sử dụng để cung cấp phản hồi và củng cố các khái niệm chính một cách trực quan. Mục tiêu được đặt ra ngay từ đầu mỗi khối bài học. Những mục tiêu này vượt ra ngoài phạm vi của một danh sách. Chúng cung cấp cho bạn một hướng dẫn để bước vào một bộ kỹ năng mới. Phần đánh giá iến thức ngày càng trở nên thách thức hơn trong việc thiết lập BTCPay Server của bạn.
 
 ### Học viên nhận được gì từ khóa học?
 
-Với Khóa học BTCPay Server, học viên có thể hiểu được các nguyên tắc cơ bản, kỹ thuật và phi kỹ thuật của Bitcoin. Việc đào tạo kỹ lưỡng trong việc sử dụng Bitcoin thông qua BTCPay Server sẽ cho phép học viên vận hành cơ sở hạ tầng Bitcoin của riêng họ.
+Với Khóa học BTCPay Server, học viên có thể hiểu được các nguyên tắc cơ bản, kỹ thuật và phi kỹ thuật của Bitcoin. Được đào tạo chuyên sâu về việc sử dụng Bitcoin thông qua BTCPay Server sẽ cho phép học viên vận hành cơ sở hạ tầng Bitcoin của riêng họ.
 
-### Địa chỉ Web quan trọng hoặc Cơ hội liên hệ
+### Địa chỉ Web quan trọng hoặc liên hệ
 
-Quỹ BTCPay Server, đã cho phép Alekos và Bas viết khóa học này, đặt tại Tokyo, Nhật Bản. Quỹ BTCPay Server có thể được liên hệ thông qua trang web được liệt kê;
+BTCPay Server Foundation, đã cho phép Alekos và Bas viết khóa học này, đặt tại Tokyo, Nhật Bản. Bạn có thể liên hệ với BTCPay Server Foundation thông qua:
 
 - https://foundation.btcpayserver.org
-- tham gia các kênh chat chính thức: https://chat.btcpayserver.org
+- Tham gia các kênh chat chính thức: https://chat.btcpayserver.org
 
 ## Giới thiệu về Bitcoin
 
 <chapterId>5c0bc234-c188-5b4a-94d5-adee87a120e2</chapterId>
 
-### Hiểu Bitcoin qua bài tập lớp học
+### Hiểu về Bitcoin thông qua một bài tập
 
-Đây là bài tập lớp học nên nếu bạn tham gia khóa học này, bạn không thể thực hiện nó nhưng bạn vẫn có thể tìm hiểu qua bài tập này. Để hoàn thành nhiệm vụ này, số lượng người tối thiểu là từ 9 đến 11.
+Đây là bài tập trong lớp học nên nếu bạn tự tham gia khóa học này, bạn không thể thực hiện nó nhưng bạn vẫn có thể tìm hiểu qua bài tập này. Để hoàn thành nhiệm vụ này, số lượng người tối thiểu là từ 9 đến 11.
 
-Bài tập bắt đầu sau khi xem giới thiệu "Làm thế nào Bitcoin và blockchain hoạt động" của BBC.
+Bài tập bắt đầu sau khi xem xong video giới thiệu "Làm thế nào Bitcoin và blockchain hoạt động" của BBC.
 
 ![how bitcoin and the blockchain works](https://youtu.be/mhE_vvwAiRc)
 
-Bài tập này yêu cầu ít nhất chín người tham gia. Mục đích của bài tập này là để hiểu một cách trực quan về cách hoạt động của Bitcoin. Bằng cách đóng vai từng vai trò trong mạng lưới, bạn sẽ có một cách học tương tác và vui vẻ. Bài tập này không liên quan đến Lightning Network.
+Bài tập này yêu cầu ít nhất chín người tham gia. Mục đích của bài tập này là để hiểu trực quan về cách hoạt động của Bitcoin. Bằng cách nhập vào từng vai những thành phần tham gia vào mạng lưới, bạn sẽ có một cách học tương tác và vui vẻ. Bài tập này không liên quan đến Lightning Network.
 
 ### Ví dụ; Yêu cầu 9 / 11 người
 
 Các vai trò là:
 
-- 1 Khách hàng
-- 1 Người bán hàng
-- 7 đến 9 nút Bitcoin
+- 1 Khách hàng - Customer
+- 1 Người bán hàng - Merchant
+- 7 đến 9 nốt Bitcoin - Bitcoin Nodes
 
-**Cài đặt như sau:**
+**Thiết lập trò chơi như sau:**
 
 Khách hàng mua một sản phẩm từ cửa hàng bằng Bitcoin.
 
-**Kịch bản 1 - Hệ thống Ngân hàng Truyền thống**
+**Kịch bản 1 - Hệ thống ngân hàng truyền thống**
 
 - Thiết lập:
-  - Xem sơ đồ/giải thích trong Figjam đính kèm - [Sơ đồ Hoạt động](https://www.figma.com/file/ckmvMq02Jm2MegSsVCDFhc/Day-1-Classroom-Activity?type=whiteboard&node-id=0-1&t=KR31ofMaJX6S95UL-0).
-  - Chọn ba sinh viên tình nguyện đóng vai Khách hàng (Alice), Người bán hàng (Bob), và Ngân hàng.
-- Diễn ra chuỗi sự kiện:
-  - Khách hàng- duyệt cửa hàng trực tuyến và tìm thấy một mặt hàng giá $25 mà họ muốn, và thông báo cho Người bán hàng rằng họ muốn mua
+  - Xem sơ đồ minh hoạ trong Figjam đính kèm - [Sơ đồ Hoạt động](https://www.figma.com/file/ckmvMq02Jm2MegSsVCDFhc/Day-1-Classroom-Activity?type=whiteboard&node-id=0-1&t=KR31ofMaJX6S95UL-0).
+  - Chọn ba học viên tình nguyện đóng các vai Khách hàng (Alice), Người bán hàng (Bob), và Ngân hàng.
+- Chuỗi sự kiện diễn ra:
+  - Khách hàng - tìm kiếm cửa hàng trực tuyến và tìm thấy một mặt hàng giá $25 mà họ muốn, sau đó thông báo cho Người bán hàng rằng họ muốn mua
   - Người bán hàng- yêu cầu thanh toán.
   - Khách hàng- gửi thông tin thẻ cho Người bán hàng
   - Người bán hàng- chuyển thông tin đến Ngân hàng (xác định cả danh tính của mình và thông tin/danh tính) yêu cầu thanh toán
   - Ngân hàng thu thập thông tin về Khách hàng và Người bán hàng (Alice và Bob) và kiểm tra xem số dư của khách hàng có đủ không.
-  - Trừ \$25 từ tài khoản của Alice, cộng \$24 vào tài khoản của Bob, lấy \$1 cho dịch vụ
-  - Người bán hàng nhận được sự đồng ý từ Ngân hàng và gửi hàng cho khách hàng.
+  - Trừ $25 từ tài khoản của Alice, cộng $24 vào tài khoản của Bob, lấy $1 cho phí dịch vụ
+  - Người bán hàng nhận được sự tín hiệu thành công từ Ngân hàng và gửi hàng cho khách hàng.
 - Nhận xét:
   - Bob và Alice phải có mối quan hệ với một ngân hàng.
   - Ngân hàng thu thập thông tin định danh về cả Bob và Alice.
-  - Ngân hàng nhận một phần.
-  - Ngân hàng phải được tin tưởng để giữ tiền của mỗi người tham gia mọi lúc.
+  - Ngân hàng lấy một phần của khoản thanh toán làm phí.
+  - Ngân hàng phải được tin tưởng để giữ tiền của mỗi người tham gia ở bất cứ thời điểm nào.
 
 **Kịch bản 2 - Hệ thống Bitcoin**
 
 - Thiết lập:
-  - Xem sơ đồ/giải thích trong Figjam đính kèm - [Sơ đồ Hoạt động](https://www.figma.com/file/ckmvMq02Jm2MegSsVCDFhc/Day-1-Classroom-Activity?type=whiteboard&node-id=0-1&t=KR31ofMaJX6S95UL-0).
-- Thay thế Ngân hàng bằng chín sinh viên sẽ đóng vai trò là Máy tính (Các nút/Thợ đào Bitcoin) trong mạng để thay thế Ngân hàng.
+  - Xem sơ đồ minh hoạ trong Figjam đính kèm - [Sơ đồ Hoạt động](https://www.figma.com/file/ckmvMq02Jm2MegSsVCDFhc/Day-1-Classroom-Activity?type=whiteboard&node-id=0-1&t=KR31ofMaJX6S95UL-0).
+  - Thay thế Ngân hàng bằng chín sinh viên sẽ đóng vai trò là Máy tính (Các nốt/Thợ đào Bitcoin) trong mạng lưới.
 - Mỗi Máy tính trong số 9 máy này có bản ghi lịch sử đầy đủ về tất cả các giao dịch đã từng được thực hiện (do đó, số dư chính xác mà không có sự giả mạo), cũng như một bộ quy tắc:
   - Xác minh giao dịch được ký đúng cách (chìa khóa phù hợp với ổ khóa)
-  - Phát sóng và nhận giao dịch hợp lệ từ các đối tác trong mạng, loại bỏ những giao dịch không hợp lệ (bao gồm cả những giao dịch cố gắng chi tiêu cùng một khoản tiền hai lần)
-- Cập nhật/Thêm bản ghi định kỳ với các giao dịch mới nhận từ máy tính "ngẫu nhiên" miễn là tất cả nội dung đều hợp lệ (lưu ý: chúng tôi đang bỏ qua, cho đến nay, thành phần Chứng minh Công việc để đơn giản hóa), nếu không thì từ chối những giao dịch này và tiếp tục như trước cho đến khi máy tính "ngẫu nhiên" khác gửi một cập nhật
-  - Số tiền thưởng đúng nếu nội dung hợp lệ.
-- Diễn ra chuỗi sự kiện:
-  - Khách hàng- duyệt cửa hàng trực tuyến và tìm thấy một mặt hàng trị giá $25 mà họ muốn, và thông báo cho Người bán họ muốn mua
+  - Phát sóng và nhận giao dịch hợp lệ từ các đối tác ngang hàng trong mạng lưới, loại bỏ những giao dịch không hợp lệ (bao gồm cả những giao dịch lặp chi - tiêu một đồng tiền hai lần)
+- Cập nhật/Thêm bản ghi định kỳ với các giao dịch mới nhận từ máy tính "ngẫu nhiên" miễn là tất cả nội dung đều hợp lệ (lưu ý: cho đến hiện tại, chúng ta đang bỏ qua phần Bằng chứng công việc - POW để đơn giản hóa), nếu không thì từ chối những giao dịch này và tiếp tục như trước cho đến khi máy tính "ngẫu nhiên" khác gửi một bản cập nhật.
+  - Một lượng tiền nhất định sẽ được thưởng cho thợ đào nếu nội dung hợp lệ.
+- Tiến trình sự kiện:
+  - Khách hàng- tìm kiếm cửa hàng trực tuyến và tìm thấy một mặt hàng trị giá $25 mà họ muốn, sau đó thông báo cho Người bán hàng rằng họ muốn mua
   - Người bán- yêu cầu thanh toán bằng cách gửi khách hàng một hóa đơn/địa chỉ từ ví của họ.
-  - Khách hàng- tạo một giao dịch (gửi $25 BTC đến địa chỉ do Người bán cung cấp) và phát sóng nó đến Mạng lưới Bitcoin.
+  - Khách hàng- tạo một giao dịch (gửi số BTC trị giá $25 đến địa chỉ do Người bán cung cấp) và phát sóng  giao dịch đó lên mạng lưới Bitcoin.
 - Máy tính- nhận giao dịch và xác minh:
-  - Có ít nhất $25 BTC trong địa chỉ được gửi từ
-  - Giao dịch được ký đúng cách (“mở khóa” bởi khách hàng)
-  - Nếu không phải trường hợp đó, thì giao dịch sẽ không được lan truyền qua mạng, và nếu có, thì nó sẽ được lan truyền và được giữ chờ.
+  - Địa chỉ ví gửi có ít nhất đủ lượng BTC trị giá $25.
+  - Giao dịch được ký đúng cách (“được mở khóa” bởi khách hàng)
+  - Nếu không, thì giao dịch sẽ không được lan truyền trên mạng, và nếu có, thì nó sẽ được lan truyền và được giữ ở trạng thái chờ.
   - Người bán có thể kiểm tra rằng giao dịch đang chờ xử lý.
-- Một máy tính được chọn “ngẫu nhiên” để đề xuất hoàn thành giao dịch được đề xuất bằng cách phát sóng “một khối” chứa nó; nếu nó được kiểm tra là hợp lệ, họ sẽ nhận được một phần thưởng BTC.
-  - TÙY CHỌN/NÂNG CAO - thay vì chọn ngẫu nhiên Máy tính, mô phỏng việc đào bằng cách yêu cầu Máy tính lắc xúc xắc cho đến khi một kết quả được xác định trước xảy ra (ví dụ: người đầu tiên lắc được đôi sáu là người được chọn)
-  - Nó cũng có thể diễn ra những gì sẽ xảy ra nếu hai Máy tính chiến thắng cùng một lúc, dẫn đến việc chia tách chuỗi.
-  - Máy tính kiểm tra tính hợp lệ, cập nhật/thêm bản ghi vào sổ cái của họ nếu các quy tắc được đáp ứng, và phát sóng khối cho các đối tác.
+- Một máy tính được chọn “ngẫu nhiên” để xử lý giao dịch được đề xuất bằng cách phát đi “một khối” chứa nó; nếu nó được kiểm tra là hợp lệ, họ sẽ nhận được một phần thưởng theo BTC.
+  - TÙY CHỌN/NÂNG CAO - thay vì chọn ngẫu nhiên một Máy tính, mô phỏng việc đào bằng cách yêu cầu các Máy tính lắc xúc xắc cho đến khi một kết quả được xác định từ trước xảy ra (ví dụ: người đầu tiên lắc được đôi sáu là người được chọn)
+  - Nó cũng có thể xảy ra trường hợp hai Máy tính chiến thắng cùng một lúc, dẫn đến việc chia tách chuỗi.
+  - Các máy tính kiểm tra tính hợp lệ, cập nhật/thêm bản ghi vào sổ cái của họ nếu các quy tắc được đáp ứng, và phát tán khối tới các đối tác.
   - Máy tính được chọn ngẫu nhiên nhận được phần thưởng cho việc đề xuất một khối hợp lệ.
-  - Người bán kiểm tra giao dịch đã được hoàn tất; do đó, tiền đã được nhận, và mặt hàng đã được gửi cho khách hàng.
+  - Người bán kiểm tra giao dịch đã được hoàn tất; do đó, tiền đã được nhận, và mặt hàng được gửi cho khách hàng.
 - Nhận xét:
-  - Lưu ý rằng không cần có mối quan hệ ngân hàng trước đó.
+  - Lưu ý rằng ở kịch bản này chúng ta không cần có mối quan hệ sẵn với ngân hàng.
   - Không cần bên thứ ba để hỗ trợ; thay thế bằng mã/code và các khoản khích lệ.
   - Không có việc thu thập dữ liệu bởi bất kỳ ai ngoài giao dịch trực tiếp và chỉ cần trao đổi số lượng thông tin cần thiết giữa các bên tham gia (ví dụ, địa chỉ giao hàng).
-  - Không cần tin tưởng giữa các bên (ngoại trừ Người bán gửi mặt hàng), giống như một giao dịch tiền mặt theo nhiều cách.
+  - Không cần sự tin tưởng giữa các bên (ngoại trừ tin tưởng vào việc Người bán sẽ gửi hàng), giống như một giao dịch tiền mặt theo nhiều cách.
   - Tiền được sở hữu trực tiếp bởi các cá nhân.
-  - Sổ cái Bitcoin được biểu diễn bằng đô la cho đơn giản, nhưng thực tế, nó là BTC.
-  - Chúng tôi mô phỏng một giao dịch đơn lẻ được phát sóng, nhưng thực tế, nhiều giao dịch đang chờ xử lý trong mạng, và các khối bao gồm hàng ngàn giao dịch cùng một lúc. Các nút cũng kiểm tra không có giao dịch chi tiêu kép nào đang chờ xử lý (tôi sẽ loại bỏ tất cả ngoại trừ một nếu đó là trường hợp).
+  - Sổ cái Bitcoin được biểu diễn bằng đô la cho đơn giản, nhưng thực tế, đơn vị của nó là BTC.
+  - Chúng tôi mô phỏng một giao dịch đơn lẻ được phát sóng, nhưng thực tế, có nhiều giao dịch đang chờ xử lý trên mạng lưới Bitcoin, và mỗi khối bao gồm hàng ngàn giao dịch cùng một lúc. Các nốt cũng kiểm tra để đảm bảo không có giao dịch lặp chi nào đang chờ xử lý.
 - Các tình huống gian lận:
-  - Nếu khách hàng không có $25 BTC?
+  - Nếu khách hàng không có đủ lượng BTC trị giá $25
     - Họ sẽ không thể tạo giao dịch vì “mở khóa” và “sở hữu” là một và cùng một thứ, và máy tính kiểm tra giao dịch được ký đúng cách; nếu không, họ sẽ từ chối nó.
 - Nếu máy tính được chọn ngẫu nhiên cố gắng "thay đổi sổ cái"? - Khối sẽ bị từ chối, vì mọi máy tính khác đều có lịch sử đầy đủ và sẽ nhận ra sự thay đổi, vi phạm một trong những quy tắc của họ.
   - Máy tính Ngẫu nhiên sẽ không nhận được phần thưởng, và không có giao dịch nào từ khối của họ được hoàn tất.
@@ -150,22 +149,22 @@ Khách hàng mua một sản phẩm từ cửa hàng bằng Bitcoin.
 
 <chapterId>1461f064-933d-50ea-8935-324b68ec5d5f</chapterId>
 
-### Thảo luận tại lớp KA
+### Đánh giá kiến thức thảo luận tại lớp học
 
-Thảo luận về một số sự đơn giản hóa được thực hiện trong bài tập tại lớp dưới kịch bản thứ hai và mô tả chi tiết hơn về hệ thống Bitcoin thực tế.
+Thảo luận về một số sự đơn giản hóa được áp dụng trong bài tập tại lớp theo kịch bản thứ hai và mô tả chi tiết hơn về hệ thống Bitcoin thực tế.
 
-### Ôn tập từ vựng KA
+### Đánh giá kiến thức ôn tập từ vựng
 
 Định nghĩa các thuật ngữ chính được giới thiệu trong phần trước:
 
-- Node
+- Node - Nốt
 - Mempool
-- Difficulty Target
+- Difficulty Target - Mục tiêu độ khó
 - Block
 
-**Thảo luận về ý nghĩa của một số thuật ngữ bổ sung nhóm:**
+**Thảo luận về ý nghĩa của một số thuật ngữ bổ sung:**
 
-Blockchain, Transaction, Double-Spend, Vấn đề Tướng Byzantine, Mining, Proof of Work (PoW), Hàm Hash, Block Reward, Blockchain, Chuỗi Dài nhất, Tấn công 51%, Output, Output Lock, Change, Satoshis, Public/Private Key, Address, Public-Key Cryptography, Digital Signature, Wallet
+Blockchain, Transaction - Giao dịch, Double-Spend - Lặp chi, Byzantine Generals' Problem - Bài toán các vị tướng Byzantine, Mining - Đào coin, Proof of Work (PoW) - Bằng chứng công việc, Hash Function - Hàm băm, Block Reward - Phần thưởng khối, Longest Chain - Chuỗi dài nhất, 51% Attack - Tấn công 51%, Output - Đầu ra, Output Lock - Khoá đầu ra, Change - Tiền thối, Satoshis - Sat, Public/Private Key - Khoá công khai / riêng tư, Address - Địa chỉ, Public-Key Cryptography - Mật mã khoá công khai, Digital Signature - Chữ ký số, Wallet - Ví.
 
 # Giới thiệu về BTCPay Server
 
@@ -177,47 +176,47 @@ Blockchain, Transaction, Double-Spend, Vấn đề Tướng Byzantine, Mining, P
 
 ### Làm việc với BTCPay Server
 
-Mục tiêu của khối học này sẽ là hiểu chung về phần mềm BTCPay Server. Trong môi trường chia sẻ, bạn được khuyến khích theo dõi minh họa của giáo viên và theo dõi cùng với Sổ tay Khóa học BTCPay Server để theo dõi giáo viên. Bạn sẽ học cách tạo ví qua nhiều phương pháp. Ví dụ bao gồm cài đặt ví Hot và ví phần cứng kết nối qua BTCPay Server Vault. Những mục tiêu này diễn ra trong môi trường Demo, được hiển thị và cung cấp quyền truy cập bởi giáo viên khóa học của bạn.
+Mục tiêu của  bài học này sẽ là hiểu chung về phần mềm BTCPay Server. Trong môi trường chia sẻ, bạn được khuyến khích theo dõi minh họa của giáo viên và bám theo Sổ tay Khóa học BTCPay Server. Bạn sẽ học cách tạo ví qua nhiều phương pháp. Ví dụ bao gồm cài đặt ví nóng (Hot Wallet) và ví phần cứng kết nối qua BTCPay Server Vault. Những điều này diễn ra trong môi trường Demo, được hiển thị và cung cấp quyền truy cập bởi giáo viên khóa học của bạn.
 
-Nếu bạn theo dõi khóa học này một mình, bạn có thể tìm danh sách các máy chủ của bên thứ ba cho mục đích Demo tại https://directory.btcpayserver.org/filter/hosts. Chúng tôi khuyến cáo không sử dụng các tùy chọn của bên thứ ba này làm môi trường sản xuất, nhưng chúng phục vụ đúng mục đích cho việc giới thiệu về việc sử dụng Bitcoin và BTCPay Server.
+Nếu bạn theo dõi khóa học này một mình, bạn có thể tìm danh sách các máy chủ của bên thứ ba cho mục đích Demo tại https://directory.btcpayserver.org/filter/hosts. Chúng tôi khuyến cáo không sử dụng các tùy chọn của bên thứ ba này làm môi trường kinh doanh sản xuất thực, nhưng chúng phục vụ tốt cho mục đích giới thiệu về việc sử dụng Bitcoin và BTCPay Server.
 
-Là một tân binh BTCPay Server, bạn có thể đã có kinh nghiệm thiết lập một node Bitcoin trước đây. Khóa học này sẽ nói cụ thể về ngăn xếp phần mềm BTCPay Server.
+Là một người mới BTCPay Server, bạn có thể đã có kinh nghiệm thiết lập một nốt Bitcoin trước đây. Khóa học này sẽ nói cụ thể về các lớp của phần mềm BTCPay Server.
 
-Nhiều tùy chọn trong BTCPay Server tồn tại dưới một hình thức này hay khác trong phần mềm liên quan đến ví Bitcoin khác.
+Nhiều tùy chọn trong BTCPay Server tồn tại dưới dạng này hay dạng khác trong các phần mềm liên quan đến ví Bitcoin khác.
 
 ### Màn hình đăng nhập BTCPay Server
 
-Khi bạn được chào đón vào môi trường Demo, bạn được yêu cầu ‘Đăng nhập’ hoặc ‘Tạo tài khoản mới’. Quản trị viên máy chủ có thể tắt tính năng tạo tài khoản mới vì lý do an ninh. Logo và màu sắc của nút BTCPay Server có thể được thay đổi vì BTCPay Server là Phần mềm Mã nguồn Mở. Một máy chủ của bên thứ ba có thể White-label phần mềm và thay đổi toàn bộ giao diện.
+Khi tới với môi trường thử nghiệm - Demo, bạn được yêu cầu ‘Login - Đăng nhập’ hoặc ‘Create your accounr - Tạo tài khoản mới’. Quản trị viên máy chủ có thể tắt tính năng tạo tài khoản mới vì một số lý do an ninh. Logo và màu sắc của nút BTCPay Server có thể được thay đổi vì BTCPay Server là Phần mềm mã nguồn mở. Một máy chủ của bên thứ ba có thể gán nhãn trắng phần mềm và thay đổi toàn bộ giao diện.
 
 ![image](assets/en/0.webp)
 
-### Cửa sổ Tạo Tài khoản
+### Cửa sổ tạo tài khoản
 
 Tạo tài khoản trên BTCPay Server yêu cầu chuỗi địa chỉ Email hợp lệ; ví dụ example@email.com sẽ là một chuỗi hợp lệ cho Email.
 
-Mật khẩu cần ít nhất 8 ký tự, bao gồm chữ cái, số và ký tự. Sau khi thiết lập mật khẩu một lần, bạn sẽ phải xác minh lại mật khẩu đã nhập để đảm bảo nó chính xác với những gì đã được nhập trong lần đầu tiên.
-Khi cả hai trường Email và Mật khẩu đã được điền đúng cách, nhấp vào nút ‘Tạo Tài Khoản’. Điều này sẽ lưu Email và mật khẩu trên phiên bản máy chủ BTCPay của giáo viên.
+Password - mật khẩu cần ít nhất 8 ký tự, bao gồm chữ cái, số và ký tự. Sau khi thiết lập mật khẩu một lần, bạn sẽ phải xác minh lại mật khẩu (Confirm password) đã nhập để đảm bảo nó chính xác với những gì đã được nhập trong lần đầu tiên.
+Khi cả hai trường Email và Mật khẩu đã được điền đúng cách, nhấp vào nút ‘Create account - Tạo tài khoản’. Điều này sẽ lưu Email và mật khẩu trên BTCPay Server thử nghiệm của giáo viên.
 ![image](assets/en/1.webp)
 
 **!Lưu Ý!**
 
-Nếu bạn tự học khóa học này, việc tạo tài khoản này có thể bạn sẽ thực hiện trên một máy chủ của bên thứ ba; do đó, một lần nữa, chúng tôi nhấn mạnh không bao giờ sử dụng chúng như môi trường sản xuất mà chỉ dùng cho mục đích đào tạo.
+Nếu bạn tự học khóa học này, có thể bạn sẽ thực hiện việc tạo tài khoản này trên một máy chủ của bên thứ ba; do đó, một lần nữa, chúng tôi nhấn mạnh không bao giờ sử dụng chúng như môi trường sản xuất - kinh doanh thật mà chỉ dùng cho mục đích đào tạo.
 
-### Quản Lý Tạo Tài Khoản bởi Quản Trị Viên BTCPay Server
+### Quản trị viên của BTCPay Server tạo tài khoản
 
-Quản trị viên của Phiên bản BTCPay Server cũng có thể tạo tài khoản cho BTCPay Server. Quản trị viên của phiên bản BTCPay Server có thể nhấp vào ‘Cài Đặt Máy Chủ’ (1), nhấp vào tab ‘Người Dùng’ (2), và nhấp vào nút “+ Thêm Người Dùng” (3) ở góc trên bên phải của tab Người Dùng. Trong Mục tiêu (4.3), bạn sẽ tìm hiểu thêm về quyền kiểm soát tài khoản của quản trị viên.
+Quản trị viên của BTCPay Server thử nghiệm cũng có thể tạo tài khoản cho BTCPay Server. Quản trị viên của BTCPay Server thử nghiệm có thể nhấp vào ‘Cài đặt máy chủ - Server Settings’ (1), nhấp vào tab ‘Người dùng - Users’ (2), và nhấp vào nút “+ Thêm người dùng - Add User” (3) ở góc trên bên phải của tab Người dùng - User. Trong Mục (4.3), bạn sẽ tìm hiểu thêm về quyền kiểm soát tài khoản của quản trị viên.
 
 ![image](assets/en/2.webp)
 
-Là một quản trị viên, bạn sẽ cần địa chỉ Email của người dùng và thiết lập một mật khẩu chuẩn. Là Quản trị viên, bạn nên thông báo cho người dùng rằng họ nên thay đổi mật khẩu này trước khi sử dụng tài khoản vì lý do an ninh. Nếu Quản trị viên KHÔNG thiết lập Mật khẩu và SMTP đã được thiết lập trên máy chủ, người dùng sẽ nhận được một email với liên kết mời để tạo tài khoản và thiết lập mật khẩu của họ.
+Là một quản trị viên, bạn sẽ cần địa chỉ Email của người dùng và thiết lập một mật khẩu chuẩn. Là Quản trị viên, bạn nên thông báo cho người dùng rằng họ nên thay đổi mật khẩu này trước khi sử dụng tài khoản vì lý do bảo mật. Nếu Quản trị viên KHÔNG thiết lập Mật khẩu và SMTP đã được thiết lập trên máy chủ, người dùng sẽ nhận được một email với đường link mời để tạo tài khoản và thiết lập mật khẩu của họ.
 
 ### Ví Dụ
 
-Khi theo dõi khóa học qua giáo viên, hãy theo dõi liên kết do giáo viên cung cấp và tạo tài khoản của bạn trên môi trường Demo được cung cấp. Đảm bảo địa chỉ email và mật khẩu của bạn được lưu một cách an toàn; bạn sẽ cần thông tin đăng nhập này cho phần còn lại của các mục tiêu demo trong khóa học này.
+Khi theo dõi khóa học thông qua sự hướng dẫn của giáo viên, hãy theo đường link do giáo viên cung cấp và tạo tài khoản của bạn trên môi trường Demo được cung cấp. Đảm bảo địa chỉ email và mật khẩu của bạn được lưu một cách an toàn; bạn sẽ cần thông tin đăng nhập này cho phần còn lại của các mục tiêu Demo trong khóa học này.
 
 Giáo viên của bạn có thể đã thu thập địa chỉ email trước và gửi một liên kết mời trước bài tập này. Nếu được hướng dẫn, kiểm tra Email của bạn.
 
-Khi tham gia khóa học mà không có giáo viên, hãy tạo tài khoản của bạn sử dụng môi trường demo của BTCPay Server; truy cập
+Khi tham gia khóa học mà không có giáo viên, hãy tạo tài khoản của bạn sử dụng môi trường Demo của BTCPay Server; truy cập
 
 https://mainnet.demo.btcpayserver.org/login.
 
@@ -227,46 +226,46 @@ Tài khoản này chỉ nên được sử dụng cho mục đích trình diễn
 
 Trong phần này, bạn đã học được những điều sau:
 
-- Cách tạo một tài khoản trên máy chủ được lưu trữ thông qua giao diện.
+- Cách tạo một tài khoản trên máy chủ được lưu trữ thông qua giao diện của nó.
 - Cách một quản trị viên máy chủ có thể thêm người dùng thủ công trong cài đặt máy chủ.
 
-### Đánh Giá Kiến Thức
+### Đánh giá kiến thức
 
-#### Đánh Giá Khái Niệm
+#### Đánh khái niệm
 
-Nêu lý do tại sao sử dụng Máy Chủ Demo là ý tưởng xấu cho mục đích sản xuất.
+Nêu lý do tại sao việc sử dụng Máy chủ Demo cho mục đích sản xuất, kinh doanh thật là một ý tưởng tồi.
 
-## Quản Lý Tài Khoản Người Dùng
+## Quản lý tài khoản người dùng
 
 <chapterId>b58ca6ee-b7fc-5e81-a6aa-c8ff212b4c55</chapterId>
 
-### Quản Lý Tài Khoản trên BTCPay Server
+### Quản lý tài khoản trên BTCPay Server
 
-Sau khi chủ cửa hàng đã tạo tài khoản của họ, họ có thể quản lý nó ở góc dưới bên trái của giao diện người dùng BTCPay Server. Dưới nút Tài Khoản, có nhiều cài đặt cấp cao hơn.
+Sau khi chủ cửa hàng đã tạo tài khoản của họ, họ có thể quản lý nó ở góc dưới bên trái của giao diện người dùng BTCPay Server. Dưới nút Tài khoản - Account, có nhiều cài đặt cấp cao hơn.
 
-- Chế độ Tối/Sáng.
-- Chuyển đổi Ẩn Thông Tin Nhạy Cảm.
-- Quản Lý Tài Khoản.
+- Chế độ sáng / tối.
+- Nut chuyển để ẩn thông tin nhạy cảm
+- Quản lý tài khoản
 
 ![image](assets/en/3.webp)
 
-### Chế độ Tối và Sáng
+### Chế độ sáng và tối
 
-Người dùng của BTCPay Server có thể chọn giữa phiên bản giao diện người dùng Chế độ Tối hoặc Sáng. Các trang đối diện với khách hàng sẽ không thay đổi. Họ sử dụng cài đặt ưa thích của khách hàng về chế độ tối hoặc sáng.
+Người dùng của BTCPay Server có thể chọn giữa giao diện người dùng ở chế độ tối hoặc sáng. Nội dung và thành phần của các trang sẽ không thay đổi, chỉ là chế độ tối, sáng của nó.
 
-### Chuyển đổi Ẩn Thông Tin Nhạy Cảm
+### Nút chuyển để ẩn thông tin nhạy cảm
 
-Nút ẩn thông tin nhạy cảm mang lại một lớp bảo mật nhanh chóng và đơn giản. Bất cứ khi nào bạn cần vận hành máy chủ BTCPay của mình, nhưng có thể có người lén nhìn qua vai bạn ở không gian công cộng, hãy bật Ẩn Thông Tin Nhạy Cảm, và tất cả các giá trị trong BTCPay Server sẽ được ẩn đi. Người ta có thể nhìn qua vai bạn nhưng không thể thấy các giá trị bạn đang xử lý.
+Nút ẩn thông tin nhạy cảm mang lại một lớp bảo mật nhanh chóng và đơn giản. Bất cứ khi nào bạn cần vận hành BTCPay Server của mình, cũng có thể có người lén nhìn qua vai bạn ở không gian công cộng, hãy bật nút `Hide Sensitive Info` để ẩn các thông tin nhạy vsmt, và tất cả các giá trị, cong số trong BTCPay Server sẽ được ẩn đi. Người ta có thể nhìn qua vai bạn nhưng không thể thấy các giá trị, con số mà bạn đang xử lý.
 
-### Quản Lý Tài Khoản
+### Quản lý tài khoản
 
 Một khi tài khoản người dùng đã được tạo, đây là nơi để quản lý mật khẩu, xác thực hai yếu tố (2fa), hoặc khóa API.
 
-### Quản lý Tài khoản - Tài khoản
+### Quản lý tài khoản - Tài khoản
 
 Bạn có thể cập nhật tài khoản của mình bằng địa chỉ Email khác nếu muốn. Để đảm bảo rằng địa chỉ email của bạn chính xác, BTCPay Server cho phép bạn gửi một email xác nhận. Nhấn lưu nếu người dùng thiết lập một địa chỉ email mới và xác nhận việc xác minh thành công. Tên đăng nhập vẫn giữ nguyên như địa chỉ Email trước đó.
 
-Người dùng có thể quyết định xóa toàn bộ tài khoản của mình. Điều này có thể được thực hiện bằng cách nhấn vào nút xóa trên tab Tài khoản.
+Người dùng có thể quyết định xóa toàn bộ tài khoản của mình. Điều này có thể được thực hiện bằng cách nhấn vào nút `Delete Account - Xoá tài khoản` trên tab Tài khoản.
 
 ![image](assets/en/4.webp)
 
@@ -274,30 +273,30 @@ Người dùng có thể quyết định xóa toàn bộ tài khoản của mìn
 
 Sau khi thay đổi Email, tên đăng nhập cho tài khoản sẽ không thay đổi. Địa chỉ Email được cung cấp trước đó sẽ vẫn là tên đăng nhập.
 
-### Quản lý Tài khoản - Mật khẩu
+### Quản lý tài khoản - Mật khẩu
 
-Một sinh viên có thể muốn thay đổi mật khẩu của mình. Anh ta có thể làm điều này bằng cách đi tới tab Mật khẩu. Tại đây, anh ta cần phải nhập mật khẩu cũ và có thể thay đổi thành một mật khẩu mới.
+Sinh viên có thể muốn thay đổi mật khẩu của mình. Anh ta có thể làm điều này bằng cách đi tới tab `Password - Mật khẩu`. Tại đây, anh ta cần phải nhập mật khẩu cũ và có thể thay đổi thành một mật khẩu mới.
 
 ![image](assets/en/5.webp)
 
-### Xác thực Hai Yếu tố (2fa)
+### Xác thực hai yếu tố (2fa)
 
-Để hạn chế hậu quả của việc mất cắp mật khẩu, bạn có thể sử dụng xác thực hai yếu tố (2fa), một phương pháp bảo mật tương đối mới. Bạn có thể kích hoạt xác thực hai yếu tố thông qua Quản lý tài khoản và tab cho xác thực hai yếu tố. Bạn phải hoàn thành một bước thứ hai sau khi đăng nhập bằng tên đăng nhập và mật khẩu của mình.
+Để hạn chế hậu quả của việc mất cắp mật khẩu, bạn có thể sử dụng xác thực hai yếu tố (2fa), một phương pháp bảo mật tương đối mới. Bạn có thể kích hoạt xác thực hai yếu tố thông qua Quản lý tài khoản và tab xác thực hai yếu tố. Bạn phải hoàn thành một bước xác thực thứ hai sau khi đăng nhập bằng tên đăng nhập và mật khẩu của mình.
 
 BTCPay Server cho phép hai cách kích hoạt 2FA, 2FA dựa trên ứng dụng (Authy, Google, Microsoft authenticators) hoặc thông qua Thiết bị bảo mật (FIDO2 hoặc LNURL Auth).
 
-### Xác thực Hai Yếu tố - Dựa trên ứng dụng
+### Xác thực hai yếu tố (2fa) - Dựa trên ứng dụng
 
-Dựa vào Hệ điều hành điện thoại di động của bạn (Android hoặc iOS), người dùng có thể chọn giữa các ứng dụng sau;
+Tuỳ vào Hệ điều hành điện thoại di động của bạn (Android hoặc iOS), người dùng có thể chọn giữa các ứng dụng sau;
 
 1. Tải xuống một ứng dụng xác thực hai yếu tố;
    - Authy cho [Android](https://play.google.com/store/apps/details?id=com.authy.authy) hoặc [iOS](https://apps.apple.com/us/app/authy/id494168017)
    - Microsoft Authenticator cho [Android](https://play.google.com/store/apps/details?id=com.azure.authenticator) hoặc [iOS](https://apps.apple.com/us/app/microsoft-authenticator/id983156458)
    - Google Authenticator cho [Android](https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2&hl=e%C2%80) hoặc [iOS](https://apps.apple.com/us/app/google-authenticator/id388497605)
-2. Sau khi tải xuống và cài đặt Ứng dụng Xác thực.
+2. Sau khi tải xuống và cài đặt Ứng dụng xác thực hai yếu tố.
    - Quét mã QR được cung cấp bởi BTCPay Server
    - Hoặc nhập khóa được tạo bởi BTCPay Server vào ứng dụng Xác thực của bạn một cách thủ công.
-3. Ứng dụng Xác thực sẽ cung cấp cho bạn một mã duy nhất. Nhập mã duy nhất vào BTCPay Server để xác minh cài đặt, và nhấn xác minh để hoàn tất quá trình.
+3. Ứng dụng Xác thực sẽ cung cấp cho bạn một mã độc nhất. Nhập mã này vào BTCPay Server để xác minh cài đặt, và nhấn `Verify - Xác thực` để hoàn tất quá trình.
 
 ![image](assets/en/6.webp)
 
@@ -305,24 +304,24 @@ Dựa vào Hệ điều hành điện thoại di động của bạn (Android ho
 
 Trong phần này, bạn đã học được những điều sau:
 
-- Các tùy chọn quản lý tài khoản và các cách khác nhau để quản lý một tài khoản trên một thể hiện của BTCPay Server.
-- Cách thiết lập 2FA dựa trên ứng dụng.
+- Các tùy chọn quản lý tài khoản và các cách khác nhau để quản lý một tài khoản trên phiên bản Demo của BTCPay Server.
+- Cách thiết lập xác thực hai yếu tố (2fa) dựa trên ứng dụng.
 
-### Đánh giá Kiến thức
+### Đánh giá kiến thức
 
-#### Đánh giá Khái niệm
+#### Đánh giá khái niệm
 
 Mô tả cách xác thực hai yếu tố dựa trên ứng dụng giúp bảo vệ tài khoản của bạn
 
 ## Tạo một cửa hàng mới
 
 <chapterId>463b3634-b49f-5512-a711-3b2e096fc2e0</chapterId>
-Khi một người dùng mới đăng nhập vào BTCPay Server, môi trường là trống trải và cần có một cửa hàng đầu tiên. Trình hướng dẫn giới thiệu của BTCPay Server sẽ cung cấp cho người dùng tùy chọn ‘Tạo cửa hàng của bạn’ (1). Một Cửa hàng có thể được coi là một Ngôi nhà cho nhu cầu Bitcoin của bạn. Một Node BTCPay Server mới sẽ bắt đầu với việc Đồng bộ hóa Blockchain Bitcoin (2). Tùy thuộc vào cơ sở hạ tầng bạn chạy BTCPay Server trên, điều này có thể mất từ vài giờ đến vài ngày. Phiên bản hiện tại của thể hiện được hiển thị ở góc dưới bên phải của giao diện người dùng BTCPay Server của bạn. Điều này hữu ích cho việc tham khảo khi khắc phục sự cố.
+Khi một người dùng mới đăng nhập vào BTCPay Server, môi trường của họ là trống trơn và cần có cửa hàng đầu tiên. BTCPay Server sẽ cung cấp cho người dùng tùy chọn ‘Create your store - Tạo cửa hàng của bạn’ (1). Một Cửa hàng có thể được xem như là một ngôi nhà cho nhu cầu Bitcoin của bạn. Một nốt BTCPay Server mới sẽ bắt đầu với việc đồng bộ hóa Blockchain Bitcoin (2). Tùy thuộc vào cơ sở hạ tầng bạn chạy BTCPay Server ở trên đố, việc đồng bộ này có thể mất từ vài giờ đến vài ngày. Phiên bản hiện tại của server được hiển thị ở góc dưới bên phải của giao diện người dùng của bạn. Điều này hữu ích cho việc tham khảo khi khắc phục sự cố.
 ![hình ảnh](assets/en/7.webp)
 
-### Trình hướng dẫn Tạo cửa hàng của bạn
+### Tạo cửa hàng
 
-Theo khóa học này sẽ bắt đầu với một màn hình hơi khác so với trang trước. Vì giáo viên của bạn đã chuẩn bị môi trường Demo, Blockchain Bitcoin đã được đồng bộ hóa trước, và do đó bạn sẽ không thấy trạng thái đồng bộ của các node.
+Từ đây, khoả học này sẽ bắt đầu với một màn hình hơi khác so với trang trước. Khi giáo viên của bạn đã chuẩn bị môi trường Demo, Blockchain Bitcoin đã được đồng bộ hóa trước, và do đó bạn sẽ không thấy trạng thái đồng bộ của các node.
 
 Người dùng có thể quyết định xóa toàn bộ tài khoản của họ. Điều này có thể được thực hiện bằng cách nhấp vào nút xóa trên tab Tài khoản.
 
@@ -330,125 +329,124 @@ Người dùng có thể quyết định xóa toàn bộ tài khoản của họ
 
 **!Lưu ý!**
 
-Tài khoản BTCPay Server có thể tạo số lượng không giới hạn các cửa hàng. Mỗi cửa hàng là một ví hoặc “ngôi nhà”.
+Tài khoản BTCPay Server có thể tạo được một số lượng không giới hạn các cửa hàng. Mỗi cửa hàng là một ví hoặc một “ngôi nhà”.
 
 ### Ví dụ
 
-Bắt đầu bằng cách nhấp vào "Tạo cửa hàng của bạn".
+Bắt đầu bằng cách nhấp vào "Create your store - Tạo cửa hàng của bạn".
 
 ![hình ảnh](assets/en/9.webp)
 
-Điều này sẽ tạo Ngôi nhà và bảng điều khiển đầu tiên của bạn để sử dụng BTCPay server.
+Điều này sẽ tạo ra Ngôi nhà và bảng điều khiển đầu tiên của bạn để có thể sử dụng BTCPay server.
 
-(1) Sau khi nhấp vào "Tạo cửa hàng của bạn", BTCPay Server sẽ yêu cầu bạn đặt tên cho cửa hàng; điều này có thể là bất cứ thứ gì hữu ích cho bạn.
+(1) Sau khi nhấp vào "Create your store - Tạo cửa hàng của bạn", BTCPay Server sẽ yêu cầu bạn đặt tên cho cửa hàng; điều này có thể là bất cứ thứ gì hữu ích cho bạn.
 
 ![hình ảnh](assets/en/10.webp)
 
-(2) Tiếp theo, cần phải thiết lập một đơn vị tiền tệ mặc định cho cửa hàng, có thể là tiền tệ fiat hoặc được định giá theo tiêu chuẩn Bitcoin / Sats. Đối với môi trường demo, chúng tôi sẽ thiết lập nó thành USD.
+(2) Tiếp theo, cần phải thiết lập một đơn vị tiền tệ mặc định cho cửa hàng, có thể là tiền pháp định hoặc được định giá theo tiêu chuẩn Bitcoin / Sats. Đối với môi trường demo, chúng tôi sẽ thiết lập nó thành USD.
 
 ![hình ảnh](assets/en/11.webp)
 
-(3) Là tham số cuối cùng trong việc thiết lập cửa hàng, BTCPay Server yêu cầu bạn thiết lập một "Nguồn giá ưa thích" để so sánh giá Bitcoin với giá fiat hiện tại để cửa hàng của bạn hiển thị tỷ giá hối đoái chính xác giữa Bitcoin và tiền tệ fiat được thiết lập cho cửa hàng. Chúng tôi sẽ tuân theo mặc định trong ví dụ Demo và thiết lập điều này thành sàn giao dịch Kraken. BTCPay Server sử dụng API của Kraken để kiểm tra tỷ giá hối đoái.
+(3) Là tham số cuối cùng trong việc thiết lập cửa hàng, BTCPay Server yêu cầu bạn thiết lập một "Preferred Price Source - Nguồn giá ưa thích" nhằm xác định mức giá Bitcoin tính theo tiền pháp định hiện tại để cửa hàng của bạn hiển thị tỷ giá hối đoái chính xác giữa Bitcoin và tiền tệ pháp định được thiết lập cho cửa hàng. Chúng tôi sẽ tuân theo mặc định trong ví dụ Demo và thiết lập điều này thành sàn giao dịch Kraken. BTCPay Server sử dụng API của Kraken để kiểm tra tỷ giá hối đoái.
 
 ![hình ảnh](assets/en/12.webp)
 
-(4) Bây giờ, sau khi các tham số cửa hàng đã được thiết lập, nhấp vào nút Tạo, và BTCPay Server sẽ tạo bảng điều khiển cửa hàng đầu tiên của bạn, nơi trình hướng dẫn sẽ tiếp tục.
+(4) Bây giờ, sau khi các tham số cửa hàng đã được thiết lập, nhấp vào nút `Create - Tạo`, và BTCPay Server sẽ tạo bảng điều khiển cửa hàng đầu tiên của bạn, để bạn có thể quản lý nó.
 
 ![hình ảnh](assets/en/13.webp)
 
-Xin chúc mừng, bạn đã tạo cửa hàng đầu tiên của mình, và điều này kết thúc bài tập này.
+Xin chúc mừng, bạn đã tạo cửa hàng đầu tiên của mình, và bài tập này đã được hoàn thành.
 
 ![hình ảnh](assets/en/14.webp)
 
-### Tóm tắt Kỹ năng
+### Tóm tắt kỹ năng
 
 Trong phần này, bạn đã học:
 
-- Tạo cửa hàng và cấu hình đơn vị tiền tệ mặc định kết hợp với sở thích nguồn giá.
-- Mỗi "Cửa hàng" là một ngôi nhà mới tách biệt khỏi các cửa hàng khác trên cài đặt này của BTCPay Server.
+- Tạo cửa hàng và cấu hình đơn vị tiền tệ mặc định kết hợp với nguồn lấy giá ưa thích
+- Mỗi "Cửa hàng" là một ngôi nhà mới tách biệt khỏi các cửa hàng khác theo cài đặt này của BTCPay Server.
 
 # Giới thiệu về Bảo mật Khóa Bitcoin
 
 <partId>25da22d8-fd37-51c5-af2a-58b9f3b046b2</partId>
 
-## Hiểu biết về Sinh khóa Bitcoin
+## Hiểu biết về việc tạo khóa Bitcoin
 
 <chapterId>d162735b-847b-578e-83b8-a044ab703ec5</chapterId>
 
-### Việc sinh khóa bitcoin bao gồm những gì?
+### Việc tạo khóa Bitcoin bao gồm những gì?
 
-Khi tạo ví Bitcoin, ví sẽ tạo ra một cái gọi là "hạt giống". Trong mục tiêu cuối cùng, bạn đã tạo ra một "hạt giống", Chuỗi các từ được tạo ra trước đó còn được biết đến như là cụm từ ghi nhớ. Hạt giống được sử dụng để sinh ra các Khóa Bitcoin riêng lẻ từ đó và được sử dụng để gửi hoặc nhận Bitcoin. Cụm từ hạt giống không bao giờ nên được chia sẻ với bên thứ ba hoặc các đối tác không đáng tin cậy.
-Việc tạo seed được thực hiện theo tiêu chuẩn công nghiệp được biết đến với tên gọi là khung "Hierarchical Deterministic" (HD).
+Khi tạo ví Bitcoin, ví sẽ tạo ra một cái gọi là "hạt giống", chuỗi các từ được tạo ra trước đó còn được biết đến như là cụm từ ghi nhớ. Hạt giống được sử dụng để tạo ra các Khóa Bitcoin riêng lẻ từ đó và được sử dụng để gửi hoặc nhận Bitcoin. Cụm từ hạt giống không bao giờ nên được chia sẻ với bên thứ ba hoặc các đối tác không đáng tin cậy.
+Việc tạo seed được thực hiện theo tiêu chuẩn công nghiệp được biết đến với tên gọi là cấu trúc ví "Tất định phân tầng - Hierarchical Deterministic" (HD).
 ![image](assets/en/15.webp)
 
-### Địa Chỉ
+### Địa chỉ
 
-BTCPay Server được xây dựng để tạo ra một Địa Chỉ mới. Điều này giảm bớt vấn đề tái sử dụng công khai khóa hoặc Địa Chỉ. Sử dụng cùng một Khóa công khai làm cho việc theo dõi toàn bộ lịch sử thanh toán của bạn trở nên rất dễ dàng. Nghĩ về khóa như là phiếu sử dụng một lần sẽ cải thiện đáng kể quyền riêng tư của bạn. Chúng tôi cũng sử dụng Địa Chỉ Bitcoin, không nhầm lẫn chúng với Khóa công khai.
+BTCPay Server được xây dựng để tạo ra một địa chỉ mới. Điều này giảm bớt vấn đề tái sử dụng khoá công khai hoặc địa chỉ. Sử dụng cùng một khóa công khai làm cho việc theo dõi toàn bộ lịch sử thanh toán của bạn trở nên rất dễ dàng. Xem khóa công khai như là phiếu sử dụng một lần sẽ cải thiện đáng kể quyền riêng tư của bạn. Chúng tôi cũng sử dụng địa chỉ Bitcoin, đừng nhầm lẫn chúng với khóa công khai.
 
-Một Địa Chỉ được tạo ra từ Khóa công khai thông qua một “thuật toán băm.” Tuy nhiên, hầu hết ví và giao dịch sẽ hiển thị Địa Chỉ thay vì những khóa công khai đó. Địa Chỉ, nói chung, ngắn hơn khóa công khai và thường bắt đầu bằng `1`, `3`, hoặc `bc1`, trong khi khóa công khai bắt đầu bằng `02`, `03`, hoặc `04`.
+Một địa chỉ được tạo ra từ khóa công khai thông qua một “thuật toán băm.” Tuy nhiên, hầu hết ví và giao dịch sẽ hiển thị địa chỉ thay vì những khóa công khai đó. Địa chỉ, nói chung, ngắn hơn khóa công khai và thường bắt đầu bằng `1`, `3`, hoặc `bc1`, trong khi khóa công khai bắt đầu bằng `02`, `03`, hoặc `04`.
 
-- Địa Chỉ bắt đầu bằng `1.....` vẫn là các địa chỉ rất phổ biến. Như đã đề cập trong chương Tạo một cửa hàng mới, đây là các địa chỉ cũ. Loại địa chỉ này dành cho giao dịch P2PKH. P2Pkh sử dụng mã hóa Base58, làm cho địa chỉ nhạy cảm với chữ hoa và chữ thường. Cấu trúc của nó dựa trên khóa công khai với một số định danh thêm vào.
+- Địa chỉ bắt đầu bằng `1.....` vẫn là các địa chỉ rất phổ biến. Như đã đề cập trong chương Tạo một cửa hàng mới, đây là các địa chỉ theo chuẩn cũ (legacy). Loại địa chỉ này dành cho giao dịch P2PKH. P2PKH sử dụng mã hóa Base58, làm cho địa chỉ nhạy cảm với chữ hoa và chữ thường. Cấu trúc của nó dựa trên khóa công khai với chữ số 1 được thêm vào như một định danh.
 
-- Địa Chỉ bắt đầu bằng `bc1...` đang dần trở thành các địa chỉ rất phổ biến. Đây được biết đến là Địa Chỉ SegWit (native). Chúng cung cấp một cấu trúc phí tốt hơn so với các Địa Chỉ khác đã đề cập. Địa Chỉ SegWit (native) sử dụng mã hóa Bech32 và chỉ cho phép sử dụng chữ thường.
+- Địa chỉ bắt đầu bằng `bc1...` đang dần trở thành các địa chỉ rất phổ biến. Đây được biết đến là địa chỉ SegWit (native - bản địa). Chúng mang đến một cơ cấu phí tốt hơn so với các loại địa chỉ khác đã đề cập. Địa chỉ SegWit (native - bản địa) sử dụng mã hóa Bech32 và chỉ cho phép sử dụng chữ thường.
 
-- Địa Chỉ bắt đầu bằng `3...` thường được sử dụng bởi các sàn giao dịch cho địa chỉ nạp tiền. Địa chỉ này được đề cập trong chương Tạo một cửa hàng mới, là địa chỉ SegWit bọc hoặc lồng. Tuy nhiên, chúng cũng có thể hoạt động như một "Địa Chỉ Multisig". Khi được sử dụng như một địa chỉ SegWit, lại có một số tiết kiệm về phí giao dịch, ít hơn so với SegWit (native). Địa Chỉ P2SH sử dụng mã hóa Base58. Điều này làm cho nó nhạy cảm với chữ hoa và chữ thường, giống như địa chỉ cũ.
+- Địa chỉ bắt đầu bằng `3...` thường được sử dụng bởi các sàn giao dịch cho địa chỉ nạp tiền. Địa chỉ này được đề cập trong chương Tạo một cửa hàng mới, là địa chỉ SegWit (wrapped - bọc). Tuy nhiên, chúng cũng có thể hoạt động như một "Địa chỉ đa chữ ký - Multisig". Khi được sử dụng như một địa chỉ SegWit, loại địa chỉ này cũng giúp tiết kiệm phí giao dịch, tuy nhiên sẽ ít hơn so với SegWit (native). Địa chỉ P2SH sử dụng mã hóa Base58. Điều này làm cho nó nhạy cảm với chữ hoa và chữ thường, giống như địa chỉ legacy.
 
-- Địa Chỉ bắt đầu bằng `2...` là địa chỉ Testnet. Chúng được dùng để nhận bitcoin testnet (tBTC). Bạn không bao giờ nên nhầm lẫn và gửi Bitcoin đến những địa chỉ này. Cho mục đích phát triển, bạn có thể tạo một ví testnet. Có nhiều nguồn cung cấp bitcoin testnet trực tuyến. Không bao giờ mua Bitcoin testnet. Bitcoin testnet được khai thác. Điều này có thể là lý do cho một nhà phát triển sử dụng Regtest thay thế. Đây là một môi trường thử nghiệm cho các nhà phát triển, thiếu một số thành phần mạng. Tuy nhiên, Bitcoin, cho mục đích phát triển, rất hữu ích.
+- Địa Chỉ bắt đầu bằng `2...` là địa chỉ Testnet - thử nghiệm. Chúng được dùng để nhận bitcoin testnet (tBTC). Bạn không bao giờ nên nhầm lẫn và gửi Bitcoin đến những địa chỉ này. Với mục đích thử nghiệm và phát triển, bạn có thể tạo một ví testnet. Có nhiều nguồn cung cấp bitcoin testnet trực tuyến. Không bao giờ mua Bitcoin testnet. Bitcoin testnet có thể đào đyiwch. Điều này có thể là lý do mà một nhà phát triển sử dụng Regtest thay thế. Đây là một môi trường thử nghiệm cho các nhà phát triển, thiếu một số thành phần mạng. Tuy nhiên, Bitcoin, cho mục đích thử nghiệm và phát triển, rất hữu ích.
 
-### Khóa Công Khai
+### Khóa công khai - Public Key
 
-Khóa công khai ngày nay ít được sử dụng trong thực tế. Theo thời gian, người dùng bitcoin đã thay thế chúng bằng Địa Chỉ. Chúng vẫn tồn tại và đôi khi vẫn được sử dụng. Khóa công khai, nói chung, là chuỗi ký tự dài hơn nhiều so với địa chỉ. Giống như với địa chỉ, chúng bắt đầu với một định danh cụ thể.
+Khóa công khai ngày nay ít được sử dụng trong thực tế. Theo thời gian, người dùng bitcoin đã thay thế chúng bằng địa chỉ. Chúng vẫn tồn tại và đôi khi vẫn được sử dụng. Khóa công khai, nói chung, là chuỗi ký tự dài hơn nhiều so với địa chỉ. Giống như với địa chỉ, chúng bắt đầu với một định danh cụ thể.
 
-- Đầu tiên, `02...` và `03...` là các định danh khóa công khai rất tiêu chuẩn được mã hóa trong định dạng SEC. Chúng có thể được xử lý và chuyển đổi thành địa chỉ để nhận, được sử dụng để tạo địa chỉ multi-sig, hoặc để xác minh chữ ký. Các giao dịch Bitcoin ngày đầu sử dụng khóa công khai là một phần của giao dịch P2PK.
+- Đầu tiên, `02...` và `03...` là các định danh khóa công khai rất tiêu chuẩn được mã hóa trong định dạng SEC. Chúng có thể được xử lý và chuyển đổi thành địa chỉ để nhận, được sử dụng để tạo địa chỉ multi-sig, hoặc để xác minh chữ ký. Các giao dịch Bitcoin những ngày đầu sử dụng khóa công khai là một phần của giao dịch P2PK.
 
 - Tuy nhiên, ví HD sử dụng một cấu trúc khác. `xpub...`, `ypub...` hoặc `zpub...` được gọi là khóa công khai mở rộng hay còn gọi là xpubs. Những khóa này được sử dụng để tạo ra nhiều khóa công khai vì chúng là một phần của ví HD. Vì xpub của bạn giữ các bản ghi của toàn bộ lịch sử của bạn, nghĩa là các giao dịch trong quá khứ và tương lai, không bao giờ chia sẻ chúng với các bên không đáng tin cậy.
 
-### Tóm Tắt Kỹ Năng
+### Tóm tắt kỹ năng
 
 Trong phần này, bạn đã học được những điều sau:
 
-- Sự khác biệt giữa địa chỉ và kiểu dữ liệu khóa công khai và lợi ích của việc sử dụng địa chỉ so với khóa công khai.
+- Sự khác biệt giữa địa chỉ và khóa công khai và lợi ích của việc sử dụng địa chỉ so với khóa công khai.
 
 ### Đánh giá kiến thức
 
-Mô tả lợi ích của việc sử dụng địa chỉ mới cho mỗi giao dịch so với việc tái sử dụng địa chỉ hoặc phương pháp khóa công khai
+Mô tả lợi ích của việc sử dụng địa chỉ mới cho mỗi giao dịch so với việc tái sử dụng địa chỉ hoặc sử dụng khoá công khai.
 
-## Bảo mật khóa với ví cứng
+## Bảo mật các khóa với ví cứng
 
 <chapterId>c54a6d61-5a43-5fdb-93ae-c6750de9c612</chapterId>
 
-### Lưu trữ Khóa Bitcoin
+### Lưu trữ các khoá Bitcoin
 
-Sau khi tạo ra cụm từ hạt giống, danh sách từ 12 - 24 từ được tạo ra trong cuốn sách này đòi hỏi phải được sao lưu và bảo mật đúng cách, vì những từ này là cách duy nhất để khôi phục quyền truy cập vào ví. Cấu trúc của ví HD và cách nó tạo ra địa chỉ một cách định trước sử dụng hạt giống đó, tất cả địa chỉ bạn tạo ra sẽ được sao lưu sử dụng danh sách từ gợi nhớ này đại diện cho cụm từ hạt giống hoặc cụm từ khôi phục của bạn.
+Sau khi tạo ra cụm từ hạt giống, danh sách 12 hoặc 24 từ này đòi hỏi phải được sao lưu và bảo mật đúng cách, vì những từ này là cách duy nhất để khôi phục quyền truy cập vào ví. Cấu trúc của ví HD và cách nó tạo ra địa chỉ một cách tất định sử dụng hạt giống đó, tất cả địa chỉ bạn tạo ra sẽ được sao lưu sử dụng danh sách cụm từ hạt giống hay cụm từ khôi phục này.
 
-Hãy giữ cụm từ khôi phục của bạn được bảo mật. Nếu ai đó, đặc biệt là với ý đồ xấu, truy cập được, họ có thể chuyển tiền của bạn. Việc giữ hạt giống an toàn và được bảo mật nhưng cũng nhớ nó là lẫn nhau. Có một số phương pháp để lưu trữ khóa riêng Bitcoin, mỗi phương pháp có lợi ích và nhược điểm, dù là về an ninh, riêng tư, tiện lợi, hay phương tiện vật lý. Do tầm quan trọng của khóa riêng, người dùng bitcoin thường lưu trữ và giữ an toàn những khóa này trong "tự quản" thay vì sử dụng dịch vụ "giữ hộ" như ngân hàng. Tùy thuộc vào người dùng, anh ta phải sử dụng giải pháp lưu trữ Lạnh hoặc ví Nóng.
+Hãy lưu giữ an toàn và bảo mật cụm từ khôi phục của bạn. Nếu ai đó, đặc biệt là với ý đồ xấu, truy cập được, họ có thể lấy chuyển tiền của bạn. Có một số phương pháp để lưu trữ khóa riêng tư Bitcoin, mỗi phương pháp đều có lợi ích và nhược điểm, dù là về bảo mật, riêng tư, tiện lợi, hay phương tiện vật lý. Do tầm quan trọng của khóa riêng tư, người dùng bitcoin thường lưu trữ và giữ an toàn những khóa này theo phương pháp "tự quản - self custody" thay vì sử dụng dịch vụ "giữ hộ - custodial" như ngân hàng. Tùy thuộc vào người dùng, anh ta phải sử dụng giải pháp lưu trữ lạnh hoặc là dùng ví nóng.
 
-### Lưu trữ khóa bitcoin Nóng và Lạnh
+### Lưu trữ khóa bitcoin nóng và lạnh (Hot and Cold storage)
 
-Thông thường, ví bitcoin được phân loại trong Ví Nóng hoặc Ví Lạnh. Hầu hết sự đánh đổi nằm ở sự tiện lợi, dễ sử dụng và rủi ro an ninh. Mỗi phương pháp này cũng có thể được thấy trong giải pháp giữ hộ. Tuy nhiên, sự đánh đổi ở đây chủ yếu dựa trên an ninh và riêng tư và vượt ra ngoài phạm vi của khóa học này.
+Thông thường, ví bitcoin được phân loại thành ví nóng (Hot Wallet) và ví lạnh (Cold Wallet). Hầu hết sự đánh đổi nằm ở sự tiện lợi, dễ sử dụng và rủi ro bảo mật. Chúng ta cung có thể bắt gặp các phương pháp lưu trữ này được cung cấp bởi dịch vụ giữ hộ. Tuy nhiên, sự đánh đổi ở đây chủ yếu là trên khía cạnh bảo mật và riêng tư và điều này vượt ra ngoài phạm vi của khóa học này.
 
-### Ví Nóng
+### Ví nóng - Hot Wallet
 
-Ví Nóng là cách tiện lợi nhất để tương tác với Bitcoin qua điện thoại di động, web, hoặc phần mềm máy tính. Ví luôn kết nối với internet, cho phép người dùng gửi hoặc nhận Bitcoin. Tuy nhiên, đây cũng là điểm yếu của nó, ví, vì luôn trực tuyến, nay dễ bị tấn công bởi hacker hoặc malware trên thiết bị của bạn. Trong BTCPay Server, ví nóng lưu trữ khóa riêng trên instance. Bất kỳ ai truy cập vào cửa hàng BTCPay Server của bạn có thể ăn cắp tiền từ địa chỉ này nếu có ý đồ xấu. Khi BTCPay Server chạy trong môi trường được lưu trữ, bạn luôn nên xem xét điều này trong hồ sơ an ninh của mình và ưu tiên không sử dụng Ví Nóng trong trường hợp như vậy. Khi BTCPay Server được cài đặt trên phần cứng sở hữu, được bảo mật và tin cậy bởi bạn, hồ sơ rủi ro giảm đáng kể, nhưng nó không bao giờ biến mất!
+Ví Nóng là cách tiện lợi nhất để tương tác với Bitcoin qua điện thoại di động, web, hoặc phần mềm máy tính. Ví luôn kết nối với internet, cho phép người dùng gửi hoặc nhận bitcoin. Tuy nhiên, đây cũng là điểm yếu của nó, vì luôn trực tuyến, ví sẽ dễ bị tấn công bởi hacker hoặc mã độc trên thiết bị của bạn. Trong BTCPay Server, ví nóng lưu trữ khóa riêng trên instance. Bất kỳ ai truy cập vào cửa hàng BTCPay Server của bạn có thể ăn cắp tiền từ địa chỉ này nếu họ có ý đồ xấu. Khi BTCPay Server chạy trong môi trường sử dụng dịch vụ hosting (hosted environment), bạn nên luôn xem xét đến điều này trong phương án bảo mật của mình và ưu tiên không sử dụng ví nóng trong trường hợp như vậy. Khi BTCPay Server được cài đặt trên phần cứng do bạn sở hữu, được bảo mật và có độ tin cậy, mức độ rủi ro giảm đáng kể, nhưng nó không bao giờ biến mất hoàn toàn!
 
-### Ví Lạnh
+### Ví lạnh - Cold Wallet
 
-Cá nhân chuyển Bitcoin của họ vào ví lạnh vì nó có thể cô lập khóa riêng khỏi internet. Loại bỏ kết nối internet khỏi phương trình giảm thiểu rủi ro của malware, spyware, và đổi SIM. Lưu trữ lạnh được tin là vượt trội hơn lưu trữ nóng về mặt an ninh và tự chủ, miễn là các biện pháp phòng ngừa thích hợp được thực hiện để tránh mất khóa riêng Bitcoin. Lưu trữ lạnh phù hợp nhất cho số lượng lớn Bitcoin, không dự định chi tiêu thường xuyên do sự phức tạp của cài đặt ví.
+Cá nhân chuyển bitcoin của họ vào ví lạnh vì nó có thể biệt lập khóa riêng tư ra khỏi internet. Loại bỏ kết nối internet giúp giảm thiểu rủi ro của mã độc, phần mềm gián điệp, và tấn công đổi SIM. Lưu trữ lạnh được tin là vượt trội hơn lưu trữ nóng về mặt an toàn và tự chủ, miễn là các biện pháp phòng ngừa thích hợp được thực hiện để tránh mất khóa riêng tư. Do sự phức tạp trong cài đặt và sử dụng, lưu trữ lạnh phù hợp nhất cho số lượng bitcoin có giá trị cao.
 
-Có nhiều phương pháp để lưu trữ khóa Bitcoin trong lưu trữ lạnh, từ ví giấy đến ví não, ví cứng, hoặc, từ đầu, một tệp ví. Hầu hết ví sử dụng BIP 39 để tạo cụm từ hạt giống. Tuy nhiên, trong phần mềm Bitcoin core, vẫn chưa đạt được sự đồng thuận về việc sử dụng nó. Phần mềm Bitcoin Core vẫn sẽ tạo ra một tệp Wallet.dat bạn cần lưu trữ ở một vị trí ngoại tuyến an toàn.
+Có nhiều phương pháp để lưu trữ khóa riêng tư với ví lạnh, từ ví giấy đến ví não, ví cứng, hoặc như những ngày đầu của Bitcoin là một file. Hầu hết ví sử dụng BIP 39 để tạo cụm từ hạt giống. Tuy nhiên, trong phần mềm Bitcoin Core, vẫn chưa đạt được sự đồng thuận về việc sử dụng nó. Phần mềm Bitcoin Core vẫn sẽ tạo ra một file dữ liệu là Wallet.dat và bạn cần lưu trữ nó ở một vị trí ngoại tuyến an toàn.
 
-### Tóm tắt Kỹ năng
+### Tóm tắt kỹ năng
 
-Trong phần này, bạn đã học:
+Trong phần này, bạn đã học được:
 
-- Sự khác biệt giữa ví nóng và ví lạnh về chức năng và các sự đánh đổi của chúng.
+- Sự khác biệt giữa ví nóng và ví lạnh về chức năng cũng như những sự đánh đổi của chúng.
 
-### Đánh giá kiến thức Đánh giá Khái niệm
+### Đánh giá kiến thức về các khái niệm
 
 - Ví tiền là gì?
 - Sự khác biệt giữa ví nóng và ví lạnh là gì?
-
-- Mô tả ý nghĩa của "tạo ví"?
+- Mô tả ý nghĩa của hoạt động "khởi tạo ví - generating a wallet"?
 
 ## Sử dụng khóa Bitcoin của bạn
 
@@ -458,18 +456,18 @@ Trong phần này, bạn đã học:
 
 BTCPay Server bao gồm các tính năng ví tiêu chuẩn sau:
 
-- Giao dịch
-- Gửi
-- Nhận
-- Quét lại
-- Thanh toán kéo
-- Thanh toán
-- PSBT
-- Cài đặt chung
+- Giao dịch - Transactions
+- Gửi - Send
+- Nhận - Receive
+- Quét lại - Rescan
+- Yêu cầu thanh toán - Pull Payments
+- Xuất chi - Payouts
+- Giao dịch Bitcoin ký một phần - Partially Signed Bitcoin Transactions - PSBT
+- Cài đặt chung - General Settings
 
 ### Giao dịch
 
-Quản trị viên có thể xem các giao dịch đến và đi cho ví on-chain được kết nối với cửa hàng cụ thể này trong giao diện giao dịch. Mỗi giao dịch sẽ được phân biệt giữa nhận và gửi. Giao dịch nhận sẽ có màu xanh và giao dịch đi sẽ có màu đỏ. Trong giao diện giao dịch của BTCPay Server, quản trị viên cũng sẽ thấy một bộ nhãn tiêu chuẩn.
+Quản trị viên có thể xem các giao dịch đến và đi cho ví on-chain được kết nối với cửa hàng cụ thể trong giao diện giao dịch. Mỗi giao dịch sẽ được phân biệt giữa nhận và gửi. Giao dịch nhận sẽ có màu xanh và giao dịch gửi đi sẽ có màu đỏ. Trong giao diện giao dịch của BTCPay Server, quản trị viên cũng sẽ thấy một bộ nhãn tiêu chuẩn.
 
 | Loại Giao Dịch  | Mô Tả                                                  |
 | --------------- | ------------------------------------------------------ |
@@ -478,80 +476,82 @@ Quản trị viên có thể xem các giao dịch đến và đi cho ví on-chai
 | payjoin         | Chưa thanh toán, bộ đếm thời gian hóa đơn vẫn chưa hết |
 | payjoin-exposed | UTXO được tiết lộ qua đề xuất payjoin của hóa đơn      |
 | payment-request | Thanh toán được nhận qua yêu cầu thanh toán            |
-| payout          | Thanh toán được gửi qua thanh toán hoặc hoàn tiền      |
+| payout          | Thanh toán được gửi qua một đợt xuất chi hoặc hoàn tiền      |
 
-### Cách Gửi
+### Cách gửi
 
-Chức năng gửi của máy chủ BTCPay gửi giao dịch từ ví on-chain của máy chủ BTCPay. BTCPay Server cho phép nhiều cách ký giao dịch để chi tiêu quỹ. Một giao dịch có thể được ký với;
+Chức năng gửi của BTCPay Server gửi giao dịch từ ví on-chain của BTCPay Server. BTCPay Server cho phép nhiều cách ký giao dịch để chi tiêu tiền. Một giao dịch có thể được ký với;
 
-- Ví Cứng
+- Ví cứng - Hardware Wallet
 - Ví hỗ trợ PSBT
-- Khóa riêng HD hoặc hạt giống khôi phục.
-- Ví Nóng
+- Khóa riêng tư hoặc hạt giống khôi phục của ví HD
+- Ví nóng
 
 #### Ví cứng
 
-BTCPay Server có hỗ trợ ví cứng tích hợp cho phép bạn sử dụng ví cứng của mình với BTCPay Vault mà không tiết lộ thông tin cho ứng dụng hoặc máy chủ bên thứ ba. Tích hợp ví cứng trong BTCPay Server cho phép bạn nhập ví cứng của mình và chi tiêu quỹ đến với một xác nhận đơn giản trên thiết bị của bạn. Khóa riêng của bạn không bao giờ rời khỏi thiết bị, và tất cả quỹ đều được xác thực so với node đầy đủ của bạn, vì vậy không có rò rỉ dữ liệu.
+BTCPay Server có tích hợp hỗ trợ ví cứng cho phép bạn sử dụng ví cứng của mình với BTCPay Vault mà không tiết lộ thông tin cho server hoặc ứng dụng bên thứ ba. Tích hợp ví cứng trong BTCPay Server cho phép bạn nhập (import) ví cứng của mình và chi tiêu dòng tiền chuyển đến chỉ với một xác nhận đơn giản trên thiết bị của bạn. Khóa riêng tư của bạn không bao giờ rời khỏi thiết bị, và tất cả tiền đều được xác thực bởi đầy đủ của bạn, vì vậy không có rò rỉ dữ liệu.
 
 #### Ký với ví hỗ trợ PSBT
 
-PSBT (Partially Signed Bitcoin Transactions - Giao dịch Bitcoin được ký một phần) là một định dạng trao đổi cho các giao dịch Bitcoin cần được ký đầy đủ. PSBT được hỗ trợ trong BTCPay Server và có thể được ký với ví cứng và phần mềm tương thích.
+PSBT (Partially Signed Bitcoin Transactions - Giao dịch Bitcoin được ký một phần) là một định dạng trao đổi cho các giao dịch Bitcoin cần được ký đầy đủ. PSBT được hỗ trợ trong BTCPay Server và có thể được ký bởi ví cứng và phần mềm tương thích.
 
 Quy trình xây dựng một giao dịch Bitcoin được ký đầy đủ diễn ra qua các bước sau:
 
-- Một PSBT được xây dựng với các đầu vào và đầu ra cụ thể nhưng không có chữ ký
-- PSBT được xuất có thể được nhập bởi ví hỗ trợ định dạng này
+- Một PSBT được thiết lập với các đầu vào và đầu ra cụ thể nhưng không có chữ ký
+- PSBT được xuất có thể được nhập vào bởi ví hỗ trợ định dạng này
 - Dữ liệu giao dịch có thể được kiểm tra và ký bằng ví
-- Tệp PSBT đã ký được xuất từ ví và nhập với BTCPay Server
+- Tệp PSBT đã ký được xuất từ ví và nhập vào nhờ BTCPay Server
 - BTCPay Server tạo ra giao dịch Bitcoin cuối cùng
-- Bạn xác minh kết quả và phát sóng nó lên mạng
+- Bạn xác minh kết quả và phát sóng nó lên mạng lưới
 
-#### Ký với Khóa Riêng HD hoặc hạt giống mnemonic
+#### Ký với khoá riêng tư hoặc hạt giống khôi phục ví HD
 
-Nếu bạn đã tạo một ví trước đó sử dụng BTCPay Server, bạn có thể chi tiêu quỹ bằng cách nhập khóa riêng của mình vào một trường thích hợp. Đặt một "AccountKeyPath" phù hợp trong cài đặt ví; nếu không, bạn không thể chi tiêu.
+Nếu bạn đã tạo một ví trước khi sử dụng BTCPay Server, bạn có thể chi tiêu tiền bằng cách nhập (import) khóa riêng tư của mình vào một trường thích hợp. Đặt một "AccountKeyPath" phù hợp trong cài đặt ví; nếu không, bạn không thể chi tiêu tiền của mình.
 
 #### Ký với ví nóng
 
-Nếu bạn đã tạo một ví mới khi thiết lập cửa hàng của mình và kích hoạt nó như một ví nóng, nó sẽ tự động sử dụng hạt giống được lưu trữ trên máy chủ để ký.
-Replace-By-Fee (RBF) là một tính năng của giao thức Bitcoin cho phép bạn thay thế một giao dịch đã được phát sóng trước đó (trong khi vẫn chưa được xác nhận). Điều này cho phép ngẫu nhiên hóa dấu vân tay giao dịch của ví hoặc thay thế nó bằng một mức phí cao hơn để di chuyển giao dịch lên cao hơn trong hàng đợi ưu tiên xác nhận (đào). Điều này sẽ hiệu quả thay thế giao dịch gốc vì mức phí cao hơn sẽ được ưu tiên, và một khi được xác nhận, sẽ làm vô hiệu giao dịch gốc (không double spend).
-Nhấn vào nút "Cài Đặt Nâng Cao" để xem các tùy chọn RBF;
+Nếu bạn đã tạo một ví mới khi thiết lập cửa hàng của mình và kích hoạt nó như một ví nóng, nó sẽ tự động sử dụng hạt giống được lưu trữ trên server để ký.
+
+### RBF (Replace-By-Fee) - Thay thế bằng phí
+Replace-By-Fee (RBF) là một tính năng của giao thức Bitcoin cho phép bạn thay thế một giao dịch đã được phát sóng trước đó (trong khi vẫn chưa được xác nhận). Điều này cho phép ngẫu nhiên hóa dấu vân tay giao dịch của ví hoặc thay thế nó bằng một giao dịch cơ mức phí cao hơn để đưa nó lên vị trí ưu tiên cao hơn trong khi đợi được xác nhận (đào). Điều này sẽ thay thế hiệu quả giao dịch gốc vì mức phí cao hơn sẽ được ưu tiên, và một khi được xác nhận, sẽ làm vô hiệu giao dịch gốc (không lặp chi).
+Nhấn vào nút `Advanced Settings - Cài đặt nâng cao` để xem các tùy chọn RBF:
 
 ![image](assets/en/16.webp)
 
-- Ngẫu nhiên hóa để tăng tính riêng tư, cho phép giao dịch được thay thế tự động để ngẫu nhiên hóa dấu vân tay giao dịch.
-- Có, Đánh dấu giao dịch cho RBF và được thay thế một cách rõ ràng (Không được thay thế theo mặc định, chỉ qua nhập liệu)
-- Không, Không cho phép giao dịch được thay thế.
+- Randomize for higher privacy - Ngẫu nhiên hóa để tăng tính riêng tư, cho phép giao dịch được thay thế tự động để ngẫu nhiên hóa dấu vân tay giao dịch.
+- Yes - Có, Đánh dấu giao dịch cho RBF và được thay thế một cách rõ ràng (Không được thay thế theo mặc định, chỉ qua đầu vào)
+- No - Không, Không cho phép giao dịch được thay thế.
 
-### Lựa Chọn Coin
+### Lựa chọn coin
 
-Lựa chọn coin là một tính năng nâng cao tăng cường quyền riêng tư cho phép bạn chọn các coin bạn muốn chi tiêu khi tạo một giao dịch. Ví dụ, thanh toán bằng các coin mới từ một lần trộn conjoin.
+Lựa chọn coin là một tính năng nâng cao tăng cường quyền riêng tư, nó cho phép bạn chọn các coin bạn muốn chi tiêu khi tạo một giao dịch. Ví dụ, thanh toán bằng các coin mới từ một lần trộn coin (coinjoin).
 
 Lựa chọn coin hoạt động tự nhiên với tính năng nhãn ví. Điều này cho phép bạn gắn nhãn cho các khoản tiền đến để quản lý UTXO và chi tiêu một cách mượt mà hơn.
 
-BTCpay Server cũng hỗ trợ BIP-329 cho quản lý nhãn. BIP-329 cho phép gắn nhãn lên; nếu bạn chuyển từ một ví hỗ trợ BIP cụ thể này và thiết lập nhãn, BTCPay Server sẽ nhận biết và nhập chúng. Khi chuyển đổi máy chủ, thông tin này cũng có thể được xuất và nhập vào môi trường mới.
+BTCpay Server cũng hỗ trợ BIP-329 cho quản lý nhãn. BIP-329 cho phép gắn nhãn lên; nếu bạn chuyển từ một ví hỗ trợ BIP39này và thiết lập nhãn, BTCPay Server sẽ nhận biết và nhập chúng. Khi chuyển đổi server, thông tin này cũng có thể được xuất và nhập vào môi trường mới.
 
 ### Cách Nhận
 
-Khi nhấn vào nút nhận trong BTCPay Server, nó tạo ra một địa chỉ chưa sử dụng có thể được sử dụng để nhận thanh toán. Quản trị viên cũng có thể tạo ra một địa chỉ mới bằng cách tạo một “Hóa Đơn” mới.
+Khi nhấn vào nút nhận trong BTCPay Server, nó tạo ra một địa chỉ mới để nhận thanh toán. Quản trị viên cũng có thể tạo ra một địa chỉ mới bằng cách tạo một “Invoice - Hóa đơn” mới.
 
-BTCPay Server luôn yêu cầu tạo địa chỉ tiếp theo có sẵn để tránh tái sử dụng địa chỉ. Sau khi nhấn “Tạo địa chỉ BTC tiếp theo có sẵn”, BTCPay Server đã tạo ra một địa chỉ mới và QR. Nó cũng cho phép bạn trực tiếp thiết lập một Nhãn cho địa chỉ để quản lý địa chỉ của bạn tốt hơn.
+BTCPay Server luôn yêu cầu tạo địa chỉ có sẵn tiếp theo để tránh tái sử dụng địa chỉ. Sau khi nhấn “Generate next available BTC Address - Tạo địa chỉ có sẵn tiếp theo”, BTCPay Server sẽ tạo ra một địa chỉ mới và mã QR. Nó cũng cho phép bạn trực tiếp thiết lập một nhãn cho địa chỉ đó để quản lý địa chỉ của bạn tốt hơn.
 
 ![image](assets/en/17.webp)
 
 ![image](assets/en/18.webp)
 
-#### Quét Lại
+#### Quét Lại - Rescan
 
-Tính năng Quét Lại dựa vào “Scantxoutset” của Bitcoin Core 0.17.0 để quét trạng thái hiện tại của blockchain (gọi là UTXO Set) để tìm các coin thuộc về lược đồ phát sinh được cấu hình. Quét lại ví giải quyết hai vấn đề mà người dùng BTCPay Server gặp phải.
+Tính năng quét lại dựa vào “Scantxoutset” của Bitcoin Core 0.17.0 để quét trạng thái hiện tại của blockchain (gọi là UTXO Set) để tìm các coin thuộc về lược đồ phái sinh được địn dạng. Quét lại ví giải quyết hai vấn đề mà người dùng BTCPay Server gặp phải.
 
-1. Vấn đề giới hạn khoảng trống - Hầu hết các ví bên thứ ba là ví nhẹ chia sẻ một nút giữa nhiều người dùng. Ví nhẹ và ví dựa vào nút đầy đủ giới hạn số lượng (thường là 20) địa chỉ không có số dư mà chúng theo dõi trên blockchain để ngăn chặn vấn đề hiệu suất. BTCPay Server tạo ra một địa chỉ mới cho mỗi hóa đơn. Với điều này trong tâm trí, sau khi BTCPay Server tạo ra 20 hóa đơn chưa thanh toán liên tiếp, ví bên ngoài ngừng tìm kiếm các giao dịch, giả định rằng không có giao dịch mới nào xảy ra. Ví bên ngoài của bạn sẽ không hiển thị chúng một khi các hóa đơn được thanh toán trên lần thứ 21, 22, v.v. Ngược lại, ví của BTCPay Server theo dõi bất kỳ địa chỉ nào nó tạo ra cùng với một giới hạn khoảng trống lớn hơn nhiều. Nó không phụ thuộc vào bên thứ ba và luôn có thể hiển thị số dư chính xác.
-2. Giải pháp giới hạn khoảng trống - Nếu [ví ngoại truy cập/ví hiện tại](https://docs.btcpayserver.org/WalletSetup/#use-an-existing-wallet) của bạn cho phép cấu hình giới hạn khoảng trống, cách đơn giản là tăng nó lên. Tuy nhiên, đa số ví không cho phép làm điều này. Chỉ có một số ít ví cho phép cấu hình giới hạn khoảng trống mà chúng tôi biết đến là Electrum, Wasabi và Sparrow Wallet. Thật không may, bạn có thể gặp vấn đề với nhiều ví khác. Để có trải nghiệm người dùng tốt nhất và bảo mật, hãy cân nhắc từ bỏ ví ngoại truy cập và sử dụng ví nội bộ của BTCPay Server.
+1. Vấn đề giới hạn khoảng trống - Hầu hết các ví bên thứ ba là ví nhẹ (light wallet) chia sẻ một nốt giữa nhiều người dùng. Ví dựa vào nốt đầy đủ và nốt rút gọn giới hạn số lượng (thường là 20) địa chỉ rỗng mà chúng theo dõi trên blockchain để tránh vấn đề ảnh hưởng tới hiệu suất. BTCPay Server tạo ra một địa chỉ mới cho mỗi hóa đơn. Do đó, sau khi BTCPay Server tạo ra 20 hóa đơn chưa thanh toán liên tiếp, ví bên ngoài ngừng tìm kiếm các giao dịch, giả định rằng không có giao dịch mới nào xảy ra. Ví bên ngoài của bạn sẽ không hiển thị chúng một khi các hóa đơn được thanh toán trên lần thứ 21, 22, v.v. Ngược lại, ví của BTCPay Server theo dõi bất kỳ địa chỉ nào nó tạo ra cùng với một giới hạn khoảng trống lớn hơn nhiều. Nó không phụ thuộc vào bên thứ ba và luôn có thể hiển thị số dư chính xác.
+2. Giải pháp giới hạn khoảng trống - Nếu [ví bên ngoài/ví hiện tại](https://docs.btcpayserver.org/WalletSetup/#use-an-existing-wallet) của bạn cho phép cấu hình giới hạn khoảng trống, cách đơn giản là tăng nó lên. Tuy nhiên, đa số ví không cho phép làm điều này. Chỉ có một số ít ví cho phép cấu hình giới hạn khoảng trống mà chúng tôi biết đến là Electrum, Wasabi và Sparrow Wallet. Thật không may, bạn có thể gặp vấn đề với nhiều ví khác. Để có trải nghiệm người dùng tốt nhất và bảo mật, hãy cân nhắc từ bỏ ví ngoài và sử dụng ví nội bộ của BTCPay Server.
 
 #### BTCPay Server sử dụng “mempoolfullrbf=1”
 
-BTCPay Server sử dụng “mempoolfullrbf=1”; chúng tôi đã thêm mặc định này vào cài đặt BTCPay Server của bạn. Tuy nhiên, chúng tôi cũng đã tạo ra một phân đoạn mà bạn có thể tự tắt. Không có “mempoolfullrbf=1”, nếu một khách hàng thực hiện giao dịch gấp đôi mà không báo hiệu RBF, Người bán chỉ biết sau khi xác nhận.
+BTCPay Server sử dụng “mempoolfullrbf=1”; chúng tôi đã thêm mặc định này vào cài đặt BTCPay Server của bạn. Tuy nhiên, chúng tôi cũng đã tạo ra một phân đoạn mà bạn có thể tự tắt. Không có “mempoolfullrbf=1”, nếu một khách hàng thực hiện giao dịch lặp chi mà không báo hiệu RBF, người bán chỉ biết sau khi xác nhận.
 
-Quản trị viên có thể muốn không sử dụng cài đặt này. Bằng chuỗi sau, bạn có thể thay đổi cài đặt mặc định.
+Quản trị viên có thể không muốn sử dụng cài đặt này. Bằng chuỗi sau, bạn có thể thay đổi cài đặt mặc định.
 
 ```
 BTCPAYGEN_EXCLUDE_FRAGMENTS="$BTCPAYGEN_EXCLUDE_FRAGMENTS;opt-mempoolfullrbf"
@@ -560,52 +560,52 @@ BTCPAYGEN_EXCLUDE_FRAGMENTS="$BTCPAYGEN_EXCLUDE_FRAGMENTS;opt-mempoolfullrbf"
 
 ### Cài đặt ví BTCPay Server
 
-Cài đặt ví trong BTCPay Server cung cấp cái nhìn tổng quan rõ ràng và nhanh chóng về cài đặt chung của ví bạn. Tất cả các cài đặt này được điền trước nếu ví được tạo với BTCPay Server.
+Cài đặt ví trong BTCPay Server cung cấp cái nhìn tổng quan rõ ràng và nhanh chóng về cài đặt chung cho ví của bạn. Tất cả các cài đặt này được điền trước nếu ví được tạo với BTCPay Server.
 
 ![image](assets/en/19.webp)
 
-Cài đặt ví trong BTCPay Server cung cấp cái nhìn tổng quan rõ ràng và nhanh chóng về cài đặt chung của ví bạn. Cài đặt ví của BTCPay Server bắt đầu với trạng thái ví. Là ví Chỉ xem hay Ví nóng? Tùy thuộc vào loại ví, các hành động có thể khác nhau từ quét lại ví để tìm kiếm giao dịch bị thiếu, cắt bớt giao dịch cũ khỏi lịch sử, đăng ký ví cho liên kết thanh toán, hoặc thay thế và xóa ví hiện tại được gắn với cửa hàng. Trong cài đặt ví của BTCPay Server, quản trị viên có thể đặt Nhãn cho ví để quản lý ví tốt hơn. Tại đây, Quản trị viên cũng có thể thấy Sơ đồ Phát sinh, khóa tài khoản (xpub), Dấu vân tay, và Đường dẫn khóa. Cài đặt thanh toán trong cài đặt ví chỉ có 2 cài đặt chính. Thanh toán không hợp lệ nếu giao dịch không xác nhận trong (số phút đã đặt) sau khi hóa đơn hết hạn. Xem xét hóa đơn được xác nhận khi giao dịch thanh toán có X số lần xác nhận. Quản trị viên cũng có thể đặt một công tắc để hiển thị phí được đề xuất tại thanh toán hoặc đặt mục tiêu xác nhận thủ công theo số khối.
+Bắt đầu việc cài đặt ví của BTCPay Server với trạng thái ví. Là ví chỉ dùng để xem (Watch-Only) hay ví nóng? Tùy thuộc vào loại ví, các hành động có thể khác nhau từ quét lại ví để tìm kiếm giao dịch bị thiếu, cắt bớt giao dịch cũ khỏi lịch sử, đăng ký ví cho liên kết thanh toán, hoặc thay thế và xóa ví hiện tại được gắn với cửa hàng. Trong cài đặt ví của BTCPay Server, quản trị viên có thể gắn nhãn cho ví để quản lý ví tốt hơn. Tại đây, quản trị viên cũng có thể thấy Sơ đồ phát sinh (Derivation Scheme), khóa tài khoản (xpub), dấu vân tay (fingerprint), và đường dẫn khóa (keypath). Cài đặt thanh toán trong cài đặt ví chỉ có 2 cài đặt chính. Thanh toán không hợp lệ nếu giao dịch không xác nhận trong (số phút đã đặt) sau khi hóa đơn hết hạn. Xem xét hóa đơn được xác nhận khi giao dịch thanh toán có X số lần xác nhận. Quản trị viên cũng có thể đặt một công tắc để hiển thị phí được đề xuất tại thời điểm thực hiện thanh toán hoặc đặt thủ công mục tiêu xác nhận theo số khối.
 
 ![image](assets/en/20.webp)
 
 **!Lưu ý!**
 
-Nếu bạn theo dõi khóa học này một mình, việc tạo tài khoản này có thể là điều bạn sẽ làm trên một máy chủ bên thứ ba, do đó, một lần nữa chúng tôi nhắc bạn không sử dụng những môi trường này cho mục đích sản xuất, mà chỉ dùng cho mục đích đào tạo.
+Nếu bạn theo dõi khóa học này một mình, việc tạo tài khoản này có thể là điều bạn sẽ làm trên một server của bên thứ ba, do đó, một lần nữa chúng tôi nhắc bạn không sử dụng những môi trường này cho mục đích sản xuất kinh doanh thực, mà chỉ dùng cho mục đích đào tạo.
 
 ### Ví dụ
 
 #### Thiết lập ví Bitcoin trong BTCPay Server
 
-BTCPay Server cho phép hai cách thiết lập ví. Một cách là nhập một ví Bitcoin đã tồn tại. Việc nhập có thể được thực hiện bằng cách kết nối ví cứng, nhập tệp ví, nhập khóa công cộng mở rộng, quét mã QR của ví, hoặc ít được ưa chuộng nhất, nhập bằng tay hạt giống khôi phục ví đã tạo trước đó. Trong BTCPay Server, cũng có thể tạo ví mới. Có hai cách có thể cấu hình BTCPay Server khi tạo ví mới.
-Tùy chọn ví nóng trong BTCPay Server cho phép sử dụng các tính năng như 'Payjoin' hoặc 'Liquid'. Tuy nhiên, có một nhược điểm, seed khôi phục được tạo cho ví này sẽ được lưu trữ trên máy chủ, nơi bất kỳ ai có quyền kiểm soát Admin cũng có thể truy cập seed khôi phục. Vì khóa riêng của bạn được tạo từ seed khôi phục, một người có ý định xấu có thể truy cập vào số tiền hiện tại và tương lai của bạn!
+BTCPay Server cho phép hai cách thiết lập ví. Một cách là nhập một ví Bitcoin đã tồn tại. Việc nhập có thể được thực hiện bằng cách kết nối ví cứng, nhập tệp ví, nhập khóa công khai mở rộng, quét mã QR của ví, hoặc ít được ưa chuộng nhất, nhập bằng tay hạt giống khôi phục ví đã tạo trước đó. Trong BTCPay Server, cũng có thể tạo ví mới. Có hai cách có thể cấu hình BTCPay Server khi tạo ví mới.
+Tùy chọn ví nóng trong BTCPay Server cho phép sử dụng các tính năng như 'Payjoin' hoặc 'Liquid'. Tuy nhiên, có một nhược điểm, cụm từ hạt giống khôi phục được tạo cho ví này sẽ được lưu trữ trên server, nơi bất kỳ ai có quyền Admin cũng có thể truy cập cụm từ hạt giống khôi phục. Vì khóa riêng tư của bạn được tạo ra từ cụm từ hạt giống khôi phục, một người có ý định xấu có thể truy cập vào số tiền hiện tại và tương lai của bạn!
 
-Để giảm thiểu rủi ro này trong BTCPay Server, một Admin có thể thiết lập trong Cài đặt Máy chủ > Chính sách > "Cho phép người không phải là admin tạo ví nóng cho cửa hàng của họ" thành không, như mặc định. Để tăng cường bảo mật cho những ví nóng này, quản trị viên máy chủ nên kích hoạt xác thực 2FA cho các tài khoản được phép có ví nóng. Lưu trữ khóa riêng trên máy chủ công cộng là nguy hiểm và đi kèm với rủi ro. Một số rủi ro tương tự như rủi ro của Mạng Lưới Lightning (xem chương tiếp theo về rủi ro của Mạng Lưới Lightning).
+Để giảm thiểu rủi ro này trong BTCPay Server, một Admin có thể thiết lập trong Cài đặt server (Server Settings)> Chính sách (Policies) > "Cho phép người không phải là admin tạo ví nóng cho cửa hàng của họ - Allow non-admins to create hot wallet for their stores" thành KHÔNG, như mặc định. Để tăng cường bảo mật cho những ví nóng này, quản trị viên server nên kích hoạt xác thực 2FA cho các tài khoản được phép có ví nóng. Lưu trữ khóa riêng tư trên server công khai là nguy hiểm và đi kèm với rủi ro. Một số rủi ro tương tự như rủi ro của Lightning Network (xem chương tiếp theo về rủi ro của Lightning Network).
 
-Tùy chọn thứ hai mà BTCPay Server cung cấp trong việc tạo ví mới là tạo một ví Chỉ Xem. BTCPay Server sẽ tạo khóa riêng của bạn một lần. Sau khi người dùng xác nhận đã ghi lại Cụm từ Seed của họ, BTCPay Server sẽ xóa khóa riêng khỏi máy chủ. Kết quả là, cửa hàng của bạn giờ đây có một ví Chỉ Xem được kết nối với nó. Để chi tiêu số tiền nhận được trên ví Chỉ Xem của bạn, xem chương Cách Gửi, bằng cách sử dụng BTCPay Server Vault, PSBT (giao dịch bitcoin được ký một phần), hoặc ít được khuyến khích nhất, cung cấp thủ công cụm từ Seed của bạn.
+Tùy chọn thứ hai mà BTCPay Server cung cấp trong việc tạo ví mới là tạo một ví chỉ dùng để xem (Watch-Only Wallet). BTCPay Server sẽ tạo ra khóa riêng tư của bạn một lần. Sau khi người dùng xác nhận đã ghi lại cụm từ hạt giống của họ, BTCPay Server sẽ xóa khóa riêng tư khỏi máy chủ. Kết quả là, cửa hàng của bạn giờ đây có một ví chỉ dùng để xem được kết nối với nó. Để chi tiêu số tiền nhận được trên ví chỉ dùng để xem của bạn, xem chương cách gửi, hoặc là sử dụng BTCPay Server Vault, hoặc PSBT (giao dịch bitcoin được ký một phần), hoặc ít được khuyến khích nhất, nhập thủ công cụm từ hạt giống của bạn.
 
-Bạn đã tạo một 'Cửa hàng' mới trong phần cuối cùng. Trình hướng dẫn cài đặt sẽ tiếp tục bằng cách yêu cầu thiết lập ví hoặc thiết lập một nút Lightning. Trong ví dụ này, bạn sẽ theo quy trình hướng dẫn thiết lập ví (1).
+Bạn đã tạo một 'Cửa hàng' mới trong phần trước đây. Trình cài đặt sẽ tiếp tục bằng cách yêu cầu thiết lập ví - `Set up a wallet` hoặc thiết lập một nốt Lightning - `Set up a Linghtning node`. Trong ví dụ này, bạn sẽ theo quy trình hướng dẫn thiết lập ví (1).
 
 ![image](assets/en/21.webp)
 
-Sau khi nhấp vào "Thiết lập ví", trình hướng dẫn sẽ tiếp tục bằng cách yêu cầu bạn muốn tiếp tục như thế nào; BTCPay Server hiện tại cung cấp tùy chọn kết nối ví Bitcoin hiện có với cửa hàng mới của bạn. Nếu bạn không có ví, BTCPay Server đề xuất tạo một ví mới. Ví dụ này sẽ theo các bước để “tạo một ví mới” (2). Theo dõi các bước để tìm hiểu cách "Kết nối ví hiện có (1).
+Sau khi nhấp vào "Thiết lập ví - Set up a wallet", trình hướng dẫn sẽ tiếp tục bằng cách yêu cầu bạn muốn tiếp tục như thế nào; BTCPay Server hiện tại cung cấp tùy chọn kết nối ví Bitcoin hiện có với cửa hàng mới của bạn. Nếu bạn không có ví, BTCPay Server đề xuất tạo một ví mới. Ví dụ này sẽ theo các bước để “Tạo một ví mới - Create a new wallet” (2). Theo dõi các bước để tìm hiểu cách "Kết nối ví hiện có - Connect an existing wallet" (1).
 
 ![image](assets/en/22.webp)
 
 **!Lưu ý!**
 
-Nếu bạn tham gia khóa học này trong một lớp học, ví dụ hiện tại và seed chúng tôi tạo ra chỉ cho mục đích giáo dục. Không bao giờ nên có số tiền lớn nào khác ngoài số tiền yêu cầu qua các bài tập trên các địa chỉ này.
+Nếu bạn tham gia khóa học này trong một lớp học, ví dụ hiện tại và cụm từ hạt giống chúng tôi tạo ra chỉ dành cho mục đích giáo dục. Không bao giờ nên có số tiền lớn nào khác ngoài số tiền yêu cầu qua các bài tập trên các địa chỉ này.
 
-(1) Tiếp tục quy trình hướng dẫn "Ví mới" bằng cách nhấp vào nút "Tạo ví mới".
+(1) Tiếp tục quy trình hướng dẫn "Ví mới - New wallet" bằng cách nhấp vào nút "Tạo ví mới - Create a new wallet".
 
 ![image](assets/en/23.webp)
 
-(2) Sau khi nhấp vào “Tạo ví mới”, cửa sổ tiếp theo trong quy trình hướng dẫn sẽ đưa ra các tùy chọn “Ví nóng” và “Ví chỉ xem”. Nếu bạn theo dõi cùng một giảng viên, môi trường của bạn là một Demo chung, và bạn chỉ có thể tạo một ví Chỉ Xem. Chú ý sự khác biệt giữa hai hình dưới đây. Khi bạn đang trong môi trường Demo và theo dõi cùng giảng viên, hãy tạo một "Ví chỉ xem" và tiếp tục với quy trình hướng dẫn "Ví mới".
+(2) Sau khi nhấp vào “Tạo ví mới - Create a new wallet”, cửa sổ tiếp theo trong quy trình hướng dẫn sẽ đưa ra các tùy chọn “Ví nóng - Hot wallet” và “Ví chỉ dùng để xem - Watch-only wallet”. Nếu bạn theo dõi cùng một giảng viên, môi trường của bạn là một môi trường Demo chung, và bạn chỉ có thể tạo một ví chỉ dùng để xem. Chú ý sự khác biệt giữa hai hình dưới đây. Khi bạn đang trong môi trường Demo và theo dõi cùng giảng viên, hãy tạo một "Ví chỉ dùng xem" và tiếp tục với quy trình hướng dẫn "Ví mới".
 
 ![image](assets/en/24.webp)
 
 ![image](assets/en/25.webp)
 
-(3) Tiếp tục quy trình hướng dẫn ví mới, bạn bây giờ đang ở phần Tạo ví BTC chỉ xem. Tại đây chúng ta có thể thiết lập "Loại địa chỉ" ví mà BTCPay Server cho phép bạn chọn loại địa chỉ ưa thích của mình; tính đến thời điểm viết khóa học này, vẫn được khuyến khích sử dụng địa chỉ bech32. Tìm hiểu chi tiết hơn về các loại địa chỉ trong chương đầu tiên của phần này.
+(3) Tiếp tục quy trình hướng dẫn ví mới, bạn bây giờ đang ở phần "Tạo ví BTC chỉ dùng để xem - Create BTC watch-only wallet". Tại đây chúng ta có thể thiết lập "Loại địa chỉ ví - Address type" mà BTCPay Server cho phép bạn chọn loại địa chỉ ưa thích của mình; tính đến thời điểm viết khóa học này, người dùng vẫn được khuyến nghị sử dụng địa chỉ bech32. Tìm hiểu chi tiết hơn về các loại địa chỉ trong chương đầu tiên của phần này.
 
 - Segwit (bech32)
 - Native SegWit là địa chỉ bắt đầu bằng `bc1q`.
@@ -624,23 +624,23 @@ Chọn segwit (được khuyến nghị) là loại địa chỉ ví ưa thích 
 
 ![image](assets/en/26.webp)
 
-(4) Khi thiết lập tham số cho Ví, BTCPay Server cho phép người dùng thiết lập một cụm từ mật khẩu tùy chọn thông qua BIP39, hãy chắc chắn xác nhận mật khẩu của bạn.
+(4) Khi thiết lập tham số cho Ví, BTCPay Server cho phép người dùng tuỳ chọn thiết lập một cụm từ mật khẩu (passphrase) thông qua BIP39, hãy chắc chắn xác nhận mật khẩu của bạn.
 
 ![image](assets/en/27.webp)
 
-(5) Sau khi thiết lập loại Địa chỉ Ví và có thể thiết lập một số tùy chọn nâng cao, nhấp vào Tạo, và BTCPay Server sẽ tạo Ví mới của bạn. Lưu ý rằng đây là bước cuối cùng trước khi tạo cụm từ Seed của bạn. Hãy chắc chắn chỉ thực hiện điều này trong một môi trường mà người khác không thể đánh cắp cụm từ Seed bằng cách nhìn vào màn hình của bạn.
+(5) Sau khi thiết lập loại địa chỉ ví và có thể thiết lập một số tùy chọn nâng cao, nhấp vào "Tạo - Create", và BTCPay Server sẽ tạo ví mới cho bạn. Lưu ý rằng đây là bước cuối cùng trước khi tạo cụm từ hạt giống của bạn. Hãy chắc chắn chỉ thực hiện điều này trong một môi trường mà người khác không thể đánh cắp cụm từ hạt giống bằng cách nhìn vào màn hình của bạn.
 
 ![image](assets/en/28.webp)
 
-(6) Trong màn hình tiếp theo của trình hướng dẫn, BTCPay Server hiển thị cho bạn cụm từ Seed phục hồi cho Ví mới tạo của bạn; đây là chìa khóa để khôi phục Ví và ký giao dịch. BTCPay Server tạo ra một cụm từ Seed gồm 12 từ. Những từ này sẽ được xóa khỏi máy chủ sau màn hình thiết lập này. Ví này cụ thể là một Ví chỉ xem. Khuyến nghị không lưu trữ cụm từ Seed này dưới dạng số hoặc hình ảnh. Người dùng chỉ có thể tiếp tục trong trình hướng dẫn nếu họ xác nhận rằng họ đã ghi chép cụm từ Seed của mình.
+(6) Trong màn hình tiếp theo của trình hướng dẫn, BTCPay Server hiển thị cho bạn cụm từ hạt giống phục hồi cho ví mới tạo của bạn; đây là chìa khóa để khôi phục ví và ký giao dịch. BTCPay Server tạo ra một cụm từ hạt giống gồm 12 từ. Những từ này sẽ được xóa khỏi server sau màn hình thiết lập này. Ví này cụ thể là một ví chỉ dùng để xem (watch-only). Khuyến nghị không lưu trữ cụm từ hạt giống này dưới dạng số hoặc hình ảnh. Người dùng chỉ có thể tiếp tục trình hướng dẫn nếu họ xác nhận rằng họ đã ghi chép cụm từ hạt giống của mình.
 
 ![image](assets/en/29.webp)
 
-(7) Sau khi nhấp vào Hoàn tất và bảo vệ cụm từ Seed Bitcoin mới tạo, BTCPay Server sẽ cập nhật cửa hàng của bạn với Ví mới đính kèm và sẵn sàng nhận thanh toán. Trong Giao diện Người dùng, trong menu điều hướng bên trái, chú ý cách Bitcoin hiện được làm nổi bật và kích hoạt dưới mục Ví.
+(7) Sau khi nhấp vào "Hoàn tất - Done" và bảo mật cụm từ hạt giống của ví Bitcoin mới tạo, BTCPay Server sẽ cập nhật cửa hàng của bạn với ví mới đính kèm và sẵn sàng nhận thanh toán. Trong giao diện người dùng, trong menu điều hướng bên trái, chú ý cách dòng chữ Bitcoin hiện được làm nổi bật và kích hoạt dưới mục ví (WALLETS).
 
 ![image](assets/en/30.webp)
 
-### Ví dụ: Ghi chép cụm từ Seed
+### Ví dụ: Ghi chép cụm từ hạt giống
 
 Đây là một khoảnh khắc rất đặc biệt và an toàn để sử dụng Bitcoin. Như đã đề cập trước đó, chỉ bạn mới nên có quyền truy cập hoặc biết về cụm từ Seed của mình. Khi bạn theo dõi cùng một giáo viên và lớp học, cụm từ Seed được tạo ra chỉ nên được sử dụng trong khóa học này. Quá nhiều yếu tố, ánh mắt tò mò từ bạn cùng lớp, hệ thống không an toàn, và nhiều yếu tố khác làm cho những chìa khóa này chỉ mang tính giáo dục và không đáng tin cậy. Tuy nhiên, các chìa khóa được tạo ra vẫn nên được lưu trữ cho các ví dụ trong khóa học.
 

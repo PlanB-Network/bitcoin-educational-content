@@ -30,7 +30,7 @@ Ici nous mettrons en lumière les tendances et les motifs communs dans les épis
 
 Section 1 - Introduction
 
-- 1.1 - Introduction du cours pas Rogzy & David
+- 1.1 - Introduction du cours par Rogzy & David
 
 Section 2 - Qu’est-ce que l’inflation ?
 

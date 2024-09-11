@@ -731,74 +731,74 @@ Quoi qu'il en soit, tout cela dépendra du plan d'action à court, à moyen et �
 ## La recherche d'un lieu
 <chapterId>405d389e-6a32-5777-af8d-293380d2e8fd</chapterId>
 
-La recherche d'un lieu pour l'organisation de vos événements n'est pas nécessairement évidente. Toutefois, il semble essentiel **que ce lieu se situe dans la ville de votre communauté**.
-En parallèle, de nombreux critères sont à prendre en compte. Parmi eux:
+La recherche d'un lieu pour l'organisation d'événements n'est souvent pas évidente. En plus de cela, il semble essentiel **que ce lieu se situe dans la ville de votre communauté**.
+De nombreux critères sont donc à prendre en compte. Parmi eux:
 1) le positionnement du lieu: est-il facilement **accessible en transport? En voiture?** Peut-on s'y garer sans difficulté?
 2) le lieu est-il **agréable et pas trop bruyant?** Cherchez-vous un endroit formel (espace de coworking, salle de réunion) ou informel (bar, voire restaurant)? 
-3) l'endroit a-t-il une **capacité suffisante pour vous accueillir?** Et cela, y compris le soir de match de rugby ou de ligue des champions?
+3) l'endroit a-t-il une **capacité suffisante pour vous accueillir?** Y compris un soir de match de rugby ou de ligue des champions?
 4) le lieu dispose-t-il d'un **vidéo-projecteur et d'un espace calme pour réaliser vos présentations?**
-5) enfin, dans le cas d'un bar (voire d'un restaurant), **la carte permet-elle à tout à chacun de manger et de boire?**
+5) enfin, dans le cas d'un bar (voire d'un restaurant), **la carte permet-elle à tous de manger et de boire?**
 
-À ces différents points, trois remarques importantes peuvent être ajoutées:
-- dans le cas où vous souhaiteriez **scinder la soirée en deux temps** (tout d'abord, une **présentation dans un espace formel** afin de permettre à tous d'être plus concentré; puis **changer de lieu pour continuer la soirée de manière plus détendue dans un bar** ou un restaurant), il est important d'être conscient que ce changement de lieu en plein milieu de la soirée amènera **une partie des participants à profiter de la césure pour s'en aller. Ce type de fonctionnement n'est donc pas conseillé**;
-- lors de vos premiers meet-ups, peu de personnes devraient se présenter, et vous ne réaliserez donc probablement pas de présentation. En ce sens, il ne semble pas nécessaire de vous faire connaître auprès du(de la) patron(ne) et de lui présenter vos objectifs, etc. Toutefois, **une fois que vos meet-ups seront réguliés et fréquentés, il semble pertinent de vous présenter, afin de montrer votre sérieux et votre souhait de régulièrement venir**. Cela peut ainsi amener de nombreuses discussions (réservation mensuelle automatique, consommations et/ou planches gratuites, réductions, discussion autour de Bitcoin, acceptation de Bitcoin comme moyen de paiement, etc.) Évidemment, dans le cas où vous cherchez spécifiquement un lieu avec vidéo-projecteur pour réaliser des présentations, il semble essentiel de demander en amont un échange (en présentiel, voire par téléphone) avec le(la) patron(ne) et/ou le(la) manageur(se) afin de présenter votre projet et vos objectifs;
+En plus de cela, trois remarques importantes peuvent être ajoutées:
+- dans le cas où vous souhaiteriez **scinder la soirée en deux temps** (tout d'abord, une **présentation dans un espace formel** afin de permettre à tous d'être plus concentré; puis **changer de lieu pour continuer la soirée de manière plus détendue dans un bar** ou un restaurant), l'expérience a montré que changer de lieu en milieu de soirée amène **une partie des participants à profiter de la césure pour s'en aller. Ce type de fonctionnement n'est donc pas conseillé**;
+- lors de vos premiers meet-ups, peu de personnes devraient se présenter, et vous ne réaliserez donc probablement pas de présentation. En ce sens, il ne semble pas nécessaire de vous faire connaître auprès du(de la) patron(ne) et de lui présenter vos objectifs, etc. Toutefois, **une fois que vos meet-ups seront réguliés et fréquentés, il semble pertinent de le faire afin de montrer votre sérieux et de faire valoir votre souhait de revenir mensuellement**. Cela peut ainsi amener de nombreuses discussions (réservation mensuelle automatique, consommations et/ou planches gratuites, réductions, discussion autour de Bitcoin, acceptation de Bitcoin comme moyen de paiement, etc.) Évidemment, dans le cas où vous cherchez spécifiquement un lieu avec vidéo-projecteur pour réaliser des présentations, il semble essentiel de demander en amont un échange (en présentiel, voire par téléphone) avec le(la) patron(ne) et/ou le(la) manageur(se) afin de présenter votre projet et vos objectifs;
 
 ![image](assets/fr/chapter19/32bis.webp)
 
-- enfin, certaines communautés ne souhaiteront **réaliser leurs événements que dans des endroits acceptant Bitcoin comme moyen de paiement**; et cela peut tout à fait se comprendre. Dans cette optique, il semble pertinent de **commencer par rechercher les commerces de votre ville acceptant Bitcoin (sur [btcmap.org](https://btcmap.org/map/) par exemple)** et de les contacter afin de trouver un lieu qui respecterait vos critères. Dans le cas où, malheureusement, rien ne conviendrait, il vous est alors possible d'aller "onboarder" de nouveaux commerçants. Attendez-vous cependant à essuyer de nombreux refus, ce qui peut être décourageant. C'est la raison pour laquelle **il peut être pertinent de ne pas se fixer cela comme objectif au départ, mais d'y venir une fois que votre communauté se sera bien développée** et que vous disposerez d'une "force de frappe" suffisante.
+- enfin, certaines communautés ne souhaitent **réaliser leurs événements que dans des endroits acceptant Bitcoin comme moyen de paiement**, et cela peut tout à fait se comprendre. Dans cette optique, il semble pertinent de **commencer par rechercher les commerces de votre ville acceptant Bitcoin (sur [btcmap.org](https://btcmap.org/map/) par exemple)** et de les contacter afin de trouver un lieu qui respecterait vos critères. Dans le cas où, malheureusement, rien ne conviendrait, il vous est alors possible d'aller "onboarder" de nouveaux commerçants. Attendez-vous cependant à essuyer de nombreux refus, ce qui peut être décourageant. C'est la raison pour laquelle **il est souvent conseillé de ne pas se fixer cela comme objectif au départ, mais d'y venir une fois que votre communauté se sera bien développée** et que vous disposerez d'une "force de frappe" suffisante.
 ####
-Par ailleurs, n'hésitez pas à **changer de lieu pendant quelques mois au lancement de votre meet-up**. Cela vous permettra de potentiellement **nouer des contacts** avec certain(e)s gérant(e)s, de **découvrir des ambiances différentes**; mais aussi, de **prendre des informations** sur les différents endroits pouvant potentiellement accueillir vos événements.
-Rien ne vous empêche par la suite, lorsque vous commencerez à être nombreux, de prendre une fin d'après-midi pour visiter plusieurs commerces et bars en demandant s'il disposent d'un endroit apte à accueillir, une fois par mois, vos événements et meet-ups !
+Par ailleurs, **au lancement de votre meet-up, n'hésitez pas à changer de lieu pendant quelques mois**. Cela vous permettra en effet de **nouer des contacts** avec certain(e)s gérant(e)s, de **découvrir des ambiances différentes**; mais aussi, de **prendre des informations** sur les différents endroits pouvant potentiellement accueillir vos événements.
+Rien ne vous empêche par la suite, lorsque vous commencerez à être nombreux, de prendre une fin d'après-midi pour visiter plusieurs commerces et bars en demandant s'il disposent d'un endroit apte à accueillir, une fois par mois, vos événements et meet-ups.
 
 ## Avant le meet-up
 <chapterId>c5218943-580d-5efc-89ed-6b5d728816d6</chapterId>
 
-Vous avez décidé d'organiser un meet-up et avez informé votre communauté de la date de ce dernier? Plusieurs étapes importantes sont désormais à suivre:
-1) **prendre contact avec le lieu** dans lequel vous réaliserez votre événement, afin de **valider une réservation** pour une quantité de personne donnée;
-2) **annoncer sur les réseaux sociaux et canaux de communication votre événement, en explicitant clairement la date, l'heure, le lieu** et en ajoutant le lien d'inscription si nécessaire. Pour cette communication, un visuel spécifique peut être créé (affiche Canva par exemple, voir partie 2/8 "[Concevoir une identité propre à sa communauté Bitcoin](LIEN)"). De plus, pour qu'un maximum de personnes puissent voir cette annonce, celle-ci peut être **épinglée sur Telegram et Twitter**, et peut aussi contenir un **"@everyone" sur Discord**. Il semble également plus que pertinent de **poster ces annonces 1 semaine à dix jours avant la date de l'événement, permettant ainsi à tout à chacun de pouvoir anticiper sa venue;
+Vous planifiez l'organisation d'un meet-up dans les prochaines semaines? Les étapes suivantes peuvent vous aider à l'organisation de votre événement:
+1/ **prendre contact avec le lieu** dans lequel vous réaliserez votre événement, afin de **valider une réservation** pour une quantité de personne donnée;
+2/ **annoncer sur les réseaux sociaux et canaux de communication votre événement, en explicitant clairement la date, l'heure, le lieu** et en ajoutant le lien d'inscription si nécessaire. Pour cette communication, un visuel spécifique peut être créé (affiche Canva par exemple, voir partie 2/8 "[Concevoir une identité propre à sa communauté Bitcoin](https://planb.network/fr/courses/btc302/b48a18cc-afdf-5216-802c-32647b5cd8a3)"). De plus, pour qu'un maximum de personnes puissent voir cette annonce, celle-ci peut être **épinglée sur Telegram et Twitter**, et peut aussi contenir un **"@everyone" sur Discord**. Il semble également plus que pertinent de **poster ces annonces 1 semaine à dix jours avant la date de l'événement**, permettant ainsi à tout à chacun de pouvoir anticiper sa venue;
 
 ![image](assets/fr/chapter20/33-fr.webp)
 
-4) **deux à trois jours avant l'événement, ces annonces peuvent être re-tweetées et re-partagées**, amenant plus de visilibité;
-5) enfin, en fonction du nombre de retours et/ou d'inscriptions obtenues la veille ou l'avant-veille, il vous est tout à fait possible de recontacter le(la) patron(ne) du lieu afin de confirmer le nombre de participants attendus.
+3/ **deux à trois jours avant l'événement, ces annonces peuvent être re-tweetées et re-partagées**, amenant plus de visilibité;
+4/ en fonction du nombre de retours et/ou d'inscriptions obtenues la veille ou l'avant-veille, il vous est tout à fait possible de recontacter le(la) patron(ne) du lieu afin de confirmer le nombre de participants attendus.
 ####
-À ces quatre étapes, peuvent également être ajoutés:
+À ces quatre étapes, peuvent également s'ajouter:
 - l'**impression de flyers et/ou d'affiches**;
 - la **création d'une présentation** sur un sujet prédéfini;
-- la **préparation d'une activité* ou d'un atelier**;
+- la **préparation d'une activité ou d'un atelier**;
 - etc.
 
 ## Le jour du meet-up
 <chapterId>cf60067b-591f-5fdf-9b9e-d442aad0e8f9</chapterId>
 
-Ça y est, c'est le grand jour ! Une heure ou deux avant le début de l'événement, il vous est possible d'envoyer un simple message dans les canaux de communication de votre communauté (pas besoin de surcharger les réseaux sociaux) afin d'annoncer l'heure à partir de laquelle vous serez là, mais également d'informer les futurs participants que vous serez reconnaissable car vous porterez (par exemple) un tee-shirt et une casquette Bitcoin.
+Ça y est, c'est le grand jour ! Une heure ou deux avant le début de l'événement, il vous est possible d'envoyer un message de rappel dans les canaux de communication de votre communauté afin de ré-annoncer l'heure à partir de laquelle vous serez là, mais également d'informer les futurs participants que vous serez reconnaissable car vous porterez (par exemple) un tee-shirt et une casquette Bitcoin.
 ####
 Lorsque votre meet-up se développera et que vous accueillerez plus de 20 personnes par événement, **la préparation de la salle / du lieu deviendra un élément important**.
 
 Pour ce faire, il sera nécessaire:
 1) d'**arriver un peu en avance** pour préparer;
-2) d'**agencer la salle ou le lieu en fonction des possibilités et de vos besoins**. Dans le cas où vous êtes une demi-douzaine, il n'y a effectivement pas grand chose à faire. Mais dès que vous atteindrez les 10 à 20 personnes par événement, vous vous rendrez rapidement compte qu'être tous assis n'est pas une si bonne idée, car cela créé moins d'échanges, et vous ne parviendrez pas à parler avec tout le monde dans la soirée. En ce sens, **privilégier une configuration debout, avec par exemple des tables hautes bien espacées** (lorsque cela est possible) semble pertinent dès que vous atteindrez une quinzaine de personnes. Pensez toutefois à **quand même disposer de chaises** (hautes par exemple). Dans le cas où une présentation sera réalisée, il est préférable de laisser la configuration debout toute la soirée, quitte à apporter des chaises (hautes) quelques minutes avant la présentation;
+2) d'**agencer la salle ou le lieu en fonction des possibilités et de vos besoins**. Dans le cas où vous êtes une demi-douzaine, il n'y a effectivement pas grand chose à faire. Mais dès que vous atteindrez les 10 à 20 personnes par événement, vous vous rendrez rapidement compte qu'être tous assis n'est pas une si bonne idée, car cela crée moins d'échanges et vous ne parviendrez pas à parler avec tout le monde dans la soirée. En ce sens, **privilégier une configuration debout avec par exemple des tables hautes bien espacées** (lorsque cela est possible) semble une bonne idée dès que vous atteindrez une quinzaine de personnes. Pensez toutefois à **quand même mettre à disposition des chaises** (hautes par exemple). Dans le cas où une présentation sera réalisée, il est préférable de laisser la configuration debout toute la soirée, quitte à apporter des chaises quelques minutes avant la présentation;
 3) en plus de l'agencement de la salle, d'autres petites "customisations" peuvent être entreprises:
-    - affichage, avec de la Patafix, d'une **affiche devant le lieu de votre meet-up, spécifiant dans quelle salle vous serez** (pensez évidemment à demander l'accord, en amont);
+    - affichage, avec de la Patafix, d'une **affiche devant le lieu de votre meet-up, spécifiant dans quelle salle vous serez** (pensez évidemment à demander l'accord en amont);
     - affichage, avec de la Patafix, d'**affiches spécifiques** dans la salle où vous réalisez votre événement (**livre blanc de Bitcoin, charte de votre communauté, projets en cours**, etc.);
-    - installation sur une ou plusieurs tables de **stickers, flyers voire même de matériel pouvant amener à la discussion** (Nerdminer, plaque en acier, portefeuille matériel, ordinateur allumé avec la mempool, ASIC, plaque en métal pour sécuriser sa clé privée, etc.)
+    - installation sur une ou plusieurs tables de **stickers, flyers voire même de matériel pouvant amener à la discussion** (Nerdminer, portefeuille matériel, ordinateur allumé avec la mempool, ASIC, plaque en métal pour sécuriser sa clé privée, etc.)
 
 ![image](assets/fr/chapter21/34bis.webp) 
 ####
 Évidemment, si vous n'attendez que peu de participants et que vous n'avez pas informé les gérants de la tenue de votre meet-up car vous n'en êtes qu'à son lancement, ne commencez pas à apporter et à exposer tout votre matériel.
-Cependant, **une fois que la confiance sera instaurée avec les gérants, vous serez beaucoup plus libres d'aménager l'espace comme bon vous semble**.
+Cependant, **une fois que la confiance sera instaurée avec les gérants, vous serez libres d'aménager l'espace comme bon vous semble**.
 
 Il ne vous reste donc plus qu'à prendre un verre et à attendre patiemment les potentiels participants. Toutefois, comme dit plus haut: **ne soyez pas déçu si personne ne se déplace la première fois**. Prévoyez donc un livre ou une vidéo à regarder, au cas où.
 
 ## Après le meet-up
 <chapterId>3e881af9-9c09-5721-81ee-c5cda3b109c5</chapterId>
 
-Qui dit fin du meet-up dit, pour les gérants du lieu: **rangement**. Pensez donc, avant de partir (et généralement, vous partirez en dernier; tout du moins au départ) à proposer votre aide aux serveurs et/ou aux gérants. Cela peut notamment passer par simplement **regrouper les verres sur une même table**; ou alors, si vous êtes à côté du bar, à **les rapporter avant de partir**.
+Qui dit fin du meet-up dit, pour les gérants du lieu: **rangement**. Pensez donc, avant de partir, à proposer votre aide aux serveurs et/ou aux gérants. Cela peut notamment passer par un simple **regroupement des verres sur une même table**; ou alors, si vous êtes à côté du bar, à **les rapporter avant de partir**.
 
-Une fois rentré chez vous, il est fort probable que vous aurez **des bitcoins plein les yeux** pendant quelques jours. Il s'agira donc d'un moment propice pour prendre la température des retours, par exemple en:
+Une fois rentré chez vous, il est fort probable que vous aurez **des bitcoins plein les yeux pendant quelques jours**. Il s'agira donc d'un moment propice pour prendre la température et demander un retour des participants, par exemple en:
 - envoyant un message sur vos canaux de communication afin de **remercier les personnes présentes**, et/ou en partageant les liens ou sites dont vous avez parlés;
 - suggérant aux personnes qui ont participé au meet-up de **proposer des améliorations** pour le prochain;
-- mais également, de **préparer le prochain événement !**
+- puis de **préparer le prochain événement !**
 
 Une longue période de quelques semaines se présentera alors à vous; parfaite pour développer d'autres designs et/ou projets pour votre meet-up.
 
@@ -806,31 +806,33 @@ Une longue période de quelques semaines se présentera alors à vous; parfaite 
 <chapterId>f5355e35-4b07-527c-88a3-8535cba7592c</chapterId>
 
 La ville de Rome ne s'est pas construite en un jour; et il en sera de même pour votre communauté. Cela signifie donc que **c'est en réalisant des meet-ups et événements de manière régulière que vous parviendrez à créer une dynamique autour de Bitcoin**.
-Pour ce faire, un point est essentiel: **il faut fidéliser les participants de vos événements**.
+Pour ce faire, un point est essentiel: **fidélisez les participants de vos événements**.
 
-Cela peut alors débuter avec un petit groupe d'irréductibles bitcoiners, dont l'objectif est de régulièrement se réunir pour parler Bitcoin. Au fil des semaines, et en fonction du temps et de la sensibilité de chacun d'eux, rien ne vous empêche de **répartir certaines tâches organisationnelles** de votre communauté; voire de **proposer à ces bitcoiners de réaliser un projet** donné. Ce dernier pourrait alors être spécifique à votre communauté, à vos meet-ups voire à votre ville; comme il pourrait prendre exemple sur l'une des nombreuses initiatives proposées dans [la partie 6/8 de ce cours](LIEN). **Cela amènerait ainsi le noyau dur de votre communauté à s'impliquer, et donc à la faire s'épanouir**.
+Cela peut débuter avec un petit groupe d'irréductibles bitcoiners, dont l'objectif est de régulièrement se réunir pour parler Bitcoin. Au fil des semaines et en fonction du temps et de la sensibilité de chacun d'eux, rien ne vous empêche de **répartir certaines tâches organisationnelles** avec votre communauté, voire de **proposer à ces bitcoiners impliqués de réaliser un projet** donné. Celui-ci pourrait alors être spécifique à votre communauté, à vos meet-ups voire à votre ville; comme il pourrait prendre exemple sur l'une des nombreuses initiatives proposées dans [la partie 6/8 de ce cours](https://planb.network/fr/courses/btc302/3213d87a-1998-5972-ab93-97a5769ba279). **Cela amènerait ainsi le noyau dur de votre communauté à s'impliquer, et donc à la faire s'épanouir**.
 ####
-**De nouvelles têtes viendront alors vous rejoindre, au fil des meet-ups**. Cela peut être des personnes ayant acheté du BTC et/ou des alt/shitcoins lors des précédents cycles, des no-coiners souhaitant aller plus loin dans leur compréhension de Bitcoin et de son écosystème; mais aussi des novices, glanant leurs premières informations sur ce nouveau système de paiement électronique incensurable, décentralisé, transparent, équitable, utilisable sans condition et sans tiers de confiance.
+**De nouvelles têtes viendront alors vous rejoindre au fil des meet-ups**. Cela peut être des personnes ayant acheté du BTC et/ou des alt/shitcoins lors des précédents cycles, des personnes avec un profil plutôt "tech" souhaitant aller plus loin dans leur compréhension de Bitcoin et de son écosystème; mais aussi des novices, glanant leurs premières informations sur ce nouveau système de paiement électronique incensurable, décentralisé, transparent, équitable, utilisable sans condition et sans tiers de confiance.
 Afin de pouvoir **permettre à tous de se sentir inclus lors des événements**, deux axes de réflexion peuvent être travaillés.
 
-D'une part, d'un point de vue social, il est primordial pour le développement d'une communauté que toute personne venant à un événement se sente incluse. Cela signifie: **faire l'effort d'aller voir ces nouveaux participants, s'intéresser aux raisons pour lesquelles ils sont là, les accueillir châleureusement**, etc. En se sentant incluses et bienvenues, ces personnes auront envie de revenir; voire même, dans le futur, en fonction de leur profil, de s'impliquer dans l'organisation de ces événements.
-Évidemment, **cela demande du temps et de la motivation**. Dans le cas où vous accueillez un shitcoiner (voire pire: un XRP-maximaliste), il est assez difficile de mettre de côté sa préférence temporelle et d'accepter de "perdre son temps" dans des discussions à sens unique. Toutefois, c'est en prenant le temps de discuter avec ces personnes que l'on peut leur faire comprendre leurs incompréhensions et erreurs de raisonnement. Lorsqu'ils les accepteront, ils seront alors prêts pour comprendre Bitcoin.
+D'une part, d'un point de vue social, il est primordial pour le développement d'une communauté que toute personne venant à un événement se sente incluse. Cela signifie: **faire l'effort d'aller voir ces nouveaux participants, s'intéresser aux raisons pour lesquelles ils sont là, les accueillir châleureusement**, etc. En se sentant incluses et bienvenues, ces personnes auront envie de revenir; voire même, dans le futur, de s'impliquer dans l'organisation de ces événements.
+####
+Évidemment, **cela demande du temps et de la motivation**. Dans le cas où vous accueillez un shitcoiner (voire pire: un XRP-maximaliste), il est assez difficile de mettre de côté sa préférence temporelle et d'accepter de "perdre son temps" dans des discussions à sens unique. Toutefois, c'est en prenant le temps de discuter avec ces personnes que l'on peut souligner leurs incompréhensions et erreurs de raisonnement. S'ils les acceptent, ils seront alors prêts pour comprendre Bitcoin.
 
 ![image](assets/fr/chapter22/35.webp)
 
-D'autre part, d'un point de vue technique, plusieurs questions peuvent se poser:
+D'autre part, dans l'objectif d'améliorer l'expérience des participants à vos événements, plusieurs questions peuvent se poser:
 - le lieu où s'est déroulé **le meet-up était-il agréable?**
 - était-il **facile d'accès?**
 - pourquoi certains participants ne sont finalement pas venus?
-- quelles discussions ont été abordées? S'agissait-il de **discussions trop techniques, ne permettant pas d'englober les novices?**
-- l'alcool coulait-il trop, à flots?
+- quelles discussions ont été abordées? S'agissait-il de **discussions trop techniques, ne permettant par exemple pas d'englober les novices?**
+- les discussions étaient-elles trop alcoolisées?
 
 Évidemment, tout participant a sa propre personnalité, sa sensibilité, ses objectifs et ses intérêts. Chacun vivra donc le meet-up différemment.
-Mais **lorsque le lieu est bien choisi, que les personnes présentes (notamment le ou les organisateurs) sont ouvertes d'esprit et que leur objectif est noble, il n'y a pas de raison pour que le meet-up ne soit pas une réussite**.
+Mais **lorsque le lieu est bien choisi, que les personnes présentes sont ouvertes d'esprit et que leurs objectifs sont nobles, il n'y a pas de raison pour que le meet-up ne soit pas une réussite**.
+####
 ####
 **Créer un meet-up demande donc du temps; mais surtout, de l'organisation.
-C'est un projet humain, et c'est la raison pour laquelle il ne pourra fonctionner et se développer sur le long terme qu'à partir du moment où il est réfléchi, ouvert et inclusif**.
-Bien évidemment, **à chacun de fixer sa limite** dans ce que l'on peut entendre par "ouvert et inclusif". Mais ne l'oublions pas: un shitcoiner est un bitcoiner en devenir (qui ne s'est pas encore fait rekt).
+C'est un projet humain et c'est la raison pour laquelle il ne pourra fonctionner et se développer sur le long terme qu'à partir du moment où il est réfléchi, ouvert et inclusif**.
+Bien évidemment, **à chacun de fixer sa limite** dans ce que l'on peut entendre par "ouvert et inclusif". Mais ne l'oublions pas: un shitcoiner est un bitcoiner en devenir.
 
 # Des exemples de projets et d'initiatives
 <partId>45b3bc40-1c31-583e-8411-2662e6efd765</partId>

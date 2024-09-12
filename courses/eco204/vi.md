@@ -1,18 +1,18 @@
 ---
-name: Nghiên Cứu Lạm Phát Cao
-goal: Hiểu biết về sự xuất hiện của lạm phát cao trong thế giới Fiat và hậu quả của nó
+name: Nghiên cứu về Siêu lạm phát
+goal: Hiểu biết về sự xuất hiện các đợt siêu lạm phát trong thế giới tiền pháp định và hậu quả của chúng.
 objectives:
-  - Nghiên cứu các chu kỳ lạm phát cao
-  - Hiểu rõ tác động thực sự của lạm phát cao đối với cuộc sống hàng ngày
-  - Nghiên cứu sự tương đồng của lạm phát cao qua các thời kỳ
-  - Có một ý tưởng cụ thể về cách bảo vệ bản thân khỏi lạm phát cao
+  - Nghiên cứu các chu kỳ siêu lạm phát
+  - Hiểu rõ tác động thực sự của siêu lạm phát đối với cuộc sống hàng ngày của người dân
+  - Nghiên cứu sự tương đồng của các đợt siêu lạm phát qua các thời kỳ
+  - Có một ý tưởng chi tiết về cách bảo vệ bản thân khỏi siêu lạm phát
 ---
 
-# Hành trình vào nền kinh tế
+# Hành trình khám phá nền kinh tế
 
-Chương trình này nhằm cung cấp một hiểu biết sâu sắc về sự xuất hiện của lạm phát cao trong một thế giới được thống trị bởi tiền tệ Fiat và xem xét những hậu quả đáng kể của nó. Người tham gia sẽ khám phá chi tiết các chu kỳ lạm phát cao, phân tích nguyên nhân, yếu tố kích hoạt và các ví dụ lịch sử và đương đại. Họ cũng sẽ xem xét tác động cụ thể của lạm phát cao đối với nền kinh tế và cuộc sống hàng ngày, nghiên cứu những hậu quả đối với giá trị tiền tệ, sức mua và tiết kiệm cá nhân và tập thể.
+Khoá học này nhằm mang đến một hiểu biết sâu sắc về sự xuất hiện của các đợt siêu lạm phát trong một thế giới được thống trị bởi tiền pháp định và xem xét những hậu quả to lớn của nó. Người tham gia sẽ khám phá chi tiết các chu kỳ siêu lạm phát, phân tích nguyên nhân, yếu tố kích hoạt và các ví dụ trong lịch sử và đương đại. Họ cũng sẽ xem xét tác động cụ thể của siêu lạm phát đối với nền kinh tế và cuộc sống hàng ngày của người dân, nghiên cứu những hậu quả đối với giá trị tiền tệ, sức mua và các khoản tiết kiệm của cá nhân và tập thể.
 
-Tại đây, chúng tôi sẽ nêu bật xu hướng và mô hình chung trong các đợt lạm phát cao trong lịch sử, đồng thời cung cấp các chiến lược hiệu quả và cụ thể để bảo vệ bản thân trong thời kỳ lạm phát cao. Người tham gia sẽ có cơ hội khám phá các lựa chọn đầu tư và cơ chế phòng thủ tài chính khác nhau, thu thập công cụ thực tế và kiến thức thiết yếu để điều hướng một cách bình tĩnh trong một bối cảnh kinh tế không ổn định.
+Tại đây, chúng ta sẽ nêu bật xu hướng và mô hình chung của các đợt siêu lạm phát trong lịch sử, đồng thời cung cấp các chiến lược hiệu quả và cụ thể để bảo vệ bản thân trong thời kỳ siêu lạm phát. Người tham gia sẽ có cơ hội khám phá các lựa chọn đầu tư và cơ chế phòng thủ tài chính khác nhau, thu thập công cụ thực tế và kiến thức thiết yếu để bình tĩnh vượt qua những khó khăn trong một bối cảnh kinh tế không ổn định.
 
 +++
 
@@ -22,9 +22,9 @@ Tại đây, chúng tôi sẽ nêu bật xu hướng và mô hình chung trong c
 ## Giới thiệu
 <chapterId>9d1aba8d-0485-5020-9863-5de37e6db8e0</chapterId>
 
-Chương trình này nhằm cung cấp một hiểu biết sâu sắc về sự xuất hiện của lạm phát cao trong một thế giới được thống trị bởi tiền tệ Fiat và xem xét những hậu quả đáng kể của nó. Người tham gia sẽ khám phá chi tiết các chu kỳ lạm phát cao, phân tích nguyên nhân, yếu tố kích hoạt và các ví dụ lịch sử và đương đại. Họ cũng sẽ xem xét tác động cụ thể của lạm phát cao đối với nền kinh tế và cuộc sống hàng ngày, nghiên cứu những hậu quả đối với giá trị tiền tệ, sức mua và tiết kiệm cá nhân và tập thể.
+Khoá học này nhằm mang đến một hiểu biết sâu sắc về sự xuất hiện của các đợt siêu lạm phát trong một thế giới được thống trị bởi tiền pháp định và xem xét những hậu quả to lớn của nó. Người tham gia sẽ khám phá chi tiết các chu kỳ siêu lạm phát, phân tích nguyên nhân, yếu tố kích hoạt và các ví dụ trong lịch sử và đương đại. Họ cũng sẽ xem xét tác động cụ thể của siêu lạm phát đối với nền kinh tế và cuộc sống hàng ngày của người dân, nghiên cứu những hậu quả đối với giá trị tiền tệ, sức mua và các khoản tiết kiệm của cá nhân và tập thể.
 
-Tại đây, chúng tôi sẽ nêu bật xu hướng và mô hình chung trong các đợt lạm phát cao trong lịch sử, đồng thời cung cấp các chiến lược hiệu quả và cụ thể để bảo vệ bản thân trong thời kỳ lạm phát cao. Người tham gia sẽ có cơ hội khám phá các lựa chọn đầu tư và cơ chế phòng thủ tài chính khác nhau, thu thập công cụ thực tế và kiến thức thiết yếu để điều hướng một cách bình tĩnh trong một bối cảnh kinh tế không ổn định.
+Tại đây, chúng ta sẽ nêu bật xu hướng và mô hình chung của các đợt siêu lạm phát trong lịch sử, đồng thời cung cấp các chiến lược hiệu quả và cụ thể để bảo vệ bản thân trong thời kỳ siêu lạm phát. Người tham gia sẽ có cơ hội khám phá các lựa chọn đầu tư và cơ chế phòng thủ tài chính khác nhau, thu thập công cụ thực tế và kiến thức thiết yếu để bình tĩnh vượt qua những khó khăn trong một bối cảnh kinh tế không ổn định.
 
 ### Chương trình học
 
@@ -36,23 +36,23 @@ Phần 2 - Lạm phát là gì?
 
 - 2.1 - Một hiện tượng tiền tệ
 - 2.2 - Các loại lạm phát
-- 2.3 - Lạm phát giảm
+- 2.3 - Giảm phát
 
-Phần 3 - Lạm phát cao là gì?
+Phần 3 - siêu lạm phát là gì?
 
 - 3.1 - Định nghĩa
 - 3.2 - Sự tương đồng giữa Weimar và Zimbabwe
 - 3.3 - Sự khác biệt giữa Weimar và Zimbabwe và song song đương đại
 - 3.4 - Các đợt đổi tiền ở Mỹ Latinh
-- 3.5 - Cách thoát khỏi lạm phát cao
-- 3.6 - Trình bày bộ sưu tập tiền lạm phát cao
+- 3.5 - Cách thoát khỏi siêu lạm phát
+- 3.6 - Trình diễn bộ sưu tập tiền siêu lạm phát
 
 Phần 4 - Chúng ta đã đến đây như thế nào?
 
-- 4.1 - Sự xuất hiện của lớp tiền tệ thứ hai và ngân hàng trung ương
+- 4.1 - Sự xuất hiện của tiền tệ lớp thứ hai và ngân hàng trung ương
 - 4.2 - Sách và nguồn tài liệu
 
-Chúc may mắn!
+Chúc bạn may mắn!
 
 # Lạm phát là gì?
 <partId>2b4f456c-3649-5cf9-b9b0-a5bffe92d962</partId>
@@ -62,241 +62,241 @@ Chúc may mắn!
 
 ### Định nghĩa về lạm phát
 
-Lạm phát là một khái niệm thường bị hiểu nhầm do có nhiều định nghĩa liên quan đến nó. Cách nhìn nhận về lạm phát khác nhau giữa các nhóm như người ủng hộ bitcoin và các nhà kinh tế học truyền thống. Hãy làm rõ các định nghĩa trước khi thảo luận về lạm phát cao:
+Lạm phát là một khái niệm thường bị hiểu nhầm do có nhiều định nghĩa liên quan đến nó. Cách nhìn nhận về lạm phát khác nhau giữa các nhóm như những người ủng hộ bitcoin và các nhà kinh tế học truyền thống. Đầu tiên, hãy làm rõ các định nghĩa trước khi thảo luận về siêu lạm phát:
 
-- Định nghĩa từ Robert: Lạm phát là sự tăng quá mức của các công cụ thanh toán (tiền giấy, vốn) gây ra sự tăng giá và mất giá của tiền tệ.
+- Định nghĩa từ Robert: Lạm phát là sự gia tăng quá mức của các công cụ thanh toán (tiền giấy, vốn) gây ra sự tăng giá và mất giá của tiền tệ.
 
-- Định nghĩa từ Larousse: Lạm phát là hiện tượng được đặc trưng bởi sự tăng liên tục và chung của mức giá. Ở đây, từ "chung" là rất quan trọng.
+- Định nghĩa từ Larousse: Lạm phát là hiện tượng được đặc trưng bởi sự tăng liên tục và chung trên diện rộng của giá cả. Ở đây, yếu tố "chung trên diện rộng" là rất quan trọng.
 
 ![image](assets/chapitre-2.1/4.webp)
-Trong bối cảnh của những định nghĩa này, điều cần thiết là phải hiểu rằng, đối với Robert, lạm phát chủ yếu liên quan đến sự tăng lên của nguồn tiền. Mặt khác, Larousse tập trung vào hậu quả của sự mở rộng này, cụ thể là sự tăng giá chung chung.
-Trong nghiên cứu của chúng tôi về siêu lạm phát, chúng tôi sẽ chấp nhận định nghĩa thứ hai, đó là sự tăng giá chung chung, vì nó phù hợp và rõ ràng hơn cho chủ đề của chúng tôi. Tuy nhiên, điều quan trọng là phải nhớ rằng sự tăng giá này nói chung là kết quả của sự mở rộng nguồn tiền.
+Đi sâu vào những định nghĩa này, điều cần thiết là phải hiểu rằng, đối với Robert, lạm phát chủ yếu liên quan đến sự tăng lên của nguồn cung tiền. Trong khi, Larousse tập trung vào hậu quả của sự mở rộng này, cụ thể là sự tăng giá chung trên diện rộng.
+Trong nghiên cứu của chúng ta về siêu lạm phát, chúng ta sẽ chấp nhận định nghĩa thứ hai, đó là sự tăng giá chung trên diện rộng, vì nó phù hợp và rõ ràng hơn cho chủ đề của chúng ta. Tuy nhiên, điều quan trọng là phải nhớ rằng, nhìn chung, sự tăng giá này là kết quả của việc mở rộng nguồn cung tiền.
 Nhà kinh tế học nổi tiếng Milton Friedman từng nói:
 
-> "Lạm phát luôn và ở mọi nơi là một hiện tượng tiền tệ."
+> "Lạm phát luôn luôn là một hiện tượng tiền tệ và nó là một hiện tượng tiền tệ ở khắp mọi nơi."
 
-Phát biểu này nhấn mạnh mối quan hệ nội tại giữa sự mở rộng tiền tệ và lạm phát. Trong các phần tiếp theo, chúng tôi sẽ khám phá các tương tác giữa lạm phát và tăng trưởng kinh tế, dựa trên những định nghĩa cơ bản này.
+Phát biểu này nhấn mạnh mối quan hệ nội tại giữa việc mở rộng nguồn cung tiền tệ với lạm phát. Trong các phần tiếp theo, chúng ta sẽ khám phá các tác động qua lại giữa lạm phát và tăng trưởng kinh tế, dựa trên những định nghĩa cơ bản này.
 
-### Hiểu về Hiện tượng Tiền tệ
+### Hiểu về hiện tượng tiền tệ
 
-Khi đề cập đến hiện tượng tiền tệ, chúng ta đang nói về cách nguồn tiền của một nền kinh tế được ảnh hưởng. Milton Friedman cơ bản coi đó là sự tăng lên của nguồn cung này. Lịch sử đã chứng kiến hai phương pháp chính để tăng nguồn tiền:
+Khi đề cập đến hiện tượng tiền tệ, chúng ta đang nói về cách nguồn cung tiền của một nền kinh tế bị chi phối. Về bản chất, theo Milton Friedman, đó là sự tăng lên của nguồn cung tiền. Lịch sử đã chứng kiến hai phương pháp chính để tăng nguồn cung tiền:
 
-1. In Tiền:
-   Trong hệ thống tiền tệ truyền thống, việc tăng nguồn tiền được thực hiện bằng cách in mới các tờ tiền giấy. Mặc dù ngày nay, với sự thống trị của tiền tệ số, việc in này chủ yếu là điện tử (thông qua cơ sở dữ liệu của các ngân hàng trung ương và các tổ chức tài chính khác), lịch sử cho thấy chúng ta những thời kỳ mà việc in tiền giấy trực tiếp dẫn đến siêu lạm phát.
+1. In tiền:
+   Trong hệ thống tiền tệ truyền thống, việc tăng nguồn cung tiền được thực hiện bằng cách in mới các tờ tiền giấy. Mặc dù ngày nay, với sự thống trị của tiền tệ kỹ thuật số, việc in này chủ yếu là bằng phương pháp điện tử (thông qua cơ sở dữ liệu của các ngân hàng trung ương và các tổ chức tài chính khác), lịch sử cho thấy những thời kỳ mà tiền giấy được in ra theo nghĩa đen thường xảy ra siêu lạm phát.
 
-2. Giảm Hàm Lượng Kim Loại:
-   Một phương pháp khác là giảm lượng kim loại quý trong các đồng tiền dựa trên kim loại như bạc hoặc vàng. Một ví dụ nổi bật có thể được tìm thấy trong Đế chế La Mã, nơi đồng denarius, ban đầu gần như hoàn toàn được làm từ bạc, đã thấy hàm lượng bạc của mình giảm mạnh theo thời gian. Điều này tương đương với một hình thức lạm phát, nhưng không nhất thiết là siêu lạm phát.
+2. Giảm hàm lượng kim loại:
+   Một phương pháp khác là giảm lượng kim loại quý trong các đồng tiền được bảo chứng bằng kim loại như bạc hoặc vàng. Một ví dụ nổi bật có thể được tìm thấy trong Đế chế La Mã, nơi đồng denarius, ban đầu gần như hoàn toàn được làm từ bạc, đã chứng kiến sự sụt giảm mạnh hàm lượng bạc theo thời gian. Điều này tương đương với một dạng lạm phát, nhưng không nhất thiết là siêu lạm phát.
 
 ![image](assets/chapitre-2.1/1.webp)
 
-Điều quan trọng cần nhấn mạnh là siêu lạm phát chủ yếu được quan sát với các đồng tiền fiat không liên kết với tài sản cơ bản của chúng, như kim loại quý. Lịch sử cho thấy, khi một đồng tiền dựa trên những tài sản như vậy, đã có các đợt lạm phát (ví dụ, thông qua việc phá giá hàm lượng kim loại), nhưng những đợt này không bao giờ đạt đến mức độ siêu lạm phát. Trong các phần tiếp theo, chúng tôi sẽ nghiên cứu chi tiết các thời kỳ phá giá tiền tệ và hậu quả của các hệ thống tiền tệ khác nhau đối với lạm phát.
+Điều quan trọng cần nhấn mạnh là siêu lạm phát chủ yếu được quan sát với các đồng tiền pháp định không liên kết với tài sản cơ bản của chúng, như kim loại quý. Lịch sử cho thấy, khi một đồng tiền được bảo chứng bởi những tài sản như vậy, đã có các đợt lạm phát (ví dụ, thông qua việc phá giá bằng cách làm giảm hàm lượng kim loại), nhưng những đợt này không bao giờ đạt đến mức độ của siêu lạm phát. Trong các phần tiếp theo, chúng ta sẽ nghiên cứu chi tiết các thời kỳ đồng tiền bị phá giá và hậu quả của các hệ thống tiền tệ khác nhau này đối với lạm phát.
 
-### Nghiên cứu về các Thời kỳ Phá giá Tiền tệ
+### Nghiên cứu về các thời kỳ phá giá đồng tiền
 
-Trong suốt lịch sử, các nền văn minh khác nhau đã trải qua các thời kỳ phá giá tiền tệ. Một số thời kỳ này trùng với các sự kiện lớn hoặc các cuộc chiến đã gây áp lực lên nền kinh tế.
+Trong suốt lịch sử nhân loại, các nền văn minh khác nhau đã trải qua các thời kỳ phá giá đồng tiền. Một số thời kỳ này trùng với các sự kiện lớn hoặc các cuộc chiến đã gây áp lực lên nền kinh tế.
 
 #### 1. Chiến tranh Peloponnesian và Chiến tranh Punic thứ hai:
 
-Chiến tranh Peloponnesian, một cuộc xung đột giữa Athens và Sparta, và Chiến tranh Punic thứ hai, giữa Cộng hòa La Mã và Carthage, là những ví dụ sớm nhất về việc phá giá tiền tệ được tìm thấy trong các hồ sơ. Để tài trợ cho những cuộc chiến này, những nền văn minh này đã phá giá đồng tiền của mình bằng cách giảm hàm lượng bạc và kết hợp các kim loại khác, trong khi tăng số lượng đồng tiền được sản xuất.
+Chiến tranh Peloponnesian, một cuộc xung đột giữa Athens và Sparta, và Chiến tranh Punic thứ hai, giữa Cộng hòa La Mã và Carthage, là những ví dụ sớm nhất được ghi lại về hiện tượng phá giá đồng tiền. Để tài trợ cho những cuộc chiến này, các nền văn minh này đã phá giá đồng tiền của mình bằng cách làm giảm hàm lượng bạc và đưa các kim loại khác vào trong đồng tiền, từ đó tăng số lượng đồng tiền được tạo ra.
 ![image](assets/chapitre-2.1/8.webp)
 
 Khắc họa vụ thảm sát người Athens trên bờ sông Assinaros.
 
-#### 2. La Mã cổ đại trong thời kỳ Đế chế:
-Sau thời kỳ của Cộng hòa La Mã, trong thời kỳ Đế quốc, các thế kỷ thứ 3 và thứ 4 đã chứng kiến sự mất giá tiền tệ đáng kể. Điều này được minh họa qua việc giảm lượng bạc trong đồng tiền, như đã thấy trong biểu đồ trước đó. Một nghiên cứu cho thấy giá lúa mì ở Ai Cập, tính bằng drachma, đã tăng lên một triệu lần trong khoảng thời gian khoảng 400 năm, từ 40 TCN đến 360 SCN. Trong khoảng thời gian này, nó đại diện cho mức lạm phát hàng năm trung bình khoảng 4.4%. Tuy nhiên, lạm phát này không được phân bố đều. Nó thực sự bắt đầu vào khoảng năm 238 SCN. Từ 250 đến 293 SCN, tỷ lệ lạm phát là khoảng 3.65%, và nó tăng lên 22.28% giữa 293 và 301 SCN.
+#### 2. La Mã cổ đại thời kỳ Đế chế:
+Sau thời kỳ của Cộng hòa La Mã, trong thời kỳ Đế chế, thế kỷ thứ 3 và thứ 4 đã chứng kiến hiện tượng đồng tiền bị mất giá mạnh. Điều này được thể qua việc giảm hàm lượng bạc trong đồng tiền, như đã thấy trong biểu đồ trước đó. Một nghiên cứu cho thấy giá lúa mì ở Ai Cập, tính bằng drachma, đã tăng một triệu lần trong khoảng thời gian tầm 400 năm, từ 40 TCN đến 360 SCN. Trong khoảng thời gian này, mức tăng này tương đương với mức lạm phát hàng năm trung bình khoảng 4.4%. Tuy nhiên, lạm phát này không được phân bố đều theo thời gian. Nó thực sự bắt đầu vào khoảng năm 238 SCN. Từ 250 SCN đến 293 SCN, tỷ lệ lạm phát là khoảng 3.65%, và nó tăng lên 22.28% giữa các năm từ 293 SCN đến 301 SCN.
 
-Mặc dù những thời kỳ này đã trải qua lạm phát đáng kể, nhưng chúng không đạt đến mức của siêu lạm phát mà chúng ta có thể quan sát trong một số tình huống hiện đại. Lý do cho điều này là, mặc dù tiền tệ đã bị mất giá, nhưng nó vẫn dựa trên kim loại quý. Nền tảng vững chắc này đã cung cấp một số bảo vệ chống lại mức độ lạm phát cực đoan. Trong các phần tiếp theo, chúng ta sẽ khám phá chi tiết hơn về bản chất và hậu quả của siêu lạm phát.
+Mặc dù những giai đoạn này đã trải qua lạm phát tương đối cao, nhưng chúng không đạt đến mức độ của siêu lạm phát mà chúng ta có thể quan sát trong một số ví dụ của thời hiện đại. Lý do cho điều này là, mặc dù đồng tiền đã bị mất giá, nhưng nó vẫn dựa trên kim loại quý. Nền tảng vững chắc này đã mang lại sự bảo vệ để chống lại mức độ cực đoan của lạm phát. Trong các phần tiếp theo, chúng ta sẽ khám phá chi tiết hơn về bản chất và hậu quả của siêu lạm phát.
 
 ![image](assets/chapitre-2.1/2.webp)
 
 - Đồng Denarius của Marcus Aurelius (160 SCN):
-  Một trong những đồng tiền biểu tượng nhất của La Mã cổ đại là đồng denarius, một loại tiền bạc. Tôi sở hữu một đồng tiền cụ thể từ Marcus Aurelius có niên đại từ năm 160 SCN, trước khi xảy ra sự mất giá lớn. Mặc dù máy ảnh có thể gặp khó khăn trong việc ghi lại những chi tiết tinh tế, nhưng bằng mắt thường, có thể thấy đó là một đồng tiền bạc đẹp, phản ánh một lượng bạc tương đối cao.
+  Một trong những đồng tiền tiêu biểu và có tính biểu tượng nhất của La Mã cổ đại là đồng denarius, một đồng tiền xu bằng bạc. Tôi có sở hữu một đồng tiền denarius từ Marcus Aurelius có niên đại từ năm 160 SCN, trước khi xảy ra sự mất giá nghiêm trọng. Mặc dù máy ảnh có thể gặp khó khăn trong việc ghi lại những chi tiết tinh tế của nó, nhưng bằng mắt thường, có thể thấy đó là một đồng tiền bạc đẹp, phản ánh một lượng bạc tương đối cao.
 
-- Đồng Antoninianus (cuối thế kỷ 3 SCN):
-  Với sự mất giá tiền tệ, một loại tiền mới, đồng Antoninianus, đã xuất hiện. Loại tiền này được cho là có giá trị bằng hai đồng denarii, nhưng chứa ít bạc hơn nhiều. Đồng Antoninianus của tôi rõ ràng cho thấy lượng bạc đã được giảm đáng kể. Nó được trang trí bằng một chiếc vương miện, điển hình cho các đồng tiền La Mã của thời kỳ này, được gọi là "radiates". Khi so sánh màu sắc và chất lượng, có thể thấy rằng đồng Antoninianus xa cách so với một đồng tiền bạc nguyên chất.
-  Khi so sánh hai đồng tiền cạnh nhau, sự khác biệt là rõ ràng. Đồng denarius từ năm 160 SCN có vẻ ngoài bạc đặc trưng, trong khi đồng Antoninianus từ cuối thế kỷ 3 SCN nhiều mờ hơn, chỉ ra sự giảm đáng kể về lượng bạc. Sự so sánh hình ảnh này cung cấp một minh họa rõ ràng về sự mất giá tiền tệ mà La Mã cổ đại đã trải qua trong vài thế kỷ.
+- Đồng Antoninianus (cuối thế kỷ thứ 3 SCN):
+  Do sự mất giá của denarius, một loại tiền mới, đồng Antoninianus, đã xuất hiện. Loại tiền này được gán cho là có giá trị bằng hai đồng denarii, nhưng chứa ít bạc hơn nhiều. Đồng Antoninianus của tôi cho thấy rõ ràng rằng lượng bạc đã giảm đi đáng kể. Nó được trang trí bằng một chiếc vương miện, điển hình cho các đồng tiền La Mã của thời kỳ này, được gọi là "radiates". Khi so sánh màu sắc và chất lượng, có thể thấy rằng đồng Antoninianus quá kém để so với một đồng tiền bạc nguyên chất.
+  Khi so sánh hai đồng tiền cạnh nhau, sự khác biệt là rõ ràng. Đồng denarius từ năm 160 SCN có vẻ ngoài đặc trưng của bạc, trong khi đồng Antoninianus từ cuối thế kỷ 3 SCN mờ hơn nhiều, chỉ ra sự suy giảm đáng kể về hàm lượng bạc. Sự so sánh hình ảnh này mang lại một minh họa rõ ràng về sự mất giá đồng tiền mà Đế chế La Mã cổ đại đã trải qua trong vài thế kỷ.
 
 ![image](assets/chapitre-2.1/3.webp)
 
-Để hoàn thiện bài trình bày này, một biểu đồ minh họa sự mất giá của những đồng tiền này theo thời gian sẽ là lý tưởng. Mặc dù khó để hình dung qua nền tảng này, hãy tưởng tượng một biểu đồ cho thấy giá trị của đồng denarius, sau đó là sự suy giảm của nó về cuối thế kỷ 2, được thay thế bằng đồng Antoninianus được cho là có giá trị bằng hai đồng denarii nhưng với lượng bạc ít hơn nhiều. Những hiện vật này là nhân chứng im lặng cho những biến động kinh tế của các nền văn minh trong quá khứ.
+Để kết thúc phần này, một biểu đồ minh họa sự mất giá của các đồng tiền này theo thời gian sẽ là lý tưởng. Mặc dù khó để hình dung theo cách này, hãy tưởng tượng một biểu đồ cho thấy giá trị của đồng denarius, sau đó là sự suy giảm của nó ở đoạn cuối thế kỷ 2, được thay thế bằng đồng Antoninianus được cho là có giá trị bằng hai đồng denarii nhưng với lượng bạc ít hơn nhiều. Những hiện vật này là nhân chứng im lặng cho những biến động kinh tế của các nền văn minh trong quá khứ.
 
-#### 3. Đồng Maravedi của Tây Ban Nha: Nhân chứng của việc mất giá có mục tiêu
+#### 3. Đồng Maravedi của Tây Ban Nha: Chứng tích của việc phá giá có mục tiêu
 
 ![image](assets/chapitre-2.1/5.webp)
 
-Đồng Maravedi, như một loại tiền đồng, chiếm một vị trí đặc biệt trong lịch sử tiền tệ của Tây Ban Nha. Như đã đề cập trước đó, đồng đô la Tây Ban Nha ban đầu là tiêu chuẩn quốc tế, một loại tiền tệ dự trữ thiết yếu cho Tây Ban Nha. Tuy nhiên, đối mặt với một số thách thức kinh tế, Tây Ban Nha đã phải sử dụng những chiến lược tiền tệ khéo léo.
-Sự phá giá tiền tệ là một công cụ thường được các quốc gia sử dụng để tài trợ cho chi tiêu của mình hoặc kích thích nền kinh tế. Tuy nhiên, Tây Ban Nha đã rơi vào một tình huống t delicate. Việc pha loãng đồng đô la Tây Ban Nha sẽ làm ảnh hưởng đến vị thế của nó trên trường quốc tế. Để vượt qua tình thế này, Tây Ban Nha đã chuyển sang sử dụng Maravedi.
+Đồng Maravedi, như một loại tiền xu bằng đồng, chiếm một vị trí đặc biệt trong lịch sử tiền tệ của Tây Ban Nha. Như đã đề cập trước đó, đồng đô la Tây Ban Nha ban đầu là tiêu chuẩn quốc tế, một loại tiền tệ dự trữ thiết yếu cho Tây Ban Nha. Tuy nhiên, khi đối mặt với một số thách thức kinh tế, Tây Ban Nha đã phải sử dụng những chiến lược tiền tệ tinh vi.
+Phá giá đồng tiền là một công cụ thường được các quốc gia sử dụng để tài trợ cho chi tiêu của mình hoặc kích thích nền kinh tế. Tuy nhiên, Tây Ban Nha đã rơi vào một tình huống thế nguy hiểm. Việc pha loãng đồng đô la Tây Ban Nha sẽ làm ảnh hưởng đến vị thế của nó trên trường quốc tế. Để vượt qua tình trạng khó khăn này, Tây Ban Nha đã chuyển sang sử dụng đồng Maravedi.
 ![image](assets/chapitre-2.1/6.webp)
-Khác với đồng đô la bạc Tây Ban Nha quý giá, Maravedis là một loại tiền đồng chủ yếu được sử dụng trong dân chúng địa phương. Đồng tiền này được nhắm mục tiêu để phá giá. Khi một đồng Maravedis ban đầu có giá trị hai maravedises, nhà nước sẽ thu hồi nó, đóng dấu lại với một giá trị mới, ví dụ "bốn", và chỉ trả lại một đồng cho chủ sở hữu. Đồng tiền được đề cập với dấu "tám" là bằng chứng của quá trình này, đã trải qua nhiều chu kỳ phá giá.
+Khác với đồng đô la bạc Tây Ban Nha quý giá, Maravedis là một loại tiền xu bằng đồng chủ yếu được sử dụng trong dân chúng địa phương. Đồng tiền này được nhắm mục tiêu để phá giá. Ban đầu, một đồng Maravedis có giá trị hai maravedises, nhà nước sẽ thu hồi nó, đóng dấu lại để gán cho nó một giá trị mới, ví dụ "bốn maravedises", và chỉ trả lại một đồng cho chủ sở hữu. Đồng tiền được nhắc đến với dấu "tám" là bằng chứng của quá trình này, nó đã trải qua nhiều chu kỳ phá giá.
 
-Chiến lược này cho phép nhà nước hiệu quả phá giá một loại tiền tệ, tạo ra lạm phát và gián tiếp tự tài trợ, trong khi vẫn bảo toàn được tính toàn vẹn của đồng đô la Tây Ban Nha trên sân khấu quốc tế. Tuy nhiên, việc phá giá mục tiêu này đã có hậu quả đối với dân chúng địa phương, những người thấy giá trị của đồng tiền phổ thông của họ bị pha loãng.
+Chiến lược này cho phép nhà nước phá giá một loại tiền tệ một cách hiệu quả, tạo ra lạm phát và gián tiếp tự tài trợ, trong khi vẫn giữ được tính toàn vẹn của đồng đô la Tây Ban Nha trên sân khấu quốc tế. Tuy nhiên, việc phá giá mục tiêu này đã tạo ra hậu quả đối với dân chúng địa phương, những người thấy giá trị đồng tiền thông dụng của họ bị pha loãng.
 
-Trường hợp của Maravedis minh họa cách một quốc gia có thể chọn lọc phá giá một đồng tiền địa phương để đáp ứng nhu cầu kinh tế nội bộ của mình, trong khi vẫn bảo toàn giá trị của một đồng tiền dự trữ trên sân khấu toàn cầu. Đây là một ví dụ nổi bật về sự phức tạp và tinh tế của chính sách tiền tệ trong lịch sử.
+Trường hợp của Maravedis minh họa cách một quốc gia có thể chọn lọc để phá giá một đồng tiền địa phương nhằm đáp ứng nhu cầu kinh tế nội địa của mình, trong khi vẫn bảo toàn giá trị của một đồng tiền dự trữ trên sân khấu toàn cầu. Đây là một ví dụ nổi bật về sự phức tạp và tinh vi của chính sách tiền tệ trong lịch sử.
 
 ![image](assets/chapitre-2.1/7.webp)
 
 Thêm thông tin? -> [Link](https://docs.google.com/document/d/1aZa7gvz1nt8ZHDCoWKQdS9RGGjBHdipH1ApC8dW1xpM/edit?usp=sharing)
 
-#### 4. Cuộc Cách Mạng Giá Cả từ Thế Kỷ 15 đến Thế Kỷ 17
+#### 4. Cuộc cách mạng giá cả từ thế kỷ 15 đến thế kỷ 17
 
-Giữa thế kỷ 15 và 17, Châu Âu chứng kiến một hiện tượng kinh tế đáng chú ý, thường được gọi là "cuộc cách mạng giá cả." Kỳ này của lạm phát chủ yếu được kích hoạt bởi một lượng lớn kim loại quý, đặc biệt là vàng và bạc, từ châu Mỹ chảy vào. Với nền kinh tế Châu Âu chủ yếu dựa trên tiêu chuẩn kim loại vào thời điểm đó, nguồn cung kim loại bổ sung này đã làm tăng lượng tiền lưu thông. Kết quả là, một tỷ lệ lạm phát khoảng 1 đến 2% mỗi năm xuất hiện. Trên bề ngoài, tỷ lệ lạm phát này có vẻ khiêm tốn. Tuy nhiên, vào thời điểm đó, những biến động giá như vậy đủ lạ để được coi là một "cuộc cách mạng." Điều này nêu bật cách thay đổi trong dự trữ tiền tệ có thể ảnh hưởng đến toàn bộ hệ thống kinh tế.
+Giữa thế kỷ 15 và 17, Châu Âu chứng kiến một hiện tượng kinh tế đáng chú ý, thường được gọi là "cuộc cách mạng giá cả." Thời kỳ này của lạm phát chủ yếu được tạo ra bởi việc có một lượng lớn kim loại quý, đặc biệt là vàng và bạc, từ châu Mỹ chảy vào. Do các đồng tiền của các nền kinh tế Châu Âu chủ yếu dựa trên tiêu chuẩn kim loại vào thời điểm đó, nguồn cung kim loại bổ sung này đã làm tăng lượng tiền lưu thông. Kết quả là, xuất hiện tỷ lệ lạm phát khoảng 1 đến 2% mỗi năm. Nhin bề ngoài, tỷ lệ lạm phát này có vẻ khiêm tốn và không đáng kể. Tuy nhiên, vào thời điểm đó, những biến động giá như vậy đủ lạ để được coi là một "cuộc cách mạng." Điều này nêu bật lên sự ảnh hưởng tới toàn bộ nền kinh tế do việc thay đổi nguồn cung tiền gây ra.
 
 #### 5. John Law và Assignats
 
-Trong thế kỷ 18, lịch sử kinh tế Pháp được đánh dấu bởi hai sự kiện đáng chú ý liên quan đến tiền tệ. Đầu tiên, John Law, một nhà kinh tế và tài chính người Scotland, đã thuyết phục chính phủ Pháp áp dụng một hệ thống tiền tệ dựa trên tiền giấy. Mặc dù ban đầu được coi là một giải pháp sáng tạo cho các vấn đề tài chính của đất nước, sáng kiến này nhanh chóng dẫn đến lạm phát tràn lan. Sau đó, ngay sau đó, trong bối cảnh hỗn loạn của Cách mạng Pháp, chính phủ đã giới thiệu "assignats".
+Trong thế kỷ 18, lịch sử kinh tế của nước Pháp được đánh dấu bởi hai sự kiện đáng chú ý liên quan đến tiền tệ. Đầu tiên, John Law, một nhà kinh tế và tài chính người Scotland, đã thuyết phục được chính phủ Pháp áp dụng một hệ thống tiền tệ dựa trên tiền giấy. Mặc dù ban đầu nó được coi là một giải pháp sáng tạo cho các vấn đề tài chính của đất nước, sáng kiến này nhanh chóng dẫn đến lạm phát tràn lan. Ngay sau đó, trong bối cảnh hỗn loạn của Cách mạng Pháp, chính phủ đã giới thiệu "assignats".
 
 ![image](assets/chapitre-2.1/9.webp)
 
 Assignats từ năm 1793
 
-Những tờ tiền giấy này là bằng chứng sống động của giai đoạn lạm phát cực đoan đầu tiên trong lịch sử. Ban đầu được thiết kế như một phản ứng đối với các cuộc khủng hoảng tài chính liên tiếp, assignats nhanh chóng trở thành biểu tượng của sự bất ổn tiền tệ. Chính phủ, dựa quá mức vào loại tiền giấy này để tài trợ cho chi tiêu của mình, đã gây ra một cuộc khủng hoảng kinh tế chưa từng có và tạo ra một giai đoạn lạm phát cực đoan lớn ở Pháp sau cách mạng.
+Những tờ tiền giấy này là bằng chứng sống động cho giai đoạn siêu cực đoan đầu tiên trong lịch sử. Ban đầu nó được thiết kế như một cách để đối phó với các cuộc khủng hoảng tài chính liên tiếp, assignats nhanh chóng trở thành biểu tượng của sự bất ổn tiền tệ. Việc chính phủ dựa dẫm quá mức vào loại tiền giấy này để tài trợ cho chi tiêu của mình đã gây ra một cuộc khủng hoảng kinh tế chưa từng có và tạo ra một giai đoạn siêu lạm phát ở Pháp sau cách mạng.
 
-#### 6. Sắc Lệnh 6102 và Sự Phá Giá của Đô La
-Tại Hoa Kỳ, đầu những năm 1930 chứng kiến một sự chuyển biến lớn trong chính sách tiền tệ. Dưới đây là một cái nhìn chi tiết về sự biến đổi này:
-- Tờ 20 đô la năm 1928
+#### 6. Sắc Lệnh 6102 và việc phá giá đồng đô la
+Đầu những năm 1930, Hoa Kỳ chứng kiến một sự chuyển biến lớn trong chính sách tiền tệ. Dưới đây là một cái nhìn tổng quan về sự chuyển biến này:
+- Tờ 20 đô la vào năm 1928
 
 ![image](assets/chapitre-2.1/11.webp)
 
-Năm 1928, một tờ 20 đô la ở Hoa Kỳ ghi rằng: "có thể đổi thành vàng theo yêu cầu." Điều này có nghĩa là mỗi tờ tiền có thể được chuyển đổi trực tiếp thành vàng. Cụ thể, một tờ 20.67 đô la tương đương với một ounce vàng.
+Năm 1928, một tờ 20 đô la ở Hoa Kỳ ghi rằng: "có thể đổi thành vàng theo yêu cầu." Điều này có nghĩa là mỗi tờ tiền có thể được chuyển đổi trực tiếp thành vàng. Cụ thể, lượng tiền 20.67 đô la tương đương với một ounce vàng.
 
 - Sắc lệnh 6102
 
-Năm 1933, một biến động lớn xảy ra với việc ban hành Sắc lệnh 6102. Sắc lệnh này làm cho việc sở hữu vàng trở nên bất hợp pháp, dù là dưới dạng thanh, đồng xu, hay giấy chứng nhận.
+Năm 1933, một biến động lớn xảy ra với sự kiện ban hành Sắc lệnh 6102. Sắc lệnh này biến việc sở hữu vàng trở thành bất hợp pháp, dù là dưới dạng thanh, đồng xu, hay giấy chứng nhận.
 
 ![image](assets/chapitre-2.1/14.webp)
 
-Giấy chứng nhận vàng là một ví dụ điển hình. Nó được đánh dấu: "Trả bằng vàng xu cho người mang theo yêu cầu." Việc sở hữu loại giấy chứng nhận này trở nên bất hợp pháp và vẫn như vậy cho đến năm 1964.
+Giấy chứng nhận vàng là một ví dụ điển hình. Nó được ghi rằng: "Đồng xu bằng vàng có thể được trả cho người nắm giữ theo yêu cầu." Việc sở hữu loại giấy chứng nhận này trở nên bất hợp pháp và duy trì như vậy cho đến năm 1964.
 
 ![image](assets/chapitre-2.1/12.webp)
 
-- Giới thiệu Tiền giấy mới
+- Giới thiệu tiền giấy mới
 
 Sau việc thu giữ vàng vào năm 1934, một loạt tiền giấy mới được đưa vào lưu thông.
 
 ![image](assets/chapitre-2.1/13.webp)
-Cụm từ chỉ ra khả năng chuyển đổi thành vàng đã được loại bỏ và thay thế bằng "Tờ tiền này là pháp tiền hợp lệ cho mọi nợ" (Ce billet est une monnaie légale pour toutes dettes).
+Cụm từ chỉ cam kết quyền được chuyển đổi thành vàng đã bị loại bỏ và thay thế bằng "Tờ tiền này là đồng tiền hợp pháp để thanh toán cho mọi khoản nợ" (Ce billet est une monnaie légale pour toutes dettes).
 
-- Định giá lại Vàng
+- Định giá lại vàng
 
-Điều thú vị về sự chuyển đổi này là chiến lược của chính phủ. Năm 1934, giá vàng được định giá lại thành 35 đô la mỗi ounce, thay vì 20.67 đô la. Cơ bản, chính phủ đã làm giảm giá trị đô la mà người dân sở hữu. Bằng cách mua vàng từ dân chúng với giá 20.67 đô la mỗi ounce vào năm 1933, và sau đó định giá lại giá vàng vào năm 1934, chính phủ đã thu lợi nhuận đáng kể trong khi làm giảm giá trị tiết kiệm của công dân.
+Điều thú vị về sự chuyển đổi này là chiến lược của chính phủ. Năm 1934, giá vàng được định giá lại thành 35 đô la mỗi ounce, thay vì 20.67 đô la như trước đó. Về bản chất, chính phủ đã làm giảm giá trị của những đồng đô la mà người dân đang sở hữu. Bằng cách mua vàng từ dân chúng với giá 20.67 đô la mỗi ounce vào năm 1933, và sau đó định lại giá vàng vào năm 1934, chính phủ đã thu lợi nhuận đáng kể trong khi làm giảm giá trị khoản tiết kiệm của người dân.
 
-Tóm lại, chỉ trong một năm, chính phủ đã hiệu quả thu giữ vàng của công dân, sau đó thay đổi quy tắc trò chơi bằng cách định giá lại giá trị vàng để lợi ích cho kho bạc và bất lợi cho những người ban đầu đã đổi vàng lấy tiền giấy.
+Tóm lại, chỉ trong một năm, chính phủ đã thu giữ vàng của người dân, sau đó thay đổi quy tắc trò chơi bằng cách định lại giá vàng để làm lợi cho kho bạc và bất lợi cho những người đã đổi vàng lấy tiền giấy lúc ban đầu.
 
 ### Hoa Kỳ thay đổi lịch sử.
 
-Hoa Kỳ đã tạo ra một bước ngoặt lịch sử bằng cách trở thành quốc gia đầu tiên làm giảm giá trị đồng tiền dự trữ thế giới, đô la Mỹ, trái với các thực hành trước đó được quan sát ở các quốc gia thương mại nhỏ.
+Hoa Kỳ đã tạo ra một bước ngoặt lịch sử bằng cách trở thành quốc gia đầu tiên làm phá giá đồng tiền dự trữ thế giới, đô la Mỹ, trái với các thực hành trước đó được ghi nhận ở các quốc gia nắm giữ đồng tiền dự trữ thế giới nhưng có quy mô kinh tế nhỏ.
 
-Trước đó, trong thời kỳ Phục Hưng, đồng florin của Ý do Florence phát hành vào thế kỷ 13 là đồng tiền dự trữ quốc tế, và không có sự giảm giá trị nào được ghi nhận trong thời gian sử dụng của nó, phản ánh tầm quan trọng của sự ổn định tiền tệ đối với thương mại quốc tế.
+Trước đó, trong thời kỳ Phục Hưng, đồng florin của Ý do Florence phát hành vào thế kỷ 13 là đồng tiền dự trữ quốc tế, và không có sự phá giá nào được ghi nhận trong thời gian sử dụng của nó, phản ánh tầm quan trọng của sự ổn định tiền tệ đối với thương mại quốc tế.
 
-Cùng tinh thần đó, Tây Ban Nha và Hà Lan, với tư cách là những quốc gia giữ đồng tiền dự trữ thế giới do thương mại quốc tế phát triển, đã duy trì tính toàn vẹn của đồng tiền của họ để bảo tồn lòng tin và trạng thái hiện hành trong giao dịch quốc tế. Hà Lan thậm chí còn chứng kiến sự ra đời của ngân hàng trung ương đầu tiên, một cột mốc quan trọng trong sự phát triển tiền tệ toàn cầu.
+Cùng tinh thần đó, Tây Ban Nha và Hà Lan, với tư cách là những quốc gia nắm giữ đồng tiền dự trữ thế giới do thương mại quốc tế phát triển, đã duy trì tính toàn vẹn đồng tiền của họ để bảo tồn lòng tin và trạng thái hiện hành trong giao dịch quốc tế. Hà Lan thậm chí còn chứng kiến sự ra đời của ngân hàng trung ương đầu tiên, một cột mốc quan trọng trong sự phát triển của tiền tệ toàn cầu.
 
 ![image](assets/chapitre-2.1/15.webp)
 
-Tuy nhiên, tình hình thay đổi với sự trỗi dậy của Hoa Kỳ như một cường quốc kinh tế thống trị. Họ đã chọn giảm giá trị đồng tiền dự trữ của mình, do đó khai thác lợi ích từ lạm phát. Quyết định này thường được cho là do động lực thay đổi, nơi lựa chọn đồng tiền dự trữ không còn tự do như trước. Sự thống trị của Mỹ đã thiết lập đô la là đồng tiền dự trữ thế giới, cho phép thao túng giá trị của nó. Sự chuyển đổi này tiết lộ tiềm năng ảnh hưởng của chính sách tiền tệ đối với thương mại quốc tế trong một nền kinh tế toàn cầu hóa, đánh dấu một sự chuyển đổi đáng kể trong quản lý các đồng tiền dự trữ toàn cầu.
+Tuy nhiên, tình hình thay đổi với sự trỗi dậy của Hoa Kỳ như một cường quốc thống trị về kinh tế. Họ đã chọn phá giá đồng tiền dự trữ của mình, từ đó khai thác lợi ích từ lạm phát. Quyết định này thường được cho là do động lực đã thay đổi, nơi việc lựa chọn đồng tiền dự trữ thế giới không còn tự do như trước nữa. Sự thống trị của Mỹ đã thiết lập đô la trở thành đồng tiền dự trữ thế giới, cho phép họ thao túng giá trị của nó. Sự chuyển đổi này tiết lộ tiềm năng gây ra ảnh hưởng thới thương mại quốc tế trong một nền kinh tế toàn cầu hoá của chính sách tiền tệ, đánh dấu một sự chuyển đổi đáng kể trong việc quản lý các đồng tiền dự trữ toàn cầu.
 
-### Ví dụ cuối cùng cho chuyến đi: bữa tối Thụy Sĩ
-Đồng Dinar Thụy Sĩ minh họa một khía cạnh thú vị khác của việc mất giá tiền tệ, lần này được gắn liền với bối cảnh Iraq trước Chiến tranh Vùng Vịnh. Được đặt tên theo chất lượng nổi bật của tờ tiền, đồng tiền này được Ngân hàng Trung ương Iraq phát hành và đã được đánh giá cao về sự ổn định trong khu vực Trung Đông. Sự tin tưởng này chủ yếu là do chất lượng in tờ tiền, được thực hiện ở Anh, ngụ ý một sự kiên cố nhất định chống lại sự mất giá.
+### Ví dụ cuối cùng: bữa tối Thụy Sĩ
+Đồng Dinar Thụy Sĩ minh họa một khía cạnh thú vị khác của việc phá giá đồng tiền, lần này được gắn liền với bối cảnh Iraq trước Chiến tranh Vùng Vịnh. Được đặt tên theo chất lượng nổi bật của tờ tiền, đồng tiền này được Ngân hàng Trung ương Iraq phát hành và đã được đánh giá cao về sự ổn định trong khu vực Trung Đông. Sự tin tưởng này chủ yếu là do chất lượng của việc in ra tờ tiền, được thực hiện ở Anh, ngầm định một sự ngăn cách vững chắc để chống lại việc phá giá.
 
-Tuy nhiên, các cuộc Chiến tranh Vùng Vịnh đã đánh dấu một bước ngoặt trong lịch sử của Đồng Dinar Thụy Sĩ. Iraq, không còn có thể dựa vào nhà cung cấp Anh của mình cho việc in tờ tiền, đã chuyển sang Trung Quốc. Sự chuyển đổi này đã dẫn đến một sự khác biệt rõ ràng về chất lượng của tờ tiền, với phiên bản Trung Quốc được coi là kém hơn. Sự nhận thức này không phải là không có cơ sở; tờ tiền Trung Quốc dễ bị làm giả hơn và dễ bị chính phủ in thêm, do đó đe dọa giá trị của chúng.
+Tuy nhiên, các cuộc Chiến tranh Vùng Vịnh đã đánh dấu một bước ngoặt trong lịch sử của Đồng Dinar Thụy Sĩ. Iraq, không thể dựa vào nhà cung cấp từ Anh của mình cho việc in tiền của mình nữa, đã chuyển sang Trung Quốc. Sự chuyển đổi này đã dẫn đến một sự khác biệt rõ ràng về chất lượng của tờ tiền, với phiên bản Trung Quốc được xem là kém hơn. Sự nhận thức này không phải là không có cơ sở; tờ tiền do Trung Quốc in dễ bị làm giả hơn và dễ bị chính phủ in thêm, do đó đe dọa giá trị của chúng.
 
-Một hiện tượng đặc biệt đã xuất hiện trong nền kinh tế Iraq sau Chiến tranh Vùng Vịnh: hệ thống giá cả kép. Các thương nhân đã đưa ra các mức giá khác nhau tùy thuộc vào loại tờ tiền được sử dụng để thanh toán, ưu tiên Đồng Dinar Thụy Sĩ gốc hơn là tờ tiền Trung Quốc. Hệ thống này phản ánh sự tin tưởng được duy trì trong tờ tiền chất lượng cao hơn, ít có khả năng bị mất giá, ngay cả trong bối cảnh giá trị chủ yếu được áp đặt bởi nhà nước. Tập hợp này chứng minh tầm quan trọng của các đặc tính nội tại của tiền tệ và làm thế nào, ngay cả trong một chế độ tiền tệ fiat, chất lượng được cảm nhận của một đồng tiền có thể ảnh hưởng đến giá trị tương đối của nó và, qua đó, sự tin tưởng của các nhà kinh tế.
+Một hiện tượng đặc biệt đã xuất hiện trong nền kinh tế Iraq sau Chiến tranh Vùng Vịnh: hệ thống giá cả kép. Các thương nhân đã đưa ra các mức giá khác nhau tùy thuộc vào loại tờ tiền được sử dụng để thanh toán, ưu ái Đồng Dinar Thụy Sĩ gốc hơn là tờ tiền do Trung Quốc in. Hệ thống này phản ánh sự tin tưởng được duy trì trong tờ tiền chất lượng cao hơn, ít có khả năng bị mất giá, ngay cả trong bối cảnh giá trị chủ yếu được áp đặt bởi nhà nước. Những minh hoạ này thể hiện tầm quan trọng của các đặc tính nội tại của tiền tệ và cách mà chất lượng của một đồng tiền, ngay cả trong một chế độ tiền pháp định, được cảm nhận có thể ảnh hưởng đến giá trị tương đối của nó và, qua đó, sự tin tưởng của các tác nhân tham gia vào nền kinh tế.
 
 #### Vâng, chúng tôi thực sự đã cân những đồng xu!
 
-Quan niệm phổ biến thường liên kết tiền tệ với sự tạo ra của nhà nước, nơi việc phát hành và giá trị của nó được nhà nước quy định. Khái niệm này có nguồn gốc từ các nền văn minh cổ đại như Rome, nơi các đồng xu được chuẩn hóa và đóng dấu bởi Đế chế, do đó trao giá trị chính thức cho các đồng tiền. Tuy nhiên, một sự khám phá sâu hơn tiết lộ rằng giá trị nội tại của tiền tệ chủ yếu được rút ra từ nội dung kim loại quý của nó.
+Quan niệm phổ biến thường liên kết tiền tệ với sự phát hành của nhà nước, nơi việc phát hành và giá trị của nó được nhà nước quy định. Khái niệm này có nguồn gốc từ các nền văn minh cổ đại như Rome, nơi các đồng xu được chuẩn hóa và đóng dấu bởi Đế chế, do đó trao giá trị chính thức cho các đồng tiền. Tuy nhiên, một sự khám phá sâu hơn tiết lộ rằng giá trị nội tại của tiền tệ có được chủ yếu là từ hàm lượng kim loại quý của nó.
 
-Một ví dụ được minh họa qua việc kiểm tra một trọng lượng tiền tệ tương đương với tám đồng real Tây Ban Nha, hoặc một đô la Tây Ban Nha. Trọng lượng này, được đánh dấu bằng một số La Mã chỉ giá trị của nó, được các nhà đổi tiền sử dụng để đánh giá giá trị của các đồng xu dựa trên trọng lượng của chúng, thay vì chỉ dựa vào dấu đóng của chúng. Bằng cách cân các đồng xu, các nhà đổi tiền có thể xác định xem chúng có bị thay đổi hay hỏng, có thể đã làm giảm giá trị của chúng. Thực hành này nhấn mạnh rằng, mặc dù việc đóng dấu chuẩn hóa bởi nhà nước đã trao một giá trị danh nghĩa nhất định cho tiền tệ, giá trị thực sự nằm ở trọng lượng của kim loại quý mà nó chứa đựng.
+Một ví dụ được minh họa thông qua việc kiểm tra một trọng lượng tiền tệ tương đương với tám đồng real Tây Ban Nha, hoặc một đô la Tây Ban Nha. Trọng lượng này, được đánh dấu bằng một số La Mã chỉ giá trị của nó, được các nhà đổi tiền sử dụng để đánh giá giá trị của các đồng xu dựa trên trọng lượng của chúng, thay vì chỉ dựa vào dấu đóng của chúng. Bằng cách cân các đồng xu, các nhà đổi tiền có thể xác định xem chúng có bị thay đổi hoặc hỏng hay không, điều có thể đã làm giảm giá trị của chúng. Thực hành này chỉ ra rằng, mặc dù việc đóng dấu chuẩn hóa bởi nhà nước đã trao một giá trị danh nghĩa nhất định cho tiền tệ, giá trị thực sự nằm ở trọng lượng kim loại quý mà nó chứa đựng.
 
-Phân tích này chứng minh rằng sự tin tưởng vào tiền tệ, và qua đó là giá trị của nó, được neo giữ trong chất liệu hữu hình của nó chứ không phải chỉ là sự khẳng định của nhà nước. Nó nhấn mạnh sự phân biệt giữa giá trị danh nghĩa được nhà nước áp đặt và giá trị nội tại được quy định bởi nội dung kim loại quý. Do đó, tiền tệ vượt ra ngoài việc chỉ là một công cụ của nhà nước, với giá trị cơ bản của nó được liên kết một cách nội tại với các yếu tố hữu hình và có thể đo lường được.
+Do đó, phân tích này chứng minh rằng niềm tin đặt vào tiền tệ, và giá trị của nó, được neo giữ trong chất lượng hữu hình của nó chứ không phải chỉ là sự khẳng định của nhà nước. Nó nhấn mạnh sự phân biệt giữa giá trị danh nghĩa được nhà nước áp đặt và giá trị nội tại được quy định bởi hàm lượng kim loại quý. Do đó, tiền tệ vượt ra ngoài việc chỉ là một công cụ của nhà nước, với giá trị nền tảng nội tại của nó được gắn với các yếu tố hữu hình, có thể đo lường được.
 
 #### Kết luận
 
-Kết luận, nghiên cứu này về việc mất giá tiền tệ mở ra cánh cửa để hiểu sâu hơn về các cơ chế lạm phát, sẽ được khám phá trong các video tiếp theo. Chúng tôi sẽ thảo luận về các loại lạm phát và ngưỡng mà tại đó chúng chuyển sang lạm phát cao hoặc siêu lạm phát. Nền tảng vững chắc này sẽ cho phép chúng tôi đối mặt với sự phức tạp của lạm phát trong các phiên bản sắp tới. Cảm ơn sự chú ý của bạn, và hẹn gặp lại trong video tiếp theo để tiếp tục cuộc khám phá này về động lực tiền tệ.
+Kết luận, nghiên cứu về hiện tượng phá giá tiền tệ này đã mở ra cánh cửa để hiểu sâu hơn về các cơ chế lạm phát, những điều sẽ được khám phá trong các phần tiếp theo. Chúng ta sẽ thảo luận về các loại lạm phát và ngưỡng mà tại đó chúng chuyển thành lạm phát cao hoặc siêu lạm phát. Nền tảng vững chắc này sẽ cho phép chúng ta đối mặt với sự phức tạp của lạm phát trong các phần sắp tới. Cảm ơn sự chú ý của bạn, và hẹn gặp lại trong phần tiếp theo để tiếp tục cuộc khám phá này.
 
-## Các Loại Lạm Phát
+## Các loại lạm phát
 <chapterId>b438fe09-375e-5bb2-9196-7dd687b9f98c</chapterId>
 
 ### Lạm phát không phải là một hiện tượng đa yếu tố
-Trong phần này, chúng ta sẽ khám phá các khía cạnh khác nhau của lạm phát, một hiện tượng thường bị hiểu lầm. Mặc dù lạm phát thường được nhìn nhận như một hiện tượng đa yếu tố trong truyền thông và các cuộc thảo luận hàng ngày, điều quan trọng cần nhớ là nó cơ bản là một hiện tượng tiền tệ.
+Trong phần này, chúng ta sẽ khám phá các khía cạnh khác nhau của lạm phát, một hiện tượng thường bị hiểu lầm. Mặc dù lạm phát thường được nhìn nhận như một hiện tượng đa yếu tố trong truyền thông và các cuộc thảo luận hàng ngày, điều quan trọng cần nhớ là về bản chất, nó là một hiện tượng tiền tệ.
 ![hình ảnh](assets/chapitre-2.2/0.webp)
 
-Dưới đây là một bản tóm tắt về chủ đề qua một số điểm chính:
+Dưới đây là một bản tóm tắt về các điểm chính của chủ đề này:
 
-- Phân biệt giữa Tăng Giá và Lạm Phát:
+- Phân biệt giữa Tăng giá và Lạm phát:
 
   Một sự tăng giá có thể chỉ cụ thể trong một ngành và được gây ra bởi nhiều yếu tố như sự giảm sản xuất của OPEC đối với dầu mỏ hoặc điều kiện thời tiết không thuận lợi cho lúa mì.
-  Ngược lại, lạm phát được định nghĩa bởi sự tăng giá chung trên một loạt hàng hóa và dịch vụ, không chỉ trong một ngành cụ thể.
+  Ngược lại, lạm phát được định nghĩa bởi sự tăng giá chung trên một loạt các loại hàng hóa và dịch vụ (chung trên diện rộng), chứ không chỉ trong một ngành cụ thể.
 
-- Bản chất Tiền tệ của Lạm Phát:
-  Với một lượng tiền cố định, sự tăng giá trong một ngành sẽ dẫn đến sự giảm giá trong các ngành khác, vì lượng tiền có sẵn để chi tiêu ở nơi khác sẽ bị giảm. Lạm phát có mối liên hệ chặt chẽ với sự tăng lượng tiền lưu thông, cho phép sự tăng giá đồng thời trong tất cả các ngành.
+- Bản chất tiền tệ của Lạm phát:
+  Với một lượng cung tiền cố định, sự tăng giá trong một ngành sẽ dẫn đến sự giảm giá trong các ngành khác, vì lượng tiền có sẵn để chi tiêu ở nơi khác sẽ bị giảm. Lạm phát có mối liên hệ chặt chẽ với sự tăng lượng cung tiền trong lưu thông, tạo ra sự tăng giá đồng thời trong tất cả các ngành.
 
-- Ảnh hưởng của Lượng Tiền Lưu thông đến Lạm Phát và Phát Lạm:
+- Ảnh hưởng của lượng cung tiền trong lưu thông đến Lạm phát và Giảm phát:
 
-  Trong một hệ thống lượng tiền cố định, sự tăng sản xuất lý thuyết sẽ dẫn đến phát lạm, tức là sự giảm giá, vì sẽ có nhiều hàng hóa và dịch vụ hơn.
-  Trong hệ thống tiền tệ fiat hiện tại, sự tăng lượng tiền lưu thông loại bỏ khả năng phát lạm do tăng sản xuất gây ra.
+  Trong một hệ thống có lượng cung tiền cố định, về lý thuyết, sự gia tăng sản xuất sẽ dẫn đến giảm phát, tức là sự giảm giá, vì sẽ có nhiều hàng hóa và dịch vụ hơn.
+  Trong hệ thống tiền pháp định hiện tại, sự gia tăng lượng cung tiền trong lưu thông loại bỏ hiện tượng giảm phát tiềm năng do việc gia tăng sản xuất gây ra.
 
-- Tác động Tiêu Cực của Việc Điều Chỉnh Lượng Tiền Lưu thông:
+- Tác động tiêu cực của việc điều chỉnh lượng cung tiền trong lưu thông:
 
-  Sự tăng lượng tiền lưu thông, mà không có sự tăng tương ứng trong sản xuất, dẫn đến lạm phát, vì có nhiều tiền hơn lưu thông cho cùng một lượng hàng hóa và dịch vụ.
-  Trong khi sự tăng sản xuất nên đã dẫn đến phát lạm, sự tăng đồng thời lượng tiền lưu thông đã làm mất hiệu ứng này, dẫn đến lạm phát thay vì.
+  Việc tăng lượng cung tiền trong lưu thông, mà không có sự gia tăng tương ứng trong sản xuất, dẫn đến lạm phát, vì có nhiều tiền hơn lưu thông cho cùng một lượng hàng hóa và dịch vụ.
+  Trong khi sự tăng sản xuất nên gây ra giảm phát (giảm giá), sự gia tăng đồng thời lượng cung tiền trong lưu thông đã làm vô hiệu hoá giảm phát, thay vào đó sinh ra lạm phát.
 
-- Lạm Phát, Phát Lạm, và Lượng Tiền Lưu thông: Các Bình Giao Tiếp:
+- Lạm phát, Giảm phát, và Cung tiền trong lưu thông: Bình thông nhau
 
-  Lạm phát và phát lạm giống như các bình giao tiếp trong một nền kinh tế. Sự tăng sản xuất có thể dẫn đến phát lạm, nhưng nếu lượng tiền lưu thông được tăng lên đồng thời, hiệu ứng phát lạm sẽ bị loại bỏ, dẫn đến lạm phát.
+  Lạm phát và giảm phát giống như các bình thông nhau trong một nền kinh tế. Sự tăng sản xuất có thể dẫn đến giảm phát, nhưng nếu cung tiền trong lưu thông được tăng lên đồng thời, hiệu ứng giảm phát sẽ bị mất hiệu lực, dẫn đến lạm phát.
 
-Cuộc thảo luận này nhấn mạnh tầm quan trọng của việc hiểu các cơ chế cơ bản của lạm phát và phát lạm, và cách thức điều chỉnh lượng tiền lưu thông có thể có những ảnh hưởng sâu rộng đến nền kinh tế. Chúng ta sẽ có khả năng quay lại những khái niệm này sau để hiểu sâu hơn về sự liên kết và ảnh hưởng của chúng đối với nền kinh tế toàn cầu.
+Cuộc thảo luận này nhấn mạnh tầm quan trọng của việc hiểu các cơ chế nền tảng của lạm phát và giảm, và cách thức điều chỉnh cung tiền trong lưu thông có thể gây ra những ảnh hưởng sâu rộng đến nền kinh tế. Chúng ta sẽ quay lại những khái niệm này sau để hiểu sâu hơn về sự liên kết và ảnh hưởng của chúng đối với nền kinh tế toàn cầu.
 
 ### Tại sao việc in tiền không luôn gây ra lạm phát?
 
-#### Lạm Phát ≠ CPI
+#### Lạm phát ≠ CPI
 
-Lạm phát, mặc dù thường được liên kết với sự tăng lượng tiền lưu thông, không luôn có mối quan hệ trực tiếp với việc in tiền, như được minh họa bởi giai đoạn sau cuộc khủng hoảng tài chính năm 2008. Mặc dù đã in tiền đáng kể để cứu các ngân hàng, thập kỷ tiếp theo không trải qua lạm phát cao, với mức trung bình từ 0 đến 2% mỗi năm. Tình huống này đặt ra question: tại sao việc in tiền lớn không dẫn đến lạm phát tương xứng? Câu trả lời nằm ở một số điểm tinh tế liên quan đến việc đo lường lạm phát và Chỉ số Giá Tiêu Dùng (CPI).
-Giải thích đầu tiên nằm ở cách lạm phát được đo lường. Chỉ số Giá Tiêu Dùng (CPI), được sử dụng như chỉ số chính của lạm phát, có những hạn chế nhất định. Ví dụ, nó không toàn diện tính đến sự phát triển của giá bất động sản. Mặc dù CPI bao gồm một thành phần liên quan đến tiền thuê nhà, sự tăng giá đáng kể của giá nhà không được phản ánh đầy đủ. Do đó, sự tăng đáng kể trong chi phí nhà ở có thể xảy ra mà không được CPI ghi nhận đầy đủ, có thể đánh giá thấp lạm phát thực tế.
-Ngoài ra, việc tính toán Chỉ số Giá tiêu dùng (CPI) bao gồm một số phương pháp có thể bù đắp hoặc che giấu sự tăng giá thực tế. Ví dụ, việc cải thiện chất lượng của sản phẩm có thể được sử dụng để điều chỉnh chỉ số. Nếu giá của một sản phẩm tăng, nhưng chất lượng hoặc tính năng của nó cũng được cải thiện, CPI có thể xem xét rằng giá trị thực sự cho người tiêu dùng không thay đổi, và do đó không phản ánh lạm phát. Một trường hợp minh họa là khi, mặc dù giá thịt bò và máy tính tăng do in tiền, việc cải thiện hiệu suất của máy tính được sử dụng để bù đắp cho sự tăng này. Nếu một máy tính có giá gấp đôi nhưng mạnh gấp bốn lần, CPI có thể giải thích điều này như là một sự giảm giá, do đó che giấu sự tăng giá của thịt bò.
+Lạm phát, mặc dù thường được liên kết với sự tăng cung tiền trong lưu thông, nó không phải là luôn có mối tương quan trực tiếp với việc in tiền, như được minh họa bởi giai đoạn sau cuộc khủng hoảng tài chính năm 2008. Mặc dù đã in thêm một lượng tiền đáng kể để cứu các ngân hàng, thập kỷ tiếp theo đã không trải qua siêu lạm phát, với mức lạm phát trung bình chỉ từ 0 đến 2% mỗi năm. Tình huống này đặt ra một câu hỏi: tại sao việc in thêm lượng tiền lớn không dẫn đến lạm phát tương xứng? Câu trả lời nằm ở một số điểm rất tinh tế liên quan đến việc đo lường lạm phát và Chỉ số giá tiêu dùng (CPI).
+Lời giải thích đầu tiên cho hiện tượng trên nằm ở cách lạm phát được đo lường. Chỉ số CPI, được sử dụng như chỉ báo chính cho lạm phát, có những hạn chế nhất định. Ví dụ, nó không hoàn toàn tính đến sự gia tăng giá bất động sản. Mặc dù CPI có một thành phần liên quan đến tiền thuê nhà, sự gia tăng đáng kể của giá nhà không được phản ánh đầy đủ. Do đó, sự gia tăng đáng kể trong chi phí nhà ở có thể xảy ra nhưng mà không được CPI ghi nhận đầy đủ, từ đó đánh giá thấp lạm phát thực tế.
+Ngoài ra, việc tính toán CPI bao gồm một số phương pháp có thể bù đắp hoặc che giấu sự tăng giá thực tế. Ví dụ, việc cải thiện chất lượng của sản phẩm có thể được sử dụng để điều chỉnh chỉ số. Nếu giá của một sản phẩm tăng, nhưng chất lượng hoặc tính năng của nó cũng được cải thiện, CPI có thể xem xét rằng giá trị thực sự mà người tiêu dùng nhận được không thay đổi, và do đó không phản ánh lạm phát. Một ví dụ minh họa, mặc dù giá thịt bò và máy tính đều tăng do in tiền, tuy nhiên, việc cải thiện hiệu suất của máy tính được sử dụng để bù đắp cho sự tăng giá này. Nếu một máy tính có giá gấp đôi nhưng mạnh gấp bốn lần, CPI có thể ghi nhận điều này như là một sự giảm giá đối với máy tính, do đó khi bù đắp lại, nó che giấu sự tăng giá của thịt bò.
 
-Những sắc thái trong việc đo lường lạm phát bằng CPI làm nổi bật sự phức tạp của mối quan hệ giữa việc in tiền và lạm phát. Chúng cũng gợi ý rằng lạm phát thực tế có thể cao hơn được báo cáo nếu tất cả các sự tăng giá, đặc biệt là trong các ngành chủ chốt như bất động sản, được tính toán một cách toàn diện hơn. Phân tích này nhấn mạnh tầm quan trọng của việc hiểu các cơ chế cơ bản của lạm phát và những hạn chế của các chỉ số thông thường được sử dụng để đo lường nó, nhằm hiểu rõ hơn về tác động kinh tế của các chính sách tiền tệ.
+Những cách diễn giải đa sắc thái trong việc đo lường lạm phát bằng CPI làm nổi bật sự phức tạp của mối quan hệ giữa việc in tiền và lạm phát. Chúng cũng gợi ý rằng lạm phát thực tế có thể cao hơn được báo cáo nếu tất cả những sự tăng giá, đặc biệt là trong các ngành chủ chốt như bất động sản, được tính toán một cách toàn diện hơn. Phân tích này nhấn mạnh tầm quan trọng của việc hiểu các cơ chế nền tảng của lạm phát và những hạn chế của các chỉ số thường được sử dụng để đo lường nó, nhằm hiểu rõ hơn về tác động lên nền kinh tế của các chính sách tiền tệ.
 
 #### Lập luận của MMT
 
-Lý thuyết Tiền tệ Hiện đại (MMT) đưa ra một góc nhìn khác biệt về việc tạo ra tiền và lạm phát. Theo MMT, tiền chủ yếu bắt nguồn từ chính phủ, có thể in ra số lượng lớn tiền để tài trợ cho nhu cầu của mình mà không gây ra lạm phát miễn là các ngành được nhắm đến bởi những quỹ này không bão hòa. Đây là một cách tiếp cận lệch khỏi các lý thuyết tiền tệ truyền thống và nhấn mạnh tầm quan trọng của khả năng hấp thụ của các ngành trong động lực lạm phát.
+Trường phái lý thuyết tiền tệ hiện đại - Modern Monetary Theory (MMT) đưa ra một góc nhìn khác biệt về việc tạo ra tiền và lạm phát. Theo MMT, tiền chủ yếu bắt nguồn từ chính phủ, họ có thể in ra số lượng lớn tiền để tài trợ cho nhu cầu của mình mà không gây ra lạm phát miễn là các ngành được tài trợ bằng lượng tiền này không rơi vào trạng thái bão hoà. Đây là một cách tiếp cận lệch khỏi các lý thuyết tiền tệ truyền thống và nhấn mạnh tầm quan trọng của khả năng hấp thụ của các ngành đối với động lực của lạm phát.
 
-Một ví dụ minh họa của MMT là phức hợp quân sự-công nghiệp của Mỹ. Theo MMT, hàng trăm tỷ đô la có thể được phân bổ cho ngành này mà không gây ra lạm phát, nhờ vào khả năng hấp thụ của nó. Ngược lại, nếu một lượng lớn quỹ được bơm vào xây dựng đường sá ở Hoa Kỳ, nơi có một số lượng hạn chế các công ty và lao động, lạm phát có thể xảy ra do thiếu hụt nguồn lực và chi phí tăng cao được yêu cầu bởi các nhà cung cấp.
-Nhật Bản thường được các nhà ủng hộ MMT trích dẫn là một ví dụ khác về sự vắng mặt của lạm phát bất chấp việc in tiền đáng kể. Tuy nhiên, tình hình ở Nhật Bản cũng làm nổi bật những hạn chế của các biện pháp đo lường lạm phát truyền thống như Chỉ số Giá tiêu dùng (CPI). Ở Nhật Bản, một phần lớn tiền in ra hoặc được tiết kiệm hoặc đầu tư vào bất động sản hoặc thị trường chứng khoán, thay vì chi tiêu trong nền kinh tế tiêu dùng hiện tại. CPI, bằng cách không hoàn toàn nắm bắt những động lực này, có thể đánh giá thấp lạm phát thực tế.
+Một ví dụ minh họa của MMT là phức hợp quân sự-công nghiệp của Mỹ. Theo MMT, hàng trăm tỷ đô la có thể được phân bổ cho ngành này mà không gây ra lạm phát, nhờ vào khả năng hấp thụ của nó. Ngược lại, nếu một lượng lớn tiền được bơm vào xây dựng đường sá ở Hoa Kỳ, nơi có một số lượng hạn chế các công ty và lao động, lạm phát có thể xảy ra do khan hiếm nguồn lực và chi phí tăng cao do các nhà cung cấp yêu cầu.
+Nhật Bản thường được các nhà ủng hộ MMT trích dẫn là một ví dụ khác về sự vắng mặt của lạm phát bất chấp việc in tiền đáng kể. Tuy nhiên, tình hình ở Nhật Bản cũng làm nổi bật những hạn chế của các biện pháp đo lường lạm phát truyền thống như CPI. Ở Nhật Bản, một phần lớn tiền in ra hoặc được tiết kiệm hoặc được đầu tư vào thị trường bất động sản hoặc thị trường chứng khoán, thay vì chi tiêu trong nền kinh tế tiêu dùng hiện tại. CPI, bằng cách không hoàn toàn tính đến những động lực này, có thể đánh giá thấp lạm phát thực tế.
 
 Phân tích về Nhật Bản (https://ideas.repec.org/p/ces/ceswps/_9821.html) cũng làm nổi bật rằng hành vi của các chủ thể kinh tế, như tiết kiệm hoặc đầu tư vào tài sản không được bao gồm trong CPI, có thể che giấu tác động lạm phát của việc in tiền. Hơn nữa, khả năng của các ngành khác nhau trong việc hấp thụ lượng tiền được bơm vào đóng một vai trò quan trọng trong việc liệu có xảy ra lạm phát hay không.
 
-#### Bảng cân đối kế toán của Ngân hàng và Ngân hàng Trung ương
+#### Bảng cân đối kế toán của Ngân hàng và Ngân hàng trung ương
 
-Một ví dụ thứ ba về lý do tại sao việc in tiền không gây ra lạm phát là mối quan hệ giữa việc in tiền và lạm phát được điều chỉnh bởi cách thức tiền mới được tạo ra được đưa vào nền kinh tế. Nếu số tiền này vẫn nằm trên bảng cân đối kế toán của các ngân hàng tư nhân mà không được cho vay cho các chủ thể kinh tế, nó sẽ không trực tiếp ảnh hưởng đến nền kinh tế thực và do đó, sẽ không dẫn đến lạm phát.
-Việc in tiền có thể được coi như thanh gươm của Damocles treo lơ lửng trên nền kinh tế. Số tiền được tạo ra có thể ẩn náu trong một khoảng thời gian nhất định, không gây ra bất kỳ tác động lạm phát nào một cách rõ ràng, miễn là nó không được bơm vào nền kinh tế thông qua các khoản vay ngân hàng hoặc các cơ chế khác. Tuy nhiên, khi số tiền ẩn này cuối cùng được đưa vào lưu thông, hiệu ứng lạm phát có thể bắt đầu biểu hiện. Điều này đã được quan sát trong những năm 2020, khi số tiền trước đó được tạo ra đã tìm đường vào nền kinh tế, dẫn đến lạm phát. Kịch bản này nhấn mạnh tầm quan trọng của cơ chế truyền dẫn tiền tệ trong việc xác định ảnh hưởng lạm phát của việc in tiền. Việc tạo ra tiền của ngân hàng trung ương chỉ là một phần của bức tranh. Hành vi của các ngân hàng tư nhân, những người quyết định khối lượng các khoản vay được cấp, và hành vi của người vay, những người quyết định họ sẽ chi tiêu số tiền vay như thế nào, cũng là những yếu tố quan trọng trong động thái này.
+Một ví dụ thứ ba về lý do tại sao việc in tiền không gây ra lạm phát là mối quan hệ giữa việc in tiền và lạm phát được điều chỉnh bởi cách thức lượng tiền in mới được đưa vào nền kinh tế. Nếu số tiền này vẫn nằm trên bảng cân đối kế toán của các ngân hàng tư nhân mà không được đem đi cho các chủ thể kinh tế vay, nó sẽ không trực tiếp ảnh hưởng đến nền kinh tế thực và do đó, sẽ không dẫn đến lạm phát.
+Việc in tiền có thể được coi như thanh gươm của Damocles treo lơ lửng trên nền kinh tế. Số tiền được tạo ra có thể "ẩn náu" trong một khoảng thời gian nhất định, không gây ra bất kỳ tác động lạm phát nào một cách rõ ràng, miễn là nó không được bơm vào nền kinh tế thực thông qua các khoản ngân hàng hoặc các cơ chế khác. Tuy nhiên, khi số tiền "tiềm ẩn" này cuối cùng sẽ được đưa vào lưu thông, hiệu ứng lạm phát có thể bắt đầu xảy ra. Điều này đã được quan sát trong những năm 2020, khi số tiền trước đó được tạo ra đã tìm đường chạy vào nền kinh tế, dẫn đến lạm phát. Kịch bản này nhấn mạnh tầm quan trọng của cơ chế truyền dẫn tiền tệ trong việc xác định ảnh hưởng tới lạm phát của việc in tiền. Việc tạo ra tiền của ngân hàng trung ương chỉ là một phần của bức tranh. Hành vi của các ngân hàng tư nhân, những người quyết định khối lượng các khoản vay được cấp, và hành vi của người vay, những người quyết định họ sẽ chi tiêu số tiền vay như thế nào, cũng là những yếu tố quan trọng trong động lực gây ra lạm phát.
 
-#### Lạm phát là xã hội!
+#### Lạm phát có tính chất xã hội!
 
-Ví dụ về Cộng hòa Weimar minh họa một khía cạnh quan trọng khác của mối quan hệ giữa việc in tiền và lạm phát: vai trò của kỳ vọng và hành vi của các chủ thể kinh tế. Khi Ngân hàng Trung ương Cộng hòa Weimar bắt đầu in một lượng lớn tiền, sự không chắc chắn kinh tế đã dẫn đến việc cá nhân tích trữ, tức là, giữ tiền thay vì chi tiêu. Phản ứng này tạm thời trì hoãn hiệu ứng lạm phát của việc in tiền.
+Ví dụ về Cộng hòa Weimar minh họa một khía cạnh quan trọng khác trong mối quan hệ giữa việc in tiền và lạm phát: vai trò của kỳ vọng và hành vi của các chủ thể kinh tế. Khi Ngân hàng trung ương Cộng hòa Weimar bắt đầu in một lượng lớn tiền, sự không chắc chắn về kinh tế đã dẫn đến việc cá nhân tích trữ, tức là, giữ tiền thay vì chi tiêu. Phản ứng này của xã hội tạm thời trì hoãn hiệu ứng lạm phát của việc in tiền.
 
 ![image](assets/chapitre-2.2/6.webp)
 
-Tuy nhiên, khi tình hình kinh tế bắt đầu cải thiện một chút, lòng tin dần được phục hồi. Cá nhân sau đó rút tiền tiết kiệm của họ từ nơi ẩn náu và bắt đầu chi tiêu mạnh mẽ trong nền kinh tế. Sự thay đổi đột ngột trong hành vi, kết hợp với nguồn tiền đã cao, đã dẫn đến một sự bùng nổ trong nhu cầu. Với nhiều tiền hơn lưu thông và nhu cầu tăng lên, giá cả bắt đầu tăng nhanh chóng, dẫn đến lạm phát đáng chú ý.
+Tuy nhiên, khi tình hình kinh tế bắt đầu cải thiện một chút, lòng tin dần được phục hồi. Các cá nhân sau đó rút tiền tiết kiệm của họ từ nơi ẩn náu và bắt đầu chi tiêu mạnh mẽ trong nền kinh tế. Sự thay đổi đột ngột trong hành vi, kết hợp với nguồn cung tiền đang ở mức cao sẵn, đã dẫn đến một sự bùng nổ trong nhu cầu. Với nhiều tiền hơn lưu thông và nhu cầu tăng lên, giá cả bắt đầu tăng nhanh chóng, dẫn đến lạm phát đáng chú ý.
 
-Ví dụ này nhấn mạnh tầm quan trọng của thời điểm và hành vi của các chủ thể trong việc biểu hiện của lạm phát. Lạm phát không chỉ xảy ra đáp ứng với sự tăng lên của nguồn tiền, mà còn tùy thuộc vào cách và thời điểm số tiền đó được chi tiêu trong nền kinh tế. Sự không chắc chắn kinh tế và kỳ vọng của các chủ thể kinh tế đóng một vai trò quan trọng trong động thái này và có thể tăng tốc hoặc trì hoãn hiệu ứng lạm phát của việc in tiền.
+Ví dụ này nhấn mạnh tầm quan trọng của thời điểm và hành vi của các chủ thể trong việc thể hiện ra ngoài của lạm phát. Lạm phát không chỉ xảy ra để phản ứng với sự tăng lên của nguồn cung tiền, mà còn tùy thuộc vào cách và thời điểm số tiền đó được chi tiêu trong nền kinh tế. Sự không chắc chắn về kinh tế và kỳ vọng của các chủ thể kinh tế đóng một vai trò quan trọng trong động thái này và có thể tăng tốc hoặc trì hoãn hiệu ứng gây ra lạm phát của việc in tiền.
 
 #### Tóm tắt:
 
-- Chỉ số Giá Tiêu Dùng (CPI): CPI được cấu trúc theo cách mà nó đánh giá thấp lạm phát, có thể đưa ra một bức tranh méo mó về thực tế lạm phát.
+- Chỉ số giá tiêu dùng (CPI): CPI được cấu trúc theo cách mà nó đánh giá thấp lạm phát, có thể đưa ra một bức tranh méo mó về lạm phát thực tế.
 
-- Hấp thụ Ngành: Việc bơm tiền vào các ngành có khả năng hấp thụ nó không luôn dẫn đến lạm phát. Ví dụ chính là phức hợp quân sự-công nghiệp của Mỹ, có thể hấp thụ một lượng lớn tiền mà không gây ra lạm phát.
+- Khả năng hấp thụ lạm phát của các ngành: Việc bơm tiền vào các ngành có khả năng hấp thụ tốt sẽ không luôn dẫn đến lạm phát. Ví dụ như phức hợp quân sự-công nghiệp của Mỹ, có thể hấp thụ một lượng lớn tiền mà không gây ra lạm phát.
 
-- Trường hợp của Nhật Bản: Mặc dù in tiền đáng kể, lạm phát vẫn thấp ở Nhật Bản vì các quỹ thường được tiết kiệm hoặc đầu tư vào bất động sản hoặc thị trường chứng khoán. Những ngành này hấp thụ số tiền in ra, và CPI không nhất thiết phản ánh sự tăng giá trong những lĩnh vực này.
-- Mối quan hệ giữa Việc In Tiền và Thị Trường: Được quan sát thấy rằng các đường cong của thị trường bất động sản và chứng khoán thường theo sau việc in tiền, chỉ ra nơi tiền in được hướng đến.
-- Dự trữ Tiền tệ của Ngân hàng: Khi tiền in ở lại trên bảng cân đối kế toán của ngân hàng và không lưu thông trong nền kinh tế, nó không gây ra lạm phát. Điều này được minh họa bởi ví dụ năm 2008, nơi tiền in chủ yếu ở lại trên bảng cân đối kế toán của ngân hàng, trì hoãn tác động lạm phát.
+- Trường hợp của Nhật Bản: Mặc dù in một lượng tiền đáng kể, lạm phát vẫn thấp ở Nhật Bản vì tiền mới thường được tiết kiệm hoặc đầu tư vào bất động sản hay thị trường chứng khoán. Những ngành này hấp thụ số tiền in ra, và CPI không nhất thiết phản ánh sự tăng giá trong những lĩnh vực này.
+- Mối quan hệ giữa việc in tiền và các thị trường: Quan sát chỉ ra rằng các đường cong của thị trường bất động sản và chứng khoán thường theo sau việc in tiền, chỉ ra nơi tiền in mới được hướng đến.
+- Dự trữ tiền tệ của ngân hàng: Khi tiền in ở lại trên bảng cân đối kế toán của ngân hàng và không lưu thông trong nền kinh tế, nó không gây ra lạm phát. Điều này được minh họa bởi ví dụ năm 2008, nơi tiền mới in ra chủ yếu được giữ lại trên bảng cân đối kế toán của ngân hàng, trì hoãn ảnh hướng lạm phát của chúng.
 
-- Cộng hòa Weimar: Giai đoạn lịch sử này cho thấy làm thế nào sự không chắc chắn kinh tế dẫn đến việc tích trữ tiền, trì hoãn lạm phát. Tuy nhiên, một khi lòng tin được phục hồi và tiền được chi tiêu, lạm phát đã bùng nổ.
+- Cộng hòa Weimar: Giai đoạn lịch sử này cho thấy làm thế nào mà sự không chắc chắn về kinh tế dẫn đến việc tích trữ tiền, trì hoãn lạm phát. Tuy nhiên, một khi lòng tin được phục hồi và tiền được chi tiêu, lạm phát đã bùng nổ.
 
-Những ví dụ này có thể được sử dụng trong các cuộc thảo luận để giải thích tại sao lạm phát không phải lúc nào cũng là hậu quả tức thì của việc in tiền, và làm thế nào các bối cảnh kinh tế và hành vi của các chủ thể ảnh hưởng đến lạm phát.
+Những ví dụ này có thể được sử dụng trong các cuộc thảo luận để giải thích tại sao lạm phát không phải lúc nào cũng là hậu quả tức thì của việc in tiền, và cách mà các bối cảnh kinh tế và hành vi của các chủ thể trong xã hội ảnh hưởng đến lạm phát.
 
 ![image](assets/chapitre-2.2/0.5.webp)
-Bởi vì, như [chuỗi tweet này](https://twitter.com/saifedean/status/1673639779433590786) cho thấy: Lạm phát là mọi thứ trừ lỗi của các ngân hàng trung ương.
-- Các nhà kinh tế đổ lỗi cho lạm phát lên biến đổi khí hậu
+Bởi vì, như [chuỗi tweet này](https://twitter.com/saifedean/status/1673639779433590786) cho thấy: Lạm phát là mọi thứ, những ngoại trừ lỗi của các ngân hàng trung ương.
+- Các nhà kinh tế đổ lỗi gây ra lạm phát cho biến đổi khí hậu
 
 ![hình ảnh](assets/chapitre-2.2/8.webp)
 
@@ -304,11 +304,11 @@ Bởi vì, như [chuỗi tweet này](https://twitter.com/saifedean/status/167363
 
 ![hình ảnh](assets/chapitre-2.2/0.webp)
 
-- Ngân hàng trung ương ở Ba Lan quy lạm phát cho sự xâm lược của Nga vào Ukraine và đại dịch
+- Ngân hàng trung ương ở Ba Lan kết tội cuộc xâm lược của Nga vào Ukraine và đại dịch đã gây ra lạm phát
 
 ![hình ảnh](assets/chapitre-2.2/7.webp)
 
-- Brexit bị đổ lỗi cho lạm phát ở Vương quốc Anh.
+- Brexit bị đổ lỗi là nguyên nhân gây ra lạm phát ở Vương quốc Anh.
 
 ![hình ảnh](assets/chapitre-2.2/9.webp)
 
@@ -324,55 +324,55 @@ Làm sao Beyoncé hoặc Taylor Swift, bạn nói cho tôi, giải thích đư�
 
 ![hình ảnh](assets/chapitre-2.2/14.webp)
 
-### Khám phá các loại lạm phát
+### Khám phá các dạng lạm phát
 
-Việc hiểu biệt sự khác biệt giữa các loại lạm phát là rất quan trọng, một sự hiểu biết cho phép chúng ta nắm bắt được các biểu hiện đa dạng của hiện tượng kinh tế này. Dưới đây là giải thích về các loại khác nhau:
+Hiểu biết về sự khác biệt giữa các dạng lạm phát là rất quan trọng, điều đó cho phép chúng ta nắm bắt được các biểu hiện đa dạng của hiện tượng kinh tế này. Dưới đây là giải thích về các dạng lạm phát khác nhau:
 
-- Lạm phát bò: Đây là loại lạm phát mà các ngân hàng trung ương thường nhắm tới, được đặt ở mức khoảng 2% hàng năm. Mục tiêu này đã được áp dụng từ những năm 1990 và nhằm duy trì sự tăng trưởng kinh tế ổn định mà không gây ra tình trạng quá nóng hoặc giảm phát.
-- Lạm phát vừa phải: Dạng lạm phát này xảy ra khi lạm phát vượt quá mục tiêu 2%. Nó thường liên quan đến một nền kinh tế quá nóng, một trạng thái mà nguồn cung tiền tệ quá mức kích thích một sự tăng giá chung. Kịch bản này phơi bày giới hạn của các chính sách tiền tệ và đôi khi tiết lộ những mâu thuẫn trong luận điệu kinh tế.
-- Lạm phát phi mã: Lạm phát phi mã, thường được gọi là lạm phát hai chữ số, xảy ra khi tỷ lệ lạm phát hàng năm vượt quá 10%. Nó đánh dấu một sự tăng giá đáng kể có thể làm ảnh hưởng đến sự ổn định kinh tế.
+- Lạm phát thấp - Creeping Inflation: Đây là loại lạm phát mà các ngân hàng trung ương thường nhắm tới, được đặt ở mức khoảng 2% mỗi năm. Mục tiêu này đã được áp dụng từ những năm 1990 và nhằm duy trì sự tăng trưởng kinh tế ổn định, không quá nóng hoặc giảm phát.
+- Lạm phát vừa phải - Moderate Inflation: Dạng lạm phát này xảy ra khi lạm phát vượt quá mục tiêu 2%. Nó thường xảy ra ở một nền kinh tế phát triển quá nóng, một trạng thái mà nguồn cung tiền tệ quá mức kích thích một sự tăng giá chung. Kịch bản này phơi bày giới hạn của các chính sách tiền tệ và đôi khi tiết lộ những mâu thuẫn trong lý thuyết về kinh tế học.
+- Lạm phát phi mã - Galloping Inflation: Lạm phát phi mã, thường được gọi là lạm phát hai chữ số, xảy ra khi tỷ lệ lạm phát hàng năm vượt quá 10%. Nó thể hiện một sự tăng giá đáng kể và có thể làm ảnh hưởng đến sự ổn định kinh tế.
 
-- Siêu lạm phát: Siêu lạm phát là một hiện tượng cực đoan khi tỷ lệ lạm phát vượt quá 50% mỗi tháng, điều này, do bản chất mũ của lạm phát, tương đương với tỷ lệ lạm phát hàng năm hơn 13,000%. Mức lạm phát này làm cho nền kinh tế cực kỳ bất ổn, làm cho tiền tệ gần như mất giá trị và gây mất lòng tin vào hệ thống tiền tệ.
+- Siêu lạm phát: Siêu lạm phát là một hiện tượng cực đoan khi tỷ lệ lạm phát vượt quá 50% mỗi tháng, điều này, do bản chất luỹ thừa của lạm phát, tương đương với tỷ lệ lạm phát hàng năm hơn 13,000%. Mức lạm phát này làm cho nền kinh tế cực kỳ bất ổn, tiền tệ gần như mất giá trị và gây mất lòng tin vào hệ thống tiền tệ.
 
 ![hình ảnh](assets/chapitre-2.2/17.webp)
 
-Khi khám phá các loại lạm phát, thường gặp các thuật ngữ như "Demand Pull" và "Cost Push" trong các tài liệu giáo dục. Những khái niệm này, mặc dù hợp lệ, thường giải thích sự tăng giá hơn là lạm phát như một hiện tượng tiền tệ. Dưới đây là một phân tích sâu hơn:
+Khi khám phá các dạng lạm phát, chúng thường gặp các thuật ngữ như "Cầu kéo - Demand Pull" và "Chi phí đẩy - Cost Push" trong các quyển sách giáo khoa. Những khái niệm này, mặc dù hợp lệ, thường giải thích về sự tăng giá hơn là về lạm phát như một hiện tượng tiền tệ. Dưới đây là một phân tích sâu hơn:
 
-- Demand Pull:
-  Lạm phát Demand Pull thường được giải thích là tình huống nơi nhu cầu trong nền kinh tế vượt quá sản lượng có sẵn. Tuy nhiên, nếu không có sự tăng tương ứng trong nguồn cung tiền tệ, tình huống này chỉ đơn giản dẫn đến việc phân bổ lại chi tiêu. Người tiêu dùng có thể chi tiêu nhiều hơn vào hàng hóa thiết yếu và ít hơn vào các mặt hàng khác, do đó trung hòa tác động lạm phát tổng thể.
+- Cầu kéo - Demand Pull:
+  Lạm phát do cầu kéo thường được giải thích là tình huống nơi nhu cầu trong nền kinh tế vượt quá sản lượng có sẵn. Tuy nhiên, nếu không có sự gia tăng tương ứng trong nguồn cung tiền, tình huống này chỉ đơn giản dẫn đến việc phân bổ lại chi tiêu. Người tiêu dùng có thể chi tiêu nhiều hơn vào hàng hóa thiết yếu và ít hơn vào các mặt hàng khác, do đó trung hòa tác động của lạm phát trên tổng thể.
 
-- Cost Push:
-  Ngược lại, lạm phát Cost Push được quy cho sự tăng chi phí sản xuất, như chi phí nguồn tài nguyên tự nhiên hoặc lao động. Một lần nữa, nếu không có sự tăng trong nguồn cung tiền tệ, sự tăng chi phí trong một lĩnh vực có thể chỉ đơn giản làm giảm chi tiêu ở các lĩnh vực khác, mà không gây ra lạm phát rộng rãi.
-Những giải thích truyền thống thường liên kết sự tăng giá với lạm phát, điều này có thể gây nhầm lẫn. Trên thực tế, để lạm phát diễn ra trên diện rộng, sự tăng lượng tiền tệ là cần thiết. Trong bối cảnh này, các khái niệm về Demand Pull và Cost Push có thể giải thích sự biến động giá cả theo ngành, nhưng chúng không nắm bắt được bản chất tiền tệ của lạm phát. Điều này nhấn mạnh tầm quan trọng của việc phân biệt giữa sự tăng giá cả theo ngành và lạm phát trên diện rộng, và tái khẳng định nhu cầu tăng lượng tiền tệ để lạm phát biểu hiện khắp nền kinh tế. Phân tích này cung cấp một cái nhìn tinh tế và chính xác hơn về nguyên nhân thực sự của lạm phát và làm sáng tỏ các giải thích phổ biến có thể che giấu các động lực tiền tệ cơ bản.
+- Chi phí đẩy - Cost Push:
+  Ngược lại, lạm phát do chi phí đẩy được quy cho sự tăng chi phí sản xuất, như chi phí nguồn tài nguyên tự nhiên hoặc lao động. Một lần nữa, nếu không có sự gia tăng trong nguồn cung tiền, sự gia tăng chi phí trong một lĩnh vực có thể chỉ đơn giản làm giảm chi tiêu ở các lĩnh vực khác, mà không gây ra lạm phát rộng rãi.
+Những giải thích truyền thống thường liên kết sự tăng giá với lạm phát, điều này có thể gây nhầm lẫn. Trên thực tế, để lạm phát diễn ra trên diện rộng, sự gia tăng lượng cung tiền trong lưu thông là cần thiết. Trong bối cảnh này, các khái niệm về cầu kéo và chi phí đẩy có thể giải thích sự biến động giá cả theo ngành, nhưng chúng không nắm bắt được trọn vẹn bản chất yếu tố tiền tệ của lạm phát. Điều này nhấn mạnh tầm quan trọng của việc phân biệt giữa sự tăng giá cả theo ngành và lạm phát trên diện rộng, và tái khẳng định rằng cần có sự gia tăng lượng cung tiền để lạm phát biểu hiện rộng khắp trong toàn bộ nền kinh tế. Phân tích này cung cấp một cái nhìn tinh tế và chính xác hơn về nguyên nhân thực sự của lạm phát và làm sáng tỏ rằng các diễn giải thông thường có thể đã che giấu các động lực tiền tệ nền tảng của hiện tượng lạm phát.
 
-### Phân loại Lạm phát theo Bernholz
+### Phân loại lạm phát theo Bernholz
 
 Bernholz đề xuất một phân loại đơn giản nhưng chính xác của lạm phát thành ba loại, cho phép hiểu rõ hơn về hiện tượng tiền tệ phức tạp này:
 
 ![image](assets/chapitre-2.2/16.webp)
 
 - Lạm phát Ôn hòa:
-  Lạm phát ôn hòa xảy ra khi lượng tiền tệ cao hơn bình thường, nhưng không có sự can thiệp của nhà nước thông qua việc tài trợ cho các khoản thâm hụt lớn bằng cách in tiền. Mặc dù thuật ngữ "ôn hòa" có vẻ không đáng kể, dạng lạm phát này có thể gây ra những vấn đề đáng kể, mặc dù nó không được phân loại là lạm phát cao.
+  Lạm phát ôn hòa xảy ra khi lượng tiền tệ cao hơn bình thường, nhưng không có sự can thiệp của nhà nước thông qua việc tài trợ cho các khoản thâm hụt lớn bằng cách in tiền. Mặc dù thuật ngữ "ôn hòa" có vẻ không đáng kể, dạng lạm phát này có thể gây ra những vấn đề đáng kể, mặc dù nó không được phân loại là siêu lạm phát.
 
-- Lạm phát Cao:
-  Lạm phát cao xảy ra khi giá trị thực của lượng tiền tệ giảm mặc dù có sự tăng trong các thuật ngữ danh nghĩa. Tình huống nghịch lý này xuất phát từ sự thay thế tiền tệ, nơi mà cá nhân mất niềm tin vào đồng tiền quốc gia và tìm cách đổi chúng lấy hàng hóa, dịch vụ, hoặc ngoại tệ. Quá trình này làm giảm thêm giá trị thực của đồng tiền, làm trầm trọng thêm lạm phát.
+- siêu lạm phát:
+  siêu lạm phát xảy ra khi giá trị thực của lượng tiền tệ giảm mặc dù có sự tăng trong các thuật ngữ danh nghĩa. Tình huống nghịch lý này xuất phát từ sự thay thế tiền tệ, nơi mà cá nhân mất niềm tin vào đồng tiền quốc gia và tìm cách đổi chúng lấy hàng hóa, dịch vụ, hoặc ngoại tệ. Quá trình này làm giảm thêm giá trị thực của đồng tiền, làm trầm trọng thêm lạm phát.
 
 - Siêu lạm phát:
-  Siêu lạm phát là sự mở rộng của lạm phát cao, được đặc trưng bởi các khoản thâm hụt ngân sách lớn được tài trợ bằng việc in tiền. Lịch sử chưa từng chứng kiến trường hợp siêu lạm phát nào mà không có sự tài trợ thâm hụt đáng kể thông qua việc in tiền. Siêu lạm phát tạo ra một vòng luẩn quẩn: lạm phát làm giảm giá trị của đồng tiền nhanh chóng đến mức thuế thu nhập giảm giá trị trước khi nhà nước kịp thu thuế, do đó buộc nhà nước phải in thêm tiền để tự tài trợ. Chu kỳ tự củng cố này dẫn đến các tỷ lệ lạm phát chóng mặt, thường vượt quá 50% mỗi tháng.
+  Siêu lạm phát là sự mở rộng của siêu lạm phát, được đặc trưng bởi các khoản thâm hụt ngân sách lớn được tài trợ bằng việc in tiền. Lịch sử chưa từng chứng kiến trường hợp siêu lạm phát nào mà không có sự tài trợ thâm hụt đáng kể thông qua việc in tiền. Siêu lạm phát tạo ra một vòng luẩn quẩn: lạm phát làm giảm giá trị của đồng tiền nhanh chóng đến mức thuế thu nhập giảm giá trị trước khi nhà nước kịp thu thuế, do đó buộc nhà nước phải in thêm tiền để tự tài trợ. Chu kỳ tự củng cố này dẫn đến các tỷ lệ lạm phát chóng mặt, thường vượt quá 50% mỗi tháng.
   Phân loại của Bernholz nhấn mạnh sự tiến triển nguy hiểm từ lạm phát ôn hòa đến siêu lạm phát, nhấn mạnh tầm quan trọng quan trọng của việc kiểm soát tiền tệ và ngân sách trong việc ngăn chặn các vòng xoáy lạm phát phá hủy. Nó cũng cho thấy rằng các hậu quả có hại đối với tài chính nhà nước có thể xảy ra trước khi đạt đến giai đoạn siêu lạm phát, cung cấp một cái nhìn tinh tế về hậu quả của lạm phát ở các mức độ khác nhau.
 
 ### Kết luận: Tóm tắt các Loại Lạm phát
 
-Kết luận, chúng ta đã khám phá một loạt các loại lạm phát, bắt đầu với các thuật ngữ thường nghe như "lạm phát bò", "lạm phát đi bộ", và "lạm phát phi nước đại", mỗi thuật ngữ đề cập đến các mức độ phần trăm lạm phát khác nhau trong một nền kinh tế. Tuy nhiên, đối với nghiên cứu sâu rộng của chúng tôi về siêu lạm phát, các loại lạm phát ôn hòa, lạm phát cao, và siêu lạm phát, như được mô tả bởi Bernholz, chứng tỏ là những tiêu chuẩn quan trọng.
+Kết luận, chúng ta đã khám phá một loạt các loại lạm phát, bắt đầu với các thuật ngữ thường nghe như "lạm phát bò", "lạm phát đi bộ", và "lạm phát phi nước đại", mỗi thuật ngữ đề cập đến các mức độ phần trăm lạm phát khác nhau trong một nền kinh tế. Tuy nhiên, đối với nghiên cứu sâu rộng của chúng tôi về siêu lạm phát, các loại lạm phát ôn hòa, siêu lạm phát, và siêu lạm phát, như được mô tả bởi Bernholz, chứng tỏ là những tiêu chuẩn quan trọng.
 
 - Lạm phát Ôn hòa:
   Nó chỉ ra một mức lượng tiền tệ cao hơn bình thường, mặc dù mức này có thể được duy trì mà không cần tài trợ thâm hụt đáng kể từ phía nhà nước.
 
-- Lạm phát Cao:
+- siêu lạm phát:
   Nó xảy ra khi giá trị thực của lượng tiền tệ giảm, thường do sự thay thế tiền tệ, nơi mà cá nhân tìm cách đổi đồng tiền của họ lấy hàng hóa, dịch vụ, hoặc các đồng tiền khác.
 
 - Siêu lạm phát:
-  Nó đại diện cho phiên bản cực đoan của lạm phát cao, nơi mà việc tạo ra tiền tệ quá mức để tài trợ cho các khoản thâm hụt ngân sách lớn dẫn đến sự suy giảm nhanh chóng của giá trị thực của đồng tiền.
+  Nó đại diện cho phiên bản cực đoan của siêu lạm phát, nơi mà việc tạo ra tiền tệ quá mức để tài trợ cho các khoản thâm hụt ngân sách lớn dẫn đến sự suy giảm nhanh chóng của giá trị thực của đồng tiền.
 Từ những gì chúng ta khám phá, lạm phát cực kỳ cao là một hiện tượng phức tạp và trái ngược với trực giác. Mặc dù có thể cho rằng lạm phát cực kỳ cao là kết quả của việc tăng lượng tiền lưu thông một cách đáng kể, nhưng trên thực tế, nó bắt nguồn từ việc giảm giá trị thực của lượng tiền lưu thông đó. Sự tinh tế này rất quan trọng để hiểu tại sao một số quốc gia gặp khó khăn trong việc thoát khỏi lạm phát cực kỳ cao, ngay cả với sự hỗ trợ của các tổ chức quốc tế như Ngân hàng Thế giới hoặc Quỹ Tiền tệ Quốc tế. Việc hiểu lầm về loại lạm phát có thể dẫn đến việc áp dụng các biện pháp khắc phục không phù hợp, làm trầm trọng thêm các vấn đề kinh tế thay vì giải quyết chúng.
 
 Trong các cuộc thảo luận tương lai của chúng tôi, chúng tôi sẽ đi sâu hơn vào lạm phát cực kỳ cao, khám phá các định nghĩa và biểu hiện của nó trong các bối cảnh kinh tế khác nhau. Mục tiêu của chúng tôi sẽ là khám phá các cơ chế cơ bản của lạm phát cực kỳ cao và tìm kiếm các giải pháp tiềm năng để giải quyết nó. Sự hiểu biết tinh tế này sẽ giúp chúng tôi nắm bắt tốt hơn các thách thức liên quan và đề xuất các chiến lược quản lý lạm phát có thông tin.
@@ -417,7 +417,7 @@ Philip Cagan có thể đã đặt một cột mốc tùy ý với ngưỡng l�
 
 - Phê bình về Định nghĩa của Cagan:
   Các nhà kinh tế khác, như Bernholz, tác giả của "Monetary Regime and Inflation", cũng mô tả ngưỡng 50% là tùy tiện.
-  Bernholz lưu ý rằng có các trường hợp lạm phát cao với các đặc điểm chất lượng giống như các trường hợp lạm phát cực đoan, mà không đạt ngưỡng 50%.
+  Bernholz lưu ý rằng có các trường hợp siêu lạm phát với các đặc điểm chất lượng giống như các trường hợp lạm phát cực đoan, mà không đạt ngưỡng 50%.
 
 ![image](assets/chapitre-3.1/3.webp)
 
@@ -435,7 +435,7 @@ Các định nghĩa phổ biến về lạm phát cực đoan, như định ngh�
 - Bộ sưu tập tiền giấy cá nhân từ 36 giai đoạn lạm phát cực đoan của David, cho phép hiểu biết cụ thể và lịch sử.
 - Bảng Hanky Cross (phiên bản 2012, cập nhật năm 2016 với Venezuela), liệt kê 57 giai đoạn lạm phát cực đoan dựa trên định nghĩa của Kagan.
 
-Cần lưu ý rằng một số giai đoạn lịch sử của lạm phát cao không được bao gồm trong các bảng lạm phát cực đoan cổ điển, thường do tiêu chí phân loại nghiêm ngặt. Ví dụ, trong Chiến tranh Độc lập của Mỹ vào tháng 11 năm 1779, và trong Nội chiến Mỹ vào tháng 3 năm 1864, tỷ lệ lạm phát hàng tháng lần lượt là 47.4% và 40%. Những tỷ lệ này, mặc dù cao, không vượt qua ngưỡng 50% do Kagan đề ra, do đó loại trừ những giai đoạn này khỏi việc được phân loại là các trường hợp lạm phát cực đoan. Sự bỏ sót này minh họa những hạn chế của định nghĩa cứng nhắc và nêu bật nhu cầu cho một cách tiếp cận tinh tế hơn trong việc hiểu lạm phát cực đoan trong tất cả sự phức tạp của nó.
+Cần lưu ý rằng một số giai đoạn lịch sử của siêu lạm phát không được bao gồm trong các bảng lạm phát cực đoan cổ điển, thường do tiêu chí phân loại nghiêm ngặt. Ví dụ, trong Chiến tranh Độc lập của Mỹ vào tháng 11 năm 1779, và trong Nội chiến Mỹ vào tháng 3 năm 1864, tỷ lệ lạm phát hàng tháng lần lượt là 47.4% và 40%. Những tỷ lệ này, mặc dù cao, không vượt qua ngưỡng 50% do Kagan đề ra, do đó loại trừ những giai đoạn này khỏi việc được phân loại là các trường hợp lạm phát cực đoan. Sự bỏ sót này minh họa những hạn chế của định nghĩa cứng nhắc và nêu bật nhu cầu cho một cách tiếp cận tinh tế hơn trong việc hiểu lạm phát cực đoan trong tất cả sự phức tạp của nó.
 
 ## So sánh giữa Weimar và Zimbabwe
 <chapterId>11eef458-aab8-5c63-8523-264d0ba69f5d</chapterId>
@@ -563,11 +563,11 @@ Zimbabwe: "Mỗi cư dân ở Zimbabwe đều là tội phạm. Dù nghe có v�
 
 ![image](assets/chapitre-3.2/2.webp)
 
-Khi phân tích quỹ đạo kinh tế, rõ ràng là khi lạm phát cao được đạt tới, giá trị của khối lượng tiền tệ bị suy giảm. Sự mất giá này dẫn đến nhiều biến chứng, bao gồm cả tình trạng thiếu hụt tiền mặt. Trong bối cảnh này, cơ hội đầu cơ xuất hiện, đặc biệt là với sự biến động của tỷ giá hối đoái. Kết quả là, nhiều cá nhân chuyển hướng sang đầu cơ này, đầu tư mạnh vào tài sản hữu hình với hy vọng về một sự mất giá tiền tệ trong tương lai sẽ cho phép họ trả nợ bằng một đồng tiền yếu hơn. Môi trường kinh tế này làm giảm sức hấp dẫn của các công việc truyền thống và do đó, làm suy yếu sự gắn kết xã hội.
+Khi phân tích quỹ đạo kinh tế, rõ ràng là khi siêu lạm phát được đạt tới, giá trị của khối lượng tiền tệ bị suy giảm. Sự mất giá này dẫn đến nhiều biến chứng, bao gồm cả tình trạng thiếu hụt tiền mặt. Trong bối cảnh này, cơ hội đầu cơ xuất hiện, đặc biệt là với sự biến động của tỷ giá hối đoái. Kết quả là, nhiều cá nhân chuyển hướng sang đầu cơ này, đầu tư mạnh vào tài sản hữu hình với hy vọng về một sự mất giá tiền tệ trong tương lai sẽ cho phép họ trả nợ bằng một đồng tiền yếu hơn. Môi trường kinh tế này làm giảm sức hấp dẫn của các công việc truyền thống và do đó, làm suy yếu sự gắn kết xã hội.
 
 Để đối phó với tình hình này, chính phủ áp đặt các quy định nghiêm ngặt, bao gồm kiểm soát vốn. Nó cũng yêu cầu các thương nhân chấp nhận tiền tệ quốc gia và séc. Theo thời gian, các luật mới được ban hành, mở rộng định nghĩa về hành vi phạm tội. Cuối cùng, tỷ giá tăng vọt khi chính phủ sẵn lòng trao đổi tiền tệ của mình, được in với chi phí thấp hơn, để đổi lấy ngoại tệ mạnh mẽ hơn.
 
-### 4 Điểm tương đồng trong hậu quả của lạm phát cao
+### 4 Điểm tương đồng trong hậu quả của siêu lạm phát
 
 ![image](assets/chapitre-3.2/6.webp)
 
@@ -587,34 +587,34 @@ Zimbabwe: "Chúng tôi giờ đây sử dụng những phiếu giảm giá này 
 
 #### Kết luận
 
-Điều này kết thúc video này về những điểm tương đồng trong các giai đoạn lạm phát cao ở Zimbabwe và Cộng hòa Weimar. Trong video tiếp theo, chúng ta sẽ thảo luận về những điểm khác biệt và các song song đương đại. Cảm ơn bạn.
+Điều này kết thúc video này về những điểm tương đồng trong các giai đoạn siêu lạm phát ở Zimbabwe và Cộng hòa Weimar. Trong video tiếp theo, chúng ta sẽ thảo luận về những điểm khác biệt và các song song đương đại. Cảm ơn bạn.
 
 ## Weimar vs Zimbabwe: Những Điểm Khác Biệt và Song Song Đương Đại
 <chapterId>643f279c-d89f-5600-a2e2-b1bbbba0ab69</chapterId>
 
 Bản ghi:
 
-Trong chương này, chúng ta sẽ khám phá những điểm khác biệt và song song đương đại giữa các giai đoạn lạm phát cao trong quá khứ và hiện tại, với những giai thoại và so sánh liên quan cho ngày nay.
+Trong chương này, chúng ta sẽ khám phá những điểm khác biệt và song song đương đại giữa các giai đoạn siêu lạm phát trong quá khứ và hiện tại, với những giai thoại và so sánh liên quan cho ngày nay.
 
 ### Những Điểm Khác Biệt giữa Cộng hòa Weimar và Zimbabwe
 
 1. Lỗi của đô la!
 
-Ở Đức, người dân thường quy lỗi cho sự lạm phát là do sự tăng giá của đô la chứ không phải do sự mất giá nội tại của đồng tiền của họ. Nhiều người tin rằng hiện tượng quan sát được là do sự đánh giá cao của đô la. Quan điểm này không nhận ra mối liên kết giữa khó khăn kinh tế của họ và sự mất giá tiền tệ, chủ yếu do việc tạo ra quá nhiều tiền. Cuốn sách "Khi Tiền Tệ Chết" minh họa rõ ràng sự thiếu hiểu biết này trong số dân chúng Đức. Ngược lại, tại Zimbabwe, tình hình khác biệt: công dân hoàn toàn nhận thức được nguyên nhân cơ bản của lạm phát cao mà họ đang trải qua.
+Ở Đức, người dân thường quy lỗi cho sự lạm phát là do sự tăng giá của đô la chứ không phải do sự mất giá nội tại của đồng tiền của họ. Nhiều người tin rằng hiện tượng quan sát được là do sự đánh giá cao của đô la. Quan điểm này không nhận ra mối liên kết giữa khó khăn kinh tế của họ và sự mất giá tiền tệ, chủ yếu do việc tạo ra quá nhiều tiền. Cuốn sách "Khi Tiền Tệ Chết" minh họa rõ ràng sự thiếu hiểu biết này trong số dân chúng Đức. Ngược lại, tại Zimbabwe, tình hình khác biệt: công dân hoàn toàn nhận thức được nguyên nhân cơ bản của siêu lạm phát mà họ đang trải qua.
 
 ![image](assets/chapitre-3.3/3.webp)
 
 2. Tiền tệ khẩn cấp (Notgeld)
 
 Đối mặt với khủng hoảng tiền tệ và kinh tế, Đức đã sử dụng "Notgeld" (tiền khẩn cấp). Những tờ tiền này, được in bởi các thành phố hoặc một số công ty, được thiết kế để giải quyết tình trạng thiếu hụt tiền tệ thông thường.
-Thú vị là, Pháp cũng đã sử dụng Notgeld, đặc biệt là vào những năm 1920. Sáng kiến này không chỉ là hậu quả trực tiếp của lạm phát cao mà còn có nguồn gốc từ những gián đoạn do Thế chiến I gây ra. Cuộc chiến không chỉ làm mất ổn định nền kinh tế mà còn làm tăng chi phí của kim loại. Kết quả là, giá trị nội tại của đồng tiền kim loại thường vượt quá giá trị mệnh giá, khiến mọi người tích trữ chúng. Trong tình trạng thiếu hụt đồng xu, một số tổ chức, như Phòng Thương mại Lyon, đã in ra Notgeld của riêng mình.
+Thú vị là, Pháp cũng đã sử dụng Notgeld, đặc biệt là vào những năm 1920. Sáng kiến này không chỉ là hậu quả trực tiếp của siêu lạm phát mà còn có nguồn gốc từ những gián đoạn do Thế chiến I gây ra. Cuộc chiến không chỉ làm mất ổn định nền kinh tế mà còn làm tăng chi phí của kim loại. Kết quả là, giá trị nội tại của đồng tiền kim loại thường vượt quá giá trị mệnh giá, khiến mọi người tích trữ chúng. Trong tình trạng thiếu hụt đồng xu, một số tổ chức, như Phòng Thương mại Lyon, đã in ra Notgeld của riêng mình.
 ![image](assets/chapitre-3.3/0.webp)
 
 > "Việc gì phải làm, thì phải làm." - một câu nói địa phương
 
 Trong số các Notgeld, một tờ tiền đặc biệt nổi bật. Nó có một hình minh họa đầy ý nghĩa: ở trung tâm, một cá nhân được miêu tả đang đại tiện một Mark. Mặt sau, một bảng giá từ năm 1913 đến 1921 minh họa sự tăng giá của lạm phát trong giai đoạn này.
 
-Nghệ sĩ đứng sau Notgeld này dường như đang thực hiện một lời chỉ trích mỉa mai đối với các cơ quan chức năng chịu trách nhiệm về cuộc khủng hoảng lạm phát cao. Tờ tiền ghi dòng chữ "Necessity knows no law". Một biểu hiện khác cụ thể cho địa phương xuất xứ của Notgeld nói: "Việc gì phải làm, thì phải làm".
+Nghệ sĩ đứng sau Notgeld này dường như đang thực hiện một lời chỉ trích mỉa mai đối với các cơ quan chức năng chịu trách nhiệm về cuộc khủng hoảng siêu lạm phát. Tờ tiền ghi dòng chữ "Necessity knows no law". Một biểu hiện khác cụ thể cho địa phương xuất xứ của Notgeld nói: "Việc gì phải làm, thì phải làm".
 
 ![image](assets/chapitre-3.3/1.webp)
 
@@ -668,7 +668,7 @@ Hiện tượng của các công ty zombie không chỉ giới hạn trong lịc
 
 5. Làm giàu nhanh chóng!
 
-Trong lịch sử, đã có những thời điểm mà cá nhân tìm cách làm giàu nhanh chóng, như đã xảy ra ở Weimar và Zimbabwe thông qua việc đầu cơ. Ngày nay, chúng ta thấy một xu hướng tương tự với sự xuất hiện của một số loại tiền điện tử. Mọi người bị cám dỗ bởi lợi nhuận nhanh chóng, chấp nhận rủi ro với hy vọng nhân lên đầu tư của mình một cách nhanh chóng. Cách tiếp cận này có thể nhớ lại những gì được quan sát trong các giai đoạn của lạm phát cao, nơi đầu cơ được sử dụng để thu được lợi nhuận nhanh chóng, thường là vào chi phí của người khác.
+Trong lịch sử, đã có những thời điểm mà cá nhân tìm cách làm giàu nhanh chóng, như đã xảy ra ở Weimar và Zimbabwe thông qua việc đầu cơ. Ngày nay, chúng ta thấy một xu hướng tương tự với sự xuất hiện của một số loại tiền điện tử. Mọi người bị cám dỗ bởi lợi nhuận nhanh chóng, chấp nhận rủi ro với hy vọng nhân lên đầu tư của mình một cách nhanh chóng. Cách tiếp cận này có thể nhớ lại những gì được quan sát trong các giai đoạn của siêu lạm phát, nơi đầu cơ được sử dụng để thu được lợi nhuận nhanh chóng, thường là vào chi phí của người khác.
 
 ![image](assets/chapitre-3.3/6.webp)
 
@@ -677,7 +677,7 @@ Trong lịch sử, đã có những thời điểm mà cá nhân tìm cách làm
 > ảnh hưởng xâm lấn và phá hủy của việc giảm giá trị liên tục của vốn và thu nhập, cũng như sự không chắc chắn về tương lai.
 > Thật thú vị khi nhấn mạnh một trích dẫn nhấn mạnh tác động phá hủy của việc giảm giá trị vốn đối với sự gắn kết xã hội, cũng như sự không chắc chắn mà nó tạo ra. Nó nói: "ảnh hưởng xâm lấn và phá hủy của việc giảm giá trị liên tục của vốn và thu nhập, cũng như sự không chắc chắn về tương lai."
 
-Hãy tưởng tượng một kịch bản bạn có gia đình hoặc người thân mà bạn muốn bảo vệ. Bạn làm việc chăm chỉ, tiết kiệm tiền, để dự đoán những không chắc chắn trong tương lai. Nếu mọi thứ đều có thể dự đoán, việc tiết kiệm sẽ vô ích. Nhưng trước những điều bất ngờ, như một chiếc xe hỏng, tiết kiệm trở thành phao cứu sinh. Nó giảm bớt sự không chắc chắn của thế giới. Tuy nhiên, trong một thời kỳ lạm phát cao, việc tiết kiệm trở thành một thách thức. Tiền nhanh chóng mất giá, khiến việc lập kế hoạch dài hạn trở nên khó khăn. Sự bất ổn tài chính này có thể gây ra căng thẳng và lo lắng.
+Hãy tưởng tượng một kịch bản bạn có gia đình hoặc người thân mà bạn muốn bảo vệ. Bạn làm việc chăm chỉ, tiết kiệm tiền, để dự đoán những không chắc chắn trong tương lai. Nếu mọi thứ đều có thể dự đoán, việc tiết kiệm sẽ vô ích. Nhưng trước những điều bất ngờ, như một chiếc xe hỏng, tiết kiệm trở thành phao cứu sinh. Nó giảm bớt sự không chắc chắn của thế giới. Tuy nhiên, trong một thời kỳ siêu lạm phát, việc tiết kiệm trở thành một thách thức. Tiền nhanh chóng mất giá, khiến việc lập kế hoạch dài hạn trở nên khó khăn. Sự bất ổn tài chính này có thể gây ra căng thẳng và lo lắng.
 
 Ngày nay, trước sự giảm sức mua, đầu tư lên ngôi. Tuy nhiên, cách tiếp cận này đi kèm với những rủi ro riêng của nó. Tiết kiệm luôn là phương thuốc chống lại sự không chắc chắn. Có dự trữ tài chính để quản lý các tình huống không lường trước được góp phần vào sự yên tâm và tăng cường sự gắn kết xã hội. Kết luận, việc bảo vệ sức mua của chúng ta là cần thiết để duy trì sự ổn định xã hội và cá nhân.
 
@@ -690,7 +690,7 @@ Bây giờ, chúng ta sẽ xem xét các giai đoạn đổi tiền khác nhau �
 Trên slide, bên trái, là các năm của việc đổi tiền mới, tên của đồng tiền mới, và tỷ giá hối đoái với đồng tiền cũ. Lấy ví dụ về Argentina, peso moneda nacional được chuyển đổi với tỷ lệ 25 đối 1 từ đồng tiền trước đó, peso real. Trong bối cảnh này, chúng ta sẽ xem xét sự phát triển của đồng tiền Argentina theo thời gian. Ngoài ra, chúng ta sẽ chỉ ra mệnh giá ban đầu và cuối cùng của các tờ tiền bạc cho mỗi giai đoạn.
 ![hình ảnh](assets/chapitre-3.4/1.webp)
 
-Ở phía bên phải của slide, có một biểu đồ về lạm phát. Các mũi tên màu đỏ đại diện cho các năm của siêu lạm phát, được định nghĩa theo tiêu chí của Kagan là tỷ lệ lạm phát 50% mỗi tháng. Tiêu chí này đôi khi có thể dẫn đến những giải thích mơ hồ, với những năm có tỷ lệ lạm phát cao nhưng không đáp ứng định nghĩa chặt chẽ của siêu lạm phát.
+Ở phía bên phải của slide, có một biểu đồ về lạm phát. Các mũi tên màu đỏ đại diện cho các năm của siêu lạm phát, được định nghĩa theo tiêu chí của Kagan là tỷ lệ lạm phát 50% mỗi tháng. Tiêu chí này đôi khi có thể dẫn đến những giải thích mơ hồ, với những năm có tỷ lệ siêu lạm phát nhưng không đáp ứng định nghĩa chặt chẽ của siêu lạm phát.
 Cần lưu ý rằng, việc đổi tiền mới, trong các giai đoạn lạm phát, là một biện pháp phổ biến được các chính phủ áp dụng. Tuy nhiên, điều này không giải quyết được vấn đề cơ bản của lạm phát hoặc siêu lạm phát. Đó chỉ là cách để đổi tên đồng tiền và loại bỏ các số không, mà không thực sự giải quyết nguyên nhân gốc rễ của siêu lạm phát: sự mở rộng của nguồn cung tiền tệ. Trong một video sau, chúng ta sẽ thảo luận về các giải pháp thực sự để giải quyết và khắc phục vấn đề siêu lạm phát. Trong loạt bài này, chúng ta sẽ nêu bật hậu quả của việc đổi tiền mới đơn giản mà không có các cải cách thích hợp: lạm phát vẫn tiếp diễn.
 Sau Argentina, nghiên cứu của chúng ta sẽ bao gồm Brazil, Bolivia, Peru, Nicaragua, và Venezuela. Chúng ta sẽ xem xét các việc đổi tiền mới đã diễn ra ở các quốc gia này.
 
@@ -715,7 +715,7 @@ Bắt đầu từ năm 1942, Brazil đã bắt đầu một loạt các đợt �
 - Cruzeiros Reais vào năm 1993.
 - Cuối cùng, Brazilian Real vào năm 1994.
 
-Mệnh giá cao nhất đạt 500.000, và lần đổi tiền cuối cùng vào năm 1994 được thực hiện với tỷ lệ 2.750 thành 1. Các năm 1989 và 1990 được đánh dấu bởi lạm phát phi mã, trong khi 1993-1994 chứng kiến tỷ lệ lạm phát cao mà không đạt ngưỡng của lạm phát phi mã (50% mỗi tháng). Sau giai đoạn hỗn loạn này, Brazil một lần nữa đổi mới tiền tệ của mình bằng cách loại bỏ một số số không.
+Mệnh giá cao nhất đạt 500.000, và lần đổi tiền cuối cùng vào năm 1994 được thực hiện với tỷ lệ 2.750 thành 1. Các năm 1989 và 1990 được đánh dấu bởi lạm phát phi mã, trong khi 1993-1994 chứng kiến tỷ lệ siêu lạm phát mà không đạt ngưỡng của lạm phát phi mã (50% mỗi tháng). Sau giai đoạn hỗn loạn này, Brazil một lần nữa đổi mới tiền tệ của mình bằng cách loại bỏ một số số không.
 
 ### Bolivia
 
@@ -775,18 +775,18 @@ Trong video tiếp theo, một bộ sưu tập các tờ tiền lạm phát phi 
 
 Chúng ta đã thấy rằng lạm phát phi mã không phải là chỉ số duy nhất của một thảm họa kinh tế. Việc đổi tiền nhiều lần, loại bỏ các số không, hoặc thay đổi tên của đồng tiền có những hậu quả trực tiếp đối với dân số, từ việc mất đi sự hỗ trợ đến các vấn đề về thực phẩm. Mặc dù lạm phát phi mã là đáng lo ngại, số lần đổi tiền, như quan sát ở Brazil, cho thấy một thực tế phức tạp hơn.
 Dựa trên tiêu chí về lạm phát 50% mỗi tháng, một số giai đoạn có thể được phân loại là siêu lạm phát. Điều này đặc biệt đúng khi xem xét các tiêu chí của tổ chức kế toán quốc tế, mà xem xét các đặc điểm như việc từ bỏ nhanh chóng đồng tiền bởi dân chúng, việc lập chỉ số cho tiền lương, và các khoản vay với lãi suất cao để bù đắp cho lạm phát.
-Kết luận, siêu lạm phát chỉ là một khía cạnh của các thách thức kinh tế. Lạm phát cao một mình cũng có thể gây hại không kém. Phần tiếp theo sẽ khám phá các giải pháp có thể để vượt qua siêu lạm phát.
+Kết luận, siêu lạm phát chỉ là một khía cạnh của các thách thức kinh tế. siêu lạm phát một mình cũng có thể gây hại không kém. Phần tiếp theo sẽ khám phá các giải pháp có thể để vượt qua siêu lạm phát.
 
 ## Cách vượt qua siêu lạm phát
 <chapterId>e3484a31-a851-5f92-8af5-00eddae67db1</chapterId>
 
 ### Cách chấm dứt lạm phát vừa phải và cao
 
-Những kết luận được đề cập được rút ra từ cuốn sách "Chế độ Tiền tệ và Lạm phát" của Bernold. Theo Bernold, phương pháp duy nhất để chấm dứt lạm phát là thực hiện một cải cách tiền tệ và áp đặt các hạn chế đối với chính phủ. Những hạn chế này bao gồm việc thành lập một cơ quan, như một ngân hàng trung ương, hoạt động độc lập với các quyết định chính trị của chính phủ. Lạm phát cao và siêu lạm phát thường là kết quả của việc tài trợ cho thâm hụt ngân sách thông qua việc tạo ra tiền tệ. Để giải quyết lạm phát vừa phải, điều cần thiết là giảm tốc độ tăng trưởng của nguồn cung tiền. Bernold cũng đề xuất rằng sự tăng trưởng tiền tệ này nên tương đối với các quốc gia lân cận. Một điểm đáng ngạc nhiên là, trong các giai đoạn của lạm phát cao hoặc siêu lạm phát, tổng giá trị của nguồn cung tiền thực sự có thể giảm. Một ví dụ nổi bật về tình huống này là Zimbabwe.
+Những kết luận được đề cập được rút ra từ cuốn sách "Chế độ Tiền tệ và Lạm phát" của Bernold. Theo Bernold, phương pháp duy nhất để chấm dứt lạm phát là thực hiện một cải cách tiền tệ và áp đặt các hạn chế đối với chính phủ. Những hạn chế này bao gồm việc thành lập một cơ quan, như một ngân hàng trung ương, hoạt động độc lập với các quyết định chính trị của chính phủ. siêu lạm phát và siêu lạm phát thường là kết quả của việc tài trợ cho thâm hụt ngân sách thông qua việc tạo ra tiền tệ. Để giải quyết lạm phát vừa phải, điều cần thiết là giảm tốc độ tăng trưởng của nguồn cung tiền. Bernold cũng đề xuất rằng sự tăng trưởng tiền tệ này nên tương đối với các quốc gia lân cận. Một điểm đáng ngạc nhiên là, trong các giai đoạn của siêu lạm phát hoặc siêu lạm phát, tổng giá trị của nguồn cung tiền thực sự có thể giảm. Một ví dụ nổi bật về tình huống này là Zimbabwe.
 
 ### Giải pháp Phản Trực Giác
 
-Khi nghiên cứu về Zimbabwe, người ta nhận thấy rằng 10 nghìn tỷ đơn vị nguồn cung tiền đã mất hết giá trị của mình. Ở Weimar, có thể in được hai phần ba tổng giá trị danh nghĩa của 65 tỷ đơn vị nguồn cung tiền trong một ngày. Điều này cho thấy nguồn cung tiền có thể bị mất giá. Để khắc phục tình hình này, cần phải tăng đáng kể nguồn cung tiền để đạt được một mức độ phù hợp. Sau đó, một cải cách tiền tệ là không thể tránh khỏi. Trong tình huống của lạm phát cao, cải cách này là không thể tránh khỏi, nhưng nó phải đảm bảo rằng có đủ tiền lưu thông. Sau bước này, có thể áp đặt các hạn chế đối với chính phủ.
+Khi nghiên cứu về Zimbabwe, người ta nhận thấy rằng 10 nghìn tỷ đơn vị nguồn cung tiền đã mất hết giá trị của mình. Ở Weimar, có thể in được hai phần ba tổng giá trị danh nghĩa của 65 tỷ đơn vị nguồn cung tiền trong một ngày. Điều này cho thấy nguồn cung tiền có thể bị mất giá. Để khắc phục tình hình này, cần phải tăng đáng kể nguồn cung tiền để đạt được một mức độ phù hợp. Sau đó, một cải cách tiền tệ là không thể tránh khỏi. Trong tình huống của siêu lạm phát, cải cách này là không thể tránh khỏi, nhưng nó phải đảm bảo rằng có đủ tiền lưu thông. Sau bước này, có thể áp đặt các hạn chế đối với chính phủ.
 
 Theo quan sát của Bernold, khi giải quyết các vấn đề lạm phát, các tổ chức như IMF và Ngân hàng Thế giới không phải lúc nào cũng áp dụng đúng chiến lược. Trong một số trường hợp, khi một quốc gia cần tăng nguồn cung tiền của mình, những tổ chức này lại tìm cách giảm nó. Chìa khóa là đạt được một mức độ tiền tệ phù hợp và sau đó áp đặt giới hạn cho sự tăng trưởng của nó, như vậy tránh được việc tài trợ cho chi tiêu của chính phủ thông qua việc tạo ra tiền tệ.
 
@@ -811,7 +811,7 @@ Do đó, sau năm 2009, đối mặt với khủng hoảng tiền tệ dai dẳn
 Tuy nhiên, đô la hóa không phải là giải pháp kỳ diệu. Mặc dù nó có thể chấm dứt lạm phát, nhưng nó đặt ra những thách thức kinh tế khác. Một trong những hậu quả là mất đi chính sách tiền tệ tự chủ. Không có đồng tiền riêng, một quốc gia không thể điều chỉnh chính sách tiền tệ của mình để đáp ứng với các cú sốc kinh tế nội bộ.
 
 Vào năm 2007, tỷ lệ lạm phát của Zimbabwe đã đạt ngưỡng 50% mỗi tháng, chính thức đánh dấu quốc gia này đang trong tình trạng lạm phát. Sau khi đô la hóa vào năm 2009, lạm phát đã chấm dứt, nhưng đất nước đối mặt với những thách thức kinh tế khác.
-Điều đáng lo ngại là Zimbabwe đã cố gắng tái giới thiệu đồng tiền của riêng mình, và dấu hiệu của lạm phát cao đã xuất hiện trở lại. Theo một số tổ chức quốc tế, đất nước này có thể đã đáp ứng các tiêu chí cho lạm phát cao trở lại, ngay cả khi nó chưa đạt ngưỡng chính thức là 50% mỗi tháng. Điều này nhắc nhở về nguy cơ của việc phát hành tiền mặt quá mức và tài trợ thâm hụt của ngân hàng trung ương.
+Điều đáng lo ngại là Zimbabwe đã cố gắng tái giới thiệu đồng tiền của riêng mình, và dấu hiệu của siêu lạm phát đã xuất hiện trở lại. Theo một số tổ chức quốc tế, đất nước này có thể đã đáp ứng các tiêu chí cho siêu lạm phát trở lại, ngay cả khi nó chưa đạt ngưỡng chính thức là 50% mỗi tháng. Điều này nhắc nhở về nguy cơ của việc phát hành tiền mặt quá mức và tài trợ thâm hụt của ngân hàng trung ương.
 
 ## Kết luận
 <chapterId>31864b6e-8848-5e74-81fa-4e88e1a59ae3</chapterId>
@@ -825,9 +825,9 @@ Trong cuốn sách của tôi có tựa đề "Tất cả về Bitcoin," tôi đ
 ![image](assets/chapitre-3.5/4.webp)
 
 Trong cuốn sách của tôi có tựa đề "Tất cả về Bitcoin," tôi đã dành một chương để nói về lạm phát ở Zimbabwe. Tôi chi tiết các sự kiện quan trọng, cung cấp nhiều ví dụ minh họa cách quốc gia này cuối cùng đã chấm dứt lạm phát. Đối với những ai tò mò về trải nghiệm của Đức sau Thế chiến I, tôi rất khuyến khích cuốn truyện tranh "Ngân hàng của Đế chế." Nó kể về cách Đức đã vượt qua lạm phát, đặc biệt qua việc tạo ra Rentenmark.
-Thông điệp chính là có nhiều chiến lược để vượt qua lạm phát cao. Người ta có thể chọn đô la hóa hoặc giới thiệu một đồng tiền mới. Những giải pháp này chỉ hiệu quả nếu dân chúng tin tưởng vào chúng. Việc áp đặt các hạn chế nghiêm ngặt là rất quan trọng. Một ngân hàng trung ương thực sự độc lập là cần thiết. Nó không được phép bơm tiền vào lưu thông để bù đắp cho thâm hụt ngân sách của chính phủ. Trong trường hợp lạm phát nhẹ, việc hạn chế sự tăng trưởng của nguồn cung tiền là đủ. Tuy nhiên, khi đối mặt với lạm phát cao, điều quan trọng là phải đầu tiên có một nguồn cung tiền phù hợp với kích thước của nền kinh tế đang xét. Sau đó, việc áp đặt các hạn chế nghiêm ngặt đối với chính phủ để ổn định tình hình là bắt buộc.
+Thông điệp chính là có nhiều chiến lược để vượt qua siêu lạm phát. Người ta có thể chọn đô la hóa hoặc giới thiệu một đồng tiền mới. Những giải pháp này chỉ hiệu quả nếu dân chúng tin tưởng vào chúng. Việc áp đặt các hạn chế nghiêm ngặt là rất quan trọng. Một ngân hàng trung ương thực sự độc lập là cần thiết. Nó không được phép bơm tiền vào lưu thông để bù đắp cho thâm hụt ngân sách của chính phủ. Trong trường hợp lạm phát nhẹ, việc hạn chế sự tăng trưởng của nguồn cung tiền là đủ. Tuy nhiên, khi đối mặt với siêu lạm phát, điều quan trọng là phải đầu tiên có một nguồn cung tiền phù hợp với kích thước của nền kinh tế đang xét. Sau đó, việc áp đặt các hạn chế nghiêm ngặt đối với chính phủ để ổn định tình hình là bắt buộc.
 
-## Trình bày bộ sưu tập tiền giấy lạm phát cao
+## Trình bày bộ sưu tập tiền giấy siêu lạm phát
 <chapterId>f3ffbb47-3aeb-54bd-80a9-adccb0f419e2</chapterId>
 
 Liên kết đến bộ sưu tập đã quét có sẵn trong Bitcoin Educational Toolkit, có thể truy cập từ phần Resources của nền tảng.
@@ -840,7 +840,7 @@ Liên kết đến bộ sưu tập đã quét có sẵn trong Bitcoin Educationa
 
 Bản ghi:
 
-Sự xuất hiện của lớp tiền thứ hai và các ngân hàng trung ương đầu tiên là một chủ đề hấp dẫn. Chủ đề này được thảo luận rộng rãi trong cuốn sách "Layered Money" của Nick Battia. Tôi rất khuyến khích những ai quan tâm đến sự phát triển và phức tạp của hệ thống tiền tệ của chúng ta nên đọc. Mục tiêu của phần này là hiểu về nguồn gốc của việc tạo ra tiền và làm thế nào nó có thể dẫn đến lạm phát cao.
+Sự xuất hiện của lớp tiền thứ hai và các ngân hàng trung ương đầu tiên là một chủ đề hấp dẫn. Chủ đề này được thảo luận rộng rãi trong cuốn sách "Layered Money" của Nick Battia. Tôi rất khuyến khích những ai quan tâm đến sự phát triển và phức tạp của hệ thống tiền tệ của chúng ta nên đọc. Mục tiêu của phần này là hiểu về nguồn gốc của việc tạo ra tiền và làm thế nào nó có thể dẫn đến siêu lạm phát.
 
 ![image](assets/chapitre-4.1/1.webp)
 

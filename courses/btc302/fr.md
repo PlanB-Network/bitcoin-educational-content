@@ -840,28 +840,27 @@ Bien évidemment, **à chacun de fixer sa limite** dans ce que l'on peut entendr
 ## Pourquoi aller plus loin que simplement boire des bières?
 <chapterId>3213d87a-1998-5972-ab93-97a5769ba279</chapterId>
 
-Au fil des blocs, votre communauté se développera. De nouvelles têtes vous rejoindront et d'autres s'effaceront.
-Afin de **faire avancer l'écosystème Bitcoin et de construire des liens encore plus forts au sein de votre communauté**, de nombreux projets et initiatives peuvent être réalisés.
+Au fil des blocs, votre communauté se développera. De nouvelles têtes vous rejoindront et d'autres s'effaceront. Néanmoins, son leitmotiv sera toujours le même: **faire avancer l'écosystème Bitcoin et créer des liens encore plus forts entre ses membres**.
 
-Ci-dessous, **nous vous proposons donc une succession d'idées non exhaustives qui peuvent être mises en place au sein d'une communauté ou lors d'un meet-up**.
-Vous êtes donc libre de piocher dans celles qui vous plaisent, mais aussi d'en ajouter d'autres en réalisant une "Pull Request" sur GitHub.
-####
+Pour ce faire, de nombreux projets et initiatives peuvent être réalisés. C'est la raison pour laquelle **nous vous proposons donc dans ce chapitre une succession d'idées non exhaustives qui peuvent être mises en place au sein d'une communauté ou lors d'un meet-up**. Vous êtes alors libre de piocher dans celles qui vous plaisent, mais aussi d'en ajouter à ce cours [en réalisant une "Pull Request" sur GitHub](https://github.com/PlanB-Network/bitcoin-educational-content). 
 Mais avant de débuter, il semble intéressant d'aborder plus en détail un point déjà énuméré dans les parties précédentes de ce cours.
 
-Lorsqu'on lance un meet-up Bitcoin, on découvre de nouvelles personnes. Les intéractions sociales sont donc importantes, et la bière (l'alcool de manière générale) permet de rendre ce genre d'événements festifs. Mais ATTENTION:
+Lorsqu'on lance un meet-up Bitcoin, on découvre de nouvelles personnes. Les intéractions sociales sont donc importantes, et la bière (l'alcool de manière générale) permet de rendre ce genre d'événement festif. Mais ATTENTION:
 - d'une part, **l'alcool inhibe certaines capacités cognitives** (réflexion, compréhension, etc.). Il est donc **plus difficile pour les participants de suivre des discussions sérieuses** - ou une présentation - après avoir bu un doux breuvage alcoolisé;
-- d'autre part, **l'alcool peut être réconfortant**: chaque mois, vous avez votre "moment Bitcoin", avec vos nouveaux copains. Vous partagez une passion commune, et c'est très positif ! **Mais boire des bières est-il vraiment l'objectif phare de votre meet-up?** Ne souhaiteriez-vous pas plutôt échanger lors de ces événements de vos nouvelles trouvailles / recherches, apprendre des expériences des autres; voire démocratiser Bitcoin aux nouveaux, afin des les initier?
+- d'autre part, **l'alcool est réconfortant**: chaque mois, vous avez votre "moment Bitcoin", avec vos nouveaux copains. Vous partagez une passion commune, et c'est très positif ! **Mais boire des bières est-il vraiment l'objectif phare de votre meet-up?** Ne souhaiteriez-vous pas plutôt échanger lors de ces événements de vos nouvelles trouvailles / recherches, apprendre des expériences des autres; voire démocratiser Bitcoin aux nouveaux, afin des les initier?
 
-Chacun a ses propres envies, ses propres convictions, sa propre personnalité. Il n'y a donc aucun jugement fait ici sur le fonctionnement d'un meet-up ou d'un autre. Après tout, **c'est autour d'une bière qu'on refait le monde, mais ce n'est pas ainsi qu'on le transforme en profondeur**.
+Chacun a ses propres envies, ses propres convictions, sa propre personnalité. Il n'y a donc aucun jugement fait ici sur le fonctionnement d'un meet-up ou d'un autre. Néanmoins, **même si c'est souvent autour d'une bière que l'on refait le monde, ce n'est pas ainsi que naissent et se développent les révolutions**.
+####
+L'important est d'en être conscient(e).
 
 ![image](assets/fr/chapter23/36bis.webp)
 
 ## Organiser des meet-ups thématiques, avec une progression annuelle
 <chapterId>46afdbcc-a775-5c16-b20a-34956690d58f</chapterId>
 
-Lorsque vos meet-ups seront réguliers et qu'un noyau dur d'une dizaine de personnes se sera trouvé, il vous sera désormais possible de **réaliser une présentation à chacun de vos meet-ups**. Celles-ci pourront alors être **thématiques**, avec un thème annoncé en avance; comme elles pourront être décorrelées les unes des autres.
+Lorsque vos meet-ups seront réguliers et qu'un noyau dur d'une dizaine de personnes se sera formé, il vous sera désormais possible de **réaliser une présentation à chacun de vos meet-ups**. Celles-ci pourront alors être **thématiques**, avec un thème annoncé en avance; comme elles pourront être décorrelées les unes des autres.
 
-Dans le cas de la mise en place de présentations et/ou d'ateliers, il peut être très pertinent de **construire en amont une progression réfléchie**. L'objectif de cette progression serait ainsi d'**aborder l'ensemble des notions importantes à Bitcoin**; permettant à toute personne présente lors des meet-ups de comprendre Bitcoin dans son ensemble.
+Dans le cas de la mise en place de présentations et/ou d'ateliers, il peut être très pertinent de **construire en amont une progression réfléchie**. L'objectif de cette progression serait ainsi d'**aborder l'ensemble des notions importantes à Bitcoin**; permettant à toute personne présente lors des meet-ups de comprendre Bitcoin sous différents angles.
 ####
 En France, au cours de l'été 2023, les organisateurs de meet-ups ont ainsi travaillé sur **une progression annuelle**, que plusieurs d'entre-eux suivent. En plus d'avoir une **dimension éducative forte, cela permet également aux meet-ups de pouvoir s'échanger des documents et powerpoints open-source**, afin de construire une base de données de ressources sur un même thème.
 Cette initiative est particulièrement appréciée dans les meet-ups et a pour vocation à se développer dans les prochaines années.
@@ -869,33 +868,33 @@ Cette initiative est particulièrement appréciée dans les meet-ups et a pour v
 La progression suivie en 2023/2024 par les meet-ups français est donc disponible ci-dessous. Elle regroupe **le thème de chaque meet-up, ainsi qu'une vidéo et une présentation open-source qui pourront vous donner des idées sur les notions qui peuvent y être abordées**.
 Si vous souhaitez accéder à d'autres ressources modifiables, pensez à faire un tour dans la [Boîte à outils pédagogique Bitcoin](https://planb.network/fr/resources/bet) !
 
-À noter par ailleurs que les chapitres 2 et 7 peuvent être découpés en deux présentations, dans l'objectif de ne pas surcharger les participants d'informations; comme ils peuvent être réalisés d'une traite. Dans cette seconde option, cela laisse plus de liberté, permettant lors de deux meet-ups de réaliser des workshops ou événements spécifiques (rencontre commune entre meet-up ou quizz par exemple).
-
 | Mois | Thème | Vidéo | Ressource modifiable |
 | -------- | -------- | -------- | --- |
-| Septembre     | Chapitre 1: Qu'est-ce que Bitcoin?     | [YT](https://www.youtube.com/watch?v=CSjuBqrl4t8)     | [canva](https://www.canva.com/design/DAFu0d5Jd7M/9gAWDAOSS6LDkWENuZjYgw/edit) |
-| Octobre & Novembre| Chapitre 2: Comprendre les transactions sur Bitcoin     | [YT](https://www.youtube.com/watch?v=inFnR-3NsdM)     | [canva](https://www.canva.com/design/DAFsEcnOro8/Mz9FYdTGhsvozZOe0Y9jtw/edit) |
-| Décembre     | Chapitre 3: Comprendre le Lightning Network     | [YT](https://www.youtube.com/watch?v=hHz-ALx8D9w)     | [canva](https://www.canva.com/design/DAF4YPSNnR8/HKp4Vmcno8eMtVWnZmFtcw/edit) |
-| Janvier     | Chapitre 4: Qu'est-ce que le minage?     | [YT](https://www.youtube.com/watch?v=QyHZ3CVI_OI)     | [canva](https://www.canva.com/design/DAF5DE6iBEM/tsy8E3oBebUnsR0kj53vvQ/edit) |
-| Février     | Chapitre 5: Monter un noeud Bitcoin et Lightning     | [YT](https://www.youtube.com/watch?v=RRYK-usg-OY)     | [canva](https://www.canva.com/design/DAF55FU6HI0/sQ0lacRJblqrhn_9Xk1yDg/edit) |
-| Mars     | Chapitre 6: Utiliser le Lightning Network au quotidien     | [YT](https://www.youtube.com/watch?v=o2BS4xjei8M)    | [canva](https://www.canva.com/design/DAGAcJMw7lw/-haMNnHnwj5vpDAy8MDowA/edit) |
-| Avril & Mai     | Chapitre 7: Sécuriser ses bitcoins      | [YT](https://www.youtube.com/watch?v=fHExPbhM0Hg)    | [canva](https://www.canva.com/design/DAGDz3Nq4e0/D3uG-4w9FN6OhUq-VXzhfg/edit) |
-| Juin     | À venir     | À venir     | À venir |
-| Juillet     | À venir     | À venir     | À venir |
-| Août     | À venir     | À venir     | À venir |
+| Septembre     | Chapitre 1: Qu'est-ce que Bitcoin?     | [Lien youtube](https://www.youtube.com/watch?v=CSjuBqrl4t8)     | [PowerPoint modifiable](https://www.canva.com/design/DAFu0d5Jd7M/9gAWDAOSS6LDkWENuZjYgw/edit) |
+| Octobre & Novembre| Chapitre 2: Comprendre les transactions sur Bitcoin     | [Lien youtube](https://www.youtube.com/watch?v=inFnR-3NsdM)     | [PowerPoint modifiable](https://www.canva.com/design/DAFsEcnOro8/Mz9FYdTGhsvozZOe0Y9jtw/edit) |
+| Décembre     | Chapitre 3: Comprendre le Lightning Network     | [Lien youtube](https://www.youtube.com/watch?v=hHz-ALx8D9w)     | [PowerPoint modifiable](https://www.canva.com/design/DAF4YPSNnR8/HKp4Vmcno8eMtVWnZmFtcw/edit) |
+| Janvier     | Chapitre 4: Qu'est-ce que le minage?     | [Lien youtube](https://www.youtube.com/watch?v=QyHZ3CVI_OI)     | [PowerPoint modifiable](https://www.canva.com/design/DAF5DE6iBEM/tsy8E3oBebUnsR0kj53vvQ/edit) |
+| Février     | Chapitre 5: Monter un noeud Bitcoin et Lightning     | [Lien youtube](https://www.youtube.com/watch?v=RRYK-usg-OY)     | [PowerPoint modifiable](https://www.canva.com/design/DAF55FU6HI0/sQ0lacRJblqrhn_9Xk1yDg/edit) |
+| Mars     | Chapitre 6: Utiliser le Lightning Network au quotidien     | [Lien youtube](https://www.youtube.com/watch?v=o2BS4xjei8M)    | [PowerPoint modifiable](https://www.canva.com/design/DAGAcJMw7lw/-haMNnHnwj5vpDAy8MDowA/edit) |
+| Avril & Mai     | Chapitre 7: Sécuriser ses bitcoins      | [Lien youtube](https://www.youtube.com/watch?v=fHExPbhM0Hg)    | [PowerPoint modifiable](https://www.canva.com/design/DAGDz3Nq4e0/D3uG-4w9FN6OhUq-VXzhfg/edit) |
+| Juin     | Chapitre 8: Qu'est-ce qu'un multi-sig?     | [Lien youtube](https://www.youtube.com/watch?v=Me5489mpoxA)     | [PowerPoint modifiable](https://www.canva.com/design/DAGLMtQT6sg/rYIxr4ldUJ0jTelNf-Pj8Q/edit) |
+| Juillet     | Chapitre 9: Comprendre le bull-run, et s'y préparer     | [Lien youtube](https://www.youtube.com/watch?v=7RA-gnCJWyM)     | [PowerPoint modifiable](https://www.canva.com/design/DAGJQkiZ_YA/9lUluP9RZ0eeA_e61mk9Hw/edit) |
+| Août     | Chapitre 10: Le fisc n'est jamais bien loin     | [Lien youtube](https://www.youtube.com/watch?v=oY4NwonGDm0)     | [PowerPoint modifiable](https://www.canva.com/design/DAGQhx7Yc_c/7mRhb_vlgnhSgxd1FtjK8w/edit) |
 ####
-Bien évidemment, il arrivera que certaines personnes ne seront pas présentes lors d'un meet-ups. Lorsque cela est envisageable, **prendre en vidéo la présentation pour la poster sur une plateforme de streaming et/ou votre site internet peut donc être pertinent**. Cela peut en effet amener les absents à prendre connaissance des présentations précédentes; voire même, à les regarder à nouveau en replay pour mieux se former.
+À noter par ailleurs que les chapitres 2 et 7 peuvent être découpés en deux présentations, dans l'objectif par exemple de ne pas surcharger les participants d'informations. Ils peuvent également être réalisés d'une traite, amenant plus de liberté et permettant par exemple de réaliser des workshops ou événements spécifiques en supplément (rencontre commune avec un meet-up limitrophe, quizz, ateliers, etc.)
+**Libre à vous de prendre ces ressources, de les modifier et de les partager à votre guise**. Pensez simplement à **citer vos sources** dans le cas où vous réutilisez une de ces présentations modifiables.
 
-**Libre à vous de prendre ces ressources, de les modifier et de les partager à votre guise**. Pensez simplement à **citer vos sources** dans le cas où vous réutilisez une présentation modifiable.
+####
+Bien évidemment, tous les participants ne seront pas présents à chaque meet-up. Il peut donc être tout à fait pertinent de **prendre en vidéo la présentation pour la poster sur une plateforme de streaming et/ou sur votre site internet**. Cela peut en effet amener les absents à prendre connaissance des présentations précédentes; voire même, à les regarder plusieurs fois en replay pour mieux se former.
+####
 #### 
-En parallèle, d'autres meet-ups thématiques peuvent être réalisés. Parmi eux, on compte:
+En parallèle, des meet-ups thématiques peuvent être réalisés. Parmi eux, on compte:
 - un **quizz de connaissances** (avec par exemple un portefeuille physique à gagner);
 - un **défi "onboarding"** en envoyant des satoshis gratuitement à des no-coiners;
-- **organiser la venue d'expert dans un domaine précis, ou d'une société** proposant un produit pertinent lié à Bitcoin;
+- **organiser la venue d'experts dans un domaine précis, ou d'une société** proposant un produit pertinent lié à Bitcoin;
 - une **soirée "tournée des bars et commerces" acceptant Bitcoin** comme moyen de paiement;
 - etc.
-
-Les seules limites à vous fixer sont celles de votre imagination !
+Les seules limites sont celles de votre imagination !
 
 ## Créer des side-events et workshops
 <chapterId>9dbd651a-8712-5630-90b3-b9525dcc1385</chapterId>

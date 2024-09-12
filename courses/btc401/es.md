@@ -752,8 +752,7 @@ En conclusión, abordar continuamente estos problemas abiertos e innovar dentro 
 
 ![Video](https://youtu.be/2f_rK74MB3U)
 
-# Bienvenidos a la conferencia de hoy sobre **Seguridad y Fiabilidad**
-
+Bienvenidos a la conferencia de hoy sobre **Seguridad y Fiabilidad**
 Nuestro objetivo es explorar la relación matizada entre estos dos aspectos fundamentales del diseño de sistemas y su aplicación en escenarios del mundo real.
 
 ### Introducción al Pensamiento de Seguridad

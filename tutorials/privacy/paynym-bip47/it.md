@@ -3,7 +3,7 @@ name: BIP47 - PayNym
 
 description: Come funzionano i PayNym
 ---
-***ATTENZIONE:** In seguito all'arresto dei fondatori di Samourai Wallet e al sequestro dei loro server il 24 aprile, l'applicazione non può più essere utilizzata dagli utenti che non dispongono del proprio Dojo. Il BIP47 rimane utilizzabile su Sparrow Wallet per tutti gli utenti e **su Samourai Wallet solo per gli utenti che dispongono di un Dojo**.*
+***ATTENZIONE:** In seguito all'arresto dei fondatori di Samourai Wallet e al sequestro dei loro server il 24 aprile, l'applicazione non può più essere utilizzata dagli utenti che non dispongono del proprio Dojo. BIP47 rimane utilizzabile su Sparrow Wallet per tutti gli utenti e **su Samourai Wallet solo per gli utenti che dispongono di un Dojo**.*
 
 _Stiamo seguendo da vicino l'evoluzione di questo caso così come gli sviluppi relativi agli strumenti associati. Siate certi che aggiorneremo questo tutorial non appena saranno disponibili nuove informazioni._
 
@@ -15,15 +15,15 @@ _Questo tutorial è fornito solo a scopo educativo e informativo. Non approviamo
 
 ![BIP47, il brutto anatroccolo illustrazione](assets/1.webp)
 
-Uno dei problemi più importanti nel protocollo Bitcoin è il riutilizzo degli indirizzi. La trasparenza e la distribuzione della rete rendono questa pratica pericolosa per la privacy dell'utente. Per evitare problemi legati a questo, si consiglia di utilizzare un nuovo indirizzo di ricezione vuoto per ogni nuovo pagamento in entrata verso un portafoglio, il che può essere complicato in alcuni casi.
+Uno dei problemi più importanti nel protocollo Bitcoin è il riutilizzo degli indirizzi. La trasparenza e la distribuzione della rete rendono questa pratica pericolosa per la privacy dell'utente. Per evitare problemi legati a questo, si consiglia di utilizzare un nuovo indirizzo di ricezione per ogni nuovo pagamento in entrata verso un portafoglio, il che può essere complicato in alcuni casi.
 
 Questo compromesso è vecchio come il White Paper. Satoshi ci ha avvertito di questo rischio nel suo lavoro pubblicato alla fine del 2008:
 
 > "Come ulteriore misura di sicurezza, una nuova coppia di chiavi potrebbe essere utilizzata per ogni transazione per mantenerle non collegate a un proprietario comune."
 
-Esistono molte soluzioni per ricevere pagamenti multipli senza riutilizzare gli indirizzi. Ognuna di esse ha i suoi compromessi e svantaggi. Tra tutte queste soluzioni c'è il [BIP47](https://github.com/bitcoin/bips/blob/master/bip-0047.mediawiki), una proposta sviluppata da Justus Ranvier e pubblicata nel 2015 che consente di generare codici di pagamento riutilizzabili. Il loro obiettivo è quello di poter effettuare più transazioni verso la stessa persona senza riutilizzare gli indirizzi.
+Esistono molte soluzioni per ricevere pagamenti multipli senza riutilizzare gli indirizzi. Ognuna di esse ha i suoi compromessi e svantaggi. Tra tutte queste soluzioni c'è [BIP47](https://github.com/bitcoin/bips/blob/master/bip-0047.mediawiki), una proposta sviluppata da Justus Ranvier e pubblicata nel 2015 che consente di generare codici di pagamento riutilizzabili. Il loro obiettivo è quello di poter effettuare più transazioni verso la stessa persona senza riutilizzare gli indirizzi.
 
-Inizialmente, questa proposta è stata accolta con disprezzo da parte di una parte della comunità e non è mai stata aggiunta a Bitcoin Core. Tuttavia, alcuni software hanno scelto di implementarla comunque. Ad esempio, Samourai Wallet ha sviluppato la propria implementazione di BIP47: PayNym. Oggi, questa implementazione è ovviamente disponibile su Samourai Wallet per smartphone, ma anche su [Sparrow Wallet](https://sparrowwallet.com/) per PC.
+Inizialmente, questa proposta è stata accolta con disprezzo da parte di una parte della comunità e non è mai stata aggiunta a Bitcoin Core. Tuttavia, alcuni software hanno scelto di implementarla comunque. Ad esempio, Samourai Wallet ha sviluppato la propria implementazione di BIP47: PayNym. Oggi, questa implementazione è ovviamente disponibile su Samourai Wallet per smartphone, ma anche su [Sparrow Wallet](https://sparrowwallet.com/) per Desktop.
 
 Nel tempo, Samourai ha programmato nuove funzionalità direttamente legate a PayNym. Ora esiste un intero ecosistema di strumenti per ottimizzare la privacy dell'utente basati su PayNym e BIP47.
 In questo articolo, scoprirai il principio di BIP47 e PayNym, i meccanismi di questi protocolli e le applicazioni pratiche che ne derivano. Affronterò solo la prima versione di BIP47, quella attualmente utilizzata per PayNym, ma le versioni 2, 3 e 4 funzionano praticamente allo stesso modo.
@@ -60,35 +60,34 @@ In questo articolo, scoprirai il principio di BIP47 e PayNym, i meccanismi di qu
 
 ## Il problema del riutilizzo dell'indirizzo.
 
-Un indirizzo di ricezione viene utilizzato per ricevere bitcoin. Viene generato a partire da una chiave pubblica, facendo l'hash di essa e applicando un formato specifico. In questo modo, consente di creare una nuova condizione di spesa su una moneta per modificarne il proprietario.
+Un indirizzo di ricezione viene utilizzato per ricevere bitcoin. Viene generato a partire da una chiave pubblica, calcolato l'hash di essa e applicando un formato specifico. In questo modo, viene creata una nuova condizione di spesa su un UTXO per modificarne il proprietario.
 
 > Per saperne di più sulla generazione di un indirizzo di ricezione, ti consiglio di leggere l'ultima parte di questo articolo: Il portafoglio Bitcoin - estratto [ebook Bitcoin Démocratisé 2](https://www.pandul.fr/post/le-portefeuille-bitcoin-extrait-ebook-bitcoin-d%C3%A9mocratis%C3%A9-2#viewer-epio7).
 
 Inoltre, avrai sicuramente sentito da un esperto di bitcoin che gli indirizzi di ricezione sono ad uso unico e che è necessario generarne uno nuovo per ogni nuovo pagamento in entrata verso il tuo portafoglio. Ma perché?
-Fondamentalmente, il riutilizzo degli indirizzi non mette direttamente a rischio i tuoi fondi. L'utilizzo della crittografia sulle curve ellittiche consente di dimostrare alla rete di essere in possesso di una chiave privata senza rivelarla. Puoi quindi bloccare diverse UTXO su uno stesso indirizzo e spenderle in momenti diversi. Se non rivelare la chiave privata associata a quell'indirizzo, nessuno potrà accedere ai tuoi fondi. Il problema della riutilizzazione degli indirizzi riguarda piuttosto la privacy.
+Fondamentalmente, il riutilizzo degli indirizzi non mette direttamente a rischio i tuoi fondi. L'utilizzo della crittografia sulle curve ellittiche consente di dimostrare alla rete di essere in possesso di una chiave privata senza rivelarla. Puoi quindi bloccare diversi UTXO su uno stesso indirizzo e spenderli in momenti diversi. Se non riveli la chiave privata associata a quell'indirizzo, nessuno potrà accedere ai tuoi fondi. Il problema della riutilizzazione degli indirizzi riguarda piuttosto la privacy.
 
-Come accennato in precedenza, la trasparenza e la distribuzione della rete Bitcoin fanno sì che qualsiasi utente, purché abbia accesso a un nodo, sia in grado di osservare le transazioni del sistema di pagamento. Di conseguenza, può vedere i diversi saldi degli indirizzi. Satoshi Nakamoto ha quindi menzionato la possibilità di generare nuove coppie di chiavi e quindi nuovi indirizzi per ogni nuovo pagamento in entrata verso un portafoglio. L'obiettivo sarebbe quello di avere un ulteriore livello di protezione nel caso in cui si associ l'identità dell'utente a una delle sue coppie di chiavi.
+Come accennato in precedenza, la trasparenza e la distribuzione della rete Bitcoin fanno sì che qualsiasi utente, purché abbia accesso ad un nodo, sia in grado di osservare tutte le transazioni. Di conseguenza, può vedere i saldi di tutti gli indirizzi a lui noti. Satoshi Nakamoto ha quindi menzionato la possibilità di generare nuove coppie di chiavi e quindi nuovi indirizzi per ogni nuovo pagamento in entrata verso un portafoglio. L'obiettivo sarebbe quello di avere un ulteriore livello di protezione nel caso in cui si associ l'identità dell'utente a una delle sue coppie di chiavi.
 
-Oggi, con la presenza di società di analisi delle catene e lo sviluppo del KYC, l'utilizzo di indirizzi nuovi non è più un ulteriore livello di protezione, ma un obbligo per chiunque si preoccupi anche solo minimamente della propria privacy.
+Oggi, con la presenza di società di analisi della blockchain e lo sviluppo del KYC, l'utilizzo di indirizzi nuovi non è più un ulteriore livello di protezione, ma un obbligo per chiunque si preoccupi anche solo minimamente della propria privacy.
 
-La ricerca di privacy non è un lusso o una fantasia dei bitcoiner massimalisti. È un parametro specifico che riguarda direttamente la tua sicurezza personale e la protezione dei tuoi fondi. Per farti capire meglio, ecco un esempio molto concreto:
+La ricerca ed il mantenimento della privacy non sono solo un lusso o una fantasia dei bitcoiner massimalisti. Rappresentano parametri specifici che riguardano direttamente la tua sicurezza personale e la protezione dei tuoi fondi. Per farti capire meglio, ecco un esempio molto concreto:
 
 - Bob compra bitcoin in DCA (Dollars Cost Average), cioè acquista una piccola quantità di bitcoin a intervalli regolari per ammortizzare il prezzo di ingresso. Bob invia sistematicamente i fondi acquistati allo stesso indirizzo di ricezione. Acquista 0,01 bitcoin ogni settimana e li invia a questo stesso indirizzo. Dopo due anni, Bob ha accumulato un intero bitcoin su questo indirizzo.
 
 - Il panettiere nella sua strada accetta pagamenti in bitcoin. Felice di poter spendere bitcoin, Bob va a comprare la sua baguette in satoshi. Per pagare, utilizza i fondi bloccati con il suo indirizzo. Il suo panettiere ora sa che possiede un bitcoin. Questa somma importante potrebbe suscitare invidia e Bob potrebbe potenzialmente subire un attacco fisico in seguito.
 
-La riutilizzazione degli indirizzi consente quindi a un osservatore di stabilire un collegamento inequivocabile tra le tue diverse UTXO e quindi, a volte, tra la tua identità e l'intero tuo portafoglio.
-È per questo motivo che la maggior parte dei software di portafoglio Bitcoin genera automaticamente un nuovo indirizzo di ricezione quando si fa clic sul pulsante "Ricevi". Per l'utente normale, l'abitudine di utilizzare indirizzi vuoti non è quindi un grande inconveniente. Tuttavia, per un commercio online, uno scambio o una campagna di donazione, questo vincolo può diventare rapidamente ingestibile.
+È per questo motivo che la maggior parte dei software di portafoglio Bitcoin genera automaticamente un nuovo indirizzo di ricezione quando si fa clic sul pulsante "Ricevi". Per l'utente normale, l'abitudine di utilizzare indirizzi vuoti non è quindi un grande inconveniente. Tuttavia, per un'attività online, una exchange o una campagna di donazione, questo vincolo può diventare rapidamente ingestibile.
 Esistono molte soluzioni per queste organizzazioni. Ognuna di esse ha i suoi vantaggi e svantaggi, ma fino ad oggi, come vedremo più avanti, il BIP47 si differenzia davvero dagli altri.
 
-Questo problema del riutilizzo degli indirizzi è tutt'altro che trascurabile su Bitcoin. Come si può vedere dal grafico qui sotto tratto dal sito oxt.me, il tasso globale di riutilizzo degli indirizzi da parte degli utenti di Bitcoin è attualmente del 52%:
-Grafico OXT.me sull'evoluzione del tasso globale di riutilizzo degli indirizzi sulla rete Bitcoin.
+Questo problema del riutilizzo degli indirizzi è tutt'altro che trascurabile su Bitcoin. Come si può vedere dal grafico tratto dal sito oxt.me, il tasso globale di riutilizzo degli indirizzi da parte degli utenti di Bitcoin è attualmente del 52%:
+Grafico OXT.me sull'evoluzione del tasso globale di riutilizzo degli indirizzi nella rete Bitcoin.
 
 ![image](assets/2.webp)
 
 Crediti: OXT
 
-La maggior parte di questi riutilizzi proviene dagli scambi che, per motivi di efficienza e facilità, riutilizzano lo stesso indirizzo molte volte. Fino ad oggi, il BIP47 sarebbe la migliore soluzione per arginare questo fenomeno negli scambi. Ciò consentirebbe di ridurre il tasso globale di riutilizzo degli indirizzi, senza causare troppi attriti per queste entità.
+La maggior parte di questi riutilizzi proviene dagli exchange che, per motivi di efficienza e facilità, riutilizzano lo stesso indirizzo molte volte. Fino ad oggi, il BIP47 rappresenterebbe la migliore soluzione per arginare questo fenomeno negli exchange. Ciò consentirebbe di ridurre il tasso globale di riutilizzo degli indirizzi, senza causare troppi attriti a queste entità.
 
 Questa misura globale sull'intera rete è un dato particolarmente coerente in questo caso. Infatti, il riutilizzo degli indirizzi non è solo un problema per la persona che pratica questo tipo di pratica, ma anche per chiunque effettui transazioni con essa. La perdita di privacy su Bitcoin agisce come un virus e si diffonde da utente a utente. Studiare una misura globale su tutte le transazioni della rete ci consente di prendere coscienza dell'entità di questo fenomeno.
 
@@ -96,7 +95,7 @@ Questa misura globale sull'intera rete è un dato particolarmente coerente in qu
 
 BIP47 mira a offrire un modo semplice per ricevere numerosi pagamenti senza riutilizzare gli indirizzi. Il suo funzionamento si basa sull'uso di un codice di pagamento riutilizzabile.
 
-In questo modo, più mittenti possono inviare più pagamenti a un unico codice di pagamento riutilizzabile di un altro utente, senza che il destinatario debba fornire un nuovo indirizzo vuoto per ogni nuova transazione.
+In questo modo, più mittenti possono inviare più pagamenti ad un unico codice di pagamento riutilizzabile di un altro utente, senza che il destinatario debba fornire un nuovo indirizzo vuoto per ogni nuova transazione.
 
 Un utente può quindi comunicare liberamente il suo codice di pagamento (su social media, sul suo sito web...) senza rischi di perdita di privacy, a differenza di un indirizzo di ricezione tradizionale o di una chiave pubblica.
 Per effettuare uno scambio, entrambi gli utenti devono avere un portafoglio Bitcoin con un'implementazione del BIP47, come PayNym su Samourai Wallet o Sparrow Wallet. L'associazione dei codici di pagamento dei due utenti permetterà di stabilire un canale segreto tra di loro. Per stabilire correttamente questo canale, l'emittente dovrà effettuare una transazione sulla blockchain di Bitcoin: la transazione di notifica (ne parlerò un po' più avanti).
@@ -127,8 +126,8 @@ Questi Bots non hanno una vera utilità tecnica. Invece, facilitano le interazio
 Per l'utente, il processo di pagamento BIP47 con l'implementazione di PayNym è estremamente semplice. Immaginiamo che Alice voglia inviare pagamenti a Bob:
 
 1. Bob diffonde il suo QR code, o direttamente il suo codice di pagamento riutilizzabile. Può metterlo sul suo sito web, sui suoi vari social media pubblici o inviarlo ad Alice tramite un altro mezzo di comunicazione.
-2. Alice apre il suo software Samourai o Sparrow e scansiona o incolla il codice di pagamento di Bob.
-3. Alice collega il suo PayNym a quello di Bob ("Follow" in inglese). Questa operazione avviene al di fuori della blockchain e rimane completamente gratuita.
+2. Alice apre Samourai o Sparrow e scansiona o incolla il codice di pagamento di Bob.
+3. Alice segue il PayNym di Bob ("Follow" in inglese). Questa operazione avviene al di fuori della blockchain e rimane completamente gratuita.
 
 4. Alice collega il suo PayNym a quello di Bob ("Connect" in inglese). Questa operazione avviene "on chain". Alice deve pagare le commissioni di mining della transazione e una commissione fissa di 15.000 sats per il servizio su Samourai. Le commissioni di servizio sono offerte su Sparrow. Questo passaggio è ciò che viene chiamata la transazione di notifica.
 
@@ -136,15 +135,15 @@ Per l'utente, il processo di pagamento BIP47 con l'implementazione di PayNym è 
 
 Effettuare la transazione di notifica, cioè collegare il proprio PayNym, è un passaggio preliminare obbligatorio per effettuare pagamenti BIP47. Tuttavia, una volta completato questo passaggio, il mittente potrà effettuare molteplici pagamenti al destinatario (esattamente 2^32), senza dover effettuare nuovamente una transazione di notifica.
 
-Avrete potuto notare che ci sono due operazioni diverse che consentono di collegare i PayNym tra loro: collegare e connettere. L'operazione di connessione ("connecter") corrisponde alla transazione di notifica del BIP47 che è semplicemente una transazione Bitcoin con alcune informazioni trasmesse tramite un output OP_RETURN. In questo modo, aiuta a stabilire una comunicazione crittografata tra i due utenti al fine di produrre i segreti condivisi necessari per generare nuovi indirizzi di ricezione vuoti.
+Avrete potuto notare che ci sono due operazioni diverse che consentono di collegare i PayNym tra loro: seguire e connettere. Seguire ("follow") corrisponde alla transazione di notifica del BIP47 che è semplicemente una transazione Bitcoin con alcune informazioni trasmesse tramite un output OP_RETURN. In questo modo, aiuta a stabilire una comunicazione crittografata tra i due utenti al fine di produrre i segreti condivisi necessari per generare nuovi indirizzi di ricezione vuoti.
 
-D'altra parte, l'operazione di collegamento ("follow" o "relier") consente di stabilire un collegamento su Soroban, un protocollo di comunicazione crittografato basato su Tor, sviluppato appositamente dal team di Samourai.
+D'altra parte, l'operazione di collegamento ("Connect") consente di stabilire un collegamento su Soroban, un protocollo di comunicazione crittografato basato su Tor, sviluppato appositamente dal team di Samourai.
 
 Per riassumere:
 
 - Il collegamento di due PayNym ("follow") è completamente gratuito. Questo aiuta a stabilire comunicazioni crittografate "off chain", in particolare per utilizzare gli strumenti di transazioni collaborative di Samourai (Stowaway o StonewallX2). Questa operazione è specifica di PayNym. Non è descritta nel BIP47.
 
-- La connessione di due PayNym è a pagamento. Questo implica l'esecuzione della transazione di notifica al fine di avviare la connessione. Il costo è costituito da eventuali commissioni di servizio, commissioni di mining della transazione e 546 sats inviati all'indirizzo di notifica del destinatario per avvisarlo dell'apertura del tunnel. Questa operazione è legata al BIP47. Una volta completata, il mittente può effettuare più pagamenti BIP47 al destinatario.
+- La connessione ("Conncect") di due PayNym è a pagamento. Questo implica l'esecuzione della transazione di notifica al fine di avviare la connessione. Il costo è costituito da eventuali commissioni di servizio, commissioni di mining della transazione e 546 sats inviati all'indirizzo di notifica del destinatario per avvisarlo dell'apertura del tunnel. Questa operazione è legata al BIP47. Una volta completata, il mittente può effettuare più pagamenti BIP47 al destinatario.
 
 Per poter connettere due PayNym, devono già essere collegati.
 
@@ -156,7 +155,8 @@ Ora che abbiamo visto la teoria, esaminiamo insieme la pratica. L'idea dei tutor
 
 ### Costruire una transazione BIP47 con Samourai Wallet.
 
-Per iniziare, ovviamente avrai bisogno dell'applicazione Samourai Wallet. Puoi scaricarla direttamente dal Google Play Store o con il file APK disponibile sul sito ufficiale di Samourai.
+Per iniziare, ovviamente avrai bisogno dell'applicazione Samourai Wallet. Puoi scaricarla direttamente dal Google Play Store o con il file APK disponibile sul sito ufficiale di Samourai, in quest'ultimo caso assicurati di verificare la firma dello sviluppatore e l'integrità del software scaricato prima di installarlo sul tuo telefono.
+
 
 Una volta che il portafoglio è stato inizializzato, se non l'hai già fatto, richiedi il tuo PayNym facendo clic sul segno più (+) in basso a destra, quindi su "PayNym".
 
@@ -172,7 +172,7 @@ Ecco come effettuare una transazione BIP47 su Samourai Wallet:
 
 ### Costruire una transazione BIP47 con Sparrow Wallet.
 
-Allo stesso modo di Samourai, ovviamente devi avere il software Sparrow. Questo è disponibile su computer. Puoi scaricarlo dal loro [sito web ufficiale](https://sparrowwallet.com/).
+Allo stesso modo di Samourai, ovviamente devi avere il software Sparrow. Questo è disponibile per computer. Puoi scaricarlo dal [sito web ufficiale](https://sparrowwallet.com/).
 
 Assicurati di verificare la firma dello sviluppatore e l'integrità del software scaricato prima di installarlo sul tuo computer.
 
@@ -188,11 +188,11 @@ Una volta confermata la transazione di notifica, è possibile inviare pagamenti 
 
 ![video](assets/10.mp4)
 
-Ora che abbiamo potuto esaminare l'aspetto pratico dell'implementazione PayNym di BIP47, vediamo insieme come funzionano tutti questi meccanismi e quali sono i metodi crittografici utilizzati.
+Ora che abbiamo esaminato l'aspetto pratico dell'implementazione PayNym di BIP47, vediamo insieme come funzionano tutti questi meccanismi e quali sono i metodi crittografici utilizzati.
 
 ## I meccanismi di BIP47.
 
-Per studiare i meccanismi del BIP47, è essenziale comprendere la struttura del portafoglio deterministico gerarchico (HD), i meccanismi di derivazione delle coppie di chiavi figlie e i principi della crittografia sulle curve ellittiche. Fortunatamente, puoi trovare tutte queste informazioni necessarie per comprendere questa parte sul mio blog:
+Per studiare i meccanismi del BIP47, è essenziale comprendere la struttura del portafoglio deterministico gerarchico (HD), i meccanismi di derivazione delle coppie di chiavi figlie ed i principi della crittografia sulle curve ellittiche. Fortunatamente, puoi trovare tutte queste informazioni necessarie per comprendere questa parte sul mio blog:
 
 - [Comprendere i percorsi di derivazione di un portafoglio Bitcoin](https://www.pandul.fr/post/comprendre-les-chemins-de-d%C3%A9rivation-d-un-portefeuille-bitcoin)
 
@@ -200,7 +200,7 @@ Per studiare i meccanismi del BIP47, è essenziale comprendere la struttura del 
 
 ### Il codice di pagamento riutilizzabile.
 
-Come spiegato nella seconda parte di questo documento, il codice di pagamento riutilizzabile si trova a una profondità di tre nel portafoglio HD. È in qualche modo assimilabile a un xpub, sia per la sua posizione e struttura che per il suo ruolo.
+Come spiegato nella seconda parte di questo documento, il codice di pagamento riutilizzabile si trova a una profondità di tre nel portafoglio HD. È in qualche modo assimilabile ad un xpub, sia per la sua posizione e struttura che per il suo ruolo.
 
 Ecco le diverse parti che compongono un codice di pagamento di 80 byte:
 
@@ -214,9 +214,9 @@ Ecco le diverse parti che compongono un codice di pagamento di 80 byte:
 
 - Dai byte 35 al byte 66: Il codice di catena. Questo spazio è riservato per il codice di catena associato alla chiave pubblica sopra menzionata.
 
-- Dai byte 67 al byte 79: Il padding. Questo spazio è riservato per possibili future evoluzioni. Per la versione 1, vengono semplicemente inseriti zeri per riempire fino a 80 byte, che è la dimensione dei dati di un'uscita OP_RETURN.
+- Dai byte 67 al byte 79: Il padding. Questo spazio è riservato a possibili future evoluzioni. Per la versione 1, vengono semplicemente inseriti zeri per riempire fino a 80 byte, che è la dimensione dei dati di un'uscita OP_RETURN.
 
-Ecco la rappresentazione esadecimale del mio codice di pagamento riutilizzabile, presentato nella parte precedente, con i colori corrispondenti ai byte sopra presentati:
+Ecco la rappresentazione esadecimale del mio codice di pagamento riutilizzabile, mostrato precedentemente, con i colori corrispondenti ai byte sopra presentati:
 Successivamente, è necessario aggiungere l'ottetto del prefisso "P" che permette di identificare immediatamente che si tratta di un codice di pagamento. Questo ottetto è 0x47.
 
 > 0x47010002a0716529bae6b36c5c9aa518a52f9c828b46ad8d907747f0d09dcd4d9a39e97c3c5f37c470c390d842f364086362f6122f412e2b0c7e7fc6e32287e364a7a36a00000000000000000000000000
@@ -231,8 +231,8 @@ Il codice di pagamento è pronto, non resta che convertirlo in Base 58:
 
 Come si può notare, questa costruzione assomiglia molto alla struttura di una chiave pubblica estesa di tipo "xpub".
 
-Durante questo processo che porta al nostro codice di pagamento, abbiamo utilizzato una chiave pubblica compressa e un codice di catena. Questi due elementi sono il risultato di una derivazione deterministica e gerarchica, dalla radice del portafoglio, seguendo il percorso di derivazione seguente: m/47'/0'/0'/
-Concretamente, per ottenere la chiave pubblica e il codice di catena del codice di pagamento riutilizzabile, calcoleremo la chiave privata principale dalla seed, quindi deriviamo una coppia figlia con l'indice 47 + 2^31 (derivazione rinforzata). Successivamente, deriviamo due volte coppie figlie con l'indice 2^31 (derivazione rinforzata).
+Durante questo processo che porta al nostro codice di pagamento, abbiamo utilizzato una chiave pubblica compressa e un codice di catena ("Chain Code"). Questi due elementi sono il risultato di una derivazione deterministica e gerarchica, dalla radice del portafoglio, seguendo il percorso di derivazione seguente: m/47'/0'/0'/
+Concretamente, per ottenere la chiave pubblica e il codice di catena del codice di pagamento riutilizzabile, calcoleremo la chiave privata principale del seed, quindi deriviamo una coppia figlia con l'indice 47 + 2^31 (derivazione rinforzata). Successivamente, deriviamo due coppie figlie con l'indice 2^31 (derivazione rinforzata).
 
 > Se desideri saperne di più sulla derivazione di coppie di chiavi figlie all'interno di un portafoglio deterministico gerarchico Bitcoin, ti consiglio di seguire CRYPTO301.
 
@@ -278,7 +278,7 @@ Lo scambio di chiavi Diffie-Hellman tra Alice e Bob funziona nel seguente modo:
 
 - Alice e Bob scelgono due numeri comuni: p e g. p è un numero primo. Più grande è questo numero p, più sicuro sarà Diffie-Hellman. g è una radice primitiva di p. Questi due numeri possono essere comunicati in chiaro su una rete non sicura, sono equivalenti al colore giallo nella semplificazione sopra. Alice e Bob devono semplicemente avere gli stessi valori di p e g.
 
-- Una volta scelti i parametri, Alice e Bob determinano ciascuno un numero casuale segreto. Il numero casuale ottenuto da Alice è chiamato a (equivalente al colore rosso) e il numero casuale ottenuto da Bob è chiamato b (equivalente al colore blu petrolio). Questi due numeri devono rimanere segreti.
+- Una volta scelti i parametri, Alice e Bob determinano ciascuno un numero casuale segreto. Il numero casuale ottenuto da Alice è chiamato *a* (equivalente al colore rosso) e il numero casuale ottenuto da Bob è chiamato *b* (equivalente al colore blu petrolio). Questi due numeri devono rimanere segreti.
 
 - Invece di scambiare questi numeri a e b, ogni parte calcolerà A (maiuscolo) e B (maiuscolo) come segue:
 
@@ -324,13 +324,13 @@ Grazie alla distributività dell'operatore modulo, Alice e Bob trovano esattamen
 
 ![Schema del funzionamento tecnico di Diffie-Hellman](assets/14.webp)
 
-Un attaccante in possesso di p, g, A e B sarà impossibilitato a calcolare a, b o z. Effettuare questa operazione significherebbe invertire l'esponenziazione. Questo calcolo è impossibile da eseguire se non provando tutte le possibilità una per una, poiché si sta lavorando su un campo finito. Ciò equivale a calcolare il logaritmo discreto, cioè l'inverso dell'esponenziale in un gruppo ciclico finito.
+Un attaccante in possesso di p, g, A e B sarà impossibilitato a calcolare a, b o z. Effettuare questa operazione significherebbe invertire l'esponenziazione. Questo calcolo è impossibile da eseguire se non provando tutte le combinazioni una per una, poiché si sta lavorando su un campo finito. Ciò equivale a calcolare il logaritmo discreto, cioè l'inverso dell'esponenziale in un gruppo ciclico finito.
 
-Pertanto, fintanto che si scelgono a, b e p sufficientemente grandi, Diffie-Hellman è sicuro. Tipicamente, con parametri di 2.048 bit (un numero di 600 cifre in decimale), testare tutte le possibilità per a e b sarebbe chimera. Ad oggi, con numeri di questa dimensione, l'algoritmo è considerato sicuro.
+Pertanto, fintanto che si scelgono a, b e p sufficientemente grandi, Diffie-Hellman è sicuro. Tipicamente, con parametri di 2.048 bit (un numero di 600 cifre in decimale), testare tutte le possibilità per a e b sarebbe una chimera. Ad oggi, con numeri di questa dimensione, l'algoritmo è considerato sicuro.
 
 È proprio a questo livello che risiede il principale svantaggio del protocollo Diffie-Hellman. Per essere sicuro, l'algoritmo deve utilizzare numeri di grandi dimensioni. Di conseguenza, oggi si preferisce utilizzare l'algoritmo ECDH, una variante di Diffie-Hellman che utilizza una curva algebrica, e in particolare una curva ellittica. Ciò ci consente di lavorare con numeri molto più piccoli pur mantenendo una sicurezza equivalente, riducendo così le risorse necessarie per il calcolo e lo storage.
 
-Il principio generale dell'algoritmo rimane lo stesso. Ma invece di utilizzare un numero casuale a e un numero A calcolato da a con l'esponenziazione modulare, utilizzeremo una coppia di chiavi stabilite su una curva ellittica. Invece di fare affidamento sulla distributività dell'operatore modulo, qui utilizzeremo la legge di gruppo sulle curve ellittiche, e più precisamente l'associatività di questa legge.
+Il principio generale dell'algoritmo rimane lo stesso. Ma invece di utilizzare un numero casuale *a* e un numero A calcolato da *a* con l'esponenziazione modulare, utilizzeremo una coppia di chiavi stabilite su una curva ellittica. Invece di fare affidamento sulla distributività dell'operatore modulo, qui utilizzeremo la legge di gruppo sulle curve ellittiche, e più precisamente la proprietà associativa di questa legge.
 Se non hai alcuna conoscenza sul funzionamento delle chiavi private e pubbliche su una curva ellittica, spiegherò le basi di questo metodo nelle prime sei parti di questo articolo.
 
 In breve, una chiave privata è un numero casuale compreso tra 1 e n-1 (dove n è l'ordine della curva), e una chiave pubblica è un punto unico sulla curva determinato dalla chiave privata tramite l'addizione e il raddoppio di punti dal punto generatore come segue:
@@ -372,8 +372,8 @@ Ottengono lo stesso segreto condiviso perché:
 > (x,y) = ka·Kb = ka·kb·G = kb·ka·G = kb·Ka
 
 Un potenziale attaccante che osserva la rete pubblica non sicura può ottenere solo le chiavi pubbliche di entrambi e i parametri della curva scelta. Come spiegato in precedenza, queste due informazioni da sole non consentono di determinare le chiavi private e quindi l'attaccante non può accedere al segreto.
-ECDH è quindi un algoritmo che consente lo scambio di chiavi. Spesso viene utilizzato insieme ad altri metodi crittografici per definire un protocollo. Ad esempio, ECDH è utilizzato nel cuore di TLS (Transport Layer Security), un protocollo di crittografia e autenticazione utilizzato per il livello di trasporto di Internet. TLS utilizza ECDHE per lo scambio di chiavi, una variante di ECDH in cui le chiavi sono effimere per garantire la riservatezza persistente. Oltre a quest'ultimo, TLS utilizza anche un algoritmo di autenticazione come ECDSA, un algoritmo di crittografia come AES e una funzione di hash come SHA256.
-TLS definisce in particolare la "s" in "https", così come il lucchetto che si vede nel browser in alto a sinistra, che garantiscono la crittografia della comunicazione. Quindi, state utilizzando ECDH leggendo questo articolo e probabilmente lo utilizzate quotidianamente senza accorgervene.
+ECDH è quindi un algoritmo che consente lo scambio di chiavi. Spesso viene utilizzato insieme ad altri metodi crittografici per definire un protocollo. Ad esempio, ECDH è utilizzato nel cuore di TLS (Transport Layer Security), un protocollo di crittografia ed autenticazione utilizzato per il livello di trasporto di Internet. TLS utilizza ECDHE per lo scambio di chiavi, una variante di ECDH in cui le chiavi sono effimere per garantire la riservatezza persistente. Oltre a quest'ultimo, TLS utilizza anche un algoritmo di autenticazione come ECDSA, un algoritmo di crittografia come AES e una funzione di hash come SHA256.
+TLS definisce in particolare la "s" in "https", così come il lucchetto che si vede nel browser in alto a sinistra, i quali garantiscono la crittografia della comunicazione. Quindi, state utilizzando ECDH leggendo questo articolo e probabilmente lo utilizzate quotidianamente senza accorgervene.
 
 ### La transazione di notifica.
 

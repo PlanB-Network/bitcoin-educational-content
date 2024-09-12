@@ -899,59 +899,58 @@ Les seules limites sont celles de votre imagination !
 ## Créer des side-events et workshops
 <chapterId>9dbd651a-8712-5630-90b3-b9525dcc1385</chapterId>
 
-Tout au long de l'année, d'autres événements peuvent être organisés. Cela peut être de l'ordre:
+En fonction du temps que vous aurez et de l'implication de votre communauté, d'autres événements peuvent être organisés afin de rythmer l'année. Cela peut être de l'ordre:
 - d'**une soirée restaurant pour le Pizza Day**, le 22 mai;
 - d'**une soirée ou d'un week-end pour "célébrer" le prochain halving**;
-- d'**un événement "jeu en famille" autour de Bitcoin** et de son fonctionnement. Des jeux comme ["Le Coin de Table"](https://www.maximalist.ovh/) ou ["SHAmory"](https://shamory.com/) peuvent alors être apportés;
+- d'**un événement "jeu en famille" autour de Bitcoin** et de son fonctionnement. Des jeux comme "[Le Coin de Table](https://www.maximalist.ovh/)" ou "[SHAmory](https://shamory.com/)" peuvent alors être apportés;
+- d'**un atelier minage**, avec la découverte de plusieurs matériels (processeur, carte graphique, FPGA, ASIC, nerdminer, bitaxe);
+- d'**une après-midi ou soirée spécialement pour les débutants, avec des ateliers thématiques**;
+- voire même, d'**un meet-up commun avec les meet-ups limitrophes**.
 
 ![image](assets/fr/chapter24/37ter.webp)
 
-- d'**un atelier minage**, avec la découverte de plusieurs matériels (processeur, carte graphique, FPGA, ASIC, nerdminer, bitaxe);
-- d'**une après-midi ou soirée spécialement pour les débutants, avec des ateliers thématiques**;
-- voire même, d'**un meet-up commun avec un (voire plusieurs) meet-up(s) limitrophe(s)**.
 ####
-Pensez toutefois à faire attention à **ne pas trop réaliser d'évenement dans le mois car plus il y en a, plus cela demande du temps** pour ses organisateurs comme pour ses participants; et cela peut amener certains d'entre-eux à réfléchir deux fois à leur présence.
+Pensez toutefois à faire attention à **ne pas trop réaliser d'évenements dans le mois car plus il y en a, plus cela demande du temps** pour les organisateurs comme pour les participants; et cela peut amener certains d'entre-eux à ne plus venir à chaque fois.
 
 ## Créer des stickers autocollants
 <chapterId>d605f3b3-130e-513d-85e6-06bc5ea13e99</chapterId>
 
-Symboles de l'identité de votre communauté, il peut être intéressant de réaliser puis de commander des stickers autocollants.
-Avant votre commande, il peut toutefois être pertinent de réfléchir aux points suivants:
+Symbole de l'identité de votre communauté, il peut être intéressant de réaliser puis de commander des stickers autocollants.
+Avant votre commande, différents points sont toutefois à réfléchir:
 - si vous souhaitez que ces stickers puissent être collés dans la rue, ils vous faut des **stickers résistants à l'eau** ("waterproof" ou imperméables);
-- faites **attention à ce que votre logo soit plus petit que la zone annoncée lors de la commande**. Cela permettra en effet d'éviter les erreurs de précision des découpeuses laser, qui découperaient couper une partie de votre logo. Cela est toutefois habituellement expliqué lorsqu'une commande est réalisée;
+- faites **attention à ce que votre logo soit plus petit que la zone annoncée lors de la commande**. Cela permettra en effet d'éviter les erreurs de précision des découpeuses laser, qui découperaient une partie de votre logo. Cela est toutefois habituellement expliqué lorsqu'une commande est réalisée;
 - pensez à **utiliser un fichier vectoriel** plutôt qu'un fichier image. Cela améliorera la qualité à l'impression;
-- **réfléchissez à deux fois à la taille souhaitée**. Par exemple, un sticker circulaire de 8 cm de diamètre fait à peu près la taille de la paume d'une main adulte. Cherchez-vous cette taille, ce qui est quand même assez important pour la visibilité, ou cherchez vous quelque chose de plus discret (4 cm de diamètre, par exemple)?
-- enfin - et c'est un peu technique - si vous souhaitez un beau noir à l'impression (un "noir quadri"), les propriétés de ce dernier devront être de: 30% de cyan, 30% de magenta, 30% de jaune et 100% de noir. Dans le cas où seul 100% de noir est pris en compte, le rendu donnera un noir un peu grisâtre. Heureusement, les imprimeurs font généralement attention à ce détail. Vous ne devriez donc pas vous en faire à ce sujet.
+- **réfléchissez à deux fois à la taille souhaitée**. Par exemple, un sticker circulaire de 8 cm de diamètre fait à peu près la taille de la paume d'une main adulte. Cherchez-vous cette taille, ce qui est quand même assez visible, ou cherchez vous quelque chose de plus discret (4 cm de diamètre par exemple)?
+- enfin - c'est un peu technique - mais si vous souhaitez un beau noir à l'impression (un "noir quadri"), les propriétés de ce dernier devront être de: 30% de cyan, 30% de magenta, 30% de jaune et 100% de noir. Dans le cas où seul 100% de noir est pris en compte, le rendu donnera un noir un peu grisâtre. Heureusement, les imprimeurs font généralement attention à ce détail. Vous ne devriez donc pas vous en faire.
 
 ![image](assets/fr/chapter25/38.webp)
 ####
-En fonction de votre demande et du fournisseur que vous choisirez, tablez **entre 100 et 250 euros pour 1000 stickers**. Vous pouvez également contacter [@Mill3sim3 sur Twitter](https://x.com/Mill3sim3), un bitcoiner français spécialisé dans le marketing qui peut vous permettre d'obtenir des prix près de 30% moins chers que les sites en ligne habituels. N'hésitez pas à le contacter pour cela.
+En fonction de votre demande et du fournisseur que vous choisirez, tablez **entre 100 et 250 euros pour 1000 stickers**. Vous pouvez également contacter [@Mill3sim3 sur Twitter](https://x.com/Mill3sim3), un bitcoiner français spécialisé dans le marketing qui peut vous permettre d'obtenir des prix près de 30% moins chers que les sites en ligne habituels. N'hésitez donc pas à le contacter.
 
 Toutefois, il est à noter que 1000 stickers est une quantité importante. Il est donc clairement **préférable, pour débuter, de partir sur l'achat d'une centaine de stickers**; afin d'être sûr d'écouler ce stock.
 ####
 Petit laïus également: **si vous décidez de coller un de ces stickers dans la rue, en fonction du pays dans lequel vous vous trouverez, cela peut être prohibé par la loi**.
-Dans le cas de la France par exemple, il est interdit de coller des stickers dans la rue, à l'exception des panneaux d'affichages publiques présents dans chaque ville. Cela signifie donc que si un de vos stickers est collé n'importe comment (ou plutôt: n'importe où, comme par exemple en plein milieu d'un panneau stop), ce dernier se fera retirer rapidement; et s'il possède des informations permettant de remonter à votre identité ou à celle de votre meet-up, il n'est pas à exclure que vous puissiez recevoir une petite amende. Faites donc attention et informez-en vos membres.
+Dans le cas de la France par exemple, il n'est autorisé de coller des stickers dans la rue que sur les panneaux d'affichages publiques présents dans chaque ville. Cela signifie donc que si un de vos stickers est collé n'importe comment (ou plutôt: n'importe où, comme par exemple en plein milieu d'un panneau stop), ce dernier se fera retirer rapidement; et s'il possède des informations permettant de remonter à votre identité ou à celle de votre meet-up, il n'est pas à exclure que vous puissiez recevoir une petite amende. Faites donc attention et informez-en vos membres.
 ####
-En parallèle, dans le cas où vous êtes féru de concerts, de bars ou de stades, **pensez à vérifier qu'il y a déjà des stickers collés avant de poser le vôtre. Sinon, pensez à demander à un(e) employé(e) si cela est accepté**.
-En effet, ce serait tout de même dommage qu'un commerçant entende parler de votre communauté / meet-up / association / Bitcoin pour la première fois parce que vous avez saboté la décoration de ses toilettes !
+En parallèle, si vous êtes féru de concerts, de bars ou de stades, **pensez à vérifier qu'il y a déjà des stickers collés avant de poser le vôtre. Si non, prenez quelques secondes pour demander à un(e) employé(e) si cela est possible**. Il serait en effet dommage qu'un commerçant entende parler de votre communauté / meet-up / association / de Bitcoin pour la première fois parce que vous avez "saboté" la décoration de ses toilettes !
 
 ## Créer une bibliothèque
 <chapterId>acc94093-f8b3-51b8-9359-348e9e075d38</chapterId>
 
 Un autre projet pouvant être facilement mis en place est **l'instauration d'une bibliothèque au sein de vos meet-ups**.
-Pour ce faire, vous pouvez proposer à toutes les personnes intéressées pour partager leurs lectures de ramener un livre lié à Bitcoin et, lors du meet-up, si quelqu'un d'autre est intéressé pour l'emprunter, **un prêt peut par exemple être réalisé auprès de son propriétaire, moyennant par exemple une caution de 21 000 satoshis en Lightning**.
-Cela permet donc, pour le propriétaire, de couvrir les frais en cas d'oubli ou de vol; et, pour l'emprunteur, de revenir à un prochain meet-up pour récupérer ses 21 000 satoshis !
+Pour ce faire, vous pouvez proposer à toutes les personnes intéressées pour partager leurs lectures de ramener un livre lié à Bitcoin et, lors du meet-up, si quelqu'un d'autre est intéressé pour l'emprunter, **un prêt pourrait être réalisé auprès de son propriétaire, moyennant par exemple une caution de 21 000 satoshis en Lightning**.
+Cela permet donc, pour le propriétaire, de couvrir les frais en cas d'oubli ou de vol; et pour l'emprunteur, de revenir à un prochain meet-up pour récupérer ses 21 000 satoshis !
 ####
-Dans le cas où vous possédez **une association et que vous souhaitez investir une partie de votre trésorerie dans des ressources pédagogiques et éducatives**, il vous est possible de commander plusieurs livres et de les proposer dans votre **bibliothèque Bitcoin**, à chaque meet-up.
+Dans le cas où vous possédez **une association et que vous souhaitez investir une partie de votre trésorerie dans des ressources pédagogiques et éducatives**, il vous est également possible de commander plusieurs livres et de les proposer dans votre **bibliothèque Bitcoin**, à chaque meet-up.
 
 ![image](assets/fr/chapter26/39.webp)
 ####
-En ce sens, et dans l'optique de développer l'écosystème, **[l'éditeur Konsensus.Network](https://konsensus.network/) propose aux meet-ups et communautés Bitcoin internationales une réduction comprise entre 15% et 35% sur l'ensemble de ses livres; à partir de trois achetés**.
+En ce sens, dans l'optique de développer l'écosystème, **[l'éditeur Konsensus Network](https://konsensus.network/) propose depuis fin 2023 aux meet-ups et communautés Bitcoin internationales une réduction comprise entre 15% et 35% sur l'ensemble de ses livres; à partir de trois achetés**.
+Pour profiter de cette réduction, il suffit de **contacter la [maison d'édition Konsensus](https://twitter.com/KonsensusFR) sur Twitter**.
 
 Si toutefois vous n'avez pas de trésorerie, sachez qu'il est tout de même possible de faire profiter les membres de votre communauté de cette réduction.
 En effet, un des organisateurs de votre communauté peut par exemple centraliser la commande de plusieurs membres et la passer auprès de Konsensus pour un coût moindre, dans l'optique de redistribuer les exemplaires reçus au prochain meet-up. Cette redistribution pourra alors par exemple s'effectuer en Lightning.
-
-Pour profiter de cette réduction, il suffit de **contacter la [maison d'édition Konsensus](https://twitter.com/KonsensusFR) sur Twitter**.
+####
 ####
 Par ailleurs, une charte du prêt de livres peut être écrite et affichée lors des meet-ups, permettant d'expliquer succinctement les règles de celui-ci.
 
@@ -960,35 +959,32 @@ En voici d'ailleurs un exemple open-source, que vous pouvez prendre et modifier 
 
 ![image](assets/fr/chapter26/40-fr.webp)
 #### 
-En parallèle, toujours dans l'idée de développer les lectures autour de Bitcoin, une autre action d'envergure peut être de **se rendre dans les bibliothèques municipales de la ville et de vérifier qu'elles possèdent différents ouvrages sur Bitcoin**.
+Enfin, toujours dans l'idée de développer les lectures autour de Bitcoin, une dernière action d'envergure peut être de **se rendre dans les bibliothèques municipales de la ville et de vérifier qu'elles possèdent différents ouvrages sur Bitcoin**.
 Si oui, peut être demandé aux bibliothéquaires si des **tables rondes** sur ce sujet vont être réalisées dans les prochains mois, quitte à leur donner le contact du meet-up de la ville.
 Si non, **peut être proposé l'achat de plusieurs ouvrages que vous aurez sélectionnés en amont**. Le site de [l'éditeur Konsensus](https://konsensus.network/) peut pour ce faire être une source d'inspiration.
 
 ## Créer des flyers personnalisés et les distribuer
 <chapterId>62ad5430-c698-51b3-89ac-090f31c88953</chapterId>
 
-La création de flyers est une étape prenant beaucoup de temps. Néanmoins, elle permet de **disposer d'un support papier lors des discussions autour de Bitcoin**, ce qui est tout à fait appréciable.
-
+La création et l'écriture de flyers prend beaucoup de temps. Néanmoins, cela permet de **disposer d'un support papier lors des discussions autour de Bitcoin**, ce qui est tout à fait appréciable.
 Ces flyers peuvent ainsi être à destination:
 - **des commerçants**, dans le cas où vous souhaitez leur proposer l'acception de Bitcoin comme moyen de paiement;
 - **des personnes se présentant lors de vos événements**, avec un flyer présentant spécifiquement comment utiliser et payer en Bitcoin / Lightning;
-- et **des néophytes**, croisés dans la rue, sur votre lieu de travail ou à un repas de famille, avec un flyer reprenant les principaux intérêts de Bitcoin.
+- **des néophytes**, croisés dans la rue, sur votre lieu de travail ou à un repas de famille, avec un flyer reprenant les principaux intérêts de Bitcoin.
 
-Il est également tout à fait possible de préparer **un flyer spécifique à votre communauté ou à vos meet-ups, présentant vos actions, vos objectifs, vos réseaux et canaux de communication; mais aussi, les dates et lieux de vos événements déjà planifiés**.
+Il est également tout à fait possible de préparer **un flyer spécifique pour votre communauté ou vos meet-ups, présentant vos actions, vos objectifs, vos réseaux et canaux de communication; mais aussi, les dates et lieux de vos événements déjà planifiés**.
 ####
-Plusieurs flyers sont déjà **disponibles en open-source**, et d'autres seront créés dans les prochains mois. Vous les retrouverez notamment **dans la [Boîte à outils pédagogique Bitcoin de planB.network](https://planb.network/fr/resources/bet)**.
+Plusieurs flyers sont déjà **disponibles en open-source**, et d'autres seront créés dans les prochains mois. Vous les retrouverez notamment **dans la [Boîte à outils pédagogique Bitcoin](https://planb.network/fr/resources/bet)** de planB.network.
 
-Parmi eux, vous trouverez notamment un [flyer complet sourcé](https://profedustream.substack.com/p/21-raisons-dutiliser-bitcoin) reprenant 21 raisons d'utiliser Bitcoin. Son design est d'ailleurs lui aussi [disponible en open-source](https://www.canva.com/design/DAFtAR1NauQ/ZDwl2CchIJ9Gpb36N6-7iw/edit?utm_content=DAFtAR1NauQ&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton).
+Parmi eux, se trouve notamment un [flyer complet sourcé](https://profedustream.substack.com/p/21-raisons-dutiliser-bitcoin) reprenant 21 raisons d'utiliser Bitcoin. Son design est lui aussi [disponible en open-source](https://www.canva.com/design/DAFtAR1NauQ/ZDwl2CchIJ9Gpb36N6-7iw/edit?utm_content=DAFtAR1NauQ&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton). N'hésitez donc pas à le modifier, à l'adapter en fonction de vos besoins puis à le partager. Pensez toutefois à citer vos sources.
 
 ![image](assets/fr/chapter27/41-fr.webp)
 ![image](assets/fr/chapter27/42-fr.webp)
-
-Modifiez le, adaptez le puis partagez le à votre guise. Pensez toutefois à citer vos sources.
 #### 
 Comme dit précédemment, **ces flyers peuvent être déposés un peu partout**: sur un bureau collectif à votre lieu de travail, sur une table lors d'un repas de famille, dans une bibliothèque municipale, etc.
 
 En France et dans quelques autres pays, il existe également **des "boîtes à livres"**.
-Construites généralement en bois, ces dernières accueillent gratuitement les livres à donner. Une possibilité serait donc d'**y laisser un flyer; ou mieux: un livre !**
+Construites généralement en bois, ces dernières accueillent gratuitement des livres à donner. Une possibilité serait donc d'**y laisser un flyer; ou mieux: un livre !**
 
 ![image](assets/fr/chapter27/43.webp)
 ![image](assets/fr/chapter27/44.webp)
@@ -996,7 +992,7 @@ Construites généralement en bois, ces dernières accueillent gratuitement les 
 
 C'est en ce sens qu'en 2023, **l'initiative "Un livre blanc de Bitcoin dans les boîtes à livres de France"** a été lancée.
 Afin de pouvoir mener ce projet à bien avec toutes les personnes intéressées, il a tout d'abord fallu **obtenir la géolocalisation de toutes les boîtes à livres existant dans le pays**. Pour ce faire, différentes bases de données existent:
-- [boite.a.livres.zonelivre.fr](https://boite.a.livres.zonelivre.fr/));
+- [boite.a.livres.zonelivre.fr](https://boite.a.livres.zonelivre.fr/);
 - [boites-a-livres.fr](https://www.boites-a-livres.fr/carte-de-france);
 - [delivrez.fr](https://delivrez.fr/maps/fr_FR/);
 - ainsi que certains articles dans la presse locale.
@@ -1004,7 +1000,7 @@ Afin de pouvoir mener ce projet à bien avec toutes les personnes intéressées,
 Bien évidemment, poster le livre blanc de Bitcoin dans ces boîtes à livres a quelque chose de symbolique. Toutefois, pour un.e néophyte, il est trop complexe dans sa compréhension.
 L'idée a donc été d'**écrire un petit livret, comprenant**:
 - **une introduction vulgarisée et sourcée sur Bitcoin, son utilisation et les problèmes qu'il résout**;
-- et **le livre blanc de Bitcoin**, traduit en français.
+- accompagnée du **livre blanc de Bitcoin**, traduit en français.
 
 Voici donc ci-dessous [le livret qui a été partagé entre bitcoiners français](https://profedustream.substack.com/p/bitcoin-la-naissance-dune-nouvelle) et qui a terminé sa route dans plusieurs dizaines de boîtes à livres du pays. Son design est également [disponible en open-source](https://www.canva.com/design/DAFs18FSoVM/Sy0QsfUkycTgXveeGgutBg/edit?utm_content=DAFs18FSoVM&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton).
 

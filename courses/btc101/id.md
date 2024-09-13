@@ -1,5 +1,5 @@
 ---
-name: Perjalanan Bitcoin
+name: Perjalanan Bitcoin 
 goal: Memahami Bitcoin dan dasar-dasarnya, termasuk proposisi nilai moneter, penambang, transaksi, dan dompet.
 objectives:
   - Memperoleh pemahaman umum tentang teknologi Bitcoin

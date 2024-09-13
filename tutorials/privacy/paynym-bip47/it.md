@@ -587,7 +587,7 @@ Infine, si può osservare che l'ascissa della chiave pubblica (in blu) e il codi
 
 Ora che Alice ha inviato la transazione di notifica a Bob, vediamo come quest'ultimo la interpreta.
 
-Come ricordo, Bob deve essere in grado di accedere al codice di pagamento di Alice. Senza queste informazioni, come vedremo nella parte successiva, non sarà in grado di derivare le coppie di chiavi create da Alice e quindi non potrà accedere ai suoi bitcoin ricevuti con BIP47. Al momento, il payload del codice di pagamento di Alice è crittografato. Vediamo insieme come Bob lo decifra.
+Ricordiamo che, Bob deve essere in grado di accedere al codice di pagamento di Alice. Senza questa informazione, come vedremo nella parte successiva, non sarà in grado di derivare le coppie di chiavi create da Alice e quindi non potrà accedere ai suoi bitcoin ricevuti con BIP47. Al momento, il payload del codice di pagamento di Alice è crittografato. Vediamo insieme come Bob lo decifra.
 
 1. Bob monitora le transazioni che creano output con il suo indirizzo di notifica.
 
@@ -607,13 +607,13 @@ Come ricordo, Bob deve essere in grado di accedere al codice di pagamento di Ali
 
 > S = b·A
 
-- Bob determina il fattore di cieco "f" che consentirà di decifrare il payload del codice di pagamento di Alice. Allo stesso modo in cui Alice lo aveva calcolato in precedenza, Bob troverà "f" applicando HMAC-SHA512 su (x) il valore dell'ascissa del punto segreto "S" e su (o) l'UTXO consumato in input a questa transazione di notifica:
+- Bob determina il punto segreto "f" che consentirà di decifrare il payload del codice di pagamento di Alice. Allo stesso modo in cui Alice lo aveva calcolato in precedenza, Bob troverà "f" applicando HMAC-SHA512 su (x) il valore dell'ascissa del punto segreto "S" e su (o) l'UTXO consumato in input a questa transazione di notifica:
 
 > f = HMAC-SHA512(o, x)
 
 4. Bob interpreta i dati di OP_RETURN nella transazione di notifica come un codice di pagamento. Semplicemente decifrerà il payload di questo potenziale codice di pagamento utilizzando il fattore di cieco "f":
 
-- Bob divide il fattore cieco "f" in due parti: i primi 32 byte di "f" saranno "f1" e gli ultimi 32 byte saranno "f2".
+- Bob divide il punto segreto "f" in due parti: i primi 32 byte di "f" saranno "f1" e gli ultimi 32 byte saranno "f2".
 - Bob decifra il valore dell'ascissa cifrata (x') della chiave pubblica del codice di pagamento di Alice:
 
 > x = x' XOR f1
@@ -626,9 +626,9 @@ Come ricordo, Bob deve essere in grado di accedere al codice di pagamento di Ali
 
 Ora che Bob conosce il codice di pagamento di Alice, lei può inviargli fino a 2^32 pagamenti senza dover mai fare più una transazione di notifica di questo tipo.
 
-Perché funziona? Come fa Bob a determinare lo stesso fattore cieco di Alice e quindi a decifrare il suo codice di pagamento? Esaminiamo più nel dettaglio l'azione di ECDH in ciò che abbiamo appena descritto.
+Perché funziona? Come fa Bob a determinare lo stesso punto segreto di Alice e quindi a decifrare il suo codice di pagamento? Esaminiamo più nel dettaglio l'azione di ECDH in ciò che abbiamo appena descritto.
 
-Innanzitutto, stiamo affrontando una crittografia simmetrica. Ciò significa che la chiave di cifratura e la chiave di decifratura sono lo stesso valore. Questa chiave nella transazione di notifica è il fattore cieco (f = f1 || f2). Quindi Alice e Bob devono ottenere lo stesso valore per f, senza trasmetterlo direttamente poiché un attaccante potrebbe sottrarlo e decifrare l'informazione segreta.
+Innanzitutto, stiamo affrontando una crittografia simmetrica. Ciò significa che la chiave di cifratura e la chiave di decifratura sono lo stesso valore. Questa chiave nella transazione di notifica è il punto segreto (f = f1 || f2). Quindi Alice e Bob devono ottenere lo stesso valore per f, senza trasmetterlo direttamente poiché un attaccante potrebbe sottrarlo e decifrare l'informazione segreta.
 
 Questo fattore cieco viene ottenuto applicando HMAC-SHA512 a due valori: l'ascissa di un punto segreto e l'UTXO consumato come input della transazione. Quindi Bob deve avere queste due informazioni per decifrare il payload del codice di pagamento di Alice.
 
@@ -649,7 +649,7 @@ Come visto nella parte su Diffie-Hellman, semplicemente scambiando le rispettive
 > S = a·B = a·b·G = b·a·G = b·A
 
 ![Schema generazione di un segreto condiviso con ECDHE](assets/19.webp)
-Ora che Bob conosce il codice di pagamento di Alice, sarà in grado di rilevare i pagamenti BIP47 da parte di lei e potrà derivare le chiavi private che bloccano i bitcoin ricevuti.
+Ora che Bob conosce il codice di pagamento di Alice, sarà in grado di rilevare i pagamenti BIP47 da parte di Alice e potrà derivare le chiavi private che bloccano i bitcoin ricevuti.
 ![Bob interpreta la transazione di notifica di Alice](assets/20.webp)
 
 Crediti: Reusable Payment Codes for Hierarchical Deterministic Wallets, Justus Ranvier. https://github.com/bitcoin/bips/blob/master/bip-0047.mediawiki
@@ -668,7 +668,7 @@ Se confrontiamo questo schema con ciò che ho descritto in precedenza:
 
 Riassumo i passaggi che abbiamo appena visto insieme per ricevere e interpretare una transazione di notifica:
 
-- Bob monitora le uscite delle transazioni verso il suo indirizzo di notifica.
+- Bob monitora le transazioni in uscita verso il suo indirizzo di notifica.
 
 - Quando ne rileva una, recupera le informazioni contenute nell'OP_RETURN.
 
@@ -691,8 +691,6 @@ Studiamo ora insieme il processo di pagamento con BIP47. Per ricordarvi la situa
 Prima di spiegarvi questo processo, penso sia importante ricordare su quali indici stiamo lavorando attualmente:
 
 Descriviamo il percorso di derivazione di un codice di pagamento come segue: m/47'/0'/0'/.
-
-La prossima profondità distribuisce gli indici in questo modo:
 
 - La prima coppia di figli normali (non rinforzati) è quella utilizzata per generare l'indirizzo di notifica di cui abbiamo parlato nella parte precedente: m/47'/0'/0'/0/.
 
@@ -888,7 +886,7 @@ E soprattutto, l'implementazione PayNym del BIP47 funziona! È disponibile su Sa
 Speriamo che in futuro questi codici di pagamento riutilizzabili saranno adottati dagli attori dell'ecosistema, implementati nei software dei portafogli e utilizzati dai bitcoiner.
 
 Qualsiasi soluzione veramente positiva per la privacy dell'utente deve essere discussa, promossa e difesa, affinché Bitcoin non diventi il terreno di gioco delle agenzie di intelligence e lo strumento di sorveglianza dei governi.
-Stava pensando al modo in cui era stato perseguitato e insultato ovunque, e ora sentiva tutti dire che era il più bello di tutti quegli splendidi uccelli! E persino il sambuco piegava i suoi rami verso di lui, e il sole diffondeva una luce così calda e benefica! Allora le sue piume si gonfiarono, il suo collo slanciato si erse, e gridò con tutto il cuore: "Come avrei potuto sognare tanta felicità quando ero solo un brutto anatroccolo."
+*Stava pensando al modo in cui era stato perseguitato e insultato ovunque, e ora sentiva tutti dire che era il più bello di tutti quegli splendidi uccelli! E persino il sambuco piegava i suoi rami verso di lui, e il sole diffondeva una luce così calda e benefica! Allora le sue piume si gonfiarono, il suo collo slanciato si erse, e gridò con tutto il cuore: "Come avrei potuto sognare tanta felicità quando ero solo un brutto anatroccolo."*
 
 ## Per andare oltre:
 
@@ -900,7 +898,7 @@ Stava pensando al modo in cui era stato perseguitato e insultato ovunque, e ora 
 
 ### Risorse esterne e ringraziamenti:
 
-Grazie a LaurentMT e Théo Pantamis per i numerosi concetti che mi hanno spiegato e che ho utilizzato in questo articolo. Spero di essere riuscito a trasmetterli con precisione.
+Grazie a LaurentMT e Théo Pantamis per i numerosi concetti che mi hanno spiegato ed utilizzati in questo articolo. Spero di essere riuscito a trasmetterli con precisione.
 
 Grazie a Fanis Michalakis per la revisione di questo testo e i suoi consigli da esperto.
 

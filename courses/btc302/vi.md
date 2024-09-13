@@ -1,161 +1,161 @@
 ---
-name: Tạo một Cộng đồng hoặc Buổi Gặp mặt về Bitcoin
-goal: Tạo và tổ chức một cộng đồng hoặc buổi gặp mặt về Bitcoin một cách dễ dàng
+name: Xây dựng một Cộng đồng hoặc một Buổi gặp mặt về Bitcoin
+goal: Tạo ra và tổ chức một cộng đồng hoặc buổi gặp mặt về Bitcoin một cách dễ dàng
 objectives:
   - Học cách tạo một cộng đồng và/hoặc một buổi gặp mặt về Bitcoin?
-  - Xây dựng bản sắc hình ảnh và kỹ thuật số cho cộng đồng của bạn, và bắt đầu với những công cụ nào?
+  - Xây dựng nhận diện hình ảnh và kỹ thuật số cho cộng đồng của bạn, và bắt đầu với những công cụ nào?
   - Biết cách đặt mục tiêu hàng năm cho cộng đồng của bạn
-  - Định rõ các dự án và sáng kiến cho cộng đồng của bạn
-  - Hiểu được tầm quan trọng của việc dự đoán sự phát triển tương lai của một cộng đồng?
+  - Vạch rõ các dự án và sáng kiến cho cộng đồng của bạn
+  - Hiểu được tầm quan trọng của việc lường trước được sự phát triển tương lai của một cộng đồng?
 ---
 
-# Bước Đầu Tiên Hướng Tới Việc Chấp Nhận Bitcoin
+# Bước chân đầu tiên hướng tới sự mở rộng áp dụng Bitcoin
 
 Ngày nay, rất nhiều nội dung giáo dục được cung cấp trên internet, cho phép mọi người tự học về Bitcoin và hệ sinh thái của nó.
 Tuy nhiên, **một điều mà nhiều người trong chúng ta, những người ủng hộ Bitcoin, thiếu sót là cơ hội để gặp gỡ, trao đổi và chia sẻ kiến thức của mình**. Nhưng cũng là để **cùng nhau xây dựng**.
 
-Để đáp ứng nhu cầu ngày càng tăng này, nhiều người ủng hộ Bitcoin thường quyết định **tạo ra các cộng đồng mới xung quanh họ**. Các buổi gặp mặt sau đó được đề xuất, khi số lượng người tham gia đủ; và những buổi gặp mặt này, thường trở nên định kỳ, sau đó trở thành mảnh đất màu mỡ cho việc thực hiện các bài thuyết trình và hội thảo, cả kỹ thuật lẫn phổ thông.
+Để đáp ứng nhu cầu ngày càng tăng này, những người ủng hộ Bitcoin thường **tạo ra các cộng đồng mới xung quanh họ**. Các buổi gặp mặt sau đó được đề xuất, khi số lượng người tham gia đủ; và những buổi gặp mặt này, thường trở nên định kỳ, sau đó trở thành mảnh đất màu mỡ cho việc thực hiện các bài thuyết trình và hội thảo, cả về khía cạnh kỹ thuật lẫn những khía cạnh có tính đại chúng hơn.
 
-Trong khóa học này có tên "**BTC302**", chúng tôi sẽ cố gắng trình bày **lợi ích của việc tạo ra một cộng đồng và/hoặc một buổi gặp mặt về Bitcoin**, sau đó chúng tôi sẽ chi tiết và đề xuất **các công cụ khác nhau để phát triển bản sắc hình ảnh và kỹ thuật số** của một cộng đồng hoặc buổi gặp mặt.
+Trong khóa học có tên "**BTC302**" này, chúng tôi sẽ cố gắng trình bày **lợi ích của việc tạo ra một cộng đồng (Bitcoin Community) và/hoặc một buổi gặp mặt về Bitcoin (Bitcoin Meet-up)**, sau đó chúng tôi sẽ chi tiết hoá và đề xuất **các công cụ khác nhau để phát triển nhận diện hình ảnh và kỹ thuật số** của một cộng đồng hoặc một buổi gặp mặt (meet-up).
 Tiếp theo, chúng tôi sẽ trình bày **các dự án và sáng kiến khác nhau** có thể dễ dàng thực hiện, đặc biệt từ góc độ giáo dục. Một số nguồn tài nguyên được thiết kế sẵn sau đó sẽ được cung cấp dưới dạng mã nguồn mở.
-Cuối cùng, một sự suy ngẫm sâu sắc hơn sẽ được thực hiện về **sự phát triển của các cộng đồng từ góc độ quốc gia**; nhưng cũng về **vai trò của họ trong việc hyperbitcoinization của thế giới ngày mai**.
+Cuối cùng là một sự suy ngẫm sâu sắc về **sự phát triển của các cộng đồng từ góc độ quốc gia**; và đồng thời cũng là về **vai trò của họ trong việc hyperbitcoinization của thế giới ngày mai**.
 
 +++
 
 # Giới thiệu
 <partId>81318b8f-d316-5787-aa4c-4ec8370ba668</partId>
 
-## Tái đặt vấn đề
+## Đặt lại vấn đề
 <chapterId>e8991b82-4966-5e04-8f05-7cae46eacbaa</chapterId>
 
-Từ năm 2009, Bitcoin đã tiếp tục phát triển. Điều này bao gồm việc thực hiện các Đề xuất Cải tiến Bitcoin mới (BIP), tạo ra các lớp mới để mở rộng mạng (trong số đó, Lightning Network), và sự phát triển của nhiều công ty và startup.
+Từ khi ra đời năm 2009, Bitcoin vẫn tiếp tục phát triển. Sự phát triển này bao gồm việc thực hiện các Đề xuất cải tiến Bitcoin (BIP), tạo ra các lớp mới để mở rộng mạng lưới (một trong số đó là Lightning Network), và sự phát triển của nhiều công ty và startup xung quanh Bitcoin.
 
-Sự phát triển của nó cũng được thể hiện trên chuỗi, đặc biệt là qua số lượng giao dịch ngày càng tăng.
-Như vậy, từ ngày 1 tháng 1 năm 2018 đến ngày 1 tháng 1 năm 2024, ước tính số lượng giao dịch trên lớp chính của Bitcoin đã [tăng 66.2%](https://dune.com/queries/3375917/5663935); trong khi từ tháng 8 năm 2021 đến tháng 8 năm 2023, số lượng giao dịch công khai trên lớp phủ Lightning [tăng 1212%](https://river.com/learn/files/river-lightning-report-2023.pdf).
-Quan điểm thống kê này, tất nhiên, gắn liền với:
-* sự [quan tâm ngày càng tăng trong việc sử dụng Bitcoin của nhiều cá nhân](https://profedustream.substack.com/p/21-raisons-dutiliser-bitcoin) trên khắp thế giới, với mục tiêu tự do khỏi hệ thống ngân hàng và/hoặc sử dụng một loại tiền tệ ít biến động hoặc ít mất giá hơn tiền tệ của họ, như trường hợp của người dân sống ở Lebanon, Syria, Ai Cập, Argentina, v.v.;
-* sự đánh giá cao về giá của nó theo thời gian, dẫn đến việc thông qua việc phát hành tiền tệ của mình để trở thành một khoản đầu tư giá trị và đầu tư dài hạn;
-* sự phát triển liên tiếp của thị trường đầu cơ tiền mã hóa, đặc biệt là vào năm 2017/2018 và 2020/2021;
-* sự xuất hiện ngày càng thường xuyên của Bitcoin trên các phương tiện truyền thông.
+Sự phát triển của nó cũng được thể hiện qua các thông số on-chain, đặc biệt là qua số lượng giao dịch ngày càng tăng.
+Cụ thể, từ ngày 1 tháng 1 năm 2018 đến ngày 1 tháng 1 năm 2024, ước tính số lượng giao dịch trên lớp cơ sở của Bitcoin đã [tăng 66.2%](https://dune.com/queries/3375917/5663935); trong khi từ tháng 8 năm 2021 đến tháng 8 năm 2023, số lượng giao dịch công khai trên lớp thứ hai - Lightning Network [tăng 1212%](https://river.com/learn/files/river-lightning-report-2023.pdf).
+Con số thống kê này, tất nhiên, gắn liền với:
+* Sự [quan tâm đối với việc sử dụng Bitcoin của nhiều cá nhân ngày càng tăng](https://profedustream.substack.com/p/21-raisons-dutiliser-bitcoin) trên khắp thế giới, với mục tiêu giải phóng bản thân khỏi hệ thống ngân hàng và/hoặc sử dụng một loại tiền tệ ít biến động hoặc ít mất giá hơn so với đồng tiền địa phương của họ, như trường hợp của người dân sống ở Lebanon, Syria, Ai Cập, Argentina, v.v.;
+* Sự tăng giá của nó theo thời gian, hiện tượng có được nhờ và kế hoạch phát hành tiền tệ của nó để biến mình để trở thành một khoản đầu tư dài hạn để lưu trữ giá trị;
+* Sự phát triển liên tục của thị trường đầu cơ tiền mã hóa, đặc biệt là vào năm 2017/2018 và 2020/2021;
+* Sự xuất hiện ngày càng thường xuyên của Bitcoin trên các phương tiện truyền thông.
 
 ![image](assets/fr/chapter0/img1ter.webp)
 
 ####
-Trong khi Bitcoin vẫn còn trong giai đoạn đầu, quan sát này - mà bạn chắc chắn đã quen thuộc - khiến chúng ta suy ngẫm về hai điều.
+Trong khi Bitcoin vẫn còn trong giai đoạn phát triển non trẻ ban đầu, quan sát này - mà bạn chắc chắn đã quen thuộc - khiến chúng ta suy ngẫm về hai điều.
 Một mặt, làm thế nào chúng ta có thể khuyến khích những người yêu thích Bitcoin tiếp tục học hỏi và thực hiện các dự án của họ, nhằm **khai thác toàn bộ tiềm năng của Bitcoin**?
-Mặt khác, làm thế nào chúng ta có thể khuyến khích những người mới đến vì lợi nhuận trong "hệ sinh thái tiền mã hóa" không mất tiền vào những đồng tiền meme thời thượng mới nhất, mà **học về cơ bản của Bitcoin**?
+Mặt khác, làm thế nào chúng ta có thể khuyến khích những người mới đến vì sự quyến rũ của tiềm năng lợi nhuận trong "hệ sinh thái tiền mã hóa" không mất tiền vào những đồng tiền meme thời thượng mới nhất, mà thay vào đó sẽ **học tập những kiến thức cơ bản của Bitcoin**?
 ####
-Đối với hai vấn đề này, giải pháp tốt nhất là tham gia trực tiếp và giáo dục.
+Đối với hai vấn đề này, giải pháp tốt nhất là đặt chân mình trên mặt đất và đóng góp vào công cuộc mở rộng giáo dục về Bitcoin.
 
 
-## Tại sao tạo một cộng đồng hoặc cuộc gặp Bitcoin?
+## Tại sao lại tạo một cộng đồng hoặc một cuộc gặp Bitcoin?
 <chapterId>893ea248-7d5a-5b8e-948c-7031497b1031</chapterId>
 
-### Sự khác biệt giữa cộng đồng và cuộc gặp là gì?
+### Sự khác biệt giữa một cộng đồng và một cuộc gặp là gì?
 
-Mặc dù, trong hệ sinh thái Bitcoin, không có định nghĩa cụ thể cho hai thuật ngữ này, một cộng đồng có thể được xem là sự tập hợp của nhiều cá nhân chia sẻ một (hoặc nhiều) đam mê chung, và giao tiếp với nhau một cách thường xuyên hơn hoặc ít hơn.
-Song song, một cuộc gặp là một sự kiện được tổ chức bởi (và cho) cộng đồng này, với một mục tiêu cụ thể trong tâm trí. Do đó, nó thường được tổ chức sau khi cộng đồng liên quan đã được tạo ra.
-Về vấn đề này, trong suốt khóa học này, chúng ta sẽ xem xét rằng để khởi xướng một cuộc gặp Bitcoin, trước tiên sẽ cần phải trao đổi với những người khác quan tâm đến việc thực hiện loại sự kiện này; và do đó, rằng **một cộng đồng Bitcoin phải đã được tạo ra trước đó**.
+Mặc dù, trong hệ sinh thái Bitcoin, không có định nghĩa cụ thể cho hai thuật ngữ này, một cộng đồng có thể được xem là sự tập hợp của nhiều cá nhân chia sẻ một (hoặc nhiều) đam mê chung, và thường xuyên hoặc thỉnh thoảng giao tiếp với nhau.
+Còn một cuộc gặp là một sự kiện được tổ chức bởi (và cho) cộng đồng này, với một mục tiêu cụ thể trong tâm trí. Do đó, nó thường được tổ chức sau khi cộng đồng liên quan đã được tạo ra.
+Về vấn đề này, trong suốt khóa học này, chúng ta sẽ thấy rằng để khởi xướng một cuộc gặp Bitcoin, trước tiên sẽ cần phải trao đổi với những người khác quan tâm đến việc thực hiện loại sự kiện này; và vì vậy, **một cộng đồng Bitcoin phải đã được tạo ra trước đó**.
 
-### Tại sao tạo một cộng đồng?
+### Tại sao lại tạo ra một cộng đồng Bitcoin?
 
-Như đã đề cập trong chương trước, việc tạo ra một cộng đồng có thể có nhiều mục tiêu.
+Như đã đề cập trong chương trước, việc tạo ra một cộng đồng Bitcoin có thể có nhiều mục tiêu.
 
-Một mặt, khi được tạo thành từ những người yêu thích Bitcoin, một cộng đồng có thể cho phép các thành viên trao đổi và chia sẻ thông tin với nhau. Sự giúp đỡ lẫn nhau sau đó thường là trọng tâm của nó, cho phép mọi người tăng tốc độ học hỏi của mình.
-Điều này có ý nghĩa đặc biệt trong trường hợp của Bitcoin, với sự phức tạp của nó.
+Một mặt, khi được tạo thành từ những người yêu thích Bitcoin, một cộng đồng là nơi để các thành viên có thể trao đổi và chia sẻ thông tin với nhau. Sự giúp đỡ lẫn nhau sau đó thường là trọng tâm của nó, cho phép mọi người tăng tốc độ học hỏi của mình.
+Điều này có ý nghĩa đặc biệt trong trường hợp của Bitcoin, do sự mới mẻ và phức tạp của nó.
 
-Song song, một cộng đồng của những người yêu thích Bitcoin cũng có thể cho phép xây dựng giữa các đồng nghiệp. Đây là cách mà nhiều sáng kiến và dự án quan trọng được sinh ra, xây dựng và phát triển.
+Đồng thời, một cộng đồng của những người yêu thích Bitcoin cũng có thể được xây dựng nên từ những người cùng chí hướng. Đây là cách mà nhiều sáng kiến và dự án quan trọng được sinh ra, xây dựng và phát triển.
 ####
 Mặt khác, một cộng đồng Bitcoin cũng có thể có các mục tiêu mở rộng hơn; đặc biệt với mục đích giáo dục càng nhiều người dân càng tốt về:
 1. Bitcoin là gì;
-2. nó hoạt động như thế nào
-3. nó mang lại gì cho xã hội chúng ta;
-4. những điều vô căn cứ và/hoặc gây hiểu lầm mà một số nhân vật và phương tiện truyền thông tìm cách lan truyền;
-5. sự khác biệt cơ bản của nó so với các loại tiền mã hóa khác.
+2. Nó hoạt động như thế nào
+3. Nó mang lại gì cho xã hội chúng ta;
+4. Những điều vô căn cứ và/hoặc gây hiểu lầm về Bitcoin mà một số nhân vật và phương tiện truyền thông đang tìm cách lan truyền;
+5. Sự khác biệt cơ bản của nó so với các loại tiền mã hóa khác.
 
 ![image](assets/fr/chapter1/img2-frbis.webp)
 
-Dần dần xây dựng những pháo đài đầu tiên của thế giới ngày mai, **các cộng đồng Bitcoin trên khắp thế giới đứng lên như một bức bình phong đặc biệt chống lại những nỗ lực về thông tin sai lệch và/hoặc kiểm duyệt ở một số quốc gia**. Song song, **họ tạo ra một môi trường màu mỡ cho việc học về cơ bản của Bitcoin**; cho phép bất kỳ ai chưa hiểu về nó, khi họ sẵn sàng, có các liên hệ và nguồn lực để hình dung một thế giới mới.
+Dần dần xây dựng những pháo đài đầu tiên của thế giới ngày mai, **các cộng đồng Bitcoin trên khắp thế giới đứng lên như một bức tường đặc biệt chống lại những nỗ lực về thông tin sai lệch và/hoặc kiểm duyệt ở một số quốc gia**. Đồng thời, **họ tạo ra một môi trường màu mỡ, phì nhiêu để mọi người cùng học hỏi về nền tảng của Bitcoin**; cho phép bất kỳ ai chưa hiểu về nó, một khi sẵn sàng, có các đầu mối liên hệ và nguồn lực cần thiết để mường tượng về một thế giới mới.
 
-Hơn nữa, **vì Bitcoin là bao trùm, dường như đó là vai trò của một cộng đồng để trao quyền và giáo dục tất cả những người yêu thích Bitcoin tương lai về cơ bản của Bitcoin**; bao gồm cả những người e ngại nhất.
+Hơn nữa, **vì Bitcoin là bao trùm, dường như việc trao truyền sức mạnh, sự tự tin và giáo dục về nền tảng của Bitcoin cho những Bitcoiner trong tương lai sẽ là vài trò của một cộng đồng**; bao gồm cả những người e ngại nhất.
 ####
-Mặc dù chúng ta sẽ nói nhiều hơn về điều này sau trong khóa học, vẫn cần phải nói ngay từ bây giờ rằng **một cộng đồng có thể tồn tại hoàn toàn trên không gian số**. Do đó, một nhóm Telegram "Bitcoin London", một nhóm Facebook "Bitcoin Berlin", một máy chủ Discord "Bitcoin Madrid", hoặc một danh sách email "Bitcoin France" đều tạo thành, hoàn toàn trên không gian số, các cộng đồng. Điều này có nghĩa là **một cộng đồng không, về mặt kỹ thuật, cần phải có các cuộc gặp gỡ trực tiếp để tồn tại, tiến triển và phát triển các dự án của mình. Mục tiêu của nó vẫn là chia sẻ, xây dựng và giáo dục**.
+Mặc dù chúng ta sẽ nói nhiều hơn về điều này trong khóa học, vẫn cần phải nói ngay từ bây giờ rằng **một cộng đồng có thể tồn tại hoàn toàn trên không gian số**. Do đó, một nhóm Telegram "Bitcoin London", một nhóm Facebook "Bitcoin Berlin", một Discord Server "Bitcoin Madrid", hoặc một danh sách email "Bitcoin France" đều tạo thành các cộng đồng, hoàn toàn trên không gian số. Điều này có nghĩa là **về mặt kỹ thuật, một cộng đồng không cần phải có các cuộc gặp gỡ trực tiếp để tồn tại, tiến triển và phát triển các dự án của mình. Mục tiêu của nó vẫn là chia sẻ, xây dựng và giáo dục**.
 
-### Tại sao tạo một buổi gặp mặt?
+### Tại sao tạo một buổi gặp mặt Bitcoin?
 
-Như đã nói trước đó, **việc tạo ra một buổi gặp mặt là theo sau việc tạo ra một cộng đồng, vì nó bổ sung cho cộng đồng đó**.
-Thực vậy, trong hành trình của một người hâm mộ Bitcoin, một số lượng đáng kể người thể hiện mong muốn (và nhu cầu) **gặp gỡ và trao đổi trực tiếp với những người khác** trong cùng một hệ sinh thái. Điều này thường được giải thích bởi sự xuất hiện của cảm giác cô đơn, hiện diện ở nhiều người trong số họ.
-Tổ chức những buổi gặp mặt này có thể cho phép các cuộc gặp gỡ trực tiếp thân mật hơn so với qua cuộc gọi âm thanh hoặc video. Chúng có thể diễn ra **qua một ly đồ uống hoặc bữa ăn**, và cho phép trao đổi chính xác và trực tiếp hơn, với một số lượng lớn hơn người tham gia.
+Như đã nói trước đó, **việc tạo ra một buổi gặp mặt là theo sau việc tạo ra một cộng đồng, vì nó là hoạt động bổ sung cho cộng đồng đó**.
+Thực vậy, trong hành trình của một người ủng hộ Bitcoin, luôn có một số lượng đáng kể những người thể hiện mong muốn (và nhu cầu) **gặp gỡ và trao đổi trực tiếp với những người khác** trong cùng một hệ sinh thái. Điều này thường được giải thích bởi sự xuất hiện của cảm giác "cô đơn" mà nhiều người gặp phải trong hành trình này.
+Các buổi gặp mặt này tạo ra các cuộc gặp gỡ trực tiếp thân mật hơn so với qua cuộc gọi âm thanh hoặc video. Chúng có thể diễn ra **với một ly đồ uống hoặc bữa ăn**, và cho phép trao đổi chính xác và trực tiếp hơn, với một số lượng lớn hơn những người tham gia.
 
 ![image](assets/fr/chapter1/img3bis.webp)
 
-Đối với những người hâm mộ Bitcoin, các buổi gặp mặt sau đó có thể là thời điểm **thích hợp để thảo luận về các chủ đề kỹ thuật hoặc dự án** mà họ đang phát triển; và đối với những "người mới tìm hiểu về Bitcoin," để **khám phá thế giới của Bitcoin và dần dần đắm chìm vào nó**.
+Đối với những người ủng hộ Bitcoin, các buổi gặp mặt sau đó có thể là thời điểm **thích hợp để thảo luận về các chủ đề kỹ thuật hoặc dự án** mà họ đang phát triển; và đối với những "người mới tìm hiểu về Bitcoin," để **khám phá thế giới của Bitcoin và dần dần đắm chìm vào nó**.
 ####
-Hơn nữa, những sự kiện này cũng có thể tạo điều kiện thuận lợi cho việc công bố các dự án liên quan đến Bitcoin, việc cho mượn thiết bị hoặc sách, buổi chiếu sớm một bộ phim tài liệu; mà còn, việc tổ chức một hội nghị hoặc một hội thảo về một chủ đề nhất định. Chúng ta sẽ nói về điều này chi tiết hơn trong phần 6/8 của khóa học, có tiêu đề "[Ví dụ về các dự án và sáng kiến](LINK).
+Hơn nữa, những sự kiện này cũng tạo điều kiện thuận lợi cho việc công bố các dự án liên quan đến Bitcoin, việc cho mượn thiết bị hoặc sách, buổi chiếu sớm một bộ phim tài liệu, việc tổ chức một hội nghị hoặc một hội thảo về một chủ đề nhất định... Chúng ta sẽ nói về điều này chi tiết hơn trong phần 6/8 của khóa học, có tiêu đề "[Ví dụ về các dự án và sáng kiến](LINK).
 ####
-Mặc dù việc mỗi cộng đồng tự hình thành ý kiến của mình, khởi xướng các dự án của riêng mình, và tiến hành các thí nghiệm của riêng mình là quyền của họ, **các buổi gặp mặt dường như là cần thiết cho sự phát triển của Bitcoin và các cộng đồng của nó**; và điều này, trên tất cả các lãnh thổ.
+Mặc dù việc mỗi cộng đồng tự hình thành ý kiến của mình, khởi xướng các dự án của riêng mình, và tiến hành các thí nghiệm của riêng mình là quyền của họ, **các buổi gặp mặt dường như là cần thiết cho sự phát triển của Bitcoin và các cộng đồng của nó**; và điều này, trên tất cả các vùng lãnh thổ.
 
-**Tuy nhiên, việc tổ chức chúng đòi hỏi một số kế hoạch và thời gian**; và đó là lý do tại sao, trong khóa học này, chúng tôi sẽ cố gắng chia sẻ kinh nghiệm tóm tắt của [sáu mươi cộng đồng Bitcoin Pháp và Bỉ](https://btcmap.org/communities/map#2/5.24949/0.20000); **để bạn có thể tạo và phát triển cộng đồng và buổi gặp mặt của mình một cách đơn giản nhất có thể**.
+**Tuy nhiên, việc tổ chức chúng đòi hỏi việc lên kế hoạch và thời gian**; và đó là lý do tại sao, trong khóa học này, chúng tôi sẽ cố gắng chia sẻ kinh nghiệm tóm tắt của [sáu mươi cộng đồng Bitcoin Pháp và Bỉ](https://btcmap.org/communities/map#2/5.24949/0.20000); **để bạn có thể tạo và phát triển cộng đồng và buổi gặp mặt của mình một cách đơn giản nhất có thể**.
 
 ## Nên tạo cộng đồng và buổi gặp mặt của bạn ở đâu?
 <chapterId>72da5285-5395-592d-ab62-303a0aef3d6d</chapterId>
 
-Một khi bạn đã quyết định thành lập một cộng đồng Bitcoin, câu hỏi đầu tiên bạn nên tự hỏi là: nên tạo nó ở đâu? Và câu hỏi này rất quan trọng.
+Một khi bạn đã quyết định thành lập một cộng đồng Bitcoin, câu hỏi đầu tiên bạn nên tự hỏi bản thân là: nên tạo nó ở đâu? Và câu hỏi này rất quan trọng.
 
 Thực vậy, mặc dù việc tạo ra một cộng đồng ban đầu chỉ dựa vào các công cụ giao tiếp và mạng xã hội số, **vị trí địa lý cần được xem xét vì nhiều lý do**.
 ####
-Ban đầu, khi muốn trao đổi và gặp gỡ những người hâm mộ Bitcoin khác, thường bắt đầu bằng việc tìm kiếm trên internet. Điều này nhanh chóng dẫn đến việc khám phá và hướng tới các máy chủ Discord hoặc kênh Telegram như của [Decouvre Bitcoin](https://decouvrebitcoin.fr/), hoặc thậm chí là các diễn đàn thảo luận như [bitcointalk.org](https://bitcointalk.org).
-Sau vài tháng tương tác qua màn hình, thường sẽ đến lúc cảm thấy mong muốn tiến xa hơn. Mong muốn này sau đó trở thành nhu cầu gặp gỡ những người hâm mộ Bitcoin khác, với những người mà một cảm thấy "gần gũi" về mặt vật lý. Nói cách khác: những người hâm mộ Bitcoin từ chính thành phố của mình, hoặc thậm chí là từ cùng một khu vực.
-Thật không may, **hoàn toàn có thể không tồn tại cộng đồng Bitcoin nào gần bạn vào thời điểm đó. Đây chắc chắn là lúc bạn nên đảm nhận vai trò là sứ giả cho một cộng đồng mới**.
+Khi muốn trao đổi và gặp gỡ những người ủng hộ Bitcoin khác, chúng ta thường bắt đầu bằng việc tìm kiếm trên internet. Điều này nhanh chóng dẫn đến việc khám phá và hướng tới các Discord Server hoặc kênh Telegram như của [Decouvre Bitcoin](https://decouvrebitcoin.fr/), hoặc thậm chí là các diễn đàn thảo luận như [bitcointalk.org](https://bitcointalk.org).
+Sau vài tháng tương tác qua màn hình, thường sẽ đến lúc bạn cảm thấy mong muốn tiến xa hơn. Mong muốn này sau đó trở thành nhu cầu gặp gỡ những người ủng hộ Bitcoin khác, những người mà bạn cảm thấy "gần gũi" về mặt vật lý. Nói cách khác: những người ủng hộ Bitcoin từ chính thành phố của mình, hoặc thậm chí là từ cùng một khu vực.
+Thật không may, **hoàn toàn có thể không tồn tại cộng đồng Bitcoin nào gần vị trí của bạn vào thời điểm đó. Đây chắc chắn là lúc bạn nên đảm nhận vai trò là sứ giả cho một cộng đồng mới**.
 
-Tuy nhiên, trước khi bắt đầu, điều cần thiết là phải dự đoán bước tiếp theo: một cuộc gặp gỡ tiềm năng. Một buổi gặp mặt, nói cách khác!
-Tuy nhiên, rõ ràng là nếu các thành viên của cộng đồng bạn phải lái xe hai giờ để đến sự kiện của bạn, ít người trong số họ sẽ thực hiện chuyến đi.
-Đó là lý do tại sao **vị trí địa lý của cộng đồng bạn (và do đó, các buổi gặp mặt tương lai của bạn) có ảnh hưởng đáng kể đến sự phát triển của nó**.
+Tuy nhiên, trước khi bắt đầu, điều cần thiết là phải lường trước bước tiếp theo: một cuộc gặp gỡ tiềm năng. Một buổi gặp mặt, nói cách khác!
+Tuy nhiên, rõ ràng là nếu các thành viên trong cộng đồng bạn phải lái xe hai giờ để đến sự kiện của bạn, ít người trong số họ sẽ thực hiện chuyến đi.
+Đó là lý do tại sao **vị trí địa lý của cộng đồng (và kéo theo, các buổi gặp mặt tương lai của cộng đồng) có ảnh hưởng đáng kể đến sự phát triển của nó**.
 
 #### 
 Dưới đây là một số suy nghĩ có thể hướng dẫn bạn:
 1) **Tạo và phát triển cộng đồng của bạn trong một thành phố trung bình hoặc lớn**. Điều này sẽ cho phép bạn:
-    * **tìm địa điểm** dễ dàng hơn cho buổi gặp mặt và/hoặc các dự án của bạn (bài thuyết trình, hội thảo, chấp nhận Bitcoin như một phương tiện thanh toán, v.v.);
-    * **tăng cảm giác tham gia và thuộc về** của một số lượng lớn hơn người dân đối với cộng đồng và các sự kiện của bạn;
-    * **làm cho việc tham gia sự kiện của bạn dễ dàng hơn** (phương tiện giao thông công cộng, bãi đậu xe, v.v.). **Do đó, việc chọn một địa điểm cho tổ chức một buổi gặp mặt trực tiếp, gần phương tiện giao thông công cộng và bãi đậu xe, rõ ràng là điều khuyến khích**.
+    * **Tìm địa điểm** dễ dàng hơn cho buổi gặp mặt và/hoặc các dự án của bạn (bài thuyết trình, hội thảo, chấp nhận Bitcoin như một phương tiện thanh toán, v.v.);
+    * **Tăng cảm giác được tham gia và thuộc về** của một số lượng người lớn hơn đối với cộng đồng và các sự kiện của bạn;
+    * **Làm cho việc tham gia sự kiện của bạn dễ dàng hơn** (phương tiện giao thông công cộng, bãi đậu xe, v.v.). **Do đó, việc chọn một địa điểm để tổ chức một buổi gặp mặt trực tiếp, gần phương tiện giao thông công cộng và bãi đậu xe, rõ ràng là điều được khuyến khích**.
 
-2) **Chọn một tên cho cộng đồng/buổi gặp mặt của bạn mà tham chiếu đến thành phố này**, giúp mọi người dễ dàng đồng nhận với nó. Ví dụ: "Bitcoin Paris", "Einundzwanzig Berlin", "Satoshi Spritz Milano", v.v.
+2) **Chọn một cái tên cho cộng đồng/buổi gặp mặt của bạn có liên quan đến thành phố này**, giúp mọi người dễ dàng đồng nhận với nó. Ví dụ: "Bitcoin Paris", "Einundzwanzig Berlin", "Satoshi Spritz Milano", v.v.
 ####
-Một điểm khác cũng rất quan trọng để tìm hiểu là: **đã có buổi gặp mặt nào gần tôi chưa?**
-Để làm điều này, bạn nên biết rằng trang web [btcmap.org](https://btcmap.org/communities/map#0/0/0/) liệt kê hầu hết các cộng đồng và buổi gặp mặt toàn cầu.
+Một điểm khác cũng rất quan trọng để tìm hiểu là: **đã có buổi gặp mặt nào gần chỗ của tôi chưa?**
+Để làm điều này, bạn nên biết rằng trang web [btcmap.org](https://btcmap.org/communities/map#0/0/0/) liệt kê hầu hết các cộng đồng và buổi gặp mặt Bitcoin trên toàn cầu.
 
 ![image](assets/fr/chapter2/img4.webp)
-Sau một số nghiên cứu, nếu bạn quyết định tạo một buổi gặp mặt hoặc một cộng đồng trong cùng một thành phố (hoặc thành phố lân cận) với một buổi gặp mặt đang hoạt động đã diễn ra trong vài tháng/năm, bạn nên biết rằng điều này có thể tạo ra một hình thức cạnh tranh; ngay cả khi nó không cố ý. Tất nhiên, vì Bitcoin là phi tập trung, mọi người đều tự do làm những gì họ muốn. Tuy nhiên, rõ ràng là **việc hợp nhất lực lượng càng nhiều càng tốt thay vì nhân lên các cộng đồng gần nhau; do đó, giảm khả năng tác động của mỗi cộng đồng**.
-Theo nghĩa này, "quy ước" sau có thể giúp bạn quyết định vấn đề: nếu không có cộng đồng Bitcoin hoạt động nào trong vòng 45 phút từ vị trí của bạn (hãy nói bằng xe hơi, chẳng hạn), thì có vẻ hợp lý để tạo một cộng đồng mới.
+Sau một số nghiên cứu, nếu bạn quyết định tạo một buổi gặp mặt hoặc một cộng đồng trong cùng một thành phố (hoặc thành phố lân cận) với một buổi gặp mặt / cộng đồng đang hoạt động và đã vận hành trong vài tháng/năm, bạn nên biết rằng điều này có thể tạo ra một sự cạnh tranh; ngay cả khi bạn không cố ý. Tất nhiên, vì Bitcoin là phi tập trung, mọi người đều có quyền tự do làm những gì họ muốn. Tuy nhiên, rõ ràng là **việc hợp nhất lực lượng càng nhiều càng tốt thay vì nhân lên các cộng đồng gần nhau; do đó, giảm khả năng tác động của mỗi cộng đồng**.
+Theo nghĩa này, "quy ước" sau có thể giúp bạn đưa ra quyết định cho vấn đề này: nếu không có cộng đồng Bitcoin đang hoạt động nào trong vòng 45 phút từ vị trí của bạn (tính theo di chuyển bằng xe hơi, chẳng hạn), thì có vẻ hợp lý để tạo một cộng đồng mới.
 Nhưng tất nhiên, bạn hoàn toàn tự do làm những gì bạn muốn.
 
-Nếu tuy nhiên, một cộng đồng Bitcoin tồn tại nhưng không hoạt động, có thể hợp lý hơn khi tiếp quản và làm sống lại ngọn lửa của nó; bằng cách liên hệ, ví dụ, với những người sáng lập trước đó với mục tiêu nhận quyền truy cập vào các kênh truyền thông và mạng xã hội đã sử dụng trước đó.
+Tuy nhiên, nếu một cộng đồng Bitcoin tồn tại nhưng không hoạt động, có thể sẽ hợp lý hơn khi tiếp quản và làm sống lại ngọn lửa của nó; bằng cách liên hệ, ví dụ, với những người sáng lập trước đó với mục tiêu nhận quyền truy cập vào các kênh truyền thông và mạng xã hội đã sử dụng trước đó.
 
-Ngược lại, trong trường hợp một cộng đồng Bitcoin cũ đã - hãy nói - "phát triển", không còn chia sẻ giá trị của bạn, và bạn không có động lực hoặc thời gian để thuyết phục họ, việc tạo một nhánh mới luôn là khả năng.
+Ngược lại, trong trường hợp một cộng đồng Bitcoin cũ đã - giả sử - "tiến hoá", không còn chia sẻ giá trị của bạn, và bạn không có động lực hoặc thời gian để thuyết phục họ, việc tạo một cái mới luôn là điều khả dĩ.
 
-## Mục tiêu nên được đặt ra như thế nào?
+## Bạn nên đặt ra những mục tiêu nào cho cộng đồng / buổi gặp mặt Bitcoin của mình?
 <chapterId>0aae1aa8-93ec-544a-ad88-22d32c619595</chapterId>
 
-Giờ đây, khi bạn đã tìm thấy thành phố (hoặc địa điểm địa lý) mà bạn sẽ gắn kết cộng đồng của mình, việc **suy nghĩ về các mục tiêu bạn muốn đạt được** trở nên cần thiết.
-Câu hỏi này có thể được trả lời một mình, ngay tại thời điểm khởi đầu của cộng đồng/hội nhóm của bạn, hoặc khi đã có nhiều thành viên tham gia và cộng đồng của bạn đang hoạt động.
+Giờ đây, khi bạn đã tìm thấy thành phố (hoặc địa điểm) mà bạn sẽ gắn kết cộng đồng của mình, việc **suy nghĩ về các mục tiêu bạn muốn đạt được** là điều cần thiết.
+Câu hỏi này có thể được trả lời một mình, ngay tại thời điểm khởi đầu của cộng đồng / buổi gặp mặt của bạn, hoặc khi đã có nhiều thành viên tham gia và cộng đồng đang hoạt động của bạn.
 
-Để giúp bạn, chúng tôi đã liệt kê một số suy ngẫm dưới đây có thể hữu ích.
+Để hỗ trợ, dưới đây, chúng tôi đã liệt kê một số suy ngẫm có thể hữu ích với bạn:
 ####
-1. **Tại sao, với tư cách là một người yêu thích bitcoin, tôi đã tạo ra cộng đồng này?** Liệu mục đích có phải là để chia sẻ kiến thức của mình? Để giáo dục? Để học hỏi từ người khác? Để gặp gỡ những người có cùng tầm nhìn? Để tham gia vào hệ sinh thái? Để gặp gỡ các chuyên gia? Hay chỉ đơn giản là để uống bia và kết bạn mới?
+1. **Tại sao, với tư cách là một người yêu thích Bitcoin, tôi lại tạo ra cộng đồng này?** Liệu mục đích có phải là để chia sẻ kiến thức của mình? Để giáo dục? Để học hỏi từ người khác? Để gặp gỡ những người có cùng tầm nhìn? Để tham gia vào hệ sinh thái? Để gặp gỡ các chuyên gia? Hay chỉ đơn giản là để uống bia và kết bạn mới?
 
 Rõ ràng, tùy thuộc vào câu trả lời của bạn, vị trí và động cơ của bạn sẽ không giống nhau.
-Ví dụ, nếu mục tiêu của bạn là **chia sẻ kiến thức của mình với mục đích giáo dục về Bitcoin**, thì rõ ràng việc **tạo ra nội dung giáo dục** (bài viết, podcast, video, bài thuyết trình, tờ rơi, v.v.) là phù hợp. Bạn sẽ giúp người khác tiết kiệm hàng chục giờ nghiên cứu và làm việc. Điều này thậm chí có thể được đẩy xa hơn, thông qua việc **tổ chức các hội thảo, bài thuyết trình và hội nghị**.
-Song song, nếu mục tiêu của bạn là "đơn giản" gặp gỡ những người yêu thích bitcoin khác để chia sẻ cuộc sống hàng ngày, điều này có thể được thực hiện một cách thoải mái hơn; ví dụ, qua một buổi uống nước.
-Tuy nhiên, bạn chắc chắn biết rằng việc nâng ly giúp tạo điều kiện cho các tương tác xã hội, đặc biệt là khi có rượu. Dù vậy, mặc dù ngày nay vẫn phổ biến cảm giác cô đơn và không được hiểu bởi mọi người khi một người tin tưởng sâu sắc vào những gì Bitcoin mang lại cho xã hội của chúng ta, quan trọng là không quên rằng **uống bia cho phép thảo luận về thế giới, nhưng không thay đổi nó** :smirk:
+Ví dụ, nếu mục tiêu của bạn là **chia sẻ kiến thức của mình với mục đích giáo dục về Bitcoin**, thì rõ ràng việc **tạo ra nội dung giáo dục** (bài viết, podcast, video, bài thuyết trình, tờ rơi, v.v.) là phù hợp. Bạn sẽ giúp người khác tiết kiệm hàng chục giờ nghiên cứu và làm việc. Điều này thậm chí có thể được đẩy xa hơn, thông qua việc **tổ chức các cuộc hội thảo, bài thuyết trình và hội nghị**.
+Song song với đó, nếu mục tiêu của bạn chỉ "đơn giản" là gặp gỡ những người yêu thích Bitcoin khác để chia sẻ cuộc sống hàng ngày, điều này có thể được thực hiện một cách thoải mái hơn; ví dụ, qua một buổi uống nước.
+Tuy nhiên, bạn chắc chắn biết rằng việc nâng ly giúp tạo điều kiện cho các tương tác xã hội, đặc biệt là khi có rượu. Dù vậy, mặc dù ngày nay cảm giác cô đơn và không được thấu hiểu bởi mọi người khi một ai đó tin tưởng sâu sắc vào những gì Bitcoin mang lại cho xã hội của chúng ta vẫn là cảm giác phổ biến, quan trọng là không được quên rằng **uống bia cho phép thảo luận về thế giới, nhưng không làm thay đổi nó** :smirk:
 
-Theo nghĩa này, **việc đặt ra các mục tiêu và dự án cụ thể dường như là cần thiết**.
+Theo nghĩa này, **việc đặt ra các mục tiêu và dự án cụ thể dường như là điều cần thiết**.
 ####
-2. Liệu có phù hợp để **mang lại chiều kích vật lý cho cộng đồng của tôi** không? Nếu có, những sự kiện nào có thể được thực hiện?
+2. Liệu có phù hợp để **mang lại yếu tố "tương tác vật lý" cho cộng đồng của tôi** không? Nếu có, những sự kiện nào có thể được thực hiện?
 
-Trong trường hợp bạn muốn mang lại chiều kích vật lý cho cộng đồng của mình, sự kiện đầu tiên của bạn chắc chắn sẽ là một buổi gặp mặt. Mục tiêu của nó sau đó rõ ràng sẽ là gặp dần dần những người yêu thích bitcoin sống gần bạn.
+Trong trường hợp bạn muốn mang lại yếu tố tương tác vật lý cho cộng đồng của mình, sự kiện đầu tiên của bạn chắc chắn sẽ là một buổi gặp mặt. Mục tiêu của nó sau đó rõ ràng sẽ là gặp dần dần những người ủng hộ bitcoin sống gần bạn.
 
-Tuy nhiên, như chúng ta sẽ thấy sau trong phần [Ví dụ về các dự án và sáng kiến](LINK), **một buổi gặp mặt có thể được xây dựng theo nhiều cách khác nhau, với các mục tiêu đa dạng và phong phú**.
-Thực sự, nó có thể cho phép **kết hợp việc khám phá những người mới và bài thuyết trình giáo dục về một khái niệm cụ thể liên quan đến Bitcoin, bài thuyết trình chuyên nghiệp về các giải pháp hoặc công ty Bitcoin, chiến lược orange-pilling các nhà buôn, v.v**. Mỗi người tổ chức buổi gặp mặt có quyền tự định vị mình theo mục tiêu của họ.
+Tuy nhiên, như chúng ta sẽ thấy sau trong phần [Ví dụ về các dự án và sáng kiến](LINK), **một buổi gặp mặt có thể được xây dựng theo nhiều cách khác nhau, với các mục tiêu rất đa dạng và phong phú**.
+Thực vậy, nó có thể cho phép **kết hợp việc tìm hiểu những người mới và các bài thuyết trình giáo dục về một khái niệm cụ thể liên quan đến Bitcoin, bài thuyết trình chuyên nghiệp về các giải pháp hoặc công ty Bitcoin, chiến lược orange-pilling (Orange - piilling: làm cho một người nào đó tin tưởng và ủng hộ Bitcoin) các nhà buôn, v.v**. Mỗi người tổ chức buổi gặp mặt có quyền tự định vị mình theo mục tiêu của họ.
 
 Đôi khi, tùy thuộc vào các chủ đề được đề cập (như cho các bài thuyết trình kỹ thuật hoặc hội thảo thực hành), có thể phù hợp để tổ chức một **sự kiện bổ sung cho buổi gặp mặt**, tại một địa điểm khác và vào một thời gian khác.
 
@@ -164,49 +164,51 @@ Thực sự, nó có thể cho phép **kết hợp việc khám phá những ng�
 ####
 3. Tôi muốn cộng đồng của mình tham gia vào hệ sinh thái Bitcoin như thế nào?
 
-Câu hỏi này, tiên tiến hơn nhiều, có thể được xem xét ngay từ khi tạo ra cộng đồng của bạn.
-Thực sự, nếu bạn mong muốn **phát triển một cộng đồng đoàn kết, tham gia và đầy đủ những người yêu thích bitcoin đầy động lực** muốn giáo dục và orange-pill càng nhiều người xung quanh bạn càng tốt, thì bạn sẽ cần phải:
-* một mặt, **đưa bạn lại gần hơn với các cộng đồng phát triển đã có từ trước**, với mục tiêu tiếp cận một lượng thông tin đáng kể hơn, có quyền truy cập vào nhiều liên kết và nguồn lực mã nguồn mở có thể tái sử dụng, nhưng cũng để nhận được sự giúp đỡ khi bạn cần;* mặt khác, **tổ chức bản thân - và do đó phân chia nhiệm vụ - trong cộng đồng của bạn, nhằm tiến xa hơn cùng nhau**.
+Câu hỏi này, nâng cao hơn nhiều, có thể được xem xét ngay từ khi tạo ra cộng đồng của bạn.
+Thực sự, nếu bạn mong muốn **phát triển một cộng đồng đoàn kết, tham gia bởi toàn là những người ủng hộ bitcoin đầy động lực** muốn giáo dục và orange-pill càng nhiều người xung quanh bạn càng tốt, thì bạn sẽ cần phải:
+* Một mặt, **đưa bạn lại gần hơn với các cộng đồng phát triển đã có từ trước**, với mục tiêu tiếp cận một lượng thông tin đáng kể hơn, có quyền truy cập vào nhiều liên kết và nguồn lực mã nguồn mở có thể tái sử dụng, nhưng cũng để nhận được sự giúp đỡ khi bạn cần;
+* Mặt khác, **tự tổ chức - và do đó phân chia nhiệm vụ - trong cộng đồng của bạn, nhằm tiến xa hơn cùng nhau**.
 ####
-Tất nhiên, việc đặt mục tiêu không phải là nhiệm vụ dễ dàng. Tuy nhiên, **mục tiêu ngắn hạn, trung hạn và dài hạn** có thể được định nghĩa tại nhiều điểm trong quá trình phát triển của cộng đồng bạn.
-**Ví dụ, tại thời điểm tạo ra cộng đồng của bạn, bạn có thể chọn tập trung vào việc phát triển mạng xã hội và kênh truyền thông của nó trong ngắn hạn. Trong trung hạn, việc phát triển nguồn lực giáo dục (bài viết, tờ rơi, v.v.) có vẻ khả thi và phù hợp. Cuối cùng, trong dài hạn, ví dụ trong 6 tháng, việc tổ chức một cuộc gặp mặt trực tiếp thường được xem xét**.
+Tất nhiên, việc đặt mục tiêu không phải là một nhiệm vụ dễ dàng. Tuy nhiên, **mục tiêu ngắn hạn, trung hạn và dài hạn** có thể được định nghĩa tại nhiều thời điểm trong quá trình phát triển của cộng đồng.
+**Ví dụ, tại thời điểm tạo ra cộng đồng, bạn có thể chọn tập trung vào việc phát triển mạng xã hội và kênh truyền thông của nó trong ngắn hạn. Trong trung hạn, việc phát triển nguồn lực giáo dục (bài viết, tờ rơi, v.v.) có vẻ khả thi và phù hợp. Cuối cùng, trong dài hạn, ví dụ trong 6 tháng, việc tổ chức một cuộc gặp mặt trực tiếp thường được xem xét**.
 
-Vài tháng sau, **khi các cuộc gặp mặt của bạn trở nên thường xuyên, bạn có thể sau đó định nghĩa trong ngắn hạn việc thực hiện các bài thuyết trình hoặc hội thảo về các chủ đề cụ thể; trong trung hạn, việc thực hiện một chiến dịch nâng cao nhận thức/giáo dục về Bitcoin; và trong dài hạn, việc tạo ra một hiệp hội hoặc tìm kiếm một quán bar chấp nhận Bitcoin như một phương tiện thanh toán**.
+Vài tháng sau, **khi các cuộc gặp mặt của bạn trở nên thường xuyên, bạn có thể xác định mục tiêu trong ngắn hạn về việc thực hiện các bài thuyết trình hoặc hội thảo về các chủ đề cụ thể; trong trung hạn, việc thực hiện một chiến dịch nâng cao nhận thức / giáo dục về Bitcoin; và trong dài hạn, về việc tạo ra một hiệp hội hoặc tìm kiếm một quán bar chấp nhận Bitcoin như một phương tiện thanh toán**.
 ####
-Tuy nhiên, hãy nhớ rằng, việc tạo ra một cộng đồng không xảy ra qua đêm: **nó đòi hỏi thời gian, động lực, và một chút tổ chức**.
-Đôi khi, nó thậm chí có thể làm bạn nản lòng; đặc biệt là khi không ai đến tham dự một trong những cuộc gặp mặt của bạn và bạn cảm thấy cô đơn trong việc mang vác nguyên nhân này trên vai.
+Tuy nhiên, hãy nhớ rằng, việc tạo ra một cộng đồng không phài là điều xảy ra và thành hình sau một đêm: **nó đòi hỏi thời gian, động lực, và một chút khả năng tổ chức**.
+Đôi khi, nó thậm chí có thể làm bạn nản lòng; đặc biệt là khi không ai đến tham dự một trong những cuộc gặp mặt của bạn và bạn cảm thấy cô đơn trong việc gách vác nguyên nhận của việc này trên vai.
 
-Đây là lý do tại sao **khóa học này được xây dựng với mục tiêu chia sẻ tất cả các nguồn lực và mẹo có thể để cộng đồng của bạn có thể phát triển và trở nên tự chủ**.
+Đây là lý do tại sao **khóa học này được xây dựng với mục tiêu chia sẻ tất cả các nguồn lực và mẹo có thể được dùng để giúp cộng đồng của bạn phát triển và trở nên tự chủ**.
 
 
-# Thiết kế một bản sắc độc đáo cho cộng đồng Bitcoin của bạn
+# Thiết kế một bộ nhận diện độc đáo cho cộng đồng Bitcoin của bạn
 <partId>da6673ad-bf49-5979-80a6-3f69cfb28046</partId>
 
 ## Tại sao và làm thế nào để tạo ra bản sắc riêng của bạn?
 <chapterId>b48a18cc-afdf-5216-802c-32647b5cd8a3</chapterId>
 
-Trong tiếp nối của khóa học này, chúng ta sẽ xem xét rằng:
-* bạn muốn tạo ra một cộng đồng (hoặc, cuối cùng, một cuộc gặp mặt) tại một thành phố hoặc địa điểm địa lý mà bạn đã xác định;
-* bạn đã đặt mục tiêu trên các khoảng thời gian khác nhau, những mục tiêu này rõ ràng không được đặt cố định.
+Trong phần này của khóa học này, chúng ta sẽ xem xét về:
+* Bạn muốn tạo ra một cộng đồng (hoặc, cuối cùng, một cuộc gặp mặt) tại một thành phố hoặc địa điểm địa lý mà bạn đã xác định;
+* Bạn đã đặt mục tiêu theo các mốc thời gian khác nhau, tất nhiên những mục tiêu này rõ ràng không phải là cố định.
 
-**Bước thứ hai trong việc tạo ra một cộng đồng rõ ràng là việc xác định bản sắc của nó**. Điều này bao gồm việc chọn tên của nó, nhưng cũng là **bản sắc hình ảnh** của nó.
-Đó là lý do tại sao chúng tôi sẽ cố gắng, trong phần 2/8 này, cung cấp cho bạn các hướng dẫn và giải pháp phần mềm cho phép bạn thiết kế bản sắc hình ảnh của cộng đồng bạn; và đó, mà không nhất thiết phải có kỹ năng của một nhà thiết kế.####
-Rõ ràng là khi một con người nhận diện với một nhóm, họ cảm thấy tham gia nhiều hơn. Trong ý nghĩa này, việc có một bản sắc độc đáo cho cộng đồng của bạn là cần thiết.
+**Bước thứ hai trong việc tạo ra một cộng đồng rõ ràng là việc xác định bản sắc - đặc điểm nhận dạng của nó**. Điều này bao gồm việc chọn tên của nó, đồng thời là **nhận diện về mặt hình ảnh** của nó.
+Đó là lý do tại sao chúng tôi sẽ cố gắng, trong phần 2/8 này, cung cấp cho bạn các hướng dẫn và giải pháp phần mềm cho phép bạn thiết kế nhận diện hình ảnh cho cộng đồng bạn, mà không nhất thiết phải có kỹ năng của một nhà thiết kế.
+####
+Rõ ràng là khi một con người xem mình thuộc về một nhóm, có đặc điểm nhận diện của một nhóm, họ cảm thấy gắn kết với nhóm đó hơn. Do đó, việc có một bộ nhận diện độc đáo cho cộng đồng của bạn là cần thiết.
 
 Điều này bắt đầu trước hết với việc chọn tên. Thực sự, tùy thuộc vào quốc gia, các sáng kiến và/hoặc cộng đồng quốc gia khác nhau tồn tại.
-Ví dụ, **ở Pháp, năm mươi cộng đồng đã phát triển ở đó được đặt tên là "Bitcoin [THÀNH PHỐ]" hoặc "[THÀNH PHỐ] Bitcoin"; do đó dẫn đến việc nhóm Telegram của họ được đặt tên là "Bitcoin [THÀNH PHỐ] meet-up" hoặc "[THÀNH PHỐ] Bitcoin meet-up"**.
-Ở Đức, sáng kiến "Einundzwanzig" (nghĩa là "21") đã dẫn đến việc gần như tất cả các cộng đồng nói tiếng Đức được gọi là "Einundzwanzig [THÀNH PHỐ]"; trong khi ở Ý, sáng kiến "Satoshi Spritz" - người khởi xướng của phần lớn các cộng đồng Ý hiện nay - đặt tên cho các cộng đồng của mình là "Satoshi Spritz [THÀNH PHỐ]". **Mỗi cộng đồng do đó có bản sắc riêng của mình, liên quan đến thành phố gốc của họ; nhưng cũng, đến bản sắc toàn cầu của đất nước họ**.
+Ví dụ, **ở Pháp, năm mươi cộng đồng đã phát triển ở đó được đặt tên là "Bitcoin [tên thành phố]" hoặc "[Tên thành phố] Bitcoin"; do đó dẫn đến việc nhóm Telegram của họ được đặt tên là "Bitcoin [tên thành phố] meet-up" hoặc "[Tên thành phố] Bitcoin meet-up"**.
+Ở Đức, sáng kiến "Einundzwanzig" (nghĩa là "21") đã dẫn đến việc gần như tất cả các cộng đồng nói tiếng Đức được gọi là "Einundzwanzig [tên thành phố]"; trong khi ở Ý, sáng kiến "Satoshi Spritz" - người khởi xướng phần lớn các cộng đồng Bitcoin ở Ý hiện nay - đặt tên cho các cộng đồng của mình là "Satoshi Spritz [tên thành phố]". **Mỗi cộng đồng do đó có bản sắc nhận diện riêng của mình, liên quan đến thành phố gốc của họ; nhưng cũng, đến bản sắc toàn cầu của đất nước họ**.
 
-Do đó, mặc dù bạn hoàn toàn có thể tạo một cộng đồng Pháp mới với tên bạn mong muốn, **có vẻ hợp lý hơn ở đất nước chúng ta khi gọi nó là "Bitcoin [THÀNH PHỐ]" hoặc "[THÀNH PHỐ] Bitcoin"**.
+Do đó, mặc dù bạn hoàn toàn có thể tạo một cộng đồng Bitcoin ở Pháp mới với tên bạn mong muốn, **có vẻ hợp lý hơn ở đất nước chúng ta khi gọi nó là "Bitcoin [tên thành phố]" hoặc "[Tên thành phố] Bitcoin"**.
 
 ####
-Song song, **bản sắc hình ảnh của cộng đồng và cuộc họp của bạn đóng một vai trò thiết yếu trong sự phát triển của nó**, bởi vì một phần nhờ vào đó mà sáng kiến của bạn sẽ được nhớ đến.
-Đó là lý do tại sao, **khi tạo ra các mạng xã hội và kênh truyền thông của bạn, một logo và một banner phải được thiết kế**. Tuy nhiên, điều này không cần phải được thực hiện bởi một nhà thiết kế chuyên nghiệp, và các công cụ miễn phí, dễ sử dụng tồn tại.
+Song song với đó, **nhận diện hình ảnh của cộng đồng và cuộc họp mặt Bitcoin của bạn đóng một vai trò thiết yếu trong sự phát triển của nó**, bởi vì một phần nhờ vào đó mà sáng kiến của bạn sẽ được nhớ đến.
+Đó là lý do tại sao, **khi tạo ra các mạng xã hội và kênh truyền thông của bạn, một logo và một banner phải được thiết kế**. Tuy nhiên, điều này không cần phải được thực hiện bởi một nhà thiết kế chuyên nghiệp, vì bạn có thể sử dụng các công cụ miễn phí để làm điều đó.
 
-Để tạo ra bản sắc hình ảnh của mình, cách tốt nhất là bắt đầu với một yếu tố hoặc địa điểm đáng kể từ thành phố của bạn. Điều này có thể là, ví dụ, Tháp Eiffel ở Paris, tháp chuông hoặc pháo đài ở Lille, đá Monégasque ở Monaco, cảng cũ ở Marseille, v.v.
-Bắt đầu từ yếu tố này, sau đó có thể thiết kế một logo ít hoặc nhiều phức tạp, tùy thuộc vào độ phức tạp mong muốn.
+Để tạo ra nhận diện hình ảnh của mình, cách tốt nhất là bắt đầu với một yếu tố hoặc địa điểm đặt trưng tiêu biểu từ thành phố của bạn. Điều này có thể là, ví dụ, Tháp Eiffel ở Paris, tháp chuông hoặc pháo đài ở Lille, đá Monégasque ở Monaco, cảng cũ ở Marseille, v.v.
+Bắt đầu từ yếu tố này, sau đó có thể thiết kế một logo ít hoặc nhiều phức tạp, tùy thuộc vào độ phức tạp mà bạn mong muốn.
 
-Để cho bạn một số ý tưởng, dưới đây là một vài ví dụ về logo từ các cộng đồng Pháp:
+Để cho bạn một số ý tưởng, dưới đây là một vài ví dụ về logo từ các cộng đồng Bitcoin ở Pháp:
 - Ở Marseille, logo đại diện cho nhà thờ basilica Notre-Dame-de-la-Garde, nằm trên cao so với thành phố:
 
 ![hình ảnh](assets/fr/chapter4/img8.webp)
@@ -214,17 +216,17 @@ Bắt đầu từ yếu tố này, sau đó có thể thiết kế một logo í
 - Ở Monaco, nó đề cập đến đá Monégasque:
 
 ![hình ảnh](assets/fr/chapter4/img7.webp)
-- Ở Lille, logo tối giản đại diện cho pháo đài Vauban và công viên của nó, nằm chỉ vài phút từ trung tâm thành phố:
+- Ở Lille, logo tối giản đại diện cho pháo đài Vauban và công viên của nó, nằm cách chỉ vài phút từ trung tâm thành phố:
 ![hình ảnh](assets/fr/chapter4/img6.webp)
 
 - Ở Saint-Malo, biểu tượng của thành phố - ermine - được nổi bật:
 
 ![hình ảnh](assets/fr/chapter4/img9.webp)
 
-Bây giờ, việc của bạn là **tìm một yếu tố hoặc địa điểm đáng kể trong thành phố của bạn và sử dụng nó để xây dựng hình ảnh cho cộng đồng Bitcoin của bạn**.
+Bây giờ, việc của bạn là **tìm một yếu tố hoặc địa điểm đặc trưng tiêu biểu trong thành phố của bạn và sử dụng nó để xây dựng hình ảnh cho cộng đồng Bitcoin của bạn**.
 
 ####
-Hơn nữa, nếu cảm hứng vượt qua bạn, thậm chí còn có thể đi xa hơn bằng cách tạo ra một huy hiệu, khẩu hiệu, hoặc thậm chí một bài hát liên quan đến cộng đồng của bạn. Trí tưởng tượng của bạn sau đó là giới hạn duy nhất của bạn!
+Hơn nữa, nếu cảm hứng của bạn rất cao, thậm chí còn có thể đi xa hơn bằng cách tạo ra một huy hiệu, khẩu hiệu, hoặc thậm chí một bài hát liên quan đến cộng đồng của bạn. Trí tưởng tượng là giới hạn duy nhất của bạn!
 
 ## Tạo Logo, Poster, và Banner
 <chapterId>3470a31f-0190-5e87-8af0-6a00e79267ef</chapterId>
@@ -235,39 +237,39 @@ Hơn nữa, nếu cảm hứng vượt qua bạn, thậm chí còn có thể đi
 
 Trang web này, dễ sử dụng và miễn phí, đặc biệt được đánh giá cao vì số lượng mẫu đã được thiết kế trước; mà bạn có thể sao chép và chỉnh sửa theo ý muốn của mình.
 
-Khi **tạo logo của bạn**, sau đó có thể thực hiện tìm kiếm trên trang chủ cho các logo đã được xây dựng trước, để sao chép cái hoặc những cái mà bạn quan tâm; và sau đó chỉnh sửa chúng theo ý muốn của bạn.
-Thêm một phần tử nền đại diện cho thành phố của bạn (bằng cách nhập một bức ảnh hoặc tìm kiếm "Illustrations" hoặc "Images" trong menu bên trái "Elements") sau đó có thể được thực hiện. Tiếp theo, việc chèn logo hoặc ₿ của Bitcoin lên trên - thậm chí thay đổi màu sắc nếu mong muốn - là một khả năng.
+Khi **tạo logo của bạn**, có thể thực hiện tìm kiếm trên trang chủ cho các logo đã được xây dựng trước, để sao chép cái hoặc những cái mà bạn quan tâm; và sau đó chỉnh sửa chúng theo ý muốn của bạn.
+Sau đó, thêm một phần tử nền đại diện cho thành phố của bạn (bằng cách nhập một bức ảnh hoặc tìm kiếm "Illustrations" hoặc "Images" trong menu bên trái "Elements"). Tiếp theo, việc chèn logo hoặc ₿ của Bitcoin lên trên - thậm chí thay đổi màu sắc nếu mong muốn - là một điều có thể.
 Trong trường hợp **tạo một banner hoặc một poster**, bạn chỉ cần thực hiện tìm kiếm lại trên trang chủ của trang web để có được một poster đã được thiết kế trước. Sau khi sao chép, bạn sẽ có thể chỉnh sửa nó bằng cách thay đổi các văn bản và phông chữ, thêm logo của cộng đồng của bạn, và nhập ảnh để kéo vào một khung (mà bạn sẽ nhận được bằng cách tìm kiếm "frame" trong menu bên trái "Elements").
 Hơn nữa, menu bên trái "Designs" cho phép tìm kiếm các mẫu khác theo yêu cầu của bạn.
 
 Cuối cùng, cũng có thể tìm kiếm trên trang chủ cho một **thumbnail YouTube hoặc banner đã được thiết kế trước**, sao chép nó, và sau đó chỉnh sửa nó theo ý muốn của bạn.
 
-Nói ngắn gọn, **các khả năng là vô tận và phụ thuộc vào nhu cầu của bạn nhưng cũng phụ thuộc vào bảng màu đồ họa bạn muốn tạo** cho cộng đồng và các buổi gặp mặt/sự kiện của bạn!
+Nói ngắn gọn, **các lựa chọn là vô tận và nó phụ thuộc vào nhu cầu của bạn nhưng cũng phụ thuộc vào hình ảnh đồ họa bạn muốn tạo** cho cộng đồng và các buổi gặp mặt/sự kiện của mình!
 ####
-Để hướng dẫn bạn chi tiết hơn, chúng tôi cung cấp dưới đây một video hướng dẫn không đầy đủ, giới thiệu một số khả năng:
+Để hướng dẫn bạn chi tiết hơn, chúng tôi cung cấp dưới đây một video hướng dẫn không đầy đủ, giới thiệu một số lựa chọn khả dĩ:
 ![Hướng dẫn Canva](https://www.youtube.com/watch?v=sgloI_v-nAk)
 ####
 
-Dưới đây cũng là một số tệp đã được thiết kế trước, có thể sao chép và chỉnh sửa mà chúng tôi sử dụng với hiệp hội của chúng tôi, Bitcoin Lille:
-- **poster thông báo meet-up** (cho mạng xã hội, và in ở định dạng A4 hoặc A3): [link](https://www.canva.com/design/DAGBvBXFJ8A/92-j_toeLU8QbVAD0NwoAA/edit?utm_content=DAGBvBXFJ8A&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+Dưới đây cũng là một số tệp đã được thiết kế trước mà chúng tôi sử dụng với hiệp hội của chúng tôi, Bitcoin Lille, bạn có thể sao chép và chỉnh sửa:
+- **Poster thông báo meet-up** (cho mạng xã hội, và in ở định dạng A4 hoặc A3): [link](https://www.canva.com/design/DAGBvBXFJ8A/92-j_toeLU8QbVAD0NwoAA/edit?utm_content=DAGBvBXFJ8A&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 ![hình ảnh](assets/fr/chapter5/img10-fr.webp)
 
-- **poster thông báo sự kiện chung** (cho mạng xã hội, và in ở định dạng A4 hoặc A3): [link](https://www.canva.com/design/DAGBvG3rNCc/oXtNR9pduRs22AqclG4O2g/edit?utm_content=DAGBvG3rNCc&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+- **Poster thông báo sự kiện chung** (cho mạng xã hội, và in ở định dạng A4 hoặc A3): [link](https://www.canva.com/design/DAGBvG3rNCc/oXtNR9pduRs22AqclG4O2g/edit?utm_content=DAGBvG3rNCc&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
-- **banner cho một số mạng xã hội**: [link](https://www.canva.com/design/DAGBvOXyNqw/iSJG9PbIQHgGWHz5PhlXSQ/edit?utm_content=DAGBvOXyNqw&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+- **Banner cho một số nền tảng mạng xã hội**: [link](https://www.canva.com/design/DAGBvOXyNqw/iSJG9PbIQHgGWHz5PhlXSQ/edit?utm_content=DAGBvOXyNqw&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
-- **thông báo của một cuộc thi**: [link](https://www.canva.com/design/DAGBvIjuA_w/YzSUXzOmbNV9oCma9mluOw/edit?utm_content=DAGBvIjuA_w&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+- **Thông báo về một cuộc thi**: [link](https://www.canva.com/design/DAGBvIjuA_w/YzSUXzOmbNV9oCma9mluOw/edit?utm_content=DAGBvIjuA_w&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
 ![hình ảnh](assets/fr/chapter5/img11bis.webp)
 
-- **điều lệ** của thư viện của chúng tôi, được hiển thị ở định dạng A4 trong các buổi meet-up: [link](https://www.canva.com/design/DAGBvPqL7N4/LmUItfsysypRLSOFOzBXcQ/edit?utm_content=DAGBvPqL7N4&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+- **Điều lệ** về thư viện của chúng tôi, được hiển thị ở định dạng A4 trong các buổi meet-up: [link](https://www.canva.com/design/DAGBvPqL7N4/LmUItfsysypRLSOFOzBXcQ/edit?utm_content=DAGBvPqL7N4&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 - **Bài thuyết trình PowerPoint** "Chương 2 - Hiểu về Giao dịch Bitcoin", bởi @ProfEduStream: [link](https://www.canva.com/design/DAFsEcnOro8/Mz9FYdTGhsvozZOe0Y9jtw/edit?utm_content=DAFsEcnOro8&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
-- **Tờ rơi** "21 Lý do để Sử dụng Bitcoin", viết bởi @ProfEduStream: [link](https://www.canva.com/design/DAFtAR1NauQ/ZDwl2CchIJ9Gpb36N6-7iw/edit?utm_content=DAFtAR1NauQ&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+- **Tờ rơi** "21 Lý do để sử dụng Bitcoin", viết bởi @ProfEduStream: [link](https://www.canva.com/design/DAFtAR1NauQ/ZDwl2CchIJ9Gpb36N6-7iw/edit?utm_content=DAFtAR1NauQ&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
 ![hình ảnh](assets/fr/chapter5/img12-fr.webp)
 ![hình ảnh](assets/fr/chapter5/img13-fr.webp)
 ####
-Như bạn có thể thấy, khả năng là vô tận và rõ ràng phụ thuộc vào nhu cầu của bạn. **Đừng ngần ngại tự thiết kế các mẫu mới, sau đó dành vài phút để chia sẻ chúng với những người xung quanh bạn để có thể tiết kiệm hàng giờ làm việc cho các cộng đồng khác trong nước bạn**. Quả thực, đừng quên rằng **mọi cộng đồng, vào một thời điểm nào đó, sẽ đối mặt với những vấn đề và nhu cầu giống như bạn. Bằng cách chia sẻ tài nguyên của mình theo cách mã nguồn mở, bạn do đó gián tiếp đẩy nhanh sự phát triển của tất cả các cộng đồng Bitcoin khác**.
+Như bạn có thể thấy, lụa chọn là vô tận và rõ ràng nó phụ thuộc vào nhu cầu của bạn. **Đừng ngần ngại tự thiết kế các mẫu mới, sau đó dành vài phút để chia sẻ chúng với những người xung quanh bạn để có thể tiết kiệm hàng giờ làm việc cho các cộng đồng khác trong nước bạn**. Quả thực, đừng quên rằng **mọi cộng đồng, vào một thời điểm nào đó, sẽ đối mặt với những vấn đề và nhu cầu giống như bạn. Bằng cách chia sẻ tài nguyên của mình theo mã nguồn mở, bạn đã gián tiếp đẩy nhanh sự phát triển của tất cả các cộng đồng Bitcoin khác**.
 
 Tuy nhiên, khi tạo ra các hình ảnh của bạn, hãy chắc chắn chú ý đến kích thước mong đợi bởi các mạng xã hội và ứng dụng truyền thông bạn dự định sử dụng.
 Dưới đây là một số tỷ lệ và tiêu chuẩn có thể hữu ích cho bạn:
@@ -281,87 +283,88 @@ Dưới đây là một số tỷ lệ và tiêu chuẩn có thể hữu ích ch
 | Discord         | 512 x 512 | 960 x 540  | N/A               |
 | Facebook        | 512 x 512 | 851 x 315  | 960 x 720         |
 
-Theo nghĩa này, để tạo một **logo**, kích thước thích hợp là **512 pixel cho 512 pixel**.
-Đối với một **banner**, nó **phụ thuộc cụ thể vào ứng dụng hoặc trang web** bạn đang sử dụng.
+Do đó, để tạo một **logo**, kích thước thích hợp là **512 pixel cho 512 pixel**.
+Đối với một **banner**, nó **phụ thuộc cụ thể vào ứng dụng hoặc trang web** bạn định sử dụng.
 Còn đối với **poster và các hình ảnh khác**, định dạng **A4 cổ điển** thường là phù hợp.
 
 ### Sử dụng Trí Tuệ Nhân Tạo
 
-Mặc dù Canva cho phép bạn làm vô số thứ (logo, poster, banner, tờ rơi, v.v.), rõ ràng đó không phải là trang web duy nhất hoặc phần mềm cho phép bạn thực hiện bộ công việc này.
-Theo nghĩa này, nếu bạn cảm thấy thoải mái hơn khi sử dụng một bộ phần mềm khác (đặc biệt là Photoshop hoặc Illustrator), hãy làm những gì tiện lợi nhất cho bạn.
+Mặc dù Canva cho phép bạn làm vô số thứ (logo, poster, banner, tờ rơi, v.v.), rõ ràng đó không phải là trang web hoặc phần mềm duy nhất cho phép bạn thực hiện những công việc này.
+Do đó, nếu bạn cảm thấy thoải mái hơn khi sử dụng một bộ phần mềm khác (đặc biệt là Photoshop hoặc Illustrator), hãy làm những gì tiện lợi nhất cho bạn.
 
-Tuy nhiên, dù là trong việc tạo logo cho cộng đồng của bạn hay thêm hình ảnh hấp dẫn vào poster, bài thuyết trình, hoặc tờ rơi, **có thể sẽ hữu ích khi sử dụng trí tuệ nhân tạo để nâng cao chất lượng tài liệu của bạn**.
+Tuy nhiên, dù là tạo logo cho cộng đồng của bạn hay thêm hình ảnh hấp dẫn vào poster, bài thuyết trình, hoặc tờ rơi, **sử dụng trí tuệ nhân tạo để nâng cao chất lượng tài liệu của bạn có thể là một phương án hữu ích**.
 
-Để làm điều này, có nhiều AI tồn tại. Đáng chú ý:
+Để làm điều này, có nhiều ứng dụng AI tồn tại. Đáng chú ý:
 - [midjourney](https://docs.midjourney.com/docs/quick-start) (trả phí);
 - [leonardo](https://leonardo.ai/) (miễn phí, giới hạn theo tài khoản);
 - [copilot](https://copilot.microsoft.com/) (miễn phí, giới hạn theo tài khoản);
-- [DALL-E](https://www.dall-efree.com/) (trả phí). Rõ ràng, nhiều trí tuệ nhân tạo khác đã xuất hiện trong những tháng gần đây trong lĩnh vực tạo nội dung hình ảnh. Do đó, danh sách này không phải là toàn diện.
+- [DALL-E](https://www.dall-efree.com/) (trả phí).
+Do nhiều ứng dụng trí tuệ nhân tạo khác đã xuất hiện trong những tháng gần đây trong lĩnh vực sáng tạo nội dung hình ảnh. Do đó, danh sách này không phải là đầy đủ.
 ####
-Trong trường hợp muốn tạo, ví dụ, một hình ảnh hoặc logo tương lai cho buổi gặp mặt "Bitcoin London", người ta có thể yêu cầu AI "copilot":
-- [ ] *Tạo logo Bitcoin với cầu London và Big Ben ở phía sau. Tương lai* - [Link](https://copilot.microsoft.com/images/create/un-logo-bitcoin-futuriste-avec-en-arric3a8re-plan-le-/1-6612ba1758df4384bc33c4bca00ab45b?FORM=SYDBIC)
+Ví dụ, nếu muốn tạo một hình ảnh hoặc logo theo chủ đề ttương lai cho buổi gặp mặt "Bitcoin London", người ta có thể yêu cầu AI "copilot":
+- [ ] *Tạo logo Bitcoin với cầu London và Big Ben làm nền. Chủ đề tương lai - Create a Bitcoin logo with the London Bridge and Big Ben in the background. Futuristic* - [Link](https://copilot.microsoft.com/images/create/un-logo-bitcoin-futuriste-avec-en-arric3a8re-plan-le-/1-6612ba1758df4384bc33c4bca00ab45b?FORM=SYDBIC)
 
 ![hình ảnh](assets/fr/chapter5/img14.webp)
 
-Nếu bốn đề xuất từ copilot không đủ thực tế theo ý bạn, có thể thêm vào cuộc trò chuyện:
-- [ ] *Làm cho cái thứ 4 trở nên thực tế hơn nhiều* - [Link](https://copilot.microsoft.com/images/create/un-logo-bitcoin-futuriste-avec-en-arric3a8re-plan-le-/1-6612ba64b72d4cea9830ab7eb844f785?FORM=SYDBIC)
+Nếu bốn đề xuất từ copilot chưa đủ thật theo ý bạn, có thể thêm vào cuộc trò chuyện:
+- [ ] *Làm cho cái thứ 4 trở nên thực hơn nữa - Make the 4th one much more realistic* - [Link](https://copilot.microsoft.com/images/create/un-logo-bitcoin-futuriste-avec-en-arric3a8re-plan-le-/1-6612ba64b72d4cea9830ab7eb844f785?FORM=SYDBIC)
 
 ![hình ảnh](assets/fr/chapter5/img15.webp)
 
-Hình ảnh cuối cùng khá đẹp, nhỉ!
+Giờ thì bạn thấy hình ảnh cuối cùng khá đẹp rồi nhỉ!
 ####
 Tuy nhiên, nếu muốn một logo đơn giản hơn nhiều, ví dụ cho một sticker, người ta có thể nhập vào "copilot":
-- [ ] *Tạo logo cho "London Bitcoin Meetup" với phong cách Anh và đơn giản* - [Link](https://copilot.microsoft.com/images/create/logo-for-27londres-bitcoin-meetup27-with-a-british-a/1-6612bb9451924859a6c34b350b3a6ebc?FORM=SYDBIC)
+- [ ] *Tạo logo cho "London Bitcoin Meetup" với phong cách Anh và đơn giản - Create the logo for the "London Bitcoin Meetup" with a British and streamlined style* - [Link](https://copilot.microsoft.com/images/create/logo-for-27londres-bitcoin-meetup27-with-a-british-a/1-6612bb9451924859a6c34b350b3a6ebc?FORM=SYDBIC)
       
 ![hình ảnh](assets/fr/chapter5/img16.webp)
 
 Hình ảnh thứ hai rất điển hình và hoàn toàn phù hợp!
 ####
 Tuy nhiên, mặc dù nó cho phép tạo ra các hình ảnh hấp dẫn trong thời gian kỷ lục, **thật không may, trí tuệ nhân tạo sẽ không thể thực hiện chính xác những gì bạn muốn làm chi tiết**.
-Vì vậy, hãy kiên nhẫn, cố gắng đưa ra hướng dẫn (hoặc "lời nhắc") càng chính xác càng tốt; và **nếu bạn không hài lòng với kết quả thu được, không có gì ngăn cản bạn tiếp cận một bitcoiner am hiểu hơn về chủ đề**. Với một vài sats (hoặc miễn phí), chắc chắn họ sẽ tạo ra cho bạn một logo hoặc hình ảnh chất lượng.
+Vì vậy, hãy kiên nhẫn, cố gắng đưa ra hướng dẫn (Prompts) càng chính xác càng tốt; và **nếu bạn không hài lòng với kết quả thu được, không có gì ngăn cản bạn tiếp cận một bitcoiner am hiểu hơn về chủ đề**. Với một số satoshi (hoặc miễn phí), chắc chắn họ sẽ tạo ra cho bạn một logo hoặc hình ảnh chất lượng.
 
 # Tạo kênh giao tiếp cho cộng đồng Bitcoin của bạn
 <partId>fc588298-6876-554c-bd57-55d182464878</partId>
 
-## Các kênh giao tiếp nên ưu tiên là gì?
+## Những kênh giao tiếp nào nên được ưu tiên?
 <chapterId>b4f4eef6-1035-5290-848a-2b7f9391c77a</chapterId>
 
-Như đã đề cập trước đó, tùy thuộc vào động cơ và thói quen cá nhân, các kênh giao tiếp của một cộng đồng có thể khác nhau. Ví dụ, **ở Pháp, Đức, và Ý, Telegram và Twitter là các kênh giao tiếp chính**. Theo thời gian, chúng đã trở thành "tiêu chuẩn giao tiếp" cho các cộng đồng Bitcoin ở những quốc gia này. Tuy nhiên, một số cộng đồng cũng sử dụng các kênh khác cho mục đích cụ thể. Ngược lại, ở Cộng hòa Séc, các cộng đồng phát triển nhiều ở đó sử dụng **Matrix**, một giao thức nhắn tin tức thời được mã hóa. Ở quốc gia của họ, Telegram do đó ít được sử dụng.
+Như đã đề cập trước đó, tùy thuộc vào động cơ và thói quen cá nhân, các kênh giao tiếp của một cộng đồng có thể khác nhau. Ví dụ, **ở Pháp, Đức, và Ý, Telegram và Twitter là các kênh giao tiếp chính**. Theo thời gian, chúng đã trở thành "tiêu chuẩn giao tiếp" cho các cộng đồng Bitcoin ở những quốc gia này. Tuy nhiên, một số cộng đồng cũng sử dụng các kênh khác cho mục đích cụ thể. Ngược lại, ở Cộng hòa Séc, các cộng đồng phát triển ở đó sử dụng **Matrix**, một giao thức nhắn tin tức thời được mã hóa. Do đó, ở quốc gia của họ, Telegram ít được sử dụng.
 Trong bối cảnh này, **để chọn kênh giao tiếp, cách tiếp cận phù hợp nhất là bắt đầu bằng cách lấy ví dụ từ các cộng đồng lân cận trong nước của mình**. Để làm điều này, việc truy cập bản đồ tại [btcmap.org](https://btcmap.org/communities/map#0/0/0/) sẽ cho bạn ý tưởng chính xác về các kênh giao tiếp được sử dụng nhiều nhất trong nước bạn. Ở Thụy Sĩ, chẳng hạn, thông tin chủ yếu được truyền đạt qua Telegram, Twitter và website của cộng đồng.
 ![image](assets/fr/chapter6/img17.webp)
 ####
-**Trong trường hợp của Pháp (và thế giới nói tiếng Pháp nói chung), kênh giao tiếp chính là Telegram**. Hơn 90% các cuộc họp mặt của người Pháp có một: đó là một "phải có". Tiếp theo đó, **mạng xã hội chính được các cộng đồng sử dụng là Twitter** (70% các cuộc họp mặt của người Pháp); một mạng xã hội mà đa số bitcoiners có mặt. Hơn nữa, gần 30% các cuộc họp mặt của người Pháp (cũng như tất cả các cuộc họp mặt của người Canada) có một tài khoản trả phí trên ứng dụng **Meetup**. Thực sự, đây có thể là một cách tuyệt vời để tăng khả năng nhìn thấy cho các sự kiện bên ngoài hệ sinh thái Bitcoin. Cuối cùng, 30% các cuộc họp mặt của người Pháp cũng có một **website**; và 10%, một máy chủ **Discord** và một tài khoản **NOSTR**.
+**Trong trường hợp của Pháp (và thế giới nói tiếng Pháp nói chung), kênh giao tiếp chính là Telegram**. Hơn 90% các cuộc họp mặt của người Pháp có một kênh Telegram: đó là thứ "phải có". Tiếp theo đó, **mạng xã hội chính được các cộng đồng sử dụng là Twitter** (70% các cuộc gặp mặt Bitcoin của người Pháp); một mạng xã hội mà đa số bitcoiners có mặt ở trên đó. Hơn nữa, gần 30% các cuộc gặp mặt của người Pháp (cũng như tất cả các cuộc gặp mặt của người Canada) có một tài khoản trả phí trên ứng dụng **Meetup**. Thực sự, đây có thể là một cách tuyệt vời để tăng khả năng nhận diện cho các sự kiện ra bên ngoài hệ sinh thái Bitcoin. Cuối cùng, 30% các cuộc gặp mặt của người Pháp cũng có một **website**; và 10%, một **Discord Server** và một tài khoản **NOSTR**.
 ####
-Tất nhiên, các kênh giao tiếp và mạng xã hội khác đôi khi cũng được sử dụng: Matrix, Keet, Signal, Facebook, Instagram, LinkedIn, v.v. **Mỗi cộng đồng thực sự tự do phát triển các kênh mà họ mong muốn**. Tuy nhiên, điều không cần phải nói là, **càng nhiều kênh giao tiếp và mạng xã hội được nhân lên, thì càng đòi hỏi nhiều thời gian từ người tổ chức để quản lý chúng**, đăng thông tin quan trọng một cách định kỳ, và điều tiết nếu cần thiết.
+Tất nhiên, các kênh giao tiếp và mạng xã hội khác đôi khi cũng được sử dụng: Matrix, Keet, Signal, Facebook, Instagram, LinkedIn, v.v. **Mỗi cộng đồng thực sự tự do phát triển các kênh mà họ mong muốn**. Tuy nhiên, điều cần phải nói là, **càng nhiều kênh giao tiếp và mạng xã hội được sử dụng, thì càng đòi hỏi nhiều thời gian từ người tổ chức để quản lý chúng**, đăng thông tin quan trọng một cách định kỳ, và điều tiết nếu cần thiết.
 ####
-**Đối với bất kỳ ai muốn bắt đầu một cộng đồng ở Pháp, do đó được khuyến nghị bắt đầu chỉ với:**
+**Đối với bất kỳ ai muốn bắt đầu một cộng đồng ở Pháp, họ được khuyến nghị bắt đầu chỉ với:**
 - **một nhóm Telegram**;
 - **một tài khoản Twitter**.
 
-Tùy thuộc vào thời gian và mong muốn của bạn, bạn có thể sau này phát triển các mạng khác; thậm chí **giao việc điều tiết cho các thành viên tương lai của cộng đồng bạn**.
+Tùy thuộc vào thời gian và mong muốn của bạn, bạn có thể sau này phát triển các mạng xã hội khác; thậm chí **giao việc điều tiết (moderate) cho các thành viên tương lai của cộng đồng**.
 
-## Tạo và Cấu hình một Kênh, Nhóm, hoặc Siêu-Nhóm trên Telegram
+## Tạo và thiết lập cấu hình một Kênh, Nhóm, hoặc Siêu-Nhóm trên Telegram
 <chapterId>d13714ce-8f08-53e9-bedd-b6a3aaac5dad</chapterId>
 
-Như đã đề cập trước đó, Telegram là một "phải có" ở nhiều quốc gia. Tuy nhiên, khi tạo một kênh giao tiếp cho cộng đồng của bạn trên ứng dụng nhắn tin tức thời này, điều quan trọng là phải hiểu sự khác biệt giữa:
-- một kênh Telegram;
-- một nhóm Telegram;
-- một siêu-nhóm Telegram.
+Như đã đề cập trước đó, Telegram là một điều "phải có" ở nhiều quốc gia. Tuy nhiên, khi tạo một kênh giao tiếp cho cộng đồng của bạn trên ứng dụng nhắn tin tức thời này, điều quan trọng là phải hiểu sự khác biệt giữa:
+- Một kênh Telegram - Channel;
+- Một nhóm Telegram - Group;
+- Một siêu-nhóm Telegram - Super-Group.
 
-Chúng ta sẽ xem xét sau, nhưng **được khuyến nghị cao chọn "Nhóm Telegram" khi tạo** (hoặc, tùy thuộc vào mục tiêu của bạn, "Siêu-nhóm Telegram").
+Chúng ta sẽ xem xét sau, nhưng **bạn được khuyến nghị cao chọn "Nhóm Telegram" khi tạo** (hoặc, tùy thuộc vào mục tiêu của bạn, "Siêu-nhóm Telegram").
 ####
-Đối với các hướng dẫn sẽ theo sau, chúng tôi sẽ sử dụng ứng dụng APK "Telegram+"; một ứng dụng cho phép cấu hình nâng cao hơn cho Telegram của bạn. Tuy nhiên, điều này không cần thiết, vì việc tạo một nhóm hoặc siêu-nhóm trên Telegram giờ đây có thể được thực hiện rất dễ dàng trên điện thoại:
+Đối với các hướng dẫn sẽ phía sau, chúng tôi sẽ sử dụng ứng dụng APK "Telegram+"; một ứng dụng cho phép cấu hình nâng cao hơn cho Telegram của bạn. Tuy nhiên, điều này không cần thiết, vì việc tạo một nhóm hoặc siêu-nhóm trên Telegram giờ đây có thể được thực hiện rất dễ dàng trên điện thoại:
 ![Hướng dẫn Telegram+](https://www.youtube.com/watch?v=Z5mE-LksBZw)
 
 ### Tạo một Kênh Telegram
 
-Nếu bạn muốn tạo một nơi mà các thành viên của mình có thể trực tiếp trao đổi với nhau, phản hồi lẫn nhau, v.v., thì một kênh Telegram hoàn toàn không phải là lựa chọn bạn nên chọn!
-Vì vậy, hãy chuyển trực tiếp đến phần tiếp theo, có tiêu đề [Tạo một Nhóm Telegram](LINK).
+Nếu bạn muốn tạo một nơi mà các thành viên của mình có thể trực tiếp trao đổi với nhau, phản hồi lẫn nhau, v.v., thì một kênh Telegram hoàn toàn không phải là điều bạn nên chọn!
+Hãy chuyển trực tiếp đến phần tiếp theo, có tiêu đề [Tạo một Nhóm Telegram](LINK).
 
-Thực sự, **một kênh Telegram chỉ là một cửa sổ trưng bày thông tin được đăng bởi các quản trị viên, mà trong đó các thành viên không thể làm gì nhiều hơn ngoài việc thêm emoji**.
+Thực sự, **một kênh Telegram chỉ là một cửa sổ trưng bày thông tin được đăng bởi các quản trị viên, mà trong đó các thành viên không thể làm gì nhiều hơn ngoài việc thả cảm xúc - emoji**.
 
 ![image](assets/fr/chapter7/img18-fr.webp)
-Tuy nhiên, có thể thêm khả năng cho phép các thành viên trong kênh bình luận về bài viết của từng quản trị viên, nhưng điều này sẽ được thực hiện trong các cuộc thảo luận riêng biệt; chia rẽ đáng kể các cuộc trao đổi. **Do đó, việc tạo một kênh Telegram nói chung không được khuyến nghị cho một cộng đồng**.
+Tuy nhiên, có thể thêm tính năng cho phép các thành viên trong kênh bình luận về bài viết của từng quản trị viên, nhưng điều này sẽ được thực hiện trong các cuộc thảo luận riêng biệt; chia rẽ đáng kể các cuộc trao đổi. **Do đó, việc tạo một kênh Telegram nói chung không được khuyến nghị cho một cộng đồng Bitcoin**.
 #### 
 Hướng dẫn tạo kênh Telegram:
 ![Hướng dẫn kênh Telegram](https://www.youtube.com/watch?v=N5S7cgySV8U)
@@ -369,23 +372,23 @@ Hướng dẫn tạo kênh Telegram:
 ### Tạo một nhóm Telegram
 
 Ngược lại, **việc tạo một nhóm Telegram là khá phù hợp**.
-Thực sự, để lấy ví dụ nổi tiếng như nhóm Messenger hoặc WhatsApp, mọi người tham gia **nhóm Telegram này sẽ có thể trao đổi với nhau, phản hồi lẫn nhau; và điều này, tất cả trong cùng một cuộc thảo luận**.
+Thực vậy, để lấy ví dụ nổi tiếng như nhóm Messenger hoặc WhatsApp, mọi người tham gia **nhóm Telegram này sẽ có thể trao đổi với nhau, phản hồi lẫn nhau; và tất cả sẽ ở trong cùng một cuộc thảo luận**.
 
 ![hình ảnh](assets/fr/chapter7/img19-en.webp)
 
 Các quản trị viên của kênh này sau đó có thể:
-- đăng tin nhắn của chính họ;
-- **ghim** những tin nhắn quan trọng nhất;
-- đăng **thăm dò ý kiến** (rất tiện lợi để chọn ngày của cuộc gặp mặt tiếp theo khi nó chưa thường xuyên, tức là, khi cộng đồng vẫn chưa phát triển);
-- tạo **liên kết mời tùy chỉnh** (miễn là nhóm là "công cộng" và không phải "riêng tư", điều này cần được xác định trong cài đặt. Cũng rất thực tế khi có liên kết mời Telegram của bạn được thiết kế như: t.me/Bitcoin[CITY]);
-- **thêm hoặc loại bỏ quyền, quản trị viên và thành viên**;
+- Đăng tin nhắn của chính họ;
+- **Hhim** những tin nhắn quan trọng nhất;
+- Đăng các cuộc **thăm dò ý kiến** (rất tiện lợi để chọn ngày của cuộc gặp mặt tiếp theo khi nó chưa thường xuyên, tức là, khi cộng đồng vẫn chưa phát triển);
+- Tạo **đường link mời tùy chỉnh** (miễn là nhóm là "công cộng" và không phải "riêng tư", điều này cần được xác định trong cài đặt. Cũng rất thực tế khi có đường link mời vào nhóm Telegram của bạn được thiết kế như: t.me/Bitcoin[tên thành phố]);
+- **Thêm hoặc loại bỏ quyền, quản trị viên và thành viên**;
 - **Thêm "hình ảnh đại diện"** cho nhóm Telegram (tức là, logo của cộng đồng bạn), **và thay đổi tên của nó**.
 #### 
 Hướng dẫn tạo nhóm Telegram:
 ![hướng dẫn kênh Telegram](https://www.youtube.com/watch?v=u1BuxEsmFuA)
 
 Một lưu ý nhanh: như đã đề cập trước đó, hướng dẫn trên được thực hiện trên máy tính với APK "Telegram+". Tuy nhiên, bây giờ rất dễ dàng để tạo một nhóm Telegram trên điện thoại.
-Do đó, không cần thiết phải tải "Telegram+" để thực hiện nhiệm vụ này; trừ khi bạn muốn tìm hiểu sâu hơn về cài đặt quyền riêng tư của nhóm bạn.
+Do đó, không cần thiết phải tải "Telegram+" để thực hiện nhiệm vụ này; trừ khi bạn muốn tìm hiểu sâu hơn về cài đặt quyền riêng tư cho nhóm của bạn.
 
 ### Tạo một siêu nhóm Telegram
 
@@ -393,103 +396,103 @@ Nhược điểm của một nhóm Telegram là khi nó bắt đầu có vài tr
 
 Để khắc phục điều này, có thể áp dụng một số giải pháp:
 1. **Ghim tin nhắn quan trọng như một quản trị viên**, để mọi người được thông báo (nhấn một lần vào tin nhắn đó bằng ngón tay của bạn, sau đó chọn "Ghim");
-2. đề xuất cộng đồng của bạn **sử dụng máy chủ Discord** với các kênh giao tiếp đa dạng, mà mỗi người có thể tắt âm nếu họ muốn;
-3. **tạo một "siêu nhóm" trên Telegram**.
+2. Đề xuất cộng đồng của bạn **sử dụng Discord Server** với các kênh giao tiếp đa dạng, mà mỗi người có thể tắt thông báo của từng kênh nếu họ muốn;
+3. **Tạo một "siêu nhóm" trên Telegram**.
 #### 
 Vậy siêu nhóm Telegram là gì?
 
-Đơn giản là **một nhóm Telegram trong đó tích hợp nhiều "chủ đề"**. Như vậy, một chủ đề **"Thông Tin Quan Trọng"** có thể được tạo ra, trong đó chỉ đăng thông tin quan trọng và thông tin liên quan đến các sự kiện/cuộc gặp mặt sắp tới.
+Đơn giản là **một nhóm Telegram trong đó tích hợp nhiều "chủ đề"**. Khi đó, một chủ đề **"Thông tin quan trọng"** có thể được tạo ra, trong đó chỉ đăng thông tin quan trọng và thông tin liên quan đến các sự kiện/cuộc gặp mặt sắp tới.
 Một chủ đề **"Chung"** cũng có thể được thiết lập, trong đó tất cả các thành viên có thể thảo luận.
 Cuối cùng, **các chủ đề cụ thể** (đào coin, phát triển dự án, hội nghị tiếp theo, v.v.) có thể được thêm vào.
 
-Việc chỉnh sửa này tùy thuộc vào mong muốn của bạn; tương tự, ví dụ như siêu nhóm của cuộc gặp mặt Bitcoin Abidjan.
+Việc chỉnh sửa này tùy thuộc vào mong muốn của bạn. Bạn có thể thiết lập tương tự như ví dụ về siêu nhóm của Bitcoin Abidjan Meet-up.
 
 ![hình ảnh](assets/fr/chapter7/img20-fr.webp)
 ####
-Tuy nhiên, cần lưu ý rằng **một nhóm Telegram siêu lớn có thể khó sử dụng hơn đối với một số thành viên**. Thực tế, đôi khi, một số người không biết cách truy cập vào các chủ đề khác của nhóm siêu lớn này (để làm điều này, chỉ cần nhấp vào logo của nhóm; điều này sẽ mở danh sách các chủ đề đã tạo). Vì vậy, việc gửi cho họ một video hướng dẫn ngắn qua ảnh chụp màn hình có thể là một ý tưởng tốt.
+Tuy nhiên, cần lưu ý rằng **một siêu nhóm Telegram có thể khó sử dụng hơn đối với một số thành viên**. Thực tế, đôi khi, một số người không biết cách truy cập vào các chủ đề khác của siêu nhóm này (để làm điều này, chỉ cần nhấp vào logo của nhóm; điều này sẽ mở danh sách các chủ đề đã tạo). Vì vậy, việc gửi cho họ một video hướng dẫn ngắn qua ảnh chụp màn hình có thể là một ý tưởng tốt.
 
-Nói chung, không có số lượng thành viên cụ thể nào mà tại đó việc sử dụng một nhóm Telegram siêu lớn trở nên phù hợp hơn so với một nhóm Telegram thông thường. Do đó, sự lựa chọn là của bạn, dựa trên nhu cầu và yêu cầu của các thành viên; trong khi biết rằng một nhóm Telegram có thể dễ dàng được chuyển đổi thành một nhóm Telegram siêu lớn (và ngược lại). Để làm điều này, bạn chỉ cần tạo một chủ đề (hoặc xóa tất cả chúng).
+Nói chung, không có một mức cụ thể về số lượng thành viên mà tại đó việc sử dụng một siêu nhóm Telegram trở nên phù hợp hơn so với một nhóm Telegram thông thường. Do đó, sự lựa chọn là của bạn, dựa trên nhu cầu và yêu cầu của các thành viên. Và bạn nên biết rằng một nhóm Telegram có thể dễ dàng được chuyển đổi thành một siêu nhóm Telegram (và ngược lại). Để làm điều này, bạn chỉ cần tạo một chủ đề (hoặc xóa tất cả chúng).
 
-Hướng dẫn tạo nhóm Telegram siêu lớn:
+Hướng dẫn tạo siêu nhóm Telegram:
 ![Hướng dẫn nhóm siêu lớn Telegram](https://www.youtube.com/watch?v=GWVqpjBtg-U)
 
-Lưu ý: như đã đề cập trước đó, hướng dẫn trên được thực hiện trên máy tính với APK "Telegram+". Tuy nhiên, bây giờ việc tạo một nhóm Telegram siêu lớn trên điện thoại rất dễ dàng.
+Lưu ý: như đã đề cập trước đó, hướng dẫn trên được thực hiện trên máy tính với APK "Telegram+". Tuy nhiên, bây giờ việc tạo một siêu nhóm Telegram trên điện thoại rất dễ dàng.
 Để làm điều này, chỉ cần tạo một nhóm Telegram; sau đó, trong cài đặt của nó, nhấp vào nút "Chủ đề" để thêm một số. Khi thay đổi được xác nhận, một danh sách các chủ đề sẽ xuất hiện; và bạn có thể chỉnh sửa nó theo ý muốn.
-Không cần thiết phải tải "Telegram+" để thực hiện những công việc này; trừ khi bạn muốn tìm hiểu sâu hơn về cài đặt quyền riêng tư của nhóm siêu lớn của mình.
+Không cần thiết phải tải "Telegram+" để thực hiện những công việc này; trừ khi bạn muốn tìm hiểu sâu hơn về cài đặt quyền riêng tư cho siêu nhóm của mình.
 
-## Thiết lập nhóm hoặc nhóm siêu lớn Telegram của bạn
+## Thiết lập nhóm hoặc siêu nhóm Telegram của bạn
 <chapterId>35e674b3-5924-50b0-98f1-83a56c9a186d</chapterId>
 
-Bây giờ bạn đã tạo xong nhóm Telegram (hoặc nhóm siêu lớn) của mình, đã đến lúc **suy nghĩ về quyền hạn và quản lý của nó**. Và rõ ràng, mỗi cộng đồng đều tự do làm những gì họ muốn!
+Bây giờ bạn đã tạo xong nhóm Telegram (hoặc siêu nhóm) của mình, đã đến lúc **suy nghĩ về quyền hạn và quản lý của nó**. Và rõ ràng, mỗi cộng đồng đều tự do làm những gì họ muốn!
 
-Tuy nhiên, **từ kinh nghiệm, nên loại bỏ quyền của thành viên để**:
-- **gửi cuộc thăm dò**;
-- **gửi tệp** (trong trường hợp có virus);
-- **gửi tin nhắn thoại**;
-- **thêm người dùng** (trong trường hợp một bot vào nhóm);
-- **ghim tin nhắn**;
-- **chỉnh sửa thông tin trao đổi**.
+Tuy nhiên, **từ kinh nghiệm, nên loại bỏ các quyền sau đây của thành viên**:
+- **Gửi cuộc thăm dò**;
+- **Gửi tệp** (trong trường hợp có virus);
+- **Gửi tin nhắn thoại**;
+- **Ghêm người dùng** (trong trường hợp một bot vào nhóm);
+- **Ghim tin nhắn**;
+- **Ghỉnh sửa thông tin trao đổi**.
 
-Cũng **rất khuyến khích viết mô tả về cuộc họp của bạn khi tạo nhóm hoặc nhóm siêu lớn trên Telegram**, vì nó sẽ được mọi người muốn tham gia xem. Ví dụ:
+Chúng tôi cũng **rất khuyến khích viết mô tả về meet-up của bạn khi tạo nhóm hoặc siêu nhóm trên Telegram**, vì nó sẽ được những người muốn tham gia xem. Ví dụ:
 
-> Chào mừng đến với Telegram của @Bitcoin[CITY] 🔥
+> Chào mừng đến với Telegram của @Bitcoin[tên thành phố] 🔥
 > 
-> Chúng tôi tổ chức một cuộc gặp mỗi thứ Tư đầu tiên của tháng, tại quán bar [TÊN_QUÁN_BAR] ở [THÀNH_PHỐ] 🍻
+> Chúng tôi tổ chức một cuộc gặp mặp mỗi thứ Tư đầu tiên của tháng, tại quán bar [TÊN_QUÁN_BAR] ở [TÊN THÀNH_PHỐ] 🍻
 > 
 > Để truy cập các mạng xã hội khác của chúng tôi: [LINK_MONG_MUỐN] 🌐
 
 ![hình ảnh](assets/fr/chapter8/img21.webp)
 
-Cũng được quan sát, trong hình ảnh trên, rằng liên kết mời đã được tùy chỉnh bởi các quản trị viên của nhóm Telegram Bitcoin Lille, vì nó là công khai.
+Bạn có thể thấy, trong hình ảnh trên, rằng đường link mời đã được tùy chỉnh bởi các quản trị viên của nhóm Telegram Bitcoin Lille, vì nó là công khai.
 
-Sau đó, trong "Cài đặt Nhóm", có thể phù hợp để **kích hoạt "Phê duyệt thành viên mới"**.
-Thực tế, từ kinh nghiệm, đã có trường hợp một nhóm Telegram của cộng đồng Bitcoin bị tấn công bởi hàng nghìn tài khoản giả mạo muốn tham gia nhóm với mục đích spam và phá hoại. Ngoài việc cho phép loại bỏ các tài khoản giả mạo muốn truy cập vào nhóm của bạn, **kích hoạt phê duyệt thành viên chắc chắn sẽ giúp bạn tránh khỏi một cuộc tấn công kiểu spam**.
-Cuối cùng, trong phần "Quản trị viên", có thể thêm tính năng "Chống Spam Mạnh Mẽ", tự động xóa các tin nhắn được coi là spam. Tuy nhiên, điều này có thể không thực sự cần thiết.
+Sau đó, trong "Cài đặt nhóm", nên **kích hoạt "Phê duyệt thành viên mới"**.
+Thực tế, từ kinh nghiệm, đã có trường hợp một nhóm Telegram của cộng đồng Bitcoin đã bị tấn công bởi hàng nghìn tài khoản giả mạo muốn tham gia nhóm với mục đích spam và phá hoại. Ngoài việc cho phép loại bỏ các tài khoản giả mạo muốn truy cập vào nhóm của bạn, **kích hoạt phê duyệt thành viên chắc chắn sẽ giúp bạn tránh khỏi một cuộc tấn công kiểu spam**.
+Cuối cùng, trong phần "Quản trị viên", có thể thêm tính năng "Chống Spam quyết liệt - Aggressive Anti-spam", tự động xóa các tin nhắn được coi là spam. Tuy nhiên, điều này có thể không thực sự cần thiết.
 
-## Thêm Bot Đa Chức Năng vào Kênh Telegram
+## Thêm Bot đa chức năng vào một kênh Telegram
 <chapterId>c61f69cc-15ec-53f1-8c02-1cea55def09e</chapterId>
 
-**Một khả năng khác để thiết lập và bảo vệ nhóm hoặc siêu nhóm Telegram của bạn là thêm một bot đa chức năng**. Điều này thực sự cho phép cấu hình nâng cao hơn nhiều.
+**Một khả năng khác để thiết lập và bảo vệ nhóm hoặc siêu nhóm Telegram của bạn là thêm một bot đa chức năng**. Điều này cho phép thiết lập cấu hình nâng cao hơn nhiều.
 
 Trong số các tùy chọn đa dạng có sẵn với **bot [@GroupHelpBot](https://telegram.me/grouphelpbot)**, chúng ta có thể kể đến:
-- **thêm một bộ quy tắc** (lệnh /rules);
-- cấu hình cơ chế **chống spam**;
-- thêm một **thông điệp chào mừng tự động, có thể tùy chỉnh cho thành viên mới tự động xóa sau vài phút**;
-- cấu hình cơ chế **chống lũ lụt**;
-- thêm lệnh @administrator;
-- thêm các khối;
-- thêm lệnh để lấy link nhóm (/link);
-- cấu hình quyền lệnh;
-- tự động xóa một số loại tin nhắn;
+- **Thêm một bộ quy tắc** (lệnh /rules);
+- Thiết lập cấu hình cơ chế **chống spam**;
+- Thêm một **thông điệp chào mừng tự động, có thể tùy chỉnh cho thành viên mới tự động xóa sau vài phút**;
+- Thiết lập cấu hình cơ chế **chống lũ lụt - Anti-flood**;
+- Thêm lệnh @administrator;
+- Thêm các tài khoản bị chặn;
+- Thêm lệnh để lấy link nhóm (/link);
+- Thiết lập cấu hình quyền viết lệnh;
+- Tự động xóa một số loại tin nhắn;
 - v.v.
 
 ![image](assets/fr/chapter9/img22-fr.webp)
 
 Ba ý tưởng đơn giản khác là:
-- **tạo lệnh "/link"** để gửi link truy cập nhóm Telegram;
-- tương tự để lấy mạng xã hội ("/socials") hoặc quy tắc tiềm năng của bạn trong trường hợp điều hành ("/rules");
-- **chặn việc nhập cảnh của bot** và "vào/ra".
+- **Tạo lệnh "/link"** để gửi link truy cập nhóm Telegram;
+- Tương tự tạo lệnh để lấy mạng xã hội ("/socials") hoặc quy tắc trong quản trị nhóm ("/rules");
+- **Chặn việc tham gia vào của bot** và "vào/ra".
 
-Còn rất nhiều tùy chọn bổ sung khác dành cho bạn. Tuy nhiên, một lời khuyên: **đừng cố gắng hạn chế quá mức các giao dịch**.
+Còn rất nhiều tùy chọn bổ sung khác dành cho bạn. Tuy nhiên, một lời khuyên: **đừng cố gắng hạn chế quá mức các trao đổi**.
 ####
 Hướng dẫn thêm bot đa chức năng vào nhóm hoặc siêu nhóm trên Telegram:
 ![Hướng dẫn bot Telegram đa chức năng](https://www.youtube.com/watch?v=l72GZcEFDtU)
 
-Ghi chú nhỏ: như đã đề cập trước đó, tất cả quy trình này giờ đây có thể được thực hiện trên điện thoại.
+Ghi chú nhỏ: như đã đề cập trước đó, tất cả quy trình này giờ đây có thể được thực hiện dễ dàng trên điện thoại.
 
-## Tạo Một Máy Chủ Discord
+## Tạo một Discord Server
 <chapterId>eef2a965-4c24-5f3a-8013-72cc7d315314</chapterId>
 
-Khi số lượng thành viên trong nhóm Telegram của bạn tăng lên, biến nó thành một siêu nhóm trên Telegram có thể là giải pháp.
-Tuy nhiên, như đã đề cập trước đó, **"khó khăn về khả năng sử dụng" tiềm năng và sự tăng lên về số lượng chủ đề và tin nhắn trong một siêu nhóm Telegram có thể dẫn đến việc mất hứng thú của một số thành viên tích cực**.
-**Discord sau đó trở thành một lựa chọn thay thế** để tạo một siêu nhóm Telegram, vì nó cho phép **tạo các kênh văn bản và giọng nói cụ thể**; và quan trọng nhất, người dùng của nó có thể tắt âm thanh bất kỳ kênh nào không thu hút họ.
+Khi số lượng thành viên trong nhóm Telegram của bạn tăng lên, giải pháp khả thi là biến nó thành một siêu nhóm trên Telegram.
+Tuy nhiên, như đã đề cập trước đó, **"khó khăn để sử dụng" và sự tăng lên về số lượng chủ đề và tin nhắn trong một siêu nhóm Telegram có thể gây mất hứng thú đối với một số thành viên tích cực**.
+**Khi đó, Discord trở thành một lựa chọn thay thế** cho một siêu nhóm Telegram, vì nó cho phép **tạo các kênh văn bản và giọng nói chuyên biệt**; và quan trọng nhất, người dùng của nó có thể tắt thông báo của bất kỳ kênh nào không thu hút họ.
 
-Rõ ràng, ngoài Telegram và Twitter, điều này vẫn đòi hỏi một chút thời gian hơn để quản lý; đặc biệt là trong quá trình thiết lập và khởi chạy.
+Rõ ràng, ngoài Telegram và Twitter, Discord vẫn đòi hỏi một chút thời gian hơn để quản lý; đặc biệt là trong quá trình thiết lập và khởi chạy.
 
-Để làm cho mọi thứ dễ dàng hơn cho bạn, **chúng tôi chia sẻ một [máy chủ Discord có sẵn, có thể sao chép và chỉnh sửa](https://discord.com/template/bDY4eXXJk2C8) để bạn tùy chỉnh theo ý muốn**:
-![Hướng dẫn máy chủ Discord có thể sao chép](https://www.youtube.com/watch?v=i3V6_359Ajw)
+Để làm cho mọi thứ dễ dàng hơn cho bạn, **chúng tôi chia sẻ một [Discord Server có sẵn, có thể sao chép và chỉnh sửa](https://discord.com/template/bDY4eXXJk2C8) để bạn tùy chỉnh theo ý muốn**:
+![Hướng dẫn Discord Server có thể sao chép](https://www.youtube.com/watch?v=i3V6_359Ajw)
 ####
-Do đó, khi được xây dựng tốt, một máy chủ Discord có thể là một tài sản thực sự cho cộng đồng của nó. Thực tế, nhiều người dùng Bitcoin hàng ngày đã sử dụng Discord (không phải Telegram), và **cho phép họ theo dõi các cuộc trò chuyện của nhóm Telegram trực tiếp trong máy chủ Discord là một cách tiết kiệm thời gian đáng kể**. Và ngược lại.
+Do đó, khi được xây dựng tốt, một Discord Server có thể là một tài sản thực sự cho cộng đồng của nó. Thực tế, nhiều người dùng Bitcoin hàng ngày đã sử dụng Discord (không phải Telegram), **cho phép họ theo dõi các cuộc trò chuyện của nhóm Telegram trực tiếp trong Discord Server là một cách để tiết kiệm đáng kể thời gian**. Và ngược lại.
 Đây là lý do tại sao một bot mã nguồn mở có tên [TediCross](https://github.com/TediCross/TediCross) đã được phát triển. Mục tiêu của nó rất đơn giản: tự động chuyển tin nhắn từ một kênh văn bản Discord sang một nhóm Telegram (hoặc một chủ đề trong một nhóm siêu lớn của Telegram); và ngược lại. Việc thiết lập điều này có thể rất thú vị.
 Tuy nhiên, cần lưu ý rằng việc cài đặt nó không hề đơn giản, **nó đòi hỏi phải liên tục chạy một cửa sổ lệnh (CMD) trên máy tính để bot này hoạt động**; nhưng cũng có lúc xuất hiện lỗi. May mắn thay, trong tình huống này, bạn chỉ cần khởi động lại nó; và sau đó mọi thứ trở lại bình thường.
 

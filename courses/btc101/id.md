@@ -93,7 +93,7 @@ Di inti evolusi teknologi tahun 1980-an dan 1990-an, sekelompok orang mulai seca
 
 Tokoh ikonik seperti Julian Assange, Wei Dai, Tim May, dan David Chaum berkontribusi dalam mendefinisikan filosofi dan visi cypherpunks. Pemikir-pemikir ini berbagi ide-ide mereka dalam sebuah daftar surel (mailing list atau milis) yang berpengaruh, di mana peserta dari seluruh dunia berdebat tentang cara terbaik menggunakan teknologi untuk memastikan kebebasan individu yang lebih besar.
 
-### Tiga Karya Tulis Pilar Cypherpunks
+### Tiga Karya Tulis Pilar Cypherpunks sodjvnsl
 
 ![image](assets/en/chapter0/2.webp)
 

@@ -1993,8 +1993,6 @@ Việc tính toán điểm Boltzmann bao gồm việc chia số lượng giải 
 
 $$
 \begin{align*}
-$$
-\begin{align*}
 \text{Số lượng Giải thích (IN.0 > OUT.3)} &= 512 \\
 \text{Tổng số Giải thích} &= 1496 \\
 \text{Điểm số} &= \frac{512}{1496} \\

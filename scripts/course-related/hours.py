@@ -25,6 +25,11 @@ def get_difficulty_factor(choice):
 def calculate_hours(words, images, difficulty):
     return (words * 0.25 + images * 30) * difficulty / 60 / 60
 
+def format_duration_in_hours_and_minutes(total_hours):
+    hours = int(total_hours)
+    minutes = int((total_hours - hours) * 60)
+    return hours, minutes
+
 def main():
     print(Fore.CYAN + "Drop the .md file path here :", end=" ")
     file_path = input().strip().strip('"').strip("'")
@@ -52,10 +57,11 @@ def main():
 
     total_hours = calculate_hours(words, images, difficulty)
     rounded_hours = round(total_hours)
+    exact_hours, exact_minutes = format_duration_in_hours_and_minutes(total_hours)
 
     print(Fore.YELLOW + f"\nTotal words counted: {words}")
     print(Fore.YELLOW + f"Total images found: {images}")
-    print(Fore.BLUE + f"Exact duration in hours: {total_hours:.2f}")
+    print(Fore.BLUE + f"Exact duration: {exact_hours} hours and {exact_minutes} minutes")
     print(Fore.GREEN + f"Rounded duration: {rounded_hours} hours")
 
 if __name__ == "__main__":

@@ -1342,7 +1342,7 @@ Yksi yleisimmin käytetyistä heuristiikoista ketjuanalyysissä on COIH (_Common
 
 ![BTC204](assets/notext/45/04.webp)
 
-Käytännön termein tämä tarkoittaa, että ulkopuolinen tarkkailija voi tietää, että kaikki yhdistetyt UTXO:t todennäköisesti kuuluvat samalle henkilölle ja että ulostulo kuuluu aina tälle samalle henkilölle. Tämä on ilmeisen ongelmallista yksityisyydellesi, koska olet yhdistämässä erilaisia historioita. Esimerkiksi kuvittele, että konsolidoin 3 UTXO:a, jotka on hankittu P2P:llä ja UTXO:n, joka on ostettu alustalta KYC-prosessin kautta.
+
 Käytännössä tämä tarkoittaa, että ulkopuolinen tarkkailija voi päätellä, että kaikki konsolidoidut UTXO:t todennäköisesti kuuluvat samalle henkilölle ja että tuotettu yksittäinen ulostulo kuuluu myös heille. Tämä tilanne voi vaarantaa yksityisyytesi yhdistämällä erilaisia siirtotarinoita. Esimerkiksi sanotaan, että konsolidoin 3 P2P:llä hankittua UTXO:a UTXO:n kanssa, joka on saatu alustalta, joka vaatii KYC:n:
 ![BTC204](assets/notext/45/05.webp)
 

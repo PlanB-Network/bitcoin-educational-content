@@ -1302,7 +1302,7 @@ Uma das heurísticas mais usadas na análise de cadeias é a COIH (*Common Input
 
 ![BTC204](assets/notext/45/04.webp)
 
-Em termos práticos, isso significa que um observador externo pode saber que todos os UTXOs mesclados provavelmente pertencem à mesma pessoa e que a saída sempre pertence a essa mesma pessoa. Isso é obviamente problemático para sua privacidade, pois você está vinculando diferentes históricos. Por exemplo, imagine que eu consolide 3 UTXOs adquiridos P2P e com um UTXO comprado em uma plataforma através de um processo KYC.
+
 
 Na prática, isso significa que um observador externo pode deduzir que todos os UTXOs consolidados provavelmente pertencem à mesma pessoa e que a única saída gerada também pertence a eles. Esta situação pode comprometer sua privacidade ao vincular diferentes históricos de transações. Por exemplo, digamos que eu consolide 3 UTXOs adquiridos em P2P com um UTXO obtido via uma plataforma que exige KYC:
 ![BTC204](assets/notext/45/05.webp)

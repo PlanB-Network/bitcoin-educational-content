@@ -1464,8 +1464,6 @@ Une des heuristiques les plus utilisées en analyse de chaîne est la CIOH (*Com
 
 ![BTC204](assets/notext/45/04.webp)
 
-Concrètement, cela veut dire qu'un observateur extérieur pour savoir que tous les UTXOs fusionnés appartiennent vraisemblablement à la même personne et que l'output appartient toujours à cette même personne. C'est évidemment problématique pour votre confidentialité, car vous allez faire un lien entre différents historiques. Par exemple, imaginons que je consolide 3 UTXOs achetés en P2P et avec un UTXO acheté sur une plateforme via un processus de KYC.
-
 En pratique, cela signifie qu'un observateur extérieur peut déduire que tous les UTXOs consolidés appartiennent vraisemblablement à la même personne et que l'output unique généré lui appartient également. Cette situation peut porter atteinte à votre confidentialité en associant différents historiques de transactions. Par exemple, imaginons que je consolide 3 UTXOs acquis en P2P avec un UTXO obtenu via une plateforme qui requiert un KYC :
 
 ![BTC204](assets/notext/45/05.webp)

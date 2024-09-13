@@ -363,7 +363,7 @@ Bitcoins knapphet er garantert av to nøkkelmekanismer: justering av gruvedrifts
 
 ![bilde](assets/en/chapter4/2.webp)
 
-> Visste du? Gravere er incentivert til å utvinne en blokk for å tjene de nye bitcoinsene (blokksubsidiet) og transaksjonsgebyrene som er forbundet med transaksjonene de inkluderer i blokken sin. Ettersom antallet utstedte bitcoins nærmer seg 21 millioners grensen, vil minere bli belønnet mer gjennom transaksjonsgebyrene sine enn gjennom blokksubsidiet.'
+> Visste du? Minere er incentivert til å utvinne en blokk for å tjene de nye bitcoinsene (blokksubsidiet) og transaksjonsgebyrene som er forbundet med transaksjonene de inkluderer i blokken sin. Ettersom antallet utstedte bitcoins nærmer seg 21 millioners grensen, vil minere bli belønnet mer gjennom transaksjonsgebyrene sine enn gjennom blokksubsidiet.'
 
 - Spillteori er et matematisk konsept som stoler på menneskelig rasjonalitet. Her, i Bitcoin, er det brukerne som stemmer over protokollendringer. Ja, du leste riktig: enhver modifikasjon av Bitcoin-protokollen ville kreve enigheten til hele brukersamfunnet, noe som er svært komplekst. Så, hvis noen ønsket å skape en 22. million bitcoin, måtte de overbevise alle brukere om å frivillig devaluere sine egne sparepenger, noe som er usannsynlig å skje fordi Bitcoin er globalt og ikke styrt av en sentral gruppe.
 ![bilde](assets/en/chapter4/3.webp)
@@ -532,7 +532,7 @@ Du vil bokstavelig talt ta et blankt ark papir eller skrive ut denne [malen](htt
 
 ### Tips for å gjøre det riktig
 
-Det finnes også alternative løsninger til papir, som å gravere din mnemoniske frase på en metallplate. Hvis du skriver det feil, kan dine arvinger kanskje ikke lese det og derfor ikke kunne gjenopprette midlene. Når ordene er skrevet, anbefales det å lage en andre kopi og lagre den på et separat sted fra den første. Dette gir en sikkerhetskopi i tilfelle tap eller ulykke med den første kopien.
+Det finnes også alternative løsninger til papir, som å minere din mnemoniske frase på en metallplate. Hvis du skriver det feil, kan dine arvinger kanskje ikke lese det og derfor ikke kunne gjenopprette midlene. Når ordene er skrevet, anbefales det å lage en andre kopi og lagre den på et separat sted fra den første. Dette gir en sikkerhetskopi i tilfelle tap eller ulykke med den første kopien.
 
 ![bilde](assets/en/chapter7/1.webp)
 
@@ -549,11 +549,11 @@ Når kopiene er laget, oppbevar ordlistene på et trygt sted hvor du vil huske �
 ## Består tidens prøve
 <chapterId>f58cd446-c202-5eff-aab7-e61cc40e5c06</chapterId>
 
-Sikkerhet er en stor bekymring i Bitcoin-økosystemet. Faktisk, som enhver form for rikdom, må dine bitcoins beskyttes mot tap, tyveri og forringelse, spesielt over lang tid. Å sikre dine bitcoins krever litt teknisk kunnskap og bevissthet om de tilknyttede risikoene, noe som fører oss til å diskutere to hovedstrategier: å gravere dine bitcoins i stål og å lage en arveplan.
+Sikkerhet er en stor bekymring i Bitcoin-økosystemet. Faktisk, som enhver form for rikdom, må dine bitcoins beskyttes mot tap, tyveri og forringelse, spesielt over lang tid. Å sikre dine bitcoins krever litt teknisk kunnskap og bevissthet om de tilknyttede risikoene, noe som fører oss til å diskutere to hovedstrategier: å minere dine bitcoins i stål og å lage en arveplan.
 
-### Gravering i stein
+### Minering i stein
 
-En metode for å sikre dine bitcoins på lang sikt er å gravere din mnemoniske frase på et motstandsdyktig materiale som stål. Dette skaper en fysisk sikkerhetskopi av nøklene dine som er motstandsdyktig mot både vannskader og brann.
+En metode for å sikre dine bitcoins på lang sikt er å minere din mnemoniske frase på et motstandsdyktig materiale som stål. Dette skaper en fysisk sikkerhetskopi av nøklene dine som er motstandsdyktig mot både vannskader og brann.
 
 Det finnes mange løsninger for å oppnå dette, noen er rimelige som "Blockmit", mens andre krever mer utstyr. Du kan utforske dette emnet selv gjennom opplæringsseksjonen på dette universitetet.
 
@@ -673,15 +673,15 @@ På dette stadiet har transaksjonen blitt opprettet og Bobs lommebok vil dele de
 
 ![bilde](assets/en/chapter10/4.webp)
 
-Selv om denne transaksjonen nå er kjent for alle (via et verktøy kalt Mempool), er transaksjonen ikke nødvendigvis ansett som bekreftet! Faktisk er det gruvearbeiderne som validerer transaksjonene ved å inkludere dem i en blokk av vår berømte blockchain.
+Selv om denne transaksjonen nå er kjent for alle (via et verktøy kalt Mempool), er transaksjonen ikke nødvendigvis ansett som bekreftet! Faktisk er det minerne som validerer transaksjonene ved å inkludere dem i en blokk av vår berømte blockchain.
 
 Minere har rollen som å ta gyldige og ubekreftede transaksjoner, og deretter kompilere dem til en blokk. For at deres blokk skal være den neste i Bitcoin-blockchainen, må de løse et kryptografisk puslespill i en prosess kalt "proof of work".
 
 ![bilde](assets/en/chapter10/2.webp)
 
-### Steg 3: Transaksjonen blir minet i en blokk av en gruvearbeider.
+### Steg 3: Transaksjonen blir minet i en blokk av en miner.
 
-Dette proof of work krever å finne en gyldig "hash" for den aktuelle blokken. Tenk på det som et unikt fingeravtrykk assosiert med blokken, bestående av 256 tegn. Gyldigheten av denne hashen avhenger av vanskelighetsgraden til Bitcoin-nettverket. Vi vil gå mer i detalj på denne mekanismen senere. For nå, tenk at en gruvearbeider har funnet en gyldig blokk og at Bobs transaksjon til Alice er inkludert i den.
+Dette proof of work krever å finne en gyldig "hash" for den aktuelle blokken. Tenk på det som et unikt fingeravtrykk assosiert med blokken, bestående av 256 tegn. Gyldigheten av denne hashen avhenger av vanskelighetsgraden til Bitcoin-nettverket. Vi vil gå mer i detalj på denne mekanismen senere. For nå, tenk at en miner har funnet en gyldig blokk og at Bobs transaksjon til Alice er inkludert i den.
 Denne nye gyldige blokken legges til i Bitcoin-blockchainen, som er en offentlig og uforanderlig hovedbok over alle Bitcoin-transaksjoner. Tenk på det som en felles hovedbok for alle Bitcoin-brukere. Ifølge protokollreglene legges en blokk til omtrent hvert tiende minutt takket være justeringen av vanskelighetsgraden. Vi vil se i avsnittet om minere hvilken mekanisme som forhindrer modifisering av Bitcoin-transaksjonshovedboken.
 ![bilde](assets/en/chapter10/5.webp)
 
@@ -701,7 +701,7 @@ På dette stadiet anses transaksjonen som gyldig, mineren vil deretter spre den 
 
 Til slutt er Bitcoin-transaksjonssystemet desentralisert og fungerer peer-to-peer, uten noen pålitelige mellommenn.
 
-Bob sender sin transaksjon til Bitcoin-nettverket, og når en gruvearbeider publiserer en gyldig blokk som inneholder Bobs transaksjon, kan Alice begynne å anse at bitcoinene tilhører henne. Tillit er ikke nødvendig på noe trinn i overføringen av bitcoin-eierskap; bare protokollreglene og økonomiske insentiver gjør det for kostbart å handle ondsinnet innenfor Bitcoin-protokollen.
+Bob sender sin transaksjon til Bitcoin-nettverket, og når en miner publiserer en gyldig blokk som inneholder Bobs transaksjon, kan Alice begynne å anse at bitcoinene tilhører henne. Tillit er ikke nødvendig på noe trinn i overføringen av bitcoin-eierskap; bare protokollreglene og økonomiske insentiver gjør det for kostbart å handle ondsinnet innenfor Bitcoin-protokollen.
 
 Brukere overfører eierskap til pengene sine ved å digitalt signere transaksjoner med sine private nøkler. Minere har liten makt, ettersom brukerne også har betydelig kontroll gjennom Bitcoin-noder som håndterer valideringen av nye blokker og inkluderte transaksjoner. Det er gjennom dette nettverket av Bitcoin-noder at nettverket er virkelig desentralisert.
 
@@ -751,10 +751,10 @@ Etter denne seieren aktiverte nodene en oppdatering kalt SegWit, som banet vei f
 
 ![Bitcoin-noder](assets/posters/fr/12_explication_des_nodes_crop.webp)
 
-## Gravere
+## Minere
 <chapterId>dbb8264a-7434-57e4-9d1b-fbd1bae37fdf</chapterId>
 
-> Gravere tjener til å sikre nettverket og legge til transaksjoner i blokkene. De bruker elektrisitet gjennom ASIC-maskiner for å løse Bitcoin sitt proof of work.
+> Minere tjener til å sikre nettverket og legge til transaksjoner i blokkene. De bruker elektrisitet gjennom ASIC-maskiner for å løse Bitcoin sitt proof of work.
 
 ![bilde](assets/en/chapter12/15.webp)
 
@@ -762,7 +762,7 @@ Etter denne seieren aktiverte nodene en oppdatering kalt SegWit, som banet vei f
 
 Proof of Work, også kjent som "Proof of Work" (POW), er sikkerhetskonsensusen til Bitcoin-protokollen. Det er regelen som lar Bitcoin fungere og sikre sin robusthet. POW er grunnlaget for alt og spiller en avgjørende rolle i spillteorien til Bitcoin.
 
-Tenk på det som et gigantisk lotteri der alle kan delta. Målet er å finne et spesifikt tall som vil tillate signeringen av en gyldig blokk, og vinneren mottar en belønning i bitcoin. Dette tallet er veldig enkelt å verifisere, men vanskelig å finne. Faktisk blir den enkle verifiseringen gjort gjennom SHA-256 hash-funksjonen, som er inkludert i gruvealgoritmen. For å finne dette tallet, vil deltakerne (graverne) forsøke milliarder på milliarder av muligheter, som 1, 52, 2648, 26874615, 15344854131318631, osv.
+Tenk på det som et gigantisk lotteri der alle kan delta. Målet er å finne et spesifikt tall som vil tillate signeringen av en gyldig blokk, og vinneren mottar en belønning i bitcoin. Dette tallet er veldig enkelt å verifisere, men vanskelig å finne. Faktisk blir den enkle verifiseringen gjort gjennom SHA-256 hash-funksjonen, som er inkludert i gruvealgoritmen. For å finne dette tallet, vil deltakerne (minerne) forsøke milliarder på milliarder av muligheter, som 1, 52, 2648, 26874615, 15344854131318631, osv.
 
 Hvis det valgte tallet er korrekt: Jackpot! Ellers fortsetter søket. For å optimalisere antall forsøk, vil de bruke spesifikke maskiner kalt ASICs, som har den eneste rollen å beregne milliarder av muligheter per sekund. Den totale mengden forsøk kalles HashRate og lar oss kvantifisere sikkerheten til Bitcoin-protokollen. For å drive disse maskinene, må store mengder elektrisitet forbrukes. Derfor transformerer POW energi til valuta, og kobler den virkelige verden og den digitale verden for å skape den første energibaserte valutaen.
 
@@ -773,7 +773,7 @@ Hver 2. uke (2016 blokker), rebalanserer vanskelighetsjusteringen det globale gr
 ![bilde](assets/en/chapter12/14.webp)
 
 ### Graving er i konstant utvikling
-Gjennom årene har minere utstyrt seg med stadig mer effektiv datamaskinvare for å produsere så mange hasher som mulig per sekund (kalt HashRate) samtidig som de forbruker minst mulig energi på den mest kostnadseffektive måten mulig. De tidlige gruvearbeiderne som Satoshi eller Hal Finney minet med bare sin CPU, deretter begynte andre å mine med sitt grafikkort. I dag bruker minere det som kalles ASICs (Application-Specific Integrated Circuit), maskiner designet utelukkende for å anvende SHA256-algoritmen.
+Gjennom årene har minere utstyrt seg med stadig mer effektiv datamaskinvare for å produsere så mange hasher som mulig per sekund (kalt HashRate) samtidig som de forbruker minst mulig energi på den mest kostnadseffektive måten mulig. De tidlige minerne som Satoshi eller Hal Finney minet med bare sin CPU, deretter begynte andre å mine med sitt grafikkort. I dag bruker minere det som kalles ASICs (Application-Specific Integrated Circuit), maskiner designet utelukkende for å anvende SHA256-algoritmen.
 ![bilde](assets/en/chapter12/20.webp)
 
 Hashraten til Bitcoin-nettverket representerer antall forsøk gjort per sekund for å finne den neste blokken. I dag er den på omtrent 400 TH/s, som er 400 000 milliarder forsøk per sekund! Jo høyere den globale hashraten er, desto vanskeligere er det for en ondsinnet aktør å monopolisere ressursene som trengs for å oppnå flertallet av gruvedriften og utføre en dobbeltutgift. Det er derfor mer økonomisk levedyktig å følge reglene i Bitcoin-protokollen enn å handle mot dem. Dette reiser et spørsmål: hvordan blir minere betalt?
@@ -790,7 +790,7 @@ Coinbase-transaksjonen er alltid den første; den inkluderer belønningen mottat
 
 ### Mineres kompensasjon
 
-Opprinnelig blir en gruvearbeider kompensert når de finner en gyldig blokk. Mer presist, de blir kompensert på to måter: (i) gjennom subsidiet (nytrykte bitcoins) inkludert i blokken og (ii) gjennom transaksjonsgebyrer i transaksjonene inkludert i blokken. Mengden av subsidiet er definert av konsensusreglene og avhenger av Epoken vi er i. Blokkbelønning = Blokksubsidie + transaksjonsgebyrer.
+Opprinnelig blir en miner kompensert når de finner en gyldig blokk. Mer presist, de blir kompensert på to måter: (i) gjennom subsidiet (nytrykte bitcoins) inkludert i blokken og (ii) gjennom transaksjonsgebyrer i transaksjonene inkludert i blokken. Mengden av subsidiet er definert av konsensusreglene og avhenger av Epoken vi er i. Blokkbelønning = Blokksubsidie + transaksjonsgebyrer.
 
 Faktisk, for de første blokkene, var blokksubsidiet 50 bitcoins, deretter, etter hver 210 000 blokker (omtrent hvert 4. år), blir det halvert. I dag (i 2023), er vi i den 4. Epoken; derfor er subsidiet 6.25 bitcoins. Dette subsidiet er mekanismen for å skape nye bitcoins i Bitcoin. Ettersom subsidiet avtar over tid, betyr det at det er en grense på 21 millioner bitcoins - for øyeblikket er det allerede over 19.4 millioner bitcoins i omløp, som er over 92%.
 
@@ -800,7 +800,7 @@ Den andre metoden for kompensasjon er definert av beløpet valgt av brukere for 
 
 ![bilde](assets/en/chapter12/17.webp)
 
-Videre, for å stabilisere gruvearbeidernes økonomiske modell, som stoler på belønningene de mottar for hver gyldig blokk, samarbeider minere ofte i grupper gjennom "mining pools", hvor de samler sine databehandlingsressurser.
+Videre, for å stabilisere minernes økonomiske modell, som stoler på belønningene de mottar for hver gyldig blokk, samarbeider minere ofte i grupper gjennom "mining pools", hvor de samler sine databehandlingsressurser.
 
 ### Hvorfor bry seg med alt dette?
 Kort sagt, innovasjonen med Bitcoin er å foreslå en løsning på problemet med dobbeltutgifter gjennom bruk av en blokkjede basert på Proof of Work med flytende vanskelighetsgrad. I den digitale verden, skiller konseptet om eierskap seg fra det i den fysiske verden. Faktisk, i den digitale verden, kan alt kopieres og limes inn, noe som skaper problemer når det gjelder dobbeltutgifter for digitale verdier. Pålitelige mellommenn, som banker, har blitt opprettet for å løse dette teknologiske problemet og sikre at når en eiendel overføres, tilhører den ikke lenger avsenderen. Men hvordan kan dette gjøres uten en pålitelig mellommann? Dette problemet tilsvarer Byzantinske Generalers Problem, et problem med å koordinere informasjon i et system der de forskjellige aktørene ikke kan stoles på.
@@ -826,10 +826,10 @@ Teorien om spill anvendt på Bitcoin eliminerer uærlige minere. Minerene bruker
 Vi har nettopp sett i forrige seksjon at sikkerheten til Bitcoin-protokollen er avhengig av en høy energikostnad for å produsere en offentlig transaksjonsjournal uten en pålitelig tredjepart. Den totale energikostnaden sammenlignes ofte med strømforbruket til et lite land. Men gir denne sammenligningen mening? Er det relevant for å forstå årsakene bak en slik kostnad?
 
 ### Energiutgiftene til Bitcoin.
-Først, la oss kvalitativt vurdere miljøkostnaden ved gruvedrift. En gruvearbeider må ha en maskin som en ASIC og en energikilde i form av elektrisitet for å drive disse maskinene. ASIC-er er for det meste laget av aluminium og kan enten resirkuleres eller gjenbrukes til et sekundært formål (som demonstrert med [Attakaï-prosjektet](https://decouvrebitcoin.fr/attakai/), som transformerer en Antminer S9 til en romvarmer). Hovedbekymringen er derfor energiforbruket. La oss prøve å gi mer kontekst til dette.
+Først, la oss kvalitativt vurdere miljøkostnaden ved gruvedrift. En miner må ha en maskin som en ASIC og en energikilde i form av elektrisitet for å drive disse maskinene. ASIC-er er for det meste laget av aluminium og kan enten resirkuleres eller gjenbrukes til et sekundært formål (som demonstrert med [Attakaï-prosjektet](https://decouvrebitcoin.fr/attakai/), som transformerer en Antminer S9 til en romvarmer). Hovedbekymringen er derfor energiforbruket. La oss prøve å gi mer kontekst til dette.
 ![bilde](assets/en/chapter13/1.webp)
 
-Elektrisitetsforbruket representerer nesten alle kostnadene for en gruvearbeider. Derfor oppfordres de til å finne en billig kilde til elektrisitet. Men siden minere er mobile, kan de dra til steder hvor kraftverk er installert, men ennå ikke koblet til territoriets elektriske nett. Minere fungerer som en siste instans kjøper, noe som gjør det mulig for kraftverk å sikre finansiering selv før de er koblet til det elektriske nettverket. Og når de er koblet til, vil etterspørselen etter elektrisitet øke, noe som vil heve prisen og gjøre det mindre lønnsomt for mineren å skaffe elektrisitet på disse stedene. Mineren vil da bestemme seg for å flytte installasjonen sin og bosette seg lenger unna hvor etterspørselen er lav og derfor også prisen.
+Elektrisitetsforbruket representerer nesten alle kostnadene for en miner. Derfor oppfordres de til å finne en billig kilde til elektrisitet. Men siden minere er mobile, kan de dra til steder hvor kraftverk er installert, men ennå ikke koblet til territoriets elektriske nett. Minere fungerer som en siste instans kjøper, noe som gjør det mulig for kraftverk å sikre finansiering selv før de er koblet til det elektriske nettverket. Og når de er koblet til, vil etterspørselen etter elektrisitet øke, noe som vil heve prisen og gjøre det mindre lønnsomt for mineren å skaffe elektrisitet på disse stedene. Mineren vil da bestemme seg for å flytte installasjonen sin og bosette seg lenger unna hvor etterspørselen er lav og derfor også prisen.
 
 ### En endeløs debatt
 

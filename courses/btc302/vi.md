@@ -1284,21 +1284,21 @@ Một khi các kênh truyền thông của cộng đồng bạn đã phát tri�
 
 6) Đề xuất một buổi gặp mặt thông qua một cuộc khảo sát;
 7) Suy nghĩ về các mục tiêu bạn muốn đạt được từ sự kiện trực tiếp này;
-8) tìm một địa điểm thuận lợi, thân thiện phù hợp với mục tiêu của bạn và đặt bàn;
-9) một tuần trước sự kiện, thông báo về nó trên các mạng xã hội và kênh truyền thông của bạn. Lặp lại điều này hai đến ba ngày trước ngày quan trọng;
-10) đăng ký sự kiện của bạn trên các nền tảng và trang web phù hợp, nếu khả thi;
-11) vào ngày diễn ra buổi gặp mặt, để mọi thứ diễn ra và tiếp cận với người khác, ngay cả khi cần phải nhẹ nhàng định hướng lại cuộc trò chuyện nếu cần;
+8) Tìm một địa điểm thuận lợi, thân thiện phù hợp với mục tiêu của bạn và đặt chỗ;
+9) Một tuần trước sự kiện, thông báo về nó trên các mạng xã hội và kênh truyền thông của bạn. Lặp lại điều này hai đến ba ngày trước thời điểm sự kiện;
+10) Đăng ký sự kiện của bạn trên các nền tảng và trang web phù hợp, nếu khả thi;
+11) Vào ngày diễn ra buổi gặp mặt, để mọi thứ diễn ra tự nhiên và hướng tới người khác, ngay cả khi cần phải nhẹ nhàng định hướng lại cuộc trò chuyện nếu cần;
 
 Theo dõi:
 
-12) tìm cách giữ chân và tham gia càng nhiều thành viên và người tham gia càng tốt để họ quay trở lại;
-13) Đề xuất ý tưởng dự án và các sáng kiến đơn giản, và bắt đầu thực hiện những điều quan trọng đối với bạn cá nhân. Nếu ai đó muốn thiết lập một cái gì đó khác, đừng ngần ngại giúp đỡ dựa trên nhiệm vụ và mục tiêu mong muốn;
+12) Tìm cách giữ chân và có sự tham gia của càng nhiều thành viên càng tốt để họ quay trở lại;
+13) Đề xuất ý tưởng các dự án và các sáng kiến đơn giản, và bắt đầu thực hiện những điều quan trọng đối với cá nhân bạn. Nếu ai đó muốn thiết lập một cái gì đó khác, đừng ngần ngại giúp đỡ dựa trên nhiệm vụ và mục tiêu mong muốn;
 Cuối cùng:
 
-14) Dự đoán tương lai bằng cách cân nhắc đến một địa điểm lớn hơn cho các buổi gặp mặt, quy tắc cho các kênh truyền thông, một trang web, v.v.;
-15) Bắt đầu làm cho việc chấp nhận Bitcoin trở nên phổ biến trong các doanh nghiệp của thành phố bạn, bằng cách hỏi liệu họ có chấp nhận Bitcoin không, chẳng hạn;
-16) Phân chia nhiệm vụ cho các cá nhân đáng tin cậy, cũng như quyền lợi đối với các kênh và mạng của bạn;
-17) Quảng bá cộng đồng của bạn để ngày càng có nhiều người tham gia, và tham gia các cá nhân quan tâm;
+14) Dự liệu cho tương lai bằng cách cân nhắc đến một địa điểm lớn hơn cho các buổi gặp mặt, quy tắc cho các kênh truyền thông, một trang web, v.v.;
+15) Bắt đầu thúc đẩy để việc chấp nhận Bitcoin trở nên phổ biến trong các doanh nghiệp ở thành phố bạn, bằng cách hỏi liệu họ có chấp nhận Bitcoin không, chẳng hạn;
+16) Phân chia nhiệm vụ cho các cá nhân đáng tin cậy, cũng như quyền quản trị đối với các kênh và mạng lưới của bạn;
+17) Quảng bá cộng đồng của bạn để ngày càng có nhiều người tham gia, và thu hút các cá nhân quan tâm;
 18) Tiến xa hơn với các dự án mà bạn thích và quan tâm.
 
 Một cách ít chi tiết hơn, trong một video 21 phút, nó trông như thế này:
@@ -1306,23 +1306,24 @@ Một cách ít chi tiết hơn, trong một video 21 phút, nó trông như th�
 
 Dù sao, **hãy nhớ rằng bạn không đơn độc và các cộng đồng hiện có ở đó để giúp đỡ bạn**.
 
-## BTC302 Khóa học
+## Khoá học BTC302
 <chapterId>8bf10b77-80ee-5d50-87bc-0ef32574a675</chapterId>
 
-Trong khóa học BTC302 này, chúng tôi đã chi tiết các bước để tạo một cộng đồng, một buổi gặp mặt; nhưng cũng vậy, việc triển khai nhiều dự án.
+Trong khóa học BTC302 này, chúng tôi đã chi tiết hoá các bước để tạo một cộng đồng, một buổi gặp mặt, và cách triển khai nhiều dự án.
 
 Khi cộng đồng của bạn cảm thấy sẵn sàng để chuyển lên một cấp độ tiếp theo, **có thể tạo một hiệp hội**.
 Ở Pháp, chẳng hạn, trong khoảng năm mươi cộng đồng và buổi gặp mặt, có gần mười hiệp hội.
-Lợi ích trong việc tạo ra một hiệp hội là hai mặt:
-- Một mặt, việc có tư cách của một tổ chức cho phép **có một tư cách chính thức, mở tài khoản ngân hàng liên kết và cũng nhận được sự công nhận từ báo chí, truyền thông và các khoản trợ cấp**; - Mặt khác, nó cho phép **tổ chức hoạt động của cộng đồng một cách chính xác hơn và thực hiện các dự án của mình**, bằng cách xác định các vai trò cụ thể.
+Lợi ích trong việc tạo ra một hiệp hội bao gồm 2 điểm chính:
+- Một mặt, việc có tư cách của một tổ chức cho phép **có một tư cách chính thức, mở tài khoản ngân hàng liên kết và cũng nhận được sự công nhận từ báo chí, truyền thông và các khoản trợ cấp**;
+- Mặt khác, nó cho phép **tổ chức hoạt động của cộng đồng và thực hiện các dự án của mình một cách chuẩn chỉ hơn**, bằng cách xác định các vai trò cụ thể.
 ####
 Với mục tiêu làm cho cộng đồng của bạn phát triển mạnh mẽ hơn, **một khóa học có tên COMMU201 sẽ được phát hành trên [planb.network](https://planb.network/) trong những tháng tới**.
 
 Qua đó, **chúng tôi cũng sẽ chi tiết một điểm quan trọng khác: tổ chức các sự kiện quy mô lớn, với khoảng một trăm người tham gia**. Chúng tôi sẽ đề cập đến các câu hỏi như: Tại sao? Tổ chức như thế nào? Ở đâu? Ngân sách ra sao? Làm thế nào? Hoạt động như thế nào?
-Để thực hiện điều này, chúng tôi sẽ bắt đầu với kinh nghiệm của một số cộng đồng Pháp đã tổ chức các sự kiện của riêng họ, như **BEF (Bitcoin Economic Forum, vào tháng 5, tại Brittany) và B-only (vào tháng 11, tại Annecy)**.
+Để thực hiện điều này, chúng tôi sẽ bắt đầu với kinh nghiệm của một số cộng đồng ở Pháp đã tổ chức các sự kiện của riêng họ, như **BEF (Bitcoin Economic Forum, vào tháng 5, tại Brittany) và B-only (vào tháng 11, tại Annecy)**.
 ![image](assets/fr/chapter38/62.webp)
 ####
-Tất nhiên, **ở các quốc gia khác, luật pháp và cách thức hoạt động của các tổ chức là khác nhau**. Tuy nhiên, nhiều điểm sẽ rất hữu ích cho việc tạo lập một tổ chức hoặc tổ chức một sự kiện lớn; và **chúng tôi hy vọng rằng các bitcoiner khác sẽ đến bổ sung cho khóa đào tạo này theo cách đặc thù cho quốc gia của họ**.
+Tất nhiên, **ở các quốc gia khác, luật pháp và cách thức hoạt động của các tổ chức là khác nhau**. Tuy nhiên, nhiều điểm sẽ rất hữu ích cho việc tạo lập một tổ chức hoặc tổ chức một sự kiện lớn; và **chúng tôi hy vọng rằng các bitcoiner khác sẽ đến để bổ sung cho khóa đào tạo này theo cách đặc thù cho quốc gia của họ**.
 
 
 
@@ -1333,12 +1334,12 @@ Tất nhiên, **ở các quốc gia khác, luật pháp và cách thức hoạt 
 ## Chăm Sóc Bản Thân
 <chapterId>cf1631cb-ddbe-55c7-be8c-26a5652979a0</chapterId>
 
-Khi ai đó lạc vào hố thỏ, quan điểm của họ về nhiều thứ thay đổi.
-Điều này sau đó thúc đẩy chúng ta muốn tiến xa hơn, muốn khám phá những người khác đang làm cùng một công việc tư duy như chúng ta và họ cũng đã hiểu.
+Khi ai đó lạc vào chiếc hang thỏ mang tên Bitcoin, quan điểm của họ về nhiều thứ thay đổi.
+Điều này sau đó thúc đẩy chúng ta muốn tiến xa hơn, muốn khám phá những người khác đang có cùng suy nghĩ, tư duy như mình và những người đã hiểu về những việc đó.
 Điều này khích lệ chúng ta, cho chúng ta thêm nhiều động lực để **đóng góp viên gạch của mình vào công trình** và chia sẻ khám phá của mình: Bitcoin.
 Nó cũng dẫn chúng ta đến **suy nghĩ về thế giới của ngày mai, thế giới mà chúng ta muốn xây dựng, và các cộng đồng đang trong quá trình xây dựng nó**.
 ####
-**Trong hành trình dài là việc tạo dựng một cộng đồng, bạn sẽ cần phải thể hiện sự động viên, chiến lược, hy sinh và thời gian**. Đôi khi đó là một nhiệm vụ không được đền đáp; và trong nỗ lực này, tốt hơn hết là nên tiến từng bước một để không làm tổn thương bản thân.
+**Trong hành trình dài, với việc tạo dựng một cộng đồng, bạn sẽ cần phải thể hiện động lực, chiến lược, hy sinh và thời gian**. Đôi khi đó là một nhiệm vụ không được đền đáp; và trong nỗ lực này, tốt hơn hết là nên tiến từng bước một để không làm tổn thương bản thân.
 **Vì vậy, hãy nghĩ về bản thân, giới hạn của bạn**. Và mặc dù Bitcoin có thể khiến bạn bận rộn suốt ngày đêm, **đừng cố gắng làm mọi thứ một mình; nếu không, bạn sẽ kiệt sức**.
 
 Ngược lại, **hãy yêu cầu sự giúp đỡ từ những người bitcoiner đã trải qua hành trình này, những người đã khám phá cùng một vấn đề và xây dựng cùng một công cụ**. Điều này sẽ tiết kiệm cho bạn một lượng thời gian đáng kể.
@@ -1347,7 +1348,7 @@ Ngược lại, **hãy yêu cầu sự giúp đỡ từ những người bitcoin
 
 ![image](assets/fr/chapter39/63.webp)
 
-Một mình, người ta có thể nhanh chóng khám phá một trong nhiều hành lang của hố thỏ Bitcoin, cho đến khi đạt đến cuối. Nhưng sau đó là hành trình trở về. Rồi tất cả các hướng khác để khám phá.
-Trong khi **bằng cách tạo và/hoặc tham gia vào một cộng đồng của những người bitcoiner, bằng cách chia sẻ và trao đổi với họ thường xuyên, bạn sẽ cùng lúc khám phá tất cả các hướng của hố thỏ Bitcoin**.
+Một mình, người ta có thể nhanh chóng khám phá một trong nhiều nhánh của hố thỏ Bitcoin, cho đến khi chạm đáy. Nhưng sau đó là hành trình trở lại rồi tiếp tục khám phả các hướng khác.
+Trong khi **bằng cách tạo và/hoặc tham gia vào một cộng đồng của những Bitcoiner, bằng cách chia sẻ và trao đổi với họ thường xuyên, bạn sẽ cùng lúc khám phá tất cả các hướng của chiếc hang thỏ Bitcoin**.
 
-Khi đó, nhanh chóng hơn nhiều so với khi bạn làm một mình, bạn có thể nói: "Tôi đã hiểu Bitcoin".
+Khi đó, mọi việc sẽ nhanh hơn nhiều so với việc bạn làm một mình. Cuối cùng, bạn có thể nói: "Tôi đã hiểu Bitcoin".

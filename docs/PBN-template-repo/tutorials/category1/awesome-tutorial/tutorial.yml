@@ -12,31 +12,7 @@ builder: Awesome tutorial
 level: beginner
 
 # Category
-# Category can be choosen from the following list:
-# Tutorials/
-# ├── WALLET/
-# │   ├── Desktop
-# │   ├── Hardware
-# │   ├── Mobile
-# │   └── Backup
-# ├── NODE/
-# │   ├── Bitcoin
-# │   ├── Lightning Network
-# │   └── RGB
-# ├── MINING/
-# │   ├── Hardware
-# │   └── Pools
-# ├── MERCHANT/
-# │   └── Merchant
-# ├── EXCHANGE/
-# │   ├── Peer-to-Peer
-# │   └── Centralized
-# ├── PRIVACY/
-# │   ├── Bitcoin
-# │   └── Analysis
-# └── OTHERS/
-#     ├── General
-#     └── Contribution
+# Category can be choosen from a specific list you can find [here](../../../../tutorial-categories.md)
 category: peer-to-peer
 
 # Tags

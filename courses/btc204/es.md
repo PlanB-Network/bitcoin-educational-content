@@ -1361,7 +1361,7 @@ Una de las heurísticas más utilizadas en el análisis de cadenas es la COIH (_
 
 ![BTC204](assets/notext/45/04.webp)
 
-En términos prácticos, esto significa que un observador externo puede saber que todos los UTXOs fusionados probablemente pertenecen a la misma persona y que la salida siempre pertenece a esta misma persona. Esto es obviamente problemático para tu privacidad, ya que estás vinculando diferentes historias. Por ejemplo, imagina que consolido 3 UTXOs adquiridos P2P y con un UTXO comprado en una plataforma a través de un proceso KYC.
+
 En la práctica, esto significa que un observador externo puede deducir que todos los UTXOs consolidados probablemente pertenecen a la misma persona y que la única salida generada también les pertenece. Esta situación puede comprometer tu privacidad al vincular diferentes historias de transacciones. Por ejemplo, digamos que consolido 3 UTXOs adquiridos en P2P con un UTXO obtenido a través de una plataforma que requiere KYC:
 ![BTC204](assets/notext/45/05.webp)
 

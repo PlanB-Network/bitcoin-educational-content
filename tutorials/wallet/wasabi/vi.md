@@ -1,12 +1,12 @@
 ---
 name: Wasabi Wallet
 
-description: học cách lấy lại quyền riêng tư của bạn
+description: Học cách lấy lại quyền riêng tư cho bitcoin của bạn với Wassabi Wallet
 ---
 
 ![wasabi](assets/cover.webp)
 
-Ví Bitcoin mã nguồn mở, không giữ tiền hộ, tập trung vào quyền riêng tư cho Desktop
+Wasabi Wallet là ví Bitcoin mã nguồn mở, không giữ tiền hộ (non-custodial), tập trung vào quyền riêng tư được dùng trên máy tính.
 https://www.wasabiwallet.io/
 
 Hướng dẫn đang được tạo

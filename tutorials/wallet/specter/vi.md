@@ -6,7 +6,7 @@ description: Hướng dẫn thiết lập Specter
 
 ![cover](assets/cover.webp)
 
-Để biết thêm thông tin, bạn có thể tìm thấy toàn bộ tài liệu của họ trên trang web [tại đây](https://docs.specter.solutions/desktop/)
+Để biết thêm thông tin chi tiết, bạn có thể tìm thấy toàn bộ tài liệu về Specter trên trang web của họ [tại đây](https://docs.specter.solutions/desktop/)
 
 ## Hướng dẫn bằng Video
 

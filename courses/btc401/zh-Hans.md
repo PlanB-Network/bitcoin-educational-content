@@ -40,7 +40,7 @@ Filippo和Mario提供了关于CUBO+的介绍性讲话，为即将到来的全面
 
 ### 为什么萨尔瓦多需要比特币
 
-![视频](https://www.youtube.com/live/In8BJ3VlaM8?feature=share)
+![视频](https://youtu.be/VExfKFrGuYw)
 
 第一讲“为什么萨尔瓦多需要比特币”提供了比特币协议及其根源、密码朋克运动以及比特币作为自由工具（不受审查的货币、金融包容性等相关主题）的重要性的概述。
 
@@ -59,14 +59,13 @@ Filippo和Mario提供了关于CUBO+的介绍性讲话，为即将到来的全面
 
 ### 比特币的技术堆栈
 
-![video](https://youtube.com/live/OKanfSTLlW0)
+![video](https://youtu.be/5UkjQomJsHU)
 
 在“比特币如何运作”课程的第一讲中，我们开始探索支撑比特币网络的技术堆栈。我们涵盖了一系列主题，包括Hashcash、交易、区块链、闪电网络以及比特币协议的其他关键组成部分。
 
 ### 比特币的技术堆栈
 
-![video](https://www.youtube.com/live/VT2nuXaYnHk?feature=share)
-
+![video](https://youtu.be/UkwbPVhLeIk)
 在“比特币如何运作”的第二讲中，我们对比特币的技术堆栈进行了更深入的考察。
 
 ## 揭穿比特币
@@ -74,7 +73,7 @@ Filippo和Mario提供了关于CUBO+的介绍性讲话，为即将到来的全面
 
 ### 消除FUD
 
-![video](https://www.youtube.com/watch?v=P0reZe6pMpo)
+![video](https://youtu.be/f0Pf0u1y5F4)
 
 揭穿区块链和shitcoin，以及揭穿关于比特币能源浪费和犯罪使用的神话和误解
 
@@ -83,19 +82,19 @@ Filippo和Mario提供了关于CUBO+的介绍性讲话，为即将到来的全面
 
 ### 安装比特币核心
 
-![Video](https://youtube.com/live/K0meE5pldmI)
+![Video](https://youtu.be/fIUU2sRCEj0)
 
 在第四模块的第一讲中，我们探索了比特币的架构和安装比特币核心节点
 
 ### 安装C-lightning
 
-![video](https://youtube.com/live/p6SgjtplAAM)
+![video](https://youtu.be/zrB1Kc4BqvY)
 
 在我们的第二讲中，我们深入探讨了安装c-lightning的过程
 
 ### 安全性和硬件设备
 
-![video](https://www.youtube.com/live/_0N4EC9Veuw?feature=share)
+![video](https://youtu.be/oVaI9WuLkgk)
 
 在第三讲中，我们涵盖了与安全性、硬件设备以及配置Specter相关的主题
 
@@ -104,8 +103,7 @@ Filippo和Mario提供了关于CUBO+的介绍性讲话，为即将到来的全面
 
 ### 比特币生态系统中的开放问题
 
-![video](https://youtube.com/live/BVYKeTXMtzQ)
-
+![video](https://youtu.be/Vlm2ZdxcidA)
 嘿，伙计们，这是关于比特币问题和潜在解决方案的准备期最后一讲的链接
 
 # 比特币基础
@@ -120,21 +118,21 @@ Peter Todd 深入探讨了比特币独有的安全考虑，教导开发者如何
 
 ## 比特币中的自由和开源软件（FLOSS）
 <chapterId>2c59d609-f1ef-53f4-9575-df62e4d066e9</chapterId>
-![视频](https://youtu.be/GM-ho5M5_mQ)
+![视频](https://youtu.be/ln-FYziKqNY)
 
 在比特币生态系统中，使用自由和开源软件（FLOSS）至关重要。Peter Todd 探讨了 FLOSS 对比特币的重要性，回顾了 FLOSS 的历史，并检查了 Github 如何让我们能够协作构建像比特币这样的开源软件。
 
 ## 比特币中的密码学
 <chapterId>71867dd2-912c-55ad-b59c-9dbca8a39469</chapterId>
 
-![视频](https://youtu.be/4Fw9xS7JlVU)
+![视频](https://youtu.be/QcK-Cl8B9QU)
 
 Adam Gibson 从数学角度带领参与者了解比特币的密码学基础。本节课涵盖了比特币中存在的基本密码学功能，如哈希及其安全性、默克尔树、身份协议和签名、离散对数和椭圆曲线。
 
 ## 比特币的治理模型
 <chapterId>a30ec3e7-b290-5145-a9a9-042224ab20d2</chapterId>
 
-![视频](https://youtu.be/KSpKwTFSOdc)
+![视频](https://youtu.be/g_BcT5YkZUQ)
 
 Peter Todd 讨论了比特币的治理模型，提供了关于比特币社区内如何做出决策以及这种去中心化方法如何影响协议的发展和稳定性的见解。值得注意的是，他探讨了不同类型的变化如何导致软分叉或硬分叉，政策变化与共识规则之间的治理差异，以及比特币变革政治游戏是什么。
 
@@ -144,21 +142,21 @@ Peter Todd 讨论了比特币的治理模型，提供了关于比特币社区内
 ## 比特币节点组件
 <chapterId>75ea1d88-ee6f-5f98-af90-e4758c55e606</chapterId>
 
-![视频](https://youtu.be/jdHc-pbDI9E)
+![视频](https://youtu.be/hGS8Cuj5Zb4)
 
 Adam Gibson 分析了比特币节点的各种组件。本章重点介绍每个组件在维护网络功能和完整性中的作用。特别是他关注了为什么我们应该运行一个比特币节点，比特币节点的作用是什么，以及比特币节点的不同组件是如何工作的。
 
 ## 比特币的数据结构
 <chapterId>5ed314b1-8293-567d-bf03-730e8c9c774b</chapterId>
 
-![视频](https://youtu.be/SJnaDPZmVsE?si=5h048qponlVi-iQM)
+![视频](https://youtu.be/okvV9hqDOtM)
 
 Alekos Filini 深入介绍了比特币的数据结构。这包括了区块链内数据的组织方式以及它是如何使网络保持健壮和高效的。
 
 ## 比特币L1软件栈
 <chapterId>96d64781-fc27-5209-88d8-2acf00d05ea8</chapterId>
 
-![视频](https://youtu.be/L6FkntRwkOU)
+![视频](https://youtu.be/xOdz9GEiShM)
 
 Daniela Brozzoni 提供了比特币第一层软件栈的全面概述，解释了构成比特币协议基础的层（即比特币节点和比特币钱包）以及如何构建比特币软件，包括介绍比特币库和深入探讨比特币开发套件（BDK）。
 
@@ -167,21 +165,21 @@ Daniela Brozzoni 提供了比特币第一层软件栈的全面概述，解释了
 
 ## 支付通道的历史
 <chapterId>a0b11c6e-c0ff-5e65-b809-b2ab9a2fc37b</chapterId>
-![Video](https://youtu.be/0ZgE-LjHWvI)
+![Video](https://youtu.be/VtpbCspK5T4)
 
 Gabriel Comte 从历史角度讲述了支付通道的发展，这对于闪电网络来说至关重要。本章探讨了支付通道的演变及其在扩展比特币交易中的重要性，从中本聪的支付通道到双向支付通道解决方案，如 Duplex Micropayment Channels 或 Lightning 支付通道。
 
 ## 原子路由的历史
 <chapterId>28be7b31-e6b2-5eea-a5ed-62ce0a154b6e</chapterId>
 
-![Video](https://youtu.be/RaMeYgSBJQ0)
+![Video](https://youtu.be/5OUgGHH6jPY)
 
 Gabriel Comte 回顾了原子路由的历史，详细介绍了几种技术，这些技术构成了闪电网络路由层的基础，如 Hub-and-Spokes 模型、Ripple 模型和 Hashed TimeLocked Contracts (HTLCs)。这一历史在实现闪电网络上的安全、无需信任的交易中起到了关键作用。
 
 ## BOLT 评审
 <chapterId>ba4b09ae-81de-53f2-8c15-316f037aaea9</chapterId>
 
-![Video](https://youtu.be/Fy5W_ryWrCY)
+![Video](https://youtu.be/1aIuKBkPlkg)
 
 asi0 评审了 BOLT，即闪电技术的基础，解释了任何闪电网络实现必须遵守的规范。这将是对闪电网络不同层次的首次深入探讨。
 
@@ -205,14 +203,14 @@ asi0 讨论了在使用闪电网络时面临的实际挑战。这包括基于 4 
 ## LN 的未来演进
 <chapterId>c06763dd-bb26-5fec-8ac4-3e446e9517cd</chapterId>
 
-![Video](https://youtu.be/TIrAMFK6Peg)
+![Video](https://youtu.be/VXMON_nD650)
 
 Gabriel Comte 推测了闪电网络的未来演进，考察了潜在的发展——如双向资金通道 eltoo、BOLT 12、PTLCs、Watchtowers 和 LSP 标准——以及它们如何可能改变比特币交易的格局。
 
 ## 基于 LN 的协议
 <chapterId>f4d147bb-f146-5b36-a994-b9b70da83744</chapterId>
 
-![Video](https://youtu.be/OLTQLtQyoZE)
+![Video](https://youtu.be/KqBfPaXqU2U)
 Alekos Filini 考察了建立在闪电网络之上的协议，解释了它们如何为比特币的可扩展性和功能性做出贡献。
 # 奖励
 <partId>4c5c74d7-40a9-5292-9b82-e3f3d79875e1</partId>
@@ -220,7 +218,7 @@ Alekos Filini 考察了建立在闪电网络之上的协议，解释了它们如
 ## 比特币挖矿要点
 <chapterId>a4eacfc3-7b37-5fa3-abd1-b1fc48b645f0</chapterId>
 
-![视频](https://youtu.be/22LadAWEMQo)
+![视频](https://youtu.be/W3Ra0cdG02I)
 
 Ajelex 关注比特币挖矿的商业方面，考察了在竞争市场中保持盈利性的策略。讨论包括运营成本、效率措施和推动挖矿行业经济的分析。
 

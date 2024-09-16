@@ -1,89 +1,89 @@
 ---
-name: Frédéric Bastiat, Cuộc Đời, Ảnh Hưởng và Tư Tưởng Kinh Tế
-goal: Đạt được hiểu biết sâu sắc về cuộc đời, những ảnh hưởng, đối thủ và lý thuyết kinh tế của Frédéric Bastiat, một nhà kinh tế và tư duy gia người Pháp của thế kỷ 19.
+name: Frédéric Bastiat, cuộc đời, sự ảnh hưởng và tư tưởng kinh tế
+goal: Hiểu biết sâu sắc về cuộc đời, những ảnh hưởng, đối thủ và lý thuyết kinh tế của Frédéric Bastiat, một nhà kinh tế và tư tưởng người Pháp của thế kỷ 19.
 objectives:
   - Tìm hiểu về cuộc đời và bối cảnh lịch sử của Frédéric Bastiat.
-  - Hiểu về những ảnh hưởng trí tuệ lên Bastiat.
-  - Xem xét những đối thủ ý thức hệ của Bastiat.
-  - Phân tích các sophism kinh tế theo quan điểm của Bastiat.
+  - Hiểu về những ảnh hưởng về mặt trí tuệ lên Bastiat.
+  - Xem xét những người phản đối tư tưởng của Bastiat.
+  - Những sai lầm về mặt kinh tế, theo quan điểm của Bastiat.
 ---
 
-# Hành Trình vào Thế Giới của Frédéric Bastiat
+# Hành trình khám phá thế giới của Frédéric Bastiat
 
-Khóa học này, do Damien Theillier dẫn dắt, mời bạn khám phá thế giới của Frédéric Bastiat, một nhà kinh tế và triết gia người Pháp, whose ideas continue to influence contemporary economic thought. Qua 21 video, Damien Theillier khám phá cuộc đời của Bastiat, những ảnh hưởng trí tuệ, những đối thủ ý thức hệ, cũng như lý thuyết kinh tế của ông.
+Khóa học này, do Damien Theillier dẫn dắt, mời bạn khám phá thế giới của Frédéric Bastiat, một nhà kinh tế và triết gia người Pháp, người có những tư tưởng vẫn tiếp tục ảnh hưởng tới tư tưởng kinh tế đương đại. Qua 21 video, Damien Theillier khám phá cuộc đời của Bastiat, những ảnh hưởng về mặt trí tuệ, những đối thủ về tư tưởng, cũng như lý thuyết kinh tế của ông.
 
-Khóa học bắt đầu với một giới thiệu chi tiết về cuộc đời và bối cảnh lịch sử của Bastiat, trước khi xem xét những tư duy gia đã đánh dấu suy nghĩ của ông, như Adam Smith, Jean-Baptiste Say, Antoine Destutt de Tracy, Charles Comte, Charles Dunoyer, và Richard Cobden. Sau đó, khóa học nhìn vào những đối thủ của Bastiat, bao gồm Rousseau, giáo dục cổ điển, chủ nghĩa bảo hộ, chủ nghĩa xã hội, và Proudhon.
+Khóa học bắt đầu với bài giới thiệu chi tiết về cuộc đời và bối cảnh lịch sử của Bastiat, trước khi xem xét những nhà tư tưởng đã định hình nên suy nghĩ của ông, như Adam Smith, Jean-Baptiste Say, Antoine Destutt de Tracy, Charles Comte, Charles Dunoyer, và Richard Cobden. Sau đó, khóa học sẽ tìm hiểu về  những đối thủ của Bastiat, bao gồm Rousseau, giáo dục cổ điển, chủ nghĩa bảo hộ, chủ nghĩa xã hội, và Proudhon.
 
-Một phần quan trọng của khóa học được dành riêng để phê phán các sophism kinh tế mà Bastiat đã chỉ trích, như "Những gì được thấy và những gì không được thấy," "Bản kiến nghị của những người làm nến," sự cướp bóc thông qua thuế, và sự phân biệt giữa hai đạo đức kinh tế. Khóa học cũng đề cập đến các hài hòa kinh tế mà Bastiat ủng hộ, bao gồm phép màu của thị trường, sức mạnh của trách nhiệm, và tình đoàn kết thực sự.
+Một phần quan trọng của khóa học được dành riêng để phê phán các nguỵ biện về kinh tế mà Bastiat đã chỉ trích, như "Những gì được thấy và những gì không được thấy," "Bản kiến nghị của những người làm nến," sự cướp bóc thông qua thuế, và sự phân biệt giữa hai loại đạo đức kinh tế. Khóa học cũng đề cập đến những sự hoà hợp kinh tế mà Bastiat ủng hộ, bao gồm phép màu của thị trường, sức mạnh của trách nhiệm, và tình đoàn kết thực sự.
 
-Cuối cùng, khóa học kết thúc với sự suy ngẫm về "Luật Pháp," đề cập đến các khái niệm chính như quyền sở hữu, sự cướp bóc hợp pháp, và vai trò của nhà nước. Kết luận của khóa học tái khám phá di sản của Frédéric Bastiat và ảnh hưởng lâu dài của ông đối với kinh tế hiện đại.
+Cuối cùng, khóa học kết thúc với sự suy ngẫm về "Luật Pháp - The Law," đề cập đến các khái niệm chính như quyền sở hữu, sự cướp bóc hợp pháp, và vai trò của nhà nước. Kết luận của khóa học tái khám phá di sản của Frédéric Bastiat và ảnh hưởng lâu dài của ông đối với kinh tế hiện đại.
 
-Tham gia cùng Damien Theillier trong cuộc khám phá phong phú này về tư duy của Frédéric Bastiat và khám phá cách thức ý tưởng của ông có thể chiếu sáng các cuộc tranh luận kinh tế và chính trị hiện nay.
+Tham gia cùng Damien Theillier trong cuộc khám phá thú vị này về tư duy của Frédéric Bastiat và khám phá cách các ý tưởng của ông có thể chiếu sáng các cuộc tranh luận kinh tế và chính trị hiện nay.
 
 +++
 
-# Giới Thiệu
+# Giới thiệu
 
 <partId>e4a0cf13-2fc5-5ced-a528-ace3f9029f22</partId>
 
-## Giới Thiệu Khóa Học
+## Giới thiệu khoá học
 
 <chapterId>7f21b617-9810-5484-ad1c-befc61432126</chapterId>
 
 ![video](https://youtu.be/PahHHhtX4fI?si=d8zR-RJ4fm_Z4yM9)
-Khóa học này là một giới thiệu về Frédéric Bastiat, một thiên tài không được công nhận và một ngọn hải đăng cho thời đại chúng ta. Trong bài giới thiệu ngắn gọn này, tôi sẽ cố gắng giúp bạn khám phá Frédéric Bastiat là ai và những chủ đề chính mà chúng ta sẽ bao gồm trong loạt bài này.
+Đây là phần giới thiệu về Frédéric Bastiat, một thiên tài không được công nhận và một ngọn hải đăng cho thời đại chúng ta. Trong bài giới thiệu ngắn gọn này, tôi sẽ cố gắng giúp bạn khám phá Frédéric Bastiat là ai và những chủ đề chính mà chúng ta sẽ có trong loạt bài này.
 ![image](assets/image/00/IMG01.webp)
 
-Thực vậy, Frédéric Bastiat, sinh năm 1801 và sống trong nửa đầu thế kỷ 19, đã từng là một tác giả quan trọng. Và sau đó, dần dần, ông biến mất và ngày nay, không ai nghe về ông, không ai biết ông là ai. Tuy nhiên, một cách nghịch lý, tác giả này đã được dịch ra nhiều ngôn ngữ, bao gồm tiếng Ý, tiếng Nga, tiếng Tây Ban Nha và tiếng Anh.
+Thực vậy, Frédéric Bastiat, sinh năm 1801 và sống trong nửa đầu thế kỷ 19, đã từng là một tác giả quan trọng. Và sau đó, dần dần, ông biến mất và ngày nay, không ai nghe nói về ông, không ai biết ông là ai. Tuy nhiên, một cách nghịch lý, các tác phẩm của ông đã được dịch ra nhiều ngôn ngữ, bao gồm tiếng Ý, tiếng Nga, tiếng Tây Ban Nha và tiếng Anh.
 
 ![image](assets/image/00/img-113.webp)
-Hóa ra, sau Thế chiến II, một trong những cuốn sách của ông đã được xuất bản tại Hoa Kỳ. Nó trở nên rất nổi tiếng, đến mức Ronald Reagan bản thân đã nói đó là cuốn sách yêu thích của mình, và cuốn sách nhỏ này có tên là "The Law." Bastiat do đó trở thành một trong hai tác giả Pháp nổi tiếng nhất tại Hoa Kỳ, người kia cũng rất nổi tiếng ở Pháp, Alexis de Tocqueville.
+Hóa ra, sau Thế chiến thứ II, một trong những cuốn sách của ông đã được xuất bản tại Hoa Kỳ. Nó trở nên rất nổi tiếng, đến mức bản thân Ronald Reagan đã nói đó là cuốn sách yêu thích của mình, và cuốn sách nhỏ này có tên là "Luật pháp - The Law." Do đó, Bastiat trở thành một trong hai tác giả Pháp nổi tiếng nhất tại Hoa Kỳ, người kia cũng rất nổi tiếng ở Pháp, Alexis de Tocqueville.
 ![image](assets/image/00/IMG28.webp)
 
 _(Quảng trường thị trấn Mugron ở Landes, quê hương của Bastiat)_
 
-Vậy, một thiên tài không được công nhận nhưng cũng là một ngọn đèn cho thời đại của chúng ta. Thực sự, Frédéric Bastiat, người sinh ra ở Bayonne, đầu tiên đã sống một phần cuộc đời mình ở Landes nơi ông quản lý một trang trại nông nghiệp mà ông đã thừa kế và ông đã dẫn dắt một cuộc sống cuối cùng như một doanh nhân. Và sau đó, rất sớm, ông bắt đầu quan tâm đến kinh tế, ông đã đi đến Anh, gặp gỡ Richard Cobden, người là một lãnh đạo của phong trào tự do mậu dịch. Bastiat bị cuốn hút bởi phong trào này, ông tin rằng tự do mậu dịch là giải pháp cho Pháp và sau đó ông quyết định cố gắng lan truyền ý tưởng của mình ở Pháp. Ông đã viết các bài báo rất thành công và ông chuyển đến Paris để điều hành một tờ báo có tên vào thời điểm đó là Journal des économistes.
+Ông là một thiên tài không được công nhận nhưng cũng là một ngọn đèn cho thời đại của chúng ta. Thực vậy, Frédéric Bastiat, người sinh ra ở Bayonne, đầu tiên đã sống một phần cuộc đời mình ở Landes nơi ông quản lý một trang trại nông nghiệp mà ông được thừa kế và cuộc sống của ông được định hướng như một doanh nhân. Và rất sơm sau đó, ông bắt đầu quan tâm đến kinh tế, ông đã đi đến Anh, gặp gỡ Richard Cobden, người là một lãnh đạo của phong trào tự do thương mại. Bastiat bị cuốn hút bởi phong trào này, ông tin rằng tự do thương mại là giải pháp cho Pháp và sau đó ông quyết định nỗ lực lan truyền ý tưởng của mình ở Pháp. Ông đã viết các bài báo rất thành công và chuyển đến Paris để điều hành một tờ báo có tên là Journal des économistes.
 
 ![image](assets/image/00/IMG15.webp)
 
-Ông cũng là một triết gia và một người suy nghĩ về xã hội, trật tự xã hội, công lý, luật pháp, một người suy nghĩ về quyền lợi. Và trong phạm vi đó, chúng ta có thể nói rằng Bastiat là một ngọn đèn cho thời đại của chúng ta. Và tôi muốn kết thúc với điều đó. Ông là một người đã cố gắng hiểu cơ chế hoạt động của thị trường chính trị. Tất nhiên, ông cũng là một người bảo vệ nền kinh tế thị trường, cho rằng cuối cùng thì nền kinh tế thị trường là cách tốt nhất để tạo ra sự giàu có. Nhưng bên cạnh đó, và đây là nơi ông không được công nhận, ông đã hiểu được cơ chế của thị trường chính trị.
-Khi ông được bầu làm đại biểu, đó là trong thời kỳ Cộng hòa Thứ hai, và từ thời điểm đó trở đi, chính những người dân đã tạo ra các luật pháp. Tại thời điểm đó, Bastiat đã chứng kiến một loại hình phình to của luật pháp ở mọi hướng, bao gồm cả việc tạo ra các dịch vụ công, quyền lợi xã hội, thuế, v.v.
+Ông cũng là một triết gia và một nhà tư tưởng về xã hội, trật tự xã hội, công lý, luật pháp, một nhà tư tưởng về quyền. Và trong phạm vi đó, chúng ta có thể nói rằng Bastiat là một ngọn đèn cho thời đại của chúng ta. Và tôi muốn kết thúc với điều đó. Ông là một người đã cố gắng hiểu cơ chế hoạt động của thị trường chính trị. Tất nhiên, ông cũng là một người bảo vệ nền kinh tế thị trường, cho rằng cuối cùng thì nền kinh tế thị trường là cách tốt nhất để tạo ra sự giàu có. Nhưng bên cạnh đó, ông đã hiểu được cơ chế của thị trường chính trị, và đây lại là nơi mà ông không được công nhận.
+Khi ông được bầu làm hạ nghị sĩ, đó là trong thời kỳ Cộng hòa Thứ hai, và từ thời điểm đó trở đi, chính những người dân đã tạo ra các luật pháp. Tại thời điểm đó, Bastiat đã chứng kiến hiện tượng lạm phát của luật pháp ở mọi hướng, bao gồm cả việc tạo ra các dịch vụ công, quyền xã hội, thuế, v.v.
 
-Và ông nhận ra rằng, cơ bản, không có gì thực sự thay đổi. Mọi người chiếm đoạt tài sản của người khác thông qua việc bỏ phiếu và luật pháp, điều mà ông gọi là cướp bóc hợp pháp. Hiện tượng cướp bóc hợp pháp này là trung tâm của công trình của ông, đặc biệt trong văn bản ngắn mà ông viết vào cuối đời, "The Law," nơi ông đặt cướp bóc hợp pháp đối lập với tài sản, quyền sở hữu tài sản. Ông chỉ ra rằng, cơ bản, giải pháp thực sự cho vấn đề xã hội là tự do, tức là tài sản, quyền kiểm soát bản thân và thành quả lao động của mình.
+Và ông nhận ra rằng, về cơ bản, không có gì thực sự thay đổi. Mọi người chiếm đoạt tài sản của người khác thông qua việc bỏ phiếu và luật pháp, điều mà ông gọi là cướp bóc hợp pháp. Hiện tượng cướp bóc hợp pháp này là trung tâm trong các công trình của ông, đặc biệt trong văn bản ngắn mà ông viết vào cuối đời, "The Law," nơi ông đặt cướp bóc hợp pháp đối lập với tài sản, quyền sở hữu tài sản. Ông chỉ ra rằng, về cơ bản, giải pháp thực sự cho vấn đề xã hội là tự do, đó là tự do về tài sản, tự do kiểm soát bản thân và tự do thụ hưởng thành quả lao động của mình.
 
-Trong khóa học này, chúng ta sẽ cùng nhau khám phá suy nghĩ của Frédéric Bastiat, bắt đầu từ ảnh hưởng của các tác giả đã hình thành ông từ rất sớm trong tuổi trẻ, sau đó chúng ta sẽ tìm hiểu về những sophism kinh tế của ông, và cuối cùng, chúng ta sẽ kết thúc với văn bản vĩ đại này, "The Law," sẽ giới thiệu chúng ta đến với phân tích về thị trường chính trị, để phân tích về xã hội.
+Trong khóa học này, chúng ta sẽ cùng nhau khám phá tư tưởng của Frédéric Bastiat, bắt đầu từ ảnh hưởng của các tác giả đã định hình nên ông từ khi còn trẻ, sau đó chúng ta sẽ tìm hiểu về những nguỵ biện kinh tế của ông, và cuối cùng, chúng ta sẽ kết thúc với văn bản vĩ đại này, "The Law," thứ sẽ đưa chúng ta đến với phân tích về thị trường chính trị, để phân tích về xã hội.
 
-## Cuộc Đời và Bối Cảnh Lịch Sử
+## Cuộc đời và bối cảnh lịch sử
 
 <chapterId>e9d92b63-83dd-552c-84e1-dd535608c109</chapterId>
 
 ![video](https://youtu.be/buPg-IPqwmU?si=_JKks1usXbUTQqJo)
-Vào năm 1844, Frédéric Bastiat đã thực hiện một chuyến công tác đến Tây Ban Nha. Sau khi ở lại Madrid, Seville, Cadiz và Lisbon, ông quyết định lên đường đến Southampton và thăm Anh. Tại London, ông đã có cơ hội tham dự các cuộc họp của Liên đoàn Chống Luật Ngũ Cốc, một tổ chức mà công việc của họ ông đã theo dõi từ xa. Ông gặp gỡ các nhà lãnh đạo chính của Hiệp hội này, bao gồm Richard Cobden, người sau này trở thành bạn của ông.
+Vào năm 1844, Frédéric Bastiat đã thực hiện một chuyến công tác đến Tây Ban Nha. Sau khi ở lại Madrid, Seville, Cadiz và Lisbon, ông quyết định lên đường đến Southampton và thăm Anh. Tại London, ông đã có cơ hội tham dự các cuộc họp của Liên đoàn Luật Chống Ngũ Cốc (Anti-Corn Law League), một tổ chức mà ông đã theo dõi công việc của họ từ xa. Ông gặp gỡ các nhà lãnh đạo chính của Hiệp hội này, bao gồm Richard Cobden, người sau này trở thành bạn của ông.
 
-Chính tại đây, cuộc đời ông đã thay đổi một cách triệt để. Chính ông kể lại rằng sự nghiệp làm kinh tế gia của mình đã được quyết định vào thời điểm đó. Khi trở về Pháp, ông chỉ có một ý tưởng trong đầu: làm cho Pháp nhận thức được về phong trào tự do đang nổi lên ở Anh.
+Chính tại đây, cuộc đời ông đã thay đổi một cách hoàn toàn. Chính ông kể lại rằng sự nghiệp làm kinh tế gia của mình đã được quyết định vào thời điểm đó. Khi trở về Pháp, ông chỉ có một ý tưởng trong đầu: làm cho nước Pháp nhận thức được về phong trào tự do đang nổi lên ở Anh.
 
-Frédéric Bastiat sinh ngày 30 tháng 6 năm 1801 tại Bayonne. Mồ côi cha mẹ từ khi 9 tuổi, ông theo học tại trường Cao đẳng Công giáo Sorèze. Ông có năng khiếu về ngôn ngữ, học được tiếng Anh, tiếng Tây Ban Nha và cả tiếng Basque. Tuy nhiên, ông không hứng thú với việc học và quyết định không thi Baccalaureate, thay vào đó là làm việc trong doanh nghiệp nhập khẩu-xuất khẩu của chú mình ở Bayonne.
+Frédéric Bastiat sinh ngày 30 tháng 6 năm 1801 tại Bayonne. Mồ côi cha mẹ từ khi 9 tuổi, ông theo học tại trường Cao đẳng Công giáo Sorèze. Ông có năng khiếu về ngôn ngữ, học được tiếng Anh, tiếng Tây Ban Nha và cả tiếng Basque. Tuy nhiên, ông không hứng thú với việc học và quyết định không thi tú tài, thay vào đó là làm việc trong doanh nghiệp nhập khẩu-xuất khẩu của chú mình ở Bayonne.
 
-Năm 1825, ông thừa kế một trang trại nông nghiệp từ ông nội, mà ông quản lý như một "nông dân quý tộc," theo lời ông. Chính lúc đó, ông đã trực tiếp đối mặt với những vấn đề do thiếu một định nghĩa rõ ràng về quyền sở hữu. Ông quyết định trở thành một thẩm phán hòa bình tại thị trấn Mugron của mình, nằm ở trung tâm Landes, một điểm giao thương thương mại và sông nước giữa các cảng Bordeaux và Bayonne. Sau đó, ông được bầu làm thành viên của Hội đồng Tổng của Landes.
+Năm 1825, ông thừa kế một trang trại nông nghiệp từ ông nội, nơi mà ông quản lý như một "nông dân quý tộc," theo lời ông. Chính lúc đó, ông đã trực tiếp đối mặt với những vấn đề do thiếu một định nghĩa rõ ràng về quyền sở hữu. Ông quyết định trở thành một thẩm phán hòa bình tại thị trấn Mugron của mình, nằm ở trung tâm Landes, một điểm giao thương thương mại và sông nước giữa các cảng Bordeaux và Bayonne. Sau đó, ông được bầu làm thành viên Đại hội đồng của Landes.
 
-Ông nhanh chóng phát triển niềm đam mê với kinh tế chính trị và nghiên cứu các tác phẩm của Adam Smith, Jean-Baptiste Say, Destutt de Tracy, Charles Dunoyer và Charles Comte. Ông đọc báo tiếng Anh, và chính tại đây, ông biết đến sự tồn tại của một liên đoàn Anh về thương mại tự do.
+Ông nhanh chóng phát triển niềm đam mê với kinh tế chính trị và nghiên cứu các tác phẩm của Adam Smith, Jean-Baptiste Say, Destutt de Tracy, Charles Dunoyer và Charles Comte. Ông đọc báo tiếng Anh, và chính tại đây, ông biết đến sự tồn tại của một liên đoàn ở Anh về thương mại tự do.
 
 _(Say, Cobden, Smith, Chevalier, Dunoyer, Destutt de Tracy)_
 
-Khi trở về từ Anh, ông đã viết một bài báo với tiêu đề: "Về Ảnh hưởng của Thuế quan Anh và Pháp đối với Tương lai của Hai Dân tộc," mà ông gửi đến Journal des Économistes ở Paris. Bài báo xuất hiện trong số ra tháng 10 năm 1844, và nó là một thành công lớn. Mọi người ngưỡng mộ lập luận mạnh mẽ và sắc bén của ông, phong cách trang nhã và thanh lịch.
+Khi trở về từ Anh, ông đã viết một bài báo với tiêu đề: "Về ảnh hưởng của hàng rào thuế quan Anh và Pháp đối với tương lai của hai dân tộc - De l'influence des tarifs anglais et français sur l'avenir des deux peuples," mà ông gửi đến Journal des Économistes ở Paris. Bài báo xuất hiện trong số ra tháng 10 năm 1844, và nó là một thành công lớn. Mọi người ngưỡng mộ lập luận mạnh mẽ và sắc bén, phong cách trang nhã và thanh lịch của ông trong bài báo.
 
-Journal des Économistes sau đó đã yêu cầu ông viết thêm nhiều bài báo, và một số thành viên của Hội Kinh tế Chính trị, đặc biệt là Horace Say, con trai của Jean-Baptiste Say, và Michel Chevalier, một giáo sư nổi tiếng, đã chúc mừng ông, khích lệ ông tiếp tục cùng họ trong công việc lan tỏa những chân lý kinh tế. Điều này đánh dấu bước ngoặt của một cuộc sống mới tại Paris.
+Journal des Économistes sau đó đã yêu cầu ông viết thêm nhiều bài báo, và một số thành viên của hiệp hội Kinh tế Chính trị (la Société d'économie politique) , đặc biệt là Horace Say, con trai của Jean-Baptiste Say, và Michel Chevalier, một giáo sư nổi tiếng, đã chúc mừng ông, khích lệ ông tiếp tục cùng họ trong công việc lan tỏa những chân lý kinh tế. Điều này đánh dấu bước ngoặt về một cuộc sống mới tại Paris của ông.
 
-Ông đầu tiên xuất bản loạt bài Sophisms Kinh tế, trong đó ông tấn công các chủ nghĩa bảo hộ với sự dũng cảm và châm biếm. Tại Paris, ông thậm chí bắt đầu một khóa học về kinh tế chính trị trong một phòng riêng, được sinh viên ưu tú nhiệt tình tham dự.
+Đầu tiên, ông xuất bản loạt bài Những sai lầm về mặt kinh tế, trong đó ông dũng cảm tấn công chủ nghĩa bảo hộ với sự châm biếm. Tại Paris, ông thậm chí bắt đầu một khóa học về kinh tế chính trị trong một phòng riêng, được các sinh viên ưu tú tham dự nhiệt tình.
 
-Năm sau, ông thành lập "Hiệp hội Thương mại Tự do" tại Pháp và lao vào cuộc chiến chống lại chủ nghĩa bảo hộ ở Pháp. Ông gây quỹ, tạo ra một tạp chí hàng tuần và tổ chức các bài giảng trên khắp đất nước.
-Cuộc họp đầu tiên diễn ra tại Bordeaux vào ngày 23 tháng 2 năm 1846, trong đó Hội đồng Thương mại Tự do Bordeaux đã được thành lập. Sớm thôi, phong trào này lan rộng khắp nước Pháp. Tại Paris, một nhóm cốt lõi ban đầu đã được hình thành giữa các thành viên của Hội Kinh tế học, mà sau này các đại biểu, công nghiệp gia và thương nhân đã tham gia. Những nhóm đáng kể cũng được hình thành tại Marseille, Lyon và Le Havre.![image](assets/image/00/IMG24.webp)
+Năm sau, ông thành lập "Hiệp hội Thương mại Tự do" tại Pháp và lao vào cuộc chiến chống lại chủ nghĩa bảo hộ ở Pháp. Ông gây quỹ, tạo ra một tạp chí phát hành hàng tuần và tổ chức các bài giảng trên khắp đất nước.
+Cuộc họp đầu tiên diễn ra tại Bordeaux vào ngày 23 tháng 2 năm 1846, ở đó Hội đồng Thương mại Tự do Bordeaux đã được thành lập. Rất nhanh sau đó, phong trào này lan rộng khắp nước Pháp. Tại Paris, một nhóm cốt lõi ban đầu đã được hình thành giữa các thành viên của Hiệp hội Kinh tế học, mà sau này các đại biểu, các nhà công nghiệp và thương nhân đã tham gia. Các nhóm có quy mô cũng được hình thành tại Marseille, Lyon và Le Havre.![image](assets/image/00/IMG24.webp)
 
-Cách mạng tháng Hai năm 1848 đã lật đổ chế độ quân chủ của Louis-Philippe, được biết đến với tên gọi Quân chủ tháng Bảy (1830-1848), và chứng kiến sự ra đời của Cộng hòa Thứ hai. Bastiat sau đó được bầu làm thành viên của hội đồng lập pháp với tư cách là đại biểu cho Landes. Ông ngồi ở trung tả, cùng với Alexis de Tocqueville, giữa các phe quân chủ và xã hội chủ nghĩa. Tại đây, ông đã nỗ lực bảo vệ các quyền tự do cá nhân như quyền tự do dân sự và phản đối mọi chính sách hạn chế, dù chúng đến từ phe phải hay phe trái. Ông được bầu làm phó chủ tịch Ủy ban Tài chính và không ngừng nhắc nhở các đồng nghiệp đại biểu về một sự thật đơn giản thường bị quên lãng trong quốc hội:
+Cách mạng tháng Hai năm 1848 đã lật đổ chế độ quân chủ của Louis-Philippe, được biết đến với tên gọi Nền quân chủ tháng Bảy (1830-1848), và chứng kiến sự ra đời của Cộng hòa Thứ hai. Bastiat sau đó được bầu làm thành viên của hội đồng lập pháp với tư cách là đại biểu cho Landes. Ông ngồi ở trung tả, cùng với Alexis de Tocqueville, giữa các phe quân chủ và xã hội chủ nghĩa. Tại đây, ông đã nỗ lực bảo vệ các quyền tự do cá nhân như quyền tự do dân sự và phản đối mọi chính sách hạn chế, dù chúng đến từ cảnh hữu hay cánh tả. Ông được bầu làm phó chủ tịch Ủy ban Tài chính và không ngừng nhắc nhở các nghị sĩ đồng nghiệp về một sự thật đơn giản thường bị quên lãng trong quốc hội:
 
-> Người ta không thể cho một số người, bằng luật, mà không bắt buộc phải lấy từ người khác bằng một luật khác.
+> Người ta không thể cho một số người một cái gì đó, bằng luật, mà không bắt buộc phải cướp nó từ người khác bằng một luật khác.
 
-Hầu hết các sách và bài luận của ông đều được viết trong sáu năm cuối đời, từ 1844 đến 1850. Năm 1850, Bastiat đã viết hai trong số những tác phẩm nổi tiếng nhất của mình: Luật Pháp và một loạt các sách mỏng với tựa đề Những gì Được Thấy và Những gì Không Được Thấy. Luật Pháp đã được dịch ra nhiều ngôn ngữ nước ngoài, bao gồm tiếng Anh, Đức, Tây Ban Nha, Nga và Ý.
+Hầu hết các sách và bài luận của ông đều được viết trong sáu năm cuối đời, từ 1844 đến 1850. Năm 1850, Bastiat đã viết hai trong số những tác phẩm nổi tiếng nhất của mình: "Luật Pháp - The Law" và một loạt các sách sách nhỏ với tựa đề "Những gì Được Thấy và Những gì Không được Thấy - What is Seen and What is Not Seen". Tác phẩm The Law đã được dịch ra nhiều ngôn ngữ nước ngoài, bao gồm tiếng Anh, Đức, Tây Ban Nha, Nga và Ý.
 
 ![image](assets/image/00/IMG17.webp)
 
@@ -101,21 +101,21 @@ Hầu hết các sách và bài luận của ông đều được viết trong s
 
 ![video](https://youtu.be/SbCbtAYwqBM?si=IXXMfjbRAagKqqbF)
 
-Trong lĩnh vực kinh tế, Bastiat luôn thừa nhận món nợ của mình với Adam Smith và Jean-Baptiste Say. Khi 26 tuổi, ông viết cho một người bạn của mình, "Tôi chưa bao giờ đọc về những chủ đề này ngoài bốn tác phẩm này, Smith, Say, Destutt và Censor."
+Trong lĩnh vực kinh tế, Bastiat luôn thừa nhận mình có món nợ với Adam Smith và Jean-Baptiste Say. Khi 26 tuổi, ông viết cho một người bạn của mình, "Tôi chưa bao giờ đọc về những chủ đề này ngoài bốn tác phẩm này, Smith, Say, Destutt và Censor."
 
 ![image](assets/image/01/IMG02.webp)
 
 _(Jean-Baptiste Say và Adam Smith)_
-Kinh tế chính trị, như được Adam Smith và J.-B. Say hình dung, được tóm gọn trong một từ: tự do. Tự do thương mại, tự do cá nhân, tự do mậu dịch và tự do khởi xướng. Tự do thương mại lần đầu tiên được bảo vệ bởi các nhà kinh tế học, như François Quesnay và Vincent de Gournay, và sau đó bởi Adam Smith, người đã tổng hợp ý tưởng của họ với những quan sát của bản thân. Cuối cùng, vào cuối thế kỷ 18, Jean-Baptiste Say đã làm rõ và sửa đổi một số điểm trong học thuyết của thầy mình, Adam Smith, trong tác phẩm xuất sắc của mình về Kinh tế Chính trị.
+Kinh tế chính trị, như được Adam Smith và J.-B. Say vẽ ra, được tóm gọn trong một từ: tự do. Tự do thương mại, tự do cá nhân và tự do khởi xướng. Tự do thương mại lần đầu tiên được bảo vệ bởi các nhà kinh tế học, như François Quesnay và Vincent de Gournay, và sau đó bởi Adam Smith, người đã tổng hợp ý tưởng của họ với những quan sát của bản thân. Cuối cùng, vào cuối thế kỷ 18, Jean-Baptiste Say đã làm rõ và sửa đổi một số điểm trong học thuyết của thầy mình, Adam Smith, trong tác phẩm xuất sắc của mình về Kinh tế Chính trị.
 
 ![image](assets/image/01/IMG20.webp)
 
 _(Say, Destutt de Tracy, Quesnay, de Gournay)_
-Adam Smith quan tâm đến sự thịnh vượng, không phải là mục tiêu cuối cùng mà là phương tiện để nâng cao đạo đức của cá nhân. Đối với ông, sự giàu có của các quốc gia bao gồm sự giàu có của các cá nhân. Nếu bạn muốn một quốc gia thịnh vượng, Adam Smith nói, hãy để các cá nhân hành động tự do. Và thị trường hoạt động vì nó cho phép mọi người bày tỏ sở thích và theo đuổi lợi ích của mình.
+Adam Smith quan tâm đến sự thịnh vượng, không phải là mục tiêu cuối cùng mà là phương tiện để nâng cao đạo đức của cá nhân. Đối với ông, sự giàu có của các quốc gia bao gồm sự giàu có của các cá nhân. Nếu bạn muốn một quốc gia thịnh vượng, Adam Smith nói, hãy để các cá nhân được tự do hành động. Và thị trường hoạt động vì nó cho phép mọi người thể hiện sự ưa thích và theo đuổi lợi ích của mình.
 
 ![image](assets/image/01/IMG08.webp)
 
-Điều mới mẻ lớn của các nhà kinh tế học hiện đại vào bình minh của thế kỷ 18 là họ quan tâm đến từng cá nhân với ý định khôi phục khả năng hành động của họ trong khi suy nghĩ về cách kiềm chế đam mê và xung đột. Con người tự nhiên muốn cải thiện cuộc sống của mình và người thân thông qua việc trao đổi hàng hóa và dịch vụ.
+Tư tưởng mới mẻ lớn lao của các nhà kinh tế học hiện đại vào bình minh của thế kỷ 18 là họ quan tâm đến từng cá nhân với ý định trao trả lại khả năng hành động của họ trong khi suy nghĩ về cách kiềm chế đam mê và xung đột. Con người tự nhiên muốn cải thiện cuộc sống của mình và người thân thông qua việc trao đổi hàng hóa và dịch vụ.
 
 Những gì Adam Smith chỉ ra là một người chỉ có thể phục vụ lợi ích của mình bằng cách phục vụ lợi ích của người khác.
 
@@ -123,27 +123,27 @@ Những gì Adam Smith chỉ ra là một người chỉ có thể phục vụ l
 
 ![image](assets/image/01/IMG21.webp)
 
-Trao đổi là một trò chơi có tổng cộng lớn hơn. Những gì một người thu được, người kia cũng thu được. Do đó, nó khác biệt với việc phân phối lại chính trị nơi luôn có người thắng và người thua. Nếu chúng ta xem xét trường phái Anh, đối với Smith, đối với Ricardo, và đối với Locke trước họ, giá trị liên kết với lao động. Đối với Marx, cũng vậy.
+Trao đổi là một trò chơi có tổng dương. Những gì một người thu được, người kia cũng thu được. Do đó, nó khác biệt với tái phân phối bằng con đường chính trị nơi luôn có người thắng và người thua. Nếu chúng ta xem xét trường phái Kinh tế học Anh, đối với Smith, đối với Ricardo, và đối với Locke trước họ, giá trị gắn với lao động. Đối với Marx, cũng vậy.
 
 ![image](assets/image/01/IMG22.webp)
 
 _(Marx, Ricardo, Smith, Locke)_
 
-Mặt khác, Bastiat sẽ thừa nhận cùng với Jean-Baptiste Say rằng tiện ích là nền tảng thực sự của giá trị. Lao động không tạo ra giá trị. Sự khan hiếm cũng không. Mọi thứ đều xuất phát từ tiện ích. Thực tế, không ai đồng ý trả tiền cho một dịch vụ trừ khi họ coi nó là hữu ích. Người ta chỉ sản xuất ra tiện ích.
-Nhưng Bastiat cũng làm cho Say mềm mỏng hơn về điểm này. Đó không phải là tiện ích có trong vật thể, đó là tiện ích tương đối của các dịch vụ. "Giá trị là tỷ lệ của hai dịch vụ trao đổi," theo lời của ông. Do đó, giá trị là chủ quan, và cách duy nhất để nắm bắt được sở thích của cá nhân là quan sát hành vi của họ trong một thị trường tự do. Thị trường tiết lộ sở thích cá nhân và là điều chỉnh viên lớn của xã hội thông qua trao đổi.
+Mặt khác, Bastiat cùng với Jean-Baptiste Say thừa nhận rằng tiện ích là nền tảng thực sự của giá trị. Lao động không tạo ra giá trị. Sự khan hiếm cũng không. Mọi thứ đều xuất phát từ tiện ích. Thực vậy, không ai đồng ý trả tiền cho một dịch vụ trừ khi họ thấy nó hữu ích. Người ta chỉ sản xuất ra tiện ích.
+Nhưng Bastiat cũng làm cho Say mềm mỏng hơn về điểm này. Đó không phải là tiện ích có trong vật thể, mà đó là tiện ích tương đối của các dịch vụ. "Giá trị là tỷ lệ của hai dịch vụ được trao đổi," theo lời của ông. Do đó, giá trị có tính chủ quan, và cách duy nhất để nắm bắt được sự ưa thích của một cá nhân là quan sát hành vi của họ trong một thị trường tự do. Thị trường tiết lộ sự ưa thích cá nhân và là kẻ điều phối vĩ đại của xã hội thông qua hoạt động mua bán, trao đổi.
 
-Nền kinh tế tuân theo một số luật đơn giản xuất phát từ hành vi con người. Một trong số đó, được gọi là "Luật Say," như sau: "Sản phẩm và dịch vụ được trao đổi cho sản phẩm và dịch vụ." Ý tưởng của ông là các quốc gia và cá nhân được hưởng lợi từ việc tăng cấp độ sản xuất vì nó cung cấp nhiều cơ hội hơn cho các giao dịch có lợi cho cả hai bên.
+Nền kinh tế tuân theo một số quy luật đơn giản xuất phát từ hành vi con người. Một trong số đó, được gọi là "Luật Say," như sau: "Các sản phẩm và dịch vụ được trao đổi cho các sản phẩm và dịch vụ." Ý tưởng của ông là các quốc gia và cá nhân được hưởng lợi từ việc tăng cấp độ sản xuất vì nó gia tăng cơ hội cho các giao dịch có lợi cho cả hai bên.
 
 ![image](assets/image/01/IMG16.webp)
 
-Thực tế, sản phẩm chỉ được mua với kỳ vọng vào dịch vụ mà người mua mong đợi: Tôi mua một đĩa cho nhạc mà tôi sẽ nghe, tôi mua một vé xem phim cho bộ phim mà tôi sẽ xem. Và trong một giao dịch, mỗi bên quyết định vì nó đánh giá rằng nó có thể thu được nhiều dịch vụ hơn từ những gì nó có được so với những gì nó từ bỏ. Trong bối cảnh này, tiền chỉ là một hàng hóa trung gian, nó bù đắp cho một dịch vụ đã được cung cấp và mở ra các dịch vụ khác.
+Thực vậy, sản phẩm chỉ được mua với kỳ vọng vào dịch vụ mà người mua mong đợi: Tôi mua một đĩa vì nhạc mà tôi sẽ nghe, tôi mua một vé xem phim vì bộ phim mà tôi sẽ xem. Và trong một giao dịch, mỗi bên quyết định xem liệu thứ mình nhận được có đáng giá hơn so với thứ mình định từ bỏ hay không. Trong bối cảnh này, tiền chỉ là một hàng hóa trung gian, nó bù đắp cho một dịch vụ đã được cung cấp và mở ra các dịch vụ khác.
 
-Đối với Bastiat, nền kinh tế của các giao dịch, tức là các dịch vụ lẫn nhau được cung cấp và chấp nhận tự do, là nền tảng cho hòa bình và thịnh vượng, cho phép sự hài hòa của lợi ích.
+Đối với Bastiat, nền kinh tế của các giao dịch, nơi các dịch vụ phục vụ lẫn nhau được tự do cung cấp và chấp nhận, là nền tảng cho hòa bình và thịnh vượng, cho phép sự hài hòa của lợi ích.
 
 Nhưng từ Jean-Baptiste Say, Frédéric Bastiat cũng thừa hưởng một khái niệm chính, đó là của cải. Bởi, ông nói, nhắc lại lời của Say:
 
-> Chỉ có hai cách để có được những thứ cần thiết cho việc bảo tồn, làm đẹp, và cải thiện cuộc sống: sản xuất và cướp bóc.
-> Các nhà sản xuất thường sử dụng thuyết phục, đàm phán và hợp đồng, trong khi những kẻ cướp bóc lại sử dụng vũ lực và lừa dối. Do đó, nhiệm vụ của pháp luật là ngăn chặn việc cướp bóc và bảo vệ lao động cũng như tài sản. Như Adam Smith đã từng nói, việc đảm bảo an toàn cho công dân là sứ mệnh chính của cơ quan công quyền, và chính điều này biện minh cho việc thu thuế.
+> Chỉ có hai cách để có được những thứ cần thiết cho việc bảo tồn, tô điểm, và cải thiện cuộc sống, đó là: sản xuất và cướp bóc.
+Các nhà sản xuất thường sử dụng thuyết phục, đàm phán và hợp đồng, trong khi những kẻ cướp bóc lại sử dụng vũ lực và lừa dối. Do đó, nhiệm vụ của pháp luật là ngăn chặn việc cướp bóc và bảo vệ lao động cũng như tài sản. Như Adam Smith đã từng nói, việc đảm bảo an toàn cho công dân là sứ mệnh chính của cơ quan công quyền, và chính điều này biện minh cho việc thu thuế.
 
 ![image](assets/image/01/IMG17.webp)
 
@@ -154,13 +154,13 @@ Nhưng từ Jean-Baptiste Say, Frédéric Bastiat cũng thừa hưởng một kh
 ![video](https://youtu.be/n69ITkX9DMU?si=PymbTYQxiAFVSP42)
 Ít người biết rằng, Destutt de Tracy đã có ảnh hưởng quyết định đến Tổng thống tương lai của Hoa Kỳ, Thomas Jefferson, khi ông làm đại sứ tại Paris vào những năm 1780.
 
-> "Đối với mỗi người đàn ông, quê hương đầu tiên của anh ta là tổ quốc, và quê hương thứ hai là Pháp" & "Bạo chúa là khi người dân sợ chính phủ của họ; tự do là khi chính phủ sợ người dân."
+> "Đối với mỗi người đàn ông, quê hương đầu tiên của anh ta là tổ quốc, và quê hương thứ hai là Pháp" & "Sự chuyên quyền bạo ngược ra đời khi người dân sợ chính phủ của họ; tự do có được là khi chính phủ sợ người dân."
 >
 > Thomas Jefferson
 
 ![image](assets/image/02/IMG18.webp)
 
-Thực sự, cuốn "Treatise on Political Economy" của ông đã lên án chủ nghĩa bảo hộ và sự mở rộng của Napoleon. Do đó, nó đã bị cấm xuất bản ở Pháp bởi Bonaparte. Tuy nhiên, nó đã được dịch sang tiếng Anh và xuất bản tại Hoa Kỳ bởi chính Jefferson. Ông đã biến văn bản này thành sách giáo khoa kinh tế chính trị đầu tiên của Đại học Virginia, mà ông mới thành lập tại Charlottesville. Cuốn Treatise không được xuất bản ở Pháp cho đến năm 1819!
+Thực sự, cuốn "Treatise on Political Economy - Chuyên luận về Kinh tế Chính trị" của ông đã lên án chủ nghĩa bảo hộ và sự mở rộng của Napoleon. Do đó, nó đã bị cấm xuất bản ở Pháp bởi Bonaparte. Tuy nhiên, nó đã được dịch sang tiếng Anh và xuất bản tại Hoa Kỳ bởi chính Jefferson. Ông đã biến công trình này thành sách giáo khoa kinh tế chính trị đầu tiên của Đại học Virginia, mà ông mới thành lập tại Charlottesville. Cuốn Treatise không được xuất bản ở Pháp mãi cho đến năm 1819!
 
 ![image](assets/image/02/IMG04DESTUTT.webp)
 
@@ -170,50 +170,50 @@ Destutt de Tracy, một triết gia và nhà kinh tế học, là người đứ
 
 ![image](assets/image/02/IMG08.webp)
 
-Với ý nghĩa của Tracy, ý thức hệ đơn giản là khoa học nghiên cứu về các ý tưởng, nguồn gốc của chúng, các quy luật của chúng, mối quan hệ của chúng với ngôn ngữ, tức là, theo thuật ngữ hiện đại hơn, là triết học nhận thức. Thuật ngữ "ideology" không có ý nghĩa tiêu cực mà Marx sau này đã dùng để phê phán các nhà kinh tế của "laissez-faire". Tạp chí của phong trào ideologue được gọi là La Décade philosophique et littéraire.
+Theo Tracy, ý thức hệ đơn giản là khoa học nghiên cứu về các ý tưởng, nguồn gốc của chúng, các quy luật của chúng, mối quan hệ của chúng với ngôn ngữ, tức là, theo thuật ngữ hiện đại hơn, là nhận thức luận. Thuật ngữ "ideology" không có ý nghĩa tiêu cực mà Marx sau này đã dùng để phê phán các nhà kinh tế của "laissez-faire". Tạp chí của phong trào ideologue được gọi là "La Décade philosophique et littéraire".
 
 ![image](assets/image/02/IMG03.webp)
 
-Nó đã chiếm ưu thế trong thời kỳ cách mạng và được điều hành bởi Jean-Baptiste Say. Destutt de Tracy được bầu làm thành viên của Học viện Pháp vào năm 1808 và của Học viện Khoa học Đạo đức và Chính trị vào năm 1832. Con gái ông đã kết hôn với Georges Washington de La Fayette (con trai của tổng thống Mỹ đầu tiên) vào năm 1802, điều này cho thấy mối quan hệ gần gũi vẫn còn tồn tại giữa Pháp và nước Mỹ trẻ vào thời điểm đó.
+Tờ báo này đã chiếm ưu thế trong thời kỳ cách mạng và được điều hành bởi Jean-Baptiste Say. Destutt de Tracy được bầu làm thành viên của Học viện Pháp vào năm 1808 và của Học viện Khoa học Đạo đức và Chính trị vào năm 1832. Con gái ông đã kết hôn với Georges Washington de La Fayette (con trai của tổng thống Mỹ đầu tiên) vào năm 1802, điều này cho thấy mối quan hệ gần gũi vẫn còn tồn tại giữa Pháp và nước Mỹ trẻ trung vào thời điểm đó.
 
 ![image](assets/image/02/IMG17.webp)
-Mục đích của bản luận về Kinh tế Chính trị của ông là "xem xét cách tốt nhất để sử dụng tất cả các khả năng vật lý và trí tuệ của chúng ta để thỏa mãn các nhu cầu đa dạng của mình." Ý tưởng của ông là thương mại là nguồn gốc của mọi điều tốt lành cho con người; đó là lực lượng văn minh hóa, lý trí hóa, và hòa bình hóa của thế giới. Nguyên tắc lớn nhất của kinh tế chính trị được ông đề ra như sau: "thương mại là toàn bộ xã hội, cũng như lao động là toàn bộ của cải." Thực sự, ông coi xã hội như "một chuỗi liên tục của các giao dịch mà trong đó cả hai bên đều luôn có lợi." Do đó, thị trường là điều ngược lại với việc cướp bóc. Nó làm giàu cho một số người mà không làm nghèo đi người khác. Như sẽ được nói sau, đó không phải là một "trò chơi tổng số không," mà là một trò chơi tổng số dương.
+Mục đích của tác phẩm Chuyên luận về Kinh tế Chính trị của ông là "đánh giá cách tốt nhất để sử dụng tất cả các khả năng vật chất và trí tuệ của chúng ta để thỏa mãn các nhu cầu đa dạng của mình." Ý tưởng của ông là thương mại là nguồn gốc của mọi điều tốt lành cho con người; đó là lực lượng văn minh hóa, lý trí hóa, và hòa bình hóa của thế giới. Nguyên tắc lớn nhất của kinh tế chính trị được ông đề ra như sau: "thương mại là toàn bộ xã hội, cũng như lao động là toàn bộ của cải." Thực sự, ông coi xã hội như "một chuỗi liên tục của các giao dịch mà trong đó cả hai bên đều luôn có lợi." Do đó, thị trường là thứ ngược lại với việc cướp bóc. Nó làm giàu cho một số người mà không làm nghèo đi người khác. Như sẽ được nói sau, đó không phải là một "trò chơi tổng bằng không," mà là một trò chơi tổng dương.
 
-Tác giả của chúng ta không đi xa đến mức định nghĩa kinh tế chính trị là khoa học về giao dịch. Nhưng lý lẽ này sẽ được Bastiat tiếp nhận và phát triển. Bán hàng là một sự trao đổi vật phẩm, cho thuê là một sự trao đổi dịch vụ, và cho vay chỉ đơn giản là một sự trao đổi được hoãn lại. Kinh tế chính trị do đó trở thành cho Bastiat "lý thuyết về giao dịch."
+Tác giả của chúng ta không đi xa đến mức định nghĩa kinh tế chính trị là khoa học về giao dịch. Nhưng lý lẽ này sẽ được Bastiat tiếp nhận và phát triển. Bán hàng là một sự trao đổi vật phẩm, cho thuê là một sự trao đổi dịch vụ, và cho vay chỉ đơn giản là một sự trao đổi được hoãn lại. Do đó, đối với Bastiat, kinh tế chính trị do đó trở thành "lý thuyết về giao dịch."
 
 ![image](assets/image/02/IMG02.webp)
 
-Theo Destutt de Tracy, tài sản chắc chắn phát sinh từ bản chất của chúng ta, từ khả năng mong muốn của chúng ta. Nếu con người không muốn bất cứ điều gì, anh ta sẽ không có quyền lợi hay nghĩa vụ nào. Để đáp ứng nhu cầu và thực hiện nghĩa vụ của mình, con người phải sử dụng các phương tiện mà anh ta có được thông qua lao động của mình. Và hình thức tổ chức xã hội phù hợp với mục tiêu này là tài sản riêng tư. Đó là lý do tại sao mục tiêu duy nhất của chính phủ là bảo vệ tài sản và cho phép trao đổi một cách hòa bình.
+Theo Destutt de Tracy, tài sản chắc chắn phát sinh từ bản chất của chúng ta, từ mong muốn của chúng ta. Nếu con người không muốn bất cứ điều gì, anh ta sẽ không có quyền hay nghĩa vụ nào cả. Để đáp ứng nhu cầu và thực hiện nghĩa vụ của mình, con người phải sử dụng các phương tiện mà anh ta có được thông qua lao động của mình. Và hình thức tổ chức xã hội phù hợp với mục tiêu này là tư hữu. Đó là lý do tại sao mục tiêu duy nhất của chính phủ là bảo vệ quyền tài sản và cho phép trao đổi chúng một cách hòa bình.
 
 ![image](assets/image/02/IMG05.webp)
 
-Đối với ông, thuế tốt nhất là thuế vừa phải nhất, và ông mong muốn chi tiêu của nhà nước được hạn chế nhất có thể. Ông lên án việc chính phủ cướp bóc tài sản của xã hội dưới hình thức nợ công, thuế, độc quyền ngân hàng, và chi tiêu. Một lần nữa, luật pháp chỉ nên phục vụ để bảo vệ tự do; nó không bao giờ nên cướp bóc.
+Đối với ông, thuế tốt nhất là thuế vừa phải nhất, và ông mong muốn chi tiêu của nhà nước được hạn chế nhất có thể. Ông lên án việc chính phủ cướp bóc tài sản của xã hội dưới hình thức nợ công, thuế, độc quyền ngân hàng, và chi tiêu. Một lần nữa, luật pháp chỉ nên phục vụ để bảo vệ tự do; nó không bao giờ nên được dùng để cướp bóc.
 
-Cuối cùng, ông thêm vào khuyến nghị này, mà không mất đi tính liên quan của nó:
+Cuối cùng, ông thêm vào khuyến nghị này, mà không mất đi tính hợp lý của nó:
 
-> Hãy để chính phủ không tạo ra và không thể tạo ra nợ mà cam kết các thế hệ tương lai và luôn dẫn các quốc gia đến sự suy tàn.
+> Hãy để chính phủ không tạo ra và không thể tạo ra nợ, vì nó phá huỷ các các thế hệ tương lai và luôn dẫn các quốc gia đến sự suy tàn.
 
-Kết luận, các Ideologues đã có một trực giác sâu sắc, đó là sản xuất và giao dịch là giải pháp thực sự cho các vấn đề chính trị và là lựa chọn thực sự thay thế cho chiến tranh. Chiến tranh luôn là hành động cướp bóc, dù là nội bộ, như trong Cách mạng, hay bên ngoài, như những cuộc chiến do các vua cổ đại và Napoleon tiến hành.
+Kết luận, Ideologues đã có một trực giác sâu sắc, đó là sản xuất và giao dịch là giải pháp thực sự cho các vấn đề chính trị và là lựa chọn thực sự thay thế cho chiến tranh. Chiến tranh luôn là hành động cướp bóc, dù là nội bộ, như trong Cách mạng, hay bên ngoài, như những cuộc chiến do các ông vua cổ đại và Napoleon tiến hành.
 
 ## Charles Comte và Charles Dunoyer
 
 <chapterId>80bc5c4e-ac07-52c8-9dd7-e224ac291bda</chapterId>
 ![video](https://youtu.be/ZuZGz897Pto?si=O-eJhBpDDSlsW5Yu)
-Lịch sử của tất cả các nền văn minh là câu chuyện về cuộc đấu tranh giữa các tầng lớp cướp bóc và các tầng lớp sản xuất. Đây là tín ngưỡng của hai tác giả mà chúng ta sẽ thảo luận. Họ là người sáng lập một lý thuyết tự do về đấu tranh giai cấp đã truyền cảm hứng cho Frédéric Bastiat cũng như Karl Marx, mặc dù người sau đã bóp méo nó.
+Lịch sử của tất cả các nền văn minh là câu chuyện về cuộc đấu tranh giữa các tầng lớp cướp bóc và các tầng lớp sản xuất. Đây là tín điều của hai tác giả mà chúng ta sẽ thảo luận. Họ là người sáng lập một lý thuyết tự do về đấu tranh giai cấp đã truyền cảm hứng cho Frédéric Bastiat cũng như Karl Marx, mặc dù người sau đã bóp méo nó.
 
 ![image](assets/image/03/IMG01.webp)
 
 Đối với Comte và Dunoyer, cướp bóc, nghĩa là tất cả các hình thức bạo lực được thực hiện trong xã hội bởi kẻ mạnh lên người yếu, là chìa khóa lớn để hiểu lịch sử loài người. Đó là nguồn gốc của tất cả các hiện tượng bóc lột một giai cấp bởi một giai cấp khác.
 
 ![image](assets/image/03/IMG22.webp)
-Nếu Frédéric Bastiat nhận được giáo dục kinh tế từ Smith, Destutt de Tracy và Say, thì ông nhận được giáo dục chính trị từ các lãnh đạo của tạp chí Le Censeur, Charles Comte và Charles Dunoyer.
-Tạp chí này (1814-1819), được đổi tên thành Le Censeur européen sau Những Ngày Trăm Năm, đã phổ biến các ý tưởng tự do đã chiến thắng vào năm 1830 với cuộc nổi dậy của Ba Ngày Vẻ Vang và sự lên nắm quyền của Công tước Orléans, Louis-Philippe I.
+Nếu Frédéric Bastiat nhận được giáo dục về kinh tế từ Smith, Destutt de Tracy và Say, thì ông nhận được giáo dục về chính trị từ các lãnh đạo của tạp chí Le Censeur, Charles Comte và Charles Dunoyer.
+Tạp chí này (1814-1819), được đổi tên thành Le Censeur européen sau sự kiện Cent Jours - Hundred Days, đã phổ biến các ý tưởng tự do, những ý tưởng đã dành chiến thắng vào năm 1830 với cuộc nổi dậy của "3 Glorieuses - Three Glorious Days - Ba ngày vẻ vang" và sự lên nắm quyền của Công tước Orléans, Louis-Philippe I.
 
 ![image](assets/image/03/IMG03.webp)
 
 ![image](assets/image/03/IMG04.webp)
 
-Charles Comte, họ hàng của Auguste Comte và là con rể của Say, là người sáng lập tạp chí. Ông sớm được Charles Dunoyer, một luật sư như ông, và sau đó là một nhà sử học trẻ, Augustin Thierry, cựu thư ký của Saint Simon, gia nhập. Phương châm của họ trên trang đầu của mỗi số tạp chí là "Hòa bình và Tự do".
+Charles Comte, họ hàng của Auguste Comte và là con rể của Say, là người sáng lập tạp chí. Ông sớm được Charles Dunoyer, một luật sư như ông, và sau đó là một nhà sử học trẻ, Augustin Thierry, cựu thư ký của Saint Simon, gia nhập. Phương châm của họ được ghi trên trang đầu của mỗi số tạp chí là "Hòa bình và Tự do".
 
 Mục tiêu của tạp chí là gì? Tiêu đề đã nói lên tất cả: để kiểm duyệt chính phủ. Để chống lại sự chuyên quyền của quyền lực bằng cách soi sáng dư luận, bảo vệ tự do báo chí.
 
@@ -221,8 +221,8 @@ Mục tiêu của tạp chí là gì? Tiêu đề đã nói lên tất cả: đ�
 
 _(Benjamin Constant)_
 
-Họ kế thừa từ Benjamin Constant sự phân biệt giữa Người Cổ và Người Hiện Đại, được đặc trưng một mặt bởi chiến tranh, và mặt khác bởi thương mại và công nghiệp. Nhưng họ thêm vào với Say rằng kinh tế học chính trị cung cấp giải thích tốt nhất về các hiện tượng xã hội. Họ đặc biệt hiểu rằng các quốc gia đạt được hòa bình và thịnh vượng khi quyền sở hữu và tự do thương mại được tôn trọng. Từ đây, đối với họ, kinh tế học chính trị là nền tảng thực sự và duy nhất của chính trị. Triết học, chỉ giới hạn trong việc phê bình trừu tượng các hình thức chính phủ, phải được thay thế bằng một lý thuyết dựa trên kiến thức về lợi ích kinh tế.
-Kinh tế học chính trị, bằng cách chứng minh cách thức các dân tộc phồn thịnh và suy tàn, đã đặt nền móng thực sự của chính trị.
+Họ kế thừa từ Benjamin Constant sự phân biệt giữa Người cổ đại và Người hiện đại, được đặc trưng một mặt bởi chiến tranh, và mặt khác bởi thương mại và công nghiệp. Nhưng họ thêm vào so với Say rằng kinh tế học chính trị mang đến sự giải thích tốt nhất về các hiện tượng xã hội. Họ đặc biệt hiểu rằng các quốc gia đạt được hòa bình và thịnh vượng khi quyền sở hữu và tự do thương mại được tôn trọng. Từ đây, đối với họ, kinh tế học chính trị là nền tảng thực sự và duy nhất của chính trị. Triết học, chỉ giới hạn trong việc phê bình trừu tượng các hình thức chính phủ, phải được thay thế bằng một lý thuyết dựa trên kiến thức về lợi ích kinh tế.
+Kinh tế học chính trị, bằng cách chứng minh cách thức các dân tộc phồn thịnh và suy tàn, đã đặt nền móng thực sự cho chính trị.
 
 > Dunoyer
 
@@ -230,45 +230,45 @@ Kinh tế học chính trị, bằng cách chứng minh cách thức các dân t
 
 Lý thuyết xã hội mới này chứa đựng một trong những yếu tố sẽ trở thành nền tảng của chủ nghĩa xã hội khoa học của Marx và Engels: cuộc đấu tranh giai cấp. Nhưng lý thuyết tự do về cuộc đấu tranh giai cấp bao gồm những gì, và nó khác biệt với chủ nghĩa Marx như thế nào?
 
-Nó bắt đầu với cá nhân, người hành động để đáp ứng nhu cầu và mong muốn của mình. Từ thời điểm một người tạo ra, tức là tăng tính hữu ích của vật phẩm, nâng cao giá trị của chúng, người đó tham gia vào ngành công nghiệp. Tại đây, một nhà công nghiệp không phải là chủ sở hữu của một ngành công nghiệp, như ngôn ngữ hiện tại có thể gợi ý, mà là một nhà sản xuất, bất kể lĩnh vực họ làm việc. Đó là lý do tại sao lý thuyết của họ được gọi là công nghiệp chủ nghĩa. Nó cho rằng mục tiêu của xã hội là sự tạo ra tính hữu ích trong nghĩa rộng, tức là hàng hóa và dịch vụ hữu ích cho con người.
+Nó bắt đầu với cá nhân, người hành động để đáp ứng nhu cầu và mong muốn của mình. Từ thời điểm một người tạo ra, tức là tăng tính hữu ích của vật phẩm, nâng cao giá trị của chúng, người đó tham gia vào ngành công nghiệp. Tại đây, một nhà công nghiệp không phải là chủ sở hữu của một ngành công nghiệp, như ngôn ngữ hiện tại có thể gợi ý, mà là một nhà sản xuất, bất kể lĩnh vực họ làm việc. Đó là lý do tại sao lý thuyết của họ được gọi là chủ nghĩa công nghiệp. Nó cho rằng, theo nghĩa rộng, mục tiêu của xã hội là sự tạo ra tính hữu ích, tức là hàng hóa và dịch vụ hữu ích cho con người.
 
-Tại điểm này, các cá nhân đối mặt với hai lựa chọn cơ bản: họ có thể cướp bóc của cải do người khác sản xuất, hoặc họ có thể làm việc để tự sản xuất của cải. Trong bất kỳ xã hội nào, người ta có thể rõ ràng phân biệt những người sống bằng cách cướp bóc từ những người sống bằng cách sản xuất. Dưới chế độ Ancien Régime, quý tộc trực tiếp tấn công những người siêng năng nhất để sống nhờ vào một hình thức tôn vinh mới: thuế. Quý tộc háu ăn được kế thừa bởi đám quan liêu, không kém phần háu ăn.
+Tại điểm này, các cá nhân đối mặt với hai lựa chọn cơ bản: họ có thể cướp bóc của cải do người khác sản xuất, hoặc họ có thể làm việc để tự sản xuất ra của cải cho chính mình. Trong bất kỳ xã hội nào, người ta có thể phân biệt rõ ràng những người sống bằng cách cướp bóc từ những người sống bằng cách sản xuất. Dưới chế độ Ancien Régime, quý tộc trực tiếp tấn công những người siêng năng nhất để sống nhờ vào một hình thức cống nạp mới: thuế. Quý tộc háu ăn được kế thừa bởi đám quan liêu, không kém phần háu ăn.
 
 ![image](assets/image/03/IMG09.webp)
 Trong khi đối với Marx, mâu thuẫn giai cấp nằm ngay trong hoạt động sản xuất, giữa người lao động và chủ nhân, thì đối với Comte và Dunoyer, các giai cấp xung đột, một bên là những người sản xuất của xã hội, những người đóng thuế (bao gồm các nhà tư bản, công nhân, nông dân, học giả, v.v.) và mặt khác, những người không sản xuất, sống nhờ vào thu nhập từ thuế, "lớp người nhàn rỗi và tiêu thụ" (các quan chức, viên chức, chính trị gia, người hưởng trợ cấp hoặc bảo hộ).
 
-Sau đó, không giống như Marx, các tác giả của Censeur Européen không ủng hộ chiến tranh giai cấp. Thay vào đó, họ vận động cho hòa bình xã hội. Và theo họ, điều này chỉ có thể đạt được thông qua việc phi chính trị hóa xã hội. Để làm được điều này, điều quan trọng đầu tiên là giảm bớt uy tín và lợi ích của các chức vụ công. Sau đó, điều quan trọng là phải trao quyền ảnh hưởng trong cơ thể chính trị cho những người sản xuất.
+Sau đó, không giống như Marx, các tác giả của Censeur Européen không ủng hộ chiến tranh giai cấp. Thay vào đó, họ vận động cho hòa bình xã hội. Và theo họ, điều này chỉ có thể đạt được thông qua việc phi chính trị hóa xã hội. Để làm được điều này, điều quan trọng đầu tiên là giảm bớt uy tín và lợi ích của các công chức. Sau đó, điều quan trọng là phải trao quyền để những người sản xuất có tiếng nói ảnh hưởng trong thể chế chính trị.
 
-Cuối cùng, cách duy nhất để loại bỏ sự bóc lột của một giai cấp bởi giai cấp khác là phá hủy chính cơ chế làm cho sự bóc lột này trở nên khả thi: quyền lực của Nhà nước trong việc phân phối và kiểm soát tài sản và việc phân bổ các lợi ích liên quan đến nó ("các vị trí").
+Cuối cùng, cách duy nhất để loại bỏ sự bóc lột của một giai cấp bởi giai cấp khác là phá hủy chính cơ chế làm cho sự bóc lột này trở nên khả thi: quyền lực của Nhà nước trong việc phân phối và kiểm soát tài sản và việc phân bổ các lợi ích liên quan đến nó ("các vị trí chức vụ").
 
-Những ý tưởng của họ, cực kỳ đổi mới, sẽ mãi mãi đánh dấu Frédéric Bastiat, người sau này sẽ trở thành một tư duy sâu sắc về các khủng hoảng chính trị.
+Những ý tưởng của họ, cực kỳ đổi mới, sẽ mãi mãi ảnh hưởng tới Frédéric Bastiat, người sau này sẽ trở thành một nhà tư tưởng sâu sắc về các khủng hoảng chính trị.
 
-## Cobden và Liên Minh
+## Cobden và Liên đoàn của ông
 
 <chapterId>7181435c-5eae-56e4-8e55-02a24273fdd6</chapterId>
 
-Năm 1838, tại Manchester, một nhóm nhỏ những người đàn ông, ít được biết đến cho đến thời điểm đó, tập hợp lại để tìm cách lật đổ độc quyền của các chủ đất lúa mì thông qua phương tiện pháp lý và để thực hiện, như Bastiat sau này kể lại,
+Năm 1838, tại Manchester, một nhóm nhỏ những người đàn ông, ít được biết đến cho đến thời điểm đó, tập hợp lại để tìm cách lật đổ sự độc quyền của các chủ đất lúa mì thông qua phương tiện pháp lý để đạt được, như Bastiat sau này kể lại,
 
-> Không cần đến máu, chỉ bằng sức mạnh của ý kiến, một cuộc cách mạng sâu sắc, có lẽ còn sâu sắc hơn cuộc cách mạng mà cha ông chúng ta đã thực hiện vào năm 1789.
+> Không cần đến máu, chỉ bằng sức mạnh của quan điểm, một cuộc cách mạng sâu sắc, có lẽ còn sâu sắc hơn cuộc cách mạng mà cha ông chúng ta đã thực hiện vào năm 1789.
 
-Từ cuộc họp này sẽ nảy sinh Liên Minh chống lại luật ngũ cốc, hoặc luật lúa mì, như Bastiat gọi chúng. Nhưng rất nhanh, mục tiêu này sẽ trở thành mục tiêu của việc bãi bỏ một cách toàn diện và đơn phương chủ nghĩa bảo hộ.
+Từ cuộc họp này Liên đoàn chống lại luật ngũ cốc đã nổi lên, hoặc luật lúa mì, như Bastiat gọi chúng. Nhưng rất nhanh, mục tiêu này đã trở thành mục tiêu của việc bãi bỏ một cách toàn diện và đơn phương chủ nghĩa bảo hộ.
 
-Cuộc chiến kinh tế cho thương mại tự do sẽ chiếm lĩnh toàn bộ nước Anh cho đến năm 1846. Tại Pháp, ngoại trừ một số ít người biết, sự tồn tại của phong trào lớn này hoàn toàn không được biết đến. Chính bằng cách đọc một tờ báo tiếng Anh, mà anh ta tình cờ đăng ký, Frédéric Bastiat đã biết về sự tồn tại của Liên Minh vào năm 1843. Đầy hứng khởi, anh đã dịch các bài phát biểu của Cobden, Fox và Bright. Sau đó anh đã liên lạc với Cobden và cuối cùng, vào năm 1845, anh đã đến London để tham dự các cuộc họp khổng lồ của Liên Minh.
+Cuộc chiến kinh tế cho thương mại tự do đã chiếm lĩnh toàn bộ nước Anh cho đến năm 1846. Tại Pháp, ngoại trừ một số ít, sự tồn tại của phong trào lớn này hoàn toàn không được biết đến. Chính bằng cách đọc một tờ báo tiếng Anh tình cờ đăng ký, Frédéric Bastiat đã biết về sự tồn tại của Liên đoàn vào năm 1843. Đầy hứng khởi, ông đã dịch các bài phát biểu của Cobden, Fox và Bright. Sau đó ông đã liên lạc với Cobden và cuối cùng, vào năm 1845, ông đã đến London để tham dự các mít tinh khổng lồ của Liên đoàn.
 
-Đó là chiến dịch kích động này cho thương mại tự do, trải dài khắp vương quốc, với hàng chục nghìn thành viên, đã làm cho bút của Bastiat bùng cháy và thay đổi hoàn toàn và mãi mãi con đường cuộc đời của anh.
+Đó là chiến dịch khuấy động cho thương mại tự do, trải dài khắp vương quốc, với hàng chục nghìn thành viên, đã làm cho ngòi bút của Bastiat bùng cháy và thay đổi hoàn toàn và mãi mãi con đường cuộc đời của ông.
 
-Liên Minh có thể được so sánh với một trường đại học lưu động, giáo dục về kinh tế cho những người tham dự các cuộc họp của mình trên khắp đất nước - những người dân thường, các nhà công nghiệp, người trồng trọt và nông dân, tất cả những người mà Liên Minh đã đưa vào dưới sự bảo trợ của mình và những người bị luật ngũ cốc áp bức. Richard Cobden là linh hồn của phong trào và là một kích động viên xuất sắc.
+Liên đoàn có thể được so sánh với một trường đại học lưu động, giáo dục về kinh tế cho những người tham dự các cuộc mít tinh của mình trên khắp đất nước - những người dân thường, các nhà công nghiệp, người trồng trọt và nông dân, tất cả những người mà Liên minh đã đưa vào dưới sự bảo trợ của mình và những người bị luật ngũ cốc áp bức. Richard Cobden là linh hồn của phong trào và là một nhà khuấy động quần chúng xuất sắc.
 Một diễn giả hấp dẫn và đáng gờm, ông có một khả năng phi thường trong việc sáng tạo ra những cụm từ độc đáo và súc tích, xa rời những bài diễn thuyết trừu tượng của các nhà kinh tế học.
 
-> "Độc quyền bánh mì là gì?" ông thốt lên. "Đó chính là sự khan hiếm của bánh mì. Bạn sẽ ngạc nhiên khi biết rằng, pháp luật của đất nước này, về vấn đề này, không có mục đích nào khác ngoài việc tạo ra sự khan hiếm bánh mì lớn nhất có thể. Và thực tế cũng không gì khác. Pháp luật chỉ có thể đạt được mục tiêu của mình thông qua sự khan hiếm."
+> "Độc quyền bánh mì là gì?" ông thốt lên. "Đó chính là sự khan hiếm của bánh mì. Bạn sẽ ngạc nhiên khi biết rằng, pháp luật của đất nước này không có mục đích nào khác ngoài việc tạo ra sự khan hiếm nhất có thể đối với bánh mì. Và không phải là thứ gì khác. Pháp luật chỉ có thể đạt được mục tiêu của mình thông qua sự khan hiếm."
 
-Vào năm 1845, Bastiat đã xuất bản cuốn sách "Cobden và Liên đoàn" tại Paris, với những bản dịch kèm theo nhận xét của mình. Cuốn sách mở đầu với một lời giới thiệu về tình hình kinh tế của Anh, về lịch sử nguồn gốc và tiến trình phát triển của Liên đoàn. Kể từ năm 1815, chủ nghĩa bảo hộ đã phát triển mạnh mẽ ở Anh. Có, cụ thể là, những luật lệ hạn chế nhập khẩu ngũ cốc đã gây ra những hậu quả nghiêm trọng cho người dân. Thực sự, lúa mì là cần thiết cho việc làm bánh mì, một mặt hàng thiết yếu vào thời điểm đó. Hơn nữa, hệ thống này đã ưu ái cho tầng lớp quý tộc, tức là những chủ đất lớn, những người thu được tiền thuê từ nó.
+Vào năm 1845, Bastiat đã xuất bản cuốn sách "Cobden và Liên đoàn" tại Paris, với những bản dịch kèm theo nhận xét của mình. Cuốn sách mở đầu với một lời giới thiệu về tình hình kinh tế của Anh, về lịch sử nguồn gốc và tiến trình phát triển của Liên đoàn. Kể từ năm 1815, chủ nghĩa bảo hộ đã phát triển mạnh mẽ ở Anh. Cụ thể là, có những luật lệ hạn chế nhập khẩu ngũ cốc đã gây ra những hậu quả nghiêm trọng cho người dân. Thực sự, lúa mì là cần thiết cho việc làm bánh mì, một mặt hàng thiết yếu vào thời điểm đó. Hơn nữa, hệ thống này đã ưu ái cho tầng lớp quý tộc, tức là những chủ đất lớn, những người thu được tiền thuê từ đó.
 
-> "Điều gì đồng tồn tại ở Anh," Bastiat viết, "là một số lượng nhỏ người cướp bóc và một số lượng lớn người bị cướp bóc, và không cần phải là một nhà kinh tế học vĩ đại để kết luận sự giàu có của nhóm trước và sự khốn khổ của nhóm sau."
+> "Điều gì đàng đồng tồn tại ở Anh," Bastiat viết, "đó là một số lượng nhỏ những kẻ cướp bóc và một số lượng lớn những người bị cướp bóc, và không cần phải là một nhà kinh tế học vĩ đại để biết được sự giàu có của nhóm trước và sự khốn khổ của nhóm sau."
 
 Mục tiêu của Liên đoàn là vận động dư luận để gây áp lực lên quốc hội nhằm bãi bỏ luật ngũ cốc. Về lâu dài, Cobden và các bạn của mình hy vọng sẽ:
 
-- Tăng cường các kênh công nghiệp
+- Tăng cường các ngành công nghiệp
 - Tăng cường việc làm
 - Giảm giá bánh mì
 - Làm cho nông nghiệp và công nghiệp hiệu quả hơn thông qua cạnh tranh
@@ -276,20 +276,20 @@ Mục tiêu của Liên đoàn là vận động dư luận để gây áp lực
 
 _(Jeremy Bentham)_
 
-Là một môn đồ của chủ nghĩa hữu ích của Bentham, niềm tin của Cobden là tự do lao động và thương mại trực tiếp phục vụ lợi ích của số đông, những người nghèo nhất và đau khổ nhất trong xã hội. Ngược lại, thuế quan như một công cụ của các lệnh cấm và đặc quyền tùy tiện chỉ có thể mang lại lợi ích cho một số ngành công nghiệp mạnh mẽ nhất.
+Là một môn đồ của thuyết vị lợi của Bentham, niềm tin của Cobden là tự do lao động và thương mại trực tiếp phục vụ lợi ích của số đông, những người nghèo nhất và đau khổ nhất trong xã hội. Ngược lại, thuế quan như một công cụ của các lệnh cấm và đặc quyền tùy tiện chỉ có thể mang lại lợi ích cho một số ngành công nghiệp mạnh mẽ nhất.
 
-Trong cuộc bầu cử năm 1841, năm thành viên của liên đoàn, bao gồm Cobden, đã được bầu vào quốc hội. Vào ngày 26 tháng 5 năm 1846, tự do thương mại đơn phương trở thành luật của vương quốc. Từ đó, Vương quốc Anh sẽ trải qua một thời kỳ tự do và thịnh vượng rực rỡ.
-Điều thú vị là Bastiat đã tiếp thu một phần phương pháp của họ; ông đã tiếp thu ngôn ngữ của họ và chuyển đổi nó vào bối cảnh Pháp. Cuốn sách về Cobden và Liên đoàn nhanh chóng trở thành một thành công, và Bastiat đã tạo ra một bước ngoặt ngoạn mục vào thế giới của các nhà kinh tế học. Ông đã thành lập một hiệp hội ủng hộ tự do thương mại tại Bordeaux sau đó chuyển nó đến Paris. Ông được mời làm lãnh đạo của Journal des Économistes. Phong trào đã được sinh ra, và nó tiếp tục cho đến năm 1848.
+Trong cuộc bầu cử năm 1841, năm thành viên của Liên đoàn, bao gồm Cobden, đã được bầu vào quốc hội. Vào ngày 26 tháng 5 năm 1846, tự do thương mại trở thành luật của vương quốc. Từ đó, Vương quốc Anh đã trải qua một thời kỳ tự do và thịnh vượng rực rỡ.
+Điều thú vị là Bastiat đã tiếp thu một phần phương pháp của họ; ông đã tiếp thu ngôn ngữ của họ và chuyển đổi nó vào bối cảnh nước Pháp. Cuốn sách về Cobden và Liên đoàn nhanh chóng trở thành một thành công, và Bastiat đã tạo ra một bước ngoặt ngoạn mục vào thế giới của các nhà kinh tế học. Ông đã thành lập một hiệp hội ủng hộ tự do thương mại tại Bordeaux sau đó chuyển nó đến Paris. Ông được mời làm lãnh đạo của Journal des Économistes. Phong trào ủng hộ tự do thương mại đã được sinh ra, và nó tiếp tục cho đến năm 1848.
 ![image](assets/image/04/IMG09.webp)
 
-Chỉ sau cái chết của Bastiat, vào năm 1866, Napoleon III mới ký kết một hiệp định tự do thương mại với Anh, một loại chiến thắng hậu thuẫn cho người đã dành sáu năm cuối cùng của cuộc đời ngắn ngủi mình cho ý tưởng vĩ đại này.
+Chỉ sau cái chết của Bastiat, vào năm 1866, Napoleon III mới ký kết một hiệp định tự do thương mại với Anh, một loại chiến thắng "muộn màng" (chỉ đạt được khá lâu sau khi ông đã qua đời) cho người đã dành sáu năm cuối cùng của cuộc đời ngắn ngủi cho ý tưởng vĩ đại này.
 
 ![image](assets/image/04/IMG17.webp)
 
 _(Michel Chevalier)_
-Vấn đề về tự do thương mại vẫn tiếp tục là một chủ đề liên quan ngày nay. Sách giáo khoa địa lý ở các trường học cho rằng toàn cầu hóa là nguyên nhân và các quốc gia nghèo cần có sự giúp đỡ từ phương Tây để tồn tại. Tuy nhiên, tình trạng cực kỳ nghèo đói đã giảm một nửa trong 20 năm. Bằng cách chọn mở cửa, các quốc gia như Ấn Độ, Trung Quốc, hay Đài Loan đã có thể thoát khỏi nghèo đói, trong khi sự trì trệ đặc trưng cho các quốc gia đóng cửa như Bắc Triều Tiên hay Venezuela. Theo Liên Hợp Quốc, 36% nhân loại sống trong cảnh cùng cực vào năm 1990. Con số này giờ đây chỉ còn "chỉ" 18% vào năm 2010. Tình trạng cực kỳ nghèo đói vẫn là một thách thức lớn, nhưng nó đang thuyên giảm.
+Ngày nay, vấn đề về tự do thương mại vẫn tiếp tục là một chủ đề có liên quan. Sách giáo khoa địa lý ở các trường học cho rằng toàn cầu hóa là nguyên nhân gây ra sự nghèo đói và các quốc gia nghèo cần có sự giúp đỡ từ phương Tây để tồn tại. Tuy nhiên, tình trạng cực kỳ nghèo đói đã giảm một nửa trong 20 năm. Bằng cách chọn mở cửa, các quốc gia như Ấn Độ, Trung Quốc, hay Đài Loan đã có thể thoát khỏi nghèo đói, trong khi sự trì trệ đặc trưng cho các quốc gia đóng cửa như Bắc Triều Tiên hay Venezuela. Theo Liên hợp quốc, 36% nhân loại sống trong cảnh cùng cực vào năm 1990. Con số này giờ đây chỉ còn "chỉ" 18% vào năm 2010. Tình trạng cực kỳ nghèo đói vẫn là một thách thức lớn, nhưng nó đang thuyên giảm.
 
-# Những Người Phản Đối
+# Những tư tưởng đối lập
 
 <partId>f902ed30-269e-5e44-a76d-8efd1a4e4085</partId>
 
@@ -299,86 +299,86 @@ Vấn đề về tự do thương mại vẫn tiếp tục là một chủ đề
 
 ![video](https://youtu.be/Z8EDhTS-s_Q?si=KSe8O-NTLXP3nRSb)
 
-Frédéric Bastiat, người đã bày tỏ quan điểm vào những năm 1840, là người kế thừa một thế hệ các triết gia của Thời kỳ Khai Sáng đã chiến đấu chống lại kiểm duyệt và vì tự do tranh luận. Hãy nghĩ về Montesquieu, Diderot, Voltaire, Condorcet, nhưng cũng không thể không nhắc đến Rousseau.
+Frédéric Bastiat, người đã bày tỏ quan điểm vào những năm 1840, là người kế thừa một thế hệ các triết gia của Thời kỳ Khai sáng đã chiến đấu chống lại kiểm duyệt và vì tự do ngôn luận. Hãy nghĩ về Montesquieu, Diderot, Voltaire, Condorcet, nhưng cũng không thể không nhắc đến Rousseau.
 
-Đối với họ, ý tưởng rất đơn giản: càng nhiều ý tưởng được phép bày tỏ, sự thật càng tiến bộ và lỗi lầm càng dễ được bác bỏ. Khoa học luôn tiến bộ theo cách này.
+Đối với họ, ý tưởng rất đơn giản: càng nhiều ý tưởng được phép bày tỏ, sự thật càng tiến bộ và lỗi lầm càng dễ bị bác bỏ. Khoa học luôn tiến bộ theo cách này.
 
 ![image](assets/image/05/IMG01.webp)
 
 _(Montesquieu, Diderot, Voltaire, Condorcet, Rousseau)_
-Ngược lại, ít người hiểu rằng điều đúng với ý tưởng cũng đúng với hàng hóa và dịch vụ. Tự do buôn bán với người khác thực sự có hai đức tính: hiệu quả và dẫn đến sự phân phối công bằng. Không chỉ Rousseau không hiểu điều này, mà ông còn chiến đấu chống lại tự do này với một ý niệm sai lầm về luật pháp và quyền lợi. Một trong những nguồn gốc chính của chủ nghĩa xã hội, Bastiat lưu ý, là quan điểm của Rousseau rằng toàn bộ trật tự xã hội bắt nguồn từ luật pháp.
+Ngược lại, ít người hiểu rằng điều đúng với ý tưởng cũng đúng với hàng hóa và dịch vụ. Tự do buôn bán với người khác thực sự có hai đức tính: hiệu quả và dẫn đến sự phân phối công bằng. Không chỉ Rousseau không hiểu điều này, mà ông còn chiến đấu chống lại tự do này với một ý niệm sai lầm về luật pháp và quyền. Một trong những nguồn gốc chính của chủ nghĩa xã hội, Bastiat lưu ý, là quan điểm của Rousseau rằng toàn bộ trật tự xã hội bắt nguồn từ luật pháp.
 
-Bastiat thực sự coi Rousseau là tiền thân thực sự của chủ nghĩa xã hội và chủ nghĩa tập thể. Trong tác giả của "Hợp Đồng Xã Hội", có một câu nói khá tóm tắt triết lý của ông: "chúng ta chỉ bắt đầu trở thành con người sau khi đã trở thành công dân."
+Bastiat thực sự coi Rousseau là tiền thân thực sự của chủ nghĩa xã hội và chủ nghĩa tập thể. Trong tác giả của "Khế ước xã hội", có một câu nói tóm tắt khá tốt triết lý của ông: "chúng ta chỉ bắt đầu trở thành con người sau khi đã trở thành công dân."
 
 ![image](assets/image/05/IMG07.webp)
 
-Ban đầu, con người chỉ là một người dân thị trấn. Nhưng người dân thị trấn là một người tính toán; ông ta muốn niềm vui tức thì, ông ta bị nô lệ bởi giác quan, bởi dục vọng, bởi lợi ích cá nhân. Nói ngắn gọn, ông ta không hợp lý, do đó ông ta không tự do. Ông ta cần được giáo dục, để hiểu rằng lợi ích thực sự của mình là lợi ích chung. Đó là lý do tại sao Rousseau đã viết trong "Hợp Đồng Xã Hội":
+Ban đầu, một người đàn ông chỉ là một người thuộc giai cấp tư sản. Nhưng ông ấy là một người tính toán; ông ta muốn niềm vui tức thì, ông ta bị nô lệ bởi giác quan, bởi dục vọng, bởi lợi ích cá nhân. Nói ngắn gọn, ông ta không hợp lý, do đó ông ta không tự do. Ông ta cần được giáo dục, để hiểu rằng lợi ích thực sự của mình là lợi ích chung. Đó là lý do tại sao Rousseau đã viết trong "Khế ước xã hội":
 
-> Bất kỳ ai từ chối tuân theo ý chí chung sẽ bị toàn thể cơ thể ép buộc: điều này không có nghĩa là gì khác ngoài việc họ sẽ được buộc phải tự do.
+> Bất kỳ ai từ chối tuân theo ý chí chung sẽ bị cưỡng bách bởi toàn bộ: điều này không có nghĩa là gì khác ngoài việc họ sẽ được buộc phải tự do.
 
 ![image](assets/image/05/IMG06.webp)
 
-Theo học thuyết này, con người có hai ý chí bên trong mình: một ý chí hướng về lợi ích cá nhân, đó là của người dân thị trấn, và một ý chí hướng về lợi ích chung, đó là của công dân. Dẫn dắt con người, thậm chí bằng vũ lực, để muốn một mục tiêu hợp lý, lợi ích chung, là dẫn dắt họ trở nên tự do. Điều họ thực sự muốn là một mục tiêu hợp lý, ngay cả khi họ không biết điều đó.
+Theo học thuyết này, con người có hai ý chí bên trong mình: một ý chí hướng về lợi ích cá nhân, đó là của người thuộc giai cấp tư sản, và một ý chí hướng về lợi ích chung, đó là của công dân. Dẫn dắt con người, thậm chí bằng vũ lực, để muốn một mục tiêu hợp lý, lợi ích chung, là dẫn dắt họ trở nên tự do. Điều họ thực sự muốn là một mục tiêu hợp lý, ngay cả khi họ không biết điều đó.
 Vì vậy, theo Rousseau, hoàn toàn hợp lý khi hạn chế con người vì một mục tiêu mà chính họ, nếu được khai sáng hơn, sẽ theo đuổi, nhưng họ không theo đuổi vì họ mù quáng, ngu dốt, hoặc tham nhũng. Xã hội được thành lập để buộc họ làm những gì họ nên tự nguyện mong muốn nếu họ được khai sáng. Và bằng cách làm như vậy, người ta không hành động bạo lực với họ vì người ta dẫn dắt họ trở nên "tự do," tức là, làm những lựa chọn đúng đắn, những lựa chọn phù hợp với bản thân thực sự của họ.
 ![image](assets/image/05/IMG09.webp)
 
-Tin rằng xã hội tốt là sự tạo ra của luật pháp, Rousseau do đó trao quyền lực không giới hạn cho người lập pháp. Nhiệm vụ của họ là biến cá nhân thành con người hoàn thiện, thành công dân.
-Nhưng, cũng là nhiệm vụ của luật pháp để tạo ra sự tồn tại của tài sản. Theo Rousseau, tài sản chỉ có thể hợp pháp nếu nó được người lập pháp quy định. Thực tế, cái ác nằm ở sự bất bình đẳng và nô lệ, cả hai đều bắt nguồn từ tài sản. Đó là phát minh của những người mạnh mẽ đã dẫn đến xã hội xấu, xã hội tư bản, đến các mối quan hệ thống trị. Trong "Bài nói về nguồn gốc và nền tảng của sự bất bình đẳng," ông viết đoạn nổi tiếng này:
+Tin rằng xã hội tốt được tạo ra bởi luật pháp, Rousseau do đó trao quyền lực không giới hạn cho người lập pháp. Nhiệm vụ của họ là biến các cá nhân thành con người hoàn thiện, thành công dân.
+Nhưng, cũng là nhiệm vụ của luật pháp để tạo ra sự tồn tại của tài sản. Theo Rousseau, tài sản chỉ có thể hợp pháp nếu nó được người làm luật quy định. Thực vậy, cái ác nằm ở sự bất bình đẳng và nô lệ, cả hai đều bắt nguồn từ tài sản. Đó là phát minh của những người mạnh mẽ đã dẫn đến xã hội xấu, xã hội tư bản, đến các mối quan hệ thống trị. Trong "Bài nói về nguồn gốc và nền tảng của sự bất bình đẳng," ông viết đoạn nổi tiếng này:
 
-> Người đầu tiên, sau khi đã rào một mảnh đất, nói: Đây là của tôi, và tìm thấy những người đủ ngây thơ để tin ông ta, chính là người sáng lập ra xã hội dân sự thực sự. Biết bao tội ác, chiến tranh, giết chóc, bao nhiêu đau khổ và kinh hoàng sẽ được nhân loại tránh khỏi nếu người đó, nhổ bỏ cọc hoặc lấp đầy hào, đã hét lên với đồng loại: "Cẩn thận nghe lời kẻ lừa đảo này; bạn sẽ lạc lối nếu quên rằng trái cây thuộc về tất cả mọi người và trái đất không thuộc về ai!"
+> Người đầu tiên, sau khi đã rào một mảnh đất, nói: Đây là của tôi, và tìm thấy những người đủ ngây thơ để tin ông ta, chính là người sáng lập ra xã hội dân sự thực sự. Biết bao tội ác, chiến tranh, giết chóc, bao nhiêu đau khổ và kinh hoàng sẽ được nhân loại tránh khỏi nếu người đó, đã nhổ bỏ cọc hoặc lấp đầy hào, và hét lên với đồng loại: "Cẩn thận khi nghe lời kẻ lừa đảo này; bạn sẽ lạc lối nếu quên rằng trái cây thuộc về tất cả mọi người và trái đất không thuộc về ai!"
 
 ![image](assets/image/05/IMG05.webp)
 
-Vì vậy, tài sản tự nhiên là nguồn gốc của cái ác. Và Marx, một người đọc kỹ lưỡng Rousseau, sẽ nhớ điều này. Làm thế nào để chống lại cái ác này? Thông qua hợp đồng xã hội, Rousseau trả lời. Thực sự, xã hội tốt là một xã hội kết quả từ một hợp đồng quy định sự tự nguyện từ bỏ cá nhân với tất cả quyền lợi của mình cho cộng đồng. Từ đó, cộng đồng có trách nhiệm trao quyền cho cá nhân thông qua luật pháp.
+Vì vậy, tài sản tự nhiên là nguồn gốc của cái ác. Và Marx, một người đọc kỹ lưỡng Rousseau, sẽ nhớ điều này. Làm thế nào để chống lại cái ác này? Thông qua khế ước xã hội, Rousseau trả lời. Thực sự, xã hội tốt là một xã hội được hình thành từ một khế ước quy định sự tự nguyện từ bỏ cá nhân với tất cả quyền của mình cho cộng đồng. Từ đó, cộng đồng có trách nhiệm trao quyền cho cá nhân thông qua luật pháp.
 
-Trái ngược với Rousseau, Frédéric Bastiat nói rằng "con người sinh ra đã là chủ nhân của tài sản." Đối với ông, tài sản là hậu quả cần thiết của bản chất con người, của cấu trúc của họ. Ông viết rằng "con người sinh ra là chủ nhân của tài sản, bởi vì anh ta sinh ra với những nhu cầu mà việc thỏa mãn chúng là không thể thiếu cho cuộc sống, với các cơ quan và năng lực mà việc sử dụng chúng là không thể thiếu để thỏa mãn những nhu cầu đó". Nhưng năng lực chỉ là sự mở rộng của con người, và tài sản chỉ là sự mở rộng của năng lực. Nói cách khác, việc sử dụng năng lực của chúng ta trong công việc chính đáng hóa tài sản.
+Trái ngược với Rousseau, Frédéric Bastiat nói rằng "con người sinh ra đã là chủ nhân của tài sản." Đối với ông, tài sản là hậu quả cần thiết của bản chất con người, của sự hình thành nên họ. Ông viết rằng "con người sinh ra là chủ nhân của tài sản, bởi vì anh ta sinh ra với những nhu cầu mà việc thỏa mãn chúng là không thể thiếu cho cuộc sống, với các cơ quan thuộc thân thể và năng lực của mình mà việc sử dụng chúng là không thể thiếu để thỏa mãn những nhu cầu đó". Nhưng năng lực chỉ là sự mở rộng của con người, và tài sản chỉ là sự mở rộng của năng lực. Nói cách khác, việc sử dụng năng lực của chúng ta trong công việc sẽ chính đáng hóa tài sản.
 
 ![image](assets/image/05/IMG03.webp)
 
 Theo Bastiat, xã hội, con người, và tài sản tồn tại trước luật pháp, và ông có câu nổi tiếng: "Không phải vì có luật pháp mà có tài sản, mà vì có tài sản nên mới có luật pháp". Đó là lý do tại sao luật pháp phải mang tính tiêu cực: nó phải ngăn chặn sự xâm phạm đối với con người và tài sản của họ. Tài sản là lý do tồn tại của luật pháp và không phải ngược lại.
 
-## Giáo Dục Cổ Điển
+## Giáo dục cổ điển
 
 <chapterId>87d9a8c9-2352-5cb2-8b93-678118a8145c</chapterId>
 ![video](https://youtu.be/Nl9jnDV5RxE?si=pi5790tPHLGMzch_)
-Vào ngày 24 tháng 2 năm 1848, sau ba ngày bạo loạn ở Paris, Vua Louis-Philippe I đã thoái vị. Điều này đánh dấu sự ra đời của Cộng hòa Thứ hai.
+Vào ngày 24 tháng 2 năm 1848, sau ba ngày bạo loạn ở Paris, Vua Louis-Philippe I đã thoái vị. Điều này đánh dấu sự ra đời của nền Cộng hòa Thứ hai.
 ![image](assets/image/06/IMG20.webp)
 
 Bastiat đã ở Paris, chứng kiến các sự kiện diễn ra trước mắt. Sau này, ông sẽ viết:
 
-> Vào ngày 24 tháng 2, tôi, giống như nhiều người khác, lo sợ rằng quốc gia không sẵn sàng tự quản lý mình. Tôi phải thừa nhận, tôi e ngại ảnh hưởng của các ý tưởng Hy Lạp và La Mã được áp đặt lên chúng ta bởi độc quyền học thuật.
+> Vào ngày 24 tháng 2, tôi, giống như nhiều người khác, lo sợ rằng quốc gia chưa sẵn sàng để tự quản lý mình. Tôi phải thừa nhận, tôi e ngại sự ảnh hưởng của các ý tưởng Hy Lạp và La Mã được áp đặt lên chúng ta bởi độc quyền học thuật.
 
 Đoạn văn này gây ngạc nhiên. Các nền văn minh Hy Lạp và La Mã có liên quan gì đến nó?
 
 ![image](assets/image/06/IMG02.webp)
 
-Bastiat đề cập đến "Cộng hòa" của Plato và lý thuyết về vua triết học, nhưng cũng đến Sparta, nơi Rousseau rất ngưỡng mộ, đến Đế chế La Mã, nơi Napoleon rất lưu luyến. Thật không may, theo Bastiat, những ý tưởng Hy Lạp và La Mã này dựa trên một tiền đề sai lầm: ý tưởng về sự toàn năng của người lập pháp, về chủ quyền tuyệt đối của luật pháp.
+Bastiat đề cập đến "Cộng hòa" của Plato và lý thuyết của "vị vua triết học", nhưng cũng đề cập đến Sparta, nơi mà Rousseau rất ngưỡng mộ, đến Đế chế La Mã, nơi mà Napoleon rất lưu luyến. Thật không may, theo Bastiat, những ý tưởng Hy Lạp và La Mã này dựa trên một tiền đề sai lầm: ý tưởng về sự toàn năng của người làm luật, về chủ quyền tuyệt đối của luật pháp.
 
-Chỉ cần mở ngẫu nhiên bất kỳ cuốn sách nào về triết học, chính trị, hoặc lịch sử để tìm thấy ý tưởng này, đã ăn sâu vào văn hóa của chúng ta, rằng nhân loại là một vật chất trơ nhận sự sống, tổ chức, đạo đức, và thịnh vượng từ quyền lực chính trị. Bỏ mặc tự nhiên, nhân loại sẽ hướng tới sự hỗn loạn và chỉ được cứu khỏi thảm họa này bởi bàn tay bí ẩn và toàn năng của Người Lập Pháp. Tuy nhiên, Bastiat nói, ý tưởng này đã được ươm mầm và chuẩn bị qua hàng thế kỷ giáo dục cổ điển.
+Chỉ cần mở ngẫu nhiên bất kỳ cuốn sách nào về triết học, chính trị, hoặc lịch sử để thấy rằng ý tưởng này đã ăn sâu vào văn hóa của chúng ta, rằng nhân loại là một vật chất trơ nhận sự sống, tổ chức, đạo đức, và thịnh vượng từ quyền lực chính trị. Để mặc nó, nhân loại sẽ hướng tới sự hỗn loạn và chỉ được cứu khỏi thảm họa này bởi bàn tay bí ẩn và toàn năng của Nhà lập pháp. Tuy nhiên, Bastiat nói, ý tưởng này đã được ươm mầm và chuẩn bị qua hàng thế kỷ của giáo dục cổ điển.
 
 ![image](assets/image/06/IMG13.webp)
 
-Đầu tiên, ông nói, người La Mã coi tài sản là một sự thực thuần túy theo quy ước, là một sáng tạo nhân tạo của luật viết. Tại sao? Đơn giản, Bastiat giải thích, vì họ sống nhờ vào nô lệ và cướp bóc. Đối với họ, tất cả tài sản đều là kết quả của việc cướp bóc. Do đó, họ không thể đưa vào lập pháp ý tưởng rằng nền tảng của tài sản hợp pháp là lao động mà không phá hủy nền tảng của xã hội của họ.
-Họ thực sự có một định nghĩa thực nghiệm về tài sản, "jus utendi et abutendi" (quyền sử dụng và lạm dụng). Tuy nhiên, định nghĩa này chỉ liên quan đến hậu quả và không phải nguyên nhân, nói cách khác, nguồn gốc đạo đức của tài sản. Để thiết lập đúng đắn tài sản, người ta phải quay trở lại với chính cấu trúc của con người, và hiểu mối quan hệ và liên kết cần thiết tồn tại giữa nhu cầu, năng lực, lao động, và tài sản. Người La Mã, những người chủ nô lệ, liệu họ có thể hình dung ra ý tưởng rằng "mỗi người tự sở hữu bản thân mình, và do đó là lao động của mình, và, do đó, sản phẩm của lao động của mình"? Bastiat tự hỏi.
+Đầu tiên, ông nói, người La Mã coi tài sản là một sự thực theo quy ước thuần tuý, là một sáng tạo mang tính nhân tạo của luật thành văn. Tại sao? Đơn giản, Bastiat giải thích, vì họ sống nhờ vào nô lệ và cướp bóc. Đối với họ, tất cả tài sản đều là kết quả của việc cướp bóc. Do đó, họ không thể đưa vào hoạt động lập pháp ý tưởng rằng nền tảng của tài sản hợp pháp là lao động mà không phá hủy nền tảng xã hội của họ, một xã hội dựa trên cướp bóc.
+Họ thực sự có một định nghĩa thực nghiệm về tài sản, "jus utendi et abutendi" (quyền sử dụng và lạm dụng). Tuy nhiên, định nghĩa này chỉ liên quan đến hậu quả và không phải nguyên nhân, nói cách khác, nguồn gốc đạo đức của tài sản. Để thiết lập đúng đắn tài sản, người ta phải quay trở lại với chính sự hình thành và cấu trúc của con người, và hiểu mối quan hệ và liên kết cần thiết tồn tại giữa nhu cầu, năng lực, lao động, và tài sản. Người La Mã, những người chủ nô lệ, liệu họ có thể hình dung ra ý tưởng rằng "mỗi người tự sở hữu bản thân mình, và do đó là lao động của mình, và, do đó, sản phẩm từ lao động của mình"? Bastiat tự hỏi.
 
-> Do đó, chúng ta đừng ngạc nhiên, Bastiat kết luận, khi thấy ý tưởng La Mã rằng tài sản là một sự thực theo quy ước và của cơ quan lập pháp tái xuất hiện trong thế kỷ 18; rằng, xa hơn việc Luật pháp là hệ quả của Tài sản, chính Tài sản mới là hệ quả của Luật pháp.
+> Do đó, chúng ta đừng ngạc nhiên, Bastiat kết luận, khi thấy ý tưởng từ thời La Mã rằng tài sản là một sự thực theo quy ước và do cơ quan lập pháp quy định tái xuất hiện trong thế kỷ 18; rằng, đi trật khỏi ý tưởng luật pháp là hệ quả của tài sản, và rằng chính tài sản mới là hệ quả của luật pháp.
 
-Thực sự, Rousseau chia sẻ ý tưởng pháp lý chung này về việc dựa tài sản vào luật pháp. Rousseau gán cho luật pháp, và do đó cho nhân dân, quyền lực tuyệt đối đối với cá nhân và tài sản.
+Thực sự, Rousseau chia sẻ ý tưởng pháp lý chung này về việc dựa tài sản vào luật pháp. Rousseau gán cho luật pháp, và do đó cho nhân dân, quyền lực tuyệt đối đối với các cá nhân và tài sản.
 
-Và trong quan niệm này, làm nên chính ý tưởng của cộng hòa kể từ Cách mạng Pháp, người lập pháp phải tổ chức xã hội, như một kiến trúc sư xã hội, như một kỹ sư chế tạo máy móc từ vật chất trơ, hoặc như một người làm gốm hình thành đất sét. Như vậy, người lập pháp đặt mình ngoài lề nhân loại, trên cao hơn, để sắp xếp nó theo ý muốn, theo các kế hoạch được tưởng tượng bởi trí tuệ sáng chói của mình.
+Và theo quan điểm này, điều làm nên chính ý tưởng của cộng hòa kể từ Cách mạng Pháp, người lập pháp phải tổ chức xã hội, như một kiến trúc sư xã hội, như một kỹ sư chế tạo máy móc từ vật chất trơ, hoặc như một người làm gốm nặn hình đất sét. Như vậy, người lập pháp đặt mình ngoài lề nhân loại, ở phía trên, cao hơn, để sắp xếp nó theo ý muốn, theo các kế hoạch được tưởng tượng bởi trí tuệ sáng chói của mình.
 
 ![image](assets/image/06/IMG23.webp)
-Ngược lại, đối với Bastiat, quyền sở hữu là trước luật pháp. Đây là điều ông gọi là nguyên tắc của các nhà kinh tế học, trái ngược với nguyên tắc của các nhà luật học. Trong khi "nguyên tắc của nhà luật học thực chất chứa đựng nô lệ", Bastiat nói, "thì nguyên tắc của nhà kinh tế học chứa đựng tự do.
+Ngược lại, đối với Bastiat, quyền sở hữu là thứ có trước luật pháp. Đây là điều ông gọi là nguyên tắc của các nhà kinh tế học, trái ngược với nguyên tắc của các nhà luật học. Trong khi "nguyên tắc của nhà luật học thực chất chứa đựng tư tưởng nô lệ", Bastiat nói, "thì nguyên tắc của nhà kinh tế học chứa đựng tư tưởng tự do.
 
-Vậy tự do là gì? Đó là quyền sở hữu, quyền được hưởng thành quả của công sức lao động, quyền được làm việc, phát triển, sử dụng khả năng của mình theo cách mình muốn, mà không có sự can thiệp của Nhà nước ngoài hành động bảo vệ.
+Vậy tự do là gì? Đó là quyền sở hữu, quyền được hưởng thành quả của công sức lao động, quyền được làm việc, phát triển, sử dụng khả năng của bản thân theo cách mình muốn, mà không có sự can thiệp nào của Nhà nước ngoài hành động bảo vệ những quyền đó.
 
-Thật buồn khi nghĩ rằng triết lý xã hội và chính trị của chúng ta vẫn bị mắc kẹt ở ý tưởng rằng giải pháp cho tất cả vấn đề của chúng ta phải đến từ trên cao, từ luật pháp, từ Nhà nước. Nhưng điều này có thể giải thích được. Những ý tưởng này được tiêm nhiễm hàng ngày vào thanh niên trong các trường học và đại học, thông qua độc quyền giáo dục.
+Thật buồn khi nghĩ rằng triết lý xã hội và chính trị của chúng ta vẫn bị mắc kẹt ở ý tưởng rằng giải pháp cho tất cả các vấn đề của chúng ta phải đến từ trên cao, từ luật pháp, từ Nhà nước. Nhưng điều này có thể giải thích được. Những ý tưởng này được tiêm nhiễm hàng ngày vào thanh niên trong các trường học và đại học, thông qua độc quyền giáo dục.
 
 ![image](assets/image/06/IMG03.webp)
 
-Tuy nhiên, như Bastiat nhắc nhở chúng ta, độc quyền loại trừ tiến bộ.
+Tuy nhiên, như Bastiat nhắc nhở chúng ta, độc quyền ngăn chặn tiến bộ.
 
-## Bảo hộ và Chủ nghĩa Xã hội
+## Chủ nghĩa bảo hộ và Chủ nghĩa xã hội
 
 <chapterId>ce6cb8a8-7dc9-5ef7-939d-9a559b4d2c74</chapterId>
 ![video](https://youtu.be/7q5qQNe7M48?si=lU63cOehitXxkpjR)
@@ -387,42 +387,41 @@ Tuy nhiên, như Bastiat nhắc nhở chúng ta, độc quyền loại trừ ti�
 
 _(Richard Cobden)_
 
-Như chúng ta đã thấy, trước hết và quan trọng nhất, cuộc chiến chống lại bảo hộ của Cobden với liên đoàn Anh về việc bãi bỏ Luật Ngũ Cốc đã dẫn dắt Bastiat viết bài và sau đó là sách.
+Như chúng ta đã thấy, trước hết và quan trọng nhất, cuộc chiến chống lại chủ nghĩa bảo hộ của Cobden với Liên đoàn Anh về việc bãi bỏ Luật Ngũ Cốc đã dẫn dắt Bastiat viết bài và sau đó là sách.
 
-Bảo hộ, thực tế, là một hình thức của chủ nghĩa dân tộc kinh tế. Nó nhằm loại bỏ sự cạnh tranh nước ngoài trong khi giả vờ "bảo vệ lợi ích quốc gia." Họ sau đó cố gắng thuyết phục các cơ quan công quyền chấp nhận một loạt các sự thật sai lầm một cách demagogic, được trình bày như là đức hạnh: bảo vệ việc làm, khả năng cạnh tranh, v.v. Dĩ nhiên, các quan chức được bầu chọn nhượng bộ trước áp lực của các nhà sản xuất, bởi vì đó là cơ hội vàng để họ củng cố khách hàng của mình và mở rộng quyền lực của mình.
+Chủ nghĩa bảo hộ, thực tế, là một hình thức của chủ nghĩa dân tộc về kinh tế. Nó nhằm loại bỏ sự cạnh tranh từ nước ngoài trong khi giả vờ "bảo vệ lợi ích quốc gia." Họ sau đó cố gắng thuyết phục các cơ quan công quyền chấp nhận một loạt những điều giả dối hoàn toàn mị dân, được trình bày như là đức hạnh: bảo vệ việc làm, năng lực cạnh tranh, v.v. Dĩ nhiên, các quan chức được bầu chọn nhượng bộ trước áp lực của các nhà sản xuất, bởi vì đó là cơ hội vàng để họ củng cố "khách hàng" và mở rộng quyền lực của mình.
 
 ![image](assets/image/07/IMG06.webp)
 
 Lập luận về bảo vệ việc làm là điều Bastiat gọi là một quan điểm sai lầm. Bởi vì thực tế, nó tương đương với một loại thuế. Nó có tác dụng làm cho sản phẩm trở nên đắt đỏ hơn. Hãy lấy ví dụ do chính Bastiat đưa ra.
 
-Hãy tưởng tượng một con dao của Anh bán ở nước ta với giá 2 euro, và một con dao sản xuất tại Pháp có giá 3. Nếu chúng ta để người tiêu dùng tự do mua con dao mà họ muốn, họ tiết kiệm được một franc, mà họ có thể đầu tư vào nơi khác (trong một cuốn sách, hoặc một cây bút chì).
+Hãy tưởng tượng một con dao của Anh bán ở nước ta với giá 2 franc, và một con dao sản xuất tại Pháp có giá 3 franc. Nếu chúng ta để người tiêu dùng tự do mua con dao mà họ muốn, họ tiết kiệm được một franc, mà họ có thể đầu tư vào nơi khác (một cuốn sách, hoặc một cây bút chì).
 
-Nếu chúng ta cấm sản phẩm của Anh, người tiêu dùng sẽ phải trả thêm một franc cho con dao của mình. Bảo hộ như vậy dẫn đến lợi nhuận cho một ngành công nghiệp quốc gia và hai tổn thất, một cho một ngành công nghiệp khác (ngành của bút chì) và người tiêu dùng. Ngược lại, tự do mậu dịch tạo ra hai người chiến thắng hạnh phúc.
+Nếu chúng ta cấm sản phẩm của Anh, người tiêu dùng sẽ phải trả thêm một franc cho con dao của mình. Bằng cách đó, chủ nghĩa bảo hộ tạo lợi nhuận cho một ngành công nghiệp quốc gia và hai tổn thất, một cho một ngành công nghiệp khác (ngành bút chì) và người tiêu dùng. Ngược lại, tự do thương mại tạo ra hai người chiến thắng hạnh phúc (người tiêu dùng và ngành bút chì).
 
 ![image](assets/image/07/IMG21.webp)
 
-Bảo hộ cũng là một hình thức của cuộc đấu tranh giai cấp. Theo Bastiat, đó là một hệ thống dựa trên lòng ích kỷ và tham lam của các nhà sản xuất. Để tăng tiền công của mình, nông dân hoặc các nhà công nghiệp yêu cầu thuế để đóng cửa thị trường với sản phẩm nước ngoài, do đó buộc người tiêu dùng phải trả nhiều hơn cho sản phẩm của họ.
+Bảo hộ cũng là một hình thức của một cuộc đấu tranh giai cấp. Theo Bastiat, đó là một hệ thống dựa trên lòng ích kỷ và tham lam của các nhà sản xuất. Để tăng tiền công của mình, nông dân hoặc các nhà công nghiệp yêu cầu đánh thuế để đóng cửa thị trường với sản phẩm nước ngoài, do đó buộc người tiêu dùng phải trả nhiều hơn cho sản phẩm của họ.
 
 ![image](assets/image/07/IMG02.webp)
 
-Bastiat mạnh mẽ đứng về phía người tiêu dùng. Đối lập với lợi ích giai cấp, ông đặt ra lợi ích chung, đó là lợi ích của người tiêu dùng, tức là lợi ích của mọi người. Luôn luôn từ quan điểm của người tiêu dùng mà Nhà nước nên đặt mình khi hành động.
-Với cuộc cách mạng tháng 2 năm 1848 và những rào cản của nó, một kẻ thù đáng gờm hơn chủ nghĩa bảo hộ đã xuất hiện, một kẻ thù mà nó chia sẻ nhiều điểm tương đồng: chủ nghĩa xã hội. Đó là gì? Đó là một phong trào chính trị yêu cầu tổ chức lao động bằng luật pháp, quốc hữu hóa các ngành công nghiệp và ngân hàng, và phân phối lại của cải thông qua thuế vụ. Bastiat giờ đây sẽ dành toàn bộ năng lượng, tài năng, và các tác phẩm viết của mình chống lại học thuyết mới này, mà chỉ có thể dẫn đến sự tăng trưởng mạnh mẽ của quyền lực và cuộc đấu tranh giai cấp vĩnh viễn. Do đó, ngay từ những ngày đầu của cuộc cách mạng, ông đã đóng góp cho một tờ báo ngắn hạn tên là "La République Française," nhanh chóng được biết đến như một tờ báo phản cách mạng. Đây là thời điểm ông viết các cuốn sách nhỏ về tài sản, nhà nước, cướp bóc, và luật pháp.
-Vào ngày 27 tháng 6 năm 1848, một ngày sau một cuộc nổi dậy đẫm máu mới ở Paris, trong một bức thư dài gửi cho Richard Cobden, ông đã suy ngẫm về những nguyên nhân có thể đã dẫn đến những sự kiện này.
+Bastiat mạnh mẽ đứng về phía người tiêu dùng. Đối lập với lợi ích giai cấp, ông đặt ra lợi ích chung, đó là lợi ích của người tiêu dùng, tức là lợi ích của mọi người. Luôn luôn từ quan điểm của người tiêu dùng mà Nhà nước nên đặt mình vào đó khi hành động.
+Với cuộc cách mạng tháng 2 năm 1848 và những rào cản của nó, một kẻ thù đáng gờm hơn so với chủ nghĩa bảo hộ đã xuất hiện, một kẻ thù mà nó chia sẻ nhiều điểm tương đồng: chủ nghĩa xã hội. Đó là gì? Đó là một phong trào chính trị yêu cầu tổ chức lao động bằng luật pháp, quốc hữu hóa các ngành công nghiệp và ngân hàng, và phân phối lại của cải thông qua thuế vụ. Bastiat giờ đây sẽ dành toàn bộ năng lượng, tài năng, và các tác phẩm viết của mình chống lại học thuyết mới này, thứ mà chỉ có thể dẫn đến sự tăng trưởng theo cấp số mũ của quyền lực và cuộc đấu tranh giai cấp tồn tại mãi mãi. Do đó, ngay từ những ngày đầu của cuộc cách mạng, ông đã đóng góp cho một tờ báo ngắn hạn tên là "La République Française," nhanh chóng được biết đến như một tờ báo phản cách mạng. Đây là thời điểm ông viết các cuốn sách nhỏ về tài sản, nhà nước, cướp bóc, và luật pháp.
+Vào ngày 27 tháng 6 năm 1848, một ngày sau một cuộc nổi dậy đẫm máu mới ở Paris, trong một bức thư dài gửi cho Richard Cobden, ông đã suy ngẫm về những nguyên nhân có thể đã dẫn đến sự kiện này.
 
-- 1° Nguyên nhân đầu tiên là sự thiếu hiểu biết về kinh tế. Đó là điều này chuẩn bị tâm trí để chấp nhận các ảo tưởng của chủ nghĩa xã hội và chủ nghĩa cộng hòa giả mạo. Tôi tham khảo video trước về xu hướng của giáo dục cổ điển và đại học về điểm này.
-
-- 2° Quốc gia trở nên mê mẩn với ý tưởng rằng tình anh em và tình đoàn kết có thể được đưa vào luật pháp. Nghĩa là, nó yêu cầu nhà nước trực tiếp tạo ra hạnh phúc cho công dân của mình. Tại đây Bastiat thấy sự bắt đầu của nhà nước phúc lợi.
+1) Nguyên nhân đầu tiên là sự thiếu hiểu biết về kinh tế. Đó là thứ đã chuẩn bị tâm trí cho việc chấp nhận các ảo tưởng của chủ nghĩa xã hội và chủ nghĩa cộng hòa giả mạo. Tôi nhắc đến video trước về xu hướng của giáo dục cổ điển và đại học về điểm này.
+2) Quốc gia trở nên mê mẩn với ý tưởng rằng tình anh em và tình đoàn kết có thể được đưa vào luật pháp. Nghĩa là, nó yêu cầu nhà nước trực tiếp tạo ra hạnh phúc cho công dân của mình. Tại đây Bastiat thấy sự bắt đầu của nhà nước phúc lợi.
 
 ![image](assets/image/07/IMG01.webp)
 
 Và ông sẽ tiếp tục phân tích những tác động xấu xa của nó sau này. Dưới đây là một ví dụ, được trích dẫn trong bức thư gửi cho Cobden:
 
-> Bằng bản năng tự nhiên của trái tim con người, mọi người bắt đầu yêu cầu từ nhà nước, cho bản thân họ, một phần lớn hơn của sự thoải mái. Nghĩa là, nhà nước hoặc kho bạc công cộng đã bị cướp bóc. Tất cả các tầng lớp yêu cầu từ nhà nước, như thể bằng quyền, phương tiện tồn tại. Những nỗ lực được thực hiện theo hướng này bởi nhà nước chỉ dẫn đến thuế và trở ngại, và sự tăng của nghèo đói.
+> Bằng bản năng tự nhiên của trái tim con người, mọi người bắt đầu đòi hỏi từ nhà nước, cho bản thân họ, một cảm giác thịnh vượng và tốt đẹp chung. Nghĩa là, nhà nước hoặc kho bạc công đã bị cướp bóc. Tất cả các tầng lớp đòi hỏi từ nhà nước, như thể đó là quyền, các phương tiện để tồn tại. Những nỗ lực được thực hiện theo hướng này bởi nhà nước chỉ dẫn đến mở rộng thuế má và các trở ngại, và sự gia tăng nghèo đói.
 
-- 3° Bastiat thêm rằng theo quan điểm của mình, chủ nghĩa bảo hộ là biểu hiện đầu tiên của sự rối loạn này. Các nhà tư bản bắt đầu bằng cách yêu cầu sự can thiệp của luật pháp để tăng cường phần thưởng của họ. Tất yếu, công nhân cũng muốn làm điều tương tự.
+3) Bastiat thêm rằng, theo quan điểm của mình, chủ nghĩa bảo hộ là biểu hiện đầu tiên của sự rối loạn này. Các nhà tư bản khởi xướng điều này bằng cách yêu cầu sự can thiệp của luật pháp để tăng cường phần thưởng của họ. Tất yếu, công nhân cũng muốn làm điều tương tự.
 
 ![image](assets/image/07/IMG08.webp)
-Kết luận, theo Bastiat: chủ nghĩa bảo hộ và chủ nghĩa xã hội có một điểm chung, đó là những gì họ tìm kiếm từ luật pháp không phải để đảm bảo cho mọi người tự do thực hiện năng lực của mình và phần thưởng công bằng cho nỗ lực của họ, mà thay vào đó là để ưu ái sự khai thác ít nhiều hoàn chỉnh của một tầng lớp công dân bởi một tầng lớp khác. Với chủ nghĩa bảo hộ, đó là thiểu số khai thác đa số. Với chủ nghĩa xã hội, đó là đa số khai thác thiểu số. Trong cả hai trường hợp, công lý bị vi phạm và lợi ích chung bị tổn hại. Bastiat đặt họ đối lập với nhau.
+Kết luận, theo Bastiat: chủ nghĩa bảo hộ và chủ nghĩa xã hội có một điểm chung, đó là những gì họ tìm kiếm từ luật pháp không phải để đảm bảo cho mọi người được tự do thực hiện năng lực của mình và hưởng phần thưởng công bằng cho nỗ lực của họ, mà thay vào đó là để ưu ái việc bóc lột ít hay nhiều một tầng lớp công dân bởi một tầng lớp khác. Với chủ nghĩa bảo hộ, đó là thiểu số bóc lột đa số. Với chủ nghĩa xã hội, đó là đa số bóc lột thiểu số. Trong cả hai trường hợp, công lý bị vi phạm và lợi ích chung bị tổn hại. Bastiat đặt họ vào vị trí đối lập với nhau.
 
 ![image](assets/image/07/IMG15.webp)
 

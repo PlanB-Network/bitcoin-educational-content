@@ -1,6 +1,6 @@
 ---
 name: Sentinel Watch-Only
-description: Ví chỉ xem là gì và cách sử dụng nó như thế nào?
+description: Ví chỉ xem là gì và cách sử dụng nó?
 ---
 ![cover](assets/cover.webp)
 

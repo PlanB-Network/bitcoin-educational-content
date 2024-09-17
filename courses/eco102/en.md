@@ -589,7 +589,7 @@ Protectionism also relies on a hidden syllogism that turns out to be a fallacy:
 - The more difficulties we have to overcome, the more we work;
 - Therefore, the more difficulties we have to overcome, the richer we are.
 
-Let's illustrate this absurdity with a few short stories told by Bastiat. In Chapter III of the second series of Economic Sophisms, he imagines a carpenter who writes to the minister a petition asking for protectionist legislation. The carpenter thus formulates his request: Mr. Minister, make a law that stipulates that "No one may use beams and joists produced from blunt axes." In other words, make a law that prohibits the use of sharp axes in France. Thus, where one normally gives 100 axe blows, it will be necessary to give 300. Carpenters will be in high demand and therefore better paid.
+Let's illustrate this absurdity with a few short stories told by Bastiat. In Chapter III of the second series of Economic Sophisms, he imagines a carpenter who writes to the minister a petition asking for protectionist legislation. The carpenter thus formulates his request: Mr. Minister, make a law that stipulates that "No one will be able to use anything but beams and joists produced from blunt axes." In other words, make a law that prohibits the use of sharp axes in France. Thus, where one normally gives 100 axe blows, it will be necessary to give 300. Carpenters will be in high demand and therefore better paid.
 
 ![image](assets/image/10/IMG01.webp)
 
@@ -697,11 +697,11 @@ Political Economy, therefore, has an obvious practical utility. It reveals spoli
 Once again, there would be fewer Tartuffes if there were fewer Orgons to listen to them. Here is what Bastiat has to say on this matter:
 
 ![image](assets/image/12/IMG07.webp)
-Let religious morality therefore touch the hearts of Tartuffes if it can. The task of political economy is to enlighten their dupes. Of these two approaches, which one works most effectively for social progress? Must it be said? I believe it is the second. I fear that humanity cannot escape the necessity of first learning defensive morality.
+> Let religious morality therefore touch the hearts of Tartuffes if it can. The task of political economy is to enlighten their dupes. Of these two approaches, which one works most effectively for social progress? Must it be said? I believe it is the second. I fear that humanity cannot escape the necessity of first learning defensive morality.
 
 Of course, political economy is not the universal science; it does not exclude philosophical and religious approaches. "But who has ever displayed such an exorbitant claim in its name?" Bastiat wonders.
 
-One thing is certain, it is not the politician who can change the course of things and perfect man. On the contrary, it is necessary to limit the politician and confine him to his strict role, which is safety. It is rather in the cultural, familial, religious, and associative fields, through work on ideas, through education and instruction, in short, through civil society, that responsibility and solidarity can be strengthened.
+One thing is certain, it is not the politics who can change the course of things and perfect man. On the contrary, it is necessary to limit the politics and confine him to his strict role, which is safety. It is rather in the cultural, familial, religious, and associative fields, through work on ideas, through education and instruction, in short, through civil society, that responsibility and solidarity can be strengthened.
 
 # Economic Harmonies
 

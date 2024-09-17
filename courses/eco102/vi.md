@@ -662,59 +662,59 @@ Dĩ nhiên, kinh tế chính trị không phải là một một khoa học ph�
 
 Một điều chắc chắn, không phải là chính trị có thể thay đổi dòng chảy của mọi thứ và hoàn thiện con người. Ngược lại, cần phải hạn chế chính trị và giới hạn nó trong vai trò của chính nó, đó là bảo đảm an ninh. Thay vào đó, trong các lĩnh vực văn hóa, gia đình, tôn giáo, và hội nhập, thông qua công việc về ý tưởng, qua giáo dục và giảng dạy, nói chung, qua xã hội dân sự, chúng ta có thể cải thiện trách nhiệm và tình đoàn kết.
 
-# Sự Hài Hòa Kinh Tế
+# Sự hoà hợp kinh tế
 
 <partId>db04dfa4-a53e-5d3e-a307-a68ebc36dc4f</partId>
 
-## Phép Màu của Thị Trường
+## Phép mà của thị trường
 
 <chapterId>895ccd1d-7b52-5a8b-8b2c-6ec0056cf632</chapterId>
 
 ![video](https://youtu.be/1LRA2HqsZ4w?si=lJwZw843vmaiKBTr)
 
-Liệu một xã hội hài hòa có thể tồn tại mà không cần đến luật lệ viết, quy tắc, biện pháp trừng phạt? Nếu con người được tự do, chúng ta có chứng kiến sự hỗn loạn, vô chính phủ, tổ chức không? Làm thế nào để tránh tạo ra chỉ là sự kề cận của các cá nhân hành động ngoài bất kỳ sự phối hợp nào, nếu không qua luật lệ và tổ chức chính trị tập trung?
+Liệu một xã hội hài hòa có thể tồn tại mà không cần đến luật lệ viết, quy tắc, biện pháp trừng phạt? Nếu con người được tự do, chúng ta có chứng kiến sự hỗn loạn, vô chính phủ, vô tổ chức không? Làm thế nào để tránh việc chỉ đơn thuần đặt các cá nhân ở cận kề nhau và hành động tự phát, không có sự phối hợp nào cả, nếu không thông qua luật pháp và một tổ chức chính trị tập trung?
 
-Đây là luận điểm thường được những người yêu cầu quy định thị trường hoặc xã hội tự mình có khả năng phối hợp các cá nhân thành một tổng thể nhất quán và hài hòa đưa ra.
+Đây là luận điểm thường được đưa ra bởi những người đỏi hòi phải quản lý thị trường hoặc xã hội, vì theo họ đó là cách duy nhất để phối hợp các cá nhân thành một tổng thể nhất quán và hài hòa.
 
 ![image](assets/image/13/IMG01.webp)
 
-Đây không phải là quan điểm của Bastiat. Theo ông, cơ chế xã hội, giống như cơ chế thiên văn hay cơ chế của cơ thể con người, tuân theo các quy luật chung. Nói cách khác, nó đã là một tổng thể được tổ chức hài hòa. Và động cơ của tổ chức này là thị trường tự do.
+Đây không phải là quan điểm của Bastiat. Theo ông, cơ chế xã hội, giống như cơ chế thiên văn hay cơ chế của cơ thể con người, tuân theo các quy luật chung. Nói cách khác, nó đã là một tổng thể được tổ chức hài hòa. Và động cơ để vận hành tổ chức này là thị trường tự do.
 
-Phép màu của thị trường tự do, ông nói với chúng ta, là nó sử dụng kiến thức mà không một người nào có thể sở hữu một mình và nó cung cấp những sự thỏa mãn xa xỉ hơn bất cứ điều gì một tổ chức nhân tạo có thể làm.
+Phép màu của thị trường tự do, ông nói với chúng ta, là nó sử dụng thứ hiểu biết mà không một người nào có thể sở hữu một mình và nó cung cấp những sự thỏa mãn xa xỉ hơn bất cứ điều gì một tổ chức nhân tạo có thể làm.
 
-Bastiat đưa ra một vài ví dụ để minh họa lợi ích của thị trường này. Chúng ta đã quen với hiện tượng này đến mức không còn chú ý đến nó nữa.
-Hãy xem xét một thợ mộc trong một ngôi làng, ông ấy nói, và quan sát tất cả các dịch vụ mà anh ấy cung cấp cho xã hội và tất cả những gì anh ấy nhận được:
+Bastiat đưa ra một vài ví dụ để minh họa lợi ích của thị trường tự do. Chúng ta đã quen với hiện tượng này đến mức không còn chú ý đến nó nữa.
+Hãy xem xét một thợ mộc trong một ngôi làng, ông ấy nói, và quan sát tất cả các dịch vụ mà anh ta cung cấp cho xã hội và tất cả những gì anh ta nhận được:
 
-> Mỗi ngày, khi thức dậy, anh ấy mặc quần áo, và anh ấy không tự làm bất kỳ bộ quần áo nào của mình. Tuy nhiên, để những bộ quần áo này có sẵn cho anh ấy, một lượng công việc, công nghiệp, vận chuyển, và phát minh tài tình to lớn đã phải được thực hiện trên toàn thế giới.
-> Sau đây, anh ta ăn sáng. Để có được miếng bánh mì trên bàn mỗi sáng, đã phải có việc khai hoang, cày cấy; sắt, thép, gỗ, đá được chế tác thành công cụ lao động; tất cả những điều này, mỗi thứ riêng lẻ, đều đòi hỏi một khối lượng công việc không thể tính toán được, không chỉ về không gian mà còn về thời gian.
+> Mỗi ngày, khi thức dậy, anh ấy mặc quần áo, và anh ấy không tự làm bất kỳ bộ quần áo nào của mình. Tuy nhiên, để những bộ quần áo này có sẵn cho anh ấy, một lượng khổng lồ các công việc, ngành công nghiệp, vận chuyển, và phát minh sáng tạo đã phải được thực hiện trên toàn thế giới.
+> Sau đây, anh ta ăn sáng. Để có được miếng bánh mì trên bàn mỗi sáng, cần phải có những cánh đồng được khai hoang, cày cấy; cần phải có sắt, thép, gỗ, đá được chế tác thành các công cụ lao động; tất cả những điều này, mỗi thứ riêng lẻ, đều đòi hỏi một khối lượng công việc không thể tính toán được, không chỉ về không gian mà còn về thời gian.
 
-Người này sẽ gửi con trai mình đến trường, để nhận một nền giáo dục đòi hỏi nghiên cứu, nhiều năm học tập trước đó.
+> Người này sẽ gửi con trai mình đến trường, để nhận một nền giáo dục đòi hỏi phải có những nghiên cứu và nhiều năm học tập trước đó.
 
-Anh ta ra ngoài: anh ta tìm thấy một con đường được lát gạch và chiếu sáng.
+> Anh ta ra ngoài và thấy một con đường được lát gạch và chiếu sáng.
 
-Tài sản của anh ta bị tranh chấp: anh ta sẽ tìm luật sư để bảo vệ quyền lợi, quan tòa để duy trì chúng, cán bộ tư pháp để thi hành án; tất cả những điều này vẫn đòi hỏi kiến thức đã được tích lũy, do đó là sự khai sáng và phương tiện tồn tại.
+> Tài sản của anh ta bị tranh chấp: anh ta sẽ tìm đến luật sư để bảo vệ quyền lợi của mình, tìm đến quan tòa để gìn giữ chúng, tìm đến cán bộ tư pháp để thi hành bản án; tất cả những điều này đòi hỏi những kiến thức đã được tích lũy, do đó là sự khai sáng và phương tiện sinh sống.
 
-Bastiat mô tả thị trường như một công cụ hợp tác phi tập trung và vô hình. Thông qua hệ thống giá cả, nó truyền đạt thông tin về nhu cầu và kỹ năng của mọi người, nó kết nối những người muốn hợp tác để cải thiện cuộc sống của họ.
+Bastiat mô tả thị trường như một công cụ hợp tác phi tập trung và vô hình. Thông qua hệ thống giá cả, nó truyền đạt thông tin về nhu cầu và kỹ năng của mọi người, nó kết nối những người muốn hợp tác để cải thiện cuộc sống của bản thân.
 
-Điều đáng chú ý, Bastiat kết luận, là sự chênh lệch khổng lồ giữa lợi ích mà người này nhận được từ xã hội và những gì anh ta có thể tự cung cấp cho mình nếu chỉ dựa vào nguồn lực của bản thân. Trong một ngày, anh ta tiêu thụ những hàng hóa mà bản thân không thể sản xuất ra.
+Điều đáng chú ý, Bastiat kết luận, là sự chênh lệch khổng lồ giữa lợi ích mà người này nhận được từ xã hội và những gì anh ta có thể tự cung cấp cho mình nếu chỉ dựa vào nguồn lực của bản thân. Trong một ngày, anh ta tiêu thụ nhiều hàng hóa mà bản thân không thể sản xuất ra.
 
 ![image](assets/image/13/IMG02.webp)
 
-Năm 1958, nhà văn người Mỹ Leonard Read (Quỹ Giáo dục Kinh tế) đã xuất bản một bài luận ngắn trên tạp chí The Freeman, viết theo phong cách của Bastiat, trở nên rất nổi tiếng: "Tôi, Cây Bút Chì". Bài viết này là một ẩn dụ về thị trường tự do. Nó bắt đầu như thế này:
+Năm 1958, nhà văn người Mỹ Leonard Read (Quỹ Giáo dục Kinh tế - Foundation for Economic Education) đã xuất bản một bài luận ngắn trên tạp chí The Freeman, viết theo phong cách của Bastiat, trở nên rất nổi tiếng: "Tôi, cây bút chì - I, Pencil". Bài viết này là một ẩn dụ về thị trường tự do. Nó bắt đầu như thế này:
 
-> Tôi là một cây bút chì chì, một cây bút chì gỗ bình thường quen thuộc với tất cả các bé trai, bé gái và người lớn biết đọc và viết. Đây là một trong những vật thể đơn giản nhất trong nền văn minh loài người. Và tuy nhiên, không một người nào trên trái đất này biết cách sản xuất tôi.
+> Tôi là một cây bút chì chì, một cây bút chì gỗ bình thường quen thuộc với tất cả các bé trai, bé gái và người lớn biết đọc và viết. Đây là một trong những vật thể đơn giản nhất trong nền văn minh nhân loại. Tuy nhiên, không một người nào trên trái đất này biết cách sản xuất ra tôi.
 
 ![image](assets/image/13/IMG03.webp)
-Nó tái hiện ý tưởng của Bastiat về sự hợp tác vô hình giữa hàng triệu cá nhân không biết nhau, dẫn đến việc tạo ra một thứ bình thường như cây bút chì. Không ai biết cách làm một cây bút chì một mình. Tuy nhiên, hàng triệu con người mà không hề biết đến nhau vẫn tham gia vào việc tạo ra cây bút chì đơn giản này, trao đổi và phối hợp kiến thức và kỹ năng của họ trong một hệ thống giá cả mà không có bất kỳ cơ quan quản lý nào chỉ đạo hành vi của họ. Câu chuyện này chứng minh rằng những cá nhân tự do làm việc theo đuổi lợi ích hợp pháp của họ hành động nhiều hơn cho lợi ích của xã hội hơn bất kỳ chiến lược kinh tế kế hoạch hóa và tập trung nào.
+Nó tái hiện ý tưởng của Bastiat về sự hợp tác vô hình giữa hàng triệu cá nhân không biết nhau, dẫn đến việc tạo ra một thứ bình thường như cây bút chì. Không ai biết cách làm một cây bút chì một mình. Tuy nhiên, hàng triệu con người không hề biết đến nhau vẫn tham gia vào việc tạo ra cây bút chì đơn giản này, trao đổi và phối hợp kiến thức và kỹ năng của họ trong một hệ thống giá cả mà không có bất kỳ cơ quan quản lý nào chỉ đạo hành vi của họ. Câu chuyện này chứng minh rằng những cá nhân tự do làm việc nhằm theo đuổi lợi ích hợp pháp của mình sẽ hành động và mang lại nhiều lợi ích cho xã hội hơn bất kỳ chiến lược kinh tế kế hoạch hóa và tập trung nào.
 
-Giải Nobel Kinh tế năm 1976, Milton Friedman, cũng đã tái hiện câu chuyện về cây bút chì này để giải thích cho công chúng cách thị trường kinh tế hoạt động.
+Giải Nobel Kinh tế năm 1976, Milton Friedman, cũng đã tái hiện câu chuyện về cây bút chì này để giải thích cho công chúng cách nền kinh tế thị trường hoạt động.
 
 ![video](https://youtu.be/67tHtpac5ws?si=Ck9jVkdpYHbUJ5we)
 
-Trong một tập của series truyền hình Free to Choose của mình, ông phân tích các thành phần khác nhau của một thứ đơn giản và bình thường như cây bút chì và nhấn mạnh điều kỳ diệu của trật tự tự phát, được tạo ra bởi hàng nghìn tương tác kinh tế trên khắp thế giới. Những người không biết nhau, không chia sẻ cùng tôn giáo hay phong tục, vẫn có thể phối hợp để sản xuất ra vật thể này. Ông kết luận rằng thị trường tự do là cần thiết để đảm bảo không chỉ sự thịnh vượng mà còn cả hòa bình và hòa hợp.
+Trong một tập của sê-ri truyền hình "Free to Choose" của mình, ông phân tích các thành phần khác nhau của một thứ đơn giản và bình thường như cây bút chì và nhấn mạnh điều kỳ diệu của trật tự tự phát, được tạo ra bởi hàng nghìn tương tác kinh tế trên khắp thế giới. Những người không biết nhau, không chia sẻ cùng tôn giáo hay phong tục, vẫn có thể phối hợp để sản xuất ra vật thể này. Ông kết luận rằng thị trường tự do là cần thiết để đảm bảo không chỉ cho sự thịnh vượng mà còn cho cả hòa bình và hòa hợp.
 
-Friedrich Hayek, trong bài luận "Sử dụng Kiến thức trong Xã hội" năm 1945, đã giải thích tại sao nền kinh tế thị trường và sự phân quyền quyết định là quan trọng cho sự thịnh vượng. Theo Hayek, không có kế hoạch viên trung ương hay quan chức nào có đủ kiến thức để thành công trong việc hướng dẫn toàn bộ các hành động kinh tế. Chỉ có hệ thống giá cả trong một thị trường tự do mới cho phép hàng triệu diễn viên độc lập quyết định cách họ tự mình phân bổ nguồn lực một cách hiệu quả.
-Kế hoạch kinh tế, vốn tuyên bố làm tốt hơn thị trường, không chỉ dẫn đến việc phân bổ nguồn lực kém hiệu quả mà còn dẫn đến sự thống trị của một tầng lớp lên tầng lớp khác. Đó là lý do tại sao chủ nghĩa xã hội không chỉ là một sai lầm về mặt trí tuệ mà còn là một sai lầm cuối cùng tạo ra sự bất công to lớn.
+Friedrich Hayek, trong bài luận "The Use of Knowledge in Society - Sử dụng kiến thức trong xã hội" năm 1945, đã giải thích tại sao nền kinh tế thị trường và sự phi tập trung của các quyết định là cốt yếu cho sự thịnh vượng. Theo Hayek, không có một nhà kế hoạch hoá tập trung hay một quan chức nào có đủ kiến thức để thành công trong việc hướng dẫn toàn bộ các hành vi kinh tế. Chỉ có hệ thống giá cả trong một thị trường tự do mới cho phép hàng triệu thành phần tham gia độc lập đưa ra quyết định cho bản thân về cách phân bổ hiệu quả các nguồn lực.
+Kế hoạch hoá kinh tế, vốn tự tuyên bố là sẽ làm tốt hơn thị trường, không chỉ dẫn đến việc phân bổ nguồn lực kém hiệu quả mà còn dẫn đến sự thống trị của một tầng lớp lên các tầng lớp khác. Đó là lý do tại sao chủ nghĩa xã hội không chỉ là một sai lầm về mặt trí tuệ mà còn là một sai lầm mà cuối cùng sẽ tạo ra sự bất công to lớn.
 
 ## Tự do và trách nhiệm là chìa khóa cho vấn đề xã hội
 
@@ -726,99 +726,99 @@ Trong một bức thư gửi Alphonse de Lamartine vào năm 1845, Bastiat viế
 
 > Tự do là hình thức tổ chức xã hội tốt nhất.
 
-Tuy nhiên, ông thêm một điều kiện
+Tuy nhiên, ông thêm một điều kiện:
 
-> "Luật pháp không nên loại bỏ hậu quả, tích cực hay tiêu cực, của hành động của mỗi người. Đây là nguyên tắc phụ của trách nhiệm."
+> "Luật pháp không nên loại bỏ các hậu quả, dù là tích cực hay tiêu cực, từ hành động của mỗi người. Đây là nguyên tắc hệ quả tất yếu của trách nhiệm."
 
-Nói cách khác, tự do và trách nhiệm không thể tách rời; chúng là một. Đối với ông, chủ nghĩa tự do khác biệt với chủ nghĩa xã hội bởi niềm tin rằng tự do không thể tồn tại mà không có trách nhiệm. Nhưng thực tế, các từ tự do và trách nhiệm chính xác che phủ điều gì?
+Nói cách khác, tự do và trách nhiệm không thể tách rời, chúng không thể phân chia. Đối với ông, chủ nghĩa tự do khác biệt với chủ nghĩa xã hội ở niềm tin rằng tự do không thể tồn tại mà không có trách nhiệm. Nhưng trong thực tế, các từ "tự do" và "trách nhiệm" thực sự bao hàm những gì?
 
-Tự do cơ bản được định nghĩa theo cách tiêu cực: tự do là hành động mà không bị áp đặt bởi sự cưỡng ép bên ngoài trong việc thực hiện quyền của bản thân. Tuy nhiên, điều này không có nghĩa là sự vắng mặt của mọi ràng buộc. Bởi vì tự do đòi hỏi sự đáp trả: nó cũng yêu cầu chúng ta hành động mà không xâm phạm tài sản của người khác và do đó, nếu cần, phải bồi thường cho bất kỳ thiệt hại nào gây ra. Đây là trách nhiệm.
+Tự do cơ bản được định nghĩa theo cách tiêu cực: tự do là hành động mà không bị áp đặt bởi sự cưỡng ép bên ngoài trong việc thực hiện quyền của bản thân. Tuy nhiên, điều đó không có nghĩa là không có bất kỳ ràng buộc nào cả. Bởi vì tự do đòi hỏi sự đối ứng: nó cũng buộc chúng ta hành động mà không xâm phạm đến quyền sở hữu của người khác và do đó, nếu cần, phải bồi thường cho bất kỳ thiệt hại nào gây ra. Đây là trách nhiệm.
 
-Do đó, trách nhiệm đại diện, theo một cách nào đó, cho khía cạnh tích cực của tự do: trong phạm vi một người hành động tự do, người đó phải chịu hậu quả của hành động của mình, dù tốt hay xấu.
+Do đó, trách nhiệm đại diện, theo một cách nào đó, cho khía cạnh tích cực của tự do: trong phạm vi một người hành động tự do, người đó phải chịu những hậu quả từ các hành động của mình, dù tốt hay xấu.
 
 Trách nhiệm cá nhân là một yếu tố quan trọng của sự sáng tạo và là một động lực cho sự thận trọng và tiên liệu.
 
 ![image](assets/image/14/IMG4.webp)
 
-Khi một người tiêu tiền của mình, người đó sẽ cẩn thận không vay nợ quá mức, kiểm tra chất lượng sản phẩm, độ tin cậy của nhà cung cấp, với nguy cơ bị phạt nặng nề. Đó là sức mạnh của trách nhiệm, kết hợp với tự do nó là động cơ thực sự của tiến bộ xã hội.
+Khi một người tiêu tiền của mình, người đó sẽ cẩn thận không vay nợ quá mức, kiểm tra chất lượng sản phẩm, độ tin cậy của nhà cung cấp, với nguy cơ bị trừng phạt nặng nề. Đó là sức mạnh của trách nhiệm, kết hợp với tự do nó là động lực thực sự cho tiến bộ xã hội.
 
-Nhưng hiện tượng vô trách nhiệm hoặc sự giảm bớt trách nhiệm đến từ đâu? Frédéric Bastiat đã cho chúng ta câu trả lời cho câu hỏi này, một câu trả lời chính trị. Ông nói, tôi trích dẫn:
+Nhưng hiện tượng vô trách nhiệm hoặc suy giảm trách nhiệm đến từ đâu? Frédéric Bastiat đã cho chúng ta câu trả lời cho câu hỏi này, một câu trả lời chính trị. Ông nói, tôi trích dẫn:
 
-> "Sự can thiệp của Nhà nước lấy đi quyền tự quản lý bản thân chúng ta."
+> "Sự can thiệp của Nhà nước tước quyền tự quản của chúng ta."
 
-Thực vậy, chủ nghĩa nhà nước liên tục giảm bớt sáng kiến cá nhân và sự lựa chọn tự do của mọi người. Nó làm thay cho họ những gì họ có thể tự làm và làm tốt hơn. Như vậy, nó loại bỏ cá nhân khỏi hậu quả của hành động của họ. Nó phá hủy trách nhiệm.
+Thực vậy, chủ nghĩa nhà nước không ngừng thu hẹp sáng kiến cá nhân và quyền tự do lựa chọn của mọi người. Nó làm thay cho họ những gì họ có thể tự làm và làm tốt hơn nhiều. Bằng cách đó, nó loại trừ cá nhân ra khỏi những hậu quả từ các hành động của họ. Nó phá hủy trách nhiệm.
 
 ![image](assets/image/14/IMG5.webp)
 
-Theo Bastiat, sự phình to của luật pháp và sự can thiệp quá mức của Nhà nước có hậu quả là tạo ra cuộc đấu tranh cho quyền lực, sự cướp bóc, đặc quyền, độc quyền, chiến tranh, nói chung, mọi thứ cản trở tiến bộ của nền văn minh.
-Rủi ro của việc quá mức ưu tiên con đường của luật pháp hoặc kiểm soát hành chính là nó làm giảm động lực bằng cách áp đặt một trận mưa rào của ràng buộc, do đó tước đi chúng ta khỏi những tiến bộ đa dạng mà sáng kiến cá nhân và sự lựa chọn tự do mang lại.
+Theo Bastiat, sự phình to của luật pháp và sự can thiệp quá mức của Nhà nước dẫn đến hậu quả là tạo ra các cuộc đấu tranh cho quyền lực, sự cướp bóc, đặc quyền, độc quyền, chiến tranh, nói chung, gây ra tất cả những gì cản trở sự tiến bộ của nền văn minh.
+Rủi ro của việc quá mức ưu tiên con đường của luật pháp hoặc kiểm soát quan liêu là nó làm giảm mọi động lực bằng cách áp đặt hàng loạt các ràng buộc, do đó tước đi những tiến bộ đa dạng mà sáng kiến cá nhân và quyền tự do lựa chọn mang lại.
 
 Hãy minh họa vấn đề này bằng một vài chủ đề lớn hiện nay. Ví dụ đầu tiên, cuộc khủng hoảng năm 2008.
 
 ![image](assets/image/14/IMG7.webp)
 _(Alan Greenspan, Chủ tịch của FED, ngân hàng trung ương Mỹ, từ 1987 đến 2006)_
-Trong nhiều năm, các nhà lãnh đạo chính sách tiền tệ đã giải thích rằng nếu lợi nhuận được tư nhân hóa khi mọi thứ diễn ra tốt đẹp, thì lỗ lỗ sẽ được chia sẻ khi phá sản (cứu trợ, kế hoạch cứu hộ, thao túng lãi suất, in tiền, v.v.). Làm như vậy, họ đã tạo ra một rủi ro đạo đức, họ đã tạo điều kiện cho việc chấp nhận rủi ro không hợp lý, và họ đã khuyến khích thế giới tài chính hành xử một cách vô trách nhiệm. Họ do đó đã đẩy nhanh quá trình tài chính rơi vào cuộc khủng hoảng mà chúng ta đã trải qua.
+Trong nhiều năm, các nhà lãnh đạo chính sách tiền tệ đã giải thích rằng nếu lợi nhuận được tư nhân hóa khi mọi thứ diễn ra tốt đẹp, thì thua lỗ sẽ được chia sẻ khi phá sản (cứu trợ, kế hoạch giải cứu, thao túng lãi suất, in tiền, v.v.). Làm như vậy, họ đã tạo ra một rủi ro đạo đức, họ đã tạo điều kiện cho việc chấp nhận rủi ro không hợp lý, và họ đã khuyến khích thế giới tài chính hành xử một cách vô trách nhiệm. Họ do đó đã đẩy nhanh quá trình rơi vào cuộc khủng hoảng mà chúng ta đang trải qua của thế giới tài chính. 
 
 ![image](assets/image/14/IMG8.webp)
 
-Và hiện tượng này sẽ lặp đi lặp lại mãi mãi miễn là các ngân hàng vẫn nằm dưới sự thống trị của các cơ quan trung ương được cho là bảo vệ họ bằng cách loại bỏ mọi quyền tự chủ về quyết định và hoạt động.
+Và hiện tượng này sẽ lặp đi lặp lại mãi mãi miễn là các ngân hàng vẫn nằm dưới sự thống trị của các cơ quan quyền lực tập trung được cho là bảo vệ các ngân hàng bằng cách loại bỏ mọi quyền tự chủ về quyết định và vận hành.
 
-Một ví dụ khác: dịch vụ công
+Một ví dụ khác: các dịch vụ công
 
 ![image](assets/image/14/IMG9.webp)
 
-Mỗi dịch vụ công đều áp đặt sở thích của một tầng lớp quan liêu, gây bất lợi cho sự lựa chọn tự do cá nhân. Điều này dẫn đến hai hậu quả theo Bastiat: Công dân "ngừng thực hiện quyền kiểm soát tự do đối với sự hài lòng của bản thân, và, không còn trách nhiệm, tự nhiên anh ta cũng mất đi trí thông minh." Lý do rất đơn giản: mọi luật lệ viết ra đều mang tính cưỡng chế và nó giống nhau đối với mọi người, không tính đến các tình huống, nhu cầu và sở thích cụ thể của công dân.
+Mỗi dịch vụ công đều áp đặt các ưu tiên của một tầng lớp tinh hoa quan liêu, gây tổn hại đến quyền tự do lựa chọn của cá nhân. Điều này dẫn đến hai hậu quả theo Bastiat: Công dân "ngừng việc tự do kiểm soát đối với các nhu cầu của bản thân, và, khi không còn trách nhiệm, tự nhiên anh ta cũng mất đi hiểu biết về chúng." Lý do rất đơn giản: mọi luật lệ viết ra đều mang tính cưỡng chế và nó giống nhau đối với mọi người, không tính đến các tình huống cụ thể, nhu cầu và sở thích của công dân.
 
-Cuối cùng, dịch vụ công là nguyên nhân của sự bất động. Thực vậy, khi dịch vụ tư nhân trở thành công cộng, chúng thoát khỏi sự cạnh tranh. Do đó, Bastiat nói, tôi trích dẫn: "viên chức thiếu đi động lực thúc đẩy tiến bộ."
+Cuối cùng, dịch vụ công là nguyên nhân của sự trì trệ. Thực vậy, khi các dịch vụ tư nhân trở thành dịch vụ công, chúng thoát khỏi sự cạnh tranh. Do đó, như Bastiat nói, tôi trích dẫn: "công chức thiếu đi động lực thúc đẩy sự tiến bộ."
 
 ![image](assets/image/14/IMG10.webp)
 
-Khi chúng ta quan sát dịch vụ công của giáo dục quốc gia, chúng ta hiểu ý nghĩa của Bastiat. Nó giảm bớt gánh nặng giáo dục con cái cho đại đa số phụ huynh, biến trường học thành một nơi trông trẻ. Nó không khuyến khích giáo viên đổi mới và mạo hiểm vì trong một hệ thống như vậy họ chỉ là những người thi hành một chương trình được thiết kế không có sự tham gia của họ, bởi các quan liêu. Cuối cùng, nó phớt lờ thực tế về nhu cầu cụ thể của mỗi cá nhân.
+Khi chúng ta quan sát dịch vụ công của giáo dục quốc gia, chúng ta hiểu ý nghĩa của Bastiat. Nó giảm bớt gánh nặng giáo dục con cái cho đại đa số phụ huynh, biến trường học thành một nơi trông trẻ. Nó không khuyến khích giáo viên đổi mới và mạo hiểm vì trong một hệ thống như vậy họ chỉ là những người thi hành một chương trình được thiết kế không có sự tham gia của họ, mà bởi các công chức quan liêu. Cuối cùng, nó phớt lờ thực tế về nhu cầu cụ thể của mỗi cá nhân.
 
 ![image](assets/image/14/IMG11.webp)
-Chúng ta sẽ thấy trong một khóa học khác, theo Bastiat, ba dịch vụ công hợp pháp duy nhất của một quốc gia là: quân đội, cảnh sát và tư pháp. Nhưng để kết luận về trách nhiệm, vấn đề với sự can thiệp của nhà nước là những người đưa ra quyết định không phải là những người chịu hậu quả.
-Nói cách khác, các lựa chọn tập thể không phải là các lựa chọn có trách nhiệm vì, một mặt, chúng không đòi hỏi phải mạo hiểm từ người ra quyết định, và mặt khác, chúng buộc người khác phải chịu đựng một số hậu quả, điều này vừa thảm hại vừa vô đạo đức.
+Chúng ta sẽ thấy trong một khóa học khác, theo Bastiat, ba dịch vụ công hợp pháp duy nhất của một quốc gia là: quân đội, cảnh sát và tư pháp. Nhưng để kết luận về trách nhiệm, vấn đề đối với sự can thiệp của nhà nước là những người đưa ra quyết định không phải là những người chịu hậu quả từ những quyết định đó.
+Nói cách khác, các lựa chọn tập thể không phải là các lựa chọn có trách nhiệm vì, một mặt, chúng không đòi hỏi bất kỳ rủi ro nào cho người ra quyết định, và mặt khác, chúng buộc những người khác phải gánh chịu một số hậu quả, điều này vừa thảm hại vừa vô đạo đức.
 
-## Quyền Lực của Trách Nhiệm
+## Quyền lực của trách nhiệm
 
 <chapterId>0c078806-6c58-53f9-a720-5fb62386e56b</chapterId>
 
 ![video](https://youtu.be/M4yjsSrRfQ4?si=xJmTNMxIZ3WTtqgM)
 
-Trong khóa học trước, chúng ta đã thấy tại sao tự do và trách nhiệm là chìa khóa cho vấn đề xã hội. Bây giờ chúng ta sẽ đi sâu hơn vào điểm này bằng cách chỉ ra cách Frédéric Bastiat nhìn nhận về những điều ác làm tổn thương các xã hội và giải pháp của chúng.
+Trong phần trước, chúng ta đã thấy tại sao tự do và trách nhiệm là chìa khóa cho vấn đề xã hội. Bây giờ chúng ta sẽ đi sâu hơn vào điểm này bằng cách chỉ ra cách Frédéric Bastiat nhìn nhận về những tai hoạ mà xã hội phải chịu đựng và giải pháp của chúng.
 
-Các nhà tự do thường bị chỉ trích vì bỏ qua điều ác và xây dựng một ước mơ về tự do tinh khiết và hoàn hảo trong một thế giới lý tưởng. Sự chỉ trích này hoàn toàn không có cơ sở đối với tác giả của chúng ta.
+Các nhà tự do thường bị chỉ trích vì cho rằng họ đã phớt lờ cái xấu và xây dựng một ảo tưởng về tự do hoàn hảo trong một thế giới lý tưởng. Đối với tác giả của chúng ta, Bastiat, sự chỉ trích này hoàn toàn không có cơ sở.
 
-Không ai có thể bỏ qua điều ác thống trị trong lịch sử của các xã hội loài người: bất công, chiến tranh, và đau khổ. Chúng ta muốn có thể loại bỏ những điều ác này. Đây, hơn nữa, là đối tượng của một phần lớn các triết học hiện đại, từ Rousseau đến Heidegger, qua Hegel và Marx.
-Frédéric Bastiat cho rằng, cái ác không chỉ là một thực tế cụ thể mà còn có vai trò trong lịch sử và hành động của con người. Cái ác có thể được giảm bớt nhưng chắc chắn không thể hoàn toàn loại bỏ bởi điều đó có nghĩa là tiêu diệt tự do và trách nhiệm. Vậy cái ác đến từ đâu, nó có vai trò gì và làm thế nào để ngăn chặn nó?
+Không ai có thể phớt lờ những cái xấu, cái ác đã và đang hoành hành trong lịch sử của xã hội loài người: bất công, chiến tranh, và đau khổ. Chúng ta ước gì có thể loại bỏ được những tai hoạ này. Đây cũng chính là mục tiêu của phần lớn các triết gia hiện đại, từ Rousseau đến Heidegger, qua Hegel và Marx.
+Frédéric Bastiat cho rằng, cái ác không chỉ là một thực tế cụ thể mà còn có vai trò trong lịch sử và trong hành động của con người. Cái ác có thể được giảm bớt nhưng chắc chắn không thể bị loại bỏ hoàn toàn bởi điều đó đồng nghĩa với việc giết chết tự do và trách nhiệm. Vậy cái ác đến từ đâu, nó có vai trò gì và làm thế nào để phòng ngừa, ngăn chặn nó?
 
-Để trả lời những câu hỏi này, Bastiat sẽ tiến hành phân tích hành động của con người. Quả thực, điều này có thể dẫn đến cả điều tốt và cái ác.
+Để trả lời những câu hỏi này, Bastiat sẽ tiến hành phân tích hành động của con người. Quả thực, hành động của con người có thể dẫn đến cả điều tốt và điều xấu.
 
-Cái ác đầu tiên xuất phát từ sự không hoàn hảo của chúng ta. Tự do lựa chọn có nghĩa là chấp nhận rủi ro đưa ra quyết định sai lầm, Bastiat nói. Thực vậy, chúng ta có thể bị lừa dối theo nhiều cách, ngay cả về nhu cầu và lợi ích của bản thân. Con người là sinh vật có thể sai lầm, họ dễ mắc lỗi trong việc hiểu biết về luật kinh tế hoặc làm lệch hướng mục đích của chúng.
+Cái ác đầu tiên xuất phát từ sự không hoàn hảo của chúng ta. Tự do lựa chọn có nghĩa là chấp nhận rủi ro đưa ra quyết định sai lầm, Bastiat nói. Thực vậy, chúng ta có thể bị lừa dối theo nhiều cách, ngay cả về nhu cầu và lợi ích của bản thân. Con người là sinh vật có thể phạm sai lầm, họ dễ mắc lỗi trong việc nhận thức về các quy luật kinh tế hoặc làm lệch hướng chúng khỏi mục đích của chúng.
 
 Do đó, sự không hoàn hảo của lý trí là giới hạn chính của con người và vẫn là nguồn gốc của những đau khổ của chúng ta.
-Nếu cái ác xuất phát từ sự yếu đuối của con người và không phải từ tự do bản thân, cũng không phải từ thương mại tự do, thì giải pháp không nằm ở việc loại bỏ tự do hay trao đổi mà nằm ở chính trách nhiệm, bởi đó là nguồn gốc của mọi kinh nghiệm. Nguyên tắc trách nhiệm này được Bastiat trích dẫn như sau:
+Nếu cái ác xuất phát từ sự yếu đuối của con người và không phải từ bản thân của sự tự do, cũng không phải từ tự do thương mại, thì giải pháp không nằm ở việc loại bỏ tự do hay thương mại mà nằm ở chính trách nhiệm, bởi đó là nguồn gốc của mọi kinh nghiệm. Nguyên tắc trách nhiệm này được Bastiat trích dẫn như sau:
 
 > Mỗi người hành động nhận được phần thưởng hoặc hình phạt cho hành động của mình.
 
-Thông qua hình phạt tự nhiên này, con người học hỏi, khám phá, tự sửa chữa, tiến bộ và cải thiện. Nói cách khác, trách nhiệm là nguyên tắc của sự hoàn thiện và tiến bộ như chúng ta đã thấy trong khóa học trước.
+Thông qua hình phạt tự nhiên này, con người học hỏi, khám phá, tự sửa chữa, tiến bộ và cải thiện. Nói cách khác, trách nhiệm là nguyên tắc của sự hoàn thiện và tiến bộ như chúng ta đã thấy trong phần trước.
 
-Nếu một người chịu hậu quả, tốt hay xấu, của quyết định của mình, anh ta sẽ cố gắng cải thiện bằng cách học hỏi từ kinh nghiệm. Do đó, trách nhiệm cá nhân, là người giáo dục vĩ đại của các dân tộc theo Bastiat, nguyên tắc cơ bản của mọi quy định về hành vi và xã hội, phải được cho phép hoạt động.
+Nếu một người chịu hậu quả, dù tốt hay xấu, từ quyết định của mình, anh ta sẽ cố gắng cải thiện bằng cách học hỏi từ kinh nghiệm. Do đó, trách nhiệm cá nhân phải có hiệu lực, vì theo Bastiat, nó là người thầy vĩ đại của các dân tộc, theo Bastiat, là nguyên tắc cơ bản của mọi quy định về hành vi và xã hội.
 
 Cái ác tạo ra đau khổ, và đau khổ giúp chúng ta nhận ra lỗi lầm hoặc sai sót, nó đưa chúng ta trở lại con đường đúng đắn. Chính thông qua việc nhận thức về cái ác mà chúng ta tiến bộ.
 
-Chính vì con người có nguy cơ mắc sai lầm hoặc hành động sai trái và chịu hậu quả, mà anh ta được khuyến khích phải chịu trách nhiệm. Anh ta sẽ sau đó cố gắng dự đoán những rủi ro có thể ảnh hưởng đến mình để bảo vệ bản thân.
+Chính vì con người có nguy cơ mắc sai lầm hoặc hành động sai trái và chịu hậu quả, mà anh ta được khuyến khích phải chịu trách nhiệm. Sau đó, anh ta sẽ cố gắng tiên liệu những rủi ro có thể ảnh hưởng đến mình để bảo vệ bản thân.
 
-Như vậy, rõ ràng Bastiat không hề mù quáng. Ông không phủ nhận sự tồn tại của cái ác. Con người yếu đuối, dễ mắc lỗi và tội lỗi. Không đâu có thể thấy Bastiat phủ nhận thực tế rằng việc thực hiện tự do cá nhân đi kèm với khả năng mắc lỗi, khả năng lựa chọn không hợp lý hoặc vô nghĩa.
+Như vậy, rõ ràng Bastiat không hề mù quáng. Ông không phủ nhận sự tồn tại của cái ác. Con người yếu đuối, dễ mắc lỗi và phạm tội. Không thể thấy ở bất kỳ chỗ nào mà Bastiat phủ nhận thực tế rằng việc thực hiện tự do cá nhân luôn đi kèm với khả năng mắc lỗi, khả năng lựa chọn không hợp lý hoặc vô nghĩa.
 
 Ông chỉ đơn giản khẳng định rằng nếu nguồn gốc của cái ác nằm ở sự vắng mặt của tự do, thì giải pháp nằm ở chính tự do, và cụ thể hơn là trong việc thực hiện trách nhiệm cá nhân một cách đầy đủ và toàn diện.
 
-Nhưng nếu việc lạm dụng tự do là nguồn gốc của những nỗi khổ của chúng ta, thì việc sử dụng đúng đắn tự do chính là giải pháp, tức là việc thực hiện trách nhiệm cá nhân một cách đầy đủ và toàn diện, dựa trên quyền sở hữu. Do đó, quy định xã hội thông qua trách nhiệm, không phải thông qua sự can thiệp của Nhà nước trong mọi lĩnh vực, đó là một trong những nguồn gốc lớn của sự cướp bóc và do đó là của cái ác.
+Nhưng nếu việc lạm dụng tự do là nguồn gốc của những nỗi khổ mà chúng ta đang chịu đựng, thì việc sử dụng đúng đắn tự do chính là giải pháp, tức là thực hiện trách nhiệm cá nhân một cách đầy đủ và toàn diện, dựa trên quyền sở hữu. Do đó, quản lý xã hội thông qua trách nhiệm, không phải thông qua sự can thiệp của Nhà nước trong mọi lĩnh vực, đó là một trong những nguồn gốc chính yếu của sự cướp bóc và do đó là của cái ác.
 
-Trái ngược với Rousseau, người tìm cách loại bỏ cái ác thông qua các tổ chức tập thể, Frédéric Bastiat bảo vệ khả năng tồn tại của cái ác và sai lầm, mà không có chúng thì không có tự do hay trách nhiệm cá nhân. Bởi chính điều này mới cho phép, thông qua quá trình khám phá, tiến bộ và giảm bớt các tệ nạn xã hội.
-Cần phải làm rõ rằng sự phát triển tiến bộ thông qua trách nhiệm không hề tự nhiên xảy ra. Không giống như quan điểm của Hegel hay Marx, đây không phải là một loại định mệnh tự nhiên hay lịch sử, có thể một cách kỳ diệu hay cơ học dẫn đến hòa bình và tiến bộ. Đây là về việc giảm dần và không xác định được của cái ác và không bao giờ là về việc loại bỏ hoàn toàn nó.
+Trái ngược với Rousseau, người tìm cách loại bỏ cái ác thông qua các tổ chức tập thể, Frédéric Bastiat bảo vệ khả năng tồn tại của cái ác và sai lầm, mà không có chúng thì không có tự do hay trách nhiệm cá nhân. Bởi chính điều này mới tạo ra sự tiến bộ và giảm bớt các tệ nạn xã hội, thông qua quá trình khám phá
+Cần phải làm rõ rằng sự phát triển tiến bộ thông qua trách nhiệm không phải là tự động. Điều này hoàn toàn khác với quan điểm của Hegel hay Marx, nơi có một dạng thuyết định mệnh tự nhiên hay lịch sử, có thể đạt được hoà bình và tiến bộ một cách kỳ diệu hoặc cơ học. Đây là một quá trình giảm dần và không ngừng của cái ác và không bao giờ là một sự loại bỏ hoàn toàn nó.
 
-## Sự Đoàn Kết Thật và Giả
+## Đoàn kết thật và đoàn kết giả
 
 <chapterId>fa2172e9-22fa-5c01-a3c8-1e8316c064a4</chapterId>
 
@@ -826,70 +826,70 @@ Cần phải làm rõ rằng sự phát triển tiến bộ thông qua trách nh
 
 ![image](assets/image/16/IMG1.webp)
 
-Frédéric Bastiat, trong cuốn sách nổi tiếng của mình "The Law," đã lên án sự biến chất của luật pháp, đó là việc hợp pháp hóa, dưới danh nghĩa "đoàn kết," những gì thực sự phải được gọi là cướp bóc. Thật vậy, có một mâu thuẫn trong việc muốn áp đặt tình anh em thông qua luật pháp, điều mà chúng ta ngày nay gọi là "công bằng xã hội" hoặc sự đoàn kết.
+Frédéric Bastiat, trong cuốn sách nổi tiếng của mình "The Law," đã lên án sự biến chất của luật pháp, đó là việc hợp pháp hóa những gì thực sự phải được gọi là cướp bóc dưới danh nghĩa "đoàn kết" . Thật vậy, có một mâu thuẫn trong việc muốn áp đặt tình anh em thông qua luật pháp, điều mà chúng ta ngày nay gọi là "công bằng xã hội" hoặc "sự đoàn kết".
 
 ![image](assets/image/16/IMG2.webp)
 
-Bởi vì đạo đức được định nghĩa là hành vi tự nguyện. Khi một cá nhân bị buộc phải cho đi thứ họ không muốn, họ luôn là nạn nhân của việc trộm cắp.
+Bởi vì đạo đức được định nghĩa là hành vi tự nguyện. Khi một cá nhân bị buộc phải cho đi thứ họ không muốn, họ luôn là nạn nhân của hành vi trộm cắp.
 
 ![image](assets/image/16/IMG3.webp)
 
-Thật vậy, khi một sự quyên góp trở nên bắt buộc theo luật, nó không còn là một thái độ đạo đức. Thái độ đạo đức của việc cho đi được thay thế bằng yêu sách "quyền lợi," là những yêu sách về lao động của người khác. Sự đoàn kết giả mạo là lời kêu gọi sống nhờ vào người khác.
+Thật vậy, khi một sự quyên góp trở nên bắt buộc theo luật, nó không còn là một thái độ đạo đức. Thái độ đạo đức của việc cho đi được thay thế bằng yêu sách "tới quyền," là những yêu sách trên công sức lao động của người khác. Sự đoàn kết giả mạo là lời kêu gọi để sống nhờ vào người khác.
 
-Đây là điều mà Bastiat gọi là "sự ngụy biện của tình anh em pháp lý." Hãy trích dẫn ông ở điểm này:
+Đây là điều mà Bastiat gọi là "sự ngụy biện của tình anh em pháp lý - the sophism of legal fraternity". Hãy trích dẫn ông ở điểm này:
 
-> Tình anh em là tự phát, hoặc không phải là gì cả. Việc tuyên bố nó là phá hủy nó.
+> Tình anh em là tự phát, hoặc là có tình anh em, hoặc là không. Việc áp đặt nó chính là phá hủy nó.
 
 Và một lần nữa:
 
-> Chính phủ chỉ bao giờ thực hiện một hành động được chấp thuận bởi Lực lượng. Bây giờ, việc buộc ai đó phải công bằng là có thể chấp nhận được, không phải buộc họ phải từ thiện. Luật pháp, khi nó tìm cách làm bằng vũ lực những gì đạo đức đạt được thông qua thuyết phục, xa rời khỏi lĩnh vực Từ thiện, rơi vào lĩnh vực Cướp bóc.
-> Tuy nhiên, sự biến chất của luật pháp này có một tên, đó là chủ nghĩa xã hội, tức là ý thức hệ của việc phân phối lại tài sản bằng vũ lực của Nhà nước. Chủ nghĩa xã hội, theo Bastiat, được đặc trưng bởi ý thức hệ của việc cướp bóc hợp pháp. Nhưng sự xảo quyệt của ý thức hệ này là nó che giấu bạo lực của mình dưới sự lạm dụng ngôn từ: lời kêu gọi đoàn kết hoặc tình anh em.
+> Nhà nước không bao giờ thực hiện được hành động nào khác ngoài việc sử dụng sức mạnh. Tuy nhiên, người ta có thể buộc ai đó phải công bằng, chứ không thể buộc ai đó phải có lòng nhân ái cả. Một khi luật pháp cố gắng sử dụng sức mạnh để làm những điều mà đạo đức làm được thông qua thuyết phục, nó không chỉ làm cho con người rời xa lòng nhân ai mà còn rơi vào khu vực của sự cướp bóc.
+> Sự biến chất của luật pháp này có một tên gọi, đó là chủ nghĩa xã hội, tức là ý thức hệ của việc tái phân phối tài sản bằng vũ lực của Nhà nước. Chủ nghĩa xã hội, theo Bastiat, được đặc trưng bởi ý thức hệ của việc cướp bóc hợp pháp. Nhưng sự xảo quyệt của ý thức hệ này là nó che giấu bạo lực của mình dưới sự lạm dụng ngôn từ: lời kêu gọi đoàn kết hoặc tình anh em.
 
 ![image](assets/image/16/IMG4.webp)
 
-Tuy nhiên, theo Bastiat, có một lựa chọn khác cho sự đoàn kết bắt buộc của nhà nước: "hội hỗ trợ lẫn nhau"
+Tuy nhiên, theo Bastiat, có một lựa chọn khác cho sự đoàn kết bắt buộc của nhà nước: "xã hội hỗ trợ lẫn nhau"
 
-sự hỗ trợ lẫn nhau và tự phát của con người với nhau nhờ vào các hội hỗ trợ lẫn nhau. Nhưng ông cũng dự đoán rằng Nhà nước cuối cùng sẽ chiếm đoạt những tổ chức này để biến chúng thành một cơ quan duy nhất và tập trung, khuyến khích chi tiêu và lãng phí.
+Sự hỗ trợ lẫn nhau và tự phát của con người với nhau nhờ vào các xã hội hỗ trợ lẫn nhau. Nhưng ông cũng dự đoán rằng Nhà nước cuối cùng sẽ chiếm đoạt những tổ chức này để biến chúng thành một cơ quan duy nhất và tập trung, khuyến khích chi tiêu và lãng phí.
 
 ![image](assets/image/16/IMG5.webp)
 
-Trong một cuốn sách có tên "Công lý và Tình anh em", Bastiat cũng khám phá ý tưởng về một hệ thống thuế đơn giản và công bằng để tài trợ cho nhu cầu tập thể (cảnh sát, tư pháp, quân đội): thu nhập và lợi nhuận sẽ chịu một mức thuế duy nhất và tỷ lệ cố định. Điều này ngày nay được biết đến là "Thuế Suất Đồng Nhất".
+Trong một cuốn sách có tên "Công lý và Tình anh em - Justice and Fraternity", Bastiat cũng khám phá ý tưởng về một hệ thống thuế đơn giản và công bằng để tài trợ cho nhu cầu tập thể (cảnh sát, tư pháp, quân đội): thu nhập và lợi nhuận sẽ chịu một mức thuế duy nhất và tỷ lệ cố định. Điều này ngày nay được biết đến là "Thuế suất đồng đều - Flat Tax".
 
 ![image](assets/image/16/IMG6.webp)
 
-Thật vậy, sự đoàn kết trong gia đình, sự đoàn kết địa phương, hoặc từ thiện tổ chức được phát triển nhiều hơn ở các quốc gia có hệ thống thuế nhẹ và mức độ tự do kinh tế tương đối cao, như Thụy Sĩ và Hoa Kỳ, trong khi nó bị bóp nghẹt phần lớn ở các quốc gia nơi Nhà nước đã thay thế phần lớn trách nhiệm cá nhân, như Pháp hoặc Đức.
-Thường thì việc than phiền về "ích kỷ" được cho là phổ biến trong các xã hội tự do. Nhưng thực tế lại hoàn toàn ngược lại. Khi một xã hội bị gánh nặng bởi thuế và cá nhân không còn sở hữu tài sản của mình, họ không được khuyến khích đóng góp mà thay vào đó là rút lui vào bản thân.
+Thật vậy, sự đoàn kết trong gia đình, sự đoàn kết địa phương, hoặc hoạt động phúc thiện có tổ chức được phát triển nhiều hơn ở các quốc gia có hệ thống thuế nhẹ và mức độ tự do kinh tế tương đối cao, như Thụy Sĩ và Hoa Kỳ, trong khi bị bóp nghẹt đáng kể ở các quốc gia nơi mà Nhà nước đã thay thế phần lớn trách nhiệm cá nhân, như Pháp hoặc Đức.
+Thường thì người ta hay phê phán "sự ích kỷ" đang tồn tại phổ biến trong các xã hội tự do. Nhưng thực tế lại hoàn toàn ngược lại. Khi một xã hội bị gánh nặng bởi thuế và các cá nhân không còn làm chủ tài sản của mình, họ không được khuyến khích đóng góp mà thay vào đó là thu mình lại.
 
 ![image](assets/image/16/IMG7.webp)
 
-Trên thực tế, một xã hội dân sự tự do không dựa trên sự ích kỷ: nền kinh tế thị trường hoạt động dựa trên cơ sở phục vụ lẫn nhau và sự đáp lại. Người ta chỉ có thể phục vụ lợi ích của bản thân bằng cách phục vụ lợi ích của người khác, bằng cách cung cấp cho người khác một sự đối ứng dẫn đến một sự trao đổi có lợi cho cả hai bên. Nói cách khác, chính sự trao đổi tự nguyện tạo ra sự đoàn kết thực sự.
+Trên thực tế, một xã hội dân sự tự do không dựa trên sự ích kỷ: nền kinh tế thị trường hoạt động dựa trên cơ sở phục vụ lẫn nhau và sự đối ứng. Người ta chỉ có thể phục vụ lợi ích của bản thân bằng cách phục vụ lợi ích của người khác, bằng cách cung cấp cho người khác một sự đối ứng dẫn đến một sự trao đổi có lợi cho cả hai bên. Nói cách khác, chính sự tự nguyện trao đổi tạo ra sự đoàn kết thực sự.
 
-Sự phân phối lại bắt buộc không liên quan gì đến tình đoàn kết con người thực sự, mà là của bản chất riêng tư hoặc tự nguyện và được thấy trong gia đình, hoặc giữa các thành viên của một hội.
+Tái phân phối bắt buộc không liên quan gì đến tình đoàn kết nhân văn chân chính, điều vốn có bản chất riêng tư hoặc tự nguyện và được thấy trong gia đình, hoặc giữa các thành viên của một tổ chức.
 
-Như vậy, Bastiat ở đây phản đối các nhà xã hội học về vai trò của luật pháp. Ông viết:
-Luật có thể buộc một người phải công bằng, nhưng không thể buộc anh ta phải tận tụy. Sự đoàn kết giả mạo của các nhà xã hội học loại bỏ sự tận tụy để thay thế bằng sự cưỡng chế thuần túy của nhà nước, làm nền tảng cho chủ nghĩa toàn trị.
+Vì vậy, Bastiat phản đối các nhà xã hội chủ nghĩa về vai trò của luật pháp. Ông viết:
+> Luật có thể buộc một người phải công bằng, nhưng không thể buộc anh ta phải tận tụy. Sự đoàn kết giả mạo của các nhà xã hội chủ nghĩa loại bỏ sự tận tụy để thay thế bằng sự cưỡng chế thuần túy của nhà nước, điều này tạo ra nền tảng cho chủ nghĩa toàn trị.
 
-# Luật Pháp
+# Luật pháp - The Law
 
 <partId>653cbe58-60e1-5401-8f91-4d9843ac6045</partId>
 
-## Quyền Sở Hữu
+## Quyền sở hữu
 
 <chapterId>a48a0616-2105-5520-8312-e21a0b6489c7</chapterId>
 
 ![video](https://youtu.be/M7g5ZhX7uwM?si=Hu3kTmj9pE-eRZmw)
 
-Bằng sở hữu, chúng ta không nên hiểu là đất đai ở đây. Nó có nghĩa là "quyền của người lao động đối với giá trị mà anh ta đã tạo ra thông qua công sức của mình." Bastiat chỉ rõ:
+Ở đây khi nói đến quyền sở hữu - property, chúng ta không nên hiểu là quyền sở hữu đất đai. Nó có nghĩa là "quyền của người lao động đối với giá trị mà anh ta đã tạo ra thông qua công sức lao động của mình." Bastiat chỉ rõ:
 
-> Tôi cho rằng quyền sở hữu bao gồm quyền tự do trước hết về bản thân mình, sau đó là về lao động của mình, và cuối cùng, về sản phẩm của lao động - điều này chứng minh, hơn nữa, rằng, từ một góc độ nào đó, tự do và quyền sở hữu không thể phân biệt với nhau.
+> Tôi cho rằng quyền sở hữu hàm chứa tự do, trước hết là tự do về bản thân mình, sau đó là tự do về lao động của mình, và cuối cùng, tự do về thành quả của lao động - điều này chứng tỏ, từ một góc độ nào đó, tự do và quyền sở hữu không thể phân biệt với nhau.
 
-Sau khi thiết lập điểm này, để hiểu về nền tảng đạo đức của quyền sở hữu, Bastiat bắt đầu từ một nguyên tắc nhân loại học đơn giản rằng từ ban đầu, con người phải làm việc để sống và rằng thành quả của công sức lao động là sự mở rộng của các năng lực, tức là, của bản thân mình.
+Sau khi thiết lập điểm này, để hiểu về nền tảng đạo đức của quyền sở hữu, Bastiat bắt đầu từ một nguyên tắc nhân học đơn giản rằng từ ban đầu, con người phải làm việc để sống và rằng thành quả của công sức lao động là sự mở rộng của các năng lực, tức là, của bản thân mình.
 
-> Tính cách, Tự do, Sở hữu, — đó là con người. Đó là ba thứ mà người ta có thể nói, mà không cần bất kỳ sự tinh vi demagogic nào, rằng chúng tồn tại trước và cao cả hơn bất kỳ luật pháp con người nào.
+> Tính cách, Tự do, Sở hữu, — đó là con người. Đó là ba thứ mà người ta có thể nói, mà không cần bất kỳ sự mị dân nào, rằng chúng tồn tại trước và cao cả hơn bất kỳ luật pháp nào do con người đặt ra.
 
-Hiểu theo nghĩa này, quyền Sở hữu là một trong những quyền không phát sinh từ luật pháp tích cực mà tiền đề cho nó và là lý do tồn tại của nó. Thực vậy,
+Hiểu theo nghĩa này, quyền sở hữu là một trong những quyền không phát sinh từ luật pháp tích cực mà tồn tại trước nó và là lý do tồn tại của nó. Thực vậy,
 
-> Luật pháp là tổ chức tập thể của quyền tự vệ hợp pháp cá nhân.
+> Luật pháp là tổ chức tập thể của quyền tự vệ hợp pháp của cá nhân
 > Luật Pháp
 
 Nhiệm vụ của nó là bảo vệ con người và tài sản của họ.
@@ -898,122 +898,130 @@ Nhiệm vụ của nó là bảo vệ con người và tài sản của họ.
 
 _(François Quesnay, lãnh đạo của các Physiocrats)_
 
-Do đó, quyền không giống như luật pháp. Quyền không được xác định bằng lời của người đứng đầu, cũng không phụ thuộc hoàn toàn vào tính hợp pháp của anh ta. Nó là sản phẩm của một truyền thống, một trật tự pháp lý tồn tại trước và cao cả hơn luật pháp, áp đặt lên người lập pháp cũng như lên bất kỳ công dân bình thường nào.
+Do đó, quyền không giống như luật pháp. Quyền không đồng nhất với mệnh lệnh của nhà cầm quyền, cũng không phụ thuộc hoàn toàn vào tính hợp pháp của chính nó. Quyền là sản phẩm của một truyền thống, một trật tự pháp lý tồn tại trước và cao cả hơn luật pháp, áp đặt lên người lập pháp cũng như lên bất kỳ công dân bình thường nào.
 
-Quyền "không được tạo ra". Nó không được phát minh từ một tầm nhìn lý tưởng về những gì các luật lệ của xã hội nên là; nó được khám phá trong bản chất của con người và trong các quy tắc của sự lịch sự, được truyền lại bởi sự khôn ngoan của phong tục.
-Cá nhân có những quyền tự nhiên tồn tại trước pháp luật: Tài sản, Tự do, Nhân cách. Vai trò của Pháp luật nên là bảo vệ những quyền tự nhiên này của cá nhân. Do đó, Nhà nước phải được giới hạn. Ngày nay, chúng ta có thể nói rằng Bastiat ủng hộ quan điểm về một nhà nước tối thiểu.
+Quyền "không được tạo ra". Nó không được phát minh từ một tầm nhìn lý tưởng về những gì mà các luật lệ của xã hội nên là, mà nó được khám phá trong bản chất của con người và trong các quy tắc của sự văn minh, được truyền lại bởi sự khôn ngoan của phong tục.
+Cá nhân có những quyền tự nhiên tồn tại trước pháp luật: Tài sản, Tự do, Nhân cách. Vai trò của pháp luật nên là bảo vệ những quyền tự nhiên này của các cá nhân và mỗi cá nhân. Do đó, Nhà nước phải được giới hạn. Ngày nay, chúng ta có thể nói rằng Bastiat ủng hộ quan điểm về một nhà nước tối thiểu.
+![image](assets/image/17/IMG2.webp)
 
-Trong hệ thống của Rousseau, mà chúng ta đã thảo luận trong một khóa học trước, nhiệm vụ của nhà lập pháp là tổ chức, sửa đổi, thậm chí là bãi bỏ tài sản nếu được coi là thích hợp. Đối với Rousseau, tài sản không phải là tự nhiên mà là quy ước, giống như xã hội nói chung. Ý tưởng này bắt nguồn từ luật La Mã, mà Rousseau rất quen thuộc.
+Trong hệ thống của Rousseau, mà chúng ta đã thảo luận trong phần trước, nhiệm vụ của nhà lập pháp là tổ chức, sửa đổi, thậm chí là bãi bỏ quyền sở hữu nếu được coi là thích hợp. Đối với Rousseau, quyền sở hữu không phải là tự nhiên mà là quy ước, giống như xã hội nói chung. Ý tưởng này bắt nguồn từ luật La Mã, mà Rousseau rất quen thuộc.
 
-Robespierre, ngược lại, đặt ra nguyên tắc rằng "Tài sản là quyền của mỗi công dân được hưởng và sử dụng phần hàng hóa được pháp luật đảm bảo cho mình."
+![image](assets/image/17/IMG3.webp)
+Robespierre, ngược lại, đặt ra nguyên tắc rằng "Quyền sở hữu là quyền của mỗi công dân được hưởng và định đoạt phần tài sản được pháp luật đảm bảo cho mình."
 
-Đối với Rousseau, tài sản không phải là trước pháp luật; nó chỉ là một quy ước được thiết lập bởi ý chí chung và trong giới hạn mà nó quyết định. Kết quả là, không có tự do hay quyền lợi nào độc lập với xã hội và ý chí tốt của các nhà lập pháp. Nhưng nếu một người tách biệt quyền sở hữu, điều này dễ dàng biện minh cho những quyền giả mạo, chỉ được giành được bằng cách vi phạm quyền của người khác.
+Đối với Rousseau, quyền sở hữu không tồn tại trước quyền, mà chỉ là một quy ước được thiết lập bởi ý chí chung và trong những giới hạn mà nó quyết định. Kết quả là, không có tự do hay quyền nào độc lập với xã hội và ý chí tốt của các nhà lập pháp. Nhưng nếu tách quyền sở hữu ra khỏi quyền, điều này dễ dàng biện minh cho những quyền giả mạo, chỉ được giành được bằng cách vi phạm quyền của người khác.
 
 Ví dụ: quyền làm việc hoặc quyền có nhà ở.
 
-Để tôi có được thứ gì đó miễn phí, ai đó phải trả tiền thay mặt tôi. Và nếu Nhà nước trả tiền, vì nó không tạo ra của cải, nó chỉ có thể làm như vậy bằng cách lấy một ngôi nhà từ ai đó, hoặc tương đương, để cho tôi.
+![image](assets/image/17/IMG4.webp)
 
-Ý tưởng rằng quyền sở hữu là một sáng tạo của pháp luật do đó dẫn đến, theo Bastiat, việc mở ra một lĩnh vực không giới hạn cho những người mơ mộng muốn mô hình hóa xã hội theo kế hoạch của họ.
+Để có được thứ gì đó miễn phí, phải có ai đó trả tiền thay cho tôi. Và nếu Nhà nước trả tiền, vì nó không tạo ra của cải, nó chỉ có thể làm như vậy bằng cách lấy tài sản của một người nào đó, hoặc tương đương, để cho tôi.
 
-Trong hệ thống tự do tự nhiên, tồn tại một luật tự nhiên, độc lập với sự thay đổi của các nhà lập pháp. Nó có giá trị cho tất cả mọi người và tồn tại trước bất kỳ xã hội nào. Và nhiệm vụ của chính phủ là đảm bảo quyền tự nhiên của mỗi cá nhân. Một xã hội công bằng là xã hội mà quyền sở hữu được tôn trọng hoàn toàn, nghĩa là được bảo vệ khỏi bất kỳ sự can thiệp nào từ người khác.
+Do đó, theo Bastiat, ý tưởng rằng quyền sở hữu là một sáng tạo của pháp luật dẫn đến việc mở ra một lĩnh vực không giới hạn cho những người không tưởng muốn mô hình hóa xã hội theo kế hoạch của họ.
 
-Ở đây, Bastiat đồng nhất mình với di sản của các Physiocrats, và hơn thế nữa, với truyền thống triết học pháp luật của Cicero và Aristotle. Pháp luật không tạo ra quyền lợi. Sứ mệnh của nó là bảo vệ chúng và do đó bảo vệ tài sản, cả tài sản của bản thân, tính toàn vẹn của con người, và tài sản từ công sức lao động của một người.
+Trong hệ thống tự do tự nhiên, tồn tại một luật tự nhiên, độc lập với sự thay đổi của các nhà lập pháp. Nó có giá trị cho tất cả mọi người và tồn tại trước bất kỳ xã hội nào. Và nhiệm vụ của chính phủ là đảm bảo quyền tự nhiên của mỗi cá nhân. Một xã hội công bằng là xã hội mà ở đó quyền sở hữu được tôn trọng hoàn toàn, tức là được bảo vệ khỏi bất kỳ sự can thiệp nào từ người khác.
 
+![image](assets/image/17/IMG6.webp)
+
+Ở đây, Bastiat đồng nhất mình với di sản của các nhà tư tưởng theo trường phái trọng nông (Physiocrats), và hơn thế nữa, với truyền thống triết học pháp luật của Cicero và Aristotle. Pháp luật không tạo ra quyền. Sứ mệnh của nó là bảo vệ chúng và do đó bảo vệ quyền sở hữu, bao gồm cả sở hữu chính bản thân, sự toàn vẹn của cá nhân, cũng như quyền sở hữu thành quả lao động của mình.
+
+![image](assets/image/17/IMG7.webp)
 _(Cicero)_
 
-## Legal Plunder: A Perversion of the Law
+## Sự tước đoạt hợp pháp: Sự đồi truỵ của pháp luật
 
 <chapterId>b4122847-e477-578e-ba34-d35844ac4715</chapterId>
 
-Ý tưởng chính của Bastiat trong "The Law", cuốn sách nổi tiếng của ông được xuất bản năm 1850, là để chỉ ra tại sao và làm thế nào pháp luật đã trở thành việc cướp bóc, tức là nguồn gốc của đặc quyền, thu nhập tình thế, và sự tùy tiện về thuế.
+Ý tưởng chính của Bastiat trong "The Law", cuốn sách nổi tiếng của ông được xuất bản năm 1850, là để chỉ ra lý do và cách thức mà pháp luật đã trở thành công cụ tước đoạt, tức là nguồn gốc của đặc quyền, của lợi ích, và sự tùy tiện về thuế.
 
 Bản chất thực sự của pháp luật là gì?
 
-Bastiat bắt đầu bằng cách đặt nền tảng nhân loại học tự nhiên của pháp luật: cuộc sống, tự do và tài sản.
+Bastiat bắt đầu bằng cách thiết lập các nền tảng nhân học tự nhiên của pháp luật: sự sống, tự do và quyền sở hữu.
 
-Hệ thống tự do tự nhiên là hệ thống mà xã hội, cá nhân và tài sản tồn tại trước pháp luật. Trong hệ thống này, Bastiat thêm vào:
-Không phải vì có luật mà có tài sản, mà vì có tài sản nên mới có luật.
+Hệ thống tự do tự nhiên là hệ thống mà xã hội, cá nhân và quyền sở hữu tồn tại trước khi tồn tại pháp luật. Trong hệ thống này, Bastiat thêm vào:
+> Không phải vì có luật mà có quyền sở hữu, mà vì có quyền sở hữu nên mới có luật.
 
 ![image](assets/image/18/IMG2.webp)
 
-Mỗi người đều được phép bảo vệ cuộc sống của mình và sử dụng khả năng của mình. Và luật là tổ chức tập thể của việc bảo vệ hợp pháp này. Luật bảo vệ công lý. Không phải là công lý tích cực mà sẽ tổ chức tình anh em và tình đoàn kết, mà là công lý tiêu cực chỉ giới hạn ở việc ngăn chặn quyền của một người chiếm đoạt quyền của người khác.
+Mỗi người đều được phép bảo vệ cuộc sống của mình và sử dụng các năng lực của mình. Và pháp luật là tổ chức tập thể của sự phòng vệ hợp pháp này. Pháp luật bảo vệ công lý. Không phải là công lý tích cực, thứ tổ chức nên tình anh em và tình đoàn kết, mà là công lý tiêu cực, nhằm ngăn chặn quyền của một người xâm phạm quyền của người khác.
 
-Tuy nhiên, khi luật không còn là tiêu cực mà trở nên tích cực, cảm giác bất bình đẳng trong xã hội tăng lên và tạo ra xung đột. Nếu chúng ta mở rộng vô hạn lĩnh vực của Luật, tức là trách nhiệm của chính phủ, chúng ta mở cửa cho "một chuỗi không kết thúc của những lời than phiền, hận thù, rối loạn và nổi loạn," ông viết.
+Tuy nhiên, khi luật không còn là tiêu cực mà trở nên tích cực, cảm giác bất bình đẳng trong xã hội tăng lên và tạo ra xung đột. Nếu chúng ta mở rộng vô hạn phạm vi của pháp luật, tức là trách nhiệm của chính phủ, chúng ta mở ra "một chuỗi không kết thúc của những lời than phiền, hận thù, rối loạn và nổi dậy," ông viết.
 
-Lòng nhân ái giả tạo, Bastiat nói, là một trong những nguyên nhân chính của sự biến chất của luật. Một số người tự coi mình cao hơn phần còn lại của nhân loại và có khả năng đưa ra lựa chọn tốt hơn người khác.
+Lòng nhân ái giả tạo, Bastiat nói, là một trong những nguyên nhân chính dẫn đến sự biến chất của pháp luật. Một số người tự coi mình cao hơn phần còn lại của nhân loại và có khả năng đưa ra lựa chọn tốt hơn người khác.
 
 ![image](assets/image/18/IMG4.webp)
-Họ biết tốt hơn điều gì tốt cho người khác và sẽ áp đặt quan niệm về điều tốt đẹp lên mọi người; những người này là những nhà từ thiện. Họ đã tạo ra những quyền giả mạo mà ngày nay được gọi là quyền xã hội. Quyền xã hội không gì khác hơn là quyền trên lao động của người khác, quyền sử dụng tài sản của mình, sản phẩm của lao động của mình: quyền về nhà ở, quyền về sức khỏe, giáo dục, làm việc, lương tối thiểu, v.v.
+Họ biết rõ hơn điều gì tốt cho người khác và sẽ áp đặt quan điểm của họ về cái thiện lên tất cả mọi người, đó là những nhà nhân ái. Họ đã tạo ra những quyền giả mạo mà ngày nay được gọi là quyền xã hội. Quyền xã hội không gì khác hơn là quyền trên lao động của người khác, quyền sử dụng tài sản của một người, thành quả lao động của một người: quyền về nhà ở, quyền về sức khỏe, giáo dục, làm việc, lương tối thiểu, v.v.
 
-Cướp bóc là gì? Đó là điều hoàn toàn ngược lại với tài sản, Bastiat cho chúng ta biết. Cướp bóc xuất phát từ từ Latin spoliare, nghĩa là lột trần. Chúng ta đã thấy rằng con người chỉ có thể sống bằng cách chiếm đoạt vật thể, bằng cách áp dụng khả năng của mình vào vật thể, tức là bằng cách làm việc. Thật không may, anh ta cũng có thể chiếm đoạt sản phẩm của khả năng của đồng loại, tức là cướp bóc họ.
+Cướp bóc là gì? Đó là điều hoàn toàn ngược lại với quyền sở hữu, Bastiat cho chúng ta biết. Cướp bóc xuất phát từ "spoliare", đến từ Latinh, nghĩa là lột trần. Chúng ta đã thấy rằng con người chỉ có thể sống bằng cách chiếm hữu các vật phẩm, bằng cách áp dụng năng lực của mình lên các vật phẩm, tức là bằng cách làm việc. Thật không may, anh ta cũng có thể chiếm đoạt thành quả từ năng lực làm việc của đồng loại, tức là cướp bóc họ.
 
 ![image](assets/image/18/IMG5.webp)
 
-Toàn bộ sứ mệnh của luật là ngăn chặn cướp bóc ngoài pháp luật, tức là bảo vệ tài sản và tự do, hai thứ không thể tách rời.
+Toàn bộ sứ mệnh của pháp luật là ngăn chặn cướp bóc ngoài phạm vi pháp luật, tức là bảo vệ quyền sở hữu và tự do, hai thứ không thể tách rời.
 
-Ngay khi nó được thừa nhận nguyên tắc rằng luật có thể bị lệch khỏi sứ mệnh thực sự của mình, rằng nó có thể vi phạm tài sản thay vì bảo đảm chúng, một cuộc đấu tranh giai cấp là điều tất yếu, hoặc để bảo vệ chống lại việc cướp bóc hoặc để tổ chức nó cũng vì lợi ích của mình.
+Ngay khi chúng ta chấp nhận nguyên tắc rằng pháp luật có thể bị trệch khỏi sứ mệnh thực sự của mình, rằng nó có thể vi phạm quyền sở hữu thay vì bảo đảm chúng, một cuộc đấu tranh giai cấp là điều tất yếu, hoặc là để bảo vệ chống lại sự cướp bóc hoặc để tổ chức nó cũng vì lợi ích của mình.
 
 ![image](assets/image/18/IMG6.webp)
 
-Thay vì bảo vệ quyền tự nhiên, luật biến thành bảo vệ lợi ích của các công ty và nhóm ngành. Cướp bóc được tổ chức bởi luật, vì lợi ích của các lớp người tạo ra nó và bạn bè hoặc khách hàng của họ. Bastiat như vậy dự đoán trường phái lựa chọn công cộng trong thế kỷ 20, cho rằng luật là kết quả của một "thị trường chính trị" mà qua đó các nhóm cá nhân tìm cách thỏa mãn lợi ích của mình trên lưng người khác.
+Thay vì bảo vệ quyền tự nhiên, pháp luật biến thành bảo vệ lợi ích của tập thể và các nhóm. Cướp bóc được tổ chức bởi pháp luật, vì lợi ích của các lớp người tạo ra nó và bạn bè hoặc khách hàng của họ. Bastiat như vậy dự đoán trường phái lựa chọn công cộng trong thế kỷ 20, cho rằng pháp luật là kết quả của một "thị trường chính trị" mà qua đó các nhóm người tìm cách thỏa mãn lợi ích của mình trên sự tổn thất của người khác.
 
 ![image](assets/image/18/IMG7.webp)
 
-Đối với ông, mục đích của Luật chỉ đơn giản là "chấm dứt mọi hình thức cướp bóc." Nếu Nhà nước không can thiệp vào đời sống tư nhân, cá nhân thực sự là chủ sở hữu và chịu trách nhiệm về cuộc sống của họ. Họ tự tạo ra hạnh phúc của mình. Họ chịu hậu quả tốt hay xấu của hành động của mình.
+Đối với ông, mục đích của Luật chỉ đơn giản là "chấm dứt mọi hình thức cướp bóc." Nếu Nhà nước không can thiệp vào đời sống tư nhân, cá nhân thực sự là chủ sở hữu và chịu trách nhiệm về cuộc sống của họ. Họ tự tạo ra hạnh phúc của mình. Họ chịu hậu quả, dù tốt hay xấu, từ hành động của mình.
 
-Họ chắc chắn rằng quyền tự nhiên của họ được bảo đảm và không thể xâm phạm. Quyền sở hữu an toàn cho phép mọi người lập kế hoạch dài hạn vì họ biết tài sản của họ được bảo vệ khỏi việc bị cướp bóc.
+Họ chắc chắn rằng quyền tự nhiên của họ được bảo đảm và không thể bị xâm phạm. Quyền sở hữu an toàn cho phép mọi người lập kế hoạch dài hạn vì họ biết tài sản của họ được bảo vệ khỏi việc bị tước đoạt.
 
-> Vắng bóng Cướp bóc, — đó là nguyên tắc của công lý, hòa bình, trật tự, ổn định, hòa giải, lẽ thường mà tôi sẽ tuyên bố với tất cả sức mạnh, thật không may! không đủ, của phổi tôi, cho đến hơi thở cuối cùng của mình.
-> Bastiat đã viết trong "The Law", một thời gian trước khi ông qua đời. Một thế kỷ sau cái chết của Frédéric Bastiat, việc cướp bóc pháp lý rõ ràng được thể hiện trong Tuyên ngôn Quyền con người Toàn cầu năm 1948, đặc biệt là trong các điều khoản 22 ("mọi người đều có quyền được an sinh xã hội"), 23 ("mọi người đều có quyền làm việc"), 24 ("mọi người đều có quyền nghỉ ngơi và giải trí"), 25 ("mọi người đều có quyền có một mức sống đủ đảm bảo sức khỏe và hạnh phúc"), 26 ("mọi người đều có quyền được giáo dục").
+> Vắng bóng cướp bóc, — đó là nguyên tắc của công lý, hòa bình, trật tự, ổn định, hòa giải, và lẽ thường mà tôi sẽ tuyên bố với tất cả sức lực, thật không may! quá ít ỏi, của phổi tôi, cho đến hơi thở cuối cùng của mình.
+> Bastiat đã viết trong "The Law", một thời gian trước khi ông qua đời.
+Một thế kỷ sau cái chết của Frédéric Bastiat, việc cướp bóc bằng pháp luật rõ ràng được thể hiện trong Tuyên ngôn Quyền con người Toàn cầu năm 1948, đặc biệt là trong các điều khoản 22 ("mọi người đều có quyền được an sinh xã hội"), 23 ("mọi người đều có quyền làm việc"), 24 ("mọi người đều có quyền nghỉ ngơi và giải trí"), 25 ("mọi người đều có quyền có một mức sống đủ đảm bảo sức khỏe và hạnh phúc"), 26 ("mọi người đều có quyền được giáo dục").
 
-## Vai trò của Luật pháp và Nhà nước
+## Vai trò của pháp luật và Nhà nước
 
 <chapterId>52258229-7c7c-592b-aa27-203b03aa41c9</chapterId>
 
 ![video](https://youtu.be/YffrxCE5xmc?si=HPLmL9YSnHIQGNNa)
 
-Năm 1848, Bastiat là một đại biểu. Ông được bổ nhiệm làm phó chủ tịch ủy ban tài chính. Do đó, ông đặc biệt được đặt vào vị trí để trả lời câu hỏi này: Nhà nước là gì? Chúng ta quay lại Nhà nước để đảm bảo sự an lành của mình. Nhưng Bastiat nhắc nhở chúng ta rằng Nhà nước không thể cho công dân bất cứ thứ gì mà trước đó nó không lấy từ họ.
+Năm 1848, Bastiat là một nghị sĩ. Ông được bổ nhiệm làm phó chủ tịch ủy ban tài chính. Do đó, ông đặc biệt có vị trí tốt để trả lời câu hỏi này: Nhà nước là gì? Chúng ta cần Nhà nước đảm bạo sự thịnh vượng của mình. Nhưng Bastiat nhắc nhở chúng ta rằng Nhà nước không thể cho công dân bất cứ thứ gì mà nó không trước tiên lấy từ họ.
 
-Bastiat bắt đầu bằng cách lật ngược một phương trình được chấp nhận phổ biến: đó là Nhà nước nuôi dưỡng quốc gia. Tuy nhiên, Nhà nước không thể nuôi dưỡng công dân vì nó không sản xuất ra của cải; nó chỉ di chuyển, phân phối lại của cải. Ngược lại, chính công dân nuôi dưỡng Nhà nước thông qua việc tạo ra của cải.
+Bastiat bắt đầu bằng cách lật ngược một phương trình được chấp nhận phổ biến: đó là Nhà nước nuôi dưỡng đất nước. Tuy nhiên, Nhà nước không thể nuôi dưỡng công dân vì nó không sản xuất ra của cải; nó chỉ di chuyển, phân phối lại của cải. Ngược lại, chính công dân nuôi dưỡng Nhà nước thông qua việc tạo ra của cải.
 
 ![image](assets/image/19/IMG2.webp)
 
-Hơn nữa, chính bản thân Nhà nước không tồn tại; chỉ có những con người tạo nên Nhà nước, những người quản lý, điều hành, sống trực tiếp hoặc gián tiếp từ Nhà nước. Do đó, những người quản lý Nhà nước giống như những người khác; họ tìm cách thỏa mãn lợi ích cá nhân của mình.
+Hơn nữa, về bản chất Nhà nước không tồn tại; chỉ có những con người tạo nên Nhà nước, những người quản lý, điều hành, sống trực tiếp hoặc gián tiếp từ Nhà nước. Do đó, những người quản lý Nhà nước cũng giống như những người khác; họ tìm cách thỏa mãn lợi ích cá nhân của mình.
 
 ![image](assets/image/19/IMG3.webp)
 
-Và vì hành động của Nhà nước hoàn toàn là tái phân phối, nó chịu sức ép từ các nhóm lợi ích đặc biệt. Thực vậy, một số nhóm lợi ích đặc biệt đã hiểu rằng kiếm tiền thông qua hoạt động chính trị dễ dàng hơn là thông qua các hành vi sản xuất. Họ tìm cách cướp tiền của người khác dưới danh nghĩa Nhà nước, làm suy yếu khả năng sản xuất của thị trường thông qua việc nhân lên các luật lệ, thuế và ràng buộc hành chính.
+Và vì hành động của Nhà nước hoàn toàn là tái phân phối, nó chịu sức ép từ các nhóm lợi ích đặc biệt. Thực vậy, một số nhóm lợi ích đặc biệt đã nhận ra rằng kiếm tiền thông qua hoạt động chính trị dễ dàng hơn là thông qua các hoạt động sản xuất. Họ tìm cách cướp tiền của người khác dưới danh nghĩa Nhà nước, làm suy yếu khả năng sản xuất của thị trường thông qua việc gia tăng luật pháp, thuế và các ràng buộc hành chính.
 
 ![image](assets/image/19/IMG4.webp)
 
-Nói cách khác, Nhà nước chỉ theo đuổi mục tiêu của khách hàng, và khái niệm về lợi ích chung không có ý nghĩa. Bất kỳ lợi ích nào mà một số người đạt được đều ở chi phí của người khác: đây không phải là trò chơi tổng không thay đổi mà là trò chơi tổng âm.
+Nói cách khác, Nhà nước chỉ theo đuổi mục tiêu thiên lệch của các nhóm "khách hàng" khác nhau, và khái niệm về lợi ích chung không có ý nghĩa. Bất kỳ lợi ích nào mà một số người đạt được đều có được từ chi phí của người khác phải chịu: đây không phải là trò chơi có tổng bằng 0, mà là trò chơi có tổng âm.
 
-Bastiat như vậy đã dự đoán, một thế kỷ trước, các phân tích về cách thức hoạt động của thị trường chính trị sẽ xuất hiện vào cuối những năm 1950 với trường phái Public Choice của James Buchanan, người đoạt giải Nobel Kinh tế, và đồng nghiệp của ông, Gordon Tullock.
+Bastiat đã dự đoán trước một thế kỷ trước về các phân tích về hoạt động của thị trường chính trị sẽ xuất hiện vào cuối những năm 1950 với trường phái lựa chọn công cộng (Public Choice School) của James Buchanan, người đoạt giải Nobel Kinh tế, và đồng nghiệp của ông, Gordon Tullock.
 ![image](assets/image/19/IMG5.webp)
 ![image](assets/image/19/IMG6.webp)
 
-Hơn nữa, Bastiat khẳng định, Nhà nước không có quyền gì không trước tiên tồn tại ở cá nhân. Tại sao Nhà nước có quyền đảm bảo, ngay cả bằng vũ lực, tài sản của mỗi cá nhân? Đơn giản vì quyền này tồn tại trước trong cá nhân. Không thể phủ nhận cá nhân quyền tự vệ, quyền sử dụng vũ lực nếu cần thiết để đẩy lùi các cuộc tấn công chống lại bản thân họ, khả năng của họ và tài sản của họ. Quyền tự vệ tự nhiên này, tồn tại ở tất cả công dân, có thể nhận một hình thức tập thể và hợp pháp hóa lực lượng chung.
-Vì vậy, để biết liệu Nhà nước có được trao quyền một cách hợp pháp hay không, người ta phải hỏi liệu quyền này có tồn tại ở cá nhân do tổ chức của họ và trong trường hợp không có chính phủ hay không.
+Hơn nữa, Bastiat khẳng định, Nhà nước không có quyền nào mà trước đó không tồn tại ở dạng quyền cá nhân. Tại sao Nhà nước có quyền đảm bảo, ngay cả bằng vũ lực, quyền sở hữu của mỗi cá nhân? Đơn giản là vì quyền này tồn tại trước trong mỗi cá nhân. Không thể phủ nhận quyền tự vệ chính đáng của các cá nhân, quyền sử dụng vũ lực nếu cần thiết để chống lại các cuộc tấn công nhằm vào con người, khả năng của họ và tài sản của họ. Quyền tự vệ tự nhiên này, tồn tại ở tất cả công dân, có thể có một hình thức tập thể và hợp pháp hóa sức mạnh chung.
+Vì vậy, để biết liệu Nhà nước có được trao quyền một cách hợp pháp hay không, người ta phải hỏi liệu quyền này có tồn tại ở cá nhân theo cách tổ chức của họ và trong trường hợp không có chính phủ hay không.
 Đó là lý do tại sao Nhà nước không thể trong bất kỳ trường hợp nào xâm phạm quyền tự nhiên; ngược lại, nó phải đảm bảo chúng.
 
 ![hình ảnh](assets/image/19/IMG7.webp)
 
-Nó đảm bảo An ninh, cả nội bộ và bên ngoài, và Công lý. Nó có thể mạnh mẽ và hiệu quả trong lĩnh vực của mình. Nhưng luật pháp không thể bước ra ngoài vai trò hết sức nghiêm ngặt này vì khi đó nó trở thành công cụ của việc cướp bóc từ người này cho lợi ích của người khác. Khi Luật pháp bị bóp méo, nó hoạt động như một công cụ của bất công. Sự bóp méo của luật pháp luôn dẫn đến việc cướp bóc, như chúng ta đã thấy trong khóa học trước. Điều này là tức thì, tự động, không thể tránh khỏi, và chắc chắn. Việc đưa luật pháp ra khỏi lĩnh vực của mình chỉ có thể xâm phạm quyền tự nhiên. Xã hội dân sự sau đó bị tước bỏ quyền lực của mình (các tổ chức tự nhiên, hợp đồng, giao dịch, hiệp hội) để ưu tiên cho quản lý nhà nước, tức là quản lý kỹ thuật và quan liêu.
+Nó đảm bảo An ninh, cả nội bộ và bên ngoài, và công lý. Nó có thể mạnh mẽ và hiệu quả trong lĩnh vực của mình. Nhưng luật pháp không thể bước ra ngoài vai trò hết sức nghiêm ngặt này vì khi đó nó trở thành công cụ của việc cướp bóc từ người này để phục vụ cho lợi ích của người khác. Khi luật pháp bị bóp méo và vượt ra ngoài phạm vi vai trò rất chặt chẽ nêu trên, nó sẽ trở thành công cụ của bất công. Sự bóp méo của luật pháp luôn dẫn đến sự cướp bóc, như chúng ta đã thấy trong phần học trước. Điều này là tức thì, tự động, không thể tránh khỏi, và chắc chắn. Việc đưa luật pháp ra khỏi lĩnh vực của mình chỉ làm tổn hại đến quyền tự nhiên. Xã hội dân sự sau đó bị tước bỏ quyền lực của mình (các tổ chức tự nhiên, hợp đồng, giao dịch, hiệp hội) để ưu tiên cho quản lý nhà nước, tức là quản lý kỹ trị và quan liêu.
 
 ![hình ảnh](assets/image/19/IMG8.webp)
 
-Kết quả là, theo Bastiat, chỉ có ba dịch vụ công cộng hợp pháp của Nhà nước: quân đội, cảnh sát và tư pháp. Nói cách khác, Nhà nước phải đảm bảo bảo vệ nội bộ và bên ngoài cho cá nhân, tự do và tài sản của họ. Vì vậy, là điều bình thường khi mọi người đóng góp vào sự bảo vệ này. Tuy nhiên, ngoài những chức năng hợp pháp này, bất kỳ đóng góp nào khác cho dịch vụ khác do Nhà nước cung cấp đều phải được xem xét kỹ lưỡng.
+Kết quả là, theo Bastiat, chỉ có ba dịch vụ công hợp pháp của Nhà nước là: quân đội, cảnh sát và tư pháp. Nói cách khác, Nhà nước phải đảm bảo bảo vệ nội bộ và bên ngoài cho cá nhân, tự do và tài sản của họ. Vì vậy, là điều bình thường khi mọi người đóng góp vào sự bảo vệ này. Tuy nhiên, ngoài những chức năng hợp pháp này, bất kỳ sự đóng góp nào khác cho dịch vụ khác do Nhà nước cung cấp đều phải được xem xét kỹ lưỡng.
 
-> Ngoài vòng tròn này, Bastiat viết, tôn giáo, giáo dục, hiệp hội, lao động, giao dịch, mọi thứ thuộc về lĩnh vực hoạt động tư nhân, dưới sự giám sát của cơ quan công quyền, chỉ nên có nhiệm vụ giám sát và trừng phạt.
+> Ngoài vòng tròn này, Bastiat viết, tôn giáo, giáo dục, hiệp hội, lao động, thương mại, tất cả thuộc về lĩnh vực hoạt động tư nhân, dưới sự giám sát của cơ quan công quyền, ở đó họ chỉ nên có nhiệm vụ giám sát và trừng phạt.
 
-Về dịch vụ công, ông đưa ra một nguyên tắc đơn giản:
+Về các dịch vụ công, ông đưa ra một nguyên tắc đơn giản:
 Nếu bạn muốn tạo ra một chức năng, hãy chứng minh tính hữu ích của nó. Chứng minh rằng nó xứng đáng với các dịch vụ mà nó cung cấp, tương đương với chi phí của nó. Do đó, ông kết luận, hợp lý khi chỉ giao cho khu vực công những gì khu vực tư nhân hoàn toàn không thể thực hiện được.
 
 Tóm lại, khi một chính phủ vượt quá sứ mệnh bảo vệ người dân và tài sản, nó khuyến khích các nhóm lợi ích tìm kiếm đặc quyền và ảnh hưởng đến quyền lực để nhận được lợi ích từ người nộp thuế và người tiêu dùng.
 
-> Nhà nước là một huyền thoại lớn mà qua đó mọi người cố gắng sống nhờ vào người khác.
+> Nhà nước là sự ảo tưởng lớn lớn, qua đó mọi người cố gắng sống dựa trên chi phí mà người khác phải trả.
 
-Frédéric Bastiat đã viết trong một cuốn sách nhỏ có tựa đề Nhà nước.
+Frédéric Bastiat đã viết trong một cuốn sách nhỏ có tựa đề "Nhà nước - The State".
 
 ![hình ảnh](assets/image/19/IMG9.webp)
 
@@ -1035,25 +1043,25 @@ Frédéric Bastiat đã viết trong một cuốn sách nhỏ có tựa đề Nh
 
 Ảnh hưởng của Bastiat bắt đầu suy giảm vào cuối thế kỷ 19, với sự trỗi dậy của chủ nghĩa xã hội và đặc biệt là chủ nghĩa Marx trong các trường đại học và viện nghiên cứu, được tài trợ bằng tiền công.
 
-Với thế kỷ 20, kiến thức và sự nổi tiếng của Bastiat biến mất. Ông không còn được nhắc đến trong sách giáo khoa kinh tế. Phải đến sau Thế chiến II, sự quan tâm mới đối với ý tưởng về tự do, rõ ràng đã bị lãng quên với Roosevelt và các chế độ toàn trị ở Châu Âu, mới xuất hiện trở lại. Một trong những kiến trúc sư của sự hồi sinh này là nhà kinh tế học người Áo Ludwig von Mises, một trong nhiều trí thức châu Âu đã chạy trốn khỏi châu Âu qua Tây Ban Nha và Bồ Đào Nha để đến Mỹ.
-Định cư tại New York vào năm 1943, Mises đã tổ chức các hội thảo thu hút những tâm hồn xuất sắc: George Stigler, Milton Friedman, cả hai sau này đều là những người đoạt giải Nobel, và Murray Rothbard, khi đó là sinh viên tại Columbia. Chính trong những hội thảo này, ông lần đầu tiên nhắc đến Bastiat như một trong những tài liệu tham khảo chính của chủ nghĩa tự do cổ điển. Ông đã giới thiệu cho người nghe các cuốn sách nhỏ của Bastiat, "The Law" và "The State", khi đó chưa được dịch sang tiếng Anh. Vào năm 1953, một trong những người tham gia hội thảo, Leonard Read, đã cho dịch "The Law" của Bastiat sang tiếng Anh và đảm nhận nhiệm vụ phân phối cuốn sách khắp đất nước thông qua quỹ của mình: Quỹ Giáo Dục Kinh Tế.
+Bước sang thế kỷ 20, kiến thức và sự nổi tiếng của Bastiat biến mất. Ông không còn được nhắc đến trong sách giáo khoa về kinh tế. Phải đến sau Thế chiến II, sự quan tâm mới đối với ý tưởng về tự do, vốn đã bị lãng quên dưới thời Roosevelt và các chế độ toàn trị ở Châu Âu, mới xuất hiện trở lại. Một trong những kiến trúc sư của sự hồi sinh này là nhà kinh tế học người Áo Ludwig von Mises, một trong nhiều trí thức châu Âu đã chạy trốn khỏi châu Âu qua Tây Ban Nha và Bồ Đào Nha để đến Mỹ.
+Định cư tại New York vào năm 1943, Mises đã tổ chức các hội thảo thu hút những bộ óc kiệt xuất: George Stigler, Milton Friedman, cả hai sau này đều là những người đoạt giải Nobel, và Murray Rothbard, khi đó là sinh viên tại Columbia. Chính trong những hội thảo này, ông lần đầu tiên nhắc đến Bastiat như một trong những nguồn tham khảo chính của chủ nghĩa tự do cổ điển. Ông đã giới thiệu cho người nghe các cuốn sách nhỏ của Bastiat, "The Law" và "The State", khi đó chưa được dịch sang tiếng Anh. Vào năm 1953, một trong những người tham gia hội thảo, Leonard Read, đã cho dịch "The Law" của Bastiat sang tiếng Anh và đảm nhận nhiệm vụ phân phối cuốn sách khắp đất nước thông qua quỹ của mình: Quỹ giáo dục kinh tế - Foundation for Economic Education.
 
-Nhưng người cũng phổ biến các luận điểm của Frédéric Bastiat là một nhà bình luận kinh tế cho New York Times, Henry Hazlitt, trong một cuốn sách nhỏ có tên: "Economics in One Lesson," xuất bản năm 1946. Rõ ràng rút ra từ ý tưởng của Bastiat, mục tiêu của ông là chứng minh rằng vấn đề với các giải pháp kinh tế của nhà nước là sự thất bại trong việc xem xét những hậu quả tai hại lâu dài của chúng.
+Nhưng một người khác cũng đãcphổ biến các luận điểm của Frédéric Bastiat là một nhà bình luận kinh tế cho New York Times, Henry Hazlitt, trong một cuốn sách nhỏ có tên: "Economics in One Lesson," xuất bản năm 1946. Rõ ràng là Hazlitt đã rút ra từ ý tưởng của Bastiat, nhằm chứng minh rằng vấn đề với các giải pháp kinh tế của nhà nước là họ thất bại trong việc xem xét những hậu quả tai hại lâu dài của chúng.
 
 Hazlitt bắt đầu cuốn sách của mình bằng cách kể lại câu chuyện về cửa sổ bị vỡ của Bastiat. Ông tóm tắt câu chuyện trong một bài học đơn giản và độc đáo:
 
-> Nghệ thuật của kinh tế học bao gồm việc nhìn không chỉ vào hiệu quả ngay lập tức mà còn ở những tác động lâu dài của bất kỳ hành động hoặc chính sách nào; nó bao gồm việc truy tìm hậu quả của chính sách đó không chỉ cho một nhóm mà cho tất cả các nhóm.
+> Nghệ thuật của kinh tế học bao gồm việc nhìn không chỉ vào hiệu ứng trước mắt mà còn ở những tác động lâu dài của bất kỳ hành động hoặc chính sách nào; nó bao gồm việc theo dõi hậu quả của chính sách đó không chỉ cho một nhóm mà cho tất cả các nhóm.
 
 Sau đó, Hazlitt áp dụng bài học này vào một loạt các vấn đề kinh tế: kiểm soát giá thuê nhà, luật lương tối thiểu, lợi ích giả định của chiến tranh, công trình công cộng và thâm hụt ngân sách, lạm phát tiền tệ, thuế quan và cuối cùng là tiết kiệm.
 
-Bastiat là một trong những nhà kinh tế học yêu thích của Ronald Reagan, lâu trước khi ông được bầu làm tổng thống. Điều này ít được biết đến, nhưng trong tám năm, Reagan đã làm việc cho công ty General Electric với tư cách là người dẫn chương trình truyền hình của họ trên CBS, và là người chịu trách nhiệm về chương trình đào tạo nhân viên của công ty. Chương trình đào tạo của ông được xây dựng quanh các văn bản giới thiệu về nền kinh tế thị trường. Các tác phẩm được chọn là của hai người Áo, Hayek và Mises, hai người Anh, Cobden và Bright, và một người Pháp, Frédéric Bastiat.
+Bastiat là một trong những nhà kinh tế học yêu thích của Ronald Reagan, từ rất lâu trước khi ông được bầu làm tổng thống. Điều này ít được biết đến, nhưng trong tám năm, Reagan đã làm việc cho công ty General Electric với tư cách là người dẫn chương trình truyền hình của họ trên CBS, và là người chịu trách nhiệm về chương trình đào tạo nhân viên của công ty. Chương trình đào tạo của ông được xây dựng quanh các văn bản giới thiệu về nền kinh tế thị trường. Các tác phẩm được chọn là của hai người Áo, Hayek và Mises, hai người Anh, Cobden và Bright, và một người Pháp, Frédéric Bastiat.
 
-Bài học mà Reagan dạy cho nhân viên của mình, theo Bastiat, là không có huyền thoại nào lớn hơn việc kích thích tăng trưởng và việc làm thông qua chi tiêu công.
+Bài học mà Reagan dạy cho nhân viên của mình, theo Bastiat, là không có ảo tưởng nào lớn hơn việc kích thích tăng trưởng và việc làm thông qua chi tiêu công.
 
-Đặc biệt, John Maynard Keynes đã đề xuất rằng chi tiêu công tăng sản xuất do một bội số: nếu chính phủ xây một cây cầu, những người lao động của cây cầu đó sẽ có thể mua bánh mì, sau đó người bán bánh mì có thể mua giày, và cứ thế tiếp tục. Nếu ngành công nghiệp tư nhân đang suy giảm, nó có thể được khắc phục bằng các công trình lớn. Nếu có thất nghiệp, Nhà nước có thể tạo ra việc làm công cộng.
-Nhưng như Bastiat đã minh họa một cách đúng đắn, sự can thiệp của nhà nước có những tác động xấu không được nhìn thấy. Chỉ một nhà kinh tế học giỏi mới có khả năng dự đoán chúng. Hãy lấy một ví dụ: Đó là ảo tưởng khi tin rằng chính phủ có thể "tạo ra việc làm" bởi vì cho mỗi công việc công cộng được tạo ra, nó phá hủy một công việc trong thị trường. Thực tế, công việc công cộng được trả lương bằng thuế. Công việc công cộng không được tạo ra; chúng được nhận thức. Mỗi xu tiền chi tiêu bởi Nhà nước đều phải được thu thông qua một xu thuế hoặc nợ.
-Nếu nhìn nhận vấn đề từ góc độ này, Reagan giải thích với các nhân viên của GE, những điều được gọi là phép màu của chi tiêu nhà nước xuất hiện dưới một ánh sáng hoàn toàn khác. Bởi vì thuế khuyến khích sản xuất, và tài sản được tạo ra bởi chi tiêu công cộng không thể hoàn toàn bù đắp cho những cái đã bị ngăn cản không được sinh ra do thuế được đánh để trả cho những chi phí này.
+Đặc biệt, John Maynard Keynes đã đề xuất rằng chi tiêu công làm gia tăng sản lượng theo hệ số nhân: nếu chính phủ xây một cây cầu, những người lao động của cây cầu đó sẽ có thể mua bánh mì, sau đó người bán bánh mì có thể mua giày, và cứ thế tiếp tục. Nếu ngành công nghiệp tư nhân đang suy giảm, nó có thể được khắc phục bằng các công trình lớn. Nếu có thất nghiệp, Nhà nước có thể tạo ra việc làm trong khu vực công.
+Nhưng như Bastiat đã minh họa một cách đúng đắn, sự can thiệp của nhà nước có những tác động xấu không được nhìn thấy. Chỉ một nhà kinh tế học giỏi mới có thể dự đoán chúng. Hãy lấy một ví dụ: Đó là ảo tưởng khi tin rằng chính phủ có thể "tạo ra việc làm" bởi vì cho mỗi công việc thuộc khu vực công được tạo ra, nó phá hủy một công việc trong thị trường. Thực tế, công việc công được trả lương bằng thuế. Công việc công không được tạo ra; chúng được nhận thức. Mỗi đồng xu được chi tiêu bởi Nhà nước đều phải được thu thông qua một đồng xu thuế hoặc nợ.
+Nếu nhìn nhận vấn đề từ góc độ này, Reagan giải thích với các nhân viên của GE, những điều được gọi là phép màu của chi tiêu nhà nước xuất hiện dưới một ánh sáng hoàn toàn khác. Bởi vì thuế làm giảm sản xuất, và tài sản được tạo ra bởi chi tiêu công không thể hoàn toàn bù đắp cho những gì bị ngăn chặn bởi các khoản thuế được thu để tài trợ cho các khoản chi tiêu này.
 ![image](assets/image/20/IMG10.webp)
 
-Về bản chất, Reagan đã lấy từ Bastiat một số yếu tố chính của một tầm nhìn tự do về xã hội và con người: sự ưu tiên của xã hội dân sự so với Nhà nước, giá trị của sự lựa chọn và trách nhiệm cá nhân, tầm quan trọng của doanh nhân trong việc tạo ra tài sản, tầm quan trọng của một khung pháp lý linh hoạt và tối thiểu, cho phép sự tin tưởng và tôn trọng các hợp đồng, luật cơ bản rằng tài sản phải được tạo ra trước khi nó có thể được phân phối, mong muốn cho mọi người một cơ hội trong thị trường cạnh tranh...
+Về bản chất, Reagan đã lấy từ Bastiat một số yếu tố then chốt của một tầm nhìn tự do về xã hội và con người: ưu tiên hơn vai trò của xã hội dân sự so với Nhà nước, giá trị của sự lựa chọn và trách nhiệm cá nhân, tầm quan trọng của doanh nhân trong việc tạo ra của cải, vật chất, tầm quan trọng của một khung pháp lý linh hoạt và tối thiểu, để tạo niềm tin và sự tôn trọng đối với các hợp đồng, quy luật cơ bản rằng của cải phải được tạo ra trước khi nó có thể được phân phối, mong muốn mang lại cho mọi người một cơ hội trong thị trường cạnh tranh...
 

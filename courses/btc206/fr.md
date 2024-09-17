@@ -14,7 +14,7 @@ objectives:
 La pérennité d'Ordinals n'est pas garantie. Ce protocole pourrait devenir obsolète à long terme.  
 Ceci reste une expérimentation en version bêta (au 01/09/24), précédemment en phase alpha jusqu'au 25/06/24, et peut donc subir des modifications majeures.
 
-La version actuelle est : `ord 0.19.1`.
+Ce cours est écrit avec la version : `ord 0.19.1`.
 
 Étant donné la nouveauté du protocole, il n'existe pas encore de spécialistes formés sur ce sujet. J'ai découvert Ordinals en février 2023 et je suis simplement un explorateur de ce protocole.
 
@@ -149,6 +149,8 @@ Avec la possibilité d'inscrire n'importe quel format MIME, on peut stocker sur 
 Pour des exemples concrets, voir l'article [{In-On}-Chain](https://6120.eu/posts/in-on-chain/). Un exemple notable est l'inscription 466 : [Yet Another Doom Clone](https://ordinals.com/content/521f8eccffa4c41a3a7728dd012ea5a4a02feed81f41159231251ecf1e5c79dai0), qui est un jeu codé entièrement en HTML, assurant que DOOM reste toujours accessible via Bitcoin. Le code source est disponible sur [Inscription #466 | Ordiscan](https://ordiscan.com/inscription/466), en cliquant sur **view source code** en haut de la fenêtre d'affichage.
 
 Pour voir le nombre d'inscriptions par type MIME, consultez [ordinals.com/status](https://ordinals.com/status).
+
+*Note*: Les extensions acceptées par le client `ord` actuellement sont: `apng asc avif bin binpb cbor css flac gif glb gltf html jpg js json md mp3 mp4 otf pdf png py stl svg ttf txt wav webm webp woff woff2 yaml`. 
 
 ### Activité
 

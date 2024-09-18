@@ -1,9 +1,9 @@
 ---
-name: Podróż przez Bitcoina 
-goal: Odkryj Bitcoina i jego podstawy, w tym jego propozycję wartości monetarnej, górników, transakcje i portfele.
+nazwa: Podróż przez Bitcoina 
+cel: Odkryj Bitcoina i jego podstawy, w tym jego propozycję wartości monetarnej, górników, transakcje i portfele.
 objectives:
   - Zdobądź ogólne zrozumienie technologii Bitcoin
-  - Zrozum, jak kupować i zabezpieczać bitcoiny
+  - Zrozum, jak kupować i zabezpieczać Bitcoiny
   - Zdobądź ogólne zrozumienie technologii Blockchain
   - Zapoznaj się z koncepcją Lightning Network
   - Zrozum geopolityczny i społeczny wpływ Bitcoina
@@ -11,11 +11,11 @@ objectives:
 
 # Twoja pierwsza przygoda z Bitcoinem
 
-W tym kursie wyjaśnię Bitcoin w 21 rozdziałach, abyś mógł zrozumieć tę technologię w prosty i skuteczny sposób. Kurs jest dostępny dla każdego i bada całą branżę: górników, portfele, platformy kupna/sprzedaży itp...
+W tym kursie wyjaśnię Bitcoina w 21 rozdziałach, abyś mógł zrozumieć tę technologię w prosty i skuteczny sposób. Kurs jest dostępny dla każdego i bada całą branżę: górników, portfele, platformy kupna/sprzedaży, itp...
 
 Kurs powinien zająć około 15 godzin. Na przestrzeni podróży dostępne są plakaty wyjaśniające i dodatkowe zasoby.
 
-Nie potrzebujesz żadnej specjalnej wiedzy, aby zacząć, kurs jest dostępny dla każdego!
+Nie potrzebujesz żadnej specjalistycznej wiedzy, aby zacząć - kurs jest napisany przystępnie dla każdego!
 
 +++
 

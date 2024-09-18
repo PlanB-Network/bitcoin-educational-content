@@ -204,102 +204,102 @@ Dựa trên những hiểu biết về giá trị thứ bậc chủ quan, Menger
 
 Các chương tiếp theo sẽ được dành riêng cho sự xuất hiện của tiền tệ như một thể chế xã hội, lý thuyết về vốn và lãi suất, sẽ là cơ sở cho lý thuyết chu kỳ kinh tế, và cuối cùng là vai trò của giá cả đối với tính toán kinh tế.
 
-## Sự Xuất Hiện của Tiền Tệ như một Hiện Tượng Xã Hội
+## Sự xuất hiện tiền tệ như một hiện tượng xã hội
 <chapterId>14ded794-0578-5478-ba5b-b2106c74f3ef</chapterId>
 
-Mặc dù cá nhân có một lợi ích chung trong việc chuyên môn hóa và tối đa hóa phân công lao động, vẫn còn có những vấn đề phối hợp hạn chế sự mở rộng này.
+Mặc dù các cá nhân có lợi ích chung trong việc chuyên môn hóa và tối đa hóa phân công lao động, vẫn còn có những vấn đề về phối hợp hạn chế sự mở rộng này.
 
-Đầu tiên, quan trọng là phải lưu ý rằng vì quy trình sản xuất vốn có tính thời gian và thường không đồng bộ (không cùng lúc), thường sẽ có một khoảng thời gian giữa đóng góp ban đầu của một cá nhân và việc nhận lại phần đối ứng. Cam kết vào một nhiệm vụ cụ thể bây giờ mà không có sự đảm bảo trước rằng người khác sẽ đáp ứng nhu cầu của chúng ta trong tương lai có thể rủi ro.
+Đầu tiên, điều quan trọng cần lưu ý là quy trình sản xuất vốn bị giới hạn bởi thời gian và thường không đồng bộ (không diễn ra cùng lúc), thường sẽ có sự chênh lệch giữa thời gian đóng góp ban đầu của một người và thời gian họ có thể nhận lại phần đối ứng. Tham gia vào một nhiệm vụ cụ thể ngay bây giờ mà không có sự đảm bảo trước rằng người khác sẽ đáp ứng nhu cầu của chúng ta trong tương lại là một rủi ro.
 
-Trong phân công lao động, mỗi bên đều được hưởng lợi từ sự hợp tác, nhưng cá nhân, một người có thể bị cám dỗ để tận hưởng công việc của người khác mà không đáp lại, vì cách này, họ nhận được điều gì đó có giá trị mà không phải chịu bất kỳ chi phí nào. Những tình huống, nơi mà sự hợp tác lẫn nhau dẫn đến lợi ích tối thiểu cho cá nhân nhưng lợi ích tối đa cho nhóm, được mô tả trong lý thuyết trò chơi là "bài toán tù nhân."
+Trong phân công lao động, mỗi bên đều được hưởng lợi từ sự hợp tác, nhưng cá nhân, một người có thể bị cám dỗ để hưởng lợi từ công việc của người khác mà không đáp lại, vì theo cách này, họ nhận được thứ gì đó có giá trị mà không phải chịu bất kỳ chi phí nào. Những tình huống, nơi mà sự hợp tác lẫn nhau dẫn đến lợi ích dưới mức tối ưu cho các cá nhân nhưng lợi ích tối đa cho cả nhóm, được mô tả trong lý thuyết trò chơi là "bài toán tù nhân."
 
-### Bài Toán Tù Nhân
+### Bài toán tù nhân
 
-Ban đầu, bài toán tù nhân được trình bày như sau: Hai nghi phạm, Alice và Bob, không thể giao tiếp, đối mặt với nguy cơ bị tù, với các án phạt tiềm năng như sau:
+Theo nguyên bản, bài toán tù nhân được trình bày như sau: Hai nghi phạm, Alice và Bob, không thể giao tiếp, đối mặt với nguy cơ bị tù, với các án phạt tiềm năng như sau:
 
-- Nếu Alice buộc tội Bob, và Bob giữ im lặng, Alice được tự do, và Bob nhận 3 năm.
-- Nếu cả Alice và Bob đều buộc tội lẫn nhau, họ mỗi người nhận 2 năm.
-- Nếu cả hai đều giữ im lặng, họ mỗi người nhận 1 năm.
+- Nếu Alice buộc tội Bob, và Bob giữ im lặng, Alice được tự do, và Bob nhận án phạt 3 năm.
+- Nếu cả Alice và Bob đều buộc tội lẫn nhau, mỗi người sẽ nhận án phạt 2 năm.
+- Nếu cả hai đều giữ im lặng, mỗi người nhận án phạt 1 năm.
 
 Những kết quả này có thể được biểu diễn trong một ma trận (kết quả số chỉ số năm tù):
 
-| Alice / Bob       | Buộc Tội    | Giữ Im Lặng |
+| Alice / Bob       | Buộc tội    | Giữ im lặng |
 | ----------------- | ----------- | ------------- |
-| **Buộc Tội**        | 2, 2        | 0, 3         |
-| **Giữ Im Lặng** | 3, 0        | 1, 1         |
-Trong trò chơi này, không có cơ hội nào cho việc phối hợp (giao tiếp là không thể) để đạt được kết quả tốt nhất cho cả hai bên. Do đó, Alice và Bob có động cơ cá nhân để buộc tội lẫn nhau, mặc dù điều này không dẫn đến kết quả tối ưu cho nhóm. Chiến lược tối ưu cho cả hai là giữ im lặng, mỗi người nhận một án phạt 1 năm. Trò chơi này minh họa một vấn đề thường gặp trong đời thực: trong tình trạng thiếu các cơ chế phối hợp, cá nhân thường chọn các chiến lược tối đa hóa lợi ích cá nhân của họ, bất kể chiến lược được chọn bởi người khác (trộm cắp, gian lận, phản bội, bạo lực, v.v.), ngay cả khi một trạng thái cân bằng mong muốn hơn thông qua phối hợp/hợp tác là có thể.
+| **Buộc tội**        | 2, 2        | 0, 3         |
+| **Giữ im lặng** | 3, 0        | 1, 1         |
+Trong trò chơi này, không có cơ hội cho sự phối hợp (giao tiếp là không thể) để đạt được kết quả tốt nhất cho cả hai bên. Do đó, Alice và Bob có động cơ cá nhân để buộc tội lẫn nhau, mặc dù điều này không dẫn đến kết quả tối ưu cho nhóm, cả hai sẽ bị phạt mỗi người 2 năm tù. Chiến lược tối ưu cho cả hai là giữ im lặng, mỗi người nhận một án phạt 1 năm. Trò chơi này minh họa một vấn đề thường gặp trong đời thực: trong tình trạng thiếu các cơ chế phối hợp, cá nhân thường chọn các chiến lược tối đa hóa lợi ích của cá nhân họ, bất kể chiến lược được chọn bởi người khác (trộm cắp, gian lận, phản bội, bạo lực, v.v.), ngay cả khi một trạng thái cân bằng mong muốn hơn thông qua phối hợp hoặc hợp tác là khả thi.
 
-### Tiền để Giải Quyết Vấn Đề Phối Hợp
+### Tiền được sinh ra để giải quyết vấn đề hợp tác
 
 ![image](assets/Image/17.webp)
 
-Vấn đề này ít ảnh hưởng hơn trong các cộng đồng nhỏ (ví dụ, gia đình, nhóm bạn bè) bởi vì, trong những trường hợp như vậy, mọi người đều biết nhau trực tiếp, làm cho việc nhớ đóng góp của nhau trở nên khả thi. Giả sử rằng việc rời bỏ cộng đồng (bỏ trốn) gây ra chi phí, một hệ thống danh tiếng dựa trên ký ức của các cá nhân thường đủ để tránh những rủi ro do bài toán tù nhân đặt ra.
+Vấn đề này ít ảnh hưởng hơn trong các cộng đồng nhỏ (ví dụ, gia đình, nhóm bạn bè) bởi vì, trong những trường hợp như vậy, mọi người đều trực tiếp biết nhau, làm cho việc ghi nhớ sự đóng góp của nhau trở nên khả thi. Giả sử rằng việc rời bỏ cộng đồng (bỏ trốn) gây ra chi phí, một hệ thống danh tiếng dựa trên ký ức của các cá nhân thường là đủ để tránh những rủi ro do bài toán tù nhân đặt ra.
 
-Tuy nhiên, khi đối mặt với các cộng đồng lớn hơn có lợi ích đáng kể từ việc phân chia lao động, vấn đề phối hợp lại xuất hiện. Điều này do hai lý do chính:
+Tuy nhiên, khi đối mặt với các cộng đồng lớn hơn, nơi có lợi ích đáng kể từ việc phân chia lao động, vấn đề phối hợp lại xuất hiện. Do hai lý do chính:
 
-Đầu tiên, con người bị giới hạn bởi khả năng nhận thức của họ. Một người không thể duy trì và nhớ mối quan hệ xã hội ổn định với hơn 150 cá nhân, làm cho hệ thống danh tiếng không đủ để vượt qua bài toán tù nhân ở quy mô lớn.
+Đầu tiên, con người bị giới hạn bởi khả năng nhận thức của họ. Một người không thể duy trì và nhớ mối quan hệ xã hội ổn định với nhiều hơn 150 cá nhân khác, làm cho hệ thống danh tiếng không đủ để vượt qua bài toán tù nhân ở quy mô lớn.
 
-Thứ hai, việc đo lường giá trị của các đóng góp trong trao đổi (tính tương đương) là một vấn đề không hề đơn giản. Ví dụ, nếu một cá nhân cung cấp thịt từ việc săn bắn và yêu cầu vật liệu để xây dựng nơi trú ẩn, làm thế nào có thể đánh giá lượng thịt được cung cấp tương đương với vật liệu được yêu cầu? Cũng như về chất lượng – thịt nai có giá trị hơn hay kém so với gỗ?
+Thứ hai, việc đo lường giá trị của các đóng góp trong trao đổi (tính tương đương) là một vấn đề không hề đơn giản. Ví dụ, nếu một cá nhân cung cấp thịt từ việc săn bắn và yêu cầu vật liệu để xây dựng nơi trú ẩn, làm thế nào có thể đánh giá lượng thịt được cung cấp tương đương với số vật liệu được yêu cầu? Cũng như về chất lượng – thịt nai có giá trị hơn hay kém so với gỗ?
 
-Ngay cả khi có thể thiết lập một tỷ lệ trao đổi thỏa đáng cho mỗi cặp hàng hóa, việc duy trì thông tin này nhanh chóng trở nên không thực tế. Trong một hệ thống trao đổi trực tiếp liên quan đến N hàng hóa, có N(N-1)/2 tỷ lệ trao đổi cần nhớ. Đối với một nền kinh tế của 50 hàng hóa, điều đó có nghĩa là nhớ 50*49/2, hay 1225 tỷ lệ trao đổi, so với chỉ 50 trong trao đổi gián tiếp. Đối với một nền kinh tế của 100 hàng hóa, con số này tăng lên đến 4950. Mối quan hệ bậc hai như vậy đặt ra một giới hạn bổ sung về khả năng mở rộng của trao đổi trực tiếp (trao đổi hàng hóa).
+Ngay cả khi có thể thiết lập một tỷ giá trao đổi thỏa đáng cho mỗi cặp hàng hóa, việc duy trì thông tin này nhanh chóng trở nên không thực tế. Trong một hệ thống trao đổi trực tiếp (hàng đổi hàng) liên quan đến N hàng hóa, có N(N-1)/2 tỷ giá trao đổi cần nhớ. Đối với một nền kinh tế có 50 loại hàng hóa, điều đó có nghĩa là cần nhớ nhớ 50*49/2, hay 1225 tỷ giá trao đổi, so với chỉ 50 trong trao đổi gián tiếp (thông qua một trung gian). Đối với một nền kinh tế có 100 loại hàng hóa, con số tỷ giá trao đổi cần nhớ tăng lên đến 4950. Mối quan hệ bậc hai như vậy đặt ra một giới hạn bổ sung về khả năng mở rộng của nền kinh tế dựa trên trao đổi trực tiếp (hàng đổi hàng).
 
-Hơn nữa, do những trao đổi này không diễn ra ngay lập tức mà được phân bổ theo thời gian, việc đánh giá các đóng góp theo thời gian làm phức tạp thêm việc đánh giá tương đối các đóng góp. Ngoài việc đánh giá tỷ lệ trao đổi giữa hai hàng hóa hiện tại, việc đánh giá giá trị của một đóng góp trong quá khứ so với một đối tác tương lai trở nên cần thiết.
+Hơn nữa, do những trao đổi này không diễn ra ngay lập tức mà nó trải dài theo thời gian, việc đánh giá các đóng góp theo thời gian làm phức tạp thêm việc đánh giá tương đối các đóng góp. Ngoài việc đánh giá tỷ giá trao đổi giữa hai loại hàng hóa hiện tại, còn cần phải đánh giá giá trị của một đóng góp trong quá khứ so với một đối tác trong tương lai.
 
-Ngày nay, mặc dù tính không thực tế của một hệ thống như vậy, chúng ta có thể sử dụng viết lách hoặc lưu trữ dữ liệu số để nhớ tất cả thông tin này và thiết lập một hệ thống tín dụng (theo dõi các đóng góp trong quá khứ, bao gồm tỷ lệ trao đổi của những đóng góp đó, cơ bản là thiết lập một hệ thống tín dụng).
+Ngày nay, mặc dù một hệ thống kinh tế như vậy là không thực tế, nhưng chúng ta có thể sử dụng văn bản hoặc lưu trữ dữ liệu kỹ thuật số để nhớ tất cả thông tin này và thiết lập một hệ thống tín dụng (theo dõi các đóng góp trong quá khứ, bao gồm tỷ giá trao đổi của những đóng góp đó, về bản chất là thiết lập một hệ thống tín dụng).
 
-Trong thời tiền sử, những công nghệ này không tồn tại. Do đó, tổ tiên của chúng ta phải tìm ra các giải pháp khác để tận hưởng lợi ích của việc phân chia lao động mà không phải đối mặt với những hậu quả tiêu cực của bài toán tù nhân. Giải pháp cho vấn đề trao đổi trực tiếp này là trao đổi gián tiếp được hỗ trợ bởi tiền tệ.
+Trong thời tiền sử, những công nghệ này không tồn tại. Do đó, tổ tiên của chúng ta phải tìm ra các giải pháp khác để tận hưởng lợi ích của phân công lao động mà không phải đối mặt với những hậu quả tiêu cực của bài toán tù nhân. Giải pháp cho vấn đề trao đổi trực tiếp này là trao đổi gián tiếp được hỗ trợ bởi tiền tệ.
 
-### Sự Trùng Hợp Đôi về Nhu Cầu và Tính Bán Được
+### Sự trùng hợp kép về nhu cầu và tính dễ bán
 
 ![image](assets/Image/18.webp)
 
-Tiền tệ có thể được coi là giải pháp mà tổ tiên của chúng ta đã khám phá ra để giải quyết vấn đề mà các nhà kinh tế gọi là "sự trùng hợp đôi về nhu cầu". Vấn đề này có ba chiều: không gian, thời gian và cá nhân.
-Trong một giao dịch trực tiếp (trao đổi hàng hóa) giữa Alice và Bob, cả hai cần phải sở hữu thứ mà người kia mong muốn vào cùng một thời điểm và địa điểm. Bằng cách sử dụng giao dịch gián tiếp, tức là thông qua tiền tệ, Alice có thể mua hàng từ Bob, và Bob có thể sử dụng đơn vị tiền tệ đó ở nơi khác, vào một thời điểm khác, và với người khác (miễn là người đó chấp nhận hình thức tiền tệ đó).
+Tiền tệ có thể được coi là giải pháp mà tổ tiên của chúng ta đã khám phá ra để giải quyết vấn đề mà các nhà kinh tế gọi là "sự trùng hợp kép về nhu cầu - double coincidence of wants". Vấn đề này có ba chiều: không gian, thời gian và cá nhân.
+Trong một giao dịch trực tiếp (hàng đổi hàng) giữa Alice và Bob, cả hai cần phải sở hữu thứ mà người kia mong muốn vào cùng một thời điểm và địa điểm. Bằng cách sử dụng giao dịch gián tiếp, tức là thông qua tiền tệ, Alice có thể mua hàng từ Bob, và Bob có thể sử dụng đơn vị tiền tệ đó ở nơi khác, vào một thời điểm khác, và với người khác (miễn là người đó chấp nhận hình thức tiền tệ đó).
 
-Để một vật phẩm phục vụ như tiền tệ, nó phải có tính bán được cao, nghĩa là nó nên được mong muốn bởi càng nhiều người càng tốt, hầu hết thời gian. Bằng cách sử dụng một hàng hóa có tính bán được cao, vấn đề về sự trùng hợp kép của nhu cầu được giải quyết về mặt không gian và mối quan hệ giữa người với người: nếu hàng hóa tôi sử dụng làm tiền được mong muốn ở mọi nơi và bởi hầu hết mọi người, tôi có thể dễ dàng tách biệt hành động bán ra khỏi hành động mua về mặt địa điểm và tương tác xã hội.
+Để một vật phẩm thực hiện được vai trò tiền tệ, nó phải có tính dễ bán cao, tức là phải được nhiều người mong muốn (khao khát) nó, trong phần lớn thời gian. Bằng cách sử dụng một hàng hóa có tính dễ bán cao, vấn đề sự trùng hợp kép về nhu cầu được giải quyết về mặt không gian và mối quan hệ giữa các cá nhân: nếu hàng hóa tôi sử dụng làm tiền được mong muốn ở mọi nơi và bởi hầu hết mọi người, tôi có thể dễ dàng tách biệt hành động bán ra khỏi hành động mua về mặt địa điểm và tương tác xã hội.
 
-Tuy nhiên, vấn đề về tính bán được theo thời gian là khó giải quyết hơn vì hai lý do:
+Tuy nhiên, vấn đề về tính dễ bán (salability) theo thời gian là khó giải quyết hơn vì hai lý do:
 
-Thứ nhất, entropy (thường được biết đến với cái tên "tác động của thời gian") dần dần thay đổi chất lượng của hầu hết các hàng hóa có ích dụng trực tiếp. Do đó, việc bảo tồn tính bán được của một hàng hóa theo thời gian đòi hỏi nó phải rất bền bỉ hoặc chống lại entropy.
+Thứ nhất, entropy (thường được biết đến với cái tên "tác động của thời gian") dần dần làm thay đổi chất lượng của hầu hết các hàng hóa có giá trị sử dụng trực tiếp. Do đó, việc bảo tồn tính dễ bán của một loại hàng hóa theo thời gian đòi hỏi nó phải rất bền bỉ hoặc chống lại entropy.
 
-Thứ hai, sự khan hiếm tương đối của một hàng hóa tại thời điểm "t" không đảm bảo sự khan hiếm tương đối của nó trong tương lai. Bằng cách dành đủ nguồn lực cho một lĩnh vực sản xuất cụ thể, con người có thể tăng cung của bất kỳ hàng hóa nào. Giới hạn duy nhất để tăng sản xuất của một hàng hóa là chi phí cơ hội liên quan. Do đó, sự khan hiếm tương đối hiện tại của một hàng hóa không thể đảm bảo sự khan hiếm tương đối của nó trong tương lai. Chỉ những hàng hóa mà sản xuất biên của chúng có thể được tăng lên với chi phí rất cao mới có thể liên tục khan hiếm, đó là lý do tại sao đây là đặc điểm của các hàng hóa tiền tệ tự phát xuất hiện trong suốt lịch sử loài người.
+Thứ hai, sự khan hiếm tương đối của một loại hàng hóa tại thời điểm "t" nào đó không đảm bảo sự khan hiếm tương đối của nó trong tương lai. Bằng cách đầu tư đủ nguồn lực cho một lĩnh vực sản xuất cụ thể, con người có thể tăng nguồn cung của bất kỳ loại hàng hóa nào. Giới hạn duy nhất để gia tăng sản xuất một hàng hóa là chi phí cơ hội liên quan. Do đó, sự khan hiếm tương đối hiện tại của một hàng hóa không thể đảm bảo sự khan hiếm tương đối của nó trong tương lai. Chỉ những loại hàng hóa có chi phí sản xuất biên cao mới có thể duy trì được sự khan hiếm, đó là lý do tại sao đây là đặc điểm của các loại hàng hóa tiền tệ tự phát xuất hiện trong suốt lịch sử loài người.
 
-Trong thời kỳ tiền văn minh, một loạt các hàng hóa như vỏ sò, trang sức thủ công, vòng cổ, hoặc hạt được sử dụng như tiền tệ. Những hàng hóa này dễ dàng vận chuyển, không có ích dụng trực tiếp ngoài giá trị trang trí của chúng, chống lại entropy (tức là, chúng không bị suy giảm theo thời gian), tự nhiên khan hiếm và/hoặc đòi hỏi một lượng lớn lao động chuyên môn để sản xuất. Vì mức độ phân công lao động thấp vào thời điểm đó, và do đó, chi phí cơ hội liên quan đến việc sản xuất các tác phẩm trang trí cao, những vật phẩm này không thể được sản xuất với số lượng lớn. Do đó, những người sử dụng những vật phẩm này làm tiền có thể được đảm bảo về sự khan hiếm tương đối của chúng trong tương lai.
+Trong thời kỳ tiền văn minh, một loạt các hàng hóa như vỏ sò, trang sức thủ công, vòng cổ, hoặc hạt cườm đã được sử dụng như tiền tệ. Những hàng hóa này dễ dàng vận chuyển, không có giá trị sử dụng trực tiếp ngoài giá trị trang trí của chúng, chống lại entropy (tức là, chúng không bị suy giảm theo thời gian), khan hiếm tự nhiên và / hoặc đòi hỏi một lượng lớn lao động chuyên môn để sản xuất ra. Vì mức độ phân công lao động thấp vào thời điểm đó nên các hoạt động sản xuất các vật phẩm mang tính trang trí có chi phí cơ hội cao, những vật phẩm này không thể được sản xuất ra với số lượng lớn. Do đó, những người sử dụng những vật phẩm này làm tiền có thể tin tưởng vào sự khan hiếm tương đối của chúng trong tương lai.
 
-Thực tế rằng tổ tiên săn bắt hái lượm của chúng ta tham gia vào những nhiệm vụ tiêu tốn nhiều nguồn lực này, mặc dù chúng không tạo ra hàng hóa nào có ích dụng trực tiếp, cho thấy những lợi ích đáng kể mà họ mong đợi từ việc mở rộng phạm vi không gian, xã hội, và thời gian của giao dịch. Nếu không phải như vậy, và nếu việc sử dụng những nguồn lực này vào việc xây dựng nơi trú ẩn, săn bắn, hoặc các hoạt động khác hữu ích hơn, thì chúng ta có lẽ sẽ không tìm thấy nhiều bằng chứng khảo cổ về những hoạt động thủ công này. Những nhóm sử dụng nguồn lực của mình một cách hiệu quả hơn sẽ có sự phát triển tốt hơn và thịnh vượng hơn, và những hoạt động thủ công này sẽ nhanh chóng biến mất để nhường chỗ cho các hoạt động sản xuất hàng hóa có ích dụng trực tiếp.
+Việc tổ tiên của chúng ta, những người sống bằng săn bắt hái lượm, tham gia vào những nhiệm vụ tiêu tốn nhiều nguồn lực này, mặc dù chúng không tạo ra hàng hóa nào có giá trị sử dụng trực tiếp, cho thấy những lợi ích đáng kể mà họ có được từ việc mở rộng phạm vi không gian, xã hội, và thời gian của việc trao đổi hàng hoá. Nếu không phải như vậy, và nếu họ sử dụng những nguồn lực này vào việc xây dựng nơi trú ẩn, săn bắt, hoặc các hoạt động khác hữu ích, thì chúng ta có lẽ sẽ đã không tìm thấy nhiều bằng chứng khảo cổ về các hoạt động thủ công này. Những nhóm sử dụng nguồn lực của mình một cách hiệu quả hơn sẽ phát triển tốt hơn và thịnh vượng hơn, và những hoạt động thủ công này sẽ nhanh chóng biến mất để nhường chỗ cho các hoạt động sản xuất hàng hóa có giá trị sử dụng trực tiếp.
 
-Trong nghĩa này, việc sản xuất hàng hóa tiền tệ, bằng cách thúc đẩy sự mở rộng của phân công lao động, đại diện cho việc sử dụng nguồn lực có lợi nhuận hơn (về mặt tiện ích chủ quan cho cá nhân) so với tất cả các lựa chọn khác (tăng cường săn bắn, câu cá, hái lượm, sản xuất gỗ, xây dựng nhà cửa, sản xuất nhiều công cụ săn bắn và câu cá, v.v.).
+Theo nghĩa này, việc sản xuất hàng hóa tiền tệ, qua đó thúc đẩy sự mở rộng của phân công lao động, đại diện cho cách sử dụng nguồn lực có lợi nhuận hơn (theo quan điểm giá trị chủ quan của cá nhân) so với tất cả các lựa chọn khác (tăng cường săn bắn, câu cá, hái lượm, sản xuất gỗ, xây dựng nhà cửa, sản xuất nhiều công cụ săn bắt và câu cá, v.v.).
 
-### Sự Không Chắc Chắn
+### Sự không chắc chắn
 
-Để kết luận phân tích của chúng ta về cơ quan tiền tệ, chúng ta cần giải quyết vấn đề về hành động kinh tế trong bối cảnh của sự không chắc chắn không thể tránh khỏi về tương lai.
-Các nhà kinh tế học Áo đã chỉ ra rằng, hành động của con người luôn gắn liền với thời gian và hướng về tương lai. Khi một cá nhân hành động, họ thay đổi điều kiện hiện tại của mình với hy vọng đạt được sự thỏa mãn trong tương lai. Sự dự báo tinh thần này có thể hướng về tương lai gần hoặc xa, nhưng để một cá nhân có thể hướng về lâu dài, họ phải đảm bảo sự sống còn trong ngắn hạn vì điều kiện trong tương lai gần trực tiếp ảnh hưởng đến điều kiện trong tương lai xa.
+Để kết luận phân tích về tiền tệ, chúng ta cần xem xét vấn đề về hành vi kinh tế trong bối cảnh của sự không chắc chắn không thể tránh khỏi về tương lai.
+Các nhà kinh tế học Áo đã chỉ ra rằng, hành động của con người luôn bị giới hạn về thời gian và hướng về tương lai. Khi một cá nhân hành động, họ thay đổi điều kiện hiện tại của mình với hy vọng đạt được sự thỏa mãn trong tương lai. Sự định hướng tinh thần này có thể nhắm đến tương lai gần hoặc xa, nhưng để một cá nhân có thể hướng đến mục tiêu dài hạn, họ phải đảm bảo sự sống còn trong ngắn hạn vì điều kiện trong tương lai gần ảnh hưởng trực tiếp đến điều kiện trong tương lai xa.
 
-Điều này trực tiếp xuất phát từ lý trí con người; không ai có thể bỏ qua bản chất tuần tự của các hiện tượng thời gian và sự phụ thuộc theo thời gian mà từ đó phát sinh bởi vì đó là một trong những ràng buộc cơ bản của cuộc sống con người. Do đó, vì tương lai luôn không chắc chắn đối với con người, họ sẽ tìm cách đảm bảo sự sống còn lâu dài của mình chỉ sau khi sự sống còn ngắn hạn được đảm bảo.
+Điều này xuất phát trực tiếp từ lý trí con người, không ai có thể phớt lờ bản chất tuần tự của các hiện tượng thời gian và sự phụ thuộc theo thời gian, vì đó là một trong những ràng buộc cơ bản của cuộc sống con người. Do đó, vì tương lai luôn không chắc chắn đối với con người, họ sẽ tìm cách đảm bảo sự sống còn lâu dài của mình chỉ sau khi sự sống còn ngắn hạn được đảm bảo.
 
-Trong trường hợp này, tiền tệ, bằng cách cho phép lưu trữ giá trị ở hiện tại và chuyển nó cho bản thân tương lai, đóng một vai trò quan trọng trong việc phối hợp liên thời gian của hành động con người. Bằng cách lưu trữ tiền, tức là tiết kiệm, cá nhân bảo vệ mình khỏi sự không chắc chắn của tương lai và do đó cho phép họ hướng hành động của mình về những chân trời thời gian dài hơn. Tuy nhiên, họ chỉ có thể đạt được điều này nếu tiền tệ được sử dụng là một phương tiện lưu trữ giá trị, nghĩa là nó có khả năng bán được theo thời gian, điều này, như đã đề cập trước đó, là đặc điểm của hàng hóa bền và tương đối khan hiếm.
+Trong trường hợp này, tiền tệ, bằng cách cho phép lưu trữ giá trị ở hiện tại và chuyển nó cho bản thân trong tương lai, đóng một vai trò quan trọng trong việc phối hợp hành động liên thời gian của con người. Bằng cách lưu trữ tiền, tức là tiết kiệm, các cá nhân bảo vệ mình khỏi sự không chắc chắn của tương lai và do đó cho phép họ hướng hành động của mình về những khoảng thời gian dài hơn. Tuy nhiên, họ chỉ có thể đạt được điều này nếu tiền tệ được sử dụng như là một phương tiện lưu trữ giá trị, nghĩa là nó có khả năng bán được theo thời gian, điều này, như đã đề cập trước đó, là đặc điểm của hàng hóa có độ bền cao và tương đối khan hiếm.
 
-Trong chương tiếp theo, chúng ta sẽ đi sâu vào khái niệm về sở thích thời gian và giải thích quan điểm của Áo về lãi suất và vốn, sẽ là cơ sở cho chương tiếp theo về Lý thuyết Chu kỳ Kinh doanh.
+Trong chương tiếp theo, chúng ta sẽ đi sâu vào khái niệm về sự ưa thích thời gian và giải thích quan điểm của kinh tế học Áo về lãi suất và vốn, sẽ là cơ sở cho chương tiếp theo về lý thuyết chu kỳ kinh tế.
 
-## Sở Thích Thời Gian, Lãi Suất và Vốn
+## Sự ưa thích thời gian, lãi suất và vốn
 <chapterId>37732a5c-4f66-5e2d-bc2c-cc8d29693af7</chapterId>
 
-### Sở Thích Thời Gian
+### Sự ưa thích thời gian - Time preference
 
-Chúng tôi kết luận chương trước bằng cách giải thích cách các chủ thể kinh tế sử dụng hàng hóa có khả năng bán được nhất, tức là tiền tệ, để chống lại sự không chắc chắn của tương lai. Chúng tôi cũng giải thích rằng bản chất tuần tự của các hiện tượng thời gian dẫn chúng ta đến việc chống lại sự không chắc chắn một cách dần dần: chỉ khi chúng ta biết rằng sự sống còn của mình sẽ được đảm bảo cho tuần tiếp theo, chúng ta mới có thể tập trung vào mục tiêu xa hơn vào tương lai.
+Chúng ta đã kết luận chương trước bằng cách giải thích cách các chủ thể kinh tế sử dụng hàng hóa có tính dễ bán cao nhất, tức là tiền tệ, để chống lại sự không chắc chắn của tương lai. Chúng ta cũng đã giải thích rằng bản chất tuần tự của các hiện tượng thời gian dẫn chúng ta đến việc chống lại sự không chắc chắn một cách dần dần: chỉ khi chúng ta biết rằng sự sống còn của mình sẽ được đảm bảo cho tuần tiếp theo, chúng ta mới có thể tập trung vào mục tiêu xa hơn trong tương lai.
 
-Hay nói cách khác: là con người, chúng ta giảm giá trị của hàng hóa tương lai.
+Hay nói cách khác: là con người, chúng ta chiết khấu trị của hàng hóa trong tương lai.
 
-Sự đánh giá chủ quan này về giá trị của hàng hóa tương lai so với hàng hóa hiện tại được gọi là sở thích thời gian. Tất cả những điều khác đều bằng nhau, hàng hóa hiện tại luôn được ưu tiên hơn hàng hóa tương lai. Vì chúng ta là sinh vật hữu hạn, và tương lai luôn không chắc chắn, chúng ta tự nhiên thích có quyền truy cập vào một hàng hóa ngay bây giờ hơn là sau này. Mặc dù sở thích thời gian có thể khác nhau giữa các cá nhân, do nhiều yếu tố như văn hóa, tài sản, giáo dục, sinh lý, v.v., sở thích thời gian luôn là tích cực, nghĩa là tất cả những điều khác đều bằng nhau, chúng ta luôn đánh giá cao hàng hóa hiện tại hơn hàng hóa tương lai.
+Sự đánh giá chủ quan này về giá trị của hàng hóa trong tương lai so với hàng hóa ở hiện tại được gọi là sự ưa thích thời gian. Nếu mọi thứ khác đều như nhau, hàng hóa ở hiện tại luôn được ưu tiên hơn hàng hóa trong tương lai. Vì chúng ta là người thường (có sinh lão bệnh tử) nên thời gian (tuổi thọ) của chúng ta là hữu hạn, và tương lai luôn không chắc chắn, chúng ta luôn muốn có được hàng hóa ngay bây giờ hơn là sau này một cách tự nhiên. Mặc dù sự ưa thích thích thời gian có thể khác nhau giữa các cá nhân, do nhiều yếu tố như văn hóa, tài sản, giáo dục, sinh lý, v.v., sự ưa thích thời gian luôn là dương, nghĩa là nếu mọi thứ khác đều như nhau, chúng ta luôn đánh giá cao hàng hóa ở hiện tại hơn so với hàng hóa trong tương lai.
 
-Khái niệm này về việc đánh giá tương đối hàng hóa tương lai so với hàng hóa hiện tại là cơ sở của hiện tượng lãi suất. Thực vậy, trong một nền kinh tế với thị trường vốn không bị thao túng, lãi suất tham chiếu (được coi là không rủi ro về vấn đề vỡ nợ) được xác định tại điểm giao nhau của cung và cầu vốn. Do đó, những lãi suất này thể hiện trạng thái của sở thích thời gian cho toàn bộ nền kinh tế: một sự tăng lãi suất xuất phát từ sự tăng tương đối trong nhu cầu vốn so với cung, chỉ ra sở thích thời gian cao hơn. Ngược lại, một sự giảm lãi suất xảy ra do sự tăng trong tiết kiệm, là sự tăng cung vốn, chỉ ra sự giảm sở thích thời gian.
+Khái niệm về sự đánh giá tương đối hàng hóa tương lai so với hàng hóa hiện tại là cơ sở của hiện tượng lãi suất. Thực vậy, trong một nền kinh tế với thị trường vốn không bị thao túng, lãi suất tham chiếu (được coi là không có rủi ro vỡ nợ) được xác định tại điểm giao nhau của cung và cầu về vốn. Do đó, những lãi suất này thể hiện trạng thái của sự ưa thích thời gian trong toàn bộ nền kinh tế: sự gia tăng lãi suất là kết quả của sự gia tăng tương đối trong nhu cầu vốn so với nguồn cung vốn, chỉ ra sự ưa thích thời gian cao hơn. Ngược lại, một sự sụt giảm lãi suất xảy ra do sự tăng lên trong tiết kiệm, tức là sự gia tăng nguồn cung vốn, chỉ ra sự giảm xuống của sự ưa thích thời gian.
 
 ![image](assets/Image/9.webp)
 
-Trong một nền kinh tế mà lãi suất không bị thao túng bởi ngân hàng trung ương, chúng ta có xu hướng quan sát thấy một đường cong lợi suất dốc lên: càng dài hạn kỳ hạn của nợ, lãi suất càng cao. Tình huống ngược lại không thể xảy ra bởi vì nó sẽ bao hàm rằng tương lai chắc chắn hơn hiện tại, điều này là một bất khả thi logic.
-Khái niệm về sở thích thời gian và cách chúng ta biểu đạt sở thích thời gian của mình thông qua hành động tiêu dùng và tiết kiệm là cơ bản đối với quá trình phân bổ vốn và sản xuất. Hãy cùng tìm hiểu về học trò của Menger, Eugen von Böhm-Bawerk, và lý thuyết vốn của ông để hiểu rõ cách sở thích thời gian ảnh hưởng đến tổ chức sản xuất như thế nào.
+Trong một nền kinh tế mà lãi suất không bị thao túng bởi ngân hàng trung ương, chúng ta có xu hướng quan sát thấy một đường cong lợi suất dốc lên: kỳ hạn nợ càng dài, lãi suất càng cao. Tình huống ngược lại không thể xảy ra bởi vì nó sẽ ngụ ý rằng tương lai chắc chắn hơn hiện tại, về logic, đây là một điều bất khả thi.
+Khái niệm về sự ưa thích thời gian và cách chúng ta biểu đạt sự ưa thích thời gian của mình thông qua hành động tiêu dùng và tiết kiệm là nền tảng của quá trình phân bổ vốn và sản xuất. Hãy cùng tìm hiểu về học trò của Menger, Eugen von Böhm-Bawerk, và lý thuyết về vốn của ông để hiểu rõ cách sự ưa thích thời gian ảnh hưởng đến quá trình tổ chức sản xuất như thế nào.
 
-### Lý Thuyết Vốn
+### Lý thuyết về vốn
 
 ![image](assets/Image/19.webp)
 

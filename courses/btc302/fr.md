@@ -842,10 +842,10 @@ Bien évidemment, **à chacun de fixer sa limite** dans ce que l'on peut entendr
 
 Au fil des blocs, votre communauté se développera. De nouvelles têtes vous rejoindront et d'autres s'effaceront. Néanmoins, son leitmotiv sera toujours le même: **faire avancer l'écosystème Bitcoin et créer des liens encore plus forts entre ses membres**.
 
-Pour ce faire, de nombreux projets et initiatives peuvent être réalisés. C'est la raison pour laquelle **nous vous proposons donc dans ce chapitre une succession d'idées non exhaustives qui peuvent être mises en place au sein d'une communauté ou lors d'un meet-up**. Vous êtes alors libre de piocher dans celles qui vous plaisent, mais aussi d'en ajouter à ce cours [en réalisant une "Pull Request" sur GitHub](https://github.com/PlanB-Network/bitcoin-educational-content). 
+Pour ce faire, de nombreux projets et initiatives peuvent être réalisés. C'est la raison pour laquelle **nous vous proposons dans ce chapitre une succession d'idées non exhaustives qui peuvent être mises en place au sein d'une communauté ou lors d'un meet-up**. Vous êtes alors libre de piocher dans celles qui vous plaisent, mais aussi d'en ajouter à ce cours [en réalisant une "Pull Request" sur GitHub](https://github.com/PlanB-Network/bitcoin-educational-content). 
 Mais avant de débuter, il semble intéressant d'aborder plus en détail un point déjà énuméré dans les parties précédentes de ce cours.
 
-Lorsqu'on lance un meet-up Bitcoin, on découvre de nouvelles personnes. Les intéractions sociales sont donc importantes, et la bière (l'alcool de manière générale) permet de rendre ce genre d'événement festif. Mais ATTENTION:
+Lorsqu'on lance un meet-up Bitcoin, on découvre de nouvelles personnes. Les interactions sociales sont donc importantes, et la bière (l'alcool de manière générale) permet de rendre ce genre d'événement festif. Mais ATTENTION:
 - d'une part, **l'alcool inhibe certaines capacités cognitives** (réflexion, compréhension, etc.). Il est donc **plus difficile pour les participants de suivre des discussions sérieuses** - ou une présentation - après avoir bu un doux breuvage alcoolisé;
 - d'autre part, **l'alcool est réconfortant**: chaque mois, vous avez votre "moment Bitcoin", avec vos nouveaux copains. Vous partagez une passion commune, et c'est très positif ! **Mais boire des bières est-il vraiment l'objectif phare de votre meet-up?** Ne souhaiteriez-vous pas plutôt échanger lors de ces événements de vos nouvelles trouvailles / recherches, apprendre des expériences des autres; voire démocratiser Bitcoin aux nouveaux, afin des les initier?
 
@@ -858,15 +858,16 @@ L'important est d'en être conscient(e).
 ## Organiser des meet-ups thématiques, avec une progression annuelle
 <chapterId>46afdbcc-a775-5c16-b20a-34956690d58f</chapterId>
 
-Lorsque vos meet-ups seront réguliers et qu'un noyau dur d'une dizaine de personnes se sera formé, il vous sera désormais possible de **réaliser une présentation à chacun de vos meet-ups**. Celles-ci pourront alors être **thématiques**, avec un thème annoncé en avance; comme elles pourront être décorrelées les unes des autres.
+Lorsque vos meet-ups seront réguliers et qu'un noyau dur d'une dizaine de personnes se sera formé, il vous sera désormais possible de **réaliser une présentation à chacun de vos meet-ups**. Celles-ci pourront alors être **thématiques**, sur un sujet annoncé en avance; comme elles pourront être décorrélées les unes des autres.
 
-Dans le cas de la mise en place de présentations et/ou d'ateliers, il peut être très pertinent de **construire en amont une progression réfléchie**. L'objectif de cette progression serait ainsi d'**aborder l'ensemble des notions importantes à Bitcoin**; permettant à toute personne présente lors des meet-ups de comprendre Bitcoin sous différents angles.
+Dans le cas de la mise en place de présentations et/ou d'ateliers, il peut être très pertinent de **construire en amont une progression réfléchie**. L'objectif de cette progression serait alors d'**aborder l'ensemble des notions importantes à Bitcoin**, permettant aux personnes présentes lors des meet-ups de comprendre Bitcoin sous ses différents angles.
 ####
-En France, au cours de l'été 2023, les organisateurs de meet-ups ont ainsi travaillé sur **une progression annuelle**, que plusieurs d'entre-eux suivent. En plus d'avoir une **dimension éducative forte, cela permet également aux meet-ups de pouvoir s'échanger des documents et powerpoints open-source**, afin de construire une base de données de ressources sur un même thème.
+En France, au cours de l'été 2023, les organisateurs de meet-ups ont ainsi travaillé sur **une progression annuelle**. En plus d'avoir une **dimension éducative forte, cela permet également aux meet-ups de pouvoir s'échanger des documents et présentations powerpoint open-source**; permettant ainsi de disposer d'une base de données de ressources de plus en plus conséquente.
 Cette initiative est particulièrement appréciée dans les meet-ups et a pour vocation à se développer dans les prochaines années.
 ####
-La progression suivie en 2023/2024 par les meet-ups français est donc disponible ci-dessous. Elle regroupe **le thème de chaque meet-up, ainsi qu'une vidéo et une présentation open-source qui pourront vous donner des idées sur les notions qui peuvent y être abordées**.
-Si vous souhaitez accéder à d'autres ressources modifiables, pensez à faire un tour dans la [Boîte à outils pédagogique Bitcoin](https://planb.network/fr/resources/bet) !
+####
+La progression suivie en 2023/2024 par les meet-ups français est donc disponible ci-dessous. Pour chacune, **une présentation open-source accompagnée de sa vidéo est proposée, vous donnant peut être des idées sur les notions qui peuvent être abordées**.
+D'autres ressources modifiables sont également disponibles dans la [Boîte à outils pédagogique Bitcoin](https://planb.network/fr/resources/bet) !
 
 | Mois | Thème | Vidéo | Ressource modifiable |
 | -------- | -------- | -------- | --- |
@@ -881,17 +882,17 @@ Si vous souhaitez accéder à d'autres ressources modifiables, pensez à faire u
 | Juillet     | Chapitre 9: Comprendre le bull-run, et s'y préparer     | [Lien youtube](https://www.youtube.com/watch?v=7RA-gnCJWyM)     | [PowerPoint modifiable](https://www.canva.com/design/DAGJQkiZ_YA/9lUluP9RZ0eeA_e61mk9Hw/edit) |
 | Août     | Chapitre 10: Le fisc n'est jamais bien loin     | [Lien youtube](https://www.youtube.com/watch?v=oY4NwonGDm0)     | [PowerPoint modifiable](https://www.canva.com/design/DAGQhx7Yc_c/7mRhb_vlgnhSgxd1FtjK8w/edit) |
 ####
-À noter par ailleurs que les chapitres 2 et 7 peuvent être découpés en deux présentations, dans l'objectif par exemple de ne pas surcharger les participants d'informations. Ils peuvent également être réalisés d'une traite, amenant plus de liberté et permettant par exemple de réaliser des workshops ou événements spécifiques en supplément (rencontre commune avec un meet-up limitrophe, quizz, ateliers, etc.)
-**Libre à vous de prendre ces ressources, de les modifier et de les partager à votre guise**. Pensez simplement à **citer vos sources** dans le cas où vous réutilisez une de ces présentations modifiables.
+À noter par ailleurs que les chapitres 2 et 7 peuvent être découpés en deux présentations, afin par exemple de ne pas surcharger d'informations les participants. Les réaliser d'une traite permet toutefois plus de liberté dans le planning des événements annuels, afin par exemple de réaliser des workshops ou événements spécifiques en supplément (rencontre commune avec un meet-up limitrophe, quizz, ateliers, etc.)
+**Libre à vous de prendre ces ressources, de les modifier et de les partager à votre guise**. Pensez simplement à **citer vos sources** dans le cas où vous réutiliseriez une de ces présentations.
 
 ####
-Bien évidemment, tous les participants ne seront pas présents à chaque meet-up. Il peut donc être tout à fait pertinent de **prendre en vidéo la présentation pour la poster sur une plateforme de streaming et/ou sur votre site internet**. Cela peut en effet amener les absents à prendre connaissance des présentations précédentes; voire même, à les regarder plusieurs fois en replay pour mieux se former.
+Bien évidemment, tous les participants ne seront pas présents à chaque meet-up. Il peut donc être tout à fait pertinent de **prendre en vidéo la présentation pour la poster sur une plateforme de streaming et/ou sur votre site internet**. Cela peut en effet amener les absents à prendre connaissance des présentations des précédents meet-ups; voire même à les regarder plusieurs fois en replay pour mieux se former.
 ####
 #### 
 En parallèle, des meet-ups thématiques peuvent être réalisés. Parmi eux, on compte:
 - un **quizz de connaissances** (avec par exemple un portefeuille physique à gagner);
-- un **défi "onboarding"** en envoyant des satoshis gratuitement à des no-coiners;
-- **organiser la venue d'experts dans un domaine précis, ou d'une société** proposant un produit pertinent lié à Bitcoin;
+- un **défi "onboarding"** en envoyant des satoshis gratuitement à des no-coiners dans la rue;
+- l'**organisation de la venue d'experts dans un domaine précis**, ou d'une société proposant un produit Bitcoin;
 - une **soirée "tournée des bars et commerces" acceptant Bitcoin** comme moyen de paiement;
 - etc.
 Les seules limites sont celles de votre imagination !
@@ -902,7 +903,7 @@ Les seules limites sont celles de votre imagination !
 En fonction du temps que vous aurez et de l'implication de votre communauté, d'autres événements peuvent être organisés afin de rythmer l'année. Cela peut être de l'ordre:
 - d'**une soirée restaurant pour le Pizza Day**, le 22 mai;
 - d'**une soirée ou d'un week-end pour "célébrer" le prochain halving**;
-- d'**un événement "jeu en famille" autour de Bitcoin** et de son fonctionnement. Des jeux comme "[Le Coin de Table](https://www.maximalist.ovh/)" ou "[SHAmory](https://shamory.com/)" peuvent alors être apportés;
+- d'**un événement "jeu en famille" autour de Bitcoin** et de son fonctionnement. Des jeux comme [Le Coin de Table](https://www.maximalist.ovh/) ou [SHAmory](https://shamory.com/) peuvent alors être apportés;
 - d'**un atelier minage**, avec la découverte de plusieurs matériels (processeur, carte graphique, FPGA, ASIC, nerdminer, bitaxe);
 - d'**une après-midi ou soirée spécialement pour les débutants, avec des ateliers thématiques**;
 - voire même, d'**un meet-up commun avec les meet-ups limitrophes**.
@@ -915,44 +916,45 @@ Pensez toutefois à faire attention à **ne pas trop réaliser d'évenements dan
 ## Créer des stickers autocollants
 <chapterId>d605f3b3-130e-513d-85e6-06bc5ea13e99</chapterId>
 
-Symbole de l'identité de votre communauté, il peut être intéressant de réaliser puis de commander des stickers autocollants.
+Symbole de l'identité de votre communauté, la réalisation de stickers autocollants peut être un très bon moyen de faire parler de Bitcoin et de votre initiative.
 Avant votre commande, différents points sont toutefois à réfléchir:
 - si vous souhaitez que ces stickers puissent être collés dans la rue, ils vous faut des **stickers résistants à l'eau** ("waterproof" ou imperméables);
-- faites **attention à ce que votre logo soit plus petit que la zone annoncée lors de la commande**. Cela permettra en effet d'éviter les erreurs de précision des découpeuses laser, qui découperaient une partie de votre logo. Cela est toutefois habituellement expliqué lorsqu'une commande est réalisée;
+- faites **attention à ce que votre logo soit plus petit que la zone annoncée lors de la commande**. Cela permettra en effet d'éviter les erreurs de précision des découpeuses laser, qui découperaient une partie de votre logo. Cela est toutefois habituellement expliqué lors de la commande;
 - pensez à **utiliser un fichier vectoriel** plutôt qu'un fichier image. Cela améliorera la qualité à l'impression;
 - **réfléchissez à deux fois à la taille souhaitée**. Par exemple, un sticker circulaire de 8 cm de diamètre fait à peu près la taille de la paume d'une main adulte. Cherchez-vous cette taille, ce qui est quand même assez visible, ou cherchez vous quelque chose de plus discret (4 cm de diamètre par exemple)?
 - enfin - c'est un peu technique - mais si vous souhaitez un beau noir à l'impression (un "noir quadri"), les propriétés de ce dernier devront être de: 30% de cyan, 30% de magenta, 30% de jaune et 100% de noir. Dans le cas où seul 100% de noir est pris en compte, le rendu donnera un noir un peu grisâtre. Heureusement, les imprimeurs font généralement attention à ce détail. Vous ne devriez donc pas vous en faire.
 
 ![image](assets/fr/chapter25/38.webp)
 ####
-En fonction de votre demande et du fournisseur que vous choisirez, tablez **entre 100 et 250 euros pour 1000 stickers**. Vous pouvez également contacter [@Mill3sim3 sur Twitter](https://x.com/Mill3sim3), un bitcoiner français spécialisé dans le marketing qui peut vous permettre d'obtenir des prix près de 30% moins chers que les sites en ligne habituels. N'hésitez donc pas à le contacter.
+En fonction de votre demande et du fournisseur que vous choisirez, tablez **entre 100 et 250 euros pour 1000 stickers**. Vous pouvez également contacter [@Mill3sim3 sur Twitter](https://x.com/Mill3sim3), un bitcoiner français spécialisé dans le marketing qui peut vous permettre d'obtenir des prix près de 30% moins chers que les sites en ligne habituels.
 
-Toutefois, il est à noter que 1000 stickers est une quantité importante. Il est donc clairement **préférable, pour débuter, de partir sur l'achat d'une centaine de stickers**; afin d'être sûr d'écouler ce stock.
+Toutefois, il est à noter que 1000 stickers est une quantité très importante. Il est donc clairement **préférable, pour débuter, de partir sur l'achat d'une centaine de stickers**; afin d'être sûr d'écouler ce stock.
 ####
-Petit laïus également: **si vous décidez de coller un de ces stickers dans la rue, en fonction du pays dans lequel vous vous trouverez, cela peut être prohibé par la loi**.
+####
+Petit laïus également: **si vous décidez de coller un de ces stickers dans la rue, en fonction du pays dans lequel vous vous trouverez, cela peut être prohibé**.
 Dans le cas de la France par exemple, il n'est autorisé de coller des stickers dans la rue que sur les panneaux d'affichages publiques présents dans chaque ville. Cela signifie donc que si un de vos stickers est collé n'importe comment (ou plutôt: n'importe où, comme par exemple en plein milieu d'un panneau stop), ce dernier se fera retirer rapidement; et s'il possède des informations permettant de remonter à votre identité ou à celle de votre meet-up, il n'est pas à exclure que vous puissiez recevoir une petite amende. Faites donc attention et informez-en vos membres.
 ####
-En parallèle, si vous êtes féru de concerts, de bars ou de stades, **pensez à vérifier qu'il y a déjà des stickers collés avant de poser le vôtre. Si non, prenez quelques secondes pour demander à un(e) employé(e) si cela est possible**. Il serait en effet dommage qu'un commerçant entende parler de votre communauté / meet-up / association / de Bitcoin pour la première fois parce que vous avez "saboté" la décoration de ses toilettes !
+En parallèle, si vous êtes féru de concerts, de bars ou de stades, **pensez à vérifier qu'il y a déjà des stickers collés avant de poser le vôtre. Si non, prenez quelques secondes pour demander à un(e) employé(e) si cela est accepté**. Il serait en effet dommage qu'un commerçant entende parler de votre communauté / meet-up / association / de Bitcoin pour la première fois parce que vous avez "saboté" la décoration de ses toilettes !
 
 ## Créer une bibliothèque
 <chapterId>acc94093-f8b3-51b8-9359-348e9e075d38</chapterId>
 
 Un autre projet pouvant être facilement mis en place est **l'instauration d'une bibliothèque au sein de vos meet-ups**.
-Pour ce faire, vous pouvez proposer à toutes les personnes intéressées pour partager leurs lectures de ramener un livre lié à Bitcoin et, lors du meet-up, si quelqu'un d'autre est intéressé pour l'emprunter, **un prêt pourrait être réalisé auprès de son propriétaire, moyennant par exemple une caution de 21 000 satoshis en Lightning**.
-Cela permet donc, pour le propriétaire, de couvrir les frais en cas d'oubli ou de vol; et pour l'emprunteur, de revenir à un prochain meet-up pour récupérer ses 21 000 satoshis !
+Pour ce faire, vous pouvez proposer à toutes les personnes intéressées par le partage de leurs lectures de ramener un livre lié à Bitcoin et, si quelqu'un d'autre lors du meet-up est intéressé pour l'emprunter, **un prêt pourrait être réalisé auprès de son propriétaire, moyennant par exemple une caution de 21 000 satoshis en Lightning**.
+Cela amène en effet, pour le propriétaire, de couvrir les frais en cas d'oubli ou de vol; et pour l'emprunteur, de revenir à un prochain meet-up pour récupérer ses 21 000 satoshis !
 ####
 Dans le cas où vous possédez **une association et que vous souhaitez investir une partie de votre trésorerie dans des ressources pédagogiques et éducatives**, il vous est également possible de commander plusieurs livres et de les proposer dans votre **bibliothèque Bitcoin**, à chaque meet-up.
 
 ![image](assets/fr/chapter26/39.webp)
 ####
-En ce sens, dans l'optique de développer l'écosystème, **[l'éditeur Konsensus Network](https://konsensus.network/) propose depuis fin 2023 aux meet-ups et communautés Bitcoin internationales une réduction comprise entre 15% et 35% sur l'ensemble de ses livres; à partir de trois achetés**.
+Dans l'optique de développer l'écosystème, **[l'éditeur Konsensus Network](https://konsensus.network/) propose depuis fin 2023 aux meet-ups et communautés Bitcoin internationales une réduction comprise entre 15% et 35% sur l'ensemble de ses livres; à partir de trois achetés**.
 Pour profiter de cette réduction, il suffit de **contacter la [maison d'édition Konsensus](https://twitter.com/KonsensusFR) sur Twitter**.
 
 Si toutefois vous n'avez pas de trésorerie, sachez qu'il est tout de même possible de faire profiter les membres de votre communauté de cette réduction.
-En effet, un des organisateurs de votre communauté peut par exemple centraliser la commande de plusieurs membres et la passer auprès de Konsensus pour un coût moindre, dans l'optique de redistribuer les exemplaires reçus au prochain meet-up. Cette redistribution pourra alors par exemple s'effectuer en Lightning.
+En effet, un des organisateurs de votre communauté peut par exemple centraliser les commandes de vos membres et la passer auprès de Konsensus pour un coût moindre, dans l'optique de redistribuer les exemplaires reçus au prochain meet-up. Cette redistribution pourra alors par exemple s'effectuer lors du paiement, en Lightning.
 ####
 ####
-Par ailleurs, une charte du prêt de livres peut être écrite et affichée lors des meet-ups, permettant d'expliquer succinctement les règles de celui-ci.
+Par ailleurs, une charte du prêt de livres peut être affichée lors des meet-ups, permettant d'expliquer succinctement aux nouveaux les règles d'emprunt.
 
 En voici d'ailleurs un exemple open-source, que vous pouvez prendre et modifier à votre guise:
 [Charte du prêt de livres](https://www.canva.com/design/DAF7u1b5kRM/r2gEAlibe_jTIXIX-O9PMA/edit)
@@ -961,15 +963,15 @@ En voici d'ailleurs un exemple open-source, que vous pouvez prendre et modifier 
 #### 
 Enfin, toujours dans l'idée de développer les lectures autour de Bitcoin, une dernière action d'envergure peut être de **se rendre dans les bibliothèques municipales de la ville et de vérifier qu'elles possèdent différents ouvrages sur Bitcoin**.
 Si oui, peut être demandé aux bibliothéquaires si des **tables rondes** sur ce sujet vont être réalisées dans les prochains mois, quitte à leur donner le contact du meet-up de la ville.
-Si non, **peut être proposé l'achat de plusieurs ouvrages que vous aurez sélectionnés en amont**. Le site de [l'éditeur Konsensus](https://konsensus.network/) peut pour ce faire être une source d'inspiration.
+Si non, **peut être proposé l'achat de plusieurs ouvrages que vous aurez sélectionnés en amont**. Le site de [l'éditeur Konsensus Network](https://konsensus.network/) peut alors être source d'inspiration.
 
 ## Créer des flyers personnalisés et les distribuer
 <chapterId>62ad5430-c698-51b3-89ac-090f31c88953</chapterId>
 
 La création et l'écriture de flyers prend beaucoup de temps. Néanmoins, cela permet de **disposer d'un support papier lors des discussions autour de Bitcoin**, ce qui est tout à fait appréciable.
-Ces flyers peuvent ainsi être à destination:
-- **des commerçants**, dans le cas où vous souhaitez leur proposer l'acception de Bitcoin comme moyen de paiement;
-- **des personnes se présentant lors de vos événements**, avec un flyer présentant spécifiquement comment utiliser et payer en Bitcoin / Lightning;
+Ces flyers peuvent ainsi être destinés à:
+- **des commerçants**, dans le cas où vous souhaitez leur proposer Bitcoin comme moyen de paiement;
+- **des personnes se présentant lors de vos événements**, avec un flyer présentant comment utiliser et payer en Bitcoin / Lightning;
 - **des néophytes**, croisés dans la rue, sur votre lieu de travail ou à un repas de famille, avec un flyer reprenant les principaux intérêts de Bitcoin.
 
 Il est également tout à fait possible de préparer **un flyer spécifique pour votre communauté ou vos meet-ups, présentant vos actions, vos objectifs, vos réseaux et canaux de communication; mais aussi, les dates et lieux de vos événements déjà planifiés**.
@@ -991,18 +993,18 @@ Construites généralement en bois, ces dernières accueillent gratuitement des 
 
 
 C'est en ce sens qu'en 2023, **l'initiative "Un livre blanc de Bitcoin dans les boîtes à livres de France"** a été lancée.
-Afin de pouvoir mener ce projet à bien avec toutes les personnes intéressées, il a tout d'abord fallu **obtenir la géolocalisation de toutes les boîtes à livres existant dans le pays**. Pour ce faire, différentes bases de données existent:
+Afin de pouvoir mener ce projet à bien, il a d'abord fallu **obtenir la géolocalisation de toutes les boîtes à livres existant dans le pays**. Pour ce faire, différentes bases de données existent:
 - [boite.a.livres.zonelivre.fr](https://boite.a.livres.zonelivre.fr/);
 - [boites-a-livres.fr](https://www.boites-a-livres.fr/carte-de-france);
 - [delivrez.fr](https://delivrez.fr/maps/fr_FR/);
-- ainsi que certains articles dans la presse locale.
+- certains autres articles dans la presse locale.
 
-Bien évidemment, poster le livre blanc de Bitcoin dans ces boîtes à livres a quelque chose de symbolique. Toutefois, pour un.e néophyte, il est trop complexe dans sa compréhension.
+Bien évidemment, poster le livre blanc de Bitcoin dans ces boîtes à livres a quelque chose de symbolique. Toutefois, pour un(e) néophyte, il est trop complexe dans sa compréhension.
 L'idée a donc été d'**écrire un petit livret, comprenant**:
 - **une introduction vulgarisée et sourcée sur Bitcoin, son utilisation et les problèmes qu'il résout**;
 - accompagnée du **livre blanc de Bitcoin**, traduit en français.
 
-Voici donc ci-dessous [le livret qui a été partagé entre bitcoiners français](https://profedustream.substack.com/p/bitcoin-la-naissance-dune-nouvelle) et qui a terminé sa route dans plusieurs dizaines de boîtes à livres du pays. Son design est également [disponible en open-source](https://www.canva.com/design/DAFs18FSoVM/Sy0QsfUkycTgXveeGgutBg/edit?utm_content=DAFs18FSoVM&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton).
+Voici donc ci-dessous [le livret qui a été partagé entre bitcoiners français](https://profedustream.substack.com/p/bitcoin-la-naissance-dune-nouvelle) et qui a été déposé dans plusieurs dizaines de boîtes à livres du pays. Son design est également [disponible en open-source](https://www.canva.com/design/DAFs18FSoVM/Sy0QsfUkycTgXveeGgutBg/edit?utm_content=DAFs18FSoVM&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton).
 
 ![image](assets/fr/chapter27/45-fr.webp)
 ![image](assets/fr/chapter27/46-fr.webp)
@@ -1010,16 +1012,16 @@ Voici donc ci-dessous [le livret qui a été partagé entre bitcoiners français
 ## Réaliser une projection vidéo
 <chapterId>892b248a-b837-5df6-aac9-4b3261ff0390</chapterId>
 
-Tout bitcoiner a certainement déjà vu la très intéressante mi-série "Le mystère Satoshi, aux origines du Bitcoin" de [Rémi Forte](https:/https://twitter.com/forteremi).
-Sortie en 2021, celle-ci a été [plusieurs millions de fois sur YouTube](https://www.youtube.com/watch?v=0ETcLj5jBy4), tant elle est un premier pas stimulant pour comprendre d'où vient Bitcoin.
-En ce sens, il est tout à fait possible de **proposer à votre communauté une projection vidéo** de cette mini-série; quitte à créer un événement particulier par exemple.
+Tout bitcoiner a certainement déjà vu la très intéressante mi-série "Le mystère Satoshi, aux origines du Bitcoin" de [Rémi Forte](https://twitter.com/forteremi).
+Sortie en 2021, celle-ci a été visionnée [plusieurs millions de fois sur YouTube](https://www.youtube.com/watch?v=0ETcLj5jBy4).
+Une première idée de projection serait donc de **proposer à votre communauté une projection vidéo du mystère Satoshi**, lors d'un événement mensuel supplémentaire par exemple.
 
-Petit bémol toutefois: en France, nous avons contacté ARTE afin de vérifier que cela était légalement possible. Malheureusement, à cause des **droits de projection**, le montant par projection s'élèvait à près de 250€; avec une réduction envisageable de 120€ par projection si 5 meet-ups en effectuaient une dans l'année.
+Petit bémol toutefois: bien qu'ARTE France a confirmé que cette idée de diffusion est possible, il est nécessaire pour être dans la légalité de s'acquitter des **droits de projection**, dont le montant s'élèvait à près de 250€ par projection en 2023 (avec une réduction envisageable de 120€ par projection si 5 meet-ups effectuaient une projection dans l'année).
 Par conséquent, pour l'immense majorité des communautés, ce tarif est rédhibitoire. Reste que le documentaire est disponible gratuitement sur ARTE...
 #### 
 En parallèle, d'autres projections peuvent être réalisées.
-En France par exemple, **la réalisatrice du documentaire "Stranded", [Alana Mediavilla](https://twitter.com/AlanaMediavilla), a accepté que les meet-ups du pays diffusent en avant-première son documentaire**; dont certaines images sont tirées des séquences du [film "Dirty Coin"](https://www.dirtycointhemovie.com/) qui sortira courant 2024.
-La communauté de bitcoiners français a alors pris l'initiative de **traduire entièrement le documentaire "Stranded"**, d'intégrer les sous-titres français et de le partager à l'ensemble des meet-ups du pays. La semaine du 4 mars 2024, **une projection commune a alors vue le jour dans une dizaine de meet-ups du pays**.
+En France par exemple, **la réalisatrice [Alana Mediavilla](https://twitter.com/AlanaMediavilla) a accepté que les meet-ups du pays diffusent en avant-première son documentaire "Stranded"**; dont certaines images sont tirées des séquences du [film "Dirty Coin"](https://www.dirtycointhemovie.com/) qui sortira courant 2024.
+Certains bitcoiners ont alors pris l'initiative de **traduire entièrement le documentaire "Stranded" en français**, d'intégrer les sous-titres et de le partager à l'ensemble des meet-ups du pays. La semaine du 4 mars 2024, **la projection s'est alors déroulée de manière synchronisée dans une dizaine de meet-ups du pays**.
 
 ![image](assets/fr/chapter28/47.webp)
 

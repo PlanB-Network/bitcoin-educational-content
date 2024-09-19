@@ -43,7 +43,7 @@ Se espera que los participantes tengan un fuerte sentido de curiosidad, un deseo
 
 ### Por qué El Salvador necesita Bitcoin
 
-![video](https://www.youtube.com/live/In8BJ3VlaM8?feature=share)
+![video](https://youtu.be/VExfKFrGuYw)
 
 Bienvenidos a la primera conferencia del programa educativo **CUBO+**. Hoy, nos adentraremos en el mundo de Bitcoin, guiados por Ricky, el fundador del **Bitcoin Italia Podcast**. Ricky es un activista de los derechos humanos apasionado, que utiliza Bitcoin como una herramienta para proteger y promover los derechos humanos. Con más de seis años de experiencia, Ricky ha viajado extensamente, documentando la adopción de Bitcoin en mercados emergentes como El Salvador y Guatemala. Su trabajo va más allá del podcasting; también está activo en YouTube (Bitcoin Explorers) y en Twitter (**BTC Explorer**, **Ricky6**). El compromiso de Ricky con Bitcoin se basa en su creencia de que ofrece libertad financiera y privacidad, desafiando los sistemas bancarios tradicionales y centralizados.
 
@@ -141,14 +141,13 @@ Las bases de Bitcoin en el **movimiento Cypherpunk** y en la **Economía Austria
 
 ### Pila Tecnológica de Bitcoin
 
-![video](https://youtube.com/live/OKanfSTLlW0)
+![video](https://youtu.be/5UkjQomJsHU)
 
 En la primera conferencia del curso 'Cómo Bitcoin', comenzamos a explorar la pila tecnológica que respalda la red Bitcoin. Cubrimos una variedad de temas, incluyendo Hashcash, transacciones, la cadena de bloques, la Lightning Network y otros componentes clave del protocolo Bitcoin.
 
 ### Pila Tecnológica de Bitcoin Parte 2
 
-![video](https://www.youtube.com/live/VT2nuXaYnHk?feature=share)
-
+![video](https://youtu.be/UkwbPVhLeIk)
 Durante la segunda conferencia de 'Cómo Bitcoin', realizamos un examen más profundo de la pila tecnológica de Bitcoin.
 
 ### Estructura y Evolución de Bitcoin
@@ -259,7 +258,7 @@ Comprender las realidades del consumo de energía de Bitcoin, sus característic
 
 ### Instalación de Bitcoin Core
 
-![Video](https://youtube.com/live/K0meE5pldmI)
+![Video](https://youtu.be/fIUU2sRCEj0)
 
 En la primera conferencia del cuarto módulo, exploramos la arquitectura de Bitcoin y la instalación de un nodo de Bitcoin Core.
 
@@ -345,7 +344,7 @@ These are some of the basic commands when configuring your node:
 
 ### Instalación de C-lightning
 
-![video](https://youtube.com/live/p6SgjtplAAM)
+![video](https://youtu.be/zrB1Kc4BqvY)
 
 #### 1. **Recapitulemos el Bitcoin Core**
 
@@ -567,7 +566,7 @@ En conclusión, hoy cubrimos los pasos esenciales para reinstalar Bitcoin Core, 
 
 ### Seguridad y dispositivos de hardware
 
-![video](https://www.youtube.com/live/_0N4EC9Veuw?feature=share)
+![video](https://youtu.be/oVaI9WuLkgk)
 
 #### 1. Specter y Dispositivo Ledger
 
@@ -667,8 +666,7 @@ Esto concluye nuestra lección sobre seguridad y configuración de dispositivos 
 
 ### Problemas Abiertos en el Ecosistema Bitcoin
 
-![video](https://youtube.com/live/BVYKeTXMtzQ)
-
+![video](https://youtu.be/Vlm2ZdxcidA)
 #### Usabilidad
 
 A pesar de su existencia de más de una década, Bitcoin aún enfrenta desafíos significativos en términos de usabilidad. Las herramientas y las interfaces disponibles para los usuarios a menudo carecen de la madurez y facilidad de uso que se encuentran en los sistemas financieros más tradicionales. Esto es particularmente evidente en regiones como El Salvador, donde la adopción de Bitcoin ha sido respaldada por el gobierno. El problema principal aquí es la necesidad de mejores abstracciones que puedan simplificar la experiencia del usuario, haciendo que Bitcoin sea accesible incluso para personas con conocimientos técnicos mínimos.
@@ -826,7 +824,7 @@ En conclusión, comprender e integrar los principios de seguridad y fiabilidad e
 
 <chapterId>2c59d609-f1ef-53f4-9575-df62e4d066e9</chapterId>
 
-![Video](https://youtu.be/GM-ho5M5_mQ)
+![Video](https://youtu.be/ln-FYziKqNY)
 
 ### El Uso de Software Libre y de Código Abierto (FLOSS) en el Ecosistema de Bitcoin
 
@@ -874,7 +872,7 @@ En conclusión, la economía del software de código abierto se basa en las cont
 
 <chapterId>71867dd2-912c-55ad-b59c-9dbca8a39469</chapterId>
 
-![Video](https://youtu.be/4Fw9xS7JlVU)
+![Video](https://youtu.be/QcK-Cl8B9QU)
 
 ¡Bienvenidos! Hoy, exploraremos los aspectos cruciales de la criptografía que todo desarrollador de Bitcoin debe conocer. Nos centraremos en conceptos fundamentales y aplicaciones prácticas sin abrumarte con detalles teóricos excesivos. El objetivo principal es proporcionarte el conocimiento necesario para entender, implementar y solucionar problemas con los mecanismos criptográficos en Bitcoin de manera efectiva.
 
@@ -934,7 +932,7 @@ Al dominar estos conceptos y adherirse a las mejores prácticas, estarás bien e
 
 <chapterId>a30ec3e7-b290-5145-a9a9-042224ab20d2</chapterId>
 
-![Video](https://youtu.be/KSpKwTFSOdc)
+![Video](https://youtu.be/g_BcT5YkZUQ)
 
 ### Naturaleza de Bitcoin
 
@@ -1000,7 +998,7 @@ En conclusión, el futuro y los cambios de Bitcoin son determinados por la volun
 
 <chapterId>75ea1d88-ee6f-5f98-af90-e4758c55e606</chapterId>
 
-![Video](https://youtu.be/jdHc-pbDI9E)
+![Video](https://youtu.be/hGS8Cuj5Zb4)
 
 En el capítulo de Adam Gibson sobre los nodos de Bitcoin, se desglosan los diversos componentes de un nodo y su papel en el mantenimiento de la funcionalidad y la integridad de la red. A continuación, se explora en detalle por qué deberíamos ejecutar un nodo de Bitcoin, qué hace un nodo y cómo funcionan los diferentes componentes de un nodo de Bitcoin.
 
@@ -1102,7 +1100,7 @@ Ejecutar un nodo de Bitcoin es una forma poderosa de participar en la red de Bit
 
 <chapterId>5ed314b1-8293-567d-bf03-730e8c9c774b</chapterId>
 
-![video](https://youtu.be/SJnaDPZmVsE?si=5h048qponlVi-iQM)
+![video](https://youtu.be/okvV9hqDOtM)
 
 Alekos Filini presenta un análisis en profundidad de las estructuras de datos de Bitcoin. Esto cubre la organización de los datos dentro de la cadena de bloques y cómo permite la robustez y eficiencia de la red.
 
@@ -1392,7 +1390,7 @@ En conclusión, analizar bloques y transacciones de Bitcoin en Rust implica ente
 
 <chapterId>96d64781-fc27-5209-88d8-2acf00d05ea8</chapterId>
 
-![Video](https://youtu.be/L6FkntRwkOU)
+![Video](https://youtu.be/xOdz9GEiShM)
 
 ### Introducción
 
@@ -1664,7 +1662,7 @@ Al comprender estos componentes, desde nodos de Bitcoin y billeteras hasta el Ki
 
 <chapterId>a0b11c6e-c0ff-5e65-b809-b2ab9a2fc37b</chapterId>
 
-![Video](https://youtu.be/0ZgE-LjHWvI)
+![Video](https://youtu.be/VtpbCspK5T4)
 
 ### 1. Historia de los Canales de Pago
 
@@ -1704,7 +1702,7 @@ En conclusión, entender el contexto histórico y los desafíos de Bitcoin, así
 
 <chapterId>28be7b31-e6b2-5eea-a5ed-62ce0a154b6e</chapterId>
 
-![Video](https://youtu.be/RaMeYgSBJQ0)
+![Video](https://youtu.be/5OUgGHH6jPY)
 
 En nuestras lecciones anteriores, cubrimos los fundamentos de los canales de pago básicos. Estos canales permiten a dos participantes, digamos Alice y Bob, transaccionar directamente entre sí de manera fluida. Sin embargo, hay una limitación evidente en este modelo: Alice solo puede transaccionar con Bob y no con otros participantes como Charlie, a menos que establezca canales separados con cada uno de ellos. Esta necesidad de múltiples canales conduce a ineficiencias y problemas de escalabilidad, ya que sería poco práctico para Alice abrir un canal directo con cada persona con la que necesita transaccionar.
 
@@ -1762,7 +1760,7 @@ En resumen, el funcionamiento adecuado de los nodos asegura pagos atómicos, y l
 
 <chapterId>ba4b09ae-81de-53f2-8c15-316f037aaea9</chapterId>
 
-![Video](https://youtu.be/Fy5W_ryWrCY)
+![Video](https://youtu.be/1aIuKBkPlkg)
 
 La red Bitcoin opera como un sistema de intercambio de valor sin confianza, que sirve principalmente como una capa de liquidación donde las transacciones se registran en un libro mayor público. Esto asegura seguridad e inmutabilidad, pero presenta limitaciones, especialmente en términos de velocidad de transacción y tarifas. Como resultado, Bitcoin puede ser ineficiente para transacciones pequeñas diarias.
 
@@ -2128,7 +2126,7 @@ Al abordar estos desafíos, la Lightning Network seguirá evolucionando, convirt
 
 <chapterId>c06763dd-bb26-5fec-8ac4-3e446e9517cd</chapterId>
 
-![Video](https://youtu.be/TIrAMFK6Peg)
+![Video](https://youtu.be/VXMON_nD650)
 
 ### 1. Resiliencia y Evolución de Bitcoin
 
@@ -2184,7 +2182,7 @@ Al comprender y apreciar estos desarrollos, podemos reconocer el progreso multif
 
 <chapterId>f4d147bb-f146-5b36-a994-b9b70da83744</chapterId>
 
-![Video](https://youtu.be/OLTQLtQyoZE)
+![Video](https://youtu.be/KqBfPaXqU2U)
 
 ### Extending and Integrating Lightning Payments
 
@@ -2264,7 +2262,7 @@ La extensión e integración de los pagos Lightning a través de varios protocol
 
 <chapterId>a4eacfc3-7b37-5fa3-abd1-b1fc48b645f0</chapterId>
 
-![Video](https://youtu.be/22LadAWEMQo)
+![Video](https://youtu.be/W3Ra0cdG02I)
 
 #### Introducción
 

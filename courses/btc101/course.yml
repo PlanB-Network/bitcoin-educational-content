@@ -17,7 +17,7 @@ level: beginner
 # hours
 # Evaluate the number of hours that it would take to
 # complete the whole course
-hours: 20
+hours: 15
 
 # professors
 # List who is/are the professor(s)
@@ -33,7 +33,6 @@ professors:
 # Currently, there are no shared record of these UUIDs
 contributors:
   - another-satoshi
-
 
 # Proofreading metadata
 original_language: fr

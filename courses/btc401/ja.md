@@ -40,7 +40,7 @@ FilippoとMarioがCUBO+についての導入トークを提供し、待ち受け
 
 ### なぜエルサルバドルがBitcoinを必要とするのか
 
-![video](https://www.youtube.com/live/In8BJ3VlaM8?feature=share)
+![video](https://youtu.be/VExfKFrGuYw)
 
 最初の講義「なぜエルサルバドルがBitcoinを必要とするのか」では、Bitcoinプロトコルとその起源、サイファーパンク運動、そしてBitcoinが自由のツールとしての重要性（検閲されないお金、金融包摂、その他関連するトピック）についての概要を提供します。
 
@@ -61,12 +61,11 @@ FilippoとMarioがCUBO+についての導入トークを提供し、待ち受け
 
 ### Bitcoinの技術スタック
 
-![video](https://youtube.com/live/OKanfSTLlW0)
+![video](https://youtu.be/5UkjQomJsHU)
 「How Bitcoin」コースの最初の講義では、Bitcoinネットワークを支える技術スタックについて探求を始めました。Hashcash、トランザクション、ブロックチェーン、ライトニングネットワーク、およびBitcoinプロトコルの他の主要なコンポーネントを含む一連のトピックをカバーしました。
 ### Bitcoinの技術スタック
 
-![ビデオ](https://www.youtube.com/live/VT2nuXaYnHk?feature=share)
-
+![ビデオ](https://youtu.be/UkwbPVhLeIk)
 「How Bitcoin」の第二講義では、Bitcoinの技術スタックについてより深く掘り下げて調査しました。
 
 ## Bitcoinの誤解を解く
@@ -74,7 +73,7 @@ FilippoとMarioがCUBO+についての導入トークを提供し、待ち受け
 
 ### FUDを排除する
 
-![ビデオ](https://www.youtube.com/watch?v=P0reZe6pMpo)
+![ビデオ](https://youtu.be/f0Pf0u1y5F4)
 
 ブロックチェーンやshitcoinの誤解を解き、Bitcoinのエネルギー浪費や犯罪利用に関する神話や誤解を解く
 
@@ -83,19 +82,19 @@ FilippoとMarioがCUBO+についての導入トークを提供し、待ち受け
 
 ### Bitcoin Coreのインストール
 
-![ビデオ](https://youtube.com/live/K0meE5pldmI)
+![ビデオ](https://youtu.be/fIUU2sRCEj0)
 
 第4モジュールの最初の講義では、BitcoinのアーキテクチャとBitcoin Coreノードのインストールについて探求しました
 
 ### C-lightningのインストール
 
-![ビデオ](https://youtube.com/live/p6SgjtplAAM)
+![ビデオ](https://youtu.be/zrB1Kc4BqvY)
 
 第二講義では、c-lightningのインストールプロセスについて詳しく説明しました
 
 ### セキュリティとハードウェアデバイス
 
-![ビデオ](https://www.youtube.com/live/_0N4EC9Veuw?feature=share)
+![ビデオ](https://youtu.be/oVaI9WuLkgk)
 
 第三講義では、セキュリティ、ハードウェアデバイス、およびSpecterの設定に関連するトピックをカバーしました
 
@@ -104,8 +103,7 @@ FilippoとMarioがCUBO+についての導入トークを提供し、待ち受け
 
 ### Bitcoinエコシステムの未解決問題
 
-![ビデオ](https://youtube.com/live/BVYKeTXMtzQ)
-
+![ビデオ](https://youtu.be/Vlm2ZdxcidA)
 皆さん、Bitcoinの問題と潜在的な解決策についての準備期間の最後の講義のリンクです
 
 # Bitcoinの基礎
@@ -121,21 +119,21 @@ Peter Toddは、Bitcoinに固有のセキュリティ上の考慮事項につい
 ## Bitcoinにおけるフリーかつオープンソースソフトウェア（FLOSS）
 <chapterId>2c59d609-f1ef-53f4-9575-df62e4d066e9</chapterId>
 
-![ビデオ](https://youtu.be/GM-ho5M5_mQ)
+![ビデオ](https://youtu.be/ln-FYziKqNY)
 
 Bitcoinのエコシステムにおいて、フリーかつオープンソースソフトウェア（FLOSS）の使用は重要です。Peter Toddは、BitcoinにおけるFLOSSの重要性を探求し、FLOSSの歴史を探り、Githubが私たちがBitcoinのようなオープンソースソフトウェアを共同で構築するのをどのように可能にするかを検討します。
 
 ## Bitcoinにおける暗号学
 <chapterId>71867dd2-912c-55ad-b59c-9dbca8a39469</chapterId>
 
-![ビデオ](https://youtu.be/4Fw9xS7JlVU)
+![ビデオ](https://youtu.be/QcK-Cl8B9QU)
 
 Adam Gibsonは、数学的な観点からBitcoinの暗号学的基盤を参加者に案内します。このセッションでは、ハッシュとそのセキュリティ、マークルツリー、アイデンティティプロトコルと署名、離散ログと楕円曲線など、Bitcoinに存在する基本的な暗号学的関数についてカバーします。
 
 ## Bitcoinのガバナンスモデル
 <chapterId>a30ec3e7-b290-5145-a9a9-042224ab20d2</chapterId>
 
-![ビデオ](https://youtu.be/KSpKwTFSOdc)
+![ビデオ](https://youtu.be/g_BcT5YkZUQ)
 
 Peter Toddは、Bitcoinのガバナンスモデルについて議論し、Bitcoinコミュニティ内での意思決定がどのように行われ、この分散型アプローチがプロトコルの開発と安定性にどのように影響を与えるかについての洞察を提供します。特に、異なるタイプの変更がソフトフォークやハードフォークにどのようにつながるか、ポリシー変更とコンセンサスルールのガバナンスの違い、およびBitcoinの変更の政治ゲームについて探ります。
 
@@ -145,20 +143,20 @@ Peter Toddは、Bitcoinのガバナンスモデルについて議論し、Bitcoi
 ## Bitcoinにおけるノードコンポーネント
 <chapterId>75ea1d88-ee6f-5f98-af90-e4758c55e606</chapterId>
 
-![ビデオ](https://youtu.be/jdHc-pbDI9E)
+![ビデオ](https://youtu.be/hGS8Cuj5Zb4)
 アダム・ギブソンは、ビットコインノードの様々なコンポーネントを詳しく説明します。この章では、各コンポーネントがネットワークの機能性と完全性を維持するために果たす役割に焦点を当てています。特に、なぜビットコインノードを運用すべきか、ビットコインノードが何をするのか、そしてビットコインノードの異なるコンポーネントがどのように機能するのかについて詳しく説明しています。
 
 ## ビットコインのデータ構造
 <chapterId>5ed314b1-8293-567d-bf03-730e8c9c774b</chapterId>
 
-![video](https://youtu.be/SJnaDPZmVsE?si=5h048qponlVi-iQM)
+![video](https://youtu.be/okvV9hqDOtM)
 
 アレコス・フィリーニは、ビットコインのデータ構造について深く掘り下げて説明します。これには、ブロックチェーン内のデータの組織化と、それがネットワークの堅牢性と効率性をどのように可能にするかが含まれます。
 
 ## ビットコインL1ソフトウェアスタック
 <chapterId>96d64781-fc27-5209-88d8-2acf00d05ea8</chapterId>
 
-![Video](https://youtu.be/L6FkntRwkOU)
+![Video](https://youtu.be/xOdz9GEiShM)
 
 ダニエラ・ブロッツォーニは、ビットコインのレイヤー1ソフトウェアスタックについて包括的な概観を提供し、ビットコインのプロトコルの基盤を構成するレイヤー（例:ビットコインノードとビットコインウォレット）と、ビットコインライブラリの紹介とビットコイン開発キット（BDK）への深い潜入を含むビットコインソフトウェアの構築方法について説明します。
 
@@ -168,21 +166,21 @@ Peter Toddは、Bitcoinのガバナンスモデルについて議論し、Bitcoi
 ## 支払いチャネルの歴史
 <chapterId>a0b11c6e-c0ff-5e65-b809-b2ab9a2fc37b</chapterId>
 
-![Video](https://youtu.be/0ZgE-LjHWvI)
+![Video](https://youtu.be/VtpbCspK5T4)
 
 ガブリエル・コンテは、ライトニングネットワークに不可欠な支払いチャネルの開発に関する歴史的な視点を提供します。この章では、サトシの支払いチャネルからデュプレックス・マイクロペイメントチャネルやライトニング支払いチャネルのような双方向支払いチャネルソリューションまで、支払いチャネルの進化とビットコイン取引のスケーリングにおけるその重要性を探ります。
 
 ## アトミックルーティングの歴史
 <chapterId>28be7b31-e6b2-5eea-a5ed-62ce0a154b6e</chapterId>
 
-![Video](https://youtu.be/RaMeYgSBJQ0)
+![Video](https://youtu.be/5OUgGHH6jPY)
 
 ガブリエル・コンテは、アトミックルーティングの歴史を詳述し、ハブ・アンド・スポークスモデル、リップルモデル、ハッシュタイムロック契約（HTLCs）など、ライトニングネットワークのルーティング層の基盤となっているいくつかの技術について詳しく説明します。この歴史は、ライトニングネットワークを通じた安全で信頼性のある取引を可能にする上で重要な役割を果たしています。
 
 ## BOLTレビュー
 <chapterId>ba4b09ae-81de-53f2-8c15-316f037aaea9</chapterId>
 
-![Video](https://youtu.be/Fy5W_ryWrCY)
+![Video](https://youtu.be/1aIuKBkPlkg)
 
 asi0はBOLT、ライトニング技術の基礎をレビューし、ライトニングネットワークが実装しなければならない仕様について説明します。これは、ライトニングネットワークの異なる層についての最初の深い潜入になります。
 
@@ -206,14 +204,14 @@ asi0は、ライトニングネットワークを使用する際に直面する�
 ## LNの将来の進化
 <chapterId>c06763dd-bb26-5fec-8ac4-3e446e9517cd</chapterId>
 
-![Video](https://youtu.be/TIrAMFK6Peg)
+![Video](https://youtu.be/VXMON_nD650)
 
 ガブリエル・コンテは、ライトニングネットワークの将来の進化について推測し、デュアルファンデッドチャネル、eltoo、BOLT 12、PTLCs、ウォッチタワー、LSP基準などの潜在的な開発がビットコイン取引の風景をどのように変えるかを検討します。
 
 ## LNの上のプロトコル
 <chapterId>f4d147bb-f146-5b36-a994-b9b70da83744</chapterId>
 
-![Video](https://youtu.be/OLTQLtQyoZE)
+![Video](https://youtu.be/KqBfPaXqU2U)
 
 アレコス・フィリーニは、ライトニングネットワークの上に構築されたプロトコルを検討し、それらがビットコインのスケーラビリティと機能性にどのように貢献するかを説明します。
 
@@ -222,7 +220,7 @@ asi0は、ライトニングネットワークを使用する際に直面する�
 ## ビットコインマイニングの基本
 <chapterId>a4eacfc3-7b37-5fa3-abd1-b1fc48b645f0</chapterId>
 
-![ビデオ](https://youtu.be/22LadAWEMQo)
+![ビデオ](https://youtu.be/W3Ra0cdG02I)
 
 Ajelexはビットコインマイニングのビジネス面に焦点を当て、競争の激しい市場での収益性を維持する戦略を検討しています。議論には、運用コスト、効率性の対策、およびマイニング業界を動かす経済学の分析が含まれます。
 

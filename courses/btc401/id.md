@@ -40,7 +40,7 @@ Peserta diharapkan membawa rasa ingin tahu yang kuat, keinginan untuk belajar di
 
 ### Mengapa El Salvador membutuhkan Bitcoin
 
-![video](https://www.youtube.com/live/In8BJ3VlaM8?feature=share)
+![video](https://youtu.be/VExfKFrGuYw)
 
 Kuliah pertama ‘Mengapa El Salvador membutuhkan Bitcoin’ memberikan gambaran umum tentang: protokol Bitcoin dan akarnya, gerakan cypherpunk, dan pentingnya Bitcoin sebagai alat kebebasan (uang yang tidak dapat disensor, inklusi keuangan, dan topik terkait lainnya).
 
@@ -59,14 +59,13 @@ Penting untuk dicatat bahwa modul pertama, 'Mengapa Bitcoin', diperlukan untuk m
 
 ### Tumpukan Teknologi Bitcoin
 
-![video](https://youtube.com/live/OKanfSTLlW0)
+![video](https://youtu.be/5UkjQomJsHU)
 
 Dalam kuliah pertama kursus 'Bagaimana Bitcoin', kami mulai menjelajahi tumpukan teknologi yang menjadi dasar jaringan Bitcoin. Kami membahas berbagai topik, termasuk Hashcash, transaksi, blockchain, Lightning Network dan komponen kunci lainnya dari protokol Bitcoin.
 
 ### Tumpukan Teknologi Bitcoin
 
-![video](https://www.youtube.com/live/VT2nuXaYnHk?feature=share)
-
+![video](https://youtu.be/UkwbPVhLeIk)
 Selama kuliah kedua dari 'Bagaimana Bitcoin', kami melakukan pemeriksaan yang lebih mendalam terhadap tumpukan teknologi Bitcoin.
 
 ## Membongkar Bitcoin
@@ -74,7 +73,7 @@ Selama kuliah kedua dari 'Bagaimana Bitcoin', kami melakukan pemeriksaan yang le
 
 ### Memotong FUD
 
-![video](https://www.youtube.com/watch?v=P0reZe6pMpo)
+![video](https://youtu.be/f0Pf0u1y5F4)
 
 Membongkar blockchain dan shitcoin serta membongkar mitos dan kesalahpahaman tentang pemborosan energi Bitcoin, dan penggunaan kriminal
 
@@ -83,19 +82,19 @@ Membongkar blockchain dan shitcoin serta membongkar mitos dan kesalahpahaman ten
 
 ### Instalasi Bitcoin Core
 
-![Video](https://youtube.com/live/K0meE5pldmI)
+![Video](https://youtu.be/fIUU2sRCEj0)
 
 Dalam kuliah pertama dari modul ke-4 kami menjelajahi arsitektur Bitcoin dan instalasi node Bitcoin Core
 
 ### Instalasi C-lightning
 
-![video](https://youtube.com/live/p6SgjtplAAM)
+![video](https://youtu.be/zrB1Kc4BqvY)
 
 Selama kuliah kedua kami, kami menyelami proses instalasi c-lightning
 
 ### Keamanan dan Perangkat Keras
 
-![video](https://www.youtube.com/live/_0N4EC9Veuw?feature=share)
+![video](https://youtu.be/oVaI9WuLkgk)
 
 Dalam kuliah ketiga, kami membahas topik terkait keamanan, perangkat keras, dan konfigurasi Specter
 
@@ -104,8 +103,7 @@ Dalam kuliah ketiga, kami membahas topik terkait keamanan, perangkat keras, dan 
 
 ### Masalah Terbuka dalam Ekosistem Bitcoin
 
-![video](https://youtube.com/live/BVYKeTXMtzQ)
-
+![video](https://youtu.be/Vlm2ZdxcidA)
 Hai guys, berikut adalah link untuk kuliah terakhir dari periode persiapan tentang masalah Bitcoin dan solusi potensial
 
 # Dasar-dasar Bitcoin
@@ -120,21 +118,21 @@ Peter Todd membahas pertimbangan keamanan yang unik untuk Bitcoin, mengajarkan p
 
 ## Perangkat Lunak Bebas dan Sumber Terbuka (FLOSS) dalam Bitcoin
 <chapterId>2c59d609-f1ef-53f4-9575-df62e4d066e9</chapterId>
-![Video](https://youtu.be/GM-ho5M5_mQ)
+![Video](https://youtu.be/ln-FYziKqNY)
 
 Penggunaan Perangkat Lunak Sumber Terbuka Gratis (FLOSS) sangat kritis dalam ekosistem Bitcoin. Peter Todd menjelajahi pentingnya FLOSS untuk Bitcoin, mengeksplorasi sejarah FLOSS dan memeriksa bagaimana Github memungkinkan kita untuk secara kolaboratif membangun perangkat lunak sumber terbuka seperti Bitcoin.
 
 ## Kriptografi dalam Bitcoin
 <chapterId>71867dd2-912c-55ad-b59c-9dbca8a39469</chapterId>
 
-![Video](https://youtu.be/4Fw9xS7JlVU)
+![Video](https://youtu.be/QcK-Cl8B9QU)
 
 Adam Gibson membawa peserta melalui dasar-dasar kriptografi Bitcoin dari perspektif matematis. Sesi ini mencakup fungsi kriptografi esensial yang ada dalam Bitcoin, seperti hash dan keamanannya, pohon merkle, protokol identitas dan tanda tangan, log diskrit dan kurva eliptik.
 
 ## Model Tata Kelola Bitcoin
 <chapterId>a30ec3e7-b290-5145-a9a9-042224ab20d2</chapterId>
 
-![Video](https://youtu.be/KSpKwTFSOdc)
+![Video](https://youtu.be/g_BcT5YkZUQ)
 
 Peter Todd membahas model tata kelola Bitcoin, memberikan wawasan tentang bagaimana keputusan dibuat dalam komunitas Bitcoin dan bagaimana pendekatan terdesentralisasi ini mempengaruhi pengembangan dan stabilitas protokol. Secara khusus, ia mengeksplorasi bagaimana berbagai jenis perubahan dapat mengarah ke Soft atau Hard Forks, bagaimana perbedaan tata kelola antara perubahan kebijakan dan aturan konsensus, dan apa itu permainan politik perubahan dalam Bitcoin.
 
@@ -144,21 +142,21 @@ Peter Todd membahas model tata kelola Bitcoin, memberikan wawasan tentang bagaim
 ## Komponen Node dalam Bitcoin
 <chapterId>75ea1d88-ee6f-5f98-af90-e4758c55e606</chapterId>
 
-![Video](https://youtu.be/jdHc-pbDI9E)
+![Video](https://youtu.be/hGS8Cuj5Zb4)
 
 Adam Gibson memecah berbagai komponen dari sebuah node Bitcoin. Bab ini berfokus pada peran yang dimainkan setiap komponen dalam menjaga fungsionalitas dan integritas jaringan. Secara khusus, ia fokus pada mengapa kita harus menjalankan node bitcoin, apa yang dilakukan oleh node bitcoin, dan bagaimana berbagai komponen dari node bitcoin berfungsi.
 
 ## Struktur Data Bitcoin
 <chapterId>5ed314b1-8293-567d-bf03-730e8c9c774b</chapterId>
 
-![video](https://youtu.be/SJnaDPZmVsE?si=5h048qponlVi-iQM)
+![video](https://youtu.be/okvV9hqDOtM)
 
 Alekos Filini menyajikan pandangan mendalam tentang struktur data Bitcoin. Ini mencakup organisasi data dalam blockchain dan bagaimana hal itu memungkinkan ketangguhan dan efisiensi jaringan.
 
 ## Tumpukan Perangkat Lunak Bitcoin L1
 <chapterId>96d64781-fc27-5209-88d8-2acf00d05ea8</chapterId>
 
-![Video](https://youtu.be/L6FkntRwkOU)
+![Video](https://youtu.be/xOdz9GEiShM)
 
 Daniela Brozzoni menawarkan gambaran komprehensif tentang tumpukan perangkat lunak Bitcoin Layer 1, menjelaskan lapisan yang membentuk dasar dari protokol Bitcoin (yaitu node Bitcoin dan dompet Bitcoin) dan bagaimana membangun perangkat lunak Bitcoin dengan pengenalan ke perpustakaan Bitcoin dan penyelaman mendalam ke dalam Bitcoin Development Kit (BDK).
 
@@ -167,21 +165,21 @@ Daniela Brozzoni menawarkan gambaran komprehensif tentang tumpukan perangkat lun
 
 ## Sejarah Saluran Pembayaran
 <chapterId>a0b11c6e-c0ff-5e65-b809-b2ab9a2fc37b</chapterId>
-![Video](https://youtu.be/0ZgE-LjHWvI)
+![Video](https://youtu.be/VtpbCspK5T4)
 
 Gabriel Comte memberikan perspektif historis tentang pengembangan saluran pembayaran, yang fundamental untuk Jaringan Lightning. Bab ini mengeksplorasi evolusi saluran pembayaran dan signifikansinya dalam meningkatkan skala transaksi Bitcoin, dari saluran pembayaran Satoshi hingga solusi saluran pembayaran dua arah seperti Duplex Micropayment Channels atau saluran pembayaran Lightning.
 
 ## Sejarah Atomic Routing
 <chapterId>28be7b31-e6b2-5eea-a5ed-62ce0a154b6e</chapterId>
 
-![Video](https://youtu.be/RaMeYgSBJQ0)
+![Video](https://youtu.be/5OUgGHH6jPY)
 
 Gabriel Comte menceritakan sejarah atomic routing, mendetailkan beberapa teknik yang telah menjadi dasar dari lapisan routing jaringan lightning seperti model Hub-and-Spokes, model Ripple dan Hashed TimeLocked Contracts (HTLCs). Sejarah ini sangat penting dalam memungkinkan transaksi yang aman dan tanpa kepercayaan melintasi Jaringan Lightning.
 
 ## Ulasan BOLT
 <chapterId>ba4b09ae-81de-53f2-8c15-316f037aaea9</chapterId>
 
-![Video](https://youtu.be/Fy5W_ryWrCY)
+![Video](https://youtu.be/1aIuKBkPlkg)
 
 asi0 mengulas BOLT, Basis of Lightning Technology, menjelaskan spesifikasi yang harus dihormati oleh setiap implementasi Jaringan Lightning. Ini akan menjadi penyelaman mendalam pertama ke dalam berbagai lapisan Jaringan Lightning.
 
@@ -205,14 +203,14 @@ asi0 membahas tantangan praktis yang dihadapi saat bekerja dengan Jaringan Light
 ## Evolusi Masa Depan LN
 <chapterId>c06763dd-bb26-5fec-8ac4-3e446e9517cd</chapterId>
 
-![Video](https://youtu.be/TIrAMFK6Peg)
+![Video](https://youtu.be/VXMON_nD650)
 
 Gabriel Comte berspekulasi tentang evolusi masa depan Jaringan Lightning, mengeksplorasi pengembangan potensial -- seperti saluran yang didanai ganda eltoo, BOLT 12, PTLCs, Watchtowers dan standar LSP -- dan bagaimana mereka dapat mengubah lanskap transaksi Bitcoin.
 
 ## Protokol di atas LN
 <chapterId>f4d147bb-f146-5b36-a994-b9b70da83744</chapterId>
 
-![Video](https://youtu.be/OLTQLtQyoZE)
+![Video](https://youtu.be/KqBfPaXqU2U)
 Alekos Filini meneliti protokol yang dibangun di atas Lightning Network, menjelaskan bagaimana mereka berkontribusi pada skalabilitas dan fungsionalitas Bitcoin.
 # Bonus
 <partId>4c5c74d7-40a9-5292-9b82-e3f3d79875e1</partId>
@@ -220,7 +218,7 @@ Alekos Filini meneliti protokol yang dibangun di atas Lightning Network, menjela
 ## Esensi Penambangan Bitcoin
 <chapterId>a4eacfc3-7b37-5fa3-abd1-b1fc48b645f0</chapterId>
 
-![Video](https://youtu.be/22LadAWEMQo)
+![Video](https://youtu.be/W3Ra0cdG02I)
 
 Ajelex fokus pada aspek bisnis dari penambangan Bitcoin, meneliti strategi untuk menjaga profitabilitas dalam pasar yang kompetitif. Diskusi ini mencakup analisis biaya operasional, ukuran efisiensi, dan ekonomi yang menggerakkan industri penambangan.
 

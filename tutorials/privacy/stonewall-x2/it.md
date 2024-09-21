@@ -20,7 +20,7 @@ _Questo tutorial è fornito solo a scopo educativo e informativo. Non approviamo
 
 Stonewall x2 è una forma specifica di transazione Bitcoin che mira ad aumentare la privacy dell'utente durante una spesa, collaborando con una terza parte non coinvolta nella spesa stessa. Questo metodo simula un mini-coinjoin tra due partecipanti, effettuando contemporaneamente un pagamento a una terza parte. Le transazioni Stonewall x2 sono disponibili sia sull'applicazione Samourai Wallet che sul software Sparrow Wallet. Entrambi sono interoperabili.
 
-Il suo funzionamento è relativamente semplice: utilizziamo un UTXO in nostro possesso per effettuare il pagamento e chiediamo l'assistenza di una terza parte che contribuisce anche con un proprio UTXO. La transazione produce quattro output: due di essi di importi uguali, uno destinato all'indirizzo del destinatario del pagamento, l'altro a un indirizzo appartenente al collaboratore. Un terzo UTXO viene restituito a un altro indirizzo del collaboratore, consentendogli di recuperare l'importo iniziale (un'azione neutrale per loro, al netto delle commissioni di mining), e un ultimo UTXO ritorna a un indirizzo appartenente a noi, che costituisce il resto del pagamento.
+Il suo funzionamento è relativamente semplice: utilizziamo un UTXO in nostro possesso per effettuare il pagamento e chiediamo l'assistenza di una terza parte che contribuisce con un proprio UTXO. La transazione produce quattro output: due di essi di importi uguali, uno destinato all'indirizzo del destinatario del pagamento, l'altro a un indirizzo appartenente al collaboratore. Un terzo UTXO viene restituito a un altro indirizzo del collaboratore, consentendogli di recuperare l'importo iniziale (un'azione neutrale per loro, al netto delle commissioni di mining), e un ultimo UTXO ritorna a un indirizzo appartenente a noi, che costituisce il resto del pagamento.
 
 Così, tre ruoli diversi sono definiti nelle transazioni Stonewall x2:
 - Il mittente, che effettua il pagamento effettivo;
@@ -34,7 +34,7 @@ In questo esempio, ho intenzionalmente trascurato le commissioni di mining per f
 
 ## Qual è la differenza tra Stonewall e Stonewall x2?
 
-Una transazione Stonewall x2 funziona esattamente come una transazione Stonewall, tranne che la prima è collaborativa mentre la seconda non lo è. Come abbiamo visto, una transazione Stonewall x2 coinvolge la partecipazione di una terza parte, esterna al pagamento, che fornirà i suoi bitcoin per migliorare la privacy della transazione. In una tipica transazione Stonewall, il ruolo del collaboratore è assunto dal mittente.
+Una transazione Stonewall x2 funziona esattamente come una transazione Stonewall, tranne che la prima è collaborativa mentre la seconda non lo è. Come abbiamo visto, una transazione Stonewall x2 prevede la partecipazione di una terza parte, esterna al pagamento, che fornirà i suoi bitcoin per migliorare la privacy della transazione. In una tipica transazione Stonewall, il ruolo del collaboratore è assunto dal mittente.
 
 Riprendiamo il nostro esempio di Alice in panetteria. Se non avesse trovato qualcuno come Bob per accompagnarla nella sua spesa, avrebbe potuto fare una transazione Stonewall da sola. Così, i due UTXO di input sarebbero stati suoi e ne avrebbe ricevuti 3 in output.
 ![transaction stonewall](assets/it/2.webp)
@@ -51,14 +51,14 @@ Se si desidera trovare un collaboratore disposto ad assistere in una transazione
 
 ## Qual è lo scopo di una transazione Stonewall x2?
 
-La struttura Stonewall x2 aggiunge una quantità significativa di entropia alla transazione e confonde l'analisi della catena. Da una prospettiva esterna, una tale transazione può essere interpretata come una piccola Coinjoin tra due individui. Ma in realtà, si tratta di un pagamento. Questo metodo genera incertezze nell'analisi della catena e può persino portare a piste false.
+La struttura Stonewall x2 aggiunge una quantità significativa di entropia alla transazione e confonde l'analisi della blockchain. Da una prospettiva esterna, una simil transazione può essere interpretata come una piccola Coinjoin tra due individui. Ma in realtà, si tratta di un pagamento. Questo metodo genera incertezze nell'analisi della blockchain e può persino portare a piste false.
 
 Torniamo all'esempio di Alice, Bob e il panettiere. La transazione sulla blockchain apparirebbe così:
 ![stonewall x2 public](assets/it/3.webp)
-Un osservatore esterno che si basa su euristiche comuni di analisi della catena potrebbe erroneamente concludere che "Alice e Bob hanno effettuato una piccola coinjoin, con un UTXO ciascuno come input e due UTXO ciascuno come output."![misinterpretation stonewall x2](assets/it/4.webp)
+Un osservatore esterno che si basa su euristiche comuni di analisi della blockchain potrebbe erroneamente concludere che "Alice e Bob hanno effettuato una piccola coinjoin, con un UTXO ciascuno come input e due UTXO ciascuno come output."![misinterpretation stonewall x2](assets/it/4.webp)
 Questa interpretazione è errata perché, come sapete, è stato inviato un UTXO al panettiere, Alice ha solo un output di resto e Bob ne ha due.
 ![transaction stonewall x2](assets/it/1.webp)
-Anche se l'osservatore esterno riesce a identificare il pattern della transazione Stonewall x2, non avrà tutte le informazioni. Non sarà in grado di determinare quale dei due UTXO delle stesse quantità corrisponde al pagamento. Inoltre, non sarà in grado di sapere se è Alice o Bob a effettuare il pagamento. Infine, non sarà in grado di determinare se i due input UTXO provengono da due persone diverse o se appartengono a una singola persona che li ha uniti. Quest'ultimo punto è dovuto al fatto che le transazioni Stonewall classiche, di cui abbiamo parlato in precedenza, seguono esattamente lo stesso pattern delle transazioni Stonewall x2. Dall'esterno e senza informazioni aggiuntive sul contesto, è impossibile differenziare una transazione Stonewall da una transazione Stonewall x2. Tuttavia, le prime non sono transazioni collaborative, mentre le seconde lo sono. Questo aggiunge ancora più dubbi su questa spesa.
+Anche se l'osservatore esterno riesce a identificare il pattern della transazione Stonewall x2, non avrà tutte le informazioni. Non sarà infatti in grado di determinare quale dei due UTXO delle stesse quantità corrisponde al pagamento. Inoltre, non sarà in grado di sapere se è Alice o Bob a effettuare il pagamento. Infine, non sarà in grado di determinare se i due input UTXO provengono da due persone diverse o se appartengono a una singola persona che li ha uniti. Quest'ultimo punto è dovuto al fatto che le transazioni Stonewall classiche, di cui abbiamo parlato in precedenza, seguono esattamente lo stesso pattern delle transazioni Stonewall x2. Dall'esterno e senza informazioni aggiuntive sul contesto, è impossibile differenziare una transazione Stonewall da una transazione Stonewall x2. Tuttavia, le prime non sono transazioni collaborative, mentre le seconde lo sono. Questo aggiunge ancora più dubbi su questa spesa.
 ![Stonewall o Stonewall x2?](assets/it/5.webp)
 
 
@@ -87,7 +87,7 @@ Fai clic sul pulsante 'SEGUI'.
 ![follow paynym](assets/notext/11.webp)
 Conferma facendo clic su 'SI'.
 ![confirm follow paynym](assets/notext/12.webp)
-Il software ti offrirà quindi un pulsante 'CONNETTI'. Non è necessario fare clic su questo pulsante per il nostro tutorial. Questo passaggio è richiesto solo se hai intenzione di effettuare pagamenti all'altro PayNym nell'ambito del BIP47, che non è correlato al nostro tutorial.
+Il software ti offrirà quindi un pulsante 'CONNETTI'. Non è necessario fare clic su questo pulsante per il nostro tutorial. Questo passaggio è richiesto solo se hai intenzione di effettuare pagamenti all'altro PayNym nell'ambito di BIP47, che non è correlato al nostro tutorial.
 ![connect paynym](assets/notext/13.webp)
 Una volta che il tuo PayNym sta seguendo il PayNym del tuo collaboratore, ripeti questo processo in direzione opposta in modo che anche il tuo collaboratore possa seguirti. A questo punto puoi eseguire una transazione Stonewall x2.
 
@@ -97,7 +97,7 @@ Se stai usando Sparrow Wallet, apri il tuo portafoglio e accedi al menu 'Mostra 
 ![request paynym sparrow](assets/notext/14.webp)
 Quindi inserisci l'identificatore del PayNym del tuo collaboratore (sia il loro nickname '+...' che il loro codice di pagamento 'PM...') nella casella 'Trova contatto' e fai clic sul pulsante 'Aggiungi contatto'.
 ![add contact paynym](assets/notext/15.webp)
-Il software ti offrirà quindi un pulsante "Link Contatto". Non è necessario fare clic su questo pulsante per il nostro tutorial. Questo passaggio è richiesto solo se hai intenzione di effettuare pagamenti al PayNym indicato come parte del BIP47, che non è correlato al nostro tutorial.
+Il software ti offrirà quindi un pulsante "Link Contatto". Non è necessario fare clic su questo pulsante per il nostro tutorial. Questo passaggio è richiesto solo se hai intenzione di effettuare pagamenti al PayNym indicato come parte di BIP47, che non è correlato al nostro tutorial.
 Una volta che il tuo PayNym sta seguendo il PayNym del tuo collaboratore, ripeti questo processo nella direzione opposta in modo che anche il tuo collaboratore possa seguirti. Puoi quindi effettuare una transazione Stonewall x2.
 ## Come effettuare una transazione Stonewall x2 su Samourai Wallet?
 Se hai completato i passaggi precedenti per collegare i PayNym, sei finalmente pronto per effettuare la transazione Stonewall x2! Per farlo, segui il nostro tutorial video su Samourai Wallet:

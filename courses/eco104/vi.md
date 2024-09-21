@@ -1628,3 +1628,4 @@ Khi chúng ta kết thúc khóa học này, chúng tôi hy vọng bạn sẽ áp
 Hy vọng rằng sự hiểu biết mới mẻ này sẽ trao quyền cho bạn để khám phá thế giới tài chính đang phát triển với sự tự tin và có mục đích. Chúc bạn may mắn trên con đường khám phá và phát triển của bản thân!
 
 Tương lai tươi sáng!
+

@@ -30,7 +30,7 @@ Ici nous mettrons en lumière les tendances et les motifs communs dans les épis
 
 Section 1 - Introduction
 
-- 1.1 - Introduction du cours pas Rogzy & David
+- 1.1 - Introduction du cours par Rogzy & David
 
 Section 2 - Qu’est-ce que l’inflation ?
 
@@ -143,7 +143,7 @@ Le cas du Maravédis illustre comment un État peut dévaluer sélectivement une
 
 ![image](assets/chapitre-2.1/7.webp)
 
-[Voir une collection de pièce](https://docs.google.com/document/d/1aZa7gvz1nt8ZHDCoWKQdS9RGGjBHdipH1ApC8dW1xpM/edit?usp=sharing)
+[Voir une collection de pièces](https://docs.google.com/document/d/1aZa7gvz1nt8ZHDCoWKQdS9RGGjBHdipH1ApC8dW1xpM/edit?usp=sharing)
 
 #### 4. Révolution des prix du 15e au 17e siècle
 

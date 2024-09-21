@@ -40,7 +40,7 @@ Die Teilnehmer sollten eine starke Neugier, den Wunsch auf professionellem Nivea
 
 ### Warum El Salvador Bitcoin braucht
 
-![Video](https://www.youtube.com/live/In8BJ3VlaM8?feature=share)
+![Video](https://youtu.be/VExfKFrGuYw)
 
 Die erste Vorlesung 'Warum El Salvador Bitcoin braucht' gibt einen Überblick über: das Bitcoin-Protokoll und seine Ursprünge, die Cypherpunk-Bewegung und die Bedeutung von Bitcoin als Werkzeug der Freiheit (ungeschränktes Geld, finanzielle Inklusion und andere damit verbundene Themen).
 
@@ -60,14 +60,13 @@ Hier ist der Link, viel Spaß!
 
 ### Technologiestapel von Bitcoin
 
-![Video](https://youtube.com/live/OKanfSTLlW0)
+![Video](https://youtu.be/5UkjQomJsHU)
 
 In der ersten Konferenz des Kurses 'Wie Bitcoin' haben wir damit begonnen, den Technologiestapel zu erkunden, der dem Bitcoin-Netzwerk zugrunde liegt. Wir haben eine Vielzahl von Themen behandelt, darunter Hashcash, Transaktionen, die Blockchain, das Lightning-Netzwerk und andere Schlüsselkomponenten des Bitcoin-Protokolls.
 
 ### Technologiestapel von Bitcoin
 
-![Video](https://www.youtube.com/live/VT2nuXaYnHk?feature=share)
-
+![Video](https://youtu.be/UkwbPVhLeIk)
 Während der zweiten Konferenz von 'Wie Bitcoin' haben wir eine tiefere Untersuchung des Technologiestapels von Bitcoin durchgeführt.
 
 ## Bitcoin entzaubern
@@ -84,19 +83,19 @@ Entzauberung von Blockchains und Shitcoins sowie Entzauberung von Mythen und Mis
 
 ### Installation von Bitcoin Core
 
-![Video](https://youtube.com/live/K0meE5pldmI)
+![Video](https://youtu.be/fIUU2sRCEj0)
 
 In der ersten Vorlesung des vierten Moduls haben wir die Architektur von Bitcoin erkundet und die Installation eines Bitcoin Core-Knotens behandelt.
 
 ### Installation von C-lightning
 
-![Video](https://youtube.com/live/p6SgjtplAAM)
+![Video](https://youtu.be/zrB1Kc4BqvY)
 
 In unserer zweiten Vorlesung sind wir tiefer in den Installationsprozess von C-lightning eingetaucht.
 
 ### Sicherheit und Hardware-Geräte
 
-![Video](https://www.youtube.com/live/_0N4EC9Veuw?feature=share)
+![Video](https://youtu.be/oVaI9WuLkgk)
 
 In der dritten Vorlesung haben wir Themen im Zusammenhang mit Sicherheit, Hardware-Geräten und der Konfiguration von Specter behandelt.
 
@@ -105,8 +104,7 @@ In der dritten Vorlesung haben wir Themen im Zusammenhang mit Sicherheit, Hardwa
 
 ### Offene Probleme im Bitcoin-Ökosystem
 
-![Video](https://youtube.com/live/BVYKeTXMtzQ)
-
+![Video](https://youtu.be/Vlm2ZdxcidA)
 Hallo Leute, hier ist der Link zur letzten Vorlesung der Vorbereitungszeit über Bitcoin-Probleme und mögliche Lösungen!
 
 # Bitcoin-Grundlagen
@@ -122,21 +120,21 @@ Peter Todd geht auf die einzigartigen Sicherheitsaspekte von Bitcoin ein und zei
 ## Freie und Open-Source-Software (FLOSS) in Bitcoin
 <chapterId>2c59d609-f1ef-53f4-9575-df62e4d066e9</chapterId>
 
-![Video](https://youtu.be/GM-ho5M5_mQ)
+![Video](https://youtu.be/ln-FYziKqNY)
 
 Die Verwendung von Freier und Open-Source-Software (FLOSS) ist entscheidend für das Bitcoin-Ökosystem. Peter Todd untersucht die Bedeutung von FLOSS für Bitcoin, beleuchtet die Geschichte von FLOSS und untersucht, wie Github uns ermöglicht, gemeinsam Open-Source-Software wie Bitcoin zu entwickeln.
 
 ## Kryptographie in Bitcoin
 <chapterId>71867dd2-912c-55ad-b59c-9dbca8a39469</chapterId>
 
-![Video](https://youtu.be/4Fw9xS7JlVU)
+![Video](https://youtu.be/QcK-Cl8B9QU)
 
 Adam Gibson führt die Teilnehmer aus mathematischer Sicht in die kryptographischen Grundlagen von Bitcoin ein. Die Sitzung behandelt die wesentlichen kryptographischen Funktionen, die in Bitcoin vorhanden sind, wie Hashes und ihre Sicherheit, Merkle-Bäume, Identitätsprotokolle und Signaturen, diskrete Logarithmen und elliptische Kurven.
 
 ## Bitcoin-Governance-Modell
 <chapterId>a30ec3e7-b290-5145-a9a9-042224ab20d2</chapterId>
 
-![Video](https://youtu.be/KSpKwTFSOdc)
+![Video](https://youtu.be/g_BcT5YkZUQ)
 
 Peter Todd diskutiert das Governance-Modell von Bitcoin und gibt Einblicke, wie Entscheidungen in der Bitcoin-Community getroffen werden und wie dieser dezentrale Ansatz die Entwicklung und Stabilität des Protokolls beeinflusst. Insbesondere untersucht er, wie verschiedene Arten von Änderungen zu Soft- oder Hard-Forks führen können, den Unterschied in der Governance zwischen Politikänderungen und Konsensregeln und das politische Spiel der Änderungen in Bitcoin.
 
@@ -146,20 +144,20 @@ Peter Todd diskutiert das Governance-Modell von Bitcoin und gibt Einblicke, wie 
 ## Knotenkomponenten in Bitcoin
 <chapterId>75ea1d88-ee6f-5f98-af90-e4758c55e606</chapterId>
 
-![Video](https://youtu.be/jdHc-pbDI9E)
+![Video](https://youtu.be/hGS8Cuj5Zb4)
 
 Adam Gibson erklärt die verschiedenen Komponenten eines Bitcoin-Knotens. Das Kapitel konzentriert sich auf die Rolle, die jede Komponente bei der Aufrechterhaltung der Funktionalität und Integrität des Netzwerks spielt. Insbesondere wird er darauf eingehen, warum wir einen Bitcoin-Knoten betreiben sollten, was ein Bitcoin-Knoten tut und wie die verschiedenen Komponenten eines Bitcoin-Knotens funktionieren.
 
 ## Datenstrukturen in Bitcoin
 <chapterId>5ed314b1-8293-567d-bf03-730e8c9c774b</chapterId>
 
-![video](https://youtu.be/SJnaDPZmVsE?si=5h048qponlVi-iQM)
+![video](https://youtu.be/okvV9hqDOtM)
 
 Alekos Filini präsentiert einen detaillierten Blick auf die Datenstrukturen von Bitcoin. Dabei wird die Organisation der Daten innerhalb der Blockchain und wie sie die Robustheit und Effizienz des Netzwerks ermöglicht, behandelt.
 ## Bitcoin L1 Software Stack
 <chapterId>96d64781-fc27-5209-88d8-2acf00d05ea8</chapterId>
 
-![Video](https://youtu.be/L6FkntRwkOU)
+![Video](https://youtu.be/xOdz9GEiShM)
 
 Daniela Brozzoni bietet einen umfassenden Überblick über den Bitcoin Layer 1 Software Stack und erklärt die Schichten, die das Fundament des Bitcoin-Protokolls bilden (d.h. Bitcoin-Knoten und Bitcoin-Wallets) und wie man Bitcoin-Software erstellt. Dabei wird eine Einführung in Bitcoin-Bibliotheken gegeben und auf das Bitcoin Development Kit (BDK) eingegangen.
 
@@ -169,21 +167,21 @@ Daniela Brozzoni bietet einen umfassenden Überblick über den Bitcoin Layer 1 S
 ## Geschichte der Zahlungskanäle
 <chapterId>a0b11c6e-c0ff-5e65-b809-b2ab9a2fc37b</chapterId>
 
-![Video](https://youtu.be/0ZgE-LjHWvI)
+![Video](https://youtu.be/VtpbCspK5T4)
 
 Gabriel Comte bietet eine historische Perspektive auf die Entwicklung von Zahlungskanälen, die für das Lightning Network grundlegend sind. Dieses Kapitel untersucht die Entwicklung von Zahlungskanälen und ihre Bedeutung für die Skalierung von Bitcoin-Transaktionen, angefangen von Satoshi's Zahlungskanälen bis hin zu bidirektionalen Zahlungskanallösungen wie Duplex Micropayment Channels oder Lightning-Zahlungskanälen.
 
 ## Geschichte des Atomic Routing
 <chapterId>28be7b31-e6b2-5eea-a5ed-62ce0a154b6e</chapterId>
 
-![Video](https://youtu.be/RaMeYgSBJQ0)
+![Video](https://youtu.be/5OUgGHH6jPY)
 
 Gabriel Comte erzählt die Geschichte des Atomic Routing und beschreibt verschiedene Techniken, die die Grundlage für die Routing-Schicht des Lightning Network bilden, wie das Hub-and-Spokes-Modell, das Ripple-Modell und Hashed TimeLocked Contracts (HTLCs). Diese Geschichte hat es ermöglicht, sichere, vertrauenslose Transaktionen über das Lightning Network durchzuführen.
 
 ## BOLT-Überprüfung
 <chapterId>ba4b09ae-81de-53f2-8c15-316f037aaea9</chapterId>
 
-![Video](https://youtu.be/Fy5W_ryWrCY)
+![Video](https://youtu.be/1aIuKBkPlkg)
 
 asi0 überprüft BOLT, die Basis der Lightning-Technologie, und erklärt die Spezifikationen, die jede Implementierung des Lightning Network einhalten muss. Dabei wird ein erster detaillierter Einblick in die verschiedenen Schichten des Lightning Network gegeben.
 
@@ -207,14 +205,14 @@ asi0 behandelt die praktischen Herausforderungen bei der Arbeit mit dem Lightnin
 ## LN Future Evolution
 <chapterId>c06763dd-bb26-5fec-8ac4-3e446e9517cd</chapterId>
 
-![Video](https://youtu.be/TIrAMFK6Peg)
+![Video](https://youtu.be/VXMON_nD650)
 
 Gabriel Comte spekuliert über die zukünftige Entwicklung des Lightning Network und untersucht potenzielle Entwicklungen - wie dual-funded channels eltoo, BOLT 12, PTLCs, Watchtowers und LSP-Standards - und wie sie die Landschaft der Bitcoin-Transaktionen verändern könnten.
 
 ## Protokolle auf dem LN
 <chapterId>f4d147bb-f146-5b36-a994-b9b70da83744</chapterId>
 
-![Video](https://youtu.be/OLTQLtQyoZE)
+![Video](https://youtu.be/KqBfPaXqU2U)
 
 Alekos Filini untersucht die auf dem Lightning Network aufbauenden Protokolle und erklärt, wie sie zur Skalierbarkeit und Funktionalität von Bitcoin beitragen.
 
@@ -224,7 +222,7 @@ Alekos Filini untersucht die auf dem Lightning Network aufbauenden Protokolle un
 ## Bitcoin Mining Essentials
 <chapterId>a4eacfc3-7b37-5fa3-abd1-b1fc48b645f0</chapterId>
 
-![Video](https://youtu.be/22LadAWEMQo)
+![Video](https://youtu.be/W3Ra0cdG02I)
 
 Ajelex konzentriert sich auf den geschäftlichen Aspekt des Bitcoin-Minings und untersucht Strategien zur Aufrechterhaltung der Rentabilität in einem wettbewerbsintensiven Markt. Die Diskussion umfasst eine Analyse der Betriebskosten, Effizienzmaßnahmen und der wirtschaftlichen Treiber der Bergbauindustrie.
 

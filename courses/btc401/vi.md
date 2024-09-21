@@ -40,7 +40,7 @@ Người tham gia được kỳ vọng mang theo một tinh thần tò mò mạn
 
 ### Tại sao El Salvador cần Bitcoin
 
-![video](https://www.youtube.com/live/In8BJ3VlaM8?feature=share)
+![video](https://youtu.be/VExfKFrGuYw)
 
 Bài giảng đầu tiên ‘Tại sao El Salvador cần Bitcoin’ cung cấp một cái nhìn tổng quan về: giao thức Bitcoin và nguồn gốc của nó, phong trào cypherpunk, và tầm quan trọng của Bitcoin như một công cụ tự do (tiền không bị kiểm duyệt, sự bao gồm tài chính, và các chủ đề liên quan khác).
 
@@ -60,12 +60,11 @@ Quan trọng là phải lưu ý rằng mô-đun đầu tiên, 'Tại sao Bitcoin
 
 ### Ngăn xếp Công nghệ của Bitcoin
 
-![video](https://youtube.com/live/OKanfSTLlW0)
+![video](https://youtu.be/5UkjQomJsHU)
 Trong bài giảng đầu tiên của khóa học 'Hiểu về Bitcoin', chúng tôi đã bắt đầu khám phá công nghệ nền tảng hỗ trợ mạng lưới Bitcoin. Chúng tôi đã đề cập đến một loạt các chủ đề, bao gồm Hashcash, giao dịch, blockchain, Lightning Network và các thành phần chính khác của giao thức Bitcoin.
 ### Ngăn Xếp Công Nghệ của Bitcoin
 
-![video](https://www.youtube.com/live/VT2nuXaYnHk?feature=share)
-
+![video](https://youtu.be/UkwbPVhLeIk)
 Trong bài giảng thứ hai của 'Hiểu về Bitcoin', chúng tôi đã tiến hành kiểm tra sâu hơn về ngăn xếp công nghệ của Bitcoin.
 
 ## Phá Bỏ Bitcoin
@@ -73,7 +72,7 @@ Trong bài giảng thứ hai của 'Hiểu về Bitcoin', chúng tôi đã tiế
 
 ### Cắt Bỏ FUD
 
-![video](https://www.youtube.com/watch?v=P0reZe6pMpo)
+![video](https://youtu.be/f0Pf0u1y5F4)
 
 Phá bỏ blockchain và shitcoin và Phá bỏ những hiểu lầm và quan niệm sai lầm về việc lãng phí năng lượng của Bitcoin, và việc sử dụng cho mục đích tội phạm
 
@@ -82,19 +81,19 @@ Phá bỏ blockchain và shitcoin và Phá bỏ những hiểu lầm và quan ni
 
 ### Cài Đặt Bitcoin Core
 
-![Video](https://youtube.com/live/K0meE5pldmI)
+![Video](https://youtu.be/fIUU2sRCEj0)
 
 Trong bài giảng đầu tiên của mô-đun thứ 4, chúng tôi đã khám phá kiến trúc của Bitcoin và cài đặt một nút Bitcoin Core
 
 ### Cài Đặt C-lightning
 
-![video](https://youtube.com/live/p6SgjtplAAM)
+![video](https://youtu.be/zrB1Kc4BqvY)
 
 Trong bài giảng thứ hai, chúng tôi đã đi sâu vào quá trình cài đặt c-lightning
 
 ### Bảo Mật và Thiết Bị Phần Cứng
 
-![video](https://www.youtube.com/live/_0N4EC9Veuw?feature=share)
+![video](https://youtu.be/oVaI9WuLkgk)
 
 Trong bài giảng thứ ba, chúng tôi đã đề cập đến các chủ đề liên quan đến bảo mật, thiết bị phần cứng, và cấu hình của Specter
 
@@ -103,8 +102,7 @@ Trong bài giảng thứ ba, chúng tôi đã đề cập đến các chủ đ�
 
 ### Vấn Đề Mở trong Hệ Sinh Thái Bitcoin
 
-![video](https://youtube.com/live/BVYKeTXMtzQ)
-
+![video](https://youtu.be/Vlm2ZdxcidA)
 Các bạn ơi, đây là link cho bài giảng cuối cùng của giai đoạn chuẩn bị về các vấn đề của Bitcoin và các giải pháp tiềm năng
 
 # Cơ Bản về Bitcoin
@@ -120,21 +118,21 @@ Peter Todd đi sâu vào các vấn đề bảo mật đặc thù của Bitcoin,
 ## Phần Mềm Tự Do và Mã Nguồn Mở (FLOSS) trong Bitcoin
 <chapterId>2c59d609-f1ef-53f4-9575-df62e4d066e9</chapterId>
 
-![Video](https://youtu.be/GM-ho5M5_mQ)
+![Video](https://youtu.be/ln-FYziKqNY)
 
 Việc sử dụng Phần Mềm Tự Do và Mã Nguồn Mở (FLOSS) là rất quan trọng trong hệ sinh thái Bitcoin. Peter Todd khám phá tầm quan trọng của FLOSS đối với Bitcoin, tìm hiểu lịch sử của FLOSS và xem xét cách Github cho phép chúng ta cùng nhau xây dựng phần mềm mã nguồn mở như Bitcoin.
 
 ## Mật Mã học trong Bitcoin
 <chapterId>71867dd2-912c-55ad-b59c-9dbca8a39469</chapterId>
 
-![Video](https://youtu.be/4Fw9xS7JlVU)
+![Video](https://youtu.be/QcK-Cl8B9QU)
 
 Adam Gibson đưa người tham gia qua các nền tảng mật mã học của Bitcoin từ góc độ toán học. Phiên bản này bao gồm các chức năng mật mã học thiết yếu có mặt trong Bitcoin, như hash và bảo mật của chúng, cây merkle, giao thức danh tính và chữ ký, log rời rạc và đường cong elliptic.
 
 ## Mô Hình Quản Trị của Bitcoin
 <chapterId>a30ec3e7-b290-5145-a9a9-042224ab20d2</chapterId>
 
-![Video](https://youtu.be/KSpKwTFSOdc)
+![Video](https://youtu.be/g_BcT5YkZUQ)
 
 Peter Todd thảo luận về mô hình quản trị của Bitcoin, cung cấp cái nhìn sâu sắc về cách các quyết định được đưa ra trong cộng đồng Bitcoin và cách tiếp cận phân quyền này ảnh hưởng đến sự phát triển và ổn định của giao thức. Đáng chú ý, ông khám phá cách các loại thay đổi có thể dẫn đến Soft hoặc Hard Forks, sự khác biệt trong quản trị giữa thay đổi chính sách và quy tắc đồng thuận, và trò chơi chính trị của sự thay đổi trong Bitcoin.
 
@@ -144,20 +142,20 @@ Peter Todd thảo luận về mô hình quản trị của Bitcoin, cung cấp c
 ## Các Thành Phần Nút trong Bitcoin
 <chapterId>75ea1d88-ee6f-5f98-af90-e4758c55e606</chapterId>
 
-![Video](https://youtu.be/jdHc-pbDI9E)
+![Video](https://youtu.be/hGS8Cuj5Zb4)
 Adam Gibson phân tích các thành phần khác nhau của một nút Bitcoin. Chương này tập trung vào vai trò của mỗi thành phần trong việc duy trì chức năng và tính toàn vẹn của mạng. Đặc biệt, ông tập trung vào lý do tại sao chúng ta nên chạy một nút bitcoin, nút bitcoin làm gì, và các thành phần khác nhau của một nút bitcoin hoạt động như thế nào.
 
 ## Cấu Trúc Dữ Liệu của Bitcoin
 <chapterId>5ed314b1-8293-567d-bf03-730e8c9c774b</chapterId>
 
-![video](https://youtu.be/SJnaDPZmVsE?si=5h048qponlVi-iQM)
+![video](https://youtu.be/okvV9hqDOtM)
 
 Alekos Filini trình bày cái nhìn sâu sắc về cấu trúc dữ liệu của Bitcoin. Điều này bao gồm tổ chức dữ liệu trong blockchain và cách nó tạo điều kiện cho sự vững chắc và hiệu quả của mạng.
 
 ## Bitcoin L1 Software Stack
 <chapterId>96d64781-fc27-5209-88d8-2acf00d05ea8</chapterId>
 
-![Video](https://youtu.be/L6FkntRwkOU)
+![Video](https://youtu.be/xOdz9GEiShM)
 
 Daniela Brozzoni cung cấp cái nhìn tổng quan về Bitcoin Layer 1 software stack, giải thích các lớp tạo nên nền tảng của giao thức Bitcoin (tức là nút Bitcoin và ví Bitcoin) và cách xây dựng phần mềm Bitcoin với giới thiệu về thư viện Bitcoin và một cái nhìn sâu về Bitcoin Development Kit (BDK).
 
@@ -167,21 +165,21 @@ Daniela Brozzoni cung cấp cái nhìn tổng quan về Bitcoin Layer 1 software
 ## Lịch Sử của Payment Channels
 <chapterId>a0b11c6e-c0ff-5e65-b809-b2ab9a2fc37b</chapterId>
 
-![Video](https://youtu.be/0ZgE-LjHWvI)
+![Video](https://youtu.be/VtpbCspK5T4)
 
 Gabriel Comte cung cấp một góc nhìn lịch sử về sự phát triển của payment channels, là cơ sở của Lightning Network. Chương này khám phá sự tiến hóa của payment channels và tầm quan trọng của chúng trong việc mở rộng giao dịch Bitcoin, từ payment channels của Satoshi đến giải pháp payment channel hai chiều như Duplex Micropayment Channels hoặc Lightning payment channels.
 
 ## Lịch Sử của Atomic Routing
 <chapterId>28be7b31-e6b2-5eea-a5ed-62ce0a154b6e</chapterId>
 
-![Video](https://youtu.be/RaMeYgSBJQ0)
+![Video](https://youtu.be/5OUgGHH6jPY)
 
 Gabriel Comte kể lại lịch sử của atomic routing, chi tiết về một số kỹ thuật đã là nền tảng của lớp định tuyến của lightning network như mô hình Hub-and-Spokes, mô hình Ripple và Hashed TimeLocked Contracts (HTLCs). Lịch sử này đã rất quan trọng trong việc kích hoạt giao dịch an toàn, không cần tin cậy trên Lightning Network.
 
 ## Đánh Giá BOLT
 <chapterId>ba4b09ae-81de-53f2-8c15-316f037aaea9</chapterId>
 
-![Video](https://youtu.be/Fy5W_ryWrCY)
+![Video](https://youtu.be/1aIuKBkPlkg)
 
 asi0 đánh giá BOLT, cơ sở của Lightning Technology, giải thích các thông số kỹ thuật mà bất kỳ Lightning Network nào cũng phải tuân thủ. Đây sẽ là cái nhìn sâu rộng đầu tiên vào các lớp khác nhau của Lightning Network.
 
@@ -205,14 +203,14 @@ asi0 đề cập đến những thách thức thực tế khi làm việc với 
 ## Sự Tiến Hóa Tương Lai của LN
 <chapterId>c06763dd-bb26-5fec-8ac4-3e446e9517cd</chapterId>
 
-![Video](https://youtu.be/TIrAMFK6Peg)
+![Video](https://youtu.be/VXMON_nD650)
 
 Gabriel Comte suy đoán về sự tiến hóa tương lai của Lightning Network, xem xét các phát triển tiềm năng - như dual-funded channels, eltoo, BOLT 12, PTLCs, Watchtowers và tiêu chuẩn LSP - và cách chúng có thể biến đổi cảnh quan giao dịch Bitcoin.
 
 ## Các Giao Thức trên LN
 <chapterId>f4d147bb-f146-5b36-a994-b9b70da83744</chapterId>
 
-![Video](https://youtu.be/OLTQLtQyoZE)
+![Video](https://youtu.be/KqBfPaXqU2U)
 
 Alekos Filini xem xét các giao thức được xây dựng trên Lightning Network, giải thích cách chúng đóng góp vào khả năng mở rộng và chức năng của Bitcoin.
 
@@ -220,7 +218,7 @@ Alekos Filini xem xét các giao thức được xây dựng trên Lightning Net
 <partId>4c5c74d7-40a9-5292-9b82-e3f3d79875e1</partId>
 ## Cơ Bản về Đào Bitcoin
 <chapterId>a4eacfc3-7b37-5fa3-abd1-b1fc48b645f0</chapterId>
-![Video](https://youtu.be/22LadAWEMQo)
+![Video](https://youtu.be/W3Ra0cdG02I)
 
 Ajelex tập trung vào khía cạnh kinh doanh của việc đào Bitcoin, xem xét các chiến lược để duy trì lợi nhuận trong một thị trường cạnh tranh. Cuộc thảo luận bao gồm phân tích về chi phí hoạt động, các biện pháp hiệu quả và kinh tế học điều khiển ngành công nghiệp đào mỏ.
 

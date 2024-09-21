@@ -1,7 +1,7 @@
 ---
-课程名称: 比特币与BTC支付服务器（BTCPay Server）
-课程目标: 为您的企业安装BTC支付服务器
-课程目的:
+name: 比特币与BTC支付服务器（BTCPay Server）
+goal: 为您的企业安装BTC支付服务器
+objectives:
   - 理解BTCPay Server。
   - 自己运行并配置BTC支付服务器。
   - 在您的日常业务中使用BTCPay Server。

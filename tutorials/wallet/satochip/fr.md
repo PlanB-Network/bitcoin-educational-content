@@ -60,27 +60,27 @@ Ouvrez Sparrow Wallet et assurez-vous d'être correctement connecté à un nœud
 
 ![SATOCHIP](assets/notext/07.webp)
 
-Sur Sparrow Wallet, cliquez sur l'onglet "File".
+Sur Sparrow Wallet, cliquez sur l'onglet "*File*".
 
 ![SATOCHIP](assets/notext/08.webp)
 
-Puis sur le menu "New Wallet".
+Puis sur le menu "*New Wallet*".
 
 ![SATOCHIP](assets/notext/09.webp)
 
-Choisissez un nom pour votre portefeuille puis cliquez sur "Create Wallet".
+Choisissez un nom pour votre portefeuille puis cliquez sur "*Create Wallet*".
 
 ![SATOCHIP](assets/notext/10.webp)
 
-Cliquez sur le bouton "Connected Hardware Wallet".
+Cliquez sur le bouton "*Connected Hardware Wallet*".
 
 ![SATOCHIP](assets/notext/11.webp)
 
-Cliquez sur le bouton "Scan...".
+Cliquez sur le bouton "*Scan...*".
 
 ![SATOCHIP](assets/notext/12.webp)
 
-Votre Satochip devrait apparaître. Cliquez sur "Import Keystore".
+Votre Satochip devrait apparaître. Cliquez sur "*Import Keystore*".
 
 ![SATOCHIP](assets/notext/13.webp)
 
@@ -88,15 +88,15 @@ Ensuite, vous devez établir un code PIN pour déverrouiller votre Satochip. Cho
 
 Attention, ce mot de passe n'est pas une passphrase. Cela signifie que même sans ce mot de passe, votre phrase mnémonique vous permettra de réimporter votre portefeuille sur un logiciel si nécessaire. Le mot de passe sert uniquement à sécuriser l'accès au Satochip lui-même. C'est l'équivalent du code PIN que vous pouvez retrouver sur les autres hardware wallets.
 
-Une fois le mot de passe renseigné, cliquez de nouveau sur le bouton "Import Keystore".
+Une fois le mot de passe renseigné, cliquez de nouveau sur le bouton "*Import Keystore*".
 
 ![SATOCHIP](assets/notext/14.webp)
 
-Notez de nouveau le mot de passe, puis cliquez sur le bouton "Initialize".
+Notez de nouveau le mot de passe, puis cliquez sur le bouton "*Initialize*".
 
 ![SATOCHIP](assets/notext/15.webp)
 
-Vous arrivez ensuite sur la fenêtre permettant la génération de votre phrase mnémonique. Cliquez sur le bouton "Generate New".
+Vous arrivez ensuite sur la fenêtre permettant la génération de votre phrase mnémonique. Cliquez sur le bouton "*Generate New*".
 
 ![SATOCHIP](assets/notext/16.webp)
 
@@ -108,11 +108,11 @@ Votre portefeuille Bitcoin a bien été créé.
 
 ![SATOCHIP](assets/notext/18.webp)
 
-Cliquez de nouveau sur le bouton "Import Keystore".
+Cliquez de nouveau sur le bouton "*Import Keystore*".
 
 ![SATOCHIP](assets/notext/19.webp)
 
-Votre portefeuille est bien créé. Vos clés privées sont dorénavant stockées sur la smartcard de votre Satochip. Cliquez sur le bouton "Apply" pour continuer.
+Votre portefeuille est bien créé. Vos clés privées sont dorénavant stockées sur la smartcard de votre Satochip. Cliquez sur le bouton "*Apply*" pour continuer.
 
 ![SATOCHIP](assets/notext/20.webp)
 
@@ -120,7 +120,7 @@ Il est recommandé de configurer un mot de passe supplémentaire pour sécuriser
 
 ![SATOCHIP](assets/notext/21.webp)
 
-Renseignez votre mot de passe dans les 2 cases, puis cliquez sur le bouton "Set Password".
+Renseignez votre mot de passe dans les 2 cases, puis cliquez sur le bouton "*Set Password*".
 
 ![SATOCHIP](assets/notext/22.webp)
 
@@ -132,15 +132,15 @@ Maintenant que votre portefeuille est créé, vous pouvez déconnecter votre Sat
 
 ## Comment recevoir des bitcoins avec le Satochip ?
 
-Une fois sur votre portefeuille, cliquez sur l'onglet "Receive"
+Une fois sur votre portefeuille, cliquez sur l'onglet "*Receive*"
 
 ![SATOCHIP](assets/notext/24.webp)
 
-Sparrow Wallet vous génère une adresse de votre portefeuille. Habituellement, pour les autres hardware wallets, il est conseillé de cliquer sur "Display Address" afin de vérifier l'adresse directement sur l'écran du dispositif. Malheureusement, cette option n'est pas disponible avec le Satochip, mais assurez-vous de l'utiliser pour vos autres portefeuilles.
+Sparrow Wallet vous génère une adresse de votre portefeuille. Habituellement, pour les autres hardware wallets, il est conseillé de cliquer sur "*Display Address*" afin de vérifier l'adresse directement sur l'écran du dispositif. Malheureusement, cette option n'est pas disponible avec le Satochip, mais assurez-vous de l'utiliser pour vos autres portefeuilles.
 
 ![SATOCHIP](assets/notext/25.webp)
 
-Vous pouvez ajouter un "Label" pour décrire la source des bitcoins qui seront sécurisés avec cette adresse. C'est une bonne pratique qui vous permet de mieux gérer vos UTXOs.
+Vous pouvez ajouter un "*Label*" pour décrire la source des bitcoins qui seront sécurisés avec cette adresse. C'est une bonne pratique qui vous permet de mieux gérer vos UTXOs.
 
 ![SATOCHIP](assets/notext/26.webp)
 
@@ -154,19 +154,19 @@ Vous pouvez ensuite utiliser cette adresse pour recevoir des bitcoins.
 
 ## Comment envoyer des bitcoins avec le Satochip ?
 
-Maintenant que vous avez reçu vos premiers sats sur votre portefeuille sécurisé avec le Satochip, vous pouvez également les dépenser ! Connectez votre Satochip à votre ordinateur, lancez Sparrow Wallet, puis allez dans l'onglet "Send" pour construire une nouvelle transaction.
+Maintenant que vous avez reçu vos premiers sats sur votre portefeuille sécurisé avec le Satochip, vous pouvez également les dépenser ! Connectez votre Satochip à votre ordinateur, lancez Sparrow Wallet, puis allez dans l'onglet "*Send*" pour construire une nouvelle transaction.
 
 ![SATOCHIP](assets/notext/28.webp)
 
-Si vous souhaitez faire du coin control, c'est-à-dire choisir spécifiquement quels UTXOs consommer dans la transaction, rendez-vous dans l'onglet "UTXOs". Sélectionnez les UTXOs que vous souhaitez dépenser, puis cliquez sur "Send Selected". Vous serez redirigé vers le même écran de l'onglet "Send", mais avec vos UTXOs déjà sélectionnés pour la transaction.
+Si vous souhaitez faire du coin control, c'est-à-dire choisir spécifiquement quels UTXOs consommer dans la transaction, rendez-vous dans l'onglet "*UTXOs*". Sélectionnez les UTXOs que vous souhaitez dépenser, puis cliquez sur "*Send Selected*". Vous serez redirigé vers le même écran de l'onglet "*Send*", mais avec vos UTXOs déjà sélectionnés pour la transaction.
 
 ![SATOCHIP](assets/notext/29.webp)
 
-Entrez l'adresse de destination. Vous pouvez également entrer plusieurs adresses en cliquant sur le bouton "+ Add".
+Entrez l'adresse de destination. Vous pouvez également entrer plusieurs adresses en cliquant sur le bouton "*+ Add*".
 
 ![SATOCHIP](assets/notext/30.webp)
 
-Notez un "Label" pour vous souvenir de l'objet de cette dépense.
+Notez un "*Label*" pour vous souvenir de l'objet de cette dépense.
 
 ![SATOCHIP](assets/notext/31.webp)
 
@@ -178,31 +178,31 @@ Ajustez le taux de frais de votre transaction en fonction du marché du moment.
 
 ![SATOCHIP](assets/notext/33.webp)
 
-Assurez-vous que tous les paramètres de votre transaction sont corrects, puis cliquez sur "Create Transaction".
+Assurez-vous que tous les paramètres de votre transaction sont corrects, puis cliquez sur "*Create Transaction*".
 
 ![SATOCHIP](assets/notext/34.webp)
 
-Si tout vous convient, cliquez sur "Finalize Transaction for Signing".
+Si tout vous convient, cliquez sur "*Finalize Transaction for Signing*".
 
 ![SATOCHIP](assets/notext/35.webp)
 
-Cliquez sur "Sign".
+Cliquez sur "*Sign*".
 
 ![SATOCHIP](assets/notext/36.webp)
 
-Cliquez sur "Sign" de nouveau à côté de votre Satochip.
+Cliquez sur "*Sign*" de nouveau à côté de votre Satochip.
 
 ![SATOCHIP](assets/notext/37.webp)
 
-Entrez le code PIN de votre Satochip, puis cliquez de nouveau sur "Sign" pour signer votre transaction.
+Entrez le code PIN de votre Satochip, puis cliquez de nouveau sur "*Sign*" pour signer votre transaction.
 
 ![SATOCHIP](assets/notext/38.webp)
 
-Votre transaction est désormais signée. Cliquez sur "Broadcast Transaction" pour la diffuser au réseau Bitcoin.
+Votre transaction est désormais signée. Cliquez sur "*Broadcast Transaction*" pour la diffuser au réseau Bitcoin.
 
 ![SATOCHIP](assets/notext/39.webp)
 
-Vous pouvez la retrouver dans l'onglet "Transactions" de Sparrow Wallet.
+Vous pouvez la retrouver dans l'onglet "*Transactions*" de Sparrow Wallet.
 
 ![SATOCHIP](assets/notext/40.webp)
 

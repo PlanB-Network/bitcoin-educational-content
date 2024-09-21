@@ -5,7 +5,7 @@
 name: PlanB Network Author
 
 # contributor_id
-# Define its id using the 2 words of the bip39 dictionnary
+# Define its id using the 2 words of the bip39 dictionary by using the associated PlanB-UID (see /docs/planb-uid.md)
 contributor_id: another-satoshi
 
 # links

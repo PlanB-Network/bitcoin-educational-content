@@ -1,0 +1,13 @@
+builder: Satochip
+
+tags:
+  - hardware
+  - wallets
+  - keys
+
+category: hardware
+
+level: intermediary
+
+credits:
+  professor: pretty-private

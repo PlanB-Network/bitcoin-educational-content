@@ -1984,8 +1984,6 @@ Việc tính toán điểm Boltzmann bao gồm việc chia số lượng các c�
 
 $$
 \begin{align*}
-$$
-\begin{align*}
 \text{Số lượng cách diễn giải (IN.0 > OUT.3)} &= 512 \\
 \text{Tổng số cách diễn giải} &= 1496 \\
 \text{Điểm số} &= \frac{512}{1496} \\

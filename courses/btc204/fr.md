@@ -2257,8 +2257,8 @@ Le calcul du score de Boltzmann consiste à diviser le nombre d'interprétations
 
 $$
 \begin{align*}
-\text{Interprétations (IN.0 > OUT.3)} &= 512 \\
-\text{Interprétations totales} &= 1496 \\
+\text{Interpretations (IN.0 > OUT.3)} &= 512 \\
+\text{Interpretations totales} &= 1496 \\
 \text{Score} &= \frac{512}{1496} \\
 \text{Score} &= 34 \%
 \end{align*}

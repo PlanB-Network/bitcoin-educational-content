@@ -2111,12 +2111,12 @@ El cálculo del puntaje Boltzmann implica dividir el número de interpretaciones
 
 $$
 \begin{align*}
-\begin{align*}
 \text{Interpretaciones (IN.0 > OUT.3)} &= 512 \\
 \text{Total de Interpretaciones} &= 1496 \\
-\text{Puntuación} &= \frac{512}{1496} \\
-\text{Puntuación} &= 34\%
+\text{Puntuacion} &= \frac{512}{1496} \\
+\text{Puntuacion} &= 34\%
 \end{align*}
+$$
 
 Si revisamos el ejemplo de un Whirlpool coinjoin en un Ciclo de Oleada 8x8, la tabla Boltzmann se vería así:
 

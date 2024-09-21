@@ -1977,10 +1977,12 @@ Whirlpoolコインジョインの例を取ると、条件付き確率の表は�
 
 $$
 \begin{align*}
-解釈 (IN.0 > OUT.3) = 512 \\
-総解釈数 = 1496 \\
-スコア = \frac{512}{1496} \\
-スコア = 34\%
+\text{解釈 (IN.0 > OUT.3)} &= 512 \\
+\text{総解釈数} &= 1496 \\
+\text{スコア} &= \frac{512}{1496} \\
+\text{スコア} &= 34 \%
+\end{align*}
+$$
 
 もしWhirlpool coinjoin 8x8 Surge Cycleの例に戻ると、Boltzmann表は以下のようになります：
 

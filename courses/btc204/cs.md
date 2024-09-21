@@ -2057,12 +2057,12 @@ Výpočet Boltzmannova skóre zahrnuje dělení počtu interpretací, ve kterýc
 
 $$
 \begin{align*}
-\begin{align*}
 \text{Interpretace (IN.0 > OUT.3)} &= 512 \\
-\text{Celkový počet interpretací} &= 1496 \\
-\text{Skóre} &= \frac{512}{1496} \\
-\text{Skóre} &= 34 \%
+\text{Celkovy pocet interpretaci} &= 1496 \\
+\text{Skore} &= \frac{512}{1496} \\
+\text{Skore} &= 34 \%
 \end{align*}
+$$
 
 Pokud se vrátíme k příkladu Whirlpool coinjoin 8x8 Surge Cycle, Boltzmannova tabulka by vypadala takto:
 

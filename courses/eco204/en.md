@@ -527,7 +527,9 @@ Money counting technique from Uzbekistan
 In disrupted economies, traditional payment methods like checks can quickly lose their effectiveness. Banks, overwhelmed by the increasing demand for currency due to hyperinflation, may ration or delay the cashing of checks, thereby reducing their real value. This instability often leads to a prioritization of payment methods, where prices can vary depending on how one chooses to pay.
 
 > Weimar: "Price increases intensified the demand for money, both by the state and other employers. Private banks could not meet the demand at all and had to ration the cashing of checks, so uncashed checks remained frozen while their purchasing power dwindled."
-> Zimbabwe: "The time value of money has created three prices for goods and services; namely, a cash price, a real-time gross settlement price, and a check price. Eventually, no one accepted checks, which took five days to clear." 6. The "Burner-preneurs"
+> Zimbabwe: "The time value of money has created three prices for goods and services; namely, a cash price, a real-time gross settlement price, and a check price. Eventually, no one accepted checks, which took five days to clear."
+
+6. The "Burner-preneurs"
 
 As the value of the currency erodes, new economic opportunities emerge, exploiting market distortions. These entrepreneurs, often dubbed with inventive names like "Burner-preneurs," can thrive by borrowing devalued currency to invest in tangible assets, and then repaying their debts with even more devalued currency.
 
@@ -583,7 +585,8 @@ In the face of a collapsing economy and pervasive regulations, the line between 
 
 Weimar: "All crimes against the state, each and every one of them, to varying degrees, became a matter of survival for individuals."
 
-Zimbabwe: "Every resident in Zimbabwe was a criminal. Harsh as it may sound, it was true. With the myriad of small laws governing every aspect of life, it was inevitable that everyone would break a law every day. Owning foreign currency was illegal, according to an SI published in 2004. Having multiple bank accounts to bypass the daily withdrawal limit was illegal. Not having the correct license plates on your car, or no car radio license or generator permit, were all laws that someone, somewhere, was breaking." 13. Buying foreign currencies at any price
+Zimbabwe: "Every resident in Zimbabwe was a criminal. Harsh as it may sound, it was true. With the myriad of small laws governing every aspect of life, it was inevitable that everyone would break a law every day. Owning foreign currency was illegal, according to an SI published in 2004. Having multiple bank accounts to bypass the daily withdrawal limit was illegal. Not having the correct license plates on your car, or no car radio license or generator permit, were all laws that someone, somewhere, was breaking." 
+13. Buying foreign currencies at any price
 The frantic purchase of foreign currencies has often marked a critical turning point in currency devaluation, exacerbating the fall in intrinsic value.
 
 > Weimar: "Mannheimer, on the instructions of his boss, went out in August 1921 and started buying foreign currencies at any price - 'because Germany had an infinite amount of paper marks but no foreign currencies.' This was the first sign of the absolute collapse in the value of the mark."
@@ -685,8 +688,20 @@ The history of the Weimar Republic reveals that during this period, assets and c
 > [20minutes.fr](https://www.20minutes.fr/monde/3286947-20220513-guerre-ukraine-geler-avoirs-russes-vol-non-redistribuer-kiev-poserait-lourdes-questions): "Approximately $300 billion of Russian reserves held abroad have indeed been frozen as part of Western sanctions, out of the $640 billion in reserves held by the Russian Central Bank."
 
 3. The concept of market prices.
-   > Weimar : "Les entreprises zombies"
+During the Weimar Republic, farmers expressed their discontent with the "Umlage", which required them to supply the first two million tons of wheat produced each year. This regulation had the effect of putting half of the total bread supply on the market at subsidized prices. From August onwards, these farmers were supposed to be paid the world price, because although they were forced to sell their wheat at reduced prices, they had to purchase fertilizer at the world rate.
 
+This situation raises a central issue related to the concept of market prices during hyperinflation. In the German context at the time, farmers were forced to sell their wheat at prices below its value, while having to purchase fertilizer at world costs. Such an economic mismatch highlights the challenges of food prices today. Agricultural producers, faced with rising input costs due to inflation, pass these costs on to their final products. To criticize them for this increase is to ignore the dynamics of market prices and the economic pressures they face. Selling at artificially low prices while incurring high costs is unsustainable for any business.
+
+> Weimar: "Agricultural interests were unhappy with the 'Umlage', the forced delivery of the first two million tons of wheat produced each year, which allowed half of the total bread supply to be sold at low prices. From August onwards, farmers had to be paid the world price because, when they were forced to sell wheat at low prices, they still had to pay the world price for fertilizers."
+
+4. The Denial of the Link Between Money Supply and Inflation
+
+> Weimar: "He remained firmly attached to his view that the money supply was not linked to price levels or exchange rates."
+
+In contemporary times, this tendency persists with the example from the previous chapter of a list of explanations put forward by various economists and economic institutes to justify inflation. These reasons vary, ranging from cultural events and celebrities like Taylor Swift, Zelda, or Beyoncé, to global factors such as war and pandemics. While all these reasons may potentially contribute to short-term economic fluctuations, they divert attention from the true underlying cause, which is the expansion of the money supply.
+
+5. The Zombie Companies
+> Weimar : "Les entreprises zombies"
 > Contemporary: "Les entreprises zombies"
 > Weimar: "Stabilization put an end to the period when entrepreneurs could borrow as much as they wanted at the expense of everyone else. A large number of companies, created or developed during the monetary abundance, quickly became unproductive when capital became scarce."
 > A zombie company is a company that, under normal market conditions, would be insolvent or close to bankruptcy, but continues to operate mainly through low-cost borrowing. These companies earn just enough money to cover their debts but are unable to grow significantly.
@@ -697,16 +712,15 @@ The concept of zombie companies is not new. In fact, it was present in the Weima
 
 The phenomenon of zombie companies is not limited to the post-war history of Germany. Even today, many large companies survive thanks to privileged access to very low-interest credit. If they had to borrow at more conventional rates, many of them would cease to be profitable. This is particularly relevant as we are in 2023, and after a long period of near-zero interest rates, they have started to rise. This recent development in the financial landscape will undoubtedly be a decisive test for these companies that were once called "zombies".
 
-5. Get rich quick!
+6. Get rich quick!
 
 Throughout history, there have been moments when individuals seek to get rich quickly, as was the case in Weimar and Zimbabwe through arbitrage. Today, we see a similar trend with the emergence of certain cryptocurrencies. People are tempted by quick gains, taking risks in the hope of exponential multiplication of their investment. This approach can be reminiscent of what is observed during periods of hyperinflation, where arbitrage is used to obtain quick gains, often at the expense of others.
 
 ![image](assets/chapitre-3.3/6.webp)
 
-6. Savings, the remedy against uncertainty
-
-> the invasive and destructive influence of the constant erosion of the value of capital and income, as well as uncertainty about the future.
-> It is interesting to highlight a quote that emphasizes the destructive effect of the erosion of the value of capital on social cohesion, as well as the uncertainty it generates. It says: "the invasive and destructive influence of the constant erosion of the value of capital and income, as well as uncertainty about the future."
+7. Savings, the remedy against uncertainty
+It is interesting to highlight a quote that emphasizes the destructive effect of the erosion of the value of capital on social cohesion, as well as the uncertainty it generates. It says:
+> "the invasive and destructive influence of the constant erosion of the value of capital and income, as well as uncertainty about the future."
 
 Imagine a scenario where you have a family or loved ones that you want to protect. You work hard, save money, to anticipate future uncertainties. If everything was predictable, saving would be useless. But in the face of the unexpected, like a broken-down car, savings become a lifeline. It reduces the uncertainty of the world. However, in a period of hyperinflation, saving becomes a challenge. Money quickly loses its value, making long-term planning difficult. This financial instability can cause stress and anxiety.
 
@@ -773,8 +787,8 @@ That is an overview of Bolivia's tumultuous monetary history, marked by periods 
 Peru presents an interesting case regarding the effects of the arbitrary 50% rule. Starting with its monetary history, Peru used Spanish gold until the 19th century and declared its independence in 1821. The Peruvian dollar was in use from 1822 to 1863. In 1863, the Peruvian real was replaced by the soldi oro, at a rate of 10 to 1, reaching a maximum value of 50,000. In 1985, the currency "Inti" was introduced with a conversion rate of 1000 to 1, peaking at 5 million. In 1991, the "SOL" was launched with an exchange rate of 1 million to 1, with banknotes ranging from 10 to 200.
 Examining the redenomination periods, 1988 is considered a year of hyperinflation, especially in September. July-August 1990 also saw a period of hyperinflation. In 1988, the annual inflation rate was 667%, with a peak of 50% in September. In contrast, 1989 experienced an inflation rate of 3000% without any month exceeding 50%, so it was not classified as hyperinflation. In 1990, inflation peaked at 7481%. It is clear that the 50% rule can be arbitrary, as 1988 was considered a year of hyperinflation, unlike 1989. If this rule were reconsidered, it might be wise to lower the threshold to include periods like the one experienced by Peru in 1989.
 
-> Understanding what is happening
->
+#### Understanding what is happening
+
 > The key thing to understand about currency redenominations is that when the value of the currency reaches astronomical figures, such as 5 or 10 million, it is redenominated. This process can be repeated multiple times, involving a change in currency. The result is that individuals' savings can be severely affected, even in the absence of hyperinflation. For example, if someone saves $1,000 in one year and manages to set aside $100, the following year the lowest denomination bill could be $1,000, rendering the previously saved $100 worthless. Such erosion of savings does not require obvious hyperinflation. Even if a person has saved $10,000 over the past ten years, that amount could end up being worth a negligible amount, unable to buy a simple bottle of water. This reality is evident in many countries that have experienced redenominations, even if only a few months were classified as hyperinflationary. In contrast, some countries, like Nicaragua, have experienced consecutive years of hyperinflation.
 
 ### Nicaragua
@@ -863,8 +877,6 @@ In my book titled "Everything About Bitcoin," I dedicated an entire chapter to h
 For those curious about the German experience after World War I, I highly recommend the comic book "The Reich's Banker." It narrates how Germany managed to overcome hyperinflation, notably through the creation of the Rentenmark.
 
 ![image](assets/chapitre-3.5/4.webp)
-
-In my book titled "Everything About Bitcoin," I dedicated an entire chapter to hyperinflation in Zimbabwe. I detail the significant events, providing various examples illustrating how the country ultimately put an end to hyperinflation. For those curious about the German experience after World War I, I highly recommend the comic book "The Reich's Banker." It narrates how Germany managed to overcome hyperinflation, notably through the creation of the Rentenmark.
 
 The key takeaway is that there are several strategies to overcome hyperinflation. One can opt for dollarization or introduce a new currency. These solutions will only work if the population has confidence in them. It is crucial to impose strict constraints. A truly independent central bank is essential. It must not inflate the money supply to cover government deficits. In the case of mild inflation, limiting the growth of the money supply should suffice. However, when faced with hyperinflation, it is crucial to first have an appropriate money supply for the size of the economy in question. Then, it is imperative to impose strict constraints on the government to stabilize the situation.
 

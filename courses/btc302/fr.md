@@ -988,7 +988,7 @@ Comme dit précédemment, **ces flyers peuvent être déposés un peu partout**:
 En France et dans quelques autres pays, il existe également **des "boîtes à livres"**.
 Construites généralement en bois, ces dernières accueillent gratuitement des livres à donner. Une possibilité serait donc d'**y laisser un flyer; ou mieux: un livre !**
 
-![image](assets/fr/chapter27/43-ter.jpg)
+![image](assets/fr/chapter27/43-ter.png)
 ![image](assets/fr/chapter27/44.webp)
 
 

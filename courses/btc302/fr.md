@@ -1273,17 +1273,18 @@ En effet, n'oubliez pas que **toute communauté et tout meet-up est passé par l
 ## Prévoir l'augmentation du nombre de participants
 <chapterId>8af722d4-3a9f-548c-9001-424f2142de12</chapterId>
 
-Alors que le monde est entré dans sa quatrième époque, au bloc 840 000, de plus en plus d’individus voient **en Bitcoin une révolution; technologique, financière et sociale**.
+Alors que le monde est entré dans sa quatrième époque Bitcoin, au bloc 840 000, de plus en plus d’individus voient **en Bitcoin une révolution; technologique, financière et sociale**.
 
-À l’image de celle d’internet, cette révolution va nécessairement **prendre du temps**, et c’est une bonne chose. Cela va permettre à tout à chacun de **s’éduquer sur les fondamentaux de Bitcoin, et d’apprendre à l’utiliser**. Mais également, aux développeurs et aux entreprises de développer des protocoles et applications pertinentes, permettant d’explorer le plein potentiel de Bitcoin.
+À l’image de celle d’internet, cette révolution va nécessairement **prendre du temps**, et tant mieux. Cela va en effet permettre à tout à chacun de **s’éduquer sur les fondamentaux de Bitcoin et d’apprendre à l’utiliser**. Mais également, aux développeurs et aux entreprises de développer des protocoles et applications pertinentes, permettant d’explorer son plein potentiel.
 
-Bien qu’il est impossible de prévoir le futur, **une augmentation très significative du nombre d’utilisateurs de Bitcoin est à anticiper**, afin d’**être préparé à toutes les situations**. Y compris les plus catastrophiques, comme une potentielle implosion du système financier traditionnel; voire même: une interdiction de Bitcoin.
-
+Bien qu’il est impossible de prévoir le futur, **une augmentation très significative du nombre d’utilisateurs de Bitcoin est à anticiper**; et cela, afin d’**être préparé à toutes les éventualités**. Y compris les plus catastrophiques, comme une potentielle implosion du système financier traditionnel; voire même: une interdiction de Bitcoin.
+####
+####
 Dans cette huitième et dernière partie de ce cours, nous allons donc prendre le temps de détailler quelques points à prendre en considération lors du développement de votre communauté et de vos meet-ups.
 ####
 Le premier d'entre-eux (le plus simple à anticiper) est évidemment **l’augmentation du nombre de personnes rejoignant votre communauté**. Cela l’impactera alors de deux manières:
 
-1) **vos canaux de communication (Telegram, Signal, Matrix, etc...) se rempliront, rendant potentiellement les conversations difficilement suivables**. Deux points sont alors à prendre en considération.
+1/ **vos canaux de communication (Telegram, Signal, Matrix, etc...) se rempliront, rendant potentiellement les conversations difficilement suivables**. Deux points sont alors à prendre en considération.
 D’une part, si vous êtes 500 à échanger sur des sujets divers dans un même canal de discussion, une majorité de vos membres vont petit à petit arrêter de suivre les conversations; entre autre à cause de l’abondance des messages à lire et des notifications associées. En ce sens, il peut être pertinent de **réfléchir de nouveau à ses canaux de communication; à l’image par exemple des super-groupes Telegram, voire d’un serveur Discord**, qui permettent tous deux de regrouper les conversations par thème.
 D’autre part, qui dit plus de monde dans les canaux d’échanges dit également plus de bots, plus de scams mais également **plus de modération à effectuer**. Il vous faudra donc être préparé, en rédigeant par exemple un règlement sur lequel vous pourrez vous appuyer lorsque vous modérerez un message. D’expérience, cela permet d’éviter une grande partie des conflits; en particulier lorsque le règlement est disponible à la lecture sur vos canaux de communication. L’association Bitcoin Lille a en ce sens rédigé il y a quelques années **[un règlement open-source](https://bitcoinlille.fr/reglement/) pour son groupe Telegram et pour son serveur Discord**, s’appuyant sur des principes simples et universels. Son design est [lui aussi disponible](https://www.canva.com/design/DAGHI692AD4/rjT4sqEnhajc5FiPA6GFZQ/edit?utm_content=DAGHI692AD4&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton).
 

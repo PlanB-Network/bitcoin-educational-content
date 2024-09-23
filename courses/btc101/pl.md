@@ -1,9 +1,9 @@
 ---
-nazwa: Podróż przez Bitcoina 
-cel: Odkryj Bitcoina i jego podstawy, w tym jego propozycję wartości monetarnej, górników, transakcje i portfele.
-objectives:
+nazwa: Podróż przez świat Bitcoina 
+temat: Odkryj Bitcoina i jego podstawy, w tym jego propozycję wartości monetarnej, górników, transakcje i portfele.
+cele:
   - Zdobądź ogólne zrozumienie technologii Bitcoin
-  - Zrozum, jak kupować i zabezpieczać Bitcoiny
+  - Zrozum, jak kupować i zabezpieczać bitcoiny
   - Zdobądź ogólne zrozumienie technologii Blockchain
   - Zapoznaj się z koncepcją Lightning Network
   - Zrozum geopolityczny i społeczny wpływ Bitcoina
@@ -11,11 +11,11 @@ objectives:
 
 # Twoja pierwsza przygoda z Bitcoinem
 
-W tym kursie wyjaśnię Bitcoina w 21 rozdziałach, abyś mógł zrozumieć tę technologię w prosty i skuteczny sposób. Kurs jest dostępny dla każdego i bada całą branżę: górników, portfele, platformy kupna/sprzedaży, itp...
+W tym kursie wyjaśnię Bitcoina w 21 rozdziałach, abyś mógł zrozumieć tę technologię w prosty i skuteczny sposób. Kurs jest zaprojektowany tak, aby był przystępny dla każdego i bada całą branżę: górników, portfele, platformy kupna/sprzedaży, itp...
 
-Kurs powinien zająć około 15 godzin. Na przestrzeni podróży dostępne są plakaty wyjaśniające i dodatkowe zasoby.
+Kurs powinien zająć około 15 godzin, zawiera plakaty wyjaśniające i dodatkowe materiały.
 
-Nie potrzebujesz żadnej specjalistycznej wiedzy, aby zacząć - kurs jest napisany przystępnie dla każdego!
+Nie potrzebujesz żadnej specjalistycznej wiedzy, aby zacząć kurs - jest napisany z myślą o Tobie!
 
 +++
 
@@ -27,17 +27,17 @@ Nie potrzebujesz żadnej specjalistycznej wiedzy, aby zacząć - kurs jest napis
 
 ### Witaj w nowym paradygmacie monetarnym i technologicznym.
 
-Bitcoin to znacząca innowacja, która wykracza poza prostą "walutę internetową". To rewolucja zarówno w technologii, jak i w pieniądzu, zdolna do kwestionowania naszego stosunku do waluty i społeczeństwa. Bitcoin jest tzw. walutą **neutralną** i **zdecentralizowaną**, co oznacza, że nie jest kontrolowana przez żadną jednostkę ani instytucję. To znacząca innowacja, która wykracza poza zwykłą walutę. Aby zrozumieć słynnego bitcoina, ważne jest, aby zrozumieć, że bitcoin (odnoszący się do BTC) jest zarówno protokołem komputerowym (Bitcoin), jak i jednostką monetarną (bitcoin).
+Bitcoin to znacząca innowacja, która wykracza poza prostą "walutę internetową". To rewolucja zarówno technologiczna, jak i finansowa, która podważa nasz dotychczasowy stosunkek do pieniądza i społeczeństwa. Bitcoin jest tzw. walutą **neutralną** i **zdecentralizowaną**, co oznacza, że nie jest kontrolowana przez żadną jednostkę ani instytucję. To znacząca innowacja, która wykracza poza zwykłą walutę. Aby zrozumieć słynnego bitcoina, ważne jest, aby zrozumieć, że bitcoin (zapisywany skrótem BTC) jest zarówno protokołem komputerowym (Bitcoin), jak i jednostką monetarną (bitcoin).
 
-Protokół wykorzystuje podstawowe technologie, takie jak kryptografia, komunikacja sieciowa i słynny "blockchain", podczas gdy jednostka bitcoin jest walutą niezbędną do prawidłowego funkcjonowania tego samego protokołu. W codziennym życiu Salwadorczycy czy bitcoinerzy na całym świecie używają waluty bitcoin do kupowania i sprzedawania towarów i usług, przy czym waluta ta opiera się na protokole Bitcoin, aby funkcjonować.
+Protokół wykorzystuje podstawowe technologie, takie jak kryptografia, komunikacja sieciowa i słynny "blockchain", podczas gdy jednostka bitcoin jest walutą niezbędną do prawidłowego funkcjonowania tego samego protokołu. W codziennym życiu obywatele państwa El Salvador (pierwsze państwo na świecie, które zaakceptowało bitcoina jako oficjalną walutę kraju – przyp. tłum.) czy bitcoinerzy na całym świecie używają waluty bitcoin do kupowania i sprzedawania towarów i usług, przy czym waluta ta opiera się na protokole Bitcoin, aby funkcjonować.
 
-### Kompleksowy, a jednocześnie dostępny program nauczania
+### Kompleksowy, a jednocześnie przystępny program nauczania
 
-W tym kursie omówimy aspekty monetarne Bitcoina, w tym jak kupować i sprzedawać bitcoiny, bezpiecznie przechowywać je w portfelach cyfrowych oraz używać ich do transakcji. Zbadamy również rolę górników, którzy są niezbędni do tworzenia nowych bitcoinów i zabezpieczania sieci Bitcoin. Dodatkowo zbadamy przyszłość Bitcoina i to, jak technologia Lightning Network może poprawić transakcje Bitcoin.
+W tym kursie omówimy aspekty monetarne Bitcoina, w tym jak kupować i sprzedawać bitcoiny, bezpiecznie przechowywać je w portfelach cyfrowych oraz używać ich do transakcji. Zbadamy również rolę górników, którzy są niezbędni do tworzenia nowych bitcoinów i zabezpieczania sieci Bitcoin. Dodatkowo zbadamy przyszłość Bitcoina i to, jak technologia Lightning Network może poprawić transakcje w protokole Bitcoin.
 
 ![obraz](assets/Concept/chapitre0/4.jpeg)
 
-Istotne jest, aby zrozumieć, że Bitcoin to nowy system monetarny, który rewolucjonizuje nasz stosunek do pieniędzy. Nauka korzystania z Bitcoina jest niezbędną umiejętnością dla każdego, kto chce mieć kontrolę nad własnymi pieniędzmi.
+Istotne jest, aby zrozumieć, że Bitcoin to nowy system monetarny, który rewolucjonizuje nasz stosunek do pieniędzy. Nauczenie się korzystania z Bitcoina jest umiejętnością niezbędną  dla każdego, kto chce mieć kontrolę nad własnymi pieniędzmi.
 
 **Sekcja 1 - Pieniądz**
 
@@ -51,7 +51,7 @@ Istotne jest, aby zrozumieć, że Bitcoin to nowy system monetarny, który rewol
 - Rozdział 5 - Jak działają portfele Bitcoin?
 - Rozdział 6 - Wybór twojego zabezpieczenia
 - Rozdział 7 - Konfiguracja twojego portfela
-- Rozdział 8 - Ochrona przed czasem
+- Rozdział 8 - Ochrona przed upływem czasu
 
 **Sekcja 3 - Aspekty techniczne Bitcoina**
 
@@ -71,24 +71,24 @@ Istotne jest, aby zrozumieć, że Bitcoin to nowy system monetarny, który rewol
 
 - Rozdział 17 - Wprowadzenie do Lightning Network
 - Rozdział 18 - Przypadki użycia dla Sieci Lightning
-Zanim omówimy definicję i funkcjonowanie pieniądza w społeczeństwie (Rozdział 1), zaczynamy od genezy Bitcoina. Bitcoin to stosunkowo nowa technologia, uruchomiona w 2009 roku, która nie ma sobie równych. Dlatego normalne jest, że nie wszystko jest od razu zrozumiałe. W rzeczywistości, podobnie jak przy uczeniu się korzystania z Internetu czy samochodu, nie trzeba znać wszystkich szczegółów technicznych, aby używać Bitcoina (otrzymywać, płacić, zabezpieczać swoje środki).
+Zanim omówimy definicję i funkcjonowanie pieniądza w społeczeństwie (Rozdział 1), zaczynamy od genezy Bitcoina. Bitcoin to stosunkowo nowa technologia, uruchomiona w 2009 roku, która nie ma sobie równych. Dlatego naturalne jest, że nie wszystko jest od razu zrozumiałe. W rzeczywistości, podobnie jak przy uczeniu się korzystania z Internetu czy samochodu, nie trzeba znać wszystkich szczegółów technicznych, aby używać Bitcoina (otrzymywać, płacić, zabezpieczać swoje środki).
 
 ![obraz](assets/Concept/chapitre0/3.png)
 
-Znaczenie ma tutaj głównie zrozumienie tej nowej technologii w ogólny sposób. Mamy nadzieję, że to szkolenie przypadnie Ci do gustu i dostarczy Ci niezbędnych podstaw do zrozumienia, a może nawet do dalszego postępu w tym nowym globalnym paradygmacie monetarnym.
+Ważne tutaj jest ogólne zrozumienie tej nowej technologii. Mamy nadzieję, że to szkolenie przypadnie Ci do gustu i dostarczy Ci niezbędnych podstaw do zrozumienia, a może nawet do dalszego postępu w tym nowym globalnym paradygmacie monetarnym.
 
 ## Prehistoria Bitcoina
 
 ![Prehistoria Bitcoina](https://www.youtube.com/watch?v=ljHLhTzrLsw)
 
-Zanim termin "Bitcoin" stał się synonimem cyfrowej waluty i transformacji finansowej, seria pomysłów, innowacji i ruchów społecznych przygotowała grunt pod jego powstanie. Jednym z fundamentalnych elementów tej prehistorii Bitcoina jest ruch cypherpunków.
+Zanim termin "Bitcoin" stał się synonimem waluty cyfrowej i transformacji finansowej, seria pomysłów, innowacji i ruchów społecznych przygotowała grunt pod jego powstanie. Jednym z fundamentalnych elementów tej prehistorii Bitcoina jest ruch cypherpunków.
 
 ### Cypherpunkowie: Wizjonerzy Cyfrowego Świata
 
 ![obraz](assets/Concept/chapitre0/0.jpeg)
-W sercu ewolucji technologicznej lat 80. i 90., grupa osób zaczęła głęboko kwestionować rolę prywatności i wolności w cyfrowym wieku. Ci ludzie, którzy później zostali znani jako "cypherpunkowie", mocno wierzyli, że kryptografia może służyć jako narzędzie do ochrony indywidualnych praw przed ingerencją rządów i dużych korporacji.
+W sercu ewolucji technologicznej lat 80. i 90., pewna grupa osób zaczęła głęboko kwestionować rolę prywatności i wolności w wieku cyfryzacji. Ludzie ci, którzy później zaczęli być opisywani jako "cypherpunkowie", mocno wierzyli, że kryptografia może służyć jako narzędzie do ochrony indywidualnych praw każdego człowieka przed ingerencją rządów i dużych korporacji.
 
-Ikoniczne postacie takie jak Julian Assange, Wei Dai, Tim May i David Chaum przyczyniły się do zdefiniowania filozofii i wizji cypherpunków. Ci myśliciele dzielili się swoimi pomysłami na wpływowej liście mailingowej, gdzie uczestnicy z całego świata debatowali o najlepszym sposobie wykorzystania technologii do zapewnienia większej indywidualnej wolności.
+Ikoniczne postacie takie jak Julian Assange, Wei Dai, Tim May i David Chaum przyczyniły się do zdefiniowania filozofii i wizji cypherpunków. Myśliciele ci dzielili się swoimi pomysłami na wpływowej liście mailingowej, gdzie uczestnicy z całego świata debatowali o najlepszym sposobie wykorzystania technologii do zapewnienia większej wolności indywidualnej.
 
 ### Trzy Filary Tekstów Cypherpunków
 
@@ -97,29 +97,29 @@ Ikoniczne postacie takie jak Julian Assange, Wei Dai, Tim May i David Chaum przy
 Ruch cypherpunków, z jego głębokimi korzeniami w aktywizmie cyfrowym i kryptografii, opierał się na kilku fundamentalnych tekstach, aby wyrazić swoje zasady i wizję przyszłości. Wśród tych pism, trzy wyróżniają się w szczególności:
 
 - "Manifest Cypherpunków":
-  Napisany przez Erica Hughesa w 1993 roku, "Manifest Cypherpunków" twierdzi, że prywatność jest fundamentalnym prawem. Hughes argumentował, że możliwość swobodnej i poufnej komunikacji była niezbędna dla wolnego społeczeństwa. Manifest stwierdza: "Nie możemy oczekiwać, że instytucje, korporacje czy inne bezosobowe podmioty przyznają nam prywatność... Musimy bronić jej sami."
+  Napisany przez Erica Hughesa w 1993 roku, "Manifest Cypherpunków" twierdzi, że prywatność jest fundamentalnym prawem. Hughes argumentował, że możliwość swobodnej i poufnej komunikacji jest niezbędna dla wolnego społeczeństwa. Manifest stwierdza: "Nie możemy oczekiwać, że instytucje, korporacje czy inne bezosobowe podmioty przyznają nam prywatność... Musimy bronić jej sami."
 
 - "Manifest Kryptoanarchisty":
-  Napisany przez Timothy'ego C. Maya w 1992 roku, ten manifest wyjaśnia, jak użycie kryptografii mogłoby prowadzić do ery kryptoanarchii, w której rządy byłyby bezsilne, aby ingerować w prywatne sprawy obywateli. May przewidywał przyszłość, w której informacje, pieniądze i wiadomości mogłyby być wymieniane bez interwencji strony trzeciej i anonimowo.
+  Napisany przez Timothy'ego C. Maya w 1992 roku, wyjaśnia, jak użycie kryptografii mogłoby prowadzić do ery kryptoanarchii, w której rządy byłyby bezsilne, aby ingerować w prywatne sprawy obywateli. May przewidywał przyszłość, w której informacje, pieniądze i wiadomości mogłyby być wymieniane bez interwencji strony trzeciej i anonimowo.
 
 - "Deklaracja Niepodległości Cyberprzestrzeni":
-  Chociaż nie jest wyłącznie cypherpunkowa, ten tekst odzwierciedla uczucia wielu aktorów ruchu. Napisany w 1996 roku przez Johna Perry'ego Barlowa, jest odpowiedzią na zwiększającą się regulację Internetu przez rządy. Deklaracja stwierdza, że cyberprzestrzeń jest odrębnym królestwem od sfery fizycznej i nie powinna podlegać tym samym prawom. Stwierdza: "Nie mamy wybranego rządu i nie możemy być rządzeni."
+  Chociaż nie jest wyłącznie cypherpunkowa, odzwierciedla uczucia wielu aktorów ruchu. Tekst napisany w 1996 roku przez Johna Perry'ego Barlowa, jest odpowiedzią na zwiększającą się regulację Internetu przez rządy. Deklaracja stwierdza, że cyberprzestrzeń jest królestwem odrębnym  od sfery fizycznej i nie powinna podlegać tym samym prawom. Stwierdza: "Nie mamy wybranego rządu i nie można nami rządzić."
 
 ### Poprzednicy Bitcoina
-Przed pojawieniem się Bitcoina podjęto kilka prób stworzenia cyfrowej waluty. Na przykład, David Chaum wprowadził koncepcję "anonimowych pieniędzy elektronicznych" ze swoim projektem "DigiCash" w latach 80. Niestety, z różnych powodów, DigiCash nigdy naprawdę się nie przyjął.
-Innym ważnym prekursorem jest "b-money" Wei Daia. Chociaż nigdy nie zostało zaimplementowane, przedstawiło ideę anonimowej cyfrowej waluty, gdzie wykrywanie oszustw było wykonywane przez społeczność ewaluatorów, a nie centralny autorytet.
+Przed pojawieniem się Bitcoina podjęto kilka prób stworzenia waluty cyfrowej. Na przykład, David Chaum wprowadził koncepcję "anonimowych pieniędzy elektronicznych" ze swoim projektem "DigiCash" w latach 80. Niestety, z różnych powodów, DigiCash nigdy naprawdę się nie przyjął.
+Innym ważnym prekursorem jest "b-money" Wei Daia. Chociaż projekt ten nigdy nie został zaimplementowany, przedstawił ideę anonimowej waluty cyfrowej, gdzie oszustwa były wykrywane przez społeczność ewaluatorów, a nie urząd centralny.
 
 ![image](assets/Concept/chapitre0/1.jpeg)
 
-To w tym żyznym środowisku tajemniczy Satoshi Nakamoto opublikował whitepaper Bitcoina w 2008 roku. Połączył kilka pomysłów z ruchu cypherpunk, takich jak dowód pracy i kryptograficzne znaczniki czasu, aby stworzyć zdecentralizowaną i odporną na cenzurę cyfrową walutę.
+To w tym inspirującym środowisku tajemniczy Satoshi Nakamoto opublikował w 2008 roku whitepaper Bitcoina (rodzaj publikacji używany do prezentacji nowych projektów czy produktów, zawierający szczegółowy opis produktu, jego funkcje, zastosowanie i docelowych użytkowników – przyp. tłum.). Połączył kilka pomysłów z ruchu cypherpunk, takich jak dowód pracy i kryptograficzne znaczniki czasu, aby stworzyć zdecentralizowaną i odporną na cenzurę walutę cyfrową.
 
-Bitcoin był czymś więcej niż tylko cyfrową walutą; stanowił realizację ideałów cypherpunk. Poza swoją technologią, symbolizował rewolucję przeciwko tradycyjnym systemom finansowym i oferował alternatywę opartą na przejrzystości, decentralizacji i suwerenności jednostki.
+Bitcoin był czymś więcej niż tylko walutą cyfrową; stanowił realizację ideałów cypherpunk. Wyszedł poza aspekt technologiczny, symbolizując rewolucję przeciwko tradycyjnym systemom finansowym i zaoferował alternatywę opartą na przejrzystości, decentralizacji i suwerenności jednostki.
 
 ### Wnioski
 
 Prehistoria Bitcoina jest głęboko zakorzeniona w ruchu cypherpunk i kolektywnym dążeniu do większej wolności w erze cyfrowej. Łącząc zasady kryptografii, decentralizacji i integralności, Bitcoin stał się czymś więcej niż walutą; jest produktem filozoficznej i technologicznej rewolucji, która nadal kształtuje nasz świat.
 
-Bitcoin jest więc protokołem, który obejmuje długie okresy czasu i zachęca nas do zastanowienia się nad naszym stosunkiem do energii, czasu i pieniędzy. Ale czy Bitcoin jest "prawdziwą" walutą? Co to jest pieniądz? Czy istnieje w wielu formach? Zbadamy te pytania w następnym rozdziale.
+Bitcoin jest więc protokołem, który obejmuje długie okresy czasu i zachęca nas do zastanowienia się nad naszym stosunkiem do energii, czasu i pieniędzy. Ale czy Bitcoin jest "prawdziwą" walutą? Co to jest pieniądz? Czy istnieje w wielu formach? Zastanowimy się nad tymi pytaniami w następnym rozdziale.
 
 ![Prehistoria Bitcoina](assets/posters/fr/1_prehistoiredubitcoin.png)
 

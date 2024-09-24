@@ -66,7 +66,8 @@ proofreading:
       - Reshetenko
     reward: 35804
   - language: vi
-    last_contribution_date:
+    last_contribution_date: 2024-09-24
     urgency: 1
     contributors_id:
-    reward: 106162
+      - Henry-Da0
+    reward: 53081

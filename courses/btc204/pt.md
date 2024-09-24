@@ -2014,10 +2014,10 @@ O cálculo do score de Boltzmann envolve dividir o número de interpretações n
 
 $$
 \begin{align*}
-\text{Interpretações (IN.0 > OUT.3)} &= 512 \\
-\text{Total de Interpretações} &= 1496 \\
-\text{Pontuação} &= \frac{512}{1496} \\
-\text{Pontuação} &= 34\%
+\text{Interpretacoes (IN.0 > OUT.3)} &= 512 \\
+\text{Total de Interpretacoes} &= 1496 \\
+\text{Pontuacao} &= \frac{512}{1496} \\
+\text{Pontuacao} &= 34\%
 \end{align*}
 $$
 

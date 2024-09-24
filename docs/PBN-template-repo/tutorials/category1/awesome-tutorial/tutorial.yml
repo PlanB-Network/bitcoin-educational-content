@@ -1,0 +1,44 @@
+#Charactheristic of tutorial
+
+# Builder
+# Write the builder name
+builder: Awesome tutorial
+
+# Level
+# Level can be one of following:
+# - beginner
+# - intermediate
+# - advanced
+level: beginner
+
+# Category
+# Category can be choosen from a specific list you can find [here](../../../../tutorial-categories.md)
+category: peer-to-peer
+
+# Tags
+# List the associated tags to the tutorial
+# The list of tags is composed of 21 items that can be found here (list not yet available)
+tags:
+  - peer-to-peer
+  - open-source
+  - bitcoin-only
+
+# Proofreading metadata
+# Only the original author needs to add this data related to initial proofreading
+# Any further data will be automatically added after each proofreading
+# 
+# This information are provided by PBN team, no need to specify if you are a contributor.
+# for PBN staff: an entry is created for each language specifying:
+# - language: language to review
+# - last_contribution_date: the date when last contribution has been received
+# - urgency: level of urgency from 1 (low urgency) to X(high urgency)
+# - contributors_id: list of contributors PBN ids
+# - reward: amount of sats available for reward
+original_language: en
+proofreading:
+  - language: en
+    last_contribution_date: YYYY-MM-DD
+    urgency: # leave as empty
+    contributors_id:
+    - author_github_id #insert your github ID
+    reward: # leave as empty

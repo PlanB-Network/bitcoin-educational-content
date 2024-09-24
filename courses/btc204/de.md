@@ -2093,15 +2093,11 @@ Die Berechnung des Boltzmann-Scores beinhaltet die Teilung der Anzahl der Interp
 
 $$
 \begin{align*}
-$$
-
-\begin{align*}
 \text{Interpretationen (IN.0 > OUT.3)} &= 512 \\
 \text{Gesamtinterpretationen} &= 1496 \\
 \text{Punktzahl} &= \frac{512}{1496} \\
 \text{Punktzahl} &= 34 \%
 \end{align*}
-
 $$
 
 Wenn wir das Beispiel eines Whirlpool-Coinjoin 8x8 Surge Cycle erneut betrachten, würde die Boltzmann-Tabelle wie folgt aussehen:

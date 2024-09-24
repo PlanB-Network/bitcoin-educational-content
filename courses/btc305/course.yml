@@ -89,10 +89,11 @@ proofreading:
     contributors_id:
     reward: 180112
   - language: vi
-    last_contribution_date:
+    last_contribution_date: 2024-09-24
     urgency: 1
     contributors_id:
-    reward: 268918
+      - Henry-Da0
+    reward: 134459
   - language: et
     last_contribution_date:
     urgency: 1
@@ -104,7 +105,8 @@ proofreading:
     contributors_id:
     reward: 224515
   - language: zh-Hans
-    last_contribution_date:
+    last_contribution_date: 2024-09-24
     urgency: 1
     contributors_id:
-    reward: 224515
+      - MilankovicProtocol
+    reward: 112257

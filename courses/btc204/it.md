@@ -2011,12 +2011,12 @@ Il calcolo del punteggio di Boltzmann coinvolge la divisione del numero di inter
 
 $$
 \begin{align*}
-\begin{align*}
 \text{Interpretazioni (IN.0 > OUT.3)} &= 512 \\
 \text{Interpretazioni Totali} &= 1496 \\
 \text{Punteggio} &= \frac{512}{1496} \\
 \text{Punteggio} &= 34\%
 \end{align*}
+$$
 
 Se riconsideriamo l'esempio di un ciclo di Surge 8x8 Whirlpool coinjoin, la tabella di Boltzmann apparirebbe così:
 

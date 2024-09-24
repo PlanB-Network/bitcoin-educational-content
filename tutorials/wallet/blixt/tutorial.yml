@@ -68,10 +68,11 @@ proofreading:
     contributors_id:
     reward: 33178
   - language: vi
-    last_contribution_date:
+    last_contribution_date: 2024-09-24
     urgency: 1
     contributors_id:
-    reward: 48517
+      - Henry-Da0
+    reward: 24258
   - language: id
     last_contribution_date:
     urgency: 1

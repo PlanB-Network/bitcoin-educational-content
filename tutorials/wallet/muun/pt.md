@@ -1,7 +1,7 @@
 ---
-name: Muum
+name: Muun
 
-description: Configuração da sua carteira Muum
+description: Configuração da sua carteira Muun
 ---
 
 ![capa](assets/cover.webp)

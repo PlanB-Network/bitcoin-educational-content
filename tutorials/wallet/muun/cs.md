@@ -1,26 +1,26 @@
 ---
-name: Muum
+name: Muun
 
-description: Nastavení vaší peněženky Muum
+description: Nastavení vaší peněženky Muun
 ---
 
 ![obal](assets/cover.webp)
 
-Muum (https://muun.com/) je peněženka s vlastní správou pro bitcoin a lightning.
+Muun (https://muun.com/) je peněženka s vlastní správou pro bitcoin a lightning.
 
 ## video tutoriál
 
 ![video tutoriál](https://youtu.be/uOl3_vjZKOA)
 
-## Muum Peněženka - Kompletní uživatelská příručka
+## Muun Peněženka - Kompletní uživatelská příručka
 
-Kompletní uživatelská příručka (s obrázky) pro aplikaci Muum; uživatelsky přívětivá mobilní Bitcoin peněženka, která vám umožňuje provádět transakce na Lightning Network.
+Kompletní uživatelská příručka (s obrázky) pro aplikaci Muun; uživatelsky přívětivá mobilní Bitcoin peněženka, která vám umožňuje provádět transakce na Lightning Network.
 
 ![obrázek](assets/0.5.webp)
 
-### Stáhněte si Muum a vytvořte svou peněženku
+### Stáhněte si Muun a vytvořte svou peněženku
 
-Nejprve musíte stáhnout mobilní aplikaci, která je dostupná jak pro iOS, tak pro Android. Vždy se ujistěte, že stahujete správnou verzi. Na trhu se někdy objevují podvodné repliky. Doporučuji najít oficiální webové stránky peněženky Muum, které jsou https://muun.com/, a použít odkaz pro váš vybraný systém (iOS/Android), odtud můžete být jisti, že používáte oficiální aplikaci.
+Nejprve musíte stáhnout mobilní aplikaci, která je dostupná jak pro iOS, tak pro Android. Vždy se ujistěte, že stahujete správnou verzi. Na trhu se někdy objevují podvodné repliky. Doporučuji najít oficiální webové stránky peněženky Muun, které jsou https://muun.com/, a použít odkaz pro váš vybraný systém (iOS/Android), odtud můžete být jisti, že používáte oficiální aplikaci.
 
 ![obrázek](assets/1.webp)
 
@@ -28,7 +28,7 @@ Když aplikaci otevřete, budete mít možnost vytvořit novou peněženku nebo 
 
 ![obrázek](assets/2.webp)
 
-Peněženka Muum vás poté požádá o vytvoření čtyřmístného osobního identifikačního čísla (PIN). S PINem zvyšujete bezpečnost své peněženky pro případ, že by například zlovolný útočník ukradl váš telefon a tím i vaše bitcoiny.
+Peněženka Muun vás poté požádá o vytvoření čtyřmístného osobního identifikačního čísla (PIN). S PINem zvyšujete bezpečnost své peněženky pro případ, že by například zlovolný útočník ukradl váš telefon a tím i vaše bitcoiny.
 
 ![obrázek](assets/3.webp)
 
@@ -38,11 +38,11 @@ A je to, aplikace vygenerovala zcela novou peněženku, která se nyní stane do
 
 ### Zálohování klíče
 
-Stiskněte pole "Zálohovat vaši peněženku" a budete přesměrováni na záložku "Bezpečnost". Proces zálohování Muum je pohodlně rozdělen do tří kroků. Není povinné dokončit všechny tři kroky, ale jejich kombinace nabízí maximální opatrnost.
+Stiskněte pole "Zálohovat vaši peněženku" a budete přesměrováni na záložku "Bezpečnost". Proces zálohování Muun je pohodlně rozdělen do tří kroků. Není povinné dokončit všechny tři kroky, ale jejich kombinace nabízí maximální opatrnost.
 
 ![obrázek](assets/5.webp)
 
-První možnost vám umožňuje propojit vaši peněženku s e-mailovou adresou, kromě její ochrany heslem. Tato možnost je volitelná a bez problémů ji můžete přeskočit. Pokud ji chcete použít, stiskněte "1: Zálohovat vaši peněženku" a poté "Začít" na další obrazovce a zadejte e-mailovou adresu. Další obrazovka vám řekne, že musíte ověřit e-mail přístupem do vaší poštovní schránky a kliknutím na odkaz poskytnutý v e-mailu od Muum.
+První možnost vám umožňuje propojit vaši peněženku s e-mailovou adresou, kromě její ochrany heslem. Tato možnost je volitelná a bez problémů ji můžete přeskočit. Pokud ji chcete použít, stiskněte "1: Zálohovat vaši peněženku" a poté "Začít" na další obrazovce a zadejte e-mailovou adresu. Další obrazovka vám řekne, že musíte ověřit e-mail přístupem do vaší poštovní schránky a kliknutím na odkaz poskytnutý v e-mailu od Muun.
 
 ![obrázek](assets/6.webp)
 

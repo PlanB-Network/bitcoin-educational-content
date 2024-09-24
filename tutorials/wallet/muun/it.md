@@ -1,7 +1,7 @@
 ---
-name: Muum
+name: Muun
 
-description: Configurazione del tuo portafoglio Muum
+description: Configurazione del tuo portafoglio Muun
 ---
 
 ![cover](assets/cover.webp)

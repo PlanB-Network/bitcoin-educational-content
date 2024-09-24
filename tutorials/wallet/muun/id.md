@@ -1,7 +1,7 @@
 ---
-name: Muum
+name: Muun
 
-description: Mengatur dompet Muum Anda
+description: Mengatur dompet Muun Anda
 ---
 
 ![cover](assets/cover.webp)

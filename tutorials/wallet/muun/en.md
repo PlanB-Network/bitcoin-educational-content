@@ -1,7 +1,7 @@
 ---
-name: Muum
+name: Muun
 
-description: Setting up your Muum wallet
+description: Setting up your Muun wallet
 ---
 
 ![cover](assets/cover.webp)

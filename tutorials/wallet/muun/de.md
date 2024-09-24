@@ -1,7 +1,7 @@
 ---
-name: Muum
+name: Muun
 
-description: Einrichtung Ihrer Muum-Brieftasche
+description: Einrichtung Ihrer Muun-Brieftasche
 ---
 
 ![cover](assets/cover.webp)

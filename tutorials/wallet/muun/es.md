@@ -1,7 +1,7 @@
 ---
-name: Muum
+name: Muun
 
-description: Configuración de tu billetera Muum
+description: Configuración de tu billetera Muun
 ---
 
 ![cover](assets/cover.webp)

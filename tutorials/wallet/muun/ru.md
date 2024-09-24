@@ -1,12 +1,12 @@
 ---
-name: Muum
+name: Muun
 
-description: Настройка вашего кошелька Muum
+description: Настройка вашего кошелька Muun
 ---
 
 ![cover](assets/cover.webp)
 
-Muum (https://muun.com/) - это самохранимый кошелек для биткойна и сети Lightning.
+Muun (https://muun.com/) - это самохранимый кошелек для биткойна и сети Lightning.
 
 ## видеоурок
 

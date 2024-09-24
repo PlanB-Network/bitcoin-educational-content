@@ -1,7 +1,7 @@
 ---
-name: Muum
+name: Muun
 
-description: Seadista oma Muum rahakott
+description: Seadista oma Muun rahakott
 ---
 
 ![kaas](assets/cover.webp)

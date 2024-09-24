@@ -1,26 +1,26 @@
 ---
-name: Muum
+name: Muun
 
-description: Muum-lompakon käyttöönotto
+description: Muun-lompakon käyttöönotto
 ---
 
 ![cover](assets/cover.webp)
 
-Muum (https://muun.com/) on itsehallinnollinen lompakko Bitcoinille ja Lightning-verkolle.
+Muun (https://muun.com/) on itsehallinnollinen lompakko Bitcoinille ja Lightning-verkolle.
 
 ## video-opas
 
 ![video tutorial](https://youtu.be/uOl3_vjZKOA)
 
-## Muum-lompakko - Kattava käyttöopas
+## Muun-lompakko - Kattava käyttöopas
 
-Kattava käyttöopas (kuvakaappauksin) Muum-sovellukselle; käyttäjäystävällinen mobiili Bitcoin-lompakko, joka mahdollistaa transaktioiden tekemisen Lightning-verkossa.
+Kattava käyttöopas (kuvakaappauksin) Muun-sovellukselle; käyttäjäystävällinen mobiili Bitcoin-lompakko, joka mahdollistaa transaktioiden tekemisen Lightning-verkossa.
 
 ![image](assets/0.5.webp)
 
-### Lataa Muum ja luo lompakkosi
+### Lataa Muun ja luo lompakkosi
 
-Ensimmäiseksi sinun tulee ladata mobiilisovellus, joka on saatavilla sekä iOS:lle että Androidille. Varmista aina, että lataat oikean version. Markkinoilla on joskus väärennettyjä kopioita. Suosittelen etsimään virallisen Muum-lompakon verkkosivuston, joka on https://muun.com/, ja käyttämään sieltä löytyvää linkkiä valitsemallesi järjestelmälle (iOS/Android), jolloin voit olla varma, että käytät virallista sovellusta.
+Ensimmäiseksi sinun tulee ladata mobiilisovellus, joka on saatavilla sekä iOS:lle että Androidille. Varmista aina, että lataat oikean version. Markkinoilla on joskus väärennettyjä kopioita. Suosittelen etsimään virallisen Muun-lompakon verkkosivuston, joka on https://muun.com/, ja käyttämään sieltä löytyvää linkkiä valitsemallesi järjestelmälle (iOS/Android), jolloin voit olla varma, että käytät virallista sovellusta.
 
 ![image](assets/1.webp)
 
@@ -28,7 +28,7 @@ Kun avaat sovelluksen, sinulla on mahdollisuus luoda uusi lompakko tai palauttaa
 
 ![image](assets/2.webp)
 
-Muum-lompakko pyytää sinua sen jälkeen luomaan nelinumeroisen henkilökohtaisen tunnusnumeron (PIN). PIN-koodin avulla lisäät lompakkosi turvallisuutta esimerkiksi siinä tapauksessa, jos pahantahtoinen toimija varastaa puhelimesi ja sitä kautta bitcoinsi.
+Muun-lompakko pyytää sinua sen jälkeen luomaan nelinumeroisen henkilökohtaisen tunnusnumeron (PIN). PIN-koodin avulla lisäät lompakkosi turvallisuutta esimerkiksi siinä tapauksessa, jos pahantahtoinen toimija varastaa puhelimesi ja sitä kautta bitcoinsi.
 
 ![image](assets/3.webp)
 
@@ -38,11 +38,11 @@ Siinä se, sovellus on luonut upouuden lompakon, josta tulee nyt kotisivu. Nyt s
 
 ### Avainvarmuuskopio
 
-Paina "Varmuuskopioi lompakkosi" -laatikkoa, ja sinut ohjataan "Turvallisuus" -välilehteen. Muumin varmuuskopiointiprosessi on jaettu kätevästi kolmeen vaiheeseen. Kaikkien kolmen vaiheen suorittaminen ei ole pakollista, mutta niiden yhdistelmä tarjoaa maksimaalisen varotoimen.
+Paina "Varmuuskopioi lompakkosi" -laatikkoa, ja sinut ohjataan "Turvallisuus" -välilehteen. Muunin varmuuskopiointiprosessi on jaettu kätevästi kolmeen vaiheeseen. Kaikkien kolmen vaiheen suorittaminen ei ole pakollista, mutta niiden yhdistelmä tarjoaa maksimaalisen varotoimen.
 
 ![image](assets/5.webp)
 
-Ensimmäinen vaihtoehto mahdollistaa lompakkosi yhdistämisen sähköpostiosoitteeseen, lisäksi sen suojaamisen salasanalla. Tämä vaihtoehto on valinnainen ja sen voi ohittaa ilman ongelmia. Jos haluat käyttää sitä, paina "1: Varmuuskopioi lompakkosi" ja sitten "Aloita" seuraavalla näytöllä ja syötä sähköpostiosoite. Seuraava näyttö kertoo, että sinun on vahvistettava sähköposti käymällä postilaatikossasi ja klikkaamalla Muumin sähköpostissa olevaa linkkiä.
+Ensimmäinen vaihtoehto mahdollistaa lompakkosi yhdistämisen sähköpostiosoitteeseen, lisäksi sen suojaamisen salasanalla. Tämä vaihtoehto on valinnainen ja sen voi ohittaa ilman ongelmia. Jos haluat käyttää sitä, paina "1: Varmuuskopioi lompakkosi" ja sitten "Aloita" seuraavalla näytöllä ja syötä sähköpostiosoite. Seuraava näyttö kertoo, että sinun on vahvistettava sähköposti käymällä postilaatikossasi ja klikkaamalla Muunin sähköpostissa olevaa linkkiä.
 
 ![image](assets/6.webp)
 

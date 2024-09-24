@@ -1,12 +1,12 @@
 ---
-name: Muum
+name: Muun
 
-description: Cài đặt và sử dụng ví Muum
+description: Cài đặt và sử dụng ví Muun
 ---
 
 ![cover](assets/cover.webp)
 
-Muum (https://muun.com/) là một ví tự quản lý (self - custodial) dùng cho Bitcoin và Lightning.
+Muun (https://muun.com/) là một ví tự quản lý (self - custodial) dùng cho Bitcoin và Lightning.
 
 ## video hướng dẫn
 
@@ -14,13 +14,13 @@ Muum (https://muun.com/) là một ví tự quản lý (self - custodial) dùng 
 
 ## Hướng dẫn sử dụng ví Muun toàn tập
 
-Hướng dẫn sử dụng đầy đủ (kèm ảnh chụp màn hình) cho ứng dụng Muum; một ví Bitcoin trên di động thân thiện với người dùng, cho phép bạn thực hiện giao dịch trên Lightning Network.
+Hướng dẫn sử dụng đầy đủ (kèm ảnh chụp màn hình) cho ứng dụng Muun; một ví Bitcoin trên di động thân thiện với người dùng, cho phép bạn thực hiện giao dịch trên Lightning Network.
 
 ![image](assets/0.5.webp)
 
-### Tải Muum và tạo ví của bạn
+### Tải Muun và tạo ví của bạn
 
-Đầu tiên, bạn cần tải ứng dụng di động, có sẵn trên cả iOS và Android. Luôn đảm bảo tải phiên bản chính thức từ nhà phát hành. Đôi khi có những bản sao lừa đảo trên thị trường. Tôi khuyên bạn nên tìm đến trang web chính thức của ví Muum, đó là https://muun.com/, và sử dụng liên kết cho hệ điều hành bạn chọn (iOS/Android), từ đó bạn có thể chắc chắn rằng bạn đang sử dụng ứng dụng chính thức.
+Đầu tiên, bạn cần tải ứng dụng di động, có sẵn trên cả iOS và Android. Luôn đảm bảo tải phiên bản chính thức từ nhà phát hành. Đôi khi có những bản sao lừa đảo trên thị trường. Tôi khuyên bạn nên tìm đến trang web chính thức của ví Muun, đó là https://muun.com/, và sử dụng liên kết cho hệ điều hành bạn chọn (iOS/Android), từ đó bạn có thể chắc chắn rằng bạn đang sử dụng ứng dụng chính thức.
 
 ![image](assets/1.webp)
 
@@ -28,7 +28,7 @@ Khi bạn mở ứng dụng, bạn sẽ có tùy chọn tạo một ví mới ho
 
 ![image](assets/2.webp)
 
-Ví Muum sau đó yêu cầu bạn tạo một mã số cá nhân bốn chữ số (PIN). Với PIN, bạn tăng cường bảo mật cho ví của mình trong trường hợp, ví dụ, một kẻ xấu đánh cắp điện thoại và có thể đánh cắp bitcoin của bạn.
+Ví Muun sau đó yêu cầu bạn tạo một mã số cá nhân bốn chữ số (PIN). Với PIN, bạn tăng cường bảo mật cho ví của mình trong trường hợp, ví dụ, một kẻ xấu đánh cắp điện thoại và có thể đánh cắp bitcoin của bạn.
 
 ![image](assets/3.webp)
 
@@ -38,11 +38,11 @@ Và thế là ứng dụng đã tạo một ví hoàn toàn mới, nó sẽ tr�
 
 ### Sao lưu khóa
 
-Nhấn vào ô "Sao lưu ví của bạn - Back up your wallet", và bạn sẽ được chuyển hướng đến tab "Bảo mật - Security". Quy trình sao lưu của Muum được chia tiện lợi thành ba bước. Không bắt buộc phải hoàn thành tất cả ba bước, nhưng sự kết hợp của chúng cung cấp mức độ bảo vệ tối đa.
+Nhấn vào ô "Sao lưu ví của bạn - Back up your wallet", và bạn sẽ được chuyển hướng đến tab "Bảo mật - Security". Quy trình sao lưu của Muun được chia tiện lợi thành ba bước. Không bắt buộc phải hoàn thành tất cả ba bước, nhưng sự kết hợp của chúng cung cấp mức độ bảo vệ tối đa.
 
 ![image](assets/5.webp)
 
-Lựa chọn đầu tiên cho phép bạn kết nối ví của mình với một địa chỉ email, ngoài việc bảo vệ nó bằng mật khẩu. Đây là tùy chọn và bạn có thể bỏ qua mà không gặp vấn đề gì. Nếu bạn muốn sử dụng nó, nhấn "1: Sao lưu ví của bạn" và sau đó nhấn "Bắt đầu" trên màn hình tiếp theo và nhập một địa chỉ email. Màn hình tiếp theo sẽ thông báo rằng bạn cần xác nhận email bằng cách truy cập hộp thư của mình và nhấp vào liên kết được gửi đến từ email của Muum.
+Lựa chọn đầu tiên cho phép bạn kết nối ví của mình với một địa chỉ email, ngoài việc bảo vệ nó bằng mật khẩu. Đây là tùy chọn và bạn có thể bỏ qua mà không gặp vấn đề gì. Nếu bạn muốn sử dụng nó, nhấn "1: Sao lưu ví của bạn" và sau đó nhấn "Bắt đầu" trên màn hình tiếp theo và nhập một địa chỉ email. Màn hình tiếp theo sẽ thông báo rằng bạn cần xác nhận email bằng cách truy cập hộp thư của mình và nhấp vào liên kết được gửi đến từ email của Muun.
 
 ![image](assets/6.webp)
 

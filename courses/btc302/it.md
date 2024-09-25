@@ -4,7 +4,7 @@ goal: Creare e organizzare facilmente una comunità o un meet-up Bitcoin
 objectives:
   - Imparare come creare una comunità e/o un meet-up Bitcoin?
   - Costruire un'identità visiva e digitale per la tua comunità, e con quali strumenti iniziare?
-  - Sapere come fissare obiettivi annuali per la tua comunità
+  - Fissare obiettivi annuali per la tua comunità
   - Definire progetti e iniziative per la tua comunità
   - Comprendere l'importanza di anticipare l'evoluzione futura di una comunità?
 
@@ -12,14 +12,14 @@ objectives:
 
 # Il Primo Passo Verso l'Adozione di Bitcoin
 
-Oggi, numerosi contenuti educativi sono disponibili su internet, permettendo a tutti di educarsi su Bitcoin e il suo ecosistema.
+Oggi, numerosi contenuti educativi sono disponibili su internet, permettendo a tutti di educarsi su Bitcoin ed il suo ecosistema.
 Tuttavia, **una cosa che a molti di noi, bitcoiners, manca dolorosamente è l'opportunità di incontrarsi, scambiare e condividere le nostre conoscenze**. Ma anche, di **costruire insieme**.
 
 Per affrontare questa crescente necessità, molti bitcoiners decidono regolarmente di **creare nuove comunità intorno a loro**. Gli incontri vengono quindi proposti, quando il numero dei partecipanti è sufficiente; e questi incontri, spesso diventando ricorrenti, diventano poi un terreno fertile per la realizzazione di presentazioni e workshop, sia tecnici che divulgativi.
 
 In questo corso intitolato "**BTC302**", ci impegneremo a presentare l'**interesse nella creazione di una comunità e/o un meet-up Bitcoin**, poi dettaglieremo e proporremo **diversi strumenti per sviluppare l'identità visiva e digitale** della propria comunità o meet-up.
-Successivamente, presenteremo **vari progetti e iniziative** che possono essere facilmente implementati, soprattutto da una prospettiva educativa. Diverse risorse pre-progettate saranno poi offerte in open-source.
-Infine, verrà condotta una riflessione più profonda sull'**evoluzione delle comunità da una prospettiva nazionale**; ma anche, sul **loro ruolo nell'iperbitcoinizzazione del mondo di domani**.
+Successivamente, presenteremo **vari progetti e iniziative** che possono essere facilmente implementate, soprattutto da una prospettiva educativa. Saranno poi offerte diverse risorse open-source.
+Infine, verrà condotta una riflessione più approfondita sull'**evoluzione delle comunità da una prospettiva nazionale**; ma anche, sul **loro ruolo nell'iperbitcoinizzazione del mondo di domani**.
 
 +++
 
@@ -28,13 +28,13 @@ Infine, verrà condotta una riflessione più profonda sull'**evoluzione delle co
 ## Recontestualizzazione
 <chapterId>e8991b82-4966-5e04-8f05-7cae46eacbaa</chapterId>
 
-Dal 2009, Bitcoin ha continuato a svilupparsi. Questo include l'implementazione di nuove Proposte di Miglioramento di Bitcoin (BIP), la creazione di nuovi livelli per scalare la rete (tra gli altri, la Lightning Network), e lo sviluppo di molteplici aziende e startup.
+Dal 2009, Bitcoin ha continuato a svilupparsi. Questo include l'implementazione di nuove Proposte di Miglioramento di Bitcoin (BIP), la creazione di nuovi livelli per scalare la rete (tra gli altri, Lightning Network), e lo sviluppo di molteplici aziende e startup.
 
-Il suo sviluppo è visibile anche on-chain, in particolare per il suo numero crescente di transazioni.
+Il suo sviluppo è visibile anche on-chain, in particolare per il numero crescente di transazioni.
 Così, tra il 1° gennaio 2018 e il 1° gennaio 2024, si stima che il numero di transazioni sul layer principale di Bitcoin sia [aumentato del 66,2%](https://dune.com/queries/3375917/5663935); mentre tra agosto 2021 e agosto 2023, il numero di transazioni pubbliche sulla sovrapposizione Lightning è [aumentato del 1212%](https://river.com/learn/files/river-lightning-report-2023.pdf).
 Questa visione statistica è, ovviamente, strettamente collegata a:
 * il crescente [interesse nell'uso di Bitcoin da parte di molti individui](https://profedustream.substack.com/p/21-raisons-dutiliser-bitcoin) in tutto il mondo, con l'obiettivo di emanciparsi dal sistema bancario e/o utilizzare una valuta meno volatile o meno svalutata rispetto alla propria, come nel caso delle popolazioni che vivono in Libano, Siria, Egitto, Argentina, ecc.;
-* l'apprezzamento del suo prezzo nel tempo, portandolo attraverso la sua emissione monetaria a diventare una riserva di valore e un investimento a lungo termine.
+* l'apprezzamento nel tempo, portandolo attraverso la sua emissione monetaria a diventare una riserva di valore e un investimento a lungo termine.
 * lo sviluppo successivo del mercato speculativo delle criptovalute, in particolare nel 2017/2018 e nel 2020/2021;
 * la comparsa sempre più regolare di Bitcoin nei media.
 
@@ -45,7 +45,7 @@ Mentre Bitcoin è ancora nella sua fase iniziale, questa osservazione - che sicu
 Da un lato, come possiamo incoraggiare i Bitcoiners ad andare oltre nel loro apprendimento e nei loro progetti, al fine di **sfruttare pienamente il potenziale di Bitcoin**?
 Dall'altro lato, come potremmo incoraggiare le nuove persone che arrivano attratte dal guadagno nell'"ecosistema delle criptovalute" a non perdere i loro soldi nell'ultima memecoin di tendenza, ma a **educarsi sui fondamenti di Bitcoin**?
 ####
-A questi due problemi, la soluzione migliore è essere sul campo e educare.
+Per questi due problemi, la soluzione migliore è essere sul campo ed educare.
 
 ## Perché creare una comunità o un meet-up di Bitcoin?
 <chapterId>893ea248-7d5a-5b8e-948c-7031497b1031</chapterId>
@@ -54,7 +54,7 @@ A questi due problemi, la soluzione migliore è essere sul campo e educare.
 
 Sebbene, nell'ecosistema Bitcoin, non ci sia una definizione specifica per questi due termini, una comunità può essere vista come l'aggregazione di diversi individui che condividono una (o più) passione(i) comune(i) e comunicano insieme più o meno regolarmente.
 In parallelo, un meet-up è un evento organizzato da (e per) questa comunità, con un obiettivo specifico in mente. Di solito si tiene una volta che la comunità associata è stata creata.
-A questo proposito, nel corso di questo corso, considereremo che per lanciare un meet-up di Bitcoin, sarà necessario in precedenza aver scambiato con altre persone interessate alla realizzazione di questo tipo di evento; e quindi, che **una comunità Bitcoin deve essere stata creata in precedenza**.
+A questo proposito, nel corso di questo corso, considereremo che per lanciare un meet-up di Bitcoin, sarà necessario in precedenza aver comunicato con altre persone interessate alla realizzazione di questo tipo di evento; e quindi, che **una comunità Bitcoin deve essere stata creata in precedenza**.
 ### Perché creare una comunità?
 
 Come menzionato nel capitolo precedente, creare una comunità può avere diversi obiettivi.
@@ -73,7 +73,7 @@ D'altro canto, una comunità Bitcoin può anche avere obiettivi più aperti; spe
 
 ![image](assets/fr/chapter1/img2-frbis.webp)
 
-Costruendo gradualmente le prime cittadelle del mondo di domani, **le comunità Bitcoin in tutto il mondo si pongono come un baluardo particolarmente rilevante contro i tentativi di disinformazione e/o censura in alcuni paesi**. In parallelo, **creano un terreno fertile per imparare i fondamenti di Bitcoin**; permettendo a chiunque non l'abbia ancora compreso di avere, quando è pronto, i contatti e le risorse per immaginare un nuovo mondo.
+Costruendo gradualmente le prime cittadelle del mondo di domani, **le comunità Bitcoin in tutto il mondo si pongono come un baluardo particolarmente rilevante contro i tentativi di disinformazione e/o censura in alcuni paesi**. In parallelo, **creano un terreno fertile per insegnare i fondamenti di Bitcoin**; permettendo a chiunque non l'abbia ancora compreso di avere, quando è pronto, i contatti e le risorse per immaginare un nuovo mondo.
 
 Inoltre, **poiché Bitcoin è inclusivo, sembra essere il ruolo di una comunità potenziare ed educare tutti i futuri bitcoiners sui fondamenti di Bitcoin**; inclusi i più riluttanti.
 ####
@@ -89,7 +89,7 @@ Organizzare questi meet-up può quindi permettere incontri fisici molto più con
 
 Per gli appassionati di Bitcoin, i meet-up possono quindi essere un momento **favorevole a discussioni su argomenti tecnici o progetti** che stanno sviluppando; e per gli "aspiranti Bitcoiner", per **scoprire il mondo di Bitcoin e immergersi gradualmente in esso**.
 ####
-Inoltre, questi eventi possono anche facilitare l'annuncio di progetti legati a Bitcoin, il prestito di attrezzature o libri, la proiezione in anteprima di un documentario; ma anche, la tenuta di una conferenza o un workshop su un dato argomento. Parleremo di questo più dettagliatamente nella parte 6/8 di questo corso, intitolata "[Esempi di progetti e iniziative](LINK).
+Inoltre, questi eventi possono anche facilitare l'annuncio di progetti legati a Bitcoin, essere un'occasione per prestare attrezzature o libri, proiettare in anteprima un documentario; ma anche, per una conferenza o un workshop su un dato argomento. Parleremo di questo più dettagliatamente nella parte 6/8 di questo corso, intitolata "[Esempi di progetti e iniziative](LINK).
 ####
 Sebbene spetti a ogni comunità formare le proprie opinioni, avviare i propri progetti e condurre i propri esperimenti, **i meet-up sembrano essere essenziali per lo sviluppo di Bitcoin e delle sue comunità**; e ciò, in tutti i territori.
 
@@ -102,9 +102,9 @@ Una volta deciso di stabilire una comunità Bitcoin, la prima domanda che dovres
 
 Infatti, sebbene la creazione di una comunità si basi inizialmente solo su strumenti di comunicazione e reti sociali digitali, **la posizione geografica deve essere considerata per diverse ragioni**.
 ####
-Inizialmente, quando si cerca di scambiare e incontrare altri appassionati di Bitcoin, è comune iniziare facendo alcune ricerche su internet. Questo porta rapidamente a scoprire e orientarsi verso server Discord o canali Telegram come quelli di [Decouvre Bitcoin](https://decouvrebitcoin.fr/), o anche forum di discussione come [bitcointalk.org](https://bitcointalk.org).
-Dopo alcuni mesi di interazione attraverso gli schermi, spesso arriva il momento in cui si avverte il desiderio di andare oltre. Questo desiderio si cristallizza quindi nella necessità di incontrare altri appassionati di Bitcoin, con i quali ci si sente "vicini" fisicamente. In altre parole: appassionati di Bitcoin della propria città, o addirittura del proprio dipartimento.
-Sfortunatamente, **è del tutto possibile che non esista una comunità Bitcoin vicino a te in quel momento. Questo è certamente il momento per te di assumere il ruolo di ambasciatore per una nuova comunità**.
+Inizialmente, quando si cerca di incontrare altri appassionati di Bitcoin, è comune iniziare facendo alcune ricerche su internet. Questo porta rapidamente a scoprire e orientarsi verso server Discord o canali Telegram come quelli di [Decouvre Bitcoin](https://decouvrebitcoin.fr/), o anche forum di discussione come [bitcointalk.org](https://bitcointalk.org).
+Dopo alcuni mesi di interazione attraverso gli schermi, spesso arriva il momento in cui si avverte il desiderio di andare oltre. Questo desiderio si cristallizza quindi nella necessità di incontrare altri appassionati di Bitcoin, con i quali ci si sente "vicini" fisicamente. In altre parole: appassionati di Bitcoin della propria città, o addirittura del proprio quartiere.
+Sfortunatamente, **è del tutto possibile che non esista una comunità Bitcoin vicino a te in quel momento. Questo è certamente il tuo momento per assumere il ruolo di ambasciatore per una nuova comunità**.
 
 Prima di iniziare, tuttavia, è essenziale anticipare il passo successivo: un possibile incontro. Un meet-up, in altre parole!
 Tuttavia, è chiaro che se i membri della tua comunità devono guidare due ore per venire al tuo evento, pochi di loro faranno il viaggio.
@@ -123,9 +123,9 @@ Un altro punto più che rilevante da indagare è: **esiste già un meet-up vicin
 Per fare ciò, dovresti sapere che il sito [btcmap.org](https://btcmap.org/communities/map#0/0/0/) elenca quasi tutte le comunità e i meet-up globali.
 
 ![image](assets/fr/chapter2/img4.webp)
-Dopo alcune ricerche, se decidi di creare un meet-up o una comunità nella stessa città (o in quella vicina) di un meet-up attivo che è stato in funzione per diversi mesi/anni, dovresti sapere che ciò può creare una forma di competizione; anche se involontaria. Naturalmente, dato che Bitcoin è decentralizzato, tutti sono liberi di fare come desiderano. Tuttavia, è chiaro che **è più rilevante unire le forze il più possibile piuttosto che moltiplicare comunità vicine; diminuendo così la capacità di impatto di ciascuna**.
+Dopo alcune ricerche, se decidi di creare un meet-up o una comunità nella stessa città (o in quella vicina) di un meet-up attivo che è stato in funzione per diversi mesi/anni, dovresti sapere che ciò può creare una forma di competizione; anche se involontaria. Naturalmente, dato che Bitcoin è decentralizzato, tutti sono liberi di fare come desiderano. Tuttavia, è chiaro che **è meglio unire le forze il più possibile piuttosto che moltiplicare comunità vicine; diminuendo così la capacità di impatto di ciascuna**.
 In questo senso, la seguente "convenzione" potrebbe aiutarti a decidere sulla questione: se non esiste una comunità Bitcoin attiva entro 45 minuti dalla tua posizione (diciamo in auto, per esempio), allora potrebbe sembrare rilevante crearne una nuova.
-Ma naturalmente, sei perfettamente libero di fare come ti pare.
+Ma naturalmente, sei perfettamente libero di fare come meglio credi.
 
 Se tuttavia, esiste una comunità Bitcoin ma non è attiva, potrebbe essere più rilevante prenderla in mano e riaccedere la sua fiamma; contattando, per esempio, i suoi ex creatori con l'obiettivo di ottenere l'accesso ai canali di comunicazione e ai social network precedentemente utilizzati.
 
@@ -134,15 +134,14 @@ Al contrario, nel caso in cui una vecchia comunità Bitcoin sia - diciamo - "evo
 ## Quali obiettivi dovrebbero essere stabiliti?
 <chapterId>0aae1aa8-93ec-544a-ad88-22d32c619595</chapterId>
 
-Ora che hai trovato la città (o la località geografica) alla quale vuoi legare la tua comunità, è ora essenziale **pensare agli obiettivi che vorresti raggiungere**.
-Questa domanda può essere risposta da solo, al lancio della tua comunità/incontro, come può essere una volta che diversi membri si sono uniti a te e la tua comunità è attiva.
+Ora che hai trovato la città (o la località geografica) alla quale vuoi legare la tua comunità, è essenziale **pensare agli obiettivi che vorresti raggiungere**.
 
 Per aiutarti, abbiamo elencato di seguito alcune riflessioni che potrebbero essere utili.
 ####
-1. **Perché, come bitcoiner, ho creato questa comunità?** È per condividere la mia conoscenza? Per educare? Per imparare dagli altri? Per incontrare altre persone che condividono la stessa visione? Per coinvolgermi nell'ecosistema? Per incontrare professionisti? Per semplicemente bere birre e fare nuovi amici?
+1. **Perché, come bitcoiner, ho creato questa comunità?** È per condividere la mia conoscenza? Per educare? Per imparare dagli altri? Per incontrare altre persone che condividono la stessa visione? Per coinvolgermi nell'ecosistema? Per incontrare professionisti? Semplicemente per bere birre e fare nuovi amici?
 
-Ovviamente, a seconda delle tue risposte, il tuo posizionamento e le tue motivazioni non saranno gli stessi.
-Ad esempio, se il tuo obiettivo è **condividere la tua conoscenza con lo scopo di educare riguardo a Bitcoin**, è chiaro che la **creazione di contenuti educativi** (articoli, podcast, video, presentazioni, volantini, ecc.) è pertinente. Risparmierai così ad altri decine di ore di ricerca e lavoro. Questo può essere persino portato oltre, attraverso notevolmente l'**organizzazione di workshop, presentazioni e conferenze**.
+Ovviamente, a seconda delle tue risposte, il tuo posizionamento e le tue motivazioni non saranno le stesse.
+Ad esempio, se il tuo obiettivo è **condividere la tua conoscenza con lo scopo di educare riguardo a Bitcoin**, è chiaro che la **creazione di contenuti educativi** (articoli, podcast, video, presentazioni, volantini, ecc.) è pertinente. Risparmierai così ad altri decine di ore di ricerca e lavoro. Questo può essere persino portato oltre, attraverso l'**organizzazione di workshop, presentazioni e conferenze**.
 In parallelo, se il tuo obiettivo è "semplicemente" incontrare altri bitcoiner per condividere la tua vita quotidiana, ciò può essere fatto in modo molto più rilassato; per esempio, davanti a un drink.
 Tuttavia, sei indubbiamente consapevole che brindare aiuta a facilitare le interazioni sociali, specialmente quando coinvolge l'alcool. Eppure, anche se è ancora comune oggi sentirsi soli e incompresi da tutti quando si è profondamente convinti di ciò che Bitcoin porta alla nostra società, è importante non dimenticare che **bere birre permette di discutere del mondo, ma non di cambiarlo** :smirk:
 
@@ -152,8 +151,8 @@ In questo senso, **sembrerebbe necessario fissare obiettivi e progetti concreti*
 
 Nel caso in cui desideri dare una dimensione fisica alla tua comunità, il tuo primo evento sarà certamente un incontro. Il suo obiettivo sarà quindi ovviamente quello di incontrare gradualmente i bitcoiner che vivono vicino a te.
 
-Tuttavia, come vedremo più avanti nella sezione [Esempi di progetti e iniziative](LINK), **un incontro può essere strutturato in modi diversi, con vari e diversi obiettivi**.
-Infatti, può permettere di **combinare la scoperta di nuove persone e presentazione educativa su una nozione specifica associata a Bitcoin, presentazione professionale di soluzioni o aziende Bitcoin, strategia di orange-pilling per i commercianti, ecc**. Spetta a ogni organizzatore di incontri posizionarsi in base ai propri obiettivi.
+Tuttavia, come vedremo più avanti nella sezione [Esempi di progetti e iniziative](LINK), **un incontro può essere strutturato in modi diversi, ciascuno con i propri obiettivi**.
+Infatti, può permettere di **conoscere nuove persone, assistere ad una presentazione educativa su una nozione specifica associata a Bitcoin, presentazione professionale di soluzioni o aziende Bitcoin, strategia di orange-pilling per i commercianti, ecc**. Spetta a ogni organizzatore di incontri posizionarsi in base ai propri obiettivi.
 
 A volte, a seconda degli argomenti trattati (come per le presentazioni tecniche o i workshop manuali), può essere rilevante tenere un **evento in aggiunta all'incontro**, in un luogo diverso e in un momento diverso.
 
@@ -163,18 +162,18 @@ A volte, a seconda degli argomenti trattati (come per le presentazioni tecniche 
 3. Quale coinvolgimento vorrei che la mia comunità avesse nell'ecosistema Bitcoin?
 
 Questa domanda, molto più avanzata, può essere considerata dalla creazione della tua comunità.
-Infatti, se aspiri a **sviluppare una comunità unita, coinvolta e piena di bitcoiner motivati** che desiderano educare e orange-pill il maggior numero possibile di persone intorno a te, allora avrai bisogno di:
-* da un lato, **avvicinandovi alle comunità già sviluppate esistenti**, con l'obiettivo di accedere a un pannello di informazioni più sostanzioso, avendo accesso a una moltitudine di link e risorse open-source che possono essere riutilizzate, ma anche per ricevere una mano quando ne avete bisogno; * dall'altro lato, **organizzarvi - e quindi distribuire i compiti - all'interno della vostra comunità, al fine di andare avanti insieme**.
+Infatti, se aspiri a **sviluppare una comunità unita, coinvolta e piena di bitcoiner motivati** che desiderano educare e orange-pillare il maggior numero possibile di persone intorno a te, allora avrai bisogno di:
+* da un lato, **avvicinandoti alle comunità già esistenti**, con l'obiettivo di accedere ad un insieme di informazioni più sostanzioso, avendo accesso a una moltitudine di link e risorse open-source che possono essere riutilizzate, ma anche per ricevere una mano quando ne avrai bisogno; * dall'altro lato, **organizzarvi - e quindi distribuire i compiti - all'interno della vostra comunità, al fine di andare avanti insieme**.
 ####
 Ovviamente, stabilire degli obiettivi non è un compito facile. Tuttavia, **obiettivi a breve, medio e lungo termine** possono essere definiti in diversi punti dell'evoluzione della vostra comunità.
-**Ad esempio, alla creazione della vostra comunità, potreste scegliere di concentrarvi a breve termine sullo sviluppo dei suoi social network e canali di comunicazione. A medio termine, lo sviluppo di risorse educative (articoli, volantini, ecc.) sembra accessibile e pertinente. Infine, a lungo termine, ad esempio in 6 mesi, lanciare un incontro fisico è generalmente concepibile**.
+**Ad esempio, alla creazione della vostra comunità, potreste scegliere di concentrarvi a breve termine sullo sviluppo dei social network e canali di comunicazione. A medio termine, sviluppo di risorse educative (articoli, volantini, ecc.) accessibili e pertinenti. Infine, a lungo termine, ad esempio in 6 mesi, lanciare un incontro fisico è generalmente fattibile**.
 
 Alcuni mesi dopo, **quando i vostri incontri diventano regolari, potreste quindi definire a breve termine l'implementazione di presentazioni o workshop su temi specifici; a medio termine, la realizzazione di una campagna di sensibilizzazione/educazione su Bitcoin; e a lungo termine, la creazione di un'associazione o la ricerca di un bar che accetti Bitcoin come mezzo di pagamento**.
 ####
 Tuttavia, tenete presente che creare una comunità non avviene dall'oggi al domani: **richiede tempo, motivazione e un po' di organizzazione**.
 A volte, può essere anche demoralizzante; specialmente quando nessuno si presenta a uno dei vostri incontri e vi sentite soli nel portare avanti questa causa.
 
-Questo è il motivo per cui **questo corso è stato costruito con l'obiettivo di condividere tutte le risorse e i consigli possibili affinché la vostra comunità possa crescere e diventare autonoma**.
+Questo è il motivo per cui **è stato costruito questo corso, con l'obiettivo di condividere tutte le risorse e i consigli possibili affinché la vostra comunità possa crescere e diventare autonoma**.
 
 
 # Progettare un'identità unica per la vostra comunità Bitcoin
@@ -183,22 +182,22 @@ Questo è il motivo per cui **questo corso è stato costruito con l'obiettivo di
 ## Perché e come creare la propria identità?
 <chapterId>b48a18cc-afdf-5216-802c-32647b5cd8a3</chapterId>
 
-Nel proseguimento di questo corso, considereremo che:
+Nel proseguio  di questo corso, considereremo che:
 * desiderate creare una comunità (o, eventualmente, un incontro) in una città o località geografica che avete già definito;
-* avete stabilito obiettivi su diversi orizzonti temporali, questi ovviamente non essendo fissati nella pietra.
+* avete stabilito obiettivi concreti su diversi orizzonti temporali.
 
 **Il secondo passo nella creazione di una comunità è ovviamente quello della sua identità**. Questo comporta la scelta del suo nome, ma anche **della sua identità visiva**.
-Ecco perché ci impegneremo, in questa parte 2/8, a offrirvi tutorial e soluzioni software che vi permettano di progettare l'identità visiva della vostra comunità; e ciò, senza necessariamente avere le competenze di un designer.####
+Ecco perché ci impegneremo, in questa parte 2/8, ad offrirvi tutorial e soluzioni software che vi permettano di progettare l'identità visiva della vostra comunità; e ciò, senza necessariamente avere le competenze di un designer.####
 È evidente che quando un essere umano si identifica con un gruppo, si sente più coinvolto. In questo senso, avere un'identità unica per la vostra comunità è essenziale.
 
-Questo inizia innanzitutto con la scelta del nome. Infatti, a seconda del paese, esistono diverse iniziative e/o comunità nazionali.
+Questo inizia con la scelta del nome. Infatti, a seconda del paese, esistono diverse iniziative e/o comunità nazionali.
 Ad esempio, **in Francia, le cinquanta comunità che si sono sviluppate lì sono denominate "Bitcoin [CITTÀ]" o "[CITTÀ] Bitcoin"; portando così il loro gruppo Telegram a essere denominato "Bitcoin [CITTÀ] meet-up" o "[CITTÀ] Bitcoin meet-up"**.
-In Germania, l'iniziativa "Einundzwanzig" (che significa "21") ha portato quasi tutte le comunità di lingua tedesca a essere chiamate "Einundzwanzig [CITTÀ]"; mentre in Italia, l'iniziativa "Satoshi Spritz" - che è l'istigatrice della maggior parte delle attuali comunità italiane - nomina le sue comunità "Satoshi Spritz [CITTÀ]". **Ogni comunità ha così la propria identità, relativa alla sua città di origine; ma anche, all'identità globale del suo paese**.
+In Germania, l'iniziativa "Einundzwanzig" (che significa "21") ha portato quasi tutte le comunità di lingua tedesca a essere chiamate "Einundzwanzig [CITTÀ]"; mentre in Italia, l'iniziativa "Satoshi Spritz" - che è la promotrice della maggior parte delle attuali comunità italiane - nomina le sue comunità "Satoshi Spritz [CITTÀ]". **Ogni comunità ha così la propria identità, relativa alla sua città di origine; ma anche, all'identità globale del suo paese**.
 
 Pertanto, sebbene sia perfettamente possibile per te creare una nuova comunità francese con il nome che desideri, **sembra più rilevante nel nostro paese chiamarla "Bitcoin [CITTÀ]" o "[CITTÀ] Bitcoin"**.
 
 ####
-Parallelamente, **l'identità visiva della tua comunità e del tuo incontro gioca un ruolo essenziale nel suo sviluppo**, perché è in parte grazie ad essa che la tua iniziativa sarà ricordata. Ecco perché, **quando crei i tuoi social network e i tuoi canali di comunicazione, devono essere stati progettati un logo e uno striscione**. Tuttavia, ciò non deve necessariamente essere fatto da un designer professionista, e esistono strumenti semplici e gratuiti.
+Parallelamente, **l'identità visiva della tua comunità e del tuo incontro gioca un ruolo essenziale nel suo sviluppo**, perché è in parte grazie ad essa che la tua iniziativa sarà ricordata. Ecco perché, **quando crei i social network e i tuoi canali di comunicazione, devono essere stati progettati un logo e uno striscione**. Tuttavia, ciò non deve necessariamente essere fatto da un designer professionista, e esistono strumenti semplici e gratuiti.
 
 Per creare la sua identità visiva, il miglior approccio è partire da un elemento significativo o un luogo della tua città. Potrebbe essere, ad esempio, la Torre Eiffel a Parigi, il campanile o la cittadella a Lille, la rocca Monégasque a Monaco, il vecchio porto a Marsiglia, ecc. Partendo da questo elemento, è poi possibile progettare un logo più o meno elaborato, a seconda della complessità desiderata.
 
@@ -217,7 +216,7 @@ Per darti alcune idee, ecco alcuni esempi di loghi delle comunità francesi:
 
 ![immagine](assets/fr/chapter4/img9.webp)
 
-Ora spetta a te **trovare un elemento significativo o un luogo nella tua città e usarlo per costruire il visivo per la tua comunità Bitcoin**.
+Ora spetta a te **trovare un elemento significativo o un luogo nella tua città e usarlo per costruire il logo della tua comunità Bitcoin**.
 
 ####
 Inoltre, se l'ispirazione ti trascende, è anche possibile andare oltre creando uno stemma, un motto o persino una canzone legata alla tua comunità. La tua immaginazione è quindi il tuo unico limite!
@@ -227,18 +226,18 @@ Inoltre, se l'ispirazione ti trascende, è anche possibile andare oltre creando 
 
 ### Usando Canva
 
-Per creare i vari visivi per la tua comunità, **è possibile utilizzare [Canva](https://www.canva.com/)**.
+Per la creazione di loghi e striscioni per la tua comunità, **è possibile utilizzare [Canva](https://www.canva.com/)**.
 
-Questo sito, facile da usare e gratuito, è particolarmente apprezzato per la sua quantità di modelli pre-progettati; che puoi duplicare e modificare come desideri.
+Questo sito, facile da usare e gratuito, è particolarmente apprezzato per la sua quantità di modelli; che puoi duplicare e modificare come desideri.
 
 Quando **crei il tuo logo**, è quindi possibile eseguire una ricerca nella homepage per i diversi loghi pre-costruiti, per duplicare quello o quelli che ti interessano; e poi modificarli come desideri.
-Aggiungere un elemento di sfondo rappresentativo della propria città (importando una foto o cercando "Illustrazioni" o "Immagini" nel menu a sinistra "Elementi") può poi essere fatto. Successivamente, inserire il logo o il ₿ di Bitcoin sopra - anche modificandone il colore se desiderato - è una possibilità.
+Puoi poi aggiungere un elemento di sfondo rappresentativo della propria città (importando una foto o cercando "Illustrazioni" o "Immagini" nel menu a sinistra "Elementi"). Successivamente, inserire il logo o la ₿ di Bitcoin sopra - anche modificandone il colore se desiderato - è una possibilità.
 Nel caso di **creazione di uno striscione o di un poster**, è sufficiente eseguire nuovamente una ricerca nella homepage del sito per ottenere un poster pre-progettato. Dopo averlo duplicato, sarà possibile modificarlo cambiando i testi e i caratteri, aggiungendo il logo della propria comunità e importando foto da trascinare in un riquadro (che si otterrà cercando "riquadro" nel menu a sinistra "Elementi").
-Inoltre, il menu a sinistra "Design" consente di cercare altri modelli secondo la propria richiesta.
+Inoltre, il menu a sinistra "Design" consente di cercare altri modelli secondo la propria esigenza.
 
 Infine, è anche possibile cercare nella homepage una **miniatura YouTube o uno striscione pre-progettato**, duplicarlo e poi modificarlo come si desidera.
 
-In breve, **le possibilità sono infinite e dipendono dalle proprie esigenze ma anche dalla carta grafica che si desidera creare** per la propria comunità e i propri incontri/eventi!
+In breve, **le possibilità sono infinite e dipendono dalle proprie esigenze ma anche dalla grafica che si desidera creare** per la propria comunità e i propri incontri/eventi!
 ####
 Per guidarvi più nel dettaglio, offriamo di seguito un tutorial video non esaustivo che presenta alcune possibilità:
 ![Tutorial Canva](https://www.youtube.com/watch?v=sgloI_v-nAk)
@@ -260,9 +259,9 @@ Ecco anche alcuni file pre-progettati, duplicabili e modificabili a vostra dispo
 - **Presentazione PowerPoint** "Capitolo 2 - Comprendere le Transazioni Bitcoin", di @ProfEduStream: [link](https://www.canva.com/design/DAFsEcnOro8/Mz9FYdTGhsvozZOe0Y9jtw/edit?utm_content=DAFsEcnOro8&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 - **Volantino** "21 Motivi per Usare Bitcoin", scritto da @ProfEduStream: [link](https://www.canva.com/design/DAFtAR1NauQ/ZDwl2CchIJ9Gpb36N6-7iw/edit?utm_content=DAFtAR1NauQ&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
-Come potete osservare, le possibilità sono infinite e ovviamente dipendono dalle vostre necessità. **Non esitate a progettare nuovi modelli voi stessi, poi prendetevi qualche minuto per condividerli con altri intorno a voi così che possa risparmiare diverse ore di lavoro ad altre comunità nel vostro paese**. Infatti, non dimenticate che **ogni comunità, prima o poi, affronterà le stesse problematiche e necessità che avete voi. Condividendo le vostre risorse in modo open-source, state quindi indirettamente accelerando lo sviluppo di tutte le altre comunità Bitcoin**.
+Come potete osservare, le possibilità sono infinite e ovviamente dipendono dalle vostre necessità. **Non esitate a progettare voi stessi nuovi modelli, poi prendetevi qualche minuto per condividerli con altri intorno a voi così che possiate risparmiare diverse ore di lavoro ad altre comunità nel vostro paese**. Infatti, non dimenticate che **ogni comunità, prima o poi, affronterà le stesse problematiche e necessità che avete voi. Condividendo le vostre risorse in modo open-source, state quindi indirettamente accelerando lo sviluppo di tutte le altre comunità Bitcoin**.
 
-Tuttavia, quando create i vostri materiali visivi, assicuratevi di prestare attenzione alle dimensioni previste dai social network e dalle applicazioni di comunicazione che prevedete di utilizzare.
+Tuttavia, quando create il vosto materiale grafico, assicuratevi di prestare attenzione alle dimensioni previste dai social network e dalle applicazioni di comunicazione che prevedete di utilizzare.
 Ecco alcune proporzioni e standard che potrebbero esservi utili:
 
 

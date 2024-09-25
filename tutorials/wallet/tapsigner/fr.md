@@ -44,35 +44,35 @@ Pour gérer le portefeuille, nous allons utiliser l'application mobile **Nunchuk
 
 ![TAPSIGNER NUNCHUK](assets/notext/03.webp)
 
-Si vous utilisez Nunchuk pour la première fois, l'application vous proposera de créer un compte. Pour les besoins de ce tutoriel, il n'est pas nécessaire d'en créer un. Sélectionnez donc "Continue as guest" pour continuer sans compte.
+Si vous utilisez Nunchuk pour la première fois, l'application vous proposera de créer un compte. Pour les besoins de ce tutoriel, il n'est pas nécessaire d'en créer un. Sélectionnez donc "*Continue as guest*" pour continuer sans compte.
 
 ![TAPSIGNER NUNCHUK](assets/notext/04.webp)
 
-Cliquez ensuite sur "Unassisted wallet".
+Cliquez ensuite sur "*Unassisted wallet*".
 
 ![TAPSIGNER NUNCHUK](assets/notext/05.webp)
 
-Puis cliquez sur le bouton "I'll explore on my own".
+Puis cliquez sur le bouton "*I'll explore on my own*".
 
 ![TAPSIGNER NUNCHUK](assets/notext/06.webp)
 
-Une fois sur Nunchuk, cliquez sur le bouton "+" à côté de l'onglet "Keys".
+Une fois sur Nunchuk, cliquez sur le bouton "*+*" à côté de l'onglet "*Keys*".
 
 ![TAPSIGNER NUNCHUK](assets/notext/07.webp)
 
-Choisissez "Add NFC key".
+Choisissez "*Add NFC key*".
 
 ![TAPSIGNER NUNCHUK](assets/notext/08.webp)
 
-Puis cliquez sur "Add TAPSIGNER".
+Puis cliquez sur "*Add TAPSIGNER*".
 
 ![TAPSIGNER NUNCHUK](assets/notext/09.webp)
 
-Cliquez sur "Continue" puis placez votre carte NFC Tapsigner contre votre smartphone.
+Cliquez sur "*Continue*" puis placez votre carte NFC Tapsigner contre votre smartphone.
 
 ![TAPSIGNER NUNCHUK](assets/notext/10.webp)
 
-Si votre Tapsigner est neuf, Nunchuk vous proposera de l'initialiser. Cliquez sur "Yes".
+Si votre Tapsigner est neuf, Nunchuk vous proposera de l'initialiser. Cliquez sur "*Yes*".
 
 ![TAPSIGNER NUNCHUK](assets/notext/11.webp)
 
@@ -80,15 +80,15 @@ Vous devrez maintenant choisir la manière dont vous générez votre code de cha
 
 Le Tapsigner utilise le standard BIP32. Cela signifie que la dérivation de vos clés cryptographiques qui sécurisent vos bitcoins ne s'appuie pas sur une phrase mnémonique comme pour les portefeuilles BIP39, mais directement sur la clé privée maîtresse et le code de chaîne maître. Ces 2 éléments sont passés dans la fonction HMAC pour dériver le reste de votre portefeuille de manière déterministe et hiérarchique.
 
-La clé privée maîtresse est générée directement par le TRNG (*True Random Number Generator*) intégré à votre Tapsigner. Le code de chaîne maître, quant à lui, doit être fourni de l'extérieur. À cette étape, vous avez le choix : laissez Nunchuk le générer automatiquement en cliquant sur "Automatic", ou générez-le vous-même en sélectionnant "Advanced" et en l'inscrivant dans la case prévue à cet effet.
+La clé privée maîtresse est générée directement par le TRNG (*True Random Number Generator*) intégré à votre Tapsigner. Le code de chaîne maître, quant à lui, doit être fourni de l'extérieur. À cette étape, vous avez le choix : laissez Nunchuk le générer automatiquement en cliquant sur "*Automatic*", ou générez-le vous-même en sélectionnant "*Advanced*" et en l'inscrivant dans la case prévue à cet effet.
 
 ![TAPSIGNER NUNCHUK](assets/notext/12.webp)
 
-Vous devez ensuite choisir un code PIN. Dans la zone "Starting PIN", saisissez le code PIN inscrit au dos de votre Tapsigner.
+Vous devez ensuite choisir un code PIN. Dans la zone "*Starting PIN*", saisissez le code PIN inscrit au dos de votre Tapsigner.
 
 ![TAPSIGNER NUNCHUK](assets/notext/13.webp)
 
-Choisissez un code PIN pour sécuriser l'accès physique à votre Tapsigner. Ce code PIN ne joue aucun rôle dans le processus de récupération de votre portefeuille. Son unique fonction est de déverrouiller votre Tapsigner afin de signer des transactions. Assurez-vous de sauvegarder ce code PIN pour éviter de l'oublier. Cliquez sur "Continue" pour poursuivre.
+Choisissez un code PIN pour sécuriser l'accès physique à votre Tapsigner. Ce code PIN ne joue aucun rôle dans le processus de récupération de votre portefeuille. Son unique fonction est de déverrouiller votre Tapsigner afin de signer des transactions. Assurez-vous de sauvegarder ce code PIN pour éviter de l'oublier. Cliquez sur "*Continue*" pour poursuivre.
 
 ![TAPSIGNER NUNCHUK](assets/notext/14.webp)
 
@@ -104,7 +104,7 @@ Choisissez un nom pour votre portefeuille.
 
 ![TAPSIGNER NUNCHUK](assets/notext/17.webp)
 
-La base de votre portefeuille est désormais configurée. Pour vérifier l'authenticité de votre Tapsigner, à tout moment, vous pouvez cliquer sur le bouton "Run health check".
+La base de votre portefeuille est désormais configurée. Pour vérifier l'authenticité de votre Tapsigner, à tout moment, vous pouvez cliquer sur le bouton "*Run health check*".
 
 ![TAPSIGNER NUNCHUK](assets/notext/18.webp)
 
@@ -122,23 +122,23 @@ De retour sur la page d'accueil de Nunchuk, vous pouvez voir que votre Tapsigner
 
 ![TAPSIGNER NUNCHUK](assets/notext/21.webp)
 
-Vous allez maintenant devoir générer les clés de votre portefeuille Bitcoin. Pour ce faire, cliquez sur le bouton "+" à droite de l'onglet "Wallets".
+Vous allez maintenant devoir générer les clés de votre portefeuille Bitcoin. Pour ce faire, cliquez sur le bouton "*+*" à droite de l'onglet "*Wallets*".
 
 ![TAPSIGNER NUNCHUK](assets/notext/22.webp)
 
-Cliquez sur "Create new wallet".
+Cliquez sur "*Create new wallet*".
 
 ![TAPSIGNER NUNCHUK](assets/notext/23.webp)
 
-Puis choisissez l'option "Create a new wallet using existing keys".
+Puis choisissez l'option "*Create a new wallet using existing keys*".
 
 ![TAPSIGNER NUNCHUK](assets/notext/24.webp)
 
-Choisissez un nom pour votre portefeuille puis cliquez sur "Continue".
+Choisissez un nom pour votre portefeuille puis cliquez sur "*Continue*".
 
 ![TAPSIGNER NUNCHUK](assets/notext/25.webp)
 
-Sélectionnez votre Tapsigner comme périphérique de signature pour ce nouvel ensemble de clés, puis cliquez sur "Continue".
+Sélectionnez votre Tapsigner comme périphérique de signature pour ce nouvel ensemble de clés, puis cliquez sur "*Continue*".
 
 ![TAPSIGNER NUNCHUK](assets/notext/26.webp)
 
@@ -162,7 +162,7 @@ Pour recevoir des bitcoins, cliquez sur votre portefeuille.
 
 ![TAPSIGNER NUNCHUK](assets/notext/30.webp)
 
-Puis utilisez l'adresse générée pour recevoir des bitcoins. Si vous avez déjà reçu des bitcoins auparavant sur ce portefeuille, vous devrez cliquer sur le bouton "Receive" afin de générer une nouvelle adresse de réception vierge.
+Puis utilisez l'adresse générée pour recevoir des bitcoins. Si vous avez déjà reçu des bitcoins auparavant sur ce portefeuille, vous devrez cliquer sur le bouton "*Receive*" afin de générer une nouvelle adresse de réception vierge.
 
 ![TAPSIGNER NUNCHUK](assets/notext/31.webp)
 
@@ -170,7 +170,7 @@ Une fois la transaction de l'envoyeur diffusée, vous la verrez apparaitre sur v
 
 ![TAPSIGNER NUNCHUK](assets/notext/32.webp)
 
-Cliquez sur "View coins".
+Cliquez sur "*View coins*".
 
 ![TAPSIGNER NUNCHUK](assets/notext/33.webp)
 
@@ -178,11 +178,11 @@ Sélectionnez votre nouvel UTXO.
 
 ![TAPSIGNER NUNCHUK](assets/notext/34.webp)
 
-Cliquez sur le "+" à côté de "Tags" pour ajouter une étiquette à votre UTXO. C'est une bonne pratique, car cela vous aide à vous rappeler la provenance de vos pièces et à optimiser votre confidentialité lors de futures dépenses.
+Cliquez sur le "*+*" à côté de "*Tags*" pour ajouter une étiquette à votre UTXO. C'est une bonne pratique, car cela vous aide à vous rappeler la provenance de vos pièces et à optimiser votre confidentialité lors de futures dépenses.
 
 ![TAPSIGNER NUNCHUK](assets/notext/35.webp)
 
-Sélectionnez un tag existant ou créez-en un nouveau, puis cliquez sur "Enregistrer". Vous avez aussi la possibilité de créer des "collections" pour organiser vos pièces de manière plus structurée.
+Sélectionnez un tag existant ou créez-en un nouveau, puis cliquez sur "*Enregistrer*". Vous avez aussi la possibilité de créer des "*collections*" pour organiser vos pièces de manière plus structurée.
 
 ![TAPSIGNER NUNCHUK](assets/notext/36.webp)
 
@@ -192,15 +192,15 @@ Maintenant que vous avez des bitcoins sur votre portefeuille, vous pouvez égale
 
 ![TAPSIGNER NUNCHUK](assets/notext/37.webp)
 
-Cliquez sur le bouton "Send".
+Cliquez sur le bouton "*Send*".
 
 ![TAPSIGNER NUNCHUK](assets/notext/38.webp)
 
-Sélectionnez le montant à envoyer, puis cliquez sur "Continue".
+Sélectionnez le montant à envoyer, puis cliquez sur "*Continue*".
 
 ![TAPSIGNER NUNCHUK](assets/notext/39.webp)
 
-Ajoutez une "note" à votre future transaction pour vous souvenir de son objectif.
+Ajoutez une "*note*" à votre future transaction pour vous souvenir de son objectif.
 
 ![TAPSIGNER NUNCHUK](assets/notext/40.webp)
 
@@ -212,11 +212,11 @@ Vous pouvez également scanner une adresse encodée en QR code en cliquant sur l
 
 ![TAPSIGNER NUNCHUK](assets/notext/42.webp)
 
-Cliquez sur le bouton "Create Transaction".
+Cliquez sur le bouton "*Create Transaction*".
 
 ![TAPSIGNER NUNCHUK](assets/notext/43.webp)
 
-Vérifiez les détails de votre transaction, puis cliquez sur le bouton "Sign" à côté de votre Tapsigner.
+Vérifiez les détails de votre transaction, puis cliquez sur le bouton "*Sign*" à côté de votre Tapsigner.
 
 ![TAPSIGNER NUNCHUK](assets/notext/44.webp)
 
@@ -228,7 +228,7 @@ Puis placez le Tapsigner à l'arrière de votre smartphone.
 
 ![TAPSIGNER NUNCHUK](assets/notext/46.webp)
 
-Votre transaction est maintenant signée. Vérifiez une dernière fois que tout est correct, puis cliquez sur "Broadcast Transaction" pour la diffuser sur le réseau Bitcoin.
+Votre transaction est maintenant signée. Vérifiez une dernière fois que tout est correct, puis cliquez sur "*Broadcast Transaction*" pour la diffuser sur le réseau Bitcoin.
 
 ![TAPSIGNER NUNCHUK](assets/notext/47.webp)
 
@@ -242,15 +242,15 @@ Si vous avez perdu votre Tapsigner, vous pouvez récupérer votre portefeuille e
 
 Pour la récupération, nous allons utiliser l'application Nunchuk, mais gardez à l'esprit que cela signifie temporairement sécuriser vos fonds dans un hot wallet. Si votre Tapsigner sécurisait des montants importants, envisagez plutôt de suivre le même processus de récupération avec une Coldcard neuve.
 
-Ouvrez l'application Nunchuk et cliquez sur le bouton "+" à côté de l'onglet "Keys".
+Ouvrez l'application Nunchuk et cliquez sur le bouton "*+*" à côté de l'onglet "*Keys*".
 
 ![TAPSIGNER NUNCHUK](assets/notext/49.webp)
 
-Choisissez "Add NFC key".
+Choisissez "*Add NFC key*".
 
 ![TAPSIGNER NUNCHUK](assets/notext/50.webp)
 
-Choisissez l'option "Recover TAPSIGNER key from backup".
+Choisissez l'option "*Recover TAPSIGNER key from backup*".
 
 ![TAPSIGNER NUNCHUK](assets/notext/51.webp)
 
@@ -266,7 +266,7 @@ Puis choisissez un nom pour votre portefeuille de récupération.
 
 ![TAPSIGNER NUNCHUK](assets/notext/54.webp)
 
-Vous avez maintenant récupéré l'accès à vos bitcoins. Votre portefeuille est désormais géré comme un portefeuille chaud visible dans l'onglet "Keys" de l'application Nunchuk. Il faut ensuite créer de nouveau un ensemble de clés cryptographiques dans la section "Wallets" en y associant cette clé. Pour ce faire, vous pouvez suivre de nouveau les étapes dans la partie "Comment créer un portefeuille sur un Tapsigner ?" de ce tutoriel.
+Vous avez maintenant récupéré l'accès à vos bitcoins. Votre portefeuille est désormais géré comme un portefeuille chaud visible dans l'onglet "*Keys*" de l'application Nunchuk. Il faut ensuite créer de nouveau un ensemble de clés cryptographiques dans la section "*Wallets*" en y associant cette clé. Pour ce faire, vous pouvez suivre de nouveau les étapes dans la partie "*Comment créer un portefeuille sur un Tapsigner ?*" de ce tutoriel.
 
 ![TAPSIGNER NUNCHUK](assets/notext/55.webp)
 

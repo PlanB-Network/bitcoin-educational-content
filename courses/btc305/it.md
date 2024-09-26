@@ -3,7 +3,7 @@ name: Bitcoin and BTC Pay Server
 goal: Installare BTC Pay Server per la tua attività
 objectives:
   - Capire cos'è btcpayserver.
-  - Auto-ospitare e configurare BTC Pay Server.
+  - Self-hostare e configurare BTC Pay Server.
   - Utilizzare btcpayserver nella tua attività quotidiana.
 ---
 
@@ -23,17 +23,17 @@ Prodotto dalla BTCPay Server Foundation
 
 <partId>59e43fe3-b494-5da6-b4b4-9df5bdf08916</partId>
 
-## Critiche entusiastiche per il Bitcoin e BTCPay Server degli autori
+## Critiche entusiastiche per Bitcoin e BTCPay Server degli autori
 
 <chapterId>e1fe6294-3c82-5203-9537-779f9087c35a</chapterId>
 
-Iniziamo con cosa sia BTCPay Server e da dove provenga. Valorizziamo la trasparenza e certi standard per formare fiducia nello spazio Bitcoin.
+Iniziamo con cosa è BTCPay Server e da dove provien. Valorizziamo la trasparenza e certi standard per formare fiducia nello spazio Bitcoin.
 Un progetto in questo spazio ha infranto questi valori. Il lead developer di BTCPay Server, Nicolas Dorier, ha preso questa cosa personalmente e ha fatto la promessa di renderli obsoleti. Eccoci molti anni dopo, lavorando verso questo futuro, completamente open-source, ogni giorno.
 
 > Questo è falso, la mia fiducia in te è infranta, ti renderò obsoleto.
 > Nicolas Dorier
 
-Dopo le parole pronunciate da Nicolas, era il momento di iniziare a costruire. Molto lavoro è stato dedicato a quello che ora chiamiamo BTCPay Server. Più persone volevano aiutare con questa spinta. I più riconoscibili sono r0ckstardev, MrKukks, Pavlenex e il primo commerciante ad utilizzare il software, astupidmoose.
+Dopo le parole pronunciate da Nicolas, era il momento di iniziare a costruire. È stato dedicato molto lavoro a quello che ora chiamiamo BTCPay Server. Più persone volevano supportare questa iniziativa. I più noti sono r0ckstardev, MrKukks, Pavlenex e il primo commerciante ad utilizzare il software, astupidmoose.
 
 Cosa significa open source e cosa comporta un tale progetto?
 
@@ -47,11 +47,11 @@ NB. Se segui questo corso in aula, i nomi dei server potrebbero differire a seco
 
 ### Struttura del corso
 
-Ogni capitolo ha obiettivi e valutazioni delle conoscenze. In questo corso, copriremo ognuno di questi e avremo un riassunto delle caratteristiche chiave in ogni blocco di lezione (ad es. capitolo). Le illustrazioni sono presentate per fornire un feedback visivo e rafforzare i concetti chiave in un aspetto visivo. Gli obiettivi sono stabiliti all'inizio di ogni blocco di lezione. Questi obiettivi vanno oltre una semplice lista di controllo. Ti forniscono una guida per acquisire un nuovo insieme di competenze. Le valutazioni delle conoscenze diventano progressivamente più sfidanti nella configurazione del tuo BTCPay Server.
+Ogni capitolo ha obiettivi e valutazioni delle conoscenze. Copriremo ognuno di questi e avremo un riassunto delle caratteristiche chiave in ogni blocco di lezione (ad es. capitolo). Le illustrazioni sono presentate per fornire un feedback visivo e rafforzare i concetti chiave. Gli obiettivi sono stabiliti all'inizio di ogni blocco di lezione. Questi obiettivi vanno oltre una semplice lista di controllo. Ti forniscono una guida per acquisire un nuovo insieme di competenze. Le valutazioni delle conoscenze diventano progressivamente più sfidanti nella configurazione del tuo BTCPay Server.
 
 ### Cosa ricevono gli studenti con il corso?
 
-Con il Corso su BTCPay Server, uno studente può comprendere i principi di base, sia tecnici che non tecnici, di Bitcoin. La formazione estensiva sull'uso di Bitcoin tramite BTCPay Server permetterà agli studenti di gestire la propria infrastruttura Bitcoin.
+Con il Corso su BTCPay Server, uno studente può comprendere i principi di base, sia tecnici che non, di Bitcoin. La formazione estensiva sull'uso di Bitcoin tramite BTCPay Server permetterà agli studenti di gestire la propria infrastruttura Bitcoin.
 
 ### Indirizzi Web importanti o opportunità di contatto
 
@@ -64,7 +64,7 @@ La Fondazione BTCPay Server, che ha permesso ad Alekos e Bas di scrivere questo 
 
 <chapterId>5c0bc234-c188-5b4a-94d5-adee87a120e2</chapterId>
 
-### Comprendere Bitcoin tramite esercizio in classe
+### Comprendere Bitcoin tramite esercizi in classe
 
 Questo è un esercizio in classe quindi, se segui questo corso da solo, non puoi eseguirlo ma puoi comunque approfondire questo esercizio. Per completare questo compito, il numero minimo di persone è tra 9 e 11.
 
@@ -72,7 +72,7 @@ L'esercizio inizia dopo aver guardato l'introduzione "Come funzionano Bitcoin e 
 
 ![come funzionano bitcoin e la blockchain](https://youtu.be/mhE_vvwAiRc)
 
-Questo esercizio richiede la partecipazione di almeno nove persone. L'intento dell'esercizio è di ottenere fisicamente un'idea di come funziona Bitcoin. Giocando ciascun ruolo nella rete, avrai un modo interattivo e divertente di apprendere. Questo esercizio non coinvolge la Lightning Network.
+Questo esercizio richiede la partecipazione di almeno nove persone. L'intento dell'esercizio è di ottenere fisicamente un'idea di come funziona Bitcoin. Interpretando ciascun ruolo nella rete, apprenderai in modo interattivo e divertente. Questo esercizio non coinvolge Lightning Network.
 
 ### Esempio; Richiede 9 / 11 persone
 
@@ -91,38 +91,38 @@ Il cliente acquista un prodotto dal negozio con Bitcoin.
 - Configurazione:
   - Vedi diagrammi/spiegazioni nell'allegato Figjam - [Schema dell'Attività](https://www.figma.com/file/ckmvMq02Jm2MegSsVCDFhc/Day-1-Classroom-Activity?type=whiteboard&node-id=0-1&t=KR31ofMaJX6S95UL-0).
   - Fai partecipare tre studenti volontari nei ruoli di Cliente (Alice), Commerciante (Bob) e Banca.
-- Agire la sequenza degli eventi:
+- Queata la sequenza degli eventi:
   - Cliente- naviga nel negozio online e trova un articolo per $25 che desidera, e informa il Commerciante che vorrebbe acquistarlo
   - Commerciante- chiede il pagamento.
   - Cliente- invia le informazioni della carta al Commerciante
-  - Commerciante- inoltra le informazioni alla Banca (identificando sia la propria identità che quella/informazioni) richiedendo il pagamento di
+  - Commerciante- inoltra le informazioni alla Banca (identificando sia la propria identità che quella del cliente) richiedendo il pagamento di
   - La Banca raccoglie informazioni sul Cliente e sul Commerciante (Alice e Bob) e verifica che il saldo del cliente sia sufficiente.
   - Deduce \$25 dal conto di Alice, aggiunge \$24 al conto di Bob, prende \$1 per il servizio
   - Il Commerciante riceve il via libera dalla Banca e spedisce l'articolo al cliente.
 - Commenti:
   - Bob e Alice devono avere una relazione con una banca.
-  - La banca raccoglie informazioni identificative su entrambi, Bob e Alice.
+  - La banca raccoglie informazioni su entrambi, Bob e Alice.
   - La banca prende una percentuale.
-  - La banca deve essere fidata per la custodia del denaro di ciascun partecipante in ogni momento.
+  - La banca deve essere fidata in ogni momento per la custodia del denaro di ciascun partecipante.
 
 **Scenario 2 - Sistema Bitcoin**
 
 - Configurazione:
   - Vedi diagrammi/spiegazioni nell'allegato Figjam - [Schema dell'Attività](https://www.figma.com/file/ckmvMq02Jm2MegSsVCDFhc/Day-1-Classroom-Activity?type=whiteboard&node-id=0-1&t=KR31ofMaJX6S95UL-0).
 - Sostituire la Banca con nove studenti che interpreteranno il ruolo di un Computer (Nodi/Minatori di Bitcoin) in una rete per sostituire la Banca.
-- Ognuno dei 9 Computer possiede un registro storico completo di tutte le transazioni passate mai effettuate (quindi saldi accurati senza falsificazioni), così come un insieme di regole:
-  - Verificare che la transazione sia firmata correttamente (lachiaveaprelaserratura)
+- Ognuno dei 9 Computer possiede un registro storico completo di tutte le transazioni passate (quindi saldi accurati senza falsificazioni), così come un insieme di regole:
+  - Verificare che la transazione sia firmata correttamente (la chiave apre la serratura)
   - Trasmettere e ricevere transazioni valide ai pari nella rete, scartare quelle non valide (incluso qualsiasi tentativo di spendere gli stessi fondi due volte)
-- Aggiornare/Aggiungere periodicamente i record con nuove transazioni ricevute da un computer "casuale" a patto che tutti i contenuti siano validi (nota: stiamo ignorando, per ora, la componente del Proof of Work in tutto questo, per semplicità), altrimenti rifiutare queste e continuare come prima fino a quando il prossimo computer "casuale" invia un aggiornamento
-  - La quantità appropriata è stata premiata se i contenuti erano validi.
+- Aggiornare/Aggiungere periodicamente i record con nuove transazioni ricevute da un computer "casuale" a patto che tutti i contenuti siano validi (nota: stiamo ignorando, per ora, la componente del Proof of Work, esclusivamente per semplicità), altrimenti rifiutare queste e continuare come prima fino a quando il prossimo computer "casuale" invia un aggiornamento
+  - La quantità appropriata è stata inviata se i contenuti erano validi.
 - Rappresentare la sequenza degli eventi:
   - Cliente- naviga nel negozio online e trova un articolo a $25 che desidera, e informa il Commerciante che vorrebbe acquistarlo
-  - Commerciante- chiede il pagamento inviando al cliente una fattura/indirizzo dal loro portafoglio.
+  - Commerciante- chiede il pagamento inviando al cliente una fattura/indirizzo dal proprio portafoglio.
   - Cliente- costruisce una transazione (inviando $25 in BTC a un indirizzo fornito dal Commerciante) e la trasmette alla Rete Bitcoin.
 - Computer- ricevono la transazione e verificano:
   - Che ci sia almeno $25 di BTC nell'indirizzo da cui viene inviato
   - Che la transazione sia firmata correttamente (“sbloccata” dal cliente)
-  - Se non è così, allora la transazione non verrà propagata attraverso la rete, e se invece è così, allora si propaga ed è in attesa.
+  - Se non è così, allora la transazione non verrà propagata attraverso la rete, diversamente verrà propagata e messa in attesa.
   - I commercianti possono controllare che la transazione sia in sospeso e in attesa.
 - Un computer viene "casualmente" scelto per proporre di finalizzare la transazione proposta trasmettendo "un blocco" che la contiene; se risulta corretto, riceveranno una ricompensa in BTC.
   - OPZIONALE/AVANZATO - invece di selezionare casualmente un Computer, simulare il mining facendo lanciare ai Computer dei dadi fino a quando non si verifica un risultato predeterminato (ad es., il primo che ottiene un doppio sei viene selezionato)
@@ -133,11 +133,11 @@ Il cliente acquista un prodotto dal negozio con Bitcoin.
 - Commenti:
   - Si noti che non è stata necessaria una preesistente relazione bancaria.
   - Non è necessario un terzo per facilitare; sostituito da codice/incentivi.
-  - Nessuna raccolta di dati da parte di chiunque al di fuori dello scambio diretto e solo la quantità necessaria deve essere scambiata tra i partecipanti (ad es., indirizzo di spedizione).
-  - Non è richiesta fiducia tra le persone (altro che il Commerciante che invia l'articolo), in molti modi come un acquisto in contanti.
-  - Il denaro è posseduto direttamente dagli individui.
+  - Nessuna raccolta di dati da parte di nessuno al di fuori dello scambio diretto e solo la quantità necessaria scambiata tra i partecipanti (ad es., indirizzo di spedizione).
+  - Non è richiesta fiducia tra le persone (sennochè l'invio dell'articolo da parte Commerciante).
+  - Il denaro è gestito e detenuto direttamente dagli individui.
   - Il registro di Bitcoin è rappresentato in dollari per semplicità, ma in realtà è in BTC.
-  - Simuliamo una singola transazione trasmessa, ma in realtà, molteplici transazioni sono in sospeso nella rete, e i blocchi includono migliaia di transazioni contemporaneamente. I nodi controllano anche che non ci siano transazioni di doppia spesa in sospeso (scarterei tutte tranne una se fosse il caso).
+  - Simuliamo una singola transazione trasmessa, ma in realtà, sono in sospeso nella rete molteplici transazioni, e i blocchi includono migliaia di transazioni contemporaneamente. I nodi controllano anche che non ci siano transazioni di doppia spesa in sospeso (scarterei tutte tranne una se fosse il caso).
 - Scenari di imbroglio:
   - Cosa succede se il cliente non avesse $25 in BTC?
     - Non sarebbe in grado di creare la transazione perché “sbloccare” e “proprietà” sono la stessa cosa, e i computer controllano che la transazione sia firmata correttamente; altrimenti, la rifiutano.
@@ -164,7 +164,7 @@ Definire i seguenti termini chiave introdotti nella sezione precedente:
 
 **Discutere il significato di alcuni termini aggiuntivi come gruppo:**
 
-Blockchain, Transazione, Doppia Spesa, Problema dei Generali Bizantini, Mining, Proof of Work (PoW), Funzione di Hash, Ricompensa del Blocco, Blockchain, Catena Più Lunga, Attacco del 51%, Output, Blocco dell'Output, Cambio, Satoshis, Chiave Pubblica/Privata, Indirizzo, Crittografia a Chiave Pubblica, Firma Digitale, Portafoglio
+Blockchain, Transazione, Doppia Spesa, Problema dei Generali Bizantini, Mining, Proof of Work (PoW), Funzione di Hash, Ricompensa del Blocco, Blockchain, Chain più Lunga, Attacco del 51%, Output, Blocco dell'Output, Cambio, Satoshis, Chiave Pubblica/Privata, Indirizzo, Crittografia a Chiave Pubblica, Firma Digitale, Portafoglio
 
 # Introduzione a BTCPay Server
 
@@ -176,7 +176,7 @@ Blockchain, Transazione, Doppia Spesa, Problema dei Generali Bizantini, Mining, 
 
 ### Lavorare con BTCPay Server
 
-L'obiettivo di questo blocco del corso sarà avere una comprensione generale del software BTCPay Server. In un ambiente condiviso, si raccomanda di seguire la dimostrazione dell'istruttore e seguire insieme il Manuale del Corso BTCPay Server per seguire l'insegnante. Imparerai come creare un portafoglio attraverso metodi multipli. Gli esempi includono configurazioni di portafogli caldi e portafogli hardware collegati tramite BTCPay Server Vault. Questi obiettivi si verificano nell'ambiente Demo, mostrato e dato accesso dal tuo istruttore del corso.
+L'obiettivo di questo blocco del corso sarà acquisire una comprensione generale del software BTCPay Server. In un ambiente condiviso, si raccomanda di seguire la dimostrazione dell'istruttore e seguire insieme il Manuale del Corso BTCPay Server per seguire l'insegnante. Imparerai come creare un portafoglio attraverso metodi multipli. Gli esempi includono configurazioni di portafogli caldi e portafogli hardware collegati tramite BTCPay Server Vault. Questi obiettivi si verificano nell'ambiente Demo, mostrato e dato accesso dal tuo istruttore del corso.
 
 Se segui questo corso da solo, puoi trovare un elenco di host di terze parti per scopi dimostrativi su https://directory.btcpayserver.org/filter/hosts. Sconsigliamo vivamente l'uso di queste opzioni di terze parti come ambienti di produzione, ma servono agli scopi giusti per un'introduzione all'uso di Bitcoin e BTCPay Server.
 

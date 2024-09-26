@@ -427,7 +427,7 @@ Mantieni la tua frase di recupero al sicuro. Se accessibile da qualcuno, specifi
 
 ### Conservazione Hot e Cold delle chiavi Bitcoin
 
-Di solito, i portafogli Bitcoin sono denominati in Hot Wallet o Cold Wallet. La maggior parte dei compromessi si trova nella comodità, facilità d'uso e rischi per la sicurezza. Ognuno di questi metodi può anche essere visto in una soluzione custodiale. Tuttavia, i compromessi qui sono per lo più basati su sicurezza e privacy e vanno oltre l'ambito di questo corso.
+Di solito, i portafogli Bitcoin sono denominati in Hot Wallet o Cold Wallet. La maggior parte dei compromessi si trova nella comodità, facilità d'uso e rischi per la sicurezza. Ognuno di questi metodi può anche essere visto come una soluzione custodial. Tuttavia, i compromessi qui sono per lo più basati su sicurezza e privacy e vanno oltre l'ambito di questo corso.
 
 ### Hot wallet
 
@@ -437,7 +437,7 @@ Gli Hot wallet sono il modo più comodo di interagire con Bitcoin tramite mobile
 
 Le persone spostano i loro Bitcoin in un cold wallet perché può isolare le chiavi private da Internet. Rimuovere la connessione internet dall'equazione riduce il rischio di malware, spyware e SIM swap. Si ritiene che la conservazione a freddo sia superiore alla conservazione a caldo per sicurezza e autonomia, purché vengano prese precauzioni adeguate per evitare la perdita delle chiavi private Bitcoin. La conservazione a freddo è più adatta per grandi quantità di Bitcoin, che non sono destinate a essere spese spesso a causa della complessità dell'installazione del portafoglio.
 
-Ci sono vari metodi su come conservare le chiavi Bitcoin in cold storage, da portafogli di carta a portafogli cerebrali, portafogli hardware o, fin dall'inizio, un file del portafoglio. La maggior parte dei portafogli utilizza BIP 39 per generare la frase seme. Tuttavia, all'interno del software Bitcoin core, non è ancora stato raggiunto un consenso sull'uso di esso. Il software Bitcoin Core genererà comunque un file Wallet.dat che devi conservare in una posizione sicura offline.
+Ci sono vari metodi su come conservare le chiavi Bitcoin in cold storage, da portafogli di carta a portafogli cerebrali, portafogli hardware o, fin dall'inizio, un file del portafoglio. La maggior parte dei portafogli utilizza BIP 39 per generare il seed. Tuttavia, all'interno del software Bitcoin core, non è ancora stato raggiunto un consenso sull'uso di esso. Il software Bitcoin Core genererà comunque un file Wallet.dat che devi conservare in una posizione sicura offline.
 
 ### Riepilogo delle Competenze
 
@@ -484,11 +484,11 @@ Gli amministratori possono vedere le transazioni in entrata e in uscita per il p
 
 ### Come Inviare
 
-La funzione di invio del server BTCPay invia transazioni dal tuo portafoglio on-chain BTCPay Server. BTCPay Server consente più modi di firmare le tue transazioni per spendere fondi. Una transazione può essere firmata con;
+La funzione di invio del server BTCPay invia transazioni dal tuo portafoglio on-chain BTCPay Server. BTCPay Server consente di firmare le tue transazioni per spendere fondi in più modi . Una transazione può essere firmata con;
 
 - Portafoglio Hardware
 - Portafogli che supportano PSBT
-- Chiave privata HD o semi di recupero.
+- Chiave privata HD o seed di recupero.
 - Portafoglio Caldo
 
 #### Portafoglio hardware
@@ -499,26 +499,25 @@ BTCPay Server ha un supporto integrato per portafoglio hardware che ti consente 
 
 PSBT (Partially Signed Bitcoin transactions) è un formato di interscambio per transazioni Bitcoin che devono ancora essere completamente firmate. PSBT è supportato in BTCPay Server e può essere firmato con portafogli hardware e software compatibili.
 
-La costruzione di una transazione Bitcoin completamente firmata segue i seguenti passaggi:
+La costruzione di una transazione Bitcoin firmata completamente prevede i seguenti passaggi:
 
-- Viene costruito un PSBT con input e output specifici ma senza firme
-- Il PSBT esportato può essere importato da un portafoglio che supporta questo formato
+- Viene costruita una PSBT con input e output specifici ma senza firme
+- La PSBT esportata può essere importatasu un portafoglio che supporta questo formato
 - I dati della transazione possono essere ispezionati e firmati utilizzando il portafoglio
-- Il file PSBT firmato viene esportato dal portafoglio e importato con BTCPay Server
+- Il file PSBT firmato viene esportato dal portafoglio e importato su BTCPay Server
 - BTCPay Server produce la transazione Bitcoin finale
 - Verifichi il risultato e lo trasmetti alla rete
 
-#### Firmando con chiave privata HD o seme mnemonico
-
+#### Firmando con chiave privata HD o seed
 Se hai creato un portafoglio in precedenza utilizzando BTCPay Server, puoi spendere i fondi inserendo la tua chiave privata in un campo appropriato. Imposta un "AccountKeyPath" appropriato in impostazioni del portafoglio; altrimenti, non puoi spendere.
 
 #### Firmando con un portafoglio caldo
 
-Se hai creato un nuovo portafoglio durante la configurazione del tuo negozio e lo hai abilitato come un portafoglio caldo, utilizzerà automaticamente il seme memorizzato su un server per firmare.
+Se hai creato un nuovo portafoglio durante la configurazione del tuo negozio e lo hai abilitato come un portafoglio caldo, utilizzerà automaticamente il seed memorizzato su un server per firmare.
 
 ### RBF (Replace-By-Fee)
 
-Replace-By-Fee (RBF) è una funzionalità del protocollo Bitcoin che consente di sostituire una transazione precedentemente trasmessa (mentre è ancora non confermata). Questo permette di randomizzare l'impronta della transazione del tuo portafoglio o di sostituirla con una tariffa più alta per spostare la transazione più in alto nella coda di priorità di conferma (mining). Questo sostituirà efficacemente la transazione originale poiché la tariffa più alta sarà prioritaria e, una volta confermata, invaliderà quella originale (senza doppia spesa).
+Replace-By-Fee (RBF) è una funzionalità del protocollo Bitcoin che consente di sostituire una transazione precedentemente trasmessa (se non confermata). Questo permette di randomizzare l'impronta della transazione del tuo portafoglio o di sostituirla con una tariffa più alta per spostare la transazione più in alto nella coda di priorità di conferma (mining). Questo sostituirà efficacemente la transazione originale poiché la tariffa più alta sarà prioritaria e, una volta confermata, invaliderà quella originale (senza doppia spesa).
 Premi il pulsante "Impostazioni Avanzate" per visualizzare le opzioni RBF;
 
 ![immagine](assets/en/16.webp)
@@ -529,7 +528,7 @@ Premi il pulsante "Impostazioni Avanzate" per visualizzare le opzioni RBF;
 
 ### Selezione Moneta
 
-La selezione moneta è una funzionalità avanzata che aumenta la privacy e consente di selezionare le monete che si desidera spendere quando si crea una transazione. Ad esempio, pagare con monete fresche da un mix di conjoin.
+La selezione moneta è una funzionalità avanzata che aumenta la privacy e consente di selezionare gli utxo che si desidera spendere quando si crea una transazione. Ad esempio, pagare con utxo freschi di conjoin.
 
 La selezione moneta funziona nativamente con la funzionalità di etichettatura del portafoglio. Questo ti consente di etichettare i fondi in entrata per una gestione e spesa UTXO più fluida.
 
@@ -537,7 +536,7 @@ BTCpay Server supporta anche BIP-329 per la gestione delle etichette. BIP-329 co
 
 ### Come Ricevere
 
-Quando si fa clic sul pulsante di ricezione in BTCPay Server, genera un indirizzo inutilizzato che può essere utilizzato per ricevere pagamenti. Gli amministratori possono anche generare un nuovo indirizzo generando una nuova "Fattura".
+Quando si fa clic sul pulsante di ricezione in BTCPay Server, viene generato un indirizzo inutilizzato per ricevere pagamenti. Gli amministratori possono anche generare un nuovo indirizzo generando una nuova "Fattura".
 
 BTCPay Server chiederà sempre di generare l'indirizzo BTC disponibile successivo per evitare il riutilizzo degli indirizzi. Dopo aver cliccato su "Genera il prossimo indirizzo BTC disponibile", BTCPay Server ha generato un nuovo indirizzo e QR. Consente anche di impostare direttamente un'Etichetta all'indirizzo per una migliore gestione dei tuoi indirizzi.
 
@@ -549,12 +548,12 @@ BTCPay Server chiederà sempre di generare l'indirizzo BTC disponibile successiv
 
 La funzionalità di Ri-scansione si basa su "Scantxoutset" di Bitcoin Core 0.17.0 per scandire lo stato attuale della blockchain (chiamato Set UTXO) alla ricerca di monete appartenenti allo schema di derivazione configurato. La ri-scansione del portafoglio risolve due problemi che gli utenti di BTCPay Server sperimentano.
 
-1. Problema del limite di gap - La maggior parte dei portafogli di terze parti sono portafogli leggeri che condividono un nodo tra molti utenti. I portafogli che dipendono da nodi leggeri e completi limitano la quantità (tipicamente 20) di indirizzi senza saldo che tengono traccia sulla blockchain per prevenire problemi di prestazione. BTCPay Server genera un nuovo indirizzo per ogni fattura. Tenendo presente quanto sopra, dopo che BTCPay Server genera 20 fatture consecutive non pagate, il portafoglio esterno smette di recuperare le transazioni, assumendo che non si siano verificate nuove transazioni. Il tuo portafoglio esterno non le mostrerà una volta che le fatture vengono pagate sulla 21ª, 22ª, ecc. D'altra parte, internamente, il portafoglio BTCPay Server tiene traccia di qualsiasi indirizzo che genera insieme a un limite di gap molto più grande. Non si affida a terzi e può sempre mostrare un saldo corretto.
+1. Problema del limite di gap - La maggior parte dei portafogli di terze parti sono portafogli leggeri che condividono un nodo tra molti utenti. I portafogli che dipendono da nodi leggeri e completi limitano la quantità (tipicamente 20) di indirizzi senza saldo che tengono traccia sulla blockchain per evitare problemi di prestazioni. BTCPay Server genera un nuovo indirizzo per ogni fattura. Tenendo presente quanto sopra, dopo che BTCPay Server genera 20 fatture consecutive non pagate, il portafoglio esterno smette di recuperare le transazioni, assumendo che non si siano verificate nuove transazioni. Il tuo portafoglio esterno non le mostrerà una volta che le fatture vengono pagate sulla 21ª, 22ª, ecc. D'altra parte, internamente, il portafoglio BTCPay Server tiene traccia di qualsiasi indirizzo che genera insieme a un limite -gap- molto più grande. Non si affida a terzi e può sempre mostrare il saldo corretto.
 2. La soluzione del limite di gap - Se il tuo [portafoglio esterno/esistente](https://docs.btcpayserver.org/WalletSetup/#use-an-existing-wallet) consente la configurazione del limite di gap, la soluzione più semplice è aumentarlo. Tuttavia, la maggior parte dei portafogli non permette questa configurazione. Gli unici portafogli che conosciamo e che permettono la configurazione del limite di gap sono Electrum, Wasabi e Sparrow Wallet. Sfortunatamente, è probabile che tu incontri problemi con molti altri portafogli. Per la migliore esperienza utente e privacy, considera di abbandonare i portafogli esterni e di utilizzare il portafoglio interno di BTCPay Server.
 
 #### BTCPay Server utilizza "mempoolfullrbf=1"
 
-BTCPay Server utilizza "mempoolfullrbf=1"; abbiamo aggiunto questo come impostazione predefinita nel tuo setup di BTCPay Server. Tuttavia, abbiamo anche reso possibile disabilitarlo manualmente. Senza "mempoolfullrbf=1", se un cliente effettua un doppio pagamento con una transazione che non segnala RBF, il commerciante lo saprebbe solo dopo la conferma.
+BTCPay Server utilizza "mempoolfullrbf=1"; abbiamo aggiunto questo come impostazione predefinita nel tuo setup di BTCPay Server. Tuttavia, è sempre possibile disabilitarlo manualmente. Senza "mempoolfullrbf=1", se un cliente effettua un doppio pagamento con una transazione che non segnala RBF, il commerciante lo saprebbe solo dopo la conferma.
 
 Un amministratore potrebbe voler escludere questa impostazione. Con la seguente stringa, puoi cambiare l'impostazione predefinita.
 
@@ -569,7 +568,7 @@ Le impostazioni del portafoglio all'interno di BTCPay Server offrono una panoram
 
 ![immagine](assets/en/19.webp)
 
-Le impostazioni del portafoglio all'interno di BTCPay Server offrono una panoramica chiara e veloce delle impostazioni generali del tuo portafoglio. Tutte queste impostazioni sono precompilate se il portafoglio è stato creato con BTCPay Server. Le impostazioni del portafoglio di BTCPay Server iniziano con lo stato del portafoglio. È un portafoglio solo visualizzazione o un portafoglio attivo? A seconda del tipo di portafoglio, le azioni possono variare dalla riesecuzione della scansione del portafoglio per le transazioni mancanti, dalla potatura delle vecchie transazioni dalla cronologia, dalla registrazione del portafoglio per i link di pagamento, o dalla sostituzione e cancellazione del portafoglio corrente associato al negozio. Nelle impostazioni del portafoglio di BTCPay Server, gli amministratori possono impostare un'etichetta per il portafoglio per una migliore gestione. Qui l'amministratore sarà anche in grado di vedere lo Schema di Derivazione, la chiave dell'account (xpub), l'Impronta digitale e il Percorso chiave. Le impostazioni dei pagamenti nel portafoglio hanno solo 2 impostazioni principali. Il pagamento è invalido se la transazione non viene confermata entro (minuti impostati) dopo la scadenza della fattura. Considera la fattura confermata quando la transazione di pagamento ha X numero di conferme. Gli amministratori possono anche impostare un interruttore per mostrare le commissioni consigliate ai pagamenti o impostare un obiettivo di conferma manuale nel numero di blocchi.
+Le impostazioni del portafoglio all'interno di BTCPay Server offrono una panoramica chiara e veloce delle impostazioni generali del tuo portafoglio. Tutte queste impostazioni sono precompilate se il portafoglio è stato creato con BTCPay Server. Le impostazioni del portafoglio di BTCPay Server iniziano con lo stato del portafoglio. È un portafoglio solo visualizzazione o un portafoglio attivo? A seconda del tipo di portafoglio, le azioni possono variare dalla riesecuzione della scansione del portafoglio per le transazioni mancanti, dalla pulizia delle vecchie transazioni dalla cronologia, dalla registrazione del portafoglio per i link di pagamento, o dalla sostituzione e cancellazione del portafoglio corrente associato al negozio. Nelle impostazioni del portafoglio di BTCPay Server, gli amministratori possono impostare un'etichetta per il portafoglio per una migliore gestione. Qui l'amministratore sarà anche in grado di vedere lo Schema di Derivazione, la chiave dell'account (xpub), l'Impronta digitale e il Percorso chiave. Le impostazioni dei pagamenti nel portafoglio hanno solo 2 impostazioni principali. Il pagamento è invalido se la transazione non viene confermata entro (minuti impostati) dopo la scadenza della fattura. Considera la fattura confermata quando la transazione di pagamento ha X numero di conferme. Gli amministratori possono anche impostare un interruttore per mostrare le commissioni consigliate ai pagamenti o impostare un obiettivo di conferma manuale nel numero di blocchi.
 
 ![immagine](assets/en/20.webp)
 
@@ -581,13 +580,13 @@ Se segui questo corso da solo, creare questo account potrebbe essere qualcosa ch
 
 #### Configurare un portafoglio Bitcoin in BTCPay Server
 
-BTCPay Server permette due modi per configurare un portafoglio. Un modo è importare un portafoglio Bitcoin già esistente. L'importazione può essere fatta collegando un portafoglio hardware, importando un file del portafoglio, inserendo una chiave pubblica estesa, scansionando il codice QR di un portafoglio, o, meno consigliato, inserendo a mano un seme di recupero del portafoglio precedentemente creato. In BTCPay Server, è anche possibile creare un nuovo portafoglio. Ci sono due modi possibili per configurare BTCPay Server quando si genera un nuovo portafoglio.
+BTCPay Serverdu configurare un portafoglio in due modi. Il primo è importare un portafoglio Bitcoin già esistente. L'importazione può essere fatta collegando un portafoglio hardware, importando un file del portafoglio, inserendo una chiave pubblica estesa, scansionando il codice QR di un portafoglio, o, meno consigliato, inserendo a mano un seed di recupero del portafoglio precedentemente creato. In BTCPay Server, è anche possibile creare un nuovo portafoglio. Ci sono due modi possibili per configurare BTCPay Server quando si genera un nuovo portafoglio.
 L'opzione di portafoglio caldo (hot wallet) in BTCPay Server consente funzionalità come 'Payjoin' o 'Liquid'. Tuttavia, c'è uno svantaggio: il seed di recupero generato per questo portafoglio sarà memorizzato sul server, dove chiunque abbia il controllo da Amministratore potrebbe recuperare il seed di recupero. Poiché la tua chiave privata deriva dal tuo seed di recupero, un attore malevolo potrebbe ottenere accesso ai tuoi fondi attuali e futuri!
 Per mitigare tale rischio in BTCPay Server, un Amministratore può impostare in Impostazioni Server > Politiche > "Consenti ai non-amministratori di creare portafogli caldi per i loro negozi" su no, come è per impostazione predefinita. Per migliorare la sicurezza di questi portafogli caldi, l'amministratore del server dovrebbe abilitare l'autenticazione 2FA sugli account autorizzati ad avere portafogli caldi. Conservare le chiavi private su un server pubblico è pericoloso e comporta dei rischi. Alcuni sono simili ai rischi della Rete Lightning (vedi il capitolo successivo per i rischi della Rete Lightning).
 
-La seconda opzione che BTCPay Server offre per generare un nuovo portafoglio è creando un portafoglio Solo-Visualizzazione (Watch-Only wallet). BTCPay Server genererà le tue chiavi private una sola volta. Dopo che l'utente conferma di aver annotato la propria Frase Seed, BTCPay Server cancellerà le chiavi private dal server. Di conseguenza, il tuo negozio ora ha un portafoglio Solo-Visualizzazione collegato ad esso. Per spendere i fondi ricevuti sul tuo portafoglio Solo-Visualizzazione, vedi il capitolo Come Inviare, sia utilizzando BTCPay Server Vault, PSBT (transazione bitcoin parzialmente firmata), o, meno raccomandato, fornendo manualmente la tua frase seed.
+La seconda opzione che BTCPay Server offre per generare un nuovo portafoglio è creando un portafoglio Solo-Visualizzazione (Watch-Only wallet). BTCPay Server genererà le tue chiavi private una sola volta. Dopo che l'utente conferma di aver annotato il proprio Seed, BTCPay Server cancellerà le chiavi private dal server. Di conseguenza, il tuo negozio ora ha un portafoglio Solo-Visualizzazione collegato ad esso. Per spendere i fondi ricevuti sul tuo portafoglio Solo-Visualizzazione, vedi il capitolo Come Inviare, sia utilizzando BTCPay Server Vault, PSBT (transazione bitcoin parzialmente firmata), o, meno raccomandato, inserendo manualmente il tuo seed.
 
-Hai creato un nuovo 'Negozio' nell'ultima parte. La procedura guidata di installazione continuerà chiedendo di "Impostare un portafoglio" o "Impostare un nodo Lightning". In questo esempio, seguirai il processo della procedura guidata "Impostare un portafoglio" (1).
+Hai creato un nuovo 'Negozio' nell'ultima parte. La procedura guidata di installazione continuerà chiedendo di "Impostare un portafoglio" o "Impostare un nodo Lightning". In questo esempio, seguirai la procedura guidata "Impostare un portafoglio" (1).
 
 ![immagine](assets/en/21.webp)
 
@@ -609,7 +608,7 @@ Se segui questo corso in aula, l'esempio attuale e il seed che abbiamo generato 
 
 ![immagine](assets/en/25.webp)
 
-(3) Continuando la procedura guidata del nuovo portafoglio, ora ti trovi nella sezione Crea portafoglio BTC Solo-Visualizzazione. Qui abbiamo la possibilità di impostare il tipo di indirizzo del portafoglio "Tipo di indirizzo". BTCPay Server ti consente di scegliere il tuo tipo di indirizzo preferito; al momento della scrittura di questo corso, è ancora consigliato utilizzare gli indirizzi bech32. Scopri più dettagli sugli indirizzi nel primo capitolo di questa parte.
+(3) Continuando la procedura guidata del nuovo portafoglio, ora ti trovi nella sezione Crea portafoglio BTC Solo-Visualizzazione. Qui abbiamo la possibilità di impostare il tipo di indirizzo del portafoglio "Tipo di indirizzo". BTCPay Server consente di scegliere il tipo di indirizzo preferito; al momento della scrittura di questo corso, è ancora consigliato utilizzare gli indirizzi bech32. Scopri più dettagli sugli indirizzi nel primo capitolo di questa parte.
 
 - Segwit (bech32)
 - Gli indirizzi Native SegWit iniziano con `bc1q`.
@@ -632,28 +631,28 @@ Scegli segwit (raccomandato) come tipo di indirizzo del portafoglio preferito.
 
 ![immagine](assets/en/27.webp)
 
-(5) Dopo aver impostato il tipo di indirizzo del Wallet e, eventualmente, alcune opzioni avanzate, clicca su Crea, e BTCPay Server genererà il tuo nuovo Wallet. Nota che questo è l'ultimo passo prima di generare la tua frase seme. Assicurati di fare ciò in un ambiente in cui nessuno possa rubare la frase seme guardando il tuo schermo.
+(5) Dopo aver impostato il tipo di indirizzo del Wallet e, eventualmente, alcune opzioni avanzate, clicca su Crea, e BTCPay Server genererà il tuo nuovo Wallet. Nota che questo è l'ultimo passo prima di generare il seed. Assicurati di fare ciò in un ambiente in cui nessuno possa rubare il seed guardando il tuo schermo.
 
 ![immagine](assets/en/28.webp)
 
-(6) Nella schermata successiva della procedura guidata, BTCPay Server ti mostra la frase seme di recupero per il tuo Wallet appena generato; queste sono le chiavi per recuperare il tuo Wallet e firmare le transazioni. BTCPay Server genera una frase seme di 12 parole. Queste parole verranno cancellate dal server dopo questa schermata di configurazione. Questo Wallet è specificamente un portafoglio solo per la visualizzazione. Si consiglia di non memorizzare questa frase seme digitalmente o tramite immagine fotografica. Gli utenti possono proseguire nella procedura guidata solo se riconoscono attivamente di aver annotato la loro frase seme.
+(6) Nella schermata successiva della procedura guidata, BTCPay Server ti mostra il seed per il tuo Wallet appena generato; queste sono le chiavi per recuperare il tuo Wallet e firmare le transazioni. BTCPay Server genera un seed di 12 parole. Queste parole verranno cancellate dal server dopo questa schermata di configurazione. Questo Wallet è specificamente un portafoglio di visualizzazione. Si consiglia di non memorizzare questa il seed digitalmente o tramite immagine fotografica. Gli utenti possono proseguire solo se riconoscono attivamente di aver annotato il loro seed.
 
 ![immagine](assets/en/29.webp)
 
-(7) Dopo aver cliccato su Fatto e aver assicurato la nuova frase seme Bitcoin generata, BTCPay Server aggiornerà il tuo negozio con il nuovo Wallet allegato ed è pronto a ricevere pagamenti. Nell'interfaccia utente, nel menu di navigazione a sinistra, nota come Bitcoin sia ora evidenziato e attivato sotto Wallet.
+(7) Dopo aver cliccato su Fatto e aver assicurato il seed, BTCPay Server aggiornerà il tuo negozio con il nuovo Wallet allegato ed è pronto a ricevere pagamenti. Nell'interfaccia utente, nel menu di navigazione a sinistra, nota come Bitcoin sia ora evidenziato e attivato sotto Wallet.
 
 ![immagine](assets/en/30.webp)
 
-### Esempio: Annotare una frase seme
+### Esempio: Annotare un seed
 
-Questo è un momento molto particolare e sicuro per usare Bitcoin. Come detto prima, solo tu dovresti avere accesso o conoscenza della tua frase seme. Seguendo insieme a un istruttore e una classe, la frase seme generata dovrebbe essere utilizzata solo in questo corso. Troppi fattori, occhi indiscreti dei compagni di classe, sistemi non sicuri e molti altri rendono queste chiavi solo educative e non affidabili. Tuttavia, le chiavi generate dovrebbero comunque essere conservate per esempi del corso.
+Questo è un metodo molto sicuro di usare Bitcoin. Come detto prima, solo tu dovresti avere accesso o conoscenza del tuo seed.  Questo dovrebbe essere utilizzato eslusicamente per questo corso. Troppi fattori, occhi indiscreti dei compagni di classe, sistemi non sicuri e molti altri rendono queste chiavi solo educative e non affidabili. Tuttavia, le chiavi generate devono comunque essere conservate per i successivi esempi del corso.
 
-Il primo metodo che utilizzeremo nella situazione attuale, anche il meno sicuro, è annotare la frase seme nell'ordine corretto. Una carta per la frase seme è fornita nel materiale del corso allo studente o trovata su BTCPay Server GitHub. Utilizzeremo questa carta per annotare le parole generate nel passaggio precedente. Assicurati di scriverle nell'ordine corretto. Dopo averle scritte, controllale rispetto a quanto fornito dal software per assicurarti di averle scritte nell'ordine corretto. Una volta scritte, clicca sulla casella che indica di aver annotato correttamente la tua frase seme.
+Il primo metodo che utilizzeremo nella situazione attuale, anche il meno sicuro, è annotare la frase seme nell'ordine corretto. Una cartoncino per annotare il seed viene forntiro nel materiale del corso allo studente o, in alternativa è disponibile su gitHub di BTCPay Server. Utilizzeremo questa carta per annotare le parole generate nel passaggio precedente. Assicurati di scriverle nell'ordine corretto. Dopo averle scritte, controllale rispetto a quanto fornito dal software per assicurarti di averle scritte nell'ordine corretto. Una volta scritte, clicca sulla casella che indica di aver annotato correttamente il tuo seed.
 
-### Esempio: Conservare una frase seme su un Hardware Wallet
+### Esempio: Conservare il seed su un Hardware Wallet
 
-In questo corso, tocchiamo la conservazione di una frase seme su un hardware wallet. Seguire questo corso con un istruttore potrebbe non sempre includere tale dispositivo. Nella guida del corso, sono elencati i materiali scritti di portafogli hardware forniti che si adatterebbero a questo esercizio.
-Useremo BTCPay Server Vault e un portafoglio hardware Blockstream Jade in questo esempio.
+In questo corso, analizziamo come conservare il seed su un hardware wallet. L'istruttore del corso potrebbe non avere un dispositivo hardware. Nella guida del corso, però, sono elencati i portafogli hardware che si adatterebbero a questo esercizio.
+In questo esempio useremo BTCPay Server Vault e il portafoglio hardware Blockstream Jade.
 Puoi anche seguire un video di riferimento per collegare un portafoglio hardware.
 ![BTCPay Server - Come collegare il tuo portafoglio hardware con BTCPay Vault.](https://youtu.be/s4qbGxef43A)
 
@@ -661,7 +660,7 @@ Scarica BTCPay Server Vault: https://github.com/btcpayserver/BTCPayServer.Vault/
 
 Assicurati di scaricare i file corretti per il tuo sistema. Gli utenti Windows dovrebbero scaricare il pacchetto [BTCPayServerVault-2.0.5-setup.exe](https://github.com/btcpayserver/BTCPayServer.Vault/releases/download/Vault%2Fv2.0.5/BTCPayServerVault-2.0.5-setup.exe), gli utenti Mac scaricano [BTCPayServerVault-osx-x64-2.0.5.dmg](https://github.com/btcpayserver/BTCPayServer.Vault/releases/download/Vault%2Fv2.0.5/BTCPayServerVault-osx-x64-2.0.5.dmg), e gli utenti Linux dovrebbero scaricare [BTCPayServerVault-Linux-2.0.5.tar.gz](https://github.com/btcpayserver/BTCPayServer.Vault/releases/download/Vault%2Fv2.0.5/BTCPayServerVault-Linux-2.0.5.tar.gz)
 
-Dopo aver installato BTCPay Server Vault, avvia il software facendo clic sull'icona sul tuo Desktop. Quando BTCPay Server Vault è correttamente installato e avviato per la prima volta, chiederà il permesso di essere utilizzato con le applicazioni Web. Chiederà di concedere l'accesso al specifico BTCPay Server con cui lavori. Accetta queste condizioni. BTCPay Server Vault ora cercherà il dispositivo Hardware. Una volta trovato il dispositivo, BTCPay Server riconoscerà che Vault è in esecuzione e ha recuperato il tuo dispositivo.
+Dopo aver installato BTCPay Server Vault, avvia il software facendo clic sull'icona sul tuo Desktop. Quando BTCPay Server Vault è correttamente installato e avviato per la prima volta, chiederà il permesso di essere utilizzato con le applicazioni Web. Richiederà inoltre l'accesso allo specifico BTCPay Server con cui lavori. Accetta queste condizioni. BTCPay Server Vault ora cercherà il dispositivo Hardware. Una volta trovato, BTCPay Server riconoscerà che Vault è in esecuzione e ha recuperato il tuo dispositivo.
 
 **!Nota!**
 
@@ -672,11 +671,11 @@ Non dare le tue chiavi SSH o l'account amministratore del server a nessun altro 
 In questa sezione, hai appreso quanto segue:
 
 - La vista delle transazioni del portafoglio Bitcoin e le sue varie categorizzazioni.
-- Le varie opzioni disponibili quando si invia da un portafoglio Bitcoin, dai portafogli hardware ai portafogli caldi.
+- Le varie opzioni quando si invia da un portafoglio Bitcoin, dai portafogli hardware ai portafogli caldi.
 - Il problema del limite di gap affrontato quando si utilizzano la maggior parte dei portafogli e come correggerlo.
 - Come generare un nuovo portafoglio Bitcoin all'interno di BTCPay Server, inclusa la memorizzazione delle chiavi in un portafoglio hardware e il backup della frase di recupero.
 
-In questo obiettivo, hai imparato come generare un nuovo portafoglio Bitcoin all'interno di BTCPay Server. Non abbiamo ancora affrontato come assicurare o utilizzare quelle chiavi. In una rapida panoramica di questo obiettivo, hai imparato come configurare il primo negozio. Hai imparato come generare una frase di recupero Bitcoin.
+In questa sezione, hai imparato come generare un nuovo portafoglio Bitcoin all'interno di BTCPay Server. Non abbiamo ancora affrontato come assicurare o utilizzare quelle chiavi. In una rapida panoramica di questo obiettivo, hai imparato come configurare il primo negozio. Hai imparato come generare una frase di recupero Bitcoin.
 
 ### Valutazione della Conoscenza Revisione Pratica
 
@@ -687,21 +686,21 @@ Descrivi un metodo per generare chiavi e uno schema per assicurarle, insieme ai 
 <chapterId>1bbece7e-0197-57e6-a93a-561cf384d946</chapterId>
 
 Quando un amministratore del server provvede a configurare una nuova istanza di BTCPay Server, può impostare un'implementazione della rete Lightning, LND, Core Lightning o Eclair; vedi Parte Configurazione di BTCPay Server per istruzioni di installazione più dettagliate.
-Se seguito da una classe, collegare un nodo Lightning al proprio BTCPay Server funziona tramite un nodo personalizzato. Un utente che non è un amministratore del server su BTCPay Server non sarà in grado di utilizzare il nodo Lightning interno per impostazione predefinita. Ciò serve a proteggere il proprietario del server dalla perdita dei suoi fondi. Gli amministratori del server possono installare un Plugin per dare accesso al loro nodo Lightning tramite LNBank; ciò è al di fuori dell'ambito di questo libro; per maggiori informazioni su LNBank, consultare la pagina ufficiale del plugin.
+Collegare un nodo Lightning al proprio BTCPay Server funziona tramite un nodo personalizzato. Un utente che non è un amministratore del server su BTCPay Server non sarà in grado di utilizzare il nodo Lightning interno per impostazione predefinita. Ciò serve a proteggere il proprietario del server dalla perdita dei suoi fondi. Gli amministratori del server possono installare un Plugin per dare accesso al loro nodo Lightning tramite LNBank; ciò è al di fuori dell'ambito di questo corso; per maggiori informazioni su LNBank, consultare la pagina ufficiale del plugin.
 
 ### Collegare il nodo interno (amministratore del server)
 
 L'amministratore del server può utilizzare il nodo Lightning interno di BTCPay Server. Indipendentemente dall'implementazione di Lightning, il collegamento al nodo Lightning interno è lo stesso.
 
-Andare in un negozio configurato in precedenza e cliccare sul portafoglio "Lightning" nel menu a sinistra. BTCPay Server offre due possibilità di configurazione, utilizzando il nodo interno (solo amministratore del server per impostazione predefinita) o un nodo personalizzato (collegamento esterno). Gli amministratori del server possono cliccare sull'opzione "Usa nodo interno". Non è richiesta ulteriore configurazione. Cliccare sul pulsante "salva" e notare la notifica che indica "Nodo Lightning BTC aggiornato". Il negozio ha ora ottenuto con successo le capacità della rete Lightning.
+Andare in un negozio configurato in precedenza e cliccare sul portafoglio "Lightning" nel menu a sinistra. BTCPay Server offre due possibilità di configurazione, utilizzando il nodo interno (solo amministratore del server per impostazione predefinita) o un nodo personalizzato (collegamento esterno). Gli amministratori del server possono cliccare sull'opzione "Usa nodo interno". Non è richiesta ulteriore configurazione. Cliccare sul pulsante "salva"  e controllare la notifica che indica "Nodo Lightning BTC aggiornato". Il negozio ha ora ottenuto con successo le capacità alla rete Lightning.
 
 ### Collegare il nodo esterno (utente del server/proprietario del negozio)
 
-Ai proprietari dei negozi non è in genere permesso utilizzare il nodo Lightning dell'amministratore del server per impostazione predefinita. È necessario effettuare il collegamento a un nodo esterno, sia un nodo di proprietà del proprietario del negozio prima della configurazione di BTCPay Server, un plugin LNBank se reso disponibile dall'amministratore del server, o una soluzione di custodia come Alby.
+Ai proprietari dei negozi non è in genere permesso utilizzare il nodo Lightning dell'amministratore del server per impostazione predefinita. È necessario effettuare il collegamento a un nodo esterno, sia un nodo del proprietario del negozio prima della configurazione di BTCPay Server, un plugin LNBank se reso disponibile dall'amministratore del server, o una soluzione di custodia come Alby.
 
-Andare in un negozio configurato in precedenza e cliccare su "Lightning" sotto i portafogli nel menu a sinistra. Poiché ai proprietari dei negozi non è permesso utilizzare il nodo interno per impostazione predefinita, questa opzione è disabilitata. Utilizzare un nodo personalizzato è l'unica opzione disponibile per impostazione predefinita per i proprietari dei negozi.
+Andare in un negozio configurato in precedenza e cliccare su "Lightning" sotto i portafogli nel menu a sinistra. Poiché ai proprietari dei negozi non è permesso utilizzare il nodo interno per impostazione predefinita, questa opzione è disabilitata. Utilizzare un nodo personalizzato è l'unica opzione disponibile.
 
-BTCPay Server richiede informazioni di connessione; le soluzioni precedenti (o di custodia) forniranno queste informazioni specifiche per un'implementazione Lightning. All'interno di BTCPay Server, i proprietari dei negozi possono utilizzare le seguenti connessioni:
+BTCPay Server richiede informazioni di connessione; le soluzioni precedenti (o di custodia) forniranno queste informazioni specifiche per implementare Lightning. All'interno di BTCPay Server, i proprietari dei negozi possono utilizzare le seguenti connessioni:
 
 - C-lightning tramite connessione TCP o Unix domain socket.
 - Lightning Charge tramite HTTPS
@@ -752,8 +751,7 @@ Gli amministratori del server possono cliccare sulle informazioni del nodo inter
 
 #### Cambiare connessione
 
-Se il proprietario del negozio decide di usare modifiche nelle Impostazioni Lightning - Cambiare connessione.
-Accanto alle informazioni del Nodo Pubblico del negozio, i proprietari possono trovare questa opzione. Ciò porterà alla configurazione iniziale per la connessione del nodo lightning esterno, compilare le nuove informazioni del nodo Lightning, cliccare su salva e aggiornare il negozio con le nuove informazioni del nodo.
+ Accanto alle informazioni del Nodo Pubblico del negozio, i proprietari possono trovare questa opzione. Ciò porterà alla configurazione iniziale per la connessione del nodo lightning esterno, compilare le nuove informazioni del nodo Lightning, cliccare su salva e aggiornare il negozio con le nuove informazioni del nodo.
 
 ![immagine](assets/en/33.webp)
 
@@ -778,12 +776,12 @@ I proprietari dei negozi possono impostare parametri per migliorare l'esperienza
 
 #### LNURL
 
-I proprietari dei negozi possono scegliere di utilizzare o meno LNURL. Un URL della Rete Lightning, o LNURL, è uno standard proposto per le interazioni tra pagatore e beneficiario Lightning. In breve, un LNURL è un URL codificato bech32 prefissato con lnurl. Si prevede che il portafoglio Lightning decodifichi l'URL, contatti l'URL e attenda un oggetto JSON con ulteriori istruzioni, in particolare un tag che definisce il comportamento dell'LNURL.
+I proprietari dei negozi possono scegliere di utilizzare o meno LNURL. Un URL della Rete Lightning, o LNURL, è uno standard proposto per le interazioni tra colui che paga ed il beneficiario. In breve, un LNURL è un URL codificato bech32 prefissato con lnurl. Si prevede che il portafoglio Lightning decodifichi l'URL, contatti l'URL e attenda un file JSON con ulteriori istruzioni, in particolare un tag che definisce il comportamento dell'LNURL.
 
 - Abilitare LNURL
 - Modalità LNURL Classica
   - Per compatibilità del portafoglio, codificato Bech32 (classico) vs URL in chiaro (prossimo)
-- Consentire al beneficiario di passare un commento.
+- Consentire al beneficiario di inserire un commento.
 
 ### Esempio 1
 

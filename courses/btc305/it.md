@@ -176,11 +176,10 @@ Blockchain, Transazione, Doppia Spesa, Problema dei Generali Bizantini, Mining, 
 
 ### Lavorare con BTCPay Server
 
-L'obiettivo di questo blocco del corso sarà acquisire una comprensione generale del software BTCPay Server. In un ambiente condiviso, si raccomanda di seguire la dimostrazione dell'istruttore e seguire insieme il Manuale del Corso BTCPay Server per seguire l'insegnante. Imparerai come creare un portafoglio attraverso metodi multipli. Gli esempi includono configurazioni di portafogli caldi e portafogli hardware collegati tramite BTCPay Server Vault. Questi obiettivi si verificano nell'ambiente Demo, mostrato e dato accesso dal tuo istruttore del corso.
-
+L'obiettivo di questo blocco del corso sarà acquisire una comprensione generale del software BTCPay Server. In un ambiente condiviso, si raccomanda di seguire la dimostrazione dell'istruttore e seguire insieme il Manuale del Corso BTCPay Server. Imparerai come creare un portafoglio attraverso diversi metodi. Gli esempi includono configurazioni di portafogli caldi e portafogli hardware collegati tramite BTCPay Server Vault. Questi obiettivi verranno perseguiti in un ambiente Demo, a cui il tuo istruttore ti dara accesso.
 Se segui questo corso da solo, puoi trovare un elenco di host di terze parti per scopi dimostrativi su https://directory.btcpayserver.org/filter/hosts. Sconsigliamo vivamente l'uso di queste opzioni di terze parti come ambienti di produzione, ma servono agli scopi giusti per un'introduzione all'uso di Bitcoin e BTCPay Server.
 
-Come tirocinante rockstar di BTCPay Server, potresti avere esperienza precedente nella configurazione di un nodo Bitcoin. Questo corso parlerà specificamente adattato allo stack software di BTCPay Server.
+Come tirocinante rockstar di BTCPay Server, potresti avere esperienza precedente nella configurazione di un nodo Bitcoin. Questo corso si riferisce specificamente allo stack software di BTCPay Server.
 
 Molte delle opzioni in BTCPay Server esistono in una forma o nell'altra in altri software relativi ai portafogli Bitcoin.
 
@@ -194,7 +193,7 @@ Quando vieni accolto nell'ambiente Demo, ti viene chiesto di 'Accedere' o 'Crear
 
 La creazione di account su BTCPay Server richiede stringhe di indirizzi Email validi; example@email.com sarebbe una stringa valida per l'Email.
 
-La password deve essere lunga almeno 8 caratteri, includendo lettere, numeri e caratteri. Dopo aver impostato la password una volta, dovrai verificare la password digitata per assicurarti che sia corretta rispetto a quanto digitato nel primo campo della password.
+La password deve essere lunga almeno 8 caratteri, includendo lettere, numeri e caratteri. Dopo aver impostato la password, dovrai digitarla nuovamente per assicurarti che sia uguale a quella inserita la prima volta. 
 Quando sia i campi Email che Password sono compilati correttamente, clicca sul pulsante "Crea Account". Questo salverà l'Email e la password sull'istanza del BTCPay Server dell'istruttore.
 ![image](assets/en/1.webp)
 
@@ -208,7 +207,7 @@ L'Amministratore dell'Istanza di BTCPay Server può anche creare account per BTC
 
 ![image](assets/en/2.webp)
 
-Come amministratore, avrai bisogno dell'indirizzo Email dell'utente e impostare una password standard. Si consiglia come Amministratore di informare l'utente che dovrebbe cambiare questa password prima di utilizzare l'account per motivi di sicurezza. Se l'Amministratore NON imposta una Password e SMTP è stato configurato sul server, l'utente riceverà un'email con un link di invito per creare il proprio account e impostare la password da solo.
+Come amministratore, avrai bisogno dell'indirizzo Email dell'utente per impostare una password standard. Si consiglia come Amministratore di informare l'utente che, per motivi di sicurezza, dovrebbe cambiare questa password prima di utilizzare l'account . Se l'Amministratore NON imposta una Password e SMTP è stato configurato sul server, l'utente riceverà un'email con un link di invito per creare il proprio account e impostare la password da solo.
 
 ### Esempio
 
@@ -241,7 +240,7 @@ Fornisci motivi per cui utilizzare un Server Demo è una cattiva idea per scopi 
 
 ### Gestione Account su BTCPay Server
 
-Dopo che un proprietario di negozio ha creato il proprio account, può gestirlo in Basso a Sinistra dell'interfaccia utente di BTCPay Server. Sotto il pulsante Account, ci sono diverse impostazioni di livello superiore.
+Dopo che un commerciante ha creato il proprio account, può gestirlo in Basso a Sinistra dell'interfaccia utente di BTCPay Server. Sotto il pulsante Account, ci sono diverse impostazioni di livello superiore.
 
 - Modalità Scuro/Chiaro.
 - Nascondi le Informazioni Sensibili.
@@ -263,7 +262,7 @@ Una volta che l'account utente è stato creato, qui è dove gestire le password,
 
 ### Gestione Account - Account
 
-È possibile aggiornare facoltativamente il proprio account con un indirizzo email diverso. Per assicurarsi che l'indirizzo email sia corretto, BTCPay Server consente di inviare un'email di verifica. Cliccare su salva se l'utente imposta un nuovo indirizzo email e conferma che la verifica ha avuto successo. Il nome utente rimane lo stesso dell'Email precedente.
+Facoltativamente è possibile aggiornare  il proprio account con un indirizzo email diverso. Per assicurarsi che l'indirizzo email sia corretto, BTCPay Server consente di inviare un'email di verifica. Cliccare su salva se l'utente imposta un nuovo indirizzo email e conferma che la verifica ha avuto successo. Il nome utente rimane lo stesso dell'Email precedente.
 
 Un utente può decidere di eliminare il proprio account. Ciò può essere fatto cliccando sul pulsante elimina nella scheda Account.
 
@@ -325,7 +324,7 @@ Quando un nuovo utente accede a BTCPay Server, l'ambiente è vuoto e necessita d
 
 ### Procedura guidata per creare il tuo negozio
 
-Seguire questo corso inizierà con una schermata leggermente diversa rispetto alla pagina precedente. Poiché il tuo istruttore ha preparato l'ambiente Demo, la blockchain di Bitcoin è stata sincronizzata in precedenza e, quindi, non vedrai lo stato di sincronizzazione dei nodi.
+Questo corso inizierà con una schermata leggermente diversa rispetto alla pagina precedente. Poiché il tuo istruttore ha preparato l'ambiente Demo, la blockchain di Bitcoin è stata sincronizzata in precedenza e, quindi, non vedrai lo stato di sincronizzazione dei nodi.
 
 Un utente può decidere di eliminare l'intero account. Questo può essere fatto cliccando sul pulsante di eliminazione nella scheda Account.
 

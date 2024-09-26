@@ -379,7 +379,7 @@ In questa sezione, hai imparato:
 
 ### Cosa comporta la generazione delle chiavi bitcoin?
 
-Quando vengono creati, i portafogli Bitcoin generano un cosiddetto "seed". Nell'ultimo obiettivo, hai creato un "seed", Le serie di parole generate in precedenza sono note anche come frasi mnemoniche. Il seed è utilizzato per derivare le singole Chiavi Bitcoin da esso e utilizzato per inviare o ricevere Bitcoin. Le frasi seed non dovrebbero mai essere condivise con terze parti o peer non fidati.
+Quando vengono creati, i portafogli Bitcoin generano un cosiddetto "seed". Nell'ultimo obiettivo, hai creato un "seed", Le serie di parole generate in precedenza sono note anche come frasi mnemoniche. Il seed è utilizzato per derivare le singole Chiavi Bitcoin da esso. Le frasi seed non dovrebbero mai essere condivise con terze parti o peer non fidati.
 La generazione del seed avviene secondo lo standard industriale noto come framework "Hierarchical Deterministic" (HD).
 ![image](assets/en/15.webp)
 
@@ -403,7 +403,7 @@ Le chiavi pubbliche sono meno utilizzate nella pratica oggi. Nel tempo, gli uten
 
 - Prima di tutto, `02...` e `03...` sono identificatori di chiavi pubbliche molto standard codificati in formato SEC. Questi possono essere elaborati e trasformati in indirizzi per ricevere, utilizzati per creare indirizzi multi-sig o per verificare una firma. Le transazioni Bitcoin dei primi giorni utilizzavano chiavi pubbliche come parte delle transazioni P2PK.
 
-- Tuttavia, i portafogli HD utilizzano una struttura diversa. `xpub...`, `ypub...` o `zpub...` sono chiamate chiavi pubbliche estese, meglio note come xpubs. Queste chiavi vengono utilizzate per derivare molte chiavi pubbliche poiché fanno parte del portafoglio HD. Poiché il tuo xpub contiene i record della tua intera storia, significando transazioni passate e future, non condividerle mai con parti non fidate.
+- Tuttavia, i portafogli HD utilizzano una struttura diversa. `xpub...`, `ypub...` o `zpub...` sono chiamate chiavi pubbliche estese, meglio note come xpubs. Queste chiavi vengono utilizzate per derivare molte chiavi pubbliche poiché fanno parte del portafoglio HD. Poiché la tuo xpub contiene la cronologia di tutte le transazioni, passate e future, non condividerla mai con parti non fidate.
 
 ### Riepilogo delle Competenze
 
@@ -421,9 +421,9 @@ Descrivere il vantaggio dell'utilizzo di indirizzi nuovi per ogni transazione ri
 
 ### Conservazione delle Chiavi Bitcoin
 
-Dopo aver generato una frase seme, l'elenco di 12 - 24 parole generato in questo libro richiede backup adeguati e sicurezza, poiché queste parole sono l'unico modo per recuperare l'accesso a un portafoglio. La struttura dei portafogli HD e come genera indirizzi in modo deterministico usando quel singolo seme, tutti i tuoi indirizzi creati verranno salvati usando questa unica lista di parole mnemoniche che rappresentano la tua frase seme o frase di recupero.
+Il seed, l'elenco di 12 - 24 parole generato, richiede backup adeguati e sicurezza, poiché queste parole sono l'unico modo per recuperare l'accesso a un portafoglio. La Tutti i tuoi indirizzi creati verranno salvati usando questa unica lista di parole mnemoniche che rappresentano la tua frase seed o frase di recupero.
 
-Mantieni la tua frase di recupero al sicuro. Se accessibile da qualcuno, specificamente con intenti malevoli, possono spostare i tuoi fondi. Mantenere il seme sicuro e protetto ma anche ricordarlo è reciproco. Ci sono diversi metodi per conservare le chiavi private Bitcoin, ognuno con vantaggi e svantaggi, sia in termini di sicurezza, privacy, comodità o mezzi fisici. Data l'importanza delle chiavi private, gli utenti Bitcoin tendono a conservare e mantenere al sicuro queste chiavi in "autocustodia" piuttosto che usare servizi "custodial" come le banche. A seconda dell'utente, deve usare o una soluzione di Cold storage o un Hot wallet.
+Mantieni la tua frase di recupero al sicuro. Se accessibile da qualcuno, specificamente con intenti malevoli, possono spostare i tuoi fondi. Mantenere il seed sicuro e protetto ma anche ricordarlo è reciproco. Ci sono diversi metodi per conservare le chiavi private Bitcoin, ognuno con vantaggi e svantaggi, sia in termini di sicurezza, privacy, comodità o mezzi fisici. Data l'importanza delle chiavi private, gli utenti Bitcoin tendono a conservare e mantenere al sicuro queste chiavi in "autocustodia" piuttosto che usare servizi "custodial" come le banche. A seconda dell'utente e delle esigenze è possibile utilizzare o una soluzione di Cold storage oppure un Hot wallet.
 
 ### Conservazione Hot e Cold delle chiavi Bitcoin
 

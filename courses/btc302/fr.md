@@ -1273,60 +1273,62 @@ En effet, n'oubliez pas que **toute communauté et tout meet-up est passé par l
 ## Prévoir l'augmentation du nombre de participants
 <chapterId>8af722d4-3a9f-548c-9001-424f2142de12</chapterId>
 
-Alors que le monde est entré dans sa quatrième époque Bitcoin, au bloc 840 000, de plus en plus d’individus voient **en Bitcoin une révolution; technologique, financière et sociale**.
+Alors que Bitcoin est entré dans sa quatrième époque, au bloc 840 000, de plus en plus d’individus voient **en lui une révolution; technologique, financière et sociale**.
 
-À l’image de celle d’internet, cette révolution va nécessairement **prendre du temps**, et tant mieux. Cela va en effet permettre à tout à chacun de **s’éduquer sur les fondamentaux de Bitcoin et d’apprendre à l’utiliser**. Mais également, aux développeurs et aux entreprises de développer des protocoles et applications pertinentes, permettant d’explorer son plein potentiel.
+À l’image de celle d’internet, cette révolution va nécessairement **prendre du temps**, et tant mieux. Cela va en effet permettre à tout à chacun de **s’éduquer sur les fondamentaux de Bitcoin et d’apprendre à l’utiliser**. Mais également, aux développeurs et aux entreprises de développer des protocoles et applications qui permettront d’explorer le plein potentiel de cette technologie.
 
-Bien qu’il est impossible de prévoir le futur, **une augmentation très significative du nombre d’utilisateurs de Bitcoin est à anticiper**; et cela, afin d’**être préparé à toutes les éventualités**. Y compris les plus catastrophiques, comme une potentielle implosion du système financier traditionnel; voire même: une interdiction de Bitcoin.
+Bien qu’il est impossible de prévoir le futur, **une augmentation très significative du nombre d’utilisateurs de Bitcoin est à anticiper** afin d’**être préparé à toutes les éventualités possibles**. Y compris les plus catastrophiques, comme une potentielle implosion du système financier traditionnel; voire même: une interdiction de Bitcoin.
 ####
 ####
-Dans cette huitième et dernière partie de ce cours, nous allons donc prendre le temps de détailler quelques points à prendre en considération lors du développement de votre communauté et de vos meet-ups.
+Dans cette septième et avant dernière partie de ce cours, nous allons donc prendre le temps de détailler quelques points à prendre en considération lors du développement de votre communauté et de vos meet-ups.
 ####
 Le premier d'entre-eux (le plus simple à anticiper) est évidemment **l’augmentation du nombre de personnes rejoignant votre communauté**. Cela l’impactera alors de deux manières:
 
-1/ **vos canaux de communication (Telegram, Signal, Matrix, etc...) se rempliront, rendant potentiellement les conversations difficilement suivables**. Deux points sont alors à prendre en considération.
-D’une part, si vous êtes 500 à échanger sur des sujets divers dans un même canal de discussion, une majorité de vos membres vont petit à petit arrêter de suivre les conversations; entre autre à cause de l’abondance des messages à lire et des notifications associées. En ce sens, il peut être pertinent de **réfléchir de nouveau à ses canaux de communication; à l’image par exemple des super-groupes Telegram, voire d’un serveur Discord**, qui permettent tous deux de regrouper les conversations par thème.
-D’autre part, qui dit plus de monde dans les canaux d’échanges dit également plus de bots, plus de scams mais également **plus de modération à effectuer**. Il vous faudra donc être préparé, en rédigeant par exemple un règlement sur lequel vous pourrez vous appuyer lorsque vous modérerez un message. D’expérience, cela permet d’éviter une grande partie des conflits; en particulier lorsque le règlement est disponible à la lecture sur vos canaux de communication. L’association Bitcoin Lille a en ce sens rédigé il y a quelques années **[un règlement open-source](https://bitcoinlille.fr/reglement/) pour son groupe Telegram et pour son serveur Discord**, s’appuyant sur des principes simples et universels. Son design est [lui aussi disponible](https://www.canva.com/design/DAGHI692AD4/rjT4sqEnhajc5FiPA6GFZQ/edit?utm_content=DAGHI692AD4&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton).
+1/ **vos canaux de communication (Telegram, Signal, Matrix, etc...) se rempliront, rendant potentiellement les conversations difficilement suivables**. Ainsi, deux points sont à prendre en compte. Tout d'abord, si vous êtes 500 à échanger sur divers sujets dans un même canal de discussion, c'est avec certitude que l'abondance de messages et de notifications vont amener une grande partie de vos membres à petit à petit arrêter de suivre les conversations. En ce sens, il peut être pertinent d'**entamer à ce moment là une réflexion sur ses canaux de communication; à l’image par exemple des super-groupes Telegram voire des serveurs Discord**, qui permettent tous deux de regrouper les conversations par thème.
+D’autre part, qui dit plus de monde dans les canaux d’échanges dit également plus de bots, plus de scams; et également **plus de modération à effectuer**. Il vous faudra donc être préparé, en rédigeant par exemple un règlement sur lequel vous pourrez vous appuyer lorsque vous modérerez un message. D’expérience, cela permet d’éviter une grande partie des conflits; en particulier lorsque le règlement est disponible à la lecture sur vos canaux de communication. L’association Bitcoin Lille a en ce sens rédigé il y a quelques années **[un règlement open-source](https://bitcoinlille.fr/reglement/) pour son groupe Telegram et pour son serveur Discord**, s’appuyant sur des principes simples et universels. Son design est [disponible en version modifiable ici](https://www.canva.com/design/DAGHI692AD4/rjT4sqEnhajc5FiPA6GFZQ/edit?utm_content=DAGHI692AD4&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton).
 
 ![image](assets/fr/chapter36/59-frbis.webp)
 
-2) **vos meet-ups et événements se rempliront de manière importante, avec une abondance de nouvelles têtes qui souhaiteront échanger les unes avec les autres**.
-Face à cet aflux conséquent, plusieurs axes peuvent être évoqués et réfléchis:
-    - dans un premier temps, il peut être pertinent de **trouver un endroit plus grand pour organiser ses meet-ups et événements**, en particulier si vous ne pouviez être qu’une vingtaine dans le lieu;
-    - dans un second temps, si vous observez que la présence humaine devient trop importante, vous pouvez également – pour les meet-ups qui suivent – **soit obliger les participants à s’inscrire** (cela peut se faire par l’application Meetup, ou par un formulaire classique), **soit organiser plusieurs meet-ups dans le mois** (par exemple: un meet-up débutant, un meet-up intermédiaire et un meet-up expert);
-    - de plus, il est certain que de nombreuses personnes débutantes dans l’écosystème vous rejoindront, généralement dans l’objectif de faire de l’argent. **Afin que les conversations restent centrées autour de Bitcoin dans ces meet-ups à fort développement**, il est conseillé:
-        a) **de réaliser lors de ces meet-ups une présentation thématique sur Bitcoin**, car celle-ci amènera par la suite une bonne partie des participants à discuter de ce thème, et pas d'un nouveau projet soi-disant révolutionnaire;
-	    b) **de ne pas rester entre bitcoiners, mais d'aller voir les nouveaux(nouvelles), quitte à prendre l’initiative de rester dans le fond de la salle pour accueillir**. Les échanges peuvent alors tourner sur les raisons pour lesquelles ces personnes sont venues, ce qu'elles recherchent, les objectifs (voire fondamentaux) de votre communauté, etc.
+2/ **vos meet-ups et événements se rempliront de manière importante, avec une abondance de nouvelles têtes qui seront là pour échanger**.
+Face à cet aflux conséquent:
+    - il peut être pertinent dans un premier temps de **trouver un endroit plus grand pour organiser ses meet-ups et événements**, en particulier si vous ne pouviez être qu’une vingtaine au maximum dans le passé;
+    - dans un second temps, si vous observez que la présence humaine devient trop importante, vous pouvez – pour les meet-ups qui suivent – **soit obliger les participants à s’inscrire** (cela peut se faire par l’application Meetup, ou par un formulaire classique), **soit organiser plusieurs meet-ups dans le mois** (par exemple: un meet-up débutant, un meet-up intermédiaire et un meet-up expert);
+    - en parallèle, il est certain que de nombreuses personnes débutantes dans l’écosystème vous rejoindront, généralement dans l’objectif de faire de l’argent. **Afin que les conversations restent centrées autour de Bitcoin dans ces meet-ups à fort développement**, il est conseillé:
+        a) **de réaliser lors de ces événements une présentation thématique sur Bitcoin**, car celle-ci amènera par la suite une bonne partie des participants à discuter de ce thème (et non pas du dernier projet de shitcoin soi-disant révolutionnaire);
+	      b) **de ne pas rester entre bitcoiners, mais d'aller voir les nouveaux(nouvelles), quitte à prendre l’initiative de rester dans le fond de la salle pour les accueillir**. Les échanges peuvent alors tourner sur les raisons pour lesquelles ces personnes sont venues, ce qu'elles recherchent, les objectifs (voire fondamentaux) de votre communauté, etc.
 ####
-Enfin, bien qu'il soit malheureux de le formuler, **des scammers peuvent se présenter à des meet-ups**. Leur objectif sera alors de parler un maximum de leur ponzi, leur MLM ou de leur "projet révolutionnant la blockchain". Il est également tout à fait plausible que des personnes mal intentionnées viennent dans l'objectif spécifique de blanchir de l’argent ou d'acheter du BTC avec de faux billets.
-Face à ces situations complexes comme celles-ci, le plus simple est de prendre l’initiative d’expliquer "gentillement" à ces personnes que le meet-up n’est pas l’endroit où elles y parviendront, en avançant des arguments x ou y (comme par exemple, informer d'une présence policière en civil).
+Enfin, bien qu'il soit malheureux de le formuler, **des scammers peuvent se présenter à des meet-ups**. Leur objectif sera alors de parler un maximum de leur ponzi, leur MLM ou de leur "projet révolutionnant la blockchain grâce à de l'IA". Il est également tout à fait plausible qu'un jour, des personnes mal intentionnées viennent dans l'objectif spécifique de blanchir de l’argent ou d'acheter du BTC avec de faux billets.
+Face à des situations complexes comme celles-ci, le plus simple est de prendre l’initiative d’expliquer "gentillement" à ces personnes que le meet-up n’est pas l’endroit où elles y parviendront, en avançant des arguments x ou y (comme par exemple, informer d'une potentielle présence policière en civil).
 Si malheureusement ces personnes refusent de s’en aller ou de se plier aux règles de décence (c’est déjà arrivé), une intervention orale lors du meet-up informant qu’une (ou des) personne(s) cherchent à réaliser tel ou tel acte malveillant peut être réalisée.
 **Heureusement, ces situations sont cocasses et n’arrivent qu’extrêmement rarement. Mais mieux vaut y être préparé.**
 
-En outre, si cela peut vous rassurer en tant qu'organisateur, tant que vous n'êtes pas vous-même en infraction ou que vous ne facilitiez pas des échanges illégaux, vous n'avez pas à vous en faire. En France, vous n'êtes en effet légalement pas responsable des actes d'autrui.
+En outre, si cela peut vous rassurer en tant qu'organisateur, tant que vous n'êtes pas vous-même en infraction ou que vous ne facilitiez pas vous-même des échanges illégaux, vous n'avez pas à vous en faire. En France, vous n'êtes en effet légalement pas responsable des actes d'autrui lors d'un événement que vous organisez.
 ####
-Dans le meilleur des mondes, le mieux serait donc de disposer d'un lieu pouvant accueillir plusieurs dizaines de personnes (en fonction de l'évolution de votre communauté); mais aussi, de **construire des relations solides entre bitcoiners et futurs bitcoiners pendant le bear-market**, de manière à ce que vous soyez prêts pour **orange-piller lors du prochain bull-run**.
+####
+Dans le meilleur des mondes, le mieux serait donc de disposer d'un lieu pouvant accueillir plusieurs dizaines de personnes suivant l'évolution de votre communauté; mais aussi, de **construire des relations solides entre bitcoiners et futurs bitcoiners pendant le bear-market**, de manière à ce que vous soyez un maximum de personnes prêtes à **orange-piller lors du bull-run**.
 
 ## Décentraliser l'organisation de sa communauté
 <chapterId>bedfc110-e099-58f4-a5b7-fb50f3b19a49</chapterId>
 
-Vous êtes organisateur d’un meet-up et, du jour au lendemain, **vous décidez d'arrêter cette tâche** pour partir élever des lamas au Pérou; en plaquant tout?
+Vous êtes organisateur d’un meet-up et, du jour au lendemain, **vous décidez d'arrêter cette tâche** pour partir élever des lamas au Pérou ou pour devenir surfeur professionnel au Salvador; en plaquant tout derrière vous?
 
-**Pensez à la passation de votre communauté en**:
+S'il vous plait, **pensez en amont à la passation de votre communauté en**:
 1) **donnant les droits administrateurs (voire de propriété) des canaux de communications à des personnes de confiance**, quitte à ce que cela change de main par la suite;
 2) **partageant à au moins une personne de confiance de votre communauté les noms de compte, mots de passe et mails des comptes et réseaux sociaux** que vous aviez créés pour lui donner de la visibilité.
 
-Sans ces droits et identifiants, il sera impossible pour quiconque de **reprendre facilement le flambeau et donc de perdurer l'initiative que vous aviez passée tant de temps à développer**.
-Repartir de zéro en créant des réseaux et canaux "forkés" prend en effet tellement de temps et tellement d’énergie…
-
-**Anticipez donc votre potentiel départ** au Pérou. Et si vous n’avez, en France, aucun membre de confiance dans votre meet-up, vous pouvez toujours contacter @ProfEduStream ou @gabtribe sur Telegram afin d’effectuer cette transition en douceur.
+Sans ces droits et identifiants, il sera en effet impossible pour quiconque de **reprendre facilement le flambeau et donc de faire perdurer l'initiative que vous aviez passée tant de temps à développer**.
+Repartir de zéro en créant des réseaux et canaux de communication "forkés" prend en effet tellement de temps et tellement d’énergie…
+####
+**Anticipez donc votre potentiel départ !** Et si vous n’avez, en France, aucun membre de confiance dans votre meet-up, vous pouvez toujours contacter @ProfEduStream, @copinmalin ou @gabtribe sur Telegram afin d’effectuer cette transition en douceur. Ils se chargeront alors de trouver un(e) repreneur(se) motivé et lui donneront dès que faire se peut les accès.
+####
 ####
 Cela nous fait d’ailleurs arriver à **un point crucial du développement d’une communauté: sa décentralisation**.
-En effet, si vous êtes la seule personne impliquée dans celle-ci, disposant de tous les contrôles, que se passera-t-il si vous disparaissez? La réponse est simple: votre communauté disparaîtra.
+En effet, si vous êtes la seule personne impliquée dans celle-ci et que vous disposez de tous les contrôles, que se passera-t-il si vous disparaissez? La réponse est simple: votre communauté disparaîtra elle aussi.
 
-Le mieux pour éviter cela est donc de **décentraliser les tâches et de se partager les droits, rôles et accès**. Ainsi, si une des personnes de l’équipe d’organisation de votre communauté ou de votre meet-up se fait arrêter dans une dystopie future parce qu’elle possède du Bitcoin non-KYC (ou tout simplement: parce qu'elle n'a plus de temps à y accorder car elle vient d'avoir un enfant ou a changé de travail), les autres pourront continuer leurs missions sans difficultés.
+Le mieux pour éviter cela est donc de **décentraliser les tâches et de se partager les droits, rôles et accès**. Ainsi, si une des personnes de l’équipe d’organisation de votre communauté ou de votre meet-up ne répond plus et disparaît (parce qu'elle n'a par exemple plus de temps à y accorder, ou parce qu'elle se fait arrêter dans une dystopie future car elle possède du Bitcoin non-KYC), les autres organisateurs pourront continuer à administrer la communauté sans difficulté.
 ####
-Dans l'objectif de décentraliser encore plus, **utiliser des [logiciels libres tels que la suite framasoft](https://framasoft.org/fr/)** peut également constituter un premier "rempart de défense" face à un État-fiction qui censurerait Bitcoin. Utiliser des outils de communication chiffrés - voire anonymes - en est un second.
+####
+Dans l'objectif de décentraliser encore plus, **utiliser des [logiciels libres tels que la suite framasoft](https://framasoft.org/fr/)** peut également constituter un premier "rempart" face à un État-fiction qui censurerait ou interdirait Bitcoin. Utiliser des outils de communication chiffrés - voire anonymes - en est évidemment un second.
 
 ## Et si Bitcoin devenait l'ennemi public n°1?
 <chapterId>c739651f-cd13-51e0-a36e-85023749b15b</chapterId>
@@ -1337,7 +1339,8 @@ Le 5 avril 1933, Franklin Roosevelt, alors 32ème président des États-Unis d'A
 
 Évidemment, la Grande Dépression (crise boursière de 1929) n’est plus d’actualité. Mais qui nous dit que, demain, un autre état ne se permettra pas de faire la même chose et d’**interdire à tout particulier de posséder du bitcoin?**
 ####
-Heureusement, cette dystopie orwelienne n'empêchera personne de réellement posséder ses propres bitcoins, car il est impossible d'empêcher qui que ce soit d'apprendre une suite de mots.
+####
+Heureusement, cette dystopie orwelienne n'empêchera personne de réellement posséder ses propres BTC, car il est impossible d'empêcher qui que ce soit d'apprendre une suite de mots.
 Mais que se passera-t-il **si les dirigeants de notre monde comprennent enfin que Bitcoin a la capacité de changer l’ordre mondial, y compris au niveau étatique?** Bitcoin deviendra-t-il alors **« l’ennemi public n°1 »**?
 ####
 Bien sûr, il ne faut pas tomber dans une forme de complotisme. Mais **rien ne nous empêche, dès maintenant, d’anticiper, de décentraliser et d’éduquer**.

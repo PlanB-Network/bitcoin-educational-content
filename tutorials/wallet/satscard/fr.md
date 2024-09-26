@@ -12,7 +12,7 @@ C'est ici qu'intervient la Satscard. Elle vous propose une méthode pour permett
 
 La Satscard de Coinkite est la successeure de l'Opendime. C'est une carte NFC qui permet de transmettre physiquement des bitcoins, à la manière d'un billet ou d'une pièce de monnaie. Contrairement à un hardware wallet classique, la Satscard est une carte au porteur, ce qui signifie que la possession physique de la carte équivaut à la possession des bitcoins qui sont sécurisés avec les clés qui y sont stockées. Son prix varie entre 6,99 $ et 17,99 $ en fonction du design choisi.
 
-01
+![SATSCARD](assets/notext/01.webp)
 
 La puce de la Satscard est dotée de 10 slots, ce qui permet d'y stocker des bitcoins jusqu'à 10 fois sur 10 adresses différentes. Chaque slot fonctionne indépendamment et doit en théorie être utilisé une seule fois pour y bloquer des bitcoins. Pour dépenser les bitcoins, il suffit de desceller le slot avec une application compatible, comme Nunchuk, en entrant le code de vérification à 6 chiffres noté au dos de la Satscard. 
 
@@ -32,103 +32,103 @@ Une fois votre Satscard reçue, la première étape consiste à examiner l'embal
 
 Pour gérer la Satscard, nous allons utiliser l'application mobile **Nunchuk Wallet**. Vérifiez que votre smartphone est compatible NFC, puis téléchargez Nunchuk à partir du [Google Play Store](https://play.google.com/store/apps/details?id=io.nunchuk.android), de l'[App Store](https://apps.apple.com/us/app/nunchuk-bitcoin-wallet/id1563190073) ou directement via son [fichier `.apk`](https://github.com/nunchuk-io/nunchuk-android/releases).
 
-02
+![SATSCARD](assets/notext/02.webp)
 
 En théorie, vous pourriez envoyer directement les bitcoins sur l'adresse spécifiée au dos de votre Satscard sans utiliser Nunchuk. Mais je vous déconseille de faire cela, car nous allons d'abord vérifier que l'adresse du premier slot est bien dérivée depuis une clé privée stockée dans la Satscard et que ce n'est pas une adresse frauduleuse.
 
 Si vous utilisez Nunchuk pour la première fois, l'application vous proposera de créer un compte. Pour les besoins de ce tutoriel, il n'est pas nécessaire d'en créer un. Sélectionnez donc "Continue as guest" pour continuer sans compte.
 
-03
+![SATSCARD](assets/notext/03.webp)
 
 Cliquez ensuite sur "Unassisted wallet".
 
-04
+![SATSCARD](assets/notext/04.webp)
 
 Puis cliquez sur le bouton "I'll explore on my own".
 
-05
+![SATSCARD](assets/notext/05.webp)
 
 Une fois sur l'accueil de Nunchuk, cliquez sur le logo "NFC" en haut de l'écran.
 
-06
+![SATSCARD](assets/notext/06.webp)
 
 Maintenez votre Satscard au dos de votre téléphone pour la scanner.
 
-07
+![SATSCARD](assets/notext/07.webp)
 
 Nunchuk affiche l'adresse de réception correspondant au premier slot de votre Satscard. Normalement, cette adresse devrait être identique à celle écrite manuellement au dos de votre carte. Copiez cette adresse et utilisez-la pour y transférer les bitcoins que vous souhaitez bloquer avec ce slot.
 
-08
+![SATSCARD](assets/notext/08.webp)
 
 ## Comment vérifier les bitcoins présents sur un slot ?
 
 Une fois la transaction confirmée, vous pouvez consulter le solde associé à un slot de votre Satscard en la scannant avec Nunchuk. Ainsi, lors d'une transaction, le destinataire des bitcoins peut instantanément vérifier, via son application Nunchuk, que la carte contient effectivement les bitcoins qui lui sont dus.
 
-09
+![SATSCARD](assets/notext/09.webp)
 
 Si la contrepartie n'a pas l'application Nunchuk, elle peut tout de même vérifier la validité de la Satscard. Il suffit d'activer le NFC sur son smartphone et de placer la Satscard à l'arrière de l'appareil. Cela ouvrira automatiquement le site web de Satscard dans un navigateur, où l'on pourra vérifier la validité de la carte ainsi que le montant en bitcoins qui y est associé.
 
-10
+![SATSCARD](assets/notext/10.webp)
 
 ## Comment retirer les bitcoins d'un slot ?
 
 Maintenant que le premier slot de la Satscard a été chargé avec une certaine quantité de bitcoins, vous pouvez remettre la carte au destinataire du paiement.
 
-11
+![SATSCARD](assets/notext/11.webp)
 
 Si vous en êtes le destinataire, vous devez installer Nunchuk. Une fois sur l'application, cliquez sur le logo "NFC" en haut de l'écran.
 
-12
+![SATSCARD](assets/notext/12.webp)
 
 Placez votre Satscard au dos de votre téléphone.
 
-13
+![SATSCARD](assets/notext/13.webp)
 
 Nunchuk vous révèle le montant sécurisé sur l'adresse.
 
-14
+![SATSCARD](assets/notext/14.webp)
 
 Pour desceller la clé privée et déplacer les bitcoins sur une adresse qui vous appartient, cliquez sur le bouton "Unseal and sweep balance".
 
-15
+![SATSCARD](assets/notext/15.webp)
 
 L'option "Sweep to a wallet" permet d'envoyer directement les bitcoins vers un portefeuille déjà présent dans votre application Nunchuk. Pour transférer les fonds vers une adresse de réception différente, sélectionnez "Withdraw to an address".
 
-16
+![SATSCARD](assets/notext/16.webp)
 
 Indiquez l'adresse de réception où vous désirez envoyer les bitcoins sécurisés par la Satscard. Assurez-vous que l'adresse saisie est correcte (c'est le seul moment où vous pouvez la vérifier), puis cliquez sur le bouton "Create transaction".
 
-17
+![SATSCARD](assets/notext/17.webp)
 
 Renseignez le code PIN de votre Satscard. Ce code à 6 chiffres est noté au dos de la carte physique.
 
-18
+![SATSCARD](assets/notext/18.webp)
 
 Maintenez votre Satscard au dos de votre smartphone le temps de signer la transaction avec la clé privée stockée sur la carte NFC.
 
-19
+![SATSCARD](assets/notext/19.webp)
 
 Votre transaction est maintenant signée et diffusée sur le réseau Bitcoin, ce qui signifie que le slot utilisé sur votre Satscard est dorénavant vide.
 
-20
+![SATSCARD](assets/notext/20.webp)
 
 ## Comment réutiliser la Satscard ?
 
 Contrairement aux solutions à usage unique telles que l'Opendime, la Satscard est équipée d'une puce contenant 10 slots indépendants, permettant ainsi de réaliser jusqu'à 10 opérations avec une seule carte. Le premier slot, préconfiguré en usine par Coinkite, correspond à l'adresse de réception inscrite au dos de votre Satscard.
 
-21
+![SATSCARD](assets/notext/21.webp)
 
 Pour activer les 9 autres slots, il vous faudra générer la paire de clés et l'adresse via l'application Nunchuk. Sur la page d'accueil de l'application, cliquez sur le logo "NFC" situé en haut de l'écran.
 
-22
+![SATSCARD](assets/notext/22.webp)
 
 Placez votre Satscard au dos de votre téléphone.
 
-23
+![SATSCARD](assets/notext/23.webp)
 
 Nunchuk indique qu'aucun slot n'est actif sur la carte, ce qui est normal puisque le premier a déjà été utilisé et que le deuxième n'a pas encore été généré. Pour voir les slots précédemment utilisés, cliquez sur "View unsealed slots". Il est fortement déconseillé de réutiliser ces slots, car cela entraînerait une réutilisation d'adresse nuisible à votre confidentialité on-chain. Nous allons donc configurer un nouveau slot en cliquant sur le bouton "Yes".
 
-24
+![SATSCARD](assets/notext/24.webp)
 
 Vous devrez maintenant choisir la manière dont vous générez votre code de chaîne maître. 
 
@@ -138,19 +138,19 @@ La paire de clés du premier slot est pré-générée par Coinkite. C'est pour c
 
 La clé privée maîtresse de chaque slot est générée directement par la Satscard, et les codes de chaîne maîtres doivent être fournis de l'extérieur. Pour le code de chaîne de votre nouveau slot, vous avez deux options : laissez Nunchuk le générer automatiquement en sélectionnant "Automatic", ou créez-le vous-même en optant pour "Advanced" et en le saisissant dans l'espace dédié. Pour que le code de chaîne soit efficace, il faut qu'il soit le plus aléatoire possible.
 
-25
+![SATSCARD](assets/notext/25.webp)
 
 Renseignez le code PIN à 6 chiffres noté au dos de la Satscard.
 
-26
+![SATSCARD](assets/notext/26.webp)
 
 Placez votre Satscard au dos de votre téléphone.
 
-27
+![SATSCARD](assets/notext/27.webp)
 
 Un nouveau slot a bien été configuré. Vous pouvez maintenant voir l'adresse de réception pour y déposer des bitcoins. Pour procéder au chargement, suivez les instructions de la section "Comment charger un slot sur une Satscard ?" de ce tutoriel.
 
-28
+![SATSCARD](assets/notext/28.webp)
 
 Vous pouvez répéter ce processus jusqu'à 10 fois sur chaque Satscard.
 

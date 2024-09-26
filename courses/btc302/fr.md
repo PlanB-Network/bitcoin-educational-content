@@ -1353,31 +1353,34 @@ Bien sûr, il ne faut pas tomber dans une forme de complotisme. Mais **rien ne n
 ## Un plan d'action résumé pour créer sa communauté Bitcoin
 <chapterId>1f463ec2-3f64-5641-8d60-e02a47c94f27</chapterId>
 
-Satoshi Nakamoto a créé un outil révolutionnaire qui a la capacité de changer le monde que nous connaissons. Il est toutefois certain que **c’est à nous, bitcoiners, de choisir la trajectoire que nous souhaitons prendre pour construire l'avenir**.
+Satoshi Nakamoto a créé un outil révolutionnaire qui est déjà entrain de changer le monde que nous connaissons. Cependant, **c’est à nous, bitcoiners, de choisir la trajectoire que nous souhaitons prendre pour construire l'avenir**.
 
-En parallèle, l'essence de Bitcoin en fait un terrier du lapin immense, recoupant tellement de pans historiques, économiques, littéraires, mathématiques, informatiques et cryptographiques qu’il est impossible d'en faire le tour. Cela constitue en partie sa beauté.
-Or, en tant qu’être humain, nous ne disposons que d’une quantité de temps finie au cours de notre vie. **C’est donc en restant humbles et en apprenant des autres** que chacun d'entre-nous parviendra à atteindre la jauge que l’on s’est soi-même fixée quant à notre compréhension de Bitcoin.
-
+Or, l'essence de Bitcoin est un terrier du lapin immense, regroupant tellement de pans historiques, économiques, littéraires, mathématiques, informatiques et cryptographiques qu’il est impossible d'en faire le tour. Cela constitue d'ailleurs en partie sa beauté.
+Mais comme nous ne sommes qu'humains, nous ne disposons que d’une quantité de temps finie au cours de notre vie. **C’est donc en restant humbles et en apprenant des autres** que chacun d'entre-nous parviendra à atteindre son niveau de compréhension souhaité de Bitcoin.
+####
 **Les communautés Bitcoin mondiales jouent donc un rôle fondamental dans la construction du monde de demain**; communautés dans lesquelles bitcoiners pourront **échanger, construire et partager**. **Ensemble**.
+
+![image](assets/fr/chapter38/.webp)
+
 ####
 Comme vous l’aurez compris dans ce cours, **créer une communauté et un meet-up Bitcoin** demande de l’organisation et de la motivation. Bien évidemment, en fonction des envies et du temps que vous aurez à y consacrer, vous viendrez à aller plus ou moins loin dans les projets. 
 Quoi  qu'il en soit, l’objectif reste le même: **allumer l’étincelle pour que Bitcoin se développe dans votre ville**.
 ####
 Afin de résumer les nombreux chapitres et sous-chapitres de ce cours, voici **un "plan d’action" résumé pour créer sa communauté Bitcoin**:
-1) décidez en amont de pourquoi vous voulez créer une communauté Bitcoin, dans quel(s) but(s), où, etc.;
-2) rapprochez-vous des communautés déjà créées autour de vous en prenant contact et/ou en demandant conseil;
-3) créez une identité propre à votre communauté et au lieu où celle-ci se situe (logo, affiche, bannière, flyer, etc.)
-4) créez des canaux de communication et réseaux sociaux comme Telegram, Twitter, NOSTR, Discord. Pensez également à des canaux décentralisés et/ou incensurables;
-5) rapprochez-vous des meet-ups et communautés limitrophes (notamment sur les réseaux sociaux) et faites vous référencés sur différentes cartes et plateformes pour gagner en visibilité;
+1) décidez en amont de pourquoi vous voulez créer une communauté Bitcoin, dans quel(s) but(s), quelle ville, quel lieu, etc.;
+2) prenez contact et rapprochez-vous des communautés existantes autour de vous, et n'hésitez pas à leur demander conseil lorsque vous en aurez besoin;
+3) créez une identité propre à votre communauté et à la localité dans laquelle vous la développerez (logo, affiche, bannière, flyer, etc.)
+4) créez des canaux de communication et réseaux sociaux comme Telegram, Twitter, NOSTR, Discord ou Simplex. Pensez également à des canaux décentralisés et/ou incensurables;
+5) suivez sur les réseaux sociaux les meet-ups et communautés limitrophes, et faites vous référencer sur différentes cartes et plateformes pour gagner en visibilité.
 
 Une fois que les canaux de communication de votre communauté seront assez développés:
 
-6) proposez par sondage une rencontre de type meet-up;
+6) proposez par sondage une rencontre de type meet-up quand vous commencerez à sentir une émulsion;
 7) réfléchissez aux objectifs que vous souhaitez tirer de cet événement physique;
-8) recherchez un lieu bien situé, accueillant, respectant vos objectifs et réservez-y une table;
-9) une semaine avant l’événement, faite une communication sur vos réseaux et canaux de communication. Répétez cela deux à trois jours avant la date fatidique;
-10) faites référencer votre événement sur des plateformes et sites adéquats, si cela est envisageable;
-11) le jour du meet-up, laissez les choses se faire et allez vers les autres, quitte à recentrer la discussion gentiment si besoin;
+8) recherchez un lieu bien situé, accueillant, respectant vos objectifs et réservez-y une table ou une salle;
+9) une semaine avant l’événement, faites une communication sur vos réseaux et canaux de communication. Répétez cela deux à trois jours avant la date fatidique;
+10) faites référencer votre événement sur des plateformes et sites adéquats;
+11) le jour du meet-up, laissez les choses se faire et allez vers les autres, quitte à recentrer la discussion gentiment si besoin.
 
 Par suite:
 
@@ -1387,48 +1390,28 @@ Par suite:
 Enfin: 
 
 14) anticipez le futur en réfléchissant à un plus grand lieu pour les meet-ups, à des règles pour les canaux de communication, à un site internet, etc.;
-15) commencez à démocratiser à votre échelle l’acceptation de Bitcoin dans les commerces de votre ville, en demandant par exemple s’ils acceptent Bitcoin;
-16) décentralisez les tâches auprès de personnes de confiance, mais aussi les droits de vos canaux et de vos réseaux;
+15) commencez à démocratiser à votre échelle l’acceptation de Bitcoin dans les commerces de votre ville, en demandant par exemple de manière automatique s’ils acceptent Bitcoin;
+16) décentralisez les tâches auprès de personnes de confiance, ainsi que les droits de vos canaux et de vos réseaux;
 17) faites parler de votre communauté afin que de plus en plus de personnes la rejoignent, et impliquez les personnes intéressées;
 18) allez encore plus loin dans les projets qui vous plaisent et vous importent.
-
-De manière un peu moins détaillée, en 21 min de vidéo, cela donne:
+####
+####
+En un peu moins détaillé, ces 21 minutes de vidéo synthétisent ces étapes:
 ![Tutoriel créer une communauté Bitcoin](https://www.youtube.com/watch?v=EHLAmHHuZd8)
 ####
 Quoi qu'il en soit, **n'oubliez pas que vous n'êtes pas seul(e) et que les communautés déjà existantes sont là pour vous aider**.
 
-## Formation BTC302: la suite
-<chapterId>8bf10b77-80ee-5d50-87bc-0ef32574a675</chapterId>
-
-Dans cette formation BTC302, nous avons précisément détaillé les étapes de la création d'une communauté, d'un meet-up; mais également, la mise en place de nombreux projets.
-
-Lorsque que votre communauté se sentira alors prête à passer au stade supérieur, **il est possible de créer une association**.
-En France par exemple, sur la cinquantaine de communautés et meet-ups, on compte près d'une dizaine d'associations.
-####
-L'intérêt d'en créer une est dual:
-- d'une part, le statut d'association permet de pouvoir **disposer d'un statut officiel, d'ouvrir un compte en banque associatif mais aussi d'obtenir une forme de reconnaissance de la part de la presse, des médias, et des subventions**;
-- d'autre part, elle permet d'**organiser de manière plus précise le fonctionnement de la communauté et la mise en place de ses projets**, en définissant notamment des rôles spécifiques.
-#### 
-Dans l'objectif d'amener votre communauté à s'épanouir encore un peu plus, **une formation appelée COMMU201 sortira sur [planb.network](https://planb.network/) dans les prochains mois**.
-
-À travers celle-ci, **nous détaillerons également un autre point important: la mise en place d'événements de grande envergure, à une centaine de participants**. Nous aborderons ainsi les questions telles que: Pourquoi? Quelle organisation? Où? Quel budget? Comment? Quel fonctionnement?
-
-Pour ce faire, nous partirons de l'expérience de plusieurs communautés françaises ayant elles-mêmes déjà réalisées leur propre événement, telles que **le BEF (le Bitcoin Economic Forum, en mai, en Bretagne) et le B-only (en novembre, à Annecy)**.
-
-![image](assets/fr/chapter38/62.webp)
-####
-Bien évidemment, **dans d'autres pays, la législation et le fonctionnement associatif est différent**. De nombreux points seront cependant forts utiles à la création d'une association ou à l'organisation d'un événement d'envergure; et **nous espérons que d'autres bitcoiners viendront compléter cette formation de manière spécifique à leur pays**.
 
 ## Faire attention à soi
 <chapterId>cf1631cb-ddbe-55c7-be8c-26a5652979a0</chapterId>
 
-Lorque l'on tombe dans le terrier du lapin, notre conception de beaucoup de choses change.
-Cela nous pousse alors à vouloir intrinsèquement aller plus loin, à vouloir découvrir ces autres personnes qui font le même travail d'esprit que nous et qui, elles aussi, ont compris.
-Cela nous motive, nous donne encore plus envie d'**apporter notre pierre à l'édifice** et de partager notre trouvaille: Bitcoin.
-Cela nous amène également à **réfléchir au monde de demain, à celui que nous souhaitons construire et aux communautés qui sont entrain de le bâtir**.
+Lorque l'on tombe dans le terrier du lapin, notre conception de la vie change.
+Cela nous pousse alors à vouloir - au plus profond de nous-même - aller plus loin; à vouloir découvrir ces autres personnes qui font le même travail d'esprit que nous et qui, elles aussi, ont compris.
+Cela nous motive et nous donne encore plus envie d'**apporter notre pierre à l'édifice** , en partageant notre trouvaille: Bitcoin.
+Mais aussi, à **réfléchir au monde de demain, à celui que nous souhaitons construire et aux communautés qui sont entrain de le bâtir**.
 ####
-**Dans cette longue galerie qu'est la création d'une communauté, il vous faudra faire preuve de motivation, de stratégie, d'abnégation et de temps**. C'est un travail parfois ingrat; et dans cette entreprise, il vaut mieux prendre les choses petit à petit pour ne pas se faire du mal.
-**Pensez donc à vous, à vos limites**. Et bien que Bitcoin vous anime peut être nuit et jour, **ne cherchez pas à tout faire, seul; sans quoi vous vous épuiserez**.
+**Dans cette longue galerie qu'est la création d'une communauté, il vous faudra faire preuve de motivation, de stratégie, d'abnégation et de temps**. C'est un travail parfois ingrat; et dans cette aventure, il vaut mieux prendre les choses petit à petit pour ne pas se faire du mal.
+**Pensez donc à vous, à vos limites**. Et bien que Bitcoin vous anime peut être nuit et jour, **ne cherchez pas à tout faire seul, sans quoi vous vous épuiserez**.
 
 Au contraire, **demandez de l'aide aux bitcoiners qui sont déjà passés par cette même galerie, qui ont déjà exploré les mêmes issues et construits les mêmes outils**. Cela vous fera gagner un temps fou.
 
@@ -1436,7 +1419,32 @@ Au contraire, **demandez de l'aide aux bitcoiners qui sont déjà passés par ce
 
 ![image](assets/fr/chapter39/63.webp)
 
-Seul, on peut rapidement explorer une des nombreuses galeries du terrier du lapin qu'est Bitcoin, jusqu'à arriver à sa fin. Mais il y a le retour à parcourir. Puis encore toutes les autres directions à explorer.
-Alors qu'**en créant et/ou en intégrant une communauté de bitcoiners, en partageant et en échangeant avec eux régulièrement, vous explorerez en même temps toutes les directions du terrier qu'est Bitcoin**.
+Seul(e), il est vrai que l'on peut rapidement explorer une des nombreuses galeries du terrier du lapin qu'est Bitcoin. Mais il ne faut pas oublier qu'il y a encore toutes les autres directions à explorer.
+
+Alors qu'**en créant et/ou en intégrant une communauté de bitcoiners, en partageant et en échangeant avec eux régulièrement, vous avancerez en même temps dans toutes les directions du terrier**.
 
 C'est alors que, beaucoup plus rapidement que vous ne l'auriez fait seul, vous pourrez dire: "J'ai compris Bitcoin".
+
+
+## Formation BTC302, la suite
+<chapterId>8bf10b77-80ee-5d50-87bc-0ef32574a675</chapterId>
+
+Dans cette formation BTC302, nous avons détaillé avec prcéision les étapes de création d'une communauté, d'un meet-up; mais également, la mise en place de nombreux projets.
+
+Lorsque que votre communauté se sentira alors prête à passer au stade supérieur, **il est possible de créer une association**.
+En France par exemple, sur la soixantaine de communautés et meet-ups, on compte près d'une dizaine d'associations.
+####
+L'intérêt d'en créer une est dual:
+- d'une part, le statut d'association permet de pouvoir **disposer d'un statut officiel, d'ouvrir un compte en banque associatif mais aussi d'obtenir une forme de reconnaissance de la part de la presse, des médias, ainsi que des subventions**;
+- d'autre part, elle permet d'**organiser de manière plus sérieuse le fonctionnement de sa communauté et la mise en place de ses projets**, en définissant notamment des rôles spécifiques.
+#### 
+####
+Dans l'objectif d'amener votre communauté à s'épanouir encore un peu plus, **il n'est pas à exclure qu'une suite à la formation COMMU302 puisse sortir sur [planb.network](https://planb.network/) dans les prochains mois**.
+
+À travers celle-ci, **nous détaillerons notamment la mise en place d'événements de grande envergure, à une centaine de participants**. Les questions essentielles telles que: "Pourquoi?", "Quelle organisation?", "Où?", "Quel budget?", "Comment?" et "Quel fonctionnement?" seront alors abordées.
+
+Pour ce faire, nous partirons de l'expérience de plusieurs communautés françaises ayant elles-mêmes déjà réalisées leur propre événement, telles que **le BEF (le Bitcoin Economic Forum, en mai, en Bretagne), le B-only (en novembre, à Annecy) et le Be On Lille (en septembre, à Lille)**.
+
+![image](assets/fr/chapter38/62.webp)
+####
+Bien évidemment, **dans d'autres pays, la législation et le fonctionnement associatif est différent**. **Nous espérons donc que d'autres bitcoiners internationaux viendront compléter cette formation avec des informations spécifiques à leur pays**.

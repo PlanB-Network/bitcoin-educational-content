@@ -129,14 +129,14 @@ Bitcoin jest więc protokołem, który obejmuje długie okresy czasu i zachęca 
 
 ![Pieniądze](https://youtu.be/LslJVNCvHhA)
 
-Ewolucja pieniądza jest fascynującym aspektem historii ludzkości, odzwierciedlającym pomysłowość cywilizacji na przestrzeni wieków w zaspokajaniu ciągle ewoluujących potrzeb ekonomicznych.
+Ewolucja pieniądza jest fascynującym aspektem historii ludzkości, odzwierciedlającym pomysłowość w zaspokajaniu ciągle ewoluujących potrzeb ekonomicznych cywilizacji na przestrzeni wieków.
 
 ![image](assets/Concept/chapitre1/2.jpeg)
 
 ### Od muszelek do kont bankowych
 
-Początkowo waluta była namacalna, często związana z podstawowymi towarami takimi jak zboże, bydło i inne towary. Jednak te dobra miały poważne wady, takie jak nietrwałość, co utrudniało ich używanie jako długoterminowego medium oszczędności. Na przykład nieudane żniwa lub choroba mogły z dnia na dzień zniszczyć majątek jednostki.
-W miarę postępu cywilizacji i rozszerzania handlu na nowe regiony, pojawiła się potrzeba uniwersalnego medium wymiany. Eksperymentowano z obiektami takimi jak muszelki i kamienie szlachetne, ale nie były one doskonałe. Ostatecznie złoto stało się standardem ze względu na swoją rzadkość, trwałość i podzielność. Było i pozostaje do dziś symbolem bogactwa i władzy.
+Początkowo funkcję waluty pełniły towary, często związane z podstawowymi potrzebami ludzkimi, takie jak zboże, bydło i inne. Jednak używanie tych dóbr w funkcji pieniądzy miało poważne wady, na przykład ich nietrwałość utrudniała używanie ich jako środka przechowywania długoterminowych oszczędności, nieudane żniwa lub choroba mogły z dnia na dzień zniszczyć czyjś majątek.
+W miarę postępu cywilizacji i rozprzestrzeniania się handlu na nowe obszary, pojawiła się potrzeba wykorzystywania uniwersalnego środka wymiany wartości. Eksperymentowano z obiektami takimi jak muszelki i kamienie szlachetne, ale nie były one doskonałe. Ostatecznie złoto stało się standardem ze względu na swoją rzadkość, trwałość i podzielność. Było i pozostaje do dziś symbolem bogactwa i władzy.
 
 ![image](assets/Concept/chapitre1/1.JPEG)
 
@@ -149,7 +149,7 @@ Pieniądz to wysoce zaawansowane narzędzie komunikacji:
 - Umożliwia komunikację w uniwersalnym wspólnym języku. Nie znając się, nie mówiąc tym samym językiem, dwaj obcy mogą wymieniać się, handlować i zgadzać się co do wartości rzeczy.
 
 Jego funkcja w naszym świecie jest trudna do sztucznego odtworzenia. Żaden człowiek ani grupa ludzi nie może stworzyć pieniądza; jest to naturalne zjawisko społeczne, które musi wyłonić się z rynku i dobrowolnego konsensusu. Ceny są sygnałami, informacjami, które pomagają społeczeństwu decydować, jak będą alokowane zasoby.
-Złoto jako pieniądz to wybór 4000 lat ewolucji monetarnej opartej na 3 funkcjach:
+Złoto używane jako pieniądz to wybór 4000 lat ewolucji monetarnej oparty na 3 funkcjach:
 - Przechowywanie wartości
 - Środek wymiany
 - Jednostka rozliczeniowa
@@ -160,17 +160,17 @@ Złoto jako pieniądz to wybór 4000 lat ewolucji monetarnej opartej na 3 funkcj
 
 ### Charakterystyka pieniądza
 
-Złoto idealnie spełnia kryteria efektywnej waluty: jego naturalna rzadkość sprawia, że jest cenne, podczas gdy jego właściwości chemiczne pozwalają mu nie ulegać erozji z biegiem czasu. Jednak ta forma pieniądza nie jest łatwo podzielna ani transportowalna na długie dystanse. W zglobalizowanym i cyfrowym świecie złoto nie jest w stanie nadążyć i potrzebuje centralnej jednostki, aby było podzielne i łatwo wymienialne (bicie monety).
+Złoto idealnie spełnia niektóre kryteria, które charakteryzują dobrze funkcjonującą walutę: jego naturalna rzadkość sprawia, że jest cenne, podczas gdy jego właściwości chemiczne pozwalają mu nie ulegać erozji z biegiem czasu. Jednak ta forma pieniądza nie jest łatwo podzielna ani łatwa w transporcie na długie dystanse. W zglobalizowanym i cyfrowym świecie złoto nie jest w stanie nadążyć i potrzebuje centralnej jednostki, aby było podzielne i łatwo wymienialne (bicie monety).
 
-Te wady sprawiły, że złoto stało się przechowywaniem wartości, ale nie powszechną walutą, na niekorzyść państwowych walut fiducjarnych (fiat), które są łatwo używalne, ale ciągle dewaluowane przez jednostki, które nimi zarządzają (król, bank centralny, cesarz, dyktator).
+Wady te sprawiły, że złoto stało się nośnikiem przechowywania wartości, ale nie powszechnie używaną walutą, w przeciwieństwie do państwowych walut dekretowych (ang. fiat money, mowa tu o pieniądzu w formie banknotów, monet lub cyfr zapisanych na koncie bankowym, emitowanym przez państwa narodowe – przyp. tłum.), które są łatwe w użyciu, ale ciągle dewaluowane przez jednostki, które nimi zarządzają (król, bank centralny, cesarz, dyktator).
 
-Kryteria efektywnej waluty są liczne. Dobra waluta musi być:
+Kryteria charakteryzujące dobrze funkcjonującą walutę są liczne. Dobra waluta musi być:
 
 ![image](assets/Concept/chapitre1/6.jpeg)
 
-- **Zamienna**, co oznacza wymienialność bez utraty wartości
+- **Wymienialna**, co oznacza wymianę bez utraty wartości
 - **Podzielna**, aby ułatwić transakcje o różnych wielkościach
-- **Płynna**, co oznacza łatwą zamienialność na towary lub usługi.
+- **Płynna**, co oznacza łatwą zamianę na towary lub usługi.
 
 Aby spełnić te kryteria, waluta ewoluuje krok po kroku:
 
@@ -178,51 +178,51 @@ Aby spełnić te kryteria, waluta ewoluuje krok po kroku:
 - Banknot -> Karta bankowa
 - Blockchain -> Lightning Network
 
-Dzisiaj waluty nadal ewoluują, dostosowując swoje formy do różnych zastosowań. Na przykład, chociaż złoto jest doskonałym przechowywaniem wartości, nie nadaje się już do obecnego globalizowanego gospodarstwa. Podobnie, waluty fiducjarne takie jak dolar i euro są bardzo płynne i łatwo transportowalne, ponieważ są teraz głównie cyfrowe, jednak ich wartość jest ciągle erodowana przez inflację monetarną.
+Dzisiaj waluty nadal ewoluują, dostosowując swoje formy do różnych zastosowań. Na przykład, chociaż złoto jest doskonałym środkiem przechowywania wartości, nie nadaje się już do łatwego zastosowania w obecnej zglobalizowanej ekonomii. Podobnie, waluty fiducjarne takie jak dolar i euro są bardzo płynne i łatwe w transporcie, ponieważ obecnie są głównie cyfrowe, jednak ich wartość jest ciągle erodowana przez inflację monetarną.
 
-Bitcoin z kolei prezentuje nowe możliwości. Dzięki swoim właściwościom, takim jak ściśle ograniczona podaż, oferuje doskonałe przechowywanie wartości. Ponadto, jako neutralna waluta internetowa, stanowi dobry środek wymiany, który nie zna granic. Jednakże, mimo ciągłego przyjmowania, nie jest jeszcze szeroko akceptowany w handlu dzisiaj, pomimo [ciągłej adopcji](https://btcmap.org/map).
+Bitcoin z kolei prezentuje nowe możliwości. Dzięki swoim właściwościom, takim jak ściśle ograniczona podaż, jest doskonałym narzędziem przechowywania wartości. Ponadto, jako neutralna waluta internetowa, stanowi dobry środek wymiany, który nie zna granic. Jednakże nie jest jeszcze szeroko akceptowany w handlu, pomimo [ciągłej adopcji](https://btcmap.org/map).
 
 ## Waluty fiducjarne
 
 ![Waluty fiducjarne](https://youtu.be/1hOrDrmT27g)
 
-"Ci, którzy nie uczą się na historii, są skazani na powtórzenie tych samych błędów," powiedział George Santayana. Prawda ta rezonuje szczególnie, gdy mowa o obecnym systemie monetarnym.
+"Ci, którzy nie uczą się historii, są skazani na powtórzenie tych samych błędów," powiedział George Santayana. Prawda ta rezonuje szczególnie, gdy mowa o obecnym systemie monetarnym.
 
 ### Fiducjarny = zaufanie
 
-Dzisiaj główne waluty takie jak euro i dolar są uważane za fiducjarne. Oznacza to, że nie mają one wewnętrznej wartości. Ich wartość opiera się całkowicie na zaufaniu i wierze, jaką pokładamy w instytucjach, które nimi regulują.
+Dzisiaj główne waluty takie jak euro i dolar są określane jako fiducjarne. Oznacza to, że nie mają one wartości same w sobie. Ich wartość opiera się całkowicie na zaufaniu i wierze, jaką pokładamy w instytucjach, które je regulują.
 
-'Waluta fiducjarna to forma waluty, która jest dekretowana jako waluta przez instytucję, taką jak państwo-naród, jak Chiny z Jenem, lub unia polityczno-ekonomiczna, jak Unia Europejska z Euro. Jednostką odpowiedzialną za emisję waluty fiducjarnej jest bank centralny (Na przykład, możemy wymienić Ludowy Bank Chin, Rezerwę Federalną Stanów Zjednoczonych, lub Centralny Bank Republiki Gwinei). To te jednostki są odpowiedzialne za decydowanie o polityce monetarnej i tym samym o tym, ile pieniędzy powinno być wprowadzonych do obiegu lub wydrukowanych.
+'Waluta fiducjarna to forma waluty, która jest dekretowana przez instytucję, taką jak państwo-naród, jak Chiny z jenem, lub unia polityczno-ekonomiczna, jak Unia Europejska, z euro. Jednostką odpowiedzialną za emisję waluty fiducjarnej jest bank centralny (na przykład, Ludowy Bank Chin, Rezerwa Federalna Stanów Zjednoczonych lub Centralny Bank Republiki Gwinei). To te jednostki są odpowiedzialne za decydowanie o polityce monetarnej i tym samym o tym, ile pieniędzy powinno być wprowadzonych do obiegu lub wydrukowanych.
 ![image](assets/Concept/chapitre2/1.jpeg)
 
 ### Dewaluacja pieniądza: Strategia tak stara jak Imperium Rzymskie
-Od starożytności złoto służyło jako punkt odniesienia monetarny. Jednak jego sztywność często skłaniała przywódców - czy to rzymskich cesarzy, czy współczesnych rządów - do przyjmowania alternatywnych walut, często fiducjarnych.
-Mechanizm jest prosty i inspirowany praktykami, które istnieją od początków cywilizacji. Przywódcy, pragnący wywierać kontrolę nad bogactwem, zaczynają od scentralizowania złota, często wykorzystując swoją władzę i obiecując ochronę oraz bezpieczeństwo. Mając ten cenny zasób w swoich rękach, wprowadzają nową walutę, równoważną wartości złota, ale bite w ich wizerunku. Ta waluta zaczyna krążyć, a ludzie szybko przyzwyczajają się do jej wygody.
+Od starożytności złoto służyło za monetarny punkt odniesienia. Jednak jego sztywność często skłaniała przywódców - czy to rzymskich cesarzy, czy współczesnych rządzących - do przyjmowania walut alternatywnych, często fiducjarnych.
+Mechanizm ten jest prosty i inspirowany praktykami, które istnieją od początków cywilizacji. Przywódcy, pragnący mieć kontrolę nad bogactwem, zaczynają od przejęcia złota, często wykorzystując swoją władzę i obiecując ochronę oraz bezpieczeństwo. Mając ten cenny zasób w swoich rękach, wprowadzają nową walutę, równoważną wartości złota, ale bitą z ich wizerunkiem. Nowa waluta zaczyna krążyć, a ludzie szybko przyzwyczajają się do wygody jej użycia.
 
-Stopniowo, ci przywódcy dyskretnie dewaluują nową walutę, obniżając jej wartość w stosunku do początkowego złota o kilka procent każdego roku. Ta cicha dewaluacja jest często uzasadniana jako działanie w interesie ludu. W ten sposób ci, którzy oszczędzają w tej walucie fiducjarnej, widzą erozję wartości swoich oszczędności, podczas gdy państwo finansuje swoje projekty poprzez inflację. Ponadto, ta dewaluacja ułatwia spłatę długów.
+Stopniowo, przywódcy dyskretnie dewaluują nową walutę, obniżając jej wartość w stosunku do początkowej wartości w złocie o kilka procent każdego roku. Ta cicha dewaluacja jest często uzasadniana jako działanie w interesie ludu. W ten sposób oszczędności tych, którzy oszczędzają w walucie fiducjarnej, tracą wartość, podczas gdy państwo finansuje swoje projekty poprzez inflację. Ponadto dewaluacja ta ułatwia spłatę długów.
 
 ![image](assets/Concept/chapitre2/3.jpeg)
 
-W krytycznym momencie ogłaszane jest: waluta nie jest już wspierana przez złoto. Publiczność, teraz przyzwyczajona do waluty fiducjarnej i często źle poinformowana o sprawach finansowych, akceptuje tę rzeczywistość. Państwo ma wtedy wolną rękę do manipulowania podażą pieniądza, drukując ogromne sumy pieniędzy przy prawie żadnych kosztach.
+W krytycznym momencie władza ogłasza: waluta nie jest już wymienialna na złoto. Ludzie, teraz przyzwyczajeni do waluty fiducjarnej i często źle poinformowani o sprawach finansowych, akceptują tę zmianę. Państwo ma wtedy wolną rękę do manipulowania podażą pieniądza, drukując ogromne sumy pieniędzy przy prawie żadnych kosztach.
 
-Ta strategia, gdy jest dobrze wykonana, może trwać przez dziesięciolecia. Jednak zbyt szybka dewaluacja lub utrata zaufania może prowadzić do hiperinflacji (patrz następny rozdział). Historia pokazuje, że dolar stracił 98% swojej wartości w 100 lat, euro 30% w 20 lat, a funt szterling 99% od momentu jego powstania.
+Ta strategia, jeśli jest stosowana umiejętnie, może być eksploatowana przez dziesięciolecia. Jednak zbyt szybka dewaluacja lub utrata zaufania może prowadzić do hiperinflacji (patrz następny rozdział). Historia pokazuje, że dolar stracił 98% swojej wartości w 100 lat, euro 30% w 20 lat, a funt szterling 99% od momentu jego powstania.
 
 W końcu waluta może już nie mieć żadnego związku ze złotem, przypominając rzymskie monety pod koniec Imperium, lub nawet zostać zredukowana do prostej wartości liczbowej, odłączonej od materialnej rzeczywistości.
 
-Dzisiaj jesteśmy świadkami historycznego punktu zwrotnego. Dolar, który długo dominował, wydaje się być w odwrocie, a złoto straciło swoje centralne miejsce. Jesteśmy na zawiasie nowego cyklu monetarnego, przypominając nam, że lekcje z historii są często zapominane.
+Dzisiaj jesteśmy świadkami historycznego punktu zwrotnego. Dolar, który długo dominował, wydaje się być w odwrocie, a złoto straciło swoje centralne miejsce. Jesteśmy w krytycznym punkcie nowego cyklu monetarnego, w którym przypominamy sobie, że lekcje historii są często zapominane.
 
 ![image](assets/Concept/chapitre2/4.jpeg)
 
 ### Czy Bitcoin jest rozwiązaniem?
 
-To w tym kontekście rewolucja Bitcoina nabiera tempa. Ta waluta, która nie wymaga **zaufanej trzeciej strony**, ma na celu oddzielenie Państwa od pieniądza.
+To w tym kontekście rewolucja Bitcoina nabiera tempa. To waluta, która nie wymaga **zaufanej trzeciej strony**, i ma na celu oddzielenie Państwa od pieniądza.
 
-Drukowanie pieniędzy prowadzi do inflacji, stopniowo zubożając populację. Z drugiej strony, instytucje finansowe i zamożni jednostki skorzystali z tej praktyki, tworząc przepaść nierówności i sprzyjając autorytaryzmowi. Obecny system finansowy jest regulowany i ograniczony, aby uniknąć jego upadku, a każde zakłócenie mogłoby wywołać poważny kryzys gospodarczy. Jako że polityczni aktorzy korzystają z tego systemu, nie są zmotywowani do dokonywania radykalnych zmian, pozwalając systemowi kontynuować swój bieg aż do możliwej implozji.
+Drukowanie pieniędzy prowadzi do inflacji, stopniowo zubożając populację. Z drugiej strony, instytucje finansowe i zamożni obywatele odnoszą korzyści ze stosowania tej praktyki, tworząc przepaść nierówności pomiędzy swoimi współobywatelami i sprzyjając autorytaryzmowi. Obecny system finansowy jest regulowany i zamknięty, aby uniknąć jego zawalenia, a każde zakłócenie może wywołać poważny kryzys gospodarczy. Jako że jednostki zaangażowane politycznie korzystają z tego systemu, nie mają motywacji do dokonywania radykalnych zmian, pozwalając systemowi kontynuować swój bieg aż do możliwej implozji.
 
 ![image](assets/Concept/chapitre2/2.jpeg)
 
-W odpowiedzi na te systemowe wyzwania, Bitcoin prezentuje się jako zdecentralizowane rozwiązanie: nowy równoległy system monetarny. Historycznie, złoto było faworyzowane jako waluta ze względu na swoją odporność na fałszowanie. Podobnie, Bitcoin, dzięki swojej zdecentralizowanej i kryptograficznej naturze, nie może być sfałszowany i jest ograniczony do 21 milionów jednostek. Bitcoin jest walutą, która opiera się na przejrzystości i neutralności, oferując atrakcyjną alternatywę dla obecnego scentralizowanego systemu monetarnego.
-W tym samym czasie pojawienie się cyfrowych walut banków centralnych, czyli CBDC, wydaje się nieuniknione. Ta nowa forma waluty oferowałaby bardziej scentralizowaną gospodarkę, co mogłoby ograniczać finansową wolność jednostek i ułatwiać autorytarne nadużycia. Możemy zakończyć ten rozdział cytatem laureata Nagrody Nobla, F.A. Hayeka z 1984 roku: "Nie wierzę, że kiedykolwiek znajdziemy dobrą walutę, dopóki nie wyjmiemy jej z rąk rządu. Jednak nie możemy jej odebrać siłą; wszystko, co możemy zrobić, to wprowadzić coś, czego nie mogą zatrzymać przez sprytne sztuczki".
+W odpowiedzi na te wyzwania systemowe Bitcoin prezentuje się jako zdecentralizowane rozwiązanie: nowy równoległy system monetarny. Historycznie złoto było faworyzowane jako waluta ze względu na swoją odporność na fałszowanie. Podobnie Bitcoin, dzięki swojej zdecentralizowanej i kryptograficznej naturze, nie może być sfałszowany i jest ograniczony do 21 milionów jednostek. Bitcoin jest walutą, która opiera się na przejrzystości i neutralności, oferując atrakcyjną alternatywę dla obecnego scentralizowanego systemu monetarnego.
+Równoczesne pojawienie się cyfrowych walut banków centralnych, czyli CBDC, wydaje się nieuniknione. Ta nowa forma waluty umożliwi większą centralizację gospodarki, co może oznaczać ograniczenie wolności finansowej jednostek i ułatwienie nadużyć o charakterze autorytarnym. Możemy zakończyć ten rozdział cytatem laureata Nagrody Nobla, F.A. Hayeka z 1984 roku: "Nie wierzę, że kiedykolwiek znajdziemy dobrą walutę, dopóki nie wyjmiemy jej z rąk rządu. Jednak nie możemy jej odebrać siłą; wszystko, co możemy zrobić, to wprowadzić coś, czego nie mogą zatrzymać sprytnymi sztuczkami".
 
 ![image](assets/Concept/chapitre2/0.jpeg)
 
@@ -230,7 +230,7 @@ W tym samym czasie pojawienie się cyfrowych walut banków centralnych, czyli CB
 
 ![Hiperinflacja](https://youtu.be/cYKmgflsy_8)
 
-Hiperinflacja to zjawisko monetarne specyficzne dla walut fiducjarnych. Charakteryzuje się całkowitą utratą zaufania do waluty i drastycznym wzrostem inflacji poprzez drukowanie pieniędzy przez władze. W rezultacie, oszczędności zgromadzone przez jednostki mogą zniknąć w stosunkowo krótkim czasie, popychając kraj na skraj ekonomicznego, społecznego i politycznego upadku.
+Hiperinflacja to zjawisko monetarne specyficzne dla walut fiducjarnych. Charakteryzuje się całkowitą utratą zaufania do waluty i drastycznym wzrostem inflacji na skutek drukowania pieniędzy przez władze. W rezultacie oszczędności zgromadzone przez jednostki mogą zniknąć w stosunkowo krótkim czasie, popychając kraj na skraj ekonomicznego, społecznego i politycznego upadku.
 
 ### Inflacja Nieokiełznana!
 
@@ -240,11 +240,9 @@ Spróbujmy zrozumieć wpływ inflacji na oszczędności, biorąc pod uwagę ró�
 - Przy 7%, tracisz połowę w ciągu 10 lat.
 - Przy 20%, tracisz prawie połowę w ciągu 3 lat.
 
-Podczas hiperinflacji nie mówimy już o 20% rocznie, ale raczej o 20% miesięcznie, a w szczycie nawet na dzień. 100% inflacja dziennie przez 3 dni to realistyczny scenariusz, który miał miejsce i nadal ma miejsce na naszym świecie.
+Podczas hiperinflacji nie mówimy już o 20% rocznie, ale raczej o 20% miesięcznie, a w szczycie nawet na dzień. 100% inflacji dziennie przez 3 dni to realistyczny scenariusz, który miał miejsce i nadal ma miejsce na świecie.
 
-Ważne jest, aby zrozumieć, że hiperinflacja nie dzieje się przez magię, przypadek, kapitalizm czy politycznych przeciwników. Hiperinflacja jest bezpośrednią konsekwencją błędnych decyzji monetarnych podjętych przez bankierów centralnych i polityków. Jej konsekwencje dotykają wszystkich obywateli i będą miały wpływ na pokolenia. Zapraszam do poświęcenia 5 minut na studiowanie tej tabeli, aby w pełni zdać sobie sprawę z realnego wpływu tego zjawiska (kurs ECON204 szczegółowo omówi ten temat)."
-
-![image](assets/Concept/chapitre3/1.JPG)
+Ważne jest, aby zrozumieć, że hiperinflacja nie jest spowodowana magią, przypadkiem, kapitalizmem czy efektem działań politycznych przeciwników. Hiperinflacja jest bezpośrednią konsekwencją błędnych decyzji monetarnych podjętych przez decydentów banków centralnych i polityków. Jej konsekwencje dotykają wszystkich obywateli i będą miały wpływ na pokolenia. Zachęcam do poświęcenia 5 minut na przeanalizowanie tej tabeli, aby w pełni zdać sobie sprawę z realnego wpływu tego zjawiska (kurs ECON204 szczegółowo omówi ten temat)."
 
 ### Jak Dochodzi do Hiperinflacji?
 
@@ -252,55 +250,55 @@ Ważne jest, aby zrozumieć, że hiperinflacja nie dzieje się przez magię, prz
 
 Faza 1 - Utrata zaufania
 
-- Centralizacja władzy monetarnej ułatwia tworzenie pieniędzy i ich nadużycia. Może wtedy pojawić się utrata zaufania do waluty i wywołać hiperinflację. Osoby zaczynają wtedy kwestionować pochodzenie pieniędzy i korzyści z narzuconej polityki monetarnej. Utrata zaufania jest zazwyczaj spowodowana czynnikami zewnętrznymi, takimi jak wojny, środki społeczne lub wzrost cen kluczowego zasobu, takiego jak pszenica czy benzyna.
+- Centralizacja władzy monetarnej ułatwia tworzenie pieniędzy i związane z tym nadużycia. Może wtedy pojawić się hiperinflacja spowodowana utratą zaufania do waluty. Ludzie zaczynają wtedy kwestionować pochodzenie pieniędzy oraz korzyści z narzuconej polityki monetarnej. Utrata zaufania jest zazwyczaj spowodowana czynnikami zewnętrznymi, takimi jak wojny, czynniki społeczne lub wzrost cen kluczowego produktu, takiego jak pszenica czy benzyna.
 
 Faza 2 - Upadek waluty i wzrost cen
 
-- Gdy rządy tracą kontrolę nad zaufaniem, ludzie zaczynają wymieniać swoją walutę na inną, bardziej stabilną, taką jak dolar amerykański w Wenezueli. Prowadzi to do wzrostu cen, tworząc błędne koło, w którym towary i usługi stają się coraz droższe. Aby zaspokoić te potrzeby, państwo drukuje więcej pieniędzy, aby skorygować politykę monetarną, co skutkuje eksponencjalną inflacją.
+- Gdy rządy tracą kontrolę nad zaufaniem, ludzie zaczynają wymieniać swoją walutę na inną, bardziej stabilną, taką jak dolar amerykański w Wenezueli. Prowadzi to do wzrostu cen, tworząc błędne koło, w którym towary i usługi stają się coraz droższe. Aby skorygować politykę monetarną i zaspokoić potrzeby konsumpcyjne obywateli, państwo drukuje więcej pieniędzy, co skutkuje eksponencjalną inflacją.
 
 Faza 3 - Błędne koło drukowania pieniędzy
 
-- Potrzeba coraz więcej banknotów, aby kupić towary, co prowadzi do niedoboru papierowych pieniędzy. To prowadzi do drukowania jeszcze więcej banknotów, tworząc jeszcze większą inflację.
+- Potrzeba coraz więcej banknotów, aby kupić towary, co prowadzi do niedoboru papierowych pieniędzy. To prowadzi do drukowania jeszcze większej ilości banknotów i tworzy jeszcze większą inflację.
 
 ![image](assets/Concept/chapitre3/4.jpeg)
 
 Faza 4 - Pojawia się nowa waluta
-- Nowa waluta jest wprowadzana w celu zastąpienia starej. Godnym uwagi przykładem hiperinflacji jest Niemcy w latach 1920-1924. Aby ożywić gospodarkę, stworzono nową walutę, wspieraną przez długi niemieckie, francuskie i angielskie, oraz gwarantowaną przez niemieckie ziemie.
-Rozwiązanie kryzysu hiperinflacji często wymaga radykalnych zmian, takich jak rewolucje, zmiany w rządzie, zmiany w bankierach centralnych, między innymi. Utrata zaufania, upadek waluty i odbudowa są kluczowymi fazami do ożywienia nowej gospodarki opartej na walucie fiducjarnej.
+- Nowa waluta jest wprowadzana w celu zastąpienia starej. Godnym uwagi przykładem hiperinflacji są Niemcy w latach 1920-1924. Aby ożywić gospodarkę, stworzono nową walutę, wspieraną przez długi niemieckie, francuskie i angielskie, oraz gwarantowaną przez niemieckie ziemie.
+Rozwiązanie kryzysu hiperinflacji często wymaga radykalnych zmian, takich jak rewolucje, zmiany w rządzie, zmiany w bankach centralnych, itp. Utrata zaufania, upadek waluty i odbudowa są kluczowymi fazami potrzebnymi do ożywienia nowej gospodarki opartej na walucie fiducjarnej.
 
 ### 3 godne uwagi przykłady
 
 - Niemcy, 1922-1923
 
-  Jednym z najbardziej uderzających przykładów hiperinflacji był okres w Republice Weimarskiej w Niemczech po I wojnie światowej.
+  Jednym z najbardziej uderzających przykładów hiperinflacji był okres Republiki Weimarskiej w Niemczech po I wojnie światowej.
 
-  Niemcy pożyczyły ogromne sumy pieniędzy na finansowanie wysiłku wojennego, i nie tylko Niemcy nie wygrały wojny, ale musiały zapłacić miliardy dolarów w reparacjach. Miesiącem z najwyższą inflacją był październik 1923 roku, osiągając szczyt na poziomie 29 500%, czyli wskaźnik inflacji 20,9% na dzień. Ceny podwajały się co 3,7 dnia!
-  Mówi się, że w restauracjach kelnerzy musieli ogłaszać ceny menu co 30 minut, aby uwzględnić inflację. Niemiecka waluta stała się tak bezużyteczna, że niektórzy obywatele woleli palić swoje papierowe pieniądze niż drewno, ponieważ było to faktycznie tańsze.
+  Niemcy pożyczyły ogromne sumy pieniędzy na sfinansowanie wysiłku wojennego i nie tylko nie wygrały wojny, ale musiały zapłacić miliardy dolarów w reparacjach. Miesiącem z najwyższą inflacją był październik 1923 roku, kiedy to osiągnęła ona szczyt na poziomie 29 500%, wskaźnik inflacji wynosił więc 20,9% na dzień. Ceny podwajały się co 3,7 dnia!
+  Mówi się, że w restauracjach kelnerzy musieli ogłaszać ceny menu co 30 minut, aby uwzględnić inflację. Niemiecka waluta stała się tak bezużyteczna, że niektórzy obywatele woleli palić swoje papierowe pieniądze niż drewno, ponieważ faktycznie było to tańsze.
   ![image](assets/Concept/chapitre3/5.jpeg)
 
 - Węgry, 1945-1946
 
   Kraj, który do tej pory doświadczył najgorszego okresu hiperinflacji w historii, to zdecydowanie Węgry po II wojnie światowej.
 
-  Węgry znalazły się po przegranej stronie konfliktu, a wojna zniszczyła większość ich zdolności produkcyjnych przemysłu. Miesiącem z najwyższą inflacją był lipiec 1946 roku, z inflacją cen wynoszącą 41 900 000 000 000 000%, co odpowiada 207% na dzień. Ceny podwajały się co 15 godzin!
+  Węgry znalazły się po przegranej stronie konfliktu, a wojna zniszczyła większość zdolności produkcyjnej ich przemysłu. Miesiącem z najwyższą inflacją był lipiec 1946 roku, z inflacją cen wynoszącą 41 900 000 000 000 000%, co odpowiada 207% na dzień. Ceny podwajały się co 15 godzin!
 
   Ostatni banknot wprowadzony do obiegu to banknot o nominale 100 milionów miliardów pengo (100 000 000 000 000 000 000) w 1946 roku.
 
 ![image](assets/Concept/chapitre3/6.jpeg)
 
 - Zimbabwe, 2007-2008
-  Do roku 2000 Zimbabwe było samowystarczalne prawie we wszystkich swoich potrzebach z wyjątkiem ropy.
+  Do roku 2000 Zimbabwe było samowystarczalne w zaspokajaniu prawie wszystkich swoich potrzeb z wyjątkiem ropy.
 
-  W 1997 roku dolar zimbabweński stracił ponad 72% swojej wartości po tym, jak rząd zgodził się na rekompensatę dla weteranów wojennych na kwotę równowartości 450 milionów dolarów amerykańskich. Ponieważ rząd nie dysponował taką kwotą w swoich skarbcach, musiał zacząć uruchamiać maszyny drukarskie. W 2005 roku inflacja osiągnęła 586%, a w marcu 2007 roku miesięczna inflacja osiągnęła 50%.
+  W 1997 roku dolar zimbabweński stracił ponad 72% swojej wartości po tym, jak rząd zgodził się na rekompensatę dla weteranów wojennych na kwotę równowartości 450 milionów dolarów amerykańskich. Ponieważ rząd nie dysponował taką kwotą w swoich skarbcach, musiał uruchomić maszyny drukarskie. W 2005 roku inflacja osiągnęła 586%, a w marcu 2007 roku miesięczna inflacja osiągnęła 50%.
 
-  W czerwcu 2007 roku rząd zareagował, wprowadzając kontrole cen. Sklepy zostały dosłownie "oblężone". Handlowcy nie mieli już środków, aby uzupełnić zapasy w swoich sklepach.
+  W czerwcu 2007 roku rząd zareagował, wprowadzając kontrole cen. Sklepy zostały dosłownie "oblężone". Handlowcy nie mieli już środków, aby uzupełniać zapasy w swoich sklepach.
 
-  W kwietniu 2009 roku minister finansów ogłosił zawieszenie dolara zimbabweńskiego i zezwolił na używanie różnych obcych walut do handlu. Wszystkie konta bankowe, emerytury i instytucje finansowe zobaczyły, jak ich salda znikają z dnia na dzień.
+  W kwietniu 2009 roku minister finansów ogłosił zawieszenie dolara zimbabweńskiego i zezwolił na używanie różnych obcych walut w celach handlowych. Salda wszystkich instytucjonalnych i prywatnych kont bankowych, w tym konta emerytów, znikały z dnia na dzień.
 
 ![image](assets/Concept/chapitre3/7.jpeg)
 
-Podsumowując, hiperinflacja powoduje szybkie degradowanie wartości waluty, prowadząc do erozji oszczędności i utraty zaufania do systemu monetarnego. Jak sugerował Voltaire, waluta fiducjarna zawsze ostatecznie straci swoją wewnętrzną wartość i zbliży się do zera.
-'Waluta, która opiera się na zaufanej stronie trzeciej, jak instytucja finansowa, jest w praktyce i na dłuższą metę wadliwą walutą, ponieważ nie jest w stanie zagwarantować siły nabywczej ani zachować oszczędności.
+Podsumowując, hiperinflacja powoduje szybkie degradowanie wartości waluty, prowadząc do erozji oszczędności i utraty zaufania do systemu monetarnego. Jak sugerował Voltaire, waluta fiducjarna zawsze ostatecznie straci swoją wartość rzeczywistą i zbliży się do zera.
+'Waluta, która opiera się na zaufanej stronie trzeciej, jak instytucja finansowa, jest w praktyce i na dłuższą metę walutą wadliwą, ponieważ nie jest w stanie zagwarantować swojej siły nabywczej ani zdolności przechowywania wartości.
 ## 21 milionów bitcoinów
 ![21 milionów bitcoinów](https://youtu.be/Y92R4EWk5uo)
 

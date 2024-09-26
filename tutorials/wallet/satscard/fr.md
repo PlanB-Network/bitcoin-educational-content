@@ -36,19 +36,19 @@ Pour gérer la Satscard, nous allons utiliser l'application mobile **Nunchuk Wal
 
 En théorie, vous pourriez envoyer directement les bitcoins sur l'adresse spécifiée au dos de votre Satscard sans utiliser Nunchuk. Mais je vous déconseille de faire cela, car nous allons d'abord vérifier que l'adresse du premier slot est bien dérivée depuis une clé privée stockée dans la Satscard et que ce n'est pas une adresse frauduleuse.
 
-Si vous utilisez Nunchuk pour la première fois, l'application vous proposera de créer un compte. Pour les besoins de ce tutoriel, il n'est pas nécessaire d'en créer un. Sélectionnez donc "Continue as guest" pour continuer sans compte.
+Si vous utilisez Nunchuk pour la première fois, l'application vous proposera de créer un compte. Pour les besoins de ce tutoriel, il n'est pas nécessaire d'en créer un. Sélectionnez donc "*Continue as guest*" pour continuer sans compte.
 
 ![SATSCARD](assets/notext/03.webp)
 
-Cliquez ensuite sur "Unassisted wallet".
+Cliquez ensuite sur "*Unassisted wallet*".
 
 ![SATSCARD](assets/notext/04.webp)
 
-Puis cliquez sur le bouton "I'll explore on my own".
+Puis cliquez sur le bouton "*I'll explore on my own*".
 
 ![SATSCARD](assets/notext/05.webp)
 
-Une fois sur l'accueil de Nunchuk, cliquez sur le logo "NFC" en haut de l'écran.
+Une fois sur l'accueil de Nunchuk, cliquez sur le logo "*NFC*" en haut de l'écran.
 
 ![SATSCARD](assets/notext/06.webp)
 
@@ -76,7 +76,7 @@ Maintenant que le premier slot de la Satscard a été chargé avec une certaine 
 
 ![SATSCARD](assets/notext/11.webp)
 
-Si vous en êtes le destinataire, vous devez installer Nunchuk. Une fois sur l'application, cliquez sur le logo "NFC" en haut de l'écran.
+Si vous en êtes le destinataire, vous devez installer Nunchuk. Une fois sur l'application, cliquez sur le logo "*NFC*" en haut de l'écran.
 
 ![SATSCARD](assets/notext/12.webp)
 
@@ -88,15 +88,15 @@ Nunchuk vous révèle le montant sécurisé sur l'adresse.
 
 ![SATSCARD](assets/notext/14.webp)
 
-Pour desceller la clé privée et déplacer les bitcoins sur une adresse qui vous appartient, cliquez sur le bouton "Unseal and sweep balance".
+Pour desceller la clé privée et déplacer les bitcoins sur une adresse qui vous appartient, cliquez sur le bouton "*Unseal and sweep balance*".
 
 ![SATSCARD](assets/notext/15.webp)
 
-L'option "Sweep to a wallet" permet d'envoyer directement les bitcoins vers un portefeuille déjà présent dans votre application Nunchuk. Pour transférer les fonds vers une adresse de réception différente, sélectionnez "Withdraw to an address".
+L'option "*Sweep to a wallet*" permet d'envoyer directement les bitcoins vers un portefeuille déjà présent dans votre application Nunchuk. Pour transférer les fonds vers une adresse de réception différente, sélectionnez "*Withdraw to an address*".
 
 ![SATSCARD](assets/notext/16.webp)
 
-Indiquez l'adresse de réception où vous désirez envoyer les bitcoins sécurisés par la Satscard. Assurez-vous que l'adresse saisie est correcte (c'est le seul moment où vous pouvez la vérifier), puis cliquez sur le bouton "Create transaction".
+Indiquez l'adresse de réception où vous désirez envoyer les bitcoins sécurisés par la Satscard. Assurez-vous que l'adresse saisie est correcte (c'est le seul moment où vous pouvez la vérifier), puis cliquez sur le bouton "*Create transaction*".
 
 ![SATSCARD](assets/notext/17.webp)
 
@@ -118,7 +118,7 @@ Contrairement aux solutions à usage unique telles que l'Opendime, la Satscard e
 
 ![SATSCARD](assets/notext/21.webp)
 
-Pour activer les 9 autres slots, il vous faudra générer la paire de clés et l'adresse via l'application Nunchuk. Sur la page d'accueil de l'application, cliquez sur le logo "NFC" situé en haut de l'écran.
+Pour activer les 9 autres slots, il vous faudra générer la paire de clés et l'adresse via l'application Nunchuk. Sur la page d'accueil de l'application, cliquez sur le logo "*NFC*" situé en haut de l'écran.
 
 ![SATSCARD](assets/notext/22.webp)
 
@@ -126,7 +126,7 @@ Placez votre Satscard au dos de votre téléphone.
 
 ![SATSCARD](assets/notext/23.webp)
 
-Nunchuk indique qu'aucun slot n'est actif sur la carte, ce qui est normal puisque le premier a déjà été utilisé et que le deuxième n'a pas encore été généré. Pour voir les slots précédemment utilisés, cliquez sur "View unsealed slots". Il est fortement déconseillé de réutiliser ces slots, car cela entraînerait une réutilisation d'adresse nuisible à votre confidentialité on-chain. Nous allons donc configurer un nouveau slot en cliquant sur le bouton "Yes".
+Nunchuk indique qu'aucun slot n'est actif sur la carte, ce qui est normal puisque le premier a déjà été utilisé et que le deuxième n'a pas encore été généré. Pour voir les slots précédemment utilisés, cliquez sur "*View unsealed slots*". Il est fortement déconseillé de réutiliser ces slots, car cela entraînerait une réutilisation d'adresse nuisible à votre confidentialité on-chain. Nous allons donc configurer un nouveau slot en cliquant sur le bouton "*Yes*".
 
 ![SATSCARD](assets/notext/24.webp)
 
@@ -136,7 +136,7 @@ Les slots de la Satscard suivent le standard BIP32, ce qui signifie que la déri
 
 La paire de clés du premier slot est pré-générée par Coinkite. C'est pour cette raison que vous y avez accès directement via Nunchuk, et que l'adresse de réception est inscrite au dos de la carte NFC. Pour les autres slots, cependant, la génération des clés vous incombe.
 
-La clé privée maîtresse de chaque slot est générée directement par la Satscard, et les codes de chaîne maîtres doivent être fournis de l'extérieur. Pour le code de chaîne de votre nouveau slot, vous avez deux options : laissez Nunchuk le générer automatiquement en sélectionnant "Automatic", ou créez-le vous-même en optant pour "Advanced" et en le saisissant dans l'espace dédié. Pour que le code de chaîne soit efficace, il faut qu'il soit le plus aléatoire possible.
+La clé privée maîtresse de chaque slot est générée directement par la Satscard, et les codes de chaîne maîtres doivent être fournis de l'extérieur. Pour le code de chaîne de votre nouveau slot, vous avez deux options : laissez Nunchuk le générer automatiquement en sélectionnant "*Automatic*", ou créez-le vous-même en optant pour "*Advanced*" et en le saisissant dans l'espace dédié. Pour que le code de chaîne soit efficace, il faut qu'il soit le plus aléatoire possible.
 
 ![SATSCARD](assets/notext/25.webp)
 
@@ -148,7 +148,7 @@ Placez votre Satscard au dos de votre téléphone.
 
 ![SATSCARD](assets/notext/27.webp)
 
-Un nouveau slot a bien été configuré. Vous pouvez maintenant voir l'adresse de réception pour y déposer des bitcoins. Pour procéder au chargement, suivez les instructions de la section "Comment charger un slot sur une Satscard ?" de ce tutoriel.
+Un nouveau slot a bien été configuré. Vous pouvez maintenant voir l'adresse de réception pour y déposer des bitcoins. Pour procéder au chargement, suivez les instructions de la section "*Comment charger un slot sur une Satscard ?*" de ce tutoriel.
 
 ![SATSCARD](assets/notext/28.webp)
 

@@ -26,7 +26,7 @@ Le Ledger Flex est un hardware wallet produit par l’entreprise française Ledg
 
 Il dispose d'un grand écran tactile E Ink, une technologie d’affichage en noir et blanc. C'est la même technologie que vous pouvez retrouver sur les liseuses électroniques. L'écran E Ink permet un affichage clair et lisible, même en plein soleil, et consomme très peu d’énergie, voire pas du tout lorsque l'écran est figé. Cela fonctionne en utilisant des microcapsules contenant des particules de pigments noirs et blancs. Lorsqu'une charge électrique est appliquée, les particules noires ou blanches se déplacent vers la surface de l'écran, et permettent ainsi de former du texte ou des images.
 
-Le Ledger Flex est équipé d’une puce certifiée CC EAL6+ ("secure element"), ce qui vous offre une protection avancée contre les attaques physiques contre le hardware. L'écran est directement contrôlé par cette puce.
+Le Ledger Flex est équipé d’une puce certifiée CC EAL6+ ("*secure element*"), ce qui vous offre une protection avancée contre les attaques physiques contre le hardware. L'écran est directement contrôlé par cette puce.
 
 Un point de critique souvent soulevé est que le code de cette puce n'est pas open-source, ce qui impose une certaine confiance dans l’intégrité de ce composant. Néanmoins, cet élément est audité par des experts indépendants.
 
@@ -72,11 +72,11 @@ Faites défiler les différentes pages de présentation.
 
 08
 
-Sélectionnez l'option "Set up without Ledger Live", puis cliquez sur le bouton "Skip Ledger Live".
+Sélectionnez l'option "*Set up without Ledger Live*", puis cliquez sur le bouton "*Skip Ledger Live*".
 
 09
 
-On vous demande ensuite de choisir un nom pour votre Ledger. Cliquez sur "Set name", puis notez le nom de votre choix.
+On vous demande ensuite de choisir un nom pour votre Ledger. Cliquez sur "*Set name*", puis notez le nom de votre choix.
 
 10
 
@@ -90,7 +90,7 @@ Entrez votre PIN une seconde fois pour le confirmer.
 
 12
 
-Vous serez ensuite invité à choisir entre récupérer un portefeuille existant ou en créer un nouveau. Dans ce tutoriel, nous abordons la création d'un nouveau portefeuille à partir de zéro, donc sélectionnez l'option "Set up as a new Ledger" pour générer une nouvelle phrase mnémonique.
+Vous serez ensuite invité à choisir entre récupérer un portefeuille existant ou en créer un nouveau. Dans ce tutoriel, nous abordons la création d'un nouveau portefeuille à partir de zéro, donc sélectionnez l'option "*Set up as a new Ledger*" pour générer une nouvelle phrase mnémonique.
 
 13
 
@@ -110,11 +110,11 @@ La Ledger va créer votre phrase mnémonique en utilisant son générateur de no
 
 15
 
-Pour passer au groupe de mots suivants, cliquez sur le bouton "Next". Une fois tous les mots notés, cliquez sur le bouton "Done" pour passer à l'étape suivante.
+Pour passer au groupe de mots suivants, cliquez sur le bouton "*Next*". Une fois tous les mots notés, cliquez sur le bouton "*Done*" pour passer à l'étape suivante.
 
 16
 
-Cliquez sur le bouton "Start confirmation", puis sélectionnez les mots de votre phrase mnémonique en fonction de leur ordre pour confirmer que vous les avez correctement notés. Continuez cette procédure jusqu'au 24e mot.
+Cliquez sur le bouton "*Start confirmation*", puis sélectionnez les mots de votre phrase mnémonique en fonction de leur ordre pour confirmer que vous les avez correctement notés. Continuez cette procédure jusqu'au 24e mot.
 
 17
 
@@ -134,37 +134,37 @@ Pour accéder aux paramètres, cliquez sur le symbole de roue crantée en bas à
 
 19
 
-Le menu "Name" vous permet de changer le nom de votre Ledger.
+Le menu "*Name*" vous permet de changer le nom de votre Ledger.
 
 20
 
-Dans "About this Ledger", vous trouverez des informations sur votre Flex.
+Dans "*About this Ledger*", vous trouverez des informations sur votre Flex.
 
 21
 
-Dans le menu "Lock screen", vous avez la possibilité de modifier l'image affichée sur l'écran de verrouillage en sélectionnant "Customize lock screen picture". Grâce à la technologie de l'écran E Ink de l'appareil, il est possible de garder l'écran constamment allumé sans consommer de batterie. Les écrans E Ink n'utilisent pas d'énergie pour maintenir une image statique. Ils en consomment en revanche lors des changements d'affichage.
+Dans le menu "*Lock screen*", vous avez la possibilité de modifier l'image affichée sur l'écran de verrouillage en sélectionnant "*Customize lock screen picture*". Grâce à la technologie de l'écran E Ink de l'appareil, il est possible de garder l'écran constamment allumé sans consommer de batterie. Les écrans E Ink n'utilisent pas d'énergie pour maintenir une image statique. Ils en consomment en revanche lors des changements d'affichage.
 
-Le sous-menu "Auto-lock" vous permet de configurer et d'activer le verrouillage automatique de votre Ledger après une période d'inactivité déterminée.
+Le sous-menu "*Auto-lock*" vous permet de configurer et d'activer le verrouillage automatique de votre Ledger après une période d'inactivité déterminée.
 
 22
 
-Le menu "Sounds" vous permet d'activer ou de désactiver les sons de votre Flex.
+Le menu "*Sounds*" vous permet d'activer ou de désactiver les sons de votre Flex.
 
 23
 
-En cliquant sur la flèche de droite, vous pouvez accéder aux autres paramètres. "Change PIN" vous permet de changer votre code PIN.
+En cliquant sur la flèche de droite, vous pouvez accéder aux autres paramètres. "*Change PIN*" vous permet de changer votre code PIN.
 
 24
 
-Les menus "Bluetooth" et "NFC" vous permettent de gérer ces communications.
+Les menus "*Bluetooth*" et "*NFC*" vous permettent de gérer ces communications.
 
 25
 
-Dans "Battery" vous pouvez notamment paramétrer un arrêt automatique de la Ledger.
+Dans "*Battery*" vous pouvez notamment paramétrer un arrêt automatique de la Ledger.
 
 26
 
-La section "Advanced" vous donne accès à des paramètres de sécurité plus poussés. Il est conseillé de maintenir l'option "PIN shuffle" activée pour renforcer la sécurité. C'est également dans ce menu que vous pouvez configurer une passphrase BIP39.
+La section "*Advanced*" vous donne accès à des paramètres de sécurité plus poussés. Il est conseillé de maintenir l'option "*PIN shuffle*" activée pour renforcer la sécurité. C'est également dans ce menu que vous pouvez configurer une passphrase BIP39.
 
 27
 
@@ -188,7 +188,7 @@ Commencez par lancer le logiciel Ledger Live sur votre ordinateur, puis connecte
 
 30
 
-Sur Ledger Live, allez dans le menu "My Ledger".
+Sur Ledger Live, allez dans le menu "*My Ledger*".
 
 31
 
@@ -196,15 +196,15 @@ On vous demande d'autoriser l'accès à votre Flex.
 
 32
 
-Validez l'accès sur votre Ledger en cliquant sur le bouton "Allow".
+Validez l'accès sur votre Ledger en cliquant sur le bouton "*Allow*".
 
 33
 
-Tout d'abord, si le firmware de votre Ledger Flex n'est pas à jour, Ledger Live vous proposera automatiquement de le mettre à jour. Le cas échéant, cliquez sur "Update firmware", puis sur "Install update" pour lancer l'installation.
+Tout d'abord, si le firmware de votre Ledger Flex n'est pas à jour, Ledger Live vous proposera automatiquement de le mettre à jour. Le cas échéant, cliquez sur "*Update firmware*", puis sur "*Install update*" pour lancer l'installation.
 
 34
 
-Sur votre Ledger, cliquez sur le bouton "Install", puis patientez le temps de l'installation.
+Sur votre Ledger, cliquez sur le bouton "*Install*", puis patientez le temps de l'installation.
 
 35
 
@@ -212,11 +212,11 @@ Le firmware de votre Ledger Flex est bien à jour.
 
 36
 
-Si vous le souhaitez, vous pouvez modifier le fond d'écran de verrouillage de votre Ledger Flex. Pour ce faire, cliquez sur "Add >".
+Si vous le souhaitez, vous pouvez modifier le fond d'écran de verrouillage de votre Ledger Flex. Pour ce faire, cliquez sur "*Add >*".
 
 37
 
-Cliquez sur le bouton "Upload from computer" et choisissez votre fond d'écran parmi vos photos.
+Cliquez sur le bouton "*Upload from computer*" et choisissez votre fond d'écran parmi vos photos.
 
 38
 
@@ -224,19 +224,19 @@ Vous pouvez recadrer votre image.
 
 39
 
-Choisissez un contraste parmi les différentes options, puis cliquez sur "Confirm contrast".
+Choisissez un contraste parmi les différentes options, puis cliquez sur "*Confirm contrast*".
 
 40
 
-Sur votre Flex, cliquez sur le bouton "Load picture".
+Sur votre Flex, cliquez sur le bouton "*Load picture*".
 
 41
 
-Si l'image vous convient, cliquez sur "Keep" pour la mettre en fond d'écran de verrouillage.
+Si l'image vous convient, cliquez sur "*Keep*" pour la mettre en fond d'écran de verrouillage.
 
 42
 
-Enfin, nous allons ajouter l'application Bitcoin. Pour ce faire, sur Ledger Live, cliquez sur le bouton "Install" à côté de "Bitcoin (BTC)".
+Enfin, nous allons ajouter l'application Bitcoin. Pour ce faire, sur Ledger Live, cliquez sur le bouton "*Install*" à côté de "*Bitcoin (BTC)*".
 
 43
 
@@ -252,35 +252,35 @@ Ouvrez Sparrow Wallet et passez les pages d'introduction pour accéder à l'écr
 
 45
 
-Cliquez sur le menu "File" puis "New Wallet".
+Cliquez sur le menu "*File*" puis "*New Wallet*".
 
 46
 
-Choisissez un nom pour ce portefeuille, puis cliquez sur "Create Wallet".
+Choisissez un nom pour ce portefeuille, puis cliquez sur "*Create Wallet*".
 
 47
 
-Dans le menu déroulant "Script Type", sélectionnez le type de script qui sera utilisé pour sécuriser vos bitcoins. Je vous recommande d'opter pour "Taproot", ou à défaut, "Native SegWit".
+Dans le menu déroulant "*Script Type*", sélectionnez le type de script qui sera utilisé pour sécuriser vos bitcoins. Je vous recommande d'opter pour "*Taproot*", ou à défaut, "*Native SegWit*".
 
 48
 
-Cliquez sur le bouton "Connected Hardware Wallet".
+Cliquez sur le bouton "*Connected Hardware Wallet*".
 
 49
 
-Connectez votre Ledger Flex à l'ordinateur, déverrouillez-le avec votre code PIN, puis ouvrez l'application "Bitcoin". Dans ce tutoriel, j'utilise l'application "Bitcoin Testnet", mais la procédure reste identique pour le mainnet.
+Connectez votre Ledger Flex à l'ordinateur, déverrouillez-le avec votre code PIN, puis ouvrez l'application "*Bitcoin*". Dans ce tutoriel, j'utilise l'application "*Bitcoin Testnet*", mais la procédure reste identique pour le mainnet.
 
 50
 
-Sur Sparrow, cliquez sur le bouton "Scan".
+Sur Sparrow, cliquez sur le bouton "*Scan*".
 
 51
 
-Puis cliquez sur "Import Keystore".
+Puis cliquez sur "*Import Keystore*".
 
 52
 
-Vous pouvez maintenant voir les détails de votre portefeuille, y compris la clé publique étendue de votre premier compte. Cliquez sur le bouton "Apply" pour finaliser la création du portefeuille.
+Vous pouvez maintenant voir les détails de votre portefeuille, y compris la clé publique étendue de votre premier compte. Cliquez sur le bouton "*Apply*" pour finaliser la création du portefeuille.
 
 53
 
@@ -296,17 +296,17 @@ Et voilà, votre portefeuille est bien créé !
 
 ## Comment recevoir des bitcoins avec la Ledger Flex ?
 
-Cliquez sur l'onglet "Receive".
+Cliquez sur l'onglet "*Receive*".
 
 56
 
-Connectez votre Ledger Flex à l'ordinateur, déverrouillez-le avec votre code PIN, puis ouvrez l'application "Bitcoin".
+Connectez votre Ledger Flex à l'ordinateur, déverrouillez-le avec votre code PIN, puis ouvrez l'application "*Bitcoin*".
 
 57
 
 Avant d'utiliser l'adresse proposée par Sparrow Wallet, vérifiez-la sur l'écran de votre Ledger Flex. Cette pratique vous permet de confirmer que l'adresse affichée sur Sparrow n'est pas frauduleuse et que le Ledger détient bien la clé privée nécessaire pour dépenser ultérieurement les bitcoins sécurisés avec cette adresse.
 
-Pour effectuer cette vérification, cliquez sur le bouton "Display Address".
+Pour effectuer cette vérification, cliquez sur le bouton "*Display Address*".
 
 58
 
@@ -314,7 +314,7 @@ Vérifiez que l'adresse affichée sur votre Ledger Flex correspond à celle indi
 
 59
 
-Vous pouvez ajouter un "Label" pour décrire la source des bitcoins qui seront sécurisés avec cette adresse. C'est une bonne pratique qui vous permet de mieux gérer vos UTXOs.
+Vous pouvez ajouter un "*Label*" pour décrire la source des bitcoins qui seront sécurisés avec cette adresse. C'est une bonne pratique qui vous permet de mieux gérer vos UTXOs.
 
 60
 
@@ -328,19 +328,19 @@ Vous pouvez ensuite utiliser cette adresse pour recevoir des bitcoins.
 
 ## Comment envoyer des bitcoins avec la Ledger Flex ?
 
-Maintenant que vous avez reçu vos premiers sats sur votre portefeuille sécurisé avec le Flex, vous pouvez également les dépenser ! Connectez votre Ledger à votre ordinateur, déverrouillez-le, lancez Sparrow Wallet, puis allez dans l'onglet "Send" pour construire une nouvelle transaction.
+Maintenant que vous avez reçu vos premiers sats sur votre portefeuille sécurisé avec le Flex, vous pouvez également les dépenser ! Connectez votre Ledger à votre ordinateur, déverrouillez-le, lancez Sparrow Wallet, puis allez dans l'onglet "*Send*" pour construire une nouvelle transaction.
 
 62
 
-Si vous souhaitez faire du "coin control", c'est-à-dire choisir spécifiquement quels UTXOs consommer dans la transaction, rendez-vous dans l'onglet "UTXOs". Sélectionnez les UTXOs que vous souhaitez dépenser, puis cliquez sur "Send Selected". Vous serez redirigé vers le même écran de l'onglet "Send", mais avec vos UTXOs déjà sélectionnés pour la transaction.
+Si vous souhaitez faire du "*coin control*", c'est-à-dire choisir spécifiquement quels UTXOs consommer dans la transaction, rendez-vous dans l'onglet "*UTXOs*". Sélectionnez les UTXOs que vous souhaitez dépenser, puis cliquez sur "*Send Selected*". Vous serez redirigé vers le même écran de l'onglet "*Send*", mais avec vos UTXOs déjà sélectionnés pour la transaction.
 
 63
 
-Entrez l'adresse de destination. Vous pouvez également entrer plusieurs adresses en cliquant sur le bouton "+ Add".
+Entrez l'adresse de destination. Vous pouvez également entrer plusieurs adresses en cliquant sur le bouton "*+ Add*".
 
 64
 
-Notez un "Label" pour vous souvenir de l'objet de cette dépense.
+Notez un "*Label*" pour vous souvenir de l'objet de cette dépense.
 
 65
 
@@ -352,19 +352,19 @@ Ajustez le taux de frais de votre transaction en fonction du marché du moment.
 
 67
 
-Assurez-vous que tous les paramètres de votre transaction sont corrects, puis cliquez sur "Create Transaction".
+Assurez-vous que tous les paramètres de votre transaction sont corrects, puis cliquez sur "*Create Transaction*".
 
 68
 
-Si tout vous convient, cliquez sur "Finalize Transaction for Signing".
+Si tout vous convient, cliquez sur "*Finalize Transaction for Signing*".
 
 69
 
-Cliquez sur "Sign".
+Cliquez sur "*Sign*".
 
 70
 
-Cliquez sur "Sign" à côté de votre Ledger Flex.
+Cliquez sur "*Sign*" à côté de votre Ledger Flex.
 
 71
 
@@ -372,15 +372,15 @@ Vérifiez les paramètres de la transaction sur l'écran de votre Flex, notammen
 
 72
 
-Pour signer, maintenez votre doigt sur le bouton "Hold to sign".
+Pour signer, maintenez votre doigt sur le bouton "*Hold to sign*".
 
 73
 
-Votre transaction est désormais signée. Cliquez sur "Broadcast Transaction" pour la diffuser sur le réseau Bitcoin.
+Votre transaction est désormais signée. Cliquez sur "*Broadcast Transaction*" pour la diffuser sur le réseau Bitcoin.
 
 74
 
-Vous pouvez la retrouver dans l'onglet "Transactions" de Sparrow Wallet.
+Vous pouvez la retrouver dans l'onglet "*Transactions*" de Sparrow Wallet.
 
 75
 

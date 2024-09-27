@@ -1360,7 +1360,7 @@ Mais comme nous ne sommes qu'humains, nous ne disposons que d’une quantité de
 ####
 **Les communautés Bitcoin mondiales jouent donc un rôle fondamental dans la construction du monde de demain**; communautés dans lesquelles bitcoiners pourront **échanger, construire et partager**. **Ensemble**.
 
-![image](assets/fr/chapter38/.webp)
+![image](assets/fr/chapter38/38-bis.png)
 
 ####
 Comme vous l’aurez compris dans ce cours, **créer une communauté et un meet-up Bitcoin** demande de l’organisation et de la motivation. Bien évidemment, en fonction des envies et du temps que vous aurez à y consacrer, vous viendrez à aller plus ou moins loin dans les projets. 

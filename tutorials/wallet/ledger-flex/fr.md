@@ -106,7 +106,7 @@ Vous pouvez parcourir ces instructions et passer les pages en touchant l'écran.
 
 La Ledger va créer votre phrase mnémonique en utilisant son générateur de nombres aléatoires. Assurez-vous de ne pas être observé durant cette opération. Notez les mots fournis par la Ledger sur le support physique de votre choix. Selon votre stratégie de sécurisation, vous pouvez envisager de réaliser plusieurs copies physiques complètes de la phrase (mais surtout, ne la divisez pas). Il est important de conserver les mots numérotés et dans l'ordre séquentiel.
 
-*Évidemment, vous ne devez jamais partager ces mots sur internet, contrairement à ce que je fais dans ce tutoriel. Ce portefeuille en exemple sera utilisé uniquement sur le Testnet et sera supprimé à l'issue du tutoriel.*
+***Évidemment, vous ne devez jamais partager ces mots sur internet, contrairement à ce que je fais dans ce tutoriel. Ce portefeuille en exemple sera utilisé uniquement sur le Testnet et sera supprimé à l'issue du tutoriel.***
 
 15
 
@@ -128,45 +128,45 @@ Et voilà, votre seed a été correctement créée sur votre Ledger Flex. Avant 
 
 Pour verrouiller et déverrouiller votre Ledger, appuyez sur le bouton latéral. Il vous sera ensuite demandé de saisir le code PIN que vous avez défini lors de l'étape précédente.
 
-18
+19
 
 Pour accéder aux paramètres, cliquez sur le symbole de roue crantée en bas à gauche de votre appareil.
 
-19
+20
 
 Le menu "*Name*" vous permet de changer le nom de votre Ledger.
 
-20
+21
 
 Dans "*About this Ledger*", vous trouverez des informations sur votre Flex.
 
-21
+22
 
 Dans le menu "*Lock screen*", vous avez la possibilité de modifier l'image affichée sur l'écran de verrouillage en sélectionnant "*Customize lock screen picture*". Grâce à la technologie de l'écran E Ink de l'appareil, il est possible de garder l'écran constamment allumé sans consommer de batterie. Les écrans E Ink n'utilisent pas d'énergie pour maintenir une image statique. Ils en consomment en revanche lors des changements d'affichage.
 
 Le sous-menu "*Auto-lock*" vous permet de configurer et d'activer le verrouillage automatique de votre Ledger après une période d'inactivité déterminée.
 
-22
-
-Le menu "*Sounds*" vous permet d'activer ou de désactiver les sons de votre Flex.
-
 23
 
-En cliquant sur la flèche de droite, vous pouvez accéder aux autres paramètres. "*Change PIN*" vous permet de changer votre code PIN.
+Le menu "*Sounds*" vous permet d'activer ou de désactiver les sons de votre Flex. Et dans le menu "Language", vous pouvez changer la langue d'affichage.
 
 24
 
-Les menus "*Bluetooth*" et "*NFC*" vous permettent de gérer ces communications.
+En cliquant sur la flèche de droite, vous pouvez accéder aux autres paramètres. "*Change PIN*" vous permet de changer votre code PIN.
 
 25
 
-Dans "*Battery*" vous pouvez notamment paramétrer un arrêt automatique de la Ledger.
+Les menus "*Bluetooth*" et "*NFC*" vous permettent de gérer ces communications.
 
 26
 
-La section "*Advanced*" vous donne accès à des paramètres de sécurité plus poussés. Il est conseillé de maintenir l'option "*PIN shuffle*" activée pour renforcer la sécurité. C'est également dans ce menu que vous pouvez configurer une passphrase BIP39.
+Dans "*Battery*" vous pouvez notamment paramétrer un arrêt automatique de la Ledger.
 
 27
+
+La section "*Advanced*" vous donne accès à des paramètres de sécurité plus poussés. Il est conseillé de maintenir l'option "*PIN shuffle*" activée pour renforcer la sécurité. C'est également dans ce menu que vous pouvez configurer une passphrase BIP39.
+
+28
 
 La passphrase est un mot de passe optionnel qui, combiné à la phrase de récupération, offre une couche de sécurité supplémentaire pour votre portefeuille.
 
@@ -176,23 +176,19 @@ La passphrase ne doit pas être confondue avec le code PIN. Elle joue un rôle d
 
 La passphrase est un outil très puissant pour renforcer la sécurité de vos bitcoins. Toutefois, il est très important de comprendre son fonctionnement avant de l'implémenter, afin d'éviter de perdre l'accès à votre portefeuille. Je vous expliquerai comment utiliser la passphrase dans un autre tutoriel dédié.
 
-28
+29
 
 Enfin, la dernière page de paramètres vous permet de réinitialiser votre Ledger. Ne procédez à cette réinitialisation que si vous êtes certain qu'il ne contient aucune clé sécurisant des bitcoins, car vous risqueriez de perdre définitivement l'accès à vos fonds.
 
-29
+30
 
 ## Comment installer l'application Bitcoin ?
 
 Commencez par lancer le logiciel Ledger Live sur votre ordinateur, puis connectez et déverrouillez votre Ledger Flex.
 
-30
-
-Sur Ledger Live, allez dans le menu "*My Ledger*".
-
 31
 
-On vous demande d'autoriser l'accès à votre Flex.
+Sur Ledger Live, allez dans le menu "*My Ledger*". On vous demande d'autoriser l'accès à votre Flex.
 
 32
 
@@ -251,6 +247,8 @@ L'application va s'installer sur votre Flex.
 Ouvrez Sparrow Wallet et passez les pages d'introduction pour accéder à l'écran d'accueil. Vérifiez que vous êtes correctement connecté à un nœud en observant l'interrupteur situé en bas à droite de l'écran.
 
 45
+
+Je vous recommande vivement d'utiliser votre propre nœud Bitcoin. Dans ce tutoriel, j'utilise un nœud public (jaune) car je suis sur le testnet, mais pour une utilisation normale, il est préférable d'opter pour un Bitcoin Core local (vert) ou un serveur Electrum associé à un nœud distant (bleu).
 
 Cliquez sur le menu "*File*" puis "*New Wallet*".
 

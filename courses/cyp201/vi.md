@@ -1,53 +1,53 @@
 ---
-name: Giới thiệu về Mật mã học Bitcoin
-goal: Hiểu về việc tạo ví Bitcoin từ góc độ mật mã học
+name: Giới thiệu về mật mã học của Bitcoin
+goal: Hiểu về việc tạo ra ví Bitcoin từ góc độ mật mã học
 objectives:
-  - Làm sáng tỏ thuật ngữ mật mã học liên quan đến Bitcoin.
-  - Nắm vững cách tạo ví Bitcoin.
+  - Làm sáng tỏ các thuật ngữ mật mã học liên quan đến Bitcoin.
+  - Thành thạo cách tạo ra một ví Bitcoin.
   - Hiểu về cấu trúc của ví Bitcoin.
   - Hiểu về địa chỉ và đường dẫn phái sinh.
 ---
 
-# Hành trình vào thế giới Mật mã học
+# Hành trình tìm hiểu mật mã học liên quan tới Bitcoin
 
-Bạn có bị cuốn hút bởi Bitcoin không? Tự hỏi một ví Bitcoin hoạt động như thế nào? Hãy chuẩn bị sẵn sàng cho một hành trình hấp dẫn vào thế giới mật mã học! Loïc, chuyên gia của chúng tôi, sẽ hướng dẫn bạn qua những phức tạp trong việc tạo ví Bitcoin, giải mã những bí ẩn đằng sau các thuật ngữ kỹ thuật đáng sợ như băm, phái sinh khóa, và đường cong elliptic.
+Bạn có bị cuốn hút bởi Bitcoin không? Bạn thắc mắc ví Bitcoin hoạt động như thế nào? Hãy chuẩn bị sẵn sàng cho một hành trình hấp dẫn khám phá thế giới mật mã học! Loïc, chuyên gia của chúng tôi, sẽ dẫn dắt bạn vượt qua những khía cạnh phức tạp của việc tạo ví Bitcoin, giải mã những bí ẩn đằng sau các thuật ngữ kỹ thuật đáng sợ như băm, phái sinh khóa, và đường cong elliptic.
 
-Khóa học này không chỉ trang bị cho bạn kiến thức để hiểu về cấu trúc của ví Bitcoin mà còn chuẩn bị cho bạn sẵn sàng đào sâu vào thế giới mật mã học thú vị. Vậy, bạn đã sẵn sàng tham gia vào hành trình này chưa? Hãy tham gia cùng chúng tôi và biến sự tò mò của bạn thành chuyên môn!
+Khóa học này không chỉ trang bị cho bạn kiến thức để hiểu về cấu trúc của ví Bitcoin mà còn giúp bạn sẵn sàng để đào sâu hơn vào thế giới mật mã học đầy thú vị. Vậy, bạn đã sẵn sàng để tham gia vào hành trình này chưa? Hãy tham gia cùng chúng tôi và biến sự tò mò của bạn thành một kỹ năng thực thụ!
 
 +++
 
 # Giới thiệu
 <partId>32960669-d13a-592f-a053-37f70b997cbf</partId>
 
-## Giới thiệu về Mật mã học
+## Giới thiệu về mật mã học
 <chapterId>fb4e8857-ea35-5a8a-ae8a-5300234e0104</chapterId>
 
 ### Khóa học này có dành cho bạn không? CÓ!
 
-Chúng tôi rất vui mừng chào đón bạn đến với khóa học mới có tên "Crypto 301: Giới thiệu về Mật mã học và Ví HD", do chuyên gia trong lĩnh vực, Loïc Morel, dẫn dắt. Khóa học này sẽ đưa bạn vào thế giới mật mã học hấp dẫn, một ngành khoa học cơ bản của toán học đảm bảo việc mã hóa và bảo mật dữ liệu của bạn.
+Chúng tôi rất vui mừng chào đón bạn đến với khóa học mới có tên "Crypto 201: Giới thiệu về mật mã học của Bitcoin", được hướng dẫn bởi chuyên gia Loïc Morel. Khóa học này sẽ đưa bạn vào thế giới đầy hấp dẫn của mật mã học, một nhánh nền tảng của toán học chuyên về mã hóa và bảo mật dữ liệu.
 
-Trong cuộc sống hàng ngày, và đặc biệt trong lĩnh vực Bitcoin, mật mã học đóng một vai trò quan trọng. Các khái niệm liên quan đến mật mã học, như khóa riêng, khóa công khai, địa chỉ, đường dẫn phái sinh, seed và entropy, là cốt lõi của việc sử dụng và tạo ví Bitcoin. Trong suốt khóa học này, Loïc sẽ giải thích chi tiết cách khóa riêng được tạo ra và chúng liên kết với địa chỉ như thế nào. Loïc cũng sẽ dành một giờ để giải thích chi tiết toán học của đường cong elliptic. Ngoài ra, bạn sẽ hiểu tại sao việc sử dụng HMAC SHA512 quan trọng để bảo vệ ví của bạn và sự khác biệt giữa seed và cụm từ ghi nhớ là gì.
-Mục tiêu cuối cùng của khóa học này là để bạn có thể hiểu các quy trình kỹ thuật liên quan trong việc tạo một ví HD và các phương pháp mật mã học được sử dụng. Trải qua nhiều năm, ví Bitcoin đã phát triển để trở nên dễ sử dụng hơn, an toàn hơn và được chuẩn hóa nhờ vào các BIP cụ thể. Loïc sẽ giúp bạn hiểu những BIP này để nắm bắt được những lựa chọn mà các nhà phát triển Bitcoin và các nhà mật mã học đã thực hiện. Như tất cả các khóa học do trường đại học của chúng tôi cung cấp, khóa học này hoàn toàn miễn phí và mã nguồn mở. Điều này có nghĩa là bạn có thể tự do tham gia và sử dụng nó theo ý muốn của mình. Chúng tôi mong chờ nhận được phản hồi của bạn vào cuối khóa học thú vị này.
+Trong cuộc sống hàng ngày, và đặc biệt trong lĩnh vực Bitcoin, mật mã học đóng góp một vai trò quan trọng. Các khái niệm liên quan đến mật mã học, như khóa riêng tư, khóa công khai, địa chỉ, đường dẫn phái sinh, hạt giống và entropy, là cốt lõi của việc sử dụng và tạo ví Bitcoin. Trong suốt khóa học này, Loïc sẽ giải thích chi tiết cách khóa riêng tư được tạo ra và cách chúng liên kết với các địa chỉ Bitcoin như thế nào. Loïc cũng sẽ dành một giờ để giải thích các chi tiết toán học về đường cong elliptic. Ngoài ra, bạn sẽ hiểu tại sao việc sử dụng HMAC SHA512 lại rất quan trọng để bảo vệ ví của mình và sự khác biệt giữa hạt giống (seed) và cụm từ ghi nhớ (mnemonic phrase) là gì.
+Mục tiêu cao nhất của khóa học này là giúp bạn hiểu các quy trình kỹ thuật liên quan tới việc tạo một ví HD và các phương pháp mật mã học được sử dụng. Trải qua nhiều năm, ví Bitcoin đã được phát triển để trở nên thân thiện với người dùng hơn, an toàn hơn và được chuẩn hóa nhờ vào các BIP cụ thể. Loïc sẽ giúp bạn hiểu những BIP này để nắm bắt được những lựa chọn mà các nhà phát triển Bitcoin và các nhà mật mã học đã thực hiện. Như tất cả các khóa học do trường đại học của chúng tôi cung cấp, khóa học này hoàn toàn miễn phí và mã nguồn mở. Điều này có nghĩa là bạn có thể tự do tham gia và sử dụng nó theo ý muốn của mình. Chúng tôi mong chờ nhận được phản hồi của bạn vào cuối khóa học thú vị này.
 
-### Sân khấu thuộc về giáo sư!
+### Bắt đầu với người hướng dẫn của chúng ta!
 
-Xin chào mọi người, tôi là Loïc Morel, người hướng dẫn bạn qua cuộc khám phá kỹ thuật này về mật mã học được sử dụng trong ví Bitcoin.
+Xin chào mọi người, tôi là Loïc Morel, người hướng dẫn bạn trong khoá học về mật mã học được sử dụng trong ví Bitcoin này.
 
-Hành trình của chúng ta bắt đầu với việc khám phá sâu vào các hàm băm mật mã học. Cùng nhau, chúng ta sẽ phân tích cấu trúc bên trong của SHA256 thiết yếu và khám phá các thuật toán dành riêng cho phái sinh.
+Hành trình của chúng ta bắt đầu với việc khám phá sâu vào các hàm băm mật mã học. Cùng nhau, chúng ta sẽ phân tích cơ chế hoạt động của hàm băm SHA256 và khám phá các thuật toán dành riêng cho phái sinh địa chỉ ví.
 
-Chúng ta sẽ tiếp tục cuộc phiêu lưu bằng cách giải mã thế giới bí ẩn của chữ ký số. Bạn sẽ khám phá cách ma thuật của đường cong elliptic áp dụng cho những chữ ký này, và chúng ta sẽ làm sáng tỏ cách tính khóa công khai từ khóa riêng. Và tất nhiên, chúng ta sẽ đi sâu vào quy trình của chữ ký số.
+Chúng ta sẽ tiếp tục cuộc phiêu lưu bằng cách giải mã thế giới bí ẩn của chữ ký số. Bạn sẽ khám phá phép màu trong cách đường cong elliptic được áp dụng vào những chữ ký này, và chúng ta sẽ làm sáng tỏ cách tính khóa công khai từ khóa riêng tư. Và tất nhiên, chúng ta sẽ đi sâu vào quy trình tạo ra chữ ký số.
 
-Tiếp theo, chúng ta sẽ quay ngược thời gian để xem sự phát triển của ví Bitcoin, và chúng ta sẽ khám phá các khái niệm về entropy và số ngẫu nhiên. Chúng ta sẽ xem xét cụm từ ghi nhớ nổi tiếng, đồng thời cũng chạm vào passphrase. Bạn thậm chí còn có cơ hội trải nghiệm điều độc đáo bằng cách tạo seed từ 128 lần lắc xúc xắc!
-Với những nền tảng vững chắc này, chúng ta sẽ sẵn sàng cho phần quan trọng: tạo một ví Bitcoin. Từ sự ra đời của seed và master key, đến việc nghiên cứu các extended keys, và sự phái sinh của các cặp child key, mỗi bước sẽ được phân tích kỹ lưỡng. Chúng ta cũng sẽ thảo luận về cấu trúc của ví và các con đường phái sinh.
+Tiếp theo, chúng ta sẽ quay ngược thời gian để tìm hiểu về sự phát triển của ví Bitcoin, và chúng ta sẽ khám phá các khái niệm về entropy và số ngẫu nhiên. Chúng ta sẽ tìm hiểu về cụm từ ghi nhớ, đồng thời cũng chạm tới cụm từ mật khẩu - passphrase. Bạn thậm chí còn có cơ hội có được một trải nghiệm độc đáo là tạo ra hạt giống bằng việc tung xúc xắc 128 lần.
+Với những nền tảng vững chắc này, chúng ta sẽ sẵn sàng cho phần quan trọng: tạo ra một ví Bitcoin. Từ việc tạo ra hạt giống và khoác chính, đến việc nghiên cứu các khoá mở rộng, phái sinh ra các cặp khoá con, mỗi bước đều được phân tích kỹ lưỡng. Chúng ta cũng sẽ thảo luận về cấu trúc của ví và các đường dẫn phái sinh.
 
-Để kết thúc, chúng ta sẽ kết thúc hành trình của mình bằng cách xem xét các địa chỉ Bitcoin. Chúng ta sẽ giải thích cách chúng được tạo ra và vai trò thiết yếu của chúng trong việc hoạt động của ví Bitcoin.
+Chúng ta sẽ kết thúc hành trình của mình bằng cách xem xét các địa chỉ Bitcoin. Chúng ta sẽ giải thích cách chúng được tạo ra và vai trò thiết yếu của chúng trong hoạt động của các ví Bitcoin.
 
-Hãy tham gia cùng tôi trong hành trình hấp dẫn này, và chuẩn bị sẵn sàng để khám phá thế giới của mật mã học như chưa từng có trước đây. Bỏ lại những quan niệm trước cửa và mở lòng mình với một cách hiểu mới về Bitcoin và cấu trúc cơ bản của nó.
+Hãy tham gia cùng tôi trong hành trình hấp dẫn này, và chuẩn bị sẵn sàng để khám phá thế giới mật mã học. Bỏ lại những định kiêns của bạn ở bên ngoài và mở rộng tâm trí để tiếp cận với một cách hiểu mới về Bitcoin và cấu trúc cơ bản của nó.
 
 # Hàm Băm
 <partId>3713fee1-2ec2-512e-9e97-b6da9e4d2f17</partId>
 
-## Giới thiệu về hàm băm mật mã liên quan đến Bitcoin
+## Giới thiệu về các hàm băm mật mã liên quan đến Bitcoin
 <chapterId>dba011f5-1805-5a48-ac2b-4bd637c93703</chapterId>
 
 Chào mừng bạn đến với phiên hôm nay, dành riêng cho việc đắm chìm sâu vào thế giới mật mã của hàm băm, một trụ cột quan trọng của bảo mật giao thức Bitcoin. Hãy tưởng tượng hàm băm như một robot giải mã mật mã cực kỳ hiệu quả, biến đổi thông tin với bất kỳ kích thước nào thành một dấu vân tay số duy nhất và cố định, được gọi là "hash," "digest," hoặc "checksum."

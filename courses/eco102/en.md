@@ -701,7 +701,7 @@ Once again, there would be fewer Tartuffes if there were fewer Orgons to listen 
 
 Of course, political economy is not the universal science; it does not exclude philosophical and religious approaches. "But who has ever displayed such an exorbitant claim in its name?" Bastiat wonders.
 
-One thing is certain, it is not the politics who can change the course of things and perfect man. On the contrary, it is necessary to limit the politics and confine him to his strict role, which is safety. It is rather in the cultural, familial, religious, and associative fields, through work on ideas, through education and instruction, in short, through civil society, that responsibility and solidarity can be strengthened.
+One thing is certain, it is not the politics which can change the course of things and perfect man. On the contrary, it is necessary to limit the politics and confine to its strict role, which is safety. It is rather in the cultural, familial, religious, and associative fields, through work on ideas, through education and instruction, in short, through civil society, that responsibility and solidarity can be strengthened.
 
 # Economic Harmonies
 

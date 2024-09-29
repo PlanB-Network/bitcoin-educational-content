@@ -332,82 +332,87 @@ Trong Lightning Network, node của Alice sẽ quyết định tuyến đường
 
 Đối với Susie hoặc Eden: họ không biết ai là người nhận cuối cùng, cũng không biết ai đang gửi khoản thanh toán. Đây là cơ chế định tuyến onion  - onion routing. Các node cần phải có một sơ đồ của mạng lưới các kệnh thanh toán để tìm tuyến đường phù hợp cho mình, nhưng đảm bảo rằng không có bất kỳ trung gian nào có được thông tin về giao dịch.
 
-## HTLC - Hợp Đồng Thời Gian Khóa Băm
+## HTLC - Hợp đồng khoá thời gian được băm - Hashed Time Locked Contract
 <chapterId>4369b85a-1365-55d8-99e1-509088210116</chapterId>
 
-Trong một hệ thống định tuyến truyền thống, làm thế nào chúng ta có thể đảm bảo rằng Eden không gian lận và tuân thủ phần của hợp đồng?
+![video](https://youtu.be/jI4nM297aHA)
 
-HTLC là một hợp đồng thanh toán chỉ có thể được mở khóa bằng một bí mật. Nếu nó không được tiết lộ, thì hợp đồng sẽ hết hạn. Do đó, đây là một thanh toán có điều kiện. Chúng được sử dụng như thế nào?
+Trong một hệ thống định tuyến truyền thống, làm sao để đảm bảo rằng Eden không gian lận và tuân thủ đúng phần của mình trong hợp đồng?
+
+HTLC là một hợp đồng thanh toán chỉ có thể được mở khóa bằng một bí mật. Nếu nó không được tiết lộ, thì hợp đồng sẽ hết hạn. Do đó, đây là một dạng thanh toán có điều kiện. Chúng được sử dụng như thế nào?
 
 ![instruction](assets/chapitre8/0.webp)
 
 Xem xét tình huống sau:
-Alice (100,000 SAT) ==== (30,000 SAT) Susie (250,000 SAT) ==== (0 SAT) Bob
-- Bob tạo ra một bí mật S (hình ảnh trước) và tính toán băm r = hash(s)
-- Bob gửi một hóa đơn cho Alice với "r" được bao gồm
-- Alice gửi một HTLC của 40,000 SAT cho Susie với điều kiện tiết lộ "s'" sao cho hash(s') = r
+`Alice (100.000 SAT) ==== (30.000 SAT) Susie (250.000 SAT) ==== (0 SAT) Bob`
+- Bob tạo ra một bí mật S (một hình ảnh trước - preimage) và tính toán mã băm r = hash(s)
+- Bob gửi một hóa đơn cho Alice và bao gồm "r" vào trong
+- Alice gửi một HTLC của 40.000 SAT cho Susie với điều kiện tiết lộ "s'" sao cho hash(s') = r
 - Susie gửi một HTLC tương tự cho Bob
 - Bob mở khóa HTLC của Susie bằng cách cho cô ấy xem "s"
 - Susie mở khóa HTLC của Alice bằng cách cho cô ấy xem "S"
 
-Nếu Bob không trực tuyến và không bao giờ lấy được bí mật cho phép anh ta nhận tiền, thì HTLC sẽ hết hạn sau một số lượng khối nhất định.
+Nếu Bob không trực tuyến và không bao giờ lấy được bí mật cho phép anh ta nhận tiền, thì HTLC sẽ hết hạn sau một số lượng khối nhất định trên blockchain Bitcoin.
 
 ![instruction](assets/chapitre8/1.webp)
 
-Các HTLC hết hạn theo thứ tự ngược lại: hết hạn Susie-Bob, sau đó là hết hạn Alice-Susie. Như vậy, nếu Bob trở lại, nó không thay đổi gì. Ngược lại, nếu Alice hủy bỏ trong khi Bob trở lại, nó sẽ là một mớ hỗn độn và mọi người có thể đã làm việc vô ích.
+Các HTLC hết hạn theo thứ tự ngược lại: hết hạn Susie-Bob, sau đó là hết hạn Alice-Susie. Như vậy, nếu Bob trở lại, không có gì thay đổi cả. Ngược lại, nếu Alice hủy bỏ giao dịch trong khi Bob trở lại, nó sẽ là một mớ hỗn độn và lãng phí công sức của mọi người.
 
-Vậy, điều gì xảy ra trong trường hợp đóng cửa? Thực tế, các giao dịch cam kết của chúng tôi còn phức tạp hơn nữa. Chúng ta cần đại diện cho số dư trung gian nếu kênh được đóng lại.
+Vậy, điều gì xảy ra trong trường hợp đóng kênh? Thực tế, các giao dịch cam kết của chúng ta còn phức tạp hơn nữa. Chúng ta cần phải thể hiện cho số dư trung gian nếu kênh được đóng lại.
 
-Do đó, có một HTLC-out của 40,000 satoshi (với các hạn chế đã thấy trước đó) trong giao dịch cam kết qua output #3.
+Do đó, có một HTLC-out trị 40.000 satoshi (với các hạn chế đã đề cập trước trước đó) trong giao dịch cam kết qua output #3.
 
 ![instruction](assets/chapitre8/2.webp)
 
 Alice có trong giao dịch cam kết:
 
-- Output #1: 60,000 SAT cho Alice qua một Timelock và khóa thu hồi (số tiền còn lại cho cô ấy)
-- Output #2: 30,000 đã thuộc về Susie
-- Output #3: 40,000 trong HTLC
+- Đầu ra #1: 60.000 SAT cho Alice qua một khoá thời gian và khóa huỷ bỏ (số tiền còn lại cho cô ấy)
+- Đầu ra #2: 30.000 đã thuộc về Susie
+- Đầu ra #3: 40.000 trong HTLC
 
 Giao dịch cam kết của Alice có HTLC-out vì cô ấy gửi một HTLC-in cho người nhận, Susie.
 
 ![instruction](assets/chapitre8/3.webp)
 
-Do đó, nếu chúng ta công bố giao dịch cam kết này, Susie có thể lấy tiền HTCL với hình ảnh "s". Nếu cô ấy không có hình ảnh trước, Alice lấy lại tiền sau khi HTCL hết hạn. Hãy nghĩ về các output (UTXO) như là các khoản thanh toán khác nhau với các điều kiện khác nhau.
-Một khi thanh toán được thực hiện (hết hạn hoặc thực thi), trạng thái kênh thay đổi và giao dịch với HTCL không còn tồn tại nữa. Chúng ta quay trở lại với điều gì đó cổ điển.
-Trong trường hợp đóng cửa hợp tác: chúng ta dừng thanh toán và do đó chờ đợi thực thi chuyển giao/HTCL, giao dịch nhẹ hơn nên ít tốn kém hơn vì có tối đa 1 hoặc 2 output.
-Nếu đóng cửa bắt buộc: chúng ta công bố với tất cả các HTLC đang tiến hành, vì vậy nó trở nên rất nặng và rất tốn kém. Và đó là một mớ hỗn độn.
+Do đó, nếu chúng ta công bố giao dịch cam kết này, Susie có thể lấy tiền HTCL với hình ảnh "s". Nếu cô ấy không có hình ảnh trước, Alice lấy lại tiền sau khi HTCL hết hạn. Hãy nghĩ về các đầu ra (UTXO) như là các khoản thanh toán khác nhau với các điều kiện khác nhau.
+Một khi thanh toán được thực hiện (hết hạn hoặc thực thi), trạng thái kênh thay đổi và giao dịch với HTCL không còn tồn tại nữa. Chúng ta quay trở lại với một giao dịch thông thường.
+Trong trường hợp đóng kênh đồng thuận: chúng ta dừng thanh toán và do đó chờ đợi thực thi các chuyển khoản/HTCL, giao dịch nhẹ hơn nên ít tốn kém hơn vì có tối đa 1 hoặc 2 đầu ra.
+Nếu đóng cửa cưỡng chế: chúng ta công bố với tất cả các HTLC đang tiến hành, vì vậy nó trở nên rất nặng và rất tốn kém. Và đó là một mớ hỗn độn.
 
-Tóm lại, hệ thống định tuyến Mạng Lưới Sét sử dụng Hợp Đồng Bị Khóa Bằng Thời Gian Hash (HTLC) để đảm bảo thanh toán an toàn và có thể xác minh. HTLC cho phép thanh toán có điều kiện nơi tiền chỉ có thể được mở khóa bằng một bí mật, do đó đảm bảo rằng các bên tham gia thực hiện cam kết của họ.
-Trong ví dụ được trình bày, Alice muốn gửi SAT cho Bob thông qua Susie. Bob tạo ra một bí mật, tạo ra một băm của nó và truyền nó cho Alice. Alice và Susie thiết lập một HTLC dựa trên băm này. Một khi Bob mở khóa HTLC của Susie bằng cách cho cô ấy xem bí mật, Susie có thể sau đó mở khóa HTLC của Alice.
-Trong trường hợp Bob không tiết lộ bí mật trong một khoảng thời gian nhất định, HTLC sẽ hết hạn. Hết hạn xảy ra theo thứ tự ngược lại, đảm bảo rằng nếu Bob trở lại trực tuyến, không có hậu quả không mong muốn nào.
-Khi đóng kênh, nếu đó là một việc đóng cửa hợp tác, các khoản thanh toán bị gián đoạn và HTLCs được giải quyết, điều này thường ít tốn kém hơn. Nếu việc đóng cửa bị ép buộc, tất cả các giao dịch HTLC đang diễn ra được công bố, có thể trở nên rất tốn kém và rối rắm. Tóm lại, cơ chế HTLC thêm một lớp bảo mật bổ sung cho Lightning Network, đảm bảo rằng các khoản thanh toán được thực hiện chính xác và người dùng thực hiện các cam kết của họ.
+Tóm lại, hệ thống định tuyến LN sử dụng Hợp đồng khoá thời gian được băm (HTLC) để đảm bảo thanh toán an toàn và có thể xác minh. HTLC cho phép thực hiện các khoản thanh toán có điều kiện nơi tiền chỉ có thể được mở khóa bằng một bí mật, do đó đảm bảo rằng các bên tham gia thực hiện cam kết của họ.
+Trong ví dụ được trình bày, Alice muốn gửi SAT cho Bob thông qua Susie. Bob tạo ra một bí mật, tạo ra một mã băm của nó và gửi nó cho Alice. Alice và Susie thiết lập một HTLC dựa trên mã băm này. Một khi Bob mở khóa HTLC của Susie bằng cách cho cô ấy xem bí mật, Susie có thể sau đó mở khóa HTLC của Alice.
+Trong trường hợp Bob không tiết lộ bí mật trong một khoảng thời gian nhất định, HTLC sẽ hết hạn. Sự hết hạn xảy ra theo thứ tự ngược lại, từ điểm đích cho đến điểm nguồn, đảm bảo rằng nếu Bob trực tuyến trở lại, không xảy ra hậu quả không mong muốn nào cả.
+Khi đóng kênh, nếu đó là kiểu đóng kênh đồng thuận, các khoản thanh toán bị gián đoạn và các HTLCs được tất toán, điều này thường ít tốn kém hơn. Nếu đóng kênh theo kiểu cưỡng chế, tất cả các giao dịch HTLC đang diễn ra được sẽ công bố lên mạng chính Bitcoin, điều này có thể trở nên rất tốn kém và rối rắm. Tóm lại, cơ chế HTLC thêm một lớp bảo mật bổ sung cho Lightning Network, đảm bảo rằng các khoản thanh toán được thực hiện chính xác và người dùng tuân thủ các cam kết của họ.
 
-## Tìm đường đi
+## Tìm đường đi - Định tuyến
 <chapterId>7e2ae959-c2a1-512e-b5d6-8fd962e819da</chapterId>
 
-Dữ liệu công khai duy nhất là tổng dung lượng kênh (Alice + Bob) nhưng chúng ta không biết vị trí của tính thanh khoản.
-Để có thêm thông tin, nút của chúng ta lắng nghe kênh truyền thông LN để nhận thông báo về các kênh mới và cập nhật phí kênh. Nút của bạn cũng xem xét blockchain để tìm các đóng cửa kênh.
+![video](https://youtu.be/CqetCElRjUQ)
 
-Vì chúng ta không có tất cả thông tin, chúng ta phải tìm một đồ thị/đường đi với thông tin chúng ta có (dung lượng kênh tối đa và không phải vị trí của tính thanh khoản).
+Dữ liệu công khai duy nhất là tổng dung lượng kênh (Alice + Bob) nhưng chúng ta không biết sự phân bổ của thanh khoản giữa hai bên.
+Để có thêm thông tin, node của chúng ta cần lắng nghe kênh truyền thông LN để nhận thông báo về các kênh mới và cập nhật phí kênh. Node của bạn cũng sẽ theo dõi blockchain để biết khi nào kênh bị đóng.
+
+Vì chúng ta không có tất cả thông tin, chúng ta phải tìm một đồ thị/tuyến đường với thông tin chúng ta có (dựa dung lượng kênh tối đa thay vì sự phân bổ của thanh khoản).
 
 Tiêu chí:
 
-- Khả năng thành công - Phí
+- Xác suất thành công
+- Phí
 - Thời gian hết hạn HTLC
-- Số lượng nút trung gian
-- Ngẫu nhiên
+- Số lượng node trung gian
+- Yếu tố ngẫu nhiên
 
 ![graph](assets/chapitre9/1.webp)
 
-Vì vậy, nếu có 3 đường đi có thể:
+Vì vậy, nếu có 3 tuyến đường khả dĩ:
 
 - Alice > 1 > 2 > 5 > Bob
 - Alice > 1 > 2 > 4 > 5 > Bob
 - Alice 1 > 2 > 3 > Bob
 
-Chúng ta đang tìm đường đi tốt nhất theo lý thuyết với phí thấp nhất và khả năng thành công cao nhất: tính thanh khoản tối đa và ít bước nhất có thể.
+Chúng ta đang tìm tuyến đường tốt nhất theo lý thuyết với phí thấp nhất và xác suất thành công cao nhất: tính thanh khoản cao nhất và ít bước nhất có thể.
 
-Ví dụ, nếu 2-3 chỉ có dung lượng 130,000 SAT, việc gửi 100,000 là rất khó khăn, vì vậy lựa chọn #3 không có cơ hội thành công.
+Ví dụ, nếu 2-3 chỉ có dung lượng 130.000 SAT, việc gửi 100.000 SAT qua đó là rất khó khăn, vì vậy lựa chọn #3 không có cơ hội thành công.
 
 ![graph](assets/chapitre9/2.webp)
 
@@ -415,45 +420,50 @@ Bây giờ thuật toán đã đưa ra 3 lựa chọn của mình và sẽ thử
 
 Lựa chọn 1:
 
-- Alice gửi một HTLC 100,000 SAT cho 1;
-- 1 tạo một HTLC 100,000 SAT cho 2;
-- 2 tạo một HTLC 100,000 SAT cho 5, nhưng 5 không thể thực hiện, vì vậy nó thông báo.
+- Alice gửi một HTLC 100.000 SAT cho 1;
+- 1 tạo một HTLC 100.000 SAT cho 2;
+- 2 tạo một HTLC 100.000 SAT cho 5, nhưng 2 không thể thực hiện, nên nó sẽ thông báo điều đó.
 
-Thông tin được gửi trở lại, vì vậy Alice quyết định thử đường đi thứ hai:
+Thông tin được gửi trở lại, vì vậy Alice quyết định thử tuyến đường thứ hai:
 
-- Alice gửi một HTLC 100,000 cho 1;
-- 1 tạo một HTLC 100,000 cho 2;
-- 2 tạo một HTLC 100,000 cho 4;
-- 4 tạo một HTLC 100,000 cho Bob. Bob có tính thanh khoản, vì vậy mọi thứ ổn.
-- Bob sử dụng preimage (hash) của HTLC và do đó sử dụng bí mật để lấy lại 100,000 SAT
+- Alice gửi một HTLC 100.000 cho 1;
+- 1 tạo một HTLC 100.000 cho 2;
+- 2 tạo một HTLC 100.000 cho 4;
+- 4 tạo một HTLC 100.000 cho 5;
+- 5 tạo một HTLC 100.000 cho Bob. 5 có đủ thanh khoản, vì vậy mọi thứ ổn.
+- Bob sử dụng preimage (hash) của HTLC và do đó sử dụng bí mật để nhận 100.000 SAT từ 5
 - 5 giờ đây có bí mật của HTLC để lấy lại HTLC bị chặn từ 4
 - 4 giờ đây có bí mật của HTLC để lấy lại HTLC bị chặn từ 2
 - 2 giờ đây có bí mật của HTLC để lấy lại HTLC bị chặn từ 1
 - 1 giờ đây có bí mật của HTLC để lấy lại HTLC bị chặn của Alice
 
-Alice không thấy sự thất bại của đường đi 1, cô chỉ chờ thêm một giây nữa. Một sự thất bại thanh toán xảy ra khi không có đường đi nào khả thi. Để tìm kiếm một đường đi dễ dàng hơn, Bob có thể cung cấp thông tin cho Alice để giúp với hóa đơn của mình:
+Alice không thấy lỗi của tuyến đường thứ nhất, cô chỉ chờ thêm một giây nữa. Sự thất bại trong việc thanh toán xảy ra khi không có tuyến đường nào khả thi. Để tìm kiếm một tuyến đường dễ dàng hơn, Bob có thể cung cấp thông tin hỗ trợ Alice đính kèm trong hóa đơn của mình:
 
 - Số tiền
 - Địa chỉ của anh ấy
-- Hash của preimage để Alice có thể tạo HTLC
-- Chỉ dẫn về các kênh của Bob
-Bob biết về tính thanh khoản của các kênh 5 và 3 vì anh ấy trực tiếp kết nối với chúng, anh ấy có thể chỉ ra điều này cho Alice. Anh ấy cảnh báo Alice rằng nút 3 là vô dụng, điều này ngăn Alice tiềm năng tạo ra lộ trình của mình. Một yếu tố khác có thể là các kênh riêng tư (do đó không được công bố trên mạng) mà Bob có thể có. Nếu Bob có một kênh riêng với 1, anh ấy có thể nói với Alice sử dụng nó và nó sẽ cho Alice > 1 > Bob'.
+- Hash của hình ảnh trước để Alice có thể tạo HTLC
+- Thông tin về các kênh của Bob
+Bob biết về tính thanh khoản của các kênh với 5 và 3 vì anh ấy trực tiếp kết nối với chúng, anh ấy có thể gửi thông tin này cho Alice. Anh ấy có thể cảnh báo Alice rằng node 3 là không hữu dụng với khoản thanh toán này, điều này giúp Alice không đi theo tuyến đường có chứa node số 3. Một yếu tố khác là các kênh riêng tư (không được công bố trên mạng) mà Bob có thể có. Nếu Bob có một kênh riêng tư với 1, anh ấy có thể nói với Alice sử dụng nó và tuyến đường lúc này sẽ rất ngắn là `Alice > 1 > Bob'.
 
 ![graph](assets/chapitre9/3.webp)
 
-Kết luận, việc định tuyến giao dịch trên Lightning Network là một quá trình phức tạp đòi hỏi phải xem xét các yếu tố khác nhau. Mặc dù tổng dung lượng của các kênh là công khai, nhưng phân bổ chính xác của tính thanh khoản không trực tiếp truy cập được. Điều này buộc các nút phải ước lượng các lộ trình thành công nhất có thể, lưu ý đến các tiêu chí như phí, thời gian hết hạn HTLC, số lượng nút trung gian, và yếu tố ngẫu nhiên. Khi có nhiều lộ trình có thể, các nút tìm cách giảm thiểu phí và tối đa hóa cơ hội thành công bằng cách chọn các kênh có đủ tính thanh khoản và số bước nhảy tối thiểu. Nếu một nỗ lực giao dịch thất bại do thiếu tính thanh khoản, một lộ trình khác được thử cho đến khi một giao dịch thành công được thực hiện.
+Kết luận, việc định tuyến giao dịch trên Lightning Network là một quá trình phức tạp đòi hỏi phải xem xét đến nhiều yếu tố khác nhau. Mặc dù tổng dung lượng của các kênh là công khai, nhưng mức phân bổ thanh khoản chính xác cho các bên trong kênh là thông tin không thể truy cập được. Điều này buộc các node phải ước tính các tuyến đường có xác suất thành công cao nhất, có xét đến các tiêu chí như phí, thời gian hết hạn HTLC, số lượng node trung gian và yếu tố ngẫu nhiên. 
+Khi có nhiều tuyến đường khả dĩ, các node tìm cách giảm thiểu phí và tối đa hóa cơ hội thành công bằng cách chọn các kênh có đủ thanh khoản và số bước nhảy trung gian tối thiểu. Nếu một nỗ lực giao dịch thất bại do thiếu thanh khoản, một tuyến đường khác sẽ được thử cho đến khi giao dịch được thực hiện thành công.
 
-Hơn nữa, để tạo điều kiện tìm kiếm lộ trình, người nhận có thể cung cấp thông tin bổ sung như địa chỉ, số tiền, băm preimage, và chỉ dẫn về các kênh của họ. Điều này có thể giúp xác định các kênh có đủ tính thanh khoản và tránh các nỗ lực giao dịch không cần thiết. Cuối cùng, hệ thống định tuyến của Lightning Network được thiết kế để tối ưu hóa tốc độ, an ninh, và hiệu quả của giao dịch trong khi bảo vệ quyền riêng tư của người dùng.
+Hơn nữa, để hỗ trợ người gửi tìm kiếm tuyến đường thành công, người nhận có thể cung cấp các thông tin bổ sung như địa chỉ, số tiền, mã băm của hình ảnh trước, và thông tin về các kênh của họ. Điều này sẽ giúp người gửi xác định các kênh có đủ thanh khoản và tránh các nỗ lực giao dịch không cần thiết. 
+Cuối cùng, hệ thống định tuyến của Lightning Network được thiết kế để tối ưu hóa tốc độ, an ninh, và hiệu quả của các giao dịch đồng thời bảo vệ tốt quyền riêng tư của người dùng.
 
-# Công Cụ của Lightning Network
+# Các công cụ của Lightning Network
 <partId>74d6c334-ec5d-55d9-8598-f05694703bf6</partId>
 
-## Hóa Đơn, LNURL, Keysend
+## Hóa đơn, LNURL, Keysend
 <chapterId>e34c7ecd-2327-52e3-b61e-c837d9e5e8b0</chapterId>
+
+![video](https://youtu.be/XANzf1Qqp9I)
 
 ![cover](assets/chapitre10/0.webp)
 
-Một hóa đơn LN (hoặc hóa đơn) dài và không dễ đọc, nhưng nó cho phép biểu diễn dày đặc của một yêu cầu thanh toán.
+Một hóa đơn LN (LN invoice) thường dài và không dễ đọc, nhưng nó cho phép thể hiện một yêu cầu thanh toán theo cách ngắn gọn và hiệu quả.
 
 Ví dụ:
 lnbc1m1pskuawzpp5qeuuva2txazy5g483tuv9pznn9ft8l5e49s5dndj2pqq0ptyn8msdqqcqzpgxqrrsssp5v4s00u579atm0em6eqm9nr7d0vr64z5j2sm5s33x3r9m4lgfdueq9qyyssqxkjzzgx5ef7ez3dks0laxayx4grrw7j22ppgzyhpydtv6hmc39skf9hjxn5yd3kvv7zpjdxd2s7crcnemh2fz26mnr6zu83w0a2fwxcqnvujl3
@@ -464,7 +474,7 @@ lnbc1m1pskuawzpp5qeuuva2txazy5g483tuv9pznn9ft8l5e49s5dndj2pqq0ptyn8msdqqcqzpgxqr
 - Bc1 = mã hóa Bech32 (base 32), vì vậy sử dụng 32 ký tự.
 - 10 = 1.2.3.4.5.6.7.8.9.0
 - 26 = abcdefghijklmnopqrstuvwxyz
-- 32 = không bao gồm "b-i-o" và không "1"
+- 32 = 10 + 26 và không bao gồm "b-i-o" và không có "1"
 
 ### lnbc1m
 
@@ -472,13 +482,14 @@ lnbc1m1pskuawzpp5qeuuva2txazy5g483tuv9pznn9ft8l5e49s5dndj2pqq0ptyn8msdqqcqzpgxqr
 - Bc = bitcoin (mainnet)
 - 1 = số lượng
 - M = milli (10^-3 / u = micro 10^-6 / n = nano 10^-9 / p = pico 10^-12'
-  Ở đây 1m = 1 * 0.0001btc = 100,000 BTC
-Vui lòng thanh toán 100,000 SAT trên mạng Lightning của Bitcoin mainnet cho pskuawzpp5qeuuva2txazy5g483tuv9pznn9ft8l5e49s5dndj2pqq0ptyn8msdqqcqzpgxqrrsssp5v4s00u579atm0em6eqm9nr7d0vr64z5j2sm5s33x3r9m4lgfdueq9qyyssqxkjzzgx5ef7ez3dks0laxayx4grrw7j22ppgzyhpydtv6hmc39skf9hjxn5yd3kvv7zpjdxd2s7crcnemh2fz26mnr6zu83w0a2fwxcqnvujl3
-### Dấu thời gian (khi được tạo)
+  Ở đây 1m = 1 * 0,0001btc = 100.000 SAT
+Vui lòng thanh toán 100.000 SAT trên Lightning Network của mạng chính Bitcoin cho pskuawzpp5qeuuva2txazy5g483tuv9pznn9ft8l5e49s5dndj2pqq0ptyn8msdqqcqzpgxqrrsssp5v4s00u579atm0em6eqm9nr7d0vr64z5j2sm5s33x3r9m4lgfdueq9qyyssqxkjzzgx5ef7ez3dks0laxayx4grrw7j22ppgzyhpydtv6hmc39skf9hjxn5yd3kvv7zpjdxd2s7crcnemh2fz26mnr6zu83w0a2fwxcqnvujl3
+
+### Nhãn thời gian (khi được tạo)
 
 Nó chứa 0 hoặc nhiều phần bổ sung:
 
-- Hash của preimage
+- Mã băm của hình ảnh trước (preimage)
 - Bí mật thanh toán (onion routing)
 - Dữ liệu tùy ý
 - Khóa công khai LN của người nhận
@@ -486,36 +497,38 @@ Nó chứa 0 hoặc nhiều phần bổ sung:
 - Gợi ý định tuyến
 - Chữ ký của toàn bộ
 
-Có các loại hóa đơn khác. Giao thức meta LNURL cho phép cung cấp một lượng satoshi cụ thể thay vì tạo một yêu cầu. Điều này rất linh hoạt và cho phép nhiều cải tiến về trải nghiệm người dùng.
+Có các loại hóa đơn khác. Giao thức **meta LNURL** cho phép cung cấp một lượng satoshi trực tiếp thay vì tạo một yêu cầu. Điều này rất linh hoạt và cho phép nhiều cải tiến về trải nghiệm người dùng.
 
 ![cover](assets/chapitre10/2.webp)
 
-Keysend cho phép Alice gửi tiền cho Bob mà không cần yêu cầu của Bob. Alice lấy ID của Bob, tạo một preimage mà không hỏi Bob, và bao gồm nó trong thanh toán của mình. Vì vậy, Bob sẽ nhận được một yêu cầu bất ngờ nơi anh có thể mở khóa tiền vì Alice đã thực hiện công việc.
+**Keysend** cho phép Alice gửi tiền cho Bob mà không cần yêu cầu của Bob. Alice lấy ID của Bob, tạo một hình ảnh trước mà không hỏi Bob, và bao gồm nó trong khoản thanh toán của mình. Vì vậy, Bob sẽ nhận được một yêu cầu bất ngờ nơi anh có thể mở khóa tiền vì Alice đã làm tất cả mọi việc cần thiết.
 
 ![cover](assets/chapitre10/3.webp)
 
-Kết luận, một hóa đơn mạng Lightning, mặc dù phức tạp ở cái nhìn đầu tiên, hiệu quả mã hóa một yêu cầu thanh toán. Mỗi phần của hóa đơn chứa thông tin quan trọng, bao gồm số tiền phải trả, người nhận, dấu thời gian tạo, và có thể là thông tin khác như hash của preimage, bí mật thanh toán, gợi ý định tuyến, và thời gian hết hạn. Các giao thức như LNURL và Keysend cung cấp những cải tiến đáng kể về linh hoạt và trải nghiệm người dùng, cho phép, ví dụ, gửi tiền mà không cần yêu cầu trước từ bên kia. Những công nghệ này làm cho quá trình thanh toán trở nên mượt mà và hiệu quả hơn trên mạng Lightning.
+Kết luận, một hóa đơn LN, mặc dù có vẻ phức tạp lúc đầu, mã hóa hiệu quả một yêu cầu thanh toán. Mỗi phần của hóa đơn chứa các thông tin quan trọng, bao gồm số tiền phải trả, người nhận, nhãn thời gian, và có thể là thông tin khác như mã băm của hình ảnh trước, bí mật thanh toán, gợi ý định tuyến, và thời gian hết hạn. Các giao thức như LNURL và Keysend cung cấp những cải tiến đáng kể về sự linh hoạt và trải nghiệm người dùng, cho phép, ví dụ, gửi tiền mà không cần yêu cầu trước từ bên nhận. Những công nghệ này làm cho quá trình thanh toán trở nên mượt mà và hiệu quả hơn trên Lightning Network.
 
-## Quản lý Tính thanh khoản
+## Quản lý thanh khoản
 <chapterId>cc76d0c4-d958-57f5-84bf-177e21393f48</chapterId>
+
+![video](https://youtu.be/MIbej28La7Y)
 
 ![instruction](assets/chapitre11/0.webp)
 
-Chúng tôi cung cấp một số hướng dẫn chung để trả lời câu hỏi muôn thuở về việc quản lý tính thanh khoản trên Lightning.
+Dưới đây là một số hướng dẫn chung để trả lời những câu hỏi thường gặp về việc quản lý thanh khoản trên Lightning Network.
 
-Trong LN, có 3 loại người:
+Trong LN, có 3 loại người dùng:
 
-- Người mua: họ có tính thanh khoản đi ra, đây là điều đơn giản nhất vì họ chỉ cần mở kênh
-- Các nhà bán lẻ: phức tạp hơn vì họ cần tính thanh khoản đến từ các nút khác và các nhân vật khác. Họ phải có người kết nối với họ
-- Các nút định tuyến: họ muốn cân bằng tính thanh khoản ở cả hai bên và có kết nối tốt với nhiều nút để được sử dụng càng nhiều càng tốt
+- Người mua: họ có thanh khoản đầu ra, đây là trường hợp đơn giản nhất vì họ chỉ cần mở kênh
+- Các nhà bán lẻ: phức tạp hơn vì họ cần tính thanh khoản đến từ các node khác và các đối tác khác. Họ cần phải kết nối với nhiều người dùng khác
+- Các node định tuyến: họ muốn cân bằng thanh khoản ở cả hai bên và có kết nối tốt với nhiều node để được sử dụng đến càng nhiều càng tốt
 
-Vì vậy, nếu bạn cần tính thanh khoản đến, bạn có thể mua nó từ các dịch vụ.
+Vì vậy, nếu bạn cần thanh khoản đến, bạn có thể mua nó từ các nhà cung cấp dịch vụ thanh khoản.
 
 ![instruction](assets/chapitre11/1.webp)
 
-Alice mua một kênh với Susie với 1 triệu satoshis, vì vậy cô ấy mở một kênh với trực tiếp 1,000,000 SAT ở phía đến. Cô ấy sau đó có thể chấp nhận thanh toán lên đến 1 triệu SAT từ khách hàng được kết nối với Susie (người có nhiều kết nối).
+Alice mua một kênh với Susie với 1 triệu satoshis, vì vậy cô ấy mở một kênh với trực tiếp 1.000.000 SAT ở phía đến. Cô ấy sau đó có thể chấp nhận khoản thanh toán lên đến 1 triệu SAT từ khách hàng được kết nối với Susie (người có nhiều kết nối).
 
-Một giải pháp khác sẽ là thực hiện thanh toán; bạn trả 100,000 cho lý do X, bạn giờ đây có thể nhận 100,000.
+Một giải pháp khác sẽ là thực hiện thanh toán; bạn trả 100.000 SAT cho lý do nào đó, giờ đây bạn có thể nhận lại khoản thanh toán 100.000 SAT.
 
 ![instruction](assets/chapitre11/2.webp)
 ### Giải pháp Loop Out: Hoán đổi nguyên tử LN - BTC
@@ -523,18 +536,18 @@ Alice 2 triệu - Susie 0
 
 ![instruction](assets/chapitre11/3.webp)
 
-Alice muốn gửi thanh khoản cho Susie, vì vậy cô ấy thực hiện một Loop out (một node đặc biệt cung cấp dịch vụ chuyên nghiệp để cân bằng lại LN/BTC).
-Alice gửi 1 triệu cho Loop qua node của Susie, vì vậy Susie có thanh khoản và Loop gửi lại số dư on-chain cho node của Alice.
+Alice muốn gửi thanh khoản cho Susie, vì vậy cô ấy thực hiện một Loop Out (một node đặc biệt cung cấp dịch vụ chuyên nghiệp để tái cân bằng giữa LN và Bitcoin).
+Alice gửi 1 triệu SAT cho Loop thong qua node của Susie, vì vậy Susie có thanh khoản và Loop gửi lại số dư on-chain cho node của Alice.
 
 ![instruction](assets/chapitre11/4.webp)
 
-Vì vậy, 1 triệu đi đến Susie, Susie gửi 1 triệu cho Loop, Loop gửi 1 triệu cho Alice. Như vậy, Alice đã chuyển thanh khoản cho Susie với chi phí là một số phí trả cho Loop cho dịch vụ này.
+Vì vậy, 1 triệu SAT đi đến Susie, Susie gửi 1 triệu SAT cho Loop, Loop gửi 1 triệu SAT cho Alice. Như vậy, Alice đã chuyển thanh khoản cho Susie với chi phí là một số phí trả cho dịch vụ này của Loop.
 
-Điều phức tạp nhất trong LN là giữ thanh khoản.
+Điều phức khó khăn trong LN là duy trì thanh khoản.
 
 ![instruction](assets/chapitre11/5.webp)
 
-Kết luận, quản lý thanh khoản trên Lightning Network là một vấn đề chính phụ thuộc vào loại người dùng: người mua, người bán, hoặc node định tuyến. Người mua, cần thanh khoản ra, có nhiệm vụ đơn giản nhất: họ chỉ cần mở kênh. Người bán, cần thanh khoản vào, phải được kết nối với các node và các nhân vật khác. Ngược lại, các node định tuyến tìm cách duy trì sự cân bằng thanh khoản ở cả hai phía. Có một số giải pháp tồn tại để quản lý thanh khoản, như mua kênh hoặc trả tiền để tăng khả năng nhận. Tùy chọn "Loop Out", cho phép Hoán đổi nguyên tử giữa LN và BTC, cung cấp một giải pháp thú vị cho việc cân bằng lại thanh khoản. Mặc dù có những chiến lược này, việc duy trì thanh khoản trên Lightning Network vẫn là một thách thức phức tạp.
+Kết luận, quản lý thanh khoản trên Lightning Network là một vấn đề quan trọng, nó phụ thuộc vào loại người dùng: người mua, nhà bán lẻ, hoặc node định tuyến. Người mua, cần thanh khoản ra, có nhiệm vụ đơn giản nhất: họ chỉ cần mở kênh. Nhà bán lẻ, cần thanh khoản vào, phải được kết nối với các node và các đối tác khác. Ngược lại, các node định tuyến tìm cách duy trì sự cân bằng thanh khoản ở cả hai phía. Có một số giải pháp để quản lý thanh khoản, như mua kênh hoặc thanh toán để tăng khả năng nhận. Tùy chọn "Loop Out", cho phép hoán đổi nguyên tử giữa LN và BTC, cung cấp một giải pháp thú vị cho việc cân bằng lại thanh khoản. Mặc dù đã có các chiến lược này, việc duy trì thanh khoản trên Lightning Network vẫn là một thách thức phức tạp.
 
 # Đi sâu hơn
 <partId>6bbf107d-a224-5916-9f0c-2b4d30dd0b17</partId>
@@ -542,21 +555,23 @@ Kết luận, quản lý thanh khoản trên Lightning Network là một vấn �
 ## Tóm tắt khóa học
 <chapterId>a65a571c-561b-5e1c-87bf-494644653c22</chapterId>
 
-Mục tiêu của chúng tôi là giải thích cách Lightning Network hoạt động và nó phụ thuộc vào Bitcoin như thế nào để hoạt động.
+![video](https://youtu.be/coaskEGRjiU)
 
-Lightning Network là một mạng lưới các kênh thanh toán. Chúng tôi đã xem xét cách một kênh thanh toán hoạt động giữa hai bên liên quan, nhưng chúng tôi cũng đã mở rộng tầm nhìn của mình ra toàn bộ mạng lưới, đến khái niệm về một mạng lưới các kênh thanh toán.
+Mục tiêu của chúng tôi là giải thích cách Lightning Network hoạt động và sự phụ thuộc của nó vào Bitcoin.
+
+Lightning Network là một mạng lưới các kênh thanh toán. Chúng ta đã xem xét cách một kênh thanh toán hoạt động giữa hai bên liên quan, và cũng đã mở rộng tầm nhìn của mình ra toàn bộ mạng lưới, một mạng lưới các kênh thanh toán.
 
 ![instruction](assets/chapitre12/0.webp)
 
-Các kênh được mở thông qua một giao dịch Bitcoin và có thể chứa nhiều giao dịch nhất có thể. Trạng thái của kênh được biểu diễn bởi một giao dịch cam kết gửi cho mỗi bên liên quan những gì họ có ở phía của mình trong kênh. Khi một giao dịch xảy ra trong kênh, các bên liên quan cam kết với trạng thái mới bằng cách hủy bỏ trạng thái cũ và xây dựng một giao dịch cam kết mới.
+Các kênh được mở thông qua một giao dịch Bitcoin và có thể chứa nhiều giao dịch nhất có thể giữa hai bên của kênh. Trạng thái của kênh được thể hiện bằng một giao dịch cam kết, trong đó mỗi bên tham gia vào kênh có thể nhận lại phần tài sản mà họ sở hữu trong kênh. Khi một giao dịch xảy ra trong kênh, các bên liên quan cam kết với trạng thái mới bằng cách hủy bỏ trạng thái cũ và xây dựng một giao dịch cam kết mới.
 
 ![instruction](assets/chapitre12/1.webp)
 
-Các cặp bảo vệ mình khỏi gian lận với các khóa hủy bỏ và khóa thời gian. Đóng kênh bằng sự đồng thuận lẫn nhau được ưu tiên để đóng kênh. Trong trường hợp đóng kênh bắt buộc, giao dịch cam kết cuối cùng được công bố.
+Các bên tham gia vào kênh bảo vệ mình khỏi gian lận bằng các khóa hủy bỏ và khóa thời gian. Đóng kênh đồng thuận là cách được ưu tiên, vì nó nhanh và tiết kiệm chi phí. Trong trường hợp đóng kênh cưỡng chế, giao dịch cam kết cuối cùng được công bố.
 
 ![instruction](assets/chapitre12/3.webp)
 
-Các khoản thanh toán có thể mượn kênh từ các node trung gian khác. Các khoản thanh toán điều kiện dựa trên khóa thời gian hash (HTLC) cho phép khóa tiền cho đến khi thanh toán được giải quyết hoàn toàn. Onion routing được sử dụng trong Lightning Network. Các node trung gian không biết điểm đến cuối cùng của các khoản thanh toán. Alice phải tính toán lộ trình thanh toán, nhưng không có tất cả thông tin về thanh khoản trong các kênh trung gian.
+Các khoản thanh toán có thể đi nhờ trên kênh của các node trung gian khác. Các khoản thanh toán có điều kiện dựa trên hợp đồng khóa thời gian được băm (HTLC) cho phép khóa tiền cho đến khi thanh toán được tất toán hoàn toàn. Onion routing được sử dụng trong Lightning Network. Các node trung gian không biết về điểm đến cuối cùng của các khoản thanh toán. Alice phải tính toán tuyến đường thanh toán, trong khi không có tất cả thông tin về thanh khoản trong các kênh trung gian.
 
 ![instruction](assets/chapitre12/4.webp)
 
@@ -564,50 +579,53 @@ Có một yếu tố xác suất khi gửi một khoản thanh toán qua Lightni
 
 ![instruction](assets/chapitre12/5.webp)
 
-Để nhận thanh toán, thanh khoản phải được quản lý trong các kênh, có thể được thực hiện bằng cách yêu cầu người khác mở kênh cho chúng ta, tự mở kênh, và sử dụng các công cụ như Loop hoặc mua/thuê kênh trên các thị trường.
+Để nhận thanh toán, bạn cần quản lý thanh khoản trong các kênh, có thể được thực hiện bằng cách yêu cầu người khác mở kênh cho chúng ta, tự mở kênh, và sử dụng các công cụ như Loop Out hoặc mua/thuê kênh trên các thị trường.
 
 
 ## Phỏng vấn Fanis
 <chapterId>077cb5f5-1626-5da5-9964-e67b1de503bf</chapterId>
 
+![interview de Fanis](https://youtu.be/VeJ4oJIXo9k)
+
 Dưới đây là tóm tắt của cuộc phỏng vấn:
-Mạng Lưới Lightning là một giải pháp thanh toán cực kỳ nhanh trên Bitcoin, cho phép vượt qua các hạn chế liên quan đến khả năng mở rộng của mạng. Tuy nhiên, bitcoin trên Lightning không an toàn như trên chuỗi Bitcoin vì sự phân cấp và an ninh được ưu tiên hơn khả năng mở rộng.
+Lightning là một giải pháp thanh toán cực kỳ nhanh trên Bitcoin, giải quyết những hạn chế liên quan tới khả năng mở rộng của mạng lưới. Tuy nhiên, bitcoin trên LN không an toàn như trên mạng chính Bitcoin vì trên đây sự phi tập trung và an ninh được ưu tiên hơn khả năng mở rộng.
 
-Việc tăng kích thước khối quá mức không phải là giải pháp tốt vì nó làm ảnh hưởng đến các nút và khả năng lưu trữ dữ liệu. Thay vào đó, Mạng Lưới Lightning cho phép tạo các kênh thanh toán giữa hai người dùng Bitcoin mà không hiển thị giao dịch trên blockchain, tiết kiệm không gian trên các khối và cho phép Bitcoin mở rộng ngày nay.
+Việc tăng kích thước khối quá mức không phải là giải pháp tốt vì nó làm ảnh hưởng đến các node và khả năng lưu trữ dữ liệu. Thay vào đó, LN cho phép tạo các kênh thanh toán giữa hai người dùng Bitcoin mà không đưa giao dịch vào blockchain, tiết kiệm không gian trên các khối và Bitcoin mở rộng quy mô.
 
-Tuy nhiên, có những chỉ trích về khả năng mở rộng và sự tập trung của Mạng Lưới Lightning, với các vấn đề tiềm ẩn liên quan đến việc đóng kênh và phí giao dịch cao. Để giải quyết những vấn đề này, người ta khuyến nghị tránh mở các kênh nhỏ để tránh vấn đề trong tương lai và tăng phí giao dịch với Child Pay for Parent.
+Tuy nhiên, có những chỉ trích về khả năng mở rộng và tính tập trung của LN, đặc biệt là các vấn đề liên quan đến việc đóng kênh và phí giao dịch cao. Để giải quyết những vấn đề này, người dùng được khuyến nghị tránh mở các kênh có dung lượng nhỏ và tăng phí giao dịch bằng cách sử dụng phương án Child Pay for Parent.
 
-Các giải pháp được xem xét cho tương lai của Mạng Lưới Lightning bao gồm việc gộp lô và tạo kênh theo nhóm để giảm phí giao dịch, cũng như tăng kích thước khối trong dài hạn. Tuy nhiên, quan trọng là phải lưu ý rằng bitcoin trên Lightning không an toàn như bitcoin trên chuỗi Bitcoin.
+Các giải pháp được đề xuất cho tương lai của LN bao gồm việc gộp nhóm các giao dịch (batching) và tạo kênh theo nhóm để giảm phí giao dịch, cũng như tăng kích thước khối trong dài hạn. Tuy nhiên, điều quan trọng là phải lưu ý rằng bitcoin trên LN không an toàn như bitcoin trên chuỗi chính Bitcoin.
 
-Sự riêng tư trên Bitcoin và Lightning được liên kết, với việc sử dụng onion routing đảm bảo một mức độ riêng tư nhất định cho các giao dịch. Tuy nhiên, trên Bitcoin, mọi thứ đều minh bạch theo mặc định, với các phép suy luận được sử dụng để theo dõi Bitcoin từ địa chỉ này sang địa chỉ khác trên chuỗi Bitcoin.
+Sự riêng tư trên Bitcoin và trên LN có mối liên kết với nhau, phương pháp định tuyến onion giúp đảm bảo một mức độ riêng tư nhất định cho các giao dịch. Tuy nhiên, theo mặc định, trên Bitcoin, mọi thứ đều minh bạch, người ta có thể sử dụng các phép giả định để theo dõi bitcoin từ địa chỉ này sang địa chỉ khác trên chuỗi Bitcoin.
 
-Mua Bitcoin với KYC cho phép sàn giao dịch biết các giao dịch rút tiền, trong khi các số tiền tròn và địa chỉ thay đổi cho phép biết phần nào của giao dịch dành cho người khác và phần nào dành cho bản thân.
+Mua bitcoin có KYC cho phép sàn giao dịch biết được các giao dịch rút tiền, trong khi các số tiền tròn và địa chỉ thay đổi cho phép xác định phần nào của giao dịch dành cho người khác và phần nào dành cho bản thân.
 
-Để cải thiện sự riêng tư, các hành động chung và coinjoins cho phép phá vỡ các phép tính xác suất bằng cách thực hiện các giao dịch nơi nhiều người cùng thực hiện một giao dịch cùng nhau. Các công ty phân tích chuỗi khó có thể xác định bạn đang làm gì với bitcoin của mình bằng cách theo dõi.
+Để cải thiện sự riêng tư, các giao dịch kết hợp hoặc trộn coin cho phép phá vỡ các tính toán xác suất bằng cách thực hiện các giao dịch ở nơi nhiều người cùng thực hiện một giao dịch cùng nhau. Các công ty phân tích chuỗi khó có thể xác định bạn đang làm gì với bitcoin của mình.
 
-Trên Lightning, chỉ có hai người biết về giao dịch, và nó bảo mật hơn Bitcoin. Onion routing có nghĩa là một nút trung gian không biết người gửi và người nhận thanh toán.
+Trên LN, chỉ có hai người biết về giao dịch, và nó bảo mật hơn Bitcoin. Phương thức định tuyến onion có nghĩa là một node trung gian không biết người gửi và người nhận của một khoản thanh toán.
 
-Để sử dụng Mạng Lưới Lightning, bạn được khuyến nghị theo dõi một khóa học trên kênh YouTube của bạn hoặc trực tiếp trên trang web discover Bitcoin, hoặc sử dụng khóa học trên Umbrell. Cũng có thể gửi văn bản tùy ý trong một giao dịch trên Lightning sử dụng một trường dành riêng cho việc này, có thể hữu ích cho việc quyên góp hoặc nhắn tin.
-Tuy nhiên, quan trọng là phải lưu ý rằng các nút định tuyến Lightning có thể được quản lý trong tương lai, với một số quốc gia cố gắng quản lý các nút định tuyến. Đối với các nhà bán lẻ, cần quản lý thanh khoản để chấp nhận thanh toán trên Mạng Lưới Lightning, với các hạn chế hiện tại có thể được vượt qua với các giải pháp phù hợp.
+Để sử dụng LN, bạn được khuyến nghị theo dõi một khóa học trên kênh YouTube hoặc trực tiếp trên trang web Découvre Bitcoin, hoặc sử dụng khóa học trên Umbrell. Người dùng cũng có thể gửi văn bản tùy ý trong một giao dịch trên LN sử dụng một trường dành riêng cho việc này, điều này có thể hữu ích cho việc quyên góp hoặc nhắn tin.
+Tuy nhiên, quan trọng là phải lưu ý rằng các node định tuyến trên LN có thể sẽ bị quản lý trong tương lai, một số quốc gia đang cố gắng quản lý các node định tuyến. Đối với các nhà bán lẻ, cần quản lý thanh khoản để chấp nhận thanh toán trên LN, những hạn chế liên quan có thể được giải quyết bằng các giải pháp phù hợp.
 
-Cuối cùng, tương lai của Bitcoin hứa hẹn với một dự báo có thể đạt một triệu trong năm năm. Để đảm bảo sự chuyên nghiệp hóa của ngành và tạo ra một hệ thống thay thế cho hệ thống ngân hàng hiện tại, quan trọng là phải đóng góp cho mạng lưới và ngừng tin tưởng.
-
-
+Cuối cùng, tương lai của Bitcoin đầy hứa hẹn và được dự đoán có thể đạt mức giá một triệu đô-la trong năm năm tới. Để đảm bảo sự chuyên nghiệp hóa của ngành và tạo ra một hệ thống thay thế cho hệ thống ngân hàng hiện tại, quan trọng là phải đóng góp cho mạng lưới và ngừng đặt niềm tin vào các bên thứ ba.
 
 ## Cho chúng tôi biết phản hồi của bạn về khóa học này
 <chapterId>38814c99-eb7b-5772-af49-4386ee2ce9b0</chapterId>
 <isCourseReview>true</isCourseReview>
 
-## Lời cảm ơn và tiếp tục khám phá hố thỏ
+## Lời cảm ơn và tiếp tục khám phá chiếc hang thỏ Bitcoin
 <chapterId>afc0d72b-4fbc-5893-90b2-e27fb519ad02</chapterId>
 
 Xin chúc mừng! 🎉
-Bạn đã hoàn thành khóa LN 201 - Giới thiệu về Mạng Lưới Lightning!
-Bạn có thể tự hào về bản thân vì điều này không hề dễ dàng. Hãy biết rằng ít người đi sâu vào hố thỏ Bitcoin như vậy.
+Bạn đã hoàn thành khóa LN 201 - Giới thiệu về Lightning Network!
+Bạn có thể tự hào về bản thân vì điều này không hề dễ dàng. Bạn nên biết rằng có rất người đi sâu vào hang thỏ Bitcoin như vậy.
 
-Trước hết, một lời cảm ơn lớn đến Fanis Makalakis vì đã cung cấp cho chúng tôi khóa học miễn phí tuyệt vời này về khía cạnh dân tộc học của Lightning. Đừng ngần ngại theo dõi anh ấy trên Twitter, trên blog của mình, hoặc qua công việc của anh ấy tại thị trường LN.
+Trước hết, một lời cảm ơn lớn đến Fanis Makalakis vì đã cung cấp cho chúng ta khóa học miễn phí tuyệt vời về Lightning Network này. Đừng ngần ngại theo dõi anh ấy trên Twitter, trên blog, hoặc qua công việc của anh ấy trong ngành LN.
 
-Sau đó, nếu bạn muốn giúp đỡ dự án, đừng ngần ngại tài trợ cho chúng tôi trên Patreon. Quyên góp của bạn sẽ được sử dụng để sản xuất nội dung cho các khóa học mới và tất nhiên, bạn sẽ là người đầu tiên được thông báo (bao gồm cả khóa học tiếp theo của Fanis đang được thực hiện!).
+Sau đó, nếu bạn muốn hỗ trợ dự án, đừng ngần ngại tài trợ cho chúng tôi trên Patreon. Quyên góp của bạn sẽ được sử dụng để sản xuất nội dung cho các khóa học mới và tất nhiên, bạn sẽ là người đầu tiên được thông báo (bao gồm cả khóa học tiếp theo của Fanis đang được thực hiện!).
 
-Cuộc phiêu lưu Mạng Lưới Lightning tiếp tục với khóa học Umbrel và việc triển khai một nút Mạng Lưới Lightning. Lý thuyết đã kết thúc và đã đến lúc thực hành với khóa học LN 202 bây giờ!
-RogzyHôn và hẹn gặp lại bạn sớm!
+Cuộc phiêu lưu với Lightning Network sẽ được tiếp tục với khóa học Umbrel và việc triển khai một node LN. Phần lý thuyết đã kết thúc và bây giờ là lúc để bắt đầu khám phá khóa học LN 202!
+
+Hẹn gặp lại các bạn!
+
+Rogzy'

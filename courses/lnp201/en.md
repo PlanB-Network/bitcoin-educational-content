@@ -84,7 +84,7 @@ In this second chapter, we take the time to study how Bitcoin transactions actua
 
 ![explication](assets/chapitre2/0.webp)
 
-Here, from one UTXO (Alice has 0.0002 BTC on an address), we have created 2 UTXOs (Bob has 0.0015 and Alice has a new UTXO (independent of the previous one) of 0.0005 BTC).
+Here, from one UTXO (Alice has 0.002 BTC on an address), we have created 2 UTXOs (Bob has 0.0015 and Alice has a new UTXO (independent of the previous one) of 0.0005 BTC).
 
 ```
 Alice (0.002 BTC)
@@ -307,7 +307,7 @@ Alice - Bob
 There are two types of fee:
 
 - a fixed fee regardless of the amount: 1 SAT (default but can be modified)
-- a variable fee (0.01% by default)
+- a variable fee (1 ppm by default)
 
 Fee example:
 
@@ -431,15 +431,16 @@ Choice 1:
 
 - Alice sends an HTLC of 100,000 SAT to 1;
 - 1 makes an HTLC of 100,000 SAT to 2;
-- 2 makes an HTLC of 100,000 SAT to 5, but 5 cannot do it, so it announces it.
+- 2 makes an HTLC of 100,000 SAT to 5, but 2 cannot do it, so it announces it.
 
 The information is sent back, so Alice decides to try the second route:
 
 - Alice sends an HTLC of 100,000 to 1;
 - 1 makes an HTLC of 100,000 to 2;
 - 2 makes an HTLC of 100,000 to 4;
-- 4 makes an HTLC of 100,000 to Bob. Bob has the liquidity, so it's okay.
-- Bob uses the preimage (hash) of the HTLC and thus uses the secret to retrieve the 100,000 SAT
+- 4 makes an HTLC of 100,000 to 5;
+- 5 makes an HTLC of 100,000 to Bob. 5 has the liquidity, so it's okay.
+- Bob uses the preimage (hash) of the HTLC and thus uses the secret to retrieve the 100,000 SAT from 5
 - 5 now has the secret of the HTLC to retrieve the blocked HTLC from 4
 - 4 now has the secret of the HTLC to retrieve the blocked HTLC from 2
 - 2 now has the secret of the HTLC to retrieve the blocked HTLC from 1

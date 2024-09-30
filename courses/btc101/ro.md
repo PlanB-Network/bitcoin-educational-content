@@ -6,7 +6,7 @@ objectives:
   - Înțelege cum să cumperi și să securizezi bitcoinii
   - Ai o înțelegere generală a tehnologiei Blockchain
   - Familiarizează-te cu conceptul de Lightning Network
-  - Realizează impactul geopolitic și social al Bitcoin
+  - Realizează impactul geopolitic și social al Bitcoin 
 ---
 
 # Prima Ta Aventură în Lumea Bitcoin

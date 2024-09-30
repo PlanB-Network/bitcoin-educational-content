@@ -17,3 +17,8 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 2566
+  - language: it
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2599

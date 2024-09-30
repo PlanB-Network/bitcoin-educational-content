@@ -70,10 +70,11 @@ proofreading:
     contributors_id:
     reward: 42952
   - language: vi
-    last_contribution_date:
+    last_contribution_date: 2024-09-24
     urgency: 1
     contributors_id:
-    reward: 63178
+      - Henry-Da0
+    reward: 31589
   - language: et
     last_contribution_date:
     urgency: 1

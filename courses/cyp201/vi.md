@@ -10,7 +10,7 @@ objectives:
 
 # Hành trình tìm hiểu mật mã học liên quan tới Bitcoin
 
-Bạn có bị cuốn hút bởi Bitcoin không? Bạn thắc mắc ví Bitcoin hoạt động như thế nào? Hãy chuẩn bị sẵn sàng cho một hành trình hấp dẫn khám phá thế giới mật mã học! Loïc, chuyên gia của chúng tôi, sẽ dẫn dắt bạn vượt qua những khía cạnh phức tạp của việc tạo ví Bitcoin, giải mã những bí ẩn đằng sau các thuật ngữ kỹ thuật đáng sợ như băm, phái sinh khóa, và đường cong elliptic.
+Bạn có bị cuốn hút bởi Bitcoin không? Bạn thắc mắc ví Bitcoin hoạt động như thế nào? Hãy chuẩn bị sẵn sàng cho một hành trình hấp dẫn khám phá thế giới mật mã học! Loïc, chuyên gia của chúng tôi, sẽ dẫn dắt bạn vượt qua những khía cạnh phức tạp của việc tạo ví Bitcoin, giải mã những bí ẩn đằng sau các thuật ngữ kỹ thuật đáng sợ như băm, phái sinh khóa, và đường cong e-líp.
 
 Khóa học này không chỉ trang bị cho bạn kiến thức để hiểu về cấu trúc của ví Bitcoin mà còn giúp bạn sẵn sàng để đào sâu hơn vào thế giới mật mã học đầy thú vị. Vậy, bạn đã sẵn sàng để tham gia vào hành trình này chưa? Hãy tham gia cùng chúng tôi và biến sự tò mò của bạn thành một kỹ năng thực thụ!
 
@@ -26,7 +26,7 @@ Khóa học này không chỉ trang bị cho bạn kiến thức để hiểu v�
 
 Chúng tôi rất vui mừng chào đón bạn đến với khóa học mới có tên "Crypto 201: Giới thiệu về mật mã học của Bitcoin", được hướng dẫn bởi chuyên gia Loïc Morel. Khóa học này sẽ đưa bạn vào thế giới đầy hấp dẫn của mật mã học, một nhánh nền tảng của toán học chuyên về mã hóa và bảo mật dữ liệu.
 
-Trong cuộc sống hàng ngày, và đặc biệt trong lĩnh vực Bitcoin, mật mã học đóng góp một vai trò quan trọng. Các khái niệm liên quan đến mật mã học, như khóa riêng tư, khóa công khai, địa chỉ, đường dẫn phái sinh, hạt giống và entropy, là cốt lõi của việc sử dụng và tạo ví Bitcoin. Trong suốt khóa học này, Loïc sẽ giải thích chi tiết cách khóa riêng tư được tạo ra và cách chúng liên kết với các địa chỉ Bitcoin như thế nào. Loïc cũng sẽ dành một giờ để giải thích các chi tiết toán học về đường cong elliptic. Ngoài ra, bạn sẽ hiểu tại sao việc sử dụng HMAC SHA512 lại rất quan trọng để bảo vệ ví của mình và sự khác biệt giữa hạt giống (seed) và cụm từ ghi nhớ (mnemonic phrase) là gì.
+Trong cuộc sống hàng ngày, và đặc biệt trong lĩnh vực Bitcoin, mật mã học đóng góp một vai trò quan trọng. Các khái niệm liên quan đến mật mã học, như khóa riêng tư, khóa công khai, địa chỉ, đường dẫn phái sinh, hạt giống và entropy, là cốt lõi của việc sử dụng và tạo ví Bitcoin. Trong suốt khóa học này, Loïc sẽ giải thích chi tiết cách khóa riêng tư được tạo ra và cách chúng liên kết với các địa chỉ Bitcoin như thế nào. Loïc cũng sẽ dành một giờ để giải thích các chi tiết toán học về đường cong e-líp. Ngoài ra, bạn sẽ hiểu tại sao việc sử dụng HMAC SHA512 lại rất quan trọng để bảo vệ ví của mình và sự khác biệt giữa hạt giống (seed) và cụm từ ghi nhớ (mnemonic phrase) là gì.
 Mục tiêu cao nhất của khóa học này là giúp bạn hiểu các quy trình kỹ thuật liên quan tới việc tạo một ví HD và các phương pháp mật mã học được sử dụng. Trải qua nhiều năm, ví Bitcoin đã được phát triển để trở nên thân thiện với người dùng hơn, an toàn hơn và được chuẩn hóa nhờ vào các BIP cụ thể. Loïc sẽ giúp bạn hiểu những BIP này để nắm bắt được những lựa chọn mà các nhà phát triển Bitcoin và các nhà mật mã học đã thực hiện. Như tất cả các khóa học do trường đại học của chúng tôi cung cấp, khóa học này hoàn toàn miễn phí và mã nguồn mở. Điều này có nghĩa là bạn có thể tự do tham gia và sử dụng nó theo ý muốn của mình. Chúng tôi mong chờ nhận được phản hồi của bạn vào cuối khóa học thú vị này.
 
 ### Bắt đầu với người hướng dẫn của chúng ta!
@@ -35,7 +35,7 @@ Xin chào mọi người, tôi là Loïc Morel, người hướng dẫn bạn tr
 
 Hành trình của chúng ta bắt đầu với việc khám phá sâu vào các hàm băm mật mã học. Cùng nhau, chúng ta sẽ phân tích cơ chế hoạt động của hàm băm SHA256 và khám phá các thuật toán dành riêng cho phái sinh địa chỉ ví.
 
-Chúng ta sẽ tiếp tục cuộc phiêu lưu bằng cách giải mã thế giới bí ẩn của chữ ký số. Bạn sẽ khám phá phép màu trong cách đường cong elliptic được áp dụng vào những chữ ký này, và chúng ta sẽ làm sáng tỏ cách tính khóa công khai từ khóa riêng tư. Và tất nhiên, chúng ta sẽ đi sâu vào quy trình tạo ra chữ ký số.
+Chúng ta sẽ tiếp tục cuộc phiêu lưu bằng cách giải mã thế giới bí ẩn của chữ ký số. Bạn sẽ khám phá phép màu trong cách đường cong e-líp được áp dụng vào những chữ ký này, và chúng ta sẽ làm sáng tỏ cách tính khóa công khai từ khóa riêng tư. Và tất nhiên, chúng ta sẽ đi sâu vào quy trình tạo ra chữ ký số.
 
 Tiếp theo, chúng ta sẽ quay ngược thời gian để tìm hiểu về sự phát triển của ví Bitcoin, và chúng ta sẽ khám phá các khái niệm về entropy và số ngẫu nhiên. Chúng ta sẽ tìm hiểu về cụm từ ghi nhớ, đồng thời cũng chạm tới cụm từ mật khẩu - passphrase. Bạn thậm chí còn có cơ hội có được một trải nghiệm độc đáo là tạo ra hạt giống bằng việc tung xúc xắc 128 lần.
 Với những nền tảng vững chắc này, chúng ta sẽ sẵn sàng cho phần quan trọng: tạo ra một ví Bitcoin. Từ việc tạo ra hạt giống và khoác chính, đến việc nghiên cứu các khoá mở rộng, phái sinh ra các cặp khoá con, mỗi bước đều được phân tích kỹ lưỡng. Chúng ta cũng sẽ thảo luận về cấu trúc của ví và các đường dẫn phái sinh.
@@ -50,65 +50,69 @@ Hãy tham gia cùng tôi trong hành trình hấp dẫn này, và chuẩn bị s
 ## Giới thiệu về các hàm băm mật mã liên quan đến Bitcoin
 <chapterId>dba011f5-1805-5a48-ac2b-4bd637c93703</chapterId>
 
-Chào mừng bạn đến với phiên hôm nay, dành riêng cho việc đắm chìm sâu vào thế giới mật mã của hàm băm, một trụ cột quan trọng của bảo mật giao thức Bitcoin. Hãy tưởng tượng hàm băm như một robot giải mã mật mã cực kỳ hiệu quả, biến đổi thông tin với bất kỳ kích thước nào thành một dấu vân tay số duy nhất và cố định, được gọi là "hash," "digest," hoặc "checksum."
-Tóm lại, hàm băm nhận một thông điệp đầu vào với kích thước tùy ý và chuyển đổi nó thành một dấu vân tay đầu ra cố định.
+Chào mừng bạn đến với phần học dành riêng cho việc đắm chìm sâu vào thế giới mật mã của hàm băm, một trụ cột quan trọng cho bảo mật của giao thức Bitcoin. Hãy tưởng tượng hàm băm như một robot giải mã cực kỳ hiệu quả, biến đổi thông tin với bất kỳ kích thước nào thành một dấu vân tay số duy nhất và cố định, được gọi là "mã băm - hash," "digest," hoặc "checksum."
+Tóm lại, hàm băm nhận một thông điệp đầu vào với kích thước tùy ý và chuyển đổi nó thành một dấu vân tay đầu ra có kích thước cố định.
 
-Mô tả hồ sơ của hàm băm mật mã đòi hỏi phải hiểu hai đặc tính thiết yếu: tính không thể đảo ngược và khả năng chống giả mạo.
+Để hiểu rõ về hàm băm mật mã, cần phải nhận thức được hai đặc tính thiết yếu: tính không thể đảo ngược và khả năng chống giả mạo.
 
-Tính không thể đảo ngược, hay khả năng chống preimage, có nghĩa là việc tính toán đầu ra từ đầu vào có thể thực hiện dễ dàng, nhưng việc tính toán đầu vào từ đầu ra là không thể.
-Đó là một hàm một chiều.
+Tính không thể đảo ngược, hay khả năng chống nghịch ảnh (preimage), có nghĩa là có thể dễ dàng tính toán đầu ra từ đầu vào, nhưng việc tính toán đầu vào từ đầu ra là không thể.
+Hàm băm là một hàm một chiều.
 
 ![image](assets/image/section1/0.webp)
 
-Khả năng chống giả mạo đến từ việc thậm chí chỉ một sự thay đổi nhỏ nhất của đầu vào cũng sẽ dẫn đến một đầu ra hoàn toàn khác biệt.
+Khả năng chống giả mạo thể hiện ở đặc điểm thậm chí chỉ với một sự thay đổi nhỏ nhất của đầu vào cũng sẽ dẫn đến một đầu ra hoàn toàn khác biệt.
 Những hàm này cho phép xác minh tính toàn vẹn của phần mềm được tải xuống.
 
 ![image](assets/image/section1/1.webp)
 
-Một đặc tính quan trọng khác mà chúng sở hữu là khả năng chống va chạm và chống second preimage. Một va chạm xảy ra khi hai đầu vào khác nhau tạo ra cùng một đầu ra.
-Chắc chắn, trong vũ trụ băm, va chạm là không thể tránh khỏi, nhưng một hàm băm mật mã tốt giảm thiểu chúng đáng kể. Rủi ro phải đủ thấp để có thể coi là không đáng kể. Đó giống như mỗi hash là một ngôi nhà trong một thành phố rộng lớn; mặc dù số lượng ngôi nhà khổng lồ, một hàm băm tốt đảm bảo rằng mỗi ngôi nhà có một địa chỉ duy nhất.
+Một đặc tính quan trọng khác mà chúng sở hữu là khả năng chống va chạm và chống nghịch ảnh thứ hai (second preimage). Một va chạm xảy ra khi hai đầu vào khác nhau tạo ra cùng một đầu ra.
+Trong thế giới của hàm băm, chắc chắn rằng việc va chạm là điều không thể tránh khỏi, nhưng một hàm băm mật mã tốt giảm thiểu chúng đáng kể hiện tượng này. Rủi ro phải đủ thấp để có thể được coi là không đáng kể. Nó giống như mỗi hash là một ngôi nhà trong một thành phố rộng lớn; mặc dù có rất nhiều ngôi nhà, một hàm băm tốt đảm bảo rằng mỗi ngôi nhà có một địa chỉ duy nhất.
 
-Khả năng chống second preimage phụ thuộc vào khả năng chống va chạm; nếu có khả năng chống va chạm, thì cũng có khả năng chống second preimage.
-Với một thông tin đầu vào được áp đặt cho chúng ta, chúng ta phải tìm một đầu vào thứ hai, khác với cái đầu tiên, tạo ra một va chạm trong đầu ra hash của hàm. Khả năng chống second preimage tương tự như khả năng chống va chạm, ngoại trừ việc đầu vào được áp đặt.
-Giờ đây, hãy cùng điều hướng qua những vùng nước động của các hàm băm lỗi thời. SHA0, SHA1, và MD5 hiện được coi là những vỏ sò gỉ sét trong đại dương của băm mật mã. Chúng thường được khuyến cáo không sử dụng vì đã mất khả năng chống va chạm. Nguyên tắc pigeonhole giải thích tại sao, mặc dù nỗ lực hết sức, việc tránh va chạm là không thể do giới hạn của kích thước đầu ra. Để thực sự được coi là an toàn, một hàm băm phải chống lại va chạm, second preimages, và preimages.
+Khả năng chống nghịch ảnh thứ hai phụ thuộc vào khả năng chống va chạm; nếu có khả năng chống va chạm, thì nó cũng có khả năng chống nghịch ảnh thứ hai.
+Với một thông tin đầu vào được chỉ định, chúng ta phải tìm một đầu vào thứ hai, khác với cái đầu tiên, để tạo ra một va chạm trong đầu ra hash của hàm. Khả năng chống nghịch ảnh thứ hai tương tự như khả năng chống va chạm, ngoại trừ việc đầu vào được chỉ dịnh.
+Giờ đây, hãy cùng tìm hiểu về những hàm băm lỗi thời. SHA0, SHA1, và MD5 hiện được coi là những vỏ sò hoen gỉ trong đại dương của hàm băm mật mã. Chúng ta thường được khuyến cáo không sử dụng những hàm băm này vì chúng đã mất khả năng chống va chạm. Nguyên lý chuồng chim bồ câu giải thích tại sao, mặc dù đã nỗ lực hết sức, việc tránh va chạm là không thể do giới hạn của kích thước đầu ra. Để thực sự được coi là an toàn, một hàm băm phải có khả năng chống lại va chạm, nghịch ảnh thứ hai, và nghịch ảnh.
 
-Một yếu tố then chốt trong giao thức Bitcoin, hàm băm SHA-256 là thuyền trưởng của con tàu. Các hàm khác, như SHA-512, được sử dụng cho việc phái sinh với HMAC và PBKDF. Ngoài ra, RIPMD160 được sử dụng để giảm một dấu vân tay xuống còn 160 bit. Khi chúng ta đề cập đến HASH256 và HASH160, chúng ta đang nói đến việc sử dụng băm kép với SHA-256 và RIPMD.
-SHA256(SHA256(thông điệp))$$
-Đối với HASH160, đây là một hash kép của thông điệp sử dụng SHA256 trước, sau đó là RIPMD160.
+Một yếu tố then chốt trong giao thức Bitcoin, hàm băm SHA-256 là thuyền trưởng của con tàu. Các hàm băm khác, như SHA-512, được sử dụng cho việc phái sinh với HMAC và PBKDF. Ngoài ra, RIPMD160 được sử dụng để giảm kích thước của một dấu vân tay xuống còn 160 bit. Khi chúng ta đề cập đến HASH256 và HASH160, chúng ta đang nói đến việc sử dụng mã băm kép với SHA-256 và RIPMD.
+
+Đối với HASH256, nó là một mã băm kép của thông điệp sử dụng hàm băm SHA256.
+$$
+SHA256(SHA256(thông điệp))
+$$
+Đối với HASH160, nó là một mã băm kép của thông điệp sử dụng hàm băm SHA256 trước, sau đó là tới hàm băm RIPMD160.
 $$
 RIPMD160(SHA256(thông điệp))
 $$
-Việc sử dụng HASH160 đặc biệt có lợi vì nó cho phép bảo mật của SHA-256 trong khi giảm kích thước của dấu vân tay.
+Việc sử dụng HASH160 đặc biệt có lợi vì nó cho phép tận dụng khả năng bảo mật của SHA-256 trong khi giảm kích thước của dấu vân tay.
 
-Tóm lại, mục tiêu cuối cùng của một hàm băm mật mã là biến đổi thông tin kích thước tùy ý thành một dấu vân tay cố định kích thước. Để được công nhận là an toàn, nó phải có một số điểm mạnh: không thể đảo ngược, kháng sự can thiệp, kháng va chạm, và kháng ảnh trước thứ hai.
+Tóm lại, mục tiêu cuối cùng của một hàm băm mật mã là biến đổi thông tin có kích thước tùy ý thành một dấu vân tay có kích thước cố định. Để được công nhận là an toàn, nó phải có một số điểm mạnh: tính không thể đảo ngược, khả năng chống giả mạo, khả năng chống va chạm, và khả năng chống nghịch ảnh thứ hai.
 
 ![hình ảnh](assets/image/section1/2.webp)
 
-Kết thúc cuộc khám phá này, chúng ta đã làm sáng tỏ các hàm băm mật mã, nêu bật các ứng dụng của chúng trong giao thức Bitcoin, và phân tích các mục tiêu cụ thể của chúng. Chúng ta đã học được rằng để các hàm băm được coi là an toàn, chúng phải chống lại ảnh trước, ảnh trước thứ hai, va chạm, và can thiệp. Chúng ta cũng đã bao quát các loại hàm băm khác nhau được sử dụng trong giao thức Bitcoin. Trong phiên tiếp theo, chúng ta sẽ đi sâu vào cốt lõi của hàm băm SHA256 và khám phá những toán học thú vị tạo nên đặc điểm độc đáo của nó.
+Như vậy, chúng ta đã làm sáng tỏ các hàm băm mật mã, nêu bật các ứng dụng của chúng trong giao thức Bitcoin, và phân tích các mục tiêu cụ thể của chúng. Chúng ta đã học được rằng để các hàm băm được coi là an toàn, chúng phải có khả năng chống lại nghịch ảnh, nghịch ảnh thứ hai, va chạm, và giả mạo. Chúng ta cũng đã xem xét các hàm băm khác nhau được sử dụng trong giao thức Bitcoin. Trong phần tiếp theo, chúng ta sẽ đi sâu vào cốt lõi của hàm băm SHA256 và khám phá những đặc điểm toán học thú vị tạo nên đặc điểm độc đáo của nó.
 
-## Cơ Chế Hoạt Động của SHA256
+## Cơ chế hoạt động của SHA256
 <chapterId>905eb320-f15b-5fb6-8d2d-5bb447337deb</chapterId>
 
-Chào mừng bạn đến với tiếp tục hành trình thú vị qua mê cung mật mã của hàm băm. Hôm nay, chúng ta sẽ khám phá bí mật của SHA256, một quy trình phức tạp nhưng tài tình mà chúng ta đã giới thiệu trước đó.
+Chào mừng bạn đến với phần tiếp theo. Trong phần này, chúng ta sẽ khám phá bí mật của SHA256, một quy trình phức tạp nhưng tinh tế mà chúng ta đã giới thiệu trước đó.
 
-Nhắc lại, mục đích của hàm băm SHA256 là nhận một thông điệp đầu vào với bất kỳ kích thước nào và tạo ra một băm 256-bit làm đầu ra.
+Nhắc lại, mục đích của hàm băm SHA256 là nhận một thông điệp đầu vào với bất kỳ kích thước nào và tạo ra một mã băm 256-bit ở đầu ra.
 
-### Tiền xử lý
+### Chuẩn bị xử lý
 
-Hãy tiến xa hơn trong mê cung này bằng cách bắt đầu với tiền xử lý của SHA256.
+Hãy tiến xa hơn trong mê cung này bằng cách bắt đầu với giai đoạn chuẩn bị xử lý của SHA256.
 
-#### Thêm Bit Đệm
+#### Thêm các bit đệm
 
 Mục tiêu của bước đầu tiên này là có một thông điệp được cân bằng thành một bội số của 512 bit. Để đạt được điều này, chúng ta sẽ thêm các bit đệm vào thông điệp.
 
-Hãy để M là kích thước thông điệp ban đầu.
-Hãy để 1 là một bit dành cho dấu phân cách.
-Hãy để P là số bit được sử dụng cho đệm, và 64 là số bit dành riêng cho giai đoạn tiền xử lý thứ hai.
+Giả sử M là kích thước thông điệp ban đầu.
+Giả sử 1 là một bit dành cho dấu phân cách.
+Giả sử P là số bit được sử dụng cho đệm, và 64 là số bit dành riêng cho giai đoạn chuẩn bị xử lý thứ hai.
 Tổng số phải là một bội số của 512 bit, được biểu diễn bởi n.
 
 ![hình ảnh](assets/image/section1/3.webp)
 
-Ví dụ với một thông điệp đầu vào 950 bit:
+Ví dụ với một thông điệp đầu vào kích thước 950 bit:
 
 ```
 Bước 1: Xác định kích thước; số bit mong muốn cuối cùng.
@@ -127,213 +131,219 @@ Vì vậy, cần thêm 9 bit đệm để có một thông điệp được cân
 ```
 
 Và bây giờ?
-Ngay sau thông điệp ban đầu, dấu phân cách 1 theo sau là P, trong ví dụ của chúng ta là chín 0, cần được thêm vào.
+Ngay sau thông điệp ban đầu, dấu phân cách 1 theo sau là P, trong ví dụ của chúng ta là chín chữ số 0, cần được thêm vào.
 
 ```
 thông điệp + 1 000 000 000
 ```
 
-#### Đệm Kích Thước
-Chúng ta bây giờ chuyển sang giai đoạn thứ hai của quá trình tiền xử lý, bao gồm việc thêm biểu diễn nhị phân của kích thước thông điệp ban đầu tính bằng bit.
-Hãy xem lại ví dụ với đầu vào là 950 bit:
+#### Đệm kích thước
+Chúng ta bây giờ chuyển sang giai đoạn thứ hai của quá trình chuẩn bị xử lý, bao gồm việc thêm biểu diễn nhị phân của kích thước thông điệp ban đầu tính bằng bit.
+Tiếp tục với ví dụ với đầu vào là 950 bit ở phía trên:
 
 ```
 Biểu diễn nhị phân của số 950 là: 11 1011 0110
 
-Chúng ta sử dụng 64 bit dự trữ từ bước trước. Chúng ta thêm các số không để làm tròn 64 bit của chúng ta thành đầu vào cân bằng. Sau đó, chúng ta kết hợp thông điệp ban đầu, các bit đệm, và đệm kích thước để nhận được đầu vào cân bằng của chúng ta.
+Sử dụng 64 bit dự trữ từ bước trước. Chúng ta thêm các chữ số không để làm tròn 64 bit của chúng ta thành đầu vào cân bằng. Sau đó, chúng ta kết hợp thông điệp ban đầu, các bit đệm, và đệm kích thước để nhận được đầu vào đã được cân bằng của chúng ta.
 ```
 
 Dưới đây là kết quả:
 
 ![image](assets/image/section1/4.webp)
 
-### Xử Lý
+### Xử lý
 
-#### Hiểu Biết Cơ Bản
+#### Hiểu biết cơ bản cần thiết
 
-##### Hằng Số và Vectơ Khởi Tạo
+##### Các hằng số và các véc-tơ khởi tạo
 
-Bây giờ, chúng ta chuẩn bị cho các bước đầu tiên của quá trình xử lý hàm SHA-256. Giống như trong bất kỳ công thức nấu ăn nào, chúng ta cần một số nguyên liệu cơ bản, mà chúng ta gọi là hằng số và vectơ khởi tạo.
+Bây giờ, chúng ta chuẩn bị cho các bước đầu tiên cho quá trình xử lý của hàm băm SHA-256. Giống như trong bất kỳ công thức nấu ăn nào, chúng ta cần một số nguyên liệu cơ bản, trong trường hợp này là các hằng số và các véc-tơ khởi tạo.
 
-Các vectơ khởi tạo, từ A đến H, là 32 bit đầu tiên của phần thập phân của căn bậc hai của 8 số nguyên tố đầu tiên. Chúng sẽ phục vụ như là giá trị cơ sở trong các bước xử lý ban đầu. Giá trị của chúng được biểu diễn ở dạng thập lục phân.
+Các véc-tơ khởi tạo, từ A đến H, là 32 bit đầu tiên của phần thập phân của căn bậc hai của 8 số nguyên tố đầu tiên. Chúng được dùng làm các giá trị cơ sở trong các bước xử lý ban đầu. Giá trị của chúng được biểu diễn ở dạng thập lục phân.
 
-Các hằng số K, từ 0 đến 63, đại diện cho 32 bit đầu tiên của phần thập phân của căn bậc ba của 64 số nguyên tố đầu tiên. Chúng được sử dụng trong mỗi vòng của hàm nén. Giá trị của chúng cũng được biểu diễn ở dạng thập lục phân.
+Các hằng số K, từ 0 đến 63, đại diện cho 32 bit đầu tiên của phần thập phân của căn bậc ba của 64 số nguyên tố đầu tiên. Chúng được sử dụng ở mỗi vòng của hàm nén. Giá trị của chúng cũng được biểu diễn ở dạng thập lục phân.
 
 ![image](assets/image/section1/5.webp)
 
-##### Các Phép Toán Được Sử Dụng
+##### Các phép toán được sử dụng
 
-Trong hàm nén, chúng ta sử dụng các toán tử cụ thể như XOR, AND, và NOT. Chúng ta xử lý các bit một cách riêng lẻ theo vị trí của chúng, sử dụng toán tử XOR và bảng chân lý. Toán tử AND được sử dụng để trả về 1 chỉ khi cả hai toán hạng đều bằng 1, và toán tử NOT được sử dụng để trả về giá trị đối lập của một toán hạng. Chúng ta cũng sử dụng phép toán SHR để dịch chuyển các bit sang phải bởi một số lượng đã chọn.
+Trong hàm nén, chúng ta sử dụng các toán tử như XOR, AND, và NOT. Chúng ta xử lý các bit theo từng vị trí riêng lẻ của chúng, sử dụng toán tử XOR và một bảng chân lý. Toán tử AND được sử dụng để trả về 1 chỉ khi cả hai toán hạng đều bằng 1, và toán tử NOT được sử dụng để trả về giá trị đối lập của một toán hạng. Chúng ta cũng sử dụng phép toán SHR để dịch chuyển các bit sang phải theo một con số đã chọn.
 
 Bảng chân lý:
 
 ![image](assets/image/section1/6.webp)
 
-Các phép dịch bit:
+Các phép dịch chuyển bit:
 
 ![image](assets/image/section1/7.webp)
 
-#### Hàm Nén
+#### Hàm nén
 
-Trước khi áp dụng hàm nén, chúng ta chia đầu vào thành các khối 512 bit. Mỗi khối sẽ được xử lý độc lập với những khối khác.
+Trước khi áp dụng hàm nén, chúng ta chia đầu vào thành các khối có kích thước 512 bit. Mỗi khối sẽ được xử lý độc lập với các khối khác.
 
-Mỗi khối 512-bit sau đó được chia tiếp thành các phần 32-bit gọi là W. Như vậy, W(0) đại diện cho 32 bit đầu tiên của khối 512-bit. W(1) đại diện cho 32 bit tiếp theo, và cứ thế, cho đến khi chúng ta đạt được 512 bit của khối.
+Mỗi khối 512-bit sau đó được chia tiếp thành các mảnh có kích thước 32 bit gọi là W. Như vậy, W(0) là 32 bit đầu tiên của khối 512 bit. W(1) là 32 bit tiếp theo, và cứ thế, cho đến khi chúng ta đạt được 512 bit của khối.
 
-Một khi tất cả các hằng số K và các phần W được xác định, chúng ta có thể thực hiện các phép tính sau cho mỗi phần W trong mỗi vòng.
+Một khi tất cả các hằng số K và các mảnh W được xác định, chúng ta có thể thực hiện các phép tính sau cho mỗi mảnh W trong mỗi vòng.
 
-Chúng ta thực hiện 64 vòng tính toán trong hàm nén. Trong vòng cuối cùng, tại "Đầu ra của hàm", chúng ta sẽ có một trạng thái trung gian sẽ được cộng vào trạng thái ban đầu của hàm nén.
+Chúng ta thực hiện 64 vòng tính toán trong hàm nén. Trong vòng cuối cùng, ở cấp độ "Đầu ra của hàm", chúng ta sẽ có một trạng thái trung gian, được cộng vào trạng thái ban đầu của hàm nén.
 
-Sau đó, chúng ta lặp lại tất cả các bước này của hàm nén trên khối 512-bit tiếp theo, cho đến khối cuối cùng.
+Sau đó, chúng ta lặp lại tất cả các bước này của hàm nén trên khối 512 bit tiếp theo, cho đến khối cuối cùng.
 
-Tất cả các phép cộng trong hàm nén là phép cộng modulo 2^32 để luôn giữ được tổng 32-bit.
+Tất cả các phép cộng trong hàm nén là phép cộng modulo 2^32 để luôn giữ được tổng có kích thước 32 bit.
 
 ![image](assets/image/section1/9.webp)
 
 ![image](assets/image/section1/8.webp)
 
-##### Một Vòng của Hàm Nén
+##### Một vòng của hàm nén
 
 ![image](assets/image/section1/11.webp)
 
 ![image](assets/image/section1/10.webp)
 
-Hàm nén sẽ được thực hiện 64 lần. Chúng ta có các phần W và các hằng số K đã được xác định trước làm đầu vào.
-Các ô vuông/ dấu chéo màu đỏ tương ứng với một phép cộng modulo 2^32-bit.
-Các đầu vào A, B, C, D, E, F, G, H sẽ được liên kết với một giá trị 32-bit để tạo thành tổng cộng 256 bit. Chúng ta cũng có một chuỗi mới A, B, C, D, E, F, G, H làm đầu ra. Đầu ra này sau đó sẽ được sử dụng làm đầu vào cho vòng tiếp theo và cứ tiếp tục như vậy cho đến hết vòng thứ 64.
+Hàm nén sẽ được thực hiện lặp lại 64 lần. Chúng ta có các mảnh W và các hằng số K đã được xác định trước làm đầu vào.
+Các ô vuông / dấu chéo màu đỏ tương ứng với một phép cộng modulo 2^32 bit.
+Các đầu vào A, B, C, D, E, F, G, H sẽ được liên kết với một giá trị 32 bit để tạo thành tổng cộng 256 bit. Chúng ta cũng có một chuỗi mới A, B, C, D, E, F, G, H làm đầu ra. Đầu ra này sau đó sẽ được sử dụng làm đầu vào cho vòng tiếp theo và cứ tiếp tục như vậy cho đến hết vòng thứ 64.
 
-Giá trị của chuỗi đầu vào cho vòng đầu tiên của hàm nén tương ứng với các vector khởi tạo đã được đề cập trước đó.
-Nhắc lại, các vector khởi tạo đại diện cho 32 bit đầu tiên của các phần thập phân của căn bậc hai của 8 số nguyên tố đầu tiên.
+Giá trị của chuỗi đầu vào cho vòng đầu tiên của hàm nén tương ứng với các véc-tơ khởi tạo đã được đề cập trước đó.
+Nhắc lại, các véc-tơ khởi tạo đại diện cho 32 bit đầu tiên của các phần thập phân trong căn bậc hai của 8 số nguyên tố đầu tiên.
 
-Dưới đây là một ví dụ về một vòng:
+Dưới đây là một ví dụ về một vòng của hàm nén:
 
 ![image](assets/image/section1/12.1.webp)
 
-##### Trạng Thái Trung Gian
+##### Trạng thái trung gian
 
-Nhắc lại, thông điệp được chia thành các khối 512 bit, sau đó được chia thành các mảnh 32-bit. Đối với mỗi khối 512-bit, chúng ta áp dụng 64 vòng của hàm nén.
-Trạng thái trung gian tương ứng với kết thúc của 64 vòng của một khối. Giá trị của chuỗi đầu ra từ vòng thứ 64 này được sử dụng làm giá trị khởi tạo cho chuỗi đầu vào của vòng đầu tiên của khối tiếp theo.
+Nhắc lại, thông điệp được chia thành các khối 512 bit, sau đó được chia thành các mảnh 32 bit. Đối với mỗi khối 512 bit, chúng ta áp dụng 64 vòng của hàm nén.
+Trạng thái trung gian tương ứng với kết quả của 64 vòng nén của một khối. Giá trị đầu ra từ vòng thứ 64 này được sử dụng làm giá trị khởi tạo cho chuỗi đầu vào của vòng đầu tiên của khối tiếp theo.
 
 ![image](assets/image/section1/12.2.webp)
 
-#### Tổng Quan về Hàm Băm
+#### Tổng quan về hàm băm
 
 ![image](assets/image/section1/13.webp)
 
-Chúng ta có thể nhận thấy rằng đầu ra của mảnh thông điệp 512-bit đầu tiên tương ứng với các vector khởi tạo của chúng ta như đầu vào cho mảnh thông điệp 512-bit thứ hai, và cứ tiếp tục như vậy.
+Chúng ta có thể thấy rằng đầu ra của khối thông điệp 512 bit đầu tiên tương ứng với các véc-tơ khởi tạo của chúng ta là đầu vào cho khối thông điệp 512 bit thứ hai, và cứ tiếp tục như vậy.
 
-Đầu ra của vòng cuối cùng, của mảnh cuối cùng, tương ứng với kết quả cuối cùng của hàm SHA256.
+Đầu ra của vòng cuối cùng, của khối cuối cùng, sẽ là kết quả cuối cùng của hàm băm SHA256.
 
-Kết luận, chúng tôi muốn nhấn mạnh vai trò quan trọng của các phép tính được thực hiện trong các hộp CH, MAJ, σ0, và σ1. Những hoạt động này, cùng với những hoạt động khác, là những người bảo vệ đảm bảo sự kiên cố của hàm băm SHA256 chống lại các cuộc tấn công, làm cho nó trở thành lựa chọn ưu tiên để bảo vệ nhiều hệ thống số, đặc biệt là trong giao thức Bitcoin. Rõ ràng, mặc dù phức tạp, vẻ đẹp của SHA256 nằm ở khả năng tìm ra đầu vào từ băm, trong khi việc xác minh băm cho một đầu vào cho trước là một hành động cơ học đơn giản.
+Kết luận, chúng tôi muốn nhấn mạnh vai trò quan trọng của các phép tính được thực hiện trong các hộp CH, MAJ, σ0, và σ1. Những phép tính này, cùng các phép tính khác, là những người bảo vệ đảm bảo sự kiên cố của hàm băm SHA256 trước các cuộc tấn công, làm cho nó trở thành một lựa chọn được ưu tiên để bảo vệ nhiều hệ thống kỹ thuật số, đặc biệt là trong giao thức Bitcoin. Rõ ràng, mặc dù rất phức tạp, vẻ đẹp của SHA256 nằm ở sự bất khả thi của việc tìm thấy đầu vào từ mã băm, trong khi việc xác minh mã băm cho một đầu vào cho trước được thực hiện rất đơn giản.
 
-## Các thuật toán được sử dụng cho việc suy ra
+## Các thuật toán được sử dụng cho việc phái sinh
 <chapterId>cc668121-7789-5e99-bf5e-1ba085f4f5f2</chapterId>
 
-Các thuật toán suy ra HMAC và PBKDF2 là các thành phần chính trong cơ chế bảo mật của giao thức Bitcoin. Chúng ngăn chặn một loạt các cuộc tấn công tiềm năng và đảm bảo tính toàn vẹn của ví Bitcoin.
-HMAC và PBKDF2 là các công cụ mật mã được sử dụng cho các nhiệm vụ khác nhau trong Bitcoin. HMAC chủ yếu được sử dụng để chống lại các cuộc tấn công mở rộng độ dài khi suy ra ví Định Hình Phân Cấp (HD), trong khi PBKDF2 được sử dụng để chuyển đổi cụm từ ghi nhớ thành một hạt giống.
+Các thuật toán phái sinh HMAC và PBKDF2 là các thành phần chính trong cơ chế bảo mật của giao thức Bitcoin. Chúng ngăn chặn một loạt các cuộc tấn công tiềm năng và đảm bảo tính toàn vẹn cho các ví Bitcoin.
+HMAC và PBKDF2 là các công cụ mật mã học được sử dụng cho các nhiệm vụ khác nhau trong Bitcoin. HMAC chủ yếu được sử dụng để chống lại các cuộc tấn công mở rộng độ dài khi phái sinh ví Tất định phân cấp (HD), trong khi PBKDF2 được sử dụng để chuyển đổi cụm từ ghi nhớ thành một hạt giống.
 
 #### HMAC-SHA512
 
 Cặp HMAC-SHA512 có hai đầu vào: một thông điệp m (Đầu vào 1) và một khóa K do người dùng tự chọn (Đầu vào 2). Nó cũng có một đầu ra cố định: 512 bit.
 
-Hãy ghi chú:
+Ký hiệu:
 - m: thông điệp kích thước tùy ý do người dùng chọn (đầu vào 1)
 - K: khóa tùy ý do người dùng chọn (đầu vào 2)
-- K': khóa K đã được điều chỉnh kích thước. Nó đã được điều chỉnh cho vừa với kích thước B của các khối.
+- K': khóa K sau khi đã được điều chỉnh kích thước. Nó đã được điều chỉnh cho vừa với kích thước B của các khối.
 - ||: phép nối.
 - opad: hằng số được định nghĩa bởi byte 0x5c lặp lại B lần.
 - ipad: hằng số được định nghĩa bởi byte 0x36 lặp lại B lần.
 - B: Kích thước của các khối của hàm băm được sử dụng.
 
 ![image](assets/image/section1/14.webp)
-HMAC-SHA512, nhận một thông điệp và một khóa làm đầu vào, tạo ra một đầu ra cố định. Để đảm bảo tính thống nhất, khóa được điều chỉnh dựa trên kích thước của các khối được sử dụng trong hàm băm. Trong bối cảnh của việc phát sinh ví HD, HMAC-SHA-512 được sử dụng. Nó hoạt động với các khối 1024-bit (128-byte) và điều chỉnh khóa một cách phù hợp. Nó sử dụng các hằng số OPAD (0x5c) và IPAD (0x36), được lặp lại khi cần thiết để tăng cường bảo mật.
+HMAC-SHA512, nhận một thông điệp và một khóa làm đầu vào, tạo ra một đầu ra có kích thước cố định. Để đảm bảo tính thống nhất, khóa K được điều chỉnh thành K' dựa trên kích thước của các khối được sử dụng trong hàm băm. Trong quá trình phái sinh ví HD, HMAC-SHA-512 được sử dụng. Nó hoạt động với các khối 1024 bit (128 byte) và điều chỉnh khóa một cách phù hợp. Nó sử dụng các hằng số OPAD (0x5c) và IPAD (0x36), được lặp lại khi cần thiết để tăng cường bảo mật.
 
-Quy trình HMAC-SHA-512 bao gồm việc nối kết kết quả của SHA-512 áp dụng cho khóa XOR OPAD và khóa XOR IPAD với thông điệp. Khi sử dụng với các khối 1024-bit (128-byte), khóa đầu vào được thêm vào các số không nếu cần thiết, sau đó XOR với IPAD và OPAD. Khóa đã được chỉnh sửa sau đó được nối kết với thông điệp.
+Quy trình HMAC-SHA-512 bao gồm việc nối kết kết quả của SHA-512 được áp dụng cho khóa XOR OPAD và khóa XOR IPAD cùng với thông điệp. Khi sử dụng với các khối 1024 bit (128 byte), khóa đầu vào bổ sung thêm các chữ số 0 nếu cần thiết, sau đó XOR với IPAD và OPAD. Khóa đã được chỉnh sửa sau đó được ghép nối với thông điệp.
 
 ![image](assets/image/section1/15.webp)
 
-Việc bổ sung một giá trị salt vào mã chuỗi tăng cường bảo mật cho các khóa được phát sinh. Không có nó, một cuộc tấn công có thể xâm phạm toàn bộ ví và ăn cắp tất cả bitcoin.
+Việc thêm một giá trị salt vào mã chuỗi sẽ gia tăng bảo mật của khoá được phái sinh. Nếu không có giá trị này, một cuộc tấn côngViệc bổ sung một giá trị salt vào mã chuỗi tăng cường bảo mật cho các khóa được phát sinh. Không có nó, một cuộc tấn công có thể xâm phạm toàn bộ ví và ăn cắp tất cả bitcoin ở trong đó.
 
-PBKDF2 được sử dụng để chuyển đổi một cụm từ ghi nhớ thành một hạt giống. Thuật toán này thực hiện 2048 vòng sử dụng HMAC SHA512. Thông qua các thuật toán phát sinh này, các đầu vào khác nhau có thể tạo ra một đầu ra độc đáo và cố định, giúp giảm thiểu vấn đề về các cuộc tấn công mở rộng độ dài có thể xảy ra với các hàm băm thuộc gia đình SHA-2.
+PBKDF2 được sử dụng để chuyển đổi một cụm từ ghi nhớ thành một hạt giống. Thuật toán này thực hiện 2048 vòng lặp sử dụng hàm HMAC SHA512. Thông qua các thuật toán phái sinh này, các đầu vào khác nhau có thể tạo ra một đầu ra độc đáo và cố định, giúp giảm thiểu rủi ro về các cuộc tấn công mở rộng độ dài có thể xảy ra với các hàm băm thuộc họ SHA-2.
 
-Một cuộc tấn công mở rộng độ dài khai thác một tính chất cụ thể của một số hàm băm mật mã. Trong một cuộc tấn công như vậy, một kẻ tấn công đã có hash của một thông điệp không biết trước có thể sử dụng nó để tính toán hash của một thông điệp dài hơn, là một phần mở rộng của thông điệp gốc. Điều này thường có thể thực hiện mà không cần biết nội dung của thông điệp gốc, có thể dẫn đến những lỗ hổng bảo mật đáng kể nếu loại hàm băm này được sử dụng cho các nhiệm vụ như xác minh tính toàn vẹn.
+Một cuộc tấn công mở rộng độ dài khai thác một thuộc tính cụ thể của một số hàm băm mật mã. Trong một cuộc tấn công như vậy, một kẻ tấn công đã có mã băm của một thông điệp không biết trước có thể sử dụng nó để tính toán mã băm của một thông điệp dài hơn, là một phần mở rộng của thông điệp gốc. Điều này thường có thể thực hiện được mà không cần biết nội dung của thông điệp gốc, có thể dẫn đến những lỗ hổng bảo mật nghiêm trọng nếu loại hàm băm này được sử dụng cho các nhiệm vụ như xác minh tính toàn vẹn.
 
 ![image](assets/image/section1/16.webp)
 
-Kết luận, các thuật toán HMAC và PBKDF2 đóng vai trò quan trọng trong bảo mật của việc phát sinh ví HD trong giao thức Bitcoin. HMAC-SHA-512 được sử dụng để bảo vệ chống lại các cuộc tấn công mở rộng độ dài, trong khi PBKDF2 cho phép chuyển đổi cụm từ ghi nhớ thành hạt giống. Mã chuỗi thêm một nguồn entropy bổ sung trong việc phát sinh khóa, đảm bảo sự vững chắc của hệ thống.
+Kết luận, các thuật toán HMAC và PBKDF2 đóng vai trò quan trọng đối với bảo mật của việc phái sinh ví HD trong giao thức Bitcoin. HMAC-SHA-512 được sử dụng để bảo vệ chống lại các cuộc tấn công mở rộng độ dài, trong khi PBKDF2 cho phép chuyển đổi cụm từ ghi nhớ thành hạt giống. Mã chuỗi sẽ được thêm một nguồn entropy bổ sung trong quá trình phái sinh khóa, đảm bảo sự vững chắc của hệ thống.
 
 # Chữ ký số
 <partId>76b58a00-0c18-54b9-870d-6b7e34029db8</partId>
 
-## Chữ ký số và Đường cong Elliptic
+## Chữ ký số và đường cong e-líp
 <chapterId>c9dd9672-6da1-57f8-9871-8b28994d4c1a</chapterId>
 
-Những bitcoin nổi tiếng này được lưu trữ ở đâu? Không phải trong một ví Bitcoin, như một số người có thể nghĩ. Trên thực tế, một ví Bitcoin lưu trữ các khóa riêng cần thiết để chứng minh quyền sở hữu của bitcoin. Chính bitcoin được ghi lại trên blockchain, một cơ sở dữ liệu phi tập trung lưu trữ tất cả các giao dịch.
+Các đồng bitcoin thực sự được lưu trữ ở đâu? Không phải trong một ví Bitcoin, như cách nhiều người có thể nghĩ. Trên thực tế, một ví Bitcoin lưu trữ các khóa riêng tư cần thiết để chứng minh quyền sở hữu bitcoin. Các đồng (mẩu) bitcoin được ghi lại trên blockchain, một cơ sở dữ liệu phi tập trung lưu trữ tất cả các giao dịch.
 
-Trong hệ thống Bitcoin, đơn vị tính là bitcoin (chú ý là "b" viết thường). Nó có thể chia nhỏ đến tám chữ số thập phân, với đơn vị nhỏ nhất là satoshi. UTXOs, hay "Unspent Transaction Outputs," đại diện cho các đầu ra giao dịch chưa được tiêu thuộc về một khóa công khai được liên kết toán học với một khóa riêng. Để tiêu những bitcoin này, người ta phải có khả năng thỏa mãn điều kiện chi tiêu của giao dịch. Một điều kiện chi tiêu điển hình bao gồm việc chứng minh cho phần còn lại của mạng lưới rằng người dùng là chủ sở hữu hợp pháp của khóa công khai liên kết với UTXO. Để làm điều này, người dùng phải chứng minh sở hữu khóa riêng tương ứng với khóa công khai liên kết với mỗi UTXO mà không tiết lộ khóa riêng.
+Trong hệ thống Bitcoin, đơn vị tính là bitcoin (chú ý là "b" viết thường). Nó có thể chia nhỏ đến tám chữ số thập phân, với đơn vị nhỏ nhất là satoshi. UTXO, hay "Unspent Transaction Outputs - Đầu ra chưa được chi tiêu," đại diện cho các đầu ra của giao dịch chưa được chi tiêu thuộc về một khóa công khai được liên kết toán học với một khóa riêng tư. Để tiêu những bitcoin này, người ta phải đáp ứng các điều kiện chi tiêu của giao dịch. Một điều kiện chi tiêu điển hình bao gồm việc chứng minh cho phần còn lại của mạng lưới rằng người dùng là chủ sở hữu hợp pháp của khóa công khai liên kết với UTXO đó. Để làm điều này, người dùng phải chứng minh rằng họ là người sở hữu khóa riêng tư tương ứng với khóa công khai liên kết với mỗi UTXO mà không tiết lộ khóa riêng tư.
 
-Đây là nơi chữ ký số xuất hiện. Nó phục vụ như một bằng chứng toán học về việc sở hữu một khóa riêng liên kết với một khóa công khai cụ thể. Kỹ thuật bảo vệ dữ liệu này chủ yếu dựa trên một lĩnh vực hấp dẫn của mật mã học gọi là mật mã học đường cong elliptic (ECC).
+Đây là vai trò của chữ ký số. Nó cung cấp bằng chứng toán học về việc sở hữu một khóa riêng tư liên kết với một khóa công khai cụ thể. Kỹ thuật bảo vệ dữ liệu này chủ yếu dựa trên một lĩnh vực hấp dẫn của mật mã học gọi là mật mã học đường cong e-líp (ECC - Elliptic Curve Cryptography).
 
 Chữ ký có thể được xác minh một cách toán học bởi các thành viên khác trong mạng lưới Bitcoin.
-Để đảm bảo an ninh cho các giao dịch, Bitcoin dựa vào hai giao thức chữ ký số: ECDSA (Elliptic Curve Digital Signature Algorithm) và Schnorr. ECDSA đã được tích hợp vào Bitcoin kể từ khi nó được ra mắt vào năm 2009, trong khi chữ ký Schnorr được thêm vào gần đây hơn vào tháng 11 năm 2021. Mặc dù cả hai giao thức đều dựa trên mật mã học đường cong elliptic và sử dụng các cơ chế toán học tương tự, chúng chủ yếu khác biệt về cấu trúc chữ ký.
+Để đảm bảo tính an toàn cho các giao dịch, Bitcoin sử dụng hai giao thức chữ ký số: ECDSA (Elliptic Curve Digital Signature Algorithm - Thuật toán chữ ký số sử dụng đường cong e-líp) và Schnorr. ECDSA đã được tích hợp vào Bitcoin từ lúc nó được ra mắt vào năm 2009, trong khi chữ ký Schnorr được thêm vào gần đây vào tháng 11 năm 2021. Mặc dù cả hai giao thức đều dựa trên mật mã học đường cong e-líp và sử dụng các cơ chế toán học tương tự, sự khác biệt chủ yếu là ở cấu trúc của chữ ký.
 
 Trong khóa học này, chúng ta sẽ giới thiệu về thuật toán ECDSA.
 
-### Đường cong elliptic là gì?
+### Đường cong e-líp là gì?
 
-Mật mã học đường cong elliptic là một tập hợp các thuật toán sử dụng đường cong elliptic cho các tính chất hình học và toán học đa dạng của nó trong bối cảnh mật mã, với độ an toàn dựa trên độ khó của việc tính toán logarit rời rạc.
+Mật mã học đường cong e-líp là một tập hợp các thuật toán sử dụng đường cong e-líp dựa trên các tính chất hình học và toán học đa dạng của nó vào lĩnh vực mật mã, và tính bảo mật của nó dựa trên độ khó của việc tính toán logrit rời rạc.
 
-Đường cong elliptic hữu ích trong nhiều ứng dụng mật mã trong giao thức Bitcoin, từ trao đổi khóa đến mã hóa không đối xứng và chữ ký số.
+Đường cong e-líp hữu ích trong nhiều ứng dụng mật mã học của giao thức Bitcoin, từ trao đổi khóa đến mã hóa không đối xứng và chữ ký số.
 
-Đường cong elliptic có những tính chất thú vị:
+Đường cong e-líp có những tính chất thú vị như sau:
 
-- Đối xứng: Bất kỳ đường thẳng không dọc nào cắt qua hai điểm trên đường cong elliptic sẽ gặp đường cong tại một điểm thứ ba.
-- Bất kỳ đường thẳng không dọc nào tiếp xúc với đường cong tại một điểm sẽ luôn gặp đường cong tại một điểm thứ hai duy nhất.
+- **Đối xứng:** Bất kỳ đường thẳng không thẳng đứng nào cắt qua hai điểm trên đường cong e-líp sẽ cắt đường cong tại một điểm thứ ba.
+- Bất kỳ đường thẳng không thẳng đứng nào tiếp tuyến với đường cong tại một điểm sẽ luôn cắt đường cong tại một điểm thứ hai duy nhất.
 
-Giao thức Bitcoin sử dụng một đường cong elliptic cụ thể gọi là Secp256k1 cho các hoạt động mật mã của mình.
+Giao thức Bitcoin sử dụng một đường cong e-líp cụ thể gọi là Secp256k1 cho các hoạt động liên quan tới mật mã của mình.
 
-Trước khi đi sâu vào các cơ chế chữ ký này, điều quan trọng là phải hiểu đường cong elliptic là gì. Một đường cong elliptic được định nghĩa bởi phương trình y² = x³ + ax + b. Mỗi điểm trên đường cong này có một đối xứng đặc trưng quan trọng cho việc sử dụng của nó trong mật mã.
+Trước khi đi sâu vào các cơ chế về chữ ký, điều quan trọng là phải hiểu đường cong e-líp là gì. Một đường cong e-líp được định nghĩa bởi phương trình y² = x³ + ax + b. Mỗi điểm trên đường cong này đều có một điểm đối xứng đặc biệt, và tính chất đối xứng này là chìa khoá để đường cong e-líp được sử dụng trong mật mã học.
 
-Cuối cùng, các đường cong elliptic khác nhau được công nhận là an toàn cho việc sử dụng mật mã. Đường cong được biết đến nhiều nhất có thể là secp256r1. Tuy nhiên, đối với Bitcoin, Satoshi Nakamoto đã chọn một đường cong khác: secp256k1.
+![image](assets/image/section2/1.webp)
 
-Đường cong này được định nghĩa bởi các tham số a=0 và b=7, và phương trình của nó là y² = x³ + 7 modulo n, nơi n đại diện cho số nguyên tố quyết định thứ tự của đường cong.
+Cuối cùng, có nhiều đường cong e-líp khác nhau được công nhận là an toàn để sử dụng trong lĩnh vực mật mã học. Đường cong được biết đến nhiều nhất có lẽ là secp256r1. Tuy nhiên, đối với Bitcoin, Satoshi Nakamoto đã chọn một đường cong khác: secp256k1.
 
-Hình ảnh đầu tiên đại diện cho đường cong secp256k1 trên trường số thực và phương trình của nó.
-Hình ảnh thứ hai là biểu diễn của đường cong secp256k1 trên trường ZP, trường của các số tự nhiên dương, modulo p nơi p là một số nguyên tố. Nó trông giống như một đám mây điểm. Chúng ta sử dụng trường của các số tự nhiên dương này để tránh xấp xỉ.
-p là một số nguyên tố, và đó là thứ tự của đường cong được sử dụng.
-Cuối cùng, phương trình được sử dụng trong giao thức Bitcoin là:$$
-y^2 = (x^3 + 7) mod(p) $$
-Phương trình của đường cong elliptic trong Bitcoin tương ứng với phương trình cuối cùng trong hình ảnh trước.
+Đường cong này được định nghĩa bởi các tham số a=0 và b=7, và phương trình của nó là y² = x³ + 7 modulo n, nơi n đại diện cho số nguyên tố quyết định bậc của đường cong.
 
-Trong phần tiếp theo của khóa học này, chúng ta sẽ sử dụng các đường cong trên trường số thực chỉ để dễ dàng hiểu hơn.
+![image](assets/image/section2/2.webp)
 
-## Tính khóa công khai từ khóa riêng
+Hình đầu tiên biểu diễn đường cong secp256k1 trên trường số thực và phương trình của nó.
+Hình thứ hai biểu diễn đường cong secp256k1 trên trường ZP, trường của các số tự nhiên dương, modulo p nơi p là một số nguyên tố. Nó trông giống như một đám mây các điểm. Chúng ta sử dụng trường của các số tự nhiên dương này để tránh các xấp xỉ.
+p là một số nguyên tố, và đó là bậc của đường cong được sử dụng.
+Cuối cùng, phương trình được sử dụng trong giao thức Bitcoin là:
+$$
+y^2 = (x^3 + 7) mod(p) 
+$$
+Phương trình của đường cong e-líp trong Bitcoin tương ứng với phương trình cuối cùng trong ở hình trên.
+
+Trong phần tiếp theo của khóa học này, chúng ta sẽ sử dụng các đường cong e-líp trên trường số thực để dễ hiểu hơn.
+
+## Tính khóa công khai từ khóa riêng tư
 <chapterId>fcb2bd58-5dda-5ecf-bb8f-ad1a0561ab4a</chapterId>
 
-Đầu tiên, hãy khám phá thế giới của Elliptic Curve Digital Signature Algorithm (ECDSA). Bitcoin sử dụng thuật toán chữ ký số này để liên kết khóa riêng và khóa công khai. Trong hệ thống này, khóa riêng là một số 256-bit ngẫu nhiên hoặc giả ngẫu nhiên. Tổng số khả năng cho một khóa riêng lý thuyết là 2^256, nhưng thực tế, nó ít hơn một chút. Để chính xác, một số khóa riêng 256-bit không hợp lệ cho Bitcoin.
-Để tương thích với Bitcoin, một khóa riêng phải nằm trong khoảng từ 1 đến n-1, nơi n biểu thị thứ tự của đường cong elliptic. Điều này có nghĩa là tổng số khả năng cho một khóa riêng Bitcoin gần bằng 1.158 x 10^77. Để đặt vào một góc nhìn, số lượng này tương đương với số lượng nguyên tử có mặt trong vũ trụ quan sát được.
+Đầu tiên, hãy đi sâu vào thuật toán chữ ký số sử dụng đường cong e-líp (ECDSA). Bitcoin sử dụng thuật toán chữ ký số này để liên kết khóa riêng tư với khóa công khai. Trong hệ thống này, khóa riêng tư là một số ngẫu nhiên hoặc giả ngẫu nhiên có kích thước 256 bit. Tổng số khả năng cho một khóa riêng tư theo lý thuyết là 2^256, nhưng thực tế, con số này ít hơn một chút. Chính xác hơn, một số khóa riêng tư 256 bit không hợp lệ đối với Bitcoin.
+Để tương thích với Bitcoin, một khóa riêng phải nằm trong khoảng từ 1 đến n-1, với n là bậc của đường cong e-líp. Điều này có nghĩa là tổng số khả năng cho một khóa riêng tư Bitcoin gần bằng 1.158 x 10^77. Để dễ hình dung, số lượng này tương đương với số lượng nguyên tử có mặt trong vũ trụ có thể quan sát được.
 ![image](assets/image/section2/3.webp)
 
-Khóa riêng độc nhất, được ký hiệu là k, sau đó được sử dụng để xác định một khóa công khai.
+Khóa riêng tư độc nhất, được ký hiệu là k, sau đó nó được sử dụng để xác định một khóa công khai.
 
-Khóa công khai, được ký hiệu là K, là một điểm trên đường cong elliptic được suy ra từ khóa riêng thông qua các thuật toán không thể đảo ngược như ECDSA. Khi chúng ta biết khóa riêng, việc truy xuất khóa công khai rất dễ dàng, nhưng khi chỉ có khóa công khai, việc truy xuất khóa riêng là không thể. Tính không thể đảo ngược này là nền tảng của bảo mật ví Bitcoin.
+Khóa công khai, được ký hiệu là K, là một điểm trên đường cong e-líp được suy ra từ khóa riêng thông qua các thuật toán không thể đảo ngược như ECDSA. Khi chúng ta biết khóa riêng tư, việc truy xuất khóa công khai rất dễ dàng, nhưng khi chỉ có khóa công khai, việc truy xuất ngược lại khóa riêng tư là không thể. Tính không thể đảo ngược này là nền tảng của tính bảo mật đối với ví Bitcoin.
 
-Khóa công khai dài 512 bit vì nó tương ứng với một điểm trên đường cong với tọa độ x là 256 bit và tọa độ y là 256 bit. Tuy nhiên, nó có thể được nén thành một số 264-bit.
+Khóa công khai dài 512 bit vì nó tương ứng với một điểm trên đường cong với tọa độ x là 256 bit và tọa độ y là 256 bit. Tuy nhiên, nó có thể được nén thành một số có kích thước 264 bit.
 
 ![image](assets/image/section2/4.webp)
 
-Điểm sinh (G) là điểm trên đường cong từ đó tất cả các khóa công khai được tạo ra trong giao thức Bitcoin. Nó có tọa độ x và y cụ thể, thường được biểu diễn bằng hệ thập lục phân. Đối với secp256k1, tọa độ của G là, bằng hệ thập lục phân:
+Điểm sinh (G) là điểm trên đường cong mà từ đó tất cả các khóa công khai được tạo ra trong giao thức Bitcoin. Nó có tọa độ x và y cụ thể, thường được biểu diễn bằng hệ thập lục phân. Đối với secp256k1, tọa độ theo hệ thập lục phân của G:
 
 - `Gx = 79BE667E F9DCBBAC 55A06295 CE870B07 029BFCDB 2DCE28D9 59F2815B 16F81798`
 - `Gy = 483ADA77 26A3C465 5DA4FBFC 0E1108A8 FD17B448 A6855419 9C47D08F FB10D4B8`
-Điểm này hữu ích cho việc suy ra tất cả các khóa công khai. Để tính khóa công khai K, chỉ cần nhân điểm G với khóa riêng k, sao cho: K = k.G
+Điểm này được sử dụng suy ra tất cả các khóa công khai. Để tính khóa công khai K, chỉ cần nhân điểm G với khóa riêng k, sao cho: K = k.G
 
-Chúng ta sẽ nghiên cứu cách thêm và nhân các điểm trên đường cong elliptic.
+Chúng ta sẽ nghiên cứu cách cộng và nhân các điểm trên đường cong e-líp.
 
-#### Phép cộng và nhân đôi điểm trên đường cong elliptic
+#### Phép cộng và nhân đôi các điểm trên đường cong e-líp
 
 ##### Cộng hai điểm M + L
 
-Một trong những tính chất đáng chú ý của đường cong elliptic là một đường thẳng không dọc cắt đường cong tại hai điểm cũng sẽ cắt nó tại một điểm thứ ba, gọi là điểm O trong ví dụ của chúng ta. Tính chất này được sử dụng để xác định điểm U, là điểm đối diện của điểm O.
+Một trong những tính chất đáng chú ý của đường cong e-líp là một đường thẳng không dọc cắt đường cong tại hai điểm cũng sẽ cắt nó tại một điểm thứ ba, gọi là điểm O trong ví dụ của chúng ta. Tính chất này được sử dụng để xác định điểm U, là điểm đối diện của điểm O.
 
 M + L = U
 
@@ -341,18 +351,18 @@ M + L = U
 
 ##### Cộng một điểm với chính nó = Nhân đôi điểm
 
-Việc cộng một điểm G với chính nó được thực hiện bằng cách vẽ một tiếp tuyến tại điểm đó trên đường cong. Tiếp tuyến này, theo các tính chất của đường cong elliptic, sẽ cắt đường cong tại một điểm duy nhất thứ hai -J. Điểm đối diện của điểm này, J, là kết quả của việc cộng điểm G với chính nó.
+Việc cộng một điểm G với chính nó được thực hiện bằng cách vẽ một tiếp tuyến tại điểm đó trên đường cong. Tiếp tuyến này, theo các tính chất của đường cong e-líp, sẽ cắt đường cong tại một điểm duy nhất thứ hai -J. Điểm đối diện của điểm này, J, là kết quả của việc cộng điểm G với chính nó.
 G + G = J
 
 Thực tế, điểm G là điểm bắt đầu để tính toán tất cả các khóa công khai của người dùng hệ thống Bitcoin.
 
 ![image](assets/image/section2/6.webp)
 
-#### Phép nhân vô hướng trên đường cong elliptic
+#### Phép nhân vô hướng trên đường cong e-líp
 
 Phép nhân vô hướng của một điểm với n tương đương với việc cộng điểm đó với chính nó n lần.
 
-Tương tự như nhân đôi điểm, phép nhân vô hướng của điểm G với một điểm n được thực hiện bằng cách vẽ một tiếp tuyến tại điểm G. Tiếp tuyến này, theo các tính chất của đường cong elliptic, sẽ cắt đường cong tại một điểm duy nhất thứ hai -2G. Điểm đối diện của điểm này, 2G, là kết quả của việc cộng điểm G với chính nó.
+Tương tự như nhân đôi điểm, phép nhân vô hướng của điểm G với một điểm n được thực hiện bằng cách vẽ một tiếp tuyến tại điểm G. Tiếp tuyến này, theo các tính chất của đường cong e-líp, sẽ cắt đường cong tại một điểm duy nhất thứ hai -2G. Điểm đối diện của điểm này, 2G, là kết quả của việc cộng điểm G với chính nó.
 Nếu n = 4, thì thao tác được lặp lại cho đến khi đạt được 4G.
 ![image](assets/image/section2/7.webp)
 
@@ -360,8 +370,8 @@ Dưới đây là một ví dụ tính toán cho 3G:
 
 ![image](assets/image/section2/8.webp)
 
-Những thao tác trên các điểm của một đường cong elliptic là cơ sở để tính toán khóa công khai. Việc suy ra khóa công khai khi biết khóa riêng là rất dễ dàng.
-Khóa công khai là một điểm trên đường cong elliptic, nó là kết quả của việc cộng và nhân đôi điểm G k lần. Với k = khóa riêng.
+Những thao tác trên các điểm của một đường cong e-líp là cơ sở để tính toán khóa công khai. Việc suy ra khóa công khai khi biết khóa riêng là rất dễ dàng.
+Khóa công khai là một điểm trên đường cong e-líp, nó là kết quả của việc cộng và nhân đôi điểm G k lần. Với k = khóa riêng.
 
 Trong ví dụ này:
 
@@ -387,12 +397,12 @@ Các bước:
 - Xác định một nonce v, là một số ngẫu nhiên duy nhất.
   Nonce = Số Chỉ Sử Dụng Một Lần.
   Nó được xác định bởi người thực hiện chữ ký.
-- Tính toán bằng cách cộng và nhân đôi các điểm trên đường cong elliptic từ điểm G, vị trí của V trên đường cong elliptic.
+- Tính toán bằng cách cộng và nhân đôi các điểm trên đường cong e-líp từ điểm G, vị trí của V trên đường cong e-líp.
   Sao cho V = v.G
   x và y là tọa độ của V trên mặt phẳng.
 - Tính S1.
   S1 = x mod n với n = thứ tự của đường cong và x là một tọa độ của V trên mặt phẳng.
-  Lưu ý: Số lượng khóa công khai có thể có lớn hơn số điểm trên đường cong elliptic trong trường số nguyên dương hữu hạn được sử dụng trong Bitcoin.
+  Lưu ý: Số lượng khóa công khai có thể có lớn hơn số điểm trên đường cong e-líp trong trường số nguyên dương hữu hạn được sử dụng trong Bitcoin.
   Thứ tự của đường cong chỉ tương ứng với các khả năng mà khóa công khai có thể nhận trên đường cong.
 - Tính S2.
   H(Tx) = Hash của giao dịch
@@ -419,7 +429,7 @@ Bây giờ là lúc để tiến hành xác minh chữ ký số.
 Xác minh chữ ký số là một bước quan trọng trong việc sử dụng thuật toán ECDSA, cho phép xác nhận tính xác thực của một thông điệp đã ký mà không cần khóa riêng của người gửi. Dưới đây là cách thức hoạt động chi tiết:
 
 Trong ví dụ của chúng ta, chúng ta có hai giá trị quan trọng: t và V.
-t là một giá trị số (7 trong ví dụ này), và V là một điểm trên đường cong elliptic (được biểu diễn bởi 4G ở đây). Những giá trị này được tạo ra trong quá trình tạo chữ ký số và sau đó được gửi kèm với thông điệp để cho phép xác minh.
+t là một giá trị số (7 trong ví dụ này), và V là một điểm trên đường cong e-líp (được biểu diễn bởi 4G ở đây). Những giá trị này được tạo ra trong quá trình tạo chữ ký số và sau đó được gửi kèm với thông điệp để cho phép xác minh.
 
 Khi người xác minh nhận được thông điệp, họ cũng sẽ nhận được hai giá trị này, t và V.
 
@@ -429,8 +439,8 @@ Dưới đây là các bước mà người xác minh sẽ thực hiện để x
 2. Sau đó, họ sẽ tính u1 và u2. Để làm điều này, họ sẽ sử dụng các công thức sau:
    - u1 = H /\* (S2)^-1 mod n
    - u2 = T /\* (S2)^-1 mod n
-     Nơi S2 là phần thứ hai của chữ ký số, n là thứ tự của đường cong elliptic, và (S2)^-1 là nghịch đảo của S2 mod n.
-3. Người xác minh sau đó sẽ tính một điểm P' trên đường cong elliptic sử dụng công thức: P' = u1 _ G + u2 _ K
+     Nơi S2 là phần thứ hai của chữ ký số, n là thứ tự của đường cong e-líp, và (S2)^-1 là nghịch đảo của S2 mod n.
+3. Người xác minh sau đó sẽ tính một điểm P' trên đường cong e-líp sử dụng công thức: P' = u1 _ G + u2 _ K
    - G là điểm sinh của đường cong
    - K là khóa công khai của người gửi
 4. Người xác minh sau đó sẽ tính I', đơn giản là tọa độ x của điểm P' modulo n.
@@ -448,7 +458,7 @@ Các bước để xác minh chữ ký số như sau:
 - Người xác minh tính số t.G.
 - Người xác minh kiểm tra kết quả của t.G có thực sự bằng với số T' hay không.
 
-Kết luận, xác minh chữ ký số là một thủ tục thiết yếu trong các giao dịch Bitcoin. Nó đảm bảo rằng thông điệp đã ký không bị thay đổi trong quá trình truyền và người gửi thực sự là chủ sở hữu của khóa riêng. Kỹ thuật xác thực số này dựa trên các nguyên tắc toán học phức tạp, bao gồm cả số học đường cong elliptic, trong khi vẫn bảo mật khóa riêng. Nó cung cấp một nền tảng an ninh vững chắc cho các giao dịch mật mã.
+Kết luận, xác minh chữ ký số là một thủ tục thiết yếu trong các giao dịch Bitcoin. Nó đảm bảo rằng thông điệp đã ký không bị thay đổi trong quá trình truyền và người gửi thực sự là chủ sở hữu của khóa riêng. Kỹ thuật xác thực số này dựa trên các nguyên tắc toán học phức tạp, bao gồm cả số học đường cong e-líp, trong khi vẫn bảo mật khóa riêng. Nó cung cấp một nền tảng an ninh vững chắc cho các giao dịch mật mã.
 
 Điều đó được nói, việc quản lý những khóa này, cũng như việc tạo ra chúng, là một câu hỏi thiết yếu khác trong Bitcoin. Làm thế nào để tạo ra một cặp khóa mới? Làm thế nào để tổ chức một cách an toàn và hiệu quả một lượng lớn khóa? Làm thế nào để khôi phục chúng nếu cần thiết?
 Để trả lời những câu hỏi này và mở rộng hiểu biết của bạn về bảo mật mã hóa, khóa học tiếp theo của chúng tôi sẽ tập trung vào khái niệm về Ví Phân Cấp Xác Định (Hierarchical Deterministic Wallets - HD wallets) và việc sử dụng cụm từ ghi nhớ. Những cơ chế này cung cấp những cách thức tinh tế để quản lý hiệu quả các khóa tiền mã hóa của bạn trong khi tăng cường bảo mật.
@@ -643,7 +653,7 @@ Có hai loại cặp khóa con: cặp củng cố và cặp bình thường. Qu�
 ![image](assets/image/section4/11.webp)
 ![image](assets/image/section4/12.webp)
 
-Quá trình củng cố sử dụng khóa riêng tư cha, trong khi quá trình bình thường sử dụng khóa công khai cha. Hàm HMAC-SHA512 được sử dụng cho quá trình củng cố, trong khi quá trình bình thường sử dụng một bản tóm tắt 512-bit. Khóa công khai con được thu được bằng cách nhân khóa riêng tư con với bộ sinh đường cong elliptic.
+Quá trình củng cố sử dụng khóa riêng tư cha, trong khi quá trình bình thường sử dụng khóa công khai cha. Hàm HMAC-SHA512 được sử dụng cho quá trình củng cố, trong khi quá trình bình thường sử dụng một bản tóm tắt 512-bit. Khóa công khai con được thu được bằng cách nhân khóa riêng tư con với bộ sinh đường cong e-líp.
 
 ![image](assets/image/section4/13.webp)
 ![image](assets/image/section4/14.webp)
@@ -691,7 +701,7 @@ Trong chương này, chúng ta sẽ khám phá các địa chỉ nhận, đóng 
 
 ![image](assets/image/section5/0.webp)
 
-Khi người nhận muốn nhận bitcoin, họ cung cấp một địa chỉ nhận cho người gửi thay vì khóa công khai của họ. Một địa chỉ thực sự là một băm của khóa công khai, với một định dạng cụ thể. Khóa công khai được phái sinh từ khóa riêng con thông qua các phép toán toán học như cộng điểm và nhân đôi trên đường cong elliptic.
+Khi người nhận muốn nhận bitcoin, họ cung cấp một địa chỉ nhận cho người gửi thay vì khóa công khai của họ. Một địa chỉ thực sự là một băm của khóa công khai, với một định dạng cụ thể. Khóa công khai được phái sinh từ khóa riêng con thông qua các phép toán toán học như cộng điểm và nhân đôi trên đường cong e-líp.
 
 ![image](assets/image/section5/1.webp)
 
@@ -715,7 +725,7 @@ Trong chương này, chúng ta sẽ thảo luận về việc xây dựng một 
 ![image](assets/image/section5/14.webp)
 
 Một địa chỉ được phái sinh từ một khóa công khai con.
-Một khóa công khai là một điểm trên đường cong elliptic. Nhờ vào tính đối xứng của đường cong elliptic, một điểm trên đường cong elliptic sẽ có một tọa độ x liên kết với chỉ hai giá trị có thể có của y: dương hoặc âm. Tuy nhiên, trong giao thức Bitcoin, chúng ta làm việc với một tập hợp hữu hạn các số nguyên dương thay vì với tập hợp các số thực. Để phân biệt giữa hai giá trị có thể có của y, chỉ cần chỉ ra liệu y là chẵn hay lẻ.
+Một khóa công khai là một điểm trên đường cong e-líp. Nhờ vào tính đối xứng của đường cong e-líp, một điểm trên đường cong e-líp sẽ có một tọa độ x liên kết với chỉ hai giá trị có thể có của y: dương hoặc âm. Tuy nhiên, trong giao thức Bitcoin, chúng ta làm việc với một tập hợp hữu hạn các số nguyên dương thay vì với tập hợp các số thực. Để phân biệt giữa hai giá trị có thể có của y, chỉ cần chỉ ra liệu y là chẵn hay lẻ.
 
 Việc nén một khóa công khai giảm kích thước của nó từ 520 bit xuống còn 264 bit.
 

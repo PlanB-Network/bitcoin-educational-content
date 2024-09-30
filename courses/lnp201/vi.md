@@ -345,7 +345,7 @@ HTLC là một hợp đồng thanh toán chỉ có thể được mở khóa b�
 
 Xem xét tình huống sau:
 `Alice (100.000 SAT) ==== (30.000 SAT) Susie (250.000 SAT) ==== (0 SAT) Bob`
-- Bob tạo ra một bí mật S (một hình ảnh trước - preimage) và tính toán mã băm r = hash(s)
+- Bob tạo ra một bí mật S (nghịch ảnh - preimage) và tính toán mã băm r = hash(s)
 - Bob gửi một hóa đơn cho Alice và bao gồm "r" vào trong
 - Alice gửi một HTLC của 40.000 SAT cho Susie với điều kiện tiết lộ "s'" sao cho hash(s') = r
 - Susie gửi một HTLC tương tự cho Bob
@@ -374,7 +374,7 @@ Giao dịch cam kết của Alice có HTLC-out vì cô ấy gửi một HTLC-in 
 
 ![instruction](assets/chapitre8/3.webp)
 
-Do đó, nếu chúng ta công bố giao dịch cam kết này, Susie có thể lấy tiền HTCL với hình ảnh "s". Nếu cô ấy không có hình ảnh trước, Alice lấy lại tiền sau khi HTCL hết hạn. Hãy nghĩ về các đầu ra (UTXO) như là các khoản thanh toán khác nhau với các điều kiện khác nhau.
+Do đó, nếu chúng ta công bố giao dịch cam kết này, Susie có thể lấy tiền HTCL với hình ảnh "s". Nếu cô ấy không có nghịch ảnh, Alice lấy lại tiền sau khi HTCL hết hạn. Hãy nghĩ về các đầu ra (UTXO) như là các khoản thanh toán khác nhau với các điều kiện khác nhau.
 Một khi thanh toán được thực hiện (hết hạn hoặc thực thi), trạng thái kênh thay đổi và giao dịch với HTCL không còn tồn tại nữa. Chúng ta quay trở lại với một giao dịch thông thường.
 Trong trường hợp đóng kênh đồng thuận: chúng ta dừng thanh toán và do đó chờ đợi thực thi các chuyển khoản/HTCL, giao dịch nhẹ hơn nên ít tốn kém hơn vì có tối đa 1 hoặc 2 đầu ra.
 Nếu đóng cửa cưỡng chế: chúng ta công bố với tất cả các HTLC đang tiến hành, vì vậy nó trở nên rất nặng và rất tốn kém. Và đó là một mớ hỗn độn.
@@ -431,7 +431,7 @@ Thông tin được gửi trở lại, vì vậy Alice quyết định thử tuy
 - 2 tạo một HTLC 100.000 cho 4;
 - 4 tạo một HTLC 100.000 cho 5;
 - 5 tạo một HTLC 100.000 cho Bob. 5 có đủ thanh khoản, vì vậy mọi thứ ổn.
-- Bob sử dụng preimage (hash) của HTLC và do đó sử dụng bí mật để nhận 100.000 SAT từ 5
+- Bob sử dụng nghịch ảnh (hash) của HTLC và do đó sử dụng bí mật để nhận 100.000 SAT từ 5
 - 5 giờ đây có bí mật của HTLC để lấy lại HTLC bị chặn từ 4
 - 4 giờ đây có bí mật của HTLC để lấy lại HTLC bị chặn từ 2
 - 2 giờ đây có bí mật của HTLC để lấy lại HTLC bị chặn từ 1
@@ -441,7 +441,7 @@ Alice không thấy lỗi của tuyến đường thứ nhất, cô chỉ chờ 
 
 - Số tiền
 - Địa chỉ của anh ấy
-- Hash của hình ảnh trước để Alice có thể tạo HTLC
+- Hash của nghịch ảnh để Alice có thể tạo HTLC
 - Thông tin về các kênh của Bob
 Bob biết về tính thanh khoản của các kênh với 5 và 3 vì anh ấy trực tiếp kết nối với chúng, anh ấy có thể gửi thông tin này cho Alice. Anh ấy có thể cảnh báo Alice rằng node 3 là không hữu dụng với khoản thanh toán này, điều này giúp Alice không đi theo tuyến đường có chứa node số 3. Một yếu tố khác là các kênh riêng tư (không được công bố trên mạng) mà Bob có thể có. Nếu Bob có một kênh riêng tư với 1, anh ấy có thể nói với Alice sử dụng nó và tuyến đường lúc này sẽ rất ngắn là `Alice > 1 > Bob'.
 
@@ -450,7 +450,7 @@ Bob biết về tính thanh khoản của các kênh với 5 và 3 vì anh ấy 
 Kết luận, việc định tuyến giao dịch trên Lightning Network là một quá trình phức tạp đòi hỏi phải xem xét đến nhiều yếu tố khác nhau. Mặc dù tổng dung lượng của các kênh là công khai, nhưng mức phân bổ thanh khoản chính xác cho các bên trong kênh là thông tin không thể truy cập được. Điều này buộc các node phải ước tính các tuyến đường có xác suất thành công cao nhất, có xét đến các tiêu chí như phí, thời gian hết hạn HTLC, số lượng node trung gian và yếu tố ngẫu nhiên. 
 Khi có nhiều tuyến đường khả dĩ, các node tìm cách giảm thiểu phí và tối đa hóa cơ hội thành công bằng cách chọn các kênh có đủ thanh khoản và số bước nhảy trung gian tối thiểu. Nếu một nỗ lực giao dịch thất bại do thiếu thanh khoản, một tuyến đường khác sẽ được thử cho đến khi giao dịch được thực hiện thành công.
 
-Hơn nữa, để hỗ trợ người gửi tìm kiếm tuyến đường thành công, người nhận có thể cung cấp các thông tin bổ sung như địa chỉ, số tiền, mã băm của hình ảnh trước, và thông tin về các kênh của họ. Điều này sẽ giúp người gửi xác định các kênh có đủ thanh khoản và tránh các nỗ lực giao dịch không cần thiết. 
+Hơn nữa, để hỗ trợ người gửi tìm kiếm tuyến đường thành công, người nhận có thể cung cấp các thông tin bổ sung như địa chỉ, số tiền, mã băm của nghịch ảnh, và thông tin về các kênh của họ. Điều này sẽ giúp người gửi xác định các kênh có đủ thanh khoản và tránh các nỗ lực giao dịch không cần thiết. 
 Cuối cùng, hệ thống định tuyến của Lightning Network được thiết kế để tối ưu hóa tốc độ, an ninh, và hiệu quả của các giao dịch đồng thời bảo vệ tốt quyền riêng tư của người dùng.
 
 # Các công cụ của Lightning Network
@@ -489,7 +489,7 @@ Vui lòng thanh toán 100.000 SAT trên Lightning Network của mạng chính Bi
 
 Nó chứa 0 hoặc nhiều phần bổ sung:
 
-- Mã băm của hình ảnh trước (preimage)
+- Mã băm của nghịch ảnh (preimage)
 - Bí mật thanh toán (onion routing)
 - Dữ liệu tùy ý
 - Khóa công khai LN của người nhận
@@ -501,11 +501,11 @@ Có các loại hóa đơn khác. Giao thức **meta LNURL** cho phép cung cấ
 
 ![cover](assets/chapitre10/2.webp)
 
-**Keysend** cho phép Alice gửi tiền cho Bob mà không cần yêu cầu của Bob. Alice lấy ID của Bob, tạo một hình ảnh trước mà không hỏi Bob, và bao gồm nó trong khoản thanh toán của mình. Vì vậy, Bob sẽ nhận được một yêu cầu bất ngờ nơi anh có thể mở khóa tiền vì Alice đã làm tất cả mọi việc cần thiết.
+**Keysend** cho phép Alice gửi tiền cho Bob mà không cần yêu cầu của Bob. Alice lấy ID của Bob, tạo một nghịch ảnh mà không hỏi Bob, và bao gồm nó trong khoản thanh toán của mình. Vì vậy, Bob sẽ nhận được một yêu cầu bất ngờ nơi anh có thể mở khóa tiền vì Alice đã làm tất cả mọi việc cần thiết.
 
 ![cover](assets/chapitre10/3.webp)
 
-Kết luận, một hóa đơn LN, mặc dù có vẻ phức tạp lúc đầu, mã hóa hiệu quả một yêu cầu thanh toán. Mỗi phần của hóa đơn chứa các thông tin quan trọng, bao gồm số tiền phải trả, người nhận, nhãn thời gian, và có thể là thông tin khác như mã băm của hình ảnh trước, bí mật thanh toán, gợi ý định tuyến, và thời gian hết hạn. Các giao thức như LNURL và Keysend cung cấp những cải tiến đáng kể về sự linh hoạt và trải nghiệm người dùng, cho phép, ví dụ, gửi tiền mà không cần yêu cầu trước từ bên nhận. Những công nghệ này làm cho quá trình thanh toán trở nên mượt mà và hiệu quả hơn trên Lightning Network.
+Kết luận, một hóa đơn LN, mặc dù có vẻ phức tạp lúc đầu, mã hóa hiệu quả một yêu cầu thanh toán. Mỗi phần của hóa đơn chứa các thông tin quan trọng, bao gồm số tiền phải trả, người nhận, nhãn thời gian, và có thể là thông tin khác như mã băm của nghịch ảnh, bí mật thanh toán, gợi ý định tuyến, và thời gian hết hạn. Các giao thức như LNURL và Keysend cung cấp những cải tiến đáng kể về sự linh hoạt và trải nghiệm người dùng, cho phép, ví dụ, gửi tiền mà không cần yêu cầu trước từ bên nhận. Những công nghệ này làm cho quá trình thanh toán trở nên mượt mà và hiệu quả hơn trên Lightning Network.
 
 ## Quản lý thanh khoản
 <chapterId>cc76d0c4-d958-57f5-84bf-177e21393f48</chapterId>

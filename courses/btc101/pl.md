@@ -404,9 +404,9 @@ Do interakcji z siecią Bitcoin używamy portfeli, mają one 3 funkcje:
 - Umożliwiają wysyłanie bitcoinów
 - Zabezpieczają bitcoiny przed próbami hackingu i kradzieży
 
-Portfel może być oprogramowaniem na Twoim komputerze, aplikacją na Twoim smartfonie, fizycznym urządzeniem, takim jak klucz USB, a nawet kawałkiem papieru. Różne typy portfeli Bitcoin są przydatne w różnych sytuacjach. Niektóre są używane do bezpiecznego przechowywania dużych kwot, inne do zachowania prywatności, a jeszcze inne do codziennego obrotu małymi kwotami.
+Portfel może być oprogramowaniem na Twoim komputerze, aplikacją na Twoim smartfonie, fizycznym urządzeniem, takim jak klucz USB, a nawet kawałkiem papieru. Różne typy portfeli są przydatne w różnych sytuacjach. Niektóre są używane do bezpiecznego przechowywania dużych kwot, inne do ochrony prywatności, a jeszcze inne do codziennego obrotu małymi kwotami.
 
-Portfele są więc podzielone na grupy według sposobu ich użytkowania, ale najważniejszym pytaniem pozostaje zawsze: Czy jesteś właścicielem środków czy pozostawiasz kontrolę nad swoimi pieniędzmi stronie trzeciej? Wrócimy do tego tematu szczegółowo w następnym rozdziale, ale sprawa w zasadzie jest prosta: Czy pieniądze są w Twojej kieszeni czy w kieszeni Twojego bankiera?
+Ale niezaleznie od tego, w jakim celu używany jest dany portfel, najważniejszą kwestią pozostaje zawsze to, czy jesteś właścicielem swoich środków czy pozostawiasz kontrolę nad swoimi pieniędzmi stronie trzeciej. Wrócimy do tego tematu szczegółowo w następnym rozdziale, aczkolwiek pytanie w zasadzie jest proste: Czy pieniądze są w Twojej kieszeni czy w kieszeni Twojego bankiera?
 ![obraz](assets/Concept/chapitre5/3.jpeg)
 
 ### Jak działa portfel Bitcoin
@@ -414,79 +414,79 @@ Portfele są więc podzielone na grupy według sposobu ich użytkowania, ale naj
 Niezależnie od tego, czy właścicielem środków w portfelu jest Twój "bankier" Bitcoin, czy Ty sam, większość portfeli bazuje na podobnej technologii, tj. asymetrycznej kryptografii, a więc systemie par kluczy: prywatnego klucza do otrzymywania bitcoinów i publicznego klucza do ich wydawania.
 
 - Klucz prywatny
-  Podczas inicjalizacji portfela generowana jest sekretna fraza odzyskiwania (klucz prywatny) i przekazywana Tobie w formie 24 słów.
+  Podczas inicjalizacji portfela generowana jest fraza do odzyskiwania hasła (klucz prywatny), która jest Ci przekazana w formie 24 słów.
 
-  Klucz prywatny jest bardzo ważny, ponieważ reprezentuje własność Bitcoinów i zatem prawo do ich używania lub wysyłania. Posiadacz klucza prywatnego jest właścicielem Bitcoinów.
+  Klucz prywatny jest bardzo ważny, ponieważ potwierdza, kto jest właścicielem Bitcoinów i ma prawo do ich używania lub wysyłania. Posiadacz klucza prywatnego jest właścicielem Bitcoinów.
 
-  Ten klucz musi być trzymany w tajemnicy i dobrze zabezpieczony, ponieważ to klucz, który otwiera Twoje bogactwo!
+  Klucz ten musi być trzymany w tajemnicy i dobrze zabezpieczony, ponieważ to klucz, który otwiera drzwi do Twojego bogactwa!
 
 - Klucz publiczny i adres
-  Klucz publiczny jest tworzony z klucza prywatnego, jest więc z nim powiązany. Klucz publiczny jest używany do generowania adresów Bitcoin i tym samym do otrzymywania pieniędzy. Udostępnianie klucza publicznego wiąże się z ryzykiem dla prywatności, ale nie dla bezpieczeństwa.
-Te adresy są tworzone przez Twój portfel i można je bezpiecznie udostępniać. Zaleca się używanie każdego tylko raz, aby maksymalizować prywatność.
+  Klucz publiczny jest tworzony na podstawie klucza prywatnego, jest więc z nim powiązany. Klucz publiczny jest używany do generowania adresów Bitcoin i tym samym do otrzymywania pieniędzy. Udostępnianie klucza publicznego wiąże się z ryzykiem utraty prywatności, ale nie bezpieczeństwa.
+Adresy te są tworzone przez Twój portfel i można je bezpiecznie udostępniać. Zaleca się używanie każdego tylko raz, aby maksymalizować prywatność.
 Dlatego ważne jest, aby zrozumieć, że dzięki tej technologii możemy łatwo otrzymywać Bitcoiny, nie pozwalając nadawcy na kradzież naszych środków! Można to porównać do skrzynki pocztowej: ludzie wysyłają do niej pieniądze, ale tylko Ty możesz ją otworzyć.
 
 ![obraz](assets/Concept/chapitre5/4.jpg)
 
 ### Czy w takim razie Bitcoiny znajdują się w portfelu?
 
-Chociaż Twoje klucze są przechowywane w Twoim portfelu, same Bitcoiny są faktycznie "przechowywane" w łańcuchu bloków Bitcoina, który jest publiczną rozproszoną księgą rachunkową w sieci peer-to-peer Bitcoina (przyjrzymy się temu w sekcji 3). Dlatego utrata urządzenia, na którym masz swój portfel, niekoniecznie oznacza utratę Twoich Bitcoinów. To, co pozwala Ci odtworzyć swój portfel i wydać swoje bitcoiny, to klucz prywatny. Dlatego niezwykle ważne jest, aby odpowiednio go zabezpieczyć.
+Chociaż Twoje klucze są przechowywane w Twoim portfelu, same Bitcoiny są faktycznie "przechowywane" w łańcuchu bloków Bitcoina, który jest publiczną rozproszoną księgą rachunkową w sieci peer-to-peer Bitcoina (przyjrzymy się temu w sekcji 3). Dlatego utrata urządzenia, na którym masz swój portfel, niekoniecznie oznacza utratę Twoich Bitcoinów. To, co pozwala Ci odtworzyć swój portfel i wydawać swoje bitcoiny, to klucz prywatny. Dlatego niezwykle ważne jest, aby odpowiednio go zabezpieczyć.
 
 ![obraz](assets/Concept/chapitre5/1.jpeg)
 
-Na szczęście dla nas, od 2017 roku, ten klucz prywatny może być zakodowany jako prosta lista 12 lub 24 słów, zwana frazą mnemoniczną. Ta fraza jest kopią zapasową Twojego portfela Bitcoin, to ona pozwala Ci odtworzyć Twój portfel za pomocą dowolnego oprogramowania/aplikacji portfela Bitcoin. Dlatego każdy, kto ma dostęp do tej listy słów, ma dostęp do Twoich bitcoinów.
+Na szczęście dla nas, od 2017 roku klucz prywatny może być zakodowany jako prosta lista 12 lub 24 słów, zwana frazą mnemoniczną. Ta fraza jest kopią zapasową Twojego portfela, to ona pozwala Ci odtworzyć Twój portfel za pomocą dowolnego oprogramowania/aplikacji portfela Bitcoin. Dlatego każdy, kto ma dostęp do tej listy słów, ma dostęp do Twoich bitcoinów.
 
 ### Co z hakerami?
 
-Można by zapytać: co jeśli ktoś przypadkowo odgadnie naszą listę 12 lub 24 słów? Krótka odpowiedź brzmi, że dzięki kryptografii używanej do tworzenia portfela, jest to bardzo mało prawdopodobne. Dla porównania, przypadkowe znalezienie dostępu do Twojego portfela jest równie prawdopodobne jak znalezienie "odpowiedniego" numeru między 1 a $2^{256}$, co jest prawie równoznaczne ze znalezieniem "odpowiedniego" atomu we Wszechświecie. Jednakże, jeśli nie jesteś zadowolony z tego domyślnego zabezpieczenia, zawsze możesz je wzmocnić, dodając hasło do swojego portfela Bitcoin.
+Można by zapytać: co jeśli ktoś przypadkowo odgadnie naszą listę 12 lub 24 słów? Krótka odpowiedź brzmi, że dzięki kryptografii używanej do tworzenia portfela, jest to bardzo mało prawdopodobne. Przypadkowe znalezienie dostępu do Twojego portfela jest równie prawdopodobne jak odgadnięcie jednej liczby między 1 a $2^{256}$, co jest prawie równoznaczne ze znalezieniem jednego konkretnego atomu we Wszechświecie. Jednakże, jeśli nie wystarczy Ci to automatyczne zabezpieczenie, zawsze możesz je wzmocnić, dodając hasło do swojego portfela Bitcoin.
 
 ![obraz](assets/Concept/chapitre5/5.jpeg)
 
-Tak więc prawdopodobieństwo zhakowania Twojego portfela Bitcoin jest astronomicznie niskie, jeśli przestrzegasz dobrych praktyk bezpieczeństwa. Praktyki, które szczegółowo opisujemy w następnej sekcji.
+Tak więc prawdopodobieństwo zhakowania Twojego portfela Bitcoin jest astronomicznie niskie, jeśli przestrzegasz dobrych praktyk bezpieczeństwa. Praktyk, które szczegółowo opisujemy w następnej sekcji.
 
-Wybierz portfel, który odpowiada Twoim potrzebom i sposobowi użycia. Szczegółowe poradniki dotyczące używania i zabezpieczania różnych portfeli są dostępne w [sekcji poradników naszego uniwersytetu](https://sovereignuniversity.org/tutorials/wallet).
+Wybierz portfel, który odpowiada Twoim potrzebom. Szczegółowe poradniki dotyczące używania i zabezpieczania różnych portfeli są dostępne w [sekcji poradników naszego uniwersytetu](https://sovereignuniversity.org/tutorials/wallet).
 
 ## Bezpieczeństwo i portfele Bitcoin
 
 ![Wybieranie swojego bezpieczeństwa](https://youtu.be/qhjEJuJHRf8)
 
-### Zadawanie właściwych pytań przed rozpoczęciem
+### Kilka ważnych pytań zanim zaczniesz
 
-Kiedy posiadasz bitcoiny, bezpieczeństwo Twoich środków jest głównym zmartwieniem. Najlepszym sposobem na określenie odpowiedniego dla Twojej sytuacji bezpieczeństwa jest zadanie (i odpowiedzenie na) serii pytań; Twój model bezpieczeństwa będzie zależał od Twoich odpowiedzi. Zacznijmy:
+Kiedy posiadasz bitcoiny, bezpieczeństwo Twoich środków jest Twoim głównym zmartwieniem. Najlepszym sposobem na określenie odpowiednich dla Twojej sytuacji środków bezpieczeństwa jest odpowiedzenie sobie na serię pytań; Twój model bezpieczeństwa będzie zależał od Twoich odpowiedzi. Oto te pytania:
 
-- Kto może mieć dostęp do moich środków? Innymi słowy, czy tylko Ty masz dostęp do swoich bitcoinów, czy strona trzecia, taka jak firma, umożliwia Ci dostęp do Twoich środków?
-- Drugie pytanie mogłoby brzmieć: jakie planujesz zastosowania dla swoich bitcoinów? Czy to suma, której używasz regularnie? Czy to oszczędności średnioterminowe? Długoterminowe?
+- Kto może mieć dostęp do moich środków? Innymi słowy, czy tylko Ty masz dostęp do swoich bitcoinów, czy strona trzecia, na przykład jakaś firma, umożliwia Ci dostęp do Twoich środków?
+- Jakie masz plany wobec swoich bitcoinów? Czy to kwoty, którymi chcesz obracać regularnie? Czy to oszczędności średnioterminowe? Długoterminowe?
 - Jakie są Twoje umiejętności techniczne?
-- Jaki jest Twój budżet na bezpieczeństwo?
+- Jaki jest Twój budżet na zapewnienie swoim środkom bezpieczeństwa?
 
-Pamiętaj, że nie ma uniwersalnego rozwiązania. Dlatego poświęć czas na odpowiedź na te pytania, ponieważ pomoże to dostosować Twoje środki bezpieczeństwa.
+Pamiętaj, że nie ma jednego rozwiązania dobrego dla każdego. Dlatego poświęć trochę czasu na odpowiedź na te pytania, ponieważ pomoże Ci to wybrać odpowiednie dla Ciebie środki bezpieczeństwa.
 
 ![obraz](assets/Concept/chapitre6/0.jpeg)
 
 ### Myślenie o portfelach Bitcoin w kategoriach złożoności
 
 Spróbujmy ustalić kilka poziomów bezpieczeństwa dla Twoich bitcoinów:
-- **Poziom 0**, korzystasz z tzw. usługi powierniczej, gdzie nie jesteś jedynym posiadaczem swoich bitcoinów. Bądź świadomy, że ten zaufany trzeci podmiot może w każdej chwili ograniczyć dostęp do twoich środków, a ty masz taki sam poziom suwerenności finansowej, jak w tradycyjnym systemie bankowym poprzez konto bankowe.
+- **Poziom 0**, korzystasz z tzw. usługi powierniczej, gdzie nie jesteś jedynym posiadaczem swoich bitcoinów. Bądź świadomy, że ten zaufany trzeci podmiot może w każdej chwili ograniczyć Ci dostęp do twoich środków, a ty masz taki sam poziom suwerenności finansowej, jak w tradycyjnym systemie bankowym poprzez konto bankowe.
 ![image](assets/Concept/chapitre6/2.jpeg)
 
-- **Poziom 1**, używasz portfela Bitcoin na swoim telefonie lub komputerze, gdzie jesteś jedynym posiadaczem swoich bitcoinów. Możesz łatwo realizować swoje transakcje. Jednak kluczowe jest zabezpieczenie frazy mnemonicznej, aby odzyskać dostęp do swoich środków w przypadku utraty telefonu lub komputera. Często określa się to mianem "gorącego portfela", ponieważ klucz prywatny jest przechowywany na urządzeniu z dostępem do internetu.
+- **Poziom 1**, używasz portfela Bitcoin na swoim telefonie lub komputerze, gdzie jesteś jedynym posiadaczem swoich bitcoinów. Możesz łatwo realizować swoje transakcje. Jednak kluczowe jest zabezpieczenie frazy mnemonicznej, aby odzyskać dostęp do swoich środków w przypadku utraty telefonu lub komputera. Często określa się to mianem "gorącego portfela" (ang. hot wallet), ponieważ klucz prywatny jest przechowywany na urządzeniu z dostępem do internetu.
 
-- **Poziom 2**, używasz fizycznego portfela i zabezpieczyłeś swoją listę 12 lub 24 słów. Aby przeprowadzić transakcję, zawsze będziesz musiał podpisać ją za pomocą swojego urządzenia. Sprawia to, że twoje środki są mniej dostępne na co dzień. Często określa się to mianem "zimnego portfela", ponieważ twoje klucze są przechowywane na urządzeniu niepodłączonym do internetu.
+- **Poziom 2**, używasz fizycznego portfela i zabezpieczyłeś swoją listę 12 lub 24 słów. Aby przeprowadzić transakcję, zawsze będziesz musiał podpisać ją za pomocą swojego urządzenia. Sprawia to, że twoje środki są trudniej dostępne do wykonywania codziennych transakcji. Często określa się to mianem "zimnego portfela" (ang. cold wallet), ponieważ twoje klucze są przechowywane na urządzeniu niepodłączonym do internetu.
 
 ![image](assets/Concept/chapitre6/4.jpeg)
 
-- **Poziom 3**, używasz portfela poziomu 1 lub 2, ale z dodatkowym hasłem. Bądź świadomy, że teraz musisz zabezpieczyć zarówno listę 12 lub 24 słów, **jak i** swoje hasło. Idealnie, te dwie informacje są przechowywane w dwóch różnych miejscach.
+- **Poziom 3**, używasz portfela na poziomie 1 lub 2, ale z dodatkowym hasłem. Wiedz, że teraz musisz zabezpieczyć zarówno listę 12 lub 24 słów, **jak i** swoje hasło. Idealnie, te dwie informacje są przechowywane w dwóch różnych miejscach.
 
 ![image](assets/Concept/chapitre6/5.jpeg)
 
-- **Poziom 4**, używasz zestawu portfeli, aby stworzyć portfel "multisig", co oznacza, że do przeprowadzenia transakcji wymagane są wielokrotne podpisy. Bądź świadomy, że każda część multisigu powinna być przechowywana w różnych lokalizacjach. Jest to często uważane za zaawansowane wykorzystanie Bitcoina, głównie stosowane dla dużych kwot i w użyciu korporacyjnym.
+- **Poziom 4**, używasz zestawu portfeli, aby stworzyć portfel "multisig", co oznacza, że do przeprowadzenia transakcji wymaganych jest kilka podpisów. Wiedz, że każda część multisigu powinna być przechowywana w różnych lokalizacjach. Często uważa się to za zaawansowane wykorzystanie Bitcoina, głównie stosowane w przypadku dużych kwot i w użyciu korporacyjnym.
 
 ![image](assets/Concept/chapitre6/3.jpeg)
 
-Oczywiście, możemy mieć wiele przypadków użycia, i w takich przypadkach zaleca się korzystanie z wielu portfeli Bitcoin. Nie ma rozwiązania uniwersalnego dla wszystkich.
+Oczywiście, możemy używać bitcoinów do różnych celów, i w takich przypadkach zaleca się korzystanie z wielu portfeli. Nie ma rozwiązania uniwersalnego dla wszystkich.
 
 ### Bezpieczeństwo musi być dostosowane
 
-Kwota, którą ktoś jest skłonny pozostawić na konkretnym poziomie bezpieczeństwa, zależy od indywidualnych preferencji. Dla niektórych, pozostawienie 1 BTC na gorącym portfelu jest rozsądne, podczas gdy dla innych absolutnie nie. W każdym przypadku unikaj wydawania dużo na bezpieczeństwo, kupując fizyczny portfel, gdy chcesz zabezpieczyć małą kwotę. Pamiętaj również, że nadmierne komplikowanie bezpieczeństwa i dostępności twoich bitcoinów może ci zaszkodzić, jeśli na przykład źle obsłużysz kopie zapasowe swoich portfeli.
+Kwota, którą ktoś jest skłonny pozostawić na konkretnym poziomie bezpieczeństwa, zależy od indywidualnych preferencji. Dla niektórych, pozostawienie 1 BTC w gorącym portfelu jest rozsądne, podczas gdy dla innych absolutnie nie. W każdym przypadku unikaj wydawania dużo na bezpieczeństwo, kupując fizyczny portfel, gdy chcesz zabezpieczyć małą kwotę. Pamiętaj również, że nadmierne komplikowanie bezpieczeństwa i dostępności twoich bitcoinów może ci zaszkodzić, jeśli na przykład źle obsłużysz kopie zapasowe swoich portfeli.
 
 Podsumowując, bezpośrednie posiadanie własnych Bitcoinów jest kluczowym elementem zapewnienia suwerenności finansowej. Zaleca się używanie mobilnego portfela do codziennych wydatków oraz offline'owego, czyli "zimnego", fizycznego portfela do przechowywania większych kwot. Firmy, z drugiej strony, powinny rozważyć użycie systemów wielopodpisowych, czyli "multisig", dla zwiększonego i współdzielonego bezpieczeństwa. Istotne jest również unikanie usług powierniczych, które mogą replikować niektóre wady tradycyjnego systemu finansowego, na ile to możliwe.
 

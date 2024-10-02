@@ -413,7 +413,7 @@ Antminer S9 состоит из следующих частей:
 
 <chapterId>fa5f5eca-bcbf-5a83-9b03-98ecbadbabd6</chapterId>
 
-Как владелец Antminer S9, вы, вероятно, знаете, насколько громоздким и шумным может быть это оборудование. Однако его можно превратить в тихий и работающий обогреватель, следуя нескольким простым шагам. В этом разделе мы представим необходимое оборудование для внесения модификаций.
+Как владелец Antminer S9, вы, вероятно, знаете, насколько громоздким и шумным может быть это оборудование. Однако его можно превратить в тихий и работающий обогреватель, следуя нескольким простым шагам. В этом разделе мы расскажем о необходимом оборудование для внесения модификаций.
 
 Если вы умелый мастер и хотите превратить майнер в обогреватель, это руководство для вас. Хотим предупредить вас, что модификации электронного устройства могут представлять электрические риски. Поэтому крайне важно принять все необходимые меры предосторожности, чтобы избежать любых повреждений или травм.
 
@@ -424,6 +424,7 @@ Antminer S9 состоит из следующих частей:
 ![image](assets/piece/1.webp)
 ![image](assets/piece/2.webp)
 ![image](assets/piece/3.webp)
+
 Вентилятор блока питания также достаточно шумный и его необходимо заменить. Мы рекомендуем Noctua NF-A6x25 PWM. Обратите внимание, что разъемы вентиляторов Noctua отличаются от оригинальных, поэтому вам понадобится адаптер для подключения. Двух будет достаточно. Еще раз убедитесь, что вы выбрали версию вентилятора на 12В.
 
 ![image](assets/piece/4.webp)
@@ -431,7 +432,7 @@ Antminer S9 состоит из следующих частей:
 
 2. Добавьте мост WIFI/Ethernet
 
-Вместо использования кабеля Ethernet, вы можете подключить ваш Antminer через WIFI, добавив мост WIFI/Ethernet. Мы выбрали vonets vap11g-300, потому что он позволяет легко принимать WIFI сигнал от вашего интернет-модема и передавать его на ваш Antminer через Ethernet без создания подсети. Если у вас есть навыки работы с электрикой, вы можете питать его напрямую от блока питания Antminer без необходимости добавления USB-зарядного устройства. Для этого вам понадобится женский разъем 5.5mmx2.1mm.
+Вместо использования кабеля Ethernet, вы можете подключить ваш Antminer через WIFI, добавив мост WIFI/Ethernet. Мы выбрали vonets vap11g-300, потому что он позволяет легко принимать WIFI сигнал от интернет-модема и передавать его на Antminer через Ethernet без создания подсети. Если у вас есть навыки работы с электрикой, вы можете запитать его напрямую от блока питания Antminer без необходимости использовать USB-зарядного устройства. Для этого вам понадобится разъем 5.5mmx2.1mm.
 
 ![image](assets/piece/6.webp)
 ![image](assets/piece/7.webp)
@@ -448,9 +449,13 @@ Antminer S9 состоит из следующих частей:
 - [2X NF-A14 iPPC-2000 PWM](https://www.amazon.fr/Noctua-nf-polarized-A14-industrialppc-PWM-2000/dp/B00KESSUDW/ref=sr_1_2?__mk_fr_FR=ÅMÅŽÕÑ&crid=JCNLC31F3ECM&keywords=NF-A14+iPPC-2000+PWM&qid=1676819936&sprefix=nf-a14+ippc-2000+pwm%2Caps%2C114&sr=8-2)
 
 - [2X 140mm вентиляторные решетки](https://www.amazon.fr/dp/B06XD4FTSQ?psc=1&ref=ppx_yo2ov_dt_b_product_details)
+  
 - [Noctua NF-A6x25 PWM](https://www.amazon.fr/Noctua-nf-a6-25-PWM-Ventilateur-Marron/dp/B00VXTANZ4/ref=sr_1_1_sspa?__mk_fr_FR=ÅMÅŽÕÑ&crid=3T313ABZA5EDE&keywords=Noctua+NF-A6x25+PWM&qid=1676819329&sprefix=noctua+nf-a6x25+pwm%2Caps%2C71&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1&smid=A38F5RZ72I2JQ)
-- [Сахар для электрика 2.5mm2](https://www.amazon.fr/Legrand-LEG98433-Borne-raccordement-Nylbloc/dp/B00BBHXLYS/ref=sr_1_3?__mk_fr_FR=ÅMÅŽÕÑ&crid=25IRJD7A0YN2A&keywords=sucre%2Belectrique%2B2mm2&qid=1676820815&sprefix=sucre%2Belectrique%2B2mm2%2Caps%2C84&sr=8-3&th=1)
+  
+- [Electrician's sugar 2.5mm2](https://www.amazon.fr/Legrand-LEG98433-Borne-raccordement-Nylbloc/dp/B00BBHXLYS/ref=sr_1_3?__mk_fr_FR=ÅMÅŽÕÑ&crid=25IRJD7A0YN2A&keywords=sucre%2Belectrique%2B2mm2&qid=1676820815&sprefix=sucre%2Belectrique%2B2mm2%2Caps%2C84&sr=8-3&th=1)
+  
 - [Vonets vap11g-300](https://www.amazon.fr/Vonets-VAP11G-300-Bridge-convertit-Ethernet/dp/B014SK2H6W/ref=sr_1_3_sspa?__mk_fr_FR=ÅMÅŽÕÑ&crid=13Q33UHRKCKG5&keywords=vonet&qid=1676819146&s=electronics&sprefix=vonet%2Celectronics%2C98&sr=1-3-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1)
+  
 - [Необязательная умная розетка ANTELA](https://www.amazon.fr/dp/B09YYMVXJZ/ref=twister_B0B5X46QLW?_encoding=UTF8&psc=1)
 
 # Attakai - Модификация программного обеспечения Antminer S9

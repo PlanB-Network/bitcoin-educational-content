@@ -343,7 +343,7 @@ Chúng ta sẽ nghiên cứu cách cộng và nhân các điểm trên đường
 
 ##### Cộng hai điểm M + L
 
-Một trong những tính chất đáng chú ý của đường cong e-líp là một đường thẳng không dọc cắt đường cong tại hai điểm cũng sẽ cắt nó tại một điểm thứ ba, gọi là điểm O trong ví dụ của chúng ta. Tính chất này được sử dụng để xác định điểm U, là điểm đối diện của điểm O.
+Một trong những tính chất đáng chú ý của đường cong e-líp là một đường thẳng không thẳng đứng nếu cắt đường cong tại hai điểm thì cũng sẽ cắt nó tại một điểm thứ ba, gọi là điểm O trong ví dụ của chúng ta. Tính chất này được sử dụng để xác định điểm U, là điểm đối diện của điểm O qua trục ngang.
 
 M + L = U
 
@@ -351,10 +351,10 @@ M + L = U
 
 ##### Cộng một điểm với chính nó = Nhân đôi điểm
 
-Việc cộng một điểm G với chính nó được thực hiện bằng cách vẽ một tiếp tuyến tại điểm đó trên đường cong. Tiếp tuyến này, theo các tính chất của đường cong e-líp, sẽ cắt đường cong tại một điểm duy nhất thứ hai -J. Điểm đối diện của điểm này, J, là kết quả của việc cộng điểm G với chính nó.
+Việc cộng một điểm G với chính nó được thực hiện bằng cách vẽ một tiếp tuyến của đường cong tại điểm đó. Tiếp tuyến này, theo các tính chất của đường cong e-líp, sẽ cắt đường cong tại một điểm duy nhất thứ hai -J. Điểm đối diện của điểm này, J, là kết quả của việc cộng điểm G với chính nó.
 G + G = J
 
-Thực tế, điểm G là điểm bắt đầu để tính toán tất cả các khóa công khai của người dùng hệ thống Bitcoin.
+Thực tế, điểm G là điểm sinh được dùng để tính toán tất cả các khóa công khai của người dùng trong mạng lưới Bitcoin.
 
 ![image](assets/image/section2/6.webp)
 
@@ -362,16 +362,16 @@ Thực tế, điểm G là điểm bắt đầu để tính toán tất cả cá
 
 Phép nhân vô hướng của một điểm với n tương đương với việc cộng điểm đó với chính nó n lần.
 
-Tương tự như nhân đôi điểm, phép nhân vô hướng của điểm G với một điểm n được thực hiện bằng cách vẽ một tiếp tuyến tại điểm G. Tiếp tuyến này, theo các tính chất của đường cong e-líp, sẽ cắt đường cong tại một điểm duy nhất thứ hai -2G. Điểm đối diện của điểm này, 2G, là kết quả của việc cộng điểm G với chính nó.
+Tương tự như nhân đôi điểm, phép nhân vô hướng của điểm G với một điểm n được thực hiện bằng cách vẽ một tiếp tuyến của đường cong tại điểm G. Tiếp tuyến này, theo các tính chất của đường cong e-líp, sẽ cắt đường cong tại một điểm duy nhất thứ hai -2G. Điểm đối diện của điểm này, 2G, là kết quả của việc cộng điểm G với chính nó.
 Nếu n = 4, thì thao tác được lặp lại cho đến khi đạt được 4G.
 ![image](assets/image/section2/7.webp)
 
-Dưới đây là một ví dụ tính toán cho 3G:
+Dưới đây là ví dụ tính toán điểm 3G:
 
 ![image](assets/image/section2/8.webp)
 
-Những thao tác trên các điểm của một đường cong e-líp là cơ sở để tính toán khóa công khai. Việc suy ra khóa công khai khi biết khóa riêng là rất dễ dàng.
-Khóa công khai là một điểm trên đường cong e-líp, nó là kết quả của việc cộng và nhân đôi điểm G k lần. Với k = khóa riêng.
+Các phép toán trên các điểm thuộc một đường cong e-líp là cơ sở để tính toán khóa công khai. Rất dễ để tính ra khóa công khai khi biết khóa riêng tư.
+Khóa công khai là một điểm trên đường cong e-líp, nó là kết quả của việc cộng G với chính nó k lần. Với k = khóa riêng tư.
 
 Trong ví dụ này:
 
@@ -380,45 +380,45 @@ Trong ví dụ này:
 
 ![image](assets/image/section2/9.webp)
 
-Biết khóa riêng k, việc tính toán khóa công khai K là dễ dàng. Tuy nhiên, không thể lấy lại khóa riêng dựa trên khóa công khai. Đây có phải là kết quả của một phép cộng hoặc nhân đôi các điểm không?
+Khi biết khóa riêng tư k, rất dễ để tính toán ra khóa công khai K. Tuy nhiên, không thể tính toán ngược lại khóa riêng tư dựa trên khóa công khai. Chúng ta không thể biết liệu đây là kết quả của một phép cộng hay một phép nhân đôi các điểm?
 
-Trong bài học tiếp theo, chúng ta sẽ khám phá cách tạo một chữ ký số sử dụng thuật toán ECDSA với khóa riêng để chi tiêu bitcoin.
+Trong bài học tiếp theo, chúng ta sẽ khám phá cách tạo một chữ ký số sử dụng thuật toán ECDSA với khóa riêng tư để chi tiêu bitcoin.
 
 ## Ký bằng khóa riêng
 <chapterId>bb07826f-826e-5905-b307-3d82001fb778</chapterId>
 
-Quy trình chữ ký số là một phương pháp chính để chứng minh rằng bạn là người giữ khóa riêng mà không tiết lộ nó. Điều này được thực hiện sử dụng thuật toán ECDSA, bao gồm việc xác định một nonce duy nhất, tính toán một số cụ thể V, và tạo một chữ ký số gồm hai phần, S1 và S2.
-Luôn luôn sử dụng một nonce duy nhất là rất quan trọng để tránh các cuộc tấn công an ninh. Một ví dụ nổi tiếng về điều gì có thể xảy ra khi quy tắc này không được tuân thủ là việc hack PlayStation 3, đã bị xâm phạm do việc tái sử dụng nonce.
+Quy trình tạo chữ ký số là một phương pháp quan trọng để chứng minh rằng bạn là người giữ khóa riêng tư mà không cần tiết lộ nó. Điều này được thực hiện bằng cách sử dụng thuật toán ECDSA, bao gồm việc xác định một nonce độc nhất, tính toán một số cụ thể V, và tạo một chữ ký số gồm hai phần, S1 và S2.
+Để tránh các cuộc tấn công bảo mật, điều quan trọng là phải luôn sử dụng một nonce độc nhất, không lặp lại. Một ví dụ nổi tiếng về việc không tuân thủ nguyên tắc này là vụ hack PlayStation 3, nguyên nhân là do tái sử dụng nonce.
 
 ![](assets/image/section2/10.webp)
 
 Các bước:
 
-- Xác định một nonce v, là một số ngẫu nhiên duy nhất.
-  Nonce = Số Chỉ Sử Dụng Một Lần.
-  Nó được xác định bởi người thực hiện chữ ký.
-- Tính toán bằng cách cộng và nhân đôi các điểm trên đường cong e-líp từ điểm G, vị trí của V trên đường cong e-líp.
+- Xác định một nonce v, là một số ngẫu nhiên độc nhất.
+  Nonce = Số ngẫu nhiên chỉ sử dụng một lần.
+  Nó được xác định bởi người tạo chữ ký.
+- Tính toán vị trí điểm V trên đường cong e-líp bằng cách cộng và nhân đôi các điểm trên đường cong e-líp từ điểm G.
   Sao cho V = v.G
   x và y là tọa độ của V trên mặt phẳng.
 - Tính S1.
-  S1 = x mod n với n = thứ tự của đường cong và x là một tọa độ của V trên mặt phẳng.
-  Lưu ý: Số lượng khóa công khai có thể có lớn hơn số điểm trên đường cong e-líp trong trường số nguyên dương hữu hạn được sử dụng trong Bitcoin.
-  Thứ tự của đường cong chỉ tương ứng với các khả năng mà khóa công khai có thể nhận trên đường cong.
+  S1 = x mod n với n = bậc của đường cong và x là tọa độ theo phương x của V trên mặt phẳng.
+  Lưu ý: Số lượng khóa công khai có thể có lớn hơn số điểm trên đường cong e-líp trong tập hợp số nguyên dương hữu hạn được sử dụng trong Bitcoin.
+  Bậc của đường cong chỉ tương ứng với các khả năng mà khóa công khai có thể nhận trên đường cong.
 - Tính S2.
-  H(Tx) = Hash của giao dịch
-  k = khóa riêng
-- Tính chữ ký: sự kết hợp của S1 + S2.
+  H(Tx) = Mã băm của giao dịch
+  k = khóa riêng tư
+- Tính chữ ký: cộng nối S1 + S2.
 - Tính P, phép tính xác minh chữ ký.
   K = khóa công khai
 
-Ví dụ, để thu được khóa công khai 3G, bạn vẽ một tiếp tuyến tới điểm G, tính ngược của -G để thu được 2G, và sau đó cộng G và 2G. Để thực hiện một giao dịch, bạn phải chứng minh rằng bạn biết số 3 bằng cách mở khóa các bitcoin liên kết với khóa công khai 3G.
+Ví dụ, để thu được khóa công khai 3G, bạn vẽ một tiếp tuyến tới điểm G, tìm điểm đối diện của -G để thu được 2G, và sau đó cộng G và 2G. Để thực hiện một giao dịch, bạn phải chứng minh rằng bạn biết số 3 bằng cách mở khóa các bitcoin liên kết với khóa công khai 3G.
 
-Để tạo một chữ ký số và chứng minh rằng bạn biết khóa riêng liên kết với khóa công khai 3G, trước tiên bạn tính một nonce, sau đó là điểm V liên kết với nonce này (trong ví dụ được đưa ra, đó là 4G). Sau đó, bạn tính điểm T bằng cách cộng khóa công khai 3G và điểm V, điều này cho kết quả là 7G.
+Để tạo một chữ ký số và chứng minh rằng bạn biết khóa riêng tư tương ứng với khóa công khai 3G, trước tiên bạn tính một nonce, sau đó là điểm V liên kết với nonce này (trong ví dụ được đưa ra, đó là 4G). Sau đó, bạn tính điểm T bằng cách cộng khóa công khai 3G và điểm V, điều này cho kết quả là 7G.
 
 ![image](assets/image/section2/11.webp)
 
-Hãy đơn giản hóa quy trình chữ ký số.
-Trong hình ảnh trước, khóa riêng k = 3.
+Hãy đơn giản hóa quá trình tạo chữ ký số.
+Trong hình ảnh phía trên, khóa riêng k = 3.
 Chúng ta có thể dễ dàng tính toán khóa công khai K tương ứng với khóa riêng này: K = 3G. Sau đó, chúng ta tạo một nonce một cách giả ngẫu nhiên: v = 4. Từ nonce này, có thể tính toán V sao cho: V = v.G = 4G.
 
 Từ điểm V này, chúng ta tính toán điểm T sao cho:
@@ -426,31 +426,31 @@ T = t.G = 7G (với t = 7).
 
 Bây giờ là lúc để tiến hành xác minh chữ ký số.
 
-Xác minh chữ ký số là một bước quan trọng trong việc sử dụng thuật toán ECDSA, cho phép xác nhận tính xác thực của một thông điệp đã ký mà không cần khóa riêng của người gửi. Dưới đây là cách thức hoạt động chi tiết:
+Xác minh chữ ký số là một bước quan trọng trong việc sử dụng thuật toán ECDSA, giúp xác nhận tính xác thực của một thông điệp đã ký mà không cần đến khóa riêng tư của người gửi. Dưới đây là quy trình xác minh chi tiết:
 
-Trong ví dụ của chúng ta, chúng ta có hai giá trị quan trọng: t và V.
-t là một giá trị số (7 trong ví dụ này), và V là một điểm trên đường cong e-líp (được biểu diễn bởi 4G ở đây). Những giá trị này được tạo ra trong quá trình tạo chữ ký số và sau đó được gửi kèm với thông điệp để cho phép xác minh.
+Trong ví dụ trên, chúng ta có hai giá trị quan trọng: t và V.
+t là một giá trị số (7 trong ví dụ này), và V là một điểm trên đường cong e-líp (được biểu diễn bởi 4G ở đây). Những giá trị này được tạo ra trong quá trình tạo chữ ký số và sau đó được gửi kèm với thông điệp để xác minh.
 
 Khi người xác minh nhận được thông điệp, họ cũng sẽ nhận được hai giá trị này, t và V.
 
 Dưới đây là các bước mà người xác minh sẽ thực hiện để xác nhận chữ ký:
 
-1. Đầu tiên, họ sẽ tính hash của thông điệp, mà chúng ta sẽ gọi là H.
+1. Đầu tiên, họ sẽ tính mã băm của thông điệp, mà chúng ta sẽ gọi là H.
 2. Sau đó, họ sẽ tính u1 và u2. Để làm điều này, họ sẽ sử dụng các công thức sau:
    - u1 = H /\* (S2)^-1 mod n
    - u2 = T /\* (S2)^-1 mod n
-     Nơi S2 là phần thứ hai của chữ ký số, n là thứ tự của đường cong e-líp, và (S2)^-1 là nghịch đảo của S2 mod n.
+     Nơi S2 là phần thứ hai của chữ ký số, n là bậc của đường cong e-líp, và (S2)^-1 là nghịch đảo của S2 mod n.
 3. Người xác minh sau đó sẽ tính một điểm P' trên đường cong e-líp sử dụng công thức: P' = u1 _ G + u2 _ K
    - G là điểm sinh của đường cong
    - K là khóa công khai của người gửi
-4. Người xác minh sau đó sẽ tính I', đơn giản là tọa độ x của điểm P' modulo n.
+4. Người xác minh sau đó sẽ tính I', là tọa độ x của điểm P' modulo n.
 5. Cuối cùng, người xác minh sẽ xác nhận rằng I' bằng với t. Nếu đúng như vậy, chữ ký được coi là hợp lệ. Nếu không, chữ ký là không hợp lệ.
-Quy trình này đảm bảo rằng chỉ có người gửi sở hữu khóa riêng tương ứng mới có thể tạo ra một chữ ký qua quá trình xác minh này.
+Quy trình này đảm bảo rằng chỉ có người gửi sở hữu khóa riêng tư tương ứng mới có thể tạo ra một chữ ký có thể vượt qua quá trình xác minh này.
 
-Trong thuật ngữ đơn giản hơn:
-Người tạo chữ ký sẽ cung cấp số t (trong ví dụ của chúng ta, t = 7) và điểm V cho người xác minh.
+Nói một cách đơn giản:
+Người tạo chữ ký số sẽ cung cấp số t (trong ví dụ của chúng ta, t = 7) và điểm V cho người xác minh.
 
-Không thể xác định khóa công khai hoặc khóa riêng từ số 7 và số V.
+Không thể xác định khóa công khai hoặc khóa riêng tư từ số t và số V.
 
 Các bước để xác minh chữ ký số như sau:
 
@@ -458,61 +458,61 @@ Các bước để xác minh chữ ký số như sau:
 - Người xác minh tính số t.G.
 - Người xác minh kiểm tra kết quả của t.G có thực sự bằng với số T' hay không.
 
-Kết luận, xác minh chữ ký số là một thủ tục thiết yếu trong các giao dịch Bitcoin. Nó đảm bảo rằng thông điệp đã ký không bị thay đổi trong quá trình truyền và người gửi thực sự là chủ sở hữu của khóa riêng. Kỹ thuật xác thực số này dựa trên các nguyên tắc toán học phức tạp, bao gồm cả số học đường cong e-líp, trong khi vẫn bảo mật khóa riêng. Nó cung cấp một nền tảng an ninh vững chắc cho các giao dịch mật mã.
+Kết luận, xác minh chữ ký số là một quy trình thiết yếu trong các giao dịch Bitcoin. Nó đảm bảo rằng thông điệp đã ký không bị thay đổi trong quá trình truyền tải và người gửi thực sự là chủ sở hữu của khóa riêng tư. Kỹ thuật xác thực số này dựa trên các nguyên tắc toán học phức tạp, bao gồm cả số học đường cong e-líp, trong khi vẫn duy trì tính bảo mật của khóa riêng tư. Nó cung cấp một nền tảng bảo mật mạnh mẽ cho các giao dịch mật mã.
 
-Điều đó được nói, việc quản lý những khóa này, cũng như việc tạo ra chúng, là một câu hỏi thiết yếu khác trong Bitcoin. Làm thế nào để tạo ra một cặp khóa mới? Làm thế nào để tổ chức một cách an toàn và hiệu quả một lượng lớn khóa? Làm thế nào để khôi phục chúng nếu cần thiết?
-Để trả lời những câu hỏi này và mở rộng hiểu biết của bạn về bảo mật mã hóa, khóa học tiếp theo của chúng tôi sẽ tập trung vào khái niệm về Ví Phân Cấp Xác Định (Hierarchical Deterministic Wallets - HD wallets) và việc sử dụng cụm từ ghi nhớ. Những cơ chế này cung cấp những cách thức tinh tế để quản lý hiệu quả các khóa tiền mã hóa của bạn trong khi tăng cường bảo mật.
+Điều này nói lên rằng, việc quản lý những khóa này, cũng như việc tạo ra chúng, là một câu hỏi thiết yếu khác trong Bitcoin. Làm thế nào để tạo ra một cặp khóa mới? Làm thế nào để quản lý một cách an toàn và hiệu quả một lượng lớn khóa? Làm thế nào để khôi phục chúng nếu cần thiết?
+Để trả lời những câu hỏi này và mở rộng hiểu biết của bạn về bảo mật mã hóa, phần tiếp theo của chúng ta sẽ tập trung vào khái niệm về Ví tất định phân cấp (Hierarchical Deterministic Wallets - Ví HD) và việc sử dụng cụm từ ghi nhớ. Những cơ chế này cung cấp các phương tiện tinh tế để quản lý hiệu quả và tăng cường bảo mật cho các khóa tiền mã hóa của bạn.
 
-# Cụm từ ghi nhớ
+# Cụm từ ghi nhớ - Mnemonic Phrase
 <partId>4070af16-c8a2-58b5-9871-a22c86c07458</partId>
 
 ## Sự phát triển của ví Bitcoin
 <chapterId>9d9acd5d-a0e5-5dfd-b544-f043fae8840f</chapterId>
 
-Ví Phân Cấp Xác Định, thường được biết đến với tên là HD wallet, đóng một vai trò nổi bật trong hệ sinh thái tiền mã hóa. Thuật ngữ "ví" có thể gây hiểu nhầm cho những người mới tham gia lĩnh vực này, vì nó không liên quan đến việc giữ tiền hoặc các loại tiền tệ. Thay vào đó, nó đề cập đến một bộ sưu tập các khóa riêng tư mã hóa.
+Ví tất định phân cấp, thường được biết đến với tên là Ví HD, giữ một vai trò quan tọng trong hệ sinh thái tiền mã hóa. Thuật ngữ "ví" có thể gây hiểu nhầm cho những người mới tham gia lĩnh vực này, vì nó thực sự không liên quan đến việc giữ tiền hoặc các loại tiền tệ. Thay vào đó, nó đề cập đến một bộ sưu tập các khóa riêng tư mã hóa.
 
-Những ví đầu tiên là phần mềm tổ chức các khóa được xác định riêng tư một cách giả ngẫu nhiên nhưng không có sự kết nối giữa chúng. Những ví này được gọi là "Just a Bunch Of Keys" (JBOK).
+Những ví Bitcoin đời đầu là phần mềm chứa các khóa riêng tư được tạo ra một cách giả ngẫu nhiên nhưng không có sự liên kết với nhau. Những ví này được gọi là "Chỉ là một chùm chìa khoá - Just a Bunch Of Keys - JBOK".
 
-Vì các khóa không có sự kết nối với nhau, người dùng cần phải tạo một bản sao lưu mới cho mỗi cặp khóa mới được tạo.
-Dù người dùng luôn sử dụng cùng một cặp khóa và làm lộ thông tin bảo mật, hoặc tạo ra một cặp khóa mới một cách ngẫu nhiên và do đó cần phải tạo một bản sao lưu mới cho những khóa này.
+Vì các khóa không có sự liên kết với nhau, người dùng cần phải tạo một bản sao lưu mới cho mỗi cặp khóa mới được tạo ra.
+Do đó: hoặc là người dùng luôn sử dụng lặp lại cùng một cặp khoá và hy sinh quyền riêng tư, hoặc phải tạo ra một cặp khoá mới một cách ngẫu nhiên cho mỗi lần sử dụng và phải tại ra một bản sao lưu cho cặp khoá đó.
 
-Tuy nhiên, sự phức tạp trong việc quản lý những khóa này được giảm bớt bởi một tập hợp các giao thức gọi là Đề Xuất Cải Tiến Bitcoin (Bitcoin Improvement Proposals - BIPs). Những đề xuất nâng cấp này nằm ở trung tâm của chức năng và bảo mật của HD wallets. Ví dụ, [BIP32](https://github.com/bitcoin/bips/blob/master/bip-0032.mediawiki), ra mắt vào năm 2012, đã cách mạng hóa cách thức những khóa này được tạo ra và lưu trữ bằng cách giới thiệu khái niệm về khóa được sinh ra một cách xác định và phân cấp. Ý tưởng là sinh ra tất cả các khóa một cách xác định và phân cấp từ một thông tin duy nhất: hạt giống. Điều này đơn giản hóa quá trình sao lưu những khóa này trong khi vẫn duy trì mức độ bảo mật của chúng.
+Tuy nhiên, sự phức tạp trong việc quản lý những cặp khóa này đã được giải quyết nhờ vào một tập hợp các Đề xuất cải tiến Bitcoin (Bitcoin Improvement Proposal - BIP). Những đề xuất nâng cấp này tập trung vào cải thiện chức năng và bảo mật của Ví HD. Ví dụ, [BIP32](https://github.com/bitcoin/bips/blob/master/bip-0032.mediawiki), ra mắt vào năm 2012, đã cách mạng hóa cách thức các cặp khóa này được tạo ra và lưu trữ bằng cách giới thiệu khái niệm về khóa được sinh ra một cách tất định và phân cấp. Ý tưởng là phái sinh ra tất cả các cặp khóa một cách tất định và phân cấp từ một thông tin duy nhất: hạt giống - seed. Điều này đã đơn giản hóa quá trình sao lưu những cặp khóa này trong khi vẫn duy trì tính bảo mật của chúng.
 
-Tiếp theo, [BIP39](https://github.com/bitcoin/bips/blob/master/bip-0039.mediawiki) đã giới thiệu một đổi mới đáng kể: cụm từ ghi nhớ 24 từ. Hệ thống này đã biến một chuỗi số phức tạp và khó nhớ thành một loạt các từ thông thường, làm cho việc ghi nhớ và lưu trữ trở nên dễ dàng hơn nhiều. Ngoài ra, [BIP38](https://github.com/bitcoin/bips/blob/master/bip-0038.mediawiki) đã đề xuất thêm một cụm từ mật khẩu bổ sung để tăng cường bảo mật cho các khóa cá nhân. Những cải tiến liên tiếp này dẫn đến các tiêu chuẩn BIP43 và BIP44, đã chuẩn hóa cấu trúc và phân cấp của HD wallets, làm cho chúng trở nên dễ tiếp cận và thân thiện với người dùng chung.
+Tiếp theo, [BIP39](https://github.com/bitcoin/bips/blob/master/bip-0039.mediawiki) đã giới thiệu một cải tiến đáng kể: cụm từ ghi nhớ gồm 24 từ. Hệ thống này đã biến một chuỗi số phức tạp và khó nhớ thành một loạt các từ thông thường, giúp cho việc ghi nhớ và lưu trữ trở nên dễ dàng hơn nhiều. Ngoài ra, [BIP38](https://github.com/bitcoin/bips/blob/master/bip-0038.mediawiki) đã đề xuất thêm một cụm từ mật khẩu (passphrase) bổ sung để tăng cường bảo mật cho các khóa cá nhân. Những cải tiến liên tiếp này dẫn đến các tiêu chuẩn BIP43 và BIP44, được dùng để chuẩn hóa cấu trúc và phân cấp của ví HD, giúp cho chúng trở nên dễ tiếp cận và thân thiện với người dùng bình thường hơn.
 
-Trong các phần tiếp theo, chúng ta sẽ đi sâu hơn vào cách thức hoạt động của HD wallets. Chúng ta sẽ thảo luận về nguyên tắc sinh khóa và xem xét các khái niệm cơ bản về entropy và sinh số ngẫu nhiên, đây là những yếu tố thiết yếu để đảm bảo bảo mật cho ví HD của bạn.
+Trong các phần tiếp theo, chúng ta sẽ đi sâu hơn vào cách thức hoạt động của ví HD. Chúng ta sẽ thảo luận về nguyên tắc phái sinh khóa và xem xét các khái niệm cơ bản về entropy và bộ tạo số ngẫu nhiên, đây là những yếu tố thiết yếu để đảm bảo tính bảo mật cho ví HD của bạn.
 
-Tóm lại, điều quan trọng cần nhấn mạnh là vai trò trung tâm của BIP32 và BIP39 trong thiết kế và bảo mật của HD wallets. Những giao thức này cho phép sinh ra nhiều khóa từ một hạt giống duy nhất, được cho là một số ngẫu nhiên hoặc giả ngẫu nhiên. Ngày nay, những tiêu chuẩn này được áp dụng bởi đa số ví tiền mã hóa, dù chúng dành riêng cho một loại tiền mã hóa hay hỗ trợ nhiều loại tiền tệ.
+Tóm lại, điều quan trọng cần nhấn mạnh là vai trò quan trọng của BIP32 và BIP39 trong thiết kế và bảo mật của ví HD. Những đề xuất này cho phép tạo ra nhiều khóa từ một hạt giống duy nhất, được cho là một số ngẫu nhiên hoặc giả ngẫu nhiên. Ngày nay, các tiêu chuẩn này đã được áp dụng bởi đa số các ví tiền mã hóa, dù chúng dành riêng cho một loại tiền mã hóa hay hỗ trợ nhiều loại tiền tệ.
 
-## Entropy và Sinh Số Ngẫu Nhiên
+## Entropy và Bộ tạo số ngẫu nhiên
 <chapterId>b43c715d-affb-56d8-a697-ad5bc2fffd63</chapterId>
-Tầm quan trọng của việc bảo mật khóa riêng trong hệ sinh thái Bitcoin là không thể phủ nhận. Chúng thực sự là viên gạch nền tảng đảm bảo an ninh cho các giao dịch Bitcoin. Để tránh bất kỳ sự dễ bị tấn công nào liên quan đến tính dự đoán, những khóa này phải được tạo ra một cách hoàn toàn ngẫu nhiên, điều này có thể nhanh chóng trở thành một công việc cực kỳ vất vả. Vấn đề là trong khoa học máy tính, việc tạo ra một số ngẫu nhiên thực sự là không thể, vì nó nhất thiết phải được suy ra từ một quá trình xác định; một đoạn mã. Đó là lý do tại sao việc tìm hiểu về các loại Bộ Sinh Số Ngẫu Nhiên (Random Number Generators - RNG) khác nhau là rất quan trọng. Các loại RNG thay đổi, từ Bộ Sinh Số Ngẫu Nhiên Giả (Pseudo-Random Number Generators - PRNG) đến Bộ Sinh Số Ngẫu Nhiên Thực (True Random Number Generators - TRNG), cũng như PRNGs kết hợp một nguồn entropy.
+Tầm quan trọng của việc bảo mật khóa riêng tư trong hệ sinh thái Bitcoin là điều không cần phải bàn cãi. Chúng thực sự là nền tảng đảm bảo an toàn cho các giao dịch Bitcoin. Để tránh bất kỳ lỗ hổng nào liên quan đến tính dự đoán, những khóa này phải được tạo ra một cách hoàn toàn ngẫu nhiên, và đây là một việc rất phức tạp - làm sao để tạo ra một số hoàn toàn ngẫu nhiên? Vấn đề là trong khoa học máy tính, việc tạo ra một số hoàn toàn ngẫu nhiên là điều không khả thi, vì nó nhất thiết phải được tạo ra từ một quá trình xác định; một đoạn mã. Đó là lý do tại sao việc tìm hiểu về các Bộ tạo số ngẫu nhiên (Random Number Generators - RNG) khác nhau là rất quan trọng. Các loại RNG khác nhau bao gồm: Bộ tạo số giả ngẫu nhiên (Pseudo-Random Number Generators - PRNG), Bộ tạo số ngẫu nhiên thực (True Random Number Generators - TRNG), các Bộ tạo số giả ngẫu nhiên (PRNG) kết hợp với một nguồn entropy.
 
-Entropy đề cập đến trạng thái "hỗn loạn" của một hệ thống. Từ một entropy bên ngoài, tức là một nguồn thông tin bên ngoài, có thể sử dụng một bộ sinh số ngẫu nhiên để thu được một số ngẫu nhiên.
+Entropy đề cập đến trạng thái "hỗn loạn" của một hệ thống. Từ một entropy bên ngoài, tức là một nguồn thông tin bên ngoài, có thể sử dụng một bộ tạo số ngẫu nhiên để thu được một số ngẫu nhiên.
 
 ![image](assets/image/section3/2.webp)
 
-Hãy xem cách hoạt động của một Bộ Sinh Số Ngẫu Nhiên Giả (PRNG).
+Hãy xem cách hoạt động của một Bộ bộ tạo số giả ngẫu nhiên (PRNG).
 
 Nó nhận một hạt giống làm đầu vào, tương ứng với trạng thái nội bộ 0.
 Trên trạng thái nội bộ này, một hàm biến đổi được áp dụng, và kết quả, là một số ngẫu nhiên giả, tương ứng với trạng thái nội bộ 1.
-Trên trạng thái nội bộ 1 này, một lần nữa, một hàm biến đổi được áp dụng, dẫn đến một số ngẫu nhiên mới = trạng thái nội bộ 2.
+Trên trạng thái nội bộ 1 này, một lần nữa, một hàm biến đổi được áp dụng, dẫn đến một số ngẫu nhiên mới ứng với trạng thái nội bộ 2.
 Và cứ tiếp tục như vậy.
 
-Nhược điểm chính là bất kỳ hạt giống giống nhau nào sẽ luôn tạo ra cùng một kết quả. Ngoài ra, nếu chúng ta biết kết quả của các hàm biến đổi ban đầu, chúng ta sẽ có thể lấy lại số ngẫu nhiên ở đầu ra của quá trình.
+Nhược điểm chính của PRNG là bất kỳ hạt giống giống nhau nào cũng sẽ luôn tạo ra cùng một kết quả. Ngoài ra, nếu chúng ta biết kết quả của các hàm biến đổi ban đầu, chúng ta sẽ có thể xác định được số ngẫu nhiên ở đầu ra của quá trình.
 
 Một ví dụ về hàm biến đổi là hàm PBKDF2.
 
-**Tóm lại, một PRNG đảm bảo an ninh mật mã phải:**
+**Tóm lại, một PRNG đảm bảo an toàn về mặt mật mã cần phải:**
 
-- có tính ngẫu nhiên về mặt thống kê
-- không thể dự đoán
-- vẫn an toàn ngay cả khi kết quả được tiết lộ
-- có một chu kỳ đủ dài
+- Có tính ngẫu nhiên về mặt thống kê
+- Không thể dự đoán được
+- Vẫn an toàn ngay cả khi kết quả bị tiết lộ
+- Có một chu kỳ đủ dài
 
 ![image](assets/image/section3/3.webp)
 
-Trong trường hợp của Bitcoin, khóa riêng được tạo ra từ một mẩu thông tin duy nhất tại cơ sở của ví. Thông tin này cho phép sự phái sinh xác định và phân cấp của các cặp khóa con. Entropy là nền tảng của mọi ví HD (Hierarchical Deterministic), mặc dù không có tiêu chuẩn nào cho việc tạo ra số ngẫu nhiên này. Do đó, việc tạo ra số ngẫu nhiên là một thách thức lớn trong việc bảo mật các giao dịch Bitcoin.
+Trong trường hợp của Bitcoin, khóa riêng tư được tạo ra từ một mẩu thông tin duy nhất từ cơ sở của ví. Thông tin này cho phép sự phái sinh tất định và phân cấp để tạo ra các cặp khóa con. Entropy là nền tảng của mọi ví HD, mặc dù không có tiêu chuẩn cụ thể nào cho việc tạo số ngẫu nhiên này. Do đó, việc tạo ra số ngẫu nhiên là một thách thức lớn trong việc bảo mật các giao dịch Bitcoin.
 
 ## Cụm từ ghi nhớ
 <chapterId>8f9340c1-e6dc-5557-a2f2-26c9669987d5</chapterId>

@@ -1,8 +1,8 @@
-- start_date: 2024-10-25 15:00:00
-  end_date: 2024-10-25 16:00:00
+- start_date: 2024-10-25 08:00:00
+  end_date: 2024-10-25 09:00:00
   timezone: Europe/Zurich
   address_line_1: Palazzo dei Congressi, Lugano, switzerland
-  address_line_2:  Networking room, Palazzo dei Congressi in Piazza Castello
+  address_line_2:  Networking Room in PlanB Lugano Forum 2024
   address_line_3: 
   name: ₿ Certificate English Version
   builder: PlanB Network

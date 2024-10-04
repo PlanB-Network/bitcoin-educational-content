@@ -1,0 +1,21 @@
+- start_date: 2024-10-25
+  end_date: 2024-10-25
+  address_line_1: Lugano, switzerland
+  address_line_2: 
+  address_line_3: 
+  name: Thunderstorm
+  builder: 
+  type: meetup
+  book_online: false
+  book_in_person: false
+  price_dollars: 0
+  description: Exclusive investor day, explore Bitcoin investment opportunities, gain market insights and network with industry experts. Limited to 30 participants.	
+  language: 
+    - en
+    - it
+  links:
+    website: https://ephtga25ls4.typeform.com/to/RxoLrJ5S?typeform-source=planb.lugano.ch
+    replay_url:
+    live_url :
+  tags: 
+    - investment

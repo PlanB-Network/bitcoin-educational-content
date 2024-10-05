@@ -25,7 +25,7 @@ Nu ai nevoie de cunoștințe specifice pentru a începe, cursul este accesibil t
 ## Un Salt în Necunoscut
 <chapterId>27e3fb60-4b50-556b-9e70-c4f5475c121d</chapterId>
 
-### Bine ai venit într-un nou paradigma monetară și tehnologică.
+### Bine ai venit într-o nouă paradigma monetară și tehnologică.
 
 Bitcoin reprezintă o inovație semnificativă care depășește simpla "monedă de internet". Este o revoluție atât în tehnologie, cât și în bani, capabilă să pună sub semnul întrebării relația noastră cu moneda și societatea. Bitcoin este o monedă **neutră** și **decentralizată**, ceea ce înseamnă că nu este controlată de nicio entitate sau instituție. Este o inovație semnificativă care depășește o simplă monedă. Pentru a înțelege acest faimos bitcoin, este important să înțelegem că bitcoin (referit ca BTC) este atât un protocol informatic (Bitcoin), cât și o unitate monetară (bitcoin).
 

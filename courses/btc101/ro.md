@@ -100,7 +100,7 @@ Mișcarea cypherpunk, cu rădăcinile sale adânci în activismul digital și cr
   Scris de Eric Hughes în 1993, "Manifestul Cypherpunk" afirmă că intimitatea este un drept fundamental. Hughes argumenta că capacitatea de a comunica în mod liber și confidențial era esențială pentru o societate liberă. Manifestul afirmă, "Nu putem aștepta ca instituțiile, corporațiile sau alte entități impersonale să ne acorde intimitate... Trebuie să ne apărăm singuri."
 
 - "Manifestul Cripto-Anarhist":
-  Scris de Timothy C. May în 1992, acest manifest explică cum utilizarea criptografiei ar putea duce la o eră a anarhiei criptografice unde guvernele ar fi neputincioase să intervină în afacerile private ale cetățenilor. May își imagina un viitor în care informațiile, banii și mesajele ar putea fi schimbate fără intervenția unei terțe părți, și anonim.
+  Scris de Timothy C. May în 1992, acest manifest explică cum utilizarea criptografiei ar putea duce la o eră a anarhiei criptografice unde guvernele ar fi neputincioase să intervină în afacerile private ale cetățenilor. May își imagina un viitor în care informațiile, banii și mesajele ar putea fi schimbate anonim și fără intervenția unei terțe părți.
 
 - "Declarația Independenței Ciber-spațiului":
 Deși nu este exclusiv cypherpunk, acest text reflectă sentimentele multor actori din mișcare. Scris în 1996 de John Perry Barlow, este un răspuns la reglementarea tot mai mare a Internetului de către guverne. Declarația afirmă că ciber-spațiul este un domeniu distinct de sfera fizică și nu ar trebui să fie supus acelorași legi. Se afirmă, "Nu avem un guvern ales, și nu putem fi guvernați."

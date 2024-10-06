@@ -148,7 +148,7 @@ Banii sunt un instrument de comunicare extrem de sofisticat:
 - Permite comunicarea între prezent și viitor. Transformăm timpul și energia noastră într-un activ care poate fi refolosit în viitor fără riscul de devalorizare.
 - Permite comunicarea într-o limbă comună universală. Fără a se cunoaște, fără a vorbi aceeași limbă, doi străini pot face schimb, comerț și se pot pune de acord asupra valorii lucrurilor.
 
-Funcția sa în lumea noastră este dificil de replicat artificial. Niciun om sau grup de oameni nu poate crea bani; este un fenomen social natural care trebuie să apară din piață și consens voluntar. Prețurile sunt semnale, informații, care ajută societatea să aleagă cum vor fi alocate resursele.
+Funcția sa în lumea noastră este dificil de replicat artificial. Niciun om sau grup de oameni nu poate crea bani; este un fenomen social natural care trebuie să apară din consens voluntar și de pe piață. Prețurile sunt semnale, informații, care ajută societatea să aleagă cum vor fi alocate resursele.
 
 Aurul ca bani este alegerea a 4.000 de ani de darwinism monetar bazat pe 3 funcții:
 
@@ -215,7 +215,7 @@ Această strategie, când este bine executată, poate dura decenii. Cu toate ace
 
 În cele din urmă, moneda s-ar putea să nu mai aibă nicio legătură cu aurul, amintind de monedele romane la sfârșitul Imperiului, sau chiar să fie redusă la o simplă valoare numerică, deconectată de realitatea tangibilă.
 
-Astăzi, suntem martorii unui punct de cotitură istoric. Dolarul, care a dominat mult timp, pare să fie în declin, iar aurul și-a pierdut locul central. Ne aflăm la balama unui nou ciclu monetar, reamintindu-ne că lecțiile din istorie sunt adesea uitate.
+Astăzi, suntem martorii unui punct de cotitură istoric. Dolarul, care a dominat mult timp, pare să fie în declin, iar aurul și-a pierdut locul central. Ne aflăm în pragul unui nou ciclu monetar, reamintindu-ne că lecțiile din istorie sunt adesea uitate.
 
 ![image](assets/en/chapter2/4.webp)
 
@@ -230,7 +230,7 @@ Tipărirea monetară duce la inflație, sărăcind treptat populația. Pe de alt
 ![image](assets/en/chapter2/0.webp)
 
 În același timp, apariția monedelor digitale ale băncilor centrale, sau CBDC-urile, pare inevitabilă. Această nouă formă de monedă ar oferi o economie mai planificată central, ceea ce ar putea împiedica libertatea financiară a indivizilor și facilita abuzurile autoritare.
-Putem încheia acest capitol cu citatul laureatului Premiului Nobel, F.A Hayek, din 1984: "Nu cred că vom găsi vreodată o monedă bună până când nu o vom scoate din mâinile guvernului. Totuși, nu putem să o luăm cu forța de la ei; tot ce putem face este să introducem ceva ce ei nu pot opri prin șiretenie."
+Putem încheia acest capitol cu citatul laureatului Premiului Nobel, F.A Hayek, din 1984: "Nu cred că vom găsi vreodată o monedă bună până când nu o vom scoate din mâinile guvernului. Totuși, nu putem să o luăm cu forța de la ei; tot ce putem face este să introducem ceva ce ei nu pot opri prin metode ingenioase."
 
 ### Recapitulare rapidă într-un poster!
 
@@ -264,7 +264,9 @@ Faza 1 - Pierderea încrederii
 - Centralizarea puterii monetare facilitează crearea de bani și abuzurile sale. O pierdere de încredere într-o monedă poate apoi să apară și să declanșeze hyperinflația. Indivizii încep atunci să se întrebe despre originea banilor și beneficiile politicii monetare impuse. Această pierdere de încredere este, în general, datorată factorilor externi, cum ar fi războaiele, măsurile sociale sau creșterea prețurilor unei resurse cheie, cum ar fi grâul sau benzina.
 
 Faza 2 - Colapsul monedei & creșterea prețurilor
+
 - Pe măsură ce guvernele pierd controlul încrederii, indivizii încep să-și schimbe moneda pentru alta, mai stabilă, cum ar fi dolarul american în Venezuela. Acest lucru duce la o creștere a prețurilor, creând un cerc vicios în care bunurile și serviciile devin din ce în ce mai scumpe. Pentru a satisface aceste nevoi, statul tipărește mai mulți bani pentru a corecta politica monetară, rezultând o inflație exponențială.
+
 Faza 3 - Cercul vicios al tipăririi banilor
 
 - Sunt necesare din ce în ce mai multe bancnote pentru a cumpăra bunuri, creând o penurie de bani de hârtie. Acest lucru duce la tipărirea mai multor bancnote, creând și mai multă inflație.
@@ -304,7 +306,7 @@ Rezolvarea unei crize de hiperinflație necesită adesea schimbări radicale, cu
   În 1997, dolarul zimbabwean a scăzut cu peste 72% după ce guvernul a convenit să compenseze veteranii de război pentru o sumă echivalentă cu 450 de milioane de dolari americani. Deoarece guvernul nu avea o astfel de sumă în vistierie, a trebuit să recurgă la pornirea tiparniței. În 2005, inflația a atins 586% și în martie 2007, inflația lunară a atins 50%.
 
   În iunie 2007, guvernul a reacționat impunând controale de prețuri. Magazinele au fost literalmente "jefuite". Comercianții nu mai au acum mijloacele de a-și reumple magazinele.
-În aprilie 2009, Ministrul Finanțelor a anunțat suspendarea dolarului zimbabwean și a autorizat utilizarea diferitelor valute străine pentru comerț. Toate conturile bancare, pensiile și instituțiile financiare și-au văzut soldurile evaporând peste noapte.
+În aprilie 2009, Ministrul Finanțelor a anunțat suspendarea dolarului zimbabwean și a autorizat utilizarea diferitelor valute străine pentru comerț. Toate conturile bancare, pensiile și instituțiile financiare și-au văzut conturile evaporând peste noapte.
 ![image](assets/en/chapter3/7.webp)
 
 În concluzie, hiperinflația are efectul de a degrada rapid valoarea monedei, ducând la erodarea economiilor și pierderea încrederii în sistemul monetar. Așa cum a sugerat odată Voltaire, o monedă fiat va pierde întotdeauna în cele din urmă valoarea intrinsecă și va converge către zero.
@@ -319,7 +321,7 @@ Rezolvarea unei crize de hiperinflație necesită adesea schimbări radicale, cu
 
 ### Politica Monetară a Bitcoinului
 
-Bitcoin este o monedă digitală descentralizată cu o cantitate maximă predefinită de **21 de milioane de unități**. Această caracteristică intrinsecă de raritate este determinată de codul său de computer și întărită prin consensul tuturor utilizatorilor care participă la protocol.
+Bitcoin este o monedă digitală descentralizată cu o cantitate maximă predefinită de **21 de milioane de unități**. Această caracteristică intrinsecă de raritate este determinată de codul său și întărită prin consensul tuturor utilizatorilor care participă la protocol.
 
 ![image](assets/en/chapter4/0.webp)
 
@@ -356,7 +358,7 @@ Minerii, care efectuează această sarcină, sunt recompensați cu emiterea de n
 | 19             | 3,990,000    | 0.000095367431640625 BTC  | 20,999,959.946 BTC                         |
 | 20             | 4,200,000    | 0.0000476837158203125 BTC | 20,999,979.973 BTC                         |
 
-Ne vom întoarce în detaliu la mineri în capitolul despre minerit.
+Ne vom întoarce în detaliu la mineri în capitolul despre mining.
 
 ### Garantarea rarității digitale
 
@@ -391,7 +393,7 @@ De fapt, oricine poate verifica cantitatea de bitcoini în circulație introduc�
 }
 ```
 
-Prin designul său, Bitcoin garantează o gestionare monetară sănătoasă limitându-și creația și protejând economiile utilizatorilor, distingându-se de alte monede. Aliniat principiilor economiei austriece (detalii în ECON201), cantitatea sa controlată și distribuția previzibilă îl protejează de riscurile inerente ale inflației în monedele tradiționale.
+Prin designul său, Bitcoin garantează o gestionare monetară sănătoasă limitându-și creația și protejând economiile utilizatorilor, distingându-se de alte monede. Aliniat principiilor economiei austriece (detalii în ECON201), cantitatea sa controlată și distribuția previzibilă îl protejează de riscurile inerente ale inflației din monedele tradiționale.
 
 În rezumat, Bitcoin, cu natura sa descentralizată, raritatea programată și transparența, oferă o alternativă unică sistemelor monetare tradiționale. Ilustrează cum tehnologia poate fi folosită pentru a crea o monedă care nu este doar utilă și verificabilă, dar și păstrează valoarea economiilor utilizatorilor prin limitarea strictă a ofertei sale.
 
@@ -415,7 +417,7 @@ Prin designul său, Bitcoin garantează o gestionare monetară sănătoasă limi
 
 - Permit primirea de bitcoini
 - Permit trimiterea de bitcoini
-- Îi securizează împotriva încercărilor de hacking și furt
+- Îi securizează împotriva tentativelor de hacking și furt
 
 Un portofel poate fi un software pe computerul dumneavoastră, o aplicație pe smartphone, un dispozitiv fizic ca o cheie USB, sau chiar un simplu bucățel de hârtie. Aceste diferite tipuri de portofele Bitcoin servesc diferite cazuri de utilizare. Unele sunt folosite pentru sume mari cu accent pe securitate, altele pentru intimitate, sau chiar pentru plata zilnică a unor sume mici.
 
@@ -423,7 +425,7 @@ Portofelele sunt deci împărțite în mari familii de utilizare, având întotd
 
 ![imagine](assets/en/chapter5/3.webp)
 ### Cum funcționează un portofel Bitcoin
-Fie că este vorba despre "bancherul" tău Bitcoin sau despre tine însuți, în general, majoritatea portofelelor Bitcoin funcționează cu o tehnologie similară, aceea a criptografiei asimetrice, și deci un sistem de perechi de chei: o cheie privată pentru a cheltui și o cheie publică pentru a primi.
+Fie că este vorba despre "bancherul" tău sau despre tine însuți, în general, majoritatea portofelelor Bitcoin funcționează cu o tehnologie similară, aceea a criptografiei asimetrice, și deci un sistem de perechi de chei: o cheie privată pentru a cheltui și o cheie publică pentru a primi.
 
 - Cheie privată
   La inițializarea unui portofel, se generează și se oferă o frază secretă de recuperare (cheie privată) sub forma a 24 de cuvinte.
@@ -443,7 +445,7 @@ Este deci important să înțelegem că, datorită acestei tehnologii, putem pri
 
 ### Bitcoinii sunt în portofel atunci?
 
-Deși cheile tale sunt stocate în portofelul tău, bitcoinii în sine sunt de fapt "stocați" în blockchain-ul Bitcoin, care este un registru distribuit public în rețeaua peer-to-peer Bitcoin (vom analiza acest lucru în secțiunea 3). De aceea, pierderea dispozitivului pe care îl ai portofelul nu înseamnă neapărat pierderea bitcoinilor tăi. Ceea ce îți permite să-ți recreezi portofelul și să cheltui bitcoinii este cheia privată. Este deci crucial să o securizezi corespunzător.
+Deși cheile tale sunt stocate în portofelul tău, bitcoinii în sine sunt de fapt "stocați" în blockchain-ul Bitcoin, care este un registru distribuit public în rețeaua peer-to-peer Bitcoin (vom analiza acest lucru în secțiunea 3). De aceea, pierderea dispozitivului pe care ai portofelul nu înseamnă neapărat pierderea bitcoinilor tăi. Ceea ce îți permite să-ți recreezi portofelul și să cheltui bitcoinii este cheia privată. Este deci crucial să o securizezi corespunzător.
 
 ![imagine](assets/en/chapter5/1.webp)
 
@@ -455,7 +457,7 @@ S-ar putea întreba: ce se întâmplă dacă cineva ghicește accidental lista n
 
 ![imagine](assets/en/chapter5/5.webp)
 
-Astfel, probabilitatea de a fi hackuit portofelul tău Bitcoin este astronomically scăzută dacă urmezi bune practici de securitate. Practici pe care le detaliem în secțiunea următoare.
+Astfel, probabilitatea de a vă sparge portofelul Bitcoin este astronomic de scăzută dacă urmați bune practici de securitate. Practici pe care le detaliem în secțiunea următoare.
 
 Alege un portofel care se potrivește nevoilor și utilizării tale. Tutoriale detaliate despre utilizarea și securizarea diferitelor portofele sunt disponibile în [secțiunea de tutoriale a universității noastre](https://planb.network/tutorials/wallet).
 
@@ -468,8 +470,8 @@ Alege un portofel care se potrivește nevoilor și utilizării tale. Tutoriale d
 
 ### Punând întrebările corecte înainte de a începe
 Când dețineți bitcoin, securitatea fondurilor dumneavoastră este o preocupare majoră. Cel mai bun mod de a defini securitatea care este potrivită pentru situația dumneavoastră este să puneți (și să răspundeți) la o serie de întrebări; modelul dumneavoastră de securitate va depinde de răspunsurile dumneavoastră. Să începem:
-- Cine poate accesa fondurile mele? Cu alte cuvinte, sunteți singurul care are acces la bitcoinii dumneavoastră, sau o terță parte, cum ar fi o companie, vă permite să accesați fondurile?
-- O a doua întrebare ar putea fi: care sunt utilizările pe care intenționați să le aveți cu bitcoinii dumneavoastră? Este o sumă pe care o folosiți regulat? Este economii pe termen mediu? Economii pe termen lung?
+- Cine poate accesa la fondurile mele? Cu alte cuvinte, sunteți singurul care are acces la bitcoinii dumneavoastră, sau o terță parte, cum ar fi o companie, vă permite să accesați fondurile?
+- O a doua întrebare ar putea fi: care sunt utilizările pe care intenționați să le aveți cu bitcoinii dumneavoastră? Este o sumă pe care o folosiți regulat? Sunt economii pe termen mediu? Economii pe termen lung?
 - Care sunt competențele dumneavoastră tehnice?
 - Care este bugetul dumneavoastră de securitate?
 
@@ -519,7 +521,7 @@ Securitatea bitcoinilor dumneavoastră este de o importanță crucială, iar o s
 
 > Rețineți că cursul BTC102 vă va ghida prin acest pas.
 
-### Acest pas nu este o glumă!
+### Pasul acesta nu este o glumă!
 
 Cheia dumneavoastră privată, adesea reprezentată printr-o listă de 24 de cuvinte (adesea numită "seed" sau "fraza mnemonică"), reprezintă accesul la fondurile dumneavoastră. Dacă această cheie este dezvăluită unei terțe părți, considerați fondurile asociate ca fiind nesigure. Prin urmare, când inițializați portofelul, este important să urmați aceste reguli:
 
@@ -543,7 +545,7 @@ Există de asemenea soluții alternative la hârtie, cum ar fi gravarea frazei m
 Odată ce copiile sunt făcute, stocați listele de cuvinte într-un loc sigur unde vă veți aminti să le căutați! Nu creați un plan de ascundere prea complex unde riscați să le pierdeți.
 
 > Cuvintele dumneavoastră = banii dumneavoastră.
-Portofelele "reci" au, în general, aceste liste de cuvinte, la fel ca portofelele "calde" de pe mobil sau PC. Această metodă de backup pentru cheia privată este acum standardul. Asta înseamnă că poți introduce fraza ta mnemonică în orice software de portofel pentru a-ți restaura portofelul. Doar portofelele rele, pe care le descurajăm cu tărie, nu îți vor oferi o listă de 24 de cuvinte, dar ar putea cere un cont, o adresă de email sau, și mai rău, un act de identitate.
+Portofelele "reci" au, în general, aceste liste de cuvinte, la fel ca portofelele "calde" de pe mobil sau PC. Această metodă de backup pentru cheia privată este acum standardul. Asta înseamnă că poți introduce fraza ta mnemonică în orice software de portofel pentru a-ți restaura portofelul. Doar portofelele de proastă calitate, pe care le descurajăm cu tărie, nu îți vor oferi o listă de 24 de cuvinte, dar ar putea să-ți ceară un cont, o adresă de email sau, și mai rău, un act de identitate.
 **ATENȚIE: Absența unei liste de 24 de cuvinte ar trebui să te alerteze.**
 
 ### Recapitulare rapidă într-un poster!
@@ -577,7 +579,7 @@ Securitatea pe termen lung a bitcoinilor tăi nu se limitează la crearea de bac
 
 În ceea ce privește confidențialitatea, este crucial să eviți să vorbești cu toată lumea despre bitcoinii tăi. Într-adevăr, nu știm unde va merge acest activ, și menținerea discreției în ceea ce privește proprietatea sa este o decizie înțeleaptă. Nu vrei să atragi atenția asupra ta și a portofelului tău.
 
-În aceeași ordine de idei, evită să dezvălui în mod zgomotos sistemul tău de securitate în timpul întâlnirilor despre bitcoin sau la întâlniri cu străini...
+În aceeași ordine de idei, evită să dezvălui sistemul tău de securitate în timpul întâlnirilor despre bitcoin sau la întâlniri cu străini...
 
 ### Recapitulare rapidă într-un poster!
 
@@ -603,7 +605,7 @@ Acum că am acoperit noțiunile de bază ale portofelelor Bitcoin și cele mai b
 
 ![image](assets/en/chapter9/2.webp)
 
-31 octombrie 2008 marchează nașterea unei noi tehnologii financiare: Bitcoin. Este în această dată când Satoshi Nakamoto, autorul anonim al Bitcoinului, își prezintă inovația lumii printr-un email distribuit listei de corespondență cypherpunk, o comunitate de entuziaști ai criptografiei pasionați de confidențialitate pe internet.
+31 octombrie 2008 marchează nașterea unei noi tehnologii financiare: Bitcoin. Este în această dată când Satoshi Nakamoto, autorul anonim al Bitcoinului, își prezintă inovația lumii printr-un email distribuit către un mailing list cypherpunk, o comunitate de entuziaști ai criptografiei și pasionați de confidențialitate pe internet.
 
 Acest email conținea un document, numit "White Paper", care prezenta funcționarea Bitcoinului. Având în vedere eșecurile anterioare ale sistemelor de bani digitali, această inițiativă nu a generat imediat entuziasm. Cu toate acestea, acest White Paper a devenit în cele din urmă o referință pentru utilizatorii Bitcoin și a fost subiectul multor dezbateri în ecosistemul Bitcoin.
 
@@ -623,7 +625,7 @@ Pe 3 ianuarie 2009, Satoshi inaugurează oficial rețeaua Bitcoin prin crearea p
 Pe 8 ianuarie 2009, Satoshi anunță lansarea Bitcoin-0.1.0. Curând după, Hal Finney preia software-ul și se alătură rețelei. Acum, existau 2 noduri, și deci 2 mineri, în rețea. Finney imortalizează acest pas prin tweet-ul "Running Bitcoin". Pe 12 ianuarie 2009, are loc prima tranzacție Bitcoin între Satoshi și Hal Finney. Această tranzacție, de 10 BTC, este înregistrată în blocul 170.
 
 ![image](assets/en/chapter9/4.webp)
-Interesul pentru Bitcoin crește rapid, iar mulți oameni încep să testeze, să dezbată, să rezolve erori și să reflecteze asupra aspectelor etice, economice și filosofice ale Bitcoin. Pentru a facilita aceste schimburi, forumul BitcoinTalk este creat pe 22 noiembrie 2009 de Satoshi. Acest forum devine rapid locul preferat de discuție pentru utilizatorii Bitcoin. Acolo se nasc multe meme-uri și simboluri asociate cu Bitcoin, cum ar fi [logo-ul Bitcoin](https://bitcointalk.org/index.php?topic=64.0), celebrul [Hodl](https://bitcointalk.org/index.php?topic=375643.0), sau chiar [Ziua Pizza](https://bitcointalk.org/index.php?topic=137.msg1195).
+Interesul pentru Bitcoin crește rapid, iar mulți oameni încep să testeze, să dezbată, să rezolve erori și să reflecteze asupra aspectelor etice, economice și filosofice ale Bitcoin. Pentru a facilita aceste schimburi, forumul BitcoinTalk este creat pe 22 noiembrie 2009 de Satoshi. Acest forum devine rapid locul preferat de discuție pentru utilizatorii Bitcoin. Acolo se nasc multe meme-uri și simboluri asociate cu Bitcoin, cum ar fi [logo-ul Bitcoin](https://bitcointalk.org/index.php?topic=64.0), celebrul [Hodl](https://bitcointalk.org/index.php?topic=375643.0), sau chiar [Pizza Day](https://bitcointalk.org/index.php?topic=137.msg1195).
 
 > **Știați că?** Într-adevăr, pe 22 mai 2010, Laszlo Hanyecz a făcut istorie cu Bitcoin oferind să cumpere 2 pizza pentru 10.000 BTC. Aceasta este prima dată când Bitcoin este folosit pentru a cumpăra bunuri fizice.
 
@@ -637,7 +639,7 @@ Interesul pentru Bitcoin crește rapid, iar mulți oameni încep să testeze, s�
 > controlate ca Napster, dar rețelele pure P2P ca
 > Gnutella și Tor par să se mențină pe propriile picioare.” - Satoshi Nakamoto
 
-În absența lui Satoshi, Bitcoin continuă să se dezvolte. La fiecare 10 minute, istoria Bitcoin este scrisă, iar protocolul continuă să funcționeze așa cum a fost intenționat. Indiferent de frică, incertitudine sau îndoială (FOMO pentru Fear Of Missing Out sau FUD pentru Fear Uncertainty Doubt), Bitcoin continuă să avanseze, cu o disponibilitate online de 99.988%.
+În absența lui Satoshi, Bitcoin continuă să se dezvolte. La fiecare 10 minute, istoria Bitcoin este scrisă, iar protocolul continuă să funcționeze așa cum a fost intenționat. Indiferent de frică, incertitudine sau îndoială (FOMO: Fear Of Missing Out sau FUD: Fear Uncertainty Doubt), Bitcoin continuă să avanseze, cu o disponibilitate online de 99.988%.
 
 Bitcoin este perceput diferit de fiecare individ. Pentru unii, este o entitate fungică ca [miceliul](https://brandonquittem.com/bitcoin-is-the-mycelium-of-money/), pentru alții este o [gaură neagră](https://dergigi.com/2019/05/01/bitcoins-gravity/i). Îl iubești sau îl urăști, Bitcoin continuă să existe, cu ritmul său constant de 10 minute per bloc, ca bătaia inimii unui nou sistem monetar.
 
@@ -645,7 +647,7 @@ Pentru a afla mai multe despre scrierile lui Satoshi Nakamoto, vă recomand [car
 
 ![imagine](assets/en/chapter9/8.webp)
 
-> “Problema de bază cu moneda convențională este toată încrederea care este necesară pentru a o face să funcționeze. Banca centrală trebuie să fie de încredere să nu devalorizeze moneda, dar istoria monedelor fiat este plină de încălcări ale acestei încrederi. Băncile trebuie să fie de încredere să ne țină banii și să îi transfere electronic, dar ei îi împrumută în valuri de bule de credit cu abia o fracțiune în rezervă.”
+> “Problema de bază cu moneda convențională este toată încrederea care este necesară pentru a o face să funcționeze. Banca centrală trebuie să fie de încredere să nu devalorizeze moneda, dar istoria monedelor fiat este plină de încălcări ale acestei încrederi. Băncile trebuie să fie de încredere să ne țină banii și să îi transfere electronic, dar ei îi împrumută în valuri de credit cu abia o fracțiune în rezervă.”
 
 Acum că avem ceva context, să aruncăm o privire la modul în care funcționează în general o tranzacție Bitcoin.
 
@@ -686,12 +688,12 @@ Minerii au rolul de a lua tranzacții valide și neconfirmate, și apoi de a le 
 ### Pasul 3: Tranzacția este minată într-un bloc de către un miner.
 
 Această dovadă a muncii necesită găsirea unui "hash" valid pentru blocul în cauză. Gândiți-vă la acesta ca la o amprentă unică asociată cu blocul, compusă din 256 de caractere. Valabilitatea acestui hash depinde de dificultatea rețelei Bitcoin. Vom intra mai în detaliu în legătură cu acest mecanism mai târziu. Pentru moment, considerați că un miner a găsit un bloc valid și că tranzacția lui Bob către Alice este inclusă în acesta.
-Acest nou bloc valid este adăugat la blockchain-ul Bitcoin, care este un registru public și imuabil al tuturor tranzacțiilor Bitcoin. Gândiți-vă la acesta ca la un registru comun pentru toți utilizatorii Bitcoin. Conform regulilor protocolului, un bloc este adăugat aproximativ la fiecare zece minute datorită ajustării dificultății. Vom vedea în secțiunea despre mineri ce mecanism previne modificarea registru de tranzacții Bitcoin.
+Acest nou bloc valid este adăugat la blockchain-ul Bitcoin, care este un registru public și imuabil al tuturor tranzacțiilor Bitcoin. Gândiți-vă la acesta ca la un registru comun pentru toți utilizatorii Bitcoin. Conform regulilor protocolului, un bloc este adăugat aproximativ la fiecare zece minute datorită ajustării dificultății. Vom vedea în secțiunea despre mineri ce mecanism previne modificarea registru-lui de tranzacții Bitcoin.
 ![imagine](assets/en/chapter10/5.webp)
 
-### Pasul 4: Blocul este valid și verificat de nodul portofelului Alice.
+### Pasul 4: Blocul este validat și verificat de nodul portofelului lui Alice.
 
-La această etapă, tranzacția este considerată validă, minerul va propaga apoi noul bloc prin nodul său către rețea, iar portofelul Alice va fi actualizat.
+La această etapă, tranzacția este considerată validă, minerul va propaga apoi noul bloc prin nodul său către rețea, iar portofelul lui Alice va fi actualizat.
 
 ![imagine](assets/en/chapter10/3.webp)
 
@@ -701,11 +703,11 @@ La această etapă, tranzacția este considerată validă, minerul va propaga ap
 
 ![Explicația unei tranzacții](assets/posters/fr/11_explication_d_une_transaction_crop.webp)
 
-### Care este scopul tuturor acestora?
+### Ce rost au toate astea?
 
 În final, sistemul de tranzacții Bitcoin este descentralizat și funcționează peer-to-peer, fără intermediari de încredere.
 
-Bob își trimite tranzacția către rețeaua Bitcoin, și când un miner publică un bloc valid conținând tranzacția lui Bob, Alice poate începe să considere că bitcoinii îi aparțin. Încrederea nu este necesară la niciun pas al transferului de proprietate bitcoin; doar regulile protocolului și stimulentele economice fac prea costisitor să acționezi în mod rău intenționat în cadrul protocolului Bitcoin.
+Bob își trimite tranzacția către rețeaua Bitcoin, și când un miner publică un bloc valid conținând tranzacția lui Bob, Alice poate începe să considere că bitcoinii îi aparțin. Încrederea nu este necesară la niciun pas al transferului de proprietate bitcoin; doar regulile protocolului și stimulentele economice fac prea costisitoare acțiunile rău intenționate în cadrul protocolului Bitcoin.
 
 Utilizatorii transferă proprietatea banilor lor semnând digital tranzacțiile cu cheile lor private. Minerii dețin puțină putere, deoarece utilizatorii au, de asemenea, un control semnificativ prin nodurile Bitcoin care se ocupă de validarea noilor blocuri și a tranzacțiilor incluse. Este prin această rețea de noduri Bitcoin că rețeaua este cu adevărat descentralizată.
 
@@ -716,7 +718,8 @@ Să aruncăm o privire mai atentă la modul în care funcționează un nod Bitco
 ## Nodurile Bitcoin
 <chapterId>8533cebc-f799-528b-89df-8d75d4c37f1c</chapterId>
 
-Nodurile sunt un element fundamental al arhitecturii rețelei Bitcoin. Ele îndeplinesc diverse funcții cruciale:
+Nodurile sunt un element 
+fundamental al arhitecturii rețelei Bitcoin. Ele îndeplinesc diverse funcții cruciale:
 
 - Menținerea unei copii a blockchain-ului Bitcoin
 - Validarea tranzacțiilor

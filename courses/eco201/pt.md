@@ -527,6 +527,7 @@ A metodologia é um aspecto essencial na economia e nas ciências sociais em ger
 ## Dê-nos seu feedback sobre este curso
 <chapterId>29d4323c-e34e-5834-bf03-2f3ed10d751b</chapterId>
 <isCourseReview>true</isCourseReview>
+
 ## Estudos adicionais
 <chapterId>64faaed4-84b9-5b8c-9736-a959e8e6cd9d</chapterId>
 

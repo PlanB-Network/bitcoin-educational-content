@@ -985,6 +985,7 @@ In jedem Fall bleiben alle unsere Schulungen kostenlos, und es stehen viele Ress
 ## Geben Sie uns Ihr Feedback zu diesem Kurs
 <chapterId>3f43175a-fb7a-5b1c-a887-7dcf615d7a3a</chapterId>
 <isCourseReview>true</isCourseReview>
+
 ## Unterstützen Sie die Schulung!
 <chapterId>b082b8eb-dabc-5d79-94cf-eb8f48fc1968</chapterId>
 

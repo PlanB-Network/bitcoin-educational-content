@@ -7,7 +7,6 @@ objectives:
   - Používat metody a nástroje k ochraně vašeho soukromí na Bitcoinu
   - Porozumět metodám analýzy řetězce a vyvinout obranné strategie
 ---
-
 # Ochrana vašeho soukromí na Bitcoinu
 
 Ve světě, kde se soukromí finančních transakcí postupně stává luxusem, je zásadní porozumět a ovládnout principy ochrany soukromí při vašem používání Bitcoinu. Toto školení vám dává všechny klíče, jak teoretické, tak praktické, k dosažení tohoto cíle samostatně.
@@ -67,13 +66,11 @@ Jak můžeme mluvit o soukromí na Bitcoinu bez diskuse o coinjoinech? V sekci 4
 ### Sekce 5: Porozumění důležitosti dalších pokročilých technik ochrany soukromí
 
 V páté sekci poskytneme přehled všech ostatních existujících technik ochrany vašeho soukromí na Bitcoinu, kromě coinjoin. V průběhu let vývojáři projevili pozoruhodnou kreativitu při návrhu nástrojů zaměřených na soukromí. Prozkoumáme všechny tyto metody, jako jsou payjoin, spolupracující transakce, Coin Swap a Atomic Swap, a podrobně popíšeme jejich fungování, cíle a potenciální slabiny.
-![BTC204](assets/cs/11/5.webp)
 
-### Sekce 6: Prozkoumání návrhů na vylepšení protokolu souvisejících s soukromím
+Budeme se také zabývat ochranou soukromí na úrovni sítě uzlů a šířením transakcí. Budeme také diskutovat o různých protokolech, které byly v průběhu let navrženy ke zlepšení ochrany soukromí uživatelů v Bitcoinu, včetně protokolů statických adres.
 
-Zatímco předchozí sekce se zaměřovaly na řešení soukromí na úrovni aplikací, tato šestá sekce se ponoří do problémů soukromí na úrovni Bitcoin Core pro soukromí uživatelů. Budeme diskutovat o soukromí na úrovni sítě uzlů a o vysílání transakcí. Také probereme různé protokoly, které byly během let navrženy za účelem zvýšení soukromí uživatelů na Bitcoinu, včetně protokolů se statickými adresami. Na závěr prozkoumáme dopady na soukromí, jak pozitivní, tak negativní, posledního velkého soft forku Bitcoinu, Taproot.
+![BTC204](assets/notext/11/5.webp)
 
-![BTC204](assets/notext/67/07.webp)
 
 # Definice a klíčové pojmy
 
@@ -1077,8 +1074,10 @@ _Branch-and-Bound_ (BNB), často přezdívaný "Murchův algoritmus" s odkazem n
 Všechny tyto metody automatického výběru UTXO mohou být účinné při snižování transakčních poplatků, ale často jsou neefektivní při zachování soukromí uživatele. Tyto algoritmy skutečně mohou sloučit několik UTXO do vstupů, čímž odhalují společné vlastnictví těchto UTXO kvůli COH. Zřejmě tyto metody nemohou zohlednit štítky připojené k UTXO, které jsou klíčové pro vědomé rozhodování o tom, které mince odhalit příjemci transakce. V současné době je jediným řešením pro optimalizaci soukromí při výběru mincí provádět to ručně.
 
 ### Tutoriál k označování UTXO
+  
+Pokud se chcete dozvědět, jak označit své UTXO, připravili jsme kompletní návod pro hlavní dostupné Bitcoin peněženky:
 
-Pokud se chcete naučit, jak označovat vaše UTXO, připravili jsme kompletní tutoriál o hlavním existujícím softwaru Bitcoin peněženky. Najdete ho [kliknutím zde](https://planb.network/tutorials/privacy/utxo-labelling).
+https://planb.network/tutorials/privacy/utxo-labelling  
 
 ## KYC a identifikace klíčů
 
@@ -1320,7 +1319,7 @@ Jedna z nejčastěji používaných heuristik v analýze blockchainu je COIH (_C
 
 ![BTC204](assets/notext/45/04.webp)
 
-V praktickém smyslu to znamená, že vnější pozorovatel může vědět, že všechna sloučená UTXO pravděpodobně patří téže osobě a že výstup vždy patří této samé osobě. To je samozřejmě problematické pro vaše soukromí, protože spojujete různé historie. Například si představte, že konsoliduji 3 UTXO zakoupené P2P a s UTXO zakoupeným na platformě prostřednictvím procesu KYC.
+
 V praxi to znamená, že vnější pozorovatel může usoudit, že všechna konsolidovaná UTXO pravděpodobně patří téže osobě a že jediný vygenerovaný výstup jim také patří. Tato situace může ohrozit vaše soukromí spojením různých historií transakcí. Představme si, že konsoliduji 3 UTXO získané P2P s UTXO získaným prostřednictvím platformy vyžadující KYC:
 ![BTC204](assets/notext/45/05.webp)
 
@@ -1412,7 +1411,7 @@ Princip coinjoinu spočívá v kolaborativním přístupu: několik uživatelů,
 Na konci transakce se stává nemožným spojit konkrétní výstup s známým uživatelem na vstupu. Mezi vstupy a výstupy neexistuje přímá spojitost, což narušuje asociaci mezi uživateli a jejich UTXO, stejně jako historii každé mince.
 
 ![BTC204](assets/notext/51/04.webp)
-Pojďme si vzít příklad Alice. Chce poslat své sestře Eve k narozeninám přibližně 100 000 satoshi (sats). Alice však nechce, aby Eve mohla sledovat historii jejích transakcí, protože nechce odhalit, kolik bitcoinů vlastní nebo jak je získala. Aby toho dosáhla, rozhodne se Alice přerušit historii svého UTXO pomocí transakce coinjoin. Organizuje spolupráci s Bobem, Charlesem, Davidem a Frankem, aby provedli společnou transakci: - Alice, Bob, Charles, David a Frank každý vloží UTXO o velikosti 100 500 sats (s 500 sats na těžební poplatky) jako vstupy pro transakci:
+Pojďme si vzít příklad Alice. Chce poslat své sestře Eve k narozeninám přibližně 100 000 satoshi (sats). Alice však nechce, aby Eve mohla sledovat historii jejích transakcí, protože nechce odhalit, kolik bitcoinů vlastní nebo jak je získala. Aby toho dosáhla, rozhodne se Alice přerušit historii svého UTXO pomocí transakce coinjoin. Organizuje spolupráci s Bobem, Charlesem, Davidem a Frankem, aby provedli společnou transakci: - Alice, Bob, Charles, David a Frank každý vloží UTXO o velikosti 105 000 sats (s 5 000 sats na těžební poplatky) jako vstupy pro transakci:
 
 ![BTC204](assets/notext/51/05.webp)
 
@@ -1806,6 +1805,12 @@ Pozorně sledujeme vývoj této kauzy i vývoj přidružených nástrojů. Ujist
 
 V další kapitole se dozvíme, co jsou "anonsety", jak se tyto ukazatele vypočítávají a jak nám mohou pomoci odhadnout účinnost cyklů coinjoin.
 
+https://planb.network/tutorials/privacy/coinjoin-sparrow-wallet
+
+https://planb.network/tutorials/privacy/coinjoin-samourai-wallet
+
+https://planb.network/tutorials/privacy/coinjoin-dojo
+
 ## Sady anonymity
 
 <chapterId>be1093dc-1a74-40e5-9545-2b97a7d7d431</chapterId>
@@ -1871,6 +1876,8 @@ Je možné ručně vypočítat své anonsety pomocí prohlížeče bloků pro ma
 ![BTC204](assets/notext/55/09.webp)
 
 Jak jsme viděli v této kapitole, anonsety lze vypočítat pouze v případě, že existuje určitá homogenita ve struktuře coinjoinů. A přesně v další kapitole se dozvíme, jak kvantifikovat tuto homogenitu v Bitcoinové transakci, ať už jde o coinjoin nebo tradičnější transakci.
+
+https://planb.network/tutorials/privacy/wst-anonsets
 
 ## Entropie
 
@@ -2050,12 +2057,12 @@ Výpočet Boltzmannova skóre zahrnuje dělení počtu interpretací, ve kterýc
 
 $$
 \begin{align*}
-\begin{align*}
 \text{Interpretace (IN.0 > OUT.3)} &= 512 \\
-\text{Celkový počet interpretací} &= 1496 \\
-\text{Skóre} &= \frac{512}{1496} \\
-\text{Skóre} &= 34 \%
+\text{Celkovy pocet interpretaci} &= 1496 \\
+\text{Skore} &= \frac{512}{1496} \\
+\text{Skore} &= 34 \%
 \end{align*}
+$$
 
 Pokud se vrátíme k příkladu Whirlpool coinjoin 8x8 Surge Cycle, Boltzmannova tabulka by vypadala takto:
 
@@ -2096,6 +2103,8 @@ Bylo také možné použít webovou stránku KYCP.org pro tyto analýzy:
 Bohužel, po zatčení zakladatelů Samourai, tyto nástroje momentálně nejsou funkční.
 
 Nyní, když jsme podrobně diskutovali o coinjoinech, prozkoumáme v poslední části našeho školení další dostupné techniky soukromí na Bitcoinu. Budeme zkoumat payjoiny, specifické typy transakcí pseudo-coinjoin, protokoly s pevnou adresou, stejně jako opatření zaměřená na zvýšení soukromí ne na úrovni transakce, ale na úrovni sítě uzlů.
+
+https://planb.network/tutorials/privacy/boltzmann-entropy
 
 # Porozumění významu dalších pokročilých technik soukromí
 <partId>19989ae6-d608-4acf-b698-2cf1e7e5e6ae</partId>
@@ -2172,7 +2181,11 @@ Obtížnost používání payjoin spočívá v jeho závislosti na účasti obch
 
 Řešením by mohlo být použití transakčních struktur, které zavádějí nejednoznačnost v analýze řetězce bez nutnosti spolupráce příjemce. To by nám umožnilo zlepšit soukromí našich plateb bez závislosti na aktivní účasti obchodníků. To je přesně to, co budeme studovat v další kapitole.
 
-## Mini-Payjoin Coinjoins
+https://planb.network/tutorials/privacy/payjoin-sparrow-wallet
+
+https://planb.network/tutorials/privacy/payjoin-samourai-wallet
+
+## Mini-coinjoiny pro platby
 <chapterId>300777ee-30ae-43d7-ab00-479dac3522c1</chapterId>
 
 Pokud hledáte způsob, jak provést platební transakci při zachování určitého stupně soukromí, payjoin je dobrá volba. Ale jak jsme viděli, payjoin vyžaduje zapojení příjemce. Co dělat, pokud tento odmítne účastnit se payjoinu, nebo pokud jednoduše preferujete nezapojovat ho? Alternativou je použití transakce Stonewall nebo Stonewall x2. Podívejme se blíže na tyto dva typy transakcí.
@@ -2272,6 +2285,10 @@ Je také možné manuálně provést tento typ transakce z jakéhokoli softwaru 
 
 V další kapitole se budeme věnovat další technice ochrany soukromí, která je relativně neznámá, ale je velmi užitečná v doplnění toho, co jsme již studovali.
 
+https://planb.network/tutorials/privacy/stonewall
+
+https://planb.network/tutorials/privacy/stonewall-x2
+
 ## Ricochets
 <chapterId>db9a20ac-a149-443d-884b-ea6c03f28499</chapterId>
 
@@ -2332,6 +2349,8 @@ Ricochet jednoduše zahrnuje poslání bitcoinů sami sobě. Je zcela možné pr
 
 V následující kapitole prozkoumáme různé techniky pro tajné převody majetku. Tyto metody se radikálně liší od těch, které jsme dosud zkoumali, jak z hlediska provozu, tak výsledků.
 
+https://planb.network/tutorials/privacy/ricochet
+ 
 ## Tajné převody majetku
 <chapterId>a2067036-849c-4d6b-87d2-44235cfae7a1</chapterId>
 
@@ -3234,6 +3253,8 @@ Bob může poté vrátit Alice peníze stejným způsobem, jakým mu poslala pla
 ![BTC204](assets/cs/66/26.webp)
 _Velké poděkování [Fanis Michalakis](https://x.com/FanisMichalakis) za jeho recenzi a cenné odborné rady k článku, který inspiroval k napsání této kapitoly!_
 
+https://planb.network/tutorials/privacy/paynym-bip47
+
 ## Tiché platby
 
 <chapterId>2871d594-414e-4598-a830-91c9eb84dfb8</chapterId>
@@ -3602,6 +3623,7 @@ _K vytvoření této kapitoly o Silent Payments jsem použil [web s vysvětlení
 ## Dejte nám zpětnou vazbu k tomuto kurzu
 <chapterId>195d149f-80fa-5816-8b46-995a9226d082</chapterId>
 <isCourseReview>true</isCourseReview>
+
 ## Závěr
 
 <chapterId>cd8e5c67-50e4-4dcd-8e04-88ba5ec95305</chapterId>

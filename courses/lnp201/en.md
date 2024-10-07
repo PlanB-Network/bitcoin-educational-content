@@ -622,6 +622,7 @@ Finally, the future of Bitcoin is promising with a possible projection of one mi
 ## Give us some feedback about this course
 <chapterId>38814c99-eb7b-5772-af49-4386ee2ce9b0</chapterId>
 <isCourseReview>true</isCourseReview>
+
 ## Acknowledgments and keep digging the rabbit hole
 <chapterId>afc0d72b-4fbc-5893-90b2-e27fb519ad02</chapterId>
 

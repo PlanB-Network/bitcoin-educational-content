@@ -19,28 +19,28 @@ JoinBot è un nuovo strumento che si aggiunge alla suite Samourai Wallet con l'u
 
 ## Cosa è una transazione collaborativa su Bitcoin?
 
-Bitcoin si basa su un registro dei conti distribuito e trasparente. Chiunque è in grado di tracciare le transazioni degli utenti di questo sistema di denaro elettronico. Per garantire una certa privacy, l'utente di Bitcoin può effettuare transazioni con una struttura specifica, al fine di aggiungere plausibile negabilità nell'interpretazione delle stesse.
+Bitcoin si basa su un registro distribuito e trasparente. Chiunque è in grado di tracciare le transazioni degli utenti di questo sistema di denaro elettronico. Per garantire una certa privacy, l'utente di Bitcoin può effettuare transazioni con una struttura specifica, al fine di aggiungere negabilità plausibile nell'interpretazione delle stesse.
 
-L'idea non è nascondere direttamente le informazioni, ma confonderle tra le altre. Questo obiettivo viene utilizzato in particolare nei Coinjoin, transazioni che consentono di rompere la cronologia di una moneta su Bitcoin e rendere complesso il suo tracciamento. Per ottenere questo risultato, è necessario creare più input e output dello stesso importo nella transazione.
+L'idea non è nascondere direttamente le informazioni, ma confonderle tra le altre. Questo obiettivo viene utilizzato in particolare nei Coinjoin, transazioni che consentono di rompere la cronologia di un UTXO su Bitcoin e rendere complesso il suo tracciamento. Per ottenere questo risultato, è necessario creare più input e output dello stesso importo nella transazione.
 
-Gli input rappresentano gli input di una transazione Bitcoin, mentre gli output rappresentano le uscite. La transazione consuma i suoi input per creare nuove uscite, modificando le condizioni di spesa di una moneta. Questo meccanismo consente di spostare bitcoin tra gli utenti.
+La transazione consuma i suoi input per creare nuovi output, modificando le condizioni di spesa di una moneta. Questo meccanismo consente di spostare bitcoin tra gli utenti.
 Ne parlo in dettaglio in questo articolo: Meccanismo di una transazione Bitcoin: UTXO, input e output.
 
-Un modo per confondere le tracce in una transazione Bitcoin è effettuare una transazione collaborativa. Come suggerisce il nome, si tratta di un accordo tra più utenti che depositano ciascuno una somma di bitcoin come input nella stessa transazione e ne recuperano una somma come output.
+Un modo per confondere le tracce in una transazione Bitcoin è effettuare una transazione collaborativa. Come suggerisce il nome, si tratta di un accordo tra più utenti che depositano ciascuno una somma di bitcoin come input nella stessa transazione, recuperandola come output.
 
 Come accennato in precedenza, la struttura di transazione collaborativa più conosciuta è il Coinjoin. Ad esempio, nel protocollo Coinjoin Whirlpool, le transazioni coinvolgono 5 partecipanti in input e output, ognuno con la stessa quantità di bitcoin.
 
 ![Schema di una transazione Coinjoin su Whirlpool](assets/1.webp)
 
 Un osservatore esterno a questa transazione non sarà in grado di sapere a quale output appartiene ciascun utente in input. Ad esempio, prendendo l'esempio dell'utente n°4 (viola), possiamo riconoscere il suo UTXO in input, ma non sapremo quale dei 5 output sia effettivamente il suo. L'informazione iniziale non è nascosta, ma confusa all'interno di un gruppo.
-L'utente è in grado di negare il possesso di un certo UTXO in output. Questo fenomeno è chiamato "plausibile negabilità" e consente di ottenere la privacy in una transazione Bitcoin altrimenti trasparente.
+L'utente è in grado di negare il possesso di un certo UTXO in output. Questo fenomeno è chiamato "negabilità plausibile" e consente di ottenere la privacy in una transazione Bitcoin altrimenti trasparente.
 Per saperne di più su Coinjoin, ti spiego TUTTO in questo lungo articolo: Comprendere e utilizzare CoinJoin su Bitcoin.
 
 Sebbene molto efficace nel rompere il tracciamento di un UTXO, Coinjoin non è adatto alla spesa diretta. Infatti, la sua struttura implica l'uso di input di importi predefiniti e output dello stesso valore (modulo le commissioni di mining). Tuttavia, la transazione di spesa su Bitcoin è un momento critico per la privacy in quanto spesso collega fisicamente l'utente alla sua attività on-chain. Pertanto, sembra essenziale utilizzare strumenti di privacy per la spesa. Esistono quindi altre strutture di transazioni collaborative pensate appositamente per le transazioni di pagamento effettivo.
 
 ## La transazione StonewallX2
 
-Tra la miriade di strumenti di spesa offerti da Samourai Wallet, c'è la transazione collaborativa StonewallX2. Si tratta di un mini Coinjoin tra due utenti pensato per il pagamento. Da un punto di vista esterno, questa transazione può portare a diverse possibili interpretazioni. Si ottiene quindi una plausibile negabilità e di conseguenza, privacy per l'utente.
+Tra la miriade di strumenti di spesa offerti da Samourai Wallet, c'è la transazione collaborativa StonewallX2. Si tratta di un mini Coinjoin tra due utenti pensato per il pagamento. Da un punto di vista esterno, questa transazione può portare a diverse possibili interpretazioni. Si ottiene quindi una negabilità plausibile e di conseguenza, privacy per l'utente.
 
 Questa configurazione di transazione collaborativa StonewallX2 è disponibile su Samourai Wallet e su Sparrow Wallet. Questo strumento è interoperabile tra i due software.
 
@@ -60,7 +60,7 @@ Possiamo osservare 4 output di cui 2 dello stesso importo per confondere le trac
 > - 50.125 sats che vanno al destinatario effettivo del mio pagamento.
 > - 52.306 sats che rappresentano il mio resto e quindi tornano a un indirizzo del mio portafoglio.
 > - 50.125 sats che tornano al mio collaboratore.
-> - 53 973 sats qui reviennent vers mon collaborateur.
+> - 53 973 sats che tornano al collaboratore.
 >   Alla fine dell'operazione, il collaboratore ritrova tutto il suo saldo iniziale (meno le commissioni di mining), e l'utente avrà pagato il commerciante. Ciò permette di aggiungere un'enorme entropia alla transazione e di rompere i legami indiscutibili tra il mittente e il destinatario del pagamento.
 
 La forza della transazione di tipo StonewallX2 è che contrasta completamente una delle regole empiriche utilizzate dagli analisti di blockchain: la proprietà comune degli input in una transazione multi-input. In altre parole, nella maggior parte dei casi, se si osserva una transazione Bitcoin con più input, si può presumere che tutti questi input appartengano alla stessa persona. Satoshi Nakamoto aveva già identificato questo problema per la privacy dell'utente nel suo White Paper:
@@ -93,7 +93,7 @@ Come in un classico StonewallX2, il vostro collaboratore è necessariamente a co
 
 Per evitare lo spam, Samourai applica una commissione di servizio del 3,5% sull'importo effettivo della transazione, con un limite massimo di 0,01 BTC. Ad esempio, se invio un pagamento effettivo di 100 kilosats utilizzando JoinBot, il costo del servizio sarà di 3.500 sats.
 
-Per utilizzare JoinBot, è necessario avere almeno due UTXO non collegati disponibili sul proprio portafoglio.
+Per utilizzare JoinBot, è necessario avere almeno due UTXO non collegati (non devono condividere uno stesso TxID) disponibili sul proprio portafoglio.
 
 In un classico StonewallX2, i costi di mining vengono suddivisi equamente tra i due collaboratori. Con JoinBot, dovrete ovviamente pagare l'intera tariffa di mining.
 
@@ -129,7 +129,7 @@ Come promemoria, le commissioni di mining non rappresentano un output delle tran
 
 ## Conclusioni
 
-JoinBot è uno strumento aggiuntivo che permette di aggiungere più scelte e libertà per l'utente di Samourai. Permette di effettuare una transazione collaborativa StonewallX2 direttamente con Samourai come collaboratore. Questo tipo di transazione aiuta a migliorare la privacy degli utenti.
+JoinBot è uno strumento aggiuntivo che permette di aggiungere più scelta e libertà per l'utente di Samourai. Permette di effettuare una transazione collaborativa StonewallX2 direttamente con Samourai come collaboratore. Questo tipo di transazione aiuta a migliorare la privacy degli utenti.
 
 Se puoi effettuare una transazione classica StonewallX2 con un amico, ti consiglio comunque di preferire questa modalità di utilizzo dello strumento. Tuttavia, se sei bloccato e non trovi nessun collaboratore per effettuare un pagamento, sai che JoinBot sarà disponibile 24 ore su 24, 7 giorni su 7 per collaborare con te.
 

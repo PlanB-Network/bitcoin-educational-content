@@ -27,6 +27,9 @@ tags:
 original_language: fr
 
 # Proofreading metadata
+# Only the original author needs to add this data related to initial proofreading
+# Any further data will be automatically added after each proofreading
+# 
 # This information are provided by PBN team, no need to specify if you are a contributor.
 # for PBN staff: an entry is created for each language specifying:
 # - language: language to review
@@ -34,14 +37,11 @@ original_language: fr
 # - urgency: level of urgency from 1 (low urgency) to X(high urgency)
 # - contributors_id: list of contributors PBN ids
 # - reward: amount of sats available for reward
+original_language: en
 proofreading:
   - language: en
-    last_contribution_date:
-    urgency: 1
+    last_contribution_date: YYYY-MM-DD
+    urgency: # leave as empty
     contributors_id:
-    reward: 2615
-  - language: fr
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 1307
+    - author_github_id #insert your github ID
+    reward: # leave as empty

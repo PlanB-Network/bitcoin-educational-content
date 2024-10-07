@@ -1,6 +1,6 @@
 name: Kiveclair
 category: communities
-address_line_1:
+address_line_1:   Goma, Congo
 address_line_2:
 address_line_3:
 language:
@@ -33,7 +33,7 @@ proofreading:
     urgency: 1
     contributors_id:
       - Asi0Flammeus
-    reward: 2588
+    reward: 1294
   - language: es
     last_contribution_date:
     urgency: 1

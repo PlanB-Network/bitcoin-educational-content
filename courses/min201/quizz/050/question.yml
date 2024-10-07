@@ -1,3 +1,4 @@
+id: 7fff3c2b-1d95-4fdc-b0c4-13dbb41ec3b3
 chapterId: 9d9a5908-2acc-501e-906b-a6fce9ecfebd
 difficulty: intermediate
 duration: 30
@@ -25,7 +26,7 @@ proofreading:
     urgency: 1
     contributors_id:
       - Asi0Flammeus
-    reward: 2592
+    reward: 1296
   - language: es
     last_contribution_date:
     urgency: 1

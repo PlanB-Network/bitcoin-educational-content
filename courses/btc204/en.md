@@ -64,13 +64,10 @@ How can we talk about privacy on Bitcoin without discussing coinjoins? In sectio
 
 ### Section 5: Understanding the Stakes of Other Advanced Privacy Techniques
 In the fifth section, we will provide an overview of all the other existing techniques to protect your privacy on Bitcoin, aside from coinjoin. Over the years, developers have shown remarkable creativity in designing tools dedicated to privacy. We will examine all these methods, such as payjoin, collaborative transactions, Coin Swap, and Atomic Swap, detailing their operation, goals, and potential weaknesses.
-![BTC204](assets/en/11/5.webp)
 
-### Section 6: Exploring Protocol Improvement Proposals Related to Privacy
+We will also address privacy at the level of the node network and the dissemination of transactions. We will also discuss the various protocols that have been proposed over the years to enhance user privacy on Bitcoin, including static address protocols.
 
-While the previous sections focused on application-level privacy solutions, this sixth section will delve into the privacy issues at the level of Bitcoin Core for users' privacy. We will discuss privacy at the network of nodes level and the broadcasting of transactions. We will also discuss the various protocols that have been proposed over the years to enhance users' privacy on Bitcoin, including static address protocols. To conclude, we will examine the impacts on privacy, both positive and negative, of Bitcoin's last major soft fork, Taproot.
-
-![BTC204](assets/notext/67/07.webp)
+![BTC204](assets/notext/11/5.webp)
 
 # Definitions and Key Concepts
 <partId>b9bbbde3-34c0-4851-83e8-e2ffb029cf31</partId>
@@ -1112,7 +1109,10 @@ All these methods of automatic UTXO selection can be effective in reducing trans
 
 ### Tutorial on UTXO Labeling
 
-If you want to learn how to label your UTXOs, we have made a complete tutorial on the main existing Bitcoin wallet software. Find it [by clicking here](https://planb.network/tutorials/privacy/utxo-labelling).
+If you want to learn how to label your UTXOs, we have created a complete tutorial on the main existing Bitcoin wallet software:
+
+https://planb.network/tutorials/privacy/utxo-labelling
+
 
 ## KYC and Key Identification
 <chapterId>cec6b9d9-0eed-4f85-bc4e-1e9aa59ca605</chapterId>
@@ -1362,7 +1362,7 @@ One of the most used heuristics in chain analysis is the COIH (*Common Input Own
 
 ![BTC204](assets/notext/45/04.webp)
 
-In practical terms, this means that an external observer can know that all the merged UTXOs likely belong to the same person and that the output always belongs to this same person. This is obviously problematic for your privacy, as you are linking different histories. For example, imagine that I consolidate 3 UTXOs purchased P2P and with a UTXO bought on a platform through a KYC process.
+
 In practice, this means that an external observer can deduce that all the consolidated UTXOs likely belong to the same person and that the single output generated also belongs to them. This situation can compromise your privacy by linking different transaction histories. For example, let's say I consolidate 3 UTXOs acquired in P2P with a UTXO obtained via a platform that requires KYC:
 ![BTC204](assets/notext/45/05.webp)
 
@@ -1453,7 +1453,7 @@ At the end of the transaction, it becomes impossible to associate a specific out
 
 ![BTC204](assets/notext/51/04.webp)
 Let's take the example of Alice. She wants to send about 100,000 sats to her sister Eve for her birthday. However, Alice does not want Eve to be able to trace the history of her transactions because she does not want to reveal how many bitcoins she holds or how she obtained them. To do this, Alice decides to break the history of her UTXO with a coinjoin transaction. She organizes with Bob, Charles, David, and Frank to carry out a collaborative transaction:
-- Alice, Bob, Charles, David, and Frank each commit a UTXO of 100,500 sats (with 500 sats for mining fees) as inputs for the transaction:
+- Alice, Bob, Charles, David, and Frank each commit a UTXO of 105,000 sats (with 5,000 sats for mining fees) as inputs for the transaction:
 
 ![BTC204](assets/notext/51/05.webp)
 
@@ -1858,6 +1858,12 @@ We are closely following the evolution of this case as well as developments conc
 
 In the next chapter, we will discover what "anonsets" are, how these indicators are calculated, and how they can help us estimate the effectiveness of coinjoin cycles.
 
+https://planb.network/tutorials/privacy/coinjoin-sparrow-wallet
+
+https://planb.network/tutorials/privacy/coinjoin-samourai-wallet
+
+https://planb.network/tutorials/privacy/coinjoin-dojo
+
 ## Anonymity Sets
 <chapterId>be1093dc-1a74-40e5-9545-2b97a7d7d431</chapterId>
 
@@ -1920,6 +1926,8 @@ It is possible to manually calculate one's anonsets using a block explorer for s
 ![BTC204](assets/notext/55/09.webp)
 
 As we have seen in this chapter, anonsets can only be calculated if there is a certain homogeneity in the structure of the coinjoins. And precisely, in the next chapter, we will discover how to quantify this homogeneity in a Bitcoin transaction, whether it is a coinjoin or a more traditional transaction.
+
+https://planb.network/tutorials/privacy/wst-anonsets
 
 ## Entropy
 <chapterId>e4fe289d-618b-49a2-84c9-68c562e708b4</chapterId>
@@ -2143,6 +2151,8 @@ Unfortunately, following the arrest of the founders of Samourai, these tools are
 
 Now that we have discussed coinjoins in detail, we will explore other privacy techniques available on Bitcoin in the last section of our training. We will examine payjoins, specific transaction types pseudo-coinjoins, static address protocols, as well as measures aimed at enhancing privacy not at the transaction level, but at the network of nodes level.
 
+https://planb.network/tutorials/privacy/boltzmann-entropy
+
 # Understanding the stakes of other advanced privacy techniques
 <partId>19989ae6-d608-4acf-b698-2cf1e7e5e6ae</partId>
 
@@ -2222,7 +2232,11 @@ The difficulty of using payjoin lies in its dependence on the merchant's partici
 
 A solution would be to use transactional structures that introduce ambiguity in the chain analysis without requiring the cooperation of the recipient. This would allow us to improve the privacy of our payments without depending on the active participation of merchants. This is precisely what we will study in the next chapter.
 
-## Mini-Payjoin Coinjoins
+https://planb.network/tutorials/privacy/payjoin-sparrow-wallet
+
+https://planb.network/tutorials/privacy/payjoin-samourai-wallet
+
+## Payment Mini-Coinjoins
 <chapterId>300777ee-30ae-43d7-ab00-479dac3522c1</chapterId>
 
 When looking to make a payment transaction while preserving a certain degree of privacy, payjoin is a good option. But as we have seen, payjoin requires the involvement of the recipient. What to do then if the latter refuses to participate in a payjoin, or if you simply prefer not to involve them? An alternative is to use a Stonewall or Stonewall x2 transaction. Let's take a closer look at these two types of transactions.
@@ -2329,6 +2343,10 @@ It is also possible to manually perform this type of transaction from any Bitcoi
 
 In the next chapter, we will study another privacy technique that is relatively unknown, but is very useful in addition to what we have already studied.
 
+https://planb.network/tutorials/privacy/stonewall
+
+https://planb.network/tutorials/privacy/stonewall-x2
+
 ## Ricochets
 
 <chapterId>db9a20ac-a149-443d-884b-ea6c03f28499</chapterId>
@@ -2391,6 +2409,8 @@ Ricochet simply involves sending bitcoins to oneself. It is entirely possible to
 
 In the following chapter, we explore different techniques for secret property transfers. These methods differ radically from those we have examined so far, both in terms of operation and results.
 
+https://planb.network/tutorials/privacy/ricochet
+ 
 ## Secret Property Transfers
 <chapterId>a2067036-849c-4d6b-87d2-44235cfae7a1</chapterId>
 
@@ -3270,6 +3290,8 @@ Bob can then refund Alice in the same way she sent him payments. The roles are r
 
 *A big thank you to [Fanis Michalakis](https://x.com/FanisMichalakis) for his review and valuable expert advice on the article that inspired the writing of this chapter!*
 
+https://planb.network/tutorials/privacy/paynym-bip47
+
 ## Silent Payments
 <chapterId>2871d594-414e-4598-a830-91c9eb84dfb8</chapterId>
 BIP47 has been criticized for its inefficiency onchain. As explained in the previous chapter, it requires a notification transaction for each new recipient. This constraint becomes negligible if one plans to establish a lasting payment channel with this recipient. Indeed, a single notification transaction paves the way for an almost infinite number of subsequent BIP47 payments.
@@ -3631,6 +3653,7 @@ Since this feature is recent, it is advisable to exercise caution and avoid usin
 ## Give us some feedback about this course
 <chapterId>195d149f-80fa-5816-8b46-995a9226d082</chapterId>
 <isCourseReview>true</isCourseReview>
+
 ## Conclusion
 <chapterId>cd8e5c67-50e4-4dcd-8e04-88ba5ec95305</chapterId>
 

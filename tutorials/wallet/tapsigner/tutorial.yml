@@ -1,0 +1,26 @@
+id: ab2bcdf9-9509-4908-9a4a-2f2be1e7d5d2
+
+builder: Tapsigner
+
+tags:
+  - hardware
+  - wallets
+  - keys
+
+category: hardware
+
+level: intermediary
+
+credits:
+  professor: pretty-private
+
+# Proofreading metadata
+
+original_language: fr
+proofreading:
+  - language: fr
+    last_contribution_date: 2024-09-25
+    urgency:
+    contributors_id:
+    - LoicPandul
+    reward: 

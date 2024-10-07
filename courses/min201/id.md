@@ -757,6 +757,7 @@ Hasil akhirnya adalah tingkat hash yang lebih tinggi per watt listrik, yang bera
 ## Beri kami umpan balik tentang kursus ini
 <chapterId>6af13742-df68-5cf4-b7aa-93dc0c2eaae9</chapterId>
 <isCourseReview>true</isCourseReview>
+
 ## Mengontrol Antminer S9 dari smartphone Anda
 
 <chapterId>6e7c234a-a445-5070-b087-531d16c42107</chapterId>

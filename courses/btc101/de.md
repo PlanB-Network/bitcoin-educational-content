@@ -1,4 +1,4 @@
----
+gjhkhio---
 name: Der Bitcoin-Kurs
 goal: Bitcoin und seine grundlegenden Konzepte kennenlernen, einschließlich seines monetären Wertvorschlags, der Miner, Transaktionen und Wallets.
 objectives:

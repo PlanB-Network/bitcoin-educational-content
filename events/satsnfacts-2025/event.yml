@@ -1,0 +1,25 @@
+- start_date: 2025-02-14
+  end_date: 2025-02-16
+  address_line_1: Chiang Mai 50000, Thailand
+  address_line_2: 186/4 ถนน เจริญราษฎร์ Wat Ket, Mueang Chiang Mai District, Chiang Mai 50000, Tailandia 
+  address_line_3: 
+  name: Sats'N'Facts Bitcoin Technical Unconference
+  builder: 
+  type: conference
+  book_online: false
+  book_in_person: false
+  price_dollars: 0
+  description: The first SATS'N'FACTS Bitcoin Technical Unconference in Asia, where we bring together powerful Bitcoin minds to dive into Scalability, Privacy, Mining, Payments, Infrastructure, and much more.
+  language: 
+    - en
+  links:
+    website: https://satsnfacts.btc.pub/
+    replay_url:
+    live_url :
+  tags: 
+    - privacy
+    - scalability
+    - adoption
+
+
+

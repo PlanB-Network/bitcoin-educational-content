@@ -624,6 +624,7 @@ Por último, el futuro de Bitcoin es prometedor con una posible proyección de u
 ## Danos tu opinión sobre este curso
 <chapterId>38814c99-eb7b-5772-af49-4386ee2ce9b0</chapterId>
 <isCourseReview>true</isCourseReview>
+
 ## Agradecimientos y sigue excavando la madriguera del conejo
 <chapterId>afc0d72b-4fbc-5893-90b2-e27fb519ad02</chapterId>
 

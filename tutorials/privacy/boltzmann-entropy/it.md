@@ -48,11 +48,11 @@ Al contrario, una transazione più tradizionale con 1 input e 2 output presenter
 Il secondo indicatore calcolato è l'entropia di una transazione, designata da `Entropia`.
 Nel contesto generale della crittografia e dell'informazione, l'entropia è una misura quantitativa dell'incertezza o dell'imprevedibilità associata a una fonte di dati o a un processo casuale. In altre parole, l'entropia è un modo di misurare quanto sia difficile prevedere o indovinare le informazioni.
 
-Nel contesto specifico dell'analisi delle catene, l'entropia è anche il nome di un indicatore, derivato dall'entropia di Shannon e [inventato da LaurentMT](https://gist.github.com/LaurentMT/e758767ca4038ac40aaf), che viene calcolato con lo strumento Boltzmann.
+Nel contesto specifico dell'analisi della blockchain, l'entropia è anche il nome di un indicatore, derivato dall'entropia di Shannon e [inventato da LaurentMT](https://gist.github.com/LaurentMT/e758767ca4038ac40aaf), che viene calcolato con lo strumento Boltzmann.
 
-Quando una transazione presenta un alto numero di combinazioni possibili, è spesso più rilevante riferirsi alla sua entropia. Questo indicatore permette di misurare la mancanza di conoscenza degli analisti sulla configurazione esatta della transazione. In altre parole, più alta è l'entropia, più difficile diventa per gli analisti il compito di identificare i movimenti di bitcoin tra input e output.
+Quando una transazione presenta un alto numero di combinazioni possibili, è spesso più rilevante riferirsi alla sua entropia. Questo indicatore permette di misurare la mancanza di conoscenza degli analisti sulla configurazione esatta della transazione. In altre parole, più alta è l'entropia, più difficile diventa identificare i movimenti di bitcoin tra input e output.
 
-In pratica, l'entropia rivela se, dal punto di vista di un osservatore esterno, una transazione presenta molteplici interpretazioni possibili, basandosi unicamente sulle quantità di input e output, senza considerare altri schemi e euristiche esterni o interni. Un'alta entropia è quindi sinonimo di maggiore riservatezza per la transazione.
+In pratica, l'entropia rivela se, dal punto di vista di un osservatore esterno, una transazione presenta molteplici interpretazioni possibili, basandosi unicamente sulle quantità di input e output, senza considerare altri schemi ed euristiche esterne o interne. Un'alta entropia è quindi sinonimo di maggiore riservatezza per la transazione.
 
 L'entropia è definita come il logaritmo binario del numero di combinazioni possibili. Ecco la formula utilizzata:
 ```plaintext
@@ -70,7 +70,7 @@ C = 1,496
 E = log2(1,496)
 E = 10.5469 bit
 ```
-Quindi, questa transazione coinjoin mostra un'entropia di `10.5469 bit`, che è considerata molto soddisfacente. Più alto è questo valore, più diverse interpretazioni ammette la transazione, rafforzando così il suo livello di privacy.
+Quindi, questa transazione coinjoin mostra un'entropia di `10.5469 bit`, che è considerata molto soddisfacente. Più alto è questo valore, maggiori sono le interpretazioni plausibili per la transazione, rafforzando così il suo livello di privacy.
 Per una transazione coinjoin 8x8 che presenta `9,934,563` interpretazioni, l'entropia sarebbe:
 ```plaintext
 C = 9,934,563
@@ -142,7 +142,7 @@ ED = 23.244 / 16 = 1.453 bits
 ```
 
 ### Punteggio di Boltzmann:
-Il quinto elemento di informazione fornito dal Calcolatore di Boltzmann è la tabella delle probabilità di corrispondenza tra gli input e gli output. Questa tabella indica, attraverso il punteggio di Boltzmann, la probabilità condizionale che un specifico input sia correlato a un dato output.
+Il quinto elemento di informazione fornito dal Calcolatore di Boltzmann è la tabella delle probabilità di corrispondenza tra gli input e gli output. Questa tabella indica, attraverso il punteggio di Boltzmann, la probabilità condizionale che un specifico input sia correlato ad un dato output.
 
 Si tratta quindi di una misura quantitativa della probabilità condizionale che un'associazione tra un input e un output in una transazione si verifichi, basata sul rapporto tra il numero di occorrenze favorevoli di questo evento e il numero totale di occorrenze possibili, in un insieme di interpretazioni.
 
@@ -186,8 +186,8 @@ Tuttavia, nel caso di una semplice transazione con un singolo input e due output
 Qui, si osserva che la probabilità che ciascun output provenga dall'input n. 0 è del `100%`. Una probabilità inferiore si traduce quindi in una maggiore privacy, diluendo i collegamenti diretti tra input e output.
 
 ### Collegamenti Deterministici:
-La sesta informazione fornita è il numero di collegamenti deterministici, completato dal rapporto di questi collegamenti. Questo indicatore rivela quanti collegamenti tra gli input e gli output nella transazione analizzata sono indiscutibili, con una probabilità del `100%`. Il rapporto, d'altra parte, offre una prospettiva sul peso di questi collegamenti deterministici all'interno dell'intero insieme di collegamenti della transazione.
-Per esempio, una transazione di tipo Whirlpool coinjoin non ha collegamenti deterministici e, quindi, mostra un indicatore e un rapporto del `0%`. Al contrario, nella nostra seconda semplice transazione esaminata (con un input e due output), l'indicatore è impostato a `2` e il rapporto raggiunge il `100%`. Così, un indicatore nullo segnala un'eccellente confidenzialità a causa dell'assenza di collegamenti diretti e indiscutibili tra input e output.
+La sesta informazione disponibile è il numero di collegamenti deterministici, completato dal rapporto di questi collegamenti. Questo indicatore rivela quanti collegamenti tra gli input e gli output nella transazione analizzata sono indiscutibili, con una probabilità del `100%`. Il rapporto, d'altra parte, offre una prospettiva sul peso di questi collegamenti deterministici all'interno dell'intero insieme di collegamenti della transazione.
+Per esempio, una transazione di tipo Whirlpool coinjoin non ha collegamenti deterministici e, quindi, mostra un indicatore e un rapporto dello `0%`. Al contrario, nella nostra seconda semplice transazione esaminata (con un input e due output), l'indicatore è impostato a `2` e il rapporto raggiunge il `100%`. Così, un indicatore nullo segnala un'eccellente confidenzialità a causa dell'assenza di collegamenti diretti e indiscutibili tra input e output.
 
 **Risorse Esterne:**
 

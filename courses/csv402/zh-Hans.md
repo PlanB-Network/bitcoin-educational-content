@@ -109,6 +109,11 @@ objectives:
 # 结论
 <partId>b0baebfc-d146-5938-849a-f835fafb386f</partId>
 
+
+## 给我们关于这门课程的反馈
+<chapterId>0217e8b0-942a-5fee-bd91-9a866551eff3</chapterId>
+<isCourseReview>true</isCourseReview>
+
 ## 结语
 <chapterId>0309536d-c336-56a0-869e-a8395ed8d9ae</chapterId>
 

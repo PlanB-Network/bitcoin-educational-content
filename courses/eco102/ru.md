@@ -1046,6 +1046,7 @@ _(Цицерон)_
 ## Оставьте отзыв о данном курсе
 <chapterId>db20170d-ceb6-56cd-b4e5-c690942f8b29</chapterId>
 <isCourseReview>true</isCourseReview>
+
 ## Наследие Фредерика Бастиа
 
 <chapterId>2a2a181a-e477-5be1-ba1f-af59490c364e</chapterId>

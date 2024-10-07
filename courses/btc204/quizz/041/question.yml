@@ -1,3 +1,4 @@
+id: 08b7ffce-f55c-40b0-b039-41c91ae5b0ba
 chapterId: 756598af-95aa-4c77-ac48-243c7ad89530
 difficulty: intermediate
 duration: 15
@@ -38,7 +39,7 @@ proofreading:
     urgency: 1
     contributors_id:
       - LoicPandul
-    reward: 2567
+    reward: 1283
   - language: it
     last_contribution_date:
     urgency: 1

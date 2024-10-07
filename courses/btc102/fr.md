@@ -1039,6 +1039,7 @@ Dans tous les cas, toutes nos formations restent gratuites et de nombreuses ress
 ## Donnez-nous votre avis sur ce cours
 <chapterId>3f43175a-fb7a-5b1c-a887-7dcf615d7a3a</chapterId>
 <isCourseReview>true</isCourseReview>
+
 ## Soutiens la formation !
 <chapterId>b082b8eb-dabc-5d79-94cf-eb8f48fc1968</chapterId>
 

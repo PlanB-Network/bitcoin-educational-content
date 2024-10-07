@@ -1492,6 +1492,7 @@ Hayek believed that a free market of private currencies would lead to greater mo
 ## Give us some feedback about this course
 <chapterId>6759868f-749d-5fe7-bbb1-24f603e8b34e</chapterId>
 <isCourseReview>true</isCourseReview>
+
 ## Conclusion: the power of ideas
 
 <chapterId>50676155-c071-5bee-a14e-0c251f0375da</chapterId>

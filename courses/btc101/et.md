@@ -1293,6 +1293,7 @@ See kursus, nagu kogu see ülikooli sisu, on teile tasuta pakutud meie kogukonna
 ## Andke meile tagasisidet selle kursuse kohta
 <chapterId>585729e2-b0ab-51b5-89ec-593e3ea22c57</chapterId>
 <isCourseReview>true</isCourseReview>
+
 ## Hinnake koolitust
 
 <chapterId>44d01865-5c89-55a5-a397-a014960eec0f</chapterId>

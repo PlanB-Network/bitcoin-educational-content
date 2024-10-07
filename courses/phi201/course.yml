@@ -43,7 +43,7 @@ proofreading:
     urgency: 1
     contributors_id:
       - Rearden78
-    reward: 63374
+    reward: 31687
   - language: it
     last_contribution_date:
     urgency: 1
@@ -60,10 +60,11 @@ proofreading:
     contributors_id:
     reward: 63374
   - language: ru
-    last_contribution_date:
+    last_contribution_date: 2024-09-09
     urgency: 1
     contributors_id:
-    reward: 124248
+      - Reshetenko
+    reward: 62124
   - language: vi
     last_contribution_date:
     urgency: 1

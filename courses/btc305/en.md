@@ -2476,6 +2476,7 @@ How does the setup on Umbrel differ from the previous two hosted options?
 ## Give us some feedback about this course
 <chapterId>d90bb93d-b894-551e-9fd6-6855c739a904</chapterId>
 <isCourseReview>true</isCourseReview>
+
 ## Course Conclusion
 
 <chapterId>c07ac2a5-f97e-5c57-8a80-4955b48128d4</chapterId>

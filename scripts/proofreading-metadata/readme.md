@@ -42,6 +42,17 @@ command:
 python3 update_proofreading_metadata.py
 ```
 
+Then follow the workflow by answering to the prompted questions via the CLI.
+
+### Run the interactive Proofreading Reward Calculator Script
+
+Please verify that you're environment is activated before running the below
+command:
+
+```
+python3 evaluate_proofreading_reward.py
+```
+
 Then follow the workflow by answering to the prompted question via the CLI.
 
 ## Miscellouneous notes

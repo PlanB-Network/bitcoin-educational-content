@@ -7,7 +7,6 @@ objectives:
   - Käyttää menetelmiä ja työkaluja yksityisyytesi suojaamiseen Bitcoinissa
   - Ymmärtää ketjuanalyysimenetelmiä ja kehittää puolustusstrategioita
 ---
-
 # Suojaa yksityisyytesi Bitcoinissa
 
 Maailmassa, jossa rahoitustransaktioiden yksityisyys on vähitellen muuttumassa ylellisyydeksi, on olennaista ymmärtää ja hallita yksityisyyden suojan periaatteita Bitcoinin käytössäsi. Tämä koulutus antaa sinulle kaikki avaimet, sekä teoreettiset että käytännölliset, saavuttaaksesi tämän itsenäisesti.
@@ -67,9 +66,9 @@ Miten voimme puhua Bitcoinin yksityisyydestä puhumatta coinjoineista? Neljänne
 
 Viidennessä osiossa tarjoamme yleiskatsauksen kaikista muista olemassa olevista tekniikoista, joilla voit suojata yksityisyyttäsi Bitcoinissa coinjoinin lisäksi. Vuosien varrella kehittäjät ovat osoittaneet huomattavaa luovuutta suunnitellessaan yksityisyyteen keskittyviä työkaluja. Tarkastelemme kaikkia näitä menetelmiä, kuten payjoinia, yhteistyössä tehtyjä transaktioita, Coin Swapia ja Atomic Swapia, yksityiskohtaisesti niiden toimintaa, tavoitteita ja mahdollisia heikkouksia.
 
-### Osa 6: Tutkitaan yksityisyyteen liittyviä protokollaparannusehdotuksia
+Käsittelemme myös yksityisyyttä solmuverkoston tasolla ja tapahtumien levitystä. Keskustelemme myös eri protokollista, joita on ehdotettu vuosien varrella käyttäjien yksityisyyden parantamiseksi Bitcoinissa, mukaan lukien staattisten osoitteiden protokollat.
 
-Aikaisemmat osiot keskittyivät sovellustason yksityisyysratkaisuihin, tämä kuudes osio sukeltaa syvemmälle Bitcoin Coren tasolla oleviin yksityisyysongelmiin käyttäjien yksityisyyden kannalta. Keskustelemme yksityisyydestä solmujen verkoston tasolla ja transaktioiden lähettämisestä. Käsittelemme myös erilaisia protokollia, jotka on ehdotettu vuosien varrella parantamaan käyttäjien yksityisyyttä Bitcoinissa, mukaan lukien staattiset osoiteprotokollat. Lopuksi tarkastelemme Bitcoinin viimeisimmän merkittävän pehmeän haarukan, Taprootin, positiivisia ja negatiivisia vaikutuksia yksityisyyteen.
+![BTC204](assets/notext/11/5.webp)
 
 # Määritelmät ja keskeiset käsitteet
 
@@ -1104,7 +1103,10 @@ Kaikki nämä automaattisen UTXO-valinnan menetelmät voivat olla tehokkaita tra
 
 ### Opas UTXO-merkintään
 
-Jos haluat oppia merkitsemään UTXO:si, olemme tehneet kattavan oppaan pääasiallisista olemassa olevista Bitcoin-lompakko-ohjelmistoista. Löydä se [klikkaamalla tästä](https://planb.network/tutorials/privacy/utxo-labelling).
+Jos haluat oppia, kuinka merkitä UTXO:si, olemme tehneet täydellisen oppaan tärkeimmistä olemassa olevista Bitcoin-lompakko-ohjelmistoista:
+
+https://planb.network/tutorials/privacy/utxo-labelling
+
 
 ## KYC ja avaintunnistus
 
@@ -1340,7 +1342,7 @@ Yksi yleisimmin käytetyistä heuristiikoista ketjuanalyysissä on COIH (_Common
 
 ![BTC204](assets/notext/45/04.webp)
 
-Käytännön termein tämä tarkoittaa, että ulkopuolinen tarkkailija voi tietää, että kaikki yhdistetyt UTXO:t todennäköisesti kuuluvat samalle henkilölle ja että ulostulo kuuluu aina tälle samalle henkilölle. Tämä on ilmeisen ongelmallista yksityisyydellesi, koska olet yhdistämässä erilaisia historioita. Esimerkiksi kuvittele, että konsolidoin 3 UTXO:a, jotka on hankittu P2P:llä ja UTXO:n, joka on ostettu alustalta KYC-prosessin kautta.
+
 Käytännössä tämä tarkoittaa, että ulkopuolinen tarkkailija voi päätellä, että kaikki konsolidoidut UTXO:t todennäköisesti kuuluvat samalle henkilölle ja että tuotettu yksittäinen ulostulo kuuluu myös heille. Tämä tilanne voi vaarantaa yksityisyytesi yhdistämällä erilaisia siirtotarinoita. Esimerkiksi sanotaan, että konsolidoin 3 P2P:llä hankittua UTXO:a UTXO:n kanssa, joka on saatu alustalta, joka vaatii KYC:n:
 ![BTC204](assets/notext/45/05.webp)
 
@@ -1432,7 +1434,7 @@ Coinjoinin periaate perustuu yhteistyöhön: useat käyttäjät, jotka haluavat 
 Tapahtuman lopussa on mahdotonta yhdistää tiettyä ulostuloa tunnettuun käyttäjään sisääntulossa. Sisääntulojen ja ulostulojen välillä ei ole suoraa yhteyttä, mikä katkaisee yhteyden käyttäjien ja heidän UTXOjensa välillä sekä kunkin kolikon historian.
 
 ![BTC204](assets/notext/51/04.webp)
-Käytetään esimerkkinä Alicea. Hän haluaa lähettää noin 100 000 satoshia sisarelleen Evelle syntymäpäivälahjaksi. Alice ei kuitenkaan halua Even pystyvän jäljittämään hänen transaktioidensa historiaa, koska hän ei halua paljastaa, kuinka monta bitcoinia hän omistaa tai miten hän on ne saanut. Tätä varten Alice päättää katkaista UTXO:nsa historian coinjoin-transaktiolla. Hän järjestää Bobin, Charlesin, Davidin ja Frankin kanssa yhteistyössä toteutettavan transaktion: Alice, Bob, Charles, David ja Frank sitoutuvat kukin antamaan 100 500 satoshia (josta 500 satoshia on kaivosmaksuja) syötteinä transaktiolle:
+Käytetään esimerkkinä Alicea. Hän haluaa lähettää noin 100 000 satoshia sisarelleen Evelle syntymäpäivälahjaksi. Alice ei kuitenkaan halua Even pystyvän jäljittämään hänen transaktioidensa historiaa, koska hän ei halua paljastaa, kuinka monta bitcoinia hän omistaa tai miten hän on ne saanut. Tätä varten Alice päättää katkaista UTXO:nsa historian coinjoin-transaktiolla. Hän järjestää Bobin, Charlesin, Davidin ja Frankin kanssa yhteistyössä toteutettavan transaktion: Alice, Bob, Charles, David ja Frank sitoutuvat kukin antamaan 105 000 satoshia (josta 5 000 satoshia on kaivosmaksuja) syötteinä transaktiolle:
 
 ![BTC204](assets/notext/51/05.webp)
 
@@ -1825,6 +1827,12 @@ Seuraamme tiiviisti tämän tapauksen kehitystä sekä siihen liittyvien työkal
 
 Seuraavassa luvussa tutustumme siihen, mitä "anonsetit" ovat, kuinka näitä indikaattoreita lasketaan, ja kuinka ne voivat auttaa meitä arvioimaan coinjoin-syklien tehokkuutta.
 
+https://planb.network/tutorials/privacy/coinjoin-sparrow-wallet
+
+https://planb.network/tutorials/privacy/coinjoin-samourai-wallet
+
+https://planb.network/tutorials/privacy/coinjoin-dojo
+
 ## Anonyymiusjoukot
 
 <chapterId>be1093dc-1a74-40e5-9545-2b97a7d7d431</chapterId>
@@ -1889,6 +1897,8 @@ On mahdollista manuaalisesti laskea omat anonsetit käyttäen lohkoketjuselainta
 ![BTC204](assets/notext/55/09.webp)
 
 Kuten tässä luvussa olemme nähneet, anonsetteja voidaan laskea vain, jos coinjoineissa on tietty homogeenisuus rakenteessa. Ja juuri tässä seuraavassa luvussa tulemme tutkimaan, kuinka mitata tätä homogeenisuutta Bitcoin-tapahtumassa, olipa kyseessä sitten coinjoin tai perinteisempi tapahtuma.
+
+https://planb.network/tutorials/privacy/wst-anonsets
 
 ## Entropia
 
@@ -2118,6 +2128,8 @@ Valitettavasti Samourain perustajien pidätyksen jälkeen nämä työkalut eivä
 
 Nyt kun olemme käsitelleet coinjoineja yksityiskohtaisesti, tutkimme muita Bitcoinissa saatavilla olevia yksityisyyden suojaustekniikoita koulutuksemme viimeisessä osassa. Tarkastelemme payjoineja, erityisiä tapahtumatyyppejä pseudo-coinjoineja, staattisia osoiteprotokollia sekä toimenpiteitä, jotka tähtäävät yksityisyyden parantamiseen ei tapahtumatasolla, vaan solmujen verkon tasolla.
 
+https://planb.network/tutorials/privacy/boltzmann-entropy
+
 # Muiden edistyneiden yksityisyyden suojaustekniikoiden panokset ymmärtäminen
 
 <partId>19989ae6-d608-4acf-b698-2cf1e7e5e6ae</partId>
@@ -2196,7 +2208,11 @@ Payjoinin käytön vaikeus piilee sen riippuvuudessa kauppiaan osallistumisesta.
 
 Ratkaisu voisi olla käyttää transaktiorakenteita, jotka tuovat epäselvyyttä ketjuanalyysiin vaatimatta vastaanottajan yhteistyötä. Tämä mahdollistaisi maksujemme yksityisyyden parantamisen riippumatta kauppiaiden aktiivisesta osallistumisesta. Tämä on juuri se, mitä tulemme tutkimaan seuraavassa luvussa.
 
-## Mini-Payjoin Coinjoins
+https://planb.network/tutorials/privacy/payjoin-sparrow-wallet
+
+https://planb.network/tutorials/privacy/payjoin-samourai-wallet
+
+## Maksujen mini-coinjoinit
 
 <chapterId>300777ee-30ae-43d7-ab00-479dac3522c1</chapterId>
 
@@ -2301,6 +2317,10 @@ On myös mahdollista suorittaa tämäntyyppinen siirto manuaalisesti mistä taha
 
 Seuraavassa luvussa tutkimme toista yksityisyyden suojan tekniikkaa, joka on suhteellisen tuntematon, mutta erittäin hyödyllinen lisänä siihen, mitä olemme jo tutkineet.
 
+https://planb.network/tutorials/privacy/stonewall
+
+https://planb.network/tutorials/privacy/stonewall-x2
+
 ## Ricochets
 
 <chapterId>db9a20ac-a149-443d-884b-ea6c03f28499</chapterId>
@@ -2365,6 +2385,8 @@ Ricochet tarkoittaa yksinkertaisesti bitcoinien lähettämistä itselleen. On t�
 
 Seuraavassa luvussa tutkimme erilaisia tekniikoita salaisiin omaisuuden siirtoihin. Nämä menetelmät eroavat radikaalisti tähän asti tarkastelluista sekä toiminnan että tulosten osalta.
 
+https://planb.network/tutorials/privacy/ricochet
+ 
 ## Salaiset Omaisuuden Siirrot
 
 <chapterId>a2067036-849c-4d6b-87d2-44235cfae7a1</chapterId>
@@ -3246,6 +3268,8 @@ Bob voi sitten hyvittää Alicen samalla tavalla kuin hän lähetti hänelle mak
 ![BTC204](assets/fi/66/26.webp)
 _Suuri kiitos [Fanis Michalakisille](https://x.com/FanisMichalakis) hänen arvokkaasta asiantuntija-arviostaan ja neuvostaan artikkeliin, joka inspiroi tämän luvun kirjoittamista!_
 
+https://planb.network/tutorials/privacy/paynym-bip47
+
 ## Hiljaiset Maksut
 
 <chapterId>2871d594-414e-4598-a830-91c9eb84dfb8</chapterId>
@@ -3610,6 +3634,7 @@ _Tämän Silent Payments -luvun luomiseen käytin [Silent Payments -selityssivus
 ## Anna meille palautetta tästä kurssista
 <chapterId>195d149f-80fa-5816-8b46-995a9226d082</chapterId>
 <isCourseReview>true</isCourseReview>
+
 ## Yhteenveto
 
 <chapterId>cd8e5c67-50e4-4dcd-8e04-88ba5ec95305</chapterId>

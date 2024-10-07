@@ -544,6 +544,7 @@ Methodology is an essential aspect in economics and in social sciences in genera
 ## Give us some feedback about this course
 <chapterId>29d4323c-e34e-5834-bf03-2f3ed10d751b</chapterId>
 <isCourseReview>true</isCourseReview>
+
 ## Further studies
 <chapterId>64faaed4-84b9-5b8c-9736-a959e8e6cd9d</chapterId>
 

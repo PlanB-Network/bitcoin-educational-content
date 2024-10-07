@@ -458,6 +458,7 @@ Jako součást výukového modulu "Security 101" na Découvre Bitcoin Academy js
 ## Dejte nám zpětnou vazbu k tomuto kurzu
 <chapterId>6be74d2d-2116-5386-9d92-c4c3e2103c68</chapterId>
 <isCourseReview>true</isCourseReview>
+
 ## Poděkování a pokračujte ve zkoumání králičí nory
 <chapterId>df3a962a-a96e-5006-b904-0dd9d4a072dd</chapterId>
 

@@ -1,3 +1,4 @@
+id: 5ed8c427-ab82-4cb2-8e2d-f628c1f7996d
 chapterId: 03482644-5473-590b-975b-b43bb65eac21
 difficulty: easy
 duration: 15
@@ -23,7 +24,7 @@ proofreading:
     urgency: 1
     contributors_id:
       - Asi0Flammeus
-    reward: 2585
+    reward: 1292
   - language: es
     last_contribution_date:
     urgency: 1

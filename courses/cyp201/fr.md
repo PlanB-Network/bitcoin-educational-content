@@ -82,11 +82,11 @@ Naviguons maintenant sur les flots tumultueux des fonctions de hachage désuète
 
 Élément clé dans le protocole Bitcoin, la fonction de hachage SHA-256 est le capitaine du navire. D'autres fonctions, comme SHA-512, sont utilisées pour la dérivation avec HMAC et PBKDF. De plus, RIPMD160 est utilisée pour réduire une empreinte à 160 bits. Lorsque nous parlons de HASH256 et HASH160, nous nous référons à l'utilisation d'un double hachage avec SHA-256 et RIPMD. 
 
-Pour HASH256, il sagit d'un double hachage du message avec la fonction SHA256.
+Pour HASH256, il s'agit d'un double hachage du message avec la fonction SHA256.
 $$
 SHA256(SHA256(message))
 $$
-Pour HASH160, il sagit d'un double hachage du message en utilisant d'abord la fonction SHA256 puis RIPMD160.
+Pour HASH160, il s'agit d'un double hachage du message en utilisant d'abord la fonction SHA256 puis RIPMD160.
 $$
 RIPMD160(SHA256(message))
 $$
@@ -920,6 +920,7 @@ Une autre méthode cryptographique grandement utilisée sur le protocole Bitcoin
 ## Donnez-nous votre avis sur ce cours
 <chapterId>0cd71541-a7fd-53db-b66a-8611b6a28b04</chapterId>
 <isCourseReview>true</isCourseReview>
+
 ## Conclusion et fin
 <chapterId>d291428b-3cfa-5394-930e-4b514be82d5a</chapterId>
 

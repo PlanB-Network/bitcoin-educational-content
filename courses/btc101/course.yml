@@ -17,7 +17,7 @@ level: beginner
 # hours
 # Evaluate the number of hours that it would take to
 # complete the whole course
-hours: 20
+hours: 15
 
 # professors
 # List who is/are the professor(s)
@@ -33,7 +33,6 @@ professors:
 # Currently, there are no shared record of these UUIDs
 contributors:
   - another-satoshi
-
 
 # Proofreading metadata
 original_language: fr
@@ -63,25 +62,25 @@ proofreading:
     urgency: 1
     contributors_id:
       - KryptoKeskus
-    reward: 22798
+    reward: 21548
   - language: fr
     last_contribution_date: 2024-09-01
     urgency: 1
     contributors_id:
       - Asi0Flammeus
-    reward: 22798
+    reward: 11399
   - language: it
     last_contribution_date: 2023-10-10
     urgency: 1
     contributors_id:
       - TinF0ilHat1
-    reward: 17723
+    reward: 16473
   - language: ja
     last_contribution_date: 2023-12-03
     urgency: 1
     contributors_id:
       - yutaro21jp
-    reward: 32947
+    reward: 31697
   - language: pt
     last_contribution_date:
     urgency: 1
@@ -92,25 +91,28 @@ proofreading:
     urgency: 1
     contributors_id:
       - Reshetenko
-    reward: 22798
+    reward: 21548
   - language: vi
     last_contribution_date: 2024-05-05
     urgency: 1
     contributors_id:
       - Henry-Da0
-    reward: 32947
+    reward: 31697
   - language: et
-    last_contribution_date:
+    last_contribution_date: 2024-09-24
     urgency: 1
     contributors_id:
+      - taneltheplanet
     reward: 43096
   - language: id
-    last_contribution_date:
+    last_contribution_date: 2024-09-24
     urgency: 1
     contributors_id:
-    reward: 53245
+      - AraleB
+    reward: 26622
   - language: zh-Hans
-    last_contribution_date:
+    last_contribution_date: 2024-09-24
     urgency: 1
     contributors_id:
-    reward: 53245
+      - MilankovicProtocol
+    reward: 26622

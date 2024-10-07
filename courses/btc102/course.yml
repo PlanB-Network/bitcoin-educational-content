@@ -42,13 +42,13 @@ proofreading:
     urgency: 1
     contributors_id:
       - Asi0Flammeus
-    reward: 17960
+    reward: 8980
   - language: it
     last_contribution_date: 2024-05-27
     urgency: 1
     contributors_id:
       - TinF0ilHat
-    reward: 14095
+    reward: 12845
   - language: ja
     last_contribution_date:
     urgency: 1
@@ -65,10 +65,11 @@ proofreading:
     contributors_id:
     reward: 33420
   - language: vi
-    last_contribution_date:
+    last_contribution_date: 2024-09-09
     urgency: 1
     contributors_id:
-    reward: 48880
+      - Henry-Da0
+    reward: 24440
   - language: et
     last_contribution_date:
     urgency: 1
@@ -80,7 +81,8 @@ proofreading:
     contributors_id:
     reward: 41150
   - language: zh-Hans
-    last_contribution_date:
+    last_contribution_date: 2024-09-24
     urgency: 1
     contributors_id:
-    reward: 41150
+      - MilankovicProtocol
+    reward: 20575

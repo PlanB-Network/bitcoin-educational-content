@@ -941,6 +941,7 @@ Os bancos centrais evoluíram para se tornarem emprestadores de última instânc
 ## Dê-nos seu feedback sobre este curso
 <chapterId>1a37317e-372a-5241-b478-8316d44f9283</chapterId>
 <isCourseReview>true</isCourseReview>
+
 ## Livros e recursos
 <chapterId>c44e4519-0741-527b-b3b0-3f513e87147d</chapterId>
 

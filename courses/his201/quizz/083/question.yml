@@ -1,10 +1,11 @@
+id: 4126d863-c759-4286-b173-02ed9aef9526
 chapterId: 16c5e6d6-2412-48c6-9687-6af92cf0d89a
 difficulty: easy
 duration: 15
 author: satoshi-brother
 tags:
   - Bitcoin
- 
+
 # Proofreading metadata
 original_language: fr
 proofreading:
@@ -13,5 +14,5 @@ proofreading:
     urgency: 1
     contributors_id:
       - lugaxker
-    reward: 
+    reward: 1276
 

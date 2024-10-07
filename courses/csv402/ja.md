@@ -112,6 +112,7 @@ Bitcoinの最も先進的なトピックの1つであるこのコースを楽し
 ## このコースについてのフィードバックをお寄せください
 <chapterId>0217e8b0-942a-5fee-bd91-9a866551eff3</chapterId>
 <isCourseReview>true</isCourseReview>
+
 ## 締めの言葉
 <chapterId>0309536d-c336-56a0-869e-a8395ed8d9ae</chapterId>
 

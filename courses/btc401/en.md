@@ -54,6 +54,8 @@ Welcome to the first lecture of the **Cubo Plus** educational program. Today, we
 ![Unbanked Population](assets/en/1/1.webp)
 _The Global Unbanked Population_
 
+### Bitcoin: Financial Freedom and Its Impact on El Salvador
+
 This lecture, **"Why El Salvador Needs Bitcoin,"** provides an overview of the **Bitcoin protocol**, its roots in the **Cypherpunk movement**, and its role as a tool for freedom—enabling **uncensored money**, **financial inclusion**, and much more.
 
 > **Definitions:**
@@ -67,11 +69,13 @@ This lecture, **"Why El Salvador Needs Bitcoin,"** provides an overview of the *
 
 Ricky’s journey into Bitcoin is rooted in his work as a human rights advocate. He believes that Bitcoin can provide individuals with control over their finances, allowing them to protect their privacy and avoid the limitations of centralized banks. His exploration of Bitcoin's adoption in places like El Salvador highlights how this technology can empower people in emerging markets to gain financial independence.
 
-#### The Global Significance and Challenges of Bitcoin
+### The Global Significance and Challenges of Bitcoin
 
 Bitcoin is much more than just a digital currency. It is a tool for protecting privacy and ensuring financial freedom. By using **private keys**, which act like master passwords, users can securely manage their Bitcoin, with full control over their funds.
 
 In authoritarian regimes, where financial repression is common, Bitcoin’s **uncensorable nature** allows people to transact without fear of their funds being frozen or confiscated. Its **open-source** nature encourages global participation, fostering a community that continually improves the network.
+
+![Image](assets/en/1/4.webp)
 
 Despite its potential, Bitcoin faces significant challenges. In areas such as Africa and India, basic infrastructure like electricity and internet access is often lacking, limiting adoption. Moreover, **digital inclusion**—ensuring that people of all ages and educational levels can use technology—remains a major hurdle.
 
@@ -80,7 +84,7 @@ Despite its potential, Bitcoin faces significant challenges. In areas such as Af
 > - _Private keys:_ Secret codes that give access to a user's Bitcoin.
 > - _Open-source:_ Software that anyone can inspect, modify, and improve.
 
-#### The Case of El Salvador
+### The Case of El Salvador
 
 El Salvador's decision to adopt Bitcoin as legal tender demonstrates its transformative potential. By using Bitcoin, the country seeks to attract foreign investment and foster financial stability. Projects like **Bitcoin Beach** show how local economies can grow by adopting Bitcoin as a means of exchange.
 
@@ -110,7 +114,7 @@ At the same time, **Austrian Economics** provided the foundation for Bitcoin's m
 >
 > - _Scarcity:_ Limited availability, creating value through the need for careful allocation.
 
-#### Bitcoin's Creation
+### Bitcoin's Creation
 
 **Satoshi Nakamoto** combined these ideas to create Bitcoin in 2008 as a decentralized, censorship-resistant digital currency. By merging Cypherpunk ideals of privacy with Austrian principles of sound money, Bitcoin offers a financial system that challenges traditional banks and government control.
 
@@ -129,9 +133,19 @@ At the same time, **Austrian Economics** provided the foundation for Bitcoin's m
 > - _Time preference:_ Valuing present goods over future ones.
 > - _Saving:_ Storing value for future use.
 
-#### Bitcoin in El Salvador
+### Bitcoin in El Salvador
 
-El Salvador's adoption of Bitcoin reflects its potential as a tool for financial freedom, aligning with **Austrian Economics** by promoting voluntary adoption and decentralization.
+El Salvador's adoption of Bitcoin reflects its potential as a tool for financial freedom, aligning with **Austrian Economics** by promoting voluntary adoption and decentralization. This move challenges traditional financial systems by addressing key issues: competition, monopoly, and confiscation.
+
+![Image](assets/en/1/5.webp)
+
+- **Competition**: Bitcoin introduces competition to the financial landscape by offering an alternative to traditional banking, allowing Salvadorans to bypass financial gatekeepers and choose services that better meet their needs.
+
+- **Monopoly**: By decentralizing financial access, Bitcoin breaks the monopoly of banks and government-issued currencies, reducing reliance on centralized institutions and fostering financial inclusion.
+
+- **Confiscation**: Bitcoin’s resistance to confiscation provides Salvadorans with control over their assets, protecting their wealth from external seizure and enhancing financial sovereignty.
+
+El Salvador’s embrace of Bitcoin promotes a more inclusive, competitive, and secure financial system, challenging the limitations of traditional finance.
 
 #### Conclusion
 
@@ -154,9 +168,8 @@ In the first lecture of the 'How Bitcoin' course, we began exploring the technol
 ![video](https://youtu.be/UkwbPVhLeIk)
 During the second lecture of 'How Bitcoin', we conducted a more in-depth examination of Bitcoin's technology stack.
 
-### Bitcoin Structure and Evolution
 
-#### Bitcoin Structure
+### Bitcoin Structure
 
 The origins of Bitcoin are based on several key innovations, starting with **Adam Back's Hashcash**, a proof-of-work (PoW) system designed to prevent email spam and denial-of-service attacks by requiring senders to complete computational tasks. This PoW concept became a cornerstone of Bitcoin's security.
 
@@ -169,11 +182,13 @@ Bitcoin relies on **digital signatures** using **elliptic curve cryptography** t
 > - _Proof-of-Work (PoW):_ A system where participants must solve computational puzzles to validate transactions and secure the network.
 > - _Elliptic Curve Cryptography:_ A cryptographic method that enables secure, efficient digital signatures.
 
-#### Blockchain Mechanics and Transaction Validation
+### Blockchain Mechanics and Transaction Validation
 
 Bitcoin transactions are validated and added to blocks by **miners**, who compete to solve a cryptographic puzzle using the proof-of-work algorithm. This involves finding a hash with a specific number of leading zeros by adjusting a **nonce** value until the correct hash is discovered.
 
 Each **block** in the blockchain consists of a **header** (with data like the previous block’s hash) and a list of transactions. The first block, known as the **Genesis Block**, is unique because it has no predecessor.
+
+![Image](assets/en/1/6.webp)
 
 Before transactions are included in a block, they reside in the **mempool**, where they await validation. Once validated, these transactions are added to the newly mined block and then to the blockchain.
 
@@ -183,7 +198,7 @@ Before transactions are included in a block, they reside in the **mempool**, whe
 > - _Nonce:_ A value used to find the correct hash during mining.
 > - _Mempool:_ A waiting area for unconfirmed transactions before they are added to a block.
 
-#### Scalability, Privacy, and Development in Bitcoin
+### Scalability, Privacy, and Development in Bitcoin
 
 Bitcoin faces challenges related to scalability and privacy. The limited transaction capacity of the blockchain makes it difficult to handle high transaction volumes. Solutions like the **Lightning Network** address these challenges by enabling off-chain transactions through payment channels, which increase speed and privacy.
 
@@ -211,7 +226,7 @@ Bitcoin's structure and ongoing evolution showcase the innovation and adaptabili
 
 In this lecture, we debunk common myths surrounding **Bitcoin**, **blockchains**, and **cryptocurrencies**. Let's address misconceptions about Bitcoin's energy consumption, criminal usage, and the broader "FUD" (fear, uncertainty, doubt) spread about this technology.
 
-#### Bitcoin vs. Blockchain
+### Bitcoin vs. Blockchain
 
 A frequent misconception is that **Bitcoin** and **blockchain** are the same. While Bitcoin is a digital currency, **blockchain** is the technology that powers it. Blockchains provide a verified record of transactions but come with trade-offs like slower speeds and higher costs, which solutions like the **Lightning Network** address.
 
@@ -220,7 +235,7 @@ A frequent misconception is that **Bitcoin** and **blockchain** are the same. Wh
 > - _Blockchain:_ The underlying technology used to record transactions in a decentralized, immutable ledger.
 > - _Lightning Network:_ A second-layer solution that improves Bitcoin's transaction efficiency by enabling off-chain transactions.
 
-#### Bitcoin vs. Crypto
+### Bitcoin vs. Crypto
 
 Another key distinction is that **Bitcoin** was created with the sole purpose of providing a decentralized, censorship-resistant form of money, free from control by any company or government. In contrast, cryptocurrencies **shitcoins** are often designed with centralized control, primarily existing to enrich the companies behind them through predatory practices, pump-and-dump schemes, or outright scams. These tokens typically serve no genuine purpose beyond making a quick profit for their creators at the expense of uninformed investors. Bitcoin, however, stands alone as the only truly decentralized digital currency with a proven track record of security and resilience.
 
@@ -228,7 +243,9 @@ Another key distinction is that **Bitcoin** was created with the sole purpose of
 >
 > - _Shitcoins:_ Shitcoins are low-value or questionable quality cryptocurrencies that lack real utility. They are often highly speculative and are sometimes created for fraudulent purposes or without a clear purpose, taking advantage of the cryptocurrency market boom.
 
-#### Energy Consumption and Environmental Impact
+![Image](assets/en/1/2.webp)
+
+### Energy Consumption and Environmental Impact
 
 One of the most common criticisms of Bitcoin is its **energy consumption**. While Bitcoin mining does use energy, it accounts for less than 1% of global electricity consumption and less than 3% of wasted energy. Moreover, **Bitcoin mining** often taps into unused or renewable energy sources, making it greener than often portrayed.
 
@@ -236,11 +253,11 @@ One of the most common criticisms of Bitcoin is its **energy consumption**. Whil
 >
 > - _Bitcoin Mining:_ The process of validating transactions and securing the network by solving cryptographic puzzles, which requires computational power.
 
-#### Misconceptions About Criminal Usage
+### Misconceptions About Criminal Usage
 
 Bitcoin is often criticized for being used in criminal activities. However, blockchain analysis shows that only a small percentage of Bitcoin transactions are linked to crime. In reality, traditional financial systems see far more criminal use than Bitcoin.
 
-#### Privacy and Fungibility
+### Privacy and Fungibility
 
 **Privacy** and **fungibility** are essential features of Bitcoin. Privacy protects users in oppressive regimes, and fungibility ensures that every Bitcoin is equal, regardless of its history. This makes Bitcoin a reliable and fair form of money.
 
@@ -248,7 +265,7 @@ Bitcoin is often criticized for being used in criminal activities. However, bloc
 >
 > - _Fungibility:_ The property of money where each unit is interchangeable with another, ensuring equal value.
 
-#### Handling FUD and Market Dynamics
+### Handling FUD and Market Dynamics
 
 FUD surrounding Bitcoin often exaggerates concerns about its environmental impact, criminal usage, and security. While market fluctuations will occur, Bitcoin’s decentralized and sound technology provides a solid foundation for long-term stability and financial freedom, particularly in restrictive environments like Venezuela.
 
@@ -267,7 +284,7 @@ Understanding the realities of Bitcoin’s energy consumption, privacy features,
 
 In the first lecture of the 4th module, we explored Bitcoin's architecture and the installation of a Bitcoin Core node.
 
-#### Lecture: Running a Bitcoin Node
+### Running a Bitcoin Node
 
 **1. Introduction Recap**
 Welcome back! In the previous session, we covered the fundamental concepts behind Bitcoin’s architecture, including its cryptographic foundations and the peer-to-peer network structure. Today, we'll move from theory to practice by demonstrating how to install and configure a Bitcoin node.
@@ -275,13 +292,12 @@ Welcome back! In the previous session, we covered the fundamental concepts behin
 **2. Practical Session Overview**
 In this session, Alekos will walk us through the process of setting up a Bitcoin node using a virtual machine. This hands-on tutorial is designed to familiarize you with the steps involved in configuring your node to participate in the Bitcoin network.
 
-#### Running a Bitcoin Node
 
 Running a Bitcoin node involves validating transactions and blocks, enforcing consensus rules, and supporting the network’s decentralization. Setting up a node ensures you have a direct connection to the Bitcoin network, allowing you to contribute to its security and integrity.
 
 In this lecture, you will find a guide to install and run your own Bitcoin Core, learn how to prune the blockchain to save space, and begin experimenting with the software. Alekos will guide you step by step through this exciting process.
 
-#### What You Can Do with Bitcoin Core and Its Benefits
+### What You Can Do with Bitcoin Core and Its Benefits
 
 By running Bitcoin Core, you gain the ability to:
 
@@ -294,7 +310,7 @@ By running Bitcoin Core, you gain the ability to:
 
 The benefits of running a Bitcoin node are substantial for any dedicated Bitcoiner. Not only do you help secure the network and reinforce its decentralization, but you also enhance your privacy, ensure the integrity of your own transactions, and take a proactive role in the Bitcoin ecosystem. Running a node is a key step in achieving financial sovereignty and fully embracing the decentralized nature of Bitcoin.
 
-#### Fundamental Commands
+### Fundamental Commands
 
 These are some of the basic commands when configuring your node:
 
@@ -437,7 +453,7 @@ The modular design of C-Lightning means you can add or remove features as needed
 - **Routing Fees**: Adjust routing fees dynamically based on network conditions.
 - **Automation**: Automate tasks like channel management and liquidity provisioning.
 
-#### C-Lightning Installation
+### C-Lightning Installation
 
 Let's move on to installing C-Lightning.
 
@@ -573,7 +589,7 @@ In conclusion, today we covered the essential steps for reinstalling Bitcoin Cor
 
 ![video](https://youtu.be/oVaI9WuLkgk)
 
-#### 1. Specter and Ledger Device
+### Specter and Ledger Device
 
 #### Introduction
 
@@ -591,7 +607,7 @@ The Ledger device, a popular hardware wallet, is celebrated for its robust secur
 
 A key aspect of Bitcoin security is leveraging multi-signature (multi-sig) wallets. Multi-sig wallets require multiple private keys to authorize a transaction, significantly enhancing security. Additionally, using different types of hardware wallets diversifies risk and strengthens the security model.
 
-#### 2. Setup and Configuration
+### Setup and Configuration
 
 **Downloading and Setting Up Specter**
 
@@ -617,7 +633,7 @@ Creating a wallet in Specter is straightforward. Access the wallet creation inte
 
 After the wallet setup, receiving transactions is as simple as sharing your wallet address. Specter provides real-time monitoring of incoming transactions, ensuring you're always up-to-date on your wallet's status.
 
-#### 3. Advanced Configurations
+### Advanced Configurations
 
 **Setting Up Remote Specter Daemon**
 
@@ -672,23 +688,30 @@ This concludes our lecture on security and device setup for Bitcoin using Specte
 ### Open Problems in the Bitcoin ecosystem
 
 ![video](https://youtu.be/Vlm2ZdxcidA)
-#### Usability
+
+
+Over more than a decade, Bitcoin has proven to be a transformative innovation in the financial world, successfully operating on a global scale and opening new possibilities in the digital economy. However, it still faces challenges that require creative and collaborative solutions. The ongoing evolution of Bitcoin presents a unique opportunity for those interested in shaping the future of decentralized finance.
+
+![Image](assets/en/1/8.webp)
+
+
+#### Open Problems in the Bitcoin Usability
 
 Bitcoin, despite its over-a-decade-long existence, still grapples with significant usability challenges. The tools and interfaces available to users often lack the maturity and user-friendliness found in more traditional financial systems. This is particularly evident in regions such as El Salvador, where Bitcoin adoption has been government-endorsed. The primary issue here is the need for better abstractions that can simplify the user experience, making Bitcoin accessible even to individuals with minimal technical know-how.
 
-#### Scalability
+#### Open Problems in Scalability
 
 Scalability has been a persistent problem in Bitcoin's development. The network's ability to handle a high volume of transactions remains limited, often leading to high on-chain fees that can exclude some users from participating. While solutions like the Lightning Network offer some relief by enabling off-chain transactions, they do not fully address the scalability concerns. The need for more comprehensive solutions that can handle growing transaction volumes without compromising the network's integrity is evident.
 
-#### Security
+#### Open Problems in Security
 
 Securing Bitcoin assets is a complex task, fraught with challenges. Hot wallets, which are often used for everyday transactions, pose significant security risks, especially for those who operate Lightning nodes. Additionally, planning for the inheritance of Bitcoin assets remains a convoluted and often insecure process. The complexity of these security measures can deter potential users and complicate widespread adoption.
 
-#### Privacy
+#### Open Problems in Privacy
 
 Privacy is another critical issue within the Bitcoin ecosystem. While privacy is essential for security, Bitcoin's current framework offers limited privacy features. On-chain transactions are easily traceable, posing a risk to user anonymity. Although the Lightning Network has the potential to enhance privacy, it still requires substantial improvements. The balance between transparency and privacy is delicate and demands innovative solutions to ensure user security and privacy.
 
-#### Flexibility
+#### Open Problems in Flexibility
 
 Flexibility within the Bitcoin protocol is necessary to foster improvements in privacy, security, and scalability. However, too much flexibility can become a vulnerability, potentially serving as an attack vector and threatening the network's decentralization. Striking the right balance is crucial to maintain the integrity and resilience of the Bitcoin protocol.
 
@@ -696,59 +719,49 @@ Flexibility within the Bitcoin protocol is necessary to foster improvements in p
 
 #### Usability vs. Security and Privacy
 
+![Image](assets/en/1/7.webp)
+
 Efforts to enhance Bitcoin's usability often come at the expense of security and privacy. For instance, user-friendly custodial wallets, such as the Wallet of Satoshi, provide an accessible interface but compromise significantly on security and privacy. Simplified systems may increase usability but can lead to issues like address reuse, which undermines privacy. Therefore, any improvements in usability must be carefully weighed against potential security and privacy trade-offs.
 
 #### Scalability and Privacy Trade-offs
 
 Scalability and privacy are often at odds in the Bitcoin network. Enhancements that improve scalability, such as larger UTXOs or reduced cryptographic obfuscation, generally diminish privacy. Conversely, privacy-focused techniques like Monero's ring signatures enhance user anonymity but negatively impact scalability. Furthermore, the introduction of stateful contracts, as seen in Ethereum, offers increased flexibility at the cost of reduced security and scalability. Balancing these trade-offs is a complex challenge that requires meticulous consideration.
 
-#### Privacy Techniques
+### Privacy Techniques
 
 Different approaches to privacy in Bitcoin come with their own sets of trade-offs. Privacy by obfuscation, which involves adding more information to obscure relevant data, can enhance privacy but may complicate the network. Examples include Monero and Zcash. On the other hand, privacy by omission, which aims to reduce on-chain information, as seen in the Lightning Network, can improve both privacy and scalability. Each method has its advantages and drawbacks, necessitating a nuanced approach to privacy enhancements.
 
-#### Consensus Changes and Challenges
+### Consensus Changes and Challenges
 
 Altering Bitcoin's consensus mechanism is a rare and challenging endeavor due to the network's decentralized nature. Proposals like ChISA (cross-input signature aggregation) and covenants aim to introduce more complex transaction rules, but their implementation is fraught with difficulties. Consensus changes require broad agreement within the community, and the coordination needed can lead to significant frustration and burnout if proposed changes are not accepted. This highlights the need for careful and collaborative efforts in protocol development.
 
 ### Innovations and Standards in Bitcoin Development
 
-#### Bitcoin Wallet Standards
-
 Adhering to standardized practices in Bitcoin wallet development is crucial for ensuring ease of use and security. Many wallets currently do not follow established standards, leading to fragmentation and potential vulnerabilities. Standardization can significantly improve user experience and the overall security of Bitcoin transactions.
-
-#### Innovation in Backup Schemes
 
 The traditional 12-word backup phrases, while effective for basic Bitcoin use, fall short in accommodating off-chain protocols like the Lightning Network. Future backup standards need to evolve to provide better security and usability for these advanced features, ensuring that users can safely manage their assets across different layers of the Bitcoin ecosystem.
 
-#### Payment Protocols
-
 Simplifying the payment process through unified protocols is essential for enhancing user experience. Existing protocols like BIP70, BIP78, and Payneem offer various solutions, but there is room for further innovation. A more streamlined and user-friendly payment protocol can facilitate broader adoption and ease of use.
-
-#### Tool Development
 
 The development of better tools and hardware is vital for improving Bitcoin's usability and security. Innovations like hardware wallets (e.g., Ledger and Trezor) offer robust security solutions but must continue to evolve to address emerging threats. Improved tools can make Bitcoin more accessible and secure for a wider audience.
 
-#### Supply Chain Attacks
-
 Mitigating risks associated with hardware wallet distribution and ensuring their integrity is crucial. Supply chain attacks pose significant threats to the security of these devices. Implementing rigorous security measures and ensuring transparency in the production and distribution process can help mitigate these risks.
-
-#### User Experience (UX) Abstractions
 
 Simplifying user interactions with Bitcoin and the Lightning Network while maintaining security and efficiency is a key goal. Better UX abstractions can make Bitcoin more accessible to non-technical users, fostering broader adoption without compromising on security.
 
-#### Education and Resources
-
 Creating educational materials to improve Bitcoin's usability, security, and privacy is impactful. Educating users on best practices and the underlying principles of Bitcoin can empower them to make informed decisions and enhance their overall experience with the network.
 
-#### Layer 1 and Layer 2 Changes
+![Image](assets/en/1/3.webp)
+
+**Layer 1 and Layer 2 Changes**
 
 Innovations at the base layer (Layer 1) are challenging but critical for the long-term evolution of Bitcoin. Layer 2 solutions, like the Lightning Network, allow for more experimental changes and can address scalability and privacy issues more flexibly. Both layers play a crucial role in Bitcoin's ongoing development.
 
-#### Consensus Coordination
+**Consensus Coordination**
 
 Changes to Bitcoin's protocol require significant coordination and community consensus. The decentralized nature of Bitcoin makes this process inherently challenging. Effective coordination and clear communication are essential to navigate the complexities of protocol changes and ensure the successful adoption of improvements.
 
-#### Scalability Challenges
+**Scalability Challenges**
 
 Achieving global consensus and managing complex secondary layers, such as the Lightning Network, present scalability challenges. These issues must be addressed to ensure Bitcoin can accommodate increasing transaction volumes while maintaining its core principles of security and decentralization.
 
@@ -783,7 +796,7 @@ A quintessential example of reliability engineering can be traced back to the 18
 
 Unlike reliability, security deals with intentional threats. For instance, a 256-bit cryptographic key provides a mathematical guarantee of security due to the infeasibility of brute-forcing it. Security measures must account for different threat models, from physical tampering to sophisticated cyber-attacks.
 
-#### Real-World Applications
+### Real-World Applications
 
 Consider the process of creating and storing Bitcoin keys using paper wallets. While paper wallets can be secure, they are susceptible to physical damage and tampering. Ensuring the integrity of such wallets requires tamper-evident methods and robust verification protocols.
 
@@ -822,6 +835,7 @@ Strategies for securing Bitcoin wallets include multi-signature setups and diver
 Finally, user validation is critical in maintaining a secure network. Each user’s role in validating transactions and verifying software and hardware components helps preserve the network’s integrity and thwart potential threats.
 
 In conclusion, comprehending and integrating security and reliability principles are essential in designing robust systems. By learning from historical examples, applying real-world strategies, and continuously validating trust, we can build systems that are both secure and reliable.
+
 
 ## Free and Open Source Software (FLOSS) in Bitcoin
 
@@ -923,7 +937,7 @@ In this section, we will explore the application of these concepts in real-world
 
 **Elliptic Curves in Cryptography**: Key tweaking and security are important topics, such as modifying a public key using an additional private key while ensuring security. Bitcoin's specific elliptic curve, SECP256K1, and its parameters (P and N) are fundamental to its implementation.
 
-### Conclusion
+#### Conclusion
 
 In this lecture, we've explored the fundamental cryptographic concepts that underpin the security and functionality of Bitcoin. From the critical roles of hash functions, Merkle trees, and digital signatures to the intricate mathematics of elliptic curve cryptography, these elements form the backbone of Bitcoin's decentralized network. Understanding these concepts isn't just about grasping the theory—it's about recognizing the practical implications and potential pitfalls in real-world development.
 
@@ -1108,11 +1122,11 @@ Running a Bitcoin node is a powerful way to participate in the Bitcoin network, 
 
 ![video](https://youtu.be/okvV9hqDOtM)
 
-### 1. Parsing Bitcoin Blocks and Transactions in Rust
-
-#### Objective
-
 The primary goal of this lecture is to guide you through the process of parsing a Bitcoin block by coding a parser in Rust. This involves understanding the structure of Bitcoin blocks and transactions, and implementing the necessary logic to extract and interpret this data.
+
+### Parsing Bitcoin Blocks and Transactions in Rust
+
+
 
 #### Components to Parse
 
@@ -1201,7 +1215,7 @@ To ensure our parser works correctly:
 - Compare parsed data against known block details (e.g., from mempool.space).
 - Validate that parsed transaction counts and block details match expected values.
 
-### 2. Handling Special Cases and Script Parsing
+### Handling Special Cases and Script Parsing
 
 #### Implementation of 'parse' Function
 
@@ -1361,7 +1375,7 @@ For consensus-critical applications, it is recommended to use existing libraries
 
 ![libraries](assets/en/3/9.webp)
 
-### 3. Efficiency and Security in Bitcoin Mining
+### Efficiency and Security in Bitcoin Mining
 
 #### Efficiency in Mining
 
@@ -1397,7 +1411,6 @@ In conclusion, parsing Bitcoin blocks and transactions in Rust involves understa
 
 ![Video](https://youtu.be/xOdz9GEiShM)
 
-### Introduction
 
 Daniela Brozzoni offers a comprehensive overview of the Bitcoin Layer 1 software stack, explaining the layers that comprise the foundation of Bitcoin's protocol (ie. Bitcoin nodes and Bitcoin wallets) and how to build Bitcoin software with an introduction to Bitcoin libraries and a deep dive into Bitcoin Development Kit (BDK).
 
@@ -1655,9 +1668,8 @@ When developing Bitcoin projects, Rust is often preferred due to its safety and 
 
 BDK relies on several key dependencies, including Rust-Bitcoin and Rust-Miniscipt. Additional libraries may be employed for database management and cryptography.
 
----
-
 By understanding these components, from Bitcoin nodes and wallets to the Bitcoin Development Kit (BDK), you can navigate the Bitcoin ecosystem with greater confidence and competence. This knowledge empowers you to develop robust and secure Bitcoin applications, contributing to the ongoing evolution of this revolutionary technology.
+
 
 # Lightning Network
 
@@ -1670,7 +1682,7 @@ By understanding these components, from Bitcoin nodes and wallets to the Bitcoin
 
 ![Video](https://youtu.be/VtpbCspK5T4)
 
-### 1. History of Payment Channels
+### History of Payment Channels
 
 Welcome to our lecture on modern payment solutions within blockchain technology. Today, we will explore the historical context and key developments of multi-hop locks (MHLs) and the Lytle Network.
 
@@ -2139,7 +2151,7 @@ By addressing these challenges, the Lightning Network will continue to mature, b
 
 ![Video](https://youtu.be/VXMON_nD650)
 
-### 1. Bitcoin's Resilience and Evolution
+### Bitcoin's Resilience and Evolution
 
 **Bitcoin Mascot: Honey Badger**
 Bitcoin is often personified by the honey badger, a creature renowned for its tenacity and resilience. This symbol aptly represents Bitcoin's robust and unyielding nature. Just as the honey badger can withstand venomous bites and continue to thrive, Bitcoin has demonstrated remarkable resilience against various adversities, including regulatory challenges, market volatility, and technical attacks.
@@ -2147,7 +2159,7 @@ Bitcoin is often personified by the honey badger, a creature renowned for its te
 **Bitcoin's Nature: Constantly Evolving**
 Contrary to the notion of being static, Bitcoin is in a state of perpetual evolution. Its protocol and ecosystem are continuously refined and improved by a global community of developers and researchers. This evolutionary process is driven by the need to enhance security, scalability, and functionality, ensuring that Bitcoin remains at the forefront of the cryptocurrency landscape.
 
-### 2. Innovations in the Lightning Network
+### Innovations in the Lightning Network
 
 **Lightning Network: Rapid Development**
 The Lightning Network, Bitcoin's second-layer solution for scaling and speeding up transactions, is undergoing rapid development. This layer allows for fast, low-cost transactions by enabling off-chain payment channels. Significant innovations are being integrated to bolster its efficiency and usability.
@@ -2164,7 +2176,7 @@ The L2 mechanism introduces a new method for invalidating old channel states wit
 **Bolt 12**
 Bolt 12 addresses the limitations of the current Bolt 11 invoices used in the Lightning Network. It introduces reusable invoices and automates processes, eliminating the need for HTTP and web servers by operating solely within the Lightning network. This innovation streamlines transactions and enhances user experience.
 
-### 3. Enhancing Privacy and Efficiency in Bitcoin Transactions
+### Enhancing Privacy and Efficiency in Bitcoin Transactions
 
 **Taproot, MuSig, and Schnorr Signatures**
 Taproot is a significant upgrade that consolidates transaction complexity and enhances privacy. When combined with MuSig (a protocol for multi-signature transactions) and Schnorr Signatures, Taproot improves transaction efficiency. These advancements allow Lightning transactions to resemble regular Bitcoin transactions, simplifying the process and bolstering privacy.
@@ -2220,9 +2232,10 @@ However, traditional invoices have their limitations. For example:
 > - **HTLC (Hash Time-Locked Contract)**: A type of smart contract used to ensure conditional payments within a time limit.
 > - **Onion Routing**: A privacy technique where transaction data is layered like an onion to protect the identities of the sender and recipient.
 
-#### Protocols and Use Cases
+### Protocols and Use Cases
 
-To overcome the limitations of traditional invoices, several protocols have emerged to extend and enhance Lightning payments.
+To oBusiness Models and Advanced Protocols
+vercome the limitations of traditional invoices, several protocols have emerged to extend and enhance Lightning payments.
 
 - **LNURL**: A protocol that simplifies invoice generation by allowing for the creation of invoices dynamically, supporting fiat denomination, and enabling the use of **Lightning addresses**. This approach greatly enhances user experience by offering more flexible payment methods and integration with different use cases.
 
@@ -2238,11 +2251,12 @@ Another protocol, **RGB**, further extends Lightning's functionality by enabling
 >
 > - **LNURL**: A protocol that allows for dynamic invoice creation, making payments easier and more flexible.
 > - **BOLT 12**: An extension of Lightning that leverages Onion messaging for privacy while automating invoice fetching.
-> - **Nostr**: A decentralized platform that integrates Lightning payments for micro-transactions.
+> - **Nostr**: A decentralized platform that integrates LProtocols and Use Cases
+ightning payments for micro-transactions.
 > - **RGB Protocol**: A protocol enabling the transfer of assets, like tokens, over the Lightning Network.
 > - **LSP (Lightning Service Provider)**: An entity that provides liquidity and opens channels for Lightning transactions, making the network more accessible to users.
 
-#### Business Models and Advanced Protocols
+### Business Models and Advanced Protocols
 
 The advancements in Lightning payments have paved the way for new business models, particularly for **Lightning Service Providers (LSPs)**. LSPs enhance the user experience by opening channels only when payments are detected, thus reducing pre-setup complexity.
 

@@ -9,12 +9,10 @@ tags:
 
 category: hardware
 
-level: intermediary
+level: intermediate
 
 credits:
   professor: pretty-private
-
-# Proofreading metadata
 
 original_language: fr
 proofreading:
@@ -23,4 +21,5 @@ proofreading:
     urgency:
     contributors_id:
     - LoicPandul
-    reward: 
+    reward: 3029
+

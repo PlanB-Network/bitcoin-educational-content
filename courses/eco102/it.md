@@ -10,15 +10,15 @@ objectives:
 
 # Un Viaggio nel Mondo di Frédéric Bastiat
 
-Questo corso, guidato da Damien Theillier, ti invita ad immergerti nel mondo di Frédéric Bastiat, economista e filosofo francese le cui idee continuano ad influenzare il pensiero economico contemporaneo. Attraverso 21 video, Damien Theillier esplora la vita di Bastiat, le sue influenze intellettuali, i suoi avversari ideologici, così come le sue teorie economiche.
+Questo corso, guidato da Damien Theillier, ti invita ad immergerti nel mondo di Frédéric Bastiat, economista e filosofo francese le cui idee continuano ad influenzare il pensiero economico contemporaneo. Attraverso 21 video, Damien Theillier esplora la vita di Bastiat, le sue influenze intellettuali, gli avversari ideologici, così come le sue teorie economiche.
 
-Il corso inizia con una dettagliata introduzione alla vita e al contesto storico di Bastiat, prima di esaminare i pensatori che hanno segnato il suo pensiero, come Adam Smith, Jean-Baptiste Say, Antoine Destutt de Tracy, Charles Comte, Charles Dunoyer e Richard Cobden. Poi, il corso guarda agli avversari di Bastiat, inclusi Rousseau, l'educazione classica, il protezionismo, il socialismo e Proudhon.
+Il corso inizia con una introduzione dettagliata sulla vita e sul contesto storico di Bastiat, prima di esaminare i diversi pensatori che hanno influenzato il suo pensiero, come Adam Smith, Jean-Baptiste Say, Antoine Destutt de Tracy, Charles Comte, Charles Dunoyer e Richard Cobden. Poi, il corso analizza agli avversari di Bastiat, inclusi Rousseau, l'educazione classica, il protezionismo, il socialismo e Proudhon.
 
 Una parte importante del corso è dedicata ai sofismi economici denunciati da Bastiat, come "Ciò che si vede e ciò che non si vede", "La petizione dei fabbricanti di candele", il saccheggio tramite le tasse, e la distinzione tra le due morali economiche. Il corso affronta anche le armonie economiche sostenute da Bastiat, inclusi il miracolo del mercato, il potere della responsabilità e la vera solidarietà.
 
-Infine, il corso si conclude con una riflessione su "La Legge", affrontando concetti chiave come il diritto alla proprietà, il saccheggio legale e il ruolo dello stato. La conclusione del corso rivisita l'eredità di Frédéric Bastiat e la sua duratura influenza sull'economia moderna.
+Infine, il corso si conclude con una riflessione su "La Legge", affrontando concetti chiave come il diritto alla proprietà, il saccheggio legale e il ruolo dello stato. La conclusione del corso rivisita l'eredità di Frédéric Bastiat e la sua influenza duratura sull'economia moderna.
 
-Unisciti a Damien Theillier in questa esplorazione arricchente del pensiero di Frédéric Bastiat e scopri come le sue idee possono illuminare i dibattiti economici e politici attuali.
+Unisciti a Damien Theillier nell'esplorazione del pensiero di Frédéric Bastiat e scopri come le sue idee possono illuminare i dibattiti economici e politici attuali.
 
 +++
 
@@ -42,7 +42,7 @@ Si scopre che dopo la Seconda Guerra Mondiale, uno dei suoi libri fu pubblicato 
 
 _(Mercato a Mugron nelle Landes, la città di Bastiat)_
 
-Quindi, un genio non riconosciuto ma anche una luce per i nostri tempi. Infatti, Frédéric Bastiat, nato a Bayonne, visse inizialmente parte della sua vita nelle Landes dove gestì un'azienda agricola ereditata e condusse una vita in definitiva da imprenditore. E poi, molto presto, si interessò di economia, viaggiò in Inghilterra, incontrò Richard Cobden che era un leader del movimento per il libero scambio. Bastiat fu affascinato da questo movimento, era convinto che il libero scambio fosse una soluzione per la Francia e decise in seguito di cercare di diffondere le sue idee in Francia. Scrisse articoli che ebbero molto successo e si trasferì a Parigi per dirigere un giornale chiamato all'epoca il Journal des économistes.
+Quindi, un genio non riconosciuto ma anche una luce per i nostri tempi. Infatti, Frédéric Bastiat, nato a Bayonne, visse inizialmente parte della sua vita nelle Landes dove gestì un'azienda agricola ereditata, conducendo una vita in definitiva da imprenditore. E poi, molto presto, si interessò di economia, viaggiò in Inghilterra, incontrò Richard Cobden che era un leader del movimento per il libero scambio. Bastiat fu affascinato da questo movimento, era convinto che il libero scambio fosse una soluzione per la Francia e decise in seguito di cercare di diffondere le sue idee in Francia. Scrisse articoli che ebbero molto successo e si trasferì a Parigi per dirigere un giornale chiamato all'epoca il Journal des économistes.
 
 ![image](assets/image/00/IMG15.webp)
 
@@ -51,33 +51,33 @@ Quando fu eletto deputato, fu durante la Seconda Repubblica, e da quel momento i
 
 E si rese conto che, fondamentalmente, nulla era davvero cambiato. Le persone disponevano della proprietà altrui attraverso il voto e la legge, quello che lui chiamava saccheggio legale. Questo fenomeno del saccheggio legale era al centro del suo lavoro, specialmente in questo breve testo che scrisse verso la fine della sua vita, "La Legge", dove contrappone il saccheggio legale alla proprietà, il diritto alla proprietà. Mostra che, fondamentalmente, la vera soluzione al problema sociale è la libertà, cioè la proprietà, il controllo su se stessi e sui frutti del proprio lavoro.
 
-In questo corso, viaggeremo insieme attraverso il pensiero di Frédéric Bastiat, partendo dalle influenze degli autori che lo hanno plasmato molto presto nella sua gioventù, poi esamineremo i suoi sofismi economici, e infine concluderemo con questo grande testo, "La Legge", che ci introdurrà all'analisi del mercato politico, all'analisi della società.
+In questo corso, viaggeremo insieme attraverso il pensiero di Frédéric Bastiat, partendo dalle influenze degli autori che lo hanno plasmato molto presto nella sua gioventù, poi esamineremo i suoi sofismi economici, e infine concluderemo con questo grande testo, "La Legge", che ci introdurrà all'analisi del mercato politico e della società.
 
 ## La Vita e il Contesto Storico
 
 <chapterId>e9d92b63-83dd-552c-84e1-dd535608c109</chapterId>
 
 ![video](https://youtu.be/buPg-IPqwmU?si=_JKks1usXbUTQqJo)
-Nel 1844, Frédéric Bastiat intraprese un viaggio d'affari in Spagna. Dopo aver soggiornato a Madrid, Siviglia, Cadice e Lisbona, decise di imbarcarsi per Southampton e di visitare l'Inghilterra. A Londra, ebbe l'opportunità di partecipare agli incontri della Anti-Corn Law League, il cui lavoro aveva seguito da lontano. Incontrò i principali leader di questa Associazione, inclusi Richard Cobden, che sarebbe diventato suo amico.
+Nel 1844, Frédéric Bastiat intraprese un viaggio d'affari in Spagna. Dopo aver soggiornato a Madrid, Siviglia, Cadice e Lisbona, decise di imbarcarsi per Southampton e di visitare l'Inghilterra. A Londra, ebbe l'opportunità di partecipare agli incontri della Anti-Corn Law League, che seguiva ormai da tempo da lontano. Incontrò i principali leader di questa Associazione, inclusi Richard Cobden, che sarebbe poi diventato suo amico.
 
-Fu lì che il corso della sua vita cambiò radicalmente. Egli stesso racconta che in quel momento fu decisa la sua vocazione come economista. Al ritorno in Francia, aveva solo un'idea in mente: far conoscere alla Francia il movimento liberale che agitava l'Inghilterra. Frédéric Bastiat nacque a Bayonne il 30 giugno 1801. Orfano all'età di 9 anni, proseguì i suoi studi al collegio cattolico di Sorèze. Era dotato per le lingue, imparando l'inglese, lo spagnolo e persino il basco. Tuttavia, non era motivato dai suoi studi e decise di non prendere il Baccalaureato, scegliendo invece di lavorare nell'azienda di import-export di suo zio a Bayonne.
+Fu lì che il corso della sua vita cambiò radicalmente. Egli stesso racconta che in quel momento fu decisa la sua vocazione come economista. Al ritorno in Francia, aveva solo un'idea in mente: far conoscere alla Francia il movimento liberale che agitava l'Inghilterra. Frédéric Bastiat nacque a Bayonne il 30 giugno 1801. Orfano all'età di 9 anni, proseguì i suoi studi al collegio cattolico di Sorèze. Era portato per le lingue ed imparò l'inglese, lo spagnolo e persino il basco. Tuttavia, non era motivato dai suoi studi e decise di non prendere il Baccalaureato, scegliendo invece di lavorare nell'azienda di import-export di suo zio a Bayonne.
 
-Nel 1825, ereditò una tenuta agricola dal suo nonno, che gestì come un "gentiluomo-contadino", con le sue parole. Fu allora che incontrò direttamente i problemi causati dalla mancanza di una chiara definizione dei diritti di proprietà. Decise di diventare giudice di pace nella sua città di Mugron, nel cuore delle Landes, un crocevia commerciale e fluviale tra i porti di Bordeaux e Bayonne. Più tardi, fu eletto membro del Consiglio Generale delle Landes.
+Nel 1825, ereditò una tenuta agricola dal suo nonno, che gestì come un "gentiluomo-contadino", utilizzando le sue parole. Fu allora che incontrò i problemi causati dalla mancanza di una chiara definizione dei diritti di proprietà. Decise di diventare giudice di pace nella sua città di Mugron, nel cuore delle Landes, un crocevia commerciale e fluviale tra i porti di Bordeaux e Bayonne. Più tardi, fu eletto membro del Consiglio Generale delle Landes.
 
 Sviluppò rapidamente una passione per l'economia politica e studiò le opere di Adam Smith, Jean-Baptiste Say, Destutt de Tracy, Charles Dunoyer e Charles Comte. Leggeva giornali inglesi, e fu lì che apprese dell'esistenza di una lega inglese per il libero scambio.
 
 _(Say, Cobden, Smith, Chevalier, Dunoyer, Destutt de Tracy)_
 
-Al suo ritorno dall'Inghilterra, scrisse un articolo intitolato: "Sull'influenza dei dazi inglesi e francesi sul futuro dei due popoli", che inviò al Journal des Économistes a Parigi. L'articolo apparve nel numero di ottobre 1844, e fu un completo successo. Tutti ammiravano la sua argomentazione potente e incisiva, il suo stile sobrio ed elegante.
+Al suo ritorno dall'Inghilterra, scrisse un articolo intitolato: "Sull'influenza dei dazi inglesi e francesi sul futuro dei due popoli", che inviò al Journal des Économistes a Parigi. L'articolo apparve nel numero di ottobre 1844, ottenendo un grande successo. Tutti ammiravano le sue argomentazioni potenti ed incisive, il suo stile sobrio ed elegante.
 
-Il Journal des Économistes gli chiese quindi altri articoli, e diversi membri della Società di Economia Politica, in particolare Horace Say, figlio di Jean-Baptiste Say, e Michel Chevalier, un rinomato professore, lo congratularono, incoraggiandolo a continuare con loro nel lavoro di diffusione delle verità economiche. Questo segnò l'inizio di una nuova vita a Parigi.
+Il Journal des Économistes gli chiese altri articoli, e diversi membri della Società di Economia Politica, in particolare Horace Say, figlio di Jean-Baptiste Say, e Michel Chevalier, un rinomato professore, si congratularono con lui, incoraggiandolo a proseguire insieme nel lavoro di diffusione delle verità economiche. Questo segnò l'inizio di una nuova vita a Parigi.
 
 Pubblicò inizialmente la serie iniziale di Sofismi economici, in cui attaccava i protezionisti con audacia e ironia. A Parigi, iniziò anche un corso di economia politica in una sala privata, frequentato con entusiasmo dall'élite studentesca.
 
 L'anno seguente, fondò l'"Associazione per il Libero Scambio" in Francia e si gettò nella lotta contro il protezionismo in Francia. Raccolse fondi, creò una rivista settimanale e tenne conferenze in tutto il paese.
-Il primo incontro si è svolto a Bordeaux il 23 febbraio 1846, durante il quale fu fondata l'Associazione Bordolese per il Libero Scambio. Ben presto, il movimento si diffuse in tutta la Francia. A Parigi, un nucleo iniziale si formò tra i membri della Società degli Economisti, ai quali si unirono deputati, industriali e commercianti. Gruppi significativi si formarono anche a Marsiglia, Lione e Le Havre.
+Il primo incontro si è svolto a Bordeaux il 23 febbraio 1846, durante il quale fu fondata l'Associazione Bordolese per il Libero Scambio. Ben presto, il movimento si diffuse in tutta la Francia. A Parigi, si formò un nucleo iniziale tra i membri della Società degli Economisti, ai quali si unirono deputati, industriali e commercianti. Gruppi significativi si formarono anche a Marsiglia, Lione e Le Havre.
 
-La Rivoluzione di Febbraio del 1848 rovesciò la monarchia di Luigi Filippo, nota come la Monarchia di Luglio (1830-1848), e vide l'avvento della Seconda Repubblica. Bastiat fu allora eletto membro dell'assemblea legislativa come deputato per le Landes. Sedette al centro-sinistra, con Alexis de Tocqueville, tra i monarchici e i socialisti. Lì, si adoperò per difendere le libertà individuali come le libertà civili e si oppose a tutte le politiche restrittive, provenissero dalla destra o dalla sinistra. Fu eletto vicepresidente della Commissione Finanze e si adoperò costantemente per ricordare ai suoi colleghi deputati questa semplice verità, spesso dimenticata nei parlamenti:
+La Rivoluzione di Febbraio del 1848 rovesciò la monarchia di Luigi Filippo, nota come la Monarchia di Luglio (1830-1848), e vide l'avvento della Seconda Repubblica. Bastiat fu allora eletto membro dell'assemblea legislativa come deputato per le Landes. Sedette al centro-sinistra, con Alexis de Tocqueville, tra i monarchici e i socialisti. Lì, si adoperò per difendere le libertà individuali come le libertà civili e si oppose a tutte le politiche restrittive, sia di destra che di sinistra. Fu eletto vicepresidente della Commissione Finanze e si adoperò costantemente per ricordare ai suoi colleghi deputati questa semplice verità, spesso dimenticata nei parlamenti:
 
 > Non si può dare ad alcuni, per legge, senza essere obbligati a prendere da altri con un'altra legge.
 
@@ -96,12 +96,13 @@ Morì a Roma nel 1850, a causa della tubercolosi. È sepolto nella Chiesa di San
 In economia, Bastiat ha sempre riconosciuto il suo debito verso Adam Smith e Jean-Baptiste Say. A 26 anni, scrisse a uno dei suoi amici: "Non ho mai letto su questi argomenti se non queste quattro opere, Smith, Say, Destutt e il Censore."
 
 _(Jean-Baptiste Say e Adam Smith)_
-L'economia politica, così come concepita da Adam Smith e J.-B. Say, è racchiusa in una sola parola: libertà. Libertà di commercio, libertà individuale, libero scambio e libera iniziativa. Il libero scambio fu difeso per primo dai fisiocratici, come François Quesnay e Vincent de Gournay, e poi da Adam Smith che sintetizzò le loro idee con le proprie osservazioni. Infine, alla fine del XVIII secolo, Jean-Baptiste Say chiarì e corresse alcuni punti della dottrina del suo maestro Adam Smith nel suo magistrale Trattato di Economia Politica.
+L'economia politica, così come concepita da Adam Smith e J.-B. Say, è racchiusa in una sola parola: libertà. 
+Libertà di commercio, libertà individuale, libero scambio e libera iniziativa. Il libero scambio fu difeso per primo dai fisiocratici, come François Quesnay e Vincent de Gournay, e poi da Adam Smith che sintetizzò le loro idee con le proprie osservazioni. Infine, alla fine del XVIII secolo, Jean-Baptiste Say chiarì e corresse alcuni punti della dottrina del suo maestro Adam Smith nel suo magistrale Trattato di Economia Politica.
 
 _(Say, Destutt de Tracy, Quesnay, de Gournay)_
 Adam Smith era interessato alla prosperità, non come fine a sé stessa, ma come mezzo per l'elevazione morale degli individui. Per lui, la ricchezza delle nazioni consiste nella ricchezza degli individui. Se vuoi una nazione prospera, dice Adam Smith, lascia che gli individui agiscano liberamente. E il mercato funziona perché permette a tutti di esprimere le proprie preferenze e perseguire il proprio interesse.
 
-La grande novità degli economisti moderni all'alba del XVIII secolo è che si interessano a ogni individuo con la volontà di ripristinare la loro capacità di agire pensando contemporaneamente a come contenere passioni e conflitti. L'uomo vuole naturalmente migliorare la propria sorte e quella dei propri cari attraverso lo scambio di beni e servizi.
+La grande novità degli economisti moderni all'alba del XVIII secolo fu il loro interesse verso il singolo individuo con la volontà di ripristinare la loro capacità di agire pensando contemporaneamente a come contenere passioni e conflitti. L'uomo vuole naturalmente migliorare la propria sorte e quella dei propri cari attraverso lo scambio di beni e servizi.
 
 Quello che Adam Smith dimostra è che si può servire il proprio interesse solo servendo l'interesse degli altri.
 
@@ -110,9 +111,9 @@ Quello che Adam Smith dimostra è che si può servire il proprio interesse solo 
 Lo scambio è un gioco a somma positiva. Ciò che uno guadagna, guadagna anche l'altro. Si differenzia così dalla redistribuzione politica dove c'è sempre un vincitore e un perdente. Se consideriamo la scuola inglese, per Smith, per Ricardo e per Locke prima di loro, il valore è legato al lavoro. Per Marx, è lo stesso.
 
 D'altra parte, Bastiat ammetterà con Jean-Baptiste Say che l'utilità è il vero fondamento del valore. Il lavoro non crea valore. Nemmeno la scarsità. Tutto deriva dall'utilità. Infatti, nessuno accetta di pagare per un servizio a meno che non lo ritenga utile. Si produce sempre e solo utilità.
-Ma Bastiat ha anche sfumato Say su questo punto. Non si tratta dell'utilità che è nelle cose, si tratta dell'utilità relativa dei servizi. "Il valore è il rapporto di due servizi scambiati," secondo le sue stesse parole. Pertanto, il valore è soggettivo, e l'unico modo per cogliere le preferenze degli individui è osservare il loro comportamento in un mercato libero. Il mercato rivela le preferenze individuali ed è il grande regolatore della società attraverso lo scambio.
+Ma Bastiat ha anche criticato Say su questo punto. Non si tratta infatti dell'utilità che è nelle cose, si tratta dell'utilità relativa dei servizi. "Il valore è il rapporto di due servizi scambiati," secondo le sue stesse parole. Pertanto, il valore è soggettivo, e l'unico modo per cogliere le preferenze degli individui è osservare il loro comportamento in un mercato libero. Il mercato rivela le preferenze individuali ed è il grande regolatore della società attraverso lo scambio.
 
-L'economia obbedisce a una serie di leggi semplici derivate dal comportamento umano. Una di queste, chiamata "Legge di Say," è la seguente: "Prodotti e servizi sono scambiati per prodotti e servizi." La sua idea è che le nazioni e gli individui traggono beneficio da un aumento del livello di produzione perché offre maggiori opportunità per scambi reciprocamente vantaggiosi.
+L'economia obbedisce a una serie di leggi semplici derivate dal comportamento umano. Una di queste, chiamata "Legge di Say": "Prodotti e servizi sono scambiati per prodotti e servizi." La sua idea è che le nazioni e gli individui traggono beneficio da un aumento del livello di produzione perché offre maggiori opportunità per scambi reciprocamente vantaggiosi.
 
 Infatti, i prodotti sono acquistati solo in previsione dei servizi che l'acquirente si aspetta: compro un disco per la musica che ascolterò, compro un biglietto del cinema per il film che vedrò. E in uno scambio, ogni parte decide perché giudica che può derivare più servizi da ciò che acquisisce rispetto a ciò che cede. In questo contesto, il denaro è solo una merce intermediaria, compensa per un servizio reso e apre ad altri servizi.
 
@@ -155,7 +156,7 @@ Per ideologia, Tracy intendeva semplicemente la scienza che si occupa dello stud
 Dominò il periodo rivoluzionario ed era diretto da Jean-Baptiste Say. Destutt de Tracy fu eletto membro dell'Accademia Francese nel 1808 e dell'Accademia delle Scienze Morali e Politiche nel 1832. Sua figlia sposò Georges Washington de La Fayette (il figlio del primo presidente americano) nel 1802, il che mostra la stretta vicinanza che ancora esisteva tra la Francia e la giovane America in quel periodo.
 
 ![image](assets/image/02/IMG17.webp)
-Lo scopo del suo Trattato di Economia Politica è "esaminare il modo migliore per impiegare tutte le nostre facoltà fisiche e intellettuali per soddisfare i nostri vari bisogni". La sua idea è che il commercio sia la fonte di tutto il bene umano; è la forza civilizzatrice, razionalizzatrice e pacificatrice del mondo. La grande massima dell'economia politica è formulata da lui come segue: "il commercio è l'intera società, così come il lavoro è l'intera ricchezza". Infatti, egli vede la società come "una continua serie di scambi in cui entrambi i contraenti guadagnano sempre". Pertanto, il mercato è l'opposto della predazione. Arricchisce alcuni senza impoverire altri. Come verrà detto in seguito, non è un "gioco a somma zero", ma un gioco a somma positiva.
+Lo scopo del suo Trattato di Economia Politica è "esaminare il modo migliore per impiegare tutte le nostre facoltà fisiche e intellettuali per soddisfare i nostri bisogni". La sua idea è che il commercio sia la fonte di tutto il bene umano; è la forza civilizzatrice, razionalizzatrice e pacificatrice del mondo. La grande massima dell'economia politica è formulata da lui come segue: "il commercio è l'intera società, così come il lavoro è l'intera ricchezza". Infatti, egli vede la società come "una continua serie di scambi in cui entrambi i contraenti guadagnano sempre". Pertanto, il mercato è l'opposto della predazione. Arricchisce alcuni senza impoverire altri. Come verrà detto in seguito, non è un "gioco a somma zero", ma un gioco a somma positiva.
 
 Il nostro autore non arriva fino a definire l'economia politica come la scienza degli scambi. Ma questo stesso ragionamento sarà ripreso e portato avanti da Bastiat. Vendere è uno scambio di oggetti, affittare è uno scambio di servizi e prestare è semplicemente uno scambio differito. L'economia politica diventa così per Bastiat "la teoria dello scambio".
 
@@ -213,7 +214,7 @@ Siamo nel 1838, a Manchester, un piccolo numero di uomini, fino ad allora poco c
 
 > Senza spargimento di sangue, per il solo potere dell'opinione, una rivoluzione tanto profonda, forse più profonda di quella che i nostri padri realizzarono nel 1789.
 
-Da questo incontro sarebbe emersa la Lega contro le leggi sul grano, o le leggi sui cereali, come le avrebbe chiamate Bastiat. Ma molto rapidamente, questo obiettivo diventerebbe quello dell'abolizione totale e unilaterale del protezionismo.
+Da questo incontro sarebbe emersa la Lega contro le leggi sul grano, o le leggi sui cereali, come le avrebbe chiamate Bastiat. Ma molto rapidamente, il loro obiettivo diventò l'abolizione totale e unilaterale del protezionismo.
 
 ![immagine](assets/image/04/IMG13.webp)
 
@@ -223,14 +224,14 @@ Questa battaglia economica per il libero scambio avrebbe occupato tutta l'Inghil
 
 Fu questa campagna di agitazione per il libero scambio, in tutto il regno, con decine di migliaia di membri, a infiammare la penna di Bastiat e a cambiare radicalmente e definitivamente il corso della sua vita.
 
-La Lega può essere paragonata a un'università itinerante, che educava economicamente coloro che partecipavano ai suoi incontri in tutto il paese—gente comune, industriali, coltivatori e agricoltori, tutti coloro che la Lega aveva preso sotto la sua ala e i cui interessi erano oppressi dalle leggi sui cereali. Richard Cobden era l'anima del movimento e un agitatore eccezionale.
+La Lega può essere paragonata ad un'università itinerante, che educava economicamente coloro che partecipavano ai suoi incontri in tutto il paese: gente comune, industriali, coltivatori e agricoltori, tutti coloro che la Lega aveva preso sotto la sua ala e i cui interessi erano oppressi dalle leggi sui cereali. Richard Cobden era l'anima del movimento ed un agitatore eccezionale.
 Un oratore affascinante e formidabile, aveva un dono prodigioso nell'inventare frasi incisive e concise, lontane dai discorsi astratti degli economisti.
 
 > Cos'è il monopolio del pane? esclamò. È la scarsità di pane. Rimarrete sorpresi nell'apprendere che la legislazione di questo paese, su questa materia, non ha altro scopo se non quello di produrre la massima scarsità possibile di pane. Eppure non è altro. La legislazione può raggiungere il suo obiettivo solo attraverso la scarsità.
 
 Nel 1845, Bastiat pubblicò a Parigi il suo libro Cobden e la Lega, con le sue traduzioni accompagnate da commenti. Il libro si apre con un'introduzione sulla situazione economica dell'Inghilterra, sulla storia dell'origine e del progresso della Lega. Dal 1815, il protezionismo era molto sviluppato in Inghilterra. Vi erano, in particolare, leggi che limitavano l'importazione di grano che avevano conseguenze molto dure per il popolo. Infatti, il grano era necessario per fare il pane, una merce vitale all'epoca. Inoltre, questo sistema favoriva l'aristocrazia, cioè i grandi proprietari terrieri, che ne ricavavano rendite.
 
-> Quello che coesiste in Inghilterra, scrisse Bastiat, è un piccolo numero di saccheggiatori e un grande numero di saccheggiati, e non occorre essere un grande economista per concludere l'opulenza dei primi e la miseria degli ultimi.
+> Quello che coesiste in Inghilterra, scrisse Bastiat, è un piccolo numero di saccheggiatori e un grande numero di saccheggiati, e non occorre essere un grande economista per riconoscere l'opulenza dei primi e la miseria degli ultimi.
 
 L'obiettivo della Lega era mobilitare l'opinione pubblica per fare pressione sul parlamento affinché abrogasse la legge sul grano. A lungo termine, Cobden e i suoi amici speravano di:
 
@@ -242,7 +243,7 @@ L'obiettivo della Lega era mobilitare l'opinione pubblica per fare pressione sul
 
 _(Jeremy Bentham)_
 
-Discepolo dell'utilitarismo di Bentham, la convinzione di Cobden era che la libertà di lavoro e di commercio servisse direttamente l'interesse delle masse più numerose, più povere e più sofferenti della società. Al contrario, le dogane come strumento di proibizioni arbitrarie e privilegi potevano beneficiare solo certe industrie più potenti.
+Discepolo dell'utilitarismo di Bentham, la convinzione di Cobden era che la libertà di lavoro e di commercio servisse direttamente l'interesse delle masse più numerose, più povere e più sofferenti della società. Al contrario, delle dogane come strumento di proibizioni arbitrarie e privilegi potevano beneficiarne solo certe industrie più potenti.
 
 Nelle elezioni del 1841, cinque membri della lega, inclusi Cobden, furono eletti al parlamento. Il 26 maggio 1846, il libero scambio unilaterale divenne legge del regno. Da allora, il Regno Unito avrebbe vissuto un brillante periodo di libertà e prosperità.
 Ciò che è interessante è che Bastiat si appropriò di una parte del loro metodo; assimilò il loro linguaggio e lo traspose nel contesto francese. Il libro su Cobden e la Lega divenne rapidamente un successo, e Bastiat fece un ingresso sensazionale nel mondo degli economisti. Fondò un'associazione a Bordeaux a favore del libero scambio e poi la trasferì a Parigi. Gli fu offerta la direzione del Journal des Économistes. Il movimento era nato e continuò fino al 1848.
@@ -265,7 +266,7 @@ La questione del libero scambio continua ad essere rilevante oggi. I libri di te
 
 ![video](https://youtu.be/Z8EDhTS-s_Q?si=KSe8O-NTLXP3nRSb)
 
-Frédéric Bastiat, che si esprimeva negli anni 1840, è l'erede di una generazione di filosofi dell'Illuminismo che hanno combattuto contro la censura e per la libertà di dibattito. Pensate a Montesquieu, Diderot, Voltaire, Condorcet, ma anche Rousseau.
+Frédéric Bastiat, che si esprimeva intorno al 1840, è l'erede di una generazione di filosofi dell'Illuminismo che hanno combattuto contro la censura e per la libertà di dibattito. Pensate a Montesquieu, Diderot, Voltaire, Condorcet, ma anche Rousseau.
 
 Per loro, l'idea era semplice: più le idee possono essere espresse, più la verità progredisce e più facilmente gli errori vengono confutati. La scienza progredisce sempre in questo modo.
 

@@ -1484,6 +1484,8 @@ Hơn nữa, với sự giúp đỡ của Mahboob và Bitcoin, những phụ nữ
 Tóm lại, Bitcoin đã là một công cụ mạnh mẽ để trao quyền tài chính cho phụ nữ.
 
 ## Mercedes
+
+<chapterId>dfa10b75-19f6-578a-9d14-a0a541806076</chapterId>
 Sinh ra ở Mexico vào năm 1949 trong hoàn cảnh nghèo khó, Mercedes đã từng trải qua những bất bình đẳng gay gắt trong xã hội từ khi còn nhỏ. Suốt thời thơ ấu, cô đối mặt với nhiều thách thức, bao gồm sự đàn áp của chính phủ đối với các phong trào sinh viên và những khó khăn đặc biệt mà phụ nữ sống trong cảnh nghèo đói phải trải qua. Hơn nữa, khoảng cách giàu nghèo lớn, kết hợp hạn chế trong việc tiếp cận nền giáo dục chất lượng, đã khiến gia đình cô và hàng triệu người khác mắc kẹt trong cảnh nghèo đói. Bị thúc đẩy bởi những bất công này, Mercedes đã hướng về Chủ nghĩa Marx (Cộng sản), ủng hộ sự thay đổi xã hội và cải cách kinh tế.
 
 Mặc dù giữ vững niềm tin vào Chủ nghĩa Marx, Mercedes cuối cùng đã nhận ra những hạn chế vốn có của những hệ thống truyền thống này khi nói đến phân phối quyền lực và tài sản. Nhận thức này đã thúc đẩy cô tìm kiếm một hướng đi khác, đó là khi cô phát hiện ra Bitcoin và khả năng thách thức chính những hệ thống tài chính mà cô đã lâu nay chỉ trích. Được thúc đẩy bởi triển vọng về việc thúc đẩy sự tự do tài chính và quyền lực, Mercedes đã chuyển hướng năng lượng của mình để ủng hộ tiềm năng biến đổi của Bitcoin.

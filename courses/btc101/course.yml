@@ -24,7 +24,7 @@ hours: 15
 # They are identified by their UUID
 # See /professors folder for examples
 professors:
-  - another-satoshi
+  - rabbit-hole
 
 # contributors
 # List who is/are the contributors who help format, review,

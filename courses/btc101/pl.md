@@ -808,36 +808,36 @@ W poprzedniej sekcji zobaczyliśmy, że bezpieczeństwo protokołu Bitcoina opie
 
 Najpierw spróbujmy jakościowo ocenić środowiskowy koszt wydobycia. Górnik musi posiadać maszynę taką jak ASIC oraz źródło energii w postaci elektryczności, aby zasilać te maszyny. ASIC-i są wykonane głównie z aluminium i mogą być albo zrecyklingowane, albo wykorzystane ponownie do innego celu (jak pokazano na przykładzie projektu [Attakaï](https://decouvrebitcoin.fr/attakai/), który przekształca Antminera S9 w grzejnik). Głównym problemem jest więc zużycie energii. Spróbujmy dostarczyć więcej kontekstu.
 
-Głównym kosztem dla górnika jest zużycie elektryczności, co stanowi zachętę do szukania taniego źródła energii elektrycznej. Ponieważ górnicy są mobilni, mogą udawać się do miejsc, gdzie elektrownie są zainstalowane, ale jeszcze nie podłączone do sieci elektrycznej w danej lokalizacji. Górnicy działają jako ostatnia deska ratunku, pozwalając elektrowniom zabezpieczyć finansowanie nawet przed podłączeniem do sieci elektrycznej. A kiedy zostaną podłączone, popyt na elektryczność wzrośnie, co podniesie cenę i uczyni pozyskiwanie elektryczności w takim miejscu mniej opłacalnym dla górnika. Zdecyduje się on wtedy przenieść swoją instalację i osiedlić się dalej, gdzie popyt i cena są niskie.
+Głównym kosztem dla górnika jest zużycie elektryczności, co stanowi zachętę do szukania taniego źródła energii elektrycznej. Ponieważ górnicy są mobilni, mogą udawać się do miejsc, gdzie elektrownie są zainstalowane, ale jeszcze nie podłączone do sieci elektrycznej w danej lokalizacji. Górnicy działają jako kupcy ostatniej instancji, pozwalając elektrowniom zabezpieczyć finansowanie nawet przed podłączeniem do sieci elektrycznej. A kiedy zostaną podłączone, popyt na elektryczność wzrośnie, co podniesie cenę i uczyni pozyskiwanie elektryczności w takim miejscu mniej opłacalnym dla górnika. Zdecyduje się on wtedy przenieść swoją instalację i osiedlić się dalej, gdzie popyt i cena są niskie.
 
-### Nieskończona debata
+### Niekończąca się debata
 
 Debata na temat wpływu Bitcoina na ekologię jest często myląca, głównie z powodu niewystarczającego zrozumienia użyteczności sieci i jej działania. Bitcoina nie można oceniać jedynie pod kątem kosztu energetycznego za transakcję, ponieważ górnicy zabezpieczają zarówno bieżącą jak i historyczną sieć, transakcje są grupowane i nie wszystkie są równoważne, a wpływ Sieci Lightning nie jest brany pod uwagę. Ci, którzy twierdzą, że Bitcoin zużywa zbyt dużo energii, mogą mieć motywacje polityczne lub dążyć do sprzedaży własnego rozwiązania łańcucha bloków. Pretekst ekologiczny jest używany do uzasadnienia zakazu Bitcoina.
 
 Jednakże nie należy zapominać, że Bitcoin, jako rewolucyjny wynalazek, dał osobom żyjącym w opresji finansowej lub reżimie dyktatorskim środek do walki o swoją wolność. Jako ostatnia deska ratunku, Bitcoin oferuje nową formę wolności finansowej, umożliwiając uniknięcie cenzury i ograniczeń bankowych. Bitcoin to coś więcej niż tylko waluta. To forma komunikacji i wyraz wolności. Energia wydatkowana przez górników przyczynia się do obrony naszej wolności. Bitcoin umożliwia emancypację od obecnego systemu finansowego, zdominowanego przez długi i nadmierną kreację pieniądza przez banki centralne.
 Dla osób mieszkających w krajach z wysoką inflacją, Bitcoin jest kwestią przetrwania. Zapewnia środki do przetrwania w niepewnych sytuacjach finansowych. Ponadto, Bitcoin oferuje sprawiedliwszy i bardziej równy system finansowy. Daje również możliwość dostępu do systemu finansowego miliardom ludzi na całym świecie. Patrząc z tej perspektywy, czy zużycie energii przez sieć Bitcoin jest uzasadnione?
 
-### Czy Bitcoin może być netto pozytywny dla środowiska?
+### Czy Bitcoin może mieć pozytywny wpływ na środowisko?
 
-Wreszcie, istotne jest omówienie ekonomicznych i środowiskowych kwestii przyjęcia Bitcoina.
+Istotne jest też omówienie ekonomicznych i środowiskowych kwestii przyjęcia Bitcoina.
 
-Szczególnie w porównaniu z obecnym systemem finansowym. Ten ostatni, ze względu na zachęcanie do nadkonsumpcji i zadłużenia, stwarza poważne problemy. Łatwy dostęp do kredytu, emisja pieniądza przez banki i stosowanie bankowości rezerw cząstkowych to wszystko czynniki, które promują nadmierne zadłużenie, a co za tym idzie, nadkonsumpcję.
+Szczególnie w porównaniu z obecnym systemem finansowym. Ten ostatni, ze względu na zachęcanie do nadkonsumpcji i zadłużenia, stwarza poważne problemy. Łatwy dostęp do kredytu, emisja pieniądza przez banki i stosowanie systemu rezerw cząstkowych to wszystko czynniki, które promują nadmierne zadłużenie, a co za tym idzie, nadkonsumpcję.
 
 ![image](assets/Concept/chapitre13/12.jpeg)
 
-Konieczna jest reforma systemu monetarnego, aby odzwierciedlić rzadkość naszych zasobów poprzez rzadkość naszej waluty. Zachęci to do bardziej odpowiedzialnej konsumpcji i długoterminowej wizji. Przeciwnie, inflacja, poprzez zachęcanie do konsumpcji i inwestycji, ma negatywny długoterminowy wpływ na środowisko.
+Konieczna jest reforma systemu monetarnego tak, aby odzwierciedlić rzadkość naszych zasobów poprzez rzadkość naszej waluty. Zachęci to do bardziej odpowiedzialnej konsumpcji i opracowania długoterminowej wizji. Inflacja działa odwrotnie, zachęcając do konsumpcji i inwestycji i ma negatywny długoterminowy wpływ na środowisko.
 
-Obecny system finansowy jest zgodny z ideami ekonomii keynesowskiej, która, w przeciwieństwie do ekonomii austriackiej, nie bierze pod uwagę czasowych i dynamicznych aspektów sytuacji i zasobów. Innymi słowy, nieograniczona waluta nie może skutecznie odzwierciedlać ograniczonych zasobów naszej planety.
+Obecny system finansowy jest zgodny z ideami keynesizmu które, w przeciwieństwie do szkoły austriackiej, nie biorą pod uwagę czasowych i dynamicznych aspektów sytuacji i zasobów. Innymi słowy, nieograniczona waluta nie może skutecznie odzwierciedlać ograniczonych zasobów naszej planety.
 
 ![image](assets/Concept/chapitre13/2.jpeg)
 
-Politycy, ze względu na ich krótkoterminową wizję i potrzebę wzrostu gospodarczego do ponownego wyboru, nie są w stanie rozwiązać ekologicznych problemów w długim okresie. Przeciwnie, adopcja solidnej waluty, jaką jest Bitcoin, jest potencjalną alternatywą, która mogłaby umocnić ludzi ekonomicznie.
+Politycy, ze względu na swoją krótkoterminową wizję i potrzebę wykazania wzrostu gospodarczego przed ponownymi wyborami, nie są w stanie rozwiązać problemów ekologicznych na dłuższą metę. Przeciwnie, wprowadzenie solidnej waluty, jaką jest Bitcoin, jest potencjalną alternatywą, która mogłaby umocnić sytuację ekonomiczną ludzi.
 
 Płomienie w szybach naftowych, które spalają metan, aby zapobiec zanieczyszczeniu, mogą być gaszone przez górników Bitcoina, co jest korzystne dla środowiska. Bitcoin promuje wykorzystanie zielonej energii. Metan może być przekształcany w elektryczność do zasilania maszyn do kopania, co jest korzystne dla wszystkich.
 
-Technologia Bitcoina jest często niezrozumiana, a krytyka dotycząca jego wpływu na środowisko jest często uproszczona i krótkoterminowa. Te krytyki są często motywowane interesami politycznymi. Bitcoin ma potencjał, aby pomóc w ekologicznej transformacji i przyczynić się do bardziej zielonego świata. Media często rozpowszechniają fałszywe pomysły na temat Bitcoina i ekologii. Więc poświęć czas, aby wyrobić sobie własną opinię. Wszystko jest przejrzyste z Bitcoinem.
+Technologia Bitcoina jest często niezrozumiana, a krytyka dotycząca jego wpływu na środowisko jest często uproszczona, krótkowzroczna i motywowana interesem polityczny. Bitcoin ma potencjał, aby pomóc w transformacji ekologicznej i przyczynić się do stworzenia bardziej zielonego świata. Media często rozpowszechniają fałszywe informacje na temat Bitcoina i ekologii. Więc poświęć czas, aby wyrobić sobie własną opinię. Z Bitcoinem wszystko jest przejrzyste.
 
-> Postępuj zgodnie z jednym z maksym Bitcoina: Nie ufaj, zweryfikuj sam!
+> Postępuj zgodnie z jedną z maksym Bitcoina: Nie ufaj, zweryfikuj sam!
 
 ![Bitcoin & ekologia](assets/posters/fr/14_minage_et_ecologie_crop.png)
 
@@ -845,13 +845,13 @@ Technologia Bitcoina jest często niezrozumiana, a krytyka dotycząca jego wpły
 
 ![podsumowanie rozdziału 3](https://youtu.be/gqILoXTUKdc)
 
-Satoshi Nakamoto wydał protokół Bitcoina w styczniu 2009 roku, który od tego czasu ewoluował dzięki rosnącej społeczności programistów, górników i użytkowników z węzłami Bitcoina. Zachowując własną kopię łańcucha bloków Bitcoina, publicznego rejestru wszystkich transakcji Bitcoina, te węzły mogą zapewnić ważność transakcji zgodnie z zasadami konsensusu Bitcoina. Obejmuje to zapewnienie, że górnicy produkują ważne bloki, które zawierają tysiące oczekujących transakcji.
-Średnio, blok jest tworzony co 10 minut, a górnik, który znajdzie ważny hash dla następnego bloku, jest nagradzany przez protokół nagrodą, której wysokość jest określona przez zasady konsensusu, jak również opłatami transakcyjnymi ze wszystkich transakcji zawartych w ważnym bloku. Ponieważ wynik algorytmu haszującego (SHA256) dla danego wejścia jest uznawany za nieprzewidywalny, proces wydobywania obejmuje budowanie licznych kandydujących bloków i testowanie, czy ich hash jest ważny, czy nie. Jednakże, aby zapewnić, że średni czas między dwoma blokami pozostaje stały (~10 min) niezależnie od liczby górników i ich mocy obliczeniowej, trudność znalezienia ważnego hasha dostosowuje się co 2016 bloków, co około 2 tygodnie. Górnicy z czasem opracowali specjalistyczne maszyny SHA256, zwane ASIC, aby zwiększyć szybkość haszowania na dżul, co oznacza liczbę prób na sekundę i na zużytą energię.
-Aby górnicy mogli być jak najbardziej zyskowni w swojej działalności, muszą uzyskać możliwie najtańszą elektryczność, która często znajduje się w odległych lokalizacjach, w elektrowniach, które nie są jeszcze podłączone do sieci. Górnik działa wtedy jako kupiec ostatniej instancji, i jak tylko cena elektryczności wzrasta z powodu wzrostu popytu, górnik będzie dążył do przeniesienia swojej działalności gdzie indziej.
+Satoshi Nakamoto wydał protokół Bitcoina w styczniu 2009 roku, który od tego czasu ewoluował dzięki rosnącej społeczności programistów, górników i użytkowników z węzłami Bitcoina. Zachowując własną kopię łańcucha bloków Bitcoina, publicznego rejestru wszystkich transakcji Bitcoina, węzły te mogą zapewnić ważność transakcji zgodnie z zasadami konsensusu Bitcoina. Obejmuje to zapewnienie, że górnicy produkują poprawne bloki, które zawierają tysiące oczekujących transakcji.
+Blok jest tworzony średnio co 10 minut, a górnik, który znajdzie ważny hash dla następnego bloku, jest nagradzany przez protokół nagrodą, której wysokość jest określona przez zasady konsensusu, jak również opłatami transakcyjnymi ze wszystkich transakcji zawartych w ważnym bloku. Ponieważ wynik algorytmu haszującego (SHA256) dla danego wejścia jest uznawany za nieprzewidywalny, proces wydobywania obejmuje budowanie licznych kandydujących bloków i testowanie, czy ich hash jest ważny, czy nie. Jednakże, aby zapewnić, że średni czas między dwoma blokami pozostaje stały (~10 min) niezależnie od liczby górników i ich mocy obliczeniowej, trudność znalezienia ważnego hasha dostosowuje się co 2016 bloków, co około 2 tygodnie. Górnicy z czasem opracowali specjalistyczne maszyny SHA256, zwane ASIC, aby zwiększyć szybkość haszowania na dżul, co oznacza liczbę prób na sekundę i na zużytą energię.
+Aby zyski z działalności górników mogły byc jak najwyższe, muszą oni pozyskać możliwie najtańszą elektryczność, która często znajduje się w odległych lokalizacjach, w elektrowniach, które nie są jeszcze podłączone do sieci. Górnik działa wtedy jako kupiec ostatniej instancji, i jak tylko cena elektryczności wzrasta z powodu wzrostu popytu, górnik dąży do przeniesienia swojej działalności gdzie indziej.
 
-Tak więc, protokół Bitcoina jest systemem monetarnym niepodlegającym cenzurze i niezatrzymywalnym, ponieważ każdy komponent protokołu jest rozproszony geograficznie na całym świecie - na przykład, istnieje około 40 000 węzłów Bitcoina na wszystkich kontynentach. Zasady konsensusu Bitcoina są takie, że jest ekonomicznie bardziej opłacalne ich przestrzeganie niż próba ich złamania, i dlatego nie jest wymagane zaufanie między aktorami. Bitcoin nie ma lidera i nie może być zatrzymany. Możliwe jest regulowanie platform wymiany, aby ograniczyć Bitcoina, ale jest to ograniczone pod względem wpływu. Krótko mówiąc, żaden sędzia ani państwo nie może cenzurować ani zatrzymać Bitcoina.
+Tak więc, protokół Bitcoina jest systemem monetarnym niepodlegającym cenzurze i niezatrzymywalnym, ponieważ każdy komponent protokołu jest rozproszony geograficznie po całym świecie - istnieje około 40 000 węzłów Bitcoina na wszystkich kontynentach. Zasady konsensusu Bitcoina są skonstruowane tak, że bardziej opłacalne ekonomicznie jest ich przestrzeganie niż próba ich złamania i dlatego zaufanie między poszczególnymi stronami nie jest wymagane. Bitcoin nie ma lidera i nie może być zatrzymany. Możliwe jest regulowanie platform wymiany, aby ograniczyć Bitcoina, ale ma to ograniczony wpływ na sieć. Krótko mówiąc, żaden sędzia ani państwo nie może cenzurować ani zatrzymać Bitcoina.
 
-# Jak uzyskać Bitcoina?
+# Jak zdobyć Bitcoina?
 
 ## Bitcoin nigdy nie śpi!
 
@@ -863,7 +863,7 @@ Cena Bitcoina często charakteryzuje się znaczną zmiennością. Jej wartość 
 
 > Mówiąc prosto: ludzie kupują wszyscy w tym samym czasie i sprzedają wszyscy w tym samym czasie. Bitcoin nie jest odporny na ludzką naturę.
 
-### Zrozumienie fal adopcji
+### Zrozumienie fal przyjęcia Bitcoina
 
 Rozwój i ewolucja Bitcoina są w dużej mierze związane z różnymi grupami aktorów, którzy stopniowo integrowali jego ekosystem.
 

@@ -1,9 +1,0 @@
-question: Co je Bitcoin?
-answer: Bitcoin je systém elektronické hotovosti peer-to-peer.
-wrong_answers:
-  - Bitcoin je typ fyzické měny.
-  - Bitcoin je centralizovaná digitální měna kontrolovaná jedinou entitou.
-  - Bitcoin je typ akcie nebo dluhopisu.
-explanation: |
-  Jak je uvedeno v bílé knize, Bitcoin je počítačový protokol peer-to-peer, který zavádí měnový systém bez nutnosti důvěřovat třetím stranám.
-reviewed: true

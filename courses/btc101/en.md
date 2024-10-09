@@ -1306,6 +1306,10 @@ This course, as well as all the content on this university, has been offered to 
 <chapterId>585729e2-b0ab-51b5-89ec-593e3ea22c57</chapterId>
 <isCourseReview>true</isCourseReview>
 
+## Final Exam Test
+<chapterId>8129275d-8956-4c2c-8179-dd7f023aee86</chapterId>
+<isCourseExam>true</isCourseExam>
+
 ## Note the training
 <chapterId>44d01865-5c89-55a5-a397-a014960eec0f</chapterId>
 

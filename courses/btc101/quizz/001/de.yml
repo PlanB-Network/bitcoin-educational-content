@@ -1,9 +1,0 @@
-question: Was ist die Rolle der Miner im Bitcoin-Netzwerk?
-answer: Miner sind entscheidend für die Erzeugung neuer Bitcoins und die Sicherung des Bitcoin-Netzwerks.
-wrong_answers:
-  - Miner sind dafür verantwortlich, den Preis von Bitcoin zu regulieren.
-  - Miner sind dafür verantwortlich, Bitcoin-Wallets zu erstellen.
-  - Miner sind dafür verantwortlich, das Bitcoin-Protokoll zu kontrollieren.
-explanation: |
-  Miner spielen eine entscheidende Rolle im Bitcoin-Netzwerk, da sie für die Erzeugung neuer Bitcoins und die Sicherung des Bitcoin-Netzwerks verantwortlich sind, indem sie Strom verbrauchen, um einen Block von Transaktionen zu hashen.
-reviewed: false

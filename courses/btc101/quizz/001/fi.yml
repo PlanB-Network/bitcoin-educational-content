@@ -1,9 +1,0 @@
-question: Mikä on louhijoiden rooli Bitcoin-verkossa?
-answer: Louhijat ovat olennaisen tärkeitä uusien bitcoinien luomisessa ja Bitcoin-verkon turvaamisessa.
-wrong_answers:
-  - Louhijat ovat vastuussa Bitcoinin hinnan säätelystä.
-  - Louhijat ovat vastuussa Bitcoin-lompakoiden luomisesta.
-  - Louhijat ovat vastuussa Bitcoin-protokollan hallinnasta.
-explanation: >-
-  Louhijat ovat keskeisessä roolissa Bitcoin-verkossa, sillä he ovat vastuussa uusien bitcoinien luomisesta ja Bitcoin-verkon turvaamisesta kuluttamalla sähköä transaktioblokin hashaukseen.
-reviewed: false

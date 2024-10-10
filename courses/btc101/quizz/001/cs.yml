@@ -1,9 +1,0 @@
-question: Jaká je role těžařů v síti Bitcoin?
-answer: Těžaři jsou nezbytní pro vytváření nových bitcoinů a zabezpečení sítě Bitcoin.
-wrong_answers:
-  - Těžaři jsou zodpovědní za regulaci ceny Bitcoinu.
-  - Těžaři jsou zodpovědní za vytváření peněženek Bitcoin.
-  - Těžaři jsou zodpovědní za kontrolu protokolu Bitcoin.
-explanation: >-
-  Těžaři hrají klíčovou roli v síti Bitcoin, protože jsou zodpovědní za vytváření nových bitcoinů a zabezpečení sítě Bitcoin spotřebou elektrické energie pro hashování bloku transakcí.
-reviewed: true

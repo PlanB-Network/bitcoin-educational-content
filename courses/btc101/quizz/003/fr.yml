@@ -1,9 +1,0 @@
-question: Quel est l'objectif de ce cours sur le Bitcoin ?
-answer: Discuter des aspects monétaires du Bitcoin, de comment l'utiliser et de son avenir.
-wrong_answers:
-  - Discuter de comment miner du Bitcoin.
-  - Discuter de comment réguler le Bitcoin.
-  - Discuter de comment créer un nouveau protocole Bitcoin.
-explanation: |
-  L'objectif de ce cours sur le Bitcoin est de discuter des aspects monétaires du Bitcoin, y compris comment acheter et vendre des bitcoins, les stocker en toute sécurité dans des portefeuilles numériques et les utiliser pour des transactions. Il vise également à explorer l'avenir du Bitcoin.
-reviewed: false

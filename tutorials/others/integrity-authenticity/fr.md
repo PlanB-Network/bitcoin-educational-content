@@ -44,27 +44,29 @@ brew install gnupg
 
 Pour **Windows**, si vous n'avez pas GPG, vous pouvez installer le logiciel [Gpg4win](https://www.gpg4win.org/).
 
+![GnuPG](assets/notext/01.webp)
+
 ## Téléchargement des documents
 
 Pour commencer, nous allons avoir besoin de différents documents. Rendez-vous sur le site officiel de [Sparrow Wallet dans la section "Download"](https://sparrowwallet.com/download/). Si vous souhaitez vérifier un autre logiciel, rendez-vous sur le site de ce logiciel.
 
-01
+![GnuPG](assets/notext/02.webp)
 
 Vous pouvez également aller [sur le dépôt GitHub du projet](https://github.com/sparrowwallet/sparrow/releases).
 
-02
+![GnuPG](assets/notext/03.webp)
 
 Téléchargez l'installateur du logiciel correspondant à votre système d'exploitation.
 
-03
+![GnuPG](assets/notext/04.webp)
 
 Vous allez également avoir besoin du hash du fichier, souvent appelé "SHA256SUMS" ou "MANIFEST".
 
-04
+![GnuPG](assets/notext/05.webp)
 
 Téléchargez aussi la signature PGP du fichier. C'est le document en `.asc`.
 
-05
+![GnuPG](assets/notext/06.webp)
 
 Assurez-vous de placer tous ces fichiers dans un même dossier pour les étapes suivantes.
 
@@ -74,7 +76,7 @@ Enfin, vous allez avoir besoin de la clé publique du développeur, que l'on va 
 curl https://keybase.io/craigraw/pgp_keys.asc | gpg --import
 ```
 
-06
+![GnuPG](assets/notext/07.webp)
 
 ## Vérification de la signature
 
@@ -86,7 +88,7 @@ gpg --import [key path]
 
 Remplacez `[key path]` par l'emplacement du fichier de la clé publique du développeur.
 
-07
+![GnuPG](assets/notext/08.webp)
 
 Vérifiez la signature avec la commande suivante :
 
@@ -96,11 +98,11 @@ gpg --verify [file.asc]
 
 Remplacez `[file.asc]` par le chemin du fichier de la signature. Dans le cas de Sparrow, ce fichier s'appelle "sparrow-2.0.0-manifest.txt.asc" pour la version 2.0.0.
 
-08
+![GnuPG](assets/notext/09.webp)
 
 Si la signature est valide, GPG va vous l'indiquer. Vous pouvez donc passer à l'étape suivante, car cela confirme l'authenticité du fichier.
 
-09
+![GnuPG](assets/notext/10.webp)
 
 ## Vérification du hash
 
@@ -114,17 +116,17 @@ CertUtil -hashfile [file path] SHA256 | findstr /v "hash"
 
 Remplacez `[file path]` par l'emplacement de l'installateur.
 
-10
+![GnuPG](assets/notext/11.webp)
 
 Le terminal vous renvoie le hachage du logiciel téléchargé.
 
-11
+![GnuPG](assets/notext/12.webp)
 
 Attention, pour certains logiciels, il peut être nécessaire d'utiliser une fonction de hachage différente de SHA256. Dans ce cas, remplacez simplement le nom de la fonction de hachage dans la commande.
 
 Comparez ensuite le résultat avec la valeur correspondante dans le fichier "sparrow-2.0.0-manifest.txt".
 
-12
+![GnuPG](assets/notext/13.webp)
 
 Dans mon cas, on voit que les deux hachages correspondent parfaitement.
 

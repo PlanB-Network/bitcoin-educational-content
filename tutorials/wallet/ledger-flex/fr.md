@@ -60,7 +60,9 @@ Pour ce tutoriel, vous aurez besoin de 2 logiciels : Ledger Live pour initialise
 
 ![LEDGER FLEX](assets/notext/06.webp)
 
-Nous vous proposerons prochainement un tutoriel pour savoir comment vérifier l'authenticité et l'intégrité d'un logiciel que vous téléchargez. Je vous conseille vivement de le faire ici pour Ledger Live et Sparrow.
+Pour ces deux logiciels, je vous recommande fortement de vérifier à la fois leur authenticité (avec GnuPG) et leur intégrité (via le hash) avant de les installer sur votre machine. Si vous ne savez pas comment le faire, vous pouvez suivre cet autre tutoriel :
+
+https://planb.network/tutorials/others/integrity-authenticity
 
 ## Comment initialiser un Ledger Flex avec Ledger Live ?
 

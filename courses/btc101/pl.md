@@ -857,77 +857,77 @@ Tak więc, protokół Bitcoina jest systemem monetarnym niepodlegającym cenzurz
 
 ![Bitcoin nigdy nie śpi](https://youtu.be/7535MAeHzxM)
 
-Cena Bitcoina często charakteryzuje się znaczną zmiennością. Jej wartość może znacznie fluktuować w zależności od zmian rynkowych i faz rynku byka i niedźwiedzia. Jest to obecne w 100% rynków finansowych, włączając w to Bitcoin.
+Cena Bitcoina często charakteryzuje się znaczną zmiennością. Jej wartość może znacznie fluktuować w zależności od zmian rynkowych i faz rynku byka i niedźwiedzia. Jest to charakterystyczne dla 100% rynków finansowych, włączając w to Bitcoina.
 
 ![obraz](assets/Concept/chapitre14/2.jpg)
 
-> Mówiąc prosto: ludzie kupują wszyscy w tym samym czasie i sprzedają wszyscy w tym samym czasie. Bitcoin nie jest odporny na ludzką naturę.
+> Mówiąc prosto: wszyscy ludzie kupują w tym samym czasie i sprzedają w tym samym czasie. Bitcoin nie jest odporny na ludzką naturę.
 
 ### Zrozumienie fal przyjęcia Bitcoina
 
-Rozwój i ewolucja Bitcoina są w dużej mierze związane z różnymi grupami aktorów, którzy stopniowo integrowali jego ekosystem.
+Rozwój i ewolucja Bitcoina są w dużej mierze związane z różnymi grupami osób, które stopniowo integrowały jego ekosystem.
 
 ![obraz](assets/Concept/chapitre14/1.png)
 
 - Wierzący:
 
-Wczesni użytkownicy Bitcoina to głównie technofile, cypherpunki, libertarianie i entuzjaści złota. Te grupy były przyciągane do Bitcoina ze względu na jego zdolność do oferowania rozwiązań takich jak bezzaufaniowa elektroniczna gotówka, odporność na cenzurę, czy przejrzysta i niezmienialna polityka monetarna.
+Wczesni użytkownicy Bitcoina to głównie technofile, cypherpunki, libertarianie i entuzjaści złota. Bitcoin przyciągał te grupy ze względu na jego zdolność do oferowania rozwiązań takich jak elektroniczna gotówka bez konieczności ufania stronom trzecim, odporność na cenzurę, czy przejrzysta i niezmienialna polityka monetarna.
 
 - Dark web & przestępcy
 
-Następnie, użycie Bitcoina rozszerzyło się na rynki dark webu, takie jak Silk Road, ze względu na jego niekontrolowaną i pseudonimową naturę. Ta strona zwróciła uwagę na niekontrolowaną i pseudonimową naturę Bitcoina, co skłoniło niektórych przestępczych aktorów do jego użycia. Należy jednak zauważyć, że to użycie narzędzia, a nie samo narzędzie, określa jego legalność lub nielegalność. Należy zauważyć, że nielegalne użycie Bitcoina samo w sobie nie czyni osoby przestępcą. To użycie, a nie narzędzie, może być klasyfikowane jako nielegalne. Na przykład, użycie Bitcoina do takich działań jak zakup pewnych narkotyków może być legalne lub nielegalne w zależności od regulacji terytorium, na którym działalność ma miejsce.
+Następnie, użycie Bitcoina rozszerzyło się na rynki dark webu, takie jak Silk Road, ze względu na jego niekontrolowaną i pseudonimową naturę. Ta strona skierowała uwagę na niekontrolowaną i pseudonimową naturę Bitcoina, co skłoniło niektórych przestępców do jego użycia. Należy jednak zauważyć, że to sposób użycia narzędzia, a nie samo narzędzie, określa jego legalność lub nielegalność. Nielegalne użycie Bitcoina samo w sobie nie czyni z nikogo przestępcy. To użycie, a nie narzędzie, może być klasyfikowane jako nielegalne. Na przykład, użycie Bitcoina do takich działań jak zakup pewnych narkotyków może być legalne lub nielegalne w zależności od regulacji terytorium, na którym taka działalność ma miejsce.
 - Szaleństwo ICO i przybycie ogółu społeczeństwa.
-Rok 2017 był oznaczony znaczącą bańką spekulacyjną w świecie kryptowalut, szczególnie z uruchomieniem tysięcy Pierwszych Ofert Monet (ICO). Jednak wiele z tych nowych kryptowalut nie miało konkretnego rozwoju ani użyteczności i szybko zniknęło. Bańka z 2017 roku została następnie śledzona przez silną korektę w latach 2018-2019.
+Rok 2017 to duża bańka spekulacyjna w świecie kryptowalut, szczególnie jeśli chodzi o uruchomienie tysięcy ICO (ang. Initial Coin Offering/ICO, czyli pierwsza publiczna oferta konkretnego tokena lub kryptowaluty, jest to metoda pozyskiwania kapitału w celu finansowania przedsięwzięcia, przyp. tłum.). Jednak wiele z tych nowych kryptowalut nie miało konkretnego zastosowania ani planu rozwoju i szybko zniknęło. Po bańce z 2017 roku nastąpiła silna korekta w latach 2018-2019.
 
 - Bańka NFT i DeFi
 
-Następnie, w 2020 roku, rynek doświadczył kolejnej bańki spekulacyjnej, która podniosła cenę Bitcoina do 60 000 dolarów. Ta bańka wyróżnia się od poprzednich większym zróżnicowaniem inwestorów, w tym instytucji finansowych i dużych firm. Ale ponownie, silne korekty mają miejsce, gdy euforia opada.
+Następnie, w 2020 roku, rynek doświadczył kolejnej bańki spekulacyjnej, która podniosła cenę Bitcoina do 60 000 dolarów. Ta bańka różni się od poprzednich większym zróżnicowaniem inwestorów, w tym instytucji finansowych i dużych firm. Ale ponownie, gdy euforia opada, nastepują silne korekty.
 
 ### Bitcoin i zmienność
 
-Na podstawie poprzednich cykli, wydaje się, że okresowość cykli ekonomicznych Bitcoina jest równoważna czasowi między dwoma halvingami. Być może dlatego, że wydarzenie halvingu działa jako katalizator, redukując emisję nowych bitcoinów o połowę.
+Wnioskując na podstawie poprzednich cykli, wydaje się, że okresowość cykli ekonomicznych Bitcoina jest równoważna czasowi między dwoma halvingami. Być może dlatego, że wydarzenie halvingu działa jak katalizator, redukując emisję nowych bitcoinów o połowę.
 
-Te znaczące fluktuacje stworzyły reputację Bitcoina jako niezwykle niebezpiecznego aktywa, które powoduje, że jego użytkownicy tracą pieniądze. Chociaż cena może spaść o 10-20, a nawet 50% w ciągu kilku dni, ważne jest zrozumienie, że protokół Bitcoina nie jest dotknięty zmianami cen.
+Te znaczące fluktuacje wpłyneły na reputację Bitcoina jako niezwykle niebezpiecznego aktywa, które powoduje, że jego użytkownicy tracą pieniądze. Chociaż cena może spaść o 10-20, a nawet 50% w ciągu kilku dni, ważne jest zrozumienie, że protokół Bitcoina nie jest dotknięty zmianami cen.
 
-Ta znacząca zmienność jest dzisiaj w pełni akceptowana przez uczestników Bitcoina i może być łagodzona przez kilka rozwiązań, takich jak zabezpieczenia finansowe (stablecoiny), silne długoterminowe przekonanie (hodling) lub po prostu nie inwestowanie 100% swoich pieniędzy w Bitcoina bez zrozumienia. Zrozumienie, dlaczego cena Bitcoina tak bardzo fluktuuje, jest zatem kluczowe, aby móc rozwijać się w tej branży, ponieważ ostatecznie to cena i cykle, które w pewnym stopniu temperują i regulują nasz rynek. Możemy jednak zauważyć, że w miarę wzrostu i dojrzewania Bitcoina, zmienność staje się mniej znacząca.
+Ta znacząca zmienność jest dzisiaj w pełni akceptowana przez użytkowników Bitcoina i może być łagodzona przez kilka rozwiązań, takich jak zabezpieczenia finansowe (stablecoiny), długoterminowe oszczędzanie (hodling) lub po prostu nie inwestowanie 100% swoich pieniędzy w Bitcoina bez zrozumienia, czym on jest. Zrozumienie, dlaczego cena Bitcoina tak bardzo fluktuuje, jest zatem kluczowe, aby móc rozwijać się w tej branży, ponieważ ostatecznie to cena i cykle, które w pewnym stopniu temperują i regulują nasz rynek. Możemy jednak zauważyć, że w miarę wzrostu i dojrzewania Bitcoina, jego zmienność staje się mniej znacząca.
 
 ![image](assets/Concept/chapitre14/5.png)
 
-Chociaż para btc/dolar fluktuuje w krótkim terminie, Bitcoin, ze względu na swoją ograniczoną ilość 21 milionów bitcoinów i proces halvingu (redukcja tworzenia pieniądza co średnio 4 lata), podąża za ogólnym trendem wzrostowym w sposób niemal mechaniczny. Oczywiście, jak każdy aktyw finansowy, Bitcoin podlega cyklom ekonomicznym, w tym okresom euforii, bańkom spekulacyjnym i korektom. To zjawisko jest dość powszechne w nowych technologiach, gdzie rynek nie zawsze jest racjonalny lub efektywny.
+Chociaż para btc/dolar fluktuuje w krótkich okresach czasu to Bitcoin, ze względu na swoją ograniczoną ilość 21 milionów bitcoinów i proces halvingu (redukcja tworzenia pieniądza co średnio 4 lata), podąża za ogólnym trendem wzrostowym w sposób niemal mechaniczny. Oczywiście, jak każdy aktyw finansowy, Bitcoin podlega cyklom ekonomicznym, w tym okresom euforii, bańkom spekulacyjnym i korektom. To zjawisko jest dość powszechne w nowych technologiach, gdzie rynek nie zawsze jest racjonalny lub efektywny.
 
 ### Unikalny rynek
 
-Te cykle bańki spekulacyjnej są dość unikalne na świecie, ponieważ bardzo rzadko zdarza się, aby ten sam aktyw doświadczał tylu bańek jeden po drugim. Można to wytłumaczyć po prostu tym, że Bitcoin nie jest bańką, która zniknie, ale walutą, która jest faktycznie używana wszędzie na świecie. Protokół Bitcoina jest unikalny, ponieważ działa na skalę globalną, 24 godziny na dobę, 7 dni w tygodniu, co utrudnia regulację przez władze finansowe.
+Te cykle bańki spekulacyjnej są dość unikalne na świecie, ponieważ bardzo rzadko zdarza się, aby ten sam aktyw doświadczał tylu bańek jedna po drugiej. Można to wytłumaczyć po prostu tym, że Bitcoin nie jest bańką, która zniknie, ale walutą, która jest faktycznie używana wszędzie na świecie. Protokół Bitcoina jest unikalny, ponieważ działa na skalę globalną, 24 godziny na dobę, 7 dni w tygodniu, co utrudnia regulację przez władze finansowe.
 
 ![image](assets/Concept/chapitre14/4.png)
 
-Dzisiaj, w 2023 roku, Bitcoin nadal przetrwa i rośnie jeszcze bardziej, integrując się coraz bardziej z tradycyjnym rynkiem. Nadchodzące pojawienie się ETF-ów Bitcoina, jaśniejsza regulacja i lepsze narzędzia do nabycia lub przechowywania tylko zachęcają do tego trendu. Bitcoin PRZETRWAŁ JESZCZE RAZ swoją bańkę spekulacyjną, więc może to nie jest tylko gorące powietrze!
+Dzisiaj, w 2023 roku, Bitcoin nadal istnieje i rośnie jeszcze bardziej, integrując się coraz bardziej z tradycyjnym rynkiem. Nadchodzące pojawienie się ETF-ów Bitcoina, jaśniejsza regulacja i lepsze narzędzia do jego nabywania lub przechowywania tylko wzmacniają ten trend. Bitcoin RAZ JESZCZE PRZETRWAŁ swoją bańkę spekulacyjną, więc może to nie jest tylko gorące powietrze!
 
 ![image](assets/Concept/chapitre14/3.png)
 
-## Uzyskiwanie bitcoinów przez pracę
+## Pozyskiwanie bitcoinów przez pracę
 
-![uzyskiwanie bitcoinów przez pracę](https://youtu.be/sHkadVRUQF8)
+![Pozyskiwanie bitcoinów przez pracę](https://youtu.be/sHkadVRUQF8)
 
 ### Rozwija się równoległa gospodarka
-Bitcoin można postrzegać jako równoległą gospodarkę do walut fiducjarnych. Oznacza to, że możliwa jest sprzedaż towarów lub usług i otrzymywanie zapłaty w Bitcoinach. Transakcje mogą być przeprowadzane bezpośrednio w Bitcoinach, bez potrzeby korzystania z platformy wymiany, po prostu z portfela Bitcoin do portfela Bitcoin.
-Gospodarka Bitcoin istnieje i rozwija się w niektórych regionach świata, takich jak Salwador, gdzie Bitcoin jest środkiem płatniczym od 2021 roku. Ponadto niektóre osoby, firmy i organizacje już akceptują Bitcoiny jako środek płatności za swoje produkty lub usługi.
+Bitcoina można postrzegać jako gospodarkę równoległą do walut fiducjarnych. Oznacza to, że możliwa jest sprzedaż towarów lub usług i otrzymywanie zapłaty w Bitcoinach. Transakcje mogą być przeprowadzane bezpośrednio w Bitcoinach, bez potrzeby korzystania z platformy wymiany, po prostu z portfela Bitcoin do portfela Bitcoin.
+Gospodarka Bitcoina istnieje i rozwija się w niektórych regionach świata, takich jak Salwador, gdzie Bitcoin jest oficjalnym środkiem płatniczym od 2021 roku. Ponadto niektóre osoby, firmy i organizacje już akceptują Bitcoiny jako środek płatności za swoje produkty lub usługi.
 
 ![image](assets/Concept/chapitre16/6.png)
 
-Dodatkowo, aby ułatwić korzystanie z Bitcoinów w codziennych transakcjach, uruchomiono projekt open-source i współpracujący: BTCMap (https://btcmap.org/map#2/21.28937/5.46680). Ta platforma wymienia wszystkich sprzedawców, którzy akceptują Bitcoiny, oraz różne społeczności Bitcoin na całym świecie. Możesz odwiedzić ich stronę internetową, aby odkryć ekosystem Bitcoin wokół siebie. Tak więc, pomimo trudności i wahania, istnieją inicjatywy takie jak BTCMap, które przyczyniają się do uczynienia gospodarki Bitcoin bardziej dostępną i wygodną dla wszystkich.
+Dodatkowo, aby ułatwić korzystanie z Bitcoinów w codziennych transakcjach, uruchomiono projekt open-source oparty na współpracy: BTCMap (https://btcmap.org/map#2/21.28937/5.46680). Ta platforma pokazuje wszystkich sprzedawców, którzy akceptują Bitcoiny, oraz różne społeczności Bitcoina na całym świecie. Możesz odwiedzić ich stronę internetową, aby odkryć ekosystem Bitcoina wokół siebie. Tak więc, pomimo trudności i wahania, istnieją inicjatywy takie jak BTCMap, które przyczyniają się do uczynienia gospodarki Bitcoina bardziej dostępną i wygodną dla wszystkich.
 
 ### Dlaczego akceptować Bitcoiny zamiast je kupować?
 
-Aby uzyskać bitcoiny, możesz je kupić na platformach regulowanych przez organizacje takie jak AMF (Autorité des Marchés Financiers) we Francji. Ta metoda wiąże się z pewnymi ryzykami i możliwością śledzenia twoich transakcji. Inną metodą uzyskania bitcoinów jest akceptowanie ich jako środka płatności za produkty lub usługi, które oferujesz. Ta metoda pozwala zdobyć bitcoiny poprzez twoją pracę, bez ciągłego martwienia się o cenę Bitcoina.
+Aby uzyskać bitcoiny, możesz je kupić na platformach regulowanych przez organizacje takie jak AMF (Autorité des Marchés Financiers) we Francji. Ta metoda wiąże się z pewnym ryzykiem i możliwością śledzenia twoich transakcji. Inną metodą uzyskania bitcoinów jest akceptowanie ich jako środka płatności za produkty lub usługi, które oferujesz. Ta metoda pozwala zdobyć bitcoiny w zamian za twoją pracę, bez ciągłego martwienia się o cenę Bitcoina.
 
-Ponadto, akceptowanie Bitcoin jako sprzedawca ma kilka zalet, w tym odporność na cenzurę, zmniejszone opłaty transakcyjne, zwiększoną efektywność, ochronę przed inflacją, a także finansową wolność i suwerenność.
+Ponadto, akceptowanie Bitcoin od klientów ma kilka zalet, w tym odporność na cenzurę, zmniejszone opłaty transakcyjne, zwiększoną efektywność, ochronę przed inflacją, a także wolność i suwerenność finansową.
 
 ![image](assets/Concept/chapitre16/3.png)
 
-### Jak postępować:
+### Jak to zrobić:
 
-Aby akceptować Bitcoiny, konieczne jest zbadanie różnych dostępnych rozwiązań i wybranie tego, które najlepiej pasuje do twojego biznesu. Nie ma idealnego rozwiązania, i kilka czynników musi być wziętych pod uwagę przy dokonywaniu wyboru, takich jak oczekiwana objętość transakcji, przydzielony budżet i typ biznesu (online lub fizyczny).
+Aby akceptować Bitcoiny, konieczne jest zbadanie różnych dostępnych rozwiązań i wybranie tego, które najlepiej pasuje do twojego biznesu. Nie ma idealnego rozwiązania i przy dokonywaniu wyboru musi być wziętych pod uwagę kilka czynników takich, jak oczekiwana ilość transakcji, przydzielony budżet i typ biznesu (online lub fizyczny).
 
 Omówimy ten temat szczegółowo w innym szkoleniu, ale aby to uprościć, możemy rozważyć kilka kategorii biznesów i związanych z nimi rozwiązań:
 
@@ -941,9 +941,9 @@ Omówimy ten temat szczegółowo w innym szkoleniu, ale aby to uprościć, może
 
 ### Ostrzeżenie przed rozpoczęciem!
 
-Bitcoin stał się głównym aktywem finansowym, głównie ze względu na jego ograniczoną podaż i rosnące zapotrzebowanie. Jednakże, kupowanie Bitcoinów wiąże się z ryzykiem, które wymaga szczególnej uwagi. Dlatego zaleca się przeprowadzenie własnych badań i dowiedzenie się więcej na temat tematu, aby zapoznać się z technologią przed inwestowaniem.
+Bitcoin stał się głównym aktywem finansowym, głównie ze względu na jego ograniczoną podaż i rosnące zapotrzebowanie. Jednakże kupowanie Bitcoinów wiąże się z ryzykiem, które wymaga szczególnej uwagi. Dlatego zaleca się sprawdzenie wszystkich informacji we własnych zakresie i dowiedzenie się więcej na ten temat, aby zapoznać się z technologią przed zainwestowaniem w nią.
 
-- Inwestuj tylko tyle, na ile możesz sobie pozwolić stracić.
+- Inwestuj tylko tyle, ile możesz sobie pozwolić stracić.
 - Bitcoin jest wysoce zmiennym aktywem finansowym; jego cena może spaść do 0.
 - Wyniki z przeszłości nie są gwarancją wyników w przyszłości.
 - W razie potrzeby skontaktuj się z doradcą finansowym.
@@ -954,16 +954,16 @@ Bitcoin stał się głównym aktywem finansowym, głównie ze względu na jego o
 
 Zanim zanurkujesz w kupno Bitcoinów, upewnij się, że masz:
 
-- Bezpieczny portfel.
+- Bezpieczny portfel Bitcoina.
 - Solidne zrozumienie Bitcoina.
-- Plan oszczędności do śledzenia.
+- Plan oszczędzania.
 - Długoterminową wizję.
 
-Jeśli temat jest nadal niejasny, wiedz, że kurs BTC102 poprowadzi cię przez zabezpieczanie i zdobywanie twoich pierwszych bitcoinów. Tutaj tylko muskamy powierzchnię tematu.
+Jeśli ten temat nadal jest niejasny, kurs BTC102 poprowadzi cię przez zabezpieczanie i zdobywanie twoich pierwszych bitcoinów. Tutaj tylko muskamy powierzchnię tematu.
 
-W praktyce, są dwie pytania, które powinieneś sobie zadać:
+W praktyce, są dwa pytania, które powinieneś sobie zadać:
 - Jaką strategię nabywania przyjąć: stopniowo czy wszystko naraz?
-- Którą platformę użyć: regulowaną czy nieregulowaną?
+- Której platformy używać: regulowanej czy nieregulowanej?
 
 ### Strategie nabywania
 
@@ -977,73 +977,73 @@ Cykliczne zakupy polegają na kupowaniu małych ilości Bitcoina w regularnych o
 
 - Zakup spontaniczny
 
-Zakup spontaniczny jest używany do natychmiastowego uzyskania ekspozycji na Bitcoina. Niezależnie od tego, czy jest to zakup podczas krachu, czy korzystanie z bonusu, decyzja należy do Ciebie. Musisz zebrać odwagę i nacisnąć przycisk kupna.
+Zakup spontaniczny jest używany do natychmiastowego uzyskania dostepu do Bitcoina. Niezależnie od tego, czy jest to zakup podczas krachu, czy sposób na wydanie bonusu, decyzja należy do Ciebie. Musisz zebrać odwagę i nacisnąć przycisk kupna.
 
-Biorąc pod uwagę znaczną zmienność Bitcoina, szczególną uwagę należy zwrócić na swoje emocje. FOMO (Fear of Missing Out) i FUD (Fear, Uncertainty, Doubt) są twoimi najgorszymi wrogami w tym kontekście! Zachowaj spokój i postępuj zgodnie z wcześniej ustaloną strategią, aby uniknąć impulsywnych i potencjalnie szkodliwych decyzji.
+Biorąc pod uwagę znaczną zmienność Bitcoina, szczególną uwagę należy zwrócić na swoje emocje. FOMO (ang. Fear of Missing Out, obawa przed nie skorzystaniem z okazji, przyp. tłum.) i FUD (ang. Fear, Uncertainty, Doubt, strach, niepewność i zwątpienie, przyp. tłum.) są twoimi najgorszymi wrogami w tym kontekście! Zachowaj spokój i postępuj zgodnie z wcześniej ustaloną strategią, aby uniknąć impulsywnych i potencjalnie szkodliwych decyzji.
 
 ### Od kogo powinniśmy kupować nasze Bitcoiny?
 
-Istnieje kilka sposobów na nabycie Bitcoinów, każdy z własnymi regulacjami. Niektóre platformy wymagają identyfikacji do weryfikacji, podczas gdy inne nie. Kluczowe jest zrozumienie regulacji związanych z każdą platformą.
+Istnieje kilka sposobów nabycia Bitcoinów, każdy z własnymi regulacjami. Niektóre platformy wymagają identyfikacji klienta do weryfikacji transakcji, inne nie. Kluczowe jest zrozumienie regulacji związanych z każdą platformą.
 
 - Platformy DCA
 
-Powszechną metodą akumulacji Bitcoinów jest Średni Koszt Dolarowy (DCA), który polega na regularnym inwestowaniu małych kwot. Kilka platform oferuje tę usługę, takich jak te wymienione na naszej [poświęconej stronie](https://sovereignuniversity.org/tutorials/exchange). Oprócz prostoty ustawienia DCA, wypłaty do twojego portfela są zazwyczaj automatyczne, co oznacza, że zawsze będziesz miał kontrolę nad swoimi aktywami.
+Powszechną metodą akumulacji Bitcoinów jest Średni Koszt Dolarowy (DCA), który polega na regularnym inwestowaniu małych kwot. Kilka platform oferuje tę usługę, są one wymienione na naszej [poświęconej temu stronie](https://sovereignuniversity.org/tutorials/exchange). DCA są łatwe do ustawienia, a wypłaty do twojego portfela są zazwyczaj automatyczne, co oznacza, że zawsze będziesz mieć kontrolę nad swoimi aktywami.
 
-Dzisiaj, prawie wszystkie rozwiązania DCA są stosunkowo efektywne i mają prawie identyczne opłaty, więc wybór będzie bardziej zależał od dostępności w twoim kraju.
+Dzisiaj prawie wszystkie rozwiązania DCA są stosunkowo efektywne i mają prawie identyczne opłaty, więc wybór będzie bardziej zależał od dostępności usługi w twoim kraju.
 
 - Platformy brokerskie
 
-Dla inwestycji na dużą skalę zalecane są regulowane i uznane platformy takie jak Kraken, Bitstamp i Paymium. Te platformy oferują bezpieczne i pewne środowisko dla transakcji o wysokiej wartości.
+Dla inwestycji na dużą skalę zalecane są regulowane i uznane platformy takie jak Kraken, Bitstamp i Paymium. Platformy te oferują bezpieczne i pewne środowisko dla transakcji o wysokiej wartości.
 
 Ich używanie jest proste i dostępne dla każdego:
 
 1. Ustaw konto KYC/\*
 2. Przelej środki na swoje konto
-3. Kup Bitcoin
-4. Wypłać Bitcoin do swojego portfela
+3. Kup Bitcoiny
+4. Wypłać Bitcoiny do swojego portfela
 
 ![obraz](assets/Concept/chapitre15/1.png)
 
-Po zakupie zaleca się natychmiastowe wypłacenie Bitcoinów z platform wymiany, aby zminimalizować ryzyko hackingu i blokowania funduszy. Opłaty za wypłatę mogą być wysokie, czasami sięgające do 25 euro w zależności od platformy.
+Po zakupie zaleca się natychmiastowe wypłacenie Bitcoinów z platform wymiany, aby zminimalizować ryzyko hackingu i blokowania funduszy. Opłaty za wypłatę mogą być wysokie, czasami sięgające 25 euro w zależności od platformy.
 
-> Regulacje Know Your Customer (KYC) wymagają od użytkowników dostarczenia identyfikacji w celu zwalczania finansowania terroryzmu, unikania podatków i prania pieniędzy.
+> Regulacje Know Your Customer (KYC, ang. znaj swojego klienta, przyp. tłum.) wymagają od użytkowników identyfikacji tożsamości w celu zwalczania finansowania terroryzmu, unikania płacenia podatków i prania pieniędzy.
 
-Ważne jest, aby zauważyć, że KYC jest ważnym tematem w naszej branży, ponieważ jego skuteczność pozostaje łatwa do podważenia, podczas gdy jego negatywne aspekty są liczne. W wielu programach szkoleniowych i treściach naszej uczelni radzimy przeciwko używaniu platform pełnego KYC, jeśli jesteś już zaawansowanym użytkownikiem.
+Warto wspomnieć, że KYC jest ważnym tematem w naszej branży, ponieważ jego skuteczność jest łatwa do podważenia podczas, gdy jego negatywne aspekty są liczne. W wielu programach szkoleniowych naszej akademii radzimy nie używać platform KYC, jeśli jesteś już zaawansowanym użytkownikiem.
 
-### Rozwiązanie bez KYC
+### Rozwiązania bez KYC
 
-Ponadto, istnieje kilka [marketplace'ów](https://sovereignuniversity.org/tutorials/exchange) do kupowania i sprzedawania bitcoinów peer-to-peer. Jeśli jesteś zainteresowany tymi, możesz wziąć nasz kurs BTC 205 na ten temat. Ogólnie rzecz biorąc, te rozwiązania to:
+Ponadto, istnieje kilka [marketplace'ów](https://sovereignuniversity.org/tutorials/exchange) do kupowania i sprzedawania bitcoinów peer-to-peer. Jeśli jesteś tym zainteresowany, możesz wziąć udział w naszym kursie BTC 205. Ogólnie rzecz biorąc, te rozwiązania to:
 
 - Bitomaty Bitcoin
 - Fizyczne spotkania z innymi entuzjastami bitcoina
 - Nielegalne i nieregulowane platformy
-- Rozwiązania do łączenia peer-to-peer
+- Rozwiązania do łączenia użytkowników peer-to-peer
 - Neobanki działające w przyjaznych dla Bitcoina krajach.
-Ważne jest również zauważenie, że w twojej jurysdykcji mogą być wprowadzone podatki. Zachęcamy do konsultacji z przepisami twojego kraju przed podjęciem jakichkolwiek działań, które mogą cię narazić na ryzyko.
+Ważne jest również zwrócenie uwagi, że w twojej jurysdykcji mogą być wprowadzone podatki. Zachęcamy do sprawdzenia przepisów twojego kraju przed podjęciem jakichkolwiek działań, które mogą cię narazić na ryzyko.
 
-## Hyper-bitcoinizacja
+## Hiperbitcoinizacja
 
 ![hyper-bitcoinizacja](https://youtu.be/lLxndxrzXR0)
 
 ### Dzika gonitwa dopiero się zaczyna!
 
-Jak każda nowa technologia, adopcja Bitcoina podąża za krzywą S. Przekroczyliśmy erę wczesnych użytkowników, a wskaźniki zdają się wskazywać na pełną demokratyzację Bitcoina. Jest to technologia wirusowa, której nie można zatrzymać. Salwador podjął śmiałe ryzyko przyjęcia Bitcoina w całości, deklarując go jako środek płatniczy. Jednak każdy kraj reaguje na tę technologię inaczej. Niektóre zakazały i kryminalizowały jego użycie, co dodaje złożoności do adopcji Bitcoina w zależności od kultur, epok i narodów.
+Tak, jak powszechne przyjęcie każdej nowej technologii, przyjęcie Bitcoina można przedstawić w formie funkcji krzywej S. Przekroczyliśmy erę wczesnych użytkowników, a wskaźniki zdają się wskazywać na pełną demokratyzację Bitcoina. Jest to technologia wirusowa, której nie można zatrzymać. Salwador podjął śmiałe ryzyko przyjęcia Bitcoina w całości, deklarując go oficjalnym środkiem płatniczym. Jednak każdy kraj reaguje na tę technologię inaczej. Niektóre zakazały go i skryminalizowały jego użycie, co dodaje złożoności przyjęciu Bitcoina w zależności od kultur, epok i narodów.
 
 ![image](assets/Concept/chapitre17/2.png)
 
-Wzrost Bitcoina zmusza firmy, uniwersytety, regulatorów i osoby prywatne do uwzględnienia tej nowej technologii. Muszą powstać nowe narzędzia, usługi muszą być dostosowane, a innowacje muszą kontynuować, aby zapewnić ich przetrwanie. Ten kontekst rodzi wiele pytań związanych z różnymi dziedzinami, w tym kryptografią, teorią gier, ekonomią i polityką monetarną, informatyką, filozofią, energią, prawem i regulacjami. Krótko mówiąc, Bitcoin jest obiektem wielodyscyplinarnym.
+Rozwój Bitcoina zmusza firmy, uniwersytety, regulatorów i osoby prywatne do uwzględnienia tej nowej technologii. Muszą tworzyć nowe narzędzia, dostosowywać swoje usługi i kontynuować rozwój, aby zapewnić swoje przetrwanie. Ten kontekst rodzi wiele pytań związanych z różnymi dziedzinami, w tym kryptografią, teorią gier, ekonomią i polityką monetarną, informatyką, filozofią, energią, prawem i regulacjami. Krótko mówiąc, Bitcoin jest obiektem wielodyscyplinarnym.
 
 ![image](assets/Concept/chapitre17/1.png)
 
 ### Bitcoin to przejście od 0 do 1
 
-Zapraszamy do refleksji nad tą nową rewolucją monetarną. Jest tak wiele do odkrycia z Bitcoinem, że trudno jest przyswoić wszystko naraz. Weź swój czas, Bitcoin nie zniknie. Wręcz przeciwnie, rewolucja dopiero się zaczęła. Razem wierzymy, że jesteśmy zdolni stworzyć świat, który chcemy powierzyć naszym dzieciom. Świat, w którym suwerenność człowieka jest prawem, prywatność jest domyślnie szanowana, a pieniądz nie jest manipulowany. Mamy nadzieję, że razem osiągniemy to.
+Zapraszamy do refleksji nad tą nową rewolucją monetarną. Jest tak wiele do odkrycia, że trudno jest przyswoić wszystko naraz. Nie spiesz się, Bitcoin nie zniknie. Wręcz przeciwnie, rewolucja dopiero się zaczęła. Wierzymy, że razem jesteśmy zdolni stworzyć świat, który chcemy przekazać naszym dzieciom. Świat, w którym suwerenność człowieka jest prawem, prywatność jest domyślnie szanowana, a pieniądzem się nie manipuluje. Mamy nadzieję, że razem osiągniemy ten cel.
 
 ![image](assets/Concept/chapitre17/3.png)
 
-Jeśli chcesz poszerzyć swoją wiedzę na temat Bitcoina, wielu autorów, myślicieli i eseistów przyczyniło się do edukacyjnej warstwy Bitcoina. Przez ostatnie kilka lat zbieraliśmy i kategoryzowaliśmy te prace, aby zaoferować [bibliotekę zasobów](https://sovereignuniversity.org/resources) najbardziej ciekawskim wśród was. Znajdziesz tam najlepsze podcasty, strony internetowe, artykuły, poradniki, książki i inne treści.
+Jeśli chcesz poszerzyć swoją wiedzę na temat Bitcoina, wielu autorów, myślicieli i eseistów przyczyniło się do powstania edukacyjnej warstwy Bitcoina. Przez ostatnich kilka lat zbieraliśmy i kategoryzowaliśmy te prace, aby najbardziej ciekawskim wśród was zaoferować [bibliotekę zasobów](https://sovereignuniversity.org/resources). Znajdziesz tam najlepsze podcasty, strony internetowe, artykuły, poradniki, książki i inne treści.
 
-> Milton Friedman, renomowany ekonomista, przewidział w 1999 roku: "Myślę, że Internet będzie jedną z głównych sił zmniejszających rolę rządu. Jedyną rzeczą, której brakuje, ale która wkrótce zostanie opracowana, jest niezawodna e-gotówka - metoda, dzięki której w Internecie można przesyłać fundusze z A do B bez A wiedząc B lub B wiedząc A."
+> Milton Friedman, renomowany ekonomista, przewidział w 1999 roku: "Myślę, że Internet będzie jedną z głównych sił zmniejszających rolę rządu. Jedyną rzeczą, której brakuje, ale która wkrótce zostanie opracowana, jest niezawodna e-gotówka - metoda, dzięki której w Internecie można przesyłać fundusze od A do B, przy czym A i B nie muszą znac siebie nawzajem."
 
 # Przyszłość Bitcoina: Sieć Lightning
 
@@ -1059,15 +1059,15 @@ Sieć Lightning to rewolucyjna technologia, która głęboko zmieniła nasze pos
 
 Aby w pełni zrozumieć Sieć Lightning, kluczowe jest zrozumienie, jak ewoluuje Bitcoin. Bitcoin rozwija się w warstwach infrastruktury: pierwsza warstwa to blockchain, a druga warstwa to Sieć Lightning.
 ![obraz](assets/Concept/chapitre18/6.png)
-Rozpoznany jako warstwa Bitcoina, Lightning Network został zweryfikowany i wdrożony w 2017 roku. Umożliwia natychmiastowe transakcje Bitcoin o niskim koszcie, rozwiązując tym samym problem skalowalności Bitcoina. Ale czym jest ten problem skalowalności, z którym Bitcoin się mierzy?
+Zaakceptowany jako warstwa Bitcoina, sieć Lightning została zweryfikowana i wdrożona w 2017 roku. Umożliwia dokonywanie natychmiastowych transakcji Bitcoin o niskim koszcie, rozwiązując tym samym problem skalowalności Bitcoina. Ale czym jest ten problem skalowalności, z którym Bitcoin się mierzy?
 
 ### Blockchain Nie Może Rosnąć W Nieskończoność
 
-Problem skalowalności odnosi się do wyzwania wdrożenia systemu monetarnego zdolnego do zapewnienia coraz większej liczby transakcji na sekundę w miarę jego przyjmowania. Dotyczy to trilematu blockchain. Wyobraź sobie trójkąt z decentralizacją, bezpieczeństwem i skalowalnością jako jego wierzchołkami.
+Problem skalowalności odnosi się do wyzwania wdrożenia systemu monetarnego zdolnego do zapewnienia coraz większej liczby transakcji na sekundę w miarę jego przyjmowania. Dotyczy to trilematu łańcucha bloków. Wyobraź sobie trójkąt z decentralizacją, bezpieczeństwem i skalowalnością jako jego wierzchołkami.
 
 ![obraz](assets/Concept/chapitre18/5.png)
 
-Protokół oparty na blockchainie może zadowolić tylko dwa z tych 3 aspektów. W ramach protokołu Bitcoina dokonano wyborów, aby faworyzować decentralizację/bezpieczeństwo. Z jednej strony, rozmiar bloku 1MB i czas między dwoma blokami (średnio 10 minut) pozwalają na prowadzenie węzła Bitcoina przy niższych kosztach, faworyzując decentralizację. Z drugiej strony, produkcja bloków przez Proof-of-Work sprawia, że oszustwo w ramach protokołu jest niezwykle kosztowne, jednocześnie ułatwiając weryfikację przez węzły sieci, co faworyzuje bezpieczeństwo. Jednak te wybory nakładają limit na średnią liczbę transakcji w bloku, odpowiadającą mniej więcej kilku transakcjom na sekundę. Ta liczba jest śmieszna w porównaniu z możliwościami przetwarzania płatności przez procesory takie jak VISA, które wynoszą 1700/s. Jednak ten limit jest konieczny, aby transakcje z Bitcoinem były odporne na cenzurę i niezależne od zaufania. Niemniej jednak, osoby rozwijające Bitcoin od początku myślały o tym problemie.
+Protokół oparty na łańcuchu bloków może pogodzić tylko dwa z tych 3 aspektów. W ramach protokołu Bitcoina podjęto decyzję, aby faworyzować decentralizację/bezpieczeństwo. Z jednej strony, rozmiar bloku 1MB i czas między powstaniem dwóch bloków (średnio 10 minut) pozwalają na prowadzenie węzła Bitcoina przy niższych kosztach, faworyzując decentralizację. Z drugiej strony, produkcja bloków przez dowód pracy (ang. Proof-of-Work) sprawia, że oszustwo w ramach protokołu jest niezwykle kosztowne, jednocześnie ułatwiając weryfikację przez węzły sieci, co faworyzuje bezpieczeństwo. Jednak te wybory nakładają limit na średnią liczbę transakcji w bloku, odpowiadającą mniej więcej kilku transakcjom na sekundę. Ta liczba jest śmieszna w porównaniu z możliwościami przetwarzania płatności przez procesory takie jak VISA, które wynoszą 1700/s. Jednak ten limit jest konieczny, aby transakcje z Bitcoinem były odporne na cenzurę i nie zależały od zaufania pomiędzy stronami. Niemniej jednak osoby rozwijające Bitcoin od początku myślały o tym problemie.
 
 ### Lightning Jako Warstwa Na Wierzchu
 

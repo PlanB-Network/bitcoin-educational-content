@@ -4,13 +4,13 @@
   address_line_2: Hotel DUO
   address_line_1: Prague, Czech Republic
   name: B-CERT Exam for Dev/hack/day (exclusive)
-  builder: PlanB Network
+  builder: Plan ₿ Network
   type: exam
   book_online: false
   book_in_person: true
   price_dollars: 21000
   available_seats: 50
-  description: 5th edition of PlanB Network's B-CERT exam during Dev/hack/day 
+  description: 5th edition of Plan ₿ Network's B-CERT exam during Dev/hack/day 
   language: 
     - en
   links:

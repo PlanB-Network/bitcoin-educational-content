@@ -5,13 +5,13 @@
   address_line_2: 112 C.so Francesco Ferrucci
   address_line_3: 
   name: Principles of Economics
-  builder: PlanB Network
+  builder: Plan ₿ Network
   type: Lecture
   book_online: true
   book_in_person: true
   price_dollars: 5
   available_seats: 10
-  description: 1st guest star lecture of PlanB Biz School
+  description: 1st guest star lecture of Plan ₿ Biz School
   language: 
     - en
   links:

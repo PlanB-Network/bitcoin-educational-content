@@ -48,7 +48,7 @@ Pour **Windows**, si vous n'avez pas GPG, vous pouvez installer le logiciel [Gpg
 
 ## Téléchargement des documents
 
-Pour commencer, nous allons avoir besoin de différents documents. Rendez-vous sur le site officiel de [Sparrow Wallet dans la section "Download"](https://sparrowwallet.com/download/). Si vous souhaitez vérifier un autre logiciel, rendez-vous sur le site de ce logiciel.
+Pour commencer, nous allons avoir besoin de différents documents. Rendez-vous sur le site officiel de [Sparrow Wallet dans la section "*Download*"](https://sparrowwallet.com/download/). Si vous souhaitez vérifier un autre logiciel, rendez-vous sur le site de ce logiciel.
 
 ![GnuPG](assets/notext/02.webp)
 
@@ -60,7 +60,7 @@ Téléchargez l'installateur du logiciel correspondant à votre système d'explo
 
 ![GnuPG](assets/notext/04.webp)
 
-Vous allez également avoir besoin du hash du fichier, souvent appelé "SHA256SUMS" ou "MANIFEST".
+Vous allez également avoir besoin du hash du fichier, souvent appelé "*SHA256SUMS*" ou "*MANIFEST*".
 
 ![GnuPG](assets/notext/05.webp)
 
@@ -96,7 +96,7 @@ Vérifiez la signature avec la commande suivante :
 gpg --verify [file.asc]
 ```
 
-Remplacez `[file.asc]` par le chemin du fichier de la signature. Dans le cas de Sparrow, ce fichier s'appelle "sparrow-2.0.0-manifest.txt.asc" pour la version 2.0.0.
+Remplacez `[file.asc]` par le chemin du fichier de la signature. Dans le cas de Sparrow, ce fichier s'appelle "*sparrow-2.0.0-manifest.txt.asc*" pour la version 2.0.0.
 
 ![GnuPG](assets/notext/09.webp)
 
@@ -124,7 +124,7 @@ Le terminal vous renvoie le hachage du logiciel téléchargé.
 
 Attention, pour certains logiciels, il peut être nécessaire d'utiliser une fonction de hachage différente de SHA256. Dans ce cas, remplacez simplement le nom de la fonction de hachage dans la commande.
 
-Comparez ensuite le résultat avec la valeur correspondante dans le fichier "sparrow-2.0.0-manifest.txt".
+Comparez ensuite le résultat avec la valeur correspondante dans le fichier "*sparrow-2.0.0-manifest.txt*".
 
 ![GnuPG](assets/notext/13.webp)
 

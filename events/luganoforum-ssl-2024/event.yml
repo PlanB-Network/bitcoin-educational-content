@@ -1,0 +1,24 @@
+- start_date: 2024-10-24
+  end_date: 2024-10-24
+  address_line_1: Lugano, Switzerland
+  address_line_2: Al Fresco Restaurant, Via Bertaro Lambertenghi 5, 6900 Lugano
+  address_line_3: 
+  name: Satoshi Spritz Lugano - Forum Edition
+  builder: 
+  type: meetup
+  book_online: false
+  book_in_person: false
+  price_dollars: 0
+  description: Special edition of local bitcoin meetup with conference speakers and OGs. Everyone is welcome!
+  language: 
+    - en
+  links:
+    website: https://satoshispritzlugano.planb.network
+    replay_url:
+    live_url :
+  tags: 
+    - bitcoin
+    - community
+    - user-friendly
+    - self-sovereignty
+    - mastering

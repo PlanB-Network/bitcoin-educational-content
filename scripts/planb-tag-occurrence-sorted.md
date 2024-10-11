@@ -89,7 +89,7 @@
 - psychology: 6
 - business: 6
 - peer-to-peer: 6
-- bitcoi only: 6
+- bitcoin-only: 6
 - DCA: 6
 - Decentralization: 6
 - Stacker: 6

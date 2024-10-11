@@ -50,6 +50,10 @@ Vous trouverez le Satochip à l'intérieur.
 
 Pour gérer le portefeuille, dans ce tutoriel, je vous propose d'utiliser Sparrow. Si vous ne disposez pas encore du logiciel, [rendez-vous sur le site officiel pour le télécharger](https://sparrowwallet.com/download/). Vous pouvez également consulter notre tutoriel sur Sparrow Wallet (bientôt disponible).
 
+Je vous recommande fortement de vérifier à la fois l'authenticité (avec GnuPG) et l'intégrité (via le hash) de Sparrow avant de l'installer sur votre machine. Si vous ne savez pas comment le faire, vous pouvez suivre cet autre tutoriel :
+
+https://planb.network/tutorials/others/integrity-authenticity
+
 ![SATOCHIP](assets/notext/05.webp)
 
 Insérez votre Satochip dans le lecteur de carte à puce ou déposez-le sur le lecteur NFC, et brancher le lecteur à votre ordinateur sur lequel Sparrow est ouvert.

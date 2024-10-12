@@ -212,3 +212,8 @@ HWWが接続されていないと、ウォレットはトランザクション�
 
 静的ライトニングアドレス: dandysack84@walletofsatoshi.com
 https://armantheparman.com/ledgersparrow/
+
+このトピックをさらに掘り下げ、BIP39 passphraseを使用したLedger Nano上のウォレットのセキュリティを強化するために、この包括的なチュートリアルをご覧ください。
+
+https://planb.network/tutorials/wallet/passphrase-ledger
+

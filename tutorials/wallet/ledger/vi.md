@@ -208,3 +208,8 @@ Bài viết này đã hướng dẫn bạn cách sử dụng Ledger HWW một c�
 
 Địa chỉ Lightning Tĩnh: dandysack84@walletofsatoshi.com
 https://armantheparman.com/ledgersparrow/
+
+Để tìm hiểu sâu hơn về chủ đề này và tăng cường bảo mật cho ví của bạn trên Ledger Nano với passphrase BIP39, tôi mời bạn tham khảo hướng dẫn toàn diện này:
+
+https://planb.network/tutorials/wallet/passphrase-ledger
+

@@ -1069,114 +1069,114 @@ Problem skalowalności odnosi się do wyzwania wdrożenia systemu monetarnego zd
 
 Protokół oparty na łańcuchu bloków może pogodzić tylko dwa z tych 3 aspektów. W ramach protokołu Bitcoina podjęto decyzję, aby faworyzować decentralizację/bezpieczeństwo. Z jednej strony, rozmiar bloku 1MB i czas między powstaniem dwóch bloków (średnio 10 minut) pozwalają na prowadzenie węzła Bitcoina przy niższych kosztach, faworyzując decentralizację. Z drugiej strony, produkcja bloków przez dowód pracy (ang. Proof-of-Work) sprawia, że oszustwo w ramach protokołu jest niezwykle kosztowne, jednocześnie ułatwiając weryfikację przez węzły sieci, co faworyzuje bezpieczeństwo. Jednak te wybory nakładają limit na średnią liczbę transakcji w bloku, odpowiadającą mniej więcej kilku transakcjom na sekundę. Ta liczba jest śmieszna w porównaniu z możliwościami przetwarzania płatności przez procesory takie jak VISA, które wynoszą 1700/s. Jednak ten limit jest konieczny, aby transakcje z Bitcoinem były odporne na cenzurę i nie zależały od zaufania pomiędzy stronami. Niemniej jednak osoby rozwijające Bitcoin od początku myślały o tym problemie.
 
-### Lightning Jako Warstwa Na Wierzchu
+### Lightning Jako Wierzchnia Warstwa
 
-Po latach refleksji i wielu próbach, pojawia się protokół Lightning. Korzystając z pewnej liczby specyfikacji, ten protokół umożliwia budowę sieci płatności peer-to-peer, wykorzystując bezpieczeństwo i programowalność protokołu transakcyjnego Bitcoina. Lightning Network działa jako sieć kanałów płatniczych, umożliwiając natychmiastowe transakcje z niskimi opłatami dla nadawcy. Ta sieć kanałów płatniczych umożliwia nawet transakcje między osobami, które nie mają bezpośredniego połączenia kanałowego.
+Po latach refleksji i wielu próbach, pojawia się protokół Lightning. Korzystając z pewnej liczby specyfikacji, protokół ten umożliwia budowę sieci płatności peer-to-peer, wykorzystując bezpieczeństwo i możliwości programowania protokołu transakcyjnego Bitcoina. Lightning Network działa jak sieć kanałów płatniczych, umożliwiająca natychmiastowe transakcje z niskimi opłatami dla nadawcy. Ta sieć umożliwia transakcje nawet między osobami, które nie są bezpośrednio połączone kanałem płatniczym.
 
 ![obraz](assets/Concept/chapitre18/4.png)
 
-Tradycyjne usługi przekazu pieniężnego, takie jak Western Union, banki centralne, Visa i Mastercard, mogą zniknąć, jeśli nie zaadoptują technologii Lightning Network. Lightning Network jest bardziej efektywny i opłacalny niż obecne systemy płatności. Rzeczywiście, Lightning Network umożliwia niemal nieograniczone transakcje między dwoma stronami dzielącymi kanał, bez wydatków energetycznych na bazowym blockchainie poza transakcją ogłaszającą utworzenie kanału.
+Tradycyjne usługi przekazu pieniężnego, takie jak Western Union, banki centralne, Visa i Mastercard, mogą zniknąć, jeśli nie zaadoptują technologii Lightning Network. Jest ona bardziej efektywna i opłacalna niż obecne systemy płatności - umożliwia niemal nieograniczone transakcje między dwoma stronami dzielącymi kanał, gdzie jedynym wydatkiem energetycznym na bazowym łańcuchu bloków jest transakcja ogłaszająca utworzenie kanału.
 
 ![obraz](assets/Concept/chapitre18/7.png)
 
-Transakcje są zabezpieczone przez kryptografię i pośrednio przez energię zużywaną przez górników na Bitcoinie. Transakcje mogą być realizowane natychmiast, bez ograniczeń geograficznych, a opłaty są niezwykle niskie, często mniejsze niż 0,5%.
+Transakcje są zabezpieczone przez kryptografię i pośrednio przez energię zużywaną przez górników na Bitcoina. Transakcje mogą być realizowane natychmiast, bez ograniczeń geograficznych, a opłaty są niezwykle niskie, często mniejsze niż 0,5%.
 
 Podsumowując, Lightning Network to obiecująca próba wdrożenia efektywnego systemu płatności do transakcji w Bitcoinie. Dostępnych jest już wiele portfeli Lightning, które możesz odkryć w naszej sekcji samouczków lub poprzez nasze szkolenie z Lightning Network.
 
-## Przypadki Użycia Lightning Network
+## Przykłady zastosowania Lightning Network
 
 ![Przypadki użycia LN](https://youtu.be/_UV2jmQ8TQM)
 
-Jak właśnie widzieliśmy, protokół Bitcoina, choć rewolucyjny, napotyka znaczące wyzwania w zakresie skalowalności, aby obsłużyć wszystkie nasze codzienne transakcje. Aby rozwiązać te problemy, zaproponowano rozwiązanie drugiej warstwy znane jako Lightning Network w 2016 roku i obecnie ma kilka różnych implementacji, które są interoperacyjne:
+Jak właśnie widzieliśmy, protokół Bitcoina, choć rewolucyjny, napotyka znaczące wyzwania w zakresie skalowalności, aby obsłużyć wszystkie nasze codzienne transakcje. Aby rozwiązać te problemy, w 2016 roku zaproponowano zastosowanie drugiej warstwy znane jako Lightning Network i obecnie ma ono kilka różnych implementacji, które są ze sobą kompatybilne:
 
 - Core-lightning od Blockstream
 - Eclair od Acinq
 - LND od Lightning Labs
-Ta sieć peer-to-peer ma na celu ułatwienie mikrotransakcji, czyli transakcji o bardzo niskiej wartości, które w przeciwnym razie byłyby niepraktyczne ze względu na wysokie opłaty i długie czasy potwierdzenia w blockchainie Bitcoina.
-### Jakie są przypadki użycia tej sieci?
+Ta sieć peer-to-peer ma na celu ułatwienie mikrotransakcji, czyli transakcji o bardzo niskiej wartości, które w przeciwnym razie byłyby niepraktyczne ze względu na wysokie opłaty i długie czasy potwierdzenia w łańcuchu bloków Bitcoina.
+### Jakie są przykłady zastosowania tej sieci?
 
-Ta technologia otwiera drzwi do szerokiego zakresu potencjalnych zastosowań dla Bitcoina, które wcześniej były poza zasięgiem ze względu na ograniczenia niezbędne do zapewnienia bezpieczeństwa i decentralizacji Bitcoina. Wśród tych zastosowań w codziennym życiu możemy wymienić natychmiastowe rozliczenia w handlu (zarówno fizycznym, jak i online), strumieniowanie pieniędzy dla płatności w czasie rzeczywistym oraz mikro-donacje na treści. Dzięki wdrożeniu sieci niemal natychmiastowych, bezpiecznych i niskokosztowych transakcji (średnio mniej niż 0,5%), można wdrożyć wiele wcześniej nie do wyobrażenia modeli biznesowych. Jest to możliwe, ponieważ Lightning Network używa satów (dziesiętnych części bitcoina) do funkcjonowania.
+Ta technologia otwiera drzwi do szerokiego zakresu potencjalnych zastosowań dla Bitcoina, które wcześniej były poza zasięgiem ze względu na ograniczenia niezbędne do zapewnienia bezpieczeństwa i decentralizacji Bitcoina. Wśród tych zastosowań w codziennym życiu możemy wymienić natychmiastowe rozliczenia w handlu (zarówno fizycznym, jak i online), strumieniowanie pieniędzy dla płatności w czasie rzeczywistym oraz mikro-donacje za treści internetowe. Dzięki wdrożeniu sieci niemal natychmiastowych, bezpiecznych i niskokosztowych transakcji (średnio mniej niż 0,5%), można wdrożyć wiele modeli biznesowych, które wcześniej były nie do wyobrażenia. Jest to możliwe, ponieważ Lightning Network używa satów (dziesiętnych części bitcoina) do funkcjonowania.
 
 ![obraz](assets/Concept/chapitre18/9.png)
 
 Branża gier wideo oferuje szczególnie interesujący przykład tego, jak można wykorzystać Lightning Network do transformacji istniejących modeli biznesowych. Pojęcie "skóra w grze" to idea, która ostatnio zyskała na popularności w tym kontekście. Polega to zasadniczo na posiadaniu finansowego udziału w wyniku gry.
-Lightning Network pozwala graczom obstawiać bardzo małe kwoty pieniędzy podczas gry, takie jak kilka satoshi (około ułamka centa euro). Umożliwia to ustanowienie stawki, która stymuluje konkurencję, jednocześnie znacznie zwiększając koszt wdrażania botów.
+Lightning Network pozwala graczom obstawiać bardzo małe kwoty pieniędzy podczas gry, takie jak kilka satoshi (ułamek centa euro). Umożliwia to ustanowienie stawki, która stymuluje konkurencję, jednocześnie znacznie zwiększając koszt wdrażania botów.
 
 ![obraz](assets/Concept/chapitre18/2.png)
 
-Podsumowując, przyszłość mikrotransakcji z Bitcoinem wygląda obiecująco dzięki innowacjom takim jak Lightning Network. W miarę jak te technologie będą się rozwijać i dojrzewać, możemy spodziewać się pojawienia się nowych i ekscytujących zastosowań w najbliższej przyszłości. Weźmy na przykład koncepcję "strumieniowania pieniędzy". Dzięki Lightning Network możemy dokonywać mikrotransakcji co minutę (potencjalnie bez zaufanej trzeciej strony), co otwiera drzwi do eksperymentowania z modelami ekonomicznymi, w których konsumenci płacą za treść w zależności od tego, co konsumują.
+Podsumowując, przyszłość mikrotransakcji z Bitcoinem wygląda obiecująco dzięki innowacjom takim jak Lightning Network. W miarę jak te technologie będą się rozwijać i dojrzewać, w najbliższej przyszłości możemy spodziewać się pojawienia się nowych i ekscytujących zastosowań. Weźmy na przykład koncepcję "strumieniowania pieniędzy" (ang. money streaming). Dzięki Lightning Network możemy dokonywać mikrotransakcji co minutę (potencjalnie bez zaufanej trzeciej strony), co otwiera drzwi do eksperymentowania z modelami ekonomicznymi, w których konsumenci płacą za treść w zależności od tego, co konsumują.
 
 ![obraz](assets/Concept/chapitre18/8.png)
 
-W takim systemie pieniądze są automatycznie dzielone, na podstawie wcześniej zdefiniowanego procentu, między różnych współtwórców usługi lub produktu. Mogłoby to zrewolucjonizować sposób myślenia o modelach płatności. Na przykład, zamiast płacić miesięczną subskrypcję za usługę, użytkownicy mogliby być obciążani za minutę, a nawet za sekundę, spędzoną na korzystaniu z usługi. Taki model ekonomiczny mógłby mieć głębokie implikacje dla twórców treści, którzy byliby motywowani do produkcji wysokiej jakości treści, aby zatrzymać uwagę użytkowników. Użytkownicy z kolei płaciliby tylko za treść, z której korzystają, eliminując tym samym opłaty za subskrypcję z góry. Można nawet wyobrazić sobie wykorzystanie tego systemu do wynajmu dóbr.
+W takim systemie pieniądze są automatycznie dzielone, na podstawie wcześniej zdefiniowanego procentu, między różnych współtwórców usługi lub produktu. Mogłoby to zrewolucjonizować sposób myślenia o modelach płatności. Na przykład, zamiast płacić miesięczną subskrypcję za usługę, użytkownicy mogliby być obciążani za minutę, a nawet za sekundę, spędzoną na korzystaniu z usługi. Taki model ekonomiczny mógłby mieć duże konsekwencje dla twórców, którzy byliby motywowani do produkcji wysokiej jakości treści, aby zatrzymać uwagę użytkowników. Użytkownicy z kolei płaciliby tylko za treść, z której korzystają, eliminując tym samym opłaty za subskrypcję z góry. Można nawet wyobrazić sobie wykorzystanie tego systemu do wynajmu dóbr.
 
 ![obraz](assets/Concept/chapitre18/3.png)
 
-Podsumowując, Lightning Network otwiera wiele ekscytujących przypadków użycia dla użytkowników Bitcoina. Wynikające z tego modele ekonomiczne i możliwości biznesowe są liczne i zróżnicowane. Zachęcamy do samodzielnego przetestowania, próbując aplikacji podcastowej [Fountain](https://www.fountain.fm/), która pozwala zostać nagrodzonym kilkoma satami za słuchanie ulubionych podcastów!
+Podsumowując, Lightning Network daje użytkownikom Bitcoina możliwość wielu ekscytujących sposobów wykorzystania. Wynikające z tego modele ekonomiczne i możliwości biznesowe są liczne i zróżnicowane. Zachęcamy do samodzielnego przetestowania, próbując aplikacji podcastowej [Fountain](https://www.fountain.fm/), która umożliwia otrzymanie wynagrodzenia w wysokości kilku satów za słuchanie ulubionych podcastów!
 
 ## Czerwona pigułka czy niebieska pigułka?
 
 ![czerwona pigułka](https://youtu.be/nCRVIoyyyck)
 
-Jak powiedział Morfeusz do Neo: "Weźmiesz niebieską pigułkę, historia się kończy, budzisz się w swoim łóżku i wierzysz w co chcesz wierzyć. Weźmiesz czerwoną pigułkę, zostajesz w Krainie Czarów, a ja pokażę Ci, jak głęboka jest nora królicza." Czy jesteś gotowy, aby zbadać norę króliczą Bitcoina? Uważaj, ponieważ możesz na nowo odkryć swoją finansową wolność!
+Jak powiedział Morfeusz do Neo: "Weźmiesz niebieską pigułkę, a historia się skończy, obudzisz się w swoim łóżku i będziesz wierzyć w to, w co chcesz wierzyć. Weźmiesz czerwoną pigułkę, a zostaniesz w Krainie Czarów, a ja pokażę Ci, jak głęboka jest królicza nora." Czy jesteś gotowy, aby zbadać króliczą norę  Bitcoina? Uważaj, ponieważ możesz na nowo odkryć swoją finansową wolność!
 ![czerwona pigułka](assets/posters/fr/2_pilluleorange.png)
 ### Technologiczna przyszłość i jej implikacje
 
-Technologia rozwija się w sposób wykładniczy i nikt nie jest w stanie z pewnością przewidzieć jej przyszłych rozwojów. Łączność świata i sztuczna inteligencja nieustannie postępują naprzód. Wiedza, którą jednostka może zdobyć przez internet, staje się z czasem coraz bardziej niezmierzona.
+Technologia rozwija się w sposób wykładniczy i nikt nie jest w stanie z pewnością przewidzieć jej przyszłego rozwoju. Połączenie świata i sztuczna inteligencja nieustannie postępują naprzód. Wiedza, którą każdy może zdobyć przez internet, staje się z czasem coraz bardziej niezmierzona.
 
 Weźmy na przykład AI. Te technologie już przekroczyły lub zbliżają się do osiągnięcia poziomu wydajności ludzkiej w coraz większej liczbie dziedzin, takich jak gry wideo, produkcja obrazów i tekstów oraz analiza danych. Jedną z potencjalnych implikacji jest to, że ponad 80% miejsc pracy zniknie z powodu AI i automatyzacji. Mamy kilka opcji, takich jak ograniczenie postępu technologicznego lub wykorzystanie zwiększonego kapitału z zysków produktywności stworzonych przez AI.
 
 Podstawowe pytania, które należy zadać, to:
 
 - Jak zarządzać społeczeństwem, w którym zniknie 80% miejsc pracy?
-- Jak ożywić populację?
+- Jak zrewitalizować populację?
 - Czy potrzebujemy tylu nauczycieli?
-- Geopolityczne, polityczne i ludzkie konsekwencje automatyzacji nie są wystarczająco dyskutowane.
+- Geopolityczne, polityczne i ludzkie konsekwencje automatyzacji nie są wystarczająco omawiane.
   Komputery, internet, streaming i VR zmienią edukację. Moglibyśmy mieć uniwersalny kurs dla wszystkich francuskich uczniów zarządzany przez rząd i nauczycieli, którzy już nie wygłaszają wykładów, ale bezpośrednio towarzyszą uczniom. Dzieci mogłyby wejść do wirtualnego świata i być wspierane w nauce historii.
 
 - Gdzie jest granica między nauczycielem a AI?
-- Jak możemy zagwarantować społeczeństwo żyjące w dobrobycie?
+- Jak możemy stworzyć społeczeństwo żyjące w dobrobycie?
 
-Te fundamentalne pytania dotyczące naszej przyszłości muszą być debatowane i kolektywnie decydowane. Ale jaki jest związek z Bitcoinem? Podobnie jak internet dla sposobów komunikacji, Bitcoin jest technologiczną rewolucją dla nowych sposobów organizacji na dużą skalę, dając nam możliwość wymiany wartości bez zaufanej trzeciej strony. Czy chcemy hamować ewolucję technologiczną systemu monetarnego czy czerpać zwiększenie kapitału przez dziesięciokrotny wzrost produktywności dzięki wykorzystaniu protokołów Bitcoin i Lightning?
+Te fundamentalne pytania dotyczące naszej przyszłości muszą być omawiane i kolektywnie rozstrzygane. Ale jaki jest ich związek z Bitcoinem? Podobnie jak internet dla sposobów komunikacji, Bitcoin jest technologiczną rewolucją dla nowych sposobów organizacji na dużą skalę, dając nam możliwość wymiany wartości bez zaufanej trzeciej strony. Czy chcemy hamować ewolucję technologiczną systemu monetarnego czy czerpać ze zwiększenia kapitału przez dziesięciokrotny wzrost produktywności dzięki wykorzystaniu protokołów Bitcoin i Lightning?
 
 ### Jaka jest przyszłość finansów?
 
-Te refleksje również stawiają pytania o to, kto powinien posiadać, autoryzować i śledzić pieniądze, których używamy. Celem jest zdecydowanie między zamkniętym systemem z nie wybranymi liderami a otwartym systemem bez zaufanych trzecich stron, gdzie przeważa neutralność.
+Te refleksje stawiają również pytania o to, kto powinien posiadać, autoryzować i śledzić pieniądze, których używamy. Celem jest zdecydowanie między zamkniętym systemem z liderami, któryh nie wybraliśmy, a otwartym systemem bez zaufanych trzecich stron, gdzie przeważa neutralność.
 
 - Czy waluta jest formą własności prywatnej?
 - Czy konta protestujących mogą być blokowane bez nakazu Sądu Najwyższego?
-- Kto gwarantuje system finansowy?
-- Jak jednostka może być suwerenna nad swoimi pieniędzmi i polegać na zaufanej trzeciej stronie?
+- Kto gwarantuje ciągłość systemu finansowego?
+- Jak jednostka może jednocześnie niezależnie zarządzać swoimi pieniędzmi i polegać na zaufanej trzeciej stronie?
 - Czy można wysyłać pieniądze na drugi koniec świata bez opłat lub pośredników?
 
-Akceptacja tych nowych technologii mogłaby generować ogromne ekonomie skali na całym świecie. Czy powinniśmy pozwolić na swobodny przepływ kapitału? Międzynarodowe blokady mają ekonomiczne i polityczne konsekwencje. Czy etyczne jest korzystanie z pośredników finansowych takich jak Western Union, które czasami pobierają opłaty do 25%? Wierzymy, że w coraz bardziej cyfrowym świecie, pieniądze powinny być demokratyzowane i uważane za dobro wspólne należące do ludzi, a nie państwa czy nieprzejrzystych instytucji finansowych.
+Akceptacja tych nowych technologii mogłaby generować ogromne korzyści skali na całym świecie. Czy powinniśmy pozwolić na swobodny przepływ kapitału? Międzynarodowe blokady mają ekonomiczne i polityczne konsekwencje. Czy etyczne jest korzystanie z pośredników finansowych takich jak Western Union, które czasami pobierają opłaty do 25%? Wierzymy, że w coraz bardziej cyfrowym świecie, pieniądze powinny być demokratyzowane i uważane za dobro wspólne należące do ludzi, a nie państwa czy nieprzejrzyste instytucje finansowe.
 
-Pytanie o to, kto powinien kontrolować system bankowy, jest kluczowe, ponieważ zasady gry bankowej nie są przejrzyste i zrozumiałe dla wszystkich, co pozwala kastom polityków i regulatorów utrzymać swoje wpływy na system. Ważne jest, aby zastanowić się, czy wolny rynek czy grupa intelektualistów powinna kontrolować system bankowy.
+Pytanie o to, kto powinien kontrolować system bankowy, jest kluczowe, ponieważ zasady gry bankowej nie są przejrzyste i zrozumiałe dla wszystkich, co pozwala kastom polityków i regulatorów utrzymywać swoje wpływy w systemie. Ważne jest, aby zastanowić się, czy wolny rynek czy grupa intelektualistów powinna kontrolować system bankowy.
 
-### Nasze wolności są zagrożone.
+### Stawką jest nasza wolność.
 
 Cenzura również musi być poddana wątpliwości, ponieważ kto ma wiedzę, aby decydować, co powinno być cenzurowane, a co nie? Media zmieniły swoje stanowisko wobec niektórych informacji, a ludzie, którzy byli wcześniej cenzurowani, dziś już nie są.
 
 - Kto decyduje, co jest cenzurą lub propagandą?
-- Kto ma boską rękę nad naszym systemem?
-Tolerowanie cenzury może zniszczyć wolność słowa i prawo do zgromadzeń. Wprowadzenie cenzury jest technicznie trudne bez stworzenia kompletnego dystopii. Która jednostka powinna mieć moc cenzury? Kwestia cenzury jest skomplikowana i trudno jest wiedzieć, kto powinien być cenzurowany, a kto nie. Cenzura może mieć negatywny wpływ na innowacje i wolność przedsiębiorczości.
-Na świecie jest 2,4 miliarda ludzi bez konta bankowego, co nieuchronnie tworzy nierówności geograficzne. Bitcoin umożliwia równość w transakcjach, niezależnie od twojego statusu społecznego czy pozycji politycznej. Protokół Bitcoin jest apolityczny i nie przyznaje specjalnych przywilejów prezydentowi czy innym aktorom. Liderzy powinni mieć takie same przywileje jak zwykli ludzie, aby napędzać rozwój w górę, zamiast pozostawiać niektórych na szczycie, a innych na dole. Czy każdy powinien mieć tę samą walutę, niezależnie od swojego statusu społecznego? Ważne jest, aby myśleć o świecie, który chcemy zostawić naszym dzieciom. Chcemy zostawić otwarty świat, gdzie są wolni robić, co chcą ze swoimi pieniędzmi.
+- Kto ma decydujący głos w naszym systemie?
+Tolerowanie cenzury może zniszczyć wolność słowa i prawo do zgromadzeń. Wprowadzenie cenzury jest trudne w praktyce bez stworzenia kompletnej dystopii. Która jednostka powinna mieć moc cenzora? Kwestia cenzury jest skomplikowana i trudno jest zdecydować, kto powinien być ocenzurowany, a kto nie. Cenzura może mieć negatywny wpływ na innowacje i wolność przedsiębiorczości.
+Na świecie jest 2,4 miliarda ludzi bez konta bankowego, co nieuchronnie tworzy nierówności geograficzne. Bitcoin umożliwia równość w transakcjach, niezależnie od twojego statusu społecznego czy pozycji politycznej. Protokół Bitcoin jest apolityczny i nie przyznaje specjalnych przywilejów prezydentowi czy innym osobom. Liderzy powinni mieć takie same przywileje jak zwykli ludzie, aby napędzać rozwój, zamiast pozostawiać niektórych na szczycie, a innych na dole. Czy każdy powinien mieć tę samą walutę, niezależnie od swojego statusu społecznego? Ważne jest, aby myśleć o świecie, który chcemy zostawić naszym dzieciom. Chcemy zostawić otwarty świat, gdzie będą mogły robić to, co chcą ze swoimi pieniędzmi.
 
-Bitcoin jest ważny i nie powinien być traktowany tylko jako gra hazardowa. Jest kluczowe, aby kontynuować zadawanie pytań o Bitcoin.
+Bitcoin jest ważny i nie powinien być traktowany tylko jako gra hazardowa. Jest kluczowe, aby kontynuować zadawanie pytań o Bitcoina.
 
 ### Bitcoin: rewolucyjny protokół
 
 ![Podsumowanie](https://youtu.be/BoZL_D7uLAg)
 
-Jak widzieliśmy w poprzednim rozdziale, protokół Bitcoin jest neutralny wobec wszystkich swoich użytkowników. Dzięki zasadom konsensusu i kryptografii możemy rejestrować transakcje niezmiennie w globalnej publicznej księdze, gwarantując transfer wartości pieniężnej bez potrzeby zaufanej trzeciej strony. Infrastruktura drugiej warstwy (a wkrótce trzeciej, z RGB) umożliwia skalowalność sieci i rozwój nowych funkcjonalności, szczególnie w celu rozwiązania problemów ze skalowaniem.
+Jak widzieliśmy w poprzednim rozdziale, protokół Bitcoin jest neutralny wobec wszystkich swoich użytkowników. Dzięki zasadom konsensusu i kryptografii możemy niezmiennie rejestrować transakcje w globalnej publicznej księdze rachunkowej, gwarantując transfer wartości pieniężnej bez potrzeby zaufanej trzeciej strony. Aby rozwiązać problemy z rozrostem sieci stworzona została infrastruktura drugiej warstwy (a wkrótce trzeciej, z RGB), która umożliwia skalowalność sieci i rozwój nowych funkcjonalności.
 
-Bitcoin posiada wszystkie niezbędne cechy, aby być efektywną i zdrową walutą: podzielny, natychmiastowo transportowalny, niepodlegający cenzurze, znikomy koszt weryfikacji oraz z już ustaloną polityką monetarną na wieki, z tymi 21 milionami jednostek. Bitcoin jest pseudonimowy i może być wymieniany w dowolnym miejscu na świecie bez żadnej autoryzacji od jakiejkolwiek jednostki, wystarczy posiadać własne prywatne klucze - jak mówi przysłowie "Nie twoje klucze, nie twoje bitcoiny".
+Bitcoin posiada wszystkie niezbędne cechy, aby być efektywną i zdrową walutą: podzielny, natychmiastowo transportowalny, niepodlegający cenzurze, ze znikomym kosztem weryfikacji oraz z już na wieki ustaloną polityką monetarną z 21 milionami jednostek. Bitcoin używa pseudonimów, a transakcji można dokonać w dowolnym miejscu na świecie bez żadnej autoryzacji od jakiejkolwiek jednostki, wystarczy posiadać własne prywatne klucze - mówimy "Nie twoje klucze, nie twoje bitcoiny".
 
-Bitcoin jest przyjmowany przez różnorodne grupy ludzi, od kryptografów po libertarian, tradycyjne biznesy, a nawet przez kraj. Jednakże, Bitcoin jest dla wszystkich i jego liczba użytkowników rośnie, podobnie jak liczba węzłów Bitcoin, które służą jako strażnicy historii transakcji, zapewniając jego decentralizację.
+Bitcoin jest przyjmowany przez różnorodne grupy ludzi, od kryptografów po libertarian, tradycyjne biznesy, a nawet przez kraje. Ale Bitcoin jest dla wszystkich i liczba jego użytkowników rośnie, podobnie jak liczba węzłów Bitcoin, które służą jako strażnicy historii transakcji, zapewniając decentralizację.
 
-Bitcoin nie może być już zatrzymany ani cenzurowany. To pokojowa rewolucja, aby zmienić system monetarny i umożliwić finansową inkluzywność. Użytkownicy mogą uzyskać Bitcoiny, akceptując je za swoje towary lub kupując je przez regulowane lub nieregulowane platformy. Bitcoiny można przechowywać w portfelach, aplikacjach mobilnych lub urządzeniach fizycznych. W Bitcoinie nie ma zaufanego pośrednika, Bitcoin opowiada się za przejrzystością, wolnością i indywidualną odpowiedzialnością - jak mówi przysłowie "Nie ufaj, weryfikuj".
+Bitcoin nie może być już zatrzymany ani ocenzurowany. To pokojowa rewolucja, która ma na celu zmianę systemu monetarnego i umożliwienie finansowej inkluzywności. Użytkownicy mogą uzyskać Bitcoiny, akceptując je za swoje towary lub kupując je przez regulowane lub nieregulowane platformy. Bitcoiny można przechowywać w portfelach, aplikacjach mobilnych lub urządzeniach fizycznych. W Bitcoinie nie ma zaufanego pośrednika, Bitcoin opowiada się za przejrzystością, wolnością i indywidualną odpowiedzialnością - mówimy "Nie ufaj, weryfikuj".
 
-Zmiana systemu finansowego wymaga zmiany waluty. Satoshi stworzył Bitcoin w 2008 roku, proponując próbę tego. Dostęp do łatwych i "magicznych" pieniędzy korumpuje. Bitcoin jest więc alternatywą, aby zbudować nowy neutralny system monetarny. Bitcoin umożliwia emancypację od systemu bankowego. To zjawisko społeczne, które prowadzi nas do udziału w pokojowej rewolucji. Czy jesteś gotowy, aby dołączyć?
+Zmiana systemu finansowego wymaga zmiany waluty. Satoshi zaproponował nam swoje rozwiązanie tworząc Bitcoina w 2008 roku. Dostęp do łatwych i "magicznych" pieniędzy korumpuje. Bitcoin jest więc alternatywą, aby zbudować nowy neutralny system monetarny. Bitcoin umożliwia uwolnienie się od systemu bankowego. To zjawisko społeczne, które prowadzi nas do udziału w pokojowej rewolucji. Czy jesteś gotowy, aby dołączyć?
 
 ## Podziękowania i kontynuuj eksplorację króliczej nory
 
@@ -1184,22 +1184,22 @@ Zmiana systemu finansowego wymaga zmiany waluty. Satoshi stworzył Bitcoin w 200
 
 ![podziękowania i kontynuuj eksplorację króliczej nory](https://youtu.be/A2P5GdkgB-M)
 
-Gratulacje z okazji ukończenia tego kursu BTC 101! Mam szczerą nadzieję, że Ci się podobało i że otworzyło to przed Tobą nowe drzwi. Twoje odkrywanie bitcoina dopiero się zaczyna, i zachęcam Cię do eksploracji wszystkich innych kursów dostępnych na uniwersytecie.
-- [BTC 102](https://sovereignuniversity.org/course/btc102/fr) pomoże Ci ustawić Twój plan dotyczący bitcoina
+Gratulacje z okazji ukończenia kursu BTC 101! Mam szczerą nadzieję, że ci się podobało i że otworzyło to przed Tobą nowe horyzonty. Twoje odkrywanie bitcoina dopiero się zaczyna i zachęcam Cię do sprawdzenia wszystkich innych kursów dostępnych w naszej akademii.
+- [BTC 102](https://sovereignuniversity.org/course/btc102/fr) pomoże Ci ustalić Twój plan dotyczący bitcoina
 - [LN 201](https://sovereignuniversity.org/course/ln201/fr) oraz [LN 202](https://sovereignuniversity.org/course/ln202/fr) pozwolą Ci odkryć Lightning Network, sieć płatności drugiego poziomu
-- [ECON 201](https://sovereignuniversity.org/course/econ201/fr) będzie omawiać ekonomię austriacką
-- [SECU 101](https://sovereignuniversity.org/course/secu101/fr) pozwoli Ci zaktualizować Twoje cyfrowe zabezpieczenia
+- [ECON 201](https://sovereignuniversity.org/course/econ201/fr) omawia ekonomię według szkoły austriackiej
+- [SECU 101](https://sovereignuniversity.org/course/secu101/fr) pozwoli Ci zaktualizować twoje zabezpieczenia cyfrowe
 - [MINAGE 201](https://sovereignuniversity.org/course/min201/fr) aby dowiedzieć się więcej o wydobywaniu
 - i wiele więcej...
 
 ## Wspieraj nas
 
-Ten kurs, jak również cała zawartość tej uczelni, została zaoferowana Ci za darmo przez naszą społeczność. Aby nas wspierać, możesz podzielić się nim z innymi, zostać członkiem uczelni, a nawet przyczynić się do jej rozwoju poprzez [nasze GitHub](https://github.com/DecouvreBitcoin/sovereign-university-data). W imieniu całego zespołu, dziękujemy!
+Nasza społeczność oferuje Ci ten kurs, jak również całą zawartość tej akademii, za darmo. Aby nas wspierać, możesz podzielić się naszymi treściami z innymi, zostać członkiem akademii, a nawet przyczynić się do jej rozwoju poprzez [nasz GitHub](https://github.com/DecouvreBitcoin/sovereign-university-data). W imieniu całego zespołu, dziękujemy!
 
 ## Oceń szkolenie
 
-System oceniania szkoleń zostanie wkrótce zintegrowany z tą nową platformą E-learningową! W międzyczasie bardzo dziękujemy za udział w kursie i jeśli Ci się podobało, prosimy o podzielenie się nim z innymi.
+System oceniania szkoleń zostanie wkrótce zintegrowany z naszą nową platformą E-learningową! W międzyczasie bardzo dziękujemy za udział w kursie i jeśli Ci się podobało, prosimy o podzielenie się informacjami o nas z innymi.
 
-Ogromne podziękowania dla naszych patronów na Patreonie, członków i darczyńców za ich wsparcie finansowe, dziękujemy ludziom, którzy dzielą się, i dziękujemy tym, którzy umożliwili to szkolenie: Rachel, Muriel, zespołowi StackinSat, JohnOnChain, Fanis, Guillaume, Lounes, korektorom i recenzentom.
+Ogromne podziękowania dla naszych patronów na Patreonie, członków i darczyńców za ich wsparcie finansowe, dziękujemy ludziom, którzy przekazują informacje o nas, i dziękujemy tym, dzięki którym powstało to szkolenie: Rachel, Muriel, zespołowi StackinSat, JohnOnChain, Fanis, Guillaume, Lounes, korektorom i recenzentom.
 
 Do zobaczenia wkrótce!

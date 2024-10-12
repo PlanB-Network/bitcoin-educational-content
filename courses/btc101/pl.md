@@ -70,12 +70,12 @@ Istotne jest, aby zrozumieć, że Bitcoin to nowy system monetarny, który rewol
 **Sekcja 5 - Lightning Network**
 
 - Rozdział 17 - Wprowadzenie do Lightning Network
-- Rozdział 18 - Przypadki użycia dla Sieci Lightning
+- Rozdział 18 - Przykłady wykorzystania sieci Sieci Lightning
 Zanim omówimy definicję i funkcjonowanie pieniądza w społeczeństwie (Rozdział 1), zaczynamy od genezy Bitcoina. Bitcoin to stosunkowo nowa technologia, uruchomiona w 2009 roku, która nie ma sobie równych. Dlatego naturalne jest, że nie wszystko jest od razu zrozumiałe. W praktyce jednak, podobnie jak przy uczeniu się korzystania z Internetu czy samochodu, nie trzeba znać wszystkich szczegółów technicznych, aby używać Bitcoina (otrzymywać, płacić, zabezpieczać swoje środki).
 
 ![obraz](assets/Concept/chapitre0/3.png)
 
-Ważne dla nas jest ogólne zrozumienie tej nowej technologii. Mamy nadzieję, że to szkolenie przypadnie Ci do gustu i dostarczy Ci podstaw niezbędnych do zrozumienia tego nowego globalnego paradygmatu monetarnego - a może nawet zachęci Cię do dalszej nauki.
+W tym kursie kładziemy nacisk na ogólne zrozumienie tej nowej technologii. Mamy nadzieję, że nasze szkolenie przypadnie Ci do gustu i dostarczy Ci podstaw niezbędnych do zrozumienia tego nowego globalnego paradygmatu monetarnego - a może nawet zachęci Cię do dalszej nauki.
 
 ## Prehistoria Bitcoina
 
@@ -97,21 +97,21 @@ Ikoniczne postacie takie jak Julian Assange, Wei Dai, Tim May i David Chaum przy
 Ruch cypherpunków, z jego głębokimi korzeniami w aktywizmie cyfrowym i kryptografii, opierał się na kilku fundamentalnych tekstach, aby wyrazić swoje zasady i wizję przyszłości. Wśród tych pism, trzy wyróżniają się w szczególności:
 
 - "Manifest Cypherpunków":
-  Napisany przez Erica Hughesa w 1993 roku, "Manifest Cypherpunków" twierdzi, że prywatność jest fundamentalnym prawem. Hughes argumentował, że możliwość swobodnej i poufnej komunikacji jest niezbędna do funkcjonowania wolnego społeczeństwa. Manifest stwierdza: "Nie możemy oczekiwać, że instytucje, korporacje czy inne bezosobowe podmioty przyznają nam prywatność... Musimy bronić jej sami."
+  Napisany przez Erica Hughesa w 1993 roku, "Manifest Cypherpunków" twierdzi, że prywatność jest prawem fundamentalnym. Hughes argumentował, że możliwość swobodnej i poufnej komunikacji jest niezbędna do funkcjonowania wolnego społeczeństwa. Manifest stwierdza: "Nie możemy oczekiwać, że instytucje, korporacje czy inne bezosobowe podmioty przyznają nam prawo do prywatności... Musimy bronić jej sami."
 
 - "Manifest Kryptoanarchisty":
   Napisany przez Timothy'ego C. Maya w 1992 roku, wyjaśnia, jak użycie kryptografii mogłoby prowadzić do ery kryptoanarchii, w której rządy nie miałyby sposobu, aby ingerować w prywatne sprawy obywateli. May przewidywał przyszłość, w której informacje, pieniądze i wiadomości mogłyby być wymieniane bez interwencji strony trzeciej i anonimowo.
 
 - "Deklaracja Niepodległości Cyberprzestrzeni":
-  Chociaż nie jest wyłącznie cypherpunkowa, odzwierciedla uczucia wielu członków ruchu. Tekst napisany w 1996 roku przez Johna Perry'ego Barlowa, jest odpowiedzią na zwiększającą się regulację Internetu przez rządy. Deklaracja stwierdza, że cyberprzestrzeń jest królestwem odrębnym  od sfery fizycznej i nie powinna podlegać tym samym prawom. Stwierdza: "Nie mamy wybranego rządu i nie można nami rządzić."
+  Chociaż nie jest wyłącznie cypherpunkowa, odzwierciedla uczucia wielu członków ruchu. Tekst napisany w 1996 roku przez Johna Perry'ego Barlowa, jest odpowiedzią na zwiększającą się regulację Internetu przez rządy. Deklaracja stwierdza, że cyberprzestrzeń jest królestwem odrębnym  od sfery fizycznej i nie powinna podlegać tym samym prawom. Stwierdza: "Nie mamy wybranego przez siebie rządu i nie można nami rządzić."
 
 ### Poprzednicy Bitcoina
-Przed pojawieniem się Bitcoina podjęto kilka prób stworzenia waluty cyfrowej. Na przykład, David Chaum wprowadził koncepcję "anonimowych pieniędzy elektronicznych" ze swoim projektem "DigiCash" w latach 80. Niestety, z różnych powodów, DigiCash nigdy naprawdę się nie przyjął.
+Przed pojawieniem się Bitcoina podjęto kilka prób stworzenia waluty cyfrowej. Na przykład David Chaum wprowadził koncepcję "anonimowych pieniędzy elektronicznych" ze swoim projektem "DigiCash" w latach 80. Niestety, z różnych powodów, DigiCash nigdy naprawdę się nie przyjął.
 Innym ważnym prekursorem jest "b-money" Wei Daia. Chociaż projekt ten nigdy nie został zaimplementowany, przedstawił ideę anonimowej waluty cyfrowej, gdzie oszustwa były wykrywane przez społeczność ewaluatorów, a nie urząd centralny.
 
 ![image](assets/Concept/chapitre0/1.jpeg)
 
-To w tym inspirującym środowisku tajemniczy Satoshi Nakamoto opublikował w 2008 roku whitepaper Bitcoina (rodzaj publikacji używany do prezentacji nowych projektów czy produktów, zawierający szczegółowy opis produktu, jego funkcje, zastosowanie i docelowych użytkowników – przyp. tłum.). Połączył kilka pomysłów z ruchu cypherpunk, takich jak dowód pracy i kryptograficzne znaczniki czasu, aby stworzyć zdecentralizowaną i odporną na cenzurę walutę cyfrową.
+To w tym inspirującym środowisku tajemniczy Satoshi Nakamoto opublikował w 2008 roku Whitepaper Bitcoina (rodzaj publikacji używany do prezentacji nowych projektów czy produktów, zawierający szczegółowy opis produktu, jego funkcje, zastosowanie i docelowych użytkowników – przyp. tłum.). Połączył kilka pomysłów z ruchu cypherpunk, takich jak dowód pracy i kryptograficzne znaczniki czasu, aby stworzyć zdecentralizowaną i odporną na cenzurę walutę cyfrową.
 
 Bitcoin był czymś więcej niż tylko walutą cyfrową; stanowił realizację ideałów cypherpunk. Wyszedł poza aspekt technologiczny, symbolizując rewolucję przeciwko tradycyjnym systemom finansowym i zaoferował alternatywę opartą na przejrzystości, decentralizacji i suwerenności jednostki.
 
@@ -146,7 +146,7 @@ Pieniądz to wysoce zaawansowane narzędzie komunikacji:
 
 - Umożliwia komunikację między teraźniejszością a przyszłością. Przekształcamy nasz czas i energię w aktywa, które można ponownie wykorzystać w przyszłości bez ryzyka dewaluacji.
 
-- Umożliwia komunikację we wspólnym uniwersalnym języku. Nie znając się, nie mówiąc tym samym językiem, dwaj obcy mogą wymieniać się, handlować i dogadywać się co do wartości rzeczy.
+- Umożliwia komunikację we wspólnym uniwersalnym języku. Nie znając się, nie mówiąc tym samym językiem, dwaj obcy mogą wymieniać się, handlować i dogadywać się co do wartości przedmiotów i usług.
 
 Funkcjonowanie systemu obiegu pieniądza w naszym świecie jest trudne do sztucznego odtworzenia. Żaden człowiek ani grupa ludzi nie może stworzyć pieniądza; jest to naturalne zjawisko społeczne, które musi wyłonić się z rynku i dobrowolnego konsensusu. Ceny są sygnałami, informacjami, które pomagają społeczeństwu decydować, jak będą alokowane zasoby.
 Złoto używane jako pieniądz to wybór 4000 lat ewolucji monetarnej oparty na 3 funkcjach:
@@ -176,11 +176,11 @@ Aby spełnić te kryteria, waluta ewoluuje krok po kroku:
 
 - Surowy kamień -> Moneta
 - Banknot -> Karta bankowa
-- Blockchain -> Lightning Network
+- łańcuch bloków Blockchain -> sieć Lightning Network
 
 Dzisiaj waluty nadal ewoluują, dostosowując swoje formy do różnych zastosowań. Na przykład, chociaż złoto jest doskonałym środkiem przechowywania wartości, nie nadaje się już do łatwego zastosowania w obecnej zglobalizowanej ekonomii. Podobnie, waluty fiducjarne takie jak dolar i euro są bardzo płynne i łatwe w transporcie, ponieważ obecnie są głównie cyfrowe, jednak ich wartość jest ciągle erodowana przez inflację monetarną.
 
-Bitcoin z kolei oferuje nowe możliwości. Dzięki swoim właściwościom, takim jak ściśle ograniczona podaż, jest doskonałym narzędziem przechowywania wartości. Ponadto, jako neutralna waluta internetowa, stanowi dobry środek wymiany, który nie zna granic. Jednakże nie jest jeszcze szeroko akceptowany w handlu, pomimo [ciągłej adopcji](https://btcmap.org/map).
+Bitcoin z kolei oferuje nowe możliwości. Dzięki swoim właściwościom, takim jak ściśle ograniczona podaż, jest doskonałym narzędziem przechowywania wartości. Ponadto, jako neutralna waluta internetowa, stanowi dobry środek wymiany, który nie zna granic. Jednakże nie jest jeszcze szeroko akceptowany w handlu, pomimo [ciągłego wdrażania](https://btcmap.org/map).
 
 ## Waluty fiducjarne
 
@@ -190,7 +190,7 @@ Bitcoin z kolei oferuje nowe możliwości. Dzięki swoim właściwościom, takim
 
 ### Fiducjarny = zaufanie
 
-Główne uzywane obecnie waluty takie jak euro i dolar są określane jako fiducjarne. Oznacza to, że nie mają one wartości same w sobie. Ich wartość opiera się całkowicie na zaufaniu i wierze, jaką pokładamy w instytucjach, które je regulują.
+Główne używane obecnie waluty takie jak euro i dolar są określane mianem fiducjarne. Oznacza to, że nie mają one wartości same w sobie. Ich wartość opiera się całkowicie na zaufaniu i wierze, jaką pokładamy w instytucjach, które je regulują.
 
 'Waluta fiducjarna to forma waluty, która jest dekretowana przez instytucję, taką jak państwo-naród, jak Chiny z jenem, lub unia polityczno-ekonomiczna, jak Unia Europejska, z euro. Jednostką odpowiedzialną za emisję waluty fiducjarnej jest bank centralny (na przykład, Ludowy Bank Chin, Rezerwa Federalna Stanów Zjednoczonych lub Centralny Bank Republiki Gwinei). To te jednostki są odpowiedzialne za decydowanie o polityce monetarnej i tym samym o tym, ile pieniędzy powinno być wprowadzonych do obiegu lub wydrukowanych.
 ![image](assets/Concept/chapitre2/1.jpeg)
@@ -289,7 +289,7 @@ Rozwiązanie kryzysu hiperinflacji często wymaga radykalnych zmian, takich jak 
 - Zimbabwe, 2007-2008
   Do roku 2000 Zimbabwe było samowystarczalne w zaspokajaniu prawie wszystkich swoich potrzeb z wyjątkiem zapotrzebowania na ropę.
 
-  W 1997 roku dolar zimbabweński stracił ponad 72% swojej wartości po tym, jak rząd zgodził się na rekompensatę dla weteranów wojennych na kwotę równowartości 450 milionów dolarów amerykańskich. Ponieważ rząd nie dysponował taką kwotą w swoich skarbcach, musiał uruchomić maszyny drukarskie. W 2005 roku inflacja osiągnęła 586%, a w marcu 2007 roku miesięczna inflacja osiągnęła 50%.
+  W 1997 roku dolar zimbabweński stracił ponad 72% swojej wartości po tym, jak rząd zgodził się na rekompensatę dla weteranów wojennych na kwotę równowartości 450 milionów dolarów amerykańskich. Ponieważ nie dysponował taką kwotą w swoich skarbcach, musiał uruchomić maszyny drukarskie. W 2005 roku inflacja osiągnęła 586%, a w marcu 2007 roku miesięczna inflacja osiągnęła 50%.
 
   W czerwcu 2007 roku rząd zareagował, wprowadzając kontrole cen. Sklepy zostały dosłownie "oblężone". Handlowcy nie mieli już środków, aby uzupełniać zapasy w swoich sklepach.
 
@@ -304,7 +304,7 @@ Podsumowując, hiperinflacja powoduje szybkie degradowanie wartości waluty, pro
 
 ### Polityka Monetarna Bitcoina
 
-Bitcoin to zdecentralizowana waluta cyfrowa z wcześniej zdefiniowaną maksymalną ilością **21 milionów jednostek**. Charakteryzująca go ograniczona dostępność jest określona przez jego kod komputerowy i wzmacniana przez konsensus wszystkich użytkowników uczestniczących w protokole.
+Bitcoin to zdecentralizowana waluta cyfrowa z wcześniej zdefiniowaną maksymalną ilością **21 milionów jednostek**. Charakteryzująca go ograniczona dostępność jest określona przez jego kod komputerowy i wzmocniona przez konsensus wszystkich użytkowników uczestniczących w protokole.
 
 ![obraz](assets/Concept/chapitre4/0.jpeg)
 
@@ -316,7 +316,7 @@ Tworzenie nowych bitcoinów jest wynikiem procesu wydobywczego, procedury weryfi
 
 ![obraz](assets/Concept/chapitre4/1.jpeg)
 
-Górnicy, którzy wykonują to zadanie, są nagradzani emisją nowych bitcoinów co dziesięć minut. Algorytm jest zaprogramowany do zmniejszenia tej nagrody o połowę co 210,000 bloków, co dzieje się mniej więcej co cztery lata, wydarzenie znane jako "halving" -- nadając krzywej emisji monetarnej kształt schodów. Dzięki mechanizmowi halvingu, można matematycznie przewidzieć, że tworzenie bitcoinów zakończy się w 2140 roku, kiedy całkowita liczba bitcoinów osiągnie swój limit 21 milionów.
+Górnicy, którzy wykonują to zadanie, są nagradzani emisją nowych bitcoinów co dziesięć minut. Algorytm jest zaprogramowany do zmniejszania tej nagrody o połowę co 210,000 bloków, co dzieje się mniej więcej co cztery lata, wydarzenie znane jako "halving" -- nadając krzywej emisji monetarnej kształt schodów. Dzięki mechanizmowi halvingu, można matematycznie przewidzieć, że tworzenie bitcoinów zakończy się w 2140 roku, kiedy całkowita liczba bitcoinów osiągnie swój limit 21 milionów.
 
 | Numer Halvingu | Wysokość Bloku | Nagroda BTC po Halvingu  | Szacowana liczba BTC w Obiegu po Halvingu |
 | -------------- | -------------- | ------------------------ | ----------------------------------------- |
@@ -353,7 +353,7 @@ Rzadkość Bitcoina jest gwarantowana przez dwa kluczowe mechanizmy: dostosowani
 
 > Czy wiesz? Górnicy są motywowani do wydobywania bloków przez zarabianie nowych bitcoinów i opłat transakcyjnych związanych z transakcjami, które zawierają w swoim bloku. W miarę zbliżania się liczby wydobytych bitcoinów do limitu 21 milionów, górnicy będą wynagradzani lepiej przez swoje opłaty transakcyjne niż przez nagrodę za wydobycie bloku.'
 
-- Teoria gier to matematyczny koncept, który opiera się na ludzkiej racjonalności. Tutaj, w Bitcoinie, to użytkownicy głosują za zmianami protokołu. Tak, dobrze przeczytałeś: każda modyfikacja protokołu Bitcoina wymagałaby zgody całej społeczności użytkowników, co jest bardzo skomplikowane. Więc, jeśli ktoś chciałby stworzyć 22 miliony bitcoinów, musiałby przekonać wszystkich użytkowników do dobrowolnego obniżenia wartości ich oszczędności, co jest mało prawdopodobne, ponieważ Bitcoin jest globalny i nie jest zarządzany przez scentralizowaną grupę.
+- Teoria gier to koncept matematyczny, który opiera się na ludzkiej racjonalności. Tutaj, w Bitcoinie, to użytkownicy głosują za zmianami protokołu. Tak, dobrze przeczytałeś: każda modyfikacja protokołu Bitcoina wymagałaby zgody całej społeczności użytkowników, co jest bardzo skomplikowane. Więc, jeśli ktoś chciałby stworzyć 22 miliony bitcoinów, musiałby przekonać wszystkich użytkowników do dobrowolnego obniżenia wartości ich oszczędności, co jest mało prawdopodobne, ponieważ Bitcoin jest globalny i nie jest zarządzany przez scentralizowaną grupę.
 
 ![obraz](assets/Concept/chapitre4/3.jpeg)
 
@@ -361,7 +361,7 @@ Pomysł deprecjacji waluty jest sprzeczny z fundamentalną filozofią Bitcoina, 
 
 ### Polityka monetarna poddawana audytowi co sekundę od początku i na zawsze!
 
-Rzadkość Bitcoina jest jego głównym atutem, a maksymalna ilość 21 milionów bitcoinów w obiegu jest publiczna i możliwa do zweryfikowania przez każdego.
+Rzadkość Bitcoina jest jego głównym atutem, a maksymalna ilość 21 milionów bitcoinów w obiegu jest widoczna publicznie i możliwa do zweryfikowania przez każdego.
 
 W rzeczywistości każdy może zweryfikować ilość bitcoinów w obiegu, wpisując prostą komendę na węźle Bitcoina: `bitcoin-cli gettxoutsetinfo`. Ta przejrzystość i możliwość weryfikacji wzmacniają zaufanie do systemu Bitcoina, który nie opiera się na scentralizowanych instytucjach czy osobach, ale na matematycznej i kryptograficznej gwarancji właściwej jego protokołowi. (Dowiesz się, jak to łatwo zrobić w kursie LN201)
 
@@ -380,7 +380,7 @@ W rzeczywistości każdy może zweryfikować ilość bitcoinów w obiegu, wpisuj
 }
 ```
 
-Bitcoin, dzięki swojej konstrukcji, gwarantuje solidne zarządzanie pieniędzmi poprzez ograniczenie ich emisji i ochronę oszczędności użytkowników, co odróżnia go od innych walut. Zgodnie z zasadami ekonomii austriackiej (szczegóły w kursie ECON201), jego ilość podlegająca kontroli i przewidywalny rozkład chronią go przed wrodzonym ryzykiem inflacji charakteryzującym tradycyjne waluty.
+Bitcoin, dzięki swojej konstrukcji, gwarantuje solidne zarządzanie pieniędzmi poprzez ograniczenie ich emisji i ochronę oszczędności użytkowników, co odróżnia go od innych walut. Zgodnie z zasadami austriackiej szkoły ekonomicznej (szczegóły w kursie ECON201), jego ilość podlegająca kontroli i przewidywalny rozkład chronią go przed wrodzonym ryzykiem inflacji charakteryzującym tradycyjne waluty.
 
 Podsumowując, Bitcoin, ze swoją zdecentralizowaną naturą, zaprogramowaną ograniczoną ilością i przejrzystością, oferuje unikalną alternatywę dla tradycyjnych systemów monetarnych. Pokazuje, jak technologia może być wykorzystana do stworzenia waluty, która nie tylko jest użyteczna i łatwa w weryfikacji, ale także zachowuje wartość oszczędności użytkowników poprzez ścisłe ograniczenie jej podaży.
 
@@ -392,7 +392,7 @@ Podsumowując, Bitcoin, ze swoją zdecentralizowaną naturą, zaprogramowaną og
 
 ## Czym są portfele Bitcoin?
 
-W sekcji 2 zbadamy przechowywanie i zabezpieczanie Bitcoinów w portfelach. Pozwoli Ci to lepiej zrozumieć, gdzie znajdują się te słynne Bitcoiny i jak z nimi interagować!
+W sekcji 2 zbadamy przechowywanie i zabezpieczanie Bitcoinów w portfelach. Pozwoli ci to lepiej zrozumieć, gdzie znajdują się te słynne Bitcoiny i jak z nimi interagować!
 
 ![Zrozumienie portfeli Bitcoin](https://youtu.be/GsnX7qdODK8)
 
@@ -404,14 +404,14 @@ Do interakcji z siecią Bitcoin używamy portfeli, mają one 3 funkcje:
 - Umożliwiają wysyłanie bitcoinów
 - Zabezpieczają bitcoiny przed próbami hackingu i kradzieży
 
-Portfel może być oprogramowaniem na Twoim komputerze, aplikacją na Twoim smartfonie, fizycznym urządzeniem, takim jak klucz USB, a nawet kawałkiem papieru. Różne typy portfeli są przydatne w różnych sytuacjach. Niektóre są używane do bezpiecznego przechowywania dużych kwot, inne do ochrony prywatności, a jeszcze inne do codziennego obrotu małymi kwotami.
+Portfel może być oprogramowaniem na twoim komputerze, aplikacją na twoim smartfonie, fizycznym urządzeniem, takim jak klucz USB, a nawet kawałkiem papieru. Różne typy portfeli są przydatne w różnych sytuacjach. Niektóre są używane do bezpiecznego przechowywania dużych kwot, inne do ochrony prywatności, a jeszcze inne do codziennego obrotu małymi kwotami.
 
-Ale niezaleznie od tego, w jakim celu używany jest dany portfel, najważniejszą kwestią pozostaje zawsze to, czy jesteś właścicielem swoich środków czy pozostawiasz kontrolę nad swoimi pieniędzmi stronie trzeciej. Wrócimy do tego tematu szczegółowo w następnym rozdziale, aczkolwiek pytanie w zasadzie jest proste: Czy pieniądze są w Twojej kieszeni czy w kieszeni Twojego bankiera?
+Ale niezaleznie od tego, w jakim celu używany jest dany portfel, najważniejszą kwestią pozostaje zawsze to, czy jesteś właścicielem swoich środków czy pozostawiasz kontrolę nad swoimi pieniędzmi stronie trzeciej. Wrócimy do tego tematu szczegółowo w następnym rozdziale, aczkolwiek pytanie w zasadzie jest proste: Czy pieniądze są w twojej kieszeni czy w kieszeni twojego bankiera?
 ![obraz](assets/Concept/chapitre5/3.jpeg)
 
 ### Jak działa portfel Bitcoin
 
-Niezależnie od tego, czy właścicielem środków w portfelu jest Twój "bankier" Bitcoin, czy Ty sam, większość portfeli bazuje na podobnej technologii, tj. asymetrycznej kryptografii, a więc systemie par kluczy: prywatnego klucza do otrzymywania bitcoinów i publicznego klucza do ich wydawania.
+Niezależnie od tego, czy właścicielem środków w portfelu jest twój "bankier" Bitcoin, czy ty sam, większość portfeli bazuje na podobnej technologii, tj. asymetrycznej kryptografii, a więc systemie par kluczy: prywatnego klucza do otrzymywania bitcoinów i publicznego klucza do ich wydawania.
 
 - Klucz prywatny
   Podczas inicjalizacji portfela generowana jest fraza do odzyskiwania hasła (klucz prywatny), która jest Ci przekazana w formie 24 słów.
@@ -1083,7 +1083,7 @@ Transakcje są zabezpieczone przez kryptografię i pośrednio przez energię zu�
 
 Podsumowując, Lightning Network to obiecująca próba wdrożenia efektywnego systemu płatności do transakcji w Bitcoinie. Dostępnych jest już wiele portfeli Lightning, które możesz odkryć w naszej sekcji samouczków lub poprzez nasze szkolenie z Lightning Network.
 
-## Przykłady zastosowania Lightning Network
+## Przykłady wykorzystania sieci Lightning Network
 
 ![Przypadki użycia LN](https://youtu.be/_UV2jmQ8TQM)
 
@@ -1093,7 +1093,7 @@ Jak właśnie widzieliśmy, protokół Bitcoina, choć rewolucyjny, napotyka zna
 - Eclair od Acinq
 - LND od Lightning Labs
 Ta sieć peer-to-peer ma na celu ułatwienie mikrotransakcji, czyli transakcji o bardzo niskiej wartości, które w przeciwnym razie byłyby niepraktyczne ze względu na wysokie opłaty i długie czasy potwierdzenia w łańcuchu bloków Bitcoina.
-### Jakie są przykłady zastosowania tej sieci?
+### Jakie są przykłady wykorzystania tej sieci?
 
 Ta technologia otwiera drzwi do szerokiego zakresu potencjalnych zastosowań dla Bitcoina, które wcześniej były poza zasięgiem ze względu na ograniczenia niezbędne do zapewnienia bezpieczeństwa i decentralizacji Bitcoina. Wśród tych zastosowań w codziennym życiu możemy wymienić natychmiastowe rozliczenia w handlu (zarówno fizycznym, jak i online), strumieniowanie pieniędzy dla płatności w czasie rzeczywistym oraz mikro-donacje za treści internetowe. Dzięki wdrożeniu sieci niemal natychmiastowych, bezpiecznych i niskokosztowych transakcji (średnio mniej niż 0,5%), można wdrożyć wiele modeli biznesowych, które wcześniej były nie do wyobrażenia. Jest to możliwe, ponieważ Lightning Network używa satów (dziesiętnych części bitcoina) do funkcjonowania.
 

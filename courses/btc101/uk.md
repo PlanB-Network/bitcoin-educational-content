@@ -969,7 +969,7 @@ objectives:
 
 ![Alt text](assets/posters/en/17._earn_your_bitcoin.webp)
 
-## Збереження з Bitcoin
+## Заощадження з Біткоїном
 <chapterId>1d9570c6-5b63-51a6-b87c-7bdb0fc4aa87</chapterId>
 
 ### Попередження перед початком!

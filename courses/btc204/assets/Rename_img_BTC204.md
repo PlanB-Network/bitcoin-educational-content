@@ -1,0 +1,493 @@
+- Original path for BTC204
+	- final path for BTC204
+
+
+- assets/en/11/1.webp
+	- assets/en/1.1/1.webp
+- assets/notext/11/2.webp
+	- assets/en/1.1/2.webp
+- assets/en/11/3.webp
+	- assets/en/1.1/3.webp
+- assets/en/11/4.webp
+	- assets/en/1.1/4.webp
+- assets/notext/11/5.webp
+	- assets/notext/1.1/1.webp
+- assets/en/21/1.webp
+	- assets/en/2.1/5.webp
+- assets/en/21/2.webp
+	- assets/en/2.1/6.webp
+- assets/en/21/3.webp
+	- assets/en/2.1/7.webp
+- assets/en/21/4.webp
+	- assets/en/2.1/8.webp
+- assets/en/22/1.webp
+	- assets/en/2.2/9.webp
+- assets/en/22/2.webp
+	- assets/en/2.2/10.webp
+- assets/en/22/3.webp
+	- assets/en/2.2/11.webp
+- assets/en/22/4.webp
+	- assets/en/2.2/12.webp
+- assets/en/22/5.webp
+	- assets/en/2.2/13.webp
+- assets/en/22/6.webp
+	- assets/en/2.2/14.webp
+- assets/en/22/7.webp
+	- assets/en/2.2/15.webp
+- assets/notext/23/1.webp
+	- assets/notext/2.3/2.webp
+- assets/notext/23/2.webp
+	- assets/notext/2.3/3.webp
+- assets/notext/23/3.webp
+	- assets/notext/2.3/4.webp
+- assets/notext/23/4.webp
+	- assets/notext/2.3/5.webp
+- assets/en/23/9.webp
+	- assets/en/2.3/16.webp
+- assets/en/31/1.webp
+	- assets/en/3.1/17.webp
+- assets/notext/31/2.webp
+	- assets/notext/3.1/6.webp
+- assets/notext/31/3.webp
+	- assets/notext/3.1/7.webp
+- assets/notext/31/4.webp
+	- assets/notext/3.1/8.webp
+- assets/notext/31/5.webp
+	- assets/notext/3.1/9.webp
+- assets/notext/31/6.webp
+	- assets/notext/3.1/10.webp
+- assets/en/32/01.webp
+	- assets/en/3.2/18.webp
+- assets/en/32/02.webp
+	- assets/en/3.2/19.webp
+- assets/en/32/03.webp
+	- assets/en/3.2/20.webp
+- assets/en/32/04.webp
+	- assets/en/3.2/21.webp
+- assets/en/32/05.webp
+	- assets/en/3.2/22.webp
+- assets/en/32/06.webp
+	- assets/en/3.2/23.webp
+- assets/en/32/07.webp
+	- assets/en/3.2/24.webp
+- assets/en/32/08.webp
+	- assets/en/3.2/25.webp
+- assets/en/32/09.webp
+	- assets/en/3.2/26.webp
+- assets/en/32/10.webp
+	- assets/en/3.2/27.webp
+- assets/en/32/11.webp
+	- assets/en/3.2/28.webp
+- assets/en/32/12.webp
+	- assets/en/3.2/29.webp
+- assets/en/33/01.webp
+	- assets/en/3.3/30.webp
+- assets/en/33/02.webp
+	- assets/en/3.3/31.webp
+- assets/notext/33/03.webp
+	- assets/notext/3.3/11.webp
+- assets/en/33/04.webp
+	- assets/en/3.3/32.webp
+- assets/notext/33/05.webp
+	- assets/notext/3.3/12.webp
+- assets/en/33/06.webp
+	- assets/en/3.3/33.webp
+- assets/en/33/07.webp
+	- assets/en/3.3/34.webp
+- assets/notext/33/08.webp
+	- assets/en/3.3/35.webp
+- assets/en/33/09.webp
+	- assets/en/3.3/36.webp
+- assets/notext/33/10.webp
+	- assets/notext/3.3/13.webp
+- assets/en/34/01.webp
+	- assets/en/3.4/37.webp
+- assets/notext/34/02.webp
+ 	- assets/notext/3.4/14.webp
+- assets/notext/34/03.webp
+	- assets/en/3.4/38.webp
+- assets/en/34/04.webp
+	- assets/en/3.4/39.webp
+- assets/notext/34/10.webp
+ 	- assets/notext/3.4/15.webp
+- assets/notext/34/11.webp
+ 	- assets/notext/3.4/16.webp
+- assets/notext/35/1.webp
+ 	- assets/notext/3.5/17.webp
+- assets/notext/35/2.webp
+ 	- assets/notext/3.5/18.webp
+- assets/notext/35/2.webp
+ 	- assets/notext/3.5/19.webp
+- assets/notext/41/01.webp
+	- assets/en/4.1/40.webp
+- assets/en/67/01.webp
+	- assets/en/4.1/41.webp
+- assets/notext/34/02.webp
+ 	- assets/notext/4.1/20.webp
+- assets/en/34/01.webp
+	- assets/en/4.1/42.webp
+- assets/en/33/02.webp
+	- assets/en/4.1/43.webp
+- assets/notext/41/02.webp
+	- assets/notext/4.1/21.webp
+- assets/notext/41/03.webp
+	- assets/notext/4.1/22.webp
+- assets/notext/42/01.webp
+	- assets/en/4.2/43.webp
+- assets/en/42/02.webp
+	- assets/en/4.2/44.webp
+- assets/en/42/03.webp
+	- assets/en/4.2/45.webp
+- assets/notext/42/04.webp
+	- assets/notext/4.2/23.webp
+- assets/notext/42/05.webp
+ 	- assets/en/4.2/46.webp
+- assets/notext/42/06.webp
+  	- assets/en/4.2/47.webp
+- assets/notext/42/07.webp
+  	- assets/en/4.2/48.webp
+- assets/notext/43/1.webp
+	- assets/notext/4.3/24.webp
+- assets/notext/43/2.webp
+  	- assets/en/4.3/49.webp
+- assets/notext/43/3.webp
+  	- assets/en/4.3/50.webp
+- assets/notext/43/4.webp
+	- assets/notext/4.3/25.webp
+- assets/notext/43/5.webp
+	- assets/notext/4.3/26.webp
+- assets/notext/43/6.webp
+	- assets/notext/4.3/27.webp
+- assets/notext/44/01.webp
+	- assets/notext/4.4/28.webp
+- assets/notext/44/02.webp
+	- assets/notext/4.4/29.webp
+- assets/notext/44/03.webp
+	- assets/notext/4.4/30.webp
+- assets/notext/44/04.webp
+	- assets/notext/4.4/31.webp
+- assets/notext/44/05.webp
+	- assets/notext/4.4/32.webp
+- assets/notext/44/06.webp
+	- assets/notext/4.4/33.webp
+- assets/notext/44/07.webp
+	- assets/notext/4.4/34.webp
+- assets/notext/44/03.webp
+	- assets/notext/4.4/35.webp
+- assets/notext/44/08.webp
+	- assets/notext/4.4/36.webp
+- assets/notext/44/09.webp
+	- assets/notext/4.4/37.webp
+- assets/notext/44/10.webp
+	- assets/notext/4.4/38.webp
+- assets/notext/45/01.webp
+  	- assets/en/4.5/51.webp
+- assets/notext/45/02.webp
+  	- assets/en/4.5/52.webp
+- assets/en/45/03.webp
+  	- assets/en/4.5/53.webp
+- assets/notext/45/04.webp
+  	- assets/en/4.5/54.webp
+- assets/notext/45/05.webp
+  	- assets/en/4.5/55.webp
+- assets/notext/46/01.webp
+	- assets/notext/4.6/39.webp
+- assets/notext/46/02.webp
+	- assets/notext/4.6/40.webp
+- assets/notext/46/03.webp
+	- assets/notext/4.6/41.webp
+- assets/notext/46/04.webp
+	- assets/notext/4.6/42.webp
+- assets/en/51/01.webp
+  	- assets/en/5.1/56.webp
+- assets/notext/51/02.webp
+  	- assets/en/5.1/57.webp
+- assets/notext/51/03.webp
+  	- assets/en/5.1/58.webp
+- assets/notext/51/04.webp
+  	- assets/en/5.1/59.webp
+- assets/notext/51/05.webp
+  	- assets/en/5.1/60.webp
+- assets/notext/51/06.webp
+  	- assets/en/5.1/61.webp
+- assets/notext/51/07.webp
+  	- assets/en/5.1/62.webp
+- assets/notext/51/08.webp
+  	- assets/en/5.1/63.webp
+- assets/notext/51/09.webp
+  	- assets/en/5.1/64.webp
+- assets/notext/51/10.webp
+  	- assets/en/5.1/65.webp
+- assets/notext/51/11.webp
+  	- assets/en/5.1/66.webp
+- assets/notext/51/02.webp
+  	- assets/en/5.1/67.webp
+- assets/notext/51/12.webp
+	- assets/notext/5.1/43.webp
+- assets/notext/51/13.webp
+	- assets/notext/5.1/44.webp
+- assets/notext/52/01.webp
+	- assets/notext/5.2/45.webp
+- assets/notext/52/02.webp
+	- assets/notext/5.2/46.webp
+- assets/notext/52/03.webp
+  	- assets/en/5.2/68.webp
+- assets/notext/52/04.webp
+  	- assets/en/5.2/69.webp
+- assets/notext/52/05.webp
+  	- assets/en/5.2/70.webp
+- assets/notext/52/06.webp
+  	- assets/en/5.2/71.webp
+- assets/notext/52/07.webp
+  	- assets/en/5.2/72.webp
+- assets/notext/52/08.webp
+  	- assets/en/5.2/73.webp
+- assets/notext/52/09.webp
+	- assets/notext/5.2/47.webp
+- assets/notext/52/10.webp
+	- assets/notext/5.2/48.webp
+- assets/notext/52/11.webp
+	- assets/notext/5.2/49.webp
+- assets/notext/52/12.webp
+  	- assets/en/5.2/74.webp
+- assets/notext/52/13.webp
+  	- assets/en/5.2/75.webp
+- assets/notext/52/14.webp
+  	- assets/en/5.2/76.webp
+- assets/notext/53/01.webp
+	- assets/notext/5.3/50.webp
+- assets/notext/53/02.webp
+	- assets/notext/5.3/51.webp
+- assets/notext/53/03.webp
+	- assets/notext/5.3/52.webp
+- assets/notext/53/04.webp
+	- assets/notext/5.3/53.webp
+- assets/notext/53/05.webp
+  	- assets/en/5.3/77.webp
+- assets/notext/53/06.webp
+  	- assets/en/5.3/78.webp
+- assets/notext/54/01.webp
+	- assets/notext/5.4/54.webp
+- assets/notext/54/02.webp
+  	- assets/en/5.4/79.webp
+- assets/notext/54/03.webp
+  	- assets/en/5.4/80.webp
+- assets/notext/54/04.webp
+  	- assets/en/5.4/81.webp
+- assets/notext/54/05.webp
+  	- assets/en/5.4/82.webp
+- assets/notext/54/06.webp
+	- assets/notext/5.4/55.webp
+- assets/en/54/07.webp
+	- assets/notext/5.4/56.webp
+- assets/en/54/08.webp
+  	- assets/en/5.4/83.webp
+- assets/en/54/09.webp
+  	- assets/en/5.4/84.webp
+- assets/notext/54/10.webp
+  	- assets/en/5.4/85.webp
+- assets/notext/54/11.webp
+  	- assets/en/5.4/86.webp
+- assets/notext/54/12.webp
+  	- assets/en/5.4/87.webp
+- assets/notext/54/13.webp
+  	- assets/en/5.4/88.webp
+- assets/notext/54/14.webp
+	- assets/notext/5.4/57.webp
+- assets/en/55/01.webp
+  	- assets/en/5.5/89.webp
+- assets/en/55/02.webp
+  	- assets/en/5.5/90.webp
+- assets/en/55/03.webp
+  	- assets/en/5.5/91.webp
+- assets/notext/55/04.webp
+  	- assets/en/5.5/92.webp
+- assets/en/55/05.webp
+  	- assets/en/5.5/93.webp
+- assets/en/55/06.webp
+  	- assets/en/5.5/94.webp
+- assets/notext/55/07.webp
+  	- assets/en/5.5/95.webp
+- assets/en/55/08.webp
+  	- assets/en/5.5/96.webp
+- assets/notext/56/01.webp
+  	- assets/en/5.6/97.webp
+- assets/notext/56/02.webp
+  	- assets/en/5.6/98.webp
+- assets/notext/56/03.webp
+  	- assets/en/5.6/99.webp
+- assets/notext/56/04.webp
+  	- assets/en/5.6/100.webp
+- assets/notext/56/05.webp
+	- assets/notext/5.6/58.webp
+- assets/notext/56/06.webp
+	- assets/notext/5.6/59.webp
+- assets/notext/61/01.webp
+  	- assets/en/6.1/101.webp
+- assets/notext/61/02.webp
+  	- assets/en/6.1/102.webp
+- assets/en/61/03.webp
+  	- assets/en/6.1/103.webp
+- assets/notext/61/04.webp
+  	- assets/en/6.1/104.webp
+- assets/en/61/05.webp
+  	- assets/en/6.1/105.webp
+- assets/en/61/06.webp
+  	- assets/en/6.1/106.webp
+- assets/notext/61/07.webp
+	- assets/notext/6.1/60.webp
+- assets/notext/61/08.webp
+	- assets/notext/6.1/61.webp
+- assets/notext/62/01.webp
+  	- assets/en/6.2/107.webp
+- assets/notext/62/02.webp
+  	- assets/en/6.2/108.webp
+- assets/notext/62/03.webp
+  	- assets/en/6.2/109.webp
+- assets/notext/62/04.webp
+  	- assets/en/6.2/110.webp
+- assets/notext/62/05.webp
+  	- assets/en/6.2/111.webp
+- assets/notext/62/06.webp
+  	- assets/en/6.2/112.webp
+- assets/notext/62/07.webp
+  	- assets/en/6.2/113.webp
+- assets/notext/62/08.webp
+  	- assets/en/6.2/114.webp
+- assets/notext/62/09.webp
+  	- assets/en/6.2/115.webp
+- assets/notext/62/10.webp
+  	- assets/en/6.2/116.webp
+- assets/notext/62/11.webp
+	- assets/notext/6.2/62.webp
+- assets/notext/63/01.webp
+	- assets/notext/6.3/63.webp
+- assets/notext/63/02.webp
+	- assets/notext/6.3/64.webp
+- assets/en/63/03.webp
+  	- assets/en/6.3/117.webp
+- assets/en/63/04.webp
+  	- assets/en/6.3/118.webp
+- assets/notext/63/05.webp
+  	- assets/en/6.3/119.webp
+- assets/en/63/06.webp
+  	- assets/en/6.3/120.webp
+- assets/notext/63/07.webp
+	- assets/notext/6.3/65.webp
+- assets/notext/63/08.webp
+	- assets/notext/6.3/66.webp
+- assets/notext/63/09.webp
+	- assets/notext/6.3/67.webp
+- assets/notext/64/01.webp
+	- assets/notext/6.4/68.webp
+- assets/notext/64/02.webp
+	- assets/notext/6.4/69.webp
+- assets/notext/64/03.webp
+	- assets/notext/6.4/70.webp
+- assets/notext/64/04.webp
+	- assets/notext/6.4/71.webp
+- assets/notext/64/05.webp
+	- assets/notext/6.4/72.webp
+- assets/notext/64/06.webp
+	- assets/notext/6.4/73.webp
+- assets/en/64/07.webp
+  	- assets/en/6.4/121.webp
+- assets/en/64/08.webp
+  	- assets/en/6.4/122.webp
+- assets/notext/64/09.webp
+	- assets/notext/6.4/74.webp
+- assets/notext/65/01.webp
+  	- assets/en/6.5/123.webp
+- assets/notext/65/02.webp
+  	- assets/en/6.5/124.webp
+- assets/notext/65/03.webp
+  	- assets/en/6.5/125.webp
+- assets/notext/65/04.webp
+  	- assets/en/6.5/126.webp
+- assets/notext/65/05.webp
+  	- assets/en/6.5/127.webp
+- assets/notext/65/06.webp
+  	- assets/en/6.5/128.webp
+- assets/notext/65/07.webp
+  	- assets/en/6.5/129.webp
+- assets/notext/65/08.webp
+	- assets/notext/6.5/75.webp
+- assets/notext/66/1.webp
+	- assets/notext/6.6/76.webp
+- assets/notext/66/2.webp
+	- assets/notext/6.6/77.webp
+- assets/notext/66/3.webp
+	- assets/notext/6.6/78.webp
+- assets/en/66/4.webp
+  	- assets/en/6.6/130.webp
+- assets/en/66/5.webp
+  	- assets/en/6.6/131.webp
+- assets/notext/66/6.webp
+	- assets/notext/6.6/79.webp
+- assets/en/66/7.webp
+  	- assets/en/6.6/132.webp
+- assets/en/66/8.webp
+  	- assets/en/6.6/133.webp
+- assets/notext/66/9.webp
+	- assets/notext/6.6/80.webp
+- assets/en/66/10.webp
+  	- assets/en/6.6/134.webp
+- assets/notext/66/11.webp
+	- assets/notext/6.6/81.webp
+- assets/en/66/12.webp
+  	- assets/en/6.6/135.webp
+- assets/notext/66/13.webp
+	- assets/notext/6.6/82.webp
+- assets/notext/66/14.webp
+	- assets/notext/6.6/83.webp
+- assets/en/66/15.webp
+  	- assets/en/6.6/136.webp
+- assets/en/66/16.webp
+  	- assets/en/6.6/137.webp
+- assets/en/66/17.webp
+  	- assets/en/6.6/138.webp
+- assets/notext/66/18.webp
+	- assets/notext/6.6/84.webp
+- assets/en/66/19.webp
+  	- assets/en/6.6/139.webp
+- assets/en/66/20.webp
+  	- assets/en/6.6/140.webp
+- assets/en/66/21.webp
+  	- assets/en/6.6/141.webp
+- assets/en/66/22.webp
+  	- assets/en/6.6/142.webp
+- assets/notext/66/23.webp
+  	- assets/en/6.6/143.webp
+- assets/en/66/24.webp
+  	- assets/en/6.6/144.webp
+- assets/en/66/19.webp
+  	- assets/en/6.6/145.webp
+- assets/en/66/25.webp
+  	- assets/en/6.6/146.webp
+- assets/en/66/26.webp
+  	- assets/en/6.6/147.webp
+- assets/en/67/01.webp
+  	- assets/en/6.7/148.webp
+- assets/notext/67/02.webp
+	- assets/notext/6.7/85.webp
+- assets/notext/67/03.webp
+	- assets/notext/6.7/86.webp
+- assets/notext/67/04.webp
+	- assets/notext/6.7/87.webp
+- assets/notext/67/05.webp
+  	- assets/en/6.7/149.webp
+- assets/notext/67/06.webp
+	- assets/notext/6.7/88.webp
+- assets/notext/67/07.webp
+	- assets/notext/6.7/89.webp
+
+
+
+
+
+
+
+
+
+
+

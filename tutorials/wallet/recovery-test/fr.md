@@ -55,6 +55,8 @@ J'ai soigneusement noté ma phrase mnémonique de 12 mots sur un papier. Et puis
 Passphrase : YfaicGzXH9t5C#g&47Kzbc$JL
 ```
 
+***Évidemment, vous ne devez jamais partager votre phrase mnémonique et votre passphrase sur internet, contrairement à ce que je fais dans ce tutoriel. Ce portefeuille en exemple ne sera pas utilisé et sera supprimé à l'issue du tutoriel.***
+
 Je vais maintenant noter sur un brouillon une information témoin de mon portefeuille. Vous pouvez choisir différentes informations, comme la première adresse de réception, la xpub, ou l'empreinte de la clé maîtresse. Personnellement, je recommande de choisir la première adresse de réception. Cela permet de vérifier que vous êtes capable de retrouver le premier chemin de dérivation complet menant à cette adresse.
 
 Sur Sparrow, cliquez sur l'onglet "*Addresses*".

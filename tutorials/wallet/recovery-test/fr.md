@@ -4,7 +4,7 @@ description: Comment tester vos sauvegardes pour ne pas perdre vos bitcoins ?
 ---
 ![cover](assets/cover.webp)
 
-Lors de la création d'un portefeuille Bitcoin, il vous est demandé de noter une phrase mnémonique, généralement composée de 12 ou 24 mots. Cette phrase vous permet de récupérer l'accès à vos bitcoins en cas de perte, casse ou vol de l'appareil hébergeant votre portefeuille. Avant de commencer à utiliser votre nouveau portefeuille Bitcoin, il est très important de vérifier la validité de votre phrase mnémonique. Le meilleur moyen de le faire est d'effectuer un test de récupération à vide.
+Lors de la création d'un portefeuille Bitcoin, il vous est demandé de noter une phrase mnémonique, généralement composée de 12 ou 24 mots. Cette phrase vous permet de récupérer l'accès à vos bitcoins en cas de perte, casse ou vol de l'appareil hébergeant votre portefeuille. Avant de commencer à utiliser votre nouveau portefeuille Bitcoin, il est très important de vérifier la validité de cette phrase mnémonique. Le meilleur moyen de le faire est d'effectuer un test de récupération à vide.
 
 Ce test consiste à simuler une restauration du portefeuille avant d'y déposer des bitcoins. Tant que le portefeuille est vide, on simule une situation où le dispositif hébergeant nos clés est perdu, et il ne nous reste que notre phrase mnémonique pour tenter de récupérer nos bitcoins.
 

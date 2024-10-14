@@ -57,7 +57,7 @@ Passphrase : YfaicGzXH9t5C#g&47Kzbc$JL
 
 Je vais maintenant noter sur un brouillon une information témoin de mon portefeuille. Vous pouvez choisir différentes informations, comme la première adresse de réception, la xpub, ou l'empreinte de la clé maîtresse. Personnellement, je recommande de choisir la première adresse de réception. Cela permet de vérifier que vous êtes capable de retrouver le premier chemin de dérivation complet menant à cette adresse.
 
-Sur Sparrow, cliquez sur l'onglet "Addresses".
+Sur Sparrow, cliquez sur l'onglet "*Addresses*".
 
 ![RECOVERY TEST](assets/notext/03.webp)
 
@@ -69,7 +69,7 @@ tb1qxv56mma5x5r7uhdkn0ldvcx6m0gj6f3kre0gwd
 
 ![RECOVERY TEST](assets/notext/04.webp)
 
-Après avoir noté l'information, allez dans le menu "File", puis sélectionnez "Delete Wallet". Je vous rappelle une fois de plus que votre portefeuille Bitcoin doit être vide avant de procéder à cette opération.
+Après avoir noté l'information, allez dans le menu "*File*", puis sélectionnez "*Delete Wallet*". Je vous rappelle une fois de plus que votre portefeuille Bitcoin doit être vide avant de procéder à cette opération.
 
 ![RECOVERY TEST](assets/notext/05.webp)
 
@@ -77,7 +77,7 @@ Si votre portefeuille est bien vide, confirmez la suppression de votre portefeui
 
 ![RECOVERY TEST](assets/notext/06.webp)
 
-Maintenant il faut répéter le processus de création du portefeuille, mais en utilisant nos sauvegardes papier. Cliquez sur le menu "File" puis sur "New Wallet".
+Maintenant il faut répéter le processus de création du portefeuille, mais en utilisant nos sauvegardes papier. Cliquez sur le menu "*File*" puis sur "*New Wallet*".
 
 ![RECOVERY TEST](assets/notext/07.webp)
 
@@ -85,11 +85,11 @@ Entrez de nouveau le nom de votre portefeuille.
 
 ![RECOVERY TEST](assets/notext/08.webp)
 
-Dans le menu "Script Type", il faut que vous choisissiez le même type de script que le portefeuille précédemment supprimé.
+Dans le menu "*Script Type*", il faut que vous choisissiez le même type de script que le portefeuille précédemment supprimé.
 
 ![RECOVERY TEST](assets/notext/09.webp)
 
-Puis cliquez sur le bouton "New or Imported Software Wallet".
+Puis cliquez sur le bouton "*New or Imported Software Wallet*".
 
 ![RECOVERY TEST](assets/notext/10.webp)
 
@@ -97,7 +97,7 @@ Sélectionnez le bon nombre de mots pour votre seed.
 
 ![RECOVERY TEST](assets/notext/11.webp)
 
-Entrez votre phrase mnémonique dans le logiciel. Si un message "Invalid Checksum" s'affiche, cela indique que la sauvegarde de votre phrase mnémonique est incorrecte. Vous devrez alors recommencer la création de votre portefeuille de zéro, car votre test de récupération a échoué.
+Entrez votre phrase mnémonique dans le logiciel. Si un message "*Invalid Checksum*" s'affiche, cela indique que la sauvegarde de votre phrase mnémonique est incorrecte. Vous devrez alors recommencer la création de votre portefeuille de zéro, car votre test de récupération a échoué.
 
 ![RECOVERY TEST](assets/notext/12.webp)
 
@@ -105,15 +105,15 @@ Si vous disposez d'une passphrase, comme dans mon cas, renseignez-la également.
 
 ![RECOVERY TEST](assets/notext/13.webp)
 
-Cliquez sur "Create Keystore", puis sur "Import Keystore".
+Cliquez sur "*Create Keystore*", puis sur "*Import Keystore*".
 
 ![RECOVERY TEST](assets/notext/14.webp)
 
-Et enfin, cliquez sur le bouton "Apply".
+Et enfin, cliquez sur le bouton "*Apply*".
 
 ![RECOVERY TEST](assets/notext/15.webp)
 
-Vous pouvez maintenant retourner dans l'onglet "Addresses".
+Vous pouvez maintenant retourner dans l'onglet "*Addresses*".
 
 ![RECOVERY TEST](assets/notext/16.webp)
 

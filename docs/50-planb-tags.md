@@ -48,4 +48,5 @@
 46. deep-dive: the selected tag explains something deep, regardless of its actual bitcoin-grade content
 47. high-level: opposite of deep-dive
 48. easy-explain: describe if a content needs simplified writing style
-49. experimental: meta-tag that addresses features, ideas, concepts that are still not available for immedaite use, but that will be better known in the next future
+49. experimental: meta-tag that addresses features, ideas, concepts that are still not available for immediate use, but that will be better known in the next future
+50. business: about companies and startup in the Bitcoin ecosystem

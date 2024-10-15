@@ -824,7 +824,7 @@ The Hashrate of the Bitcoin network represents the number of attempts made per s
 
 ![image](assets/en/chapter12/20.webp)
 
-The block header contains several elements such as the time, the difficulty target, the number of the last block, the version used, and the Merkel Root of the previous transactions.
+The block header contains several elements such as the time, the difficulty target, the number of the last block, the version used, and the Merkle Root of the previous transactions.
 
 The coinbase transaction is always the first one; it includes the reward received for performing the validator's work. Then come the validated transactions. The miner will choose the transactions that pay the most and try to create a block that maximizes their income, namely small-sized transactions with maximum fees.
 

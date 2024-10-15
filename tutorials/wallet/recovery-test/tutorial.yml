@@ -1,0 +1,27 @@
+id: 5a75db51-a6a1-4338-a02a-164a8d91b895
+
+builder: None
+
+tags:
+  - wallets
+  - software
+  - backup
+  - good-practice
+
+category: backup
+
+level: beginner
+
+credits:
+  professor: pretty-private
+
+# Proofreading metadata
+
+original_language: fr
+proofreading:
+  - language: fr
+    last_contribution_date: 2024-10-14
+    urgency:
+    contributors_id:
+      - LoicPandul
+    reward:

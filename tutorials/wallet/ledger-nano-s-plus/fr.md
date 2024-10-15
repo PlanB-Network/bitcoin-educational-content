@@ -24,7 +24,7 @@ La Ledger Nano S Plus est un hardware wallet produit par l’entreprise françai
 
 02
 
-La Nano S Plus est équipée d’une puce certifiée CC EAL6+ ("secure element"), ce qui vous offre une protection avancée contre les attaques physiques contre le hardware. L'écran et les boutons sont directement contrôlés par cette puce. Un point de critique souvent soulevé est que le code de cette puce n'est pas open-source, ce qui impose une certaine confiance dans l’intégrité de ce composant. Néanmoins, cet élément est audité par des experts indépendants.
+La Nano S Plus est équipée d’une puce certifiée CC EAL6+ ("*secure element*"), ce qui vous offre une protection avancée contre les attaques physiques contre le hardware. L'écran et les boutons sont directement contrôlés par cette puce. Un point de critique souvent soulevé est que le code de cette puce n'est pas open-source, ce qui impose une certaine confiance dans l’intégrité de ce composant. Néanmoins, cet élément est audité par des experts indépendants.
 
 En termes d’usage, la Ledger Nano S Plus fonctionne uniquement en connexion filaire USB-C.
 
@@ -66,7 +66,7 @@ Faites défiler les différentes pages de présentation puis cliquez sur les 2 b
 
 05
 
-Sélectionnez l'option "Setup as a new device".
+Sélectionnez l'option "*Setup as a new device*".
 
 06
 
@@ -108,7 +108,7 @@ Une fois tous les mots notés, cliquez sur les 2 boutons pour passer à l'étape
 
 13
 
-Cliquez sur le deux boutons "Confirm your Recovery phrase", puis sélectionnez les mots de votre phrase mnémonique en fonction de leur ordre pour confirmer que vous les avez correctement notés. Utilisez les boutons de gauche et de droite pour naviguer entre les propositions, puis sélectionnez le bon mot en cliquant sur les 2 boutons. Continuez cette procédure jusqu'au 24e mot.
+Cliquez sur le deux boutons "*Confirm your Recovery phrase*", puis sélectionnez les mots de votre phrase mnémonique en fonction de leur ordre pour confirmer que vous les avez correctement notés. Utilisez les boutons de gauche et de droite pour naviguer entre les propositions, puis sélectionnez le bon mot en cliquant sur les 2 boutons. Continuez cette procédure jusqu'au 24e mot.
 
 14
 
@@ -124,31 +124,31 @@ Pour accéder aux paramètres, maintenez les 2 boutons enfoncés durant quelques
 
 16
 
-Cliquez sur le menu "Settings".
+Cliquez sur le menu "*Settings*".
 
 17
 
-Et choisissez "General".
+Et choisissez "*General*".
 
 18
 
-Dans le menu "Language", vous pouvez changer la langue d'affichage.
+Dans le menu "*Language*", vous pouvez changer la langue d'affichage.
 
 19
 
-Dans le menu "Brightness", vous pouvez modifier la luminosité de l'écran. Le reste des paramètres généraux ne nous intéressent pas pour le moment.
+Dans le menu "*Brightness*", vous pouvez modifier la luminosité de l'écran. Le reste des paramètres généraux ne nous intéressent pas pour le moment.
 
 20
 
-Rendez-vous maintenant dans la section des paramètres "Security".
+Rendez-vous maintenant dans la section des paramètres "*Security*".
 
 21
 
-"Change PIN" vous permet de changer votre code PIN.
+"*Change PIN*" vous permet de changer votre code PIN.
 
 22
 
-"Passphrase" vous permet de configurer une passphrase BIP39. La passphrase est un mot de passe optionnel qui, combiné à la phrase de récupération, offre une couche de sécurité supplémentaire pour votre portefeuille.
+"*Passphrase*" vous permet de configurer une passphrase BIP39. La passphrase est un mot de passe optionnel qui, combiné à la phrase de récupération, offre une couche de sécurité supplémentaire pour votre portefeuille.
 
 23
 
@@ -160,21 +160,21 @@ La passphrase est un outil très puissant pour renforcer la sécurité de vos bi
 
 https://planb.network/tutorials/wallet/passphrase-ledger
 
-Le menu "PIN lock" vous permet de configurer et d'activer le verrouillage automatique de votre Ledger après une période d'inactivité déterminée.
+Le menu "*PIN lock*" vous permet de configurer et d'activer le verrouillage automatique de votre Ledger après une période d'inactivité déterminée.
 
 24
 
-Le menu "Screen saver" vous permet de régler la mise en veille de votre Ledger Nano. Notez que la mise en veille de l'écran ne requiert pas la saisie du PIN à la sortie de veille, à moins que l'option "PIN lock" ne soit activée pour correspondre à la mise en veille. Cette fonctionnalité est surtout utile pour les Ledger Nano X équipées d'une batterie, afin de réduire leur consommation énergétique.
+Le menu "*Screen saver*" vous permet de régler la mise en veille de votre Ledger Nano. Notez que la mise en veille de l'écran ne requiert pas la saisie du PIN à la sortie de veille, à moins que l'option "*PIN lock*" ne soit activée pour correspondre à la mise en veille. Cette fonctionnalité est surtout utile pour les Ledger Nano X équipées d'une batterie, afin de réduire leur consommation énergétique.
 
 25
 
-Enfin, le menu "Reset device" vous permet de réinitialiser votre Ledger. Ne procédez à cette réinitialisation que si vous êtes certain qu'il ne contient aucune clé sécurisant des bitcoins, car vous risqueriez de perdre définitivement l'accès à vos fonds. Cette option peut être utile pour faire un test de récupération à vide, mais je vous en parle un peu plus loin.
+Enfin, le menu "*Reset device*" vous permet de réinitialiser votre Ledger. Ne procédez à cette réinitialisation que si vous êtes certain qu'il ne contient aucune clé sécurisant des bitcoins, car vous risqueriez de perdre définitivement l'accès à vos fonds. Cette option peut être utile pour faire un test de récupération à vide, mais je vous en parle un peu plus loin.
 
 26
 
 ## Comment installer l'application Bitcoin ?
 
-Commencez par lancer le logiciel Ledger Live sur votre ordinateur, puis connectez et déverrouillez votre Ledger Nano. Sur Ledger Live, allez dans le menu "My Ledger". On vous demande d'autoriser l'accès à votre Nano.
+Commencez par lancer le logiciel Ledger Live sur votre ordinateur, puis connectez et déverrouillez votre Ledger Nano. Sur Ledger Live, allez dans le menu "*My Ledger*". On vous demande d'autoriser l'accès à votre Nano.
 
 27
 
@@ -182,13 +182,13 @@ Validez l'accès sur votre Ledger en cliquant sur les deux boutons.
 
 28
 
-Tout d'abord, sur Ledger Live, assurez-vous que la mention "Genuine check" apparaisse. Cela confirme que votre appareil est authentique.
+Tout d'abord, sur Ledger Live, assurez-vous que la mention "*Genuine check*" apparaisse. Cela confirme que votre appareil est authentique.
 
 29
 
-Si le firmware de votre Ledger Nano n'est pas à jour, Ledger Live vous proposera automatiquement de le mettre à jour. Le cas échéant, cliquez sur "Update firmware", puis sur "Install update" pour lancer l'installation. Sur votre Ledger, cliquez sur les deux boutons pour confirmer, puis patientez le temps de l'installation.
+Si le firmware de votre Ledger Nano n'est pas à jour, Ledger Live vous proposera automatiquement de le mettre à jour. Le cas échéant, cliquez sur "*Update firmware*", puis sur "*Install update*" pour lancer l'installation. Sur votre Ledger, cliquez sur les deux boutons pour confirmer, puis patientez le temps de l'installation.
 
-Enfin, nous allons ajouter l'application Bitcoin. Pour ce faire, sur Ledger Live, cliquez sur le bouton "Install" à côté de "Bitcoin (BTC)".
+Enfin, nous allons ajouter l'application Bitcoin. Pour ce faire, sur Ledger Live, cliquez sur le bouton "*Install*" à côté de "*Bitcoin (BTC)*".
 
 30
 
@@ -208,37 +208,37 @@ Ouvrez Sparrow Wallet et passez les pages d'introduction pour accéder à l'écr
 
 Je vous recommande vivement d'utiliser votre propre nœud Bitcoin. Dans ce tutoriel, j'utilise un nœud public (jaune) car je suis sur le testnet, mais pour une utilisation normale, il est préférable d'opter pour un Bitcoin Core local (vert) ou un serveur Electrum associé à un nœud distant (bleu).
 
-Cliquez sur le menu "File" puis "New Wallet".
+Cliquez sur le menu "*File*" puis "*New Wallet*".
 
 34
 
-Choisissez un nom pour ce portefeuille, puis cliquez sur "Create Wallet".
+Choisissez un nom pour ce portefeuille, puis cliquez sur "*Create Wallet*".
 
 35
 
-Dans le menu déroulant "Script Type", sélectionnez le type de script qui sera utilisé pour sécuriser vos bitcoins. Je vous recommande d'opter pour "Taproot", ou à défaut, "Native SegWit".
+Dans le menu déroulant "*Script Type*", sélectionnez le type de script qui sera utilisé pour sécuriser vos bitcoins. Je vous recommande d'opter pour "*Taproot*", ou à défaut, "*Native SegWit*".
 
 36
 
-Cliquez sur le bouton "Connected Hardware Wallet".
+Cliquez sur le bouton "*Connected Hardware Wallet*".
 
 37
 
-Si ce n'est pas déjà fait, connectez votre Ledger Nano S Plus à l'ordinateur, déverrouillez-la avec votre code PIN, puis ouvrez l'application "Bitcoin" en cliquant sur les 2 boutons une fois sur le logo de Bitcoin.
+Si ce n'est pas déjà fait, connectez votre Ledger Nano S Plus à l'ordinateur, déverrouillez-la avec votre code PIN, puis ouvrez l'application "*Bitcoin*" en cliquant sur les 2 boutons une fois sur le logo de Bitcoin.
 
 *Dans ce tutoriel, j'utilise l'application Bitcoin Testnet, mais la procédure reste identique pour le mainnet.*
 
 38
 
-Sur Sparrow, cliquez sur le bouton "Scan".
+Sur Sparrow, cliquez sur le bouton "*Scan*".
 
 39
 
-Puis cliquez sur "Import Keystore".
+Puis cliquez sur "*Import Keystore*".
 
 40
 
-Vous pouvez maintenant voir les détails de votre portefeuille, y compris la clé publique étendue de votre premier compte. Cliquez sur le bouton "Apply" pour finaliser la création du portefeuille.
+Vous pouvez maintenant voir les détails de votre portefeuille, y compris la clé publique étendue de votre premier compte. Cliquez sur le bouton "*Apply*" pour finaliser la création du portefeuille.
 
 41
 
@@ -260,17 +260,17 @@ https://planb.network/tutorials/wallet/recovery-test
 
 ## Comment recevoir des bitcoins avec la Ledger Nano ?
 
-Cliquez sur l'onglet "Receive".
+Cliquez sur l'onglet "*Receive*".
 
 44
 
-Connectez votre Ledger Nano S Plus à l'ordinateur, déverrouillez-la avec votre code PIN, puis ouvrez l'application "Bitcoin".
+Connectez votre Ledger Nano S Plus à l'ordinateur, déverrouillez-la avec votre code PIN, puis ouvrez l'application "*Bitcoin*".
 
 45
 
 Avant d'utiliser l'adresse proposée par Sparrow Wallet, vérifiez-la sur l'écran de votre Ledger. Cette pratique vous permet de confirmer que l'adresse affichée sur Sparrow n'est pas frauduleuse et que le hardware wallet détient bien la clé privée nécessaire pour dépenser ultérieurement les bitcoins sécurisés avec cette adresse. Cela vous permet d'éviter plusieurs types d'attaques.
 
-Pour effectuer cette vérification, cliquez sur le bouton "Display Address".
+Pour effectuer cette vérification, cliquez sur le bouton "*Display Address*".
 
 46
 
@@ -278,11 +278,11 @@ Vérifiez que l'adresse affichée sur votre Ledger correspond à celle indiquée
 
 47
 
-Puis cliquez sur "Approve" si les adresses sont bien identiques.
+Puis cliquez sur "*Approve*" si les adresses sont bien identiques.
 
 48
 
-Vous pouvez ajouter un "Label" pour décrire la source des bitcoins qui seront sécurisés avec cette adresse. C'est une bonne pratique qui vous permet de mieux gérer vos UTXOs.
+Vous pouvez ajouter un "*Label*" pour décrire la source des bitcoins qui seront sécurisés avec cette adresse. C'est une bonne pratique qui vous permet de mieux gérer vos UTXOs.
 
 49
 
@@ -296,19 +296,19 @@ Vous pouvez ensuite utiliser cette adresse pour recevoir des bitcoins.
 
 ## Comment envoyer des bitcoins avec la Ledger Nano ?
 
-Maintenant que vous avez reçu vos premiers sats sur votre portefeuille sécurisé avec la Nano S Plus, vous pouvez également les dépenser ! Connectez votre Ledger à votre ordinateur, déverrouillez-la, lancez Sparrow Wallet, puis allez dans l'onglet "Send" pour construire une nouvelle transaction.
+Maintenant que vous avez reçu vos premiers sats sur votre portefeuille sécurisé avec la Nano S Plus, vous pouvez également les dépenser ! Connectez votre Ledger à votre ordinateur, déverrouillez-la, lancez Sparrow Wallet, puis allez dans l'onglet "*Send*" pour construire une nouvelle transaction.
 
 51
 
-Si vous souhaitez faire du "coin control", c'est-à-dire choisir spécifiquement quels UTXOs consommer dans la transaction, rendez-vous dans l'onglet "UTXOs". Sélectionnez les UTXOs que vous souhaitez dépenser, puis cliquez sur "Send Selected". Vous serez redirigé vers le même écran de l'onglet "Send", mais avec vos UTXOs déjà sélectionnés pour la transaction.
+Si vous souhaitez faire du "*coin control*", c'est-à-dire choisir spécifiquement quels UTXOs consommer dans la transaction, rendez-vous dans l'onglet "*UTXOs*". Sélectionnez les UTXOs que vous souhaitez dépenser, puis cliquez sur "*Send Selected*". Vous serez redirigé vers le même écran de l'onglet "*Send*", mais avec vos UTXOs déjà sélectionnés pour la transaction.
 
 52
 
-Entrez l'adresse de destination. Vous pouvez également entrer plusieurs adresses en cliquant sur le bouton "+ Add".
+Entrez l'adresse de destination. Vous pouvez également entrer plusieurs adresses en cliquant sur le bouton "*+ Add*".
 
 53
 
-Notez un "Label" pour vous souvenir de l'objet de cette dépense.
+Notez un "*Label*" pour vous souvenir de l'objet de cette dépense.
 
 54
 
@@ -320,19 +320,19 @@ Ajustez le taux de frais de votre transaction en fonction du marché du moment.
 
 56
 
-Assurez-vous que tous les paramètres de votre transaction sont corrects, puis cliquez sur "Create Transaction".
+Assurez-vous que tous les paramètres de votre transaction sont corrects, puis cliquez sur "*Create Transaction*".
 
 57
 
-Si tout vous convient, cliquez sur "Finalize Transaction for Signing".
+Si tout vous convient, cliquez sur "*Finalize Transaction for Signing*".
 
 58
 
-Cliquez sur "Sign".
+Cliquez sur "*Sign*".
 
 59
 
-Cliquez sur "Sign" à côté de votre Ledger Nano S Plus.
+Cliquez sur "*Sign*" à côté de votre Ledger Nano S Plus.
 
 60
 
@@ -340,19 +340,19 @@ Vérifiez les paramètres de la transaction sur l'écran de votre Ledger, notamm
 
 61
 
-Si tout vous convient, cliquez sur "Continue".
+Si tout vous convient, cliquez sur "*Continue*".
 
 62
 
-Puis cliquez sur les deux boutons sur "Sign transaction" pour signer.
+Puis cliquez sur les deux boutons sur "*Sign transaction*" pour signer.
 
 63
 
-Votre transaction est désormais signée. Vérifiez une dernière fois que tout vous convient, puis cliquez sur "Broadcast Transaction" pour la diffuser sur le réseau Bitcoin.
+Votre transaction est désormais signée. Vérifiez une dernière fois que tout vous convient, puis cliquez sur "*Broadcast Transaction*" pour la diffuser sur le réseau Bitcoin.
 
 64
 
-Vous pouvez la retrouver dans l'onglet "Transactions" de Sparrow Wallet.
+Vous pouvez la retrouver dans l'onglet "*Transactions*" de Sparrow Wallet.
 
 65
 

@@ -209,7 +209,7 @@ Hence, the idea of keeping communications secret by protecting the communication
 [7] See, for instance, Olga Khazan, “The creepy, long-standing practice of undersea cable tapping”, *The Atlantic*, July 16, 2013 (available at [The Atlantic](https://www.theatlantic.com/international/archive/2013/07/the-creepy-long-standing-practice-of-undersea-cable-tapping/277855/)).
 
 
-# Mathematical Foundations of Cryptography I
+# Mathematical Foundations of Cryptography 1
 <partId>1bf9f0aa-0f68-5493-83fb-2167238ff9de</partId>
 
 
@@ -822,7 +822,7 @@ The reason for dropping the distinction between “random” and “uniform” i
 [2] If interested in a more formal exposition on these matters, you can consult Katz and Lindell’s *Introduction to Modern Cryptography*, esp. chapter 3.
 
 
-# Mathematical Foundations of Cryptography II
+# Mathematical Foundations of Cryptography 2
 <partId>d7245cc9-bb6d-5403-b3d5-9c703d9a2f81</partId>
 
 
@@ -868,7 +868,7 @@ Specifically, suppose some binary operation ◌. In addition, suppose some set o
 The combination 〈**S**, ◌〉 is, then, a **group** if it meets four specific conditions, known as the group axioms.
 
 1. For any a and b that are elements of **S**, a ◌ b is also an element of **S**. This is known as the **closure condition**. 
-2. For any a, b, and c that are elements of **S**, it is the case that (a ◌ b) ◌ c = a ◌ (b ◌ c). This is known as the **associativity condition**. 
+2. For any a, b, and c that are elements of **S**, it is the case that: (a ◌ b) ◌ c = a ◌ (b ◌ c). This is known as the **associativity condition**. 
 3. There is a unique element e in **S**, such that for every element a in **S**, the following equation holds: e ◌ a = a ◌ e = a. As there is only one such element e, it is called the **identity element**. This condition is known as the **identity condition**. 
 4. For each element a in **S**, there exists an element b in **S**, such that the following equation holds: a ◌ b = b ◌ a = e, where e is the identity element. Element b here is known as the **inverse element**, and it is commonly denoted as a<sup>-1</sup>. This condition is known as the **inverse condition** or the **invertibility condition**. 
 
@@ -903,7 +903,13 @@ Many different and very important sets of values in mathematics equipped with ce
 
 Lets finish by providing an example of elements that can be “described by integers”, even though they are not integers. A good example is the points of elliptic curves. Though any point on an elliptic curve is clearly not an integer, such a point is indeed described by two integers. 
 
-Elliptic curves are, for instance, crucial to Bitcoin. Any standard Bitcoin private and public key pair is selected from the set of points that is defined by the following elliptic curve: x<sup>3</sup> + 7 = y<sup>2</sup> mod 2<sup>256</sup> – 232 – 29 – 28 – 27 – 26 - 24 - 1 (the largest prime number less than 2<sup>256</sup>). The x-coordinate is the private key and the y-coordinate is your public key.
+Elliptic curves are, for instance, crucial to Bitcoin. Any standard Bitcoin private and public key pair is selected from the set of points that is defined by the following elliptic curve: 
+
+$$
+x^3 + 7 = y^2 \mod 2^{256} - 232 - 29 - 28 - 27 - 26 - 24 - 1
+$$
+
+(The largest prime number less than 2^256). The x-coordinate is the private key and the y-coordinate is your public key.
 
 Transactions in Bitcoin typically involve locking outputs to one or more public keys in some way. The value from these transactions can, then, be unlocked making digital signatures with the corresponding private keys. 
 

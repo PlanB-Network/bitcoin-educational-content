@@ -95,13 +95,12 @@ The formal notation mainly concerns variables, random variables, and sets.
 # What is Cryptography?
 <partId>48e4d6d5-cd00-5c00-8adb-ae8477ff47c4</partId>
 
-Let’s start our enquiry into the field of cryptography with one of the more charming and entertaining episodes in its history: that of the Beale ciphers.<sup>[1](#footnote1)</sup>
-
-The story of the Beale ciphers is, in my opinion, more likely to be fiction than reality. But it supposedly transpired as follows.
-
-
 ## The Beale ciphers
 <chapterId>ae674346-4789-5ab1-9b6f-c8989d83be89</chapterId>
+
+Let’s start our enquiry into the field of cryptography with one of the more charming and entertaining episodes in its history: that of the Beale ciphers. [1]
+
+The story of the Beale ciphers is, in my opinion, more likely to be fiction than reality. But it supposedly transpired as follows.
 
 In both the Winter of 1820 and 1822, a man named Thomas J. Beale stayed at an inn owned by Robert Morriss in Lynchburg (Virginia). At the end of Beale’s second stay, he handed Morriss an iron box with valuable papers for safekeeping. 
 
@@ -115,7 +114,7 @@ Morris attempted to decrypt the three ciphertexts for twenty years. This would h
 
 Nearing the end of his life, Morriss passed the box on to a friend in 1862. This friend subsequently published a pamphlet in 1885, under the pseudonym J.B. Ward. It included a description of the (alleged) history of the box, the three ciphertexts, and a solution that he had found for the second ciphertext. (Apparently, there is one key for each ciphertext, and not one key that works on all three ciphertexts as Beale originally seems to have suggested in his letter to Morriss.) 
 
-You can see the second ciphertext in *Figure 2* below.<sup>[2](#footnote2)</sup> The key to this ciphertext is the United States Declaration of Independence. The decryption procedure comes down to the applying the following two rules:
+You can see the second ciphertext in *Figure 2* below. [2] The key to this ciphertext is the United States Declaration of Independence. The decryption procedure comes down to the applying the following two rules:
 
 * For any number n in the ciphertext, locate the nth word in the United States Declaration of Independence
 * Replace the number n with the first letter of the word you found
@@ -129,6 +128,13 @@ You can see the second ciphertext in *Figure 2* below.<sup>[2](#footnote2)</sup>
 For instance, the first number of the second ciphertext is 115. The 115th word of the Declaration of Independence is “instituted,” so the first letter of the plaintext is “i.” The ciphertext does not directly indicate word spacing and capitalization. But after decrypting the first few words, you can logically deduce that the first word of the plaintext was simply “I.” (The plaintext starts with the phrase “I have deposited in the county of Bedford.”)
 
 After decryption, the second message provides the detailed contents of the treasure (gold, silver, and jewels), and suggests that it was buried in iron pots and covered with rocks in Bedford County (Virginia). People love a good mystery, so great efforts have been expended on decrypting the other two Beale ciphers, particularly the one describing the location of the treasure. Even various prominent cryptographers have tried their hands on them. However, as of yet, no one has been able to decrypt the other two ciphertexts.   
+
+
+**Notes:**
+
+[1] For a good summary of the story, see Simon Singh, *The Code Book*, Fourth Estate (London, 1999), pp. 82-99. A short movie of the story was made by Andrew Allen in 2010. You can find the movie, “The Thomas Beale Cipher,” [on its website](http://www.thomasbealecipher.com/).
+
+[2] This image is available on the Wikipedia page for the Beale ciphers.
 
 
 ## Modern cryptography

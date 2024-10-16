@@ -681,30 +681,91 @@ For instance, suppose that you have typed an e-mail into your e-mail application
 
 A key mathematical operation to understand for modern cryptography, besides the modulo operation, is that of the **XOR operation**, or “exclusive or” operation. This operation takes as inputs two bits and yields as output another bit. The XOR operation will simply be denoted as "XOR". It yields 0 if the two bits are the same and 1 if the two bits are different. You can see the four possibilities below. 
 
-* 0 XOR 0 = 0
-* 0 XOR 1 = 1
-* 1 XOR 0 = 1
-* 1 XOR 1 = 0
+$$
+0 \oplus 0 = 0
+$$
+
+$$
+0 \oplus 1 = 1
+$$
+
+$$
+1 \oplus 0 = 1
+$$
+
+$$
+1 \oplus 1 = 0
+$$
+
+$$ 
+\text{The symbol } \oplus \text{ represents "XOR".} 
+$$
 
 You can perform an XOR operation on two messages longer than a single bit by lining up the bits of those two messages and performing the XOR operation on each individual pair of bits. 
 
-To illustrate, suppose that you have a message m<sub>1</sub> (01111001) and a message m<sub>2</sub> (01011001). The XOR operation of these two messages can be seen below. 
+To illustrate, suppose that you have a message:
 
-* m<sub>1</sub> XOR m<sub>2</sub> = 01111001 XOR 01011001 = 00100000 
+$$
+m_1 = (01111001)
+$$
 
-The process is straightforward. Your first XOR the left-most bits of m<sub>1</sub> and m<sub>2</sub>. In this case that is 0 XOR 0 = 0. You then XOR the second pair of bits from the left. In this case that is 1 XOR 1 = 0. You continue this process until you have performed the XOR operation on the right-most bits. 
+and a second message:
 
-It is easy to see that the XOR operation is commutative, namely that m<sub>1</sub> XOR m<sub>2</sub> = m<sub>2</sub> XOR m<sub>1</sub>. In addition, the XOR operation is also associative. That is, (m<sub>1</sub> XOR m<sub>2</sub>) XOR m<sub>3</sub> = m<sub>1</sub> XOR (m<sub>2</sub> XOR m<sub>3</sub>). 
+$$
+m_2 = (01011001)
+$$
+
+The XOR operation of these two messages can be seen below:
+
+$$
+m_1 \oplus m_2 = 01111001 \oplus 01011001 = 00100000
+$$
+
+The process is straightforward. Your first XOR the left-most bits of m1 and m2. In this case that is:
+
+$$
+0 \oplus 0 = 0
+$$
+
+You then XOR the second pair of bits from the left. In this case that is:
+
+$$
+1 \oplus 1 = 0
+$$
+
+You continue this process until you have performed the XOR operation on the right-most bits. 
+
+It is easy to see that the XOR operation is commutative, namely that:
+
+$$
+m_1 \oplus m_2 = m_2 \oplus m_1
+$$
+
+In addition, the XOR operation is also associative. That is:
+
+$$
+(m_1 \oplus m_2) \oplus m_3 = m_1 \oplus (m_2 \oplus m_3)
+$$
 
 An XOR operation on two strings of alternative lengths can have different interpretations, depending on the context. We will not concern ourselves here with any XOR operations on strings of different lengths. 
 
 An XOR operation is equivalent to the special case of performing a modulo operation on the addition of bits when the divisor is 2. You can see the equivalency in the following results:
 
-* (0 + 0) mod 2 = 0 XOR 0 = 0
-* (1 + 0) mod 2 = 1 XOR 0 = 1
-* (0 + 1) mod 2 = 0 XOR 1 = 1
-* (1 + 1) mod 2 = 1 XOR 1 = 0
+$$
+(0 + 0) \mod 2 = 0 \oplus 0 = 0
+$$
 
+$$
+(1 + 0) \mod 2 = 1 \oplus 0 = 1
+$$
+
+$$
+(0 + 1) \mod 2 = 0 \oplus 1 = 1
+$$
+
+$$
+(1 + 1) \mod 2 = 1 \oplus 1 = 0
+$$
 
 ## Pseudorandomness
 <chapterId>20463fc5-3e92-581f-a1b7-3151279bd95e</chapterId>

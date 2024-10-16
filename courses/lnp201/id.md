@@ -608,6 +608,10 @@ Akhirnya, masa depan Bitcoin menjanjikan dengan proyeksi kemungkinan satu juta d
 <chapterId>38814c99-eb7b-5772-af49-4386ee2ce9b0</chapterId>
 <isCourseReview>true</isCourseReview>
 
+## Ujian Akhir
+<chapterId>7ed33400-aef7-5f3e-bfb1-7867e445d708</chapterId>
+<isCourseExam>true</isCourseExam>
+
 ## Pengakuan dan Terus Menggali Lubang Kelinci
 
 <chapterId>afc0d72b-4fbc-5893-90b2-e27fb519ad02</chapterId>

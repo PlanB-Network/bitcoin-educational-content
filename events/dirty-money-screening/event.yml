@@ -1,0 +1,22 @@
+- start_date: 2024-11-14 22:00:00
+  end_date: 2024-11-15 02:00:00
+  timezone: America/El_Salvador
+  address_line_1: San Salvador, El Salvador
+  address_line_2:
+  address_line_3:
+  name: Bitcoin Educators Unconference
+  builder: Adopting Bitcoin team
+  type: meetup
+  book_online: false
+  book_in_person: false
+  price_dollars: 0
+  description: A Bitcoin Movie screening.
+  language:
+    - en
+  links:
+    website: https://sv24.adoptingbitcoin.org/satellite-events
+    replay_url:
+    live_url:
+  tags:
+    - decentralization
+    - adoption

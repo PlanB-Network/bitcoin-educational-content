@@ -211,3 +211,9 @@ Dicas:
 
 Endereço Estático do Lightning: dandysack84@walletofsatoshi.com
 https://armantheparman.com/ledgersparrow/'
+
+
+Para aprofundar este tema e reforçar a segurança da sua carteira num Ledger Nano com uma passphrase BIP39, convido-o a consultar este tutorial completo:
+
+https://planb.network/tutorials/wallet/passphrase-ledger
+

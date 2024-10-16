@@ -209,3 +209,8 @@ certutil -hashfile ledger-live-desktop-2.32.2-win.exe SHA512 # <--- Для Windo
 
 Статический Lightning адрес: dandysack84@walletofsatoshi.com
 https://armantheparman.com/ledgersparrow/
+
+Чтобы углубить знания по этой теме и усилить безопасность вашего кошелька на Ledger Nano с BIP39 passphrase, я приглашаю вас ознакомиться с этим полным руководством:
+
+https://planb.network/tutorials/wallet/passphrase-ledger
+

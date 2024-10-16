@@ -212,15 +212,17 @@ Hence, the idea of keeping communications secret by protecting the communication
 # Mathematical Foundations of Cryptography I
 <partId>1bf9f0aa-0f68-5493-83fb-2167238ff9de</partId>
 
+
+## Random variables
+<chapterId>b623a7d0-3dff-5803-bd4e-8257ff73dd69</chapterId>
+
 Cryptography relies on mathematics. And if you want to build more than a superficial understanding of cryptography, you need to be comfortable with that mathematics. 
 
 This chapter introduces most of the basic mathematics you will encounter in learning cryptography. The topics include random variables, modulo operations, XOR operations, and pseudorandomness. You should master the material in these sections for any non-superficial understanding of cryptography.  
 
-The next chapter deals with number theory, which is much more challenging. 
+The next section deals with number theory, which is much more challenging. 
 
-
-## Random variables
-<chapterId>b623a7d0-3dff-5803-bd4e-8257ff73dd69</chapterId>
+### Random variables
 
 A random variable is typically denoted by a non-bold, uppercase letter. So, for instance, we might talk about a random variable X, a random variable Y, or a random variable Z. This is the notation I will also employ from here on out.  
 
@@ -230,9 +232,17 @@ Each time you **sample** a random variable, you draw a particular value from its
 
 Lets turn to a simple example. Suppose a variable X that is defined as follows: 
 
-* X has the outcome set {1,2} 
-* Pr [X = 1] = 0.5
-* Pr [X = 2] = 0.5
+$$
+X \text{ has the outcome set } \{1,2\}
+$$
+
+$$
+\Pr[X = 1] = 0.5
+$$
+
+$$
+\Pr[X = 2] = 0.5
+$$
 
 It is easy to see that X is a random variable. First, there are two or more possible values that X can take on, namely 1 and 2. Second, each possible value has a positive probability of occurring whenever you sample X, namely 0.5.
 
@@ -248,10 +258,21 @@ Frequently, however, random variables are not just introduced abstractly. Instea
 
 Lets now consider an example of variable X that is not defined abstractly. X is defined as follows in order to determine which of two teams starts a football game:
 
-* X has the outcome set {red kicks off,blue kicks off}
-* Flip a particular coin C: tails = “red kicks off”; heads = “blue kicks off”
-* Pr [X = red kicks off] = 0.5
-* Pr [X = blue kicks off] = 0.5
+$$
+X \text{ has the outcome set } \{\text{red kicks off}, \text{blue kicks off}\}
+$$
+
+$$
+\text{Flip a particular coin } C: \text{tails} = \text{"red kicks off"}; \text{heads} = \text{"blue kicks off"}
+$$
+
+$$
+\Pr[X = \text{red kicks off}] = 0.5
+$$
+
+$$
+\Pr[X = \text{blue kicks off}] = 0.5
+$$
 
 In this case, the outcome set of X is provided with a concrete meaning, namely which team starts in a football game. In addition, the possible outcomes and their associated probabilities are determined by a concrete experiment, namely flipping a particular coin C. 
 
@@ -268,7 +289,20 @@ For cryptographic discussions, you will only need to understand discrete random 
 
 ### Graphing random variables
 
-The possible values and associated probabilities for a random variable can be easily visualized through a graph. For instance, consider the random variable X from the previous section with an outcome set of {1,2}, and Pr [X = 1] = 0.5 and Pr [X = 2] = 0.5. We would typically display such a random variable in the form of a bar graph as in *Figure 1*.
+The possible values and associated probabilities for a random variable can be easily visualized through a graph. For instance, consider the random variable X from the previous section with an outcome set of :
+$$
+\{1,2\}
+$$
+and:
+$$
+\Pr[X = 1] = 0.5
+$$
+and:
+$$
+\Pr[X = 2] = 0.5
+$$
+
+We would typically display such a random variable in the form of a bar graph as in *Figure 1*.
 
 *Figure 1: Random variable X*
 
@@ -283,7 +317,28 @@ In the expression “random variable,” the term “random” just means “pro
 
 A **uniform variable** is a special case of a random variable. It can take on two or more values all with an equal probability. The random variable X depicted in *Figure 1* is clearly a uniform variable, as both possible outcomes occur with a probability 0.5. There are, however, many random variables that are not instances of uniform variables. 
 
-Consider, for example, the random variable Y. It has an outcome set {1,2,3,8,10} and the following probability distribution: Pr [Y = 1] = 0.25; Pr [Y = 2] = 0.35; Pr [Y = 3] = 0.1; Pr [Y = 8] = 0.25; Pr [Y = 10] = 0.05. 
+Consider, for example, the random variable Y. It has an outcome set {1,2,3,8,10} and the following probability distribution:
+
+$$
+\Pr[Y = 1] = 0.25
+$$
+
+$$
+\Pr[Y = 2] = 0.35
+$$
+
+$$
+\Pr[Y = 3] = 0.1
+$$
+
+$$
+\Pr[Y = 8] = 0.25
+$$
+
+$$
+\Pr[Y = 10] = 0.05
+$$
+
 
 While two possible outcomes indeed have an equal probability of occurring, namely 1 and 8, Y can also take on certain values with different probabilities than 0.25 upon sampling. Hence, while Y is indeed a random variable, it is not a uniform variable. 
 
@@ -293,7 +348,30 @@ A graphical depiction of Y is provided in *Figure 2*.
 
 ![Figure 2: Random variable Y.](assets/Figure2-2.webp "Figure 2: Random variable Y")
 
-For a final example, consider the random variable Z. It has the outcome set {1,3,7,11,12} and the following probability distribution: Pr (2) = 0.2; Pr (3) = 0.2; Pr (9) = 0.2; Pr (11) = 0.2; Pr (12) = 0.2. You can see it depicted in Figure 3. The random variable Z is, in contrast to Y, indeed a uniform variable, as all the probabilities for the possible values upon sampling are equal. 
+For a final example, consider the random variable Z. It has the outcome set {1,3,7,11,12} and the following probability distribution:
+
+$$
+\Pr[Z = 2] = 0.2
+$$
+
+$$
+\Pr[Z = 3] = 0.2
+$$
+
+$$
+\Pr[Z = 9] = 0.2
+$$
+
+$$
+\Pr[Z = 11] = 0.2
+$$
+
+$$
+\Pr[Z = 12] = 0.2
+$$
+
+You can see it depicted in Figure 3. The random variable Z is, in contrast to Y, a uniform variable, as all the probabilities for the possible values upon sampling are equal.
+
 
 *Figure 3: Random variable Z*
 
@@ -316,21 +394,90 @@ Unlike in the previous example, the probabilities of two events can also be comp
 
 Suppose, for example, that a certain fair coin has landed heads. Given this fact, what, then, is the probability that it will rain tomorrow? The conditional probability in this case should be the same as the unconditional probability that it will rain tomorrow, as a coin flip does not generally have any impact on the weather. 
 
-We use a “|” symbol for writing out conditional probability statements. For instance, the probability of event A given that event B has transpired can be written as follows: Pr[A|B]. So, when two events, A and B, are independent, then Pr[A|B] = Pr[A] and Pr[B|A] = Pr[B]. The condition for independence can be simplified as follows: Pr[A,B] = Pr[A]*Pr[B].  
+We use a "|" symbol for writing out conditional probability statements. For instance, the probability of event A given that event B has transpired can be written as follows:
 
-A key result in probability theory is known as **Bayes Theorem**. It basically states that Pr[A|B] can be rewritten as follows: 
+$$
+\Pr[A|B]
+$$
 
-Pr[A|B] = (Pr[B|A] • Pr[A]) / Pr[B]
+So, when two events, A and B, are independent, then:
+
+$$
+\Pr[A|B] = \Pr[A] \text{ and } \Pr[B|A] = \Pr[B]
+$$
+
+The condition for independence can be simplified as follows:
+
+$$
+\Pr[A, B] = \Pr[A] \cdot \Pr[B]
+$$
+
+
+A key result in probability theory is known as **Bayes Theorem**. It basically states that Pr[A|B] can be rewritten as follows:
+
+$$
+\Pr[A|B] = \frac{\Pr[B|A] \cdot \Pr[A]}{\Pr[B]}
+$$
 
 Instead of using conditional probabilities with specific events, we can also look at the conditional probabilities involved with two or more random variables over a set of possible events. Suppose two random variables, X and Y. We can denote any possible value for X by x, and any possible value for Y by y. We might say, then, that two random variables are independent if the following statement holds: 
 
-Pr[X = x,Y = y] = Pr[X = x] • Pr[Y =  y] for all x and y
+$$
+\Pr[X = x, Y = y] = \Pr[X = x] \cdot \Pr[Y = y] \text{ for all } x \text{ and } y
+$$
 
-Lets be a bit more explicit about what this statement means. 
+Let's be a bit more explicit about what this statement means.
 
-Suppose that the outcome sets for X and Y are defined as follows: **X** = {x<sub>1</sub>,x<sub>2</sub>….,x<sub>i</sub>,….x<sub>n</sub>} and **Y** = {y<sub>1</sub>,y<sub>2</sub>….,y<sub>i</sub>,….y<sub>m</sub>}. (It is typical to indicate sets of values by bold-faced, upper-case letters.)
+Suppose that the outcome sets for X and Y are defined as follows:
 
-Now suppose you sample Y and observe y<sub>1</sub>. The statement above tells us that the probability of now obtaining x<sub>1</sub> from sampling X is exactly the same as if we had never observed y<sub>1</sub>. This is true for any y<sub>i</sub> we could have drawn from our initial sampling of Y. Finally, this holds true not just for x<sub>1</sub>. For any x<sub>i</sub> the probability of occurring is not influenced by the outcome of a sampling of Y. All this also applies to the case where X is sampled first.  
+$$
+X = \{x_1, x_2, \dots, x_i, \dots, x_n\}
+$$
+
+and
+
+$$
+Y = \{y_1, y_2, \dots, y_i, \dots, y_m\}.
+$$
+
+(It is typical to indicate sets of values by bold-faced, upper-case letters.)
+
+Now suppose you sample Y and observe:
+
+$$
+y_1
+$$
+
+The statement above tells us that the probability of now obtaining:
+
+$$
+x_1
+$$
+
+from sampling X is exactly the same as if we had never observed:
+
+$$
+y_1
+$$
+
+This is true for any:
+
+$$
+y_i
+$$
+
+we could have drawn from our initial sampling of Y. Finally, this holds true not just for:
+
+$$
+x_1
+$$
+
+For any:
+
+$$
+x_i
+$$
+
+the probability of occurring is not influenced by the outcome of a sampling of Y. All this also applies to the case where X is sampled first.
 
 Lets end our discussion on a slightly more philosophical point. In any real-world situation, the probability of some event is always assessed against a particular set of information. There is no “unconditional probability” in any very strict sense of the word. 
 

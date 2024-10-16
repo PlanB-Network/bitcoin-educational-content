@@ -825,13 +825,17 @@ The reason for dropping the distinction between “random” and “uniform” i
 # Mathematical Foundations of Cryptography II
 <partId>d7245cc9-bb6d-5403-b3d5-9c703d9a2f81</partId>
 
-This chapter covers a more advanced topic on the mathematical foundations of cryptography: number theory. Though number theory is important to symmetric cryptography (such as in the Rijndael Cipher), it is particularly important in the public key cryptographic setting.
 
-If you are finding the details of number theory cumbersome, I would recommend a high-level reading the first time around. You can always come back to it at a later point. 
 
 
 ## What is number theory?
 <chapterId>c0051c34-fd5d-539c-93e2-5c6dfd4c3355</chapterId>
+
+This chapter covers a more advanced topic on the mathematical foundations of cryptography: number theory. Though number theory is important to symmetric cryptography (such as in the Rijndael Cipher), it is particularly important in the public key cryptographic setting.
+
+If you are finding the details of number theory cumbersome, I would recommend a high-level reading the first time around. You can always come back to it at a later point. 
+
+___
 
 You might characterize **number theory** as the study of the properties of integers and mathematical functions that work with integers. 
 
@@ -843,7 +847,7 @@ The field of abstract algebra is sometimes also called modern algebra. You may a
 
 The sets from abstract algebra can deal with many types of objects, from the shape-preserving transformations on an equilateral triangle to wall paper patterns. For number theory, we only consider sets of elements that contain integers or functions that work with integers. 
 
-  
+
 ## Groups
 <chapterId>3209b270-f9cd-5224-803e-0ed19fbf7826</chapterId>
 

@@ -55,7 +55,7 @@ If you are really struggling with the formal details in these parts of the book,
 
 The most influential book in shaping this one has been Jonathan Katz and Yehuda Lindell’s _Introduction to Modern Cryptography_, CRC Press (Boca Raton, FL), 2015. An accompanying course is available on Coursera called "Cryptography."
 
-The main additional sources that have been helpful in creating the overview in this book are Simon Singh, _The Code Book_, Fourth Estate (London, 1999); Christof Paar and Jan Pelzl, _Understanding Cryptography_, Springer (Heidelberg, 2010) and a course based on the book by Paar called “Introduction to Cryptography” (available at https://www.youtube.com/channel/UC1usFRN4LCMcfIV7UjHNuQg); and Bruce Schneier, Applied Cryptography, 2nd edn, 2015 (Indianapolis, IN: John Wiley & Sons). 
+The main additional sources that have been helpful in creating the overview in this book are Simon Singh, _The Code Book_, Fourth Estate (London, 1999); Christof Paar and Jan Pelzl, _Understanding Cryptography_, Springer (Heidelberg, 2010) and [a course based on the book by Paar called “Introduction to Cryptography”](https://www.youtube.com/channel/UC1usFRN4LCMcfIV7UjHNuQg); and Bruce Schneier, Applied Cryptography, 2nd edn, 2015 (Indianapolis, IN: John Wiley & Sons). 
 
 I will only cite very specific information and results I take from these sources, but want to acknowledge my general indebtedness to them here.  
 
@@ -64,7 +64,7 @@ For those readers who wish to seek out more advanced knowledge on cryptography a
 
 ### Contributions
 
-Please have a look at the contributions file in the repository for some guidelines on how to support the project.
+Please have a look at [the contributions file in the repository](https://github.com/JWBurgers/An_Introduction_to_Cryptography/blob/master/Contributions.md) for some guidelines on how to support the project.
 
 
 ### Notation
@@ -1939,70 +1939,9 @@ Nevertheless, with adding a bit of clever complexity, the RSA problem can be use
 [^2]: According to the prime number theorem, the number of primes less than or equal to N is approximately N/ln⁡(N). This means that you can approximate the number of primes of length 1024 bits by 2^1024/ln⁡(2^1024) - 2^1023/ln⁡(2^1023) which equals approximately 1.265 x 10^305 [^2].
 
 
-# Contributions
-<partId>4556aab1-4876-552a-b6db-df6837bbf27a</partId>
-
-## About
-<chapterId>ff08a57b-740f-5d7e-8cf2-81db0908166e</chapterId>
-
-Any contributions are most welcome. Before doing so, please have a look below for background information on my own plans for the book as well the guidelines for making contributions.
-
-
-### Current plans
-
-My current plans for further development of the book are as follows:
-
-- Create a final chapter that goes into the details of practical cryptographic applications, such as transport layer security, onion routing, and value exchange in Bitcoin 
-- Create better and more figures and diagrams to support the written discussion
-- Use LaTeX Math or some other typesetting application for the formal notation (rather than just Markdown) 
-
-
-### Guidelines for contributions
-
-If you have minor corrections or suggestions with regards to the existing text, you can create a pull request or raise an issue. If you create a pull request, please mind the following guidelines:
-
-- Create the commits on a seperate branch in your fork of the repository
-- Label the commits clearly
-- Create seperate commits for logically distinct issues to make the review process easier
-
-If you have more substantial suggestions with regards to the book, please raise an issue or contact me directly at **jaburgers@protonmail.com**.
-
-### License
-
-The work in this repository is licensed under the Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License (CC BY-NC-ND 4.0).
-
-You can find a short description of the license [here](https://creativecommons.org/licenses/by-nc-nd/4.0/). 
-
-You can find a complete version of the license [here](https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode). 
-
-
 
 ## Give us some feedback about this course
 <chapterId>f1905f78-8cf7-5031-949a-dfa8b76079b4</chapterId>
 <isCourseReview>true</isCourseReview>
 
-## Notation
-<chapterId>07250f8d-ad7c-5531-a70c-4417d6d1b865</chapterId>
 
-
-### Key terms
-
-Key terms in the primers are introduced by making them bold. For instance, the introduction of the Rijndael cipher as a key term would look as follows: **Rijndael cipher**. 
-
-Key terms are explicitly defined, unless they are proper names or their meaning is obvious from the discussion.  
-
-Any definition is usually given upon introduction of a key term, though sometimes it is more convenient to leave the definition until a later point.  
-
-
-### Emphasized words and phrases
-
-Words and phrases are emphasized via italics. For instance, the phrase "Remember your password" would look as follows: *Remember your password*. 
-
-
-### Formal notation
-
-The formal notation mainly concerns variables, random variables, and sets.
-
-* Variables: These are usually just indicated by a lowercase letter (e.g., "x" or "y"). Sometimes they are capitalized for clarity (e.g., "M" or "K").
-* Random variables: These are always indicated by an uppercase letter (e.g., "X" or "Y")
-* Sets: These are always indicated by bold, upper-case letters (e.g., **S**)

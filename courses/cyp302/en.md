@@ -491,16 +491,37 @@ I might, for instance, ask you the probability that pigs will fly by 2030, after
 ## The modulo operation
 <chapterId>709b34e5-b155-53d2-abbd-97d67e56db00</chapterId>
 
-The most basic expression with the **modulo operation** is of the following form: x mod y.
+### Modulo
+
+The most basic expression with the **modulo operation** is of the following form: 
+
+$$
+x \mod y
+$$
 
 The variable x is called the dividend and the variable y the divisor. To perform a modulo operation with a positive dividend and a positive divisor, you just determine the remainder of the division. 
 
 For instance, consider the expression 25 mod 4. The number 4 goes into the number 25 a total of 6 times. The remainder of that division is 1. Hence, 25 mod 4 equals 1. In a similar manner, we can evaluate the expressions below:
 
-* 29 mod 30 = 29 (as 30 goes into 29 a total of 0 times and the remainder is 29)
-* 42 mod 2 = 0 (as 2 goes into 42 a total of 21 times and the remainder is 0)
-* 12 mod 5 = 2 (as 5 goes into 12 a total of 2 times and the remainder is 2)
-* 20 mod 8 = 4 (as 8 goes into 20 a total of 2 times and the remainder is 4)
+$$
+29 \mod 30 = 29
+$$
+(as 30 goes into 29 a total of 0 times and the remainder is 29)
+
+$$
+42 \mod 2 = 0
+$$
+(as 2 goes into 42 a total of 21 times and the remainder is 0)
+
+$$
+12 \mod 5 = 2
+$$
+(as 5 goes into 12 a total of 2 times and the remainder is 2)
+
+$$
+20 \mod 8 = 4
+$$
+(as 8 goes into 20 a total of 2 times and the remainder is 4)
 
 When the dividend or divisor is negative, modulo operations can be handled differently by programming languages. 
 
@@ -511,13 +532,37 @@ You will definitely come across cases with a negative dividend in cryptography. 
 
 For instance, suppose that the dividend is – 20 and the divisor 3. The closest value lower than or equal to – 20 into which 3 divides evenly is – 21. The value of x – p in this case is – 20 – – 21. This equals 1 and, hence, – 20 mod 3 equals 1. In a similar manner, we can evaluate the expressions below:
 
-* – 8 mod 5 = 2 
-* – 19 mod 16 = 13 
-* – 14 mod 6 = 4
+$$
+- 8 \mod 5 = 2
+$$
 
-Regarding notation, you will typically see the following types of expressions: x = [y mod z]. Due to the brackets, the modulo operation in this case only applies to the right-hand side of the expression. If y equals 25 and z equals 4, for example, then x evaluates to 1. 
+$$
+- 19 \mod 16 = 13
+$$
 
-Without brackets, the modulo operation acts on *both sides* of an expression. Suppose, for instance, the following expression: x = y mod z. If y equals 25 and z equals 4, then all we know is that x mod 4 evaluates to 1. This is consistent with any value for x from the set {….– 7, – 3, 1, 5, 9….}. 
+$$
+- 14 \mod 6 = 4
+$$
+
+Regarding notation, you will typically see the following types of expressions:
+
+$$
+x = [y \mod z]
+$$
+
+Due to the brackets, the modulo operation in this case only applies to the right-hand side of the expression. If y equals 25 and z equals 4, for example, then x evaluates to 1. 
+
+Without brackets, the modulo operation acts on *both sides* of an expression. Suppose, for instance, the following expression:
+
+$$
+x = y \mod z
+$$
+
+If y equals 25 and z equals 4, then all we know is that x mod 4 evaluates to 1. This is consistent with any value for x from the set:
+
+$$
+\{ \ldots, -7, -3, 1, 5, 9, \ldots \}
+$$
 
 The branch of mathematics that involves modulo operations on numbers and expressions is referred to **modular arithmetic**. You can think of this branch as arithmetic for cases in which the number line is not infinitely long. Though we typically come across modulo operations for (positive) integers within cryptography, you can also perform modulo operations using any real numbers. 
 
@@ -526,20 +571,63 @@ The branch of mathematics that involves modulo operations on numbers and express
 
 The modulo operation is frequently encountered within cryptography. To illustrate, lets consider one of the most famous historical encryption schemes: the shift cipher. 
 
-Lets first define it. Suppose a dictionary *D* that equates all the letters of the English alphabet, in order, with the set of numbers {0,1,2…,25}. Assume a message space **M**. The **shift cipher** is, then, an encryption scheme defined as follows:
+Lets first define it. Suppose a dictionary *D* that equates all the letters of the English alphabet, in order, with the set of numbers :
 
-- Select uniformly a key k out of the key space **K**, where **K** = {0,1,2,…,25}<sup>[1](#footnote1)</sup> 
-- Encrypt a message m є **M**, as follows:
-    - Separate m into its individual letters m<sub>0</sub>, m<sub>1</sub>,….m<sub>i</sub>….,m<sub>l</sub>
-    - Convert each m<sub>i</sub> to a number according to *D*
-    - For each m<sub>i</sub>, c<sub>i</sub> = [(m<sub>i</sub> + k) mod 26]
-    - Convert each c<sub>i</sub> to a letter according to *D*
-    - Then combine c<sub>0</sub>, c<sub>1</sub>,….,c<sub>l</sub> to yield the ciphertext c
-- Decrypt a ciphertext c as follows:
-    -- Convert each c<sub>i</sub> to a number according to *D*
-    -- For each c<sub>i</sub>, m<sub>i</sub> = [(c<sub>i</sub> – k) mod 26]
-    -- Convert each m<sub>i</sub> to a letter according to *D*
-    -- Then combine m<sub>0</sub>, m<sub>1</sub>,….,m<sub>l</sub> to yield the original message m
+$$
+\{0, 1, 2, \ldots, 25\}
+$$
+
+Assume a message space **M**. The **shift cipher** is, then, an encryption scheme defined as follows:
+
+- Select uniformly a key k out of the key space **K**, where :
+
+$$
+\mathbf{K} = \{0, 1, 2, \ldots, 25\}
+$$
+
+[1]
+
+- Encrypt a message: 
+
+$$
+m \in \mathbf{M}
+$$
+
+- as follows:
+	- Separate "m" into its individual letters:
+
+$$
+m_0, m_1, \ldots, m_i, \ldots, m_l
+$$
+
+	- Convert each "mi" to a number according to *D*
+	- For each:
+
+$$
+m_i, \; c_i = [(m_i + k) \mod 26]
+$$
+
+	- Convert each "ci" to a letter according to *D*:
+	- Then to yield the ciphertext "c", combine:
+
+$$
+c_0, c_1, \ldots, c_l
+$$
+
+- Decrypt a ciphertext "c" as follows:
+    - Convert each "ci" to a number according to *D*
+    - For each:
+
+$$
+c_i, m_i = [(c_i - k) \mod 26]
+$$
+
+    - Convert each "mi" to a letter according to *D*
+    - Then to yield the original message "m", combine:
+
+$$
+m_0, m_1, \ldots, m_l
+$$
 
 The modulo operator in the shift cipher ensures that letters wrap around, so that all ciphertext letters are defined. To illustrate, consider the application of the shift cipher on the word “DOG”. 
 
@@ -547,13 +635,41 @@ Suppose that you uniformly selected a key to have the value of 17. The letter �
 
 The entire encryption of the word “DOG” with a key value of 17 is as follows:
 
-* Message = DOG = D,O,G = 3,15,6
-* c<sub>0</sub> = [(3 + 17) Mod 26] = [(20) Mod 26] = 20 = U
-* c<sub>1</sub> = [(15 + 17) Mod 26] = [(32) Mod 26] = 6 = G
-* c<sub>2</sub> = [(6 + 17) Mod 26] = [(23) Mod 26] = 23 = X
-* c = UGX
+$$
+\text{Message = DOG = D, O, G = 3, 15, 6}
+$$
+
+$$
+c_0 = [(3 + 17) \mod 26] = [20 \mod 26] = 20 = U
+$$
+
+$$
+c_1 = [(15 + 17) \mod 26] = [32 \mod 26] = 6 = G
+$$
+
+$$
+c_2 = [(6 + 17) \mod 26] = [23 \mod 26] = 23 = X
+$$
+
+$$
+c = UGX
+$$
 
 Everyone can intuitively understand how the shift cipher works and probably use it themselves. For advancing your knowledge of cryptography, however, it is important to start becoming more comfortable with formalization, as the schemes will become much more difficult. Hence, why the steps for the shift cipher were formalized. 
+
+**Notes:**
+
+[1] We can define this statement exactly, using the terminology from the previous section. Let a uniform variable K have K as its set of possible outcomes. So:
+
+$$
+\Pr[K = 0] = \frac{1}{26}
+$$
+
+$$
+\Pr[K = 1] = \frac{1}{26}
+$$
+
+...and so on. Sample the uniform variable K once to yield a particular key.
 
 
 ## The XOR operation

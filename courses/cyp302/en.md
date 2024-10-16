@@ -774,25 +774,35 @@ In our discussion of random and uniform variables, we drew a specific distinctio
 
 To start, we can call a binary string of length n **random** (or **uniform**), if it was the result of sampling a uniform variable S which gives each binary string of such a length n an equal probability of selection. 
 
-Suppose, for instance, the set of all binary strings with length 8: {0000 0000,0000 0001,….,1111 1111}. (It is typical to write an 8-bit string in two quartets, each called a **nibble**.) Lets call this set of strings **S<sub>8</sub>**. 
+Suppose, for instance, the set of all binary strings with length 8: 
 
-Per the definition above, we can, then, call a particular binary string of length 8 random (or uniform), if it was the result of sampling a uniform variable S that gives each string in **S<sub>8</sub>** an equal probability of selection. Given that the set **S<sub>8</sub>** includes 28 elements, the probability of selection upon sampling would have to be 1/2<sup>8</sup> for each string in the set. 
+$$
+\{0000\ 0000, 0000\ 0001, \ldots, 1111\ 1111\}
+$$
+
+(It is typical to write an 8-bit string in two quartets, each called a **nibble**.) Lets call this set of strings **S8**. 
+
+Per the definition above, we can, then, call a particular binary string of length 8 random (or uniform), if it was the result of sampling a uniform variable S that gives each string in **S8** an equal probability of selection. Given that the set **S8** includes 28 elements, the probability of selection upon sampling would have to be for each string in the set:
+
+$$
+\frac{1}{2^8}
+$$
 
 A key aspect to the randomness of a binary string is that it is defined with reference to the process by which it was selected. The form of any particular binary string on its own, therefore, reveals nothing about its randomness in selection. 
 
 For example, many people intuitively have the idea that a string like 1111 1111 could not have been selected randomly. But this is clearly false. 
 
-Defining a uniform variable S over all the binary strings of length 8, the likelihood of selecting 1111 1111 from the set **S<sub>8</sub>** is the same as that of a string such as 0111 01001. Thus, you cannot tell anything about the randomness of a string, just by analyzing the string itself. 
+Defining a uniform variable S over all the binary strings of length 8, the likelihood of selecting 1111 1111 from the set **S8** is the same as that of a string such as 0111 01001. Thus, you cannot tell anything about the randomness of a string, just by analyzing the string itself. 
 
 We can also speak of random strings without specifically meaning binary strings. We might, for instance, speak of a random hex string AF 02 82. In this case, the string would have been selected at random from the set of all hex strings of length 6. This is equivalent to randomly selecting a binary string of length 24, as each hex digit represents 4 bits. 
 
 Typically the expression “a random string”, without qualification, refers to a string randomly selected from the set of all strings with the same length. This is how I have described it above. A string of length n can, of course, also be randomly selected from a different set. One, for example, that only constitutes a subset of all the strings of length n, or perhaps a set that includes strings of varying length. In those cases, however, we would not refer to it as a “random string”, but rather “a string that is randomly selected from some set **S**”.
 
-A key concept within cryptography is that of pseudorandomness. A **pseudorandom string** of length n appears *as if* it was the result of sampling a uniform variable S that gives each string in **S<sub>n</sub>** an equal probability of selection. In fact, however, the string is the result of sampling a uniform variable S' that only defines a probability distribution—not necessarily one with equal probabilities for all possible outcomes—on a subset of **S<sub>n</sub>**. The crucial point here is that no one can really distinguish between samples from S and S', even if you take many of them. 
+A key concept within cryptography is that of pseudorandomness. A **pseudorandom string** of length n appears *as if* it was the result of sampling a uniform variable S that gives each string in **Sn** an equal probability of selection. In fact, however, the string is the result of sampling a uniform variable S' that only defines a probability distribution—not necessarily one with equal probabilities for all possible outcomes—on a subset of **Sn**. The crucial point here is that no one can really distinguish between samples from S and S', even if you take many of them. 
 
-Suppose, for instance, a random variable S. Its outcome set is **S<sub>256</sub>**, this is the set of all binary strings of length 256. This set has 2<sup>256</sup> elements. Each element has an equal probability of selection, 1/2<sup>256</sup>, upon sampling. 
+Suppose, for instance, a random variable S. Its outcome set is **S256**, this is the set of all binary strings of length 256. This set has 2^256 elements. Each element has an equal probability of selection, 1/2^256, upon sampling. 
 
-In addition suppose a random variable S’. Its outcome set only includes 2<sup>128</sup> binary strings of length 256. It has some probability distribution over those strings, but this distribution is not necessarily uniform. 
+In addition suppose a random variable S’. Its outcome set only includes 2^128 binary strings of length 256. It has some probability distribution over those strings, but this distribution is not necessarily uniform. 
 
 Suppose that I now took a 1000s of samples from S and 1000s of samples from S' and gave the two sets of outcomes to you. I tell you which set of outcomes is associated with which random variable. Next, I take a sample from one of the two random variables. But this time I do not tell you which random variable I sample. If S' were pseudorandom, then the idea is that your probability of making the right guess as to which random variable I sampled is practically no better than 1/2.  
 
@@ -802,17 +812,14 @@ Pseudorandom strings are a key concept to making cryptography practical. Conside
 
 If we were unable to produce this type of pseudorandom string for a stream cipher, then we would need a key that is as long as the message for its security. This is not a very practical option in most cases. 
 
-The notion of pseudorandomness discussed in this section can be defined more formally. It also extends to other contexts. But we need not delve into that discussion here. All you really need to intuitively understand for much of cryptography is the difference between a random and a pseudorandom string.<sup>[2](#footnote2)</sup>  
+The notion of pseudorandomness discussed in this section can be defined more formally. It also extends to other contexts. But we need not delve into that discussion here. All you really need to intuitively understand for much of cryptography is the difference between a random and a pseudorandom string. [2]
 
 The reason for dropping the distinction between “random” and “uniform” in our discussion should now also be clear. In practice everyone uses the term pseudorandom to indicate a string that appears **as if** it was the result of sampling a uniform variable S. Strictly speaking, we should call such a string “pseudo-uniform,” adopting our language from earlier. As the term “pseudo-uniform” is both clunky and not used by anyone, we will not introduce it here for clarity. Instead, we just drop the distinction between “random” and “uniform” in the current context.  
 
 
-## Notes
-<chapterId>7cccd92c-15bc-5394-9024-af126988ecd7</chapterId>
+**Notes**
 
-[^1]: We can define this statement exactly, using the terminology from the previous section. Let a uniform variable K have **K** as its set of possible outcomes. So Pr [K = 0] = 1/26, Pr [K = 1] = 1/26, and so on. Sample the uniform variable K once to yield a particular key [^1].
-
-[^2]: If interested in a more formal exposition on these matters, you can consult Katz and Lindell’s *Introduction to Modern Cryptography*, esp. chapter 3 [^2].
+[2] If interested in a more formal exposition on these matters, you can consult Katz and Lindell’s *Introduction to Modern Cryptography*, esp. chapter 3.
 
 
 # Mathematical Foundations of Cryptography II

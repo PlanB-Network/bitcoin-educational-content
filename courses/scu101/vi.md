@@ -393,6 +393,7 @@ https://planb.network/tutorials/others/security-key
 <chapterId>ed579680-4e7b-5f65-8541-14e519a3b242</chapterId>
 
 https://planb.network/tutorials/others/bitwarden
+
 https://planb.network/tutorials/others/keepass
 
 
@@ -401,6 +402,7 @@ https://planb.network/tutorials/others/keepass
 <chapterId>7a774b34-aed0-57dd-b8f7-cf3be51c0d70</chapterId>
 
 https://planb.network/tutorials/others/bitwarden
+
 https://planb.network/tutorials/others/keepass
 
 
@@ -409,6 +411,7 @@ https://planb.network/tutorials/others/keepass
 <chapterId>01cfcde1-77cb-506c-8df1-fa18a2e8cc6b</chapterId>
 
 https://planb.network/tutorials/others/proton-drive
+
 https://planb.network/tutorials/others/veracrypt
 
 
@@ -416,8 +419,11 @@ https://planb.network/tutorials/others/veracrypt
 ## Thay đổi trình duyệt & VPN
 
 <chapterId>8dc08feb-313c-5259-a54f-64aa68a07608</chapterId>
+
 https://planb.network/tutorials/others/ivpn
+
 https://planb.network/tutorials/others/mullvad
+
 https://planb.network/tutorials/others/tor-browser
 
 

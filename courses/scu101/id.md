@@ -370,7 +370,7 @@ Aturan emas: Keamanan siber adalah target yang bergerak yang akan beradaptasi de
 
 <chapterId>afc9ab5d-7664-5a9b-ab50-225ac9ba8f7c</chapterId>
 
-Perhatikan bahwa, untuk saat ini, bagian kursus ini hanya berisi tutorial cara melakukan sesuatu dalam bahasa Prancis. Kami sedang bekerja untuk menerjemahkan video tersebut ke dalam bahasa Anda. Jika Anda ingin membantu kami menerjemahkan, hubungi kami melalui [GitHub](https://github.com/DecouvreBitcoin/sovereign-university-data)
+https://planb.network/tutorials/others/proton-mail
 
 
 
@@ -378,30 +378,48 @@ Perhatikan bahwa, untuk saat ini, bagian kursus ini hanya berisi tutorial cara m
 
 <chapterId>09468ec1-95b7-56a4-a636-7618044568e1</chapterId>
 
+https://planb.network/tutorials/others/authy
+
+https://planb.network/tutorials/others/security-key
 
 
 ## Membuat manajer kata sandi
 
 <chapterId>ed579680-4e7b-5f65-8541-14e519a3b242</chapterId>
+
 https://planb.network/tutorials/others/bitwarden
 
+https://planb.network/tutorials/others/keepass
 
 
 ## Mengamankan Akun Anda
 
 <chapterId>7a774b34-aed0-57dd-b8f7-cf3be51c0d70</chapterId>
+
 https://planb.network/tutorials/others/bitwarden
+
+https://planb.network/tutorials/others/keepass
+
 
 ## Pengaturan Cadangan
 
 <chapterId>01cfcde1-77cb-506c-8df1-fa18a2e8cc6b</chapterId>
+
 https://planb.network/tutorials/others/proton-drive
+
 https://planb.network/tutorials/others/veracrypt
 
 
 ## Perubahan Browser & VPN
 
 <chapterId>8dc08feb-313c-5259-a54f-64aa68a07608</chapterId>
+
+
+https://planb.network/tutorials/others/ivpn
+
+https://planb.network/tutorials/others/mullvad
+
+https://planb.network/tutorials/others/tor-browser
 
 
 

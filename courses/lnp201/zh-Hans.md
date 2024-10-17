@@ -580,6 +580,10 @@ Alice 通过 Susie 的节点向 Loop 发送了 100 万，因此 Susie 拥有了�
 <chapterId>38814c99-eb7b-5772-af49-4386ee2ce9b0</chapterId>
 <isCourseReview>true</isCourseReview>
 
+## 期末考试
+<chapterId>7ed33400-aef7-5f3e-bfb1-7867e445d708</chapterId>
+<isCourseExam>true</isCourseExam>
+
 ## 致谢并继续探索深渊<chapterId>afc0d72b-4fbc-5893-90b2-e27fb519ad02</chapterId>
 
 恭喜你！🎉

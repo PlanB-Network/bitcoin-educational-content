@@ -464,6 +464,10 @@ Passkizは、パスワード管理のための別の実行可能で安全な代�
 <chapterId>6be74d2d-2116-5386-9d92-c4c3e2103c68</chapterId>
 <isCourseReview>true</isCourseReview>
 
+## 最終試験
+<chapterId>a894b251-a85a-5fa4-bf2a-c2a876939b49</chapterId>
+<isCourseExam>true</isCourseExam>
+
 ## 謝辞とさらに深く掘り下げる
 <chapterId>df3a962a-a96e-5006-b904-0dd9d4a072dd</chapterId>
 

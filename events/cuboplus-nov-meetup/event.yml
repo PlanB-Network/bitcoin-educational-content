@@ -1,0 +1,22 @@
+- start_date: 2024-10-19 23:00:00
+  end_date: 2024-10-20 02:00:00
+  timezone: America/El_Salvador
+  address_line_1: Bitcoin Embassy, San Salvador, El Salvador
+  address_line_2: Cumbres de Cuscatlan, Calles Teotl
+  address_line_3:
+  name: Montly Cubo+ Student Meeting
+  builder: CUBO+
+  type: meetup
+  book_online: false
+  book_in_person: false
+  price_dollars: 0
+  description: A Bitcoin Meetup with the Students of The Cubo+ Academy
+  language:
+    - en
+  links:
+    website: https://www.eventbrite.com/e/cubo-meetup-tickets-1047157244507?aff=oddtdtcreator
+    replay_url:
+    live_url:
+  tags:
+    - decentralization
+    - adoption

@@ -602,6 +602,10 @@ Infine, il futuro di Bitcoin è promettente con una possibile proiezione di un m
 <chapterId>38814c99-eb7b-5772-af49-4386ee2ce9b0</chapterId>
 <isCourseReview>true</isCourseReview>
 
+## Esame Finale
+<chapterId>7ed33400-aef7-5f3e-bfb1-7867e445d708</chapterId>
+<isCourseExam>true</isCourseExam>
+
 ## Ringraziamenti e continuate a scavare la tana del coniglio
 <chapterId>afc0d72b-4fbc-5893-90b2-e27fb519ad02</chapterId>
 

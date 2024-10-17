@@ -308,17 +308,9 @@ https://planb.network/tutorials/others/proton-mail
 
 随机生成的密码提供更高级别的安全性，尽管它们可能更难记住。密码管理器可以生成更安全的随机密码。使用密码管理器，您不需要记住所有密码。重要的是逐渐用管理器生成的密码替换您的旧密码，因为它们更强大、更长。确保您的密码管理器的主密码也是强大和安全的。
 
-### 教程：创建主密码
+https://planb.network/tutorials/others/bitwarden
 
-**_教程正在建设中，要贡献或添加内容，您可以通过GitHub进行_**
-
-### 教程：BitWarden
-
-**_教程正在建设中，要贡献或添加内容，您可以通过GitHub进行_**
-
-### 教程：KeePass
-
-**_教程正在建设中，要贡献或添加内容，您可以通过GitHub进行_**
+https://planb.network/tutorials/others/keepass
 
 ## 双因素认证
 

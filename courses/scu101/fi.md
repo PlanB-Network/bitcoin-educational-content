@@ -292,17 +292,9 @@ Vahvan salasanan luomiseksi suositellaan käyttämään suurta määrää satunn
 
 Satunnaisesti generoidut salasanat tarjoavat korkeamman turvallisuustason, vaikkakin ne saattavat olla vaikeampia muistaa. Salasanojen hallintajärjestelmät voivat generoida turvallisempia satunnaisia salasanoja. Salasanojen hallintajärjestelmää käyttämällä sinun ei tarvitse muistaa kaikkia salasanojasi. On tärkeää vaihtaa vanhat salasanasi vähitellen hallintajärjestelmän generoimiin, sillä ne ovat vahvempia ja pidempiä. Varmista, että salasanojen hallintajärjestelmäsi pääsalasana on myös vahva ja turvallinen.
 
-### Opas: Pääsalasanan luominen
+https://planb.network/tutorials/others/bitwarden
 
-**_Opas on työn alla, osallistuaksesi tai lisätäksesi sen, voit mennä GitHubin kautta_**
-
-### Opas: BitWarden
-
-**_Opas on työn alla, osallistuaksesi tai lisätäksesi sen, voit mennä GitHubin kautta_**
-
-### Opas: KeePass
-
-**_Opas on työn alla, osallistuaksesi tai lisätäksesi sen, voit mennä GitHubin kautta_**
+https://planb.network/tutorials/others/keepass
 
 ## Kahden tekijän tunnistautuminen
 <chapterId>9391e02e-e61b-5a86-93e0-91a07f217d35</chapterId>

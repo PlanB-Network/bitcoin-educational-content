@@ -313,17 +313,9 @@ Per creare una password forte, si consiglia di utilizzare un gran numero di cara
 
 Le password generate casualmente offrono un livello di sicurezza superiore, anche se possono essere più difficili da ricordare. I gestori di password possono generare password casuali più sicure. Utilizzando un gestore di password, non è necessario memorizzare tutte le password. È importante sostituire gradualmente le vecchie password con quelle generate dal gestore, poiché sono più forti e più lunghe. Assicurarsi che la password principale del gestore di password sia anche forte e sicura.
 
-### Tutorial: creazione di una password principale
+https://planb.network/tutorials/others/bitwarden
 
-**_ Tutorial in costruzione, per contribuire o aggiungerlo, è possibile passare attraverso GitHub _**
-
-### Tutorial: BitWarden
-
-**_ Tutorial in costruzione, per contribuire o aggiungerlo, è possibile passare attraverso GitHub _**
-
-### Tutorial: KeePass
-
-**_ Tutorial in costruzione, per contribuire o aggiungerlo, è possibile passare attraverso GitHub _**
+https://planb.network/tutorials/others/keepass
 
 ## I 2 fattori di autenticazione
 <chapterId>9391e02e-e61b-5a86-93e0-91a07f217d35</chapterId>

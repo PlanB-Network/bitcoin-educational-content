@@ -310,17 +310,9 @@ Para crear una contraseña fuerte, se recomienda utilizar una gran cantidad de c
 
 Las contraseñas generadas de manera aleatoria ofrecen un nivel de seguridad superior, aunque pueden ser más difíciles de recordar. Los administradores de contraseñas pueden generar contraseñas aleatorias más seguras. Al utilizar un administrador de contraseñas, no es necesario memorizar todas sus contraseñas. Es importante reemplazar gradualmente sus contraseñas antiguas por las generadas por el administrador, ya que son más fuertes y más largas. Asegúrese de que la contraseña maestra de su administrador de contraseñas también sea fuerte y segura.
 
-### Tutorial: creación de una contraseña maestra
+https://planb.network/tutorials/others/bitwarden
 
-**_ Tutorial en construcción, para contribuir o agregarlo, puede pasar por GitHub _**
-
-### Tutorial: BitWarden
-
-**_ Tutorial en construcción, para contribuir o agregarlo, puede pasar por GitHub _**
-
-### Tutorial: KeePass
-
-**_ Tutorial en construcción, para contribuir o agregarlo, puede pasar por GitHub _**
+https://planb.network/tutorials/others/keepass
 
 ## Los 2 factores de autenticación
 <chapterId>9391e02e-e61b-5a86-93e0-91a07f217d35</chapterId>

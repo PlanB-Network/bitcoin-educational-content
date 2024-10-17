@@ -310,17 +310,11 @@ Um ein starkes Passwort zu erstellen, wird empfohlen, eine große Anzahl zufäll
 
 Zufällig generierte Passwörter bieten ein höheres Maß an Sicherheit, können jedoch schwieriger zu merken sein. Passwort-Manager können sicherere zufällig generierte Passwörter erstellen. Durch die Verwendung eines Passwort-Managers müssen Sie sich nicht alle Ihre Passwörter merken. Es ist wichtig, Ihre alten Passwörter nach und nach durch die vom Manager generierten Passwörter zu ersetzen, da sie stärker und länger sind. Stellen Sie sicher, dass das Masterpasswort Ihres Passwort-Managers ebenfalls stark und sicher ist.
 
-### Tutorial: Erstellung eines Masterpassworts
 
-**_Tutorial in Bearbeitung, um beizutragen oder es hinzuzufügen, können Sie GitHub verwenden_**
+https://planb.network/tutorials/others/bitwarden
 
-### Tutorial: BitWarden
+https://planb.network/tutorials/others/keepass
 
-**_Tutorial in Bearbeitung, um beizutragen oder es hinzuzufügen, können Sie GitHub verwenden_**
-
-### Tutorial: KeePass
-
-**_Tutorial in Bearbeitung, um beizutragen oder es hinzuzufügen, können Sie GitHub verwenden_**
 
 ## Die 2-Faktor-Authentifizierung
 <chapterId>9391e02e-e61b-5a86-93e0-91a07f217d35</chapterId>

@@ -318,17 +318,9 @@ Một mật khẩu tốt thường là:
 
 Mật khẩu được tạo ra một cách ngẫu nhiên cung cấp một mức độ an toàn cao hơn, mặc dù chúng có thể khó nhớ hơn. Các trình quản lý mật khẩu có thể tạo ra mật khẩu ngẫu nhiên an toàn hơn. Bằng cách sử dụng trình quản lý mật khẩu, bạn không cần phải nhớ tất cả mật khẩu của mình. Quan trọng là phải dần dần thay thế mật khẩu cũ của bạn bằng những mật khẩu được trình quản lý tạo ra, vì chúng mạnh mẽ và dài hơn. Đảm bảo rằng mật khẩu chính của trình quản lý mật khẩu của bạn cũng mạnh mẽ và an toàn.
 
-### Hướng dẫn: Tạo Mật khẩu Chính
+https://planb.network/tutorials/others/bitwarden
 
-**_Hướng dẫn đang được xây dựng, để đóng góp hoặc thêm vào, bạn có thể truy cập qua GitHub_**
-
-### Hướng dẫn: BitWarden
-
-**_Hướng dẫn đang được xây dựng, để đóng góp hoặc thêm vào, bạn có thể truy cập qua GitHub_**
-
-### Hướng dẫn: KeePass
-
-**_Hướng dẫn đang được xây dựng, để đóng góp hoặc thêm vào, bạn có thể truy cập qua GitHub_**
+https://planb.network/tutorials/others/keepass
 
 ## Xác thực hai yếu tố
 

@@ -300,17 +300,9 @@ Para criar uma password forte, é recomendado usar um grande número de caracter
 
 Passwords geradas aleatoriamente oferecem um nível de segurança superior, embora possam ser mais difíceis de lembrar. Gestores de passwords podem gerar passwords aleatórias mais seguras. Ao usar um gestor de passwords, não é necessário memorizar todas as suas passwords. É importante substituir gradualmente as suas passwords antigas pelas geradas pelo gestor, pois são mais fortes e mais longas. Certifique-se de que a password mestre do seu gestor de passwords também é forte e segura.
 
-### Tutorial: criação de uma password mestre
+https://planb.network/tutorials/others/bitwarden
 
-**_Tutorial em construção, para contribuir ou adicioná-lo, você pode passar pelo GitHub_**
-
-### Tutorial: BitWarden
-
-**_Tutorial em construção, para contribuir ou adicioná-lo, você pode passar pelo GitHub_**
-
-### Tutorial: KeePass
-
-**_Tutorial em construção, para contribuir ou adicioná-lo, você pode passar pelo GitHub_**
+https://planb.network/tutorials/others/keepass
 
 ## Autenticação de 2 fatores
 <chapterId>9391e02e-e61b-5a86-93e0-91a07f217d35</chapterId>

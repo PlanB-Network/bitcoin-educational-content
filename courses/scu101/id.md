@@ -310,17 +310,9 @@ Untuk membuat kata sandi yang kuat, disarankan untuk menggunakan sejumlah besar 
 
 Kata sandi yang dihasilkan secara acak menawarkan tingkat keamanan yang lebih tinggi, meskipun mungkin lebih sulit diingat. Manajer kata sandi dapat menghasilkan kata sandi acak yang lebih aman. Dengan menggunakan manajer kata sandi, Anda tidak perlu menghafal semua kata sandi Anda. Penting untuk secara bertahap mengganti kata sandi lama Anda dengan yang dihasilkan oleh manajer, karena mereka lebih kuat dan lebih panjang. Pastikan bahwa kata sandi utama dari manajer kata sandi Anda juga kuat dan aman.
 
-### Tutorial: Membuat Kata Sandi Utama
+https://planb.network/tutorials/others/bitwarden
 
-**_Tutorial dalam pembangunan, untuk berkontribusi atau menambahkannya, Anda dapat melalui GitHub_**
-
-### Tutorial: BitWarden
-
-**_Tutorial dalam pembangunan, untuk berkontribusi atau menambahkannya, Anda dapat melalui GitHub_**
-
-### Tutorial: KeePass
-
-**_Tutorial dalam pembangunan, untuk berkontribusi atau menambahkannya, Anda dapat melalui GitHub_**
+https://planb.network/tutorials/others/keepass
 
 ## Autentikasi Dua Faktor
 

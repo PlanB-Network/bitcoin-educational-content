@@ -310,17 +310,9 @@ Tugeva parooli loomiseks on soovitatav kasutada suurt hulka juhuslikke tähemär
 
 Juhuslikult genereeritud paroolid pakuvad kõrgemat turvalisuse taset, kuigi need võivad olla raskemini meeldejäetavad. Paroolihaldurid saavad genereerida turvalisemaid juhuslikke paroole. Paroolihalduri kasutamisel ei pea te kõiki oma paroole meelde jätma. On oluline järk-järgult asendada oma vanad paroolid halduri poolt genereeritud tugevamate ja pikematega. Veenduge, et teie paroolihalduri peaparool on samuti tugev ja turvaline.
 
-### Õpetus: Peaparooli loomine
+https://planb.network/tutorials/others/bitwarden
 
-**_Õpetus on ehitamisel, kaasa aitamiseks või lisamiseks võite minna läbi GitHubi_**
-
-### Õpetus: BitWarden
-
-**_Õpetus on ehitamisel, kaasa aitamiseks või lisamiseks võite minna läbi GitHubi_**
-
-### Õpetus: KeePass
-
-**_Õpetus on ehitamisel, kaasa aitamiseks või lisamiseks võite minna läbi GitHubi_**
+https://planb.network/tutorials/others/keepass
 
 ## Kahefaktoriline Autentimine
 

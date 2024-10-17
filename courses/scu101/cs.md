@@ -295,17 +295,10 @@ Pro vytvoření silného hesla se doporučuje použít velké množství náhodn
 
 Náhodně generovaná hesla nabízejí vyšší úroveň bezpečnosti, ačkoliv mohou být obtížněji zapamatovatelná. Správci hesel mohou generovat bezpečnější náhodná hesla. Používáním správce hesel nemusíte pamatovat všechna svá hesla. Je důležité postupně nahradit vaše stará hesla těmi, která generuje správce, protože jsou silnější a delší. Ujistěte se, že hlavní heslo vašeho správce hesel je také silné a bezpečné.
 
-### Tutoriál: Vytvoření hlavního hesla
+https://planb.network/tutorials/others/bitwarden
 
-**_Tutoriál je ve výstavbě, přispět nebo jej přidat můžete prostřednictvím GitHubu_**
+https://planb.network/tutorials/others/keepass
 
-### Tutoriál: BitWarden
-
-**_Tutoriál je ve výstavbě, přispět nebo jej přidat můžete prostřednictvím GitHubu_**
-
-### Tutoriál: KeePass
-
-**_Tutoriál je ve výstavbě, přispět nebo jej přidat můžete prostřednictvím GitHubu_**
 
 ## Dvoufaktorové ověření
 <chapterId>9391e02e-e61b-5a86-93e0-91a07f217d35</chapterId>

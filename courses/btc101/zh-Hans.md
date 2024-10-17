@@ -1288,6 +1288,10 @@ Bob将他的交易发送到比特币网络中，当矿工发布包含着此交�
 <chapterId>585729e2-b0ab-51b5-89ec-593e3ea22c57</chapterId>
 <isCourseReview>true</isCourseReview>
 
+## 期末考试
+<chapterId>9c8dcf23-8b76-5057-ad72-99197791ca3b</chapterId>
+<isCourseExam>true</isCourseExam>
+
 ## 评价培训
 
 <chapterId>44d01865-5c89-55a5-a397-a014960eec0f</chapterId>

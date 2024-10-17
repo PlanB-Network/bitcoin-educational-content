@@ -243,6 +243,11 @@ KHÔNG, nói chung bạn được khuyến khích không trả tiền cho hacker
 
 Nếu bạn phát hiện vi rút trên máy tính, hãy ngắt kết nối khỏi internet, thực hiện quét toàn bộ bằng phần mềm diệt vi rút và xóa các tệp tin bị nhiễm. Sau đó, cập nhật phần mềm và hệ điều hành của bạn, rồi thay đổi mật khẩu để ngăn chặn sự xâm nhập lần sau.
 
+https://planb.network/tutorials/others/proton-drive
+
+https://planb.network/tutorials/others/veracrypt
+
+
 # Triển khai giải pháp.
 
 <partId>215ec902-ba05-5549-87fc-cb8d82665f7b</partId>

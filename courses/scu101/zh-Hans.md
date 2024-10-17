@@ -234,6 +234,11 @@ https://planb.network/tutorials/others/mullvad
 
 如果您在计算机上检测到病毒，请将其从互联网断开连接，执行全面的杀毒软件扫描，并删除感染的文件。然后，更新您的软件和操作系统，并更改您的密码以防止进一步的入侵。
 
+https://planb.network/tutorials/others/proton-drive
+
+https://planb.network/tutorials/others/veracrypt
+
+
 # 实施解决方案。
 
 <partId>215ec902-ba05-5549-87fc-cb8d82665f7b</partId>

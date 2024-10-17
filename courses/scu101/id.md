@@ -236,6 +236,11 @@ TIDAK, umumnya tidak disarankan untuk membayar peretas dalam kasus ransomware at
 
 Jika Anda mendeteksi virus di komputer Anda, putuskan koneksi dari internet, lakukan pemindaian antivirus penuh, dan hapus file yang terinfeksi. Kemudian, perbarui perangkat lunak dan sistem operasi Anda, dan ubah kata sandi Anda untuk mencegah intrusi lebih lanjut.
 
+https://planb.network/tutorials/others/proton-drive
+
+https://planb.network/tutorials/others/veracrypt
+
+
 # Implementasi solusi.
 
 <partId>215ec902-ba05-5549-87fc-cb8d82665f7b</partId>

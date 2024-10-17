@@ -225,6 +225,11 @@ Windows 10では、アップデートはほぼ連続しており、それらを�
 
 コンピューターにウイルスが検出された場合は、インターネットから切断し、完全なアンチウイルススキャンを実行し、感染したファイルを削除してください。その後、ソフトウェアとオペレーティングシステムを更新し、さらなる侵入を防ぐためにパスワードを変更してください。
 
+https://planb.network/tutorials/others/proton-drive
+
+https://planb.network/tutorials/others/veracrypt
+
+
 # 解決策の実装。
 <partId>215ec902-ba05-5549-87fc-cb8d82665f7b</partId>
 

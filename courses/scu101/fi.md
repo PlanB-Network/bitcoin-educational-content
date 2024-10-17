@@ -223,6 +223,11 @@ EI, yleisesti ottaen hakkerien maksamista ei suositella lunasohjelmien tai muide
 
 Jos havaitset viruksen tietokoneellasi, katkaise yhteys internetiin, suorita täysi virustorjuntaskannaus ja poista tartunnan saaneet tiedostot. Sen jälkeen, päivitä ohjelmistosi ja käyttöjärjestelmäsi, ja vaihda salasanasi estääksesi lisäintruusiot.
 
+https://planb.network/tutorials/others/proton-drive
+
+https://planb.network/tutorials/others/veracrypt
+
+
 # Ratkaisujen toteuttaminen.
 <partId>15ec9022-ba05-5549-87fc-cb8d82665f7b</partId>
 

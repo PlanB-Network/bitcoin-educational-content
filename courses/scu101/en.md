@@ -236,6 +236,11 @@ NO, it is generally not recommended to pay hackers in the case of ransomware or 
 
 If you detect a virus on your computer, disconnect it from the internet, perform a full antivirus scan, and delete infected files. Then, update your software and operating system, and change your passwords to prevent further intrusions.
 
+https://planb.network/tutorials/others/proton-drive
+
+https://planb.network/tutorials/others/veracrypt
+
+
 # Implementation of solutions.
 <partId>215ec902-ba05-5549-87fc-cb8d82665f7b</partId>
 

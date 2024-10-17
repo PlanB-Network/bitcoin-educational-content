@@ -246,6 +246,11 @@ NON, Il est généralement déconseillé de payer les hackers en cas de ransomwa
 
 Si vous détectez un virus sur votre ordinateur, déconnectez-le d'Internet, effectuez une analyse antivirus complète et supprimez les fichiers infectés. Mettez ensuite à jour vos logiciels et votre système d'exploitation, et changez vos mots de passe pour éviter d'autres intrusions.
 
+https://planb.network/tutorials/others/proton-drive
+
+https://planb.network/tutorials/others/veracrypt
+
+
 # Mise en place des solutions.
 <partId>215ec902-ba05-5549-87fc-cb8d82665f7b</partId>
 

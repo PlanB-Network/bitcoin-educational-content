@@ -236,6 +236,11 @@ EI, üldiselt ei soovitata lunavara või muud tüüpi rünnakute korral häkkeri
 
 Kui avastate oma arvutis viiruse, ühendage see internetist lahti, tehke täielik viirusetõrje skannimine ja kustutage nakatunud failid. Seejärel uuendage oma tarkvara ja operatsioonisüsteemi ning muutke oma paroole, et vältida edasisi sissetunge.
 
+https://planb.network/tutorials/others/proton-drive
+
+https://planb.network/tutorials/others/veracrypt
+
+
 # Lahenduste rakendamine.
 
 <partId>215ec902-ba05-5549-87fc-cb8d82665f7b</partId>

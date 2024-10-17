@@ -236,6 +236,11 @@ https://planb.network/tutorials/others/mullvad
 
 Если вы обнаружите вирус на вашем компьютере, отключите его от интернета, выполните полное сканирование антивирусом и удалите зараженные файлы. Затем обновите ваше программное обеспечение и операционную систему, и измените ваши пароли, чтобы предотвратить дальнейшие вторжения.
 
+https://planb.network/tutorials/others/proton-drive
+
+https://planb.network/tutorials/others/veracrypt
+
+
 # Реализация решений.
 
 <partId>215ec902-ba05-5549-87fc-cb8d82665f7b</partId>

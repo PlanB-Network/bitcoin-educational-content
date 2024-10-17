@@ -236,6 +236,11 @@ NEIN, es wird im Allgemeinen nicht empfohlen, Hacker bei Ransomware oder anderen
 
 Wenn Sie einen Virus auf Ihrem Computer entdecken, trennen Sie ihn vom Internet, führen Sie eine vollständige Antiviren-Analyse durch und entfernen Sie infizierte Dateien. Aktualisieren Sie dann Ihre Software und Ihr Betriebssystem und ändern Sie Ihre Passwörter, um weitere Eindringlinge zu vermeiden.
 
+https://planb.network/tutorials/others/proton-drive
+
+https://planb.network/tutorials/others/veracrypt
+
+
 # Implementierung von Lösungen.
 <partId>215ec902-ba05-5549-87fc-cb8d82665f7b</partId>
 

@@ -227,6 +227,12 @@ NE, obecně se nedoporučuje platit hackery v případě ransomwaru nebo jiných
 
 Pokud na svém počítači detekujete virus, odpojte ho od internetu, proveďte úplnou antivirovou kontrolu a smažte infikované soubory. Poté aktualizujte svůj software a operační systém a změňte svá hesla, abyste zabránili dalším narušením.
 
+https://planb.network/tutorials/others/proton-drive
+
+https://planb.network/tutorials/others/veracrypt
+
+
+
 # Implementace řešení.
 <partId>215ec902-ba05-5549-87fc-cb8d82665f7b</partId>
 

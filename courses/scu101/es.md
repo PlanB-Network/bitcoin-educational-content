@@ -238,6 +238,11 @@ NO, generalmente se desaconseja pagar a los hackers en caso de ransomware u otro
 
 Si detecta un virus en su computadora, desconéctela de Internet, realice un análisis antivirus completo y elimine los archivos infectados. Luego, actualice su software y sistema operativo, y cambie sus contraseñas para evitar otras intrusiones.
 
+https://planb.network/tutorials/others/proton-drive
+
+https://planb.network/tutorials/others/veracrypt
+
+
 # Implementación de soluciones.
 <partId>215ec902-ba05-5549-87fc-cb8d82665f7b</partId>
 

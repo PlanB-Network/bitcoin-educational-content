@@ -267,9 +267,9 @@ Disarankan untuk menggunakan situs web Have I Been Pwned (https://haveibeenpwned
 Secara umum, mulai menggunakan alamat email baru yang lebih aman bukanlah praktik buruk dan bahkan perlu jika seseorang ingin memulai dari awal dengan basis yang sehat.
 Bonus Bitcoin: Mungkin disarankan untuk membuat alamat email khusus untuk aktivitas Bitcoin kita (membuat akun pertukaran) agar benar-benar memisahkan area aktivitas dalam hidup kita.
 
-### Tutorial: Pembuatan akun ProtonMail
+https://planb.network/tutorials/others/proton-mail
 
-**_Tutorial dalam pembangunan, untuk berkontribusi atau menambahkannya, Anda dapat melalui GitHub_**
+
 
 ## Manajer Kata Sandi
 

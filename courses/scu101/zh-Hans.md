@@ -265,9 +265,9 @@ https://planb.network/tutorials/others/mullvad
 总的来说，开始使用一个新的、更安全的电子邮件地址并不是一个坏习惯，甚至如果想要在健康的基础上重新开始，这是必要的。
 比特币奖励：为我们的比特币活动（创建交易账户）创建一个特定的电子邮件地址可能是明智的，以便真正分隔我们生活中的活动领域。
 
-### 教程：创建ProtonMail账户
+https://planb.network/tutorials/others/proton-mail
 
-**_教程正在建设中，要贡献或添加它，您可以通过GitHub进行_**
+
 
 ## 密码管理器
 

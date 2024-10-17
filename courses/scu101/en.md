@@ -265,9 +265,9 @@ It is advisable to use the website Have I Been Pwned (https://haveibeenpwned.com
 In general, starting to use a new, more secure email address is not a bad practice and even necessary if one wants to start fresh on a healthy basis.
 Bonus Bitcoin: It may be advisable to create a specific email address for our Bitcoin activities (creating exchange accounts) in order to truly separate the areas of activity in our lives.
 
-### Tutorial: ProtonMail account creation
+https://planb.network/tutorials/others/proton-mail
 
-**_Tutorial under construction, to contribute or add it, you can go through GitHub_**
+
 
 ## Password Manager
 <chapterId>0b3c69b2-522c-56c8-9fb8-1562bd55930f</chapterId>

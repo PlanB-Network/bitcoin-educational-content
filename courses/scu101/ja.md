@@ -254,9 +254,9 @@ Have I Been Pwned (https://haveibeenpwned.com/) のウェブサイトを使用�
 一般的に、新しい、よりセキュアなメールアドレスの使用を開始することは悪い習慣ではなく、健全な基盤で新たに始めたい場合には必要です。
 ボーナスBitcoin:Bitcoin活動（取引所アカウントの作成など）のために特定のメールアドレスを作成することが望ましい場合があります。これにより、私たちの生活の活動領域を真に分離することができます。
 
-### チュートリアル:ProtonMailアカウントの作成
+https://planb.network/tutorials/others/proton-mail
 
-**_チュートリアルは現在作成中です。貢献したり追加したりするには、GitHubを通じて行うことができます_**
+
 
 ## パスワードマネージャー
 <chapterId>0b3c69b2-522c-56c8-9fb8-1562bd55930f</chapterId>

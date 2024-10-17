@@ -258,9 +258,9 @@ Ao escolher um fornecedor de correio eletrónico e ao criar uma palavra-passe, �
 Em geral, começar a usar um novo endereço de e-mail mais seguro não é uma má prática e até mesmo necessário se você deseja recomeçar em bases sólidas.
 Bônus Bitcoin: Pode ser aconselhável criar um endereço de e-mail especialmente para nossas atividades Bitcoin (criação de contas de troca) para realmente separar os centros de atividade em nossas vidas.
 
-### Tutorial: criação de conta ProtonMail
+https://planb.network/tutorials/others/proton-mail
 
-**_ Tutorial em construção, para contribuir ou adicioná-lo, você pode passar pelo GitHub _**
+
 
 ## Gerenciador de senhas
 <chapterId>0b3c69b2-522c-56c8-9fb8-1562bd55930f</chapterId>

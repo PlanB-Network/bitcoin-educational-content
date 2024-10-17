@@ -252,9 +252,9 @@ On suositeltavaa käyttää verkkosivustoa Have I Been Pwned (https://haveibeenp
 Yleisesti ottaen uuden, turvallisemman sähköpostiosoitteen käyttöönotto ei ole huono käytäntö ja jopa tarpeellista, jos haluaa aloittaa alusta terveellä pohjalla.
 Bonus Bitcoin: Saattaa olla suositeltavaa luoda erityinen sähköpostiosoite Bitcoin-toimintoihimme (vaihtotilien luominen) erottaaksemme todella elämämme toiminta-alueet toisistaan.
 
-### Opas: ProtonMail-tilin luominen
+https://planb.network/tutorials/others/proton-mail
 
-**_Opas on työn alla, osallistuaksesi tai lisätäksesi sen, voit mennä GitHubin kautta_**
+
 
 ## Salasananhallintaohjelma
 <chapterId>0b3c69b2-522c-56c8-9fb8-1562bd55930f</chapterId>

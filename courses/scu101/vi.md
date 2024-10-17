@@ -274,9 +274,9 @@ Nên sử dụng trang web Have I Been Pwned (https://haveibeenpwned.com/) để
 Nói chung, bắt đầu sử dụng một địa chỉ email mới, an toàn hơn không phải là một việc gì đó quá tệ và thậm chí là rất cần thiết nếu muốn bắt đầu lại trên một nền tảng lành mạnh hơn.
 Bitcoin Bonus: Có thể nên tạo một địa chỉ email cụ thể cho các hoạt động Bitcoin của chúng ta (tạo tài khoản giao dịch) để thực sự tách biệt các lĩnh vực trong cuộc sống của chúng ta.
 
-### Hướng dẫn: Tạo tài khoản ProtonMail
+https://planb.network/tutorials/others/proton-mail
 
-**_Hướng dẫn đang được xây dựng, để đóng góp hoặc thêm vào, bạn có thể qua GitHub_**
+
 
 ## Trình quản lý mật khẩu
 

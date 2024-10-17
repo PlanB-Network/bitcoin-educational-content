@@ -267,9 +267,9 @@ On soovitatav kasutada veebisaiti Have I Been Pwned (https://haveibeenpwned.com/
 Üldiselt ei ole uue, turvalisema e-posti aadressi kasutusele võtmine halb tava ja isegi vajalik, kui soovitakse alustada puhtalt lehelt tervislikul alusel.
 Boonus Bitcoin: Võib olla soovitatav luua spetsiifiline e-posti aadress meie Bitcoin'i tegevusteks (vahetuskontode loomine), et tõeliselt eraldada meie elu erinevad tegevusalad.
 
-### Õpetus: ProtonMaili konto loomine
+https://planb.network/tutorials/others/proton-mail
 
-**_Õpetus on loomisel, et panustada või seda lisada, võite minna läbi GitHubi_**
+
 
 ## Paroolihaldur
 

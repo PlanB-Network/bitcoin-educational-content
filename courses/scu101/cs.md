@@ -255,9 +255,9 @@ Je doporučeno použít web Have I Been Pwned (https://haveibeenpwned.com/) k ov
 Obecně platí, že začít používat novou, bezpečnější emailovou adresu není špatná praxe a je dokonce nutné, pokud chceme začít znovu na zdravém základě.
 Bonus Bitcoin: Může být vhodné vytvořit specifickou emailovou adresu pro naše aktivity s Bitcoinem (vytváření účtů na burzách), aby bylo možné skutečně oddělit oblasti aktivit v našem životě.
 
-### Tutoriál: Vytvoření účtu ProtonMail
+https://planb.network/tutorials/others/proton-mail
 
-**_Tutoriál je ve výstavbě, přispět nebo jej doplnit můžete prostřednictvím GitHubu_**
+
 
 ## Správce hesel
 <chapterId>0b3c69b2-522c-56c8-9fb8-1562bd55930f</chapterId>

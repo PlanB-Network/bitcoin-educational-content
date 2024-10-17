@@ -268,9 +268,9 @@ Im Allgemeinen ist es eine gute Praxis und sogar notwendig, eine neue, sicherere
 
 Bonus Bitcoin: Es kann ratsam sein, eine spezielle E-Mail-Adresse für unsere Bitcoin-Aktivitäten (Erstellung von Börsenkonten) zu erstellen, um die Aktivitäten in unserem Leben wirklich zu trennen.
 
-### Tutorial: Erstellung eines ProtonMail-Kontos
+https://planb.network/tutorials/others/proton-mail
 
-**_Tutorial in Bearbeitung, um beizutragen oder es hinzuzufügen, können Sie GitHub verwenden_**
+
 
 ## Passwort-Manager
 <chapterId>0b3c69b2-522c-56c8-9fb8-1562bd55930f</chapterId>

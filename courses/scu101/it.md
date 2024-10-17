@@ -271,9 +271,9 @@ Si consiglia di utilizzare il sito Have I Been Pwned (Sono stato violato) - http
 In generale, iniziare a utilizzare un nuovo indirizzo email più sicuro non è una pratica sbagliata e addirittura necessaria se si desidera ripartire da basi sane.
 Bonus Bitcoin: Può essere consigliabile creare un indirizzo email appositamente per le nostre attività Bitcoin (creazione di account di scambio) al fine di separare realmente i centri di attività nelle nostre vite.
 
-### Tutorial: creazione di un account ProtonMail
+https://planb.network/tutorials/others/proton-mail
 
-**_ Tutorial in costruzione, per contribuire o aggiungerlo, è possibile passare attraverso GitHub _**
+
 
 ## Gestore di password
 <chapterId>0b3c69b2-522c-56c8-9fb8-1562bd55930f</chapterId>

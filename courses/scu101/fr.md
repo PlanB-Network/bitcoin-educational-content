@@ -280,6 +280,8 @@ En règle générale, se mettre à utiliser une nouvelle adresse mail plus sécu
 
 Bonus Bitcoin : Il peut être conseillé de créer une adresse mail spécialement pour nos activités Bitcoin (création de comptes d'échange) afin de vraiment séparer les centres d'activité dans nos vies.
 
+https://planb.network/tutorials/others/proton-mail
+
 ## Gestionnaire de mots de passe
 <chapterId>0b3c69b2-522c-56c8-9fb8-1562bd55930f</chapterId>
 

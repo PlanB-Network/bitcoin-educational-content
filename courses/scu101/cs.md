@@ -104,9 +104,10 @@ Pokročilejší alternativou je síť TOR (The Onion Router), která nabízí an
 
 TOR je legální a používají ho novináři, aktivisté za svobodu a další, kteří se snaží uniknout cenzuře v autoritářských zemích. Je však důležité pochopit, že TOR nezabezpečuje navštívené stránky ani samotný počítač. Navíc používání TORu může zpomalit internetové připojení, protože data procházejí přes počítače dalších tří lidí, než dosáhnou svého cíle. Je také nezbytné poznamenat, že TOR není stoprocentně spolehlivé řešení pro zajištění 100% anonymity a neměl by být používán pro nelegální aktivity.
 ![](assets/notext/7.webp)
-### BRAVE
 
-**_Návod ve výstavbě, přispět nebo jej přidat můžete prostřednictvím GitHubu_**
+
+https://planb.network/tutorials/others/tor-browser
+
 
 ## VPN a internetové připojení
 <chapterId>5aac83f4-a685-54b0-9759-d71bea7eeed2</chapterId>
@@ -124,6 +125,11 @@ Existují dva hlavní typy VPN: firemní VPN a spotřebitelské VPN, jako je Nor
 Používání spotřebitelského VPN nezaručuje úplnou anonymitu. Mnoho poskytovatelů VPN si uchovává informace o svých uživatelích, což může ohrozit jejich anonymitu. Ačkoliv VPN mohou být užitečné pro zlepšení online bezpečnosti, nejsou univerzálním řešením. Jsou efektivní pro určité konkrétní použití, jako je přístup k geograficky omezeným službám nebo zlepšení bezpečnosti při cestování, ale nezaručují úplnou bezpečnost. Při výběru VPN je zásadní dát přednost spolehlivosti a technickým aspektům před popularitou. Poskytovatelé VPN, kteří shromažďují nejméně osobních informací, jsou obecně nejbezpečnější. Služby jako iVPN a Mullvad neshromažďují osobní informace a dokonce umožňují platby v Bitcoinu pro zvýšení soukromí. ![](assets/notext/9.webp)
 Nakonec může být VPN také použito k blokování online reklam, což poskytuje příjemnější a bezpečnější zážitek z prohlížení. Je však důležité provést vlastní výzkum, aby se našlo VPN, které nejlépe vyhovuje vašim konkrétním potřebám. Používání VPN se doporučuje pro zvýšení bezpečnosti, i když procházíte internetem doma. To pomáhá zajistit vyšší úroveň bezpečnosti pro vyměňovaná data online. Nakonec nezapomeňte zkontrolovat URL adresy a malý zámek v adresním řádku, abyste potvrdili, že jste na webu, který máte v úmyslu navštívit.
 
+https://planb.network/tutorials/others/ivpn
+
+https://planb.network/tutorials/others/mullvad
+
+
 ### HTTPS & veřejné Wi-Fi sítě
 
 Pokud jde o online bezpečnost, je zásadní pochopit, že 4G je obecně bezpečnější než veřejné Wi-Fi. Používání 4G však může rychle vyčerpat váš mobilní datový tarif. Protokol HTTPS se stal standardem pro šifrování dat na webových stránkách. Zajišťuje, že data vyměňovaná mezi uživatelem a webem jsou bezpečná. Proto je klíčové ověřit, že navštívená stránka používá protokol HTTPS.
@@ -134,9 +140,7 @@ Pro vyhnutí se online podvodům je zásadní ověřit identitu stránky, kterou
 ![](assets/en/10.webp)
 Shrnutí, použití VPN může výrazně zlepšit online bezpečnost, jak pro firmy, tak pro jednotlivé uživatele. Navíc, dodržování dobrých návyků při prohlížení může přispět k lepší digitální hygieně. V dalším segmentu tohoto kurzu se budeme věnovat počítačové bezpečnosti, včetně aktualizací, antivirů a správy hesel.
 
-### Tutoriál: IVPN
 
-**_Tutoriál je ve výstavbě, přispět nebo jej doplnit můžete prostřednictvím GitHubu_**
 
 # Nejlepší postupy pro používání počítače
 <partId>e6eac20b-ba24-5d9a-8d86-8e0164074457</partId>

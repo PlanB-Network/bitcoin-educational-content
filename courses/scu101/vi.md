@@ -114,9 +114,9 @@ Một lựa chọn tiến bộ hơn là mạng TOR (The Onion Router), cung cấ
 TOR là hợp pháp và được sử dụng bởi các nhà báo, các nhà hoạt động vì tự do, và những người khác muốn tránh kiểm duyệt ở các quốc gia độc tài. Tuy nhiên, điều quan trọng là phải được hiểu rằng TOR không bảo vệ các trang web được truy cập hoặc chính các máy tính. Ngoài ra, sử dụng TOR có thể làm chậm kết nối internet vì dữ liệu phải đi qua máy tính của ba người khác trước khi đến đích. Cũng cần lưu ý rằng TOR không phải là giải pháp hoàn hảo để đảm bảo 100% ẩn danh và không nên sử dụng TOR cho các hoạt động bất hợp pháp.
 ![](assets/notext/7.webp)
 
-### BRAVE
 
-**_Hướng dẫn đang được xây dựng, để đóng góp hoặc thêm vào, bạn có thể truy cập GitHub_**
+
+https://planb.network/tutorials/others/tor-browser
 
 ## VPN và kết nối internet
 
@@ -137,6 +137,10 @@ Tuy nhiên, sử dụng VPN cho người dùng cá nhân không đảm bảo s�
 ![](assets/notext/9.webp)
 Cuối cùng, VPN cũng có thể được sử dụng để chặn quảng cáo trực tuyến, mang lại trải nghiệm duyệt web thú vị và an toàn hơn. Tuy nhiên, điều quan trọng là phải tự mình nghiên cứu để tìm ra công cụ VPN phù hợp nhất với nhu cầu cụ thể của bạn. Người dùng được khuyến nghị sử dụng VPN để tăng cường bảo mật, ngay cả khi duyệt web tại nhà. Điều này giúp đảm bảo mức độ bảo mật cao hơn cho dữ liệu trao đổi trực tuyến. Cuối cùng, hãy đảm bảo rằng bạn đã kiểm tra URL và biểu tượng ổ khóa nhỏ trong thanh địa chỉ để xác nhận việc bạn đang truy cập vào trang web mà bạn muốn.
 
+https://planb.network/tutorials/others/ivpn
+
+https://planb.network/tutorials/others/mullvad
+
 ### HTTPS & mạng Wi-Fi công cộng
 
 Về bảo mật trực tuyến, điều cần thiết là phải hiểu rằng 4G thường an toàn hơn Wi-Fi công cộng. Tuy nhiên, sử dụng 4G sẽ nhanh chóng tiêu hao gói dữ liệu di động của bạn. Giao thức HTTPS đã trở thành tiêu chuẩn để mã hóa dữ liệu trên các trang web. Nó đảm bảo rằng dữ liệu trao đổi giữa người dùng và trang web là an toàn. Do đó, việc xác minh trang web bạn đang truy cập sử dụng giao thức HTTPS là rất quan trọng.
@@ -147,9 +151,7 @@ Tại Liên minh Châu Âu, bảo vệ dữ liệu được quy định bởi Qu
 ![](assets/en/10.webp)
 Tóm lại, việc sử dụng VPN có thể cải thiện đáng kể bảo mật trực tuyến, cả cho doanh nghiệp và người dùng cá nhân. Hơn nữa, việc thực hành thói quen duyệt web tốt có thể góp phần vào việc duy trì vệ sinh số hóa tốt hơn. Trong phần tiếp theo của khóa học này, chúng ta sẽ đề cập đến bảo mật máy tính, bao gồm cập nhật, phần mềm diệt virus và quản lý mật khẩu.
 
-### Hướng dẫn: IVPN
 
-**_Hướng dẫn đang được xây dựng, để đóng góp hoặc thêm vào, bạn có thể truy cập qua GitHub_**
 
 # Những thói quen tốt cần có khi sử dụng máy tính
 

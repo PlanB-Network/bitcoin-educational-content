@@ -108,9 +108,9 @@ Uma alternativa mais avançada é a rede TOR (The Onion Router), que oferece ano
 
 O TOR é legal e é usado por jornalistas, ativistas da liberdade e outras pessoas que desejam escapar da censura em países autoritários. No entanto, é importante entender que o TOR não protege os sites visitados nem o próprio computador. Além disso, o uso do TOR pode diminuir a velocidade da conexão com a Internet, pois os dados passam pelos computadores de outras três pessoas antes de chegar ao destino. Também é essencial observar que o TOR não é uma solução infalível para garantir 100% de anonimato e não deve ser usado para atividades ilegais.
 ![](assets/notext/7.webp)
-### BRAVE
 
-**_Tutorial em construção, para contribuir ou adicioná-lo, você pode passar pelo GitHub_**
+
+https://planb.network/tutorials/others/tor-browser
 
 ## VPN e conexão com a internet
 <chapterId>5aac83f4-a685-54b0-9759-d71bea7eeed2</chapterId>
@@ -129,6 +129,10 @@ No entanto, o uso de um VPN público não garante anonimato completo. Muitos pro
 ![](assets/notext/9.webp)
 Por fim, um VPN também pode ser usado para bloquear anúncios online, oferecendo uma experiência de navegação mais agradável e segura. No entanto, é importante fazer sua própria pesquisa para encontrar o VPN mais adequado às suas necessidades específicas. O uso de um VPN é recomendado para reforçar a segurança, mesmo ao navegar na internet em casa. Isso ajuda a garantir um nível mais alto de segurança para os dados trocados online. Por fim, certifique-se de verificar os URLs e o pequeno cadeado na barra de endereço para confirmar que você está no site que pensa estar visitando.
 
+https://planb.network/tutorials/others/ivpn
+
+https://planb.network/tutorials/others/mullvad
+
 ### HTTPS e redes Wi-Fi públicas
 
 Em termos de segurança online, é essencial entender que a 4G geralmente é mais segura do que o Wi-Fi público. No entanto, o uso da 4G pode esgotar rapidamente o seu pacote de dados móveis. O protocolo HTTPS se tornou o padrão para criptografar dados em sites. Ele garante que os dados trocados entre o usuário e o site estejam seguros. Portanto, é crucial verificar se o site que você está visitando está usando o protocolo HTTPS.
@@ -138,10 +142,6 @@ Na União Europeia, a proteção de dados é regulamentada pelo Regulamento Gera
 Para evitar golpes online, é crucial verificar a identidade do site em que você está navegando, verificando especialmente a extensão e o nome de domínio. Além disso, esteja atento a golpistas que usam letras semelhantes nas URLs para enganar os usuários.
 ![](assets/pt/10.webp)
 Em resumo, o uso de VPN pode melhorar significativamente a segurança online, tanto para empresas quanto para usuários individuais. Além disso, a adoção de boas práticas de navegação pode contribuir para uma melhor higiene digital. No próximo segmento deste curso, abordaremos a segurança do computador, incluindo atualizações, antivírus e gerenciamento de senhas.
-
-### Tutorial: IVPN
-
-**_Tutorial em construção, para contribuir ou adicioná-lo, você pode passar pelo GitHub_**
 
 # Boas práticas de uso do computador
 <partId>e6eac20b-ba24-5d9a-8d86-8e0164074457</partId>

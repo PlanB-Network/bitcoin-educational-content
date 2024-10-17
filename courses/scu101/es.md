@@ -114,9 +114,9 @@ Una alternativa más avanzada es la red TOR (The Onion Router), que ofrece anoni
 
 TOR es legal y es utilizado por periodistas, activistas de la libertad y otras personas que desean evadir la censura en países autoritarios. Sin embargo, es importante entender que TOR no asegura los sitios visitados ni la computadora en sí. Además, el uso de TOR puede ralentizar la conexión a Internet, ya que los datos pasan por las computadoras de otras tres personas antes de llegar a su destino. También es esencial tener en cuenta que TOR no es una solución infalible para garantizar el anonimato al 100% y no debe ser utilizado para llevar a cabo actividades ilegales.
 ![](assets/notext/7.webp)
-### BRAVE
 
-**_Tutorial en construcción, para contribuir o agregarlo, puede pasar por GitHub_**
+
+https://planb.network/tutorials/others/tor-browser
 
 ## VPN y conexión a Internet
 <chapterId>5aac83f4-a685-54b0-9759-d71bea7eeed2</chapterId>
@@ -135,6 +135,10 @@ Sin embargo, el uso de un VPN para el público en general no garantiza un anonim
 ![](assets/notext/9.webp)
 Por último, un VPN también se puede utilizar para bloquear anuncios en línea, ofreciendo así una experiencia de navegación más agradable y segura. Sin embargo, es importante realizar su propia investigación para encontrar el VPN más adecuado para sus necesidades específicas. Se recomienda el uso de un VPN para fortalecer la seguridad, incluso cuando se navega por internet en casa. Esto ayuda a garantizar un nivel más alto de seguridad para los datos intercambiados en línea. Por último, asegúrese de verificar las URL y el candado en la barra de direcciones para confirmar que está en el sitio que cree que está visitando.
 
+https://planb.network/tutorials/others/ivpn
+
+https://planb.network/tutorials/others/mullvad
+
 ### HTTPS y las redes wifi públicas
 
 En cuanto a la seguridad en línea, es esencial entender que la 4G generalmente es más segura que el Wi-Fi público. Sin embargo, el uso de la 4G puede agotar rápidamente tu plan de datos móviles. El protocolo HTTPS se ha convertido en la norma para el cifrado de datos en los sitios web. Asegura que los datos intercambiados entre el usuario y el sitio web estén seguros. Por lo tanto, es crucial verificar que el sitio que estás visitando esté utilizando el protocolo HTTPS.
@@ -145,9 +149,8 @@ Para evitar estafas en línea, es crucial verificar la identidad del sitio en el
 ![](assets/es/10.webp)
 En resumen, el uso de una VPN puede mejorar en gran medida la seguridad en línea, tanto para las empresas como para los usuarios individuales. Además, poner en práctica buenos hábitos de navegación puede contribuir a una mejor higiene digital. En el próximo segmento de este curso, abordaremos la seguridad de la computadora, incluyendo las actualizaciones, el antivirus y la gestión de contraseñas.
 
-### Tutorial: IVPN
 
-**_Tutorial en construcción, para contribuir o agregarlo, puedes pasar por GitHub_**
+
 
 # Buenas prácticas para el uso de la computadora
 <partId>e6eac20b-ba24-5d9a-8d86-8e0164074457</partId>

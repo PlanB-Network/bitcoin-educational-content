@@ -110,9 +110,11 @@ A more advanced alternative is the TOR (The Onion Router) network, which offers 
 
 TOR is legal and is used by journalists, freedom activists, and others wishing to escape censorship in authoritarian countries. However, it is important to understand that TOR does not secure the visited sites or the computer itself. Additionally, using TOR can slow down the internet connection as data passes through three other people's computers before reaching its destination. It is also essential to note that TOR is not a foolproof solution to guarantee 100% anonymity and should not be used for illegal activities.
 ![](assets/notext/7.webp)
-### BRAVE
 
-**_Tutorial under construction, to contribute or add it, you can go through GitHub_**
+
+https://planb.network/tutorials/others/tor-browser
+
+
 
 ## VPN and internet connection
 <chapterId>5aac83f4-a685-54b0-9759-d71bea7eeed2</chapterId>
@@ -132,6 +134,10 @@ However, using a consumer VPN does not guarantee complete anonymity. Many VPN pr
 ![](assets/notext/9.webp)
 Finally, a VPN can also be used to block online advertisements, providing a more enjoyable and secure browsing experience. However, it is important to do your own research to find the VPN that best suits your specific needs. Using a VPN is recommended to enhance security, even when browsing the internet at home. This helps ensure a higher level of security for exchanged data online. Finally, make sure to check the URLs and the small padlock in the address bar to confirm that you are on the site you intend to visit.
 
+https://planb.network/tutorials/others/ivpn
+
+https://planb.network/tutorials/others/mullvad
+
 ### HTTPS & public Wi-Fi networks'
 
 In terms of online security, it is essential to understand that 4G is generally more secure than public Wi-Fi. However, using 4G can quickly deplete your mobile data plan. The HTTPS protocol has become the standard for encrypting data on websites. It ensures that the data exchanged between the user and the website is secure. Therefore, it is crucial to verify that the site you are visiting is using the HTTPS protocol.
@@ -142,9 +148,6 @@ To avoid online scams, it is crucial to verify the identity of the site you are 
 ![](assets/en/10.webp)
 In summary, the use of VPN can greatly improve online security, both for businesses and individual users. Furthermore, practicing good browsing habits can contribute to better digital hygiene. In the next segment of this course, we will address computer security, including updates, antivirus, and password management.
 
-### Tutorial: IVPN
-
-**_Tutorial under construction, to contribute or add it, you can go through GitHub_**
 
 # Best Practices for Computer Use
 <partId>e6eac20b-ba24-5d9a-8d86-8e0164074457</partId>

@@ -109,9 +109,10 @@ Eine fortgeschrittenere Alternative ist das TOR-Netzwerk (The Onion Router), das
 
 TOR ist legal und wird von Journalisten, Freiheitsaktivisten und anderen Personen verwendet, die der Zensur in autoritären Ländern entgehen möchten. Es ist jedoch wichtig zu verstehen, dass TOR die besuchten Websites oder den Computer selbst nicht absichert. Darüber hinaus kann die Verwendung von TOR die Internetverbindung verlangsamen, da die Daten über die Computer von drei anderen Personen geleitet werden, bevor sie ihr Ziel erreichen. Es ist auch wichtig zu beachten, dass TOR keine hundertprozentige Lösung zur Gewährleistung der Anonymität darstellt und nicht für illegale Aktivitäten verwendet werden sollte.
 ![](assets/notext/7.webp)
-### BRAVE
 
-**_Tutorial in Bearbeitung, um beizutragen oder es hinzuzufügen, können Sie GitHub verwenden_**
+
+https://planb.network/tutorials/others/tor-browser
+
 
 ## VPN und Internetverbindung
 <chapterId>5aac83f4-a685-54b0-9759-d71bea7eeed2</chapterId>
@@ -131,6 +132,10 @@ Die Verwendung eines öffentlichen VPNs garantiert jedoch keine vollständige An
 ![](assets/notext/9.webp)
 Schließlich kann ein VPN auch verwendet werden, um Online-Werbung zu blockieren und so ein angenehmeres und sichereres Browsing-Erlebnis zu bieten. Es ist jedoch wichtig, eigene Recherchen anzustellen, um das VPN zu finden, das am besten zu den spezifischen Bedürfnissen passt. Die Verwendung eines VPNs wird empfohlen, um die Sicherheit zu stärken, auch beim Surfen im Internet zu Hause. Dies trägt dazu bei, ein höheres Sicherheitsniveau für den Online-Datenaustausch zu gewährleisten. Vergewissern Sie sich abschließend, dass Sie die URLs und das kleine Schlosssymbol in der Adressleiste überprüfen, um zu bestätigen, dass Sie sich auf der von Ihnen beabsichtigten Website befinden.
 
+https://planb.network/tutorials/others/ivpn
+
+https://planb.network/tutorials/others/mullvad
+
 ### HTTPS & öffentliche WLAN-Netzwerke'
 
 In Bezug auf die Online-Sicherheit ist es wichtig zu verstehen, dass 4G in der Regel sicherer ist als öffentliches WLAN. Allerdings kann die Nutzung von 4G schnell Ihr mobiles Datenvolumen aufbrauchen. Das HTTPS-Protokoll ist zum Standard für die Verschlüsselung von Daten auf Websites geworden. Es stellt sicher, dass die zwischen dem Benutzer und der Website ausgetauschten Daten sicher sind. Es ist daher entscheidend zu überprüfen, ob die von Ihnen besuchte Website das HTTPS-Protokoll verwendet.
@@ -141,9 +146,8 @@ Um Online-Betrug zu vermeiden, ist es entscheidend, die Identität der besuchten
 ![](assets/de/10.webp)
 Zusammenfassend kann die Verwendung eines VPN die Online-Sicherheit sowohl für Unternehmen als auch für einzelne Benutzer erheblich verbessern. Darüber hinaus kann das Einhalten guter Browsing-Gewohnheiten zu einer besseren digitalen Hygiene beitragen. Im nächsten Abschnitt dieses Kurses werden wir die Computersicherheit behandeln, einschließlich Updates, Antivirus und Passwortverwaltung.
 
-### Tutorial: IVPN
 
-**_Tutorial in Bearbeitung, um beizutragen oder es hinzuzufügen, können Sie GitHub verwenden_**
+
 
 # Gute Computerpraktiken
 <partId>e6eac20b-ba24-5d9a-8d86-8e0164074457</partId>

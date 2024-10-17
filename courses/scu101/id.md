@@ -114,9 +114,9 @@ Alternatif yang lebih lanjut adalah jaringan TOR (The Onion Router), yang menawa
 TOR legal dan digunakan oleh jurnalis, aktivis kebebasan, dan orang lain yang ingin lolos dari sensor di negara-negara otoriter. Namun, penting untuk memahami bahwa TOR tidak mengamankan situs yang dikunjungi atau komputer itu sendiri. Selain itu, menggunakan TOR dapat memperlambat koneksi internet karena data melewati komputer tiga orang lain sebelum mencapai tujuannya. Juga penting untuk dicatat bahwa TOR bukan solusi sempurna untuk menjamin anonimitas 100% dan tidak seharusnya digunakan untuk aktivitas ilegal.
 ![](assets/notext/7.webp)
 
-### BRAVE
 
-**_Tutorial dalam pembangunan, untuk berkontribusi atau menambahkannya, Anda dapat melalui GitHub_**
+
+https://planb.network/tutorials/others/tor-browser
 
 ## VPN dan koneksi internet
 
@@ -135,6 +135,10 @@ Ada dua jenis utama VPN: VPN perusahaan dan VPN konsumen, seperti NordVPN. VPN p
 Namun, menggunakan VPN konsumen tidak menjamin anonimitas yang lengkap. Banyak penyedia VPN menyimpan informasi tentang penggunanya, yang dapat berpotensi mengkompromikan anonimitas mereka. Meskipun VPN dapat berguna untuk meningkatkan keamanan online, mereka bukan solusi universal. Mereka efektif untuk penggunaan tertentu, seperti mengakses layanan yang terbatas secara geografis atau meningkatkan keamanan saat bepergian, tetapi mereka tidak menjamin keamanan total. Saat memilih VPN, sangat penting untuk memprioritaskan keandalan dan teknisitas daripada popularitas. Penyedia VPN yang mengumpulkan sedikit informasi pribadi umumnya adalah yang paling aman. Layanan seperti iVPN dan Mullvad tidak mengumpulkan informasi pribadi dan bahkan memungkinkan pembayaran dalam Bitcoin untuk privasi yang meningkat.![](assets/notext/9.webp)
 Akhirnya, VPN juga dapat digunakan untuk memblokir iklan online, menyediakan pengalaman menjelajah yang lebih menyenangkan dan aman. Namun, penting untuk melakukan penelitian sendiri untuk menemukan VPN yang paling sesuai dengan kebutuhan spesifik Anda. Menggunakan VPN disarankan untuk meningkatkan keamanan, bahkan saat menjelajah internet di rumah. Ini membantu memastikan tingkat keamanan yang lebih tinggi untuk data yang ditukar secara online. Akhirnya, pastikan untuk memeriksa URL dan gembok kecil di bilah alamat untuk memastikan bahwa Anda berada di situs yang ingin Anda kunjungi.
 
+https://planb.network/tutorials/others/ivpn
+
+https://planb.network/tutorials/others/mullvad
+
 ### HTTPS & jaringan Wi-Fi publik
 
 Dalam hal keamanan online, penting untuk memahami bahwa 4G umumnya lebih aman daripada Wi-Fi publik. Namun, menggunakan 4G dapat dengan cepat menghabiskan paket data seluler Anda. Protokol HTTPS telah menjadi standar untuk mengenkripsi data di situs web. Ini memastikan bahwa data yang ditukar antara pengguna dan situs web aman. Oleh karena itu, sangat penting untuk memverifikasi bahwa situs yang Anda kunjungi menggunakan protokol HTTPS.
@@ -145,9 +149,6 @@ Untuk menghindari penipuan online, sangat penting untuk memverifikasi identitas 
 ![](assets/en/10.webp)
 Secara keseluruhan, penggunaan VPN dapat sangat meningkatkan keamanan online, baik untuk bisnis maupun pengguna individu. Selain itu, praktik kebiasaan menjelajah yang baik dapat berkontribusi pada kebersihan digital yang lebih baik. Dalam segmen berikutnya dari kursus ini, kami akan membahas keamanan komputer, termasuk pembaruan, antivirus, dan manajemen kata sandi.
 
-### Tutorial: IVPN
-
-**_Tutorial dalam pembangunan, untuk berkontribusi atau menambahkannya, Anda dapat melalui GitHub_**
 
 # Praktik Terbaik Penggunaan Komputer
 

@@ -107,9 +107,9 @@ Edistyneempi vaihtoehto on TOR (The Onion Router) -verkko, joka tarjoaa nimettö
 
 TOR on laillinen ja sitä käyttävät toimittajat, vapauden aktivistit ja muut, jotka haluavat välttää sensuuria autoritaarisissa maissa. On kuitenkin tärkeää ymmärtää, että TOR ei turvaa vierailtuja sivustoja tai itse tietokonetta. Lisäksi TORin käyttö voi hidastaa internet-yhteyttä, sillä tiedot kulkevat kolmen muun ihmisen tietokoneiden kautta ennen määränpäähänsä saapumista. On myös olennaista huomata, että TOR ei ole virheetön ratkaisu taatakseen 100 %:n nimettömyyden eikä sitä tulisi käyttää laittomiin toimiin.
 ![](assets/notext/7.webp)
-### BRAVE
 
-**_Ohje rakenteilla, osallistuaksesi tai lisätäksesi sen, voit mennä GitHubin kautta_**
+
+https://planb.network/tutorials/others/tor-browser
 
 ## VPN ja internet-yhteys
 <chapterId>5aac83f4-a685-54b0-9759-d71bea7eeed2</chapterId>
@@ -127,6 +127,10 @@ VPN:itä on kahta päätyyppiä: yritys-VPN:t ja kuluttaja-VPN:t, kuten NordVPN.
 Kuitenkin kuluttajakäyttöön tarkoitetun VPN:n käyttäminen ei takaa täydellistä anonyymiyttä. Monet VPN-palveluntarjoajat säilyttävät tietoja käyttäjistään, mikä voi mahdollisesti vaarantaa heidän anonyymiytensä. Vaikka VPN:t voivat olla hyödyllisiä online-turvallisuuden parantamisessa, ne eivät ole universaali ratkaisu. Ne ovat tehokkaita tietyissä erityiskäytöissä, kuten maantieteellisesti rajoitettujen palveluiden käyttämisessä tai turvallisuuden parantamisessa matkustaessa, mutta ne eivät takaa täydellistä turvallisuutta. VPN:n valinnassa on olennaista asettaa luotettavuus ja teknisyys suosion edelle. VPN-palveluntarjoajat, jotka keräävät vähiten henkilökohtaisia tietoja, ovat yleensä turvallisimpia. Palvelut kuten iVPN ja Mullvad eivät kerää henkilökohtaisia tietoja ja sallivat jopa maksut Bitcoinilla lisätyn yksityisyyden vuoksi. ![](assets/notext/9.webp)
 Lopuksi VPN:tä voidaan käyttää myös online-mainosten estämiseen, tarjoten nautinnollisemman ja turvallisemman selauskokemuksen. On kuitenkin tärkeää tehdä oma tutkimus löytääkseen VPN:n, joka parhaiten sopii omiin erityistarpeisiin. VPN:n käyttöä suositellaan turvallisuuden parantamiseksi, myös kotona internetiä selatessa. Tämä auttaa varmistamaan korkeamman turvallisuustason online-vaihdetulle datalle. Lopuksi, varmista tarkistaa URL-osoitteet ja pieni lukko osoiterivillä vahvistaaksesi, että olet sivustolla, jolla aiot vierailla.
 
+https://planb.network/tutorials/others/ivpn
+
+https://planb.network/tutorials/others/mullvad
+
 ### HTTPS & julkiset Wi-Fi-verkot
 
 Online-turvallisuuden kannalta on olennaista ymmärtää, että 4G on yleisesti turvallisempi kuin julkinen Wi-Fi. Kuitenkin 4G:n käyttö voi nopeasti kuluttaa mobiilidatapakettisi. HTTPS-protokollasta on tullut standardi verkkosivustojen datan salaamiseen. Se varmistaa, että käyttäjän ja verkkosivuston välillä vaihdettu data on turvassa. Siksi on ratkaisevan tärkeää varmistaa, että vierailemasi sivusto käyttää HTTPS-protokollaa.
@@ -137,9 +141,6 @@ Online-huijausten välttämiseksi on ratkaisevan tärkeää varmistaa selaamasi 
 ![](assets/en/10.webp)
 Yhteenvetona voidaan sanoa, että VPN:n käyttö voi merkittävästi parantaa online-turvallisuutta sekä yrityksille että yksityiskäyttäjille. Lisäksi hyvien selaustapojen noudattaminen voi edistää parempaa digitaalista hygieniaa. Seuraavassa kurssin osassa käsittelemme tietokoneen turvallisuutta, mukaan lukien päivitykset, antivirus ja salasanojen hallinta.
 
-### Opas: IVPN
-
-**_Opas on työn alla, osallistuaksesi tai lisätäksesi siihen, voit mennä GitHubin kautta_**
 
 # Parhaat käytännöt tietokoneen käyttöön
 <partId>e6eac20b-ba24-5d9a-8d86-8e0164074457</partId>

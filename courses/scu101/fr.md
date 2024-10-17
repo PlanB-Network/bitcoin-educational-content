@@ -370,6 +370,8 @@ Règle d'or : La sécurité informatique est une cible mouvante qui va s'adapter
 ## Mise en place d'un Boite Mail 
 <chapterId>afc9ab5d-7664-5a9b-ab50-225ac9ba8f7c</chapterId>
 
+Protéger sa boîte mail est une étape importante pour sécuriser ses activités en ligne et préserver ses données personnelles. Ce tutoriel vous guidera, pas à pas, dans la création et la configuration d’un compte ProtonMail, un fournisseur reconnu pour son haut niveau de sécurité qui propose un chiffrement de bout en bout de vos communications. Que vous soyez novice ou utilisateur expérimenté, les bonnes pratiques proposées ici vous aideront à renforcer la sécurité de votre messagerie, tout en tirant parti des fonctionnalités avancées de ProtonMail :
+
 https://planb.network/tutorials/others/proton-mail
 
 ![video](https://youtu.be/vpYJYWhmEZg)
@@ -377,7 +379,11 @@ https://planb.network/tutorials/others/proton-mail
 ## Sécurisation en 2FA
 <chapterId>09468ec1-95b7-56a4-a636-7618044568e1</chapterId>
 
+L'authentification à deux facteurs (2FA) est devenue essentielle pour sécuriser vos comptes en ligne. Dans ce tutoriel, vous apprendrez à configurer et utiliser l'application 2FA Authy, qui génère des codes dynamiques à 6 chiffres pour protéger vos comptes. Authy est très simple à prendre en mains et se synchronise sur plusieurs appareils. Découvrez comment installer et configurer Authy, et renforcez ainsi la sécurité de vos comptes en ligne dès maintenant :
+
 https://planb.network/tutorials/others/authy
+
+Une autre option est d'utiliser une clé de sécurité physique. Cet autre tutoriel vous montre comment configurer et utiliser une clé de sécurité en tant que second facteur d'authentification :
 
 https://planb.network/tutorials/others/security-key
 
@@ -386,14 +392,23 @@ https://planb.network/tutorials/others/security-key
 ## Création d'un gestionaire de mot de passe
 <chapterId>ed579680-4e7b-5f65-8541-14e519a3b242</chapterId>
 
+La gestion des mots de passe est un défi à l'ère numérique. Nous avons tous de nombreux comptes en ligne à sécuriser. Le gestionnaire de mots de passe vous aide à créer et stocker des mots de passe forts et uniques pour chaque compte. 
+
+Dans ce tutoriel, découvrez comment configurer Bitwarden, un gestionnaire de mots de passe open-source, et comment synchroniser vos identifiants sur tous vos appareils pour simplifier votre utilisation au quotidien :
+
 https://planb.network/tutorials/others/bitwarden
 
+Pour les utilisateurs plus confirmés, je vous propose également un tutoriel sur un autre logiciel gratuit et open-source à utiliser en local pour gérer vos mots de passe :
+
 https://planb.network/tutorials/others/keepass
+
 
 ![video](https://youtu.be/y7Xkv4E5YmU)
 
 ## Sécurisation de vos comptes
 <chapterId>7a774b34-aed0-57dd-b8f7-cf3be51c0d70</chapterId>
+
+Dans ces deux tutoriels, je vous guide également dans la sécurisation vos comptes en ligne et je vous explique comment adopter progressivement des pratiques plus sécurisées pour la gestion de vos mots de passe au quotidien.
 
 https://planb.network/tutorials/others/bitwarden
 
@@ -404,7 +419,11 @@ https://planb.network/tutorials/others/keepass
 ## Mise en place de Back-up
 <chapterId>01cfcde1-77cb-506c-8df1-fa18a2e8cc6b</chapterId>
 
+Protéger vos fichiers personnels est également un point essentiel. Ce tutoriel vous montre comment mettre en place une stratégie de sauvegarde efficace grâce à Proton Drive. Découvrez comment utiliser cette solution cloud sécurisée pour appliquer la méthode 3-2-1 : trois copies de vos données sur deux supports différents, dont une copie hors site. Assurez ainsi l'accessibilité et la sécurité de vos fichiers sensibles :
+
 https://planb.network/tutorials/others/proton-drive
+
+Et pour sécuriser vos fichiers stockés sur des support amovibles comme une clé usb ou un disque dur, je vous montre également comment chiffrer et déchiffrer ces supports facilement grâce à VeraCrypt :
 
 https://planb.network/tutorials/others/veracrypt
 
@@ -413,11 +432,18 @@ https://planb.network/tutorials/others/veracrypt
 ## Changement de navigateur & VPN
 <chapterId>8dc08feb-313c-5259-a54f-64aa68a07608</chapterId>
 
+La protection de votre vie privée en ligne est également un point à prendre en compte pour assurer votre sécurité. L'utilisation d'un VPN peut être une première solution pour y parvenir. 
+
+Je vous propose de découvrir deux solutions de VPN fiables et payables en bitcoin, que sont IVPN et Mullvad. Ces tutoriels vous guide pour installer, configurer et utiliser Mullvad ou IVPN sur tous vos appareils :
+
 https://planb.network/tutorials/others/ivpn
 
 https://planb.network/tutorials/others/mullvad
 
+Découvrez également comment utiliser Tor Browser, un navigateur spécifiquement conçu pour protéger votre confidentialité en ligne :
+
 https://planb.network/tutorials/others/tor-browser
+
 
 ![video](https://youtu.be/vc6-Ouca09g)
 

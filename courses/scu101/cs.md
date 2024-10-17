@@ -347,6 +347,8 @@ Zlaté pravidlo: Kybernetická bezpečnost je pohyblivým cílem, který se při
 ## Nastavení poštovní schránky
 <chapterId>afc9ab5d-7664-5a9b-ab50-225ac9ba8f7c</chapterId>
 
+Chrání své e-mailové schránky je důležitým krokem k zabezpečení online aktivit a ochraně osobních údajů. Tento návod vás krok za krokem provede vytvořením a nastavením účtu ProtonMail, poskytovatele známého pro svou vysokou úroveň bezpečnosti, který nabízí end-to-end šifrování vašich komunikací. Ať už jste začátečník nebo zkušený uživatel, zde navrhované osvědčené postupy vám pomohou posílit zabezpečení vaší pošty a zároveň využít pokročilé funkce ProtonMail:
+
 https://planb.network/tutorials/others/proton-mail
 
 
@@ -354,22 +356,36 @@ https://planb.network/tutorials/others/proton-mail
 ## Zabezpečení pomocí 2FA
 <chapterId>09468ec1-95b7-56a4-a636-7618044568e1</chapterId>
 
+Dvoufaktorová autentizace (2FA) se stala nezbytnou pro zabezpečení vašich online účtů. V tomto tutoriálu se naučíte, jak nastavit a používat aplikaci 2FA Authy, která generuje dynamické 6místné kódy pro ochranu vašich účtů. Authy je velmi snadné používat a synchronizuje se na více zařízeních. Objevte, jak nainstalovat a nastavit Authy a tím posilte zabezpečení svých online účtů již nyní:
+
 https://planb.network/tutorials/others/authy
 
+Další možností je použití fyzického bezpečnostního klíče. Tento další tutoriál vám ukáže, jak nastavit a používat bezpečnostní klíč jako druhý autentizační faktor:
+
 https://planb.network/tutorials/others/security-key
+
 
 
 
 ## Vytvoření správce hesel
 <chapterId>ed579680-4e7b-5f65-8541-14e519a3b242</chapterId>
 
+Správa hesel je výzvou v digitálním věku. Všichni máme mnoho online účtů, které je třeba zabezpečit. Správce hesel vám pomůže vytvářet a ukládat silná a jedinečná hesla pro každý účet.
+
+V tomto tutoriálu se dozvíte, jak nastavit Bitwarden, open-source správce hesel, a jak synchronizovat své přihlašovací údaje na všech zařízeních, aby bylo vaše každodenní používání jednodušší:
+
 https://planb.network/tutorials/others/bitwarden
+
+Pro pokročilejší uživatele nabízím také tutoriál na další bezplatný a open-source software, který můžete používat lokálně pro správu svých hesel:
 
 https://planb.network/tutorials/others/keepass
 
 
+
 ## Zabezpečení vašich účtů
 <chapterId>7a774b34-aed0-57dd-b8f7-cf3be51c0d70</chapterId>
+
+V těchto dvou tutoriálech vás také provedu zabezpečením vašich online účtů a vysvětlím, jak postupně přijímat bezpečnější postupy pro každodenní správu vašich hesel.
 
 https://planb.network/tutorials/others/bitwarden
 
@@ -379,19 +395,31 @@ https://planb.network/tutorials/others/keepass
 ## Nastavení zálohování
 <chapterId>01cfcde1-77cb-506c-8df1-fa18a2e8cc6b</chapterId>
 
+Chránit vaše osobní soubory je také klíčovým bodem. Tento tutoriál vám ukazuje, jak zavést efektivní zálohovací strategii díky Proton Drive. Objevte, jak používat toto zabezpečené cloudové řešení k aplikaci metody 3-2-1: tři kopie vašich dat na dvou různých médiích, z nichž jedna kopie je mimo místo. Tím zajistíte přístupnost a bezpečnost vašich citlivých souborů:
+
 https://planb.network/tutorials/others/proton-drive
 
+A pro zabezpečení vašich souborů uložených na přenosných médiích, jako je USB klíč nebo pevný disk, vám také ukazuji, jak snadno šifrovat a dešifrovat tato média pomocí VeraCrypt:
+
 https://planb.network/tutorials/others/veracrypt
+
 
 
 ## Změna prohlížeče & VPN
 <chapterId>8dc08feb-313c-5259-a54f-64aa68a07608</chapterId>
 
+Ochrana vašeho online soukromí je také klíčovým bodem pro zajištění vaší bezpečnosti. Použití VPN může být prvním krokem k jeho dosažení.
+
+Nabízím vám seznámit se se dvěma spolehlivými VPN řešeními, která jsou platitelná pomocí bitcoinu, a to IVPN a Mullvad. Tyto návody vás provedou instalací, konfigurací a používáním Mullvad nebo IVPN na všech vašich zařízeních:
+
 https://planb.network/tutorials/others/ivpn
 
 https://planb.network/tutorials/others/mullvad
 
+Dále se dozvíte, jak používat Tor Browser, prohlížeč speciálně navržený pro ochranu vašeho online soukromí:
+
 https://planb.network/tutorials/others/tor-browser
+
 
 
 # Jít dále

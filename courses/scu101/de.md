@@ -365,6 +365,8 @@ Goldene Regel: IT-Sicherheit ist ein sich ständig veränderndes Ziel, das sich 
 ## Einrichtung eines Postfachs
 <chapterId>afc9ab5d-7664-5a9b-ab50-225ac9ba8f7c</chapterId>
 
+Das Schützen Ihres E-Mail-Kontos ist ein wichtiger Schritt zur Sicherung Ihrer Online-Aktivitäten und zum Schutz Ihrer persönlichen Daten. Dieses Tutorial führt Sie Schritt für Schritt durch die Erstellung und Konfiguration eines ProtonMail-Kontos, eines Anbieters, der für sein hohes Sicherheitsniveau bekannt ist und eine Ende-zu-Ende-Verschlüsselung Ihrer Kommunikation bietet. Ob Sie nun Anfänger oder erfahrener Nutzer sind, die hier vorgeschlagenen bewährten Methoden helfen Ihnen, die Sicherheit Ihres E-Mail-Kontos zu stärken und gleichzeitig die erweiterten Funktionen von ProtonMail zu nutzen:
+
 https://planb.network/tutorials/others/proton-mail
 
 
@@ -372,22 +374,36 @@ https://planb.network/tutorials/others/proton-mail
 ## Absicherung mit 2FA
 <chapterId>09468ec1-95b7-56a4-a636-7618044568e1</chapterId>
 
+Die Zwei-Faktor-Authentifizierung (2FA) ist unerlässlich geworden, um Ihre Online-Konten zu sichern. In diesem Tutorial lernen Sie, wie Sie die 2FA-App Authy einrichten und verwenden, die dynamische 6-stellige Codes generiert, um Ihre Konten zu schützen. Authy ist sehr einfach zu bedienen und synchronisiert sich auf mehreren Geräten. Erfahren Sie, wie Sie Authy installieren und konfigurieren und stärken Sie so die Sicherheit Ihrer Online-Konten jetzt:
+
 https://planb.network/tutorials/others/authy
 
+Eine weitere Option ist die Verwendung eines physischen Sicherheitsschlüssels. Dieses zusätzliche Tutorial zeigt Ihnen, wie Sie einen Sicherheitsschlüssel als zweiten Authentifizierungsfaktor einrichten und verwenden:
+
 https://planb.network/tutorials/others/security-key
+
 
 
 
 ## Erstellung eines Passwort-Managers
 <chapterId>ed579680-4e7b-5f65-8541-14e519a3b242</chapterId>
 
+Das Passwortmanagement ist in der digitalen Ära eine Herausforderung. Wir alle haben zahlreiche Online-Konten, die gesichert werden müssen. Ein Passwortmanager hilft Ihnen, starke und einzigartige Passwörter für jedes Konto zu erstellen und zu speichern.
+
+In diesem Tutorial erfahren Sie, wie Sie Bitwarden, einen Open-Source-Passwortmanager, einrichten und wie Sie Ihre Anmeldedaten auf allen Ihren Geräten synchronisieren, um die tägliche Nutzung zu vereinfachen:
+
 https://planb.network/tutorials/others/bitwarden
+
+Für fortgeschrittene Benutzer biete ich auch ein Tutorial zu einer weiteren kostenlosen und Open-Source-Software an, die Sie lokal zur Verwaltung Ihrer Passwörter verwenden können:
 
 https://planb.network/tutorials/others/keepass
 
 
+
 ## Absicherung Ihrer Konten
 <chapterId>7a774b34-aed0-57dd-b8f7-cf3be51c0d70</chapterId>
+
+In diesen beiden Tutorials führe ich Sie auch bei der Sicherung Ihrer Online-Konten und erkläre Ihnen, wie Sie schrittweise sicherere Praktiken für die tägliche Verwaltung Ihrer Passwörter übernehmen können.
 
 https://planb.network/tutorials/others/bitwarden
 
@@ -397,19 +413,32 @@ https://planb.network/tutorials/others/keepass
 ## Einrichtung eines Back-ups
 <chapterId>01cfcde1-77cb-506c-8df1-fa18a2e8cc6b</chapterId>
 
+Das Schützen Ihrer persönlichen Dateien ist ebenfalls ein wesentlicher Punkt. Dieses Tutorial zeigt Ihnen, wie Sie eine effektive Backup-Strategie mit Proton Drive einrichten. Erfahren Sie, wie Sie diese sichere Cloud-Lösung nutzen, um die 3-2-1-Methode anzuwenden: drei Kopien Ihrer Daten auf zwei verschiedenen Medien, von denen eine Kopie außerhalb des Standorts ist. So gewährleisten Sie die Zugänglichkeit und Sicherheit Ihrer sensiblen Dateien:
+
 https://planb.network/tutorials/others/proton-drive
 
+Und um Ihre auf Wechseldatenträgern wie einem USB-Stick oder einer externen Festplatte gespeicherten Dateien zu sichern, zeige ich Ihnen auch, wie Sie diese Medien einfach mit VeraCrypt verschlüsseln und entschlüsseln können:
+
 https://planb.network/tutorials/others/veracrypt
+
 
 
 ## Browserwechsel & VPN
 <chapterId>8dc08feb-313c-5259-a54f-64aa68a07608</chapterId>
 
+Der Schutz Ihrer Online-Privatsphäre ist ebenfalls ein wichtiger Punkt zur Gewährleistung Ihrer Sicherheit. Die Nutzung eines VPNs kann eine erste Lösung sein, um dies zu erreichen.
+
+Ich schlage vor, zwei zuverlässige VPN-Lösungen zu entdecken, die mit Bitcoin zahlbar sind, nämlich IVPN und Mullvad. Diese Tutorials führen Sie durch die Installation, Konfiguration und Nutzung von Mullvad oder IVPN auf all Ihren Geräten:
+
 https://planb.network/tutorials/others/ivpn
 
 https://planb.network/tutorials/others/mullvad
 
+Erfahren Sie außerdem, wie Sie den Tor Browser verwenden, einen speziell entwickelten Browser zum Schutz Ihrer Online-Privatsphäre:
+
 https://planb.network/tutorials/others/tor-browser
+
+
 
 # Gehen Sie weiter
 <partId>77113cad-a6d8-57e5-b903-50c223b277ba</partId>

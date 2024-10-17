@@ -370,6 +370,8 @@ Kuldreegel: Küberturvalisus on liikuv sihtmärk, mis kohandub teie õppimisteek
 
 <chapterId>afc9ab5d-7664-5a9b-ab50-225ac9ba8f7c</chapterId>
 
+E-posti postkasti kaitsmine on oluline samm oma veebitegevuste turvamiseks ja isikuandmete kaitsmiseks. See juhend juhendab teid samm-sammult ProtonMaili konto loomisel ja seadistamisel, pakkujal, mis on tuntud oma kõrge turvalisuse taseme poolest ja pakub teie kommunikatsioonide otsast lõpuni krüpteerimist. Olgu te olete algaja või kogenud kasutaja, siin pakutavad parimad tavad aitavad teil tugevdada oma postkasti turvalisust, kasutades samal ajal ProtonMaili täiustatud funktsioone:
+
 https://planb.network/tutorials/others/proton-mail
 
 
@@ -378,9 +380,14 @@ https://planb.network/tutorials/others/proton-mail
 
 <chapterId>09468ec1-95b7-56a4-a636-7618044568e1</chapterId>
 
+Kahefaktoriline autentimine (2FA) on muutunud oluliseks teie veebikontode turvamiseks. Selles juhendis õpite, kuidas seadistada ja kasutada 2FA rakendust Authy, mis genereerib teie kontode kaitsmiseks dünaamilisi 6-kohalisi koode. Authy on väga lihtne kasutada ja sünkroonib mitme seadmega. Avastage, kuidas installida ja konfigureerida Authy ning tugevdada oma veebikontode turvalisust kohe:
+
 https://planb.network/tutorials/others/authy
 
+Teine võimalus on kasutada füüsilist turvavõtit. See teine juhend näitab, kuidas seadistada ja kasutada turvavõtit teise autentimistegurina:
+
 https://planb.network/tutorials/others/security-key
+
 
 
 
@@ -388,14 +395,23 @@ https://planb.network/tutorials/others/security-key
 
 <chapterId>ed579680-4e7b-5f65-8541-14e519a3b242</chapterId>
 
+Paroolihaldus on digiajastul väljakutse. Meil kõigil on palju veebikontosid, mida tuleb turvata. Paroolihaldur aitab teil luua ja salvestada iga konto jaoks tugevaid ja unikaalseid paroole.
+
+Selles õpetuses saate teada, kuidas seadistada Bitwarden, avatud lähtekoodiga paroolihaldurit, ja kuidas sünkroonida oma mandaadid kõigis seadmetes, et lihtsustada igapäevast kasutamist:
+
 https://planb.network/tutorials/others/bitwarden
 
-https://planb.network/tutorials/others/keypass
+Kogenumatele kasutajatele pakun ka õpetust teise tasuta ja avatud lähtekoodiga tarkvara kohta, mida saate lokaalselt paroolide haldamiseks kasutada:
+
+https://planb.network/tutorials/others/keepass
+
 
 
 ## Oma kontode turvamine
 
 <chapterId>7a774b34-aed0-57dd-b8f7-cf3be51c0d70</chapterId>
+
+Nendes kahes õpetuses juhendan teid ka oma veebikontode turvamisel ning selgitan, kuidas järk-järgult võtta kasutusele turvalisemaid praktikaid oma paroolide igapäevaseks haldamiseks.
 
 https://planb.network/tutorials/others/bitwarden
 
@@ -406,20 +422,32 @@ https://planb.network/tutorials/others/keypass
 
 <chapterId>01cfcde1-77cb-506c-8df1-fa18a2e8cc6b</chapterId>
 
+Teie isiklike failide kaitsmine on samuti oluline punkt. See õpetus näitab, kuidas seadistada tõhus varundamisstrateegia Proton Drive'i abil. Avastage, kuidas kasutada seda turvalist pilvelahendust 3-2-1 meetodi rakendamiseks: kolm koopiat teie andmetest kahes erinevas meediumis, millest üks koopia on väljaspool asukohta. Nii tagate oma tundlike failide ligipääsetavuse ja turvalisuse:
+
 https://planb.network/tutorials/others/proton-drive
 
+Ja et kaitsta teie eemaldatavatel meediumitel, nagu USB-mälupulk või väline kõvaketas, salvestatud faile, näitan ma ka, kuidas neid meediume VeraCryptiga hõlpsasti krüpteerida ja dekrüpteerida:
+
 https://planb.network/tutorials/others/veracrypt
+
 
 
 ## Brauseri ja VPN-i vahetus
 
 <chapterId>8dc08feb-313c-5259-a54f-64aa68a07608</chapterId>
 
+Teie online-elu privaatsuse kaitsmine on samuti oluline punkt teie turvalisuse tagamiseks. VPN-i kasutamine võib olla esimene lahendus selle saavutamiseks.
+
+Pakun teil avastada kaks usaldusväärset VPN-lahendust, mida saab maksta bitcoini kaudu, nimelt IVPN ja Mullvad. Need juhendid aitavad teil installida, konfigureerida ja kasutada Mullvadi või IVPN-i kõigis teie seadmetes:
+
 https://planb.network/tutorials/others/ivpn
 
 https://planb.network/tutorials/others/mullvad
 
+Lisaks õppige kasutama Tor Browserit, spetsiaalselt teie online-privaatsuse kaitsmiseks loodud veebibrauserit:
+
 https://planb.network/tutorials/others/tor-browser
+
 
 
 # Mine kaugemale

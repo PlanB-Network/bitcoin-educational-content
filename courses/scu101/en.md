@@ -363,6 +363,8 @@ Golden rule: Cybersecurity is a moving target that will adapt to your learning j
 ## Setting up a Mailbox 
 <chapterId>afc9ab5d-7664-5a9b-ab50-225ac9ba8f7c</chapterId>
 
+Protecting your email account is an important step to secure your online activities and safeguard your personal data. This tutorial will guide you, step by step, in creating and setting up a ProtonMail account, a provider known for its high level of security that offers end-to-end encryption of your communications. Whether you are a novice or an experienced user, the best practices presented here will help you strengthen the security of your email, while taking advantage of ProtonMail's advanced features:
+
 https://planb.network/tutorials/others/proton-mail
 
 
@@ -370,22 +372,36 @@ https://planb.network/tutorials/others/proton-mail
 ## Securing in 2FA
 <chapterId>09468ec1-95b7-56a4-a636-7618044568e1</chapterId>
 
+Two-factor authentication (2FA) has become essential for securing your online accounts. In this tutorial, you will learn how to set up and use the 2FA app Authy, which generates dynamic 6-digit codes to protect your accounts. Authy is very easy to use and synchronizes across multiple devices. Discover how to install and configure Authy, and thus strengthen the security of your online accounts right now:
+
 https://planb.network/tutorials/others/authy
 
+Another option is to use a physical security key. This additional tutorial shows you how to set up and use a security key as a second authentication factor:
+
 https://planb.network/tutorials/others/security-key
+
 
 
 
 ## Creating a password manager
 <chapterId>ed579680-4e7b-5f65-8541-14e519a3b242</chapterId>
 
+Password management is a challenge in the digital age. We all have numerous online accounts to secure. A password manager helps you create and store strong and unique passwords for each account.
+
+In this tutorial, learn how to set up Bitwarden, an open-source password manager, and how to sync your credentials across all your devices to simplify your daily use:
+
 https://planb.network/tutorials/others/bitwarden
+
+For more advanced users, I also offer a tutorial on another free and open-source software to use locally for managing your passwords:
 
 https://planb.network/tutorials/others/keepass
 
 
+
 ## Securing your accounts
 <chapterId>7a774b34-aed0-57dd-b8f7-cf3be51c0d70</chapterId>
+
+In these two tutorials, I also guide you in securing your online accounts and explain how to gradually adopt more secure practices for managing your passwords on a daily basis.
 
 https://planb.network/tutorials/others/bitwarden
 
@@ -395,19 +411,31 @@ https://planb.network/tutorials/others/keepass
 ## Back-up set-up
 <chapterId>01cfcde1-77cb-506c-8df1-fa18a2e8cc6b</chapterId>
 
+Protecting your personal files is also a crucial point. This tutorial shows you how to implement an effective backup strategy using Proton Drive. Discover how to use this secure cloud solution to apply the 3-2-1 method: three copies of your data on two different media, with one copy offsite. This ensures the accessibility and security of your sensitive files:
+
 https://planb.network/tutorials/others/proton-drive
 
+And to secure your files stored on removable media like a USB drive or external hard drive, I also show you how to easily encrypt and decrypt these media using VeraCrypt:
+
 https://planb.network/tutorials/others/veracrypt
+
 
 
 ## Change of browser & VPN
 <chapterId>8dc08feb-313c-5259-a54f-64aa68a07608</chapterId>
 
+Protecting your online privacy is also a crucial point to ensure your security. Using a VPN can be a first solution to achieve this.
+
+I suggest discovering two reliable VPN solutions that are payable in Bitcoin, namely IVPN and Mullvad. These tutorials guide you on how to install, configure, and use Mullvad or IVPN on all your devices:
+
 https://planb.network/tutorials/others/ivpn
 
 https://planb.network/tutorials/others/mullvad
 
+Also, learn how to use Tor Browser, a browser specifically designed to protect your online privacy:
+
 https://planb.network/tutorials/others/tor-browser
+
 
 
 # Go further

@@ -348,6 +348,8 @@ Kultainen sääntö: Kyberturvallisuus on liikkuva maali, joka mukautuu oppimism
 ## Sähköpostilaatikon pystyttäminen
 <chapterId>afc9ab5d-7664-5a9b-ab50-225ac9ba8f7c</chapterId>
 
+Sähköpostilaatikon suojaaminen on tärkeä askel online-toimintojen turvaamiseksi ja henkilökohtaisten tietojen suojaamiseksi. Tämä opas opastaa sinua askel askeleelta ProtonMail-tilin luomisessa ja konfiguroinnissa, palveluntarjoajassa, joka tunnetaan korkeasta turvallisuustasostaan ja tarjoaa viestiesi päästä päähän -salausta. Olitpa sitten aloittelija tai kokenut käyttäjä, täällä esitetyt parhaat käytännöt auttavat sinua vahvistamaan sähköpostisi turvallisuutta hyödyntäen samalla ProtonMailin edistyneitä ominaisuuksia:
+
 https://planb.network/tutorials/others/proton-mail
 
 
@@ -355,22 +357,36 @@ https://planb.network/tutorials/others/proton-mail
 ## 2FA:n turvaaminen
 <chapterId>09468ec1-95b7-56a4-a636-7618044568e1</chapterId>
 
+Kaksivaiheinen todennus (2FA) on tullut oleelliseksi verkkotilien suojaamiseksi. Tässä oppaassa opit, kuinka määrittää ja käyttää 2FA-sovellusta Authy, joka luo dynaamisia 6-numeroisia koodeja tiliesi suojaamiseksi. Authy on erittäin helppokäyttöinen ja synkronoitavissa useille laitteille. Opi asentamaan ja konfiguroimaan Authy ja vahvista näin online-tiliesi turvallisuutta heti:
+
 https://planb.network/tutorials/others/authy
 
+Toinen vaihtoehto on käyttää fyysistä turvakilpeä. Tämä toinen opas näyttää, kuinka määrittää ja käyttää turvakilpeä toisen autentikointitekijäna:
+
 https://planb.network/tutorials/others/security-key
+
 
 
 
 ## Salasananhallintaohjelman luominen
 <chapterId>ed579680-4e7b-5f65-8541-14e519a3b242</chapterId>
 
+Salasanojen hallinta on digitaalisen aikakauden haaste. Meillä kaikilla on lukuisia verkkotilejä, jotka on suojattava. Salasananhallintaohjelma auttaa sinua luomaan ja tallentamaan vahvoja ja ainutlaatuisia salasanoja jokaiselle tilille.
+
+Tässä oppaassa opit, kuinka määrittää Bitwarden, avoimen lähdekoodin salasananhallintaohjelma, ja kuinka synkronoida tunnistetietosi kaikilla laitteillasi yksinkertaistaaksesi päivittäistä käyttöä:
+
 https://planb.network/tutorials/others/bitwarden
+
+Kokenutta käyttäjää varten tarjoan myös oppaan toisen ilmaisen ja avoimen lähdekoodin ohjelmiston käytöstä salasanojesi hallintaan paikallisesti:
 
 https://planb.network/tutorials/others/keepass
 
 
+
 ## Tilien turvaaminen
 <chapterId>7a774b34-aed0-57dd-b8f7-cf3be51c0d70</chapterId>
+
+Näissä kahdessa tutoriaalissa opastan sinua myös online-tiliesi suojaamisessa ja selitän, miten voit vähitellen omaksua turvallisempia käytäntöjä salasanojesi päivittäisessä hallinnassa.
 
 https://planb.network/tutorials/others/bitwarden
 
@@ -380,19 +396,31 @@ https://planb.network/tutorials/others/keepass
 ## Varmuuskopiointiasetukset
 <chapterId>01cfcde1-77cb-506c-8df1-fa18a2e8cc6b</chapterId>
 
+Henkilökohtaisten tiedostojen suojaaminen on myös olennaista. Tämä opas näyttää, kuinka ottaa käyttöön tehokas varmuuskopiointistrategia Proton Drive'n avulla. Opi käyttämään tätä turvallista pilvipalveluratkaisua 3-2-1-menetelmän soveltamiseen: kolme kopiota tiedoistasi kahdessa eri tallennusvälineessä, joista yksi kopio on sivuston ulkopuolella. Näin varmistat arkaluonteisten tiedostojesi saatavuuden ja turvallisuuden:
+
 https://planb.network/tutorials/others/proton-drive
 
+Ja suojataksesi USB-tikulla tai ulkoisella kovalevyllä tallennettuja tiedostoja, näytän myös, miten voit helposti salata ja purkaa näitä tallennusvälineitä VeraCryptin avulla:
+
 https://planb.network/tutorials/others/veracrypt
+
 
 
 ## Selaimen vaihto & VPN
 <chapterId>8dc08feb-313c-5259-a54f-64aa68a07608</chapterId>
 
+Verkkoprivasiutesi suojaaminen on myös olennaista turvallisuutesi varmistamiseksi. VPN:n käyttö voi olla ensimmäinen ratkaisu tämän saavuttamiseksi.
+
+Ehdotan, että tutustut kahteen luotettavaan VPN-ratkaisuun, joita voi maksaa bitcoinilla, nimittäin IVPN ja Mullvad. Nämä tutoriaalit opastavat sinua asentamaan, konfiguroimaan ja käyttämään Mullvadi tai IVPN:iä kaikilla laitteillasi:
+
 https://planb.network/tutorials/others/ivpn
 
 https://planb.network/tutorials/others/mullvad
 
+Lisäksi opi käyttämään Tor Browseria, selainta, joka on erityisesti suunniteltu suojaamaan online-p私siuttasi:
+
 https://planb.network/tutorials/others/tor-browser
+
 
 
 # Syvennä osaamistasi

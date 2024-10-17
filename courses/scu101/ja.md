@@ -353,6 +353,8 @@ Have I Been Pwned (https://haveibeenpwned.com/) のウェブサイトを使用�
 ## メールボックスの設定
 <chapterId>afc9ab5d-7664-5a9b-ab50-225ac9ba8f7c</chapterId>
 
+メールボックスを保護することは、オンラインでの活動を安全にし、個人データを守るための重要なステップです。このチュートリアルでは、高いセキュリティレベルで知られ、通信のエンドツーエンド暗号化を提供するプロバイダーであるProtonMailのアカウントの作成と設定を、一歩ずつガイドします。初心者でも経験豊富なユーザーでも、ここで提案されているベストプラクティスは、ProtonMailの高度な機能を活用しながら、メールのセキュリティを強化するのに役立ちます：
+
 https://planb.network/tutorials/others/proton-mail
 
 
@@ -360,22 +362,36 @@ https://planb.network/tutorials/others/proton-mail
 ## 2FAでのセキュリティ強化
 <chapterId>09468ec1-95b7-56a4-a636-7618044568e1</chapterId>
 
+二要素認証（2FA）は、オンラインアカウントを保護するために不可欠となっています。このチュートリアルでは、アカウントを保護するために6桁の動的コードを生成する2FAアプリAuthyの設定と使用方法を学びます。Authyは非常に使いやすく、複数のデバイスで同期できます。Authyのインストールと設定方法を確認し、今すぐオンラインアカウントのセキュリティを強化しましょう：
+
 https://planb.network/tutorials/others/authy
 
+もう一つのオプションは、物理的なセキュリティキーを使用することです。この別のチュートリアルでは、セキュリティキーを第二の認証要素として設定および使用する方法を示します：
+
 https://planb.network/tutorials/others/security-key
+
 
 
 
 ## パスワードマネージャーの作成
 <chapterId>ed579680-4e7b-5f65-8541-14e519a3b242</chapterId>
 
+パスワード管理はデジタル時代の課題です。私たちは皆、多くのオンラインアカウントを保護する必要があります。パスワードマネージャーは、各アカウントのために強力でユニークなパスワードを作成し、保存するのに役立ちます。
+
+このチュートリアルでは、オープンソースのパスワードマネージャーであるBitwardenの設定方法と、日常の使用を簡素化するためにすべてのデバイスで資格情報を同期する方法を学びます：
+
 https://planb.network/tutorials/others/bitwarden
+
+より上級のユーザー向けに、パスワードをローカルで管理するために使用できる別の無料かつオープンソースのソフトウェアに関するチュートリアルも提供しています：
 
 https://planb.network/tutorials/others/keepass
 
 
+
 ## アカウントのセキュリティ強化
 <chapterId>7a774b34-aed0-57dd-b8f7-cf3be51c0d70</chapterId>
+
+この2つのチュートリアルでは、オンラインアカウントのセキュリティ確保についてもガイドし、日常的なパスワード管理のためにより安全な方法を徐々に採用する方法を説明します。
 
 https://planb.network/tutorials/others/bitwarden
 
@@ -385,19 +401,31 @@ https://planb.network/tutorials/others/keepass
 ## バックアップの設定
 <chapterId>01cfcde1-77cb-506c-8df1-fa18a2e8cc6b</chapterId>
 
+個人ファイルを保護することも重要なポイントです。このチュートリアルでは、Proton Driveを使用して効果的なバックアップ戦略を構築する方法を紹介します。この安全なクラウドソリューションを使用して、3-2-1メソッドを適用する方法を学びましょう：データの3つのコピーを2つの異なるメディアに保存し、そのうち1つはオフサイトに保管します。これにより、機密ファイルのアクセス性とセキュリティが確保されます：
+
 https://planb.network/tutorials/others/proton-drive
 
+また、USBメモリや外付けハードディスクなどのリムーバブルメディアに保存されたファイルを保護するために、VeraCryptを使用してこれらのメディアを簡単に暗号化および復号化する方法も紹介します：
+
 https://planb.network/tutorials/others/veracrypt
+
 
 
 ## ブラウザとVPNの変更
 <chapterId>8dc08feb-313c-5259-a54f-64aa68a07608</chapterId>
 
+オンラインでのプライバシー保護も、あなたの安全を確保するために考慮すべき重要なポイントです。VPNの使用はこれを達成するための第一歩となり得ます。
+
+ビットコインで支払える信頼性の高いVPNソリューションであるIVPNとMullvadの二つをご紹介します。これらのチュートリアルでは、MullvadまたはIVPNをすべてのデバイスにインストール、設定、および使用する方法をご案内します：
+
 https://planb.network/tutorials/others/ivpn
 
 https://planb.network/tutorials/others/mullvad
 
+また、オンラインでのプライバシーを保護するために特別に設計されたブラウザであるTor Browserの使用方法についても学びましょう：
+
 https://planb.network/tutorials/others/tor-browser
+
 
 
 # より深く掘り下げる

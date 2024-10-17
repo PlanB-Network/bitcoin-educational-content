@@ -366,6 +366,8 @@ TOR是合法的，被记者、自由活动家以及希望在专制国家逃避�
 
 <chapterId>afc9ab5d-7664-5a9b-ab50-225ac9ba8f7c</chapterId>
 
+保护您的电子邮箱是确保您的在线活动安全和保护个人数据的重要步骤。本教程将逐步指导您创建和配置 ProtonMail 账户，ProtonMail 以其高安全性著称，提供端到端加密的通信服务。无论您是新手还是有经验的用户，这里提出的最佳实践将帮助您加强邮箱的安全性，同时利用 ProtonMail 的高级功能：
+
 https://planb.network/tutorials/others/proton-mail
 
 
@@ -374,9 +376,14 @@ https://planb.network/tutorials/others/proton-mail
 
 <chapterId>09468ec1-95b7-56a4-a636-7618044568e1</chapterId>
 
+双因素认证（2FA）已成为保护您的在线账户安全的重要措施。在本教程中，您将学习如何设置和使用2FA应用Authy，该应用生成动态的6位数代码以保护您的账户。Authy非常易于使用，并可在多个设备上同步。了解如何安装和配置Authy，从而立即加强您的在线账户安全：
+
 https://planb.network/tutorials/others/authy
 
+另一种选择是使用物理安全密钥。这个额外的教程将向您展示如何设置和使用安全密钥作为第二个认证因素：
+
 https://planb.network/tutorials/others/security-key
+
 
 
 
@@ -384,14 +391,23 @@ https://planb.network/tutorials/others/security-key
 
 <chapterId>ed579680-4e7b-5f65-8541-14e519a3b242</chapterId>
 
+密码管理是数字时代的一大挑战。我们都有许多需要保护的在线账户。密码管理器可以帮助您为每个账户创建并存储强大且独特的密码。
+
+在本教程中，了解如何配置 Bitwarden，这是一款开源的密码管理器，以及如何在所有设备上同步您的凭证，以简化日常使用：
+
 https://planb.network/tutorials/others/bitwarden
 
-https://planb.network/tutorials/others/keypass
+对于更有经验的用户，我还提供了另一个免费且开源的软件的教程，您可以在本地使用它来管理您的密码：
+
+https://planb.network/tutorials/others/keepass
+
 
 
 ## 保护您的账户
 
 <chapterId>7a774b34-aed0-57dd-b8f7-cf3be51c0d70</chapterId>
+
+在这两个教程中，我还将指导您如何保护您的在线账户，并解释如何逐步采用更安全的实践来日常管理您的密码。
 
 https://planb.network/tutorials/others/bitwarden
 
@@ -402,20 +418,32 @@ https://planb.network/tutorials/others/keypass
 
 <chapterId>01cfcde1-77cb-506c-8df1-fa18a2e8cc6b</chapterId>
 
+保护您的个人文件也是一个关键点。本教程将向您展示如何通过 Proton Drive 实施有效的备份策略。了解如何使用这个安全的云解决方案来应用 3-2-1 方法：将您的数据复制三份，存储在两种不同的媒介上，其中一份存储在异地。这样可以确保您的敏感文件的可访问性和安全性：
+
 https://planb.network/tutorials/others/proton-drive
 
+为了保护存储在可移动媒介（如 USB 闪存驱动器或外部硬盘）上的文件，我还将向您展示如何使用 VeraCrypt 轻松加密和解密这些媒介：
+
 https://planb.network/tutorials/others/veracrypt
+
 
 
 ## 更换浏览器和VPN
 
 <chapterId>8dc08feb-313c-5259-a54f-64aa68a07608</chapterId>
 
+保护您的在线隐私也是确保您安全的一个重要方面。使用VPN可能是实现这一目标的第一步。
+
+我建议您了解两种可靠且可以用比特币支付的VPN解决方案，即IVPN和Mullvad。这些教程将指导您如何在所有设备上安装、配置和使用Mullvad或IVPN：
+
 https://planb.network/tutorials/others/ivpn
 
 https://planb.network/tutorials/others/mullvad
 
+另外，了解如何使用Tor Browser，这是一款专门设计用于保护您在线隐私的浏览器：
+
 https://planb.network/tutorials/others/tor-browser
+
 
 
 # 进一步了解

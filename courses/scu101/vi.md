@@ -376,6 +376,8 @@ Quy tắc vàng: An ninh mạng là một mục tiêu động và nó sẽ thíc
 
 <chapterId>afc9ab5d-7664-5a9b-ab50-225ac9ba8f7c</chapterId>
 
+Bảo vệ hộp thư điện tử của bạn là một bước quan trọng để đảm bảo an toàn cho các hoạt động trực tuyến và bảo vệ dữ liệu cá nhân của bạn. Hướng dẫn này sẽ hướng dẫn bạn, từng bước một, trong việc tạo và cấu hình tài khoản ProtonMail, một nhà cung cấp được công nhận với mức độ bảo mật cao, cung cấp mã hóa đầu cuối cho các cuộc giao tiếp của bạn. Dù bạn là người mới bắt đầu hay người dùng có kinh nghiệm, các thực hành tốt được đề xuất ở đây sẽ giúp bạn tăng cường bảo mật cho hộp thư điện tử của mình, đồng thời tận dụng các tính năng nâng cao của ProtonMail:
+
 https://planb.network/tutorials/others/proton-mail
 
 
@@ -384,7 +386,14 @@ https://planb.network/tutorials/others/proton-mail
 
 <chapterId>09468ec1-95b7-56a4-a636-7618044568e1</chapterId>
 
+Xác thực hai yếu tố (2FA) đã trở nên thiết yếu để bảo vệ các tài khoản trực tuyến của bạn. Trong hướng dẫn này, bạn sẽ học cách thiết lập và sử dụng ứng dụng 2FA Authy, ứng dụng tạo mã động 6 chữ số để bảo vệ các tài khoản của bạn. Authy rất dễ sử dụng và đồng bộ hóa trên nhiều thiết bị. Tìm hiểu cách cài đặt và cấu hình Authy, và do đó tăng cường bảo mật cho các tài khoản trực tuyến của bạn ngay bây giờ:
+
+https://planb.network/tutorials/others/authy
+
+Một tùy chọn khác là sử dụng khóa bảo mật vật lý. Hướng dẫn bổ sung này cho bạn thấy cách thiết lập và sử dụng khóa bảo mật như một yếu tố xác thực thứ hai:
+
 https://planb.network/tutorials/others/security-key
+
 
 
 
@@ -392,14 +401,23 @@ https://planb.network/tutorials/others/security-key
 
 <chapterId>ed579680-4e7b-5f65-8541-14e519a3b242</chapterId>
 
+Quản lý mật khẩu là một thách thức trong kỷ nguyên số. Tất cả chúng ta đều có nhiều tài khoản trực tuyến cần được bảo mật. Trình quản lý mật khẩu giúp bạn tạo và lưu trữ các mật khẩu mạnh và độc nhất cho mỗi tài khoản.
+
+Trong hướng dẫn này, hãy tìm hiểu cách cấu hình Bitwarden, một trình quản lý mật khẩu mã nguồn mở, và cách đồng bộ hóa thông tin đăng nhập của bạn trên tất cả các thiết bị để đơn giản hóa việc sử dụng hàng ngày:
+
 https://planb.network/tutorials/others/bitwarden
 
+Đối với người dùng có kinh nghiệm hơn, tôi cũng cung cấp một hướng dẫn về phần mềm miễn phí và mã nguồn mở khác để sử dụng cục bộ trong việc quản lý mật khẩu của bạn:
+
 https://planb.network/tutorials/others/keepass
+
 
 
 ## Bảo vệ tài khoản của bạn
 
 <chapterId>7a774b34-aed0-57dd-b8f7-cf3be51c0d70</chapterId>
+
+Trong hai hướng dẫn này, tôi cũng hướng dẫn bạn cách bảo vệ các tài khoản trực tuyến của mình và giải thích cách dần dần áp dụng các thực hành an toàn hơn để quản lý mật khẩu hàng ngày.
 
 https://planb.network/tutorials/others/bitwarden
 
@@ -410,9 +428,14 @@ https://planb.network/tutorials/others/keepass
 
 <chapterId>01cfcde1-77cb-506c-8df1-fa18a2e8cc6b</chapterId>
 
+Bảo vệ các tệp cá nhân của bạn cũng là một điểm quan trọng. Hướng dẫn này chỉ cho bạn cách triển khai một chiến lược sao lưu hiệu quả nhờ Proton Drive. Tìm hiểu cách sử dụng giải pháp đám mây an toàn này để áp dụng phương pháp 3-2-1: ba bản sao dữ liệu của bạn trên hai phương tiện khác nhau, trong đó một bản sao nằm ngoài địa điểm. Như vậy, bạn đảm bảo khả năng truy cập và an ninh cho các tệp nhạy cảm của mình:
+
 https://planb.network/tutorials/others/proton-drive
 
+Và để bảo mật các tệp của bạn lưu trữ trên các phương tiện di động như ổ USB hoặc ổ cứng di động, tôi cũng sẽ chỉ cho bạn cách mã hóa và giải mã các phương tiện này dễ dàng bằng VeraCrypt:
+
 https://planb.network/tutorials/others/veracrypt
+
 
 
 
@@ -420,11 +443,18 @@ https://planb.network/tutorials/others/veracrypt
 
 <chapterId>8dc08feb-313c-5259-a54f-64aa68a07608</chapterId>
 
+Bảo vệ quyền riêng tư trực tuyến của bạn cũng là một điểm cần xem xét để đảm bảo an toàn của bạn. Việc sử dụng VPN có thể là một giải pháp đầu tiên để đạt được điều này.
+
+Tôi đề xuất bạn khám phá hai giải pháp VPN đáng tin cậy và có thể thanh toán bằng bitcoin, đó là IVPN và Mullvad. Những hướng dẫn này sẽ hướng dẫn bạn cách cài đặt, cấu hình và sử dụng Mullvad hoặc IVPN trên tất cả các thiết bị của bạn:
+
 https://planb.network/tutorials/others/ivpn
 
 https://planb.network/tutorials/others/mullvad
 
+Ngoài ra, hãy tìm hiểu cách sử dụng Tor Browser, một trình duyệt được thiết kế đặc biệt để bảo vệ quyền riêng tư trực tuyến của bạn:
+
 https://planb.network/tutorials/others/tor-browser
+
 
 
 # Đi sâu hơn

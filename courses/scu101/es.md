@@ -367,6 +367,8 @@ Regla de oro: ¡La seguridad informática es un objetivo en constante evolución
 ## Configuración de un Buzón de Correo
 <chapterId>afc9ab5d-7664-5a9b-ab50-225ac9ba8f7c</chapterId>
 
+Proteger tu cuenta de correo electrónico es un paso importante para asegurar tus actividades en línea y preservar tus datos personales. Este tutorial te guiará, paso a paso, en la creación y configuración de una cuenta de ProtonMail, un proveedor reconocido por su alto nivel de seguridad que ofrece cifrado de extremo a extremo de tus comunicaciones. Ya seas principiante o usuario experimentado, las buenas prácticas propuestas aquí te ayudarán a fortalecer la seguridad de tu correo electrónico, mientras aprovechas las funciones avanzadas de ProtonMail:
+
 https://planb.network/tutorials/others/proton-mail
 
 
@@ -374,22 +376,36 @@ https://planb.network/tutorials/others/proton-mail
 ## Seguridad en 2FA
 <chapterId>09468ec1-95b7-56a4-a636-7618044568e1</chapterId>
 
+La autenticación de dos factores (2FA) se ha vuelto esencial para asegurar tus cuentas en línea. En este tutorial, aprenderás a configurar y utilizar la aplicación 2FA Authy, que genera códigos dinámicos de 6 dígitos para proteger tus cuentas. Authy es muy fácil de usar y se sincroniza en varios dispositivos. Descubre cómo instalar y configurar Authy, y así refuerza la seguridad de tus cuentas en línea ahora mismo:
+
 https://planb.network/tutorials/others/authy
 
+Otra opción es utilizar una clave de seguridad física. Este otro tutorial te muestra cómo configurar y usar una clave de seguridad como segundo factor de autenticación:
+
 https://planb.network/tutorials/others/security-key
+
 
 
 
 ## Creación de un gestor de contraseñas
 <chapterId>ed579680-4e7b-5f65-8541-14e519a3b242</chapterId>
 
+La gestión de contraseñas es un desafío en la era digital. Todos tenemos numerosos cuentas en línea que asegurar. Un gestor de contraseñas te ayuda a crear y almacenar contraseñas fuertes y únicas para cada cuenta.
+
+En este tutorial, descubre cómo configurar Bitwarden, un gestor de contraseñas de código abierto, y cómo sincronizar tus credenciales en todos tus dispositivos para simplificar su uso diario:
+
 https://planb.network/tutorials/others/bitwarden
+
+Para usuarios más avanzados, también ofrezco un tutorial sobre otro software gratuito y de código abierto para usar localmente en la gestión de tus contraseñas:
 
 https://planb.network/tutorials/others/keepass
 
 
+
 ## Asegurando tus cuentas
 <chapterId>7a774b34-aed0-57dd-b8f7-cf3be51c0d70</chapterId>
+
+En estos dos tutoriales, también te guío en la seguridad de tus cuentas en línea y te explico cómo adoptar progresivamente prácticas más seguras para la gestión de tus contraseñas en el día a día.
 
 https://planb.network/tutorials/others/bitwarden
 
@@ -399,19 +415,31 @@ https://planb.network/tutorials/others/keepass
 ## Configuración de copia de seguridad
 <chapterId>01cfcde1-77cb-506c-8df1-fa18a2e8cc6b</chapterId>
 
+Proteger tus archivos personales también es un punto esencial. Este tutorial te muestra cómo implementar una estrategia de respaldo efectiva gracias a Proton Drive. Descubre cómo usar esta solución en la nube segura para aplicar el método 3-2-1: tres copias de tus datos en dos medios diferentes, de las cuales una copia está fuera del sitio. Así aseguras la accesibilidad y seguridad de tus archivos sensibles:
+
 https://planb.network/tutorials/others/proton-drive
 
+Y para asegurar tus archivos almacenados en medios removibles como una unidad USB o un disco duro externo, también te muestro cómo cifrar y descifrar estos medios fácilmente usando VeraCrypt:
+
 https://planb.network/tutorials/others/veracrypt
+
 
 
 ## Cambio de navegador y VPN
 <chapterId>8dc08feb-313c-5259-a54f-64aa68a07608</chapterId>
 
+La protección de tu privacidad en línea también es un aspecto a tener en cuenta para garantizar tu seguridad. El uso de una VPN puede ser una primera solución para lograrlo.
+
+Te propongo descubrir dos soluciones de VPN fiables y que aceptan pagos en bitcoin, que son IVPN y Mullvad. Estos tutoriales te guiarán para instalar, configurar y utilizar Mullvad o IVPN en todos tus dispositivos:
+
 https://planb.network/tutorials/others/ivpn
 
 https://planb.network/tutorials/others/mullvad
 
+Además, descubre cómo usar Tor Browser, un navegador específicamente diseñado para proteger tu privacidad en línea:
+
 https://planb.network/tutorials/others/tor-browser
+
 
 
 # Ve más allá

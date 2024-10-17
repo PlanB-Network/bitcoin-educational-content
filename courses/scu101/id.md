@@ -370,6 +370,8 @@ Aturan emas: Keamanan siber adalah target yang bergerak yang akan beradaptasi de
 
 <chapterId>afc9ab5d-7664-5a9b-ab50-225ac9ba8f7c</chapterId>
 
+Melindungi kotak surat Anda adalah langkah penting untuk mengamankan aktivitas online Anda dan menjaga data pribadi Anda. Tutorial ini akan membimbing Anda, langkah demi langkah, dalam membuat dan mengkonfigurasi akun ProtonMail, penyedia yang dikenal karena tingkat keamanannya yang tinggi yang menawarkan enkripsi end-to-end untuk komunikasi Anda. Baik Anda seorang pemula atau pengguna berpengalaman, praktik terbaik yang diusulkan di sini akan membantu Anda memperkuat keamanan email Anda, sambil memanfaatkan fitur-fitur canggih ProtonMail:
+
 https://planb.network/tutorials/others/proton-mail
 
 
@@ -378,23 +380,37 @@ https://planb.network/tutorials/others/proton-mail
 
 <chapterId>09468ec1-95b7-56a4-a636-7618044568e1</chapterId>
 
+Autentikasi dua faktor (2FA) telah menjadi penting untuk mengamankan akun online Anda. Dalam tutorial ini, Anda akan belajar cara mengatur dan menggunakan aplikasi 2FA Authy, yang menghasilkan kode dinamis 6 digit untuk melindungi akun Anda. Authy sangat mudah digunakan dan dapat disinkronkan di beberapa perangkat. Pelajari cara menginstal dan mengonfigurasi Authy, dan perkuat keamanan akun online Anda sekarang juga:
+
 https://planb.network/tutorials/others/authy
 
+Opsi lain adalah menggunakan kunci keamanan fisik. Tutorial lainnya ini menunjukkan cara mengatur dan menggunakan kunci keamanan sebagai faktor autentikasi kedua:
+
 https://planb.network/tutorials/others/security-key
+
 
 
 ## Membuat manajer kata sandi
 
 <chapterId>ed579680-4e7b-5f65-8541-14e519a3b242</chapterId>
 
+Manajemen kata sandi adalah tantangan di era digital. Kita semua memiliki banyak akun online yang perlu diamankan. Pengelola kata sandi membantu Anda membuat dan menyimpan kata sandi yang kuat dan unik untuk setiap akun.
+
+Dalam tutorial ini, pelajari cara mengatur Bitwarden, pengelola kata sandi open-source, dan cara menyinkronkan kredensial Anda di semua perangkat untuk memudahkan penggunaan sehari-hari:
+
 https://planb.network/tutorials/others/bitwarden
 
+Untuk pengguna yang lebih mahir, saya juga menawarkan tutorial tentang perangkat lunak gratis dan open-source lainnya yang dapat digunakan secara lokal untuk mengelola kata sandi Anda:
+
 https://planb.network/tutorials/others/keepass
+
 
 
 ## Mengamankan Akun Anda
 
 <chapterId>7a774b34-aed0-57dd-b8f7-cf3be51c0d70</chapterId>
+
+Dalam dua tutorial ini, saya juga membimbing Anda dalam mengamankan akun online Anda dan menjelaskan bagaimana secara bertahap mengadopsi praktik yang lebih aman untuk mengelola kata sandi Anda sehari-hari.
 
 https://planb.network/tutorials/others/bitwarden
 
@@ -405,9 +421,14 @@ https://planb.network/tutorials/others/keepass
 
 <chapterId>01cfcde1-77cb-506c-8df1-fa18a2e8cc6b</chapterId>
 
+Melindungi file pribadi Anda juga merupakan poin penting. Tutorial ini menunjukkan kepada Anda bagaimana menerapkan strategi cadangan yang efektif menggunakan Proton Drive. Temukan cara menggunakan solusi cloud yang aman ini untuk menerapkan metode 3-2-1: tiga salinan data Anda pada dua media yang berbeda, dengan satu salinan di luar lokasi. Dengan demikian, Anda memastikan aksesibilitas dan keamanan file sensitif Anda:
+
 https://planb.network/tutorials/others/proton-drive
 
+Dan untuk mengamankan file Anda yang disimpan di media yang dapat dilepas seperti flash drive USB atau hard drive eksternal, saya juga menunjukkan cara mengenkripsi dan mendekripsi media tersebut dengan mudah menggunakan VeraCrypt:
+
 https://planb.network/tutorials/others/veracrypt
+
 
 
 ## Perubahan Browser & VPN
@@ -415,11 +436,18 @@ https://planb.network/tutorials/others/veracrypt
 <chapterId>8dc08feb-313c-5259-a54f-64aa68a07608</chapterId>
 
 
+Melindungi privasi online Anda juga merupakan poin penting untuk memastikan keamanan Anda. Penggunaan VPN dapat menjadi solusi pertama untuk mencapainya.
+
+Saya mengajak Anda untuk mengenal dua solusi VPN yang terpercaya dan dapat dibayar dengan bitcoin, yaitu IVPN dan Mullvad. Tutorial-tutorial ini akan membimbing Anda dalam menginstal, mengonfigurasi, dan menggunakan Mullvad atau IVPN di semua perangkat Anda:
+
 https://planb.network/tutorials/others/ivpn
 
 https://planb.network/tutorials/others/mullvad
 
+Juga, pelajari cara menggunakan Tor Browser, browser yang dirancang khusus untuk melindungi privasi online Anda:
+
 https://planb.network/tutorials/others/tor-browser
+
 
 
 

@@ -122,9 +122,15 @@ def copy_from_LLM_Translator_to_repo(lang, source_path):
         except Exception as e:
             print(f"Error copying back to '{destination_file_path}': {str(e)}")
 
+def ensure_directory_exists(directory):
+    if not os.path.exists(directory):
+        os.makedirs(directory)
+        print(f"Created directory: {directory}")
+
 def main():
     languages = get_supported_languages()
-    print(languages)
+    ensure_directory_exists("./translate-to-en")
+    ensure_directory_exists("./translate-from-en")
     for lang in languages:
         create_txt_to_en_from(lang)
 

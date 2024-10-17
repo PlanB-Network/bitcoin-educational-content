@@ -372,20 +372,20 @@ Aturan emas: Keamanan siber adalah target yang bergerak yang akan beradaptasi de
 
 Perhatikan bahwa, untuk saat ini, bagian kursus ini hanya berisi tutorial cara melakukan sesuatu dalam bahasa Prancis. Kami sedang bekerja untuk menerjemahkan video tersebut ke dalam bahasa Anda. Jika Anda ingin membantu kami menerjemahkan, hubungi kami melalui [GitHub](https://github.com/DecouvreBitcoin/sovereign-university-data)
 
-![video](https://youtu.be/vpYJYWhmEZg)
+
 
 ## Mengamankan dengan 2FA
 
 <chapterId>09468ec1-95b7-56a4-a636-7618044568e1</chapterId>
 
-![video](https://youtu.be/mNcAKRDmz5o)
+
 
 ## Membuat manajer kata sandi
 
 <chapterId>ed579680-4e7b-5f65-8541-14e519a3b242</chapterId>
 https://planb.network/tutorials/others/bitwarden
 
-![video](https://youtu.be/y7Xkv4E5YmU)
+
 
 ## Mengamankan Akun Anda
 
@@ -397,13 +397,13 @@ https://planb.network/tutorials/others/bitwarden
 <chapterId>01cfcde1-77cb-506c-8df1-fa18a2e8cc6b</chapterId>
 https://planb.network/tutorials/others/proton-drive
 https://planb.network/tutorials/others/veracrypt
-![video](https://youtu.be/wTJnlSUkDRI)
+
 
 ## Perubahan Browser & VPN
 
 <chapterId>8dc08feb-313c-5259-a54f-64aa68a07608</chapterId>
 
-![video](https://youtu.be/vc6-Ouca09g)
+
 
 # Lanjutkan Lebih Jauh
 

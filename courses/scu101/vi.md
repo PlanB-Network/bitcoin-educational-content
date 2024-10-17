@@ -378,7 +378,7 @@ Quy tắc vàng: An ninh mạng là một mục tiêu động và nó sẽ thíc
 
 https://planb.network/tutorials/others/proton-mail
 
-![video](https://youtu.be/vpYJYWhmEZg)
+
 
 ## Bảo mật 2FA
 
@@ -386,7 +386,7 @@ https://planb.network/tutorials/others/proton-mail
 
 https://planb.network/tutorials/others/security-key
 
-![video](https://youtu.be/mNcAKRDmz5o)
+
 
 ## Tạo quản lý mật khẩu
 
@@ -394,7 +394,7 @@ https://planb.network/tutorials/others/security-key
 
 https://planb.network/tutorials/others/bitwarden
 https://planb.network/tutorials/others/keepass
-![video](https://youtu.be/y7Xkv4E5YmU)
+
 
 ## Bảo vệ tài khoản của bạn
 
@@ -402,7 +402,7 @@ https://planb.network/tutorials/others/keepass
 
 https://planb.network/tutorials/others/bitwarden
 https://planb.network/tutorials/others/keepass
-![video](https://youtu.be/0JHZRALmGY0)
+
 
 ## Thiết lập sao lưu
 
@@ -411,7 +411,7 @@ https://planb.network/tutorials/others/keepass
 https://planb.network/tutorials/others/proton-drive
 https://planb.network/tutorials/others/veracrypt
 
-![video](https://youtu.be/wTJnlSUkDRI)
+
 
 ## Thay đổi trình duyệt & VPN
 
@@ -419,7 +419,7 @@ https://planb.network/tutorials/others/veracrypt
 https://planb.network/tutorials/others/ivpn
 https://planb.network/tutorials/others/mullvad
 https://planb.network/tutorials/others/tor-browser
-![video](https://youtu.be/vc6-Ouca09g)
+
 
 # Đi sâu hơn
 

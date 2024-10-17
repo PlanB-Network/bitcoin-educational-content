@@ -372,7 +372,7 @@ Kuldreegel: Küberturvalisus on liikuv sihtmärk, mis kohandub teie õppimisteek
 
 https://planb.network/tutorials/others/proton-mail
 
-![video](https://youtu.be/vpYJYWhmEZg)
+
 
 ## Turvamine 2FA abil
 
@@ -382,14 +382,14 @@ https://planb.network/tutorials/others/authy
 
 https://planb.network/tutorials/others/security-key
 
-![video](https://youtu.be/mNcAKRDmz5o)
+
 
 ## Paroolihalduri loomine
 
 <chapterId>ed579680-4e7b-5f65-8541-14e519a3b242</chapterId>
 https://planb.network/tutorials/others/bitwarden
 https://planb.network/tutorials/others/keypass
-![video](https://youtu.be/y7Xkv4E5YmU)
+
 
 ## Oma kontode turvamine
 
@@ -397,14 +397,14 @@ https://planb.network/tutorials/others/keypass
 
 https://planb.network/tutorials/others/bitwarden
 https://planb.network/tutorials/others/keypass
-![video](https://youtu.be/0JHZRALmGY0)
+
 
 ## Varundamise seadistamine
 
 <chapterId>01cfcde1-77cb-506c-8df1-fa18a2e8cc6b</chapterId>
 https://planb.network/tutorials/others/proton-drive
 https://planb.network/tutorials/others/veracrypt
-![video](https://youtu.be/wTJnlSUkDRI)
+
 
 ## Brauseri ja VPN-i vahetus
 
@@ -412,7 +412,7 @@ https://planb.network/tutorials/others/veracrypt
 https://planb.network/tutorials/others/ivpn
 https://planb.network/tutorials/others/mullvad
 https://planb.network/tutorials/others/tor-browser
-![video](https://youtu.be/vc6-Ouca09g)
+
 
 # Mine kaugemale
 

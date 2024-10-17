@@ -368,7 +368,7 @@ TOR是合法的，被记者、自由活动家以及希望在专制国家逃避�
 
 https://planb.network/tutorials/others/proton-mail
 
-![video](https://youtu.be/vpYJYWhmEZg)
+
 
 ## 在2FA中增强安全性
 
@@ -378,14 +378,14 @@ https://planb.network/tutorials/others/authy
 
 https://planb.network/tutorials/others/security-key
 
-![video](https://youtu.be/mNcAKRDmz5o)
+
 
 ## 创建密码管理器
 
 <chapterId>ed579680-4e7b-5f65-8541-14e519a3b242</chapterId>
 https://planb.network/tutorials/others/bitwarden
 https://planb.network/tutorials/others/keypass
-![video](https://youtu.be/y7Xkv4E5YmU)
+
 
 ## 保护您的账户
 
@@ -393,14 +393,14 @@ https://planb.network/tutorials/others/keypass
 
 https://planb.network/tutorials/others/bitwarden
 https://planb.network/tutorials/others/keypass
-![video](https://youtu.be/0JHZRALmGY0)
+
 
 ## 备份设置
 
 <chapterId>01cfcde1-77cb-506c-8df1-fa18a2e8cc6b</chapterId>
 https://planb.network/tutorials/others/proton-drive
 https://planb.network/tutorials/others/veracrypt
-![video](https://youtu.be/wTJnlSUkDRI)
+
 
 ## 更换浏览器和VPN
 
@@ -408,7 +408,7 @@ https://planb.network/tutorials/others/veracrypt
 https://planb.network/tutorials/others/ivpn
 https://planb.network/tutorials/others/mullvad
 https://planb.network/tutorials/others/tor-browser
-![video](https://youtu.be/vc6-Ouca09g)
+
 
 # 进一步了解
 

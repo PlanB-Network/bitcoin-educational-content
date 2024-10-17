@@ -184,9 +184,7 @@ Lopuksi, tässä on joitakin hyviä käytäntöjä tietokoneesi ja tietojesi tur
 
 Kohtele tietokonettasi kuten kotiasi: pysy valppaana, päivitä säännöllisesti, poista tarpeettomat tiedostot ja käytä vahvaa salasanaa turvallisuuden varmistamiseksi. On ratkaisevan tärkeää salata tiedot kannettavissa tietokoneissa ja älypuhelimissa varkauden tai tietojen menetyksen estämiseksi. BitLocker Windowsille, LUKS Linuxille ja sisäänrakennettu vaihtoehto Macille ovat ratkaisuja tietojen salaamiseen. On suositeltavaa ottaa tietojen salaus käyttöön epäröimättä ja kirjoittaa salasana paperille, joka säilytetään turvallisessa paikassa.
 Yhteenvetona on olennaista valita käyttöjärjestelmä, joka vastaa tarpeitasi ja päivittää sitä säännöllisesti, samoin kuin asennettuja sovelluksia. On myös tärkeää käyttää tehokasta ja käyttäjäystävällistä virustorjuntaohjelmaa sekä omaksua hyviä käytäntöjä tietokoneesi ja tietojesi turvallisuuden varmistamiseksi.
-### Opas: Ubuntu
 
-**_Opas on rakenteilla, osallistuaksesi tai lisätäksesi siihen, voit tehdä sen GitHubin kautta_**
 
 ## Hakkerointi & Varmuuskopiointi: Tietojesi suojaaminen
 <chapterId>9ddfcb6a-a253-5542-b7eb-df7222b46dc7</chapterId>

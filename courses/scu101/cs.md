@@ -186,9 +186,9 @@ Nakonec zde jsou některé dobré praktiky pro zabezpečení vašeho počítače
 
 Chraňte svůj počítač, jako byste chránili svůj domov: buďte ostražití, pravidelně aktualizujte, mažte nepotřebné soubory a používejte silné heslo pro zabezpečení. Je zásadní šifrovat data na laptopech a smartphonech, aby se předešlo krádeži nebo ztrátě dat. BitLocker pro Windows, LUKS pro Linux a vestavěná možnost pro Mac jsou řešeními pro šifrování dat. Je doporučeno bez váhání aktivovat šifrování dat a heslo si zapsat na papír, který bude uložen na bezpečném místě.
 Na závěr je nezbytné vybrat si operační systém, který vyhovuje vašim potřebám, a pravidelně jej aktualizovat, stejně jako nainstalované aplikace. Je také zásadní používat účinný a uživatelsky přívětivý antivirový program a dodržovat dobré bezpečnostní postupy pro ochranu vašeho počítače a dat.
-### Tutoriál: Ubuntu
 
-**_Tutoriál je ve výstavbě, přispět nebo jej doplnit můžete prostřednictvím GitHubu_**
+
+
 
 ## Hacking & Správa záloh: Ochrana vašich dat
 <chapterId>9ddfcb6a-a253-5542-b7eb-df7222b46dc7</chapterId>

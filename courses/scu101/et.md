@@ -196,9 +196,7 @@ Lõpuks, siin on mõned head tavad teie arvuti ja andmete turvalisuse jaoks. On 
 Kohtle oma arvutit nagu oma kodu: ole valvas, uuenda regulaarselt, kustuta tarbetuid faile ja kasuta turvalisuse jaoks tugevat parooli. Sülearvutite ja nutitelefonide andmete krüpteerimine on oluline varguse või andmekao vältimiseks. BitLocker Windowsile, LUKS Linuxile ja sisseehitatud võimalus Macile on andmete krüpteerimise lahendused. On soovitatav aktiveerida andmete krüpteerimine kõhklemata ja kirjutada parool paberile, mida hoitakse turvalises kohas.
 Järeldusena on oluline valida operatsioonisüsteem, mis vastab teie vajadustele, ning seda ja installitud rakendusi regulaarselt uuendada. Samuti on oluline kasutada efektiivset ja kasutajasõbralikku viirusetõrjet ning omaks võtta head praktikad oma arvuti ja andmete turvalisuse tagamiseks.
 
-### Õpetus: Ubuntu
 
-**_Õpetus on loomisel, kaasa aitamiseks või selle lisamiseks võite pöörduda GitHubi poole_**
 
 ## Häkkimine ja varundamise haldus: Oma andmete kaitsmine
 

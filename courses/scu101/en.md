@@ -196,9 +196,8 @@ Treat your computer as you would your home: stay vigilant, regularly update, del
 
 In conclusion, it is essential to choose an operating system that suits your needs and regularly update it, as well as the installed applications. It is also essential to use an effective and user-friendly antivirus and adopt good practices for the security of your computer and data.
 
-### Tutorial: Ubuntu
 
-**_Tutorial under construction, to contribute or add it, you can go through GitHub_**
+
 
 ## Hacking & Backup Management: Protecting Your Data
 <chapterId>9ddfcb6a-a253-5542-b7eb-df7222b46dc7</chapterId>

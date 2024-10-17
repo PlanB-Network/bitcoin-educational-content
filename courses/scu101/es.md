@@ -199,9 +199,7 @@ Trate su computadora como lo haría con su hogar: manténgase alerta, realice ac
 
 En conclusión, es fundamental optar por un sistema operativo adecuado a sus necesidades y mantenerlo actualizado regularmente, así como las aplicaciones instaladas en él. También es esencial utilizar un antivirus eficaz y fácil de usar, y adoptar buenas prácticas para la seguridad de su computadora y sus datos.
 
-### Tutorial: Ubuntu
 
-**_ Tutorial en construcción, para contribuir o agregarlo, puede pasar por GitHub _**
 
 ## Hack y gestión de copias de seguridad: proteger sus datos
 <chapterId>9ddfcb6a-a253-5542-b7eb-df7222b46dc7</chapterId>

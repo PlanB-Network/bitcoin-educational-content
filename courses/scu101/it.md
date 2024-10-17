@@ -198,9 +198,7 @@ Tratta il tuo computer come faresti con la tua casa: rimani vigile, effettua reg
 
 In conclusione, è fondamentale optare per un sistema operativo adatto alle proprie esigenze e tenerlo aggiornato regolarmente, così come le applicazioni installate. È anche essenziale utilizzare un antivirus efficace e piacevole da utilizzare e adottare buone pratiche per la sicurezza del tuo computer e dei tuoi dati.
 
-### Tutorial: Ubuntu
 
-**_ Tutorial in costruzione, per contribuire o aggiungerlo, è possibile passare attraverso GitHub _**
 
 ## Hack & gestione del backup: proteggere i propri dati
 <chapterId>9ddfcb6a-a253-5542-b7eb-df7222b46dc7</chapterId>

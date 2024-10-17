@@ -196,9 +196,8 @@ Behandeln Sie Ihren Computer so, wie Sie es mit Ihrem Zuhause tun würden: bleib
 
 Zusammenfassend ist es entscheidend, ein Betriebssystem zu wählen, das Ihren Bedürfnissen entspricht, und es regelmäßig sowie die darauf installierten Anwendungen zu aktualisieren. Es ist auch wichtig, eine effektive und benutzerfreundliche Antivirensoftware zu verwenden und bewährte Sicherheitspraktiken für Ihren Computer und Ihre Daten zu befolgen.
 
-### Tutorial: Ubuntu
 
-**_Tutorial in Bearbeitung, um beizutragen oder es hinzuzufügen, können Sie GitHub verwenden_**
+
 
 ## Hack & Backup-Management: Schutz Ihrer Daten
 <chapterId>9ddfcb6a-a253-5542-b7eb-df7222b46dc7</chapterId>

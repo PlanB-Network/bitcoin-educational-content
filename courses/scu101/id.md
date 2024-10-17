@@ -196,9 +196,7 @@ Akhirnya, berikut adalah beberapa praktik baik untuk keamanan komputer dan data 
 Perlakukan komputer Anda seperti Anda memperlakukan rumah Anda: tetap waspada, perbarui secara teratur, hapus file yang tidak perlu, dan gunakan kata sandi yang kuat untuk keamanan. Sangat penting untuk mengenkripsi data pada laptop dan smartphone untuk mencegah pencurian atau kehilangan data. BitLocker untuk Windows, LUKS untuk Linux, dan opsi bawaan untuk Mac adalah solusi untuk enkripsi data. Disarankan untuk mengaktifkan enkripsi data tanpa ragu dan menuliskan kata sandi pada kertas yang disimpan di tempat yang aman.
 Kesimpulan, sangat penting untuk memilih sistem operasi yang sesuai dengan kebutuhan Anda dan secara rutin memperbaruinya, begitu juga dengan aplikasi yang terinstal. Juga penting untuk menggunakan antivirus yang efektif dan ramah pengguna serta mengadopsi praktik baik untuk keamanan komputer dan data Anda.
 
-### Tutorial: Ubuntu
 
-**_Tutorial dalam pembangunan, untuk berkontribusi atau menambahkannya, Anda dapat melalui GitHub_**
 
 ## Manajemen Hacking & Backup: Melindungi Data Anda
 

@@ -190,9 +190,7 @@ Trate o seu computador como faria com a sua casa: fique atento, faça atualizaç
 
 Em conclusão, é fundamental optar por um sistema operacional adequado às suas necessidades e atualizá-lo regularmente, assim como os aplicativos instalados nele. Também é essencial usar um antivírus eficaz e fácil de usar, e adotar boas práticas para a segurança do seu computador e dados.
 
-### Tutorial: Ubuntu
 
-**_Tutorial em construção, para contribuir ou adicioná-lo, você pode usar o GitHub_**
 
 ## Hack e gerenciamento de backup: protegendo seus dados
 <chapterId>9ddfcb6a-a253-5542-b7eb-df7222b46dc7</chapterId>

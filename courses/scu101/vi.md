@@ -202,9 +202,8 @@ Hãy đối xử với máy tính của bạn như bạn đối xử với ngôi
 
 Kết luận, việc chọn một hệ điều hành phù hợp với nhu cầu của bạn và cập nhật thường xuyên, cũng như các ứng dụng đã cài đặt, là cực kỳ quan trọng. Một điều nữa cũng rất quan trọng là sử dụng một phần mềm diệt vi rút hiệu quả, dễ sử dụng và áp dụng các thói quen tốt nhằm đảm bảo sự an toàn cho máy tính và dữ liệu của bạn.
 
-### Hướng dẫn: Ubuntu
 
-**_Hướng dẫn đang được xây dựng, để đóng góp hoặc thêm vào, bạn có thể qua GitHub_**
+
 
 ## Quản lý hacking & sao lưu: Bảo vệ dữ liệu của Bạn
 

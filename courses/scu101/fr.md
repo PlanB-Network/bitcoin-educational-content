@@ -204,9 +204,7 @@ Traitez votre ordinateur comme vous le feriez pour votre maison : restez vigilan
 
 En conclusion, il est primordial d'opter pour un système d'exploitation adapté à vos besoins et de le mettre à jour régulièrement, ainsi que les applications qui y sont installées. Il est aussi essentiel d'utiliser un antivirus efficace et agréable à l'usage, et d'adopter de bonnes pratiques pour la sécurité de votre ordinateur et de vos données.
 
-### Tutoriel : Ubuntu
 
-**_ Tutoriel en construction, pour contribuer ou le rajouter, vous pouvez passer par le GitHub _**
 
 ## Hack & gestion de back-up : protéger ses données
 <chapterId>9ddfcb6a-a253-5542-b7eb-df7222b46dc7</chapterId>

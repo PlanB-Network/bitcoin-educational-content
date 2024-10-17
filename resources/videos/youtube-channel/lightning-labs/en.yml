@@ -1,0 +1,6 @@
+description: |
+  The Lightning Labs channel is the place to find tutorials, interviews, and demos on Lightning Network functionality and tools. 
+  Lightning Labs develops software that powers the Lightning Network. Our open source, secure, and scalable Lightning systems enable users to send and receive money more efficiently than ever before. Lightning Labs develops the Lightning Network Daemon (LND) which is a complete implementation of a Lightning Network node. We also offer a series of verifiable, non-custodial Lightning-based financial services. We bridge the world of open source software and the next-generation of bitcoin financial software.
+
+contributors:
+  - rabbit-hole

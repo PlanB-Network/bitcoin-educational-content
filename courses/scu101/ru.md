@@ -353,6 +353,12 @@ https://planb.network/tutorials/others/keepass
 
 Золотое правило: Кибербезопасность - это движущаяся цель, которая будет адаптироваться к вашему пути обучения!
 
+https://planb.network/tutorials/others/authy
+
+https://planb.network/tutorials/others/security-key
+
+
+
 # Практический раздел
 
 <partId>98ccf14b-4053-5839-878c-7a73ff02eb95</partId>

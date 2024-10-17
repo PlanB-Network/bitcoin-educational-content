@@ -351,6 +351,12 @@ https://planb.network/tutorials/others/keepass
 
 黄金法则：网络安全是一个不断变化的目标，它会适应您的学习旅程！
 
+https://planb.network/tutorials/others/authy
+
+https://planb.network/tutorials/others/security-key
+
+
+
 # 实践部分
 
 <partId>98ccf14b-4053-5839-878c-7a73ff02eb95</partId>

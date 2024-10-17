@@ -357,6 +357,12 @@ Continuate ad imparare e ad implementare gradualmente le buone pratiche!
 
 Regola d'oro: La sicurezza informatica è un obiettivo in movimento che si adatta al vostro percorso di apprendimento!
 
+https://planb.network/tutorials/others/authy
+
+https://planb.network/tutorials/others/security-key
+
+
+
 # Sezione Pratica
 <partId>98ccf14b-4053-5839-878c-7a73ff02eb95</partId>
 

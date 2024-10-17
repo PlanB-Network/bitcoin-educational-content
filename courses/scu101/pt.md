@@ -344,6 +344,12 @@ Continue aprendendo e implementando gradualmente as boas práticas!
 
 Regra de ouro: A segurança da informação é um alvo em movimento que se adaptará ao seu percurso de aprendizagem!
 
+https://planb.network/tutorials/others/authy
+
+https://planb.network/tutorials/others/security-key
+
+
+
 # Seção Prática
 <partId>98ccf14b-4053-5839-878c-7a73ff02eb95</partId>
 

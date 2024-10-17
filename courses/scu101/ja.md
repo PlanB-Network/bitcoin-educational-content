@@ -338,6 +338,12 @@ https://planb.network/tutorials/others/keepass
 
 黄金律:サイバーセキュリティは、あなたの学習の旅に適応する移動目標です！
 
+https://planb.network/tutorials/others/authy
+
+https://planb.network/tutorials/others/security-key
+
+
+
 # 実践セクション
 <partId>98ccf14b-4053-5839-878c-7a73ff02eb95</partId>
 

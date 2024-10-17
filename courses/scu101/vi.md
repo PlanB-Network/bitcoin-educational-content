@@ -361,6 +361,12 @@ Hãy tiếp tục học hỏi và dần dần thực hiện các hành vi đúng
 
 Quy tắc vàng: An ninh mạng là một mục tiêu động và nó sẽ thích nghi với hành trình học hỏi của bạn!
 
+https://planb.network/tutorials/others/authy
+
+https://planb.network/tutorials/others/security-key
+
+
+
 # Phần Thực Hành
 
 <partId>98ccf14b-4053-5839-878c-7a73ff02eb95</partId>

@@ -338,6 +338,12 @@ Pokračujte ve vzdělávání a postupně implementujte dobré praktiky!
 
 Zlaté pravidlo: Kybernetická bezpečnost je pohyblivým cílem, který se přizpůsobí vaší cestě učení!
 
+https://planb.network/tutorials/others/authy
+
+https://planb.network/tutorials/others/security-key
+
+
+
 # Praktická sekce
 <partId>98ccf14b-4053-5839-878c-7a73ff02eb95</partId>
 

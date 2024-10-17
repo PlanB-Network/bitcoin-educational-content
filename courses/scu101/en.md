@@ -351,6 +351,12 @@ Keep learning and gradually implement good practices!
 
 Golden rule: Cybersecurity is a moving target that will adapt to your learning journey!
 
+https://planb.network/tutorials/others/authy
+
+https://planb.network/tutorials/others/security-key
+
+
+
 # Practical Section 
 <partId>98ccf14b-4053-5839-878c-7a73ff02eb95</partId>
 

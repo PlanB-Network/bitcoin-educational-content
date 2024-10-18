@@ -1649,13 +1649,16 @@ The reasoning for the operations behind the Rijndael cipher is they produce both
 # Asymmetric Cryptography
 <partId>868bd9dd-6e1c-5ea9-9ece-54affc13ba05</partId>
 
+
+## The key distribution and management problem
+<chapterId>1bb651ba-689a-5a89-a7d3-0b9cc3b694f7</chapterId>
+
 As with symmetric cryptography, asymmetric schemes can be used to ensure both secrecy and authentication. By contrast, however, these schemes employ two keys rather than one: a private and a public key.
 
 We start our enquiry with the discovery of asymmetric cryptography, particularly the problems that spurred it on. Next, we discuss how asymmetric schemes for encryption and authentication work on a high level. We, then, introduce hash functions, which are key to understanding asymmetric authentication schemes, and also have relevance in other cryptographic contexts, such as for the hash-based message authentication codes we discussed in Chapter 4.   
 
+___
 
-## The key distribution and management problem
-<chapterId>1bb651ba-689a-5a89-a7d3-0b9cc3b694f7</chapterId>
 
 Suppose that Bob wants to buy a new rain coat from Jim’s Sporting Goods, an online sporting goods retailer with millions of customers in North America. This will be his first purchase from them and he wants to use his credit card. So, Bob will first need to create an account with Jim’s Sporting Goods, which requires sending over personal details such as his address and credit card information. He can, then, go through the steps needed to purchase the rain coat. 
 

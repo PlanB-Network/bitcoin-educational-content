@@ -1375,91 +1375,116 @@ The communication session starts with Bob sending a ciphertext $C_{0,B}$ to Alic
 # RC4 and AES
 <partId>a48c4a7d-0a41-523f-a4ab-1305b4430324</partId>
 
-In this Chapter, we will discuss the details of an encryption scheme with a modern primitive stream cipher, RC4 (or "Rivest cipher 4"), and a modern block cipher, AES. While the RC4 cipher has fallen into disfavor as a method of encryption, AES is the standard for modern symmetric encryption. These two examples should give a better idea of how symmetric encryption works under the hood. 
+
 
 
 ## The RC4 stream cipher
 <chapterId>5caec5bd-5a77-56c9-b5e6-1e86f0d294aa</chapterId>
 
-In order to have a sense of how modern pseudorandom stream ciphers work, I will focus on the RC4 stream cipher. It is a pseudorandom stream cipher that was used in the WEP and WAP wireless access point security protocols as well as in TLS. As RC4 has many proven weaknesses, it has fallen into disfavor. In fact, the Internet Engineering Task Force now forbids the use of RC4 suites by client and server applications in all instances of TLS.<sup>[3](#footnote3)</sup> Nevertheless, it works well as an example to illustrate how a primitive stream cipher works.  
+In this Chapter, we will discuss the details of an encryption scheme with a modern primitive stream cipher, RC4 (or "Rivest cipher 4"), and a modern block cipher, AES. While the RC4 cipher has fallen into disfavor as a method of encryption, AES is the standard for modern symmetric encryption. These two examples should give a better idea of how symmetric encryption works under the hood. 
+
+___
+
+In order to have a sense of how modern pseudorandom stream ciphers work, I will focus on the RC4 stream cipher. It is a pseudorandom stream cipher that was used in the WEP and WAP wireless access point security protocols as well as in TLS. As RC4 has many proven weaknesses, it has fallen into disfavor. In fact, the Internet Engineering Task Force now forbids the use of RC4 suites by client and server applications in all instances of TLS. Nevertheless, it works well as an example to illustrate how a primitive stream cipher works.  
 
 To start, I will first show how to encrypt a plaintext message with a baby RC4 cipher. Suppose our plaintext message is “SOUP.” Encryption with our baby RC4 cipher, then, proceeds in four steps.
 
 ### Step 1
 
-First, define an array S with S[0] = 0 to S[7] = 7. An array here is simply means a mutable collection of values organized by an index, also called a list in some programming languages (e.g., Python). In this case, the index runs from 0 through 7, and the values also run from 0 to 7. So S is as follows:
+First, define an array **S** with $S[0] = 0$ to $S[7] = 7$. An array here simply means a mutable collection of values organized by an index, also called a list in some programming languages (e.g., Python). In this case, the index runs from 0 through 7, and the values also run from 0 to 7. So **S** is as follows:
 
-- S = [0,1,2,3,4,5,6,7]
+- $S = [0, 1, 2, 3, 4, 5, 6, 7]$
 
-The values here are not ASCII numbers, but the decimal value representations of 1 byte strings. So the value 2 would equal 0000 0011. The length of the array S is, thus, 8 bytes. 
+The values here are not ASCII numbers, but the decimal value representations of 1-byte strings. So the value 2 would equal $0000 \ 0011$. The length of the array **S** is, thus, 8 bytes.
 
 ### Step 2
 
-Second, define a key array K of 8 bytes length by choosing a key between 1 and 8 bytes (with no fractions of bytes permissible). As each byte is 8 bits, you can select any number between 0 and 255 for each byte of your key.   
+Second, define a key array **K** of 8 bytes length by choosing a key between 1 and 8 bytes (with no fractions of bytes permissible). As each byte is 8 bits, you can select any number between 0 and 255 for each byte of your key.
 
-Suppose we choose our key k as [14,48,9], so that it has length of 3 bytes. Each index of our key array is, then, set according to the decimal value for that particular element of the key, in order. If you run through the entire key, start again at the beginning, until you have filled the 8 slots of the key array. Hence, our key array is as follows
+Suppose we choose our key **k** as $[14, 48, 9]$, so that it has a length of 3 bytes. Each index of our key array is, then, set according to the decimal value for that particular element of the key, in order. If you run through the entire key, start again at the beginning, until you have filled the 8 slots of the key array. Hence, our key array is as follows:
 
-- K = [14,48,9,14,48,9,14,48]
+- $K = [14, 48, 9, 14, 48, 9, 14, 48]$
 
 ### Step 3
 
-Third, we will transform the array S using the key array K, in a process known as key scheduling. The process is as follows in pseudocode: 
+Third, we will transform the array **S** using the key array **K**, in a process known as **key scheduling**. The process is as follows in pseudocode:
 
-- Create variables j and i
-- Set the variable j = 0
-- For each i from 0 to 7:
-	- Set j = j + S[i] + K[i] mod 8
-	- Swap S[i] and S[j] 
+- Create variables **j** and **i**
+- Set the variable $j = 0$
+- For each $i$ from 0 to 7:
+    - Set $j = (j + S[i] + K[i]) \mod 8$
+    - Swap $S[i]$ and $S[j]$
 
-The transformation of array S is captured by *Table 1*. 
+The transformation of array **S** is captured by *Table 1*.
 
-To start, you can see the initial state of S as [0,1,2,3,4,5,6,7] with an initial value of 0 for j. This will be transformed using the key array [14,48,9,14,48,9,14,48]. 
+To start, you can see the initial state of **S** as $[0, 1, 2, 3, 4, 5, 6, 7]$ with an initial value of 0 for **j**. This will be transformed using the key array $[14, 48, 9, 14, 48, 9, 14, 48]$.
 
-The for loop starts with i = 0. According to our pseudocode above, the new value of j becomes 6 (j = j + S[0] + K[0] mod 8 = 0 + 0 + 14 mod 8 = 6 mod 8). Swapping S[0] and S[6], the state of S after 1 round becomes [6,1,2,3,4,5,0,7]. 
+The for loop starts with $i = 0$. According to our pseudocode above, the new value of **j** becomes 6 ($j = (j + S[0] + K[0]) \mod 8 = (0 + 0 + 14) \mod 8 = 6 \mod 8$). Swapping $S[0]$ and $S[6]$, the state of **S** after 1 round becomes $[6, 1, 2, 3, 4, 5, 0, 7]$.
 
-In the next row, i = 1. Going through the for loop again, j obtains a value of 7 (j = j + S[1] + K[1] mod 8 = 6 + 1 + 48 mod 8 = 55 mod 8 = 7 mod 8). Swapping S[1] and S[7] from the current state of S, [6,1,2,3,4,5,0,7], yields [6,7,2,3,4,5,0,1] after round 2. 
+In the next row, $i = 1$. Going through the for loop again, **j** obtains a value of 7 ($j = (j + S[1] + K[1]) \mod 8 = (6 + 1 + 48) \mod 8 = 55 \mod 8 = 7 \mod 8$). Swapping $S[1]$ and $S[7]$ from the current state of **S**, $[6, 1, 2, 3, 4, 5, 0, 7]$, yields $[6, 7, 2, 3, 4, 5, 0, 1]$ after round 2.
 
-We continue with this process until we produce the final row at the bottom for the array S, [6,4,1,0,3,7,5,2].  
+We continue with this process until we produce the final row at the bottom for the array **S**, $[6, 4, 1, 0, 3, 7, 5, 2]$.
+
 
 *Table 1: Key scheduling table*
 
-![Table 1: Key scheduling table](assets/Table5-1.webp "Table 1: Key scheduling table")
+| Round   | i   | j   |     | S[0] | S[1] | S[2] | S[3] | S[4] | S[5] | S[6] | S[7] |
+| ------- | --- | --- | --- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- |
+|         |     |     |     |      |      |      |      |      |      |      |      |
+| Initial |     | 0   |     | 0    | 1    | 2    | 3    | 4    | 5    | 6    | 7    |
+| 1       | 0   | 6   |     | 6    | 1    | 2    | 3    | 4    | 5    | 0    | 7    |
+| 2       | 1   | 7   |     | 6    | 7    | 2    | 3    | 4    | 5    | 0    | 1    |
+| 3       | 2   | 2   |     | 6    | 7    | 2    | 3    | 4    | 5    | 0    | 1    |
+| 4       | 3   | 3   |     | 6    | 7    | 2    | 3    | 4    | 5    | 0    | 1    |
+| 5       | 4   | 3   |     | 6    | 7    | 2    | 0    | 3    | 5    | 4    | 1    |
+| 6       | 5   | 6   |     | 6    | 4    | 2    | 0    | 3    | 7    | 5    | 1    |
+| 7       | 6   | 1   |     | 6    | 4    | 2    | 0    | 3    | 7    | 5    | 2    |
+| 8       | 7   | 2   |     | 6    | 4    | 1    | 0    | 3    | 7    | 5    | 2    |
 
 ### Step 4
 
-As a fourth step, we produce the keystream. This is the pseudorandom string of a length equal to the message we want to send. This is what will be used to encrypt the original message “SOUP.” As the keystream needs to be as long as the message, we need one that has 4 bytes. 
+As a fourth step, we produce the **keystream**. This is the pseudorandom string of a length equal to the message we want to send. This will be used to encrypt the original message “SOUP.” As the keystream needs to be as long as the message, we need one that has 4 bytes.
 
 The keystream is produced by the following pseudocode:
 
-- Create the variables j, i, and t
-- Set j = 0
-- For each i of the plaintext, starting with i = 1 and going until i = 4, each byte of the keystream is produced as follows:
-    - j = j + S[i] mod 8
-	- Swap S[i] and S[j]
-	- t = S[i] + S[j] mod 8
-	- The ith byte of the keystream = S[t]
+- Create the variables **j**, **i**, and **t**.
+- Set $j = 0$.
+- For each $i$ of the plaintext, starting with $i = 1$ and going until $i = 4$, each byte of the keystream is produced as follows:
+    - $j = (j + S[i]) \mod 8$
+    - Swap $S[i]$ and $S[j]$.
+    - $t = (S[i] + S[j]) \mod 8$
+    - The $i^{th}$ byte of the keystream = $S[t]$
 
-You can follow the calculations in *Table 2*. 
+You can follow the calculations in *Table 2*.
 
-The initial state of S = S = [6,4,1,0,3,7,5,2]. Setting i = 1, the value j becomes 4 (j = j + S[i] mod 8 = 0 + 4 mod 8 = 4). We, then, swap S[1] and S[4] to produce the transformation of S in the second row, [6,3,1,0,4,7,5,2]. The value t is, then, 7 (t = S[i] + S[j] mod 8 = 3 + 4 mod 8 = 7). Finally, the byte for the keystream is, then, S[7], or 2. 
+The initial state of **S** is $S = [6, 4, 1, 0, 3, 7, 5, 2]$. Setting $i = 1$, the value of **j** becomes 4 ($j = (j + S[i]) \mod 8 = (0 + 4) \mod 8 = 4$). We then swap $S[1]$ and $S[4]$ to produce the transformation of **S** in the second row, $[6, 3, 1, 0, 4, 7, 5, 2]$. The value of **t** is then 7 ($t = (S[i] + S[j]) \mod 8 = (3 + 4) \mod 8 = 7$). Finally, the byte for the keystream is $S[7]$, or 2.
 
-We can, then, continue to produce the other bytes until we have the following four bytes: 2, 6, 3, and 7. Each of these bytes can, then, be used to encrypt each letter of the plaintext, "SOUP". 
+We then continue to produce the other bytes until we have the following four bytes: 2, 6, 3, and 7. Each of these bytes can then be used to encrypt each letter of the plaintext, "SOUP".
 
-To start, using an ASCII table, we can see that “SOUP” encoded by the decimal values of the underlying byte strings is “83 79 85 80”. Combination with the keystream “2 6 3 2” yields “85 85 88 82”, which stays the same after a modulo 256 operation. In ASCII, the ciphertext “85 85 88 82” equals “UUXR”. 
+To start, using an ASCII table, we can see that “SOUP” encoded by the decimal values of the underlying byte strings is “83 79 85 80”. Combination with the keystream “2 6 3 7” yields “85 85 88 87”, which stays the same after a modulo 256 operation. In ASCII, the ciphertext “85 85 88 87” equals “UUXW”.
 
-What happens if the word to encrypt were longer than the array S? In that case, the array S just keeps transforming in this manner displayed above for every byte i of the plaintext, until we have a number of bytes in the keystream equal to the number of letters in the plaintext. 
+What happens if the word to encrypt were longer than the array **S**? In that case, the array **S** just keeps transforming in this manner displayed above for every byte **i** of the plaintext, until we have a number of bytes in the keystream equal to the number of letters in the plaintext.
+
 
 *Table 2: Keystream generation*
 
-![Table 2: Keystream generation](assets/Table5-2.webp "Table 2: Keystream generation")
+| i   | j   | t   | Keystream | S[0] | S[1] | S[2] | S[3] | S[4] | S[5] | S[6] | S[7] |
+| --- | --- | --- | --------- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- |
+|     |     |     |           |      |      |      |      |      |      |      |      |
+|     | 0   |     |           | 6    | 4    | 1    | 0    | 3    | 7    | 5    | 2    |
+| 1   | 4   | 7   | 2         | 6    | 3    | 1    | 0    | 4    | 7    | 5    | 2    |
+| 2   | 5   | 0   | 6         | 6    | 3    | 7    | 0    | 4    | 1    | 5    | 2    |
+| 3   | 5   | 1   | 3         | 6    | 3    | 7    | 1    | 4    | 0    | 5    | 2    |
+| 4   | 1   | 7   | 2         | 6    | 4    | 7    | 1    | 3    | 0    | 5    | 2    |
 
-The example that we just discussed is only a watered down version of the RC4 stream cipher. The actual RC4 stream cipher has an S array of 256 bytes in length, not 8 bytes, and a key that can be between 1 and 256 bytes, not between 1 and 8 bytes. The key array and the keystreams are, then, all produced considering the 256 byte length of the S array. That calculations become immensely more complex, but the principles stay the same. Using the same key, [14,48,9], with the standard RC4 cipher, the plaintext message "SOUP" is encrypted as 67 02 ed df in hexadecimal format. 
+The example that we just discussed is only a watered-down version of the **RC4 stream cipher**. The actual RC4 stream cipher has an **S** array of 256 bytes in length, not 8 bytes, and a key that can be between 1 and 256 bytes, not between 1 and 8 bytes. The key array and the keystreams are then all produced considering the 256-byte length of the **S** array. The calculations become immensely more complex, but the principles stay the same. Using the same key, [14,48,9], with the standard RC4 cipher, the plaintext message "SOUP" is encrypted as 67 02 ed df in hexadecimal format.
 
-A stream cipher in which the key stream updates independently of the plaintext message or the ciphertext is a **synchronous stream cipher**. The keystream is only dependent on the key. Clearly, RC4 is an example of a synchronous stream cipher, as the keystream has no relationship with the plaintext or the ciphertext. All our primitive stream ciphers mentioned in the previous chapter, including the shift cipher, the Vigenere cipher, and the one-time pad, were also of the synchronous variety. 
+A stream cipher in which the keystream updates independently of the plaintext message or the ciphertext is a **synchronous stream cipher**. The keystream is only dependent on the key. Clearly, RC4 is an example of a synchronous stream cipher, as the keystream has no relationship with the plaintext or the ciphertext. All our primitive stream ciphers mentioned in the previous chapter, including the shift cipher, the Vigenère cipher, and the one-time pad, were also of the synchronous variety.
 
-By contrast, an **asynchronous stream cipher** has a keystream that is produced by both the key and previous elements of the ciphertext. This type of cipher is also called a **self-synchronizing cipher**. 
+By contrast, an **asynchronous stream cipher** has a keystream that is produced by both the key and previous elements of the ciphertext. This type of cipher is also called a **self-synchronizing cipher**.
 
-Importantly, the keystream produced with RC4 should be treated as a one-time pad, and you cannot produce the keystream in exactly the same way the next time. Rather than changing the key each time, the practical solution is to combine the key with a nonce to produce the bytestream.
+Importantly, the keystream produced with RC4 should be treated as a one-time pad, and you cannot produce the keystream in exactly the same way the next time. Rather than changing the key each time, the practical solution is to combine the key with a **nonce** to produce the bytestream.
+
 
 
 ## AES with a 128-bit key

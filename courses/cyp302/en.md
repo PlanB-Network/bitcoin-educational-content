@@ -926,6 +926,10 @@ For further discussion on modern number theory, you can consult many advanced di
 # Symmetric Cryptography
 <partId>ef768d0e-fe7b-510c-87d6-6febb3de1039</partId>
 
+
+## Alice and Bob
+<chapterId>47345330-be2d-5faf-afd0-d289a8d21bf1</chapterId>
+
 One of the two main branches of cryptography is symmetric cryptography. It includes encryption schemes as well as schemes concerned with authentication and integrity. Until the 1970s, all of cryptography would have consisted of symmetric encryption schemes. 
 
 The main discussion starts by looking at symmetric encryption schemes and making the crucial distinction between stream ciphers and block ciphers. We, then, turn to message authentication codes, which are schemes for ensuring message integrity and authenticity. Finally, we explore how symmetric encryption schemes and message authentication codes can be combined to ensure secure communication.
@@ -934,9 +938,7 @@ This chapter discusses various symmetric cryptographic schemes from practice in 
 
 Before starting our discussion on symmetric cryptography, I want to briefly make some remarks on the Alice and Bob illustrations in this and subsequent chapters.
 
-
-## Alice and Bob
-<chapterId>47345330-be2d-5faf-afd0-d289a8d21bf1</chapterId>
+___
 
 In illustrating the principles of cryptography, people often rely on examples involving Alice and Bob. I will do so as well. 
 

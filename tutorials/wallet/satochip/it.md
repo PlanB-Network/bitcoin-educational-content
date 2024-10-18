@@ -1,6 +1,6 @@
 ---
-nome: Satochip
-descrizione: Configurazione e utilizzo di una smart card Satochip
+name: Satochip
+description: Configurazione e utilizzo di una smart card Satochip
 ---
 
 ![cover](assets/cover.webp)
@@ -19,11 +19,11 @@ In questo tutorial, propongo di scoprire una di queste soluzioni: il Satochip.
 
 ## Introduzione a Satochip
 
-Il Satochip è un portafoglio hardware sotto forma di carta con un chip certificato *EAL6+*, che rappresenta uno standard di sicurezza molto elevato (*NXP JCOP*). È prodotto da un'azienda belga.
+Il Satochip è un portafoglio hardware sotto forma di carta con un chip certificato _EAL6+_, che rappresenta uno standard di sicurezza molto elevato (_NXP JCOP_). È prodotto da un'azienda belga.
 
 ![SATOCHIP](assets/notext/01.webp)
 
-Questa smart card è venduta a €25, che è molto conveniente rispetto ad altri portafogli hardware sul mercato. Il chip è un elemento sicuro che garantisce un'ottima resistenza contro gli attacchi fisici. Inoltre, il suo codice è open-source (*AGPLv3*).
+Questa smart card è venduta a €25, che è molto conveniente rispetto ad altri portafogli hardware sul mercato. Il chip è un elemento sicuro che garantisce un'ottima resistenza contro gli attacchi fisici. Inoltre, il suo codice è open-source (_AGPLv3_).
 Tuttavia, a causa del suo formato, il Satochip non offre tante opzioni quanto altri hardware. Ovviamente non c'è batteria, né fotocamera, né lettore di schede micro SD, essendo una carta. Il suo più grande svantaggio, a mio parere, è la mancanza di uno schermo sul portafoglio hardware, che lo rende più vulnerabile a certi tipi di attacchi remoti. Infatti, ciò costringe l'utente a firmare alla cieca e a fidarsi di ciò che vede sullo schermo del proprio computer.
 
 Nonostante le sue limitazioni, il Satochip rimane interessante per il suo prezzo ridotto. Questo portafoglio può in particolare essere utilizzato per aumentare la sicurezza di un portafoglio di spesa in aggiunta a un portafoglio di risparmio protetto da un portafoglio hardware dotato di schermo. Costituisce anche una buona soluzione per coloro che detengono piccole quantità di bitcoin e non desiderano investire centinaia di euro in un dispositivo più sofisticato. Inoltre, l'uso di Satochip in configurazioni multisig, o potenzialmente in sistemi di portafoglio con timelock in futuro, può offrire vantaggi interessanti.
@@ -31,6 +31,7 @@ Nonostante le sue limitazioni, il Satochip rimane interessante per il suo prezzo
 L'azienda Satochip offre anche altri 2 prodotti. C'è il Satodime, che è una carta portatore progettata per conservare offline i bitcoin, ma non permette transazioni. È una sorta di portafoglio di carta molto più sicuro, che può essere utilizzato, ad esempio, per fare un regalo. Infine, c'è il Seedkeeper, che è un gestore di frasi mnemoniche. Può essere utilizzato per salvare in modo sicuro il nostro seed senza che sia direttamente annotato su un pezzo di carta.
 
 ## Come acquistare un Satochip?
+
 Il Satochip è disponibile per l'acquisto [sul sito ufficiale](https://satochip.io/product/satochip/). Per comprarlo in un negozio fisico, puoi anche trovare [l'elenco dei rivenditori certificati](https://satochip.io/resellers/) sul sito web di Satochip.
 Per interagire con il tuo software di gestione del portafoglio, il Satochip offre due possibilità: tramite comunicazione NFC o tramite un lettore di smart card. Per l'opzione NFC, assicurati che il tuo dispositivo sia compatibile con questa tecnologia o procurati un lettore NFC esterno. Il Satochip opera alla frequenza standard di 13,56 MHz. In alternativa, puoi anche acquistare un lettore di smart card. Puoi trovarne uno sul sito web di Satochip o altrove.
 
@@ -56,27 +57,27 @@ Apri Sparrow Wallet e assicurati di essere correttamente connesso a un nodo Bitc
 
 ![SATOCHIP](assets/notext/07.webp)
 
-Su Sparrow Wallet, clicca sulla scheda "*File*".
+Su Sparrow Wallet, clicca sulla scheda "_File_".
 
 ![SATOCHIP](assets/notext/08.webp)
 
-Poi sul menu "*Nuovo Portafoglio*".
+Poi sul menu "_Nuovo Portafoglio_".
 
 ![SATOCHIP](assets/notext/09.webp)
 
-Scegli un nome per il tuo portafoglio e poi clicca su "*Crea Portafoglio*".
+Scegli un nome per il tuo portafoglio e poi clicca su "_Crea Portafoglio_".
 
 ![SATOCHIP](assets/notext/10.webp)
 
-Clicca sul pulsante "*Portafoglio Hardware Connesso*".
+Clicca sul pulsante "_Portafoglio Hardware Connesso_".
 
 ![SATOCHIP](assets/notext/11.webp)
 
-Clicca sul pulsante "*Scansiona...*".
+Clicca sul pulsante "_Scansiona..._".
 
 ![SATOCHIP](assets/notext/12.webp)
 
-Il tuo Satochip dovrebbe apparire. Clicca su "*Importa Keystore*".
+Il tuo Satochip dovrebbe apparire. Clicca su "_Importa Keystore_".
 
 ![SATOCHIP](assets/notext/13.webp)
 
@@ -84,13 +85,13 @@ Successivamente, devi impostare un codice PIN per sbloccare il tuo Satochip. Sce
 
 Sii consapevole, questa password non è una passphrase. Questo significa che anche senza questa password, la tua frase mnemonica ti permetterà di re-importare il tuo portafoglio nel software se necessario. La password è utilizzata solo per garantire l'accesso al Satochip stesso. È equivalente al codice PIN trovato su altri portafogli hardware.
 
-Una volta inserita la password, clicca nuovamente sul pulsante "*Importa Keystore*".
+Una volta inserita la password, clicca nuovamente sul pulsante "_Importa Keystore_".
 
 ![SATOCHIP](assets/notext/14.webp)
 
-Annota nuovamente la password, poi clicca sul pulsante "*Inizializza*".
+Annota nuovamente la password, poi clicca sul pulsante "_Inizializza_".
 ![SATOCHIP](assets/notext/15.webp)
-Arrivi quindi alla finestra per generare la tua frase mnemonica. Clicca sul pulsante "*Genera Nuova*".
+Arrivi quindi alla finestra per generare la tua frase mnemonica. Clicca sul pulsante "_Genera Nuova_".
 
 ![SATOCHIP](assets/notext/16.webp)
 Effettua una o più copie fisiche della tua frase di recupero scrivendola su un supporto di carta o metallo. Attenzione, questa frase concede l'accesso completo ai tuoi bitcoin senza alcuna protezione aggiuntiva. Pertanto, se qualcuno dovesse scoprirla, potrebbe rubare istantaneamente i tuoi bitcoin, anche senza accesso al tuo Satochip o al suo codice PIN. È quindi importante mettere al sicuro queste copie di backup. Inoltre, questa frase ti permette di riaccedere ai tuoi bitcoin in caso di perdita, danneggiamento del Satochip, o se dimentichi il tuo codice PIN.
@@ -100,11 +101,11 @@ Il tuo portafoglio Bitcoin è stato creato con successo.
 
 ![SATOCHIP](assets/notext/18.webp)
 
-Clicca nuovamente sul pulsante "*Importa Keystore*".
+Clicca nuovamente sul pulsante "_Importa Keystore_".
 
 ![SATOCHIP](assets/notext/19.webp)
 
-Il tuo portafoglio è ora creato. Le tue chiavi private sono ora memorizzate sulla smartcard del tuo Satochip. Clicca sul pulsante "*Applica*" per continuare.
+Il tuo portafoglio è ora creato. Le tue chiavi private sono ora memorizzate sulla smartcard del tuo Satochip. Clicca sul pulsante "_Applica_" per continuare.
 
 ![SATOCHIP](assets/notext/20.webp)
 
@@ -112,7 +113,7 @@ Si raccomanda di impostare una password aggiuntiva per proteggere le informazion
 
 ![SATOCHIP](assets/notext/21.webp)
 
-Inserisci la tua password nei due campi, poi clicca sul pulsante "*Imposta Password*".
+Inserisci la tua password nei due campi, poi clicca sul pulsante "_Imposta Password_".
 
 ![SATOCHIP](assets/notext/22.webp)
 
@@ -124,15 +125,15 @@ Ora che il tuo portafoglio è creato, puoi scollegare il tuo Satochip. Tienilo i
 
 ## Come ricevere bitcoin con il Satochip?
 
-Una volta nel tuo portafoglio, clicca sulla scheda "*Ricevi*".
+Una volta nel tuo portafoglio, clicca sulla scheda "_Ricevi_".
 
 ![SATOCHIP](assets/notext/24.webp)
 
-Sparrow Wallet genera un indirizzo per il tuo portafoglio. Solitamente, per altri portafogli hardware, si consiglia di cliccare su "*Mostra Indirizzo*" per verificare l'indirizzo direttamente sullo schermo del dispositivo. Purtroppo, questa opzione non è disponibile con il Satochip, ma assicurati di utilizzarla per i tuoi altri portafogli.
+Sparrow Wallet genera un indirizzo per il tuo portafoglio. Solitamente, per altri portafogli hardware, si consiglia di cliccare su "_Mostra Indirizzo_" per verificare l'indirizzo direttamente sullo schermo del dispositivo. Purtroppo, questa opzione non è disponibile con il Satochip, ma assicurati di utilizzarla per i tuoi altri portafogli.
 
 ![SATOCHIP](assets/notext/25.webp)
 
-Puoi aggiungere un "*Etichetta*" per descrivere la fonte dei bitcoin che saranno assicurati con questo indirizzo. Questa è una buona pratica che ti aiuta a gestire meglio i tuoi UTXO.
+Puoi aggiungere un "_Etichetta_" per descrivere la fonte dei bitcoin che saranno assicurati con questo indirizzo. Questa è una buona pratica che ti aiuta a gestire meglio i tuoi UTXO.
 
 ![SATOCHIP](assets/notext/26.webp)
 
@@ -143,32 +144,35 @@ https://planb.network/tutorials/privacy/utxo-labelling
 Puoi quindi utilizzare questo indirizzo per ricevere bitcoin.
 
 ![SATOCHIP](assets/notext/27.webp)
+
 ## Come inviare Bitcoin con Satochip?
-Ora che hai ricevuto i tuoi primi satoshi nel tuo portafoglio sicuro con Satochip, puoi anche spenderli! Collega il tuo Satochip al computer, avvia Sparrow Wallet e poi vai alla scheda "*Invia*" per costruire una nuova transazione.
+
+Ora che hai ricevuto i tuoi primi satoshi nel tuo portafoglio sicuro con Satochip, puoi anche spenderli! Collega il tuo Satochip al computer, avvia Sparrow Wallet e poi vai alla scheda "_Invia_" per costruire una nuova transazione.
 
 ![SATOCHIP](assets/notext/28.webp)
-Se vuoi eseguire il controllo delle monete, ovvero scegliere specificamente quali UTXO consumare nella transazione, vai alla scheda "*UTXOs*". Seleziona gli UTXO che desideri spendere, poi clicca su "*Invia Selezionati*". Sarai reindirizzato alla stessa schermata della scheda "*Invia*", ma con i tuoi UTXO già selezionati per la transazione.
+Se vuoi eseguire il controllo delle monete, ovvero scegliere specificamente quali UTXO consumare nella transazione, vai alla scheda "_UTXOs_". Seleziona gli UTXO che desideri spendere, poi clicca su "_Invia Selezionati_". Sarai reindirizzato alla stessa schermata della scheda "_Invia_", ma con i tuoi UTXO già selezionati per la transazione.
 
-Inserisci l'indirizzo di destinazione. Puoi anche inserire più indirizzi cliccando sul pulsante "*+ Aggiungi*".
+Inserisci l'indirizzo di destinazione. Puoi anche inserire più indirizzi cliccando sul pulsante "_+ Aggiungi_".
 
-Nota una "*Etichetta*" per ricordare lo scopo di questa spesa.
+Nota una "_Etichetta_" per ricordare lo scopo di questa spesa.
 
 Scegli l'importo da inviare a questo indirizzo.
 
 Regola la tariffa della commissione della tua transazione in base al mercato attuale.
 
-Assicurati che tutti i parametri della tua transazione siano corretti, poi clicca su "*Crea Transazione*".
+Assicurati che tutti i parametri della tua transazione siano corretti, poi clicca su "_Crea Transazione_".
 
-Se tutto è di tuo gradimento, clicca su "*Finalizza Transazione per la Firma*".
+Se tutto è di tuo gradimento, clicca su "_Finalizza Transazione per la Firma_".
 
-Clicca su "*Firma*".
+Clicca su "_Firma_".
 
-Clicca nuovamente su "*Firma*" accanto al tuo Satochip.
+Clicca nuovamente su "_Firma_" accanto al tuo Satochip.
 
-Inserisci il codice PIN del tuo Satochip, poi clicca nuovamente su "*Firma*" per firmare la tua transazione.
+Inserisci il codice PIN del tuo Satochip, poi clicca nuovamente su "_Firma_" per firmare la tua transazione.
 
-La tua transazione è ora firmata. Clicca su "*Trasmetti Transazione*" per diffonderla nella rete Bitcoin.
+La tua transazione è ora firmata. Clicca su "_Trasmetti Transazione_" per diffonderla nella rete Bitcoin.
 
-Puoi trovarla nella scheda "*Transazioni*" di Sparrow Wallet.
+Puoi trovarla nella scheda "_Transazioni_" di Sparrow Wallet.
 
 Congratulazioni, ora sei informato su come usare Satochip! Se hai trovato utile questo tutorial, apprezzerei un pollice in su qui sotto. Sentiti libero di condividere questo articolo sui tuoi social network. Grazie mille!
+

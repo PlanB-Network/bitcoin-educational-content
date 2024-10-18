@@ -1,6 +1,6 @@
 ---
-nimi: PROTON DRIVE
-kirjeldus: Varundamise rakendamine
+name: PROTON DRIVE
+description: Varundamise rakendamine
 ---
 ![kaas](assets/cover.webp)
 

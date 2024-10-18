@@ -1,6 +1,6 @@
 ---
-nimi: KEEPASS
-kirjeldus: Kuidas seadistada kohalikku paroolihaldurit?
+name: KEEPASS
+description: Kuidas seadistada kohalikku paroolihaldurit?
 ---
 ![kaas](assets/cover.webp)
 

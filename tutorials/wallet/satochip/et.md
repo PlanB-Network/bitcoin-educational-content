@@ -1,6 +1,6 @@
 ---
-nimi: Satochip
-kirjeldus: Satochipi nutikaardi seadistamine ja kasutamine
+name: Satochip
+description: Satochipi nutikaardi seadistamine ja kasutamine
 ---
 ![kaas](assets/cover.webp)
 

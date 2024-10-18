@@ -298,6 +298,10 @@ Et voilà, votre portefeuille est bien créé !
 
 ***Avant de recevoir vos premiers bitcoins sur votre portefeuille, je vous conseille vivement de réaliser un test de récupération à vide. Notez une information de référence, telle que votre xpub, puis réinitialisez votre Ledger Flex tant que le portefeuille est encore vide. Ensuite, essayez de restaurer votre portefeuille sur la Ledger en utilisant vos sauvegardes papier. Vérifiez que la xpub générée après la restauration correspond à celle que vous aviez notée initialement. Si c'est le cas, vous pouvez être assuré que vos sauvegardes papier sont fiables.***
 
+Pour en savoir plus sur comment effectuer un test de récupération, je vous conseille de consulter cet autre tutoriel :
+
+https://planb.network/tutorials/wallet/recovery-test
+
 ## Comment recevoir des bitcoins avec la Ledger Flex ?
 
 Cliquez sur l'onglet "*Receive*".

@@ -224,7 +224,7 @@ The next section deals with number theory, which is much more challenging.
 
 ### Random variables
 
-A random variable is typically denoted by a non-bold, uppercase letter. So, for instance, we might talk about a random variable X, a random variable Y, or a random variable Z. This is the notation I will also employ from here on out.  
+A random variable is typically denoted by a non-bold, uppercase letter. So, for instance, we might talk about a random variable $X$, a random variable $Y$, or a random variable $Z$. This is the notation I will also employ from here on out.
 
 A **random variable** can take on two or more possible values, each with a certain positive probability. The possible values are listed in the **outcome set**.
 
@@ -232,55 +232,48 @@ Each time you **sample** a random variable, you draw a particular value from its
 
 Lets turn to a simple example. Suppose a variable X that is defined as follows: 
 
-$$
-X \text{ has the outcome set } \{1,2\}
-$$
+- X has the outcome set $\{1,2\}$
 
 $$
-\Pr[X = 1] = 0.5
+Pr[X = 1] = 0.5
 $$
 
 $$
-\Pr[X = 2] = 0.5
+Pr[X = 2] = 0.5
 $$
 
-It is easy to see that X is a random variable. First, there are two or more possible values that X can take on, namely 1 and 2. Second, each possible value has a positive probability of occurring whenever you sample X, namely 0.5.
+It is easy to see that $X$ is a random variable. First, there are two or more possible values that $X$ can take on, namely $1$ and $2$. Second, each possible value has a positive probability of occurring whenever you sample $X$, namely $0.5$.
 
-All that a random variable requires is an outcome set with two or more possibilities, where each possibility has a positive probability of occurring upon sampling. In principle, then, a random variable can be defined abstractly, devoid of any context. In this case, you might think of “sampling” as running some natural experiment to determine the value of the random variable. 
+All that a random variable requires is an outcome set with two or more possibilities, where each possibility has a positive probability of occurring upon sampling. In principle, then, a random variable can be defined abstractly, devoid of any context. In this case, you might think of “sampling” as running some natural experiment to determine the value of the random variable.
 
-The variable X above was defined abstractly. You might, thus, think of sampling the variable X above as flipping a fair coin and assigning “2” in the case of heads and “1” in the case of tails. For each sample of X, you flip the coin again. 
+The variable $X$ above was defined abstractly. You might, thus, think of sampling the variable $X$ above as flipping a fair coin and assigning “2” in the case of heads and “1” in the case of tails. For each sample of $X$, you flip the coin again.
 
-Alternatively, you might also think of sampling X, as rolling a fair die and assigning “2” in case the die lands 1, 3, or 4, and assigning “1” in case the die lands 2, 5, or 6. Each time you sample X, you roll the die again. 
+Alternatively, you might also think of sampling $X$, as rolling a fair die and assigning “2” in case the die lands $1$, $3$, or $4$, and assigning “1” in case the die lands $2$, $5$, or $6$. Each time you sample $X$, you roll the die again.
 
-Really, any natural experiment that would allow you to define the probabilities of the possible values of X above can be imagined with respect to the drawing.
+Really, any natural experiment that would allow you to define the probabilities of the possible values of $X$ above can be imagined with respect to the drawing.
 
 Frequently, however, random variables are not just introduced abstractly. Instead, the set of possible outcome values has explicit real-world meaning (rather than just as numbers). In addition, these outcome values might be defined against some specific type of experiment (rather than as any natural experiment with those values). 
 
-Lets now consider an example of variable X that is not defined abstractly. X is defined as follows in order to determine which of two teams starts a football game:
+Lets now consider an example of variable $X$ that is not defined abstractly. X is defined as follows in order to determine which of two teams starts a football game:
+
+- $X$ has the outcome set {red kicks off,blue kicks off}
+- Flip a particular coin $C$: tails = “red kicks off”; heads = “blue kicks off”
 
 $$
-X \text{ has the outcome set } \{\text{red kicks off}, \text{blue kicks off}\}
-$$
-
-$$
-\text{Flip a particular coin } C: \text{tails} = \text{"red kicks off"}; \text{heads} = \text{"blue kicks off"}
-$$
-
-$$
-\Pr[X = \text{red kicks off}] = 0.5
+Pr [X = \text{red kicks off}] = 0.5
 $$
 
 $$
-\Pr[X = \text{blue kicks off}] = 0.5
+Pr [X = \text{blue kicks off}] = 0.5
 $$
 
-In this case, the outcome set of X is provided with a concrete meaning, namely which team starts in a football game. In addition, the possible outcomes and their associated probabilities are determined by a concrete experiment, namely flipping a particular coin C. 
+In this case, the outcome set of X is provided with a concrete meaning, namely which team starts in a football game. In addition, the possible outcomes and their associated probabilities are determined by a concrete experiment, namely flipping a particular coin $C$. 
 
 Within discussions of cryptography, random variables are usually introduced against an outcome set with real-world meaning. It might be the set of all messages that could be encrypted, known as the message space, or the set of all keys the parties using the encryption can choose from, known as the key space. 
 
 Random variables in discussions on cryptography are, however, not usually defined against some specific natural experiment, but against any experiment that might yield the right probability distributions. 
 
-Random variables can have discrete or continuous probability distributions. Random variables with a **discrete probability distribution**—that is, discrete random variables—have a finite number of possible outcomes. The random variable X in both examples given so far was discrete. 
+Random variables can have discrete or continuous probability distributions. Random variables with a **discrete probability distribution**—that is, discrete random variables—have a finite number of possible outcomes. The random variable $X$ in both examples given so far was discrete. 
 
 **Continuous random variables** can instead take on values in one or more intervals. You might say, for instance, that a random variable, upon sampling, will take on any real value between 0 and 1, and that each real number in this interval is equally likely. Within this interval, there are infinitely possible values. 
 
@@ -289,35 +282,22 @@ For cryptographic discussions, you will only need to understand discrete random 
 
 ### Graphing random variables
 
-The possible values and associated probabilities for a random variable can be easily visualized through a graph. For instance, consider the random variable X from the previous section with an outcome set of :
-$$
-\{1,2\}
-$$
-and:
-$$
-\Pr[X = 1] = 0.5
-$$
-and:
-$$
-\Pr[X = 2] = 0.5
-$$
-
-We would typically display such a random variable in the form of a bar graph as in *Figure 1*.
+The possible values and associated probabilities for a random variable can be easily visualized through a graph. For instance, consider the random variable $X$ from the previous section with an outcome set of $\{1, 2\}$, and $Pr [X = 1] = 0.5$ and $Pr [X = 2] = 0.5$. We would typically display such a random variable in the form of a bar graph as in *Figure 1*.
 
 *Figure 1: Random variable X*
 
 ![Figure 1: Random variable X.](assets/Figure2-1.webp)
 
-The wide bars in *Figure 1* obviously do not mean to suggest that the random variable X is actually continuous. Instead, the bars are made wide in order to be more visually appealing (just a line straight up provides a less intuitive visualization).  
+The wide bars in *Figure 1* obviously do not mean to suggest that the random variable $X$ is actually continuous. Instead, the bars are made wide in order to be more visually appealing (just a line straight up provides a less intuitive visualization).  
 
 
 ### Uniform variables
 
 In the expression “random variable,” the term “random” just means “probabilistic”. In other words, it just means that two or more possible outcomes of the variable occur with certain probabilities. These outcomes, however, do *not necessarily* have to be equally likely (though the term “random” can indeed have that meaning in other contexts). 
 
-A **uniform variable** is a special case of a random variable. It can take on two or more values all with an equal probability. The random variable X depicted in *Figure 1* is clearly a uniform variable, as both possible outcomes occur with a probability 0.5. There are, however, many random variables that are not instances of uniform variables. 
+A **uniform variable** is a special case of a random variable. It can take on two or more values all with an equal probability. The random variable $X$ depicted in *Figure 1* is clearly a uniform variable, as both possible outcomes occur with a probability $0.5$. There are, however, many random variables that are not instances of uniform variables.
 
-Consider, for example, the random variable Y. It has an outcome set {1,2,3,8,10} and the following probability distribution:
+Consider, for example, the random variable $Y$. It has an outcome set $\{1, 2, 3, 8, 10\}$ and the following probability distribution:
 
 $$
 \Pr[Y = 1] = 0.25
@@ -340,9 +320,9 @@ $$
 $$
 
 
-While two possible outcomes indeed have an equal probability of occurring, namely 1 and 8, Y can also take on certain values with different probabilities than 0.25 upon sampling. Hence, while Y is indeed a random variable, it is not a uniform variable. 
+While two possible outcomes indeed have an equal probability of occurring, namely $1$ and $8$, $Y$ can also take on certain values with different probabilities than $0.25$ upon sampling. Hence, while $Y$ is indeed a random variable, it is not a uniform variable.
 
-A graphical depiction of Y is provided in *Figure 2*.
+A graphical depiction of $Y$ is provided in *Figure 2*.
 
 *Figure 2: Random variable Y*
 
@@ -370,7 +350,7 @@ $$
 \Pr[Z = 12] = 0.2
 $$
 
-You can see it depicted in Figure 3. The random variable Z is, in contrast to Y, a uniform variable, as all the probabilities for the possible values upon sampling are equal.
+You can see it depicted in *Figure 3*. The random variable Z is, in contrast to Y, a uniform variable, as all the probabilities for the possible values upon sampling are equal.
 
 
 *Figure 3: Random variable Z*
@@ -394,98 +374,54 @@ Unlike in the previous example, the probabilities of two events can also be comp
 
 Suppose, for example, that a certain fair coin has landed heads. Given this fact, what, then, is the probability that it will rain tomorrow? The conditional probability in this case should be the same as the unconditional probability that it will rain tomorrow, as a coin flip does not generally have any impact on the weather. 
 
-We use a "|" symbol for writing out conditional probability statements. For instance, the probability of event A given that event B has transpired can be written as follows:
+We use a "|" symbol for writing out conditional probability statements. For instance, the probability of event $A$ given that event $B$ has transpired can be written as follows:
 
 $$
-\Pr[A|B]
+Pr[A|B]
 $$
 
-So, when two events, A and B, are independent, then:
+So, when two events, $A$ and $B$, are independent, then:
 
 $$
-\Pr[A|B] = \Pr[A] \text{ and } \Pr[B|A] = \Pr[B]
+Pr[A|B] = Pr[A] \text{ and } Pr[B|A] = Pr[B]
 $$
 
 The condition for independence can be simplified as follows:
 
 $$
-\Pr[A, B] = \Pr[A] \cdot \Pr[B]
+Pr[A, B] = Pr[A] \cdot Pr[B]
 $$
 
 
-A key result in probability theory is known as **Bayes Theorem**. It basically states that Pr[A|B] can be rewritten as follows:
+A key result in probability theory is known as **Bayes Theorem**. It basically states that $Pr[A|B]$ can be rewritten as follows:
+
 
 $$
-\Pr[A|B] = \frac{\Pr[B|A] \cdot \Pr[A]}{\Pr[B]}
+Pr[A|B] = \frac{Pr[B|A] \cdot Pr[A]}{Pr[B]}
 $$
 
-Instead of using conditional probabilities with specific events, we can also look at the conditional probabilities involved with two or more random variables over a set of possible events. Suppose two random variables, X and Y. We can denote any possible value for X by x, and any possible value for Y by y. We might say, then, that two random variables are independent if the following statement holds: 
+
+Instead of using conditional probabilities with specific events, we can also look at the conditional probabilities involved with two or more random variables over a set of possible events. Suppose two random variables, $X$ and $Y$. We can denote any possible value for $X$ by $x$, and any possible value for $Y$ by $y$. We might say, then, that two random variables are independent if the following statement holds:
 
 $$
-\Pr[X = x, Y = y] = \Pr[X = x] \cdot \Pr[Y = y] \text{ for all } x \text{ and } y
+Pr[X = x, Y = y] = Pr[X = x] \cdot Pr[Y = y]
 $$
+
+for all $x$ and $y$.
 
 Let's be a bit more explicit about what this statement means.
 
-Suppose that the outcome sets for X and Y are defined as follows:
+Suppose that the outcome sets for $X$ and $Y$ are defined as follows: **X** = $\{x_1, x_2, \ldots, x_i, \ldots, x_n\}$ and **Y** = $\{y_1, y_2, \ldots, y_i, \ldots, y_m\}$. (It is typical to indicate sets of values by bold-faced, upper-case letters.)
 
-$$
-X = \{x_1, x_2, \dots, x_i, \dots, x_n\}
-$$
+Now suppose you sample $Y$ and observe $y_1$. The statement above tells us that the probability of now obtaining $x_1$ from sampling $X$ is exactly the same as if we had never observed $y_1$. This is true for any $y_i$ we could have drawn from our initial sampling of $Y$. Finally, this holds true not just for $x_1$. For any $x_i$, the probability of occurring is not influenced by the outcome of a sampling of $Y$. All this also applies to the case where $X$ is sampled first.
 
-and
+Let's end our discussion on a slightly more philosophical point. In any real-world situation, the probability of some event is always assessed against a particular set of information. There is no “unconditional probability” in any very strict sense of the word.
 
-$$
-Y = \{y_1, y_2, \dots, y_i, \dots, y_m\}.
-$$
+For instance, suppose I asked you for the probability that pigs will fly by 2030. Though I give you no further information, you clearly know a lot about the world that can influence your judgment. You have never seen pigs fly. You know that most people will not expect them to fly. You know that they are not really built to fly. And so on.
 
-(It is typical to indicate sets of values by bold-faced, upper-case letters.)
+Hence, when we speak of an “unconditional probability” of some event in a real-world context, that term really can only have meaning if we take it to mean something like “the probability without any further explicit information”. Any understanding of a “conditional probability” should, then, always be understood against some specific piece of information.
 
-Now suppose you sample Y and observe:
-
-$$
-y_1
-$$
-
-The statement above tells us that the probability of now obtaining:
-
-$$
-x_1
-$$
-
-from sampling X is exactly the same as if we had never observed:
-
-$$
-y_1
-$$
-
-This is true for any:
-
-$$
-y_i
-$$
-
-we could have drawn from our initial sampling of Y. Finally, this holds true not just for:
-
-$$
-x_1
-$$
-
-For any:
-
-$$
-x_i
-$$
-
-the probability of occurring is not influenced by the outcome of a sampling of Y. All this also applies to the case where X is sampled first.
-
-Lets end our discussion on a slightly more philosophical point. In any real-world situation, the probability of some event is always assessed against a particular set of information. There is no “unconditional probability” in any very strict sense of the word. 
-
-For instance, suppose I asked you for the probability that pigs will fly by 2030. Though I give you no further information, you clearly know a lot about the world that can influence your judgment. You have never seen pigs fly. You know that most people will not expect them to fly. You know that they are not really built to fly. And so on. 
-
-Hence, when we speak of an “unconditional probability” of some event in a real-world context, that term really can only have meaning if we take it to mean something like “the probability without any further explicit information”. Any understanding of a “conditional probability” should, then, always be understood against some specific piece of information. 
-
-I might, for instance, ask you the probability that pigs will fly by 2030, after giving you evidence that some goats in New Zealand have learned to fly after a few years of training. In this case, you will probably adjust your judgment of the probability that pigs will fly by 2030. So the probability that pigs will fly by 2030 is conditional upon this evidence about goats in New Zealand.     
+I might, for instance, ask you the probability that pigs will fly by 2030, after giving you evidence that some goats in New Zealand have learned to fly after a few years of training. In this case, you will probably adjust your judgment of the probability that pigs will fly by 2030. So the probability that pigs will fly by 2030 is conditional upon this evidence about goats in New Zealand.
 
 
 ## The modulo operation
@@ -493,183 +429,83 @@ I might, for instance, ask you the probability that pigs will fly by 2030, after
 
 ### Modulo
 
-The most basic expression with the **modulo operation** is of the following form: 
+The most basic expression with the **modulo operation** is of the following form: $x \mod y$.
 
-$$
-x \mod y
-$$
+The variable $x$ is called the dividend and the variable $y$ the divisor. To perform a modulo operation with a positive dividend and a positive divisor, you just determine the remainder of the division.
 
-The variable x is called the dividend and the variable y the divisor. To perform a modulo operation with a positive dividend and a positive divisor, you just determine the remainder of the division. 
+For instance, consider the expression $25 \mod 4$. The number 4 goes into the number 25 a total of 6 times. The remainder of that division is 1. Hence, $25 \mod 4$ equals 1. In a similar manner, we can evaluate the expressions below:
 
-For instance, consider the expression 25 mod 4. The number 4 goes into the number 25 a total of 6 times. The remainder of that division is 1. Hence, 25 mod 4 equals 1. In a similar manner, we can evaluate the expressions below:
+* $29 \mod 30 = 29$ (as 30 goes into 29 a total of 0 times and the remainder is 29)
+* $42 \mod 2 = 0$ (as 2 goes into 42 a total of 21 times and the remainder is 0)
+* $12 \mod 5 = 2$ (as 5 goes into 12 a total of 2 times and the remainder is 2)
+* $20 \mod 8 = 4$ (as 8 goes into 20 a total of 2 times and the remainder is 4)
 
-$$
-29 \mod 30 = 29
-$$
-(as 30 goes into 29 a total of 0 times and the remainder is 29)
-
-$$
-42 \mod 2 = 0
-$$
-(as 2 goes into 42 a total of 21 times and the remainder is 0)
-
-$$
-12 \mod 5 = 2
-$$
-(as 5 goes into 12 a total of 2 times and the remainder is 2)
-
-$$
-20 \mod 8 = 4
-$$
-(as 8 goes into 20 a total of 2 times and the remainder is 4)
-
-When the dividend or divisor is negative, modulo operations can be handled differently by programming languages. 
+When the dividend or divisor is negative, modulo operations can be handled differently by programming languages.
 
 You will definitely come across cases with a negative dividend in cryptography. In these cases, the typical approach is as follows:
 
-* First determine the closest value *lower than or equal to* the dividend into which the divisor divides with a remainder of zero. Call that value p. 
-* If the dividend is x, then the result of the modulo operation is the value of x – p.  
+* First determine the closest value *lower than or equal to* the dividend into which the divisor divides with a remainder of zero. Call that value $p$.
+* If the dividend is $x$, then the result of the modulo operation is the value of $x – p$.
 
-For instance, suppose that the dividend is – 20 and the divisor 3. The closest value lower than or equal to – 20 into which 3 divides evenly is – 21. The value of x – p in this case is – 20 – – 21. This equals 1 and, hence, – 20 mod 3 equals 1. In a similar manner, we can evaluate the expressions below:
+For instance, suppose that the dividend is $–20$ and the divisor 3. The closest value lower than or equal to $–20$ into which 3 divides evenly is $–21$. The value of $x – p$ in this case is $–20 – (–21)$. This equals 1 and, hence, $–20 \mod 3$ equals 1. In a similar manner, we can evaluate the expressions below:
 
-$$
-- 8 \mod 5 = 2
-$$
+* $–8 \mod 5 = 2$
+* $–19 \mod 16 = 13$
+* $–14 \mod 6 = 4$
 
-$$
-- 19 \mod 16 = 13
-$$
+Regarding notation, you will typically see the following types of expressions: $x = [y \mod z]$. Due to the brackets, the modulo operation in this case only applies to the right-hand side of the expression. If $y$ equals 25 and $z$ equals 4, for example, then $x$ evaluates to 1.
 
-$$
-- 14 \mod 6 = 4
-$$
+Without brackets, the modulo operation acts on *both sides* of an expression. Suppose, for instance, the following expression: $x = y \mod z$. If $y$ equals 25 and $z$ equals 4, then all we know is that $x \mod 4$ evaluates to 1. This is consistent with any value for $x$ from the set $\{\ldots,–7, –3, 1, 5, 9,\ldots\}$.
 
-Regarding notation, you will typically see the following types of expressions:
-
-$$
-x = [y \mod z]
-$$
-
-Due to the brackets, the modulo operation in this case only applies to the right-hand side of the expression. If y equals 25 and z equals 4, for example, then x evaluates to 1. 
-
-Without brackets, the modulo operation acts on *both sides* of an expression. Suppose, for instance, the following expression:
-
-$$
-x = y \mod z
-$$
-
-If y equals 25 and z equals 4, then all we know is that x mod 4 evaluates to 1. This is consistent with any value for x from the set:
-
-$$
-\{ \ldots, -7, -3, 1, 5, 9, \ldots \}
-$$
-
-The branch of mathematics that involves modulo operations on numbers and expressions is referred to **modular arithmetic**. You can think of this branch as arithmetic for cases in which the number line is not infinitely long. Though we typically come across modulo operations for (positive) integers within cryptography, you can also perform modulo operations using any real numbers. 
-
+The branch of mathematics that involves modulo operations on numbers and expressions is referred to **modular arithmetic**. You can think of this branch as arithmetic for cases in which the number line is not infinitely long. Though we typically come across modulo operations for (positive) integers within cryptography, you can also perform modulo operations using any real numbers.
 
 ### The shift cipher
 
-The modulo operation is frequently encountered within cryptography. To illustrate, lets consider one of the most famous historical encryption schemes: the shift cipher. 
+The modulo operation is frequently encountered within cryptography. To illustrate, let's consider one of the most famous historical encryption schemes: the shift cipher.
 
-Lets first define it. Suppose a dictionary *D* that equates all the letters of the English alphabet, in order, with the set of numbers :
+Let's first define it. Suppose a dictionary *D* that equates all the letters of the English alphabet, in order, with the set of numbers $\{0, 1, 2, \ldots, 25\}$. Assume a message space **M**. The **shift cipher** is, then, an encryption scheme defined as follows:
 
-$$
-\{0, 1, 2, \ldots, 25\}
-$$
+- Select uniformly a key $k$ out of the key space **K**, where **K** = $\{0, 1, 2, \ldots, 25\}$ [1]
+- Encrypt a message $m \in \mathbf{M}$, as follows:
+    - Separate $m$ into its individual letters $m_0, m_1, \ldots, m_i, \ldots, m_l$
+    - Convert each $m_i$ to a number according to *D*
+    - For each $m_i$, $c_i = [(m_i + k) \mod 26]$
+    - Convert each $c_i$ to a letter according to *D*
+    - Then combine $c_0, c_1, \ldots, c_l$ to yield the ciphertext $c$
+- Decrypt a ciphertext $c$ as follows:
+    - Convert each $c_i$ to a number according to *D*
+    - For each $c_i$, $m_i = [(c_i – k) \mod 26]$
+    - Convert each $m_i$ to a letter according to *D*
+    - Then combine $m_0, m_1, \ldots, m_l$ to yield the original message $m$
 
-Assume a message space **M**. The **shift cipher** is, then, an encryption scheme defined as follows:
+The modulo operator in the shift cipher ensures that letters wrap around, so that all ciphertext letters are defined. To illustrate, consider the application of the shift cipher on the word “DOG”.
 
-- Select uniformly a key k out of the key space **K**, where :
-
-$$
-\mathbf{K} = \{0, 1, 2, \ldots, 25\}
-$$
-
-[1]
-
-- Encrypt a message: 
-
-$$
-m \in \mathbf{M}
-$$
-
-- as follows:
-	- Separate "m" into its individual letters:
-
-$$
-m_0, m_1, \ldots, m_i, \ldots, m_l
-$$
-
-	- Convert each "mi" to a number according to *D*
-	- For each:
-
-$$
-m_i, \; c_i = [(m_i + k) \mod 26]
-$$
-
-	- Convert each "ci" to a letter according to *D*:
-	- Then to yield the ciphertext "c", combine:
-
-$$
-c_0, c_1, \ldots, c_l
-$$
-
-- Decrypt a ciphertext "c" as follows:
-    - Convert each "ci" to a number according to *D*
-    - For each:
-
-$$
-c_i, m_i = [(c_i - k) \mod 26]
-$$
-
-    - Convert each "mi" to a letter according to *D*
-    - Then to yield the original message "m", combine:
-
-$$
-m_0, m_1, \ldots, m_l
-$$
-
-The modulo operator in the shift cipher ensures that letters wrap around, so that all ciphertext letters are defined. To illustrate, consider the application of the shift cipher on the word “DOG”. 
-
-Suppose that you uniformly selected a key to have the value of 17. The letter “O” equates to 15. Without the modulo operation, the addition of this plaintext number with the key would amount to a ciphertext number of 32. However, that ciphertext number cannot be turned into a ciphertext letter, as the English alphabet only has 26 letters. The modulo operation ensures that the ciphertext number is actually 6 (the result of 32 mod 26), which equates to the ciphertext letter “G”.  
+Suppose that you uniformly selected a key to have the value of 17. The letter “O” equates to 15. Without the modulo operation, the addition of this plaintext number with the key would amount to a ciphertext number of 32. However, that ciphertext number cannot be turned into a ciphertext letter, as the English alphabet only has 26 letters. The modulo operation ensures that the ciphertext number is actually 6 (the result of $32 \mod 26$), which equates to the ciphertext letter “G”.
 
 The entire encryption of the word “DOG” with a key value of 17 is as follows:
 
-$$
-\text{Message = DOG = D, O, G = 3, 15, 6}
-$$
+* Message = DOG = D,O,G = 3,15,6
+* $c_0 = [(3 + 17) \mod 26] = [(20) \mod 26] = 20 = U$
+* $c_1 = [(15 + 17) \mod 26] = [(32) \mod 26] = 6 = G$
+* $c_2 = [(6 + 17) \mod 26] = [(23) \mod 26] = 23 = X$
+* $c = UGX$
 
-$$
-c_0 = [(3 + 17) \mod 26] = [20 \mod 26] = 20 = U
-$$
+Everyone can intuitively understand how the shift cipher works and probably use it themselves. For advancing your knowledge of cryptography, however, it is important to start becoming more comfortable with formalization, as the schemes will become much more difficult. Hence, why the steps for the shift cipher were formalized.
 
-$$
-c_1 = [(15 + 17) \mod 26] = [32 \mod 26] = 6 = G
-$$
-
-$$
-c_2 = [(6 + 17) \mod 26] = [23 \mod 26] = 23 = X
-$$
-
-$$
-c = UGX
-$$
-
-Everyone can intuitively understand how the shift cipher works and probably use it themselves. For advancing your knowledge of cryptography, however, it is important to start becoming more comfortable with formalization, as the schemes will become much more difficult. Hence, why the steps for the shift cipher were formalized. 
 
 **Notes:**
 
-[1] We can define this statement exactly, using the terminology from the previous section. Let a uniform variable K have K as its set of possible outcomes. So:
+[1] We can define this statement exactly, using the terminology from the previous section. Let a uniform variable $K$ have $K$ as its set of possible outcomes. So:
 
 $$
-\Pr[K = 0] = \frac{1}{26}
+Pr[K = 0] = \frac{1}{26}
 $$
 
 $$
-\Pr[K = 1] = \frac{1}{26}
+Pr[K = 1] = \frac{1}{26}
 $$
 
-...and so on. Sample the uniform variable K once to yield a particular key.
+...and so on. Sample the uniform variable $K$ once to yield a particular key.
 
 
 ## The XOR operation
@@ -679,142 +515,68 @@ All computer data is processed, stored, and sent across networks at the level of
 
 For instance, suppose that you have typed an e-mail into your e-mail application. Any encryption you apply does not occur on the ASCII characters of your e-mail directly. Instead, it is applied to the bit-representation of the letters and other symbols in your e-mail. 
 
-A key mathematical operation to understand for modern cryptography, besides the modulo operation, is that of the **XOR operation**, or “exclusive or” operation. This operation takes as inputs two bits and yields as output another bit. The XOR operation will simply be denoted as "XOR". It yields 0 if the two bits are the same and 1 if the two bits are different. You can see the four possibilities below. 
+A key mathematical operation to understand for modern cryptography, besides the modulo operation, is that of the **XOR operation**, or “exclusive or” operation. This operation takes as inputs two bits and yields as output another bit. The XOR operation will simply be denoted as "XOR". It yields 0 if the two bits are the same and 1 if the two bits are different. You can see the four possibilities below. The symbol $\oplus$ represents "XOR" :
 
-$$
-0 \oplus 0 = 0
-$$
+* $0 \oplus 0 = 0$
+* $0 \oplus 1 = 1$
+* $1 \oplus 0 = 1$
+* $1 \oplus 1 = 0$
 
-$$
-0 \oplus 1 = 1
-$$
+To illustrate, suppose that you have a message $m_1$ (01111001) and a message $m_2$ (01011001). The XOR operation of these two messages can be seen below.
 
-$$
-1 \oplus 0 = 1
-$$
+* $m_1 \oplus m_2 = 01111001 \oplus 01011001 = 00100000$
 
-$$
-1 \oplus 1 = 0
-$$
+The process is straightforward. You first XOR the left-most bits of $m_1$ and $m_2$. In this case that is $0 \oplus 0 = 0$. You then XOR the second pair of bits from the left. In this case that is $1 \oplus 1 = 0$. You continue this process until you have performed the XOR operation on the right-most bits.
 
-$$ 
-\text{The symbol } \oplus \text{ represents "XOR".} 
-$$
+It is easy to see that the XOR operation is commutative, namely that $m_1 \oplus m_2 = m_2 \oplus m_1$. In addition, the XOR operation is also associative. That is, $(m_1 \oplus m_2) \oplus m_3 = m_1 \oplus (m_2 \oplus m_3)$.
 
-You can perform an XOR operation on two messages longer than a single bit by lining up the bits of those two messages and performing the XOR operation on each individual pair of bits. 
-
-To illustrate, suppose that you have a message:
-
-$$
-m_1 = (01111001)
-$$
-
-and a second message:
-
-$$
-m_2 = (01011001)
-$$
-
-The XOR operation of these two messages can be seen below:
-
-$$
-m_1 \oplus m_2 = 01111001 \oplus 01011001 = 00100000
-$$
-
-The process is straightforward. Your first XOR the left-most bits of m1 and m2. In this case that is:
-
-$$
-0 \oplus 0 = 0
-$$
-
-You then XOR the second pair of bits from the left. In this case that is:
-
-$$
-1 \oplus 1 = 0
-$$
-
-You continue this process until you have performed the XOR operation on the right-most bits. 
-
-It is easy to see that the XOR operation is commutative, namely that:
-
-$$
-m_1 \oplus m_2 = m_2 \oplus m_1
-$$
-
-In addition, the XOR operation is also associative. That is:
-
-$$
-(m_1 \oplus m_2) \oplus m_3 = m_1 \oplus (m_2 \oplus m_3)
-$$
-
-An XOR operation on two strings of alternative lengths can have different interpretations, depending on the context. We will not concern ourselves here with any XOR operations on strings of different lengths. 
+An XOR operation on two strings of alternative lengths can have different interpretations, depending on the context. We will not concern ourselves here with any XOR operations on strings of different lengths.
 
 An XOR operation is equivalent to the special case of performing a modulo operation on the addition of bits when the divisor is 2. You can see the equivalency in the following results:
 
-$$
-(0 + 0) \mod 2 = 0 \oplus 0 = 0
-$$
-
-$$
-(1 + 0) \mod 2 = 1 \oplus 0 = 1
-$$
-
-$$
-(0 + 1) \mod 2 = 0 \oplus 1 = 1
-$$
-
-$$
-(1 + 1) \mod 2 = 1 \oplus 1 = 0
-$$
+* $(0 + 0) \mod 2 = 0 \oplus 0 = 0$
+* $(1 + 0) \mod 2 = 1 \oplus 0 = 1$
+* $(0 + 1) \mod 2 = 0 \oplus 1 = 1$
+* $(1 + 1) \mod 2 = 1 \oplus 1 = 0$
 
 ## Pseudorandomness
 <chapterId>20463fc5-3e92-581f-a1b7-3151279bd95e</chapterId>
 
-In our discussion of random and uniform variables, we drew a specific distinction between “random” and “uniform”. That distinction is typically maintained in practice when describing random variables. However, in our current context, this distinction needs to be dropped and “random” and “uniform” are used synonymously. I will explain why at the end of the section.  
+In our discussion of random and uniform variables, we drew a specific distinction between “random” and “uniform”. That distinction is typically maintained in practice when describing random variables. However, in our current context, this distinction needs to be dropped and “random” and “uniform” are used synonymously. I will explain why at the end of the section.
 
-To start, we can call a binary string of length n **random** (or **uniform**), if it was the result of sampling a uniform variable S which gives each binary string of such a length n an equal probability of selection. 
+To start, we can call a binary string of length $n$ **random** (or **uniform**), if it was the result of sampling a uniform variable $S$ which gives each binary string of such a length $n$ an equal probability of selection.
 
-Suppose, for instance, the set of all binary strings with length 8: 
+Suppose, for instance, the set of all binary strings with length 8: $\{0000\ 0000, 0000\ 0001, \ldots, 1111\ 1111\}$. (It is typical to write an 8-bit string in two quartets, each called a **nibble**.) Let's call this set of strings **$S_8$**.
 
-$$
-\{0000\ 0000, 0000\ 0001, \ldots, 1111\ 1111\}
-$$
+Per the definition above, we can, then, call a particular binary string of length 8 random (or uniform), if it was the result of sampling a uniform variable $S$ that gives each string in **$S_8$** an equal probability of selection. Given that the set **$S_8$** includes $2^8$ elements, the probability of selection upon sampling would have to be $1/2^8$ for each string in the set.
 
-(It is typical to write an 8-bit string in two quartets, each called a **nibble**.) Lets call this set of strings **S8**. 
+A key aspect to the randomness of a binary string is that it is defined with reference to the process by which it was selected. The form of any particular binary string on its own, therefore, reveals nothing about its randomness in selection.
 
-Per the definition above, we can, then, call a particular binary string of length 8 random (or uniform), if it was the result of sampling a uniform variable S that gives each string in **S8** an equal probability of selection. Given that the set **S8** includes 28 elements, the probability of selection upon sampling would have to be for each string in the set:
+For example, many people intuitively have the idea that a string like $1111\ 1111$ could not have been selected randomly. But this is clearly false.
 
-$$
-\frac{1}{2^8}
-$$
+Defining a uniform variable $S$ over all the binary strings of length 8, the likelihood of selecting $1111\ 1111$ from the set **$S_8$** is the same as that of a string such as $0111\ 0100$. Thus, you cannot tell anything about the randomness of a string, just by analyzing the string itself.
 
-A key aspect to the randomness of a binary string is that it is defined with reference to the process by which it was selected. The form of any particular binary string on its own, therefore, reveals nothing about its randomness in selection. 
+We can also speak of random strings without specifically meaning binary strings. We might, for instance, speak of a random hex string $AF\ 02\ 82$. In this case, the string would have been selected at random from the set of all hex strings of length 6. This is equivalent to randomly selecting a binary string of length 24, as each hex digit represents 4 bits.
 
-For example, many people intuitively have the idea that a string like 1111 1111 could not have been selected randomly. But this is clearly false. 
+Typically the expression “a random string”, without qualification, refers to a string randomly selected from the set of all strings with the same length. This is how I have described it above. A string of length $n$ can, of course, also be randomly selected from a different set. One, for example, that only constitutes a subset of all the strings of length $n$, or perhaps a set that includes strings of varying length. In those cases, however, we would not refer to it as a “random string”, but rather “a string that is randomly selected from some set **S**”.
 
-Defining a uniform variable S over all the binary strings of length 8, the likelihood of selecting 1111 1111 from the set **S8** is the same as that of a string such as 0111 01001. Thus, you cannot tell anything about the randomness of a string, just by analyzing the string itself. 
+A key concept within cryptography is that of pseudorandomness. A **pseudorandom string** of length $n$ appears *as if* it was the result of sampling a uniform variable $S$ that gives each string in **$S_n$** an equal probability of selection. In fact, however, the string is the result of sampling a uniform variable $S'$ that only defines a probability distribution—not necessarily one with equal probabilities for all possible outcomes—on a subset of **$S_n$**. The crucial point here is that no one can really distinguish between samples from $S$ and $S'$, even if you take many of them.
 
-We can also speak of random strings without specifically meaning binary strings. We might, for instance, speak of a random hex string AF 02 82. In this case, the string would have been selected at random from the set of all hex strings of length 6. This is equivalent to randomly selecting a binary string of length 24, as each hex digit represents 4 bits. 
+Suppose, for instance, a random variable $S$. Its outcome set is **$S_{256}$**, this is the set of all binary strings of length 256. This set has $2^{256}$ elements. Each element has an equal probability of selection, $1/2^{256}$, upon sampling.
 
-Typically the expression “a random string”, without qualification, refers to a string randomly selected from the set of all strings with the same length. This is how I have described it above. A string of length n can, of course, also be randomly selected from a different set. One, for example, that only constitutes a subset of all the strings of length n, or perhaps a set that includes strings of varying length. In those cases, however, we would not refer to it as a “random string”, but rather “a string that is randomly selected from some set **S**”.
+In addition, suppose a random variable $S'$. Its outcome set only includes $2^{128}$ binary strings of length 256. It has some probability distribution over those strings, but this distribution is not necessarily uniform.
 
-A key concept within cryptography is that of pseudorandomness. A **pseudorandom string** of length n appears *as if* it was the result of sampling a uniform variable S that gives each string in **Sn** an equal probability of selection. In fact, however, the string is the result of sampling a uniform variable S' that only defines a probability distribution—not necessarily one with equal probabilities for all possible outcomes—on a subset of **Sn**. The crucial point here is that no one can really distinguish between samples from S and S', even if you take many of them. 
+Suppose that I now took 1000s of samples from $S$ and 1000s of samples from $S'$ and gave the two sets of outcomes to you. I tell you which set of outcomes is associated with which random variable. Next, I take a sample from one of the two random variables. But this time I do not tell you which random variable I sample. If $S'$ were pseudorandom, then the idea is that your probability of making the right guess as to which random variable I sampled is practically no better than $1/2$.
 
-Suppose, for instance, a random variable S. Its outcome set is **S256**, this is the set of all binary strings of length 256. This set has 2^256 elements. Each element has an equal probability of selection, 1/2^256, upon sampling. 
+Typically, a pseudorandom string of length $n$ is produced by randomly selecting a string of size $n – x$, where $x$ is a positive integer, and using it as an input for an expansionary algorithm. This random string of size $n – x$ is known as the **seed**.
 
-In addition suppose a random variable S’. Its outcome set only includes 2^128 binary strings of length 256. It has some probability distribution over those strings, but this distribution is not necessarily uniform. 
+Pseudorandom strings are a key concept to making cryptography practical. Consider, for instance, stream ciphers. With a stream cipher, a randomly selected key is plugged into an expansionary algorithm to produce a much larger pseudorandom string. This pseudorandom string is then combined with the plaintext via an XOR operation to produce a ciphertext.
 
-Suppose that I now took a 1000s of samples from S and 1000s of samples from S' and gave the two sets of outcomes to you. I tell you which set of outcomes is associated with which random variable. Next, I take a sample from one of the two random variables. But this time I do not tell you which random variable I sample. If S' were pseudorandom, then the idea is that your probability of making the right guess as to which random variable I sampled is practically no better than 1/2.  
-
-Typically, a pseudorandom string of length n is produced by randomly selecting a string of size n – x, where x is a positive integer, and using it as an input for an expansionary algorithm. This random string of size n – x is known as the **seed**.
-
-Pseudorandom strings are a key concept to making cryptography practical. Consider, for instance, stream ciphers. With a stream cipher, a randomly selected key is plugged into an expansionary algorithm to produce a much larger pseudorandom string. This pseudorandom string is then combined with the plaintext via an XOR operation to produce a ciphertext. 
-
-If we were unable to produce this type of pseudorandom string for a stream cipher, then we would need a key that is as long as the message for its security. This is not a very practical option in most cases. 
+If we were unable to produce this type of pseudorandom string for a stream cipher, then we would need a key that is as long as the message for its security. This is not a very practical option in most cases.
 
 The notion of pseudorandomness discussed in this section can be defined more formally. It also extends to other contexts. But we need not delve into that discussion here. All you really need to intuitively understand for much of cryptography is the difference between a random and a pseudorandom string. [2]
 
-The reason for dropping the distinction between “random” and “uniform” in our discussion should now also be clear. In practice everyone uses the term pseudorandom to indicate a string that appears **as if** it was the result of sampling a uniform variable S. Strictly speaking, we should call such a string “pseudo-uniform,” adopting our language from earlier. As the term “pseudo-uniform” is both clunky and not used by anyone, we will not introduce it here for clarity. Instead, we just drop the distinction between “random” and “uniform” in the current context.  
+The reason for dropping the distinction between “random” and “uniform” in our discussion should now also be clear. In practice, everyone uses the term pseudorandom to indicate a string that appears **as if** it was the result of sampling a uniform variable $S$. Strictly speaking, we should call such a string “pseudo-uniform,” adopting our language from earlier. As the term “pseudo-uniform” is both clunky and not used by anyone, we will not introduce it here for clarity. Instead, we just drop the distinction between “random” and “uniform” in the current context.
 
 
 **Notes**
@@ -837,81 +599,82 @@ If you are finding the details of number theory cumbersome, I would recommend a 
 
 ___
 
-You might characterize **number theory** as the study of the properties of integers and mathematical functions that work with integers. 
+You might characterize **number theory** as the study of the properties of integers and mathematical functions that work with integers.
 
-Consider, for example, that any two numbers a and N are **coprimes** (or **relative primes**) if their greatest common divisor equals 1. Suppose now a particular integer N. How many integers smaller than N are coprimes with N? Can we make general statements about the answers to this question? These are the typical types of questions that number theory seeks to answer.
+Consider, for example, that any two numbers $a$ and $N$ are **coprimes** (or **relative primes**) if their greatest common divisor equals 1. Suppose now a particular integer $N$. How many integers smaller than $N$ are coprimes with $N$? Can we make general statements about the answers to this question? These are the typical types of questions that number theory seeks to answer.
 
-Modern number theory relies on the tools of abstract algebra. The field of **abstract algebra** is a subdiscipline of mathematics where the main objects of analysis are abstract objects known as algebraic structures. An **algebraic structure** is a set of elements conjoined with one or more operations, which meets certain axioms. Through algebraic structures mathematicians can gain insights into specific mathematical problems, by abstracting away from their details. 
+Modern number theory relies on the tools of abstract algebra. The field of **abstract algebra** is a subdiscipline of mathematics where the main objects of analysis are abstract objects known as algebraic structures. An **algebraic structure** is a set of elements conjoined with one or more operations, which meets certain axioms. Through algebraic structures, mathematicians can gain insights into specific mathematical problems, by abstracting away from their details.
 
-The field of abstract algebra is sometimes also called modern algebra. You may also come across the concept of **abstract mathematics** (or **pure mathematics**). This latter term is not a reference to abstract algebra, but rather means the study of mathematics for its own sake, and not just with eye on potential applications. 
+The field of abstract algebra is sometimes also called modern algebra. You may also come across the concept of **abstract mathematics** (or **pure mathematics**). This latter term is not a reference to abstract algebra, but rather means the study of mathematics for its own sake, and not just with an eye on potential applications.
 
-The sets from abstract algebra can deal with many types of objects, from the shape-preserving transformations on an equilateral triangle to wall paper patterns. For number theory, we only consider sets of elements that contain integers or functions that work with integers. 
+The sets from abstract algebra can deal with many types of objects, from the shape-preserving transformations on an equilateral triangle to wallpaper patterns. For number theory, we only consider sets of elements that contain integers or functions that work with integers.
 
 
 ## Groups
 <chapterId>3209b270-f9cd-5224-803e-0ed19fbf7826</chapterId>
 
-A basic concept in mathematics is that of a set of elements. A set is usually denoted by accolade signs with the elements separated by commas. 
+A basic concept in mathematics is that of a set of elements. A set is usually denoted by accolade signs with the elements separated by commas.
 
-For instance, the set of all integers is {…,-2,-1,0,1,2,…}. The ellipses here means that a certain pattern continues in a particular direction. So the set of all integers also includes 3,4,5,6 and so on, as well as -3,-4,-5,-6 and so on. This set of all integers is typically denoted by ℤ.
+For instance, the set of all integers is $\{…, -2, -1, 0, 1, 2, …\}$. The ellipses here mean that a certain pattern continues in a particular direction. So the set of all integers also includes $3, 4, 5, 6$ and so on, as well as $-3, -4, -5, -6$ and so on. This set of all integers is typically denoted by $\mathbb{Z}$.
 
-Another example of a set is ℤ mod 11, or the set of all integers modulo 11. In contrast to the entire set ℤ, this set only contains a finite number of elements, namely {0,1,…,9,10}. 
+Another example of a set is $\mathbb{Z} \mod 11$, or the set of all integers modulo 11. In contrast to the entire set $\mathbb{Z}$, this set only contains a finite number of elements, namely $\{0, 1, \ldots, 9, 10\}$.
 
-A common mistake is to think that the set ℤ mod 11 actually is {-10,-9,….,0,….,9,10}. But this is not the case, given the way we defined the modulo operation earlier . Any negative integers reduced by modulo 11 wrap onto {0,1,….,9,10}. For instance, the expression -2 mod 11 wraps around to 9, while the expression -27 mod 11 wraps around to 5.  
+A common mistake is to think that the set $\mathbb{Z} \mod 11$ actually is $\{-10, -9, \ldots, 0, \ldots, 9, 10\}$. But this is not the case, given the way we defined the modulo operation earlier. Any negative integers reduced by modulo 11 wrap onto $\{0, 1, \ldots, 9, 10\}$. For instance, the expression $-2 \mod 11$ wraps around to $9$, while the expression $-27 \mod 11$ wraps around to $5$.
 
-Another basic concept in mathematics is that of a binary operation. This is any operation that takes two elements to produce a third. For instance, from basic arithmetic and algebra, you would be familiar with four fundamental binary operations: addition, subtraction, multiplication, and division. 
+Another basic concept in mathematics is that of a binary operation. This is any operation that takes two elements to produce a third. For instance, from basic arithmetic and algebra, you would be familiar with four fundamental binary operations: addition, subtraction, multiplication, and division.
 
-These two basic mathematical concepts, sets and binary operations, are used to define the notion of a group, the most essential structure in abstract algebra. 
+These two basic mathematical concepts, sets and binary operations, are used to define the notion of a group, the most essential structure in abstract algebra.
 
-Specifically, suppose some binary operation ◌. In addition, suppose some set of elements **S** equipped with that operation. All “equipped” means here is that the operation ◌ can be performed between any two elements in the set **S**. 
+Specifically, suppose some binary operation $\circ$. In addition, suppose some set of elements **S** equipped with that operation. All “equipped” means here is that the operation $\circ$ can be performed between any two elements in the set **S**.
 
-The combination 〈**S**, ◌〉 is, then, a **group** if it meets four specific conditions, known as the group axioms.
+The combination $\langle \mathbf{S}, \circ \rangle$ is, then, a **group** if it meets four specific conditions, known as the group axioms.
 
-1. For any a and b that are elements of **S**, a ◌ b is also an element of **S**. This is known as the **closure condition**. 
-2. For any a, b, and c that are elements of **S**, it is the case that: (a ◌ b) ◌ c = a ◌ (b ◌ c). This is known as the **associativity condition**. 
-3. There is a unique element e in **S**, such that for every element a in **S**, the following equation holds: e ◌ a = a ◌ e = a. As there is only one such element e, it is called the **identity element**. This condition is known as the **identity condition**. 
-4. For each element a in **S**, there exists an element b in **S**, such that the following equation holds: a ◌ b = b ◌ a = e, where e is the identity element. Element b here is known as the **inverse element**, and it is commonly denoted as a<sup>-1</sup>. This condition is known as the **inverse condition** or the **invertibility condition**. 
+1. For any $a$ and $b$ that are elements of $\mathbf{S}$, $a \circ b$ is also an element of $\mathbf{S}$. This is known as the **closure condition**.
+2. For any $a$, $b$, and $c$ that are elements of $\mathbf{S}$, it is the case that $(a \circ b) \circ c = a \circ (b \circ c)$. This is known as the **associativity condition**.
+3. There is a unique element $e$ in $\mathbf{S}$, such that for every element $a$ in $\mathbf{S}$, the following equation holds: $e \circ a = a \circ e = a$. As there is only one such element $e$, it is called the **identity element**. This condition is known as the **identity condition**.
+4. For each element $a$ in $\mathbf{S}$, there exists an element $b$ in $\mathbf{S}$, such that the following equation holds: $a \circ b = b \circ a = e$, where $e$ is the identity element. Element $b$ here is known as the **inverse element**, and it is commonly denoted as $a^{-1}$. This condition is known as the **inverse condition** or the **invertibility condition**.
 
-Lets explore groups a little further. Denote the set of all integers by ℤ. This set combined with standard addition, or 〈ℤ, +〉, clearly fits the definition of a group, as it meets the four axioms above.
+Let's explore groups a little further. Denote the set of all integers by $\mathbb{Z}$. This set combined with standard addition, or $\langle \mathbb{Z}, + \rangle$, clearly fits the definition of a group, as it meets the four axioms above.
 
-1. For any x and y that are elements of ℤ, x + y is also an element of ℤ. So 〈ℤ, +〉 meets the closure condition.
-2. For any x, y, and z that are elements of ℤ, (x + y) + z = x + (y + z). So 〈 ℤ, +〉 meets the associativity condition.
-3. There is an identity element in 〈ℤ, +〉, namely 0. For any x in ℤ, it namely holds that: 0 + x = x + 0 = x. So 〈ℤ, +〉 meets the identity condition.
-4. Finally, for each element x in ℤ, there is a y so that x + y = y + x = 0. If x were 10, for instance, y would be – 10 (in the case that x is 0, y is also 0). So 〈ℤ, +〉 meets the inverse condition.
+1. For any $x$ and $y$ that are elements of $\mathbb{Z}$, $x + y$ is also an element of $\mathbb{Z}$. So $\langle \mathbb{Z}, + \rangle$ meets the closure condition.
+2. For any $x$, $y$, and $z$ that are elements of $\mathbb{Z}$, $(x + y) + z = x + (y + z)$. So $\langle \mathbb{Z}, + \rangle$ meets the associativity condition.
+3. There is an identity element in $\langle \mathbb{Z}, + \rangle$, namely 0. For any $x$ in $\mathbb{Z}$, it namely holds that: $0 + x = x + 0 = x$. So $\langle \mathbb{Z}, + \rangle$ meets the identity condition.
+4. Finally, for each element $x$ in $\mathbb{Z}$, there is a $y$ so that $x + y = y + x = 0$. If $x$ were 10, for instance, $y$ would be $-10$ (in the case that $x$ is 0, $y$ is also 0). So $\langle \mathbb{Z}, + \rangle$ meets the inverse condition.
 
-Importantly, that the set of integers with addition constitutes a group does not mean that it constitutes a group with multiplication. You can verify this by testing 〈ℤ, •〉 against the four group axioms (where • means standard multiplication). 
+Importantly, that the set of integers with addition constitutes a group does not mean that it constitutes a group with multiplication. You can verify this by testing $\langle \mathbb{Z}, \cdot \rangle$ against the four group axioms (where $\cdot$ means standard multiplication).
 
-The first two axioms obviously hold. In addition, under multiplication the element 1 can serve as the identity element. Any integer x multiplied by 1, namely yields x. However, 〈ℤ, •〉 does not meet the inverse condition. That is, there is not a unique element y in ℤ for every x in ℤ, so that x • y = 1. 
+The first two axioms obviously hold. In addition, under multiplication the element 1 can serve as the identity element. Any integer $x$ multiplied by 1, namely yields $x$. However, $\langle \mathbb{Z}, \cdot \rangle$ does not meet the inverse condition. That is, there is not a unique element $y$ in $\mathbb{Z}$ for every $x$ in $\mathbb{Z}$, so that $x \cdot y = 1$.
 
-For instance, suppose that x = 22. What value y from the set ℤ multiplied with x would yield the identity element 1? The value of 1/22 would work, but this is not in the set ℤ. In fact, you run into this problem for any integer x, other than the values of 1 and -1 (where y would have to be 1 and -1 respectively). 
+For instance, suppose that $x = 22$. What value $y$ from the set $\mathbb{Z}$ multiplied with $x$ would yield the identity element 1? The value of $1/22$ would work, but this is not in the set $\mathbb{Z}$. In fact, you run into this problem for any integer $x$, other than the values of 1 and -1 (where $y$ would have to be 1 and -1 respectively).
 
-If we allowed real numbers for our set, then our problems largely disappear. For any element x in the set, multiplication by 1/x yields 1. As fractions are included in the set of real numbers, an inverse can be found for every real number. The exception is zero, as any multiplication with zero will never yield the identity element 1. Hence, the set of non-zero real numbers equipped with multiplication is indeed a group.  
+If we allowed real numbers for our set, then our problems largely disappear. For any element $x$ in the set, multiplication by $1/x$ yields 1. As fractions are included in the set of real numbers, an inverse can be found for every real number. The exception is zero, as any multiplication with zero will never yield the identity element 1. Hence, the set of non-zero real numbers equipped with multiplication is indeed a group.
 
 Some groups meet a fifth general condition, known as the **commutativity condition**. This condition is as follows:
 
-* Suppose a group G with a set **S** and a binary operator ◌.  Suppose that a and b are elements of **S**. If it is the case that a ◌ b = b ◌ a for any two elements a and b in **S**, then G meets the commutativity condition.
+* Suppose a group $G$ with a set **S** and a binary operator $\circ$. Suppose that $a$ and $b$ are elements of **S**. If it is the case that $a \circ b = b \circ a$ for any two elements $a$ and $b$ in **S**, then $G$ meets the commutativity condition.
 
 Any group that meets the commutativity condition is known as a **commutative group**, or an **Abelian group** (after Niels Henrik Abel). It is easy to verify that both the set of real numbers over addition and the set of integers over addition are Abelian groups. The set of integers over multiplication is not a group at all, so ipso facto cannot be an Abelian group. The set of non-zero real numbers over multiplication, by contrast, is also an Abelian group.
 
-You should heed two important conventions on notation. First, the signs “+” or “x” will frequently be employed to symbolize group operations, even when the elements are not, in fact, numbers. In these cases, you should not interpret these signs as standard arithmetic addition or multiplication. Instead, they are operations with only an abstract similarity to these arithmetic operations. 
+You should heed two important conventions on notation. First, the signs “+” or “×” will frequently be employed to symbolize group operations, even when the elements are not, in fact, numbers. In these cases, you should not interpret these signs as standard arithmetic addition or multiplication. Instead, they are operations with only an abstract similarity to these arithmetic operations.
 
-Unless you are specifically referring to arithmetic addition or multiplication, it is easier to use symbols such as ◌ and ◊ for group operations, as these do not have very culturally engrained connotations.
+Unless you are specifically referring to arithmetic addition or multiplication, it is easier to use symbols such as $\circ$ and $\diamond$ for group operations, as these do not have very culturally ingrained connotations.
 
-Second, for the same reason that “+” and “x” are often used for indicating non-arithmetic operations, the identity elements of groups are frequently symbolized by “0” and “1”, even when the elements in these in groups are not numbers. Unless you are referring to the identity element of a group with numbers, it is easier to use a more neutral symbol such as “e” to indicate the identity element.  
+Second, for the same reason that “+” and “×” are often used for indicating non-arithmetic operations, the identity elements of groups are frequently symbolized by “0” and “1”, even when the elements in these groups are not numbers. Unless you are referring to the identity element of a group with numbers, it is easier to use a more neutral symbol such as “$e$” to indicate the identity element.
 
-Many different and very important sets of values in mathematics equipped with certain binary operations are groups. Cryptographic applications, however, only work with sets of integers or at least elements that are described by integers, that is, within the domain of number theory. Hence, sets with real numbers other than integers are not employed in cryptographic applications.   
+Many different and very important sets of values in mathematics equipped with certain binary operations are groups. Cryptographic applications, however, only work with sets of integers or at least elements that are described by integers, that is, within the domain of number theory. Hence, sets with real numbers other than integers are not employed in cryptographic applications.
 
-Lets finish by providing an example of elements that can be “described by integers”, even though they are not integers. A good example is the points of elliptic curves. Though any point on an elliptic curve is clearly not an integer, such a point is indeed described by two integers. 
+Let's finish by providing an example of elements that can be “described by integers”, even though they are not integers. A good example is the points of elliptic curves. Though any point on an elliptic curve is clearly not an integer, such a point is indeed described by two integers.
 
 Elliptic curves are, for instance, crucial to Bitcoin. Any standard Bitcoin private and public key pair is selected from the set of points that is defined by the following elliptic curve: 
 
 $$
-x^3 + 7 = y^2 \mod 2^{256} - 232 - 29 - 28 - 27 - 26 - 24 - 1
+x^3 + 7 = y^2 \mod 2^{256} – 2^{32} – 29 – 28 – 27 – 26 - 24 - 1
 $$
 
-(The largest prime number less than 2^256). The x-coordinate is the private key and the y-coordinate is your public key.
+(the largest prime number less than $2^{256}$). The $x$-coordinate is the private key and the $y$-coordinate is your public key.
 
-Transactions in Bitcoin typically involve locking outputs to one or more public keys in some way. The value from these transactions can, then, be unlocked making digital signatures with the corresponding private keys. 
+Transactions in Bitcoin typically involve locking outputs to one or more public keys in some way. The value from these transactions can, then, be unlocked making digital signatures with the corresponding private keys.
+
 
 
 ## Cyclic groups

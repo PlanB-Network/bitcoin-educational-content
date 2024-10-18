@@ -1296,9 +1296,9 @@ While I have drawn a distinction between message authenticity and integrity in m
 
 Typically, you would want to guarantee both secrecy and authenticity in communication and, hence, encryption schemes and MAC schemes are typically used together. 
 
-An **authenticated encryption scheme** is a scheme that combines encryption with a MAC in a highly secure manner. Specifically, it has to meet the standards for existential unforgeability as well as a very strong notion of secrecy, namely one that is resistant to **chosen-ciphertext attacks**.<sup>[7](#footnote7)</sup> 
+An **authenticated encryption scheme** is a scheme that combines encryption with a MAC in a highly secure manner. Specifically, it has to meet the standards for existential unforgeability as well as a very strong notion of secrecy, namely one that is resistant to **chosen-ciphertext attacks**. [7]
 
-In order for an encryption scheme to be resistant to chosen-ciphertext attacks, it must meet the standards for **non-malleability**: that is, any modification of a ciphertext by an attacker should yield either an invalid ciphertext or one that decrypts to a plaintext having no relation to the original one.<sup>[8](#footnote8)</sup> 
+In order for an encryption scheme to be resistant to chosen-ciphertext attacks, it must meet the standards for **non-malleability**: that is, any modification of a ciphertext by an attacker should yield either an invalid ciphertext or one that decrypts to a plaintext having no relation to the original one. [8]
 
 As an authenticated encryption scheme ensures that a ciphertext created by an attacker is always invalid (as the tag will not be verified), it meets the standards for resistance to chosen-ciphertext attacks. Interestingly, you can prove that an authenticated encryption scheme can always be created from the combination of an existentially unforgeable MAC and an encryption scheme that meets a less stronger notion of security, known as **chosen-plaintext-attack security**.
 
@@ -1308,25 +1308,33 @@ First, an authenticated encryption scheme first handles the encryption and then 
 
 The aforementioned principle applies more generally: *you should always use distinct keys when combining basic cryptographic schemes*.
 
-An authenticated encryption scheme is depicted in *Figure 10*. Bob first creates a ciphertext C from the message M using a randomly selected key K<sub>C</sub>. He, then, creates a message tag T by running the ciphertext and a different randomly selected key K<sub>T</sub> through the tag generation algorithm. Both the ciphtertext and the message tag are sent to Alice. 
+An authenticated encryption scheme is depicted in *Figure 10*. Bob first creates a ciphertext $C$ from the message $M$ using a randomly selected key $K_C$. He then creates a message tag $T$ by running the ciphertext and a different randomly selected key $K_T$ through the tag generation algorithm. Both the ciphertext and the message tag are sent to Alice.
 
-Alice now first checks whether the tag is valid given the ciphertext C and the key K<sub>T</sub>. If valid, she can, then, decrypt the message using the key K<sub>C</sub>. Not only is she assured of a very strong notion of secrecy in their communications, she also knows the message was created by Bob. 
+Alice now first checks whether the tag is valid given the ciphertext $C$ and the key $K_T$. If valid, she can then decrypt the message using the key $K_C$. Not only is she assured of a very strong notion of secrecy in their communications, but she also knows the message was created by Bob.
 
 *Figure 10: An authenticated encryption scheme*
 
 ![Figure 10: An authenticated encryption scheme](assets/Figure4-10.webp "Figure 10: An authenticated encryption scheme")
 
-How are MACs created? While MACs can be created via multiple methods, and common and efficient way to create them is via cryptographic hash functions. 
+How are MACs created? While MACs can be created via multiple methods, a common and efficient way to create them is via **cryptographic hash functions**.
 
-We will introduce cryptographic hash functions more thoroughly in *Chapter 6*. For now, just know that a **hash function** is an efficiently computable function that takes inputs of arbitrary size and yields fixed length outputs. For example, the popular hash function **SHA-256** (secure hash algorithm 256) always generates a 256-bit output regardless of the size of the input. Some hash functions, such as SHA-256, have useful applications in cryptography. 
+We will introduce cryptographic hash functions more thoroughly in *Chapter 6*. For now, just know that a **hash function** is an efficiently computable function that takes inputs of arbitrary size and yields fixed-length outputs. For example, the popular hash function **SHA-256** (secure hash algorithm 256) always generates a 256-bit output regardless of the size of the input. Some hash functions, such as SHA-256, have useful applications in cryptography.
 
-The most common type of tag produced with a cryptographic hash function is the **hash-based message authenitcation code** (HMAC). The process is depicted in *Figure 11*. A party produces two distinct keys from a private key K, the innner key K<sub>1</sub> and outer key K<sub>2</sub>. The plaintext M or ciphertext C is, then, hashed together with the inner key. The result T' is, then, hashed with the outer key to produce the message tag T.
+The most common type of tag produced with a cryptographic hash function is the **hash-based message authentication code** (HMAC). The process is depicted in *Figure 11*. A party produces two distinct keys from a private key $K$, the inner key $K_1$ and the outer key $K_2$. The plaintext $M$ or ciphertext $C$ is then hashed together with the inner key. The result $T'$ is then hashed with the outer key to produce the message tag $T$.
 
-There is a palette of hash functions that can be used to create an HMAC. The most commonly employed hash function is SHA-256. 
+There is a palette of hash functions that can be used to create an HMAC. The most commonly employed hash function is SHA-256.
+
 
 *Figure 11: HMAC*
 
 ![Figure 11: HMAC](assets/Figure4-11.webp "Figure 11: HMAC")
+
+**Notes:**
+
+[7] The specific results discussed in this section are from Katz and Lindell, pp. 131–47.
+
+[8] Technically, the definition of chosen cipher text attacks is different than the notion of non-malleability. But you can show that those two notions of security are equivalent.
+
 
 
 ## Secure communication sessions

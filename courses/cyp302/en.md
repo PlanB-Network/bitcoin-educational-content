@@ -158,7 +158,7 @@ The advent of asymmetric cryptography in the late 1970s has been one of the most
 
 Importantly, modern cryptography is not exclusively the study of symmetric and assymetric key cryptographic schemes (though that covers much of the field). For instance, cryptography is also concerned with hash functions and pseudorandom number generators, and you can build applications on these primitives that are not related to symmetric or assymetric key cryptography. 
 
-Third, classical encryption schemes, like those used in the Beale ciphers, were more art than science. Their perceived security was largely based on intuitions regarding their complexity. They would typically be patched when a new attack on them was learned, or dropped entirely if the attack was particularly severe. Modern cryptography, however, is a rigorous science with a formal, mathematical approach to both developing and analyzing cryptographic schemes.<sup>[5](#footnote5)</sup>
+Third, classical encryption schemes, like those used in the Beale ciphers, were more art than science. Their perceived security was largely based on intuitions regarding their complexity. They would typically be patched when a new attack on them was learned, or dropped entirely if the attack was particularly severe. Modern cryptography, however, is a rigorous science with a formal, mathematical approach to both developing and analyzing cryptographic schemes. [5]
 
 Specifically, modern cryptography centers on formal **proofs of security**. Any proof of security for a cryptographic scheme proceeds in three steps: 
 
@@ -2061,7 +2061,7 @@ $$\phi(119) = (7 - 1) \cdot (17 - 1) = 6 \cdot 16 = 96$$
 
 In other words, the integer 119 has 96 coprimes in the range from 1 until 119. In fact, this set includes all integers from 1 until 119, which are not multiples of either 7 or 17. 
 
-From here on, let’s denote the set of coprimes that determines the order of $N$ as **C<sub>N</sub>**. For our example where $N = 119$, the set **C<sub>119</sub>** is far too large to list completely. But some of the elements are as follows: 
+From here on, let’s denote the set of coprimes that determines the order of $N$ as $C_N$. For our example where $N = 119$, the set $C_{119}$ is far too large to list completely. But some of the elements are as follows:
 
 $$C_{119} = \{1, 2, \dots 6, 8 \dots 13, 15, 16, 18, \dots 33, 35 \dots 96\}$$
 
@@ -2125,13 +2125,13 @@ Hence, the combination of Euler’s theorem and **Proposition 5** allow us to si
 
 Now we have to put everything together in a tricky last step.
 
-Just as $N$ has an order $\phi(N)$ which includes the elements of the set **C<sub>N</sub>**, we know that the integer $\phi(N)$ must in turn also have an order and a set of coprimes. Let's set $\phi(N) = R$. Then we know that there is also a value for $\phi(R)$ and a set of coprimes **C<sub>R</sub>**.
+Just as $N$ has an order $\phi(N)$ which includes the elements of the set $C_N$, we know that the integer $\phi(N)$ must in turn also have an order and a set of coprimes. Let's set $\phi(N) = R$. Then we know that there is also a value for $\phi(R)$ and a set of coprimes $C_R$.
 
-Suppose that we now select an integer $e$ from the set **C<sub>R</sub>**. We know from **Proposition 3** that this integer $e$ only has one unique positive inverse less than $R$. That is, $e$ has one unique inverse from the set **C<sub>R</sub>**. Let's call this inverse $d$. Given the definition of an inverse, this means that $e \cdot d = 1 \mod R$.
+Suppose that we now select an integer $e$ from the set $C_R$. We know from **Proposition 3** that this integer $e$ only has one unique positive inverse less than $R$. That is, $e$ has one unique inverse from the set $C_R$. Let's call this inverse $d$. Given the definition of an inverse, this means that $e \cdot d = 1 \mod R$.
 
 We can use this result to make a statement about our original integer $N$. This is summarized in **Proposition 7**.
 
-**Proposition 7**. Suppose that $e \cdot d \mod \phi(N) = 1 \mod \phi(N)$. Then for any element $a$ of the set **C<sub>N</sub>** it must be the case that $a^{e \cdot d \mod \phi(N)} = a^{1 \mod \phi(N)} = a \mod N$.
+**Proposition 7**. Suppose that $e \cdot d \mod \phi(N) = 1 \mod \phi(N)$. Then for any element $a$ of the set $C_N$ it must be the case that $a^{e \cdot d \mod \phi(N)} = a^{1 \mod \phi(N)} = a \mod N$.
 
 We now have all the number theoretic results needed to state the RSA problem clearly.
 
@@ -2195,7 +2195,7 @@ We have now presented the RSA problem, a set of conditions under which it is har
 
 One approach is to take the RSA problem and build schemes in a straightforward manner. For instance, suppose that you generated a set of variables $\Pi$ as described in the RSA problem, and ensure that $p$ and $q$ are sufficiently large. You set your public key equal to $(N, e)$ and share this information with the world. As described above, you keep the values for $p$, $q$, $\phi(n)$, and $d$ secret. In fact, $d$ is your private key.
 
-Anyone that wants to send you a message $m$ which is an element of **C<sub>N</sub>** could simply encrypt it as follows: $c = m^e \mod N$. (The ciphertext $c$ here is equivalent to the value $y$ in the RSA problem.) You can easily decrypt this message by just calculating $c^d \mod N$.
+Anyone that wants to send you a message $m$ which is an element of $C_N$ could simply encrypt it as follows: $c = m^e \mod N$. (The ciphertext $c$ here is equivalent to the value $y$ in the RSA problem.) You can easily decrypt this message by just calculating $c^d \mod N$.
 
 You might attempt to create a digital signature scheme in the same manner. Suppose that you want to send someone a message $m$ with a digital signature $S$. You could just set $S = m^d \mod N$ and send the pair $(m,S)$ to the recipient. Anyone can verify the digital signature just by checking whether $S^e \mod N = m \mod N$. Any attacker, however, would have a really difficult time creating a valid $S$ for a message, given that they do not possess $d$.
 

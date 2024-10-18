@@ -1340,45 +1340,35 @@ There is a palette of hash functions that can be used to create an HMAC. The mos
 ## Secure communication sessions
 <chapterId>c7f7dcd3-bbed-53ed-a43d-039da0f180c5</chapterId>
 
-Suppose that two parties are in a communication session, so they send multiple messages back and forth. 
+Suppose that two parties are in a communication session, so they send multiple messages back and forth.
 
-An authenticated encryption scheme allows a recipient of a message to verify that it was created by her partner in the a communication session (as long as the private key has not leaked). This works well enough for a single message. Typically, however, two parties are sending messages back and forth in a communication session. And in that setting, a plain authenticated encryption scheme as described in the previous section falls short in providing security.
+An authenticated encryption scheme allows a recipient of a message to verify that it was created by her partner in the communication session (as long as the private key has not leaked). This works well enough for a single message. Typically, however, two parties are sending messages back and forth in a communication session. And in that setting, a plain authenticated encryption scheme as described in the previous section falls short in providing security.
 
 The main reason is that an authenticated encryption scheme does not provide any guarantees that the message was actually also sent by the agent who created it within a communication session. Consider the following three attack vectors:
 
-1. **Replay attack**: An attacker re-sends a ciphertext and a tag that she intercepted between two parties at an earlier point. 
-2. **Re-ordering attack**: An attacker intercepts two messages at different times, and sends them on to the recipient in the reverse order.
-3. **Reflection attack**: An attacker observes a message sent from A to B, and also sends that message to A. 
+1. **Replay attack**: An attacker re-sends a ciphertext and a tag that she intercepted between two parties at an earlier point.
+2. **Re-ordering attack**: An attacker intercepts two messages at different times and sends them to the recipient in the reverse order.
+3. **Reflection attack**: An attacker observes a message sent from A to B, and also sends that message to A.
 
-Though the attacker has no knowledge of the ciphertext and cannot create spoof ciphertexts, the attacks above can still cause significant damage in communications. 
+Though the attacker has no knowledge of the ciphertext and cannot create spoofed ciphertexts, the attacks above can still cause significant damage in communications.
 
 Suppose, for instance, that a particular message between the two parties involves the transfer of financial funds. A replay attack might transfer the funds a second time. A vanilla authenticated encryption scheme has no defense against such attacks.
 
 Fortunately, these kinds of attacks can be easily mitigated in a communication session using **identifiers** and **relative time indicators**.
 
-Identifiers can be added to the plaintext message before encryption. This would bar any reflection attacks. A relative time indicator can, for example, be a sequence number in a particular communication session. Each party adds a sequence number to a message before encryption, so the recipient knows in what order the messages were sent. This eliminates the possibility of re-ordering attacks. It also eliminates replay attacks. Any message an attacker sends down the line will have an old sequence number, and the recipient will know not to process the message again. 
+Identifiers can be added to the plaintext message before encryption. This would bar any reflection attacks. A relative time indicator can, for example, be a sequence number in a particular communication session. Each party adds a sequence number to a message before encryption, so the recipient knows in what order the messages were sent. This eliminates the possibility of re-ordering attacks. It also eliminates replay attacks. Any message an attacker sends down the line will have an old sequence number, and the recipient will know not to process the message again.
 
 To illustrate how secure communication sessions work, suppose again Alice and Bob. They send a total of four messages back and forth. You can see how an authenticated encryption scheme with identifiers and sequence numbers would work below in *Figure 11*.
 
-The communication session starts by Bob sending a ciphertext C<sub>0,B</sub> to Alice with a message tag T<sub>0,B</sub>. The ciphertext contains the message, as well as an identifier (BOB) and a sequence number (0). The tag T<sub>0,B</sub> is made over the entire ciphertext. In their subsequent communications, Alice and Bob maintain this protocol, updating fields as necessary. 
+The communication session starts with Bob sending a ciphertext $C_{0,B}$ to Alice with a message tag $T_{0,B}$. The ciphertext contains the message, as well as an identifier (BOB) and a sequence number (0). The tag $T_{0,B}$ is made over the entire ciphertext. In their subsequent communications, Alice and Bob maintain this protocol, updating fields as necessary.
+
 
 *Figure 12: A secure communication session*
 
 ![Figure 12: A secure communication session](assets/Figure4-12.webp "Figure 12: A secure communication sessesion")
 
 
-## Notes
-<chapterId>b96d38dd-c9cb-56a7-8764-4af8526bc63f</chapterId>
 
-[^1]: According to Seutonius, a shift cipher with a constant key value of 3 was used by Julius Caeser in his military communications. So A would always become D, B always E, C always F, and so on. This particular version of the Shift cipher has, thus, become known as the **Caesar Cipher** (though it is not really a cipher in the modern sense of the word, as the key value is constant). The Caesar cipher may have been secure in the first century BC, if Rome’s enemies were very unfamiliar with encryption. But it clearly would not be a very secure scheme in modern times [^1].
-
-[^2]: Jonathan Katz and Yehuda Lindell, *Introduction to Modern Cryptography*, CRC Press (Boca Raton, FL: 2015), p. 7f [^2].
-
-[^3]: Eric Raymond, “The Cathedral and the Bazaar,” paper was presented at the Linux Kongress, Würzburg, Germany (May 27, 1997). There are a number of subsequent versions available as well as a book. My citations are from page 30 in the book: Eric Raymond, *The Cathedral and the Bazaar: Musings on Linux and Open Source by an Accidental Revolutionary*, revised edn. (2001), O’Reilly: Sebastopol, CA [^3].
-
-[^4]: Crypto Museum, "Washington-Moscow hotline," 2013, available at [Crypto Museum](https://www.cryptomuseum.com/crypto/hotline/index.htm) [^4].
-
-[^5]: The importance of probabilistic encryption was first emphasized by Shafi Goldwasser and Silvio Micali, “Probabilistic encryption,” *Journal of Co [^5].
 
 
 

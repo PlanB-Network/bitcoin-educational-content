@@ -1702,11 +1702,11 @@ By the 1970s, the key distribution and key management problems had grabbed the a
 
 At least one primary motivation for their venture was the foresight that open computer communications would profoundly affect our world. As Diffie and Helmann note in 1976, 
 
-> The development of computer controlled communication networks promises effortless and inexpensive contact between people or computers on opposite sides of the world, replacing  most mail and many excursions with telecommunications. For many applications these contacts must be made secure against both eavesdropping and the injection of illegitimate messages. At present, however, the solution of security problems lags well behind other areas of communications technology. *Contemporary cryptography is unable to meet the requirements, in that its use would impose such severe inconveniences on the system users, as to eliminate many of the benefits of teleprocessing.*<sup>[1](#footnote1)</sup>
+> The development of computer controlled communication networks promises effortless and inexpensive contact between people or computers on opposite sides of the world, replacing  most mail and many excursions with telecommunications. For many applications these contacts must be made secure against both eavesdropping and the injection of illegitimate messages. At present, however, the solution of security problems lags well behind other areas of communications technology. *Contemporary cryptography is unable to meet the requirements, in that its use would impose such severe inconveniences on the system users, as to eliminate many of the benefits of teleprocessing.* [1] 
 
 The tenacity of Diffie, Hellman, and Merkle paid off. The first publication of their results was a paper by Diffie and Helmann in 1976 entitled “New Directions in Cryptography.” In it, they presented two original ways to address the key distribution and the key management problems. 
 
-The first solution they offered was a remote *key-exchange protocol*, that is, a set of rules for the exchange of one or more symmetric keys over an insecure communication channel. This protocol is now known as *Diffie-Helmann key exchange* or *Diffie-Helmann-Merkle key exchange*.<sup>[2](#footnote2)</sup>
+The first solution they offered was a remote *key-exchange protocol*, that is, a set of rules for the exchange of one or more symmetric keys over an insecure communication channel. This protocol is now known as *Diffie-Helmann key exchange* or *Diffie-Helmann-Merkle key exchange*. [2]
 
 With Diffie-Helmann key exchange, two parties first exchange some information publicly on an insecure channel such as the Internet. On the basis of that information they, then, independently create a symmetric key (or a pair of symmetric keys) for secure communication. While both parties create their keys independently, the information they shared publicly ensures that this key creation process yields the same result for the both of them. 
 
@@ -1716,9 +1716,9 @@ This, of course, sounds completely counterintuitive. How could two parties excha
 
 It relies on some beautiful mathematics of course. Diffie-Helmann key exchange works via a one-way function with a trapdoor. Lets discuss the meaning of these two terms in turn.
 
-Suppose that you are given some function f(x) and the result f(a) = y, where a is a particular value for x. We say that f(x) is a **one-way function** if it is easy to calculate the value y when given a and f(x), but it is computationally infeasible to calculate the value a when given y and f(x). The name one-way function, of course, stems from the fact that such a function is only practical to calculate in one direction.
+Suppose that you are given some function $f(x)$ and the result $f(a) = y$, where $a$ is a particular value for $x$. We say that $f(x)$ is a **one-way function** if it is easy to calculate the value $y$ when given $a$ and $f(x)$, but it is computationally infeasible to calculate the value $a$ when given $y$ and $f(x)$. The name **one-way function**, of course, stems from the fact that such a function is only practical to calculate in one direction.
 
-Some one-way functions have what is known as a trapdoor. While it is practically impossible to calculate a given only y and f(x), there is a certain piece of information Z which makes calculating a from y computationally feasible. This piece of information Z is known as the **trapdoor**. One-way functions that have a trapdoor are known as **trapdoor functions**.
+Some one-way functions have what is known as a **trapdoor**. While it is practically impossible to calculate $a$ given only $y$ and $f(x)$, there is a certain piece of information $Z$ which makes calculating $a$ from $y$ computationally feasible. This piece of information $Z$ is known as the **trapdoor**. One-way functions that have a trapdoor are known as **trapdoor functions**.
 
 We will not delve into the details of Diffie-Helmann key exchange here. But essentially each participant creates some information, of which a part is publicly shared and of which some remains secret. Each party, then, takes their secret piece of information and the public information shared by the other party to create a private key. And somewhat miraculously, both parties will end up with the same private key. 
 
@@ -1732,7 +1732,7 @@ The second way which Diffie and Helmann offered to address the key distribution 
 
 In contrast to their presentation of Diffie-Hellman key exchange, they only provided the general contours of how asymmetric cryptographic schemes could plausibly be constructed. They did not offer any one-way function that could specifically fulfill the conditions needed for reasonable security in such schemes. 
 
-A practical implementation of an asymmetric scheme was, however, found a year later by three different academic cryptographers and mathematicians: Ronald Rivest, Adi Shamir, and Leonard Adleman.<sup>[3](#footnote3)</sup> The cryptosystem they introduced became known as the **RSA cryptosystem** (after their last names).
+A practical implementation of an asymmetric scheme was, however, found a year later by three different academic cryptographers and mathematicians: Ronald Rivest, Adi Shamir, and Leonard Adleman. [3] The cryptosystem they introduced became known as the **RSA cryptosystem** (after their last names).
 
 The trapdoor functions used in asymmetric cryptography (and Diffie Helmann key exchange) are all related to two main **computationally hard problems**: prime factorization and the calculation of discrete logarithms. 
 
@@ -1746,7 +1746,20 @@ Next, we will turn to a high-level overview of secrecy and authentication in the
 
 It now seems plausible that a group of British cryptographers and mathematicians working for the Government Communications Headquarters (GCHQ) had independently made the discoveries mentioned above a few years earlier. This group consisted of James Ellis, Clifford Cocks, and Malcolm Williamson.
 
-According to their own accounts and that of GCHQ, it was James Ellis who first devised the concept of public key cryptography in 1969. Supposedly, Clifford Cocks then discovered the RSA cryptographic system in 1973, and Malcolm Williamson the concept of Diffie Helmann key exchange in 1974.<sup>[4](#footnote4)</sup> Their discoveries were, however, purportedly not revealed until 1997, given the secret nature of the work done at GCHQ. 
+According to their own accounts and that of GCHQ, it was James Ellis who first devised the concept of public key cryptography in 1969. Supposedly, Clifford Cocks then discovered the RSA cryptographic system in 1973, and Malcolm Williamson the concept of Diffie Helmann key exchange in 1974. [4] Their discoveries were, however, purportedly not revealed until 1997, given the secret nature of the work done at GCHQ. 
+
+
+**Notes:**
+
+[1] Whitfield Diffie and Martin Hellman, “New directions in cryptography,” _IEEE Transactions on Information Theory_ IT-22 (1976), pp. 644–654, at p. 644.
+
+[2] Ralph Merkle also discusses a key exchange protocol in “Secure communications over insecure channels”, _Communications of the Association for Computing Machinery_, 21 (1978), 294–99. While Merkle actually submitted this paper before the paper by Diffie and Hellman, it was published later. Merkle’s solution is not exponentially secure, unlike Diffie-Hellman’s.
+
+[3] Ron Rivest, Adi Shamir, and Leonard Adleman, “A method for obtaining digital signatures and public-key cryptosystems”, _Communications of the Association for Computing Machinery_, 21 (1978), pp. 120–26.
+
+[4] A good history of these discoveries is provided by Simon Singh, _The Code Book_, Fourth Estate (London, 1999), Chapter 6.
+
+
 
 
 ## Asymmetric encryption and authentication

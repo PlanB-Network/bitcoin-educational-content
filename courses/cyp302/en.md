@@ -1490,92 +1490,153 @@ Importantly, the keystream produced with RC4 should be treated as a one-time pad
 ## AES with a 128-bit key
 <chapterId>0b30886f-e620-5b8d-807b-9d84685ca8ff</chapterId>
 
-As mentioned in the previous chapter, the National Institute of Standards and Technology (NIST) held a competition between 1997 and 2000 to determine a new symmetric encryption standard. The Rijndael cipher turned out to be the winning entry. The name is a word play on the names of the Belgian creators, Vincent Rijmen en Joan Daemen. 
+As mentioned in the previous chapter, the National Institute of Standards and Technology (NIST) held a competition between 1997 and 2000 to determine a new symmetric encryption standard. The **Rijndael cipher** turned out to be the winning entry. The name is a word play on the names of the Belgian creators, Vincent Rijmen and Joan Daemen.
 
-The Rijndael cipher is a block cipher, meaning there is a core algorithm, which can be used with different specifications for key lengths and block sizes. You can, then, use it with different modes of operation to construct encryption schemes.  
+The Rijndael cipher is a **block cipher**, meaning there is a core algorithm, which can be used with different specifications for key lengths and block sizes. You can, then, use it with different modes of operation to construct encryption schemes.
 
-The committee for the NIST competition adopted a constricted version of the Rijndael cipher—namely one which requires 128-bit block sizes and key lengths of either 128 bits, 192 bits, or 256 bits—as part of the advanced encryption standard. This constricted version of the Rijndael cipher can also be used under multiple modes of operation. The specification for the standard is what is known as the Advanced Encryption Standard (AES).
+The committee for the NIST competition adopted a constricted version of the Rijndael cipher—namely one which requires 128-bit block sizes and key lengths of either 128 bits, 192 bits, or 256 bits—as part of the **Advanced Encryption Standard (AES)**. This constricted version of the Rijndael cipher can also be used under multiple modes of operation. The specification for the standard is what is known as the **Advanced Encryption Standard (AES)**.
 
-In order to show how the Rijndael cipher works, the core of AES, I will illustrate the process for encryption with a 128-bit key. The key size has an impact on the number of rounds held for each block of encryption. For 128-bit keys, 10 rounds are required. With 192 bits and 256 bits, it would have been 12 and 14 rounds respectively. 
+In order to show how the Rijndael cipher works, the core of AES, I will illustrate the process for encryption with a 128-bit key. The key size has an impact on the number of rounds held for each block of encryption. For 128-bit keys, 10 rounds are required. With 192 bits and 256 bits, it would have been 12 and 14 rounds, respectively.
 
-In addition, I will assume that AES is used in ECB-mode. This makes exposition slightly easier and doesn't matter for the Rijndael algorithm. To be sure, ECB mode is not secure in practice because it leads to deterministic encryption. The most commonly used secure mode with AES is CBC. 
+In addition, I will assume that AES is used in **ECB-mode**. This makes exposition slightly easier and doesn't matter for the Rijndael algorithm. To be sure, ECB mode is not secure in practice because it leads to deterministic encryption. The most commonly used secure mode with AES is **CBC** (Cipher Block Chaining).
 
-Let's call the key K<sub>0</sub>. The construction with the above parameters, then, looks as in Figure 1, where M<sub>i</sub> stands for a part of the plaintext message of 128 bits and C<sub>i</sub> for a part of the ciphertext of 128 bits. Padding is added to the plaintext for the last block, if the plaintext cannot be evenly divided by the block size.
+Let's call the key $K_0$. The construction with the above parameters, then, looks as in *Figure 1*, where $M_i$ stands for a part of the plaintext message of 128 bits and $C_i$ for a part of the ciphertext of 128 bits. Padding is added to the plaintext for the last block, if the plaintext cannot be evenly divided by the block size.
+
 
 *Figure 1: AES-ECB with a 128-bit key*
 
 ![Figure 1: AES-ECB with a 128-bit key](assets/Figure5-1.webp "Figure 1: AES-ECB with a 128-bit key")
 
-Each 128-block of text goes through ten rounds in the Rijndael encryption scheme. This requires a separate round key for each round (K<sub>1</sub> through K<sub>10</sub>). These are produced for each round from the original 128-bit key K<sub>0</sub> using a key expansion algorithm. Hence, for each block of text to be encrypted, we will use the original key K<sub>0</sub> as well as ten separate round keys. Note that these same 11 keys are used for each 128-bit block of plaintext that requires encryption.  
+Each 128-bit block of text goes through ten rounds in the Rijndael encryption scheme. This requires a separate round key for each round ($K_1$ through $K_{10}$). These are produced for each round from the original 128-bit key $K_0$ using a **key expansion algorithm**. Hence, for each block of text to be encrypted, we will use the original key $K_0$ as well as ten separate round keys. Note that these same 11 keys are used for each 128-bit block of plaintext that requires encryption.
 
-The key expansion algorithm is long and complex. Working through it has little didactic benefits. You can look through the key expansion algorithm on your own, if you wish. Once the round keys are produced, the Rijndael cipher will manipulate the first 128-bit block of plaintext, M<sub>1</sub>, as seen in Figure 2. We will now go through these steps.
+The key expansion algorithm is long and complex. Working through it has little didactic benefit. You can look through the key expansion algorithm on your own, if you wish. Once the round keys are produced, the Rijndael cipher will manipulate the first 128-bit block of plaintext, $M_1$, as seen in *Figure 2*. We will now go through these steps.
 
-*Figure 2: The manipulation of M<sub>1</sub> with the Rijndael cipher*
+*Figure 2: The manipulation of $M_1$ with the Rijndael cipher:*
 
-![Figure 2: AES-ECB with a 128-bit key](assets/Figure5-2.webp "Figure 2: AES-ECB with a 128-bit key")
+**Round 0:**
+- XOR $M_1$ and $K_0$ to produce $S_0$
+
+---
+
+**Round n for n = {1,...,9}:**
+- XOR $S_{n-1}$ and $K_n$
+- Byte Substitution
+- Shift Rows
+- Mix Columns
+- XOR $S$ and $K_n$ to produce $S_n$
+
+---
+
+**Round 10:**
+- XOR $S_9$ and $K_{10}$
+- Byte Substitution
+- Shift Rows
+- XOR $S$ and $K_{10}$ to produce $S_{10}$
+- $S_{10}$ = $C_1$
+
 
 ### Round 0
 
-Round 0 of the Rijndael cipher is straightforward. An array S<sub>0</sub> is produced by an XOR operation between the 128-bit plaintext and the private key. That is,
+Round 0 of the Rijndael cipher is straightforward. An array $S_0$ is produced by an XOR operation between the 128-bit plaintext and the private key. That is,
 
-- S<sub>0</sub> = M<sub>1</sub> XOR K<sub>0</sub>
+- $S_0 = M_1 \oplus K_0$
 
 ### Round 1
 
-In round 1, the array S<sub>0</sub> is first combined with the round key K<sub>1</sub> using an XOR operation. This produces a new state of S. 
+In round 1, the array $S_0$ is first combined with the round key $K_1$ using an XOR operation. This produces a new state of $S$. 
 
-Second, the byte substitution operation is performed on the current state of S. It works by taking each byte of the 16-byte S array and subtituting it with a byte of an array called **Rijndael’s S-box**. Each byte has a unique transformation, and a new state of S is produced as a result. Rijndael's S-box is displayed in *Figure 3*. 
+Second, the **byte substitution** operation is performed on the current state of $S$. It works by taking each byte of the 16-byte $S$ array and substituting it with a byte from an array called **Rijndael’s S-box**. Each byte has a unique transformation, and a new state of $S$ is produced as a result. Rijndael's S-box is displayed in *Figure 3*.
 
 *Figure 3: Rijndael's S-Box*
 
-![Figure 3: Rijndael's S-Box](assets/Figure5-3.webp "Figure 3: Rijndael's S-Box")
+|     | 00  | 01  | 02  | 03  | 04  | 05  | 06  | 07  | 08  | 09  | 0A  | 0B  | 0C  | 0D  | 0E  | 0F  |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 00  | 63  | 7C  | 77  | 7B  | F2  | 6B  | 6F  | C5  | 30  | 01  | 67  | 2B  | FE  | D7  | AB  | 76  |
+| 10  | CA  | 82  | C9  | 7D  | FA  | 59  | 47  | F0  | AD  | D4  | A2  | AF  | 9C  | A4  | 72  | C0  |
+| 20  | B7  | FD  | 93  | 26  | 36  | 3F  | F7  | CC  | 34  | A5  | E5  | F1  | 71  | D8  | 31  | 15  |
+| 30  | 04  | C7  | 23  | C3  | 18  | 96  | 05  | 9A  | 07  | 12  | 80  | E2  | EB  | 27  | B2  | 75  |
+| 40  | 09  | 83  | 2C  | 1A  | 1B  | 6E  | 5A  | A0  | 52  | 3B  | D6  | B3  | 29  | E3  | 2F  | 84  |
+| 50  | 53  | D1  | 00  | ED  | 20  | FC  | B1  | 5B  | 6A  | CB  | BE  | 39  | 4A  | 4C  | 58  | CF  |
+| 60  | D0  | EF  | AA  | FB  | 43  | 4D  | 33  | 85  | 45  | F9  | 02  | 7F  | 50  | 3C  | 9F  | A8  |
+| 70  | 51  | A3  | 40  | 8F  | 92  | 9D  | 38  | F5  | BC  | B6  | DA  | 21  | 10  | FF  | F3  | D2  |
+| 80  | CD  | 0C  | 13  | EC  | 5F  | 97  | 44  | 17  | C4  | A7  | 7E  | 3D  | 64  | 5D  | 19  | 73  |
+| 90  | 60  | 81  | 4F  | DC  | 22  | 2A  | 90  | 88  | 46  | EE  | B8  | 14  | DE  | 5E  | 0B  | DB  |
+| A0  | E0  | 32  | 3A  | 0A  | 49  | 06  | 24  | 5C  | C2  | D3  | AC  | 62  | 91  | 95  | E4  | 79  |
+| B0  | E7  | C8  | 37  | 6D  | 8D  | D5  | 4E  | A9  | 6C  | 56  | F4  | EA  | 65  | 7A  | AE  | 08  |
+| C0  | BA  | 78  | 25  | 2E  | 1C  | A6  | B4  | C6  | E8  | DD  | 74  | 1F  | 4B  | BD  | 8B  | 8A  |
+| D0  | 70  | 3E  | B5  | 66  | 48  | 03  | F6  | 0E  | 61  | 35  | 57  | B9  | 86  | C1  | 1D  | 9E  |
+| E0  | E1  | F8  | 98  | 11  | 69  | D9  | 8E  | 94  | 9B  | 1E  | 87  | E9  | CE  | 55  | 28  | DF  |
+| F0  | 8C  | A1  | 89  | 0D  | BF  | E6  | 42  | 68  | 41  | 99  | 2D  | 0F  | B0  | 54  | BB  | 16  |
 
-This S-Box is one place where abstract algebra comes into play in the Rijndael cipher, specifically Galois fields. 
 
-To start, you define each possible byte element 00 through FF as an 8-bit vector. Each such vector is an element of the Galois field GF(2<sup>8</sup>) where the irreducible polynomial for the modulo operation is x<sup>8</sup> + x<sup>4</sup> + x<sup>3</sup> + x + 1. The Galois field with these specifications is also called Rijndael’s Finite Field. 
+This S-Box is one place where abstract algebra comes into play in the Rijndael cipher, specifically **Galois fields**.
 
-Next, for each possible element in the field we create what is called the **Nyberg S-Box**. In this box, each byte is mapped onto its multiplicative inverse (i.e., so that their product equals 1). We, then, map those values from the Nyberg S-box to Rijndael’s S-Box using the affine transformation. 
+To start, you define each possible byte element 00 through FF as an 8-bit vector. Each such vector is an element of the **Galois field GF(2^8)** where the irreducible polynomial for the modulo operation is $x^8 + x^4 + x^3 + x + 1$. The Galois field with these specifications is also called **Rijndael’s Finite Field**.
 
-The third operation on the S array is the shift rows operation. It takes the state of S and lists all of the sixteen bytes in a matrix. The filling of the matrix starts on the top left and works its way around by going from top to bottom and then, each time a column is filled, shifting one column right and to the top. 
+Next, for each possible element in the field, we create what is called the **Nyberg S-Box**. In this box, each byte is mapped onto its **multiplicative inverse** (i.e., so that their product equals 1). We then map those values from the Nyberg S-box to Rijndael’s S-Box using the **affine transformation**.
 
-Once the matrix of S has been constructed, the four rows are shifted. The first row stays the same. The second row moves one over to the left. The third moves two over to the left. The fourth moves three over to the left. An example of the process is provided in *Figure 4*. The original state of S is shown on the top, the resultant state after the shift rows operation is shown below it.
+The third operation on the **S** array is the **shift rows** operation. It takes the state of **S** and lists all of the sixteen bytes in a matrix. The filling of the matrix starts on the top left and works its way around by going from top to bottom and then, each time a column is filled, shifting one column right and to the top.
+
+Once the matrix of **S** has been constructed, the four rows are shifted. The first row stays the same. The second row moves one over to the left. The third moves two over to the left. The fourth moves three over to the left. An example of the process is provided in *Figure 4*. The original state of **S** is shown on the top, and the resultant state after the shift rows operation is shown below it.
 
 *Figure 4: Shift rows operation*
 
-![Figure 4: Shift rows operation](assets/Figure5-4.webp "Figure 4: Shift rows operation")
+| F1   | A0   | B1   | 23   |
+|------|------|------|------|
+| 59   | EF   | 09   | 82   |
+| 97   | 01   | B0   | CC   |
+| D4   | 72   | 04   | 21   |
 
-In the fourth step, Galois fields make an appearance again. To start, each column of the S matrix is multiplied by the column of the 4 x 4 matrix seen in *Figure 5*. But instead of being regular matrix multiplication, it is vector multiplication modulo an irreducible polynomial, x<sup>8</sup> + x<sup>4</sup> + x<sup>3</sup> + x + 1. The resulting vector coefficients represent the individual bits of a byte. 
+| F1   | A0   | B1   | 23   |
+|------|------|------|------|
+| EF   | 09   | 82   | 59   |
+| B0   | CC   | 97   | 01   |
+| 21   | D4   | 72   | 04   |
+
+
+In the fourth step, **Galois fields** make an appearance again. To start, each column of the **S** matrix is multiplied by the column of the 4 x 4 matrix seen in *Figure 5*. But instead of being regular matrix multiplication, it is vector multiplication **modulo an irreducible polynomial**, $x^8 + x^4 + x^3 + x + 1$. The resulting vector coefficients represent the individual bits of a byte.
 
 *Figure 5: Mix columns matrix*
 
-![Figure 5: Mix columns matrix](assets/Figure5-5.webp "Figure 5: Mix columns matrix")
+| 02   | 03   | 01   | 01   |
+|------|------|------|------|
+| 01   | 02   | 03   | 01   |
+| 01   | 01   | 02   | 03   |
+| 03   | 01   | 01   | 02   |
 
-Multiplication of the first column of the S matrix with the 4 x 4 matrix above yields the result in *Figure 6*. 
+Multiplication of the first column of the **S** matrix with the 4 x 4 matrix above yields the result in *Figure 6*.
 
-*Figure 6: Multiplication of the first column*
+*Figure 6: Multiplication of the first column:*
 
-![Figure 6: Multiplication of the first column](assets/Figure5-6.webp "Figure 6: Multiplication of the first column")
+$$
+\begin{matrix}
+02 \cdot F1 + 03 \cdot EF + 01 \cdot B0 + 01 \cdot 21 \\
+01 \cdot F1 + 02 \cdot EF + 03 \cdot B0 + 01 \cdot 21 \\
+01 \cdot F1 + 01 \cdot EF + 02 \cdot B0 + 03 \cdot 21 \\
+03 \cdot F1 + 01 \cdot EF + 01 \cdot B0 + 02 \cdot 21
+\end{matrix}
+$$
 
-As a next step, all the terms in the matrix would have to be turned into polynomials. For instance, F1 represents 1 byte and would become x<sup>7</sup> + x<sup>6</sup> + x<sup>5</sup> + x<sup>4</sup> + 1 and 03 represents 1 byte and would become x + 1. 
+As a next step, all the terms in the matrix would have to be turned into polynomials. For instance, F1 represents 1 byte and would become $x^7 + x^6 + x^5 + x^4 + 1$, and 03 represents 1 byte and would become $x + 1$.
 
-All the multiplications are, then, performed modulo x<sup>8</sup> + x<sup>4</sup> + x<sup>3</sup> + x + 1. This results with the addition of four polynomials in each of the four cells of the column. After performing those additions modulo 2, you will end up with four polynomials. Each of these polynomials represents an 8-bit string, or 1 byte, of S. We will not perform all these calculations here on the matrix in *Figure 6* as they are extensive. 
+All the multiplications are then performed **modulo** $x^8 + x^4 + x^3 + x + 1$. This results in the addition of four polynomials in each of the four cells of the column. After performing those additions **modulo 2**, you will end up with four polynomials. Each of these polynomials represents an 8-bit string, or 1 byte, of **S**. We will not perform all these calculations here on the matrix in *Figure 6* as they are extensive.
 
-Once the first column has been processed, the other three columns of the S matrix are processed in the same manner. Eventually this will yield a matrix with sixteen bytes that can be transformed into an array. 
+Once the first column has been processed, the other three columns of the **S** matrix are processed in the same manner. Eventually, this will yield a matrix with sixteen bytes that can be transformed into an array.
 
-As a final step, the array S is combined wtih the round key again in an XOR operation. This produces the state S<sub>1</sub>. That is,
+As a final step, the array **S** is combined with the round key again in an **XOR** operation. This produces the state $S_1$. That is,
 
-- S<sub>1</sub> = S XOR K<sub>0</sub>
+- $S_1 = S \oplus K_0$
 
 ### Rounds 2 through 10
 
-Rounds 2 through 9 are just a repetition of round 1, *mutatis mutandis*. The final round looks very similar to the previous rounds, except that the mix columns step is eliminated. That is, round 10 is executed as follows:
+Rounds 2 through 9 are just a repetition of round 1, *mutatis mutandis*. The final round looks very similar to the previous rounds, except that the **mix columns** step is eliminated. That is, round 10 is executed as follows:
 
-- S<sub>9</sub> XOR K<sub>10</sub>
+- $S_9 \oplus K_{10}$
 - Byte Substitution
 - Shift Rows
-- S<sub>10</sub> = S XOR K<sub>10</sub>
+- $S_{10} = S \oplus K_{10}$
 
-The state S<sub>10</sub> is now set to C<sub>1</sub>, the first 128 bits of the ciphertext. Proceeding through the remaining 128-bit plaintext blocks yields the full ciphertext C. 
+The state $S_{10}$ is now set to $C_1$, the first 128 bits of the ciphertext. Proceeding through the remaining 128-bit plaintext blocks yields the full ciphertext **C**.
 
 ### The operations of the Rijndael cipher
 

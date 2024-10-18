@@ -1765,17 +1765,18 @@ According to their own accounts and that of GCHQ, it was James Ellis who first d
 ## Asymmetric encryption and authentication
 <chapterId>2f6f0f03-3c3d-5025-90f0-5211139bc0cc</chapterId>
 
-An overview of asymmetric encryption with the help of Bob and Alice is provided in *Figure 1*.
+An overview of **asymmetric encryption** with the help of Bob and Alice is provided in *Figure 1*.
 
-Alice first creates a pair of keys, consisting of one public key (K<sub>P</sub>) and one private key (K<sub>S</sub>), where the “P” in K<sub>P</sub> stands for “public” and the “S” in K<sub>S</sub> for “secret”. She, then, distributes this public key freely to others. We will return to the details of this distribution process a little later. But for now assume that anyone, including Bob, can securely obtain Alice’s public key K<sub>P</sub>.
+Alice first creates a pair of keys, consisting of one public key ($K_P$) and one private key ($K_S$), where the “P” in $K_P$ stands for “public” and the “S” in $K_S$ for “secret”. She then distributes this public key freely to others. We will return to the details of this distribution process a little later. But for now, assume that anyone, including Bob, can securely obtain Alice’s public key $K_P$.
 
-At some later point, Bob wants to write a message M to Alice. As it includes sensitive information, however, he wants the contents to remain secret for everyone but Alice. So, Bob first encrypts his message M using K<sub>P</sub>. He then sends the resulting ciphertext C to Alice, who decrypts C with K<sub>S</sub> to produce the original message M.
+At some later point, Bob wants to write a message $M$ to Alice. As it includes sensitive information, he wants the contents to remain secret for everyone but Alice. So, Bob first encrypts his message $M$ using $K_P$. He then sends the resulting ciphertext $C$ to Alice, who decrypts $C$ with $K_S$ to produce the original message $M$.
 
 *Figure 1: Asymmetric encryption*
 
 ![Figure 1: Asymmetric encryption](assets/Figure6-1.webp "Figure 1: Asymmetric encryption")
 
-Any adversary that listens in on Bob and Alice’s communication can observe C. She also knows K<sub>P</sub> and the encryption algorithm E(·). Importantly, however, this information does not allow the attacker to feasibly decrypt the ciphertext C. Decryption specifically requires K<sub>S</sub>, which the attacker does not possess.
+
+Any adversary that listens in on Bob and Alice’s communication can observe $C$. She also knows $K_P$ and the encryption algorithm $E(\cdot)$. Importantly, however, this information does not allow the attacker to feasibly decrypt the ciphertext $C$. Decryption specifically requires $K_S$, which the attacker does not possess.
 
 Symmetric encryption schemes generally need to be secure against an attacker that can validly encrypt plaintext messages (known as chosen-ciphertext attack security). It is not designed, however, with the explicit purpose of allowing the creation of such valid ciphertexts by an attacker or anyone else. 
 
@@ -1789,7 +1790,9 @@ An asymmetric encryption scheme is, roughly speaking, a digital version of this 
 
 For authentication in the asymmetric setting, we use **digital signatures**. These, thus, have the same function as message authentication codes in the symmetric setting. An overview of digital signatures is provided in *Figure 2*.
 
-Bob first creates a pair of keys, consisting of the public key (K<sub>P</sub>) and the private key (K<sub>S</sub>), and distributes his public key. When he wants to send an authenticated message to Alice, he first takes his message M and his private key to create a digital signature D. Bob, then, sends Alice his message together with the digital signature. Alice inserts the message, the public key, and the digital signature into a verification algorithm. This algorithm produces either true for a valid signature, or false for an invalid signature. 
+Bob first creates a pair of keys, consisting of the public key ($K_P$) and the private key ($K_S$), and distributes his public key. When he wants to send an authenticated message to Alice, he first takes his message $M$ and his private key to create a **digital signature** $D$. Bob then sends Alice his message together with the digital signature.
+
+Alice inserts the message, the public key, and the digital signature into a **verification algorithm**. This algorithm produces either **true** for a valid signature, or **false** for an invalid signature.
 
 A digital signature is, as the name clearly implies, the digital equivalent of a written signature on letters, contracts, and so on. In fact, a digital signature is usually much more secure. With some effort, you can falsify a written signature; a process made easier by the fact that written signatures are frequently not closely verified. A secure digital signature, however, is, just as a secure message authentication code, **existentially unforgeable**: that is, with a secure digital signature scheme, no one can feasibly create a signature for a message which passes the verification procedure, unless they have the private key. 
 
@@ -1797,17 +1800,18 @@ A digital signature is, as the name clearly implies, the digital equivalent of a
 
 ![Figure 2: Asymmetric authentication](assets/Figure6-2.webp "Figure 2: Asymmetric authentication")
 
-As with asymmetric encryption, we see an interesting contrast between digital signatures and message authentication codes. For the latter, the verification algorithm can only be employed by one of the parties privy to the secure communication. This is because it requires a private key. In the asymmetric setting, however, anyone can verify a digital signature S made by Bob. 
 
-All this makes digital signatures an extremely powerful tool. It forms the basis, for instance, of creating signatures on contracts that can be verified for legal purposes. If Bob had made a signature on a contract in the exchange above, Alice can show the message M, the contract, and the signature S to a court of law. The court of law can, then, verify the signature using Bob’s public key.<sup>[5](#footnote5)</sup>
+As with asymmetric encryption, we see an interesting contrast between digital signatures and message authentication codes. For the latter, the verification algorithm can only be employed by one of the parties privy to the secure communication. This is because it requires a private key. In the asymmetric setting, however, anyone can verify a digital signature $S$ made by Bob. 
 
-For another example, digital signatures are an important aspect to secure software and software update distribution. This type of public verifiability could never be created using just message authentication codes. 
+All this makes digital signatures an extremely powerful tool. It forms the basis, for instance, of creating signatures on contracts that can be verified for legal purposes. If Bob had made a signature on a contract in the exchange above, Alice can show the message $M$, the contract, and the signature $S$ to a court of law. The court of law can, then, verify the signature using Bob’s public key. [5]
+
+For another example, digital signatures are an important aspect of secure software and software update distribution. This type of public verifiability could never be created using just message authentication codes. 
 
 As a last example of the power of digital signatures, consider Bitcoin. One of the most common misconceptions about Bitcoin, particularly in the media, is that transactions are encrypted: they are not. Instead, Bitcoin transactions work with digital signatures for ensuring security.  
 
-Bitcoins exist in batches called unspent transaction outputs (or UTXO’s). Suppose you receive three payments on a particular Bitcoin address for 2 bitcoins each. You technically do not now have 6 bitcoins on that address. Instead, you have three batches of 2 bitcoins that are locked by a cryptographic problem associated with that address. For any payment you make, you can use one, two, or all three of these batches, depending on how much you need for the transaction. 
+Bitcoins exist in batches called unspent transaction outputs (or **UTXO’s**). Suppose you receive three payments on a particular Bitcoin address for 2 bitcoins each. You technically do not now have 6 bitcoins on that address. Instead, you have three batches of 2 bitcoins that are locked by a cryptographic problem associated with that address. For any payment you make, you can use one, two, or all three of these batches, depending on how much you need for the transaction. 
 
-The proof of ownership over unspent transaction outputs is usually shown via one or more digital signatures. Bitcoin works precisely because valid digital signatures on unspent transaction outputs are computationally infeasible to make, unless you are in possession of the secret information required to make them. 
+The proof of ownership over unspent transaction outputs is usually shown via one or more digital signatures. Bitcoin works precisely because valid digital signatures on unspent transaction outputs are computationally infeasible to make, unless you are in possession of the secret information required to make them.
 
 Currently, Bitcoin transactions transparently include all the information that needs to be verified by participants in the network, such as the origins of the unspent transaction outputs used in the transaction. While it is possible to hide some of that information and still allow for verification (as some alternative cryptocurrencies such as Monero do), this also creates particular security risks. 
 
@@ -1832,6 +1836,11 @@ The key to understanding this process with TLS/SSL certificates is that, while y
 Hence, when Jim’s Sporting Goods provides you with its TLS/SSL certificate, you can verify the certificate authority’s digital signature via a root certificate in your browser or operating system. If the signature is valid, you can be relatively sure that the public key on the certificate indeed belongs to Jim’s Sporting Goods. On this basis, it is easy to set up a protocol for secure communication with Jim’s Sporting Goods. 
 
 Key distribution has now become vastly simpler for Jim’s Sporting Goods. It is not hard to see that key management has also become greatly simplified. Instead of having to store thousands of keys, Jim’s Sporting Goods merely needs to store a private key that allows it to make signatures for the public key on its SSL certificate. Each time a customer comes to Jim’s Sporting Goods’s site, they can establish a secure communication session from this public key. Customers also do not need to store any information (other than the public keys of recognized certificate authorities in their operating system and browser).  
+
+**Notes:**
+
+[5] Any schemes attempting to achieve non-repudiation, the other theme we discussed in Chapter 1, will at its basis need to involve digital signatures.
+
 
 
 ## Hash functions

@@ -1858,18 +1858,20 @@ In the context of crypgraphy, a “hash function” typically refers to a crypto
 
 An example of a popular hash function is **SHA-256** (secure hash algorithm 256). Regardless of the size of the input (e.g., 15 bits, 100 bits, or 10,000 bits), this function will yield a 256-bit hash value. Below you can see a few example outputs of the SHA-256 function.
 
-* “Hello”: 185f8db32271fe25f561a6fc938b2e264306ec304eda518007d1764826381969
-* “52398”: a3b14d2bf378c1bd47e7f8eaec63b445150a3d7a80465af16dd9fd319454ba90
-* “Cryptography is fun”: 3cee2a5c7d2cc1d62db4893564c34ae553cc88623992d994e114e344359b146c
+“Hello”: `185f8db32271fe25f561a6fc938b2e264306ec304eda518007d1764826381969`
+
+“52398”: `a3b14d2bf378c1bd47e7f8eaec63b445150a3d7a80465af16dd9fd319454ba90`
+
+“Cryptography is fun”: `3cee2a5c7d2cc1d62db4893564c34ae553cc88623992d994e114e344359b146c`
 
 All the outputs are exactly 256 bits written out in hexadecimal format (each hex digit can be represented by four binary digits). So even if you had inserted Tolkien’s *The Lord of the Rings* book into the SHA-256 function, the output would still be 256 bits. 
 
-Hash functions such as SHA-256 are employed to various ends in cryptography. Which properties are required from a hash function really depends on the context of a particular application. There are two main properties generally desired of hash functions in cryptography:<sup>[6](#footnote6)</sup>
+Hash functions such as SHA-256 are employed to various ends in cryptography. Which properties are required from a hash function really depends on the context of a particular application. There are two main properties generally desired of hash functions in cryptography: [6]
 
 1.	Collision-resistance
 2.	Hiding
 
-A hash function H is said to be **collision-resistant** if it is infeasible to find two values, x and y, such that x ≠ y, yet H(x) = H(y). 
+A hash function $H$ is said to be **collision-resistant** if it is infeasible to find two values, $x$ and $y$, such that $x \neq y$, yet $H(x) = H(y)$.
 
 Collision-resistant hash functions are important, for instance, in the verification of software. Suppose that you wanted to download the Windows release of Bitcoin Core 0.21.0 (a server application for processing Bitcoin network traffic). The main steps you would have to take, in order to verify the legitimacy of the software, are as follows: 
 
@@ -1888,11 +1890,11 @@ If you diligently verified the public keys you imported, then you can be fairly 
 
 Suppose the signatures on the release file you downloaded check out. You can now compare the hash value you calculated locally for the Windows executable you downloaded with that included in the properly signed release file. As you know the SHA-256 hash function is collion resistant, a match means that your executable is exactly the same as the official executable. 
 
-Lets now turn to the second common property of hash functions: hiding. Any hash function H is said to have the property of hiding, if, for any randomly selected x from a very large range, it is infeasable to find x when only given H(x). 
+Let's now turn to the second common property of hash functions: **hiding**. Any hash function $H$ is said to have the property of hiding if, for any randomly selected $x$ from a very large range, it is infeasible to find $x$ when only given $H(x)$.
 
 Below, you can see the SHA-256 output of a message I wrote. To ensure sufficient randomness, the message included a randomly generated string of characters at the end. Given that SHA-256 has the hiding property, no one would be able to decipher this message. 
 
-* b194221b37fa4cd1cfce15aaef90351d70de17a98ee6225088b523b586c32ded
+- `b194221b37fa4cd1cfce15aaef90351d70de17a98ee6225088b523b586c32ded`
 
 But I will not leave you in suspense until SHA-256 becomes weaker. The original message I wrote was as follows:
 
@@ -1907,18 +1909,9 @@ Sometimes an application might need a hash function which has both collision res
 While collision resistance and hiding are the main properties sought of hash functions in cryptography, in certain applications other types of properties might also be desirable. 
 
 
-### Notes
-[^1]: Whitfield Diffie and Martin Hellman, “New directions in cryptography,” *IEEE Transactions on Information Theory* IT-22 (1976), pp. 644–654, at p. 644 [^1].
+**Notes:**
 
-[^2]: Ralph Merkle also discusses a key exchange protocol in “Secure communications over insecure channels”, *Communications of the Association for Computing Machinery*, 21 (1978), 294–99. While Merkle actually submitted this paper before the paper by Diffie and Hellman, it was published later. Merkle’s solution is not exponentially secure, unlike Diffie-Hellman’s [^2].
-
-[^3]: Ron Rivest, Adi Shamir, and Leonard Adleman, “A method for obtaining digital signatures and public-key cryptosystems”, *Communications of the Association for Computing Machinery*, 21 (1978), pp. 120–26 [^3].
-
-[^4]: A good history of these discoveries is provided by Simon Singh, *The Code Book*, Fourth Estate (London, 1999), Chapter 6 [^4].
-
-[^5]: Any schemes attempting to achieve non-repudiation, the other theme we discussed in *Chapter 1*, will at its basis need to involve digital signatures [^5].
-
-[^6]: The “hiding” terminology is not common language, but taken specifically from Arvind Narayanan, Joseph Bonneau, Edward Felten, Andrew Miller, and Steven Goldfeder, *Bitcoin and Cryptocurrency Technologies*, Princeton University Press (Princeton, 2016), Chapter 1 [^6].
+[6] The “hiding” terminology is not common language, but taken specifically from Arvind Narayanan, Joseph Bonneau, Edward Felten, Andrew Miller, and Steven Goldfeder, *Bitcoin and Cryptocurrency Technologies*, Princeton University Press (Princeton, 2016), Chapter 1.
 
 
 # The RSA cryptosystem

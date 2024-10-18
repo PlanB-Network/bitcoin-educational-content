@@ -1278,13 +1278,13 @@ Message authentication codes are defined loosely as symmetric cryptographic sche
 
 Bob and Alice can combat the manipulation of a particular message using a MAC. Suppose for the moment that they do not care about secrecy. They only want to ensure that the message received by Alice was indeed from Bob and not changed in any way. 
 
-The process is depicted in *Figure 9*. To use a MAC, they would first generate a private key K that is shared between the two of them. Bob creates a tag T for the message using the private key K. He, then, sends the message as well as the message tag to Alice. She can, then, verify that Bob indeed made the tag, by running the private key, the message, and the tag through a verification algorithm. 
+The process is depicted in *Figure 9*. To use a **MAC** (Message Authentication Code), they would first generate a private key $K$ that is shared between the two of them. Bob creates a tag $T$ for the message using the private key $K$. He then sends the message as well as the message tag to Alice. She can then verify that Bob indeed made the tag, by running the private key, the message, and the tag through a verification algorithm.
 
 *Figure 9: Overview of symmetric encryption schemes*
 
 ![Figure 9: Overview of symmetric encryption schemes](assets/Figure4-9.webp "Figure 9: Overview of symmetric encryption schemes")
 
-Due to existential unforgeability, an attacker cannot alter the message M in any way or create a message of her own with a valid tag. This is so, even if the attacker observes the tags of many messages between Bob and Alice that uses the same private key. At most, an attacker could block Alice from receiving the message M (a problem which cryptography cannot address). 
+Due to **existential unforgeability**, an attacker cannot alter the message $M$ in any way or create a message of her own with a valid tag. This is so, even if the attacker observes the tags of many messages between Bob and Alice that use the same private key. At most, an attacker could block Alice from receiving the message $M$ (a problem which cryptography cannot address).
 
 A MAC guarantees that a message was actually created by Bob. This authenticity, automatically implies message integrity—that is, if Bob has created some message, then, ipso facto, it was not altered in any way by an attacker. So from here on out, any concern for authentication should be automatically understood to imply a concern for integrity. 
 

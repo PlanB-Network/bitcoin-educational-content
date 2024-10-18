@@ -1167,7 +1167,7 @@ The first way that a **block cipher** is commonly understood is as something mor
 
 Frequently, a block cipher can take input strings of varying lengths such as 64, 128, or 256 bits, as well as keys of varying lengths such as 128, 192, or 256 bits. Though some details of the algorithm might change depending on these variables, the core algorithm does not change. If it did, we would speak of two different block ciphers. Note that the use of the core algorithm terminology here is the same as for encryption schemes. 
 
-A depiction of how a block cipher works can be seen in *Figure 4* below. A message M of length L and a key K serve as inputs to the Block cipher. It outputs a message M’ of length L. The key does not necessarily need to be the same length as M and M’ for most block ciphers. 
+A depiction of how a block cipher works can be seen in *Figure 4* below. A message $M$ of length $L$ and a key $K$ serve as inputs to the Block cipher. It outputs a message $M'$ of length $L$. The key does not necessarily need to be the same length as $M$ and $M'$ for most block ciphers.
 
 *Figure 4: A block cipher*
 
@@ -1183,15 +1183,15 @@ To illustrate how this works, suppose a block cipher (BC) that requires a 128-bi
 
 The process for electronic code book encryption with the block cipher is as follows. See if you can divide your plaintext message into 128-bit blocks. If not, add **padding** to the message, so that the result can be evenly divided by the block size of 128 bits. This is your data used for the encryption process.
 
-Now split the data into chunks of 128-bit strings (M<sub>1</sub>, M<sub>2</sub>, M<sub>3</sub>, and so on). Run each 128-bit string through the block cipher with your 128-bit key to produce 128-bit chunks of ciphertext (C<sub>1</sub>, C<sub>2</sub>, C<sub>3</sub>, and so on). These chunks re-combined form the full ciphertext. 
+Now split the data into chunks of 128-bit strings ($M_1$, $M_2$, $M_3$, and so on). Run each 128-bit string through the block cipher with your 128-bit key to produce 128-bit chunks of ciphertext ($C_1$, $C_2$, $C_3$, and so on). These chunks, when re-combined, form the full ciphertext.
 
-Decryption is just the reverse process, although the recipient does need some recognizable way to strip any padding from the decrypted data to produce the original plaintext message.  
+Decryption is just the reverse process, although the recipient does need some recognizable way to strip any padding from the decrypted data to produce the original plaintext message.
 
-Though relatively straightforward, a block cipher with electronic code book mode lacks in security. This is because it leads to **deterministic encryption**. Any two identical 128-bit strings of data are encrypted exactly the same way. That information can be exploited.
+Though relatively straightforward, a block cipher with electronic code book mode lacks security. This is because it leads to **deterministic encryption**. Any two identical 128-bit strings of data are encrypted exactly the same way. That information can be exploited.
 
-Instead, any encryption scheme constructed from a block cipher should be **probabilistic**: that is, the encryption of any message M, or any specific chunk of M, should generally yield a different outcome each time.<sup>[5](#footnote5)</sup> 
+Instead, any encryption scheme constructed from a block cipher should be **probabilistic**: that is, the encryption of any message $M$, or any specific chunk of $M$, should generally yield a different outcome each time. [5]
 
-The **cipher block chaining mode** (**CBC mode**) is probably the most common mode used with a block cipher. The combination, if done right, produces a probabilistic encryption scheme. You can see a depiction of this mode of operation in Figure 6 below. 
+The **cipher block chaining mode** (**CBC mode**) is probably the most common mode used with a block cipher. The combination, if done right, produces a probabilistic encryption scheme. You can see a depiction of this mode of operation in *Figure 6* below. 
 
 *Figure 6: A block cipher with CBC mode*
 
@@ -1225,9 +1225,17 @@ Some stream ciphers only use a private key to create a keystream. For those stre
 
 The most popular modern block cipher is the **Rijndael cipher**. It was the winning entry out of fifteen submissions to a competition held by the National Institute of Standards and Technology (NIST) between 1997 and 2000 in order to replace an older encryption standard, the **data encryption standard** (**DES**).
 
-The Rijndael cipher can be used with different specifications for key lengths and block sizes, as well as in different modes of operation. The committee for the NIST competition adopted a constricted version of the Rijndael cipher—namely one which requires 128-bit block sizes and key lengths of either 128 bits, 192 bits, or 256 bits—as part of the **advanced encryption standard** (**AES**). This is really the main standard for symmetric encryption applications. It is so secure that even the NSA is apparently willing to use it with 256-bit keys for top secret documents.<sup>[6](#footnote6)</sup>
+The Rijndael cipher can be used with different specifications for key lengths and block sizes, as well as in different modes of operation. The committee for the NIST competition adopted a constricted version of the Rijndael cipher—namely one which requires 128-bit block sizes and key lengths of either 128 bits, 192 bits, or 256 bits—as part of the **advanced encryption standard** (**AES**). This is really the main standard for symmetric encryption applications. It is so secure that even the NSA is apparently willing to use it with 256-bit keys for top secret documents. [6]
 
 The AES block cipher will be explained in detail in *Chapter 5*. 
+
+
+**Notes:**
+
+[5] The importance of probabilistic encryption was first emphasized by Shafi Goldwasser and Silvio Micali, “Probabilistic encryption,” _Journal of Computer and System Sciences_, 28 (1984), 270–99.
+
+[6] See NSA, "Commercial National Security Algorithm Suite", [https://apps.nsa.gov/iaarchive/programs/iad-initiatives/cnsa-suite.cfm](https://apps.nsa.gov/iaarchive/programs/iad-initiatives/cnsa-suite.cfm).
+
 
 
 ## Clearing up the confusion

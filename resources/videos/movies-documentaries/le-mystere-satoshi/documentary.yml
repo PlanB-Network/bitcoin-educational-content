@@ -1,6 +1,8 @@
 name: Le mystère Satoshi; enquête sur l'inventeur du bitcoin
-realisateur: Rémi forte & Julien Goetz
-published: 
-original language: fr
+director: Rémi Forte
+publication_date: 2021-11-17
+language:
+  - fr
 cover: cover.webp
 link: https://www.youtube.com/watch?v=0ETcLj5jBy4
+paid: false

@@ -680,77 +680,87 @@ Transactions in Bitcoin typically involve locking outputs to one or more public 
 ## Cyclic groups
 <chapterId>bfa5c714-7952-5fef-88b1-ca5b07edd886</chapterId>
 
-A major distinction we can draw is between a **finite** and an **infinite group**. The former has a finite number of elements, while the latter has an infinite number of elements. The number of elements in any finite group is known as the **order of the group**. All practical cryptography that involves the use of groups relies on finite (number-theoretic) groups. 
+A major distinction we can draw is between a **finite** and an **infinite group**. The former has a finite number of elements, while the latter has an infinite number of elements. The number of elements in any finite group is known as the **order of the group**. All practical cryptography that involves the use of groups relies on finite (number-theoretic) groups.
 
 Within public key cryptography, a certain class of finite Abelian groups known as cyclic groups are particularly important. In order to understand cyclic groups, we first need to understand the concept of group element exponentiation.
 
-Suppose a group G with a group operation ◌, and that a is an element of G. The expression a<sup>n</sup> should, then, be interpreted as the element a combined with itself a total of n – 1 times. For instance, a<sup>2</sup> means a ◌ a, a<sup>3</sup> means a ◌ a ◌ a, and so on. (Note that exponentiation here is not necessarily exponentiation in the standard arithmetic sense.)
+Suppose a group $G$ with a group operation $\circ$, and that $a$ is an element of $G$. The expression $a^n$ should, then, be interpreted as the element $a$ combined with itself a total of $n – 1$ times. For instance, $a^2$ means $a \circ a$, $a^3$ means $a \circ a \circ a$, and so on. (Note that exponentiation here is not necessarily exponentiation in the standard arithmetic sense.)
 
-Lets turn to an example. Suppose that G = 〈ℤ mod 7,+〉, and that our value for a equals 4. In this case, a<sup>2</sup> = [4 + 4 mod 7] = [8 mod 7] = 1 mod 7. Alternatively, a<sup>4</sup> would represent [4 + 4 + 4 + 4 mod 7] = [16 mod 7] = 2 mod 7.   
+Let's turn to an example. Suppose that $G = \langle \mathbb{Z} \mod 7, + \rangle$, and that our value for $a$ equals 4. In this case, $a^2 = [4 + 4 \mod 7] = [8 \mod 7] = 1 \mod 7$. Alternatively, $a^4$ would represent $[4 + 4 + 4 + 4 \mod 7] = [16 \mod 7] = 2 \mod 7$.
 
-Some Abelian groups have one or more elements, which can yield all other group elements through continued exponentiation. These elements are called **generators** or **primitive elements**. 
+Some Abelian groups have one or more elements, which can yield all other group elements through continued exponentiation. These elements are called **generators** or **primitive elements**.
 
-An important class of such groups is 〈ℤ* mod N, •〉, where N is a prime number. The notation ℤ* here means that the group contains all non-zero, positive integers less than N. Such a group, therefore, always has N – 1 elements. 
+An important class of such groups is $\langle \mathbb{Z}^* \mod N, \cdot \rangle$, where $N$ is a prime number. The notation $\mathbb{Z}^*$ here means that the group contains all non-zero, positive integers less than $N$. Such a group, therefore, always has $N – 1$ elements.
 
-Consider, for instance, G = 〈ℤ* mod 11, •〉. This group has the following elements: {1, 2, 3, 4, 5, 6, 7, 8, 9, 10}. The order of this group is 10 (which is indeed equal to 11 – 1).  
+Consider, for instance, $G = \langle \mathbb{Z}^* \mod 11, \cdot \rangle$. This group has the following elements: $\{1, 2, 3, 4, 5, 6, 7, 8, 9, 10\}$. The order of this group is 10 (which is indeed equal to $11 – 1$).
 
-Lets explore exponentiating the element 2 from this group. The calculations up until 2<sup>12</sup> are shown below. Note that on the left side of the equation, the exponent refers to group element exponentiation. In our particular example, this indeed involves arithmetic exponentiation on the right side of the equation (but it could have also involved, for instance, addition). To clarify, I have written out the repeated operation, rather than the exponent form on the right side.   
+Let's explore exponentiating the element 2 from this group. The calculations up until $2^{12}$ are shown below. Note that on the left side of the equation, the exponent refers to group element exponentiation. In our particular example, this indeed involves arithmetic exponentiation on the right side of the equation (but it could have also involved, for instance, addition). To clarify, I have written out the repeated operation, rather than the exponent form on the right side.
 
-* 2<sup>1</sup> = 2 mod 11 
-* 2<sup>2</sup> = 2 · 2 mod 11 = 4 mod 11
-* 2<sup>3</sup> = 2 · 2 · 2 mod 11 = 8 mod 11
-* 2<sup>4</sup> = 2 · 2 · 2 · 2 mod 11 = 16 mod 11 = 5 mod 11
-* 2<sup>5</sup> = 2 · 2 · 2 · 2 · 2 mod 11 = 32 mod 11 = 10 mod 11
-* 2<sup>6</sup> = 2 · 2 · 2 · 2 · 2 · 2 mod 11 = 64 mod 11 = 9 mod 11
-* 2<sup>7</sup> = 2 · 2 · 2 · 2 · 2 · 2 · 2 mod 11 = 128 mod 11 = 7 mod 11
-* 2<sup>8</sup> = 2 · 2 · 2 · 2 · 2 · 2 · 2 · 2 mod 11 = 256 mod 11 = 3 mod 11
-* 2<sup>9</sup> = 2 · 2 · 2 · 2 · 2 · 2 · 2 · 2 · 2 mod 11 = 512 mod 11 = 6 mod 11
-* 2<sup>10</sup> = 2 · 2 · 2 · 2 · 2 · 2 · 2 · 2 · 2 · 2 mod 11 = 1024 mod 11 = 1 mod 11
-* 2<sup>11</sup> = 2 · 2 · 2 · 2 · 2 · 2 · 2 · 2 · 2 · 2 · 2 mod 11 = 2048 mod 11 = 2 mod 11
-* 2<sup>12</sup> = 2 · 2 · 2 · 2 · 2 · 2 · 2 · 2 · 2 · 2 · 2 · 2 mod 11 = 4096 mod 11 = 4 mod 11
+* $2^1 = 2 \mod 11$
+* $2^2 = 2 \cdot 2 \mod 11 = 4 \mod 11$
+* $2^3 = 2 \cdot 2 \cdot 2 \mod 11 = 8 \mod 11$
+* $2^4 = 2 \cdot 2 \cdot 2 \cdot 2 \mod 11 = 16 \mod 11 = 5 \mod 11$
+* $2^5 = 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \mod 11 = 32 \mod 11 = 10 \mod 11$
+* $2^6 = 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \mod 11 = 64 \mod 11 = 9 \mod 11$
+* $2^7 = 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \mod 11 = 128 \mod 11 = 7 \mod 11$
+* $2^8 = 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \mod 11 = 256 \mod 11 = 3 \mod 11$
+* $2^9 = 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \mod 11 = 512 \mod 11 = 6 \mod 11$
+* $2^{10} = 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \mod 11 = 1024 \mod 11 = 1 \mod 11$
+* $2^{11} = 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \mod 11 = 2048 \mod 11 = 2 \mod 11$
+* $2^{12} = 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \mod 11 = 4096 \mod 11 = 4 \mod 11$
 
-If you look carefully, you can see that performing exponentiation on the element 2 cycles through all the elements of 〈ℤ* mod 11, •〉 in the following order: 2, 4, 8, 5, 10, 9, 7, 3, 6, 1. After 2<sup>10</sup>, continued exponentiation of the element 2 cycles through all the elements again and in the same order. Hence, the element 2 is a generator in 〈ℤ* mod 11, •〉.
+If you look carefully, you can see that performing exponentiation on the element 2 cycles through all the elements of $\langle \mathbb{Z}^* \mod 11, \cdot \rangle$ in the following order: 2, 4, 8, 5, 10, 9, 7, 3, 6, 1. After $2^{10}$, continued exponentiation of the element 2 cycles through all the elements again and in the same order. Hence, the element 2 is a generator in $\langle \mathbb{Z}^* \mod 11, \cdot \rangle$.
 
-Though 〈ℤ* mod 11, •〉 has multiple generators, not all the elements of this group are generators. Consider, for example, the element 3. Running through the first 10 exponentiations, without showing the cumbersome calculations, yields the following results: 
+Though $\langle \mathbb{Z}^* \mod 11, \cdot \rangle$ has multiple generators, not all the elements of this group are generators. Consider, for example, the element 3. Running through the first 10 exponentiations, without showing the cumbersome calculations, yields the following results:
 
-* 3<sup>1</sup> = 3 mod 11 
-* 3<sup>2</sup> = 9 mod 11
-* 3<sup>3</sup> = 5 mod 11
-* 3<sup>4</sup> = 4 mod 11
-* 3<sup>5</sup> = 1 mod 11
-* 3<sup>6</sup> = 3 mod 11
-* 3<sup>7</sup> = 9 mod 11
-* 3<sup>8</sup> = 5 mod 11
-* 3<sup>9</sup> = 4 mod 11
-* 3<sup>10</sup> = 1 mod 11
+* $3^1 = 3 \mod 11$
+* $3^2 = 9 \mod 11$
+* $3^3 = 5 \mod 11$
+* $3^4 = 4 \mod 11$
+* $3^5 = 1 \mod 11$
+* $3^6 = 3 \mod 11$
+* $3^7 = 9 \mod 11$
+* $3^8 = 5 \mod 11$
+* $3^9 = 4 \mod 11$
+* $3^{10} = 1 \mod 11$
 
-Instead of cycling through all the values in 〈ℤ* mod 11, •〉, exponentiation of the element 3 only leads to a subset of those values: 3,9,5,4, and 1. After the fifth exponentiation, these values start repeating. 
+Instead of cycling through all the values in $\langle \mathbb{Z}^* \mod 11, \cdot \rangle$, exponentiation of the element 3 only leads to a subset of those values: 3, 9, 5, 4, and 1. After the fifth exponentiation, these values start repeating.
 
-We can now define a **cyclic group** as any group with at least one generator. That is, there is at least one group element from which you can produce all other group elements through exponentiation. 
+We can now define a **cyclic group** as any group with at least one generator. That is, there is at least one group element from which you can produce all other group elements through exponentiation.
 
-You may have noticed in our example above that both 2<sup>10</sup> and 3<sup>10</sup> equal 1 mod 11. In fact, though we will not perform the calculations, the exponentiation by 10 of any element in the group 〈ℤ* mod 11, •〉 will yield 1 mod 11. Why is this the case?
+You may have noticed in our example above that both $2^{10}$ and $3^{10}$ equal $1 \mod 11$. In fact, though we will not perform the calculations, the exponentiation by 10 of any element in the group $\langle \mathbb{Z}^* \mod 11, \cdot \rangle$ will yield $1 \mod 11$. Why is this the case?
 
-This is an important question, but it takes some work to answer. 
+This is an important question, but it takes some work to answer.
 
-To start, suppose two positive integers a and N. An important theorem in number theory states that a has a multiplicative inverse modulo N (that is, an integer b so that a • b = 1 mod N) if and only if the greatest common divisor between a and N equals 1. That is, if a and N are coprimes. 
+To start, suppose two positive integers $a$ and $N$. An important theorem in number theory states that $a$ has a multiplicative inverse modulo $N$ (that is, an integer $b$ so that $a \cdot b = 1 \mod N$) if and only if the greatest common divisor between $a$ and $N$ equals 1. That is, if $a$ and $N$ are coprimes.
 
-So, for any group of integers equipped with multiplication modulo N only the smaller coprimes with N are included in the set. We can denote this set by ℤ<sup>c</sup> mod N.
+So, for any group of integers equipped with multiplication modulo $N$, only the smaller coprimes with $N$ are included in the set. We can denote this set by $\mathbb{Z}^c \mod N$.
 
-For instance, suppose that N is 10. Only the integers 1,3,7, and 9 are coprimes with 10. So the set ℤ<sup>c</sup> mod 10 only includes {1,3,7,9}. You cannot create a group with integer multiplication modulo 10 using any other integers between 1 and 10. For this particular group, the inverses are the pairs 1 and 9, and 3 and 7.
+For instance, suppose that $N$ is 10. Only the integers 1, 3, 7, and 9 are coprimes with 10. So the set $\mathbb{Z}^c \mod 10$ only includes $\{1, 3, 7, 9\}$. You cannot create a group with integer multiplication modulo 10 using any other integers between 1 and 10. For this particular group, the inverses are the pairs 1 and 9, and 3 and 7.
 
-In the case where N itself is prime, all the integers from 1 through N – 1 are coprimes with N. Such a group, thus, has an order of N – 1. Using our earlier notation, ℤ<sup>c</sup> mod N equals ℤ* mod N when N is prime. The group we selected for our earlier example, 〈ℤ* mod 11, •〉, is a particular instance of this class of groups.
+In the case where $N$ itself is prime, all the integers from 1 through $N – 1$ are coprimes with $N$. Such a group, thus, has an order of $N – 1$. Using our earlier notation, $\mathbb{Z}^c \mod N$ equals $\mathbb{Z}^* \mod N$ when $N$ is prime. The group we selected for our earlier example, $\langle \mathbb{Z}^* \mod 11, \cdot \rangle$, is a particular instance of this class of groups.
 
-Next, the function φ(N) calculates the number of coprimes up until a number N, and is known as **Euler’s Phi function**.<sup>[1](#footnote1)</sup> According to **Euler’s Theorem**, whenever two integers a and N are coprimes, the following holds:
+Next, the function $\phi(N)$ calculates the number of coprimes up until a number $N$, and is known as **Euler’s Phi function**. [1] According to **Euler’s Theorem**, whenever two integers $a$ and $N$ are coprimes, the following holds:
 
-* a<sup>φ(N)</sup> mod N = 1 mod N
+* $a^{\phi(N)} \mod N = 1 \mod N$
 
-This has an important implication for the class of groups 〈ℤ* mod N, •〉 where N is prime. For these groups, group element exponentiation represents arithmetic exponentiation. That is, a<sup>φ(N)</sup> mod N represents the arithmetic operation a<sup>φ(N)</sup> mod N. As any element a in these multiplicative groups is coprime with N, it means that a<sup>φ(N)</sup> mod N = a<sup>N – 1</sup> mod N = 1 mod N. 
+This has an important implication for the class of groups $\langle \mathbb{Z}^* \mod N, \cdot \rangle$ where $N$ is prime. For these groups, group element exponentiation represents arithmetic exponentiation. That is, $a^{\phi(N)} \mod N$ represents the arithmetic operation $a^{\phi(N)} \mod N$. As any element $a$ in these multiplicative groups is coprime with $N$, it means that $a^{\phi(N)} \mod N = a^{N – 1} \mod N = 1 \mod N$.
 
-Euler’s theorem is a really important result. To start, it implies that all elements in 〈ℤ* mod N, •〉 can only cycle through a number of values by exponentiation that divides into N – 1. In the case of 〈ℤ* mod 11, •〉, this means that each element can only cycle through 2, 5, or 10 elements. The group values that any element cycles through upon exponentiation is known as the **order of the element**. An element with an order equivalent to the order of a group is a generator. 
+Euler’s theorem is a really important result. To start, it implies that all elements in $\langle \mathbb{Z}^* \mod N, \cdot \rangle$ can only cycle through a number of values by exponentiation that divides into $N – 1$. In the case of $\langle \mathbb{Z}^* \mod 11, \cdot \rangle$, this means that each element can only cycle through 2, 5, or 10 elements. The group values that any element cycles through upon exponentiation is known as the **order of the element**. An element with an order equivalent to the order of a group is a generator.
 
-Furthermore, Euler’s theorem implies that we can always know the result of a<sup>N – 1</sup> mod N for any group 〈ℤ* mod N, •〉 where N is prime. This is so regardless of how complicated the actual calculations might be. 
+Furthermore, Euler’s theorem implies that we can always know the result of $a^{N – 1} \mod N$ for any group $\langle \mathbb{Z}^* \mod N, \cdot \rangle$ where $N$ is prime. This is so regardless of how complicated the actual calculations might be.
 
-For instance, suppose our group is ℤ* mod 160,481,182 (where 160,481,182 is indeed a prime number). We know that all integers 1 through 160,481,181 must be elements of this group, and that φ(n) = 160,481,181. Though we can not make all the steps in the calculations, we know that expressions such as 514<sup>160,481,181</sup>, 2,005<sup>160,481,181</sup>, and 256,212<sup>160,481,181</sup> must all evaluate to 1 mod 160,481,182. 
+For instance, suppose our group is $\mathbb{Z}^* \mod 160,481,182$ (where 160,481,182 is indeed a prime number). We know that all integers 1 through 160,481,181 must be elements of this group, and that $\phi(n) = 160,481,181$. Though we cannot make all the steps in the calculations, we know that expressions such as $514^{160,481,181}$, $2,005^{160,481,181}$, and $256,212^{160,481,181}$ must all evaluate to $1 \mod 160,481,182$.
+
+**Notes:**
+
+[1] The function works as follows. Any integer $N$ can be factored into a product of primes. Suppose that a particular $N$ is factored as follows: $p_1^{e1} \cdot p_2^{e2} \cdot \ldots \cdot p_m^{em}$ where all the $p$’s are prime numbers and all the $e$’s are integers greater than or equal to 1. Then:
+
+$$
+\phi(N) = \sum_{i=1}^m \left[p_i^{e_i} - p_i^{e_i - 1}\right]
+$$
+
+Euler's Phi function formula for the prime factorization of $N$.
 
 
 ## Fields

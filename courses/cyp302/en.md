@@ -766,128 +766,132 @@ Euler's Phi function formula for the prime factorization of $N$.
 ## Fields
 <chapterId>fad52d86-3a22-5c9f-979e-3bec9eaa008e</chapterId>
 
-A group is the basic algebraic structure in abstract algebra, but there are many more. The only other algebraic structure you need to be familiar with is that of a field, specifically that of a finite field. This type of algebraic structure is frequently used in cryptography, such as in the Advanced Encryption Standard. The latter is the main symmetric encryption scheme that you will encounter in practice.  
+A group is the basic algebraic structure in abstract algebra, but there are many more. The only other algebraic structure you need to be familiar with is that of a **field**, specifically that of a **finite field**. This type of algebraic structure is frequently used in cryptography, such as in the Advanced Encryption Standard. The latter is the main symmetric encryption scheme that you will encounter in practice.
 
-A field is derived from the notion of a group. Specifically, a **field** is a set of elements **S** equipped with two binary operators ◌ and ◊, which meets the following conditions: 
+A field is derived from the notion of a group. Specifically, a **field** is a set of elements **S** equipped with two binary operators $\circ$ and $\diamond$, which meets the following conditions:
 
-1. The set **S** equipped with ◌ is an Abelian group. 
-2. The set **S** equipped with ◊ is an Abelian group for the “non-zero” elements. 
-3. The set **S** equipped with the two operators meets what is known as the distributive condition: Suppose that a, b, and c are elements of **S**. Then **S** equipped with the two operators meets the distributive property when a ◌ (b ◊ c) = a ◌ b ◊ a ◌ c. 
+1. The set **S** equipped with $\circ$ is an Abelian group.
+2. The set **S** equipped with $\diamond$ is an Abelian group for the “non-zero” elements.
+3. The set **S** equipped with the two operators meets what is known as the distributive condition: Suppose that $a$, $b$, and $c$ are elements of **S**. Then **S** equipped with the two operators meets the distributive property when $a \circ (b \diamond c) = (a \circ b) \diamond (a \circ c)$.
 
-Note that, as with groups, the definition of a field is very abstract. It makes no claims about the types of elements in **S**, or about the operations ◌ and ◊. It just states that a field is any set of elements with two operations for which the three above conditions hold. (The “zero” element in the second Abelian group can be abstractly interpreted.)
+Note that, as with groups, the definition of a field is very abstract. It makes no claims about the types of elements in **S**, or about the operations $\circ$ and $\diamond$. It just states that a field is any set of elements with two operations for which the three above conditions hold. (The “zero” element in the second Abelian group can be abstractly interpreted.)
 
-So what might be an example of a field? A good example is the set ℤ mod 7, or {0,1,…,7} defined over standard addition (in place of ◌ above) and standard multiplication (in place of ◊ above).
+So what might be an example of a field? A good example is the set $\mathbb{Z} \mod 7$, or $\{0, 1, \ldots, 7\}$ defined over standard addition (in place of $\circ$ above) and standard multiplication (in place of $\diamond$ above).
 
-First, ℤ mod 7 meets the condition for being an Abelian group over addition, and it meets the condition for being an Abelian group over multiplication if you only consider the non-zero elements. Second, the combination of the set with the two operators meets the distributive condition. 
+First, $\mathbb{Z} \mod 7$ meets the condition for being an Abelian group over addition, and it meets the condition for being an Abelian group over multiplication if you only consider the non-zero elements. Second, the combination of the set with the two operators meets the distributive condition.
 
-It is didactively worthwhile to explore these claims by using some particular values. Lets take the experimental values 5, 2, and 3, some randomly selected elements from the set ℤ mod 7, to inspect the field 〈ℤ mod 7, +, •〉. We will use these three values in order, as needed to explore particular conditions.  
+It is didactically worthwhile to explore these claims by using some particular values. Let's take the experimental values 5, 2, and 3, some randomly selected elements from the set $\mathbb{Z} \mod 7$, to inspect the field $\langle \mathbb{Z} \mod 7, +, \cdot \rangle$. We will use these three values in order, as needed to explore particular conditions.
 
-Let’s first explore if ℤ mod 7 equipped with addition is an Abelian group. 
+Let’s first explore if $\mathbb{Z} \mod 7$ equipped with addition is an Abelian group.
 
-1. Closure condition: Let’s take 5 and 2 as our values. In that case, [5 + 2] mod 7 = 7 mod 7 = 0. This is indeed an element of ℤ mod 7, so the result is consistent with the closure condition.  
-2. Associativity condition: Let’s take 5, 2, and 3 as our values. In that case, [(5 + 2) + 3] mod 7 = [5 + (2 + 3)] mod 7 = 10 mod 7 = 3. This is consistent with the associativity condition.  
-3. Identity condition: Let’s take 5 as our value. In that case, [5 + 0] mod 7 = [0 + 5] mod 7 = 5. So 0 looks to be the identity element for addition.   
-4. Inverse condition: Consider the inverse of 5. It needs to be the case that [5 + d] mod 7 = 0, for some value of d. In this case, the unique value from ℤ mod 7 that meets this condition is 2.  
-5. Commutativity condition: Let’s take 5 and 3 as our values. In that case, [5 + 3] mod 7 = [3 + 5] mod 7 = 1. This is consistent with the commutativity condition.
+1. **Closure condition**: Let’s take 5 and 2 as our values. In that case, $[5 + 2] \mod 7 = 7 \mod 7 = 0$. This is indeed an element of $\mathbb{Z} \mod 7$, so the result is consistent with the closure condition.
+2. **Associativity condition**: Let’s take 5, 2, and 3 as our values. In that case, $[(5 + 2) + 3] \mod 7 = [5 + (2 + 3)] \mod 7 = 10 \mod 7 = 3$. This is consistent with the associativity condition.
+3. **Identity condition**: Let’s take 5 as our value. In that case, $[5 + 0] \mod 7 = [0 + 5] \mod 7 = 5$. So 0 looks to be the identity element for addition.
+4. **Inverse condition**: Consider the inverse of 5. It needs to be the case that $[5 + d] \mod 7 = 0$, for some value of $d$. In this case, the unique value from $\mathbb{Z} \mod 7$ that meets this condition is 2.
+5. **Commutativity condition**: Let’s take 5 and 3 as our values. In that case, $[5 + 3] \mod 7 = [3 + 5] \mod 7 = 1$. This is consistent with the commutativity condition.
 
-The set ℤ mod 7 equipped with addition clearly appears to be an Abelian group. Let’s now explore if ℤ mod 7 equipped with multiplication is an Abelian group for all the non-zero elements.
+The set $\mathbb{Z} \mod 7$ equipped with addition clearly appears to be an Abelian group. Let’s now explore if $\mathbb{Z} \mod 7$ equipped with multiplication is an Abelian group for all the non-zero elements.
 
-1. Closure condition: Let’s take 5 and 2 as our values. In that case, [5 • 2] mod 7 = 10 mod 7 = 3. This is also an element of ℤ mod 7, so the result is consistent with the closure condition.  
-2. Associativity condition: Let’s take 5, 2, and 3 as our values. In that case, [(5 • 2) • 3] mod 7 = [5 • (2 • 3)] mod 7 = 30 mod 7 = 2. This is consistent with the associativity condition.  
-3. Identity condition: Let’s take 5 as our value. In that case, [5 • 1] mod 7 = [1 • 5] mod 7 = 5. So 1 looks to be the identity element for multiplication.   
-4. Inverse condition: Consider the inverse of 5. It needs to be the case that [5 • d] mod 7 = 1, for some value of d. The unique value from ℤ mod 7 that meets this condition is 3. This is consistent with the inverse condition. 
-5. Commutativity condition: Let’s take 5 and 3 as our values. In that case, [5 • 3] mod 7 = [3 • 5] mod 7 = 15 mod 7 = 1. This is consistent with the commutativity condition.
+1. **Closure condition**: Let’s take 5 and 2 as our values. In that case, $[5 \cdot 2] \mod 7 = 10 \mod 7 = 3$. This is also an element of $\mathbb{Z} \mod 7$, so the result is consistent with the closure condition.
+2. **Associativity condition**: Let’s take 5, 2, and 3 as our values. In that case, $[(5 \cdot 2) \cdot 3] \mod 7 = [5 \cdot (2 \cdot 3)] \mod 7 = 30 \mod 7 = 2$. This is consistent with the associativity condition.
+3. **Identity condition**: Let’s take 5 as our value. In that case, $[5 \cdot 1] \mod 7 = [1 \cdot 5] \mod 7 = 5$. So 1 looks to be the identity element for multiplication.
+4. **Inverse condition**: Consider the inverse of 5. It needs to be the case that $[5 \cdot d] \mod 7 = 1$, for some value of $d$. The unique value from $\mathbb{Z} \mod 7$ that meets this condition is 3. This is consistent with the inverse condition.
+5. **Commutativity condition**: Let’s take 5 and 3 as our values. In that case, $[5 \cdot 3] \mod 7 = [3 \cdot 5] \mod 7 = 15 \mod 7 = 1$. This is consistent with the commutativity condition.
 
-The set ℤ mod 7 clearly seems to meet the rules for being an Abelian group when conjoined with either addition or multiplication over the non-zero elements. 
+The set $\mathbb{Z} \mod 7$ clearly seems to meet the rules for being an Abelian group when conjoined with either addition or multiplication over the non-zero elements.
 
-Finally, this set combined with both operators seems to meet the distributive condition. Let’s take 5, 2, and 3 as our values. We can see that [5 • (2 + 3)] mod 7 = [5 • 2 + 5 • 3] mod 7 = 25 mod 7 = 4.
+Finally, this set combined with both operators seems to meet the distributive condition. Let’s take 5, 2, and 3 as our values. We can see that $[5 \cdot (2 + 3)] \mod 7 = [5 \cdot 2 + 5 \cdot 3] \mod 7 = 25 \mod 7 = 4$.
 
-We have now seen that ℤ mod 7 equipped with addition and multiplication meets the axioms for a finite field when testing with particular values. Of course we can also show that generally, but will not do so here.  
+We have now seen that $\mathbb{Z} \mod 7$ equipped with addition and multiplication meets the axioms for a finite field when testing with particular values. Of course, we can also show that generally, but will not do so here.
 
-A key distinction is between two types of fields: finite and infinite fields. 
+A key distinction is between two types of fields: finite and infinite fields.
 
-An **infinite field** involves a field where the set **S** is infinitely large. The set of real numbers ℝ equipped with addition and multiplication is an example of an infinite field. A **finite field**, also known as a **Galois field**, is a field where the set **S** is finite. Our example above of 〈ℤ mod 7, +, •〉 is a finite field. 
+An **infinite field** involves a field where the set **S** is infinitely large. The set of real numbers $\mathbb{R}$ equipped with addition and multiplication is an example of an infinite field. A **finite field**, also known as a **Galois field**, is a field where the set **S** is finite. Our example above of $\langle \mathbb{Z} \mod 7, +, \cdot \rangle$ is a finite field.
 
-In cryptography, we are primarily interested in finite fields. Generally, it can be shown that a finite field exists for some set of elements **S** if and only if it has p<sup>m</sup> elements, where p is a prime number and m a positive integer greater than or equal to one. In other words, if the order of some set **S** is a prime number (p<sup>m</sup> where m = 1) or some prime power (p<sup>m</sup> where m > 1), then you can find two operators ◌ and ◊ such that the conditions for a field are satisfied.  
+In cryptography, we are primarily interested in finite fields. Generally, it can be shown that a finite field exists for some set of elements **S** if and only if it has $p^m$ elements, where $p$ is a prime number and $m$ a positive integer greater than or equal to one. In other words, if the order of some set **S** is a prime number ($p^m$ where $m = 1$) or some prime power ($p^m$ where $m > 1$), then you can find two operators $\circ$ and $\diamond$ such that the conditions for a field are satisfied.
 
-If some finite field has a prime number of elements, then it is called a **prime field**. If the number of elements in the finite field is a prime power, then the field is called an **extension field**. In cryptography, we are interested in both prime and extension fields.<sup>[2](#footnote2)</sup>
+If some finite field has a prime number of elements, then it is called a **prime field**. If the number of elements in the finite field is a prime power, then the field is called an **extension field**. In cryptography, we are interested in both prime and extension fields. [2]
 
-The main prime fields of interest in cryptography are those where the set of all integers is modulated by some prime number, and the operators are standard addition and multiplication. This class of finite fields would include ℤ mod 2, ℤ mod 3, ℤ mod 5, ℤ mod 7, ℤ mod 11, ℤ mod 13, and so on. For any prime field ℤ mod p, the set of integers of the field is as follows: {0,1,….,p – 2, p – 1}.
+The main prime fields of interest in cryptography are those where the set of all integers is modulated by some prime number, and the operators are standard addition and multiplication. This class of finite fields would include $\mathbb{Z} \mod 2$, $\mathbb{Z} \mod 3$, $\mathbb{Z} \mod 5$, $\mathbb{Z} \mod 7$, $\mathbb{Z} \mod 11$, $\mathbb{Z} \mod 13$, and so on. For any prime field $\mathbb{Z} \mod p$, the set of integers of the field is as follows: $\{0, 1, \ldots, p – 2, p – 1\}$.
 
-In cryptography we are also interested in extension fields, particularly any fields with 2<sup>m</sup> elements where m > 1. Such finite fields are, for instance, used in the Rijndael Cipher, which forms the basis of the Advanced Encryption Standard. While prime fields are relatively intuitive, these base 2 extension fields are probably not for anyone unfamiliar with abstract algebra. 
+In cryptography, we are also interested in extension fields, particularly any fields with $2^m$ elements where $m > 1$. Such finite fields are, for instance, used in the Rijndael Cipher, which forms the basis of the Advanced Encryption Standard. While prime fields are relatively intuitive, these base 2 extension fields are probably not for anyone unfamiliar with abstract algebra.
 
-To start, it is indeed true that any set of integers with 2<sup>m</sup> elements can be assigned two operators that would make their combination a field (as long as m is a positive integer). Yet, just because a field exists does not necessarily mean that it is easy to discover or particularly practical for certain applications.
+To start, it is indeed true that any set of integers with $2^m$ elements can be assigned two operators that would make their combination a field (as long as $m$ is a positive integer). Yet, just because a field exists does not necessarily mean that it is easy to discover or particularly practical for certain applications.
 
-As it turns out, particularly applicable extension fields of 2<sup>m</sup> in cryptography are those defined over particular sets of polynomial expressions, rather than some set of integers. 
+As it turns out, particularly applicable extension fields of $2^m$ in cryptography are those defined over particular sets of polynomial expressions, rather than some set of integers.
 
-For instance, suppose that we wanted an extension field with 2<sup>3</sup> (i.e., 8) elements in the set. While there might be many different sets that can be used for fields of that size, one such set includes all unique polynomials of the form of a<sub>2</sub>x<sup>2</sup> + a<sub>1</sub>x + a<sub>0</sub>, where each coefficient a<sub>i</sub> is either 0 or 1. Hence, this set **S** includes the following elements:
+For instance, suppose that we wanted an extension field with $2^3$ (i.e., 8) elements in the set. While there might be many different sets that can be used for fields of that size, one such set includes all unique polynomials of the form $a_2x^2 + a_1x + a_0$, where each coefficient $a_i$ is either 0 or 1. Hence, this set **S** includes the following elements:
 
-1. 0: The case where a<sub>2</sub> = 0, a<sub>1</sub> = 0, and a<sub>0</sub> = 0.
-2. 1: The case where a<sub>2</sub> = 0, a<sub>1</sub> = 0, and a<sub>0</sub> = 1.
-3. x: The case where a<sub>2</sub> = 0, a<sub>1</sub> = 1, and a<sub>0</sub> = 0.
-4. x + 1: The case where a<sub>2</sub> = 0, a<sub>1</sub> = 1, and a<sub>0</sub> = 1.
-5. x<sup>2</sup>: The case where a<sub>2</sub>= 1, a<sub>1</sub> = 0, and a<sub>0</sub> = 0. 
-6. x<sup>2</sup> + 1: The case where a<sub>2</sub> = 1, a<sub>1</sub> = 0, and a<sub>0</sub> = 1. 
-7. x<sup>2</sup> + x: The case where a<sub>2</sub> = 1, a<sub>1</sub> = 1, and a<sub>0</sub> = 0. 
-8. x<sup>2</sup> + x + 1: The case where a<sub>2</sub> = 1, a<sub>1</sub> = 1, and a<sub>0</sub> = 1. 
+1. $0$: The case where $a_2 = 0$, $a_1 = 0$, and $a_0 = 0$.
+2. $1$: The case where $a_2 = 0$, $a_1 = 0$, and $a_0 = 1$.
+3. $x$: The case where $a_2 = 0$, $a_1 = 1$, and $a_0 = 0$.
+4. $x + 1$: The case where $a_2 = 0$, $a_1 = 1$, and $a_0 = 1$.
+5. $x^2$: The case where $a_2 = 1$, $a_1 = 0$, and $a_0 = 0$.
+6. $x^2 + 1$: The case where $a_2 = 1$, $a_1 = 0$, and $a_0 = 1$.
+7. $x^2 + x$: The case where $a_2 = 1$, $a_1 = 1$, and $a_0 = 0$.
+8. $x^2 + x + 1$: The case where $a_2 = 1$, $a_1 = 1$, and $a_0 = 1$.
 
-So **S** would be the set {0,1,x,x + 1, x<sup>2</sup>,x<sup>2</sup> + 1, x<sup>2</sup> + x, x<sup>2</sup> + x + 1}. What two operations can be defined over this set of elements to ensure their combination is a field?
+So **S** would be the set $\{0, 1, x, x + 1, x^2, x^2 + 1, x^2 + x, x^2 + x + 1\}$. What two operations can be defined over this set of elements to ensure their combination is a field?
 
-The first operation on the set S (◌) can be defined as standard polynomial addition modulo 2. All you have to do is add the polynomials as you normally would, and then apply the modulo 2 to each of the coefficients of the resulting polynomial. Here are some examples:
+The first operation on the set **S** ($\circ$) can be defined as standard polynomial addition modulo 2. All you have to do is add the polynomials as you normally would, and then apply the modulo 2 to each of the coefficients of the resulting polynomial. Here are some examples:
 
-* [(x<sup>2</sup>) + (x<sup>2</sup> + x + 1)] mod 2 = [2x<sup>2</sup> + x + 1] mod 2 = x + 1
-* [(x<sup>2</sup> + x) + (x)] mod 2 = [x<sup>2</sup> + 2x] mod 2 = x<sup>2</sup>
-* [(x + 1) + (x<sup>2</sup> + x + 1)] mod 2 = [x<sup>2</sup> + 2x + 2] mod 2 = x<sup>2</sup> + 1
+* $[(x^2) + (x^2 + x + 1)] \mod 2 = [2x^2 + x + 1] \mod 2 = x + 1$
+* $[(x^2 + x) + (x)] \mod 2 = [x^2 + 2x] \mod 2 = x^2$
+* $[(x + 1) + (x^2 + x + 1)] \mod 2 = [x^2 + 2x + 2] \mod 2 = x^2 + 1$
 
-The second operation on the set S (◌) that is needed for creating the field is more complicated. It is a kind of multiplication, but not standard multiplication from arithmetic. Instead, you have to see each element as a vector and understand the operation as the multiplication of those two vectors modulo an irreducible polynomial. 
+The second operation on the set **S** ($\diamond$) that is needed for creating the field is more complicated. It is a kind of multiplication, but not standard multiplication from arithmetic. Instead, you have to see each element as a vector and understand the operation as the multiplication of those two vectors modulo an irreducible polynomial.
 
-Let’s first turn to the idea of an irreducible polynomial. An **irreducible polynomial** is one that cannot be factored (just as a prime number cannot be factored into components other than 1 and the prime number itself). For our purposes, we are interested in polynomials that are irreducible with respect to the set of all integers. (Note that you may be able to factor certain polynomials by, for example, the real or complex numbers, even if you cannot factor them using integers.) 
+Let’s first turn to the idea of an irreducible polynomial. An **irreducible polynomial** is one that cannot be factored (just as a prime number cannot be factored into components other than 1 and the prime number itself). For our purposes, we are interested in polynomials that are irreducible with respect to the set of all integers. (Note that you may be able to factor certain polynomials by, for example, the real or complex numbers, even if you cannot factor them using integers.)
 
-For instance, consider the polynomial x<sup>2</sup> - 3x + 2. This can be rewritten as (x – 1)(x – 2). Hence, this is not irreducible. Now consider the polynomial x<sup>2</sup> + 1. Using only integers, there is no way to further factor this expression. Hence, this is an irreducible polynomial with respect to the integers. 
+For instance, consider the polynomial $x^2 - 3x + 2$. This can be rewritten as $(x – 1)(x – 2)$. Hence, this is not irreducible. Now consider the polynomial $x^2 + 1$. Using only integers, there is no way to further factor this expression. Hence, this is an irreducible polynomial with respect to the integers.
 
-Next, let’s turn to the concept of vector multiplication. We will not explore this topic in depth, you just need to understand a basic rule: Any vector division can take place as long as the dividend has a degree higher than or equal to that of the divisor. If the dividend has a lower degree than the divisor, then the dividend can no longer be divided by the divisor.  
+Next, let’s turn to the concept of vector multiplication. We will not explore this topic in depth, but you just need to understand a basic rule: Any vector division can take place as long as the dividend has a degree higher than or equal to that of the divisor. If the dividend has a lower degree than the divisor, then the dividend can no longer be divided by the divisor.
 
-For instance, consider the expression x<sup>6</sup> + x + 1 mod x<sup>5</sup> + x<sup>2</sup>. This clearly reduces further as the degree of the dividend, 6, is higher than the degree of the divisor, 5. Now consider the expression x<sup>5</sup> + x + 1 mod x<sup>5</sup> + x<sup>2</sup>. This also reduces further, as the degree of the dividend, 5, and the divisor, 5, are equal. 
+For instance, consider the expression $x^6 + x + 1 \mod x^5 + x^2$. This clearly reduces further as the degree of the dividend, 6, is higher than the degree of the divisor, 5. Now consider the expression $x^5 + x + 1 \mod x^5 + x^2$. This also reduces further, as the degree of the dividend, 5, and the divisor, 5, are equal.
 
-However, now consider the expression x<sup>4</sup> + x + 1 mod x<sup>5</sup> + x<sup>2</sup>. This does not reduce further, as the degree of the dividend, 4, is lower than the degree than the divisor, 5.
+However, now consider the expression $x^4 + x + 1 \mod x^5 + x^2$. This does not reduce further, as the degree of the dividend, 4, is lower than the degree of the divisor, 5.
 
-On the basis of this information, we are now ready to find our second operation for the set {0,1,x,x + 1,x<sup>2</sup>,x<sup>2</sup> + 1,x<sup>2</sup> + x,x<sup>2</sup> + x + 1}. 
+On the basis of this information, we are now ready to find our second operation for the set $\{0, 1, x, x + 1, x^2, x^2 + 1, x^2 + x, x^2 + x + 1\}$.
 
 I have already said that the second operation should be understood as vector multiplication modulo some irreducible polynomial. This irreducible polynomial should ensure that the second operation defines an Abelian group over **S** and is consistent with the distributive condition. So what should that irreducible polynomial be?
 
-As all vectors in the set are of degree 2 or lower, the irreducible polynomial should be of degree 3. If any multiplication of two vectors in the set yields a polynomial degree 3 or higher, we know that modulo a polynomial of degree 3 always yields a polynomial of degree 2 or lower. This is the case because any polynomial of degree 3 or higher is always divisible by a polynomial of degree 3. In addition, the polynomial that functions as the divisor has to be irreducible. 
+As all vectors in the set are of degree 2 or lower, the irreducible polynomial should be of degree 3. If any multiplication of two vectors in the set yields a polynomial of degree 3 or higher, we know that modulo a polynomial of degree 3 always yields a polynomial of degree 2 or lower. This is the case because any polynomial of degree 3 or higher is always divisible by a polynomial of degree 3. In addition, the polynomial that functions as the divisor has to be irreducible.
 
-It turns out that there are several irreducible polynomials of degree 3 that we could use as our divisor. Each of these polynomials defines a different field in conjunction with our set S and addition modulo 2. This means you have multiple options when using extension fields 2<sup>m</sup> in cryptography.  
+It turns out that there are several irreducible polynomials of degree 3 that we could use as our divisor. Each of these polynomials defines a different field in conjunction with our set **S** and addition modulo 2. This means you have multiple options when using extension fields $2^m$ in cryptography.
 
-For our example, suppose that we select the polynomial x<sup>3</sup> + x + 1. This indeed is irreducible, because you cannot factor it using integers. In addition, it will ensure that any multiplication of two elements will yield a polynomial of degree 2 or less.  
+For our example, suppose that we select the polynomial $x^3 + x + 1$. This indeed is irreducible, because you cannot factor it using integers. In addition, it will ensure that any multiplication of two elements will yield a polynomial of degree 2 or less.
 
-Let’s work through an example of the second operation using the polynomial x<sup>3</sup> + x + 1 as the divisor to illustrate how it works. Suppose that you multiply the elements x<sup>2</sup> + 1 with x<sup>2</sup> + x in our set **S**. We, then, need to calculate the expression [(x<sup>2</sup> + 1) • (x<sup>2</sup> + x)] mod x<sup>3</sup> + x + 1. This can be simplified as follows:
+Let’s work through an example of the second operation using the polynomial $x^3 + x + 1$ as the divisor to illustrate how it works. Suppose that you multiply the elements $x^2 + 1$ with $x^2 + x$ in our set **S**. We, then, need to calculate the expression $[(x^2 + 1) \cdot (x^2 + x)] \mod x^3 + x + 1$. This can be simplified as follows:
 
-* [(x<sup>2</sup> + 1) • (x<sup>2</sup> + x)] mod x<sup>3</sup> + x + 1 =
-* [x<sup>2</sup> • x<sup>2</sup> + x<sup>2</sup> • x + 1 • x<sup>2</sup> + 1 • x] mod x<sup>3</sup> + x + 1 = 
-* [x<sup>4</sup> + x<sup>3</sup> + x<sup>2</sup> + x] mod x<sup>3</sup> + x + 1
-    
-We know that [x<sup>4</sup> + x<sup>3</sup> + x<sup>2</sup> + x] mod x<sup>3</sup> + x + 1 can be reduced as the dividend has a higher degree (4) than the divisor (3). 
+* $[(x^2 + 1) \cdot (x^2 + x)] \mod x^3 + x + 1 =$
+* $[x^2 \cdot x^2 + x^2 \cdot x + 1 \cdot x^2 + 1 \cdot x] \mod x^3 + x + 1 =$
+* $[x^4 + x^3 + x^2 + x] \mod x^3 + x + 1$
 
-To start, you can see that the expression x<sup>3</sup> + x + 1 goes into x<sup>4</sup> + x<sup>3</sup> + x<sup>2</sup> + x a total of x times. You can verify this by multiplying x<sup>3</sup> + x + 1 by x, which is x<sup>4</sup> + x<sup>2</sup> + x. As the latter term is of the same degree as the dividend, namely 4, we know this works. You can calculate the remainder of this division by x as follows: 
+We know that $[x^4 + x^3 + x^2 + x] \mod x^3 + x + 1$ can be reduced as the dividend has a higher degree (4) than the divisor (3).
 
-* [(x<sup>4</sup> + x<sup>3</sup> + x<sup>2</sup> + x) – (x<sup>4</sup> + x<sup>2</sup> + x)] mod x<sup>3</sup> + x + 1 = 
-* [x<sup>3</sup>] mod x<sup>3</sup> + x + 1 =
-* x<sup>3</sup>
+To start, you can see that the expression $x^3 + x + 1$ goes into $x^4 + x^3 + x^2 + x$ a total of $x$ times. You can verify this by multiplying $x^3 + x + 1$ by $x$, which is $x^4 + x^2 + x$. As the latter term is of the same degree as the dividend, namely 4, we know this works. You can calculate the remainder of this division by $x$ as follows:
 
-So after dividing x<sup>4</sup> + x<sup>3</sup> + x<sup>2</sup> + x by x<sup>3</sup> + x + 1 a total of x times, we have a remainder of x<sup>3</sup>. Can this be further divided by x<sup>3</sup> + x + 1?
+* $[(x^4 + x^3 + x^2 + x) - (x^4 + x^2 + x)] \mod x^3 + x + 1 =$
+* $[x^3] \mod x^3 + x + 1 =$
+* $x^3$
 
-Intuitively, it might be appealing to say that x<sup>3</sup> can no longer be divided by x<sup>3</sup> + x + 1, because the latter term seems larger. However, remember our discussion on vector division earlier. As long as the dividend has a degree larger or equal to the divisor, the expression can be further reduced. Specifically, the expression x<sup>3</sup> + x + 1 can go into x<sup>3</sup> exactly 1 time. The remainder is calculated as follows:
+So after dividing $x^4 + x^3 + x^2 + x$ by $x^3 + x + 1$ a total of $x$ times, we have a remainder of $x^3$. Can this be further divided by $x^3 + x + 1$?
 
-[(x<sup>3</sup>) – (x<sup>3</sup> + x + 1)] mod x<sup>3</sup> + x + 1 = 
-[x + 1] mod x<sup>3</sup> + x + 1 = 
-x + 1
+Intuitively, it might be appealing to say that $x^3$ can no longer be divided by $x^3 + x + 1$, because the latter term seems larger. However, remember our discussion on vector division earlier. As long as the dividend has a degree larger or equal to the divisor, the expression can be further reduced. Specifically, the expression $x^3 + x + 1$ can go into $x^3$ exactly 1 time. The remainder is calculated as follows:
 
-You might be wondering why (x<sup>3</sup>) – (x<sup>3</sup> + x + 1) evaluates to x + 1 and not – x – 1. Remember that the first operation of our field is defined modulo 2. Hence, the subtraction of two vectors yields exactly the same result as the addition of two vectors. 
+$$
+[(x^3) - (x^3 + x + 1)] \mod x^3 + x + 1 = [x + 1] \mod x^3 + x + 1 = x + 1
+$$
 
-To sum up the multiplication of x<sup>2</sup> + 1 and x<sup>2</sup> + x: When you multiply those two terms you get a degree 4 polynomial, x<sup>4</sup> + x<sup>3</sup> + x<sup>2</sup> + x, which needs to be reduced modulo x<sup>3</sup> + x + 1. The degree 4 polynomial is divisible by x<sup>3</sup> + x + 1 exactly x + 1 times. The remainder after dividing x<sup>4</sup> + x<sup>3</sup> + x<sup>2</sup> + x by x<sup>3</sup> + x + 1 exactly x + 1 times is x + 1. This is indeed an element in our set {0,1,x,x + 1,x<sup>2</sup>,x<sup>2</sup> + 1,x<sup>2</sup> + x,x<sup>2</sup> + x + 1}.
+You might be wondering why $(x^3) - (x^3 + x + 1)$ evaluates to $x + 1$ and not $-x - 1$. Remember that the first operation of our field is defined modulo 2. Hence, the subtraction of two vectors yields exactly the same result as the addition of two vectors.
 
-Why would extension fields with base 2 over sets of polynomials, like in the example above, be useful for cryptography? The reason is that you can view the coefficients in the polynomials of such sets, either 0 or 1, as elements of binary strings with a particular length. The set **S** in our example above, for example, could be viewed instead as a set S that includes all binary strings of length 3 (000 through 111). The operations on **S**, then, can also be used to perform operations on these binary strings and produce a binary string of the same length.   
+To sum up the multiplication of $x^2 + 1$ and $x^2 + x$: When you multiply those two terms, you get a degree 4 polynomial, $x^4 + x^3 + x^2 + x$, which needs to be reduced modulo $x^3 + x + 1$. The degree 4 polynomial is divisible by $x^3 + x + 1$ exactly $x + 1$ times. The remainder after dividing $x^4 + x^3 + x^2 + x$ by $x^3 + x + 1$ exactly $x + 1$ times is $x + 1$. This is indeed an element in our set $\{0, 1, x, x + 1, x^2, x^2 + 1, x^2 + x, x^2 + x + 1\}$.
+
+Why would extension fields with base 2 over sets of polynomials, like in the example above, be useful for cryptography? The reason is that you can view the coefficients in the polynomials of such sets, either 0 or 1, as elements of binary strings with a particular length. The set **S** in our example above, for example, could be viewed instead as a set **S** that includes all binary strings of length 3 (000 through 111). The operations on **S**, then, can also be used to perform operations on these binary strings and produce a binary string of the same length.
+
+**Notes:**
+
+[2] Extension fields become very counterintuitive. Instead of having elements of integers, they have sets of polynomials. In addition, any operations are performed modulo some irreducible polynomial.
 
 
 ## Abstract algebra in practice

@@ -1917,6 +1917,11 @@ While collision resistance and hiding are the main properties sought of hash fun
 # The RSA cryptosystem
 <partId>864dca42-2a8d-530f-bb94-2e1f68b3f411</partId>
 
+
+
+## The factoring problem
+<chapterId>a31a66e4-52ea-539c-9953-4769ad565d7e</chapterId>
+
 While symmetric cryptography is usually fairly intuitive for most people, this is typically not the case with asymmetric cryptography. Though you are likely comfortable with the high-level description offered in the previous sections, you are probably wondering what precisely one-way functions are and how exactly they are used to construct asymmetric schemes. 
 
 In this chapter, I will remove some of the mystery surrounding asymmetric cryptography, by looking more deeply into a specific example, namely the RSA cryptosystem. In the first section, I will introduce the factorization problem on which the RSA problem is based. In will, then, cover a number of key results from number theory. In the last section, we will put this information together to explain the RSA problem, and how this can be used for creating asymmetric cryptographic schemes. 
@@ -1925,72 +1930,85 @@ Adding this depth to our discussion is not an easy task. It requires introducing
 
 Lets now first turn to the factoring problem. 
 
+___
 
-## The factoring problem
-<chapterId>a31a66e4-52ea-539c-9953-4769ad565d7e</chapterId>
 
-Whenever you multiply two numbers, say a and b, we refer to the numbers a and b as **factors**, and the result as the **product**. Attempting to write a number N into the multiplication of two or more factors is called **factorization** or **factoring**.<sup>[1](#footnote1)</sup> You can call any problem that requires this a **factorization problem**.
+Whenever you multiply two numbers, say $a$ and $b$, we refer to the numbers $a$ and $b$ as **factors**, and the result as the **product**. Attempting to write a number $N$ into the multiplication of two or more factors is called **factorization** or **factoring**. [1] You can call any problem that requires this a **factorization problem**.
 
 Around 2,500 years ago, the Greek mathematician Euclid of Alexandria discovered a key theorem about the factorization of integers. It is commonly called the **unique factorization theorem** and states the following: 
 
-*Theorem 1*. Every integer N which is greater than 1 is either a prime number, or can be expressed as a product of prime factors. 
+*Theorem 1*. Every integer $N$ which is greater than 1 is either a prime number, or can be expressed as a product of prime factors. 
 
-All the latter part of this statement means is that you can take any non-prime integer N greater than 1, and write it out as a multiplication of prime numbers. Below are several examples of non-prime integers written as the product of prime factors.  
+All the latter part of this statement means is that you can take any non-prime integer $N$ greater than 1, and write it out as a multiplication of prime numbers. Below are several examples of non-prime integers written as the product of prime factors.
 
-* 18 = 2 • 3 • 3 = 2 • 3<sup>2</sup>
-* 84 = 2 • 2 • 3 • 7 = 2<sup>2</sup> • 3 • 7
-* 144 = 2 • 2 • 2 • 2 • 3 • 3 = 2<sup>4</sup> • 3<sup>2</sup>
+* $18 = 2 \cdot 3 \cdot 3 = 2 \cdot 3^2$
+* $84 = 2 \cdot 2 \cdot 3 \cdot 7 = 2^2 \cdot 3 \cdot 7$
+* $144 = 2 \cdot 2 \cdot 2 \cdot 2 \cdot 3 \cdot 3 = 2^4 \cdot 3^2$
 
-For all three of the integers above, calculating their prime factors is relatively easy, even if you are only given N. You start with the smallest prime number, namely 2, and see how many times the integer N is divisible by it. You, then, move on to testing the divisibility of N by 3, 5, 7, and so forth. You continue this process until your integer N is written as the product of only prime numbers. 
+For all three of the integers above, calculating their prime factors is relatively easy, even if you are only given $N$. You start with the smallest prime number, namely 2, and see how many times the integer $N$ is divisible by it. You then move on to testing the divisibility of $N$ by 3, 5, 7, and so forth. You continue this process until your integer $N$ is written as the product of only prime numbers.
 
-Take, for instance, the integer 84. Below you can see the process for determining its prime factors. At each step we take out the smallest remaining prime factor (on the left) and determine the remainder term to be factored. We continue until the remainder term is also a prime number. At each step, the current factorization of 84 is displayed on the far right. 
+Take, for instance, the integer 84. Below you can see the process for determining its prime factors. At each step, we take out the smallest remaining prime factor (on the left) and determine the remainder term to be factored. We continue until the remainder term is also a prime number. At each step, the current factorization of 84 is displayed on the far right.
 
-* Prime factor = 2: remainder term = 42 	(84 = 2 • 42)
-* Prime factor = 2: remainder term = 21 	(84 = 2 • 2 • 21)
-* Prime factor = 3: remainder term = 7 		(84 = 2 • 2 • 3 • 7)
-* As 7 is a prime number, the result is 2 • 2 • 3 • 7, or 2<sup>2</sup> • 3 • 7. 
+* Prime factor = 2: remainder term = 42 	($84 = 2 \cdot 42$)
+* Prime factor = 2: remainder term = 21 	($84 = 2 \cdot 2 \cdot 21$)
+* Prime factor = 3: remainder term = 7 	($84 = 2 \cdot 2 \cdot 3 \cdot 7$)
+* As 7 is a prime number, the result is $2 \cdot 2 \cdot 3 \cdot 7$, or $2^2 \cdot 3 \cdot 7$.
 
-Suppose now that N is very large. How difficult would it be to reduce N into its prime factors?
+Suppose now that $N$ is very large. How difficult would it be to reduce $N$ into its prime factors?
 
-That really depends on N. Suppose, for instance, that N is 50,450,400. Though this number looks intimidating, the calculations are not that complicated and can easily be done by hand. As above, you just start with 2 and work your way onwards. Below, you can see the result of this process in a similar manner as above.    
+That really depends on $N$. Suppose, for instance, that $N$ is 50,450,400. Though this number looks intimidating, the calculations are not that complicated and can easily be done by hand. As above, you just start with 2 and work your way onwards. Below, you can see the result of this process in a similar manner as above.    
 
-* 2: 25,225,200 	(50,450,400 = 2 • 25,225,200)  
-* 2: 12,612,600 	(50,450,400 = 2<sup>2</sup> • 12,612,600)  
-* 2: 6,306,300 		(50,450,400 = 2<sup>3</sup> • 6,306,300)  
-* 2: 3,153,150 		(50,450,400 = 2<sup>4</sup> • 3,153,150)  
-* 2: 1,576,575 		(50,450,400 = 2<sup>5</sup> • 1,576,575)  
-* 3: 525,525 		(50,450,400 = 2<sup>5</sup> • 3 • 525,525)
-* 3: 175,175 		(50,450,400 = 2<sup>5</sup> • 3<sup>2</sup> • 175,175)
-* 5: 35,035 		(50,450,400 = 2<sup>5</sup> • 3<sup>2</sup> • 5 • 35,035)
-* 5: 7,007		    (50,450,400 = 2<sup>5</sup> • 3<sup>2</sup> • 5<sup>2</sup> • 7,007)
-* 7: 1,001		    (50,450,400 = 2<sup>5</sup> • 3<sup>2</sup> • 5<sup>2</sup> • 7 • 1,001)
-* 7: 143			(50,450,400 = 2<sup>5</sup> • 3<sup>2</sup> • 5<sup>2</sup> • 7<sup>2</sup> • 143)
-* 11: 13			(50,450,400 = 2<sup>5</sup> • 3<sup>2</sup> • 5<sup>2</sup> • 7<sup>2</sup> • 11 • 13)
-* As 13 is a prime number, the result is 2<sup>5</sup> • 3<sup>2</sup> • 5<sup>2</sup> • 7<sup>2</sup> • 11 • 13.
+* 2: 25,225,200 	($50,450,400 = 2 \cdot 25,225,200$)  
+* 2: 12,612,600 	($50,450,400 = 2^2 \cdot 12,612,600$)  
+* 2: 6,306,300 	($50,450,400 = 2^3 \cdot 6,306,300$)  
+* 2: 3,153,150 	($50,450,400 = 2^4 \cdot 3,153,150$)  
+* 2: 1,576,575 	($50,450,400 = 2^5 \cdot 1,576,575$)  
+* 3: 525,525 	($50,450,400 = 2^5 \cdot 3 \cdot 525,525$)
+* 3: 175,175 	($50,450,400 = 2^5 \cdot 3^2 \cdot 175,175$)
+* 5: 35,035 		($50,450,400 = 2^5 \cdot 3^2 \cdot 5 \cdot 35,035$)
+* 5: 7,007		($50,450,400 = 2^5 \cdot 3^2 \cdot 5^2 \cdot 7,007$)
+* 7: 1,001		($50,450,400 = 2^5 \cdot 3^2 \cdot 5^2 \cdot 7 \cdot 1,001$)
+* 7: 143		($50,450,400 = 2^5 \cdot 3^2 \cdot 5^2 \cdot 7^2 \cdot 143$)
+* 11: 13		($50,450,400 = 2^5 \cdot 3^2 \cdot 5^2 \cdot 7^2 \cdot 11 \cdot 13$)
+* As 13 is a prime number, the result is $2^5 \cdot 3^2 \cdot 5^2 \cdot 7^2 \cdot 11 \cdot 13$.
 
 Working this problem out by hand takes some time. A computer, of course, could do all of this in a small fraction of a second. In fact, a computer can frequently even factorize extremely large integers in a fraction of a second. 
 
-There are, however, certain exceptions. Suppose that we first randomly select two very large prime numbers. It is typical to label these p and q, and I will adopt that convention here. 
+There are, however, certain exceptions. Suppose that we first randomly select two very large prime numbers. It is typical to label these $p$ and $q$, and I will adopt that convention here. 
 
-For concreteness, let’s say that p and q are both 1024-bit primes, and that they indeed require at least 1024 bits in order to be represented (so the first bit must be 1). So, for example, 37 could not be one of the prime numbers. You can certainly represent 37 with 1024 bits. But clearly *you do not need* this many bits to represent it. You can represent 37 by any string that has 6 bits or more. (In 6 bits, 37 would be represented as 100101). 
+For concreteness, let’s say that $p$ and $q$ are both 1024-bit primes, and that they indeed require at least 1024 bits in order to be represented (so the first bit must be 1). So, for example, 37 could not be one of the prime numbers. You can certainly represent 37 with 1024 bits. But clearly *you do not need* this many bits to represent it. You can represent 37 by any string that has 6 bits or more. (In 6 bits, 37 would be represented as $100101$). 
 
-It is important to appreciate how large p and q are if selected under the conditions above. As an example, I have selected a random prime number that needs at least 1024 bits for representation below.
+It is important to appreciate how large $p$ and $q$ are if selected under the conditions above. As an example, I have selected a random prime number that needs at least 1024 bits for representation below.
 
 * 14,752,173,874,503,595,484,930,006,383,670,759,559,764,562,721,397,166,747,289,220,945,457,932,666,751,048,198,854,920,097,085,690,793,755,254,946,188,163,753,506,778,089,706,699,671,722,089,715,624,760,049,594,106,189,662,669,156,149,028,900,805,928,183,585,427,782,974,951,355,515,394,807,209,836,870,484,558,332,897,443,152,653,214,483,870,992,618,171,825,921,582,253,023,974,514,209,142,520,026,807,636,589
 
-Suppose now after randomly selecting prime numbers p and q, we multiply them to obtain an integer N. This latter integer, therefore, is a 2048 bit number which requires at least 2048 bits for its representation. It is much, much larger than either p or q.   
+Suppose now after randomly selecting prime numbers $p$ and $q$, we multiply them to obtain an integer $N$. This latter integer, therefore, is a 2048 bit number which requires at least 2048 bits for its representation. It is much, much larger than either $p$ or $q$.   
 
-Suppose you only give a computer N, and ask it to find the two 1024 bit prime factors of N. The probability that the computer discovers p and q is extremely small. You can say it is impossible for all practical purposes. This is so, even if you were to employ a supercomputer or even a network of supercomputers.
+Suppose you only give a computer $N$, and ask it to find the two 1024 bit prime factors of $N$. The probability that the computer discovers $p$ and $q$ is extremely small. You can say it is impossible for all practical purposes. This is so, even if you were to employ a supercomputer or even a network of supercomputers.
 
-To start, suppose that the computer attempts to solve the problem by cycling through 1024 bit numbers, testing in each case whether they are prime and if they are factors of N. The set of prime numbers to be tested is then approximately 1.265 • 10<sup>305</sup>.<sup>[2](#footnote2)</sup>
+To start, suppose that the computer attempts to solve the problem by cycling through 1024 bit numbers, testing in each case whether they are prime and if they are factors of $N$. The set of prime numbers to be tested is then approximately $1.265 \cdot 10^{305}$. [2]
 
-Even if you take all the computers on the planet and have them attempt to find and test 1024-bit prime numbers in this way, a 1 in a billion chance of successfully finding a prime factor of N would require a period of calculation much longer than the age of the Universe.    
+Even if you take all the computers on the planet and have them attempt to find and test 1024-bit prime numbers in this way, a 1 in a billion chance of successfully finding a prime factor of $N$ would require a period of calculation much longer than the age of the Universe.    
 
-Now in practice a computer can do better than the rough procedure just described. There exist several algorithms that the computer can apply to come to a factorization more quickly. The point, however, is that even using these more efficient algorithms, the computer’s task is still computationally infeasible.<sup>[3](#footnote3)</sup>
+Now in practice a computer can do better than the rough procedure just described. There exist several algorithms that the computer can apply to come to a factorization more quickly. The point, however, is that even using these more efficient algorithms, the computer’s task is still computationally infeasible. [3]
 
 Importantly, the difficulty of the factorization under the conditions just described rests on the assumption that there are no computationally efficient algorithms for calculating prime factors. We cannot actually prove that an efficient algorithm does not exist. Nevertheless, this assumption is very plausible: despite extensive efforts spanning hundreds of years, we have yet to find such a computationally efficient algorithm. 
 
-Hence, the factorization problem, under certain circumstances, can plausibly be assumed to be a hard problem. Specifically, when p and q are very large prime numbers, their product N is not difficult to calculate; but factorization only given N is practically impossible. 
+Hence, the factorization problem, under certain circumstances, can plausibly be assumed to be a hard problem. Specifically, when $p$ and $q$ are very large prime numbers, their product $N$ is not difficult to calculate; but factorization only given $N$ is practically impossible. 
+
+
+**Notes:**
+
+[1] Factorization can also be important for working with other types of mathematical objects than numbers. For instance, it can be useful to factor polynomial expressions such as $x^2 - 2x + 1$. In our discussion, we will only focus on the factorization of numbers, specifically integers.
+
+[2] According to the **prime number theorem**, the number of primes less than or equal to $N$ is approximately $N/\ln(N)$. This means that you can approximate the number of primes of length 1024 bits by: 
+
+$$ \frac{2^{1024}}{\ln(2^{1024})} - \frac{2^{1023}}{\ln(2^{1023})} $$
+
+...which equals approximately $1.265 \times 10^{305}$.
+
+[3] The same is true for discrete logarithm problems. Hence, why asymmetric constructions work with much larger keys than symmetric cryptographic constructions.
+
 
 
 ## Number theoretic results
@@ -2181,11 +2199,9 @@ The problems become even worse for our straightforward digital signature scheme.
 Nevertheless, with adding a bit of clever complexity, the RSA problem can be used to create a secure public key encryption scheme as well as a secure digital signature scheme. We will not enter into the details of such constructions here.<sup>[4](#footnote4)</sup> Importantly, however, this additional complexity does not change the fundamental underlying RSA problem on which these schemes are based.
 
 
-### Notes
 
-[^1]: Factorization can also be important for working with other types of mathematical objects than numbers. For instance, it can be useful to factor polynomial expressions such x^2 – 2x + 1. In our discussion, we will only focus on the factorization of numbers, specifically integers [^1].
 
-[^2]: According to the prime number theorem, the number of primes less than or equal to N is approximately N/ln⁡(N). This means that you can approximate the number of primes of length 1024 bits by 2^1024/ln⁡(2^1024) - 2^1023/ln⁡(2^1023) which equals approximately 1.265 x 10^305 [^2].
+
 
 
 

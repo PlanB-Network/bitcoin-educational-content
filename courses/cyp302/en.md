@@ -994,24 +994,24 @@ Bob encrypts the message $M$ at time $T_0$ with the key $K$ to produce the ciphe
 ## An example: The shift cipher
 <chapterId>7b179ae8-8d15-5e80-a43f-22c970d87b5e</chapterId>
 
-In Chapter 2, we encountered the shift cipher which is an example of a very simple symmetric encryption scheme. Let’s look at it again here. 
+In Chapter 2, we encountered the shift cipher, which is an example of a very simple symmetric encryption scheme. Let’s look at it again here.
 
-Suppose a dictionary *D* that equates all the letters of the English alphabet, in order, with the set of numbers {0,1,2…,25}. Assume a set of possible messages **M**. The shift cipher is, then, an encryption scheme defined as follows:
+Suppose a dictionary *D* that equates all the letters of the English alphabet, in order, with the set of numbers $\{0,1,2,\dots,25\}$. Assume a set of possible messages **M**. The shift cipher is, then, an encryption scheme defined as follows:
 
-- Select randomly a key k out of the set of possible keys **K**, where **K** = {0,1,2,…,25} 
-- Encrypt a message m є **M**, as follows:
-    - Separate m into its individual letters m<sub>0</sub>, m<sub>1</sub>,….m<sub>i</sub>….,m<sub>l</sub>
-    - Convert each m<sub>i</sub> to a number according to *D*
-    - For each m<sub>i</sub>, c<sub>i</sub> = [(m<sub>i</sub> + k) mod 26]
-    - Convert each c<sub>i</sub> to a letter according to *D*
-    - Then combine c<sub>0</sub>, c<sub>1</sub>,….,c<sub>l</sub> to yield the ciphertext c
-- Decrypt a ciphertext c as follows:
-    - Convert each c<sub>i</sub> to a number according to *D*
-    - For each c<sub>i</sub>, m<sub>i</sub> = [(c<sub>i</sub> – k) mod 26]
-    - Convert each m<sub>i</sub> to a letter according to *D*
-    - Then combine m<sub>0</sub>, m<sub>1</sub>,….,m<sub>l</sub> to yield the original message m
+- Select randomly a key $k$ out of the set of possible keys **K**, where **K** = $\{0,1,2,\dots,25\}$ 
+- Encrypt a message $m \in$ **M**, as follows:
+    - Separate $m$ into its individual letters $m_0, m_1,\dots, m_i, \dots, m_l$
+    - Convert each $m_i$ to a number according to *D*
+    - For each $m_i$, $c_i = [(m_i + k) \mod 26]$
+    - Convert each $c_i$ to a letter according to *D*
+    - Then combine $c_0, c_1,\dots, c_l$ to yield the ciphertext $c$
+- Decrypt a ciphertext $c$ as follows:
+    - Convert each $c_i$ to a number according to *D*
+    - For each $c_i$, $m_i = [(c_i - k) \mod 26]$
+    - Convert each $m_i$ to a letter according to *D*
+    - Then combine $m_0, m_1,\dots, m_l$ to yield the original message $m$
 
-What makes the shift cipher a symmetric encryption scheme is that the same key is used for both the encryption and the decryption process. For instance, suppose that you want to encrypt the message “DOG” using the shift cipher, and that you randomly selected "24" as a key. Encrypting the message with this key would yield “BME”. The only way to retrieve the original message is by using the same key, "24", for the decryption process. 
+What makes the shift cipher a symmetric encryption scheme is that the same key is used for both the encryption and the decryption process. For instance, suppose that you want to encrypt the message “DOG” using the shift cipher, and that you randomly selected "24" as a key. Encrypting the message with this key would yield “BME”. The only way to retrieve the original message is by using the same key, "24", for the decryption process.
 
 This Shift cipher is an example of a **monoalphabetic substitution cipher**: an encryption scheme where the ciphertext alphabet is fixed (i.e, only one alphabet is used). Assuming that the decryption algorithm is deterministic, each symobl in the substitution ciphertext can at most pertain to one symbol in the plaintext. 
 

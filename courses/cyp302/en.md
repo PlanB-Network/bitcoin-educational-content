@@ -1029,13 +1029,13 @@ You may also come across the terms to **encipher** or to **decipher**. These ter
 ## Brute force attacks and Kerckhoff's principle
 <chapterId>2d73ef97-26c5-5d11-8815-0ddbe89c8003</chapterId>
 
-The shift cipher is a very insecure symmetric encryption scheme, at least in the modern world. [1] An attacker could just attempt decryption of any ciphertext with all 26 possible keys to see which result makes sense. This type of attack, where the attacker is just cycling through keys to see what works, is known as a **brute force attack** or **exhaustive key search**. 
+The shift cipher is a very insecure symmetric encryption scheme, at least in the modern world. [1] An attacker could just attempt decryption of any ciphertext with all 26 possible keys to see which result makes sense. This type of attack, where the attacker is just cycling through keys to see what works, is known as a **brute force attack** or **exhaustive key search**.
 
-For any encryption scheme to meet a minimal notion of security, it must have a set of possible keys, or **keyspace**, which is so large that brute-force attacks are infeasible. All modern encryption schemes meet this standard. It is known as the **sufficient key space principle**. A similar principle typically applies in different types of cryptographic schemes. 
+For any encryption scheme to meet a minimal notion of security, it must have a set of possible keys, or **keyspace**, which is so large that brute-force attacks are infeasible. All modern encryption schemes meet this standard. It is known as the **sufficient key space principle**. A similar principle typically applies in different types of cryptographic schemes.
 
-To get a feel for the massive key space size in modern encryption schemes, suppose that a file has been encrypted with a 128-bit using the advanced encryption standard. This means an attacker has a set of 2<sup>128</sup> keys that she needs to cycle through for a brute force attack. A chance of 0.78% of success with this strategy would require the attacker to cycle through roughly 2.65 x 10<sup>36</sup> keys. 
+To get a feel for the massive key space size in modern encryption schemes, suppose that a file has been encrypted with a 128-bit key using the advanced encryption standard. This means an attacker has a set of $2^{128}$ keys that she needs to cycle through for a brute force attack. A chance of 0.78% of success with this strategy would require the attacker to cycle through roughly $2.65 \times 10^{36}$ keys.
 
-Suppose we optimistically assume that an attacker can attempt 10 quadrillion keys per second (i.e., 10<sup>16</sup> keys per second). To test 0.78% of all keys in the key space, her attack would have to last 2.65 x 10<sup>20</sup> seconds. This is about 8.4 trillion years. So even a brute force attack by an absurdly powerful adversary is not realistic with a modern 128-bit encryption scheme. This is the sufficient key space principle at play.     
+Suppose we optimistically assume that an attacker can attempt $10^{16}$ keys per second (i.e., 10 quadrillion keys per second). To test 0.78% of all keys in the key space, her attack would have to last $2.65 \times 10^{20}$ seconds. This is about 8.4 trillion years. So even a brute force attack by an absurdly powerful adversary is not realistic with a modern 128-bit encryption scheme. This is the sufficient key space principle at play.
 
 Is the shift cipher more secure if the attacker does not know the encryption algorithm? Perhaps, but not by much.
 
@@ -1067,12 +1067,11 @@ While we will not delve into all the details of the various notions of cryptogra
 
 **Notes:**
 
-[1]
+[1] According to Seutonius, a shift cipher with a constant key value of 3 was used by Julius Caesar in his military communications. So A would always become D, B always E, C always F, and so on. This particular version of the shift cipher has, thus, become known as the **Caesar Cipher** (though it is not really a cipher in the modern sense of the word, as the key value is constant). The Caesar cipher may have been secure in the first century BC, if Rome’s enemies were very unfamiliar with encryption. But it clearly would not be a very secure scheme in modern times.
 
-[2]
+[2] Jonathan Katz and Yehuda Lindell, _Introduction to Modern Cryptography_, CRC Press (Boca Raton, FL: 2015), p. 7f.
 
-[3]
-
+[3] Eric Raymond, “The Cathedral and the Bazaar,” paper was presented at the Linux Kongress, Würzburg, Germany (May 27, 1997). There are a number of subsequent versions available as well as a book. My citations are from page 30 in the book: Eric Raymond, _The Cathedral and the Bazaar: Musings on Linux and Open Source by an Accidental Revolutionary_, revised edn. (2001), O’Reilly: Sebastopol, CA.
 
 
 ## Stream ciphers
@@ -1086,7 +1085,7 @@ First, a string the length of the plaintext is produced via a private key. This 
 
 Next, the key stream is mathematically combined with the plaintext to produce a ciphertext. This combination is typically an XOR operation. For decryption, you can just reverse the operation. (Note that A XOR B = B XOR A, in the case A and B are bit-strings. So the order to an XOR operation in a stream cipher does not matter for the result. This property is known as commutativity.) 
 
-A typical XOR stream cipher is depicted in *Figure 3*. You first take a private key K and use it to generate a keystream. The keystream is, then, combined with the plaintext via an XOR operation to produce the ciphertext. Any agent that receives the ciphertext can easily decrypt it if they have the key K. All she needs to do is create a keystream as long as the ciphertext according to the specified procedure of the scheme and XOR it with the ciphertext.  
+A typical XOR stream cipher is depicted in *Figure 3*. You first take a private key K and use it to generate a keystream. The keystream is, then, combined with the plaintext via an XOR operation to produce the ciphertext. Any agent that receives the ciphertext can easily decrypt it if they have the key K. All she needs to do is create a keystream as long as the ciphertext according to the specified procedure of the scheme and XOR it with the ciphertext.
 
 *Figure 3: An XOR stream cipher*
 

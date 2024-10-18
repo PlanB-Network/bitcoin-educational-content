@@ -956,35 +956,39 @@ Following are five key points to keep in mind about examples involving Alice and
 ## Symmetric encryption schemes
 <chapterId>41bfdbe1-6d41-5272-98bb-81f24b2fd6af</chapterId>
 
-We can loosely define a **symmetric encryption scheme** as any cryptographic scheme with three algorithms: 
+We can loosely define a **symmetric encryption scheme** as any cryptographic scheme with three algorithms:
 
 1. A **key generation algorithm**, which generates a private key.
 2. An **encryption algorithm**, which takes the private key and a plaintext as inputs and outputs a ciphertext.
 3. A **decryption algorithm**, which takes the private key and the ciphertext as inputs and outputs the original plaintext.
 
-Typically an encryption scheme—whether symmetric or asymmetric—offers a template for encryption based on a core algorithm, rather than an exact specification. 
+Typically an encryption scheme—whether symmetric or asymmetric—offers a template for encryption based on a core algorithm, rather than an exact specification.
 
-For instance, consider Salsa20, a symmetric encryption scheme. It can be used with both 128- and 256-bit key lengths. The choice regarding key length impacts some minor details of the algorithm (the number of rounds in the algorithm to be exact). 
+For instance, consider Salsa20, a symmetric encryption scheme. It can be used with both 128- and 256-bit key lengths. The choice regarding key length impacts some minor details of the algorithm (the number of rounds in the algorithm to be exact).
 
-But one would not say that using Salsa20 with a 128-bit key is a different encryption scheme than Salsa20 with a 256-bit key. The core algorithm stays the same. Only when the core algorithm changes would we really speak of two different encryption schemes. 
- 
-Symmetric encryption schemes are typically useful in two kinds of cases: (1) Those in which two or more agents are communicating from a distance and want to keep the contents of their communications secret; and (2) those in which one agent wants to keep the contents of a message secret across time. 
+But one would not say that using Salsa20 with a 128-bit key is a different encryption scheme than Salsa20 with a 256-bit key. The core algorithm stays the same. Only when the core algorithm changes would we really speak of two different encryption schemes.
 
-You can see a depiction of situation (1) in *Figure 1* below. Bob wants to send a message M to Alice across a distance, but does not want others to be able to read that message. 
+Symmetric encryption schemes are typically useful in two kinds of cases: (1) Those in which two or more agents are communicating from a distance and want to keep the contents of their communications secret; and (2) those in which one agent wants to keep the contents of a message secret across time.
 
-Bob first encrypts the message M with the private key K. He, then, sends the ciphertext C to Alice. Once Alice has received the ciphertext, she can decrypt it using the key K and read the plaintext. With a good encryption scheme, any attacker that intercepts the ciphertext C should not be able to learn anything of real significance about the message M.  
+You can see a depiction of situation (1) in *Figure 1* below. Bob wants to send a message $M$ to Alice across a distance, but does not want others to be able to read that message.
 
-You can see a depiction of situation (2) in *Figure 2* below. Bob wants to prevent others from viewing certain information. A typical situation might be that Bob is an employee storing sensitive data on his computer, which neither outsiders nor his colleagues are supposed to read.  
+Bob first encrypts the message $M$ with the private key $K$. He, then, sends the ciphertext $C$ to Alice. Once Alice has received the ciphertext, she can decrypt it using the key $K$ and read the plaintext. With a good encryption scheme, any attacker that intercepts the ciphertext $C$ should not be able to learn anything of real significance about the message $M$.
 
-Bob encrypts the message M at time T<sub>0</sub> with the key K to produce the ciphertext C. At time T<sub>1</sub> he needs the message again, and decrypts the ciphertext C with the key K. Any attacker that might have come across the ciphertext C in a meantime should not have been able to deduce anything significant about M from it. 
+You can see a depiction of situation (2) in *Figure 2* below. Bob wants to prevent others from viewing certain information. A typical situation might be that Bob is an employee storing sensitive data on his computer, which neither outsiders nor his colleagues are supposed to read.
+
+Bob encrypts the message $M$ at time $T_0$ with the key $K$ to produce the ciphertext $C$. At time $T_1$ he needs the message again, and decrypts the ciphertext $C$ with the key $K$. Any attacker that might have come across the ciphertext $C$ in the meantime should not have been able to deduce anything significant about $M$ from it.
+
 
 *Figure 1: Secrecy across space*
 
 ![Figure 1: Secrecy across space](assets/Figure4-1.webp "Figure 1: Secrecy across space")
 
+
 *Figure 2: Secrecy across time*
 
+
 ![Figure 2: Secrecy across time](assets/Figure4-2.webp "Figure 2: Secrecy across time")
+
 
 
 ## An example: The shift cipher

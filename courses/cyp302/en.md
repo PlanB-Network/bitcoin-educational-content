@@ -2139,74 +2139,76 @@ We now have all the number theoretic results needed to state the RSA problem cle
 ## The RSA cryptosystem
 <chapterId>0253c2f7-b8a4-5d0e-bd60-812ed6b6c7a9</chapterId>
 
-We are now ready to state the RSA problem. Suppose you create a set of variables consisting of p, q, N, φ(N), e, d, and y. Call this set Π. It is created as follows: 
+We are now ready to state the RSA problem. Suppose you create a set of variables consisting of $p$, $q$, $N$, $\phi(N)$, $e$, $d$, and $y$. Call this set $\Pi$. It is created as follows:
 
-1. Generate two random primes p and q of equal size and calculate their product N. 
-2. Calculate the order of N, φ(N), by the following product: (p – 1) • (q – 1). 
-3. Select an e > 2 such that it is smaller and coprime to φ(N). 
-4. Calculate d by setting e • d mod φ(N) = 1. 
-5. Select a random value y that is smaller and coprime to N.
+1. Generate two random primes $p$ and $q$ of equal size and calculate their product $N$.
+2. Calculate the order of $N$, $\phi(N)$, by the following product: $(p - 1) \cdot (q - 1)$.
+3. Select an $e > 2$ such that it is smaller and coprime to $\phi(N)$.
+4. Calculate $d$ by setting $e \cdot d \mod \phi(N) = 1$.
+5. Select a random value $y$ that is smaller and coprime to $N$.
 
-The RSA problem consists of finding an x such that x<sup>e</sup> = y, while only being given a subset of information regarding Π, namely the variables N, e, and y. When p and q are very large, typically it is recommended that they are 1024 bits in size, the RSA problem is thought to be hard. You can see now why this is the case given the foregoing discussion. 
+The RSA problem consists of finding an $x$ such that $x^e = y$, while only being given a subset of information regarding $\Pi$, namely the variables $N$, $e$, and $y$. When $p$ and $q$ are very large, typically it is recommended that they are 1024 bits in size, the RSA problem is thought to be hard. You can see now why this is the case given the foregoing discussion.
 
-An easy way to calculate x when x<sup>e</sup> mod N = y mod N is simply by calculating y<sup>d</sup> mod N. We know y<sup>d</sup> mod N = x mod N by the following calculations:
+An easy way to calculate $x$ when $x^e \mod N = y \mod N$ is simply by calculating $y^d \mod N$. We know $y^d \mod N = x \mod N$ by the following calculations:
 
-* y<sup>d</sup> mod N = x<sup>e • d</sup> mod N = x<sup>e • d mod φ(N)</sup> mod N = x<sup>1 mod φ(N)</sup> mod N = x mod N. 
+$$ y^d \mod N = x^{e \cdot d} \mod N = x^{e \cdot d \mod \phi(N)} \mod N = x^{1 \mod \phi(N)} \mod N = x \mod N. $$
 
-The problem is that we do not know the value d, as it is not given in the problem. Hence, we cannot directly calculate y<sup>d</sup> mod N to produce x mod N. 
+The problem is that we do not know the value $d$, as it is not given in the problem. Hence, we cannot directly calculate $y^d \mod N$ to produce $x \mod N$.
 
-We might be able, however, to indirectly calculate d from the order of N, φ(n), as we know that e • d mod φ(N) = 1 mod φ(N). But by assumption the problem does not give a value for φ(N) either. 
+We might be able, however, to indirectly calculate $d$ from the order of $N$, $\phi(N)$, as we know that $e \cdot d \mod \phi(N) = 1 \mod \phi(N)$. But by assumption the problem does not give a value for $\phi(N)$ either.
 
-Finally, the order could be calculated indirectly with the prime factors p and q, so that we can eventually calculate d. But by assumption, the values p and q were also not provided to us. 
+Finally, the order could be calculated indirectly with the prime factors $p$ and $q$, so that we can eventually calculate $d$. But by assumption, the values $p$ and $q$ were also not provided to us.
 
 Strictly speaking, even if the factoring problem within an RSA problem is hard, we cannot prove that the RSA problem is also hard. There may namely be other ways to solve the RSA problem than through factoring. However, it is generally accepted and assumed that if the factoring problem within the RSA problem is hard, that the RSA problem itself is also hard.
 
-If the RSA problem is indeed hard, then it produces a one-way function with a trap door. The function here is f(g) = g<sup>e</sup> mod N. With knowledge of f(g), anyone could easily calculate a value y for a particular g = x. However, it is practically impossible to calculate a particular value x just from knowing the value y and the function f(g). The exception is when you are given a piece of information d, the trapdoor. In that case, you can simply calculate y<sup>d</sup> to give x. 
+If the RSA problem is indeed hard, then it produces a one-way function with a trapdoor. The function here is $f(g) = g^e \mod N$. With knowledge of $f(g)$, anyone could easily calculate a value $y$ for a particular $g = x$. However, it is practically impossible to calculate a particular value $x$ just from knowing the value $y$ and the function $f(g)$. The exception is when you are given a piece of information $d$, the trapdoor. In that case, you can simply calculate $y^d$ to give $x$.
 
-Lets walk through a specific example to illustrate the RSA problem. I cannot select an RSA problem that would be considered hard under the conditions above, as the numbers would be unwieldy. Instead, this example is just to illustrate how the RSA problem generally works. 
+Let's walk through a specific example to illustrate the RSA problem. I cannot select an RSA problem that would be considered hard under the conditions above, as the numbers would be unwieldy. Instead, this example is just to illustrate how the RSA problem generally works.
 
-To start, suppose you select two random prime numbers 13 and 31. So p = 13 and q = 31. The product N of these two primes equals 403. We can easily calculate the order of 403. It is equivalent to (13 – 1) • (31 – 1) = 360. 
+To start, suppose you select two random prime numbers 13 and 31. So $p = 13$ and $q = 31$. The product $N$ of these two primes equals 403. We can easily calculate the order of 403. It is equivalent to $(13 - 1) \cdot (31 - 1) = 360$.
 
-Next, as dictated by step 3 of the RSA problem, we need to select a coprime for 360 that is greater than 2 and less than 360. We do not have to select this value randomly. Suppose that we select 103. This is a coprime of 360 as its greatest common divisor with 103 is 1. 
+Next, as dictated by step 3 of the RSA problem, we need to select a coprime for 360 that is greater than 2 and less than 360. We do not have to select this value randomly. Suppose that we select 103. This is a coprime of 360 as its greatest common divisor with 103 is 1.
 
-Step 4 now requires that we calculate a value d such that 103 • d mod 360 = 1. This is not an easy task by hand when the value for N is large. It requires that we use a procedure called the **extended Euclidean algorithm**.
+Step 4 now requires that we calculate a value $d$ such that $103 \cdot d \mod 360 = 1$. This is not an easy task by hand when the value for $N$ is large. It requires that we use a procedure called the **extended Euclidean algorithm**.
 
-Though I do not show the procedure here, it yields the value 7 when e = 103. You can verify that the pair of values 103 and 7 indeed meets the general condition e • d mod φ(n) = 1 through the calculations below. 
+Though I do not show the procedure here, it yields the value 7 when $e = 103$. You can verify that the pair of values 103 and 7 indeed meets the general condition $e \cdot d \mod \phi(n) = 1$ through the calculations below.
 
-* 103 • 7 mod 360 = 721 mod 360 = 1 mod 360 
+* $103 \cdot 7 \mod 360 = 721 \mod 360 = 1 \mod 360$
 
-Importantly, given *Proposition 4*, we know that no other integer between 1 and 360 for d will produce the result that 103 • d = 1 mod 360. Additionally, the proposition implies that selecting a different value for e, will yield a different unique value for d.
+Importantly, given *Proposition 4*, we know that no other integer between 1 and 360 for $d$ will produce the result that $103 \cdot d = 1 \mod 360$. Additionally, the proposition implies that selecting a different value for $e$, will yield a different unique value for $d$.
 
-In step 5 of the RSA problem, we have to select some positive integer y which is a smaller coprime of 403. Suppose that we set y = 2<sup>103</sup>. Exponentiation of 2 by 103 yields the result below. 
+In step 5 of the RSA problem, we have to select some positive integer $y$ which is a smaller coprime of 403. Suppose that we set $y = 2^{103}$. Exponentiation of 2 by 103 yields the result below.
 
-* 2<sup>103</sup> mod 403 = 10,141,204,801,825,835,211,973,625,643,008 mod 403 = 349 mod 403
+* $2^{103} \mod 403 = 10,141,204,801,825,835,211,973,625,643,008 \mod 403 = 349 \mod 403$
 
-The RSA problem in this particular example is now as follows: You are provided with N = 403, e = 103, and y = 349 mod 403. You now have to calculate x such that x<sup>103</sup> = 349 mod 403. That is, you must find that the original value before exponentiation by 103 was 2. 
+The RSA problem in this particular example is now as follows: You are provided with $N = 403$, $e = 103$, and $y = 349 \mod 403$. You now have to calculate $x$ such that $x^{103} = 349 \mod 403$. That is, you must find that the original value before exponentiation by 103 was 2.
 
-It would be easy (for a computer at least) to calculate x if we knew that d = 7. In that case, you could just determine x as below.
+It would be easy (for a computer at least) to calculate $x$ if we knew that $d = 7$. In that case, you could just determine $x$ as below.
 
-* x = y<sup>7</sup> mod 403 = 349<sup>7</sup> mod 403 = 630,634,881,591,804,949 mod 403 = 2 mod 403
+* $x = y^7 \mod 403 = 349^7 \mod 403 = 630,634,881,591,804,949 \mod 403 = 2 \mod 403$
 
-The problem is that you have not been provided the information that d = 7. You could, of course, calculate d from the fact that 103 • d = 1 mod 360. The problem is that you are also not given the information that the order of N = 360. Finally, you could also calculate the order of 403 by calculating the following product: (p – 1) • (q – 1). But you are also not told that p = 13 and p = 31. 
+The problem is that you have not been provided the information that $d = 7$. You could, of course, calculate $d$ from the fact that $103 \cdot d = 1 \mod 360$. The problem is that you are also not given the information that the order of $N = 360$. Finally, you could also calculate the order of 403 by calculating the following product: $(p - 1) \cdot (q - 1)$. But you are also not told that $p = 13$ and $q = 31$.
 
-Of course, a computer could still solve the RSA problem for this example relatively easily, because the prime numbers involved are not large. But when the primes become very large, it faces a practically impossible task.  
+Of course, a computer could still solve the RSA problem for this example relatively easily, because the prime numbers involved are not large. But when the primes become very large, it faces a practically impossible task.
 
-We have now presented the RSA problem, a set of conditions under which it is hard, and the underlying mathematics. How does any of this help with asymmetric cryptography? Specifically, how can we turn the hardness of the RSA problem under certain conditions into an encryption scheme or a digital signature scheme? 
+We have now presented the RSA problem, a set of conditions under which it is hard, and the underlying mathematics. How does any of this help with asymmetric cryptography? Specifically, how can we turn the hardness of the RSA problem under certain conditions into an encryption scheme or a digital signature scheme?
 
-One approach is to take the RSA problem and build schemes in a straightforward manner. For instance, suppose that you generated a set of variables Π as described in the RSA problem, and ensure that p and q are sufficiently large. You set your public key equal to (N, e) and share this information with the world. As described above, you keep the values for p, q, φ(n), and d secret. In fact, d is your private key. 
+One approach is to take the RSA problem and build schemes in a straightforward manner. For instance, suppose that you generated a set of variables $\Pi$ as described in the RSA problem, and ensure that $p$ and $q$ are sufficiently large. You set your public key equal to $(N, e)$ and share this information with the world. As described above, you keep the values for $p$, $q$, $\phi(n)$, and $d$ secret. In fact, $d$ is your private key.
 
-Anyone that wants to send you a message m which is an element of **C<sub>N</sub>** could simply encrypt it as follows: c = m<sup>e</sup> mod N. (The ciphertext c here is equivalent to the value y in the RSA problem.) You can easily decrypt this message by just calculating c<sup>d</sup> mod N. 
+Anyone that wants to send you a message $m$ which is an element of **C<sub>N</sub>** could simply encrypt it as follows: $c = m^e \mod N$. (The ciphertext $c$ here is equivalent to the value $y$ in the RSA problem.) You can easily decrypt this message by just calculating $c^d \mod N$.
 
-You might attempt to create a digital signature scheme in the same manner. Suppose that you want to send someone a message m with a digital signature S. You could just set S = m<sup>d</sup> mod N and send the pair (m,S) to the recipient. Anyone can verify the digital signature just by checking whether S<sup>e</sup> mod N = m mod N. Any attacker, however, would have a really difficult time creating a valid S for a message, given that they do not posses d. 
+You might attempt to create a digital signature scheme in the same manner. Suppose that you want to send someone a message $m$ with a digital signature $S$. You could just set $S = m^d \mod N$ and send the pair $(m,S)$ to the recipient. Anyone can verify the digital signature just by checking whether $S^e \mod N = m \mod N$. Any attacker, however, would have a really difficult time creating a valid $S$ for a message, given that they do not possess $d$.
 
-Unfortunately, turning what is on its own a hard problem, the RSA problem, into a cryptographic scheme is not this straightforward. For the straightforward encryption scheme you can only select coprimes of N as your messages. That does not leave us with many possible messages, certainly not enough for standard communication. In addition, these messages have to be selected randomly. That seems somewhat impractical. Finally, any message that is selected twice will yield the exact same ciphertext. This is extremely undesirable in any encryption scheme, and does not meet any rigorous modern standard notion of security in encryption. 
+Unfortunately, turning what is on its own a hard problem, the RSA problem, into a cryptographic scheme is not this straightforward. For the straightforward encryption scheme, you can only select coprimes of $N$ as your messages. That does not leave us with many possible messages, certainly not enough for standard communication. In addition, these messages have to be selected randomly. That seems somewhat impractical. Finally, any message that is selected twice will yield the exact same ciphertext. This is extremely undesirable in any encryption scheme and does not meet any rigorous modern standard notion of security in encryption.
 
-The problems become even worse for our straightforward digital signature scheme. As it stands, any attacker can easily forge digital signatures just by first selecting a coprime of N as the signature and then calculating the corresponding original message. This clearly breaks the requirement of existential unforgeability. 
+The problems become even worse for our straightforward digital signature scheme. As it stands, any attacker can easily forge digital signatures just by first selecting a coprime of $N$ as the signature and then calculating the corresponding original message. This clearly breaks the requirement of existential unforgeability.
 
-Nevertheless, with adding a bit of clever complexity, the RSA problem can be used to create a secure public key encryption scheme as well as a secure digital signature scheme. We will not enter into the details of such constructions here.<sup>[4](#footnote4)</sup> Importantly, however, this additional complexity does not change the fundamental underlying RSA problem on which these schemes are based.
+Nevertheless, with adding a bit of clever complexity, the RSA problem can be used to create a secure public key encryption scheme as well as a secure digital signature scheme. We will not enter into the details of such constructions here. [4] Importantly, however, this additional complexity does not change the fundamental underlying RSA problem on which these schemes are based.
 
 
+**Notes:**
 
+[4] See, for example, Jonathan Katz and Yehuda Lindell, _Introduction to Modern Cryptography_, CRC Press (Boca Raton, FL: 2015), pp. 410–32 on RSA encryption and pp. 444–41 for RSA digital signatures.
 
 
 

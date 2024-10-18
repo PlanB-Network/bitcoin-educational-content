@@ -1077,15 +1077,16 @@ While we will not delve into all the details of the various notions of cryptogra
 ## Stream ciphers
 <chapterId>479aa6f4-45c4-59ca-8616-8cf8e61fc871</chapterId>
 
-Symmetric encryption schemes are standardly subdivided into two types: stream ciphers and block ciphers. This distinction is somewhat troublesome, however, as people use these terms in an inconsistent manner. In the next few sections, I will set out the distinction in the way I think is best. You should be aware, however, that many people will use these terms somewhat differently than I set out.
+Symmetric encryption schemes are standardly subdivided into two types: **stream ciphers** and **block ciphers**. This distinction is somewhat troublesome, however, as people use these terms in an inconsistent manner. In the next few sections, I will set out the distinction in the way I think is best. You should be aware, however, that many people will use these terms somewhat differently than I set out.
 
-Let’s first turn to stream ciphers. A **stream cipher** is a symmetric encryption scheme where encryption consists of two steps. 
+Let’s first turn to stream ciphers. A **stream cipher** is a symmetric encryption scheme where encryption consists of two steps.
 
 First, a string the length of the plaintext is produced via a private key. This string is called the **keystream**.
 
-Next, the key stream is mathematically combined with the plaintext to produce a ciphertext. This combination is typically an XOR operation. For decryption, you can just reverse the operation. (Note that A XOR B = B XOR A, in the case A and B are bit-strings. So the order to an XOR operation in a stream cipher does not matter for the result. This property is known as commutativity.) 
+Next, the keystream is mathematically combined with the plaintext to produce a ciphertext. This combination is typically an XOR operation. For decryption, you can just reverse the operation. (Note that $A \oplus B = B \oplus A$, in the case $A$ and $B$ are bit-strings. So the order of an XOR operation in a stream cipher does not matter for the result. This property is known as **commutativity**.)
 
-A typical XOR stream cipher is depicted in *Figure 3*. You first take a private key K and use it to generate a keystream. The keystream is, then, combined with the plaintext via an XOR operation to produce the ciphertext. Any agent that receives the ciphertext can easily decrypt it if they have the key K. All she needs to do is create a keystream as long as the ciphertext according to the specified procedure of the scheme and XOR it with the ciphertext.
+A typical XOR stream cipher is depicted in *Figure 3*. You first take a private key $K$ and use it to generate a keystream. The keystream is, then, combined with the plaintext via an XOR operation to produce the ciphertext. Any agent that receives the ciphertext can easily decrypt it if they have the key $K$. All she needs to do is create a keystream as long as the ciphertext according to the specified procedure of the scheme and XOR it with the ciphertext.
+
 
 *Figure 3: An XOR stream cipher*
 
@@ -1101,30 +1102,31 @@ As encryption gained popularity in Renaissance Europe, so did **cryptanalysis**�
 
 Informally speaking, the encryption scheme works as follows:
 
-1.	Select a multi-letter word as the private key
-2.	For any message, apply the shift cipher to each letter of the message using the corresponding letter in the key word as the shift
-3.	If you have cycled through the key word but still have not totally enciphered the plaintext, again apply the key word’s letters as a shift cipher to the corresponding letters in the remainder of the text
-4.	Continue this process until the entire message has been enciphered 
+1. Select a multi-letter word as the private key.
+2. For any message, apply the shift cipher to each letter of the message using the corresponding letter in the key word as the shift.
+3. If you have cycled through the key word but still have not totally enciphered the plaintext, again apply the key word’s letters as a shift cipher to the corresponding letters in the remainder of the text.
+4. Continue this process until the entire message has been enciphered.
 
-To illustrate, suppose that your private key is GOLD and you want to encrypt the message "CRYPTOGRAPHY". In that case you would proceed as follows according to the Vigenere cipher:
+To illustrate, suppose that your private key is "GOLD" and you want to encrypt the message "CRYPTOGRAPHY". In that case, you would proceed as follows according to the Vigenère cipher:
 
-- c<sub>0</sub>  = [(2 + 6) Mod 26] = 8 = I
-- c<sub>1</sub>  = [(17 + 14) Mod 26] = 5 = F
-- c<sub>2</sub>  = [(24 + 11) Mod 26] = 9 = J
-- c<sub>3</sub>  = [(15 + 3) Mod 26] = 18 = S
-- c<sub>4</sub>  = [(19 + 6) Mod 26] = 25 = Z
-- c<sub>5</sub>  = [(14 + 14) Mod 26] = 2 = C
-- c<sub>6</sub>  = [(6 + 11) Mod 26] = 17 = R
-- c<sub>7</sub>  = [(17 + 3) Mod 26] = 20 = U
-- c<sub>8</sub>  = [(0 + 6) Mod 26] = 6 = G
-- c<sub>9</sub>  = [(15 + 14) Mod 26] = 3 = D
-- c<sub>10</sub> = [(7 + 11) Mod 26] = 18 = S
-- c<sub>11</sub> = [(24 + 3) Mod 26] = 1 = B
-- c = "IFJSZCRUGDSB"
+- $c_0  = [(2 + 6) \mod 26] = 8 = I$
+- $c_1  = [(17 + 14) \mod 26] = 5 = F$
+- $c_2  = [(24 + 11) \mod 26] = 9 = J$
+- $c_3  = [(15 + 3) \mod 26] = 18 = S$
+- $c_4  = [(19 + 6) \mod 26] = 25 = Z$
+- $c_5  = [(14 + 14) \mod 26] = 2 = C$
+- $c_6  = [(6 + 11) \mod 26] = 17 = R$
+- $c_7  = [(17 + 3) \mod 26] = 20 = U$
+- $c_8  = [(0 + 6) \mod 26] = 6 = G$
+- $c_9  = [(15 + 14) \mod 26] = 3 = D$
+- $c_{10} = [(7 + 11) \mod 26] = 18 = S$
+- $c_{11} = [(24 + 3) \mod 26] = 1 = B$
+
+Thus, the ciphertext $c$ = "IFJSZCRUGDSB".
 
 Another famous example of a stream cipher is the **one-time pad**. With the one-time pad, you simply create a string of random bits as long as the plaintext message and produce the ciphertext via the XOR operation. Hence, the private key and the keystream are equivalent with a one-time pad. 
 
-While the Shift cipher and Vigenere ciphers are very insecure in the modern age, the one-time pad is very secure if used correctly. Probably the most famous application of the one-time pad was, at least until the 1980s, for the **Washington-Moscow hotline**.<sup>[4](#footnote4)</sup> 
+While the Shift cipher and Vigenere ciphers are very insecure in the modern age, the one-time pad is very secure if used correctly. Probably the most famous application of the one-time pad was, at least until the 1980s, for the **Washington-Moscow hotline**. [4]
 
 The hotline is a direct communications link between Washington and Moscow for urgent matters that was installed after the Cuban Missile Crisis. The technology for the has transformed over the years. Currently, it includes a direct fiber optic cable as well as two satellite links (for redundancy), which enable e-mail and text messaging. The link ends in various places in the US. The Pentagon, the White House, and Raven Rock Mountain are known endpoints. Contrary to popular opinion, the hotline has never involved telephones.  
 
@@ -1138,19 +1140,24 @@ Instead, the predominant stream ciphers used in practice are **pseudorandom stre
 
 With these pseudorandom stream ciphers, you first randomly select a key K that is shorter than the length of the plaintext. Such a random key K is usually created by our computer on the basis of unpredictable data which it collects over time, such as the time between network messages, mouse movements, and so on. 
 
-This random key K is then inserted into an expansion algorithm which creates a pseudorandom key stream as long as the message. You can specify precisely how long the keystream needs to be (e.g., 500 bits, 1000 bits, 1200 bits, 29,117 bits, and so on). 
+This random key $K$ is then inserted into an expansion algorithm which creates a pseudorandom key stream as long as the message. You can specify precisely how long the keystream needs to be (e.g., 500 bits, 1000 bits, 1200 bits, 29,117 bits, and so on). 
 
 A pseudorandom keystream appears *as if* it was chosen completely randomly from the set of all strings with the same length. Hence, encryption with a pseudorandom keystream appears as if it had been done with a one-time pad. But that is, of course, not the case. 
 
 As our private key is shorter than the keystream and our expansionary algorithm needs to be deterministic in order for the encryption/decryption process to work, not every keystream of that particular length could have resulted as an output from our expansionary operation. 
 
-Suppose, for instance, that our private key has a length of 128 bits and that we can insert it into an expansionary algorithm to create a much longer keystream, say of 2,500 bits. As our expansionary algorithm needs to be deterministic, our algorithm can at most select 1/2<sup>128</sup> strings with a length of 2,500 bits. So such a keystream could never be selected entirely randomly from all the strings of the same length. 
+Suppose, for instance, that our private key has a length of 128 bits and that we can insert it into an expansionary algorithm to create a much longer keystream, say of 2,500 bits. As our expansionary algorithm needs to be deterministic, our algorithm can at most select $1/2^{128}$ strings with a length of 2,500 bits. So such a keystream could never be selected entirely randomly from all the strings of the same length.
 
 Our definition of a stream cipher has two aspects: (1) a keystream as long as the plaintext is generated with the aid of a private key; and (2) this keystream is combined with the plaintext, typically via an XOR operation, to produce the ciphertext. 
 
 Sometimes people define condition (1) more strictly, by asserting that the keystream must specifically be pseudorandom. This means that neither the shift cipher, nor the one-time pad would be considered stream ciphers. 
 
 In my view, defining condition (1) more broadly provides an easier way to organize encryption schemes. In addition, it means that we do not have to stop calling a particular encryption scheme a stream cipher just because we learn that it does not actually rely on pseudorandom keystreams. 
+
+**Notes:**
+
+[4] Crypto Museum, "Washington-Moscow hotline," 2013, available at [https://www.cryptomuseum.com/crypto/hotline/index.htm](https://www.cryptomuseum.com/crypto/hotline/index.htm).
+
 
 
 ## Block ciphers

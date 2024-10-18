@@ -2,7 +2,7 @@
   end_date: 2024-10-21 04:00:00
   timezone: Asia/Makassar
   address_line_1: Kabupaten Badung, Bali 80351, Indonesia
-  address_line_2: Jl. Kayu Manis, Canggu, Kec. Kuta Utara, Kabupaten Badung
+  address_line_2: Jalan Kayu Manis, Canggu, Kec. Kuta Utara
   address_line_3:
   name: ₿-Cert Exam at Bitcoin House Bali
   builder: Bitcoin House Bali
@@ -14,9 +14,8 @@
   description: The only knowledge test on Bitcoin and related subjects organised in collaboration by bitcoin House Bali with Plan ₿ Network.
   language:
     - en
-    - in
   links:
-    website:
+    website: https://www.eventbrite.com/e/-cert-exam-at-bitcoin-house-bali-tickets-1050283605537
     replay_url:
     live_url:
   tags:

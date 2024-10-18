@@ -1,0 +1,26 @@
+id: a26a0220-806c-44b4-af14-bafdeb1adce7
+
+builder: None
+
+tags:
+  - good-practice
+  - risks
+  - wallets
+
+category: backup
+
+level: advanced
+
+credits:
+  professor: pretty-private
+
+# Proofreading metadata
+
+original_language: fr
+proofreading:
+  - language: fr
+    last_contribution_date: 2024-10-16
+    urgency:
+    contributors_id:
+      - LoicPandul
+    reward:

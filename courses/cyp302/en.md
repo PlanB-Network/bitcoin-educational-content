@@ -1937,7 +1937,7 @@ Whenever you multiply two numbers, say $a$ and $b$, we refer to the numbers $a$ 
 
 Around 2,500 years ago, the Greek mathematician Euclid of Alexandria discovered a key theorem about the factorization of integers. It is commonly called the **unique factorization theorem** and states the following: 
 
-*Theorem 1*. Every integer $N$ which is greater than 1 is either a prime number, or can be expressed as a product of prime factors. 
+**Theorem 1**. Every integer $N$ which is greater than 1 is either a prime number, or can be expressed as a product of prime factors. 
 
 All the latter part of this statement means is that you can take any non-prime integer $N$ greater than 1, and write it out as a multiplication of prime numbers. Below are several examples of non-prime integers written as the product of prime factors.
 
@@ -2023,110 +2023,117 @@ Some of the material in the three subsections has already been introduced in *Ch
 
 ### The order of N
 
-An integer a is **coprime** or a **relative prime** with an integer N, if the greatest common divisor between them is 1. While 1 is by convention not a prime number, it is a coprime of every integer (as is – 1). 
+An integer $a$ is **coprime** or a **relative prime** with an integer $N$, if the greatest common divisor between them is 1. While 1 is by convention not a prime number, it is a coprime of every integer (as is $-1$). 
 
-For instance, consider the case when a = 18 and N = 37. These are clearly coprimes. The greatest integer which divides into both 18 and 37 is 1. By contrast, consider the case when a = 42 and N = 16. These are clearly not coprimes. Both numbers are divisible by 2, which is greater than 1.  
+For instance, consider the case when $a = 18$ and $N = 37$. These are clearly coprimes. The greatest integer which divides into both 18 and 37 is 1. By contrast, consider the case when $a = 42$ and $N = 16$. These are clearly not coprimes. Both numbers are divisible by 2, which is greater than 1.  
 
-We can now define the order of N as follows. Suppose that N is an integer greater than 1. The **order of N** is, then, the number of all coprimes with N such that for each coprime a, the following condition holds: 1 ≤ a < N. 
+We can now define the order of $N$ as follows. Suppose that $N$ is an integer greater than 1. The **order of N** is, then, the number of all coprimes with $N$ such that for each coprime $a$, the following condition holds: $1 \leq a < N$. 
 
-For instance, if N = 12, then 1, 5, 7, and 11 are the only coprimes that meet the requirement above. Hence, the order of 12 is equal to 4. 
+For instance, if $N = 12$, then 1, 5, 7, and 11 are the only coprimes that meet the requirement above. Hence, the order of 12 is equal to 4. 
 
-Suppose that N is a prime number. Then any integer smaller than N but greater or equal to 1 is coprime with it. This includes all the elements in the following set: {1,2,3….,N – 1}. Hence, when N is prime, the order of N is N – 1. This is stated in proposition 1, where φ(N) denotes the order of N. 
+Suppose that $N$ is a prime number. Then any integer smaller than $N$ but greater or equal to 1 is coprime with it. This includes all the elements in the following set: $\{1,2,3,….,N - 1\}$. Hence, when $N$ is prime, the order of $N$ is $N - 1$. This is stated in proposition 1, where $\phi(N)$ denotes the order of $N$. 
 
-**Proposition 1**. φ(N) = N – 1 when N is prime
+**Proposition 1**. $\phi(N) = N - 1$ when $N$ is prime
 
-Suppose that N is not prime. You can, then, calculate its order using **Euler’s Phi function**. While calculating the order of a small integer is relatively straightforward, Euler’s Phi function becomes particularly important for larger integers. The proposition of Euler’s Phi function is stated below.
+Suppose that $N$ is not prime. You can, then, calculate its order using **Euler’s Phi function**. While calculating the order of a small integer is relatively straightforward, Euler’s Phi function becomes particularly important for larger integers. The proposition of Euler’s Phi function is stated below.
 
-*Theorem 2*. Let N equal p<sub>1</sub><sup>e_1</sup> • p<sub>2</sub><sup>e_2</sup> • … • p<sub>i</sub><sup>e_i</sup> • … • p<sub>n</sub><sup>e_n</sup>, where the set {p<sub>i</sub>} consists of all the distinct prime factors of N and each e_i indicates how many times the prime factor p<sub>i</sub> occurs for N. Then, φ(N) = p<sub>1</sub><sup>e_1 - 1</sup> • (p<sub>1</sub> - 1) • p<sub>2</sub><sup>e_2 - 1</sup> • (p<sub>2</sub> - 1) • … • p<sub>n</sub><sup>e_n - 1</sup> • (p<sub>n</sub> - 1).
+**Theorem 2**. Let $N$ equal $p_1^{e_1} \cdot p_2^{e_2} \cdot \ldots \cdot p_i^{e_i} \cdot \ldots \cdot p_n^{e_n}$, where the set $\{p_i\}$ consists of all the distinct prime factors of $N$ and each $e_i$ indicates how many times the prime factor $p_i$ occurs for $N$. Then, 
 
-*Theorem 2* shows that once you have broken down any non-prime N into its distinct prime factors, it is easy to calculate the order of N. 
+$$\phi(N) = p_1^{e_1 - 1} \cdot (p_1 - 1) \cdot p_2^{e_2 - 1} \cdot (p_2 - 1) \cdot \ldots \cdot p_n^{e_n - 1} \cdot (p_n - 1)$$
 
-For instance, suppose that N = 270. This is clearly not a prime number. Breaking down N into its prime factors yields the expression: 2 • 3<sup>3</sup> • 5. According to Euler’s Phi function, the order of N is then as follows:
+**Theorem 2** shows that once you have broken down any non-prime $N$ into its distinct prime factors, it is easy to calculate the order of $N$. 
 
-* φ(N) = 2<sup>1 – 1</sup> (2 – 1) + 3<sup>3 – 1</sup> (3 – 1) + 5<sup>1 – 1</sup> (5 – 1) = 1 (1) + 9 (2) + 1 (4) = 1 + 18 + 4 = 23
+For instance, suppose that $N = 270$. This is clearly not a prime number. Breaking down $N$ into its prime factors yields the expression: $2 \cdot 3^3 \cdot 5$. According to Euler’s Phi function, the order of $N$ is then as follows:
 
-Suppose next that N is a product of two primes, p and q. *Theorem 2* above, then, states that the order of N is as follows: p<sup>1 – 1</sup> (p – 1) x q<sup>1 – 1</sup> (q – 1) = (p – 1) x (q – 1). This is a key result for the RSA problem particularly, and is stated in *Proposition 2* below. 
+$$\phi(N) = 2^{1 - 1} \cdot (2 - 1) + 3^{3 - 1} \cdot (3 - 1) + 5^{1 - 1} \cdot (5 - 1) = 1 \cdot 1 + 9 \cdot 2 + 1 \cdot 4 = 1 + 18 + 4 = 23$$
 
-*Proposition 2*. If N is the product of two primes, p and q, the order of N is the product (p – 1) x (q – 1). 
+Suppose next that $N$ is a product of two primes, $p$ and $q$. **Theorem 2** above, then, states that the order of $N$ is as follows: 
 
-To illustrate, suppose that N = 119. This integer can be factored into two primes, namely 7 and 17. Hence, Euler’s Phi function suggests that the order of 119 is as follows: 
+$$p^{1 - 1} \cdot (p - 1) \cdot q^{1 - 1} \cdot (q - 1) = (p - 1) \cdot (q - 1)$$
 
-* φ(119) = (7 – 1) • (17 – 1) = 6 • 16 = 96.  
+This is a key result for the RSA problem particularly, and is stated in **Proposition 2** below. 
+
+**Proposition 2**. If $N$ is the product of two primes, $p$ and $q$, the order of $N$ is the product $(p - 1) \cdot (q - 1)$. 
+
+To illustrate, suppose that $N = 119$. This integer can be factored into two primes, namely 7 and 17. Hence, Euler’s Phi function suggests that the order of 119 is as follows: 
+
+$$\phi(119) = (7 - 1) \cdot (17 - 1) = 6 \cdot 16 = 96$$  
 
 In other words, the integer 119 has 96 coprimes in the range from 1 until 119. In fact, this set includes all integers from 1 until 119, which are not multiples of either 7 or 17. 
 
-From here on, lets denote the set of coprimes that determines the order of N as **C<sub>N</sub>**. For our example where N = 119, the set **C<sub>119</sub>** is far too large to list completely. But some of the elements are as follows: **C<sub>119</sub>** = {1,2,….6,8….13,15,16,18,….,33,35….,96}.
+From here on, let’s denote the set of coprimes that determines the order of $N$ as **C<sub>N</sub>**. For our example where $N = 119$, the set **C<sub>119</sub>** is far too large to list completely. But some of the elements are as follows: 
 
+$$C_{119} = \{1, 2, \dots 6, 8 \dots 13, 15, 16, 18, \dots 33, 35 \dots 96\}$$
 
 ### Invertibility modulo N
 
-We can say that an integer a is **invertible modulo N**, if there exists at least one integer b such that a x b modulo N = 1 modulo N. Any such integer b is referred to as an **inverse** (or **multiplicative inverse**) of a given reduction by modulo N. 
+We can say that an integer $a$ is **invertible modulo N**, if there exists at least one integer $b$ such that $a \cdot b \mod N = 1 \mod N$. Any such integer $b$ is referred to as an **inverse** (or **multiplicative inverse**) of $a$ given reduction by modulo $N$. 
 
-Suppose, for example, that a = 5 and N = 11. There are many integers by which you can multiply 5, so that 5 x b mod 11 = 1 mod 11. Consider, for instance, the integers 20 and 31. It is easy to see that both these integers are inverses of 5 for reduction modulo 11. 
+Suppose, for example, that $a = 5$ and $N = 11$. There are many integers by which you can multiply 5, so that $5 \cdot b \mod 11 = 1 \mod 11$. Consider, for instance, the integers 20 and 31. It is easy to see that both these integers are inverses of 5 for reduction modulo 11. 
 
-* 5 x 20 mod 11 = 100 mod 11 = 1 mod 11
-* 5 x 31 mod 11 = 155 mod 11 = 1 mod 11
+* $5 \cdot 20 \mod 11 = 100 \mod 11 = 1 \mod 11$
+* $5 \cdot 31 \mod 11 = 155 \mod 11 = 1 \mod 11$
 
 While 5 has many inverses reduction modulo 11, you can show that only a single positive inverse of 5 exists which is less than 11. In fact, this is not unique to our particular example, but a general result. 
 
-*Proposition 3*. If the integer a is invertible modulo N, it must be the case that exactly one positive inverse of a is less than N. (So, this unique inverse of a must come from the set {1,…,N – 1}).
+**Proposition 3**. If the integer $a$ is invertible modulo $N$, it must be the case that exactly one positive inverse of $a$ is less than $N$. (So, this unique inverse of $a$ must come from the set $\{1, \dots, N - 1\}$).
 
-Lets denote the unique inverse of a from Proposition 3 as a<sup>-1</sup>. For the case when a = 5 and N = 11, you can see that a<sup>-1</sup> = 9, given that 5 x 9 mod 11 = 45 mod 11 = 1 mod 11. 
+Let's denote the unique inverse of $a$ from **Proposition 3** as $a^{-1}$. For the case when $a = 5$ and $N = 11$, you can see that $a^{-1} = 9$, given that $5 \cdot 9 \mod 11 = 45 \mod 11 = 1 \mod 11$. 
 
-Notice that you can also obtain the value 9 for a<sup>-1</sup> in our example by simply reducing any other inverse of a by modulo 11. For instance, 20 mod 11 = 31 mod 11 = 9 mod 11. So whenever an integer a > N is invertible modulo N, then a mod N must also be invertible modulo N. 
+Notice that you can also obtain the value 9 for $a^{-1}$ in our example by simply reducing any other inverse of $a$ by modulo 11. For instance, $20 \mod 11 = 31 \mod 11 = 9 \mod 11$. So whenever an integer $a > N$ is invertible modulo $N$, then $a \mod N$ must also be invertible modulo $N$. 
 
-It is not necessarily the case that an inverse of a exists reduction modulo N. Suppose, for example, that a = 2 and N = 8. There is no b, or any a<sup>-1</sup> specifically, such that 2 x b mod 8 = 1 mod 8. This is because any value of b will always produce a multiple of 2, so no division by 8 can ever yield a remainder that equals 1.
+It is not necessarily the case that an inverse of $a$ exists reduction modulo $N$. Suppose, for example, that $a = 2$ and $N = 8$. There is no $b$, or any $a^{-1}$ specifically, such that $2 \cdot b \mod 8 = 1 \mod 8$. This is because any value of $b$ will always produce a multiple of 2, so no division by 8 can ever yield a remainder that equals 1.
 
-How exactly do we know if some integer a has an inverse for a given N? As you may have noticed in the example above, the greatest common divisor between 2 and 8 is higher than 1, namely 2. And this is actually illustrative of the following general result:
+How exactly do we know if some integer $a$ has an inverse for a given $N$? As you may have noticed in the example above, the greatest common divisor between 2 and 8 is higher than 1, namely 2. And this is actually illustrative of the following general result:
 
-*Proposition 4*. An inverse exists of an integer a given reduction modulo N, and specifically a unique positive inverse less than N, if and only if the greatest common divisor between a and N is 1 (that is, if they are coprimes). 
+**Proposition 4**. An inverse exists of an integer $a$ given reduction modulo $N$, and specifically a unique positive inverse less than $N$, if and only if the greatest common divisor between $a$ and $N$ is 1 (that is, if they are coprimes). 
 
-For the case when a = 5 and N = 11, we concluded that a<sup>-1</sup> = 9, given that 5 x 9 mod 11 = 45 mod 11 = 1 mod 11. It is important to note that the reverse is also true. That is, when a = 9 and N = 11, it is the case that a<sup>-1</sup> = 5. 
+For the case when $a = 5$ and $N = 11$, we concluded that $a^{-1} = 9$, given that $5 \cdot 9 \mod 11 = 45 \mod 11 = 1 \mod 11$. It is important to note that the reverse is also true. That is, when $a = 9$ and $N = 11$, it is the case that $a^{-1} = 5$. 
 
 
 ### Euler's theorem
 
 Before moving onto the RSA problem, we need to understand one more crucial theorem, namely **Euler’s theorem**. It states the following:
 
-*Theorem 3*. Suppose two integers a and N are coprimes. Then, a<sup>φ(N)</sup> mod N = 1 mod N. 
+**Theorem 3**. Suppose two integers $a$ and $N$ are coprimes. Then, $a^{\phi(N)} \mod N = 1 \mod N$.
 
-This is a remarkable result, but a little confusing at first. Lets turn to an example to understand it.
+This is a remarkable result, but a little confusing at first. Let's turn to an example to understand it.
 
-Suppose that a = 5 and N = 7. These are indeed coprimes as Euler’s theorem requires. We know that the order of 7 equals 6, given that 7 is a prime number (see **Proposition 1**). 
+Suppose that $a = 5$ and $N = 7$. These are indeed coprimes as Euler’s theorem requires. We know that the order of 7 equals 6, given that 7 is a prime number (see **Proposition 1**).
 
-What Euler’s theorem now states is that 5<sup>6</sup> mod 7 must be equal to 1 mod 7. Below are the calculations to show that this is indeed true.
+What Euler’s theorem now states is that $5^6 \mod 7$ must be equal to $1 \mod 7$. Below are the calculations to show that this is indeed true.
 
-* 5<sup>6</sup> mod 7 = 15,625 mod 7 = 1 mod N 
+* $5^6 \mod 7 = 15,625 \mod 7 = 1 \mod N$
 
-The integer 7 divides into 15,624 a total of 2,233 times. Hence, the remainder of dividing 16,625 by 7 is 1. 
+The integer 7 divides into 15,624 a total of 2,233 times. Hence, the remainder of dividing 16,625 by 7 is 1.
 
-Next, using Euler’s Phi function, *Theorem 2*, you can derive *Proposition 5* below. 
+Next, using Euler’s Phi function, **Theorem 2**, you can derive **Proposition 5** below.
 
-*Proposition 5*. φ(a • b) = φ(a) • φ(b) for any positive integers a and b.
+**Proposition 5**. $\phi(a \cdot b) = \phi(a) \cdot \phi(b)$ for any positive integers $a$ and $b$.
 
-We will not show why this is the case. But merely note that you have already seen evidence of this proposition by the fact that φ(p • q) = φ(p) • φ(q) = (p – 1) • (q – 1) when p and q are primes, as stated in *Proposition 2*.
+We will not show why this is the case. But merely note that you have already seen evidence of this proposition by the fact that $\phi(p \cdot q) = \phi(p) \cdot \phi(q) = (p - 1) \cdot (q - 1)$ when $p$ and $q$ are primes, as stated in **Proposition 2**.
 
-Euler’s theorem in conjunction with *Proposition 5* has important implications. See what happens, for instance, in the expressions below, where a and N are coprimes. 
+Euler’s theorem in conjunction with **Proposition 5** has important implications. See what happens, for instance, in the expressions below, where $a$ and $N$ are coprimes.
 
-* a<sup>2 • φ(N)</sup> mod N = a<sup>φ(N)</sup> • a<sup>φ(N)</sup> mod N = 1 • 1 mod N = 1 mod N
-* a<sup>φ(N) + 1</sup> mod N = a<sup>φ(N)</sup> • a<sup>1</sup> mod N = 1 • a<sup>1</sup> mod N = a mod N
-* a<sup>8 • φ(N) + 3</sup> mod N = a<sup>8 • φ(N)</sup> • a<sup>3</sup>  mod N = 1 • a<sup>3</sup>  mod N = a<sup>3</sup>  mod N
+* $a^{2 \cdot \phi(N)} \mod N = a^{\phi(N)} \cdot a^{\phi(N)} \mod N = 1 \cdot 1 \mod N = 1 \mod N$
+* $a^{\phi(N) + 1} \mod N = a^{\phi(N)} \cdot a^1 \mod N = 1 \cdot a^1 \mod N = a \mod N$
+* $a^{8 \cdot \phi(N) + 3} \mod N = a^{8 \cdot \phi(N)} \cdot a^3 \mod N = 1 \cdot a^3 \mod N = a^3 \mod N$
 
-Hence, the combination of Euler’s theorem and *Proposition 5* allow us to simply calculate a number of expressions. In general, we can summarize the insight as in *Proposition 6*.
+Hence, the combination of Euler’s theorem and **Proposition 5** allow us to simply calculate a number of expressions. In general, we can summarize the insight as in **Proposition 6**.
 
-*Proposition 6*. a<sup>x</sup> mod N = a<sup>x mod φ(N)</sup>
+**Proposition 6**. $a^x \mod N = a^{x \mod \phi(N)}$
 
-Now we have to put everything together in a tricky last step. 
+Now we have to put everything together in a tricky last step.
 
-Just as N has an order φ(N) which includes the elements of the set **C<sub>N</sub>**, we know that the integer φ(N) must in turn also have an order and a set of coprimes. Lets set φ(N) = R. Then we know that there is also a value for φ(R) and a set of coprimes **C<sub>R</sub>**.
+Just as $N$ has an order $\phi(N)$ which includes the elements of the set **C<sub>N</sub>**, we know that the integer $\phi(N)$ must in turn also have an order and a set of coprimes. Let's set $\phi(N) = R$. Then we know that there is also a value for $\phi(R)$ and a set of coprimes **C<sub>R</sub>**.
 
-Suppose that we now select an integer e from the set **C<sub>R</sub>**. We know from *Proposition 3* that this integer e only has one unique positive inverse less than R. That is, e has one unique inverse from the set **C<sub>R</sub>**. Lets call this inverse d. Given the definition of an inverse, this means that e • d = 1 mod R.
+Suppose that we now select an integer $e$ from the set **C<sub>R</sub>**. We know from **Proposition 3** that this integer $e$ only has one unique positive inverse less than $R$. That is, $e$ has one unique inverse from the set **C<sub>R</sub>**. Let's call this inverse $d$. Given the definition of an inverse, this means that $e \cdot d = 1 \mod R$.
 
-We can use this result to make a statement about our original integer N. This is summarized in *Proposition 7*.
+We can use this result to make a statement about our original integer $N$. This is summarized in **Proposition 7**.
 
-*Proposition 7*. Suppose that e • d mod φ(N) = 1 mod φ(N). Then for any element a of the set **C<sub>N</sub>** it must be the case that a<sup>e • d mod φ(N)</sup> = a<sup>1 mod φ(N)</sup> = a mod N. 
+**Proposition 7**. Suppose that $e \cdot d \mod \phi(N) = 1 \mod \phi(N)$. Then for any element $a$ of the set **C<sub>N</sub>** it must be the case that $a^{e \cdot d \mod \phi(N)} = a^{1 \mod \phi(N)} = a \mod N$.
 
-We know have all the number theoretic results needed to state the RSA problem clearly.
+We now have all the number theoretic results needed to state the RSA problem clearly.
 
 
 ## The RSA cryptosystem

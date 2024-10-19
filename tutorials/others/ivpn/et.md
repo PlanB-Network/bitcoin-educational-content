@@ -1,6 +1,6 @@
 ---
-name: IVPN
-description: VPN-i seadistamine, mille eest on makstud bitcoinidega
+nimi: IVPN
+kirjeldus: VPN-i seadistamine, mille eest on makstud bitcoinidega
 ---
 ![kaas](assets/cover.webp)
 

@@ -1,6 +1,6 @@
 ---
-name: Satscard
-description: Satscardi seadistamine ja kasutamine koos Nunchukiga
+nimi: Satscard
+kirjeldus: Satscardi seadistamine ja kasutamine koos Nunchukiga
 ---
 ![kaas](assets/cover.webp)
 

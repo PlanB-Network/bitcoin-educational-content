@@ -1,6 +1,6 @@
 ---
-name: BITWARDEN
-description: Kuidas seadistada paroolihaldurit?
+nimi: BITWARDEN
+kirjeldus: Kuidas seadistada paroolihaldurit?
 ---
 ![kaas](assets/cover.webp)
 

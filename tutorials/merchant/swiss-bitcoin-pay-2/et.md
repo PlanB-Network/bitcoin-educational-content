@@ -1,6 +1,6 @@
 ---
-name: Swiss Bitcoin Pay
-description: Kuidas lihtsalt vastu võtta Bitcoini makseid?
+nimi: Swiss Bitcoin Pay
+kirjeldus: Kuidas lihtsalt vastu võtta Bitcoini makseid?
 ---
 ![kaas](assets/cover.webp)
 

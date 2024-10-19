@@ -1,6 +1,6 @@
 ---
-name: Coinjoin - Dojo
-description: Kuidas teostada coinjoin'i oma Dojo abil?
+nimi: Coinjoin - Dojo
+kirjeldus: Kuidas teostada coinjoin'i oma Dojo abil?
 ---
 ![kaas](assets/cover.webp)
 

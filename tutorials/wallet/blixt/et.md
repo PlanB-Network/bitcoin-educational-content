@@ -1,7 +1,7 @@
 ---
-name: Blixt
+nimi: Blixt
 
-description: Mobiilne LN Node Rahakott
+kirjeldus: Mobiilne LN Node Rahakott
 ---
 
 ![esitlus](assets/blixt_intro_en.webp)

@@ -1,5 +1,5 @@
 ---
-name: Ledger Flex
+nimi: Ledger Flex
 kuvaus: Ledger Flexin asettaminen ja käyttäminen
 ---
 ![kansi](assets/cover.webp)

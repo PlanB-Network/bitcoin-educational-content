@@ -8,14 +8,14 @@
   builder: Bitcoin House Bali
   type: exam
   book_online: false
-  book_in_person: false
+  book_in_person: true
   price_dollars: 0
   available_seats: 100
   description: The only knowledge test on Bitcoin and related subjects organised in collaboration by bitcoin House Bali with Plan ₿ Network.
   language:
     - en
   links:
-    website: https://bitcoinindonesia.xyz/
+    website: 
     replay_url:
     live_url:
   tags:

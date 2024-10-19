@@ -728,9 +728,6 @@ Braiins OS+ поддерживает разгон, подразгон ASIC и а
 <chapterId>6af13742-df68-5cf4-b7aa-93dc0c2eaae9</chapterId>
 <isCourseReview>true</isCourseReview>
 
-## Выпускной экзамен
-<chapterId>306a1230-050f-5739-b965-6692542ff6bc</chapterId>
-<isCourseExam>true</isCourseExam>
 
 ## Управление Antminer S9 со смартфона
 

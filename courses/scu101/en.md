@@ -521,9 +521,6 @@ As part of the "Security 101" training module on Découvre Bitcoin Academy, we a
 <chapterId>6be74d2d-2116-5386-9d92-c4c3e2103c68</chapterId>
 <isCourseReview>true</isCourseReview>
 
-## Final Exam
-<chapterId>a894b251-a85a-5fa4-bf2a-c2a876939b49</chapterId>
-<isCourseExam>true</isCourseExam>
 
 ## Acknowledgments and keep digging the rabbit hole
 <chapterId>df3a962a-a96e-5006-b904-0dd9d4a072dd</chapterId>

@@ -546,9 +546,6 @@ La méthodologie est un aspect essentiel en économie et en sciences sociales en
 <chapterId>29d4323c-e34e-5834-bf03-2f3ed10d751b</chapterId>
 <isCourseReview>true</isCourseReview>
 
-## Examen final
-<chapterId>d58d188f-81fb-572a-a898-8b6f8aceba7a</chapterId>
-<isCourseExam>true</isCourseExam>
 
 ## Études supplémentaires
 <chapterId>64faaed4-84b9-5b8c-9736-a959e8e6cd9d</chapterId>

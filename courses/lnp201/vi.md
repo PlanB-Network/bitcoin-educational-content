@@ -554,9 +554,6 @@ Cuối cùng, tương lai của Bitcoin hứa hẹn với một dự báo có th
 <chapterId>38814c99-eb7b-5772-af49-4386ee2ce9b0</chapterId>
 <isCourseReview>true</isCourseReview>
 
-## Kỳ thi cuối cùng
-<chapterId>7ed33400-aef7-5f3e-bfb1-7867e445d708</chapterId>
-<isCourseExam>true</isCourseExam>
 
 ## Lời cảm ơn và tiếp tục khám phá hố thỏ
 <chapterId>afc0d72b-4fbc-5893-90b2-e27fb519ad02</chapterId>

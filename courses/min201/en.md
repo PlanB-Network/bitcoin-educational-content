@@ -746,9 +746,6 @@ The end result is a higher hash rate per watt of electricity, which means larger
 <chapterId>6af13742-df68-5cf4-b7aa-93dc0c2eaae9</chapterId>
 <isCourseReview>true</isCourseReview>
 
-## Final Exam
-<chapterId>306a1230-050f-5739-b965-6692542ff6bc</chapterId>
-<isCourseExam>true</isCourseExam>
 
 ## Controlling an Antminer S9 from your smartphone
 <chapterId>6e7c234a-a445-5070-b087-531d16c42107</chapterId>

@@ -1,6 +1,6 @@
 ---
-nimi: Bitrefill
-kirjeldus: Kuidas osta kaupu ja teenuseid BTC-ga kasutades Bitrefilli?
+name: Bitrefill
+description: Kuidas osta kaupu ja teenuseid BTC-ga kasutades Bitrefilli?
 ---
 ![kaas](assets/cover.webp)
 

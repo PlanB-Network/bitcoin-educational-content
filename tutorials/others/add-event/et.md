@@ -66,7 +66,7 @@ Näiteks võiks teie YAML-fail välja näha selline:
   book_online: false
   book_in_person: false
   price_dollars: 0
-kirjeldus: Prantsusmaa suurim Bitcoin'i konverents, kus igal aastal osaleb üle 8000 osaleja!
+description: Prantsusmaa suurim Bitcoin'i konverents, kus igal aastal osaleb üle 8000 osaleja!
   keel:
     - fr
     - en
@@ -90,7 +90,7 @@ https://planb.network/tutorials/others/add-builder
 
 - Kui olete selle faili muutmisega lõpetanud, salvestage need, klõpsates nupul `Commit changes...`:
 ![üritus](assets/10.webp)
-- Lisage oma muudatustele pealkiri, samuti lühike kirjeldus:
+- Lisage oma muudatustele pealkiri, samuti lühike description:
 ![üritus](assets/11.webp)
 - Klõpsake rohelisel nupul `Propose changes`:
 ![üritus](assets/12.webp)
@@ -138,7 +138,7 @@ https://planb.network/tutorials/others/add-builder
 ![event](assets/34.webp)
 - Peaksite nägema teadet, mis näitab, et teie haru on läbinud muudatusi. Klõpsake nupul `Compare & pull request` (Võrdle ja esita tõmbetaotlus):
 ![event](assets/35.webp)
-- Lisage oma PR-ile selge pealkiri ja kirjeldus:
+- Lisage oma PR-ile selge pealkiri ja description:
 ![event](assets/36.webp)
 - Klõpsake nupul `Create pull request` (Loo tõmbetaotlus):
 ![event](assets/37.webp)

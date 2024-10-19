@@ -1,6 +1,6 @@
 ---
-nimi: GitHub Desktop
-kirjeldus: Kuidas seadistada oma kohalikku töökeskkonda?
+name: GitHub Desktop
+description: Kuidas seadistada oma kohalikku töökeskkonda?
 ---
 ![github](assets/cover.webp)
 

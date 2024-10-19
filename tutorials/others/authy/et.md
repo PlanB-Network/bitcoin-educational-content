@@ -1,6 +1,6 @@
 ---
-nimi: AUTHY 2FA
-kirjeldus: Kuidas kasutada 2FA rakendust?
+name: AUTHY 2FA
+description: Kuidas kasutada 2FA rakendust?
 ---
 ![kaas](assets/cover.webp)
 

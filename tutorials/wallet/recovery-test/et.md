@@ -1,6 +1,6 @@
 ---
-nimi: Taastamise Test
-kirjeldus: Kuidas testida oma varukoopiaid, et veenduda, et sa ei kaota oma bitcoine?
+name: Taastamise Test
+description: Kuidas testida oma varukoopiaid, et veenduda, et sa ei kaota oma bitcoine?
 ---
 ![kaas](assets/cover.webp)
 

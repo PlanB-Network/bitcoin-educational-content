@@ -1,6 +1,6 @@
 ---
-nimi: VeraCrypt
-kirjeldus: Kuidas hõlpsasti krüpteerida salvestusseadet?
+name: VeraCrypt
+description: Kuidas hõlpsasti krüpteerida salvestusseadet?
 ---
 ![kaas](assets/cover.webp)
 

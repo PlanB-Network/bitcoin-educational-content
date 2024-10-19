@@ -1,6 +1,6 @@
 ---
-nimi: Tapsigner
-kirjeldus: Tapsigneri seadistamine ja kasutamine koos Nunchukiga
+name: Tapsigner
+description: Tapsigneri seadistamine ja kasutamine koos Nunchukiga
 ---
 ![kaas](assets/cover.webp)
 

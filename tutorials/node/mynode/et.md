@@ -1,6 +1,6 @@
 ---
-nimi: Minu Node
-kirjeldus: Seadista oma bitcoin MyNode
+name: Minu Node
+description: Seadista oma bitcoin MyNode
 ---
 
 ![pilt](assets/0.webp)

@@ -1,6 +1,6 @@
 ---
-name: Tor Browser
-description: Kuidas kasutada Tor brauserit?
+nimi: Tor Browser
+kirjeldus: Kuidas kasutada Tor brauserit?
 ---
 ![kaas](assets/cover.webp)
 

@@ -1,5 +1,5 @@
 ---
-name: BitAxe seadistamine
+nimi: BitAxe seadistamine
 Kirjeldus: Kuidas seadistada BitAxe'i?
 ---
 

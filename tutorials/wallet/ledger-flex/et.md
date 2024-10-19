@@ -1,6 +1,6 @@
 ---
-name: Ledger Flex
-description: Ledger Flexi seadistamine ja kasutamine
+nimi: Ledger Flex
+kirjeldus: Ledger Flexi seadistamine ja kasutamine
 ---
 ![kaas](assets/cover.webp)
 

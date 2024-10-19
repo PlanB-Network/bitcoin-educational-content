@@ -1,7 +1,7 @@
 ---
-name: Bitkit Rahakott
+nimi: Bitkit Rahakott
 
-description: Seadista oma isehalduslik on-chain ja Lightning Rahakott
+kirjeldus: Seadista oma isehalduslik on-chain ja Lightning Rahakott
 ---
 
 ![kaas](assets/cover.webp)

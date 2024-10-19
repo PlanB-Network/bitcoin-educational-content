@@ -1,6 +1,6 @@
 ---
-name: YUBIKEY 2FA
-description: Kuidas kasutada füüsilist turvavõtit?
+nimi: YUBIKEY 2FA
+kirjeldus: Kuidas kasutada füüsilist turvavõtit?
 ---
 ![kaas](assets/cover.webp)
 

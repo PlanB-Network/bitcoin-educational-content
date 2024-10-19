@@ -1,6 +1,6 @@
 ---
-name: PROTON MAIL
-description: Turvalise e-posti kasti seadistamine
+nimi: PROTON MAIL
+kirjeldus: Turvalise e-posti kasti seadistamine
 ---
 ![kaas](assets/cover.webp)
 

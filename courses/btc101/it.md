@@ -990,7 +990,7 @@ Bitcoin è diventato un importante asset finanziario, principalmente a causa del
 - Le performance passate non sono indicative delle performance future.
 - Contatta il tuo consulente finanziario se necessario.
 
-> DécouvreBitcoin (Rogzy) non fornisce consulenza sugli investimenti e nulla di ciò che viene affermato qui deve essere considerato come tale.
+> Plan ₿ Network non fornisce consulenza sugli investimenti e nulla di ciò che viene affermato qui deve essere considerato come tale.
 
 ### Mini check-list prima di fare il grande passo
 

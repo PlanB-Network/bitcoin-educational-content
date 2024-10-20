@@ -1100,7 +1100,7 @@ Bitcoin est devenu un actif financier majeur, principalement en raison de son of
 - Les performances passées ne préjugent pas des performances futures.
 - Contactez votre conseiller financier si besoin.
 
-> DécouvreBitcoin (Rogzy) ne fait pas de conseil en investissement et rien de ce qui est énoncé ici ne doit être considéré comme tel.
+> Plan ₿ Network ne fait pas de conseil en investissement et rien de ce qui est énoncé ici ne doit être considéré comme tel.
 
 ### Mini Check-list avant de faire le grand saut
 

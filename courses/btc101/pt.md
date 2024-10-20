@@ -1000,7 +1000,7 @@ Bitcoin é se tornou um ativo financeiro importante, principalmente devido à su
 - O desempenho passado não garante o desempenho futuro.
 - Entre em contato com seu consultor financeiro, se necessário.
 
-> DécouvreBitcoin (Rogzy) não oferece consultoria de investimento e nada do que é declarado aqui deve ser considerado como tal.
+> Plan ₿ Network não oferece consultoria de investimento e nada do que é declarado aqui deve ser considerado como tal.
 
 ### Mini Check-list antes de dar o grande salto
 

@@ -1016,7 +1016,7 @@ Bitcoin on muutunud oluliseks finantsvaraks, peamiselt tänu selle piiratud pakk
 - Varasem tootlus ei ole tuleviku tootluse näitaja.
 - Vajadusel võtke ühendust oma finantsnõustajaga.
 
-> DécouvreBitcoin (Rogzy) ei paku investeerimisnõuandeid ja siin öeldut ei tohiks sellisena pidada.
+> Plan ₿ Network ei paku investeerimisnõuandeid ja siin öeldut ei tohiks sellisena pidada.
 
 ### Mini-kontrollnimekiri enne sukeldumist
 

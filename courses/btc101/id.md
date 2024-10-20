@@ -1019,7 +1019,7 @@ Bitcoin telah menjadi aset keuangan yang besar, terutama karena pasokannya yang 
 - Performa masa lalu bukan merupakan indikasi performa di masa mendatang.
 - Hubungi penasihat keuangan Anda jika diperlukan.
 
-> DécouvreBitcoin (Rogzy) tidak memberikan saran dan nasihat investasi, dan semua informasi yang disampaikan di sini tidak dapat dianggap sebagai nasihat investasi.
+> Plan ₿ Network tidak memberikan saran dan nasihat investasi, dan semua informasi yang disampaikan di sini tidak dapat dianggap sebagai nasihat investasi.
 
 ### Daftar Periksa Singkat sebelum Terjun Lebih Dalam
 

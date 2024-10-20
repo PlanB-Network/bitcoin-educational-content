@@ -986,7 +986,7 @@ Bitcoin đã trở thành một tài sản tài chính quan trọng, chủ yếu
 - Hiệu suất trong quá khứ không là dấu hiệu của hiệu suất tương lai.
 - Liên hệ với cố vấn tài chính của bạn nếu cần.
 
-> DécouvreBitcoin (Rogzy) không cung cấp lời khuyên đầu tư và mọi thông tin ở đây không nên được coi là như vậy.
+> Plan ₿ Network không cung cấp lời khuyên đầu tư và mọi thông tin ở đây không nên được coi là như vậy.
 
 ### Danh sách kiểm tra Mini trước khi nhảy vào
 

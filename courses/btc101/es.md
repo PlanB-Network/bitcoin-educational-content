@@ -1036,7 +1036,7 @@ Bitcoin se ha convertido en un activo financiero importante, principalmente debi
 - El rendimiento pasado no garantiza resultados futuros.
 - Consulte a un asesor financiero si es necesario.
 
-> Plan B Network no ofrece asesoramiento de inversión y nada de lo que se dice aquí debe considerarse como tal.
+> Plan ₿ Network no ofrece asesoramiento de inversión y nada de lo que se dice aquí debe considerarse como tal.
 
 ### Mini lista de verificación antes de dar el gran salto
 

@@ -973,7 +973,7 @@ Bitcoin on muodostunut merkittäväksi rahoitusomaisuudeksi, pääasiassa sen ra
 - Menneisyys ei ole tae tulevaisuuden suorituskyvystä.
 - Ota yhteyttä talousneuvojaasi tarvittaessa.
 
-> DécouvreBitcoin (Rogzy) ei tarjoa sijoitusneuvontaa, eikä mitään tässä esitettyä tulisi pitää sellaisena.
+> Plan ₿ Network ei tarjoa sijoitusneuvontaa, eikä mitään tässä esitettyä tulisi pitää sellaisena.
 
 ### Mini-tarkistuslista ennen sukeltamista
 

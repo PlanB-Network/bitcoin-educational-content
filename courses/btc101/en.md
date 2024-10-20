@@ -905,7 +905,7 @@ The flames in oil wells, which burn methane to prevent pollution, can be extingu
 
 The technology of Bitcoin is often misunderstood, and criticisms regarding its environmental impact are often simplistic and short-term. These criticisms are often motivated by political interests. Bitcoin has the potential to help with the ecological transition and contribute to a greener world. The media often spreads false ideas about Bitcoin and ecology. So take the time to form your own opinion. Everything is transparent with Bitcoin.
 
-> Follow one of Bitcoin's maxims: Don't trust, verify for yourself!
+> Follow one of Bitcoin's maxims: Don't trust, Verify!
 
 ### Quick recap in a poster!
 
@@ -1028,7 +1028,7 @@ Bitcoin has become a major financial asset, mainly due to its limited supply and
 - Past performance is not indicative of future performance.
 - Contact your financial advisor if needed.
 
-> DécouvreBitcoin (Rogzy) does not provide investment advice and nothing stated here should be considered as such.
+> Plan ₿ Network does not provide investment advice and nothing stated here should be considered as such.
 
 ### Mini Checklist before taking the plunge
 

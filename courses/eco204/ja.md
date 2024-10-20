@@ -856,7 +856,7 @@ VOCの創設後、金融史におけるもう一つの重要な要素は、ア�
 
 
 
-## このコースについてのフィードバックをお寄せください
+## コースを評価してください
 <chapterId>1a37317e-372a-5241-b478-8316d44f9283</chapterId>
 <isCourseReview>true</isCourseReview>
 

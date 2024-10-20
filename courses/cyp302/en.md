@@ -1952,7 +1952,7 @@ You can find a complete version of the license [here](https://creativecommons.or
 
 
 
-## Give us some feedback about this course
+## Evaluate the course
 <chapterId>f1905f78-8cf7-5031-949a-dfa8b76079b4</chapterId>
 <isCourseReview>true</isCourseReview>
 

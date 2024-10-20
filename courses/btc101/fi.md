@@ -1284,7 +1284,7 @@ Suuri kiitos Patreon-tukijoillemme, jäsenillemme ja lahjoittajillemme heidän t
 
 Nähdään pian!
 
-## Anna meille palautetta tästä kurssista
+## Arvioi kurssi
 
 <chapterId>585729e2-b0ab-51b5-89ec-593e3ea22c57</chapterId>
 <isCourseReview>true</isCourseReview>

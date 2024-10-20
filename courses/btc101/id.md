@@ -1294,7 +1294,7 @@ Terima kasih yang sebesar-besarnya kepada pendukung, anggota, dan donor Patreon 
 
 Sampai jumpa lagi!
 
-## Beri kami umpan balik tentang kursus ini
+## Evaluasi kursus ini
 <chapterId>585729e2-b0ab-51b5-89ec-593e3ea22c57</chapterId>
 <isCourseReview>true</isCourseReview>
 

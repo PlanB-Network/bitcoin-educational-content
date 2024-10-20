@@ -1020,7 +1020,7 @@ Kirjoitti Frédéric Bastiat lyhyessä pamfletissa nimeltä Valtio.
 
 
 
-## Anna meille palautetta tästä kurssista
+## Arvioi kurssi
 <chapterId>db20170d-ceb6-56cd-b4e5-c690942f8b29</chapterId>
 <isCourseReview>true</isCourseReview>
 

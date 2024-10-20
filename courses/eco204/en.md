@@ -938,7 +938,7 @@ Central banks have evolved to become lenders of last resort, suspending the conv
 
 
 
-## Give us some feedback about this course
+## Evaluate the course
 <chapterId>1a37317e-372a-5241-b478-8316d44f9283</chapterId>
 <isCourseReview>true</isCourseReview>
 

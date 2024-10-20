@@ -1606,7 +1606,7 @@ Bây giờ bạn đã trải qua Mô-đun "Vượt qua sự hoài nghi", bạn s
 
 
 
-## Cho chúng tôi biết phản hồi của bạn về khóa học này
+## Đánh giá khóa học
 <chapterId>86e358bb-88f4-5d20-af53-93f0f3524590</chapterId>
 <isCourseReview>true</isCourseReview>
 

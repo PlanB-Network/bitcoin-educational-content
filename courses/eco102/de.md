@@ -1014,7 +1014,7 @@ Schrieb Frédéric Bastiat in einer kurzen Broschüre mit dem Titel Der Staat.
 
 
 
-## Geben Sie uns Ihr Feedback zu diesem Kurs
+## Bewerten Sie den Kurs
 <chapterId>db20170d-ceb6-56cd-b4e5-c690942f8b29</chapterId>
 <isCourseReview>true</isCourseReview>
 

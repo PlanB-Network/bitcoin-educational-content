@@ -3650,7 +3650,7 @@ Since this feature is recent, it is advisable to exercise caution and avoid usin
 
 
 
-## Give us some feedback about this course
+## Evaluate the course
 <chapterId>195d149f-80fa-5816-8b46-995a9226d082</chapterId>
 <isCourseReview>true</isCourseReview>
 

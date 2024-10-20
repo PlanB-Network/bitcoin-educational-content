@@ -1287,7 +1287,7 @@ Um enorme agradecimento aos nossos Patreon, membros e doadores pelo seu apoio fi
 
 Até breve!
 
-## Dê-nos seu feedback sobre este curso
+## Avalie o curso
 
 <chapterId>585729e2-b0ab-51b5-89ec-593e3ea22c57</chapterId>
 <isCourseReview>true</isCourseReview>

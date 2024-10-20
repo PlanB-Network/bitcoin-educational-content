@@ -1043,7 +1043,7 @@ _(Цицерон)_
 
 
 
-## Оставьте отзыв о данном курсе
+## Оцените курс
 <chapterId>db20170d-ceb6-56cd-b4e5-c690942f8b29</chapterId>
 <isCourseReview>true</isCourseReview>
 

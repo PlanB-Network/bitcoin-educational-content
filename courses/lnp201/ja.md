@@ -604,7 +604,7 @@ KYCでビットコインを購入することで、取引所は引き出しト�
 
 
 
-## このコースについてのフィードバックをお寄せください
+## コースを評価してください
 <chapterId>38814c99-eb7b-5772-af49-4386ee2ce9b0</chapterId>
 <isCourseReview>true</isCourseReview>
 

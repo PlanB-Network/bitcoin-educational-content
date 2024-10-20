@@ -815,7 +815,7 @@ Le résultat final est un taux de hachage plus élevé par watt d’électricit�
 
 
 
-## Donnez-nous votre avis sur ce cours
+## Évaluez ce cours
 <chapterId>6af13742-df68-5cf4-b7aa-93dc0c2eaae9</chapterId>
 <isCourseReview>true</isCourseReview>
 

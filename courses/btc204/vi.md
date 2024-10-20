@@ -3456,7 +3456,7 @@ Vì tính năng này là mới, nên cần thận trọng và tránh sử dụng
 
 
 
-## Cho chúng tôi biết phản hồi của bạn về khóa học này
+## Đánh giá khóa học
 <chapterId>195d149f-80fa-5816-8b46-995a9226d082</chapterId>
 <isCourseReview>true</isCourseReview>
 

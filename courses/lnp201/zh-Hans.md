@@ -576,7 +576,7 @@ Alice 通过 Susie 的节点向 Loop 发送了 100 万，因此 Susie 拥有了�
 
 最后，比特币的未来充满希望，五年内可能达到一百万的预测。为了确保行业的专业化和创建一个替代现有银行系统的替代系统，重要的是要为网络做出贡献并停止信任。
 
-## 给我们关于这门课程的反馈
+## 评估课程
 <chapterId>38814c99-eb7b-5772-af49-4386ee2ce9b0</chapterId>
 <isCourseReview>true</isCourseReview>
 

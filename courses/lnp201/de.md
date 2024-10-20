@@ -598,7 +598,7 @@ Schließlich ist die Zukunft von Bitcoin vielversprechend, mit einer möglichen 
 
 
 
-## Geben Sie uns Ihr Feedback zu diesem Kurs
+## Bewerten Sie den Kurs
 <chapterId>38814c99-eb7b-5772-af49-4386ee2ce9b0</chapterId>
 <isCourseReview>true</isCourseReview>
 

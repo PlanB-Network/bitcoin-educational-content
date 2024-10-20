@@ -1339,7 +1339,7 @@ This mysterious aspect surrounding the creator of Bitcoin was well summarized by
 > What does the S stand for?"
 
 
-## Give us some feedback about this course
+## Evaluate the course
 <chapterId>73825805-29e2-54bf-a8c3-62614b52fbef</chapterId>
 <isCourseReview>true</isCourseReview>
 

@@ -1279,7 +1279,7 @@ BTC101コースの修了おめでとうございます！あなたがこのコ�
 
 またお会いしましょう！
 
-## このコースについてのフィードバックをお寄せください
+## コースを評価してください
 <chapterId>585729e2-b0ab-51b5-89ec-593e3ea22c57</chapterId>
 <isCourseReview>true</isCourseReview>
 

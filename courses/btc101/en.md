@@ -1334,7 +1334,7 @@ A huge thank you to our Patreon supporters, members, and donors for their financ
 
 See you soon!
 
-## Give us some feedback about this course
+## Evaluate the course
 
 <chapterId>585729e2-b0ab-51b5-89ec-593e3ea22c57</chapterId>
 <isCourseReview>true</isCourseReview>

@@ -1020,7 +1020,7 @@ Napsal Frédéric Bastiat v krátké brožuře nazvané Stát.
 
 
 
-## Dejte nám zpětnou vazbu k tomuto kurzu
+## Ohodnoťte kurz
 <chapterId>db20170d-ceb6-56cd-b4e5-c690942f8b29</chapterId>
 <isCourseReview>true</isCourseReview>
 

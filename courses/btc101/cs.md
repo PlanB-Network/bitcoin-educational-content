@@ -1291,7 +1291,7 @@ Tento kurz, stejně jako veškerý obsah na této univerzitě, vám byl nabídnu
 Velké poděkování patří našim podporovatelům na Patreonu, členům a dárcům za jejich finanční podporu, děkujeme lidem, kteří sdílejí, a děkujeme těm, kteří umožnili toto školení: Rachel, Muriel, týmu StackinSat, JohnOnChain, Fanis, Guillaume, Lounes, korektorům a recenzentům.
 Brzy na viděnou!
 
-## Dejte nám zpětnou vazbu k tomuto kurzu
+## Ohodnoťte kurz
 
 <chapterId>585729e2-b0ab-51b5-89ec-593e3ea22c57</chapterId>
 <isCourseReview>true</isCourseReview>

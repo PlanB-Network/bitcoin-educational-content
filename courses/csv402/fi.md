@@ -112,7 +112,7 @@ Onnea opintoihisi, ja jos tarvitset yhteydenottoa tiimiimme tai opettajiin, käy
 
 
 
-## Anna meille palautetta tästä kurssista
+## Arvioi kurssi
 <chapterId>0217e8b0-942a-5fee-bd91-9a866551eff3</chapterId>
 <isCourseReview>true</isCourseReview>
 

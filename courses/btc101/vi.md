@@ -1255,7 +1255,7 @@ Một lời cảm ơn lớn đến những người hỗ trợ Patreon, các th�
 
 Hẹn gặp lại bạn!
 
-## Cho chúng tôi biết phản hồi của bạn về khóa học này
+## Đánh giá khóa học
 <chapterId>585729e2-b0ab-51b5-89ec-593e3ea22c57</chapterId>
 <isCourseReview>true</isCourseReview>
 

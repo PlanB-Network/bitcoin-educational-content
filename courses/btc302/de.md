@@ -1312,7 +1312,7 @@ Natürlich sind **in anderen Ländern die Gesetzgebung und die Funktionsweise vo
 
 
 
-## Geben Sie uns Ihr Feedback zu diesem Kurs
+## Bewerten Sie den Kurs
 <chapterId>08a35d2a-204b-519a-9bb1-588665a037fa</chapterId>
 <isCourseReview>true</isCourseReview>
 

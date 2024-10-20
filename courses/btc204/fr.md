@@ -3889,7 +3889,7 @@ Puisque cette fonctionnalité est récente, il est conseillé de faire preuve de
 
 
 
-## Donnez-nous votre avis sur ce cours
+## Évaluez ce cours
 <chapterId>195d149f-80fa-5816-8b46-995a9226d082</chapterId>
 <isCourseReview>true</isCourseReview>
 

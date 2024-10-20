@@ -1399,6 +1399,6 @@ Un immense merci à nos Patreon, membres et donateurs pour leur soutien financie
 
 À bientôt!
 
-## Donnez-nous votre avis sur ce cours
+## Évaluez ce cours
 <chapterId>585729e2-b0ab-51b5-89ec-593e3ea22c57</chapterId>
 <isCourseReview>true</isCourseReview>

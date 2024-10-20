@@ -3443,7 +3443,7 @@ Silent Paymentsの提案は比較的最近のもので、これまでに実装�
 
 
 
-## このコースについてのフィードバックをお寄せください
+## コースを評価してください
 <chapterId>195d149f-80fa-5816-8b46-995a9226d082</chapterId>
 <isCourseReview>true</isCourseReview>
 

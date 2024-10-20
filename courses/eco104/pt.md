@@ -1556,7 +1556,7 @@ Agora que você passou pelo Módulo "Superando Dúvidas", terá que testar seu c
 
 
 
-## Dê-nos seu feedback sobre este curso
+## Avalie o curso
 <chapterId>86e358bb-88f4-5d20-af53-93f0f3524590</chapterId>
 <isCourseReview>true</isCourseReview>
 

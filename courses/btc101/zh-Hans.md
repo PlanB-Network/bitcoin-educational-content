@@ -1287,7 +1287,7 @@ Bob将他的交易发送到比特币网络中，当矿工发布包含着此交�
 
 我们很快再见！
 
-## 给我们关于这门课程的反馈
+## 评估课程
 
 <chapterId>585729e2-b0ab-51b5-89ec-593e3ea22c57</chapterId>
 <isCourseReview>true</isCourseReview>

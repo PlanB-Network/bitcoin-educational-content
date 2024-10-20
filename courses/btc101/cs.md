@@ -1282,15 +1282,6 @@ Gratulujeme k dokončení tohoto kurzu BTC 101! Doufám, že se vám líbil a ot
 - [MIN 201](https://planb.network/courses/min201) pro více informací o těžbě
 - a mnoho dalších...
 
-## Podpořte nás
-
-<chapterId>3e6e756b-b6c4-5d41-bece-767922348067</chapterId>
-
-Tento kurz, stejně jako veškerý obsah na této univerzitě, vám byl nabídnut zdarma naší komunitou. Můžete nás podpořit tím, že jej sdílíte s ostatními, stanete se členem univerzity a dokonce přispějete k jejímu rozvoji prostřednictvím [našeho GitHubu](https://github.com/PlanB-Network/bitcoin-educational-content). Jménem celého týmu, děkujeme!
-
-Velké poděkování patří našim podporovatelům na Patreonu, členům a dárcům za jejich finanční podporu, děkujeme lidem, kteří sdílejí, a děkujeme těm, kteří umožnili toto školení: Rachel, Muriel, týmu StackinSat, JohnOnChain, Fanis, Guillaume, Lounes, korektorům a recenzentům.
-Brzy na viděnou!
-
 ## Ohodnoťte kurz
 
 <chapterId>585729e2-b0ab-51b5-89ec-593e3ea22c57</chapterId>

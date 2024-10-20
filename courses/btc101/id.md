@@ -1283,16 +1283,6 @@ Selamat, Anda telah menyelesaikan kursus BTC 101 ini! Kami sungguh berharap Anda
 - [MIN 201](https://planb.network/courses/min201) untuk mempelajari lebih lanjut tentang penambangan
 - dan banyak lagi...
 
-## Dukung kami
-
-<chapterId>3e6e756b-b6c4-5d41-bece-767922348067</chapterId>
-
-Komunitas ini telah menyediakan kursus ini, serta semua konten di universitas ini kepada Anda secara gratis. Untuk mendukung kami, Anda dapat membagikannya dengan orang lain, menjadi anggota universitas, dan bahkan berkontribusi pada pengembangannya melalui [GitHub kami](https://github.com/DecouvreBitcoin/sovereign-university-data). Mewakili seluruh anggota tim, kami ucapkan terima kasih!
-
-
-Terima kasih yang sebesar-besarnya kepada pendukung, anggota, dan donor Patreon kami atas dukungan finansial mereka, terima kasih kepada orang-orang yang membagikan, dan terima kasih kepada mereka yang membuat pelatihan ini mungkin: Rachel, Muriel, tim StackinSat, JohnOnChain, Fanis, Guillaume, Lounes, para penguji-baca, dan para peninjau.
-
-Sampai jumpa lagi!
 
 ## Evaluasi kursus ini
 <chapterId>585729e2-b0ab-51b5-89ec-593e3ea22c57</chapterId>

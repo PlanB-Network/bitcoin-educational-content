@@ -3212,7 +3212,7 @@ Let's recap the steps we've just gone through together to send a BIP47 payment:
 
 If Alice wants to make a second payment, she will follow the same steps as before, except this time she will select the second derived public key from Bob's payment code. Specifically, she will use the next unused key. She will thus obtain a new receiving address belonging to Bob, designated $K1$:
 
-![BTC204](assets/en/66/22.webp)
+![BTC204](assets/en/227.webp)
 
 She can continue in this manner and derive up to `2^32` unused addresses belonging to Bob.
 
@@ -3224,7 +3224,7 @@ From an external viewpoint, by observing the blockchain, it is theoretically imp
 
 This looks like a standard transaction with a consumed input, a payment output, and a change:
 
-![BTC204](assets/notext/66/23.webp)
+![BTC204](assets/en/228.webp)
 
 ### Receiving the BIP47 Payment and Deriving the Private Key
 
@@ -3268,7 +3268,7 @@ I'll summarize the steps we just went through together to receive a BIP47 paymen
 - He obtains a new ephemeral public key, to which Alice will send her first payment;
 - Bob calculates the private key associated with this ephemeral public key by adding his derived child private key from his payment code and the shared secret.
 
-![BTC204](assets/en/66/24.webp)
+![BTC204](assets/en/229.webp)
 
 Since Alice cannot obtain $b$ (Bob's private key), she is unable to determine $k0$ (the private key associated with Bob's BIP47 receiving address). Schematically, we can represent the calculation of the shared secret $S$ like this:
 
@@ -3276,7 +3276,7 @@ Since Alice cannot obtain $b$ (Bob's private key), she is unable to determine $k
 
 Once the shared secret is found with ECDH, Alice and Bob calculate the BIP47 payment public key $K0$, and Bob also calculates the associated private key $k0$:
 
-![BTC204](assets/en/66/25.webp)
+![BTC204](assets/en/231.webp)
 
 ### Refunding the BIP47 Payment
 
@@ -3286,7 +3286,7 @@ The refund functionality is specific to BIP47 and is one of its advantages over 
 
 Bob can then refund Alice in the same way she sent him payments. The roles are reversed:
 
-![BTC204](assets/en/66/26.webp)
+![BTC204](assets/en/232.webp)
 
 *A big thank you to [Fanis Michalakis](https://x.com/FanisMichalakis) for his review and valuable expert advice on the article that inspired the writing of this chapter!*
 
@@ -3369,7 +3369,7 @@ $$  p = (b + \text{hash}(b \cdot A)) \bmod n  $$
 
 As you can see, to calculate this private key $p$, one must necessarily have the private key $b$. Only Bob has this private key $b$. He will therefore indeed be the only one able to spend the bitcoins sent to his Silent Payments address.
 
-![BTC204](assets/notext/67/02.webp)
+![BTC204](assets/en/234.webp)
 *Caption:*
 - $B$: The public key / static address published by Bob
 - $b$: Bob's private key
@@ -3414,7 +3414,7 @@ $$
 p_1 = (b + \text{hash}(b \cdot A \text{ ‖ } 1)) \bmod n 
  $$
 
-![BTC204](assets/notext/67/03.webp)
+![BTC204](assets/en/235.webp)
 
 *Caption:*
 - $B$: The public key / static address published by Bob
@@ -3454,7 +3454,7 @@ $$
 p_0 = (b + \text{hash}(\text{inputHash} \cdot b \cdot A \text{ ‖ } 0)) \bmod n
  $$
 
-![BTC204](assets/notext/67/04.webp)
+![BTC204](assets/en/236.webp)
 
 *Legend:*
 - $B$: The public key / static address published by Bob
@@ -3478,7 +3478,7 @@ For example, imagine that Alice's transaction has 3 inputs, each secured with a 
 - $a_1$ secures input #1;
 - $a_2$ secures input #2.
 
-![BTC204](assets/notext/67/05.webp)
+![BTC204](assets/en/237.webp)
 
 Following the method described above, Alice would have to choose a single pair of keys among $a_0$, $a_1$, and $a_2$ to calculate the ECDH secret and generate the unique payment address $P$ from Bob's static address $B$. However, this approach requires Bob to test each possibility sequentially, starting with $a_0$, then $a_1$, and so on, until identifying a pair generating a valid address $P$. This process demands that Bob executes the ECDH calculation on all inputs of all transactions, significantly increasing the operational scanning workload.
 
@@ -3524,7 +3524,7 @@ As you can see, so far, Bob has not needed to use $b_{\text{spend}}$ which is on
 
 $$ p_0 = (b_{\text{spend}} + \text{hash}(\text{inputHash} \cdot b_{\text{scan}} \cdot A \text{ ‖ } 0)) \bmod n $$
 
-![BTC204](assets/notext/67/06.webp)
+![BTC204](assets/en/238.webp)
 
 *Caption:*
 - $B_{\text{scan}}$: Bob's scan public key (static address)
@@ -3582,7 +3582,7 @@ Thanks to this method, Bob can use a multitude of static addresses ($B_1$, $B_2$
 
 However, this separation of static addresses is only valid from a personal wallet management perspective and does not allow for the separation of identities. Since they all have the same $B_{\text{scan}}$, it is very easy to associate all the static addresses together and deduce that they belong to a single entity.
 
-![BTC204](assets/notext/67/07.webp)
+![BTC204](assets/en/239.webp)
 
 *Caption:*
 - $B_{\text{scan}}$: Bob's scan public key (static address)

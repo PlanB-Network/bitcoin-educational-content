@@ -25,7 +25,6 @@ objectives:
 ## 理解闪电网络
 <chapterId>df6230ae-ff35-56ea-8651-8e65580730a8</chapterId>
 
-![video en](https://youtu.be/QDQ8NG0l3hk)
 
 闪电网络是建立在比特币网络之上的第二层支付基础设施，它能够实现快速和低成本的交易。要完全理解闪电网络的工作原理，理解什么是支付通道以及它们是如何工作的至关重要。
 
@@ -72,7 +71,6 @@ objectives:
 ## 比特币、地址、UTXO 和交易
 <chapterId>0cfb7e6b-96f0-508b-9210-90bc1e28649d</chapterId>
 
-![video](https://youtu.be/U9l5IVriCss)
 
 在这第二章中，我们花时间研究比特币交易实际是如何工作的，这对于理解闪电网络非常有用。我们还简要讨论了多重签名地址的概念，这对于理解下一章关于在闪电网络上开设通道至关重要。
 
@@ -104,7 +102,6 @@ objectives:
 ## 通道开启
 <chapterId>96243eb0-f6b5-5b68-af1f-fffa0cc16bfe</chapterId>
 
-![视频](https://youtu.be/Ty80WuN5X-g)
 
 现在，我们将更仔细地看看通道是如何通过比特币交易开启的。
 
@@ -148,7 +145,6 @@ Alice现在可以独自回收资金，因为她已经有了Bob的签名。她发
 ## 闪电交易 & 承诺交易
 <chapterId>7d3fd135-129d-5c5a-b306-d5f2f1e63340</chapterId>
 
-![视频](https://youtu.be/dzPMGiR_JSE)
 
 ![封面](assets/fr/11.webp)
 现在让我们分析一下在闪电网络的一个通道从一端向另一端转移资金时，幕后真正发生了什么，这涉及到承诺交易的概念。链上提现/关闭交易代表了通道的状态，保证了每次转账后资金的所有权。因此，在闪电网络转账后，这个交易/合约会在两个对等方，爱丽丝和鲍勃之间更新，他们在关闭的情况下创建具有当前通道状态的相同交易：
@@ -182,7 +178,6 @@ Alice现在可以独自回收资金，因为她已经有了Bob的签名。她发
 ## 承诺交易
 <chapterId>f2f61e5b-badb-5947-9a81-7aa530b44e59</chapterId>
 
-![视频](https://youtu.be/veCs39uVFUk)
 
 如果承诺交易决定了时间点X的通道状态和流动性，我们能通过发布旧状态来作弊吗？答案是肯定的，因为我们已经拥有了两位参与者在未发布交易中的预签名。
 
@@ -209,7 +204,6 @@ Alice现在可以独自回收资金，因为她已经有了Bob的签名。她发
 ## 通道关闭
 <chapterId>29a72223-2249-5400-96f0-3756b1629bc2</chapterId>
 
-![video](https://youtu.be/zmAa2fj_V7w)
 
 我们关注通过比特币交易进行的通道关闭，这可以根据情况采取不同的形式。有3种类型的通道关闭：
 
@@ -249,7 +243,6 @@ Alice现在可以独自回收资金，因为她已经有了Bob的签名。她发
 ## 闪电网络
 <chapterId>45a7252c-fa4f-554b-b8bb-47449532918e</chapterId>
 
-![视频](https://youtu.be/44oBdNdXtEQ)
 
 在这第七章中，我们研究闪电网络如何作为一个通道网络工作，以及如何从源头路由支付到目的地。
 
@@ -329,7 +322,6 @@ Alice现在可以独自回收资金，因为她已经有了Bob的签名。她发
 ## HTLC - 哈希时间锁定合约
 <chapterId>4369b85a-1365-55d8-99e1-509088210116</chapterId>
 
-![video](https://youtu.be/jI4nM297aHA)
 
 在传统的路由系统中，我们如何确保伊甸不会作弊并遵守他们的合约部分？
 
@@ -381,7 +373,6 @@ Alice的承诺交易是带有HTLC-out的，因为她向接收者Susie发送了�
 ## 寻找你的路径
 <chapterId>7e2ae959-c2a1-512e-b5d6-8fd962e819da</chapterId>
 
-![video](https://youtu.be/CqetCElRjUQ)
 
 唯一的公开数据是总通道容量（Alice + Bob），但我们不知道流动性的位置。
 为了获得更多信息，我们的节点监听LN通信频道，以获取新通道的公告和通道费用的更新。你的节点还会查看区块链以了解通道关闭情况。
@@ -450,7 +441,6 @@ Bob因为直接连接到通道5和3，所以他知道这些通道的流动性，
 ## 发票，LNURL，Keysend
 <chapterId>e34c7ecd-2327-52e3-b61e-c837d9e5e8b0</chapterId>
 
-![视频](https://youtu.be/XANzf1Qqp9I)
 
 ![封面](assets/fr/39.webp)
 
@@ -500,7 +490,6 @@ Keysend允许Alice在不请求Bob的情况下向Bob发送钱。Alice检索Bob的
 ## 管理流动性
 <chapterId>cc76d0c4-d958-57f5-84bf-177e21393f48</chapterId>
 
-![视频](https://youtu.be/MIbej28La7Y)
 
 ![指导](assets/fr/42.webp)
 

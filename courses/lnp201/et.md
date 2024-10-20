@@ -27,7 +27,6 @@ Nautige avastamist!
 
 <chapterId>df6230ae-ff35-56ea-8651-8e65580730a8</chapterId>
 
-![video en](https://youtu.be/QDQ8NG0l3hk)
 
 Lightning Network on teise kihi makseinfrastruktuur, mis on ehitatud Bitcoin'i võrgu peale ja võimaldab kiireid ning madala maksumusega tehinguid. Lightning Network'i toimimise täielikuks mõistmiseks on oluline mõista, mis on maksekanalid ja kuidas need töötavad.
 
@@ -76,7 +75,6 @@ Nüüd soovib Bob saata 80,000 SAT Alicele. Kuna tal pole piisavalt likviidsust,
 
 <chapterId>0cfb7e6b-96f0-508b-9210-90bc1e28649d</chapterId>
 
-![video](https://youtu.be/U9l5IVriCss)
 
 Selles teises peatükis võtame aega, et uurida, kuidas Bitcoin'i tehingud tegelikult toimivad, mis on väga kasulik Lightningi mõistmiseks. Arutame lühidalt ka mitme allkirjaga aadresside kontseptsiooni, mis on oluline järgmise peatüki mõistmiseks Lightning Network'is kanalite avamisel.
 
@@ -111,7 +109,6 @@ Lightning Network'is kasutatakse mitme allkirjaga tehinguid. Seega on vahendite 
 
 <chapterId>96243eb0-f6b5-5b68-af1f-fffa0cc16bfe</chapterId>
 
-![video](https://youtu.be/Ty80WuN5X-g)
 
 Nüüd vaatame lähemalt, kuidas kanalit avatakse ja kuidas see toimub läbi Bitcoin'i tehingu.
 
@@ -156,7 +153,6 @@ Alice saab nüüd vahendid üksi tagasi, kuna tal on juba Bobi allkiri. Ta avald
 
 <chapterId>7d3fd135-129d-5c5a-b306-d5f2f1e63340</chapterId>
 
-![video](https://youtu.be/dzPMGiR_JSE)
 
 ![kaas](assets/fr/11.webp)
 Nüüd analüüsime, mis tegelikult toimub kulisside taga, kui vahendid ühelt poolt teisele Lightning Network'i kanalis liiguvad, kasutades kohustusliku tehingu (commitment transaction) mõistet. Ahelasisene väljavõtte-/sulgemistehing esindab kanali olekut, tagades, kes omab vahendeid pärast iga ülekannet. Seega pärast Lightning Network'i ülekannet uuendatakse seda tehingut/lepingut, mida ei teostata kahe osapoole, Alice'i ja Bobi vahel, kes loovad sulgemise korral sama tehingu praeguse kanali olekuga:
@@ -191,7 +187,6 @@ Raha ei liigu tegelikult, kuid lõplik saldo uuendatakse allkirjastatud, kuid av
 
 <chapterId>f2f61e5b-badb-5947-9a81-7aa530b44e59</chapterId>
 
-![video](https://youtu.be/veCs39uVFUk)
 
 Kui kohustuslikud tehingud määravad kanali oleku likviidsusega ajahetkel X, kas me saame petta, avaldades vana oleku? Vastus on jah, sest meil on juba mõlema osaleja eelallkiri avaldamata tehingus.
 
@@ -252,7 +247,6 @@ Kokkuvõttes on kanali sulgemine Lightning Networkis oluline samm, mis võib võ
 
 <chapterId>45a7252c-fa4f-554b-b8bb-47449532918e</chapterId>
 
-![video](https://youtu.be/44oBdNdXtEQ)
 
 Selles seitsmendas peatükis uurime, kuidas Lightning toimib kanalite võrgustikuna ja kuidas makseid suunatakse nende lähtekohast sihtkohta.
 
@@ -335,7 +329,6 @@ Susie või Edeni jaoks: nad ei tea, kes on lõplik saaja ega kes maksab. See on 
 
 <chapterId>4369b85a-1365-55d8-99e1-509088210116</chapterId>
 
-![video](https://youtu.be/jI4nM297aHA)
 
 Traditsioonilises marsruutimissüsteemis, kuidas saame tagada, et Eden ei petaks ja austaks oma lepingu osa?
 
@@ -389,7 +382,6 @@ Kui kanalit suletakse ja tegemist on koostööl põhineva sulgemisega, katkestat
 
 <chapterId>7e2ae959-c2a1-512e-b5d6-8fd962e819da</chapterId>
 
-![video](https://youtu.be/CqetCElRjUQ)
 
 Avalikud andmed on ainult kanali koguvõimsus (Alice + Bob), kuid me ei tea, kus likviidsus asub. Rohkem informatsiooni saamiseks kuulab meie sõlm LN kommunikatsioonikanalit uute kanalite teadaannete ja kanalitasude uuenduste jaoks. Teie sõlm vaatab ka blockchainist kanali sulgemisi.
 
@@ -459,7 +451,6 @@ Lisaks, et hõlbustada marsruudi otsimist, võib saaja pakkuda lisateavet, nagu 
 
 <chapterId>e34c7ecd-2327-52e3-b61e-c837d9e5e8b0</chapterId>
 
-![video](https://youtu.be/XANzf1Qqp9I)
 
 ![kaas](assets/fr/39.webp)
 
@@ -510,7 +501,6 @@ Kokkuvõttes, kuigi Lightning Networki arve võib esmapilgul tunduda keeruline, 
 
 <chapterId>cc76d0c4-d958-57f5-84bf-177e21393f48</chapterId>
 
-![video](https://youtu.be/MIbej28La7Y)
 
 ![juhend](assets/fr/42.webp)
 
@@ -557,7 +547,6 @@ Kokkuvõttes on likviidsuse haldamine Lightning Networkis võtmeküsimus, mis s�
 
 <chapterId>a65a571c-561b-5e1c-87bf-494644653c22</chapterId>
 
-![video](https://youtu.be/coaskEGRjiU)
 
 Meie eesmärk oli selgitada, kuidas Lightning Network töötab ja kuidas see toetub Bitcoinile.
 

@@ -1333,17 +1333,12 @@ Cambiar el sistema financiero requiere cambiar la moneda. Satoshi Nakamoto creó
 
 Este curso, junto con todo el contenido presente en esta plataforma, ha sido ofrecido de forma gratuita por nuestra comunidad. Para apoyarnos, puedes compartirlo con tus amigos, convertirte en miembro de la plataforma o incluso contribuir a su desarrollo a través de [nuestro GitHub](https://github.com/PlanB-Network/bitcoin-educational-content). ¡En nombre de todo el equipo, gracias!
 
+Un enorme agradecimiento a nuestros patrocinadores, miembros y donantes por su apoyo financiero, gracias a las personas que comparten y gracias a aquellos que hicieron posible este curso: Rachel, Muriel, el equipo de StackinSat, JohnOnChain, Fanis, Guillaume, Lounes, los correctores y los revisores.
+
+¡Hasta pronto!
+
 ## Danos tu opinión sobre este curso
 
 <chapterId>585729e2-b0ab-51b5-89ec-593e3ea22c57</chapterId>
 <isCourseReview>true</isCourseReview>
 
-## Califica el curso
-
-<chapterId>44d01865-5c89-55a5-a397-a014960eec0f</chapterId>
-
-¡Pronto se integrará un sistema de calificación para el curso en esta nueva plataforma de E-learning! Mientras tanto, muchas gracias por haber tomado el curso y si te gustó, considera compartirlo con tus amigos.
-
-Un enorme agradecimiento a nuestros patrocinadores, miembros y donantes por su apoyo financiero, gracias a las personas que comparten y gracias a aquellos que hicieron posible este curso: Rachel, Muriel, el equipo de StackinSat, JohnOnChain, Fanis, Guillaume, Lounes, los correctores y los revisores.
-
-¡Hasta pronto!

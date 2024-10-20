@@ -1283,18 +1283,11 @@ Bob将他的交易发送到比特币网络中，当矿工发布包含着此交�
 
 这门课程以及这所大学上的所有内容都是由我们的社区免费提供给您的。为了支持我们，你可以与他人分享它，成为大学的成员，甚至通过[我们的GitHub](https://github.com/DecouvreBitcoin/sovereign-university-data)贡献其发展。我代表整个团队表达，非常感谢您们！
 
-
-## 给我们关于这门课程的反馈
-<chapterId>585729e2-b0ab-51b5-89ec-593e3ea22c57</chapterId>
-<isCourseReview>true</isCourseReview>
-
-
-## 评价培训
-
-<chapterId>44d01865-5c89-55a5-a397-a014960eec0f</chapterId>
-
-课程的评分系统将很快整合到这个新的网络化学习平台中！与此同时，非常感谢您参加这门课程，如果您对课程满意，请考虑向他人分享。
-
 非常感谢我们的Patreon支持者、会员和捐赠者的财务支持，感谢分享此课程的人们，感谢那些使本培训项目得以实现的人们：Rachel, Muriel, StackinSat团队, JohnOnChain, Fanis, Guillaume, Lounes, 校对者们和审稿者们。
 
 我们很快再见！
+
+## 给我们关于这门课程的反馈
+
+<chapterId>585729e2-b0ab-51b5-89ec-593e3ea22c57</chapterId>
+<isCourseReview>true</isCourseReview>

@@ -1290,18 +1290,12 @@ Selamat, Anda telah menyelesaikan kursus BTC 101 ini! Kami sungguh berharap Anda
 Komunitas ini telah menyediakan kursus ini, serta semua konten di universitas ini kepada Anda secara gratis. Untuk mendukung kami, Anda dapat membagikannya dengan orang lain, menjadi anggota universitas, dan bahkan berkontribusi pada pengembangannya melalui [GitHub kami](https://github.com/DecouvreBitcoin/sovereign-university-data). Mewakili seluruh anggota tim, kami ucapkan terima kasih!
 
 
+Terima kasih yang sebesar-besarnya kepada pendukung, anggota, dan donor Patreon kami atas dukungan finansial mereka, terima kasih kepada orang-orang yang membagikan, dan terima kasih kepada mereka yang membuat pelatihan ini mungkin: Rachel, Muriel, tim StackinSat, JohnOnChain, Fanis, Guillaume, Lounes, para penguji-baca, dan para peninjau.
+
+Sampai jumpa lagi!
 
 ## Beri kami umpan balik tentang kursus ini
 <chapterId>585729e2-b0ab-51b5-89ec-593e3ea22c57</chapterId>
 <isCourseReview>true</isCourseReview>
 
 
-## Catat pelatihan
-
-<chapterId>44d01865-5c89-55a5-a397-a014960eec0f</chapterId>
-
-Sistem penilaian untuk pelatihan akan segera diintegrasikan ke dalam platform E-learning baru ini! Sementara itu, terima kasih banyak telah mengikuti kursus ini dan jika Anda menikmatinya, jangan ragu untuk membagikannya dengan orang lain.
-
-Terima kasih yang sebesar-besarnya kepada pendukung, anggota, dan donor Patreon kami atas dukungan finansial mereka, terima kasih kepada orang-orang yang membagikan, dan terima kasih kepada mereka yang membuat pelatihan ini mungkin: Rachel, Muriel, tim StackinSat, JohnOnChain, Fanis, Guillaume, Lounes, para penguji-baca, dan para peninjau.
-
-Sampai jumpa lagi!

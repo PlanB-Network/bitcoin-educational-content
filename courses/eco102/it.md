@@ -933,7 +933,7 @@ Scrisse Frédéric Bastiat in un breve opuscolo intitolato Lo Stato.
 
 
 
-## Dacci un feedback su questo corso
+## Valuta il corso
 <chapterId>db20170d-ceb6-56cd-b4e5-c690942f8b29</chapterId>
 <isCourseReview>true</isCourseReview>
 

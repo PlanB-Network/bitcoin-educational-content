@@ -877,7 +877,7 @@ HD кошелек использует слои глубины для орган
 ![видео](https://youtu.be/c9MvtGJsEvY?si=bQ1N5NCd6op0G6nW)
 
 
-## Оставьте отзыв о данном курсе
+## Оцените курс
 <chapterId>0cd71541-a7fd-53db-b66a-8611b6a28b04</chapterId>
 <isCourseReview>true</isCourseReview>
 

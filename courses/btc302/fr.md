@@ -1421,7 +1421,7 @@ Bien évidemment, **dans d'autres pays, la législation et le fonctionnement ass
 
 
 
-## Donnez-nous votre avis sur ce cours
+## Évaluez ce cours
 <chapterId>08a35d2a-204b-519a-9bb1-588665a037fa</chapterId>
 <isCourseReview>true</isCourseReview>
 

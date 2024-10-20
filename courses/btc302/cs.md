@@ -1305,7 +1305,7 @@ Samozřejmě **v jiných zemích se legislativa a fungování asociací liší**
 
 
 
-## Dejte nám zpětnou vazbu k tomuto kurzu
+## Ohodnoťte kurz
 <chapterId>08a35d2a-204b-519a-9bb1-588665a037fa</chapterId>
 <isCourseReview>true</isCourseReview>
 

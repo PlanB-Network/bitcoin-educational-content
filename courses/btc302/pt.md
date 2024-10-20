@@ -1303,7 +1303,7 @@ Claro, **em outros países, a legislação e o funcionamento das associações s
 
 
 
-## Dê-nos seu feedback sobre este curso
+## Avalie o curso
 <chapterId>08a35d2a-204b-519a-9bb1-588665a037fa</chapterId>
 <isCourseReview>true</isCourseReview>
 

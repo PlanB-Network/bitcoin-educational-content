@@ -1567,7 +1567,7 @@ Nachdem Sie das Modul "Zweifel überwinden" durchlaufen haben, müssen Sie Ihr n
 
 
 
-## Geben Sie uns Ihr Feedback zu diesem Kurs
+## Bewerten Sie den Kurs
 <chapterId>86e358bb-88f4-5d20-af53-93f0f3524590</chapterId>
 <isCourseReview>true</isCourseReview>
 

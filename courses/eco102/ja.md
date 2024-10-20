@@ -978,7 +978,7 @@ _(フランソワ・ケネ、重農主義の指導者)_
 
 
 
-## このコースについてのフィードバックをお寄せください
+## コースを評価してください
 <chapterId>db20170d-ceb6-56cd-b4e5-c690942f8b29</chapterId>
 <isCourseReview>true</isCourseReview>
 

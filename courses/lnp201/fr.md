@@ -640,7 +640,7 @@ Enfin, le futur de Bitcoin est prometteur avec une projection possible d'un mill
 
 
 
-## Donnez-nous votre avis sur ce cours
+## Évaluez ce cours
 <chapterId>38814c99-eb7b-5772-af49-4386ee2ce9b0</chapterId>
 <isCourseReview>true</isCourseReview>
 

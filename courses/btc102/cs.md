@@ -976,7 +976,7 @@ V každém případě jsou všechny naše kurzy zdarma a na naší platformě je
 
 
 
-## Dejte nám zpětnou vazbu k tomuto kurzu
+## Ohodnoťte kurz
 <chapterId>3f43175a-fb7a-5b1c-a887-7dcf615d7a3a</chapterId>
 <isCourseReview>true</isCourseReview>
 

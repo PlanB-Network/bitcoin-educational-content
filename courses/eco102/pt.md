@@ -1045,7 +1045,7 @@ Escreveu Frédéric Bastiat em um pequeno panfleto intitulado O Estado.
 
 
 
-## Dê-nos seu feedback sobre este curso
+## Avalie o curso
 <chapterId>db20170d-ceb6-56cd-b4e5-c690942f8b29</chapterId>
 <isCourseReview>true</isCourseReview>
 

@@ -3652,7 +3652,7 @@ _Um dieses Kapitel über Silent Payments zu erstellen, habe ich [die Silent Paym
 
 
 
-## Geben Sie uns Ihr Feedback zu diesem Kurs
+## Bewerten Sie den Kurs
 <chapterId>195d149f-80fa-5816-8b46-995a9226d082</chapterId>
 <isCourseReview>true</isCourseReview>
 

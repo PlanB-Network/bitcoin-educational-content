@@ -1410,7 +1410,7 @@ Hayek věřil, že volný trh s privátními měnami by vedl k větší měnové
 
 
 
-## Dejte nám zpětnou vazbu k tomuto kurzu
+## Ohodnoťte kurz
 <chapterId>6759868f-749d-5fe7-bbb1-24f603e8b34e</chapterId>
 <isCourseReview>true</isCourseReview>
 

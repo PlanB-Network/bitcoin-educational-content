@@ -1031,7 +1031,7 @@ Frédéric Bastiat đã viết trong một cuốn sách nhỏ có tựa đề "N
 
 
 
-## Cho chúng tôi biết phản hồi của bạn về khóa học này
+## Đánh giá khóa học
 <chapterId>db20170d-ceb6-56cd-b4e5-c690942f8b29</chapterId>
 <isCourseReview>true</isCourseReview>
 

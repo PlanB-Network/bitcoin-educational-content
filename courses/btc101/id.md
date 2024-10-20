@@ -1019,7 +1019,7 @@ Bitcoin telah menjadi aset keuangan yang besar, terutama karena pasokannya yang 
 - Performa masa lalu bukan merupakan indikasi performa di masa mendatang.
 - Hubungi penasihat keuangan Anda jika diperlukan.
 
-> DécouvreBitcoin (Rogzy) tidak memberikan saran dan nasihat investasi, dan semua informasi yang disampaikan di sini tidak dapat dianggap sebagai nasihat investasi.
+> Plan ₿ Network tidak memberikan saran dan nasihat investasi, dan semua informasi yang disampaikan di sini tidak dapat dianggap sebagai nasihat investasi.
 
 ### Daftar Periksa Singkat sebelum Terjun Lebih Dalam
 
@@ -1283,25 +1283,9 @@ Selamat, Anda telah menyelesaikan kursus BTC 101 ini! Kami sungguh berharap Anda
 - [MIN 201](https://planb.network/courses/min201) untuk mempelajari lebih lanjut tentang penambangan
 - dan banyak lagi...
 
-## Dukung kami
 
-<chapterId>3e6e756b-b6c4-5d41-bece-767922348067</chapterId>
-
-Komunitas ini telah menyediakan kursus ini, serta semua konten di universitas ini kepada Anda secara gratis. Untuk mendukung kami, Anda dapat membagikannya dengan orang lain, menjadi anggota universitas, dan bahkan berkontribusi pada pengembangannya melalui [GitHub kami](https://github.com/DecouvreBitcoin/sovereign-university-data). Mewakili seluruh anggota tim, kami ucapkan terima kasih!
-
-
-
-## Beri kami umpan balik tentang kursus ini
+## Evaluasi kursus ini
 <chapterId>585729e2-b0ab-51b5-89ec-593e3ea22c57</chapterId>
 <isCourseReview>true</isCourseReview>
 
 
-## Catat pelatihan
-
-<chapterId>44d01865-5c89-55a5-a397-a014960eec0f</chapterId>
-
-Sistem penilaian untuk pelatihan akan segera diintegrasikan ke dalam platform E-learning baru ini! Sementara itu, terima kasih banyak telah mengikuti kursus ini dan jika Anda menikmatinya, jangan ragu untuk membagikannya dengan orang lain.
-
-Terima kasih yang sebesar-besarnya kepada pendukung, anggota, dan donor Patreon kami atas dukungan finansial mereka, terima kasih kepada orang-orang yang membagikan, dan terima kasih kepada mereka yang membuat pelatihan ini mungkin: Rachel, Muriel, tim StackinSat, JohnOnChain, Fanis, Guillaume, Lounes, para penguji-baca, dan para peninjau.
-
-Sampai jumpa lagi!

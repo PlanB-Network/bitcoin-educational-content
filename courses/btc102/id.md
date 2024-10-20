@@ -977,7 +977,7 @@ Dalam hal apapun, semua kursus kami gratis, dan banyak sumber daya atau tutorial
 
 
 
-## Beri kami umpan balik tentang kursus ini
+## Evaluasi kursus ini
 <chapterId>3f43175a-fb7a-5b1c-a887-7dcf615d7a3a</chapterId>
 <isCourseReview>true</isCourseReview>
 

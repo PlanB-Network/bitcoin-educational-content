@@ -924,7 +924,7 @@ Zentralbanken haben sich zu Kreditgebern letzter Instanz entwickelt, indem sie d
 
 
 
-## Geben Sie uns Ihr Feedback zu diesem Kurs
+## Bewerten Sie den Kurs
 <chapterId>1a37317e-372a-5241-b478-8316d44f9283</chapterId>
 <isCourseReview>true</isCourseReview>
 

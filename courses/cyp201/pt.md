@@ -787,7 +787,7 @@ Outro método criptográfico amplamente usado no protocolo Bitcoin é o método 
 
 
 
-## Dê-nos seu feedback sobre este curso
+## Avalie o curso
 <chapterId>0cd71541-a7fd-53db-b66a-8611b6a28b04</chapterId>
 <isCourseReview>true</isCourseReview>
 

@@ -1579,7 +1579,7 @@ Nyní, když jste prošli modulem "Překonávání pochyb", budete muset otestov
 
 
 
-## Dejte nám zpětnou vazbu k tomuto kurzu
+## Ohodnoťte kurz
 <chapterId>86e358bb-88f4-5d20-af53-93f0f3524590</chapterId>
 <isCourseReview>true</isCourseReview>
 

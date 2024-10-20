@@ -501,7 +501,7 @@ Jako součást výukového modulu "Security 101" na Découvre Bitcoin Academy js
 
 
 
-## Dejte nám zpětnou vazbu k tomuto kurzu
+## Ohodnoťte kurz
 <chapterId>6be74d2d-2116-5386-9d92-c4c3e2103c68</chapterId>
 <isCourseReview>true</isCourseReview>
 

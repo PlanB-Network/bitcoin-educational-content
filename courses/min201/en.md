@@ -742,7 +742,7 @@ The end result is a higher hash rate per watt of electricity, which means larger
 
 
 
-## Give us some feedback about this course
+## Evaluate the course
 <chapterId>6af13742-df68-5cf4-b7aa-93dc0c2eaae9</chapterId>
 <isCourseReview>true</isCourseReview>
 

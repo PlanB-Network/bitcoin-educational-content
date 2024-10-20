@@ -264,7 +264,7 @@ Skupina Lightning Walker prezentuje své řešení pro službu remitencí s pou�
 
 
 
-## Dejte nám zpětnou vazbu k tomuto kurzu
+## Ohodnoťte kurz
 <chapterId>7f4f46e2-de71-5387-8609-9785fb9e5946</chapterId>
 <isCourseReview>true</isCourseReview>
 

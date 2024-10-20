@@ -266,7 +266,7 @@ Adam GibsonはJoinmarketについての洞察を提供し、このCoinJoin実装
 
 
 
-## このコースについてのフィードバックをお寄せください
+## コースを評価してください
 <chapterId>7f4f46e2-de71-5387-8609-9785fb9e5946</chapterId>
 <isCourseReview>true</isCourseReview>
 

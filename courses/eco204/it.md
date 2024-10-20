@@ -859,7 +859,7 @@ Le banche centrali sono evolute per diventare prestatori di ultima istanza, sosp
 
 
 
-## Dacci un feedback su questo corso
+## Valuta il corso
 <chapterId>1a37317e-372a-5241-b478-8316d44f9283</chapterId>
 <isCourseReview>true</isCourseReview>
 

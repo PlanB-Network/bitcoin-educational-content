@@ -1059,7 +1059,7 @@ Les banques centrales ont évolué pour devenir des prêteurs de dernier recours
 
 
 
-## Donnez-nous votre avis sur ce cours
+## Évaluez ce cours
 <chapterId>1a37317e-372a-5241-b478-8316d44f9283</chapterId>
 <isCourseReview>true</isCourseReview>
 

@@ -1288,7 +1288,7 @@ Breizh Bitcoinからのフィードバックは明確です:それはうまく�
 
 
 
-## このコースについてのフィードバックをお寄せください
+## コースを評価してください
 <chapterId>08a35d2a-204b-519a-9bb1-588665a037fa</chapterId>
 <isCourseReview>true</isCourseReview>
 

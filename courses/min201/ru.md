@@ -724,7 +724,7 @@ Braiins OS+ поддерживает разгон, подразгон ASIC и а
 
 
 
-## Оставьте отзыв о данном курсе
+## Оцените курс
 <chapterId>6af13742-df68-5cf4-b7aa-93dc0c2eaae9</chapterId>
 <isCourseReview>true</isCourseReview>
 

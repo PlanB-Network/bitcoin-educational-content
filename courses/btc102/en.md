@@ -1004,7 +1004,7 @@ In any case, all our courses are free, and many resources or tutorials are avail
 
 
 
-## Give us some feedback about this course
+## Evaluate the course
 <chapterId>3f43175a-fb7a-5b1c-a887-7dcf615d7a3a</chapterId>
 <isCourseReview>true</isCourseReview>
 

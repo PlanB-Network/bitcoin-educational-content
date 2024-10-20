@@ -111,7 +111,7 @@ Edu õpingutes ja kui on vaja meie meeskonnaga või õpetajaga ühendust võtta,
 
 
 
-## Andke meile tagasisidet selle kursuse kohta
+## Hinnake kursust
 <chapterId>0217e8b0-942a-5fee-bd91-9a866551eff3</chapterId>
 <isCourseReview>true</isCourseReview>
 

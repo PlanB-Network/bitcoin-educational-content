@@ -1201,7 +1201,7 @@ Ecrit Frédéric Bastiat dans un court pamphlet intitulé L'État.
 
 
 
-## Donnez-nous votre avis sur ce cours
+## Évaluez ce cours
 <chapterId>db20170d-ceb6-56cd-b4e5-c690942f8b29</chapterId>
 <isCourseReview>true</isCourseReview>
 

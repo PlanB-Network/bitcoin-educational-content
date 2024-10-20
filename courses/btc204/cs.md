@@ -3620,7 +3620,7 @@ _K vytvoření této kapitoly o Silent Payments jsem použil [web s vysvětlení
 
 
 
-## Dejte nám zpětnou vazbu k tomuto kurzu
+## Ohodnoťte kurz
 <chapterId>195d149f-80fa-5816-8b46-995a9226d082</chapterId>
 <isCourseReview>true</isCourseReview>
 

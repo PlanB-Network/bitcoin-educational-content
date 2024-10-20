@@ -140,7 +140,7 @@ Good luck with your studies.
 
 
 
-## Give us some feedback about this course
+## Evaluate the course
 <chapterId>9331e519-9e5c-5639-9d0d-055587d8ba4c</chapterId>
 <isCourseReview>true</isCourseReview>
 

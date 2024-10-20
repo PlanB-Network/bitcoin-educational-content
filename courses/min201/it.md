@@ -757,7 +757,7 @@ Il risultato finale è una velocità di hashing più elevata per watt di elettri
 
 
 
-## Dacci un feedback su questo corso
+## Valuta il corso
 <chapterId>6af13742-df68-5cf4-b7aa-93dc0c2eaae9</chapterId>
 <isCourseReview>true</isCourseReview>
 

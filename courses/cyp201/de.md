@@ -796,7 +796,7 @@ Eine weitere weit verbreitete kryptografische Methode im Bitcoin-Protokoll ist d
 
 
 
-## Geben Sie uns Ihr Feedback zu diesem Kurs
+## Bewerten Sie den Kurs
 <chapterId>0cd71541-a7fd-53db-b66a-8611b6a28b04</chapterId>
 <isCourseReview>true</isCourseReview>
 

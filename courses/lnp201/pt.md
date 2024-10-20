@@ -600,7 +600,7 @@ Por fim, o futuro do Bitcoin é promissor, com uma possível projeção de um mi
 
 
 
-## Dê-nos seu feedback sobre este curso
+## Avalie o curso
 <chapterId>38814c99-eb7b-5772-af49-4386ee2ce9b0</chapterId>
 <isCourseReview>true</isCourseReview>
 

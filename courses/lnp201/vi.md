@@ -550,7 +550,7 @@ Cuối cùng, tương lai của Bitcoin hứa hẹn với một dự báo có th
 
 
 
-## Cho chúng tôi biết phản hồi của bạn về khóa học này
+## Đánh giá khóa học
 <chapterId>38814c99-eb7b-5772-af49-4386ee2ce9b0</chapterId>
 <isCourseReview>true</isCourseReview>
 

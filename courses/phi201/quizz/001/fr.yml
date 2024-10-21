@@ -1,8 +1,8 @@
-question: Quel est le but de ce cours ?
+question: Quelle est la différence entre l'histoire et la philosophie ?
 answer: Toutes les autres réponses
 wrong_answers:
-  - Étudier les événements historiques qui ont marqué la lutte pour la liberté
-  - Comprendre la relation entre les idées et les événements pour mieux agir aujourd'hui
-  - Définir les concepts philosophiques liés à la liberté
+  - L'histoire décrit le passé tandis que la philosophie le juge
+  - L'histoire est factuelle tandis que la philosophie est normative
+  - L'histoire s'intéresse aux événements tandis que la philosophie s'intéresse aux concepts
 explanation: 
 reviewed: false

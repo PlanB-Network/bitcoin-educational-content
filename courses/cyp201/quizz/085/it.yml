@@ -1,9 +1,0 @@
-question: Perché viene utilizzato l'algoritmo HMAC SHA-512 nella creazione della chiave privata principale e del codice di catena principale?
-answer: Perché la funzione SHA-512 non era inizialmente implementata nel protocollo Bitcoin.
-wrong_answers:
-  - Perché è l'unico algoritmo in grado di generare un numero di 512 bit.
-  - Perché è l'algoritmo più sicuro.
-  - Perché è l'algoritmo più semplice da utilizzare.
-explanation: |
-  Inizialmente, la funzione SHA-512 non era implementata nel protocollo Bitcoin, ed è per questo che viene utilizzato HMAC SHA-512. Questo algoritmo richiede un messaggio e una chiave per generare un risultato.
-reviewed: false

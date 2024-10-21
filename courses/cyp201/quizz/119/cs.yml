@@ -1,9 +1,0 @@
-question: Co je to přijímací adresa Bitcoinu?
-answer: Hash veřejného klíče s konkrétním formátem.
-wrong_answers:
-  - Unikátní identifikátor uživatele Bitcoinu.
-  - Veřejný klíč uživatele Bitcoinu.
-  - Skript, který uzamkne bitcoiny k veřejnému klíči.
-explanation: |
-  Přijímací adresa Bitcoinu je hash veřejného klíče s konkrétním formátem. Používá se k přijímání prostředků na minci a generuje se z párů soukromých a veřejných klíčů.
-reviewed: false

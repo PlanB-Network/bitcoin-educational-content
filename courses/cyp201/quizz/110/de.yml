@@ -1,9 +1,0 @@
-question: Was ist der Zweck von Depth 1 in der HD Wallet-Struktur?
-answer: Es wird verwendet, um Kinderschlüssel für einen bestimmten Zweck abzuleiten.
-wrong_answers:
-  - Es ermöglicht die Unterscheidung von Konten für verschiedene Kryptowährungen oder Netzwerke.
-  - Es wird für den Empfang von Adressen in einer Standard-Wallet verwendet.
-  - Es entspricht den externen und internen Ketten.
-explanation: |
-  In der HD Wallet-Struktur wird Depth 1 verwendet, um Kinderschlüssel für einen bestimmten Zweck abzuleiten, der durch den Index bestimmt wird.
-reviewed: false

@@ -1,9 +1,0 @@
-question: Qual è il punto di partenza per calcolare tutte le chiavi pubbliche degli utenti nel sistema Bitcoin?
-answer: Punto G
-wrong_answers:
-  - Punto K
-  - Punto U
-  - Punto O
-explanation: |
-  Il punto G è il punto di partenza per calcolare tutte le chiavi pubbliche degli utenti nel sistema Bitcoin.
-reviewed: false

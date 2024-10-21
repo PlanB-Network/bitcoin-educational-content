@@ -1,9 +1,0 @@
-question: ¿Es obligatorio el uso de una frase de contraseña en una billetera de Bitcoin?
-answer: No, su uso es opcional.
-wrong_answers:
-  - Sí, su uso es obligatorio.
-  - Depende del tipo de billetera.
-  - Depende de la cantidad de bitcoins en la billetera.
-explanation: |
-  La frase de contraseña es una contraseña adicional que se puede integrar en una billetera de Bitcoin para aumentar su seguridad. Su uso es opcional y está a discreción del usuario.
-reviewed: false

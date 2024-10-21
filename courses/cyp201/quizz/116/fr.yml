@@ -1,9 +1,0 @@
-question: Quelle est la raison principale d'utiliser une adresse de réception plutôt qu'une clé publique dans les transactions Bitcoin ?
-answer: Cela réduit la taille des informations de clé publique.
-wrong_answers:
-  - Cela permet de revenir d'une adresse à la clé publique.
-  - Cela économise de l'espace dans les blocs.
-  - C'est plus facile à retenir qu'une clé publique.
-explanation: |
-  La raison principale d'utiliser une adresse de réception plutôt qu'une clé publique dans les transactions Bitcoin est de réduire la taille des informations de clé publique, qui est initialement de 512 bits. Cela ne vise pas à économiser de l'espace dans les blocs, mais à rendre les données de transaction plus gérables.
-reviewed: false

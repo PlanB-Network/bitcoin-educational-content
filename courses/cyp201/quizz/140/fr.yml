@@ -1,9 +1,0 @@
-question: Qu'est-ce qui est utilisé pour calculer la somme de contrôle dans le cas d'une norme segwit ?
-answer: Le programme BCH (Bose-Chaudhuri-Hocquenghem)
-wrong_answers:
-  - Le hachage Double SHA256
-  - La fonction pbkdf2
-  - La fonction hmacha512
-explanation: |
-  Le programme BCH (Bose-Chaudhuri-Hocquenghem) est utilisé pour calculer la somme de contrôle dans le cas d'une norme segwit.
-reviewed: false

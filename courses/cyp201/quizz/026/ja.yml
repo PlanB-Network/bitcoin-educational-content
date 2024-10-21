@@ -1,9 +1,0 @@
-question: Bitcoinの最小単位は何ですか？
-answer: Satoshi
-wrong_answers:
-  - Bit
-  - Byte
-  - Coin
-explanation: |
-  Bitcoinシステムでは、アカウントの単位はbitcoin（小文字の"b"に注意）です。これは8桁の小数点まで分割可能で、最小単位はsatoshiです。
-reviewed: false

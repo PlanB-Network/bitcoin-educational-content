@@ -1,9 +1,0 @@
-question: ¿En qué se basa la seguridad de las claves públicas y privadas?
-answer: El problema del logaritmo discreto
-wrong_answers:
-  - El problema de la factorización de números primos
-  - El problema de la mochila
-  - El problema del viajante
-explanation: |
-  La seguridad de las claves públicas y privadas se basa en el problema del logaritmo discreto, una cuestión matemática compleja.
-reviewed: false

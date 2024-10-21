@@ -1,9 +1,0 @@
-question: Was ist eine Empfangsadresse in Bitcoin?
-answer: Eine alphanumerische Darstellung eines komprimierten öffentlichen Schlüssels.
-wrong_answers:
-  - Ein eindeutiger Identifikator für jede Bitcoin-Transaktion.
-  - Ein Passwort zum Zugriff auf eine Bitcoin-Wallet.
-  - Eine digitale Signatur für Bitcoin-Transaktionen.
-explanation: |
-  Eine Empfangsadresse in Bitcoin ist eine alphanumerische Darstellung eines komprimierten öffentlichen Schlüssels. Sie wird verwendet, um Bitcoin-Transaktionen zu empfangen.
-reviewed: false

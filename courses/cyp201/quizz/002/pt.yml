@@ -1,9 +1,0 @@
-question: Quais são as quatro características que uma função hash criptográfica deve ter para ser reconhecida como segura?
-answer: Irreversibilidade, resistência a falsificações, resistência a colisões e resistência a segunda pré-imagem.
-wrong_answers:
-  - Velocidade, eficiência, resistência a colisões e irreversibilidade.
-  - Resistência a colisões, resistência a falsificações, escalabilidade e irreversibilidade.
-  - Irreversibilidade, resistência a colisões, resistência a falsificações e velocidade.
-explanation: |
-  Uma função hash criptográfica segura deve ter quatro características-chave: irreversibilidade (significando que é impossível derivar a entrada original a partir da saída), resistência a falsificações (significando que é difícil criar uma entrada diferente que produza a mesma saída), resistência a colisões (significando que é difícil encontrar duas entradas diferentes que produzam a mesma saída) e resistência a segunda pré-imagem (significando que é difícil encontrar uma entrada diferente que produza a mesma saída que uma entrada dada).
-reviewed: false

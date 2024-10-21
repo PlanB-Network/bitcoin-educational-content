@@ -1,9 +1,0 @@
-question: Was ist die Hauptherausforderung bei der Generierung von Zufallszahlen auf Computern für Bitcoin-Transaktionen?
-answer: Die erzielten Ergebnisse sind nicht wirklich zufällig.
-wrong_answers:
-  - Der Prozess ist zu komplex für die meisten Benutzer.
-  - Es erfordert viel Rechenleistung.
-  - Es ist nicht mit allen Arten von Computern kompatibel.
-explanation: |
-  Computer folgen festgelegten Algorithmen, was es schwierig macht, wirklich zufällige Zahlen zu generieren. Dies ist eine bedeutende Herausforderung in der Kryptographie, wo Zufälligkeit für die Sicherheit von privaten Schlüsseln und Bitcoin-Transaktionen entscheidend ist.
-reviewed: false

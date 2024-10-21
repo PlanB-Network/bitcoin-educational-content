@@ -1,9 +1,0 @@
-question: Qual è l'obiettivo finale di una funzione hash crittografica?
-answer: Trasformare informazioni di dimensioni arbitrarie in una impronta digitale di dimensioni fisse.
-wrong_answers:
-  - Crittografare i dati per una trasmissione sicura.
-  - Generare una chiave unica per ogni utente.
-  - Comprimere i dati per uno stoccaggio efficiente.
-explanation: |
-  L'obiettivo finale di una funzione hash crittografica è trasformare informazioni di dimensioni arbitrarie in una impronta digitale di dimensioni fisse. Questa impronta digitale è unica per i dati di input e anche una piccola modifica all'input produrrà un'impronta digitale drasticamente diversa.
-reviewed: false

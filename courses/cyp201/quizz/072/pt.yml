@@ -1,9 +1,0 @@
-question: O que é uma frase mnemônica no contexto de uma carteira de Bitcoin?
-answer: É um backup da carteira.
-wrong_answers:
-  - É uma senha para a carteira.
-  - É um histórico de transações da carteira.
-  - É uma assinatura digital da carteira.
-explanation: |
-  Uma frase mnemônica é gerada para garantir o backup da carteira de Bitcoin.
-reviewed: false

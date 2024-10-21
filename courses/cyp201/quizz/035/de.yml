@@ -1,9 +1,0 @@
-question: Wie groß ist ein Bitcoin öffentlicher Schlüssel?
-answer: 512-Bit-Nummer
-wrong_answers:
-  - 256-Bit-Nummer
-  - 128-Bit-Nummer
-  - 1024-Bit-Nummer
-explanation: |
-  Im Bitcoin-System wird der eindeutige private Schlüssel verwendet, um einen 512-Bit öffentlichen Schlüssel abzuleiten.
-reviewed: false

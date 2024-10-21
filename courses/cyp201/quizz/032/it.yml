@@ -1,9 +1,0 @@
-question: Qual è la significatività dell'irreversibilità della funzione ECDSA nella sicurezza del portafoglio Bitcoin?
-answer: È impossibile recuperare la chiave privata dalla chiave pubblica.
-wrong_answers:
-  - È possibile recuperare la chiave privata dalla chiave pubblica.
-  - È possibile recuperare la chiave pubblica dalla chiave privata.
-  - È impossibile recuperare la chiave pubblica dalla chiave privata.
-explanation: |
-  La funzione ECDSA è irreversibile, il che significa che è impossibile recuperare la chiave privata dalla chiave pubblica. Questa irreversibilità è la base della sicurezza del portafoglio Bitcoin.
-reviewed: false

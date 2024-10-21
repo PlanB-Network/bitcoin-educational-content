@@ -1,9 +1,0 @@
-question: Warum wird der HMAC SHA-512 Algorithmus zur Erstellung des Master-Privatschlüssels und des Master-Chain-Codes verwendet?
-answer: Weil die SHA-512 Funktion ursprünglich nicht im Bitcoin-Protokoll implementiert war.
-wrong_answers:
-  - Weil es der einzige Algorithmus ist, der eine 512-Bit-Zahl generieren kann.
-  - Weil es der sicherste Algorithmus ist.
-  - Weil es der einfachste Algorithmus zu verwenden ist.
-explanation: |
-  Ursprünglich war die SHA-512 Funktion nicht im Bitcoin-Protokoll implementiert, daher wird HMAC SHA-512 verwendet. Dieser Algorithmus erfordert eine Nachricht und einen Schlüssel, um ein Ergebnis zu generieren.
-reviewed: false

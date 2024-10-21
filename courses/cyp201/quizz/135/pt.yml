@@ -1,9 +1,0 @@
-question: Qual é o objetivo da frase de acesso na carteira HD?
-answer: Ela atua como um sal criptográfico que adiciona uma camada extra de proteção à carteira.
-wrong_answers:
-  - É usada para gerar a semente da carteira.
-  - É usada para derivar chaves filhas.
-  - É usada para calcular o checksum.
-explanation: |
-  A frase de acesso na carteira HD atua como um sal criptográfico que adiciona uma camada extra de proteção à carteira. Ela é usada em conjunto com a frase mnemônica para gerar a semente da carteira.
-reviewed: false

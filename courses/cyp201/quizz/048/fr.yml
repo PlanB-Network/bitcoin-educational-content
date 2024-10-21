@@ -1,9 +1,0 @@
-question: Quelle est la fonction principale d'un portefeuille Bitcoin ?
-answer: Il fait référence à une collection de clés cryptographiques privées dérivées d'une seule clé maître.
-wrong_answers:
-  - C'est un appareil physique qui stocke des cryptomonnaies.
-  - C'est une plateforme numérique pour acheter et vendre des cryptomonnaies.
-  - C'est un logiciel qui extrait de nouveaux bitcoins.
-explanation: |
-  Un portefeuille Bitcoin, plus précisément un portefeuille déterministe hiérarchique (HD wallet), est une collection de clés cryptographiques privées dérivées d'une seule clé maître. Ces clés sont essentielles pour la possession de cryptomonnaies.
-reviewed: false

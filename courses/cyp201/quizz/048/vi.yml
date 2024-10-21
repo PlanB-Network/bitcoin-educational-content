@@ -1,9 +1,0 @@
-question: Chức năng chính của một ví Bitcoin là gì?
-answer: Nó đề cập đến một tập hợp các khóa mật mã riêng tư được tạo ra từ một khóa chính duy nhất.
-wrong_answers:
-  - Đó là một thiết bị vật lý lưu trữ tiền mã hóa.
-  - Đó là một nền tảng kỹ thuật số để mua và bán tiền mã hóa.
-  - Đó là một phần mềm khai thác bitcoin mới.
-explanation: |
-  Một ví Bitcoin, cụ thể là ví Định hình Phân cấp (HD wallet), là một tập hợp các khóa mật mã riêng tư được tạo ra từ một khóa chính duy nhất. Những khóa này là thiết yếu cho việc sở hữu tiền mã hóa.
-reviewed: false

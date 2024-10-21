@@ -1,9 +1,0 @@
-question: Cosa forniscono gli utenti di Bitcoin al mittente quando vogliono ricevere bitcoin?
-answer: Un indirizzo di ricezione
-wrong_answers:
-  - La loro chiave pubblica
-  - La loro chiave privata
-  - La password del loro portafoglio Bitcoin
-explanation: |
-  Quando un utente di Bitcoin vuole ricevere bitcoin, fornisce un indirizzo di ricezione al mittente. Questo indirizzo è un hash della loro chiave pubblica, con un formato specifico.
-reviewed: false

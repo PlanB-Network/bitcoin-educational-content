@@ -1,9 +1,0 @@
-question: Comment obtient-on la clé publique enfant lors de la dérivation des clés enfant ?
-answer: La clé publique enfant est obtenue en multipliant la clé privée enfant par le générateur de la courbe elliptique.
-wrong_answers:
-  - La clé publique enfant est obtenue en ajoutant la clé privée enfant au générateur de la courbe elliptique.
-  - La clé publique enfant est obtenue en soustrayant la clé privée enfant du générateur de la courbe elliptique.
-  - La clé publique enfant est obtenue en divisant la clé privée enfant par le générateur de la courbe elliptique.
-explanation: |
-  La clé publique enfant est obtenue en multipliant la clé privée enfant par le générateur de la courbe elliptique. Cela fait partie des calculs mathématiques utilisés dans la dérivation des clés enfant.
-reviewed: false

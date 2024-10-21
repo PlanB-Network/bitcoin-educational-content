@@ -1,9 +1,0 @@
-question: Mục đích của entropy trong việc tạo ra cụm từ ghi nhớ cho ví Bitcoin là gì?
-answer: Nó là nền tảng của bảo mật ví HD.
-wrong_answers:
-  - Nó quyết định số lượng từ trong cụm từ khôi phục.
-  - Nó mã hóa cụm từ khôi phục để tăng cường bảo mật.
-  - Nó xác minh độ chính xác của cụm từ khôi phục.
-explanation: |
-  Entropy là nền tảng của bảo mật ví HD. Việc entropy này phải ngẫu nhiên hoặc giả ngẫu nhiên là cực kỳ quan trọng để đảm bảo an toàn cho ví.
-reviewed: false

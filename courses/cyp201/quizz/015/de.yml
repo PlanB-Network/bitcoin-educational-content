@@ -1,9 +1,0 @@
-question: Wie groß ist die Ausgabegröße der SHA256-Hashfunktion?
-answer: 256 Bits
-wrong_answers:
-  - 512 Bits
-  - 128 Bits
-  - 1024 Bits
-explanation: |
-  Die SHA256-Hashfunktion erzeugt einen 256-Bit-Hash aus einer variablen Eingabegröße. Deshalb wird sie SHA256 genannt.
-reviewed: false

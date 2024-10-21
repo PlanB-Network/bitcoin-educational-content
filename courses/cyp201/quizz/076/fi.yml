@@ -1,9 +1,0 @@
-question: Mitä tapahtuu, jos Bitcoin-lompakon salasana vaihdetaan?
-answer: Bitcoin-lompakko muuttuu täysin erilaiseksi
-wrong_answers:
-  - Bitcoin-lompakko muuttuu saavuttamattomaksi
-  - Bitcoin-lompakko pysyy samana
-  - Bitcoin-lompakko menettää kaikki bitcoinsinsa
-explanation: |
-  Jos salasana vaihdetaan, Bitcoin-lompakko muuttuu täysin erilaiseksi,
-  koska salasana on osa kaikkien lompakon avainten rakentamista ja laskentaa.

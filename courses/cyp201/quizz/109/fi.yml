@@ -1,9 +1,0 @@
-question: Mitä indeksi johdannaispolussa tarkoittaa HD-lompakon kontekstissa?
-answer: Arvo, jota käytetään HMAC-funktiossa
-wrong_answers:
-  - Arvo, jota käytetään SHA-256 -funktiossa
-  - Arvo, jota käytetään RSA-funktiossa
-  - Arvo, jota käytetään AES-funktiossa
-explanation: |
-  HD-lompakon kontekstissa johdannaispolun indeksi viittaa arvoon, jota käytetään HMAC-funktiossa. Tätä käytetään erottamaan eri lasten avainpareja samalla syvyydellä.
-reviewed: false

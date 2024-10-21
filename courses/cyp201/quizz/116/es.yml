@@ -1,9 +1,0 @@
-question: ¿Cuál es la razón principal para usar una dirección de recepción en lugar de una clave pública en las transacciones de Bitcoin?
-answer: Reduce el tamaño de la información de la clave pública.
-wrong_answers:
-  - Permite revertir desde una dirección a la clave pública.
-  - Ahorra espacio en los bloques.
-  - Es más fácil de recordar que una clave pública.
-explanation: |
-  La razón principal para usar una dirección de recepción en lugar de una clave pública en las transacciones de Bitcoin es reducir el tamaño de la información de la clave pública, que inicialmente es de 512 bits. Esto no es para ahorrar espacio en los bloques, sino para hacer que los datos de la transacción sean más manejables.
-reviewed: false

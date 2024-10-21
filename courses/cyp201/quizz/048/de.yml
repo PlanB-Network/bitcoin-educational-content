@@ -1,9 +1,0 @@
-question: Was ist die Hauptfunktion einer Bitcoin-Wallet?
-answer: Es handelt sich um eine Sammlung von privaten kryptografischen Schlüsseln, die von einem einzigen Master-Schlüssel abgeleitet werden.
-wrong_answers:
-  - Es ist ein physisches Gerät, das Kryptowährungen speichert.
-  - Es ist eine digitale Plattform zum Kauf und Verkauf von Kryptowährungen.
-  - Es ist eine Software, die neue Bitcoins schürft.
-explanation: |
-  Eine Bitcoin-Wallet, speziell eine Hierarchisch Deterministische Wallet (HD-Wallet), ist eine Sammlung von privaten kryptografischen Schlüsseln, die von einem einzigen Master-Schlüssel abgeleitet werden. Diese Schlüssel sind für den Besitz von Kryptowährungen unerlässlich.
-reviewed: false

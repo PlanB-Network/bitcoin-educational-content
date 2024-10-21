@@ -1,9 +1,0 @@
-question: Was ist eine zusätzliche Option, um die Sicherheit einer Bitcoin-Wallet zu verbessern?
-answer: Hinzufügen einer Passphrase.
-wrong_answers:
-  - Hinzufügen einer zweiten mnemonischen Phrase.
-  - Hinzufügen einer digitalen Signatur.
-  - Hinzufügen einer Transaktionshistorie.
-explanation: |
-  Das Hinzufügen einer Passphrase ist eine zusätzliche Option, um die Sicherheit der Bitcoin-Wallet zu verbessern.
-reviewed: false

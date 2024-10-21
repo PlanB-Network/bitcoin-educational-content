@@ -1,9 +1,0 @@
-question: ¿Por qué se recomienda usar billeteras de código abierto para transacciones de Bitcoin?
-answer: Permiten la verificación de la generación de números aleatorios.
-wrong_answers:
-  - Son más baratas que las billeteras de código cerrado.
-  - Son más rápidas que las billeteras de código cerrado.
-  - Son más seguras que las billeteras de código cerrado.
-explanation: |
-  Las billeteras de código abierto permiten a los usuarios verificar la generación del número aleatorio, lo cual es un paso crucial para garantizar la seguridad de las claves privadas y las transacciones de Bitcoin.
-reviewed: false

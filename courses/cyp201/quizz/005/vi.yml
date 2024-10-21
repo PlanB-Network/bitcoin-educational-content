@@ -1,9 +1,0 @@
-question: Mục tiêu cuối cùng của một hàm băm mật mã là gì?
-answer: Biến đổi thông tin kích thước tùy ý thành một dấu vân tay cố định.
-wrong_answers:
-  - Mã hóa dữ liệu để truyền tải an toàn.
-  - Tạo một khóa duy nhất cho mỗi người dùng.
-  - Nén dữ liệu để lưu trữ hiệu quả.
-explanation: |
-  Mục tiêu cuối cùng của một hàm băm mật mã là biến đổi thông tin kích thước tùy ý thành một dấu vân tay cố định. Dấu vân tay này là duy nhất đối với dữ liệu đầu vào, và ngay cả một thay đổi nhỏ trong dữ liệu đầu vào cũng sẽ dẫn đến một dấu vân tay hoàn toàn khác biệt.
-reviewed: false

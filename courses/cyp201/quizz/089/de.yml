@@ -1,9 +1,0 @@
-question: Was ist der Seed im Zusammenhang mit der HD Wallet?
-answer: Ein 512-Bit alphanumerischer Code, der als Grundlage für die Ableitung der Schlüssel der Wallet dient.
-wrong_answers:
-  - Ein Passwort, das zur Sicherung der Wallet verwendet wird.
-  - Eine eindeutige Kennung für die Wallet.
-  - Ein Code, der zur Generierung der mnemonischen Phrase verwendet wird.
-explanation: |
-  Der Seed ist ein 512-Bit alphanumerischer Code, der als Grundlage für die Ableitung der Schlüssel der Wallet dient. Er wird mithilfe der pbkdf2-Funktion mit der mnemonischen Phrase und dem Passwort erhalten.
-reviewed: false

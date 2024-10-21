@@ -1,9 +1,0 @@
-question: Welche Skriptart ermöglicht das Sperren von Bitcoins an einen öffentlichen Schlüssel?
-answer: Pay2PublicKey
-wrong_answers:
-  - Pay2Address
-  - Pay2PrivateKey
-  - Pay2Hash
-explanation: |
-  Die Skriptart, die das Sperren von Bitcoins an einen öffentlichen Schlüssel ermöglicht, wird als Pay2PublicKey bezeichnet. Benutzer ziehen es jedoch im Allgemeinen vor, stattdessen Empfangsadressen zu verwenden.
-reviewed: false

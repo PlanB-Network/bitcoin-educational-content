@@ -1,9 +1,0 @@
-question: Quelle est la taille de sortie de la fonction de hachage SHA256 ?
-answer: 256 bits
-wrong_answers:
-  - 512 bits
-  - 128 bits
-  - 1024 bits
-explanation: |
-  La fonction de hachage SHA256 génère un hachage de 256 bits à partir d'une entrée de taille variable. C'est pourquoi elle est appelée SHA256.
-reviewed: false

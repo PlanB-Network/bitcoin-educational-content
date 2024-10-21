@@ -1,9 +1,0 @@
-question: ¿Cuál es la importancia de la seguridad de la clave privada en el ecosistema de Bitcoin?
-answer: Garantiza la seguridad de las transacciones de Bitcoin.
-wrong_answers:
-  - Garantiza la rapidez de las transacciones de Bitcoin.
-  - Garantiza el anonimato de las transacciones de Bitcoin.
-  - Garantiza la legalidad de las transacciones de Bitcoin.
-explanation: |
-  Las claves privadas son el pilar fundamental que garantiza la seguridad de las transacciones de Bitcoin. Deben generarse de manera verdaderamente aleatoria para evitar cualquier vulnerabilidad asociada con la previsibilidad.
-reviewed: false

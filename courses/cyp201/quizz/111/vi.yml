@@ -1,9 +1,0 @@
-question: Mục đích của Depth 2 trong cấu trúc Ví HD là gì?
-answer: Nó cho phép phân biệt các tài khoản cho các loại tiền điện tử hoặc mạng khác nhau
-wrong_answers:
-  - Nó được sử dụng để tạo ra các khóa con cho một mục đích cụ thể
-  - Nó được sử dụng cho các địa chỉ nhận trong một ví tiêu chuẩn
-  - Nó tương ứng với các chuỗi bên ngoài và bên trong
-explanation: |
-  Trong cấu trúc Ví HD, Depth 2 cho phép phân biệt các tài khoản cho các loại tiền điện tử hoặc mạng khác nhau. Điều này cho phép tổ chức ví dựa trên các nguồn quỹ khác nhau.
-reviewed: false

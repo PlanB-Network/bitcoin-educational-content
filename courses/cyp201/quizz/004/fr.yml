@@ -1,9 +1,0 @@
-question: Quel est le rôle des fonctions de hachage cryptographiques dans la vérification de l'intégrité des logiciels téléchargés ?
-answer: Elles agissent comme des sentinelles numériques, vérifiant l'intégrité des logiciels téléchargés.
-wrong_answers:
-  - Elles chiffrent le logiciel pour le protéger des pirates informatiques.
-  - Elles compressent le logiciel pour réduire le temps de téléchargement.
-  - Elles génèrent une clé unique pour chaque téléchargement.
-explanation: |
-  Les fonctions de hachage cryptographiques jouent un rôle crucial dans la vérification de l'intégrité des logiciels téléchargés. En comparant le hachage du fichier téléchargé avec le hachage attendu, on peut vérifier que le fichier n'a pas été altéré.
-reviewed: false

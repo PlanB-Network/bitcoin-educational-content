@@ -1,8 +1,0 @@
-question: An ninh của khóa công khai và khóa riêng dựa trên cái gì?
-answer: Vấn đề logarit rời rạc
-wrong_answers:
-  - Vấn đề phân tích thừa số nguyên tố
-  - Vấn đề ba lô
-  - Vấn đề người du lịch
-explanation: |
-  An ninh của khóa công khai và khóa riêng dựa vào vấn đề logarit rời rạc, một câu hỏi toán học phức tạp.

@@ -1,9 +1,0 @@
-question: O que corresponde à Profundidade 0 na estrutura da HD Wallet?
-answer: A chave mestra e o código de cadeia mestra
-wrong_answers:
-  - As chaves filhas e o código de cadeia filha
-  - As cadeias externas e internas
-  - Os endereços de recebimento em uma carteira padrão
-explanation: |
-  Na estrutura da HD Wallet, a Profundidade 0 corresponde à chave mestra e ao código de cadeia mestra.
-reviewed: false

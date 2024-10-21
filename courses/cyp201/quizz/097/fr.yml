@@ -1,9 +1,0 @@
-question: Quel est le but des clés étendues dans un portefeuille HD ?
-answer: Elles sont utilisées pour dériver des clés enfants.
-wrong_answers:
-  - Elles sont utilisées pour générer la clé maître.
-  - Elles sont utilisées pour chiffrer le portefeuille.
-  - Elles sont utilisées pour vérifier les transactions.
-explanation: |
-  Les clés étendues sont utilisées pour dériver des clés enfants et nécessitent à la fois la clé parente et le code de chaîne correspondant.
-reviewed: false

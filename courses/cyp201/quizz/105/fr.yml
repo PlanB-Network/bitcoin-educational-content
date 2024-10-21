@@ -1,9 +1,0 @@
-question: Quelle fonction est utilisée dans la dérivation des clés enfants ?
-answer: La fonction HMAC-SHA512 est utilisée dans la dérivation des clés enfants.
-wrong_answers:
-  - La fonction SHA256 est utilisée dans la dérivation des clés enfants.
-  - La fonction MD5 est utilisée dans la dérivation des clés enfants.
-  - La fonction SHA1 est utilisée dans la dérivation des clés enfants.
-explanation: |
-  La fonction HMAC-SHA512 est utilisée dans la dérivation des clés enfants. Cette fonction utilise la clé parent concaténée avec l'index et le code de chaîne associé à la paire de clés.
-reviewed: false

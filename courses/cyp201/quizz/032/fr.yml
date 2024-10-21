@@ -1,9 +1,0 @@
-question: Quelle est la signification de l'irréversibilité de la fonction ECDSA dans la sécurité des portefeuilles Bitcoin ?
-answer: Il est impossible de récupérer la clé privée à partir de la clé publique.
-wrong_answers:
-  - Il est possible de récupérer la clé privée à partir de la clé publique.
-  - Il est possible de récupérer la clé publique à partir de la clé privée.
-  - Il est impossible de récupérer la clé publique à partir de la clé privée.
-explanation: |
-  La fonction ECDSA est irréversible, ce qui signifie qu'il est impossible de récupérer la clé privée à partir de la clé publique. Cette irréversibilité est la pierre angulaire de la sécurité des portefeuilles Bitcoin.
-reviewed: false

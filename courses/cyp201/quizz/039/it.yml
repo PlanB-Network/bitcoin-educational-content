@@ -1,9 +1,0 @@
-question: Su cosa si basa la sicurezza delle chiavi pubbliche e private?
-answer: Il problema del logaritmo discreto
-wrong_answers:
-  - Il problema della fattorizzazione dei numeri primi
-  - Il problema dello zaino
-  - Il problema del commesso viaggiatore
-explanation: |
-  La sicurezza delle chiavi pubbliche e private si basa sul problema del logaritmo discreto, una complessa questione matematica.
-reviewed: false

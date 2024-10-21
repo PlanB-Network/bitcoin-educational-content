@@ -1,9 +1,0 @@
-question: ¿Cuál es el papel del código de cadena maestro en la organización jerárquica y derivación de la billetera HD?
-answer: Juega un papel importante en la recuperación de la cartera a partir de la semilla.
-wrong_answers:
-  - Se utiliza para generar la semilla.
-  - Se utiliza para derivar claves secundarias.
-  - Se utiliza para cifrar la billetera.
-explanation: |
-  El código de cadena maestro es esencial para recuperar la cartera a partir de la semilla. Todas las claves derivadas de la misma semilla tendrán el mismo código de cadena maestro.
-reviewed: false

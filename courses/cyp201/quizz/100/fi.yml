@@ -1,8 +1,0 @@
-question: Mikä on pääketjukoodin rooli hierarkkisessa järjestelyssä ja HD-lompakon johdannaisuudessa?
-answer: Sillä on tärkeä rooli lompakon palauttamisessa siemenestä.
-wrong_answers:
-  - Sitä käytetään siemenen luomiseen.
-  - Sitä käytetään lasten avainten johtamiseen.
-  - Sitä käytetään lompakon salaamiseen.
-explanation: |
-  Pääketjukoodi on olennaisen tärkeä lompakon palauttamisessa siemenestä. Kaikki samasta siemenestä johdetut avaimet omaavat saman pääketjukoodin.

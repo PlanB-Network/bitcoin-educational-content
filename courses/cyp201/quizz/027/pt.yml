@@ -1,9 +1,0 @@
-question: O que uma carteira de Bitcoin armazena?
-answer: As chaves privadas necessárias para comprovar a propriedade dos bitcoins
-wrong_answers:
-  - Os próprios bitcoins
-  - As chaves públicas necessárias para comprovar a propriedade dos bitcoins
-  - O histórico de transações dos bitcoins
-explanation: |
-  Na realidade, uma carteira de Bitcoin armazena as chaves privadas necessárias para comprovar a propriedade dos bitcoins. Os próprios bitcoins são registrados no blockchain, um banco de dados descentralizado que arquiva todas as transações.
-reviewed: false

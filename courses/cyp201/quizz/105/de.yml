@@ -1,9 +1,0 @@
-question: Welche Funktion wird bei der Ableitung von Kinderschlüsseln verwendet?
-answer: Die HMAC-SHA512-Funktion wird bei der Ableitung von Kinderschlüsseln verwendet.
-wrong_answers:
-  - Die SHA256-Funktion wird bei der Ableitung von Kinderschlüsseln verwendet.
-  - Die MD5-Funktion wird bei der Ableitung von Kinderschlüsseln verwendet.
-  - Die SHA1-Funktion wird bei der Ableitung von Kinderschlüsseln verwendet.
-explanation: |
-  Die HMAC-SHA512-Funktion wird bei der Ableitung von Kinderschlüsseln verwendet. Diese Funktion verwendet den Elternschlüssel, der mit dem Index und dem Kettencode des Schlüsselpaars konkateniert wird.
-reviewed: false

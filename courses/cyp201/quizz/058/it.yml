@@ -1,9 +1,0 @@
-question: Qual è il ruolo dell'entropia nel portafoglio Bitcoin HD?
-answer: È la base di qualsiasi portafoglio HD ed è essenziale per la sua sicurezza.
-wrong_answers:
-  - Aiuta nella verifica delle transazioni.
-  - Aumenta la velocità delle transazioni.
-  - Riduce la dimensione della blockchain.
-explanation: |
-  L'entropia, o casualità, è la base di qualsiasi portafoglio HD. È essenziale per la sicurezza del portafoglio in quanto garantisce l'imprevedibilità delle chiavi private generate.
-reviewed: false

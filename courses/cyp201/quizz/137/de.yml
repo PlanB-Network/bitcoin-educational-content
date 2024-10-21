@@ -1,9 +1,0 @@
-question: Was wird zur Berechnung der Prüfsumme im Falle eines veralteten Standards verwendet?
-answer: Doppelte SHA256-Hashing
-wrong_answers:
-  - Das BCH-Programm
-  - Die pbkdf2-Funktion
-  - Die hmacha512-Funktion
-explanation: |
-  Um eine Adresse abzuleiten, wird der komprimierte öffentliche Schlüssel zuerst mit SHA256 und RIPMD160 gehasht und dann wird eine Prüfsumme berechnet. Doppelte SHA256-Hashing wird verwendet, um die Prüfsumme im Falle eines veralteten Standards zu berechnen.
-reviewed: false

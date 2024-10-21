@@ -1,9 +1,0 @@
-question: Quel est le nombre total de possibilités pour une clé privée en théorie?
-answer: 2^256
-wrong_answers:
-  - 2^128
-  - 2^512
-  - 2^1024
-explanation: |
-  Le nombre total de possibilités pour une clé privée est théoriquement de 2^256, mais en réalité, il est légèrement inférieur à cela.
-reviewed: false

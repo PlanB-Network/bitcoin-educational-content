@@ -1,9 +1,0 @@
-question: Wofür steht HMAC?
-answer: Hash-basierter Message Authentication Code
-wrong_answers:
-  - Hierarchischer Master-Authentifizierungscode
-  - Gehashter Master-Authentifizierungscode
-  - Hierarchischer Message Authentication Code
-explanation: |
-  HMAC steht für Hash-basierter Message Authentication Code. Es handelt sich um einen Typ von Message Authentication Code (MAC), der eine kryptografische Hash-Funktion und einen geheimen kryptografischen Schlüssel verwendet.
-reviewed: false

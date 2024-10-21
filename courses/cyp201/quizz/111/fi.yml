@@ -1,9 +1,0 @@
-question: Mikä on Depth 2:n tarkoitus HD Wallet -rakenteessa?
-answer: Sen avulla voidaan erottaa eri kryptovaluuttojen tai verkkojen tilit toisistaan
-wrong_answers:
-  - Sitä käytetään johdettujen ala-avainten luomiseen tiettyä tarkoitusta varten
-  - Sitä käytetään vastaanotto-osoitteiden luomiseen standardi lompakossa
-  - Se vastaa ulkoisia ja sisäisiä ketjuja
-explanation: |
-  HD Wallet -rakenteessa Depth 2 mahdollistaa eri kryptovaluuttojen tai verkkojen tilien erottamisen toisistaan. Tämä mahdollistaa lompakon järjestämisen eri rahoituslähteiden mukaan.
-reviewed: false

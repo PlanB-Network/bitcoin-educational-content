@@ -1,9 +1,0 @@
-question: Qual è l'elemento più alto nella gerarchia dell'HD wallet?
-answer: La chiave privata principale e il codice di catena principale
-wrong_answers:
-  - La frase mnemonica e la passphrase
-  - Le chiavi figlie
-  - Il seed del portafoglio
-explanation: |
-  La chiave privata principale e il codice di catena principale sono derivati dal seed del portafoglio e sono gli elementi più alti nella gerarchia dell'HD wallet. Sono utilizzati per derivare le chiavi figlie.
-reviewed: false

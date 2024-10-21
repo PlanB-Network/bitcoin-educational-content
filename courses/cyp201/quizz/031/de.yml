@@ -1,9 +1,0 @@
-question: Wie viele Möglichkeiten gibt es für einen Bitcoin-Privatschlüssel?
-answer: Fast gleich 1,158 x 10^77
-wrong_answers:
-  - Genau 2^256
-  - Zwischen 1 und n-1
-  - Etwa die gleiche Anzahl von Atomen im beobachtbaren Universum
-explanation: |
-  Die Gesamtzahl der Möglichkeiten für einen Bitcoin-Privatschlüssel beträgt fast 1,158 x 10^77, was ungefähr der gleichen Anzahl von Atomen im beobachtbaren Universum entspricht. Dies liegt daran, dass ein Privatschlüssel zwischen 1 und n-1 liegen muss, wobei n die Ordnung der elliptischen Kurve darstellt.
-reviewed: false

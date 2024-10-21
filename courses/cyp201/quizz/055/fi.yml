@@ -1,9 +1,0 @@
-question: Mikä on karkea nimitys, jota joskus käytetään viittaamaan yksityisten avainten kokoelmaan Bitcoin-lompakossa?
-answer: Vain Joukko Avaimia (VJA)
-wrong_answers:
-  - Vain Joukko Kolikoita (VJK)
-  - Vain Joukko Kryptoja (VJK)
-  - Vain Joukko Koodeja (VJK)
-explanation: |
-  Yksityisten kryptografisten avainten kokoelmaa, jotka on johdettu yhdestä pääavaimesta Bitcoin-lompakossa, kutsutaan joskus hieman karkeammalla nimellä "Vain Joukko Avaimia" (VJA).
-reviewed: false

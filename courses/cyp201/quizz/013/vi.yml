@@ -1,9 +1,0 @@
-question: Vai trò của toán tử AND trong hàm nén của SHA256 là gì?
-answer: Chỉ trả về 1 nếu cả hai toán hạng đều bằng 1
-wrong_answers:
-  - Xử lý các bit một cách tuần tự theo thứ tự của chúng
-  - Trả về giá trị đối lập của một toán hạng
-  - Dịch chuyển các bit sang phải một số lượng đã chọn
-explanation: |
-  Trong hàm nén của SHA256, toán tử AND được sử dụng để chỉ trả về 1 nếu cả hai toán hạng đều bằng 1. Điều này được thực hiện thông qua một bảng chân lý.
-reviewed: false

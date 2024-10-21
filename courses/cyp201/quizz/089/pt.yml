@@ -1,9 +1,0 @@
-question: O que é a semente no contexto da HD Wallet?
-answer: Uma sequência alfanumérica de 512 bits que serve como base para derivar as chaves da carteira.
-wrong_answers:
-  - Uma senha usada para proteger a carteira.
-  - Um identificador único para a carteira.
-  - Um código usado para gerar a frase mnemônica.
-explanation: |
-  A semente é uma sequência alfanumérica de 512 bits que serve como base para derivar as chaves da carteira. Ela é obtida usando a função pbkdf2 com a frase mnemônica e a senha.
-reviewed: false

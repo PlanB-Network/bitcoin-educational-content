@@ -1,9 +1,0 @@
-question: Qual è lo scopo della seconda fase di preprocessing in SHA256?
-answer: Aggiungere la rappresentazione binaria della dimensione iniziale del messaggio, in bit
-wrong_answers:
-  - Aggiungere bit di padding all'input
-  - Separare l'input in diversi blocchi di messaggi di 512 bit
-  - Eseguire 64 round di calcolo nella funzione di compressione
-explanation: |
-  La seconda fase di preprocessing in SHA256 prevede l'aggiunta della rappresentazione binaria della dimensione iniziale del messaggio, in bit. Ciò viene fatto utilizzando i 64 bit riservati dal passaggio precedente.
-reviewed: false

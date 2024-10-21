@@ -1,9 +1,0 @@
-question: Was ist der Unterschied zwischen Adressen, die mit bc1q und bc1p in Bitcoin beginnen?
-answer: bc1q-Adressen verwenden Segwit V0, während bc1p-Adressen Segwit V1 verwenden.
-wrong_answers:
-  - bc1q-Adressen verwenden Segwit V1, während bc1p-Adressen Segwit V0 verwenden.
-  - Sowohl bc1q- als auch bc1p-Adressen verwenden Segwit V0.
-  - Sowohl bc1q- als auch bc1p-Adressen verwenden Segwit V1.
-explanation: |
-  Um eine Adresse zu erstellen, die mit bc1q beginnt, verwenden wir Segwit V0. Taproot-Adressen hingegen beginnen mit bc1p, da ihre Version (Segwit V1) 0+1=1 entspricht, daher die Verwendung des Buchstabens p.
-reviewed: false

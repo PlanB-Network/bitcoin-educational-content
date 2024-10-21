@@ -1,9 +1,0 @@
-question: Quali sono i vettori di inizializzazione nel processo di funzionamento della funzione SHA-256?
-answer: I primi 32 bit delle parti decimali delle radici quadrate dei primi 8 numeri primi
-wrong_answers:
-  - I primi 32 bit delle parti decimali delle radici cubiche dei primi 8 numeri primi
-  - I primi 32 bit delle parti decimali delle radici quadrate dei primi 64 numeri primi
-  - I primi 32 bit delle parti decimali delle radici cubiche dei primi 64 numeri primi
-explanation: |
-  Nel processo di funzionamento della funzione SHA-256, i vettori di inizializzazione, da A a H, sono i primi 32 bit delle parti decimali delle radici quadrate dei primi 8 numeri primi. Questi vengono utilizzati come ingredienti di base nella ricetta crittografica.
-reviewed: false

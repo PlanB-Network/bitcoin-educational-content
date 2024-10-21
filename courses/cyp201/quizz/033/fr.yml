@@ -1,9 +1,0 @@
-question: Qu'est-ce que la multiplication scalaire d'un point par n sur une courbe elliptique ?
-answer: Cela équivaut à ajouter ce point à lui-même n fois.
-wrong_answers:
-  - Cela équivaut à soustraire ce point à lui-même n fois.
-  - Cela équivaut à multiplier ce point par lui-même n fois.
-  - Cela équivaut à diviser ce point par lui-même n fois.
-explanation: |
-  La multiplication scalaire d'un point par n sur une courbe elliptique équivaut à ajouter ce point à lui-même n fois. Cette opération est la base du calcul des clés publiques dans le système Bitcoin.
-reviewed: false

@@ -1,9 +1,0 @@
-question: ¿Cuál es la principal ventaja de las Carteras Determinísticas Jerárquicas (HD wallets)?
-answer: Permiten la generación determinística y jerárquica de pares de claves secundarias a partir de una única pieza de información.
-wrong_answers:
-  - Permiten la generación de múltiples claves privadas a partir de una única clave pública.
-  - Permiten la generación de múltiples claves públicas a partir de una única clave privada.
-  - Permiten la generación de múltiples carteras a partir de un único par de claves.
-explanation: |
-  Las HD wallets permiten la generación determinística y jerárquica de pares de claves secundarias a partir de una única pieza de información. Esto facilita la generación y gestión de claves, manteniendo un alto nivel de seguridad.
-reviewed: false

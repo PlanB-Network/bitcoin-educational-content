@@ -1,9 +1,0 @@
-question: Was ist der Unterschied zwischen den Indexbereichen normaler Kinderschlüssel und gehärteter Kinderschlüssel?
-answer: Normale Kinderschlüssel haben einen Indexbereich von 0 bis 2 hoch 31 minus 1, während gehärtete Kinderschlüssel einen Indexbereich von 2 hoch 31 bis 2 hoch 32 minus 1 haben.
-wrong_answers:
-  - Normale Kinderschlüssel haben einen Indexbereich von 0 bis 2 hoch 32 minus 1, während gehärtete Kinderschlüssel einen Indexbereich von 2 hoch 31 bis 2 hoch 31 minus 1 haben.
-  - Sowohl normale als auch gehärtete Kinderschlüssel haben den gleichen Indexbereich.
-  - Es gibt keinen Unterschied in den Indexbereichen normaler und gehärteter Kinderschlüssel.
-explanation: |
-  Der Indexbereich normaler Kinderschlüssel reicht von 0 bis 2 hoch 31 minus 1, während der Indexbereich gehärteter Kinderschlüssel von 2 hoch 31 bis 2 hoch 32 minus 1 reicht.
-reviewed: false

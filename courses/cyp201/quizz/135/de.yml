@@ -1,9 +1,0 @@
-question: Was ist der Zweck der Passphrase in der HD-Wallet?
-answer: Sie fungiert als kryptografisches Salz, das eine zusätzliche Schutzschicht für die Wallet hinzufügt.
-wrong_answers:
-  - Sie wird verwendet, um den Seed der Wallet zu generieren.
-  - Sie wird verwendet, um Kinderschlüssel abzuleiten.
-  - Sie wird verwendet, um die Prüfsumme zu berechnen.
-explanation: |
-  Die Passphrase in der HD-Wallet fungiert als kryptografisches Salz, das eine zusätzliche Schutzschicht für die Wallet hinzufügt. Sie wird in Verbindung mit der mnemonischen Phrase verwendet, um den Seed der Wallet zu generieren.
-reviewed: false

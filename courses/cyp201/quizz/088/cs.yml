@@ -1,9 +1,0 @@
-question: Jaké jsou dva základní prvky, na kterých je založena infrastruktura HD peněženky?
-answer: Mnemonická fráze a heslová fráze.
-wrong_answers:
-  - Seed a hlavní soukromý klíč.
-  - Hlavní řetězový kód a seed.
-  - Mnemonická fráze a hlavní soukromý klíč.
-explanation: |
-  Základ HD peněženky spočívá ve dvou základních prvcích; mnemonické frázi a heslové frázi (volitelné dodatečné heslo). Společně tvoří seed, 512bitovou alfanumerickou sekvenci, která slouží jako základ pro odvození klíčů peněženky.
-reviewed: false

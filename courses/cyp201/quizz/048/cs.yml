@@ -1,9 +1,0 @@
-question: Jaká je hlavní funkce Bitcoinové peněženky?
-answer: Odkazuje na sbírku soukromých kryptografických klíčů odvozených z jednoho hlavního klíče.
-wrong_answers:
-  - Jedná se o fyzické zařízení, které uchovává kryptoměny.
-  - Jedná se o digitální platformu pro nákup a prodej kryptoměn.
-  - Jedná se o software, který těží nové bitcoiny.
-explanation: |
-  Bitcoinová peněženka, konkrétně Hierarchická Deterministická Peněženka (HD peněženka), je sbírka soukromých kryptografických klíčů odvozených z jednoho hlavního klíče. Tyto klíče jsou nezbytné pro vlastnictví kryptoměny.
-reviewed: false

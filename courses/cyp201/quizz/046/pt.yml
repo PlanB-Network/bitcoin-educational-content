@@ -1,9 +1,0 @@
-question: Qual é a importância do ponto no infinito no algoritmo ECDSA?
-answer: Se o ponto calculado P for o ponto no infinito, a assinatura é inválida.
-wrong_answers:
-  - Se o ponto calculado P for o ponto no infinito, a assinatura é válida.
-  - O ponto no infinito é usado para calcular o nonce.
-  - O ponto no infinito é usado para criptografar as chaves.
-explanation: |
-  No algoritmo ECDSA, se o ponto calculado P na curva elíptica for o ponto no infinito, a assinatura é considerada inválida. Esta é uma das verificações realizadas durante a validação de uma assinatura digital.
-reviewed: false

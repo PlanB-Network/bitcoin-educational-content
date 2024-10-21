@@ -1,9 +1,0 @@
-question: Segwit標準でHDウォレットアドレスを取得するために使用されるフォーマット表現は何ですか？
-answer: bech32フォーマット
-wrong_answers:
-  - base 58フォーマット
-  - SHA256フォーマット
-  - RIPMD160フォーマット
-explanation: |
-  チェックサムを計算した後、レガシースタンダードではbase 58フォーマット表現が使用されますが、Segwit標準ではHDウォレットアドレスを取得するためにbech32フォーマットが使用されます。
-reviewed: false

@@ -1,9 +1,0 @@
-question: Pourquoi les fonctions de hachage SHA0, SHA1 et MD5 sont-elles considérées comme obsolètes ?
-answer: Elles ont perdu leur résistance aux collisions.
-wrong_answers:
-  - Elles sont trop lentes à calculer.
-  - Elles produisent des empreintes trop grandes.
-  - Elles ne sont pas irréversibles.
-explanation: |
-  Les fonctions de hachage SHA0, SHA1 et MD5 sont considérées comme obsolètes car elles ont perdu leur résistance aux collisions. Cela signifie qu'il est relativement facile de trouver deux entrées différentes qui produisent la même sortie, ce qui constitue une importante faille de sécurité.
-reviewed: false

@@ -1,0 +1,9 @@
+question: Quel est l’objectif du procédé de hachage cryptographique ?
+answer: Mapper une chaîne de bits de longueur arbitraire à une chaîne de bits de longueur fixe.
+wrong_answers:
+  - Chiffrer un message.
+  - Assurer que l'émetteur du message ne pourra pas nier avoir émis le message dans le futur.
+  - Garantir la confidentialité des données.
+explanation: |
+  Le hachage transforme une donnée de n'importe quelle taille en une sortie de taille fixe, utile pour vérifier l'intégrité sans nécessairement chiffrer ou authentifier les données.
+reviewed: false

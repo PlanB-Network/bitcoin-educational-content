@@ -983,6 +983,10 @@ Joka tapauksessa kaikki kurssimme ovat ilmaisia, ja monia resursseja tai opetuso
 <chapterId>3f43175a-fb7a-5b1c-a887-7dcf615d7a3a</chapterId>
 <isCourseReview>true</isCourseReview>
 
+## Loppukoe
+<chapterId>f3ff8089-8f89-56a8-be8c-b60296b4d91f</chapterId>
+<isCourseExam>true</isCourseExam>
+
 
 ## Seuranta
 <chapterId>b082b8eb-dabc-5d79-94cf-eb8f48fc1968</chapterId>

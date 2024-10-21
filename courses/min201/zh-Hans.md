@@ -755,6 +755,10 @@ Braiins OS+支持ASIC的超频、降频和自动调频。它允许用户灵活�
 <chapterId>6af13742-df68-5cf4-b7aa-93dc0c2eaae9</chapterId>
 <isCourseReview>true</isCourseReview>
 
+## 期末考试
+<chapterId>306a1230-050f-5739-b965-6692542ff6bc</chapterId>
+<isCourseExam>true</isCourseExam>
+
 
 ## 通过智能手机控制Antminer S9
 

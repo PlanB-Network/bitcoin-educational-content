@@ -1704,6 +1704,10 @@ Now that you went through the Module "Overcomming Doubts" you will have to test 
 <chapterId>86e358bb-88f4-5d20-af53-93f0f3524590</chapterId>
 <isCourseReview>true</isCourseReview>
 
+## Final Exam
+<chapterId>cbdb0b33-0491-5013-b96c-9a84dd085ed0</chapterId>
+<isCourseExam>true</isCourseExam>
+
 
 ## Closing Remarks
 

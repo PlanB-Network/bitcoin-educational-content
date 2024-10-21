@@ -1282,3 +1282,7 @@ Parabéns por concluir este curso BTC 101! Espero sinceramente que você tenha g
 
 <chapterId>585729e2-b0ab-51b5-89ec-593e3ea22c57</chapterId>
 <isCourseReview>true</isCourseReview>
+
+## Exame Final
+<chapterId>8410e961-3841-5abf-a51d-04fc0139dd59</chapterId>
+<isCourseExam>true</isCourseExam>

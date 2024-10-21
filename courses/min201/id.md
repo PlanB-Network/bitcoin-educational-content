@@ -320,10 +320,11 @@ Untuk investasi 1 kW energi listrik, radiator listrik menghasilkan 1 kW panas, t
 Komputer, atau lebih luas lagi papan elektronik, tidak mengonsumsi energi untuk melakukan perhitungan, ia hanya membutuhkan energi untuk mengalir melalui komponennya agar dapat berfungsi. Konsumsi energi disebabkan oleh resistansi listrik dari komponen, yang menghasilkan kerugian dan menghasilkan panas, dikenal sebagai efek Joule.
 
 Beberapa perusahaan telah datang dengan ide untuk menggabungkan kebutuhan kekuatan komputasi dengan kebutuhan pemanasan melalui radiator/server. Ide ini adalah untuk mendistribusikan server perusahaan ke dalam unit-unit kecil yang bisa ditempatkan di rumah atau kantor. Namun, ide ini menghadapi beberapa masalah. Kebutuhan akan server tidak terkait dengan kebutuhan akan pemanasan, dan perusahaan tidak dapat menggunakan kemampuan komputasi server mereka secara fleksibel. Ada juga batasan pada bandwidth yang dapat dimiliki individu. Semua kendala ini mencegah perusahaan dari membuat instalasi mahal ini menguntungkan atau menyediakan penawaran server online yang stabil tanpa pusat data yang dapat mengambil alih ketika pemanasan tidak diperlukan.
-"Panas yang dihasilkan oleh komputer Anda tidak terbuang jika Anda perlu memanaskan rumah Anda. Jika Anda menggunakan pemanas listrik di tempat Anda tinggal, maka panas dari komputer Anda tidak terbuang. Biayanya sama untuk menghasilkan panas ini dengan komputer Anda. Jika Anda memiliki sistem pemanasan yang lebih murah daripada pemanas listrik, maka pemborosan hanya pada perbedaan biaya. Jika musim panas dan Anda menggunakan pendingin udara, maka itu adalah pemborosan ganda. Penambangan Bitcoin harus dilakukan di tempat yang lebih murah. Mungkin itu akan berada di tempat dengan iklim dingin dan di mana pemanasan adalah listrik, di mana penambangan akan menjadi gratis."
 
+> Panas yang dihasilkan oleh komputer Anda tidak terbuang jika Anda perlu memanaskan rumah Anda. Jika Anda menggunakan pemanas listrik di tempat Anda tinggal, maka panas dari komputer Anda tidak terbuang. Biayanya sama untuk menghasilkan panas ini dengan komputer Anda. Jika Anda memiliki sistem pemanasan yang lebih murah daripada pemanas listrik, maka pemborosan hanya pada perbedaan biaya. Jika musim panas dan Anda menggunakan pendingin udara, maka itu adalah pemborosan ganda. Penambangan Bitcoin harus dilakukan di tempat yang lebih murah. Mungkin itu akan berada di tempat dengan iklim dingin dan di mana pemanasan adalah listrik, di mana penambangan akan menjadi gratis.
 > Satoshi Nakamoto - 8 Agustus 2010
-> Bitcoin dan sistem bukti kerjanya menonjol karena secara otomatis menyesuaikan kesulitan penambangan berdasarkan jumlah perhitungan yang dilakukan oleh seluruh jaringan. Jumlah ini disebut hashrate dan dinyatakan dalam hash per detik. Saat ini, diperkirakan sebesar 380 exahash per detik, yang berarti 380 miliar miliar hash per detik. Hashrate ini mewakili pekerjaan dan oleh karena itu jumlah energi yang digunakan. Semakin tinggi hashrate, semakin tinggi kesulitannya, dan sebaliknya. Dengan demikian, seorang penambang Bitcoin dapat diaktifkan atau dinonaktifkan kapan saja tanpa mempengaruhi jaringan, tidak seperti radiator/server yang perlu tetap stabil untuk menyediakan layanannya. Penambang diberi imbalan atas partisipasinya, relatif terhadap yang lain, tidak peduli seberapa kecil mungkin.
+
+Bitcoin dan sistem bukti kerjanya menonjol karena secara otomatis menyesuaikan kesulitan penambangan berdasarkan jumlah perhitungan yang dilakukan oleh seluruh jaringan. Jumlah ini disebut hashrate dan dinyatakan dalam hash per detik. Saat ini, diperkirakan sebesar 380 exahash per detik, yang berarti 380 miliar miliar hash per detik. Hashrate ini mewakili pekerjaan dan oleh karena itu jumlah energi yang digunakan. Semakin tinggi hashrate, semakin tinggi kesulitannya, dan sebaliknya. Dengan demikian, seorang penambang Bitcoin dapat diaktifkan atau dinonaktifkan kapan saja tanpa mempengaruhi jaringan, tidak seperti radiator/server yang perlu tetap stabil untuk menyediakan layanannya. Penambang diberi imbalan atas partisipasinya, relatif terhadap yang lain, tidak peduli seberapa kecil mungkin.
 
 Ringkasnya, sebuah radiator listrik dan penambang Bitcoin keduanya menghasilkan 1 kW panas untuk 1 kW listrik yang dikonsumsi. Namun, penambang juga menerima bitcoin sebagai hadiah. Terlepas dari harga listrik, harga bitcoin, atau persaingan dalam aktivitas penambangan Bitcoin di jaringan, secara ekonomis lebih menguntungkan untuk memanaskan dengan penambang daripada radiator listrik.
 
@@ -333,9 +334,9 @@ Yang penting untuk dipahami adalah bagaimana penambangan berkontribusi pada dese
 Beberapa teknologi yang ada telah digabungkan secara cerdik untuk mewujudkan konsensus Nakamoto. Konsensus ini memberi imbalan ekonomi kepada peserta yang jujur atas kontribusi mereka terhadap operasi jaringan Bitcoin, sambil mencegah peserta yang tidak jujur. Ini adalah salah satu poin kunci yang memungkinkan jaringan untuk eksis secara berkelanjutan.
 Aktor jujur, mereka yang menambang sesuai dengan aturan, semua bersaing satu sama lain untuk mendapatkan bagian terbesar dari hadiah untuk memproduksi blok baru. Insentif ekonomi ini secara alami mengarah pada bentuk sentralisasi karena perusahaan memilih untuk berspesialisasi dalam aktivitas yang menguntungkan ini dengan mengurangi biaya mereka melalui ekonomi skala. Aktor industri ini memiliki posisi yang menguntungkan untuk membeli dan memelihara mesin, serta menegosiasikan tarif listrik grosir.
 
-> "Pada awalnya, sebagian besar pengguna akan menjalankan node jaringan, tetapi seiring jaringan berkembang melebihi titik tertentu, itu akan semakin banyak ditinggalkan kepada spesialis dengan ladang server dari perangkat keras khusus. Ladang server hanya perlu memiliki satu node di jaringan dan sisanya dari LAN terhubung ke node tersebut."
+> Pada awalnya, sebagian besar pengguna akan menjalankan node jaringan, tetapi seiring jaringan berkembang melebihi titik tertentu, itu akan semakin banyak ditinggalkan kepada spesialis dengan ladang server dari perangkat keras khusus. Ladang server hanya perlu memiliki satu node di jaringan dan sisanya dari LAN terhubung ke node tersebut.
 >
-> - Satoshi Nakamoto - 2 November 2008
+> Satoshi Nakamoto - 2 November 2008
 
 Beberapa entitas memegang persentase yang cukup besar dari total hashrate di ladang penambangan besar. Kita dapat mengamati gelombang dingin baru-baru ini di Amerika Serikat di mana sebagian besar hashrate dimatikan untuk mengalihkan energi ke rumah tangga yang membutuhkan listrik secara luar biasa. Selama beberapa hari, penambang secara ekonomi diberi insentif untuk mematikan ladang mereka, dan cuaca luar biasa ini dapat dilihat pada kurva hashrate Bitcoin.
 
@@ -528,7 +529,10 @@ Di sini, kami akan melihat bagaimana cara mudah menginstal Braiins OS+ langsung 
 8. Klik "Kembali" lalu tab "Instal", masukkan alamat IP yang sebelumnya ditemukan, dan klik "Mulai".
 
 > Jika instalasi tidak berhasil, mungkin diperlukan untuk melakukan reset dan coba lagi (lihat bagian sebelumnya).
-> ![image](assets/software/8.webp) 9. Setelah beberapa saat, Antminer Anda akan restart dan Anda akan dapat mengakses antarmuka Braiins OS+ di alamat IP yang ditentukan, di sini 192.168.1.37, langsung di bilah alamat browser Anda. Nama pengguna default adalah "root" dan tidak ada kata sandi default.
+
+![image](assets/software/8.webp)
+
+9. Setelah beberapa saat, Antminer Anda akan restart dan Anda akan dapat mengakses antarmuka Braiins OS+ di alamat IP yang ditentukan, di sini 192.168.1.37, langsung di bilah alamat browser Anda. Nama pengguna default adalah "root" dan tidak ada kata sandi default.
 
 ## Konfigurasi BraiinsOS+
 
@@ -653,7 +657,8 @@ Akhirnya, pasang kembali penutup casing dan sekrup 6 sekrup di sisi untuk menaha
 <chapterId>a29f60f1-3fa3-57fc-a630-9c97cec30e56</chapterId>
 
 > PERINGATAN: Sangat penting untuk telah terlebih dahulu menginstal Braiins OS+ pada penambang Anda, atau perangkat lunak lain yang mampu mengurangi kinerja mesin Anda. Langkah ini krusial karena untuk mengurangi kebisingan, kita akan memasang kipas yang kurang kuat, yang akan menghilangkan panas lebih sedikit.
-> ![image](assets/hardware/cover.webp)
+
+![image](assets/hardware/cover.webp)
 
 ### Bahan yang Diperlukan
 
@@ -752,12 +757,10 @@ Ini menetapkan batas atas pada tingkat hash yang dapat dimiliki oleh sebuah mesi
 
 Hasil akhirnya adalah tingkat hash yang lebih tinggi per watt listrik, yang berarti margin keuntungan yang lebih besar untuk penambang. Alasan mengapa mesin tidak didistribusikan dengan jenis perangkat lunak ini adalah karena variansi mesin tidak diinginkan, karena pelanggan ingin tahu persis apa yang mereka dapatkan, sehingga merupakan ide buruk bagi produsen untuk menjual produk yang tidak memiliki kinerja yang konsisten dan dapat diprediksi dari satu mesin ke mesin lainnya. Selain itu, autotuning tingkat chip memerlukan sumber daya pengembangan yang cukup besar, karena kompleks untuk diimplementasikan. Produsen sudah menghabiskan banyak sumber daya mengembangkan firmware mereka sendiri. Ada solusi perangkat lunak yang memungkinkan autotuning, seperti Braiins OS+. Selain meningkatkan kinerja ASIC hingga 20%.
 
-
-
 ## Evaluasi kursus ini
+
 <chapterId>6af13742-df68-5cf4-b7aa-93dc0c2eaae9</chapterId>
 <isCourseReview>true</isCourseReview>
-
 
 ## Mengontrol Antminer S9 dari smartphone Anda
 
@@ -766,4 +769,3 @@ Hasil akhirnya adalah tingkat hash yang lebih tinggi per watt listrik, yang bera
 ### Membuat pintasan di iOS
 
 ![Mengontrol Antminer S9 dengan smartphone Anda](https://www.youtube.com/watch?v=OsKmdB2iw88&t=60s)
-

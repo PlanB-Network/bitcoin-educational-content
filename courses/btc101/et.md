@@ -1282,19 +1282,7 @@ Palju õnne BTC 101 kursuse lõpetamise puhul! Loodan siiralt, et see meeldis te
 - [MIN 201](https://planb.network/courses/min201) õpetab rohkem kaevandamise kohta
 - ja palju muud...
 
-## Toetage meid
-
-<chapterId>3e6e756b-b6c4-5d41-bece-767922348067</chapterId>
-
-See kursus, nagu kogu see ülikooli sisu, on teile tasuta pakutud meie kogukonna poolt. Meid saate toetada, jagades seda teistega, saades ülikooli liikmeks ja isegi panustades selle arengusse läbi [meie GitHubi](https://github.com/DecouvreBitcoin/sovereign-university-data). Kogu meeskonna nimel, aitäh!
-
-
-Suur tänu meie Patreon toetajatele, liikmetele ja annetajatele nende rahalise toetuse eest, tänu inimestele, kes jagavad, ja tänu neile, kes tegid selle koolituse võimalikuks: Rachel, Muriel, StackinSat meeskond, JohnOnChain, Fanis, Guillaume, Lounes, toimetajad ja ülevaatajad.
-
-Näeme varsti!
-
 ## Hinnake kursust
+
 <chapterId>585729e2-b0ab-51b5-89ec-593e3ea22c57</chapterId>
 <isCourseReview>true</isCourseReview>
-
-

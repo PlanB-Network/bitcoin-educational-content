@@ -1327,18 +1327,7 @@ Cambiar el sistema financiero requiere cambiar la moneda. Satoshi Nakamoto creó
 - [MIN 201](https://planb.network/courses/min201) para aprender más sobre la minería
 - y muchos más...
 
-## Apóyanos
-
-<chapterId>3e6e756b-b6c4-5d41-bece-767922348067</chapterId>
-
-Este curso, junto con todo el contenido presente en esta plataforma, ha sido ofrecido de forma gratuita por nuestra comunidad. Para apoyarnos, puedes compartirlo con tus amigos, convertirte en miembro de la plataforma o incluso contribuir a su desarrollo a través de [nuestro GitHub](https://github.com/PlanB-Network/bitcoin-educational-content). ¡En nombre de todo el equipo, gracias!
-
-Un enorme agradecimiento a nuestros patrocinadores, miembros y donantes por su apoyo financiero, gracias a las personas que comparten y gracias a aquellos que hicieron posible este curso: Rachel, Muriel, el equipo de StackinSat, JohnOnChain, Fanis, Guillaume, Lounes, los correctores y los revisores.
-
-¡Hasta pronto!
-
 ## Danos tu opinión sobre este curso
 
 <chapterId>585729e2-b0ab-51b5-89ec-593e3ea22c57</chapterId>
 <isCourseReview>true</isCourseReview>
-

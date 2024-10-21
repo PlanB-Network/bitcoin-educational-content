@@ -1260,16 +1260,6 @@ Herzlichen Glückwunsch zum Abschluss dieses BTC 101-Kurses! Ich hoffe von ganze
 - [MIN 201](https://planb.network/courses/min201), um mehr über das Mining zu erfahren
 - und viele mehr...
 
-## Unterstütze uns
-
-<chapterId>3e6e756b-b6c4-5d41-bece-767922348067</chapterId>
-
-Dieser Kurs sowie der gesamte Inhalt dieser Universität wurden Ihnen kostenlos von unserer Community zur Verfügung gestellt. Um uns zu unterstützen, können Sie ihn in Ihrem Umfeld teilen, Mitglied der Universität werden und sogar zu ihrer Entwicklung beitragen über [unser GitHub](https://github.com/PlanB-Network/bitcoin-educational-content). Im Namen des gesamten Teams, vielen Dank!
-
-Ein riesiges Dankeschön an unsere Patreon, Mitglieder und Spender für ihre finanzielle Unterstützung, danke an diejenigen, die teilen, und danke an diejenigen, die diese Schulung möglich gemacht haben: Rachel, Muriel, das Team von StackinSat, JohnOnChain, Fanis, Guillaume, Lounes, die Korrektoren und Lektoren.
-
-Bis bald!
-
 ## Bewerten Sie den Kurs
 
 <chapterId>585729e2-b0ab-51b5-89ec-593e3ea22c57</chapterId>

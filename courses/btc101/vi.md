@@ -1245,15 +1245,6 @@ Xin chúc mừng bạn đã hoàn thành khóa học BTC 101 này! Tôi thực s
 - [MIN 201](https://planb.network/courses/min201) để tìm hiểu thêm về việc đào
 - và nhiều hơn nữa...
 
-## Hỗ trợ chúng tôi
-<chapterId>3e6e756b-b6c4-5d41-bece-767922348067</chapterId>
-
-Khóa học này, cũng như tất cả nội dung trên trường đại học này, đã được cộng đồng của chúng tôi cung cấp miễn phí cho bạn. Để hỗ trợ chúng tôi, bạn có thể chia sẻ nó với người khác, trở thành thành viên của trường đại học, và thậm chí đóng góp vào sự phát triển của nó qua [GitHub của chúng tôi](https://github.com/PlanB-Network/bitcoin-educational-content). Thay mặt cho toàn bộ đội ngũ, cảm ơn bạn!
-
-
-Một lời cảm ơn lớn đến những người hỗ trợ Patreon, các thành viên, và những người quyên góp vì đã hỗ trợ tài chính, cảm ơn những người đã chia sẻ, và cảm ơn những người đã làm cho khóa học này trở thành hiện thực: Rachel, Muriel, đội ngũ StackinSat, JohnOnChain, Fanis, Guillaume, Lounes, những người hiệu đính, và những người đánh giá.
-
-Hẹn gặp lại bạn!
 
 ## Đánh giá khóa học
 <chapterId>585729e2-b0ab-51b5-89ec-593e3ea22c57</chapterId>

@@ -1274,16 +1274,6 @@ Onnittelut BTC 101 -kurssin suorittamisesta! Toivon vilpittömästi, että nauti
 - [MIN 201](https://planb.network/courses/min201) oppiaksesi lisää louhinnasta
 - ja paljon muuta...
 
-## Tue meitä
-
-<chapterId>3e6e756b-b6c4-5d41-bece-767922348067</chapterId>
-
-Tämä kurssi, kuten kaikki tämän yliopiston sisältö, on tarjottu sinulle ilmaiseksi yhteisömme toimesta. Voit tukea meitä jakamalla sen muiden kanssa, liittymällä yliopiston jäseneksi ja jopa osallistumalla sen kehittämiseen [GitHubissamme](https://github.com/PlanB-Network/bitcoin-educational-content). Koko tiimin puolesta, kiitos!
-
-Suuri kiitos Patreon-tukijoillemme, jäsenillemme ja lahjoittajillemme heidän taloudellisesta tuestaan, kiitos ihmisille, jotka jakavat, ja kiitos niille, jotka tekivät tämän koulutuksen mahdolliseksi: Rachel, Muriel, StackinSat-tiimi, JohnOnChain, Fanis, Guillaume, Lounes, oikolukijat ja arvioijat.
-
-Nähdään pian!
-
 ## Arvioi kurssi
 
 <chapterId>585729e2-b0ab-51b5-89ec-593e3ea22c57</chapterId>

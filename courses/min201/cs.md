@@ -84,6 +84,7 @@ Proces těžby zahrnuje nalezení platného hash, který je přijatelný pro Bit
 Na začátku dominovala éra CPU, kdy těžaři používali své osobní počítače pro těžbu Bitcoinu. Objev výhod GPU (grafických karet) pro tuto úlohu znamenal zlom, výrazně zvýšil hashrate a snížil spotřebu energie. Pokrok zde ale neskončil, následovalo zavedení FPGA (programovatelných hradlových polí). FPGA sloužily jako platforma pro vývoj ASIC (aplikačně specifických integrovaných obvodů).
 
 ![image](assets/overview/chip.webp)
+
 ASIC jsou čipy, srovnatelné s čipem CPU, nicméně jsou vyvinuty k provádění pouze jednoho konkrétního typu výpočtu co nejefektivnějším způsobem. Jinými slovy, CPU je schopno provádět mnoho různých typů výpočtů, aniž by bylo zvláště optimalizováno pro jeden konkrétní typ výpočtu, zatímco ASIC bude schopno provádět pouze jeden typ výpočtu, ale velmi efektivně. V případě Bitcoin ASIC jsou tyto čipy navrženy pro výpočet algoritmu SHA256. Dnes již těžaři výhradně používají ASIC určené pro tuto operaci, optimalizované tak, aby testovaly maximální počet kombinací s co nejmenší spotřebou energie a co nejrychleji. Tyto počítače, neschopné provádět jiné úkoly než těžbu Bitcoinu, jsou hmatatelným svědectvím neustálého vývoje a rostoucí specializace průmyslu těžby Bitcoinu. Tento neustálý vývoj odráží vnitřní dynamiku Bitcoinu, kde úprava obtížnosti zajišťuje produkci bloku každých deset minut navzdory exponenciálnímu nárůstu těžební kapacity.
 
 Pro ilustraci intenzity tohoto procesu si vezměte typického těžaře schopného dosáhnout 14 TeraHash za sekundu, neboli 14 bilionů pokusů každou sekundu najít správný hash. Na úrovni sítě Bitcoinu dosahujeme nyní přibližně 300 HexaHash za sekundu, což zdůrazňuje kolektivní sílu mobilizovanou v těžbě Bitcoinu.
@@ -101,6 +102,7 @@ Pro ilustraci intenzity tohoto procesu si vezměte typického těžaře schopné
 
 Pokud jde o vývoj strojů pro těžbu Bitcoinu, je důležité poznamenat, že kontext je více orientován směrem k tradičnímu obchodnímu modelu. Těžaři vydělávají svůj příjem z validace bloků, úkolu s relativně nízkou pravděpodobností úspěchu. Současný model v použití, Antminer S9, ačkoli je starší model spuštěný kolem roku 2016, je stále v oběhu na trhu s použitými, obchoduje se za přibližně 100 až 200 €. Cena těžebních strojů se nicméně liší na základě hodnoty Bitcoinu, a novější model, Antminer S19, je v současné době odhadován na přibližně 3000 €.
 V oblasti těžby se odborníci musí strategicky pozicovat vzhledem k neustálému technologickému pokroku. Těžební průmysl je předmětem neustálých inovací, jak dokládá nedávné uvedení verze J modelu S19 a očekávané uvedení modelu S19 XP, které nabízí výrazně vyšší těžební schopnosti. Navíc se zlepšení netýkají pouze surového výkonu strojů. Například nový model S19 XP používá systém kapalinového chlazení, technickou úpravu, která umožňuje významné zlepšení energetické účinnosti. Ačkoli inovace zůstávají konstantní, budoucí zisky v účinnosti budou pravděpodobně menší ve srovnání s dosud pozorovanými, kvůli dosažení určitého prahu technologické inovace.
+
 ![image](assets/overview/chipevolution.webp)
 
 Závěrem, průmysl těžby Bitcoinu pokračuje v adaptaci a rozvoji, a hráči v průmyslu musí očekávat snižující se zisky v účinnosti do budoucna a přizpůsobit své strategie podle toho. Budoucí technologické pokroky, ačkoli stále přítomné, pravděpodobně nastanou na menší škále, což odráží rostoucí zralost sektoru.
@@ -162,7 +164,15 @@ Obecný závěr je, že decentralizace je klíčová pro bezpečnost a odolnost 
 
 ### Princip Attakai
 
-Limit této decentralizace?
+V současném kontextu může těžba Bitcoinu pomocí modelu S9 působit složitě, ale hlubší analýza otevírá dveře k inovativním alternativám. Princip Attakai je založen na úvaze o využití těžebních zařízení v různých typech budov, jako jsou školy nebo nemocnice. Hlavní myšlenkou je rozmístit několik těžebních strojů na různá místa, což umožní znovu využít teplo vyzařované těmito stroji k vytápění budov. Pokud by se zvolily výkonnější modely, jako je S19, bylo by možné rozložit těžební činnost, čímž by se zlepšil celkový výkon a zároveň přispělo k užitečné činnosti pro společnost. Tato iniciativa si klade za cíl konkurovat velkým centralizovaným těžebním instalacím tím, že produktivně a efektivně využije teplo generované těžebními stroji.
+
+Iniciativa Attakai vychází z osobního experimentu s domácí těžbou, který provedli dva přátelé toužící aktivně se zapojit do Bitcoinové sítě. Čelili velkým překážkám, jako je vysoká hladina hluku těžebního vybavení, které bylo navrženo pro průmyslové použití, nikoli pro domácí. Aby tento problém vyřešili, provedli na těžebních strojích hardwarové úpravy. Původní vybavení bylo nahrazeno účinnějšími a tiššími ventilátory, což učinilo domácí těžbu přístupnější a méně rušivou. Dále přidali Wi-Fi adaptér, což odstranilo potřebu kabelového připojení přes Ethernet a ještě více zjednodušilo proces domácí těžby. V zimě byly tyto upravené těžební stroje využívány jako zdroj tepla, což proměnilo nepříjemnost ve výhodu.
+
+Po představení svého projektu Bitcoinové komunitě a vzhledem k zájmu, který vzbudil, se vynálezci Attakai rozhodli zveřejnit podrobné návody na platformě Découvre Bitcoin, aby kdokoliv mohl replikovat jejich zkušenost s domácí těžbou. Nyní plánují rozšířit tento koncept i mimo domácí prostředí. Cílem je ukázat, jak může být upravený těžební stroj přeměněn na tiché pomocné topidlo použitelné v zimě, a tím nabídnout plynulý přechod k druhé části školení zaměřené na praktickou realizaci těchto úprav, ilustrované vysvětlujícími videi. Otázkou však zůstává, zda lze tuto iniciativu rozšířit do většího měřítka, a tak nabídnout realistickou a udržitelnou alternativu k současným centralizovaným těžebním strukturám.
+
+![image](assets/overview/attakai.webp)
+
+### Limit této decentralizace?
 
 Ačkoliv myšlenka decentralizace těžby prostřednictvím produktivního využití generovaného tepla vypadá slibně, má určitá omezení a zůstávají otázky. Energeticky náročná zařízení jako sauny a bazény by mohla těžit z tohoto konceptu využitím tepla produkovaného těžaři k ohřevu vody ve svých zařízeních. Tuto praxi již implementují někteří členové Bitcoinové komunity, kteří prozkoumávají různé metody efektivního využití tepla generovaného těžebním zařízením. Například, banketní sál by teoreticky mohl být vytápěn třemi nebo čtyřmi těžaři S19, každý spotřebovávající 3000 wattů a produkující ekvivalentní množství tepla.
 
@@ -210,11 +220,15 @@ Nakonec je odpovědnost sdílena mezi všechny aktéry v síti Bitcoin. Pokles p
 
 Elegantní teorie her od Satoshiho Nakamota vytvořila situaci, kde každý aktér v síti Bitcoin je motivován jednat správně, aby chránil jak své vlastní zájmy, tak zájmy ostatních účastníků. To vytváří rovnováhu, kde špatné chování může být potrestáno, čímž se zvyšuje bezpečnost a stabilita celého systému. Přesto zůstávají státy potenciální hrozbou. Jak bylo naznačeno na prezentaci na Surfing Bitcoin 2022, státy mohou pokusit o útok na těžební průmysl, čímž vystavují síť Bitcoin rizikům centralizace a útoku. Hypotetické scénáře, jako je vojenský útok zaměřený na výrobní zařízení těžebního hardwaru, zdůrazňují důležitost geografické a průmyslové diverzifikace pro odolnost sítě Bitcoin.
 
+![image](assets/overview/miner.webp)
+
 Centralizace výroby těžebního hardwaru v Číně představuje další riziko. Odmítnutí exportu těžebních strojů nebo akumulace hashovací síly pro potenciální útok 51% Čínou zdůrazňuje potřebu diverzifikované výroby těžebního hardwaru. Jako reakce na tyto rizika aktivně komunita Bitcoin hledá řešení. Společnosti jako Intel zvažují výrobu těžebního zařízení ve Spojených státech, což přispívá k distribuci výroby. Další iniciativy, jako je open-source Mining Development Kit (MDK) od společnosti Block, mají za cíl snížit monopol na design a výrobu těžebního hardwaru, což umožňuje širší distribuci hashovací síly. V jádru těchto diskusí leží základní poslání Bitcoinu: být sítí pro výměnu hodnot odolnou vůči cenzuře. Komunita Bitcoin neustále usiluje o posílení distribuce, odolnosti vůči cenzuře a anti-křehkosti sítě, odmítajíc předložené návrhy, jako je přechod na proof of stake, které nejsou v souladu s těmito základními principy.
 
 ### Fyzická spojitost Proof of Work vs Proof of Stake
 
 Důkaz práce (Proof of Work - PoW) je zásadní, protože představuje fyzickou spojnici mezi skutečným světem a Bitcoinem. Ačkoliv jsou bitcoiny nehmotné, jejich produkce vyžaduje hmatatelnou energii, čímž se navazuje přímé spojení s fyzickým a skutečným světem. Toto spojení zajišťuje, že produkce a validace bitcoinů a bloků mají skutečnou energetickou cenu, čímž je síť Bitcoin ukotvena ve fyzické realitě a brání její úplné dominanci mocnými subjekty. PoW působí jako obrana proti centralizaci, zajišťující, že účast v síti a validace transakcí vyžadují investici do hmatatelných zdrojů. To brání monopolizaci sítě subjekty, které by jinak mohly získat kontrolu bez jakékoliv významné vstupní bariéry, čímž zajišťuje spravedlivější rozdělení moci a vlivu v rámci sítě Bitcoin.
+
+![image](assets/overview/POWPOS.webp)
 
 ### Omezení Důkazu vkladu
 
@@ -234,6 +248,7 @@ Shrnutí, těžaři posilují síť Bitcoin proti cenzuře používáním elektr
 
 Aktuální hash rate, přestože cena Bitcoinu je na 30 000 dolarů ve srovnání s předchozím maximem 69 000 dolarů, zdůrazňuje hmatatelné spojení mezi těžbou a skutečným světem. Období býčího trhu vedou k vysoké poptávce po těžbě Bitcoinu a k nárůstu objednávek strojů od výrobců jako jsou Avalon a Bitmain. Výroba a dodání však nejsou okamžité, což vytváří nesoulad mezi zvýšenou poptávkou a pozdější dostupností. To může vést k tomu, že stroje objednané během býčího trhu jsou dodány v medvědím trhu, což zdůrazňuje významnou asymetrii mezi nízkou cenou a vysokým hash rate.
 Tato situace také ilustruje odolnost Bitcoinu, která je často hodnocena na základě jeho ceny. Avšak pro hlubší analýzu zdraví Bitcoinu je nutné zkoumat jeho hash rate, což měří počet výpočtů za sekundu v síti Bitcoinu. Zatímco cena Bitcoinu kolísá, jeho náklady, spojené s elektřinou potřebnou k provozu těžebních strojů, zůstávají zásadní pro pochopení tržních dynamik. Zaměřením na náklady místo ceny získáme konzistentnější perspektivu na stabilitu a dlouhodobou životaschopnost Bitcoinu. Obecně platí, že náklady na Bitcoin jsou proporcionální jeho ceně, což poskytuje lepší pochopení kolísání cen a budoucích výhledů.
+
 ![obrázek](assets/overview/pricevshashrate.webp)
 
 ### Hash Rate a Odmena

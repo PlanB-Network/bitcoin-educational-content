@@ -84,6 +84,7 @@ Kaevandamisprotsess hõlmab kehtiva räsi leidmist, mis on Bitcoin'i võrgule va
 Alguses domineeris CPU ajastu, kus kaevurid kasutasid Bitcoin'i kaevandamiseks oma isiklikke arvuteid. GPU-de (graafikakaartide) eeliste avastamine selle ülesande jaoks märkis pöördepunkti, suurendades oluliselt hashrate'i ja vähendades energiatarbimist. Edusammud ei peatunud seal, järgnes FPGA-de (field-programmable gate arrays) tutvustamine. FPGA-d teenisid platvormina ASIC-ute (application-specific integrated circuits) arendamiseks.
 
 ![image](assets/overview/chip.webp)
+
 ASIC-id on kiibid, võrreldavad CPU kiibiga, kuid need on välja töötatud ainult ühe kindla tüüpi arvutuse sooritamiseks võimalikult efektiivsel viisil. Teisisõnu, CPU suudab sooritada paljusid erinevaid tüüpi arvutusi ilma, et oleks eriti optimeeritud ühe või teise arvutuse jaoks, samas kui ASIC suudab sooritada ainult ühte tüüpi arvutust, kuid väga efektiivselt. Bitcoin'i ASIC-ide puhul on need disainitud SHA256 algoritmi arvutuste sooritamiseks. Tänapäeval kasutavad kaevurid eksklusiivselt just sellistele operatsioonidele pühendatud ASIC-e, mis on optimeeritud maksimaalse arvu kombinatsioonide testimiseks võimalikult väikese energiakuluga ja nii kiiresti kui võimalik. Need arvutid, mis ei suuda sooritada muid ülesandeid peale Bitcoin'i kaevandamise, on käegakatsutav tunnistus Bitcoin'i kaevandamistööstuse pidevast arengust ja üha suurenevast spetsialiseerumisest. See pidev areng peegeldab Bitcoin'i olemuslikku dünaamikat, kus raskusastme kohandamine tagab bloki tootmise iga kümne minuti järel hoolimata kaevandamisvõimsuse eksponentsiaalsest kasvust.
 
 Selle protsessi intensiivsuse illustreerimiseks kujutage ette tüüpilist kaevurit, kes suudab saavutada 14 TeraHashi sekundis, ehk 14 triljonit katset iga sekund leida õige hash. Bitcoin'i võrgu mastaabis jõuame nüüd ligikaudu 300 HexaHashi sekundis, mis rõhutab Bitcoin'i kaevandamises mobiliseeritud kollektiivset jõudu.
@@ -101,6 +102,7 @@ Raskusastme kohandamine on Bitcoin'i võrgu toimimiseks kriitilise tähtsusega m
 
 Rääkides Bitcoin'i kaevandamismasinate arengust, on oluline märkida, et kontekst on rohkem suunatud traditsioonilisele ärimudelile. Kaevurid teenivad oma tulu bloki valideerimisest, ülesandest, millel on suhteliselt madal edukuse tõenäosus. Praegu kasutusel olev mudel, Antminer S9, kuigi vanem mudel, mis lasti välja umbes 2016. aastal, on endiselt ringluses teise ringi turul, kaubeldes umbes 100 kuni 200 euroga. Siiski varieerub kaevandusmasinate hind sõltuvalt Bitcoin'i väärtusest, ja uuem mudel, Antminer S19, on hetkel hinnanguliselt umbes 3000 eurot.
 Pideva tehnoloogilise arenguga kaevandamisvaldkonnas peavad professionaalid end strateegiliselt positsioneerima. Kaevandustööstus on pidevate uuenduste all, nagu näitab hiljutine S19 J versiooni ja oodatava S19 XP versiooni väljalase, mis pakuvad oluliselt suuremaid kaevandamisvõimekusi. Lisaks ei ole täiustused seotud ainult masinate toorjõudlusega. Näiteks uus S19 XP mudel kasutab vedelikjahutussüsteemi, tehniline muudatus, mis võimaldab olulist energiatõhususe paranemist. Kuigi innovatsioon on pidev, on tulevased efektiivsuse kasvud tõenäoliselt väiksemad võrreldes seni täheldatutega, kuna jõutakse teatud tehnoloogilise innovatsiooni lävepakuni.
+
 ![image](assets/overview/chipevolution.webp)
 
 Kokkuvõttes jätkab Bitcoin'i kaevandamise tööstus kohanemist ja arengut ning tööstuse osalejad peavad arvestama tulevikus väiksemate efektiivsuse kasvudega ning kohandama oma strateegiaid vastavalt. Tulevased tehnoloogilised edusammud, kuigi endiselt esinevad, on tõenäoliselt väiksemas mahus, peegeldades sektori kasvavat küpsust.
@@ -162,7 +164,15 @@ Selle tsentraliseerimise vastu võitlemiseks arutatakse erinevaid strateegiaid:
 
 ### Attakai põhimõte
 
-Selle detsentraliseerimise piir?
+Praeguses kontekstis võib Bitcoinide kaevandamine S9 mudeliga tunduda keeruline, kuid sügavam analüüs avab ukse innovaatilistele alternatiividele. Attakai põhimõte põhineb mõttel kasutada kaevandamisüksusi erinevates hoonetes, näiteks koolides või haiglates. Peamine idee on paigutada mõned kaevandamismasinad erinevatesse kohtadesse, võimaldades sel viisil kasutada masinatest eralduvat soojust hoonete kütmiseks. Valides tõhusamad mudelid, näiteks S19, oleks võimalik kaevandamistegevust hajutada, parandades üldist tulemuslikkust ja samal ajal kasulikult panustades ühiskonda. Selle algatuse eesmärk on konkureerida suurte tsentraliseeritud kaevandamisrajatistega, kasutades kaevandamismasinate poolt toodetud soojust produktiivselt ja tõhusalt.
+
+Attakai algatus sündis kahest sõbrast, kes soovisid aktiivselt osaleda Bitcoin'i võrgus ja katsetasid kodukaevandamist. Nad seisid silmitsi suurte takistustega, näiteks kaevandamisvarustuse kõrge müratasemega, mis oli loodud tööstuslikuks, mitte koduseks kasutamiseks. Probleemi lahendamiseks viidi kaevandamismasinatesse sisse riistvaralisi muudatusi. Algne varustus asendati tõhusamate ja vaiksemate ventilaatoritega, mis muutis kodukaevandamise kättesaadavamaks ja vähem häirivaks. Lisaks lisati Wi-Fi adapter, mis kõrvaldas vajaduse Etherneti kaabliga ühenduse järele, lihtsustades kodukaevandamise protsessi veelgi. Talvel kasutati neid muudetud kaevandusmasinaid kütteallikana, muutes häiriva asjaolu kasulikuks.
+
+Pärast oma projekti tutvustamist Bitcoin'i kogukonnale ja huvi tekkimist otsustasid Attakai loojad avaldada üksikasjalikud juhised Découvre Bitcoin platvormil, et igaüks saaks kodukaevandamise kogemust korrata. Nüüd plaanivad nad seda kontseptsiooni laiendada kodust kaugemale. Eesmärk on näidata, kuidas muudetud kaevandamismasinat saab muuta vaikseks lisakütteallikaks, mida saab kasutada talvel, pakkudes sujuvat üleminekut teise koolitusosa juurde, mis keskendub nende muudatuste praktilisele rakendamisele koos selgitavate videodega. Küsimus on aga selles, kas seda algatust saab laiendada suuremasse mõõtkavasse, pakkudes realistlikku ja jätkusuutlikku alternatiivi praegustele tsentraliseeritud kaevandamisstruktuuridele.
+
+![image](assets/overview/attakai.webp)
+
+### Selle detsentraliseerimise piir?
 
 Kuigi kaevandamise detsentraliseerimise idee, kasutades ära tekitatud soojust tootlikult, tundub paljutõotav, on sellel teatud piirangud ja küsimused püsivad. Energiat intensiivselt kasutavad asutused nagu saunad ja basseinid võiksid sellest kontseptsioonist kasu saada, kasutades kaevurite poolt tekitatud soojust oma rajatiste vee soojendamiseks. See praktika on juba mõningate Bitcoini kogukonna liikmete poolt kasutusele võetud, kes uurivad erinevaid meetodeid kaevandamisseadmete poolt tekitatud soojuse tõhusaks kasutamiseks. Näiteks teoreetiliselt võiks kolme või nelja S19 kaevuri abil, igaüks tarbides 3000 vatti ja tootes samaväärse koguse soojust, soojendada banketisaali.
 
@@ -210,6 +220,7 @@ Lõppkokkuvõttes jagatakse vastutus kõigi Bitcoin'i võrgu osalejate vahel. Ka
 ### Kaevurite Võim
 
 Satoshi Nakamoto elegantne mänguteooria lõi olukorra, kus iga Bitcoin'i võrgu osaleja on motiveeritud õigesti käituma, et kaitsta nii oma huve kui ka teiste osalejate huve. See loob tasakaalu, kus halba käitumist saab karistada, suurendades seeläbi kogu süsteemi turvalisust ja stabiilsust. Hoolimata sellest tasakaalust, jäävad riigid potentsiaalseks ohuks. Nagu Surfing Bitcoin 2022 esitlusel märgitud, võivad riigid püüda rünnata kaevandustööstust, paljastades Bitcoin'i võrgu keskendumise ja rünnaku riskidele. Hüpoteetilised stsenaariumid, nagu sõjaline rünnak kaevandusseadmete tootmisrajatistele, rõhutavad geograafilise ja tööstusliku mitmekesistamise tähtsust Bitcoin'i võrgu vastupidavuse jaoks.
+
 ![image](assets/overview/miner.webp)
 
 Kaevandusseadmete tootmise keskendumine Hiinasse kujutab endast teist riski. Keeldumine kaevandusmasinate eksportimisest või hashrate'i kogumine potentsiaalseks 51% rünnakuks Hiina poolt rõhutab vajadust mitmekesistada kaevandusseadmete tootmist. Nendele riskidele reageerides uurib Bitcoin'i kogukond aktiivselt lahendusi. Ettevõtted nagu Intel kaaluvad kaevandusseadmete tootmist Ameerika Ühendriikides, aidates tootmise jaotust suurendada. Teised algatused, nagu Block'i avatud lähtekoodiga Mining Development Kit (MDK), eesmärgivad vähendada kaevandusseadmete disaini ja tootmise monopoli, võimaldades hashrate'i laiemat jaotust. Nende arutelude keskmes on Bitcoin'i põhimissioon: olla tsensuurikindel väärtusevahetusvõrk. Bitcoin'i kogukond püüab pidevalt tugevdada jaotust, tsensuurikindlust ja võrgu vastupidavust, lükates tagasi ettepanekud, nagu üleminek proof of stake'ile, mis ei ühti nende põhimõtetega.
@@ -217,6 +228,8 @@ Kaevandusseadmete tootmise keskendumine Hiinasse kujutab endast teist riski. Kee
 ### Töötõend vs Panusetõend Füüsiline Seos
 
 Proof of Work (PoW) on oluline, kuna see esindab füüsilist sidet reaalse maailma ja Bitcoini vahel. Kuigi bitcoinid on käegakatsutamatud, nõuab nende tootmine käegakatsutavat energiat, luues otsese ühenduse füüsilise ja reaalse maailmaga. See ühendus tagab, et bitcoinide ja plokkide tootmine ning valideerimine omavad reaalset energiakulu, ankurdamaks Bitcoini võrgustikku füüsilisse reaalsusesse ja takistamaks selle täielikku domineerimist võimsate entiteetide poolt. PoW toimib kaitserajatisena tsentraliseerimise vastu, tagades, et võrgustikus osalemine ja tehingute valideerimine nõuavad investeeringut käegakatsutavatesse ressurssidesse. See hoiab ära võrgustiku monopoliseerimise entiteetide poolt, kes muidu võiksid kontrolli haarata ilma olulise sisenemisbarjäärita, tagades seeläbi võimu ja mõju õiglasema jaotuse Bitcoini võrgustikus.
+
+![image](assets/overview/POWPOS.webp)
 
 ### Proof of Stake'i piirangud
 

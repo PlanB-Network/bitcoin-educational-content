@@ -222,6 +222,7 @@ In ultima analisi, la responsabilità è condivisa tra tutti gli attori della re
 ### Il potere dei minatori
 
 L'elegante teoria dei giochi di Satoshi Nakamoto ha stabilito una situazione in cui ogni partecipante della rete Bitcoin è incentivato ad agire correttamente per proteggere sia i propri interessi sia quelli degli altri partecipanti. Questo crea un equilibrio in cui il comportamento scorretto può essere sanzionato, rafforzando così la sicurezza e la stabilità dell'intero sistema. Nonostante questo equilibrio, gli Stati rimangono una minaccia potenziale. Come indicato nella presentazione a Surfing Bitcoin 2022, gli Stati possono tentare di attaccare l'industria del mining, esponendo la rete Bitcoin a rischi di centralizzazione ed attacco. Scenari ipotetici come un attacco militare mirato alle strutture di produzione di hardware di mining sottolineano l'importanza della diversificazione geografica e industriale per la resilienza della rete Bitcoin.
+
 ![image](assets/overview/miner.webp)
 
 La centralizzazione della produzione di hardware di mining in Cina rappresenta un altro rischio. Un rifiuto di esportare macchine da mining o un accumulo di hashrate per un potenziale attacco del 51% da parte della Cina evidenziano la necessità di una produzione diversificata di hardware di mining. Di fronte a questi rischi, la comunità Bitcoin sta esplorando attivamente delle soluzioni. Aziende come Intel stanno considerando di produrre attrezzature di mining negli Stati Uniti, contribuendo alla distribuzione della produzione. Altre iniziative, come quella di Block con il suo Mining Development Kit (MDK) open source, mirano a ridurre il monopolio della progettazione e produzione di hardware di mining, permettendo una distribuzione più ampia dell'hashrate. Al centro di queste discussioni si trova la missione fondamentale di Bitcoin: essere una rete di scambio di valore resistente alla censura. La comunità Bitcoin si impegna costantemente a rafforzare la distribuzione, la resistenza alla censura e l'anti-fragilità della rete, respingendo proposte come il passaggio al proof of stake, che non si allineano con questi principi fondamentali.
@@ -229,6 +230,8 @@ La centralizzazione della produzione di hardware di mining in Cina rappresenta u
 ### Il legame fisico del Proof of Work vs il Proof of Stake
 
 Il Proof of Work (PoW) è essenziale perché rappresenta il legame fisico tra il mondo reale e Bitcoin. Sebbene i bitcoin siano immateriali, la loro produzione richiede energia tangibile, stabilendo così un collegamento diretto con il mondo fisico e reale. Questa connessione assicura che la produzione e la validazione dei bitcoin e dei blocchi abbiano un costo energetico reale, ancorando così la rete Bitcoin nella realtà fisica e impedendo la sua completa dominazione da parte di entità potenti. Il PoW funge da baluardo contro la centralizzazione, garantendo che la partecipazione alla rete e la validazione delle transazioni richiedano un investimento in risorse tangibili. Ciò impedisce la monopolizzazione della rete da parte di entità che potrebbero altrimenti prendere il controllo senza alcuna barriera d'ingresso significativa, assicurando così una distribuzione più equa del potere e dell'influenza all'interno della rete Bitcoin.
+
+![image](assets/overview/POWPOS.webp)
 
 ### I Limiti del Proof of Stake
 
@@ -249,6 +252,8 @@ Per riassumere, i minatori rafforzano la rete Bitcoin contro la censura utilizza
 Il tasso di hash attuale, nonostante il prezzo del Bitcoin sia a 30.000$ rispetto al suo picco precedente di 69.000$, evidenzia il legame tangibile tra il mining e il mondo reale. I periodi di aumento dei prezzi (bull market) portano a una forte domanda di mining di Bitcoin e a un incremento degli ordini di macchine da produttori come Avalon e Bitmain. Tuttavia, la produzione e la consegna non sono istantanee, creando uno squilibrio tra una domanda crescente e una disponibilità successiva. Questo può portare alla consegna di macchine ordinate durante un bull market in un mercato in calo, sottolineando un'asimmetria notevole tra un prezzo basso e un tasso di hash elevato.
 
 Questa situazione illustra anche la resilienza del Bitcoin, spesso valutata in base al suo prezzo. Tuttavia, un'analisi più approfondita della salute di Bitcoin richiede l'esame del suo tasso di hash, che misura i calcoli al secondo nella rete Bitcoin. Mentre il prezzo del Bitcoin fluttua, il suo costo, legato all'elettricità necessaria per far funzionare le macchine di mining, rimane essenziale per comprendere la dinamica del mercato. Concentrandosi sul costo piuttosto che sul prezzo, si ottiene una prospettiva più coerente sulla stabilità e sulla sostenibilità a lungo termine del Bitcoin. In generale, il costo di Bitcoin è proporzionale al suo prezzo, offrendo una migliore comprensione delle fluttuazioni di prezzo e delle prospettive future.
+
+![image](assets/overview/pricevshashrate.webp)
 
 ### Tasso di Hash e Ricompensa
 
@@ -295,6 +300,7 @@ In questo contesto, scegliere un approccio autonomo ed educato al mining appare 
 ### Il mining è vietato in Europa?
 
 Con la questione del potenziale divieto del mining in Europa, le discussioni sulla regolamentazione diventano sempre più rilevanti. Il panorama normativo in costante cambiamento può, infatti, influenzare notevolmente l'industria del mining di Bitcoin. Il divieto del mining in Europa è uno scenario plausibile, specialmente considerando i precedenti in Cina. Sebbene, nonostante il divieto, le operazioni di mining continuino in Cina , l'Europa potrebbe seguire un percorso simile. Una distribuzione più ampia del hashrate in diverse regioni potrebbe aiutare a rafforzare la comunità dei minatori in Europa, permettendo loro di opporsi efficacemente ai malintesi e alle idee sbagliate riguardo al mining, al suo impatto ambientale e alla sua impronta sulla rete elettrica.
+
 ![image](assets/overview/regulation.webp)
 
 Di fronte a campagne come quelle di Greenpeace e ai dati spesso fuorvianti di alcuni studi, la migliore arma rimane l'informazione veritiera. È essenziale informare il pubblico e i decisori sulla realtà del mining, sulla sua complessità e sulle sue sfumature, piuttosto che lasciarli affidare a stereotipi e informazioni inesatte. Più persone saranno informate e consapevoli di cosa sia realmente il mining, meglio l'industria potrà difendersi dalle possibili regolamentazioni restrittive.

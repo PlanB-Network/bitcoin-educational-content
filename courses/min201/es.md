@@ -174,6 +174,8 @@ La iniciativa Attakai surge de una experimentación personal de minería en el h
 
 Al exponer su proyecto a la comunidad de Bitcoin y ante el interés generado, los inventores de Attakai decidieron publicar guías detalladas en la plataforma Découvre Bitcoin, permitiendo que cualquiera pueda reproducir su experiencia de minería en el hogar. Ahora están considerando ampliar este concepto más allá del ámbito doméstico. El objetivo es demostrar cómo un minero modificado puede convertirse en una calefacción adicional silenciosa utilizada durante el invierno, ofreciendo una transición suave a una segunda parte de formación dedicada a la implementación práctica de estas modificaciones, ilustrada con videos explicativos. Sin embargo, la pregunta sigue siendo si esta iniciativa puede expandirse a una escala más grande, ofreciendo así una alternativa realista y sostenible a las estructuras de minería centralizadas actuales.
 
+![image](assets/overview/attakai.webp)
+
 ### ¿Cuál es el límite de esta descentralización?
 
 Aunque la idea de descentralizar la minería mediante el uso productivo del calor generado parece prometedora, tiene ciertos límites y quedan preguntas sin respuesta. Establecimientos con alto consumo de energía, como saunas y piscinas, podrían beneficiarse de este concepto utilizando el calor generado por los mineros para calentar el agua de sus instalaciones. Algunos miembros de la comunidad Bitcoin ya están implementando esta práctica, explorando diferentes métodos para utilizar de manera eficiente el calor generado por los equipos de minería. Por ejemplo, teóricamente, un salón de eventos podría ser calentado por tres o cuatro S19, cada uno consumiendo 3000 vatios y generando una cantidad equivalente de calor.
@@ -223,6 +225,7 @@ En última instancia, la responsabilidad es compartida entre todos los actores d
 ### El poder de los mineros
 
 La elegante teoría del juego de Satoshi Nakamoto ha establecido una situación donde cada actor de la red Bitcoin está incentivado a actuar correctamente para proteger tanto sus propios intereses como los de los demás participantes. Esto crea un equilibrio donde el mal comportamiento puede ser reprendido, reforzando así la seguridad y la estabilidad del sistema completo. A pesar de este equilibrio, los estados siguen siendo una amenaza potencial. Como se indicó en la presentación en Surfing Bitcoin 2022, los estados pueden intentar atacar la industria de la minería, exponiendo la red Bitcoin a riesgos de centralización y ataque. Escenarios hipotéticos como un ataque militar dirigido a las instalaciones de producción de hardware de minería subrayan la importancia de la diversificación geográfica e industrial para la resiliencia de la red Bitcoin.
+
 ![image](assets/overview/miner.webp)
 
 La centralización de la producción de hardware de minería en China representa otro riesgo. Una negativa a exportar máquinas de minería o una acumulación de hashrate para un potencial ataque del 51% por parte de China subrayan la necesidad de una producción diversificada de hardware de minería. Ante estos riesgos, la comunidad Bitcoin está explorando activamente soluciones. Empresas como Intel están considerando producir equipos de minería en los Estados Unidos, contribuyendo a la distribución de la producción. Otras iniciativas, como la de Block con su Mining Development Kit (MDK) de código abierto, buscan disminuir el monopolio en el diseño y la producción de hardware de minería, permitiendo una distribución más amplia del hashrate. En el corazón de estas discusiones se encuentra la misión fundamental de Bitcoin: ser una red de intercambio de valor resistente a la censura. La comunidad Bitcoin se esfuerza constantemente por fortalecer la distribución, la resistencia a la censura y la anti-fragilidad de la red, rechazando propuestas como el cambio a proof of stake, que no se alinean con estos principios fundamentales.
@@ -230,6 +233,8 @@ La centralización de la producción de hardware de minería en China representa
 ### El vínculo físico del proof of work vs el proof of stake
 
 El Proof of Work (PoW) es esencial porque representa el vínculo físico entre el mundo real y Bitcoin. Aunque los bitcoins son intangibles, su producción requiere energía tangible, estableciendo así un enlace directo con el mundo físico y real. Esta conexión asegura que la producción y validación de bitcoins y bloques tengan un costo energético real, anclando así la red Bitcoin en la realidad física y previniendo su dominación completa por entidades poderosas. El PoW actúa como un baluarte contra la centralización, asegurando que la participación en la red y la validación de transacciones requieran una inversión en recursos tangibles. Esto impide la monopolización de la red por entidades que podrían de otro modo tomar control sin ninguna barrera de entrada significativa, asegurando así una distribución más equitativa del poder y la influencia dentro de la red Bitcoin.
+
+![image](assets/overview/POWPOS.webp)
 
 ### Las Limitaciones del Proof of Stake
 

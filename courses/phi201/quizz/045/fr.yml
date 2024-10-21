@@ -1,0 +1,8 @@
+question: Quelle est la thèse principale de Thomas d'Aquin concernant la relation entre la raison et la foi ?
+answer: La raison et la foi sont complémentaires et peuvent se soutenir mutuellement.
+wrong_answers:
+  - La raison et la foi sont deux sources de connaissance indépendantes et contradictoires.
+  - La raison est subordonnée à la foi et doit se soumettre à ses dogmes.
+  - La foi est supérieure à la raison et peut se passer de ses arguments.
+explanation: 
+reviewed: false

@@ -1,0 +1,8 @@
+question: Quelle est la différence entre l'histoire et la philosophie ?
+answer: Toutes les autres réponses
+wrong_answers:
+  - L'histoire décrit le passé tandis que la philosophie le juge
+  - L'histoire est factuelle tandis que la philosophie est normative
+  - L'histoire s'intéresse aux événements tandis que la philosophie s'intéresse aux concepts
+explanation: 
+reviewed: false

@@ -1,0 +1,8 @@
+question: Quel est le principal outil économique préconisé par Keynes pour stimuler l'économie ?
+answer: Les augmentations des dépenses publiques
+wrong_answers:
+  - Les baisses d'impôts
+  - La libéralisation des marchés
+  - L'augmentation des exportations
+explanation: 
+reviewed: false

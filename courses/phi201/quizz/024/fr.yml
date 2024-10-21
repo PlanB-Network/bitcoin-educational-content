@@ -1,0 +1,8 @@
+question: Quelle est la vision de Rothbard d'une société libre ?
+answer: Une société dans laquelle il n'existe aucune possibilité d'agression coercitive contre la personne ou la propriété d'un individu
+wrong_answers:
+  - Une société où l'État contrôle seulement quelques aspects de la vie économique et sociale
+  - Une société où les individus sont libres de faire ce qu'ils veulent sans aucune restriction
+  - Une société où le pouvoir est réparti équitablement entre toutes les classes sociales
+explanation: 
+reviewed: false

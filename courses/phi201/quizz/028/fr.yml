@@ -1,0 +1,8 @@
+question: Selon Aristote, qu'est-ce que la liberté ?
+answer: L'obéissance à la loi de la cité
+wrong_answers:
+  - L'absence de toute contrainte
+  - Le pouvoir de faire ce que l'on veut
+  - Le droit de posséder des esclaves
+explanation: 
+reviewed: false

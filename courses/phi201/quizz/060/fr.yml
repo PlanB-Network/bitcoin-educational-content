@@ -1,0 +1,8 @@
+question: Dans quel contexte religieux le capitalisme est-il né ?
+answer: Dans le contexte du christianisme.
+wrong_answers:
+  - Dans le contexte de l'islam.
+  - Dans le contexte du judaïsme.
+  - Dans le contexte du paganisme.
+explanation: 
+reviewed: false

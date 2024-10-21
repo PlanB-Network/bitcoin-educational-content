@@ -1,0 +1,8 @@
+question: Selon les physiocrates, qu'est-ce qui est à l'origine de l'ordre économique ?
+answer: Les lois naturelles du marché.
+wrong_answers:
+  - Les décisions du gouvernement.
+  - Le droit international.
+  - Les privilèges de l'aristocratie.
+explanation: 
+reviewed: false

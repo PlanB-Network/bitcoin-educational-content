@@ -1,0 +1,8 @@
+question: Comment s'intitule le livre de Thomas Paine ?
+answer: Le sens commun.
+wrong_answers:
+  - Le sens unique.
+  - Le bien commun.
+  - Aucune des réponses ci-dessus n'est correcte.
+explanation: 
+reviewed: false

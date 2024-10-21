@@ -1,0 +1,8 @@
+question: Quel est le nom de la première codification écrite du droit romain ?
+answer: La Loi des Douze Tables
+wrong_answers:
+  - Le Code Hammurabi
+  - Le Digeste
+  - Les Édits de Justinien
+explanation: 
+reviewed: false

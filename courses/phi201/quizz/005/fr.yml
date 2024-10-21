@@ -1,0 +1,8 @@
+question: Quelle est la vision dominante du pouvoir dans la philosophie et l'historiographie occidentales ?
+answer: Le pouvoir est une force corruptrice qui mène à l'oppression
+wrong_answers:
+  - Le pouvoir est nécessaire pour le progrès et la prospérité de l'humanité
+  - Le pouvoir est un outil neutre qui peut être utilisé pour le bien ou le mal
+  - Le pouvoir n'a pas d'impact significatif sur la société
+explanation: 
+reviewed: false

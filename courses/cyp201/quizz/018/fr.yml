@@ -1,0 +1,9 @@
+question: Où sont stockés les clés privées ?
+answer: Dans des portefeuilles Bitcoin
+wrong_answers:
+  - Sur la blockchain
+  - Sur des serveurs de la communauté Bitcoin.
+  - Sur le réseau peer-to-peer.
+explanation: |
+  Le portefeuille contient les clés privées nécessaires pour accéder aux bitcoins.
+reviewed: false

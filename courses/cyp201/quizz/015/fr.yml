@@ -1,0 +1,9 @@
+question: Quel est le nom de la courbe elliptique utilisée pour les algorithmes de signatures numériques dans Bitcoin ?
+answer: secp256k1.
+wrong_answers:
+  - secp256r1.
+  - secp160k1.
+  - secp521r1.
+explanation: |
+  La courbe secp256k1 est utilisée dans le protocole Bitcoin pour les signatures numériques.
+reviewed: false

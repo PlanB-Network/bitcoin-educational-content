@@ -1,0 +1,9 @@
+question: Afin de pouvoir appliquer cette courbe elliptique à des utilisations cryptographiques, sur quel corps devons-nous la définir ?
+answer: Un corps fini d’entiers positifs.
+wrong_answers:
+  - Le corps des réels.
+  - Un corps fini de réels.
+  - Un corps complexe.
+explanation: |
+  Dans Bitcoin, la courbe elliptique secp256k1 est définie sur un corps fini d'entiers positifs modulo un nombre premier pour éviter les approximations et garantir la sécurité.
+reviewed: false

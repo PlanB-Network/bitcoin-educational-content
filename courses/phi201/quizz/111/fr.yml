@@ -1,0 +1,8 @@
+question: Selon Keynes quel est le rôle de la monnaie dans l'économie ?
+answer: Un instrument de politique économique
+wrong_answers:
+  - Un simple moyen d'échange
+  - Un frein à la croissance
+  - Un outil de spéculation
+explanation: 
+reviewed: false

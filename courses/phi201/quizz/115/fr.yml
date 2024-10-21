@@ -1,0 +1,8 @@
+question: Quel métal a historiquement été considéré comme l'étalon de référence pour la monnaie ?
+answer: L'or
+wrong_answers:
+  - L'argent
+  - Le cuivre
+  - Le bronze
+explanation: 
+reviewed: false

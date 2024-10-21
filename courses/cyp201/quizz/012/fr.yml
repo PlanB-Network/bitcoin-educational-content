@@ -1,0 +1,9 @@
+question: Combien utilisons-nous d’itérations au sein de la fonction PBKDF2 dans Bitcoin ?
+answer: 2048.
+wrong_answers:
+  - 512.
+  - 1000.
+  - 21000.
+explanation: |
+  Bitcoin utilise 2048 itérations dans la fonction PBKDF2 pour renforcer la sécurité de la graine.
+reviewed: false

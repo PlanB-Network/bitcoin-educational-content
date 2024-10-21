@@ -1,0 +1,9 @@
+question: Quelle fonction est utilisée pour dériver une clé enfant à partir d'une clé parent dans Bitcoin ?
+answer: HMAC-SHA512.
+wrong_answers:
+  - SHA256.
+  - MD5.
+  - BLAKE2.
+explanation: |
+  La fonction HMAC-SHA512 est utilisée dans la dérivation des clés enfants à partir des clés parent dans les portefeuilles HD Bitcoin.
+reviewed: false

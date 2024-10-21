@@ -1,0 +1,9 @@
+question: En quoi consiste l’opération de concaténation ?
+answer: Mettre bout à bout deux opérandes.
+wrong_answers:
+  - Additionner deux opérandes.
+  - Diviser deux opérandes.
+  - Soustraire deux opérandes.
+explanation: |
+  La concaténation consiste à placer deux opérandes l'un à la suite de l'autre sans les modifier, très utilisé dans la cryptographie.
+reviewed: false

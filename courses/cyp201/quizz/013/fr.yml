@@ -1,0 +1,9 @@
+question: Que signifie le préfixe “0x” ?
+answer: Le nombre suivant ce préfixe est exprimé en base 16 (hexadécimale).
+wrong_answers:
+  - Le nombre suivant ce préfixe est exprimé en base 2 (binaire).
+  - Le nombre suivant ce préfixe est exprimé en base 10 (décimale).
+  - Le nombre suivant ce préfixe est exprimé en base 8 (octale).
+explanation: |
+  Le préfixe "0x" indique que le nombre qui suit est exprimé en base 16 (hexadécimale).
+reviewed: false

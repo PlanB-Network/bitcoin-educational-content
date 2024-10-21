@@ -1,0 +1,9 @@
+question: Combien de bits sont réservés au rembourrage par la taille sur la fonction SHA256 ?
+answer: 64 bits.
+wrong_answers:
+  - 128 bits.
+  - 256 bits.
+  - 512 bits.
+explanation: |
+  SHA256 réserve 64 bits pour le rembourrage, qui représente la taille initiale du message avant le padding.
+reviewed: false

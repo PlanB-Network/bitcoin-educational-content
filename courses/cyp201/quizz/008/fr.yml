@@ -1,0 +1,9 @@
+question: De combien de tours est constituée la fonction de compression de SHA256 ?
+answer: 64 tours.
+wrong_answers:
+  - 10 tours.
+  - 128 tours.
+  - 150 tours.
+explanation: |
+  La fonction de compression de SHA256 effectue 64 tours pour chaque bloc de données traité.
+reviewed: false

@@ -1,0 +1,8 @@
+question: Selon Keynes, quel est le problème principal de l'étalon-or ?
+answer: Il limite la capacité des gouvernements à financer leurs dépenses
+wrong_answers:
+  - Il favorise l'inflation
+  - Il entrave le commerce international
+  - Il augmente le chômage
+explanation: 
+reviewed: false

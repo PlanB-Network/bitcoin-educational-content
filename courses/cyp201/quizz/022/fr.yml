@@ -1,0 +1,9 @@
+question: Comment est déterminée une clé publique Bitcoin ?
+answer: Elle est déterminée par addition et doublement de points sur la courbe elliptique depuis le point générateur en utilisant la clé privée.
+wrong_answers:
+  - Elle est déterminée à partir d'un nombre aléatoire ou pseudo-aléatoire.
+  - Elle est déterminée en hachant sa clé privée.
+  - Elle est déterminée en hachant sa graine.
+explanation: |
+  La clé publique est générée à partir de la clé privée par des opérations sur la courbe elliptique, à partir du point générateur.
+reviewed: false

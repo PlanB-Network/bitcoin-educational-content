@@ -1,0 +1,9 @@
+question: Comment est déterminée une clé privée Bitcoin ?
+answer: Elle est déterminée à partir d'un nombre aléatoire ou pseudo-aléatoire.
+wrong_answers:
+  - Elle est déterminée par addition et doublement de points sur la courbe elliptique depuis sa clé publique.
+  - Elle est déterminée en hachant sa clé publique.
+  - Elle est déterminée par l'algorithme SHA-256.
+explanation: |
+  Une clé privée Bitcoin est générée de manière aléatoire ou pseudo-aléatoire, ce qui garantit son caractère unique et sécurisé.
+reviewed: false

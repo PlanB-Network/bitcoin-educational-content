@@ -551,9 +551,9 @@ Når kopiene er laget, oppbevar ordlistene på et trygt sted hvor du vil huske �
 
 Sikkerhet er en stor bekymring i Bitcoin-økosystemet. Faktisk, som enhver form for rikdom, må dine bitcoins beskyttes mot tap, tyveri og forringelse, spesielt over lang tid. Å sikre dine bitcoins krever litt teknisk kunnskap og bevissthet om de tilknyttede risikoene, noe som fører oss til å diskutere to hovedstrategier: å minere dine bitcoins i stål og å lage en arveplan.
 
-### Minering i stein
+### Gravering i stein
 
-En metode for å sikre dine bitcoins på lang sikt er å minere din mnemoniske frase på et motstandsdyktig materiale som stål. Dette skaper en fysisk sikkerhetskopi av nøklene dine som er motstandsdyktig mot både vannskader og brann.
+En metode for å sikre dine bitcoins på lang sikt er å gravere din mnemoniske frase på et motstandsdyktig materiale som stål. Dette skaper en fysisk sikkerhetskopi av nøklene dine som er motstandsdyktig mot både vannskader og brann.
 
 Det finnes mange løsninger for å oppnå dette, noen er rimelige som "Blockmit", mens andre krever mer utstyr. Du kan utforske dette emnet selv gjennom opplæringsseksjonen på dette universitetet.
 
@@ -772,7 +772,7 @@ Hver 2. uke (2016 blokker), rebalanserer vanskelighetsjusteringen det globale gr
 
 ![bilde](assets/en/chapter12/14.webp)
 
-### Graving er i konstant utvikling
+### Mining er i konstant utvikling
 Gjennom årene har minere utstyrt seg med stadig mer effektiv datamaskinvare for å produsere så mange hasher som mulig per sekund (kalt HashRate) samtidig som de forbruker minst mulig energi på den mest kostnadseffektive måten mulig. De tidlige minerne som Satoshi eller Hal Finney minet med bare sin CPU, deretter begynte andre å mine med sitt grafikkort. I dag bruker minere det som kalles ASICs (Application-Specific Integrated Circuit), maskiner designet utelukkende for å anvende SHA256-algoritmen.
 ![bilde](assets/en/chapter12/20.webp)
 

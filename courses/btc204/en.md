@@ -1544,7 +1544,7 @@ In "Chaumian CoinJoins," the use of Tor and David Chaum's blind signatures are c
 
 - Alice sends the unmasked address and signature to the coordinator (who still does not know it's Alice):
 
-![BTC204](assets/en/118webp)
+![BTC204](assets/en/118.webp)
 
 **Step 3: Signing the transaction.**
 - The coordinator similarly retrieves the unmasked outputs from all participants. Thanks to the associated signatures, he can verify that each output submitted anonymously was indeed signed by his private key previously, ensuring their legitimacy. He is then ready to construct the coinjoin transaction and sends it to the participants for them to sign:

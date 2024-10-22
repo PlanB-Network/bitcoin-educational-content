@@ -1,7 +1,7 @@
 ---
 name: Elysium Wallet
 
-description: Configurazione e utilizzo di un Elysium Wallet
+description: Il Primo Wallet dove Tu sei la chiave
 ---
 
 ![cover-elysium](assets/cover.webp)

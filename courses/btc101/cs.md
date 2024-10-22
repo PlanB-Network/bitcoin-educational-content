@@ -1290,3 +1290,11 @@ Gratulujeme k dokončení tohoto kurzu BTC 101! Doufám, že se vám líbil a ot
 ## Závěrečná zkouška
 <chapterId>8410e961-3841-5abf-a51d-04fc0139dd59</chapterId>
 <isCourseExam>true</isCourseExam>
+
+## Závěr
+
+<chapterId>dfc534be-44a9-5e8c-9c98-e51ef0554e91</chapterId>
+
+**Gratulujeme k dokončení tohoto kurzu!**
+
+Vezměte prosím na vědomí, že tato kapitola je momentálně ve výstavbě a vylepšená verze bude brzy k dispozici. Mezitím, pokud se těšíte na pokračování své Bitcoin cesty, zveme vás k prozkoumání dalších kurzů a výukových programů dostupných na naší platformě. Pokračujte v dobré práci a přejeme příjemné učení!

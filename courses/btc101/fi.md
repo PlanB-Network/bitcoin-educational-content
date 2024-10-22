@@ -1282,3 +1282,11 @@ Onnittelut BTC 101 -kurssin suorittamisesta! Toivon vilpittömästi, että nauti
 ## Loppukoe
 <chapterId>8410e961-3841-5abf-a51d-04fc0139dd59</chapterId>
 <isCourseExam>true</isCourseExam>
+
+## Yhteenveto
+
+<chapterId>dfc534be-44a9-5e8c-9c98-e51ef0554e91</chapterId>
+
+**Onnittelut kurssin suorittamisesta!**
+
+Huomaathan, että tämä luku on parhaillaan työn alla, ja parannettu versio julkaistaan pian. Sillä välin, jos olet innokas jatkamaan Bitcoin-matkaasi, kutsumme sinut tutustumaan muihin alustamme kursseihin ja opetusmateriaaleihin. Jatka hyvää työtä ja hauskaa oppimista!

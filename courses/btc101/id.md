@@ -1292,4 +1292,10 @@ Selamat, Anda telah menyelesaikan kursus BTC 101 ini! Kami sungguh berharap Anda
 <chapterId>8410e961-3841-5abf-a51d-04fc0139dd59</chapterId>
 <isCourseExam>true</isCourseExam>
 
+## Kesimpulan
 
+<chapterId>dfc534be-44a9-5e8c-9c98-e51ef0554e91</chapterId>
+
+**Selamat atas penyelesaian kursus ini!**
+
+Harap perhatikan bahwa bab ini sedang dalam pengembangan, dan versi yang lebih baik akan segera hadir. Sementara itu, jika Anda ingin melanjutkan perjalanan Bitcoin Anda, kami mengundang Anda untuk menjelajahi kursus dan tutorial lain yang tersedia di platform kami. Pertahankan kerja bagus Anda, dan selamat belajar!

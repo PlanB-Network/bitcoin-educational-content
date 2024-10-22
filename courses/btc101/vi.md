@@ -1254,4 +1254,10 @@ Xin chúc mừng bạn đã hoàn thành khóa học BTC 101 này! Tôi thực s
 <chapterId>8410e961-3841-5abf-a51d-04fc0139dd59</chapterId>
 <isCourseExam>true</isCourseExam>
 
+## Kết luận
 
+<chapterId>dfc534be-44a9-5e8c-9c98-e51ef0554e91</chapterId>
+
+**Chúc mừng bạn đã hoàn thành khóa học này!**
+
+Xin lưu ý rằng chương này hiện đang được xây dựng và phiên bản cải tiến sẽ sớm ra mắt. Trong thời gian chờ đợi, nếu bạn háo hức tiếp tục hành trình Bitcoin của mình, chúng tôi mời bạn khám phá các khóa học và hướng dẫn khác có sẵn trên nền tảng của chúng tôi. Hãy tiếp tục công việc tốt đẹp và học tập vui vẻ!

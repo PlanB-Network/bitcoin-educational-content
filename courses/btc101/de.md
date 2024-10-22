@@ -1268,3 +1268,11 @@ Herzlichen Glückwunsch zum Abschluss dieses BTC 101-Kurses! Ich hoffe von ganze
 ## Abschlussprüfung
 <chapterId>8410e961-3841-5abf-a51d-04fc0139dd59</chapterId>
 <isCourseExam>true</isCourseExam>
+
+## Fazit
+
+<chapterId>dfc534be-44a9-5e8c-9c98-e51ef0554e91</chapterId>
+
+**Herzlichen Glückwunsch zum Abschluss dieses Kurses!**
+
+Bitte beachten Sie, dass dieses Kapitel derzeit noch im Aufbau ist und eine verbesserte Version in Kürze verfügbar sein wird. Wenn Sie in der Zwischenzeit Ihre Bitcoin-Reise fortsetzen möchten, laden wir Sie ein, die anderen Kurse und Tutorials auf unserer Plattform zu erkunden. Machen Sie weiter so und viel Spaß beim Lernen!

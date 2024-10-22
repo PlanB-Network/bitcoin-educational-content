@@ -1335,3 +1335,11 @@ Cambiar el sistema financiero requiere cambiar la moneda. Satoshi Nakamoto creó
 ## Examen Final
 <chapterId>8410e961-3841-5abf-a51d-04fc0139dd59</chapterId>
 <isCourseExam>true</isCourseExam>
+
+## Conclusión
+
+<chapterId>dfc534be-44a9-5e8c-9c98-e51ef0554e91</chapterId>
+
+**¡Felicitaciones por completar este curso!**
+
+Tenga en cuenta que este capítulo está actualmente en construcción y pronto llegará una versión mejorada. Mientras tanto, si está ansioso por continuar su viaje con Bitcoin, lo invitamos a explorar los otros cursos y tutoriales disponibles en nuestra plataforma. ¡Sigue con el buen trabajo y feliz aprendizaje!

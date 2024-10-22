@@ -1332,3 +1332,11 @@ Congratulations on completing this BTC 101 course! I sincerely hope you enjoyed 
 ## Final Exam
 <chapterId>8410e961-3841-5abf-a51d-04fc0139dd59</chapterId>
 <isCourseExam>true</isCourseExam>
+
+## Conclusion
+
+<chapterId>dfc534be-44a9-5e8c-9c98-e51ef0554e91</chapterId>
+
+**Congratulations on completing this course!**
+
+Please note that this chapter is currently under construction, and an improved version will be arriving soon. In the meantime, if you're eager to continue your Bitcoin journey, we invite you to explore the other courses and tutorials available on our platform. Keep up the great work, and happy learning!

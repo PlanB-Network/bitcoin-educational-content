@@ -19,7 +19,6 @@
     live_url: https://www.youtube.com/embed/OZXMLxDBAkE?si=Y2eI-nXn_t1dcQAW
     chat_url: https://peertube.planb.network/plugins/livechat/router/webchat/room/3a58453e-87be-422a-9ab0-1707ed8b2713
   tags:
-    - Bitcoin
-    - governance
-    - economics
-
+    - historical
+    - consensus
+    - finance

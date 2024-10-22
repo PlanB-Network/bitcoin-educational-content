@@ -603,6 +603,10 @@ Lõpuks on Bitcoin'i tulevik lubav, võimaliku prognoosiga üks miljon viie aast
 <chapterId>38814c99-eb7b-5772-af49-4386ee2ce9b0</chapterId>
 <isCourseReview>true</isCourseReview>
 
+## Lõpueksam
+<chapterId>7ed33400-aef7-5f3e-bfb1-7867e445d708</chapterId>
+<isCourseExam>true</isCourseExam>
+
 
 ## Tunnustused ja jätkake jäneseurgu uurimist
 

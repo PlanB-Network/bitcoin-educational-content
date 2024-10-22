@@ -576,6 +576,10 @@ Nakonec, budoucnost Bitcoinu je slibná s možnou projekcí jednoho milionu za p
 <chapterId>38814c99-eb7b-5772-af49-4386ee2ce9b0</chapterId>
 <isCourseReview>true</isCourseReview>
 
+## Závěrečná zkouška
+<chapterId>7ed33400-aef7-5f3e-bfb1-7867e445d708</chapterId>
+<isCourseExam>true</isCourseExam>
+
 
 ## Poděkování a pokračujte v prozkoumávání králičí nory
 <chapterId>afc0d72b-4fbc-5893-90b2-e27fb519ad02</chapterId>

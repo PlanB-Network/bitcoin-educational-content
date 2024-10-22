@@ -521,6 +521,10 @@ Nel contesto del modulo di formazione "Sicurezza 101" di Découvre Bitcoin sull'
 <chapterId>6be74d2d-2116-5386-9d92-c4c3e2103c68</chapterId>
 <isCourseReview>true</isCourseReview>
 
+## Esame Finale
+<chapterId>a894b251-a85a-5fa4-bf2a-c2a876939b49</chapterId>
+<isCourseExam>true</isCourseExam>
+
 
 ## Ringraziamenti e continua a scavare la tana del coniglio
 <chapterId>df3a962a-a96e-5006-b904-0dd9d4a072dd</chapterId>

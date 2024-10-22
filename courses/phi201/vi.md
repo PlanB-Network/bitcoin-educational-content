@@ -1412,7 +1412,7 @@ Hayek tin rằng một thị trường tự do của các đồng tiền tư nh�
 
 
 
-## Cho chúng tôi biết phản hồi của bạn về khóa học này
+## Đánh giá khóa học
 <chapterId>6759868f-749d-5fe7-bbb1-24f603e8b34e</chapterId>
 <isCourseReview>true</isCourseReview>
 

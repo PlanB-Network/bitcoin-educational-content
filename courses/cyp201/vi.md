@@ -805,7 +805,7 @@ Một phương pháp mã hóa khác được sử dụng rộng rãi trên giao 
 
 
 
-## Cho chúng tôi biết phản hồi của bạn về khóa học này
+## Đánh giá khóa học
 <chapterId>0cd71541-a7fd-53db-b66a-8611b6a28b04</chapterId>
 <isCourseReview>true</isCourseReview>
 

@@ -30,7 +30,6 @@ Begleiten Sie Damien Theillier auf dieser bereichernden Erkundung von Frédéric
 
 <chapterId>7f21b617-9810-5484-ad1c-befc61432126</chapterId>
 
-![video](https://youtu.be/PahHHhtX4fI?si=d8zR-RJ4fm_Z4yM9)
 Dieser Kurs ist eine Einführung in Frédéric Bastiat, ein unerkanntes Genie und ein Leuchtturm für unsere Zeit. In dieser kurzen Einführung werde ich versuchen, Ihnen zu helfen, zu entdecken, wer Frédéric Bastiat war und welche Hauptthemen wir während dieser Serie behandeln werden.
 ![image](assets/image/00/IMG01.webp)
 
@@ -57,7 +56,6 @@ In diesem Kurs werden wir gemeinsam durch das Denken von Frédéric Bastiat reis
 
 <chapterId>e9d92b63-83dd-552c-84e1-dd535608c109</chapterId>
 
-![video](https://youtu.be/buPg-IPqwmU?si=_JKks1usXbUTQqJo)
 Im Jahr 1844 unternahm Frédéric Bastiat eine Geschäftsreise nach Spanien. Nach Aufenthalten in Madrid, Sevilla, Cadiz und Lissabon beschloss er, nach Southampton zu segeln und England zu besuchen. In London hatte er die Gelegenheit, an Treffen der Anti-Corn Law League teilzunehmen, deren Arbeit er aus der Ferne verfolgt hatte. Er traf die Hauptführer dieser Vereinigung, einschließlich Richard Cobden, der sein Freund werden sollte.
 ![image](assets/image/00/IMG03.webp)
 
@@ -107,8 +105,6 @@ Er starb 1850 in Rom an Tuberkulose. Er ist in der Kirche Saint Louis des Franç
 
 <chapterId>bcc7a12a-6cc4-5061-85e3-0e31fb1f0a49</chapterId>
 
-![video](https://youtu.be/SbCbtAYwqBM?si=IXXMfjbRAagKqqbF)
-
 In der Ökonomie erkannte Bastiat stets seine Schuld gegenüber Adam Smith und Jean-Baptiste Say an. Mit 26 schrieb er an einen seiner Freunde: "Ich habe zu diesen Themen nie etwas anderes gelesen als diese vier Werke, Smith, Say, Destutt und den Zensor."
 
 ![image](assets/image/01/IMG02.webp)
@@ -157,7 +153,6 @@ Produzenten greifen zu Überzeugung, Verhandlung und Vertrag, während Plündere
 
 <chapterId>ddf64e9f-2ce0-5651-8eb8-bae578eb0b9b</chapterId>
 
-![video](https://youtu.be/n69ITkX9DMU?si=PymbTYQxiAFVSP42)
 Es ist wenig bekannt, aber Destutt de Tracy hatte einen entscheidenden Einfluss auf den zukünftigen Präsidenten der Vereinigten Staaten, Thomas Jefferson, während dieser in den 1780er Jahren Botschafter in Paris war.
 > "Für jeden Mann ist sein erstes Land seine Heimat, und das zweite ist Frankreich" & "Tyrannei ist, wenn das Volk seine Regierung fürchtet; Freiheit ist, wenn die Regierung das Volk fürchtet."
 >
@@ -189,8 +184,6 @@ Unser Autor geht nicht so weit, die politische Ökonomie als die Wissenschaft de
 
 Nach Destutt de Tracy ergibt sich das Eigentum notwendigerweise aus unserer Natur, aus unserer Fähigkeit zu begehren. Wenn der Mensch nichts wollte, hätte er weder Rechte noch Pflichten. Um seine Bedürfnisse zu befriedigen und seine Pflichten zu erfüllen, muss der Mensch Mittel einsetzen, die er durch seine Arbeit erwirbt. Und die Form der sozialen Organisation, die diesem Ziel entspricht, ist das Privateigentum. Deshalb ist der einzige Gegenstand der Regierung, das Eigentum zu schützen und den friedlichen Austausch zu ermöglichen.
 
-![image](assets/image/02/IMG05.webp)
-
 Für ihn sind die besten Steuern die moderatesten, und er wünscht, dass die Ausgaben des Staates so begrenzt wie möglich gehalten werden. Er verurteilt die Plünderung des Reichtums der Gesellschaft durch die Regierung in Form von öffentlicher Verschuldung, Steuern, Bankenmonopolen und Ausgaben. Noch einmal, das Gesetz sollte nur dazu dienen, die Freiheit zu schützen; es sollte niemals plündern.
 
 Schließlich fügt er diese Empfehlung hinzu, die nichts an ihrer Relevanz verloren hat:
@@ -202,7 +195,7 @@ Zusammenfassend hatten die Ideologen eine tiefe Intuition, nämlich dass Produkt
 ## Charles Comte und Charles Dunoyer
 
 <chapterId>80bc5c4e-ac07-52c8-9dd7-e224ac291bda</chapterId>
-![video](https://youtu.be/ZuZGz897Pto?si=O-eJhBpDDSlsW5Yu)
+
 Die Geschichte aller Zivilisationen ist die Geschichte des Kampfes zwischen den plündernden Klassen und den produktiven Klassen. Dies ist das Glaubensbekenntnis der beiden Autoren, über die wir sprechen werden. Sie sind die Urheber einer liberalen Theorie des Klassenkampfes, die Frédéric Bastiat ebenso inspirierte wie Karl Marx, obwohl letzterer sie verzerrte.
 
 ![image](assets/image/03/IMG01.webp)
@@ -249,8 +242,6 @@ Ihre Ideen, zutiefst innovativ, würden Frédéric Bastiat für immer prägen, d
 ## Cobden und die Liga
 
 <chapterId>7181435c-5eae-56e4-8e55-02a24273fdd6</chapterId>
-
-![video](https://youtu.be/ZWx7RQsmutM?si=NpGycbbi8AQQKjNI)
 
 Es ist 1838, in Manchester, eine kleine Anzahl von Männern, bis dahin wenig bekannt, versammeln sich, um einen Weg zu finden, das Monopol der Weizenlandbesitzer durch legale Mittel zu stürzen und zu vollbringen, wie Bastiat später berichten würde,
 
@@ -1014,7 +1005,7 @@ Schrieb Frédéric Bastiat in einer kurzen Broschüre mit dem Titel Der Staat.
 
 
 
-## Geben Sie uns Ihr Feedback zu diesem Kurs
+## Bewerten Sie den Kurs
 <chapterId>db20170d-ceb6-56cd-b4e5-c690942f8b29</chapterId>
 <isCourseReview>true</isCourseReview>
 

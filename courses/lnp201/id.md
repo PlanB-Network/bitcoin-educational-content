@@ -27,7 +27,6 @@ Nikmati penemuan tersebut!
 
 <chapterId>df6230ae-ff35-56ea-8651-8e65580730a8</chapterId>
 
-![video en](https://youtu.be/QDQ8NG0l3hk)
 
 Lightning Network adalah infrastruktur pembayaran lapisan kedua yang dibangun di atas jaringan Bitcoin yang memungkinkan transaksi cepat dan biaya rendah. Untuk sepenuhnya memahami cara kerja Lightning Network, sangat penting untuk memahami apa itu saluran pembayaran dan bagaimana cara kerjanya.
 
@@ -76,7 +75,6 @@ Sekarang, Bob ingin mengirim 80.000 SAT ke Alice. Karena tidak memiliki likuidit
 
 <chapterId>0cfb7e6b-96f0-508b-9210-90bc1e28649d</chapterId>
 
-![video](https://youtu.be/U9l5IVriCss)
 
 Dalam bab kedua ini, kami meluangkan waktu untuk mempelajari bagaimana transaksi Bitcoin sebenarnya bekerja, yang akan sangat berguna untuk memahami Lightning. Kami juga secara singkat membahas konsep alamat multi-tanda tangan, yang sangat penting untuk memahami bab selanjutnya tentang membuka saluran di Jaringan Lightning.
 
@@ -111,7 +109,6 @@ Dalam Lightning Network, multi-signature digunakan. Oleh karena itu, diperlukan 
 
 <chapterId>96243eb0-f6b5-5b68-af1f-fffa0cc16bfe</chapterId>
 
-![video](https://youtu.be/Ty80WuN5X-g)
 
 Sekarang, kita akan melihat lebih dekat tentang pembukaan saluran dan bagaimana hal itu dilakukan melalui transaksi Bitcoin.
 
@@ -156,7 +153,6 @@ Alice sekarang dapat memulihkan dana sendirian, karena dia sudah memiliki tanda 
 
 <chapterId>7d3fd135-129d-5c5a-b306-d5f2f1e63340</chapterId>
 
-![video](https://youtu.be/dzPMGiR_JSE)
 
 ![cover](assets/fr/11.webp)
 Mari kita analisis apa yang sebenarnya terjadi di balik layar ketika mentransfer dana dari satu sisi ke sisi lain dari sebuah saluran di Lightning Network, dengan konsep transaksi komitmen. Transaksi penarikan/penutupan on-chain mewakili keadaan saluran, menjamin siapa yang memiliki dana setelah setiap transfer. Jadi, setelah transfer Lightning Network, ada pembaruan dari transaksi/kontrak ini yang tidak dieksekusi antara dua rekan, Alice dan Bob, yang menciptakan transaksi yang sama dengan keadaan saluran saat ini dalam kasus penutupan:
@@ -191,7 +187,6 @@ Uangnya tidak pernah bergerak, tetapi saldo akhir diperbarui melalui transaksi o
 
 <chapterId>f2f61e5b-badb-5947-9a81-7aa530b44e59</chapterId>
 
-![video](https://youtu.be/veCs39uVFUk)
 
 Jika transaksi komitmen menentukan keadaan saluran dengan likuiditas pada waktu X, dapatkah kita curang dengan mempublikasikan keadaan lama? Jawabannya adalah ya, karena kita sudah memiliki pra-tanda tangan kedua peserta dalam transaksi yang tidak dipublikasikan.
 
@@ -219,7 +214,6 @@ Orang yang membuat transaksi dengan Timelock (orang yang mengirim uang) hanya da
 
 <chapterId>29a72223-2249-5400-96f0-3756b1629bc2</chapterId>
 
-![video](https://youtu.be/zmAa2fj_V7w)
 
 Kami tertarik pada penutupan saluran melalui transaksi Bitcoin, yang dapat mengambil berbagai bentuk tergantung pada kasusnya. Ada 3 jenis penutupan saluran:
 
@@ -262,7 +256,6 @@ Kesimpulannya, penutupan saluran di Lightning Network adalah langkah penting yan
 ## Lightning Network
 
 <chapterId>45a7252c-fa4f-554b-b8bb-47449532918e</chapterId>
-![video](https://youtu.be/44oBdNdXtEQ)
 
 Dalam bab ketujuh ini, kita mempelajari bagaimana Lightning bekerja sebagai jaringan saluran dan bagaimana pembayaran dialirkan dari sumbernya ke tujuannya.
 
@@ -345,7 +338,6 @@ Untuk Susie atau Eden: mereka tidak tahu siapa penerima akhir, atau siapa yang m
 
 <chapterId>4369b85a-1365-55d8-99e1-509088210116</chapterId>
 
-![video](https://youtu.be/jI4nM297aHA)
 
 Dalam sistem perutean tradisional, bagaimana kita dapat memastikan bahwa Eden tidak curang dan menghormati bagian mereka dari kontrak?
 
@@ -399,7 +391,6 @@ Saat menutup kanal, jika penutupan bersifat kooperatif, pembayaran terganggu dan
 
 <chapterId>7e2ae959-c2a1-512e-b5d6-8fd962e819da</chapterId>
 
-![video](https://youtu.be/CqetCElRjUQ)
 
 Data publik hanya adalah kapasitas total kanal (Alice + Bob) tetapi kita tidak tahu di mana likuiditas berada.
 Untuk mendapatkan lebih banyak informasi, node kita mendengarkan saluran komunikasi LN untuk pengumuman kanal baru dan pembaruan biaya kanal. Node Anda juga melihat blockchain untuk penutupan kanal.
@@ -470,7 +461,6 @@ Selanjutnya, untuk memfasilitasi pencarian rute, penerima dapat memberikan infor
 
 <chapterId>e34c7ecd-2327-52e3-b61e-c837d9e5e8b0</chapterId>
 
-![video](https://youtu.be/XANzf1Qqp9I)
 
 ![cover](assets/fr/39.webp)
 
@@ -521,7 +511,6 @@ Kesimpulannya, faktur Jaringan Lightning, meskipun kompleks pada pandangan perta
 
 <chapterId>cc76d0c4-d958-57f5-84bf-177e21393f48</chapterId>
 
-![video](https://youtu.be/MIbej28La7Y)
 
 ![instruction](assets/fr/42.webp)
 
@@ -604,7 +593,7 @@ Akhirnya, masa depan Bitcoin menjanjikan dengan proyeksi kemungkinan satu juta d
 
 
 
-## Beri kami umpan balik tentang kursus ini
+## Evaluasi kursus ini
 <chapterId>38814c99-eb7b-5772-af49-4386ee2ce9b0</chapterId>
 <isCourseReview>true</isCourseReview>
 

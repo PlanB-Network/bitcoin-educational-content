@@ -30,7 +30,6 @@ Tham gia cùng Damien Theillier trong cuộc khám phá thú vị này về tư 
 
 <chapterId>7f21b617-9810-5484-ad1c-befc61432126</chapterId>
 
-![video](https://youtu.be/PahHHhtX4fI?si=d8zR-RJ4fm_Z4yM9)
 Đây là phần giới thiệu về Frédéric Bastiat, một thiên tài không được công nhận và một ngọn hải đăng cho thời đại chúng ta. Trong bài giới thiệu ngắn gọn này, tôi sẽ cố gắng giúp bạn khám phá Frédéric Bastiat là ai và những chủ đề chính mà chúng ta sẽ có trong loạt bài này.
 ![image](assets/image/00/IMG01.webp)
 
@@ -57,7 +56,6 @@ Trong khóa học này, chúng ta sẽ cùng nhau khám phá tư tưởng của 
 
 <chapterId>e9d92b63-83dd-552c-84e1-dd535608c109</chapterId>
 
-![video](https://youtu.be/buPg-IPqwmU?si=_JKks1usXbUTQqJo)
 Vào năm 1844, Frédéric Bastiat đã thực hiện một chuyến công tác đến Tây Ban Nha. Sau khi ở lại Madrid, Seville, Cadiz và Lisbon, ông quyết định lên đường đến Southampton và thăm Anh. Tại London, ông đã có cơ hội tham dự các cuộc họp của Liên đoàn Luật Chống Ngũ Cốc (Anti-Corn Law League), một tổ chức mà ông đã theo dõi công việc của họ từ xa. Ông gặp gỡ các nhà lãnh đạo chính của Hiệp hội này, bao gồm Richard Cobden, người sau này trở thành bạn của ông.
 
 Chính tại đây, cuộc đời ông đã thay đổi một cách hoàn toàn. Chính ông kể lại rằng sự nghiệp làm kinh tế gia của mình đã được quyết định vào thời điểm đó. Khi trở về Pháp, ông chỉ có một ý tưởng trong đầu: làm cho nước Pháp nhận thức được về phong trào tự do đang nổi lên ở Anh.
@@ -98,8 +96,6 @@ Hầu hết các sách và bài luận của ông đều được viết trong s
 ## Adam Smith và Jean-Baptiste Say
 
 <chapterId>bcc7a12a-6cc4-5061-85e3-0e31fb1f0a49</chapterId>
-
-![video](https://youtu.be/SbCbtAYwqBM?si=IXXMfjbRAagKqqbF)
 
 Trong lĩnh vực kinh tế, Bastiat luôn thừa nhận mình có món nợ với Adam Smith và Jean-Baptiste Say. Khi 26 tuổi, ông viết cho một người bạn của mình, "Tôi chưa bao giờ đọc về những chủ đề này ngoài bốn tác phẩm này, Smith, Say, Destutt và Censor."
 
@@ -151,7 +147,6 @@ Các nhà sản xuất thường sử dụng thuyết phục, đàm phán và h�
 
 <chapterId>ddf64e9f-2ce0-5651-8eb8-bae578eb0b9b</chapterId>
 
-![video](https://youtu.be/n69ITkX9DMU?si=PymbTYQxiAFVSP42)
 Ít người biết rằng, Destutt de Tracy đã có ảnh hưởng quyết định đến Tổng thống tương lai của Hoa Kỳ, Thomas Jefferson, khi ông làm đại sứ tại Paris vào những năm 1780.
 
 > "Đối với mỗi người đàn ông, quê hương đầu tiên của anh ta là tổ quốc, và quê hương thứ hai là Pháp" & "Sự chuyên quyền bạo ngược ra đời khi người dân sợ chính phủ của họ; tự do có được là khi chính phủ sợ người dân."
@@ -185,8 +180,6 @@ Tác giả của chúng ta không đi xa đến mức định nghĩa kinh tế c
 
 Theo Destutt de Tracy, tài sản chắc chắn phát sinh từ bản chất của chúng ta, từ mong muốn của chúng ta. Nếu con người không muốn bất cứ điều gì, anh ta sẽ không có quyền hay nghĩa vụ nào cả. Để đáp ứng nhu cầu và thực hiện nghĩa vụ của mình, con người phải sử dụng các phương tiện mà anh ta có được thông qua lao động của mình. Và hình thức tổ chức xã hội phù hợp với mục tiêu này là tư hữu. Đó là lý do tại sao mục tiêu duy nhất của chính phủ là bảo vệ quyền tài sản và cho phép trao đổi chúng một cách hòa bình.
 
-![image](assets/image/02/IMG05.webp)
-
 Đối với ông, thuế tốt nhất là thuế vừa phải nhất, và ông mong muốn chi tiêu của nhà nước được hạn chế nhất có thể. Ông lên án việc chính phủ cướp bóc tài sản của xã hội dưới hình thức nợ công, thuế, độc quyền ngân hàng, và chi tiêu. Một lần nữa, luật pháp chỉ nên phục vụ để bảo vệ tự do; nó không bao giờ nên được dùng để cướp bóc.
 
 Cuối cùng, ông thêm vào khuyến nghị này, mà không mất đi tính hợp lý của nó:
@@ -198,7 +191,7 @@ Kết luận, Ideologues đã có một trực giác sâu sắc, đó là sản 
 ## Charles Comte và Charles Dunoyer
 
 <chapterId>80bc5c4e-ac07-52c8-9dd7-e224ac291bda</chapterId>
-![video](https://youtu.be/ZuZGz897Pto?si=O-eJhBpDDSlsW5Yu)
+
 Lịch sử của tất cả các nền văn minh là câu chuyện về cuộc đấu tranh giữa các tầng lớp cướp bóc và các tầng lớp sản xuất. Đây là tín điều của hai tác giả mà chúng ta sẽ thảo luận. Họ là người sáng lập một lý thuyết tự do về đấu tranh giai cấp đã truyền cảm hứng cho Frédéric Bastiat cũng như Karl Marx, mặc dù người sau đã bóp méo nó.
 
 ![image](assets/image/03/IMG01.webp)
@@ -1031,7 +1024,7 @@ Frédéric Bastiat đã viết trong một cuốn sách nhỏ có tựa đề "N
 
 
 
-## Cho chúng tôi biết phản hồi của bạn về khóa học này
+## Đánh giá khóa học
 <chapterId>db20170d-ceb6-56cd-b4e5-c690942f8b29</chapterId>
 <isCourseReview>true</isCourseReview>
 

@@ -814,7 +814,7 @@ Teine laialdaselt kasutatav krüptograafiline meetod Bitcoin'i protokollis on di
 
 
 
-## Andke meile tagasisidet selle kursuse kohta
+## Hinnake kursust
 <chapterId>0cd71541-a7fd-53db-b66a-8611b6a28b04</chapterId>
 <isCourseReview>true</isCourseReview>
 

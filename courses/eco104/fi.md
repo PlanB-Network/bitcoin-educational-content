@@ -1580,7 +1580,7 @@ Nyt kun olet käynyt läpi moduulin "Epäilyjen voittaminen", sinun on testattav
 
 
 
-## Anna meille palautetta tästä kurssista
+## Arvioi kurssi
 <chapterId>86e358bb-88f4-5d20-af53-93f0f3524590</chapterId>
 <isCourseReview>true</isCourseReview>
 

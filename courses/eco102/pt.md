@@ -30,7 +30,6 @@ Junte-se a Damien Theillier nesta enriquecedora exploração do pensamento de Fr
 
 <chapterId>7f21b617-9810-5484-ad1c-befc61432126</chapterId>
 
-![video](https://youtu.be/PahHHhtX4fI?si=d8zR-RJ4fm_Z4yM9)
 Este curso é uma introdução a Frédéric Bastiat, um gênio não reconhecido e um farol para os nossos tempos. Nesta breve introdução, tentarei ajudá-lo a descobrir quem foi Frédéric Bastiat e quais são os principais temas que abordaremos durante esta série.
 ![image](assets/image/00/IMG01.webp)
 
@@ -57,7 +56,6 @@ Neste curso, viajaremos juntos pelo pensamento de Frédéric Bastiat, começando
 
 <chapterId>e9d92b63-83dd-552c-84e1-dd535608c109</chapterId>
 
-![video](https://youtu.be/buPg-IPqwmU?si=_JKks1usXbUTQqJo)
 Em 1844, Frédéric Bastiat fez uma viagem de negócios à Espanha. Após estadias em Madrid, Sevilha, Cádiz e Lisboa, decidiu embarcar para Southampton e visitar a Inglaterra. Em Londres, teve a oportunidade de participar de reuniões da Liga Anti-Corn Law, cujo trabalho ele havia acompanhado de longe. Ele conheceu os principais líderes desta Associação, incluindo Richard Cobden, que se tornaria seu amigo.
 ![image](assets/image/00/IMG03.webp)
 
@@ -107,8 +105,6 @@ Ele morreu em Roma em 1850, de tuberculose. Ele está enterrado na Igreja de Sã
 
 <chapterId>bcc7a12a-6cc4-5061-85e3-0e31fb1f0a49</chapterId>
 
-![video](https://youtu.be/SbCbtAYwqBM?si=IXXMfjbRAagKqqbF)
-
 Em economia, Bastiat sempre reconheceu sua dívida para com Adam Smith e Jean-Baptiste Say. Aos 26 anos, ele escreveu para um de seus amigos: "Eu nunca li sobre esses assuntos, mas essas quatro obras, Smith, Say, Destutt e o Censor."
 
 ![image](assets/image/01/IMG02.webp)
@@ -157,7 +153,6 @@ Os produtores recorrem à persuasão, negociação e contrato, enquanto os saque
 
 <chapterId>ddf64e9f-2ce0-5651-8eb8-bae578eb0b9b</chapterId>
 
-![video](https://youtu.be/n69ITkX9DMU?si=PymbTYQxiAFVSP42)
 É pouco conhecido, mas Destutt de Tracy teve uma influência decisiva sobre o futuro Presidente dos Estados Unidos, Thomas Jefferson, enquanto este era embaixador em Paris na década de 1780.
 > "Para todo homem, seu primeiro país é sua pátria, e o segundo é a França" & "Tirania é quando o povo teme seu governo; liberdade é quando o governo teme o povo."
 >
@@ -189,8 +184,6 @@ Nosso autor não chega a definir a economia política como a ciência das trocas
 
 De acordo com Destutt de Tracy, a propriedade necessariamente decorre de nossa natureza, de nossa faculdade de desejo. Se o homem não desejasse nada, ele não teria nem direitos nem deveres. Para atender às suas necessidades e cumprir seus deveres, o homem deve empregar meios que adquire através de seu trabalho. E a forma de organização social que se conforma a este fim é a propriedade privada. É por isso que o único objeto do governo é proteger a propriedade e permitir a troca pacífica.
 
-![image](assets/image/02/IMG05.webp)
-
 Para ele, os melhores impostos são os mais moderados, e ele deseja que os gastos do estado sejam o mais restritos possível. Ele condena o saque da riqueza da sociedade pelo governo na forma de dívida pública, impostos, monopólios bancários e gastos. Mais uma vez, a lei deve servir apenas para proteger a liberdade; ela nunca deve saquear.
 
 Finalmente, ele adiciona esta recomendação, que não perdeu sua relevância:
@@ -202,7 +195,7 @@ Em conclusão, os Ideólogos tiveram uma intuição profunda, a saber, que a pro
 ## Charles Comte e Charles Dunoyer
 
 <chapterId>80bc5c4e-ac07-52c8-9dd7-e224ac291bda</chapterId>
-![video](https://youtu.be/ZuZGz897Pto?si=O-eJhBpDDSlsW5Yu)
+
 A história de todas as civilizações é a história da luta entre as classes saqueadoras e as classes produtivas. Este é o credo dos dois autores que vamos discutir. Eles são os originadores de uma teoria liberal de luta de classes que inspirou tanto Frédéric Bastiat quanto Karl Marx, embora este último a tenha distorcido.
 
 ![image](assets/image/03/IMG01.webp)
@@ -249,8 +242,6 @@ Suas ideias, profundamente inovadoras, marcariam para sempre Frédéric Bastiat,
 ## Cobden e a Liga
 
 <chapterId>7181435c-5eae-56e4-8e55-02a24273fdd6</chapterId>
-
-![video](https://youtu.be/ZWx7RQsmutM?si=NpGycbbi8AQQKjNI)
 
 É 1838, em Manchester, um pequeno número de homens, até então pouco conhecidos, se reúnem para encontrar uma maneira de derrubar o monopólio dos proprietários de terras de trigo por meios legais e realizar, como Bastiat mais tarde relataria,
 
@@ -1045,7 +1036,7 @@ Escreveu Frédéric Bastiat em um pequeno panfleto intitulado O Estado.
 
 
 
-## Dê-nos seu feedback sobre este curso
+## Avalie o curso
 <chapterId>db20170d-ceb6-56cd-b4e5-c690942f8b29</chapterId>
 <isCourseReview>true</isCourseReview>
 

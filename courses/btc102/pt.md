@@ -991,7 +991,7 @@ De qualquer forma, todos os nossos cursos são gratuitos e muitos recursos ou tu
 
 
 
-## Dê-nos seu feedback sobre este curso
+## Avalie o curso
 <chapterId>3f43175a-fb7a-5b1c-a887-7dcf615d7a3a</chapterId>
 <isCourseReview>true</isCourseReview>
 

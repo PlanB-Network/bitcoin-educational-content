@@ -517,7 +517,7 @@ Nel contesto del modulo di formazione "Sicurezza 101" di Découvre Bitcoin sull'
 
 
 
-## Dacci un feedback su questo corso
+## Valuta il corso
 <chapterId>6be74d2d-2116-5386-9d92-c4c3e2103c68</chapterId>
 <isCourseReview>true</isCourseReview>
 

@@ -1565,7 +1565,7 @@ Maintenant que vous avez suivi le Module "Surmonter les Doutes", vous devrez tes
 
 
 
-## Donnez-nous votre avis sur ce cours
+## Évaluez ce cours
 <chapterId>86e358bb-88f4-5d20-af53-93f0f3524590</chapterId>
 <isCourseReview>true</isCourseReview>
 

@@ -391,7 +391,7 @@ En conclusion, Bitcoin est présenté comme une monnaie décentralisée nécessi
 
 
 
-## Donnez-nous votre avis sur ce cours
+## Évaluez ce cours
 <chapterId>a6410a99-adfc-50fd-a004-8048be620c8a</chapterId>
 <isCourseReview>true</isCourseReview>
 

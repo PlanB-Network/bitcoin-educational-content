@@ -1575,7 +1575,7 @@ Ora che hai completato il Modulo "Superare i Dubbi", dovrai testare le tue nuove
 
 
 
-## Dacci un feedback su questo corso
+## Valuta il corso
 <chapterId>86e358bb-88f4-5d20-af53-93f0f3524590</chapterId>
 <isCourseReview>true</isCourseReview>
 

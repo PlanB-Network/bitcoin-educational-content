@@ -30,7 +30,6 @@ Liity Damien Theillierin mukaan tähän rikastavaan tutkimusmatkaan Frédéric B
 
 <chapterId>7f21b617-9810-5484-ad1c-befc61432126</chapterId>
 
-![video](https://youtu.be/PahHHhtX4fI?si=d8zR-RJ4fm_Z4yM9)
 Tämä kurssi on johdanto Frédéric Bastiat'hin, tunnustamattomaan neroon ja aikamme majakkaan. Tässä lyhyessä johdannossa yritän auttaa sinua löytämään, kuka Frédéric Bastiat oli ja mitkä ovat tärkeimmät teemat, joita käsittelemme tässä sarjassa.
 ![image](assets/image/00/IMG01.webp)
 
@@ -57,7 +56,6 @@ Tällä kurssilla matkaamme yhdessä Frédéric Bastiatin ajattelun läpi, alkae
 
 <chapterId>e9d92b63-83dd-552c-84e1-dd535608c109</chapterId>
 
-![video](https://youtu.be/buPg-IPqwmU?si=_JKks1usXbUTQqJo)
 Vuonna 1844 Frédéric Bastiat teki liikematkan Espanjaan. Vietettyään aikaa Madridissa, Sevillassa, Cadizissa ja Lissabonissa, hän päätti lähteä Southamptoniin ja vierailla Englannissa. Lontoossa hänellä oli mahdollisuus osallistua Anti-Corn Law League -järjestön kokouksiin, jonka työtä hän oli seurannut etäältä. Hän tapasi tämän yhdistyksen pääjohtajia, mukaan lukien Richard Cobdenin, josta tulisi hänen ystävänsä.
 ![kuva](assets/image/00/IMG03.webp)
 
@@ -107,8 +105,6 @@ Hän kuoli Roomassa vuonna 1850, tuberkuloosiin. Hän on haudattu Saint Louis de
 
 <chapterId>bcc7a12a-6cc4-5061-85e3-0e31fb1f0a49</chapterId>
 
-![video](https://youtu.be/SbCbtAYwqBM?si=IXXMfjbRAagKqqbF)
-
 Taloustieteessä Bastiat tunnusti aina velkansa Adam Smithille ja Jean-Baptiste Saylle. 26-vuotiaana hän kirjoitti yhdelle ystävistään: "En ole koskaan lukenut näistä aiheista muuta kuin nämä neljä teosta, Smith, Say, Destutt ja Censor."
 
 ![image](assets/image/01/IMG02.webp)
@@ -157,7 +153,6 @@ Tuottajat turvautuvat vakuutteluun, neuvotteluun ja sopimuksiin, kun taas ryöst
 
 <chapterId>ddf64e9f-2ce0-5651-8eb8-bae578eb0b9b</chapterId>
 
-![video](https://youtu.be/n69ITkX9DMU?si=PymbTYQxiAFVSP42)
 Vähemmän tunnettua on, että Destutt de Tracyllä oli ratkaiseva vaikutus Yhdysvaltain tulevaan presidenttiin, Thomas Jeffersoniin, kun tämä oli lähettiläänä Pariisissa 1780-luvulla.
 > "Jokaiselle miehelle hänen ensimmäinen kotimaansa on hänen synnyinmaansa, ja toinen on Ranska" & "Tyrannia on silloin, kun kansa pelkää hallitustaan; vapaus on silloin, kun hallitus pelkää kansaa."
 >
@@ -189,8 +184,6 @@ Kirjoittajamme ei mene niin pitkälle, että määrittelisi poliittisen talousti
 
 Destutt de Tracyn mukaan omaisuus johtuu välttämättä luonnostamme, halujemme kyvystä. Jos ihminen ei haluaisi mitään, hänellä ei olisi oikeuksia eikä velvollisuuksia. Tarpeidensa tyydyttämiseksi ja velvollisuuksiensa täyttämiseksi ihmisen on käytettävä keinoja, jotka hän hankkii työllään. Ja yhteiskunnallisen järjestelyn muoto, joka vastaa tätä tarkoitusta, on yksityisomaisuus. Siksi hallituksen ainoa tehtävä on suojella omaisuutta ja sallia rauhanomainen vaihto.
 
-![kuva](assets/image/02/IMG05.webp)
-
 Hänestä parhaat verot ovat maltillisimpia, ja hän toivoo, että valtion menot olisivat mahdollisimman rajoitetut. Hän tuomitsee yhteiskunnan varallisuuden ryöstämisen hallituksen toimesta julkisen velan, verojen, pankkimonopolien ja menojen muodossa. Jälleen kerran, lain tulisi ainoastaan palvella vapauden suojelua; sen ei tulisi koskaan ryöstää.
 
 Lopuksi hän lisää tämän suosituksen, joka ei ole menettänyt merkitystään:
@@ -202,7 +195,7 @@ Yhteenvetona voidaan sanoa, että Ideologeilla oli syvä oivallus, nimittäin et
 ## Charles Comte ja Charles Dunoyer
 
 <chapterId>80bc5c4e-ac07-52c8-9dd7-e224ac291bda</chapterId>
-![video](https://youtu.be/ZuZGz897Pto?si=O-eJhBpDDSlsW5Yu)
+
 Kaikkien sivilisaatioiden historia on tarina ryöstävien luokkien ja tuottavien luokkien välisestä taistelusta. Tämä on kahden keskustelemamme kirjoittajan uskomus. He ovat liberaalin luokkataistelun teorian alkuperäiset luojat, jotka inspiroivat yhtä lailla Frédéric Bastiatia kuin Karl Marxia, vaikkakin jälkimmäinen vääristi sitä.
 
 ![kuva](assets/image/03/IMG01.webp)
@@ -249,8 +242,6 @@ Heidän ideansa, syvästi innovatiiviset, jättäisivät pysyvän jäljen Fréd�
 ## Cobden ja liiga
 
 <chapterId>7181435c-5eae-56e4-8e55-02a24273fdd6</chapterId>
-
-![video](https://youtu.be/ZWx7RQsmutM?si=NpGycbbi8AQQKjNI)
 
 Vuonna 1838 Manchesterissa pieni joukko tähän asti melko tuntemattomia miehiä kokoontuu löytääkseen keinon kaataa vehnämaanomistajien monopoli laillisin keinoin ja saavuttaakseen, kuten Bastiat myöhemmin kertoisi,
 
@@ -1020,7 +1011,7 @@ Kirjoitti Frédéric Bastiat lyhyessä pamfletissa nimeltä Valtio.
 
 
 
-## Anna meille palautetta tästä kurssista
+## Arvioi kurssi
 <chapterId>db20170d-ceb6-56cd-b4e5-c690942f8b29</chapterId>
 <isCourseReview>true</isCourseReview>
 

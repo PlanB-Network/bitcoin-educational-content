@@ -269,7 +269,7 @@ Il gruppo di Lightning Walker presenta la loro soluzione per il servizio di rime
 
 
 
-## Dacci un feedback su questo corso
+## Valuta il corso
 <chapterId>7f4f46e2-de71-5387-8609-9785fb9e5946</chapterId>
 <isCourseReview>true</isCourseReview>
 

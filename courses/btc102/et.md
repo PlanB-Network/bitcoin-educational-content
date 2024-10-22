@@ -974,7 +974,7 @@ Igal juhul on kõik meie kursused tasuta ja meie platvormil on saadaval palju re
 
 
 
-## Andke meile tagasisidet selle kursuse kohta
+## Hinnake kursust
 <chapterId>3f43175a-fb7a-5b1c-a887-7dcf615d7a3a</chapterId>
 <isCourseReview>true</isCourseReview>
 

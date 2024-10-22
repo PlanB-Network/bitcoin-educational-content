@@ -30,7 +30,6 @@ Join Damien Theillier in this enriching exploration of Frédéric Bastiat's thou
 
 <chapterId>7f21b617-9810-5484-ad1c-befc61432126</chapterId>
 
-![video](https://youtu.be/PahHHhtX4fI?si=d8zR-RJ4fm_Z4yM9)
 This course is an introduction to Frédéric Bastiat, an unrecognized genius and a beacon for our times. In this brief introduction, I will try to help you discover who Frédéric Bastiat was and what are the major themes we will cover during this series.
 ![image](assets/image/00/IMG01.webp)
 
@@ -58,8 +57,6 @@ In this course, we will travel together through the thought of Frédéric Bastia
 ## The Life and Historical Context
 
 <chapterId>e9d92b63-83dd-552c-84e1-dd535608c109</chapterId>
-
-![video](https://youtu.be/buPg-IPqwmU?si=_JKks1usXbUTQqJo)
 
 In 1844, Frédéric Bastiat made a business trip to Spain. After staying in Madrid, Seville, Cadiz, and Lisbon, he decided to embark for Southampton, and to visit England. In London, he had the opportunity to attend meetings of the Anti-Corn Law League, whose work he had followed from a distance. He met the main leaders of this Association, including Richard Cobden, who would become his friend.
 
@@ -111,8 +108,6 @@ He died in Rome in 1850, from tuberculosis. He is buried at the Saint Louis des 
 ## Adam Smith and Jean-Baptiste Say
 
 <chapterId>bcc7a12a-6cc4-5061-85e3-0e31fb1f0a49</chapterId>
-
-![video](https://youtu.be/SbCbtAYwqBM?si=IXXMfjbRAagKqqbF)
 
 In economics, Bastiat always acknowledged his debt to Adam Smith and Jean-Baptiste Say. At 26, he wrote to one of his friends, "I have never read on these subjects but these four works, Smith, Say, Destutt, and the Censor."
 
@@ -166,7 +161,6 @@ Producers resort to persuasion, negotiation, and contract, while plunderers reso
 
 <chapterId>ddf64e9f-2ce0-5651-8eb8-bae578eb0b9b</chapterId>
 
-![video](https://youtu.be/n69ITkX9DMU?si=PymbTYQxiAFVSP42)
 It is little known, but Destutt de Tracy had a decisive influence on the future President of the United States, Thomas Jefferson, while he was ambassador to Paris in the 1780s.
 > "For every man, his first country is his homeland, and the second is France" & "Tyranny is when the people fear their government; liberty is when the government fears the people."
 >
@@ -199,8 +193,6 @@ Our author does not go as far as to define political economy as the science of e
 
 According to Destutt de Tracy, property necessarily stems from our nature, from our faculty of desire. If man wanted nothing, he would have neither rights nor duties. To meet his needs and fulfill his duties, man must employ means that he acquires through his labor. And the form of social organization that conforms to this end is private property. That is why the sole object of government is to protect property and to allow peaceful exchange.
 
-![image](assets/image/02/IMG05.webp)
-
 For him, the best taxes are the most moderate ones, and he wishes that the state's expenditures be as restricted as possible. He condemns the plundering of society's wealth by the government in the form of public debt, taxes, banking monopolies, and expenditures. Once again, the law should only serve to protect freedom; it should never plunder.
 
 Finally, he adds this recommendation, which has not lost its relevance:
@@ -212,7 +204,7 @@ In conclusion, the Ideologues had a profound intuition, namely that production a
 ## Charles Comte and Charles Dunoyer
 
 <chapterId>80bc5c4e-ac07-52c8-9dd7-e224ac291bda</chapterId>
-![video](https://youtu.be/ZuZGz897Pto?si=O-eJhBpDDSlsW5Yu)
+
 The history of all civilizations is the story of the struggle between the plundering classes and the productive classes. This is the creed of the two authors we are going to discuss. They are the originators of a liberal theory of class struggle that inspired Frédéric Bastiat as much as Karl Marx, although the latter distorted it.
 
 ![image](assets/image/03/IMG01.webp)
@@ -263,8 +255,6 @@ Their ideas, profoundly innovative, would forever mark Frédéric Bastiat, who w
 ## Cobden and the League
 
 <chapterId>7181435c-5eae-56e4-8e55-02a24273fdd6</chapterId>
-
-![video](https://youtu.be/ZWx7RQsmutM?si=NpGycbbi8AQQKjNI)
 
 It is 1838, in Manchester, a small number of men, little known until then, gather to find a way to overthrow the monopoly of the wheat landowners through legal means and to accomplish, as Bastiat would later recount,
 
@@ -1097,7 +1087,7 @@ Wrote Frédéric Bastiat in a short pamphlet titled The State.
 
 
 
-## Give us some feedback about this course
+## Evaluate the course
 <chapterId>db20170d-ceb6-56cd-b4e5-c690942f8b29</chapterId>
 <isCourseReview>true</isCourseReview>
 

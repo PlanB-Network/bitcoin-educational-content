@@ -847,7 +847,7 @@ Another widely used cryptographic method on the Bitcoin protocol is the method o
 
 
 
-## Give us some feedback about this course
+## Evaluate the course
 <chapterId>0cd71541-a7fd-53db-b66a-8611b6a28b04</chapterId>
 <isCourseReview>true</isCourseReview>
 

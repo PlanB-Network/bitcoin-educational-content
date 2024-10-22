@@ -113,7 +113,7 @@ Good luck with your studies, and if you need to reach out to our team or the tea
 
 
 
-## Give us some feedback about this course
+## Evaluate the course
 <chapterId>0217e8b0-942a-5fee-bd91-9a866551eff3</chapterId>
 <isCourseReview>true</isCourseReview>
 

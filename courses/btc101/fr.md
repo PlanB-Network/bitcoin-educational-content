@@ -1098,7 +1098,7 @@ Bitcoin est devenu un actif financier majeur, principalement en raison de son of
 - Les performances passées ne préjugent pas des performances futures.
 - Contactez votre conseiller financier si besoin.
 
-> DécouvreBitcoin (Rogzy) ne fait pas de conseil en investissement et rien de ce qui est énoncé ici ne doit être considéré comme tel.
+> Plan ₿ Network ne fait pas de conseil en investissement et rien de ce qui est énoncé ici ne doit être considéré comme tel.
 
 ### Mini Check-list avant de faire le grand saut
 
@@ -1387,27 +1387,19 @@ Félicitations pour avoir terminé cette formation BTC 101 ! J'espère de tout c
 - [MIN 201](https://planb.network/courses/min201) pour en savoir plus sur le minage
 - et bien d'autres...
 
-## Soutiens-nous
-<chapterId>3e6e756b-b6c4-5d41-bece-767922348067</chapterId>
 
-Ce cours, ainsi que l'intégralité du contenu présent sur cette université, vous a été offert gratuitement par notre communauté. Pour nous soutenir, vous pouvez le partager autour de vous, devenir membre de l'université et même contribuer à son développement via [notre GitHub](https://github.com/PlanB-Network/bitcoin-educational-content). Au nom de toute l'équipe, merci !
-
-
-
-## Donnez-nous votre avis sur ce cours
+## Évaluez ce cours
 <chapterId>585729e2-b0ab-51b5-89ec-593e3ea22c57</chapterId>
 <isCourseReview>true</isCourseReview>
 
 ## Examen final
-<chapterId>9c8dcf23-8b76-5057-ad72-99197791ca3b</chapterId>
+<chapterId>8410e961-3841-5abf-a51d-04fc0139dd59</chapterId>
 <isCourseExam>true</isCourseExam>
 
+## Conclusion
 
-## Note la formation
-<chapterId>44d01865-5c89-55a5-a397-a014960eec0f</chapterId>
+<chapterId>dfc534be-44a9-5e8c-9c98-e51ef0554e91</chapterId>
 
-Un système de notation pour la formation sera bientôt intégré à cette nouvelle plateforme de E-learning ! En attendant, merci beaucoup d'avoir suivi le cours et si vous l'avez apprécié, pensez à le partager autour de vous.
+**Félicitations pour avoir terminé ce cours !**
 
-Un immense merci à nos Patreon, membres et donateurs pour leur soutien financier, merci aux personnes qui partagent et merci à celles et ceux qui ont rendu cette formation possible : Rachel, Muriel, l'équipe de StackinSat, JohnOnChain, Fanis, Guillaume, Lounes, les correcteurs et les relecteurs.
-
-À bientôt!
+Veuillez noter que ce chapitre est actuellement en construction et qu'une version améliorée arrivera bientôt. En attendant, si vous êtes impatient de poursuivre votre voyage Bitcoin, nous vous invitons à explorer les autres cours et tutoriels disponibles sur notre plateforme. Continuez votre bon travail et bon apprentissage !

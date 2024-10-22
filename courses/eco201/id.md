@@ -506,7 +506,7 @@ Metodologi adalah aspek penting dalam ekonomi dan dalam ilmu sosial pada umumnya
 <partId>ae828713-d133-559f-93c2-101cb5245fca</partId>
 
 
-## Beri kami umpan balik tentang kursus ini
+## Evaluasi kursus ini
 <chapterId>29d4323c-e34e-5834-bf03-2f3ed10d751b</chapterId>
 <isCourseReview>true</isCourseReview>
 

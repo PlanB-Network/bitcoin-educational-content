@@ -30,7 +30,6 @@ Připojte se k Damienovi Theillierovi v této obohacující exploraci myšlení 
 
 <chapterId>7f21b617-9810-5484-ad1c-befc61432126</chapterId>
 
-![video](https://youtu.be/PahHHhtX4fI?si=d8zR-RJ4fm_Z4yM9)
 Tento kurz je úvodem k Frédéricu Bastiatovi, neuznanému géniovi a majáku pro naše časy. V tomto stručném úvodu se pokusím pomoci vám objevit, kdo Frédéric Bastiat byl a jaká hlavní témata budeme během této série pokrývat.
 ![image](assets/image/00/IMG01.webp)
 
@@ -57,7 +56,6 @@ V tomto kurzu společně procestujeme myšlenkami Frédérica Bastiata, začneme
 
 <chapterId>e9d92b63-83dd-552c-84e1-dd535608c109</chapterId>
 
-![video](https://youtu.be/buPg-IPqwmU?si=_JKks1usXbUTQqJo)
 V roce 1844 podnikl Frédéric Bastiat obchodní cestu do Španělska. Po pobytu v Madridu, Seville, Cadizu a Lisabonu se rozhodl odplout do Southamptonu a navštívit Anglii. V Londýně měl příležitost zúčastnit se schůzek Anti-Corn Law League (Ligy proti obilným zákonům), jejíž práci sledoval zpovzdálí. Setkal se s hlavními vůdci této asociace, včetně Richarda Cobdena, který se stal jeho přítelem.
 
 Právě tam se radikálně změnil směr jeho života. Sám vypráví, že v tom okamžiku bylo rozhodnuto o jeho povolání ekonoma. Po návratu do Francie měl na mysli jen jednu myšlenku: uvědomit Francii o liberálním hnutí, které v Anglii vzkvétalo.
@@ -97,8 +95,6 @@ Zemřel v Římě v roce 1850 na tuberkulózu. Je pohřben v kostele Saint Louis
 ## Adam Smith a Jean-Baptiste Say
 
 <chapterId>bcc7a12a-6cc4-5061-85e3-0e31fb1f0a49</chapterId>
-
-![video](https://youtu.be/SbCbtAYwqBM?si=IXXMfjbRAagKqqbF)
 
 V ekonomii Bastiat vždy uznával svůj dluh vůči Adamu Smithovi a Jean-Baptistu Sayovi. Ve 26 letech napsal jednomu ze svých přátel: "Nikdy jsem na tyto předměty nečetl nic jiného než tyto čtyři práce, Smitha, Saya, Destutta a Censor."
 
@@ -148,7 +144,6 @@ Výrobci se uchylují k přesvědčování, vyjednávání a smlouvám, zatímco
 
 <chapterId>ddf64e9f-2ce0-5651-8eb8-bae578eb0b9b</chapterId>
 
-![video](https://youtu.be/n69ITkX9DMU?si=PymbTYQxiAFVSP42)
 Je málo známo, ale Destutt de Tracy měl rozhodující vliv na budoucího prezidenta Spojených států, Thomase Jeffersona, když byl v 80. letech 18. století velvyslancem v Paříži.
 > "Pro každého člověka je jeho první vlastí jeho domovina a druhou je Francie" & "Tyranie je, když se lidé bojí své vlády; svoboda je, když se vláda bojí lidí."
 >
@@ -180,8 +175,6 @@ Náš autor nejde tak daleko, aby politickou ekonomii definoval jako vědu o vý
 
 Podle Destutta de Tracy nezbytně vlastnictví pramení z naší povahy, z naší schopnosti touhy. Kdyby člověk nic nechtěl, neměl by ani práva ani povinnosti. Aby mohl uspokojit své potřeby a plnit své povinnosti, musí člověk využívat prostředky, které získává svou prací. A forma sociální organizace, která odpovídá tomuto cíli, je soukromé vlastnictví. Proto je jediným předmětem vlády ochrana majetku a umožnění mírové výměny.
 
-![image](assets/image/02/IMG05.webp)
-
 Pro něj jsou nejlepší daně ty nejmírnější a přeje si, aby výdaje státu byly co nejvíce omezeny. Odsuzuje drancování společenského bohatství vládou ve formě veřejného dluhu, daní, bankovních monopolů a výdajů. Znovu, zákon by měl sloužit pouze k ochraně svobody; nikdy by neměl drancovat.
 
 Nakonec přidává toto doporučení, které si neztratilo na aktuálnosti:
@@ -193,7 +186,7 @@ Závěrem, Ideologové měli hlubokou intuici, totiž že produkce a výměny js
 ## Charles Comte a Charles Dunoyer
 
 <chapterId>80bc5c4e-ac07-52c8-9dd7-e224ac291bda</chapterId>
-![video](https://youtu.be/ZuZGz897Pto?si=O-eJhBpDDSlsW5Yu)
+
 Historie všech civilizací je příběhem boje mezi drancujícími třídami a produktivními třídami. To je vyznání dvou autorů, o kterých budeme diskutovat. Jsou původci liberální teorie třídního boje, která inspirovala Frédérica Bastiata stejně jako Karla Marxe, ačkoli ten ji zdeformoval.
 
 ![image](assets/image/03/IMG01.webp)
@@ -229,8 +222,6 @@ Jejich myšlenky, hluboce inovativní, by navždy poznamenaly Frédérica Bastia
 ## Cobden a Liga
 
 <chapterId>7181435c-5eae-56e4-8e55-02a24273fdd6</chapterId>
-
-![video](https://youtu.be/ZWx7RQsmutM?si=NpGycbbi8AQQKjNI)
 
 Je rok 1838, v Manchesteru, malý počet mužů, dosud málo známých, se shromáždí, aby našli způsob, jak právními prostředky svrhnout monopol vlastníků pšeničných pozemků a dosáhnout, jak by Bastiat později vyprávěl,
 
@@ -1020,7 +1011,7 @@ Napsal Frédéric Bastiat v krátké brožuře nazvané Stát.
 
 
 
-## Dejte nám zpětnou vazbu k tomuto kurzu
+## Ohodnoťte kurz
 <chapterId>db20170d-ceb6-56cd-b4e5-c690942f8b29</chapterId>
 <isCourseReview>true</isCourseReview>
 

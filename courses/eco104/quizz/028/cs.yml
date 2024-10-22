@@ -1,9 +1,12 @@
-question: Kdokoli může zkopírovat kód Bitcoinu, čímž ho znehodnotí, správně nebo nesprávně?
-answer: Správně
+question: Může někdo duplikovat Bitcoin kód?
+answer: ano, ale nemůžete zkopírovat hodnotu Bitcoin sítě
 wrong_answers:
-  - Nesprávně
+  - ano a zkopírovali byste i hodnotu Bitcoin sítě
+  - ne a můžete zkopírovat hodnotu Bitcoin sítě
+  - ne, protože Bitcoin kód je closed-source
 explanation: |
   I když je kód pro Bitcoin open source a může být zkopírován,
   hodnota bitcoinu není odvozena od jeho kódu. Je odvozena
   od jeho sítě uživatelů a důvěry a přijetí, které si vybudovalo během času.
 reviewed: false
+

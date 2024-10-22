@@ -1,9 +1,0 @@
-question: Quels sont les préfixes les plus couramment utilisés pour les clés étendues ?
-answer: xpub et zpub
-wrong_answers:
-  - xprv et zprv
-  - ypub et zpub
-  - xpub et ypub
-explanation: |
-  Les préfixes les plus couramment utilisés sont xpub et zpub, qui correspondent respectivement aux normes legacy, segwit v1 et segwit v0.
-reviewed: false

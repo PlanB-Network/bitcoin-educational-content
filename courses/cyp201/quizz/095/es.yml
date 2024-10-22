@@ -1,9 +1,0 @@
-question: ¿Qué indica el prefijo XPUB en una clave extendida?
-answer: Es una clave pública extendida.
-wrong_answers:
-  - Es una clave privada extendida.
-  - Es una clave maestra.
-  - Es una clave hija.
-explanation: |
-  Las claves extendidas se identifican mediante prefijos específicos (XPRV, XPUB, YPUB, ZPUB) que indican si es una clave privada o pública extendida, así como su propósito específico.
-reviewed: false

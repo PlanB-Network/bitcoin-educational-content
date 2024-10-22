@@ -1,9 +1,0 @@
-question: ¿Cómo se obtiene la clave pública del hijo en la derivación de las claves del hijo?
-answer: La clave pública del hijo se obtiene multiplicando la clave privada del hijo por el generador de la curva elíptica.
-wrong_answers:
-  - La clave pública del hijo se obtiene sumando la clave privada del hijo al generador de la curva elíptica.
-  - La clave pública del hijo se obtiene restando la clave privada del hijo al generador de la curva elíptica.
-  - La clave pública del hijo se obtiene dividiendo la clave privada del hijo por el generador de la curva elíptica.
-explanation: |
-  La clave pública del hijo se obtiene multiplicando la clave privada del hijo por el generador de la curva elíptica. Esto es parte de los cálculos matemáticos utilizados en la derivación de las claves del hijo.
-reviewed: false

@@ -1,9 +1,0 @@
-question: Mikä on BIP38:n rooli Bitcoin-ekosysteemissä?
-answer: Se ehdotti lisäsalasanan lisäämistä vahvistamaan yksittäisten avainten turvallisuutta.
-wrong_answers:
-  - Se esitteli 24-sanan muistilauseen.
-  - Se mullisti avainten luonti- ja säilytystavan.
-  - Se standardisoi HD-lompakoiden rakenteen ja hierarkian.
-explanation: |
-  BIP38 ehdotti lisäsalasanan lisäämistä vahvistamaan yksittäisten avainten turvallisuutta. Tämä on yksi monista parannuksista, jotka on tehty HD-lompakoiden turvallisuuden ja toiminnallisuuden parantamiseksi.
-reviewed: false

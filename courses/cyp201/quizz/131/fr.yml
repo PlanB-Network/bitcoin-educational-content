@@ -1,9 +1,0 @@
-question: Quel est le but d'étendre le HRP dans une adresse Bitcoin ?
-answer: Cela permet d'isoler les cinq derniers bits de chaque caractère, renforçant ainsi la somme de contrôle.
-wrong_answers:
-  - Cela augmente la taille de l'adresse.
-  - Cela chiffre l'adresse à des fins de sécurité.
-  - Cela permet la correction d'erreurs dans l'adresse.
-explanation: |
-  Étendre le HRP implique de coder chaque lettre en base 2, en prenant les trois premiers bits de chaque caractère en insérant un séparateur 0, puis en concaténant les cinq derniers bits de chaque caractère. Ce processus renforce la somme de contrôle.
-reviewed: false

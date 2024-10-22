@@ -1,9 +1,0 @@
-question: Was ist der Zweck des ECDSA-Algorithmus im Zusammenhang mit Bitcoin-Transaktionen?
-answer: Um digitale Signaturen zu validieren.
-wrong_answers:
-  - Um Transaktionsdaten zu verschlüsseln.
-  - Um Bitcoin-Adressen zu generieren.
-  - Um neue Bitcoins zu schürfen.
-explanation: |
-  Der ECDSA (Elliptic Curve Digital Signature Algorithm) wird im Zusammenhang mit Bitcoin-Transaktionen verwendet, um digitale Signaturen zu validieren. Dadurch kann der Empfänger einer Transaktion die Echtheit der signierten Nachricht bestätigen, ohne den privaten Schlüssel des Senders zu benötigen.
-reviewed: false

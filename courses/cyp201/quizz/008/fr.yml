@@ -1,9 +1,9 @@
-question: Que se passe-t-il si une entrée même légèrement déviante est donnée à une fonction de hachage cryptographique ?
-answer: Cela modifie considérablement le hachage final.
+question: De combien de tours est constituée la fonction de compression de SHA256 ?
+answer: 64 tours.
 wrong_answers:
-  - Elle produit le même hachage.
-  - Elle fait échouer la fonction de hachage.
-  - Elle ralentit le calcul du hachage.
+  - 10 tours.
+  - 128 tours.
+  - 150 tours.
 explanation: |
-  Les fonctions de hachage cryptographique sont conçues de manière à ce qu'une légère déviation de l'entrée modifie considérablement le hachage final. Cette propriété est cruciale pour la sécurité de la fonction de hachage, car elle rend extrêmement difficile de trouver une autre entrée qui produit le même hachage.
+  La fonction de compression de SHA256 effectue 64 tours pour chaque bloc de données traité.
 reviewed: false

@@ -1,9 +1,0 @@
-question: Was ist der Hauptzweck eines Zufallszahlengenerators (RNG) bei Bitcoin-Transaktionen?
-answer: Um die Integrität der privaten Schlüssel zu gewährleisten.
-wrong_answers:
-  - Um die Geschwindigkeit der Transaktionen zu gewährleisten.
-  - Um die Anonymität der Transaktionen zu gewährleisten.
-  - Um die Rechtmäßigkeit der Transaktionen zu gewährleisten.
-explanation: |
-  RNG wird verwendet, um Zufallszahlen zu generieren, die für die Integrität der privaten Schlüssel bei Bitcoin-Transaktionen entscheidend sind. Dies hilft, jegliche Schwachstellen in Bezug auf Vorhersagbarkeit zu verhindern.
-reviewed: false

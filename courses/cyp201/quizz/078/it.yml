@@ -1,9 +1,0 @@
-question: Qual è il ruolo di una passphrase in un portafoglio Bitcoin?
-answer: Essa aumenta la sicurezza del portafoglio.
-wrong_answers:
-  - Essa diminuisce la sicurezza del portafoglio.
-  - Essa non ha alcun effetto sulla sicurezza del portafoglio.
-  - Essa rende il portafoglio più user-friendly.
-explanation: |
-  La passphrase è una password aggiuntiva che può essere integrata in un portafoglio Bitcoin per aumentarne la sicurezza. Aggiungendo informazioni arbitrarie che, insieme alla frase mnemonica, consentono il calcolo del seed del portafoglio, la passphrase ne migliora la sicurezza.
-reviewed: false

@@ -1,9 +1,9 @@
-question: Quelles sont les caractéristiques d'une phrase secrète efficace pour un portefeuille Bitcoin ?
-answer: Longue (20 à 40 caractères) et diversifiée (en utilisant des lettres majuscules, des lettres minuscules, des chiffres et des symboles)
+question: Comment calcule-t-on la checksum d'une adresse Legacy ?
+answer: Avec HASH256.
 wrong_answers:
-  - Courte et simple
-  - Longue et simple
-  - Courte et diversifiée
+  - Avec HASH160.
+  - Avec un code BCH.
+  - Avec RIPEMD160.
 explanation: |
-  Une phrase secrète efficace doit être longue (20 à 40 caractères) et diversifiée (en utilisant des lettres majuscules, des lettres minuscules, des chiffres et des symboles). Elle ne doit pas être directement liée à l'utilisateur ou à son environnement.
+  Pour les adresses Legacy, la checksum est obtenue en effectuant un double hachage avec la fonction SHA256 (HASH256).
 reviewed: false

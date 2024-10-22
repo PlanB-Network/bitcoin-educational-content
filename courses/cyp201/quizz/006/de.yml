@@ -1,9 +1,0 @@
-question: Was ist ein Hash im Zusammenhang mit kryptografischen Hash-Funktionen?
-answer: Ein eindeutiger und fester digitaler Fingerabdruck, der von einer Hash-Funktion erzeugt wird.
-wrong_answers:
-  - Eine Art von Verschlüsselungsalgorithmus.
-  - Ein Schlüssel, der zur Entschlüsselung von Daten verwendet wird.
-  - Eine Methode zur Komprimierung von Daten.
-explanation: |
-  Im Zusammenhang mit kryptografischen Hash-Funktionen ist ein Hash ein eindeutiger und fester digitaler Fingerabdruck, der von der Hash-Funktion erzeugt wird. Er repräsentiert die Eingabedaten auf eine einzigartige und irreversible Weise.
-reviewed: false

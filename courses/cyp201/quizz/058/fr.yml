@@ -1,9 +1,9 @@
-question: Quel est le rôle de l'entropie dans le portefeuille Bitcoin HD ?
-answer: Elle est la base de tout portefeuille HD et essentielle pour sa sécurité.
+question: Quelles sont les métadonnées ajoutées à la clé étendue en plus de sa charge utile ?
+answer: Version / profondeur / empreinte parent / index / checksum.
 wrong_answers:
-  - Elle aide à la vérification des transactions.
-  - Elle augmente la vitesse des transactions.
-  - Elle réduit la taille de la blockchain.
+  - Version / index.
+  - Version / profondeur / séparateur / checksum.
+  - Aucune métadonnée n'est ajoutée.
 explanation: |
-  L'entropie, ou le hasard, est la base de tout portefeuille HD. Elle est essentielle pour la sécurité du portefeuille car elle garantit l'imprévisibilité des clés privées générées.
+  La clé étendue inclut plusieurs métadonnées. Il y a la version, la profondeur, l'empreinte parent, l'index et la checksum pour faciliter la dérivation des clés.
 reviewed: false

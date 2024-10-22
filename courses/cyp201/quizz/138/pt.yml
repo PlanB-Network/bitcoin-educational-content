@@ -1,9 +1,0 @@
-question: Qual formato de representação é usado para um padrão segwit para obter o endereço da carteira HD?
-answer: O formato bech32
-wrong_answers:
-  - O formato base 58
-  - O formato SHA256
-  - O formato RIPMD160
-explanation: |
-  Após calcular o checksum, é usado uma representação no formato base 58 para um padrão legado, enquanto o formato bech32 é usado para um padrão segwit, para obter o endereço da carteira HD.
-reviewed: false

@@ -1,9 +1,0 @@
-question: É recomendado memorizar uma frase de senha ou frase mnemônica para uma carteira de Bitcoin?
-answer: Não
-wrong_answers:
-  - Sim
-  - Depende do comprimento da frase de senha ou frase mnemônica
-  - Depende da complexidade da frase de senha ou frase mnemônica
-explanation: |
-  Não é recomendado memorizar uma frase de senha ou frase mnemônica. É crucial cuidar dos backups da frase de senha para evitar perder o acesso à carteira.
-reviewed: false

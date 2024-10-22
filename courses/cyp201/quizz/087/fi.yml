@@ -1,9 +1,0 @@
-question: Mikä on suhde pääyksityisavaimen ja lompakon laajennettujen avainten välillä?
-answer: Pääyksityisavain on ensimmäinen siemenestä johdettu yksityisavain, eikä sillä ole yhteyttä lompakon laajennettuihin avaimiin.
-wrong_answers:
-  - Pääyksityisavain johdetaan lompakon laajennetuista avaimista.
-  - Pääyksityisavain on sama kuin lompakon laajennetut avaimet.
-  - Pääyksityisavainta käytetään lompakon laajennettujen avainten luomiseen.
-explanation: |
-  Pääyksityisavain on ensimmäinen siemenestä johdettu yksityisavain, eikä sillä ole yhteyttä lompakon laajennettuihin avaimiin.
-reviewed: false

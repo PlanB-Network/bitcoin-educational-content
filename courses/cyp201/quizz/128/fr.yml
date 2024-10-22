@@ -1,9 +1,0 @@
-question: Que signifie le préfixe 0,3 dans une clé publique Bitcoin ?
-answer: Cela indique une valeur impaire de y.
-wrong_answers:
-  - Cela indique une valeur paire de y.
-  - Cela indique la version de la clé publique.
-  - Cela indique la taille de la clé publique.
-explanation: |
-  Dans l'exemple de la clé publique appartenant à Satoshi Nakamoto, un préfixe 0,3 indique une valeur impaire de y. Cela fait partie du processus de compression d'une clé publique dans Bitcoin.
-reviewed: false

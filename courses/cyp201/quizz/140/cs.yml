@@ -1,9 +1,0 @@
-question: Co se používá pro výpočet kontrolního součtu v případě standardu segwit?
-answer: Program BCH (Bose-Chaudhuri-Hocquenghem)
-wrong_answers:
-  - Dvojité hašování SHA256
-  - Funkce pbkdf2
-  - Funkce hmacha512
-explanation: |
-  Program BCH (Bose-Chaudhuri-Hocquenghem) se používá pro výpočet kontrolního součtu v případě standardu segwit.
-reviewed: false

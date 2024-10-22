@@ -1,9 +1,9 @@
-question: Quel est le rôle du point générateur dans la courbe elliptique ?
-answer: Il est utilisé pour calculer le point sur la courbe elliptique.
+question: Comment construire la phrase de récupération (mnémonique) en binaire ?
+answer: On concatène le nombre aléatoire avec sa checksum à la fin.
 wrong_answers:
-  - Il est utilisé pour générer le nonce.
-  - Il est utilisé pour chiffrer les clés.
-  - Il est utilisé pour stocker les clés.
+  - On concatène le nombre aléatoire avec sa checksum au début.
+  - On concatène le nombre aléatoire avec une graine.
+  - On divise le nombre aléatoire en deux parties et on insère la checksum au milieu.
 explanation: |
-  Le point générateur est un point spécifique sur la courbe elliptique qui est utilisé dans le calcul d'autres points sur la courbe. Il est utilisé dans la génération de clés publiques et privées, ainsi que dans la création et la vérification de signatures numériques.
+  Pour générer une phrase mnémonique en binaire, on concatène la checksum à la fin du nombre aléatoire avant de convertir en mots.
 reviewed: false

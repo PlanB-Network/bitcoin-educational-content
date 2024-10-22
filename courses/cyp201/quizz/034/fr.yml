@@ -1,9 +1,9 @@
-question: Quelle est la taille d'une clé privée Bitcoin ?
-answer: Nombre de 256 bits
+question: Qu'est-ce qu'un portefeuille JBOK dans le contexte de Bitcoin ?
+answer: Un portefeuille qui regroupe des clés privées déterminées de manière aléatoire, sans lien entre elles.
 wrong_answers:
-  - Nombre de 512 bits
-  - Nombre de 128 bits
-  - Nombre de 1024 bits
+  - Un portefeuille qui dérive des clés de manière hiérarchique à partir d'une graine unique.
+  - Un portefeuille qui dérive des clés à partir des clés précédentes.
+  - Un portefeuille qui utilise uniquement une phrase mnémonique pour dériver des clés.
 explanation: |
-  Dans le système Bitcoin, la clé privée est un nombre aléatoire ou pseudo-aléatoire de 256 bits.
+  Un portefeuille JBOK (Just a Bunch Of Keys) contient des clés privées générées de manière aléatoire et indépendantes les unes des autres, contrairement aux portefeuilles HD.
 reviewed: false

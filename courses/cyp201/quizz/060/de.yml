@@ -1,9 +1,0 @@
-question: Was ist der Hauptvorteil von Hierarchical Deterministic Wallets (HD Wallets)?
-answer: Sie ermöglichen die deterministische und hierarchische Generierung von Kinderschlüsselpaaren aus einer einzigen Information.
-wrong_answers:
-  - Sie ermöglichen die Generierung mehrerer privater Schlüssel aus einem einzigen öffentlichen Schlüssel.
-  - Sie ermöglichen die Generierung mehrerer öffentlicher Schlüssel aus einem einzigen privaten Schlüssel.
-  - Sie ermöglichen die Generierung mehrerer Wallets aus einem einzigen Schlüsselpaar.
-explanation: |
-  HD Wallets ermöglichen die deterministische und hierarchische Generierung von Kinderschlüsselpaaren aus einer einzigen Information. Dadurch wird die Generierung und Verwaltung von Schlüsseln erleichtert, während ein hohes Maß an Sicherheit gewährleistet wird.
-reviewed: false

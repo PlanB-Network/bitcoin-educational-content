@@ -1,9 +1,0 @@
-question: ¿Cuál es la importancia de usar un nonce único en el algoritmo ECDSA?
-answer: Ayuda a evitar ataques de seguridad.
-wrong_answers:
-  - Aumenta la velocidad del algoritmo.
-  - Reduce la complejidad computacional.
-  - Es necesario para que el algoritmo funcione.
-explanation: |
-  El uso de un nonce único en el algoritmo ECDSA es crucial para mantener la seguridad. Reutilizar un nonce puede llevar a vulnerabilidades, como se demostró en el hackeo de PlayStation 3, que fue comprometido debido a la reutilización de un nonce.
-reviewed: false

@@ -1,64 +1,18 @@
-id: 0b2e6a33-c123-44cf-b99a-c9fca73ea764
-chapterId: b43c715d-affb-56d8-a697-ad5bc2fffd63
-difficulty: easy
+id: 88e2d9c5-470f-4e14-8c9c-7b1dded79cd1
+chapterId: 34e1bbda-67de-5493-b268-1fded8d67689
+difficulty: hard
 duration: 15
-author: DecouvreBitcoin
+author: pretty-private
 tags:
-  - Bitcoin
-  - Key Pair
-  - Security
+  - crtyptography
+  - wallets
 
 # Proofreading metadata
-original_language: en
+original_language: fr
 proofreading:
-  - language: cs
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 2622
-  - language: de
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 2561
-  - language: en
-    last_contribution_date: 2024-09-01
-    urgency: 1
-    contributors_id:
-      - Asi0Flammeus
-    reward: 1280
-  - language: es
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 2591
-  - language: fi
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 2622
   - language: fr
-    last_contribution_date:
+    last_contribution_date: 2024-10-22
     urgency: 1
     contributors_id:
-    reward: 2561
-  - language: it
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 2591
-  - language: ja
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 2683
-  - language: pt
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 2561
-  - language: vi
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 2683
+      - LoicPandul
+    reward:

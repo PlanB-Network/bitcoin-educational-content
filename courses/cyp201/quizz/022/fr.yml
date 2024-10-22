@@ -1,9 +1,9 @@
-question: Quels sont les deux composants clés du mécanisme de sécurité du protocole Bitcoin ?
-answer: Les algorithmes de dérivation HMAC et PBKDF2
+question: Comment est déterminée une clé publique Bitcoin ?
+answer: Elle est déterminée par addition et doublement de points sur la courbe elliptique depuis le point générateur en utilisant la clé privée.
 wrong_answers:
-  - Les fonctions de hachage SHA-256 et RIPEMD-160
-  - L'algorithme de signature numérique à courbes elliptiques (ECDSA) et la fonction de hachage SHA-256
-  - RSA et l'échange de clés Diffie-Hellman
+  - Elle est déterminée à partir d'un nombre aléatoire ou pseudo-aléatoire.
+  - Elle est déterminée en hachant sa clé privée.
+  - Elle est déterminée en hachant sa graine.
 explanation: |
-  Les algorithmes de dérivation HMAC et PBKDF2 sont des composants clés du mécanisme de sécurité du protocole Bitcoin. Ils empêchent diverses attaques potentielles et garantissent l'intégrité des portefeuilles Bitcoin.
+  La clé publique est générée à partir de la clé privée par des opérations sur la courbe elliptique, à partir du point générateur.
 reviewed: false

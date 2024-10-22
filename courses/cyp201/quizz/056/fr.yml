@@ -1,9 +1,9 @@
-question: Que représente la graine dans un portefeuille Bitcoin ?
-answer: Il s'agit d'un nombre aléatoire ou pseudo-aléatoire à partir duquel plusieurs clés sont générées.
+question: Quel est l'intérêt de la clé étendue ?
+answer: Rassembler en une seule chaîne de caractères l'ensemble des informations nécessaires à la dérivation de clés enfants.
 wrong_answers:
-  - C'est le mot de passe pour accéder au portefeuille.
-  - C'est la première transaction Bitcoin enregistrée dans le portefeuille.
-  - C'est la signature numérique du propriétaire du portefeuille.
+  - Rassembler en une seule chaîne de caractères l'ensemble des informations nécessaires à la reconstruction de tout un portefeuille HD.
+  - Rassembler des informations sur les UTXOs dans le portefeuille.
+  - Rassembler la phrase mnémonique et la passphrase dans un seul format.
 explanation: |
-  La graine dans un portefeuille Bitcoin est censée être un nombre aléatoire ou pseudo-aléatoire. Cette graine permet la génération de plusieurs clés, qui sont essentielles pour la possession de cryptomonnaie.
+  Une clé étendue permet de contenir toutes les informations nécessaires pour dériver des clés enfants, ce qui simplifie ainsi la gestion des comptes d'un portefeuilles HD.
 reviewed: false

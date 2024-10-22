@@ -1,9 +1,0 @@
-question: Welche Rolle spielt die elliptische Kurve bei der Erzeugung von öffentlichen und privaten Schlüsseln?
-answer: Sie wird verwendet, um sichere öffentliche und private Schlüssel zu erzeugen.
-wrong_answers:
-  - Sie wird verwendet, um die Schlüssel zu verschlüsseln.
-  - Sie wird verwendet, um die Schlüssel zu speichern.
-  - Sie wird verwendet, um die Schlüssel zu übertragen.
-explanation: |
-  Die elliptische Kurve ist eine mathematische Konstruktion, die bei der Erzeugung sicherer öffentlicher und privater Schlüssel verwendet wird. Eine zufällige Zahl, oft als Nonce bezeichnet, wird als privater Schlüssel gewählt und in der Gleichung der elliptischen Kurve verwendet, um den entsprechenden öffentlichen Schlüssel zu erzeugen.
-reviewed: false

@@ -1,9 +1,0 @@
-question: Was ist BCH32 im Zusammenhang mit Bitcoin?
-answer: Es handelt sich um eine bitcoin-spezifische Variante von Base 32.
-wrong_answers:
-  - Es handelt sich um eine bitcoin-spezifische Variante von Base 64.
-  - Es handelt sich um eine bitcoin-spezifische Variante von Base 16.
-  - Es handelt sich um eine bitcoin-spezifische Variante von Base 2.
-explanation: |
-  BCH32 ist eine bitcoin-spezifische Variante von Base 32. Es wird bei der Konstruktion von Bitcoin-Adressen verwendet.
-reviewed: false

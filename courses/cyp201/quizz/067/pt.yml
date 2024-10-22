@@ -1,9 +1,0 @@
-question: Como é determinado o tamanho do checksum na geração de uma frase mnemônica para uma carteira de Bitcoin?
-answer: Ao dividir o tamanho da entropia por 32.
-wrong_answers:
-  - Ao multiplicar o tamanho da entropia por 32.
-  - Ao adicionar 32 ao tamanho da entropia.
-  - Ao subtrair 32 do tamanho da entropia.
-explanation: |
-  O tamanho do checksum é determinado ao dividir o tamanho da entropia por 32. Por exemplo, uma entropia de 256 bits gera um checksum de 8 bits.
-reviewed: false

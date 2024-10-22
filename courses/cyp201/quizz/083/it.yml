@@ -1,9 +1,0 @@
-question: È consigliato memorizzare una passphrase o una frase mnemonica per un portafoglio Bitcoin?
-answer: "No"
-wrong_answers:
-  - Sì
-  - Dipende dalla lunghezza della passphrase o della frase mnemonica
-  - Dipende dalla complessità della passphrase o della frase mnemonica
-explanation: |
-  Non è consigliato memorizzare una passphrase o una frase mnemonica. È fondamentale prendersi cura dei backup delle passphrase per evitare di perdere l'accesso al portafoglio.
-reviewed: false

@@ -1,9 +1,0 @@
-question: Quel est l'avantage d'utiliser une phrase secrète dans un portefeuille Bitcoin ?
-answer: Cela permet d'appliquer différentes stratégies de sécurité.
-wrong_answers:
-  - Cela rend le portefeuille plus convivial.
-  - Cela augmente la vitesse des transactions.
-  - Cela réduit les frais associés aux transactions.
-explanation: |
-  La phrase secrète est un outil essentiel pour renforcer la sécurité des portefeuilles Bitcoin. Elle permet d'appliquer différentes stratégies de sécurité. Par exemple, elle peut être utilisée pour créer des duplicatas et faciliter les sauvegardes de la phrase mnémonique. Elle peut également améliorer la sécurité du portefeuille en atténuant les risques liés à la génération aléatoire de la phrase mnémonique.
-reviewed: false

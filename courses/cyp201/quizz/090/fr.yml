@@ -1,9 +1,0 @@
-question: Quelle est la phrase utilisée avec l'algorithme HMAC SHA-512 pour calculer la clé privée principale ?
-answer: Bitcoin SEED
-wrong_answers:
-  - Bitcoin KEY
-  - Bitcoin WALLET
-  - Bitcoin HASH
-explanation: |
-  La clé privée principale est calculée à partir de la graine et de la phrase "Bitcoin SEED". Cette phrase est identique pour toutes les dérivations de portefeuilles HD, garantissant ainsi une cohérence entre les portefeuilles.
-reviewed: false

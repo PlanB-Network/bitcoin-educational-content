@@ -1,9 +1,0 @@
-question: Welche Rolle spielt BIP38 im Bitcoin-Ökosystem?
-answer: Es schlug vor, eine zusätzliche Passphrase hinzuzufügen, um die Sicherheit der einzelnen Schlüssel zu verstärken.
-wrong_answers:
-  - Es führte die 24-Wort mnemonische Phrase ein.
-  - Es revolutionierte die Art und Weise, wie Schlüssel generiert und gespeichert werden.
-  - Es standardisierte die Struktur und Hierarchie von HD-Wallets.
-explanation: |
-  BIP38 schlug vor, eine zusätzliche Passphrase hinzuzufügen, um die Sicherheit der einzelnen Schlüssel zu verstärken. Dies ist eine der vielen Verbesserungen, die vorgenommen wurden, um die Sicherheit und Funktionalität von HD-Wallets zu verbessern.
-reviewed: false

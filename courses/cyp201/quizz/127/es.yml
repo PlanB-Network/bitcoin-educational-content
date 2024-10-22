@@ -1,9 +1,0 @@
-question: ¿Qué es una dirección de recepción en Bitcoin?
-answer: Una representación alfanumérica de una clave pública comprimida.
-wrong_answers:
-  - Un identificador único para cada transacción de Bitcoin.
-  - Una contraseña para acceder a una billetera de Bitcoin.
-  - Una firma digital para transacciones de Bitcoin.
-explanation: |
-  Una dirección de recepción en Bitcoin es una representación alfanumérica de una clave pública comprimida. Se utiliza para recibir transacciones de Bitcoin.
-reviewed: false

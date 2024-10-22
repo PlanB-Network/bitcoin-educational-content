@@ -1,9 +1,0 @@
-question: ¿Qué sucede si se proporciona una entrada ligeramente diferente a una función hash criptográfica?
-answer: Alterará significativamente el hash final.
-wrong_answers:
-  - Produce el mismo hash.
-  - Hace que la función hash falle.
-  - Ralentiza el cálculo del hash.
-explanation: |
-  Las funciones hash criptográficas están diseñadas de tal manera que incluso una ligera desviación en la entrada altera significativamente el hash final. Esta propiedad es crucial para la seguridad de la función hash, ya que hace extremadamente difícil encontrar una entrada diferente que produzca el mismo hash.
-reviewed: false

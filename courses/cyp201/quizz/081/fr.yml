@@ -1,9 +1,0 @@
-question: L'utilisation d'une phrase secrète dans un portefeuille Bitcoin est-elle obligatoire ?
-answer: Non, son utilisation est facultative.
-wrong_answers:
-  - Oui, son utilisation est obligatoire.
-  - Cela dépend du type de portefeuille.
-  - Cela dépend du montant de bitcoins dans le portefeuille.
-explanation: |
-  La phrase secrète est un mot de passe supplémentaire qui peut être intégré dans un portefeuille Bitcoin pour augmenter sa sécurité. Son utilisation est facultative et est à la discrétion de l'utilisateur.
-reviewed: false

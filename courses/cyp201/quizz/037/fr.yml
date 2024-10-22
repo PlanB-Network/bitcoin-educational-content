@@ -1,9 +1,9 @@
-question: Quel est l'algorithme que Bitcoin utilise pour lier les clés privées et publiques ?
-answer: Algorithme de signature numérique à courbes elliptiques (ECDSA)
+question: Pourquoi est-il important d'utiliser une bonne source d'entropie pour générer des clés privées ?
+answer: Une mauvaise entropie peut rendre les clés privées prédictibles et vulnérables aux attaques.
 wrong_answers:
-  - Advanced Encryption Standard (AES)
-  - Rivest-Shamir-Adleman (RSA)
-  - Secure Hash Algorithm 2 (SHA-2)
+  - Une bonne entropie permet d'optimiser les performances du portefeuille.
+  - L'entropie ne joue aucun rôle dans la sécurité des clés privées.
+  - Une mauvaise entropie ralentit les transactions.
 explanation: |
-  Bitcoin utilise l'algorithme de signature numérique à courbes elliptiques (ECDSA) pour lier les clés privées et publiques.
+  Si l'entropie utilisée pour générer des clés privées est faible, cela pourrait permettre à un attaquant de deviner ou de calculer ces clés, ce qui compromet la sécurité du portefeuille.
 reviewed: false

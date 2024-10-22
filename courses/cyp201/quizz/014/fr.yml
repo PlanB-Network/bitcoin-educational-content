@@ -1,10 +1,9 @@
-question: Combien de tours de calcul sont effectués dans la fonction de compression de SHA256 ?
-answer: 64
+question: Quelle fonction est utilisée pour dériver une clé enfant à partir d'une clé parent dans Bitcoin ?
+answer: HMAC-SHA512.
 wrong_answers:
-  - 32
-  - 128
-  - 256
+  - SHA256.
+  - MD5.
+  - BLAKE2.
 explanation: |
-  Dans la fonction de compression de SHA256, 64 tours de calcul sont effectués.
-  Comme dans une course cycliste, chaque tour améliore la position de la fonction.
+  La fonction HMAC-SHA512 est utilisée dans la dérivation des clés enfants à partir des clés parent dans les portefeuilles HD Bitcoin.
 reviewed: false

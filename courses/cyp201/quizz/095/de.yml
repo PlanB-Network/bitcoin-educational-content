@@ -1,9 +1,0 @@
-question: Was kennzeichnet das Präfix XPUB in einem erweiterten Schlüssel?
-answer: Es handelt sich um einen erweiterten öffentlichen Schlüssel.
-wrong_answers:
-  - Es handelt sich um einen erweiterten privaten Schlüssel.
-  - Es handelt sich um einen Master-Schlüssel.
-  - Es handelt sich um einen Kind-Schlüssel.
-explanation: |
-  Erweiterte Schlüssel werden durch spezifische Präfixe (XPRV, XPUB, YPUB, ZPUB) gekennzeichnet, die anzeigen, ob es sich um einen erweiterten privaten oder öffentlichen Schlüssel handelt und welchen spezifischen Zweck er hat.
-reviewed: false

@@ -1,64 +1,18 @@
-id: be66f1d2-3685-4c59-98f6-5eea3981f39d
-chapterId: fcb2bd58-5dda-5ecf-bb8f-ad1a0561ab4a
-difficulty: hard
-duration: 45
-author: DecouvreBitcoin
+id: b214b46e-faed-48ad-a31c-2f248c2054b5
+chapterId: 9d9acd5d-a0e5-5dfd-b544-f043fae8840f
+difficulty: easy
+duration: 15
+author: pretty-private
 tags:
-  - Bitcoin
-  - Private key
-  - ECDSA
+  - crtyptography
+  - wallets
 
 # Proofreading metadata
-original_language: en
+original_language: fr
 proofreading:
-  - language: cs
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 2692
-  - language: de
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 2596
-  - language: en
-    last_contribution_date: 2024-09-01
-    urgency: 1
-    contributors_id:
-      - Asi0Flammeus
-    reward: 1298
-  - language: es
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 2644
-  - language: fi
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 2692
   - language: fr
-    last_contribution_date:
+    last_contribution_date: 2024-10-22
     urgency: 1
     contributors_id:
-    reward: 2596
-  - language: it
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 2644
-  - language: ja
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 2788
-  - language: pt
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 2596
-  - language: vi
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 2788
+      - LoicPandul
+    reward:

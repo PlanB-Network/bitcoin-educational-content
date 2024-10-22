@@ -1,9 +1,0 @@
-question: Wie lautet die Kurvenordnung (n) für die secp256k1-Kurve in Dezimalzahlen?
-answer: 2^256 - 432420386565659656852420866394968145599
-wrong_answers:
-  - 2^256 - 2^32 - 2^9 - 2^8 - 2^7 - 2^6 - 2^4 -1
-  - 2^256 - 432420386565659656852420866394968145598
-  - 2^256 - 432420386565659656852420866394968145600
-explanation: |
-  Die Kurvenordnung (n) für die secp256k1-Kurve ist die Anzahl der Punkte auf der Kurve, einschließlich des Punktes im Unendlichen. Für secp256k1 entspricht n 2^256 - 432420386565659656852420866394968145599 in Dezimalzahlen.
-reviewed: false

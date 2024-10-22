@@ -1,11 +1,9 @@
-question: Quelles sont les quatre qualités qu'une fonction de hachage cryptographique doit avoir pour être reconnue comme sécurisée ?
-answer: Irréversibilité, résistance à la falsification, résistance aux collisions, et résistance à la seconde préimage.
+question: Quelles sont les fonctions de hachage utilisées sur le protocole Bitcoin ?
+answer: SHA-256, RIPEMD-160
 wrong_answers:
-  - Vitesse, efficacité, résistance aux collisions et irréversibilité.
-  - Résistance aux collisions, résistance à la falsification, scalabilité et irréversibilité.
-  - Irréversibilité, résistance aux collisions, résistance à la falsification, et vitesse.
+  - MD5, SHA3-256
+  - Keccak-256, SHA-512
+  - SHA-1, Whirlpool
 explanation: |
-  Une fonction de hachage cryptographique sécurisée doit posséder quatre qualités clés ;
-  l'irréversibilité (ce qui signifie qu'il est impossible de dériver l'entrée originale à partir de la sortie), la résistance à la falsification (ce qui signifie qu'il est difficile de créer une entrée différente qui produit la même sortie), la résistance aux collisions (ce qui signifie qu'il est difficile de trouver deux entrées différentes qui produisent la même sortie), et la résistance à la seconde préimage (ce qui signifie qu'il est difficile de trouver une entrée différente qui produit la même sortie qu'une entrée donnée).
+  Sur Bitcoin, on utilise SHA-256 et RIPEMD-160.
 reviewed: false
-

@@ -1,9 +1,9 @@
-question: Quel est le but de la deuxième phase de prétraitement dans SHA256 ?
-answer: Ajouter la représentation binaire de la taille initiale du message, en bits
+question: Afin de pouvoir appliquer cette courbe elliptique à des utilisations cryptographiques, sur quel corps devons-nous la définir ?
+answer: Un corps fini d'entiers positifs.
 wrong_answers:
-  - Ajouter des bits de remplissage à l'entrée
-  - Séparer l'entrée en différents blocs de messages de 512 bits
-  - Effectuer 64 tours de calcul dans la fonction de compression
+  - Le corps des réels.
+  - Un corps fini de réels.
+  - Un corps complexe.
 explanation: |
-  La deuxième phase de prétraitement dans SHA256 consiste à ajouter la représentation binaire de la taille initiale du message, en bits. Cela est fait en utilisant les 64 bits réservés de l'étape précédente.
+  Dans Bitcoin, la courbe elliptique secp256k1 est définie sur un corps fini d'entiers positifs modulo un nombre premier pour éviter les approximations et garantir la sécurité.
 reviewed: false

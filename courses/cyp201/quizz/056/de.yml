@@ -1,9 +1,0 @@
-question: Was repräsentiert der Seed in einer Bitcoin-Wallet?
-answer: Es handelt sich um eine zufällige oder pseudo-zufällige Zahl, aus der mehrere Schlüssel generiert werden.
-wrong_answers:
-  - Es ist das Passwort, um auf die Wallet zuzugreifen.
-  - Es ist die erste Bitcoin-Transaktion, die in der Wallet aufgezeichnet wird.
-  - Es ist die digitale Signatur des Wallet-Besitzers.
-explanation: |
-  Der Seed in einer Bitcoin-Wallet soll eine zufällige oder pseudo-zufällige Zahl sein. Dieser Seed ermöglicht die Generierung mehrerer Schlüssel, die für den Besitz von Kryptowährungen unerlässlich sind.
-reviewed: false

@@ -1,11 +1,9 @@
-question: Quelle est la signification du point à l'infini dans l'algorithme ECDSA ?
-answer: Si le point calculé P est le point à l'infini, la signature est invalide.
+question: Que se passe-t-il si j'utilise un portefeuille HD avec une passphrase et que je perds cette passphrase ?
+answer: Mes bitcoins sont perdus à jamais.
 wrong_answers:
-  - Si le point calculé P est le point à l'infini, la signature est valide.
-  - Le point à l'infini est utilisé pour calculer le nonce.
-  - Le point à l'infini est utilisé pour chiffrer les clés.
+  - Ce n'est pas grave, je peux toujours accéder à mes bitcoins avec uniquement ma phrase mnémonique.
+  - Je peux réinitialiser la passphrase avec ma clé privée.
+  - Je peux récupérer mes bitcoins en utilisant un portefeuille sans passphrase.
 explanation: |
-  Dans l'algorithme ECDSA, si le point calculé P sur la courbe elliptique
-  est le point à l'infini, la signature est considérée comme invalide. C'est l'une des
-  vérifications effectuées lors de la validation d'une signature numérique.
+  Si la passphrase est perdue, l'accès aux bitcoins est définitivement perdu, car elle est nécessaire pour dériver les clés privées.
 reviewed: false

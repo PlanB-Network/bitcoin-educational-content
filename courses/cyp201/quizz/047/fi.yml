@@ -1,9 +1,0 @@
-question: Mikä on noncen tarkoitus Bitcoin-siirtojen yhteydessä?
-answer: Sitä käytetään digitaalisen allekirjoituksen luomisessa.
-wrong_answers:
-  - Sitä käytetään siirtotietojen salaamiseen.
-  - Sitä käytetään siirtotietojen tallentamiseen.
-  - Sitä käytetään siirtotietojen lähettämiseen.
-explanation: |
-  Bitcoin-siirtojen yhteydessä noncea käytetään digitaalisen allekirjoituksen luomisessa. Tarkemmin sanottuna sitä käytetään tietyn luvun V ja kahdesta osasta, S1 ja S2, koostuvan digitaalisen allekirjoituksen laskemisessa.
-reviewed: false

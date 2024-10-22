@@ -1,8 +1,0 @@
-question: Vai trò của BIP38 trong hệ thống Bitcoin là gì?
-answer: Nó đề xuất thêm một cụm mật khẩu bổ sung để tăng cường bảo mật cho các khóa cá nhân.
-wrong_answers:
-  - Nó giới thiệu cụm từ ghi nhớ 24 từ.
-  - Nó đã làm thay đổi cách tạo và lưu trữ khóa.
-  - Nó chuẩn hóa cấu trúc và hệ thống phân cấp của ví HD.
-explanation: |
-  BIP38 đề xuất thêm một cụm mật khẩu bổ sung để tăng cường bảo mật cho các khóa cá nhân. Đây là một trong nhiều cải tiến được thực hiện nhằm nâng cao bảo mật và chức năng của ví HD.

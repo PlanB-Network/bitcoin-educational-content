@@ -1,9 +1,0 @@
-question: Lợi ích của việc sử dụng HASH160 trong giao thức Bitcoin là gì?
-answer: Nó cho phép duy trì độ an toàn của SHA-256 trong khi giảm kích thước của dấu vân tay.
-wrong_answers:
-  - Nó tăng kích thước của dấu vân tay để tăng cường an ninh.
-  - Nó có khả năng chống va chạm tốt hơn SHA-256.
-  - Nó được tính toán nhanh hơn SHA-256.
-explanation: |
-  HASH160 trong giao thức Bitcoin có lợi thế vì nó duy trì được độ an toàn của SHA-256 trong khi giảm kích thước của dấu vân tay. Điều này làm cho nó hiệu quả hơn mà không làm giảm an ninh.
-reviewed: false

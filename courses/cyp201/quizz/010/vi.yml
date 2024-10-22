@@ -1,9 +1,0 @@
-question: Các vector khởi tạo trong quá trình xử lý hàm SHA-256 là gì?
-answer: 32 bit đầu tiên của phần thập phân của căn bậc hai của 8 số nguyên tố đầu tiên
-wrong_answers:
-  - 32 bit đầu tiên của phần thập phân của căn bậc ba của 8 số nguyên tố đầu tiên
-  - 32 bit đầu tiên của phần thập phân của căn bậc hai của 64 số nguyên tố đầu tiên
-  - 32 bit đầu tiên của phần thập phân của căn bậc ba của 64 số nguyên tố đầu tiên
-explanation: |
-  Trong quá trình xử lý hàm SHA-256, các vector khởi tạo, từ A đến H, là 32 bit đầu tiên của phần thập phân của căn bậc hai của 8 số nguyên tố đầu tiên. Những số này được sử dụng như là thành phần cơ bản trong công thức mã hóa.
-reviewed: false

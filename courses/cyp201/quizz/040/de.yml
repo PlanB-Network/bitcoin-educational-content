@@ -1,9 +1,0 @@
-question: Was ist die Bedeutung der Verwendung eines eindeutigen Nonce im ECDSA-Algorithmus?
-answer: Es hilft, Sicherheitsangriffe zu vermeiden.
-wrong_answers:
-  - Es erhöht die Geschwindigkeit des Algorithmus.
-  - Es reduziert die Rechenkomplexität.
-  - Es ist für das Funktionieren des Algorithmus erforderlich.
-explanation: |
-  Die Verwendung eines eindeutigen Nonce im ECDSA-Algorithmus ist entscheidend für die Aufrechterhaltung der Sicherheit. Das Wiederverwenden eines Nonce kann zu Sicherheitslücken führen, wie beim PlayStation 3 Hack, bei dem aufgrund der Wiederverwendung eines Nonce Kompromittierungen auftraten.
-reviewed: false

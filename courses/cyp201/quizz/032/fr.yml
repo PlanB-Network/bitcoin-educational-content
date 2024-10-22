@@ -1,9 +1,9 @@
-question: Quelle est la signification de l'irréversibilité de la fonction ECDSA dans la sécurité des portefeuilles Bitcoin ?
-answer: Il est impossible de récupérer la clé privée à partir de la clé publique.
+question: Quel est le BIP (Bitcoin Improvement Proposal) qui est venu proposer une première version d'un portefeuille HD sur Bitcoin ?
+answer: BIP32.
 wrong_answers:
-  - Il est possible de récupérer la clé privée à partir de la clé publique.
-  - Il est possible de récupérer la clé publique à partir de la clé privée.
-  - Il est impossible de récupérer la clé publique à partir de la clé privée.
+  - BIP16.
+  - BIP39.
+  - BIP44.
 explanation: |
-  La fonction ECDSA est irréversible, ce qui signifie qu'il est impossible de récupérer la clé privée à partir de la clé publique. Cette irréversibilité est la pierre angulaire de la sécurité des portefeuilles Bitcoin.
+  Le BIP32, proposé en 2012, est le premier à introduire le concept de portefeuilles déterministes hiérarchiques (HD) dans Bitcoin.
 reviewed: false

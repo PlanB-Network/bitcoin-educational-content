@@ -1,9 +1,9 @@
-question: Quelle est la taille d'une clé publique Bitcoin ?
-answer: Un nombre de 512 bits
+question: Quelle est l'information primitive qui permet de déterminer une bonne phrase mnémonique d'un portefeuille HD ?
+answer: Une entropie externe permettant de déterminer un nombre aléatoire ou pseudo-aléatoire.
 wrong_answers:
-  - Un nombre de 256 bits
-  - Un nombre de 128 bits
-  - Un nombre de 1024 bits
+  - Le prénom du propriétaire du portefeuille.
+  - Aucune information, on choisit directement les mots qui nous plaisent bien.
+  - La date de création du portefeuille.
 explanation: |
-  La clé privée unique est utilisée pour dériver une clé publique de 512 bits dans le système Bitcoin.
+  La phrase mnémonique est dérivée à partir d'une source d'entropie, c'est-à-dire une information aléatoire ou pseudo-aléatoire, pour garantir la sécurité des clés privées.
 reviewed: false

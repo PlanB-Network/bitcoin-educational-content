@@ -1,9 +1,0 @@
-question: Jaká je výhoda používání heslové fráze v Bitcoin peněžence?
-answer: Umožňuje aplikaci různých bezpečnostních strategií
-wrong_answers:
-  - Dělá peněženku více uživatelsky přívětivou
-  - Zvyšuje rychlost transakcí
-  - Sníží poplatky spojené s transakcemi
-explanation: |
-  Heslová fráze je zásadním nástrojem pro zvýšení bezpečnosti Bitcoin peněženek. Umožňuje aplikaci různých bezpečnostních strategií. Například může být použita pro vytvoření duplikátů a usnadnění zálohování mnemonické fráze. Také může zlepšit bezpečnost peněženky tím, že zmírní rizika spojená s náhodným generováním mnemonické fráze.
-reviewed: false

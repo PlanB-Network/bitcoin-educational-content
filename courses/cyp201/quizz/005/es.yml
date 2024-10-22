@@ -1,9 +1,0 @@
-question: ¿Cuál es el objetivo final de una función hash criptográfica?
-answer: Transformar información de tamaño arbitrario en una huella digital de tamaño fijo.
-wrong_answers:
-  - Encriptar datos para su transmisión segura.
-  - Generar una clave única para cada usuario.
-  - Comprimir datos para un almacenamiento eficiente.
-explanation: |
-  El objetivo final de una función hash criptográfica es transformar información de tamaño arbitrario en una huella digital de tamaño fijo. Esta huella digital es única para los datos de entrada, y incluso un pequeño cambio en la entrada resultará en una huella digital drásticamente diferente.
-reviewed: false

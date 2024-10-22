@@ -1,9 +1,0 @@
-question: Quel est le rôle du code de chaîne maître dans l'organisation hiérarchique et la dérivation du portefeuille HD ?
-answer: Il joue un rôle important dans la récupération du portefeuille à partir de la graine.
-wrong_answers:
-  - Il est utilisé pour générer la graine.
-  - Il est utilisé pour dériver les clés enfants.
-  - Il est utilisé pour chiffrer le portefeuille.
-explanation: |
-  Le code de chaîne maître est essentiel pour récupérer le portefeuille à partir de la graine. Toutes les clés dérivées de la même graine auront le même code de chaîne maître.
-reviewed: false

@@ -1,9 +1,9 @@
-question: Quelle fonction est utilisée pour générer la graine à partir de la phrase secrète dans un portefeuille Bitcoin ?
-answer: pbkdf2
+question: Comment compresser une clé publique ?
+answer: On garde la valeur de son abscisse (x) et on ajoute un préfixe indiquant quelle ordonnée (y) choisir.
 wrong_answers:
-  - sha256
-  - md5
-  - bcrypt
+  - On garde la valeur de son ordonnée (y) et on ajoute un préfixe indiquant quelle abscisse (x) choisir.
+  - On hache la clé publique pour la compresser.
+  - On utilise un double hachage SHA256 pour compresser la clé publique.
 explanation: |
-  La fonction pbkdf2 est utilisée pour générer la graine à partir de la phrase secrète dans un portefeuille Bitcoin. Cette graine permet la dérivation de toutes les paires de clés enfants du portefeuille.
+  La compression d'une clé publique se fait en conservant la coordonnée x et en ajoutant un préfixe 0x02 ou 0x03 pour indiquer si y est pair ou impair.
 reviewed: false

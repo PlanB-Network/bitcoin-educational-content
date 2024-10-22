@@ -1,9 +1,0 @@
-question: ¿Cuál es el propósito del nonce en el contexto de las transacciones de Bitcoin?
-answer: Se utiliza en la creación de una firma digital.
-wrong_answers:
-  - Se utiliza para encriptar los datos de la transacción.
-  - Se utiliza para almacenar los datos de la transacción.
-  - Se utiliza para transmitir los datos de la transacción.
-explanation: |
-  En el contexto de las transacciones de Bitcoin, se utiliza un nonce en la creación de una firma digital. Específicamente, se utiliza en el cálculo de un número específico V y la firma digital compuesta por dos partes, S1 y S2.
-reviewed: false

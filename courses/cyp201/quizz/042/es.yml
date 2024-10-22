@@ -1,9 +1,0 @@
-question: ¿Cuál es el propósito de una firma digital en el contexto de las transacciones de Bitcoin?
-answer: Para demostrar que eres el titular de una clave privada sin revelarla.
-wrong_answers:
-  - Para encriptar los datos de la transacción.
-  - Para almacenar los datos de la transacción.
-  - Para transmitir los datos de la transacción.
-explanation: |
-  En el contexto de las transacciones de Bitcoin, se utiliza una firma digital para demostrar que eres el titular de una clave privada sin revelarla. Esto se logra utilizando el algoritmo ECDSA.
-reviewed: false

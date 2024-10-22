@@ -1,9 +1,9 @@
-question: Quelle est l'importance d'utiliser un nonce unique dans l'algorithme ECDSA?
-answer: Cela aide à éviter les attaques de sécurité.
+question: Quelle est la particularité de la liste de 2048 mots permettant l'encodage de la mnémonique ?
+answer: Aucun mot ne dispose des mêmes quatre premières lettres dans le même ordre.
 wrong_answers:
-  - Cela augmente la vitesse de l'algorithme.
-  - Cela réduit la complexité de calcul.
-  - C'est nécessaire pour que l'algorithme fonctionne.
+  - Aucun mot ne dispose des mêmes trois dernières lettres.
+  - Aucun mot ne commence par la lettre “J”.
+  - Aucun mot n'a plus de six lettres.
 explanation: |
-  L'utilisation d'un nonce unique dans l'algorithme ECDSA est cruciale pour maintenir la sécurité. Réutiliser un nonce peut entraîner des vulnérabilités, comme le démontre le piratage de la PlayStation 3, qui a été compromis en raison de la réutilisation du nonce.
+  Cette particularité permet d'éviter toute ambiguïté lors de la saisie des mots, ce qui garantie ainsi l'unicité de chaque mot dans la liste, tout en permettant de réduire la place nécessaire pour son stockage.
 reviewed: false

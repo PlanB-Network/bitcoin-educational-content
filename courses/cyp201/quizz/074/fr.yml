@@ -1,9 +1,9 @@
-question: Pourquoi est-il essentiel de sauvegarder la phrase de récupération de 24 mots d'un portefeuille Bitcoin ?
-answer: Pour éviter toute perte de fonds.
+question: Quel préfixe ou HRP d'adresse correspond à un standard SegWit ?
+answer: "bc"
 wrong_answers:
-  - Pour vérifier l'exactitude de la phrase de récupération.
-  - Pour générer l'entropie du portefeuille.
-  - Pour chiffrer la phrase de récupération pour une sécurité accrue.
+  - "1"
+  - "0x"
+  - "btc"
 explanation: |
-  Sauvegarder la phrase de récupération de 24 mots est essentiel pour éviter toute perte de fonds.
+  Le préfixe "bc" est utilisé pour les adresses SegWit sur le réseau principal (mainnet) de Bitcoin.
 reviewed: false

@@ -1,9 +1,0 @@
-question: ¿Qué sucede si se cambia la frase de contraseña de una billetera de Bitcoin?
-answer: La billetera de Bitcoin se vuelve completamente diferente
-wrong_answers:
-  - La billetera de Bitcoin se vuelve inaccesible
-  - La billetera de Bitcoin permanece igual
-  - La billetera de Bitcoin pierde todos sus bitcoins
-explanation: |
-  Si se cambia la frase de contraseña, la billetera de Bitcoin se vuelve completamente diferente porque la frase de contraseña juega un papel en la construcción y cálculo de todas las claves de la billetera.
-reviewed: false

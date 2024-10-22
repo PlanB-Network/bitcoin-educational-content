@@ -1,9 +1,0 @@
-question: Qual è lo scopo delle chiavi estese in un portafoglio HD?
-answer: Vengono utilizzate per derivare chiavi figlie.
-wrong_answers:
-  - Vengono utilizzate per generare la chiave principale.
-  - Vengono utilizzate per crittografare il portafoglio.
-  - Vengono utilizzate per verificare le transazioni.
-explanation: |
-  Le chiavi estese vengono utilizzate per derivare chiavi figlie e richiedono sia la chiave genitore che il corrispondente codice di catena.
-reviewed: false

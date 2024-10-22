@@ -1,9 +1,0 @@
-question: Qual função é usada para gerar a semente a partir da frase mnemônica e da senha em uma carteira HD?
-answer: A função pbkdf2
-wrong_answers:
-  - A função hmacha512
-  - A função SHA256
-  - A função RIPMD160
-explanation: |
-  A função pbkdf2 é usada para gerar a semente a partir da frase mnemônica e da senha, usando hmacha512 e 2048 iterações. Essa semente é então usada para derivar a chave mestra e o código de cadeia mestra.
-reviewed: false

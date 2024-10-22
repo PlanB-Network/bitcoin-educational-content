@@ -1,9 +1,0 @@
-question: Qual è il principale scopo delle firme digitali nel protocollo Bitcoin?
-answer: Dimostrare il possesso di una chiave privata associata a una specifica chiave pubblica.
-wrong_answers:
-  - Crittografare i dati della transazione
-  - Generare nuovi bitcoin
-  - Verificare l'identità del mittente
-explanation: |
-  Al centro del protocollo Bitcoin, le firme digitali vengono utilizzate come prove matematiche che dimostrano il possesso di una chiave privata associata a una specifica chiave pubblica.
-reviewed: false

@@ -1,9 +1,0 @@
-question: Was passiert, wenn auch nur eine geringfügig abweichende Eingabe an eine kryptografische Hash-Funktion gegeben wird?
-answer: Es verändert das endgültige Hash-Ergebnis erheblich.
-wrong_answers:
-  - Es erzeugt das gleiche Hash-Ergebnis.
-  - Es führt zum Versagen der Hash-Funktion.
-  - Es verlangsamt die Berechnung des Hash-Ergebnisses.
-explanation: |
-  Kryptografische Hash-Funktionen sind so konzipiert, dass selbst eine geringfügige Abweichung in der Eingabe das endgültige Hash-Ergebnis erheblich verändert. Diese Eigenschaft ist entscheidend für die Sicherheit der Hash-Funktion, da es äußerst schwierig macht, eine andere Eingabe zu finden, die das gleiche Hash-Ergebnis erzeugt.
-reviewed: false

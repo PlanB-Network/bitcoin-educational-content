@@ -1,9 +1,0 @@
-question: Qual é o nome grosseiro às vezes usado para se referir à coleção de chaves privadas em uma carteira de Bitcoin?
-answer: Apenas um monte de chaves (JBOC)
-wrong_answers:
-  - Apenas um monte de moedas (JBOC)
-  - Apenas um monte de criptos (JBOC)
-  - Apenas um monte de códigos (JBOC)
-explanation: |
-  A coleção de chaves criptográficas privadas derivadas de uma única chave mestra em uma carteira de Bitcoin é às vezes referida pelo nome um pouco mais grosseiro de "Apenas um monte de chaves" (JBOC).
-reviewed: false

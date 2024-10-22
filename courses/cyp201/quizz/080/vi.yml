@@ -1,9 +1,0 @@
-question: Lợi ích của việc sử dụng cụm mật khẩu trong ví Bitcoin là gì?
-answer: Nó có thể kích hoạt việc áp dụng các chiến lược bảo mật khác nhau
-wrong_answers:
-  - Nó làm cho ví trở nên thân thiện hơn với người dùng
-  - Nó tăng tốc độ giao dịch
-  - Nó giảm phí liên quan đến giao dịch
-explanation: |
-  Cụm mật khẩu là công cụ thiết yếu để tăng cường bảo mật cho ví Bitcoin. Nó có thể kích hoạt việc áp dụng các chiến lược bảo mật khác nhau. Ví dụ, nó có thể được sử dụng để tạo bản sao và hỗ trợ sao lưu cụm từ ghi nhớ. Nó cũng có thể cải thiện bảo mật của ví bằng cách giảm thiểu rủi ro liên quan đến việc tạo ngẫu nhiên cụm từ ghi nhớ.
-reviewed: false

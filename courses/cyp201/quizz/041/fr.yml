@@ -1,9 +1,9 @@
-question: Quel est le rôle de la courbe elliptique dans la génération de clés publiques et privées ?
-answer: Elle est utilisée pour générer des clés publiques et privées sécurisées.
+question: Si je génère un nombre aléatoire de 128 bits, quelle sera la taille de ma phrase de récupération en mots ?
+answer: 12 mots.
 wrong_answers:
-  - Elle est utilisée pour chiffrer les clés.
-  - Elle est utilisée pour stocker les clés.
-  - Elle est utilisée pour transmettre les clés.
+  - 6 mots.
+  - 8 mots.
+  - 24 mots.
 explanation: |
-  La courbe elliptique est une construction mathématique utilisée dans la génération de clés publiques et privées sécurisées. Un nombre aléatoire, souvent appelé nonce, est choisi comme clé privée et utilisé dans l'équation de la courbe elliptique pour générer la clé publique correspondante.
+  Un nombre aléatoire de 128 bits correspond à une phrase mnémonique de 12 mots, en suivant le standard BIP39.
 reviewed: false

@@ -1,9 +1,0 @@
-question: Welche sind die zwei wesentlichen Elemente, auf denen das Fundament des HD Wallets basiert?
-answer: Die mnemonische Phrase und die Passphrase.
-wrong_answers:
-  - Der Seed und der Master-Privatschlüssel.
-  - Der Master-Chain-Code und der Seed.
-  - Die mnemonische Phrase und der Master-Privatschlüssel.
-explanation: |
-  Das Fundament des HD Wallets basiert auf zwei wesentlichen Element- language: en der mnemonischen Phrase und der Passphrase (optional zusätzliches Passwort). Zusammen bilden sie den Seed, eine 512-Bit alphanumerische Sequenz, die als Grundlage für die Ableitung der Schlüssel des Wallets dient.
-reviewed: false

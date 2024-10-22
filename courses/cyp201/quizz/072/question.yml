@@ -1,64 +1,18 @@
-id: 3dc91deb-bf7c-4a6c-ae95-205cdba8690e
-chapterId: 8f9340c1-e6dc-5557-a2f2-26c9669987d5
+id: 0935a06b-2979-48de-95d3-5607cab1ac81
+chapterId: 0a887ed8-3424-5a52-98e1-e4b406150475
 difficulty: easy
 duration: 15
-author: DecouvreBitcoin
+author: pretty-private
 tags:
-  - Bitcoin
-  - Wallet security
-  - Mnemonic phrase
+  - crtyptography
+  - wallets
 
 # Proofreading metadata
-original_language: en
+original_language: fr
 proofreading:
-  - language: cs
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 2630
-  - language: de
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 2565
-  - language: en
-    last_contribution_date: 2024-09-01
-    urgency: 1
-    contributors_id:
-      - Asi0Flammeus
-    reward: 1282
-  - language: es
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 2597
-  - language: fi
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 2630
   - language: fr
-    last_contribution_date:
+    last_contribution_date: 2024-10-22
     urgency: 1
     contributors_id:
-    reward: 2565
-  - language: it
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 2597
-  - language: ja
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 2695
-  - language: pt
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 2565
-  - language: vi
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 2695
+      - LoicPandul
+    reward:

@@ -1,64 +1,18 @@
-id: 5c70d8f6-83b0-4c07-8af0-bb8318d701fb
+id: 831bb437-fcfc-4774-97f1-0524ce9282f2
 chapterId: 905eb320-f15b-5fb6-8d2d-5bb447337deb
 difficulty: hard
-duration: 45
-author: DecouvreBitcoin
+duration: 15
+author: pretty-private
 tags:
-  - SHA256
-  - Cryptography
-  - Bitcoin
+  - crtyptography
+  - wallets
 
 # Proofreading metadata
-original_language: en
+original_language: fr
 proofreading:
-  - language: cs
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 2706
-  - language: de
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 2603
-  - language: en
-    last_contribution_date: 2024-09-01
-    urgency: 1
-    contributors_id:
-      - Asi0Flammeus
-    reward: 1301
-  - language: es
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 2654
-  - language: fi
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 2706
   - language: fr
-    last_contribution_date:
+    last_contribution_date: 2024-10-21
     urgency: 1
     contributors_id:
-    reward: 2603
-  - language: it
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 2654
-  - language: ja
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 2809
-  - language: pt
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 2603
-  - language: vi
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 2809
+      - LoicPandul
+    reward:

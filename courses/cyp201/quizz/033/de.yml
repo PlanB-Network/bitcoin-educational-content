@@ -1,9 +1,0 @@
-question: Was ist die skalare Multiplikation eines Punktes mit n auf einer elliptischen Kurve?
-answer: Entspricht dem Hinzufügen dieses Punktes zu sich selbst n-mal
-wrong_answers:
-  - Entspricht dem Subtrahieren dieses Punktes von sich selbst n-mal
-  - Entspricht dem Multiplizieren dieses Punktes mit sich selbst n-mal
-  - Entspricht dem Teilen dieses Punktes durch sich selbst n-mal
-explanation: |
-  Die skalare Multiplikation eines Punktes mit n auf einer elliptischen Kurve entspricht dem Hinzufügen dieses Punktes zu sich selbst n-mal. Diese Operation bildet die Grundlage für die Berechnung von öffentlichen Schlüsseln im Bitcoin-System.
-reviewed: false

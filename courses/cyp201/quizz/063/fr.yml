@@ -1,9 +1,9 @@
-question: Quelle est l'importance de la sécurité de la clé privée dans l'écosystème Bitcoin?
-answer: Elle garantit la sécurité des transactions Bitcoin.
+question: Quelles sont les deux types de dérivation de clés enfants dans un portefeuille HD ?
+answer: Dérivation normale et dérivation renforcée.
 wrong_answers:
-  - Elle garantit la rapidité des transactions Bitcoin.
-  - Elle garantit l'anonymat des transactions Bitcoin.
-  - Elle garantit la légalité des transactions Bitcoin.
+  - Dérivation simple et dérivation complexe.
+  - Dérivation elliptique et dérivation courbe.
+  - Dérivation statique et dérivation dynamique.
 explanation: |
-  Les clés privées sont la pierre angulaire qui garantit la sécurité des transactions Bitcoin. Elles doivent être générées de manière vraiment aléatoire pour éviter toute vulnérabilité liée à la prévisibilité.
+  Les deux types de dérivation sont la dérivation normale, qui utilise la clé publique parent, et la dérivation renforcée, qui utilise la clé privée parent.
 reviewed: false

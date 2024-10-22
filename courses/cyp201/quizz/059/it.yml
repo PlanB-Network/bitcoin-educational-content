@@ -1,9 +1,0 @@
-question: Qual è lo scopo della funzione di hash SHA-256 nella generazione di un buon numero casuale?
-answer: Riduce una quantità iniziale molto grande di informazioni a 256 bit.
-wrong_answers:
-  - Aumenta la dimensione delle informazioni iniziali.
-  - Crittografa le informazioni iniziali.
-  - Verifica l'autenticità delle informazioni iniziali.
-explanation: |
-  La funzione di hash SHA-256 viene utilizzata per ridurre una quantità iniziale molto grande di informazioni a 256 bit. Questo processo aiuta nella generazione di un buon numero casuale, che è cruciale per la sicurezza delle chiavi private e delle transazioni Bitcoin.
-reviewed: false

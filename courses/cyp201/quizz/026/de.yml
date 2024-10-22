@@ -1,9 +1,0 @@
-question: Was ist die kleinste Einheit von Bitcoin?
-answer: Satoshi
-wrong_answers:
-  - Bit
-  - Byte
-  - Münze
-explanation: |
-  Im Bitcoin-System ist die Recheneinheit der Bitcoin (beachten Sie das kleine "b"). Sie ist bis zu acht Dezimalstellen teilbar, wobei die kleinste Einheit der Satoshi ist.
-reviewed: false

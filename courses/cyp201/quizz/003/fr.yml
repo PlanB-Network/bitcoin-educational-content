@@ -1,9 +1,9 @@
-question: Pourquoi les fonctions de hachage SHA0, SHA1 et MD5 sont-elles considérées comme obsolètes ?
-answer: Elles ont perdu leur résistance aux collisions.
+question: Au sein du protocole Bitcoin, qu'est-ce qu'un HASH160 ?
+answer: Un hachage SHA256 suivi d'un hachage RIPEMD160.
 wrong_answers:
-  - Elles sont trop lentes à calculer.
-  - Elles produisent des empreintes trop grandes.
-  - Elles ne sont pas irréversibles.
+  - Un double hachage RIPEMD160.
+  - Un double hachage SHA256.
+  - Un hachage MD5 suivi d'un hachage SHA256.
 explanation: |
-  Les fonctions de hachage SHA0, SHA1 et MD5 sont considérées comme obsolètes car elles ont perdu leur résistance aux collisions. Cela signifie qu'il est relativement facile de trouver deux entrées différentes qui produisent la même sortie, ce qui constitue une importante faille de sécurité.
+  HASH160 combine un hachage SHA256 suivi de RIPEMD160, utilisé notamment pour générer des adresses Bitcoin.
 reviewed: false

@@ -1,9 +1,0 @@
-question: ¿Cuál es el principal desafío en la generación de números aleatorios en computadoras para transacciones de Bitcoin?
-answer: Los resultados obtenidos no son verdaderamente aleatorios.
-wrong_answers:
-  - El proceso es demasiado complejo para la mayoría de los usuarios.
-  - Requiere una gran cantidad de potencia computacional.
-  - No es compatible con todos los tipos de computadoras.
-explanation: |
-  Las computadoras siguen algoritmos establecidos, lo que dificulta la generación de números verdaderamente aleatorios. Este es un desafío significativo en criptografía, donde la aleatoriedad es crucial para la seguridad de las claves privadas y las transacciones de Bitcoin.
-reviewed: false

@@ -1,9 +1,0 @@
-question: ¿Cuál es el tipo de script que permite bloquear bitcoins a una clave pública?
-answer: Pay2PublicKey
-wrong_answers:
-  - Pay2Address
-  - Pay2PrivateKey
-  - Pay2Hash
-explanation: |
-  El tipo de script que permite bloquear bitcoins a una clave pública se llama Pay2PublicKey. Sin embargo, los usuarios generalmente prefieren usar direcciones de recepción en lugar de este script.
-reviewed: false

@@ -1,9 +1,9 @@
-question: Pourquoi est-il recommandé d'utiliser des portefeuilles open-source pour les transactions Bitcoin ?
-answer: Ils permettent la vérification de la génération de nombres aléatoires.
+question: Quelle est la variable qui permet de différencier les paires de clés soeurs entre elles (qui disposent d'une même paire parent) ?
+answer: L'index.
 wrong_answers:
-  - Ils sont moins chers que les portefeuilles à code source fermé.
-  - Ils sont plus rapides que les portefeuilles à code source fermé.
-  - Ils sont plus sécurisés que les portefeuilles à code source fermé.
+  - Le sel cryptographique.
+  - Le prénom.
+  - Le code de chaîne parent.
 explanation: |
-  Les portefeuilles open-source permettent aux utilisateurs de vérifier la génération du nombre aléatoire, ce qui est une étape cruciale pour garantir la sécurité des clés privées et des transactions Bitcoin.
+  L'index permet de différencier les paires de clés soeurs dérivées d'une même paire parent dans un portefeuille HD.
 reviewed: false

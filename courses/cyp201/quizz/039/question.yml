@@ -1,65 +1,18 @@
-id: 04d0274a-425a-4db1-8a8e-f04f839d901a
-chapterId: fcb2bd58-5dda-5ecf-bb8f-ad1a0561ab4a
-difficulty: easy
+id: 55a5bac4-b8e1-4e54-b03c-7a16a4178374
+chapterId: b43c715d-affb-56d8-a697-ad5bc2fffd63
+difficulty: intermediate
 duration: 15
-author: DecouvreBitcoin
+author: pretty-private
 tags:
-  - Bitcoin
-  - Public key
-  - Private key
-  - Discrete logarithm problem
+  - crtyptography
+  - wallets
 
 # Proofreading metadata
-original_language: en
+original_language: fr
 proofreading:
-  - language: cs
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 2606
-  - language: de
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 2553
-  - language: en
-    last_contribution_date: 2024-09-01
-    urgency: 1
-    contributors_id:
-      - Asi0Flammeus
-    reward: 1276
-  - language: es
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 2579
-  - language: fi
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 2606
   - language: fr
-    last_contribution_date:
+    last_contribution_date: 2024-10-22
     urgency: 1
     contributors_id:
-    reward: 2553
-  - language: it
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 2579
-  - language: ja
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 2659
-  - language: pt
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 2553
-  - language: vi
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 2659
+      - LoicPandul
+    reward:

@@ -1,9 +1,9 @@
-question: Quel est le nom vulgaire parfois utilisé pour désigner la collection de clés privées dans un portefeuille Bitcoin ?
-answer: Just a Bunch Of Keys (JBOC)
+question: De quoi est constituée la charge utile d'une clé étendue ?
+answer: Une clé publique ou une clé privée, et le code de chaîne associé.
 wrong_answers:
-  - Just a Bunch Of Coins (JBOC)
-  - Just a Bunch Of Cryptos (JBOC)
-  - Just a Bunch Of Codes (JBOC)
+  - Une clé privée et la clé publique associée.
+  - Un code de chaîne, une clé publique et une clé privée.
+  - Une clé privée et un index de dérivation.
 explanation: |
-  La collection de clés cryptographiques privées dérivées d'une clé maître unique dans un portefeuille Bitcoin est parfois désignée par le nom légèrement vulgaire de "Just a Bunch Of Keys" (JBOC).
+  La charge utile d'une clé étendue comprend une clé publique ou privée, ainsi qu'un code de chaîne utilisé pour dériver des clés enfants.
 reviewed: false

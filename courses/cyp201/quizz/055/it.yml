@@ -1,9 +1,0 @@
-question: Qual è il nome volgare talvolta usato per riferirsi alla raccolta di chiavi private in un portafoglio Bitcoin?
-answer: Just a Bunch Of Keys (JBOC)
-wrong_answers:
-  - Just a Bunch Of Coins (JBOC)
-  - Just a Bunch Of Cryptos (JBOC)
-  - Just a Bunch Of Codes (JBOC)
-explanation: |
-  La raccolta di chiavi crittografiche private derivate da una singola chiave maestra in un portafoglio Bitcoin viene talvolta indicata con il nome leggermente volgare di "Just a Bunch Of Keys" (JBOC).
-reviewed: false

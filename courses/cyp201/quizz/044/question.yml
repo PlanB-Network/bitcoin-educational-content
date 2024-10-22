@@ -1,64 +1,18 @@
-id: ca675b86-ff19-44a1-9af1-a5c610fddc9b
-chapterId: bb07826f-826e-5905-b307-3d82001fb778
+id: 7e1474dc-f84e-4a27-b5a1-61da3b297ba3
+chapterId: 8f9340c1-e6dc-5557-a2f2-26c9669987d5
 difficulty: intermediate
-duration: 30
-author: DecouvreBitcoin
+duration: 15
+author: pretty-private
 tags:
-  - Bitcoin
-  - Generator Point
-  - Elliptic Curve
+  - crtyptography
+  - wallets
 
 # Proofreading metadata
-original_language: en
+original_language: fr
 proofreading:
-  - language: cs
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 2698
-  - language: de
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 2599
-  - language: en
-    last_contribution_date: 2024-09-01
-    urgency: 1
-    contributors_id:
-      - Asi0Flammeus
-    reward: 1299
-  - language: es
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 2648
-  - language: fi
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 2698
   - language: fr
-    last_contribution_date:
+    last_contribution_date: 2024-10-22
     urgency: 1
     contributors_id:
-    reward: 2599
-  - language: it
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 2648
-  - language: ja
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 2797
-  - language: pt
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 2599
-  - language: vi
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 2797
+      - LoicPandul
+    reward:

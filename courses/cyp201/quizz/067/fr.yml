@@ -1,9 +1,9 @@
-question: Comment la taille de la somme de contrôle est-elle déterminée lors de la génération d'une phrase mnémonique pour un portefeuille Bitcoin ?
-answer: En divisant la taille de l'entropie par 32.
+question: Qu'est-ce qu'indique le chemin de dérivation suivant ? m/84'/0'/1'/0/7
+answer: Une adresse externe SegwitV0 sur le mainnet.
 wrong_answers:
-  - En multipliant la taille de l'entropie par 32.
-  - En ajoutant 32 à la taille de l'entropie.
-  - En soustrayant 32 de la taille de l'entropie.
+  - Une adresse externe SegwitV1 sur le mainnet.
+  - Une adresse interne Legacy sur le testnet.
+  - Une adresse externe Legacy sur le mainnet.
 explanation: |
-  La taille de la somme de contrôle est déterminée en divisant la taille de l'entropie par 32. Par exemple, une entropie de 256 bits génère une somme de contrôle de 8 bits.
+  Le chemin de dérivation m/84'/0'/1'/0/7 indique une adresse externe SegwitV0 sur le réseau principal (mainnet). 84' = SegWit v0, 0' = mainnet, 0 = externe
 reviewed: false

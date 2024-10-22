@@ -1,9 +1,9 @@
-question: Quel est le rôle de PBKDF2 dans le protocole Bitcoin?
-answer: Il est utilisé pour convertir une phrase mnémonique en une graine.
+question: Quelle est la courbe elliptique la plus connue utilisée dans les systèmes cryptographiques ?
+answer: secp256r1.
 wrong_answers:
-  - Il est utilisé pour contrer les attaques d'extension de longueur lors de la dérivation de portefeuilles déterministes hiérarchiques (HD).
-  - Il est utilisé pour générer une sortie de taille fixe.
-  - Il est utilisé pour ajouter une source supplémentaire d'entropie dans la dérivation de clé.
+  - secp256k1.
+  - secp160r1.
+  - ed25519.
 explanation: |
-  PBKDF2 est utilisé pour convertir une phrase mnémonique en une graine. Cet algorithme effectue 2048 tours en utilisant HMAC SHA512.
+  La courbe elliptique secp256r1 est largement utilisée dans de nombreux systèmes cryptographiques, mais Bitcoin utilise la courbe secp256k1.
 reviewed: false

@@ -1,9 +1,9 @@
-question: Quel est le rôle de l'entropie dans la génération d'une phrase mnémonique pour un portefeuille Bitcoin ?
-answer: Elle est la pierre angulaire de la sécurité des portefeuilles HD.
+question: Qu'est-ce qu'une adresse de réception (généralement) ?
+answer: Un hash d'une clé publique avec des métadonnées mis dans un format spécifique.
 wrong_answers:
-  - Elle détermine le nombre de mots dans la phrase de récupération.
-  - Elle chiffre la phrase de récupération pour une sécurité accrue.
-  - Elle vérifie l'exactitude de la phrase de récupération.
+  - Un hash d'une clé privée avec des métadonnées mis dans un format spécifique.
+  - Un hash d'une clé étendue avec des métadonnées mis dans un format spécifique.
+  - Un hash d'un code de chaîne avec des métadonnées.
 explanation: |
-  L'entropie est la pierre angulaire de la sécurité des portefeuilles HD. Il est crucial que cette entropie soit aléatoire ou pseudo-aléatoire pour garantir la sécurité du portefeuille.
+  Une adresse de réception est généralement un hash d'une clé publique associé à des métadonnées, utilisées dans un scriptPubKey pour établir des conditions.
 reviewed: false

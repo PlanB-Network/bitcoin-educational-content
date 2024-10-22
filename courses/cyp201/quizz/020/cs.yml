@@ -1,9 +1,0 @@
-question: Jaká je velikost bloku používaná v HMAC-SHA-512?
-answer: 1024-bitové (128-bytové) bloky
-wrong_answers:
-  - 512-bitové (64-bytové) bloky
-  - 256-bitové (32-bytové) bloky
-  - 2048-bitové (256-bytové) bloky
-explanation: |
-  V kontextu derivace HD peněženky se používá HMAC-SHA-512. Ten operuje s 1024-bitovými (128-bytovými) bloky a přizpůsobuje klíč podle toho.
-reviewed: false

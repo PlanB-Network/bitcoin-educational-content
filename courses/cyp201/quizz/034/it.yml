@@ -1,9 +1,0 @@
-question: Qual è la dimensione di una chiave privata Bitcoin?
-answer: Numero di 256 bit
-wrong_answers:
-  - Numero di 512 bit
-  - Numero di 128 bit
-  - Numero di 1024 bit
-explanation: |
-  Nel sistema Bitcoin, la chiave privata è un numero casuale o pseudo-casuale di 256 bit.
-reviewed: false

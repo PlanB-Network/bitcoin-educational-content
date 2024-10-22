@@ -1,9 +1,0 @@
-question: Qual è lo scopo di BIP43 e BIP44 nell'ecosistema Bitcoin?
-answer: Hanno standardizzato la struttura e la gerarchia dei portafogli HD.
-wrong_answers:
-  - Hanno introdotto la frase mnemonica di 24 parole.
-  - Hanno rivoluzionato il modo in cui le chiavi vengono generate e memorizzate.
-  - Hanno proposto l'aggiunta di una passphrase aggiuntiva per rafforzare la sicurezza delle singole chiavi.
-explanation: |
-  BIP43 e BIP44 hanno standardizzato la struttura e la gerarchia dei portafogli HD, rendendoli più accessibili e facili da usare per il pubblico in generale.
-reviewed: false

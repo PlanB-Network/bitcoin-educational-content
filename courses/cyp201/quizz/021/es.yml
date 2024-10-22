@@ -1,9 +1,0 @@
-question: ¿Cuántas rondas realiza PBKDF2 utilizando HMAC SHA512?
-answer: 2048 rondas
-wrong_answers:
-  - 1024 rondas
-  - 512 rondas
-  - 4096 rondas
-explanation: |
-  PBKDF2 se utiliza para convertir una frase mnemotécnica en una semilla. Este algoritmo realiza 2048 rondas utilizando HMAC SHA512.
-reviewed: false

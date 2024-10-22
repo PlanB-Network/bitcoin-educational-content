@@ -1,11 +1,9 @@
-question: Quel est le but des bits de remplissage dans la phase de prétraitement de SHA256 ?
-answer: Pour faire en sorte que la taille de l'entrée atteigne un multiple parfait de 512 bits
+question: Comment s'appelle la construction de la fonction de hachage SHA256 ?
+answer: Construction de Merkle-Damgard.
 wrong_answers:
-  - Pour augmenter la taille de l'entrée à 256 bits
-  - Pour ajouter de la complexité à l'entrée
-  - Pour réduire la taille de l'entrée à 512 bits
+  - Construction de l'éponge.
+  - Construction Iterative Hash Functions (HAIFA).
+  - Construction de Feistel.
 explanation: |
-  Dans la phase de prétraitement de SHA256, des bits de remplissage sont ajoutés à l'entrée
-  pour que sa taille atteigne un multiple parfait de 512 bits. Cela est fait pour s'assurer que
-  tous les ingrédients se mélangent parfaitement dans la recette cryptographique.
+  SHA256 utilise la construction de Merkle-Damgard, une strcture couramment utilisée pour créer des fonctions de hachage sécurisées.
 reviewed: false

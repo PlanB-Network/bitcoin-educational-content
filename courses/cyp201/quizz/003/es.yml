@@ -1,9 +1,0 @@
-question: ¿Por qué se consideran obsoletas las funciones de hash SHA0, SHA1 y MD5?
-answer: Han perdido su resistencia a las colisiones.
-wrong_answers:
-  - Son demasiado lentas para calcular.
-  - Producen huellas digitales demasiado grandes.
-  - No son irreversibles.
-explanation: |
-  SHA0, SHA1 y MD5 se consideran funciones de hash obsoletas porque han perdido su resistencia a las colisiones. Esto significa que es relativamente fácil encontrar dos entradas diferentes que produzcan la misma salida, lo cual es una gran falla de seguridad.
-reviewed: false

@@ -1,9 +1,0 @@
-question: Qual é o propósito da entropia na geração de uma frase mnemônica para uma carteira de Bitcoin?
-answer: A entropia é o pilar da segurança da carteira HD.
-wrong_answers:
-  - Ela determina o número de palavras na frase de recuperação.
-  - Ela criptografa a frase de recuperação para maior segurança.
-  - Ela verifica a precisão da frase de recuperação.
-explanation: |
-  A entropia é o pilar da segurança da carteira HD. É crucial que essa entropia seja aleatória ou pseudo-aleatória para garantir a segurança da carteira.
-reviewed: false

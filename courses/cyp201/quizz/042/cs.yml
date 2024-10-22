@@ -1,9 +1,0 @@
-question: Jaký je účel digitálního podpisu v kontextu Bitcoin transakcí?
-answer: Prokázat, že jste držitelem soukromého klíče, aniž byste jej odhalili.
-wrong_answers:
-  - Zašifrovat data transakce.
-  - Uložit data transakce.
-  - Přenést data transakce.
-explanation: |
-  V kontextu Bitcoin transakcí se digitální podpis používá k prokázání, že jste držitelem soukromého klíče, aniž byste jej odhalili. Toho je dosaženo použitím algoritmu ECDSA.
-reviewed: false

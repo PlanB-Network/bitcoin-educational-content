@@ -1,9 +1,0 @@
-question: ¿Qué función se utiliza para generar la semilla a partir de la frase mnemotécnica y la frase de paso en una billetera HD?
-answer: La función pbkdf2
-wrong_answers:
-  - La función hmacha512
-  - La función SHA256
-  - La función RIPMD160
-explanation: |
-  La función pbkdf2 se utiliza para generar la semilla a partir de la frase mnemotécnica y la frase de paso, utilizando hmacha512 y 2048 iteraciones. Esta semilla se utiliza luego para derivar la clave maestra y el código de cadena maestra.
-reviewed: false

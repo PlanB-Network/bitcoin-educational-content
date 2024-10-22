@@ -1,65 +1,18 @@
-id: a196982b-dcc0-4c4d-9a17-c4633b72a94e
-chapterId: 9d9acd5d-a0e5-5dfd-b544-f043fae8840f
-difficulty: hard
-duration: 45
-author: DecouvreBitcoin
+id: 59e85b37-b9fd-41dc-bd98-79f1c34c1285
+chapterId: 63093760-2010-5691-8d0e-9a04732ae557
+difficulty: easy
+duration: 15
+author: pretty-private
 tags:
-  - Bitcoin
-  - Wallets
-  - BIP43
-  - BIP44
+  - crtyptography
+  - wallets
 
 # Proofreading metadata
-original_language: en
+original_language: fr
 proofreading:
-  - language: cs
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 2664
-  - language: de
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 2582
-  - language: en
-    last_contribution_date: 2024-09-01
-    urgency: 1
-    contributors_id:
-      - Asi0Flammeus
-    reward: 1291
-  - language: es
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 2623
-  - language: fi
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 2664
   - language: fr
-    last_contribution_date:
+    last_contribution_date: 2024-10-22
     urgency: 1
     contributors_id:
-    reward: 2582
-  - language: it
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 2623
-  - language: ja
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 2746
-  - language: pt
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 2582
-  - language: vi
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 2746
+      - LoicPandul
+    reward:

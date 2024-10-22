@@ -1,12 +1,9 @@
-question: Quel est le but de l'algorithme ECDSA dans le contexte des transactions Bitcoin?
-answer: Pour valider les signatures numériques.
+question: Qu'est-ce que représente la passphrase au sein d'un portefeuille HD ?
+answer: Un sel cryptographique optionnel d'une taille arbitraire.
 wrong_answers:
-  - Pour chiffrer les données de transaction.
-  - Pour générer des adresses Bitcoin.
-  - Pour miner de nouveaux Bitcoins.
+  - Un 25ème mot sur la phrase mnémonique.
+  - Un sel cryptographique obligatoire d'une taille fixe.
+  - Une seconde graine.
 explanation: |
-  L'algorithme ECDSA (Elliptic Curve Digital Signature Algorithm) est utilisé dans le
-  contexte des transactions Bitcoin pour valider les signatures numériques. Cela permet au
-  destinataire d'une transaction de confirmer l'authenticité du message signé sans
-  avoir besoin de la clé privée de l'expéditeur.
+  La passphrase est un sel cryptographique optionnel, permettant de renforcer la sécurité du portefeuille en ajoutant une information supplémentaire à la phrase mnémonique pour déterminer la graine.
 reviewed: false

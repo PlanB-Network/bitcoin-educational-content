@@ -1,9 +1,9 @@
-question: Quel est le point de départ pour calculer toutes les clés publiques des utilisateurs dans le système Bitcoin?
-answer: Point G
+question: Qu'est-ce qu'un PRNG ?
+answer: Un algorithme qui génère des nombres aléatoires à partir d'une graine et d'une fonction de transformation.
 wrong_answers:
-  - Point K
-  - Point U
-  - Point O
+  - Un dispositif matériel qui génère des nombres véritablement aléatoires.
+  - Un générateur qui produit des nombres aléatoires sans aucune graine.
+  - Un algorithme qui génère des nombres prédictibles.
 explanation: |
-  Le point G est le point de départ pour calculer toutes les clés publiques des utilisateurs dans le système Bitcoin.
+  Un PRNG génère des nombres pseudo-aléatoires à partir d'une graine, mais contrairement à un TRNG, il n'est pas véritablement aléatoire.
 reviewed: false

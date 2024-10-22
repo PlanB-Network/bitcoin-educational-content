@@ -1,9 +1,0 @@
-question: Mikä on SHA256-tiivistefunktion pääetu?
-answer: Sen vahvuus löytää syöte tiivisteestä, kun taas tiivisteen varmentaminen annetulle syötteelle on mekaanisesti yksinkertainen toimenpide
-wrong_answers:
-  - Sen kyky tuottaa 512-bittinen tiiviste muuttuvakokoisesta syötteestä
-  - Sen käyttö täytebittien lisäämiseen syötteen kokoon
-  - Sen käyttö XOR, AND ja NOT operaattoreiden prosessoida bittejä
-explanation: |
-  SHA256-tiivistefunktion pääetu on sen vahvuus löytää syöte tiivisteestä, kun taas tiivisteen varmentaminen annetulle syötteelle on mekaanisesti yksinkertainen toimenpide. Tämä tekee siitä suositun valinnan lukuisien digitaalisten järjestelmien turvaamisessa, erityisesti Bitcoin-protokollan sisällä.
-reviewed: false

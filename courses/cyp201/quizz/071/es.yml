@@ -1,9 +1,0 @@
-question: ¿Cómo se transforman los bits en frases en la generación de una frase mnemotécnica para una billetera de Bitcoin?
-answer: Cada segmento está asociado con una palabra de una lista de 2048 palabras.
-wrong_answers:
-  - Cada bit está asociado con una palabra de una lista de 2048 palabras.
-  - Cada segmento está asociado con una palabra de una lista de 1024 palabras.
-  - Cada bit está asociado con una palabra de una lista de 1024 palabras.
-explanation: |
-  Para transformar los bits en frases, cada segmento se asocia con una palabra de una lista de 2048 palabras.
-reviewed: false

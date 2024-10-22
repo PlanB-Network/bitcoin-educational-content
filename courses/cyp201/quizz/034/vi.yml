@@ -1,8 +1,0 @@
-question: Kích thước của khóa riêng Bitcoin là bao nhiêu?
-answer: Số 256-bit
-wrong_answers:
-  - Số 512-bit
-  - Số 128-bit
-  - Số 1024-bit
-explanation: |
-  Trong hệ thống Bitcoin, khóa riêng là một số 256-bit ngẫu nhiên hoặc giả ngẫu nhiên.

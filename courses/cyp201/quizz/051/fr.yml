@@ -1,9 +1,9 @@
-question: Quelle est la signification de BIP32 dans l'écosystème Bitcoin?
-answer: Il a révolutionné la façon dont les clés sont générées et stockées, en introduisant le concept de clés dérivées de manière déterministe et hiérarchique.
+question: Quelle est la fonction de dérivation de clés utilisée pour dériver une graine depuis une phrase mnémonique et une éventuelle passphrase ?
+answer: PBKDF2.
 wrong_answers:
-  - Il a introduit la phrase mnémonique de 24 mots.
-  - Il a proposé d'ajouter une passphrase supplémentaire pour renforcer la sécurité des clés individuelles.
-  - Il a standardisé la structure et la hiérarchie des portefeuilles HD.
+  - Lyra2.
+  - Argon2d.
+  - Scrypt.
 explanation: |
-  BIP32, lancé en 2012, a révolutionné la façon dont ces clés sont générées et stockées, en introduisant le concept de clés dérivées de manière déterministe et hiérarchique. Cela simplifie grandement le processus de sauvegarde de ces clés, tout en maintenant leur niveau de sécurité.
+  La fonction PBKDF2 est utilisée pour dériver la graine d'un portefeuille HD à partir de la phrase mnémonique et d'une passphrase optionnelle.
 reviewed: false

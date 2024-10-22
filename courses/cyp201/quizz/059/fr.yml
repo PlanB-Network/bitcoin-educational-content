@@ -1,9 +1,9 @@
-question: Quel est le but de la fonction de hachage SHA-256 dans la génération d'un bon nombre aléatoire ?
-answer: Elle réduit une très grande quantité d'informations initiales en 256 bits.
+question: En quel système de numération la clé étendue est-elle généralement encodée pour être présentée à l'utilisateur ?
+answer: En Base 58.
 wrong_answers:
-  - Elle augmente la taille des informations initiales.
-  - Elle chiffre les informations initiales.
-  - Elle vérifie l'authenticité des informations initiales.
+  - En bech32.
+  - En Base 16.
+  - En bech32m.
 explanation: |
-  La fonction de hachage SHA-256 est utilisée pour réduire une très grande quantité d'informations initiales en 256 bits. Ce processus aide à générer un bon nombre aléatoire, ce qui est crucial pour la sécurité des clés privées et des transactions Bitcoin.
+  La clé étendue est généralement encodée en Base 58 pour être plus lisible par l'utilisateur et éviter les caractères ambiguës.
 reviewed: false

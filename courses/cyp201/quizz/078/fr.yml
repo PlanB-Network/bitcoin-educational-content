@@ -1,9 +1,9 @@
-question: Quel est le rôle d'une phrase secrète dans un portefeuille Bitcoin ?
-answer: Elle renforce la sécurité du portefeuille.
+question: Voici une suite de nombres décimaux (10 25 13 18 02 31). Quelle est la bonne conversion en Bech32 ?
+answer: 2edjzl
 wrong_answers:
-  - Elle diminue la sécurité du portefeuille.
-  - Elle n'a aucun effet sur la sécurité du portefeuille.
-  - Elle rend le portefeuille plus convivial.
+  - 2udjpr
+  - 2uaz2c
+  - 3bdjsr
 explanation: |
-  La phrase secrète est un mot de passe supplémentaire qui peut être intégré dans un portefeuille Bitcoin pour augmenter sa sécurité. En ajoutant des informations arbitraires qui, associées à la phrase mnémonique, permettent le calcul de la graine du portefeuille, la phrase secrète renforce sa sécurité.
+  La conversion en Bech32 des nombres décimaux se fait via une table de correspondance spécifique, et la suite 10 25 13 18 02 31 correspond à 2edjzl.
 reviewed: false

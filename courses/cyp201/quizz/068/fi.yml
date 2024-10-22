@@ -1,9 +1,0 @@
-question: Miten sanojen määrä palautuslausekkeessa määräytyy luotaessa mnemonista lausetta Bitcoin-lompakkoa varten?
-answer: Se riippuu entropian koosta.
-wrong_answers:
-  - Se riippuu tarkistussumman koosta.
-  - Se on aina 24 sanaa.
-  - Se generoidaan satunnaisesti.
-explanation: |
-  Entropian koosta riippuen palautuslause koostuu 12 sanasta 128 bitin kohdalla, 15 sanasta 160 bitin kohdalla ja 24 sanasta 256 bitin kohdalla.
-reviewed: false

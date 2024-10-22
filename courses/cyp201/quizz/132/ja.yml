@@ -1,8 +1,0 @@
-question: BitcoinのコンテキストでBCH32とは何ですか？
-answer: それはBitcoin専用のbase 32のバリアントです。
-wrong_answers:
-  - それはBitcoin専用のbase 64のバリアントです。
-  - それはBitcoin専用のbase 16のバリアントです。
-  - それはBitcoin専用のbase 2のバリアントです。
-explanation: |
-  BCH32はBitcoin専用のbase 32のバリアントです。これはBitcoinアドレスの構築に使用されます。

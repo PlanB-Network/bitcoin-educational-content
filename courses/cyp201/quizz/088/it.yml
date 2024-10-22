@@ -1,9 +1,0 @@
-question: Quali sono i due elementi essenziali su cui si basa la fondazione dell'HD Wallet?
-answer: La frase mnemonica e la passphrase.
-wrong_answers:
-  - Il seed e la chiave privata principale.
-  - Il codice di catena principale e il seed.
-  - La frase mnemonica e la chiave privata principale.
-explanation: |
-  La fondazione dell'HD Wallet si basa su due elementi essenziali: la frase mnemonica e la passphrase (password aggiuntiva opzionale). Insieme, costituiscono il seed, una sequenza alfanumerica di 512 bit che serve come base per derivare le chiavi del portafoglio.
-reviewed: false

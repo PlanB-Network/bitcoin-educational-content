@@ -1,9 +1,0 @@
-question: ¿Qué indica el índice en una ruta de derivación en el contexto de una Cartera HD?
-answer: El valor utilizado en la función HMAC
-wrong_answers:
-  - El valor utilizado en la función SHA-256
-  - El valor utilizado en la función RSA
-  - El valor utilizado en la función AES
-explanation: |
-  En el contexto de una Cartera HD, el índice en una ruta de derivación indica el valor utilizado en la función HMAC. Esto se utiliza para diferenciar entre diferentes pares de claves hijas en la misma profundidad.
-reviewed: false

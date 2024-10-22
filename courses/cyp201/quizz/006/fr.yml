@@ -1,9 +1,9 @@
-question: Qu'est-ce qu'un hash dans le contexte des fonctions de hachage cryptographiques ?
-answer: Une empreinte digitale numérique unique et de taille fixe produite par une fonction de hachage.
+question: Combien de bits sont réservés au rembourrage par la taille sur la fonction SHA256 ?
+answer: 64 bits.
 wrong_answers:
-  - Un type d'algorithme de chiffrement.
-  - Une clé utilisée pour décrypter des données.
-  - Une méthode de compression de données.
+  - 128 bits.
+  - 256 bits.
+  - 512 bits.
 explanation: |
-  Dans le contexte des fonctions de hachage cryptographiques, un hash est une empreinte digitale numérique unique et de taille fixe produite par la fonction de hachage. Il représente les données d'entrée d'une manière unique et irréversible.
+  SHA256 réserve 64 bits pour le rembourrage, qui représente la taille initiale du message avant le padding.
 reviewed: false

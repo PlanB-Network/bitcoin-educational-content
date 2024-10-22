@@ -1,9 +1,0 @@
-question: ¿Cuál es el algoritmo que utiliza Bitcoin para vincular las claves privadas y públicas?
-answer: Algoritmo de Firma Digital de Curva Elíptica (ECDSA)
-wrong_answers:
-  - Estándar de Cifrado Avanzado (AES)
-  - Rivest-Shamir-Adleman (RSA)
-  - Algoritmo de Hash Seguro 2 (SHA-2)
-explanation: |
-  Bitcoin utiliza el Algoritmo de Firma Digital de Curva Elíptica (ECDSA) para vincular las claves privadas y públicas.
-reviewed: false

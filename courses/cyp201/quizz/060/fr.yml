@@ -1,9 +1,9 @@
-question: Quel est le principal avantage des portefeuilles hiérarchiques déterministes (HD wallets) ?
-answer: Ils permettent la génération déterministe et hiérarchique de paires de clés enfant à partir d'une seule pièce d'information.
+question: Quelle est la fonction utilisée pour dériver une paire de clés enfant depuis une paire de clé parent au sein d'un portefeuille HD ?
+answer: HMAC-SHA512.
 wrong_answers:
-  - Ils permettent la génération de plusieurs clés privées à partir d'une seule clé publique.
-  - Ils permettent la génération de plusieurs clés publiques à partir d'une seule clé privée.
-  - Ils permettent la génération de plusieurs portefeuilles à partir d'une seule paire de clés.
+  - SHA256.
+  - Argon2d.
+  - PBKDF2.
 explanation: |
-  Les portefeuilles hiérarchiques déterministes (HD wallets) permettent la génération déterministe et hiérarchique de paires de clés enfant à partir d'une seule pièce d'information. Cela facilite la génération et la gestion des clés tout en maintenant un niveau élevé de sécurité.
+  HMAC-SHA512 est utilisée pour dériver une paire de clés enfant à partir d'une paire de clés parent dans un portefeuille HD.
 reviewed: false

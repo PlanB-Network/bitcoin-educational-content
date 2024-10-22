@@ -1,9 +1,0 @@
-question: Qual é o motivo principal para usar um endereço de recebimento em vez de uma chave pública em transações de Bitcoin?
-answer: Isso reduz o tamanho das informações da chave pública.
-wrong_answers:
-  - Permite reverter de um endereço para a chave pública.
-  - Economiza espaço nos blocos.
-  - É mais fácil de lembrar do que uma chave pública.
-explanation: |
-  O motivo principal para usar um endereço de recebimento em vez de uma chave pública em transações de Bitcoin é reduzir o tamanho das informações da chave pública, que inicialmente é de 512 bits. Isso não é para economizar espaço nos blocos, mas sim para tornar os dados da transação mais gerenciáveis.
-reviewed: false

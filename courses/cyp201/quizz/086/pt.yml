@@ -1,9 +1,0 @@
-question: Qual é o resultado do algoritmo HMAC SHA-512?
-answer: Um número de 512 bits, dividido em duas partes; os 256 bits mais à esquerda representam a chave privada mestra, enquanto os 256 bits mais à direita representam o código de cadeia mestra.
-wrong_answers:
-  - Um número de 256 bits que representa a chave privada mestra.
-  - Um número de 256 bits que representa o código de cadeia mestra.
-  - Um número de 512 bits que representa a semente.
-explanation: |
-  O resultado do HMAC SHA-512 é um número de 512 bits, dividido em duas partes; os 256 bits mais à esquerda representam a chave privada mestra, enquanto os 256 bits mais à direita representam o código de cadeia mestra.
-reviewed: false

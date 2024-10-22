@@ -1,9 +1,9 @@
-question: Quel est le rôle de BIP38 dans l'écosystème Bitcoin?
-answer: Il propose d'ajouter une phrase de passe supplémentaire pour renforcer la sécurité des clés individuelles.
+question: Quelle est la fonction pseudo-aléatoire utilisée au sein de PBKDF2 pour calculer la graine d'un portefeuille HD Bitcoin ?
+answer: HMAC-SHA512.
 wrong_answers:
-  - Il a introduit la phrase mnémonique de 24 mots.
-  - Il a révolutionné la façon dont les clés sont générées et stockées.
-  - Il a standardisé la structure et la hiérarchie des portefeuilles HD.
+  - HMAC-SHA256.
+  - HMAC-SHA1.
+  - SHA3-512.
 explanation: |
-  BIP38 propose d'ajouter une phrase de passe supplémentaire pour renforcer la sécurité des clés individuelles. Il s'agit de l'une des nombreuses améliorations apportées pour renforcer la sécurité et la fonctionnalité des portefeuilles HD.
+  HMAC-SHA512 est la fonction pseudo-aléatoire utilisée dans PBKDF2 pour générer la graine d'un portefeuille HD Bitcoin.
 reviewed: false

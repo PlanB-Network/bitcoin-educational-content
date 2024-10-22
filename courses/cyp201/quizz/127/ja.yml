@@ -1,8 +1,0 @@
-question: Bitcoinにおける受信アドレスとは何ですか？
-answer: 圧縮された公開キーの英数字表現です。
-wrong_answers:
-  - 各Bitcoin取引のためのユニークな識別子です。
-  - Bitcoinウォレットにアクセスするためのパスワードです。
-  - Bitcoin取引のためのデジタル署名です。
-explanation: |
-  Bitcoinにおける受信アドレスは、圧縮された公開キーの英数字表現です。Bitcoin取引を受け取るために使用されます。

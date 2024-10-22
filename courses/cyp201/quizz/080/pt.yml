@@ -1,9 +1,0 @@
-question: Qual é a vantagem de usar uma frase de acesso em uma carteira de Bitcoin?
-answer: Isso pode permitir a aplicação de várias estratégias de segurança
-wrong_answers:
-  - Torna a carteira mais amigável ao usuário
-  - Aumenta a velocidade das transações
-  - Reduz as taxas associadas às transações
-explanation: |
-  A frase de acesso é uma ferramenta essencial para aumentar a segurança das carteiras de Bitcoin. Ela pode permitir a aplicação de várias estratégias de segurança. Por exemplo, pode ser usada para criar duplicatas e facilitar backups da frase mnemônica. Também pode melhorar a segurança da carteira ao mitigar os riscos associados à geração aleatória da frase mnemônica.
-reviewed: false

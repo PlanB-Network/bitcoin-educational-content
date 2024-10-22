@@ -1,9 +1,0 @@
-question: Welche Arten von Kinderschlüsselpaaren können aus dem erweiterten privaten Schlüssel abgeleitet werden?
-answer: Der erweiterte private Schlüssel ermöglicht die Ableitung aller Kinderschlüssel, sowohl öffentlicher als auch privater, im normalen oder gehärteten Modus.
-wrong_answers:
-  - Der erweiterte private Schlüssel ermöglicht nur die Ableitung normaler Kinderschlüssel.
-  - Der erweiterte private Schlüssel ermöglicht nur die Ableitung gehärteter Kinderschlüssel.
-  - Der erweiterte private Schlüssel ermöglicht die Ableitung keiner Kinderschlüssel.
-explanation: |
-  Der erweiterte private Schlüssel ermöglicht die Ableitung aller Kinderschlüssel, sowohl öffentlicher als auch privater, unabhängig davon, ob sie im normalen oder gehärteten Modus sind. Dies steht im Gegensatz zum erweiterten öffentlichen Schlüssel, der nur die Ableitung normaler Kinderschlüssel ermöglicht.
-reviewed: false

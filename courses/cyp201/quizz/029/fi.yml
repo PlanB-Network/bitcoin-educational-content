@@ -1,9 +1,0 @@
-question: Mikä on digitaalisten allekirjoitusten pääasiallinen tarkoitus Bitcoin-protokollassa?
-answer: Osoittaa tietyn julkisen avaimen yhteydessä olevan yksityisen avaimen hallussapito
-wrong_answers:
-  - Salaamaan siirtotiedot
-  - Uusien bitcoinien luomiseen
-  - Lähettäjän henkilöllisyyden varmentamiseen
-explanation: |
-  Bitcoin-protokollan ytimessä digitaalisia allekirjoituksia käytetään matemaattisina todisteina, jotka osoittavat tietyn julkisen avaimen yhteydessä olevan yksityisen avaimen hallussapidon.
-reviewed: false

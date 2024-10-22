@@ -1,8 +1,0 @@
-question: Bitcoinを受け取りたいとき、ユーザーは送信者に何を提供しますか？
-answer: 受信アドレス
-wrong_answers:
-  - 公開鍵
-  - 私的鍵
-  - Bitcoinウォレットのパスワード
-explanation: |
-  BitcoinユーザーがBitcoinを受け取りたい場合、送信者に受信アドレスを提供します。このアドレスは、公開鍵のハッシュであり、特定の形式をしています。

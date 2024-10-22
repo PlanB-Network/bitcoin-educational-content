@@ -1,9 +1,0 @@
-question: Wie werden die Bits bei der Generierung einer mnemonischen Phrase für eine Bitcoin-Wallet in Phrasen umgewandelt?
-answer: Jedes Segment ist mit einem Wort aus einer Liste von 2048 Wörtern verbunden.
-wrong_answers:
-  - Jedes Bit ist mit einem Wort aus einer Liste von 2048 Wörtern verbunden.
-  - Jedes Segment ist mit einem Wort aus einer Liste von 1024 Wörtern verbunden.
-  - Jedes Bit ist mit einem Wort aus einer Liste von 1024 Wörtern verbunden.
-explanation: |
-  Um die Bits in Phrasen umzuwandeln, wird jedem Segment ein Wort aus einer Liste von 2048 Wörtern zugeordnet.
-reviewed: false

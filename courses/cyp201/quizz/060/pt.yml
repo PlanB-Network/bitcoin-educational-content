@@ -1,9 +1,0 @@
-question: Qual é a principal vantagem das Carteiras Determinísticas Hierárquicas (HD wallets)?
-answer: Elas permitem a geração determinística e hierárquica de pares de chaves filhas a partir de uma única informação.
-wrong_answers:
-  - Elas permitem a geração de múltiplas chaves privadas a partir de uma única chave pública.
-  - Elas permitem a geração de múltiplas chaves públicas a partir de uma única chave privada.
-  - Elas permitem a geração de múltiplas carteiras a partir de um único par de chaves.
-explanation: |
-  As HD wallets permitem a geração determinística e hierárquica de pares de chaves filhas a partir de uma única informação. Isso torna a geração e o gerenciamento de chaves mais fáceis, mantendo um alto nível de segurança.
-reviewed: false

@@ -1,9 +1,9 @@
-question: Quelle est la taille de bloc utilisée dans HMAC-SHA-512 ?
-answer: Blocs de 1024 bits (128 octets)
+question: Comment est déterminée une clé privée Bitcoin ?
+answer: Elle est déterminée à partir d'un nombre aléatoire ou pseudo-aléatoire.
 wrong_answers:
-  - Blocs de 512 bits (64 octets)
-  - Blocs de 256 bits (32 octets)
-  - Blocs de 2048 bits (256 octets)
+  - Elle est déterminée par addition et doublement de points sur la courbe elliptique depuis sa clé publique.
+  - Elle est déterminée en hachant sa clé publique.
+  - Elle est déterminée par l'algorithme SHA-256.
 explanation: |
-  Dans le contexte de la dérivation de portefeuille HD, HMAC-SHA-512 est utilisé. Ce dernier fonctionne avec des blocs de 1024 bits (128 octets) et ajuste la clé en conséquence.
+  Une clé privée Bitcoin est générée de manière aléatoire ou pseudo-aléatoire, ce qui garantit son caractère unique et sécurisé.
 reviewed: false

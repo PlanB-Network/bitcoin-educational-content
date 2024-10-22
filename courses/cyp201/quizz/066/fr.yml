@@ -1,12 +1,9 @@
-question: Quel est le but d'une somme de contrôle dans la génération d'une phrase mnémonique pour un portefeuille Bitcoin ?
-answer: Elle garantit la vérification de l'exactitude de la phrase de récupération.
+question: Sur la notation d'un chemin de dérivation, que signifie l'apostrophe ou le “H” noté à droite du nombre ? Exemple m/84'/0'.
+answer: Cela indique une dérivation renforcée.
 wrong_answers:
-  - Elle génère l'entropie pour le portefeuille.
-  - Elle détermine le nombre de mots dans la phrase de récupération.
-  - Elle chiffre la phrase de récupération pour une sécurité accrue.
+  - Cela indique une dérivation normale.
+  - C'est ici pour faire joli.
+  - Cela indique une clé de change.
 explanation: |
-  La somme de contrôle est obtenue en passant l'entropie par la fonction SHA256
-  et en récupérant les 8 premiers bits du hachage. Sans cette somme de contrôle, une erreur dans
-  la phrase pourrait entraîner la création d'un portefeuille différent et donc la
-  perte de fonds.
+  L'apostrophe ou le "H" dans un chemin de dérivation indique une dérivation renforcée, qui utilise la clé privée parent et la fourchette d'index correspondante.
 reviewed: false

@@ -1,9 +1,0 @@
-question: Co představuje seed v Bitcoinové peněžence?
-answer: Jedná se o náhodné nebo pseudonáhodné číslo, z kterého jsou generovány více klíčů.
-wrong_answers:
-  - Je to heslo pro přístup k peněžence.
-  - Je to první zaznamenaná Bitcoinová transakce v peněžence.
-  - Je to digitální podpis majitele peněženky.
-explanation: |
-  Seed v Bitcoinové peněžence má být náhodné nebo pseudonáhodné číslo. Tento seed umožňuje generování více klíčů, které jsou nezbytné pro vlastnictví kryptoměny.
-reviewed: false

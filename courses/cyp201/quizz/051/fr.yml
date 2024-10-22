@@ -1,0 +1,9 @@
+question: Quelle est la fonction de dérivation de clés utilisée pour dériver une graine depuis une phrase mnémonique et une éventuelle passphrase ?
+answer: PBKDF2.
+wrong_answers:
+  - Lyra2.
+  - Argon2d.
+  - Scrypt.
+explanation: |
+  La fonction PBKDF2 est utilisée pour dériver la graine d'un portefeuille HD à partir de la phrase mnémonique et d'une passphrase optionnelle.
+reviewed: false

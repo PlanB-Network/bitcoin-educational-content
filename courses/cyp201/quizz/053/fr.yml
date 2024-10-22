@@ -1,0 +1,9 @@
+question: Quelles sont les informations calculées à partir de la graine en appliquant HMAC-SHA512 ?
+answer: La clé maîtresse et le code de chaîne maître du portefeuille.
+wrong_answers:
+  - La clé étendue du portefeuille.
+  - La xpub et la xprv du portefeuille.
+  - Le code de signature de la clé privée.
+explanation: |
+  À partir de la graine, HMAC-SHA512 dérive la clé maîtresse et le code de chaîne maître, qui sont la base pour la génération des clés.
+reviewed: false

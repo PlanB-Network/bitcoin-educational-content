@@ -1,0 +1,9 @@
+question: Quelle est la fonction pseudo-aléatoire utilisée au sein de PBKDF2 pour calculer la graine d’un portefeuille HD Bitcoin ?
+answer: HMAC-SHA512.
+wrong_answers:
+  - HMAC-SHA256.
+  - HMAC-SHA1.
+  - SHA3-512.
+explanation: |
+  HMAC-SHA512 est la fonction pseudo-aléatoire utilisée dans PBKDF2 pour générer la graine d’un portefeuille HD Bitcoin.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Si l’on respecte le BIP39, quelle est la taille de la graine d’un portefeuille HD ?
+answer: 512 bits.
+wrong_answers:
+  - 32 octets.
+  - 1024 bits.
+  - 512 octets.
+explanation: |
+  Selon le BIP39, la graine d'un portefeuille HD fait 512 bits, dérivée à partir de la phrase mnémonique et de la passphrase.
+reviewed: false

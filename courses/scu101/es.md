@@ -114,9 +114,9 @@ Una alternativa más avanzada es la red TOR (The Onion Router), que ofrece anoni
 
 TOR es legal y es utilizado por periodistas, activistas de la libertad y otras personas que desean evadir la censura en países autoritarios. Sin embargo, es importante entender que TOR no asegura los sitios visitados ni la computadora en sí. Además, el uso de TOR puede ralentizar la conexión a Internet, ya que los datos pasan por las computadoras de otras tres personas antes de llegar a su destino. También es esencial tener en cuenta que TOR no es una solución infalible para garantizar el anonimato al 100% y no debe ser utilizado para llevar a cabo actividades ilegales.
 ![](assets/notext/7.webp)
-### BRAVE
 
-**_Tutorial en construcción, para contribuir o agregarlo, puede pasar por GitHub_**
+
+https://planb.network/tutorials/others/tor-browser
 
 ## VPN y conexión a Internet
 <chapterId>5aac83f4-a685-54b0-9759-d71bea7eeed2</chapterId>
@@ -135,6 +135,10 @@ Sin embargo, el uso de un VPN para el público en general no garantiza un anonim
 ![](assets/notext/9.webp)
 Por último, un VPN también se puede utilizar para bloquear anuncios en línea, ofreciendo así una experiencia de navegación más agradable y segura. Sin embargo, es importante realizar su propia investigación para encontrar el VPN más adecuado para sus necesidades específicas. Se recomienda el uso de un VPN para fortalecer la seguridad, incluso cuando se navega por internet en casa. Esto ayuda a garantizar un nivel más alto de seguridad para los datos intercambiados en línea. Por último, asegúrese de verificar las URL y el candado en la barra de direcciones para confirmar que está en el sitio que cree que está visitando.
 
+https://planb.network/tutorials/others/ivpn
+
+https://planb.network/tutorials/others/mullvad
+
 ### HTTPS y las redes wifi públicas
 
 En cuanto a la seguridad en línea, es esencial entender que la 4G generalmente es más segura que el Wi-Fi público. Sin embargo, el uso de la 4G puede agotar rápidamente tu plan de datos móviles. El protocolo HTTPS se ha convertido en la norma para el cifrado de datos en los sitios web. Asegura que los datos intercambiados entre el usuario y el sitio web estén seguros. Por lo tanto, es crucial verificar que el sitio que estás visitando esté utilizando el protocolo HTTPS.
@@ -145,9 +149,8 @@ Para evitar estafas en línea, es crucial verificar la identidad del sitio en el
 ![](assets/es/10.webp)
 En resumen, el uso de una VPN puede mejorar en gran medida la seguridad en línea, tanto para las empresas como para los usuarios individuales. Además, poner en práctica buenos hábitos de navegación puede contribuir a una mejor higiene digital. En el próximo segmento de este curso, abordaremos la seguridad de la computadora, incluyendo las actualizaciones, el antivirus y la gestión de contraseñas.
 
-### Tutorial: IVPN
 
-**_Tutorial en construcción, para contribuir o agregarlo, puedes pasar por GitHub_**
+
 
 # Buenas prácticas para el uso de la computadora
 <partId>e6eac20b-ba24-5d9a-8d86-8e0164074457</partId>
@@ -196,9 +199,7 @@ Trate su computadora como lo haría con su hogar: manténgase alerta, realice ac
 
 En conclusión, es fundamental optar por un sistema operativo adecuado a sus necesidades y mantenerlo actualizado regularmente, así como las aplicaciones instaladas en él. También es esencial utilizar un antivirus eficaz y fácil de usar, y adoptar buenas prácticas para la seguridad de su computadora y sus datos.
 
-### Tutorial: Ubuntu
 
-**_ Tutorial en construcción, para contribuir o agregarlo, puede pasar por GitHub _**
 
 ## Hack y gestión de copias de seguridad: proteger sus datos
 <chapterId>9ddfcb6a-a253-5542-b7eb-df7222b46dc7</chapterId>
@@ -237,6 +238,11 @@ NO, generalmente se desaconseja pagar a los hackers en caso de ransomware u otro
 
 Si detecta un virus en su computadora, desconéctela de Internet, realice un análisis antivirus completo y elimine los archivos infectados. Luego, actualice su software y sistema operativo, y cambie sus contraseñas para evitar otras intrusiones.
 
+https://planb.network/tutorials/others/proton-drive
+
+https://planb.network/tutorials/others/veracrypt
+
+
 # Implementación de soluciones.
 <partId>215ec902-ba05-5549-87fc-cb8d82665f7b</partId>
 
@@ -267,9 +273,9 @@ Se recomienda utilizar el sitio Have I Been Pwned (¿Me han pirateado?) - https:
 En general, comenzar a utilizar una nueva dirección de correo electrónico más segura no es una mala práctica e incluso es necesario si queremos empezar de nuevo en bases sólidas.
 Bonus Bitcoin: Puede ser recomendable crear una dirección de correo electrónico específicamente para nuestras actividades de Bitcoin (creación de cuentas de intercambio) para separar realmente las áreas de actividad en nuestras vidas.
 
-### Tutorial: creación de una cuenta en ProtonMail
+https://planb.network/tutorials/others/proton-mail
 
-**_Tutorial en construcción, para contribuir o agregarlo, puedes pasar por GitHub_**
+
 
 ## Gestor de contraseñas
 <chapterId>0b3c69b2-522c-56c8-9fb8-1562bd55930f</chapterId>
@@ -309,17 +315,9 @@ Para crear una contraseña fuerte, se recomienda utilizar una gran cantidad de c
 
 Las contraseñas generadas de manera aleatoria ofrecen un nivel de seguridad superior, aunque pueden ser más difíciles de recordar. Los administradores de contraseñas pueden generar contraseñas aleatorias más seguras. Al utilizar un administrador de contraseñas, no es necesario memorizar todas sus contraseñas. Es importante reemplazar gradualmente sus contraseñas antiguas por las generadas por el administrador, ya que son más fuertes y más largas. Asegúrese de que la contraseña maestra de su administrador de contraseñas también sea fuerte y segura.
 
-### Tutorial: creación de una contraseña maestra
+https://planb.network/tutorials/others/bitwarden
 
-**_ Tutorial en construcción, para contribuir o agregarlo, puede pasar por GitHub _**
-
-### Tutorial: BitWarden
-
-**_ Tutorial en construcción, para contribuir o agregarlo, puede pasar por GitHub _**
-
-### Tutorial: KeePass
-
-**_ Tutorial en construcción, para contribuir o agregarlo, puede pasar por GitHub _**
+https://planb.network/tutorials/others/keepass
 
 ## Los 2 factores de autenticación
 <chapterId>9391e02e-e61b-5a86-93e0-91a07f217d35</chapterId>
@@ -361,49 +359,93 @@ Como has entendido, establecer una buena higiene digital no siempre es sencillo,
 
 Regla de oro: ¡La seguridad informática es un objetivo en constante evolución que se adaptará a tu proceso de aprendizaje!
 
+https://planb.network/tutorials/others/authy
+
+https://planb.network/tutorials/others/security-key
+
+
+
 # Sección Práctica
 <partId>98ccf14b-4053-5839-878c-7a73ff02eb95</partId>
 
 ## Configuración de un Buzón de Correo
 <chapterId>afc9ab5d-7664-5a9b-ab50-225ac9ba8f7c</chapterId>
 
+Proteger tu cuenta de correo electrónico es un paso importante para asegurar tus actividades en línea y preservar tus datos personales. Este tutorial te guiará, paso a paso, en la creación y configuración de una cuenta de ProtonMail, un proveedor reconocido por su alto nivel de seguridad que ofrece cifrado de extremo a extremo de tus comunicaciones. Ya seas principiante o usuario experimentado, las buenas prácticas propuestas aquí te ayudarán a fortalecer la seguridad de tu correo electrónico, mientras aprovechas las funciones avanzadas de ProtonMail:
+
 https://planb.network/tutorials/others/proton-mail
 
-![video](https://youtu.be/vpYJYWhmEZg)
+
 
 ## Seguridad en 2FA
 <chapterId>09468ec1-95b7-56a4-a636-7618044568e1</chapterId>
 
+La autenticación de dos factores (2FA) se ha vuelto esencial para asegurar tus cuentas en línea. En este tutorial, aprenderás a configurar y utilizar la aplicación 2FA Authy, que genera códigos dinámicos de 6 dígitos para proteger tus cuentas. Authy es muy fácil de usar y se sincroniza en varios dispositivos. Descubre cómo instalar y configurar Authy, y así refuerza la seguridad de tus cuentas en línea ahora mismo:
+
 https://planb.network/tutorials/others/authy
+
+Otra opción es utilizar una clave de seguridad física. Este otro tutorial te muestra cómo configurar y usar una clave de seguridad como segundo factor de autenticación:
 
 https://planb.network/tutorials/others/security-key
 
-![video](https://youtu.be/mNcAKRDmz5o)
+
+
 
 ## Creación de un gestor de contraseñas
 <chapterId>ed579680-4e7b-5f65-8541-14e519a3b242</chapterId>
+
+La gestión de contraseñas es un desafío en la era digital. Todos tenemos numerosos cuentas en línea que asegurar. Un gestor de contraseñas te ayuda a crear y almacenar contraseñas fuertes y únicas para cada cuenta.
+
+En este tutorial, descubre cómo configurar Bitwarden, un gestor de contraseñas de código abierto, y cómo sincronizar tus credenciales en todos tus dispositivos para simplificar su uso diario:
+
 https://planb.network/tutorials/others/bitwarden
+
+Para usuarios más avanzados, también ofrezco un tutorial sobre otro software gratuito y de código abierto para usar localmente en la gestión de tus contraseñas:
+
 https://planb.network/tutorials/others/keepass
-![video](https://youtu.be/y7Xkv4E5YmU)
+
+
 
 ## Asegurando tus cuentas
 <chapterId>7a774b34-aed0-57dd-b8f7-cf3be51c0d70</chapterId>
+
+En estos dos tutoriales, también te guío en la seguridad de tus cuentas en línea y te explico cómo adoptar progresivamente prácticas más seguras para la gestión de tus contraseñas en el día a día.
+
 https://planb.network/tutorials/others/bitwarden
+
 https://planb.network/tutorials/others/keepass
-![video](https://youtu.be/0JHZRALmGY0)
+
 
 ## Configuración de copia de seguridad
 <chapterId>01cfcde1-77cb-506c-8df1-fa18a2e8cc6b</chapterId>
+
+Proteger tus archivos personales también es un punto esencial. Este tutorial te muestra cómo implementar una estrategia de respaldo efectiva gracias a Proton Drive. Descubre cómo usar esta solución en la nube segura para aplicar el método 3-2-1: tres copias de tus datos en dos medios diferentes, de las cuales una copia está fuera del sitio. Así aseguras la accesibilidad y seguridad de tus archivos sensibles:
+
 https://planb.network/tutorials/others/proton-drive
+
+Y para asegurar tus archivos almacenados en medios removibles como una unidad USB o un disco duro externo, también te muestro cómo cifrar y descifrar estos medios fácilmente usando VeraCrypt:
+
 https://planb.network/tutorials/others/veracrypt
-![video](https://youtu.be/wTJnlSUkDRI)
+
+
 
 ## Cambio de navegador y VPN
 <chapterId>8dc08feb-313c-5259-a54f-64aa68a07608</chapterId>
+
+La protección de tu privacidad en línea también es un aspecto a tener en cuenta para garantizar tu seguridad. El uso de una VPN puede ser una primera solución para lograrlo.
+
+Te propongo descubrir dos soluciones de VPN fiables y que aceptan pagos en bitcoin, que son IVPN y Mullvad. Estos tutoriales te guiarán para instalar, configurar y utilizar Mullvad o IVPN en todos tus dispositivos:
+
 https://planb.network/tutorials/others/ivpn
+
 https://planb.network/tutorials/others/mullvad
+
+Además, descubre cómo usar Tor Browser, un navegador específicamente diseñado para proteger tu privacidad en línea:
+
 https://planb.network/tutorials/others/tor-browser
-![video](https://youtu.be/vc6-Ouca09g)
+
+
+
 # Ve más allá
 <partId>77113cad-a6d8-57e5-b903-50c223b277ba</partId>
 
@@ -476,6 +518,11 @@ En el marco del módulo de formación "Seguridad 101" de Découvre Bitcoin en la
 ## Danos tu opinión sobre este curso
 <chapterId>6be74d2d-2116-5386-9d92-c4c3e2103c68</chapterId>
 <isCourseReview>true</isCourseReview>
+
+## Examen Final
+<chapterId>a894b251-a85a-5fa4-bf2a-c2a876939b49</chapterId>
+<isCourseExam>true</isCourseExam>
+
 
 ## Agradecimientos y sigue profundizando en la madriguera del conejo
 <chapterId>df3a962a-a96e-5006-b904-0dd9d4a072dd</chapterId>

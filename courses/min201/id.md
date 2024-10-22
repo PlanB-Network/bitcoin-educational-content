@@ -84,6 +84,7 @@ Proses mining melibatkan penemuan hash yang valid dan dapat diterima oleh jaring
 Di awal, era CPU mendominasi, di mana penambang menggunakan komputer pribadi mereka untuk mining Bitcoin. Penemuan keuntungan GPU (kartu grafis) untuk tugas ini menandai titik balik, secara substansial meningkatkan hashrate dan mengurangi konsumsi energi. Kemajuan tidak berhenti di situ, dengan pengenalan berikutnya dari FPGA (field-programmable gate arrays). FPGA berfungsi sebagai platform untuk pengembangan ASIC (application-specific integrated circuits).
 
 ![image](assets/overview/chip.webp)
+
 ASIC adalah chip, yang dapat dibandingkan dengan chip CPU, namun, mereka dikembangkan untuk melakukan hanya satu jenis perhitungan tertentu dengan cara yang paling efisien. Dengan kata lain, CPU mampu melakukan berbagai jenis perhitungan tanpa dioptimalkan secara khusus untuk satu jenis perhitungan atau lainnya, sedangkan ASIC akan dapat melakukan hanya satu jenis perhitungan, tetapi dengan sangat efisien. Dalam kasus ASIC Bitcoin, mereka dirancang untuk perhitungan algoritma SHA256. Saat ini, para penambang secara eksklusif menggunakan ASIC yang didedikasikan untuk operasi ini, dioptimalkan untuk menguji jumlah kombinasi maksimum dengan konsumsi energi sekecil mungkin dan secepat mungkin. Komputer ini, yang tidak mampu melakukan tugas selain penambangan Bitcoin, adalah bukti nyata dari evolusi terus-menerus dan spesialisasi yang meningkat dari industri penambangan Bitcoin. Evolusi konstan ini mencerminkan dinamika intrinsik Bitcoin, di mana penyesuaian kesulitan memastikan produksi blok setiap sepuluh menit meskipun ada peningkatan kapasitas penambangan secara eksponensial.
 
 Untuk menggambarkan intensitas proses ini, pertimbangkan penambang tipikal yang mampu mencapai 14 TeraHash per detik, atau 14 triliun percobaan setiap detik untuk menemukan hash yang benar. Di skala jaringan Bitcoin, kita sekarang mencapai sekitar 300 HexaHash per detik, menyoroti kekuatan kolektif yang dimobilisasi dalam penambangan Bitcoin.
@@ -101,6 +102,7 @@ Penyesuaian kesulitan adalah mekanisme penting dalam operasi jaringan Bitcoin, m
 
 Mengenai evolusi mesin penambangan Bitcoin, penting untuk dicatat bahwa konteksnya lebih berorientasi pada model bisnis tradisional. Penambang mendapatkan pendapatan mereka dari validasi blok, tugas dengan probabilitas keberhasilan yang relatif rendah. Model yang saat ini digunakan, Antminer S9, meskipun merupakan model yang lebih tua diluncurkan sekitar tahun 2016, masih beredar di pasar barang bekas, diperdagangkan sekitar €100 hingga €200. Namun, harga mesin penambangan bervariasi berdasarkan nilai Bitcoin, dan model yang lebih baru, Antminer S19, saat ini diperkirakan sekitar €3000.
 Menghadapi kemajuan teknologi yang konstan di bidang pertambangan, para profesional harus menempatkan diri mereka secara strategis. Industri pertambangan terus mengalami inovasi, seperti yang ditunjukkan oleh rilis terbaru dari versi J S19 dan rilis yang diantisipasi dari S19 XP, yang menawarkan kemampuan menambang yang jauh lebih tinggi. Selain itu, peningkatan tidak hanya terkait dengan kinerja mentah dari mesin. Sebagai contoh, model S19 XP baru menggunakan sistem pendingin cair, sebuah modifikasi teknis yang memungkinkan peningkatan signifikan dalam efisiensi energi. Meskipun inovasi tetap konstan, keuntungan efisiensi di masa depan kemungkinan akan lebih kecil dibandingkan dengan yang diamati sejauh ini, karena mencapai batas tertentu dari inovasi teknologi.
+
 ![image](assets/overview/chipevolution.webp)
 
 Kesimpulannya, industri penambangan Bitcoin terus beradaptasi dan berkembang, dan para pelaku industri harus mengantisipasi penurunan keuntungan efisiensi di masa depan dan menyesuaikan strategi mereka sesuai. Kemajuan teknologi di masa depan, meskipun masih ada, kemungkinan akan terjadi dalam skala yang lebih kecil, mencerminkan kematangan sektor yang semakin tumbuh.
@@ -164,7 +166,15 @@ Kesimpulan umum adalah bahwa desentralisasi sangat penting untuk keamanan dan ke
 
 ### Prinsip Attakai
 
-Batasan desentralisasi ini?
+Dalam konteks saat ini, penambangan Bitcoin dengan model S9 mungkin terlihat rumit, tetapi analisis yang lebih mendalam membuka pintu bagi alternatif yang inovatif. Prinsip Attakai didasarkan pada gagasan untuk menggunakan instalasi penambangan di berbagai jenis bangunan, seperti sekolah atau rumah sakit. Ide utamanya adalah menempatkan beberapa mesin penambang di lokasi yang berbeda, sehingga panas yang dihasilkan oleh mesin-mesin ini dapat digunakan kembali untuk memanaskan gedung-gedung tersebut. Dengan memilih model yang lebih efisien seperti S19, akan memungkinkan untuk mendistribusikan aktivitas penambangan, meningkatkan kinerja keseluruhan, sambil memberikan kontribusi yang berguna bagi masyarakat. Inisiatif ini bertujuan untuk bersaing dengan instalasi penambangan terpusat yang besar dengan menggunakan panas yang dihasilkan oleh mesin penambang secara produktif dan efisien.
+
+Inisiatif Attakai berawal dari eksperimen penambangan di rumah yang dilakukan oleh dua teman yang ingin berpartisipasi aktif dalam jaringan Bitcoin. Mereka menghadapi hambatan besar, seperti tingkat kebisingan yang tinggi dari peralatan penambangan, yang dirancang untuk penggunaan industri dan bukan domestik. Untuk mengatasi masalah ini, mereka melakukan modifikasi perangkat keras pada mesin penambang. Kipas yang lebih efisien dan lebih senyap menggantikan peralatan asli, sehingga penambangan di rumah menjadi lebih mudah diakses dan tidak mengganggu. Selain itu, penambahan adaptor Wi-Fi menghilangkan kebutuhan akan koneksi kabel Ethernet, sehingga semakin menyederhanakan proses penambangan di rumah. Pada musim dingin, mesin penambang yang dimodifikasi ini digunakan sebagai sumber panas, mengubah gangguan menjadi manfaat.
+
+Setelah mempresentasikan proyek mereka kepada komunitas Bitcoin dan melihat minat yang dihasilkan, para penemu Attakai memutuskan untuk menerbitkan panduan rinci di platform Découvre Bitcoin, memungkinkan siapa pun untuk mereplikasi pengalaman penambangan di rumah mereka. Sekarang mereka berencana untuk memperluas konsep ini ke luar lingkungan rumah. Tujuannya adalah untuk menunjukkan bagaimana penambang yang dimodifikasi dapat diubah menjadi pemanas tambahan yang tenang yang dapat digunakan selama musim dingin, menawarkan transisi yang mulus ke bagian pelatihan kedua yang berfokus pada penerapan praktis dari modifikasi ini, yang diilustrasikan dengan video penjelasan. Namun, pertanyaannya tetap apakah inisiatif ini dapat diperluas ke skala yang lebih besar, sehingga menawarkan alternatif yang realistis dan berkelanjutan bagi struktur penambangan terpusat saat ini.
+
+![image](assets/overview/attakai.webp)
+
+### Batasan desentralisasi ini?
 
 Meskipun ide mendesentralisasi penambangan melalui penggunaan panas yang dihasilkan secara produktif tampak menjanjikan, ini memiliki beberapa keterbatasan dan pertanyaan tetap ada. Fasilitas yang intensif energi seperti sauna dan kolam renang dapat memanfaatkan konsep ini dengan menggunakan panas yang dihasilkan oleh penambang untuk memanaskan air di fasilitas mereka. Praktik ini sudah mulai diterapkan oleh beberapa anggota komunitas Bitcoin, yang sedang menjelajahi metode berbeda untuk memanfaatkan panas yang dihasilkan oleh peralatan penambangan secara efisien. Sebagai contoh, sebuah aula perjamuan secara teoritis dapat dipanaskan oleh tiga atau empat penambang S19, masing-masing mengonsumsi 3000 watt dan menghasilkan jumlah panas yang setara.
 
@@ -220,6 +230,8 @@ Sentralisasi produksi perangkat keras penambangan di China menimbulkan risiko la
 
 Bukti Kerja (Proof of Work/PoW) sangat penting karena ini mewakili tautan fisik antara dunia nyata dan Bitcoin. Meskipun bitcoin tidak berwujud, produksinya membutuhkan energi nyata, sehingga menetapkan hubungan langsung dengan dunia fisik dan nyata. Koneksi ini memastikan bahwa produksi dan validasi bitcoin serta blok memiliki biaya energi nyata, dengan demikian mengakar jaringan Bitcoin dalam realitas fisik dan mencegah dominasi total oleh entitas yang kuat. PoW bertindak sebagai benteng melawan sentralisasi, memastikan bahwa partisipasi dalam jaringan dan validasi transaksi memerlukan investasi dalam sumber daya nyata. Ini mencegah monopoli jaringan oleh entitas yang bisa saja mengambil kontrol tanpa ada hambatan masuk yang signifikan, sehingga memastikan distribusi kekuatan dan pengaruh yang lebih adil dalam jaringan Bitcoin.
 
+![image](assets/overview/POWPOS.webp)
+
 ### Keterbatasan Bukti Kepemilikan
 
 Di sisi lain, Bukti Kepemilikan (Proof of Stake/PoS), meskipun memungkinkan partisipasi skala kecil, tidak menjamin perlindungan yang setara terhadap sentralisasi. Dalam jaringan PoS, mereka yang sudah memiliki jumlah mata uang yang besar memiliki kekuatan yang tidak proporsional, mencerminkan ketidaksetaraan kekuasaan yang ada dalam masyarakat secara luas. Dinamika ini berpotensi memperpetuasi sentralisasi dan konsentrasi kekuatan di tangan segelintir orang, bertentangan dengan tujuan distribusi fundamental dari jaringan Bitcoin. Argumen bahwa semua orang dapat berpartisipasi dalam PoS, bahkan dalam skala kecil, dengan bergabung dalam kolam, tidak selalu kuat. Dalam jaringan PoW, bahkan kontributor kecil, dengan peralatan yang sederhana, dapat berpartisipasi aktif dan berkontribusi pada keamanan dan distribusi jaringan.
@@ -238,6 +250,7 @@ Untuk merangkum, penambang memperkuat jaringan Bitcoin terhadap sensor dengan me
 
 Hashrate saat ini, meskipun harga Bitcoin berada di $30,000 dibandingkan dengan puncak sebelumnya $69,000, menyoroti tautan nyata antara penambangan dan dunia nyata. Periode pasar bullish mengarah pada permintaan tinggi untuk penambangan Bitcoin dan peningkatan pesanan mesin dari produsen seperti Avalon dan Bitmain. Namun, produksi dan pengiriman tidak seketika, menciptakan ketidaksesuaian antara peningkatan permintaan dan ketersediaan yang lebih lambat. Ini dapat menyebabkan mesin yang dipesan selama pasar bullish dikirimkan dalam pasar bear, menyoroti asimetri yang mencolok antara harga rendah dan hashrate tinggi.
 Situasi ini juga menggambarkan ketahanan Bitcoin, yang sering dinilai berdasarkan harganya. Namun, analisis yang lebih mendalam tentang kesehatan Bitcoin memerlukan pemeriksaan terhadap hash rate-nya, yang mengukur perhitungan per detik dalam jaringan Bitcoin. Meskipun harga Bitcoin fluktuatif, biayanya, yang terkait dengan listrik yang diperlukan untuk mengoperasikan mesin penambangan, tetap penting untuk memahami dinamika pasar. Dengan fokus pada biaya daripada harga, perspektif yang lebih konsisten tentang stabilitas dan viabilitas jangka panjang Bitcoin dapat diperoleh. Umumnya, biaya Bitcoin proporsional dengan harganya, memberikan pemahaman yang lebih baik tentang fluktuasi harga dan prospek masa depan.
+
 ![image](assets/overview/pricevshashrate.webp)
 
 ### Hash Rate dan Reward
@@ -320,10 +333,11 @@ Untuk investasi 1 kW energi listrik, radiator listrik menghasilkan 1 kW panas, t
 Komputer, atau lebih luas lagi papan elektronik, tidak mengonsumsi energi untuk melakukan perhitungan, ia hanya membutuhkan energi untuk mengalir melalui komponennya agar dapat berfungsi. Konsumsi energi disebabkan oleh resistansi listrik dari komponen, yang menghasilkan kerugian dan menghasilkan panas, dikenal sebagai efek Joule.
 
 Beberapa perusahaan telah datang dengan ide untuk menggabungkan kebutuhan kekuatan komputasi dengan kebutuhan pemanasan melalui radiator/server. Ide ini adalah untuk mendistribusikan server perusahaan ke dalam unit-unit kecil yang bisa ditempatkan di rumah atau kantor. Namun, ide ini menghadapi beberapa masalah. Kebutuhan akan server tidak terkait dengan kebutuhan akan pemanasan, dan perusahaan tidak dapat menggunakan kemampuan komputasi server mereka secara fleksibel. Ada juga batasan pada bandwidth yang dapat dimiliki individu. Semua kendala ini mencegah perusahaan dari membuat instalasi mahal ini menguntungkan atau menyediakan penawaran server online yang stabil tanpa pusat data yang dapat mengambil alih ketika pemanasan tidak diperlukan.
-"Panas yang dihasilkan oleh komputer Anda tidak terbuang jika Anda perlu memanaskan rumah Anda. Jika Anda menggunakan pemanas listrik di tempat Anda tinggal, maka panas dari komputer Anda tidak terbuang. Biayanya sama untuk menghasilkan panas ini dengan komputer Anda. Jika Anda memiliki sistem pemanasan yang lebih murah daripada pemanas listrik, maka pemborosan hanya pada perbedaan biaya. Jika musim panas dan Anda menggunakan pendingin udara, maka itu adalah pemborosan ganda. Penambangan Bitcoin harus dilakukan di tempat yang lebih murah. Mungkin itu akan berada di tempat dengan iklim dingin dan di mana pemanasan adalah listrik, di mana penambangan akan menjadi gratis."
 
+> Panas yang dihasilkan oleh komputer Anda tidak terbuang jika Anda perlu memanaskan rumah Anda. Jika Anda menggunakan pemanas listrik di tempat Anda tinggal, maka panas dari komputer Anda tidak terbuang. Biayanya sama untuk menghasilkan panas ini dengan komputer Anda. Jika Anda memiliki sistem pemanasan yang lebih murah daripada pemanas listrik, maka pemborosan hanya pada perbedaan biaya. Jika musim panas dan Anda menggunakan pendingin udara, maka itu adalah pemborosan ganda. Penambangan Bitcoin harus dilakukan di tempat yang lebih murah. Mungkin itu akan berada di tempat dengan iklim dingin dan di mana pemanasan adalah listrik, di mana penambangan akan menjadi gratis.
 > Satoshi Nakamoto - 8 Agustus 2010
-> Bitcoin dan sistem bukti kerjanya menonjol karena secara otomatis menyesuaikan kesulitan penambangan berdasarkan jumlah perhitungan yang dilakukan oleh seluruh jaringan. Jumlah ini disebut hashrate dan dinyatakan dalam hash per detik. Saat ini, diperkirakan sebesar 380 exahash per detik, yang berarti 380 miliar miliar hash per detik. Hashrate ini mewakili pekerjaan dan oleh karena itu jumlah energi yang digunakan. Semakin tinggi hashrate, semakin tinggi kesulitannya, dan sebaliknya. Dengan demikian, seorang penambang Bitcoin dapat diaktifkan atau dinonaktifkan kapan saja tanpa mempengaruhi jaringan, tidak seperti radiator/server yang perlu tetap stabil untuk menyediakan layanannya. Penambang diberi imbalan atas partisipasinya, relatif terhadap yang lain, tidak peduli seberapa kecil mungkin.
+
+Bitcoin dan sistem bukti kerjanya menonjol karena secara otomatis menyesuaikan kesulitan penambangan berdasarkan jumlah perhitungan yang dilakukan oleh seluruh jaringan. Jumlah ini disebut hashrate dan dinyatakan dalam hash per detik. Saat ini, diperkirakan sebesar 380 exahash per detik, yang berarti 380 miliar miliar hash per detik. Hashrate ini mewakili pekerjaan dan oleh karena itu jumlah energi yang digunakan. Semakin tinggi hashrate, semakin tinggi kesulitannya, dan sebaliknya. Dengan demikian, seorang penambang Bitcoin dapat diaktifkan atau dinonaktifkan kapan saja tanpa mempengaruhi jaringan, tidak seperti radiator/server yang perlu tetap stabil untuk menyediakan layanannya. Penambang diberi imbalan atas partisipasinya, relatif terhadap yang lain, tidak peduli seberapa kecil mungkin.
 
 Ringkasnya, sebuah radiator listrik dan penambang Bitcoin keduanya menghasilkan 1 kW panas untuk 1 kW listrik yang dikonsumsi. Namun, penambang juga menerima bitcoin sebagai hadiah. Terlepas dari harga listrik, harga bitcoin, atau persaingan dalam aktivitas penambangan Bitcoin di jaringan, secara ekonomis lebih menguntungkan untuk memanaskan dengan penambang daripada radiator listrik.
 
@@ -333,9 +347,9 @@ Yang penting untuk dipahami adalah bagaimana penambangan berkontribusi pada dese
 Beberapa teknologi yang ada telah digabungkan secara cerdik untuk mewujudkan konsensus Nakamoto. Konsensus ini memberi imbalan ekonomi kepada peserta yang jujur atas kontribusi mereka terhadap operasi jaringan Bitcoin, sambil mencegah peserta yang tidak jujur. Ini adalah salah satu poin kunci yang memungkinkan jaringan untuk eksis secara berkelanjutan.
 Aktor jujur, mereka yang menambang sesuai dengan aturan, semua bersaing satu sama lain untuk mendapatkan bagian terbesar dari hadiah untuk memproduksi blok baru. Insentif ekonomi ini secara alami mengarah pada bentuk sentralisasi karena perusahaan memilih untuk berspesialisasi dalam aktivitas yang menguntungkan ini dengan mengurangi biaya mereka melalui ekonomi skala. Aktor industri ini memiliki posisi yang menguntungkan untuk membeli dan memelihara mesin, serta menegosiasikan tarif listrik grosir.
 
-> "Pada awalnya, sebagian besar pengguna akan menjalankan node jaringan, tetapi seiring jaringan berkembang melebihi titik tertentu, itu akan semakin banyak ditinggalkan kepada spesialis dengan ladang server dari perangkat keras khusus. Ladang server hanya perlu memiliki satu node di jaringan dan sisanya dari LAN terhubung ke node tersebut."
+> Pada awalnya, sebagian besar pengguna akan menjalankan node jaringan, tetapi seiring jaringan berkembang melebihi titik tertentu, itu akan semakin banyak ditinggalkan kepada spesialis dengan ladang server dari perangkat keras khusus. Ladang server hanya perlu memiliki satu node di jaringan dan sisanya dari LAN terhubung ke node tersebut.
 >
-> - Satoshi Nakamoto - 2 November 2008
+> Satoshi Nakamoto - 2 November 2008
 
 Beberapa entitas memegang persentase yang cukup besar dari total hashrate di ladang penambangan besar. Kita dapat mengamati gelombang dingin baru-baru ini di Amerika Serikat di mana sebagian besar hashrate dimatikan untuk mengalihkan energi ke rumah tangga yang membutuhkan listrik secara luar biasa. Selama beberapa hari, penambang secara ekonomi diberi insentif untuk mematikan ladang mereka, dan cuaca luar biasa ini dapat dilihat pada kurva hashrate Bitcoin.
 
@@ -528,7 +542,10 @@ Di sini, kami akan melihat bagaimana cara mudah menginstal Braiins OS+ langsung 
 8. Klik "Kembali" lalu tab "Instal", masukkan alamat IP yang sebelumnya ditemukan, dan klik "Mulai".
 
 > Jika instalasi tidak berhasil, mungkin diperlukan untuk melakukan reset dan coba lagi (lihat bagian sebelumnya).
-> ![image](assets/software/8.webp) 9. Setelah beberapa saat, Antminer Anda akan restart dan Anda akan dapat mengakses antarmuka Braiins OS+ di alamat IP yang ditentukan, di sini 192.168.1.37, langsung di bilah alamat browser Anda. Nama pengguna default adalah "root" dan tidak ada kata sandi default.
+
+![image](assets/software/8.webp)
+
+9. Setelah beberapa saat, Antminer Anda akan restart dan Anda akan dapat mengakses antarmuka Braiins OS+ di alamat IP yang ditentukan, di sini 192.168.1.37, langsung di bilah alamat browser Anda. Nama pengguna default adalah "root" dan tidak ada kata sandi default.
 
 ## Konfigurasi BraiinsOS+
 
@@ -653,7 +670,8 @@ Akhirnya, pasang kembali penutup casing dan sekrup 6 sekrup di sisi untuk menaha
 <chapterId>a29f60f1-3fa3-57fc-a630-9c97cec30e56</chapterId>
 
 > PERINGATAN: Sangat penting untuk telah terlebih dahulu menginstal Braiins OS+ pada penambang Anda, atau perangkat lunak lain yang mampu mengurangi kinerja mesin Anda. Langkah ini krusial karena untuk mengurangi kebisingan, kita akan memasang kipas yang kurang kuat, yang akan menghilangkan panas lebih sedikit.
-> ![image](assets/hardware/cover.webp)
+
+![image](assets/hardware/cover.webp)
 
 ### Bahan yang Diperlukan
 
@@ -752,9 +770,8 @@ Ini menetapkan batas atas pada tingkat hash yang dapat dimiliki oleh sebuah mesi
 
 Hasil akhirnya adalah tingkat hash yang lebih tinggi per watt listrik, yang berarti margin keuntungan yang lebih besar untuk penambang. Alasan mengapa mesin tidak didistribusikan dengan jenis perangkat lunak ini adalah karena variansi mesin tidak diinginkan, karena pelanggan ingin tahu persis apa yang mereka dapatkan, sehingga merupakan ide buruk bagi produsen untuk menjual produk yang tidak memiliki kinerja yang konsisten dan dapat diprediksi dari satu mesin ke mesin lainnya. Selain itu, autotuning tingkat chip memerlukan sumber daya pengembangan yang cukup besar, karena kompleks untuk diimplementasikan. Produsen sudah menghabiskan banyak sumber daya mengembangkan firmware mereka sendiri. Ada solusi perangkat lunak yang memungkinkan autotuning, seperti Braiins OS+. Selain meningkatkan kinerja ASIC hingga 20%.
 
+## Evaluasi kursus ini
 
-
-## Beri kami umpan balik tentang kursus ini
 <chapterId>6af13742-df68-5cf4-b7aa-93dc0c2eaae9</chapterId>
 <isCourseReview>true</isCourseReview>
 
@@ -765,4 +782,3 @@ Hasil akhirnya adalah tingkat hash yang lebih tinggi per watt listrik, yang bera
 ### Membuat pintasan di iOS
 
 ![Mengontrol Antminer S9 dengan smartphone Anda](https://www.youtube.com/watch?v=OsKmdB2iw88&t=60s)
-

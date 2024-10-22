@@ -30,7 +30,6 @@ Finalmente, el curso concluye con una reflexión sobre "La Ley", abordando conce
 
 <chapterId>7f21b617-9810-5484-ad1c-befc61432126</chapterId>
 
-![video](https://youtu.be/PahHHhtX4fI?si=d8zR-RJ4fm_Z4yM9)
 Este curso es una introducción a Frédéric Bastiat, un genio no reconocido y un faro para nuestros tiempos. En esta breve introducción, intentaré ayudarte a descubrir quién fue Frédéric Bastiat y cuáles son los temas principales que cubriremos durante esta serie.
 ![image](assets/image/00/IMG01.webp)
 
@@ -57,7 +56,6 @@ En este curso, viajaremos juntos a través del pensamiento de Frédéric Bastiat
 
 <chapterId>e9d92b63-83dd-552c-84e1-dd535608c109</chapterId>
 
-![video](https://youtu.be/buPg-IPqwmU?si=_JKks1usXbUTQqJo)
 En 1844, Frédéric Bastiat realizó un viaje de negocios a España. Después de permanecer en Madrid, Sevilla, Cádiz y Lisboa, decidió embarcarse hacia Southampton y visitar Inglaterra. En Londres, tuvo la oportunidad de asistir a reuniones de la Liga Anti-Corn Law, cuyo trabajo había seguido desde la distancia. Conoció a los principales líderes de esta Asociación, incluyendo a Richard Cobden, quien se convertiría en su amigo.
 ![image](assets/image/00/IMG03.webp)
 
@@ -107,8 +105,6 @@ Falleció en Roma en 1850, a causa de tuberculosis. Está enterrado en la Iglesi
 
 <chapterId>bcc7a12a-6cc4-5061-85e3-0e31fb1f0a49</chapterId>
 
-![video](https://youtu.be/SbCbtAYwqBM?si=IXXMfjbRAagKqqbF)
-
 En economía, Bastiat siempre reconoció su deuda con Adam Smith y Jean-Baptiste Say. A los 26 años, escribió a uno de sus amigos: "Nunca he leído sobre estos temas sino estas cuatro obras, Smith, Say, Destutt y el Censor."
 
 ![image](assets/image/01/IMG02.webp)
@@ -157,7 +153,6 @@ Los productores recurren a la persuasión, negociación y contrato, mientras que
 
 <chapterId>ddf64e9f-2ce0-5651-8eb8-bae578eb0b9b</chapterId>
 
-![video](https://youtu.be/n69ITkX9DMU?si=PymbTYQxiAFVSP42)
 Es poco conocido, pero Destutt de Tracy tuvo una influencia decisiva en el futuro Presidente de los Estados Unidos, Thomas Jefferson, mientras este era embajador en París en la década de 1780.
 > "Para cada hombre, su primer país es su patria, y el segundo es Francia" & "La tiranía es cuando el pueblo teme a su gobierno; la libertad es cuando el gobierno teme al pueblo."
 >
@@ -189,8 +184,6 @@ Nuestro autor no llega a definir la economía política como la ciencia de los i
 
 Según Destutt de Tracy, la propiedad necesariamente surge de nuestra naturaleza, de nuestra facultad de deseo. Si el hombre no deseara nada, no tendría ni derechos ni deberes. Para satisfacer sus necesidades y cumplir con sus deberes, el hombre debe emplear medios que adquiere a través de su trabajo. Y la forma de organización social que se ajusta a este fin es la propiedad privada. Por eso, el único objeto del gobierno es proteger la propiedad y permitir el intercambio pacífico.
 
-![image](assets/image/02/IMG05.webp)
-
 Para él, los mejores impuestos son los más moderados, y desea que los gastos del estado sean lo más restringidos posible. Condena el saqueo de la riqueza de la sociedad por parte del gobierno en forma de deuda pública, impuestos, monopolios bancarios y gastos. Una vez más, la ley solo debe servir para proteger la libertad; nunca debería saquear.
 
 Finalmente, añade esta recomendación, que no ha perdido su relevancia:
@@ -202,7 +195,7 @@ En conclusión, los Ideólogos tuvieron una profunda intuición, a saber, que la
 ## Charles Comte y Charles Dunoyer
 
 <chapterId>80bc5c4e-ac07-52c8-9dd7-e224ac291bda</chapterId>
-![video](https://youtu.be/ZuZGz897Pto?si=O-eJhBpDDSlsW5Yu)
+
 La historia de todas las civilizaciones es la historia de la lucha entre las clases saqueadoras y las clases productivas. Este es el credo de los dos autores de los que vamos a hablar. Son los originadores de una teoría liberal de la lucha de clases que inspiró tanto a Frédéric Bastiat como a Karl Marx, aunque este último la distorsionó.
 
 ![image](assets/image/03/IMG01.webp)
@@ -249,8 +242,6 @@ Sus ideas, profundamente innovadoras, marcarían para siempre a Frédéric Basti
 ## Cobden y la Liga
 
 <chapterId>7181435c-5eae-56e4-8e55-02a24273fdd6</chapterId>
-
-![video](https://youtu.be/ZWx7RQsmutM?si=NpGycbbi8AQQKjNI)
 
 Es 1838, en Manchester, un pequeño número de hombres, poco conocidos hasta entonces, se reúnen para encontrar una manera de derrocar el monopolio de los propietarios de tierras de trigo a través de medios legales y lograr, como Bastiat relataría más tarde,
 

@@ -114,9 +114,9 @@ Alternatif yang lebih lanjut adalah jaringan TOR (The Onion Router), yang menawa
 TOR legal dan digunakan oleh jurnalis, aktivis kebebasan, dan orang lain yang ingin lolos dari sensor di negara-negara otoriter. Namun, penting untuk memahami bahwa TOR tidak mengamankan situs yang dikunjungi atau komputer itu sendiri. Selain itu, menggunakan TOR dapat memperlambat koneksi internet karena data melewati komputer tiga orang lain sebelum mencapai tujuannya. Juga penting untuk dicatat bahwa TOR bukan solusi sempurna untuk menjamin anonimitas 100% dan tidak seharusnya digunakan untuk aktivitas ilegal.
 ![](assets/notext/7.webp)
 
-### BRAVE
 
-**_Tutorial dalam pembangunan, untuk berkontribusi atau menambahkannya, Anda dapat melalui GitHub_**
+
+https://planb.network/tutorials/others/tor-browser
 
 ## VPN dan koneksi internet
 
@@ -135,6 +135,10 @@ Ada dua jenis utama VPN: VPN perusahaan dan VPN konsumen, seperti NordVPN. VPN p
 Namun, menggunakan VPN konsumen tidak menjamin anonimitas yang lengkap. Banyak penyedia VPN menyimpan informasi tentang penggunanya, yang dapat berpotensi mengkompromikan anonimitas mereka. Meskipun VPN dapat berguna untuk meningkatkan keamanan online, mereka bukan solusi universal. Mereka efektif untuk penggunaan tertentu, seperti mengakses layanan yang terbatas secara geografis atau meningkatkan keamanan saat bepergian, tetapi mereka tidak menjamin keamanan total. Saat memilih VPN, sangat penting untuk memprioritaskan keandalan dan teknisitas daripada popularitas. Penyedia VPN yang mengumpulkan sedikit informasi pribadi umumnya adalah yang paling aman. Layanan seperti iVPN dan Mullvad tidak mengumpulkan informasi pribadi dan bahkan memungkinkan pembayaran dalam Bitcoin untuk privasi yang meningkat.![](assets/notext/9.webp)
 Akhirnya, VPN juga dapat digunakan untuk memblokir iklan online, menyediakan pengalaman menjelajah yang lebih menyenangkan dan aman. Namun, penting untuk melakukan penelitian sendiri untuk menemukan VPN yang paling sesuai dengan kebutuhan spesifik Anda. Menggunakan VPN disarankan untuk meningkatkan keamanan, bahkan saat menjelajah internet di rumah. Ini membantu memastikan tingkat keamanan yang lebih tinggi untuk data yang ditukar secara online. Akhirnya, pastikan untuk memeriksa URL dan gembok kecil di bilah alamat untuk memastikan bahwa Anda berada di situs yang ingin Anda kunjungi.
 
+https://planb.network/tutorials/others/ivpn
+
+https://planb.network/tutorials/others/mullvad
+
 ### HTTPS & jaringan Wi-Fi publik
 
 Dalam hal keamanan online, penting untuk memahami bahwa 4G umumnya lebih aman daripada Wi-Fi publik. Namun, menggunakan 4G dapat dengan cepat menghabiskan paket data seluler Anda. Protokol HTTPS telah menjadi standar untuk mengenkripsi data di situs web. Ini memastikan bahwa data yang ditukar antara pengguna dan situs web aman. Oleh karena itu, sangat penting untuk memverifikasi bahwa situs yang Anda kunjungi menggunakan protokol HTTPS.
@@ -145,9 +149,6 @@ Untuk menghindari penipuan online, sangat penting untuk memverifikasi identitas 
 ![](assets/en/10.webp)
 Secara keseluruhan, penggunaan VPN dapat sangat meningkatkan keamanan online, baik untuk bisnis maupun pengguna individu. Selain itu, praktik kebiasaan menjelajah yang baik dapat berkontribusi pada kebersihan digital yang lebih baik. Dalam segmen berikutnya dari kursus ini, kami akan membahas keamanan komputer, termasuk pembaruan, antivirus, dan manajemen kata sandi.
 
-### Tutorial: IVPN
-
-**_Tutorial dalam pembangunan, untuk berkontribusi atau menambahkannya, Anda dapat melalui GitHub_**
 
 # Praktik Terbaik Penggunaan Komputer
 
@@ -195,9 +196,7 @@ Akhirnya, berikut adalah beberapa praktik baik untuk keamanan komputer dan data 
 Perlakukan komputer Anda seperti Anda memperlakukan rumah Anda: tetap waspada, perbarui secara teratur, hapus file yang tidak perlu, dan gunakan kata sandi yang kuat untuk keamanan. Sangat penting untuk mengenkripsi data pada laptop dan smartphone untuk mencegah pencurian atau kehilangan data. BitLocker untuk Windows, LUKS untuk Linux, dan opsi bawaan untuk Mac adalah solusi untuk enkripsi data. Disarankan untuk mengaktifkan enkripsi data tanpa ragu dan menuliskan kata sandi pada kertas yang disimpan di tempat yang aman.
 Kesimpulan, sangat penting untuk memilih sistem operasi yang sesuai dengan kebutuhan Anda dan secara rutin memperbaruinya, begitu juga dengan aplikasi yang terinstal. Juga penting untuk menggunakan antivirus yang efektif dan ramah pengguna serta mengadopsi praktik baik untuk keamanan komputer dan data Anda.
 
-### Tutorial: Ubuntu
 
-**_Tutorial dalam pembangunan, untuk berkontribusi atau menambahkannya, Anda dapat melalui GitHub_**
 
 ## Manajemen Hacking & Backup: Melindungi Data Anda
 
@@ -237,6 +236,11 @@ TIDAK, umumnya tidak disarankan untuk membayar peretas dalam kasus ransomware at
 
 Jika Anda mendeteksi virus di komputer Anda, putuskan koneksi dari internet, lakukan pemindaian antivirus penuh, dan hapus file yang terinfeksi. Kemudian, perbarui perangkat lunak dan sistem operasi Anda, dan ubah kata sandi Anda untuk mencegah intrusi lebih lanjut.
 
+https://planb.network/tutorials/others/proton-drive
+
+https://planb.network/tutorials/others/veracrypt
+
+
 # Implementasi solusi.
 
 <partId>215ec902-ba05-5549-87fc-cb8d82665f7b</partId>
@@ -268,9 +272,9 @@ Disarankan untuk menggunakan situs web Have I Been Pwned (https://haveibeenpwned
 Secara umum, mulai menggunakan alamat email baru yang lebih aman bukanlah praktik buruk dan bahkan perlu jika seseorang ingin memulai dari awal dengan basis yang sehat.
 Bonus Bitcoin: Mungkin disarankan untuk membuat alamat email khusus untuk aktivitas Bitcoin kita (membuat akun pertukaran) agar benar-benar memisahkan area aktivitas dalam hidup kita.
 
-### Tutorial: Pembuatan akun ProtonMail
+https://planb.network/tutorials/others/proton-mail
 
-**_Tutorial dalam pembangunan, untuk berkontribusi atau menambahkannya, Anda dapat melalui GitHub_**
+
 
 ## Manajer Kata Sandi
 
@@ -311,17 +315,9 @@ Untuk membuat kata sandi yang kuat, disarankan untuk menggunakan sejumlah besar 
 
 Kata sandi yang dihasilkan secara acak menawarkan tingkat keamanan yang lebih tinggi, meskipun mungkin lebih sulit diingat. Manajer kata sandi dapat menghasilkan kata sandi acak yang lebih aman. Dengan menggunakan manajer kata sandi, Anda tidak perlu menghafal semua kata sandi Anda. Penting untuk secara bertahap mengganti kata sandi lama Anda dengan yang dihasilkan oleh manajer, karena mereka lebih kuat dan lebih panjang. Pastikan bahwa kata sandi utama dari manajer kata sandi Anda juga kuat dan aman.
 
-### Tutorial: Membuat Kata Sandi Utama
+https://planb.network/tutorials/others/bitwarden
 
-**_Tutorial dalam pembangunan, untuk berkontribusi atau menambahkannya, Anda dapat melalui GitHub_**
-
-### Tutorial: BitWarden
-
-**_Tutorial dalam pembangunan, untuk berkontribusi atau menambahkannya, Anda dapat melalui GitHub_**
-
-### Tutorial: KeePass
-
-**_Tutorial dalam pembangunan, untuk berkontribusi atau menambahkannya, Anda dapat melalui GitHub_**
+https://planb.network/tutorials/others/keepass
 
 ## Autentikasi Dua Faktor
 
@@ -362,6 +358,12 @@ Terus belajar dan secara bertahap menerapkan praktik baik!
 
 Aturan emas: Keamanan siber adalah target yang bergerak yang akan beradaptasi dengan perjalanan belajar Anda!
 
+https://planb.network/tutorials/others/authy
+
+https://planb.network/tutorials/others/security-key
+
+
+
 # Bagian Praktis
 
 <partId>98ccf14b-4053-5839-878c-7a73ff02eb95</partId>
@@ -370,40 +372,86 @@ Aturan emas: Keamanan siber adalah target yang bergerak yang akan beradaptasi de
 
 <chapterId>afc9ab5d-7664-5a9b-ab50-225ac9ba8f7c</chapterId>
 
-Perhatikan bahwa, untuk saat ini, bagian kursus ini hanya berisi tutorial cara melakukan sesuatu dalam bahasa Prancis. Kami sedang bekerja untuk menerjemahkan video tersebut ke dalam bahasa Anda. Jika Anda ingin membantu kami menerjemahkan, hubungi kami melalui [GitHub](https://github.com/DecouvreBitcoin/sovereign-university-data)
+Melindungi kotak surat Anda adalah langkah penting untuk mengamankan aktivitas online Anda dan menjaga data pribadi Anda. Tutorial ini akan membimbing Anda, langkah demi langkah, dalam membuat dan mengkonfigurasi akun ProtonMail, penyedia yang dikenal karena tingkat keamanannya yang tinggi yang menawarkan enkripsi end-to-end untuk komunikasi Anda. Baik Anda seorang pemula atau pengguna berpengalaman, praktik terbaik yang diusulkan di sini akan membantu Anda memperkuat keamanan email Anda, sambil memanfaatkan fitur-fitur canggih ProtonMail:
 
-![video](https://youtu.be/vpYJYWhmEZg)
+https://planb.network/tutorials/others/proton-mail
+
+
 
 ## Mengamankan dengan 2FA
 
 <chapterId>09468ec1-95b7-56a4-a636-7618044568e1</chapterId>
 
-![video](https://youtu.be/mNcAKRDmz5o)
+Autentikasi dua faktor (2FA) telah menjadi penting untuk mengamankan akun online Anda. Dalam tutorial ini, Anda akan belajar cara mengatur dan menggunakan aplikasi 2FA Authy, yang menghasilkan kode dinamis 6 digit untuk melindungi akun Anda. Authy sangat mudah digunakan dan dapat disinkronkan di beberapa perangkat. Pelajari cara menginstal dan mengonfigurasi Authy, dan perkuat keamanan akun online Anda sekarang juga:
+
+https://planb.network/tutorials/others/authy
+
+Opsi lain adalah menggunakan kunci keamanan fisik. Tutorial lainnya ini menunjukkan cara mengatur dan menggunakan kunci keamanan sebagai faktor autentikasi kedua:
+
+https://planb.network/tutorials/others/security-key
+
+
 
 ## Membuat manajer kata sandi
 
 <chapterId>ed579680-4e7b-5f65-8541-14e519a3b242</chapterId>
+
+Manajemen kata sandi adalah tantangan di era digital. Kita semua memiliki banyak akun online yang perlu diamankan. Pengelola kata sandi membantu Anda membuat dan menyimpan kata sandi yang kuat dan unik untuk setiap akun.
+
+Dalam tutorial ini, pelajari cara mengatur Bitwarden, pengelola kata sandi open-source, dan cara menyinkronkan kredensial Anda di semua perangkat untuk memudahkan penggunaan sehari-hari:
+
 https://planb.network/tutorials/others/bitwarden
 
-![video](https://youtu.be/y7Xkv4E5YmU)
+Untuk pengguna yang lebih mahir, saya juga menawarkan tutorial tentang perangkat lunak gratis dan open-source lainnya yang dapat digunakan secara lokal untuk mengelola kata sandi Anda:
+
+https://planb.network/tutorials/others/keepass
+
+
 
 ## Mengamankan Akun Anda
 
 <chapterId>7a774b34-aed0-57dd-b8f7-cf3be51c0d70</chapterId>
+
+Dalam dua tutorial ini, saya juga membimbing Anda dalam mengamankan akun online Anda dan menjelaskan bagaimana secara bertahap mengadopsi praktik yang lebih aman untuk mengelola kata sandi Anda sehari-hari.
+
 https://planb.network/tutorials/others/bitwarden
+
+https://planb.network/tutorials/others/keepass
+
 
 ## Pengaturan Cadangan
 
 <chapterId>01cfcde1-77cb-506c-8df1-fa18a2e8cc6b</chapterId>
+
+Melindungi file pribadi Anda juga merupakan poin penting. Tutorial ini menunjukkan kepada Anda bagaimana menerapkan strategi cadangan yang efektif menggunakan Proton Drive. Temukan cara menggunakan solusi cloud yang aman ini untuk menerapkan metode 3-2-1: tiga salinan data Anda pada dua media yang berbeda, dengan satu salinan di luar lokasi. Dengan demikian, Anda memastikan aksesibilitas dan keamanan file sensitif Anda:
+
 https://planb.network/tutorials/others/proton-drive
+
+Dan untuk mengamankan file Anda yang disimpan di media yang dapat dilepas seperti flash drive USB atau hard drive eksternal, saya juga menunjukkan cara mengenkripsi dan mendekripsi media tersebut dengan mudah menggunakan VeraCrypt:
+
 https://planb.network/tutorials/others/veracrypt
-![video](https://youtu.be/wTJnlSUkDRI)
+
+
 
 ## Perubahan Browser & VPN
 
 <chapterId>8dc08feb-313c-5259-a54f-64aa68a07608</chapterId>
 
-![video](https://youtu.be/vc6-Ouca09g)
+
+Melindungi privasi online Anda juga merupakan poin penting untuk memastikan keamanan Anda. Penggunaan VPN dapat menjadi solusi pertama untuk mencapainya.
+
+Saya mengajak Anda untuk mengenal dua solusi VPN yang terpercaya dan dapat dibayar dengan bitcoin, yaitu IVPN dan Mullvad. Tutorial-tutorial ini akan membimbing Anda dalam menginstal, mengonfigurasi, dan menggunakan Mullvad atau IVPN di semua perangkat Anda:
+
+https://planb.network/tutorials/others/ivpn
+
+https://planb.network/tutorials/others/mullvad
+
+Juga, pelajari cara menggunakan Tor Browser, browser yang dirancang khusus untuk melindungi privasi online Anda:
+
+https://planb.network/tutorials/others/tor-browser
+
+
+
 
 # Lanjutkan Lebih Jauh
 
@@ -479,9 +527,14 @@ Sebagai bagian dari modul pelatihan "Security 101" di Découvre Bitcoin Academy,
 
 
 
-## Beri kami umpan balik tentang kursus ini
+## Evaluasi kursus ini
 <chapterId>6be74d2d-2116-5386-9d92-c4c3e2103c68</chapterId>
 <isCourseReview>true</isCourseReview>
+
+## Ujian Akhir
+<chapterId>a894b251-a85a-5fa4-bf2a-c2a876939b49</chapterId>
+<isCourseExam>true</isCourseExam>
+
 
 ## Pengakuan dan terus menggali lubang kelinci
 

@@ -507,9 +507,14 @@ ZIRP的另一个意外后果是，它鼓励政府进行大规模支出。由于�
 # 结论
 <partId>ae828713-d133-559f-93c2-101cb5245fca</partId>
 
-## 给我们关于这门课程的反馈
+## 评估课程
 <chapterId>29d4323c-e34e-5834-bf03-2f3ed10d751b</chapterId>
 <isCourseReview>true</isCourseReview>
+
+## 期末考试
+<chapterId>d58d188f-81fb-572a-a898-8b6f8aceba7a</chapterId>
+<isCourseExam>true</isCourseExam>
+
 
 ## 进一步学习
 <chapterId>64faaed4-84b9-5b8c-9736-a959e8e6cd9d</chapterId>

@@ -20,9 +20,11 @@ You don't need any specific knowledge to get started, the course is accessible t
 +++
 
 # Introduction
+
 <partId>3cd2ac82-026c-53e1-874a-baf5842adc6d</partId>
 
 ## A Leap into the Unknown
+
 <chapterId>27e3fb60-4b50-556b-9e70-c4f5475c121d</chapterId>
 
 ### Welcome to a new monetary and technological paradigm.
@@ -79,6 +81,7 @@ Before discussing the definition and functioning of money in society (Chapter 1)
 The importance here is mainly to understand this new technology in a general way. We hope that this training will please you and provide you with the necessary foundation to understand and perhaps continue to progress in this new global monetary paradigm.
 
 ## The Prehistory of Bitcoin
+
 <chapterId>9a94b627-5b69-5d81-9125-f1fa9b0aa6ad</chapterId>
 
 Before the term "Bitcoin" became synonymous with digital currency and financial transformation, a series of ideas, innovations, and social movements laid the groundwork for its creation. One of the fundamental elements of this prehistory of Bitcoin is the cypherpunk movement.
@@ -123,12 +126,14 @@ The prehistory of Bitcoin is deeply rooted in the cypherpunk movement and a coll
 
 Therefore, Bitcoin is a protocol that spans long periods of time and encourages us to question our relationship with energy, time, and money. But is Bitcoin a "real" currency? What is money? Does it exist in multiple forms? We will explore these questions in the next chapter.
 
-![The Prehistory of Bitcoin](assets/posters/fr/1_prehistoiredubitcoin.webp)
+![The Prehistory of Bitcoin](./assets/posters/en/1._bitcoin_prehistory.webp)
 
 # Money
+
 <partId>e913df1a-4cbd-5380-ba67-ca2a0414f671</partId>
 
 ## Money Throughout History
+
 <chapterId>c838e64d-d59f-5703-8c74-ea5e8c4fdd31</chapterId>
 
 The evolution of money is a fascinating aspect of human history, reflecting the ingenuity of civilizations throughout the ages in meeting constantly evolving economic needs.
@@ -191,6 +196,7 @@ Bitcoin, on the other hand, presents new possibilities. Due to its properties, s
 ![v](assets/posters/en/3._money.webp)
 
 ## Fiduciary currencies
+
 <chapterId>25151d46-7db1-5b48-8bba-cbde1944555a</chapterId>
 
 "Those who do not learn from history are doomed to repeat the same mistakes," said George Santayana. A truth that resonates particularly when it comes to the current monetary system.
@@ -243,6 +249,7 @@ We can conclude this chapter with the quote from Nobel Prize winner F.A Hayek in
 ![Alt text](assets/posters/en/4._fiat_currency.webp)
 
 ## Hyperinflation
+
 <chapterId>b04c024c-54f3-50cb-997f-58721cfc74be</chapterId>
 
 Hyperinflation is a monetary phenomenon specific to fiat currencies. It is characterized by a complete loss of confidence in a currency and a drastic increase in inflation through monetary printing by authorities. As a result, the savings accumulated by individuals can dissipate in a relatively short period of time, pushing the country to the brink of economic, social, and political collapse.
@@ -325,6 +332,7 @@ In conclusion, hyperinflation has the effect of rapidly degrading the value of t
 ![Alt text](assets/posters/en/5._hyperinflation.webp)
 
 ## 21 million bitcoins
+
 <chapterId>f4a06d76-1963-56fd-93ff-dfa41489bcde</chapterId>
 
 ### Bitcoin's Monetary Policy
@@ -414,9 +422,11 @@ In summary, Bitcoin, with its decentralized nature, programmed scarcity, and tra
 ### Conclusion of section 1!
 
 # Wallets Bitcoin
+
 <partId>28860585-4f61-59d9-b242-f4c57d837cc1</partId>
 
 ## What are Bitcoin wallets?
+
 <chapterId>1c0166ab-cb7a-5bc6-9175-d13482bd91f1</chapterId>
 
 In this section 2, we will explore the storage and security of Bitcoins within wallets. This will allow you to better understand where these famous bitcoins are located and how to interact with them!
@@ -478,6 +488,7 @@ Choose a wallet that suits your needs and usage. Detailed tutorials on the use a
 ![Alt text](assets/posters/en/8._what_is_a_bitcoin_wallet.webp)
 
 ## Security and Bitcoin Wallets
+
 <chapterId>00c1afea-e54a-511f-bab3-2efc2fbfa6a1</chapterId>
 
 ### Asking the right questions before starting
@@ -530,6 +541,7 @@ Now that we have this in mind, let's move on to the next section to see the step
 ![Alt text](assets/posters/en/9._choose_the_right_wallet.webp)
 
 ## Setting up a wallet
+
 <chapterId>615519eb-4565-557d-86a0-021badf7616f</chapterId>
 
 The security of your bitcoins is of crucial importance, and a simple mistake can have costly consequences. That's why we will now look at the best practices when creating a new Bitcoin wallet.
@@ -570,6 +582,7 @@ Once the copies are made, store the word lists in a safe place where you will re
 ![Alt text](assets/posters/en/10._set_up_your_wallet.webp)
 
 ## Standing the test of time
+
 <chapterId>f58cd446-c202-5eff-aab7-e61cc40e5c06</chapterId>
 
 Security is a major concern in the Bitcoin ecosystem. Indeed, like any form of wealth, your bitcoins must be protected against loss, theft, and degradation, especially in the long term. Securing your bitcoins requires some technical knowledge and awareness of the associated risks, which leads us to discuss two main strategies: engraving your bitcoins in steel and creating an inheritance plan.
@@ -614,9 +627,11 @@ When creating a wallet, you must first backup your private key. This backup take
 Now that we have covered the basics of Bitcoin wallets and best practices for securing them, we will address the technical functioning of Bitcoin in the next chapter. Once again, knowing the basics of the Bitcoin protocol will allow you to better understand its functioning, which will enable you to make better use of it.
 
 # The technical aspects of Bitcoin.
+
 <partId>a86d7439-e7a2-5f21-b1e9-6b5e23ca265b</partId>
 
 ## Launching Bitcoin
+
 <chapterId>b7561082-8943-519d-95d1-a5f60dd2686d</chapterId>
 
 ### Let's start with a bit of history.
@@ -676,6 +691,7 @@ Now that we have some background, let's take a look at how a Bitcoin transaction
 ![Alt text](assets/posters/en/7._lancement_bitcoin.webp)
 
 ## Bitcoin transactions
+
 <chapterId>03482644-5473-590b-975b-b43bb65eac21</chapterId>
 
 A Bitcoin transaction is simply a transfer of ownership of bitcoins, using a Bitcoin address. Let's take, for example, two protagonists: Alice and Bob. Alice wishes to acquire bitcoins, while Bob already owns some.
@@ -724,7 +740,7 @@ At this stage, the transaction is considered valid, the miner will then propagat
 
 ### Quick recap in a poster!
 
-![Explanation of a transaction](assets/posters/fr/11_explication_d_une_transaction_crop.webp)
+![Explanation of a transaction](./assets/posters/en/11._explaination_of_a_transaction.webp)
 
 ### What's the point of all this?
 
@@ -739,6 +755,7 @@ In fact, for the Bitcoin network to be completely destroyed, all copies of the b
 Let's take a closer look at how a Bitcoin node works.
 
 ## Bitcoin Nodes
+
 <chapterId>8533cebc-f799-528b-89df-8d75d4c37f1c</chapterId>
 
 Nodes are a fundamental element of the Bitcoin network architecture. They perform various crucial functions:
@@ -787,9 +804,10 @@ Following this victory, the nodes activated an update called SegWit, paving the 
 
 ### Summary in a poster!
 
-![Bitcoin nodes](assets/posters/fr/12_explication_des_nodes_crop.webp)
+![Bitcoin nodes](./assets/posters/en/12._nodes.webp)
 
 ## Miners
+
 <chapterId>dbb8264a-7434-57e4-9d1b-fbd1bae37fdf</chapterId>
 
 > Miners serve to secure the network and add transactions to the blocks. They use electricity through ASIC machines to solve the Bitcoin proof of work.
@@ -860,9 +878,10 @@ The theory of game applied to Bitcoin eliminates dishonest miners. Miners use AS
 
 ### Quick recap in a poster!
 
-![miners](assets/posters/fr/13_explication_des_mineurs_crop.webp)
+![miners](./assets/posters/en/13._miners.webp)
 
 ## Bitcoin and Ecology
+
 <chapterId>4b227ae6-443a-5739-b443-60b7931130d9</chapterId>
 
 We have just seen in the previous section that the security of the Bitcoin protocol relies on a high energy cost to produce a public ledger of transactions without a trusted third party. The overall energy cost is often compared to the electricity consumption of a small country. But does this comparison make sense? Is it relevant to understand the reasons behind such a cost?
@@ -905,11 +924,11 @@ The flames in oil wells, which burn methane to prevent pollution, can be extingu
 
 The technology of Bitcoin is often misunderstood, and criticisms regarding its environmental impact are often simplistic and short-term. These criticisms are often motivated by political interests. Bitcoin has the potential to help with the ecological transition and contribute to a greener world. The media often spreads false ideas about Bitcoin and ecology. So take the time to form your own opinion. Everything is transparent with Bitcoin.
 
-> Follow one of Bitcoin's maxims: Don't trust, verify for yourself!
+> Follow one of Bitcoin's maxims: Don't trust, Verify!
 
 ### Quick recap in a poster!
 
-![Bitcoin & ecology](assets/posters/fr/14_minage_et_ecologie_crop.webp)
+![Bitcoin & ecology](./assets/posters/en/14._ecological_debate.webp)
 
 ### Brief summary of the technical aspects of Bitcoin
 
@@ -922,9 +941,11 @@ In order for miners to be as profitable as possible in their activity, they must
 Thus, the Bitcoin protocol is an uncensorable and unstoppable monetary system because each component of the protocol is distributed geographically across the globe - for example, there are approximately 40,000 Bitcoin nodes across all continents. Bitcoin's consensus rules are such that it is economically more profitable to follow them than to try to break them, and therefore no trust is required between actors. Bitcoin has no leader and cannot be stopped. It is possible to regulate exchange platforms to limit Bitcoin, but this is limited in terms of impact. In short, no judge or state can censor or stop Bitcoin.
 
 # How to obtain Bitcoin?
+
 <partId>517e1bb7-f032-51a0-930a-a91fe5148d3f</partId>
 
 ## Bitcoin never sleeps!
+
 <chapterId>d5e35e41-ea26-5478-8eb9-07daf9dff508</chapterId>
 
 The price of Bitcoin is often characterized by significant volatility. Its value can fluctuate considerably depending on market variations and bullish and bearish market phases. This is present in 100% of financial markets, including Bitcoin.
@@ -982,6 +1003,7 @@ Today, in 2023, Bitcoin continues to survive and grow even more by integrating i
 ![Alt text](assets/posters/en/15._bitcoinr_never_sleeps.webp)
 
 ## Obtaining bitcoins by working
+
 <chapterId>be2d83be-406f-582c-83ca-6aa905ff7b04</chapterId>
 
 ### A parallel economy is developing
@@ -1017,6 +1039,7 @@ We will cover this topic in detail in another training, but to keep it simple, w
 ![Alt text](assets/posters/en/17._earn_your_bitcoin.webp)
 
 ## Saving with Bitcoin
+
 <chapterId>1d9570c6-5b63-51a6-b87c-7bdb0fc4aa87</chapterId>
 
 ### Warning before getting started!
@@ -1028,7 +1051,7 @@ Bitcoin has become a major financial asset, mainly due to its limited supply and
 - Past performance is not indicative of future performance.
 - Contact your financial advisor if needed.
 
-> DécouvreBitcoin (Rogzy) does not provide investment advice and nothing stated here should be considered as such.
+> Plan ₿ Network does not provide investment advice and nothing stated here should be considered as such.
 
 ### Mini Checklist before taking the plunge
 
@@ -1110,6 +1133,7 @@ It is also important to note that taxes may be implemented in your jurisdiction.
 ![Alt text](assets/posters/en/16._saving_in_bitcoin.webp)
 
 ## Hyper-bitcoinization
+
 <chapterId>b7275d31-3b60-5fb7-b9f5-030097010553</chapterId>
 
 ### The wild race is just beginning!
@@ -1137,9 +1161,11 @@ If you want to expand your knowledge about Bitcoin, a large number of authors, t
 ![Alt text](assets/posters/en/18._hyperbitcoinization.webp)
 
 # The Future of Bitcoin: The Lightning Network
+
 <partId>899fd35e-39e6-5a25-a73e-6fed6e725094</partId>
 
 ## A Brief Introduction to the Lightning Network
+
 <chapterId>b403f1e4-f1ff-572b-a242-9b58cb3736d0</chapterId>
 
 Now that we have the basics of the Bitcoin protocol, we will introduce a payment network that uses the Bitcoin protocol to enable lightning-fast transactions. We are obviously talking about the Lightning Network!
@@ -1181,6 +1207,7 @@ In summary, the Lightning Network is a promising attempt to deploy an efficient 
 ![Alt text](assets/posters/en/20._lightning_network.webp)
 
 ## Use Cases of the Lightning Network
+
 <chapterId>684e31f9-ebd1-51b6-91c0-1e6a315f1141</chapterId>
 
 As we have just seen, the Bitcoin protocol, although revolutionary, faces significant challenges in terms of scalability in order to handle all of our daily transactions. To solve these problems, a second layer solution known as the Lightning Network was proposed in 2016 and now has several different implementations, all of which are interoperable:
@@ -1217,11 +1244,12 @@ In conclusion, the Lightning Network opens up a multitude of exciting use cases 
 ![Alt text](assets/posters/en/21._ln_use_cases.webp)
 
 ## Red pill or blue pill?
+
 <chapterId>c81cdb45-6aa9-5462-9835-c4852084b2cc</chapterId>
 
 As Morpheus said to Neo: "You take the blue pill, the story ends, you wake up in your bed, and you believe whatever you want to believe. You take the red pill, you stay in Wonderland, and I show you how deep the rabbit hole goes." Are you ready to explore the rabbit hole of Bitcoin? Be careful, as you might rediscover your financial freedom!
 
-![red pill](assets/posters/fr/2_pilluleorange.webp)
+![red pill](./assets/posters/en/2._oprange_pill.webp)
 
 ### Technological future and its implications
 
@@ -1282,6 +1310,7 @@ Bitcoin cannot be stopped anymore and cannot be censored anymore. It is a peacef
 Changing the financial system requires changing the currency. Satoshi created Bitcoin in 2008 to propose an attempt at this. Having access to easy and "magical" money corrupts. Bitcoin is therefore an alternative to build a new neutral monetary system. Bitcoin allows for the emancipation from the banking system. It is a social phenomenon that leads us to participate in a peaceful revolution. Are you ready to join?
 
 ## Acknowledgments and keep digging the rabbit hole
+
 <chapterId>c153facd-fe77-5954-b18b-d0e2243e787a</chapterId>
 
 ### Go further
@@ -1295,22 +1324,19 @@ Congratulations on completing this BTC 101 course! I sincerely hope you enjoyed 
 - [MIN 201](https://planb.network/courses/min201) to learn more about mining
 - and many more...
 
-## Support us
-<chapterId>3e6e756b-b6c4-5d41-bece-767922348067</chapterId>
+## Evaluate the course
 
-This course, as well as all the content on this university, has been offered to you for free by our community. To support us, you can share it with others, become a member of the university, and even contribute to its development via [our GitHub](https://github.com/PlanB-Network/bitcoin-educational-content). On behalf of the entire team, thank you!
-
-
-
-## Give us some feedback about this course
 <chapterId>585729e2-b0ab-51b5-89ec-593e3ea22c57</chapterId>
 <isCourseReview>true</isCourseReview>
 
-## Note the training
-<chapterId>44d01865-5c89-55a5-a397-a014960eec0f</chapterId>
+## Final Exam
+<chapterId>8410e961-3841-5abf-a51d-04fc0139dd59</chapterId>
+<isCourseExam>true</isCourseExam>
 
-A grading system for the training will soon be integrated into this new E-learning platform! In the meantime, thank you very much for taking the course and if you enjoyed it, please consider sharing it with others.
+## Conclusion
 
-A huge thank you to our Patreon supporters, members, and donors for their financial support, thank you to the people who share, and thank you to those who made this training possible: Rachel, Muriel, the StackinSat team, JohnOnChain, Fanis, Guillaume, Lounes, the proofreaders, and the reviewers.
+<chapterId>dfc534be-44a9-5e8c-9c98-e51ef0554e91</chapterId>
 
-See you soon!
+**Congratulations on completing this course!**
+
+Please note that this chapter is currently under construction, and an improved version will be arriving soon. In the meantime, if you're eager to continue your Bitcoin journey, we invite you to explore the other courses and tutorials available on our platform. Keep up the great work, and happy learning!

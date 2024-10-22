@@ -25,7 +25,6 @@ objectives:
 ## 理解闪电网络
 <chapterId>df6230ae-ff35-56ea-8651-8e65580730a8</chapterId>
 
-![video en](https://youtu.be/QDQ8NG0l3hk)
 
 闪电网络是建立在比特币网络之上的第二层支付基础设施，它能够实现快速和低成本的交易。要完全理解闪电网络的工作原理，理解什么是支付通道以及它们是如何工作的至关重要。
 
@@ -33,7 +32,7 @@ objectives:
 
 支付通道是双向的，意味着它们有两个“侧面”。例如，如果Alice和Bob开启了一个支付通道，Alice可以向Bob发送比特币，Bob也可以向Alice发送比特币。通道内的交易不会改变通道的总容量，但会改变Alice和Bob之间容量的分配。
 
-![explication](assets/chapitre1/0.webp)
+![explication](assets/fr/1.webp)
 
 在闪电支付通道中进行交易，发送资金的用户必须在通道的一侧拥有足够的比特币。如果Alice想通过他们的通道向Bob发送1比特币，她必须在通道的一侧至少拥有1比特币。
 闪电支付通道的限制和运作。
@@ -41,7 +40,7 @@ objectives:
 
 尽管有这些限制，闪电支付通道是执行快速和低成本比特币交易的有效方式。它们允许用户在不必支付高额交易费用或等待比特币网络长时间确认的情况下发送和接收比特币。
 总结来说，闪电网络支付通道为那些想要进行快速且低成本的比特币交易的人提供了一个强大的解决方案。然而，为了充分利用它们，理解它们的运作方式和限制是至关重要的。
-![explication](assets/chapitre1/1.webp)
+![explication](assets/fr/2.webp)
 
 示例：
 
@@ -63,16 +62,15 @@ objectives:
 爱丽丝 (60,000 SAT) ============== 鲍勃 (70,000 SAT)
 
 ```
-![explication](assets/chapitre1/2.webp)
+![explication](assets/fr/3.webp)
 
 现在，鲍勃想要发送 80,000 SAT 给爱丽丝。由于没有足够的流动性，他做不到。通道的最大容量是 130,000 SAT，爱丽丝和鲍勃分别最多可以支出 60,000 SAT 和 70,000 SAT。
 
-![explication](assets/chapitre1/3.webp)
+![explication](assets/fr/4.webp)
 
 ## 比特币、地址、UTXO 和交易
 <chapterId>0cfb7e6b-96f0-508b-9210-90bc1e28649d</chapterId>
 
-![video](https://youtu.be/U9l5IVriCss)
 
 在这第二章中，我们花时间研究比特币交易实际是如何工作的，这对于理解闪电网络非常有用。我们还简要讨论了多重签名地址的概念，这对于理解下一章关于在闪电网络上开设通道至关重要。
 
@@ -80,7 +78,7 @@ objectives:
 - 在一次比特币交易中，所有比特币都必须移动。名为UTXO（未花费交易输出）的比特币碎片将全部离开，只有之后才会返回给所有者。
   爱丽丝有 0.002 BTC，鲍勃有 0 BTC。爱丽丝决定发送 0.0015 BTC 给鲍勃。她将签署一个 0.002 BTC 的交易，其中 0.0015 将转给鲍勃，0.0005 将返回她的钱包。
 
-![explication](assets/chapitre2/0.webp)
+![explication](assets/fr/5.webp)
 
 在这里，从一个UTXO（爱丽丝在一个地址上有 0.0002 BTC），我们创建了2个UTXO（鲍勃有 0.0015，爱丽丝有一个新的UTXO（独立于之前的）为 0.0005 BTC）。
 
@@ -96,7 +94,7 @@ objectives:
 爱丽丝（新的UTXO：0.0005 BTC）
 ```
 在闪电网络中，使用了多重签名技术。因此，需要2个签名来解锁资金，即，需要两个私钥来移动资金。这可以是Alice和Bob，他们必须共同同意解锁资金（UTXO）。在LN中，特别是2/2交易，所以两个签名都是绝对必要的，不像2/3或3/5的多重签名，只需要完整密钥数量的组合即可。
-![解释](assets/chapitre2/1.webp)
+![解释](assets/fr/6.webp)
 
 # 通道的开启和关闭
 <partId>900b5b6b-ccd0-5b2f-9424-4b191d0e935d</partId>
@@ -104,7 +102,6 @@ objectives:
 ## 通道开启
 <chapterId>96243eb0-f6b5-5b68-af1f-fffa0cc16bfe</chapterId>
 
-![视频](https://youtu.be/Ty80WuN5X-g)
 
 现在，我们将更仔细地看看通道是如何通过比特币交易开启的。
 
@@ -114,14 +111,14 @@ objectives:
 - 支付通道（闪电网络协议）
 - 比特币交易（比特币协议）
 
-![解释](assets/chapitre3/0.webp)
+![解释](assets/fr/7.webp)
 
 为了开启一个通道，两个节点通过一个通信通道进行通信：
 
 - Alice: “嗨，我想开启一个通道！”
 - Bob: “好的，这是我的公开地址。”
 
-![解释](assets/chapitre3/1.webp)
+![解释](assets/fr/8.webp)
 
 Alice现在有2个公开地址来创建一个2/2多重签名地址。她现在可以进行一笔比特币交易，将资金发送到这个地址。
 
@@ -136,33 +133,32 @@ Alice现在有2个公开地址来创建一个2/2多重签名地址。她现在�
 
 Alice将在发布资金存入多重签名之前，创建第二笔交易，称为“提款交易”。
 
-![解释](assets/chapitre3/2.webp)
+![解释](assets/fr/9.webp)
 
 提款交易将从多重签名地址中花费资金到她的一个地址（这是在一切公开之前完成的）。
 一旦两笔交易都建立好，Alice告诉Bob已经完成，并请求他用他的公钥签名，解释说这样她如果出了问题可以回收她的资金。Bob同意，因为他不是不诚实的人。
 
 Alice现在可以独自回收资金，因为她已经有了Bob的签名。她发布交易。通道现在以0.0013 BTC（130,000 SAT）在Alice一侧开启。
 
-![解释](assets/chapitre3/3.webp)
+![解释](assets/fr/10.webp)
 
 ## 闪电交易 & 承诺交易
 <chapterId>7d3fd135-129d-5c5a-b306-d5f2f1e63340</chapterId>
 
-![视频](https://youtu.be/dzPMGiR_JSE)
 
-![封面](assets/chapitre4/1.webp)
+![封面](assets/fr/11.webp)
 现在让我们分析一下在闪电网络的一个通道从一端向另一端转移资金时，幕后真正发生了什么，这涉及到承诺交易的概念。链上提现/关闭交易代表了通道的状态，保证了每次转账后资金的所有权。因此，在闪电网络转账后，这个交易/合约会在两个对等方，爱丽丝和鲍勃之间更新，他们在关闭的情况下创建具有当前通道状态的相同交易：
 - 爱丽丝与鲍勃开设了一个通道，在她这边有130,000 SAT。双方同意的关闭情况下的提现交易声明，在关闭时130,000 SAT将归爱丽丝所有，鲍勃同意因为这是公平的。
 
-![封面](assets/chapitre4/2.webp)
+![封面](assets/fr/12.webp)
 
 - 爱丽丝向鲍勃发送了30,000 SAT。现在有一个新的提现交易声明，在关闭的情况下，爱丽丝将收到100,000 SAT，鲍勃将收到30,000 SAT。双方同意因为这是公平的。
 
-![封面](assets/chapitre4/3.webp)
+![封面](assets/fr/13.webp)
 
 - 爱丽丝向鲍勃发送了10,000 SAT，一个新的提现交易被创建，声明在关闭的情况下，爱丽丝将收到90,000 SAT，鲍勃将收到40,000 SAT。双方同意因为这是公平的。
 
-![封面](assets/chapitre4/4.webp)
+![封面](assets/fr/14.webp)
 
 
 ```
@@ -182,11 +178,10 @@ Alice现在可以独自回收资金，因为她已经有了Bob的签名。她发
 ## 承诺交易
 <chapterId>f2f61e5b-badb-5947-9a81-7aa530b44e59</chapterId>
 
-![视频](https://youtu.be/veCs39uVFUk)
 
 如果承诺交易决定了时间点X的通道状态和流动性，我们能通过发布旧状态来作弊吗？答案是肯定的，因为我们已经拥有了两位参与者在未发布交易中的预签名。
 
-![指令](assets/Chapitre5/0.webp)
+![指令](assets/fr/15.webp)
 
 为了解决这个问题，我们将增加复杂性：
 
@@ -195,21 +190,20 @@ Alice现在可以独自回收资金，因为她已经有了Bob的签名。她发
 
 这两个元素被添加到承诺交易中。结果，爱丽丝必须等待时间锁结束，任何持有撤销密钥的人都可以在时间锁结束前移动资金。如果爱丽丝试图作弊，鲍勃使用撤销密钥来窃取并惩罚爱丽丝。
 
-![指令](assets/Chapitre5/1.webp)
+![指令](assets/fr/16.webp)
 现实中，Alice和Bob的承诺交易并不相同，它们是对称的，但各有不同的约束，他们互相给出自己的秘密以创建前一个承诺交易的撤销密钥。因此，在创建时，Alice与Bob创建通道，她这边有130,000 SAT，她有一个时间锁，阻止她立即取回她的钱，她必须稍等一会儿。撤销密钥可以解锁资金，但只有Alice拥有它（Alice的承诺交易）。一旦发生转账，Alice将提供她的旧秘密给Bob，因此后者将能够在Alice试图作弊的情况下将通道清空到之前的状态（因此Alice会受到惩罚）。
 
-![instruction](assets/Chapitre5/2.webp)
+![instruction](assets/fr/17.webp)
 
 同样，Bob也会提供他的秘密给Alice。这样如果他试图作弊，Alice可以惩罚他。每个新的承诺交易都会重复此操作。决定一个新的秘密和一个新的撤销密钥。因此，对于每个新交易，都必须通过给出撤销秘密来销毁前一个承诺交易。这样如果Alice或Bob试图作弊，另一个人可以在（感谢时间锁）之前采取行动，从而避免作弊。在交易#3期间，因此给出交易#2的秘密，以允许Alice和Bob防御Alice或Bob。
 
-![instruction](assets/Chapitre5/3.webp)
+![instruction](assets/fr/18.webp)
 
 创建带有时间锁的交易的人（发送钱的人）只能在时间锁之后使用撤销密钥。然而，接收钱的人可以在时间锁之前使用它，以防一个通道的一方对另一方作弊。特别是，我们详细介绍了允许我们防范通道内同伴可能作弊的机制。
 
 ## 通道关闭
 <chapterId>29a72223-2249-5400-96f0-3756b1629bc2</chapterId>
 
-![video](https://youtu.be/zmAa2fj_V7w)
 
 我们关注通过比特币交易进行的通道关闭，这可以根据情况采取不同的形式。有3种类型的通道关闭：
 
@@ -217,14 +211,14 @@ Alice现在可以独自回收资金，因为她已经有了Bob的签名。她发
 - 粗暴的：强制关闭（非合作）
 - 作弊的：作弊者关闭
 
-![instruction](assets/chapitre6/1.webp)
-![instruction](assets/chapitre6/0.webp)
+![instruction](assets/fr/19.webp)
+![instruction](assets/fr/20.webp)
 
 ### 好的
 
 两个同伴沟通并同意关闭通道。他们停止所有交易并验证通道的最终状态。他们就网络费用达成一致（打开通道的人支付关闭费用）。他们现在创建关闭交易。关闭交易与承诺交易不同，因为没有时间锁和撤销密钥。然后发布交易，Alice和Bob收到各自的余额。这种类型的关闭速度快（因为没有时间锁）且通常成本较低。
 
-![instruction](assets/chapitre6/3.webp)
+![instruction](assets/fr/21.webp)
 
 ### 粗暴的
 爱丽丝想要关闭通道，但鲍勃没有回应，因为他离线了（互联网或电力中断）。然后，爱丽丝将发布最新的承诺交易（最后一个）。交易被发布，时间锁被激活。然后，费用是在过去的X时间创建此交易时决定的！自那时以来，MemPool是已经变化的网络，所以协议默认使用创建交易时当前费用的5倍。创建费用为10 SAT，所以交易考虑了50 SAT。在强制关闭时，网络情况是：
@@ -233,13 +227,13 @@ Alice现在可以独自回收资金，因为她已经有了Bob的签名。她发
 
 这使得强制关闭变得更长（时间锁）并且在费用和可能的矿工验证方面尤其更加风险。
 
-![指导](assets/chapitre6/4.webp)
+![指导](assets/fr/22.webp)
 
 ### 骗子
 
 爱丽丝试图通过发布旧的承诺交易来作弊。但鲍勃监控MemPool并寻找试图发布旧交易的交易。如果他发现了，他就使用撤销密钥来惩罚爱丽丝并从通道中拿走所有的SAT。
 
-![指导](assets/chapitre6/5.webp)
+![指导](assets/fr/23.webp)
 
 总之，闪电网络中的通道关闭是一个关键步骤，可以采取各种形式。在合作关闭中，双方沟通并同意通道的最终状态。这是最快和最便宜的选项。另一方面，当一方无响应时，会发生强制关闭。由于交易费用不可预测和时间锁的激活，这是一个更昂贵和更长的情况。最后，如果参与者试图通过发布旧的承诺交易来作弊，骗子，他们可以通过失去通道中的所有SAT来受到惩罚。因此，理解这些机制对于闪电网络的有效和公平使用至关重要。
 
@@ -249,12 +243,11 @@ Alice现在可以独自回收资金，因为她已经有了Bob的签名。她发
 ## 闪电网络
 <chapterId>45a7252c-fa4f-554b-b8bb-47449532918e</chapterId>
 
-![视频](https://youtu.be/44oBdNdXtEQ)
 
 在这第七章中，我们研究闪电网络如何作为一个通道网络工作，以及如何从源头路由支付到目的地。
 
-![封面](assets/Chapitre7/0.webp)
-![封面](assets/Chapitre7/1.webp)
+![封面](assets/fr/24.webp)
+![封面](assets/fr/25.webp)
 
 闪电网络是一个支付通道网络。成千上万的节点通过各自的流动性通道相互连接，从而自用来在不相连的节点之间进行交易。这些通道的流动性不能转移到其他流动性通道。
 
@@ -268,7 +261,7 @@ Alice现在可以独自回收资金，因为她已经有了Bob的签名。她发
 网络的初始状态：
 爱丽丝 (130 SAT) ==== (0 SAT) 苏西 (90 SAT) ==== (200 SAT) 伊甸 (150 SAT) ==== (100 SAT) 鲍勃
 ```
-![封面](assets/Chapitre7/2.webp)
+![封面](assets/fr/26.webp)
 
 如果爱丽丝要向鲍勃转移40 SAT，那么流动性将沿着两方之间的路线重新分配。
 
@@ -276,7 +269,7 @@ Alice现在可以独自回收资金，因为她已经有了Bob的签名。她发
 爱丽丝向鲍勃转移40 SAT后：
 爱丽丝（90 SAT）====（40 SAT）苏西（50 SAT）====（240 SAT）伊甸（110 SAT）====（140 SAT）鲍勃
 
-![cover](assets/Chapitre7/4.webp)
+![cover](assets/fr/27.webp)
 
 然而，在初始状态下，鲍勃无法向爱丽丝发送40 SAT，因为苏西与爱丽丝之间没有流动性可以发送40 SAT，所以通过这条路线支付是不可能的。因此，我们需要找到另一条交易不可能的路线。
 
@@ -289,7 +282,7 @@ Alice现在可以独自回收资金，因为她已经有了Bob的签名。她发
 - 爱丽丝的费用 = 爱丽丝 -> 鲍勃
 - 鲍勃的费用 = 鲍勃 -> 爱丽丝
 
-![cover](assets/Chapitre7/5.webp)
+![cover](assets/fr/28.webp)
 
 有两种类型的费用：
 
@@ -308,7 +301,7 @@ Alice现在可以独自回收资金，因为她已经有了Bob的签名。她发
 - 费用2：0 + 40,000 \* 0.0002 = 8 SAT
 - 费用3：1 + 40,000\* 0.000001 = 0.4 SAT
 
-![cover](assets/Chapitre7/6.webp)
+![cover](assets/fr/29.webp)
 
 运输：
 
@@ -318,24 +311,23 @@ Alice现在可以独自回收资金，因为她已经有了Bob的签名。她发
 
 爱丽丝支付了9.04 SAT的费用，鲍勃收到了40,000 SAT。
 
-![cover](assets/Chapitre7/7.webp)
+![cover](assets/fr/30.webp)
 
 在闪电网络中，是爱丽丝的节点在发送支付前决定路线的。因此，需要寻找最佳路线，而且只有爱丽丝知道路线和价格。支付被发送，但苏西没有任何信息。
 
-![cover](assets/Chapitre7/9.webp)
+![cover](assets/fr/31.webp)
 
 对于苏西或伊甸：他们不知道最终接收者是谁，也不知道是谁发送的支付。这就是洋葱路由。节点必须保持对网络的规划以找到其路线，但中间人没有任何信息。
 
 ## HTLC - 哈希时间锁定合约
 <chapterId>4369b85a-1365-55d8-99e1-509088210116</chapterId>
 
-![video](https://youtu.be/jI4nM297aHA)
 
 在传统的路由系统中，我们如何确保伊甸不会作弊并遵守他们的合约部分？
 
 HTLC是一种只能用秘密解锁的支付合约。如果不揭示秘密，那么合约就会到期。因此，这是一种有条件的支付。它们是如何被使用的？
 
-![instruction](assets/chapitre8/0.webp)
+![instruction](assets/fr/32.webp)
 
 考虑以下情况：
 Alice（100,000 SAT）====（30,000 SAT）Susie（250,000 SAT）====（0 SAT）Bob
@@ -348,7 +340,7 @@ Alice（100,000 SAT）====（30,000 SAT）Susie（250,000 SAT）====（0 SAT）B
 
 如果Bob离线并且永远不检索给他合法性以接收钱的秘密，那么HTLC将在一定数量的区块后过期。
 
-![指令](assets/chapitre8/1.webp)
+![指令](assets/fr/33.webp)
 
 HTLCs按相反顺序过期：首先是Susie-Bob过期，然后是Alice-Susie过期。这样，如果Bob返回，它不会改变任何事情。否则，如果Alice在Bob返回时取消，那将是一场混乱，人们可能白忙一场。
 
@@ -356,7 +348,7 @@ HTLCs按相反顺序过期：首先是Susie-Bob过期，然后是Alice-Susie过�
 
 因此，在承诺交易中有一个40,000 satoshis的HTLC-out（之前看到的限制）通过输出#3。
 
-![指令](assets/chapitre8/2.webp)
+![指令](assets/fr/34.webp)
 
 Alice在承诺交易中有：
 
@@ -366,7 +358,7 @@ Alice在承诺交易中有：
 
 Alice的承诺交易是带有HTLC-out的，因为她向接收者Susie发送了一个HTLC-in。
 
-![指令](assets/chapitre8/3.webp)
+![指令](assets/fr/35.webp)
 
 因此，如果我们发布这个承诺交易，Susie可以用“s”图像检索HTCL钱。如果她没有原像，一旦HTCL过期，Alice就可以取回钱。将输出（UTXO）视为具有不同条件的不同支付。
 一旦支付完成（过期或执行），通道状态改变，带有HTCL的交易不再存在。我们回到了一些经典的东西。
@@ -381,7 +373,6 @@ Alice的承诺交易是带有HTLC-out的，因为她向接收者Susie发送了�
 ## 寻找你的路径
 <chapterId>7e2ae959-c2a1-512e-b5d6-8fd962e819da</chapterId>
 
-![video](https://youtu.be/CqetCElRjUQ)
 
 唯一的公开数据是总通道容量（Alice + Bob），但我们不知道流动性的位置。
 为了获得更多信息，我们的节点监听LN通信频道，以获取新通道的公告和通道费用的更新。你的节点还会查看区块链以了解通道关闭情况。
@@ -395,7 +386,7 @@ Alice的承诺交易是带有HTLC-out的，因为她向接收者Susie发送了�
 - 中间节点数量
 - 随机性
 
-![graph](assets/chapitre9/1.webp)
+![graph](assets/fr/36.webp)
 
 所以如果有3条可能的路线：
 
@@ -407,7 +398,7 @@ Alice的承诺交易是带有HTLC-out的，因为她向接收者Susie发送了�
 
 例如，如果2-3的容量只有130,000 SAT，发送100,000是非常不可能的，所以选择#3没有成功的机会。
 
-![graph](assets/chapitre9/2.webp)
+![graph](assets/fr/37.webp)
 
 现在算法已经做出了它的3个选择，并将尝试第一个：
 
@@ -438,7 +429,7 @@ Alice没有看到路线1的失败，她只是多等了一秒钟。当没有可�
 Bob因为直接连接到通道5和3，所以他知道这些通道的流动性，他可以把这个信息告诉Alice。他提醒Alice节点3是无用的，这阻止了Alice可能构建的路由。
 另一个元素是Bob可能拥有的私有通道（因此不在网络上发布）。如果Bob与节点1有一个私有通道，他可以告诉Alice使用它，这将给Alice > 1 > Bob的路由。
 
-![图表](assets/chapitre9/3.webp)
+![图表](assets/fr/38.webp)
 
 总之，在闪电网络上路由交易是一个复杂的过程，需要考虑各种因素。虽然通道的总容量是公开的，但流动性的精确分布并不直接可访问。这迫使节点估计最有可能成功的路由，考虑到诸如费用、HTLC到期时间、中间节点数量和随机因素等标准。当有多条可能的路由时，节点寻求通过选择具有足够流动性和最少跳数的通道来最小化费用并最大化成功机会。如果交易尝试因流动性不足而失败，将尝试另一条路由，直到交易成功。
 
@@ -450,9 +441,8 @@ Bob因为直接连接到通道5和3，所以他知道这些通道的流动性，
 ## 发票，LNURL，Keysend
 <chapterId>e34c7ecd-2327-52e3-b61e-c837d9e5e8b0</chapterId>
 
-![视频](https://youtu.be/XANzf1Qqp9I)
 
-![封面](assets/chapitre10/0.webp)
+![封面](assets/fr/39.webp)
 
 一个LN发票（或发票）长且不易阅读，但它允许对支付请求进行密集表示。
 
@@ -489,20 +479,19 @@ lnbc1m1pskuawzpp5qeuuva2txazy5g483tuv9pznn9ft8l5e49s5dndj2pqq0ptyn8msdqqcqzpgxqr
 
 还有其他类型的发票。LNURL元协议允许提供直接的satoshi金额，而不是发出请求。这非常灵活，可以在用户体验方面带来许多改进。
 
-![封面](assets/chapitre10/2.webp)
+![封面](assets/fr/40.webp)
 
 Keysend允许Alice在不请求Bob的情况下向Bob发送钱。Alice检索Bob的ID，创建一个预图像而不询问Bob，并将其包含在她的支付中。因此，Bob将收到一个惊喜请求，他可以解锁资金，因为Alice已经完成了工作。
 
-![封面](assets/chapitre10/3.webp)
+![封面](assets/fr/41.webp)
 
 总之，尽管闪电网络发票乍看之下复杂，但实际上有效地编码了支付请求。发票的每个部分都包含关键信息，包括要支付的金额、收款人、创建时间戳，以及可能的其他信息，如预图像的哈希、支付秘密、路由提示和过期时间。诸如LNURL和Keysend之类的协议在灵活性和用户体验方面提供了显著改进，例如，允许在未经对方请求的情况下发送资金。这些技术使得在闪电网络上的支付过程更加顺畅和高效。
 
 ## 管理流动性
 <chapterId>cc76d0c4-d958-57f5-84bf-177e21393f48</chapterId>
 
-![视频](https://youtu.be/MIbej28La7Y)
 
-![指导](assets/chapitre11/0.webp)
+![指导](assets/fr/42.webp)
 
 我们提供一些通用指南来回答关于闪电网络上管理流动性的长久问题。
 
@@ -542,11 +531,11 @@ Alice 通过 Susie 的节点向 Loop 发送了 100 万，因此 Susie 拥有了�
 
 双方用撤销密钥和时间锁来保护自己免受欺骗。优先选择通过双方同意来关闭通道。在强制关闭的情况下，发布最后的承诺交易。
 支付可以借用其他中间节点的通道。基于哈希时间锁（HTLC）的条件支付允许资金被锁定，直到支付完全解决。在闪电网络中使用洋葱路由。中间节点不知道支付的最终目的地。Alice必须计算支付路线，但她没有关于中间通道流动性的所有信息。
-![instruction](assets/chapitre12/4.webp)
+![instruction](assets/fr/51.webp)
 
 通过闪电网络发送支付时存在一个概率组件。
 
-![instruction](assets/chapitre12/5.webp)
+![instruction](assets/fr/52.webp)
 
 为了接收支付，必须在通道中管理流动性，这可以通过请求其他人向我们开通通道、自己开通通道以及使用像Loop这样的工具或在市场上购买/租赁通道来完成。
 
@@ -576,9 +565,14 @@ Alice 通过 Susie 的节点向 Loop 发送了 100 万，因此 Susie 拥有了�
 
 最后，比特币的未来充满希望，五年内可能达到一百万的预测。为了确保行业的专业化和创建一个替代现有银行系统的替代系统，重要的是要为网络做出贡献并停止信任。
 
-## 给我们关于这门课程的反馈
+## 评估课程
 <chapterId>38814c99-eb7b-5772-af49-4386ee2ce9b0</chapterId>
 <isCourseReview>true</isCourseReview>
+
+## 期末考试
+<chapterId>7ed33400-aef7-5f3e-bfb1-7867e445d708</chapterId>
+<isCourseExam>true</isCourseExam>
+
 
 ## 致谢并继续探索深渊<chapterId>afc0d72b-4fbc-5893-90b2-e27fb519ad02</chapterId>
 

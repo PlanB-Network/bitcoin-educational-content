@@ -112,7 +112,7 @@ Hodně štěstí ve vašem studiu a pokud potřebujete kontaktovat náš tým ne
 
 
 
-## Dejte nám zpětnou vazbu k tomuto kurzu
+## Ohodnoťte kurz
 <chapterId>0217e8b0-942a-5fee-bd91-9a866551eff3</chapterId>
 <isCourseReview>true</isCourseReview>
 

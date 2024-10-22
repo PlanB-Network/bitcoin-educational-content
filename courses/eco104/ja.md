@@ -1589,9 +1589,14 @@ HRエージェンシー、ナイジェリア
 
 
 
-## このコースについてのフィードバックをお寄せください
+## コースを評価してください
 <chapterId>86e358bb-88f4-5d20-af53-93f0f3524590</chapterId>
 <isCourseReview>true</isCourseReview>
+
+## 最終試験
+<chapterId>cbdb0b33-0491-5013-b96c-9a84dd085ed0</chapterId>
+<isCourseExam>true</isCourseExam>
+
 
 ## 終わりに
 <chapterId>2b27b4dd-10e1-56a7-978e-1e5085f9aaff</chapterId>

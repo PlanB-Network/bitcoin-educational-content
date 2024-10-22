@@ -521,9 +521,14 @@ Methodologie ist ein wesentlicher Aspekt in der Wirtschaft und den Sozialwissens
 
 
 
-## Geben Sie uns Ihr Feedback zu diesem Kurs
+## Bewerten Sie den Kurs
 <chapterId>29d4323c-e34e-5834-bf03-2f3ed10d751b</chapterId>
 <isCourseReview>true</isCourseReview>
+
+## Abschlussprüfung
+<chapterId>d58d188f-81fb-572a-a898-8b6f8aceba7a</chapterId>
+<isCourseExam>true</isCourseExam>
+
 
 ## Weitere Studien
 <chapterId>64faaed4-84b9-5b8c-9736-a959e8e6cd9d</chapterId>

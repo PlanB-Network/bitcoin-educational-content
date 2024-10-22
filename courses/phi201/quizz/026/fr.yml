@@ -1,0 +1,8 @@
+question: Qu'est-ce que la "polis" grecque ?
+answer: La place du marché
+wrong_answers:
+  - La loi de la nature
+  - La loi humaine
+  - Le temple dédié aux dieux
+explanation: 
+reviewed: false

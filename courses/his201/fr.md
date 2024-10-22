@@ -1428,9 +1428,14 @@ Cette dimension mystérieuse entourant le créateur de Bitcoin a par ailleurs é
 > Que représente le S ? »
 
 
-## Donnez-nous votre avis sur ce cours
+## Évaluez ce cours
 <chapterId>73825805-29e2-54bf-a8c3-62614b52fbef</chapterId>
 <isCourseReview>true</isCourseReview>
+
+## Examen final
+<chapterId>39e43ec2-5b38-5174-882a-c1f7d284b9e6</chapterId>
+<isCourseExam>true</isCourseExam>
+
 ## La prise de relai de la communauté
 <chapterId>16c5e6d6-2412-48c6-9687-6af92cf0d89a</chapterId>
 

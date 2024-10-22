@@ -31,7 +31,7 @@ Lightning-maksukanava on eräänlainen "yksityinen kaista" kahden käyttäjän v
 
 Maksukanavat ovat kaksisuuntaisia, mikä tarkoittaa, että niillä on kaksi "puolta". Esimerkiksi, jos Alice ja Bob avaavat maksukanavan, Alice voi lähettää Bitcoinia Bobille, ja Bob voi lähettää Bitcoinia Alicelle. Kanavan sisäiset transaktiot eivät muuta kanavan kokonaiskapasiteettia, mutta ne muuttavat kapasiteetin jakautumista Alicen ja Bobin välillä.
 
-![explication](assets/chapitre1/0.webp)
+![explication](assets/fr/1.webp)
 
 Jotta transaktio olisi mahdollinen Lightning-maksukanavassa, rahaa lähettävällä käyttäjällä on oltava tarpeeksi Bitcoinia kanavansa puolella. Jos Alice haluaa lähettää 1 Bitcoinin Bobille kanavansa kautta, hänen on oltava vähintään 1 Bitcoin hänen puolellaan kanavassa.
 Rajoitukset ja maksukanavien toiminta Lightning-verkossa.
@@ -39,7 +39,7 @@ Vaikka Lightning-maksukanavan kapasiteetti on kiinteä, se ei rajoita kokonaism�
 
 Huolimatta näistä rajoituksista, Lightning-maksukanavat ovat tehokas tapa suorittaa nopeita ja edullisia Bitcoin-siirtoja. Ne mahdollistavat käyttäjille Bitcoinin lähettämisen ja vastaanottamisen maksamatta korkeita siirtomaksuja tai odottamatta pitkiä vahvistusaikoja Bitcoin-verkossa.
 Yhteenvetona voidaan sanoa, että Lightning-maksukanavat tarjoavat tehokkaan ratkaisun niille, jotka haluavat suorittaa nopeita ja edullisia Bitcoin-siirtoja. On kuitenkin olennaista ymmärtää niiden toiminta ja rajoitukset, jotta niistä saisi täyden hyödyn.
-![selitys](assets/chapitre1/1.webp)
+![selitys](assets/fr/2.webp)
 
 Esimerkki:
 
@@ -61,11 +61,11 @@ Alicen siirrettyä 40 000 SAT Bobille:
 Alice (60 000 SAT) ============== Bob (70 000 SAT)
 
 ```
-![selitys](assets/chapitre1/2.webp)
+![selitys](assets/fr/3.webp)
 
 Nyt Bob haluaa lähettää 80 000 SAT Alicelle. Koska hänellä ei ole tarpeeksi likviditeettiä, hän ei voi tehdä sitä. Kanavan maksimikapasiteetti on 130 000 SAT, jossa Alicen mahdollinen meno on enintään 60 000 SAT ja Bobin 70 000 SAT.
 
-![selitys](assets/chapitre1/3.webp)
+![selitys](assets/fr/4.webp)
 
 ## Bitcoin, osoitteet, UTXO ja siirrot
 <chapterId>0cfb7e6b-96f0-508b-9210-90bc1e28649d</chapterId>
@@ -76,7 +76,7 @@ Tässä toisessa luvussa käytämme aikaa tutkiaksemme, miten Bitcoin-siirrot to
 - Bitcoin-siirrossa kaikkien bitcoinien on liikuttava. Nimeltään UTXO (Unspend Transaction Output), bitcoinin palaset lähtevät kaikki vain palatakseen omistajalleen myöhemmin.
   Alicella on 0,002 BTC, Bobilla on 0 BTC. Alice päättää lähettää 0,0015 BTC Bobille. Hän allekirjoittaa 0,002 BTC:n siirron, josta 0,0015 menee Bobille ja 0,0005 palaa hänen lompakkoonsa.
 
-![selitys](assets/chapitre2/0.webp)
+![selitys](assets/fr/5.webp)
 
 Tässä, yhdestä UTXO:sta (Alicella on 0,0002 BTC osoitteessa), olemme luoneet 2 UTXO:a (Bobilla on 0,0015 ja Alicella on uusi UTXO (riippumaton edellisestä) 0,0005 BTC).
 
@@ -92,7 +92,7 @@ Bitcoin-siirto (0,002 BTC)
 Alice (uusi UTXO: 0,0005 BTC)
 ```
 Salama-verkossa käytetään moniallekirjoituksia. Siksi varojen vapauttamiseen vaaditaan 2 allekirjoitusta, eli kaksi yksityistä avainta rahan siirtämiseen. Tämä voi olla Alice ja Bob, jotka yhdessä, täytyy suostua rahojen vapauttamiseen (UTXO). LN:ssä erityisesti, ne ovat 2/2 transaktioita, joten molemmat allekirjoitukset ovat ehdottoman välttämättömiä, toisin kuin 2/3 tai 3/5 moniallekirjoituksissa, joissa tarvitaan vain yhdistelmä kokonaisavainten määrästä.
-![selitys](assets/chapitre2/1.webp)
+![selitys](assets/fr/6.webp)
 
 # Kanavien avaaminen ja sulkeminen
 <partId>900b5b6b-ccd0-5b2f-9424-4b191d0e935d</partId>
@@ -108,14 +108,14 @@ Salama-verkolla on eri viestintätasoja:
 - Maksukanava (Salama-verkon protokolla)
 - Bitcoin-transaktio (Bitcoin-protokolla)
 
-![selitys](assets/chapitre3/0.webp)
+![selitys](assets/fr/7.webp)
 
 Kanavan avatakseen kaksi vertaista kommunikoi viestintäkanavan kautta:
 
 - Alice: "Hei, haluan avata kanavan!"
 - Bob: "Ok, tässä on julkinen osoitteeni."
 
-![selitys](assets/chapitre3/1.webp)
+![selitys](assets/fr/8.webp)
 
 Alicella on nyt 2 julkista osoitetta luodakseen 2/2 moniallekirjoitusosoitteen. Hän voi nyt tehdä bitcoin-transaktion lähettääkseen rahaa siihen.
 
@@ -130,31 +130,31 @@ Mutta miten sitten edetä?
 
 Alice luo toisen transaktion, jota kutsutaan "nostotransaktioksi", ennen kuin julkaisee varojen talletuksen moniallekirjoitukseen.
 
-![selitys](assets/chapitre3/2.webp)
+![selitys](assets/fr/9.webp)
 
 Nostotransaktio käyttää varoja moniallekirjoitusosoitteesta hänen omaan osoitteeseensa (tämä tehdään ennen kaiken julkaisemista).
 Kun molemmat transaktiot on rakennettu, Alice kertoo Bobille, että se on tehty ja pyytää häntä allekirjoittamaan julkisella avaimellaan, selittäen, että näin hän voi palauttaa varansa, jos jotain menee pieleen. Bob suostuu, koska hän ei ole epärehellinen.
 
 Alice voi nyt palauttaa varat yksin, koska hänellä on jo Bobin allekirjoitus. Hän julkaisee transaktiot. Kanava on nyt avoin 0.0013 BTC:llä (130 000 SAT) Alicen puolella.
 
-![selitys](assets/chapitre3/3.webp)
+![selitys](assets/fr/10.webp)
 
 ## Salama-transaktio & Sitoutumistransaktio
 <chapterId>7d3fd135-129d-5c5a-b306-d5f2f1e63340</chapterId>
 
-![kansi](assets/chapitre4/1.webp)
+![kansi](assets/fr/11.webp)
 Nyt analysoidaan, mitä todella tapahtuu kulissien takana, kun varoja siirretään toiselta puolelle toiselle Lightning Networkin kanavassa, sitoumustapahtuman käsitteen avulla. Ketjussa tapahtuva nosto-/sulkemistapahtuma edustaa kanavan tilaa, taaten kuka omistaa varat jokaisen siirron jälkeen. Joten Lightning Network -siirron jälkeen tämän tapahtuman/sopimuksen tila päivittyy, mutta sitä ei toteuteta kahden osapuolen, Alicen ja Bobin, välillä, jotka luovat saman tapahtuman nykyisellä kanavan tilalla sulkemistilanteessa:
 - Alice avaa kanavan Bobin kanssa 130 000 SAT:lla omalla puolellaan. Sulkemistilanteessa molempien hyväksymä nostotapahtuma toteaa, että 130 000 SAT menee Alicelle sulkemisen yhteydessä, ja Bob suostuu, koska se on reilua.
 
-![cover](assets/chapitre4/2.webp)
+![cover](assets/fr/12.webp)
 
 - Alice lähettää 30 000 SAT Bobille. Nyt on olemassa uusi nostotapahtuma, joka toteaa sulkemistilanteessa, että Alice saa 100 000 SAT ja Bob 30 000 SAT. Molemmat suostuvat, koska se on reilua.
 
-![cover](assets/chapitre4/3.webp)
+![cover](assets/fr/13.webp)
 
 - Alice lähettää 10 000 SAT Bobille, ja luodaan uusi nostotapahtuma, joka toteaa, että Alice saa 90 000 SAT ja Bob 40 000 SAT sulkemistilanteessa. Molemmat suostuvat, koska se on reilua.
 
-![cover](assets/chapitre4/4.webp)
+![cover](assets/fr/14.webp)
 
 ```
 Kanavan alkutila:
@@ -174,7 +174,7 @@ Raha ei liiku, mutta lopullinen saldo päivitetään allekirjoitetulla, mutta ju
 
 Jos sitoumustapahtumat määrittelevät kanavan tilan likviditeetillä hetkellä X, voimmeko huijata julkaisemalla vanhan tilan? Vastaus on kyllä, koska meillä on jo molempien osallistujien esiallekirjoitus julkaisemattomassa tapahtumassa.
 
-![instruction](assets/Chapitre5/0.webp)
+![instruction](assets/fr/15.webp)
 
 Ratkaisuksi lisäämme monimutkaisuutta:
 
@@ -183,14 +183,14 @@ Ratkaisuksi lisäämme monimutkaisuutta:
 
 Nämä kaksi elementtiä lisätään sitoumustapahtumaan. Seurauksena Alice joutuu odottamaan Timelockin päättymistä, ja kuka tahansa, jolla on revocation key, voi siirtää varoja odottamatta Timelockin päättymistä. Jos Alice yrittää huijata, Bob käyttää revocation keytä varastaakseen ja rankaistakseen Alicea.
 
-![instruction](assets/Chapitre5/1.webp)
+![instruction](assets/fr/16.webp)
 Nyt (ja todellisuudessa) sitoutumistransaktio ei ole sama Alicelle ja Bobille, ne ovat symmetrisiä mutta kullakin on erilaiset rajoitukset, he antavat toisilleen salaisuutensa, jotta voivat luoda edellisen sitoutumistransaktion peruutusavaimen. Joten luomishetkellä Alice luo kanavan Bobin kanssa, 130 000 SAT hänen puolellaan, hänellä on aikalukko, joka estää häntä välittömästi saamasta rahansa takaisin, hänen täytyy odottaa hetki. Peruutusavain voi avata rahat, mutta vain Alicella on se (Alicen sitoutumistransaktio). Kun siirto tapahtuu, Alice antaa vanhan salaisuutensa Bobille ja siten jälkimmäinen voi tyhjentää kanavan edelliseen tilaan, jos Alice yrittää huijata (Alice siis rangaistaan).
 
-![instruction](assets/Chapitre5/2.webp)
+![instruction](assets/fr/17.webp)
 
 Samoin Bob antaa salaisuutensa Alicelle. Joten jos hän yrittää huijata, Alice voi rangaista häntä. Toiminto toistetaan jokaiselle uudelle sitoutumistransaktiolle. Uusi salaisuus päätetään ja uusi peruutusavain. Joten jokaiselle uudelle transaktiolle, edellinen sitoutumistransaktio on tuhottava antamalla peruutussalaisuus. Näin ollen, jos Alice tai Bob yrittää huijata, toinen voi toimia ennen (kiitos aikaluukon) ja siten välttää huijauksen. Transaktiossa #3, transaktion #2 salaisuus annetaan siis mahdollistamaan Alicen ja Bobin puolustautumisen Alicen tai Bobin huijausta vastaan.
 
-![instruction](assets/Chapitre5/3.webp)
+![instruction](assets/fr/18.webp)
 
 Henkilö, joka luo transaktion aikaluukolla (se, joka lähettää rahat), voi käyttää peruutusavainta vasta aikaluukon jälkeen. Kuitenkin henkilö, joka vastaanottaa rahat, voi käyttää sitä ennen aikaluukkoa, jos toisella puolella kanavaa Lightning Networkissa tapahtuu huijaus. Erityisesti käymme läpi mekanismeja, jotka mahdollistavat mahdollisen huijauksen estämisen kanavakumppanin toimesta.
 
@@ -203,15 +203,15 @@ Olemme kiinnostuneita kanavan sulkemisesta Bitcoin-transaktion kautta, joka voi 
 - Raaka: pakotettu sulkeminen (ei-yhteistyöllinen)
 - Huijaus: huijarin sulkeminen
 
-![instruction](assets/chapitre6/1.webp)
-![instruction](assets/chapitre6/0.webp)
+![instruction](assets/fr/19.webp)
+![instruction](assets/fr/20.webp)
 
 
 ### Hyvä
 
 Kaksi vertaista kommunikoi ja sopii kanavan sulkemisesta. He lopettavat kaikki transaktiot ja vahvistavat kanavan lopullisen tilan. He sopivat verkkojen maksuista (henkilö, joka avasi kanavan, maksaa sulkemismaksut). He luovat nyt sulkemistransaktion. On olemassa sulkemistransaktio, joka eroaa sitoutumistransaktioista, koska siinä ei ole aikaluukkoa eikä peruutusavainta. Transaktio julkaistaan ja Alice ja Bob saavat vastaavat saldonsa. Tämän tyyppinen sulkeminen on nopea (koska ei ole aikaluukkoa) ja yleensä edullinen.
 
-![instruction](assets/chapitre6/3.webp)
+![instruction](assets/fr/21.webp)
 
 ### Raaka
 
@@ -220,13 +220,13 @@ Alice haluaa sulkea kanavan, mutta Bob ei vastaa, koska hän on offline-tilassa 
 
 Tämä tekee pakotetusta sulkemisesta pidemmän (Timelock) ja erityisesti riskialttiimman maksujen ja mahdollisen louhijoiden validoinnin kannalta.
 
-![ohje](assets/chapitre6/4.webp)
+![ohje](assets/fr/22.webp)
 
 ### Huijari
 
 Alice yrittää huijata julkaisemalla vanhan sitoumustapahtuman. Mutta Bob seuraa MemPoolia ja tarkkailee tapahtumia, jotka yrittävät julkaista vanhoja. Jos hän löytää sellaisen, hän käyttää peruutusavainta rangaistakseen Alicea ja ottaakseen kaikki SATit kanavalta.
 
-![ohje](assets/chapitre6/5.webp)
+![ohje](assets/fr/23.webp)
 
 Yhteenvetona voidaan todeta, että kanavan sulkeminen Lightning-verkossa on ratkaiseva vaihe, joka voi ottaa erilaisia muotoja. Yhteistyöllisessä sulkemisessa molemmat osapuolet kommunikoivat ja sopivat kanavan lopullisesta tilasta. Tämä on nopein ja vähiten kallis vaihtoehto. Toisaalta pakotettu sulkeminen tapahtuu, kun toinen osapuoli ei vastaa. Tämä on kalliimpi ja pidempi tilanne ennakoimattomien siirtomaksujen ja Timelockin aktivoitumisen vuoksi. Lopuksi, jos osallistuja yrittää huijata julkaisemalla vanhan sitoumustapahtuman, huijari, hän voidaan rangaista menettämällä kaikki SATit kanavalta. On siis ratkaisevan tärkeää ymmärtää nämä mekanismit tehokkaan ja reilun Lightning-verkon käytön kannalta.
 
@@ -238,8 +238,8 @@ Yhteenvetona voidaan todeta, että kanavan sulkeminen Lightning-verkossa on ratk
 
 Tässä seitsemännessä luvussa tutkimme, miten Lightning toimii kanavien verkostona ja miten maksut reititetään lähteestään määränpäähänsä.
 
-![kansi](assets/Chapitre7/0.webp)
-![kansi](assets/Chapitre7/1.webp)
+![kansi](assets/fr/24.webp)
+![kansi](assets/fr/25.webp)
 
 Lightning on maksukanavien verkosto. Tuhannet vertaiset omilla likviditeettikanavillaan ovat yhteydessä toisiinsa, ja siten itse käyttävät toimiaan suorittaakseen transaktioita yhdistämättömien vertaisten välillä. Näiden kanavien likviditeettiä ei voida siirtää muihin likviditeettikanaviin.
 
@@ -253,7 +253,7 @@ Harkitse seuraavaa verkkoa:
 Verkon alkutila:
 Alice (130 SAT) ==== (0 SAT) Susie (90 SAT) ==== (200 SAT) Eden (150 SAT) ==== (100 SAT) Bob
 ```
-![kansi](assets/Chapitre7/2.webp)
+![kansi](assets/fr/26.webp)
 
 Jos Alicen on siirrettävä 40 SAT Bobille, likviditeetti uudelleenjärjestellään reitin varrella kahden osapuolen välillä.
 
@@ -262,7 +262,7 @@ Alicen siirrettyä 40 SAT Bobille:
 Alice (90 SAT) ==== (40 SAT) Susie (50 SAT) ==== (240 SAT) Eden (110 SAT) ==== (140 SAT) Bob
 ```
 
-![kansi](assets/Chapitre7/4.webp)
+![kansi](assets/fr/27.webp)
 
 Alkutilanteessa Bob ei kuitenkaan voi lähettää 40 SAT Alicea kohti, koska Susiella ei ole likviditeettiä Alicen kanssa lähettääkseen 40 SAT, joten maksu tämän reitin kautta ei ole mahdollinen. Tarvitsemme siis toisen reitin, jossa transaktio on mahdoton.
 
@@ -273,7 +273,7 @@ Alice - Bob
 - Alicen maksu = Alice -> Bob
 - Bobin maksu = Bob -> Alice
 
-![cover](assets/Chapitre7/5.webp)
+![cover](assets/fr/28.webp)
 
 On olemassa kaksi tyyppistä maksua:
 
@@ -292,7 +292,7 @@ Näin ollen:
 - Maksu 2: 0 + 40,000 \* 0.0002 = 8 SAT
 - Maksu 3: 1 + 40,000\*0.000001 = 0.4 SAT
 
-![cover](assets/Chapitre7/6.webp)
+![cover](assets/fr/29.webp)
 
 Toimitus:
 
@@ -302,11 +302,11 @@ Toimitus:
 
 Alice maksoi 9.04 SAT maksun ja Bob sai 40,000 SAT.
 
-![cover](assets/Chapitre7/7.webp)
+![cover](assets/fr/30.webp)
 
 Lightning-verkossa on Alicen solmu, joka päättää reitin ennen maksun lähettämistä. Siksi etsitään parasta reittiä ja vain Alice tietää reitin ja hinnan. Maksu lähetetään, mutta Susiella ei ole tietoa.
 
-![cover](assets/Chapitre7/9.webp)
+![cover](assets/fr/31.webp)
 
 Susien tai Edenin osalta: he eivät tiedä, kuka on lopullinen vastaanottaja, eikä kuka lähettää maksun. Kyseessä on sipulireititys. Solmun on pidettävä suunnitelmaa verkostosta löytääkseen reittinsä, mutta yksikään välittäjistä ei omaa tietoa.
 
@@ -317,7 +317,7 @@ Perinteisessä reititysjärjestelmässä, miten voimme varmistaa, että Eden ei 
 
 HTLC on maksusopimus, joka voidaan avata vain salaisuudella. Jos sitä ei paljasteta, sopimus vanhenee. Siksi se on ehdollinen maksu. Miten niitä käytetään?
 
-![instruction](assets/chapitre8/0.webp)
+![instruction](assets/fr/32.webp)
 
 Harkitse seuraavaa tilannetta:
 `Alice (100,000 SAT) ==== (30,000 SAT) Susie (250,000 SAT) ==== (0 SAT) Bob`
@@ -330,14 +330,14 @@ Harkitse seuraavaa tilannetta:
 - Susie avaa Alicen HTLC:n näyttämällä hänelle "S"
 
 Jos Bob on offline-tilassa eikä koskaan hanki salaisuutta, joka antaa hänelle oikeutuksen vastaanottaa rahat, HTLC vanhenee tietyn määrän lohkojen jälkeen.
-![ohje](assets/chapitre8/1.webp)
+![ohje](assets/fr/33.webp)
 HTLC:t vanhenevat käänteisessä järjestyksessä: ensin Susie-Bobin vanheneminen, sitten Alice-Susien vanheneminen. Näin, jos Bob palaa, se ei muuta mitään. Muussa tapauksessa, jos Alice peruuttaa samalla kun Bob palaa, seurauksena voi olla sotku ja ihmiset ovat saattaneet tehdä työtä turhaan.
 
 Mitä siis tapahtuu kanavan sulkemisen yhteydessä? Itse asiassa sitoumustapahtumamme ovat vielä monimutkaisempia. Meidän on kuvattava väliaikainen saldo, jos kanava suljetaan.
 
 Siksi sitoumustapahtumassa on HTLC-ulostulo 40 000 satoshista (aiemmin nähtyjen rajoitusten kanssa) ulostulossa #3.
 
-![ohje](assets/chapitre8/2.webp)
+![ohje](assets/fr/34.webp)
 
 Alicen sitoumustapahtumassa on:
 
@@ -347,7 +347,7 @@ Alicen sitoumustapahtumassa on:
 
 Alicen sitoumustapahtuma sisältää HTLC-ulostulon, koska hän lähettää HTLC-sisääntulon vastaanottajalle, Susielle.
 
-![ohje](assets/chapitre8/3.webp)
+![ohje](assets/fr/35.webp)
 
 Jos siis julkaisemme tämän sitoumustapahtuman, Susie voi hakea HTCL-rahat "s"-kuvan avulla. Jos hänellä ei ole esikuvaa, Alice saa rahat takaisin, kun HTCL vanhenee. Ajattele ulostuloja (UTXO) erilaisina maksuina eri ehdoilla.
 Kun maksu on suoritettu (vanhentuminen tai suoritus), kanavan tila muuttuu ja HTCL-tapahtumaa ei enää ole. Palaamme johonkin klassiseen.
@@ -375,7 +375,7 @@ Kriteerit:
 - Välisolmujen määrä
 - Satunnaisuus
 
-![graph](assets/chapitre9/1.webp)
+![graph](assets/fr/36.webp)
 
 Joten jos mahdollisia reittejä on 3:
 
@@ -387,7 +387,7 @@ Etsimme teoriassa parasta reittiä, jolla on alhaisimmat maksut ja suurin onnist
 
 Esimerkiksi, jos 2-3:n kapasiteetti on vain 130 000 SAT, 100 000:n lähettäminen on erittäin epätodennäköistä, joten vaihtoehto #3 ei onnistu.
 
-![graph](assets/chapitre9/2.webp)
+![graph](assets/fr/37.webp)
 
 Nyt algoritmi on tehnyt 3 valintaa ja yrittää ensimmäistä:
 
@@ -419,7 +419,7 @@ Alice ei nähnyt reitin 1 epäonnistumista, hän vain odotti sekunnin kauemmin. 
 Bob tietää kanavien 5 ja 3 likviditeetin, koska hän on suoraan yhteydessä niihin, hän voi ilmoittaa tämän Alicelle. Hän varoittaa Alicea, että solmu 3 on hyödytön, mikä estää Alicen mahdollisesti tekemästä reittiään.
 Toinen elementti voisi olla yksityiset kanavat (joten ei julkaistu verkossa), joita Bobilla voi olla. Jos Bobilla on yksityinen kanava 1:n kanssa, hän voi kertoa Alicelle käyttämään sitä ja se antaisi Alicelle > 1 > Bob'.
 
-![graph](assets/chapitre9/3.webp)
+![graph](assets/fr/38.webp)
 Yhteenvetona voidaan todeta, että reititys Lightning-verkossa on monimutkainen prosessi, joka vaatii erilaisten tekijöiden huomioon ottamista. Vaikka kanavien kokonaiskapasiteetti on julkinen, tarkan likviditeetin jakautumisen näkeminen suoraan ei ole mahdollista. Tämä pakottaa solmut arvioimaan todennäköisimmin onnistuvat reitit, ottaen huomioon kriteereitä kuten maksut, HTLC:n vanhentumisaika, välisolmujen määrä ja satunnaisuustekijä. Kun useita reittejä on mahdollisia, solmut pyrkivät minimoimaan maksut ja maksimoimaan onnistumisen mahdollisuudet valitsemalla kanavia, joissa on riittävästi likviditeettiä ja mahdollisimman vähän hyppyjä. Jos transaktioyritys epäonnistuu riittämättömän likviditeetin vuoksi, toista reittiä kokeillaan kunnes onnistunut transaktio tehdään.
 Lisäksi, helpottaakseen reitin etsimistä, vastaanottaja voi tarjota lisätietoja, kuten osoitteen, määrän, esikuvahashin ja merkintöjä kanavistaan. Tämä voi auttaa tunnistamaan riittävän likviditeetin kanavia ja välttämään tarpeettomia transaktioyrityksiä. Lopulta Lightning-verkon reititysjärjestelmä on suunniteltu optimoimaan transaktioiden nopeus, turvallisuus ja tehokkuus säilyttäen samalla käyttäjän yksityisyyden.
 
@@ -429,7 +429,7 @@ Lisäksi, helpottaakseen reitin etsimistä, vastaanottaja voi tarjota lisätieto
 ## Lasku, LNURL, Keysend
 <chapterId>e34c7ecd-2327-52e3-b61e-c837d9e5e8b0</chapterId>
 
-![cover](assets/chapitre10/0.webp)
+![cover](assets/fr/39.webp)
 
 LN-lasku (tai lasku) on pitkä ja epämiellyttävä lukea, mutta se mahdollistaa tiiviin esityksen maksupyynnöstä.
 
@@ -466,18 +466,18 @@ Se sisältää 0 tai useampia lisäosia:
 
 On olemassa muita laskutyyppejä. LNURL-metaprotokolla mahdollistaa suoran satoshi-määrän tarjoamisen pyynnön sijaan. Tämä on erittäin joustavaa ja mahdollistaa monia parannuksia käyttäjäkokemuksen kannalta.
 
-![kansi](assets/chapitre10/2.webp)
+![kansi](assets/fr/40.webp)
 
 Keysend mahdollistaa Alicen lähettää rahaa Bobille ilman, että Bobin tarvitsee pyytää sitä. Alice hankkii Bobin tunnuksen, luo esikuvan kysymättä Bobilta ja sisällyttää sen maksuunsa. Näin Bob saa yllätyspyynnön, jossa hän voi vapauttaa rahat, koska Alice on jo tehnyt työn.
 
-![kansi](assets/chapitre10/3.webp)
+![kansi](assets/fr/41.webp)
 
 Yhteenvetona voidaan todeta, että vaikka Lightning Networkin lasku vaikuttaa ensi silmäyksellä monimutkaiselta, se koodaa tehokkaasti maksupyynnön. Laskun jokainen osa sisältää keskeistä tietoa, mukaan lukien maksettava summa, vastaanottaja, luontiaikaleima ja mahdollisesti muuta tietoa kuten esikuvan hajautus, maksusalaisuus, reititysvihjeet ja vanhentumisaika. Protokollat kuten LNURL ja Keysend tarjoavat merkittäviä parannuksia joustavuuden ja käyttäjäkokemuksen osalta, mahdollistaen esimerkiksi varojen lähettämisen ilman toisen osapuolen etukäteispyyntöä. Nämä teknologiat tekevät maksuprosessista sujuvamman ja tehokkaamman Lightning-verkossa.
 
 ## Likviditeetin hallinta
 <chapterId>cc76d0c4-d958-57f5-84bf-177e21393f48</chapterId>
 
-![ohje](assets/chapitre11/0.webp)
+![ohje](assets/fr/42.webp)
 
 Tarjoamme yleisiä ohjeita ikuisen likviditeetin hallinnan kysymykseen Lightning-verkossa.
 
@@ -489,28 +489,28 @@ LN:ssä on 3 tyyppistä ihmistä:
 
 Joten jos tarvitset saapuvaa likviditeettiä, voit ostaa sitä palveluista.
 
-![ohje](assets/chapitre11/1.webp)
+![ohje](assets/fr/43.webp)
 
 Alice ostaa kanavan Susielta 1 miljoonalla satoshilla, joten hän avaa kanavan suoraan 1 000 000 SAT saapuvalla puolella. Hän voi sen jälkeen hyväksyä maksuja asiakkailta jopa 1 miljoonaan SAT asti, jotka ovat yhteydessä Susieen (joka on hyvin yhdistetty).
 Toinen ratkaisu olisi tehdä maksuja; maksat 100 000 X syystä, voit nyt vastaanottaa 100 000.
-![instruction](assets/chapitre11/2.webp)
+![instruction](assets/fr/44.webp)
 
 ### Loop Out -ratkaisu: Atomivaihto LN - BTC
 
 Alice 2 miljoonaa - Susie 0
 
-![instruction](assets/chapitre11/3.webp)
+![instruction](assets/fr/45.webp)
 
 Alice haluaa lähettää likviditeettiä Susielle, joten hän tekee Loop out -toimen (erityinen solmu, joka tarjoaa ammattimaisen palvelun LN/BTC:n tasapainottamiseksi).
 Alice lähettää 1 miljoonan Loopille Susien solmun kautta, joten Susiella on likviditeetti ja Loop lähettää ketjussa olevan saldon takaisin Alicen solmuun.
 
-![instruction](assets/chapitre11/4.webp)
+![instruction](assets/fr/46.webp)
 
 Joten 1 miljoona menee Susielle, Susie lähettää 1 miljoonan Loopille, Loop lähettää 1 miljoonan Alicelle. Alice on siis siirtänyt likviditeettiä Susielle maksamalla joitakin maksuja Loopille palvelusta.
 
 LN:ssä vaikeinta on likviditeetin ylläpitäminen.
 
-![instruction](assets/chapitre11/5.webp)
+![instruction](assets/fr/47.webp)
 
 Yhteenvetona voidaan todeta, että likviditeetin hallinta Lightning Networkissa on keskeinen kysymys, joka riippuu käyttäjätyypistä: ostaja, kauppias tai reitityssolmu. Ostajilla, jotka tarvitsevat lähtevää likviditeettiä, on yksinkertaisin tehtävä: he vain avaavat kanavia. Kauppiaat, jotka tarvitsevat saapuvaa likviditeettiä, on oltava yhdistettyinä muihin solmuihin ja toimijoihin. Reitityssolmut puolestaan pyrkivät ylläpitämään likviditeetin tasapainoa molemmilla puolilla. Likviditeetin hallintaan on olemassa useita ratkaisuja, kuten kanavien ostaminen tai vastaanottokapasiteetin lisääminen maksamalla. "Loop Out" -vaihtoehto, joka mahdollistaa atomivaihdon LN:n ja BTC:n välillä, tarjoaa mielenkiintoisen ratkaisun likviditeetin tasapainottamiseen. Näistä strategioista huolimatta likviditeetin ylläpitäminen Lightning Networkissa on monimutkainen haaste.
 
@@ -524,22 +524,22 @@ Tavoitteenamme oli selittää, miten Lightning Network toimii ja miten se nojaa 
 
 Lightning Network on maksukanavien verkosto. Olemme nähneet, miten maksukanava toimii kahden osapuolen välillä, mutta olemme myös laajentaneet näkemystämme koko verkkoon, maksukanavien verkoston käsitteeseen.
 
-![instruction](assets/chapitre12/0.webp)
+![instruction](assets/fr/48.webp)
 
 Kanavat avataan Bitcoin-siirrolla ja ne voivat sisältää niin monta siirtoa kuin mahdollista. Kanavan tila esitetään sitoutumistransaktiolla, joka lähettää kummallekin osapuolelle sen, mitä heillä on kanavan puolella. Kun kanavassa tapahtuu siirto, osapuolet sitoutuvat uuteen tilaan hylkäämällä vanhan tilan ja rakentamalla uuden sitoutumistransaktion.
 
-![instruction](assets/chapitre12/1.webp)
+![instruction](assets/fr/49.webp)
 
 Parit suojaavat itseään huijauksilta peruutusavaimilla ja aikalukolla. Kanavan sulkeminen yhteisellä suostumuksella on suositeltavaa. Pakotetussa sulkemisessa julkaistaan viimeinen sitoutumistransaktio.
 
-![instruction](assets/chapitre12/3.webp)
+![instruction](assets/fr/50.webp)
 
 Maksut voivat lainata kanavia muilta välisolmuilta. Ehdolliset maksut hash-aikalukon (HTLC) avulla mahdollistavat varojen lukitsemisen, kunnes maksu on täysin selvitetty. Sipulireititystä käytetään Lightning Networkissa. Välisolmut eivät tiedä maksujen lopullista määränpäätä. Alicen on laskettava maksureitti, mutta hänellä ei ole kaikkea tietoa välisolmujen likviditeetistä.
 
-![instruction](assets/chapitre12/4.webp)
+![instruction](assets/fr/51.webp)
 
 Maksun lähettämisessä Lightning Networkin kautta on todennäköisyyskomponentti.
-![ohje](assets/chapitre12/5.webp)
+![ohje](assets/fr/52.webp)
 Maksujen vastaanottamiseksi kanavien likviditeettiä on hallinnoitava, mikä voidaan tehdä pyytämällä muita avaamaan kanavia meille, avaamalla kanavia itse ja käyttämällä työkaluja kuten Loop tai ostamalla/vuokraamalla kanavia markkinapaikoilta.
 
 ## Faniksen haastattelu
@@ -570,9 +570,14 @@ Lopuksi, Bitcoinin tulevaisuus on lupaava mahdollisen miljoonan arvon ennustukse
 
 
 
-## Anna meille palautetta tästä kurssista
+## Arvioi kurssi
 <chapterId>38814c99-eb7b-5772-af49-4386ee2ce9b0</chapterId>
 <isCourseReview>true</isCourseReview>
+
+## Loppukoe
+<chapterId>7ed33400-aef7-5f3e-bfb1-7867e445d708</chapterId>
+<isCourseExam>true</isCourseExam>
+
 
 ## Kiitokset ja jatka kaninkolon tutkimista
 <chapterId>afc0d72b-4fbc-5893-90b2-e27fb519ad02</chapterId>

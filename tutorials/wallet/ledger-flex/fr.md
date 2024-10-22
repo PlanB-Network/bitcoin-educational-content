@@ -60,7 +60,9 @@ Pour ce tutoriel, vous aurez besoin de 2 logiciels : Ledger Live pour initialise
 
 ![LEDGER FLEX](assets/notext/06.webp)
 
-Nous vous proposerons prochainement un tutoriel pour savoir comment vérifier l'authenticité et l'intégrité d'un logiciel que vous téléchargez. Je vous conseille vivement de le faire ici pour Ledger Live et Sparrow.
+Pour ces deux logiciels, je vous recommande fortement de vérifier à la fois leur authenticité (avec GnuPG) et leur intégrité (via le hash) avant de les installer sur votre machine. Si vous ne savez pas comment le faire, vous pouvez suivre cet autre tutoriel :
+
+https://planb.network/tutorials/others/integrity-authenticity
 
 ## Comment initialiser un Ledger Flex avec Ledger Live ?
 
@@ -174,9 +176,11 @@ Pour le moment, votre portefeuille est généré à partir d’une phrase mnémo
 
 La passphrase ne doit pas être confondue avec le code PIN. Elle joue un rôle dans la dérivation de vos clés cryptographiques. Elle fonctionne en tandem avec la phrase mnémonique, en modifiant la graine à partir de laquelle sont générées les clés. Ainsi, même si une personne obtient votre phrase de 24 mots, sans la passphrase, elle ne peut pas accéder à vos fonds. L'utilisation d'une passphrase crée essentiellement un nouveau portefeuille avec des clés distinctes. Modifier (même légèrement) la passphrase générera un portefeuille différent.
 
-La passphrase est un outil très puissant pour renforcer la sécurité de vos bitcoins. Toutefois, il est très important de comprendre son fonctionnement avant de l'implémenter, afin d'éviter de perdre l'accès à votre portefeuille. Je vous expliquerai comment utiliser la passphrase dans un autre tutoriel dédié.
-
 ![LEDGER FLEX](assets/notext/29.webp)
+
+La passphrase est un outil très puissant pour renforcer la sécurité de vos bitcoins. Toutefois, il est très important de comprendre son fonctionnement avant de l'implémenter, afin d'éviter de perdre l'accès à votre portefeuille. C'est pour cela que je vous explique tout dans un autre tutoriel dédié :
+
+https://planb.network/tutorials/wallet/passphrase-ledger
 
 Enfin, la dernière page de paramètres vous permet de réinitialiser votre Ledger. Ne procédez à cette réinitialisation que si vous êtes certain qu'il ne contient aucune clé sécurisant des bitcoins, car vous risqueriez de perdre définitivement l'accès à vos fonds.
 
@@ -293,6 +297,10 @@ Et voilà, votre portefeuille est bien créé !
 ![LEDGER FLEX](assets/notext/55.webp)
 
 ***Avant de recevoir vos premiers bitcoins sur votre portefeuille, je vous conseille vivement de réaliser un test de récupération à vide. Notez une information de référence, telle que votre xpub, puis réinitialisez votre Ledger Flex tant que le portefeuille est encore vide. Ensuite, essayez de restaurer votre portefeuille sur la Ledger en utilisant vos sauvegardes papier. Vérifiez que la xpub générée après la restauration correspond à celle que vous aviez notée initialement. Si c'est le cas, vous pouvez être assuré que vos sauvegardes papier sont fiables.***
+
+Pour en savoir plus sur comment effectuer un test de récupération, je vous conseille de consulter cet autre tutoriel :
+
+https://planb.network/tutorials/wallet/recovery-test
 
 ## Comment recevoir des bitcoins avec la Ledger Flex ?
 

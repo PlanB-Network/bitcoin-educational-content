@@ -30,7 +30,6 @@ Unisciti a Damien Theillier in questa esplorazione arricchente del pensiero di F
 
 <chapterId>7f21b617-9810-5484-ad1c-befc61432126</chapterId>
 
-![video](https://youtu.be/PahHHhtX4fI?si=d8zR-RJ4fm_Z4yM9)
 Questo corso è un'introduzione a Frédéric Bastiat, un genio non riconosciuto e un faro per i nostri tempi. In questa breve introduzione, cercherò di aiutarvi a scoprire chi era Frédéric Bastiat e quali sono i temi principali che tratteremo durante questa serie.
 ![image](assets/image/00/IMG01.webp)
 
@@ -57,9 +56,9 @@ In questo corso, viaggeremo insieme attraverso il pensiero di Frédéric Bastiat
 
 <chapterId>e9d92b63-83dd-552c-84e1-dd535608c109</chapterId>
 
-![video](https://youtu.be/buPg-IPqwmU?si=_JKks1usXbUTQqJo)
 Nel 1844, Frédéric Bastiat intraprese un viaggio d'affari in Spagna. Dopo aver soggiornato a Madrid, Siviglia, Cadice e Lisbona, decise di imbarcarsi per Southampton e di visitare l'Inghilterra. A Londra, ebbe l'opportunità di partecipare agli incontri della Anti-Corn Law League, il cui lavoro aveva seguito da lontano. Incontrò i principali leader di questa Associazione, inclusi Richard Cobden, che sarebbe diventato suo amico.
 
+![image](assets/image/00/IMG03.webp)
 Fu lì che il corso della sua vita cambiò radicalmente. Egli stesso racconta che in quel momento fu decisa la sua vocazione come economista. Al ritorno in Francia, aveva solo un'idea in mente: far conoscere alla Francia il movimento liberale che agitava l'Inghilterra. Frédéric Bastiat nacque a Bayonne il 30 giugno 1801. Orfano all'età di 9 anni, proseguì i suoi studi al collegio cattolico di Sorèze. Era dotato per le lingue, imparando l'inglese, lo spagnolo e persino il basco. Tuttavia, non era motivato dai suoi studi e decise di non prendere il Baccalaureato, scegliendo invece di lavorare nell'azienda di import-export di suo zio a Bayonne.
 
 Nel 1825, ereditò una tenuta agricola dal suo nonno, che gestì come un "gentiluomo-contadino", con le sue parole. Fu allora che incontrò direttamente i problemi causati dalla mancanza di una chiara definizione dei diritti di proprietà. Decise di diventare giudice di pace nella sua città di Mugron, nel cuore delle Landes, un crocevia commerciale e fluviale tra i porti di Bordeaux e Bayonne. Più tardi, fu eletto membro del Consiglio Generale delle Landes.
@@ -129,7 +128,6 @@ Ma da Jean-Baptiste Say, Frédéric Bastiat eredita anche un concetto chiave, qu
 
 <chapterId>ddf64e9f-2ce0-5651-8eb8-bae578eb0b9b</chapterId>
 
-![video](https://youtu.be/n69ITkX9DMU?si=PymbTYQxiAFVSP42)
 È poco noto, ma Destutt de Tracy ebbe un'influenza decisiva sul futuro Presidente degli Stati Uniti, Thomas Jefferson, mentre era ambasciatore a Parigi negli anni '80 del 1700.
 
 > "Per ogni uomo, la sua prima patria è la sua terra natale, e la seconda è la Francia" & "La tirannia è quando il popolo teme il suo governo; la libertà è quando il governo teme il popolo."
@@ -173,8 +171,6 @@ In conclusione, gli Ideologi hanno avuto un'intuizione profonda, ossia che la pr
 
 <chapterId>80bc5c4e-ac07-52c8-9dd7-e224ac291bda</chapterId>
 
-![video](https://youtu.be/ZuZGz897Pto?si=O-eJhBpDDSlsW5Yu)
-
 La storia di tutte le civiltà è la storia della lotta tra le classi predatrici e le classi produttive. Questo è il credo dei due autori di cui andremo a discutere. Sono gli iniziatori di una teoria liberale della lotta di classe che ha ispirato tanto Frédéric Bastiat quanto Karl Marx, anche se quest'ultimo l'ha distorta.
 
 Per Comte e Dunoyer, il saccheggio, inteso come tutte le forme di violenza esercitate nella società dai forti sui deboli, è la grande chiave per comprendere la storia umana. È all'origine di tutti i fenomeni di sfruttamento di una classe da parte di un'altra.
@@ -204,8 +200,6 @@ Le loro idee, profondamente innovative, avrebbero segnato per sempre Frédéric 
 ## Cobden e la Lega
 
 <chapterId>7181435c-5eae-56e4-8e55-02a24273fdd6</chapterId>
-
-![video](https://youtu.be/ZWx7RQsmutM?si=NpGycbbi8AQQKjNI)
 
 Siamo nel 1838, a Manchester, un piccolo numero di uomini, fino ad allora poco conosciuti, si riunisce per trovare un modo per rovesciare il monopolio dei proprietari terrieri del grano attraverso mezzi legali e per compiere, come Bastiat avrebbe in seguito raccontato,
 
@@ -933,7 +927,7 @@ Scrisse Frédéric Bastiat in un breve opuscolo intitolato Lo Stato.
 
 
 
-## Dacci un feedback su questo corso
+## Valuta il corso
 <chapterId>db20170d-ceb6-56cd-b4e5-c690942f8b29</chapterId>
 <isCourseReview>true</isCourseReview>
 

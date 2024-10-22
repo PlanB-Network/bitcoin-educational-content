@@ -1016,7 +1016,7 @@ Bitcoin on muutunud oluliseks finantsvaraks, peamiselt tänu selle piiratud pakk
 - Varasem tootlus ei ole tuleviku tootluse näitaja.
 - Vajadusel võtke ühendust oma finantsnõustajaga.
 
-> DécouvreBitcoin (Rogzy) ei paku investeerimisnõuandeid ja siin öeldut ei tohiks sellisena pidada.
+> Plan ₿ Network ei paku investeerimisnõuandeid ja siin öeldut ei tohiks sellisena pidada.
 
 ### Mini-kontrollnimekiri enne sukeldumist
 
@@ -1282,24 +1282,19 @@ Palju õnne BTC 101 kursuse lõpetamise puhul! Loodan siiralt, et see meeldis te
 - [MIN 201](https://planb.network/courses/min201) õpetab rohkem kaevandamise kohta
 - ja palju muud...
 
-## Toetage meid
+## Hinnake kursust
 
-<chapterId>3e6e756b-b6c4-5d41-bece-767922348067</chapterId>
-
-See kursus, nagu kogu see ülikooli sisu, on teile tasuta pakutud meie kogukonna poolt. Meid saate toetada, jagades seda teistega, saades ülikooli liikmeks ja isegi panustades selle arengusse läbi [meie GitHubi](https://github.com/DecouvreBitcoin/sovereign-university-data). Kogu meeskonna nimel, aitäh!
-
-
-
-## Andke meile tagasisidet selle kursuse kohta
 <chapterId>585729e2-b0ab-51b5-89ec-593e3ea22c57</chapterId>
 <isCourseReview>true</isCourseReview>
 
-## Hinnake koolitust
+## Lõpueksam
+<chapterId>8410e961-3841-5abf-a51d-04fc0139dd59</chapterId>
+<isCourseExam>true</isCourseExam>
 
-<chapterId>44d01865-5c89-55a5-a397-a014960eec0f</chapterId>
+## Kokkuvõte
 
-Koolituse hindamissüsteem integreeritakse varsti sellesse uude E-õppe platvormi! Seniks suur tänu kursuse läbimise eest ja kui see teile meeldis, kaaluge palun selle jagamist teistega.
+<chapterId>dfc534be-44a9-5e8c-9c98-e51ef0554e91</chapterId>
 
-Suur tänu meie Patreon toetajatele, liikmetele ja annetajatele nende rahalise toetuse eest, tänu inimestele, kes jagavad, ja tänu neile, kes tegid selle koolituse võimalikuks: Rachel, Muriel, StackinSat meeskond, JohnOnChain, Fanis, Guillaume, Lounes, toimetajad ja ülevaatajad.
+**Palju õnne kursuse lõpetamise puhul!**
 
-Näeme varsti!
+Pange tähele, et see peatükk on praegu koostamisel ja peagi ilmub täiustatud versioon. Vahepeal, kui soovite oma Bitcoini teekonda jätkata, kutsume teid tutvuma meie platvormil saadaolevate teiste kursuste ja õpetustega. Jätkake head tööd ja head õppimist!

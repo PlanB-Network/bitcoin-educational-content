@@ -48,3 +48,43 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 6447
+  - language: pt
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 4079
+  - language: ja
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 7237
+  - language: cs
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 5658
+  - language: fi
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 5658
+  - language: de
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 4079
+  - language: es
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 4868
+  - language: it
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 4868
+  - language: vi
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 7237

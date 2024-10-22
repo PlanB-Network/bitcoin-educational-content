@@ -1,8 +1,7 @@
 question: Co není mnemonická fráze v kontextu Bitcoinu?
 answer: Heslo k vaší Bitcoin peněžence
 wrong_answers:
-  - seznam 12 slov z konkrétního slovníku
-  - seznam 24 slov z konkrétního slovníku
+  - seznam 12-24 slov z konkrétního slovníku
   - tajemství pro přístup k vašim bitcoinovým prostředkům
   - Tajný kód pro přístup k vašim bitcoinům
 explanation: |

@@ -112,9 +112,9 @@ Cookie是网站创建的文件，用于在您的设备上存储信息。虽然�
 
 TOR是合法的，被记者、自由活动家以及希望在专制国家逃避审查的其他人使用。然而，重要的是要理解，TOR不保护访问的网站或计算机本身。此外，使用TOR可能会减慢互联网连接速度，因为数据在到达目的地之前需要通过其他三个人的计算机传输。还必须注意，TOR不是保证100%匿名的万无一失的解决方案，不应用于非法活动。
 
-### BRAVE
 
-**_教程正在建设中，要贡献或添加内容，您可以通过GitHub进行_**
+
+https://planb.network/tutorials/others/tor-browser
 
 ## VPN和互联网连接
 
@@ -132,6 +132,11 @@ TOR是合法的，被记者、自由活动家以及希望在专制国家逃避�
 然而，使用消费者级VPN并不能保证完全匿名。许多VPN提供商会保留用户的信息，这可能会危及他们的匿名性。尽管VPN对于提高在线安全很有用，但它们并不是万能的解决方案。它们对于某些特定用途（如访问地理限制服务或在旅行时提高安全性）是有效的，但它们并不保证提供完全的安全。选择VPN时，重要的是要优先考虑可靠性和技术性，而不是流行度。收集最少个人信息的VPN提供商通常是最安全的。像iVPN和Mullvad这样的服务不收集个人信息，甚至允许使用比特币支付以增加隐私性。![](assets/notext/9.webp)
 最后，VPN还可以用来屏蔽在线广告，提供更愉快和更安全的浏览体验。然而，重要的是要进行自己的研究，找到最适合您特定需求的VPN。即使在家上网，也建议使用VPN来增强安全性。这有助于确保在线交换数据的更高安全级别。最后，确保检查URL和地址栏中的小锁，以确认您访问的是意图访问的网站。
 
+https://planb.network/tutorials/others/ivpn
+
+https://planb.network/tutorials/others/mullvad
+
+
 ### HTTPS & 公共Wi-Fi网络
 
 在在线安全方面，了解4G通常比公共Wi-Fi更安全是至关重要的。然而，使用4G可能会迅速耗尽您的移动数据计划。HTTPS协议已成为网站加密数据的标准。它确保了用户与网站之间交换的数据是安全的。因此，验证您访问的网站是否使用HTTPS协议至关重要。
@@ -142,9 +147,6 @@ TOR是合法的，被记者、自由活动家以及希望在专制国家逃避�
 ![](assets/en/10.webp)
 总之，VPN的使用可以大大提高在线安全，无论是对企业还是个人用户而言。此外，养成良好的浏览习惯可以有助于更好的数字卫生。在本课程的下一部分，我们将讨论计算机安全，包括更新、杀毒软件和密码管理。
 
-### 教程：IVPN
-
-**_教程正在建设中，要贡献或添加内容，您可以通过GitHub进行_**
 
 # 计算机使用的最佳实践
 
@@ -191,9 +193,8 @@ TOR是合法的，被记者、自由活动家以及希望在专制国家逃避�
 像对待您的家一样对待您的计算机：保持警惕，定期更新，删除不必要的文件，并使用强密码进行安全保护。对于笔记本电脑和智能手机上的数据进行加密是防止盗窃或数据丢失的关键。Windows的BitLocker、Linux的LUKS和Mac的内置选项是数据加密的解决方案。建议毫不犹豫地激活数据加密，并将密码写在纸上，保存在安全的地方。
 总之，选择一个适合您需求的操作系统并定期更新它及已安装的应用程序是至关重要的。同样重要的是使用一个有效且用户友好的杀毒软件，并采取良好的实践来保护您的计算机和数据的安全。
 
-### 教程：Ubuntu
 
-**_教程正在建设中，要贡献或添加内容，您可以通过GitHub进行_**
+
 
 ## 黑客攻击与备份管理：保护您的数据
 
@@ -233,6 +234,11 @@ TOR是合法的，被记者、自由活动家以及希望在专制国家逃避�
 
 如果您在计算机上检测到病毒，请将其从互联网断开连接，执行全面的杀毒软件扫描，并删除感染的文件。然后，更新您的软件和操作系统，并更改您的密码以防止进一步的入侵。
 
+https://planb.network/tutorials/others/proton-drive
+
+https://planb.network/tutorials/others/veracrypt
+
+
 # 实施解决方案。
 
 <partId>215ec902-ba05-5549-87fc-cb8d82665f7b</partId>
@@ -264,9 +270,9 @@ TOR是合法的，被记者、自由活动家以及希望在专制国家逃避�
 总的来说，开始使用一个新的、更安全的电子邮件地址并不是一个坏习惯，甚至如果想要在健康的基础上重新开始，这是必要的。
 比特币奖励：为我们的比特币活动（创建交易账户）创建一个特定的电子邮件地址可能是明智的，以便真正分隔我们生活中的活动领域。
 
-### 教程：创建ProtonMail账户
+https://planb.network/tutorials/others/proton-mail
 
-**_教程正在建设中，要贡献或添加它，您可以通过GitHub进行_**
+
 
 ## 密码管理器
 
@@ -307,17 +313,9 @@ TOR是合法的，被记者、自由活动家以及希望在专制国家逃避�
 
 随机生成的密码提供更高级别的安全性，尽管它们可能更难记住。密码管理器可以生成更安全的随机密码。使用密码管理器，您不需要记住所有密码。重要的是逐渐用管理器生成的密码替换您的旧密码，因为它们更强大、更长。确保您的密码管理器的主密码也是强大和安全的。
 
-### 教程：创建主密码
+https://planb.network/tutorials/others/bitwarden
 
-**_教程正在建设中，要贡献或添加内容，您可以通过GitHub进行_**
-
-### 教程：BitWarden
-
-**_教程正在建设中，要贡献或添加内容，您可以通过GitHub进行_**
-
-### 教程：KeePass
-
-**_教程正在建设中，要贡献或添加内容，您可以通过GitHub进行_**
+https://planb.network/tutorials/others/keepass
 
 ## 双因素认证
 
@@ -358,6 +356,12 @@ TOR是合法的，被记者、自由活动家以及希望在专制国家逃避�
 
 黄金法则：网络安全是一个不断变化的目标，它会适应您的学习旅程！
 
+https://planb.network/tutorials/others/authy
+
+https://planb.network/tutorials/others/security-key
+
+
+
 # 实践部分
 
 <partId>98ccf14b-4053-5839-878c-7a73ff02eb95</partId>
@@ -366,49 +370,85 @@ TOR是合法的，被记者、自由活动家以及希望在专制国家逃避�
 
 <chapterId>afc9ab5d-7664-5a9b-ab50-225ac9ba8f7c</chapterId>
 
+保护您的电子邮箱是确保您的在线活动安全和保护个人数据的重要步骤。本教程将逐步指导您创建和配置 ProtonMail 账户，ProtonMail 以其高安全性著称，提供端到端加密的通信服务。无论您是新手还是有经验的用户，这里提出的最佳实践将帮助您加强邮箱的安全性，同时利用 ProtonMail 的高级功能：
+
 https://planb.network/tutorials/others/proton-mail
 
-![video](https://youtu.be/vpYJYWhmEZg)
+
 
 ## 在2FA中增强安全性
 
 <chapterId>09468ec1-95b7-56a4-a636-7618044568e1</chapterId>
 
+双因素认证（2FA）已成为保护您的在线账户安全的重要措施。在本教程中，您将学习如何设置和使用2FA应用Authy，该应用生成动态的6位数代码以保护您的账户。Authy非常易于使用，并可在多个设备上同步。了解如何安装和配置Authy，从而立即加强您的在线账户安全：
+
 https://planb.network/tutorials/others/authy
+
+另一种选择是使用物理安全密钥。这个额外的教程将向您展示如何设置和使用安全密钥作为第二个认证因素：
 
 https://planb.network/tutorials/others/security-key
 
-![video](https://youtu.be/mNcAKRDmz5o)
+
+
 
 ## 创建密码管理器
 
 <chapterId>ed579680-4e7b-5f65-8541-14e519a3b242</chapterId>
+
+密码管理是数字时代的一大挑战。我们都有许多需要保护的在线账户。密码管理器可以帮助您为每个账户创建并存储强大且独特的密码。
+
+在本教程中，了解如何配置 Bitwarden，这是一款开源的密码管理器，以及如何在所有设备上同步您的凭证，以简化日常使用：
+
 https://planb.network/tutorials/others/bitwarden
-https://planb.network/tutorials/others/keypass
-![video](https://youtu.be/y7Xkv4E5YmU)
+
+对于更有经验的用户，我还提供了另一个免费且开源的软件的教程，您可以在本地使用它来管理您的密码：
+
+https://planb.network/tutorials/others/keepass
+
+
 
 ## 保护您的账户
 
 <chapterId>7a774b34-aed0-57dd-b8f7-cf3be51c0d70</chapterId>
 
+在这两个教程中，我还将指导您如何保护您的在线账户，并解释如何逐步采用更安全的实践来日常管理您的密码。
+
 https://planb.network/tutorials/others/bitwarden
+
 https://planb.network/tutorials/others/keypass
-![video](https://youtu.be/0JHZRALmGY0)
+
 
 ## 备份设置
 
 <chapterId>01cfcde1-77cb-506c-8df1-fa18a2e8cc6b</chapterId>
+
+保护您的个人文件也是一个关键点。本教程将向您展示如何通过 Proton Drive 实施有效的备份策略。了解如何使用这个安全的云解决方案来应用 3-2-1 方法：将您的数据复制三份，存储在两种不同的媒介上，其中一份存储在异地。这样可以确保您的敏感文件的可访问性和安全性：
+
 https://planb.network/tutorials/others/proton-drive
+
+为了保护存储在可移动媒介（如 USB 闪存驱动器或外部硬盘）上的文件，我还将向您展示如何使用 VeraCrypt 轻松加密和解密这些媒介：
+
 https://planb.network/tutorials/others/veracrypt
-![video](https://youtu.be/wTJnlSUkDRI)
+
+
 
 ## 更换浏览器和VPN
 
 <chapterId>8dc08feb-313c-5259-a54f-64aa68a07608</chapterId>
+
+保护您的在线隐私也是确保您安全的一个重要方面。使用VPN可能是实现这一目标的第一步。
+
+我建议您了解两种可靠且可以用比特币支付的VPN解决方案，即IVPN和Mullvad。这些教程将指导您如何在所有设备上安装、配置和使用Mullvad或IVPN：
+
 https://planb.network/tutorials/others/ivpn
+
 https://planb.network/tutorials/others/mullvad
+
+另外，了解如何使用Tor Browser，这是一款专门设计用于保护您在线隐私的浏览器：
+
 https://planb.network/tutorials/others/tor-browser
-![video](https://youtu.be/vc6-Ouca09g)
+
+
 
 # 进一步了解
 
@@ -484,9 +524,14 @@ Passkiz是另一种可行且安全的密码管理替代方案。然而，一个�
 作为“安全101”培训模块的一部分，在Découvre Bitcoin Academy上，我们还讨论了闪电网络认证。该系统为每项服务生成不同的标识符，无需提供电子邮件地址或个人信息。可以拥有用户控制的去中心化身份，但在去中心化身份项目中缺乏标准化和规范化。建议使用诸如Nuget和Chocolaté之类的包管理器，这些管理器允许在微软商店之外下载开源软件，以避免恶意攻击。总之，DNS对于在线安全至关重要，但必须保持警惕，防范对DNS服务器的潜在攻击。
 
 
-## 给我们关于这门课程的反馈
+## 评估课程
 <chapterId>6be74d2d-2116-5386-9d92-c4c3e2103c68</chapterId>
 <isCourseReview>true</isCourseReview>
+
+## 期末考试
+<chapterId>a894b251-a85a-5fa4-bf2a-c2a876939b49</chapterId>
+<isCourseExam>true</isCourseExam>
+
 
 ## 致谢并继续挖掘知识的深渊
 

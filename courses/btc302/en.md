@@ -1367,7 +1367,7 @@ Of course, **in other countries, legislation and the functioning of associations
 
 
 
-## Give us some feedback about this course
+## Evaluate the course
 <chapterId>08a35d2a-204b-519a-9bb1-588665a037fa</chapterId>
 <isCourseReview>true</isCourseReview>
 

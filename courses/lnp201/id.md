@@ -27,7 +27,6 @@ Nikmati penemuan tersebut!
 
 <chapterId>df6230ae-ff35-56ea-8651-8e65580730a8</chapterId>
 
-![video en](https://youtu.be/QDQ8NG0l3hk)
 
 Lightning Network adalah infrastruktur pembayaran lapisan kedua yang dibangun di atas jaringan Bitcoin yang memungkinkan transaksi cepat dan biaya rendah. Untuk sepenuhnya memahami cara kerja Lightning Network, sangat penting untuk memahami apa itu saluran pembayaran dan bagaimana cara kerjanya.
 
@@ -35,7 +34,7 @@ Saluran pembayaran Lightning adalah semacam "jalur pribadi" antara dua pengguna 
 
 Saluran pembayaran bersifat dua arah, artinya memiliki dua "sisi." Misalnya, jika Alice dan Bob membuka saluran pembayaran, Alice dapat mengirim Bitcoin ke Bob, dan Bob dapat mengirim Bitcoin ke Alice. Transaksi di dalam saluran tidak mengubah kapasitas total saluran, tetapi mereka mengubah distribusi kapasitas tersebut antara Alice dan Bob.
 
-![explication](assets/chapitre1/0.webp)
+![explication](assets/fr/1.webp)
 
 Untuk sebuah transaksi dapat terjadi di saluran pembayaran Lightning, pengguna yang mengirim dana harus memiliki cukup Bitcoin di sisi saluran mereka. Jika Alice ingin mengirim 1 Bitcoin ke Bob melalui saluran mereka, dia harus memiliki setidaknya 1 Bitcoin di sisinya.
 Batasan dan Fungsi Saluran Pembayaran di Lightning.
@@ -43,7 +42,7 @@ Meskipun kapasitas saluran pembayaran Lightning tetap, ini tidak membatasi jumla
 
 Meskipun ada batasan ini, saluran pembayaran Lightning adalah cara yang efisien untuk melakukan transaksi Bitcoin yang cepat dan murah. Mereka memungkinkan pengguna untuk mengirim dan menerima Bitcoin tanpa harus membayar biaya transaksi yang tinggi atau menunggu periode konfirmasi yang lama di jaringan Bitcoin.
 Ringkasan, saluran pembayaran Lightning menawarkan solusi yang kuat bagi mereka yang ingin melakukan transaksi Bitcoin yang cepat dan murah. Namun, sangat penting untuk memahami cara kerjanya dan keterbatasannya agar dapat sepenuhnya memanfaatkannya.
-![explication](assets/chapitre1/1.webp)
+![explication](assets/fr/2.webp)
 
 Contoh:
 
@@ -66,17 +65,16 @@ Alice (60.000 SAT) ============== Bob (70.000 SAT)
 
 ```
 
-![explication](assets/chapitre1/2.webp)
+![explication](assets/fr/3.webp)
 
 Sekarang, Bob ingin mengirim 80.000 SAT ke Alice. Karena tidak memiliki likuiditas, dia tidak bisa. Kapasitas maksimal saluran adalah 130.000 SAT, dengan pengeluaran maksimal hingga 60.000 SAT untuk Alice dan 70.000 SAT untuk Bob.
 
-![explication](assets/chapitre1/3.webp)
+![explication](assets/fr/4.webp)
 
 ## Bitcoin, alamat, UTXO dan transaksi
 
 <chapterId>0cfb7e6b-96f0-508b-9210-90bc1e28649d</chapterId>
 
-![video](https://youtu.be/U9l5IVriCss)
 
 Dalam bab kedua ini, kami meluangkan waktu untuk mempelajari bagaimana transaksi Bitcoin sebenarnya bekerja, yang akan sangat berguna untuk memahami Lightning. Kami juga secara singkat membahas konsep alamat multi-tanda tangan, yang sangat penting untuk memahami bab selanjutnya tentang membuka saluran di Jaringan Lightning.
 
@@ -84,7 +82,7 @@ Dalam bab kedua ini, kami meluangkan waktu untuk mempelajari bagaimana transaksi
 - Dalam transaksi Bitcoin, semua bitcoin harus berpindah. Dinamakan UTXO (Unspend Transaction Output), bit-bit bitcoin akan semua keluar hanya untuk kembali ke pemilik setelahnya.
   Alice memiliki 0,002 BTC, Bob memiliki 0 BTC. Alice memutuskan untuk mengirim 0,0015 BTC ke Bob. Dia akan menandatangani transaksi 0,002 BTC di mana 0,0015 akan pergi ke Bob dan 0,0005 akan kembali ke dompetnya.
 
-![explication](assets/chapitre2/0.webp)
+![explication](assets/fr/5.webp)
 
 Di sini, dari satu UTXO (Alice memiliki 0,0002 BTC di sebuah alamat), kita telah menciptakan 2 UTXO (Bob memiliki 0,0015 dan Alice memiliki UTXO baru (independen dari sebelumnya) sebesar 0,0005 BTC).
 
@@ -101,7 +99,7 @@ Alice (UTXO baru: 0,0005 BTC)
 ```
 
 Dalam Lightning Network, multi-signature digunakan. Oleh karena itu, diperlukan 2 tanda tangan untuk membuka dana, yaitu, dua kunci privat untuk memindahkan uang. Ini bisa jadi Alice dan Bob yang, bersama-sama, harus setuju untuk membuka uang (UTXO). Khususnya di LN, mereka adalah transaksi 2/2, sehingga kedua tanda tangan benar-benar diperlukan, tidak seperti multi-signature 2/3 atau 3/5 di mana hanya kombinasi dari jumlah kunci yang lengkap yang diperlukan.
-![explication](assets/chapitre2/1.webp)
+![explication](assets/fr/6.webp)
 
 # Pembukaan dan Penutupan Saluran
 
@@ -111,7 +109,6 @@ Dalam Lightning Network, multi-signature digunakan. Oleh karena itu, diperlukan 
 
 <chapterId>96243eb0-f6b5-5b68-af1f-fffa0cc16bfe</chapterId>
 
-![video](https://youtu.be/Ty80WuN5X-g)
 
 Sekarang, kita akan melihat lebih dekat tentang pembukaan saluran dan bagaimana hal itu dilakukan melalui transaksi Bitcoin.
 
@@ -121,14 +118,14 @@ Lightning Network memiliki berbagai tingkat komunikasi:
 - Saluran pembayaran (protokol Lightning Network)
 - Transaksi Bitcoin (protokol Bitcoin)
 
-![explication](assets/chapitre3/0.webp)
+![explication](assets/fr/7.webp)
 
 Untuk membuka saluran, kedua peer berkomunikasi melalui saluran komunikasi:
 
 - Alice: "Hai, saya ingin membuka saluran!"
 - Bob: "Oke, ini alamat publik saya."
 
-![explication](assets/chapitre3/1.webp)
+![explication](assets/fr/8.webp)
 
 Alice sekarang memiliki 2 alamat publik untuk membuat alamat multi-sig 2/2. Dia sekarang dapat membuat transaksi bitcoin untuk mengirim uang ke sana.
 
@@ -143,35 +140,34 @@ Lalu bagaimana cara melanjutkannya?
 
 Alice akan membuat transaksi kedua yang disebut "transaksi penarikan" sebelum mempublikasikan deposit dana di multi-sig.
 
-![explication](assets/chapitre3/2.webp)
+![explication](assets/fr/9.webp)
 
 Transaksi penarikan akan menghabiskan dana dari alamat multi-sig ke alamat miliknya (ini dilakukan sebelum semuanya dipublikasikan).
 Setelah kedua transaksi dibuat, Alice memberitahu Bob bahwa itu sudah selesai dan meminta tanda tangan dari kunci publiknya, menjelaskan bahwa dengan cara ini dia dapat memulihkan dana jika ada yang salah. Bob setuju karena dia tidak tidak jujur.
 
 Alice sekarang dapat memulihkan dana sendirian, karena dia sudah memiliki tanda tangan Bob. Dia mempublikasikan transaksi. Saluran sekarang terbuka dengan 0.0013 BTC (130,000 SAT) di sisi Alice.
 
-![explication](assets/chapitre3/3.webp)
+![explication](assets/fr/10.webp)
 
 ## Transaksi Lightning & Transaksi Komitmen
 
 <chapterId>7d3fd135-129d-5c5a-b306-d5f2f1e63340</chapterId>
 
-![video](https://youtu.be/dzPMGiR_JSE)
 
-![cover](assets/chapitre4/1.webp)
+![cover](assets/fr/11.webp)
 Mari kita analisis apa yang sebenarnya terjadi di balik layar ketika mentransfer dana dari satu sisi ke sisi lain dari sebuah saluran di Lightning Network, dengan konsep transaksi komitmen. Transaksi penarikan/penutupan on-chain mewakili keadaan saluran, menjamin siapa yang memiliki dana setelah setiap transfer. Jadi, setelah transfer Lightning Network, ada pembaruan dari transaksi/kontrak ini yang tidak dieksekusi antara dua rekan, Alice dan Bob, yang menciptakan transaksi yang sama dengan keadaan saluran saat ini dalam kasus penutupan:
 
 - Alice membuka saluran dengan Bob dengan 130.000 SAT di sisinya. Transaksi penarikan yang diterima oleh keduanya dalam kasus penutupan menyatakan bahwa 130.000 SAT akan pergi ke Alice saat penutupan, dan Bob setuju karena itu adil.
 
-![cover](assets/chapitre4/2.webp)
+![cover](assets/fr/12.webp)
 
 - Alice mengirim 30.000 SAT ke Bob. Sekarang ada transaksi penarikan baru yang menyatakan bahwa dalam kasus penutupan, Alice akan menerima 100.000 SAT dan Bob 30.000 SAT. Keduanya setuju karena itu adil.
 
-![cover](assets/chapitre4/3.webp)
+![cover](assets/fr/13.webp)
 
 - Alice mengirim 10.000 SAT ke Bob, dan transaksi penarikan baru dibuat yang menyatakan bahwa Alice akan menerima 90.000 SAT dan Bob 40.000 SAT dalam kasus penutupan. Keduanya setuju karena itu adil.
 
-![cover](assets/chapitre4/4.webp)
+![cover](assets/fr/14.webp)
 
 ```
 Keadaan awal saluran:
@@ -191,11 +187,10 @@ Uangnya tidak pernah bergerak, tetapi saldo akhir diperbarui melalui transaksi o
 
 <chapterId>f2f61e5b-badb-5947-9a81-7aa530b44e59</chapterId>
 
-![video](https://youtu.be/veCs39uVFUk)
 
 Jika transaksi komitmen menentukan keadaan saluran dengan likuiditas pada waktu X, dapatkah kita curang dengan mempublikasikan keadaan lama? Jawabannya adalah ya, karena kita sudah memiliki pra-tanda tangan kedua peserta dalam transaksi yang tidak dipublikasikan.
 
-![instruction](assets/Chapitre5/0.webp)
+![instruction](assets/fr/15.webp)
 
 Untuk menyelesaikan masalah ini, kita akan menambahkan kompleksitas:
 
@@ -204,14 +199,14 @@ Untuk menyelesaikan masalah ini, kita akan menambahkan kompleksitas:
 
 Dua elemen ini ditambahkan ke transaksi komitmen. Akibatnya, Alice harus menunggu akhir dari Timelock, dan siapa pun yang memiliki kunci pembatalan dapat memindahkan dana tanpa menunggu akhir dari Timelock. Jika Alice mencoba curang, Bob menggunakan kunci pembatalan untuk mencuri dan menghukum Alice.
 
-![instruction](assets/Chapitre5/1.webp)
+![instruction](assets/fr/16.webp)
 Sekarang (dan dalam kenyataannya) transaksi komitmen tidak sama untuk Alice dan Bob, mereka simetris tetapi masing-masing dengan batasan yang berbeda, mereka saling memberikan rahasia mereka untuk menciptakan kunci pembatalan dari transaksi komitmen sebelumnya. Jadi pada saat pembuatan, Alice membuat saluran dengan Bob, 130.000 SAT di sisinya, dia memiliki Timelock yang mencegahnya dari segera mengambil kembali uangnya, dia harus menunggu sebentar. Kunci pembatalan dapat membuka uang tetapi hanya Alice yang memilikinya (transaksi komitmen Alice). Setelah ada transfer, Alice akan memberikan rahasia lamanya kepada Bob dan oleh karena itu yang terakhir akan dapat mengosongkan saluran ke keadaan sebelumnya jika Alice mencoba curang (Alice oleh karena itu dihukum).
 
-![instruction](assets/Chapitre5/2.webp)
+![instruction](assets/fr/17.webp)
 
 Demikian pula, Bob akan memberikan rahasianya kepada Alice. Sehingga jika dia mencoba curang, Alice dapat menghukumnya. Operasi ini diulang untuk setiap transaksi komitmen baru. Rahasia baru diputuskan dan kunci pembatalan baru. Jadi untuk setiap transaksi baru, transaksi komitmen sebelumnya harus dihancurkan dengan memberikan rahasia pembatalan. Dengan demikian jika Alice atau Bob mencoba curang, yang lain dapat bertindak sebelumnya (berkat Timelock) dan dengan demikian menghindari kecurangan. Selama transaksi #3, rahasia transaksi #2 oleh karena itu diberikan untuk memungkinkan Alice dan Bob mempertahankan diri mereka terhadap Alice atau Bob.
 
-![instruction](assets/Chapitre5/3.webp)
+![instruction](assets/fr/18.webp)
 
 Orang yang membuat transaksi dengan Timelock (orang yang mengirim uang) hanya dapat menggunakan kunci pembatalan setelah Timelock. Namun, orang yang menerima uang dapat menggunakannya sebelum Timelock dalam kasus kecurangan dari satu sisi ke sisi lain dari saluran di Lightning Network. Secara khusus, kami merinci mekanisme yang memungkinkan kami untuk menjaga terhadap kemungkinan kecurangan oleh rekan sejawat dalam saluran.
 
@@ -219,7 +214,6 @@ Orang yang membuat transaksi dengan Timelock (orang yang mengirim uang) hanya da
 
 <chapterId>29a72223-2249-5400-96f0-3756b1629bc2</chapterId>
 
-![video](https://youtu.be/zmAa2fj_V7w)
 
 Kami tertarik pada penutupan saluran melalui transaksi Bitcoin, yang dapat mengambil berbagai bentuk tergantung pada kasusnya. Ada 3 jenis penutupan saluran:
 
@@ -227,14 +221,14 @@ Kami tertarik pada penutupan saluran melalui transaksi Bitcoin, yang dapat menga
 - Yang kasar: penutupan paksa (non-kooperatif)
 - Yang curang: penutupan oleh penipu
 
-![instruction](assets/chapitre6/1.webp)
-![instruction](assets/chapitre6/0.webp)
+![instruction](assets/fr/19.webp)
+![instruction](assets/fr/20.webp)
 
 ### Yang baik
 
 Dua rekan berkomunikasi dan setuju untuk menutup saluran. Mereka menghentikan semua transaksi dan memvalidasi keadaan akhir saluran. Mereka setuju pada biaya jaringan (orang yang membuka saluran membayar biaya penutupan). Mereka sekarang membuat transaksi penutupan. Ada transaksi penutupan, berbeda dari transaksi komitmen karena tidak ada Timelock dan kunci pembatalan. Transaksi kemudian dipublikasikan dan Alice serta Bob menerima saldo masing-masing. Tipe penutupan ini cepat (karena tidak ada Timelock) dan umumnya tidak mahal.
 
-![instruction](assets/chapitre6/3.webp)
+![instruction](assets/fr/21.webp)
 
 ### Yang kasar
 
@@ -245,13 +239,13 @@ Alice ingin menutup saluran, tetapi Bob tidak merespon karena dia sedang offline
 
 Hal ini membuat penutupan paksa menjadi lebih lama (Timelock) dan terutama lebih berisiko dalam hal biaya dan validasi yang mungkin oleh penambang.
 
-![instruksi](assets/chapitre6/4.webp)
+![instruksi](assets/fr/22.webp)
 
 ### Si Penipu
 
 Alice mencoba menipu dengan mempublikasikan transaksi komitmen lama. Namun, Bob memantau MemPool dan mengawasi transaksi yang mencoba mempublikasikan yang lama. Jika dia menemukan salah satunya, dia menggunakan kunci pembatalan untuk menghukum Alice dan mengambil semua SAT dari saluran tersebut.
 
-![instruksi](assets/chapitre6/5.webp)
+![instruksi](assets/fr/23.webp)
 
 Kesimpulannya, penutupan saluran di Lightning Network adalah langkah penting yang dapat mengambil berbagai bentuk. Dalam penutupan yang kooperatif, kedua pihak berkomunikasi dan setuju pada keadaan akhir saluran. Ini adalah opsi tercepat dan paling murah. Di sisi lain, penutupan paksa terjadi ketika salah satu pihak tidak merespon. Ini adalah situasi yang lebih mahal dan lebih lama karena biaya transaksi yang tidak dapat diprediksi dan aktivasi Timelock. Akhirnya, jika seorang peserta mencoba menipu dengan mempublikasikan transaksi komitmen lama, si penipu, mereka dapat dihukum dengan kehilangan semua SAT dari saluran tersebut. Oleh karena itu, sangat penting untuk memahami mekanisme ini untuk penggunaan Lightning Network yang efektif dan adil.
 
@@ -262,12 +256,11 @@ Kesimpulannya, penutupan saluran di Lightning Network adalah langkah penting yan
 ## Lightning Network
 
 <chapterId>45a7252c-fa4f-554b-b8bb-47449532918e</chapterId>
-![video](https://youtu.be/44oBdNdXtEQ)
 
 Dalam bab ketujuh ini, kita mempelajari bagaimana Lightning bekerja sebagai jaringan saluran dan bagaimana pembayaran dialirkan dari sumbernya ke tujuannya.
 
-![sampul](assets/Chapitre7/0.webp)
-![sampul](assets/Chapitre7/1.webp)
+![sampul](assets/fr/24.webp)
+![sampul](assets/fr/25.webp)
 
 Lightning adalah jaringan saluran pembayaran. Ribuan rekan dengan saluran likuiditas mereka sendiri terhubung satu sama lain, dan dengan demikian menggunakan diri mereka sendiri untuk melakukan transaksi antar rekan yang tidak terhubung. Likuiditas dari saluran ini tidak dapat ditransfer ke saluran likuiditas lain.
 
@@ -282,7 +275,7 @@ Keadaan awal jaringan:
 Alice (130 SAT) ==== (0 SAT) Susie (90 SAT) ==== (200 SAT) Eden (150 SAT) ==== (100 SAT) Bob
 ```
 
-![sampul](assets/Chapitre7/2.webp)
+![sampul](assets/fr/26.webp)
 
 Jika Alice harus mentransfer 40 SAT ke Bob, maka likuiditas akan didistribusikan ulang di sepanjang rute antara kedua pihak.
 
@@ -291,7 +284,7 @@ Setelah Alice mentransfer 40 SAT ke Bob:
 Alice (90 SAT) ==== (40 SAT) Susie (50 SAT) ==== (240 SAT) Eden (110 SAT) ==== (140 SAT) Bob
 ```
 
-![cover](assets/Chapitre7/4.webp)
+![cover](assets/fr/27.webp)
 
 Namun, dalam keadaan awal, Bob tidak bisa mengirim 40 SAT ke Alice karena Susie tidak memiliki likuiditas dengan Alice untuk mengirim 40 SAT, sehingga pembayaran tidak mungkin dilakukan melalui rute ini. Oleh karena itu, kita memerlukan rute lain di mana transaksi ini tidak mungkin.
 
@@ -304,7 +297,7 @@ Alice - Bob
 - Biaya Alice = Alice -> Bob
 - Biaya Bob = Bob -> Alice
 
-![cover](assets/Chapitre7/5.webp)
+![cover](assets/fr/28.webp)
 
 Ada dua jenis biaya:
 
@@ -323,7 +316,7 @@ Oleh karena itu:
 - Biaya 2: 0 + 40,000 \* 0,0002 = 8 SAT
 - Biaya 3: 1 + 40,000\* 0,000001 = 0,4 SAT
 
-![cover](assets/Chapitre7/6.webp)
+![cover](assets/fr/29.webp)
 
 Pengiriman:
 
@@ -333,11 +326,11 @@ Pengiriman:
 
 Alice membayar biaya 9.04 SAT dan Bob menerima 40,000 SAT.
 
-![cover](assets/Chapitre7/7.webp)
+![cover](assets/fr/30.webp)
 
 Di Jaringan Lightning, node Alice yang memutuskan rute sebelum mengirim pembayaran. Oleh karena itu, ada pencarian rute terbaik dan hanya Alice yang mengetahui rute dan harganya. Pembayaran dikirim, tapi Susie tidak memiliki informasi.
 
-![cover](assets/Chapitre7/9.webp)
+![cover](assets/fr/31.webp)
 
 Untuk Susie atau Eden: mereka tidak tahu siapa penerima akhir, atau siapa yang mengirim pembayaran. Ini adalah onion routing. Node harus menyimpan rencana jaringan untuk menemukan rutenya, tapi tidak satu pun dari perantara yang memiliki informasi.
 
@@ -345,13 +338,12 @@ Untuk Susie atau Eden: mereka tidak tahu siapa penerima akhir, atau siapa yang m
 
 <chapterId>4369b85a-1365-55d8-99e1-509088210116</chapterId>
 
-![video](https://youtu.be/jI4nM297aHA)
 
 Dalam sistem perutean tradisional, bagaimana kita dapat memastikan bahwa Eden tidak curang dan menghormati bagian mereka dari kontrak?
 
 HTLC adalah kontrak pembayaran yang hanya bisa dibuka dengan sebuah rahasia. Jika tidak diungkapkan, maka kontrak tersebut kedaluwarsa. Oleh karena itu, ini adalah pembayaran bersyarat. Bagaimana mereka digunakan?
 
-![instruction](assets/chapitre8/0.webp)
+![instruction](assets/fr/32.webp)
 
 Pertimbangkan situasi berikut:
 Alice (100,000 SAT) ==== (30,000 SAT) Susie (250,000 SAT) ==== (0 SAT) Bob
@@ -365,7 +357,7 @@ Alice (100,000 SAT) ==== (30,000 SAT) Susie (250,000 SAT) ==== (0 SAT) Bob
 
 Jika Bob offline dan tidak pernah mengambil rahasia yang memberinya legitimasi untuk menerima uang, maka HTLC akan kedaluwarsa setelah jumlah blok tertentu.
 
-![instruction](assets/chapitre8/1.webp)
+![instruction](assets/fr/33.webp)
 
 HTLC kedaluwarsa dalam urutan terbalik: kedaluwarsa Susie-Bob, kemudian kedaluwarsa Alice-Susie. Dengan cara ini, jika Bob kembali, itu tidak mengubah apa pun. Sebaliknya, jika Alice membatalkan sementara Bob kembali, itu akan menjadi masalah dan orang mungkin telah bekerja sia-sia.
 
@@ -373,7 +365,7 @@ Jadi, apa yang terjadi dalam kasus penutupan? Sebenarnya, transaksi komitmen kam
 
 Oleh karena itu, ada HTLC-out sebesar 40,000 satoshi (dengan batasan yang dilihat sebelumnya) dalam transaksi komitmen melalui output #3.
 
-![instruction](assets/chapitre8/2.webp)
+![instruction](assets/fr/34.webp)
 
 Alice memiliki dalam transaksi komitmen:
 
@@ -383,7 +375,7 @@ Alice memiliki dalam transaksi komitmen:
 
 Transaksi komitmen Alice adalah dengan HTLC-out karena dia mengirimkan HTLC-in kepada penerima, Susie.
 
-![instruction](assets/chapitre8/3.webp)
+![instruction](assets/fr/35.webp)
 
 Oleh karena itu, jika kita menerbitkan transaksi komitmen ini, Susie dapat mengambil uang HTCL dengan gambar "s". Jika dia tidak memiliki pre-image, Alice mengambil uang setelah HTCL kedaluwarsa. Pikirkan output (UTXO) sebagai pembayaran yang berbeda dengan kondisi yang berbeda.
 Setelah pembayaran dilakukan (kedaluwarsa atau eksekusi), status saluran berubah dan transaksi dengan HTCL tidak lagi ada. Kita kembali ke sesuatu yang klasik.
@@ -399,7 +391,6 @@ Saat menutup kanal, jika penutupan bersifat kooperatif, pembayaran terganggu dan
 
 <chapterId>7e2ae959-c2a1-512e-b5d6-8fd962e819da</chapterId>
 
-![video](https://youtu.be/CqetCElRjUQ)
 
 Data publik hanya adalah kapasitas total kanal (Alice + Bob) tetapi kita tidak tahu di mana likuiditas berada.
 Untuk mendapatkan lebih banyak informasi, node kita mendengarkan saluran komunikasi LN untuk pengumuman kanal baru dan pembaruan biaya kanal. Node Anda juga melihat blockchain untuk penutupan kanal.
@@ -413,7 +404,7 @@ Kriteria:
 - Jumlah node perantara
 - Acak
 
-![graph](assets/chapitre9/1.webp)
+![graph](assets/fr/36.webp)
 
 Jadi jika ada 3 rute yang mungkin:
 
@@ -425,7 +416,7 @@ Kita mencari rute terbaik secara teori dengan biaya terendah dan peluang sukses 
 
 Misalnya, jika 2-3 hanya memiliki kapasitas 130.000 SAT, mengirim 100.000 sangat tidak mungkin, jadi pilihan #3 tidak memiliki peluang sukses.
 
-![graph](assets/chapitre9/2.webp)
+![graph](assets/fr/37.webp)
 
 Sekarang algoritma telah membuat 3 pilihannya dan akan mencoba yang pertama:
 
@@ -456,7 +447,7 @@ Alice tidak melihat kegagalan rute 1, dia hanya menunggu satu detik lebih lama. 
   Bob mengetahui likuiditas saluran 5 dan 3 karena dia secara langsung terhubung dengan mereka, dia dapat mengindikasikan ini kepada Alice. Dia memperingatkan Alice bahwa node 3 tidak berguna, yang mencegah Alice dari kemungkinan membuat rutenya.
   Elemen lainnya adalah saluran privat (yang tidak dipublikasikan di jaringan) yang mungkin dimiliki Bob. Jika Bob memiliki saluran privat dengan 1, dia dapat memberitahu Alice untuk menggunakannya dan itu akan memberikan Alice > 1 > Bob'.
 
-![graph](assets/chapitre9/3.webp)
+![graph](assets/fr/38.webp)
 
 Kesimpulannya, merutekan transaksi di Lightning Network adalah proses yang kompleks yang memerlukan pertimbangan berbagai faktor. Meskipun kapasitas total saluran adalah publik, distribusi likuiditas yang tepat tidak langsung dapat diakses. Ini memaksa node untuk memperkirakan rute yang paling mungkin berhasil, dengan mempertimbangkan kriteria seperti biaya, waktu kedaluwarsa HTLC, jumlah node perantara, dan faktor keacakan. Ketika beberapa rute dimungkinkan, node berusaha untuk meminimalkan biaya dan memaksimalkan peluang keberhasilan dengan memilih saluran dengan likuiditas yang cukup dan jumlah lompatan minimum. Jika upaya transaksi gagal karena likuiditas yang tidak mencukupi, rute lain dicoba sampai transaksi berhasil dilakukan.
 
@@ -470,9 +461,8 @@ Selanjutnya, untuk memfasilitasi pencarian rute, penerima dapat memberikan infor
 
 <chapterId>e34c7ecd-2327-52e3-b61e-c837d9e5e8b0</chapterId>
 
-![video](https://youtu.be/XANzf1Qqp9I)
 
-![cover](assets/chapitre10/0.webp)
+![cover](assets/fr/39.webp)
 
 Sebuah invoice LN (atau invoice) panjang dan tidak menyenangkan untuk dibaca, tetapi memungkinkan representasi yang padat dari permintaan pembayaran.
 
@@ -509,11 +499,11 @@ Ini berisi 0 atau lebih bagian tambahan:
 
 Ada jenis faktur lainnya. Meta-protokol LNURL memungkinkan untuk menyediakan jumlah satoshi langsung alih-alih membuat permintaan. Ini sangat fleksibel dan memungkinkan banyak peningkatan dalam hal pengalaman pengguna.
 
-![cover](assets/chapitre10/2.webp)
+![cover](assets/fr/40.webp)
 
 Keysend memungkinkan Alice untuk mengirim uang ke Bob tanpa permintaan dari Bob. Alice mengambil ID Bob, membuat preimage tanpa bertanya kepada Bob, dan memasukkannya dalam pembayarannya. Jadi, Bob akan menerima permintaan kejutan di mana dia bisa membuka uang karena Alice sudah melakukan pekerjaannya.
 
-![cover](assets/chapitre10/3.webp)
+![cover](assets/fr/41.webp)
 
 Kesimpulannya, faktur Jaringan Lightning, meskipun kompleks pada pandangan pertama, secara efektif mengkodekan permintaan pembayaran. Setiap bagian dari faktur berisi informasi kunci, termasuk jumlah yang harus dibayar, penerima, timestamp pembuatan, dan potensi informasi lain seperti hash dari preimage, rahasia pembayaran, petunjuk routing, dan waktu kedaluwarsa. Protokol seperti LNURL dan Keysend menawarkan peningkatan signifikan dalam hal fleksibilitas dan pengalaman pengguna, memungkinkan, misalnya, untuk mengirim dana tanpa permintaan sebelumnya dari pihak lain. Teknologi ini membuat proses pembayaran lebih lancar dan efisien di Jaringan Lightning.
 
@@ -521,9 +511,8 @@ Kesimpulannya, faktur Jaringan Lightning, meskipun kompleks pada pandangan perta
 
 <chapterId>cc76d0c4-d958-57f5-84bf-177e21393f48</chapterId>
 
-![video](https://youtu.be/MIbej28La7Y)
 
-![instruction](assets/chapitre11/0.webp)
+![instruction](assets/fr/42.webp)
 
 Kami menyediakan beberapa pedoman umum untuk menjawab pertanyaan abadi tentang mengelola likuiditas di Lightning.
 
@@ -567,11 +556,11 @@ Saluran dibuka melalui transaksi Bitcoin dan dapat menampung sebanyak mungkin tr
 
 Pasangan melindungi diri mereka dari kecurangan dengan kunci pembatalan dan kunci waktu. Penutupan dengan persetujuan bersama lebih disukai untuk menutup saluran. Dalam kasus penutupan paksa, transaksi komitmen terakhir dipublikasikan.
 Pembayaran dapat meminjam saluran dari node perantara lainnya. Pembayaran bersyarat pada hash time lock (HTLC) memungkinkan dana untuk dikunci sampai pembayaran sepenuhnya diselesaikan. Onion routing digunakan dalam Lightning Network. Node perantara tidak mengetahui tujuan akhir dari pembayaran. Alice harus menghitung rute pembayaran, tetapi tidak memiliki semua informasi tentang likuiditas di saluran perantara.
-![instruksi](assets/chapitre12/4.webp)
+![instruksi](assets/fr/51.webp)
 
 Ada komponen probabilitas ketika mengirim pembayaran melalui Lightning Network.
 
-![instruksi](assets/chapitre12/5.webp)
+![instruksi](assets/fr/52.webp)
 
 Untuk menerima pembayaran, likuiditas harus dikelola di saluran, yang dapat dilakukan dengan meminta orang lain untuk membuka saluran kepada kita, membuka saluran sendiri, dan menggunakan alat seperti Loop atau membeli/menyewa saluran di pasar.
 
@@ -604,9 +593,14 @@ Akhirnya, masa depan Bitcoin menjanjikan dengan proyeksi kemungkinan satu juta d
 
 
 
-## Beri kami umpan balik tentang kursus ini
+## Evaluasi kursus ini
 <chapterId>38814c99-eb7b-5772-af49-4386ee2ce9b0</chapterId>
 <isCourseReview>true</isCourseReview>
+
+## Ujian Akhir
+<chapterId>7ed33400-aef7-5f3e-bfb1-7867e445d708</chapterId>
+<isCourseExam>true</isCourseExam>
+
 
 ## Pengakuan dan Terus Menggali Lubang Kelinci
 

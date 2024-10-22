@@ -835,9 +835,14 @@ Metode kriptografi lain yang banyak digunakan pada protokol Bitcoin adalah metod
 
 
 
-## Beri kami umpan balik tentang kursus ini
+## Evaluasi kursus ini
 <chapterId>0cd71541-a7fd-53db-b66a-8611b6a28b04</chapterId>
 <isCourseReview>true</isCourseReview>
+
+## Ujian Akhir
+<chapterId>a53ea27d-0f84-56cd-b37c-a66210a4b31d</chapterId>
+<isCourseExam>true</isCourseExam>
+
 
 ## Kesimpulan dan Akhir
 

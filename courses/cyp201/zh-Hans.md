@@ -817,9 +817,14 @@ Segwit V0版本由代码00表示，"payload"以基数10表示，为黑色。这�
 ![video](https://youtu.be/c9MvtGJsEvY?si=bQ1N5NCd6op0G6nW)
 
 
-## 给我们关于这门课程的反馈
+## 评估课程
 <chapterId>0cd71541-a7fd-53db-b66a-8611b6a28b04</chapterId>
 <isCourseReview>true</isCourseReview>
+
+## 期末考试
+<chapterId>a53ea27d-0f84-56cd-b37c-a66210a4b31d</chapterId>
+<isCourseExam>true</isCourseExam>
+
 
 ## 结论和结束
 <chapterId>d291428b-3cfa-5394-930e-4b514be82d5a</chapterId>

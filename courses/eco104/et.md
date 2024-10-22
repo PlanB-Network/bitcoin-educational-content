@@ -1616,9 +1616,14 @@ Nüüd, kui olete läbinud mooduli "Kahtluste ületamine", peate testima oma äs
 
 
 
-## Andke meile tagasisidet selle kursuse kohta
+## Hinnake kursust
 <chapterId>86e358bb-88f4-5d20-af53-93f0f3524590</chapterId>
 <isCourseReview>true</isCourseReview>
+
+## Lõpueksam
+<chapterId>cbdb0b33-0491-5013-b96c-9a84dd085ed0</chapterId>
+<isCourseExam>true</isCourseExam>
+
 
 ## Lõppsõnad
 

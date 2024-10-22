@@ -887,9 +887,14 @@ Centrální banky se vyvinuly v poskytovatele poslední instance, pozastavujíc�
 
 
 
-## Dejte nám zpětnou vazbu k tomuto kurzu
+## Ohodnoťte kurz
 <chapterId>1a37317e-372a-5241-b478-8316d44f9283</chapterId>
 <isCourseReview>true</isCourseReview>
+
+## Závěrečná zkouška
+<chapterId>d01831c3-6c4d-59e3-95bc-03e97a05c142</chapterId>
+<isCourseExam>true</isCourseExam>
+
 
 ## Knihy a zdroje
 <chapterId>c44e4519-0741-527b-b3b0-3f513e87147d</chapterId>

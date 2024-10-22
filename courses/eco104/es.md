@@ -1568,6 +1568,11 @@ Ahora que has pasado por el Módulo "Superando Dudas", tendrás que poner a prue
 <chapterId>86e358bb-88f4-5d20-af53-93f0f3524590</chapterId>
 <isCourseReview>true</isCourseReview>
 
+## Examen Final
+<chapterId>cbdb0b33-0491-5013-b96c-9a84dd085ed0</chapterId>
+<isCourseExam>true</isCourseExam>
+
+
 ## Comentarios de Cierre
 <chapterId>2b27b4dd-10e1-56a7-978e-1e5085f9aaff</chapterId>
 

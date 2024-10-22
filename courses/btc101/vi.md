@@ -986,7 +986,7 @@ Bitcoin đã trở thành một tài sản tài chính quan trọng, chủ yếu
 - Hiệu suất trong quá khứ không là dấu hiệu của hiệu suất tương lai.
 - Liên hệ với cố vấn tài chính của bạn nếu cần.
 
-> DécouvreBitcoin (Rogzy) không cung cấp lời khuyên đầu tư và mọi thông tin ở đây không nên được coi là như vậy.
+> Plan ₿ Network không cung cấp lời khuyên đầu tư và mọi thông tin ở đây không nên được coi là như vậy.
 
 ### Danh sách kiểm tra Mini trước khi nhảy vào
 
@@ -1245,22 +1245,19 @@ Xin chúc mừng bạn đã hoàn thành khóa học BTC 101 này! Tôi thực s
 - [MIN 201](https://planb.network/courses/min201) để tìm hiểu thêm về việc đào
 - và nhiều hơn nữa...
 
-## Hỗ trợ chúng tôi
-<chapterId>3e6e756b-b6c4-5d41-bece-767922348067</chapterId>
 
-Khóa học này, cũng như tất cả nội dung trên trường đại học này, đã được cộng đồng của chúng tôi cung cấp miễn phí cho bạn. Để hỗ trợ chúng tôi, bạn có thể chia sẻ nó với người khác, trở thành thành viên của trường đại học, và thậm chí đóng góp vào sự phát triển của nó qua [GitHub của chúng tôi](https://github.com/PlanB-Network/bitcoin-educational-content). Thay mặt cho toàn bộ đội ngũ, cảm ơn bạn!
-
-
-
-## Cho chúng tôi biết phản hồi của bạn về khóa học này
+## Đánh giá khóa học
 <chapterId>585729e2-b0ab-51b5-89ec-593e3ea22c57</chapterId>
 <isCourseReview>true</isCourseReview>
 
-## Đánh giá khóa học
-<chapterId>44d01865-5c89-55a5-a397-a014960eec0f</chapterId>
+## Kỳ thi cuối cùng
+<chapterId>8410e961-3841-5abf-a51d-04fc0139dd59</chapterId>
+<isCourseExam>true</isCourseExam>
 
-Một hệ thống đánh giá cho khóa học sẽ sớm được tích hợp vào nền tảng E-learning mới này! Trong thời gian chờ đợi, cảm ơn rất nhiều vì đã tham gia khóa học và nếu bạn thích nó, xin hãy cân nhắc chia sẻ nó với người khác.
+## Kết luận
 
-Một lời cảm ơn lớn đến những người hỗ trợ Patreon, các thành viên, và những người quyên góp vì đã hỗ trợ tài chính, cảm ơn những người đã chia sẻ, và cảm ơn những người đã làm cho khóa học này trở thành hiện thực: Rachel, Muriel, đội ngũ StackinSat, JohnOnChain, Fanis, Guillaume, Lounes, những người hiệu đính, và những người đánh giá.
+<chapterId>dfc534be-44a9-5e8c-9c98-e51ef0554e91</chapterId>
 
-Hẹn gặp lại bạn!
+**Chúc mừng bạn đã hoàn thành khóa học này!**
+
+Xin lưu ý rằng chương này hiện đang được xây dựng và phiên bản cải tiến sẽ sớm ra mắt. Trong thời gian chờ đợi, nếu bạn háo hức tiếp tục hành trình Bitcoin của mình, chúng tôi mời bạn khám phá các khóa học và hướng dẫn khác có sẵn trên nền tảng của chúng tôi. Hãy tiếp tục công việc tốt đẹp và học tập vui vẻ!

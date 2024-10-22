@@ -1,0 +1,8 @@
+question: Quelle est la relation entre la liberté et la responsabilité ?
+answer: La responsabilité découle de la liberté des choix individuels
+wrong_answers:
+  - La liberté est limitée par la responsabilité des autres
+  - La liberté et la responsabilité sont deux concepts indépendants
+  - La responsabilité est un obstacle à la liberté
+explanation: 
+reviewed: false

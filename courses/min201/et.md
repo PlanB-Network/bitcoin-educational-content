@@ -84,6 +84,7 @@ Kaevandamisprotsess hõlmab kehtiva räsi leidmist, mis on Bitcoin'i võrgule va
 Alguses domineeris CPU ajastu, kus kaevurid kasutasid Bitcoin'i kaevandamiseks oma isiklikke arvuteid. GPU-de (graafikakaartide) eeliste avastamine selle ülesande jaoks märkis pöördepunkti, suurendades oluliselt hashrate'i ja vähendades energiatarbimist. Edusammud ei peatunud seal, järgnes FPGA-de (field-programmable gate arrays) tutvustamine. FPGA-d teenisid platvormina ASIC-ute (application-specific integrated circuits) arendamiseks.
 
 ![image](assets/overview/chip.webp)
+
 ASIC-id on kiibid, võrreldavad CPU kiibiga, kuid need on välja töötatud ainult ühe kindla tüüpi arvutuse sooritamiseks võimalikult efektiivsel viisil. Teisisõnu, CPU suudab sooritada paljusid erinevaid tüüpi arvutusi ilma, et oleks eriti optimeeritud ühe või teise arvutuse jaoks, samas kui ASIC suudab sooritada ainult ühte tüüpi arvutust, kuid väga efektiivselt. Bitcoin'i ASIC-ide puhul on need disainitud SHA256 algoritmi arvutuste sooritamiseks. Tänapäeval kasutavad kaevurid eksklusiivselt just sellistele operatsioonidele pühendatud ASIC-e, mis on optimeeritud maksimaalse arvu kombinatsioonide testimiseks võimalikult väikese energiakuluga ja nii kiiresti kui võimalik. Need arvutid, mis ei suuda sooritada muid ülesandeid peale Bitcoin'i kaevandamise, on käegakatsutav tunnistus Bitcoin'i kaevandamistööstuse pidevast arengust ja üha suurenevast spetsialiseerumisest. See pidev areng peegeldab Bitcoin'i olemuslikku dünaamikat, kus raskusastme kohandamine tagab bloki tootmise iga kümne minuti järel hoolimata kaevandamisvõimsuse eksponentsiaalsest kasvust.
 
 Selle protsessi intensiivsuse illustreerimiseks kujutage ette tüüpilist kaevurit, kes suudab saavutada 14 TeraHashi sekundis, ehk 14 triljonit katset iga sekund leida õige hash. Bitcoin'i võrgu mastaabis jõuame nüüd ligikaudu 300 HexaHashi sekundis, mis rõhutab Bitcoin'i kaevandamises mobiliseeritud kollektiivset jõudu.
@@ -101,6 +102,7 @@ Raskusastme kohandamine on Bitcoin'i võrgu toimimiseks kriitilise tähtsusega m
 
 Rääkides Bitcoin'i kaevandamismasinate arengust, on oluline märkida, et kontekst on rohkem suunatud traditsioonilisele ärimudelile. Kaevurid teenivad oma tulu bloki valideerimisest, ülesandest, millel on suhteliselt madal edukuse tõenäosus. Praegu kasutusel olev mudel, Antminer S9, kuigi vanem mudel, mis lasti välja umbes 2016. aastal, on endiselt ringluses teise ringi turul, kaubeldes umbes 100 kuni 200 euroga. Siiski varieerub kaevandusmasinate hind sõltuvalt Bitcoin'i väärtusest, ja uuem mudel, Antminer S19, on hetkel hinnanguliselt umbes 3000 eurot.
 Pideva tehnoloogilise arenguga kaevandamisvaldkonnas peavad professionaalid end strateegiliselt positsioneerima. Kaevandustööstus on pidevate uuenduste all, nagu näitab hiljutine S19 J versiooni ja oodatava S19 XP versiooni väljalase, mis pakuvad oluliselt suuremaid kaevandamisvõimekusi. Lisaks ei ole täiustused seotud ainult masinate toorjõudlusega. Näiteks uus S19 XP mudel kasutab vedelikjahutussüsteemi, tehniline muudatus, mis võimaldab olulist energiatõhususe paranemist. Kuigi innovatsioon on pidev, on tulevased efektiivsuse kasvud tõenäoliselt väiksemad võrreldes seni täheldatutega, kuna jõutakse teatud tehnoloogilise innovatsiooni lävepakuni.
+
 ![image](assets/overview/chipevolution.webp)
 
 Kokkuvõttes jätkab Bitcoin'i kaevandamise tööstus kohanemist ja arengut ning tööstuse osalejad peavad arvestama tulevikus väiksemate efektiivsuse kasvudega ning kohandama oma strateegiaid vastavalt. Tulevased tehnoloogilised edusammud, kuigi endiselt esinevad, on tõenäoliselt väiksemas mahus, peegeldades sektori kasvavat küpsust.
@@ -162,7 +164,15 @@ Selle tsentraliseerimise vastu võitlemiseks arutatakse erinevaid strateegiaid:
 
 ### Attakai põhimõte
 
-Selle detsentraliseerimise piir?
+Praeguses kontekstis võib Bitcoinide kaevandamine S9 mudeliga tunduda keeruline, kuid sügavam analüüs avab ukse innovaatilistele alternatiividele. Attakai põhimõte põhineb mõttel kasutada kaevandamisüksusi erinevates hoonetes, näiteks koolides või haiglates. Peamine idee on paigutada mõned kaevandamismasinad erinevatesse kohtadesse, võimaldades sel viisil kasutada masinatest eralduvat soojust hoonete kütmiseks. Valides tõhusamad mudelid, näiteks S19, oleks võimalik kaevandamistegevust hajutada, parandades üldist tulemuslikkust ja samal ajal kasulikult panustades ühiskonda. Selle algatuse eesmärk on konkureerida suurte tsentraliseeritud kaevandamisrajatistega, kasutades kaevandamismasinate poolt toodetud soojust produktiivselt ja tõhusalt.
+
+Attakai algatus sündis kahest sõbrast, kes soovisid aktiivselt osaleda Bitcoin'i võrgus ja katsetasid kodukaevandamist. Nad seisid silmitsi suurte takistustega, näiteks kaevandamisvarustuse kõrge müratasemega, mis oli loodud tööstuslikuks, mitte koduseks kasutamiseks. Probleemi lahendamiseks viidi kaevandamismasinatesse sisse riistvaralisi muudatusi. Algne varustus asendati tõhusamate ja vaiksemate ventilaatoritega, mis muutis kodukaevandamise kättesaadavamaks ja vähem häirivaks. Lisaks lisati Wi-Fi adapter, mis kõrvaldas vajaduse Etherneti kaabliga ühenduse järele, lihtsustades kodukaevandamise protsessi veelgi. Talvel kasutati neid muudetud kaevandusmasinaid kütteallikana, muutes häiriva asjaolu kasulikuks.
+
+Pärast oma projekti tutvustamist Bitcoin'i kogukonnale ja huvi tekkimist otsustasid Attakai loojad avaldada üksikasjalikud juhised Découvre Bitcoin platvormil, et igaüks saaks kodukaevandamise kogemust korrata. Nüüd plaanivad nad seda kontseptsiooni laiendada kodust kaugemale. Eesmärk on näidata, kuidas muudetud kaevandamismasinat saab muuta vaikseks lisakütteallikaks, mida saab kasutada talvel, pakkudes sujuvat üleminekut teise koolitusosa juurde, mis keskendub nende muudatuste praktilisele rakendamisele koos selgitavate videodega. Küsimus on aga selles, kas seda algatust saab laiendada suuremasse mõõtkavasse, pakkudes realistlikku ja jätkusuutlikku alternatiivi praegustele tsentraliseeritud kaevandamisstruktuuridele.
+
+![image](assets/overview/attakai.webp)
+
+### Selle detsentraliseerimise piir?
 
 Kuigi kaevandamise detsentraliseerimise idee, kasutades ära tekitatud soojust tootlikult, tundub paljutõotav, on sellel teatud piirangud ja küsimused püsivad. Energiat intensiivselt kasutavad asutused nagu saunad ja basseinid võiksid sellest kontseptsioonist kasu saada, kasutades kaevurite poolt tekitatud soojust oma rajatiste vee soojendamiseks. See praktika on juba mõningate Bitcoini kogukonna liikmete poolt kasutusele võetud, kes uurivad erinevaid meetodeid kaevandamisseadmete poolt tekitatud soojuse tõhusaks kasutamiseks. Näiteks teoreetiliselt võiks kolme või nelja S19 kaevuri abil, igaüks tarbides 3000 vatti ja tootes samaväärse koguse soojust, soojendada banketisaali.
 
@@ -210,6 +220,7 @@ Lõppkokkuvõttes jagatakse vastutus kõigi Bitcoin'i võrgu osalejate vahel. Ka
 ### Kaevurite Võim
 
 Satoshi Nakamoto elegantne mänguteooria lõi olukorra, kus iga Bitcoin'i võrgu osaleja on motiveeritud õigesti käituma, et kaitsta nii oma huve kui ka teiste osalejate huve. See loob tasakaalu, kus halba käitumist saab karistada, suurendades seeläbi kogu süsteemi turvalisust ja stabiilsust. Hoolimata sellest tasakaalust, jäävad riigid potentsiaalseks ohuks. Nagu Surfing Bitcoin 2022 esitlusel märgitud, võivad riigid püüda rünnata kaevandustööstust, paljastades Bitcoin'i võrgu keskendumise ja rünnaku riskidele. Hüpoteetilised stsenaariumid, nagu sõjaline rünnak kaevandusseadmete tootmisrajatistele, rõhutavad geograafilise ja tööstusliku mitmekesistamise tähtsust Bitcoin'i võrgu vastupidavuse jaoks.
+
 ![image](assets/overview/miner.webp)
 
 Kaevandusseadmete tootmise keskendumine Hiinasse kujutab endast teist riski. Keeldumine kaevandusmasinate eksportimisest või hashrate'i kogumine potentsiaalseks 51% rünnakuks Hiina poolt rõhutab vajadust mitmekesistada kaevandusseadmete tootmist. Nendele riskidele reageerides uurib Bitcoin'i kogukond aktiivselt lahendusi. Ettevõtted nagu Intel kaaluvad kaevandusseadmete tootmist Ameerika Ühendriikides, aidates tootmise jaotust suurendada. Teised algatused, nagu Block'i avatud lähtekoodiga Mining Development Kit (MDK), eesmärgivad vähendada kaevandusseadmete disaini ja tootmise monopoli, võimaldades hashrate'i laiemat jaotust. Nende arutelude keskmes on Bitcoin'i põhimissioon: olla tsensuurikindel väärtusevahetusvõrk. Bitcoin'i kogukond püüab pidevalt tugevdada jaotust, tsensuurikindlust ja võrgu vastupidavust, lükates tagasi ettepanekud, nagu üleminek proof of stake'ile, mis ei ühti nende põhimõtetega.
@@ -217,6 +228,8 @@ Kaevandusseadmete tootmise keskendumine Hiinasse kujutab endast teist riski. Kee
 ### Töötõend vs Panusetõend Füüsiline Seos
 
 Proof of Work (PoW) on oluline, kuna see esindab füüsilist sidet reaalse maailma ja Bitcoini vahel. Kuigi bitcoinid on käegakatsutamatud, nõuab nende tootmine käegakatsutavat energiat, luues otsese ühenduse füüsilise ja reaalse maailmaga. See ühendus tagab, et bitcoinide ja plokkide tootmine ning valideerimine omavad reaalset energiakulu, ankurdamaks Bitcoini võrgustikku füüsilisse reaalsusesse ja takistamaks selle täielikku domineerimist võimsate entiteetide poolt. PoW toimib kaitserajatisena tsentraliseerimise vastu, tagades, et võrgustikus osalemine ja tehingute valideerimine nõuavad investeeringut käegakatsutavatesse ressurssidesse. See hoiab ära võrgustiku monopoliseerimise entiteetide poolt, kes muidu võiksid kontrolli haarata ilma olulise sisenemisbarjäärita, tagades seeläbi võimu ja mõju õiglasema jaotuse Bitcoini võrgustikus.
+
+![image](assets/overview/POWPOS.webp)
 
 ### Proof of Stake'i piirangud
 
@@ -317,10 +330,11 @@ On oluline mõista energia ja soojuse tootmise vahelist suhet elektrisüsteemis.
 Arvuti või laiemalt elektrooniline plaat ei tarbi arvutuste tegemiseks energiat, vaid vajab oma komponentide töötamiseks energiat. Energiatarbimine on tingitud komponentide elektrilisest takistusest, mis tekitab kadusid ja genereerib soojust, tuntud kui Joule'i efekt.
 
 Mõned ettevõtted on tulnud ideele ühendada arvutusvõimsuse vajadused küttevajadustega radiaator/serverite kaudu. Idee on jaotada ettevõtte serverid väikesteks üksusteks, mida saaks paigutada kodudesse või kontoritesse. Siiski seisab see idee silmitsi mitme probleemiga. Serverite vajadus ei ole seotud küttevajadusega ja ettevõtted ei saa oma serverite arvutusvõimekust paindlikult kasutada. Lisaks on piiranguid üksikisikute võimalikule ribalaiusele. Kõik need piirangud takistavad ettevõttel neid kalleid paigaldusi kasumlikuks muutmast või pakkumast stabiilset online serveri teenust ilma andmekeskusteta, mis võiksid üle võtta, kui kütet ei vajata.
-"Teie arvuti tekitatud soojus ei ole raisatud, kui peate oma kodu küttma. Kui kasutate elukohas elektrikütet, siis teie arvuti tekitatud soojus ei ole raisatud. Selle soojuse tekitamine teie arvutiga maksab sama palju. Kui teil on elektriküttest odavam küttesüsteem, siis raiskamine seisneb ainult kulude erinevuses. Kui on suvi ja kasutate konditsioneerimist, siis on see topelt raiskamine. Bitcoinide kaevandamine peaks toimuma seal, kus see on odavam. Võib-olla on see kohtades, kus kliima on külm ja kus kütmine on elektriline, kus kaevandamine muutub tasuta."
 
+> Teie arvuti tekitatud soojus ei ole raisatud, kui peate oma kodu küttma. Kui kasutate elukohas elektrikütet, siis teie arvuti tekitatud soojus ei ole raisatud. Selle soojuse tekitamine teie arvutiga maksab sama palju. Kui teil on elektriküttest odavam küttesüsteem, siis raiskamine seisneb ainult kulude erinevuses. Kui on suvi ja kasutate konditsioneerimist, siis on see topelt raiskamine. Bitcoinide kaevandamine peaks toimuma seal, kus see on odavam. Võib-olla on see kohtades, kus kliima on külm ja kus kütmine on elektriline, kus kaevandamine muutub tasuta.
 > Satoshi Nakamoto - 8. august 2010
-> Bitcoin ja selle töötõend (proof of work) paistavad silma, kuna need kohandavad automaatselt kaevandamise raskust vastavalt kogu võrgu poolt teostatud arvutustöö hulgale. Seda arvutustöö hulka nimetatakse hashrate'iks ja see väljendatakse hashides sekundis. Täna hinnatakse seda 380 eksahashiks sekundis, mis on 380 miljardit miljardit hashi sekundis. See hashrate esindab tööd ja seega ka kulutatud energiahulka. Mida kõrgem on hashrate, seda suurem on raskusaste ja vastupidi. Seega võib Bitcoin'i kaevurit aktiveerida või deaktiveerida igal ajal ilma, et see mõjutaks võrku, erinevalt radiaatoritest/serveritest, mis peavad jääma stabiilseks, et pakkuda oma teenust. Kaevur saab oma osaluse eest preemiat, olenemata selle suurusest.
+
+Bitcoin ja selle töötõend (proof of work) paistavad silma, kuna need kohandavad automaatselt kaevandamise raskust vastavalt kogu võrgu poolt teostatud arvutustöö hulgale. Seda arvutustöö hulka nimetatakse hashrate'iks ja see väljendatakse hashides sekundis. Täna hinnatakse seda 380 eksahashiks sekundis, mis on 380 miljardit miljardit hashi sekundis. See hashrate esindab tööd ja seega ka kulutatud energiahulka. Mida kõrgem on hashrate, seda suurem on raskusaste ja vastupidi. Seega võib Bitcoin'i kaevurit aktiveerida või deaktiveerida igal ajal ilma, et see mõjutaks võrku, erinevalt radiaatoritest/serveritest, mis peavad jääma stabiilseks, et pakkuda oma teenust. Kaevur saab oma osaluse eest preemiat, olenemata selle suurusest.
 
 Kokkuvõttes toodavad nii elektriradiaator kui ka Bitcoin'i kaevur 1 kW soojust 1 kW elektri tarbimise kohta. Siiski saab kaevur lisaks preemiaks bitcoine. Olenemata elektri hinnast, bitcoini hinnast või konkurentsist Bitcoin'i kaevandamise tegevuses võrgus, on majanduslikult kasulikum kütta kaevuriga kui elektriradiaatoriga.
 
@@ -330,9 +344,9 @@ Oluline on mõista, kuidas kaevandamine aitab kaasa Bitcoin'i detsentraliseerimi
 Mitmed olemasolevad tehnoloogiad on nutikalt ühendatud, et ellu viia Nakamoto konsensus. See konsensus majanduslikult premeerib ausaid osalejaid nende panuse eest Bitcoin'i võrgu toimimisse, samal ajal ebaausaid osalejaid heidutades. See on üks võtmetegureid, mis võimaldab võrgul jätkusuutlikult eksisteerida.
 Ausad tegutsejad, need, kes kaevandavad reeglite järgi, konkureerivad omavahel, et saada võimalikult suurt osa uute plokkide tootmise preemiast. See majanduslik stiimul viib loomulikult teatud vormi tsentraliseerumiseni, kuna ettevõtted otsustavad spetsialiseeruda sellele kasumlikule tegevusele, vähendades oma kulusid läbi mastaabisäästu. Need tööstuslikud tegutsejad omavad soodsat positsiooni masinate ostuks ja hoolduseks, samuti hulgihindade läbirääkimiseks elektri eest.
 
-> "Alguses jooksutaks enamik kasutajaid võrgusõlmi, kuid kui võrk kasvab teatud punktist kaugemale, jääks see üha enam spetsialistidele, kellel on spetsialiseeritud riistvaraga serverifarmid. Serverifarmil oleks vaja võrgus olla ainult üks sõlm ja ülejäänud LAN ühenduks selle sõlmega."
+> Alguses jooksutaks enamik kasutajaid võrgusõlmi, kuid kui võrk kasvab teatud punktist kaugemale, jääks see üha enam spetsialistidele, kellel on spetsialiseeritud riistvaraga serverifarmid. Serverifarmil oleks vaja võrgus olla ainult üks sõlm ja ülejäänud LAN ühenduks selle sõlmega.
 >
-> - Satoshi Nakamoto - 2. november 2008
+> Satoshi Nakamoto - 2. november 2008
 
 Teatud üksused hoiavad suurt protsenti kogu hashrate'st suurtes kaevandusfarmides. Me võime täheldada hiljutist külmalainet Ameerika Ühendriikides, kus märkimisväärne osa hashrate'st võeti maha, et suunata energiat majapidamistele, kellel oli erakordne vajadus elektri järele. Mitme päeva jooksul olid kaevurid majanduslikult motiveeritud oma farme sulgema, ja seda erakordset ilmaolukorda võib näha Bitcoin'i hashrate kõveras.
 
@@ -525,7 +539,10 @@ Siin näeme, kuidas lihtsalt paigaldada Braiins OS+ otse teie Antminer'i mälu k
 8. Klõpsake "Back" ja seejärel "Install" vahekaardil, sisestage varem leitud IP-aadress ja klõpsake "Start".
 
 > Kui paigaldamine ei õnnestu, võib olla vajalik teostada lähtestamine ja proovida uuesti (vt eelmine jaotis).
-> ![image](assets/software/8.webp) 9. Mõne hetke pärast taaskäivitub teie Antminer ja te saate ligi pääseda Braiins OS+ liidesele määratud IP-aadressil, siin 192.168.1.37, otse oma brauseri aadressiribal. Vaikimisi kasutajanimi on "root" ja vaikimisi parooli ei ole.
+
+![image](assets/software/8.webp)
+
+9. Mõne hetke pärast taaskäivitub teie Antminer ja te saate ligi pääseda Braiins OS+ liidesele määratud IP-aadressil, siin 192.168.1.37, otse oma brauseri aadressiribal. Vaikimisi kasutajanimi on "root" ja vaikimisi parooli ei ole.
 
 ## BraiinsOS+ seadistamine
 
@@ -650,7 +667,8 @@ Lõpuks asetage korpuse kaas tagasi ja keerake külgedel 6 kruvi, et kõik paiga
 <chapterId>a29f60f1-3fa3-57fc-a630-9c97cec30e56</chapterId>
 
 > HOIATUS: On hädavajalik, et enne jätkamist oleks teie kaevurisse juba paigaldatud Braiins OS+ või mõni muu tarkvara, mis on võimeline vähendama teie masina jõudlust. See meede on kriitiline, kuna müra vähendamiseks paigaldame vähem võimsaid ventilaatoreid, mis hajutavad vähem soojust.
-> ![image](assets/hardware/cover.webp)
+
+![image](assets/hardware/cover.webp)
 
 ### Vajalikud Materjalid
 
@@ -750,9 +768,8 @@ See seab ülemise piiri masina hashimiskiirusele. Autotuning on protsess, kus al
 
 Lõpptulemuseks on suurem hashimiskiirus vati kohta, mis tähendab kaevuritele suuremaid kasumimarginaale. Põhjus, miks masinaid ei jaotata sellise tarkvaraga, on see, et masinate varieeruvus on ebasoovitav, kuna kliendid soovivad täpselt teada, mida nad saavad, seega on tootjate jaoks halb mõte müüa toodet, millel ei ole ühelt masinalt teisele järjepidevat ja etteaimatavat jõudlust. Lisaks nõuab kiibi tasemel autotuning märkimisväärseid arendusressursse, kuna selle rakendamine on keeruline. Tootjad kulutavad juba palju ressursse oma püsivara arendamisele. On olemas tarkvaralahendusi, mis võimaldavad autotuningut, nagu näiteks Braiins OS+. Lisaks ASIC-i jõudluse parandamisele kuni 20%.
 
+## Hinnake kursust
 
-
-## Andke meile tagasisidet selle kursuse kohta
 <chapterId>6af13742-df68-5cf4-b7aa-93dc0c2eaae9</chapterId>
 <isCourseReview>true</isCourseReview>
 
@@ -763,4 +780,3 @@ Lõpptulemuseks on suurem hashimiskiirus vati kohta, mis tähendab kaevuritele s
 ### Otseteede loomine iOS-is
 
 ![Antminer S9 juhtimine oma nutitelefoniga](https://www.youtube.com/watch?v=OsKmdB2iw88&t=60s)
-

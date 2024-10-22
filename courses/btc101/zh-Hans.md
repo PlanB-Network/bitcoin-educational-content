@@ -1012,7 +1012,7 @@ Bob将他的交易发送到比特币网络中，当矿工发布包含着此交�
 - 过去的表现不预示未来的表现。
 - 如需，请联系您的财务顾问。
 
-> DécouvreBitcoin（Rogzy）不提供投资建议，本文中所述内容不应被视为投资建议。
+> Plan ₿ Network 不提供投资建议，本文中所述内容不应被视为投资建议。
 
 ### 做出决定前的小清单
 
@@ -1277,23 +1277,20 @@ Bob将他的交易发送到比特币网络中，当矿工发布包含着此交�
 - [MINAGE 201](https://planb.network/courses/min201) ，了解更多关于挖矿的内容
 - 还有更多！
 
-## 支持我们
 
-<chapterId>3e6e756b-b6c4-5d41-bece-767922348067</chapterId>
+## 评估课程
 
-这门课程以及这所大学上的所有内容都是由我们的社区免费提供给您的。为了支持我们，你可以与他人分享它，成为大学的成员，甚至通过[我们的GitHub](https://github.com/DecouvreBitcoin/sovereign-university-data)贡献其发展。我代表整个团队表达，非常感谢您们！
-
-
-## 给我们关于这门课程的反馈
 <chapterId>585729e2-b0ab-51b5-89ec-593e3ea22c57</chapterId>
 <isCourseReview>true</isCourseReview>
 
-## 评价培训
+## 期末考试
+<chapterId>8410e961-3841-5abf-a51d-04fc0139dd59</chapterId>
+<isCourseExam>true</isCourseExam>
 
-<chapterId>44d01865-5c89-55a5-a397-a014960eec0f</chapterId>
+## 总结
 
-课程的评分系统将很快整合到这个新的网络化学习平台中！与此同时，非常感谢您参加这门课程，如果您对课程满意，请考虑向他人分享。
+<chapterId>dfc534be-44a9-5e8c-9c98-e51ef0554e91</chapterId>
 
-非常感谢我们的Patreon支持者、会员和捐赠者的财务支持，感谢分享此课程的人们，感谢那些使本培训项目得以实现的人们：Rachel, Muriel, StackinSat团队, JohnOnChain, Fanis, Guillaume, Lounes, 校对者们和审稿者们。
+**恭喜您完成本课程！**
 
-我们很快再见！
+请注意，本章节目前正在建设中，改进版本将很快推出。在此期间，如果您渴望继续您的比特币之旅，我们邀请您探索我们平台上提供的其他课程和教程。继续保持努力，祝学习愉快！

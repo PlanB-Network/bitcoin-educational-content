@@ -1004,9 +1004,14 @@ _Cryptoasset Inheritance Planning, A simple guide for owners, Pamela Morgan, ESQ
 无论如何，我们所有的课程都是免费的，许多资源或教程都可在我们的平台上找到，以陪伴您的学习过程。祝您学习顺利！
 
 
-## 给我们关于这门课程的反馈
+## 评估课程
 <chapterId>3f43175a-fb7a-5b1c-a887-7dcf615d7a3a</chapterId>
 <isCourseReview>true</isCourseReview>
+
+## 期末考试
+<chapterId>f3ff8089-8f89-56a8-be8c-b60296b4d91f</chapterId>
+<isCourseExam>true</isCourseExam>
+
 
 ## 后续跟进
 

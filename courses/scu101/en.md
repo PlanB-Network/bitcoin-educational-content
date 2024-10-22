@@ -110,9 +110,11 @@ A more advanced alternative is the TOR (The Onion Router) network, which offers 
 
 TOR is legal and is used by journalists, freedom activists, and others wishing to escape censorship in authoritarian countries. However, it is important to understand that TOR does not secure the visited sites or the computer itself. Additionally, using TOR can slow down the internet connection as data passes through three other people's computers before reaching its destination. It is also essential to note that TOR is not a foolproof solution to guarantee 100% anonymity and should not be used for illegal activities.
 ![](assets/notext/7.webp)
-### BRAVE
 
-**_Tutorial under construction, to contribute or add it, you can go through GitHub_**
+
+https://planb.network/tutorials/others/tor-browser
+
+
 
 ## VPN and internet connection
 <chapterId>5aac83f4-a685-54b0-9759-d71bea7eeed2</chapterId>
@@ -132,6 +134,10 @@ However, using a consumer VPN does not guarantee complete anonymity. Many VPN pr
 ![](assets/notext/9.webp)
 Finally, a VPN can also be used to block online advertisements, providing a more enjoyable and secure browsing experience. However, it is important to do your own research to find the VPN that best suits your specific needs. Using a VPN is recommended to enhance security, even when browsing the internet at home. This helps ensure a higher level of security for exchanged data online. Finally, make sure to check the URLs and the small padlock in the address bar to confirm that you are on the site you intend to visit.
 
+https://planb.network/tutorials/others/ivpn
+
+https://planb.network/tutorials/others/mullvad
+
 ### HTTPS & public Wi-Fi networks'
 
 In terms of online security, it is essential to understand that 4G is generally more secure than public Wi-Fi. However, using 4G can quickly deplete your mobile data plan. The HTTPS protocol has become the standard for encrypting data on websites. It ensures that the data exchanged between the user and the website is secure. Therefore, it is crucial to verify that the site you are visiting is using the HTTPS protocol.
@@ -142,9 +148,6 @@ To avoid online scams, it is crucial to verify the identity of the site you are 
 ![](assets/en/10.webp)
 In summary, the use of VPN can greatly improve online security, both for businesses and individual users. Furthermore, practicing good browsing habits can contribute to better digital hygiene. In the next segment of this course, we will address computer security, including updates, antivirus, and password management.
 
-### Tutorial: IVPN
-
-**_Tutorial under construction, to contribute or add it, you can go through GitHub_**
 
 # Best Practices for Computer Use
 <partId>e6eac20b-ba24-5d9a-8d86-8e0164074457</partId>
@@ -193,9 +196,8 @@ Treat your computer as you would your home: stay vigilant, regularly update, del
 
 In conclusion, it is essential to choose an operating system that suits your needs and regularly update it, as well as the installed applications. It is also essential to use an effective and user-friendly antivirus and adopt good practices for the security of your computer and data.
 
-### Tutorial: Ubuntu
 
-**_Tutorial under construction, to contribute or add it, you can go through GitHub_**
+
 
 ## Hacking & Backup Management: Protecting Your Data
 <chapterId>9ddfcb6a-a253-5542-b7eb-df7222b46dc7</chapterId>
@@ -234,6 +236,11 @@ NO, it is generally not recommended to pay hackers in the case of ransomware or 
 
 If you detect a virus on your computer, disconnect it from the internet, perform a full antivirus scan, and delete infected files. Then, update your software and operating system, and change your passwords to prevent further intrusions.
 
+https://planb.network/tutorials/others/proton-drive
+
+https://planb.network/tutorials/others/veracrypt
+
+
 # Implementation of solutions.
 <partId>215ec902-ba05-5549-87fc-cb8d82665f7b</partId>
 
@@ -263,9 +270,9 @@ It is advisable to use the website Have I Been Pwned (https://haveibeenpwned.com
 In general, starting to use a new, more secure email address is not a bad practice and even necessary if one wants to start fresh on a healthy basis.
 Bonus Bitcoin: It may be advisable to create a specific email address for our Bitcoin activities (creating exchange accounts) in order to truly separate the areas of activity in our lives.
 
-### Tutorial: ProtonMail account creation
+https://planb.network/tutorials/others/proton-mail
 
-**_Tutorial under construction, to contribute or add it, you can go through GitHub_**
+
 
 ## Password Manager
 <chapterId>0b3c69b2-522c-56c8-9fb8-1562bd55930f</chapterId>
@@ -305,17 +312,9 @@ To create a strong password, it is recommended to use a large number of random c
 
 Randomly generated passwords offer a higher level of security, although they may be more difficult to remember. Password managers can generate more secure random passwords. By using a password manager, you do not need to memorize all your passwords. It is important to gradually replace your old passwords with those generated by the manager, as they are stronger and longer. Make sure that the master password of your password manager is also strong and secure.
 
-### Tutorial: Creating a Master Password
+https://planb.network/tutorials/others/bitwarden
 
-**_Tutorial under construction, to contribute or add it, you can go through GitHub_**
-
-### Tutorial: BitWarden
-
-**_Tutorial under construction, to contribute or add it, you can go through GitHub_**
-
-### Tutorial: KeePass
-
-**_Tutorial under construction, to contribute or add it, you can go through GitHub_**
+https://planb.network/tutorials/others/keepass
 
 ## Two-Factor Authentication
 <chapterId>9391e02e-e61b-5a86-93e0-91a07f217d35</chapterId>
@@ -357,49 +356,92 @@ Keep learning and gradually implement good practices!
 
 Golden rule: Cybersecurity is a moving target that will adapt to your learning journey!
 
+https://planb.network/tutorials/others/authy
+
+https://planb.network/tutorials/others/security-key
+
+
+
 # Practical Section 
 <partId>98ccf14b-4053-5839-878c-7a73ff02eb95</partId>
 
 ## Setting up a Mailbox 
 <chapterId>afc9ab5d-7664-5a9b-ab50-225ac9ba8f7c</chapterId>
 
+Protecting your email account is an important step to secure your online activities and safeguard your personal data. This tutorial will guide you, step by step, in creating and setting up a ProtonMail account, a provider known for its high level of security that offers end-to-end encryption of your communications. Whether you are a novice or an experienced user, the best practices presented here will help you strengthen the security of your email, while taking advantage of ProtonMail's advanced features:
+
 https://planb.network/tutorials/others/proton-mail
 
-![video](https://youtu.be/vpYJYWhmEZg)
+
 
 ## Securing in 2FA
 <chapterId>09468ec1-95b7-56a4-a636-7618044568e1</chapterId>
 
+Two-factor authentication (2FA) has become essential for securing your online accounts. In this tutorial, you will learn how to set up and use the 2FA app Authy, which generates dynamic 6-digit codes to protect your accounts. Authy is very easy to use and synchronizes across multiple devices. Discover how to install and configure Authy, and thus strengthen the security of your online accounts right now:
+
 https://planb.network/tutorials/others/authy
+
+Another option is to use a physical security key. This additional tutorial shows you how to set up and use a security key as a second authentication factor:
 
 https://planb.network/tutorials/others/security-key
 
-![video](https://youtu.be/mNcAKRDmz5o)
+
+
 
 ## Creating a password manager
 <chapterId>ed579680-4e7b-5f65-8541-14e519a3b242</chapterId>
+
+Password management is a challenge in the digital age. We all have numerous online accounts to secure. A password manager helps you create and store strong and unique passwords for each account.
+
+In this tutorial, learn how to set up Bitwarden, an open-source password manager, and how to sync your credentials across all your devices to simplify your daily use:
+
 https://planb.network/tutorials/others/bitwarden
+
+For more advanced users, I also offer a tutorial on another free and open-source software to use locally for managing your passwords:
+
 https://planb.network/tutorials/others/keepass
-![video](https://youtu.be/y7Xkv4E5YmU)
+
+
 
 ## Securing your accounts
 <chapterId>7a774b34-aed0-57dd-b8f7-cf3be51c0d70</chapterId>
+
+In these two tutorials, I also guide you in securing your online accounts and explain how to gradually adopt more secure practices for managing your passwords on a daily basis.
+
 https://planb.network/tutorials/others/bitwarden
+
 https://planb.network/tutorials/others/keepass
-![video](https://youtu.be/0JHZRALmGY0)
+
 
 ## Back-up set-up
 <chapterId>01cfcde1-77cb-506c-8df1-fa18a2e8cc6b</chapterId>
+
+Protecting your personal files is also a crucial point. This tutorial shows you how to implement an effective backup strategy using Proton Drive. Discover how to use this secure cloud solution to apply the 3-2-1 method: three copies of your data on two different media, with one copy offsite. This ensures the accessibility and security of your sensitive files:
+
 https://planb.network/tutorials/others/proton-drive
+
+And to secure your files stored on removable media like a USB drive or external hard drive, I also show you how to easily encrypt and decrypt these media using VeraCrypt:
+
 https://planb.network/tutorials/others/veracrypt
-![video](https://youtu.be/wTJnlSUkDRI)
+
+
 
 ## Change of browser & VPN
 <chapterId>8dc08feb-313c-5259-a54f-64aa68a07608</chapterId>
+
+Protecting your online privacy is also a crucial point to ensure your security. Using a VPN can be a first solution to achieve this.
+
+I suggest discovering two reliable VPN solutions that are payable in Bitcoin, namely IVPN and Mullvad. These tutorials guide you on how to install, configure, and use Mullvad or IVPN on all your devices:
+
 https://planb.network/tutorials/others/ivpn
+
 https://planb.network/tutorials/others/mullvad
+
+Also, learn how to use Tor Browser, a browser specifically designed to protect your online privacy:
+
 https://planb.network/tutorials/others/tor-browser
-![video](https://youtu.be/vc6-Ouca09g)
+
+
 
 # Go further
 <partId>77113cad-a6d8-57e5-b903-50c223b277ba</partId>
@@ -475,9 +517,14 @@ As part of the "Security 101" training module on Découvre Bitcoin Academy, we a
 
 
 
-## Give us some feedback about this course
+## Evaluate the course
 <chapterId>6be74d2d-2116-5386-9d92-c4c3e2103c68</chapterId>
 <isCourseReview>true</isCourseReview>
+
+## Final Exam
+<chapterId>a894b251-a85a-5fa4-bf2a-c2a876939b49</chapterId>
+<isCourseExam>true</isCourseExam>
+
 
 ## Acknowledgments and keep digging the rabbit hole
 <chapterId>df3a962a-a96e-5006-b904-0dd9d4a072dd</chapterId>

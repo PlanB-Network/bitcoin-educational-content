@@ -917,9 +917,14 @@ Une autre méthode cryptographique grandement utilisée sur le protocole Bitcoin
 
 
 
-## Donnez-nous votre avis sur ce cours
+## Évaluez ce cours
 <chapterId>0cd71541-a7fd-53db-b66a-8611b6a28b04</chapterId>
 <isCourseReview>true</isCourseReview>
+
+## Examen final
+<chapterId>a53ea27d-0f84-56cd-b37c-a66210a4b31d</chapterId>
+<isCourseExam>true</isCourseExam>
+
 
 ## Conclusion et fin
 <chapterId>d291428b-3cfa-5394-930e-4b514be82d5a</chapterId>

@@ -510,9 +510,14 @@ Phương pháp luận là một khía cạnh thiết yếu trong kinh tế học
 <partId>ae828713-d133-559f-93c2-101cb5245fca</partId>
 
 
-## Cho chúng tôi biết phản hồi của bạn về khóa học này
+## Đánh giá khóa học
 <chapterId>29d4323c-e34e-5834-bf03-2f3ed10d751b</chapterId>
 <isCourseReview>true</isCourseReview>
+
+## Kỳ thi cuối cùng
+<chapterId>d58d188f-81fb-572a-a898-8b6f8aceba7a</chapterId>
+<isCourseExam>true</isCourseExam>
+
 
 ## Học thêm
 <chapterId>64faaed4-84b9-5b8c-9736-a959e8e6cd9d</chapterId>

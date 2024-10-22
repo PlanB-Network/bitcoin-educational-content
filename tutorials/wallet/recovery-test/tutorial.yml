@@ -1,0 +1,104 @@
+id: 5a75db51-a6a1-4338-a02a-164a8d91b895
+
+builder: None
+
+tags:
+  - wallets
+  - software
+  - backup
+  - good-practice
+
+category: backup
+
+level: beginner
+
+credits:
+  professor: pretty-private
+
+# Proofreading metadata
+
+original_language: fr
+proofreading:
+  - language: fr
+    last_contribution_date: 2024-10-14
+    urgency: 1
+    contributors_id:
+      - LoicPandul
+    reward: 1876
+  - language: cs
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 5004
+
+  - language: de
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 3752
+
+  - language: en
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 3752
+
+  - language: es
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 4378
+
+  - language: et
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 5004
+
+  - language: fi
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 5004
+
+  - language: id
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 5630
+
+  - language: it
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 4378
+
+  - language: ja
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 6256
+
+  - language: pt
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 3752
+
+  - language: ru
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 5004
+
+  - language: vi
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 6256
+
+  - language: zh-Hans
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 5630

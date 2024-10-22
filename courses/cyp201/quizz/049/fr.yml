@@ -1,0 +1,9 @@
+question: Comment doit être choisie une passphrase efficace ?
+answer: Elle doit être longue, diversifiée, et aléatoire, sans lien avec l'utilisateur.
+wrong_answers:
+  - Elle doit être facile à mémoriser et liée à l'environnement de l'utilisateur.
+  - Elle doit être courte mais avec des chiffres.
+  - Elle doit comporter au moins 10 chiffres.
+explanation: |
+  Une passphrase efficace doit être longue (20 à 40 caractères), diversifiée et aléatoire pour offrir une sécurité maximale, comme un bon mot de passe.
+reviewed: false

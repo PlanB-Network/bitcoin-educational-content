@@ -1,0 +1,9 @@
+question: Pourquoi l'utilisation d'une passphrase renforce-t-elle la sécurité d'un portefeuille HD ?
+answer: Elle ajoute une couche de protection supplémentaire à la phrase mnémonique.
+wrong_answers:
+  - Elle permet de générer des clés publiques plus fortes.
+  - Elle permet de protéger les transactions de façon cryptographique.
+  - Elle double le nombre de bitcoins dans le portefeuille.
+explanation: |
+  La passphrase renforce la sécurité en ajoutant une donnée supplémentaire à la phrase mnémonique, c'est un peu un 2FA.
+reviewed: false

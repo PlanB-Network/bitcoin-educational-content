@@ -1,11 +1,10 @@
 builder: ElysiumLab
 
 tags:
-  - self-custodial
-  - wallet
-  - keyless
+  - wallets
+  - keys
   - lightning
-  - Bitcoin
+  - self-sovereignty
 
 category: Mobile
 

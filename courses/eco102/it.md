@@ -285,7 +285,7 @@ Inizialmente, l'uomo è semplicemente un borghese. Ma il borghese è un calcolat
 
 ![image](assets/image/05/IMG06.webp)
 
-Secondo questa dottrina, l'uomo ha due volontà dentro di sé: una volontà che tende verso l'interesse personale, quella del borghese, e una volontà che tende verso l'interesse generale, quella del cittadino. Condurre gli uomini, anche con la forza, a volere un fine razionale, l'interesse generale, è condurli a diventare liberi. Quello che veramente vogliono è un fine razionale, anche se non lo sanno.
+Secondo questa dottrina, l'uomo ha due volontà dentro di sé: una che tende verso l'interesse personale, quella del borghese, e una volontà che tende verso l'interesse generale, quella del cittadino. Condurre gli uomini, anche con la forza, a volere un fine razionale, l'interesse generale, è condurli a diventare liberi. Quello che veramente vogliono è un fine razionale, anche se non lo sanno.
 È quindi perfettamente legittimo, secondo Rousseau, costringere gli uomini in nome di un fine che essi stessi, se fossero stati più illuminati, avrebbero perseguito, ma che non perseguono perché sono ciechi, ignoranti o corrotti. La società è fondata per costringerli a fare ciò che dovrebbero desiderare spontaneamente se fossero illuminati. E facendo ciò, non si fa violenza a loro poiché li si porta ad essere "liberi", cioè a fare le scelte giuste, scelte che sono in linea con il loro vero sé.
 
 ![image](assets/image/05/IMG09.webp)
@@ -293,7 +293,7 @@ Secondo questa dottrina, l'uomo ha due volontà dentro di sé: una volontà che 
 Convinto che la buona società sia una creazione della legge, Rousseau concede quindi potere illimitato al legislatore. Spetta a lui trasformare gli individui in uomini compiuti, in cittadini.
 Ma, spetta anche alla legge far esistere la proprietà. Secondo Rousseau, la proprietà può essere legittima solo se è regolata dal legislatore. Infatti, il male risiede nella disuguaglianza e nella servitù, entrambi derivanti dalla proprietà. È un'invenzione dei forti che ha portato alla cattiva società, alla società borghese, alle relazioni di dominio. Nel suo Discorso sull'origine e i fondamenti della disuguaglianza, scrive questo famoso passaggio:
 
-> La prima persona che, avendo recintato un pezzo di terra, disse: Questo è mio, e trovò persone abbastanza semplici da credergli, fu il vero fondatore della società civile. Quanti crimini, guerre, omicidi, quanta miseria e orrore sarebbero stati risparmiati al genere umano da colui che, estirpando le paletti o riempiendo il fossato, avesse gridato ai suoi simili: "Attenti a non ascoltare questo impostore; siete perduti se dimenticate che i frutti appartengono a tutti e la terra a nessuno!"
+> La prima persona che, avendo recintato un pezzo di terra, disse: Questo è mio, e trovò persone abbastanza semplici da credergli, fu il vero fondatore della società civile. Quanti crimini, guerre, omicidi, quanta miseria e orrore sarebbero stati risparmiati al genere umano da colui che, tirando su i paletti i o riempiendo il fossato, avesse gridato ai suoi simili: "Attenti a non ascoltare questo impostore; siete perduti se dimenticate che i frutti appartengono a tutti e la terra a nessuno!"
 
 ![image](assets/image/05/IMG05.webp)
 
@@ -327,7 +327,7 @@ Basta aprire quasi qualsiasi libro di filosofia, politica o storia a caso per tr
 ![image](assets/image/06/IMG13.webp)
 
 In primo luogo, dice, i Romani consideravano la proprietà come un fatto puramente convenzionale, come una creazione artificiale della legge scritta. Perché? Semplicemente, Bastiat spiega, perché vivevano di schiavitù e di saccheggio. Per loro, tutte le proprietà erano il frutto della spoliazione. Pertanto, non potevano introdurre nella legislazione l'idea che il fondamento della proprietà legittima fosse il lavoro senza distruggere le fondamenta della loro società.
-Avevano infatti una definizione empirica della proprietà, "jus utendi et abutendi" (il diritto di usare e abusare). Tuttavia, questa definizione riguardava solo gli effetti e non le cause, in altre parole, le origini etiche della proprietà. Per stabilire correttamente la proprietà, bisogna tornare alla stessa costituzione dell'uomo, e comprendere la relazione e il legame necessario che esistono tra bisogni, facoltà, lavoro e proprietà. I Romani, che erano proprietari di schiavi, potevano concepire l'idea che "ogni uomo possiede se stesso, e quindi il suo lavoro, e, di conseguenza, il prodotto del suo lavoro"? Bastiat si chiede.
+Avevano infatti una definizione empirica della proprietà, "jus utendi et abutendi" (il diritto di usare e abusare). Tuttavia, questa definizione riguardava solo gli effetti e non le cause, in altre parole, le origini etiche della proprietà. Per stabilire correttamente la proprietà, bisogna tornare alla stessa costituzione dell'uomo, e comprendere la relazione e il legame necessario che esistono tra bisogni, facoltà, lavoro e proprietà. I Romani, che erano proprietari di schiavi, potevano concepire l'idea che "ogni uomo possiede se stesso, e quindi il suo lavoro, e, di conseguenza, il prodotto del suo lavoro"? si chiede Bastiat.
 
 > Pertanto, non dobbiamo sorprenderci, conclude Bastiat, di vedere l'idea romana che la proprietà sia un fatto convenzionale e di istituzione legale riemergere nel diciottesimo secolo; che, lungi dall'essere la Legge un corollario della Proprietà, è la Proprietà che è un corollario della Legge.
 
@@ -364,7 +364,7 @@ L'argomento della protezione dei posti di lavoro è ciò che Bastiat chiama una 
 
 Immaginate un coltello inglese che si vende nel nostro paese per 2 euro, e un coltello prodotto in Francia costa 3. Se lasciamo che il consumatore acquisti liberamente il coltello che desidera, risparmia un franco, che può investire altrove (in un libro, o una matita).
 
-Se vietiamo il prodotto inglese, il consumatore pagherà un franco in più per il suo coltello. Il protezionismo risulta quindi in un profitto per un'industria nazionale e due perdite, una per un'altra industria (quella delle matite) e l'altra per il consumatore. Al contrario, il libero scambio rende due felici vincitori.
+Se vietiamo il prodotto inglese, il consumatore pagherà un franco in più per il suo coltello. Il protezionismo risulta quindi in un profitto per un'industria nazionale e due perdite, una per un'altra industria (quella delle matite) e l'altra per il consumatore. Al contrario, il libero scambio rende felici due attori.
 
 ![immagine](assets/image/07/IMG21.webp)
 
@@ -373,10 +373,10 @@ Il protezionismo è anche una forma di lotta di classe. Secondo Bastiat, è un s
 ![immagine](assets/image/07/IMG02.webp)
 
 Bastiat si schiera fermamente con i consumatori. Contro l'interesse di classe, egli pone l'interesse generale, che è l'interesse del consumatore, cioè l'interesse di tutti. È sempre dal punto di vista del consumatore che lo Stato dovrebbe posizionarsi quando agisce.
-Con la rivoluzione di febbraio 1848 e le sue barricate, emerse un nemico più formidabile del protezionismo, uno con cui condivide molte affinità: il socialismo. Cos'è? È un movimento politico che richiede l'organizzazione del lavoro per legge, la nazionalizzazione delle industrie e delle banche, e la redistribuzione della ricchezza tramite tassazione. Bastiat avrebbe ora dedicato tutta la sua energia, talento e scritti contro questa nuova dottrina, che poteva solo portare alla crescita esponenziale del potere e alla lotta di classe perpetua. Così, fin dai primi giorni della rivoluzione, contribuì a un giornale di breve durata chiamato "La République Française", che divenne rapidamente noto come un giornale controrivoluzionario. Questo fu il periodo in cui scrisse i suoi opuscoli sulla proprietà, lo stato, il saccheggio e la legge.
+Con la rivoluzione di febbraio 1848 e le sue barricate, emerse un nemico più formidabile del protezionismo, uno con cui condivide molte affinità: il socialismo. Cos'è? È un movimento politico che richiede l'organizzazione del lavoro per legge, la nazionalizzazione delle industrie e delle banche, e la redistribuzione della ricchezza tramite tassazione. Bastiat avrebbe ora dedicato tutta la sua energia, talento e scritti contro questa nuova dottrina, che poteva solo portare alla crescita esponenziale del potere e alla lotta di classe perpetua. Così, fin dai primi giorni della rivoluzione, contribuì ad un giornale di breve durata chiamato "La République Française", che divenne rapidamente noto come un giornale controrivoluzionario. Questo fu il periodo in cui scrisse i suoi opuscoli sulla proprietà, lo stato, il saccheggio e la legge.
 Il 27 giugno 1848, il giorno dopo una nuova insurrezione sanguinosa a Parigi, in una lunga lettera a Richard Cobden, rifletté sulle cause che avrebbero potuto portare a questi eventi.
 
-- 1° La prima di queste cause è l'ignoranza economica. È questa che prepara le menti ad abbracciare le utopie del socialismo e del falso repubblicanesimo. Mi riferisco al video precedente sulle tendenze dell'educazione classica e universitaria su questo punto.
+- 1° La prima di queste cause è l'ignoranza economica. È questa che prepara le menti ad abbracciare le utopie del socialismo e del falso repubblicanesimo. Mi riferisco al video precedente sulle tendenze dell'educazione classica ed universitaria su questo punto.
 
 - 2° La nazione si innamorò dell'idea che fraternità e solidarietà potessero essere introdotte nella legge. Ovvero, essa esigeva che lo stato creasse direttamente la felicità per i suoi cittadini. Qui Bastiat vede gli inizi dello stato sociale.
 
@@ -532,7 +532,7 @@ Fin dall'inizio, egli confuta l'argomento ancora prevalente secondo cui la spesa
 
 Inoltre, lo stato è più sprecone degli individui. Infatti, ci ricorda, lo stato non possiede nulla; non produce ricchezza. La spesa pubblica è spesso fonte di spreco perché le immense somme confiscate dagli individui sfuggono alla responsabilità dei loro proprietari e vengono spese al loro posto da burocrati, soggetti a gruppi di pressione.
 
-Naturalmente, come pagamento per un servizio pubblico equivalente ricevuto in cambio, la tassazione è completamente difendibile. Ma in Francia, allo stato sono stati assegnati diversi ruoli alle tasse.
+Naturalmente, come pagamento per un servizio pubblico equivalente ricevuto in cambio, la tassazione è completamente difendibile. Ma in Francia, allo stato sono stati assegnati diversi ruoli relativi alle tasse.
 
 Inizialmente, doveva coprire le spese comuni. Poi, alle tasse è stato anche dato un ruolo nella regolazione dell'economia. In questo caso, politici e burocrati hanno un potere limitato solo dalla loro buona volontà. Assorbiti nelle loro costruzioni artificiali, modellano l'economia tassando e regolando i settori più o meno secondo i loro capricci per favorirli o sfavorirli.
 
@@ -552,9 +552,9 @@ Bastiat potrebbe aggiungere che tanta importanza dovrebbe essere data alla riduz
 
 <chapterId>c518e449-f638-553c-9a49-15da48023d41</chapterId>
 
-Tutti conoscono Tartuffo o l'Impostore, la commedia di Molière in cui un astuto devoto tenta di sedurre Elmire e truffare suo marito Orgon. Come si può proteggersi dalle inganni di un tale ipocrita che finge di volerti bene mentre trama contro di te?
+Tutti conoscono Tartuffo o l'Impostore, la commedia di Molière in cui un astuto devoto tenta di sedurre Elmire e truffare suo marito Orgon. Come si può proteggersi dagli inganni di un tale ipocrita che finge di volerti bene mentre trama contro di te?
 
-Bastiat nota che ci sono due modi per porre fine a questo tipo di impostura: correggere Tartuffo o illuminare Orgon. Naturalmente, ci saranno sempre dei Tartuffi, ma il loro potere di nuocere sarebbe molto ridotto se ci fossero meno Orgon disposti ad ascoltarli.
+Bastiat nota che ci sono due modi per porre fine a questo comportamento: correggere Tartuffo o illuminare Orgon. Naturalmente, ci saranno sempre dei Tartuffi, ma il loro potere di nuocere sarebbe molto ridotto se ci fossero meno Orgon disposti ad ascoltarli.
 
 La debolezza della ragione umana è alla radice dell'abuso di libertà. È la principale limitazione degli esseri umani e la causa di molti mali. Pertanto, è necessario illuminare le coscienze sulla natura utile o dannosa, e quindi giusta o ingiusta, degli atti umani, sia individuali che collettivi.
 
@@ -580,7 +580,7 @@ Questa moralità economica aspira allo stesso risultato della moralità religios
 
 Bastiat qui evidenzia il ruolo della scienza, e in particolare della scienza economica. Sebbene diverso da quello della moralità tradizionale, il suo ruolo è comunque necessario per combattere la spoliazione in tutte le sue forme. La moralità attacca il vizio nella sua intenzione, educa la volontà. D'altra parte, la scienza attacca il vizio comprendendone gli effetti, facilitando così il trionfo della virtù.
 
-Concretamente, la scienza economica, descritta da Bastiat come moralità difensiva, consiste nel confutare i sofismi economici al fine di screditarli completamente, e quindi privare la classe depredatrice della sua giustificazione e potere.
+Concretamente, la scienza economica, descritta da Bastiat come moralità difensiva, consiste nel confutare i sofismi economici al fine di screditarli completamente, e quindi privare la classe depredatrice della sua legittimazione e potere.
 L'Economia Politica, quindi, ha un'utilità pratica evidente. Rivela la spoliazione nei costi nascosti, gli ostacoli alla concorrenza e tutte le forme di protezionismo.
 Ancora una volta, ci sarebbero meno Tartuffi se ci fossero meno Orgon disposti ad ascoltarli. Ecco cosa ha da dire Bastiat su questo argomento:
 
@@ -589,7 +589,7 @@ Lasciamo quindi che la morale religiosa tocchi il cuore dei Tartuffi se può. Il
 
 Naturalmente, l'economia politica non è la scienza universale; non esclude approcci filosofici e religiosi. "Ma chi ha mai avanzato una pretesa così esorbitante in suo nome?" si chiede Bastiat.
 
-Una cosa è certa, non è il politico che può cambiare il corso delle cose e perfezionare l'uomo. Al contrario, è necessario limitare il politico e confinarlo al suo ruolo stretto, che è la sicurezza. È piuttosto nei campi culturale, familiare, religioso e associativo, attraverso il lavoro sulle idee, attraverso l'educazione e l'istruzione, in breve, attraverso la società civile, che la responsabilità e la solidarietà possono essere rafforzate.
+Una cosa è certa, non è il politico che può cambiare il corso delle cose e perfezionare l'uomo. Al contrario, è necessario limitare il politico e confinarlo al suo ruolo stretto, che è la sicurezza. È piuttosto nella sfera culturale, familiare, religiosa ed associativa, attraverso il lavoro sulle idee, attraverso l'educazione e l'istruzione, in breve, attraverso la società civile, che la responsabilità e la solidarietà possono essere rafforzate.
 
 # Armonie Economiche
 
@@ -611,7 +611,7 @@ Questa non è la visione di Bastiat. Secondo lui, il meccanismo sociale, come il
 
 Il miracolo del libero mercato, ci dice, è che utilizza conoscenze che nessuna persona può possedere da sola e che fornisce soddisfazioni ben superiori a tutto ciò che un'organizzazione artificiale potrebbe fare.
 
-Bastiat fornisce alcuni esempi per illustrare i benefici di questo mercato. Siamo diventati così abituati a questo fenomeno che non ci facciamo più caso.
+Bastiat fornisce alcuni esempi per illustrare i benefici di questo mercato. Siamo così abituati a questo fenomeno che non ci facciamo più caso.
 Prendiamo in considerazione un falegname in un villaggio, dice, e osserviamo tutti i servizi che fornisce alla società e tutti quelli che riceve:
 
 > Ogni giorno, al risveglio, si veste, e non ha personalmente realizzato nessuno dei suoi vestiti. Eppure, affinché questi vestiti fossero disponibili per lui, è stato necessario compiere un'enorme quantità di lavoro, industria, trasporti e invenzioni ingegnose in tutto il mondo.
@@ -635,7 +635,7 @@ Riprende l'idea di Bastiat di una cooperazione invisibile tra milioni di individ
 
 Il Premio Nobel per l'Economia del 1976, Milton Friedman, ha anche ripreso questa storia della matita per spiegare al grande pubblico come funziona l'economia di mercato.
 
-In un episodio della sua serie televisiva Free to Choose, analizza i vari componenti di qualcosa di così comune e semplice come una matita e mette in evidenza il miracolo dell'ordine spontaneo, generato da migliaia di interazioni economiche in tutto il mondo. Persone che non si conoscono, che non condividono la stessa religione o le stesse usanze, riescono comunque a coordinarsi per produrre questo oggetto. Conclude che il libero mercato è essenziale per garantire non solo la prosperità, ma anche l'armonia e la pace.
+In un episodio della sua serie televisiva Free to Choose, analizza i vari componenti di qualcosa di così comune e semplice come una matita e mette in evidenza il miracolo dell'ordine spontaneo, generato da migliaia di interazioni economiche in tutto il mondo. Persone che non si conoscono, che non condividono la stessa religione o le stesse usanze, riescono comunque a coordinarsi per produrre questo oggetto. Conclude, che il libero mercato è essenziale per garantire non solo la prosperità, ma anche l'armonia e la pace.
 
 Friedrich Hayek, nel suo saggio "L'uso della conoscenza nella società" del 1945, aveva già spiegato perché l'economia di mercato e la decentralizzazione delle decisioni sono vitali per la prosperità. Secondo Hayek, nessun pianificatore centrale o burocrate potrebbe mai avere conoscenze sufficienti per guidare con successo l'intero insieme delle azioni economiche. Solo il sistema dei prezzi in un mercato libero consente a milioni di attori indipendenti di decidere autonomamente come allocare efficientemente le risorse.
 La pianificazione economica, che pretende di fare meglio del mercato, porta non solo a una cattiva allocazione delle risorse ma anche all'egemonia di una classe sull'altra. Ecco perché il socialismo non è solo un errore intellettuale ma un errore che alla fine genera immensa ingiustizia.
@@ -658,7 +658,7 @@ In altre parole, libertà e responsabilità non possono essere separate; sono in
 
 La libertà è essenzialmente definita in modo negativo: essere liberi significa agire senza coercizione esterna nell'esercizio dei propri diritti. Tuttavia, ciò non significa l'assenza di tutti i vincoli. Perché la libertà richiede reciprocità: impone anche a noi di agire senza violare la proprietà altrui e quindi di riparare eventuali danni causati, se necessario. Questa è la responsabilità.
 
-Pertanto, la responsabilità rappresenta, in un certo senso, l'aspetto positivo della libertà: nella misura in cui si agisce liberamente, si deve sopportare le conseguenze delle proprie azioni, buone o cattive.
+Pertanto, la responsabilità rappresenta, in un certo senso, l'aspetto positivo della libertà: nella misura in cui si agisce liberamente, si devono sopportare le conseguenze delle proprie azioni, buone o cattive.
 
 La responsabilità individuale è sia un importante vettore di creatività che un incentivo alla cautela e alla previdenza.
 
@@ -666,7 +666,7 @@ La responsabilità individuale è sia un importante vettore di creatività che u
 
 Quando si spendono i propri soldi, si fa attenzione a non indebitarsi troppo, a controllare la qualità dei prodotti, l'affidabilità dei fornitori, a rischio di essere pesantemente penalizzati. Tale è il potere della responsabilità, alleata con la libertà è il vero motore del progresso sociale.
 
-Ma da dove nasce il fenomeno dell'irresponsabilità o della desponsabilizzazione? Frédéric Bastiat ci dà una risposta a questa domanda, una risposta politica. Dice, cito:
+Ma da dove nasce il fenomeno dell'irresponsabilità o della deresponsabilizzazione? Frédéric Bastiat ci dà una risposta a questa domanda, una risposta politica. Dice, cito:
 
 > "L'intervento dello Stato toglie il governo di noi stessi."
 
@@ -677,7 +677,7 @@ Infatti, lo statalismo riduce continuamente l'iniziativa privata e la libera sce
 Secondo Bastiat, l'ipertrofia delle leggi e l'eccessivo intervento dello Stato hanno la conseguenza di generare la lotta per il potere, la spoliazione, i privilegi, i monopoli, le guerre, insomma, tutto ciò che ostacola il progresso della civiltà.
 Il rischio di favorire eccessivamente la via della legge o del controllo burocratico è che scoraggia ogni motivazione imponendo un diluvio di vincoli, privandoci così dei molteplici avanzamenti che l'iniziativa privata e la libera scelta consentono.
 
-Illustreremo questa questione con alcuni importanti argomenti attuali. Primo esempio, la crisi del 2008.
+Illustreremo la questione con alcuni importanti argomenti attuali. Primo esempio, la crisi del 2008.
 
 ![image](assets/image/14/IMG7.webp)
 _(Alan Greenspan, Presidente della FED, la banca centrale americana, dal 1987 al 2006)_
@@ -685,7 +685,7 @@ Per anni, i leader della politica monetaria hanno spiegato che se i profitti son
 
 ![immagine](assets/image/14/IMG8.webp)
 
-E il fenomeno si ripeterà all'infinito finché le banche rimarranno sotto il dominio delle autorità centrali che dovrebbero proteggerle rimuovendo ogni autonomia di decisione e operazione.
+E il fenomeno si ripeterà all'infinito finché le banche rimarranno sotto il dominio delle autorità centrali che dovrebbero proteggerle rimuovendo ogni autonomia decisionale ed operativa.
 
 Un altro esempio: i servizi pubblici
 

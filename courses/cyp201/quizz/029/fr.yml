@@ -1,0 +1,9 @@
+question: Qu'est-ce qu'une signature numérique permet de prouver dans le système Bitcoin via les scriptSig ?
+answer: La possession de la clé privée associée à une clé publique spécifique.
+wrong_answers:
+  - La possession d'une adresse Bitcoin.
+  - La capacité à miner un bloc Bitcoin.
+  - La validité d'une transaction Bitcoin.
+explanation: |
+  Une signature numérique prouve que l'utilisateur possède la clé privée sans avoir à la révéler, garantissant l'authenticité de la transaction.
+reviewed: false

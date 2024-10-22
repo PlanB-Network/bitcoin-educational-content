@@ -1,0 +1,9 @@
+question: Pourquoi est-il impossible de retrouver la clé privée à partir d'une signature numérique valide ?
+answer: La signature est basée sur des opérations mathématiques irréversibles sur une courbe elliptique.
+wrong_answers:
+  - La clé privée est chiffrée avant utilisation.
+  - La graine protège la clé privée.
+  - Le hachage des messages empêche de retrouver la clé privée.
+explanation: |
+  Les opérations sur courbes elliptiques sont irréversibles, ce qui garantie que la clé privée ne peut pas être déduite de la signature.
+reviewed: false

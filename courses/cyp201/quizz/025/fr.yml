@@ -1,0 +1,9 @@
+question: Qu'est-ce qu'un “Nonce” en cryptographie ?
+answer: Un nombre destiné à être utilisé une seule fois.
+wrong_answers:
+  - Un nombre pair.
+  - Une signature numérique.
+  - Un nombre qui peut être réutilisé.
+explanation: |
+  Un nonce est un nombre utilisé une seule fois pour des opérations cryptographiques, garantissant l'unicité de certaines valeurs dans les algorithmes.
+reviewed: false

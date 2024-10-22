@@ -1,0 +1,7 @@
+question: Vrai ou Faux ? “Si l’on souhaite optimiser sa confidentialité, on ne doit pas réutiliser plusieurs fois une même adresse.”
+answer: Vrai.
+wrong_answers:
+  - Faux.
+explanation: |
+  Réutiliser la même adresse affaiblit la confidentialité en exposant les liens entre différentes transactions sur la blockchain.
+reviewed: false

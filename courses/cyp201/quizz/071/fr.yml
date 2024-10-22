@@ -1,0 +1,7 @@
+question: Vrai ou Faux ? “On peut déterminer une clé publique en connaissant uniquement son adresse SegWitv0.”
+answer: Faux.
+wrong_answers:
+  - Vrai.
+explanation: |
+  Une adresse SegWit v0 est un hash de la clé publique, il est donc impossible de retrouver la clé publique directement à partir de l'adresse sans connaître la clé privée correspondante.
+reviewed: false

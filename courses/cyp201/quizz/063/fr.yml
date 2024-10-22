@@ -1,0 +1,9 @@
+question: Quelles sont les deux types de dérivation de clés enfants dans un portefeuille HD ?
+answer: Dérivation normale et dérivation renforcée.
+wrong_answers:
+  - Dérivation simple et dérivation complexe.
+  - Dérivation elliptique et dérivation courbe.
+  - Dérivation statique et dérivation dynamique.
+explanation: |
+  Les deux types de dérivation sont la dérivation normale, qui utilise la clé publique parent, et la dérivation renforcée, qui utilise la clé privée parent.
+reviewed: false

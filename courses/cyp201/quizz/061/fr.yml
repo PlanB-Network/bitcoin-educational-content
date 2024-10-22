@@ -1,0 +1,9 @@
+question: Quelle est la variable qui permet de différencier les paires de clés soeurs entre elles (qui disposent d’une même paire parent) ?
+answer: L’index.
+wrong_answers:
+  - Le sel cryptographique.
+  - Le prénom.
+  - Le code de chaîne parent.
+explanation: |
+  L'index permet de différencier les paires de clés soeurs dérivées d'une même paire parent dans un portefeuille HD.
+reviewed: false

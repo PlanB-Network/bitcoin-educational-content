@@ -1,8 +1,7 @@
 question: O que não é uma frase mnemônica no contexto do Bitcoin?
 answer: Uma senha para sua carteira Bitcoin
 wrong_answers:
-  - uma lista de 12 palavras de um dicionário específico
-  - uma lista de 24 palavras de um dicionário específico
+  - uma lista de 12-24 palavras de um dicionário específico
   - o segredo para acessar seus fundos em bitcoin
   - Um código secreto para acessar seus bitcoins
 explanation: |

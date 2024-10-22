@@ -1,0 +1,9 @@
+question: Quelle est l’information primitive qui permet de déterminer une bonne phrase mnémonique d’un portefeuille HD ?
+answer: Une entropie externe permettant de déterminer un nombre aléatoire ou pseudo-aléatoire.
+wrong_answers:
+  - Le prénom du propriétaire du portefeuille.
+  - Aucune information, on choisit directement les mots qui nous plaisent bien.
+  - La date de création du portefeuille.
+explanation: |
+  La phrase mnémonique est dérivée à partir d'une source d'entropie, c'est-à-dire une information aléatoire ou pseudo-aléatoire, pour garantir la sécurité des clés privées.
+reviewed: false

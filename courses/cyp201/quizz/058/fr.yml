@@ -1,0 +1,9 @@
+question: Quelles sont les métadonnées ajoutées à la clé étendue en plus de sa charge utile ?
+answer: Version / profondeur / empreinte parent / index / checksum.
+wrong_answers:
+  - Version / index.
+  - Version / profondeur / séparateur / checksum.
+  - Aucune métadonnée n’est ajoutée.
+explanation: |
+  La clé étendue inclut plusieurs métadonnées. Il y a la version, la profondeur, l'empreinte parent, l'index et la checksum pour faciliter la dérivation des clés.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Avec une clé publique étendue, je peux dériver...
+answer: ...des clés publiques enfants normales.
+wrong_answers:
+  - ...des clés publiques enfants renforcées.
+  - ...des clés privées enfants normales.
+  - ...des clés privées enfants renforcées.
+explanation: |
+  Une clé publique étendue permet de dériver uniquement des clés publiques enfants normales, mais pas des clés privées.
+reviewed: false

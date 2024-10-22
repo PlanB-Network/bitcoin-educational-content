@@ -3656,6 +3656,10 @@ _Um dieses Kapitel über Silent Payments zu erstellen, habe ich [die Silent Paym
 <chapterId>195d149f-80fa-5816-8b46-995a9226d082</chapterId>
 <isCourseReview>true</isCourseReview>
 
+## Abschlussprüfung
+<chapterId>bb344824-953b-5a4d-9aec-d44b140d03d2</chapterId>
+<isCourseExam>true</isCourseExam>
+
 
 ## Schlussfolgerung
 

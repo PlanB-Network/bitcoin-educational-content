@@ -3447,6 +3447,10 @@ Silent Paymentsの提案は比較的最近のもので、これまでに実装�
 <chapterId>195d149f-80fa-5816-8b46-995a9226d082</chapterId>
 <isCourseReview>true</isCourseReview>
 
+## 最終試験
+<chapterId>bb344824-953b-5a4d-9aec-d44b140d03d2</chapterId>
+<isCourseExam>true</isCourseExam>
+
 
 ## 結論
 <chapterId>cd8e5c67-50e4-4dcd-8e04-88ba5ec95305</chapterId>

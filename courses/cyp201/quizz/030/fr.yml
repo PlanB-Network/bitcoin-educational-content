@@ -1,0 +1,9 @@
+question: Quel est le rôle technique principal d’un portefeuille Bitcoin ?
+answer: Conserver des paires de clés cryptographiques.
+wrong_answers:
+  - Conserver des bitcoins.
+  - Conserver des UTXOs.
+  - Conserver des transactions.
+explanation: |
+  Un portefeuille Bitcoin ne conserve pas directement des bitcoins, mais des paires de clés cryptographiques qui permettent de gérer et de dépenser des UTXOs.
+reviewed: false

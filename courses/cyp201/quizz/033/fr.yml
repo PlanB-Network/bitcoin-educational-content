@@ -1,0 +1,9 @@
+question: Dans quel BIP est proposée l’idée de la phrase de récupération, ou phrase mnémonique (12/24 mots) ?
+answer: BIP39.
+wrong_answers:
+  - BIP16.
+  - BIP32.
+  - BIP44.
+explanation: |
+  Le BIP39 a introduit la phrase de récupération mnémonique de 24 mots, afin de faciliter la sauvegarde des clés pour les utilisateurs de portefeuilles HD.
+reviewed: false

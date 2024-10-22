@@ -1,0 +1,9 @@
+question: Sur la notation d’un chemin de dérivation, que signifie l’apostrophe ou le “H” noté à droite du nombre ? Exemple m/84’/0’.
+answer: Cela indique une dérivation renforcée.
+wrong_answers:
+  - Cela indique une dérivation normale.
+  - C’est ici pour faire joli.
+  - Cela indique une clé de change.
+explanation: |
+  L'apostrophe ou le "H" dans un chemin de dérivation indique une dérivation renforcée, qui utilise la clé privée parent et la fourchette d'index correspondante.
+reviewed: false

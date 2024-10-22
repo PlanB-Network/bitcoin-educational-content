@@ -1,0 +1,9 @@
+question: À quoi sert une chaîne externe dans le processus de dérivation ?
+answer: Isoler les adresses destinées à être publiques.
+wrong_answers:
+  - Isoler les adresses de change.
+  - Gérer les transactions entrantes.
+  - Séparer les clés privées des clés publiques.
+explanation: |
+  La chaîne externe est utilisée pour dériver des adresses destinées à être publiques, telles que celles pour recevoir des paiements.
+reviewed: false

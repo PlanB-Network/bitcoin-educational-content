@@ -1,0 +1,9 @@
+question: Dans les chemins de dérivation du portefeuille HD, à quoi correspond la profondeur 0 ?
+answer: La clé maîtresse.
+wrong_answers:
+  - La clé étendue.
+  - Les adresses de réception.
+  - Le type de devise.
+explanation: |
+  La profondeur 0 dans les chemins de dérivation correspond à la clé maîtresse, qui est le point de départ de toutes les dérivations dans un portefeuille HD.
+reviewed: false

@@ -1,8 +1,7 @@
 question: ¿Qué no es una frase mnemotécnica en el contexto de Bitcoin?
 answer: Una contraseña para tu monedero de Bitcoin
 wrong_answers:
-  - una lista de 12 palabras de un diccionario específico
-  - una lista de 24 palabras de un diccionario específico
+  - una lista de 12-24 palabras de un diccionario específico
   - el secreto para acceder a tus fondos de bitcoin
   - Un código secreto para acceder a tus bitcoins
 explanation: |

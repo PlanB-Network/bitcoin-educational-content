@@ -1,8 +1,7 @@
 question: Mikä ei ole muistisana Bitcoinin kontekstissa?
 answer: Salasana Bitcoin-lompakkoosi
 wrong_answers:
-  - 12 sanan lista tietyistä sanakirjasta
-  - 24 sanan lista tietyistä sanakirjasta
+  - 12-24 sanan lista tietyistä sanakirjasta
   - salaisuus päästäksesi käsiksi Bitcoin-varoihisi
   - Salainen koodi päästäksesi käsiksi bitcoineihisi
 explanation: |

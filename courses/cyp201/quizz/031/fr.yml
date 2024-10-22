@@ -1,4 +1,4 @@
-question: De quelle façon détermine-t-on les paires de clés d’un portefeuille déterministe hiérarchique (HD) ?
+question: De quelle façon détermine-t-on les paires de clés d'un portefeuille déterministe hiérarchique (HD) ?
 answer: Toutes les paires de clés du portefeuille sont déterminées de façon déterministe et hiérarchique depuis une information unique à la base du portefeuille.
 wrong_answers:
   - Toutes les paires de clés du portefeuille sont déterminées indépendamment des autres, de façon aléatoire, par un générateur de nombre aléatoire.

@@ -1,4 +1,4 @@
-question: En quoi consiste l’opération de concaténation ?
+question: En quoi consiste l'opération de concaténation ?
 answer: Mettre bout à bout deux opérandes.
 wrong_answers:
   - Additionner deux opérandes.

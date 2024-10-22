@@ -1,8 +1,8 @@
-question: Qu’est-ce que représente la passphrase au sein d’un portefeuille HD ?
-answer: Un sel cryptographique optionnel d’une taille arbitraire.
+question: Qu'est-ce que représente la passphrase au sein d'un portefeuille HD ?
+answer: Un sel cryptographique optionnel d'une taille arbitraire.
 wrong_answers:
   - Un 25ème mot sur la phrase mnémonique.
-  - Un sel cryptographique obligatoire d’une taille fixe.
+  - Un sel cryptographique obligatoire d'une taille fixe.
   - Une seconde graine.
 explanation: |
   La passphrase est un sel cryptographique optionnel, permettant de renforcer la sécurité du portefeuille en ajoutant une information supplémentaire à la phrase mnémonique pour déterminer la graine.

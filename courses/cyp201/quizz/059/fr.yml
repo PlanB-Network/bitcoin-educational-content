@@ -1,9 +1,9 @@
-question: En quel système de numération la clé étendue est-elle généralement encodée pour être présentée à l’utilisateur ?
+question: En quel système de numération la clé étendue est-elle généralement encodée pour être présentée à l'utilisateur ?
 answer: En Base 58.
 wrong_answers:
   - En bech32.
   - En Base 16.
   - En bech32m.
 explanation: |
-  La clé étendue est généralement encodée en Base 58 pour être plus lisible par l’utilisateur et éviter les caractères ambiguës.
+  La clé étendue est généralement encodée en Base 58 pour être plus lisible par l'utilisateur et éviter les caractères ambiguës.
 reviewed: false

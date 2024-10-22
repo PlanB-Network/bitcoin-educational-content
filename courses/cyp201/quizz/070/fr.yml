@@ -1,9 +1,9 @@
-question: Qu’est-ce qu’une adresse de réception (généralement) ?
-answer: Un hash d’une clé publique avec des métadonnées mis dans un format spécifique.
+question: Qu'est-ce qu'une adresse de réception (généralement) ?
+answer: Un hash d'une clé publique avec des métadonnées mis dans un format spécifique.
 wrong_answers:
-  - Un hash d’une clé privée avec des métadonnées mis dans un format spécifique.
-  - Un hash d’une clé étendue avec des métadonnées mis dans un format spécifique.
-  - Un hash d’un code de chaîne avec des métadonnées.
+  - Un hash d'une clé privée avec des métadonnées mis dans un format spécifique.
+  - Un hash d'une clé étendue avec des métadonnées mis dans un format spécifique.
+  - Un hash d'un code de chaîne avec des métadonnées.
 explanation: |
   Une adresse de réception est généralement un hash d'une clé publique associé à des métadonnées, utilisées dans un scriptPubKey pour établir des conditions.
 reviewed: false

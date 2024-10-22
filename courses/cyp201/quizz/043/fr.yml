@@ -1,4 +1,4 @@
-question: Comment déterminer la taille en bits de la checksum (somme de contrôle) d’une phrase de récupération ?
+question: Comment déterminer la taille en bits de la checksum (somme de contrôle) d'une phrase de récupération ?
 answer: On divise la taille du nombre aléatoire (entropie) par 32.
 wrong_answers:
   - On divise la taille du nombre aléatoire (entropie) par 8.

@@ -1,7 +1,7 @@
-question: Comment s’appelle la construction de la fonction de hachage SHA256 ?
+question: Comment s'appelle la construction de la fonction de hachage SHA256 ?
 answer: Construction de Merkle-Damgard.
 wrong_answers:
-  - Construction de l’éponge.
+  - Construction de l'éponge.
   - Construction Iterative Hash Functions (HAIFA).
   - Construction de Feistel.
 explanation: |

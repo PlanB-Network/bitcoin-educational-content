@@ -1,5 +1,5 @@
 question: Afin de pouvoir appliquer cette courbe elliptique à des utilisations cryptographiques, sur quel corps devons-nous la définir ?
-answer: Un corps fini d’entiers positifs.
+answer: Un corps fini d'entiers positifs.
 wrong_answers:
   - Le corps des réels.
   - Un corps fini de réels.

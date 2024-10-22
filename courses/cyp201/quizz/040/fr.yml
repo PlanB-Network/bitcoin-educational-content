@@ -1,4 +1,4 @@
-question: Quelle est la particularité de la liste de 2048 mots permettant l’encodage de la mnémonique ?
+question: Quelle est la particularité de la liste de 2048 mots permettant l'encodage de la mnémonique ?
 answer: Aucun mot ne dispose des mêmes quatre premières lettres dans le même ordre.
 wrong_answers:
   - Aucun mot ne dispose des mêmes trois dernières lettres.

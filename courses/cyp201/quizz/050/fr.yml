@@ -1,4 +1,4 @@
-question: Si l’on respecte le BIP39, quelle est la taille de la graine d’un portefeuille HD ?
+question: Si l'on respecte le BIP39, quelle est la taille de la graine d'un portefeuille HD ?
 answer: 512 bits.
 wrong_answers:
   - 32 octets.

@@ -1,4 +1,4 @@
-question: Quel préfixe ou HRP d’adresse correspond à un standard SegWit ?
+question: Quel préfixe ou HRP d'adresse correspond à un standard SegWit ?
 answer: "bc"
 wrong_answers:
   - "1"

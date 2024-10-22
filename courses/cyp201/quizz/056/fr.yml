@@ -1,5 +1,5 @@
-question: Quel est l’intérêt de la clé étendue ?
-answer: Rassembler en une seule chaîne de caractères l’ensemble des informations nécessaires à la dérivation de clés enfants.
+question: Quel est l'intérêt de la clé étendue ?
+answer: Rassembler en une seule chaîne de caractères l'ensemble des informations nécessaires à la dérivation de clés enfants.
 wrong_answers:
   - Rassembler en une seule chaîne de caractères l'ensemble des informations nécessaires à la reconstruction de tout un portefeuille HD.
   - Rassembler des informations sur les UTXOs dans le portefeuille.

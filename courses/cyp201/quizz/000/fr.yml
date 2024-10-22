@@ -1,4 +1,4 @@
-question: Quel est l’objectif du procédé de hachage cryptographique ?
+question: Quel est l'objectif du procédé de hachage cryptographique ?
 answer: Mapper une chaîne de bits de longueur arbitraire à une chaîne de bits de longueur fixe.
 wrong_answers:
   - Chiffrer un message.

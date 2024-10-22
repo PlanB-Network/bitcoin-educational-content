@@ -1,4 +1,4 @@
-question: Dans quel BIP est proposée l’idée de la phrase de récupération, ou phrase mnémonique (12/24 mots) ?
+question: Dans quel BIP est proposée l'idée de la phrase de récupération, ou phrase mnémonique (12/24 mots) ?
 answer: BIP39.
 wrong_answers:
   - BIP16.

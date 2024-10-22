@@ -1,5 +1,5 @@
-question: Quelle est la variable qui permet de différencier les paires de clés soeurs entre elles (qui disposent d’une même paire parent) ?
-answer: L’index.
+question: Quelle est la variable qui permet de différencier les paires de clés soeurs entre elles (qui disposent d'une même paire parent) ?
+answer: L'index.
 wrong_answers:
   - Le sel cryptographique.
   - Le prénom.

@@ -1,4 +1,4 @@
-question: Quelle est la fonction utilisée pour dériver une paire de clés enfant depuis une paire de clé parent au sein d’un portefeuille HD ?
+question: Quelle est la fonction utilisée pour dériver une paire de clés enfant depuis une paire de clé parent au sein d'un portefeuille HD ?
 answer: HMAC-SHA512.
 wrong_answers:
   - SHA256.

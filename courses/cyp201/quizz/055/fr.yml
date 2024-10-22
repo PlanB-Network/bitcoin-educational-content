@@ -1,4 +1,4 @@
-question: De quoi est constituée la charge utile d’une clé étendue ?
+question: De quoi est constituée la charge utile d'une clé étendue ?
 answer: Une clé publique ou une clé privée, et le code de chaîne associé.
 wrong_answers:
   - Une clé privée et la clé publique associée.

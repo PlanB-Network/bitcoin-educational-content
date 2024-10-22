@@ -1,4 +1,4 @@
-question: Quel est le BIP (Bitcoin Improvement Proposal) qui est venu proposer une première version d’un portefeuille HD sur Bitcoin ?
+question: Quel est le BIP (Bitcoin Improvement Proposal) qui est venu proposer une première version d'un portefeuille HD sur Bitcoin ?
 answer: BIP32.
 wrong_answers:
   - BIP16.

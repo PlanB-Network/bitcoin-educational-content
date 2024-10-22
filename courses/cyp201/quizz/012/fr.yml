@@ -1,4 +1,4 @@
-question: Combien utilisons-nous d’itérations au sein de la fonction PBKDF2 dans Bitcoin ?
+question: Combien utilisons-nous d'itérations au sein de la fonction PBKDF2 dans Bitcoin ?
 answer: 2048.
 wrong_answers:
   - 512.

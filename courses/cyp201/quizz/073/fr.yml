@@ -1,4 +1,4 @@
-question: Vrai ou Faux ? “Si l’on souhaite optimiser sa confidentialité, on ne doit pas réutiliser plusieurs fois une même adresse.”
+question: Vrai ou Faux ? “Si l'on souhaite optimiser sa confidentialité, on ne doit pas réutiliser plusieurs fois une même adresse.”
 answer: Vrai.
 wrong_answers:
   - Faux.

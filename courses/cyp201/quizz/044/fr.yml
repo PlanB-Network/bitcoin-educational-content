@@ -1,0 +1,9 @@
+question: Comment construire la phrase de récupération (mnémonique) en binaire ?
+answer: On concatène le nombre aléatoire avec sa checksum à la fin.
+wrong_answers:
+  - On concatène le nombre aléatoire avec sa checksum au début.
+  - On concatène le nombre aléatoire avec une graine.
+  - On divise le nombre aléatoire en deux parties et on insère la checksum au milieu.
+explanation: |
+  Pour générer une phrase mnémonique en binaire, on concatène la checksum à la fin du nombre aléatoire avant de convertir en mots.
+reviewed: false

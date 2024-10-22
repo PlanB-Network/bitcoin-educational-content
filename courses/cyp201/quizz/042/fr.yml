@@ -1,0 +1,9 @@
+question: Si je génère un nombre aléatoire de 256 bits, quelle sera la taille de ma phrase de récupération en mots ?
+answer: 24 mots.
+wrong_answers:
+  - 6 mots.
+  - 8 mots.
+  - 12 mots.
+explanation: |
+  Un nombre aléatoire de 256 bits correspond à une phrase mnémonique de 24 mots selon le standard BIP39.
+reviewed: false

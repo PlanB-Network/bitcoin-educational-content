@@ -167,9 +167,11 @@ Meie arvutite turvalisus on tänapäeva digitaalses maailmas suur mure. Täna k�
 ### Arvuti ja operatsioonisüsteemi valimine
 
 Arvuti valimisel ei ole vanade ja uute arvutite vahel olulist turvalisuse erinevust. Siiski on operatsioonisüsteemide vahel turvalisuse erinevused: Windows, Linux ja Mac.
+![](assets/notext/11.webp)
 Windowsi puhul on soovitatav mitte kasutada igapäevaselt administraatori kontot, vaid luua kaks eraldi kontot: administraatori konto ja igapäevaseks kasutamiseks mõeldud konto. Windows on sageli rohkem avatud pahavara suhtes tänu oma suurele kasutajate arvule ja lihtsusele vahetada kasutaja ja administraatori vahel. Teisest küljest on ohud Linuxil ja Macil vähem levinud.
 
 Operatsioonisüsteemi valik peaks põhinema teie vajadustel ja eelistustel. Linuxi süsteemid on viimastel aastatel oluliselt arenenud, muutudes üha kasutajasõbralikumaks. Ubuntu on algajatele huvitav alternatiiv, millel on lihtsasti kasutatav graafiline liides. On võimalik partitsioneerida arvuti, et katsetada Linuxit, säilitades samal ajal Windowsi, kuid see võib olla keeruline. Sageli on eelistatav omada pühendatud arvutit, virtuaalmasinat või USB-võtit Linuxi või Ubuntu testimiseks.
+![](assets/notext/12.webp)
 
 ### Tarkvarauuendused
 
@@ -188,7 +190,7 @@ Konkreetse vea näiteks: kräkitud tarkvara, mida ei saa uuendada, kujutab endas
 
 Viirusetõrje valik ja rakendamine on oluline. Windows Defender, Windowsi sisseehitatud viirusetõrje, on turvaline ja tõhus lahendus. Tasuta lahendusena on see erakordselt hea ja palju parem kui paljud internetist leitavad tasuta lahendused. Tõepoolest, internetist allalaaditud viirusetõrjega tuleks olla ettevaatlik, kuna need võivad olla pahatahtlikud või aegunud.
 Neile, kes soovivad investeerida tasulisse viirusetõrjesse, on soovitatav valida viirusetõrje, mis analüüsib intelligentselt tundmatuid ja tekkivaid ohte, nagu Kaspersky. Viirusetõrje uuendused on olulised uute ohtude vastu kaitsmiseks.
-
+![](assets/notext/13.webp)
 > Märkus: Linux ja Mac, tänu nende kasutajaõiguste eraldamise süsteemile, tihti ei vaja viirusetõrjet.
 
 Lõpuks, siin on mõned head tavad teie arvuti ja andmete turvalisuse jaoks. On oluline valida tõhus ja kasutajasõbralik viirusetõrje. Samuti on oluline omaks võtta head tavad oma arvutis, nagu tundmatute või kahtlaste USB-võtmete mitte sisestamine. Need USB-võtmed võivad sisaldada pahatahtlikke programme, mis võivad automaatselt käivituda sisestamisel. USB-võtme kontrollimine on kasutu, kui see on juba sisestatud. Mõned ettevõtted on olnud häkkimise ohvrid tänu hooletult ligipääsetavates piirkondades, nagu parkla, jäetud USB-võtmetele.

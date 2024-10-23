@@ -157,9 +157,11 @@ Tietokoneidemme turvallisuus on suuri huolenaihe tämän päivän digitaalisessa
 ### Tietokoneen ja käyttöjärjestelmän valinta
 
 Tietokoneen valinnan osalta ei ole merkittävää eroa turvallisuudessa vanhojen ja uusien tietokoneiden välillä. Kuitenkin käyttöjärjestelmien välillä on turvallisuuseroja: Windows, Linux ja Mac.
+![](assets/notext/11.webp)
 Windowsin osalta suositellaan, että et käytä järjestelmänvalvojan tiliä päivittäiseen käyttöön, vaan luot kaksi erillistä tiliä: järjestelmänvalvojan tilin ja tilin päivittäiseen käyttöön. Windows on usein alttiimpi haittaohjelmille sen suuren käyttäjämäärän ja käyttäjästä järjestelmänvalvojaksi vaihtamisen helppouden vuoksi. Toisaalta, uhkat ovat harvinaisempia Linuxissa ja Macissa.
 
 Käyttöjärjestelmän valinnan tulisi perustua tarpeisiisi ja mieltymyksiisi. Linux-järjestelmät ovat kehittyneet huomattavasti viime vuosina, muuttuen yhä käyttäjäystävällisemmiksi. Ubuntu on mielenkiintoinen vaihtoehto aloittelijoille, sen helppokäyttöisen graafisen käyttöliittymän ansiosta. On mahdollista osioida tietokone kokeillaksesi Linuxia säilyttäen samalla Windowsin, mutta tämä voi olla monimutkaista. Usein on suositeltavaa käyttää erillistä tietokonetta, virtuaalikonetta tai USB-tikkua Linuxin tai Ubuntun testaamiseen.
+![](assets/notext/12.webp)
 
 ### Ohjelmistopäivitykset
 
@@ -178,6 +180,7 @@ Antaakseni sinulle konkreettisen esimerkin virheestä: päivittämättömät kra
 
 Virustorjunnan valinta ja käyttöönotto on tärkeää. Windows Defender, Windowsin sisäänrakennettu virustorjunta, on turvallinen ja tehokas ratkaisu. Ilmaisena ratkaisuna se on erittäin hyvä ja paljon parempi kuin monet verkosta löytyvät ilmaiset ratkaisut. Todellakin, verkosta ladattujen virustorjuntaohjelmien kanssa on syytä olla varovainen, sillä ne voivat olla haitallisia tai vanhentuneita.
 Niille, jotka haluavat sijoittaa maksulliseen virustorjuntaan, suositellaan valitsemaan virustorjunta, joka analysoi älykkäästi tuntemattomia ja nousevia uhkia, kuten Kaspersky. Virustorjuntapäivitykset ovat välttämättömiä uusien uhkien torjumiseksi.
+![](assets/notext/13.webp)
 > Huom: Linux ja Mac, kiitos niiden käyttäjäoikeuksien erottelujärjestelmän, eivät usein tarvitse virustorjuntaa.
 
 Lopuksi, tässä on joitakin hyviä käytäntöjä tietokoneesi ja tietojesi turvallisuuden varmistamiseksi. On tärkeää valita tehokas ja käyttäjäystävällinen virustorjunta. On myös ratkaisevan tärkeää omaksua hyviä käytäntöjä tietokoneellasi, kuten välttää tuntemattomien tai epäilyttävien USB-tikkujen liittämistä. Nämä USB-tikut voivat sisältää haittaohjelmia, jotka voivat käynnistyä automaattisesti liitettäessä. USB-tikun tarkistaminen on hyödytöntä sen jälkeen, kun se on liitetty. Jotkut yritykset ovat joutuneet hakkeroinnin uhreiksi USB-tikkujen vuoksi, jotka on huolettomasti jätetty pääsyalueille, kuten parkkipaikalle.

@@ -478,7 +478,7 @@ V rámci tréninkového modulu "Security 101" nabízeného Découvre Bitcoin v r
 Obecně se nedoporučuje používat rozšíření prohlížeče pro automatické vyplňování hesel. Tyto nástroje mohou uživatele více vystavit riziku phishingových útoků. Renaud, uznávaný expert na kybernetickou bezpečnost, dává přednost ručnímu spravování pomocí KeePass, což zahrnuje ruční kopírování a vkládání hesla. Rozšíření mají tendenci zvyšovat riziko útoku, mohou zpomalit výkon prohlížeče a tím představují významné riziko. Proto se doporučuje minimální používání rozšíření v prohlížeči.
 
 Správci hesel obecně podporují používání dalších ověřovacích faktorů, jako je dvoufaktorové ověření. Pro optimální bezpečnost je doporučeno uchovávat OTP (One-Time Passwords) na mobilním zařízení. AndoTP nabízí open-source řešení pro generování a uchovávání OTP kódů na telefonu. Zatímco Google Authenticator umožňuje exportovat semínka ověřovacích kódů, důvěra v zálohu na účtu Google zůstává omezená. Proto se doporučují aplikace OTI a AndoTP pro autonomní správu OTP.
-
+![](assets/notext/21.webp)
 Otázka digitálního dědictví a digitálního smutku zdůrazňuje důležitost mít postup pro předání hesel po smrti člověka. Správce hesel usnadňuje tento přechod bezpečným uchováním všech digitálních tajemství na jednom místě. Správce hesel také umožňuje identifikovat všechny otevřené účty a spravovat jejich uzavření nebo převod. Doporučuje se zapsat hlavní heslo na papír, ale mělo by být uchováváno na skrytém a bezpečném místě. Pokud je pevný disk šifrován a počítač zamčen, heslo nebude přístupné, ani v případě vloupání.
 
 ### Směrem k éře po heslech: Průzkum věrohodných alternativ

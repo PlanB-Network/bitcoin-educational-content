@@ -167,9 +167,11 @@ Keamanan komputer kita adalah perhatian utama di dunia digital saat ini. Hari in
 ### Memilih Komputer dan Sistem Operasi
 
 Mengenai pilihan komputer, tidak ada perbedaan signifikan dalam keamanan antara komputer lama dan baru. Namun, perbedaan keamanan ada antara sistem operasi: Windows, Linux, dan Mac.
+![](assets/notext/11.webp)
 Mengenai Windows, disarankan untuk tidak menggunakan akun administrator sehari-hari, melainkan membuat dua akun terpisah: sebuah akun administrator dan akun untuk penggunaan sehari-hari. Windows sering kali lebih terpapar pada malware karena jumlah penggunanya yang besar dan kemudahan beralih dari pengguna ke administrator. Di sisi lain, ancaman lebih jarang terjadi pada Linux dan Mac.
 
 Pilihan sistem operasi harus didasarkan pada kebutuhan dan preferensi Anda. Sistem Linux telah berkembang pesat dalam beberapa tahun terakhir, menjadi semakin ramah pengguna. Ubuntu adalah alternatif menarik untuk pemula, dengan antarmuka grafis yang mudah digunakan. Memungkinkan untuk mempartisi komputer untuk bereksperimen dengan Linux sambil tetap mempertahankan Windows, namun ini bisa kompleks. Seringkali lebih disukai untuk memiliki komputer khusus, mesin virtual, atau USB key untuk menguji Linux atau Ubuntu.
+![](assets/notext/12.webp)
 
 ### Pembaruan Perangkat Lunak
 
@@ -188,7 +190,7 @@ Untuk memberi Anda contoh konkret dari sebuah kesalahan: perangkat lunak bajakan
 
 Pilihan dan implementasi anti-virus itu penting. Windows Defender, antivirus bawaan di Windows, adalah solusi yang aman dan efektif. Untuk solusi gratis, ini sangat baik dan jauh lebih baik dari banyak solusi gratis yang ditemukan online. Memang, harus berhati-hati dengan antivirus yang diunduh dari Internet, karena bisa jadi berbahaya atau usang.
 Bagi mereka yang ingin berinvestasi dalam antivirus berbayar, disarankan untuk memilih antivirus yang menganalisis ancaman yang tidak dikenal dan muncul secara cerdas, seperti Kaspersky. Pembaruan antivirus sangat penting untuk melindungi dari ancaman baru.
-
+![](assets/notext/13.webp)
 > Catatan: Linux dan Mac, berkat sistem pemisahan hak pengguna mereka, seringkali tidak memerlukan antivirus.
 
 Akhirnya, berikut adalah beberapa praktik baik untuk keamanan komputer dan data Anda. Penting untuk memilih antivirus yang efektif dan ramah pengguna. Juga sangat penting untuk mengadopsi praktik baik pada komputer Anda, seperti tidak memasukkan USB key yang tidak dikenal atau mencurigakan. USB key ini dapat berisi program jahat yang dapat secara otomatis diluncurkan saat dimasukkan. Memeriksa USB key akan sia-sia setelah telah dimasukkan. Beberapa perusahaan telah menjadi korban peretasan karena USB key yang ceroboh ditinggalkan di area yang dapat diakses, seperti tempat parkir.

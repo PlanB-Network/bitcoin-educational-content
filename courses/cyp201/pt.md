@@ -24,7 +24,7 @@ Este treinamento não apenas fornecerá o conhecimento necessário para compreen
 
 ### Este treinamento é para você? SIM!
 
-É um prazer recebê-lo no novo curso de treinamento intitulado "Crypto 301: Introdução à Criptografia e Carteira HD", ministrado pelo especialista no assunto, Loïc Morel. Este curso irá mergulhá-lo no fascinante mundo da criptografia, a disciplina fundamental da matemática que garante a criptografia e segurança de seus dados.
+É um prazer recebê-lo no novo curso de treinamento intitulado "Crypto 201: Introdução à Criptografia e Carteira HD", ministrado pelo especialista no assunto, Loïc Morel. Este curso irá mergulhá-lo no fascinante mundo da criptografia, a disciplina fundamental da matemática que garante a criptografia e segurança de seus dados.
 
 Em nossas vidas diárias, e especialmente no mundo do Bitcoin, a criptografia desempenha um papel crucial. Conceitos relacionados à criptografia, como chaves privadas, chaves públicas, endereços, caminhos de derivação, semente e entropia, estão no cerne do uso e criação de uma carteira de Bitcoin. Ao longo deste curso, Loïc explicará em detalhes como as chaves privadas são geradas e como estão vinculadas aos endereços. Loïc também dedicará uma hora para explicar os detalhes matemáticos das curvas elípticas. Além disso, você entenderá por que o uso do HMAC SHA512 é importante para a segurança de sua carteira e qual a diferença entre uma semente e uma frase mnemônica.
 
@@ -783,7 +783,6 @@ Gerar uma frase mnemônica é um processo importante para proteger sua carteira 
 Outro método criptográfico amplamente usado no protocolo Bitcoin é o método de assinaturas digitais.
 
 
-![video](https://youtu.be/c9MvtGJsEvY?si=bQ1N5NCd6op0G6nW)
 
 
 

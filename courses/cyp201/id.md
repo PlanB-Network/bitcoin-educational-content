@@ -26,7 +26,7 @@ Pelatihan ini tidak hanya akan membekali Anda dengan pengetahuan untuk memahami 
 
 ### Apakah pelatihan ini untuk Anda? YA!
 
-Kami sangat senang menyambut Anda ke kursus pelatihan baru berjudul "Crypto 301: Pengantar ke Kriptografi dan Dompet HD", yang dipimpin oleh ahli di bidangnya, Loïc Morel. Kursus ini akan membenamkan Anda ke dalam dunia kriptografi yang menarik, disiplin ilmu matematika fundamental yang memastikan enkripsi dan keamanan data Anda.
+Kami sangat senang menyambut Anda ke kursus pelatihan baru berjudul "Crypto 201: Pengantar ke Kriptografi dan Dompet HD", yang dipimpin oleh ahli di bidangnya, Loïc Morel. Kursus ini akan membenamkan Anda ke dalam dunia kriptografi yang menarik, disiplin ilmu matematika fundamental yang memastikan enkripsi dan keamanan data Anda.
 
 Dalam kehidupan sehari-hari, dan khususnya dalam dunia Bitcoin, kriptografi memainkan peran penting. Konsep-konsep terkait kriptografi, seperti kunci privat, kunci publik, alamat, jalur derivasi, seed, dan entropi, adalah inti dari penggunaan dan pembuatan dompet Bitcoin. Sepanjang kursus ini, Loïc akan menjelaskan secara detail bagaimana kunci privat dihasilkan dan bagaimana mereka terhubung ke alamat. Loïc juga akan menghabiskan satu jam untuk menjelaskan detail matematis dari kurva eliptik. Selain itu, Anda akan memahami mengapa penggunaan HMAC SHA512 penting untuk mengamankan dompet Anda dan apa perbedaan antara seed dan frasa mnemonik.
 Tujuan utama dari pelatihan ini adalah untuk memungkinkan Anda memahami proses teknis yang terlibat dalam pembuatan dompet HD dan metode kriptografi yang digunakan. Selama bertahun-tahun, dompet Bitcoin telah berkembang menjadi lebih mudah digunakan, lebih aman, dan distandarisasi berkat BIP tertentu. Loïc akan membantu Anda memahami BIP ini untuk memahami pilihan yang dibuat oleh pengembang Bitcoin dan kriptografer. Seperti semua pelatihan yang ditawarkan oleh universitas kami, kursus ini sepenuhnya gratis dan open source. Ini berarti Anda bebas mengikutinya dan menggunakannya sesuai keinginan Anda. Kami menantikan umpan balik Anda di akhir kursus menarik ini.
@@ -831,7 +831,6 @@ Menghasilkan frasa mnemonik adalah proses penting untuk mengamankan dompet crypt
 
 Metode kriptografi lain yang banyak digunakan pada protokol Bitcoin adalah metode tanda tangan digital.
 
-![video](https://youtu.be/c9MvtGJsEvY?si=bQ1N5NCd6op0G6nW)
 
 
 

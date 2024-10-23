@@ -24,7 +24,7 @@ See koolitus varustab teid mitte ainult teadmistega, et mõista Bitcoin rahakoti
 
 ### Kas see koolitus on teile? JAH!
 
-Meil on hea meel tervitada teid uuel koolituskursusel pealkirjaga "Krüpto 301: Krüptograafia ja HD Rahakoti tutvustus", mida juhib ala ekspert Loïc Morel. See kursus viib teid krüptograafia, matemaatika fundamentaalse distsipliini põnevasse maailma, mis tagab teie andmete krüpteerimise ja turvalisuse.
+Meil on hea meel tervitada teid uuel koolituskursusel pealkirjaga "Krüpto 201: Krüptograafia ja HD Rahakoti tutvustus", mida juhib ala ekspert Loïc Morel. See kursus viib teid krüptograafia, matemaatika fundamentaalse distsipliini põnevasse maailma, mis tagab teie andmete krüpteerimise ja turvalisuse.
 
 Meie igapäevaelus, eriti Bitcoini valdkonnas, mängib krüptograafia olulist rolli. Krüptograafiaga seotud kontseptsioonid nagu privaatvõtmed, avalikud võtmed, aadressid, tuletamisteed, seeme ja entroopia on Bitcoini rahakoti kasutamise ja loomise tuum. Kursuse jooksul selgitab Loïc üksikasjalikult, kuidas privaatvõtmeid genereeritakse ja kuidas need on seotud aadressidega. Loïc pühendab ka tunni elliptiliste kõverate matemaatilistele detailidele. Lisaks mõistate, miks HMAC SHA512 kasutamine on teie rahakoti turvamisel oluline ja mis vahe on seemnel ja mnemoonilisel fraasil.
 Selle koolituse lõppeesmärk on võimaldada teil mõista tehnilisi protsesse, mis on seotud HD rahakoti loomisega ja kasutatavate krüptograafiliste meetoditega. Aastate jooksul on Bitcoin rahakotid muutunud kasutajasõbralikumaks, turvalisemaks ja standardiseeritumaks tänu konkreetsetele BIP-dele. Loïc aitab teil mõista neid BIP-e, et haarata Bitcoini arendajate ja krüptograafide tehtud valikuid. Nagu kõik meie ülikooli pakutavad koolitused, on ka see täiesti tasuta ja avatud lähtekoodiga. See tähendab, et võite seda vabalt võtta ja kasutada, nagu soovite. Ootame huviga teie tagasisidet selle põneva kursuse lõpus.
@@ -810,7 +810,6 @@ Mnemoonilise fraasi genereerimine on oluline protsess teie krüptorahakoti turva
 
 Teine laialdaselt kasutatav krüptograafiline meetod Bitcoin'i protokollis on digitaalsete allkirjade meetod.
 
-![video](https://youtu.be/c9MvtGJsEvY?si=bQ1N5NCd6op0G6nW)
 
 
 

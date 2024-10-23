@@ -24,7 +24,7 @@ This training will not only equip you with the knowledge to understand the struc
 
 ### Is this training for you? YES!
 
-We are delighted to welcome you to the new training course titled "Crypto 301: Introduction to Cryptography and HD Wallet", led by the expert in the field, Loïc Morel. This course will immerse you in the fascinating world of cryptography, the fundamental discipline of mathematics that ensures the encryption and security of your data.
+We are delighted to welcome you to the new training course titled "Crypto 201: Introduction to Cryptography and HD Wallet", led by the expert in the field, Loïc Morel. This course will immerse you in the fascinating world of cryptography, the fundamental discipline of mathematics that ensures the encryption and security of your data.
 
 In our daily lives, and particularly in the realm of Bitcoin, cryptography plays a crucial role. Concepts related to cryptography, such as private keys, public keys, addresses, derivation paths, seed, and entropy, are at the core of using and creating a Bitcoin wallet. Throughout this course, Loïc will explain in detail how private keys are generated and how they are linked to addresses. Loïc will also dedicate an hour to explaining the mathematical details of elliptic curves. Additionally, you will understand why the use of HMAC SHA512 is important for securing your wallet and what the difference is between a seed and a mnemonic phrase.
 The ultimate goal of this training is to enable you to understand the technical processes involved in creating an HD wallet and the cryptographic methods used. Over the years, Bitcoin wallets have evolved to become easier to use, more secure, and standardized thanks to specific BIPs. Loïc will help you understand these BIPs to grasp the choices made by Bitcoin developers and cryptographers. Like all the trainings offered by our university, this one is completely free and open source. This means that you are free to take it and use it as you wish. We look forward to receiving your feedback at the end of this exciting course.
@@ -842,8 +842,6 @@ Generating a mnemonic phrase is an important process to secure your cryptocurren
 <chapterId>39f0ec5a-e258-55cb-9789-bc46d314d816</chapterId>
 
 Another widely used cryptographic method on the Bitcoin protocol is the method of digital signatures.
-
-![video](https://youtu.be/c9MvtGJsEvY?si=bQ1N5NCd6op0G6nW)
 
 
 

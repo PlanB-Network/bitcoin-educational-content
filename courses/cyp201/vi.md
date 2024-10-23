@@ -24,7 +24,7 @@ Khóa học này không chỉ trang bị cho bạn kiến thức để hiểu v�
 
 ### Khóa học này có dành cho bạn không? CÓ!
 
-Chúng tôi rất vui mừng chào đón bạn đến với khóa học mới có tên "Crypto 301: Giới thiệu về Mật mã học và Ví HD", do chuyên gia trong lĩnh vực, Loïc Morel, dẫn dắt. Khóa học này sẽ đưa bạn vào thế giới mật mã học hấp dẫn, một ngành khoa học cơ bản của toán học đảm bảo việc mã hóa và bảo mật dữ liệu của bạn.
+Chúng tôi rất vui mừng chào đón bạn đến với khóa học mới có tên "Crypto 201: Giới thiệu về Mật mã học và Ví HD", do chuyên gia trong lĩnh vực, Loïc Morel, dẫn dắt. Khóa học này sẽ đưa bạn vào thế giới mật mã học hấp dẫn, một ngành khoa học cơ bản của toán học đảm bảo việc mã hóa và bảo mật dữ liệu của bạn.
 
 Trong cuộc sống hàng ngày, và đặc biệt trong lĩnh vực Bitcoin, mật mã học đóng một vai trò quan trọng. Các khái niệm liên quan đến mật mã học, như khóa riêng, khóa công khai, địa chỉ, đường dẫn phái sinh, seed và entropy, là cốt lõi của việc sử dụng và tạo ví Bitcoin. Trong suốt khóa học này, Loïc sẽ giải thích chi tiết cách khóa riêng được tạo ra và chúng liên kết với địa chỉ như thế nào. Loïc cũng sẽ dành một giờ để giải thích chi tiết toán học của đường cong elliptic. Ngoài ra, bạn sẽ hiểu tại sao việc sử dụng HMAC SHA512 quan trọng để bảo vệ ví của bạn và sự khác biệt giữa seed và cụm từ ghi nhớ là gì.
 Mục tiêu cuối cùng của khóa học này là để bạn có thể hiểu các quy trình kỹ thuật liên quan trong việc tạo một ví HD và các phương pháp mật mã học được sử dụng. Trải qua nhiều năm, ví Bitcoin đã phát triển để trở nên dễ sử dụng hơn, an toàn hơn và được chuẩn hóa nhờ vào các BIP cụ thể. Loïc sẽ giúp bạn hiểu những BIP này để nắm bắt được những lựa chọn mà các nhà phát triển Bitcoin và các nhà mật mã học đã thực hiện. Như tất cả các khóa học do trường đại học của chúng tôi cung cấp, khóa học này hoàn toàn miễn phí và mã nguồn mở. Điều này có nghĩa là bạn có thể tự do tham gia và sử dụng nó theo ý muốn của mình. Chúng tôi mong chờ nhận được phản hồi của bạn vào cuối khóa học thú vị này.
@@ -801,7 +801,6 @@ Tạo ra một cụm từ ghi nhớ là một quá trình quan trọng để b�
 
 Một phương pháp mã hóa khác được sử dụng rộng rãi trên giao thức Bitcoin là phương pháp của chữ ký số.
 
-![video](https://youtu.be/c9MvtGJsEvY?si=bQ1N5NCd6op0G6nW)
 
 
 

@@ -25,7 +25,7 @@ Questo corso non solo ti fornirà le conoscenze per comprendere la struttura di 
 ### Questo corso è adatto a te? SÌ!
 
 
-Siamo lieti di darti il benvenuto al nuovo corso di formazione dal titolo "Crypto 301: Introduzione alla crittografia e ai portafogli HD ", guidato dall'esperto del settore, Loïc Morel. Questo corso ti immergerà nel mondo affascinante della crittografia, la disciplina fondamentale della matematica che garantisce la crittografia e la sicurezza dei tuoi dati.
+Siamo lieti di darti il benvenuto al nuovo corso di formazione dal titolo "Crypto 201: Introduzione alla crittografia e ai portafogli HD ", guidato dall'esperto del settore, Loïc Morel. Questo corso ti immergerà nel mondo affascinante della crittografia, la disciplina fondamentale della matematica che garantisce la crittografia e la sicurezza dei tuoi dati.
 
 Nella nostra vita quotidiana, e in particolare nel campo di Bitcoin, la crittografia svolge un ruolo cruciale. Concetti legati alla crittografia, come chiavi private, chiavi pubbliche, indirizzi, percorsi di derivazione, seed ed entropia, sono al centro dell'uso e della creazione di un portafoglio Bitcoin. Durante questo corso, Loïc spiegherà in dettaglio come vengono generate le chiavi private e come sono collegate agli indirizzi. Loïc dedicherà anche un'ora a spiegare i dettagli matematici delle curve ellittiche. Inoltre, comprenderai perché l'uso di HMAC SHA512 è importante per la sicurezza del tuo portafoglio e qual è la differenza tra un seed e una frase mnemonica.
 
@@ -788,7 +788,6 @@ Generare una frase mnemonica è un processo importante per proteggere il tuo por
 Un altro metodo crittografico ampiamente utilizzato nel protocollo Bitcoin è il metodo delle firme digitali.
 
 
-![video](https://youtu.be/c9MvtGJsEvY?si=bQ1N5NCd6op0G6nW)
 
 
 

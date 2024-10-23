@@ -24,7 +24,7 @@ Tento trénink vás nejen vybaví znalostmi potřebnými k pochopení struktury 
 
 ### Je tento trénink pro vás? ANO!
 
-Jsme potěšeni, že vás můžeme přivítat na novém kurzu s názvem "Krypto 301: Úvod do kryptografie a HD peněženek", který vede expert v oboru, Loïc Morel. Tento kurz vás ponoří do fascinujícího světa kryptografie, základní disciplíny matematiky, která zajišťuje šifrování a bezpečnost vašich dat.
+Jsme potěšeni, že vás můžeme přivítat na novém kurzu s názvem "Krypto 201: Úvod do kryptografie a HD peněženek", který vede expert v oboru, Loïc Morel. Tento kurz vás ponoří do fascinujícího světa kryptografie, základní disciplíny matematiky, která zajišťuje šifrování a bezpečnost vašich dat.
 
 V našem každodenním životě, a zejména ve světě Bitcoinu, hraje kryptografie klíčovou roli. Koncepty související s kryptografií, jako jsou soukromé klíče, veřejné klíče, adresy, cesty derivace, seed a entropie, jsou jádrem používání a vytváření Bitcoinové peněženky. Během tohoto kurzu vám Loïc podrobně vysvětlí, jak se generují soukromé klíče a jak jsou propojeny s adresami. Loïc také věnuje hodinu vysvětlování matematických detailů eliptických křivek. Kromě toho pochopíte, proč je použití HMAC SHA512 důležité pro zabezpečení vaší peněženky a jaký je rozdíl mezi seedem a mnemonickou frází.
 Hlavním cílem tohoto tréninku je umožnit vám porozumět technickým procesům zapojeným do vytváření HD peněženky a použitým kryptografickým metodám. Během let se Bitcoinové peněženky vyvinuly, aby byly snadněji použitelné, bezpečnější a standardizované díky konkrétním BIPům. Loïc vám pomůže pochopit tyto BIPy, abyste pochopili volby učiněné vývojáři Bitcoinu a kryptografy. Jako všechny tréninky nabízené naší univerzitou, i tento je zcela zdarma a open source. To znamená, že si jej můžete vzít a používat, jak chcete. Těšíme se na vaši zpětnou vazbu na konci tohoto vzrušujícího kurzu.
@@ -809,7 +809,6 @@ Generování mnemonické fráze je důležitý proces pro zabezpečení vaší k
 
 Další široce používanou kryptografickou metodou v protokolu Bitcoin je metoda digitálních podpisů.
 
-![video](https://youtu.be/c9MvtGJsEvY?si=bQ1N5NCd6op0G6nW)
 
 
 

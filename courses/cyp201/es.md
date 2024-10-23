@@ -24,7 +24,7 @@ Este entrenamiento no solo te equipará con el conocimiento para comprender la e
 
 ### ¿Este entrenamiento es para ti? ¡SÍ!
 
-Nos complace darte la bienvenida al nuevo curso de entrenamiento titulado "Crypto 301: Introducción a la Criptografía y Billetera HD", dirigido por el experto en el campo, Loïc Morel. Este curso te sumergirá en el fascinante mundo de la criptografía, la disciplina fundamental de las matemáticas que garantiza la encriptación y seguridad de tus datos.
+Nos complace darte la bienvenida al nuevo curso de entrenamiento titulado "Crypto 201: Introducción a la Criptografía y Billetera HD", dirigido por el experto en el campo, Loïc Morel. Este curso te sumergirá en el fascinante mundo de la criptografía, la disciplina fundamental de las matemáticas que garantiza la encriptación y seguridad de tus datos.
 
 En nuestra vida diaria, y particularmente en el ámbito de Bitcoin, la criptografía desempeña un papel crucial. Conceptos relacionados con la criptografía, como claves privadas, claves públicas, direcciones, caminos de derivación, semilla y entropía, son fundamentales para usar y crear una billetera de Bitcoin. A lo largo de este curso, Loïc explicará en detalle cómo se generan las claves privadas y cómo están vinculadas a las direcciones. Loïc también dedicará una hora a explicar los detalles matemáticos de las curvas elípticas. Además, comprenderás por qué el uso de HMAC SHA512 es importante para asegurar tu billetera y cuál es la diferencia entre una semilla y una frase mnemotécnica.
 El objetivo final de este entrenamiento es permitirte comprender los procesos técnicos involucrados en la creación de una billetera HD y los métodos criptográficos utilizados. A lo largo de los años, las billeteras de Bitcoin han evolucionado para ser más fáciles de usar, más seguras y estandarizadas gracias a BIPs específicos. Loïc te ayudará a comprender estos BIPs para comprender las decisiones tomadas por los desarrolladores de Bitcoin y los criptógrafos. Como todos los entrenamientos ofrecidos por nuestra universidad, este es completamente gratuito y de código abierto. Esto significa que eres libre de tomarlo y usarlo como desees. Esperamos recibir tus comentarios al final de este emocionante curso.
@@ -784,7 +784,6 @@ Generar una frase mnemotécnica es un proceso importante para asegurar tu billet
 
 Otro método criptográfico ampliamente utilizado en el protocolo Bitcoin es el método de firmas digitales.
 
-![video](https://youtu.be/c9MvtGJsEvY?si=bQ1N5NCd6op0G6nW)
 
 
 

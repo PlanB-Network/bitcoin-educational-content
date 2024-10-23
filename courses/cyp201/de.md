@@ -24,7 +24,7 @@ Dieses Training wird Sie nicht nur mit dem Wissen ausstatten, um die Struktur ei
 
 ### Ist dieses Training für Sie geeignet? JA!
 
-Wir freuen uns, Sie zu dem neuen Schulungskurs "Crypto 301: Einführung in die Kryptographie und HD-Wallet" begrüßen zu dürfen, der von dem Experten auf diesem Gebiet, Loïc Morel, geleitet wird. Dieser Kurs wird Sie in die faszinierende Welt der Kryptographie eintauchen lassen, der grundlegenden Disziplin der Mathematik, die die Verschlüsselung und Sicherheit Ihrer Daten gewährleistet.
+Wir freuen uns, Sie zu dem neuen Schulungskurs "Crypto 201: Einführung in die Kryptographie und HD-Wallet" begrüßen zu dürfen, der von dem Experten auf diesem Gebiet, Loïc Morel, geleitet wird. Dieser Kurs wird Sie in die faszinierende Welt der Kryptographie eintauchen lassen, der grundlegenden Disziplin der Mathematik, die die Verschlüsselung und Sicherheit Ihrer Daten gewährleistet.
 
 In unserem täglichen Leben, insbesondere im Bereich von Bitcoin, spielt Kryptographie eine entscheidende Rolle. Konzepte im Zusammenhang mit Kryptographie, wie private Schlüssel, öffentliche Schlüssel, Adressen, Ableitungspfade, Seed und Entropie, stehen im Mittelpunkt der Verwendung und Erstellung einer Bitcoin-Wallet. Im Laufe dieses Kurses wird Loïc ausführlich erklären, wie private Schlüssel generiert werden und wie sie mit Adressen verknüpft sind. Loïc wird auch eine Stunde damit verbringen, die mathematischen Details elliptischer Kurven zu erklären. Darüber hinaus werden Sie verstehen, warum die Verwendung von HMAC SHA512 für die Sicherheit Ihrer Wallet wichtig ist und was der Unterschied zwischen einem Seed und einer mnemonischen Phrase ist.
 
@@ -792,7 +792,6 @@ Das Generieren einer mnemonischen Phrase ist ein wichtiger Prozess, um Ihre Kryp
 
 Eine weitere weit verbreitete kryptografische Methode im Bitcoin-Protokoll ist die Methode der digitalen Signaturen.
 
-![video](https://youtu.be/c9MvtGJsEvY?si=bQ1N5NCd6op0G6nW)
 
 
 

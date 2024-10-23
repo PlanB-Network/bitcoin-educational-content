@@ -24,7 +24,7 @@ Tämä koulutus ei ainoastaan varusta sinua tietämyksellä ymmärtääksesi Bit
 
 ### Onko tämä koulutus sinua varten? KYLLÄ!
 
-Olemme iloisia voidessamme toivottaa sinut tervetulleeksi uudelle kurssille nimeltä "Crypto 301: Johdatus kryptografiaan ja HD-lompakkoon", jonka pitää alansa asiantuntija Loïc Morel. Tämä kurssi vie sinut kryptografian kiehtovaan maailmaan, matematiikan perusalaan, joka varmistaa tietojesi salauksen ja turvallisuuden.
+Olemme iloisia voidessamme toivottaa sinut tervetulleeksi uudelle kurssille nimeltä "Crypto 201: Johdatus kryptografiaan ja HD-lompakkoon", jonka pitää alansa asiantuntija Loïc Morel. Tämä kurssi vie sinut kryptografian kiehtovaan maailmaan, matematiikan perusalaan, joka varmistaa tietojesi salauksen ja turvallisuuden.
 
 Päivittäisessä elämässämme, ja erityisesti Bitcoinin alueella, kryptografialla on ratkaiseva rooli. Kryptografiaan liittyvät käsitteet, kuten yksityiset avaimet, julkiset avaimet, osoitteet, johdannaispolut, siemen ja entropia, ovat keskeisiä Bitcoin-lompakon käytössä ja luomisessa. Kurssin aikana Loïc selittää yksityiskohtaisesti, miten yksityiset avaimet luodaan ja miten ne liittyvät osoitteisiin. Loïc omistaa myös tunnin elliptisten käyrien matemaattisten yksityiskohtien selittämiseen. Lisäksi ymmärrät, miksi HMAC SHA512:n käyttö on tärkeää lompakkosi turvaamisessa ja mikä ero on siemenen ja mnemonisen lauseen välillä.
 Tämän koulutuksen lopullisena tavoitteena on mahdollistaa sinun ymmärtää tekniset prosessit, jotka ovat mukana HD-lompakon luomisessa, ja käytetyt kryptografiset menetelmät. Vuosien varrella Bitcoin-lompakot ovat kehittyneet helpommin käytettäviksi, turvallisemmiksi ja standardoiduiksi kiitos tiettyjen BIPien. Loïc auttaa sinua ymmärtämään nämä BIPit käsittääksesi Bitcoin-kehittäjien ja kryptografien tekemät valinnat. Kuten kaikki yliopistomme tarjoamat koulutukset, tämäkin on täysin ilmainen ja avoimen lähdekoodin. Tämä tarkoittaa, että voit ottaa sen ja käyttää sitä haluamallasi tavalla. Odotamme innolla palautettasi tämän jännittävän kurssin päätteeksi.
@@ -797,7 +797,6 @@ Muistisanan luominen on tärkeä prosessi kryptovaluuttalompakkosi turvaamiseksi
 
 Toinen laajalti käytetty kryptografinen menetelmä Bitcoin-protokollassa on digitaalisten allekirjoitusten menetelmä.
 
-![video](https://youtu.be/c9MvtGJsEvY?si=bQ1N5NCd6op0G6nW)
 
 
 

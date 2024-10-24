@@ -204,7 +204,6 @@ Có nhiều suy đoán về việc sử dụng không gian khối trong tương 
 
 <chapterId>879a66b0-c20a-56b5-aad0-8a21be61e338</chapterId>
 
-![Ai nắm giữ quyền lực? Bitcoin, Năng lượng, và Nhà sản xuất](https://www.youtube.com/watch?v=4wywK6BfDw8)
 Vai trò của các thợ đào trong mạng lưới Bitcoin đã là đề tài tranh luận sôi nổi trong giai đoạn cuộc chiến kích thước khối - "block size wars". Mặc dù là yếu tố thiết yếu cho sự an toàn và chức năng của mạng lưới, các thợ đào không nhất thiết nắm giữ quyền lực tối thượng trong hệ sinh thái Bitcoin. Sự cân bằng giữa thợ đào, người vận hành node và người dùng cuối đảm bảo tính toàn vẹn và phân tán của mạng lưới.
 
 ### Cuộc chiến kích thước khối
@@ -244,8 +243,6 @@ Tóm lại, các thợ đào củng cố mạng lưới Bitcoin, chống lại s
 ## Giá bitcoin và Hashrate, có sự tương quan?
 
 <chapterId>e6676214-007c-5181-968e-c27536231bd6</chapterId>
-
-![Làm thế nào để có được một bitcoin sạch?](https://youtu.be/A5MTtn4mm44?si=D1Yi0dVwkyafeHv-)
 
 ### Hashrate, giá bitcoin, và lợi nhuận
 
@@ -305,14 +302,6 @@ Với vấn đề về khả năng cấm đào bitcoin ở Châu Âu, các cuộ
 
 Kết luận, mặc dù có rủi ro quy định và khả năng cấm đào bitcoin ở Châu Âu, vũ khí mạnh mẽ nhất vẫn là giáo dục và thông tin. Sự hiểu biết rõ ràng và chính xác về đào bitcoin, cách thức hoạt động và tác động của nó có thể giúp làm sáng tỏ ngành công nghiệp và chống lại các thông tin sai lệch, từ đó cung cấp khả năng chống chịu tốt hơn trước các quy định gây hại tiềm tàng. Sáng kiến đào tạo và thông tin cho mọi người về khai thác, như cuộc thảo luận này, là một bước đi đúng hướng để đảm bảo sự bền vững và phát triển của hoạt động đào bitcoin ở Châu Âu và trên toàn thế giới. Nỗ lực liên tục để giáo dục và thông tin là cần thiết để đảm bảo một tương lai an toàn và thịnh vượng cho ngành công nghiệp đào bitcoin.
 
-## Phỏng vấn với một chuyên gia ngành công nghiệp khai thác
-
-<chapterId>4d613261-d1a8-5ffe-a50c-047a3d77d6c5</chapterId>
-
-### Hậu trường của ngành công nghiệp đào bitcoin - Sebastien Gouspillou
-
-![Hậu trường của ngành đào bitcoin - Sebastien Gouspillou](https://www.youtube.com/watch?v=vYaQRLSDr5E&t=69s)
-
 # Khai thác tại nhà và tái sử dụng nhiệt
 
 <partId>78d22d06-2c4a-573f-86bb-1027115dad3a</partId>
@@ -320,8 +309,6 @@ Kết luận, mặc dù có rủi ro quy định và khả năng cấm đào bit
 ## Attakai - biến khai thác tại nhà trở nên khả thi và dễ tiếp cận!
 
 <chapterId>1f5d1b74-2f99-5f31-a088-a73d36491ebf</chapterId>
-
-![Trân trọng giới thiệu tới bạn về Attakaï !](https://www.youtube.com/watch?v=gKoh44UCSnE&t=3s)
 
 Attakai, có nghĩa là "nhiệt độ lý tưởng" trong tiếng Nhật, là tên của sáng kiến đào bitcoin bằng cách tái sử dụng nhiệt được khởi xướng bởi @ajelexBTC và @jimzap21 với sự hỗ trợ từ Découvre Bitcoin.
 Hướng dẫn cải tiến ASIC này là cơ hội để tìm hiểu thêm về đào bitcoin, cách thức hoạt động và nền kinh tế liên quan bằng cách chứng minh khả năng sử dụng một máy đào bitcoin như là một máy sưởi trong nhà. Điều này không chỉ mang lại nhiều sự thoải mái mà còn tiết kiệm chi phí, đồng thời mang lại phần thưởng bằng bitcoin không cần KYC từ hoá đơn tiền điện sưởi ấm của mình.
@@ -368,8 +355,6 @@ Khi vừa ra khỏi nhà máy, một máy đào không phù hợp để sử d�
 ## Hướng dẫn mua máy ASIC cũ
 
 <chapterId>3b0b3bf0-859b-57f2-b92f-843ac70b7e68</chapterId>
-
-![Giới thiệu về Attakaï - Khởi động với Bitcoin](https://www.youtube.com/watch?v=U_PLo59lp-g)
 
 Trong phần này, chúng ta sẽ thảo luận về các phương pháp tốt nhất để mua một máy đào Bitmain Antminer S9 cũ, thiét bị sẽ được sử dụng để chuyển đổi thành một máy sưởi thông qua hướng dẫn này. Hướng dẫn này cũng áp dụng cho các mẫu ASIC khác vì đây là một hướng dẫn mua hàng cũ chung cho các loại máy đào.
 
@@ -425,8 +410,6 @@ Tóm tắt hướng dẫn này trong một câu: **"Đừng tin, hãy kiểm ch�
 ## Hướng dẫn mua sắm phần cứng để cải tiến cho mẫu S9
 
 <chapterId>fa5f5eca-bcbf-5a83-9b03-98ecbadbabd6</chapterId>
-
-![Giới thiệu về Attakaï - Khởi động với Bitcoin](https://www.youtube.com/watch?v=U_PLo59lp-g)
 
 Là chủ sở hữu của một Antminer S9, chắc hẳn bạn đã biết rằng thiết bị này có thể tạo ra tiếng ồn và rất cồng kềnh. Tuy nhiên, bạn có thể biến nó thành một bộ sưởi ấm yên tĩnh và kết nối với một số thao tác đơn giản. Trong phần này, chúng tôi sẽ giới thiệu các thiết bị cần thiết để thực hiện các chỉnh sửa.
 
@@ -781,11 +764,3 @@ Kết quả cuối cùng là tốc độ hash cao hơn trên mỗi watt điện 
 
 <chapterId>6af13742-df68-5cf4-b7aa-93dc0c2eaae9</chapterId>
 <isCourseReview>true</isCourseReview>
-
-## Điều khiển Antminer S9 từ điện thoại thông minh của bạn
-
-<chapterId>6e7c234a-a445-5070-b087-531d16c42107</chapterId>
-
-### Tạo phím tắt trên iOS
-
-![Điều khiển Antminer S9 bằng điện thoại thông minh của bạn](https://www.youtube.com/watch?v=OsKmdB2iw88&t=60s)

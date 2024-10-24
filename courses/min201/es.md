@@ -206,8 +206,6 @@ La especulación rodea el uso futuro del espacio de bloques, pero generalmente s
 
 <chapterId>879a66b0-c20a-56b5-aad0-8a21be61e338</chapterId>
 
-![¿Quién tiene el poder? Bitcoin, energía y fabricantes](https://www.youtube.com/watch?v=4wywK6BfDw8)
-
 El papel de los mineros en la red Bitcoin ha sido un tema de debate intenso durante la guerra de los bloques. Aunque son esenciales para la seguridad y la funcionalidad de la red, los mineros no necesariamente poseen el poder último en el ecosistema Bitcoin. El equilibrio entre los mineros, los nodos y los usuarios finales garantiza la integridad y la distribución de la red.
 
 ### La guerra de los bloques
@@ -247,8 +245,6 @@ Para resumir, los mineros fortalecen la red Bitcoin contra la censura utilizando
 ## Precio del bitcoin y hashrate, ¿una correlación?
 
 <chapterId>e6676214-007c-5181-968e-c27536231bd6</chapterId>
-
-![¿Cómo obtener un bitcoin blanco y puro?](https://youtu.be/A5MTtn4mm44?si=D1Yi0dVwkyafeHv-)
 
 ### Hashrate, precio y rentabilidad
 
@@ -308,14 +304,6 @@ Con la cuestión del potencial de prohibición de la minería en Europa, las dis
 Ante campañas como las de Greenpeace y las cifras a menudo engañosas de algunos estudios, la mejor arma sigue siendo la información veraz. Es esencial informar al público general y a los tomadores de decisiones sobre la realidad de la minería, su complejidad y su matiz, en lugar de dejar que se apoyen en clichés e información inexacta. Cuantas más personas estén informadas y conscientes de lo que realmente es la minería, mejor podrá defenderse la industria contra posibles regulaciones restrictivas.
 
 En conclusión, a pesar del riesgo regulatorio y la posibilidad de una prohibición de la minería en Europa, la herramienta más poderosa sigue siendo la educación y la información. Una comprensión clara y precisa de la minería, su funcionamiento y su impacto puede ayudar a desmitificar la industria y combatir la desinformación, ofreciendo así una mejor resistencia a las regulaciones potencialmente dañinas. La iniciativa de formar e informar a la gente sobre la minería, como lo hace esta discusión, es un paso en la dirección correcta para garantizar la sostenibilidad y el crecimiento de la minería en Europa y en todo el mundo. Los esfuerzos continuos para educar e informar son esenciales para asegurar un futuro seguro y próspero para la industria de la minería de Bitcoin.
-
-## Entrevista a un profesional de la industria de la minería
-
-<chapterId>4d613261-d1a8-5ffe-a50c-047a3d77d6c5</chapterId>
-
-### Los entresijos de la minería industrial - Sebastien Gouspillou
-
-![Los entresijos de la minería industrial - Sebastien Gouspillou](https://www.youtube.com/watch?v=vYaQRLSDr5E&t=69s)
 
 # Minería en casa y reutilización del calor
 
@@ -794,11 +782,3 @@ El resultado final es una tasa de hashing más alta por vatio de electricidad, l
 
 <chapterId>6af13742-df68-5cf4-b7aa-93dc0c2eaae9</chapterId>
 <isCourseReview>true</isCourseReview>
-
-## Controlar un Antminer S9 desde un smartphone
-
-<chapterId>6e7c234a-a445-5070-b087-531d16c42107</chapterId>
-
-### Crear accesos directos en iOS
-
-![Controlar un Antminer S9 con un smartphone](https://www.youtube.com/watch?v=OsKmdB2iw88&t=60s)

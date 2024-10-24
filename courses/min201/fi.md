@@ -200,7 +200,6 @@ Spekulaatiot lohkon tilan tulevasta käytöstä ovat yleisiä, mutta yleisesti h
 
 <chapterId>879a66b0-c20a-56b5-aad0-8a21be61e338</chapterId>
 
-![Kuka pitää vallan? Bitcoin, energia ja valmistajat](https://www.youtube.com/watch?v=4wywK6BfDw8)
 Louhijoiden rooli Bitcoin-verkossa on ollut kiivaiden keskustelujen kohteena lohkokoon sodissa. Vaikka louhijat ovat olennaisen tärkeitä verkon turvallisuuden ja toiminnallisuuden kannalta, he eivät välttämättä pidä lopullista valtaa Bitcoin-ekosysteemissä. Louhijoiden, solmujen ja loppukäyttäjien välinen tasapaino varmistaa verkon eheyden ja jakelun.
 
 ### Lohkokoon sodat
@@ -240,8 +239,6 @@ Yhteenvetona voidaan todeta, että louhijat vahvistavat Bitcoin-verkon sensuurin
 ## Bitcoinin hinta ja hashrate, korrelaatio?
 
 <chapterId>e6676214-007c-5181-968e-c27536231bd6</chapterId>
-
-![Kuinka saada puhdas ja koskematon bitcoin?](https://youtu.be/A5MTtn4mm44?si=D1Yi0dVwkyafeHv-)
 
 ### Hashrate, hinta ja kannattavuus
 
@@ -300,14 +297,6 @@ Louhinnan mahdollisen kiellon myötä Euroopassa keskustelut sääntelystä ovat
 Kampanjoiden, kuten Greenpeacen ja joidenkin tutkimusten usein harhaanjohtavien lukujen, edessä paras ase on totuudenmukainen tieto. On olennaista informoida yleisöä ja päätöksentekijöitä louhinnan todellisuudesta, sen monimutkaisuudesta ja vivahteista, sen sijaan että annettaisiin heidän nojautua stereotypioihin ja epätarkkaan tietoon. Mitä enemmän ihmiset ovat informoituja ja tietoisia siitä, mitä louhinta todella on, sitä paremmin teollisuus voi puolustautua mahdollisia rajoittavia sääntelyjä vastaan.
 
 Yhteenvetona, huolimatta sääntelyriskistä ja louhinnan kiellon mahdollisuudesta Euroopassa, tehokkain ase on koulutus ja informaatio. Selkeä ja tarkka ymmärrys louhinnasta, sen toiminnasta ja vaikutuksesta voi auttaa demystifioimaan teollisuutta ja taistelemaan väärää tietoa vastaan, tarjoten siten paremman vastustuksen mahdollisesti vahingollisia sääntelyjä vastaan. Aloite kouluttaa ja informoida ihmisiä louhinnasta, kuten tämä keskustelu tekee, on askel oikeaan suuntaan varmistaakseen louhinnan kestävyyden ja kasvun Euroopassa ja koko maailmassa. Jatkuvat ponnistelut kouluttaa ja informoida ovat olennaisia varmistamaan turvallisen ja menestyksekkään tulevaisuuden Bitcoin-louhintateollisuudelle.
-
-## Haastattelu louhintateollisuuden ammattilaisen kanssa
-
-<chapterId>4d613261-d1a8-5ffe-a50c-047a3d77d6c5</chapterId>
-
-### Kulissien takana teollisessa louhinnassa - Sebastien Gouspillou
-
-![Teollisen kaivostoiminnan kulissien takana - Sebastien Gouspillou](https://www.youtube.com/watch?v=vYaQRLSDr5E&t=69s)
 
 # Kotikaivostoiminta ja lämmön uudelleenkäyttö
 
@@ -767,11 +756,3 @@ Lopputuloksena on korkeampi hash-nopeus wattia kohden, mikä tarkoittaa suurempi
 
 <chapterId>6af13742-df68-5cf4-b7aa-93dc0c2eaae9</chapterId>
 <isCourseReview>true</isCourseReview>
-
-## Antminer S9:n hallinta älypuhelimellasi
-
-<chapterId>6e7c234a-a445-5070-b087-531d16c42107</chapterId>
-
-### Pikakuvakkeiden luominen iOS:ssä
-
-![Antminer S9:n hallinta älypuhelimellasi](https://www.youtube.com/watch?v=OsKmdB2iw88&t=60s)

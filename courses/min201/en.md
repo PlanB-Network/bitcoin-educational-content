@@ -204,8 +204,6 @@ Speculation surrounds the future use of block space, but it is generally accepte
 
 <chapterId>879a66b0-c20a-56b5-aad0-8a21be61e338</chapterId>
 
-![Who holds the power? Bitcoin, Energy, and Manufacturers](https://www.youtube.com/watch?v=4wywK6BfDw8)
-
 The role of miners in the Bitcoin network has been a subject of intense debate during the block size wars. Although essential for the security and functionality of the network, miners do not necessarily hold the ultimate power in the Bitcoin ecosystem. The balance between miners, nodes, and end-users ensures the integrity and distribution of the network.
 
 ### The Block Size Wars
@@ -245,8 +243,6 @@ To recap, miners fortify the Bitcoin network against censorship by using electri
 ## Bitcoin Price and Hashrate, a Correlation?
 
 <chapterId>e6676214-007c-5181-968e-c27536231bd6</chapterId>
-
-![How to obtain a clean and untouched bitcoin?](https://youtu.be/A5MTtn4mm44?si=D1Yi0dVwkyafeHv-)
 
 ### Hashrate, Price, and Profitability
 
@@ -307,14 +303,6 @@ With the issue of the potential ban on mining in Europe, discussions about regul
 Faced with campaigns like those of Greenpeace and the often misleading figures from some studies, the best weapon remains truthful information. It is essential to inform the general public and decision-makers about the reality of mining, its complexity, and its nuances, rather than letting them rely on stereotypes and inaccurate information. The more people are informed and aware of what mining truly is, the better the industry can defend itself against potential restrictive regulations.
 
 In conclusion, despite the regulatory risk and the possibility of a mining ban in Europe, the most powerful weapon remains education and information. A clear and precise understanding of mining, how it works, and its impact can help demystify the industry and fight against misinformation, thus offering better resistance to potentially damaging regulations. The initiative to train and inform people about mining, as this discussion does, is a step in the right direction to ensure the sustainability and growth of mining in Europe, and around the world. Continuous efforts to educate and inform are essential to ensure a safe and prosperous future for the Bitcoin mining industry.
-
-## Interview with a mining industry professional
-
-<chapterId>4d613261-d1a8-5ffe-a50c-047a3d77d6c5</chapterId>
-
-### Behind the Scenes of Industrial Mining - Sebastien Gouspillou
-
-![Behind the Scenes of Industrial Mining - Sebastien Gouspillou](https://www.youtube.com/watch?v=vYaQRLSDr5E&t=69s)
 
 # Home mining and heat reuse
 
@@ -791,11 +779,3 @@ The end result is a higher hash rate per watt of electricity, which means larger
 
 <chapterId>6af13742-df68-5cf4-b7aa-93dc0c2eaae9</chapterId>
 <isCourseReview>true</isCourseReview>
-
-## Controlling an Antminer S9 from your smartphone
-
-<chapterId>6e7c234a-a445-5070-b087-531d16c42107</chapterId>
-
-### Creating shortcuts on iOS
-
-![Controlling an Antminer S9 with your smartphone](https://www.youtube.com/watch?v=OsKmdB2iw88&t=60s)

@@ -201,7 +201,6 @@ Spekulace obklopují budoucí využití prostoru v blocích, ale obecně je při
 
 <chapterId>879a66b0-c20a-56b5-aad0-8a21be61e338</chapterId>
 
-![Kdo má moc? Bitcoin, energie a výrobci](https://www.youtube.com/watch?v=4wywK6BfDw8)
 Role těžařů v síti Bitcoin byla předmětem intenzivní debaty během tzv. "válek o velikost bloku". Ačkoliv jsou pro bezpečnost a funkčnost sítě nezbytní, těžaři nutně nevlastní konečnou moc v ekosystému Bitcoinu. Rovnováha mezi těžaři, uzly a koncovými uživateli zajišťuje integritu a distribuci sítě.
 
 ### Války o velikost bloku
@@ -241,8 +240,6 @@ Shrnutí, těžaři posilují síť Bitcoin proti cenzuře používáním elektr
 ## Cena Bitcoinu a Hashrate, korelace?
 
 <chapterId>e6676214-007c-5181-968e-c27536231bd6</chapterId>
-
-![Jak získat čistý a nedotčený bitcoin?](https://youtu.be/A5MTtn4mm44?si=D1Yi0dVwkyafeHv-)
 
 ### Hashrate, cena a ziskovost
 
@@ -299,14 +296,6 @@ S otázkou potenciálního zákazu těžby v Evropě se diskuse o regulaci stáv
 V čele s kampaněmi jako ty od Greenpeace a často zavádějícími čísly z některých studií, zůstává nejlepší zbraní pravdivá informace. Je zásadní informovat širokou veřejnost a rozhodovatele o realitě těžby, její složitosti a jejích nuancích, místo aby se spoléhalo na stereotypy a nepřesné informace. Čím více lidí je informováno a vědomo si, co těžba skutečně je, tím lépe může průmysl bránit se proti potenciálním restriktivním regulacím.
 
 Závěrem, navzdory regulačnímu riziku a možnosti zákazu těžby v Evropě, zůstává nejsilnější zbraní vzdělání a informace. Jasné a přesné porozumění těžbě, jak funguje a jaký má dopad, může pomoci demystifikovat průmysl a bojovat proti dezinformacím, čímž nabízí lepší odolnost proti potenciálně škodlivým regulacím. Iniciativa školit a informovat lidi o těžbě, jak toto diskuse činí, je krokem správným směrem k zajištění udržitelnosti a růstu těžby v Evropě a po celém světě. Nepřetržité úsilí o vzdělávání a informování je zásadní pro zajištění bezpečné a prosperující budoucnosti pro průmysl těžby Bitcoinu.
-
-## Rozhovor s profesionálem z průmyslu těžby
-
-<chapterId>4d613261-d1a8-5ffe-a50c-047a3d77d6c5</chapterId>
-
-### Za scénou průmyslové těžby - Sebastien Gouspillou
-
-![Za kulisami průmyslového těžení - Sebastien Gouspillou](https://www.youtube.com/watch?v=vYaQRLSDr5E&t=69s)
 
 # Domácí těžba a opětovné využití tepla
 
@@ -768,11 +757,3 @@ Výsledkem je vyšší hash rate na watt elektrické energie, což znamená vět
 
 <chapterId>6af13742-df68-5cf4-b7aa-93dc0c2eaae9</chapterId>
 <isCourseReview>true</isCourseReview>
-
-## Ovládání Antmineru S9 z vašeho smartphonu
-
-<chapterId>6e7c234a-a445-5070-b087-531d16c42107</chapterId>
-
-### Vytváření zástupců na iOS
-
-![Ovládání Antmineru S9 s vaším smartphonem](https://www.youtube.com/watch?v=OsKmdB2iw88&t=60s)

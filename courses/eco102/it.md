@@ -709,11 +709,11 @@ In altre parole, le scelte collettive non sono scelte responsabili poiché, da u
 
 ![video](https://youtu.be/M4yjsSrRfQ4?si=xJmTNMxIZ3WTtqgM)
 
-Nel corso precedente, abbiamo visto perché la libertà e la responsabilità sono chiavi per il problema sociale. Ora approfondiremo questo punto mostrando come Frédéric Bastiat veda i mali che affliggono le società e la loro soluzione.
+Nel corso precedente, abbiamo visto perché la libertà e la responsabilità sono cruciali per il problema sociale. Ora approfondiremo questo punto mostrando come Frédéric Bastiat veda i mali che affliggono le società e la loro soluzione.
 
-I liberali sono stati talvolta criticati per aver ignorato il male e per aver costruito l'utopia della libertà pura e perfetta in un mondo ideale. Questa critica è assolutamente infondata riguardo al nostro autore.
+I liberali sono stati talvolta criticati per aver ignorato il male e per aver costruito l'utopia della libertà pura e perfetta in un mondo ideale. Questa critica riguardo al nostro autore è assolutamente infondata.
 
-Nessuno può ignorare il male che regna nella storia delle società umane: ingiustizie, guerre e sofferenze. Ci piacerebbe poter eliminare questi mali. Questo è, peraltro, l'oggetto di una grande parte delle filosofie moderne, da Rousseau a Heidegger, passando per Hegel e Marx.
+Nessuno può ignorare il male che regna nella storia della società umana: ingiustizie, guerre e sofferenze. Ci piacerebbe poter eliminare questi mali. Questo è, peraltro, l'oggetto di una grande parte della filosofia moderne, da Rousseau a Heidegger, passando per Hegel e Marx.
 Il male non è solo una realtà definitiva, ma ha anche un ruolo da svolgere nella storia e nell'azione umana, afferma Frédéric Bastiat. Può essere ridotto ma certamente non completamente eradicato perché ciò significherebbe uccidere la libertà e la responsabilità. Da dove proviene quindi il male, quale è il suo ruolo e come può essere prevenuto?
 Per rispondere a queste domande, Bastiat procederà ad analizzare l'azione umana. Questa, infatti, può portare sia al bene che al male.
 
@@ -724,7 +724,7 @@ Il male deriva innanzitutto dalla nostra imperfezione. Scegliere liberamente sig
 Pertanto, è l'imperfezione della ragione che è il principale limite degli uomini e che rimane all'origine delle nostre sofferenze.
 Se il male deriva dalla debolezza umana e non dalla libertà in sé, né dal libero scambio, il rimedio non sta nella soppressione della libertà o dello scambio ma nella responsabilità stessa, poiché è la fonte di ogni esperienza. Questo principio di responsabilità è come segue, cito Bastiat:
 
-> Ogni uomo che agisce riceve la ricompensa o la punizione delle sue azioni.
+> Ogni uomo che agisce riceve ricompense o punizioni in base alle sue azioni.
 
 Attraverso questa sanzione naturale, l'uomo impara, scopre, si corregge, progredisce e migliora. In altre parole, la responsabilità è un principio di perfezionabilità e progresso come abbiamo visto nel corso precedente.
 
@@ -747,7 +747,8 @@ Afferma semplicemente che se la fonte del male risiede nell'assenza di libertà,
 Ma se l'abuso della libertà è all'origine delle nostre sventure, il suo uso corretto è il rimedio, ovvero il pieno e intero esercizio della responsabilità personale, basato sul diritto di proprietà. La regolazione sociale, quindi, passa attraverso la responsabilità, non attraverso l'intervento dello Stato in tutti i settori, che è una delle grandi fonti di spoliazione e quindi di mali.
 
 ![image](assets/image/15/IMG6.webp)
-Contrariamente a Rousseau, che cerca di eradicare il male attraverso le istituzioni collettive, Frédéric Bastiat difende la possibilità del male e dell'errore, senza i quali non esiste libertà o responsabilità individuale. Poiché è proprio questa che da sola permette, attraverso un processo di scoperta, di progredire e ridurre i mali sociali.
+Contrariamente a Rousseau, che cerca di eradicare il male attraverso le istituzioni collettive, Frédéric Bastiat difende la possibie
+esistenza del male e dell'errore, senza i quali non esisterebbe libertà o responsabilità individuale. Poiché è proprio questa che da sola permette, attraverso un processo di scoperta, di progredire e ridurre i mali sociali.
 Deve essere chiarito che questo sviluppo del progresso attraverso la responsabilità non è affatto automatico. Non è per nulla, come con Hegel o Marx, una sorta di determinismo naturale o storico, che porterebbe miracolosamente o meccanicamente all'armonia e al progresso. Si tratta di una riduzione graduale e indefinita del male e mai della sua eliminazione definitiva.
 
 ## Vera e Falsa Solidarietà
@@ -762,7 +763,7 @@ Frédéric Bastiat, nel suo famoso opuscolo "La Legge", denuncia la perversione 
 
 ![image](assets/image/16/IMG2.webp)
 
-Perché la moralità è definita come comportamento volontario. Quando a un individuo è costretto a dare qualcosa che non vuole dare, è sempre vittima di furto.
+Perché la moralità è definita come comportamento volontario. Quando un individuo è costretto a dare qualcosa che non vuole, è sempre vittima di furto.
 
 ![image](assets/image/16/IMG3.webp)
 
@@ -774,7 +775,7 @@ Questo è ciò che Bastiat chiama "il sofisma della fraternità legale". Citiamo
 
 E ancora:
 
-> I governi esercitano solo un'azione che è sanzionata dalla Forza. Ora, è lecito costringere qualcuno ad essere giusto, non a essere caritatevole. La Legge, quando cerca di fare con la forza ciò che la moralità ottiene attraverso la persuasione, lontano dall'elevarsi al regno della Carità, cade nel dominio del Saccheggio.
+> I governi esercitano solo un'azione che è sanzionata dalla Forza. Ora, è lecito costringere qualcuno ad essere giusto, non ad essere caritatevole. La Legge, quando cerca di fare con la forza ciò che la moralità ottiene attraverso la persuasione, lontano dall'elevarsi al regno della Carità, cade nel dominio del Saccheggio.
 
 Eppure questa perversione della legge ha un nome, è il socialismo, cioè l'ideologia della redistribuzione forzata della ricchezza da parte dello Stato. Il socialismo, secondo Bastiat, è caratterizzato dall'ideologia del saccheggio legale. Ma l'astuzia di questa ideologia è che maschera la sua violenza sotto un abuso di linguaggio: l'appello alla solidarietà o alla fraternità.
 
@@ -859,7 +860,7 @@ Qual è la vera natura della legge?
 Bastiat inizia ponendo le fondamenta antropologiche naturali della legge: vita, libertà e proprietà.
 
 Il sistema istituzionale della libertà naturale è quello per cui la società, gli individui e le proprietà esistono prima delle leggi. In questo sistema, Bastiat aggiunge:
-Non è perché ci sono leggi che ci sono proprietà, ma perché ci sono proprietà che ci sono leggi. > Proprietà e Legge
+Non è in virtù delle leggi che ci sono proprietà, ma è grazie alle proprietà che ci sono leggi. > Proprietà e Legge
 
 Ogni uomo ha il diritto di difendere la propria vita e di utilizzare le proprie capacità. E la legge è l'organizzazione collettiva di questa difesa legittima. La legge difende la giustizia. Non una giustizia positiva che organizzerebbe la fratellanza e la solidarietà, ma una giustizia negativa che si limita a prevenire che i diritti di una persona usurpino quelli di un'altra.
 
@@ -877,7 +878,7 @@ Non appena si ammette in principio che la legge può essere deviata dalla sua ve
 
 Invece di difendere i diritti naturali, la legge si trasforma nella protezione degli interessi corporativi e categorici. Il saccheggio è organizzato dalla legge, a beneficio delle classi che la fanno e dei loro amici o clienti. Bastiat anticipa così la scuola della scelta pubblica nel XX secolo per cui la legge è il risultato di un "mercato politico" mediante il quale gruppi di individui cercano di soddisfare i propri interessi a spese degli altri.
 
-Per lui, lo scopo della Legge deve semplicemente essere quello di "mettere fine a tutti i saccheggi". Se lo Stato non interviene nella vita privata, gli individui sono effettivamente proprietari e responsabili delle loro vite. Fanno la propria felicità. Sopportano le conseguenze buone o cattive delle loro azioni.
+Per lui, lo scopo della Legge deve semplicemente essere quello di "mettere fine a tutti i saccheggi". Se lo Stato non interviene nella vita privata, gli individui sono effettivamente proprietari e responsabili delle loro vite. Sono gli artefici della propria felicità. Sopportano le conseguenze buone o cattive delle loro azioni.
 
 Sono certi che i loro diritti naturali siano garantiti e intoccabili. Diritti di proprietà sicuri danno alle persone la capacità di fare piani a lungo termine perché sanno che i loro beni sono al sicuro dal saccheggio.
 
@@ -891,7 +892,7 @@ Bastiat scrisse ne "La Legge", poco tempo prima di morire. Un secolo dopo la mor
 
 ![video](https://youtu.be/YffrxCE5xmc?si=HPLmL9YSnHIQGNNa)
 
-Nel 1848, Bastiat era un deputato. Fu nominato vicepresidente della commissione finanziaria. Era, quindi, particolarmente ben posizionato per rispondere a questa domanda: cos'è lo Stato? Ci rivolgiamo allo Stato per garantire il nostro benessere. Ma Bastiat ci ricorda che lo Stato non può dare nulla ai cittadini che non abbia prima preso da loro.
+Nel 1848, Bastiat era un deputato. Fu nominato vicepresidente della commissione finanziaria. Era, quindi,  ben posizionato per rispondere a questa domanda: cos'è lo Stato? Ci rivolgiamo allo Stato per garantire il nostro benessere. Ma Bastiat ci ricorda che lo Stato non può dare nulla ai cittadini che non abbia prima preso da loro.
 
 Bastiat inizia ribaltando un'equazione comunemente accettata: è lo Stato che sostiene la nazione. Tuttavia, lo Stato non può sostenere i cittadini perché non produce ricchezza; si limita a spostarla, a redistribuirla. Al contrario, sono i cittadini che sostengono lo Stato attraverso la creazione di ricchezza.
 
@@ -944,10 +945,10 @@ Scrisse Frédéric Bastiat in un breve opuscolo intitolato Lo Stato.
 
 L'influenza di Bastiat iniziò a declinare verso la fine del XIX secolo, con l'ascesa del socialismo e in particolare del marxismo all'interno delle università e degli istituti di ricerca, finanziati con denaro pubblico.
 
-Con il XX secolo, la conoscenza e la popolarità di Bastiat scomparvero. Non veniva più menzionato nei libri di testo di economia. Non sarebbe stato fino alla fine della Seconda Guerra Mondiale che un rinnovato interesse per le idee di libertà, così evidentemente dimenticate con Roosevelt e i regimi totalitari in Europa, sarebbe emerso. Uno degli architetti di questa rinascita fu l'economista austriaco Ludwig von Mises, uno dei molti intellettuali europei che fuggirono dall'Europa attraverso la Spagna e il Portogallo per raggiungere l'America.
+Con il XX secolo, la conoscenza e la popolarità di Bastiat scomparvero. Non veniva più menzionato nei libri di testo di economia. Non sarebbe stato fino alla fine della Seconda Guerra Mondiale che un rinnovato interesse per le idee di libertà, evidentemente dimenticate con Roosevelt e i regimi totalitari in Europa, sarebbe emerso. Uno degli architetti di questa rinascita fu l'economista austriaco Ludwig von Mises, uno dei molti intellettuali europei che fuggirono dall'Europa attraverso la Spagna e il Portogallo per raggiungere l'America.
 Trasferitosi a New York nel 1943, Mises organizzò seminari che attirarono menti eccezionali: George Stigler, Milton Friedman, entrambi futuri vincitori del Premio Nobel, e Murray Rothbard, allora studente alla Columbia. Fu durante questi seminari che parlò per la prima volta di Bastiat come una delle principali referenze del liberalismo classico. Presentò ai suoi ascoltatori i pamphlet di Bastiat, "La Legge" e "Lo Stato", ancora non tradotti in inglese. Nel 1953, uno dei partecipanti al seminario, Leonard Read, avrebbe fatto tradurre "La Legge" di Bastiat in inglese e si sarebbe assunto il compito di distribuire il libro in tutto il paese attraverso la sua fondazione: la Foundation for Economic Education.
 ![immagine](assets/image/20/IMGG.webp)
-Ma colui che avrebbe anche popolarizzato le tesi di Frédéric Bastiat fu un editorialista economico per il New York Times, Henry Hazlitt, in un piccolo libro intitolato: "Economia in una lezione", pubblicato nel 1946. Attingendo esplicitamente dalle idee di Bastiat, mira a dimostrare che il problema delle soluzioni economiche stataliste è il loro fallimento nel considerare le loro disastrose conseguenze a lungo termine.
+Ma colui che avrebbe anche popolarizzato le tesi di Frédéric Bastiat fu un editorialista economico del New York Times, Henry Hazlitt, in un piccolo libro intitolato: "Economia in una lezione", pubblicato nel 1946. Attingendo esplicitamente dalle idee di Bastiat, mira a dimostrare che il problema delle soluzioni economiche stataliste è il loro fallimento nel considerare le loro disastrose conseguenze a lungo termine.
 ![immagine](assets/image/20/IMG07.webp)
 
 Hazlitt inizia il suo libro raccontando la storia della finestra rotta di Bastiat. Riassume la storia in una lezione semplice e singolare:
@@ -961,10 +962,10 @@ Bastiat era uno degli economisti preferiti di Ronald Reagan, molto prima che fos
 La lezione che Reagan insegnava ai suoi dipendenti, seguendo Bastiat, è che non c'è mito più grande di quello di stimolare la crescita e l'occupazione attraverso la spesa pubblica.
 ![immagine](assets/image/20/IMG08.webp)
 
-Fu notoriamente John Maynard Keynes a suggerire che la spesa pubblica aumentasse la produzione a causa di un moltiplicatore: se il governo costruisce un ponte, i lavoratori di quel ponte saranno in grado di comprare il pane, poi il panettiere può comprare le scarpe, e così via. Se l'industria privata è in declino, può essere rimediata con grandi opere. Se c'è disoccupazione, lo Stato può creare lavori pubblici.
+Fu notoriamente John Maynard Keynes a suggerire che la spesa pubblica aumentasse la produzione a causa di un moltiplicatore: se il governo costruisce un ponte, i lavoratori di quel ponte saranno in grado di comprare il pane, poi il panettiere può comprare le scarpe, e così via. Se l'industria privata è in declino, si può rimediare con grandi opere. Se c'è disoccupazione, lo Stato può creare lavori pubblici.
 Ma come Bastiat ha abilmente dimostrato, l'intervento dello Stato ha effetti perversi che non si vedono. Solo un buon economista è capace di prevederli. Prendiamo un esempio: È un'illusione credere che il governo possa "creare posti di lavoro" perché per ogni lavoro pubblico creato, ne distrugge uno nel mercato. Infatti, i lavori pubblici sono pagati con le tasse. I lavori pubblici non sono creati; sono percepiti. Ogni centesimo speso dallo Stato deve necessariamente essere ottenuto attraverso un centesimo di tassa o debito.
 ![immagine](assets/image/20/IMG09.webp)
 Se guardiamo le cose da questa prospettiva, Reagan spiegava ai dipendenti della GE, i cosiddetti miracoli della spesa pubblica appaiono sotto una luce completamente diversa. Poiché le tasse scoraggiano la produzione, e la ricchezza creata dalla spesa pubblica non può compensare pienamente quelle che sono state impediti di nascere dalle tasse imposte per pagare queste spese.
 
-In sostanza, Reagan ha preso da Bastiat diversi elementi chiave di una visione liberale della società e dell'uomo: la primazia della società civile sullo Stato, il valore della scelta e della responsabilità individuale, l'importanza dell'imprenditore nella creazione di ricchezza, l'importanza di un quadro legale flessibile e minimo, che permetta fiducia e rispetto dei contratti, la legge fondamentale che la ricchezza deve essere creata prima di poter essere distribuita, il desiderio di dare a tutti una possibilità nei mercati competitivi…
+In sostanza, Reagan ha preso da Bastiat diversi elementi chiave di una visione liberale della società e dell'uomo: il primato della società civile sullo Stato, il valore delle scelte e della responsabilità individuale, l'importanza dell'imprenditore nella creazione di ricchezza, l'importanza di un quadro legale flessibile e minimo, che permetta fiducia e rispetto dei contratti, la legge fondamentale che la ricchezza deve essere creata prima di poter essere distribuita, il desiderio di dare a tutti una possibilità nei mercati competitivi…
 

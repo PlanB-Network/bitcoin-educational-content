@@ -1,0 +1,8 @@
+question: Quelle est l'illusion fondamentale de l'État d'après Marx ?
+answer: Il représente l'intérêt général et non les intérêts particuliers d'une classe.
+wrong_answers:
+  - Il est capable de garantir l'impartialité.
+  - Il sert la société civile.
+  - Il promeut la lutte des classes.
+explanation: 
+reviewed: false

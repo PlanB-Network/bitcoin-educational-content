@@ -1,8 +1,7 @@
 question: Was ist kein Mnemonischer Ausdruck im Kontext von Bitcoin?
 answer: Ein Passwort für Ihre Bitcoin-Wallet
 wrong_answers:
-  - eine Liste von 12 Wörtern aus einem spezifischen Wörterbuch
-  - eine Liste von 24 Wörtern aus einem spezifischen Wörterbuch
+  - eine Liste von 12-24 Wörtern aus einem spezifischen Wörterbuch
   - das Geheimnis, um auf Ihre Bitcoin-Gelder zuzugreifen
   - Ein geheimer Code, um auf Ihre Bitcoins zuzugreifen
 explanation: |

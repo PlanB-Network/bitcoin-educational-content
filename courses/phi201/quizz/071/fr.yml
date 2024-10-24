@@ -1,0 +1,8 @@
+question: Quelle est la devise des physiocrates ?
+answer: Laissez-faire, laissez passer.
+wrong_answers:
+  - "L'État est à la fois banquier, commerçant et nourricier."
+  - "La France ne peut s'enrichir que par la ruine de l'Angleterre et de la Hollande."
+  - "L'économie politique résume Dupont de Nemours est la science du droit naturel appliqué aux sociétés civilisées."
+explanation: 
+reviewed: false

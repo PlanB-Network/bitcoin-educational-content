@@ -1,8 +1,7 @@
 question: Điều nào không phải là cụm từ gợi nhớ trong bối cảnh của Bitcoin?
 answer: Mật khẩu cho ví Bitcoin của bạn
 wrong_answers:
-  - một danh sách gồm 12 từ từ một từ điển cụ thể
-  - một danh sách gồm 24 từ từ một từ điển cụ thể
+  - một danh sách gồm 12-24 từ từ một từ điển cụ thể
   - bí mật để truy cập vào quỹ bitcoin của bạn
   - Một mã bí mật để truy cập vào bitcoin của bạn
 explanation: |

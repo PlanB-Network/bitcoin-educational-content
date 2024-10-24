@@ -843,8 +843,6 @@ Generating a mnemonic phrase is an important process to secure your cryptocurren
 
 Another widely used cryptographic method on the Bitcoin protocol is the method of digital signatures.
 
-
-
 ## Evaluate the course
 <chapterId>0cd71541-a7fd-53db-b66a-8611b6a28b04</chapterId>
 <isCourseReview>true</isCourseReview>

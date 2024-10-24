@@ -1,0 +1,8 @@
+question: Quelle était la position de l'école de Salamanque sur la conversion des Indiens ?
+answer: Elle devait se faire par la persuasion.
+wrong_answers:
+  - Elle devait être faite par la force.
+  - Elle ne devait pas être faite du tout.
+  - Ils n'ont pas pris position sur cette question.
+explanation: 
+reviewed: false

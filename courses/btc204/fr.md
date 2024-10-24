@@ -643,7 +643,7 @@ En revanche, si la transaction ne rentre dans aucun modèle connu de transaction
 
 La CIOH a été découverte par Satoshi Nakamoto. Il en parle dans la partie 10 du White Paper (livre blanc) : 
 
-"_[...] le lien est inévitable avec les transactions à plusieurs entrées, qui révèlent nécessairement que leurs entrées étaient détenues par un même propriétaire. Le risque est que si le propriétaire d'une clé est révélé, les liens peuvent révéler d'autres transactions qui ont appartenu au même propriétaire._"
+> _[...] le lien est inévitable avec les transactions à plusieurs entrées, qui révèlent nécessairement que leurs entrées étaient détenues par un même propriétaire. Le risque est que si le propriétaire d'une clé est révélé, les liens peuvent révéler d'autres transactions qui ont appartenu au même propriétaire._
 
 ![BTC204](assets/fr/061.webp)
 

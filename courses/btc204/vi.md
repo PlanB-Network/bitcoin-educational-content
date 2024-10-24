@@ -41,7 +41,7 @@ Mục tiêu của khóa học này không phải là làm cho bạn trở nên h
 
 ### Phần 1: Các định nghĩa và khái niệm chính
 Để bắt đầu, chúng ta sẽ cùng nhau xem kỹ lại các nguyên tắc cơ bản quản trị sự vận hành của Bitcoin, để sau đó có thể tiếp cận dần với các khái niệm liên quan đến quyền riêng tư. Việc nắm vững một số khái niệm cơ bản như UTXOs, địa chỉ nhận, hoặc scripts rất quan trọng, vì điều đó sẽ giúp bạn có thể hiểu trọn vẹn các khái niệm mà chúng tôi sẽ đề cập trong các phần tiếp theo. Chúng tôi cũng sẽ giới thiệu mô hình tổng quát về quyền riêng tư trên không gian Bitcoin, theo cách Satoshi Nakamoto hình dung, điều này sẽ cho phép chúng ta nắm bắt được các vấn đề và rủi ro liên quan.
-![BTC204](assets/vi/11/1.webp)
+![BTC204](assets/fr/11/1.webp)
 
 ### Phần 2: Hiểu về phân tích chuối và các bảo vệ quyền riêng tư trước hoạt động này
 
@@ -53,13 +53,13 @@ Trong phần thứ hai, chúng ta sẽ nghiên cứu các kỹ thuật được 
 
 Trong phần thứ ba của khóa học, chúng ta đi vào vấn đề chính: thực hành! Mục tiêu là làm chủ tất cả các phương pháp tốt nhất cần thiết, các hoạt động đó nên trở thành phản xạ tự nhiên cho bất kỳ người dùng Bitcoin nào. Chúng tôi sẽ đề cập đến việc sử dụng địa chỉ mới, gắn nhãn, hợp nhất, sử dụng các nốt đầy đủ (full node), cũng như KYC và phương pháp mua bitcoin. Mục tiêu là cung cấp cho bạn một cái nhìn tổng quan toàn diện về các bẫy cần tránh để thiết lập nền tảng vững chắc trong nhiệm vụ bảo vệ quyền riêng tư của bản thân. Trong một số trường hợp, bạn sẽ được điều hướng đến một hướng dẫn cụ thể để thực hiện chúng.
 
-![BTC204](assets/vi/11/3.webp)
+![BTC204](assets/fr/11/3.webp)
 
 ### Phần 4: Hiểu về giao dịch trộn coin - trộn coin
 
 Làm sao chúng ta có thể nói về quyền riêng tư trên không gian Bitcoin mà không thảo luận về trộn coin - trộn coins? Trong phần 4, chúng ta sẽ khám phá mọi thứ bạn cần biết về phương pháp trộn này. Bạn sẽ học được trộn coin là gì, lịch sử và mục tiêu của nó, cũng như các hình thức trộn coin khác nhau hiện hành. Cuối cùng, đối với người dùng có kinh nghiệm hơn, chúng ta sẽ khám phá về các tập hợp ẩn danh (anonset) và entropy, và cách tính toán các chỉ số này.
 
-![BTC204](assets/vi/11/4.webp)
+![BTC204](assets/fr/11/4.webp)
 
 ### Phần 5: Hiểu về các kỹ thuật nâng cao liên quan tới quyền riêng tư
 Trong phần thứ năm, chúng tôi sẽ cung cấp một cái nhìn tổng quan về tất cả các kỹ thuật khác hiện có để bảo vệ quyền riêng tư của bạn trên không gian Bitcoin, ngoài trộn coin. Trải qua nhiều năm, các nhà phát triển đã thể hiện sự sáng tạo xuất sắc trong việc thiết kế các công cụ chuyên dụng để bảo vệ quyền riêng tư. Chúng ta sẽ khám phá tất cả các phương pháp này, như payjoin, giao dịch hợp tác, Coin Swap và Atomic Swap, chi tiết về cách hoạt động, mục tiêu và điểm yếu tiềm ẩn.
@@ -95,9 +95,9 @@ Lý thuyết, một UTXO có thể đại diện cho bất kỳ giá trị nào 
 
 Các UTXO là những phương tiện trao đổi trên Bitcoin. Mỗi giao dịch dẫn đến việc tiêu thụ các UTXO như đầu vào và tạo ra các UTXO mới như đầu ra. Khi một giao dịch được thực hiện, các UTXO được sử dụng như các đầu vào được coi là "đã chi tiêu", các UTXO mới được tạo ra và phân bổ cho người nhận được chỉ định trong các đầu ra của giao dịch. Do đó, một UTXO đơn giản đại diện cho một đầu ra giao dịch chưa được chi tiêu, và là một lượng bitcoin (mẩu bitcoin) thuộc về một người dùng tại một thời điểm nhất định.
 
-![BTC204](assets/vi/21/2.webp)
+![BTC204](assets/fr/21/2.webp)
 Tất cả UTXOs đều được bảo vệ bởi các script, các script này đặt ra các điều kiện mà chúng có thể được chi tiêu. Để tiêu thụ một UTXO, người dùng phải chứng minh với mạng lưới rằng họ đáp ứng các điều kiện được quy định bởi script bảo vệ UTXO đó. Nói chung, các UTXO được bảo vệ bởi một khóa công khai (hoặc một địa chỉ nhận đại diện cho khóa công khai này). Để chi tiêu một UTXO liên kết với khóa công khai này, người dùng phải chứng minh họ giữ khóa riêng tư tương ứng bằng cách cung cấp một chữ ký số được tạo ra với chìa khóa này. Đây là lý do tại sao người ta nói rằng ví Bitcoin của bạn thực sự không chứa bitcoin, mà thực ra nó lưu trữ các khóa riêng của bạn, từ đó cho phép bạn truy cập vào các UTXO của mình và, do đó, truy cập vào các mẩu bitcoin (lượng bitcoin) mà chúng đại diện.
-![BTC204](assets/vi/21/3.webp)
+![BTC204](assets/fr/21/3.webp)
 
 Vì khái niệm về tài khoản không tồn tại trong Bitcoin, số dư của một ví đơn giản tương ứng với tổng giá trị của tất cả các UTXO mà nó có thể chi tiêu. Ví dụ, nếu ví Bitcoin của bạn có thể chi tiêu 4 UTXO sau:
 
@@ -110,7 +110,7 @@ Vì khái niệm về tài khoản không tồn tại trong Bitcoin, số dư c�
 
 Tổng số dư ví của bạn sẽ là `17 BTC`.
 
-![BTC204](assets/vi/21/4.webp)
+![BTC204](assets/fr/21/4.webp)
 
 ## Cấu trúc của các giao dịch Bitcoin
 <chapterId>29d3aaab-de2e-4746-ab40-c9748898850c</chapterId>
@@ -119,13 +119,13 @@ Tổng số dư ví của bạn sẽ là `17 BTC`.
 
 Một giao dịch Bitcoin là một hoạt động được ghi lại trên blockchain cho phép chuyển quyền sở hữu bitcoin từ người này sang người khác. Cụ thể hơn, vì chúng ta đang ở trong mô hình UTXO và không có tài khoản, giao dịch thoả mãn các điều kiện chi tiêu đã bảo vệ một hoặc nhiều UTXO, sẽ tiêu thụ chúng, và tạo ra các UTXO mới với các điều kiện chi tiêu mới. Nói ngắn gọn, một giao dịch di chuyển bitcoin từ một script được đáp ứng sang một script mới nhằm bảo vệ chúng.
 
-![BTC204](assets/vi/22/1.webp)
+![BTC204](assets/fr/22/1.webp)
 
 Mỗi giao dịch Bitcoin do đó bao gồm một hoặc nhiều đầu vào và một hoặc nhiều đầu ra. Các đầu vào là các UTXO được tiêu thụ bởi giao dịch đó để tạo ra các đầu ra mới. Các đầu ra là các UTXO mới sẽ có thể sử dụng như đầu vào cho các giao dịch tương lai.
 
-![BTC204](assets/vi/22/2.webp)
+![BTC204](assets/fr/22/2.webp)
 **> Bạn có biết?** Về lý thuyết, một giao dịch Bitcoin có thể có không giới hạn số lượng đầu vào và đầu ra. Thứ duy nhất giới hạn số lượng này là kích thước tối đa của một khối. Mỗi đầu vào trong một giao dịch Bitcoin là một UTXO (Unspent Transaction Output) trước đó chưa được tiêu. Để sử dụng một UTXO làm đầu vào, người giữ nó phải chứng minh rằng họ là chủ sở hữu hợp pháp bằng cách xác thực script liên quan đến nó, tức là, bằng cách đáp ứng điều kiện chi tiêu được áp đặt. Nói chung, điều này liên quan đến việc cung cấp một chữ ký số được tạo ra bằng khóa riêng tư tương ứng với khóa công khai đã được dùng để bảo vệ UTXO đó lúc ban đầu. Script do đó xác minh rằng chữ ký (dùng để chi tiêu) khớp với khóa công khai được sử dụng để nhận tiền lúc trước.
-![BTC204](assets/vi/22/3.webp)
+![BTC204](assets/fr/22/3.webp)
 
 Mỗi đầu ra, mặt khác, định rõ số lượng bitcoin được chuyển giao, cũng như người nhận. Người nhận được xác định bởi một script mới mà, nói chung, nó sẽ khóa UTXO mới tạo với một địa chỉ nhận hoặc một khóa công khai mới.
 
@@ -137,8 +137,8 @@ Sự vận hành của một giao dịch Bitcoin dựa trên các UTXO có thể
 
 Cơ chế này tương tự như đối với một đồng tiền vàng. Hãy tưởng tượng bạn sở hữu một đồng tiền 2 ounce và bạn muốn thực hiện một thanh toán 1 ounce, giả sử người bán không thể trả lại tiền thừa. Bạn sẽ cần phải nấu chảy đồng tiền của mình và đúc 2 đồng mới mỗi đồng 1 ounce.
 Cách vận hành tương tự được áp dụng với Bitcoin. Hãy tưởng tượng Alice có một UTXO của `10,000 SAT` và cô ấy muốn mua một chiếc bánh mì với giá `4,000 SAT`. Alice sẽ thực hiện một giao dịch với một đầu vào là 1 UTXO của `10,000 SAT` mà cô ấy sẽ tiêu thụ hoàn toàn, và trong đầu ra, cô ấy sẽ tạo ra 2 UTXO với giá trị là `4,000 SAT` và `6,000 SAT`. UTXO của `4,000 SAT` sẽ được gửi đến người bán bánh mì như là khoản thanh toán cho chiếc bánh mì, trong khi UTXO của `6,000 SAT` sẽ được quay trở lại với Alice như là tiền thừa được thối lại. UTXO này trở lại với người gửi ban đầu của giao dịch được gọi là "tiền thừa" trong thuật ngữ Bitcoin.
-![BTC204](assets/vi/22/4.webp)
-Bây giờ tưởng tượng rằng Alice không sở hữu một UTXO `10,000 SAT`, mà là hai UTXO mỗi cái là `3,000 SAT`. Trong tình huống này, không có UTXO nào đủ để chi trả `4,000 SAT` cho chiếc bánh mì. Do đó, Alice phải sử dụng cả hai UTXO là `3,000 SAT` làm đầu vào cho giao dịch của mình cùng một lúc. Như vậy, tổng số tiền đầu vào sẽ đạt `6,000 SAT`, cho phép cô ấy chi trả `4,000 SAT` cho người bán bánh. Phương pháp này, liên quan đến việc nhóm nhiều UTXO trong đầu vào của một giao dịch, thường được gọi là "hợp nhất".![BTC204](assets/vi/22/5.webp)
+![BTC204](assets/fr/22/4.webp)
+Bây giờ tưởng tượng rằng Alice không sở hữu một UTXO `10,000 SAT`, mà là hai UTXO mỗi cái là `3,000 SAT`. Trong tình huống này, không có UTXO nào đủ để chi trả `4,000 SAT` cho chiếc bánh mì. Do đó, Alice phải sử dụng cả hai UTXO là `3,000 SAT` làm đầu vào cho giao dịch của mình cùng một lúc. Như vậy, tổng số tiền đầu vào sẽ đạt `6,000 SAT`, cho phép cô ấy chi trả `4,000 SAT` cho người bán bánh. Phương pháp này, liên quan đến việc nhóm nhiều UTXO trong đầu vào của một giao dịch, thường được gọi là "hợp nhất".![BTC204](assets/fr/22/5.webp)
 
 ### Phí giao dịch
 
@@ -149,7 +149,7 @@ Phí = tổng đầu vào - tổng đầu ra
 ```
 
 Hãy quay lại ví dụ về Alice, người có một UTXO là `10,000 SAT` và muốn mua một chiếc bánh mì với giá `4,000 SAT`. Alice tạo một giao dịch với UTXO của mình là `10,000 SAT` làm đầu vào. Sau đó, cô ấy tạo một đầu ra là `4,000 SAT` dành cho người bán bánh để thanh toán cho chiếc bánh mì. Để khuyến khích các thợ mỏ bao đưa dịch của mình vào một khối, Alice dành `200 SAT` làm phí. Cô ấy do đó tạo ra một đầu ra thứ hai, số tiền thừa, sẽ trả lại cho cô ấy, lên đến `5,800 SAT`.
-![BTC204](assets/vi/22/6.webp)
+![BTC204](assets/fr/22/6.webp)
 
 Bằng cách áp dụng công thức phí, chúng ta thực sự thấy rằng còn lại `200 SAT` cho các thợ mỏ:
 ```plaintext
@@ -169,7 +169,7 @@ Câu trả lời nằm ở **giao dịch coinbase**.
 Coinbase là một loại giao dịch Bitcoin đặc biệt, độc nhất và luôn là giao dịch đầu tiên của mỗi khối. Nó cho phép thợ đào đã tìm thấy một bằng chứng công việc hợp lệ nhận phần thưởng khối của họ. Phần thưởng này bao gồm hai thành phần: **trợ cấp khối - bitcoin mới** và **phí giao dịch** mà chúng ta đã nói về trong phần trước.
 
 Giao dịch coinbase độc đáo ở chỗ nó là loại giao dịch duy nhất tạo ra bitcoin mới, từ hư không, không cần tiêu thụ đầu vào để tạo ra đầu ra của mình. Những đồng bitcoin được "in mới" này tạo thành những gì có thể được gọi là "các UTXO gốc".
-![BTC204](assets/vi/22/7.webp)
+![BTC204](assets/fr/22/7.webp)
 Các bitcoin từ trợ cấp khối được tạo mới từ "hư không", theo một lịch trình phát hành đã được thiết lập trước trong các quy tắc đồng thuận. Trợ cấp khối bị giảm đi một nửa sau mỗi 210.000 khối, khoảng cứ mỗi bốn năm, trong một sự kiện được gọi là "halving". Ban đầu, 50 bitcoin mới được tạo ra ứng với mỗi khối, nhưng số lượng này đã dần giảm; hiện tại, là 3,125 bitcoin mỗi khối.
 
 Về phần liên quan đến phí giao dịch, mặc dù nó cũng đại diện cho BTC mới được tạo, chúng không được vượt quá sự chênh lệch giữa tổng số đầu vào và đầu ra của tất cả các giao dịch trong một khối. Chúng ta đã thấy trước đó rằng các phí này đại diện cho phần của đầu vào không được sử dụng trong đầu ra của các giao dịch. Phần này về mặt kỹ thuật là "mất" trong quá trình giao dịch, và người khai thác có quyền tái tạo giá trị này dưới dạng một hoặc nhiều UTXO mới. Do đó, đây là một sự chuyển giao giá trị từ người giao dịch đến thợ đào, người thêm giao dịch đó vào blockchain.
@@ -226,7 +226,7 @@ Ví dụ, người quản lý ngân hàng của bạn biết rằng bạn mua b�
 Do ràng buộc về việc khuếch tán công khai các giao dịch mà chúng ta đã thấy ở phần trước, mô hình bảo mật của Bitcoin không thể theo mô hình của hệ thống ngân hàng. Trong trường hợp của Bitcoin, vì dòng thông tin không thể bị ngắt quãng giữa các giao dịch và khu vực công cộng, **mô hình quyền riêng tư được xây dựng dựa trên sự tách biệt giữa danh tính của người dùng và chính các giao dịch**.
 
 Ví dụ, nếu bạn dùng BTC để mua bánh mì ta-tê từ người bán, hàng xóm của bạn, người sở hữu nốt đầy đủ của riêng mình, có thể thấy giao dịch của bạn diễn ra, giống như họ có thể thấy tất cả các giao dịch khác trong hệ thống. Tuy nhiên, nếu nguyên tắc bảo mật được tôn trọng, họ không nên có khả năng liên kết một giao dịch cụ thể này với danh tính đời thực của bạn.
-![BTC204](assets/vi/23/9.webp)
+![BTC204](assets/fr/23/9.webp)
 
 Nhưng vì các giao dịch Bitcoin được công bố công khai, vẫn có khả năng thiết lập các liên kết giữa chúng để suy luận ra thông tin về các bên liên quan. Hoạt động này thậm chí còn hình thành một ngành chuyên môn riêng gọi là "phân tích chuỗi". Trong phần tiếp theo của khóa học, tôi mời bạn khám phá cơ bản về phân tích chuỗi để hiểu cách bitcoin của bạn bị theo dõi và biết cách bảo vệ mình tốt hơn.
 
@@ -245,7 +245,7 @@ Phân tích chuỗi là một thực hành bao gồm tất cả các phương ph
 2. **Xác định các đặc điểm đã biết;**
 3. **Suy luận các giả thuyết.**
 
-![BTC204](assets/vi/31/1.webp)
+![BTC204](assets/fr/31/1.webp)
 
 Phân tích chuỗi có thể được thực hiện bởi bất kỳ ai. Chỉ cần truy cập vào thông tin công cộng của blockchain thông qua một node đầy đủ để quan sát các chuyển động của giao dịch và đưa ra giả thuyết. Cũng có các công cụ miễn phí hỗ trợ cho việc phân tích này, như trang web [OXT.me](https://oxt.me/) mà chúng ta sẽ khám phá chi tiết trong hai chương cuối cùng của phần này. Tuy nhiên, rủi ro chính đối với quyền riêng tư đến từ các công ty chuyên về phân tích chuỗi. Những công ty này đã đưa phân tích chuỗi lên quy mô công nghiệp và bán dịch vụ của họ cho các tổ chức tài chính hoặc chính phủ. Trong số các công ty này, Chainalysis có lẽ là cái tên nổi tiếng nhất.
 
@@ -301,7 +301,7 @@ Một mô hình giao dịch đơn giản là một mô hình hoặc cấu trúc 
 
 Nói cách khác, chúng ta chỉ xem xét số lượng các UTXO trong đầu vào và số lượng các UTXO trong đầu ra, không chú tâm vào các chi tiết cụ thể hơn hoặc bối cảnh của giao dịch. Từ mô hình được quan sát, chúng ta sẽ có thể diễn giải bản chất của giao dịch. Chúng ta sau đó sẽ tìm kiếm các đặc điểm trong cấu trúc của nó và suy ra một diễn giải.
 
-![BTC204](assets/vi/32/01.webp)
+![BTC204](assets/fr/32/01.webp)
 
 Trong phần này, chúng ta sẽ cùng khám phá các mô hình giao dịch chính có thể gặp trong phân tích chuỗi, và cho mỗi mô hình, tôi sẽ cung cấp cho bạn diễn giải có khả năng của cấu trúc này, cùng với một ví dụ cụ thể.
 
@@ -309,7 +309,7 @@ Trong phần này, chúng ta sẽ cùng khám phá các mô hình giao dịch ch
 
 Chúng ta bắt đầu với một mô hình rất phổ biến, vì đó là mô hình xuất hiện trong hầu hết các khoản thanh toán bitcoin. Mô hình thanh toán đơn giản được đặc trưng bởi việc tiêu thụ một hoặc nhiều UTXO trong đầu vào và tạo thành 2 UTXO trong đầu ra. Mô hình này sẽ trông như thế này:
 
-![BTC204](assets/vi/32/02.webp)
+![BTC204](assets/fr/32/02.webp)
 Khi thấy cấu trúc giao dịch này trên blockchain, chúng ta có thể rút ra một giải thích. Như tên của nó gợi ý, mô hình này chỉ ra rằng chúng ta đang chứng kiến một giao dịch gửi tiền hoặc thanh toán. Người dùng đã sử dụng UTXO của chính mình trong đầu vào để thỏa mãn trong đầu ra một UTXO thanh toán và một UTXO thối tiền (trả lại tiền dư cho cùng một người dùng).
 Do đó, chúng ta biết rằng người dùng quan sát được có khả năng không còn sở hữu một trong hai UTXO ở đầu ra (UTXO thanh toán), nhưng họ vẫn giữ sở hữu UTXO khác (UTXO thối tiền).
 Tại thời điểm này, chúng ta không thể xác định đầu ra nào đại diện cho UTXO nào, vì đây không phải là mục tiêu của việc nghiên cứu mô hình. Chúng ta sẽ đạt được điều này bằng cách dựa vào các phép suy luận mà chúng ta sẽ nghiên cứu trong các phần tiếp theo. Tại giai đoạn này, mục tiêu của chúng ta giới hạn ở việc xác định bản chất của giao dịch đang được nghiên cứu, trong trường hợp này, là một giao dịch gửi đơn giản.
@@ -320,7 +320,7 @@ Ví dụ, đây là một giao dịch Bitcoin tuân theo mô hình gửi đơn g
 b6cc79f45fd2d7669ff94db5cb14c45f1f879ea0ba4c6e3d16ad53a18c34b769
 ```
 
-![BTC204](assets/vi/32/03.webp)
+![BTC204](assets/fr/32/03.webp)
 
 Nguồn: [Mempool.space](https://mempool.space/fr/tx/b6cc79f45fd2d7669ff94db5cb14c45f1f879ea0ba4c6e3d16ad53a18c34b769)
 
@@ -332,7 +332,7 @@ Bây giờ bạn đã hiểu mô hình là gì, hãy chuyển sang các mô hìn
 
 Mô hình thứ hai này được đặc trưng bởi việc tiêu thụ một UTXO duy nhất làm đầu vào và tạo thành một UTXO duy nhất làm đầu ra.
 
-![BTC204](assets/vi/32/04.webp)
+![BTC204](assets/fr/32/04.webp)
 
 Giải thích của mô hình này là chúng ta đang chứng kiến một giao dịch tự chuyển. Người dùng đã chuyển bitcoin của mình cho chính mình, sang một địa chỉ khác mà họ sở hữu. Vì không có sự thay đổi nào trong giao dịch, rất khó có khả năng chúng ta đang chứng kiến một giao dịch thanh toán. Thực tế, khi một giao dịch thanh toán được thực hiện, việc người thanh toán có một UTXO chính xác khớp với số tiền mà người bán yêu cầu, cộng với phí giao dịch, gần như là không thể. Nói chung, người thanh toán do đó buộc phải tạo ra một đầu ra để thối tiền thừa.
 
@@ -344,7 +344,7 @@ Ví dụ, đây là một giao dịch Bitcoin tuân theo mô hình sweeping:
 35f1072a0fda5ae106efb4fda871ab40e1f8023c6c47f396441ad4b995ea693d
 ```
 
-![BTC204](assets/vi/32/05.webp)
+![BTC204](assets/fr/32/05.webp)
 Nguồn: [Mempool.space](https://mempool.space/fr/tx/35f1072a0fda5ae106efb4fda871ab40e1f8023c6c47f396441ad4b995ea693d) Tuy nhiên, loại mô hình này cũng có thể tiết lộ một giao dịch tự chuyển đến tài khoản của một nền tảng giao dịch tiền mã hóa. Việc nghiên cứu các địa chỉ đã biết và bối cảnh của giao dịch sẽ cho phép chúng ta biết đó là một giao dịch sweeping vào ví tự quản lý hay là một giao dịch gửi tiền vào một nền tảng giao dịch. Thực tế, các địa chỉ của nền tảng giao dịch thường dễ dàng bị nhận diện.
 
 Hãy quay lại ví dụ của Alice: nếu việc sweeping dẫn đến một địa chỉ đã biết của nền tảng (như Binance, chẳng hạn), điều này có thể có nghĩa là bitcoin đã được chuyển ra khỏi quyền sở hữu trực tiếp của Alice, có lẽ với ý định bán chúng hoặc lưu trữ chúng trên nền tảng này. Ngược lại, nếu địa chỉ đích là không biết, có thể giả định rằng đó đơn giản là một ví khác vẫn thuộc về Alice. Nhưng loại nghiên cứu này thuộc về các phép suy luận - heuristics hơn là nghiên cứu mô hình.
@@ -353,7 +353,7 @@ Hãy quay lại ví dụ của Alice: nếu việc sweeping dẫn đến một �
 
 Mô hình này được đặc trưng bởi việc tiêu thụ nhiều UTXO làm đầu vào và tạo thành một UTXO duy nhất làm đầu ra.
 
-![BTC204](assets/vi/32/06.webp)
+![BTC204](assets/fr/32/06.webp)
 
 Việc giải thích mô hình này là chúng ta đang ở trong tình huống của một quá trình tổng hợp. Đây là một hoạt động phổ biến của người dùng Bitcoin, nhằm mục đích hợp nhất nhiều UTXO để chuẩn bị cho một đợt tăng phí giao dịch có thể xảy ra. Bằng cách thực hiện thao tác này trong khoảng thời gian khi phí giao dịch đang thấp, người dùng có thể tiết kiệm phí trong tương lai. Chúng ta sẽ nói nhiều hơn về hoạt động này trong chương 4.3.
 
@@ -367,17 +367,17 @@ Ví dụ, đây là một giao dịch Bitcoin áp dụng mô hình tổng hợp:
 77c16914211e237a9bd51a7ce0b1a7368631caed515fe51b081d220590589e94
 ```
 
-![BTC204](assets/vi/32/07.webp)
+![BTC204](assets/fr/32/07.webp)
 
 Nguồn: [Mempool.space](https://mempool.space/fr/tx/77c16914211e237a9bd51a7ce0b1a7368631caed515fe51b081d220590589e94)
 Trong bối cảnh phân tích chuỗi, mô hình này có thể tiết lộ nhiều thông tin. Ví dụ, nếu chúng ta biết một trong các đầu vào thuộc về Alice, chúng ta có thể giả định rằng tất cả các đầu vào khác và đầu ra của giao dịch này cũng thuộc về cô ấy. Giả định này sau đó sẽ cho phép chúng ta truy ngược lại qua các chuỗi giao dịch trước đó để khám phá và phân tích các giao dịch khác có thể liên quan đến Alice.
-![BTC204](assets/vi/32/08.webp)
+![BTC204](assets/fr/32/08.webp)
 
 ### Chi tiêu theo nhóm
 
 Mô hình này được đặc trưng bởi việc tiêu thụ một số ít UTXO làm đầu vào (thường chỉ một) và tạo thành nhiều UTXO ở đầu ra.
 
-![BTC204](assets/vi/32/09.webp)
+![BTC204](assets/fr/32/09.webp)
 Việc giải thích mô hình này là chúng ta đang chứng kiến một hoạt động chi tiêu nhóm. Giao dịch loại này có khả năng tiết lộ một hoạt động kinh tế có quy mô đáng kể, chẳng hạn như một nền tảng giao dịch. Chi tiêu nhóm cho phép các thực thể này tiết kiệm phí bằng cách kết hợp các khoản chi của họ vào một giao dịch duy nhất.
 Chúng ta có thể suy luận từ mô hình này rằng UTXO đầu vào đến từ một công ty có hoạt động kinh tế có quy mô đáng kể và rằng các đầu ra UTXO sẽ được phân tán. Nhiều đầu ra sẽ thuộc về khách hàng của công ty đã rút bitcoin từ nền tảng. Số khác có thể đi về phía các công ty đối tác. Cuối cùng, chắc chắn sẽ có một hoặc nhiều giao dịch quay trở lại công ty phát hành giao dịch.
 
@@ -387,7 +387,7 @@ Ví dụ, đây là một giao dịch Bitcoin áp dụng mô hình chi tiêu nh�
 8a7288758b6e5d550897beedd13c70bcbaba8709af01a7dbcc1f574b89176b43
 ```
 
-![BTC204](assets/vi/32/10.webp)
+![BTC204](assets/fr/32/10.webp)
 
 Nguồn: [Mempool.space](https://mempool.space/fr/tx/8a7288758b6e5d550897beedd13c70bcbaba8709af01a7dbcc1f574b89176b43)
 
@@ -395,7 +395,7 @@ Nguồn: [Mempool.space](https://mempool.space/fr/tx/8a7288758b6e5d550897beedd13
 
 Trong số các mô hình giao dịch, chúng ta cũng có thể xác định các mô hình tiết lộ việc sử dụng một giao thức cụ thể. Ví dụ, giao dịch trộn coi trên Whirlpool (mà chúng ta sẽ thảo luận trong phần 5) sẽ có một cấu trúc dễ nhận biết cho phép chúng được phân biệt với các giao dịch truyền thống khác.
 
-![BTC204](assets/vi/32/11.webp)
+![BTC204](assets/fr/32/11.webp)
 
 Việc phân tích mô hình này gợi ý rằng chúng ta có khả năng đang chứng kiến một giao dịch hợp tác. Cũng có thể quan sát thấy một trộn coin. Nếu giả thuyết sau này chứng minh là chính xác, thì số lượng đầu ra có thể cung cấp cho chúng ta một ước lượng gần đúng về số lượng người tham gia trong trộn coin.
 
@@ -404,7 +404,7 @@ Ví dụ, đây là một giao dịch Bitcoin áp dụng mô hình của loại 
 ```plaintext
 00601af905bede31086d9b1b79ee8399bd60c97e9c5bba197bdebeee028b9bea
 ```
-![BTC204](assets/vi/32/12.webp)
+![BTC204](assets/fr/32/12.webp)
 
 Nguồn: [Mempool.space](https://mempool.space/fr/tx/00601af905bede31086d9b1b79ee8399bd60c97e9c5bba197bdebeee028b9bea)
 
@@ -421,7 +421,7 @@ Một suy luận nội bộ - heuristic nội bộ là một đặc điểm cụ
 
 Nói chung, loại phương pháp suy luận này sẽ cho phép chúng ta xác định sự thay đổi trong một giao dịch cụ thể. Bằng cách làm như vậy, chúng ta có thể tiếp tục theo dõi một thực thể qua nhiều giao dịch khác nhau. Thực vậy, nếu chúng ta xác định được một UTXO thuộc về một người dùng mà chúng ta muốn theo dõi, điều quan trọng là phải xác định, khi họ thực hiện một giao dịch, đầu ra nào được chuyển cho người dùng khác và đầu ra nào đại diện cho phần tiền thối, do đó vẫn thuộc về họ.
 
-![BTC204](assets/vi/33/01.webp)
+![BTC204](assets/fr/33/01.webp)
 
 Một lần nữa, tôi muốn nhắc bạn rằng những phương pháp suy luận này không hoàn toàn chính xác. Khi xem xét riêng lẻ, chúng chỉ cho phép chúng ta xác định các kịch bản có thể. Chính sự tích lũy của nhiều suy luận giúp giảm bớt sự không chắc chắn, tất nhiên, không bao giờ loại bỏ hoàn toàn sự không chắc chắn.
 
@@ -431,7 +431,7 @@ Phương pháp suy luận này liên quan đến việc nghiên cứu sự tươ
 
 Đặc điểm rõ ràng nhất là việc tái sử dụng một địa chỉ nhận trong cùng một giao dịch.
 
-![BTC204](assets/vi/33/02.webp)
+![BTC204](assets/fr/33/02.webp)
 Phương pháp suy luận này để lại một chút không gian cho sự nghi ngờ. Trừ khi khóa riêng tư của một người đã bị hack, cùng một địa chỉ nhận không thể không tiết lộ hoạt động của một người dùng duy nhất. Sự giải thích theo sau là phần tiền thối từ giao dịch là đầu ra với cùng một địa chỉ như đầu vào. Điều này cho phép tiếp tục theo dõi cá nhân dựa trên phần tiền thối này.
 Ví dụ, đây là một giao dịch mà cách suy luận này có thể được áp dụng một cách hợp lý:
 
@@ -445,7 +445,7 @@ Nguồn: [Mempool.space](https://mempool.space/tx/54364146665bfc453a55eae4bfb8fd
 
 Những điểm tương đồng giữa đầu vào và đầu ra không dừng lại ở việc tái sử dụng địa chỉ. Bất kỳ sự giống nhau nào trong việc sử dụng script cũng có thể cho phép đưa ra một suy luận. Ví dụ, đôi khi có thể quan sát thấy cùng một phiên bản giữa một đầu vào và một trong các đầu ra của giao dịch.
 
-![BTC204](assets/vi/33/04.webp)
+![BTC204](assets/fr/33/04.webp)
 
 Trong sơ đồ này, chúng ta có thể thấy rằng đầu vào số 0 mở khóa một script P2WPKH (SegWit V0 bắt đầu với `bc1q`). Đầu ra số 0 sử dụng cùng một loại script. Tuy nhiên, đầu ra số 1 sử dụng một script P2TR (SegWit V1 bắt đầu với `bc1p`). Sự giải thích của đặc điểm này là có khả năng địa chỉ có cùng phiên bản với đầu vào là địa chỉ tiền thối. Do đó, nó vẫn thuộc về cùng một người dùng.
 
@@ -463,7 +463,7 @@ Trong trường hợp này, chúng ta có thể thấy rằng đầu vào số 0
 
 Một phương pháp suy luận nội bộ khác có thể giúp chúng ta xác định đầu ra thay đổi là phương pháp của số tròn. Nói chung, khi đối mặt với một mô hình thanh toán đơn giản (1 đầu vào và 2 đầu ra), nếu một trong các đầu ra chi tiêu một số tiền tròn, thì nó đại diện cho việc thanh toán.
 
-![BTC204](assets/vi/33/06.webp)
+![BTC204](assets/fr/33/06.webp)
 
 Bằng cách loại trừ, nếu một đầu ra đại diện cho việc thanh toán, đầu ra còn lại đại diện cho tiền thối. Do đó, có thể suy luận rằng người dùng tạo giao dịch vẫn giữ đầu ra được xác định là tiền thối.
 
@@ -474,7 +474,7 @@ Tuy nhiên, một nhà phân tích có thể cố gắng thực hiện việc ch
 - Một đầu ra của €20;
 - Một đầu ra của €41.27.
 Một khi được chuyển đổi sang tiền pháp định, giao dịch này cho phép áp dụng phương pháp suy luận về thanh toán số tròn. Đầu ra của €20 có khả năng dành cho một người bán hàng, hoặc ít nhất là đã thay đổi chủ sở hữu. Bằng cách suy luận, đầu ra của €41.27 có khả năng vẫn thuộc về người dùng ban đầu.
-![BTC204](assets/vi/33/07.webp)
+![BTC204](assets/fr/33/07.webp)
 
 Nếu một ngày nào đó, Bitcoin trở thành đơn vị tính toán ưa thích trong các giao dịch của chúng ta, phương pháp suy luận này có thể sẽ trở nên hữu ích hơn nữa cho việc phân tích.
 
@@ -490,7 +490,7 @@ Nguồn: [Mempool.space](https://mempool.space/tx/2bcb42fab7fba17ac1b176060e7d7d
 
 Khi có sự chênh lệch đủ lớn được phát hiện giữa hai đầu ra của giao dịch trong một mô hình thanh toán đơn giản, có thể ước lượng rằng đầu ra lớn hơn có khả năng là tiền thối.
 
-![BTC204](assets/vi/33/09.webp)
+![BTC204](assets/fr/33/09.webp)
 
 Suy luận dựa trên đầu ra lớn nhất có lẽ là không chính xác nhất trong tất cả. Nếu chỉ xác định bởi chính nó, nó khá yếu. Tuy nhiên, đặc điểm này có thể được kết hợp với các suy luận khác để giảm bớt sự không chắc chắn của chúng ta trong việc giải thích.
 
@@ -518,7 +518,7 @@ Do đó, có thể khai thác hành vi tái sử dụng địa chỉ trong cùng
 
 Việc giải thích tái sử dụng địa chỉ là tất cả các UTXO bị khóa trên địa chỉ này thuộc về (hoặc đã thuộc về) cùng một thực thể. Phép suy luận này để lại một không gian nhỏ cho sự không chắc chắn. Khi có thể xác định nó, việc giải thích theo sau rất có khả năng tương ứng với thực tế. Do đó, nó cho phép phân loại theo nhóm các hoạt động trên chuỗi khác nhau.
 
-![BTC204](assets/vi/34/01.webp)
+![BTC204](assets/fr/34/01.webp)
 
 Như đã giải thích trong phần giới thiệu của phần 3 này, phép suy luận này được phát hiện bởi chính Satoshi Nakamoto. Trong bản cáo bạch, ông đề cập chi tiết đến một giải pháp cho người dùng để tránh việc tái sử dụng địa chỉ ví, đó là đơn giản chỉ sử dụng một địa chỉ mới cho mỗi giao dịch mới:
 
@@ -546,7 +546,7 @@ Một cách rộng rãi hơn, một nhà phân tích cũng có thể tập trung
 
 Ví dụ, có thể nhận diện được rằng người dùng được truy vết hệ thống hóa gửi tiền thừa của họ đến các địa chỉ P2TR (`bc1p…`). Nếu quy trình này lặp lại, nó có thể được sử dụng như một phép suy luận cho việc tiếp tục phân tích của chúng ta. Các dấu vân tay khác cũng có thể được sử dụng, như thứ tự của các UTXO, vị trí của tiền thừa trong các đầu ra, tín hiệu RBF (Replace-by-Fee), hoặc thậm chí, số phiên bản, trường `nSequence`, và trường `nLockTime`.
 
-![BTC204](assets/vi/34/04.webp)
+![BTC204](assets/fr/34/04.webp)
 
 Như [@LaurentMT](https://twitter.com/LaurentMT) đã chỉ ra trong [Space Kek #19](https://podcasters.spotify.com/pod/show/decouvrebitcoin/episodes/SpaceKek-19---Analyse-de-chane--anonsets-et-entropie-e1vfuji) (một podcast bằng tiếng Pháp), việc sử dụng dấu vân tay ví trong phân tích chuỗi tăng đáng kể theo thời gian. Thực tế, số lượng loại script ngày càng tăng và việc triển khai dần dần các tính năng mới bởi phần mềm ví làm tăng sự khác biệt. Thậm chí, có thể xác định chính xác phần mềm được sử dụng bởi thực thể đang được truy vết. Do đó, quan trọng là phải hiểu rằng việc nghiên cứu dấu vân tay của một ví đặc biệt có liên quan đối với các giao dịch gần đây, hơn là đối với những giao dịch được khởi xướng vào đầu những năm 2010.
 
@@ -911,7 +911,7 @@ Về việc xây dựng các địa chỉ nhận, nó cũng phụ thuộc vào m
 - Đối với các địa chỉ `P2SH` và `P2WSH`, payload đại diện cho mã băm - hash của một script;
 - Đối với các địa chỉ `P2TR`, payload là một khóa công khai được điều chỉnh. Các output `P2TR` kết hợp các khía cạnh của _Pay-to-PubKey_ và _Pay-to-Script_. Khóa công khai được điều chỉnh là kết quả của việc cộng một khóa công khai chi tiêu cổ điển với một "tweak", được suy ra từ gốc Merkle của một tập hợp các script cũng có thể được sử dụng để chi tiêu bitcoin.
 
-![BTC204](assets/vi/67/01.webp)
+![BTC204](assets/fr/67/01.webp)
 
 Các địa chỉ hiển thị trên phần mềm ví của bạn cũng bao gồm một HRP (*Human-Readable Part - Phần mà con người có thể đọc được*), thường là `bc` cho các địa chỉ sau-SegWit, một dấu phân cách `1`, và một số phiên bản `q` cho SegWit V0 và `p` cho Taproot/SegWit V1. Một mã kiểm tra tổng cũng được thêm vào để đảm bảo tính toàn vẹn và hợp lệ của địa chỉ trong quá trình truyền dẫn.
 
@@ -949,7 +949,7 @@ Mục tiêu mà Satoshi hướng tới trong phát biểu này là tạo ra mộ
 
 Khi bạn tái sử dụng một địa chỉ, bạn tạo ra một liên kết gần như không thể phủ nhận giữa tất cả các giao dịch liên quan đến địa chỉ đó. Mặc dù điều này không trực tiếp đe dọa đến tiền của bạn, vì mật mã trên đường cong e-líp đảm bảo an toàn cho khóa riêng tư của bạn, nhưng nó làm cho hoạt động của bạn dễ dàng bị theo dõi. Thực vậy, bất kỳ ai có một nốt cũng có thể quan sát các giao dịch và số dư của các địa chỉ, do đó xâm phạm hoàn toàn sự ẩn danh của bạn.
 
-![BTC204](assets/vi/34/01.webp)
+![BTC204](assets/fr/34/01.webp)
 Để minh họa điểm này, hãy lấy ví dụ về Bob, một người dùng thường xuyên mua bitcoin với số lượng nhỏ thông qua DCA (Dollar Cost Averaging) và luôn gửi chúng đến cùng một địa chỉ. Sau hai năm, địa chỉ này chứa một lượng lớn bitcoin. Nếu Bob sử dụng địa chỉ này để thực hiện thanh toán cho một người bán hàng địa phương, người này có thể thấy tất cả dòng tiền liên quan và suy luận về tài sản của Bob. Điều này có thể dẫn đến rủi ro về an toàn cá nhân, bao gồm cả nỗ lực trộm cắp hoặc tống tiền. Nếu Bob đã sử dụng một địa chỉ mới để nhận mỗi lần mua định kỳ, anh ấy sẽ tiết lộ lượng thông tin ít hơn rất nhiều cho người bán hàng của mình.
 
 Trong phân tích chuỗi, chúng ta phân biệt giữa 2 loại tái sử dụng địa chỉ:
@@ -958,7 +958,7 @@ Trong phân tích chuỗi, chúng ta phân biệt giữa 2 loại tái sử dụ
 
 Loại đầu tiên được quan sát khi một địa chỉ được tái sử dụng trong nhiều giao dịch Bitcoin khác nhau. Đây là điều chúng ta đã thảo luận trước đó: tiêu chí này cho phép chúng ta suy luận rằng tất cả các UTXO đã qua địa chỉ này thuộc về một thực thể duy nhất.
 Tái sử dụng địa chỉ nội bộ được quan sát không phải khi tái sử dụng xảy ra qua nhiều giao dịch, mà khi nó xảy ra trong cùng một giao dịch. Thực sự, nếu cùng một địa chỉ được sử dụng để khóa một đầu vào được sử dụng như một đầu ra trong một giao dịch, thì chúng ta có thể suy luận rằng đầu ra này vẫn thuộc về cùng một người dùng (tiền thối), và đầu ra thứ hai đại diện cho khoản thanh toán thực sự. Phép suy luận này cho phép theo dõi dòng tiền qua nhiều giao dịch.
-![BTC204](assets/vi/33/02.webp)
+![BTC204](assets/fr/33/02.webp)
 
 Tái sử dụng địa chỉ là một vấn đề thực sự đối với Bitcoin. Theo trang web OXT.me (hiện không thể truy cập), tỷ lệ tái sử dụng địa chỉ trên Bitcoin vào khoảng 52% vào năm 2022:
 
@@ -1015,7 +1015,7 @@ Khía cạnh quan trọng nhất của việc ghi nhãn là ghi chú nguồn g�
 - `Mua P2P Charles`;
 - `Tiền thối từ mua sofa`
 
-![BTC204](assets/vi/42/02.webp)
+![BTC204](assets/fr/42/02.webp)
 
 Để tinh chỉnh việc quản lý UTXO và tuân theo các chiến lược phân chia tiền trong ví của mình, bạn có thể làm giàu nhãn của mình với một chỉ số bổ sung phản ánh những phân chia này. Nếu ví của bạn chứa hai loại UTXO mà bạn không muốn trộn lẫn, bạn có thể tích hợp một dấu hiệu vào nhãn của mình để phân biệt rõ ràng những nhóm này. Các dấu hiệu phân chia này sẽ phụ thuộc vào tiêu chí của riêng bạn, như sự phân biệt giữa UTXO từ quá trình mua có yêu cầu KYC, hoặc giữa tiền dùng cho công việc và cá nhân. Lấy ví dụ về nhãn đã đề cập trước đó, điều này có thể được dịch thành:
 - `KYC - Rút tiền Exchange.com`;
@@ -1023,7 +1023,7 @@ Khía cạnh quan trọng nhất của việc ghi nhãn là ghi chú nguồn g�
 - `Không KYC - Mua P2P Charles`;
 - `Không KYC - Tiền thối từ mua sofa`
 
-![BTC204](assets/vi/42/03.webp)
+![BTC204](assets/fr/42/03.webp)
 Cũng nên duy trì việc ghi nhãn cho một đồng tiền qua các giao dịch. Ví dụ, khi hợp nhất các UTXO không-KYC, hãy đảm bảo đánh dấu UTXO kết quả không chỉ là `hợp nhất`, mà cụ thể là `hợp nhất không-KYC` để duy trì một dấu vết rõ ràng về nguồn gốc của đồng tiền.
 Cuối cùng, không bắt buộc phải đặt ngày trên nhãn. Phần mềm ví hầu hết đã hiển thị ngày giao dịch, và luôn có thể truy xuất thông tin này trên một trình duyệt blockchain bằng cách sử dụng TXID của nó.
 
@@ -1258,7 +1258,7 @@ Do đó, sẽ có lợi hơn cho người dùng khi tiêu thụ ít đầu vào 
 
 Nguyên tắc của việc hợp nhất chính xác là tận dụng các khoảng thời gian khi phí giao dịch trên mạng lưới Bitcoin thấp để hợp nhất các UTXO nhỏ của mình thành một UTXO lớn duy nhất. Như vậy, khi phí trên Bitcoin tăng, người ta có thể thực hiện giao dịch với số lượng đầu vào tối thiểu, và do đó chi tiêu ít phí tuyệt đối hơn. Mục tiêu là lên kế hoạch cho các giao dịch bắt buộc phải được thực hiện trong các khoảng thời gian phí cao.
 
-![BTC204](assets/vi/45/03.webp)
+![BTC204](assets/fr/45/03.webp)
 Ngoài việc tiết kiệm về phí giao dịch, việc hợp nhất UTXOs giúp tránh tạo ra "bụi." Bụi ám chỉ các UTXO có giá trị tính theo satoshi quá thấp đến mức không đủ để trang trải phí giao dịch cần thiết để tiêu chúng. Điều này làm cho việc sử dụng các UTXO này trở nên không hợp lý về mặt kinh tế miễn là phí giao dịch vẫn cao. Bằng cách chủ động nhóm các UTXO của mình, bạn ngăn chúng biến thành bụi, đảm bảo rằng tất cả các đồng tiền của bạn vẫn có thể sử dụng được.
 
 ### Kích thước tối thiểu cho các UTXO của bạn là bao nhiêu?
@@ -1357,7 +1357,7 @@ Trộn coin thường được xem là phương pháp hiệu quả nhất để 
 
 Trộn coin là một kỹ thuật làm gián đoạn khả năng theo dõi bitcoin trên blockchain. Nó dựa vào một giao dịch hợp tác với cấu trúc cụ thể mang tên: giao dịch trộn coin.
 Như chúng ta đã thấy trong những phần đầu của khóa học này, giao dịch trên Bitcoin được biết đến bởi tất cả người dùng qua nốt của họ. Do đó, việc xác minh chuỗi chữ ký điện tử của mỗi đồng tiền và quan sát lịch sử của nó trở nên dễ dàng. Điều này có nghĩa là tất cả người dùng có thể phân tích giao dịch của người dùng khác. Kết quả là, sự ẩn danh ở cấp độ giao dịch là không thể. Tuy nhiên, sự ẩn danh được bảo toàn ở cấp độ nhận dạng cá nhân. Khác với hệ thống ngân hàng truyền thống nơi mỗi tài khoản được liên kết với một danh tính cá nhân, trên Bitcoin, tiền được liên kết với các cặp khóa mật mã (hoặc script), do đó cung cấp cho người dùng một dạng giả danh sau các định danh mật mã.
-![BTC204](assets/vi/51/01.webp)
+![BTC204](assets/fr/51/01.webp)
 
 Do đó, bảo mật trên Bitcoin bị xâm phạm khi các quan sát viên bên ngoài có thể liên kết các UTXO cụ thể với người dùng đã được định danh. Một khi mối liên kết này được thiết lập, việc theo dõi giao dịch của họ và phân tích lịch sử bitcoin của họ trở nên khả thi. Trộn coin chính xác là một kỹ thuật được phát triển để phá vỡ khả năng bị theo dõi của UTXO, nhằm cung cấp một lớp bảo mật nhất định cho người dùng Bitcoin ở cấp độ giao dịch.
 
@@ -1645,7 +1645,7 @@ Ngoài phí dịch vụ, phí đào là điển hình cho bất kỳ giao dịch
 
 Thực vậy, trong mỗi giao dịch trộn coin Whirlpool, 2 người dùng trong số các đầu vào là người mới gia nhập. Các đầu vào khác đến từ những người tái trộn. Kết quả là, phí khai thác cho tất cả các bên tham gia trong giao dịch được trả bởi 2 người tham gia mới này, những người sau đó cũng sẽ được hưởng những lần tái trộn miễn phí:
 
-![BTC204](assets/vi/54/07.webp)
+![BTC204](assets/fr/54/07.webp)
 
 Nhờ vào hệ thống phí này, Whirlpool thực sự khác biệt so với các ứng dụng trộn coin khác vì tập hợp ẩn danh của các UTXO không tỷ lệ với chi phí được trả bởi người dùng. Do đó, có thể đạt được mức độ ẩn danh cao đáng kể mà chỉ cần trả phí gia nhập vào pool và phí đào cho 2 giao dịch (các `Tx0` và giao dịch trộn coin ban đầu).
 Một điểm quan trọng cần lưu ý là người dùng cũng sẽ phải chịu phí đào để rút UTXO của họ khỏi pool sau khi thực hiện nhiều lần trộn coin, trừ khi họ đã chọn tùy chọn `mix to`, cho phép cung cấp một địa chỉ bên ngoài sẽ trực tiếp nhận được số tiền như một đầu ra của trộn coin, mà không cần bất kỳ giao dịch bổ sung nào.
@@ -1654,7 +1654,7 @@ Một điểm quan trọng cần lưu ý là người dùng cũng sẽ phải ch
 
 Để thực hiện trộn coin qua Whirlpool, ví cần phải tạo ra nhiều tài khoản riêng biệt. Đây là nguyên tắc của giao thức ZeroLink. Một tài khoản, trong bối cảnh của một ví HD (*Hierarchical Deterministic - Tất định phân cấp*), tạo thành một phần hoàn toàn tách biệt khỏi các phần khác, sự tách biệt này xảy ra ở mức độ thứ ba của hệ thống phân cấp của ví, tức là, ở mức của `xpub`.
 
-![BTC204](assets/vi/54/08.webp)
+![BTC204](assets/fr/54/08.webp)
 
 Về lý thuyết, một ví HD có thể sinh ra `2^(32/2)` tài khoản khác nhau. Tài khoản ban đầu, được sử dụng mặc định trên tất cả các ví Bitcoin, tương ứng với chỉ mục `0'`.
 
@@ -1678,7 +1678,7 @@ Bây giờ, hãy xem xét các giai đoạn khác nhau của một giao dịch t
 
 Giao dịch ban đầu `Tx0` cũng thanh toán phí dịch vụ cho điều phối viên trộn coin. Khác với các bước tiếp theo, giao dịch này không phải là cộng tác; người dùng do đó phải chịu toàn bộ phí đào:
 
-![BTC204](assets/vi/54/09.webp)
+![BTC204](assets/fr/54/09.webp)
 
 Trong ví dụ này của giao dịch `Tx0`, một đầu vào `372000 satoshi` từ **tài khoản gửi tiền** của chúng ta được chia thành nhiều UTXO đầu ra, được phân bổ như sau:
 - Một số tiền `5000 satoshi` dùng để trả phí dịch vụ cho điều phối viên, tương ứng với việc nhập vào pool của `100000 satoshi`;
@@ -1760,11 +1760,11 @@ Sau khi nghiên cứu cách trộn coin hoạt động và những thách thức
 ### Nhắc lại về tính hữu dụng của việc trộn coin
 Ích lợi của trộn coin nằm ở khả năng tạo ra sự phủ nhận hợp lý bằng cách ngâm đồng tiền của bạn trong một nhóm các đồng tiền không thể phân biệt được. Mục tiêu của hành động này là để phá vỡ các liên kết theo dõi, cả từ quá khứ đến hiện tại và từ hiện tại trở về quá khứ.
 Nói cách khác, một nhà phân tích biết giao dịch ban đầu của bạn (`Tx0`) tại điểm nhập của các chu kỳ trộn coin không nên có khả năng xác định chính xác UTXO của bạn tại điểm thoát của các chu kỳ tái pha trộn (phân tích từ điểm tham gia vào chu kỳ đến điểm thoát chu kỳ).
-![BTC204](assets/vi/55/01.webp)
+![BTC204](assets/fr/55/01.webp)
 
 Ngược lại, một nhà phân tích biết UTXO của bạn tại điểm thoát của các chu kỳ trộn coin không nên có khả năng xác định giao dịch gốc tại điểm nhập vào các chu kỳ (phân tích từ điểm thoát chu kỳ đến điểm nhập vào chu kỳ).
 
-![BTC204](assets/vi/55/02.webp)
+![BTC204](assets/fr/55/02.webp)
 
 Để đánh giá độ khó cho một nhà phân tích trong việc liên kết quá khứ với hiện tại và ngược lại, cần phải định lượng kích thước của các nhóm đồng coin đồng nhất mà trong đó coin của bạn được ẩn giấu. Thước đo này cho chúng ta biết số lượng phân tích có khả năng tương đương. Ví dụ, nếu phân tích chính xác bị lẫn trong 3 phân tích khác có khả năng bằng nhau, mức độ ẩn giấu của bạn rất thấp. Tuy nhiên, nếu phân tích chính xác nằm trong một tập hợp của 20000 phân tích, tất cả đều có khả năng tương đương, đồng coin của bạn được ẩn giấu rất tốt. Và cụ thể, kích thước của các nhóm này đại diện cho các chỉ số được gọi là "tập hợp ẩn danh".
 
@@ -1782,7 +1782,7 @@ Có 2 loại tập hợp ẩn danh:
 
 Tập hợp ẩn danh tương lai chỉ ra kích thước của nhóm mà UTXO đang được nghiên cứu được ẩn giấu tại điểm thoát của chu kỳ, biết UTXO tại điểm nhập, tức là số lượng đồng coin không thể phân biệt được hiện diện trong nhóm này. Trong tiếng Anh, tên của chỉ số này là "forward anonset", hoặc "forward-looking metrics".
 Chỉ số này cho phép đo lường khả năng chống lại việc phân tích từ quá khứ đến hiện tại (từ đầu vào đến đầu ra).
-![BTC204](assets/vi/55/03.webp)
+![BTC204](assets/fr/55/03.webp)
 
 Chỉ số này ước lượng mức độ UTXO của bạn được bảo vệ khỏi các nỗ lực tái tạo lịch sử của nó từ điểm nhập vào đến điểm thoát ra trong quá trình trộn coin.
 
@@ -1792,11 +1792,11 @@ Ví dụ, nếu giao dịch của bạn tham gia vào chu kỳ trộn coin đầ
 
 Ví dụ, hãy tưởng tượng rằng đồng coin của chúng ta tại điểm nhập của chu kỳ trộn coin được hưởng một tập hợp ẩn danh tương lai của `86,871`. Thực tế, điều này có nghĩa là nó được ẩn giấu trong số `86,871` đồng coin (mẫu coin) không thể phân biệt được. Đối với một quan sát viên bên ngoài biết về đồng coin này tại điểm bắt đầu của các chu kỳ trộn coin và cố gắng truy tìm điểm thoát của nó, họ sẽ đối mặt với `86,871` UTXO khả dĩ, mỗi UTXO có một xác suất giống nhau được tìm thấy.
 
-![BTC204](assets/vi/55/05.webp)
+![BTC204](assets/fr/55/05.webp)
 
 ### Tập hợp ẩn danh hồi tưởng
 Chỉ số tập hợp ẩn danh hồi tưởng chỉ ra số lượng nguồn có thể có cho một đồng tiền cụ thể, biết UTXO tại điểm thoát của chu kỳ. Chỉ số này đo lường khả năng chống lại việc phân tích từ hiện tại về quá khứ (từ điểm thoát đến điểm nhập) của đồng tiền, tức là mức độ khó khăn cho một nhà phân tích khi truy vết nguồn gốc của đồng tiền của bạn, trước các chu kỳ trộn coin. Trong tiếng Anh, tên của chỉ số này là "backward anonset," hoặc "backward-looking metrics."
-![BTC204](assets/vi/55/06.webp)
+![BTC204](assets/fr/55/06.webp)
 
 Biết UTXO của bạn tại điểm thoát của các chu kỳ, tập hợp ẩn danh hồi tưởng xác định số lượng giao dịch Tx0 tiềm năng có thể đã tạo thành điểm nhập của bạn vào các chu kỳ trộn coin. Trong sơ đồ dưới đây, điều này tương ứng với tổng số của tất cả các bong bóng màu cam.
 
@@ -1804,7 +1804,7 @@ Biết UTXO của bạn tại điểm thoát của các chu kỳ, tập hợp �
 
 Ví dụ, hãy tưởng tượng rằng đồng tiền của chúng ta tại điểm thoát của chu kỳ trộn coin hưởng lợi từ một tập hợp ẩn danh hồi tưởng là `42,185`. Thực tế, điều này có nghĩa là có `42,185` nguồn tiềm năng cho UTXO này. Nếu một quan sát viên bên ngoài xác định đồng tiền này tại cuối các chu kỳ và tìm cách truy vết nguồn gốc của nó, họ sẽ đối mặt với `42,185` nguồn khả dĩ, tất cả đều có xác suất như nhau là nguồn gốc đang được tìm kiếm.
 
-![BTC204](assets/vi/55/08.webp)
+![BTC204](assets/fr/55/08.webp)
 
 ### Làm thế nào để tính toán tập hợp ẩn danh một cách cụ thể?
 Có thể tính toán tập hợp ẩn danh của một UTXO bằng cách sử dụng một trình duyệt khối cho các tập hợp ẩn danh nhỏ. Tuy nhiên, đối với các tập hợp ẩn danh lớn hơn, việc sử dụng một công cụ chuyên biệt trở nên cần thiết. Theo kiến thức của tôi, phần mềm duy nhất có khả năng thực hiện nhiệm vụ này là *Whirlpool Stats Tool*, một công cụ Python được phát triển bởi các đội ngũ tại Samourai và OXT. Thật không may, công cụ được dùng để trích xuất dữ liệu từ blockchain này hiện đang ngừng hoạt động sau vụ bắt giữ các nhà sáng lập của Samourai và việc ngừng hoạt động của OXT.
@@ -2070,7 +2070,7 @@ Hãy quay lại ví dụ của chúng ta về một giao dịch payjoin cho vi�
 ![BTC204](assets/notext/61/02.webp)
 
 Nhìn thấy giao dịch này trên blockchain, một quan sát viên bên ngoài tuân theo các phép suy luận trong phân tích chuỗi thông thường sẽ giải thích như sau: "*Alice đã kết hợp 2 UTXO trong đầu vào của giao dịch để thanh toán 19,000 satoshi cho Bob*".
-![BTC204](assets/vi/61/03.webp)
+![BTC204](assets/fr/61/03.webp)
 Sự hiểu lầm này rõ ràng là không chính xác, như bạn đã biết, hai UTXO trong đầu vào không thuộc về cùng một người. Một UTXO đến từ Alice, người mua bánh mì, và UTXO kia từ Bob, người bán bánh.
 
 ![BTC204](assets/notext/61/04.webp)
@@ -2081,11 +2081,11 @@ Do đó, phân tích của người quan sát bên ngoài bị hướng đến m
 
 Mục tiêu thứ hai của payjoin là để lừa dối một người quan sát bên ngoài về số tiền thực sự đã được thanh toán. Bằng cách xem xét cấu trúc của giao dịch, nhà phân tích có thể tin rằng số tiền thanh toán tương đương với số tiền của một trong các đầu ra.
 Nếu chúng ta xem xét lại ví dụ về việc mua bánh mì, nhà phân tích sẽ nghĩ rằng số tiền thanh toán tương ứng hoặc là UTXO 6,000 satoshi hoặc là UTXO 19,000 satoshi. Trong trường hợp này, nhà phân tích có khả năng nghĩ rằng số tiền thanh toán là 19,000 satoshi, bởi vì có 2 UTXO trong đầu ra, ít nhất một trong số đó lớn hơn 6,000 satoshi (không có lý do lô-gic nào để sử dụng 2 UTXO để thanh toán 6,000 satoshi khi một UTXO duy nhất đã đủ cho việc thanh toán này).
-![BTC204](assets/vi/61/05.webp)
+![BTC204](assets/fr/61/05.webp)
 
 Nhưng thực tế, phân tích này không chính xác. Số tiền thanh toán không tương ứng với bất kỳ đầu ra nào. Thực tế, đó là sự chênh lệch giữa UTXO của người nhận trong đầu ra và UTXO của người nhận trong đầu vào.
 
-![BTC204](assets/vi/61/06.webp)
+![BTC204](assets/fr/61/06.webp)
 
 Trong trường hợp này, giao dịch payjoin rơi vào lĩnh vực của giao dịch giấu thông tin. Nó cho phép ẩn số tiền thực sự của một giao dịch trong một giao dịch giả mạo, hoạt động như một bức bình phong.
 
@@ -2351,11 +2351,11 @@ Cuối cùng, khi một hoán đổi nguyên tử liên quan đến bitcoin trê
 ### Các phương pháp có thực sự hữu ích?
 Các phương pháp chuyển quyền sở hữu bí mật, như giao dịch đổi tiền và hoán đổi nguyên tử, có lợi thế là đánh lừa các phép suy luận trong phân tích chuỗi. Các phương pháp này có thể tạo ra ấn tượng rằng các giao dịch liên quan đến cùng một người dùng, mặc dù quyền sở hữu thực sự đã được chuyển giao. Tuy nhiên, nhược điểm chính của các phương pháp này là chúng rất rủi ro nếu không sử dụng thêm kỹ thuật để phá vỡ lịch sử của đồng tiền.
 Thực vậy, khi Alice thực hiện một giao dịch đổi tiền hoặc hoán đổi nguyên tử với Bob, cô ấy đã trao đổi quyền sở hữu bitcoin của mình để lấy bitcoin của Bob. Trong trường hợp của hoán đổi nguyên tử, giao dịch bao gồm một altcoin, nhưng nguyên tắc vẫn giữ nguyên. Do đó, khi hoàn thành, Alice nhận được đồng tiền B và Bob nhận được đồng tiền A. Điều này làm tăng sự nghi ngờ trong phân tích chuỗi, nhưng lịch sử của các đồng tiền vẫn có thể bị truy vết. Nếu một nhà phân tích kiểm tra đồng tiền A, họ có thể truy vết lại các hoạt động trước đó của Alice, và ngược lại đối với đồng tiền B.
-![BTC204](assets/vi/64/07.webp)
+![BTC204](assets/fr/64/07.webp)
 
 Từ góc nhìn của Alice, rủi ro là lịch sử của đồng tiền B có thể được coi là đáng ngờ bởi một số tổ chức. Nếu, ví dụ, Bob đã có được đồng tiền B thông qua một hành vi phạm tội như hack, đồng tiền này sẽ vẫn liên kết với các hoạt động bất hợp pháp của anh ta. Có thể, Alice sẽ phát hiện rằng mình đang sở hữu một đồng tiền mà cô ấy không thể chuyển nhượng trên các nền tảng giao dịch được quy định mà không tránh được rủi ro bị đóng băng tài sản, hoặc thậm chí bị buộc tội về các tội ác của Bob, mặc dù cô ấy không liên quan gì đến chúng.
 
-![BTC204](assets/vi/64/08.webp)
+![BTC204](assets/fr/64/08.webp)
 
 Và tất nhiên, các phương pháp bảo mật như đổi tiền hoặc hoán đổi nguyên tử được ưa chuộng bởi những tội phạm mà tài sản của họ đang bị cơ quan chức năng giám sát. Những giao thức này cung cấp cho họ cơ hội để thoát khỏi số bitcoin đang bị giám sát của mình để đổi lấy số bitcoin hoàn toàn có đổi lẫn được. Điều này cũng cho phép họ tạo ra một sự phân tâm, hướng cơ quan chức năng về phía người dùng khác. Do đó, có một lợi ích kép cho những cá nhân này.
 
@@ -2452,7 +2452,7 @@ Ban đầu, BIP47 là một đề xuất được đưa ra để tích hợp và
 
 Mục tiêu của BIP47 là cho phép việc nhận nhiều khoản thanh toán mà không gây ra việc tái sử dụng địa chỉ. Nó dựa vào việc sử dụng một mã thanh toán có thể tái sử dụng, cho phép các bên khác nhau gửi nhiều khoản thanh toán vào một mã duy nhất thuộc về người dùng khác. Do đó, người nhận không phải cung cấp một địa chỉ mới cho mỗi giao dịch, điều này giúp họ dễ dàng trao đổi hơn đồng thời bảo vệ sự riêng tư của họ.
 
-![BTC204](assets/vi/66/4.webp)
+![BTC204](assets/fr/66/4.webp)
 
 Một người dùng có thể chia sẻ mã thanh toán của mình một cách tự do, dù là trên mạng xã hội hay trên trang web của họ, mà không lo mất đi sự riêng tư, không giống như những gì sẽ xảy ra với một địa chỉ nhận cổ điển hoặc một khóa công khai.
 Để thực hiện một giao dịch, cả hai bên phải có một ví Bitcoin với triển khai BIP47, như PayNym trên Samourai Wallet hoặc Sparrow Wallet. Việc sử dụng chung mã thanh toán tạo ra một kênh bí mật giữa họ. Để thiết lập kênh này một cách hiệu quả, người gửi phải thực hiện một giao dịch cụ thể trên blockchain Bitcoin, được biết đến là "giao dịch thông báo" (Tôi sẽ cung cấp thêm chi tiết về điều này sau).
@@ -2461,7 +2461,7 @@ Sự kết hợp của mã thanh toán của cả hai người dùng tạo ra c�
 
 Mã thanh toán do đó phục vụ như một định danh ảo được tạo ra từ hạt giống của ví. Trong cấu trúc phân cấp của ví, mã thanh toán được đặt ở cấp độ 3, tức là, ở cấp độ tài khoản.
 
-![BTC204](assets/vi/66/5.webp)
+![BTC204](assets/fr/66/5.webp)
 
 Mục tiêu phái sinh cho BIP47 được xác định bởi chỉ số `47'` (`0x8000002F`), tham chiếu đến BIP47. Ví dụ về một đường dẫn phái sinh cho một mã thanh toán có thể tái sử dụng như sau:
 ```plaintext
@@ -2506,7 +2506,7 @@ tôi đã được nếu ra trong phần trước:
 0x010002a0716529bae6b36c5c9aa518a52f9c828b46ad8d907747f0d09dcd4d9a39e97c3c5f37c470c390d842f364086362f6122f412e2b0c7e7fc6e32287e364a7a36a00000000000000000000000000
 ```
 
-![BTC204](assets/vi/66/7.webp)
+![BTC204](assets/fr/66/7.webp)
 
 Đầu tiên, cần phải thêm byte tiền tố `P` vào đầu để chỉ rõ rằng đó là một mã thanh toán. Byte này được biểu diễn bởi `0x47`:
 ```plaintext
@@ -2534,7 +2534,7 @@ Giao thức mật mã nằm ở trung tâm của BIP47 được gọi tắt là 
 
 Được giới thiệu vào năm 1976, Diffie-Hellman là một giao thức thỏa thuận khóa cho phép hai bên, mỗi bên được trang bị một cặp khóa (công khai và riêng tư), thỏa thuận về một bí mật chung, ngay cả khi giao tiếp chỉ qua một kênh công cộng và không an toàn.
 
-![BTC204](assets/vi/66/10.webp)
+![BTC204](assets/fr/66/10.webp)
 
 Bí mật chung này (ở đây, là chìa khóa màu xanh), sau đó có thể được sử dụng cho các hoạt động khác. Thông thường, bí mật chung này có thể được sử dụng để mã hóa và giải mã giao tiếp qua một mạng lưới không an toàn:
 
@@ -2548,7 +2548,7 @@ Bí mật chung này (ở đây, là chìa khóa màu xanh), sau đó có thể 
 - Bằng cách trộn màu xanh lá của Bob với màu bí mật của mình, Alice tạo ra màu nâu;
 - Bob, làm tương tự với màu cam của Alice và màu xanh bí mật của mình, cũng thu được màu nâu.
 
-![BTC204](assets/vi/66/12.webp)
+![BTC204](assets/fr/66/12.webp)
 
 Trong ví dụ đơn giản hóa này, màu nâu đại diện cho bí mật chung giữa Alice và Bob. Điều quan trọng cần hiểu là, trong thực tế, kẻ tấn công không thể tách màu cam và màu xanh lá để khám phá màu bí mật của Alice hoặc Bob.
 
@@ -2704,7 +2704,7 @@ Như chúng ta đã thấy trong phần trước, ECDH là một biến thể c�
 ECDHE được sử dụng lần đầu tiên trong BIP47 để chuyển mã thanh toán từ người gửi đến người nhận. Đây là **giao dịch thông báo**. Bước này rất quan trọng vì để BIP47 hoạt động hiệu quả, cả hai bên tham gia (người gửi và người nhận) phải biết mã thanh toán của nhau. Điều này cho phép việc họ xuất ra các khóa công khai tạm thời và do đó, các địa chỉ nhận trống liên quan.
 Trước khi trao đổi, về mặt logic, người gửi đã biết mã thanh toán của người nhận vì họ đã thu thập nó ngoại tuyến, ví dụ, từ trang web của họ, một hóa đơn, hoặc trên mạng xã hội của họ. Tuy nhiên, người nhận có thể không nhất thiết biết mã thanh toán của người gửi. Tuy nhiên, mã này phải được truyền đến họ; nếu không, họ sẽ không thể suy ra các khóa tạm thời cần thiết để xác định các địa chỉ nơi bitcoin của họ được lưu trữ, cũng như truy cập vào tiền của họ. Mặc dù về mặt kỹ thuật, việc truyền mã của người gửi có thể được thực hiện ngoại tuyến thông qua các phương tiện giao tiếp khác, điều này gây ra vấn đề nếu ví cần được khôi phục chỉ từ hạt giống.
 Quả thực, khác với các địa chỉ thông thường, địa chỉ BIP47 không được tạo ra trực tiếp từ hạt giống của người nhận—sử dụng `xpub` sẽ đơn giản hơn trong trường hợp này—nhưng là kết quả của việc tính toán kết hợp cả hai mã thanh toán: của người gửi và của người nhận. Do đó, nếu người nhận mất ví và cố gắng khôi phục nó từ hạt giống của họ, họ sẽ khôi phục được mã thanh toán của mình, được tạo ra trực tiếp từ hạt giống của họ. Tuy nhiên, để tìm ra các địa chỉ tạm thời, họ cần phải có mã thanh toán của tất cả mọi người đã gửi bitcoin cho họ qua BIP47. Do đó, giao dịch thông báo trở nên quan trọng, cho phép lưu trữ thông tin này trên blockchain Bitcoin, đồng thời có thể tìm thấy nó một cách dễ dàng mà không cần phải tìm qua hàng tỷ giao dịch được thực hiện kể từ khi nó ra đời vào năm 2009.
-![BTC204](assets/vi/66/15.webp)
+![BTC204](assets/fr/66/15.webp)
 
 Vì vậy, sẽ có thể triển khai BIP47 mà không cần đến giao dịch thông báo, miễn là mỗi người dùng giữ một bản sao lưu của mã thanh toán của đối tác. Tuy nhiên, phương pháp này chứng minh là phức tạp để quản lý nếu một giải pháp đơn giản, mạnh mẽ và hiệu quả cho việc tạo ra, lưu trữ và cập nhật các bản sao lưu này không được phát triển. Do đó, trong tình hình hiện tại, giao dịch thông báo trở nên gần như không thể thiếu.
 
@@ -2731,7 +2731,7 @@ Hãy lấy một ví dụ cụ thể: Tôi muốn quyên góp cho một phong tr
 Làm thế nào để truyền mã của tôi mà không có rủi ro? Việc sử dụng các phương tiện liên lạc thông thường có thể dẫn đến rò rỉ thông tin, và do đó, có thể liên kết tôi với phong trào chính trị này. Giao dịch thông báo mang lại cho chúng ta một giải pháp nhờ vào lớp mã hóa mà được tạo ra để ngăn chặn sự liên kết này giữa hai mã. Mặc dù đây không phải là phương pháp duy nhất để truyền mã thanh toán của người gửi một cách bí mật, nhưng nó được chứng minh là rất hiệu quả.
 
 Trong sơ đồ dưới đây, các đường màu cam chỉ ra các điểm nơi dòng thông tin phải bị gián đoạn, và các mũi tên màu đen cho thấy các kết nối tiềm năng có thể bị quan sát bởi bên thứ ba:
-![BTC204](assets/vi/66/16.webp)
+![BTC204](assets/fr/66/16.webp)
 Trong thực tế, trong mô hình riêng tư truyền thống của Bitcoin, việc hoàn toàn tách biệt dòng thông tin giữa cặp khóa và người dùng, đặc biệt là trong các giao dịch từ xa là rất phức tạp. Ví dụ, trong bối cảnh của một chiến dịch quyên góp, người nhận bắt buộc phải tiết lộ một địa chỉ hoặc một khóa công khai qua trang web hoặc mạng xã hội của họ. Việc sử dụng đúng BIP47, đặc biệt là với giao dịch thông báo, cho phép vượt qua vấn đề này nhờ vào ECDHE và lớp mã hóa mà chúng ta sẽ nghiên cứu thêm.
 
 Tất nhiên, mô hình riêng tư cổ điển của Bitcoin vẫn áp dụng cho các khóa công khai dùng tạm, được tạo ra từ sự kết hợp của hai mã thanh toán. Hai mô hình thực sự bổ sung cho nhau. Điều tôi muốn nhấn mạnh ở đây là, trái ngược với việc sử dụng một khóa công khai theo cách thông thường để nhận bitcoin, mã thanh toán có thể được liên kết với một danh tính cụ thể, bởi vì thông tin "_Alice thực hiện giao dịch với Bob_" được phá vỡ ở một giai đoạn khác. Mã thanh toán được sử dụng để tạo địa chỉ thanh toán, nhưng chỉ dựa trên quan sát blockchain, là không thể liên kết một giao dịch thanh toán BIP47 với các mã thanh toán được sử dụng để thực hiện nó, trừ khi các UTXO liên quan đã được liên kết với một danh tính trước đó và người dùng đã liên kết các mã thanh toán của họ với danh tính tương ứng của họ.
@@ -2786,7 +2786,7 @@ Hãy tóm tắt lại các bước mà chúng ta vừa xem xét cùng nhau để
 - Cô ấy sử dụng điểm bí mật này để tính toán một HMAC, đó là hệ số làm mờ;
 - Cô ấy sử dụng hệ số làm mờ này để mã hóa payload của mã thanh toán cá nhân của mình;
 - Cô ấy sử dụng một đầu ra giao dịch `OP_RETURN` để truyền đạt mã thanh toán được che giấu cho Bob.
-![BTC204](assets/vi/66/17.webp)
+![BTC204](assets/fr/66/17.webp)
 
 ### Giao thông báo: Nghiên cứu cụ thể
 
@@ -2978,7 +2978,7 @@ $$ A = a \cdot G $$
 
 $$ S = a \cdot B = a \cdot (b \cdot G) = (b \cdot a) \cdot G = b \cdot A $$
 
-![BTC204](assets/vi/66/19.webp)
+![BTC204](assets/fr/66/19.webp)
 
 Giờ đây, khi Bob biết mã thanh toán của Alice, anh ta sẽ có thể phát hiện các khoản thanh toán BIP47 của cô ấy, và anh ta có thể suy ra các khóa riêng để mở khóa số bitcoin nhận được.
 
@@ -2989,7 +2989,7 @@ Hãy tóm tắt lại các bước mà chúng ta vừa trải qua để nhận v
 - Anh ta sử dụng điểm bí mật này để tính toán một HMAC là yếu tố làm mờ;
 - Anh ta sử dụng yếu tố làm mờ này để giải mã payload của mã thanh toán của Alice chứa trong OP_RETURN.
 
-![BTC204](assets/vi/66/20.webp)
+![BTC204](assets/fr/66/20.webp)
 
 ### Giao dịch thanh toán BIP47
 
@@ -3036,11 +3036,11 @@ Hãy cùng ôn lại các bước mà chúng ta vừa trải qua để thực hi
 - Cô ấy nhận được một khóa công khai tạm thời mới mà chỉ Bob có khóa riêng tư tương ứng;
 - Alice có thể thực hiện một giao dịch tiêu chuẩn với Bob thông qua địa chỉ nhận tạm thời được vừa được sinh ra từ khoá công khai trên.
 
-![BTC204](assets/vi/66/21.webp)
+![BTC204](assets/fr/66/21.webp)
 
 Nếu Alice muốn thực hiện một khoản thanh toán thứ hai, cô ấy sẽ tuân theo các bước như trước, ngoại trừ lần này cô ấy sẽ chọn khóa công khai con thứ hai từ mã thanh toán của Bob. Cụ thể, cô ấy sẽ sử dụng khóa chưa được sử dụng tiếp theo. Cô ấy do đó sẽ nhận được một địa chỉ nhận mới thuộc về Bob, được chỉ định là K1:
 
-![BTC204](assets/vi/66/22.webp)
+![BTC204](assets/fr/66/22.webp)
 
 Cô ấy có thể tiếp tục theo cách này và sinh ra tới `2^32` địa chỉ chưa được sử dụng thuộc về Bob.
 
@@ -3094,15 +3094,15 @@ Tôi sẽ tóm tắt các bước chúng ta vừa trải qua cùng nhau để nh
 - Anh ta nhận được một khóa công khai tạm thời mới, mà Alice sẽ gửi khoản thanh toán đầu tiên của cô ấy;
 - Bob tính toán khóa riêng tư tương ứng với khóa công khai tạm thời này bằng cách cộng khóa riêng tư con của mình được suy ra từ mã thanh toán và bí mật chung.
 
-![BTC204](assets/vi/66/24.webp)
+![BTC204](assets/fr/66/24.webp)
 
 Vì Alice không thể có được b (khóa riêng tư của Bob), cô ấy không thể xác định được k0 (khóa riêng tư tương ứng với địa chỉ nhận BIP47 của Bob). Chúng ta có thể biểu diễn sơ đồ hoá việc tính toán bí mật chung S như thế này:
 
-![BTC204](assets/vi/66/19.webp)
+![BTC204](assets/fr/66/19.webp)
 
 Một khi bí mật chung được tìm thấy với ECDH, Alice và Bob tính toán khóa công khai thanh toán BIP47 K0, và Bob cũng tính toán khóa riêng tư tương ứng k0:
 
-![BTC204](assets/vi/66/25.webp)
+![BTC204](assets/fr/66/25.webp)
 
 ### Hoàn tiền cho khoản toán BIP47
 
@@ -3112,7 +3112,7 @@ Chức năng hoàn tiền là đặc thù của BIP47 và là một trong nhữn
 
 Bob sau đó có thể hoàn tiền cho Alice theo cùng một cách mà cô ấy đã gửi cho anh ta các khoản thanh toán. Vai trò được đảo ngược:
 
-![BTC204](assets/vi/66/26.webp)
+![BTC204](assets/fr/66/26.webp)
 *Xin chân thành cảm ơn [Fanis Michalakis](https://x.com/FanisMichalakis) vì đã duyệt bài và đưa ra những lời khuyên chuyên môn quý báu về bài viết đã truyền cảm hứng cho việc viết chương này!*
 ## Thanh toán ẩn danh
 <chapterId>2871d594-414e-4598-a830-91c9eb84dfb8</chapterId>
@@ -3145,7 +3145,7 @@ Hãy cùng nhau khám phá cách thức hoạt động của Silent Payments v�
 
 Trước khi bắt đầu, điều quan trọng cần làm rõ là Silent Payments dựa hoàn toàn vào việc sử dụng các loại script P2TR (*Pay to Taproot*). Khác với BIP47, Silent Payments không cần phải tạo ra các địa chỉ nhận từ các khóa công khai con bằng cách băm chúng. Thực tế, trong tiêu chuẩn P2TR, khóa công khai đã được chỉnh sửa (tweaked public key) được sử dụng trực tiếp và công khai trong địa chỉ. Do đó, một địa chỉ nhận Taproot cơ bản là một khóa công khai kèm theo một số metadata. Khóa công khai này đã được chỉnh sửa là sự tổng hợp của hai khóa công khai khác: một cho phép chi tiêu trực tiếp và truyền thống thông qua một chữ ký đơn giản, và khóa khác đại diện cho gốc Merkle của MAST (Merkelized Alternative Script Tree), cho phép chi tiêu tuân theo sự thỏa mãn của một trong các điều kiện có thể được ghi trong cây Merkle.
 
-![BTC204](assets/vi/67/01.webp)
+![BTC204](assets/fr/67/01.webp)
 
 Quyết định giới hạn Silent Payments chỉ danh cho Taproot được thúc đẩy bởi hai lý do chính:
 - Đầu tiên, nó làm cho việc triển khai và cập nhật trong tương lai trong phần mềm ví dễ dàng hơn đáng kể, vì chỉ cần tuân theo một tiêu chuẩn;

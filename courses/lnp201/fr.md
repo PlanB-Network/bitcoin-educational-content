@@ -539,56 +539,122 @@ Dans ce chapitre, nous avons découvert le routage des paiements sur le Lightnin
 
 ![HTLC](https://youtu.be/-JC4mkq7H48)
 
-Dans un système de routage classique, comment s’assurer qu’Eden ne triche pas et respecte bien sa part du contrat ?
 
-HTLC est donc un contact de paiement où l’on peut déverrouiller uniquement avec un secret. S’il n’est pas dévoilé, alors le contrat expire. C’est donc un paiement conditionnel. Comment sont-ils utilisés ?
+Dans ce chapitre, nous allons découvrir comment Lightning permet de faire transiter des paiements par des nœuds intermédiaires sans avoir besoin de leur faire confiance, grâce aux **HTLC** (*Hashed Time-Locked Contracts*). Ces contrats intelligents permettent de garantir que chaque nœud intermédiaire ne recevra les fonds de son canal que s'il envoie le paiement vers le destinataire final, sans quoi le paiement ne sera pas validé.
 
-![instruction](assets/fr/32.webp)
+La problématique qui se pose pour le routage d'un paiement est donc la confiance envers les nœuds intermédiaires, et entre les noeuds intermédiaires eux-mêmes. Pour illustrer cela, reprenons notre exemple de réseau Lightning simplifié avec 3 nœuds et 2 canaux :
+- Alice dispose d'un canal avec Suzie.
+- Suzie dispose d'un canal avec Bob.
 
-Considérons la situation suivante
-`Alice (100 000 SAT) ==== (30 000 SAT) Susie (250 000 SAT) ==== (0 SAT) Bob`
+Alice souhaite envoyer 40 000 sats à Bob mais elle ne dispose pas d'un canal direct avec celui-ci et ne souhaite pas en ouvrir un. Elle recherche une route et choisi de passer par le nœud de Suzie.
 
-- Bob génère un secret S (la préimage) et en calcule le hash r= hash(s)
-- Bob envoie une invoice à Alice avec notamment « r »
-- Alice envoie un HTLC de 40 000 SAT à Susie avec pour condition de révéler « s’ » tel que hash(s’)=r
-- Susie envoie un HTLC similaire à Bob
-- Bob déverrouille le HTLC de Susie en lui montrant « s »
-- Susie déverrouille le HTCL d’Alice en lui montrant « S »
+46
 
-Si Bob est hors ligne et ne relève jamais le secret qui lui donne la légitimité de recevoir l’argent, dans ce cas le HTLC va expirer après un certain nombre de bloc.
+Si Alice envoie naïvement 40 000 Satoshi à Suzie en espérant que Suzie transfère cette somme à Bob, Suzie pourrait garder les fonds pour elle et ne rien transmettre à Bob.
 
-![instruction](assets/fr/33.webp)
+47
 
-Les HTLC expirent dans l’ordre du dernier au premier : donc expiration Susie – Bob puis Alice – Susie.
-Comme ça, si Bob revient, ça ne change rien. Dans le cas contraire, si Alice annule alors que Bob revient, ce sera le bordel et des gens peuvent avoir travaillé pour rien.
+Pour éviter cette situation, sur Lightning on utilise les HTLC, qui rendent le paiement au nœud intermédiaire conditionnel, c'est-à-dire que Suzie doit obligatoirement compléter certaines conditions pour accéder aux fonds d’Alice et les transmettre à Bob.
 
-Bon et alors, la question c’est : en cas de clôture, il se passe quoi ? En fait, nos transactions d’engagement sont encore plus complexes. Il faut représenter la balance intermédiaire si jamais le canal se fait fermer.
+### Fonctionnement des HTLC (*Hashed Time-Locked Contracts*)
 
-Il y a donc un HTLC-out de 40 000 satoshis (avec les limitations vues avant) dans la transaction d’engagement via un output n°3.
+Un HTLC est un contrat spécial qui repose sur deux principes :
+- **La condition d’accès** : Le destinataire doit révéler un secret pour déverrouiller le paiement qui lui est du.
+- **L'expiration** : Si le paiement n’est pas entièrement complété dans un délai défini, il est annulé et les fonds retournent à l’expéditeur.
 
-![instruction](assets/fr/34.webp)
+Voici comment ce processus fonctionne dans notre exemple avec Alice, Suzie et Bob :
 
-Alice a donc dans la transaction d’engagement :
+48
 
-- Output n°1 : 60 000 SAT pour Alice via un Timelock et clé de révocation (ce qui lui reste)
-- Output n°2 : 30 000 qui appartienne déjà à Susie
-- Output n°3 : 40 000 en HTLC
+**Création du secret** : Bob génère un secret aléatoire noté *s* (la préimage), et en calcule le hachage noté *r* avec la fonction de hachage notée *h*. On a donc :
 
-La transaction d’engagement d’Alice est avec un HTCL-out car elle envoie à la destinatrice, Susie, un HTLC-in.
+$$
+r = h(s)
+$$
 
-![instruction](assets/fr/35.webp)
+L'utilisation d'une fonction de hachage rend impossible de retrouver *s* uniquement avec *h(s)*, mais si *s* est fourni, il est facile de vérifier qu’il correspond à *h(s)*.
 
-Donc si l’on publie cette transaction d’engagement, Susie peut récupérer l’argent du HTCL avec l’image « s ». Si elle n’a pas la préimage, Alice récupère l’argent une fois que le HTCL expire. Pensez les sorties (UTXO) comme différents paiements avec différentes conditions.
-Une fois le paiement passé (expiration ou exécution), l’état du canal change et la transaction avec HTCL n’existe plus. On retourne avec quelque chose de classique.
-En cas de fermeture coopérative : on arrête les paiements et donc on attend l’exécution des transferts/HTCL, la transaction est légère donc moins chère car il y a maximum 1 ou 2 outputs. 
+49
 
-Si fermeture forcée : on publie avec tous les HTLC en cours, ça devient donc très lourd et très coûteux. Et c’est le bordel.
+**Envoi de la demande de paiement** : Bob envoie une **invoice** à Alice pour lui demander un paiement. Dans cette invoice, il y a notamment le hachage *r*.
 
-En résumé, le système de routage du Lightning Network utilise des Hash Time-Locked Contracts (HTLC) pour assurer un paiement sécurisé et vérifiable. Les HTLC permettent de réaliser des paiements conditionnels où l'argent ne peut être déverrouillé qu'avec un secret, garantissant ainsi que les participants respectent leurs engagements.
-Dans l'exemple présenté, Alice souhaite envoyer des SAT à Bob par l'intermédiaire de Susie. Bob génère un secret, crée un hash de celui-ci et le transmet à Alice. Alice et Susie mettent en place un HTLC basé sur ce hash. Une fois que Bob déverrouille le HTLC de Susie en lui montrant le secret, Susie peut alors déverrouiller le HTLC d'Alice.
-Dans le cas où Bob ne révèle pas le secret dans un certain laps de temps, le HTLC expire. L'expiration se produit dans l'ordre du dernier au premier, assurant que si Bob revient en ligne, il n'y a pas de conséquences indésirables.
+50
 
-Lors de la clôture du canal, si c'est une clôture coopérative, les paiements sont interrompus et les HTLCs sont résolus, ce qui est généralement moins coûteux. Si la clôture est forcée, toutes les transactions HTLC en cours sont publiées, ce qui peut devenir très coûteux et désordonné.En somme, le mécanisme des HTLC ajoute une couche de sécurité supplémentaire dans le Lightning Network, assurant que les paiements sont exécutés correctement et que les utilisateurs respectent leurs engagements.
+**Envoi du paiement conditionnel** : Alice envoie un HTLC de 40 000 Satoshi à Suzie. La condition pour que Suzie reçoive ces fonds est qu’elle fournisse à Alice un secret *s'* qui vérifie l'équation suivante :
+
+$$
+h(s') = r
+$$
+
+51
+
+**Transmission du HTLC vers le destinataire final** : Suzie, pour obtenir les 40 000 Satoshi d’Alice, doit transférer un HTLC similaire de 40 000 Satoshi à Bob, qui dispose de la même condition, à savoir qu'il doit fournir à Suzie un secret *s'* qui vérifie l'équation :
+
+$$
+h(s') = r
+$$
+
+52
+
+**Validation par le secret *s*** : Bob fournit *s* à Suzie pour recevoir les 40 000 Satoshi promis dans le HTLC. Avec ce secret, Suzie peut alors débloquer le HTLC d’Alice et obtenir les 40 000 Satoshi d’Alice. Le paiement est alors routé correctement jusqu'à Bob.
+
+53
+
+Ce processus rend Suzie incapable de conserver les fonds d’Alice sans compléter le transfert à Bob, car elle doit impérativement envoyer le paiement à Bob pour obtenir le secret *s* et donc débloquer le HTLC d'Alice. Le fonctionnement reste identique même si la route comprend plusieurs nœuds intermédiaires : il suffit de répéter les étapes de Suzie pour chaque nœud intermédiaire. Chaque nœud est protégé par les conditions des HTLC, car le déblocage du dernier HTLC par le destinataire déclenche automatiquement le déblocage de tous les autres HTLC en cascade.
+
+### Expiration et gestion des HTLC en cas de problème
+
+
+Si au cours du processus de paiement, un des nœuds intermédiaire ou bien le nœud destinataire ne répond plus, notamment en cas de coupure internet ou d'électricité, alors le paiement ne peux pas aboutir car le secret permettant de débloquer les HTLC n'est pas transmis. Si l'on reprend notre exemple avec Alice, Suzie et Bob, ce problème survient par exemple si Bob ne transmet pas le secret *s* à Suzie. Dans ce cas, tous les HTLC en amont du chemin sont bloqués, et les fonds qu'ils sécurisent également.
+
+54
+
+Pour éviter cela, les HTLC sur Lightning disposent d'une expiration qui permet de supprimer le HTLC si celui-ci n'est pas complété au bout d'un certain temps. L’expiration suit un ordre spécifique puisqu'on commence d'abord avec le HTLC le plus proche du destinataire, puis on remonte progressivement jusqu'à l'émetteur de la transaction. Dans notre exemple, si jamais Bob ne donne jamais le secret *s* à Suzie, cela ferait d’abord expirer le HTLC de Suzie vers Bob.
+
+55
+
+Puis le HTLC d’Alice vers Suzie.
+
+56
+
+Si l’ordre d’expiration était inversé, Alice pourrait récupérer son paiement avant que Suzie puisse se protéger d’une tricherie potentielle. En effet, si Bob revient réclamer son HTLC alors qu'Alice a déjà supprimé le sien, Suzie se retrouverait lésée. Cet ordre d’expiration en cascade des HTLC garantit donc qu’aucun nœud intermédiaire ne subit de pertes injustes.
+
+### Représentation des HTLC dans les transactions d’engagement
+
+Les transactions d’engagement représentent les HTLC de manière à ce que les conditions qu'ils imposent sur Lightning soient transférables sur Bitcoin en cas de fermeture forcée du canal durant la durée de vie d'un HTLC. Pour rappel, les transactions d'engagement représentent l'état actuel du canal entre les 2 utilisateurs et permettent de réaliser une fermeture forcée unilatérale en cas de problème. À chaque nouvel état du canal, 2 transactions d'engagements sont créées : une pour chaque partie. Reprenons notre exemple avec Alice, Suzie et Bob, mais regardons plus précisément ce qu'il se passe au niveau du canal entre Alice et Suzie au moment où le HTLC est créé.
+
+57
+
+Avant le début du paiement de 40 000 sats entre Alice et Bob, Alice possède 100 000 sats dans son canal avec Suzie, tandis que Suzie en détient 30 000. Leurs transactions d'engagement sont donc les suivantes :
+
+58
+
+Alice vient de recevoir l'invoice de Bob qui contient notamment *r*, le hachage du secret. Elle peut donc construire un HTLC de 40 000 Satoshi avec Suzie. Cet HTLC est représenté dans les dernières transactions d’engagement sous la forme d’un output appelé "***HTLC Out***" du côté d’Alice, puisque les fonds sont sortant, et "***HTLC In***" du côté de Suzie, puisque les fond son entrant. 
+
+59
+
+Ces outputs associés aux HTLC partagent exactement les mêmes conditions, à savoir :
+- Si Suzie est capable de fournir le secret *s*, elle peut déverrouiller cet output immédiatement et le transférer vers une adresse qu'elle contrôle.
+- Si Suzie ne possède pas le secret *s*, elle ne peut pas déverrouiller cet output, et Alice pourra le déverrouiller après un timelock pour l'envoyer vers une adresse qu'elle contrôle. Le timelock accorde ainsi à Suzie un délai pour réagir si elle obtient *s*.
+
+Ces conditions s'appliquent uniquement si le canal est fermé (qu'une transaction d'engagement est publiée on-chain) alors que le HTLC est encore actif sur Lightning, c'est-à-dire que le paiement entre Alice et Bob n'a pas encore été finalisé, et que les HTLC n'ont pas encore expiré. Grâce à ces conditions, Suzie peut récupérer les 40 000 Satoshi du HTLC qui lui sont dus en fournissant *s*. Sinon, Alice récupère les fonds après l'expiration du timelock, car si Suzie ne connaît pas *s*, cela signifie qu'elle n'a pas transmis les 40 000 Satoshi à Bob, et que les fonds d'Alice ne lui sont donc pas dus.
+
+Par ailleurs, si le canal est fermé alors que plusieurs HTLC sont en attente, il y aura autant d'output en plus que de HTLC en cours.
+
+Si le canal n'est pas fermé, alors après l'expiration ou la réussite du paiement Lightning, de nouvelles transactions d'engagement sont créées pour refléter le nouvel état du canal, désormais stable, c'est-à-dire sans HTLC en attente. Les outputs liés aux HTLC peuvent donc être supprimés des transactions d'engagement.
+
+60
+
+Enfin, en cas de fermeture coopérative du canal alors qu'un HTLC est actif, Alice et Suzie arrêtent d’accepter de nouveaux paiements et attendent la résolution ou l’expiration des HTLC en cours. Cela leur permet de publier une transaction de fermeture plus légère, sans les outputs liés aux HTLC, ce qui réduit ainsi les frais et évite l'attente d'un éventuel timelock.
+
+**Que devez-vous retenir de ce chapitre ?**
+
+Les HTLC permettent d’acheminer des paiements Lightning par plusieurs nœuds sans avoir à leur faire confiance. Voici les points clés à retenir :
+1. Les HTLC garantissent la sécurité des paiements via un secret (préimage) et un délai d’expiration.
+2. La résolution ou l'expiration des HTLC suit un ordre spécifique : puis la destination vers la source, afin de protéger chaque nœud.
+3. Tant qu'un HTLC n'est ni résolu ni expiré, il est maintenu comme output dans les transactions d'engagement les plus récentes.
+
+Dans le chapitre suivant, nous allons découvrir comment un nœud émetteur d'une transaction Lightning trouve et sélectionne des routes pour que son paiement atteigne le nœud destinataire.
 
 ## Trouver sa voie
 <chapterId>7e2ae959-c2a1-512e-b5d6-8fd962e819da</chapterId>

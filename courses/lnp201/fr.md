@@ -293,7 +293,7 @@ Pire encore, Alice pourrait publier la toute première transaction de retrait, c
 ### Solution : la clé de révocation et le timelock
 
 Pour éviter cette tricherie d'Alice, sur le Lightning Network, on ajoute des **mécanismes de sécurité** dans les transactions d’engagement :
-1. **Le timelock** : Chaque transaction d'engagement inclut un timelock pour les fonds d'Alice. Le timelock est une primitive de contrat intelligent qui permet de définir une condition temporelle à remplir pour qu'une transaction puisse être ajoutée à un bloc. Cela signifie qu'Alice ne pourra pas récupérer ses fonds avant un certain nombre de blocs si elle publie une des transactions d'engagements.
+1. **Le timelock** : Chaque transaction d'engagement inclut un timelock pour les fonds d'Alice. Le timelock est une primitive de contrat intelligent qui permet de définir une condition temporelle à remplir pour qu'une transaction puisse être ajoutée à un bloc. Cela signifie qu'Alice ne pourra pas récupérer ses fonds avant un certain nombre de blocs si elle publie une des transactions d'engagements. Ce timelock commence à s'appliquer dès la confirmation de la transaction d'engagement. Sa durée est généralement proportionnelle à la taille du canal, mais elle peut également être configurée manuellement.
 2. **La clé de révocation** : Les fonds d'Alice peuvent également être dépensés immédiatement par Bob s’il possède la **clé de révocation**. Cette clé est composée d'un secret détenu par Alice et d'un secret détenu par Bob. Notons que ce secret est différent pour chaque transaction d'engagement.
 
 Grâce à ces 2 mécanismes combinés, Bob a le temps de détecter la tentative de tricherie d'Alice, et de la punir en récupérant son output grâce à la clé de révocation, ce qui revient pour Bob à récupérer l'intégralité des fonds du canal. Notre nouvelle transaction d'engagement va donc dorénavant ressembler à cela :
@@ -306,7 +306,7 @@ Détaillons ensemble le fonctionnement de ce mécanisme.
 
 Lorsqu'Alice et Bob mettent à jour l'état du canal avec une nouvelle transaction Lightning, ils s'échangent en amont leurs **secrets** respectifs pour la transaction d'engagement précédente (celle qui va devenir obsolète et qui pourrait permettre à l'un des deux de tricher). Cela signifie que, dans le nouvel état du canal :
 - Alice et Bob ont une nouvelle transaction d'engagement représentant la répartition actuelle des fonds après la transaction Lightning.
-- Chacun dispose du secret de l'autre pour la transaction précédente, ce qui leur permet d'utiliser la clé de révocation uniquement si l'un d'eux tente de tricher en publiant une transaction avec un ancien état dans les mempools des nœuds Bitcoin. En effet, pour punir l'autre partie, il est nécessaire de détenir à la fois les deux secrets et la transaction d'engagement de l'autre, qui inclut l'input signé. Sans cette transaction, la clé de révocation seule est inutile. La seule façon d'obtenir cette transaction est de la récupérer dans les mempools (dans les transactions en attente de confirmation) pendant le timelock, ce qui prouve que l'autre partie tente de tricher, que ce soit volontairement ou non.
+- Chacun dispose du secret de l'autre pour la transaction précédente, ce qui leur permet d'utiliser la clé de révocation uniquement si l'un d'eux tente de tricher en publiant une transaction avec un ancien état dans les mempools des nœuds Bitcoin. En effet, pour punir l'autre partie, il est nécessaire de détenir à la fois les deux secrets et la transaction d'engagement de l'autre, qui inclut l'input signé. Sans cette transaction, la clé de révocation seule est inutile. La seule façon d'obtenir cette transaction est de la récupérer dans les mempools (dans les transactions en attente de confirmation) ou bien dans les transactions confirmées sur la blockchain pendant le timelock, ce qui prouve que l'autre partie tente de tricher, que ce soit volontairement ou non.
 
 Prenons un exemple pour bien comprendre ce processus :
 1. **État initial** : Alice possède **100 000 Satoshi**, Bob **30 000 Satoshi**.
@@ -341,39 +341,82 @@ Ce système de sécurité garantit que les participants respectent les règles d
 
 ![fermer un canal](https://youtu.be/FVmQvNpVW8Y)
 
-Nous nous intéressons à la fermeture de canal au travers d’une transaction Bitcoin, pouvant prendre différentes formes suivant les cas. Il existe 3 types de fermeture de canal :
+Dans ce chapitre, nous allons aborder la **fermeture d'un canal** sur le Lightning Network, qui se réalise au travers d’une transaction Bitcoin, tout comme l’ouverture d’un canal. Après avoir vu comment fonctionnent les transactions au sein d’un canal, il est maintenant temps de voir comment clôturer un canal et récupérer les fonds sur la blockchain Bitcoin.
 
-- Le bon : fermeture coopérative
-- La brute : fermeture forcée (non coopérative)
-- Le truand : fermeture par un tricheur
+### Rappel du cycle de vie d'un canal
 
-![instruction](assets/fr/19.webp)
-![instruction](assets/fr/20.webp)
+Le **cycle de vie d’un canal** commence par son **ouverture**, via une transaction Bitcoin, puis on effectue des transactions Lightning au sein de celui-ci, et enfin, lorsque les parties souhaitent récupérer leurs fonds, le canal est **fermé** grâce à une seconde transaction Bitcoin. Les transactions intermédiaires effectuées sur Lightning sont représentées par des **transactions d’engagement** non publiées.
 
-### Le bon
+29
 
-Les deux pairs se parlent et acceptent de fermer le canal. Ils arrêtent donc toutes les transactions et valident un état final du canal. Ils se mettent d’accord sur les frais de réseaux (la personne qui ouvre le canal paie les frais de fermeture). Ils créent désormais la transaction de fermeture. Il y a donc une transaction de fermeture, différente des transactions d’engagement car il n’y a pas de Timelock et de clé de révocation. La transaction est donc publiée et Alice et Bob touchent leurs soldes respectifs. Ce type de fermeture est rapide (car pas de Timelock) et peu coûteuse en général.
+### Les trois types de fermeture de canal
 
-![instruction](assets/fr/21.webp)
+Il existe trois manières principales de fermer ce canal, que l’on peut appeler **le bon, la brute et le truand** (inspiré par Andreas Antonopoulos dans *Mastering the Lightning Network*) :
 
-### La brute
+1. **Le bon** : la **fermeture coopérative**, où Alice et Bob se mettent d'accord pour fermer le canal.
+2. **La brute** : la **fermeture forcée**, où l’une des parties décide de fermer le canal de manière honnête, mais sans l'accord de l'autre.
+3. **Le truand** : la **fermeture avec tricherie**, où l'une des parties tente de voler des fonds en publiant une ancienne transaction d’engagement (n'importe laquelle, mais pas la dernière, qui reflète la répartition réelle et juste des fonds).
 
-Alice veut fermer le canal, elle communique mais Bob ne répond car il est hors ligne (coupure internet ou électricité). Alice va donc publier la transaction d’engagement la plus récente (la dernière). La transaction est donc publiée et le Timelock s’active. Alors, les frais ont été décidé lors de la création de cette transaction il y a X temps dans le passé ! La MemPool est le réseau ayant changés depuis, le protocole utilise par défaut des frais 5 fois supérieurs à ceux actuels lors de la création de la transaction. Création frais à 10 SAT donc la transaction a considéré 50 SAT. Au moment de publier de façon forcée, la transaction de clôture le réseau est à :
+Prenons un exemple :
+- Alice possède **100 000 Satoshi** et Bob **30 000 Satoshi**.
+- Cette répartition est reflétée dans **2 transactions d’engagements** (une par utilisateur) qui ne sont pas publiées, mais qui pourraient l’être en cas de fermeture du canal.
 
-- 1 SAT = surpayé par 50\*
-- 100 SAT = sous payé par 2\*
+30
 
-Ceci rend donc la fermeture forcée plus longue (Timelock) et surtout plus hasardeuse ne terme de frais et donc possible validation par les mineurs.
+### Le bon : la fermeture coopérative
 
-![instruction](assets/fr/22.webp)
+Dans une **fermeture coopérative**, Alice et Bob se mettent d’accord pour fermer le canal. Voici comment cela se passe :
+1. Alice envoie un message à Bob via le protocole de communication Lightning pour proposer la fermeture du canal.
+2. Bob accepte, et les deux parties stoppent toute nouvelle transaction dans le canal.
 
-### Le truand
+31
 
-Alice essaie de tricher en publiant une ancienne transaction d‘engagement. Mais Bob surveille la MemPool et guette s’il y a des transactions qui essaient d’en publier des anciennes. S’il en trouve, il utilise la clé de révocation pour punir Alice et prendre tous les SAT du canal.
+3. Alice et Bob négocient ensemble les frais de la **transaction de fermeture**. Ces frais sont généralement calculés en fonction du marché de frais de Bitcoin du moment de la fermeture. Il est important de noter que **c’est toujours la personne qui a ouvert le canal** (Alice dans notre exemple) qui paie les frais de fermeture.
+4. Ils construisent une nouvelle **transaction de fermeture**. Cette transaction ressemble à une transaction d’engagement, mais sans timelock ni mécanismes de révocation, puisque les deux parties coopèrent et qu’il n’y a aucun risque de tricherie. Cette transaction de fermeture coopérative est donc une transaction différentes des transactions d'engagement.
 
-![instruction](assets/fr/23.webp)
+Par exemple, si Alice possède **100 000 Satoshi** et Bob **30 000 Satoshi**, la transaction de fermeture enverra **100 000 Satoshi** à l’adresse d’Alice et **30 000 Satoshi** à l’adresse de Bob, sans contraintes de timelock. Une fois cette transaction signée par les deux parties, elle est publiée par Alice. Une fois la transaction confirmée sur la blockchain Bitcoin, le canal Lightning sera officiellement fermé.
 
-Pour conclure, la fermeture de canal dans le Lightning Network est une étape cruciale qui peut prendre diverses formes. Dans une fermeture coopérative, les deux parties communiquent et s'accordent sur un état final du canal. C'est l'option la plus rapide et la moins coûteuse. En revanche, une fermeture forcée survient lorsque l'une des parties est non responsive. C'est une situation plus coûteuse et plus longue en raison des frais de transaction imprévisibles et de l'activation du Timelock. Enfin, si un participant tente de tricher en publiant une ancienne transaction d'engagement, le truand, il peut être puni en perdant tous les SAT du canal. Il est donc crucial de comprendre ces mécanismes pour une utilisation efficace et équitable du Lightning Network.
+32
+
+La **fermeture coopérative** est la méthode de fermeture à privilégier, car elle est rapide (sans timelock) et les frais de transaction sont ajustés en fonction des conditions actuelles du marché Bitcoin. Cela évite de payer trop peu, ce qui risquerait de bloquer la transaction dans les mempools, ou de surpayer inutilement, ce qui entraine une perte financière inutile pour les participants.
+
+### La brute : la fermeture forcée
+
+Lorsque le nœud d'Alice envoi un message à celui de Bob pour lui demander une fermeture coopérative, si celui-ci ne répond pas (par exemple, en raison d'une coupure Internet ou d'un problème technique), Alice peut procéder à une **fermeture forcée** en publiant la **dernière transaction d'engagement** signée.
+
+Dans ce cas, Alice va simplement publier la dernière transaction d’engagement, qui reflète l'état du canal au moment où la dernière transaction Lightning a eu lieu avec la bonne répartition des fonds.
+
+33
+
+Cette transaction inclut un **timelock** pour les fonds d'Alice, ce qui rend la fermeture plus lente.
+
+34
+
+Aussi, les frais de la transaction d’engagement peuvent être inadaptés au moment de la fermeture, car ils ont été définis à l'époque où la transaction a été créée, parfois plusieurs mois auparavant. En général, les clients Lightning surévaluent les frais pour éviter les problèmes futurs, mais cela peut entraîner des frais excessifs ou bien à l'inverse trop faibles.
+
+En résumé, la **fermeture forcée** est une option de dernier recourt lorsque le pair ne répond plus. Elle est plus lente et moins économique qu'une fermeture coopérative. Elle est donc à éviter autant que possible.
+
+### Le truand : la tricherie
+
+Enfin, une fermeture avec **tricherie** survient lorsque l'une des parties tente de publier une ancienne transaction d’engagement, souvent où elle détenait plus de fonds qu’elle ne devrait. Par exemple, Alice pourrait publier une ancienne transaction où elle possédait **120 000 Satoshi**, alors qu’elle n’en possède plus que **100 000** en réalité.
+
+35
+
+Bob, pour éviter cette triche, surveille la blockchain Bitcoin et son mempool pour s’assurer qu’Alice ne publie pas une ancienne transaction. Si Bob détecte une tentative de tricherie, il peut utiliser la **clé de révocation** pour récupérer les fonds d’Alice et la punir en prenant l’intégralité des fonds du canal. Puisque Alice est bloquée par le timelock sur son output, Bob a le temps de le dépenser sans timelock de son côté pour récupérer toute la somme sur une adresse lui appartenant.
+
+36
+
+Évidemment, la tricherie peut potentiellement aboutir si Bob ne se manifeste pas dans le délai imposé par le timelock sur l'output d'Alice. Dans ce cas, l'output d'Alice est débloqué, ce qui lui permet de le consommer pour créer un nouvel output vers une adresse qu'elle contrôle.
+
+**Que devez-vous retenir de ce chapitre ?**
+
+Il y a trois façons de fermer un canal :
+1. **La fermeture coopérative** : rapide et moins coûteuse, où les deux parties s’entendent pour fermer le canal et publier une transaction de fermeture adaptée.
+2. **La fermeture forcée** : moins souhaitable, car elle repose sur la publication d'une transaction d’engagement, avec des frais potentiellement inadaptés et un timelock, ce qui ralentit la fermeture.
+3. **La tricherie** : si l'une des parties tente de voler des fonds en publiant une ancienne transaction, l'autre peut utiliser la clé de révocation pour punir cette tricherie.
+
+Dans les prochains chapitres, nous allons découvrir le Lightning Network sous un angle plus large, en étudiant notamment le fonctionnement de son réseau.
+
 
 # Un réseau de liquidité
 <partId>a873f1cb-751f-5f4a-9ed7-25092bfdef11</partId>

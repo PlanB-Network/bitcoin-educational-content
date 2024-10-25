@@ -426,83 +426,113 @@ Dans les prochains chapitres, nous allons découvrir le Lightning Network sous u
 
 ![lightning le réseau](https://youtu.be/RAZAa3v41DM)
 
-Dans ce septième chapitre, nous étudions le fonctionnement de Lightning en tant que réseau de canaux et comment des paiements sont acheminés de leur source vers leur destination.
 
-Le Lightning est un réseau de canaux de paiement. Ce sont donc des milliers de pairs avec leurs canaux de liquidité qui sont connectés entre eux, et ainsi s’auto-utilisent pour réaliser des transactions entre pairs non-connecté.
+Dans ce chapitre, nous allons explorer comment les paiements sur le Lightning Network peuvent atteindre un destinataire même si celui-ci n'est pas directement connecté par un canal de paiement. Lightning est, en effet, un **réseau de canaux de paiement**, ce qui permet d'envoyer des fonds vers un nœud distant en passant par des canaux d'autres participants. Nous allons découvrir comment les paiements sont routés sur le réseau, comment la liquidité se déplace entre les canaux, et comment les frais de transaction sont calculés.
 
-![cover](assets/fr/24.webp)
-![cover](assets/fr/25.webp)
+### Le réseau de canaux de paiements
 
-La liquidité des canaux ne peut pas se déplacer dans d’autres canaux de liquidité.
+Sur le Lightning Network, une transaction correspond à un transfert de fonds entre deux nœuds. Comme vu dans les chapitres précédents, il est nécessaire d'ouvrir un canal avec une personne pour effectuer des transactions Lightning. Ce canal permet de réaliser une quasi-infinité de transactions off-chain avant de le refermer pour récupérer le solde on-chain. Cependant, cette méthode présente l'inconvénient d'exiger un canal direct avec l'autre personne pour recevoir ou envoyer des fonds, ce qui implique une transaction d'ouverture et une transaction de fermeture pour chaque canal. Si je prévois de réaliser un grand nombre de paiements avec cette personne, l'ouverture et la fermeture d'un canal deviennent rentables. En revanche, si je ne dois effectuer que quelques transactions Lightning, ouvrir un canal direct n'est pas avantageux, car cela me coûterait 2 transactions on-chain pour un nombre limité de transactions off-chain. Ce cas peut se présenter, par exemple, lorsque l'on souhaite payer avec Lightning chez un commerçant sans prévoir d'y retourner.
 
-`Alice -> Eden – > Bob`. Les satoshis n’ont pas bougé d’`Alice -> Bob`, mais d’`Alice -> Eden` et d’`Eden -> Bob`.
+Pour résoudre cette problématique, le Lightning Network permet de router un paiement via plusieurs canaux et nœuds intermédiaires, ce qui permet ainsi d'effectuer une transaction sans canal direct avec l'autre personne.
 
-Chaque personne et canaux a donc de la liquidité différente. Afin de réaliser des paiements, il faut donc trouver une route dans le réseau avec assez de liquidité. S’il en manque, le paiement n’aboutira pas.
+Par exemple, imaginons que :
+- **Alice** (en orange) a un canal avec **Suzie** (en gris) avec **100 000 Satoshi** de son côté et **30 000 Satoshi** du côté de Suzie.
+- **Suzie** a un canal avec **Bob** dans lequel elle possède **250 000 Satoshi** et où Bob n'a aucun Satoshi.
 
-Soit le réseau suivant :
+37
 
-```
-État initial du réseau :
-Alice (130 SAT) ==== (0 SAT) Susie (90 SAT) ==== (200 SAT) Eden (150 SAT) ==== (100 SAT) Bob
-```
-![cover](assets/fr/26.webp)
+Si Alice souhaite envoyer des fonds à Bob sans ouvrir un canal direct avec celui-ci, elle devra passer par Suzie, et chaque canal devra ajuster la liquidité de chaque côté. **Les Satoshi envoyés restent bien dans leurs canaux respectifs** ; ils ne "traversent" pas réellement les canaux, mais le transfert se fait via un ajustement des liquidités internes à chaque canal.
 
-Si Alice soit faire un transfert de 40 SAT à Bob alors la liquidité sera redistribuée le long de la route entre les deux parties.
+Supposons qu’Alice veuille envoyer **50 000 Satoshi** à Bob :
+1. **Alice** envoie 50 000 Satoshi à **Suzie** dans leur canal commun.
+2. **Suzie** réplique ce transfert en envoyant 50 000 Satoshi à **Bob** dans leur canal.
 
-```
-Après le transfert de Alice à Bob de 40 SAT :
-Alice (90 SAT) ==== (40 SAT) Susie (50 SAT) ==== (240 SAT) Eden (110 SAT) ==== (140 SAT) Bob
-```
-![cover](assets/fr/27.webp)
+38
 
-Toutefois, dans l'état initial, Bob ne peut pas envoyer 40 SAT à Alice car Susie n’a pas de liquidité avec Alice pour lui envoyer 40 SAT, donc le paiement n’est pas possible via cette route. Il faut donc une autre route où la transaction est impossible.
+Ainsi, le paiement est acheminé à Bob via un déplacement de liquidité dans chaque canal. À la fin de l'opération, Alice se retrouve avec 50 000 sats. Elle a donc bien transféré 50 000 sats puisqu'au départ elle en avait 100 000. Bob, de son côté, se retrouve avec 50 000 sats supplémentaires. Pour Suzie (le nœud intermédiaire), cette opération est neutre : initialement, elle disposait de 30 000 sats dans son canal avec Alice et de 250 000 sats dans son canal avec Bob, soit un total de 280 000 sats. Après l'opération, elle détient 80 000 sats dans son canal avec Alice et 200 000 sats dans son canal avec Bob, c'est-à-dire la même somme qu'au départ.
 
-Dans le premier exemple, on remarque bien que Susie et Eden n’ont rien perdu et rien gagné. Pour accepter d’être utilisés pour router la transaction, les nœuds Lightning Network demandent des frais !
+Ce transfert est ainsi limité par la **liquidité disponible** dans le sens du transfert.
 
-Il y a des frais différents en fonction d’où se trouve la liquidité
+### Calcul de la route et des limites de liquidité
 
-Alice – Bob
+Prenons un exemple théorique d'un autre réseau avec :
+- **130 000 Satoshi** du côté d'Alice (en orange) dans son canal avec **Suzie** (en gris).
+- **90 000 Satoshi** du côté de **Suzie** et **200 000 Satoshi** du côté de **Carol** (en rose).
+- **150 000 Satoshi** du côté de **Carol** et **100 000 Satoshi** du côté de **Bob**.
 
-- Frais d’Alice = Alice -> Bob
-- Frais de Bob = Bob -> Alice
+39
 
-![cover](assets/fr/28.webp)
+Le maximum qu’Alice peut envoyer à Bob dans cette configuration est **90 000 Satoshi**, car elle est limitée par la plus petite liquidité disponible dans le canal de **Suzie vers Carol**. En sens inverse (de Bob vers Alice), aucun paiement n’est possible car le côté de **Suzie** dans le canal avec **Alice** ne contient aucun satoshi. Il n’y a donc **pas de route** utilisable pour un transfert dans ce sens.
 
+Alice envoie **40 000 Satoshi** à Bob en empruntant les canaux :
+1. Alice transfère 40 000 Satoshi dans son canal avec Suzie.
+2. Suzie transfère 40 000 Satoshi à Carol dans leur canal commun.
+3. Carol transfère finalement 40 000 Satoshi à Bob.
 
-Il y a deux types de frais :
+40
 
-- un frais fixe quel que soit le montant : 1 SAT (par défaut mais modifiable)
-- un frais variable (0.01% par défaut)
+Les **Satoshi envoyés** dans chaque canal **restent dans le canal**, donc les Satoshi envoyés par Carol à Bob ne sont pas les mêmes que ceux envoyés par Alice à Suzie. Le transfert se fait uniquement par ajustement des liquidités à l'intérieur de chaque canal. Par ailleurs, la capacité totale des canaux reste inchangée.
 
-Exemple de frais :
+41
 
-- Alice – Susie ; 1/1 (1 en frais fixe et 1 en frais variable)
-- Susie – Eden ; 0/200
-- Eden – Bob ; 1/1
+Comme dans l'exemple précédent, après la transaction, le nœud source (Alice) possède 40 000 Satoshi en moins. Les nœuds intermédiaires (Suzie et Carol) conservent le même montant total, ce qui rend l'opération neutre pour eux. Enfin, le nœud destinataire (Bob) reçoit 40 000 Satoshi supplémentaires.
 
-Donc :
+Le rôle des nœuds intermédiaire est donc très important dans le fonctionnement du réseau Lightning. Ils permettent de fluidifier les transferts en proposant plusieurs chemins pour les paiements. Pour inciter ces nœuds à fournir leur liquidité et participer au routage des paiements, des **frais de routage** leur sont versés.
 
-- Frais 1 : (payé par Alice a elle-même) 1 + (40 000/*0.000001)
-- Frais 2 : 0 + 40 000 /* 0.0002 = 8 SAT
-- Frais 3 : 1 + 40 000/* 0.000001 = 0.4 SAT
+### Les frais de routage
 
-![cover](assets/fr/29.webp)
+Les nœuds intermédiaires appliquent des frais pour permettre aux paiements de transiter par leurs canaux. Ces frais sont définis par **chaque nœud pour chaque canal**. Les frais comportent 2 éléments :
+1. "**Base fee**" : un montant fixe par canal, souvent **1 sat** par défaut, mais personnalisable.
+2. "**Fee variable**" : un pourcentage du montant transféré, calculé en **parts par million (ppm)**. Par défaut, il est de **1 ppm** (1 sat par million de Satoshi transférés), mais il peut également être ajusté.
 
-Envoi :
+Les frais sont également différents selon le sens du transfert. Par exemple, pour un transfert de Alice vers Suzie, ce sont les frais d’Alice qui s’appliquent. Inversement, de Suzie vers Alice, ce sont les frais de Suzie qui sont utilisés.
 
-1. Envoi de 40 009.04 Alice -> Susie ; Alice paye a elle-même ses frais donc cela ne compte pas
-2. Susie rend le service d’envoyer 40 001.04 à Eden, elle prend ça commission de 8 SAT
-3. Eden rend le service d’envoyer 40 000 à Bob, il prend son 1.04 SAT de frais.
+Par exemple pour un canal entre Alice et Suzie, on pourrait avoir :
+- **Alice** : frais de base de 1 sat et 1 ppm pour les frais variables.
+- **Suzie** : frais de base de 0.5 sat et 10 ppm pour les frais variables.
 
-Alice a payé 9.04 SAT de frais et Bob a reçu 40 000 SAT.
+42
 
-![cover](assets/fr/30.webp)
+Pour bien comprendre le fonctionnement des frais, étudions ensemble le même réseau Lightning que précédemment, mais dorénavant avec les frais de routage suivants :
+- Canal **Alice - Suzie** : base fee de 1 Satoshi et 1 ppm pour Alice.
+- Canal **Suzie - Carol** : base fee de 0 Satoshi et 200 ppm pour Suzie 1.
+- Canal **Carol - Bob** : base fee de 1 Satoshi et 1 ppm pour Suzie 2.
 
-Dans le LN, c’est donc le nœud d’Alice qui va décider de la route avant l’envoi. Il y a donc une recherche de la meilleure route et Alice est la seule qui connait la route et le prix. Le paiement est envoyé mais Susie n’a pas d’information.
+43
 
-![cover](assets/fr/31.webp)
+Pour le même paiement de **40 000 Satoshi** à Bob, Alice va devoir envoyer un petit peu plus, car chaque nœud intermédiaire va prélever ses frais :
+- **Carol** prélève 1,04 Satoshi sur le canal avec Bob :
+$$ f_{\text{Carol-Bob}} = \text{base fee} + \left(\frac{\text{ppm} \times \text{amount}}{10^6}\right) $$ 
+$$ f_{\text{Carol-Bob}} = 1 + \frac{1 \times 40000}{10^6} = 1 + 0.04 = 1.04 \text{ sats} $$
 
-Pour Susie ou Eden : ils ne savent pas qui est le destinataire final, ni celui qui envoie. Ceci est un routage en oignon. Le nœud doit donc garder un plan du réseau pour trouver sa route, mais aucun des intermédiaires n’a d’information.
+- **Suzie** prélève 8 Satoshi de frais sur le canal avec Carol :
+$$ f_{\text{Suzie-Carol}} = \text{base fee} + \left(\frac{\text{ppm} \times \text{amount}}{10^6}\right) $$ 
+$$ f_{\text{Suzie-Carol}} = 0 + \frac{200 \times 40001.04}{10^6} = 0 + 8.0002 \approx 8 \text{ sats} $$
+
+Le total des frais pour ce paiement sur ce chemin est donc de **9,04 Satoshi**. Ainsi, Alice doit envoyer **40 009,04 Satoshi** pour que Bob reçoive exactement **40 000 Satoshi**.
+
+44
+
+Les liquidités sont donc mises à jour :
+
+45
+
+### Le routage en oignon
+
+Pour acheminer un paiement de l’émetteur vers le destinataire, le Lightning Network utilise une méthode appelée "**routage en oignon**". Contrairement à l’acheminement de données classiques, où chaque routeur décide de la direction des données en fonction de leur destination, le routage en oignon fonctionne différemment :
+- **Le nœud émetteur calcule toute la route** : Alice, par exemple, détermine que son paiement doit passer par Suzie et Carol avant d’arriver à Bob.
+- **Chaque nœud intermédiaire ne connaît que son voisin immédiat** : Suzie sait seulement qu’elle a reçu des fonds d’Alice et qu’elle doit les transférer à Carol. Cependant, Suzie ignore si Alice est le nœud source ou un nœud intermédiaire, et elle ne sait pas non plus si Carol est le nœud destinataire ou simplement un autre nœud intermédiaire. Ce principe s'applique également à Carol et à tous les autres nœuds du chemin. Le routage en oignon préserve ainsi la confidentialité des transactions en masquant l’identité de l’émetteur et du destinataire final.
+
+Pour que le nœud émetteur puisse calculer une route complète jusqu'au destinataire en routage en oignon, il doit maintenir un **graphe du réseau** pour connaître sa topologie et déterminer les routes possibles.
+
+**Que devez-vous retenir de ce chapitre ?**
+
+1. Sur Lightning, les paiements peuvent être acheminés entre nœuds connectés indirectement par des canaux intermédiaires. Chacun de ces nœuds intermédiaires assure le relais de la liquidité.
+2. Les nœuds intermédiaires reçoivent une commission pour leur service, composée de frais fixes et variables.
+3. Le routage en oignon permet au nœud émetteur de calculer la route complète sans que les nœuds intermédiaires connaissent la source ou la destination finale.
+
+Dans ce chapitre, nous avons découvert le routage des paiements sur le Lightning Network. Mais une question se pose : qu'est-ce qui empêche les nœuds intermédiaires d'accepter un paiement entrant sans le transmettre à la destination suivante, dans le but d'intercepter la transaction ? C'est justement le rôle des HTLC, que nous allons étudier dans le chapitre suivant.
+
 
 ## HTLC – Hashed Time Locked Contract
 <chapterId>4369b85a-1365-55d8-99e1-509088210116</chapterId>

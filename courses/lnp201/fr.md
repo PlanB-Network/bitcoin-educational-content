@@ -661,72 +661,86 @@ Dans le chapitre suivant, nous allons découvrir comment un nœud émetteur d'un
 
 ![trouver sa voie](https://youtu.be/wnUGJjOxd9Q)
 
-La seule donnée publique est la capacité totale du canal (Alice + Bob) mais on ne sait pas où se trouve la liquidité.
-Pour avoir plus d’infos, notre nœud écoute le canal de communication du LN pour des annonces de nouveaux canaux et les mises à jour des frais des canaux. Votre nœud regarde aussi la blockchain pour la fermeture de canaux.
 
-Comme nous n’avons pas toutes les informations, on doit faire une recherche de graph/route avec les informations qu’on a (capacité maximum des canaux et non où est la liquidité).
+Dans les chapitres précédents, nous avons vu comment utiliser les canaux d’autres nœuds pour acheminer des paiements et atteindre un nœud sans être directement connecté avec celui-ci via un canal. Nous avons également abordé la manière de garantir la sécurité du transfert sans faire confiance aux nœuds intermédiaires. Dans ce chapitre, nous allons nous intéresser à la recherche de la meilleure route possible pour atteindre un nœud cible.
 
-Critères :
+### La problématique du routage dans Lightning
 
-- Probabilité de réussite
-- Frais
-- Délai d’expiration des HTLC
-- Nombre de nœuds intermédiaires
-- Aléatoire
+Nous l'avons vu, sur Lightning, c’est le nœud émetteur du paiement qui doit calculer la route complète jusqu’au destinataire, car on utilise un système de routage en oignon. Les nœuds intermédiaires ne connaissent ni le point d'origine ni la destination finale. Ils savent seulement d’où provient le paiement et à quel nœud ils doivent le transférer ensuite. Cela signifie que le nœud émetteur doit maintenir une topologie dynamique locale du réseau, avec les nœuds Lightning existants et les canaux entre chacun, en tenant compte des ouvertures, des fermetures et des mises à jour des états.
 
-![graph](assets/fr/36.webp)
+61
 
-Donc s’il y a 3 routes possibles :
+Même avec cette topologie du réseau Lightning, il y a une information essentielle pour le routage qui reste pourtant inaccessible pour le nœud émetteur, c'est la répartition exacte de la liquidité dans les canaux à un instant donné. En effet, chaque canal n’affiche que sa **capacité totale**, mais la répartition interne des fonds n'est connue que des deux nœuds participants. Cela pose des défis pour faire un routage efficace, car le succès du paiement dépend notamment du fait que son montant soit inférieur à la plus faible liquidité sur la route choisie. Cependant, les liquidités ne sont pas toutes visibles pour le nœud émetteur.
 
-- Alice > 1 > 2 > 5 > Bob
-- Alice > 1 > 2 > 4 > 5 > Bob
-- Alice 1 > 2 > 3 > Bob
+62
 
-On cherche donc la meilleure en théorie avec le moins de frais et le plus de chance de réussir : un maximum de liquidité et le moins de hop possible.
+### Mise à jour de la carte du réseau
 
-Si par exemple, 2-3 aillant que 130 000 SAT de capacité, envoyer 100 000 est très peu probable donc le choix n°3 a pu de chances de succès.
+Pour tenir leur carte du réseau à jour, les nœuds échangent régulièrement des messages grâce à un algorithme que l'on appelle le "***gossip***". C'est un algorithme distribué utilisé pour diffuser l'information de manière épidémique à tous les nœuds du réseau, ce qui permet d'échanger et de synchroniser l'état global des canaux en peu de cycles de communication. Chaque nœud propage des informations à un ou plusieurs voisins choisis aléatoirement ou non, ces derniers, à leur tour, propagent l'information à d'autres voisins et ainsi de suite jusqu'à arriver à un état synchronisé globalement.
 
-![graph](assets/fr/37.webp)
+Les 2 principaux messages échangés entre les nœuds Lightning sont les suivants :
+- "**Channel Announcements**" : messages signalant l’ouverture d’un nouveau canal.
+- "**Channel Updates**" : messages de mise à jour sur l'état d'un canal, notamment sur l’évolution des frais (mais pas sur la répartition des liquidités).
+  
+Les nœuds Lightning surveillent également la blockchain Bitcoin pour détecter les transactions de fermeture des canaux. Le canal fermé est alors retiré de la carte puisque l'on ne pourra plus l'utiliser pour router nos paiements.
 
-Désormais l’algorithme a fait ses 3 choix et va donc essayer le premier :
+### Le routage d’un paiement
 
-Choix 1 :
+Prenons un exemple d'un petit réseau Lightning avec 7 nœuds : Alice, Bob, 1, 2, 3, 4, et 5. Imaginons qu’Alice souhaite envoyer un paiement à Bob, mais doit passer par des nœuds intermédiaires.
 
-- Alice envoie un HTCL à 1 de 100 000 SAT ;
-- Le 1 fait un HTLC de 100 000 SAT pour le 2
-- Le 2 fait un HTLC de 100 000 SAT au 5 sauf que le 5 ne peut pas, donc l’annonce.
+63
 
-L’information est renvoyée donc Alice décide d’essayer la deuxième route :
+Voici la répartition réelle des fonds dans ces canaux :
+- **Canal entre Alice et 1** : 250 000 sats côté Alice, 80 000 côté 1 (capacité totale de 330 000 sats).
+- **Canal entre 1 et 2** : 300 000 sats côté 1, 200 000 côté 2 (capacité totale de 500 000 sats).
+- **Canal entre 2 et 3** : 50 000 sats côté 2, 60 000 côté 3 (capacité totale de 110 000 sats).
+- **Canal entre 2 et 5** : 90 000 sats côté 2, 160 000 côté 5 (capacité totale de 250 000 sats).
+- **Canal entre 2 et 4** : 180 000 sats côté 2, 110 000 côté 4 (capacité totale de 290 000 sats).
+- **Canal entre 4 et 5** : 200 000 sats côté 4, 10 000 côté 5 (capacité totale de 210 000 sats).
+- **Canal entre 3 et Bob** : 50 000 sats côté 3, 250 000 côté Bob (capacité totale de 300 000 sats).
+- **Canal entre 5 et Bob** : 260 000 sats côté 5, 100 000 côté Bob (capacité totale de 360 000 sats).
 
-- Alice envoie un HTLC de 100 000 à 1
-- 1 fait un HTLC de 100 000 à 2
-- 2 fait un HTLC de 100 000 vers 4
-- 4 fait un HTLC de 100 000 vers Bob. Bob a la liquidité donc c’est ok.
-- Bob utilise la préimage (hash) du HTLC et donc utilise le secret pour récupérer les 100 000 SAT
-- 5 a donc désormais le secret du HTLC pour récupérer le HTLC bloqué de 4
-- 4 a donc désormais le secret du HTLC pour récupérer le HTLC bloqué de 2
-- 2 a donc désormais le secret du HTLC pour récupérer le HTLC bloqué de 1
-- 1 a donc désormais le secret du HTLC pour récupérer le HTLC bloqué d’Alice
+64
 
-Alice n’a pas vu l’échec de la route 1, elle a juste attendu 1 seconde de plus. Un échec de paiement se déroule lorsqu’il n’y a pas de route possible. Pour faciliter la recherche de route, Bob peut fournir des infos à Alice pour aider dans son invoice :
+Pour effectuer un paiement de 100 000 sats d’Alice vers Bob, les options de routage sont limitées par la liquidité disponible dans chaque canal. La route optimale pour Alice, basée sur les répartitions de liquidités connues, pourrait être la séquence `Alice → 1 → 2 → 4 → 5 → Bob` :
 
-- Le montant
-- Son adresse
-- Le hash de la préimage pour qu’Alice puisse créer le HTLC
-- Des indications sur les canaux de Bob
+65
 
-Bob connait la liquidé des canaux 5 et 3 car il est directement connecté avec, il peut indiquer ça à Alice. Il prévient Alice que le nœud 3 est inutile, ça évite à Alice de potentiellement faire sa route.
-Un autre élément serait les canaux privés (donc non publiés au réseaux) que Bob peut avoir. Si Bob a un canal privé avec 1, il peut dire à Alice de l’utiliser et ça donnerait Alice > 1 > Bob
+Mais comme Alice ne connaît pas la répartition exacte des fonds dans chaque canal, elle doit estimer la route optimale de manière probabiliste, en tenant compte des critères suivants :
+- **Probabilité de succès** : un canal avec une capacité totale plus élevée est plus susceptible de contenir la liquidité suffisante. Par exemple, le canal entre le nœud 2 et le nœud 3 dispose d'une capacité totale de 110 000 sats, il est donc peu probable que l'on y trouve 100 000 sats ou plus du côté du nœud 2, même si cela reste possible.
+- **Frais de transaction** : dans le choix de la meilleure route, le nœud émetteur prend également en compte les frais appliqués par chaque nœud intermédiaire et cherche à minimiser le coût total du routage.
+- **Expiration des HTLC** : pour éviter des paiements bloqués, le délai d’expiration des HTLC est également un paramètre à prendre en compte.
+- **Nombre de nœuds intermédiaires** : enfin, de manière plus globale, le nœud émetteur va chercher à trouver une route avec le moins de nœuds possible afin de réduire le risque de défaillance et de limiter les frais de transaction Lightning.
 
-![graph](assets/fr/38.webp)
+En analysant ces critères, le nœud émetteur peut tester les routes les plus probables et tenter de les optimiser. Dans notre exemple, Alice pourrait établir le classement des meilleures routes comme suit :
+1. `Alice → 1 → 2 → 5 → Bob`, car c'est la route la plus courte avec la capacité la plus élevée.
+2. `Alice → 1 → 2 → 4 → 5 → Bob`, car cette route offre de bonnes capacités, bien qu'elle soit plus longue que la première.
+3. `Alice → 1 → 2 → 3 → Bob`, car cette route inclut le canal `2 → 3`, qui est très limité en capacité, mais reste potentiellement utilisable.
 
-En conclusion, le routage des transactions sur le Lightning Network est un processus complexe qui requiert la prise en compte de divers facteurs. Alors que la capacité totale des canaux est publique, la répartition précise de la liquidité n'est pas directement accessible. Cela oblige les nœuds à estimer les routes les plus probables de réussite, en tenant compte de critères tels que les frais, le délai d'expiration des HTLC, le nombre de nœuds intermédiaires et un facteur d'aléatoire.
-Lorsque plusieurs routes sont possibles, les nœuds cherchent à minimiser les frais et à maximiser les chances de réussite en choisissant des canaux avec une liquidité suffisante et un nombre minimum de sauts. Si une tentative de transaction échoue en raison d'une liquidité insuffisante, une autre route est essayée jusqu'à ce qu'une transaction réussisse.
+### L'exécution du paiement
 
-Par ailleurs, pour faciliter la recherche de route, le destinataire peut fournir des informations supplémentaires, comme l'adresse, le montant, le hash de la préimage, et des indications sur ses canaux. Cela peut aider à identifier les canaux avec une liquidité suffisante et éviter les tentatives de transactions inutiles.
-En fin de compte, le système de routage du Lightning Network est conçu pour optimiser la vitesse, la sécurité et l'efficacité des transactions, tout en préservant la confidentialité des utilisateurs.
+Alice décide de tester sa première route (`Alice → 1 → 2 → 5 → Bob`). Elle envoie donc un HTLC de 100 000 sats au nœud 1. Celui-ci vérifie qu’il a la liquidité suffisante avec le nœud 2, et continue la transmission. Le nœud 2 reçoit ensuite le HTLC du nœud 1, mais réalise qu'il ne dispose pas de suffisamment de liquidités dans son canal avec le nœud 5 pour router un paiement de 100 000 sats. Il renvoie alors un message d'erreur au nœud 1, qui le transmet à Alice. Cette route a échoué.
 
-# Outils du lightning Network
+66
+
+Alice tente alors de router son paiement en utilisant sa deuxième route (`Alice → 1 → 2 → 4 → 5 → Bob`). Elle envoie un HTLC de 100 000 sats au nœud 1, qui le transmet au nœud 2, puis au nœud 4, au nœud 5, et enfin à Bob. Cette fois-ci, les liquidités sont suffisantes, et la route est fonctionnelle. Chaque nœud débloque son HTLC en cascade en utilisant la préimage fournie par Bob (le secret *s*), ce qui permet de finaliser le paiement d'Alice vers Bob avec succès.
+
+67
+
+La recherche d'une route s'effectue ainsi : le nœud émetteur commence par identifier les meilleures routes possibles, puis tente les paiements successivement jusqu'à ce qu'une route fonctionnelle soit trouvée.
+
+Notons que Bob peut fournir à Alice des informations dans l’**invoice** pour faciliter le routage. Par exemple, il peut indiquer les canaux proches avec des liquidités suffisantes ou révéler l’existence de canaux privés. Ces indications permettent à Alice d’éviter des routes avec peu de chances de succès et de tenter d’abord les chemins recommandés par Bob.
+
+**Que devez-vous retenir de ce chapitre ?**
+
+1. Les nœuds maintiennent une carte de la topologie du réseau grâce aux annonces et en surveillant les fermetures de canaux sur la blockchain Bitcoin.
+2. La recherche d’une route optimale pour un paiement reste probabiliste et dépend de nombreux critères.
+3. Bob peut fournir des indications dans l’**invoice** pour guider le routage d’Alice et lui éviter de tester des routes peu probables.
+
+Dans le chapitre suivant, nous allons justement étudier plus précisément le fonctionnement des invoices, en plus de certains autres outils utilisés sur le Lightning Network.
+
+
+# Les outils du Lightning Network
 <partId>74d6c334-ec5d-55d9-8598-f05694703bf6</partId>
 ## Invoice, LNURL, Keysend
 <chapterId>e34c7ecd-2327-52e3-b61e-c837d9e5e8b0</chapterId>

@@ -742,58 +742,112 @@ Dans le chapitre suivant, nous allons justement étudier plus précisément le f
 
 # Les outils du Lightning Network
 <partId>74d6c334-ec5d-55d9-8598-f05694703bf6</partId>
-## Invoice, LNURL, Keysend
+## Invoice, LNURL et Keysend
 <chapterId>e34c7ecd-2327-52e3-b61e-c837d9e5e8b0</chapterId>
 
 ![invoice, LNURL, Keysend](https://youtu.be/CHnXJuZTarU)
 
-![cover](assets/fr/39.webp)
+Dans ce chapitre, nous allons étudier plus en détail le fonctionnement des **invoices** Lightning, c’est-à-dire des requêtes de paiement envoyées par le nœud destinataire au nœud émetteur. L’objectif est de comprendre comment payer et recevoir des paiements sur Lightning. Nous allons parler également de 2 alternatives aux invoices classiques : LNURL et Keysend.
 
-Une facture LN (ou invoice) c’est long et pas agréable à lire, mais cela permet de représenter de manière dense une demande de paiement.
+68
 
-Exemple :
-lnbc1m1pskuawzpp5qeuuva2txazy5g483tuv9pznn9ft8l5e49s5dndj2pqq0ptyn8msdqqcqzpgxqrrsssp5v4s00u579atm0em6eqm9nr7d0vr64z5j2sm5s33x3r9m4lgfdueq9qyyssqxkjzzgx5ef7ez3dks0laxayx4grrw7j22ppgzyhpydtv6hmc39skf9hjxn5yd3kvv7zpjdxd2s7crcnemh2fz26mnr6zu83w0a2fwxcqnvujl3
+### La structure des Invoices Lightning
 
-- lnbc1m = partie lisible
-- 1 = séparation avec le reste
-- Puis le reste
-- Bc1 = Encodage Bech32 (base 32), on utilise donc 32 caractères.
-- 10 = 1.2.3.4.5.6.7.8.9.0
-- 26 = abcdefghijklmnopqrstuvwxyz
-- 32 = pas le « b- i- o » et pas le « 1 »
+Comme expliqué dans le chapitre sur les HTLC, chaque paiement commence par la génération d'une **invoice** par le destinataire. Cette invoice est ensuite transmise au payeur (via un QR code ou par copier-coller) pour lancer le paiement. Une invoice se compose de deux parties principales :
+1. **La partie lisible par l'Homme** (*Human Readable Part*) : cette section contient des métadonnées clairement visibles pour améliorer l'expérience utilisateur.
+2. **La charge utile** : cette section inclut les informations destinées aux machines pour le traitement du paiement.
 
-### lnbc1m
+La structure typique d'une invoice commence par un identifiant `ln` pour "Lightning", suivi de `bc` pour Bitcoin, puis du montant de l'invoice. Un séparateur `1` distingue la partie lisible par l'humain de la partie data (payload).
 
-- ln = Lightning
-- Bc = bitcoin (mainnet)
-- 1 = montant
-- M = milli (10*-3 / u = micro 10*-6 / n = nano 10*-9 / p = pico 10*-12
+Prenons en exemple l'invoice suivante : 
 
-Ici 1m = 1 /* 0.0001btc = 100 000 BTC
+```invoice
+lnbc100u1p0x7x7dpp5l7r9y50wrzz0lwnsqgxdks50lxtwkl0mhd9lslr4rcgdtt2n6lssp5l3pkhdx0cmc9gfsqvw5xjhph84my2frzjqxqyz5vq9qsp5k4mkzv5jd8u5n89d2yc50x7ptkl0zprx0dfjh3km7g0x98g70hsqq7sqqqgqqyqqqqlgqqvnv2k5ehwnylq3rhpd9g2y0sq9ujyxsqqypjqqyqqqqqqqqqqqsqqqqq9qsq3vql5f6e45xztgj7y6xw6ghrcz3vmh8msrz8myvhsarxg42ce9yyn53lgnryx0m6qqld8fql
+```
 
-« Prié de payer 100 000 SAT sur le réseau Lightning du mainnet bitcoin à pskuawzpp5qeuuva2txazy5g483tuv9pznn9ft8l5e49s5dndj2pqq0ptyn8msdqqcqzpgxqrrsssp5v4s00u579atm0em6eqm9nr7d0vr64z5j2sm5s33x3r9m4lgfdueq9qyyssqxkjzzgx5ef7ez3dks0laxayx4grrw7j22ppgzyhpydtv6hmc39skf9hjxn5yd3kvv7zpjdxd2s7crcnemh2fz26mnr6zu83w0a2fwxcqnvujl3 »
+On peut déjà la séparer en 2 parties. Tout d'abord, il y a la partie lisible par l'Homme :
 
-### Timestamp (quand il a été créé)
+```invoice
+lnbc100u
+```
 
-Il contient 0 ou plusieurs parties supplémentaires :
+Puis la partie destinée à la charge utile :
 
-- Hash de la préimage
-- Secret de paiement (routage en oignon)
-- Données arbitraires
-- Clé publique LN du destinataire
-- Durée d’expiration (par défaut 1h)
-- Indications de routage
-- Signature de l’ensemble
+```invoice
+p0x7x7dpp5l7r9y50wrzz0lwnsqgxdks50lxtwkl0mhd9lslr4rcgdtt2n6lssp5l3pkhdx0cmc9gfsqvw5xjhph84my2frzjqxqyz5vq9qsp5k4mkzv5jd8u5n89d2yc50x7ptkl0zprx0dfjh3km7g0x98g70hsqq7sqqqgqqyqqqqlgqqvnv2k5ehwnylq3rhpd9g2y0sq9ujyxsqqypjqqyqqqqqqqqqqqsqqqqq9qsq3vql5f6e45xztgj7y6xw6ghrcz3vmh8msrz8myvhsarxg42ce9yyn53lgnryx0m6qqld8fql
+```
 
-Il existe d’autres types d’invoice. Le meta-protocole LNURL permet de fournir un montant de satoshis direct au lieu de faire une demande. C’est très flexible et permet beaucoup d’améliorations en termes d’expérience utilisateur.
+Les deux parties sont séparées par un `1`. Ce séparateur a été choisi plutôt qu'un caractère spécial pour permettre de copier-coller facilement l'invoice entière en effectuant un double-clic.
 
-![cover](assets/fr/40.webp)
+Dans la première partie, on peut voir que :
+- `ln` indique que c’est une transaction Lightning.
+- `bc` indique que le réseau Lighnting est sur la blockchain Bitcoin (et pas sur le testnet ou bien sur Litecoin).
+- `100u` indique le montant de l’invoice, exprimé en **microsatoshis** (`u` signifie "micro"), ce qui équivaut ici à 10 000 sats.
 
-Un Keysend permet à Alice d’envoyer de l’argent à Bob sans avoir la demande de Bob. Alice récupère l’ID de Bob, crée une préimage sans demander à Bob et l’inclus dans son envoi. Donc, Bob va recevoir une demande surprise où il peut débloquer l’argent car Alice a déjà effectué le travail.
+Pour désigner le montant du paiement, on l'exprime en sous-unités de bitcoin. Voici les unités utilisées :
 
-![cover](assets/fr/41.webp)
+- **Millibitcoin (noté `m`) :** Représente un millième de bitcoin.
+$$
+1 \, \text{mBTC} = 10^{-3} \, \text{BTC} = 10^5 \, \text{satoshis}
+$$
 
-En conclusion, une facture Lightning Network, bien que complexe à première vue, encode de manière efficace une demande de paiement. Chaque section de l'invoice renferme des informations clés, incluant le montant à payer, le destinataire, le timestamp de création, et potentiellement d'autres informations comme le hash de la préimage, le secret de paiement, les indications de routage, et la durée d'expiration. Les protocoles tels que LNURL et Keysend offrent des améliorations significatives en termes de flexibilité et d'expérience utilisateur, permettant par exemple d'envoyer des fonds sans demande préalable de l'autre partie. Ces technologies rendent le processus de paiement plus fluide et plus efficace sur le Lightning Network.
+- **Microbitcoin (noté `u`) :** Aussi parfois appelé "bit", représente un millionième de bitcoin.
+$$
+1 \, \mu\text{BTC} = 10^{-6} \, \text{BTC} = 100 \, \text{satoshis}
+$$
+
+- **Nanobitcoin (noté `n`) :** Représente un milliardième de bitcoin.
+$$
+1 \, \text{nBTC} = 10^{-9} \, \text{BTC} = 0.1 \, \text{satoshis}
+$$
+
+- **Picobitcoin (noté `p`) :** Représente un billionième de bitcoin.
+$$
+1 \, \text{pBTC} = 10^{-12} \, \text{BTC} = 0.0001 \, \text{satoshis}
+$$
+
+### Le payload d'une Invoice
+
+La charge utile d'une invoice inclut plusieurs informations permettant de traiter le paiement :
+- **Le timestamp** : Le moment de la création de l’invoice, exprimé en Timestamp Unix (le nombre de secondes écoulées depuis le 1er janvier 1970).
+- **Le hachage du secret** : Comme nous l'avons vu dans la partie sur les HTLC, le nœud destinataire doit donner au nœud émetteur le hachage de la préimage. Celui-ci sera utilisé dans les HTLC pour sécuriser la transaction. Nous l'avions nommé "*r*".
+- **Le secret de paiement** : Un autre secret est généré par le destinataire, mais cette fois-ci transmis au nœud émetteur. Il est utilisé dans le routage en oignon pour empêcher les nœuds intermédiaires de deviner si le nœud suivant est le destinataire final ou non. Cela permet donc de maintenir une forme de confidentialité pour le destinataire vis-à-vis du dernier nœud intermédiaires sur la route.
+- **La clé publique du destinataire** : Indique au payeur l'identifiant de la personne à payer.
+- **La durée d’expiration** : Temps maximal pour que l’invoice soit payée (1 heure par défaut).
+- **Les indications de routage** : Informations supplémentaires fournies par le destinataire pour aider l'émetteur à optimiser la route de paiement.
+- **La signature** : Garantit l’intégrité de l’invoice en authentifiant toutes les informations.
+
+Les invoices sont ensuite encodées en **bech32**, le même format que pour les adresses Bitcoin SegWit (format commençant par `bc1`).
+
+### Retrait LNURL
+
+Dans une transaction classique, comme un achat en magasin par exemple, l'invoice est générée pour le montant total à payer. Une fois l’invoice présentée (sous forme de QR code ou chaîne de caractères), le client peut la scanner et finaliser la transaction. Le paiement suit alors le processus classique que nous avons étudié dans la section précédente. Toutefois, ce processus peut parfois être très embêtant pour l'expérience utilisateur, car il nécessecite que le receveur envoi des informations à l'émetteur via l'invoice.
+
+Pour certaines situations, comme par exemple le retrait de bitcoins d’un service en ligne, le processus traditionnel est trop contraignant. On peut alors utiliser la solution de retrait **LNURL** qui simplifie ce processus en affichant un QR code que le wallet du destinataire scanne pour créer automatiquement l’invoice. Le service paie ensuite l’invoice, et l’utilisateur voit simplement un retrait instantané.
+
+69
+
+LNURL est un protocole de communication qui spécifie un ensemble de fonctionnalités conçues pour simplifier les interactions entre les nœuds et les clients Lightning, ainsi que les applications tierces. Le retrait LNURL, que nous venons de voir, n'est donc qu'un exemple parmi d'autres fonctionnalités.
+
+Ce protocole repose sur HTTP et permet de créer des liens pour diverses opérations, comme une demande de paiement, une demande de retrait, ou d'autres fonctionnalités qui permettent d'améliorer l'expérience utilisateur. Chaque LNURL est une URL encodée en bech32 avec le préfixe lnurl, qui, une fois scannée, déclenche une série d’actions automatiques sur le portefeuille Lightning.
+
+Par exemple, la fonctionnalité LNURL-withdraw (LUD-03) permet de retirer des fonds depuis un service en scannant un QR code, sans avoir besoin de générer manuellement une invoice. Ou encore, LNURL-auth (LUD-04) permet de se connecter à des services en ligne en utilisant une clé privée sur son portefeuille Lightning à la place du mot de passe.
+
+### Envoi d'un paiement Lightning sans Invoice : Keysend
+
+Un autre cas intéressant est le transfert de fonds sans avoir reçu d'invoice au préalable, connu sous le nom de "**Keysend**". Ce protocole permet d’envoyer des fonds en ajoutant une préimage dans les données chiffrées du paiement, accessible uniquement par le destinataire. Cette préimage permet au destinataire de débloquer le HTLC, et donc de récupérer les fonds sans avoir généré d’invoice au préalable. 
+
+Pour simplifier, dans ce protocole, c'est donc l'émetteur qui génère le secret utilisé dans les HTLC, plutôt que le destinataire. Concrètement, cela permet à l'émetteur d'envoyer un paiement sans avoir eu à interagir au préalable avec le destinataire.
+
+70
+
+**Que devez-vous retenir de ce chapitre ?**
+
+1. Une **Invoice** Lightning est une demande de paiement constituée d'une partie lisible pour l’humain et d'une partie data pour les machines.
+2. L’invoice est encodée en **bech32**, avec un séparateur `1` pour faciliter la copie et une partie data contenant toutes les informations nécessaires pour traiter le paiement.
+3. D'autres processus de paiement existent sur Lightning, notamment **LNURL-Withdraw** pour faciliter les retraits, et **Keysend** pour les transferts directs sans invoice.
+
+Dans le chapitre suivant, nous allons voir comment un opérateur de nœud peut gérer la liquidité dans ses canaux, afin de ne jamais être bloqué et de toujours pouvoir envoyer et recevoir des paiements sur le Lightning Network.
 
 ## Gérer sa liquidité
 <chapterId>cc76d0c4-d958-57f5-84bf-177e21393f48</chapterId>

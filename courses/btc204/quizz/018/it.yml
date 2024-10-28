@@ -5,5 +5,5 @@ wrong_answers:
   - Euristiche di transazione interna.
   - Euristiche di transazione esterna.
 explanation: |
-  Le euristiche utilizzate nell'analisi delle catene possono essere raggruppate in tre categorie; modelli di transazione (o modelli di transazione), euristiche di transazione interna ed euristiche di transazione esterna.
+  Le euristiche utilizzate nell'analisi delle catene possono essere raggruppate in tre categorie: modelli di transazione, euristiche di transazione interna ed euristiche di transazione esterna.
 reviewed: false

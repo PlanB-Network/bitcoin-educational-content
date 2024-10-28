@@ -8,6 +8,6 @@ wrong_answers:
   - Un comando che elimina una transazione dalla blockchain di Bitcoin.
 
 explanation: |
-  L'OP_RETURN è un opcode che segnala uno script non valido, rendendo l'output che contiene provabilmente non spendibile. Di conseguenza, i nodi della rete possono rimuovere questo output dal loro insieme UTXO. L'OP_RETURN è spesso utilizzato per registrare dati arbitrari nella blockchain.
+  L'OP_RETURN è un opcode che segnala uno script non valido, rendendo l'output che contiene probabilmente non spendibile. Di conseguenza, i nodi della rete possono rimuovere questo output dal loro insieme di UTXO. L'OP_RETURN è spesso utilizzato per registrare dati arbitrari nella blockchain.
 
 reviewed: false

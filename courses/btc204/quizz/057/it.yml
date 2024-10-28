@@ -3,7 +3,7 @@ question: Qual è la principale minaccia associata al riutilizzo degli indirizzi
 answer: Permette di stabilire collegamenti deterministici tra diverse transazioni e una proprietà comune degli UTXO interessati.
 
 wrong_answers:
-  - Espone l'indirizzo IP dell'utente ad altri partecipanti alla rete durante la validazione della transazione.
+  - Espone l'indirizzo IP dell'utente ad altri partecipanti della rete durante la validazione della transazione.
   - Riduce l'efficacia dei meccanismi di firma digitale, indebolendo la sicurezza delle transazioni.
   - Porta a un aumento delle commissioni sulle transazioni a causa della congestione causata dal riutilizzo degli indirizzi.
 

@@ -8,4 +8,4 @@ wrong_answers:
   - Sono meno anonimi.
 
 explanation: |
-  In cambio della rinuncia alla transazione di notifica, il ricevente deve esaminare tutte le transazioni Bitcoin che rispettano lo standard nel tentativo di trovare pagamenti indirizzati a loro.
+  In cambio della rinuncia alla transazione di notifica, il ricevente deve esaminare tutte le transazioni Bitcoin che rispettano lo standard nel tentativo di trovare pagamenti indirizzati a lui.

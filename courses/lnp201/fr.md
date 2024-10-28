@@ -912,77 +912,77 @@ Ce service permet donc d'avoir de la liquidité entrante, tout en récupérant s
 - Pour recevoir des paiements, il faut avoir de la liquidité du côté opposé dans ses canaux. Augmenter cette capacité de réception est plus complexe, car cela nécessite que d'autres ouvrent des canaux vers vous, ou d'effectuer des paiements (fictifs ou non) pour déplacer la liquidité de l'autre côté.
 - Maintenir la liquidité là où on le souhaite peut s'avérer encore plus difficile selon l'utilisation des canaux. C'est pourquoi des outils et services existent pour aider à équilibrer les canaux comme souhaité.
 
-
-
-
+Dans le chapitre suivant, je vous propose de revoir les concepts les plus importants de cette formation.
 
 # Allez plus loin
 <partId>6bbf107d-a224-5916-9f0c-2b4d30dd0b17</partId>
 
-## Résumé de la formation
+## Conclusion de la formation
 <chapterId>a65a571c-561b-5e1c-87bf-494644653c22</chapterId>
 
 ![conclusion](https://youtu.be/MaWpD0rbkVo)
 
-Notre objectif était d'expliquer comment le réseau Lightning fonctionne et comment il s'appuie sur Bitcoin pour fonctionner.
+Dans ce dernier chapitre qui marque la fin de la formation LNP201, je vous propose de revenir sur les concepts importants que nous avons vus ensemble.
 
-Le réseau Lightning est un réseau de canaux de paiement. Nous avons vu comment un canal de paiement fonctionne entre deux parties prenantes, mais nous avons également élargi notre vision à l'ensemble du réseau, à la notion de réseau de canaux de paiement.
+Le but de cette formation était de vous fournir une compréhension globale et technique du Lightning Network. Nous avons découvert comment le Lightning Network s'appuie sur la blockchain Bitcoin pour réaliser des transaction off-chain, tout en conservant les caractéristiques fondamentales de Bitcoin, notamment l'absence de besoin de confiance envers les autres nœuds.
 
-![instruction](assets/fr/48.webp)
+### Les canaux de paiement
 
-Les canaux sont ouverts via une transaction Bitcoin et peuvent accueillir autant de transactions que possible. L'état du canal est représenté par une transaction d'engagement qui envoie à chacune des parties prenantes ce qu'elle possède de son côté du canal. Lorsqu'une transaction a lieu au sein du canal, les parties prenantes s'engagent sur le nouvel état en révoquant l'ancien état et en construisant une nouvelle transaction d'engagement.
+Dans les premiers chapitres, nous avons vu comment deux parties, en ouvrant un canal de paiement, peuvent réaliser des transactions en dehors de la blockchain Bitcoin. Voici les étapes abordées :
+1. **Ouverture du canal** : La création du canal se fait via une transaction Bitcoin qui verouille les fonds sur une adresse multisignature 2/2. Ce dépôt est la représentation du canal Lightning sur la blockchain.
 
-![instruction](assets/fr/49.webp)
+76
 
+2. **Transactions dans le canal** : Dans ce canal, il est ensuite possible de réaliser de nombreuses transactions sans avoir à les publier sur la blockchain. Chaque transaction Lightning crée un nouvel état du canal reflété dans une transaction d’engagement.
 
-Les paires se protègent de la tricherie avec des clés de révocation et un time lock. La fermeture mutuelle consentie est préférée pour fermer le canal. En cas de fermeture forcée, on publie la dernière transaction d'engagement.
+77
 
-![instruction](assets/fr/50.webp)
+3. **Sécurisation et fermeture** : Les participants s'engagent sur le nouvel état du canal en échangeant des clés de révocation pour sécuriser les fonds et prévenir toute tricherie. Les deux parties peuvent fermer le canal en coopération en effectuant une nouvelle transaction sur la blockchain Bitcoin, ou en dernier recours par une fermeture forcée. Cette dernière option, bien que moins efficace car plus longue et parfois mal évaluée en termes de frais, permet tout de même de récupérer ses fonds. En cas de tricherie, la victime peut punir le tricheur en récupérant l'intégralité des fonds du canal sur la blockchain.
 
+78
 
-Les paiements peuvent emprunter les canaux d'autres nœuds intermédiaires. Les paiements conditionnels sur l'acné (HTLC) permettent de bloquer les fonds en attendant la résolution complète du paiement. Le routage en oignon est utilisé dans Lightning Network. Les nœuds intermédiaires ne connaissent pas la destination finale des paiements. Alice doit calculer la route du paiement, mais n'a pas toutes les informations sur la liquidité dans les canaux intermédiaires.
+### Le réseau de canaux
 
-![instruction](assets/fr/51.webp)
+Après avoir étudié les canaux isolés, nous avons étendu notre analyse au réseau de canaux :
+- **Le routage** : Lorsque deux parties ne sont pas directement connectées par un canal, le réseau permet de passer par des nœuds intermédiaires. Les paiements transitent alors d’un nœud à un autre.
 
+79
 
-Il y a une composante de probabilité lorsqu'on envoie un paiement via Lightning Network.
+- **Les HTLC** : Les paiements transitant par des nœuds intermédiaires sont sécurisés par des "*Hash Time-Locked Contracts*" (HTLC), qui permettent de bloquer les fonds jusqu'à ce que le paiement soit complété de bout en bout.
 
-![instruction](assets/fr/52.webp)
+80
 
+- **Le routage en oignon** : Pour garantir la confidentialité du paiement, le routage en oignon masque la destination finale aux nœuds intermédiaires. Le nœud émetteur doit donc calculer toute la route, mais en l'absence d’informations complètes sur la liquidité des canaux, il procède par essais successifs pour acheminer le paiement.
 
-Pour recevoir des paiements, il faut gérer la liquidité dans les canaux, ce qui peut se faire en demandant à d'autres personnes d'ouvrir des canaux vers nous, en ouvrant soi-même des canaux et en utilisant des outils comme Loop ou en achetant/louant des canaux sur des marketplaces.
+81
 
+### La gestion de la liquidité
 
-## Interview de Fanis
-<chapterId>077cb5f5-1626-5da5-9964-e67b1de503bf</chapterId>
+Nous avons vu que la gestion de la liquidité est un défi sur Lightning pour assurer la fluidité des paiements. Envoyer des paiements est relativement simple : il suffit d’ouvrir un canal. Cependant, recevoir des paiements demande d’avoir de la liquidité du côté opposé de ses canaux. Voici quelques stratégies abordées :
+
+- **Attirer des canaux** : En incitant d’autres nœuds à ouvrir des canaux vers soi, un utilisateur obtient une liquidité entrante.
+
+- **Déplacement de la liquidité** : En envoyant des paiements vers d’autres canaux, la liquidité se déplace du côté opposé.
+
+82
+
+- **Utilisation de services comme Loop et Pool** : Ces services permettent de rééquilibrer ou d’acheter des canaux avec une liquidité du côté opposé.
+
+83
+
+- **Ouvertures collaboratives** : Il existe également des plateformes de mise en relation pour réaliser des ouvertures en triangle et disposer de liquidité entrante.
+
+84
+
+### Remerciements et perspectives pour la suite
+
+Je tiens à remercier chacun d’entre vous pour votre intérêt, votre soutien et vos questions au fil de cette série. À l’origine, mon idée était de créer du contenu francophone autour des aspects techniques de Lightning, face au manque de ressources disponibles. C’était un défi personnel que je souhaitais relever en combinant rigueur technique et accessibilité. Si cette formation gratuite vous a plu, n'hésitez pas à la noter dans la section "*Évaluez ce cours*" et à la partager à vos proches et sur vos réseaux sociaux.
+
+Merci, à très bientôt !
+
+### Bonus : Interview de Fanis
 
 ![interview de Fanis](https://youtu.be/VeJ4oJIXo9k)
-
-Voici un résumé de l'interview :
-
-Le Lightning Network est une solution de paiement ultra-rapide sur Bitcoin qui permet de contourner les limitations liées à la scalabilité du réseau. Cependant, les bitcoins sur Lightning ne sont pas aussi sûrs que ceux sur la chaîne Bitcoin car la décentralisation et la sécurité sont privilégiées au détriment de la scalabilité.
-
-L'augmentation excessive de la taille des blocs n'est pas une bonne solution car cela a des compromis en termes de nœuds et de capacité de données. Au lieu de cela, le Lightning Network permet de créer des canaux de paiement entre deux utilisateurs de Bitcoin sans faire apparaître les transactions sur la blockchain, économisant ainsi de la place sur les blocs et permettant à Bitcoin de scaler aujourd'hui.
-
-Cependant, il y a des critiques concernant la scalabilité et la centralisation de Lightning Network, avec des problèmes potentiels liés à la fermeture des canaux et aux frais de transaction élevés. Pour résoudre ces problèmes, il est recommandé d'éviter d'ouvrir des petits canaux pour éviter les problèmes futurs et d'augmenter les frais de transaction avec Child Pay for Parent.
-
-Des solutions envisagées pour l'avenir de Lightning Network sont le batching et la création de canaux en groupes pour réduire les frais de transaction, ainsi que l'augmentation de la taille des blocs à long terme. Cependant, il est important de noter que les bitcoins sur Lightning ne sont pas aussi sécurisés que les bitcoins sur la chaîne Bitcoin.
-
-La confidentialité sur Bitcoin et Lightning sont liées, avec le routage en oignon garantissant un certain niveau de confidentialité pour les transactions. Cependant, sur Bitcoin, tout est transparent par défaut, avec des heuristiques utilisées pour traquer les Bitcoins d'adresse en adresse sur la chaîne Bitcoin.
-
-Les achats de Bitcoins avec KYC permettent à l'exchange de connaître les transactions de retrait, tandis que les montants ronds et les adresses de change permettent de savoir quelle partie d'une transaction est destinée à une autre personne et quelle partie est destinée à soi-même.
-
-Pour améliorer la confidentialité, les actions jointes et les coinjoins permettent de briser les calculs de probabilité en faisant des transactions où plusieurs personnes font une transaction ensemble. Les sociétés d'analyse de chaînes ont plus de mal à déterminer ce que tu fais de tes bitcoins en suivant.
-
-Sur Lightning, il n'y a que deux personnes qui sont au courant de la transaction et c'est plus confidentiel que Bitcoin. Le routage en oignon signifie qu'un nœud intermédiaire ne connaît pas l'émetteur et le destinataire du paiement.
-
-Pour utiliser Lightning Network, il est recommandé de suivre une formation sur ta chaîne YouTube ou directement sur le site découvre Bitcoin, ou d'utiliser la formation sur Umbrell. Il est également possible d'envoyer du texte arbitraire lors d'un paiement sur Lightning en utilisant un champ dédié pour cela, ce qui peut être utile pour des dons ou pour de la messagerie.
-
-Cependant, il est important de noter que les nodes routage sur Lightning pourraient être régulés à l'avenir, avec certains États qui vont tenter de réguler les nodes routage.
-
-Pour les marchands, il est nécessaire de gérer la liquidité pour accepter les paiements en Lightning Network, avec des contraintes actuelles qui peuvent être surmontées avec des solutions appropriées.
-
-Enfin, le futur de Bitcoin est prometteur avec une projection possible d'un million en cinq ans. Pour assurer la professionnalisation de l'industrie et la création d'un système alternatif à celui du système bancaire existant, il est important de contribuer au réseau et d'arrêter de faire confiance.
 
 
 
@@ -995,19 +995,16 @@ Enfin, le futur de Bitcoin est prometteur avec une projection possible d'un mill
 <isCourseExam>true</isCourseExam>
 
 
-## Remerciements et continuez à creuser le terrier du lapin
+## Remerciements
 <chapterId>afc0d72b-4fbc-5893-90b2-e27fb519ad02</chapterId>
 
 Félicitations ! 🎉
 
-Vous avez terminé la formation LN 201 – Introduction au Lightning Network !
-Vous pouvez être fier de vous car ce n’est pas facile. Sachez que peu sont les personnes qui descendent aussi bas dans le terrier du Bitcoin.
+Vous avez terminé la formation LN 201 – Introduction au Lightning Network ! Vous pouvez être fier de vous, car ce n’est pas un sujet facile. Peu de personnes descendent aussi profondément dans le terrier de Bitcoin.
 
-Tout d’abord, un grand merci à Fanis Makalakis pour nous avoir offert ce super cours gratuit sur un aspect plus ethnique du Lightning. N’hésitez pas à le suivre sur Twitter, sur son blog ou via son travail chez LN market.
+Un grand merci à **Fanis Michalakis** pour nous avoir offert ce super cours gratuit sur le fonctionnement technique du Lightning Network. N’hésitez pas à le suivre sur [Twitter](https://x.com/FanisMichalakis), sur [son blog](https://fanismichalakis.fr/) ou via son travail chez [LN Markets](https://lnmarkets.com/).
 
-Ensuite, si vous souhaitez aider le projet, n’hésitez pas à nous sponsoriser sur Patreon. Vos dons serviront à produire du contenus pour de nouvelles formations et bien évidemment, vous serez les premiers à être tenus au courant (y compris pour la prochaine de Fanis qui est dans les tuyaux !).
-
-L’aventure Lightning Network continue avec la formation sur Umbrel et la mise en place d’un nœud Lightning Network. Fini la théorie et place à la pratique avec la formation LN 202 désormais !
+Maintenant que vous maîtrisez le Lightning Network, je vous invite à explorer [nos autres cours gratuits sur PlanB Network](https://planb.network/courses) pour approfondir les autres aspects de l'invention de Satoshi Nakamoto.
 
 Bisous et à très bientôt !
 

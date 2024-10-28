@@ -11,9 +11,11 @@ objectives:
 
 # Un voyage vers la seconde couche de Bitcoin
 
-Cette formation est un cours théorique sur le fonctionnement technique du Lightning Network.
+Plongez au cœur du Lightning Network, un système essentiel pour le futur des transactions Bitcoin. LNP201 est un cours théorique sur le fonctionnement technique de Lightning. Il vous dévoile les fondements et les rouages de ce réseau de seconde couche, conçu pour rendre les paiements en bitcoins rapides, économiques et scalables. 
 
-Bienvenue dans le monde passionnant du Lightning Network, une seconde couche de Bitcoin, qui une avancée technologique à la fois sophistiquée et riche de potentialités. Nous nous apprêtons à plonger dans les profondeurs techniques de cette technologie, sans nous concentrer sur des tutoriels ou des scénarios d'utilisation spécifiques. Pour tirer le meilleur parti de cette formation, une solide compréhension de Bitcoin est indispensable. C'est une expérience qui requiert une approche sérieuse et concentrée. Vous pouvez également envisager de suivre le cours LN 202 en parallèle, qui offre un aspect plus pratique à cette exploration. Préparez-vous à embarquer pour un voyage qui pourrait changer votre perception de l'écosystème Bitcoin.
+Grâce à son réseau de canaux de paiements, Lightning permet d'effectuer des transactions rapides et sécurisées sans enregistrer chaque échange sur la blockchain Bitcoin. Au fil des chapitres, vous apprendrez comment fonctionnent l'ouverture, la gestion et la fermeture des canaux, comment les paiements sont acheminés via des nœuds intermédiaires de manière sécurisée tout en minimisant le besoin de confiance, ou encore comment gérer la liquidité. Vous découvrirez ce que sont les transactions d'engagement, les HTLC, les clés de révocation, les mécanismes de punition, le routage en oignon et les invoices.
+
+Que vous soyez un utilisateur de Bitcoin débutant ou plus expérimenté, ce parcours vous apportera des informations précieuses pour comprendre et utiliser le Lightning Network. Bien que nous abordions ensemble certains fondamentaux sur le fonctionnement de Bitcoin dans les premières parties, il est essentiel de maîtriser les bases de l'invention de Satoshi avant de plonger dans LNP201.
 
 Bonne découverte !
 

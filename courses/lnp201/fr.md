@@ -39,25 +39,25 @@ Un canal de paiement permet à deux parties, ici **Alice** et **Bob**, d'échang
 
 01
 
-Dans notre exemple, Alice a 100 000 Satoshi de son côté du canal, et Bob en possède 30 000, pour un total de 130 000 Satoshi, ce qui constitue la **capacité du canal**.
+Dans notre exemple, Alice a 100 000 satoshis de son côté du canal, et Bob en possède 30 000, pour un total de 130 000 satoshis, ce qui constitue la **capacité du canal**.
 
-**Mais qu'est-ce qu'un Satoshi ?**
+**Mais qu'est-ce qu'un satoshi ?**
 
-Le **Satoshi** (ou "sat") est une unité de compte sur Bitcoin. À l’instar d’un centime pour l’euro, un Satoshi est simplement une fraction de Bitcoin. Un Satoshi équivaut à **0,00000001 Bitcoin**, soit un cent millionième de Bitcoin. Utiliser le Satoshi devient de plus en plus pratique à mesure que la valeur de Bitcoin augmente.
+Le **satoshi** (ou "sat") est une unité de compte sur Bitcoin. À l’instar d’un centime pour l’euro, un satoshi est simplement une fraction de Bitcoin. Un satoshi équivaut à **0,00000001 Bitcoin**, soit un cent millionième de Bitcoin. Utiliser le satoshi devient de plus en plus pratique à mesure que la valeur de Bitcoin augmente.
 
 ### L'allocation des fonds dans le canal
 
-Revenons au canal de paiement. La notion clé ici est celle de "**côté du canal**". Chaque participant possède des fonds de son côté du canal : Alice 100 000 Satoshi et Bob 30 000. Comme nous l'avons vu, la somme de ces fonds représente la capacité totale du canal, un élément fixé lors de son ouverture.
+Revenons au canal de paiement. La notion clé ici est celle de "**côté du canal**". Chaque participant possède des fonds de son côté du canal : Alice 100 000 satoshis et Bob 30 000. Comme nous l'avons vu, la somme de ces fonds représente la capacité totale du canal, un élément fixé lors de son ouverture.
 
 02
 
-Prenons un exemple de transaction Lightning. Si Alice souhaite envoyer 40 000 Satoshi à Bob, cela est possible, car elle dispose de suffisamment de fonds (100 000 Satoshi). Après cette transaction, Alice aura 60 000 Satoshi de son côté et Bob 70 000.
+Prenons un exemple de transaction Lightning. Si Alice souhaite envoyer 40 000 satoshis à Bob, cela est possible, car elle dispose de suffisamment de fonds (100 000 satoshis). Après cette transaction, Alice aura 60 000 satoshis de son côté et Bob 70 000.
 
 03
 
-La **capacité du canal**, soit 130 000 Satoshi, reste constante. Ce qui change, c'est l'allocation des fonds. Ce système ne permet pas d'envoyer plus de fonds que ce que l'on possède. Par exemple, si Bob souhaitait renvoyer 80 000 Satoshi à Alice, il ne pourrait pas, car il n'en possède que 70 000.
+La **capacité du canal**, soit 130 000 satoshis, reste constante. Ce qui change, c'est l'allocation des fonds. Ce système ne permet pas d'envoyer plus de fonds que ce que l'on possède. Par exemple, si Bob souhaitait renvoyer 80 000 satoshis à Alice, il ne pourrait pas, car il n'en possède que 70 000.
 
-Une autre manière d'imaginer l'allocation des fonds est d'imaginer un **curseur** qui indique où se trouvent les fonds dans le canal. Au départ, avec 100 000 Satoshi pour Alice et 30 000 pour Bob, le curseur est logiquement du côté d'Alice. Après la transaction de 40 000 Satoshi, le curseur se déplacera légèrement du côté de Bob, qui possède désormais 70 000 Satoshi.
+Une autre manière d'imaginer l'allocation des fonds est d'imaginer un **curseur** qui indique où se trouvent les fonds dans le canal. Au départ, avec 100 000 satoshis pour Alice et 30 000 pour Bob, le curseur est logiquement du côté d'Alice. Après la transaction de 40 000 satoshis, le curseur se déplacera légèrement du côté de Bob, qui possède désormais 70 000 satoshis.
 
 04
 
@@ -67,7 +67,7 @@ Cette représentation peut être utile pour imaginer l'équilibre des fonds dans
 
 Le premier point à retenir est que la **capacité du canal** est fixe. C’est un peu comme le diamètre d’un tuyau : il détermine la quantité maximale de fonds que l’on peut envoyer en une seule fois à travers le canal.
 
-Prenons un exemple : si Alice possède 130 000 Satoshi de son côté, elle ne peut envoyer à Bob que 130 000 Satoshi au maximum en une seule transaction. Cependant, Bob pourra ensuite renvoyer ces fonds à Alice, partiellement ou en totalité.
+Prenons un exemple : si Alice possède 130 000 satoshis de son côté, elle ne peut envoyer à Bob que 130 000 satoshis au maximum en une seule transaction. Cependant, Bob pourra ensuite renvoyer ces fonds à Alice, partiellement ou en totalité.
 
 Ce qu’il est important de comprendre, c’est que la capacité fixe du canal limite le montant maximal d’une transaction, mais pas le nombre total de transactions possibles, ni le volume global de fonds échangés au sein du canal.
 
@@ -151,7 +151,7 @@ Dans ce chapitre, nous allons voir plus précisément comment ouvrir un canal de
 
 ### Les canaux Lightning
 
-Comme nous l'avons vu dans le premier chapitre, un **canal de paiement** sur Lightning peut être comparé à un "tuyau" d’échange de fonds entre deux participants (**Alice** et **Bob** dans nos exemples). La capacité de ce canal correspond à la somme des fonds disponibles de chaque côté. Dans notre exemple, Alice dispose de **100 000 Satoshi** et Bob de **30 000 Satoshi**, ce qui donne une **capacité totale** de **130 000 Satoshi**.
+Comme nous l'avons vu dans le premier chapitre, un **canal de paiement** sur Lightning peut être comparé à un "tuyau" d’échange de fonds entre deux participants (**Alice** et **Bob** dans nos exemples). La capacité de ce canal correspond à la somme des fonds disponibles de chaque côté. Dans notre exemple, Alice dispose de **100 000 satoshis** et Bob de **30 000 satoshis**, ce qui donne une **capacité totale** de **130 000 satoshis**.
 
 09
 
@@ -176,7 +176,7 @@ Notons qu'il est possible pour un nœud Lightning de communiquer via le protocol
 
 12
 
-3. **Transaction de dépôt** : Alice prépare une transaction Bitcoin pour déposer des fonds sur cette adresse multisignature. Par exemple, elle peut décider d’envoyer **130 000 Satoshi** sur cette adresse multisignature. Cette transaction est **construite mais pas encore publiée** sur la blockchain.
+3. **Transaction de dépôt** : Alice prépare une transaction Bitcoin pour déposer des fonds sur cette adresse multisignature. Par exemple, elle peut décider d’envoyer **130 000 satoshis** sur cette adresse multisignature. Cette transaction est **construite mais pas encore publiée** sur la blockchain.
 
 13
 
@@ -218,7 +218,7 @@ Comme vu précédemment, un canal Lightning commence par une **ouverture** via u
 
 ### L'état initial du canal
 
-Au moment de l’ouverture du canal, Alice a déposé **130 000 Satoshi** sur l'adresse multisignature du canal. Ainsi, à l'état initial, tous les fonds sont du côté d'Alice. Avant d’ouvrir le canal, Alice avait aussi fait signer à Bob une **transaction de retrait**, qui lui permettrait de récupérer ses fonds si elle souhaitait fermer le canal.
+Au moment de l’ouverture du canal, Alice a déposé **130 000 satoshis** sur l'adresse multisignature du canal. Ainsi, à l'état initial, tous les fonds sont du côté d'Alice. Avant d’ouvrir le canal, Alice avait aussi fait signer à Bob une **transaction de retrait**, qui lui permettrait de récupérer ses fonds si elle souhaitait fermer le canal.
 
 18
 
@@ -226,27 +226,27 @@ Au moment de l’ouverture du canal, Alice a déposé **130 000 Satoshi** sur l'
 
 Lorsque Alice fait une transaction dans le canal pour envoyer des fonds à Bob, une nouvelle transaction Bitcoin est créée pour refléter ce changement dans la répartition des fonds. Cette transaction, appelée **transaction d’engagement**, n’est pas publiée sur la blockchain, mais représente le nouvel état du canal suite à la transaction Lightning. 
 
-Prenons un exemple avec Alice qui envoie 30 000 Satoshi à Bob :
-- **Initialement** : Alice possède 130 000 Satoshi.
-- **Après la transaction** : Alice possède 100 000 Satoshi, et Bob 30 000 Satoshi.
+Prenons un exemple avec Alice qui envoie 30 000 satoshis à Bob :
+- **Initialement** : Alice possède 130 000 satoshis.
+- **Après la transaction** : Alice possède 100 000 satoshis, et Bob 30 000 satoshis.
 
-Pour valider ce transfert, Alice et Bob créent une nouvelle **transaction Bitcoin non publiée** qui enverrait **100 000 Satoshi à Alice** et **30 000 Satoshi à Bob** depuis l’adresse multisignature. Les deux parties construisent cette transaction de manière indépendante, mais avec les mêmes données (montants et adresses). Une fois construite, chacun signe la transaction et échange sa signature avec l'autre. Cela permet à chacun de publier la transaction à tout moment si nécessaire pour récupérer sa part du canal sur la blockchain principale de Bitcoin.
+Pour valider ce transfert, Alice et Bob créent une nouvelle **transaction Bitcoin non publiée** qui enverrait **100 000 satoshis à Alice** et **30 000 satoshis à Bob** depuis l’adresse multisignature. Les deux parties construisent cette transaction de manière indépendante, mais avec les mêmes données (montants et adresses). Une fois construite, chacun signe la transaction et échange sa signature avec l'autre. Cela permet à chacun de publier la transaction à tout moment si nécessaire pour récupérer sa part du canal sur la blockchain principale de Bitcoin.
 
 19
 
 ### Processus de transfert : la facture (invoice)
 
-Lorsque Bob souhaite recevoir des fonds, il envoie à Alice une ***invoice*** pour 30 000 Satoshi. Alice procède alors au paiement de cette facture en commençant le transfert au sein du canal. Comme nous l’avons vu, ce processus repose sur la création et la signature d'une nouvelle **transaction d’engagement**.
+Lorsque Bob souhaite recevoir des fonds, il envoie à Alice une ***invoice*** pour 30 000 satoshis. Alice procède alors au paiement de cette facture en commençant le transfert au sein du canal. Comme nous l’avons vu, ce processus repose sur la création et la signature d'une nouvelle **transaction d’engagement**.
 
-Chaque transaction d’engagement représente la nouvelle répartition des fonds dans le canal après le transfert. Dans cet exemple, après la transaction, Bob dispose de 30 000 Satoshi et Alice de 100 000 Satoshi. Si l’un des deux participants décidait de publier cette transaction d'engagement sur la blockchain, elle entraînerait la fermeture du canal et les fonds seraient distribués conformément à cette dernière répartition.
+Chaque transaction d’engagement représente la nouvelle répartition des fonds dans le canal après le transfert. Dans cet exemple, après la transaction, Bob dispose de 30 000 satoshis et Alice de 100 000 satoshis. Si l’un des deux participants décidait de publier cette transaction d'engagement sur la blockchain, elle entraînerait la fermeture du canal et les fonds seraient distribués conformément à cette dernière répartition.
 
 20
 
 ### Nouvel état après une seconde transaction
 
-Prenons un autre exemple : après la première transaction où Alice a envoyé 30 000 Satoshi à Bob, Bob décide de renvoyer **10 000 Satoshi à Alice**. Cela crée un nouvel état du canal. La nouvelle **transaction d'engagement** représentera cette répartition actualisée : 
-- **Alice** possède maintenant **110 000 Satoshi**.
-- **Bob** possède **20 000 Satoshi**.
+Prenons un autre exemple : après la première transaction où Alice a envoyé 30 000 satoshis à Bob, Bob décide de renvoyer **10 000 satoshis à Alice**. Cela crée un nouvel état du canal. La nouvelle **transaction d'engagement** représentera cette répartition actualisée : 
+- **Alice** possède maintenant **110 000 satoshis**.
+- **Bob** possède **20 000 satoshis**.
 
 21
 
@@ -271,10 +271,10 @@ Dans ce chapitre, nous allons approfondir le fonctionnement des transactions sur
 Comme vu précédemment, les transactions sur Lightning reposent sur des **transactions d'engagement** non publiées. Ces transactions reflètent la répartition actuelle des fonds dans le canal. Lorsqu'une nouvelle transaction Lightning est effectuée, une nouvelle transaction d'engagement est créée et signée par les deux parties pour refléter le nouvel état du canal.
 
 Prenons un exemple simple :
-- **État initial** : Alice possède **100 000 Satoshi**, Bob **30 000 Satoshi**.
-- Après une transaction où Alice envoie **40 000 Satoshi** à Bob, la nouvelle transaction d'engagement répartit les fonds ainsi :
-  - Alice : **60 000 Satoshi**
-  - Bob : **70 000 Satoshi**
+- **État initial** : Alice possède **100 000 satoshis**, Bob **30 000 satoshis**.
+- Après une transaction où Alice envoie **40 000 satoshis** à Bob, la nouvelle transaction d'engagement répartit les fonds ainsi :
+  - Alice : **60 000 satoshis**
+  - Bob : **70 000 satoshis**
 
 22
 
@@ -282,11 +282,11 @@ Les deux parties peuvent, à tout moment, publier la **dernière transaction d'e
 
 ### La faille : tricher en publiant une ancienne transaction
 
-Un problème potentiel apparaît si l'une des parties décide de **tricher** en publiant une ancienne transaction d'engagement. Par exemple, Alice pourrait publier une transaction d'engagement plus ancienne où elle possédait **100 000 Satoshi**, même si elle n'en a plus que **60 000** dans la réalité. Cela lui permettrait de voler **40 000 Satoshi** à Bob.
+Un problème potentiel apparaît si l'une des parties décide de **tricher** en publiant une ancienne transaction d'engagement. Par exemple, Alice pourrait publier une transaction d'engagement plus ancienne où elle possédait **100 000 satoshis**, même si elle n'en a plus que **60 000** dans la réalité. Cela lui permettrait de voler **40 000 satoshis** à Bob.
 
 23
 
-Pire encore, Alice pourrait publier la toute première transaction de retrait, celle avant l'ouverture du canal, où elle possédait **130 000 Satoshi**, et ainsi voler l'intégralité des fonds du canal.
+Pire encore, Alice pourrait publier la toute première transaction de retrait, celle avant l'ouverture du canal, où elle possédait **130 000 satoshis**, et ainsi voler l'intégralité des fonds du canal.
 
 24
 
@@ -309,19 +309,19 @@ Lorsque Alice et Bob mettent à jour l'état du canal avec une nouvelle transact
 - Chacun dispose du secret de l'autre pour la transaction précédente, ce qui leur permet d'utiliser la clé de révocation uniquement si l'un d'eux tente de tricher en publiant une transaction avec un ancien état dans les mempools des nœuds Bitcoin. En effet, pour punir l'autre partie, il est nécessaire de détenir à la fois les deux secrets et la transaction d'engagement de l'autre, qui inclut l'input signé. Sans cette transaction, la clé de révocation seule est inutile. La seule façon d'obtenir cette transaction est de la récupérer dans les mempools (dans les transactions en attente de confirmation) ou bien dans les transactions confirmées sur la blockchain pendant le timelock, ce qui prouve que l'autre partie tente de tricher, que ce soit volontairement ou non.
 
 Prenons un exemple pour bien comprendre ce processus :
-1. **État initial** : Alice possède **100 000 Satoshi**, Bob **30 000 Satoshi**.
+1. **État initial** : Alice possède **100 000 satoshis**, Bob **30 000 satoshis**.
 
 26
 
-2. Bob souhaite recevoir 40 000 Satoshi d'Alice via leur canal Lightning. Pour ce faire :
+2. Bob souhaite recevoir 40 000 satoshis d'Alice via leur canal Lightning. Pour ce faire :
 	- Il lui envoie une invoice ainsi que son secret pour la clé de révocation de sa transaction d'engagement précédente. 
 	- En réponse, Alice lui fournit sa signature pour la nouvelle transaction d'engagement de Bob, ainsi que son secret pour la clé de révocation de sa transaction précédente.
 	- Enfin, Bob envoie sa signature pour la nouvelle transaction d'engagement d'Alice. 
-	- Ces échanges permettent à Alice d'envoyer **40 000 Satoshi** à Bob sur Lightning via leur canal, et les nouvelles transactions d'engagement reflètent désormais cette nouvelle répartition des fonds.
+	- Ces échanges permettent à Alice d'envoyer **40 000 satoshis** à Bob sur Lightning via leur canal, et les nouvelles transactions d'engagement reflètent désormais cette nouvelle répartition des fonds.
 
 27
 
-3. Si Alice tente de publier l’ancienne transaction d'engagement où elle possédait encore **100 000 Satoshi**, Bob, ayant obtenu la clé de révocation, peut immédiatement récupérer les fonds grâce à cette clé, tandis qu'Alice est bloquée par le timelock.
+3. Si Alice tente de publier l’ancienne transaction d'engagement où elle possédait encore **100 000 satoshis**, Bob, ayant obtenu la clé de révocation, peut immédiatement récupérer les fonds grâce à cette clé, tandis qu'Alice est bloquée par le timelock.
 
 28
 
@@ -358,7 +358,7 @@ Il existe trois manières principales de fermer ce canal, que l’on peut appele
 3. **Le truand** : la **fermeture avec tricherie**, où l'une des parties tente de voler des fonds en publiant une ancienne transaction d’engagement (n'importe laquelle, mais pas la dernière, qui reflète la répartition réelle et juste des fonds).
 
 Prenons un exemple :
-- Alice possède **100 000 Satoshi** et Bob **30 000 Satoshi**.
+- Alice possède **100 000 satoshis** et Bob **30 000 satoshis**.
 - Cette répartition est reflétée dans **2 transactions d’engagement** (une par utilisateur) qui ne sont pas publiées, mais qui pourraient l’être en cas de fermeture du canal.
 
 30
@@ -374,7 +374,7 @@ Dans une **fermeture coopérative**, Alice et Bob se mettent d’accord pour fer
 3. Alice et Bob négocient ensemble les frais de la **transaction de fermeture**. Ces frais sont généralement calculés en fonction du marché de frais de Bitcoin du moment de la fermeture. Il est important de noter que **c’est toujours la personne qui a ouvert le canal** (Alice dans notre exemple) qui paie les frais de fermeture.
 4. Ils construisent une nouvelle **transaction de fermeture**. Cette transaction ressemble à une transaction d’engagement, mais sans timelock ni mécanismes de révocation, puisque les deux parties coopèrent et qu’il n’y a aucun risque de tricherie. Cette transaction de fermeture coopérative est donc une transaction différente des transactions d'engagement.
 
-Par exemple, si Alice possède **100 000 Satoshi** et Bob **30 000 Satoshi**, la transaction de fermeture enverra **100 000 Satoshi** à l’adresse d’Alice et **30 000 Satoshi** à l’adresse de Bob, sans contraintes de timelock. Une fois cette transaction signée par les deux parties, elle est publiée par Alice. Une fois la transaction confirmée sur la blockchain Bitcoin, le canal Lightning sera officiellement fermé.
+Par exemple, si Alice possède **100 000 satoshis** et Bob **30 000 satoshis**, la transaction de fermeture enverra **100 000 satoshis** à l’adresse d’Alice et **30 000 satoshis** à l’adresse de Bob, sans contraintes de timelock. Une fois cette transaction signée par les deux parties, elle est publiée par Alice. Une fois la transaction confirmée sur la blockchain Bitcoin, le canal Lightning sera officiellement fermé.
 
 32
 
@@ -398,7 +398,7 @@ En résumé, la **fermeture forcée** est une option de dernier recourt lorsque 
 
 ### Le truand : la tricherie
 
-Enfin, une fermeture avec **tricherie** survient lorsque l'une des parties tente de publier une ancienne transaction d’engagement, souvent où elle détenait plus de fonds qu’elle ne devrait. Par exemple, Alice pourrait publier une ancienne transaction où elle possédait **120 000 Satoshi**, alors qu’elle n’en possède plus que **100 000** en réalité.
+Enfin, une fermeture avec **tricherie** survient lorsque l'une des parties tente de publier une ancienne transaction d’engagement, souvent où elle détenait plus de fonds qu’elle ne devrait. Par exemple, Alice pourrait publier une ancienne transaction où elle possédait **120 000 satoshis**, alors qu’elle n’en possède plus que **100 000** en réalité.
 
 35
 
@@ -436,16 +436,16 @@ Sur le Lightning Network, une transaction correspond à un transfert de fonds en
 Pour résoudre cette problématique, le Lightning Network permet de router un paiement via plusieurs canaux et nœuds intermédiaires, ce qui permet ainsi d'effectuer une transaction sans canal direct avec l'autre personne.
 
 Par exemple, imaginons que :
-- **Alice** (en orange) a un canal avec **Suzie** (en gris) avec **100 000 Satoshi** de son côté et **30 000 Satoshi** du côté de Suzie.
-- **Suzie** a un canal avec **Bob** dans lequel elle possède **250 000 Satoshi** et où Bob n'a aucun Satoshi.
+- **Alice** (en orange) a un canal avec **Suzie** (en gris) avec **100 000 satoshis** de son côté et **30 000 satoshis** du côté de Suzie.
+- **Suzie** a un canal avec **Bob** dans lequel elle possède **250 000 satoshis** et où Bob n'a aucun satoshi.
 
 37
 
-Si Alice souhaite envoyer des fonds à Bob sans ouvrir un canal direct avec celui-ci, elle devra passer par Suzie, et chaque canal devra ajuster la liquidité de chaque côté. **Les Satoshi envoyés restent bien dans leurs canaux respectifs** ; ils ne "traversent" pas réellement les canaux, mais le transfert se fait via un ajustement des liquidités internes à chaque canal.
+Si Alice souhaite envoyer des fonds à Bob sans ouvrir un canal direct avec celui-ci, elle devra passer par Suzie, et chaque canal devra ajuster la liquidité de chaque côté. **Les satoshis envoyés restent bien dans leurs canaux respectifs** ; ils ne "traversent" pas réellement les canaux, mais le transfert se fait via un ajustement des liquidités internes à chaque canal.
 
-Supposons qu’Alice veuille envoyer **50 000 Satoshi** à Bob :
-1. **Alice** envoie 50 000 Satoshi à **Suzie** dans leur canal commun.
-2. **Suzie** réplique ce transfert en envoyant 50 000 Satoshi à **Bob** dans leur canal.
+Supposons qu’Alice veuille envoyer **50 000 satoshis** à Bob :
+1. **Alice** envoie 50 000 satoshis à **Suzie** dans leur canal commun.
+2. **Suzie** réplique ce transfert en envoyant 50 000 satoshis à **Bob** dans leur canal.
 
 38
 
@@ -456,26 +456,26 @@ Ce transfert est ainsi limité par la **liquidité disponible** dans le sens du 
 ### Calcul de la route et des limites de liquidité
 
 Prenons un exemple théorique d'un autre réseau avec :
-- **130 000 Satoshi** du côté d'Alice (en orange) dans son canal avec **Suzie** (en gris).
-- **90 000 Satoshi** du côté de **Suzie** et **200 000 Satoshi** du côté de **Carol** (en rose).
-- **150 000 Satoshi** du côté de **Carol** et **100 000 Satoshi** du côté de **Bob**.
+- **130 000 satoshis** du côté d'Alice (en orange) dans son canal avec **Suzie** (en gris).
+- **90 000 satoshis** du côté de **Suzie** et **200 000 satoshis** du côté de **Carol** (en rose).
+- **150 000 satoshis** du côté de **Carol** et **100 000 satoshis** du côté de **Bob**.
 
 39
 
-Le maximum qu’Alice peut envoyer à Bob dans cette configuration est **90 000 Satoshi**, car elle est limitée par la plus petite liquidité disponible dans le canal de **Suzie vers Carol**. En sens inverse (de Bob vers Alice), aucun paiement n’est possible car le côté de **Suzie** dans le canal avec **Alice** ne contient aucun satoshi. Il n’y a donc **pas de route** utilisable pour un transfert dans ce sens.
+Le maximum qu’Alice peut envoyer à Bob dans cette configuration est **90 000 satoshis**, car elle est limitée par la plus petite liquidité disponible dans le canal de **Suzie vers Carol**. En sens inverse (de Bob vers Alice), aucun paiement n’est possible car le côté de **Suzie** dans le canal avec **Alice** ne contient aucun satoshi. Il n’y a donc **pas de route** utilisable pour un transfert dans ce sens.
 
-Alice envoie **40 000 Satoshi** à Bob en empruntant les canaux :
-1. Alice transfère 40 000 Satoshi dans son canal avec Suzie.
-2. Suzie transfère 40 000 Satoshi à Carol dans leur canal commun.
-3. Carol transfère finalement 40 000 Satoshi à Bob.
+Alice envoie **40 000 satoshis** à Bob en empruntant les canaux :
+1. Alice transfère 40 000 satoshis dans son canal avec Suzie.
+2. Suzie transfère 40 000 satoshis à Carol dans leur canal commun.
+3. Carol transfère finalement 40 000 satoshis à Bob.
 
 40
 
-Les **Satoshi envoyés** dans chaque canal **restent dans le canal**, donc les Satoshi envoyés par Carol à Bob ne sont pas les mêmes que ceux envoyés par Alice à Suzie. Le transfert se fait uniquement par ajustement des liquidités à l'intérieur de chaque canal. Par ailleurs, la capacité totale des canaux reste inchangée.
+Les **satoshis envoyés** dans chaque canal **restent dans le canal**, donc les satoshis envoyés par Carol à Bob ne sont pas les mêmes que ceux envoyés par Alice à Suzie. Le transfert se fait uniquement par ajustement des liquidités à l'intérieur de chaque canal. Par ailleurs, la capacité totale des canaux reste inchangée.
 
 41
 
-Comme dans l'exemple précédent, après la transaction, le nœud source (Alice) possède 40 000 Satoshi en moins. Les nœuds intermédiaires (Suzie et Carol) conservent le même montant total, ce qui rend l'opération neutre pour eux. Enfin, le nœud destinataire (Bob) reçoit 40 000 Satoshi supplémentaires.
+Comme dans l'exemple précédent, après la transaction, le nœud source (Alice) possède 40 000 satoshis en moins. Les nœuds intermédiaires (Suzie et Carol) conservent le même montant total, ce qui rend l'opération neutre pour eux. Enfin, le nœud destinataire (Bob) reçoit 40 000 satoshis supplémentaires.
 
 Le rôle des nœuds intermédiaire est donc très important dans le fonctionnement du réseau Lightning. Ils permettent de fluidifier les transferts en proposant plusieurs chemins pour les paiements. Pour inciter ces nœuds à fournir leur liquidité et participer au routage des paiements, des **frais de routage** leur sont versés.
 
@@ -483,7 +483,7 @@ Le rôle des nœuds intermédiaire est donc très important dans le fonctionneme
 
 Les nœuds intermédiaires appliquent des frais pour permettre aux paiements de transiter par leurs canaux. Ces frais sont définis par **chaque nœud pour chaque canal**. Les frais comportent 2 éléments :
 1. "**Base fee**" : un montant fixe par canal, souvent **1 sat** par défaut, mais personnalisable.
-2. "**Fee variable**" : un pourcentage du montant transféré, calculé en **parts par million (ppm)**. Par défaut, il est de **1 ppm** (1 sat par million de Satoshi transférés), mais il peut également être ajusté.
+2. "**Fee variable**" : un pourcentage du montant transféré, calculé en **parts par million (ppm)**. Par défaut, il est de **1 ppm** (1 sat par million de satoshis transférés), mais il peut également être ajusté.
 
 Les frais sont également différents selon le sens du transfert. Par exemple, pour un transfert d'Alice vers Suzie, ce sont les frais d’Alice qui s’appliquent. Inversement, de Suzie vers Alice, ce sont les frais de Suzie qui sont utilisés.
 
@@ -494,22 +494,22 @@ Par exemple pour un canal entre Alice et Suzie, on pourrait avoir :
 42
 
 Pour bien comprendre le fonctionnement des frais, étudions ensemble le même réseau Lightning que précédemment, mais dorénavant avec les frais de routage suivants :
-- Canal **Alice - Suzie** : base fee de 1 Satoshi et 1 ppm pour Alice.
-- Canal **Suzie - Carol** : base fee de 0 Satoshi et 200 ppm pour Suzie 1.
-- Canal **Carol - Bob** : base fee de 1 Satoshi et 1 ppm pour Suzie 2.
+- Canal **Alice - Suzie** : base fee de 1 satoshi et 1 ppm pour Alice.
+- Canal **Suzie - Carol** : base fee de 0 satoshi et 200 ppm pour Suzie 1.
+- Canal **Carol - Bob** : base fee de 1 satoshi et 1 ppm pour Suzie 2.
 
 43
 
-Pour le même paiement de **40 000 Satoshi** à Bob, Alice va devoir envoyer un petit peu plus, car chaque nœud intermédiaire va prélever ses frais :
-- **Carol** prélève 1,04 Satoshi sur le canal avec Bob :
+Pour le même paiement de **40 000 satoshis** à Bob, Alice va devoir envoyer un petit peu plus, car chaque nœud intermédiaire va prélever ses frais :
+- **Carol** prélève 1,04 satoshis sur le canal avec Bob :
 $$ f_{\text{Carol-Bob}} = \text{base fee} + \left(\frac{\text{ppm} \times \text{amount}}{10^6}\right) $$ 
 $$ f_{\text{Carol-Bob}} = 1 + \frac{1 \times 40000}{10^6} = 1 + 0.04 = 1.04 \text{ sats} $$
 
-- **Suzie** prélève 8 Satoshi de frais sur le canal avec Carol :
+- **Suzie** prélève 8 satoshis de frais sur le canal avec Carol :
 $$ f_{\text{Suzie-Carol}} = \text{base fee} + \left(\frac{\text{ppm} \times \text{amount}}{10^6}\right) $$ 
 $$ f_{\text{Suzie-Carol}} = 0 + \frac{200 \times 40001.04}{10^6} = 0 + 8.0002 \approx 8 \text{ sats} $$
 
-Le total des frais pour ce paiement sur ce chemin est donc de **9,04 Satoshi**. Ainsi, Alice doit envoyer **40 009,04 Satoshi** pour que Bob reçoive exactement **40 000 Satoshi**.
+Le total des frais pour ce paiement sur ce chemin est donc de **9,04 satoshis**. Ainsi, Alice doit envoyer **40 009,04 satoshis** pour que Bob reçoive exactement **40 000 satoshis**.
 
 44
 
@@ -550,7 +550,7 @@ Alice souhaite envoyer 40 000 sats à Bob mais elle ne dispose pas d'un canal di
 
 46
 
-Si Alice envoie naïvement 40 000 Satoshi à Suzie en espérant que Suzie transfère cette somme à Bob, Suzie pourrait garder les fonds pour elle et ne rien transmettre à Bob.
+Si Alice envoie naïvement 40 000 satoshis à Suzie en espérant que Suzie transfère cette somme à Bob, Suzie pourrait garder les fonds pour elle et ne rien transmettre à Bob.
 
 47
 
@@ -580,7 +580,7 @@ L'utilisation d'une fonction de hachage rend impossible de retrouver *s* uniquem
 
 50
 
-**Envoi du paiement conditionnel** : Alice envoie un HTLC de 40 000 Satoshi à Suzie. La condition pour que Suzie reçoive ces fonds est qu’elle fournisse à Alice un secret *s'* qui vérifie l'équation suivante :
+**Envoi du paiement conditionnel** : Alice envoie un HTLC de 40 000 satoshis à Suzie. La condition pour que Suzie reçoive ces fonds est qu’elle fournisse à Alice un secret *s'* qui vérifie l'équation suivante :
 
 $$
 h(s') = r
@@ -588,7 +588,7 @@ $$
 
 51
 
-**Transmission du HTLC vers le destinataire final** : Suzie, pour obtenir les 40 000 Satoshi d’Alice, doit transférer un HTLC similaire de 40 000 Satoshi à Bob, qui dispose de la même condition, à savoir qu'il doit fournir à Suzie un secret *s'* qui vérifie l'équation :
+**Transmission du HTLC vers le destinataire final** : Suzie, pour obtenir les 40 000 satoshis d’Alice, doit transférer un HTLC similaire de 40 000 satoshis à Bob, qui dispose de la même condition, à savoir qu'il doit fournir à Suzie un secret *s'* qui vérifie l'équation :
 
 $$
 h(s') = r
@@ -596,7 +596,7 @@ $$
 
 52
 
-**Validation par le secret *s*** : Bob fournit *s* à Suzie pour recevoir les 40 000 Satoshi promis dans le HTLC. Avec ce secret, Suzie peut alors débloquer le HTLC d’Alice et obtenir les 40 000 Satoshi d’Alice. Le paiement est alors routé correctement jusqu'à Bob.
+**Validation par le secret *s*** : Bob fournit *s* à Suzie pour recevoir les 40 000 satoshis promis dans le HTLC. Avec ce secret, Suzie peut alors débloquer le HTLC d’Alice et obtenir les 40 000 satoshis d’Alice. Le paiement est alors routé correctement jusqu'à Bob.
 
 53
 
@@ -629,7 +629,7 @@ Avant le début du paiement de 40 000 sats entre Alice et Bob, Alice possède 10
 
 58
 
-Alice vient de recevoir l'invoice de Bob qui contient notamment *r*, le hachage du secret. Elle peut donc construire un HTLC de 40 000 Satoshi avec Suzie. Cet HTLC est représenté dans les dernières transactions d’engagement sous la forme d’un output appelé "***HTLC Out***" du côté d’Alice, puisque les fonds sont sortants, et "***HTLC In***" du côté de Suzie, puisque les fond son entrant. 
+Alice vient de recevoir l'invoice de Bob qui contient notamment *r*, le hachage du secret. Elle peut donc construire un HTLC de 40 000 satoshis avec Suzie. Cet HTLC est représenté dans les dernières transactions d’engagement sous la forme d’un output appelé "***HTLC Out***" du côté d’Alice, puisque les fonds sont sortants, et "***HTLC In***" du côté de Suzie, puisque les fond son entrant. 
 
 59
 
@@ -637,7 +637,7 @@ Ces outputs associés aux HTLC partagent exactement les mêmes conditions, à sa
 - Si Suzie est capable de fournir le secret *s*, elle peut déverrouiller cet output immédiatement et le transférer vers une adresse qu'elle contrôle.
 - Si Suzie ne possède pas le secret *s*, elle ne peut pas déverrouiller cet output, et Alice pourra le déverrouiller après un timelock pour l'envoyer vers une adresse qu'elle contrôle. Le timelock accorde ainsi à Suzie un délai pour réagir si elle obtient *s*.
 
-Ces conditions s'appliquent uniquement si le canal est fermé (qu'une transaction d'engagement est publiée on-chain) alors que le HTLC est encore actif sur Lightning, c'est-à-dire que le paiement entre Alice et Bob n'a pas encore été finalisé, et que les HTLC n'ont pas encore expiré. Grâce à ces conditions, Suzie peut récupérer les 40 000 Satoshi du HTLC qui lui sont dus en fournissant *s*. Sinon, Alice récupère les fonds après l'expiration du timelock, car si Suzie ne connaît pas *s*, cela signifie qu'elle n'a pas transmis les 40 000 Satoshi à Bob, et que les fonds d'Alice ne lui sont donc pas dus.
+Ces conditions s'appliquent uniquement si le canal est fermé (qu'une transaction d'engagement est publiée on-chain) alors que le HTLC est encore actif sur Lightning, c'est-à-dire que le paiement entre Alice et Bob n'a pas encore été finalisé, et que les HTLC n'ont pas encore expiré. Grâce à ces conditions, Suzie peut récupérer les 40 000 satoshis du HTLC qui lui sont dus en fournissant *s*. Sinon, Alice récupère les fonds après l'expiration du timelock, car si Suzie ne connaît pas *s*, cela signifie qu'elle n'a pas transmis les 40 000 satoshis à Bob, et que les fonds d'Alice ne lui sont donc pas dus.
 
 Par ailleurs, si le canal est fermé alors que plusieurs HTLC sont en attente, il y aura autant d'output en plus que de HTLC en cours.
 

@@ -2,7 +2,7 @@
 name: Privacy su Bitcoin
 goal: Comprendere e padroneggiare i principi della protezione della privacy quando si utilizza Bitcoin
 objectives:
-  - Definire le nozioni teoriche necessarie per comprendere le posta in gioco della protezione della privacy
+  - Definire le nozioni teoriche necessarie per comprendere la posta in gioco della protezione della privacy
   - Saper identificare e mitigare i rischi associati alla perdita della privacy degli utenti su Bitcoin
   - Utilizzare metodi e strumenti per proteggere la propria privacy su Bitcoin
   - Comprendere i metodi di analisi della catena e sviluppare strategie di difesa

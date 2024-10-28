@@ -974,7 +974,7 @@ Nous avons vu que la gestion de la liquidité est un défi sur Lightning pour as
 
 84
 
-### Remerciements et perspectives pour la suite
+### Remerciements
 
 Je tiens à remercier chacun d’entre vous pour votre intérêt, votre soutien et vos questions au fil de cette série. À l’origine, mon idée était de créer du contenu francophone autour des aspects techniques de Lightning, face au manque de ressources disponibles. C’était un défi personnel que je souhaitais relever en combinant rigueur technique et accessibilité. Si cette formation gratuite vous a plu, n'hésitez pas à la noter dans la section "*Évaluez ce cours*" et à la partager à vos proches et sur vos réseaux sociaux.
 

@@ -854,44 +854,67 @@ Dans le chapitre suivant, nous allons voir comment un opérateur de nœud peut g
 
 ![gerer sa liquidité](https://youtu.be/YuPrbhEJXbg)
 
-Nous donnons quelques repères généraux pour répondre à la sempiternelle question de la gestion de la liquidité sur Lightning.
+Dans ce chapitre, nous allons découvrir les stratégies pour gérer efficacement sa liquidité sur le Lightning Network. La gestion de la liquidité varie selon le type d’utilisateur et le contexte. Nous allons voir les grands principes et les techniques existantes pour mieux comprendre comment optimiser cette gestion.
 
-![instruction](assets/fr/42.webp)
+### Les besoins de liquidités
 
-Dans LN, il y a 3 types de personnes :
+Il existe trois principaux profils d’utilisateurs sur Lightning, chacun avec des besoins spécifiques en liquidités :
+1. **Le Payeur** : C'est celui qui initie les paiements. Il a des besoins en liquidité sortante pour pouvoir transférer des fonds vers d'autres utilisateurs. Par exemple, cela peut être un consommateur.
+2. **Le Vendeur (ou Payé)** : C'est celui qui reçoit les paiements. Il a un besoin de liquidité entrante pour pouvoir accepter les paiements vers son nœud. Par exemple, cela peut être un commerce ou une boutique en ligne.
+3. **Le Routeur** : Un nœud intermédiaire, souvent spécialisé dans le routage de paiements, qui doit optimiser sa liquidité dans chaque canal pour router un maximum de paiements et gagner des frais.
 
-- Les acheteurs : ils ont de la liquidé sortante, c’est le plus simple car il suffit d’ouvrir des canaux
-- Les commerçants : c’est plus compliqué car ils ont besoin de liquidité entrante via d’autres nœuds et d’autre acteurs. Ils doivent avoir des gens connectés à eux
-- Les nœuds de routage : ils veulent être équilibre avec de la liquidité des deux côtes et une bonne connexion à de nombreux nœuds pour être utilisés le plus possible
+Ces profils ne sont évidemment pas figés ; un utilisateur peut alterner entre payeur et payé en fonction des transactions. Par exemple, Bob pourrait recevoir son salaire sur Lightning de la part de son employeur, ce qui le place alors dans la position de "vendeur" nécessitant de la liquidité entrante. Par la suite, s'il souhaite utiliser son salaire pour acheter de la nourriture, il devient "payeur" et doit alors disposer de liquidité sortante.
 
-Donc si vous avez besoin de liquidité entrante, vous pouvez en acheter à des services.
+Pour mieux comprendre, prenons l'exemple d'un réseau simple composé de trois nœuds : l'acheteur (Alice), le routeur (Suzie) et le vendeur (Bob).
 
-![instruction](assets/fr/43.webp)
+71
 
-Alice achète un canal avec Susie pour 1 million de satoshis donc elle ouvre un canal avec directement 1 000 000 SAT du coté entrant. Elle peut alors accepter jusqu’à 1 million de SAT de paiement par les clients qui seraient connectés avec Susie (qui est très connectée).
+Imaginons que l'acheteur souhaite envoyer 30 000 sats au vendeur et que le paiement passe par le nœud du routeur. Chaque partie doit alors disposer d'un minimum de liquidité dans le sens du paiement :
+- Le payeur doit avoir au moins 30 000 satoshis de son côté du canal avec le routeur.
+- Le vendeur doit disposer d'un canal où 30 000 satoshis se trouvent du côté opposé afin de pouvoir les recevoir.
+- Le routeur doit avoir 30 000 satoshis du côté du payeur dans leur canal, et également 30 000 satoshis de son côté dans le canal avec le vendeur, afin de pouvoir acheminer le paiement.
 
-Une autre solution serait de faire des paiements ; vous payez 100 000 pour X raison, vous pouvez désormais recevoir 100 000.
+72
 
-![instruction](assets/fr/44.webp)
+### Les stratégies de gestion de la liquidité
 
-### Solution Loop Out : Atomic swap LN – BTC
+Les payeurs doivent veiller à maintenir une liquidité suffisante de leur côté des canaux pour garantir une liquidité sortante. Cela s'avère relativement simple, puisqu'il suffit d'ouvrir de nouveaux canaux Lightning pour disposer de cette liquidité. En effet, les fonds initiaux bloqués dans le multisig on-chain se trouvent entièrement du côté du payeur sur le canal Lightning au départ. La capacité de paiement est donc assurée tant que des canaux sont ouverts avec suffisamment de fonds. Lorsque la liquidité sortante est épuisée, il suffit d'ouvrir de nouveaux canaux.
 
-Alice 2 millions – Susie 0
+En revanche, pour le vendeur, la tâche est plus complexe. Pour pouvoir recevoir des paiements, il doit disposer de liquidité du côté opposé de ses canaux. Ouvrir un canal ne suffit donc pas : il doit également effectuer un paiement dans ce canal pour déplacer les liquidités de l'autre côté avant de pouvoir lui-même recevoir des paiements. Pour certains profils d'utilisateurs Lightning, comme les commerçants, il existe une nette disproportion entre ce que leur nœud envoie et ce qu'il reçoit, puisque le but d'un commerce est avant tout d'encaisser plus qu'il ne dépense, afin de dégager un bénéfice. Heureusement, pour ces utilisateurs ayant des besoins spécifiques en matière de liquidité entrante, plusieurs solutions existent :
 
-![instruction](assets/fr/45.webp)
+- **Attirer des canaux** : Le commerçant bénéficie d'un avantage en raison du volume de paiements entrant attendu sur son nœud. En tenant compte de cela, il peut tenter d'attirer des nœuds routeurs qui recherchent des revenus en frais de transaction et qui pourraient ouvrir des canaux vers lui, dans l'espoir de router ses paiements et d'encaisser les frais associés.
 
-Alice veut envoyer la liquidité vers Susie, donc elle fait un Loop out (un nœud spécial qui offre un service pro de rééquilibre LN/BTC).
-Alice envoie 1 million à loop via le nœud de Susie, donc Susie a la liquidité et Loop renvoie la balance on-chain au nœud d’Alice.
+- **Déplacement de liquidité** : Le vendeur peut également ouvrir un canal et transférer une partie des fonds vers le côté opposé en effectuant des paiements fictifs vers un autre nœud, qui lui restituera l'argent d'une autre manière. Nous verrons dans la partie suivante comment réaliser cette opération.
 
-![instruction](assets/fr/46.webp)
+- **Ouverture en triangle** : Des plateformes de mise en relation existent pour les nœuds souhaitant ouvrir des canaux collaborativement, permettant à chacun de bénéficier de liquidité entrante et sortante immédiatement. Par exemple, [LightningNetwork+](https://lightningnetwork.plus/) propose ce service. Si Alice, Bob et Suzie souhaitent ouvrir un canal de 100 000 sats, ils peuvent s'accorder sur cette plateforme pour qu'Alice ouvre un canal vers Bob, Bob vers Suzie, et Suzie vers Alice. De cette façon, chacun dispose de 100 000 sats de liquidité sortante et 100 000 sats de liquidité entrante, tout en ayant immobilisé seulement 100 000 sats.
 
-Donc les 1 million partent chez Susie, cette dernière envoie 1 million à Loop, Loop envoie 1 million à Alice. Alice a donc déplacé la liquidité vers Susie au prix de quelques frais payés à Loop pour le service.
+73
 
-Le plus compliqué dans LN est de garder la liquidité.
+- **Achat de canaux** : Des services de location de canaux Lightning existent également pour obtenir de la liquidité entrante, comme [Bitrefill Thor](https://www.bitrefill.com/thor-lightning-network-channels/) ou bien [Pool de Lightning Labs](https://lightning.engineering/pool/). Par exemple, Alice peut acheter un canal d'un million de satoshis vers son nœud afin de pouvoir recevoir des paiements.
 
-![instruction](assets/fr/47.webp)
+74
 
-En conclusion, la gestion de la liquidité sur le réseau Lightning Network est un enjeu clé, qui dépend du type d'utilisateur : acheteur, commerçant ou nœud de routage. Les acheteurs, ayant besoin de liquidité sortante, ont la tâche la plus simple : ils ouvrent simplement des canaux. Les commerçants, nécessitant une liquidité entrante, doivent être connectés à d'autres nœuds et acteurs. Les nœuds de routage, quant à eux, cherchent à maintenir un équilibre de liquidité des deux côtés. Plusieurs solutions existent pour gérer la liquidité, comme l'achat de canaux ou le paiement pour augmenter la capacité de réception. L'option "Loop Out", permettant un Atomic Swap entre LN et BTC, offre une solution intéressante pour rééquilibrer la liquidité. Malgré ces stratégies, maintenir la liquidité sur le réseau Lightning Network reste un défi complexe.
+Enfin, pour les routeurs, dont l'objectif est de maximiser le nombre de paiements traités et les frais perçus, ils doivent :
+- Ouvrir des canaux bien approvisionnés avec des nœuds stratégiques.
+- Ajuster régulièrement la répartition des fonds dans les canaux en fonction des besoins du réseau.
+
+### Le service Loop Out
+
+Le service [Loop Out](https://lightning.engineering/loop/), proposé par Lightning Labs, permet de déplacer de la liquidité vers le côté opposé du canal tout en récupérant les fonds sur la blockchain Bitcoin. Par exemple, Alice envoie 1 million de satoshis via Lightning à un nœud de loop, qui lui retourne ces fonds en bitcoins on-chain. Cela équilibre son canal avec 1 million de satoshis de chaque côté, ce qui permet d'optimiser la capacité à recevoir des paiements.
+
+75
+
+Ce service permet donc d'avoir de la liquidité entrante, tout en récupérant ses bitcoins on-chain, ce qui permet de limiter l'immobilisation de trésorerie pour accepter des paiement avec Lightning.
+
+**Que devez-vous retenir de ce chapitre ?**
+
+- Pour envoyer des paiements sur Lightning, il faut disposer de suffisamment de liquidité de son côté dans ses canaux. Pour augmenter cette capacité d'envoi, il suffit d'ouvrir de nouveaux canaux.
+- Pour recevoir des paiements, il faut avoir de la liquidité du côté opposé dans ses canaux. Augmenter cette capacité de réception est plus complexe, car cela nécessite que d'autres ouvrent des canaux vers vous, ou d'effectuer des paiements (fictifs ou non) pour déplacer la liquidité de l'autre côté.
+- Maintenir la liquidité là où on le souhaite peut s'avérer encore plus difficile selon l'utilisation des canaux. C'est pourquoi des outils et services existent pour aider à équilibrer les canaux comme souhaité.
+
+
+
+
 
 # Allez plus loin
 <partId>6bbf107d-a224-5916-9f0c-2b4d30dd0b17</partId>

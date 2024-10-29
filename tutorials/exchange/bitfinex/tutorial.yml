@@ -1,0 +1,25 @@
+id: dc306d39-bd96-4ab9-a278-a322316716db
+
+builder: Bitfinex
+
+tags:
+  - investment
+  - finance
+
+category: centralized
+
+level: beginner
+
+credits:
+  professor: pretty-private
+
+# Proofreading metadata
+
+original_language: fr
+proofreading:
+  - language: fr
+    last_contribution_date: 2024-10-29
+    urgency:
+    contributors_id:
+      - LoicPandul
+    reward:

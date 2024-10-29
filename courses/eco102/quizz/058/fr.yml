@@ -1,0 +1,9 @@
+question: Quel est le point de vue de Bastiat sur la demande des fabricants de chandelles ?
+answer: Il la rejette car elle va à l'encontre de l'intérêt général
+wrong_answers:
+  - Il la soutient car il est important de protéger les emplois
+  - Il est neutre sur cette question
+  - Il considère que les fabricants de chandelles ont raison
+explanation: |
+  Bastiat critique la demande des fabricants de chandelles, soulignant que le protectionnisme sert des intérêts particuliers au détriment de l'intérêt général.
+reviewed: false

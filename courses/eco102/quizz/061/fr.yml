@@ -1,0 +1,9 @@
+question: Quel problème principal Bastiat voit-il dans l'usage de l'impôt pour réduire les inégalités ?
+answer: Toutes ces réponses sont correctes
+wrong_answers:
+  - Cela crée une dépendance à l'État
+  - Cela décourage l'initiative individuelle
+  - Cela peut mener à l'arbitraire et à la confiscation
+explanation: |
+  Bastiat critique l'impôt redistributif, car il incite à la dépendance, décourage l'initiative et conduit à l'arbitraire, constituant une spoliation légalisée.
+reviewed: false

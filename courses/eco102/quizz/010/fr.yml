@@ -1,0 +1,9 @@
+question: À quel auteur Frédéric Bastiat doit-il principalement sa formation en économie ?
+answer: Say
+wrong_answers:
+  - Turgot
+  - Condillac
+  - Quesnay
+explanation: |
+  Frédéric Bastiat considère Jean-Baptiste Say comme une influence majeure, notamment pour ses idées sur la valeur et le libre-échange.
+reviewed: false

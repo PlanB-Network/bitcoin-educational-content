@@ -1,0 +1,9 @@
+question: Comment Proudhon envisage-t-il la propriété et sa répartition au sein de la société ?
+answer: Il voit la répartition inégale de la propriété comme une forme de vol
+wrong_answers:
+  - Il considère toute forme de propriété comme légitime et nécessaire
+  - Il souhaite abolir toute propriété individuelle au profit de la propriété collective
+  - Il pense que la propriété est immuable et ne doit pas être remise en question
+explanation: |
+  Proudhon célèbre la phrase "La propriété, c'est le vol", pour dénoncer la répartition inégalitaire de la propriété comme une forme d'injustice sociale, et non la propriété elle-même.
+reviewed: false

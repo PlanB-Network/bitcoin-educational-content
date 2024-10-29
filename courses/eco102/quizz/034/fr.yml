@@ -1,0 +1,9 @@
+question: Quelle est la vision de Bastiat sur la nature de l'homme à la naissance ?
+answer: Propriétaire
+wrong_answers:
+  - Esclave
+  - Bon
+  - Soumis
+explanation: |
+  Bastiat affirme que l'homme naît "propriétaire", car il possède en lui-même le droit de disposer de ses facultés pour subvenir à ses besoins.
+reviewed: false

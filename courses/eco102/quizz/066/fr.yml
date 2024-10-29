@@ -1,0 +1,9 @@
+question: Quelles sont les deux manières d'éclairer le jugement des citoyens selon Bastiat ?
+answer: La morale philosophique et la morale économique
+wrong_answers:
+  - La loi et l'éducation
+  - La religion et la science
+  - L'expérience personnelle et les livres
+explanation: |
+  Bastiat distingue la morale philosophique, qui touche au cœur, et la morale économique, qui éclaire l'intelligence en montrant les conséquences des actions.
+reviewed: false

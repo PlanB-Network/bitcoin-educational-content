@@ -25,7 +25,7 @@ Oma taastefraasi käsitsi loomiseks vajate:
 - Paberilehte;
 - Pliiatsit või pastakat, ideaalis erinevates värvides, et hõlbustada organiseerimist;
 - Mitut täringut, et minimeerida kallutatuse riske, mis on seotud tasakaalustamata täringuga;
-- [2048 BIP39 sõna nimekirja](https://github.com/DecouvreBitcoin/sovereign-university-data/tree/dev/tutorials/others/generate-mnemonic-phrase/assets/BIP39-WORDLIST.pdf) väljaprindituna.
+- [2048 BIP39 sõna nimekirja](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/tutorials/others/generate-mnemonic-phrase/assets/BIP39-WORDLIST.pdf) väljaprindituna.
 
 Seejärel muutub vajalikuks arvuti kasutamine koos terminaliga kontrollsumma arvutamiseks. Just sel põhjusel soovitan ma mnemonilise fraasi käsitsi genereerimist vältida. Minu arvates suurendab arvuti sekkumine, isegi selles õpetuses mainitud ettevaatusabinõude all, oluliselt rahakoti haavatavust.
 Eksperimentaalse lähenemise puhul, mis puudutab "väljamõeldud rahakotti", on võimalik kasutada teie tavalist arvutit ja selle terminali. Kuid rangema lähenemise jaoks, mille eesmärk on piirata teie fraasi kompromiteerimise riske, oleks ideaalne kasutada internetist lahti ühendatud arvutit (eelistatavalt ilma wifi komponendi või RJ45 juhtmega ühenduseta), mis on varustatud minimaalse arvu lisaseadmetega (kõik peaksid olema ühendatud kaabliga, et vältida Bluetoothi), ja mis kõige tähtsam, töötab amneesilisel Linuxi distributsioonil nagu [Tails](https://tails.boum.org/index.fr.html), käivitatuna eemaldatavalt meediumilt.
@@ -59,7 +59,7 @@ Iga selline pakett esindab binaarsüsteemis numbrit, mis seejärel teisendatakse
 
 ![mnemonic](assets/notext/5.webp)
 
-Lõpuks ütleb kümnendsüsteemi number meile vastava sõna asukoha [2048 BIP39 sõna nimekirjas](https://github.com/DecouvreBitcoin/sovereign-university-data/tree/dev/tutorials/others/generate-mnemonic-phrase/assets/BIP39-WORDLIST.pdf). Jääb üle vaid need sõnad valida, et koostada meie rahakoti taastefraas.
+Lõpuks ütleb kümnendsüsteemi number meile vastava sõna asukoha [2048 BIP39 sõna nimekirjas](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/tutorials/others/generate-mnemonic-phrase/assets/BIP39-WORDLIST.pdf). Jääb üle vaid need sõnad valida, et koostada meie rahakoti taastefraas.
 
 ![mnemonic](assets/notext/6.webp)
 
@@ -206,7 +206,7 @@ Saadud kümnendarvudega saame nüüd leida vastavad sõnad nimekirjast, et koost
 
 ![mnemonic](assets/notext/24.webp)
 Pärast seda kohandust on teil iga sõna järjestus nimekirjas. Jääb üle vaid iga sõna identifitseerida selle numbri järgi. Ilmselgelt, nagu kõigi teiste sammude puhul, ei tohi te selleks konversiooniks kasutada oma arvutit. Seega veenduge, et olete nimekirja eelnevalt välja printinud.
-[**-> Prindi BIP39 nimekiri A4 formaadis.**](https://github.com/DecouvreBitcoin/sovereign-university-data/tree/dev/tutorials/others/generate-mnemonic-phrase/assets/BIP39-WORDLIST.pdf)
+[**-> Prindi BIP39 nimekiri A4 formaadis.**](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/tutorials/others/generate-mnemonic-phrase/assets/BIP39-WORDLIST.pdf)
 
 Näiteks, kui esimeselt realt saadud number on 1721, siis vastav sõna nimekirjas on:
 ```plaintext

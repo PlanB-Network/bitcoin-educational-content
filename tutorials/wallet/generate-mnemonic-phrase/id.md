@@ -25,7 +25,7 @@ Untuk pembuatan frase pemulihan Anda secara manual, Anda akan memerlukan:
 - Selembar kertas;
 - Sebuah pena atau pensil, idealnya dengan warna yang berbeda untuk memudahkan organisasi;
 - Beberapa dadu, untuk meminimalkan risiko bias yang terkait dengan dadu yang tidak seimbang;
-- [Daftar 2048 kata BIP39](https://github.com/DecouvreBitcoin/sovereign-university-data/tree/dev/tutorials/others/generate-mnemonic-phrase/assets/BIP39-WORDLIST.pdf) yang dicetak.
+- [Daftar 2048 kata BIP39](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/tutorials/others/generate-mnemonic-phrase/assets/BIP39-WORDLIST.pdf) yang dicetak.
 
 Selanjutnya, penggunaan komputer dengan terminal akan menjadi perlu untuk perhitungan checksum. Ini adalah alasan tepat mengapa saya menyarankan terhadap generasi manual frase mnemonik. Menurut saya, intervensi komputer, bahkan di bawah tindakan pencegahan yang disebutkan dalam tutorial ini, secara signifikan meningkatkan kerentanan dompet.
 Untuk pendekatan eksperimental mengenai "dompet fiktif", Anda dapat menggunakan komputer biasa dan terminalnya. Namun, untuk pendekatan yang lebih ketat yang bertujuan untuk membatasi risiko kompromi frasa Anda, idealnya adalah menggunakan PC yang terputus dari internet (lebih disukai tanpa komponen wifi atau koneksi kabel RJ45), dilengkapi dengan minimum periferal (semua harus terhubung melalui kabel, untuk menghindari Bluetooth), dan yang terpenting, berjalan pada distribusi Linux amnesik seperti [Tails](https://tails.boum.org/index.fr.html), yang dimulai dari media yang dapat dilepas.
@@ -64,7 +64,7 @@ Setiap paket ini mewakili sebuah angka dalam biner yang kemudian akan dikonversi
 
 ![mnemonic](assets/notext/5.webp)
 
-Akhirnya, angka dalam desimal memberitahu kita posisi kata yang sesuai dalam [daftar 2048 kata BIP39](https://github.com/DecouvreBitcoin/sovereign-university-data/tree/dev/tutorials/others/generate-mnemonic-phrase/assets/BIP39-WORDLIST.pdf). Yang tersisa hanyalah memilih kata-kata ini untuk menyusun frasa pemulihan untuk dompet kita.
+Akhirnya, angka dalam desimal memberitahu kita posisi kata yang sesuai dalam [daftar 2048 kata BIP39](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/tutorials/others/generate-mnemonic-phrase/assets/BIP39-WORDLIST.pdf). Yang tersisa hanyalah memilih kata-kata ini untuk menyusun frasa pemulihan untuk dompet kita.
 
 ![mnemonic](assets/notext/6.webp)
 
@@ -202,7 +202,7 @@ Dengan angka desimal yang diperoleh, kita sekarang dapat menemukan kata-kata yan
 
 ![mnemonic](assets/notext/24.webp)
 Setelah penyesuaian ini, Anda memiliki peringkat setiap kata dalam daftar. Yang tersisa hanyalah mengidentifikasi setiap kata berdasarkan nomornya. Jelas, seperti semua langkah lainnya, Anda tidak boleh menggunakan komputer Anda untuk melakukan konversi ini. Oleh karena itu, pastikan Anda telah mencetak daftar tersebut sebelumnya.
-[**-> Cetak daftar BIP39 dalam format A4.**](https://github.com/DecouvreBitcoin/sovereign-university-data/tree/dev/tutorials/others/generate-mnemonic-phrase/assets/BIP39-WORDLIST.pdf)
+[**-> Cetak daftar BIP39 dalam format A4.**](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/tutorials/others/generate-mnemonic-phrase/assets/BIP39-WORDLIST.pdf)
 
 Sebagai contoh, jika nomor yang diperoleh dari baris pertama adalah 1721, kata yang sesuai akan menjadi kata ke-1721 dalam daftar:
 ```plaintext

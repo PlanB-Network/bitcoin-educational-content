@@ -14,7 +14,7 @@ Bitfinex soutient activement le développement de Bitcoin, en investissant dans 
 
 Pour acheter du bitcoin sur Bitfinex, commencez par [créer un compte sur la plateforme](https://www.bitfinex.com/sign-up/). Assurez-vous d'utiliser un mot de passe unique et fort, c'est-à-dire le plus aléatoire possible, comprenant une grande diversité de caractères et d'une longueur suffisante.
 
-01
+![BITFINEX](assets/notext/01.webp)
 
 Pour sécuriser vos mots de passe et garantir l'utilisation de mots de passe forts pour vos comptes en ligne, notamment sur Bitfinex, je vous conseille fortement d'utiliser un gestionnaire de mots de passe. Découvrez notre tutoriel sur Bitwarden pour apprendre à l'installer et à l'utiliser au quotidien :
 

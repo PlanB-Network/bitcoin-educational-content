@@ -105,7 +105,7 @@ NB. The review is best done in the code window with the original content in a se
 * Congratulations on your first PR!
 
 ## **7. Continue the review later**
-* If you have not finished your review and wish to continue your work, go to your fork of the sovereign-university content repository via your GitHub profile.
+* If you have not finished your review and wish to continue your work, go to your fork of the PlanB-Network content repository via your GitHub profile.
 * Select the corresponding branch.
 * Rename the branch if necessary.
 * Find your content file and click on the pencil button to resume the review.

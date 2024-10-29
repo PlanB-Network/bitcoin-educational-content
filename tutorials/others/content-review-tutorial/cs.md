@@ -103,7 +103,7 @@ NB. Recenze se nejlépe provádí v okně kódu s původním obsahem v samostatn
 * Gratulujeme k vašemu prvnímu PR!
 
 ## **7. Pokračovat v recenzi později**
-* Pokud jste recenzi nedokončili a přejete si pokračovat ve své práci, přejděte na váš fork repozitáře sovereign-university prostřednictvím vašeho profilu na GitHubu.
+* Pokud jste recenzi nedokončili a přejete si pokračovat ve své práci, přejděte na váš fork repozitáře PlanB-Network prostřednictvím vašeho profilu na GitHubu.
 * Vyberte odpovídající větev.
 * Přejmenujte větev, pokud je to nutné.
 * Najděte svůj soubor s obsahem a klikněte na tlačítko tužky, abyste pokračovali v recenzi.

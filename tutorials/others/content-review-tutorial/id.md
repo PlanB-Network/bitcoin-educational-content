@@ -95,7 +95,7 @@ NB. Peninjauan terbaik dilakukan di jendela kode dengan konten asli di jendela t
 * Selamat atas PR pertama Anda!
 
 ## **7. Lanjutkan Peninjauan Nanti**
-* Jika Anda belum menyelesaikan peninjauan dan ingin melanjutkan pekerjaan Anda, pergi ke fork Anda dari repositori konten sovereign-university melalui profil GitHub Anda.
+* Jika Anda belum menyelesaikan peninjauan dan ingin melanjutkan pekerjaan Anda, pergi ke fork Anda dari repositori konten PlanB-Network melalui profil GitHub Anda.
 * Pilih cabang yang sesuai.
 * Ganti nama cabang jika perlu.
 * Temukan file konten Anda dan klik pada tombol pena untuk melanjutkan peninjauan.

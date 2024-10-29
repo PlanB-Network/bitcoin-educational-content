@@ -89,7 +89,7 @@ NB. La revisione è meglio farla nella finestra del codice con il contenuto orig
 * Congratulazioni per la tua prima PR!
 
 ## **7. Continua la revisione più tardi**
-* Se non hai finito la tua revisione e desideri continuare il tuo lavoro, vai al tuo fork del repository dei contenuti di sovereign-university tramite il tuo profilo GitHub.
+* Se non hai finito la tua revisione e desideri continuare il tuo lavoro, vai al tuo fork del repository dei contenuti di PlanB-Network tramite il tuo profilo GitHub.
 * Seleziona il ramo corrispondente.
 * Rinomina il ramo se necessario.
 * Trova il tuo file di contenuto e clicca sul pulsante della penna per riprendere la revisione.

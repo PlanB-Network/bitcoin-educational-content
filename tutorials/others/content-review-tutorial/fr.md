@@ -108,7 +108,7 @@ NB. La révision est mieux faite dans la fenêtre de code avec le contenu origin
 * Félicitations pour votre première PR !
 
 ## **7. Continuer la révision plus tard**
-* Si vous n'avez pas terminé votre révision et que vous souhaitez continuer votre travail, allez sur votre fork du dépôt de contenu sovereign-university via votre profil GitHub.
+* Si vous n'avez pas terminé votre révision et que vous souhaitez continuer votre travail, allez sur votre fork du dépôt de contenu PlanB-Network via votre profil GitHub.
 * Sélectionnez la branche correspondante.
 * Renommez la branche si nécessaire.
 * Trouvez votre fichier de contenu et cliquez sur le bouton du stylo pour reprendre la révision.

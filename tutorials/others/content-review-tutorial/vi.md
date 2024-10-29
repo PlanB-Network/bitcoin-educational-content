@@ -103,7 +103,7 @@ NB. Việc đánh giá được thực hiện tốt nhất trong cửa sổ mã 
 * Chúc mừng bạn đã tạo PR đầu tiên!
 
 ## **7. Tiếp tục đánh giá sau này**
-* Nếu bạn chưa hoàn thành việc đánh giá và muốn tiếp tục công việc của mình, hãy truy cập vào fork của kho lưu trữ nội dung sovereign-university qua hồ sơ GitHub của bạn.
+* Nếu bạn chưa hoàn thành việc đánh giá và muốn tiếp tục công việc của mình, hãy truy cập vào fork của kho lưu trữ nội dung PlanB-Network qua hồ sơ GitHub của bạn.
 * Chọn nhánh tương ứng.
 * Đổi tên nhánh nếu cần thiết.
 * Tìm tệp nội dung của bạn và nhấp vào nút bút để tiếp tục đánh giá.

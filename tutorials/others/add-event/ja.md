@@ -13,7 +13,7 @@ PlanB NetworkサイトにBitcoinカンファレンスを追加してイベント
 https://planb.network/tutorials/others/create-github-account
 
 
-- `resources/conference/`セクションにある[PlanB専用のデータGitHubリポジトリ](https://github.com/DecouvreBitcoin/sovereign-university-data/tree/dev/resources/conference)にアクセスしてください：
+- `resources/conference/`セクションにある[PlanB専用のデータGitHubリポジトリ](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/conference)にアクセスしてください：
 ![event](assets/02.webp)
 - 右上の`Add file`ボタンをクリックし、次に`Create new file`をクリックします：
 ![event](assets/03.webp)
@@ -146,3 +146,4 @@ https://planb.network/tutorials/others/add-builder
 PRの進行状況を確認し続けてください。管理者が追加情報を求めるコメントを残すことがあります。PRが承認されるまで、PlanB Network GitHubリポジトリの`Pull requests`タブでそれを確認することができます：
 ![event](assets/38.webp)
 貴重な貢献をいただき、ありがとうございます！ :)
+

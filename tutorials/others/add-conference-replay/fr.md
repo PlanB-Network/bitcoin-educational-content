@@ -19,7 +19,7 @@ https://planb.network/tutorials/others/add-event
 https://planb.network/tutorials/others/create-github-account
 
 
-- Rendez-vous sur [le dépôt GitHub de PlanB dédié à la data](https://github.com/DecouvreBitcoin/sovereign-university-data/tree/dev/resources/conference) dans la section `resources/conference/` :
+- Rendez-vous sur [le dépôt GitHub de PlanB dédié à la data](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/conference) dans la section `resources/conference/` :
 ![conference](assets/02.webp)
 - Cliquez en haut à droite sur le bouton `Add file`, puis sur `Create new file` :
 ![conference](assets/03.webp)
@@ -220,3 +220,4 @@ Félicitations ! Votre PR a bien été créée. Un administrateur va maintena
 Pensez bien à suivre le progrès de votre PR. Il est possible qu'un administrateur y laisse un commentaire pour demander des informations supplémentaires. Tant que votre PR n'est pas validée, vous pouvez la consulter dans l'onglet `Pull requests` sur le dépôt GitHub de PlanB Network :
 ![conference](assets/46.webp)
 Merci beaucoup pour votre précieuse contribution ! :)
+

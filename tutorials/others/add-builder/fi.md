@@ -13,7 +13,7 @@ Haluatko lisätä uuden Bitcoin "rakentajan" PlanB-verkon sivustolle ja antaa n�
 https://planb.network/tutorials/others/create-github-account
 
 
-- Mene [PlanB:n GitHub-repositorioon, joka on omistettu datalle](https://github.com/DecouvreBitcoin/sovereign-university-data/tree/dev/resources/builders) `resources/builder/` osiossa:
+- Mene [PlanB:n GitHub-repositorioon, joka on omistettu datalle](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/builders) `resources/builder/` osiossa:
 ![builder](assets/02.webp)
 - Klikkaa oikeassa yläkulmassa `Add file` -nappia, sitten `Create new file`:
 ![builder](assets/03.webp)

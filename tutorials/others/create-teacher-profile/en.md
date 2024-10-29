@@ -30,7 +30,7 @@ Let's discover together how to add a new professor in this tutorial!
 
 ## How to create a new professor profile?
 
-- Open your browser and navigate to the page of your fork of the PlanB repository. The URL of your fork should look like: `https://github.com/[username]/sovereign-university-data`
+- Open your browser and navigate to the page of your fork of the PlanB repository. The URL of your fork should look like: `https://github.com/[username]/bitcoin-educational-content`
 ![tutorial](assets/4.webp)
 - Make sure you are on the main branch `dev` then click on the `Sync fork` button. If your fork is not up to date, GitHub will offer to update your branch. Proceed with this synchronization.
 
@@ -45,7 +45,7 @@ Let's discover together how to add a new professor in this tutorial!
 ![tutorial](assets/8.webp)
 - Click on this branch, then click on the `New Branch` button:
 ![tutorial](assets/9.webp)
-- Make sure the new branch is based on the source repository, namely `DecouvreBitcoin/sovereign-university-data`.
+- Make sure the new branch is based on the source repository, namely `PlanB-Network/bitcoin-educational-content`.
 
 - Name your branch in a way that the title is clear about its purpose, using dashes to separate each word. Since this branch is intended for adding a professor profile, an example name could be: `add-professor-[your-name]`. After entering the name, click on `Create branch` to confirm its creation:
 ![tutorial](assets/10.webp)
@@ -53,7 +53,7 @@ Let's discover together how to add a new professor in this tutorial!
 ![tutorial](assets/11.webp)
 - At this point, on GitHub Desktop, you should be on your new branch. This means that all modifications made locally on your computer will be exclusively recorded on this specific branch. Also, as long as this branch remains selected on GitHub Desktop, the files visible locally on your machine correspond to those of this branch (`add-professor-your-name`), and not to those of the main branch (`dev`):
 ![tutorial](assets/12.webp)
-- To add your professor profile, open your file explorer and navigate to your local repository, in the `professors` folder. You will find it under the path: `\GitHub\sovereign-university-data\professors`.
+- To add your professor profile, open your file explorer and navigate to your local repository, in the `professors` folder. You will find it under the path: `\GitHub\bitcoin-educational-content\professors`.
 
 - Within this folder, create a new folder named with your name or pseudonym. Make sure there are no spaces in the folder name. Thus, if your name is "Loic Pandul" and no other professor has this name, the folder to create will be named `loic-pandul`:
 ![tutorial](assets/13.webp)

@@ -8,12 +8,12 @@ PlanB的使命是以尽可能多的语言提供关于比特币的领先教育资
 
 如果在查阅我们的教育内容（教程、培训、资源等）时，您发现了错误，无论是拼写错误、语法、轻微的翻译错误，还是打字错误，如果您能提出快速更正，我们将非常感激。
 
-本教程将一步步指导您如何更正这些小错误。这是一个为不希望深入Git复杂性的初学者准备的教程。然而，如果您对Git很熟悉，这里有一个快速总结：您只需要fork [PlanB网络数据仓库](https://github.com/DecouvreBitcoin/sovereign-university-data)，在一个专用分支上进行更改，然后提交Pull Request到源仓库的`dev`分支。
+本教程将一步步指导您如何更正这些小错误。这是一个为不希望深入Git复杂性的初学者准备的教程。然而，如果您对Git很熟悉，这里有一个快速总结：您只需要fork [PlanB网络数据仓库](https://github.com/PlanB-Network/bitcoin-educational-content)，在一个专用分支上进行更改，然后提交Pull Request到源仓库的`dev`分支。
 
 请注意，如果您计划对文档进行完整的审查和修订，特别是内容翻译，我邀请您查阅[这个更详细的教程](https://planb.network/tutorials/others/content-review-tutorial)。这里，我们只关注如何对小错误进行快速更正。
 
 - 首先，您需要在GitHub上有一个账户。如果您不知道如何创建账户，我们制作了[一个详细的教程来指导您](https://planb.network/tutorials/others/create-github-account)。
-- 前往[PlanB专用于数据的GitHub仓库](https://github.com/DecouvreBitcoin/sovereign-university-data)：
+- 前往[PlanB专用于数据的GitHub仓库](https://github.com/PlanB-Network/bitcoin-educational-content)：
 ![打字错误](assets/01.webp)
 - 在这里，您将找到按部分组织的所有内容。
 - 如果您希望修改一个教程，例如，进入`tutorials`文件夹：
@@ -36,5 +36,5 @@ PlanB的使命是以尽可能多的语言提供关于比特币的领先教育资
 - 您将到达PR页面。Pull Request是由贡献者发送的请求，表明他们已经在远程仓库的一个分支上推送了修改，并且希望这些修改能够被审查并可能合并到仓库的主分支中：![typos](assets/17.webp)
 - 您可以为您的PR添加一个标题和一个简短的描述：![typos](assets/18.webp)
 - 如果一切看起来都不错，您可以点击绿色的`Create Pull Request`按钮：![typos](assets/19.webp)
-- 恭喜，您的PR已经发送！您可以在[PlanB Network GitHub仓库](https://github.com/DecouvreBitcoin/sovereign-university-data/pulls)的`Pull requests`标签页上跟踪它的进度：![typos](assets/20.webp)
+- 恭喜，您的PR已经发送！您可以在[PlanB Network GitHub仓库](https://github.com/PlanB-Network/bitcoin-educational-content/pulls)的`Pull requests`标签页上跟踪它的进度：![typos](assets/20.webp)
 非常感谢您的贡献！如果您想对PlanB Network做出其他类型的贡献，如内容撰写或翻译，请随时[查看我们在“贡献”部分的其他教程](https://planb.network/tutorials/others)。

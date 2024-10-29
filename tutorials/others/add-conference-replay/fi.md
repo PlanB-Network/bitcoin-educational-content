@@ -19,7 +19,7 @@ https://planb.network/tutorials/others/add-event
 https://planb.network/tutorials/others/create-github-account
 
 
-- Siirry [PlanB:n GitHub-repositorioon, joka on omistettu datalle](https://github.com/DecouvreBitcoin/sovereign-university-data/tree/dev/resources/conference) `resources/conference/`-osiossa:
+- Siirry [PlanB:n GitHub-repositorioon, joka on omistettu datalle](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/conference) `resources/conference/`-osiossa:
 ![konferenssi](assets/02.webp)
 - Klikkaa oikeassa yläkulmassa `Add file`-painiketta, sitten `Create new file`:
 ![konferenssi](assets/03.webp)

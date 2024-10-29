@@ -30,7 +30,7 @@ Si previamente has contribuido a la Red PlanB, es probable que ya tengas un ID d
 
 ## ¿Cómo crear un nuevo perfil de profesor?
 
-- Abre tu navegador y navega a la página de tu fork del repositorio PlanB. La URL de tu fork debería verse así: `https://github.com/[nombredeusuario]/sovereign-university-data`
+- Abre tu navegador y navega a la página de tu fork del repositorio PlanB. La URL de tu fork debería verse así: `https://github.com/[nombredeusuario]/bitcoin-educational-content`
 ![tutorial](assets/4.webp)
 - Asegúrate de estar en la rama principal `dev` y luego haz clic en el botón `Sync fork`. Si tu fork no está actualizado, GitHub te ofrecerá actualizar tu rama. Procede con esta sincronización.
 
@@ -45,14 +45,14 @@ Si previamente has contribuido a la Red PlanB, es probable que ya tengas un ID d
 ![tutorial](assets/8.webp)
 - Haz clic en esta rama, luego haz clic en el botón `New Branch`:
 ![tutorial](assets/9.webp)
-- Asegúrate de que la nueva rama esté basada en el repositorio fuente, a saber, `DecouvreBitcoin/sovereign-university-data`.
+- Asegúrate de que la nueva rama esté basada en el repositorio fuente, a saber, `PlanB-Network/bitcoin-educational-content`.
 - Nombra tu rama de una manera que el título sea claro sobre su propósito, utilizando guiones para separar cada palabra. Dado que esta rama está destinada a agregar un perfil de profesor, un nombre de ejemplo podría ser: `add-professor-[tu-nombre]`. Después de ingresar el nombre, haz clic en `Create branch` para confirmar su creación:
 ![tutorial](assets/10.webp)
 - Ahora haz clic en el botón `Publish branch` para guardar tu nueva rama de trabajo en tu fork en línea en GitHub:
 ![tutorial](assets/11.webp)
 - En este punto, en GitHub Desktop, deberías estar en tu nueva rama. Esto significa que todas las modificaciones realizadas localmente en tu computadora se registrarán exclusivamente en esta rama específica. Además, mientras esta rama permanezca seleccionada en GitHub Desktop, los archivos visibles localmente en tu máquina corresponden a los de esta rama (`add-professor-tu-nombre`), y no a los de la rama principal (`dev`):
 ![tutorial](assets/12.webp)
-- Para agregar tu perfil de profesor, abre tu explorador de archivos y navega a tu repositorio local, en la carpeta `professors`. La encontrarás bajo la ruta: `\GitHub\sovereign-university-data\professors`.
+- Para agregar tu perfil de profesor, abre tu explorador de archivos y navega a tu repositorio local, en la carpeta `professors`. La encontrarás bajo la ruta: `\GitHub\bitcoin-educational-content\professors`.
 
 - Dentro de esta carpeta, crea una nueva carpeta nombrada con tu nombre o pseudónimo. Asegúrate de que no haya espacios en el nombre de la carpeta. Así, si tu nombre es "Loic Pandul" y ningún otro profesor tiene este nombre, la carpeta a crear será nombrada `loic-pandul`:
 ![tutorial](assets/13.webp)

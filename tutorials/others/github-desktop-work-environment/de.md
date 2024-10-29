@@ -60,13 +60,13 @@ Um die Konsistenz zwischen diesen beiden Repositories zu wahren, wird es notwend
 
 - Kehren Sie zur GitHub Desktop-Software zurück. Ihr Fork sollte mittlerweile im Abschnitt `Your repositories` erscheinen. Wenn Sie ihn nicht sofort sehen, verwenden Sie den Doppelpfeil-Button, um die Liste zu aktualisieren. Wenn Ihr Fork erscheint, klicken Sie darauf, um ihn auszuwählen:
 ![github-desktop](assets/15.webp)
-- Klicken Sie dann auf den blauen Button: `Clone [username]/sovereign-university-data`:
+- Klicken Sie dann auf den blauen Button: `Clone [username]/bitcoin-educational-content`:
 ![github-desktop](assets/16.webp)
 - Behalten Sie den Standardpfad bei. Um zu bestätigen, klicken Sie auf den blauen `Clone`-Button:
 ![github-desktop](assets/17.webp)
 - Warten Sie, während GitHub Desktop Ihren Fork lokal klont:
 ![github-desktop](assets/18.webp)
-- Nachdem Sie das Repository geklont haben, bietet Ihnen die Software zwei Optionen an. Sie müssen die erste wählen: `To contribute to the parent project`. Diese Wahl ermöglicht es Ihnen, Ihre zukünftigen Arbeiten als Beitrag zum übergeordneten Projekt (`DecouvreBitcoin/sovereign-university-data`) zu präsentieren und nicht ausschließlich als Modifikation Ihres persönlichen Forks (`[username]/sovereign-university-data`). Sobald die Option gewählt ist, klicken Sie auf `Continue`: ![github-desktop](assets/19.webp)
+- Nachdem Sie das Repository geklont haben, bietet Ihnen die Software zwei Optionen an. Sie müssen die erste wählen: `To contribute to the parent project`. Diese Wahl ermöglicht es Ihnen, Ihre zukünftigen Arbeiten als Beitrag zum übergeordneten Projekt (`PlanB-Network/bitcoin-educational-content`) zu präsentieren und nicht ausschließlich als Modifikation Ihres persönlichen Forks (`[username]/bitcoin-educational-content`). Sobald die Option gewählt ist, klicken Sie auf `Continue`: ![github-desktop](assets/19.webp)
 - Ihr GitHub Desktop ist jetzt korrekt konfiguriert. Nun können Sie die Software im Hintergrund offen lassen, um den Modifikationen zu folgen, die wir vornehmen werden.
 ![github-desktop](assets/20.webp)
 Was wir in diesem Stadium erreicht haben, ist die Erstellung einer lokalen Kopie Ihres Repositories, die auf GitHub gehostet wird. Zur Erinnerung, dieses Repository ist ein Fork des Quell-Repositories des PlanB Netzwerks. Sie werden in der Lage sein, Modifikationen an dieser lokalen Kopie vorzunehmen, wie das Hinzufügen von Tutorials, Übersetzungen oder Korrekturen. Sobald diese Modifikationen gemacht sind, werden Sie den Befehl **Push origin** verwenden, um Ihre lokalen Modifikationen zu Ihrem auf GitHub gehosteten Fork zu senden.
@@ -82,7 +82,7 @@ Sie können auch Modifikationen vom Fork abrufen, zum Beispiel während einer Sy
 - Ihr Datei-Explorer wird sich öffnen. Sie müssen den Ordner mit dem Titel `GitHub` lokalisieren und auswählen, der sich in Ihrem `Dokumente`-Verzeichnis unter Ihren Dateien befinden sollte. Dieser Pfad entspricht dem, den Sie während Schritt 4 festgelegt haben. Nachdem Sie den Ordner ausgewählt haben, bestätigen Sie seine Auswahl. Die Erstellung Ihres Tresors auf Obsidian wird dann auf einer neuen Seite der Software gestartet:
 
 ![github-desktop](assets/24.webp)
--> **Achtung**, es ist wichtig, nicht den `sovereign-university-data`-Ordner beim Erstellen eines neuen Tresors in Obsidian auszuwählen. Wählen Sie stattdessen den übergeordneten Ordner, `GitHub`. Wenn Sie den `sovereign-university-data`-Ordner auswählen, wird der Konfigurationsordner `.obsidian`, der Ihre lokalen Obsidian-Einstellungen enthält, automatisch in das Repository integriert. Dies wollen wir vermeiden, da es nicht notwendig ist, Ihre Obsidian-Konfigurationen zum PlanB Netzwerk Repository zu übertragen. Eine Alternative wäre, den `.obsidian`-Ordner zur `.gitignore`-Datei hinzuzufügen, aber diese Methode würde auch die `.gitignore`-Datei des Quell-Repositories ändern, was nicht wünschenswert ist.
+-> **Achtung**, es ist wichtig, nicht den `bitcoin-educational-content`-Ordner beim Erstellen eines neuen Tresors in Obsidian auszuwählen. Wählen Sie stattdessen den übergeordneten Ordner, `GitHub`. Wenn Sie den `bitcoin-educational-content`-Ordner auswählen, wird der Konfigurationsordner `.obsidian`, der Ihre lokalen Obsidian-Einstellungen enthält, automatisch in das Repository integriert. Dies wollen wir vermeiden, da es nicht notwendig ist, Ihre Obsidian-Konfigurationen zum PlanB Netzwerk Repository zu übertragen. Eine Alternative wäre, den `.obsidian`-Ordner zur `.gitignore`-Datei hinzuzufügen, aber diese Methode würde auch die `.gitignore`-Datei des Quell-Repositories ändern, was nicht wünschenswert ist.
 
 - Auf der linken Seite des Fensters können Sie den Dateibaum mit Ihren verschiedenen GitHub-Repositories sehen, die lokal geklont wurden.
 - Indem Sie auf die Pfeile neben den Ordnernamen klicken, können Sie sie erweitern, um auf die Unterordner der Repositories und deren Dokumente zuzugreifen:

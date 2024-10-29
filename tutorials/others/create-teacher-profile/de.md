@@ -30,7 +30,7 @@ Lassen Sie uns gemeinsam entdecken, wie man einen neuen Professor in diesem Tuto
 
 ## Wie erstellt man ein neues Profil als Professor?
 
-- Öffnen Sie Ihren Browser und navigieren Sie zur Seite Ihres Forks des PlanB Repositories. Die URL Ihres Forks sollte so aussehen: `https://github.com/[Benutzername]/sovereign-university-data`
+- Öffnen Sie Ihren Browser und navigieren Sie zur Seite Ihres Forks des PlanB Repositories. Die URL Ihres Forks sollte so aussehen: `https://github.com/[Benutzername]/bitcoin-educational-content`
 ![tutorial](assets/4.webp)
 - Stellen Sie sicher, dass Sie sich im Hauptzweig `dev` befinden, dann klicken Sie auf den `Sync fork`-Knopf. Wenn Ihr Fork nicht auf dem neuesten Stand ist, wird GitHub Ihnen anbieten, Ihren Zweig zu aktualisieren. Führen Sie diese Synchronisation durch.
 
@@ -45,14 +45,14 @@ Lassen Sie uns gemeinsam entdecken, wie man einen neuen Professor in diesem Tuto
 ![tutorial](assets/8.webp)
 - Klicken Sie auf diesen Zweig, dann klicken Sie auf den `New Branch`-Knopf:
 ![tutorial](assets/9.webp)
-- Stellen Sie sicher, dass der neue Zweig auf dem Quell-Repository basiert, nämlich `DecouvreBitcoin/sovereign-university-data`.
+- Stellen Sie sicher, dass der neue Zweig auf dem Quell-Repository basiert, nämlich `PlanB-Network/bitcoin-educational-content`.
 - Benennen Sie Ihren Zweig so, dass der Titel klar seinen Zweck beschreibt, indem Sie Bindestriche verwenden, um jedes Wort zu trennen. Da dieser Zweig für das Hinzufügen eines Professorenprofils vorgesehen ist, könnte ein Beispielname sein: `add-professor-[Ihr-Name]`. Nachdem Sie den Namen eingegeben haben, klicken Sie auf `Create branch`, um dessen Erstellung zu bestätigen:
 ![Tutorial](assets/10.webp)
 - Klicken Sie nun auf den Button `Publish branch`, um Ihren neuen Arbeitszweig in Ihrem Online-Fork auf GitHub zu speichern:
 ![Tutorial](assets/11.webp)
 - Zu diesem Zeitpunkt sollten Sie in GitHub Desktop auf Ihrem neuen Zweig sein. Das bedeutet, dass alle lokal auf Ihrem Computer vorgenommenen Änderungen ausschließlich auf diesem spezifischen Zweig aufgezeichnet werden. Solange dieser Zweig in GitHub Desktop ausgewählt bleibt, entsprechen die lokal auf Ihrem Gerät sichtbaren Dateien denen dieses Zweigs (`add-professor-Ihr-Name`), und nicht denen des Hauptzweigs (`dev`):
 ![Tutorial](assets/12.webp)
-- Um Ihr Professorenprofil hinzuzufügen, öffnen Sie Ihren Datei-Explorer und navigieren zu Ihrem lokalen Repository im Ordner `professors`. Sie finden ihn unter dem Pfad: `\GitHub\sovereign-university-data\professors`.
+- Um Ihr Professorenprofil hinzuzufügen, öffnen Sie Ihren Datei-Explorer und navigieren zu Ihrem lokalen Repository im Ordner `professors`. Sie finden ihn unter dem Pfad: `\GitHub\bitcoin-educational-content\professors`.
 
 - Erstellen Sie innerhalb dieses Ordners einen neuen Ordner, benannt nach Ihrem Namen oder Pseudonym. Stellen Sie sicher, dass im Ordnernamen keine Leerzeichen enthalten sind. Wenn Ihr Name also "Loic Pandul" ist und kein anderer Professor diesen Namen hat, wird der zu erstellende Ordner `loic-pandul` genannt:
 ![Tutorial](assets/13.webp)

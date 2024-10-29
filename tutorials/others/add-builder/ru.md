@@ -13,7 +13,7 @@ description: Как предложить добавление нового ст�
 https://planb.network/tutorials/others/create-github-account
 
 
-- Перейдите в [репозиторий GitHub PlanB, посвященный данным](https://github.com/DecouvreBitcoin/sovereign-university-data/tree/dev/resources/builders) в раздел `resources/builder/`:
+- Перейдите в [репозиторий GitHub PlanB, посвященный данным](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/builders) в раздел `resources/builder/`:
 ![builder](assets/02.webp)
 - Нажмите в верхнем правом углу на кнопку `Add file`, затем на `Create new file`:
 ![builder](assets/03.webp)

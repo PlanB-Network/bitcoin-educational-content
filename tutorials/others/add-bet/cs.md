@@ -17,7 +17,7 @@ Chcete se podílet na obohacování této databáze, ale nevíte jak? Tento tuto
 https://planb.network/tutorials/others/create-github-account
 
 
-- Přejděte na [GitHubový repozitář PlanB věnovaný datům](https://github.com/DecouvreBitcoin/sovereign-university-data/tree/dev/resources/bet) v sekci `resources/bet/`:
+- Přejděte na [GitHubový repozitář PlanB věnovaný datům](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/bet) v sekci `resources/bet/`:
 ![event](assets/02.webp)
 - Klikněte vpravo nahoře na tlačítko `Add file`, poté na `Create new file`:
 ![event](assets/03.webp)
@@ -72,7 +72,7 @@ https://planb.network/tutorials/others/add-builder
 Například váš YAML soubor by mohl vypadat takto:
 
 ```yaml
-builder: DecouvreBitcoin
+builder: PlanB-Network
 type: Educational Content
 links:
   download: https://workspace.planb.network/s/fojeJa7ZbftQTwo
@@ -157,7 +157,7 @@ description: |
 - Získejte mezičlánek URL vašeho souboru. Například v mém případě je URL:
 
 ```url
-https://github.com/tutorial-pandul/sovereign-university-data/blob/patch-1/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf
+https://github.com/tutorial-pandul/bitcoin-educational-content/blob/patch-1/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf
 ```
 
 - Ponechte pouze poslední část URL od `/resources` dále:
@@ -169,7 +169,7 @@ https://github.com/tutorial-pandul/sovereign-university-data/blob/patch-1/resour
 - K základu URL přidejte následující informace, abyste měli správný odkaz:
 
 ```url
-https://github.com/DiscoverBitcoin/sovereign-university-data/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf
+https://github.com/DiscoverBitcoin/bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf
 ```
 
 To, co zde děláme, je předvídání budoucího odkazu na váš soubor, jakmile bude váš návrh sloučen do zdrojového repozitáře sítě PlanB.

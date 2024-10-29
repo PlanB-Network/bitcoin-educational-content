@@ -59,7 +59,7 @@ Una volta che tutto è a posto, e il tuo ambiente locale è ben configurato con 
 
 ### Crea un nuovo ramo
 
-- Apri il tuo browser e vai alla pagina del tuo fork del repository PlanB. Questo è il fork che hai stabilito su GitHub. L'URL del tuo fork dovrebbe apparire così: `https://github.com/[il-tuo-username]/sovereign-university-data`:
+- Apri il tuo browser e vai alla pagina del tuo fork del repository PlanB. Questo è il fork che hai stabilito su GitHub. L'URL del tuo fork dovrebbe apparire così: `https://github.com/[il-tuo-username]/bitcoin-educational-content`:
 ![tutorial](assets/3.webp)
 - Assicurati di essere sul ramo principale `dev` poi clicca sul pulsante `Sync fork`. Se il tuo fork non è aggiornato, GitHub offrirà di aggiornare il tuo ramo. Procedi con questo aggiornamento. Se, al contrario, il tuo ramo è già aggiornato, GitHub ti informerà:
 ![tutorial](assets/4.webp)
@@ -70,7 +70,7 @@ Una volta che tutto è a posto, e il tuo ambiente locale è ben configurato con 
 ![tutorial](assets/7.webp)
 - Clicca su questo ramo, poi clicca sul pulsante `New Branch`:
 ![tutorial](assets/8.webp)
-- Assicurati che il nuovo ramo sia basato sul repository sorgente, ovvero `DecouvreBitcoin/sovereign-university-data`.
+- Assicurati che il nuovo ramo sia basato sul repository sorgente, ovvero `PlanB-Network/bitcoin-educational-content`.
 - Nominare il tuo ramo in modo che il titolo sia chiaro riguardo al suo scopo, utilizzando trattini per separare ogni parola. Ad esempio, diciamo che il nostro obiettivo è scrivere un tutorial sull'uso del software Sparrow Wallet. In questo caso, il ramo di lavoro dedicato alla scrittura di questo tutorial potrebbe essere nominato: `tuto-sparrow-wallet-loic`. Una volta inserito il nome appropriato, clicca su `Create branch` per confermare la creazione del ramo:
 ![tutorial](assets/9.webp)
 - Ora clicca sul pulsante `Publish branch` per salvare il tuo nuovo ramo di lavoro sul tuo fork online su GitHub:
@@ -81,7 +81,7 @@ Per ogni nuovo articolo che desideri pubblicare, dovrai creare un nuovo ramo da 
 ### Aggiungere il tutorial
 
 Ora che il ramo di lavoro è stato creato, è il momento di integrare il tuo nuovo tutorial.
-- Apri il tuo gestore di file e naviga fino alla cartella `sovereign-university-data`, che rappresenta il clone locale del tuo repository. Normalmente dovresti trovarla sotto `Documents\GitHub\sovereign-university-data`. All'interno di questa directory, sarà necessario individuare la sottocartella appropriata per posizionare il tuo tutorial. L'organizzazione delle cartelle riflette le diverse sezioni del sito web PlanB Network. Nel nostro esempio, poiché desideriamo aggiungere un tutorial su Sparrow Wallet, è appropriato andare al seguente percorso: `sovereign-university-data\tutorials\wallet` che corrisponde alla sezione `WALLET` sul sito web: ![tutorial](assets/12.webp)
+- Apri il tuo gestore di file e naviga fino alla cartella `bitcoin-educational-content`, che rappresenta il clone locale del tuo repository. Normalmente dovresti trovarla sotto `Documents\GitHub\bitcoin-educational-content`. All'interno di questa directory, sarà necessario individuare la sottocartella appropriata per posizionare il tuo tutorial. L'organizzazione delle cartelle riflette le diverse sezioni del sito web PlanB Network. Nel nostro esempio, poiché desideriamo aggiungere un tutorial su Sparrow Wallet, è appropriato andare al seguente percorso: `bitcoin-educational-content\tutorials\wallet` che corrisponde alla sezione `WALLET` sul sito web: ![tutorial](assets/12.webp)
 - All'interno della cartella `wallet`, devi creare una nuova directory specificamente dedicata al tuo tutorial. Il nome di questa cartella deve evocare il software trattato nel tutorial, assicurandosi di collegare le parole con trattini. Per il mio esempio, la cartella sarà intitolata `sparrow-wallet`:
 ![tutorial](assets/13.webp)
 - In questa nuova sottocartella dedicata al tuo tutorial, devono essere aggiunti diversi elementi:
@@ -92,7 +92,7 @@ Ora che il ramo di lavoro è stato creato, è il momento di integrare il tuo nuo
 ![tutorial](assets/14.webp)
 - Per riassumere, ecco la gerarchia dei file da creare:
 ```plaintext
-sovereign-university-data/
+bitcoin-educational-content/
 └── tutorials/
     └── wallet/ (da modificare con la categoria giusta)
         └── sparrow-wallet/ (da modificare con il nome del tutorial)

@@ -8,7 +8,7 @@ PlanB missiooniks on pakkuda tipptasemel haridusressursse Bitcoin'i kohta võima
 
 Kui soovite PlanB võrgustikule lisada uue täieliku õpetuse või kursuse, peate looma oma professori profiili. See võimaldab teil saada nõuetekohast tunnustust veebisaidil loodud sisu eest.
 ![õpetus](assets/1.webp)
-Kui olete varem PlanB võrgustikule kaasa aidanud, on teil tõenäoliselt juba kaastöötaja ID. Leiate selle oma professori kaustast, mis on kättesaadav [sellel lehel](https://github.com/DecouvreBitcoin/sovereign-university-data/tree/dev/professors). Kui see nii on, võite selle õpetuse vahele jätta ja otse kaasa lööma hakata.
+Kui olete varem PlanB võrgustikule kaasa aidanud, on teil tõenäoliselt juba kaastöötaja ID. Leiate selle oma professori kaustast, mis on kättesaadav [sellel lehel](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/professors). Kui see nii on, võite selle õpetuse vahele jätta ja otse kaasa lööma hakata.
 ![õpetus](assets/2.webp)
 
 Avastame koos, kuidas lisada uus professor selles õpetuses!
@@ -21,7 +21,7 @@ Avastame koos, kuidas lisada uus professor selles õpetuses!
 ![õpetus](assets/3.webp)
 **Eeltingimused enne õpetuse alustamist:**
 - Omama [GitHubi kontot](https://github.com/signup).
-- Omama fork'i [PlanB võrgustiku lähterepositooriumist](https://github.com/DecouvreBitcoin/sovereign-university-data).
+- Omama fork'i [PlanB võrgustiku lähterepositooriumist](https://github.com/PlanB-Network/bitcoin-educational-content).
 
 **Kui vajate abi nende eeltingimuste saamiseks, juhendavad teid minu teised õpetused:**
 - **[Git'i ja GitHubi mõistmine](https://planb.network/tutorials/others/basics-of-github)**
@@ -30,7 +30,7 @@ Avastame koos, kuidas lisada uus professor selles õpetuses!
 
 ## Kuidas luua uut professori profiili?
 
-- Avage oma brauser ja navigeerige oma PlanB repositooriumi forki lehele. Teie forki URL peaks välja nägema selline: `https://github.com/[kasutajanimi]/sovereign-university-data`
+- Avage oma brauser ja navigeerige oma PlanB repositooriumi forki lehele. Teie forki URL peaks välja nägema selline: `https://github.com/[kasutajanimi]/bitcoin-educational-content`
 ![õpetus](assets/4.webp)
 - Veenduge, et olete peaharus `dev`, seejärel klõpsake nupul `Sync fork`. Kui teie fork ei ole ajakohane, pakub GitHub teie haru uuendamist. Jätkake selle sünkroniseerimisega.
 
@@ -45,14 +45,14 @@ Avastame koos, kuidas lisada uus professor selles õpetuses!
 ![õpetus](assets/8.webp)
 - Klõpsake sellel harul, seejärel klõpsake nupul `New Branch`:
 ![õpetus](assets/9.webp)
-- Veenduge, et uus haru põhineb lähterepositooriumil, nimelt `DecouvreBitcoin/sovereign-university-data`.
+- Veenduge, et uus haru põhineb lähterepositooriumil, nimelt `PlanB-Network/bitcoin-educational-content`.
 - Nimetage oma haru viisil, mis teeb selle eesmärgi selgeks, kasutades iga sõna eraldamiseks sidekriipse. Kuna see haru on mõeldud professori profiili lisamiseks, võiks näiteks nimi olla: `add-professor-[teie-nimi]`. Pärast nime sisestamist klõpsake `Create branch`, et kinnitada selle loomist:
 ![õpetus](assets/10.webp)
 - Nüüd klõpsake nuppu `Publish branch`, et salvestada oma uus tööharu oma veebiharule GitHubis:
 ![õpetus](assets/11.webp)
 - Sel hetkel, GitHub Desktopis, peaksite olema oma uuel harul. See tähendab, et kõik arvutis kohapeal tehtud muudatused salvestatakse ainult sellel konkreetsel harul. Samuti, niikaua kui see haru on GitHub Desktopis valitud, vastavad teie masinas kohapeal nähtavad failid nende haru failidele (`add-professor-your-name`), mitte põhiharu (`dev`) failidele:
 ![õpetus](assets/12.webp)
-- Oma professori profiili lisamiseks avage oma failihaldur ja navigeerige oma kohalikku repositooriumisse, kaustas `professors`. Leiate selle teekonna alt: `\GitHub\sovereign-university-data\professors`.
+- Oma professori profiili lisamiseks avage oma failihaldur ja navigeerige oma kohalikku repositooriumisse, kaustas `professors`. Leiate selle teekonna alt: `\GitHub\bitcoin-educational-content\professors`.
 
 - Selles kaustas looge uus kaust, mis on nimetatud teie nime või pseudonüümi järgi. Veenduge, et kausta nimes poleks tühikuid. Seega, kui teie nimi on "Loic Pandul" ja ükski teine professor ei oma seda nime, tuleb luua kaust nimega `loic-pandul`:
 ![õpetus](assets/13.webp)

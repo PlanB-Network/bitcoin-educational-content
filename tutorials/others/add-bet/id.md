@@ -13,7 +13,7 @@ Apakah Anda ingin berpartisipasi dalam memperkaya database ini, tetapi tidak tah
 *Penting bahwa semua konten yang diintegrasikan ke dalam situs bebas dari hak atau menghormati lisensi file sumber. Juga, semua visual yang dipublikasikan di Jaringan PlanB tersedia di bawah lisensi [CC-BY-SA](https://creativecommons.org/licenses/by-sa/4.0/).*
 ![event](assets/01.webp)
 - Pertama, Anda perlu memiliki akun di GitHub. Jika Anda tidak tahu cara membuat akun, kami telah membuat [tutorial terperinci untuk membimbing Anda](https://planb.network/tutorials/others/create-github-account).
-- Pergi ke [repositori GitHub PlanB yang didedikasikan untuk data](https://github.com/DecouvreBitcoin/sovereign-university-data/tree/dev/resources/bet) di bagian `resources/bet/`:
+- Pergi ke [repositori GitHub PlanB yang didedikasikan untuk data](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/bet) di bagian `resources/bet/`:
 ![event](assets/02.webp)
 - Klik di kanan atas pada tombol `Add file`, lalu pada `Create new file`:
 ![event](assets/03.webp)
@@ -64,7 +64,7 @@ contributors:
 Sebagai contoh, file YAML Anda bisa terlihat seperti ini:
 
 ```yaml
-builder: DecouvreBitcoin
+builder: PlanB-Network
 type: Educational Content
 links:
   download: https://workspace.planb.network/s/fojeJa7ZbftQTwo
@@ -149,7 +149,7 @@ description: |
 - Ambil URL sementara dari file Anda. Sebagai contoh, dalam kasus saya, URL-nya adalah:
 
 ```url
-https://github.com/tutorial-pandul/sovereign-university-data/blob/patch-1/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf
+https://github.com/tutorial-pandul/bitcoin-educational-content/blob/patch-1/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf
 ```
 
 - Pertahankan hanya bagian terakhir dari URL mulai dari `/resources` ke depan:
@@ -161,7 +161,7 @@ https://github.com/tutorial-pandul/sovereign-university-data/blob/patch-1/resour
 - Tambahkan ke dasar URL informasi berikut untuk mendapatkan link yang benar:
 
 ```url
-https://github.com/DiscoverBitcoin/sovereign-university-data/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf
+https://github.com/DiscoverBitcoin/bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf
 ```
 
 Apa yang kita lakukan di sini adalah mengantisipasi link masa depan file Anda, setelah proposal Anda digabungkan ke repositori sumber dari Jaringan PlanB.

@@ -13,7 +13,7 @@ Si quieres agregar una conferencia sobre Bitcoin al sitio de la Red PlanB y aume
 https://planb.network/tutorials/others/create-github-account
 
 
-- Ve a [el repositorio de GitHub de PlanB dedicado a datos](https://github.com/DecouvreBitcoin/sovereign-university-data/tree/dev/resources/conference) en la sección `resources/conference/`:
+- Ve a [el repositorio de GitHub de PlanB dedicado a datos](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/conference) en la sección `resources/conference/`:
 ![evento](assets/02.webp)
 - Haz clic en la parte superior derecha en el botón `Add file`, luego en `Create new file`:
 ![evento](assets/03.webp)
@@ -146,3 +146,4 @@ https://planb.network/tutorials/others/add-builder
 Asegúrate de seguir el progreso de tu PR. Un administrador puede dejar un comentario solicitando información adicional. Mientras tu PR no esté validado, puedes consultarlo en la pestaña `Pull requests` en el repositorio de GitHub de PlanB Network:
 ![event](assets/38.webp)
 ¡Muchas gracias por tu valiosa contribución! :)
+

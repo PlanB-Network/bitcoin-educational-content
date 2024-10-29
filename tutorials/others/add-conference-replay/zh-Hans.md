@@ -11,7 +11,7 @@ PlanB的使命是以尽可能多的语言提供关于比特币的顶级教育资
 然而，如果你想添加将来会举行的会议，我建议你[阅读这个其他教程](https://planb.network/tutorials/others/add-event)，我们在其中解释了如何向网站添加新事件。
 ![conference](assets/01.webp)
 - 首先，你需要在GitHub上有一个账户。如果你不知道如何创建账户，我们制作了[一个详细的教程来指导你](https://planb.network/tutorials/others/create-github-account)。
-- 前往[PlanB专门用于数据的GitHub仓库](https://github.com/DecouvreBitcoin/sovereign-university-data/tree/dev/resources/conference)的`resources/conference/`部分：
+- 前往[PlanB专门用于数据的GitHub仓库](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/conference)的`resources/conference/`部分：
 ![conference](assets/02.webp)
 - 点击右上角的`Add file`按钮，然后点击`Create new file`：
 ![conference](assets/03.webp)

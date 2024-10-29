@@ -19,7 +19,7 @@ https://planb.network/tutorials/others/add-event
 https://planb.network/tutorials/others/create-github-account
 
 
-- Gehen Sie zu [dem GitHub-Repository von PlanB, das den Daten gewidmet ist](https://github.com/DecouvreBitcoin/sovereign-university-data/tree/dev/resources/conference) im Abschnitt `resources/conference/`:
+- Gehen Sie zu [dem GitHub-Repository von PlanB, das den Daten gewidmet ist](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/conference) im Abschnitt `resources/conference/`:
 ![Konferenz](assets/02.webp)
 - Klicken Sie oben rechts auf den `Add file`-Button, dann auf `Create new file`:
 ![Konferenz](assets/03.webp)

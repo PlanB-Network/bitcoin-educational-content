@@ -59,13 +59,13 @@ Näiden kahden repositorion johdonmukaisuuden ylläpitämiseksi on tarpeen synkr
 
 - Palaa GitHub Desktop -ohjelmistoon. Tähän mennessä forkisi pitäisi näkyä `Your repositories` -osiossa. Jos et näe sitä heti, käytä kaksoisnuolinappia päivittääksesi listan. Kun forkisi ilmestyy, klikkaa sitä valitaksesi sen:
 ![github-desktop](assets/15.webp)
-- Klikkaa sitten sinistä nappia: `Clone [käyttäjänimi]/sovereign-university-data`:
+- Klikkaa sitten sinistä nappia: `Clone [käyttäjänimi]/bitcoin-educational-content`:
 ![github-desktop](assets/16.webp)
 - Säilytä oletuspolku. Vahvistaaksesi, klikkaa sinistä `Clone`-nappia:
 ![github-desktop](assets/17.webp)
 - Odota, kun GitHub Desktop kloonaa forkisi paikallisesti:
 ![github-desktop](assets/18.webp)
-- Kloonattuasi varaston, ohjelmisto tarjoaa sinulle kaksi vaihtoehtoa. Sinun tulee valita ensimmäinen: `Osallistu pääprojektiin`. Tämä valinta mahdollistaa tulevan työsi esittämisen panoksena pääprojektille (`DecouvreBitcoin/sovereign-university-data`), eikä pelkästään henkilökohtaisen haarasi (`[käyttäjänimi]/sovereign-university-data`) muokkauksena. Kun vaihtoehto on valittu, klikkaa `Jatka`: ![github-desktop](assets/19.webp)
+- Kloonattuasi varaston, ohjelmisto tarjoaa sinulle kaksi vaihtoehtoa. Sinun tulee valita ensimmäinen: `Osallistu pääprojektiin`. Tämä valinta mahdollistaa tulevan työsi esittämisen panoksena pääprojektille (`PlanB-Network/bitcoin-educational-content`), eikä pelkästään henkilökohtaisen haarasi (`[käyttäjänimi]/bitcoin-educational-content`) muokkauksena. Kun vaihtoehto on valittu, klikkaa `Jatka`: ![github-desktop](assets/19.webp)
 - GitHub Desktopisi on nyt oikein konfiguroitu. Nyt voit jättää ohjelmiston auki taustalle seurataksesi tekemiämme muutoksia.
 ![github-desktop](assets/20.webp)
 Mitä olemme saavuttaneet tässä vaiheessa, on paikallisen kopion luominen varastostasi, joka on isännöity GitHubissa. Muistutuksena, tämä varasto on haarautuma PlanB Networkin lähdevarastosta. Voit tehdä muutoksia tähän paikalliseen kopioon, kuten lisätä tutoriaaleja, käännöksiä tai korjauksia. Kun nämä muutokset on tehty, käytät **Push origin** -komentoa lähettääksesi paikalliset muutoksesi GitHubissa isännöityyn haarahasi.
@@ -81,7 +81,7 @@ Voit myös hakea muutoksia haarasta, esimerkiksi synkronoinnin aikana PlanB Netw
 - Tiedostonhallintasi avautuu. Sinun tulee paikantaa ja valita kansio nimeltä `GitHub`, joka pitäisi löytyä `Dokumentit`-kansiostasi tiedostojesi joukosta. Tämä polku vastaa sitä, jonka asetit vaiheessa 4. Valittuasi kansion, vahvista sen valinta. Vaulttisi luominen Obsidianissa käynnistyy sitten ohjelmiston uudella sivulla:
 
 ![github-desktop](assets/24.webp)
--> **Huomio**, on tärkeää olla valitsematta `sovereign-university-data`-kansiota luodessasi uutta vaulttia Obsidianissa. Sen sijaan, valitse yläkansio, `GitHub`. Jos valitset `sovereign-university-data`-kansion, konfiguraatiokansio `.obsidian`, joka sisältää paikalliset Obsidian-asetuksesi, integroituu automaattisesti varastoon. Haluamme välttää tämän, sillä Obsidian-konfiguraatioidesi siirtäminen PlanB Networkin varastoon ei ole tarpeellista. Vaihtoehtona on lisätä `.obsidian`-kansio `.gitignore`-tiedostoon, mutta tämä menetelmä muokkaisi myös lähdevaraston `.gitignore`-tiedostoa, mikä ei ole toivottavaa.
+-> **Huomio**, on tärkeää olla valitsematta `bitcoin-educational-content`-kansiota luodessasi uutta vaulttia Obsidianissa. Sen sijaan, valitse yläkansio, `GitHub`. Jos valitset `bitcoin-educational-content`-kansion, konfiguraatiokansio `.obsidian`, joka sisältää paikalliset Obsidian-asetuksesi, integroituu automaattisesti varastoon. Haluamme välttää tämän, sillä Obsidian-konfiguraatioidesi siirtäminen PlanB Networkin varastoon ei ole tarpeellista. Vaihtoehtona on lisätä `.obsidian`-kansio `.gitignore`-tiedostoon, mutta tämä menetelmä muokkaisi myös lähdevaraston `.gitignore`-tiedostoa, mikä ei ole toivottavaa.
 
 - Ikkunan vasemmalla puolella voit nähdä tiedostopuun eri GitHub-varastoistasi, jotka on kloonattu paikallisesti.
 - Klikkaamalla kansioitten nimien vieressä olevia nuolia, voit laajentaa ne päästäksesi käsiksi varastojen alikansioihin ja niiden dokumentteihin:

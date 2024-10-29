@@ -30,7 +30,7 @@ Découvrons ensemble comment ajouter un nouveau professeur dans ce tutoriel !
 
 ## Comment créer un nouveau profil de professeur ?
 
-- Ouvrez votre navigateur et dirigez-vous vers la page de votre fork du dépôt de PlanB. L'URL de votre fork devrait ressembler à : `https://github.com/[username]/sovereign-university-data`
+- Ouvrez votre navigateur et dirigez-vous vers la page de votre fork du dépôt de PlanB. L'URL de votre fork devrait ressembler à : `https://github.com/[username]/bitcoin-educational-content`
 ![tutorial](assets/4.webp)
 - Assurez-vous d'être sur la branche principale `dev` puis cliquez sur le bouton `Sync fork`. Si votre fork n'est pas à jour, GitHub vous proposera de mettre à jour votre branche. Procédez à cette synchronisation.
 
@@ -46,7 +46,7 @@ Découvrons ensemble comment ajouter un nouveau professeur dans ce tutoriel !
 ![tutorial](assets/8.webp)
 - Cliquez sur cette branche, puis cliquez sur le bouton `New Branch` :
 ![tutorial](assets/9.webp)
-- Assurez-vous que la nouvelle branche soit basée sur le dépôt source, à savoir `DecouvreBitcoin/sovereign-university-data`.
+- Assurez-vous que la nouvelle branche soit basée sur le dépôt source, à savoir `PlanB-Network/bitcoin-educational-content`.
 
 - Nommez votre branche de manière à ce que le titre soit clair quant à son objectif, en utilisant des tirets pour séparer chaque mot. Puisque cette branche est destinée à l'ajout d'un profil de professeur, un exemple de nom pourrait être : `add-professor-[your-name]`. Après avoir saisi le nom, cliquez sur `Create branch` pour confirmer sa création :
 ![tutorial](assets/10.webp)
@@ -54,7 +54,7 @@ Découvrons ensemble comment ajouter un nouveau professeur dans ce tutoriel !
 ![tutorial](assets/11.webp)
 - À présent, sur GitHub Desktop, vous devriez vous trouver sur votre nouvelle branche. Cela signifie que toutes les modifications apportées localement sur votre ordinateur seront exclusivement enregistrées sur cette branche spécifique. Aussi, tant que cette branche reste sélectionnée sur GitHub Desktop, les fichiers visibles localement sur votre machine correspondent à ceux de cette branche (`add-professor-your-name`), et non à ceux de la branche principale (`dev`) :
 ![tutorial](assets/12.webp)
-- Pour ajouter votre profil de professeur, ouvrez votre explorateur de fichiers et dirigez-vous vers votre dépôt local, dans le dossier `professors`. Vous le trouverez sous le chemin :`\GitHub\sovereign-university-data\professors`.
+- Pour ajouter votre profil de professeur, ouvrez votre explorateur de fichiers et dirigez-vous vers votre dépôt local, dans le dossier `professors`. Vous le trouverez sous le chemin :`\GitHub\bitcoin-educational-content\professors`.
 
 - Au sein de ce dossier, créez un nouveau dossier nommé avec votre nom ou votre pseudonyme. Veillez à ce qu'il n'y ait aucun espace dans le nom du dossier. Ainsi, si votre nom est « Loic Pandul » et qu'aucun autre professeur ne porte ce nom, le dossier à créer sera nommé `loic-pandul` :
 ![tutorial](assets/13.webp)
@@ -150,6 +150,7 @@ first-name-last-name/
 - Si vous désirez apporter des modifications à votre profil après avoir déjà soumis votre PR, la démarche à suivre dépend de l'état actuel de votre PR :
 	- Si votre PR est toujours ouverte et n'a pas encore été fusionnée, effectuez les modifications localement en restant sur la même branche. Une fois les modifications finalisées, utilisez le bouton `Push origin` pour ajouter un nouveau commit à votre PR encore ouverte ;
 	- Dans le cas où votre PR a déjà été fusionnée avec la branche principale, vous devrez refaire le processus depuis le début en créant une nouvelle branche, puis en soumettant une nouvelle PR. Assurez-vous que votre dépôt local soit synchronisé avec le dépôt source de PlanB Network avant de procéder.
+
 
 
 

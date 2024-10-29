@@ -30,7 +30,7 @@ Hãy cùng khám phá cách thêm một giáo sư mới trong hướng dẫn nà
 
 ## Làm thế nào để tạo một hồ sơ giáo sư mới?
 
-- Mở trình duyệt của bạn và điều hướng đến trang của bản sao kho lưu trữ PlanB của bạn. URL của bản sao của bạn nên trông giống như: `https://github.com/[username]/sovereign-university-data`
+- Mở trình duyệt của bạn và điều hướng đến trang của bản sao kho lưu trữ PlanB của bạn. URL của bản sao của bạn nên trông giống như: `https://github.com/[username]/bitcoin-educational-content`
 ![tutorial](assets/4.webp)
 - Đảm bảo bạn đang ở nhánh chính `dev` sau đó nhấp vào nút `Sync fork`. Nếu bản sao của bạn không cập nhật, GitHub sẽ đề nghị cập nhật nhánh của bạn. Tiến hành đồng bộ hóa này.
 
@@ -45,14 +45,14 @@ Hãy cùng khám phá cách thêm một giáo sư mới trong hướng dẫn nà
 ![tutorial](assets/8.webp)
 - Nhấp vào nhánh này, sau đó nhấp vào nút `New Branch`:
 ![tutorial](assets/9.webp)
-- Đảm bảo nhánh mới được tạo dựa trên kho lưu trữ gốc, cụ thể là `DecouvreBitcoin/sovereign-university-data`.
+- Đảm bảo nhánh mới được tạo dựa trên kho lưu trữ gốc, cụ thể là `PlanB-Network/bitcoin-educational-content`.
 - Đặt tên cho nhánh của bạn theo cách mà tiêu đề rõ ràng về mục đích của nó, sử dụng dấu gạch ngang để phân cách mỗi từ. Vì nhánh này được dự định để thêm hồ sơ giáo sư, ví dụ tên có thể là: `add-professor-[tên-của-bạn]`. Sau khi nhập tên, nhấn vào `Create branch` để xác nhận việc tạo nhánh:
 ![hướng dẫn](assets/10.webp)
 - Bây giờ nhấn vào nút `Publish branch` để lưu nhánh làm việc mới của bạn vào fork trực tuyến trên GitHub:
 ![hướng dẫn](assets/11.webp)
 - Tại thời điểm này, trên GitHub Desktop, bạn sẽ ở trên nhánh mới của mình. Điều này có nghĩa là tất cả các thay đổi được thực hiện cục bộ trên máy tính của bạn sẽ được ghi lại độc quyền trên nhánh cụ thể này. Ngoài ra, miễn là nhánh này vẫn được chọn trên GitHub Desktop, các tệp hiển thị cục bộ trên máy tính của bạn tương ứng với những tệp của nhánh này (`add-professor-ten-cua-ban`), và không phải là những tệp của nhánh chính (`dev`):
 ![hướng dẫn](assets/12.webp)
-- Để thêm hồ sơ giáo sư của bạn, mở trình duyệt tệp và điều hướng đến kho lưu trữ cục bộ của bạn, trong thư mục `professors`. Bạn sẽ tìm thấy nó dưới đường dẫn: `\GitHub\sovereign-university-data\professors`.
+- Để thêm hồ sơ giáo sư của bạn, mở trình duyệt tệp và điều hướng đến kho lưu trữ cục bộ của bạn, trong thư mục `professors`. Bạn sẽ tìm thấy nó dưới đường dẫn: `\GitHub\bitcoin-educational-content\professors`.
 
 - Trong thư mục này, tạo một thư mục mới với tên hoặc bí danh của bạn. Đảm bảo không có khoảng trắng trong tên thư mục. Vì vậy, nếu tên của bạn là "Loic Pandul" và không có giáo sư nào khác có tên này, thư mục để tạo sẽ được đặt tên là `loic-pandul`:
 ![hướng dẫn](assets/13.webp)

@@ -13,7 +13,7 @@ Vous souhaitez ajouter un podcast Bitcoin sur le site de PlanB Network et donner
 https://planb.network/tutorials/others/create-github-account
 
 
-- Rendez-vous sur [le dépôt GitHub de PlanB dédié à la data](https://github.com/DecouvreBitcoin/sovereign-university-data/tree/dev/resources/podcasts) dans la section `resources/podcasts/` :
+- Rendez-vous sur [le dépôt GitHub de PlanB dédié à la data](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/podcasts) dans la section `resources/podcasts/` :
 ![podcast](assets/02.webp)
 - Cliquez en haut à droite sur le bouton `Add file`, puis sur `Create new file` :
 ![podcast](assets/03.webp)

@@ -17,7 +17,7 @@ description: Как добавить новые образовательные �
 https://planb.network/tutorials/others/create-github-account
 
 
-- Перейдите в [репозиторий GitHub PlanB, посвященный данным](https://github.com/DecouvreBitcoin/sovereign-university-data/tree/dev/resources/bet) в раздел `resources/bet/`:
+- Перейдите в [репозиторий GitHub PlanB, посвященный данным](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/bet) в раздел `resources/bet/`:
 ![event](assets/02.webp)
 - Нажмите в верхнем правом углу на кнопку `Add file`, затем на `Create new file`:
 ![event](assets/03.webp)
@@ -74,7 +74,7 @@ https://planb.network/tutorials/others/add-builder
 Например, ваш YAML-файл может выглядеть так:
 
 ```yaml
-builder: DecouvreBitcoin
+builder: PlanB-Network
 type: Educational Content
 links:
   download: https://workspace.planb.network/s/fojeJa7ZbftQTwo
@@ -159,7 +159,7 @@ description: |
 - Получите промежуточный URL вашего файла. Например, в моем случае URL такой:
 
 ```url
-https://github.com/tutorial-pandul/sovereign-university-data/blob/patch-1/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf
+https://github.com/tutorial-pandul/bitcoin-educational-content/blob/patch-1/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf
 ```
 
 - Оставьте только последнюю часть URL начиная с `/resources`:
@@ -171,7 +171,7 @@ https://github.com/tutorial-pandul/sovereign-university-data/blob/patch-1/resour
 - Добавьте к основе URL следующую информацию, чтобы получить правильную ссылку:
 
 ```url
-https://github.com/DiscoverBitcoin/sovereign-university-data/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf
+https://github.com/DiscoverBitcoin/bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf
 ```
 
 То, что мы здесь делаем, это предвосхищаем будущую ссылку на ваш файл, после того как ваше предложение будет объединено в исходный репозиторий сети PlanB.

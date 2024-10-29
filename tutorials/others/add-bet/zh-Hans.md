@@ -13,7 +13,7 @@ PlanB的使命是提供领先的比特币教育资源，尽可能多的语言。
 *所有整合到网站的内容必须是免版权的，或者尊重源文件的许可。此外，PlanB网络上发布的所有视觉内容都在[CC-BY-SA](https://creativecommons.org/licenses/by-sa/4.0/)许可下提供。*
 ![event](assets/01.webp)
 - 首先，你需要在GitHub上有一个账户。如果你不知道如何创建账户，我们制作了[一个详细的教程来指导你](https://planb.network/tutorials/others/create-github-account)。
-- 前往[PlanB专门用于数据的GitHub仓库](https://github.com/DecouvreBitcoin/sovereign-university-data/tree/dev/resources/bet)在`resources/bet/`部分：
+- 前往[PlanB专门用于数据的GitHub仓库](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/bet)在`resources/bet/`部分：
 ![event](assets/02.webp)
 - 点击右上角的`Add file`按钮，然后点击`Create new file`：
 ![event](assets/03.webp)
@@ -64,7 +64,7 @@ contributors:
 例如，您的YAML文件可能看起来像这样：
 
 ```yaml
-builder: DecouvreBitcoin
+builder: PlanB-Network
 type: Educational Content
 links:
   download: https://workspace.planb.network/s/fojeJa7ZbftQTwo
@@ -149,7 +149,7 @@ description: |
 - 检索您文件的中间URL。例如，在我的案例中，URL是：
 
 ```url
-https://github.com/tutorial-pandul/sovereign-university-data/blob/patch-1/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf
+https://github.com/tutorial-pandul/bitcoin-educational-content/blob/patch-1/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf
 ```
 
 - 仅保留URL中从`/resources`开始的最后一部分：
@@ -161,7 +161,7 @@ https://github.com/tutorial-pandul/sovereign-university-data/blob/patch-1/resour
 - 在URL的基础上添加以下信息以获得正确的链接：
 
 ```url
-https://github.com/DiscoverBitcoin/sovereign-university-data/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf
+https://github.com/DiscoverBitcoin/bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf
 ```
 
 我们在这里所做的是预测一旦您的提案被合并到PlanB Network的源仓库后，您的文件的未来链接。

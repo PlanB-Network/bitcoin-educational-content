@@ -8,7 +8,7 @@ Die Mission von PlanB ist es, führende Bildungsressourcen über Bitcoin in mög
 
 Wenn Sie beim Konsultieren eines unserer Bildungsinhalte (Tutorials, Schulungen, Ressourcen...) einen Fehler feststellen, sei es ein Rechtschreibfehler, Grammatik, ein kleiner Übersetzungsfehler in Ihrer Muttersprache oder sogar ein Tippfehler, wären wir sehr dankbar, wenn Sie selbst einen schnellen Korrekturvorschlag machen könnten.
 
-Dieses Tutorial führt Sie Schritt für Schritt durch den Prozess der Korrektur dieser kleinen Fehler. Es ist ein Tutorial für Anfänger gedacht, die sich nicht in die Komplexitäten von Git wagen möchten. Wenn Sie jedoch mit Git vertraut sind, hier eine kurze Zusammenfassung: Sie müssen lediglich [das Datenrepository des PlanB Netzwerks](https://github.com/DecouvreBitcoin/sovereign-university-data) forken, Änderungen in einem dedizierten Branch vornehmen und einen Pull Request gegen den `dev` Branch des Quell-Repositorys einreichen.
+Dieses Tutorial führt Sie Schritt für Schritt durch den Prozess der Korrektur dieser kleinen Fehler. Es ist ein Tutorial für Anfänger gedacht, die sich nicht in die Komplexitäten von Git wagen möchten. Wenn Sie jedoch mit Git vertraut sind, hier eine kurze Zusammenfassung: Sie müssen lediglich [das Datenrepository des PlanB Netzwerks](https://github.com/PlanB-Network/bitcoin-educational-content) forken, Änderungen in einem dedizierten Branch vornehmen und einen Pull Request gegen den `dev` Branch des Quell-Repositorys einreichen.
 
 Bitte beachten Sie, dass, wenn Sie eine vollständige Überprüfung und Revision eines Dokuments planen, insbesondere für Inhaltsübersetzungen, ich Sie einlade, dieses andere, detailliertere Tutorial zu konsultieren.
 
@@ -21,7 +21,7 @@ https://planb.network/tutorials/others/content-review-tutorial
 https://planb.network/tutorials/others/create-github-account
 
 
-- Gehen Sie zu [dem GitHub-Repository von PlanB, das den Daten gewidmet ist](https://github.com/DecouvreBitcoin/sovereign-university-data):
+- Gehen Sie zu [dem GitHub-Repository von PlanB, das den Daten gewidmet ist](https://github.com/PlanB-Network/bitcoin-educational-content):
 ![typos](assets/01.webp)
 - Hier finden Sie alle unsere Inhalte nach Teilbereichen organisiert.
 - Wenn Sie ein Tutorial ändern möchten, gehen Sie zum Beispiel in den Ordner `tutorials`:
@@ -44,8 +44,9 @@ https://planb.network/tutorials/others/create-github-account
 - Sie gelangen auf die PR-Seite. Ein Pull Request ist eine Anfrage, die von einem Beitragenden gesendet wird, um anzugeben, dass sie Änderungen auf einem Branch in einem entfernten Repository vorgenommen haben und dass sie wünschen, dass diese Änderungen überprüft und möglicherweise in den Hauptbranch des Repositories zusammengeführt werden: ![typos](assets/17.webp)
 - Sie können einen Titel und eine kurze Beschreibung für Ihren PR hinzufügen: ![typos](assets/18.webp)
 - Wenn alles gut aussieht für Sie, können Sie auf den grünen `Create Pull Request` Button klicken: ![typos](assets/19.webp)
-- Herzlichen Glückwunsch, Ihr PR wurde gesendet! Sie können dessen Fortschritt im `Pull requests` Tab auf [dem PlanB Network GitHub Repository](https://github.com/DecouvreBitcoin/sovereign-university-data/pulls) verfolgen: ![typos](assets/20.webp)
+- Herzlichen Glückwunsch, Ihr PR wurde gesendet! Sie können dessen Fortschritt im `Pull requests` Tab auf [dem PlanB Network GitHub Repository](https://github.com/PlanB-Network/bitcoin-educational-content/pulls) verfolgen: ![typos](assets/20.webp)
 Vielen Dank für Ihren Beitrag! Wenn Sie andere Arten von Beiträgen zum PlanB Network leisten möchten, wie das Schreiben von Inhalten oder Übersetzungen, fühlen Sie sich frei, unsere anderen Tutorials im Abschnitt "Contribution" zu überprüfen.
 
 https://planb.network/tutorials/others
+
 

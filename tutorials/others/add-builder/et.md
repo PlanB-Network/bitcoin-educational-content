@@ -9,7 +9,7 @@ PlanB missiooniks on pakkuda tipptasemel haridusressursse Bitcoin'i kohta võima
 Kas soovite PlanB võrgustiku saidile lisada uue Bitcoin "ehitaja" ja anda oma ettevõttele või tarkvarale nähtavust, kuid ei tea, kuidas? See õpetus on teile!
 ![builder](assets/01.webp)
 - Esiteks peate omama GitHub'i kontot. Kui te ei tea, kuidas kontot luua, oleme koostanud [üksikasjaliku õpetuse, mis juhendab teid](https://planb.network/tutorials/others/create-github-account).
-- Minge [PlanB-le pühendatud GitHub'i andmerepositooriumisse](https://github.com/DecouvreBitcoin/sovereign-university-data/tree/dev/resources/builders) jaotisesse `resources/builder/`:
+- Minge [PlanB-le pühendatud GitHub'i andmerepositooriumisse](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/builders) jaotisesse `resources/builder/`:
 ![builder](assets/02.webp)
 - Klõpsake paremal üleval nupul `Add file`, seejärel `Create new file`:
 ![builder](assets/03.webp)

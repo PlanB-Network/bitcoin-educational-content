@@ -13,7 +13,7 @@ Kas soovite osaleda selle andmebaasi rikastamises, kuid ei tea, kuidas? See õpe
 *On hädavajalik, et kõik saidile integreeritud sisu oleks vaba õigustest või austaks lähtefaili litsentsi. Samuti on kõik PlanB võrgustikus avaldatud visuaalid kättesaadavad [CC-BY-SA](https://creativecommons.org/licenses/by-sa/4.0/) litsentsi alusel.*
 ![sündmus](assets/01.webp)
 - Esiteks, teil peab olema konto GitHub'is. Kui te ei tea, kuidas kontot luua, oleme teinud [üksikasjaliku õpetuse, mis juhendab teid](https://planb.network/tutorials/others/create-github-account).
-- Minge [PlanB-le pühendatud GitHubi repositooriumisse andmete jaoks](https://github.com/DecouvreBitcoin/sovereign-university-data/tree/dev/resources/bet) `resources/bet/` sektsioonis:
+- Minge [PlanB-le pühendatud GitHubi repositooriumisse andmete jaoks](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/bet) `resources/bet/` sektsioonis:
 ![sündmus](assets/02.webp)
 - Klõpsake paremal üleval nupul `Add file`, seejärel `Create new file`:
 ![sündmus](assets/03.webp)
@@ -67,7 +67,7 @@ contributors: Mainige oma kaastöötaja identifikaatorit, kui teil on üks.
 Näiteks võiks teie YAML fail välja näha selline:
 
 ```yaml
-builder: DecouvreBitcoin
+builder: PlanB-Network
 type: Educational Content
 links:
   download: https://workspace.planb.network/s/fojeJa7ZbftQTwo
@@ -153,7 +153,7 @@ description: |
 - Hankige oma faili vaheline URL. Näiteks minu puhul on URL:
 
 ```url
-https://github.com/tutorial-pandul/sovereign-university-data/blob/patch-1/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf
+https://github.com/tutorial-pandul/bitcoin-educational-content/blob/patch-1/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf
 ```
 
 - Jätke URL-ist alles ainult viimane osa alates `/resources`:
@@ -165,7 +165,7 @@ https://github.com/tutorial-pandul/sovereign-university-data/blob/patch-1/resour
 - Lisage URL-i alusele järgmine teave, et saada õige link:
 
 ```url
-https://github.com/DiscoverBitcoin/sovereign-university-data/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf
+https://github.com/DiscoverBitcoin/bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf
 ```
 
 Mida me siin teeme, on tulevase lingi etteaimamine teie failile, kui teie ettepanek on PlanB Networki allikarepositooriumiga ühendatud.

@@ -59,13 +59,13 @@ Para manter a consistência entre esses dois repositórios, será necessário si
 
 - Retorne ao software GitHub Desktop. Até agora, seu fork deve aparecer na seção `Your repositories`. Se você não o vir imediatamente, use o botão de seta dupla para atualizar a lista. Quando seu fork aparecer, clique nele para selecioná-lo:
 ![github-desktop](assets/15.webp)
-- Em seguida, clique no botão azul: `Clone [username]/sovereign-university-data`:
+- Em seguida, clique no botão azul: `Clone [username]/bitcoin-educational-content`:
 ![github-desktop](assets/16.webp)
 - Mantenha o caminho padrão. Para confirmar, clique no botão azul `Clone`:
 ![github-desktop](assets/17.webp)
 - Aguarde enquanto o GitHub Desktop clona seu fork localmente:
 ![github-desktop](assets/18.webp)
-- Após clonar o repositório, o software oferece duas opções. Você deve selecionar a primeira: `To contribute to the parent project`. Essa escolha permitirá que você apresente seu trabalho futuro como uma contribuição ao projeto pai (`DecouvreBitcoin/sovereign-university-data`), e não exclusivamente como uma modificação do seu fork pessoal (`[username]/sovereign-university-data`). Uma vez que a opção é escolhida, clique em `Continue`: ![github-desktop](assets/19.webp)
+- Após clonar o repositório, o software oferece duas opções. Você deve selecionar a primeira: `To contribute to the parent project`. Essa escolha permitirá que você apresente seu trabalho futuro como uma contribuição ao projeto pai (`PlanB-Network/bitcoin-educational-content`), e não exclusivamente como uma modificação do seu fork pessoal (`[username]/bitcoin-educational-content`). Uma vez que a opção é escolhida, clique em `Continue`: ![github-desktop](assets/19.webp)
 - Seu GitHub Desktop agora está corretamente configurado. Agora, você pode deixar o software aberto em segundo plano para acompanhar as modificações que faremos.
 ![github-desktop](assets/20.webp)
 O que alcançamos nesta etapa é a criação de uma cópia local do seu repositório, que está hospedado no GitHub. Como lembrete, este repositório é um fork do repositório fonte da PlanB Network. Você poderá fazer modificações nesta cópia local, como adicionar tutoriais, traduções ou correções. Uma vez que estas modificações são feitas, você usará o comando **Push origin** para enviar suas modificações locais para o seu fork hospedado no GitHub.
@@ -81,7 +81,7 @@ Você também pode recuperar modificações do fork, por exemplo, durante uma si
 - Seu explorador de arquivos será aberto. Você precisa localizar e selecionar a pasta intitulada `GitHub`, que deve estar no seu diretório `Documentos` entre seus arquivos. Este caminho corresponde ao que você estabeleceu durante o passo 4. Após escolher a pasta, confirme sua seleção. A criação do seu cofre no Obsidian será então iniciada em uma nova página do software:
 
 ![github-desktop](assets/24.webp)
--> **Atenção**, é importante não escolher a pasta `sovereign-university-data` ao criar um novo cofre no Obsidian. Em vez disso, selecione a pasta pai, `GitHub`. Se você selecionar a pasta `sovereign-university-data`, a pasta de configuração `.obsidian`, contendo suas configurações locais do Obsidian, será automaticamente integrada ao repositório. Queremos evitar isso, pois não é necessário transferir suas configurações do Obsidian para o repositório da PlanB Network. Uma alternativa é adicionar a pasta `.obsidian` ao arquivo `.gitignore`, mas este método também modificaria o arquivo `.gitignore` do repositório fonte, o que não é desejável.
+-> **Atenção**, é importante não escolher a pasta `bitcoin-educational-content` ao criar um novo cofre no Obsidian. Em vez disso, selecione a pasta pai, `GitHub`. Se você selecionar a pasta `bitcoin-educational-content`, a pasta de configuração `.obsidian`, contendo suas configurações locais do Obsidian, será automaticamente integrada ao repositório. Queremos evitar isso, pois não é necessário transferir suas configurações do Obsidian para o repositório da PlanB Network. Uma alternativa é adicionar a pasta `.obsidian` ao arquivo `.gitignore`, mas este método também modificaria o arquivo `.gitignore` do repositório fonte, o que não é desejável.
 
 - No lado esquerdo da janela, você pode ver a árvore de arquivos com seus diferentes repositórios do GitHub que foram clonados localmente.
 - Clicando nas setas ao lado dos nomes das pastas, você pode expandi-las para acessar as subpastas dos repositórios e seus documentos:

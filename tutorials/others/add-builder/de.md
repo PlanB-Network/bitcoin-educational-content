@@ -13,7 +13,7 @@ Möchten Sie einen neuen Bitcoin "Entwickler" zur PlanB Netzwerkseite hinzufüge
 https://planb.network/tutorials/others/create-github-account
 
 
-- Gehen Sie zu [dem GitHub-Repository von PlanB, das den Daten gewidmet ist](https://github.com/DecouvreBitcoin/sovereign-university-data/tree/dev/resources/builders) im Abschnitt `resources/builder/`:
+- Gehen Sie zu [dem GitHub-Repository von PlanB, das den Daten gewidmet ist](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/builders) im Abschnitt `resources/builder/`:
 ![Entwickler](assets/02.webp)
 - Klicken Sie oben rechts auf den Button `Add file`, dann auf `Create new file`:
 ![Entwickler](assets/03.webp)

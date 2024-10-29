@@ -19,7 +19,7 @@ https://planb.network/tutorials/others/add-event
 https://planb.network/tutorials/others/create-github-account
 
 
-- Truy cập vào [kho lưu trữ GitHub của PlanB dành cho dữ liệu](https://github.com/DecouvreBitcoin/sovereign-university-data/tree/dev/resources/conference) trong phần `resources/conference/`:
+- Truy cập vào [kho lưu trữ GitHub của PlanB dành cho dữ liệu](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/conference) trong phần `resources/conference/`:
 ![conference](assets/02.webp)
 - Nhấp vào nút `Add file` ở góc trên bên phải, sau đó chọn `Create new file`:
 ![conference](assets/03.webp)

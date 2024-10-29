@@ -5,7 +5,7 @@ description: Kuidas osaleda PlanB Network'i haridussisu ülevaatamises?
 ![github](assets/cover.webp)
 
 ## TL;DR
-Kui soovid PlanB Network'is sisu üle vaadata, mine oma keele [seotud projekti lehele](https://github.com/DecouvreBitcoin/sovereign-university-data/projects?query=is%3Aopen). Vali sisu, mida soovid üle vaadata, kommenteeri, et teavitada meid ülesande võtmisest, ja esita PR (pull request) lõpetamisel keelega seotud harus.
+Kui soovid PlanB Network'is sisu üle vaadata, mine oma keele [seotud projekti lehele](https://github.com/PlanB-Network/bitcoin-educational-content/projects?query=is%3Aopen). Vali sisu, mida soovid üle vaadata, kommenteeri, et teavitada meid ülesande võtmisest, ja esita PR (pull request) lõpetamisel keelega seotud harus.
 
 Kui sa eelmist osa ei mõistnud, ära muretse, see juhend on sinu jaoks!
 
@@ -37,14 +37,14 @@ Siiski, kui sa pole täiesti tuttav, kuidas Git ja GitHub töötavad ja sooviksi
 ## 1. Loo konto
 * Loo konto GitHub'is, et alustada panustamist. Kui vajad juhiseid, kuidas luua oma kontot GitHub'is, on meil ka [üksikasjalik õpetus](https://planb.network/tutorials/others/create-github-account).
 ## **2. Mine oma keele projekti lehele**
-* [Projekti leht](https://github.com/DecouvreBitcoin/sovereign-university-data/projects?query=is%3Aopen) sisaldab sinu keeles sisu, mis on kuvatud Kanban tahvlil.
+* [Projekti leht](https://github.com/PlanB-Network/bitcoin-educational-content/projects?query=is%3Aopen) sisaldab sinu keeles sisu, mis on kuvatud Kanban tahvlil.
 * Otsi kaarte "Review Needed" veerust (vt **A**). Need on probleemid, mida saad üle vaadata.
 * Iga kaardi detailid (vt **B**):
 	- **Sisu Tüüp**: Kursus, õpetus või veebileht
 	- **Sisu Raskusaste**
 	- **Kiireloomulisus**
 	- **Sõnade Arv**
-	- **Seotud Preemia**: Põhineb sisu omadustel ja tõlke täpsusel (vt [Preemia sektsioon](https://github.com/DecouvreBitcoin/sovereign-university-data?tab=readme-ov-file#sat-reward))
+	- **Seotud Preemia**: Põhineb sisu omadustel ja tõlke täpsusel (vt [Preemia sektsioon](https://github.com/PlanB-Network/bitcoin-educational-content?tab=readme-ov-file#sat-reward))
 ![ülevaade](assets/1.webp)
 ## **3. Leia sisu, mida üle vaadata**
 * "Vajab ülevaatamist" veerus klõpsake kaardil.

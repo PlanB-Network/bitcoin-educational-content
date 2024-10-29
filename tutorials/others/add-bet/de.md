@@ -17,7 +17,7 @@ Möchten Sie an der Bereicherung dieser Datenbank teilnehmen, wissen aber nicht 
 https://planb.network/tutorials/others/create-github-account
 
 
-- Gehen Sie zu [dem GitHub-Repository von PlanB, das den Daten gewidmet ist](https://github.com/DecouvreBitcoin/sovereign-university-data/tree/dev/resources/bet) im Abschnitt `resources/bet/`:
+- Gehen Sie zu [dem GitHub-Repository von PlanB, das den Daten gewidmet ist](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/bet) im Abschnitt `resources/bet/`:
 ![event](assets/02.webp)
 - Klicken Sie oben rechts auf den Button `Add file`, dann auf `Create new file`:
 ![event](assets/03.webp)
@@ -72,7 +72,7 @@ https://planb.network/tutorials/others/add-builder
 Zum Beispiel könnte Ihre YAML-Datei so aussehen:
 
 ```yaml
-builder: DecouvreBitcoin
+builder: PlanB-Network
 type: Educational Content
 links:
   download: https://workspace.planb.network/s/fojeJa7ZbftQTwo
@@ -157,7 +157,7 @@ description: |
 - Ermitteln Sie die Zwischen-URL Ihrer Datei. Zum Beispiel ist in meinem Fall die URL:
 
 ```url
-https://github.com/tutorial-pandul/sovereign-university-data/blob/patch-1/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf
+https://github.com/tutorial-pandul/bitcoin-educational-content/blob/patch-1/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf
 ```
 
 - Behalten Sie nur den letzten Teil der URL ab `/resources`:
@@ -169,7 +169,7 @@ https://github.com/tutorial-pandul/sovereign-university-data/blob/patch-1/resour
 - Fügen Sie an die Basis der URL folgende Informationen hinzu, um den korrekten Link zu erhalten:
 
 ```url
-https://github.com/DiscoverBitcoin/sovereign-university-data/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf
+https://github.com/DiscoverBitcoin/bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf
 ```
 
 Was wir hier tun, ist die zukünftige Verlinkung Ihrer Datei zu antizipieren, sobald Ihr Vorschlag in das Quellrepository des PlanB-Netzwerks eingegliedert wurde.

@@ -13,7 +13,7 @@ Nếu bạn muốn thêm một hội nghị Bitcoin vào trang web Mạng lướ
 https://planb.network/tutorials/others/create-github-account
 
 
-- Truy cập vào [kho lưu trữ GitHub của PlanB dành riêng cho dữ liệu](https://github.com/DecouvreBitcoin/sovereign-university-data/tree/dev/resources/conference) trong phần `resources/conference/`:
+- Truy cập vào [kho lưu trữ GitHub của PlanB dành riêng cho dữ liệu](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/conference) trong phần `resources/conference/`:
 ![sự kiện](assets/02.webp)
 - Nhấp vào nút `Add file` ở góc trên bên phải, sau đó chọn `Create new file`:
 ![sự kiện](assets/03.webp)
@@ -146,3 +146,4 @@ Xin chúc mừng! PR của bạn đã được tạo thành công. Một quản 
 Hãy chắc chắn theo dõi tiến trình của PR của bạn. Một quản trị viên có thể để lại bình luận yêu cầu thông tin bổ sung. Miễn là PR của bạn chưa được xác nhận, bạn có thể xem nó trong tab `Pull requests` trên kho lưu trữ GitHub của Mạng lưới PlanB:
 ![sự kiện](assets/37.webp)
 Cảm ơn bạn rất nhiều vì đã đóng góp quý báu của mình! :)
+

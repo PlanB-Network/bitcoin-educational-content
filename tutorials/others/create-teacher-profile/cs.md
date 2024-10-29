@@ -30,7 +30,7 @@ Pojďme společně objevit, jak přidat nového profesora v tomto tutoriálu!
 
 ## Jak vytvořit nový profesorský profil?
 
-- Otevřete svůj prohlížeč a přejděte na stránku vašeho forku repozitáře PlanB. URL vašeho forku by měla vypadat takto: `https://github.com/[username]/sovereign-university-data`
+- Otevřete svůj prohlížeč a přejděte na stránku vašeho forku repozitáře PlanB. URL vašeho forku by měla vypadat takto: `https://github.com/[username]/bitcoin-educational-content`
 ![tutorial](assets/4.webp)
 - Ujistěte se, že jste na hlavní větvi `dev`, poté klikněte na tlačítko `Sync fork`. Pokud váš fork není aktuální, GitHub nabídne aktualizaci vaší větve. Proveďte tuto synchronizaci.
 
@@ -45,14 +45,14 @@ Pojďme společně objevit, jak přidat nového profesora v tomto tutoriálu!
 ![tutorial](assets/8.webp)
 - Klikněte na tuto větev, poté klikněte na tlačítko `New Branch`:
 ![tutorial](assets/9.webp)
-- Ujistěte se, že nová větev je založena na zdrojovém repozitáři, konkrétně `DecouvreBitcoin/sovereign-university-data`.
+- Ujistěte se, že nová větev je založena na zdrojovém repozitáři, konkrétně `PlanB-Network/bitcoin-educational-content`.
 - Pojmenujte svou větev tak, aby název jasně vypovídal o jejím účelu, použijte pomlčky k oddělení jednotlivých slov. Jelikož je tato větev určena pro přidání profilu profesora, příklad názvu by mohl být: `add-professor-[vaše-jméno]`. Po zadání názvu klikněte na `Create branch` pro potvrzení jejího vytvoření:
 ![tutorial](assets/10.webp)
 - Nyní klikněte na tlačítko `Publish branch` pro uložení vaší nové pracovní větve do vašeho online forku na GitHubu:
 ![tutorial](assets/11.webp)
 - V tomto okamžiku byste na GitHub Desktop měli být ve vaší nové větvi. To znamená, že všechny úpravy provedené lokálně na vašem počítači budou zaznamenány výhradně na této konkrétní větvi. Také, dokud zůstane tato větev vybraná na GitHub Desktop, soubory viditelné lokálně na vašem stroji odpovídají těmto ve větvi (`add-professor-vaše-jméno`), a ne těm ve hlavní větvi (`dev`):
 ![tutorial](assets/12.webp)
-- Pro přidání vašeho profilu profesora otevřete průzkumníka souborů a navigujte do vašeho lokálního repozitáře, do složky `professors`. Najdete ji pod cestou: `\GitHub\sovereign-university-data\professors`.
+- Pro přidání vašeho profilu profesora otevřete průzkumníka souborů a navigujte do vašeho lokálního repozitáře, do složky `professors`. Najdete ji pod cestou: `\GitHub\bitcoin-educational-content\professors`.
 
 - V této složce vytvořte novou složku pojmenovanou vaším jménem nebo pseudonymem. Ujistěte se, že název složky neobsahuje mezery. Takže pokud je vaše jméno "Loic Pandul" a žádný jiný profesor toto jméno nemá, složka, kterou vytvoříte, bude pojmenována `loic-pandul`:
 ![tutorial](assets/13.webp)

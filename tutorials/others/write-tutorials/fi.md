@@ -59,7 +59,7 @@ Kun kaikki on valmista ja paikallinen ympäristösi on hyvin pystytetty omalla P
 
 ### Luo uusi haara
 
-- Avaa selain ja siirry GitHubissa oman haarasi sivulle PlanB-repositoriossa. Tämä on haara, jonka olet perustanut GitHubiin. Haarasi URL näyttäisi tältä: `https://github.com/[käyttäjänimesi]/sovereign-university-data`:
+- Avaa selain ja siirry GitHubissa oman haarasi sivulle PlanB-repositoriossa. Tämä on haara, jonka olet perustanut GitHubiin. Haarasi URL näyttäisi tältä: `https://github.com/[käyttäjänimesi]/bitcoin-educational-content`:
 ![opas](assets/3.webp)
 - Varmista, että olet päähaarassa `dev` ja klikkaa sitten `Sync fork` -painiketta. Jos haarasi ei ole ajan tasalla, GitHub tarjoaa haarasi päivittämistä. Suorita tämä päivitys. Jos taas haara on jo ajan tasalla, GitHub ilmoittaa sinulle:
 ![opas](assets/4.webp)
@@ -70,7 +70,7 @@ Kun kaikki on valmista ja paikallinen ympäristösi on hyvin pystytetty omalla P
 ![opas](assets/7.webp)
 - Klikkaa tätä haaraa, sitten klikkaa `New Branch` -painiketta:
 ![opas](assets/8.webp)
-- Varmista, että uusi haara perustuu lähde-repositorioon, nimittäin `DecouvreBitcoin/sovereign-university-data`.
+- Varmista, että uusi haara perustuu lähde-repositorioon, nimittäin `PlanB-Network/bitcoin-educational-content`.
 - Nimeä haara siten, että sen tarkoitus on selvä, käyttäen väliviivoja erottamaan sanat. Esimerkiksi, jos tavoitteenamme on kirjoittaa opas Sparrow Wallet -ohjelmiston käytöstä, työhaara tälle oppaalle voitaisiin nimetä: `tuto-sparrow-wallet-loic`. Kun sopiva nimi on syötetty, klikkaa `Create branch` vahvistaaksesi haaran luomisen:
 ![opas](assets/9.webp)
 - Nyt klikkaa `Publish branch` -painiketta tallentaaksesi uuden työhaaran online-haaraasi GitHubissa:
@@ -81,7 +81,7 @@ Jokaisen uuden artikkelin julkaisemiseksi, jonka haluat julkaista, sinun on luot
 ### Tutoriaalin lisääminen
 
 Nyt kun työhaara on luotu, on aika integroida uusi tutoriaalisi.
-- Avaa tiedostonhallintasi ja siirry `sovereign-university-data`-kansioon, joka edustaa repositoriosi paikallista kloonia. Normaalisti löydät sen polusta `Documents\GitHub\sovereign-university-data`. Tässä hakemistossa on tarpeen löytää sopiva alikansio tutoriaalisi sijoittamiseksi. Kansioiden järjestely heijastaa PlanB Network -verkkosivuston eri osioita. Esimerkissämme, koska haluamme lisätä tutoriaalin Sparrow Walletista, on sopivaa siirtyä seuraavaan polkuun: `sovereign-university-data\tutorials\wallet`, joka vastaa verkkosivuston `WALLET`-osiota: ![tutorial](assets/12.webp)
+- Avaa tiedostonhallintasi ja siirry `bitcoin-educational-content`-kansioon, joka edustaa repositoriosi paikallista kloonia. Normaalisti löydät sen polusta `Documents\GitHub\bitcoin-educational-content`. Tässä hakemistossa on tarpeen löytää sopiva alikansio tutoriaalisi sijoittamiseksi. Kansioiden järjestely heijastaa PlanB Network -verkkosivuston eri osioita. Esimerkissämme, koska haluamme lisätä tutoriaalin Sparrow Walletista, on sopivaa siirtyä seuraavaan polkuun: `bitcoin-educational-content\tutorials\wallet`, joka vastaa verkkosivuston `WALLET`-osiota: ![tutorial](assets/12.webp)
 - `wallet`-kansiossa sinun on luotava uusi hakemisto erityisesti tutoriaalillesi. Tämän kansion nimen on evättävä tutoriaalissa käsitelty ohjelmisto, varmistaen sanojen yhdistämisen viivoilla. Esimerkissäni kansio tulee nimetä `sparrow-wallet`:
 ![tutorial](assets/13.webp)
 - Tässä uudessa tutoriaalillesi omistetussa alikansiossa on lisättävä useita elementtejä:
@@ -92,7 +92,7 @@ Nyt kun työhaara on luotu, on aika integroida uusi tutoriaalisi.
 ![tutorial](assets/14.webp)
 - Yhteenvetona, tässä on luotavien tiedostojen hierarkia:
 ```plaintext
-sovereign-university-data/
+bitcoin-educational-content/
 └── tutorials/
     └── wallet/ (muokattava oikean kategorian mukaan)
         └── sparrow-wallet/ (muokattava tutoriaalin nimen mukaan)

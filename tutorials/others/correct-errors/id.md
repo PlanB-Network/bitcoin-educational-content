@@ -8,12 +8,12 @@ Misi PlanB adalah menyediakan sumber daya pendidikan tentang Bitcoin yang terdep
 
 Jika, saat mengkonsultasikan salah satu konten pendidikan kami (tutorial, pelatihan, sumber daya...), Anda mengidentifikasi kesalahan, baik itu kesalahan ejaan, tata bahasa, kesalahan terjemahan kecil dalam bahasa ibu Anda, atau bahkan typo, kami akan sangat berterima kasih jika Anda dapat mengusulkan koreksi cepat sendiri.
 
-Tutorial ini memandu Anda langkah demi langkah melalui proses mengoreksi kesalahan kecil tersebut. Ini adalah tutorial yang ditujukan untuk pemula yang tidak ingin terjun ke dalam kerumitan Git. Namun, jika Anda nyaman dengan Git, berikut adalah ringkasan cepat: Anda hanya perlu melakukan fork [repositori data Jaringan PlanB](https://github.com/DecouvreBitcoin/sovereign-university-data), membuat perubahan pada cabang yang didedikasikan, dan mengajukan Pull Request terhadap cabang `dev` dari repositori sumber.
+Tutorial ini memandu Anda langkah demi langkah melalui proses mengoreksi kesalahan kecil tersebut. Ini adalah tutorial yang ditujukan untuk pemula yang tidak ingin terjun ke dalam kerumitan Git. Namun, jika Anda nyaman dengan Git, berikut adalah ringkasan cepat: Anda hanya perlu melakukan fork [repositori data Jaringan PlanB](https://github.com/PlanB-Network/bitcoin-educational-content), membuat perubahan pada cabang yang didedikasikan, dan mengajukan Pull Request terhadap cabang `dev` dari repositori sumber.
 
 Harap dicatat bahwa jika Anda berencana untuk melakukan tinjauan dan revisi dokumen secara lengkap, terutama untuk terjemahan konten, saya mengundang Anda untuk berkonsultasi [tutorial lebih rinci ini](https://planb.network/tutorials/others/content-review-tutorial). Di sini, kami hanya fokus pada cara melakukan koreksi cepat untuk kesalahan kecil.
 
 - Pertama, Anda perlu memiliki akun di GitHub. Jika Anda tidak tahu cara membuat akun, kami telah membuat [tutorial terperinci untuk membimbing Anda](https://planb.network/tutorials/others/create-github-account).
-- Kunjungi [repositori GitHub PlanB yang didedikasikan untuk data](https://github.com/DecouvreBitcoin/sovereign-university-data):
+- Kunjungi [repositori GitHub PlanB yang didedikasikan untuk data](https://github.com/PlanB-Network/bitcoin-educational-content):
 ![typos](assets/01.webp)
 - Di sini, Anda akan menemukan semua konten kami yang disusun berdasarkan bagian.
 - Jika Anda ingin memodifikasi tutorial, misalnya, pergi ke folder `tutorials`:
@@ -36,5 +36,5 @@ Harap dicatat bahwa jika Anda berencana untuk melakukan tinjauan dan revisi doku
 - Anda akan tiba di halaman PR. Pull Request adalah permintaan yang dikirim oleh kontributor untuk menunjukkan bahwa mereka telah mendorong modifikasi pada cabang di repositori jarak jauh dan bahwa mereka ingin modifikasi tersebut ditinjau dan berpotensi digabungkan ke cabang utama repositori: ![typos](assets/17.webp)
 - Anda dapat menambahkan judul dan deskripsi singkat untuk PR Anda: ![typos](assets/18.webp)
 - Jika semuanya terlihat baik bagi Anda, Anda dapat mengklik tombol hijau `Create Pull Request`: ![typos](assets/19.webp)
-- Selamat, PR Anda telah dikirim! Anda dapat mengikuti kemajuannya di tab `Pull requests` di [repositori GitHub PlanB Network](https://github.com/DecouvreBitcoin/sovereign-university-data/pulls) :![typos](assets/20.webp)
+- Selamat, PR Anda telah dikirim! Anda dapat mengikuti kemajuannya di tab `Pull requests` di [repositori GitHub PlanB Network](https://github.com/PlanB-Network/bitcoin-educational-content/pulls) :![typos](assets/20.webp)
 Terima kasih banyak atas kontribusi Anda! Jika Anda ingin membuat jenis kontribusi lain ke PlanB Network seperti penulisan konten atau terjemahan, jangan ragu untuk [melihat tutorial lain kami di bagian "Kontribusi"](https://planb.network/tutorials/others).

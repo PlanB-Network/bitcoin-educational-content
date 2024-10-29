@@ -13,7 +13,7 @@ PlanBのミッションは、できるだけ多くの言語でBitcoinに関す�
 https://planb.network/tutorials/others/create-github-account
 
 
-- `resources/builder/`セクションにある[PlanB専用のデータGitHubリポジトリ](https://github.com/DecouvreBitcoin/sovereign-university-data/tree/dev/resources/builders)にアクセスしてください：
+- `resources/builder/`セクションにある[PlanB専用のデータGitHubリポジトリ](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/builders)にアクセスしてください：
 ![builder](assets/02.webp)
 - 右上の`Add file`ボタンをクリックし、次に`Create new file`をクリックします：
 ![builder](assets/03.webp)

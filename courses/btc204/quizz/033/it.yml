@@ -1,4 +1,4 @@
-question: Se osserviamo in una semplice transazione di pagamento che un output ha un importo tondo, quale interpretazione probabile possiamo trarre?
+question: Se osserviamo in una transazione di pagamento semplice che un output ha un importo tondo, quale interpretazione probabile possiamo trarre?
 answer: L'output tondo non è più in possesso dell'utente dell'input.
 wrong_answers:
   - L'output tondo è destinato alle commissioni di transazione.

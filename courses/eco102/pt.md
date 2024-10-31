@@ -423,7 +423,8 @@ E ele continuaria a analisar seus efeitos perversos a partir de então. Aqui est
 ![image](assets/image/07/IMG08.webp)
 Para concluir, protecionistas e socialistas compartilham um ponto comum, segundo Bastiat: o que eles buscam na lei não é garantir a todos o livre exercício de suas faculdades e a justa recompensa por seus esforços, mas sim favorecer a exploração mais ou menos completa de uma classe de cidadãos por outra. Com o protecionismo, é a minoria que explora a maioria. Com o socialismo, é a maioria que explora a minoria. Em ambos os casos, a justiça é violada e o interesse geral é comprometido. Bastiat os coloca um contra o outro.
 
-![image](assets/image/07/IMG15.webp)
+> O Estado é a grande ficção através da qual todos se esforçam para viver às custas de todos os outros.
+
 
 ## Proudhon
 

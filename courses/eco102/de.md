@@ -423,7 +423,8 @@ Und er würde danach weiterhin dessen perverse Effekte analysieren. Hier ist ein
 ![image](assets/image/07/IMG08.webp)
 Zum Abschluss, Protektionisten und Sozialisten teilen einen gemeinsamen Punkt, laut Bastiat: Was sie vom Gesetz suchen, ist nicht, jedem die freie Ausübung seiner Fähigkeiten und die gerechte Belohnung für seine Anstrengungen zu sichern, sondern eher die mehr oder weniger vollständige Ausbeutung einer Klasse von Bürgern durch eine andere zu begünstigen. Mit dem Protektionismus ist es die Minderheit, die die Mehrheit ausbeutet. Mit dem Sozialismus ist es die Mehrheit, die die Minderheit ausbeutet. In beiden Fällen wird die Gerechtigkeit verletzt und das allgemeine Interesse kompromittiert. Bastiat stellt sie gegeneinander.
 
-![image](assets/image/07/IMG15.webp)
+> Der Staat ist die große Fiktion, durch die jeder versucht, auf Kosten aller anderen zu leben.
+
 
 ## Proudhon
 

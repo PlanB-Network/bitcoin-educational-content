@@ -444,7 +444,8 @@ And he would continue to analyze its perverse effects thereafter. Here is one ex
 ![image](assets/image/07/IMG08.webp)
 To conclude, protectionists and socialists share a common point, according to Bastiat: what they seek from the law is not to ensure everyone the free exercise of their faculties and the fair reward for their efforts, but rather to favor the more or less complete exploitation of one class of citizens by another. With protectionism, it is the minority that exploits the majority. With socialism, it is the majority that exploits the minority. In both cases, justice is violated and the general interest is compromised. Bastiat sets them against each other.
 
-![image](assets/image/07/IMG15.webp)
+> The state is the great fiction through which everyone endeavors to live at the expense of everyone else.
+
 
 ## Proudhon
 

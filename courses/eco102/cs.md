@@ -403,7 +403,9 @@ A nadále by analyzoval jeho zvrácené účinky. Zde je jeden příklad, citova
 ![image](assets/image/07/IMG08.webp)
 Závěrem, protekcionisté a socialisté mají podle Bastiata společný bod: to, co hledají od zákona, není zajistit každému svobodné uplatnění jeho schopností a spravedlivou odměnu za jeho úsilí, ale spíše upřednostnit více či méně úplné využívání jedné třídy občanů druhou. S protekcionismem je to menšina, která využívá většinu. Se socialismem je to většina, která využívá menšinu. V obou případech je porušena spravedlnost a ohrožen veřejný zájem. Bastiat je staví proti sobě.
 
-![image](assets/image/07/IMG15.webp)
+> Stát je velká fikce, díky které se každý snaží žít na úkor všech ostatních.
+
+
 
 ## Proudhon
 

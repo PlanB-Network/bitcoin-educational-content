@@ -416,7 +416,8 @@ Và ông sẽ tiếp tục phân tích những tác động xấu xa của nó s
 ![image](assets/image/07/IMG08.webp)
 Kết luận, theo Bastiat: chủ nghĩa bảo hộ và chủ nghĩa xã hội có một điểm chung, đó là những gì họ tìm kiếm từ luật pháp không phải để đảm bảo cho mọi người được tự do thực hiện năng lực của mình và hưởng phần thưởng công bằng cho nỗ lực của họ, mà thay vào đó là để ưu ái việc bóc lột ít hay nhiều một tầng lớp công dân bởi một tầng lớp khác. Với chủ nghĩa bảo hộ, đó là thiểu số bóc lột đa số. Với chủ nghĩa xã hội, đó là đa số bóc lột thiểu số. Trong cả hai trường hợp, công lý bị vi phạm và lợi ích chung bị tổn hại. Bastiat đặt họ vào vị trí đối lập với nhau.
 
-![image](assets/image/07/IMG15.webp)
+> Nhà nước là hư cấu lớn, qua đó mọi người cố gắng sống bằng chi phí của người khác.
+
 
 ## Proudhon
 

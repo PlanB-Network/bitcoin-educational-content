@@ -423,7 +423,8 @@ Ja hän jatkaisi sen jälkeen sen perverssien vaikutusten analysointia. Tässä 
 ![kuva](assets/image/07/IMG08.webp)
 Yhteenvetona, protektionistit ja sosialistit jakavat yhteisen näkökohdan Bastiatin mukaan: mitä he hakevat laista, ei ole varmistaa jokaiselle vapaan toiminnan mahdollisuus ja oikeudenmukainen palkkio heidän ponnisteluistaan, vaan pikemminkin suosia toisen kansalaisluokan enemmän tai vähemmän täydellistä hyväksikäyttöä toisen toimesta. Protektionismissa on vähemmistö, joka hyväksikäyttää enemmistöä. Sosialismissa on enemmistö, joka hyväksikäyttää vähemmistöä. Molemmissa tapauksissa oikeudenmukaisuus loukataan ja yleinen etu vaarantuu. Bastiat asettaa ne vastakkain.
 
-![kuva](assets/image/07/IMG15.webp)
+> Valtio on suuri fiktio, jonka kautta kaikki pyrkivät elämään toistensa kustannuksella.
+
 
 ## Proudhon
 

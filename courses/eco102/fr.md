@@ -503,7 +503,8 @@ Et il ne cessera par la suite d’en analyser les effets pervers. En voici un pa
 
 Pour conclure, protectionnistes et socialistes ont un point commun, selon Bastiat : ce qu'ils demandent à la loi, ce n’est pas d'assurer à chacun le libre exercice de ses facultés et la juste rétribution de ses efforts, mais de favoriser, au contraire, l'exploitation plus ou moins complète d'une classe de citoyens par une autre. Avec le protectionnisme, c’est la minorité qui exploite la majorité. Avec le socialisme, c'est la majorité qui exploite la minorité. Dans les deux cas, la justice est violée et l'intérêt général compromis. Bastiat les renvoie dos-à-dos.
 
-![image](assets/image/07/IMG15.webp)
+> L'État, c'est la grande fiction à travers laquelle tout le monde s'efforce de vivre aux dépens de tout le monde.
+
 
 ## Proudhon
 

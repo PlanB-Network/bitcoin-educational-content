@@ -381,6 +381,8 @@ E avrebbe continuato ad analizzarne gli effetti perversi in seguito. Ecco un ese
 
 Per concludere, protezionisti e socialisti condividono un punto comune, secondo Bastiat: ciò che cercano dalla legge non è assicurare a tutti il libero esercizio delle proprie facoltà e la giusta ricompensa per i loro sforzi, ma piuttosto favorire lo sfruttamento più o meno completo di una classe di cittadini da parte di un'altra. Con il protezionismo, è la minoranza che sfrutta la maggioranza. Con il socialismo, è la maggioranza che sfrutta la minoranza. In entrambi i casi, la giustizia è violata e l'interesse generale è compromesso. Bastiat li contrappone l'uno all'altro.
 
+> Lo Stato è la grande finzione attraverso la quale ognuno si sforza di vivere a spese degli altri.
+
 ## Proudhon
 
 <chapterId>96902abd-6915-5b25-a187-a4790162b86c</chapterId>

@@ -484,7 +484,7 @@ So schreibt Bastiat in Öffentliche Arbeiten:
 
 > Der Staat eröffnet eine Straße, baut einen Palast, begradigt eine Straße, gräbt einen Kanal; dadurch gibt er bestimmten Arbeitern Arbeit, das ist das, was gesehen wird; aber er entzieht bestimmten anderen Arbeit, das ist das, was nicht gesehen wird.
 
-![image](assets/image/09/IMG20.webp)
+
 Eines der bekanntesten Sophismen ist die Parabel vom zerbrochenen Fenster. Einige behaupten, dass das Zerbrechen eines Fensters in einem Haus der Wirtschaft nicht schadet, da es dem Glaser zugutekommt. Aber Bastiat wird zeigen, dass Zerstörung nicht in unserem Interesse liegt, weil sie keinen Reichtum schafft. Sie kostet mehr, als sie einbringt. Der junge Junge, der das Fenster eines Nachbarn zerbricht, gibt dem Glaser Arbeit. Aber so trösten ihn seine Freunde:
 > "Jedes Unglück hat sein Gutes. Solche Unfälle halten die Industrie am Laufen. Jeder muss leben. Was würde aus Glasern werden, wenn niemals Fenster zerbrochen würden?"
 
@@ -1041,3 +1041,4 @@ Aber wie Bastiat treffend demonstrierte, hat staatliches Eingreifen perverse Eff
 Wenn wir die Dinge aus diesem Blickwinkel betrachten, erklärte Reagan den GE-Mitarbeitern, erscheinen die sogenannten Wunder der Staatsausgaben in einem völlig anderen Licht. Denn Steuern entmutigen die Produktion, und der durch öffentliche Ausgaben geschaffene Reichtum kann diejenigen, die durch die zur Finanzierung dieser Ausgaben erhobenen Steuern an der Entstehung gehindert wurden, nicht vollständig kompensieren.
 ![Bild](assets/image/20/IMG10.webp)
 Im Wesentlichen übernahm Reagan von Bastiat mehrere Schlüsselelemente einer liberalen Vision von Gesellschaft und Mensch: die Vorrangstellung der Zivilgesellschaft vor dem Staat, den Wert der Wahl und der individuellen Verantwortung, die Bedeutung des Unternehmers bei der Schaffung von Wohlstand, die Wichtigkeit eines flexiblen und minimalen rechtlichen Rahmens, der Vertrauen und Respekt für Verträge ermöglicht, das grundlegende Gesetz, dass Wohlstand geschaffen werden muss, bevor er verteilt werden kann, den Wunsch, jedem eine Chance auf wettbewerbsorientierten Märkten zu geben…
+

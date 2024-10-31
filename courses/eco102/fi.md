@@ -496,7 +496,7 @@ Näin ollen Julkisissa Töissä Bastiat kirjoittaa:
 
 > Valtio avaa tien, rakentaa palatsin, suoristaa kadun, kaivaa kanavan; tämän myötä se antaa työtä tietyille työntekijöille, se on mitä nähdään; mutta se riistää työn tietyiltä toisilta, se on mitä ei nähdä.
 
-![image](assets/image/09/IMG20.webp)
+
 Yksi tunnetuimmista sofismeista on rikkinäisen ikkunan harhaluulo. Jotkut väittävät, että talon ikkunan rikkominen ei vahingoita taloutta, koska se hyödyttää lasimestaria. Mutta Bastiat osoittaa, että tuhoaminen ei ole meidän etujemme mukaista, koska se ei luo vaurautta. Se maksaa enemmän kuin tuottaa. Nuori poika, joka rikkoo naapurin ikkunan, antaa työtä lasimestarille. Mutta tässä on, miten hänen ystävänsä lohduttavat häntä:
 > "Jokaisella pilvellä on hopeareunus. Tällaiset onnettomuudet pitävät teollisuuden käynnissä. Kaikkien täytyy elää. Mitä lasimestareista tulisi, jos ikkunoita ei koskaan rikottaisi?"
 
@@ -1047,3 +1047,4 @@ Mutta kuten Bastiat osuvasti osoitti, valtion interventiolla on perverssejä vai
 Jos tarkastelemme asioita tästä näkökulmasta, Reagan selitti GE:n työntekijöille, niin kutsutut valtion menojen ihmeet näyttäytyvät täysin eri valossa. Koska verotus vähentää tuotantoa, ja julkisen menon luoma vauraus ei voi täysin korvata niitä, jotka estettiin syntymästä veroilla, jotka kerättiin näiden kulujen kattamiseksi.
 ![kuva](assets/image/20/IMG10.webp)
 Ytimessään Reagan otti Bastiatilta useita avainelementtejä liberaalin yhteiskunta- ja ihmiskuvan osalta: siviiliyhteiskunnan ensisijaisuus valtioon nähden, valinnan ja yksilöllisen vastuun arvo, yrittäjän merkitys vaurauden luomisessa, joustavan ja minimaalisen lainsäädännön tärkeys, mikä mahdollistaa luottamuksen ja sopimusten kunnioittamisen, peruslaki, jonka mukaan vauraus on luotava ennen kuin sitä voidaan jakaa, halu antaa jokaiselle mahdollisuus kilpailullisilla markkinoilla…
+

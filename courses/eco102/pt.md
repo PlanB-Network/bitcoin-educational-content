@@ -496,7 +496,7 @@ Assim, em Obras Públicas, Bastiat escreve:
 
 > O Estado abre uma estrada, constrói um palácio, retifica uma rua, escava um canal; com isso, dá trabalho a certos trabalhadores, isso é o que é visto; mas priva trabalho de certos outros, isso é o que não é visto.
 
-![image](assets/image/09/IMG20.webp)
+
 Um dos sofismas mais conhecidos é a falácia da janela quebrada. Alguns afirmam que o quebrar de uma janela em uma casa não prejudica a economia, pois beneficia o vidraceiro. Mas Bastiat mostrará que a destruição não é do nosso interesse porque não cria riqueza. Custa mais do que rende. O jovem que quebra a janela do vizinho dá trabalho ao vidraceiro. Mas eis como seus amigos o consolam:
 > "Toda nuvem tem um lado bom. Tais acidentes mantêm a indústria em movimento. Todos precisam viver. O que seria dos vidraceiros se as janelas nunca fossem quebradas?"
 
@@ -1072,3 +1072,4 @@ Mas, como Bastiat demonstrou de forma apta, a intervenção estatal tem efeitos 
 Se olharmos as coisas sob este ângulo, Reagan explicou aos funcionários da GE, os chamados milagres dos gastos estatais aparecem sob uma luz completamente diferente. Porque os impostos desencorajam a produção, e a riqueza criada pelo gasto público não pode compensar totalmente aquelas que foram impedidas de nascer pelos impostos arrecadados para pagar por essas despesas.
 ![image](assets/image/20/IMG10.webp)
 Em essência, Reagan retirou de Bastiat vários elementos-chave de uma visão liberal da sociedade e do homem: a primazia da sociedade civil sobre o Estado, o valor da escolha e da responsabilidade individual, a importância do empreendedor na criação de riqueza, a importância de um quadro legal flexível e mínimo, que permite confiança e respeito pelos contratos, a lei fundamental de que a riqueza deve ser criada antes que possa ser distribuída, o desejo de dar a todos uma chance nos mercados competitivos…
+

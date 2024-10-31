@@ -437,7 +437,7 @@ Così, in Opere Pubbliche, Bastiat scrive:
 
 > Lo Stato apre una strada, costruisce un palazzo, rettifica una strada, scava un canale; con ciò, dà lavoro a certi lavoratori, questo è ciò che si vede; ma priva di lavoro certi altri, questo è ciò che non si vede.
 
-![image](assets/image/09/IMG20.webp)
+
 Uno dei sofismi più noti è la fallacia della finestra rotta. Alcuni sostengono che la rottura di una finestra in una casa non danneggi l'economia poiché beneficia il vetraio. Ma Bastiat dimostrerà che la distruzione non è nel nostro interesse perché non crea ricchezza. Costa più di quanto renda. Il ragazzo che rompe la finestra di un vicino dà lavoro al vetraio. Ma ecco come i suoi amici lo consolano:
 
 > "Non c'è male senza bene. Tali incidenti mantengono in moto l'industria. Tutti hanno bisogno di vivere. Che ne sarebbe dei vetrai se le finestre non si rompessero mai?"
@@ -962,4 +962,5 @@ Ma come Bastiat ha abilmente dimostrato, l'intervento dello Stato ha effetti per
 Se guardiamo le cose da questa prospettiva, Reagan spiegava ai dipendenti della GE, i cosiddetti miracoli della spesa pubblica appaiono sotto una luce completamente diversa. Poiché le tasse scoraggiano la produzione, e la ricchezza creata dalla spesa pubblica non può compensare pienamente quelle che sono state impediti di nascere dalle tasse imposte per pagare queste spese.
 
 In sostanza, Reagan ha preso da Bastiat diversi elementi chiave di una visione liberale della società e dell'uomo: la primazia della società civile sullo Stato, il valore della scelta e della responsabilità individuale, l'importanza dell'imprenditore nella creazione di ricchezza, l'importanza di un quadro legale flessibile e minimo, che permetta fiducia e rispetto dei contratti, la legge fondamentale che la ricchezza deve essere creata prima di poter essere distribuita, il desiderio di dare a tutti una possibilità nei mercati competitivi…
+
 

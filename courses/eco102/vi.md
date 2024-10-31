@@ -491,7 +491,7 @@ Vì thế, trong Public Works, Bastiat viết:
 
 > Nhà nước mở một con đường, xây một cung điện, chỉnh trang một con phố, đào một kênh; qua đó, nó tạo ra công ăn việc làm cho một số công nhân, đó là điều được nhìn thấy; nhưng nó cũng tước đi công việc từ một số người khác, đó là điều không được nhìn thấy.
 
-![image](assets/image/09/IMG20.webp)
+
 Một trong những sophism nổi tiếng nhất là nguỵ biện về chiếc cửa sổ vỡ. Một số người cho rằng việc vỡ một cái cửa sổ ở nhà không gây hại cho nền kinh tế vì nó mang lại lợi ích cho người thợ làm kính. Nhưng Bastiat sẽ chứng minh rằng sự phá hủy không phải là lợi ích của chúng ta bởi vì nó không tạo ra của cải. Nó gây tốn kém hơn là lợi ích nó mang lại. Cậu bé phá vỡ cửa sổ nhà hàng xóm đã tạo công việc cho người thợ làm kính. Nhưng đây là cách bạn bè của cậu ta an ủi:
 
 > "Trong cái rủi có cái may. Những tai nạn như vậy giữ cho ngành công nghiệp làm kính tiếp tục hoạt động. Mọi người đều cần phải sống. Nếu cửa sổ không bao giờ bị vỡ thì người thợ làm kính sẽ ra sao?"
@@ -1058,4 +1058,5 @@ Nếu nhìn nhận vấn đề từ góc độ này, Reagan giải thích với 
 ![image](assets/image/20/IMG10.webp)
 
 Về bản chất, Reagan đã lấy từ Bastiat một số yếu tố then chốt của một tầm nhìn tự do về xã hội và con người: ưu tiên hơn vai trò của xã hội dân sự so với Nhà nước, giá trị của sự lựa chọn và trách nhiệm cá nhân, tầm quan trọng của doanh nhân trong việc tạo ra của cải, vật chất, tầm quan trọng của một khung pháp lý linh hoạt và tối thiểu, để tạo niềm tin và sự tôn trọng đối với các hợp đồng, quy luật cơ bản rằng của cải phải được tạo ra trước khi nó có thể được phân phối, mong muốn mang lại cho mọi người một cơ hội trong thị trường cạnh tranh...
+
 

@@ -477,7 +477,7 @@ Takže v Dílech veřejných, Bastiat píše:
 
 > Stát otevře cestu, postaví palác, narovná ulici, vykope kanál; tím dá práci určitým pracovníkům, to je viděno; ale připraví o práci určité jiné, to je neviděno.
 
-![image](assets/image/09/IMG20.webp)
+
 Jedním z nejznámějších sofismů je omyl o rozbitém okně. Někteří tvrdí, že rozbití okna v domě neškodí ekonomice, protože to prospívá sklenáři. Ale Bastiat ukáže, že destrukce není v našem zájmu, protože nevytváří bohatství. Stojí více, než přináší. Mladý chlapec, který rozbije okno souseda, dá práci sklenáři. Ale tady je, jak ho jeho přátelé utěšují:
 > "Každý mrak má stříbrný okraj. Takové nehody udržují průmysl v chodu. Každý potřebuje žít. Co by se stalo se sklenáři, kdyby se okna nikdy nerozbíjela?"
 
@@ -1048,3 +1048,4 @@ Ale jak Bastiat trefně ukázal, státní zásah má perversní účinky, které
 Pokud se na věci podíváme z tohoto úhlu, vysvětloval Reagan zaměstnancům GE, takzvané zázraky státních výdajů se jeví v úplně jiném světle. Protože daně odradí od produkce a bohatství vytvořené veřejnými výdaji nemůže plně kompenzovat ty, které byly zabráněny vzniknout daněmi vybíranými na pokrytí těchto výdajů.
 ![obrázek](assets/image/20/IMG10.webp)
 Ve své podstatě Reagan převzal od Bastiata několik klíčových prvků liberální vize společnosti a člověka: primát občanské společnosti nad státem, hodnotu volby a individuální odpovědnosti, důležitost podnikatele ve tvorbě bohatství, význam flexibilního a minimálního právního rámce, který umožňuje důvěru a respektování smluv, základní zákon, že bohatství musí být vytvořeno, než může být rozděleno, touhu dát každému šanci na konkurenčních trzích…
+

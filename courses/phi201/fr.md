@@ -1495,7 +1495,7 @@ A partir de 1958, une politique de redressement de l’économie française, ins
 
 Dans _Le péché monétaire de l’Occident_, en 1971, Rueff écrit :
 
-> C’est par le déficit budgétaire que les hommes perdent leur liberté ». 
+> C’est par le déficit budgétaire que les hommes perdent leur liberté. 
 
 Il ajoute: "L'inflation, c'est de subventionner des dépenses qui ne rapportent rien avec de l'argent qui n'existe pas ». Selon lui : «  On croirait, en observant l'évolution du système monétaire international, que l'Occident s'applique à mettre en œuvre le conseil de Lénine, suivant lequel : Pour détruire le régime bourgeois, il suffit de corrompre sa monnaie.
 

@@ -582,7 +582,7 @@ Le bon économiste, selon Bastiat, doit décrire les effets des décisions polit
 
 Ainsi dans Travaux publics, Bastiat écrit :
 
-> L'État ouvre un chemin, bâtit un palais, redresse une rue, perce un canal; par-là, il donne du travail à certains ouvriers, c'est qu'on voit; mais il prive de travail certains autres, c'est ce qu'on ne voit pas.
+> L'État ouvre un chemin, bâtit un palais, redresse une rue, perce un canal; par-là, il donne du travail à certains ouvriers, c'est ce qu'on voit; mais il prive de travail certains autres, c'est ce qu'on ne voit pas.
 
 ![image](assets/image/09/IMG20.webp)
 

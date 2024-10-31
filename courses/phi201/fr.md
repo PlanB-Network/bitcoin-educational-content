@@ -507,7 +507,7 @@ Quand Antigone désobéit à Créon, elle s’oppose au droit positif pour obéi
 
 ### Cicéron et le droit naturel
 
-Cicéron a vécu au 1<sup>er</sup> siècle avant Jésus-Christ et il est considéré comme le plus grand orateur de langue latine sous l’empire romain. C’est aussi un philosophe moral et politique proche des stoïciens. Ses essais ont été lus par les européens instruits durant de nombreux siècles.
+Cicéron a vécu au 1er siècle avant Jésus-Christ et il est considéré comme le plus grand orateur de langue latine sous l’empire romain. C’est aussi un philosophe moral et politique proche des stoïciens. Ses essais ont été lus par les européens instruits durant de nombreux siècles.
 
 ![image](assets/2/img-004.webp)
 

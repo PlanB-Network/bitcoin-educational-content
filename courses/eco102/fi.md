@@ -600,9 +600,13 @@ Ongelmana on, että verot, sellaisina kuin ne on käsitetty, ovat vallanpitäjie
 
 Siksi Bastiat oli jo ymmärtänyt Lafferin käyrän. Arthur Laffer on amerikkalainen taloustieteilijä, joka on tunnettu kuuluisasta "käyrästään" (ellipsi), julkaistu vuonna 1974, joka osoittaa, että verojen tuotto kasvaa verokannan alentuessa. Tämä on liiallisen verotuksen vähenevän tuoton teoria.
 
-![kuva](assets/image/11/IMG6.webp)
+> Liian paljon veroa tappaa veron.
+
 
 Poliitikot olettavat naiivisti, että verokantojen ja verotulojen välillä on automaattinen ja kiinteä suhde. He ajattelevat voivansa kaksinkertaistaa verotulot kaksinkertaistamalla verokannan. Lafferin mukaan tällainen lähestymistapa ei ota huomioon sitä tosiasiaa, että veronmaksajat saattavat muuttaa käyttäytymistään vastauksena uusiin kannustimiin.
+
+![image](assets/image/11/IMG7.webp)
+
 Lafferin käyrä osoittaa, että hallitus ei kerää tuloja, kun verokannat ovat 100 %. Päinvastoin, veronalennukset palvelevat taloudellisen toiminnan stimulointia ja siten valtion tuloja. Todellakin, marginaalisten verokantojen alentaminen stimuloi investointeja, työtä, luovuutta ja siten edistää talouskasvua. Riittävän suuri alennus voisi tuottaa tarpeeksi taloudellista stimulaatiota laajentamaan veropohjaa merkittävästi ja lisäämään julkisia tuloja.
 
 Bastiat saattaisi lisätä, että valtion menojen vähentämiseen tulisi kiinnittää yhtä paljon huomiota kuin verojen alentamiseen. Siitä huolimatta, kuten Margaret Thatcher, Frédéric Bastiat'n oppilas, niin osuvasti totesi:

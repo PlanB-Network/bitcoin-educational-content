@@ -537,7 +537,12 @@ Il problema è che le tasse, così concepite, sono soggette all'arbitrarietà di
 
 Ecco perché Bastiat aveva già compreso la curva di Laffer. Arthur Laffer è un economista americano noto per la sua famosa "curva" (un'ellisse), pubblicata nel 1974, che mostra come il rendimento dalle tasse aumenti con l'abbassamento del tasso di tassazione. Questa è la teoria del rendimento decrescente della tassazione eccessiva.
 
+> Troppe tasse uccidono la tassa.
+
 I politici presumono ingenuamente che esista una relazione automatica e fissa tra aliquote fiscali e entrate fiscali. Pensano di poter raddoppiare le entrate fiscali raddoppiando l'aliquota fiscale. Secondo Laffer, un tale approccio trascura il fatto che i contribuenti possono cambiare il loro comportamento in risposta a nuovi incentivi.
+
+![image](assets/image/11/IMG7.webp)
+
 La curva di Laffer mostra che il governo non raccoglie entrate quando le aliquote fiscali sono al 100%. Al contrario, ogni riduzione delle tasse serve a stimolare l'attività economica e quindi le entrate statali. Infatti, ridurre le aliquote marginali stimola gli investimenti, il lavoro, la creatività e quindi promuove la crescita economica. Una riduzione sufficiente potrebbe produrre abbastanza stimolo economico da aumentare le entrate pubbliche ampliando significativamente la base imponibile.
 
 Bastiat potrebbe aggiungere che tanta importanza dovrebbe essere data alla riduzione delle spese statali quanto alla riduzione delle tasse. Tuttavia, come Margaret Thatcher, discepola di Frédéric Bastiat, ha così bene affermato:

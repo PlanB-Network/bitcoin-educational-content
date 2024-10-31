@@ -607,9 +607,12 @@ El problema es que los impuestos, tal como se conciben, están sujetos a la arbi
 
 Es por eso que Bastiat ya había entendido la curva de Laffer. Arthur Laffer es un economista estadounidense conocido por su famosa "curva" (una elipse), publicada en 1974, que muestra que el rendimiento de los impuestos aumenta con la reducción de la tasa impositiva. Esta es la teoría del rendimiento decreciente de la tributación excesiva.
 
-![image](assets/image/11/IMG6.webp)
+> Demasiado impuesto mata el impuesto.
 
 Los políticos asumen ingenuamente que existe una relación automática y fija entre las tasas de impuestos y los ingresos fiscales. Piensan que pueden duplicar los ingresos fiscales duplicando la tasa de impuestos. Según Laffer, tal enfoque pasa por alto el hecho de que los contribuyentes pueden cambiar su comportamiento en respuesta a nuevos incentivos.
+
+![image](assets/image/11/IMG7.webp)
+
 La curva de Laffer muestra que el gobierno no recauda ingresos cuando las tasas de impuestos están al 100%. Por el contrario, cualquier reducción de impuestos sirve para estimular la actividad económica y, por lo tanto, los ingresos estatales. De hecho, reducir las tasas marginales de impuestos estimula la inversión, el trabajo, la creatividad y, por lo tanto, promueve el crecimiento económico. Una reducción suficiente podría producir suficiente estímulo económico para aumentar los ingresos públicos ampliando significativamente la base impositiva.
 
 Bastiat podría añadir que se debe dar tanta importancia a la reducción de los gastos estatales como a la reducción de los impuestos. No obstante, como Margaret Thatcher, discípula de Frédéric Bastiat, lo expresó tan acertadamente:

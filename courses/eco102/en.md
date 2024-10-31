@@ -640,9 +640,12 @@ The problem is that taxes, as conceived, are subject to the arbitrariness of tho
 
 That's why Bastiat had already understood the Laffer curve. Arthur Laffer is an American economist known for his famous "curve" (an ellipse), published in 1974, which shows that the yield from taxes increases with the lowering of the tax rate. This is the theory of the diminishing return of excessive taxation.
 
-![image](assets/image/11/IMG6.webp)
+> Too much tax kills the tax.
 
 Politicians naively assume there is an automatic and fixed relationship between tax rates and tax revenues. They think they can double tax revenues by doubling the tax rate. According to Laffer, such an approach overlooks the fact that taxpayers may change their behavior in response to new incentives.
+
+![image](assets/image/11/IMG7.webp)
+
 The Laffer curve shows that the government collects no revenue when tax rates are at 100%. Conversely, any reduction in taxes serves to stimulate economic activity and thus state revenues. Indeed, reducing marginal tax rates stimulates investment, work, creativity, and thus promotes economic growth. A sufficient reduction could produce enough economic stimulus to increase public revenues by significantly broadening the tax base.
 
 Bastiat might add that as much importance should be placed on reducing state expenditures as on reducing taxes. Nonetheless, as Margaret Thatcher, a disciple of Frédéric Bastiat, so aptly put it:

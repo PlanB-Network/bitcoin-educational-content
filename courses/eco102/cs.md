@@ -586,9 +586,12 @@ Problém je, že daně, jak jsou pojaty, podléhají libovůli těch u moci. Pod
 
 To je důvod, proč Bastiat již pochopil Lafferovu křivku. Arthur Laffer je americký ekonom známý svou slavnou "křivkou" (elipsou), publikovanou v roce 1974, která ukazuje, že výnos z daní se zvyšuje se snižováním daňové sazby. Jedná se o teorii o klesajícím výnosu z nadměrného zdanění.
 
-![image](assets/image/11/IMG6.webp)
+> Příliš mnoho daní zabíjí daně.
 
 Politici naivně předpokládají, že mezi daňovými sazbami a daňovými příjmy existuje automatický a pevný vztah. Myslí si, že mohou zdvojnásobit daňové příjmy zdvojnásobením daňové sazby. Podle Laffera takový přístup přehlíží skutečnost, že daňoví poplatníci mohou změnit své chování v reakci na nové pobídky.
+
+![image](assets/image/11/IMG7.webp)
+
 Lafferova křivka ukazuje, že vláda nevybírá žádné příjmy, když jsou daňové sazby na 100%. Naopak, jakékoli snížení daní slouží k stimulaci ekonomické aktivity a tím i státních příjmů. Skutečně, snížení okrajových daňových sazeb stimuluje investice, práci, kreativitu a tím podporuje ekonomický růst. Dostatečné snížení by mohlo vyvolat dostatečný ekonomický stimul k výraznému rozšíření daňové základny a zvýšení veřejných příjmů.
 
 Bastiat by mohl dodat, že stejný důraz by měl být kladen na snižování státních výdajů jako na snižování daní. Nicméně, jak tak trefně řekla Margaret Thatcherová, žákyně Frédérica Bastiata:

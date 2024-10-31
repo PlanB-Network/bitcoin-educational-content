@@ -594,9 +594,13 @@ Das Problem ist, dass Steuern, wie sie konzipiert sind, der Willkür der Mächti
 
 Deswegen hatte Bastiat bereits die Laffer-Kurve verstanden. Arthur Laffer ist ein amerikanischer Ökonom, bekannt für seine berühmte "Kurve" (eine Ellipse), die 1974 veröffentlicht wurde und zeigt, dass die Steuereinnahmen mit der Senkung des Steuersatzes steigen. Dies ist die Theorie des abnehmenden Ertrags von übermäßiger Besteuerung.
 
-![image](assets/image/11/IMG6.webp)
+> Zu viel Steuer tötet die Steuer.
+
 
 Politiker nehmen naiverweise an, es gäbe eine automatische und feste Beziehung zwischen Steuersätzen und Steuereinnahmen. Sie denken, sie könnten die Steuereinnahmen verdoppeln, indem sie den Steuersatz verdoppeln. Laut Laffer übersieht ein solcher Ansatz die Tatsache, dass Steuerzahler ihr Verhalten als Reaktion auf neue Anreize ändern könnten.
+
+![image](assets/image/11/IMG7.webp)
+
 Die Laffer-Kurve zeigt, dass die Regierung keine Einnahmen erzielt, wenn die Steuersätze bei 100% liegen. Im Gegenteil, jede Steuersenkung dient dazu, die wirtschaftliche Aktivität zu stimulieren und somit die Staatseinnahmen. Tatsächlich stimuliert die Reduzierung der Grenzsteuersätze Investitionen, Arbeit, Kreativität und fördert somit das Wirtschaftswachstum. Eine ausreichende Senkung könnte genug wirtschaftlichen Anreiz bieten, um die öffentlichen Einnahmen durch eine erhebliche Erweiterung der Steuerbasis zu erhöhen.
 
 Bastiat könnte hinzufügen, dass der Reduzierung der Staatsausgaben genauso viel Bedeutung beigemessen werden sollte wie der Senkung der Steuern. Dennoch, wie Margaret Thatcher, eine Schülerin von Frédéric Bastiat, so treffend sagte:

@@ -605,9 +605,13 @@ Vấn đề là thuế, như được hình dung, chịu sự tùy tiện của 
 
 Đó là lý do tại sao Bastiat đã hiểu về đường cong Laffer. Arthur Laffer là một nhà kinh tế học người Mỹ nổi tiếng với "đường cong" của mình (một hình elip), được công bố vào năm 1974, cho thấy rằng thu nhập từ thuế tăng lên khi giảm mức thuế suất. Đây là lý thuyết về sự giảm sút lợi nhuận của việc đánh thuế quá mức.
 
-![image](assets/image/11/IMG6.webp)
+> Thuế quá nhiều sẽ giết chết thuế.
+
 
 Các chính trị gia một cách ngây thơ giả định rằng có một mối quan hệ tự động và cố định giữa mức thuế suất và thu nhập thuế. Họ nghĩ rằng họ có thể tăng gấp đôi thu nhập thuế bằng cách tăng gấp đôi mức thuế suất. Theo Laffer, cách tiếp cận như vậy không tính đến việc người nộp thuế có thể thay đổi hành vi của họ để phản ứng với các động lực mới.
+
+![image](assets/image/11/IMG7.webp)
+
 Đường cong Laffer cho thấy chính phủ không thu được đồng thu nhập nào khi mức thuế suất ở mức 100%. Ngược lại, bất kỳ sự giảm thuế nào đều kích thích hoạt động kinh tế và do đó là thu nhập của nhà nước. Thực vậy, giảm mức thuế suất biên sẽ kích thích đầu tư, lao động, sáng tạo, và do đó thúc đẩy tăng trưởng kinh tế. Một sự giảm đủ lớn có thể tạo ra đủ kích thích kinh tế để tăng thu nhập công nhờ mở rộng cơ sở đánh thuế.
 
 Bastiat có thể thêm rằng cần phải đặt trọng tâm vào việc giảm chi tiêu của nhà nước cũng như giảm thuế. Tuy nhiên, như Margaret Thatcher, một học trò của Frédéric Bastiat, đã nói một cách đúng đắn:

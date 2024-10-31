@@ -1,0 +1,9 @@
+question: Qu'est-ce que la "main invisible" selon Adam Smith ?
+answer: Un mécanisme par lequel les intérêts individuels servent l'intérêt général
+wrong_answers:
+  - Une force surnaturelle qui guide l'économie
+  - Un complot des riches pour exploiter les pauvres
+  - Une métaphore pour décrire le rôle de l'État dans l'économie
+explanation: |
+  La "main invisible" décrit la manière dont la recherche des intérêts personnels dans un marché libre contribue sans intention à l'intérêt général.
+reviewed: false

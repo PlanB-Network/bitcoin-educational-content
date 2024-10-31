@@ -1,0 +1,9 @@
+question: Selon Friedrich Hayek, pourquoi la planification centralisée est-elle inefficace ?
+answer: Elle ne peut pas traiter la complexité des décisions économiques
+wrong_answers:
+  - Elle réduit la quantité de biens produits
+  - Elle augmente les coûts de production
+  - Elle favorise les échanges internationaux
+explanation: |
+  Hayek explique que la planification centralisée échoue à cause de la complexité des décisions économiques, que seul un marché libre peut coordonner efficacement.
+reviewed: false

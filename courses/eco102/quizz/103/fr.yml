@@ -1,0 +1,9 @@
+question: Quelle école de pensée du vingtième siècle Bastiat préfigure-t-il ?
+answer: La théorie du public choice
+wrong_answers:
+  - La théorie de la croissance endogène
+  - La théorie du déséquilibre
+  - L'école néoclassique de l'économie
+explanation: |
+  Bastiat anticipe les idées du Public Choice, en montrant comment les groupes d'intérêts influencent l'État pour obtenir des privilèges aux dépens des autres.
+reviewed: false

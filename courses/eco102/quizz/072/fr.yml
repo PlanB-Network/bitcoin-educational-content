@@ -1,0 +1,9 @@
+question: Quel est l'exemple utilisé par Leonard Read pour illustrer la coopération invisible ?
+answer: La fabrication d'un crayon
+wrong_answers:
+  - La construction d'une maison
+  - La production d'une voiture
+  - L'organisation d'une ville
+explanation: |
+  Leonard Read utilise l'exemple du crayon pour démontrer comment de nombreux individus coopèrent sans se connaître pour produire un bien simple.
+reviewed: false

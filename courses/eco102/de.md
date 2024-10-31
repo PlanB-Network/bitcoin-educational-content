@@ -549,7 +549,7 @@ Folgt man dieser Logik, Arbeitsplätze um jeden Preis zu schaffen, warum dann ni
 Diese Verwechslung von Mittel und Zweck findet sich im Slogan "Geld ist Reichtum."
 Dies ist das Axiom, das die Geldpolitik der meisten Staaten regiert. Tatsächlich ermöglicht die künstliche Erhöhung der Geldmenge den Banken, Geld an Einzelpersonen und Staaten zu verleihen, um ihre Schulden leicht zurückzuzahlen, das ist "was wir sehen". Aber "was wir nicht sehen" ist, dass diese Schaffung von Geld, die nicht auf einer echten Wertschöpfung basiert, zu Inflation und dem Ruin der Sparer führen wird.
 
-![image](assets/image/10/IMG24.webp)
+
 
 Wahrer Reichtum ist nach Bastiat also die Gesamtheit der nützlichen Dinge, die wir durch Arbeit produzieren, um unsere Bedürfnisse zu befriedigen. Geld ist somit nur ein allgemein verwendetes Tauschmittel, es spielt nur die Rolle eines Vermittlers.
 
@@ -1041,4 +1041,5 @@ Aber wie Bastiat treffend demonstrierte, hat staatliches Eingreifen perverse Eff
 Wenn wir die Dinge aus diesem Blickwinkel betrachten, erklärte Reagan den GE-Mitarbeitern, erscheinen die sogenannten Wunder der Staatsausgaben in einem völlig anderen Licht. Denn Steuern entmutigen die Produktion, und der durch öffentliche Ausgaben geschaffene Reichtum kann diejenigen, die durch die zur Finanzierung dieser Ausgaben erhobenen Steuern an der Entstehung gehindert wurden, nicht vollständig kompensieren.
 ![Bild](assets/image/20/IMG10.webp)
 Im Wesentlichen übernahm Reagan von Bastiat mehrere Schlüsselelemente einer liberalen Vision von Gesellschaft und Mensch: die Vorrangstellung der Zivilgesellschaft vor dem Staat, den Wert der Wahl und der individuellen Verantwortung, die Bedeutung des Unternehmers bei der Schaffung von Wohlstand, die Wichtigkeit eines flexiblen und minimalen rechtlichen Rahmens, der Vertrauen und Respekt für Verträge ermöglicht, das grundlegende Gesetz, dass Wohlstand geschaffen werden muss, bevor er verteilt werden kann, den Wunsch, jedem eine Chance auf wettbewerbsorientierten Märkten zu geben…
+
 

@@ -560,7 +560,7 @@ Siguiendo esta lógica de crear empleos a toda costa, ¿por qué no también ree
 Esta confusión de medios y fin se encuentra en el eslogan "el dinero es riqueza".
 Este es el axioma que gobierna la política monetaria de la mayoría de los estados. De hecho, el aumento artificial en la cantidad de dinero permite a los bancos prestar dinero a individuos y estados para repagar fácilmente su deuda, esto es "lo que vemos". Pero "lo que no vemos" es que esta creación de dinero, no basada en ninguna creación real de riqueza, llevará a la inflación y la ruina de los ahorradores.
 
-![image](assets/image/10/IMG24.webp)
+
 
 La verdadera riqueza, según Bastiat, es por lo tanto el conjunto de cosas útiles que producimos a través del trabajo para satisfacer nuestras necesidades. El dinero es así solo un medio de intercambio comúnmente utilizado, solo juega el papel de intermediario.
 
@@ -1071,4 +1071,5 @@ Pero como Bastiat demostró acertadamente, la intervención estatal tiene efecto
 Si miramos las cosas desde este ángulo, Reagan explicó a los empleados de GE, los llamados milagros del gasto estatal aparecen bajo una luz completamente diferente. Porque los impuestos desalientan la producción, y la riqueza creada por el gasto público no puede compensar completamente a aquellos que se impidieron nacer por los impuestos recaudados para pagar estos gastos.
 ![image](assets/image/20/IMG10.webp)
 En esencia, Reagan tomó de Bastiat varios elementos clave de una visión liberal de la sociedad y el hombre: la primacía de la sociedad civil sobre el Estado, el valor de la elección y la responsabilidad individual, la importancia del empresario en la creación de riqueza, la importancia de un marco legal flexible y mínimo, que permite la confianza y el respeto por los contratos, la ley fundamental de que la riqueza debe ser creada antes de que pueda ser distribuida, el deseo de dar a todos una oportunidad en mercados competitivos…
+
 

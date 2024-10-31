@@ -559,7 +559,7 @@ Theo logic tạo ra việc làm bằng mọi giá này, tại sao không thay th
 Sự nhầm lẫn giữa phương tiện và mục đích này được tìm thấy trong khẩu hiệu "tiền là sự giàu có."
 Đây là nguyên tắc điều khiển chính sách tiền tệ của hầu hết các quốc gia. Thực vậy, việc tăng số lượng tiền một cách nhân tạo cho phép các ngân hàng cho các cá nhân vay tiền và cho phép các quốc gia dễ dàng trả nợ, đây là "những gì chúng ta nhìn thấy được". Nhưng "những gì chúng ta không nhìn thấy được" là việc tạo ra tiền, không dựa trên bất kỳ sự tạo ra giá trị thực sự nào, sẽ dẫn đến lạm phát và sự tàn phá đối với những người tiết kiệm.
 
-![image](assets/image/10/IMG24.webp)
+
 
 Sự giàu có thực sự, theo Bastiat, do đó là tập hợp các vật dụng hữu ích mà chúng ta sản xuất thông qua lao động để thỏa mãn nhu cầu của mình. Tiền chỉ là phương tiện trao đổi được sử dụng phổ biến, nó chỉ đóng vai trò là một trung gian.
 
@@ -1058,5 +1058,6 @@ Nếu nhìn nhận vấn đề từ góc độ này, Reagan giải thích với 
 ![image](assets/image/20/IMG10.webp)
 
 Về bản chất, Reagan đã lấy từ Bastiat một số yếu tố then chốt của một tầm nhìn tự do về xã hội và con người: ưu tiên hơn vai trò của xã hội dân sự so với Nhà nước, giá trị của sự lựa chọn và trách nhiệm cá nhân, tầm quan trọng của doanh nhân trong việc tạo ra của cải, vật chất, tầm quan trọng của một khung pháp lý linh hoạt và tối thiểu, để tạo niềm tin và sự tôn trọng đối với các hợp đồng, quy luật cơ bản rằng của cải phải được tạo ra trước khi nó có thể được phân phối, mong muốn mang lại cho mọi người một cơ hội trong thị trường cạnh tranh...
+
 
 

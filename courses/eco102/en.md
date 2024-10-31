@@ -591,7 +591,7 @@ Following this logic of creating jobs at all costs, why not also replace trucks 
 This confusion of means and end is found in the slogan "money is wealth."
 This is the axiom that governs the monetary policy of most states. Indeed, the artificial increase in the quantity of money allows banks to lend money to individuals and states to easily repay their debt, this is "what we see". But "what we do not see" is that this creation of money, not based on any real wealth creation, will lead to inflation and the ruin of savers.
 
-![image](assets/image/10/IMG24.webp)
+
 
 True wealth, according to Bastiat, is therefore the set of useful things that we produce through work to satisfy our needs. Money is thus only a commonly used means of exchange, it only plays the role of an intermediary.
 
@@ -1127,4 +1127,5 @@ If we look at things from this angle, Reagan explained to GE employees, the so-c
 
 ![image](assets/image/20/IMG10.webp)
 In essence, Reagan took from Bastiat several key elements of a liberal vision of society and man: the primacy of civil society over the State, the value of choice and individual responsibility, the importance of the entrepreneur in wealth creation, the importance of a flexible and minimal legal framework, which allows for trust and respect for contracts, the fundamental law that wealth must be created before it can be distributed, the desire to give everyone a chance in competitive markets…
+
 

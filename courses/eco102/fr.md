@@ -913,7 +913,7 @@ Autrement dit, les choix collectifs ne sont pas des choix responsables puisque d
 
 ![video](https://youtu.be/M4yjsSrRfQ4?si=xJmTNMxIZ3WTtqgM)
 
-Dans le cours précédent, nous avons vu pourquoi la IMAGE liberté et la responsabilité sont la clé du problème social. Nous allons maintenant approfondir ce point en montrant comment Frédéric Bastiat envisage les maux dont souffrent les sociétés et leur solution.
+Dans le cours précédent, nous avons vu pourquoi la liberté et la responsabilité sont la clé du problème social. Nous allons maintenant approfondir ce point en montrant comment Frédéric Bastiat envisage les maux dont souffrent les sociétés et leur solution.
 
 On a parfois reproché aux libéraux d’ignorer le mal et de construire l’utopie d’une liberté pure et parfaite dans un monde idéal. Ce reproche n’est absolument pas fondé en ce qui concerne notre auteur.
 

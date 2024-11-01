@@ -4,8 +4,8 @@ difficulty: easy
 duration: 30
 author: pretty-private
 tags:
-  - offchain
-  - lightning
+  - cypherpunk
+  - network-security
 
 # Proofreading metadata
 original_language: fr
@@ -16,3 +16,4 @@ proofreading:
     contributors_id:
       - LoicPandul
     reward:
+

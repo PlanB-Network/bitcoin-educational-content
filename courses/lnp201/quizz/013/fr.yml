@@ -1,4 +1,4 @@
-question: Que se passe-t-il si Alice n’obtient pas la signature de Bob pour la transaction de retrait ?
+question: Que se passe-t-il si Alice n'obtient pas la signature de Bob pour la transaction de retrait ?
 answer: Elle risque de perdre l'accès à ses fonds déposés sur l'adresse multisignature
 wrong_answers:
   - Elle ne peut plus communiquer avec Bob sur le réseau Lightning

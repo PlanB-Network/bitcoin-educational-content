@@ -1,9 +1,9 @@
-question: Comment le Lightning Network permet-il d’envoyer des fonds à un nœud non connecté directement ?
+question: Comment le Lightning Network permet-il d'envoyer des fonds à un nœud non connecté directement ?
 answer: En routant le paiement via des nœuds intermédiaires
 wrong_answers:
   - En utilisant des transactions on-chain entre chaque nœud
   - En établissant automatiquement un canal temporaire
   - En envoyant les fonds directement avec des adresses multisignatures
 explanation: |
-  Le Lightning Network permet de router un paiement via plusieurs nœuds intermédiaires, sans nécessiter un canal direct entre l’émetteur et le destinataire.
+  Le Lightning Network permet de router un paiement via plusieurs nœuds intermédiaires, sans nécessiter un canal direct entre l'émetteur et le destinataire.
 reviewed: false

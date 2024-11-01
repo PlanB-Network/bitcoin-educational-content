@@ -1,7 +1,7 @@
 question: Quand un canal Lightning est-il officiellement ouvert ?
 answer: Lorsque la transaction de dépôt est confirmée sur la blockchain Bitcoin
 wrong_answers:
-  - Dès l’échange des clés publiques entre les participants
+  - Dès l'échange des clés publiques entre les participants
   - Lors de la signature de la transaction de retrait par les deux parties
   - Dès que l'adresse multisignature 2/2 est créée
 explanation: |

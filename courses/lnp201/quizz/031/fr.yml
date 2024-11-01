@@ -1,9 +1,9 @@
-question: Qu’est-ce qui limite le montant d’un paiement indirect sur le Lightning Network ?
+question: Qu'est-ce qui limite le montant d'un paiement indirect sur le Lightning Network ?
 answer: La plus petite liquidité disponible dans un canal du chemin emprunté
 wrong_answers:
   - Le nombre de nœuds intermédiaires impliqués
   - La capacité totale du Lightning Network
   - Les frais de routage définis par chaque nœud
 explanation: |
-  Le montant maximal qu’un paiement indirect peut transférer dépend de la plus faible liquidité disponible dans les canaux empruntés, car chaque canal doit ajuster les fonds de chaque côté.
+  Le montant maximal qu'un paiement indirect peut transférer dépend de la plus faible liquidité disponible dans les canaux empruntés, car chaque canal doit ajuster les fonds de chaque côté.
 reviewed: false

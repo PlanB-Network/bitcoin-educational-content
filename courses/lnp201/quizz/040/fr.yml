@@ -5,5 +5,5 @@ wrong_answers:
   - Déterminer les frais de transaction pour chaque nœud intermédiaire
   - Communiquer directement avec tous les nœuds intermédiaires
 explanation: |
-  Le nœud émetteur est responsable de calculer la route entière jusqu’au destinataire, car les nœuds intermédiaires ne connaissent que leur voisin immédiat.
+  Le nœud émetteur est responsable de calculer la route entière jusqu'au destinataire, car les nœuds intermédiaires ne connaissent que leur voisin immédiat.
 reviewed: false

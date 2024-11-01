@@ -1,9 +1,9 @@
 question: Dans quelle situation utilise-t-on la fermeture forcée d'un canal ?
-answer: Lorsque l’une des parties ne répond plus
+answer: Lorsque l'une des parties ne répond plus
 wrong_answers:
-  - Lorsqu’il faut augmenter la capacité du canal
+  - Lorsqu'il faut augmenter la capacité du canal
   - Quand le timelock est insuffisant
   - Lorsque les frais de transaction sont trop élevés
 explanation: |
-  La fermeture forcée est utilisée en dernier recours si l’une des parties, par exemple à cause d’un problème technique, ne répond plus aux messages de l’autre.
+  La fermeture forcée est utilisée en dernier recours si l'une des parties, par exemple à cause d'un problème technique, ne répond plus aux messages de l'autre.
 reviewed: false

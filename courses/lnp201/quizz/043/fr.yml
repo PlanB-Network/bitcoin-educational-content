@@ -1,5 +1,5 @@
 question: Quelles informations Bob peut-il inclure dans une invoice pour faciliter le routage ?
-answer: Les canaux proches avec des liquidités suffisantes ou l’existence de canaux privés
+answer: Les canaux proches avec des liquidités suffisantes ou l'existence de canaux privés
 wrong_answers:
   - La clé privée des nœuds intermédiaires
   - La carte complète de tous les canaux du réseau

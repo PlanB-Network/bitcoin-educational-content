@@ -1,9 +1,9 @@
-question: Quand une transaction d’engagement est-elle publiée sur la blockchain Bitcoin ?
+question: Quand une transaction d'engagement est-elle publiée sur la blockchain Bitcoin ?
 answer: Éventuellement lors de la fermeture du canal
 wrong_answers:
   - Immédiatement après chaque transfert dans le canal
-  - Avant chaque nouvelle transaction d’engagement
+  - Avant chaque nouvelle transaction d'engagement
   - Quand les fonds disponibles sont épuisés
 explanation: |
-  Les transactions d’engagement sont construites et signées pour chaque changement de répartition, mais elles ne sont éventuellement publiées sur la blockchain qu’en cas de fermeture du canal.
+  Les transactions d'engagement sont construites et signées pour chaque changement de répartition, mais elles ne sont éventuellement publiées sur la blockchain qu'en cas de fermeture du canal.
 reviewed: false

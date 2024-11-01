@@ -1,9 +1,9 @@
-question: Que garantit le système de transactions d’engagement aux participants d’un canal Lightning ?
+question: Que garantit le système de transactions d'engagement aux participants d'un canal Lightning ?
 answer: Que chacun puisse récupérer ses fonds en publiant la dernière transaction signée
 wrong_answers:
   - Que les transactions soient visibles sur la blockchain Bitcoin
   - Que la capacité du canal augmente à chaque transaction
   - Que les frais soient partagés entre les deux participants
 explanation: |
-  Les transactions d’engagement signées garantissent que chaque participant peut récupérer ses fonds en publiant la dernière version en cas de fermeture du canal.
+  Les transactions d'engagement signées garantissent que chaque participant peut récupérer ses fonds en publiant la dernière version en cas de fermeture du canal.
 reviewed: false

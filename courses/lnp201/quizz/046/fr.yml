@@ -1,4 +1,4 @@
-question: Dans une invoice Lightning, que signifie le préfixe "lnbc" dans la partie lisible par l’Homme ?
+question: Dans une invoice Lightning, que signifie le préfixe "lnbc" dans la partie lisible par l'Homme ?
 answer: Qu'il s'agit d'une transaction Lightning sur la blockchain Bitcoin
 wrong_answers:
   - Que l'invoice est valide uniquement sur le testnet de Bitcoin

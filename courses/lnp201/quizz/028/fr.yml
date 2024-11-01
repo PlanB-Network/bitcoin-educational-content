@@ -1,7 +1,7 @@
 question: Que peut faire Bob s'il détecte une tentative de tricherie d'Alice lors de la fermeture du canal ?
-answer: Utiliser la clé de révocation pour récupérer l’intégralité des fonds
+answer: Utiliser la clé de révocation pour récupérer l'intégralité des fonds
 wrong_answers:
-  - Annuler la transaction d'engagement d’Alice
+  - Annuler la transaction d'engagement d'Alice
   - Fermer définitivement le canal sans option de réouverture
   - Réclamer uniquement la moitié des fonds disponibles
 explanation: |

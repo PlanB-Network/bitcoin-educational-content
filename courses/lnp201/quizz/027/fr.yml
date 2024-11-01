@@ -3,7 +3,7 @@ answer: Elle est plus lente et les frais peuvent être inadaptés
 wrong_answers:
   - Elle nécessite une autorisation de Satoshi Nakamoto
   - Elle oblige à recréer un canal plus tard
-  - Elle empêche d’utiliser la clé de révocation
+  - Elle empêche d'utiliser la clé de révocation
 explanation: |
-  La fermeture forcée est moins souhaitable car elle inclut un timelock, ce qui ralentit le processus, et les frais peuvent être inadaptés puisqu’ils ont été définis au moment de la création du canal.
+  La fermeture forcée est moins souhaitable car elle inclut un timelock, ce qui ralentit le processus, et les frais peuvent être inadaptés puisqu'ils ont été définis au moment de la création du canal.
 reviewed: false

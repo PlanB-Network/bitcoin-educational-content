@@ -1,0 +1,9 @@
+question: Quelle est la propriété commutative de l'opération XOR ?
+answer: L'ordre des opérandes n'affecte pas le résultat de l'opération
+wrong_answers:
+  - XOR ne fonctionne qu'avec des nombres pairs
+  - XOR nécessite des opérandes de même longueur
+  - La place des bits dans les opérandes n'affecte pas le résultat de l'opération
+explanation: |
+  XOR est commutatif, ce qui signifie que a XOR b est égal à b XOR a.
+reviewed: false

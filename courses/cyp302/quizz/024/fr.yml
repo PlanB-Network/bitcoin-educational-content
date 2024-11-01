@@ -1,0 +1,9 @@
+question: Quelle est la valeur de 42 mod 2 ?
+answer: 0
+wrong_answers:
+  - 1
+  - 2
+  - 42
+explanation: |
+  En divisant 42 par 2, le reste est nul, donc 42 mod 2 est égal à 0.
+reviewed: false

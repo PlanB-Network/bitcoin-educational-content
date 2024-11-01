@@ -1,9 +1,0 @@
-question: ¿Qué sucede cuando se crea una nueva transacción de compromiso?
-answer: Se decide un nuevo secreto y se crea una nueva clave de revocación, y la transacción de compromiso anterior debe ser destruida al proporcionar el secreto de revocación.
-wrong_answers:
-  - La transacción de compromiso anterior se guarda como respaldo.
-  - Se crea un nuevo bloqueo temporal y se actualiza la transacción de compromiso anterior.
-  - Se actualiza la transacción de compromiso anterior con el nuevo secreto y la clave de revocación.
-explanation: |
-  Cuando se crea una nueva transacción de compromiso, se decide un nuevo secreto y una nueva clave de revocación. La transacción de compromiso anterior debe ser destruida al proporcionar el secreto de revocación para evitar que alguna de las partes haga trampa publicando un estado antiguo.
-reviewed: false

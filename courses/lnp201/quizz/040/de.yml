@@ -1,9 +1,0 @@
-question: Was passiert, wenn Alice versucht zu betrügen, indem sie eine alte Verpflichtungstransaktion veröffentlicht?
-answer: Bob verwendet den Widerrufsschlüssel, um Alice zu bestrafen und alle SAT aus dem Kanal zu nehmen.
-wrong_answers:
-  - Alice wird für ihre Cleverness belohnt.
-  - Alice und Bob teilen sich die SAT aus dem Kanal.
-  - Die Transaktion wird abgelehnt und es passiert nichts.
-explanation: |
-  Das Lightning-Netzwerk hat einen Mechanismus, um Betrug zu verhindern. Wenn Alice versucht, durch Veröffentlichung einer alten Verpflichtungstransaktion zu betrügen, kann Bob den Widerrufsschlüssel verwenden, um Alice zu bestrafen und alle SAT aus dem Kanal zu nehmen.
-reviewed: false

@@ -1,9 +1,0 @@
-question: Was passiert, wenn Alice versucht zu betrügen, indem sie einen alten Zustand veröffentlicht?
-answer: Bob kann den Widerrufsschlüssel verwenden, um die Gelder zu bewegen, ohne auf das Ende der Zeitsperre zu warten und somit Alice effektiv zu bestrafen.
-wrong_answers:
-  - Alice kann den Widerrufsschlüssel verwenden, um die Gelder zu bewegen, ohne auf das Ende der Zeitsperre zu warten.
-  - Bob kann die Zeitsperre verlängern, um zu verhindern, dass Alice ihr Geld wiedererlangt.
-  - Alice kann ihr Geld sofort wiedererlangen.
-explanation: |
-  Wenn Alice versucht zu betrügen, indem sie einen alten Zustand veröffentlicht, kann Bob den Widerrufsschlüssel verwenden, um die Gelder zu bewegen, ohne auf das Ende der Zeitsperre zu warten. Dadurch wird Alice effektiv bestraft, weil sie versucht hat zu betrügen.
-reviewed: false

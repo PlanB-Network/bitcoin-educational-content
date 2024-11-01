@@ -1,9 +1,0 @@
-question: Was ist der Zweck der Auszahlungstransaktion in einem Lightning Network-Transfer?
-answer: Sie repräsentiert den Zustand des Kanals und garantiert, wem die Mittel nach jedem Transfer gehören.
-wrong_answers:
-  - Es ist die Transaktion, die die Mittel von einer Seite zur anderen bewegt.
-  - Es ist die Transaktion, die den Kanal öffnet.
-  - Es ist die Transaktion, die den Kanal schließt.
-explanation: |
-  Die Auszahlungstransaktion wird nach jedem Lightning Network-Transfer aktualisiert, um den aktuellen Zustand des Kanals widerzuspiegeln. Sie garantiert, wem die Mittel nach jedem Transfer gehören, wird jedoch erst ausgeführt, wenn der Kanal geschlossen ist.
-reviewed: false

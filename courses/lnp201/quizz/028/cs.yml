@@ -1,9 +1,0 @@
-question: Kdo jsou dva účastníci zapojení do převodu v Lightning Network v příkladu?
-answer: Alice a Bob.
-wrong_answers:
-  - Alice a Charlie.
-  - Bob a Charlie.
-  - Alice a Bitcoinová síť.
-explanation: |
-  V příkladu jsou Alice a Bob dva účastníci zapojení do převodu v Lightning Network.
-reviewed: false

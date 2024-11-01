@@ -1,9 +1,0 @@
-question: Bước đầu tiên để mở một kênh trong Lightning Network là gì?
-answer: Hai bên thông báo ý định mở kênh cho nhau.
-wrong_answers:
-  - Alice gửi tiền đến địa chỉ công khai của Bob.
-  - Alice tạo một địa chỉ multi-sig 2/2.
-  - Alice công bố một giao dịch lên mạng Bitcoin.
-explanation: |
-  Bước đầu tiên để mở một kênh trong Lightning Network là hai bên cần thông báo ý định mở kênh cho nhau. Ví dụ, Alice có thể nói, "Xin chào, tôi muốn mở một kênh!" và Bob có thể đáp lại, "Ok, đây là địa chỉ công khai của tôi."
-reviewed: false

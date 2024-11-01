@@ -1,8 +1,0 @@
-question: Ketkä ovat kaksi vertaista Lightning Network -siirrossa esimerkissä?
-answer: Alice ja Bob.
-wrong_answers:
-  - Alice ja Charlie.
-  - Bob ja Charlie.
-  - Alice ja Bitcoin-verkko.
-explanation: |
-  Esimerkissä Alice ja Bob ovat kaksi vertaista, jotka ovat mukana Lightning Network -siirrossa.

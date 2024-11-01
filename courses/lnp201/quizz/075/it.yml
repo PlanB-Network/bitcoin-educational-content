@@ -1,9 +1,0 @@
-question: Cosa è un Keysend nel contesto della Lightning Network?
-answer: Consente a un utente di inviare denaro senza avere la richiesta del destinatario.
-wrong_answers:
-  - È un tipo di crittografia utilizzato nella Lightning Network.
-  - È un metodo per generare nuovi indirizzi Bitcoin.
-  - È uno strumento per tracciare transazioni sulla Lightning Network.
-explanation: |
-  Un Keysend nel contesto della Lightning Network consente a un utente di inviare denaro senza avere la richiesta del destinatario. Il mittente recupera l'ID del destinatario, crea un preimage senza chiedere al destinatario e lo include nel pagamento.
-reviewed: false

@@ -1,9 +1,0 @@
-question: Co je onion routing v kontextu Lightning Network?
-answer: Metoda, kde prostředníci nevědí, kdo je konečný příjemce ani kdo platbu posílá.
-wrong_answers:
-  - Metoda, kde prostředníci znají jak odesílatele, tak příjemce.
-  - Metoda, kde pouze odesílatel zná trasu a cenu.
-  - Metoda, kde konečný příjemce rozhoduje o trase před odesláním platby.
-explanation: |
-  Onion routing v Lightning Network je metoda, kde prostředníci nevědí, kdo je konečný příjemce ani kdo platbu posílá. Uzel musí udržovat plán sítě, aby našel svou trasu, ale žádný z prostředníků nemá žádné informace.
-reviewed: false

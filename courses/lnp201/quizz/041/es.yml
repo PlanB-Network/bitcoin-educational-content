@@ -1,9 +1,0 @@
-question: ¿Cuál es la diferencia entre una transacción de cierre y una transacción de compromiso en un cierre cooperativo?
-answer: Una transacción de cierre no tiene Timelock ni clave de revocación.
-wrong_answers:
-  - Una transacción de cierre tiene Timelock y clave de revocación.
-  - Una transacción de cierre es más lenta que una transacción de compromiso.
-  - Una transacción de cierre es más cara que una transacción de compromiso.
-explanation: |
-  En un cierre cooperativo, los dos participantes acuerdan un estado final del canal y crean una transacción de cierre. Esta transacción es diferente de las transacciones de compromiso porque no tiene Timelock ni clave de revocación.
-reviewed: false

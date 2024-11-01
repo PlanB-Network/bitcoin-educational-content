@@ -1,9 +1,0 @@
-question: Co se stane, pokud se Alice pokusí podvádět zveřejněním starého stavu?
-answer: Bob může použít klíč pro zrušení k přesunu prostředků bez čekání na konec časového zámku, čímž efektivně potrestá Alici.
-wrong_answers:
-  - Alice může použít klíč pro zrušení k přesunu prostředků bez čekání na konec časového zámku.
-  - Bob může prodloužit časový zámek, aby zabránil Alici v získání jejích peněz zpět.
-  - Alice může okamžitě získat své peníze zpět.
-explanation: |
-  Pokud se Alice pokusí podvádět zveřejněním starého stavu, Bob může použít klíč pro zrušení k přesunu prostředků bez čekání na konec časového zámku. To efektivně potrestá Alici za pokus o podvod.
-reviewed: false

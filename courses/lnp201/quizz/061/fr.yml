@@ -1,9 +1,0 @@
-question: Que se passe-t-il lorsque le HTLC expire ?
-answer: L'argent est renvoyé à l'expéditeur.
-wrong_answers:
-  - L'argent est transféré au destinataire.
-  - L'argent est perdu.
-  - L'argent est transféré à un tiers.
-explanation: |
-  Si le destinataire ne révèle pas le secret dans un certain délai, le HTLC expire et l'argent est renvoyé à l'expéditeur.
-reviewed: false

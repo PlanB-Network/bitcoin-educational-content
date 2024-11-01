@@ -1,9 +1,0 @@
-question: ¿Cuál es una forma de aumentar la capacidad de recepción en la Red Lightning?
-answer: Realizar pagos
-wrong_answers:
-  - Abrir canales
-  - Conectarse a otros nodos
-  - Mantener un equilibrio de liquidez en ambos lados
-explanation: |
-  En la Red Lightning, una forma de aumentar la capacidad de recepción es realizar pagos. Por ejemplo, si pagas 100,000 por una cierta razón, ahora puedes recibir 100,000.
-reviewed: false

@@ -1,9 +1,0 @@
-question: Quais são os diferentes níveis de comunicação na Lightning Network?
-answer: Comunicação P2P, Canal de Pagamento, Transação Bitcoin
-wrong_answers:
-  - Comunicação P2P, Transação Bitcoin, Transação Ethereum
-  - Canal de Pagamento, Transação Bitcoin, Transação Litecoin
-  - Comunicação P2P, Canal de Pagamento, Transação Ripple
-explanation: |
-  A Lightning Network possui três diferentes níveis de comunicação: comunicação P2P (protocolo da Lightning Network), canal de pagamento (protocolo da Lightning Network) e transação Bitcoin (protocolo Bitcoin).
-reviewed: false

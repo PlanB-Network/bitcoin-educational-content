@@ -1,9 +1,0 @@
-question: Was passiert mit der Abhebungstransaktion nach einem Lightning Network Transfer?
-answer: Sie wird aktualisiert, um das neue Guthaben des Kanals widerzuspiegeln.
-wrong_answers:
-  - Sie wird ausgeführt und die Mittel werden übertragen.
-  - Sie wird verworfen und eine neue Transaktion wird erstellt.
-  - Sie bleibt unverändert.
-explanation: |
-  Nach einem Lightning Network Transfer wird die Abhebungstransaktion aktualisiert, um das neue Guthaben des Kanals widerzuspiegeln. Diese Transaktion wird erst ausgeführt, wenn der Kanal geschlossen wird.
-reviewed: false

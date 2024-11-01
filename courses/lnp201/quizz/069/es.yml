@@ -1,9 +1,0 @@
-question: ¿Qué sucede cuando un intento de transacción falla debido a una liquidez insuficiente en la Red Lightning?
-answer: Se intenta otra ruta hasta que se realice una transacción exitosa.
-wrong_answers:
-  - La transacción se cancela y los fondos se devuelven al remitente.
-  - La transacción se pone en espera hasta que haya suficiente liquidez disponible.
-  - La transacción se redirige automáticamente a un canal con suficiente liquidez.
-explanation: |
-  En la Red Lightning, si un intento de transacción falla debido a una liquidez insuficiente en un canal, el nodo intentará otra ruta. Este proceso continúa hasta que se realice una transacción exitosa. Este mecanismo garantiza que las transacciones se puedan completar incluso si la ruta inicialmente elegida no tiene suficiente liquidez.
-reviewed: false

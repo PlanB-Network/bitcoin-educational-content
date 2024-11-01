@@ -1,9 +1,0 @@
-question: Quali sono i due tipi di commissioni nella Lightning Network?
-answer: Una commissione fissa indipendentemente dall'importo e una commissione variabile.
-wrong_answers:
-  - Una commissione di transazione e una commissione di instradamento.
-  - Una commissione del mittente e una commissione del destinatario.
-  - Una commissione di rete e una commissione di canale.
-explanation: |
-  Nella Lightning Network, ci sono due tipi di commissioni; una commissione fissa indipendentemente dall'importo (impostata di default a 1 SAT ma può essere modificata) e una commissione variabile (0,01% di default).
-reviewed: false

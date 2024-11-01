@@ -1,9 +1,0 @@
-question: Qual é o tipo de fechamento de canal mais rápido e menos caro?
-answer: Fechamento cooperativo.
-wrong_answers:
-  - Fechamento forçado.
-  - Fechamento por um trapaceiro.
-  - Não há diferença em velocidade e custo entre os tipos de fechamento.
-explanation: |
-  Em um fechamento cooperativo, ambas as partes se comunicam e concordam com um estado final do canal. Essa é a opção mais rápida e menos cara.
-reviewed: false

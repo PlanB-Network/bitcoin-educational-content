@@ -1,9 +1,0 @@
-question: Wie viel SAT hat Alice in dem Beispiel zu Beginn?
-answer: 130.000 SAT.
-wrong_answers:
-  - 100.000 SAT.
-  - 90.000 SAT.
-  - 0 SAT.
-explanation: |
-  In dem Beispiel eröffnet Alice einen Kanal mit Bob und hat dabei 130.000 SAT auf ihrer Seite.
-reviewed: false

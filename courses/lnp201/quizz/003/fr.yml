@@ -1,9 +1,0 @@
-question: Qu'est-ce qu'un canal de paiement sur Lightning ?
-answer: Une connexion bilatérale permettant à deux utilisateurs d'échanger des transactions Bitcoin en dehors de la blockchain principale.
-wrong_answers:
-  - Un service de portefeuille Lightning dédié au stockage de Bitcoin avec des transactions rapides.
-  - Un algorithme de minage Bitcoin qui permet des transactions optimisées entre mineurs.
-  - Un réseau d'échange décentralisé de Bitcoin conçu pour augmenter la vitesse des transactions en chaîne.
-explanation: |
-  Un canal de paiement Lightning est une connexion directe entre deux utilisateurs, permettant de réaliser des transactions hors de la blockchain principale, donc sans frais de confirmation et quasiment instantanément. Ce canal s'ouvre et se ferme sur la chaîne, mais toutes les transactions intermédiaires restent hors chaîne, ce qui optimise ainsi la vitesse et le coût.
-reviewed: true

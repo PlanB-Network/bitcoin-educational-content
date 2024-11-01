@@ -1,8 +1,0 @@
-question: Co se stane se všemi bitcoiny v Bitcoin transakci?
-answer: Musí se všechny pohnout.
-wrong_answers:
-  - Všechny jsou převedeny na fiat měnu.
-  - Všechny jsou uloženy na nové adrese.
-  - Všechny jsou rovnoměrně rozděleny mezi účastníky.
-explanation: |
-  V Bitcoin transakci se musí všechny bitcoiny pohnout. Toto je označováno jako UTXO (Unspent Transaction Output), kde se všechny kousky bitcoinu pohnou a poté se vrátí zpět majiteli.

@@ -1,9 +1,0 @@
-question: Co se stane při vynuceném uzavření, pokud je síťový poplatek 1 SAT v době uzavření?
-answer: Transakce je přeplacena 50krát.
-wrong_answers:
-  - Transakce je nedoplacena 50krát.
-  - Transakce je přeplacena 2krát.
-  - Transakce je nedoplacena 2krát.
-explanation: |
-  Při vynuceném uzavření protokol výchozí nastavení zvyšuje poplatky 5krát oproti aktuálním v době vytvoření transakce. Pokud je síťový poplatek 1 SAT v době uzavření, transakce je přeplacena 50krát.
-reviewed: false

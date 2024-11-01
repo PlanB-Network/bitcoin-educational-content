@@ -1,8 +1,0 @@
-question: Hai loại phí trong Mạng Lưới Lightning là gì?
-answer: Một phí cố định không phụ thuộc vào số lượng và một phí biến đổi.
-wrong_answers:
-  - Phí giao dịch và phí định tuyến.
-  - Phí của người gửi và phí của người nhận.
-  - Phí mạng và phí kênh.
-explanation: |
-  Trong Mạng Lưới Lightning, có hai loại phí; một phí cố định không phụ thuộc vào số lượng (mặc định là 1 SAT nhưng có thể được chỉnh sửa) và một phí biến đổi (0.01% theo mặc định).

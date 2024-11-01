@@ -1,9 +1,0 @@
-question: Proč potřebuje Alice Bobův podpis před publikováním transakcí k otevření kanálu?
-answer: Aby mohla sama obnovit své prostředky, pokud by se něco pokazilo.
-wrong_answers:
-  - Potvrdit Bobův souhlas s otevřením kanálu.
-  - Ověřit Bobovu identitu.
-  - Zašifrovat transakce pro zabezpečení.
-explanation: |
-  Alice žádá Boba o podpis jeho veřejným klíčem před publikováním transakcí. To je proto, aby mohla sama obnovit své prostředky, pokud by se něco pokazilo, jelikož už má Bobův podpis.
-reviewed: false

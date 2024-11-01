@@ -1,9 +1,0 @@
-question: O que acontece quando uma tentativa de transação falha devido à falta de liquidez na Lightning Network?
-answer: Outra rota é tentada até que uma transação bem-sucedida seja feita.
-wrong_answers:
-  - A transação é cancelada e os fundos são devolvidos ao remetente.
-  - A transação é colocada em espera até que haja liquidez suficiente disponível.
-  - A transação é automaticamente redirecionada para um canal com liquidez suficiente.
-explanation: |
-  Na Lightning Network, se uma tentativa de transação falhar devido à falta de liquidez em um canal, o nó tentará outra rota. Esse processo continua até que uma transação bem-sucedida seja feita. Esse mecanismo garante que as transações possam ser concluídas mesmo se a rota inicialmente escolhida não tiver liquidez suficiente.
-reviewed: false

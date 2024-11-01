@@ -1,9 +1,0 @@
-question: Ai quyết định lộ trình trước khi gửi thanh toán trong Mạng Lưới Lightning?
-answer: Nút của người gửi.
-wrong_answers:
-  - Nút của người nhận.
-  - Nút của người trung gian.
-  - Chính mạng lưới.
-explanation: |
-  Trong Mạng Lưới Lightning, chính nút của người gửi quyết định lộ trình trước khi gửi thanh toán. Do đó, có một quá trình tìm kiếm lộ trình tốt nhất và chỉ mình người gửi biết lộ trình và giá cả.
-reviewed: false

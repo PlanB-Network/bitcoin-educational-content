@@ -1,9 +1,0 @@
-question: Qual é a diferença entre uma transação de fechamento e uma transação de compromisso em um fechamento cooperativo?
-answer: Uma transação de fechamento não possui Timelock e chave de revogação.
-wrong_answers:
-  - Uma transação de fechamento possui Timelock e chave de revogação.
-  - Uma transação de fechamento é mais lenta do que uma transação de compromisso.
-  - Uma transação de fechamento é mais cara do que uma transação de compromisso.
-explanation: |
-  Em um fechamento cooperativo, os dois pares concordam com um estado final do canal e criam uma transação de fechamento. Essa transação é diferente das transações de compromisso porque não possui Timelock e chave de revogação.
-reviewed: false

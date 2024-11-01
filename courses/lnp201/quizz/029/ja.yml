@@ -1,9 +1,0 @@
-question: 例で、Aliceは最初にいくつのSATを持っていますか？
-answer: 130,000 SAT。
-wrong_answers:
-  - 100,000 SAT。
-  - 90,000 SAT。
-  - 0 SAT。
-explanation: |
-  例では、Aliceは自分の側で130,000 SATを持ってBobとチャネルを開きます。
-reviewed: false

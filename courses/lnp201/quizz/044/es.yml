@@ -1,9 +1,0 @@
-question: ¿Cuál es el tipo de cierre de canal más rápido y menos costoso?
-answer: Cierre cooperativo.
-wrong_answers:
-  - Cierre forzado.
-  - Cierre por un tramposo.
-  - No hay diferencia en velocidad y costo entre los tipos de cierre.
-explanation: |
-  En un cierre cooperativo, ambas partes se comunican y acuerdan un estado final del canal. Esta es la opción más rápida y menos costosa.
-reviewed: false

@@ -1,9 +1,0 @@
-question: Was macht Alice, nachdem sie Bob's öffentliche Adresse erhalten hat?
-answer: Sie erstellt eine 2/2 Multi-Sig-Adresse.
-wrong_answers:
-  - Sie sendet Geld an Bob's öffentliche Adresse.
-  - Sie veröffentlicht eine Transaktion im Bitcoin-Netzwerk.
-  - Sie bittet Bob um seine Unterschrift.
-explanation: |
-  Nachdem Alice Bob's öffentliche Adresse erhalten hat, verwendet sie diese zusammen mit ihrer eigenen öffentlichen Adresse, um eine 2/2 Multi-Sig-Adresse zu erstellen. Diese Adresse ist die, an die sie Geld senden wird, um den Kanal zu eröffnen.
-reviewed: false

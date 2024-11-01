@@ -1,9 +1,0 @@
-question: Cosa succede ai fondi in un trasferimento sulla rete Lightning?
-answer: I fondi non si spostano mai, ma il saldo finale viene aggiornato.
-wrong_answers:
-  - I fondi vengono trasferiti da un lato all'altro.
-  - I fondi vengono bloccati fino alla chiusura del canale.
-  - I fondi vengono inviati alla rete Bitcoin.
-explanation: |
-  In un trasferimento sulla rete Lightning, i fondi non si spostano mai. Invece, il saldo finale viene aggiornato tramite una transazione firmata ma non pubblicata sulla blockchain.
-reviewed: false

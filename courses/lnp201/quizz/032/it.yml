@@ -1,9 +1,0 @@
-question: Cosa succede quando viene creata una nuova transazione di impegno?
-answer: Viene deciso un nuovo segreto e viene creato una nuova chiave di revoca, e la precedente transazione di impegno deve essere distrutta fornendo il segreto di revoca.
-wrong_answers:
-  - La precedente transazione di impegno viene conservata come backup.
-  - Viene creata una nuova Timelock e la precedente transazione di impegno viene aggiornata.
-  - La precedente transazione di impegno viene aggiornata con il nuovo segreto e la chiave di revoca.
-explanation: |
-  Quando viene creata una nuova transazione di impegno, viene deciso un nuovo segreto e una nuova chiave di revoca. La precedente transazione di impegno deve essere distrutta fornendo il segreto di revoca per evitare che una delle parti possa imbrogliare pubblicando uno stato precedente.
-reviewed: false

@@ -1,9 +1,0 @@
-question: Jaké jsou dva typy poplatků v síti Lightning Network?
-answer: Fixní poplatek bez ohledu na částku a variabilní poplatek.
-wrong_answers:
-  - Transakční poplatek a směrovací poplatek.
-  - Poplatek odesílatele a poplatek příjemce.
-  - Síťový poplatek a poplatek za kanál.
-explanation: |
-  V síti Lightning Network existují dva typy poplatků; fixní poplatek bez ohledu na částku (výchozí je 1 SAT, ale lze upravit) a variabilní poplatek (standardně 0,01 %).
-reviewed: false

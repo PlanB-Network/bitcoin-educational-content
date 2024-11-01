@@ -1,9 +1,0 @@
-question: Proč je vynucené uzavření rizikovější z hlediska poplatků a možné validace těžaři?
-answer: Protože poplatky byly stanoveny v době vytvoření transakce v minulosti a od té doby se síť změnila.
-wrong_answers:
-  - Protože poplatky jsou vždy vyšší při vynuceném uzavření.
-  - Protože těžaři mají menší pravděpodobnost, že validují vynucené uzavření.
-  - Protože poplatky jsou při vynuceném uzavření nepředvídatelné.
-explanation: |
-  Při vynuceném uzavření byly poplatky stanoveny v době vytvoření transakce v minulosti. Od té doby se síť změnila, takže protokol výchozí nastavení poplatků je 5krát vyšší než byly v době vytvoření transakce. To činí vynucené uzavření rizikovějším z hlediska poplatků a možné validace těžaři.
-reviewed: false

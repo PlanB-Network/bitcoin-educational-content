@@ -1,9 +1,0 @@
-question: Warum ist eine erzwungene Schließung in Bezug auf Gebühren und mögliche Validierung durch Miner riskanter?
-answer: Weil die Gebühren bereits festgelegt wurden, als die Transaktion in der Vergangenheit erstellt wurde und sich das Netzwerk seitdem verändert hat.
-wrong_answers:
-  - Weil die Gebühren bei einer erzwungenen Schließung immer höher sind.
-  - Weil Miner weniger wahrscheinlich eine erzwungene Schließung validieren.
-  - Weil die Gebühren bei einer erzwungenen Schließung unvorhersehbar sind.
-explanation: |
-  Bei einer erzwungenen Schließung wurden die Gebühren festgelegt, als die Transaktion in der Vergangenheit erstellt wurde. Das Netzwerk hat sich seitdem verändert, daher setzt das Protokoll die Gebühren auf das Fünffache der zum Zeitpunkt der Erstellung der Transaktion aktuellen Gebühren. Dies macht eine erzwungene Schließung in Bezug auf Gebühren und mögliche Validierung durch Miner riskanter.
-reviewed: false

@@ -1,9 +1,0 @@
-question: Was während einer Transaktion passiert
-answer: Das Geheimnis der Transaktion
-wrong_answers:
-  - Das Geheimnis der Transaktion
-  - Ein neues Geheimnis wird festgelegt und ein neuer Widerrufsschlüssel wird erstellt.
-  - Die vorherige Verpflichtungstransaktion wird mit dem neuen Geheimnis und Widerrufsschlüssel aktualisiert.
-explanation: |
-  Während der Transaktion
-reviewed: false

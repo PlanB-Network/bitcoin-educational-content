@@ -1,9 +1,0 @@
-question: Jaký je účel meta-protokolu LNURL v fakturaci Lightning Network?
-answer: Umožňuje poskytnout přímou částku v satoshi místo vytváření požadavku
-wrong_answers:
-  - Šifruje data faktury
-  - Ověřuje identitu příjemce
-  - Vypočítává poplatek za transakci
-explanation: |
-  Meta-protokol LNURL ve fakturaci Lightning Network umožňuje poskytnout přímou částku v satoshi místo vytváření požadavku. Tato funkce zlepšuje uživatelskou zkušenost tím, že činí proces platby flexibilnějším.
-reviewed: false

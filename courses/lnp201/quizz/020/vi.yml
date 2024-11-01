@@ -1,9 +1,0 @@
-question: Các cấp độ giao tiếp khác nhau trong Mạng Lưới Lightning là gì?
-answer: Giao tiếp P2P, Kênh thanh toán, Giao dịch Bitcoin
-wrong_answers:
-  - Giao tiếp P2P, Giao dịch Bitcoin, Giao dịch Ethereum
-  - Kênh thanh toán, Giao dịch Bitcoin, Giao dịch Litecoin
-  - Giao tiếp P2P, Kênh thanh toán, Giao dịch Ripple
-explanation: |
-  Mạng Lưới Lightning có ba cấp độ giao tiếp khác nhau; Giao tiếp P2P (giao thức Mạng Lưới Lightning), Kênh thanh toán (giao thức Mạng Lưới Lightning), và Giao dịch Bitcoin (giao thức Bitcoin).
-reviewed: false

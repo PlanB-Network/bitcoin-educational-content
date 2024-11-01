@@ -1,9 +1,0 @@
-question: Điều gì xảy ra với số tiền trong một giao dịch qua Lightning Network?
-answer: Số tiền không di chuyển, nhưng số dư cuối cùng được cập nhật.
-wrong_answers:
-  - Số tiền được chuyển từ bên này sang bên kia.
-  - Số tiền được khóa cho đến khi kênh được đóng.
-  - Số tiền được gửi đến mạng Bitcoin.
-explanation: |
-  Trong một giao dịch qua Lightning Network, số tiền không bao giờ di chuyển. Thay vào đó, số dư cuối cùng được cập nhật thông qua một giao dịch trên chuỗi được ký kết nhưng không được công bố.
-reviewed: false

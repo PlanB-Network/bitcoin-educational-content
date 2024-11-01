@@ -1,9 +1,0 @@
-question: Jaká je role transakce závazku v Lightning Network?
-answer: Aktualizuje zůstatek kanálu po každém převodu.
-wrong_answers:
-  - Otevírá kanál.
-  - Uzavírá kanál.
-  - Převádí prostředky.
-explanation: |
-  Transakce závazku je novější transakce, která aktualizuje zůstatek kanálu po každém převodu. Není provedena, pokud není kanál uzavřen.
-reviewed: false

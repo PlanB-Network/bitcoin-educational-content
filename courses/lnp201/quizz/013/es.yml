@@ -1,9 +1,0 @@
-question: ¿Qué es la Red Lightning?
-answer: Un protocolo de capa 2 sobre Bitcoin que permite transacciones más rápidas.
-wrong_answers:
-  - Un tipo de criptomoneda.
-  - Un explorador de blockchain.
-  - Una billetera digital para almacenar bitcoins.
-explanation: |
-  La Red Lightning es un protocolo de capa 2 sobre Bitcoin. Está diseñado para permitir transacciones más rápidas mediante la creación de canales de pago fuera de la cadena.
-reviewed: false

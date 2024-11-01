@@ -1,9 +1,0 @@
-question: Qual è lo scopo della chiave di revoca nella Lightning Network?
-answer: Punire un partecipante che cerca di imbrogliare pubblicando una vecchia transazione di impegno.
-wrong_answers:
-  - Ricompensare un partecipante che riesce a imbrogliare con successo.
-  - Aprire un nuovo canale.
-  - Convalidare una transazione.
-explanation: |
-  La chiave di revoca è un meccanismo nella Lightning Network per prevenire l'imbroglio. Se un partecipante cerca di imbrogliare pubblicando una vecchia transazione di impegno, l'altro partecipante può utilizzare la chiave di revoca per punire l'imbrogliatore e prendere tutti i SAT dal canale.
-reviewed: false

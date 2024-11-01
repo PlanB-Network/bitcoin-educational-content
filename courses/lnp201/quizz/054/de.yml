@@ -1,9 +1,0 @@
-question: Was ist die Liquidität eines Kanals im Lightning-Netzwerk?
-answer: Die Menge an Satoshis, die durch den Kanal übertragen werden können.
-wrong_answers:
-  - Die Anzahl der Transaktionen, die durch den Kanal durchgeführt werden können.
-  - Die Geschwindigkeit, mit der Transaktionen durch den Kanal durchgeführt werden können.
-  - Die Kosten für eine Transaktion durch den Kanal.
-explanation: |
-  Im Lightning-Netzwerk bezieht sich die Liquidität eines Kanals auf die Menge an Satoshis, die durch den Kanal übertragen werden können. Die Liquidität dieser Kanäle kann nicht auf andere Liquiditätskanäle übertragen werden.
-reviewed: false

@@ -1,9 +1,0 @@
-question: Was ist die schnellste und kostengünstigste Art der Kanalabschließung?
-answer: Kooperative Abschließung.
-wrong_answers:
-  - Erzwungene Abschließung.
-  - Abschließung durch einen Betrüger.
-  - Es gibt keinen Unterschied in Geschwindigkeit und Kosten zwischen den Arten der Abschließung.
-explanation: |
-  Bei einer kooperativen Abschließung kommunizieren beide Parteien und einigen sich auf einen endgültigen Zustand des Kanals. Dies ist die schnellste und kostengünstigste Option.
-reviewed: false

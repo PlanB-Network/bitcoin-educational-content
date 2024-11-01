@@ -1,9 +1,0 @@
-question: Lightning Network転送で資金に何が起こりますか？
-answer: 資金は移動せず、最終的な残高が更新されます。
-wrong_answers:
-  - 資金は一方から他方へ転送されます。
-  - チャネルが閉じられるまで資金はロックされます。
-  - 資金はBitcoinネットワークに送られます。
-explanation: |
-  Lightning Network転送では、資金は移動しません。代わりに、最終的な残高は、オンチェーンに公開されていない署名されたトランザクションを通じて更新されます。
-reviewed: false

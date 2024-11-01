@@ -1,9 +1,0 @@
-question: Welche sind die beiden Arten von Gebühren im Lightning Network?
-answer: Eine feste Gebühr unabhängig von der Höhe und eine variable Gebühr.
-wrong_answers:
-  - Eine Transaktionsgebühr und eine Routing-Gebühr.
-  - Eine Gebühr des Senders und eine Gebühr des Empfängers.
-  - Eine Netzwerkgebühr und eine Kanalgebühr.
-explanation: |
-  Im Lightning Network gibt es zwei Arten von Gebühr- language: en eine feste Gebühr, unabhängig von der Höhe (Standardwert ist 1 SAT, kann jedoch geändert werden) und eine variable Gebühr (standardmäßig 0,01%).
-reviewed: false

@@ -1,9 +1,0 @@
-question: Co se stane, když se Alice pokusí podvádět zveřejněním starého závazkového transakce?
-answer: Bob použije klíč pro zrušení, aby potrestal Alici a vzal si všechny SAT z kanálu.
-wrong_answers:
-  - Alice je odměněna za svou chytrost.
-  - Alice a Bob si rozdělí SAT z kanálu.
-  - Transakce je zamítnuta a nic se nestane.
-explanation: |
-  Lightning Network má mechanismus, který zabraňuje podvádění. Pokud se Alice pokusí podvádět zveřejněním starého závazkového transakce, Bob může použít klíč pro zrušení, aby potrestal Alici a vzal si všechny SAT z kanálu.
-reviewed: false

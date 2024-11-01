@@ -1,9 +1,0 @@
-question: Qual è il significato dell'indirizzo multi-sig 2/2 nel processo di apertura di un canale nella Lightning Network?
-answer: È l'indirizzo a cui Alice invia denaro per aprire il canale.
-wrong_answers:
-  - È l'indirizzo da cui Alice invia denaro per aprire il canale.
-  - È l'indirizzo a cui Bob invia denaro per aprire il canale.
-  - È l'indirizzo da cui Bob invia denaro per aprire il canale.
-explanation: |
-  Nel processo di apertura di un canale, Alice crea un indirizzo multi-sig 2/2 utilizzando i suoi e i pubblici indirizzi di Bob. Successivamente, effettua una transazione bitcoin per inviare denaro a questo indirizzo al fine di aprire il canale.
-reviewed: false

@@ -1,9 +1,0 @@
-question: Jaký je účel revokačního klíče v síti Lightning Network?
-answer: Potrestat účastníka, který se pokusí podvádět zveřejněním starého závazkového transakce.
-wrong_answers:
-  - Odměnit účastníka, který úspěšně podvádí.
-  - Otevřít nový kanál.
-  - Ověřit transakci.
-explanation: |
-  Revokační klíč je mechanismus v síti Lightning Network, který má zabránit podvádění. Pokud se účastník pokusí podvádět zveřejněním starého závazkového transakce, druhý účastník může použít revokační klíč k potrestání podvodníka a vzít si všechny SAT z kanálu.
-reviewed: false

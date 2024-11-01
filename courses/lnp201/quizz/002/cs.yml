@@ -1,9 +1,0 @@
-question: Co mění distribuci kapacity v platebním kanálu Lightning?
-answer: Transakce uvnitř kanálu
-wrong_answers:
-  - Změny v směnném kurzu Bitcoinu
-  - Změny v celkové kapacitě kanálu
-  - Změny v síti Bitcoin
-explanation: |
-  Transakce uvnitř kanálu nemění celkovou kapacitu kanálu, ale mění distribuci této kapacity mezi uživatele.
-reviewed: false

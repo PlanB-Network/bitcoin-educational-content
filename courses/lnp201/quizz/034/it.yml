@@ -1,9 +1,0 @@
-question: Qual è lo scopo del Timelock in una transazione di impegno?
-answer: Blocca i fondi fino a un certo blocco.
-wrong_answers:
-  - Blocca la transazione fino a un certo blocco.
-  - Blocca il canale fino a un certo blocco.
-  - Blocca la chiave di revoca fino a un certo blocco.
-explanation: |
-  Il Timelock in una transazione di impegno blocca i fondi fino a un certo blocco. Questo impedisce alla parte che ha creato la transazione di recuperare immediatamente i propri soldi.
-reviewed: false

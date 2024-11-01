@@ -1,9 +1,0 @@
-question: Was ist der erste Schritt beim Öffnen eines Kanals im Lightning Network?
-answer: Die beiden Teilnehmer teilen ihre Absicht mit, einen Kanal zu öffnen.
-wrong_answers:
-  - Alice sendet Geld an Bob's öffentliche Adresse.
-  - Alice erstellt eine 2/2 Multi-Sig-Adresse.
-  - Alice veröffentlicht eine Transaktion im Bitcoin-Netzwerk.
-explanation: |
-  Der erste Schritt beim Öffnen eines Kanals im Lightning Network besteht darin, dass die beiden Teilnehmer ihre Absicht mitteilen, einen Kanal zu öffnen. Zum Beispiel könnte Alice sag- language: en "Hallo, ich möchte einen Kanal öffnen!" und Bob könnte antworten: "Ok, hier ist meine öffentliche Adresse."
-reviewed: false

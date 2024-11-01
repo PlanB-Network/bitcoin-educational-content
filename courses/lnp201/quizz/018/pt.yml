@@ -1,9 +1,0 @@
-question: O que Alice faz depois de receber o endereço público de Bob?
-answer: Ela cria um endereço multi-sig 2/2.
-wrong_answers:
-  - Ela envia dinheiro para o endereço público de Bob.
-  - Ela publica uma transação na rede Bitcoin.
-  - Ela pede a assinatura de Bob.
-explanation: |
-  Após receber o endereço público de Bob, Alice o utiliza junto com seu próprio endereço público para criar um endereço multi-sig 2/2. Este é o endereço para o qual ela enviará dinheiro para abrir o canal.
-reviewed: false

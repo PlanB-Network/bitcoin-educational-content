@@ -1,9 +1,0 @@
-question: Cos'è il Lightning Network?
-answer: Una soluzione di livello 2 per Bitcoin che consente transazioni veloci e a basso costo.
-wrong_answers:
-  - Un tipo di portafoglio digitale per conservare Bitcoin
-  - Un metodo per estrarre Bitcoin
-  - Un registro di tutte le transazioni sulla rete Bitcoin
-explanation: |
-  Il Lightning Network è una soluzione di livello 2 per Bitcoin che consente transazioni veloci e a basso costo. Opera sopra la blockchain di Bitcoin e consente transazioni fuori dalla catena, che sono più veloci e meno costose rispetto alle transazioni sulla catena.
-reviewed: false

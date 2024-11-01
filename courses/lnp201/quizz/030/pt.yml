@@ -1,9 +1,0 @@
-question: Quanto de SAT Bob acaba tendo após a segunda transferência no exemplo?
-answer: 40.000 SAT.
-wrong_answers:
-  - 30.000 SAT.
-  - 10.000 SAT.
-  - 0 SAT.
-explanation: |
-  No exemplo, após a segunda transferência, Bob acaba com 40.000 SAT.
-reviewed: false

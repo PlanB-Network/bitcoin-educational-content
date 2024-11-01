@@ -1,9 +1,0 @@
-question: ¿Cuál es el primer paso para abrir un canal en la Red Lightning?
-answer: Los dos pares comunican su intención de abrir un canal.
-wrong_answers:
-  - Alice envía dinero a la dirección pública de Bob.
-  - Alice crea una dirección multi-sig 2/2.
-  - Alice publica una transacción en la red de Bitcoin.
-explanation: |
-  El primer paso para abrir un canal en la Red Lightning es que los dos pares comuniquen su intención de abrir un canal. Por ejemplo, Alice podría decir: "¡Hola, quiero abrir un canal!" y Bob podría responder: "De acuerdo, aquí está mi dirección pública".
-reviewed: false

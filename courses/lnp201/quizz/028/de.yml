@@ -1,9 +1,0 @@
-question: Wer sind die beiden Peers, die am Lightning Network-Transfer im Beispiel beteiligt sind?
-answer: Alice und Bob.
-wrong_answers:
-  - Alice und Charlie.
-  - Bob und Charlie.
-  - Alice und das Bitcoin-Netzwerk.
-explanation: |
-  Im Beispiel sind Alice und Bob die beiden Peers, die am Lightning Network-Transfer beteiligt sind.
-reviewed: false

@@ -1,9 +1,0 @@
-question: Lightning決済チャネルの利点は何ですか？
-answer: ユーザーが高い取引手数料を支払うことなく、またBitcoinネットワーク上での長い確認期間を待つことなく、Bitcoinを送受信できるようになります
-wrong_answers:
-  - ユーザーがより効率的にBitcoinを採掘できるようになります
-  - ユーザーがより安全にBitcoinを保存できるようになります
-  - ユーザーがBitcoinを他の暗号通貨と交換できるようになります
-explanation: |
-  Lightning決済チャネルは、迅速かつ低コストでBitcoin取引を行う効率的な方法です。これにより、ユーザーは高い取引手数料を支払うことなく、またBitcoinネットワーク上での長い確認期間を待つことなく、Bitcoinを送受信できるようになります。
-reviewed: false

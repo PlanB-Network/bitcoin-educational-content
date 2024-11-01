@@ -1,9 +1,0 @@
-question: Qual é o objetivo do Timelock em uma transação de compromisso?
-answer: Ele bloqueia os fundos até um determinado bloco.
-wrong_answers:
-  - Ele bloqueia a transação até um determinado bloco.
-  - Ele bloqueia o canal até um determinado bloco.
-  - Ele bloqueia a chave de revogação até um determinado bloco.
-explanation: |
-  O Timelock em uma transação de compromisso bloqueia os fundos até um determinado bloco. Isso impede que a parte que criou a transação recupere imediatamente seu dinheiro.
-reviewed: false

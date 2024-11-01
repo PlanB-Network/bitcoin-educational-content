@@ -1,9 +1,0 @@
-question: Co je Lightning Network?
-answer: Protokol druhé vrstvy nad Bitcoinem, který umožňuje rychlejší transakce.
-wrong_answers:
-  - Typ kryptoměny.
-  - Prohlížeč blockchainu.
-  - Digitální peněženka pro ukládání bitcoinů.
-explanation: |
-  Lightning Network je protokol druhé vrstvy nad Bitcoinem. Je navržen tak, aby umožnil rychlejší transakce prostřednictvím vytváření platebních kanálů mimo hlavní blockchain.
-reviewed: false

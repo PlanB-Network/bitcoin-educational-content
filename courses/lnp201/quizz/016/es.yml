@@ -1,9 +1,0 @@
-question: ¿Cuál es la importancia de la dirección multi-sig 2/2 en el proceso de apertura de un canal en la Lightning Network?
-answer: Es la dirección a la cual Alice envía dinero para abrir el canal.
-wrong_answers:
-  - Es la dirección desde la cual Alice envía dinero para abrir el canal.
-  - Es la dirección a la cual Bob envía dinero para abrir el canal.
-  - Es la dirección desde la cual Bob envía dinero para abrir el canal.
-explanation: |
-  En el proceso de apertura de un canal, Alice crea una dirección multi-sig 2/2 utilizando las direcciones públicas de ella y Bob. Luego realiza una transacción de bitcoin para enviar dinero a esta dirección y abrir el canal.
-reviewed: false

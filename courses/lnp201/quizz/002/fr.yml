@@ -1,0 +1,9 @@
+question: Si Alice envoie 40 000 satoshis à Bob depuis un canal de paiement où elle possède initialement 100 000 satoshis, combien lui reste-t-il de fonds après la transaction ?
+answer: 60 000 satoshis
+wrong_answers:
+  - 30 000 satoshis
+  - 40 000 satoshis
+  - 140 000 satoshis
+explanation: |
+  Après avoir envoyé 40 000 satoshis, le solde d'Alice dans le canal est de 60 000 satoshis.
+reviewed: false

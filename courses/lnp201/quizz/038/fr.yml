@@ -1,0 +1,9 @@
+question: Quel rôle joue le timelock dans le fonctionnement des HTLC ?
+answer: Il accorde un délai pour compléter le paiement avant l’annulation
+wrong_answers:
+  - Il augmente la capacité du canal utilisé
+  - Il ajoute une couche de confidentialité à la transaction
+  - Il applique des frais additionnels pour chaque nœud intermédiaire
+explanation: |
+  Le timelock impose un délai pour compléter un HTLC, ce qui permet de récupérer les fonds si la transaction n’aboutit pas, en annulant le paiement passé ce délai.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Comment fonctionne une adresse multisignature 2/2 dans Bitcoin ?
+answer: Elle nécessite deux signatures pour déverrouiller et dépenser les fonds
+wrong_answers:
+  - Elle permet de dépenser les fonds avec une seule des deux clés
+  - Elle autorise les transactions seulement dans des cas spécifiques de verrouillage
+  - Elle est utilisée uniquement pour envoyer des fonds vers des adresses publiques
+explanation: |
+  Une adresse multisignature 2/2 nécessite la signature des deux parties impliquées pour que les fonds puissent être dépensés, ce qui est utilisé pour la sécurité des canaux Lightning.
+reviewed: false

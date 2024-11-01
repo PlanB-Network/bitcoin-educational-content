@@ -1,0 +1,9 @@
+question: Comment le timelock protège-t-il contre la tricherie dans les transactions d'engagement ?
+answer: Il empêche la partie fautive de récupérer ses fonds immédiatement
+wrong_answers:
+  - Il permet de rembourser automatiquement les fonds au tricheur
+  - Il annule la transaction en cas de tentative de tricherie
+  - Il bloque l’utilisation de la clé de révocation
+explanation: |
+  Le timelock impose un délai pendant lequel le tricheur ne peut pas récupérer ses fonds, donnant ainsi à l’autre partie la possibilité de réagir.
+reviewed: false

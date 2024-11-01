@@ -1,0 +1,9 @@
+question: Pourquoi Alice et Bob s'échangent-ils leurs secrets pour les transactions d'engagement précédentes ?
+answer: Pour permettre à chacun de se protéger si l'autre publie une ancienne transaction
+wrong_answers:
+  - Pour augmenter la capacité du canal
+  - Pour bloquer l'accès de chacun aux fonds de l'autre
+  - Pour diviser équitablement les fonds
+explanation: |
+  L'échange de secrets pour les transactions précédentes permet à chaque participant de punir l’autre en cas de tentative de tricherie en publiant une ancienne transaction.
+reviewed: false

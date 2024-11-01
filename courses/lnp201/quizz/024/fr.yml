@@ -1,0 +1,9 @@
+question: Quel est l'effet combiné du timelock et de la clé de révocation sur les transactions d’engagement ?
+answer: Ils dissuadent les participants de tricher en offrant une punition immédiate
+wrong_answers:
+  - Ils réduisent la capacité du canal en cas de tricherie
+  - Ils bloquent automatiquement les fonds de la partie fautive
+  - Ils forcent l’ouverture d’un nouveau canal si la transaction est incorrecte
+explanation: |
+  Le timelock et la clé de révocation dissuadent les participants de tricher en garantissant que toute tentative de tricherie entraîne une perte immédiate des fonds pour la partie fautive.
+reviewed: false

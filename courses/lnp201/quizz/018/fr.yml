@@ -1,0 +1,9 @@
+question: Comment un nouvel état de canal est-il créé après chaque transfert ?
+answer: En créant une nouvelle transaction d’engagement avec la répartition mise à jour
+wrong_answers:
+  - En publiant une transaction on-chain après chaque transfert
+  - En augmentant la capacité totale du canal
+  - En fermant et rouvrant le canal après chaque transaction
+explanation: |
+  Chaque transaction au sein du canal met à jour l’état du canal avec une nouvelle transaction d’engagement, reflétant la répartition actuelle des fonds entre les deux participants.
+reviewed: false

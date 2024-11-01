@@ -1,0 +1,9 @@
+question: Dans un canal de paiement, qu'est-ce que la "capacité" du canal ?
+answer: Le montant total de fonds que les deux participants peuvent échanger
+wrong_answers:
+  - La limite de temps pendant laquelle le canal peut rester ouvert
+  - Le montant maximum qu'un participant peut envoyer en une seule transaction
+  - La quantité de transactions qu'un canal peut supporter par jour
+explanation: |
+  La capacité du canal correspond au total des fonds des deux participants et reste fixe pour déterminer les échanges possibles.
+reviewed: false

@@ -6,4 +6,4 @@ wrong_answers:
   - La transaction doit être approuvée par le réseau Bitcoin.
 explanation: |
   Pour qu'une transaction soit possible dans un canal de paiement Lightning, l'utilisateur qui envoie les fonds doit avoir suffisamment de Bitcoin de son côté du canal.
-reviewed: false
+reviewed: true

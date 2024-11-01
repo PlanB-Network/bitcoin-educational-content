@@ -6,4 +6,4 @@ wrong_answers:
   - Le montant total de Bitcoin qui a été transmis dans le canal jusqu'à présent
 explanation: |
   Lorsqu'un canal de paiement Lightning est ouvert, il se voit attribuer une capacité fixe, définie à l'avance par les utilisateurs. Cette capacité représente la quantité maximale de Bitcoin pouvant être transmise dans le canal à un moment donné.
-reviewed: false
+reviewed: true

@@ -5,5 +5,5 @@ wrong_answers:
   - Il permet d'utiliser une clé publique pour le chiffrement et une clé privée pour le déchiffrement
   - Il permet d'échanger de la monnaie électronique
 explanation: |
-  Le protocole Diffie-Hellman permet à deux parties de partager publiquement des informations tout en garantissant qu’elles seules peuvent générer une clé commune pour sécuriser leurs futurs échanges.
+  Le protocole Diffie-Hellman permet à deux parties de partager publiquement des informations tout en garantissant qu'elles seules peuvent générer une clé commune pour sécuriser leurs futurs échanges.
 reviewed: false

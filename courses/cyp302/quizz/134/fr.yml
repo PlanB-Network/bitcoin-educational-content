@@ -5,5 +5,5 @@ wrong_answers:
   - Empêcher Alice de déchiffrer les messages de Bob
   - Permettre à Alice de chiffrer le message pour vérifier son intégrité
 explanation: |
-  En cryptographie asymétrique, la clé publique d'Alice permet à Bob d'envoyer un message chiffré qu’elle seule peut déchiffrer, garantissant ainsi la confidentialité du message.
+  En cryptographie asymétrique, la clé publique d'Alice permet à Bob d'envoyer un message chiffré qu'elle seule peut déchiffrer, garantissant ainsi la confidentialité du message.
 reviewed: false

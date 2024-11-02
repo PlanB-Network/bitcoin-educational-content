@@ -1,4 +1,4 @@
-question: Quel concept mathématique sous-tend l’échange de clés Diffie-Hellman ?
+question: Quel concept mathématique sous-tend l'échange de clés Diffie-Hellman ?
 answer: Une fonction à sens unique avec une porte dérobée
 wrong_answers:
   - Une fonction exponentielle inversée

@@ -5,5 +5,5 @@ wrong_answers:
   - L'opérabilité avec des clés asymétriques
   - La générabilité en temps réel
 explanation: |
-  La résistance aux collisions garantit qu’il est pratiquement impossible de trouver deux entrées différentes produisant le même hachage, ce qui est important pour vérifier qu'un logiciel n'a pas été altéré.
+  La résistance aux collisions garantit qu'il est pratiquement impossible de trouver deux entrées différentes produisant le même hachage, ce qui est important pour vérifier qu'un logiciel n'a pas été altéré.
 reviewed: false

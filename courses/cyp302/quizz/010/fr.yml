@@ -5,5 +5,5 @@ wrong_answers:
   - Elle empêche les attaques sur les réseaux locaux
   - Elle remplace les câbles physiques par des communications sécurisées
 explanation: |
-  Dans un environnement de communication ouvert, où les canaux peuvent être surveillés, la cryptographie garantit la sécurité en protégeant les données échangées, même en présence d’attaques potentielles.
+  Dans un environnement de communication ouvert, où les canaux peuvent être surveillés, la cryptographie garantit la sécurité en protégeant les données échangées, même en présence d'attaques potentielles.
 reviewed: false

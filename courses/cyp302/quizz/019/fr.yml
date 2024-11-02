@@ -5,5 +5,5 @@ wrong_answers:
   - Il définit la probabilité totale de tous les événements possibles
   - Il s'applique uniquement aux variables continues
 explanation: |
-  Le théorème de Bayes permet de calculer la probabilité d’un événement A sachant B en inversant les probabilités, et est essentiel en théorie des probabilités.
+  Le théorème de Bayes permet de calculer la probabilité d'un événement A sachant B en inversant les probabilités, et est essentiel en théorie des probabilités.
 reviewed: false

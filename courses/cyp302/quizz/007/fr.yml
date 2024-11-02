@@ -1,7 +1,7 @@
 question: Qu'est-ce qui distingue un schéma de cryptographie moderne d'un simple schéma de chiffrement ?
 answer: L'assurance de l'intégrité et de l'authenticité des messages
 wrong_answers:
-  - L’utilisation d’une seule clé secrète
+  - L'utilisation d'une seule clé secrète
   - La décentralisation de la clé
   - L'anonymisation des messages
 explanation: |

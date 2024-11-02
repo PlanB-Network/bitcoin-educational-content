@@ -5,5 +5,5 @@ wrong_answers:
   - Une fonction exponentielle
   - Une fonction réversible
 explanation: |
-  Les fonctions à sens unique permettent un calcul rapide dans une direction, mais rendent la résolution inversement impossible en pratique, d’où leur utilité en cryptographie.
+  Les fonctions à sens unique permettent un calcul rapide dans une direction, mais rendent la résolution inversement impossible en pratique, d'où leur utilité en cryptographie.
 reviewed: false

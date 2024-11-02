@@ -1,0 +1,9 @@
+question: Pourquoi le chiffrement par décalage est-il considéré comme un chiffrement symétrique ?
+answer: Car la même clé est utilisée pour le chiffrement et le déchiffrement
+wrong_answers:
+  - Car il utilise deux clés, publique et privée
+  - Car il déchiffre sans utiliser de clé
+  - Car la clé varie à chaque chiffrement
+explanation: |
+  Le chiffrement par décalage est un chiffrement symétrique car il utilise la même clé pour chiffrer et déchiffrer un message, assurant ainsi la confidentialité entre les parties partageant cette clé.
+reviewed: false

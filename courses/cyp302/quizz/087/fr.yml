@@ -1,0 +1,9 @@
+question: Quelle méthode de chiffrement par blocs utilise un vecteur d'initialisation et crée un chiffrement probabiliste ?
+answer: CBC ("Cipher Block Chaining")
+wrong_answers:
+  - ECB ("Electronic Code Book")
+  - AES-128
+  - SHA-256
+explanation: |
+  La méthode CBC utilise un vecteur d'initialisation et applique un XOR entre chaque bloc de texte en clair et le bloc chiffré précédent, ce qui rend le chiffrement probabiliste et plus sûr que l'ECB.
+reviewed: false

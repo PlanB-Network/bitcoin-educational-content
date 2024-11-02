@@ -1,0 +1,9 @@
+question: Pourquoi les "pseudorandom stream ciphers" sont-ils plus utilisés en pratique que les one-time pads ?
+answer: Ils permettent d'utiliser une clé plus courte tout en générant un flux de clé plus long
+wrong_answers:
+  - Ils ne nécessitent pas de clé secrète
+  - Ils utilisent une combinaison de chiffrement symétrique et asymétrique
+  - Ils n'ont pas besoin de mise à jour de clé
+explanation: |
+  Les pseudorandom stream ciphers sont plus pratiques, car ils permettent d'étendre une clé courte en un flux de clé plus long, évitant la nécessité de stocker une clé aussi longue que le message.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Que se passe-t-il si une clé de 7 est utilisée pour chiffrer le mot "CAT" ?
+answer: Le mot devient "JHA"
+wrong_answers:
+  - Le mot devient "JBA"
+  - Le mot devient "JHB"
+  - Le mot devient "ZHA"
+explanation: |
+  Avec une clé de 7, chaque lettre du mot "CAT" est décalée de 7 positions dans l'alphabet, ce qui produit le mot chiffré "JHA".
+reviewed: false

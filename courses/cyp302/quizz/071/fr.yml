@@ -1,0 +1,9 @@
+question: Comment fonctionne la déchiffrement dans le chiffrement par décalage ?
+answer: En soustrayant la clé de chaque lettre chiffrée et appliquant le modulo 26
+wrong_answers:
+  - En soustrayant la clé de chaque lettre chiffrée et appliquant le modulo 20
+  - En multipliant la clé avec chaque lettre chiffrée
+  - En divisant la clé de chaque lettre chiffrée et appliquant le modulo 27
+explanation: |
+  Dans le chiffrement par décalage, la déchiffrement s'effectue en soustrayant la clé à chaque lettre chiffrée, puis en appliquant le modulo 26 pour retrouver le texte original. Le modulo 26 permet de revenir au début de l'alphabet après la lettre "Z".
+reviewed: false

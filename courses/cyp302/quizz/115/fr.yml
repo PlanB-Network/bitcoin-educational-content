@@ -1,0 +1,9 @@
+question: Que signifie le terme "diffusion" dans le contexte du chiffrement AES ?
+answer: Un changement dans le texte clair entraîne un changement significatif dans le texte chiffré
+wrong_answers:
+  - Le texte chiffré est toujours de la même longueur
+  - Les octets de la clé sont répartis uniformément
+  - Les informations sensibles sont brouillées dans chaque bloc de texte chiffré
+explanation: |
+  La diffusion signifie qu'un petit changement dans le texte clair entraîne un changement important dans le texte chiffré, ce qui rend difficile pour un attaquant de déduire le texte en clair.
+reviewed: false

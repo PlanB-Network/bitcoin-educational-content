@@ -1,0 +1,9 @@
+question: Quelle est l'importance des groupes cycliques en cryptographie ?
+answer: Ils permettent la création de systèmes cryptographiques basés sur des générateurs
+wrong_answers:
+  - Ils simplifient la multiplication des clés de chiffrement
+  - Ils augmentent la sécurité des canaux de communication publics
+  - Ils sont utilisés pour hacher les messages directement pour préserver leur intégrité
+explanation: |
+  En cryptographie, les groupes cycliques, ayant des générateurs, sont essentiels pour établir des bases pour les clés de chiffrement, notamment dans les systèmes à clé publique.
+reviewed: false

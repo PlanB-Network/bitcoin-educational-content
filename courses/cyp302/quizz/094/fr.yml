@@ -1,0 +1,9 @@
+question: Quelle est la principale source de confusion entre les termes "block cipher" et "stream cipher" ?
+answer: Les block ciphers sont parfois compris uniquement comme des algorithmes utilisant des modes de blocs comme ECB ou CBC
+wrong_answers:
+  - Les stream ciphers sont toujours moins sécurisés que les block ciphers
+  - Les block ciphers opèrent sur un bit à la fois
+  - Les stream ciphers nécessitent toujours un padding
+explanation: |
+  La confusion provient du fait que certains considèrent les block ciphers uniquement comme des algorithmes utilisant des modes de blocage spécifiques, alors qu'en réalité ils peuvent inclure des schémas de chiffrement comme le mode OFB.
+reviewed: false

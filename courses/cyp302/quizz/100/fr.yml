@@ -1,0 +1,9 @@
+question: Quel est le rôle d'un "nonce" dans un schéma de chiffrement authentifié ?
+answer: Garantir que chaque message a un tag unique pour éviter les répétitions
+wrong_answers:
+  - Identifier l'expéditeur du message
+  - Créer une clé de déchiffrement temporaire
+  - Ajouter une couche supplémentaire de chiffrement
+explanation: |
+  Dans un schéma de chiffrement authentifié, un "nonce" est utilisé pour s'assurer que chaque message a un tag unique, ce qui renforce ainsi la sécurité en évitant les répétitions.
+reviewed: false

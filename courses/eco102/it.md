@@ -257,7 +257,6 @@ La questione del libero scambio continua ad essere rilevante oggi. I libri di te
 
 <chapterId>c3926110-e0b2-503c-96d9-5d3a6a661484</chapterId>
 
-![video](https://youtu.be/Z8EDhTS-s_Q?si=KSe8O-NTLXP3nRSb)
 
 Frédéric Bastiat, che si esprimeva negli anni 1840, è l'erede di una generazione di filosofi dell'Illuminismo che hanno combattuto contro la censura e per la libertà di dibattito. Pensate a Montesquieu, Diderot, Voltaire, Condorcet, ma anche Rousseau.
 
@@ -301,7 +300,6 @@ Secondo Bastiat, la società, le persone e le proprietà esistono prima delle le
 ## Educazione Classica
 
 <chapterId>87d9a8c9-2352-5cb2-8b93-678118a8145c</chapterId>
-![video](https://youtu.be/Nl9jnDV5RxE?si=pi5790tPHLGMzch_)
 Il 24 febbraio 1848, dopo tre giorni di sommosse a Parigi, il re Luigi Filippo I abdicò al suo potere. Questo segnò la nascita della Seconda Repubblica.
 ![image](assets/image/06/IMG20.webp)
 
@@ -341,7 +339,6 @@ Tuttavia, come ci ricorda Bastiat, il monopolio esclude il progresso.
 ## Protezionismo e Socialismo
 
 <chapterId>ce6cb8a8-7dc9-5ef7-939d-9a559b4d2c74</chapterId>
-![video](https://youtu.be/7q5qQNe7M48?si=lU63cOehitXxkpjR)
 
 ![immagine](assets/image/07/IMG11.webp)
 
@@ -422,7 +419,6 @@ In conclusione, sia Proudhon che Bastiat riconobbero l'importanza dell'accumulaz
 
 <chapterId>25fb02a9-5d68-5c58-bd0f-d4b8e1fd91f9</chapterId>
 
-![video](https://youtu.be/KfhX-EXRYu0?si=JL9jjaP9u0HUnSm_)
 
 In questo capitolo, svelerò una tecnologia completamente nuova, una tecnologia rivoluzionaria. Un ricercatore ha sviluppato un paio di occhiali bionici con una mini-telecamera ultra-potente incorporata nella parte frontale. Questa tecnologia permette di vedere dettagli impossibili da vedere ad occhio nudo. Nelle aste, c'è un chip elettronico che trasmette le immagini direttamente al cloud tramite il mio smartphone.
 
@@ -462,7 +458,6 @@ La grande lezione da questa serie di testi è che l'intervento dello stato ha ef
 
 <chapterId>f4e759ed-1cb2-55c7-885e-0a60244758a4</chapterId>
 
-![video](https://youtu.be/TB2Bhl1qWKw?si=YyZ6ZxL2F3xDca3V)
 Nel 1840, la Camera dei Deputati votò per una legge che aumentava le tasse di importazione per proteggere l'industria francese. Questo è il famoso patriottismo economico, che incontriamo ancora oggi.
 
 ![image](assets/image/10/IMG13.webp)
@@ -592,7 +587,6 @@ Una cosa è certa, non è il politico che può cambiare il corso delle cose e pe
 
 <chapterId>895ccd1d-7b52-5a8b-8b2c-6ec0056cf632</chapterId>
 
-![video](https://youtu.be/1LRA2HqsZ4w?si=lJwZw843vmaiKBTr)
 
 Una società armoniosa può fare a meno di leggi scritte, regole, misure repressive? Se gli uomini sono lasciati liberi, non assisteremo a disordine, anarchia, disorganizzazione? Come evitare di creare una mera giustapposizione di individui che agiscono al di fuori di qualsiasi concerto, se non attraverso leggi e un'organizzazione politica centralizzata?
 
@@ -637,7 +631,6 @@ La pianificazione economica, che pretende di fare meglio del mercato, porta non 
 
 <chapterId>78baa7ef-2c80-5fc7-8881-c1be4662b96f</chapterId>
 
-![video](https://youtu.be/KqtOO9FuaYg?si=wwItVC6_hhc5kYIF)
 
 In una lettera ad Alphonse de Lamartine nel 1845, Bastiat scrisse che la sua intera filosofia è contenuta in un unico principio:
 
@@ -700,7 +693,6 @@ In altre parole, le scelte collettive non sono scelte responsabili poiché, da u
 
 <chapterId>0c078806-6c58-53f9-a720-5fb62386e56b</chapterId>
 
-![video](https://youtu.be/M4yjsSrRfQ4?si=xJmTNMxIZ3WTtqgM)
 
 Nel corso precedente, abbiamo visto perché la libertà e la responsabilità sono chiavi per il problema sociale. Ora approfondiremo questo punto mostrando come Frédéric Bastiat veda i mali che affliggono le società e la loro soluzione.
 
@@ -747,7 +739,6 @@ Deve essere chiarito che questo sviluppo del progresso attraverso la responsabil
 
 <chapterId>fa2172e9-22fa-5c01-a3c8-1e8316c064a4</chapterId>
 
-![video](https://youtu.be/3T9iRFce9oI?si=AVY8PA6fdVK7ML-r)
 
 ![image](assets/image/16/IMG1.webp)
 
@@ -882,7 +873,6 @@ Bastiat scrisse ne "La Legge", poco tempo prima di morire. Un secolo dopo la mor
 
 <chapterId>52258229-7c7c-592b-aa27-203b03aa41c9</chapterId>
 
-![video](https://youtu.be/YffrxCE5xmc?si=HPLmL9YSnHIQGNNa)
 
 Nel 1848, Bastiat era un deputato. Fu nominato vicepresidente della commissione finanziaria. Era, quindi, particolarmente ben posizionato per rispondere a questa domanda: cos'è lo Stato? Ci rivolgiamo allo Stato per garantire il nostro benessere. Ma Bastiat ci ricorda che lo Stato non può dare nulla ai cittadini che non abbia prima preso da loro.
 

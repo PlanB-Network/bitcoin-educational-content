@@ -298,7 +298,6 @@ Die Frage des Freihandels bleibt auch heute noch relevant. Schulgeografiebücher
 
 <chapterId>c3926110-e0b2-503c-96d9-5d3a6a661484</chapterId>
 
-![video](https://youtu.be/Z8EDhTS-s_Q?si=KSe8O-NTLXP3nRSb)
 
 Frédéric Bastiat, der sich in den 1840er Jahren äußerte, ist der Erbe einer Generation von Aufklärungsphilosophen, die gegen die Zensur kämpften und für die Freiheit zu debattieren. Denken Sie an Montesquieu, Diderot, Voltaire, Condorcet, aber auch Rousseau.
 
@@ -341,7 +340,6 @@ Nach Bastiat existieren Gesellschaft, Menschen und Eigentum vor den Gesetzen, un
 ## Klassische Bildung
 
 <chapterId>87d9a8c9-2352-5cb2-8b93-678118a8145c</chapterId>
-![video](https://youtu.be/Nl9jnDV5RxE?si=pi5790tPHLGMzch_)
 Am 24. Februar 1848, nach drei Tagen von Aufständen in Paris, dankte König Louis-Philippe I. ab. Dies markierte die Geburt der Zweiten Republik.
 ![image](assets/image/06/IMG20.webp)
 
@@ -380,7 +378,6 @@ Jedoch erinnert uns Bastiat daran, dass Monopol den Fortschritt ausschließt.
 
 ## Protektionismus und Sozialismus
 <chapterId>ce6cb8a8-7dc9-5ef7-939d-9a559b4d2c74</chapterId>
-![video](https://youtu.be/7q5qQNe7M48?si=lU63cOehitXxkpjR)
 
 ![image](assets/image/07/IMG11.webp)
 
@@ -429,7 +426,6 @@ Zum Abschluss, Protektionisten und Sozialisten teilen einen gemeinsamen Punkt, l
 
 <chapterId>96902abd-6915-5b25-a187-a4790162b86c</chapterId>
 
-![video](https://youtu.be/nBY6VUhtUis?si=EpWFShKZEQOyqRjg)
 
 Pierre-Joseph Proudhon ist einer der bedeutendsten Vertreter des französischen Sozialismus im mittleren 19. Jahrhundert. Er ist besonders berühmt für seine Aussage: "Eigentum ist Diebstahl" in "Was ist Eigentum?" im Jahr 1840.
 
@@ -470,7 +466,6 @@ Zusammenfassend erkannten sowohl Proudhon als auch Bastiat die Bedeutung der Kap
 
 <chapterId>25fb02a9-5d68-5c58-bd0f-d4b8e1fd91f9</chapterId>
 
-![video](https://youtu.be/KfhX-EXRYu0?si=JL9jjaP9u0HUnSm_)
 
 In diesem Kapitel werde ich eine brandneue Technologie enthüllen, eine revolutionäre Technologie. Ein Forscher hat ein Paar bionische Brillen mit einer extrem leistungsfähigen Mini-Kamera entwickelt, die in der Front eingebettet ist. Diese Technologie ermöglicht es, Details zu sehen, die mit bloßem Auge unmöglich zu erkennen sind. In den Bügeln befindet sich ein elektronischer Chip, der Bilder direkt über mein Smartphone in die Cloud überträgt.
 
@@ -510,7 +505,6 @@ Die große Lektion aus dieser Reihe von Texten ist, dass staatliche Eingriffe pe
 ## Die Petition der Kerzenmacher
 <chapterId>f4e759ed-1cb2-55c7-885e-0a60244758a4</chapterId>
 
-![video](https://youtu.be/TB2Bhl1qWKw?si=YyZ6ZxL2F3xDca3V)
 Im Jahr 1840 stimmte die Kammer der Abgeordneten für ein Gesetz, das die Importsteuern erhöhte, um die französische Industrie zu schützen. Dies ist der berühmte ökonomische Patriotismus, dem wir auch heute noch begegnen.
 
 ![image](assets/image/10/IMG13.webp)
@@ -556,7 +550,6 @@ Wahrer Reichtum ist nach Bastiat also die Gesamtheit der nützlichen Dinge, die 
 
 <chapterId>551fc499-2119-5a52-9114-412d29434c22</chapterId>
 
-![video](https://youtu.be/VAewCBZGmaY?si=DRRU4eTbiB5iNU3J)
 
 > Wenn die Reichen abnehmen, sterben die Armen.
 
@@ -652,7 +645,6 @@ Eines ist sicher, es ist nicht der Politiker, der den Lauf der Dinge ändern und
 
 <chapterId>895ccd1d-7b52-5a8b-8b2c-6ec0056cf632</chapterId>
 
-![video](https://youtu.be/1LRA2HqsZ4w?si=lJwZw843vmaiKBTr)
 
 Kann eine harmonische Gesellschaft ohne schriftliche Gesetze, Regeln, repressive Maßnahmen auskommen? Wenn die Menschen frei gelassen werden, werden wir dann nicht Unordnung, Anarchie, Desorganisation bezeugen? Wie kann man vermeiden, eine bloße Nebeneinanderstellung von Individuen zu schaffen, die außerhalb jeglicher Abstimmung handeln, wenn nicht durch Gesetze und eine zentralisierte politische Organisation?
 
@@ -690,7 +682,6 @@ Er greift Bastiats Idee einer unsichtbaren Zusammenarbeit unter Millionen von In
 
 Der Nobelpreisträger für Wirtschaftswissenschaften von 1976, Milton Friedman, griff diese Bleistiftgeschichte ebenfalls auf, um der breiten Öffentlichkeit zu erklären, wie die Marktwirtschaft funktioniert.
 
-![video](https://youtu.be/67tHtpac5ws?si=Ck9jVkdpYHbUJ5we)
 
 In einer Episode seiner Fernsehserie Free to Choose analysiert er die verschiedenen Komponenten eines so alltäglichen und einfachen Gegenstands wie eines Bleistifts und hebt das Wunder der spontanen Ordnung hervor, die durch Tausende von wirtschaftlichen Interaktionen auf der ganzen Welt erzeugt wird. Menschen, die sich nicht kennen, die nicht dieselbe Religion oder Bräuche teilen, schaffen es dennoch, sich zu koordinieren, um dieses Objekt zu produzieren. Er kommt zu dem Schluss, dass der freie Markt nicht nur für Wohlstand, sondern auch für Harmonie und Frieden unerlässlich ist.
 
@@ -703,7 +694,6 @@ Wirtschaftsplanung, die behauptet, besser als der Markt zu sein, führt nicht nu
 
 <chapterId>78baa7ef-2c80-5fc7-8881-c1be4662b96f</chapterId>
 
-![video](https://youtu.be/KqtOO9FuaYg?si=wwItVC6_hhc5kYIF)
 
 In einem Brief an Alphonse de Lamartine im Jahr 1845 schrieb Bastiat, dass seine gesamte Philosophie in einem einzigen Prinzip enthalten ist:
 
@@ -760,7 +750,6 @@ Mit anderen Worten, kollektive Entscheidungen sind keine verantwortungsvollen En
 
 <chapterId>0c078806-6c58-53f9-a720-5fb62386e56b</chapterId>
 
-![video](https://youtu.be/M4yjsSrRfQ4?si=xJmTNMxIZ3WTtqgM)
 
 Im vorherigen Kurs haben wir gesehen, warum Freiheit und Verantwortung Schlüssel zum sozialen Problem sind. Wir werden nun tiefer in diesen Punkt eintauchen, indem wir zeigen, wie Frédéric Bastiat die Übel, die die Gesellschaften heimsuchen, und deren Lösung sieht.
 
@@ -807,7 +796,6 @@ Es muss klargestellt werden, dass diese Entwicklung des Fortschritts durch Veran
 
 <chapterId>fa2172e9-22fa-5c01-a3c8-1e8316c064a4</chapterId>
 
-![video](https://youtu.be/3T9iRFce9oI?si=AVY8PA6fdVK7ML-r)
 
 ![image](assets/image/16/IMG1.webp)
 
@@ -861,7 +849,6 @@ Das Gesetz kann einen Menschen zwingen, gerecht zu sein, aber es kann ihn nicht 
 
 <chapterId>a48a0616-2105-5520-8312-e21a0b6489c7</chapterId>
 
-![video](https://youtu.be/M7g5ZhX7uwM?si=Hu3kTmj9pE-eRZmw)
 
 Mit Eigentum sollte man hier nicht Land verstehen. Es bedeutet "das Recht eines Arbeiters über den Wert, den er durch seine Arbeit geschaffen hat." Bastiat präzisiert:
 
@@ -954,7 +941,6 @@ Bastiat schrieb in "Das Gesetz", einige Zeit bevor er starb. Ein Jahrhundert nac
 
 <chapterId>52258229-7c7c-592b-aa27-203b03aa41c9</chapterId>
 
-![video](https://youtu.be/YffrxCE5xmc?si=HPLmL9YSnHIQGNNa)
 
 Im Jahr 1848 war Bastiat Abgeordneter. Er wurde zum Vizepräsidenten der Finanzkommission ernannt. Er war also besonders gut positioniert, um diese Frage zu beantworten: Was ist der Staat? Wir wenden uns an den Staat, um unser Wohlergehen zu sichern. Aber Bastiat erinnert uns daran, dass der Staat den Bürgern nichts geben kann, was er ihnen nicht zuvor genommen hat.
 
@@ -1013,7 +999,6 @@ Schrieb Frédéric Bastiat in einer kurzen Broschüre mit dem Titel Der Staat.
 
 <chapterId>2a2a181a-e477-5be1-ba1f-af59490c364e</chapterId>
 
-![video](https://youtu.be/bzaIT_G-d4E?si=lzcCHS4FAneNmVSS)
 
 Bastiats Einfluss begann gegen Ende des 19. Jahrhunderts zu schwinden, mit dem Aufstieg des Sozialismus und insbesondere des Marxismus innerhalb von Universitäten und Forschungsinstituten, finanziert mit öffentlichen Geldern.
 

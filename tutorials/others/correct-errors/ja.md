@@ -8,7 +8,7 @@ PlanBのミッションは、できるだけ多くの言語でBitcoinに関す�
 
 私たちの教育コンテンツ（チュートリアル、トレーニング、リソースなど）を参照している際に、スペルミス、文法、母国語でのわずかな翻訳エラー、またはタイポなどのエラーを見つけた場合、自分で素早く訂正を提案していただけると非常に感謝します。
 
-このチュートリアルでは、これらの小さなエラーを訂正するプロセスをステップバイステップで案内します。Gitの複雑さに踏み込みたくない初心者向けのチュートリアルです。しかし、Gitに慣れている場合は、こちらが簡単な要約です：[PlanB Networkデータリポジトリ](https://github.com/DecouvreBitcoin/sovereign-university-data)をフォークし、専用のブランチで変更を加え、ソースリポジトリの`dev`ブランチに対してプルリクエストを提出するだけです。
+このチュートリアルでは、これらの小さなエラーを訂正するプロセスをステップバイステップで案内します。Gitの複雑さに踏み込みたくない初心者向けのチュートリアルです。しかし、Gitに慣れている場合は、こちらが簡単な要約です：[PlanB Networkデータリポジトリ](https://github.com/PlanB-Network/bitcoin-educational-content)をフォークし、専用のブランチで変更を加え、ソースリポジトリの`dev`ブランチに対してプルリクエストを提出するだけです。
 
 ドキュメントの完全なレビューと改訂、特にコンテンツの翻訳を行う予定の場合は、この他の詳細なチュートリアルをご覧ください。
 
@@ -21,7 +21,7 @@ https://planb.network/tutorials/others/content-review-tutorial
 https://planb.network/tutorials/others/create-github-account
 
 
-- [PlanB専用のデータGitHubリポジトリ](https://github.com/DecouvreBitcoin/sovereign-university-data)にアクセスしてください：
+- [PlanB専用のデータGitHubリポジトリ](https://github.com/PlanB-Network/bitcoin-educational-content)にアクセスしてください：
 ![typos](assets/01.webp)
 - ここでは、すべてのコンテンツが部分ごとに整理されています。
 - 例えば、チュートリアルを修正したい場合は、`tutorials`フォルダに進んでください：
@@ -44,8 +44,9 @@ https://planb.network/tutorials/others/create-github-account
 - PRページに到着します。Pull Requestは、貢献者がリモートリポジトリのブランチに修正をプッシュしたことを示すリクエストであり、これらの修正がリポジトリのメインブランチにレビューされ、可能であればマージされることを希望しています: ![typos](assets/17.webp)
 - PRのためのタイトルと短い説明を追加できます: ![typos](assets/18.webp)
 - すべてが良さそうに見える場合は、緑色の `Create Pull Request` ボタンをクリックできます: ![typos](assets/19.webp)
-- おめでとうございます、あなたのPRは送信されました！その進行状況は [PlanB Network GitHubリポジトリ](https://github.com/DecouvreBitcoin/sovereign-university-data/pulls) の `Pull requests` タブで追跡できます: ![typos](assets/20.webp)
+- おめでとうございます、あなたのPRは送信されました！その進行状況は [PlanB Network GitHubリポジトリ](https://github.com/PlanB-Network/bitcoin-educational-content/pulls) の `Pull requests` タブで追跡できます: ![typos](assets/20.webp)
 ご協力いただきありがとうございます！PlanB Networkへのコンテンツ作成や翻訳など、他の種類の貢献を行いたい場合は、「Contribution」セクションの他のチュートリアルをチェックしてください。
 
 https://planb.network/tutorials/others
+
 

@@ -1,0 +1,5 @@
+description: |
+  Bygg privat en sikker bitcoin-signeringsenhet for mindre enn de fleste HWWs (all programvare/design er FOSS).
+contributors:
+  - rabbit-hole
+  - another-satoshi

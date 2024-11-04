@@ -8,7 +8,7 @@ PlanB:n tehtävänä on tarjota johtavia koulutusresursseja Bitcoinista mahdolli
 
 Jos tunnistat virheen jossakin koulutussisällössämme (opetusohjelmat, koulutukset, resurssit...) olipa kyseessä kirjoitusvirhe, kielioppi, pieni käännösvirhe äidinkielelläsi tai jopa kirjoitusvirhe, olisimme erittäin kiitollisia, jos ehdottaisit itse nopeaa korjausta.
 
-Tämä opas ohjaa sinut askel askeleelta läpi prosessin näiden pienten virheiden korjaamiseksi. Se on tarkoitettu aloittelijoille, jotka eivät halua syventyä Gitin monimutkaisuuksiin. Jos kuitenkin tunnet olosi mukavaksi Gitin kanssa, tässä on nopea yhteenveto: sinun tarvitsee vain tehdä haara [PlanB Networkin datavarastosta](https://github.com/DecouvreBitcoin/sovereign-university-data), tehdä muutoksia omistetussa haarassa ja lähettää vetopyyntö `dev`-haaraan lähdevarastossa.
+Tämä opas ohjaa sinut askel askeleelta läpi prosessin näiden pienten virheiden korjaamiseksi. Se on tarkoitettu aloittelijoille, jotka eivät halua syventyä Gitin monimutkaisuuksiin. Jos kuitenkin tunnet olosi mukavaksi Gitin kanssa, tässä on nopea yhteenveto: sinun tarvitsee vain tehdä haara [PlanB Networkin datavarastosta](https://github.com/PlanB-Network/bitcoin-educational-content), tehdä muutoksia omistetussa haarassa ja lähettää vetopyyntö `dev`-haaraan lähdevarastossa.
 
 Huomaa, että jos aiot suorittaa koko asiakirjan tarkistuksen ja tarkistamisen, erityisesti sisällön käännösten osalta, kehotan sinua tutustumaan tähän toiseen yksityiskohtaisempaan oppaaseen.
 
@@ -21,7 +21,7 @@ https://planb.network/tutorials/others/content-review-tutorial
 https://planb.network/tutorials/others/create-github-account
 
 
-- Mene [PlanB:n GitHub-varastoon, joka on omistettu datalle](https://github.com/DecouvreBitcoin/sovereign-university-data):
+- Mene [PlanB:n GitHub-varastoon, joka on omistettu datalle](https://github.com/PlanB-Network/bitcoin-educational-content):
 ![typos](assets/01.webp)
 - Täällä löydät kaiken sisältömme järjestettynä osiin.
 - Jos haluat muokata opetusohjelmaa, mene esimerkiksi `tutorials`-kansioon:
@@ -44,8 +44,9 @@ https://planb.network/tutorials/others/create-github-account
 - Saavut PR-sivulle. Pull Request on pyyntö, jonka avustaja lähettää ilmoittaakseen, että he ovat tehneet muutoksia haarassa etävarastossa ja että he toivovat näiden muutosten tulevan tarkastelluiksi ja mahdollisesti yhdistetyiksi varaston päähaaraan: ![typot](assets/17.webp)
 - Voit lisätä otsikon ja lyhyen kuvauksen PR:lle: ![typot](assets/18.webp)
 - Jos kaikki näyttää hyvältä, voit klikata vihreää `Create Pull Request` -painiketta: ![typot](assets/19.webp)
-- Onnittelut, PR:si on lähetetty! Voit seurata sen etenemistä `Pull requests` -välilehdessä [PlanB Networkin GitHub-repositoriossa](https://github.com/DecouvreBitcoin/sovereign-university-data/pulls) :![typot](assets/20.webp)
+- Onnittelut, PR:si on lähetetty! Voit seurata sen etenemistä `Pull requests` -välilehdessä [PlanB Networkin GitHub-repositoriossa](https://github.com/PlanB-Network/bitcoin-educational-content/pulls) :![typot](assets/20.webp)
 Kiitos paljon panoksestasi! Jos haluaisit tehdä muita tyyppisiä panostuksia PlanB Networkille, kuten sisällön kirjoittamista tai kääntämistä, tutustu vapaasti muihin oppaisiimme "Contribution" osiossa.
 
 https://planb.network/tutorials/others
+
 

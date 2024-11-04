@@ -290,7 +290,6 @@ Ngày nay, vấn đề về tự do thương mại vẫn tiếp tục là một 
 
 <chapterId>c3926110-e0b2-503c-96d9-5d3a6a661484</chapterId>
 
-![video](https://youtu.be/Z8EDhTS-s_Q?si=KSe8O-NTLXP3nRSb)
 
 Frédéric Bastiat, người đã bày tỏ quan điểm vào những năm 1840, là người kế thừa một thế hệ các triết gia của Thời kỳ Khai sáng đã chiến đấu chống lại kiểm duyệt và vì tự do ngôn luận. Hãy nghĩ về Montesquieu, Diderot, Voltaire, Condorcet, nhưng cũng không thể không nhắc đến Rousseau.
 
@@ -333,7 +332,6 @@ Theo Bastiat, xã hội, con người, và tài sản tồn tại trước luậ
 ## Giáo dục cổ điển
 
 <chapterId>87d9a8c9-2352-5cb2-8b93-678118a8145c</chapterId>
-![video](https://youtu.be/Nl9jnDV5RxE?si=pi5790tPHLGMzch_)
 Vào ngày 24 tháng 2 năm 1848, sau ba ngày bạo loạn ở Paris, Vua Louis-Philippe I đã thoái vị. Điều này đánh dấu sự ra đời của nền Cộng hòa Thứ hai.
 ![image](assets/image/06/IMG20.webp)
 
@@ -374,7 +372,6 @@ Tuy nhiên, như Bastiat nhắc nhở chúng ta, độc quyền ngăn chặn ti�
 ## Chủ nghĩa bảo hộ và Chủ nghĩa xã hội
 
 <chapterId>ce6cb8a8-7dc9-5ef7-939d-9a559b4d2c74</chapterId>
-![video](https://youtu.be/7q5qQNe7M48?si=lU63cOehitXxkpjR)
 
 ![image](assets/image/07/IMG11.webp)
 
@@ -422,7 +419,6 @@ Kết luận, theo Bastiat: chủ nghĩa bảo hộ và chủ nghĩa xã hội c
 
 <chapterId>96902abd-6915-5b25-a187-a4790162b86c</chapterId>
 
-![video](https://youtu.be/nBY6VUhtUis?si=EpWFShKZEQOyqRjg)
 
 Pierre-Joseph Proudhon là một trong những đại diện chính của chủ nghĩa xã hội Pháp giữa thế kỷ 19. Ông đặc biệt nổi tiếng với phát biểu này: "Tài sản là trộm cắp" trong "Tài sản là gì? - What is Property" vào năm 1840.
 
@@ -477,7 +473,6 @@ Kết luận, cả Proudhon và Bastiat đều nhận ra tầm quan trọng củ
 
 <chapterId>25fb02a9-5d68-5c58-bd0f-d4b8e1fd91f9</chapterId>
 
-![video](https://youtu.be/KfhX-EXRYu0?si=JL9jjaP9u0HUnSm_)
 
 Trong chương này, tôi sẽ tiết lộ một công nghệ mới hoàn toàn, một công nghệ cách mạng. Một nhà nghiên cứu đã phát triển một cặp kính sinh học với một camera nhỏ cực kỳ mạnh mẽ được gắn ở phía trước. Công nghệ này cho phép nhìn thấy những chi tiết không thể thấy bằng mắt thường. Trên gọng kính, có một chip điện tử truyền hình ảnh trực tiếp lên đám mây qua điện thoại thông minh của tôi.
 
@@ -520,7 +515,6 @@ Bài học lớn từ loạt tác phẩm này là sự can thiệp của nhà n�
 
 <chapterId>f4e759ed-1cb2-55c7-885e-0a60244758a4</chapterId>
 
-![video](https://youtu.be/TB2Bhl1qWKw?si=YyZ6ZxL2F3xDca3V)
 Vào năm 1840, Hạ viện đã bỏ phiếu thông qua một đạo luật tăng thuế nhập khẩu để bảo vệ ngành công nghiệp Pháp. Đây là biểu hiện của chủ nghĩa yêu nước kinh tế, mà chúng ta vẫn gặp phải ngày nay.
 
 ![image](assets/image/10/IMG13.webp)
@@ -566,7 +560,6 @@ Sự giàu có thực sự, theo Bastiat, do đó là tập hợp các vật d�
 
 <chapterId>551fc499-2119-5a52-9114-412d29434c22</chapterId>
 
-![video](https://youtu.be/VAewCBZGmaY?si=DRRU4eTbiB5iNU3J)
 
 > Khi người giàu giảm cân, người nghèo chết.
 
@@ -663,7 +656,6 @@ Một điều chắc chắn, không phải là chính trị có thể thay đổ
 
 <chapterId>895ccd1d-7b52-5a8b-8b2c-6ec0056cf632</chapterId>
 
-![video](https://youtu.be/1LRA2HqsZ4w?si=lJwZw843vmaiKBTr)
 
 Liệu một xã hội hài hòa có thể tồn tại mà không cần đến luật lệ viết, quy tắc, biện pháp trừng phạt? Nếu con người được tự do, chúng ta có chứng kiến sự hỗn loạn, vô chính phủ, vô tổ chức không? Làm thế nào để tránh việc chỉ đơn thuần đặt các cá nhân ở cận kề nhau và hành động tự phát, không có sự phối hợp nào cả, nếu không thông qua luật pháp và một tổ chức chính trị tập trung?
 
@@ -702,7 +694,6 @@ Nó tái hiện ý tưởng của Bastiat về sự hợp tác vô hình giữa 
 
 Giải Nobel Kinh tế năm 1976, Milton Friedman, cũng đã tái hiện câu chuyện về cây bút chì này để giải thích cho công chúng cách nền kinh tế thị trường hoạt động.
 
-![video](https://youtu.be/67tHtpac5ws?si=Ck9jVkdpYHbUJ5we)
 
 Trong một tập của sê-ri truyền hình "Free to Choose" của mình, ông phân tích các thành phần khác nhau của một thứ đơn giản và bình thường như cây bút chì và nhấn mạnh điều kỳ diệu của trật tự tự phát, được tạo ra bởi hàng nghìn tương tác kinh tế trên khắp thế giới. Những người không biết nhau, không chia sẻ cùng tôn giáo hay phong tục, vẫn có thể phối hợp để sản xuất ra vật thể này. Ông kết luận rằng thị trường tự do là cần thiết để đảm bảo không chỉ cho sự thịnh vượng mà còn cho cả hòa bình và hòa hợp.
 
@@ -713,7 +704,6 @@ Kế hoạch hoá kinh tế, vốn tự tuyên bố là sẽ làm tốt hơn th�
 
 <chapterId>78baa7ef-2c80-5fc7-8881-c1be4662b96f</chapterId>
 
-![video](https://youtu.be/KqtOO9FuaYg?si=wwItVC6_hhc5kYIF)
 
 Trong một bức thư gửi Alphonse de Lamartine vào năm 1845, Bastiat viết rằng toàn bộ triết lý của ông được chứa đựng trong một nguyên tắc duy nhất:
 
@@ -776,7 +766,6 @@ Nói cách khác, các lựa chọn tập thể không phải là các lựa ch�
 
 <chapterId>0c078806-6c58-53f9-a720-5fb62386e56b</chapterId>
 
-![video](https://youtu.be/M4yjsSrRfQ4?si=xJmTNMxIZ3WTtqgM)
 
 Trong phần trước, chúng ta đã thấy tại sao tự do và trách nhiệm là chìa khóa cho vấn đề xã hội. Bây giờ chúng ta sẽ đi sâu hơn vào điểm này bằng cách chỉ ra cách Frédéric Bastiat nhìn nhận về những tai hoạ mà xã hội phải chịu đựng và giải pháp của chúng.
 
@@ -815,7 +804,6 @@ Cần phải làm rõ rằng sự phát triển tiến bộ thông qua trách nh
 
 <chapterId>fa2172e9-22fa-5c01-a3c8-1e8316c064a4</chapterId>
 
-![video](https://youtu.be/3T9iRFce9oI?si=AVY8PA6fdVK7ML-r)
 
 ![image](assets/image/16/IMG1.webp)
 
@@ -870,7 +858,6 @@ Vì vậy, Bastiat phản đối các nhà xã hội chủ nghĩa về vai trò 
 
 <chapterId>a48a0616-2105-5520-8312-e21a0b6489c7</chapterId>
 
-![video](https://youtu.be/M7g5ZhX7uwM?si=Hu3kTmj9pE-eRZmw)
 
 Ở đây khi nói đến quyền sở hữu - property, chúng ta không nên hiểu là quyền sở hữu đất đai. Nó có nghĩa là "quyền của người lao động đối với giá trị mà anh ta đã tạo ra thông qua công sức lao động của mình." Bastiat chỉ rõ:
 
@@ -971,7 +958,6 @@ Một thế kỷ sau cái chết của Frédéric Bastiat, việc cướp bóc b
 
 <chapterId>52258229-7c7c-592b-aa27-203b03aa41c9</chapterId>
 
-![video](https://youtu.be/YffrxCE5xmc?si=HPLmL9YSnHIQGNNa)
 
 Năm 1848, Bastiat là một nghị sĩ. Ông được bổ nhiệm làm phó chủ tịch ủy ban tài chính. Do đó, ông đặc biệt có vị trí tốt để trả lời câu hỏi này: Nhà nước là gì? Chúng ta cần Nhà nước đảm bạo sự thịnh vượng của mình. Nhưng Bastiat nhắc nhở chúng ta rằng Nhà nước không thể cho công dân bất cứ thứ gì mà nó không trước tiên lấy từ họ.
 
@@ -1032,7 +1018,6 @@ Frédéric Bastiat đã viết trong một cuốn sách nhỏ có tựa đề "N
 
 <chapterId>2a2a181a-e477-5be1-ba1f-af59490c364e</chapterId>
 
-![video](https://youtu.be/bzaIT_G-d4E?si=lzcCHS4FAneNmVSS)
 
 Ảnh hưởng của Bastiat bắt đầu suy giảm vào cuối thế kỷ 19, với sự trỗi dậy của chủ nghĩa xã hội và đặc biệt là chủ nghĩa Marx trong các trường đại học và viện nghiên cứu, được tài trợ bằng tiền công.
 

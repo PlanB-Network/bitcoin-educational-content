@@ -60,7 +60,7 @@ Một khi mọi thứ đã sẵn sàng, và môi trường địa phương của
 
 ### Tạo một nhánh mới
 
-- Mở trình duyệt của bạn và truy cập vào trang của bản fork PlanB của bạn. Đây là bản fork bạn đã thiết lập trên GitHub. URL của bản fork của bạn nên trông giống như: `https://github.com/[tên-người-dùng-của-bạn]/sovereign-university-data`:
+- Mở trình duyệt của bạn và truy cập vào trang của bản fork PlanB của bạn. Đây là bản fork bạn đã thiết lập trên GitHub. URL của bản fork của bạn nên trông giống như: `https://github.com/[tên-người-dùng-của-bạn]/bitcoin-educational-content`:
 ![hướng dẫn](assets/3.webp)
 - Đảm bảo bạn đang ở nhánh chính `dev` sau đó nhấp vào nút `Sync fork`. Nếu bản fork của bạn không cập nhật, GitHub sẽ đề nghị cập nhật nhánh của bạn. Tiến hành cập nhật này. Nếu ngược lại, nhánh của bạn đã cập nhật, GitHub sẽ thông báo cho bạn:
 ![hướng dẫn](assets/4.webp)
@@ -71,7 +71,7 @@ Một khi mọi thứ đã sẵn sàng, và môi trường địa phương của
 ![hướng dẫn](assets/7.webp)
 - Nhấp vào nhánh này, sau đó nhấp vào nút `New Branch`:
 ![hướng dẫn](assets/8.webp)
-- Đảm bảo nhánh mới được dựa trên kho lưu trữ nguồn, tức là `DecouvreBitcoin/sovereign-university-data`.
+- Đảm bảo nhánh mới được dựa trên kho lưu trữ nguồn, tức là `PlanB-Network/bitcoin-educational-content`.
 - Đặt tên cho nhánh của bạn sao cho tiêu đề rõ ràng về mục đích của nó, sử dụng dấu gạch ngang để phân cách từng từ. Ví dụ, giả sử mục tiêu của chúng ta là viết một hướng dẫn về việc sử dụng phần mềm Sparrow Wallet. Trong trường hợp này, nhánh làm việc dành riêng cho việc viết hướng dẫn này có thể được đặt name: `tuto-sparrow-wallet-loic`. Sau khi nhập tên phù hợp, nhấp vào `Create branch` để xác nhận việc tạo nhánh:
 ![hướng dẫn](assets/9.webp)
 - Bây giờ nhấp vào nút `Publish branch` để lưu nhánh làm việc mới của bạn trên bản fork trực tuyến trên GitHub:
@@ -82,7 +82,7 @@ Bây giờ, trên GitHub Desktop, bạn nên ở trên nhánh mới của mình.
 ### Thêm hướng dẫn
 
 Bây giờ nhánh làm việc đã được tạo, đã đến lúc tích hợp hướng dẫn mới của bạn.
-- Mở trình quản lý tệp của bạn và điều hướng đến thư mục `sovereign-university-data`, đại diện cho bản sao cục bộ của kho lưu trữ của bạn. Bạn nên tìm thấy nó dưới `Documents\GitHub\sovereign-university-data`. Trong thư mục này, bạn cần tìm thư mục phụ thích hợp để đặt hướng dẫn của mình. Cách tổ chức các thư mục phản ánh các phần khác nhau của trang web Mạng lưới PlanB. Trong ví dụ của chúng tôi, vì chúng tôi muốn thêm một hướng dẫn về Sparrow Wallet, nên thích hợp để đi đến đường dẫn sau: `sovereign-university-data\tutorials\wallet` tương ứng với phần `WALLET` trên trang web: ![hướng dẫn](assets/12.webp)
+- Mở trình quản lý tệp của bạn và điều hướng đến thư mục `bitcoin-educational-content`, đại diện cho bản sao cục bộ của kho lưu trữ của bạn. Bạn nên tìm thấy nó dưới `Documents\GitHub\bitcoin-educational-content`. Trong thư mục này, bạn cần tìm thư mục phụ thích hợp để đặt hướng dẫn của mình. Cách tổ chức các thư mục phản ánh các phần khác nhau của trang web Mạng lưới PlanB. Trong ví dụ của chúng tôi, vì chúng tôi muốn thêm một hướng dẫn về Sparrow Wallet, nên thích hợp để đi đến đường dẫn sau: `bitcoin-educational-content\tutorials\wallet` tương ứng với phần `WALLET` trên trang web: ![hướng dẫn](assets/12.webp)
 - Trong thư mục `wallet`, bạn cần tạo một thư mục mới cụ thể dành riêng cho hướng dẫn của bạn. Tên của thư mục này phải gợi lên phần mềm được đề cập trong hướng dẫn, đảm bảo kết nối các từ bằng dấu gạch ngang. Đối với ví dụ của tôi, thư mục sẽ được đặt tên là `sparrow-wallet`:
 ![hướng dẫn](assets/13.webp)
 - Trong thư mục phụ mới này dành riêng cho hướng dẫn của bạn, cần thêm một số yếu tố:
@@ -93,7 +93,7 @@ Bây giờ nhánh làm việc đã được tạo, đã đến lúc tích hợp 
 ![hướng dẫn](assets/14.webp)
 - Để tóm tắt, đây là cấu trúc các tệp cần tạo:
 ```plaintext
-sovereign-university-data/
+bitcoin-educational-content/
 └── tutorials/
     └── wallet/ (cần chỉnh sửa với danh mục phù hợp)
         └── sparrow-wallet/ (cần chỉnh sửa với tên của hướng dẫn)

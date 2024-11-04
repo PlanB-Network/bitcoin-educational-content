@@ -6,4 +6,4 @@ BTCPay Server is an open-source payment processor that enables merchants and use
 
 > "_This is lies, my trust in you is broken, I will make you obsolete_".
 
-![](../../dictionnaire/assets/53.png)
+![](../../dictionnaire/assets/53.webp)

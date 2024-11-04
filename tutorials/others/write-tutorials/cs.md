@@ -59,7 +59,7 @@ Jakmile je vše připraveno a vaše lokální prostředí je správně nastaveno
 
 ### Vytvoření nové větve
 
-- Otevřete svůj prohlížeč a přejděte na stránku vašeho forknutí repozitáře PlanB. To je fork, který jste založili na GitHubu. URL vašeho forku by měla vypadat takto: `https://github.com/[vaše-uživatelské-jméno]/sovereign-university-data`:
+- Otevřete svůj prohlížeč a přejděte na stránku vašeho forknutí repozitáře PlanB. To je fork, který jste založili na GitHubu. URL vašeho forku by měla vypadat takto: `https://github.com/[vaše-uživatelské-jméno]/bitcoin-educational-content`:
 ![tutorial](assets/3.webp)
 - Ujistěte se, že jste na hlavní větvi `dev`, poté klikněte na tlačítko `Sync fork`. Pokud váš fork není aktuální, GitHub nabídne aktualizaci vaší větve. Proveďte tuto aktualizaci. Pokud je naopak vaše větev již aktuální, GitHub vás informuje:
 ![tutorial](assets/4.webp)
@@ -70,7 +70,7 @@ Jakmile je vše připraveno a vaše lokální prostředí je správně nastaveno
 ![tutorial](assets/7.webp)
 - Klikněte na tuto větev, poté klikněte na tlačítko `New Branch`:
 ![tutorial](assets/8.webp)
-- Ujistěte se, že nová větev je založena na zdrojovém repozitáři, tedy `DecouvreBitcoin/sovereign-university-data`.
+- Ujistěte se, že nová větev je založena na zdrojovém repozitáři, tedy `PlanB-Network/bitcoin-educational-content`.
 - Pojmenujte vaši větev tak, aby název jasně vypovídal o jejím účelu, použijte pomlčky k oddělení jednotlivých slov. Například, řekněme, že náš cíl je napsat tutoriál na používání softwaru Sparrow Wallet. V tomto případě by pracovní větev věnovaná psaní tohoto tutoriálu mohla být pojmenována: `tuto-sparrow-wallet-loic`. Jakmile je vhodný název zadán, klikněte na `Create branch` pro potvrzení vytvoření větve:
 ![tutorial](assets/9.webp)
 - Nyní klikněte na tlačítko `Publish branch` pro uložení vaší nové pracovní větve na váš online fork na GitHubu:
@@ -81,7 +81,7 @@ Pro každý nový článek, který chcete publikovat, budete muset vytvořit nov
 ### Přidání tutoriálu
 
 Nyní, když je pracovní větev vytvořena, je čas integrovat váš nový tutoriál.
-- Otevřete správce souborů a navigujte do složky `sovereign-university-data`, která představuje lokální klon vašeho repozitáře. Obvykle byste ji měli najít pod `Documents\GitHub\sovereign-university-data`. V tomto adresáři bude nutné najít vhodnou pod-složku pro umístění vašeho tutoriálu. Organizace složek odráží různé sekce webové stránky PlanB Network. V našem příkladu, protože chceme přidat tutoriál na Sparrow Wallet, je vhodné jít na následující cestu: `sovereign-university-data\tutorials\wallet`, která odpovídá sekci `WALLET` na webových stránkách: ![tutorial](assets/12.webp)
+- Otevřete správce souborů a navigujte do složky `bitcoin-educational-content`, která představuje lokální klon vašeho repozitáře. Obvykle byste ji měli najít pod `Documents\GitHub\bitcoin-educational-content`. V tomto adresáři bude nutné najít vhodnou pod-složku pro umístění vašeho tutoriálu. Organizace složek odráží různé sekce webové stránky PlanB Network. V našem příkladu, protože chceme přidat tutoriál na Sparrow Wallet, je vhodné jít na následující cestu: `bitcoin-educational-content\tutorials\wallet`, která odpovídá sekci `WALLET` na webových stránkách: ![tutorial](assets/12.webp)
 - V rámci složky `wallet` potřebujete vytvořit nový adresář specificky věnovaný vašemu tutoriálu. Název této složky musí evokovat software, o kterém je tutoriál, přičemž slova spojíte pomlčkami. V mém příkladu bude složka nazvána `sparrow-wallet`:
 ![tutorial](assets/13.webp)
 - V této nové pod-složce věnované vašemu tutoriálu je třeba přidat několik prvků:
@@ -92,7 +92,7 @@ Nyní, když je pracovní větev vytvořena, je čas integrovat váš nový tuto
 ![tutorial](assets/14.webp)
 - Shrnutí, zde je hierarchie souborů, které je třeba vytvořit:
 ```plaintext
-sovereign-university-data/
+bitcoin-educational-content/
 └── tutorials/
     └── wallet/ (upravit podle správné kategorie)
         └── sparrow-wallet/ (upravit podle názvu tutoriálu)

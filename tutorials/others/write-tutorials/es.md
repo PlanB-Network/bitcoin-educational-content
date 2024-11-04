@@ -60,7 +60,7 @@ Una vez que todo esté en su lugar, y tu entorno local esté bien configurado co
 
 ### Crear una nueva rama
 
-- Abre tu navegador y dirígete a la página de tu fork del repositorio PlanB. Este es el fork que has establecido en GitHub. La URL de tu fork debería verse así: `https://github.com/[tu-usuario]/sovereign-university-data`:
+- Abre tu navegador y dirígete a la página de tu fork del repositorio PlanB. Este es el fork que has establecido en GitHub. La URL de tu fork debería verse así: `https://github.com/[tu-usuario]/bitcoin-educational-content`:
 ![tutorial](assets/3.webp)
 - Asegúrate de estar en la rama principal `dev` y luego haz clic en el botón `Sync fork`. Si tu fork no está actualizado, GitHub ofrecerá actualizar tu rama. Procede con esta actualización. Si, por el contrario, tu rama ya está actualizada, GitHub te informará:
 ![tutorial](assets/4.webp)
@@ -71,7 +71,7 @@ Una vez que todo esté en su lugar, y tu entorno local esté bien configurado co
 ![tutorial](assets/7.webp)
 - Haz clic en esta rama, luego haz clic en el botón `New Branch`:
 ![tutorial](assets/8.webp)
-- Asegúrate de que la nueva rama esté basada en el repositorio fuente, es decir, `DecouvreBitcoin/sovereign-university-data`.
+- Asegúrate de que la nueva rama esté basada en el repositorio fuente, es decir, `PlanB-Network/bitcoin-educational-content`.
 - Nombra tu rama de manera que el título sea claro sobre su propósito, usando guiones para separar cada palabra. Por ejemplo, digamos que nuestro objetivo es escribir un tutorial sobre el uso del software Sparrow Wallet. En este caso, la rama de trabajo dedicada a escribir este tutorial podría llamarse: `tuto-sparrow-wallet-loic`. Una vez ingresado el nombre apropiado, haz clic en `Create branch` para confirmar la creación de la rama:
 ![tutorial](assets/9.webp)
 - Ahora haz clic en el botón `Publish branch` para guardar tu nueva rama de trabajo en tu fork en línea en GitHub:
@@ -82,7 +82,7 @@ Para cada nuevo artículo que desees publicar, necesitarás crear una nueva rama
 ### Agregando el tutorial
 
 Ahora que la rama de trabajo está creada, es momento de integrar tu nuevo tutorial.
-- Abre tu gestor de archivos y navega hasta la carpeta `sovereign-university-data`, que representa el clon local de tu repositorio. Normalmente deberías encontrarla bajo `Documents\GitHub\sovereign-university-data`. Dentro de este directorio, será necesario localizar la subcarpeta apropiada para colocar tu tutorial. La organización de las carpetas refleja las diferentes secciones del sitio web de PlanB Network. En nuestro ejemplo, dado que deseamos agregar un tutorial sobre Sparrow Wallet, es apropiado ir al siguiente camino: `sovereign-university-data\tutorials\wallet` que corresponde a la sección `WALLET` en el sitio web: ![tutorial](assets/12.webp)
+- Abre tu gestor de archivos y navega hasta la carpeta `bitcoin-educational-content`, que representa el clon local de tu repositorio. Normalmente deberías encontrarla bajo `Documents\GitHub\bitcoin-educational-content`. Dentro de este directorio, será necesario localizar la subcarpeta apropiada para colocar tu tutorial. La organización de las carpetas refleja las diferentes secciones del sitio web de PlanB Network. En nuestro ejemplo, dado que deseamos agregar un tutorial sobre Sparrow Wallet, es apropiado ir al siguiente camino: `bitcoin-educational-content\tutorials\wallet` que corresponde a la sección `WALLET` en el sitio web: ![tutorial](assets/12.webp)
 - Dentro de la carpeta `wallet`, necesitas crear un nuevo directorio específicamente dedicado a tu tutorial. El nombre de esta carpeta debe evocar el software cubierto en el tutorial, asegurando conectar las palabras con guiones. Para mi ejemplo, la carpeta se titulará `sparrow-wallet`:
 ![tutorial](assets/13.webp)
 - En esta nueva subcarpeta dedicada a tu tutorial, varios elementos necesitan ser agregados:
@@ -93,7 +93,7 @@ Ahora que la rama de trabajo está creada, es momento de integrar tu nuevo tutor
 ![tutorial](assets/14.webp)
 - Para resumir, aquí está la jerarquía de archivos a crear:
 ```plaintext
-sovereign-university-data/
+bitcoin-educational-content/
 └── tutorials/
     └── wallet/ (a modificar con la categoría correcta)
         └── sparrow-wallet/ (a modificar con el nombre del tutorial)

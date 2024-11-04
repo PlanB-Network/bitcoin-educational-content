@@ -13,7 +13,7 @@ Bạn muốn thêm một "người xây dựng" Bitcoin mới vào trang web M�
 https://planb.network/tutorials/others/create-github-account
 
 
-- Truy cập vào [kho lưu trữ GitHub của PlanB dành riêng cho dữ liệu](https://github.com/DecouvreBitcoin/sovereign-university-data/tree/dev/resources/builders) trong phần `resources/builder/`:
+- Truy cập vào [kho lưu trữ GitHub của PlanB dành riêng cho dữ liệu](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/builders) trong phần `resources/builder/`:
 ![builder](assets/02.webp)
 - Nhấp vào nút `Add file` ở góc trên bên phải, sau đó chọn `Create new file`:
 ![builder](assets/03.webp)

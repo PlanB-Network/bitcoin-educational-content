@@ -61,13 +61,13 @@ To maintain consistency between these two repositories, it will be necessary to 
 
 - Return to the GitHub Desktop software. By now, your fork should appear in the `Your repositories` section. If you don't see it immediately, use the double arrow button to refresh the list. When your fork appears, click on it to select it:
 ![github-desktop](assets/15.webp)
-- Then click on the blue button: `Clone [username]/sovereign-university-data`:
+- Then click on the blue button: `Clone [username]/bitcoin-educational-content`:
 ![github-desktop](assets/16.webp)
 - Keep the default path. To confirm, click on the blue `Clone` button:
 ![github-desktop](assets/17.webp)
 - Wait while GitHub Desktop clones your fork locally:
 ![github-desktop](assets/18.webp)
-- After cloning the repository, the software offers you two options. You must select the first one: `To contribute to the parent project`. This choice will allow you to present your future work as a contribution to the parent project (`DecouvreBitcoin/sovereign-university-data`), and not exclusively as a modification of your personal fork (`[username]/sovereign-university-data`). Once the option is chosen, click on `Continue`:
+- After cloning the repository, the software offers you two options. You must select the first one: `To contribute to the parent project`. This choice will allow you to present your future work as a contribution to the parent project (`PlanB-Network/bitcoin-educational-content`), and not exclusively as a modification of your personal fork (`[username]/bitcoin-educational-content`). Once the option is chosen, click on `Continue`:
 ![github-desktop](assets/19.webp)
 - Your GitHub Desktop is now correctly configured. Now, you can leave the software open in the background to follow the modifications we will make.
 ![github-desktop](assets/20.webp)
@@ -84,7 +84,7 @@ You can also retrieve modifications from the fork, for example, during a synchro
 - Your file explorer will open. You need to locate and select the folder titled `GitHub`, which should be in your `Documents` directory among your files. This path corresponds to the one you established during step 4. After choosing the folder, confirm its selection. The creation of your vault on Obsidian will then launch on a new page of the software:
 
 ![github-desktop](assets/24.webp)
--> **Attention**, it is important not to choose the `sovereign-university-data` folder when creating a new vault in Obsidian. Instead, select the parent folder, `GitHub`. If you select the `sovereign-university-data` folder, the configuration folder `.obsidian`, containing your local Obsidian settings, will automatically be integrated into the repository. We want to avoid this, as it is not necessary to transfer your Obsidian configurations to the PlanB Network repository. An alternative is to add the `.obsidian` folder to the `.gitignore` file, but this method would also modify the `.gitignore` file of the source repository, which is not desirable.
+-> **Attention**, it is important not to choose the `bitcoin-educational-content` folder when creating a new vault in Obsidian. Instead, select the parent folder, `GitHub`. If you select the `bitcoin-educational-content` folder, the configuration folder `.obsidian`, containing your local Obsidian settings, will automatically be integrated into the repository. We want to avoid this, as it is not necessary to transfer your Obsidian configurations to the PlanB Network repository. An alternative is to add the `.obsidian` folder to the `.gitignore` file, but this method would also modify the `.gitignore` file of the source repository, which is not desirable.
 
 - On the left side of the window, you can see the file tree with your different GitHub repositories that have been cloned locally.
 - By clicking on the arrows next to the folder names, you can expand them to access the subfolders of the repositories and their documents:

@@ -8,7 +8,7 @@ Misi dari PlanB adalah untuk menyediakan sumber daya pendidikan tingkat atas ten
 
 Jika Anda ingin menambahkan tutorial lengkap baru atau kursus di Jaringan PlanB, Anda perlu membuat profil profesor Anda. Ini akan memungkinkan Anda untuk mendapatkan kredit yang tepat untuk konten yang Anda produksi di situs web.
 ![tutorial](assets/1.webp)
-Jika Anda sebelumnya telah berkontribusi ke Jaringan PlanB, kemungkinan Anda sudah memiliki ID kontributor. Anda dapat menemukannya di folder profesor Anda yang dapat diakses [melalui halaman ini](https://github.com/DecouvreBitcoin/sovereign-university-data/tree/dev/professors). Jika ini kasusnya, Anda dapat melewatkan tutorial ini dan mulai berkontribusi langsung.
+Jika Anda sebelumnya telah berkontribusi ke Jaringan PlanB, kemungkinan Anda sudah memiliki ID kontributor. Anda dapat menemukannya di folder profesor Anda yang dapat diakses [melalui halaman ini](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/professors). Jika ini kasusnya, Anda dapat melewatkan tutorial ini dan mulai berkontribusi langsung.
 ![tutorial](assets/2.webp)
 
 Mari kita temukan bersama bagaimana menambahkan profesor baru dalam tutorial ini!
@@ -21,7 +21,7 @@ Mari kita temukan bersama bagaimana menambahkan profesor baru dalam tutorial ini
 ![tutorial](assets/3.webp)
 **Prasyarat sebelum memulai tutorial:**
 - Memiliki [akun GitHub](https://github.com/signup).
-- Memiliki fork dari [repositori sumber Jaringan PlanB](https://github.com/DecouvreBitcoin/sovereign-university-data).
+- Memiliki fork dari [repositori sumber Jaringan PlanB](https://github.com/PlanB-Network/bitcoin-educational-content).
 
 **Jika Anda membutuhkan bantuan untuk mendapatkan prasyarat ini, tutorial lain saya akan memandu Anda:**
 - **[Memahami Git dan GitHub](https://planb.network/tutorials/others/basics-of-github)**
@@ -30,7 +30,7 @@ Mari kita temukan bersama bagaimana menambahkan profesor baru dalam tutorial ini
 
 ## Bagaimana cara membuat profil profesor baru?
 
-- Buka browser Anda dan navigasikan ke halaman fork Anda dari repositori PlanB. URL fork Anda seharusnya terlihat seperti: `https://github.com/[username]/sovereign-university-data`
+- Buka browser Anda dan navigasikan ke halaman fork Anda dari repositori PlanB. URL fork Anda seharusnya terlihat seperti: `https://github.com/[username]/bitcoin-educational-content`
 ![tutorial](assets/4.webp)
 - Pastikan Anda berada di cabang utama `dev` kemudian klik tombol `Sync fork`. Jika fork Anda tidak terbaru, GitHub akan menawarkan untuk memperbarui cabang Anda. Lanjutkan dengan sinkronisasi ini.
 
@@ -45,14 +45,14 @@ Mari kita temukan bersama bagaimana menambahkan profesor baru dalam tutorial ini
 ![tutorial](assets/8.webp)
 - Klik pada cabang ini, kemudian klik tombol `New Branch`:
 ![tutorial](assets/9.webp)
-- Pastikan cabang baru berbasis pada repositori sumber, yaitu `DecouvreBitcoin/sovereign-university-data`.
+- Pastikan cabang baru berbasis pada repositori sumber, yaitu `PlanB-Network/bitcoin-educational-content`.
 - Beri nama cabang Anda dengan cara yang membuat judulnya jelas tentang tujuannya, gunakan tanda hubung untuk memisahkan setiap kata. Karena cabang ini dimaksudkan untuk menambahkan profil profesor, sebuah contoh nama bisa menjadi: `add-professor-[nama-anda]`. Setelah memasukkan nama, klik pada `Create branch` untuk mengonfirmasi pembuatannya:
 ![tutorial](assets/10.webp)
 - Sekarang klik tombol `Publish branch` untuk menyimpan cabang kerja baru Anda ke fork online Anda di GitHub:
 ![tutorial](assets/11.webp)
 - Pada titik ini, di GitHub Desktop, Anda seharusnya berada pada cabang baru Anda. Ini berarti bahwa semua modifikasi yang dibuat secara lokal di komputer Anda akan secara eksklusif dicatat pada cabang spesifik ini. Juga, selama cabang ini tetap dipilih di GitHub Desktop, file yang terlihat secara lokal di mesin Anda sesuai dengan file dari cabang ini (`add-professor-nama-anda`), dan bukan file dari cabang utama (`dev`):
 ![tutorial](assets/12.webp)
-- Untuk menambahkan profil profesor Anda, buka penjelajah file Anda dan navigasikan ke repositori lokal Anda, di folder `professors`. Anda akan menemukannya di bawah jalur: `\GitHub\sovereign-university-data\professors`.
+- Untuk menambahkan profil profesor Anda, buka penjelajah file Anda dan navigasikan ke repositori lokal Anda, di folder `professors`. Anda akan menemukannya di bawah jalur: `\GitHub\bitcoin-educational-content\professors`.
 
 - Di dalam folder ini, buat folder baru yang dinamai dengan nama atau pseudonim Anda. Pastikan tidak ada spasi dalam nama folder. Jadi, jika nama Anda adalah "Loic Pandul" dan tidak ada profesor lain yang memiliki nama ini, folder yang akan dibuat bernama `loic-pandul`:
 ![tutorial](assets/13.webp)

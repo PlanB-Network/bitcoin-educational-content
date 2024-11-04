@@ -59,13 +59,13 @@ Nende kahe repositoriumi järjepidevuse säilitamiseks on vajalik neid perioodil
 
 - Naase GitHub Desktop tarkvarasse. Praeguseks peaks sinu fork ilmuma `Your repositories` sektsiooni. Kui sa seda kohe ei näe, kasuta nimekirja värskendamiseks topelt noole nuppu. Kui sinu fork ilmub, klõpsa sellel, et see valida:
 ![github-desktop](assets/15.webp)
-- Seejärel klõpsa sinisel nupul: `Clone [username]/sovereign-university-data`:
+- Seejärel klõpsa sinisel nupul: `Clone [username]/bitcoin-educational-content`:
 ![github-desktop](assets/16.webp)
 - Jäta vaikimisi tee. Kinnitamiseks klõpsa sinisel `Clone` nupul:
 ![github-desktop](assets/17.webp)
 - Oota, kuni GitHub Desktop kloonib sinu forki kohalikult:
 ![github-desktop](assets/18.webp)
-- Pärast repositoriumi kloonimist pakub tarkvara sulle kahte võimalust. Sa pead valima esimese: `To contribute to the parent project`. See valik võimaldab sul esitada oma tulevase töö panusena vanemprojekti (`DecouvreBitcoin/sovereign-university-data`), mitte ainult kui muudatusi sinu isiklikus forkis (`[username]/sovereign-university-data`). Kui valik on tehtud, klõpsa `Continue`:
+- Pärast repositoriumi kloonimist pakub tarkvara sulle kahte võimalust. Sa pead valima esimese: `To contribute to the parent project`. See valik võimaldab sul esitada oma tulevase töö panusena vanemprojekti (`PlanB-Network/bitcoin-educational-content`), mitte ainult kui muudatusi sinu isiklikus forkis (`[username]/bitcoin-educational-content`). Kui valik on tehtud, klõpsa `Continue`:
 ![github-desktop](assets/19.webp)- Teie GitHub Desktop on nüüd õigesti seadistatud. Nüüd võite tarkvara taustal avatuna hoida, et jälgida meie poolt tehtavaid muudatusi.
 ![github-desktop](assets/20.webp)
 Sellel etapil oleme saavutanud teie repositooriumi kohaliku koopia loomise, mis on majutatud GitHubis. Meeldetuletuseks, see repositoorium on PlanB Networki allika repositooriumi fork. Teil on võimalik teha muudatusi selles kohalikus koopias, nagu lisada õpetusi, tõlkeid või parandusi. Kui need muudatused on tehtud, kasutate **Push origin** käsku, et saata oma kohalikud muudatused teie GitHubis majutatud forki.
@@ -81,7 +81,7 @@ Samuti on võimalik hankida muudatusi forkist, näiteks sünkroniseerimise ajal 
 - Sinu failihaldur avaneb. Peate leidma ja valima kausta pealkirjaga `GitHub`, mis peaks asuma teie `Documents` kataloogis teie failide seas. See tee vastab sellele, mille määrasite 4. sammus. Pärast kausta valimist kinnitage selle valik. Teie seifi loomine Obsidianis käivitub seejärel tarkvara uuel lehel:
 
 ![github-desktop](assets/24.webp)
--> **Tähelepanu**, on oluline mitte valida `sovereign-university-data` kausta, kui loote Obsidianis uut seifi. Selle asemel valige emakaust, `GitHub`. Kui valite `sovereign-university-data` kausta, siis konfiguratsioonikaust `.obsidian`, mis sisaldab teie kohalikke Obsidiani seadeid, integreeritakse automaatselt repositooriumisse. Tahame seda vältida, kuna pole vajalik edastada teie Obsidiani seadistusi PlanB Networki repositooriumisse. Alternatiivina võib `.obsidian` kausta lisada `.gitignore` faili, kuid see meetod muudaks ka allika repositooriumi `.gitignore` faili, mis ei ole soovitav.
+-> **Tähelepanu**, on oluline mitte valida `bitcoin-educational-content` kausta, kui loote Obsidianis uut seifi. Selle asemel valige emakaust, `GitHub`. Kui valite `bitcoin-educational-content` kausta, siis konfiguratsioonikaust `.obsidian`, mis sisaldab teie kohalikke Obsidiani seadeid, integreeritakse automaatselt repositooriumisse. Tahame seda vältida, kuna pole vajalik edastada teie Obsidiani seadistusi PlanB Networki repositooriumisse. Alternatiivina võib `.obsidian` kausta lisada `.gitignore` faili, kuid see meetod muudaks ka allika repositooriumi `.gitignore` faili, mis ei ole soovitav.
 
 - Akna vasakul küljel näete failipuud oma erinevate GitHubi repositooriumitega, mis on kohalikult kloonitud.
 - Klõpsates kaustade nimede kõrval olevatele nooltele, saate neid laiendada, et pääseda juurde repositooriumite alamkaustadele ja nende dokumentidele:

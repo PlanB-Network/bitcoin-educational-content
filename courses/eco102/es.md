@@ -298,7 +298,6 @@ La cuestión del libre comercio sigue siendo relevante hoy en día. Los libros d
 
 <chapterId>c3926110-e0b2-503c-96d9-5d3a6a661484</chapterId>
 
-![video](https://youtu.be/Z8EDhTS-s_Q?si=KSe8O-NTLXP3nRSb)
 
 Frédéric Bastiat, quien se expresó en la década de 1840, es heredero de una generación de filósofos de la Ilustración que lucharon contra la censura y por la libertad de debate. Piensa en Montesquieu, Diderot, Voltaire, Condorcet, pero también en Rousseau.
 
@@ -341,7 +340,6 @@ Según Bastiat, la sociedad, las personas y las propiedades existen antes que la
 ## Educación Clásica
 
 <chapterId>87d9a8c9-2352-5cb2-8b93-678118a8145c</chapterId>
-![video](https://youtu.be/Nl9jnDV5RxE?si=pi5790tPHLGMzch_)
 El 24 de febrero de 1848, después de tres días de disturbios en París, el Rey Luis-Felipe I abdicó su poder. Esto marcó el nacimiento de la Segunda República.
 ![image](assets/image/06/IMG20.webp)
 
@@ -380,7 +378,6 @@ Sin embargo, como nos recuerda Bastiat, el monopolio excluye el progreso.
 
 ## Proteccionismo y Socialismo
 <chapterId>ce6cb8a8-7dc9-5ef7-939d-9a559b4d2c74</chapterId>
-![video](https://youtu.be/7q5qQNe7M48?si=lU63cOehitXxkpjR)
 
 ![image](assets/image/07/IMG11.webp)
 
@@ -429,7 +426,6 @@ Para concluir, los proteccionistas y los socialistas comparten un punto común, 
 
 <chapterId>96902abd-6915-5b25-a187-a4790162b86c</chapterId>
 
-![video](https://youtu.be/nBY6VUhtUis?si=EpWFShKZEQOyqRjg)
 
 Pierre-Joseph Proudhon es uno de los principales representantes del socialismo francés a mediados del siglo XIX. Es especialmente famoso por esta declaración: "La propiedad es un robo" en "¿Qué es la propiedad?" en 1840.
 
@@ -482,7 +478,6 @@ En conclusión, tanto Proudhon como Bastiat reconocieron la importancia de la ac
 
 <chapterId>25fb02a9-5d68-5c58-bd0f-d4b8e1fd91f9</chapterId>
 
-![video](https://youtu.be/KfhX-EXRYu0?si=JL9jjaP9u0HUnSm_)
 
 En este capítulo, revelaré una tecnología completamente nueva, una tecnología revolucionaria. Un investigador ha desarrollado un par de gafas biónicas con una mini-cámara ultra-potente incrustada en el frente. Esta tecnología permite ver detalles imposibles de ver a simple vista. En los brazos, hay un chip electrónico que transmite imágenes directamente a la nube a través de mi smartphone.
 
@@ -522,7 +517,6 @@ La gran lección de esta serie de textos es que la intervención estatal tiene e
 ## La petición de los fabricantes de velas
 <chapterId>f4e759ed-1cb2-55c7-885e-0a60244758a4</chapterId>
 
-![video](https://youtu.be/TB2Bhl1qWKw?si=YyZ6ZxL2F3xDca3V)
 En 1840, la Cámara de Diputados votó por una ley que aumentaba los impuestos de importación para proteger la industria francesa. Esto es el famoso patriotismo económico, que aún encontramos hoy en día.
 
 ![image](assets/image/10/IMG13.webp)
@@ -567,7 +561,6 @@ La verdadera riqueza, según Bastiat, es por lo tanto el conjunto de cosas útil
 
 <chapterId>551fc499-2119-5a52-9114-412d29434c22</chapterId>
 
-![video](https://youtu.be/VAewCBZGmaY?si=DRRU4eTbiB5iNU3J)
 
 > Cuando los ricos pierden peso, los pobres mueren.
 
@@ -665,7 +658,6 @@ Una cosa es cierta, no es el político quien puede cambiar el curso de las cosas
 
 <chapterId>895ccd1d-7b52-5a8b-8b2c-6ec0056cf632</chapterId>
 
-![video](https://youtu.be/1LRA2HqsZ4w?si=lJwZw843vmaiKBTr)
 
 ¿Puede una sociedad armoniosa prescindir de leyes escritas, reglas, medidas represivas? Si los hombres son dejados libres, ¿no seremos testigos de desorden, anarquía, desorganización? ¿Cómo evitar crear una mera yuxtaposición de individuos actuando fuera de cualquier concierto, si no a través de leyes y una organización política centralizada?
 
@@ -702,7 +694,6 @@ Revisita la idea de Bastiat de una cooperación invisible entre millones de indi
 
 El Premio Nobel de Economía de 1976, Milton Friedman, también revisó esta historia del lápiz para explicar al gran público cómo funciona la economía de mercado.
 
-![video](https://youtu.be/67tHtpac5ws?si=Ck9jVkdpYHbUJ5we)
 
 En un episodio de su serie de televisión Free to Choose, analiza los diversos componentes de algo tan mundano y simple como un lápiz y destaca el milagro del orden espontáneo, generado por miles de interacciones económicas en todo el mundo. Personas que no se conocen entre sí, que no comparten la misma religión o costumbres, aún logran coordinarse para producir este objeto. Concluye que el mercado libre es esencial para asegurar no solo la prosperidad, sino también la armonía y la paz.
 
@@ -716,7 +707,6 @@ La planificación económica, que pretende superar al mercado, no solo conduce a
 
 <chapterId>78baa7ef-2c80-5fc7-8881-c1be4662b96f</chapterId>
 
-![video](https://youtu.be/KqtOO9FuaYg?si=wwItVC6_hhc5kYIF)
 
 En una carta a Alphonse de Lamartine en 1845, Bastiat escribió que toda su filosofía se contiene en un solo principio:
 
@@ -779,7 +769,6 @@ En otras palabras, las elecciones colectivas no son elecciones responsables ya q
 
 <chapterId>0c078806-6c58-53f9-a720-5fb62386e56b</chapterId>
 
-![video](https://youtu.be/M4yjsSrRfQ4?si=xJmTNMxIZ3WTtqgM)
 
 En el curso anterior, vimos por qué la libertad y la responsabilidad son claves para el problema social. Ahora profundizaremos en este punto mostrando cómo Frédéric Bastiat ve los males que afligen a las sociedades y su solución.
 
@@ -825,7 +814,6 @@ Debe aclararse que este desarrollo del progreso a través de la responsabilidad 
 
 <chapterId>fa2172e9-22fa-5c01-a3c8-1e8316c064a4</chapterId>
 
-![video](https://youtu.be/3T9iRFce9oI?si=AVY8PA6fdVK7ML-r)
 
 ![image](assets/image/16/IMG1.webp)
 
@@ -879,7 +867,6 @@ La ley puede obligar a un hombre a ser justo, pero no puede forzarlo a ser devot
 
 <chapterId>a48a0616-2105-5520-8312-e21a0b6489c7</chapterId>
 
-![video](https://youtu.be/M7g5ZhX7uwM?si=Hu3kTmj9pE-eRZmw)
 
 Por propiedad, no debemos entender aquí la tierra. Significa "el derecho de un trabajador sobre el valor que ha creado a través de su trabajo". Bastiat especifica:
 
@@ -934,7 +921,6 @@ _(Cicerón)_
 
 <chapterId>b4122847-e477-578e-ba34-d35844ac4715</chapterId>
 
-![video](https://youtu.be/DJgC0W8ViHs?si=xmSWGDYcbb_2tpPt)
 
 La idea principal de Bastiat en "La Ley", su famoso panfleto de 1850, es mostrar por qué y cómo la ley se ha convertido en saqueo, es decir, una fuente de privilegios, rentas situacionales y arbitrariedad fiscal.
 
@@ -983,7 +969,6 @@ Bastiat escribió en La Ley, algún tiempo antes de morir. Un siglo después de 
 
 <chapterId>52258229-7c7c-592b-aa27-203b03aa41c9</chapterId>
 
-![video](https://youtu.be/YffrxCE5xmc?si=HPLmL9YSnHIQGNNa)
 
 En 1848, Bastiat era un diputado. Fue nombrado vicepresidente de la comisión de finanzas. Por lo tanto, estaba particularmente bien posicionado para responder a esta pregunta: ¿qué es el Estado? Nos dirigimos al Estado para asegurar nuestro bienestar. Pero Bastiat nos recuerda que el Estado no puede dar nada a los ciudadanos que primero no haya tomado de ellos.
 
@@ -1043,7 +1028,6 @@ Escribió Frédéric Bastiat en un breve folleto titulado El Estado.
 
 <chapterId>2a2a181a-e477-5be1-ba1f-af59490c364e</chapterId>
 
-![video](https://youtu.be/bzaIT_G-d4E?si=lzcCHS4FAneNmVSS)
 
 La influencia de Bastiat comenzó a declinar hacia finales del siglo XIX, con el auge del socialismo y particularmente del marxismo dentro de las universidades e institutos de investigación, financiados con dinero público.
 

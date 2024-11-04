@@ -6,7 +6,7 @@ A coinjoin protocol that utilizes David Chaum's blind signatures and Tor for com
 
 To achieve this, users submit their input and a cryptographically blinded reception address to the coordinator. This address, once unblinded, is intended to receive the bitcoins as an output from the coinjoin. The coordinator signs these tokens and returns them to the users. The users then reconnect anonymously to the coordinator's server with a new Tor identity and reveal their output addresses in plaintext for the transaction construction. The coordinator can verify that all these reception addresses come from legitimate users, as he has previously signed their blinded version with his private key. However, he cannot associate a specific output address with a given input user. Therefore, there is no link between the inputs and outputs, even from the coordinator's perspective. Once the transaction is constructed by the coordinator, he sends it back to the participants who sign it to unlock their input, after verifying that their output is indeed in this transaction. The participants send the signature to the coordinator. Once all signatures are collected, the coordinator can broadcast the coinjoin transaction on the Bitcoin network.
 
-![](../../dictionnaire/assets/38.png)
+![](../../dictionnaire/assets/38.webp)
 
 This method ensures that the coordinator can neither compromise the anonymity of the participants nor steal the bitcoins during the entire coinjoin process.
 

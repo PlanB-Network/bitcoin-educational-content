@@ -1,0 +1,6 @@
+description: |
+  BTCPay Server er en selvhostet, åpen kildekode Bitcoin betalingsprosessor.
+  
+  Denne programvaren lar deg akseptere Bitcoin (BTC) betalinger direkte til din lommebok, uten gebyrer eller en tredjeparts mellommann. Den tilbyr forbedret personvern og sikkerhet, et tilpassbart brukergrensesnitt, og funksjoner for både e-handel og salg på stedet. Plattformen støtter integrasjon med ulike e-handelsplattformer som WordPress, Magneto, Drupal, og andre. Det er en allsidig løsning for bedrifter, veldedighetsorganisasjoner, innholdsskapere, og enkeltpersoner som ser etter et selv-suverent Bitcoin betalingssystem.
+contributors:
+  - rabbit-hole

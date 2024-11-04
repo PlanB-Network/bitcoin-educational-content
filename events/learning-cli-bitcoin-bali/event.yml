@@ -1,0 +1,25 @@
+- start_date: 2024-11-21 22:00:00
+  end_date: 2024-11-21 23:00:00
+  timezone: Asia/Makassar
+  address_line_1: Kuta Utara, Bali, Indonesia
+  address_line_2: Jalan Kayu Manis, Canggu, Kec. Kuta Utara
+  address_line_3:
+  name: Learn Bitcoin from the Command Line
+  builder: Bitcoin House Bali
+  type: workshop
+  book_online: false
+  book_in_person: true
+  price_dollars: 0
+  available_seats: 100
+  description: This cohort is an intermediate, hands-on experience focused on operating Bitcoin Core through the command-line interface (CLI).
+  language:
+    - in
+    - en
+  links:
+    website: https://www.eventbrite.com/e/learn-bitcoin-from-the-command-line-study-cohort-tickets-1061892331549
+    replay_url:
+    live_url:
+  tags:
+    - development
+    - onchain
+    - lightning

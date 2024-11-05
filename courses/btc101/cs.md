@@ -492,6 +492,11 @@ Vyberte si peněženku, která vyhovuje vašim potřebám a způsobu použití. 
 
 ![Alt text](assets/posters/en/8._what_is_a_bitcoin_wallet.webp)
 
+Pokud během vaší cesty králičí norou budete chtít vědět více o tvorbě Bitcoin peněženky, od entropie až po přijímací adresy, doporučuji kurz CYP 201 věnovaný tomuto tématu:
+
+[CYP 201 : Jak fungují Bitcoin peněženky](https://planb.network/courses/cyp201)
+
+
 ## Bezpečnost a Bitcoinové peněženky
 
 <chapterId>00c1afea-e54a-511f-bab3-2efc2fbfa6a1</chapterId>

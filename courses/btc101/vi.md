@@ -480,6 +480,11 @@ Chọn một ví phù hợp với nhu cầu và cách sử dụng của bạn. C
 
 ![Alt text](assets/posters/en/8._what_is_a_bitcoin_wallet.webp)
 
+Nếu trong hành trình xuống hang thỏ, bạn muốn tìm hiểu thêm về việc xây dựng một ví Bitcoin, từ entropy đến địa chỉ nhận, tôi khuyên bạn nên tham gia khóa học CYP 201 dành riêng cho chủ đề này:
+
+[CYP 201 : Cách thức hoạt động của ví Bitcoin](https://planb.network/courses/cyp201)
+
+
 ## Bảo Mật và Ví Bitcoin
 <chapterId>00c1afea-e54a-511f-bab3-2efc2fbfa6a1</chapterId>
 

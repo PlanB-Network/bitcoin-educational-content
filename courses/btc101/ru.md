@@ -493,6 +493,11 @@ objectives:
 
 ![Alt text](assets/posters/en/8._what_is_a_bitcoin_wallet.webp)
 
+Если во время вашего путешествия по кроличьей норе вы захотите узнать больше о создании Bitcoin-кошелька, от энтропии до адресов получения, рекомендую курс CYP 201, посвященный этой теме:
+
+[CYP 201 : Как работают Bitcoin-кошельки](https://planb.network/courses/cyp201)
+
+
 ## Безопасность и Биткойн-кошельки
 
 <chapterId>00c1afea-e54a-511f-bab3-2efc2fbfa6a1</chapterId>

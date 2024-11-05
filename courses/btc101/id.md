@@ -489,6 +489,11 @@ Pilihlah dompet yang sesuai dengan kebutuhan dan penggunaan Anda. Tutorial terpe
 
 ![Alt text](assets/posters/en/8._what_is_a_bitcoin_wallet.webp)
 
+Jika selama perjalanan Anda di lubang kelinci Anda ingin mempelajari lebih lanjut tentang membangun dompet Bitcoin, mulai dari entropi hingga alamat penerimaan, saya merekomendasikan kursus CYP 201 yang didedikasikan untuk topik ini:
+
+[CYP 201 : Cara Kerja Dompet Bitcoin](https://planb.network/courses/cyp201)
+
+
 ## Keamanan dan Dompet Bitcoin
 
 <chapterId>00c1afea-e54a-511f-bab3-2efc2fbfa6a1</chapterId>

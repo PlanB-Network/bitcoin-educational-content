@@ -494,6 +494,10 @@ Portanto, a probabilidade de sua carteira Bitcoin ser hackeada é astronomicamen
 
 Escolha uma carteira que se adapte às suas necessidades e uso. Tutoriais detalhados sobre o uso e segurança de diferentes carteiras estão disponíveis na [secção de tutoriais da nossa universidade](https://planb.network/tutorials/wallet).
 
+Se durante sua jornada na toca do coelho você quiser saber mais sobre a construção de uma carteira Bitcoin, desde a entropia até os endereços de recebimento, recomendo o curso CYP 201 dedicado a este tema:
+
+[CYP 201 : O funcionamento das carteiras Bitcoin](https://planb.network/courses/cyp201)
+
 ## Segurança e Carteiras Bitcoin
 
 <chapterId>00c1afea-e54a-511f-bab3-2efc2fbfa6a1</chapterId>

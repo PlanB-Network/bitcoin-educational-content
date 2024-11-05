@@ -495,6 +495,10 @@ Quindi la probabilità di un hack del tuo portafoglio Bitcoin è astronomicament
 
 Scegli un portafoglio che corrisponda alle tue esigenze e al tuo utilizzo. Tutorial dettagliati sull'uso e sulla sicurezza di diversi portafogli sono disponibili nella sezione [tutorial della nostra università](https://planb.network/tutorials/wallet).
 
+Se durante il tuo percorso nella tana del coniglio desideri saperne di più sulla costruzione di un portafoglio Bitcoin, dall’entropia fino agli indirizzi di ricezione, ti consiglio il corso CYP 201 dedicato a questo argomento:
+
+[CYP 201 : Il funzionamento dei portafogli Bitcoin](https://planb.network/courses/cyp201)
+
 ## Sicurezza e Portafogli Bitcoin
 
 <chapterId>00c1afea-e54a-511f-bab3-2efc2fbfa6a1</chapterId>

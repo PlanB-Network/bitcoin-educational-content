@@ -492,6 +492,11 @@ Valige rahakott, mis vastab teie vajadustele ja kasutusele. Erinevate rahakottid
 
 ![Alt text](assets/posters/en/8._what_is_a_bitcoin_wallet.webp)
 
+Kui soovite oma teekonnal jäneseurus rohkem teada saada Bitcoini rahakoti loomise kohta, alates entroopiast kuni vastuvõtuaadressideni, soovitan selle teema jaoks pühendatud kursust CYP 201:
+
+[CYP 201 : Bitcoini rahakottide toimimine](https://planb.network/courses/cyp201)
+
+
 ## Turvalisus ja Bitcoini rahakotid
 
 <chapterId>00c1afea-e54a-511f-bab3-2efc2fbfa6a1</chapterId>

@@ -502,6 +502,11 @@ Choose a wallet that suits your needs and usage. Detailed tutorials on the use a
 
 ![Alt text](assets/posters/en/8._what_is_a_bitcoin_wallet.webp)
 
+If, during your journey down the rabbit hole, you want to learn more about building a Bitcoin wallet, from entropy to receiving addresses, I recommend the CYP 201 course dedicated to this topic:
+
+[CYP 201: The Functioning of Bitcoin Wallets](https://planb.network/courses/cyp201)
+
+
 ## Security and Bitcoin Wallets
 
 <chapterId>00c1afea-e54a-511f-bab3-2efc2fbfa6a1</chapterId>

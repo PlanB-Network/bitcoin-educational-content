@@ -489,6 +489,11 @@ Velg en lommebok som passer dine behov og bruk. Detaljerte veiledninger om bruk 
 
 ![Alt tekst](assets/posters/en/8._what_is_a_bitcoin_wallet.webp)
 
+Hvis du under din reise ned i kaninhullet ønsker å lære mer om hvordan en Bitcoin-lommebok bygges, fra entropi til mottaksadresser, anbefaler jeg kurset CYP 201 som er viet til dette emnet:
+
+[CYP 201 : Hvordan Bitcoin-lommebøker fungerer](https://planb.network/courses/cyp201)
+
+
 ## Sikkerhet og Bitcoin-lommebøker
 
 <chapterId>00c1afea-e54a-511f-bab3-2efc2fbfa6a1</chapterId>

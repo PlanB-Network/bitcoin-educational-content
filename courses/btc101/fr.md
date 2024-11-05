@@ -526,6 +526,11 @@ Choisissez un portefeuille qui correspond à vos besoins et à votre utilisation
 
 ![Alt text](assets/posters/fr/8_explication_des_portefeuilles_bitcoin_crop.webp)
 
+Si durant votre parcours dans le terrier du lapin, vous souhaitez en savoir plus sur la construction d'un portefeuille Bitcoin, de l'entropie jusqu'aux adresses de réception, je vous recommande la formation CYP 201 consacrée à ce sujet :
+
+[CYP 201 : le fonctionnement des portefeuilles Bitcoin](https://planb.network/courses/cyp201)
+
+
 ## Sécurité et Portefeuilles Bitcoin
 <chapterId>00c1afea-e54a-511f-bab3-2efc2fbfa6a1</chapterId>
 

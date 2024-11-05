@@ -486,6 +486,11 @@ objectives:
 
 ![Alt text](assets/posters/en/8._what_is_a_bitcoin_wallet.webp)
 
+如果在您探索兔子洞的过程中，想要进一步了解如何构建一个比特币钱包，从熵到接收地址，我推荐专门为此主题设计的 CYP 201 课程：
+
+[CYP 201 : 比特币钱包的运作原理](https://planb.network/courses/cyp201)
+
+
 ## 安全性和比特币钱包
 
 <chapterId>00c1afea-e54a-511f-bab3-2efc2fbfa6a1</chapterId>

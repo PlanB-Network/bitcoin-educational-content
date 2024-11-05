@@ -515,6 +515,11 @@ Elije una billetera que se adapte a tus necesidades y uso. Hay tutoriales detall
 
 ![Alt text](assets/posters/es/8_que_es_un_wallet.webp)
 
+Si durante su viaje por la madriguera del conejo desea aprender más sobre la construcción de una billetera de Bitcoin, desde la entropía hasta las direcciones de recepción, le recomiendo el curso CYP 201 dedicado a este tema:
+
+[CYP 201 : El funcionamiento de las billeteras de Bitcoin](https://planb.network/courses/cyp201)
+
+
 ## Seguridad y Billeteras de Bitcoin
 
 <chapterId>00c1afea-e54a-511f-bab3-2efc2fbfa6a1</chapterId>

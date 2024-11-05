@@ -491,6 +491,11 @@ Valitse lompakko, joka sopii tarpeisiisi ja käyttötarkoitukseesi. Yksityiskoht
 
 ![Vaihtoehtoinen teksti](assets/posters/en/8._what_is_a_bitcoin_wallet.webp)
 
+Jos haluat matkallasi alas kaninkoloon oppia lisää Bitcoin-lompakon rakentamisesta entropiasta vastaanotto-osoitteisiin asti, suosittelen tähän aiheeseen omistettua kurssia CYP 201:
+
+[CYP 201 : Bitcoin-lompakoiden toiminta](https://planb.network/courses/cyp201)
+
+
 ## Turvallisuus ja Bitcoin-lompakot
 
 <chapterId>00c1afea-e54a-511f-bab3-2efc2fbfa6a1</chapterId>

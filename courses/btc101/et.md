@@ -130,7 +130,7 @@ Seega on Bitcoin protokoll, mis hõlmab pikki ajaperioode ja julgustab meid küs
 
 Kui soovite Bitcoini ajalugu põhjalikumalt uurida, soovitan väga meie kursust HIS 201. Siit leiate Bitcoini päritolu ja selle aeglase esilekerkimise, samuti selle ajaloo ja kogukonna algusjärgu. See kursus on täielikult dokumenteeritud ja allikatega toetatud ning sisaldab loomulikult palju anekdoote :
 
-[HIS 201 - Bitcoini loomise ajalugu](https://planb.network/courses/his201)
+https://planb.network/courses/his201
 
 
 # Raha
@@ -248,7 +248,7 @@ Selle peatüki võime kokku võtta Nobeli preemia laureaadi F.A Hayeki tsitaadig
 
 Kui soovite rohkem teada saada majanduslikest eksitustest ja vabadusest, kutsun teid avastama meie kursust ECO 102. See kursus jälgib Frédéric Bastiati, 19. sajandi prantsuse mõtleja elu ja ideid, kes kindlasti oleks Bitcoini esilekerkimist hinnanud :
 
-[ECO 102 - Frédéric Bastiat, Elu, Mõjud ja Majanduslik Mõte](https://planb.network/courses/eco102)
+https://planb.network/courses/eco102
 
 
 ## Hüperinflatsioon
@@ -335,7 +335,7 @@ Kokkuvõttes on hüperinflatsioonil mõju valuuta väärtuse kiirele degradeerum
 
 Teema süvendamiseks soovitan David St-Onge'i kursust ECO 204 hüperinflatsiooni kohta. Siit saate teada, mis on hüperinflatsioonilised tsüklid ja milline on nende reaalne mõju meie eludele. Samuti avastate nende tsüklite sarnasusi ja mis kõige tähtsam, kuidas end nende eest kaitsta:
 
-[ECO 204 - Hüperinflatsioonid](https://planb.network/courses/eco204)
+https://planb.network/courses/eco204
 
 
 ## 21 miljonit bitcoini
@@ -494,7 +494,7 @@ Valige rahakott, mis vastab teie vajadustele ja kasutusele. Erinevate rahakottid
 
 Kui soovite oma teekonnal jäneseurus rohkem teada saada Bitcoini rahakoti loomise kohta, alates entroopiast kuni vastuvõtuaadressideni, soovitan selle teema jaoks pühendatud kursust CYP 201:
 
-[CYP 201 : Bitcoini rahakottide toimimine](https://planb.network/courses/cyp201)
+https://planb.network/courses/cyp201
 
 
 ## Turvalisus ja Bitcoini rahakotid
@@ -1318,3 +1318,4 @@ Palju õnne BTC 101 kursuse lõpetamise puhul! Loodan siiralt, et see meeldis te
 **Palju õnne kursuse lõpetamise puhul!**
 
 Pange tähele, et see peatükk on praegu koostamisel ja peagi ilmub täiustatud versioon. Vahepeal, kui soovite oma Bitcoini teekonda jätkata, kutsume teid tutvuma meie platvormil saadaolevate teiste kursuste ja õpetustega. Jätkake head tööd ja head õppimist!
+

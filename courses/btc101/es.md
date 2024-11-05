@@ -133,7 +133,7 @@ Por lo tanto, Bitcoin es un protocolo que abarca largos períodos de tiempo y no
 
 Si desea explorar la historia de Bitcoin en mayor detalle, le recomiendo encarecidamente nuestro curso HIS 201. Allí descubrirá los orígenes y la lenta aparición de Bitcoin, así como los inicios de su historia y su comunidad. Este curso está completamente documentado y referenciado, con, por supuesto, muchas anécdotas:
 
-[HIS 201 - La historia de la creación de Bitcoin](https://planb.network/courses/his201)
+https://planb.network/courses/his201
 
 
 # La moneda
@@ -260,7 +260,7 @@ Podemos conlcuir este capítulo con la cita del premio Nobel de Economía F.A Ha
 
 Para conocer más sobre falacias económicas y libertad, lo invito a descubrir nuestro curso ECO 102. Este curso recorre la vida y las ideas de Frédéric Bastiat, un pensador francés del siglo XIX que, sin duda, habría apreciado el surgimiento de Bitcoin:
 
-[ECO 102 - Frédéric Bastiat, Vida, Influencias y Pensamiento Económico](https://planb.network/courses/eco102)
+https://planb.network/courses/eco102
 
 
 ## Las hiperinflaciones
@@ -348,7 +348,7 @@ Una moneda que depende de un tercero de confianza, como una entidad financiera, 
 
 Para profundizar en el tema de las hiperinflaciones, le recomiendo el curso ECO 204 de David St-Onge. Allí aprenderá qué son los ciclos hiperinflacionarios y cuáles son sus impactos reales en nuestras vidas. También descubrirá las similitudes entre estos ciclos y, sobre todo, cómo protegerse de ellos:
 
-[ECO 204 - Las Hiperinflaciones](https://planb.network/courses/eco204)
+https://planb.network/courses/eco204
 
 
 ## 21 millones de Bitcoins
@@ -517,7 +517,7 @@ Elije una billetera que se adapte a tus necesidades y uso. Hay tutoriales detall
 
 Si durante su viaje por la madriguera del conejo desea aprender más sobre la construcción de una billetera de Bitcoin, desde la entropía hasta las direcciones de recepción, le recomiendo el curso CYP 201 dedicado a este tema:
 
-[CYP 201 : El funcionamiento de las billeteras de Bitcoin](https://planb.network/courses/cyp201)
+https://planb.network/courses/cyp201
 
 
 ## Seguridad y Billeteras de Bitcoin
@@ -1363,3 +1363,4 @@ Cambiar el sistema financiero requiere cambiar la moneda. Satoshi Nakamoto creó
 **¡Felicitaciones por completar este curso!**
 
 Tenga en cuenta que este capítulo está actualmente en construcción y pronto llegará una versión mejorada. Mientras tanto, si está ansioso por continuar su viaje con Bitcoin, lo invitamos a explorar los otros cursos y tutoriales disponibles en nuestra plataforma. ¡Sigue con el buen trabajo y feliz aprendizaje!
+

@@ -130,7 +130,7 @@ Oleh karena itu, Bitcoin adalah protokol yang membentang sepanjang periode waktu
 
 Jika Anda ingin mengeksplorasi sejarah Bitcoin secara lebih mendalam, saya sangat merekomendasikan kursus kami, HIS 201. Anda akan menemukan asal-usul dan munculnya Bitcoin secara perlahan, serta awal mula sejarah dan komunitasnya. Kursus ini sepenuhnya didokumentasikan dan memiliki banyak anekdot :
 
-[HIS 201 - Sejarah Penciptaan Bitcoin](https://planb.network/courses/his201)
+https://planb.network/courses/his201
 
 
 # Uang
@@ -247,7 +247,7 @@ Bab ini dapat disimpulkan dengan kutipan dari pemenang Hadiah Nobel F.A Hayek pa
 
 Jika Anda ingin mempelajari lebih lanjut tentang kesalahan ekonomi dan kebebasan, saya mengundang Anda untuk mengikuti kursus ECO 102 kami. Kursus ini menelusuri kehidupan dan gagasan Frédéric Bastiat, seorang pemikir Prancis abad ke-19 yang pasti akan menghargai kemunculan Bitcoin:
 
-[ECO 102 - Frédéric Bastiat, Kehidupan, Pengaruh, dan Pemikiran Ekonomi](https://planb.network/courses/eco102)
+https://planb.network/courses/eco102
 
 
 ## Hiperinflasi
@@ -332,7 +332,7 @@ Kesimpulannya, hiperinflasi memiliki efek buruk yang dapat merusak nilai mata ua
 
 Untuk mempelajari lebih lanjut tentang hiperinflasi, saya merekomendasikan kursus ECO 204 oleh David St-Onge. Anda akan mempelajari apa itu siklus hiperinflasi dan dampak nyata mereka pada kehidupan kita. Anda juga akan menemukan kesamaan antara siklus-siklus ini dan, yang terpenting, bagaimana melindungi diri Anda dari mereka:
 
-[ECO 204 - Hiperinflasi](https://planb.network/courses/eco204)
+https://planb.network/courses/eco204
 
 
 ## 21 juta bitcoin
@@ -491,7 +491,7 @@ Pilihlah dompet yang sesuai dengan kebutuhan dan penggunaan Anda. Tutorial terpe
 
 Jika selama perjalanan Anda di lubang kelinci Anda ingin mempelajari lebih lanjut tentang membangun dompet Bitcoin, mulai dari entropi hingga alamat penerimaan, saya merekomendasikan kursus CYP 201 yang didedikasikan untuk topik ini:
 
-[CYP 201 : Cara Kerja Dompet Bitcoin](https://planb.network/courses/cyp201)
+https://planb.network/courses/cyp201
 
 
 ## Keamanan dan Dompet Bitcoin
@@ -1319,3 +1319,4 @@ Selamat, Anda telah menyelesaikan kursus BTC 101 ini! Kami sungguh berharap Anda
 **Selamat atas penyelesaian kursus ini!**
 
 Harap perhatikan bahwa bab ini sedang dalam pengembangan, dan versi yang lebih baik akan segera hadir. Sementara itu, jika Anda ingin melanjutkan perjalanan Bitcoin Anda, kami mengundang Anda untuk menjelajahi kursus dan tutorial lain yang tersedia di platform kami. Pertahankan kerja bagus Anda, dan selamat belajar!
+

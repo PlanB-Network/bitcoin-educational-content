@@ -131,7 +131,7 @@ Portanto, o Bitcoin é um protocolo que se insere em longos períodos de tempo e
 
 Se você deseja explorar mais detalhadamente a história do Bitcoin, recomendo fortemente o nosso curso HIS 201. Nele, você descobrirá as origens e a lenta emergência do Bitcoin, bem como os primórdios de sua história e de sua comunidade. Este curso é totalmente documentado e referenciado, com, é claro, muitas anedotas :
 
-[HIS 201 - A história da criação do Bitcoin](https://planb.network/courses/his201)
+https://planb.network/courses/his201
 
 
 # A moeda
@@ -249,7 +249,7 @@ Ao mesmo tempo, a emergência das moedas digitais dos bancos centrais, ou CBDC, 
 
 Se você deseja aprender mais sobre sofismas econômicos e liberdade, convido-o a conhecer nosso curso ECO 102. Este curso traça a vida e as ideias de Frédéric Bastiat, um pensador francês do século XIX que, sem dúvida, teria apreciado o surgimento do Bitcoin:
 
-[ECO 102 - Frédéric Bastiat, Vida, Influências e Pensamento Econômico](https://planb.network/courses/eco102)
+https://planb.network/courses/eco102
 
 
 ## As hiperinflações
@@ -336,7 +336,7 @@ Une moeda que se base em uma instituição financeira de confiança de terceiros
 
 Para se aprofundar no tema das hiperinflacões, recomendo o curso ECO 204 de David St-Onge. Nele você aprenderá o que são os ciclos hiperinflacionários e quais são seus reais impactos em nossas vidas. Você também descobrirá as semelhanças entre esses ciclos e, acima de tudo, como se proteger deles:
 
-[ECO 204 - As Hiperinflações](https://planb.network/courses/eco204)
+https://planb.network/courses/eco204
 
 ## 21 milhões de bitcoins
 
@@ -496,7 +496,7 @@ Escolha uma carteira que se adapte às suas necessidades e uso. Tutoriais detalh
 
 Se durante sua jornada na toca do coelho você quiser saber mais sobre a construção de uma carteira Bitcoin, desde a entropia até os endereços de recebimento, recomendo o curso CYP 201 dedicado a este tema:
 
-[CYP 201 : O funcionamento das carteiras Bitcoin](https://planb.network/courses/cyp201)
+https://planb.network/courses/cyp201
 
 ## Segurança e Carteiras Bitcoin
 
@@ -1312,3 +1312,4 @@ Parabéns por concluir este curso BTC 101! Espero sinceramente que você tenha g
 **Parabéns por concluir este curso!**
 
 Por favor, observe que este capítulo está atualmente em construção, e uma versão aprimorada chegará em breve. Enquanto isso, se você está ansioso para continuar sua jornada Bitcoin, convidamos você a explorar os outros cursos e tutoriais disponíveis em nossa plataforma. Continue com o bom trabalho e bons estudos!
+

@@ -130,7 +130,7 @@ Siksi Bitcoin on protokolla, joka ulottuu pitkien aikojen yli ja kannustaa meit�
 
 Jos haluat tutkia Bitcoinin historiaa tarkemmin, suosittelen lämpimästi kurssiamme HIS 201. Löydät sieltä Bitcoinin alkuperän ja sen hitaasti tapahtuneen nousun sekä sen historian ja yhteisön alkuvaiheet. Tämä kurssi on täysin dokumentoitu ja lähteistetty, mukana on tietenkin monia anekdootteja :
 
-[HIS 201 - Bitcoinin luomisen historia](https://planb.network/courses/his201)
+https://planb.network/courses/his201
 
 
 
@@ -249,7 +249,7 @@ Voimme päätellä tämän luvun lainauksella Nobel-palkinnon voittajalta F.A Ha
 
 Jos haluat oppia lisää taloudellisista harhaluuloista ja vapaudesta, suosittelen tutustumaan ECO 102 -kurssiimme. Tämä kurssi käsittelee Frédéric Bastiatin, 1800-luvun ranskalaisen ajattelijan, elämää ja ajatuksia, joka epäilemättä olisi arvostanut Bitcoinin syntyä :
 
-[ECO 102 - Frédéric Bastiat, Elämä, Vaikutteet ja Taloudellinen Ajattelu](https://planb.network/courses/eco102)
+https://planb.network/courses/eco102
 
 
 ## Hyperinflaatio
@@ -334,7 +334,7 @@ Yhteenvetona voidaan todeta, että hyperinflaatio johtaa nopeasti valuutan arvon
 
 Jos haluat syventyä hyperinflaatioihin, suosittelen David St-Ongen ECO 204 -kurssia. Kurssilla opit, mitä hyperinflaatiokierrot ovat ja miten ne vaikuttavat elämäämme. Löydät myös näiden kierrosten samankaltaisuudet ja ennen kaikkea, kuinka suojautua niiltä:
 
-[ECO 204 - Hyperinflaatiot](https://planb.network/courses/eco204)
+https://planb.network/courses/eco204
 
 
 ## 21 miljoonaa bitcoinia
@@ -493,7 +493,7 @@ Valitse lompakko, joka sopii tarpeisiisi ja käyttötarkoitukseesi. Yksityiskoht
 
 Jos haluat matkallasi alas kaninkoloon oppia lisää Bitcoin-lompakon rakentamisesta entropiasta vastaanotto-osoitteisiin asti, suosittelen tähän aiheeseen omistettua kurssia CYP 201:
 
-[CYP 201 : Bitcoin-lompakoiden toiminta](https://planb.network/courses/cyp201)
+https://planb.network/courses/cyp201
 
 
 ## Turvallisuus ja Bitcoin-lompakot
@@ -1311,3 +1311,4 @@ Onnittelut BTC 101 -kurssin suorittamisesta! Toivon vilpittömästi, että nauti
 **Onnittelut kurssin suorittamisesta!**
 
 Huomaathan, että tämä luku on parhaillaan työn alla, ja parannettu versio julkaistaan pian. Sillä välin, jos olet innokas jatkamaan Bitcoin-matkaasi, kutsumme sinut tutustumaan muihin alustamme kursseihin ja opetusmateriaaleihin. Jatka hyvää työtä ja hauskaa oppimista!
+

@@ -130,7 +130,7 @@ Therefore, Bitcoin is a protocol that spans long periods of time and encourages 
 
 If you want to explore Bitcoin's history in more detail, I highly recommend our HIS 201 course. You will discover the origins and the slow emergence of Bitcoin, as well as the beginnings of its history and community. This course is fully documented and sourced, with, of course, many anecdotes:
 
-[HIS 201 - The History of Bitcoin's Creation](https://planb.network/courses/his201)
+https://planb.network/courses/his201
 
 
 # Money
@@ -255,7 +255,7 @@ We can conclude this chapter with the quote from Nobel Prize winner F.A Hayek in
 
 To learn more about economic fallacies and freedom, I invite you to discover our ECO 102 course. This course traces the life and ideas of Frédéric Bastiat, a 19th-century French thinker who would surely have appreciated the emergence of Bitcoin:
 
-[ECO 102 - Frédéric Bastiat, Life, Influences, and Economic Thought](https://planb.network/courses/eco102)
+https://planb.network/courses/eco102
 
 
 ## Hyperinflation
@@ -343,7 +343,7 @@ In conclusion, hyperinflation has the effect of rapidly degrading the value of t
 
 To delve deeper into the subject of hyperinflations, I recommend David St-Onge's ECO 204 course. You will learn what hyperinflationary cycles are and their real impacts on our lives. You will also discover the similarities between these cycles and, most importantly, how to protect yourself from them:
 
-[ECO 204 - Hyperinflations](https://planb.network/courses/eco204)
+https://planb.network/courses/eco204
 
 
 ## 21 million bitcoins
@@ -504,7 +504,7 @@ Choose a wallet that suits your needs and usage. Detailed tutorials on the use a
 
 If, during your journey down the rabbit hole, you want to learn more about building a Bitcoin wallet, from entropy to receiving addresses, I recommend the CYP 201 course dedicated to this topic:
 
-[CYP 201: The Functioning of Bitcoin Wallets](https://planb.network/courses/cyp201)
+https://planb.network/courses/cyp201
 
 
 ## Security and Bitcoin Wallets
@@ -1360,3 +1360,4 @@ Congratulations on completing this BTC 101 course! I sincerely hope you enjoyed 
 **Congratulations on completing this course!**
 
 Please note that this chapter is currently under construction, and an improved version will be arriving soon. In the meantime, if you're eager to continue your Bitcoin journey, we invite you to explore the other courses and tutorials available on our platform. Keep up the great work, and happy learning!
+

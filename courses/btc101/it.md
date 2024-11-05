@@ -133,7 +133,7 @@ Il Bitcoin è quindi un protocollo che si inserisce in tempi lunghi e ci spinge 
 
 Se desiderate esplorare più nel dettaglio la storia di Bitcoin, vi consiglio vivamente il nostro corso HIS 201. Scoprirete le origini e la lenta ascesa di Bitcoin, nonché i primi passi della sua storia e della sua comunità. Questo corso è completamente documentato e corredato di fonti, con ovviamente numerose aneddoti :
 
-[HIS 201 - La storia della creazione di Bitcoin](https://planb.network/courses/his201)
+https://planb.network/courses/his201
 
 
 # La moneta
@@ -251,7 +251,7 @@ Possiamo concludere questo capitolo con la citazione del premio Nobel per l'econ
 
 Se desiderate saperne di più sui sofismi economici e la libertà, vi invito a scoprire il nostro corso ECO 102. Questo corso ripercorre la vita e le idee di Frédéric Bastiat, un pensatore francese del XIX secolo che, senza dubbio, avrebbe apprezzato l’emergere di Bitcoin:
 
-[ECO 102 - Frédéric Bastiat, Vita, Influenze e Pensiero Economico](https://planb.network/courses/eco102)
+https://planb.network/courses/eco102
 
 
 ## Le iperinflazioni
@@ -336,7 +336,7 @@ Una valuta che si basa su un terzo di fiducia come un istituto finanziario si ri
 
 Per approfondire il tema delle iperinflazioni, vi consiglio il corso ECO 204 di David St-Onge. Imparerete cosa sono i cicli iperinflazionistici e quali sono i loro impatti reali sulle nostre vite. Scoprirete anche le somiglianze tra questi cicli e, soprattutto, come proteggervi da essi:
 
-[ECO 204 - Le Iperinflazioni](https://planb.network/courses/eco204)
+https://planb.network/courses/eco204
 
 
 ## 21 milioni di bitcoin
@@ -497,7 +497,7 @@ Scegli un portafoglio che corrisponda alle tue esigenze e al tuo utilizzo. Tutor
 
 Se durante il tuo percorso nella tana del coniglio desideri saperne di più sulla costruzione di un portafoglio Bitcoin, dall’entropia fino agli indirizzi di ricezione, ti consiglio il corso CYP 201 dedicato a questo argomento:
 
-[CYP 201 : Il funzionamento dei portafogli Bitcoin](https://planb.network/courses/cyp201)
+https://planb.network/courses/cyp201
 
 ## Sicurezza e Portafogli Bitcoin
 
@@ -1304,3 +1304,4 @@ Congratulazioni per aver completato questa formazione BTC 101! Spero sincerament
 **Congratulazioni per aver completato questo corso!**
 
 Ti preghiamo di notare che questo capitolo è attualmente in costruzione e una versione migliorata arriverà presto. Nel frattempo, se sei desideroso di continuare il tuo viaggio nel Bitcoin, ti invitiamo a esplorare gli altri corsi e tutorial disponibili sulla nostra piattaforma. Continua così e buon apprendimento!
+

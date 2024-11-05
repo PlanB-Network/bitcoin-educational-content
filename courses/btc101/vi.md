@@ -123,7 +123,7 @@ Do đó, Bitcoin là một giao thức kéo dài qua nhiều thời kỳ và khu
 
 Nếu bạn muốn tìm hiểu chi tiết hơn về lịch sử của Bitcoin, tôi rất khuyến nghị khóa học HIS 201 của chúng tôi. Tại đây, bạn sẽ khám phá nguồn gốc và sự nổi lên chậm chạp của Bitcoin, cũng như những khởi đầu của lịch sử và cộng đồng của nó. Khóa học này được tài liệu hóa và có nguồn, tất nhiên cũng có rất nhiều giai thoại :
 
-[HIS 201 - Lịch sử tạo ra Bitcoin](https://planb.network/courses/his201)
+https://planb.network/courses/his201
 
 
 # Tiền Bạc
@@ -242,7 +242,7 @@ Chúng ta có thể kết thúc chương này với lời trích dẫn từ ngư
 
 Nếu bạn muốn tìm hiểu thêm về các ngụy biện kinh tế và tự do, tôi mời bạn khám phá khóa học ECO 102 của chúng tôi. Khóa học này theo dõi cuộc đời và ý tưởng của Frédéric Bastiat, một nhà tư tưởng người Pháp thế kỷ 19, người chắc chắn sẽ trân trọng sự ra đời của Bitcoin:
 
-[ECO 102 - Frédéric Bastiat, Cuộc đời, Ảnh hưởng và Tư duy Kinh tế](https://planb.network/courses/eco102)
+https://planb.network/courses/eco102
 
 
 ## Lạm phát cực đoan
@@ -328,7 +328,7 @@ Kết luận, lạm phát cao có tác động làm giảm giá trị của ti�
 
 Để tìm hiểu sâu hơn về chủ đề siêu lạm phát, tôi khuyên bạn nên tham gia khóa học ECO 204 của David St-Onge. Bạn sẽ học được chu kỳ siêu lạm phát là gì và tác động thực sự của nó đối với cuộc sống của chúng ta. Bạn cũng sẽ khám phá sự tương đồng giữa các chu kỳ này và, quan trọng nhất, cách bảo vệ bản thân:
 
-[ECO 204 - Siêu Lạm Phát](https://planb.network/courses/eco204)
+https://planb.network/courses/eco204
 
 ## 21 triệu bitcoin
 <chapterId>f4a06d76-1963-56fd-93ff-dfa41489bcde</chapterId>
@@ -482,7 +482,7 @@ Chọn một ví phù hợp với nhu cầu và cách sử dụng của bạn. C
 
 Nếu trong hành trình xuống hang thỏ, bạn muốn tìm hiểu thêm về việc xây dựng một ví Bitcoin, từ entropy đến địa chỉ nhận, tôi khuyên bạn nên tham gia khóa học CYP 201 dành riêng cho chủ đề này:
 
-[CYP 201 : Cách thức hoạt động của ví Bitcoin](https://planb.network/courses/cyp201)
+https://planb.network/courses/cyp201
 
 
 ## Bảo Mật và Ví Bitcoin
@@ -1280,3 +1280,4 @@ Xin chúc mừng bạn đã hoàn thành khóa học BTC 101 này! Tôi thực s
 **Chúc mừng bạn đã hoàn thành khóa học này!**
 
 Xin lưu ý rằng chương này hiện đang được xây dựng và phiên bản cải tiến sẽ sớm ra mắt. Trong thời gian chờ đợi, nếu bạn háo hức tiếp tục hành trình Bitcoin của mình, chúng tôi mời bạn khám phá các khóa học và hướng dẫn khác có sẵn trên nền tảng của chúng tôi. Hãy tiếp tục công việc tốt đẹp và học tập vui vẻ!
+

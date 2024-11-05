@@ -130,7 +130,7 @@ Derfor er Bitcoin et protokoll som spenner over lange perioder og oppmuntrer oss
 
 Hvis du ønsker å utforske Bitcoins historie mer detaljert, anbefaler jeg sterkt kurset vårt HIS 201. Der vil du oppdage opprinnelsen og den langsomme fremveksten av Bitcoin, samt starten på dens historie og fellesskap. Dette kurset er fullstendig dokumentert og kildebasert, med selvfølgelig mange anekdoter :
 
-[HIS 201 - Historien om Bitcoins skapelse](https://planb.network/courses/his201)
+https://planb.network/courses/his201
 
 
 # Penger
@@ -247,7 +247,7 @@ Vi kan avslutte dette kapittelet med et sitat fra Nobelprisvinner F.A Hayek i 19
 
 Hvis du ønsker å lære mer om økonomiske feilslutninger og frihet, anbefaler jeg kurset ECO 102. Kurset tar for seg livet og ideene til Frédéric Bastiat, en fransk tenker fra 1800-tallet som utvilsomt ville satt pris på fremveksten av Bitcoin:
 
-[ECO 102 - Frédéric Bastiat, Liv, Innflytelser og Økonomisk Tanke](https://planb.network/courses/eco102)
+https://planb.network/courses/eco102
 
 
 ## Hyperinflasjon
@@ -332,7 +332,7 @@ Som konklusjon har hyperinflasjon effekten av raskt å degradere valutaens verdi
 
 For å fordype deg i temaet hyperinflasjon, anbefaler jeg David St-Onges kurs ECO 204. Her lærer du hva hyperinflasjonssykluser er og hvilke reelle konsekvenser de har for våre liv. Du vil også oppdage likhetene mellom disse syklusene og, viktigst av alt, hvordan du kan beskytte deg mot dem:
 
-[ECO 204 - Hyperinflasjoner](https://planb.network/courses/eco204)
+https://planb.network/courses/eco204
 
 
 ## 21 millioner bitcoins
@@ -491,7 +491,7 @@ Velg en lommebok som passer dine behov og bruk. Detaljerte veiledninger om bruk 
 
 Hvis du under din reise ned i kaninhullet ønsker å lære mer om hvordan en Bitcoin-lommebok bygges, fra entropi til mottaksadresser, anbefaler jeg kurset CYP 201 som er viet til dette emnet:
 
-[CYP 201 : Hvordan Bitcoin-lommebøker fungerer](https://planb.network/courses/cyp201)
+https://planb.network/courses/cyp201
 
 
 ## Sikkerhet og Bitcoin-lommebøker
@@ -1311,3 +1311,4 @@ Et vurderingssystem for opplæringen vil snart bli integrert i denne nye E-læri
 En stor takk til våre Patreon-støttespillere, medlemmer og donorer for deres økonomiske støtte, takk til folk som deler, og takk til de som gjorde denne opplæringen mulig: Rachel, Muriel, StackinSat-teamet, JohnOnChain, Fanis, Guillaume, Lounes, korrekturleserne og anmelderne.
 
 Vi sees snart!
+

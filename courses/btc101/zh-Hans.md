@@ -1290,12 +1290,28 @@ Bob将他的交易发送到比特币网络中，当矿工发布包含着此交�
 
 恭喜您完成了BTC 101课程！我真诚地希望您对这门课程满意，并且它为您打开了新的大门。您对比特币的发现仅仅是一个开始，我邀请您探索大学提供的所有其他课程。
 
-- [BTC 102](https://planb.network/courses/btc102) 将帮助您制定您的比特币计划
-- [LN 201](https://planb.network/courses/ln201) 和 [LN 202](https://planb.network/courses/ln202) 将让您发现闪电网络，一个第二层支付网络
-- [ECON 201](https://planb.network/courses/econ201) 将涵盖奥地利经济学
-- [SECU 101](https://planb.network/courses/secu101) 将帮助您更新您的数字安全
-- [MINAGE 201](https://planb.network/courses/min201) ，了解更多关于挖矿的内容
-- 还有更多！
+要设置您的比特币计划：
+
+https://planb.network/courses/btc102
+
+要了解 Lightning Network（一种第二层支付网络）：
+
+https://planb.network/courses/lnp201
+
+要学习奥地利经济学：
+
+https://planb.network/courses/eco201
+
+要更新您的数字安全：
+
+https://planb.network/courses/scu101
+
+要了解更多关于挖矿的信息：
+
+https://planb.network/courses/min201
+
+还有更多内容...
+
 
 
 ## 评估课程

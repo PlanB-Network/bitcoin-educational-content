@@ -1257,12 +1257,28 @@ Thay đổi hệ thống tài chính đòi hỏi phải thay đổi tiền tệ.
 
 Xin chúc mừng bạn đã hoàn thành khóa học BTC 101 này! Tôi thực sự hy vọng bạn đã thích nó và nó đã mở cửa cho bạn. Khám phá về bitcoin của bạn chỉ mới bắt đầu, và tôi mời bạn khám phá tất cả các khóa học khác có sẵn tại trường đại học.
 
-- [BTC 102](https://planb.network/courses/btc102) sẽ giúp bạn thiết lập kế hoạch bitcoin của mình
-- [LNP 201](https://planb.network/courses/lnp201) sẽ giúp bạn khám phá Lightning Network, một mạng lưới thanh toán tầng thứ hai
-- [ECO 201](https://planb.network/courses/eco01) sẽ bao gồm kinh tế học Áo
-- [SCU 101](https://planb.network/courses/scu101) sẽ giúp bạn cập nhật về an ninh số
-- [MIN 201](https://planb.network/courses/min201) để tìm hiểu thêm về việc đào
-- và nhiều hơn nữa...
+Để thiết lập kế hoạch Bitcoin của bạn:
+
+https://planb.network/courses/btc102
+
+Để khám phá Lightning Network, một mạng thanh toán lớp thứ hai:
+
+https://planb.network/courses/lnp201
+
+Để tìm hiểu về kinh tế học Áo:
+
+https://planb.network/courses/eco201
+
+Để cập nhật bảo mật kỹ thuật số của bạn:
+
+https://planb.network/courses/scu101
+
+Để biết thêm về khai thác:
+
+https://planb.network/courses/min201
+
+và còn nhiều nữa...
+
 
 
 ## Đánh giá khóa học

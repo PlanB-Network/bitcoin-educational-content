@@ -1296,12 +1296,28 @@ Perubahan sistem finansial memerlukan penggantian mata uang. Satoshi menciptakan
 
 Selamat, Anda telah menyelesaikan kursus BTC 101 ini! Kami sungguh berharap Anda menikmatinya dan membuka peluang baru untuk Anda. Penemuan Anda tentang bitcoin baru saja dimulai, dan kami mengundang Anda untuk menjelajahi semua kursus lain yang tersedia di universitas.
 
-- [BTC 102](https://planb.network/courses/btc101) akan membantu Anda menyiapkan rencana bitcoin Anda
-- [LNP 201](https://planb.network/courses/lnp201) akan memungkinkan Anda untuk menemukan Jaringan Petir, jaringan pembayaran lapis kedua
-- [ECO 201](https://planb.network/courses/eco201) akan membahas ekonomi Austria
-- [SCU 101](https://planb.network/courses/scu101) akan memungkinkan Anda memperbarui keamanan digital Anda
-- [MIN 201](https://planb.network/courses/min201) untuk mempelajari lebih lanjut tentang penambangan
-- dan banyak lagi...
+Untuk mengatur rencana Bitcoin Anda:
+
+https://planb.network/courses/btc102
+
+Untuk mempelajari Lightning Network, jaringan pembayaran lapisan kedua:
+
+https://planb.network/courses/lnp201
+
+Untuk mempelajari ekonomi Austria:
+
+https://planb.network/courses/eco201
+
+Untuk memperbarui keamanan digital Anda:
+
+https://planb.network/courses/scu101
+
+Untuk mengetahui lebih lanjut tentang penambangan:
+
+https://planb.network/courses/min201
+
+dan banyak lagi...
+
 
 
 ## Evaluasi kursus ini

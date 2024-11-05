@@ -1295,12 +1295,28 @@ Finantssüsteemi muutmine nõuab valuuta muutmist. Satoshi lõi Bitcoini 2008. a
 
 Palju õnne BTC 101 kursuse lõpetamise puhul! Loodan siiralt, et see meeldis teile ja avas teile uksi. Teie avastusreis bitcoiniga on alles algus, ja ma kutsun teid uurima kõiki teisi ülikoolis saadaolevaid kursuseid.
 
-- [BTC 102](https://planb.network/courses/btc101) aitab sul seadistada oma bitcoini plaani
-- [LNP 201](https://planb.network/courses/lnp201) võimaldab sul avastada Lightning Networki, teise kihi maksevõrgu
-- [ECO 201](https://planb.network/courses/eco201) käsitleb Austria majandust
-- [SCU 101](https://planb.network/courses/scu101) võimaldab sul uuendada oma digitaalset turvalisust
-- [MIN 201](https://planb.network/courses/min201) õpetab rohkem kaevandamise kohta
-- ja palju muud...
+Bitcoini plaani seadistamiseks:
+
+https://planb.network/courses/btc102
+
+Lightning Networki avastamiseks, teise kihi maksevõrgu kohta:
+
+https://planb.network/courses/lnp201
+
+Austria majanduse käsitlemiseks:
+
+https://planb.network/courses/eco201
+
+Teie digitaalset turvalisust värskendamiseks:
+
+https://planb.network/courses/scu101
+
+Et rohkem teada saada kaevandamise kohta:
+
+https://planb.network/courses/min201
+
+ja palju muud...
+
 
 ## Hinnake kursust
 

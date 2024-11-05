@@ -1289,12 +1289,28 @@ Bitcoin kan ikke lenger stoppes og kan ikke lenger sensureres. Det er en fredeli
 
 Gratulerer med å ha fullført dette BTC 101-kurset! Jeg håper inderlig at du likte det og at det åpnet dører for deg. Din oppdagelse av bitcoin er bare begynnelsen, og jeg inviterer deg til å utforske alle de andre kursene som er tilgjengelige ved universitetet.
 
-- [BTC 102](https://planb.network/courses/btc101) vil hjelpe deg med å sette opp din bitcoin-plan
-- [LNP 201](https://planb.network/courses/lnp201) vil la deg oppdage Lightning Network, et andre-lags betalingsnettverk
-- [ECO 201](https://planb.network/courses/eco201) vil dekke østerriksk økonomi
-- [SCU 101](https://planb.network/courses/scu101) vil la deg oppdatere din digitale sikkerhet
-- [MIN 201](https://planb.network/courses/min201) for å lære mer om mining
-- og mange flere...
+For å sette opp din Bitcoin-plan:
+
+https://planb.network/courses/btc102
+
+For å oppdage Lightning Network, et betalingsnettverk i andre lag:
+
+https://planb.network/courses/lnp201
+
+For å utforske østerriksk økonomi:
+
+https://planb.network/courses/eco201
+
+For å oppdatere din digitale sikkerhet:
+
+https://planb.network/courses/scu101
+
+For å lære mer om mining:
+
+https://planb.network/courses/min201
+
+og mye mer...
+
 
 ## Støtt oss
 

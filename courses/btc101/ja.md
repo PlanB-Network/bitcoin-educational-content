@@ -1278,13 +1278,28 @@ AIを例にしてみましょう。これらの技術は、ビデオゲーム、
 
 BTC101コースの修了おめでとうございます！あなたがこのコースを楽しみ、あなた自身の新しい扉を開いたであろうことを心から願っています。ビットコインについてのあなたの旅はまだ始まったばかりです。
 
-- [BTC 102](https://planb.network/courses/btc102) では、ビットコイン計画を立てるのに役立ちます。
-- [LNP 201](https://planb.network/courses/lnp201) レイヤー2の支払いネットワークであるライトニング・ネットワークを発見することができます。
-- [ECO 201](https://planb.network/courses/eco201) では、オーストリア学派の経済学をカバーします。
-- [SCU 101](https://planb.network/courses/scu101) では、デジタル・セキュリティを更新することができます。
-- [MIN 201](https://planb.network/courses/min201) では、マイニングについて詳しく学ぶことができます。
-- 
-- その他多くのコースがあります...
+ビットコイン計画を設定するために:
+
+https://planb.network/courses/btc102
+
+セカンドレイヤーの支払いネットワークであるLightning Networkについて学ぶために:
+
+https://planb.network/courses/lnp201
+
+オーストリア経済学を学ぶために:
+
+https://planb.network/courses/eco201
+
+デジタルセキュリティを更新するために:
+
+https://planb.network/courses/scu101
+
+マイニングについて詳しく知るために:
+
+https://planb.network/courses/min201
+
+そして他にもたくさん...
+
 
 
 ## コースを評価してください

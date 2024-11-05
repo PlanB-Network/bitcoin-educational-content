@@ -1293,14 +1293,30 @@ Změna finančního systému vyžaduje změnu měny. Satoshi vytvořil Bitcoin v
 
 ### Jděte dál
 
-Gratulujeme k dokončení tohoto kurzu BTC 101! Doufám, že se vám líbil a otevřel vám nové dveře. Vaše objevování bitcoinu teprve začíná a zvu vás, abyste prozkoumali všechny ostatní kurzy dostupné na univerzitě.
+Gratulujeme k dokončení tohoto kurzu BTC 101! Doufám, že se vám líbil a otevřel vám nové dveře. Vaše objevování bitcoinu teprve začíná a zvu vás, abyste prozkoumali všechny ostatní kurzy dostupné na PlanB Network.
 
-- [BTC 102](https://planb.network/courses/btc102) vám pomůže nastavit váš bitcoinový plán
-- [LNP 201](https://planb.network/courses/lnp201) vám umožní objevit Lightning Network, druhovrstvou platební síť
-- [ECO 201](https://planb.network/courses/eco201) pokryje rakouskou ekonomii
-- [SCU 101](https://planb.network/courses/scu101) vám umožní aktualizovat vaši digitální bezpečnost
-- [MIN 201](https://planb.network/courses/min201) pro více informací o těžbě
-- a mnoho dalších...
+Pro nastavení vašeho Bitcoin plánu:
+
+https://planb.network/courses/btc102
+
+Pro objevování Lightning Network, platební sítě druhé vrstvy:
+
+https://planb.network/courses/lnp201
+
+Pro seznámení s rakouskou ekonomikou:
+
+https://planb.network/courses/eco201
+
+Pro aktualizaci vaší digitální bezpečnosti:
+
+https://planb.network/courses/scu101
+
+Pro více informací o těžbě:
+
+https://planb.network/courses/min201
+
+a mnoho dalšího...
+
 
 ## Ohodnoťte kurz
 

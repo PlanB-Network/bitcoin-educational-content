@@ -1288,12 +1288,28 @@ Mudar o sistema financeiro requer mudar a moeda. Satoshi criou o Bitcoin em 2008
 
 Parabéns por concluir este curso BTC 101! Espero sinceramente que você tenha gostado e que tenha aberto portas para você. Sua descoberta do bitcoin está apenas começando e convido você a explorar todos os outros cursos disponíveis na universidade.
 
-- [BTC 102](https://planb.network/courses/btc102) irá ajudá-lo a criar seu plano bitcoin
-- [LNP 201](https://planb.network/courses/lnp201) permitirá que você descubra a Lightning Network, uma rede de pagamento de segunda camada
-- [ECO 201](https://planb.network/courses/eco201) abordará a economia austríaca
-- [SCU 101](https://planb.network/courses/scu101) permitirá que você atualize sua segurança digital
-- [MIN 201](https://planb.network/courses/min201) para saber mais sobre mineração
-- e muitos outros...
+Para configurar seu plano de Bitcoin:
+
+https://planb.network/courses/btc102
+
+Para descobrir a Lightning Network, uma rede de pagamentos de segunda camada:
+
+https://planb.network/courses/lnp201
+
+Para explorar a economia austríaca:
+
+https://planb.network/courses/eco201
+
+Para atualizar sua segurança digital:
+
+https://planb.network/courses/scu101
+
+Para saber mais sobre mineração:
+
+https://planb.network/courses/min201
+
+e muito mais...
+
 
 
 ## Avalie o curso

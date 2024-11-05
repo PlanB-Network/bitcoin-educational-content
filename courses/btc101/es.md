@@ -1340,12 +1340,28 @@ Cambiar el sistema financiero requiere cambiar la moneda. Satoshi Nakamoto creó
 
 ¡Felicitaciones por completar este curso BTC 101! Esperamos de todo corazón que te haya gustado y te haya abierto puertas. Tu descubrimiento de Bitcoin apenas está comenzando y te invitamos a explorar todos los demás cursos disponibles en la universidad.
 
-- [BTC 102](https://planb.network/courses/btc102) te ayudará a establecer tu plan de Bitcoin
-- [LNP 201](https://planb.network/courses/lnp201) te permitirá descubrir la Lightning Network, una red de pagos de segunda capa.
-- [ECO 201](https://planb.network/courses/eco201) abordará la economía austriaca
-- [SCU 101 ](https://planb.network/courses/scu101) te permitirá actualizar tu seguridad digital
-- [MIN 201](https://planb.network/courses/min201) para aprender más sobre la minería
-- y muchos más...
+Para configurar su plan de Bitcoin:
+
+https://planb.network/courses/btc102
+
+Para descubrir la Lightning Network, una red de pagos de segunda capa:
+
+https://planb.network/courses/lnp201
+
+Para explorar la economía austríaca:
+
+https://planb.network/courses/eco201
+
+Para actualizar su seguridad digital:
+
+https://planb.network/courses/scu101
+
+Para saber más sobre la minería:
+
+https://planb.network/courses/min201
+
+y mucho más...
+
 
 ## Danos tu opinión sobre este curso
 

@@ -521,11 +521,27 @@ La oss prøve å etablere flere nivåer av sikkerhet for dine bitcoins:
 
 - **Nivå 1**, du bruker en Bitcoin-lommebok på telefonen eller datamaskinen din hvor du er den eneste innehaveren av dine bitcoins. Du kan enkelt utføre transaksjonene dine. Det er imidlertid avgjørende å sikkerhetskopiere den mnemoniske frasen for å gjenopprette tilgangen til dine midler i tilfelle tap av telefonen eller datamaskinen. Det refereres ofte til som en "hot wallet" fordi den private nøkkelen lagres på en enhet med internett-tilgang.
 
+For eksempel kan du bruke Sparrow Wallet som en varm lommebok:
+
+https://planb.network/tutorials/wallet/sparrow
+
 - **Nivå 2**, du bruker en fysisk lommebok, og du har sikret din liste med 12 eller 24 ord. For å utføre en transaksjon, vil du alltid trenge å signere med enheten din. Dette gjør dine midler mindre tilgjengelige på daglig basis. Det refereres ofte til som en "Cold Wallet" fordi nøklene dine lagres på en enhet som ikke er koblet til internett.
+
+For eksempel kan du bruke en Ledger, en Satochip eller en Tapsigner:
+
+https://planb.network/tutorials/wallet/ledger-nano-s-plus
+
+https://planb.network/tutorials/wallet/satochip
+
+https://planb.network/tutorials/wallet/tapsigner
 
 ![bilde](assets/en/chapter6/4.webp)
 
 - **Nivå 3**, du bruker en lommebok på nivå 1 eller 2, men med en ekstra passfrase. Vær oppmerksom på at du nå trenger å sikkerhetskopiere både listen med 12 eller 24 ord **og** din passfrase. Ideelt sett er disse to informasjonsbitene lagret på to forskjellige steder.
+
+For å lære mer om bruk og funksjon av BIP39-passfrasen:
+
+https://planb.network/tutorials/wallet/passphrase
 
 ![bilde](assets/en/chapter6/5.webp)
 

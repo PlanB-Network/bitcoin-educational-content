@@ -546,11 +546,27 @@ Intentemos establecer varios niveles de seguridad para tus bitcoins:
 
 - **Nivel 1**, estás utilizando una billetera de Bitcoin en tu teléfono o computadora en la que eres el único propietario de tus bitcoins. Puedes realizar tus transacciones con facilidad. Ten en cuenta que es crucial hacer una copia de seguridad de la frase mnemotécnica para poder acceder a tus fondos nuevamente en caso de pérdida de tu teléfono o computadora. A menudo se habla de "hot wallet (billetera caliente)" porque la clave privada se almacena en un dispositivo con acceso a internet.
 
+Por ejemplo, puede usar Sparrow Wallet como billetera caliente:
+
+https://planb.network/tutorials/wallet/sparrow
+
 - **Nivel 2**, estás utilizando una billetera física y has asegurado tu lista de 12 o 24 palabras. Para poder realizar una transacción, siempre deberás firmar con tu dispositivo. Esto hace que tus fondos sean menos accesibles en el día a día. A menudo se habla de "cold wallet (billetera fría)" porque tus claves se almacenan en un dispositivo que no está conectado a internet.
+
+Por ejemplo, podría usar un Ledger, un Satochip o un Tapsigner:
+
+https://planb.network/tutorials/wallet/ledger-nano-s-plus
+
+https://planb.network/tutorials/wallet/satochip
+
+https://planb.network/tutorials/wallet/tapsigner
 
 ![image](assets/es/chapter6/4.webp)
 
 - **Nivel 3**, estás utilizando una billetera de nivel 1 o 2 pero con una frase de contraseña adicional. Ten en cuenta que ahora debes hacer una copia de seguridad de la lista de 12 o 24 palabras **y** de tu frase de contraseña. Idealmente, esta información se almacena en dos lugares diferentes.
+
+Para saber más sobre el uso y funcionamiento de la frase de contraseña BIP39:
+
+https://planb.network/tutorials/wallet/passphrase
 
 ![image](assets/es/chapter6/5.webp)
 

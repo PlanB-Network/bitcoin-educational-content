@@ -509,11 +509,27 @@ Hãy cố gắng thiết lập một số cấp độ bảo mật cho Bitcoin c�
 
 - **Cấp độ 1**, bạn sử dụng ví Bitcoin trên điện thoại hoặc máy tính của mình, nơi bạn là người duy nhất sở hữu bitcoin của mình. Bạn có thể dễ dàng thực hiện các giao dịch của mình. Tuy nhiên, việc sao lưu cụm từ ghi nhớ để lấy lại quyền truy cập vào quỹ của bạn trong trường hợp mất điện thoại hoặc máy tính là rất quan trọng. Nó thường được gọi là "ví nóng" vì khóa riêng tư được lưu trữ trên thiết bị có kết nối internet.
 
+Ví dụ, bạn có thể sử dụng Sparrow Wallet làm ví nóng:
+
+https://planb.network/tutorials/wallet/sparrow
+
 - **Cấp độ 2**, bạn sử dụng một ví vật lý và bạn đã bảo mật danh sách 12 hoặc 24 từ của mình. Để thực hiện một giao dịch, bạn luôn cần phải ký bằng thiết bị của mình. Điều này làm cho quỹ của bạn ít dễ truy cập hàng ngày. Nó thường được gọi là "Ví Lạnh" vì khóa của bạn được lưu trữ trên thiết bị không kết nối với internet.
+
+Ví dụ, bạn có thể sử dụng Ledger, Satochip hoặc Tapsigner:
+
+https://planb.network/tutorials/wallet/ledger-nano-s-plus
+
+https://planb.network/tutorials/wallet/satochip
+
+https://planb.network/tutorials/wallet/tapsigner
 
 ![image](assets/en/chapter6/4.webp)
 
 - **Cấp độ 3**, bạn sử dụng ví cấp độ 1 hoặc 2 nhưng với một cụm từ bổ sung. Hãy nhớ rằng bạn giờ đây cần phải sao lưu cả danh sách 12 hoặc 24 từ **và** cụm từ bổ sung của bạn. Lý tưởng nhất, hai thông tin này được lưu trữ ở hai nơi khác nhau.
+
+Để tìm hiểu thêm về cách sử dụng và chức năng của cụm mật khẩu BIP39:
+
+https://planb.network/tutorials/wallet/passphrase
 
 ![image](assets/en/chapter6/5.webp)
 

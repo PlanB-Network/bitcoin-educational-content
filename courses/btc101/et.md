@@ -524,11 +524,27 @@ Proovime määratleda mitu turvataset teie bitcoinidele:
 
 - **Tase 1**, kasutate Bitcoini rahakotti oma telefonis või arvutis, kus te olete oma bitcoinide ainuomanik. Saate hõlpsalt teostada oma tehinguid. Siiski on oluline varundada mnemooniline fraas, et taastada juurdepääs oma vahenditele telefoni või arvuti kaotuse korral. Seda nimetatakse sageli "kuumaks rahakotiks", kuna privaatvõti on salvestatud seadmesse, millel on internetiühendus.
 
+Näiteks saate kasutada Sparrow Walleti kuumana rahakotina:
+
+https://planb.network/tutorials/wallet/sparrow
+
 - **Tase 2**, kasutate füüsilist rahakotti ja olete turvanud oma 12 või 24 sõna nimekirja. Tehingu sooritamiseks peate alati allkirjastama oma seadmega. See muudab teie vahendid igapäevaselt vähem kättesaadavaks. Seda nimetatakse sageli "külmaks rahakotiks", kuna teie võtmed on salvestatud seadmesse, mis ei ole ühendatud internetiga.
+
+Näiteks võiksite kasutada Ledgerit, Satochipi või Tapsignerit:
+
+https://planb.network/tutorials/wallet/ledger-nano-s-plus
+
+https://planb.network/tutorials/wallet/satochip
+
+https://planb.network/tutorials/wallet/tapsigner
 
 ![image](assets/en/chapter6/4.webp)
 
 - **Tase 3**, kasutate tase 1 või 2 rahakotti, kuid lisaks veel paroolilauset. Olge teadlikud, et nüüd on vaja varundada nii 12 või 24 sõna nimekiri **kui ka** teie paroolilause. Ideaalis hoitakse neid kahte teavet erinevates kohtades.
+
+Lisateabe saamiseks BIP39 paroolifraasi kasutamise ja toimimise kohta:
+
+https://planb.network/tutorials/wallet/passphrase
 
 ![image](assets/en/chapter6/5.webp)
 

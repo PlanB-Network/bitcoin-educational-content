@@ -503,11 +503,27 @@ https://planb.network/courses/cyp201
 
 - **レベル1**:スマートフォンやコンピュータ上のビットコイン・ウォレットを使用し、ビットコインの唯一の保有者となります。それは簡単にトランザクションを行うことができます。ただし、スマートフォンやコンピュータの紛失の場合に備えて、資金へのアクセスを復元するためにニーモニック・フレーズをバックアップすることが重要です。これはインターネットに接続されたデバイスに秘密鍵が保存されているため、「ホット・ウォレット」と呼ばれることが多いです。
 
+例えば、Sparrow Walletをホットウォレットとして使用できます：
+
+https://planb.network/tutorials/wallet/sparrow
+
 - **レベル2**:物理的なウォレットを使用し、12または24の単語のリストを保護します。トランザクションを行うためには常にデバイスで署名する必要があります。これにより、日常的に資金にアクセスすることが難しくなります。これはインターネットに接続されていないデバイスに秘密鍵が保存されているため、「コールド・ウォレット」と呼ばれることが多いです。
+
+例えば、Ledger、Satochip、またはTapsignerを使用できます：
+
+https://planb.network/tutorials/wallet/ledger-nano-s-plus
+
+https://planb.network/tutorials/wallet/satochip
+
+https://planb.network/tutorials/wallet/tapsigner
 
 ![画像](assets/Concept/chapitre6/4.webp)
 
 - **レベル3**:レベル1または2のウォレットを使用しますが、追加のパスフレーズが必要です。これにより、12または24の単語のリストとパスフレーズの両方をバックアップする必要があります。理想的には、これらの情報を2つの異なる場所に保管します。
+
+BIP39パスフレーズの使用方法と機能について詳しく知るために：
+
+https://planb.network/tutorials/wallet/passphrase
 
 ![画像](assets/Concept/chapitre6/5.webp)
 

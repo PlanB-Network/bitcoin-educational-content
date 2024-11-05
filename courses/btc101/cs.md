@@ -524,11 +524,29 @@ Pokusme se stanovit několik úrovní zabezpečení pro vaše bitcoiny:
 
 - **Úroveň 1**, používáte Bitcoin peněženku ve vašem telefonu nebo počítači, kde jste jediným držitelem vašich bitcoinů. Můžete snadno provádět vaše transakce. Je však zásadní zálohovat mnemonickou frázi, abyste znovu získali přístup k vašim prostředkům v případě ztráty telefonu nebo počítače. Často se tomu říká "hot wallet", protože soukromý klíč je uložen na zařízení s přístupem k internetu.
 
+Například můžete jako horkou peněženku použít Sparrow Wallet:
+
+https://planb.network/tutorials/wallet/sparrow
+
 - **Úroveň 2**, používáte fyzickou peněženku a máte zabezpečený váš seznam 12 nebo 24 slov. Pro provedení transakce budete vždy potřebovat podepsat vaším zařízením. To činí vaše prostředky méně přístupnými na denní bázi. Často se tomu říká "Cold Wallet", protože vaše klíče jsou uloženy na zařízení, které není připojeno k internetu.
+
+Například byste mohli použít Ledger, Satochip nebo Tapsigner:
+
+https://planb.network/tutorials/wallet/ledger-nano-s-plus
+
+https://planb.network/tutorials/wallet/satochip
+
+https://planb.network/tutorials/wallet/tapsigner
+
 
 ![obrázek](assets/en/chapter6/4.webp)
 
 - **Úroveň 3**, používáte peněženku úrovně 1 nebo 2, ale s dodatečnou heslovou frází. Buďte si vědomi, že nyní potřebujete zálohovat jak seznam 12 nebo 24 slov, **tak** vaši heslovou frázi. Ideálně jsou tyto dvě informace uloženy na dvou různých místech.
+
+Pro více informací o použití a fungování přístupové fráze BIP39:
+
+https://planb.network/tutorials/wallet/passphrase
+
 
 ![obrázek](assets/en/chapter6/5.webp)
 

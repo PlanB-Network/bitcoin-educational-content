@@ -525,11 +525,27 @@ Proviamo qui a stabilire diversi livelli di sicurezza per i tuoi bitcoin:
 
 - **Livello 1**, stai utilizzando un portafoglio Bitcoin sul tuo telefono o sul tuo computer con il quale sei l'unico detentore dei tuoi bitcoin. Puoi effettuare le tue transazioni con facilità. Attenzione, è fondamentale fare un backup della frase mnemonica per poter accedere nuovamente ai tuoi fondi in caso di perdita del tuo telefono o computer. Spesso si parla di "hot wallet" perché la chiave privata è memorizzata in un dispositivo con accesso a Internet.
 
+Ad esempio, puoi utilizzare Sparrow Wallet come portafoglio caldo:
+
+https://planb.network/tutorials/wallet/sparrow
+
 - **Livello 2**, stai utilizzando un portafoglio fisico e hai protetto la tua lista di 12 o 24 parole. Per poter effettuare una transazione, dovrai sempre firmare con il tuo dispositivo. Ciò rende i tuoi fondi meno accessibili nella vita quotidiana. Spesso si parla di "Cold Wallet" perché le tue chiavi sono memorizzate su un dispositivo non connesso a Internet.
+
+Ad esempio, potresti usare un Ledger, un Satochip o un Tapsigner:
+
+https://planb.network/tutorials/wallet/ledger-nano-s-plus
+
+https://planb.network/tutorials/wallet/satochip
+
+https://planb.network/tutorials/wallet/tapsigner
 
 ![image](assets/it/chapter6/4.webp)
 
 - **Livello 3**, stai utilizzando un portafoglio di livello 1 o 2 ma con una passphrase aggiuntiva. Attenzione, ora devi fare un backup della lista di 12 o 24 parole **e** della tua passphrase. Idealmente queste 2 informazioni vanno memorizzate in due luoghi diversi.
+
+Per saperne di più sull'uso e il funzionamento della passphrase BIP39:
+
+https://planb.network/tutorials/wallet/passphrase
 
 ![image](assets/it/chapter6/5.webp)
 

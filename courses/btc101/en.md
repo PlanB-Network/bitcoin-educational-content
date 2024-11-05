@@ -534,11 +534,27 @@ Let's try to establish several levels of security for your bitcoins:
 
 - **Level 1**, you use a Bitcoin wallet on your phone or computer where you are the sole holder of your bitcoins. You can easily carry out your transactions. However, it is crucial to backup the mnemonic phrase to regain access to your funds in case of loss of your phone or computer. It is often referred to as a "hot wallet" because the private key is stored on a device with internet access.
 
+For example, you can use Sparrow Wallet as a hot wallet:
+
+https://planb.network/tutorials/wallet/sparrow
+
 - **Level 2**, you use a physical wallet, and you have secured your list of 12 or 24 words. To perform a transaction, you will always need to sign with your device. This makes your funds less accessible on a daily basis. It is often referred to as a "Cold Wallet" because your keys are stored on a device that is not connected to the internet.
+
+For example, you could use a Ledger, a Satochip, or a Tapsigner:
+
+https://planb.network/tutorials/wallet/ledger-nano-s-plus
+
+https://planb.network/tutorials/wallet/satochip
+
+https://planb.network/tutorials/wallet/tapsigner
 
 ![image](assets/en/chapter6/4.webp)
 
 - **Level 3**, you use a level 1 or 2 wallet but with an additional passphrase. Be aware that you now need to backup both the list of 12 or 24 words **and** your passphrase. Ideally, these two pieces of information are stored in two different places.
+
+To learn more about the use and functioning of the BIP39 passphrase:
+
+https://planb.network/tutorials/wallet/passphrase
 
 ![image](assets/en/chapter6/5.webp)
 

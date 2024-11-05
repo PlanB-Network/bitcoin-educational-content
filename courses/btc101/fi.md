@@ -523,11 +523,27 @@ Yritetään määrittää useita turvallisuustasoja bitcoineillesi:
 
 - **Taso 1**, käytät Bitcoin-lompakkoa puhelimessasi tai tietokoneellasi, jossa olet bitcoineidesi ainoa haltija. Voit helposti suorittaa transaktiosi. On kuitenkin ratkaisevan tärkeää varmuuskopioida muistilauseesi, jotta voit palauttaa pääsyn varoihisi, jos menetät puhelimesi tai tietokoneesi. Tätä kutsutaan usein "kuumaksi lompakoksi", koska yksityinen avain säilytetään laitteessa, jolla on internetyhteys.
 
+Esimerkiksi voit käyttää Sparrow Walletia kuumana lompakkona:
+
+https://planb.network/tutorials/wallet/sparrow
+
 - **Taso 2**, käytät fyysistä lompakkoa, ja olet turvannut 12 tai 24 sanan listasi. Transaktion suorittamiseksi sinun on aina allekirjoitettava laitteellasi. Tämä tekee varoistasi vähemmän saavutettavia päivittäisessä käytössä. Tätä kutsutaan usein "kylmäksi lompakoksi", koska avaimet säilytetään laitteessa, joka ei ole yhteydessä internetiin.
+
+Esimerkiksi voit käyttää Ledgeriä, Satochipiä tai Tapsigneria:
+
+https://planb.network/tutorials/wallet/ledger-nano-s-plus
+
+https://planb.network/tutorials/wallet/satochip
+
+https://planb.network/tutorials/wallet/tapsigner
 
 ![kuva](assets/en/chapter6/4.webp)
 
 - **Taso 3**, käytät tason 1 tai 2 lompakkoa, mutta lisäsalasanalla. Ole tietoinen siitä, että sinun on nyt varmuuskopioitava sekä 12 tai 24 sanan lista **että** salasanasi. Ihanteellisesti nämä kaksi tietoa säilytetään kahdessa eri paikassa.
+
+Lisätietoja BIP39-salasanan käytöstä ja toiminnasta:
+
+https://planb.network/tutorials/wallet/passphrase
 
 ![kuva](assets/en/chapter6/5.webp)
 

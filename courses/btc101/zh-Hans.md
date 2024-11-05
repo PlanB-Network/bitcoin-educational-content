@@ -518,11 +518,27 @@ https://planb.network/courses/cyp201
 
 - **第1级**，您在手机或电脑上使用比特币钱包，您是比特币的唯一持有者。您可以容易地进行交易。然而，备份助记词至关重要，使得您能够在手机或电脑丢失的情况下仍然利用您的资金。这通常被称为“热钱包”，因为私钥被存储于具有互联网接入的设备。
 
+例如，您可以使用 Sparrow Wallet 作为热钱包：
+
+https://planb.network/tutorials/wallet/sparrow
+
 - **第2级**，您使用物理钱包，并且您已保护您的12个或24个单词的列表。如果您想要进行交易，您将始终需要使用您的设备进行签名。这使得您在日常生活中很少使用这个钱包。这通常被称为“冷钱包”，因为您的密钥被存储在未连接到互联网的设备。
+
+例如，您可以使用 Ledger、Satochip 或 Tapsigner：
+
+https://planb.network/tutorials/wallet/ledger-nano-s-plus
+
+https://planb.network/tutorials/wallet/satochip
+
+https://planb.network/tutorials/wallet/tapsigner
 
 ![image](assets/en/chapter6/4.webp)
 
 - **第3级**，您使用第1级或第2级的钱包，但您添加了一个额外的密码短语。请注意，您现在需要备份12个或24个单词的列表**和**您的密码短语。最佳做法是将这两部分的信息存储在两个不同的地方。
+
+要了解更多关于 BIP39 密码短语的使用和功能：
+
+https://planb.network/tutorials/wallet/passphrase
 
 ![image](assets/en/chapter6/5.webp)
 

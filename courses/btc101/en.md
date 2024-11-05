@@ -617,6 +617,10 @@ Once the copies are made, store the word lists in a safe place where you will re
 
 ![Alt text](assets/posters/en/10._set_up_your_wallet.webp)
 
+If you then wish to discover, step by step, how to set up your own wallet and get your first bitcoins, I also recommend taking this other course:
+
+https://planb.network/courses/btc102
+
 ## Standing the test of time
 
 <chapterId>f58cd446-c202-5eff-aab7-e61cc40e5c06</chapterId>

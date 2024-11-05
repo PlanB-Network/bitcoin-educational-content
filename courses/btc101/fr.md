@@ -643,6 +643,11 @@ Les portefeuilles "froids" ont tous généralement ces listes de mots, tout comm
 
 ![Alt text](assets/posters/fr/10_mise_en_place_du_portefeuille_crop.webp)
 
+Si vous souhaitez ensuite découvrir, étape par étape, comment mettre en place votre propre portefeuille et obtenir vos premiers bitcoins, je vous recommande de suivre également cette autre formation :
+
+https://planb.network/courses/btc102
+
+
 ## Passer l’épreuve du temps
 <chapterId>f58cd446-c202-5eff-aab7-e61cc40e5c06</chapterId>
 

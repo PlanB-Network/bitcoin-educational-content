@@ -589,6 +589,10 @@ Ví "lạnh" thường có những danh sách từ này, giống như ví "nóng
 
 ![Alt text](assets/posters/en/10._set_up_your_wallet.webp)
 
+Nếu bạn muốn tìm hiểu từng bước cách thiết lập ví của riêng mình và có được những bitcoin đầu tiên, tôi cũng khuyên bạn nên tham gia khóa học này:
+
+https://planb.network/courses/btc102
+
 ## Đứng vững trước thử thách của thời gian
 <chapterId>f58cd446-c202-5eff-aab7-e61cc40e5c06</chapterId>
 

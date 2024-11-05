@@ -595,6 +595,10 @@ Kaltbrieftaschen haben in der Regel diese Wortlisten, genauso wie heiße Briefta
 
 **ACHTUNG: Das Fehlen einer Liste mit 24 Wörtern sollte Sie alarmieren.**
 
+Wenn Sie anschließend Schritt für Schritt entdecken möchten, wie Sie Ihre eigene Wallet einrichten und Ihre ersten Bitcoins erhalten, empfehle ich Ihnen, ebenfalls diesen Kurs zu belegen:
+
+https://planb.network/courses/btc102
+
 ## Die Zeit überstehen
 
 <chapterId>f58cd446-c202-5eff-aab7-e61cc40e5c06</chapterId>

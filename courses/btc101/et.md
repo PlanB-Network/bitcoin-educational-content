@@ -605,6 +605,10 @@ Kui koopiad on tehtud, hoidke sõnaloendeid turvalises kohas, kus te mäletate n
 
 ![Alt tekst](assets/posters/en/10._set_up_your_wallet.webp)
 
+Kui soovite seejärel samm-sammult avastada, kuidas oma rahakott seadistada ja oma esimesed bitcoinid saada, soovitan teil läbida ka see teine kursus:
+
+https://planb.network/courses/btc102
+
 ## Ajaproovile vastu pidamine
 
 <chapterId>f58cd446-c202-5eff-aab7-e61cc40e5c06</chapterId>

@@ -604,6 +604,10 @@ As carteiras "frias" geralmente têm essas listas de palavras, assim como as car
 
 **ATENÇÃO: A ausência de uma lista de 24 palavras deve te alertar.**
 
+Se você quiser depois descobrir, passo a passo, como configurar sua própria carteira e obter seus primeiros bitcoins, recomendo também este outro curso:
+
+https://planb.network/courses/btc102
+
 ## Passar no teste do tempo
 
 <chapterId>f58cd446-c202-5eff-aab7-e61cc40e5c06</chapterId>

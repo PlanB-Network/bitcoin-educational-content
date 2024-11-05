@@ -627,6 +627,10 @@ Las billeteras "frías" generalmente tienen estas listas de palabras, al igual q
 
 ![Alt text](assets/posters/es/10_configurar_tu_monedero.webp)
 
+Si desea luego descubrir, paso a paso, cómo configurar su propia billetera y obtener sus primeros bitcoins, le recomiendo también seguir este otro curso:
+
+https://planb.network/courses/btc102
+
 ## Pasar la prueba del tiempo
 
 <chapterId>f58cd446-c202-5eff-aab7-e61cc40e5c06</chapterId>

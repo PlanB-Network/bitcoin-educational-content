@@ -598,6 +598,10 @@ I portafogli "cold" di solito hanno queste liste di parole, così come i portafo
 
 **ATTENZIONE: L'assenza di una lista di 24 parole dovrebbe metterti in allarme.**
 
+Se poi desideri scoprire, passo dopo passo, come impostare il tuo portafoglio e ottenere i tuoi primi bitcoin, ti consiglio anche di seguire quest'altro corso:
+
+https://planb.network/courses/btc102
+
 ## Superare la prova del tempo
 
 <chapterId>f58cd446-c202-5eff-aab7-e61cc40e5c06</chapterId>

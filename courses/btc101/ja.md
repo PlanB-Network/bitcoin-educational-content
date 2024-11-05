@@ -579,6 +579,10 @@ https://planb.network/tutorials/wallet/passphrase
 
 **注意:24語のリストがない場合は警戒すべきです。**
 
+次に、自分のウォレットを設定して最初のビットコインを手に入れる方法を段階的に学びたい場合は、こちらの別のコースもお勧めします：
+
+https://planb.network/courses/btc102
+
 ## 時間の試練に耐える
 <chapterId>f58cd446-c202-5eff-aab7-e61cc40e5c06</chapterId>
 

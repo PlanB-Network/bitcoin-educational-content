@@ -606,6 +606,10 @@ Jakmile jsou kopie vyrobeny, uložte seznamy slov na bezpečné místo, kde si b
 
 ![Alt text](assets/posters/en/10._set_up_your_wallet.webp)
 
+Pokud byste chtěli následně krok za krokem objevit, jak si založit vlastní peněženku a získat své první bitcoiny, doporučuji vám také absolvovat tento další kurz:
+
+https://planb.network/courses/btc102
+
 ## Odolnost vůči zkoušce času
 
 <chapterId>f58cd446-c202-5eff-aab7-e61cc40e5c06</chapterId>

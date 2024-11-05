@@ -603,6 +603,11 @@ Kun kopiot on tehty, säilytä sanalistat turvallisessa paikassa, josta muistat 
 
 ![Alt-teksti](assets/posters/en/10._set_up_your_wallet.webp)
 
+Jos haluat sen jälkeen vaihe vaiheelta oppia, kuinka perustaa oma lompakkosi ja hankkia ensimmäiset bitcoinisi, suosittelen myös tätä toista kurssia:
+
+https://planb.network/courses/btc102
+
+
 ## Kestää aikaa
 
 <chapterId>f58cd446-c202-5eff-aab7-e61cc40e5c06</chapterId>

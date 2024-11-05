@@ -608,6 +608,10 @@ https://planb.network/tutorials/wallet/passphrase
 
 ![Alt text](assets/posters/en/10._set_up_your_wallet.webp)
 
+Если вы хотите затем шаг за шагом узнать, как создать свой собственный кошелек и получить свои первые биткойны, рекомендую также пройти этот курс:
+
+https://planb.network/courses/btc102
+
 ## Выдерживая испытание временем
 
 <chapterId>f58cd446-c202-5eff-aab7-e61cc40e5c06</chapterId>

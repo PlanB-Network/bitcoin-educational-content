@@ -599,6 +599,10 @@ https://planb.network/tutorials/wallet/passphrase
 
 ![Alt text](assets/posters/en/10._set_up_your_wallet.webp)
 
+如果您接下来希望逐步了解如何设置自己的钱包并获得第一批比特币，我还推荐您参加此课程：
+
+https://planb.network/courses/btc102
+
 ## 经受时间的考验
 
 <chapterId>f58cd446-c202-5eff-aab7-e61cc40e5c06</chapterId>

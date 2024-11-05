@@ -602,6 +602,11 @@ Setelah salinan dibuat, simpan daftar kata-kata di tempat yang aman dan pasti bi
 
 ![Teks Alternatif](assets/posters/en/10._set_up_your_wallet.webp)
 
+Jika Anda kemudian ingin mempelajari, langkah demi langkah, cara membuat dompet Anda sendiri dan mendapatkan bitcoin pertama Anda, saya juga merekomendasikan mengikuti kursus ini:
+
+https://planb.network/courses/btc102
+
+
 ## Bertahan terhadap ujian waktu
 
 <chapterId>f58cd446-c202-5eff-aab7-e61cc40e5c06</chapterId>

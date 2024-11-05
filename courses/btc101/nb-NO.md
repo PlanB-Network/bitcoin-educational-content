@@ -601,6 +601,10 @@ Når kopiene er laget, oppbevar ordlistene på et trygt sted hvor du vil huske �
 
 ![Alt-tekst](assets/posters/en/10._set_up_your_wallet.webp)
 
+Hvis du deretter ønsker å lære steg for steg hvordan du setter opp din egen lommebok og får dine første bitcoins, anbefaler jeg også dette andre kurset:
+
+https://planb.network/courses/btc102
+
 ## Består tidens prøve
 
 <chapterId>f58cd446-c202-5eff-aab7-e61cc40e5c06</chapterId>

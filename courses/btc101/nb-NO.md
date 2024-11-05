@@ -330,6 +330,11 @@ Som konklusjon har hyperinflasjon effekten av raskt å degradere valutaens verdi
 
 ![Alt-tekst](assets/posters/en/5._hyperinflation.webp)
 
+For å fordype deg i temaet hyperinflasjon, anbefaler jeg David St-Onges kurs ECO 204. Her lærer du hva hyperinflasjonssykluser er og hvilke reelle konsekvenser de har for våre liv. Du vil også oppdage likhetene mellom disse syklusene og, viktigst av alt, hvordan du kan beskytte deg mot dem:
+
+[ECO 204 - Hyperinflasjoner](https://planb.network/courses/eco204)
+
+
 ## 21 millioner bitcoins
 
 <chapterId>f4a06d76-1963-56fd-93ff-dfa41489bcde</chapterId>

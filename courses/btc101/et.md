@@ -333,6 +333,11 @@ Kokkuvõttes on hüperinflatsioonil mõju valuuta väärtuse kiirele degradeerum
 
 ![Alt text](assets/posters/en/5._hyperinflation.webp)
 
+Teema süvendamiseks soovitan David St-Onge'i kursust ECO 204 hüperinflatsiooni kohta. Siit saate teada, mis on hüperinflatsioonilised tsüklid ja milline on nende reaalne mõju meie eludele. Samuti avastate nende tsüklite sarnasusi ja mis kõige tähtsam, kuidas end nende eest kaitsta:
+
+[ECO 204 - Hüperinflatsioonid](https://planb.network/courses/eco204)
+
+
 ## 21 miljonit bitcoini
 
 <chapterId>f4a06d76-1963-56fd-93ff-dfa41489bcde</chapterId>

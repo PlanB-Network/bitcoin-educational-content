@@ -353,6 +353,11 @@ Une monnaie qui repose sur un tiers de confiance comme une institution financiè
 
 ![Alt text](assets/posters/fr/5_hyperinflation_crop.webp)
 
+Pour approfondir le sujet des hyperinflations, je vous recommande la formation ECO 204 de David St-Onge. Vous y apprendrez ce que sont les cycles hyperinflationnistes et quels sont leurs impacts réels sur nos vies. Vous découvrirez également les similitudes entre ces cycles et, surtout, comment vous en protéger :
+
+[ECO 204 - Les Hyperinflations](https://planb.network/courses/eco204)
+
+
 ## 21 millions de bitcoins
 <chapterId>f4a06d76-1963-56fd-93ff-dfa41489bcde</chapterId>
 

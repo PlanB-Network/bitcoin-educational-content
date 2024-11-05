@@ -332,6 +332,11 @@ Yhteenvetona voidaan todeta, että hyperinflaatio johtaa nopeasti valuutan arvon
 
 ![Alt-teksti](assets/posters/en/5._hyperinflation.webp)
 
+Jos haluat syventyä hyperinflaatioihin, suosittelen David St-Ongen ECO 204 -kurssia. Kurssilla opit, mitä hyperinflaatiokierrot ovat ja miten ne vaikuttavat elämäämme. Löydät myös näiden kierrosten samankaltaisuudet ja ennen kaikkea, kuinka suojautua niiltä:
+
+[ECO 204 - Hyperinflaatiot](https://planb.network/courses/eco204)
+
+
 ## 21 miljoonaa bitcoinia
 
 <chapterId>f4a06d76-1963-56fd-93ff-dfa41489bcde</chapterId>

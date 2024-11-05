@@ -346,6 +346,11 @@ Una moneda que depende de un tercero de confianza, como una entidad financiera, 
 
 ![Alt text](assets/posters/es/5_las_hiperinflaciones.webp)
 
+Para profundizar en el tema de las hiperinflaciones, le recomiendo el curso ECO 204 de David St-Onge. Allí aprenderá qué son los ciclos hiperinflacionarios y cuáles son sus impactos reales en nuestras vidas. También descubrirá las similitudes entre estos ciclos y, sobre todo, cómo protegerse de ellos:
+
+[ECO 204 - Las Hiperinflaciones](https://planb.network/courses/eco204)
+
+
 ## 21 millones de Bitcoins
 
 <chapterId>f4a06d76-1963-56fd-93ff-dfa41489bcde</chapterId>

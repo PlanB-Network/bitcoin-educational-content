@@ -334,6 +334,10 @@ Em conclusão, a hiperinflação tem o efeito de corroer rapidamente o valor da 
 
 Une moeda que se base em uma instituição financeira de confiança de terceiros acaba sendo, na prática e a longo prazo, uma moeda defeituosa, pois é incapaz de garantir o poder de compra ou preservar as economias.
 
+Para se aprofundar no tema das hiperinflacões, recomendo o curso ECO 204 de David St-Onge. Nele você aprenderá o que são os ciclos hiperinflacionários e quais são seus reais impactos em nossas vidas. Você também descobrirá as semelhanças entre esses ciclos e, acima de tudo, como se proteger deles:
+
+[ECO 204 - As Hiperinflações](https://planb.network/courses/eco204)
+
 ## 21 milhões de bitcoins
 
 <chapterId>f4a06d76-1963-56fd-93ff-dfa41489bcde</chapterId>

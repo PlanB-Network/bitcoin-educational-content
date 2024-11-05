@@ -333,6 +333,11 @@ Závěrem, hyperinflace má za následek rychlé snižování hodnoty měny, co�
 
 ![Alt text](assets/posters/en/5._hyperinflation.webp)
 
+Pro hlubší porozumění tématu hyperinflací doporučuji kurz ECO 204 od Davida St-Onge. Zde se dozvíte, co jsou hyperinflační cykly a jaké jsou jejich skutečné dopady na naše životy. Objevíte také podobnosti mezi těmito cykly a hlavně to, jak se před nimi chránit:
+
+[ECO 204 - Hyperinflace](https://planb.network/courses/eco204)
+
+
 ## 21 milionů bitcoinů
 
 <chapterId>f4a06d76-1963-56fd-93ff-dfa41489bcde</chapterId>

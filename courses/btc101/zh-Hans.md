@@ -328,6 +328,11 @@ objectives:
 
 ![Alt text](assets/posters/en/5._hyperinflation.webp)
 
+如果您想更深入地了解恶性通货膨胀的主题，我推荐 David St-Onge 的 ECO 204 课程。在这里，您将学习什么是恶性通货膨胀周期以及它们对我们生活的实际影响。您还将发现这些周期之间的相似之处，最重要的是，如何保护自己免受其影响：
+
+[ECO 204 - 恶性通货膨胀](https://planb.network/courses/eco204)
+
+
 ## 2100万个比特币
 
 <chapterId>f4a06d76-1963-56fd-93ff-dfa41489bcde</chapterId>

@@ -341,6 +341,11 @@ In conclusion, hyperinflation has the effect of rapidly degrading the value of t
 
 ![Alt text](assets/posters/en/5._hyperinflation.webp)
 
+To delve deeper into the subject of hyperinflations, I recommend David St-Onge's ECO 204 course. You will learn what hyperinflationary cycles are and their real impacts on our lives. You will also discover the similarities between these cycles and, most importantly, how to protect yourself from them:
+
+[ECO 204 - Hyperinflations](https://planb.network/courses/eco204)
+
+
 ## 21 million bitcoins
 
 <chapterId>f4a06d76-1963-56fd-93ff-dfa41489bcde</chapterId>

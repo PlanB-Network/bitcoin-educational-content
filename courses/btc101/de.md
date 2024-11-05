@@ -330,6 +330,11 @@ Die Bewältigung einer Hyperinflationskrise erfordert oft radikale Veränderunge
 Zusammenfassend führt Hyperinflation dazu, dass der Wert der Währung schnell abnimmt, was zu einer Erosion der Ersparnisse und einem Vertrauensverlust in das Währungssystem führt. Wie Voltaire einst vorschlug, wird eine Fiatwährung immer ihren inneren Wert verlieren und gegen Null konvergieren.
 Eine Währung, die auf einem Vertrauensdritten wie einer Finanzinstitution beruht, erweist sich in der Praxis und langfristig als fehlerhafte Währung, da sie nicht in der Lage ist, die Kaufkraft zu garantieren oder Ersparnisse zu schützen.
 
+Um das Thema Hyperinflation zu vertiefen, empfehle ich den Kurs ECO 204 von David St-Onge. Dort lernen Sie, was hyperinflationäre Zyklen sind und welche tatsächlichen Auswirkungen sie auf unser Leben haben. Sie werden auch die Ähnlichkeiten zwischen diesen Zyklen entdecken und vor allem, wie Sie sich davor schützen können:
+
+[ECO 204 - Die Hyperinflationen](https://planb.network/courses/eco204)
+
+
 ## 21 Millionen Bitcoins
 
 <chapterId>f4a06d76-1963-56fd-93ff-dfa41489bcde</chapterId>

@@ -334,6 +334,11 @@ In conclusione, l'iperinflazione ha l'effetto di degradare rapidamente il valore
 
 Una valuta che si basa su un terzo di fiducia come un istituto finanziario si rivela essere una valuta difettosa nel tempo, in quanto incapace di garantire il potere d'acquisto o preservare i risparmi.
 
+Per approfondire il tema delle iperinflazioni, vi consiglio il corso ECO 204 di David St-Onge. Imparerete cosa sono i cicli iperinflazionistici e quali sono i loro impatti reali sulle nostre vite. Scoprirete anche le somiglianze tra questi cicli e, soprattutto, come proteggervi da essi:
+
+[ECO 204 - Le Iperinflazioni](https://planb.network/courses/eco204)
+
+
 ## 21 milioni di bitcoin
 
 <chapterId>f4a06d76-1963-56fd-93ff-dfa41489bcde</chapterId>

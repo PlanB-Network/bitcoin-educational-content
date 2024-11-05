@@ -330,6 +330,11 @@ Kesimpulannya, hiperinflasi memiliki efek buruk yang dapat merusak nilai mata ua
 
 ![Alt text](assets/posters/en/5._hyperinflation.webp)
 
+Untuk mempelajari lebih lanjut tentang hiperinflasi, saya merekomendasikan kursus ECO 204 oleh David St-Onge. Anda akan mempelajari apa itu siklus hiperinflasi dan dampak nyata mereka pada kehidupan kita. Anda juga akan menemukan kesamaan antara siklus-siklus ini dan, yang terpenting, bagaimana melindungi diri Anda dari mereka:
+
+[ECO 204 - Hiperinflasi](https://planb.network/courses/eco204)
+
+
 ## 21 juta bitcoin
 
 <chapterId>f4a06d76-1963-56fd-93ff-dfa41489bcde</chapterId>

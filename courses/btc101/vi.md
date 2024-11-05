@@ -326,6 +326,10 @@ Kết luận, lạm phát cao có tác động làm giảm giá trị của ti�
 
 ![Alt text](assets/posters/en/5._hyperinflation.webp)
 
+Để tìm hiểu sâu hơn về chủ đề siêu lạm phát, tôi khuyên bạn nên tham gia khóa học ECO 204 của David St-Onge. Bạn sẽ học được chu kỳ siêu lạm phát là gì và tác động thực sự của nó đối với cuộc sống của chúng ta. Bạn cũng sẽ khám phá sự tương đồng giữa các chu kỳ này và, quan trọng nhất, cách bảo vệ bản thân:
+
+[ECO 204 - Siêu Lạm Phát](https://planb.network/courses/eco204)
+
 ## 21 triệu bitcoin
 <chapterId>f4a06d76-1963-56fd-93ff-dfa41489bcde</chapterId>
 

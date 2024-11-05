@@ -128,6 +128,11 @@ Bitcoin je tedy protokol, který překlenuje dlouhá období a vyzývá nás, ab
 
 ![Předhistorie Bitcoinu](assets/posters/fr/1_prehistoiredubitcoin.webp)
 
+Pokud byste chtěli podrobněji prozkoumat historii Bitcoinu, důrazně doporučuji náš kurz HIS 201. Objevíte zde původ a pomalý vznik Bitcoinu, stejně jako začátky jeho historie a komunity. Tento kurz je plně dokumentovaný a podložený zdroji a samozřejmě obsahuje mnoho anekdot:
+
+[HIS 201 - Historie vzniku Bitcoinu](https://planb.network/courses/his201)
+
+
 # Peníze
 
 <partId>e913df1a-4cbd-5380-ba67-ca2a0414f671</partId>
@@ -242,6 +247,11 @@ Tuto kapitolu můžeme uzavřít citátem nositele Nobelovy ceny F.A. Hayeka z r
 ### Rychlé shrnutí na plakátu!
 
 ![Alt text](assets/posters/en/4._fiat_currency.webp)
+
+Pokud se chcete dozvědět více o ekonomických klamech a svobodě, zvu vás k objevování našeho kurzu ECO 102. Tento kurz mapuje život a myšlenky Frédérica Bastiata, francouzského myslitele 19. století, který by bezpochyby ocenil vznik Bitcoinu :
+
+[ECO 102 - Frédéric Bastiat, Život, Vlivy a Ekonomické Myšlení](https://planb.network/courses/eco102)
+
 
 ## Hyperinflace
 

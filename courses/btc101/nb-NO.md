@@ -128,6 +128,11 @@ Derfor er Bitcoin et protokoll som spenner over lange perioder og oppmuntrer oss
 
 ![Bitcoin's forhistorie](assets/posters/fr/1_prehistoiredubitcoin.webp)
 
+Hvis du ønsker å utforske Bitcoins historie mer detaljert, anbefaler jeg sterkt kurset vårt HIS 201. Der vil du oppdage opprinnelsen og den langsomme fremveksten av Bitcoin, samt starten på dens historie og fellesskap. Dette kurset er fullstendig dokumentert og kildebasert, med selvfølgelig mange anekdoter :
+
+[HIS 201 - Historien om Bitcoins skapelse](https://planb.network/courses/his201)
+
+
 # Penger
 
 <partId>e913df1a-4cbd-5380-ba67-ca2a0414f671</partId>
@@ -239,6 +244,11 @@ Vi kan avslutte dette kapittelet med et sitat fra Nobelprisvinner F.A Hayek i 19
 ### Rask oppsummering i en plakat!
 
 ![Alt tekst](assets/posters/en/4._fiat_currency.webp)
+
+Hvis du ønsker å lære mer om økonomiske feilslutninger og frihet, anbefaler jeg kurset ECO 102. Kurset tar for seg livet og ideene til Frédéric Bastiat, en fransk tenker fra 1800-tallet som utvilsomt ville satt pris på fremveksten av Bitcoin:
+
+[ECO 102 - Frédéric Bastiat, Liv, Innflytelser og Økonomisk Tanke](https://planb.network/courses/eco102)
+
 
 ## Hyperinflasjon
 

@@ -121,6 +121,11 @@ Do đó, Bitcoin là một giao thức kéo dài qua nhiều thời kỳ và khu
 
 ![Lịch sử Tiền của Bitcoin](assets/posters/fr/1_prehistoiredubitcoin.webp)
 
+Nếu bạn muốn tìm hiểu chi tiết hơn về lịch sử của Bitcoin, tôi rất khuyến nghị khóa học HIS 201 của chúng tôi. Tại đây, bạn sẽ khám phá nguồn gốc và sự nổi lên chậm chạp của Bitcoin, cũng như những khởi đầu của lịch sử và cộng đồng của nó. Khóa học này được tài liệu hóa và có nguồn, tất nhiên cũng có rất nhiều giai thoại :
+
+[HIS 201 - Lịch sử tạo ra Bitcoin](https://planb.network/courses/his201)
+
+
 # Tiền Bạc
 <partId>e913df1a-4cbd-5380-ba67-ca2a0414f671</partId>
 
@@ -234,6 +239,11 @@ Chúng ta có thể kết thúc chương này với lời trích dẫn từ ngư
 ### Tóm tắt nhanh trên một poster!
 
 ![Văn bản thay thế](assets/posters/en/4._fiat_currency.webp)
+
+Nếu bạn muốn tìm hiểu thêm về các ngụy biện kinh tế và tự do, tôi mời bạn khám phá khóa học ECO 102 của chúng tôi. Khóa học này theo dõi cuộc đời và ý tưởng của Frédéric Bastiat, một nhà tư tưởng người Pháp thế kỷ 19, người chắc chắn sẽ trân trọng sự ra đời của Bitcoin:
+
+[ECO 102 - Frédéric Bastiat, Cuộc đời, Ảnh hưởng và Tư duy Kinh tế](https://planb.network/courses/eco102)
+
 
 ## Lạm phát cực đoan
 <chapterId>b04c024c-54f3-50cb-997f-58721cfc74be</chapterId>

@@ -130,6 +130,11 @@ Bitcoin ist also ein Protokoll, das sich über lange Zeiträume erstreckt und un
 
 ![Die Vorgeschichte von Bitcoin](assets/posters/fr/1_prehistoiredubitcoin.webp)
 
+Wenn Sie die Geschichte von Bitcoin detaillierter erkunden möchten, empfehle ich Ihnen unseren Kurs HIS 201. Dort entdecken Sie die Ursprünge und die langsame Entstehung von Bitcoin sowie die Anfänge seiner Geschichte und seiner Community. Dieser Kurs ist vollständig dokumentiert und mit zahlreichen Anekdoten unterlegt:
+
+[HIS 201 - Die Geschichte der Entstehung von Bitcoin](https://planb.network/courses/his201)
+
+
 # Die Währung
 
 <partId>e913df1a-4cbd-5380-ba67-ca2a0414f671</partId>
@@ -240,6 +245,11 @@ Gleichzeitig scheint die Einführung von digitalen Zentralbankwährungen, oder C
 'Wir können dieses Kapitel mit dem Zitat des Wirtschaftspreisträgers F.A. Hayek aus dem Jahr 1984 abschließen: "Ich glaube nicht, dass wir jemals eine gute Währung haben werden, solange wir sie nicht aus den Händen der Regierung nehmen. Dennoch können wir sie ihnen nicht gewaltsam entreißen, alles, was wir tun können, ist, etwas einzuführen, das sie nicht stoppen können, durch einen raffinierten Trick."
 
 ![image](assets/de/chapter2/0.webp)
+
+Um mehr über wirtschaftliche Trugschlüsse und Freiheit zu erfahren, lade ich Sie ein, unseren Kurs ECO 102 zu entdecken. Dieser Kurs zeichnet das Leben und die Ideen von Frédéric Bastiat nach, einem französischen Denker des 19. Jahrhunderts, der zweifellos die Entstehung von Bitcoin geschätzt hätte:
+
+[ECO 102 - Frédéric Bastiat, Leben, Einflüsse und Wirtschaftliches Denken](https://planb.network/courses/eco102)
+
 
 ## Die Hyperinflationen
 

@@ -128,6 +128,11 @@ objectives:
 
 ![比特币的前史](assets/posters/fr/1_prehistoiredubitcoin.webp)
 
+如果您希望更详细地探索比特币的历史，我强烈推荐我们的 HIS 201 课程。在这里，您将了解到比特币的起源和缓慢的崛起，以及它的历史和社区的初期阶段。该课程内容翔实并附有许多轶事：
+
+[HIS 201 - 比特币创立历史](https://planb.network/courses/his201)
+
+
 # 货币
 
 <partId>e913df1a-4cbd-5380-ba67-ca2a0414f671</partId>
@@ -239,6 +244,11 @@ objectives:
 ### 快速海报重述！
 
 ![Alt text](assets/posters/en/4._fiat_currency.webp)
+
+如果您想更深入了解经济谬误和自由，我邀请您探索我们的 ECO 102 课程。本课程追溯了 19 世纪法国思想家弗雷德里克·巴斯夏的生平和思想，他无疑会欣赏比特币的出现：
+
+[ECO 102 - 弗雷德里克·巴斯夏, 生平, 影响和经济思想](https://planb.network/courses/eco102)
+
 
 ## 恶性通货膨胀
 

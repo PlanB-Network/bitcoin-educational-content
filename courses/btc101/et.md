@@ -128,6 +128,11 @@ Seega on Bitcoin protokoll, mis hõlmab pikki ajaperioode ja julgustab meid küs
 
 ![Bitcoini eellugu](assets/posters/fr/1_prehistoiredubitcoin.webp)
 
+Kui soovite Bitcoini ajalugu põhjalikumalt uurida, soovitan väga meie kursust HIS 201. Siit leiate Bitcoini päritolu ja selle aeglase esilekerkimise, samuti selle ajaloo ja kogukonna algusjärgu. See kursus on täielikult dokumenteeritud ja allikatega toetatud ning sisaldab loomulikult palju anekdoote :
+
+[HIS 201 - Bitcoini loomise ajalugu](https://planb.network/courses/his201)
+
+
 # Raha
 
 <partId>e913df1a-4cbd-5380-ba67-ca2a0414f671</partId>
@@ -240,6 +245,11 @@ Selle peatüki võime kokku võtta Nobeli preemia laureaadi F.A Hayeki tsitaadig
 ### Kiire kokkuvõte plakatil!
 
 ![Alt text](assets/posters/en/4._fiat_currency.webp)
+
+Kui soovite rohkem teada saada majanduslikest eksitustest ja vabadusest, kutsun teid avastama meie kursust ECO 102. See kursus jälgib Frédéric Bastiati, 19. sajandi prantsuse mõtleja elu ja ideid, kes kindlasti oleks Bitcoini esilekerkimist hinnanud :
+
+[ECO 102 - Frédéric Bastiat, Elu, Mõjud ja Majanduslik Mõte](https://planb.network/courses/eco102)
+
 
 ## Hüperinflatsioon
 

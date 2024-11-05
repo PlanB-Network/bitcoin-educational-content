@@ -129,6 +129,11 @@ Portanto, o Bitcoin é um protocolo que se insere em longos períodos de tempo e
 
 ![A pré-história do Bitcoin](assets/posters/fr/1_prehistoiredubitcoin.webp)
 
+Se você deseja explorar mais detalhadamente a história do Bitcoin, recomendo fortemente o nosso curso HIS 201. Nele, você descobrirá as origens e a lenta emergência do Bitcoin, bem como os primórdios de sua história e de sua comunidade. Este curso é totalmente documentado e referenciado, com, é claro, muitas anedotas :
+
+[HIS 201 - A história da criação do Bitcoin](https://planb.network/courses/his201)
+
+
 # A moeda
 
 <partId>e913df1a-4cbd-5380-ba67-ca2a0414f671</partId>
@@ -241,6 +246,11 @@ Ao mesmo tempo, a emergência das moedas digitais dos bancos centrais, ou CBDC, 
 'Podemos terminar este capítulo com a citação do prêmio Nobel de Economia F.A Hayek em 1984 "Eu não acredito que encontraremos uma boa moeda novamente até que a retiremos das mãos do governo. No entanto, não podemos arrancá-la violentamente deles, tudo o que podemos fazer é introduzir algo engenhoso que eles não possam parar."
 
 ![imagem](assets/pt/chapter2/0.webp)
+
+Se você deseja aprender mais sobre sofismas econômicos e liberdade, convido-o a conhecer nosso curso ECO 102. Este curso traça a vida e as ideias de Frédéric Bastiat, um pensador francês do século XIX que, sem dúvida, teria apreciado o surgimento do Bitcoin:
+
+[ECO 102 - Frédéric Bastiat, Vida, Influências e Pensamento Econômico](https://planb.network/courses/eco102)
+
 
 ## As hiperinflações
 

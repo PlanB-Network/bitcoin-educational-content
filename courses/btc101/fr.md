@@ -134,6 +134,10 @@ Bitcoin est donc un protocole qui s'inscrit sur des temps longs, et qui nous inc
 
 ![La préhistoire du Bitcoin](assets/posters/fr/1_prehistoiredubitcoin.webp)
 
+Si vous souhaitez explorer plus en détail l'histoire de Bitcoin, je vous recommande vivement notre formation HIS 201. Vous y découvrirez les origines et la lente émergence de Bitcoin, ainsi que les débuts de son histoire et de sa communauté. Cette formation est entièrement documentée et sourcée, avec bien sûr de nombreuses anecdotes :
+
+[HIS 201 - L'histoire de la création de Bitcoin](https://planb.network/courses/his201)
+
 # La monnaie
 <partId>e913df1a-4cbd-5380-ba67-ca2a0414f671</partId>
 
@@ -257,6 +261,11 @@ Néanmoins, nous ne pouvons pas leurs arracher violemment, tout ce que l’on pe
 ### Petit récap en poster !
 
 ![Alt text](assets/posters/fr/4_lamonnaiefiatcrop.webp)
+
+Pour en savoir plus sur les sophismes économiques et la liberté, je vous invite à découvrir notre formation ECO 102. Celle-ci retrace la vie et les idées de Frédéric Bastiat, un penseur français du XIXe siècle qui, sans doute, aurait apprécié voir l'émergence de Bitcoin :
+
+[ECO 102 - Frédéric Bastiat, Vie, Influences et Pensée Économique](https://planb.network/courses/eco102)
+
 
 ## Les hyperinflations
 <chapterId>b04c024c-54f3-50cb-997f-58721cfc74be</chapterId>

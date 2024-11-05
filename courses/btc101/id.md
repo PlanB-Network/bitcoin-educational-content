@@ -128,6 +128,11 @@ Oleh karena itu, Bitcoin adalah protokol yang membentang sepanjang periode waktu
 
 ![Sejarah Pra-Bitcoin](assets/posters/fr/1_prehistoiredubitcoin.webp)
 
+Jika Anda ingin mengeksplorasi sejarah Bitcoin secara lebih mendalam, saya sangat merekomendasikan kursus kami, HIS 201. Anda akan menemukan asal-usul dan munculnya Bitcoin secara perlahan, serta awal mula sejarah dan komunitasnya. Kursus ini sepenuhnya didokumentasikan dan memiliki banyak anekdot :
+
+[HIS 201 - Sejarah Penciptaan Bitcoin](https://planb.network/courses/his201)
+
+
 # Uang
 
 <partId>e913df1a-4cbd-5380-ba67-ca2a0414f671</partId>
@@ -239,6 +244,11 @@ Bab ini dapat disimpulkan dengan kutipan dari pemenang Hadiah Nobel F.A Hayek pa
 ### Ringkasan Singkat dalam Poster!
 
 ![Alt text](assets/posters/en/4._fiat_currency.webp)
+
+Jika Anda ingin mempelajari lebih lanjut tentang kesalahan ekonomi dan kebebasan, saya mengundang Anda untuk mengikuti kursus ECO 102 kami. Kursus ini menelusuri kehidupan dan gagasan Frédéric Bastiat, seorang pemikir Prancis abad ke-19 yang pasti akan menghargai kemunculan Bitcoin:
+
+[ECO 102 - Frédéric Bastiat, Kehidupan, Pengaruh, dan Pemikiran Ekonomi](https://planb.network/courses/eco102)
+
 
 ## Hiperinflasi
 

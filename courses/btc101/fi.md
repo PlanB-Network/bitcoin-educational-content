@@ -128,6 +128,12 @@ Siksi Bitcoin on protokolla, joka ulottuu pitkien aikojen yli ja kannustaa meit�
 
 ![Bitcoinin esihistoria](assets/posters/fr/1_prehistoiredubitcoin.webp)
 
+Jos haluat tutkia Bitcoinin historiaa tarkemmin, suosittelen lämpimästi kurssiamme HIS 201. Löydät sieltä Bitcoinin alkuperän ja sen hitaasti tapahtuneen nousun sekä sen historian ja yhteisön alkuvaiheet. Tämä kurssi on täysin dokumentoitu ja lähteistetty, mukana on tietenkin monia anekdootteja :
+
+[HIS 201 - Bitcoinin luomisen historia](https://planb.network/courses/his201)
+
+
+
 # Raha
 
 <partId>e913df1a-4cbd-5380-ba67-ca2a0414f671</partId>
@@ -240,6 +246,11 @@ Voimme päätellä tämän luvun lainauksella Nobel-palkinnon voittajalta F.A Ha
 ### Nopea kertaus julisteessa!
 
 ![Alt-teksti](assets/posters/en/4._fiat_currency.webp)
+
+Jos haluat oppia lisää taloudellisista harhaluuloista ja vapaudesta, suosittelen tutustumaan ECO 102 -kurssiimme. Tämä kurssi käsittelee Frédéric Bastiatin, 1800-luvun ranskalaisen ajattelijan, elämää ja ajatuksia, joka epäilemättä olisi arvostanut Bitcoinin syntyä :
+
+[ECO 102 - Frédéric Bastiat, Elämä, Vaikutteet ja Taloudellinen Ajattelu](https://planb.network/courses/eco102)
+
 
 ## Hyperinflaatio
 

@@ -128,6 +128,11 @@ Therefore, Bitcoin is a protocol that spans long periods of time and encourages 
 
 ![The Prehistory of Bitcoin](./assets/posters/en/1._bitcoin_prehistory.webp)
 
+If you want to explore Bitcoin's history in more detail, I highly recommend our HIS 201 course. You will discover the origins and the slow emergence of Bitcoin, as well as the beginnings of its history and community. This course is fully documented and sourced, with, of course, many anecdotes:
+
+[HIS 201 - The History of Bitcoin's Creation](https://planb.network/courses/his201)
+
+
 # Money
 
 <partId>e913df1a-4cbd-5380-ba67-ca2a0414f671</partId>
@@ -247,6 +252,11 @@ We can conclude this chapter with the quote from Nobel Prize winner F.A Hayek in
 ### Quick recap in a poster!
 
 ![Alt text](assets/posters/en/4._fiat_currency.webp)
+
+To learn more about economic fallacies and freedom, I invite you to discover our ECO 102 course. This course traces the life and ideas of Frédéric Bastiat, a 19th-century French thinker who would surely have appreciated the emergence of Bitcoin:
+
+[ECO 102 - Frédéric Bastiat, Life, Influences, and Economic Thought](https://planb.network/courses/eco102)
+
 
 ## Hyperinflation
 

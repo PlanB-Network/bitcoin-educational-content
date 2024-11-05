@@ -131,6 +131,11 @@ Por lo tanto, Bitcoin es un protocolo que abarca largos períodos de tiempo y no
 
 ![La prehistoria de Bitcoin](./assets/posters/es/1_bitcoin_prehistoria.webp)
 
+Si desea explorar la historia de Bitcoin en mayor detalle, le recomiendo encarecidamente nuestro curso HIS 201. Allí descubrirá los orígenes y la lenta aparición de Bitcoin, así como los inicios de su historia y su comunidad. Este curso está completamente documentado y referenciado, con, por supuesto, muchas anécdotas:
+
+[HIS 201 - La historia de la creación de Bitcoin](https://planb.network/courses/his201)
+
+
 # La moneda
 
 <partId>e913df1a-4cbd-5380-ba67-ca2a0414f671</partId>
@@ -252,6 +257,11 @@ Podemos conlcuir este capítulo con la cita del premio Nobel de Economía F.A Ha
 ### ¡Un pequeño resumen en un póster!
 
 ![Alt text](assets/posters/es/4_las_monedas_fiduciarias.webp)
+
+Para conocer más sobre falacias económicas y libertad, lo invito a descubrir nuestro curso ECO 102. Este curso recorre la vida y las ideas de Frédéric Bastiat, un pensador francés del siglo XIX que, sin duda, habría apreciado el surgimiento de Bitcoin:
+
+[ECO 102 - Frédéric Bastiat, Vida, Influencias y Pensamiento Económico](https://planb.network/courses/eco102)
+
 
 ## Las hiperinflaciones
 

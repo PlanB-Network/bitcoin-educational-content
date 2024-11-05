@@ -957,6 +957,11 @@ La théorie du jeu appliquée à Bitcoin écarte les mineurs malhonnêtes. Les m
 
 ![les mineurs](assets/posters/fr/13_explication_des_mineurs_crop.webp)
 
+Si vous souhaitez approfondir le sujet spécifique du minage sur Bitcoin, vous pouvez consulter notre formation MIN 201. Vous y découvrirez le fonctionnement et le rôle de la Proof-of-Work, ainsi que les rouages de l'industrie du minage. Nous vous y expliquons également comment transformer un ASIC en chauffage, afin de miner vos premiers satoshis tout en chauffant votre habitat !
+
+https://planb.network/fr/courses/min201
+
+
 ## Bitcoin et l’écologie
 <chapterId>4b227ae6-443a-5739-b443-60b7931130d9</chapterId>
 

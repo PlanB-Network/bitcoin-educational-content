@@ -896,6 +896,10 @@ Teorie her aplikovaná na Bitcoin eliminuje nečestné těžaře. Těžaři pou�
 
 ![miners](assets/posters/fr/13_explication_des_mineurs_crop.webp)
 
+Pokud byste chtěli podrobněji prozkoumat specifické téma těžby Bitcoinu, můžete se podívat na náš kurz MIN 201. Objevíte zde fungování a roli Proof-of-Work, stejně jako zákulisí těžebního průmyslu. Také vám vysvětlíme, jak přeměnit ASIC na topení, abyste mohli těžit své první satoshi a zároveň vytápět svůj domov!
+
+https://planb.network/courses/min201
+
 ## Bitcoin a ekologie
 
 <chapterId>4b227ae6-443a-5739-b443-60b7931130d9</chapterId>

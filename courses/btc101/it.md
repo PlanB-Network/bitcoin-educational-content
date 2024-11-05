@@ -887,6 +887,10 @@ La teoria dei giochi applicata a Bitcoin esclude i minatori disonesti. I minator
 
 ![les mineurs](assets/posters/fr/13_explication_des_mineurs_crop.webp)
 
+Se desideri approfondire l'argomento specifico del mining su Bitcoin, puoi consultare il nostro corso MIN 201. Scoprirai il funzionamento e il ruolo del Proof-of-Work, nonché i meccanismi dell'industria del mining. Ti spieghiamo anche come trasformare un ASIC in un sistema di riscaldamento, per minare i tuoi primi satoshi riscaldando la tua casa!
+
+https://planb.network/courses/min201
+
 ## Bitcoin e l'ecologia
 
 <chapterId>4b227ae6-443a-5739-b443-60b7931130d9</chapterId>

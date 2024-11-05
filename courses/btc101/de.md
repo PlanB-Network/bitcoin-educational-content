@@ -886,6 +886,10 @@ Die Spieltheorie, die auf Bitcoin angewendet wird, schließt unehrliche Miner au
 
 ![les mineurs](assets/posters/fr/13_explication_des_mineurs_crop.webp)
 
+Wenn Sie das spezifische Thema des Bitcoin-Minings vertiefen möchten, können Sie unseren Kurs MIN 201 konsultieren. Dort erfahren Sie mehr über die Funktionsweise und Rolle des Proof-of-Work sowie die Mechanismen der Mining-Industrie. Außerdem erklären wir Ihnen, wie Sie einen ASIC in eine Heizung verwandeln können, um Ihre ersten Satoshis zu minen und gleichzeitig Ihr Zuhause zu heizen!
+
+https://planb.network/courses/min201
+
 ## Bitcoin und die Umwelt
 
 <chapterId>4b227ae6-443a-5739-b443-60b7931130d9</chapterId>

@@ -872,6 +872,10 @@ Lý thuyết trò chơi áp dụng cho Bitcoin loại bỏ các thợ mỏ khôn
 
 ![miners](assets/posters/fr/13_explication_des_mineurs_crop.webp)
 
+Nếu bạn muốn tìm hiểu sâu hơn về chủ đề khai thác Bitcoin, bạn có thể tham khảo khóa học MIN 201 của chúng tôi. Bạn sẽ tìm hiểu về cách hoạt động và vai trò của Proof-of-Work, cũng như các cơ chế của ngành khai thác. Chúng tôi cũng giải thích cách biến ASIC thành lò sưởi, để bạn có thể khai thác satoshi đầu tiên trong khi sưởi ấm ngôi nhà của mình!
+
+https://planb.network/courses/min201
+
 ## Bitcoin và Môi trường
 <chapterId>4b227ae6-443a-5739-b443-60b7931130d9</chapterId>
 

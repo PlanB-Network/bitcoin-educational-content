@@ -920,6 +920,10 @@ The theory of game applied to Bitcoin eliminates dishonest miners. Miners use AS
 
 ![miners](./assets/posters/en/13._miners.webp)
 
+If you want to delve deeper into the specific topic of Bitcoin mining, you can consult our MIN 201 course. You will discover the workings and role of Proof-of-Work, as well as the mechanics of the mining industry. We also explain how to convert an ASIC into a heater, allowing you to mine your first satoshis while heating your home!
+
+https://planb.network/courses/min201
+
 ## Bitcoin and Ecology
 
 <chapterId>4b227ae6-443a-5739-b443-60b7931130d9</chapterId>

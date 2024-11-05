@@ -888,6 +888,10 @@ Teorien om spill anvendt på Bitcoin eliminerer uærlige minere. Minerene bruker
 
 ![miners](assets/posters/fr/13_explication_des_mineurs_crop.webp)
 
+Hvis du ønsker å fordype deg i det spesifikke emnet Bitcoin-mining, kan du ta vår MIN 201-kurs. Du vil lære om hvordan Proof-of-Work fungerer og hvilken rolle den spiller, samt innsikt i gruvedriftens mekanismer. Vi forklarer også hvordan du kan gjøre en ASIC om til en ovn, slik at du kan mine dine første satoshis samtidig som du varmer opp hjemmet ditt!
+
+https://planb.network/courses/min201
+
 ## Bitcoin og Økologi
 
 <chapterId>4b227ae6-443a-5739-b443-60b7931130d9</chapterId>

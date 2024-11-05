@@ -897,6 +897,10 @@ A teoria dos jogos aplicada ao Bitcoin afasta os mineradores desonestos. Os mine
 
 ![os mineradores](assets/posters/fr/13_explication_des_mineurs_crop.webp)
 
+Se você deseja se aprofundar no tema específico da mineração de Bitcoin, pode consultar nosso curso MIN 201. Nele, você descobrirá o funcionamento e o papel do Proof-of-Work, assim como os mecanismos da indústria de mineração. Explicamos também como transformar um ASIC em um aquecedor, para minerar seus primeiros satoshis enquanto aquece sua casa!
+
+https://planb.network/courses/min201
+
 ## Bitcoin e ecologia
 
 <chapterId>4b227ae6-443a-5739-b443-60b7931130d9</chapterId>

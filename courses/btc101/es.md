@@ -925,6 +925,10 @@ La teoría del juego aplicada a Bitcoin descarta a los mineros deshonestos. Los 
 
 ![les mineurs](./assets/posters/es/13_los_minero.webp)
 
+Si desea profundizar en el tema específico de la minería en Bitcoin, puede consultar nuestro curso MIN 201. Descubrirá el funcionamiento y el papel de la Prueba de Trabajo, así como los entresijos de la industria minera. También le explicamos cómo convertir un ASIC en calefacción, para que pueda minar sus primeros satoshis mientras calienta su hogar!
+
+https://planb.network/courses/min201
+
 ## Bitcoin y la ecología
 
 <chapterId>4b227ae6-443a-5739-b443-60b7931130d9</chapterId>

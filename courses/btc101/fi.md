@@ -894,6 +894,10 @@ Pelin teoria, sovellettuna Bitcoiniin, eliminoi epärehelliset louhijat. Louhija
 
 ![louhijat](assets/posters/fr/13_explication_des_mineurs_crop.webp)
 
+Jos haluat syventyä tarkemmin Bitcoinin louhintaan, voit tutustua kurssiimme MIN 201. Kurssilla opit Proof-of-Workin toiminnan ja roolin sekä louhintateollisuuden toiminnan. Selitämme myös, kuinka voit muuntaa ASIC:n lämmityslaitteeksi louhiaksesi ensimmäiset satoshisi ja samalla lämmittääksesi kotiasi!
+
+https://planb.network/courses/min201
+
 ## Bitcoin ja ekologia
 
 <chapterId>4b227ae6-443a-5739-b443-60b7931130d9</chapterId>

@@ -895,6 +895,10 @@ Teori permainan yang diterapkan pada Bitcoin mengeliminasi para penambang yang t
 
 ![penambang](assets/posters/fr/13_explication_des_mineurs_crop.webp)
 
+Jika Anda ingin memperdalam topik spesifik tentang penambangan Bitcoin, Anda dapat mengikuti kursus MIN 201 kami. Anda akan mempelajari cara kerja dan peran Proof-of-Work, serta seluk-beluk industri penambangan. Kami juga menjelaskan cara mengubah ASIC menjadi pemanas, sehingga Anda dapat menambang satoshi pertama Anda sambil memanaskan rumah Anda!
+
+https://planb.network/courses/min201
+
 ## Bitcoin dan Ekologi
 
 <chapterId>4b227ae6-443a-5739-b443-60b7931130d9</chapterId>

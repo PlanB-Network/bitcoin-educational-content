@@ -890,6 +890,10 @@ Bob将他的交易发送到比特币网络中，当矿工发布包含着此交�
 
 ![miners](assets/posters/fr/13_explication_des_mineurs_crop.webp)
 
+如果您希望深入了解比特币挖矿的具体主题，可以参考我们的 MIN 201 课程。在这里，您将了解工作量证明（Proof-of-Work）的运作方式及其作用，以及挖矿行业的运作机制。我们还会向您解释如何将 ASIC 改装成加热设备，让您在加热家居的同时开采您的首批聪！
+
+https://planb.network/courses/min201
+
 ## 比特币与生态
 
 <chapterId>4b227ae6-443a-5739-b443-60b7931130d9</chapterId>

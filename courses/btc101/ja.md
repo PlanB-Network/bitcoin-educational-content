@@ -874,6 +874,10 @@ Bobはトランザクションをビットコイン・ネットワークに送�
 
 ![マイナー](assets/posters/fr/13_explication_des_mineurs_crop.webp)
 
+ビットコインのマイニングについてさらに詳しく知りたい場合は、MIN 201コースをご覧ください。Proof-of-Workの仕組みと役割、そしてマイニング業界の仕組みを学ぶことができます。また、ASICを暖房に変える方法を説明しますので、最初のサトシを採掘しながらお住まいを暖めることができます！
+
+https://planb.network/courses/min201
+
 ## ビットコインとエコロジー（環境）
 <chapterId>4b227ae6-443a-5739-b443-60b7931130d9</chapterId>
 

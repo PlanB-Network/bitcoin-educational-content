@@ -1,8 +1,9 @@
 question: Quelle a été l'influence de l'école de Salamanque dans le développement de la pensée moderne ?
-answer: Toutes les réponses ci-dessus sont correctes.
+answer: Toutes les autres réponses sont correctes.
 wrong_answers:
   - Elle a contribué à l'émergence du droit international et à la reconnaissance des droits universels de l'homme.
   - Elle a posé les bases de la philosophie politique moderne en affirmant la séparation des pouvoirs et la souveraineté populaire.
   - Elle a influencé la pensée scientifique en encourageant la méthode expérimentale et le rationalisme.
-explanation: 
+explanation: |
+  L'école de Salamanque a eu une influence profonde sur la pensée moderne, en jetant les bases du droit international, en défendant les droits humains universels, et en posant des principes fondamentaux pour la philosophie politique et la pensée scientifique.
 reviewed: false

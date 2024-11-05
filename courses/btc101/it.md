@@ -1206,6 +1206,10 @@ Le transazioni sono protette dalla crittografia e indirettamente dall'energia co
 
 In sintesi, Lightning Network è un tentativo promettente di implementare un sistema di pagamento efficiente per le transazioni in Bitcoin. Esistono già numerosi portafogli Lightning che puoi scoprire nella nostra sezione tutorial o tramite i nostri corsi su Lightning Network.
 
+Se desiderate andare oltre questa introduzione e comprendere tutti i meccanismi del Lightning Network, vi consiglio di seguire questo eccellente corso di Fanis Michalakis sull'argomento:
+
+https://planb.network/courses/lnp201
+
 ## Caso d'uso di Lightning Network
 
 <chapterId>684e31f9-ebd1-51b6-91c0-1e6a315f1141</chapterId>

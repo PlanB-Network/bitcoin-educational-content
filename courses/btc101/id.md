@@ -1224,6 +1224,10 @@ Secara ringkas, Lightning Network adalah upaya yang menjanjikan untuk menerapkan
 
 ![Alt text](assets/posters/en/20._lightning_network.webp)
 
+Jika Anda ingin melangkah lebih jauh dari pengantar ini dan memahami semua seluk-beluk Lightning Network, saya merekomendasikan kursus luar biasa dari Fanis Michalakis tentang topik ini:
+
+https://planb.network/courses/lnp201
+
 ## Kasus Penggunaan Jaringan Lightning
 
 <chapterId>684e31f9-ebd1-51b6-91c0-1e6a315f1141</chapterId>

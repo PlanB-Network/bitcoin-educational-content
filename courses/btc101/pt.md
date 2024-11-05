@@ -1215,6 +1215,10 @@ As transações são seguras por criptografia e indiretamente pela energia consu
 
 Em resumo, a Lightning Network é uma tentativa promissora de implantar um sistema de pagamento eficiente para transações em bitcoin. Já existem muitas carteiras Lightning que você pode descobrir em nossa seção de tutoriais ou por meio de nossos cursos sobre a Lightning Network.
 
+Se você deseja ir além desta introdução e entender todos os detalhes da Lightning Network, recomendo este excelente curso de Fanis Michalakis sobre o tema:
+
+https://planb.network/courses/lnp201
+
 ## Casos de uso da Lightning Network
 
 <chapterId>684e31f9-ebd1-51b6-91c0-1e6a315f1141</chapterId>

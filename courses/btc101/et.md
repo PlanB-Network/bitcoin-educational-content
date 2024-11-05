@@ -1221,6 +1221,10 @@ Kokkuvõttes on Lightning Network paljutõotav katse käivitada tõhus maksesüs
 
 ![Alt text](assets/posters/en/20._lightning_network.webp)
 
+Kui soovite minna kaugemale sellest sissejuhatusest ja mõista kõiki Lightning Networki mehhanisme, soovitan teil läbida Fanis Michalakise suurepärase kursuse sellel teemal:
+
+https://planb.network/courses/lnp201
+
 ## Lightning Networki kasutusjuhud
 
 <chapterId>684e31f9-ebd1-51b6-91c0-1e6a315f1141</chapterId>

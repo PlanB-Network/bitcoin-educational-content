@@ -1264,6 +1264,11 @@ En resumen, la Lightning Network es un intento prometedor de implementar un sist
 
 ![Alt text](assets/posters/es/20_lightning_network.webp)
 
+Si desea ir más allá de esta introducción y comprender todos los detalles de la Lightning Network, le recomiendo seguir este excelente curso de Fanis Michalakis sobre el tema:
+
+https://planb.network/courses/lnp201
+
+
 ## Casos de uso de la Lightning Network
 
 <chapterId>684e31f9-ebd1-51b6-91c0-1e6a315f1141</chapterId>

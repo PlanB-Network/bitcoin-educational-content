@@ -1224,6 +1224,11 @@ Shrnutí, Lightning Network je slibný pokus o nasazení efektivního platebníh
 
 ![Alt text](assets/posters/en/20._lightning_network.webp)
 
+Pokud chcete jít dál než jen tuto úvodní část a pochopit všechny detaily Lightning Network, doporučuji absolvovat tento vynikající kurz od Fanise Michalakise na toto téma:
+
+https://planb.network/courses/lnp201
+
+
 ## Případové studie Lightning Network
 
 <chapterId>684e31f9-ebd1-51b6-91c0-1e6a315f1141</chapterId>

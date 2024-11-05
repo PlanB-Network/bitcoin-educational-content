@@ -1245,6 +1245,10 @@ https://planb.network/courses/btc305
 
 ![Alt text](assets/posters/en/20._lightning_network.webp)
 
+Если вы хотите углубиться дальше этого введения и понять все аспекты работы Lightning Network, рекомендую этот отличный курс Фаниса Михалакиса на эту тему:
+
+https://planb.network/courses/lnp201
+
 ## Применение Сети Lightning
 
 <chapterId>684e31f9-ebd1-51b6-91c0-1e6a315f1141</chapterId>

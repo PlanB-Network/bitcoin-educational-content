@@ -1313,6 +1313,12 @@ En somme, le Lightning Network est une tentative prometteuse pour déployer un s
 
 ![Alt text](assets/posters/fr/20_explication_lightning_network_crop.webp)
 
+
+Si vous souhaitez aller plus loin que cette introduction et comprendre tous les rouages du Lightning Network, je vous recommande de suivre cette excellente formation de Fanis Michalakis sur le sujet :
+
+https://planb.network/courses/lnp201
+
+
 ## Cas d’usage du Lightning Network
 <chapterId>684e31f9-ebd1-51b6-91c0-1e6a315f1141</chapterId>
 

@@ -1216,6 +1216,10 @@ Oppsummert er Lightning Network et lovende forsøk på å distribuere et effekti
 
 ![Alt tekst](assets/posters/en/20._lightning_network.webp)
 
+このイントロダクションを超えて、Lightning Networkのすべての仕組みを理解したい場合は、Fanis Michalakisによるこの優れたコースをお勧めします：
+
+https://planb.network/courses/lnp201
+
 ## Bruksområder for Lightning Network
 
 <chapterId>684e31f9-ebd1-51b6-91c0-1e6a315f1141</chapterId>

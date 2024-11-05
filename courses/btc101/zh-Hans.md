@@ -1216,6 +1216,11 @@ https://planb.network/courses/btc305
 
 ![Alt text](assets/posters/en/20._lightning_network.webp)
 
+如果您希望深入了解并理解闪电网络的所有机制，我推荐参加Fanis Michalakis关于该主题的这门优秀课程：
+
+https://planb.network/courses/lnp201
+
+
 ## 闪电网络的用途
 
 <chapterId>684e31f9-ebd1-51b6-91c0-1e6a315f1141</chapterId>

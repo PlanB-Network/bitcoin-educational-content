@@ -1200,6 +1200,10 @@ Die Transaktionen sind durch Kryptographie und indirekt durch die von den Minern
 
 Insgesamt ist das Lightning Network ein vielversprechender Versuch, ein effizientes Zahlungssystem für Bitcoin zu implementieren. Es gibt bereits viele Lightning-Wallets, die Sie in unserem Tutorial-Bereich oder über unsere Schulungen zum Lightning Network entdecken können.
 
+Wenn Sie über diese Einführung hinausgehen und alle Feinheiten des Lightning Network verstehen möchten, empfehle ich Ihnen diesen ausgezeichneten Kurs von Fanis Michalakis zu diesem Thema:
+
+https://planb.network/courses/lnp201
+
 ## Anwendungsfälle des Lightning Network
 
 <chapterId>684e31f9-ebd1-51b6-91c0-1e6a315f1141</chapterId>

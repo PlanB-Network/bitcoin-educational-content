@@ -1186,6 +1186,10 @@ Tóm lại, Mạng lưới Lightning là một nỗ lực hứa hẹn để tri�
 
 ![Alt text](assets/posters/en/20._lightning_network.webp)
 
+Nếu bạn muốn tìm hiểu sâu hơn ngoài phần giới thiệu này và hiểu tất cả các cơ chế của Lightning Network, tôi khuyên bạn nên tham gia khóa học xuất sắc này của Fanis Michalakis về chủ đề này:
+
+https://planb.network/courses/lnp201
+
 ## Các Trường Hợp Sử Dụng của Mạng lưới Lightning
 <chapterId>684e31f9-ebd1-51b6-91c0-1e6a315f1141</chapterId>
 

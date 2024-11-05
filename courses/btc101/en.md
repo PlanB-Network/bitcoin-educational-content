@@ -1259,6 +1259,11 @@ In summary, the Lightning Network is a promising attempt to deploy an efficient 
 
 ![Alt text](assets/posters/en/20._lightning_network.webp)
 
+If you want to go beyond this introduction and understand all the workings of the Lightning Network, I recommend taking this excellent course by Fanis Michalakis on the subject:
+
+https://planb.network/courses/lnp201
+
+
 ## Use Cases of the Lightning Network
 
 <chapterId>684e31f9-ebd1-51b6-91c0-1e6a315f1141</chapterId>

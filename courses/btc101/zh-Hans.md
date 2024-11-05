@@ -1036,8 +1036,17 @@ https://planb.network/courses/min201
 我们将在另一个课程中详细讲述这个领域。简而言之，我们可将一些商业类别作为参考，其类型和相关的解决方案如下：
 
 - 简单的在线解决方案：OpenNode
-- 业余商家的解决方案：Swiss Bitcoin Pay
-- 大型结构或热情的比特币用户的解决方案：BTCpay Server
+
+https://planb.network/tutorials/merchant/open-node
+
+- 适合业余商家的解决方案：Swiss Bitcoin Pay
+
+https://planb.network/tutorials/merchant/swiss-bitcoin-pay-2
+
+- 适合大型机构或比特币爱好者的解决方案：BTCpay服务器
+
+https://planb.network/courses/btc305
+
 
 ### 快速海报重述！
 

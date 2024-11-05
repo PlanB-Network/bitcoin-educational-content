@@ -1044,8 +1044,17 @@ Untuk menerima Bitcoin, Anda perlu mempelajari solusi-solusi yang tersedia dan m
 Kami akan membahas topik ini secara detail dalam pelatihan lain, tetapi sederhananya, berikut kami berikan contoh beberapa kategori bisnis dan solusi terkait:
 
 - Solusi online sederhana: OpenNode
+
+https://planb.network/tutorials/merchant/open-node
+
 - Solusi untuk pedagang amatir: Swiss Bitcoin Pay
-- Solusi untuk struktur besar atau bitcoiners yang bersemangat: BTCpay Server
+
+https://planb.network/tutorials/merchant/swiss-bitcoin-pay-2
+
+- Solusi untuk struktur besar atau bitcoiner yang bersemangat: BTCpay Server
+
+https://planb.network/courses/btc305
+
 
 ### Ringkasan Singkat dalam Poster!
 

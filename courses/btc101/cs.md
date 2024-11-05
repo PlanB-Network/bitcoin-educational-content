@@ -1044,8 +1044,17 @@ Pro přijetí Bitcoinu je nutné prostudovat různá dostupná řešení a vybra
 Toto téma podrobněji probereme v dalším školení, ale abychom to udrželi jednoduché, můžeme zvážit několik kategorií podnikání a tedy související řešení:
 
 - Jednoduché online řešení: OpenNode
+
+https://planb.network/tutorials/merchant/open-node
+
 - Řešení pro amatérské obchodníky: Swiss Bitcoin Pay
-- Řešení pro velké struktury nebo vášnivé bitcoinery: BTCpay Server
+
+https://planb.network/tutorials/merchant/swiss-bitcoin-pay-2
+
+- Řešení pro velké struktury nebo nadšené bitcoinery: BTCpay Server
+
+https://planb.network/courses/btc305
+
 
 ### Rychlé shrnutí na plakátu!
 

@@ -1061,8 +1061,17 @@ https://planb.network/courses/min201
 Мы подробно рассмотрим эту тему в другом курсе, но чтобы упростить, мы можем рассмотреть несколько категорий бизнеса и, соответственно, связанные решения:
 
 - Простое онлайн-решение: OpenNode
-- Решение для начинающих продавцов: Swiss Bitcoin Pay
-- Решение для крупных структур или увлеченных биткойнеров: BTCpay Server
+
+https://planb.network/tutorials/merchant/open-node
+
+- Решение для начинающих торговцев: Swiss Bitcoin Pay
+
+https://planb.network/tutorials/merchant/swiss-bitcoin-pay-2
+
+- Решение для крупных компаний или страстных биткойнеров: BTCpay Server
+
+https://planb.network/courses/btc305
+
 
 ### Краткое изложение на постере!
 

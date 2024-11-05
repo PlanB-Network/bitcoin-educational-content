@@ -1035,8 +1035,17 @@ Bitcoinin hyväksymiseksi on tarpeen tutkia eri saatavilla olevia ratkaisuja ja 
 Käsittelemme tätä aihetta yksityiskohtaisemmin toisessa koulutuksessa, mutta yksinkertaistaaksemme voimme harkita useita yritystyyppejä ja siten niihin liittyviä ratkaisuja:
 
 - Yksinkertainen online-ratkaisu: OpenNode
-- Ratkaisu harrastelijakauppiaille: Swiss Bitcoin Pay
-- Ratkaisu suurille rakenteille tai intohimoisille bitcoinereille: BTCpay Server
+
+https://planb.network/tutorials/merchant/open-node
+
+- Ratkaisu harrastajakauppiaille: Swiss Bitcoin Pay
+
+https://planb.network/tutorials/merchant/swiss-bitcoin-pay-2
+
+- Ratkaisu suurille yrityksille tai intohimoisille bitcoinaajille: BTCpay Server
+
+https://planb.network/courses/btc305
+
 
 ### Nopea yhteenveto julisteessa!
 

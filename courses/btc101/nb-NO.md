@@ -1035,9 +1035,18 @@ For å akseptere Bitcoin, er det nødvendig å studere de forskjellige tilgjenge
 
 Vi vil dekke dette emnet i detalj i en annen opplæring, men for å holde det enkelt, kan vi vurdere flere kategorier av virksomheter og derfor relaterte løsninger:
 
-- Enkel online løsning: OpenNode
-- Løsning for amatørhandlere: Swiss Bitcoin Pay
-- Løsning for store strukturer eller lidenskapelige bitcoinere: BTCpay Server
+- Enkel nettbasert løsning: OpenNode
+
+https://planb.network/tutorials/merchant/open-node
+
+- Løsning for hobbyhandlere: Swiss Bitcoin Pay
+
+https://planb.network/tutorials/merchant/swiss-bitcoin-pay-2
+
+- Løsning for store strukturer eller lidenskapelige bitcoiner: BTCpay Server
+
+https://planb.network/courses/btc305
+
 
 ### Rask oppsummering i en plakat!
 

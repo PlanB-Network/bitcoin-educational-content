@@ -1010,8 +1010,17 @@ Hơn nữa, việc chấp nhận Bitcoin như một người bán có một số
 Chúng tôi sẽ đề cập đến chủ đề này chi tiết trong một khóa học khác, nhưng để giữ mọi thứ đơn giản, chúng ta có thể xem xét một số loại hình doanh nghiệp và do đó là các giải pháp liên quan:
 
 - Giải pháp trực tuyến đơn giản: OpenNode
-- Giải pháp cho các nhà bán lẻ không chuyên: Swiss Bitcoin Pay
-- Giải pháp cho các cơ cấu lớn hoặc những người đam mê bitcoin: BTCpay Server
+
+https://planb.network/tutorials/merchant/open-node
+
+- Giải pháp cho thương gia nghiệp dư: Swiss Bitcoin Pay
+
+https://planb.network/tutorials/merchant/swiss-bitcoin-pay-2
+
+- Giải pháp cho các cấu trúc lớn hoặc những người đam mê bitcoin: BTCpay Server
+
+https://planb.network/courses/btc305
+
 
 ### Tóm tắt nhanh trong một poster!
 

@@ -1048,8 +1048,17 @@ Para aceitar o Bitcoin, é necessário estudar as diferentes soluções disponí
 Vamos abordar esse assunto em detalhes em outro treinamento, mas para simplificar, podemos considerar várias categorias de negócios e, portanto, soluções relacionadas:
 
 - Solução online simples: OpenNode
+
+https://planb.network/tutorials/merchant/open-node
+
 - Solução para comerciantes amadores: Swiss Bitcoin Pay
-- Solução para grandes estruturas ou entusiastas do Bitcoin: BTCpay Server
+
+https://planb.network/tutorials/merchant/swiss-bitcoin-pay-2
+
+- Solução para grandes estruturas ou bitcoiners apaixonados: BTCpay Server
+
+https://planb.network/courses/btc305
+
 
 ## Poupar com Bitcoin
 

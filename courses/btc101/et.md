@@ -1039,9 +1039,18 @@ Bitcoini aktsepteerimiseks on vajalik uurida erinevaid saadaolevaid lahendusi ja
 
 Me käsitleme seda teemat üksikasjalikumalt teises koolitusel, kuid lihtsuse huvides võime kaaluda mitmeid ärikategooriaid ja seega seotud lahendusi:
 
-- Lihtne online lahendus: OpenNode
+- Lihtne veebilahendus: OpenNode
+
+https://planb.network/tutorials/merchant/open-node
+
 - Lahendus amatöörkaupmeestele: Swiss Bitcoin Pay
-- Lahendus suurtele struktuuridele või kirglikele bitcoineritele: BTCPay Server
+
+https://planb.network/tutorials/merchant/swiss-bitcoin-pay-2
+
+- Lahendus suurtele struktuuridele või kirglikele bitcoinisõpradele: BTCpay Server
+
+https://planb.network/courses/btc305
+
 
 ### Kiire kokkuvõte plakatil!
 

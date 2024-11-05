@@ -1026,9 +1026,18 @@ BTC/ドルのペアは短期的に変動する一方で、ビットコインは2
 
 このトピックについては別のトレーニングで詳しく説明しますが、簡単に説明すると、以下のようなビジネスのカテゴリーと関連するソリューションが考えられます。
 
-- シンプルなオンラインソリューション:OpenNode
-- 個人事業主向けのソリューション:Swiss Bitcoin Pay
-- 大規模な組織やビットコイナー向けのソリューション:BTCpay Server
+- 簡単なオンラインソリューション: OpenNode
+
+https://planb.network/tutorials/merchant/open-node
+
+- アマチュア商人向けのソリューション: Swiss Bitcoin Pay
+
+https://planb.network/tutorials/merchant/swiss-bitcoin-pay-2
+
+- 大規模な構造または情熱的なビットコイナー向けのソリューション: BTCpayサーバー
+
+https://planb.network/courses/btc305
+
 
 ## ビットコインで貯蓄する
 <chapterId>1d9570c6-5b63-51a6-b87c-7bdb0fc4aa87</chapterId>

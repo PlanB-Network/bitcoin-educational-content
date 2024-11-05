@@ -1038,9 +1038,18 @@ Per accettare bitcoin, è necessario studiare le diverse soluzioni disponibili e
 Affronteremo questo argomento in dettaglio in un altro corso, ma per semplificare, possiamo considerare diverse categorie di attività commerciali e quindi soluzioni correlate:
 
 - Soluzione online semplice: OpenNode
+
+https://planb.network/tutorials/merchant/open-node
+
 - Soluzione per commercianti amatoriali: Swiss Bitcoin Pay
-- Soluzione per grandi strutture o appassionati di bitcoin: BTCpay Server
-  Altre soluzioni intermedie o concorrenti a queste scelte esistono ovviamente, le scoprirete man mano che vi immergerete nel mondo di Bitcoin. Se necessario, la sezione tutorial per i commercianti può guidarvi!
+
+https://planb.network/tutorials/merchant/swiss-bitcoin-pay-2
+
+- Soluzione per grandi strutture o appassionati di Bitcoin: BTCpay Server
+
+https://planb.network/courses/btc305
+
+Altre soluzioni intermedie o concorrenti a queste scelte esistono ovviamente, le scoprirete man mano che vi immergerete nel mondo di Bitcoin. Se necessario, la sezione tutorial per i commercianti può guidarvi!
 
 ## Risparmiare con Bitcoin
 
